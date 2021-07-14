@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="60" fill="#4A8580"/>
+  <line x1="0" y1="256" x2="512" y2="256" stroke="white" stroke-width="2" opacity="0.4"/>
+  <line x1="256" y1="0" x2="256" y2="512" stroke="white" stroke-width="2" opacity="0.4"/>
+  <path d="M 112,112 L 200,112 M 112,112 L 112,200 M 400,112 L 312,112 M 400,112 L 400,200 M 112,400 L 200,400 M 112,400 L 112,312 M 400,400 L 312,400 M 400,400 L 400,312"
+        fill="none" stroke="white" stroke-width="14" stroke-linecap="butt"/>
+  <rect x="180" y="180" width="152" height="152" fill="none" stroke="white" stroke-width="7" opacity="0.7"/>
+  <circle cx="256" cy="256" r="14" fill="white"/>
+  <text x="256" y="474" font-family="Arial, sans-serif" font-size="44" font-weight="bold" fill="white" text-anchor="middle" letter-spacing="6">KULMANLAB</text>
+</svg>
