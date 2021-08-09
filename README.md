@@ -10,12 +10,12 @@ KulmanLab is a lightweight, web-based CAD application for creating and editing 2
 
 ## Features
 
-- Draw lines, arcs, polylines, circles, rectangles, and splines
 - Snap-to-grid and object snapping for precise placement
 - Import and export DXF files (AutoCAD compatible)
 - Layer management with visibility and lock controls
 - Zoom, pan, and fit-to-view navigation
 - Keyboard shortcuts for common drawing commands
+- Snap indicators with visual feedback
 - Works entirely in the browser — no backend, no account required
 
 ## Getting Started
@@ -39,7 +39,7 @@ Open [kulmanlab.com](https://kulmanlab.com) in any modern browser and start draw
 ## Tech Stack
 
 - **Angular** — component framework
-- **Canvas API** — rendering engine
+- **Canvas API** — 2D rendering engine
 - **DXF parser/writer** — custom DXF import/export
 - **Firebase Hosting** — deployment
 
