@@ -26,7 +26,6 @@ Open [kulmanlab.com](https://kulmanlab.com) in any modern browser and start draw
 
 | Key | Action |
 |-----|--------|
-| `L` | Line tool |
 | `C` | Circle tool |
 | `R` | Rectangle tool |
 | `A` | Arc tool |
@@ -34,6 +33,7 @@ Open [kulmanlab.com](https://kulmanlab.com) in any modern browser and start draw
 | `Esc` | Cancel current command |
 | `Ctrl+Z` | Undo |
 | `Ctrl+Y` | Redo |
+| `F3` | Toggle object snap |
 | `Ctrl+S` | Save / export DXF |
 
 ## Tech Stack
