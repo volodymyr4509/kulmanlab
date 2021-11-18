@@ -28,8 +28,8 @@ Open [kulmanlab.com](https://kulmanlab.com) in any modern browser and start draw
 |-----|--------|
 | `C` | Circle tool |
 | `R` | Rectangle tool |
-| `A` | Arc tool |
 | `E` | Erase / delete |
+| `F8` | Toggle orthographic mode |
 | `Esc` | Cancel current command |
 | `Ctrl+Z` | Undo |
 | `Ctrl+Y` | Redo |
