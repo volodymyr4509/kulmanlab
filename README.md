@@ -38,8 +38,8 @@ Open [kulmanlab.com](https://kulmanlab.com) in any modern browser and start draw
 
 ## Tech Stack
 
-- **Angular** — component framework
 - **Canvas API** — 2D rendering engine
+- **IndexedDB** — local drawing persistence
 - **DXF parser/writer** — custom DXF import/export
 - **Firebase Hosting** — deployment
 
