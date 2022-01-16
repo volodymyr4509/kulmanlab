@@ -6,7 +6,7 @@
 
 ## What is KulmanLab?
 
-It integrates well into maker and fabrication workflows that rely on DXF file exchange. KulmanLab is a lightweight, web-based CAD application for creating and editing 2D technical drawings directly in your browser — no installation required.
+KulmanLab is actively developed and updated based on user feedback. It integrates well into maker and fabrication workflows that rely on DXF file exchange.
 
 ## Features
 
