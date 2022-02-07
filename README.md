@@ -31,8 +31,8 @@ Open [kulmanlab.com](https://kulmanlab.com) in any modern browser and start draw
 | `E` | Erase / delete |
 | `F8` | Toggle orthographic mode |
 | `Esc` | Cancel current command |
+| `Space` | Repeat last command |
 | `Ctrl+Z` | Undo |
-| `Ctrl+Y` | Redo |
 | `F3` | Toggle object snap |
 | `Ctrl+S` | Save / export DXF |
 
