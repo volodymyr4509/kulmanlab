@@ -10,8 +10,8 @@ KulmanLab is actively developed and updated based on user feedback. It integrate
 
 ## Features
 
-- Snap-to-grid and object snapping for precise placement
 - Import and export DXF files (AutoCAD compatible)
+- Print to PDF directly from the browser
 - Layer management with visibility and lock controls
 - Zoom, pan, and fit-to-view navigation
 - Keyboard shortcuts for common drawing commands
