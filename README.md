@@ -10,10 +10,10 @@ KulmanLab is actively developed and updated based on user feedback. It integrate
 
 ## Features
 
-- Import and export DXF files (AutoCAD compatible)
 - Print to PDF directly from the browser
 - Layer management with visibility and lock controls
 - Zoom, pan, and fit-to-view navigation
+- Command input bar for power users
 - Keyboard shortcuts for common drawing commands
 - Snap indicators with visual feedback
 - Works entirely in the browser — no backend, no account required
