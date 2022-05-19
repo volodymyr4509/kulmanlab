@@ -6,7 +6,7 @@
 
 ## What is KulmanLab?
 
-KulmanLab is actively developed and updated based on user feedback. It integrates well into maker and fabrication workflows that rely on DXF file exchange.
+KulmanLab is actively developed and updated based on user feedback. The application runs entirely client-side, meaning your drawings never leave your machine.
 
 ## Features
 
