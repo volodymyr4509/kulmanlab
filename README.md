@@ -6,7 +6,7 @@
 
 ## What is KulmanLab?
 
-KulmanLab is actively developed and updated based on user feedback. The application runs entirely client-side, meaning your drawings never leave your machine.
+The application runs entirely client-side, meaning your drawings never leave your machine. Perfect for hobbyists and professionals alike who need a capable CAD tool in the browser.
 
 ## Features
 
