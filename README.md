@@ -11,9 +11,9 @@ The application runs entirely client-side, meaning your drawings never leave you
 ## Features
 
 - Print to PDF directly from the browser
+- Dimension tools for annotating drawings with measurements
 - Layer management with visibility and lock controls
 - Zoom, pan, and fit-to-view navigation
-- Command input bar for power users
 - Keyboard shortcuts for common drawing commands
 - Snap indicators with visual feedback
 - Works entirely in the browser — no backend, no account required
