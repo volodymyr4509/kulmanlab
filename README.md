@@ -10,13 +10,13 @@ KulmanLab is a lightweight, web-based CAD application for creating and editing 2
 
 ## Features
 
-- Offset tool for creating parallel geometry
 - Print to PDF directly from the browser
 - Dimension tools for annotating drawings with measurements
 - Layer management with visibility and lock controls
 - Zoom, pan, and fit-to-view navigation
 - Snap indicators with visual feedback
 - Works entirely in the browser — no backend, no account required
+- Area and perimeter measurement tools
 
 ## Getting Started
 
