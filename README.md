@@ -39,8 +39,8 @@ Open [kulmanlab.com](https://kulmanlab.com) in any modern browser and start draw
 ## Tech Stack
 
 - **Angular Material** — UI component library
-- **Canvas API** — 2D rendering engine
 - **IndexedDB** — local drawing persistence
+- **ESLint** — code quality linting
 - **DXF parser/writer** — custom DXF import/export
 
 ## Development
