@@ -27,13 +27,13 @@ Open [kulmanlab.com](https://kulmanlab.com) in any modern browser and start draw
 | Key | Action |
 |-----|--------|
 | `P` | Polyline tool |
+| `Ctrl+Y` | Redo |
 | `C` | Circle tool |
 | `R` | Rectangle tool |
 | `E` | Erase / delete |
 | `F8` | Toggle orthographic mode |
 | `Space` | Repeat last command |
 | `Ctrl+Z` | Undo |
-| `F3` | Toggle object snap |
 | `Ctrl+S` | Save / export DXF |
 
 ## Tech Stack
