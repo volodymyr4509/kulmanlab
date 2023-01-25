@@ -41,7 +41,7 @@ Open [kulmanlab.com](https://kulmanlab.com) in any modern browser and start draw
 - **Angular Material** — UI component library
 - **IndexedDB** — local drawing persistence
 - **ESLint** — code quality linting
-- **DXF parser/writer** — custom DXF import/export
+- **TypeScript** — typed JavaScript for reliability
 
 ## Development
 
