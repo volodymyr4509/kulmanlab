@@ -38,8 +38,8 @@ Open [kulmanlab.com](https://kulmanlab.com) in any modern browser and start draw
 
 ## Tech Stack
 
+- **Firebase Hosting** — deployment
 - **Angular Material** — UI component library
-- **IndexedDB** — local drawing persistence
 - **ESLint** — code quality linting
 - **TypeScript** — typed JavaScript for reliability
 
