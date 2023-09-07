@@ -13,8 +13,8 @@ The rendering engine handles drawings with thousands of objects without performa
 - Dimension tools for annotating drawings with measurements
 - Layer management with visibility and lock controls
 - Snap indicators with visual feedback
+- Auto-save to browser local storage
 - Selection filters by entity type
-- Works entirely in the browser — no backend, no account required
 - Copy, move, rotate, and mirror operations
 - Area and perimeter measurement tools
 
