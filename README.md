@@ -12,11 +12,11 @@ The rendering engine handles drawings with thousands of objects without performa
 
 - Dimension tools for annotating drawings with measurements
 - Layer management with visibility and lock controls
+- Hatch pattern fill for closed regions
 - Snap indicators with visual feedback
 - Auto-save to browser local storage
 - Selection filters by entity type
 - Copy, move, rotate, and mirror operations
-- Area and perimeter measurement tools
 
 ## Getting Started
 
