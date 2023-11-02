@@ -14,8 +14,8 @@ The rendering engine handles drawings with thousands of objects without performa
 - Layer management with visibility and lock controls
 - Hatch pattern fill for closed regions
 - Snap indicators with visual feedback
+- Undo/redo history with up to 100 steps
 - Auto-save to browser local storage
-- Selection filters by entity type
 - Copy, move, rotate, and mirror operations
 
 ## Getting Started
