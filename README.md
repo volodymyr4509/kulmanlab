@@ -27,11 +27,11 @@ Open [kulmanlab.com](https://kulmanlab.com) in any modern browser and start draw
 | Key | Action |
 |-----|--------|
 | `P` | Polyline tool |
+| `F` | Fillet tool |
 | `R` | Rectangle tool |
 | `E` | Erase / delete |
 | `F8` | Toggle orthographic mode |
 | `Ctrl+O` | Open file |
-| `Space` | Repeat last command |
 | `Ctrl+Z` | Undo |
 | `Ctrl+S` | Save / export DXF |
 | `L` | Line tool |
