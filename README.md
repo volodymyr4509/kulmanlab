@@ -13,10 +13,10 @@ The rendering engine handles drawings with thousands of objects without performa
 - Dimension tools for annotating drawings with measurements
 - Color and linetype assignment per layer
 - Layer management with visibility and lock controls
-- Hatch pattern fill for closed regions
 - Undo/redo history with up to 100 steps
 - Auto-save to browser local storage
 - Copy, move, rotate, and mirror operations
+- Snap indicators with visual feedback
 
 ## Getting Started
 
