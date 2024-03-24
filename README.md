@@ -39,9 +39,9 @@ Open [kulmanlab.com](https://kulmanlab.com) in any modern browser and start draw
 ## Tech Stack
 
 - **Angular Material** — UI component library
-- **ESLint** — code quality linting
 - **TypeScript** — typed JavaScript for reliability
 - **Karma + Jasmine** — unit testing
+- **ESLint** — code quality linting
 
 ## Development
 
