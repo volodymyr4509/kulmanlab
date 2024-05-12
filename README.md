@@ -10,8 +10,8 @@ The rendering engine handles drawings with thousands of objects without performa
 
 ## Features
 
+- Keyboard shortcuts for common drawing commands
 - Dimension tools for annotating drawings with measurements
-- Color and linetype assignment per layer
 - Layer management with visibility and lock controls
 - Undo/redo history with up to 100 steps
 - Auto-save to browser local storage
