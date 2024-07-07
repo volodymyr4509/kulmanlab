@@ -6,7 +6,7 @@
 
 ## What is KulmanLab?
 
-The rendering engine handles drawings with thousands of objects without performance degradation. KulmanLab is a lightweight, web-based CAD application for creating and editing 2D technical drawings directly in your browser — no installation required.
+It is designed for engineers, designers, and makers who need a fast, accessible tool for drafting, annotation, and DXF file management. KulmanLab is a lightweight, web-based CAD application for creating and editing 2D technical drawings directly in your browser — no installation required.
 
 ## Features
 
