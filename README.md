@@ -11,8 +11,8 @@ KulmanLab is a lightweight, web-based CAD application for creating and editing 2
 ## Features
 
 - Keyboard shortcuts for common drawing commands
+- Area and perimeter measurement tools
 - Dimension tools for annotating drawings with measurements
-- Layer management with visibility and lock controls
 - Undo/redo history with up to 100 steps
 - Auto-save to browser local storage
 - Copy, move, rotate, and mirror operations
