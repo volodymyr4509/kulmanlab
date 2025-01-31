@@ -6,7 +6,7 @@
 
 ## What is KulmanLab?
 
-KulmanLab is a lightweight, web-based CAD application for creating and editing 2D technical drawings directly in your browser — no installation required. Perfect for hobbyists and professionals alike who need a capable CAD tool in the browser.
+The application runs entirely client-side, meaning your drawings never leave your machine. Perfect for hobbyists and professionals alike who need a capable CAD tool in the browser.
 
 ## Features
 
