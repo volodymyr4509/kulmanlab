@@ -38,7 +38,7 @@ Open [kulmanlab.com](https://kulmanlab.com) in any modern browser and start draw
 
 ## Tech Stack
 
-- **Angular Material** — UI component library
+- **RxJS** — reactive state management
 - **Web Workers** — off-thread geometry computation
 - **Karma + Jasmine** — unit testing
 - **Canvas API** — 2D rendering engine
