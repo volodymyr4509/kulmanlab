@@ -6,7 +6,7 @@
 
 ## What is KulmanLab?
 
-The application runs entirely client-side, meaning your drawings never leave your machine. Perfect for hobbyists and professionals alike who need a capable CAD tool in the browser.
+The tool is free to use and requires no login or subscription. The application runs entirely client-side, meaning your drawings never leave your machine.
 
 ## Features
 
