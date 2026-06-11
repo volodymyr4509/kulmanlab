@@ -1,0 +1,107 @@
+# KulmanLab CAD — Command Reference
+
+> Complete reference for every command in KulmanLab CAD, a free browser-based CAD tool for drawing, editing, and exporting DXF files.
+
+KulmanLab CAD runs entirely in the browser — no installation required. This documentation covers all available commands grouped by category.
+
+## App
+
+https://kulmanlab.com/
+
+## Docs index
+
+https://kulmanlab.com/docs/
+
+## Source code
+
+https://github.com/volodymyr4509/kulmanlab
+
+## Shapes
+
+- [Line](https://kulmanlab.com/docs/commands/line): Draw a straight line between two points. Chains end-to-end automatically. Supports angle locking and exact length input.
+- [Polyline](https://kulmanlab.com/docs/commands/polyline): Draw a multi-segment open path stored as a single LWPOLYLINE entity.
+- [Rectangle](https://kulmanlab.com/docs/commands/rectangle): Draw an axis-aligned rectangle by picking two opposite corners.
+- [Circle](https://kulmanlab.com/docs/commands/circle): Draw a circle by center point and radius.
+- [Arc](https://kulmanlab.com/docs/commands/arc): Draw an arc by picking three points (start, a point on the arc, end).
+- [Ellipse](https://kulmanlab.com/docs/commands/ellipse): Draw an ellipse by center, one axis endpoint, and a ratio.
+- [Text](https://kulmanlab.com/docs/commands/text): Place a multi-line MTEXT label — click a position, type in the popup editor, press Escape to commit. Double-click any existing label to reopen the editor.
+- [Spline CV](https://kulmanlab.com/docs/commands/spline-cv): Draw a spline by placing control vertices (B-spline approximation).
+- [Spline Fit](https://kulmanlab.com/docs/commands/spline-fit): Draw a spline that passes through every clicked point.
+
+## Edit
+
+- [Move](https://kulmanlab.com/docs/commands/move): Move selected entities to a new position using a base point and destination.
+- [Copy](https://kulmanlab.com/docs/commands/copy): Copy selected entities to one or more positions.
+- [Rotate](https://kulmanlab.com/docs/commands/rotate): Rotate selected entities around a base point by a specified angle.
+- [Mirror](https://kulmanlab.com/docs/commands/mirror): Mirror selected entities across a two-point line.
+- [Scale](https://kulmanlab.com/docs/commands/scale): Scale selected entities around a base point by a numeric factor.
+- [Delete](https://kulmanlab.com/docs/commands/delete): Remove selected entities from the drawing.
+- [Trim](https://kulmanlab.com/docs/commands/trim): Trim a line segment at its intersection with another entity.
+- [Extend](https://kulmanlab.com/docs/commands/extend): Extend a line to the nearest boundary intersection.
+- [Offset](https://kulmanlab.com/docs/commands/offset): Create a parallel copy of a line or polyline at a given distance.
+- [Fillet](https://kulmanlab.com/docs/commands/fillet): Round a corner between two lines with a tangent arc.
+- [Chamfer](https://kulmanlab.com/docs/commands/chamfer): Cut a straight diagonal corner between two lines or polylines.
+- [Undo](https://kulmanlab.com/docs/commands/undo): Undo the last action.
+- [Redo](https://kulmanlab.com/docs/commands/redo): Redo the last undone action.
+
+## Markup (Dimensions & Leaders)
+
+- [Leader](https://kulmanlab.com/docs/commands/leader): Draw a multileader annotation with an arrowhead and text label.
+- [Leader+](https://kulmanlab.com/docs/commands/leader-add): Add an extra arm to an existing multileader.
+- [Leader−](https://kulmanlab.com/docs/commands/leader-remove): Remove an arm from an existing multileader.
+- [Dimension Linear](https://kulmanlab.com/docs/commands/dim-linear): Add a horizontal or vertical dimension between two points.
+- [Dimension Aligned](https://kulmanlab.com/docs/commands/dim-aligned): Add a dimension aligned to two points at any angle.
+- [Dimension Continue](https://kulmanlab.com/docs/commands/dim-continue): Chain a new dimension from the endpoint of the last dimension.
+- [Dimension Radius](https://kulmanlab.com/docs/commands/dim-radius): Add a radius dimension to a circle or arc.
+- [Dimension Diameter](https://kulmanlab.com/docs/commands/dim-diameter): Add a diameter dimension to a circle.
+- [Dimension Angular](https://kulmanlab.com/docs/commands/dim-angular): Add an angular dimension to two lines, an arc, or a circle.
+
+## Layer
+
+- [LayerMakeCurrent](https://kulmanlab.com/docs/commands/layer-make-current): Set the active layer to match a clicked entity's layer.
+- [LayerMatch](https://kulmanlab.com/docs/commands/layer-match): Reassign selected entities to match the layer of a source entity.
+- [LayerIsolate](https://kulmanlab.com/docs/commands/layer-isolate): Freeze all layers except those of the selected entities.
+- [LayerUnfreezeAll](https://kulmanlab.com/docs/commands/layer-unfreeze-all): Unfreeze all layers in one step.
+
+## Layouts & Viewports
+
+- [ViewportRectangle](https://kulmanlab.com/docs/commands/viewport-rectangle): Create a viewport in a paper layout by picking two opposite corners.
+- [ViewportCopy](https://kulmanlab.com/docs/commands/viewport-copy): Duplicate a viewport to a new position, preserving scale and model view.
+- [PageManager](https://kulmanlab.com/docs/commands/page-manager): Edit paper size, orientation, and drawing unit scale for the active layout.
+
+## Navigate
+
+- [Pan](https://kulmanlab.com/docs/commands/pan): Click and drag to move the viewport.
+- [Zoom In](https://kulmanlab.com/docs/commands/zoom-in): Zoom the viewport in.
+- [Zoom Out](https://kulmanlab.com/docs/commands/zoom-out): Zoom the viewport out.
+- [Fit](https://kulmanlab.com/docs/commands/fit): Fit all entities into the viewport.
+
+## Interface
+
+- [Grid & Snap](https://kulmanlab.com/docs/interface/grid-snap): Toggle a reference grid and lock the cursor to grid points while drawing.
+- [Linetype](https://kulmanlab.com/docs/interface/linetype): Set the dash pattern applied to newly drawn entities (ByLayer, Continuous, or named linetypes).
+- [Lineweight](https://kulmanlab.com/docs/interface/lineweight): Set the stroke width applied to newly drawn entities (ByLayer, Default, or 0.00–2.11 mm).
+- [Text Editor](https://kulmanlab.com/docs/interface/text-editor): Rich-text popup editor for MTEXT labels — bold, italic, strikethrough, per-character font and height, multi-line, word wrap, and full cursor navigation.
+- Coordinate Entry: At any point prompt, type an X value, press `,`, type a Y value, press Enter to place an exact position. Works in all drawing and editing commands.
+
+## Measure
+
+- [Distance](https://kulmanlab.com/docs/commands/distance): Measure the straight-line distance between two points.
+- [Angle](https://kulmanlab.com/docs/commands/angle): Measure the angle between three points.
+
+## Style
+
+- [Match Properties](https://kulmanlab.com/docs/commands/match-properties): Copy color, layer, linetype, and other properties from one entity to others.
+
+## File
+
+- [Import](https://kulmanlab.com/docs/commands/import): Open a DXF or JSON drawing file.
+- [New File](https://kulmanlab.com/docs/commands/new-file): Start a fresh blank drawing.
+- [Files](https://kulmanlab.com/docs/commands/files): Browse and restore recent drawings from browser storage.
+- [Print](https://kulmanlab.com/docs/commands/print): Export a selected drawing area as an image or PDF.
+- [Export](https://kulmanlab.com/docs/commands/export): Download the drawing as DXF or JSON.
+- [WipeStorage](https://kulmanlab.com/docs/commands/wipestorage): Clear all drawings from browser storage.
+
+## Recovery
+
+- **?reset URL parameter**: If the app crashes on every startup (e.g. after working with extremely large coordinates), navigate to `https://kulmanlab.com/?resetKulmanLocalStorage` to clear all IndexedDB data and start fresh — no terminal access required. The parameter removes itself from the URL automatically.
