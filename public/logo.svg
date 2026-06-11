@@ -1,10 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
-  <rect width="200" height="200" rx="24" fill="#4A8580"/>
-  <line x1="0" y1="100" x2="200" y2="100" stroke="white" stroke-width="1.5" opacity="0.4"/>
-  <line x1="100" y1="0" x2="100" y2="200" stroke="white" stroke-width="1.5" opacity="0.4"/>
-  <path d="M 44,44 L 80,44 M 44,44 L 44,80 M 156,44 L 120,44 M 156,44 L 156,80 M 44,156 L 80,156 M 44,156 L 44,120 M 156,156 L 120,156 M 156,156 L 156,120"
-        fill="none" stroke="white" stroke-width="6" stroke-linecap="butt"/>
-  <rect x="70" y="70" width="60" height="60" fill="none" stroke="white" stroke-width="3" opacity="0.7"/>
-  <circle cx="100" cy="100" r="6" fill="white"/>
-  <text x="100" y="186" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle" letter-spacing="3">KULMANLAB</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Background -->
+  <rect width="32" height="32" rx="7" fill="#4A8580"/>
+  <!-- Subtle crosshair guides -->
+  <line x1="2" y1="16" x2="30" y2="16" stroke="white" stroke-width="0.5" opacity="0.2"/>
+  <line x1="16" y1="2" x2="16" y2="30" stroke="white" stroke-width="0.5" opacity="0.2"/>
+  <!-- Corner brackets -->
+  <path d="M 6,6 H 12 M 6,6 V 12  M 26,6 H 20 M 26,6 V 12  M 6,26 H 12 M 6,26 V 20  M 26,26 H 20 M 26,26 V 20"
+        fill="none" stroke="white" stroke-width="2.5" stroke-linecap="square"/>
+  <!-- Center crosshair mark -->
+  <line x1="13.5" y1="16" x2="18.5" y2="16" stroke="white" stroke-width="1.5" opacity="0.85"/>
+  <line x1="16" y1="13.5" x2="16" y2="18.5" stroke="white" stroke-width="1.5" opacity="0.85"/>
 </svg>
