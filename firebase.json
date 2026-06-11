@@ -1,7 +1,7 @@
 {
   "hosting": {
     "site": "kulman-b409e-f1e1f",
-    "public": "public",
+    "public": "dist",
     "ignore": [
       "firebase.json",
       "**/.*",
