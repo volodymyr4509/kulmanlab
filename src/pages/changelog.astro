@@ -1,0 +1,308 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const releases = [
+  {
+    version: '2026.06.10.580dba5',
+    date: 'June 10, 2026',
+    title: 'Text editor polish & web fonts',
+    highlights: [
+      'Text mirror now adjusts rotation and attachment point for readability',
+      'Web fonts available in the text editor font picker',
+      'Cursor height dynamically matches the text size at the cursor position',
+      'Strikethrough added to the text editor toolbar alongside Bold/Italic',
+      'Per-row line height and per-character text height & font (MTEXT)',
+      'MTEXT editor: frame sizing, live resize grip, and font dropdown',
+      'Empty lines now inherit height from the preceding text row',
+      'Text editing creates a single undo history entry on close',
+    ],
+  },
+  {
+    version: '2026.06.06.c01c797',
+    date: 'June 6, 2026',
+    title: 'On-canvas text editing',
+    highlights: [
+      'Edit text directly on the canvas with a blinking caret — no dialog needed',
+      'Text selection: Shift+Arrow keys, click, and click-drag',
+      'I-beam cursor while the text editor is active',
+      'Text editor toolbar: Bold and Italic toggles with cursor-aware active state',
+      'Caret and selection follow the active theme accent color',
+      'Move command shows a fully-opaque shadow preview of entities being moved',
+      'MTEXT wrap frame with four side-midpoint resize grips',
+      'Text frame grips work on text without an explicit reference width',
+    ],
+  },
+  {
+    version: '2026.06.03.7a0070a',
+    date: 'June 3, 2026',
+    title: 'Angle tracking, snap-to-grid & MTEXT',
+    highlights: [
+      'Configurable angle tracking: 10°, 15°, 20°, 30°, 45°, 90° increments via toolbar dropdown',
+      'Angle tracking arc indicator shown in sticky mode with crash recovery',
+      'Snap-to-grid toggle with dot grid rendered at grid intersections',
+      'Grid dots drawn on layout paper space, not inside viewports',
+      'Custom scale input added to the viewport scale dropdown',
+      'Multi-line MTEXT parsing and rendering with wrap box',
+      'Adaptive coordinate display precision scales with zoom level',
+    ],
+  },
+  {
+    version: '2026.05.31.c0decec',
+    date: 'May 31, 2026',
+    title: 'Keyboard X,Y entry for all commands & leader improvements',
+    highlights: [
+      'Type X,Y coordinates at any point prompt across Line, Polyline, Circle, Arc, Rectangle, Ellipse, Spline, Move, Copy, Rotate, Scale, Mirror, and more',
+      'Space bar confirms numeric input across all commands',
+      'Copy command is now sticky — place multiple copies until Enter or Esc',
+      'Distance and Angle measure commands now support keyboard entry with canvas labels',
+      'Dimension linear/aligned/continue support keyboard X,Y entry',
+      'Dimensions inherit the current color, linetype, and lineweight from the toolbar',
+      'Leader and Leader+/− improved: chain mode, X,Y typing, cursor navigation in text input',
+      'ViewportCopy and ViewportRectangle commands support X,Y point typing',
+      'Highlight locked length input in terminal prompts',
+    ],
+  },
+  {
+    version: '2026.05.27.60851ce',
+    date: 'May 27, 2026',
+    title: 'Print manager overhaul & toolbar icon redesign',
+    highlights: [
+      'Ctrl+P / Cmd+P intercepts browser print and opens the KulmanLab print manager',
+      'Print manager: zoom and pan the preview canvas, area selection mode',
+      'DPI/quality selector for PNG and WebP export',
+      'Exported PDFs now include title, creator, and date metadata',
+      'Render layout viewports in print manager preview',
+      'Layout context menu: rename layouts, delete layouts, right-click to open',
+      'Layout tabs: add, rename, delete layouts with alphanumeric validation',
+      'All toolbar icons redesigned: teal accent color, custom SVGs for Move, Mirror, Extend, Trim, Scale, Copy, and more',
+      'Dimension markup icons: grips on all arrow endpoints, improved arrow geometry',
+      'Paper format label shown on page manager preview',
+      'Ctrl/Cmd+P intercepted to prevent accidental browser print dialog',
+    ],
+  },
+  {
+    version: '2026.05.24.1a2d9cf',
+    date: 'May 24, 2026',
+    title: 'Layout mode & viewport editing',
+    highlights: [
+      'Select, move, and grip-edit viewports in layout space',
+      'Scroll and pan model content inside a selected viewport independently',
+      'ISO 5455 scale selector in the control bar; apply viewport scale live',
+      'Snap to model entities through viewport transforms in layout mode',
+      'Draw entities on layout paper space',
+      'Grid drawn inside viewports in layout mode',
+      'Undo/redo now covers layout entities and viewport structure changes',
+      'Lock toggle for viewports in the control bar',
+      'Auto-fit to paper when switching between layouts',
+      'Lineweight toggle button in the control bar',
+    ],
+  },
+  {
+    version: '2026.05.21.4ddef0d',
+    date: 'May 21, 2026',
+    title: 'Toolbar redesign & layer commands',
+    highlights: [
+      'Layer panel moved into the main toolbar with a two-row layout and larger icons',
+      'Teal (#4A8580) introduced as the app accent color',
+      'All toolbar panels restructured: Shapes, Edit, Markup, Navigate, Measure, Style',
+      'LayerIsolate command: freeze all layers except the active one',
+      'LayerUnfreezeAll command: unfreeze all layers at once',
+      'LayerMatch command: copy the layer from one entity to others',
+      'Match Properties available as a big-button in the Style panel',
+      'Toolbar labels renamed: ByLayer → From Layer for color, lineweight, and linetype',
+      'Command names rendered in UpperCamelCase in cursor widget and terminal',
+      'Enter/Esc/Space/Delete rendered as key chip badges in terminal prompts',
+    ],
+  },
+  {
+    version: '2026.05.18.8af6a0c',
+    date: 'May 18, 2026',
+    title: 'Match Properties, color picker & Properties panel',
+    highlights: [
+      'Match Properties command: copy color, layer, linetype, and lineweight between entities, supports area selection',
+      'Properties panel added to the toolbar showing entity details',
+      'Color selector in the toolbar with ByLayer/ByBlock support',
+      'Linetype selector in the Properties panel',
+      'Lineweight picker with graphical bars and ByLayer resolution',
+      'Lineweight support for all dimension entities',
+      'Persist layer, color, linetype, and lineweight settings across page refreshes',
+      'Google Material Symbols Outlined replaces older toolbar icon set',
+      'Default sample file loaded on first launch',
+    ],
+  },
+  {
+    version: '2026.05.15.56cc287',
+    date: 'May 15, 2026',
+    title: 'Angular dimension command',
+    highlights: [
+      'DimAngular command: measure angles between two lines or on arcs and circles',
+      'Angular dimension grips: radial/tangential snap modes for arc-endpoint grips',
+      'Text position controls (vertical and horizontal) for angular dimensions',
+      'Extension line extension (dimexe) applied to angular dimensions',
+      'Angular dimension arc correctly splits when text is inside',
+      'Arrowhead geometry: tip positioned at extension line, base midpoint on arc',
+      'Properties window is content-sized when small and scrollable when tall',
+    ],
+  },
+  {
+    version: '2026.04.30.8731507',
+    date: 'April 30, 2026',
+    title: 'Dimension grips, extension lines & arrowhead picker',
+    highlights: [
+      'Grip editing for all dimension entities: tips, arrowheads, and text position',
+      'Extension line offset (DIMEXO) and extension (DIMEXE) rendered per DXF spec',
+      'Arrowhead picker: square preview with leader line stub, filters anonymous blocks',
+      'Dimension text attachment point (group code 71) respected on import',
+      'Dimension hit-testing restricted to lines and text — not the full bounding box',
+      'Origin tick rendered as a dot sized to match line width',
+    ],
+  },
+  {
+    version: '2026.04.28.e887839',
+    date: 'April 28, 2026',
+    title: 'AutoCAD-style terminal & line chaining',
+    highlights: [
+      'Full AutoCAD-style command terminal: history log, command recall with arrow keys, floating layout',
+      'Line command is now continuous and chainable — each segment feeds the next start point',
+      'Tab cycles through command suggestions; arrow keys navigate the suggestion list',
+      'Blinking cursor in terminal during numeric input phases',
+      '"Command >" prefix shown while typing a command name',
+      'Leader+ command: append a new arm to an existing multileader',
+      'Polyline midpoint grips added — drag to insert a vertex or move the whole segment',
+      'Cancel active command when a new command is activated',
+    ],
+  },
+  {
+    version: '2026.04.25.37963b5',
+    date: 'April 25, 2026',
+    title: 'Multileader command (MLEADER)',
+    highlights: [
+      'MLEADER command: draw a multileader with arrowhead, dogleg, and text block',
+      'Angle locking for multileader arrowhead, arm vertex, and dogleg grips',
+      'Length input while angle-locked in MLEADER command',
+      'Green X marker shown at the locked endpoint during angle-locked drawing',
+      'Circle command: radius line preview and intersection marker on canvas',
+      'Ellipse command: axis-locked length input added',
+      'Unified prompt vocabulary across all commands',
+      'Default multileader landing gap increased from 0.09 to 0.2',
+    ],
+  },
+  {
+    version: '2026.04.21.3ee6fcd',
+    date: 'April 21, 2026',
+    title: 'Command terminal (preview) & UI improvements',
+    highlights: [
+      'Early version of the AutoCAD-style command terminal with history and suggestions',
+      'Blinking cursor added to terminal for numeric input phases',
+      'Ellipse grip editing with constrained orthogonal axes and on-canvas preview',
+      'Toolbar overflow fixed on narrow windows; status bar layout restored',
+      'Coordinates widget shown when there is enough horizontal space',
+      'Tab command suggestion cycling introduced',
+    ],
+  },
+  {
+    version: '2026.04.15.5fcb626',
+    date: 'April 15, 2026',
+    title: 'Angular upgrade, docs site & adaptive grid',
+    highlights: [
+      'Upgraded from Angular 19 → 20 → 21 with block control flow syntax',
+      'Full command reference documentation site launched',
+      'Adaptive AutoCAD-style grid added to the canvas',
+      'History panel added to the toolbar (Undo / History / Redo)',
+      'Documentation button added to the help panel',
+    ],
+  },
+];
+---
+
+<Layout
+  title="Changelog — KulmanLab"
+  description="Release notes for KulmanLab — a free browser-based 2D CAD editor. New features, fixes, and improvements shipped every few days."
+>
+
+  <header class="sticky top-0 z-50 border-b border-slate-800 bg-slate-900/90 backdrop-blur">
+    <nav class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+      <a href="/" class="flex items-center gap-2.5 transition-opacity hover:opacity-80">
+        <img src="/logo.svg" alt="KulmanLab logo" class="h-8 w-8 rounded-lg" />
+        <span class="font-bold tracking-tight text-slate-50">Kulman<span class="text-brand">Lab</span></span>
+      </a>
+      <div class="flex items-center gap-6">
+        <a href="/docs" class="text-sm text-slate-400 hover:text-slate-200 transition-colors">Docs</a>
+        <a href="/changelog" class="text-sm text-brand font-medium">Changelog</a>
+        <a
+          href="https://app.kulmanlab.com"
+          class="rounded-lg bg-brand px-4 py-2 text-sm font-medium text-white hover:bg-brand-light transition-colors"
+        >
+          Launch App
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="mx-auto max-w-3xl px-6 py-16">
+
+    <div class="mb-14">
+      <h1 class="mb-3 text-4xl font-bold text-slate-50">Changelog</h1>
+      <p class="text-slate-400 text-lg">What's new in KulmanLab — shipped continuously, no restart required.</p>
+    </div>
+
+    <div class="relative">
+      <!-- Timeline line -->
+      <div class="absolute left-0 top-2 bottom-0 w-px bg-slate-800 hidden md:block"></div>
+
+      <div class="space-y-14">
+        {releases.map((r) => (
+          <article class="relative md:pl-10">
+            <!-- Timeline dot -->
+            <div class="absolute left-0 top-[7px] -translate-x-[4.5px] hidden md:block">
+              <div class="h-2.5 w-2.5 rounded-full border-2 border-brand bg-slate-900"></div>
+            </div>
+
+            <!-- Header -->
+            <div class="mb-4">
+              <div class="flex flex-wrap items-baseline gap-3 mb-1">
+                <h2 class="text-xl font-bold text-slate-50">{r.title}</h2>
+              </div>
+              <div class="flex flex-wrap items-center gap-3">
+                <code class="text-xs font-mono text-brand bg-brand/10 border border-brand/20 rounded px-2 py-0.5">
+                  {r.version}
+                </code>
+                <span class="text-sm text-slate-500">{r.date}</span>
+              </div>
+            </div>
+
+            <!-- Changes -->
+            <ul class="space-y-2">
+              {r.highlights.map((item) => {
+                const isFeature = !item.toLowerCase().startsWith('fix') && !item.toLowerCase().startsWith('revert');
+                return (
+                  <li class="flex items-start gap-3 text-sm text-slate-300 leading-relaxed">
+                    <span class={`mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full ${isFeature ? 'bg-brand' : 'bg-slate-500'}`}></span>
+                    {item}
+                  </li>
+                );
+              })}
+            </ul>
+          </article>
+        ))}
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="border-t border-slate-800 py-10 mt-16">
+    <div class="mx-auto max-w-6xl px-6 flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
+      <a href="/" class="flex items-center gap-2 transition-opacity hover:opacity-80">
+        <img src="/logo.svg" alt="KulmanLab" class="h-6 w-6 rounded" />
+        <span class="text-sm font-bold text-slate-400">Kulman<span class="text-brand/70">Lab</span></span>
+      </a>
+      <nav class="flex gap-6 text-sm text-slate-500">
+        <a href="https://app.kulmanlab.com" class="hover:text-slate-300 transition-colors">App</a>
+        <a href="/docs" class="hover:text-slate-300 transition-colors">Docs</a>
+        <a href="/changelog" class="hover:text-slate-300 transition-colors">Changelog</a>
+      </nav>
+      <p class="text-sm text-slate-600">© {new Date().getFullYear()} KulmanLab</p>
+    </div>
+  </footer>
+
+</Layout>
