@@ -134,4 +134,4 @@ When a polyline is selected the properties panel shows:
 
 Polylines are saved as `LWPOLYLINE` entities in the DXF file. All properties — vertex coordinates, closed flag, color, layer, linetype, linetype scale, and thickness — round-trip without loss. Rectangles drawn with the [Rectangle](./rectangle) command also save as `LWPOLYLINE` (closed, four vertices) and are indistinguishable at the DXF level.
 
-`LWPOLYLINE` entities from any DXF-compatible application (AutoCAD, LibreCAD, etc.) are read back as fully editable polylines in the editor.
+`LWPOLYLINE` entities from any DXF-compatible application (LibreCAD, FreeCAD, etc.) are read back as fully editable polylines in the editor.

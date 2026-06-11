@@ -1,8 +1,8 @@
 ---
 sidebar_position: 5
 title: Export — Download Drawings as DXF or JSON in KulmanLab CAD
-description: The Export command downloads the current drawing as a DXF (AutoCAD) or JSON (native) file. JSON preserves all entities including dimensions and leaders; DXF is compatible with AutoCAD and other CAD tools.
-keywords: [export DXF, export CAD file, download DXF browser, save DXF online, export JSON CAD, KulmanLab export, CAD file download, AutoCAD DXF export, save drawing to file, DXF download]
+description: The Export command downloads the current drawing as a DXF () or JSON (native) file. JSON preserves all entities including dimensions and leaders; DXF is compatible with  and other CAD tools.
+keywords: [export DXF, export CAD file, download DXF browser, save DXF online, export JSON CAD, KulmanLab export, CAD file download, DXF export, save drawing to file, DXF download]
 ---
 
 # Export
@@ -21,11 +21,11 @@ The **Export** command downloads the current drawing to your file system. Two fo
 | Format | Extension | Best for | Limitations |
 |--------|-----------|----------|-------------|
 | **JSON** *(native)* | `.json` | Saving work to reopen in KulmanLab CAD | Not compatible with other CAD tools |
-| **DXF** | `.dxf` | Sharing with AutoCAD, FreeCAD, LibreCAD, etc. | Dimensions and leaders are not exported |
+| **DXF** | `.dxf` | Sharing with , FreeCAD, LibreCAD, etc. | Dimensions and leaders are not exported |
 
 **When to use JSON:** anytime you want to save a complete copy of your work. JSON is KulmanLab's native format and preserves every entity exactly — including dimensions, leaders, and all layer data.
 
-**When to use DXF:** when you need to hand off the drawing to someone using another CAD application. The exported file uses AutoCAD 2010 DXF format and can be opened in most DXF-compatible tools.
+**When to use DXF:** when you need to hand off the drawing to someone using another CAD application. The exported file uses AC1012 DXF format and can be opened in most DXF-compatible tools.
 
 ## What is exported per format
 
