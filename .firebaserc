@@ -1,5 +1,12 @@
 {
   "projects": {
-    "default": "kulman-b409e-f1e1f"
+    "default": "kulman-b409e"
+  },
+  "targets": {
+    "kulman-b409e": {
+      "hosting": {
+        "kulmanlab": ["kulman-b409e-f1e1f"]
+      }
+    }
   }
 }
