@@ -76,9 +76,9 @@ const stats = [
   <!-- ── Navigation ─────────────────────────────────────── -->
   <header class="sticky top-0 z-50 border-b border-slate-800 bg-slate-900/90 backdrop-blur">
     <nav class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-      <a href="/" class="flex items-center gap-3 text-slate-50 hover:text-brand transition-colors">
+      <a href="/" class="flex items-center gap-2.5 transition-opacity hover:opacity-80">
         <img src="/logo.svg" alt="KulmanLab logo" class="h-8 w-8 rounded-lg" />
-        <span class="font-semibold tracking-wide">KulmanLab</span>
+        <span class="font-bold tracking-tight text-slate-50">Kulman<span class="text-brand">Lab</span></span>
       </a>
       <div class="flex items-center gap-6">
         <a href={DOCS_URL} class="text-sm text-slate-400 hover:text-slate-200 transition-colors">Docs</a>
@@ -95,7 +95,7 @@ const stats = [
   <main>
 
     <!-- ── Hero ──────────────────────────────────────────── -->
-    <section class="relative overflow-hidden border-b border-slate-800 pt-20 pb-0 md:pt-28">
+    <section class="relative overflow-hidden border-b border-slate-800 pt-10 pb-0 md:pt-14">
       <!-- Background decorations -->
       <div class="pointer-events-none absolute inset-0">
         <div class="absolute inset-0 opacity-[0.045]"
@@ -369,9 +369,9 @@ const stats = [
   <!-- ── Footer ────────────────────────────────────────── -->
   <footer class="border-t border-slate-800 py-10">
     <div class="mx-auto max-w-6xl px-6 flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
-      <a href="/" class="flex items-center gap-2 text-slate-400 hover:text-slate-200 transition-colors">
+      <a href="/" class="flex items-center gap-2 transition-opacity hover:opacity-80">
         <img src="/logo.svg" alt="KulmanLab" class="h-6 w-6 rounded" />
-        <span class="text-sm font-medium">KulmanLab</span>
+        <span class="text-sm font-bold text-slate-400">Kulman<span class="text-brand/70">Lab</span></span>
       </a>
       <nav class="flex gap-6 text-sm text-slate-500">
         <a href={APP_URL} class="hover:text-slate-300 transition-colors">App</a>
