@@ -86,4 +86,4 @@ Hard line breaks and per-character formatting are stored using the MTEXT format 
 
 ## DXF compatibility
 
-Text entities are stored as **MTEXT** in DXF files. Bold and italic are encoded as `\L`, `\K`, `\O`, and inline font switches (`\f`). Per-character height is encoded as `\H`. All formatting is preserved on export and readable by AutoCAD, LibreCAD, and other DXF-compatible applications.
+Text entities are stored as **MTEXT** in DXF files. Bold and italic are encoded as `\L`, `\K`, `\O`, and inline font switches (`\f`). Per-character height is encoded as `\H`. All formatting is preserved on export and readable by LibreCAD, FreeCAD, and other DXF-compatible applications.

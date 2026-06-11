@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Match Properties — Copy Entity Properties in KulmanLab CAD
-description: The MatchProperties command copies color, layer, and other shared properties from a source entity to one or more target entities. Works like AutoCAD's MATCHPROP.
+description: The MatchProperties command copies color, layer, and other shared properties from a source entity to one or more target entities. Matches properties the same way desktop CAD tools do.
 keywords: [match properties CAD, copy entity properties, MATCHPROP, match layer color, transfer properties, kulmanlab match properties, paint properties, copy layer CAD]
 ---
 

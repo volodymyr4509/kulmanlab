@@ -137,4 +137,4 @@ All fields are editable directly in the panel without re-running the command.
 
 Lines are saved as `LINE` entities in the DXF file. Every property — start/end coordinates, color, layer, linetype, linetype scale, and thickness — round-trips without loss. When you open a DXF that contains `LINE` entities they become fully editable `Line` objects in the editor.
 
-Lines drawn in the editor are also written as `LINE` entities on save, so they are readable by AutoCAD, LibreCAD, and any other DXF-compatible application.
+Lines drawn in the editor are also written as `LINE` entities on save, so they are readable by LibreCAD, FreeCAD, and any other DXF-compatible application.

@@ -114,4 +114,4 @@ Text does not have Linetype, Linetype Scale, or Thickness properties.
 
 ## DXF — MTEXT entity
 
-Text labels are stored as **MTEXT** entities in the DXF file. Bold and italic are encoded using `\L`, `\K`, `\O`, and inline font switches (`\f`). Per-character height is encoded as `\H`. All formatting survives a full DXF round-trip and is readable by AutoCAD, LibreCAD, and other DXF-compatible applications.
+Text labels are stored as **MTEXT** entities in the DXF file. Bold and italic are encoded using `\L`, `\K`, `\O`, and inline font switches (`\f`). Per-character height is encoded as `\H`. All formatting survives a full DXF round-trip and is readable by LibreCAD, FreeCAD, and other DXF-compatible applications.

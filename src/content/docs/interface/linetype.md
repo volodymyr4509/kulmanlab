@@ -36,4 +36,4 @@ If you need a specific linetype (e.g. `DASHED2`) that is not in the list, import
 
 ## DXF compatibility
 
-Linetype names are stored as strings in entity records. `ByLayer` and `ByBlock` are the standard DXF sentinel values. All named linetypes and their dash patterns are preserved exactly on export and round-trip without loss in AutoCAD, LibreCAD, and other DXF-compatible applications.
+Linetype names are stored as strings in entity records. `ByLayer` and `ByBlock` are the standard DXF sentinel values. All named linetypes and their dash patterns are preserved exactly on export and round-trip without loss in LibreCAD, FreeCAD, and other DXF-compatible applications.

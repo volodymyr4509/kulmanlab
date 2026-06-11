@@ -35,7 +35,7 @@ KulmanLab is a web-based CAD editor built for engineers, designers, drafters, an
 - Complete dimensioning suite: linear, aligned, radius, diameter, angular, continue
 - Multileader annotations with customizable arrowheads
 - Layer management: freeze, lock, isolate, color, linetype, lineweight
-- DXF import and export (AutoCAD 2018 / AC1032 format)
+- DXF import and export (AC1032 format)
 - Grip editing — drag geometry directly on canvas
 - Object snapping: endpoint, intersection, perpendicular, angle lock
 - Undo / redo with per-file history
@@ -104,7 +104,7 @@ KulmanLab includes a complete dimensioning suite for annotated technical drawing
 | **Angular** | Measure the angle between two lines. |
 | **Continue** | Chain a sequence of dimensions from the endpoint of the previous one. |
 
-All dimension entities are stored as standard DXF DIMENSION objects and are compatible with AutoCAD and LibreCAD.
+All dimension entities are stored as standard DXF DIMENSION objects and are compatible with LibreCAD and other DXF tools.
 
 ---
 
@@ -114,7 +114,7 @@ Every drawing entity belongs to a layer. KulmanLab provides full layer managemen
 
 **Layer properties:**
 - **Name** — unique identifier
-- **Color** — AutoCAD Color Index (ACI), applied to all entities set to ByLayer
+- **Color** — ACI color index, applied to all entities set to ByLayer
 - **Linetype** — Continuous, Dashed, ByLayer, and others
 - **Lineweight** — controls printed line thickness
 - **Frozen** — hides the layer and excludes it from snap detection
@@ -180,7 +180,7 @@ Type a numeric value while dragging a grip to set an exact displacement or dista
 
 ## DXF Import & Export
 
-KulmanLab reads and writes **DXF AC1032 (AutoCAD 2018)** files, the most widely supported version across CAD tools.
+KulmanLab reads and writes **AC1032 DXF** files, the most widely supported version across CAD tools.
 
 ### Supported import entities
 
@@ -203,7 +203,7 @@ KulmanLab reads and writes **DXF AC1032 (AutoCAD 2018)** files, the most widely 
 
 ### Export
 
-Exported DXF files are valid and open correctly in AutoCAD, LibreCAD, FreeCAD, QCAD, and other DXF-compatible software. All entity properties — color, layer, linetype, lineweight, handles — are preserved on export.
+Exported DXF files are valid and open correctly in LibreCAD, FreeCAD, QCAD, BricsCAD, and other DXF-compatible software. All entity properties — color, layer, linetype, lineweight, handles — are preserved on export.
 
 ---
 
@@ -305,7 +305,7 @@ KulmanLab is focused on 2D drafting. The following are outside its current scope
 - Need a quick, capable 2D CAD tool without installing software
 - Work with DXF files for CNC machining, laser cutting, or fabrication
 - Want to sketch, annotate, or review a technical drawing on any desktop browser
-- Are an AutoCAD user who needs a lightweight alternative for simple tasks
+- Need a lightweight browser-based tool for simple DXF editing tasks
 - Prefer a tool where your files never leave your computer
 
 **KulmanLab is not the right tool if you:**

@@ -1,13 +1,13 @@
 ---
 sidebar_position: 1
 title: Import — Open DXF or JSON Files in KulmanLab CAD
-description: Use the Import command to open AutoCAD DXF or KulmanLab JSON files in KulmanLab CAD. Supports lines, circles, arcs, polylines, splines, text, dimensions, and leaders.
-keywords: [import DXF file, open DXF in browser, import CAD file online, open AutoCAD file, DXF viewer browser, import JSON CAD, KulmanLab import, free CAD DXF viewer, load drawing, DXF to browser]
+description: Use the Import command to open DXF or KulmanLab JSON files in KulmanLab CAD. Supports lines, circles, arcs, polylines, splines, text, dimensions, and leaders.
+keywords: [import DXF file, open DXF in browser, import CAD file online, open DXF file, DXF viewer browser, import JSON CAD, KulmanLab import, free CAD DXF viewer, load drawing, DXF to browser]
 ---
 
 # Import
 
-The **Import** command loads an existing drawing from your local file system into KulmanLab CAD. Both the standard AutoCAD **DXF** format and KulmanLab's own **JSON** format are supported.
+The **Import** command loads an existing drawing from your local file system into KulmanLab CAD. Both the standard  **DXF** format and KulmanLab's own **JSON** format are supported.
 
 ## How to import a file
 
@@ -21,7 +21,7 @@ Alternatively, you can drag and drop a file directly onto the canvas.
 
 | Format | Extension | When to use |
 |--------|-----------|-------------|
-| **DXF** | `.dxf` | Drawings from AutoCAD, FreeCAD, LibreCAD, or other CAD tools |
+| **DXF** | `.dxf` | Drawings from , FreeCAD, LibreCAD, or other CAD tools |
 | **JSON** *(native)* | `.json` | Drawings previously saved from KulmanLab CAD — full fidelity |
 
 ## What gets imported from DXF
@@ -64,7 +64,7 @@ KulmanLab automatically reopens the most recently edited file when the page load
 |---------|-------------|-----|
 | Canvas is empty after import | DXF entities use unsupported types (e.g. HATCH, INSERT) | The entities were skipped — check for the "no entities found" message in the terminal |
 | Import button does nothing | Browser blocked the file picker | Click the button once more; some browsers require a fresh user gesture |
-| Dimensions look wrong | DXF from a tool that writes non-standard dimension geometry | Re-export from the source app using AutoCAD 2010 or later DXF |
+| Dimensions look wrong | DXF from a tool that writes non-standard dimension geometry | Re-export from the source app using a current DXF version |
 
 ## Related commands
 

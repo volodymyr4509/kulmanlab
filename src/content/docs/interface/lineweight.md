@@ -31,4 +31,4 @@ Lineweights are rendered at a scale of **3.78 px per mm** (96 dpi). A 0.25 mm li
 
 ## DXF compatibility
 
-Lineweight values are stored as integers in hundredths of a millimetre (e.g. 25 = 0.25 mm) in the DXF `LWPOLYLINE`, `LINE`, `CIRCLE`, and other entity records. **From Layer** is stored as `-1` and **Default** as `-3`, matching the AutoCAD DXF specification. Files round-trip without loss in any DXF-compatible application.
+Lineweight values are stored as integers in hundredths of a millimetre (e.g. 25 = 0.25 mm) in the DXF `LWPOLYLINE`, `LINE`, `CIRCLE`, and other entity records. **From Layer** is stored as `-1` and **Default** as `-3`, matching the DXF specification. Files round-trip without loss in any DXF-compatible application.

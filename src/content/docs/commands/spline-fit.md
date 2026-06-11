@@ -105,4 +105,4 @@ Splines do not support **Offset**, **Trim**, or **Extend**.
 
 ## DXF — SPLINE entity (fit-point form)
 
-Fit splines are saved as `SPLINE` entities in the DXF file, storing both the fit point coordinates and the computed control vertices. The `splineFlag` is set to `8` (fit-point spline) so a reloading application knows which set of points to display as editable grips. All properties — color, layer, linetype, linetype scale, and thickness — round-trip without loss. DXF applications that support fit-point splines (AutoCAD, LibreCAD) will display the fit points as the primary editable data.
+Fit splines are saved as `SPLINE` entities in the DXF file, storing both the fit point coordinates and the computed control vertices. The `splineFlag` is set to `8` (fit-point spline) so a reloading application knows which set of points to display as editable grips. All properties — color, layer, linetype, linetype scale, and thickness — round-trip without loss. DXF applications that support fit-point splines (LibreCAD, FreeCAD) will display the fit points as the primary editable data.
