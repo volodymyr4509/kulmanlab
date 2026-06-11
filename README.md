@@ -342,19 +342,7 @@ npm run build      # production build → dist/
 npm run preview    # preview the production build locally
 ```
 
-### Docs (Docusaurus)
-
-```bash
-cd docs && npm install
-npm run start      # dev server at http://localhost:3000/docs
-npm run build      # production build → docs/build/
-```
-
-### Run both together
-
-```bash
-npm run dev:all    # landing page + docs; docs proxied to localhost:4321/docs
-```
+Docs are part of the same Astro site under `src/content/docs/` and are served at `/docs`.
 
 ---
 
