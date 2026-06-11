@@ -267,6 +267,59 @@ const stats = [
       </div>
     </section>
 
+    <!-- ── Workflow ──────────────────────────────────────── -->
+    <section class="py-24 border-b border-slate-800">
+      <div class="mx-auto max-w-6xl px-6">
+        <div class="mb-16 text-center">
+          <h2 class="mb-3 text-3xl font-bold text-slate-50">From sketch to print-ready sheet</h2>
+          <p class="text-slate-400 max-w-lg mx-auto">A complete drafting workflow in three steps, without leaving the browser.</p>
+        </div>
+
+        <div class="relative">
+          <!-- Connecting line (desktop) -->
+          <div class="pointer-events-none absolute hidden md:block top-10 h-px"
+            style="left: calc(16.67% + 40px); right: calc(16.67% + 40px); background: linear-gradient(to right, rgba(74,133,128,0.5), rgba(74,133,128,0.15) 50%, rgba(74,133,128,0.5));">
+          </div>
+
+          <div class="grid grid-cols-1 gap-14 md:grid-cols-3 md:gap-6">
+            {[
+              {
+                title: 'Model your drawing',
+                desc: 'Draw geometry with snap-to-point precision. Type exact X,Y coordinates, add dimensions, and organise by layer.',
+                icon: `<path stroke-linecap="round" stroke-linejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931z" />`,
+              },
+              {
+                title: 'Configure the sheet',
+                desc: 'Pick a paper format, set the drawing scale, and arrange model viewports on the layout canvas.',
+                icon: `<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 7.125C2.25 6.504 2.754 6 3.375 6h6c.621 0 1.125.504 1.125 1.125v3.75c0 .621-.504 1.125-1.125 1.125h-6a1.125 1.125 0 01-1.125-1.125v-3.75zM14.25 8.625c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v8.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-8.25zM3.75 16.125c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-2.25z" />`,
+              },
+              {
+                title: 'Print or export',
+                desc: 'Preview the layout at full fidelity and export to PDF, PNG, or DXF — ready for fabrication or client review.',
+                icon: `<path stroke-linecap="round" stroke-linejoin="round" d="M6.72 13.829c-.24.03-.48.062-.72.096m.72-.096a42.415 42.415 0 0110.56 0m-10.56 0L6.34 18m10.94-4.171c.24.03.48.062.72.096m-.72-.096L17.66 18m0 0l.229 2.523a1.125 1.125 0 01-1.12 1.227H7.231c-.662 0-1.18-.568-1.12-1.227L6.34 18m11.318 0h1.091A2.25 2.25 0 0021 15.75V9.456c0-1.081-.768-2.015-1.837-2.175a48.055 48.055 0 00-1.913-.247M6.34 18H5.25A2.25 2.25 0 013 15.75V9.456c0-1.081.768-2.015 1.837-2.175a48.041 48.041 0 011.913-.247m10.5 0a48.536 48.536 0 00-10.5 0m10.5 0V3.375c0-.621-.504-1.125-1.125-1.125h-8.25c-.621 0-1.125.504-1.125 1.125v3.659M18 10.5h.008v.008H18V10.5zm-3 0h.008v.008H15V10.5z" />`,
+              },
+            ].map((step, i) => (
+              <div class="flex flex-col items-center text-center">
+                <!-- Numbered icon -->
+                <div class="relative mb-7 z-10">
+                  <div class="flex h-20 w-20 items-center justify-center rounded-full bg-slate-900 ring-8 ring-slate-900">
+                    <div class="flex h-16 w-16 items-center justify-center rounded-full border border-brand/25 bg-brand/10">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" set:html={step.icon} />
+                    </div>
+                  </div>
+                  <span class="absolute -top-1 -right-1 flex h-6 w-6 items-center justify-center rounded-full bg-brand text-[11px] font-bold text-white shadow-lg shadow-brand/30">
+                    {i + 1}
+                  </span>
+                </div>
+                <h3 class="mb-2 text-lg font-semibold text-slate-50">{step.title}</h3>
+                <p class="text-sm text-slate-400 leading-relaxed max-w-[240px]">{step.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- ── Demo GIF ─────────────────────────────────────── -->
     <section class="py-20 border-b border-slate-800">
       <div class="mx-auto max-w-6xl px-6">
