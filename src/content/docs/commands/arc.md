@@ -112,4 +112,4 @@ Dragging a start or end grip repositions it to the drag location and recalculate
 
 ## DXF — ARC entity
 
-Arcs are saved as `ARC` entities in the DXF file, storing center coordinates, radius, start angle, and end angle. All properties — including color, layer, linetype, linetype scale, and thickness — round-trip without loss. Any DXF-compatible application (AutoCAD, LibreCAD, etc.) reads these as standard arcs.
+Arcs are saved as `ARC` entities in the DXF file, storing center coordinates, radius, start angle, and end angle. All properties — including color, layer, linetype, linetype scale, and thickness — round-trip without loss. Any DXF-compatible application (LibreCAD, FreeCAD, etc.) reads these as standard arcs.

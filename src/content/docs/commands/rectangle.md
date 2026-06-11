@@ -116,4 +116,4 @@ When a rectangle is selected the properties panel shows the same fields as any p
 
 Rectangles are saved as closed `LWPOLYLINE` entities with four vertices. All properties — vertex coordinates, color, layer, linetype, linetype scale, and thickness — round-trip without loss.
 
-There is no dedicated `RECTANGLE` type in DXF. When a file is reopened, the shape appears as a closed four-vertex polyline rather than a rectangle. Any DXF viewer or editor that supports `LWPOLYLINE` (AutoCAD, LibreCAD, etc.) will display it correctly.
+There is no dedicated `RECTANGLE` type in DXF. When a file is reopened, the shape appears as a closed four-vertex polyline rather than a rectangle. Any DXF viewer or editor that supports `LWPOLYLINE` (LibreCAD, FreeCAD, etc.) will display it correctly.
