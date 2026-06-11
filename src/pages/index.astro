@@ -293,13 +293,13 @@ const stats = [
             <div class="mb-3 inline-block rounded-full border border-brand/20 bg-brand/10 px-3 py-1 text-xs font-medium uppercase tracking-widest text-brand">Privacy first</div>
             <h2 class="mb-4 text-3xl font-bold text-slate-50">Your drawings never leave your machine</h2>
             <p class="mb-6 text-slate-400 leading-relaxed">
-              KulmanLab runs entirely in the browser. There is no server. Your DXF files are parsed locally, stored in your browser's IndexedDB, and exported from your browser — nothing is transmitted anywhere.
+              KulmanLab runs entirely in the browser. There is no server. Your DXF files are parsed locally, stored in your browser, and exported from your browser — your drawing content is never transmitted anywhere.
             </p>
             <ul class="space-y-3">
               {[
                 'No account or login required',
                 'No files uploaded to any server',
-                'Drawings persist locally via IndexedDB',
+                'Drawings stored locally in your browser',
                 'Works offline once loaded',
               ].map(item => (
                 <li class="flex items-center gap-3 text-slate-300">
@@ -313,18 +313,44 @@ const stats = [
               ))}
             </ul>
           </div>
-          <div class="relative rounded-xl border border-slate-700/60 bg-gradient-to-b from-slate-800/60 to-slate-900/60 p-10 text-center overflow-hidden">
+          <div class="relative rounded-xl border border-slate-700/60 bg-gradient-to-b from-slate-800/60 to-slate-900/60 p-8 overflow-hidden">
             <div class="pointer-events-none absolute inset-0 opacity-30"
               style="background: radial-gradient(ellipse at 50% 0%, #4A8580, transparent 70%);">
             </div>
             <div class="relative">
-              <div class="mx-auto mb-6 flex h-20 w-20 items-center justify-center rounded-full border border-brand/20 bg-brand/10">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+              <div class="mb-6 flex h-14 w-14 items-center justify-center rounded-full border border-brand/20 bg-brand/10">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
                 </svg>
               </div>
-              <p class="text-xl font-semibold text-slate-50 mb-2">Zero data collection</p>
-              <p class="text-slate-400 text-sm leading-relaxed">No analytics. No telemetry. No cookies.<br />KulmanLab does not know you exist.</p>
+              <p class="text-base font-semibold text-slate-50 mb-5">What we collect — and what we don't</p>
+              <div class="space-y-3 text-sm">
+                <div class="flex items-start gap-3">
+                  <span class="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-brand/15">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>
+                  </span>
+                  <div><span class="text-slate-200 font-medium">Your drawings & files</span><span class="text-slate-500"> — stay in your browser, never uploaded</span></div>
+                </div>
+                <div class="flex items-start gap-3">
+                  <span class="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-brand/15">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>
+                  </span>
+                  <div><span class="text-slate-200 font-medium">Settings & preferences</span><span class="text-slate-500"> — stored locally, nothing sent to us</span></div>
+                </div>
+                <div class="my-1 border-t border-slate-700/50"></div>
+                <div class="flex items-start gap-3">
+                  <span class="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-slate-700/60">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" /></svg>
+                  </span>
+                  <div><span class="text-slate-300 font-medium">Tool usage</span><span class="text-slate-500"> — anonymous events via Google Analytics (which commands you use, not your content)</span></div>
+                </div>
+                <div class="flex items-start gap-3">
+                  <span class="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-slate-700/60">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" /></svg>
+                  </span>
+                  <div><span class="text-slate-300 font-medium">Cookies</span><span class="text-slate-500"> — set by Google Analytics for session counting, no personal data</span></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
