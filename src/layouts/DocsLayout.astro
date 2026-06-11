@@ -177,33 +177,67 @@ const sidebar = [
     <div class="mx-auto flex max-w-screen-xl">
 
       <!-- Sidebar -->
-      <aside class="hidden lg:block sticky top-[57px] h-[calc(100vh-57px)] w-60 flex-shrink-0 overflow-y-auto border-r border-slate-800 px-4 py-8">
-        {sidebar.map(group => (
-          <div class="mb-6">
-            <div class="mb-1.5 px-3 text-xs font-semibold uppercase tracking-widest text-slate-500">
-              {group.title}
-            </div>
-            <ul>
-              {group.items.map(item => {
-                const active = currentPath === item.href;
-                return (
-                  <li>
-                    <a
-                      href={item.href}
-                      class={`block rounded px-3 py-1 text-sm transition-colors ${
-                        active
-                          ? 'bg-brand/10 text-brand font-medium'
-                          : 'text-slate-400 hover:text-slate-200'
-                      }`}
-                    >
-                      {item.label}
-                    </a>
-                  </li>
-                );
-              })}
-            </ul>
-          </div>
-        ))}
+      <aside class="hidden lg:block sticky top-[57px] h-[calc(100vh-57px)] w-64 flex-shrink-0 overflow-y-auto border-r border-slate-800 px-3 py-8">
+
+        <!-- Overview (always visible, not collapsible) -->
+        <div class="mb-2">
+          {sidebar[0].items.map(item => {
+            const active = currentPath === item.href;
+            return (
+              <a
+                href={item.href}
+                class={`flex items-center gap-2 rounded px-3 py-1.5 text-sm font-medium transition-colors ${
+                  active ? 'bg-brand/10 text-brand' : 'text-slate-300 hover:text-slate-50'
+                }`}
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                </svg>
+                {item.label}
+              </a>
+            );
+          })}
+        </div>
+
+        <div class="my-3 border-t border-slate-800" />
+
+        <!-- Collapsible sections -->
+        {sidebar.slice(1).map(group => {
+          const isOpen = group.items.some(item => currentPath === item.href);
+          return (
+            <details open={isOpen} class="group mb-1">
+              <summary class="flex cursor-pointer list-none items-center gap-2 rounded px-3 py-1.5 text-xs font-semibold uppercase tracking-widest text-slate-500 hover:text-slate-300 transition-colors select-none">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-3 w-3 flex-shrink-0 transition-transform group-open:rotate-90"
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"
+                >
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
+                {group.title}
+              </summary>
+              <ul class="ml-3 mt-0.5 border-l border-slate-800 pl-3">
+                {group.items.map(item => {
+                  const active = currentPath === item.href;
+                  return (
+                    <li>
+                      <a
+                        href={item.href}
+                        class={`block rounded-r py-1 pl-2 pr-3 text-sm transition-colors ${
+                          active
+                            ? 'border-l-2 -ml-[1px] border-brand text-brand font-medium bg-brand/5'
+                            : 'text-slate-400 hover:text-slate-200'
+                        }`}
+                      >
+                        {item.label}
+                      </a>
+                    </li>
+                  );
+                })}
+              </ul>
+            </details>
+          );
+        })}
       </aside>
 
       <!-- Content -->
