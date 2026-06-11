@@ -1,5 +1,28 @@
+# Dependencies
 node_modules/
+
+# Build output
 dist/
 .astro/
 docs/build/
 docs/.docusaurus/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
