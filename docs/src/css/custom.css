@@ -1,0 +1,37 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #4A8580;
+  --ifm-color-primary-dark: #3d6f6b;
+  --ifm-color-primary-darker: #376461;
+  --ifm-color-primary-darkest: #2a4e4b;
+  --ifm-color-primary-light: #5a9d97;
+  --ifm-color-primary-lighter: #65a8a3;
+  --ifm-color-primary-lightest: #7dbcb7;
+  --ifm-link-color: #4A8580;
+  --ifm-link-hover-color: #3d6f6b;
+  --ifm-menu-color-active: #4A8580;
+  --ifm-navbar-link-hover-color: #4A8580;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(74, 133, 128, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #5a9d97;
+  --ifm-color-primary-dark: #4A8580;
+  --ifm-color-primary-darker: #3d6f6b;
+  --ifm-color-primary-darkest: #2a4e4b;
+  --ifm-color-primary-light: #65a8a3;
+  --ifm-color-primary-lighter: #7dbcb7;
+  --ifm-color-primary-lightest: #95cac6;
+  --ifm-link-color: #5a9d97;
+  --ifm-link-hover-color: #65a8a3;
+  --ifm-menu-color-active: #5a9d97;
+  --ifm-navbar-link-hover-color: #5a9d97;
+  --docusaurus-highlighted-code-line-bg: rgba(90, 157, 151, 0.2);
+}
