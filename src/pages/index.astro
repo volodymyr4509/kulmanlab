@@ -142,59 +142,73 @@ const stats = [
         </div>
       </div>
 
-      <!-- App screenshot carousel — large, overlaps the section below -->
-      <div class="relative z-20 mx-auto max-w-5xl px-4 sm:px-6" style="margin-bottom: -80px;">
-        <!-- Ambient glow -->
-        <div class="pointer-events-none absolute -inset-x-8 -top-16 bottom-0 opacity-30 blur-3xl"
-          style="background: radial-gradient(ellipse at 50% 20%, #4A8580, transparent 65%);">
+      <!-- App screenshot carousel — window chrome frame, wide, overlaps next section -->
+      <div class="relative z-20 mx-auto max-w-[1100px] px-4 sm:px-6" style="margin-bottom: -100px;">
+
+        <!-- Deep glow pool beneath the screenshot -->
+        <div class="pointer-events-none absolute left-1/2 -translate-x-1/2 -bottom-8 w-3/4 h-48 blur-3xl opacity-45"
+          style="background: radial-gradient(ellipse, #4A8580, transparent 70%);">
         </div>
 
-        <!-- Perspective tilt wrapper -->
-        <div style="perspective: 1400px;">
-          <div id="carousel"
-            class="relative rounded-xl border border-slate-700/60 overflow-hidden"
-            style="transform: rotateX(4deg); transform-origin: top center; box-shadow: 0 50px 100px -20px rgba(0,0,0,0.85), 0 0 0 1px rgba(148,163,184,0.06);">
+        <!-- Gradient-border card -->
+        <div class="rounded-2xl p-px" style="background: linear-gradient(150deg, rgba(74,133,128,0.55) 0%, rgba(74,133,128,0.04) 45%, rgba(74,133,128,0.28) 100%); box-shadow: 0 60px 120px -20px rgba(0,0,0,0.95), 0 20px 40px -10px rgba(0,0,0,0.5);">
+          <div class="rounded-2xl overflow-hidden bg-slate-900">
 
-            <!-- Track -->
-            <div id="carousel-track" class="flex transition-transform duration-500 ease-in-out">
-              <img src="/images/app-screenshot.png" alt="KulmanLab CAD — bolt drawing with dimensions" class="w-full flex-shrink-0" />
-              <img src="/images/app-screenshot-3.png" alt="KulmanLab CAD — bolt drawing with layout tabs" class="w-full flex-shrink-0" />
-              <img src="/images/app-screenshot-2.png" alt="KulmanLab CAD — page manager dialog" class="w-full flex-shrink-0" />
+            <!-- Window titlebar -->
+            <div class="flex items-center bg-slate-800 px-4 py-2.5 border-b border-slate-700/50">
+              <div class="flex gap-1.5">
+                <div class="h-3 w-3 rounded-full bg-slate-600"></div>
+                <div class="h-3 w-3 rounded-full bg-slate-600"></div>
+                <div class="h-3 w-3 rounded-full bg-slate-600"></div>
+              </div>
+              <div class="flex-1 text-center text-xs text-slate-500">app.kulmanlab.com</div>
+              <div class="w-12 flex-shrink-0"></div>
             </div>
 
-            <!-- Prev / Next buttons -->
-            <button id="carousel-prev" aria-label="Previous screenshot"
-              class="absolute left-3 top-1/2 -translate-y-1/2 flex h-9 w-9 items-center justify-center rounded-full bg-slate-900/70 text-slate-300 hover:bg-slate-900 hover:text-white transition-colors">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
-              </svg>
-            </button>
-            <button id="carousel-next" aria-label="Next screenshot"
-              class="absolute right-3 top-1/2 -translate-y-1/2 flex h-9 w-9 items-center justify-center rounded-full bg-slate-900/70 text-slate-300 hover:bg-slate-900 hover:text-white transition-colors">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
-              </svg>
-            </button>
+            <!-- Carousel -->
+            <div class="relative overflow-hidden">
+              <div id="carousel-track" class="flex transition-transform duration-500 ease-in-out">
+                <img src="/images/app-screenshot.png" alt="KulmanLab CAD — bolt drawing with dimensions" class="w-full flex-shrink-0" />
+                <img src="/images/app-screenshot-3.png" alt="KulmanLab CAD — bolt drawing with layout tabs" class="w-full flex-shrink-0" />
+                <img src="/images/app-screenshot-2.png" alt="KulmanLab CAD — print layout view" class="w-full flex-shrink-0" />
+              </div>
 
-            <!-- Dots -->
-            <div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-1.5">
-              <button class="carousel-dot h-1.5 w-4 rounded-full bg-brand transition-all" data-index="0" aria-label="Slide 1"></button>
-              <button class="carousel-dot h-1.5 w-1.5 rounded-full bg-slate-600 transition-all" data-index="1" aria-label="Slide 2"></button>
-              <button class="carousel-dot h-1.5 w-1.5 rounded-full bg-slate-600 transition-all" data-index="2" aria-label="Slide 3"></button>
+              <!-- Prev / Next buttons -->
+              <button id="carousel-prev" aria-label="Previous screenshot"
+                class="absolute left-3 top-1/2 -translate-y-1/2 flex h-9 w-9 items-center justify-center rounded-full bg-slate-900/70 text-slate-300 hover:bg-slate-900 hover:text-white transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+                </svg>
+              </button>
+              <button id="carousel-next" aria-label="Next screenshot"
+                class="absolute right-3 top-1/2 -translate-y-1/2 flex h-9 w-9 items-center justify-center rounded-full bg-slate-900/70 text-slate-300 hover:bg-slate-900 hover:text-white transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
+              </button>
+
+              <!-- Dots -->
+              <div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-1.5">
+                <button class="carousel-dot h-1.5 w-4 rounded-full bg-brand transition-all" data-index="0" aria-label="Slide 1"></button>
+                <button class="carousel-dot h-1.5 w-1.5 rounded-full bg-slate-600 transition-all" data-index="1" aria-label="Slide 2"></button>
+                <button class="carousel-dot h-1.5 w-1.5 rounded-full bg-slate-600 transition-all" data-index="2" aria-label="Slide 3"></button>
+              </div>
             </div>
+
           </div>
         </div>
 
-        <!-- Gradient fade at the bottom of the screenshot -->
-        <div class="pointer-events-none absolute bottom-0 left-4 right-4 sm:left-6 sm:right-6 h-32 rounded-b-xl"
-          style="background: linear-gradient(to bottom, transparent 0%, rgba(15,23,42,0.85) 100%);">
+        <!-- Bottom fade -->
+        <div class="pointer-events-none absolute bottom-0 left-4 right-4 sm:left-6 sm:right-6 h-32 rounded-b-2xl"
+          style="background: linear-gradient(to bottom, transparent 0%, rgba(15,23,42,0.9) 100%);">
         </div>
+
       </div>
     </section>
 
     <!-- ── Stats bar ─────────────────────────────────────── -->
     <section class="relative z-10 border-b border-slate-800 bg-slate-900/50">
-      <div class="mx-auto max-w-6xl px-6 pt-28 pb-8">
+      <div class="mx-auto max-w-6xl px-6 pt-36 pb-8">
         <div class="grid grid-cols-2 gap-6 text-center sm:grid-cols-4">
           {stats.map(s => (
             <div>
