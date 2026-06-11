@@ -333,11 +333,13 @@ All geometry algorithms — snap, intersection, hit testing, DXF parsing, DXF se
 
 ## Development
 
+The landing page is an Astro static site.
+
 ```bash
 npm install
-npm start          # dev server at http://localhost:4200
-npm run build      # production build with obfuscation
-npm test           # unit tests via Karma + Jasmine
+npm run dev        # dev server at http://localhost:4321
+npm run build      # production build → dist/
+npm run preview    # preview the production build locally
 ```
 
 ---
