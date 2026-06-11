@@ -4,9 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "dev:all": "concurrently \"npm run dev\" \"npm run start --prefix docs\"",
     "build": "astro build",
-    "build:all": "npm run build && npm run build --prefix docs",
     "preview": "astro preview"
   },
   "dependencies": {
@@ -15,7 +13,5 @@
     "firebase": "^12.14.0",
     "tailwindcss": "^4.0.0"
   },
-  "devDependencies": {
-    "concurrently": "^9.0.0"
-  }
+  "devDependencies": {}
 }
