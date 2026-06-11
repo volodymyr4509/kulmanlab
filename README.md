@@ -333,13 +333,27 @@ All geometry algorithms — snap, intersection, hit testing, DXF parsing, DXF se
 
 ## Development
 
-The landing page is an Astro static site.
+### Landing page (Astro)
 
 ```bash
 npm install
 npm run dev        # dev server at http://localhost:4321
 npm run build      # production build → dist/
 npm run preview    # preview the production build locally
+```
+
+### Docs (Docusaurus)
+
+```bash
+cd docs && npm install
+npm run start      # dev server at http://localhost:3000/docs
+npm run build      # production build → docs/build/
+```
+
+### Run both together
+
+```bash
+npm run dev:all    # landing page + docs; docs proxied to localhost:4321/docs
 ```
 
 ---
