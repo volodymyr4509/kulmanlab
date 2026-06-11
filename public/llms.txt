@@ -1,0 +1,71 @@
+# KulmanLab
+
+> Free, browser-based 2D CAD editor. No installation, no account, no data uploaded — your files stay on your machine.
+
+## Links
+
+- App: https://app.kulmanlab.com
+- Landing page: https://kulmanlab.com
+- Docs: https://kulmanlab.com/docs
+- Changelog: https://kulmanlab.com/changelog
+- GitHub: https://github.com/volodymyr4509/kulmanlab
+- Reddit: https://www.reddit.com/r/kulmanlab/
+
+## Description
+
+KulmanLab is a professional-grade 2D CAD editor that runs entirely in the browser. There is nothing to install — open the URL and start drawing. All geometry is stored in your browser's localStorage; no file is ever sent to a server. The app works offline after the first load.
+
+It is designed for engineers, architects, and technical illustrators who need a capable DXF-compatible tool without the friction of desktop software or the privacy concerns of cloud CAD platforms.
+
+## Key features
+
+- Full command terminal with history, autocomplete, and keyboard navigation (like AutoCAD)
+- 50+ drawing commands: Line, Polyline, Circle, Arc, Ellipse, Rectangle, Spline, Hatch, Text (MTEXT), Dimensions, Leaders, and more
+- Layer management with color, linetype, and lineweight per layer
+- Grip editing on all entity types (lines, arcs, polylines, dimensions, text, viewports)
+- Snapping: endpoint, midpoint, center, intersection, perpendicular, tangent, nearest, grid
+- Angle tracking with configurable increments (10°, 15°, 20°, 30°, 45°, 90°)
+- Layout / paper space with multiple layouts and viewport editing
+- ISO 5455 scale selector for viewports
+- Print manager: PDF and PNG/WebP export with DPI control
+- DXF import and export (compatible with AutoCAD, LibreCAD, QCAD, BricsCAD)
+- Match Properties command (copy color, layer, linetype, lineweight)
+- Properties panel showing entity details
+- Undo/redo with full history
+- Adaptive CAD grid with snap-to-grid
+- Themes: dark mode by default, teal (#4A8580) accent
+
+## Workflow
+
+1. **Model** — draw geometry in model space using commands, snapping, and layers
+2. **Configure paper format** — switch to a layout tab, set the paper size, and add viewports at the desired scale
+3. **Print / export** — open the print manager (Ctrl+P) to export PDF or PNG, or use File → Export DXF
+
+## Privacy
+
+KulmanLab collects no drawing data. Your DXF files and canvas state are stored locally in localStorage — never uploaded. Google Analytics is used for anonymous usage metrics (page views, session counts). The site sets cookies only for GA. No account, no login, no server-side storage.
+
+## Comparison with alternatives
+
+| Feature | KulmanLab | LibreCAD | QCAD | BricsCAD | AutoCAD | Onshape | AutoCAD Web |
+|---|---|---|---|---|---|---|---|
+| Runs in browser | Yes | No | No | No | No | Yes | Yes |
+| Free | Yes | Yes | Community | No | No | Free plan | No |
+| No account required | Yes | Yes | Yes | No | No | No | No |
+| Works offline | Yes | Yes | Yes | Yes | 30d check | No | No |
+| Files stay local | Yes | Yes | Yes | Yes | Yes | No | No |
+| Command terminal | Yes | Yes | Yes | Yes | Yes | No | Yes |
+| Layout / paper space | Yes | No | No | Yes | Yes | Yes | Yes |
+| DXF import & export | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+
+## Who it is for
+
+- Engineers and designers who want AutoCAD-style commands without the subscription
+- Users on locked-down machines where installing desktop software is not allowed
+- Privacy-conscious users who do not want drawings stored on third-party servers
+- Students and hobbyists who need a capable free CAD tool
+- Teams evaluating browser-based CAD for internal tooling
+
+## Release cadence
+
+KulmanLab ships updates continuously — typically every few days. See https://kulmanlab.com/changelog for the full release history.
