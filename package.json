@@ -6,11 +6,13 @@
     "dev": "astro dev",
     "dev:all": "concurrently \"npm run dev\" \"npm run start --prefix docs\"",
     "build": "astro build",
+    "build:all": "npm run build && npm run build --prefix docs",
     "preview": "astro preview"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.0",
     "astro": "^6.4.6",
+    "firebase": "^12.14.0",
     "tailwindcss": "^4.0.0"
   },
   "devDependencies": {
