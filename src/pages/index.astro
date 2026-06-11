@@ -95,9 +95,9 @@ const stats = [
   <main>
 
     <!-- ── Hero ──────────────────────────────────────────── -->
-    <section class="relative border-b border-slate-800 pt-20 pb-0 md:pt-28">
-      <!-- Background decorations (self-contained so they don't clip the screenshot) -->
-      <div class="pointer-events-none absolute inset-0 overflow-hidden">
+    <section class="relative overflow-hidden border-b border-slate-800 pt-20 pb-0 md:pt-28">
+      <!-- Background decorations -->
+      <div class="pointer-events-none absolute inset-0">
         <div class="absolute inset-0 opacity-[0.045]"
           style="background-image: linear-gradient(#4A8580 1px, transparent 1px), linear-gradient(90deg, #4A8580 1px, transparent 1px); background-size: 40px 40px;">
         </div>
@@ -106,103 +106,114 @@ const stats = [
         </div>
       </div>
 
-      <!-- Centered headline & CTAs -->
-      <div class="relative mx-auto max-w-3xl px-6 text-center">
-        <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-brand/30 bg-brand/10 px-4 py-1.5 text-sm text-brand">
-          <span class="h-2 w-2 rounded-full bg-brand animate-pulse"></span>
-          Free · No sign-up required
-        </div>
+      <div class="relative mx-auto max-w-7xl px-6">
+        <div class="flex flex-col gap-12 lg:flex-row lg:items-center lg:gap-0">
 
-        <h1 class="mb-5 text-4xl font-bold leading-tight tracking-tight text-slate-50 md:text-5xl lg:text-6xl">
-          Professional 2D&nbsp;CAD<br />
-          <span class="text-brand">in your browser</span>
-        </h1>
-
-        <p class="mb-8 text-lg text-slate-400 leading-relaxed">
-          Open DXF files, draw geometry, add dimensions, and export — without installing a single thing.
-          Works in any modern desktop browser.
-        </p>
-
-        <div class="mb-16 flex flex-wrap justify-center gap-4">
-          <a
-            href={APP_URL}
-            class="inline-flex items-center gap-2 rounded-lg bg-brand px-6 py-3 font-medium text-white shadow-lg shadow-brand/20 hover:bg-brand-light transition-colors"
-          >
-            Launch App
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-            </svg>
-          </a>
-          <a
-            href={DOCS_URL}
-            class="inline-flex items-center gap-2 rounded-lg border border-slate-700 px-6 py-3 font-medium text-slate-300 hover:border-slate-500 hover:text-slate-50 transition-colors"
-          >
-            View Docs
-          </a>
-        </div>
-      </div>
-
-      <!-- App screenshot carousel — window chrome frame, wide, overlaps next section -->
-      <div class="relative z-20 mx-auto max-w-[1100px] px-4 sm:px-6" style="margin-bottom: -100px;">
-
-        <!-- Deep glow pool beneath the screenshot -->
-        <div class="pointer-events-none absolute left-1/2 -translate-x-1/2 -bottom-8 w-3/4 h-48 blur-3xl opacity-45"
-          style="background: radial-gradient(ellipse, #4A8580, transparent 70%);">
-        </div>
-
-        <!-- Gradient-border card -->
-        <div class="rounded-2xl p-px" style="background: linear-gradient(150deg, rgba(74,133,128,0.55) 0%, rgba(74,133,128,0.04) 45%, rgba(74,133,128,0.28) 100%); box-shadow: 0 60px 120px -20px rgba(0,0,0,0.95), 0 20px 40px -10px rgba(0,0,0,0.5);">
-          <div class="rounded-2xl overflow-hidden bg-slate-900">
-
-            <!-- Window titlebar -->
-            <div class="flex items-center bg-slate-800 px-4 py-2.5 border-b border-slate-700/50">
-              <div class="flex gap-1.5">
-                <div class="h-3 w-3 rounded-full bg-slate-600"></div>
-                <div class="h-3 w-3 rounded-full bg-slate-600"></div>
-                <div class="h-3 w-3 rounded-full bg-slate-600"></div>
-              </div>
-              <div class="flex-1 text-center text-xs text-slate-500">app.kulmanlab.com</div>
-              <div class="w-12 flex-shrink-0"></div>
+          <!-- Left: headline & CTAs -->
+          <div class="flex-shrink-0 lg:w-[440px] xl:w-[500px] lg:py-20 lg:pr-12 xl:pr-16">
+            <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-brand/30 bg-brand/10 px-4 py-1.5 text-sm text-brand">
+              <span class="h-2 w-2 rounded-full bg-brand animate-pulse"></span>
+              Free · No sign-up required
             </div>
 
-            <!-- Carousel -->
-            <div class="relative overflow-hidden">
-              <div id="carousel-track" class="flex transition-transform duration-500 ease-in-out">
-                <img src="/images/app-screenshot.png" alt="KulmanLab CAD — bolt drawing with dimensions" class="w-full flex-shrink-0" />
-                <img src="/images/app-screenshot-3.png" alt="KulmanLab CAD — bolt drawing with layout tabs" class="w-full flex-shrink-0" />
-                <img src="/images/app-screenshot-2.png" alt="KulmanLab CAD — print layout view" class="w-full flex-shrink-0" />
-              </div>
+            <h1 class="mb-5 text-5xl font-bold leading-tight tracking-tight text-slate-50 lg:text-6xl xl:text-7xl">
+              Professional<br />2D&nbsp;CAD<br />
+              <span class="text-brand">in your<br class="hidden xl:block" />browser</span>
+            </h1>
 
-              <!-- Prev / Next buttons -->
-              <button id="carousel-prev" aria-label="Previous screenshot"
-                class="absolute left-3 top-1/2 -translate-y-1/2 flex h-9 w-9 items-center justify-center rounded-full bg-slate-900/70 text-slate-300 hover:bg-slate-900 hover:text-white transition-colors">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
-                </svg>
-              </button>
-              <button id="carousel-next" aria-label="Next screenshot"
-                class="absolute right-3 top-1/2 -translate-y-1/2 flex h-9 w-9 items-center justify-center rounded-full bg-slate-900/70 text-slate-300 hover:bg-slate-900 hover:text-white transition-colors">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
-                </svg>
-              </button>
+            <p class="mb-8 text-lg text-slate-400 leading-relaxed">
+              Open DXF files, draw geometry, add dimensions, and export — without installing a single thing.
+              Works in any modern desktop browser.
+            </p>
 
-              <!-- Dots -->
-              <div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-1.5">
-                <button class="carousel-dot h-1.5 w-4 rounded-full bg-brand transition-all" data-index="0" aria-label="Slide 1"></button>
-                <button class="carousel-dot h-1.5 w-1.5 rounded-full bg-slate-600 transition-all" data-index="1" aria-label="Slide 2"></button>
-                <button class="carousel-dot h-1.5 w-1.5 rounded-full bg-slate-600 transition-all" data-index="2" aria-label="Slide 3"></button>
+            <div class="flex flex-wrap gap-4">
+              <a
+                href={APP_URL}
+                class="inline-flex items-center gap-2 rounded-lg bg-brand px-6 py-3 font-medium text-white shadow-lg shadow-brand/20 hover:bg-brand-light transition-colors"
+              >
+                Launch App
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                </svg>
+              </a>
+              <a
+                href={DOCS_URL}
+                class="inline-flex items-center gap-2 rounded-lg border border-slate-700 px-6 py-3 font-medium text-slate-300 hover:border-slate-500 hover:text-slate-50 transition-colors"
+              >
+                View Docs
+              </a>
+            </div>
+          </div>
+
+          <!-- Right: screenshot carousel — bleeds beyond the right edge -->
+          <div class="relative flex-1 min-w-0 lg:-mr-6 xl:-mr-0" style="margin-bottom: -100px;">
+
+            <!-- Glow behind the card -->
+            <div class="pointer-events-none absolute -inset-8 opacity-35 blur-3xl"
+              style="background: radial-gradient(ellipse at 60% 50%, #4A8580, transparent 65%);">
+            </div>
+
+            <!-- Left-edge fade: screenshot bleeds into the text column -->
+            <div class="pointer-events-none absolute left-0 top-0 bottom-0 w-24 z-10 hidden lg:block"
+              style="background: linear-gradient(to right, #0f172a, transparent);">
+            </div>
+
+            <!-- Gradient-border card -->
+            <div class="rounded-2xl p-px" style="background: linear-gradient(150deg, rgba(74,133,128,0.55) 0%, rgba(74,133,128,0.04) 45%, rgba(74,133,128,0.28) 100%); box-shadow: 0 60px 120px -20px rgba(0,0,0,0.95), 0 20px 40px -10px rgba(0,0,0,0.5);">
+              <div class="rounded-2xl overflow-hidden bg-slate-900">
+
+                <!-- Window titlebar -->
+                <div class="flex items-center bg-slate-800 px-4 py-2.5 border-b border-slate-700/50">
+                  <div class="flex gap-1.5">
+                    <div class="h-3 w-3 rounded-full bg-slate-600"></div>
+                    <div class="h-3 w-3 rounded-full bg-slate-600"></div>
+                    <div class="h-3 w-3 rounded-full bg-slate-600"></div>
+                  </div>
+                  <div class="flex-1 text-center text-xs text-slate-500">app.kulmanlab.com</div>
+                  <div class="w-12 flex-shrink-0"></div>
+                </div>
+
+                <!-- Carousel -->
+                <div class="relative overflow-hidden">
+                  <div id="carousel-track" class="flex transition-transform duration-500 ease-in-out">
+                    <img src="/images/app-screenshot.png" alt="KulmanLab CAD — bolt drawing with dimensions" class="w-full flex-shrink-0" />
+                    <img src="/images/app-screenshot-3.png" alt="KulmanLab CAD — bolt drawing with layout tabs" class="w-full flex-shrink-0" />
+                    <img src="/images/app-screenshot-2.png" alt="KulmanLab CAD — print layout view" class="w-full flex-shrink-0" />
+                  </div>
+
+                  <!-- Prev / Next buttons -->
+                  <button id="carousel-prev" aria-label="Previous screenshot"
+                    class="absolute left-3 top-1/2 -translate-y-1/2 flex h-9 w-9 items-center justify-center rounded-full bg-slate-900/70 text-slate-300 hover:bg-slate-900 hover:text-white transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+                    </svg>
+                  </button>
+                  <button id="carousel-next" aria-label="Next screenshot"
+                    class="absolute right-3 top-1/2 -translate-y-1/2 flex h-9 w-9 items-center justify-center rounded-full bg-slate-900/70 text-slate-300 hover:bg-slate-900 hover:text-white transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                    </svg>
+                  </button>
+
+                  <!-- Dots -->
+                  <div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-1.5">
+                    <button class="carousel-dot h-1.5 w-4 rounded-full bg-brand transition-all" data-index="0" aria-label="Slide 1"></button>
+                    <button class="carousel-dot h-1.5 w-1.5 rounded-full bg-slate-600 transition-all" data-index="1" aria-label="Slide 2"></button>
+                    <button class="carousel-dot h-1.5 w-1.5 rounded-full bg-slate-600 transition-all" data-index="2" aria-label="Slide 3"></button>
+                  </div>
+                </div>
+
               </div>
+            </div>
+
+            <!-- Bottom fade -->
+            <div class="pointer-events-none absolute bottom-0 left-0 right-0 h-32 rounded-b-2xl"
+              style="background: linear-gradient(to bottom, transparent 0%, rgba(15,23,42,0.9) 100%);">
             </div>
 
           </div>
-        </div>
 
-        <!-- Bottom fade -->
-        <div class="pointer-events-none absolute bottom-0 left-4 right-4 sm:left-6 sm:right-6 h-32 rounded-b-2xl"
-          style="background: linear-gradient(to bottom, transparent 0%, rgba(15,23,42,0.9) 100%);">
         </div>
-
       </div>
     </section>
 
