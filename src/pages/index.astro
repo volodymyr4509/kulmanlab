@@ -143,18 +143,40 @@ const stats = [
             </div>
           </div>
 
-          <!-- App screenshot -->
+          <!-- App screenshot carousel -->
           <div class="hidden lg:block">
             <div class="relative">
               <div class="absolute inset-0 rounded-xl opacity-40 blur-3xl"
                 style="background: radial-gradient(ellipse at center, #4A8580 0%, transparent 70%);">
               </div>
-              <div class="relative rounded-xl border border-slate-700/80 shadow-2xl overflow-hidden">
-                <img
-                  src="/images/app-screenshot.png"
-                  alt="KulmanLab CAD — bolt drawing with dimensions"
-                  class="w-full rounded-xl"
-                />
+              <div class="relative rounded-xl border border-slate-700/80 shadow-2xl overflow-hidden" id="carousel">
+                <!-- Track -->
+                <div id="carousel-track" class="flex transition-transform duration-500 ease-in-out">
+                  <img src="/images/app-screenshot.png" alt="KulmanLab CAD — bolt drawing with dimensions" class="w-full flex-shrink-0 rounded-xl" />
+                  <img src="/images/app-screenshot-3.png" alt="KulmanLab CAD — bolt drawing with layout tabs" class="w-full flex-shrink-0 rounded-xl" />
+                  <img src="/images/app-screenshot-2.png" alt="KulmanLab CAD — page manager dialog" class="w-full flex-shrink-0 rounded-xl" />
+                </div>
+
+                <!-- Prev / Next buttons -->
+                <button id="carousel-prev" aria-label="Previous screenshot"
+                  class="absolute left-2 top-1/2 -translate-y-1/2 flex h-8 w-8 items-center justify-center rounded-full bg-slate-900/70 text-slate-300 hover:bg-slate-900 hover:text-white transition-colors">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+                  </svg>
+                </button>
+                <button id="carousel-next" aria-label="Next screenshot"
+                  class="absolute right-2 top-1/2 -translate-y-1/2 flex h-8 w-8 items-center justify-center rounded-full bg-slate-900/70 text-slate-300 hover:bg-slate-900 hover:text-white transition-colors">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+                </button>
+
+                <!-- Dots -->
+                <div class="absolute bottom-2 left-1/2 -translate-x-1/2 flex gap-1.5">
+                  <button class="carousel-dot h-1.5 w-4 rounded-full bg-brand transition-all" data-index="0" aria-label="Slide 1"></button>
+                  <button class="carousel-dot h-1.5 w-1.5 rounded-full bg-slate-600 transition-all" data-index="1" aria-label="Slide 2"></button>
+                  <button class="carousel-dot h-1.5 w-1.5 rounded-full bg-slate-600 transition-all" data-index="2" aria-label="Slide 3"></button>
+                </div>
               </div>
             </div>
           </div>
@@ -327,4 +349,40 @@ const stats = [
     </div>
   </footer>
 
+<script>
+  const track = document.getElementById('carousel-track') as HTMLElement;
+  const dots = document.querySelectorAll<HTMLElement>('.carousel-dot');
+  const total = 3;
+  let current = 0;
+  let timer: ReturnType<typeof setInterval>;
+
+  function goTo(index: number) {
+    current = (index + total) % total;
+    track.style.transform = `translateX(-${current * 100}%)`;
+    dots.forEach((d, i) => {
+      if (i === current) {
+        d.classList.add('bg-brand', 'w-4');
+        d.classList.remove('bg-slate-600', 'w-1.5');
+      } else {
+        d.classList.remove('bg-brand', 'w-4');
+        d.classList.add('bg-slate-600', 'w-1.5');
+      }
+    });
+  }
+
+  function startAuto() {
+    timer = setInterval(() => goTo(current + 1), 4000);
+  }
+
+  function resetAuto() {
+    clearInterval(timer);
+    startAuto();
+  }
+
+  document.getElementById('carousel-prev')?.addEventListener('click', () => { goTo(current - 1); resetAuto(); });
+  document.getElementById('carousel-next')?.addEventListener('click', () => { goTo(current + 1); resetAuto(); });
+  dots.forEach(d => d.addEventListener('click', () => { goTo(Number(d.dataset.index)); resetAuto(); }));
+
+  startAuto();
+</script>
 </Layout>
