@@ -73,6 +73,31 @@ const stats = [
 <Layout
   title="KulmanLab — Free Online 2D CAD & DXF Editor | No Install"
   description="Free browser-based 2D CAD and DXF editor. AutoCAD-style commands, layers, dimensions, and PDF export — no installation, no account, no data uploaded."
+  jsonLd={{
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "name": "KulmanLab",
+        "url": "https://kulmanlab.com"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "KulmanLab",
+        "url": "https://app.kulmanlab.com",
+        "description": "Free browser-based 2D CAD and DXF editor. AutoCAD-style commands, layers, dimensions, and PDF export — no installation, no account required.",
+        "applicationCategory": "DesignApplication",
+        "operatingSystem": "Web",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "screenshot": "https://kulmanlab.com/og.png",
+        "featureList": "DXF import and export, Command terminal, Layer management, Dimensions and annotations, PDF and PNG export, Grip editing, Works offline, No account required"
+      }
+    ]
+  }}
 >
 
   <!-- ── Navigation ─────────────────────────────────────── -->
