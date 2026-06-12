@@ -1,0 +1,174 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+
+const sections = [
+  {
+    heading: 'Getting started',
+    items: [
+      {
+        q: 'Is KulmanLab really free?',
+        a: 'Yes — completely free. No subscription, no credit card, no hidden plan. The full feature set is available to everyone with no limits.',
+      },
+      {
+        q: 'Do I need to create an account?',
+        a: 'No. There is no login, no sign-up, and no email required. Open the app and start drawing immediately.',
+      },
+      {
+        q: 'What browsers are supported?',
+        a: 'Any modern desktop browser — Chrome, Firefox, Safari, and Edge all work. KulmanLab is desktop-only; mobile and tablet are not currently supported.',
+      },
+      {
+        q: 'Does it work offline?',
+        a: 'Yes. After the first load the app is cached and runs entirely without an internet connection. Your drawings are stored locally so nothing requires a server.',
+      },
+    ],
+  },
+  {
+    heading: 'Files & storage',
+    items: [
+      {
+        q: 'Where are my drawings stored?',
+        a: 'In your browser\'s localStorage — on your own device. Nothing is ever uploaded to a server. Each browser on each device has its own independent storage.',
+      },
+      {
+        q: 'What happens if I clear my browser data?',
+        a: 'Your saved drawings will be lost. Always export a DXF copy of anything important before clearing browser storage.',
+      },
+      {
+        q: 'Can I open AutoCAD .dwg files?',
+        a: 'KulmanLab supports DXF (Drawing Exchange Format), not the proprietary DWG format. Most CAD applications — including AutoCAD — can export DXF, so export from your source app first.',
+      },
+      {
+        q: 'Which export formats are available?',
+        a: 'DXF for round-tripping with other CAD tools, and PDF or PNG/WebP for print-ready output. The print manager lets you set DPI and paper size before exporting.',
+      },
+    ],
+  },
+  {
+    heading: 'Features',
+    items: [
+      {
+        q: 'Does it have a command terminal like AutoCAD?',
+        a: 'Yes. Type commands directly — LINE, CIRCLE, MOVE, TRIM, and 50+ others. The terminal supports history (arrow keys), autocomplete (Tab), and exact numeric input.',
+      },
+      {
+        q: 'Is there layer support?',
+        a: 'Full layer management: create, rename, freeze, lock, and isolate layers. Set color, linetype, and lineweight per layer. All layer data is preserved in DXF export.',
+      },
+      {
+        q: 'What dimension types are available?',
+        a: 'Linear, aligned, radius, diameter, angular, and continue dimensions. All stored as standard DXF DIMENSION entities compatible with AutoCAD and LibreCAD.',
+      },
+      {
+        q: 'Can I edit geometry with grips?',
+        a: 'Yes. Select any entity to reveal grip handles at key points — endpoints, midpoints, centers, arc ends. Drag to reshape directly on the canvas, or type a value while dragging for exact placement.',
+      },
+      {
+        q: 'Is real-time collaboration supported?',
+        a: 'Not currently. KulmanLab is a single-user tool and drawings stay local. Cloud sync and collaboration are outside the current scope.',
+      },
+    ],
+  },
+  {
+    heading: 'Compatibility',
+    items: [
+      {
+        q: 'Are KulmanLab DXF files compatible with AutoCAD?',
+        a: 'Yes. KulmanLab reads and writes AC1032 DXF — a widely supported version. Files open correctly in AutoCAD, LibreCAD, QCAD, BricsCAD, and FreeCAD.',
+      },
+      {
+        q: 'What is the difference between DXF and DWG?',
+        a: 'DXF is an open, text-based format published by Autodesk for interoperability. DWG is Autodesk\'s proprietary binary format. KulmanLab uses DXF, which is readable by virtually every CAD tool.',
+      },
+      {
+        q: 'Can I use KulmanLab as a free AutoCAD alternative?',
+        a: 'For 2D drafting — yes. KulmanLab has AutoCAD-style commands, layers, snapping, dimensions, grip editing, and DXF compatibility. It does not support 3D, blocks/xrefs, or parametric constraints.',
+      },
+    ],
+  },
+  {
+    heading: 'Privacy',
+    items: [
+      {
+        q: 'Does KulmanLab collect my drawing data?',
+        a: 'No. Your drawings stay in your browser and are never sent anywhere. KulmanLab uses Google Analytics for anonymous usage metrics (page views, session counts) — no drawing content is involved.',
+      },
+      {
+        q: 'Are cookies used?',
+        a: 'Only the cookies set automatically by Google Analytics. No tracking beyond that, no advertising cookies, no third-party data sharing.',
+      },
+    ],
+  },
+];
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": sections.flatMap(s => s.items.map(item => ({
+    "@type": "Question",
+    "name": item.q,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": item.a,
+    },
+  }))),
+};
+---
+
+<Layout
+  title="FAQ — KulmanLab"
+  description="Answers to common questions about KulmanLab — a free browser-based 2D CAD editor. Storage, compatibility, features, and privacy."
+  canonical="https://kulmanlab.com/faq"
+  jsonLd={faqJsonLd}
+>
+
+  <SiteHeader active="faq" />
+
+  <main class="mx-auto max-w-3xl px-6 py-16">
+
+    <div class="mb-14">
+      <h1 class="mb-3 text-4xl font-bold text-slate-50">Frequently asked questions</h1>
+      <p class="text-slate-400 text-lg">Everything you need to know before you start drawing.</p>
+    </div>
+
+    <div class="space-y-12">
+      {sections.map(section => (
+        <div>
+          <h2 class="mb-5 text-xs font-bold uppercase tracking-widest text-slate-500">{section.heading}</h2>
+          <div class="divide-y divide-slate-800 rounded-xl border border-slate-800 overflow-hidden">
+            {section.items.map(item => (
+              <details class="group">
+                <summary class="flex cursor-pointer items-center justify-between gap-4 px-5 py-4 text-sm font-medium text-slate-200 hover:text-slate-50 transition-colors select-none list-none">
+                  {item.q}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4 flex-shrink-0 text-slate-500 transition-transform duration-200 group-open:rotate-180"
+                    fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                  >
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <div class="border-t border-slate-800 bg-slate-800/30 px-5 py-4 text-sm text-slate-400 leading-relaxed">
+                  {item.a}
+                </div>
+              </details>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <div class="mt-16 rounded-xl border border-slate-800 bg-slate-800/20 px-6 py-8 text-center">
+      <p class="mb-1 text-slate-300 font-medium">Still have a question?</p>
+      <p class="text-sm text-slate-500">
+        Ask on <a href="https://www.reddit.com/r/kulmanlab/" target="_blank" rel="noopener" class="text-brand hover:text-brand-light transition-colors">r/kulmanlab</a> or open an issue on <a href="https://github.com/volodymyr4509/kulmanlab" target="_blank" rel="noopener" class="text-brand hover:text-brand-light transition-colors">GitHub</a>.
+      </p>
+    </div>
+
+  </main>
+
+  <SiteFooter />
+
+</Layout>

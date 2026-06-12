@@ -1,0 +1,46 @@
+---
+interface Props {
+  active?: 'docs' | 'changelog' | 'faq';
+}
+const { active } = Astro.props;
+
+const APP_URL = 'https://app.kulmanlab.com';
+const GITHUB_URL = 'https://github.com/volodymyr4509/kulmanlab';
+const REDDIT_URL = 'https://www.reddit.com/r/kulmanlab/';
+
+const link = (page: string) =>
+  active === page
+    ? 'text-sm text-brand font-medium'
+    : 'text-sm text-slate-400 hover:text-slate-200 transition-colors';
+---
+<header class="sticky top-0 z-50 border-b border-slate-800 bg-slate-900/90 backdrop-blur">
+  <nav class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+    <a href="/" class="flex items-center gap-2.5 transition-opacity hover:opacity-80">
+      <img src="/logo.svg" alt="KulmanLab logo" class="h-8 w-8 rounded-lg" />
+      <span class="font-bold tracking-tight text-slate-50">Kulman<span class="text-brand">Lab</span></span>
+    </a>
+    <div class="flex items-center gap-6">
+      <a href="/docs" class={link('docs')}>Docs</a>
+      <a href="/changelog" class={link('changelog')}>Changelog</a>
+      <a href="/faq" class={link('faq')}>FAQ</a>
+      <div class="flex items-center gap-3">
+        <a href={GITHUB_URL} target="_blank" rel="noopener" aria-label="GitHub" class="text-slate-500 hover:text-slate-200 transition-colors">
+          <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.161 22 16.416 22 12c0-5.523-4.477-10-10-10z"/>
+          </svg>
+        </a>
+        <a href={REDDIT_URL} target="_blank" rel="noopener" aria-label="Reddit" class="text-slate-500 hover:text-slate-200 transition-colors">
+          <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/>
+          </svg>
+        </a>
+      </div>
+      <a
+        href={APP_URL}
+        class="rounded-lg bg-brand px-4 py-2 text-sm font-medium text-white hover:bg-brand-light transition-colors"
+      >
+        Launch App
+      </a>
+    </div>
+  </nav>
+</header>
