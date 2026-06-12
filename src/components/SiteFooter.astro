@@ -1,0 +1,22 @@
+---
+const APP_URL = 'https://app.kulmanlab.com';
+const GITHUB_URL = 'https://github.com/volodymyr4509/kulmanlab';
+const REDDIT_URL = 'https://www.reddit.com/r/kulmanlab/';
+---
+<footer class="border-t border-slate-800 py-10">
+  <div class="mx-auto max-w-6xl px-6 flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
+    <a href="/" class="flex items-center gap-2 transition-opacity hover:opacity-80">
+      <img src="/logo.svg" alt="KulmanLab" class="h-6 w-6 rounded" />
+      <span class="text-sm font-bold text-slate-400">Kulman<span class="text-brand/70">Lab</span></span>
+    </a>
+    <nav class="flex gap-6 text-sm text-slate-500">
+      <a href={APP_URL} class="hover:text-slate-300 transition-colors">App</a>
+      <a href="/docs" class="hover:text-slate-300 transition-colors">Docs</a>
+      <a href="/changelog" class="hover:text-slate-300 transition-colors">Changelog</a>
+      <a href="/faq" class="hover:text-slate-300 transition-colors">FAQ</a>
+      <a href={GITHUB_URL} target="_blank" rel="noopener" class="hover:text-slate-300 transition-colors">GitHub</a>
+      <a href={REDDIT_URL} target="_blank" rel="noopener" class="hover:text-slate-300 transition-colors">Reddit</a>
+    </nav>
+    <p class="text-sm text-slate-600">© {new Date().getFullYear()} KulmanLab</p>
+  </div>
+</footer>
