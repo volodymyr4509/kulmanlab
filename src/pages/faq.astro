@@ -37,8 +37,8 @@ const sections = [
         a: 'Your saved drawings will be lost. Always export a DXF copy of anything important before clearing browser storage.',
       },
       {
-        q: 'Can I open AutoCAD .dwg files?',
-        a: 'KulmanLab supports DXF (Drawing Exchange Format), not the proprietary DWG format. Most CAD applications — including AutoCAD — can export DXF, so export from your source app first.',
+        q: 'Can I open .dwg files?',
+        a: 'KulmanLab supports DXF (Drawing Exchange Format), not the proprietary DWG format. Most desktop CAD applications can export DXF, so export from your source app first.',
       },
       {
         q: 'Which export formats are available?',
@@ -50,7 +50,7 @@ const sections = [
     heading: 'Features',
     items: [
       {
-        q: 'Does it have a command terminal like AutoCAD?',
+        q: 'Does it have a command terminal?',
         a: 'Yes. Type commands directly — LINE, CIRCLE, MOVE, TRIM, and 50+ others. The terminal supports history (arrow keys), autocomplete (Tab), and exact numeric input.',
       },
       {
@@ -59,7 +59,7 @@ const sections = [
       },
       {
         q: 'What dimension types are available?',
-        a: 'Linear, aligned, radius, diameter, angular, and continue dimensions. All stored as standard DXF DIMENSION entities compatible with AutoCAD and LibreCAD.',
+        a: 'Linear, aligned, radius, diameter, angular, and continue dimensions. All stored as standard DXF DIMENSION entities compatible with other DXF-capable CAD tools.',
       },
       {
         q: 'Can I edit geometry with grips?',
@@ -75,16 +75,16 @@ const sections = [
     heading: 'Compatibility',
     items: [
       {
-        q: 'Are KulmanLab DXF files compatible with AutoCAD?',
-        a: 'Yes. KulmanLab reads and writes AC1032 DXF — a widely supported version. Files open correctly in AutoCAD, LibreCAD, QCAD, BricsCAD, and FreeCAD.',
+        q: 'Are KulmanLab DXF files compatible with other CAD software?',
+        a: 'Yes. KulmanLab reads and writes AC1032 DXF — a widely supported version. Files open correctly in LibreCAD, QCAD, BricsCAD, FreeCAD, and any other DXF-capable tool.',
       },
       {
         q: 'What is the difference between DXF and DWG?',
-        a: 'DXF is an open, text-based format published by Autodesk for interoperability. DWG is Autodesk\'s proprietary binary format. KulmanLab uses DXF, which is readable by virtually every CAD tool.',
+        a: 'DXF is an open, text-based exchange format designed for interoperability. DWG is a proprietary binary format. KulmanLab uses DXF, which is readable by virtually every CAD tool.',
       },
       {
-        q: 'Can I use KulmanLab as a free AutoCAD alternative?',
-        a: 'For 2D drafting — yes. KulmanLab has AutoCAD-style commands, layers, snapping, dimensions, grip editing, and DXF compatibility. It does not support 3D, blocks/xrefs, or parametric constraints.',
+        q: 'Can KulmanLab replace my desktop CAD software?',
+        a: 'For 2D drafting — yes. KulmanLab has a full command terminal, layers, snapping, dimensions, grip editing, and DXF compatibility. It does not support 3D, blocks/xrefs, or parametric constraints.',
       },
     ],
   },
