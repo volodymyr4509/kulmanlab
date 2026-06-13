@@ -23,4 +23,4 @@ Allow: /
 User-agent: Omgilibot
 Allow: /
 
-Sitemap: https://kulmanlab.com/sitemap.xml
+Sitemap: https://kulmanlab.com/sitemap-index.xml
