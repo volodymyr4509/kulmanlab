@@ -8,6 +8,7 @@
 - Landing page: https://kulmanlab.com
 - Docs: https://kulmanlab.com/docs
 - Changelog: https://kulmanlab.com/changelog
+- FAQ: https://kulmanlab.com/faq
 - GitHub: https://github.com/volodymyr4509/kulmanlab
 - Reddit: https://www.reddit.com/r/kulmanlab/
 - Full reference (llms-full.txt): https://kulmanlab.com/llms-full.txt
@@ -29,7 +30,7 @@ It is designed for engineers, architects, and technical illustrators who need a 
 - Layout / paper space with multiple layouts and viewport editing
 - ISO 5455 scale selector for viewports
 - Print manager: PDF and PNG/WebP export with DPI control
-- DXF import and export (compatible with AutoCAD, LibreCAD, QCAD, BricsCAD)
+- DXF import and export (compatible with LibreCAD, QCAD, BricsCAD, FreeCAD)
 - Match Properties command (copy color, layer, linetype, lineweight)
 - Properties panel showing entity details
 - Undo/redo with full history
@@ -42,9 +43,75 @@ It is designed for engineers, architects, and technical illustrators who need a 
 2. **Configure paper format** — switch to a layout tab, set the paper size, and add viewports at the desired scale
 3. **Print / export** — open the print manager (Ctrl+P) to export PDF or PNG, or use File → Export DXF
 
-## Privacy
+## Frequently asked questions
 
-KulmanLab collects no drawing data. Your DXF files and canvas state are stored locally in localStorage — never uploaded. Google Analytics is used for anonymous usage metrics (page views, session counts). The site sets cookies only for GA. No account, no login, no server-side storage.
+**Is KulmanLab really free?**
+Yes — completely free. No subscription, no credit card, no hidden plan. The full feature set is available to everyone with no limits.
+
+**Do I need to create an account?**
+No. There is no login, no sign-up, and no email required. Open the app and start drawing immediately.
+
+**What browsers are supported?**
+Any modern desktop browser — Chrome, Firefox, Safari, and Edge all work. KulmanLab is desktop-only; mobile and tablet are not currently supported.
+
+**Does it work offline?**
+Yes. After the first load the app is cached and runs entirely without an internet connection. Your drawings are stored locally so nothing requires a server.
+
+**Where are my drawings stored?**
+In your browser's localStorage — on your own device. Nothing is ever uploaded to a server. Each browser on each device has its own independent storage.
+
+**What happens if I clear my browser data?**
+Your saved drawings will be lost. Always export a DXF copy of anything important before clearing browser storage.
+
+**Can I open .dwg files?**
+KulmanLab supports DXF (Drawing Exchange Format), not the proprietary DWG format. Most desktop CAD applications can export DXF, so export from your source app first.
+
+**Which export formats are available?**
+DXF for round-tripping with other CAD tools, and PDF or PNG/WebP for print-ready output. The print manager lets you set DPI and paper size before exporting.
+
+**Does it have a command terminal?**
+Yes. Type commands directly — LINE, CIRCLE, MOVE, TRIM, and 50+ others. The terminal supports history (arrow keys), autocomplete (Tab), and exact numeric input.
+
+**Is there layer support?**
+Full layer management: create, rename, freeze, lock, and isolate layers. Set color, linetype, and lineweight per layer. All layer data is preserved in DXF export.
+
+**What dimension types are available?**
+Linear, aligned, radius, diameter, angular, and continue dimensions. All stored as standard DXF DIMENSION entities compatible with other DXF-capable CAD tools.
+
+**Can I edit geometry with grips?**
+Yes. Select any entity to reveal grip handles at key points — endpoints, midpoints, centers, arc ends. Drag to reshape directly on the canvas, or type a value while dragging for exact placement.
+
+**Is real-time collaboration supported?**
+Not currently. KulmanLab is a single-user tool and drawings stay local. Cloud sync and collaboration are outside the current scope.
+
+**Are KulmanLab DXF files compatible with other CAD software?**
+Yes. KulmanLab reads and writes AC1032 DXF — a widely supported version. Files open correctly in LibreCAD, QCAD, BricsCAD, FreeCAD, and any other DXF-capable tool.
+
+**What is the difference between DXF and DWG?**
+DXF is an open, text-based exchange format designed for interoperability. DWG is a proprietary binary format. KulmanLab uses DXF, which is readable by virtually every CAD tool.
+
+**Can KulmanLab replace my desktop CAD software?**
+For 2D drafting — yes. KulmanLab has a full command terminal, layers, snapping, dimensions, grip editing, and DXF compatibility. It does not support 3D, blocks/xrefs, or parametric constraints.
+
+**Does KulmanLab collect my drawing data?**
+No. Your drawings stay in your browser and are never sent anywhere. KulmanLab uses Google Analytics for anonymous usage metrics (page views, session counts) — no drawing content is involved.
+
+**Are cookies used?**
+Only the cookies set automatically by Google Analytics. No tracking beyond that, no advertising cookies, no third-party data sharing.
+
+## Recent releases
+
+**June 2026 — New website, landing page, docs & FAQ**
+Brand-new landing page at kulmanlab.com with screenshot carousel, feature grid, comparison table, and workflow overview. Command reference docs at kulmanlab.com/docs. FAQ page. This changelog. llms.txt and llms-full.txt for AI assistants.
+
+**June 2026 — Text editor polish & web fonts**
+Text mirror adjusts rotation and attachment point for readability. Web fonts in the text editor font picker. Cursor height matches text size. Strikethrough in text toolbar. Per-row line height and per-character text height/font (MTEXT). MTEXT frame sizing and live resize grip. Text editing creates a single undo entry on close.
+
+**June 2026 — On-canvas text editing**
+Edit text directly on the canvas with a blinking caret. Text selection with Shift+Arrow, click, click-drag. I-beam cursor while text editor is active. Bold/Italic toolbar with cursor-aware active state. MTEXT wrap frame with four resize grips.
+
+**June 2026 — Angle tracking, snap-to-grid & MTEXT**
+Configurable angle tracking (10°–90°) with arc indicator. Snap-to-grid toggle with dot grid at intersections. Grid dots on layout paper space. Custom scale input for viewport dropdown. Multi-line MTEXT parsing and rendering. Adaptive coordinate display precision.
 
 ## Comparison with alternatives
 
@@ -61,11 +128,16 @@ KulmanLab collects no drawing data. Your DXF files and canvas state are stored l
 
 ## Who it is for
 
-- Engineers and designers who want AutoCAD-style commands without the subscription
+- Engineers and designers who want CAD-style commands without the subscription
 - Users on locked-down machines where installing desktop software is not allowed
 - Privacy-conscious users who do not want drawings stored on third-party servers
 - Students and hobbyists who need a capable free CAD tool
+- CNC and laser cutting workflows that need DXF files prepared or tweaked
 - Teams evaluating browser-based CAD for internal tooling
+
+## Privacy
+
+KulmanLab collects no drawing data. Your DXF files and canvas state are stored locally in localStorage — never uploaded. Google Analytics is used for anonymous usage metrics (page views, session counts). The site sets cookies only for GA. No account, no login, no server-side storage.
 
 ## Release cadence
 
