@@ -1,0 +1,45 @@
+<script>
+  type GtagFn = (...args: unknown[]) => void;
+
+  function track(event: string, params: Record<string, unknown> = {}) {
+    const g = (window as Window & { gtag?: GtagFn }).gtag;
+    g?.('event', event, params);
+  }
+
+  // 1. CTA click tracking — any element with data-ga-event attribute
+  document.addEventListener('click', (e) => {
+    const el = (e.target as Element).closest<HTMLElement>('[data-ga-event]');
+    if (!el) return;
+    track(el.dataset.gaEvent!, { source: el.dataset.gaSource ?? 'unknown' });
+  });
+
+  // 2. Outbound link tracking
+  document.addEventListener('click', (e) => {
+    const a = (e.target as Element).closest<HTMLAnchorElement>('a');
+    if (!a?.href) return;
+    try {
+      const url = new URL(a.href);
+      if (url.origin !== location.origin) {
+        track('outbound_click', {
+          link_url: a.href,
+          link_domain: url.hostname,
+        });
+      }
+    } catch { /* malformed href */ }
+  });
+
+  // 3. Scroll depth — fires once each at 25 / 50 / 75 / 100 %
+  const fired = new Set<number>();
+  window.addEventListener('scroll', () => {
+    const pct = Math.min(
+      100,
+      Math.round(((window.scrollY + window.innerHeight) / document.documentElement.scrollHeight) * 100),
+    );
+    for (const threshold of [25, 50, 75, 100]) {
+      if (pct >= threshold && !fired.has(threshold)) {
+        fired.add(threshold);
+        track('scroll_depth', { percent: threshold });
+      }
+    }
+  }, { passive: true });
+</script>

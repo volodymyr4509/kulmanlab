@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import Analytics from '../components/Analytics.astro';
 
 interface Props {
   title: string;
@@ -56,5 +57,6 @@ const { title, description, canonical = 'https://kulmanlab.com', jsonLd } = Astr
   </head>
   <body class="bg-slate-900 text-slate-50 antialiased font-sans">
     <slot />
+    <Analytics />
   </body>
 </html>

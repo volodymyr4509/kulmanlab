@@ -140,6 +140,8 @@ const stats = [
             <div class="flex flex-wrap gap-4">
               <a
                 href={APP_URL}
+                data-ga-event="launch_app"
+                data-ga-source="hero"
                 class="inline-flex items-center gap-2 rounded-lg bg-brand px-6 py-3 font-medium text-white shadow-lg shadow-brand/20 hover:bg-brand-light transition-colors"
               >
                 Launch App
@@ -149,6 +151,8 @@ const stats = [
               </a>
               <a
                 href={DOCS_URL}
+                data-ga-event="docs_click"
+                data-ga-source="hero"
                 class="inline-flex items-center gap-2 rounded-lg border border-slate-700 px-6 py-3 font-medium text-slate-300 hover:border-slate-500 hover:text-slate-50 transition-colors"
               >
                 View Docs
@@ -516,6 +520,8 @@ const stats = [
         <div class="flex flex-wrap justify-center gap-4">
           <a
             href={APP_URL}
+            data-ga-event="launch_app"
+            data-ga-source="cta_bottom"
             class="inline-flex items-center gap-2 rounded-lg bg-brand px-8 py-4 text-lg font-medium text-white shadow-lg shadow-brand/20 hover:bg-brand-light transition-colors"
           >
             Launch App
@@ -525,6 +531,8 @@ const stats = [
           </a>
           <a
             href={DOCS_URL}
+            data-ga-event="docs_click"
+            data-ga-source="cta_bottom"
             class="inline-flex items-center gap-2 rounded-lg border border-slate-700 px-8 py-4 text-lg font-medium text-slate-300 hover:border-slate-500 hover:text-slate-50 transition-colors"
           >
             Read the Docs
