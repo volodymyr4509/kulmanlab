@@ -43,6 +43,15 @@ const { title, description, canonical = 'https://kulmanlab.com', jsonLd } = Astr
 
     {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
 
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-24RLZ955SW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-24RLZ955SW');
+    </script>
+
     <title>{title}</title>
   </head>
   <body class="bg-slate-900 text-slate-50 antialiased font-sans">
