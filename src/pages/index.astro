@@ -118,18 +118,18 @@ const stats = [
       </div>
 
       <div class="relative mx-auto max-w-7xl px-6">
-        <div class="flex flex-col gap-12 lg:flex-row lg:items-center lg:gap-0">
+        <div class="flex flex-col gap-8 lg:flex-row lg:items-center lg:gap-0">
 
           <!-- Left: headline & CTAs -->
-          <div class="flex-shrink-0 lg:w-[440px] xl:w-[500px] lg:py-20 lg:pr-12 xl:pr-16">
+          <div class="flex-shrink-0 lg:w-[440px] xl:w-[500px] pt-12 lg:py-20 lg:pr-12 xl:pr-16">
             <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-brand/30 bg-brand/10 px-4 py-1.5 text-sm text-brand">
               <span class="h-2 w-2 rounded-full bg-brand animate-pulse"></span>
               Free · No sign-up required
             </div>
 
             <h1 class="mb-5 text-4xl font-bold leading-tight tracking-tight text-slate-50 lg:text-5xl xl:text-6xl">
-              Free 2D&nbsp;CAD<br />&amp;&nbsp;DXF&nbsp;Editor<br />
-              <span class="text-brand">in your<br class="hidden xl:block" />browser</span>
+              Free 2D CAD &amp; DXF Editor<br />
+              <span class="text-brand">in your browser</span>
             </h1>
 
             <p class="mb-8 text-lg text-slate-400 leading-relaxed">
@@ -156,8 +156,8 @@ const stats = [
             </div>
           </div>
 
-          <!-- Right: screenshot carousel — bleeds beyond the right edge -->
-          <div class="relative flex-1 min-w-0 lg:-mr-6 xl:-mr-0" style="margin-bottom: -100px;">
+          <!-- Right: screenshot carousel — bleeds beyond the right edge on desktop -->
+          <div class="relative flex-1 min-w-0 lg:-mr-6 xl:-mr-0 lg:-mb-[100px]">
 
             <!-- Glow behind the card -->
             <div class="pointer-events-none absolute -inset-8 opacity-35 blur-3xl"
@@ -187,9 +187,9 @@ const stats = [
                 <!-- Carousel -->
                 <div class="relative overflow-hidden">
                   <div id="carousel-track" class="flex transition-transform duration-500 ease-in-out">
-                    <img src="/images/app-screenshot.png" alt="KulmanLab CAD — bolt drawing with dimensions" class="w-full flex-shrink-0" />
-                    <img src="/images/app-screenshot-3.png" alt="KulmanLab CAD — bolt drawing with layout tabs" class="w-full flex-shrink-0" />
-                    <img src="/images/app-screenshot-2.png" alt="KulmanLab CAD — print layout view" class="w-full flex-shrink-0" />
+                    <img src="/images/app-screenshot.webp" alt="KulmanLab CAD — bolt drawing with dimensions" width="2722" height="1658" class="w-full flex-shrink-0" />
+                    <img src="/images/app-screenshot-3.webp" alt="KulmanLab CAD — bolt drawing with layout tabs" width="2756" height="1650" class="w-full flex-shrink-0" loading="lazy" />
+                    <img src="/images/app-screenshot-2.webp" alt="KulmanLab CAD — print layout view" width="2726" height="1672" class="w-full flex-shrink-0" loading="lazy" />
                   </div>
 
                   <!-- Prev / Next buttons -->
@@ -230,7 +230,7 @@ const stats = [
 
     <!-- ── Stats bar ─────────────────────────────────────── -->
     <section class="relative z-10 border-b border-slate-800 bg-slate-900/50">
-      <div class="mx-auto max-w-6xl px-6 pt-36 pb-0">
+      <div class="mx-auto max-w-6xl px-6 pt-10 lg:pt-36 pb-0">
         <div class="flex flex-col divide-y divide-slate-800 sm:flex-row sm:divide-x sm:divide-y-0">
           {stats.map(s => (
             <div class="flex-1 px-6 py-7 text-center">
@@ -375,6 +375,7 @@ const stats = [
         <div class="mb-12 text-center">
           <h2 class="mb-3 text-3xl font-bold text-slate-50">How KulmanLab compares</h2>
           <p class="text-slate-400 max-w-lg mx-auto">The only browser-based 2D CAD that is free, requires no account, works offline, and keeps your files on your machine.</p>
+          <p class="mt-3 text-xs text-slate-600 md:hidden">Scroll right to compare →</p>
         </div>
 
         <div class="overflow-x-auto">
