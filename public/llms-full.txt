@@ -1,12 +1,93 @@
-# KulmanLab CAD — Complete Command Reference
+# KulmanLab CAD — Full Reference
 
-> Full documentation for every command in KulmanLab CAD, a free browser-based DXF editor.
+> Complete documentation for KulmanLab: what it is, how it works, and every available command.
 
-App: https://kulmanlab.com/
-Docs index: https://kulmanlab.com/docs/
+App: https://app.kulmanlab.com
+Landing page: https://kulmanlab.com
+Docs: https://kulmanlab.com/docs
+FAQ: https://kulmanlab.com/faq
+Changelog: https://kulmanlab.com/changelog
 Source: https://github.com/volodymyr4509/kulmanlab
 
 ---
+
+# About KulmanLab
+
+KulmanLab is a free, browser-based 2D CAD editor. No installation, no account, no data uploaded. Open the URL and start drawing — your files stay in your browser's localStorage on your own device.
+
+## Key facts
+
+- **Free**: no subscription, no credit card, no hidden plan
+- **No account**: no login or sign-up required
+- **Works offline**: cached after first load, no server needed
+- **Privacy**: drawings never leave your device; Google Analytics used only for anonymous page-view metrics
+- **DXF compatible**: reads and writes AC1032 DXF, compatible with LibreCAD, QCAD, BricsCAD, FreeCAD
+- **Desktop browsers only**: Chrome, Firefox, Safari, Edge — mobile not currently supported
+
+## What it can do
+
+- 50+ drawing commands via toolbar or command terminal (LINE, CIRCLE, ARC, MOVE, TRIM, OFFSET, and more)
+- Full layer management: create, rename, freeze, lock, isolate, color, linetype, lineweight per layer
+- Dimensions: linear, aligned, radius, diameter, angular, continue
+- Grip editing on all entity types — drag endpoints, midpoints, arc ends, dimension text
+- Snapping: endpoint, midpoint, center, intersection, perpendicular, tangent, nearest, grid
+- Angle tracking with configurable increments (10°, 15°, 20°, 30°, 45°, 90°)
+- Layout / paper space with multiple layouts and viewport editing
+- Print manager: PDF and PNG/WebP export with DPI control
+- On-canvas text editing (MTEXT) with Bold, Italic, per-character font and size
+- Undo/redo history
+- Adaptive CAD grid with snap-to-grid
+
+## What it cannot do
+
+- 3D modelling
+- DWG format (proprietary binary — export DXF from your source app instead)
+- Blocks / xrefs
+- Parametric constraints
+- Real-time collaboration (single-user, local only)
+
+## Frequently asked questions
+
+**Can I open .dwg files?**
+No. KulmanLab supports DXF, not DWG. Most desktop CAD apps can export DXF — export from your source app first.
+
+**Where are my drawings stored?**
+In your browser's localStorage on your own device. Nothing is uploaded to a server.
+
+**What happens if I clear my browser data?**
+Saved drawings are lost. Export a DXF copy of anything important before clearing browser storage.
+
+**Which export formats are available?**
+DXF (for round-tripping with other CAD tools), PDF, and PNG/WebP (for print-ready output).
+
+**Are KulmanLab DXF files compatible with other software?**
+Yes. AC1032 DXF opens correctly in LibreCAD, QCAD, BricsCAD, FreeCAD, and any DXF-capable tool.
+
+**Can KulmanLab replace my desktop CAD software?**
+For 2D drafting — yes. It has a full command terminal, layers, snapping, dimensions, grip editing, and DXF compatibility. It does not support 3D, blocks/xrefs, or parametric constraints.
+
+**Is real-time collaboration supported?**
+Not currently. KulmanLab is a single-user tool.
+
+**Does KulmanLab collect drawing data?**
+No. Drawings stay in the browser. Google Analytics collects anonymous page-view metrics only.
+
+## Comparison with alternatives
+
+| Feature | KulmanLab | LibreCAD | QCAD | BricsCAD | Onshape |
+|---|---|---|---|---|---|
+| Runs in browser | Yes | No | No | No | Yes |
+| Free | Yes | Yes | Community | No | Free plan |
+| No account required | Yes | Yes | Yes | No | No |
+| Works offline | Yes | Yes | Yes | Yes | No |
+| Files stay local | Yes | Yes | Yes | Yes | No |
+| Command terminal | Yes | Yes | Yes | Yes | No |
+| Layout / paper space | Yes | No | No | Yes | Yes |
+| DXF import & export | Yes | Yes | Yes | Yes | Yes |
+
+---
+
+# Complete Command Reference
 
 # Angle
 
