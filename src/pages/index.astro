@@ -124,17 +124,17 @@ const stats = [
           <div class="flex-shrink-0 lg:w-[440px] xl:w-[500px] pt-12 lg:py-20 lg:pr-12 xl:pr-16">
             <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-brand/30 bg-brand/10 px-4 py-1.5 text-sm text-brand">
               <span class="h-2 w-2 rounded-full bg-brand animate-pulse"></span>
-              Free · No sign-up required
+              <span data-i18n="hero.badge">Free · No sign-up required</span>
             </div>
 
             <h1 class="mb-5 text-4xl font-bold leading-tight tracking-tight text-slate-50 lg:text-5xl xl:text-6xl">
-              Free 2D CAD &amp; DXF Editor<br />
-              <span class="text-brand">in your browser</span>
+              <span data-i18n="hero.h1.line1">Free 2D CAD &amp; DXF Editor</span><br />
+              <span class="text-brand" data-i18n="hero.h1.line2">in your browser</span>
             </h1>
 
-            <p class="mb-8 text-lg text-slate-400 leading-relaxed">
+            <p class="mb-8 text-lg text-slate-400 leading-relaxed" data-i18n="hero.desc">
               Open DXF files, draw geometry, add dimensions, and export PDF — without installing a single thing.
-              A free AutoCAD alternative that runs in any modern desktop browser.
+              A free alternative to desktop CAD that runs in any modern browser.
             </p>
 
             <div class="flex flex-wrap gap-4">
@@ -144,7 +144,7 @@ const stats = [
                 data-ga-source="hero"
                 class="inline-flex items-center gap-2 rounded-lg bg-brand px-6 py-3 font-medium text-white shadow-lg shadow-brand/20 hover:bg-brand-light transition-colors"
               >
-                Launch App
+                <span data-i18n="hero.cta.app">Launch App</span>
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                 </svg>
@@ -154,6 +154,7 @@ const stats = [
                 data-ga-event="docs_click"
                 data-ga-source="hero"
                 class="inline-flex items-center gap-2 rounded-lg border border-slate-700 px-6 py-3 font-medium text-slate-300 hover:border-slate-500 hover:text-slate-50 transition-colors"
+                data-i18n="hero.cta.docs"
               >
                 View Docs
               </a>
@@ -236,10 +237,10 @@ const stats = [
     <section class="relative z-10 border-b border-slate-800 bg-slate-900/50">
       <div class="mx-auto max-w-6xl px-6 pt-10 lg:pt-36 pb-0">
         <div class="flex flex-col divide-y divide-slate-800 sm:flex-row sm:divide-x sm:divide-y-0">
-          {stats.map(s => (
+          {stats.map((s, i) => (
             <div class="flex-1 px-6 py-7 text-center">
               <div class="text-2xl font-bold text-brand">{s.value}</div>
-              <div class="mt-1 text-sm text-slate-500">{s.label}</div>
+              <div class="mt-1 text-sm text-slate-500" data-i18n={`stats.${['commands','uploaded','free','account'][i]}`}>{s.label}</div>
             </div>
           ))}
         </div>
@@ -250,8 +251,8 @@ const stats = [
     <section class="py-24 border-b border-slate-800">
       <div class="mx-auto max-w-6xl px-6">
         <div class="mb-14 text-center">
-          <h2 class="mb-3 text-3xl font-bold text-slate-50">Everything you need for 2D drafting</h2>
-          <p class="text-slate-400 max-w-xl mx-auto">A complete CAD command set, accessible via toolbar, keyboard shortcut, or the command terminal.</p>
+          <h2 class="mb-3 text-3xl font-bold text-slate-50" data-i18n="features.h2">Everything you need for 2D drafting</h2>
+          <p class="text-slate-400 max-w-xl mx-auto" data-i18n="features.sub">A complete CAD command set, accessible via toolbar, keyboard shortcut, or the command terminal.</p>
         </div>
         <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {features.map(f => (
@@ -259,8 +260,8 @@ const stats = [
               <div class="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl border border-brand/20 bg-gradient-to-br from-brand/20 to-brand/5">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" set:html={f.icon} />
               </div>
-              <h3 class="mb-2 font-semibold text-slate-50">{f.title}</h3>
-              <p class="text-sm text-slate-400 leading-relaxed">{f.body}</p>
+              <h3 class="mb-2 font-semibold text-slate-50" data-i18n={`feature.${features.indexOf(f)}.title`}>{f.title}</h3>
+              <p class="text-sm text-slate-400 leading-relaxed" data-i18n={`feature.${features.indexOf(f)}.body`}>{f.body}</p>
             </div>
           ))}
         </div>
@@ -271,8 +272,8 @@ const stats = [
     <section class="py-24 border-b border-slate-800">
       <div class="mx-auto max-w-6xl px-6">
         <div class="mb-16 text-center">
-          <h2 class="mb-3 text-3xl font-bold text-slate-50">From sketch to print-ready sheet</h2>
-          <p class="text-slate-400 max-w-lg mx-auto">A complete drafting workflow in three steps, without leaving the browser.</p>
+          <h2 class="mb-3 text-3xl font-bold text-slate-50" data-i18n="workflow.h2">From sketch to print-ready sheet</h2>
+          <p class="text-slate-400 max-w-lg mx-auto" data-i18n="workflow.sub">A complete drafting workflow in three steps, without leaving the browser.</p>
         </div>
 
         <div class="relative">
@@ -311,8 +312,8 @@ const stats = [
                     {i + 1}
                   </span>
                 </div>
-                <h3 class="mb-2 text-lg font-semibold text-slate-50">{step.title}</h3>
-                <p class="text-sm text-slate-400 leading-relaxed max-w-[240px]">{step.desc}</p>
+                <h3 class="mb-2 text-lg font-semibold text-slate-50" data-i18n={`workflow.step.${i}.title`}>{step.title}</h3>
+                <p class="text-sm text-slate-400 leading-relaxed max-w-[240px]" data-i18n={`workflow.step.${i}.desc`}>{step.desc}</p>
               </div>
             ))}
           </div>
@@ -324,8 +325,8 @@ const stats = [
     <section class="py-20 border-b border-slate-800">
       <div class="mx-auto max-w-6xl px-6">
         <div class="mb-10 text-center">
-          <h2 class="mb-3 text-3xl font-bold text-slate-50">Works exactly like desktop CAD</h2>
-          <p class="text-slate-400 max-w-xl mx-auto">Type a command or click the toolbar. Snap to geometry, enter exact values, add dimensions, export DXF — the full workflow, running locally in your browser.</p>
+          <h2 class="mb-3 text-3xl font-bold text-slate-50" data-i18n="demo.h2">Works exactly like desktop CAD</h2>
+          <p class="text-slate-400 max-w-xl mx-auto" data-i18n="demo.sub">Type a command or click the toolbar. Snap to geometry, enter exact values, add dimensions, export DXF — the full workflow, running locally in your browser.</p>
         </div>
 
         <div class="mx-auto max-w-4xl">
@@ -356,8 +357,8 @@ const stats = [
     <section class="py-24 border-b border-slate-800">
       <div class="mx-auto max-w-6xl px-6">
         <div class="mb-12 text-center">
-          <h2 class="mb-3 text-3xl font-bold text-slate-50">Who uses KulmanLab</h2>
-          <p class="text-slate-400 max-w-lg mx-auto">A tool built for professionals who need results, not overhead.</p>
+          <h2 class="mb-3 text-3xl font-bold text-slate-50" data-i18n="who.h2">Who uses KulmanLab</h2>
+          <p class="text-slate-400 max-w-lg mx-auto" data-i18n="who.sub">A tool built for professionals who need results, not overhead.</p>
         </div>
         <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {useCases.map(card => (
@@ -365,8 +366,8 @@ const stats = [
               <div class="mb-3 inline-flex h-10 w-10 items-center justify-center rounded-lg bg-slate-800">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" set:html={card.icon} />
               </div>
-              <h3 class="mb-2 font-semibold text-slate-100">{card.title}</h3>
-              <p class="text-sm text-slate-400 leading-relaxed">{card.body}</p>
+              <h3 class="mb-2 font-semibold text-slate-100" data-i18n={`who.${useCases.indexOf(card)}.title`}>{card.title}</h3>
+              <p class="text-sm text-slate-400 leading-relaxed" data-i18n={`who.${useCases.indexOf(card)}.body`}>{card.body}</p>
             </div>
           ))}
         </div>
@@ -377,9 +378,9 @@ const stats = [
     <section class="py-24 border-b border-slate-800">
       <div class="mx-auto max-w-6xl px-6">
         <div class="mb-12 text-center">
-          <h2 class="mb-3 text-3xl font-bold text-slate-50">How KulmanLab compares</h2>
-          <p class="text-slate-400 max-w-lg mx-auto">The only browser-based 2D CAD that is free, requires no account, works offline, and keeps your files on your machine.</p>
-          <p class="mt-3 text-xs text-slate-600 md:hidden">Scroll right to compare →</p>
+          <h2 class="mb-3 text-3xl font-bold text-slate-50" data-i18n="compare.h2">How KulmanLab compares</h2>
+          <p class="text-slate-400 max-w-lg mx-auto" data-i18n="compare.sub">The only browser-based 2D CAD that is free, requires no account, works offline, and keeps your files on your machine.</p>
+          <p class="mt-3 text-xs text-slate-600 md:hidden" data-i18n="compare.scroll">Scroll right to compare →</p>
         </div>
 
         <div class="overflow-x-auto">
@@ -408,18 +409,18 @@ const stats = [
 
             <!-- Divider: access -->
             <div class="bg-slate-800/60 px-5 py-1.5">
-              <span class="text-[10px] font-bold uppercase tracking-widest text-slate-500">Access</span>
+              <span class="text-[10px] font-bold uppercase tracking-widest text-slate-500" data-i18n="compare.section.access">Access</span>
             </div>
 
             {[
-              { label: 'Runs in browser',     vals: ['yes', 'no',  'no',        'no',  'no',  'yes',       'yes'] },
-              { label: 'No installation',     vals: ['yes', 'no',  'no',        'no',  'no',  'yes',       'yes'] },
-              { label: 'Free',                vals: ['yes', 'yes', 'community', 'no',  'no',  'free plan', 'no'] },
-              { label: 'No account required', vals: ['yes', 'yes', 'yes',       'no',  'no',  'no',        'no'] },
-              { label: 'Works offline',       vals: ['yes', 'yes', 'yes',       'yes', '30d check', 'no',   'no'] },
+              { label: 'Runs in browser',     key: 'compare.row.browser',    vals: ['yes', 'no',  'no',        'no',  'no',  'yes',       'yes'] },
+              { label: 'No installation',     key: 'compare.row.no_install', vals: ['yes', 'no',  'no',        'no',  'no',  'yes',       'yes'] },
+              { label: 'Free',                key: 'compare.row.free',       vals: ['yes', 'yes', 'community', 'no',  'no',  'free plan', 'no'] },
+              { label: 'No account required', key: 'compare.row.no_account', vals: ['yes', 'yes', 'yes',       'no',  'no',  'no',        'no'] },
+              { label: 'Works offline',       key: 'compare.row.offline',    vals: ['yes', 'yes', 'yes',       'yes', '30d check', 'no',   'no'] },
             ].map((row, ri) => (
               <div class={`grid grid-cols-[2fr_1.1fr_1fr_1fr_1fr_1fr_1fr_1fr] border-b border-slate-800 ${ri % 2 === 1 ? 'bg-slate-900/40' : ''}`}>
-                <div class="flex items-center px-5 py-3.5 text-sm text-slate-300">{row.label}</div>
+                <div class="flex items-center px-5 py-3.5 text-sm text-slate-300" data-i18n={row.key}>{row.label}</div>
                 {row.vals.map((val, vi) => (
                   <div class={`flex items-center justify-center px-3 py-3.5 border-l ${vi === 0 ? 'border-brand/20 bg-brand/5' : 'border-slate-800'}`}>
                     {val === 'yes' ? (
@@ -440,16 +441,16 @@ const stats = [
 
             <!-- Divider: privacy -->
             <div class="bg-slate-800/60 px-5 py-1.5 border-t border-slate-800">
-              <span class="text-[10px] font-bold uppercase tracking-widest text-slate-500">Privacy</span>
+              <span class="text-[10px] font-bold uppercase tracking-widest text-slate-500" data-i18n="compare.section.privacy">Privacy</span>
             </div>
 
             {[
-              { label: 'Files stay local',    vals: ['yes', 'yes', 'yes', 'yes', 'yes', 'no', 'no'] },
-              { label: 'No cloud storage',    vals: ['yes', 'yes', 'yes', 'yes', 'yes', 'no', 'no'] },
+              { label: 'Files stay local',    key: 'compare.row.local_files', vals: ['yes', 'yes', 'yes', 'yes', 'yes', 'no', 'no'] },
+              { label: 'No cloud storage',    key: 'compare.row.no_cloud',    vals: ['yes', 'yes', 'yes', 'yes', 'yes', 'no', 'no'] },
 
             ].map((row, ri) => (
               <div class={`grid grid-cols-[2fr_1.1fr_1fr_1fr_1fr_1fr_1fr_1fr] border-b border-slate-800 ${ri % 2 === 1 ? 'bg-slate-900/40' : ''}`}>
-                <div class="flex items-center px-5 py-3.5 text-sm text-slate-300">{row.label}</div>
+                <div class="flex items-center px-5 py-3.5 text-sm text-slate-300" data-i18n={row.key}>{row.label}</div>
                 {row.vals.map((val, vi) => (
                   <div class={`flex items-center justify-center px-3 py-3.5 border-l ${vi === 0 ? 'border-brand/20 bg-brand/5' : 'border-slate-800'}`}>
                     {val === 'yes' ? (
@@ -468,22 +469,22 @@ const stats = [
 
             <!-- Divider: features -->
             <div class="bg-slate-800/60 px-5 py-1.5 border-t border-slate-800">
-              <span class="text-[10px] font-bold uppercase tracking-widest text-slate-500">Features</span>
+              <span class="text-[10px] font-bold uppercase tracking-widest text-slate-500" data-i18n="compare.section.features">Features</span>
             </div>
 
             {[
-              { label: 'Undo / redo history',   vals: ['yes', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes'] },
-              { label: 'Command terminal',     vals: ['yes', 'yes', 'yes', 'yes', 'yes', 'no',  'yes'] },
-              { label: 'Layout / paper space', vals: ['yes', 'no',  'no',  'yes', 'yes', 'yes', 'yes'] },
-              { label: 'Layer management',     vals: ['yes', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes'] },
-              { label: 'Snapping',             vals: ['yes', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes'] },
-              { label: 'Dimensions',           vals: ['yes', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes'] },
-              { label: 'DXF import & export',  vals: ['yes', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes'] },
-              { label: 'PDF / PNG export',     vals: ['yes', 'yes', 'Pro only', 'yes', 'yes', 'yes', 'yes'] },
-              { label: 'Grip editing',         vals: ['yes', 'yes', 'no',      'yes', 'yes', 'yes', 'yes'] },
+              { label: 'Undo / redo history',  key: 'compare.row.undo',        vals: ['yes', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes'] },
+              { label: 'Command terminal',     key: 'compare.row.terminal',    vals: ['yes', 'yes', 'yes', 'yes', 'yes', 'no',  'yes'] },
+              { label: 'Layout / paper space', key: 'compare.row.layout',      vals: ['yes', 'no',  'no',  'yes', 'yes', 'yes', 'yes'] },
+              { label: 'Layer management',     key: 'compare.row.layers',      vals: ['yes', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes'] },
+              { label: 'Snapping',             key: 'compare.row.snapping',    vals: ['yes', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes'] },
+              { label: 'Dimensions',           key: 'compare.row.dimensions',  vals: ['yes', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes'] },
+              { label: 'DXF import & export',  key: 'compare.row.dxf',         vals: ['yes', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes'] },
+              { label: 'PDF / PNG export',     key: 'compare.row.pdf',         vals: ['yes', 'yes', 'Pro only', 'yes', 'yes', 'yes', 'yes'] },
+              { label: 'Grip editing',         key: 'compare.row.grips',       vals: ['yes', 'yes', 'no',      'yes', 'yes', 'yes', 'yes'] },
             ].map((row, ri) => (
               <div class={`grid grid-cols-[2fr_1.1fr_1fr_1fr_1fr_1fr_1fr_1fr] border-b border-slate-800 last:border-b-0 ${ri % 2 === 1 ? 'bg-slate-900/40' : ''}`}>
-                <div class="flex items-center px-5 py-3.5 text-sm text-slate-300">{row.label}</div>
+                <div class="flex items-center px-5 py-3.5 text-sm text-slate-300" data-i18n={row.key}>{row.label}</div>
                 {row.vals.map((val, vi) => (
                   <div class={`flex items-center justify-center px-3 py-3.5 border-l ${vi === 0 ? 'border-brand/20 bg-brand/5' : 'border-slate-800'}`}>
                     {val === 'yes' ? (
@@ -513,8 +514,8 @@ const stats = [
         style="background: radial-gradient(ellipse 60% 50% at 50% 100%, rgba(74,133,128,0.1), transparent);">
       </div>
       <div class="relative mx-auto max-w-2xl px-6 text-center">
-        <h2 class="mb-4 text-4xl font-bold text-slate-50 md:text-5xl">Start drawing<br />for free</h2>
-        <p class="mb-8 text-lg text-slate-400">
+        <h2 class="mb-4 text-4xl font-bold text-slate-50 md:text-5xl" data-i18n="cta.h2">Start drawing for free</h2>
+        <p class="mb-8 text-lg text-slate-400" data-i18n="cta.sub">
           No installation. No account. Open the app and draw.
         </p>
         <div class="flex flex-wrap justify-center gap-4">
@@ -524,7 +525,7 @@ const stats = [
             data-ga-source="cta_bottom"
             class="inline-flex items-center gap-2 rounded-lg bg-brand px-8 py-4 text-lg font-medium text-white shadow-lg shadow-brand/20 hover:bg-brand-light transition-colors"
           >
-            Launch App
+            <span data-i18n="cta.app">Launch App</span>
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
               <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
             </svg>
@@ -534,6 +535,7 @@ const stats = [
             data-ga-event="docs_click"
             data-ga-source="cta_bottom"
             class="inline-flex items-center gap-2 rounded-lg border border-slate-700 px-8 py-4 text-lg font-medium text-slate-300 hover:border-slate-500 hover:text-slate-50 transition-colors"
+            data-i18n="cta.docs"
           >
             Read the Docs
           </a>

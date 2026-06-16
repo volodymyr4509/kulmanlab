@@ -1,0 +1,108 @@
+---
+import { languages } from '../i18n/translations';
+---
+
+<div class="relative" id="lang-wrapper">
+  <button
+    id="lang-toggle"
+    aria-label="Select language"
+    aria-expanded="false"
+    aria-haspopup="listbox"
+    class="flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-sm text-slate-400 hover:text-slate-200 hover:bg-slate-800 transition-colors"
+  >
+    <svg class="h-4 w-4 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 21l5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 016-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 01-3.827-5.802" />
+    </svg>
+    <span id="lang-label">EN</span>
+    <svg class="h-3 w-3 text-slate-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </button>
+
+  <div
+    id="lang-dropdown"
+    role="listbox"
+    aria-label="Language"
+    class="hidden absolute right-0 top-full mt-1 w-44 rounded-xl border border-slate-700 bg-slate-900 shadow-xl shadow-black/40 z-50 overflow-hidden py-1"
+  >
+    {languages.map(({ code, label, flag }) => (
+      <button
+        role="option"
+        data-lang={code}
+        class="lang-option flex w-full items-center gap-2.5 px-3 py-2 text-sm text-slate-300 hover:bg-slate-800 hover:text-slate-50 transition-colors"
+      >
+        <span class="text-base leading-none">{flag}</span>
+        <span>{label}</span>
+        <svg data-check class="ml-auto h-3.5 w-3.5 text-brand hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+        </svg>
+      </button>
+    ))}
+  </div>
+</div>
+
+<script>
+  import { translations, languages, type Lang } from '../i18n/translations';
+
+  const LS_KEY = 'kl-lang';
+
+  function detectLang(): Lang {
+    const saved = localStorage.getItem(LS_KEY) as Lang | null;
+    if (saved && saved in translations) return saved;
+    const browser = navigator.language.slice(0, 2) as Lang;
+    if (browser in translations) return browser;
+    return 'en';
+  }
+
+  function applyLang(lang: Lang) {
+    const t = translations[lang];
+    document.querySelectorAll<HTMLElement>('[data-i18n]').forEach(el => {
+      const key = el.dataset.i18n!;
+      if (t[key] !== undefined) el.textContent = t[key];
+    });
+
+    const label = document.getElementById('lang-label');
+    if (label) label.textContent = lang.toUpperCase();
+
+    document.querySelectorAll<HTMLElement>('.lang-option').forEach(btn => {
+      const check = btn.querySelector<SVGElement>('[data-check]');
+      if (!check) return;
+      if (btn.dataset.lang === lang) check.classList.remove('hidden');
+      else check.classList.add('hidden');
+    });
+
+    localStorage.setItem(LS_KEY, lang);
+    document.documentElement.lang = lang;
+  }
+
+  // Toggle dropdown
+  const toggle = document.getElementById('lang-toggle');
+  const dropdown = document.getElementById('lang-dropdown');
+  const wrapper = document.getElementById('lang-wrapper');
+
+  toggle?.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const open = dropdown?.classList.toggle('hidden') === false;
+    toggle.setAttribute('aria-expanded', String(open));
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!wrapper?.contains(e.target as Node)) {
+      dropdown?.classList.add('hidden');
+      toggle?.setAttribute('aria-expanded', 'false');
+    }
+  });
+
+  // Language selection
+  document.querySelectorAll<HTMLElement>('.lang-option').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const lang = btn.dataset.lang as Lang;
+      if (lang) applyLang(lang);
+      dropdown?.classList.add('hidden');
+      toggle?.setAttribute('aria-expanded', 'false');
+    });
+  });
+
+  // Apply on load
+  applyLang(detectLang());
+</script>
