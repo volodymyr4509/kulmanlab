@@ -1,6 +1,6 @@
 ---
 import LanguageSelector from './LanguageSelector.astro';
-import type { Lang } from '../i18n/translations';
+import { translations, type Lang } from '../i18n/translations';
 import { localeUrl } from '../i18n/utils';
 
 interface Props {
@@ -8,6 +8,7 @@ interface Props {
   lang?: Lang;
 }
 const { active, lang = 'en' } = Astro.props;
+const t = translations[lang];
 
 const APP_URL = 'https://app.kulmanlab.com';
 const GITHUB_URL = 'https://github.com/volodymyr4509/kulmanlab';
@@ -39,9 +40,9 @@ const mobileLink = (page: string) =>
 
     <!-- Desktop nav -->
     <div class="hidden md:flex items-center gap-6">
-      <a href="/docs" class={link('docs')}><span data-i18n="nav.docs">Docs</span></a>
-      <a href={changelogUrl} class={link('changelog')}><span data-i18n="nav.changelog">Changelog</span></a>
-      <a href={faqUrl} class={link('faq')}><span data-i18n="nav.faq">FAQ</span></a>
+      <a href="/docs" class={link('docs')}><span data-i18n="nav.docs">{t['nav.docs']}</span></a>
+      <a href={changelogUrl} class={link('changelog')}><span data-i18n="nav.changelog">{t['nav.changelog']}</span></a>
+      <a href={faqUrl} class={link('faq')}><span data-i18n="nav.faq">{t['nav.faq']}</span></a>
       <LanguageSelector lang={lang} page={active === 'faq' ? 'faq' : active === 'changelog' ? 'changelog' : 'home'} />
       <div class="flex items-center gap-3">
         <a href={GITHUB_URL} target="_blank" rel="noopener" aria-label="GitHub" class="text-slate-500 hover:text-slate-200 transition-colors">
@@ -60,7 +61,7 @@ const mobileLink = (page: string) =>
         data-ga-event="launch_app"
         data-ga-source="header"
         class="rounded-lg bg-brand px-4 py-2 text-sm font-medium text-white hover:bg-brand-light transition-colors"
-      ><span data-i18n="nav.launch">Launch App</span></a>
+      ><span data-i18n="nav.launch">{t['nav.launch']}</span></a>
     </div>
 
     <!-- Mobile: Launch App + hamburger -->
@@ -70,7 +71,7 @@ const mobileLink = (page: string) =>
         data-ga-event="launch_app"
         data-ga-source="header"
         class="rounded-lg bg-brand px-4 py-2 text-sm font-medium text-white hover:bg-brand-light transition-colors"
-      ><span data-i18n="nav.launch">Launch App</span></a>
+      ><span data-i18n="nav.launch">{t['nav.launch']}</span></a>
       <button
         id="nav-toggle"
         aria-label="Toggle navigation"
@@ -90,9 +91,9 @@ const mobileLink = (page: string) =>
   <!-- Mobile dropdown -->
   <div id="mobile-nav" class="hidden border-t border-slate-800 md:hidden">
     <div class="mx-auto max-w-6xl px-4 py-3 flex flex-col gap-1">
-      <a href="/docs" class={mobileLink('docs')}><span data-i18n="nav.docs">Docs</span></a>
-      <a href={changelogUrl} class={mobileLink('changelog')}><span data-i18n="nav.changelog">Changelog</span></a>
-      <a href={faqUrl} class={mobileLink('faq')}><span data-i18n="nav.faq">FAQ</span></a>
+      <a href="/docs" class={mobileLink('docs')}><span data-i18n="nav.docs">{t['nav.docs']}</span></a>
+      <a href={changelogUrl} class={mobileLink('changelog')}><span data-i18n="nav.changelog">{t['nav.changelog']}</span></a>
+      <a href={faqUrl} class={mobileLink('faq')}><span data-i18n="nav.faq">{t['nav.faq']}</span></a>
       <div class="flex gap-4 px-3 pt-3 mt-1 border-t border-slate-800">
         <a href={GITHUB_URL} target="_blank" rel="noopener" class="flex items-center gap-2 text-sm text-slate-400 hover:text-slate-200 transition-colors">
           <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
