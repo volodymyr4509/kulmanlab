@@ -1,18 +1,21 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import SiteHeader from '../components/SiteHeader.astro';
-import SiteFooter from '../components/SiteFooter.astro';
-import type { Lang } from '../i18n/translations';
-import { translations } from '../i18n/translations';
-import { buildAlternates } from '../i18n/utils';
+import Layout from '../../layouts/Layout.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import type { Lang } from '../../i18n/translations';
+import { translations } from '../../i18n/translations';
+import { LANGS_NO_EN, buildAlternates } from '../../i18n/utils';
 
-const lang: Lang = 'en';
+export function getStaticPaths() {
+  return LANGS_NO_EN.map(lang => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params as { lang: Lang };
 const t = translations[lang];
 
 const sections = [
   {
     heading: t['faq.section.start'],
-    headingKey: 'faq.section.start',
     items: [
       {
         q: 'Is KulmanLab really free?',
@@ -34,7 +37,6 @@ const sections = [
   },
   {
     heading: t['faq.section.files'],
-    headingKey: 'faq.section.files',
     items: [
       {
         q: 'Where are my drawings stored?',
@@ -56,7 +58,6 @@ const sections = [
   },
   {
     heading: t['faq.section.features'],
-    headingKey: 'faq.section.features',
     items: [
       {
         q: 'Does it have a command terminal?',
@@ -82,7 +83,6 @@ const sections = [
   },
   {
     heading: t['faq.section.compat'],
-    headingKey: 'faq.section.compat',
     items: [
       {
         q: 'Are KulmanLab DXF files compatible with other CAD software?',
@@ -100,7 +100,6 @@ const sections = [
   },
   {
     heading: t['faq.section.privacy'],
-    headingKey: 'faq.section.privacy',
     items: [
       {
         q: 'Does KulmanLab collect my drawing data?',
@@ -131,7 +130,7 @@ const faqJsonLd = {
 <Layout
   title={t['faq.title']}
   description={t['faq.desc']}
-  canonical="https://kulmanlab.com/faq"
+  canonical={`https://kulmanlab.com/${lang}/faq`}
   lang={lang}
   alternates={buildAlternates('faq')}
   jsonLd={faqJsonLd}
@@ -142,14 +141,14 @@ const faqJsonLd = {
   <main class="mx-auto max-w-3xl px-6 py-16">
 
     <div class="mb-14">
-      <h1 class="mb-3 text-4xl font-bold text-slate-50" data-i18n="faq.heading">{t['faq.heading']}</h1>
-      <p class="text-slate-400 text-lg" data-i18n="faq.subtitle">{t['faq.subtitle']}</p>
+      <h1 class="mb-3 text-4xl font-bold text-slate-50">{t['faq.heading']}</h1>
+      <p class="text-slate-400 text-lg">{t['faq.subtitle']}</p>
     </div>
 
     <div class="space-y-12">
       {sections.map(section => (
         <div>
-          <h2 class="mb-5 text-xs font-bold uppercase tracking-widest text-slate-500" data-i18n={section.headingKey}>{section.heading}</h2>
+          <h2 class="mb-5 text-xs font-bold uppercase tracking-widest text-slate-500">{section.heading}</h2>
           <div class="divide-y divide-slate-800 rounded-xl border border-slate-800 overflow-hidden">
             {section.items.map(item => (
               <details class="group">
@@ -174,7 +173,7 @@ const faqJsonLd = {
     </div>
 
     <div class="mt-16 rounded-xl border border-slate-800 bg-slate-800/20 px-6 py-8 text-center">
-      <p class="mb-1 text-slate-300 font-medium" data-i18n="faq.still_q">{t['faq.still_q']}</p>
+      <p class="mb-1 text-slate-300 font-medium">{t['faq.still_q']}</p>
       <p class="text-sm text-slate-500">
         Ask on <a href="https://www.reddit.com/r/kulmanlab/" target="_blank" rel="noopener" class="text-brand hover:text-brand-light transition-colors">r/kulmanlab</a> or open an issue on <a href="https://github.com/volodymyr4509/kulmanlab" target="_blank" rel="noopener" class="text-brand hover:text-brand-light transition-colors">GitHub</a>.
       </p>

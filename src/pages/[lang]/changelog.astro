@@ -1,12 +1,16 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import SiteHeader from '../components/SiteHeader.astro';
-import SiteFooter from '../components/SiteFooter.astro';
-import type { Lang } from '../i18n/translations';
-import { translations } from '../i18n/translations';
-import { buildAlternates } from '../i18n/utils';
+import Layout from '../../layouts/Layout.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import type { Lang } from '../../i18n/translations';
+import { translations } from '../../i18n/translations';
+import { LANGS_NO_EN, buildAlternates } from '../../i18n/utils';
 
-const lang: Lang = 'en';
+export function getStaticPaths() {
+  return LANGS_NO_EN.map(lang => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params as { lang: Lang };
 const t = translations[lang];
 
 const releases = [
@@ -240,7 +244,7 @@ const releases = [
 <Layout
   title={t['changelog.title']}
   description={t['changelog.desc']}
-  canonical="https://kulmanlab.com/changelog"
+  canonical={`https://kulmanlab.com/${lang}/changelog`}
   lang={lang}
   alternates={buildAlternates('changelog')}
 >
@@ -250,8 +254,8 @@ const releases = [
   <main class="mx-auto max-w-3xl px-6 py-16">
 
     <div class="mb-14">
-      <h1 class="mb-3 text-4xl font-bold text-slate-50" data-i18n="changelog.heading">{t['changelog.heading']}</h1>
-      <p class="text-slate-400 text-lg" data-i18n="changelog.subtitle">{t['changelog.subtitle']}</p>
+      <h1 class="mb-3 text-4xl font-bold text-slate-50">{t['changelog.heading']}</h1>
+      <p class="text-slate-400 text-lg">{t['changelog.subtitle']}</p>
     </div>
 
     <div class="relative">

@@ -6,12 +6,14 @@ interface Props {
   title: string;
   description: string;
   canonical?: string;
+  lang?: string;
+  alternates?: Array<{ hreflang: string; href: string }>;
   jsonLd?: object;
 }
-const { title, description, canonical = 'https://kulmanlab.com', jsonLd } = Astro.props;
+const { title, description, canonical = 'https://kulmanlab.com', lang = 'en', alternates, jsonLd } = Astro.props;
 ---
 <!doctype html>
-<html lang="en">
+<html lang={lang}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -37,6 +39,10 @@ const { title, description, canonical = 'https://kulmanlab.com', jsonLd } = Astr
     <link rel="sitemap" href="/sitemap-index.xml" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    {alternates?.map(a => (
+      <link rel="alternate" hreflang={a.hreflang} href={a.href} />
+    ))}
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

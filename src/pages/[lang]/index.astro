@@ -1,12 +1,16 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import SiteHeader from '../components/SiteHeader.astro';
-import SiteFooter from '../components/SiteFooter.astro';
-import type { Lang } from '../i18n/translations';
-import { translations } from '../i18n/translations';
-import { buildAlternates } from '../i18n/utils';
+import Layout from '../../layouts/Layout.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import type { Lang } from '../../i18n/translations';
+import { translations } from '../../i18n/translations';
+import { LANGS_NO_EN, buildAlternates, localeUrl } from '../../i18n/utils';
 
-const lang: Lang = 'en';
+export function getStaticPaths() {
+  return LANGS_NO_EN.map(lang => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params as { lang: Lang };
 const t = translations[lang];
 
 const APP_URL = 'https://app.kulmanlab.com';
@@ -69,17 +73,19 @@ const useCases = [
 ];
 
 const stats = [
-  { value: '50+',        label: t['stats.commands'] ?? 'drawing commands',         labelKey: 'stats.commands' },
-  { value: '0 bytes',    label: t['stats.uploaded'] ?? 'ever uploaded',            labelKey: 'stats.uploaded' },
-  { value: t['stats.val.free'] ?? 'Free',       label: t['stats.free'] ?? 'no subscription, no card', labelKey: 'stats.free',    valueKey: 'stats.val.free' },
-  { value: t['stats.val.account'] ?? 'No account', label: t['stats.account'] ?? 'just open and draw', labelKey: 'stats.account', valueKey: 'stats.val.account' },
+  { value: '50+',                              label: t['stats.commands'], labelKey: 'stats.commands' },
+  { value: '0 bytes',                          label: t['stats.uploaded'], labelKey: 'stats.uploaded' },
+  { value: t['stats.val.free'],    label: t['stats.free'],    labelKey: 'stats.free',    valueKey: 'stats.val.free' },
+  { value: t['stats.val.account'], label: t['stats.account'], labelKey: 'stats.account', valueKey: 'stats.val.account' },
 ];
+
+const canonical = `https://kulmanlab.com/${lang}/`;
 ---
 
 <Layout
   title={t['page.title']}
   description={t['page.desc']}
-  canonical="https://kulmanlab.com/"
+  canonical={canonical}
   lang={lang}
   alternates={buildAlternates('home')}
   jsonLd={{
@@ -94,7 +100,7 @@ const stats = [
         "@type": "SoftwareApplication",
         "name": "KulmanLab",
         "url": "https://app.kulmanlab.com",
-        "description": "Free browser-based 2D CAD and DXF editor. AutoCAD-style commands, layers, dimensions, and PDF export — no installation, no account required.",
+        "description": t['page.desc'],
         "applicationCategory": "DesignApplication",
         "operatingSystem": "Web",
         "offers": {
@@ -133,15 +139,15 @@ const stats = [
           <div class="flex-shrink-0 lg:w-[440px] xl:w-[500px] pt-12 lg:py-20 lg:pr-12 xl:pr-16">
             <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-brand/30 bg-brand/10 px-4 py-1.5 text-sm text-brand">
               <span class="h-2 w-2 rounded-full bg-brand animate-pulse"></span>
-              <span data-i18n="hero.badge">{t['hero.badge']}</span>
+              <span>{t['hero.badge']}</span>
             </div>
 
             <h1 class="mb-5 text-4xl font-bold leading-tight tracking-tight text-slate-50 lg:text-5xl xl:text-6xl">
-              <span data-i18n="hero.h1.line1">{t['hero.h1.line1']}</span><br />
-              <span class="text-brand" data-i18n="hero.h1.line2">{t['hero.h1.line2']}</span>
+              {t['hero.h1.line1']}<br />
+              <span class="text-brand">{t['hero.h1.line2']}</span>
             </h1>
 
-            <p class="mb-8 text-lg text-slate-400 leading-relaxed" data-i18n="hero.desc">
+            <p class="mb-8 text-lg text-slate-400 leading-relaxed">
               {t['hero.desc']}
             </p>
 
@@ -152,7 +158,7 @@ const stats = [
                 data-ga-source="hero"
                 class="inline-flex items-center gap-2 rounded-lg bg-brand px-6 py-3 font-medium text-white shadow-lg shadow-brand/20 hover:bg-brand-light transition-colors"
               >
-                <span data-i18n="hero.cta.app">{t['hero.cta.app']}</span>
+                {t['hero.cta.app']}
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                 </svg>
@@ -163,7 +169,7 @@ const stats = [
                 data-ga-source="hero"
                 class="inline-flex items-center gap-2 rounded-lg border border-slate-700 px-6 py-3 font-medium text-slate-300 hover:border-slate-500 hover:text-slate-50 transition-colors"
               >
-                <span data-i18n="hero.cta.docs">{t['hero.cta.docs']}</span>
+                {t['hero.cta.docs']}
               </a>
             </div>
           </div>
@@ -246,8 +252,8 @@ const stats = [
         <div class="flex flex-col divide-y divide-slate-800 sm:flex-row sm:divide-x sm:divide-y-0">
           {stats.map((s) => (
             <div class="flex-1 px-6 py-7 text-center">
-              <div class="text-2xl font-bold text-brand" data-i18n={s.valueKey}>{s.value}</div>
-              <div class="mt-1 text-sm text-slate-500" data-i18n={s.labelKey}>{s.label}</div>
+              <div class="text-2xl font-bold text-brand">{s.value}</div>
+              <div class="mt-1 text-sm text-slate-500">{s.label}</div>
             </div>
           ))}
         </div>
@@ -258,8 +264,8 @@ const stats = [
     <section class="py-24 border-b border-slate-800">
       <div class="mx-auto max-w-6xl px-6">
         <div class="mb-14 text-center">
-          <h2 class="mb-3 text-3xl font-bold text-slate-50" data-i18n="features.h2">{t['features.h2']}</h2>
-          <p class="text-slate-400 max-w-xl mx-auto" data-i18n="features.sub">{t['features.sub']}</p>
+          <h2 class="mb-3 text-3xl font-bold text-slate-50">{t['features.h2']}</h2>
+          <p class="text-slate-400 max-w-xl mx-auto">{t['features.sub']}</p>
         </div>
         <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {features.map((f, i) => (
@@ -267,8 +273,8 @@ const stats = [
               <div class="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl border border-brand/20 bg-gradient-to-br from-brand/20 to-brand/5">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" set:html={f.icon} />
               </div>
-              <h3 class="mb-2 font-semibold text-slate-50" data-i18n={`feature.${i}.title`}>{f.title}</h3>
-              <p class="text-sm text-slate-400 leading-relaxed" data-i18n={`feature.${i}.body`}>{f.body}</p>
+              <h3 class="mb-2 font-semibold text-slate-50">{f.title}</h3>
+              <p class="text-sm text-slate-400 leading-relaxed">{f.body}</p>
             </div>
           ))}
         </div>
@@ -279,8 +285,8 @@ const stats = [
     <section class="py-24 border-b border-slate-800">
       <div class="mx-auto max-w-6xl px-6">
         <div class="mb-16 text-center">
-          <h2 class="mb-3 text-3xl font-bold text-slate-50" data-i18n="workflow.h2">{t['workflow.h2']}</h2>
-          <p class="text-slate-400 max-w-lg mx-auto" data-i18n="workflow.sub">{t['workflow.sub']}</p>
+          <h2 class="mb-3 text-3xl font-bold text-slate-50">{t['workflow.h2']}</h2>
+          <p class="text-slate-400 max-w-lg mx-auto">{t['workflow.sub']}</p>
         </div>
 
         <div class="relative">
@@ -294,22 +300,16 @@ const stats = [
               {
                 title: t['workflow.step.0.title'],
                 desc: t['workflow.step.0.desc'],
-                titleKey: 'workflow.step.0.title',
-                descKey: 'workflow.step.0.desc',
                 icon: `<path stroke-linecap="round" stroke-linejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931z" />`,
               },
               {
                 title: t['workflow.step.1.title'],
                 desc: t['workflow.step.1.desc'],
-                titleKey: 'workflow.step.1.title',
-                descKey: 'workflow.step.1.desc',
                 icon: `<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 7.125C2.25 6.504 2.754 6 3.375 6h6c.621 0 1.125.504 1.125 1.125v3.75c0 .621-.504 1.125-1.125 1.125h-6a1.125 1.125 0 01-1.125-1.125v-3.75zM14.25 8.625c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v8.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-8.25zM3.75 16.125c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-2.25z" />`,
               },
               {
                 title: t['workflow.step.2.title'],
                 desc: t['workflow.step.2.desc'],
-                titleKey: 'workflow.step.2.title',
-                descKey: 'workflow.step.2.desc',
                 icon: `<path stroke-linecap="round" stroke-linejoin="round" d="M6.72 13.829c-.24.03-.48.062-.72.096m.72-.096a42.415 42.415 0 0110.56 0m-10.56 0L6.34 18m10.94-4.171c.24.03.48.062.72.096m-.72-.096L17.66 18m0 0l.229 2.523a1.125 1.125 0 01-1.12 1.227H7.231c-.662 0-1.18-.568-1.12-1.227L6.34 18m11.318 0h1.091A2.25 2.25 0 0021 15.75V9.456c0-1.081-.768-2.015-1.837-2.175a48.055 48.055 0 00-1.913-.247M6.34 18H5.25A2.25 2.25 0 013 15.75V9.456c0-1.081.768-2.015 1.837-2.175a48.041 48.041 0 011.913-.247m10.5 0a48.536 48.536 0 00-10.5 0m10.5 0V3.375c0-.621-.504-1.125-1.125-1.125h-8.25c-.621 0-1.125.504-1.125 1.125v3.659M18 10.5h.008v.008H18V10.5zm-3 0h.008v.008H15V10.5z" />`,
               },
             ].map((step, i) => (
@@ -325,8 +325,8 @@ const stats = [
                     {i + 1}
                   </span>
                 </div>
-                <h3 class="mb-2 text-lg font-semibold text-slate-50" data-i18n={step.titleKey}>{step.title}</h3>
-                <p class="text-sm text-slate-400 leading-relaxed max-w-[240px]" data-i18n={step.descKey}>{step.desc}</p>
+                <h3 class="mb-2 text-lg font-semibold text-slate-50">{step.title}</h3>
+                <p class="text-sm text-slate-400 leading-relaxed max-w-[240px]">{step.desc}</p>
               </div>
             ))}
           </div>
@@ -338,8 +338,8 @@ const stats = [
     <section class="py-20 border-b border-slate-800">
       <div class="mx-auto max-w-6xl px-6">
         <div class="mb-10 text-center">
-          <h2 class="mb-3 text-3xl font-bold text-slate-50" data-i18n="demo.h2">{t['demo.h2']}</h2>
-          <p class="text-slate-400 max-w-xl mx-auto" data-i18n="demo.sub">{t['demo.sub']}</p>
+          <h2 class="mb-3 text-3xl font-bold text-slate-50">{t['demo.h2']}</h2>
+          <p class="text-slate-400 max-w-xl mx-auto">{t['demo.sub']}</p>
         </div>
 
         <div class="mx-auto max-w-4xl">
@@ -370,17 +370,17 @@ const stats = [
     <section class="py-24 border-b border-slate-800">
       <div class="mx-auto max-w-6xl px-6">
         <div class="mb-12 text-center">
-          <h2 class="mb-3 text-3xl font-bold text-slate-50" data-i18n="who.h2">{t['who.h2']}</h2>
-          <p class="text-slate-400 max-w-lg mx-auto" data-i18n="who.sub">{t['who.sub']}</p>
+          <h2 class="mb-3 text-3xl font-bold text-slate-50">{t['who.h2']}</h2>
+          <p class="text-slate-400 max-w-lg mx-auto">{t['who.sub']}</p>
         </div>
         <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-          {useCases.map((card, i) => (
+          {useCases.map((card) => (
             <div class="rounded-xl border border-slate-800 bg-slate-800/20 p-6 hover:border-slate-700 transition-colors">
               <div class="mb-3 inline-flex h-10 w-10 items-center justify-center rounded-lg bg-slate-800">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" set:html={card.icon} />
               </div>
-              <h3 class="mb-2 font-semibold text-slate-100" data-i18n={`who.${i}.title`}>{card.title}</h3>
-              <p class="text-sm text-slate-400 leading-relaxed" data-i18n={`who.${i}.body`}>{card.body}</p>
+              <h3 class="mb-2 font-semibold text-slate-100">{card.title}</h3>
+              <p class="text-sm text-slate-400 leading-relaxed">{card.body}</p>
             </div>
           ))}
         </div>
@@ -391,9 +391,9 @@ const stats = [
     <section class="py-24 border-b border-slate-800">
       <div class="mx-auto max-w-6xl px-6">
         <div class="mb-12 text-center">
-          <h2 class="mb-3 text-3xl font-bold text-slate-50" data-i18n="compare.h2">{t['compare.h2']}</h2>
-          <p class="text-slate-400 max-w-lg mx-auto" data-i18n="compare.sub">{t['compare.sub']}</p>
-          <p class="mt-3 text-xs text-slate-600 md:hidden" data-i18n="compare.scroll">{t['compare.scroll']}</p>
+          <h2 class="mb-3 text-3xl font-bold text-slate-50">{t['compare.h2']}</h2>
+          <p class="text-slate-400 max-w-lg mx-auto">{t['compare.sub']}</p>
+          <p class="mt-3 text-xs text-slate-600 md:hidden">{t['compare.scroll']}</p>
         </div>
 
         <div class="overflow-x-auto">
@@ -422,18 +422,18 @@ const stats = [
 
             <!-- Divider: access -->
             <div class="bg-slate-800/60 px-5 py-1.5">
-              <span class="text-[10px] font-bold uppercase tracking-widest text-slate-500" data-i18n="compare.section.access">{t['compare.section.access']}</span>
+              <span class="text-[10px] font-bold uppercase tracking-widest text-slate-500">{t['compare.section.access']}</span>
             </div>
 
             {[
-              { label: t['compare.row.browser'],     labelKey: 'compare.row.browser',     vals: ['yes', 'no',  'no',        'no',  'no',  'yes',       'yes'] },
-              { label: t['compare.row.no_install'],  labelKey: 'compare.row.no_install',  vals: ['yes', 'no',  'no',        'no',  'no',  'yes',       'yes'] },
-              { label: t['compare.row.free'],        labelKey: 'compare.row.free',        vals: ['yes', 'yes', 'community', 'no',  'no',  'free plan', 'no'] },
-              { label: t['compare.row.no_account'],  labelKey: 'compare.row.no_account',  vals: ['yes', 'yes', 'yes',       'no',  'no',  'no',        'no'] },
-              { label: t['compare.row.offline'],     labelKey: 'compare.row.offline',     vals: ['yes', 'yes', 'yes',       'yes', '30d check', 'no',   'no'] },
+              { label: t['compare.row.browser'],    vals: ['yes', 'no',  'no',        'no',  'no',  'yes',       'yes'] },
+              { label: t['compare.row.no_install'], vals: ['yes', 'no',  'no',        'no',  'no',  'yes',       'yes'] },
+              { label: t['compare.row.free'],       vals: ['yes', 'yes', 'community', 'no',  'no',  'free plan', 'no'] },
+              { label: t['compare.row.no_account'], vals: ['yes', 'yes', 'yes',       'no',  'no',  'no',        'no'] },
+              { label: t['compare.row.offline'],    vals: ['yes', 'yes', 'yes',       'yes', '30d check', 'no',   'no'] },
             ].map((row, ri) => (
               <div class={`grid grid-cols-[2fr_1.1fr_1fr_1fr_1fr_1fr_1fr_1fr] border-b border-slate-800 ${ri % 2 === 1 ? 'bg-slate-900/40' : ''}`}>
-                <div class="flex items-center px-5 py-3.5 text-sm text-slate-300" data-i18n={row.labelKey}>{row.label}</div>
+                <div class="flex items-center px-5 py-3.5 text-sm text-slate-300">{row.label}</div>
                 {row.vals.map((val, vi) => (
                   <div class={`flex items-center justify-center px-3 py-3.5 border-l ${vi === 0 ? 'border-brand/20 bg-brand/5' : 'border-slate-800'}`}>
                     {val === 'yes' ? (
@@ -454,16 +454,15 @@ const stats = [
 
             <!-- Divider: privacy -->
             <div class="bg-slate-800/60 px-5 py-1.5 border-t border-slate-800">
-              <span class="text-[10px] font-bold uppercase tracking-widest text-slate-500" data-i18n="compare.section.privacy">{t['compare.section.privacy']}</span>
+              <span class="text-[10px] font-bold uppercase tracking-widest text-slate-500">{t['compare.section.privacy']}</span>
             </div>
 
             {[
-              { label: t['compare.row.local_files'], labelKey: 'compare.row.local_files', vals: ['yes', 'yes', 'yes', 'yes', 'yes', 'no', 'no'] },
-              { label: t['compare.row.no_cloud'],    labelKey: 'compare.row.no_cloud',    vals: ['yes', 'yes', 'yes', 'yes', 'yes', 'no', 'no'] },
-
+              { label: t['compare.row.local_files'], vals: ['yes', 'yes', 'yes', 'yes', 'yes', 'no', 'no'] },
+              { label: t['compare.row.no_cloud'],    vals: ['yes', 'yes', 'yes', 'yes', 'yes', 'no', 'no'] },
             ].map((row, ri) => (
               <div class={`grid grid-cols-[2fr_1.1fr_1fr_1fr_1fr_1fr_1fr_1fr] border-b border-slate-800 ${ri % 2 === 1 ? 'bg-slate-900/40' : ''}`}>
-                <div class="flex items-center px-5 py-3.5 text-sm text-slate-300" data-i18n={row.labelKey}>{row.label}</div>
+                <div class="flex items-center px-5 py-3.5 text-sm text-slate-300">{row.label}</div>
                 {row.vals.map((val, vi) => (
                   <div class={`flex items-center justify-center px-3 py-3.5 border-l ${vi === 0 ? 'border-brand/20 bg-brand/5' : 'border-slate-800'}`}>
                     {val === 'yes' ? (
@@ -482,22 +481,22 @@ const stats = [
 
             <!-- Divider: features -->
             <div class="bg-slate-800/60 px-5 py-1.5 border-t border-slate-800">
-              <span class="text-[10px] font-bold uppercase tracking-widest text-slate-500" data-i18n="compare.section.features">{t['compare.section.features']}</span>
+              <span class="text-[10px] font-bold uppercase tracking-widest text-slate-500">{t['compare.section.features']}</span>
             </div>
 
             {[
-              { label: t['compare.row.undo'],      labelKey: 'compare.row.undo',      vals: ['yes', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes'] },
-              { label: t['compare.row.terminal'],  labelKey: 'compare.row.terminal',  vals: ['yes', 'yes', 'yes', 'yes', 'yes', 'no',  'yes'] },
-              { label: t['compare.row.layout'],    labelKey: 'compare.row.layout',    vals: ['yes', 'no',  'no',  'yes', 'yes', 'yes', 'yes'] },
-              { label: t['compare.row.layers'],    labelKey: 'compare.row.layers',    vals: ['yes', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes'] },
-              { label: t['compare.row.snapping'],  labelKey: 'compare.row.snapping',  vals: ['yes', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes'] },
-              { label: t['compare.row.dimensions'],labelKey: 'compare.row.dimensions',vals: ['yes', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes'] },
-              { label: t['compare.row.dxf'],       labelKey: 'compare.row.dxf',       vals: ['yes', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes'] },
-              { label: t['compare.row.pdf'],       labelKey: 'compare.row.pdf',       vals: ['yes', 'yes', 'Pro only', 'yes', 'yes', 'yes', 'yes'] },
-              { label: t['compare.row.grips'],     labelKey: 'compare.row.grips',     vals: ['yes', 'yes', 'no',      'yes', 'yes', 'yes', 'yes'] },
+              { label: t['compare.row.undo'],       vals: ['yes', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes'] },
+              { label: t['compare.row.terminal'],   vals: ['yes', 'yes', 'yes', 'yes', 'yes', 'no',  'yes'] },
+              { label: t['compare.row.layout'],     vals: ['yes', 'no',  'no',  'yes', 'yes', 'yes', 'yes'] },
+              { label: t['compare.row.layers'],     vals: ['yes', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes'] },
+              { label: t['compare.row.snapping'],   vals: ['yes', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes'] },
+              { label: t['compare.row.dimensions'], vals: ['yes', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes'] },
+              { label: t['compare.row.dxf'],        vals: ['yes', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes'] },
+              { label: t['compare.row.pdf'],        vals: ['yes', 'yes', 'Pro only', 'yes', 'yes', 'yes', 'yes'] },
+              { label: t['compare.row.grips'],      vals: ['yes', 'yes', 'no',      'yes', 'yes', 'yes', 'yes'] },
             ].map((row, ri) => (
               <div class={`grid grid-cols-[2fr_1.1fr_1fr_1fr_1fr_1fr_1fr_1fr] border-b border-slate-800 last:border-b-0 ${ri % 2 === 1 ? 'bg-slate-900/40' : ''}`}>
-                <div class="flex items-center px-5 py-3.5 text-sm text-slate-300" data-i18n={row.labelKey}>{row.label}</div>
+                <div class="flex items-center px-5 py-3.5 text-sm text-slate-300">{row.label}</div>
                 {row.vals.map((val, vi) => (
                   <div class={`flex items-center justify-center px-3 py-3.5 border-l ${vi === 0 ? 'border-brand/20 bg-brand/5' : 'border-slate-800'}`}>
                     {val === 'yes' ? (
@@ -527,8 +526,8 @@ const stats = [
         style="background: radial-gradient(ellipse 60% 50% at 50% 100%, rgba(74,133,128,0.1), transparent);">
       </div>
       <div class="relative mx-auto max-w-2xl px-6 text-center">
-        <h2 class="mb-4 text-4xl font-bold text-slate-50 md:text-5xl" data-i18n="cta.h2">{t['cta.h2']}</h2>
-        <p class="mb-8 text-lg text-slate-400" data-i18n="cta.sub">
+        <h2 class="mb-4 text-4xl font-bold text-slate-50 md:text-5xl">{t['cta.h2']}</h2>
+        <p class="mb-8 text-lg text-slate-400">
           {t['cta.sub']}
         </p>
         <div class="flex flex-wrap justify-center gap-4">
@@ -538,7 +537,7 @@ const stats = [
             data-ga-source="cta_bottom"
             class="inline-flex items-center gap-2 rounded-lg bg-brand px-8 py-4 text-lg font-medium text-white shadow-lg shadow-brand/20 hover:bg-brand-light transition-colors"
           >
-            <span data-i18n="cta.app">{t['cta.app']}</span>
+            {t['cta.app']}
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
               <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
             </svg>
@@ -549,7 +548,7 @@ const stats = [
             data-ga-source="cta_bottom"
             class="inline-flex items-center gap-2 rounded-lg border border-slate-700 px-8 py-4 text-lg font-medium text-slate-300 hover:border-slate-500 hover:text-slate-50 transition-colors"
           >
-            <span data-i18n="cta.docs">{t['cta.docs']}</span>
+            {t['cta.docs']}
           </a>
         </div>
       </div>
