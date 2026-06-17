@@ -9,6 +9,12 @@ FAQ: https://kulmanlab.com/faq
 Changelog: https://kulmanlab.com/changelog
 Source: https://github.com/volodymyr4509/kulmanlab
 
+German (Deutsch):
+Landing page (DE): https://kulmanlab.com/de/
+Docs (DE): https://kulmanlab.com/de/docs
+Changelog (DE): https://kulmanlab.com/de/changelog
+FAQ (DE): https://kulmanlab.com/de/faq
+
 ---
 
 # About KulmanLab
