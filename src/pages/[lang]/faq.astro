@@ -5,6 +5,7 @@ import SiteFooter from '../../components/SiteFooter.astro';
 import type { Lang } from '../../i18n/translations';
 import { translations } from '../../i18n/translations';
 import { LANGS_NO_EN, buildAlternates } from '../../i18n/utils';
+import { faqContent } from '../../i18n/faq-content';
 
 export function getStaticPaths() {
   return LANGS_NO_EN.map(lang => ({ params: { lang } }));
@@ -13,105 +14,11 @@ export function getStaticPaths() {
 const { lang } = Astro.params as { lang: Lang };
 const t = translations[lang];
 
-const sections = [
-  {
-    heading: t['faq.section.start'],
-    items: [
-      {
-        q: 'Is KulmanLab really free?',
-        a: 'Yes — completely free. No subscription, no credit card, no hidden plan. The full feature set is available to everyone with no limits.',
-      },
-      {
-        q: 'Do I need to create an account?',
-        a: 'No. There is no login, no sign-up, and no email required. Open the app and start drawing immediately.',
-      },
-      {
-        q: 'What browsers are supported?',
-        a: 'Any modern desktop browser — Chrome, Firefox, Safari, and Edge all work. KulmanLab is desktop-only; mobile and tablet are not currently supported.',
-      },
-      {
-        q: 'Does it work offline?',
-        a: 'Yes. After the first load the app is cached and runs entirely without an internet connection. Your drawings are stored locally so nothing requires a server.',
-      },
-    ],
-  },
-  {
-    heading: t['faq.section.files'],
-    items: [
-      {
-        q: 'Where are my drawings stored?',
-        a: 'In your browser\'s localStorage — on your own device. Nothing is ever uploaded to a server. Each browser on each device has its own independent storage.',
-      },
-      {
-        q: 'What happens if I clear my browser data?',
-        a: 'Your saved drawings will be lost. Always export a DXF copy of anything important before clearing browser storage.',
-      },
-      {
-        q: 'Can I open .dwg files?',
-        a: 'KulmanLab supports DXF (Drawing Exchange Format), not the proprietary DWG format. Most desktop CAD applications can export DXF, so export from your source app first.',
-      },
-      {
-        q: 'Which export formats are available?',
-        a: 'DXF for round-tripping with other CAD tools, and PDF or PNG/WebP for print-ready output. The print manager lets you set DPI and paper size before exporting.',
-      },
-    ],
-  },
-  {
-    heading: t['faq.section.features'],
-    items: [
-      {
-        q: 'Does it have a command terminal?',
-        a: 'Yes. Type commands directly — LINE, CIRCLE, MOVE, TRIM, and 50+ others. The terminal supports history (arrow keys), autocomplete (Tab), and exact numeric input.',
-      },
-      {
-        q: 'Is there layer support?',
-        a: 'Full layer management: create, rename, freeze, lock, and isolate layers. Set color, linetype, and lineweight per layer. All layer data is preserved in DXF export.',
-      },
-      {
-        q: 'What dimension types are available?',
-        a: 'Linear, aligned, radius, diameter, angular, and continue dimensions. All stored as standard DXF DIMENSION entities compatible with other DXF-capable CAD tools.',
-      },
-      {
-        q: 'Can I edit geometry with grips?',
-        a: 'Yes. Select any entity to reveal grip handles at key points — endpoints, midpoints, centers, arc ends. Drag to reshape directly on the canvas, or type a value while dragging for exact placement.',
-      },
-      {
-        q: 'Is real-time collaboration supported?',
-        a: 'Not currently. KulmanLab is a single-user tool and drawings stay local. Cloud sync and collaboration are outside the current scope.',
-      },
-    ],
-  },
-  {
-    heading: t['faq.section.compat'],
-    items: [
-      {
-        q: 'Are KulmanLab DXF files compatible with other CAD software?',
-        a: 'Yes. KulmanLab reads and writes AC1032 DXF — a widely supported version. Files open correctly in LibreCAD, QCAD, BricsCAD, FreeCAD, and any other DXF-capable tool.',
-      },
-      {
-        q: 'What is the difference between DXF and DWG?',
-        a: 'DXF is an open, text-based exchange format designed for interoperability. DWG is a proprietary binary format. KulmanLab uses DXF, which is readable by virtually every CAD tool.',
-      },
-      {
-        q: 'Can KulmanLab replace my desktop CAD software?',
-        a: 'For 2D drafting — yes. KulmanLab has a full command terminal, layers, snapping, dimensions, grip editing, and DXF compatibility. It does not support 3D, blocks/xrefs, or parametric constraints.',
-      },
-    ],
-  },
-  {
-    heading: t['faq.section.privacy'],
-    items: [
-      {
-        q: 'Does KulmanLab collect my drawing data?',
-        a: 'No. Your drawings stay in your browser and are never sent anywhere. KulmanLab uses Google Analytics for anonymous usage metrics (page views, session counts) — no drawing content is involved.',
-      },
-      {
-        q: 'Are cookies used?',
-        a: 'Only the cookies set automatically by Google Analytics. No tracking beyond that, no advertising cookies, no third-party data sharing.',
-      },
-    ],
-  },
-];
+const rawSections = faqContent[lang] ?? faqContent['en'];
+const sections = rawSections.map(s => ({
+  heading: (t as Record<string, string>)[s.headingKey] ?? s.headingKey,
+  items: s.items,
+}));
 
 const faqJsonLd = {
   "@context": "https://schema.org",

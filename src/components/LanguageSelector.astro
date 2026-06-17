@@ -77,6 +77,12 @@ const { lang: currentLang = 'en', page = 'home' } = Astro.props;
       if (btn.dataset.lang === lang) check.classList.remove('hidden');
       else check.classList.add('hidden');
     });
+    // Update locale-aware nav links
+    document.querySelectorAll<HTMLAnchorElement>('[data-locale]').forEach(el => {
+      const p = el.dataset.locale as string;
+      const suffix = p === 'home' ? '/' : `/${p}`;
+      el.href = lang === 'en' ? suffix : `/${lang}${suffix}`;
+    });
     document.documentElement.lang = lang;
     localStorage.setItem(LS_KEY, lang);
   }
@@ -119,5 +125,8 @@ const { lang: currentLang = 'en', page = 'home' } = Astro.props;
     if (detected !== 'en') {
       applyLang(detected);
     }
+  } else {
+    // Persist current locale so English pages (like /docs) can auto-apply it
+    localStorage.setItem(LS_KEY, currentLang);
   }
 </script>
