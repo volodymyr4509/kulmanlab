@@ -3,7 +3,7 @@
 
   function track(event: string, params: Record<string, unknown> = {}) {
     const g = (window as Window & { gtag?: GtagFn }).gtag;
-    g?.('event', event, params);
+    g?.('event', event, { ui_language: document.documentElement.lang, ...params });
   }
 
   // 1. CTA click tracking — any element with data-ga-event attribute
