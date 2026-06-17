@@ -14,7 +14,7 @@ interface Props {
 }
 
 const { title, description = '', keywords = [], entrySlug = '', lang = 'en' } = Astro.props;
-const base = lang === 'de' ? '/de/docs' : lang === 'es' ? '/es/docs' : lang === 'fr' ? '/fr/docs' : lang === 'it' ? '/it/docs' : lang === 'pt' ? '/pt/docs' : lang === 'uk' ? '/uk/docs' : '/docs';
+const base = lang === 'en' ? '/docs' : `/${lang}/docs`;
 const canonical = `https://kulmanlab.com${base}${entrySlug ? '/' + entrySlug : ''}`;
 const currentPath = Astro.url.pathname.replace(/\/$/, '');
 
