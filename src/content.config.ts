@@ -22,4 +22,9 @@ const docsEs = defineCollection({
   schema: docSchema,
 });
 
-export const collections = { docs, 'docs-de': docsDe, 'docs-es': docsEs };
+const docsFr = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/docs-fr' }),
+  schema: docSchema,
+});
+
+export const collections = { docs, 'docs-de': docsDe, 'docs-es': docsEs, 'docs-fr': docsFr };
