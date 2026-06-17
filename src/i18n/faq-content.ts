@@ -185,4 +185,50 @@ export const faqContent: Record<string, FaqSection[]> = {
       ],
     },
   ],
+
+  it: [
+    {
+      headingKey: 'faq.section.start',
+      items: [
+        { q: 'KulmanLab è davvero gratuito?', a: 'Sì — completamente gratuito. Nessun abbonamento, nessuna carta di credito, nessun piano nascosto. Il set completo di funzionalità è disponibile per tutti senza limiti.' },
+        { q: 'Devo creare un account?', a: 'No. Non ci sono login, registrazione o email richiesti. Apri l\'app e inizia a disegnare immediatamente.' },
+        { q: 'Quali browser sono supportati?', a: 'Qualsiasi browser desktop moderno — Chrome, Firefox, Safari ed Edge funzionano tutti. KulmanLab è solo per desktop; mobile e tablet non sono attualmente supportati.' },
+        { q: 'Funziona offline?', a: 'Sì. Dopo il primo caricamento l\'app viene memorizzata nella cache e funziona completamente senza connessione internet. I tuoi disegni vengono archiviati localmente, nulla richiede un server.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.files',
+      items: [
+        { q: 'Dove sono archiviati i miei disegni?', a: 'Nel localStorage del tuo browser — sul tuo dispositivo. Nulla viene mai caricato su un server. Ogni browser su ogni dispositivo ha il proprio archivio indipendente.' },
+        { q: 'Cosa succede se cancello i dati del browser?', a: 'I tuoi disegni salvati andranno persi. Esporta sempre una copia DXF di tutto ciò che è importante prima di cancellare l\'archivio del browser.' },
+        { q: 'Posso aprire file .dwg?', a: 'KulmanLab supporta DXF (Drawing Exchange Format), non il formato proprietario DWG. La maggior parte delle applicazioni CAD desktop può esportare DXF, quindi esporta prima dall\'applicazione sorgente.' },
+        { q: 'Quali formati di esportazione sono disponibili?', a: 'DXF per lo scambio con altri strumenti CAD, e PDF o PNG/WebP per output pronto per la stampa. Il gestore di stampa consente di impostare DPI e formato carta prima dell\'esportazione.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.features',
+      items: [
+        { q: 'C\'è un terminale comandi?', a: 'Sì. Digita i comandi direttamente — LINE, CIRCLE, MOVE, TRIM e oltre 50 altri. Il terminale supporta la cronologia (tasti freccia), il completamento automatico (Tab) e l\'input numerico esatto.' },
+        { q: 'C\'è supporto per i livelli?', a: 'Gestione completa dei livelli: crea, rinomina, congela, blocca e isola i livelli. Imposta colore, tipo di linea e spessore per livello. Tutti i dati dei livelli vengono preservati nell\'esportazione DXF.' },
+        { q: 'Quali tipi di quota sono disponibili?', a: 'Lineari, allineate, raggio, diametro, angolari e continue. Tutte archiviate come entità DIMENSION DXF standard compatibili con altri strumenti CAD.' },
+        { q: 'Posso modificare la geometria con i grip?', a: 'Sì. Seleziona qualsiasi entità per rivelare i grip nei punti chiave — endpoint, punti medi, centri, estremità degli archi. Trascina per ridisegnare direttamente sulla lavagna, o digita un valore mentre trascini per un posizionamento preciso.' },
+        { q: 'La collaborazione in tempo reale è supportata?', a: 'Non attualmente. KulmanLab è uno strumento per utente singolo e i disegni rimangono locali. La sincronizzazione cloud e la collaborazione sono al di fuori del perimetro attuale.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.compat',
+      items: [
+        { q: 'I file DXF di KulmanLab sono compatibili con altri software CAD?', a: 'Sì. KulmanLab legge e scrive AC1032 DXF — una versione ampiamente supportata. I file si aprono correttamente in LibreCAD, QCAD, BricsCAD, FreeCAD e qualsiasi altro strumento compatibile DXF.' },
+        { q: 'Qual è la differenza tra DXF e DWG?', a: 'DXF è un formato di scambio aperto basato su testo progettato per l\'interoperabilità. DWG è un formato binario proprietario. KulmanLab usa DXF, leggibile da praticamente qualsiasi strumento CAD.' },
+        { q: 'KulmanLab può sostituire il mio software CAD desktop?', a: 'Per il disegno 2D — sì. KulmanLab ha un terminale comandi completo, livelli, snap, quote, modifica tramite grip e compatibilità DXF. Non supporta il 3D, i blocchi/riferimenti esterni o i vincoli parametrici.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.privacy',
+      items: [
+        { q: 'KulmanLab raccoglie i miei dati di disegno?', a: 'No. I tuoi disegni rimangono nel tuo browser e non vengono mai inviati da nessuna parte. KulmanLab usa Google Analytics per metriche di utilizzo anonime (visualizzazioni di pagina, conteggi di sessioni) — nessun contenuto di disegno è coinvolto.' },
+        { q: 'Vengono usati cookie?', a: 'Solo i cookie impostati automaticamente da Google Analytics. Nessun tracciamento oltre a questo, nessun cookie pubblicitario, nessuna condivisione di dati con terze parti.' },
+      ],
+    },
+  ],
 };
