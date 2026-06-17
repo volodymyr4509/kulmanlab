@@ -33,7 +33,7 @@ const mobileLink = (page: string) =>
 <header class="sticky top-0 z-50 border-b border-slate-800 bg-slate-900/90 backdrop-blur">
   <nav class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
     <!-- Logo -->
-    <a href={homeUrl} class="flex items-center gap-2.5 transition-opacity hover:opacity-80">
+    <a href={homeUrl} data-locale="home" class="flex items-center gap-2.5 transition-opacity hover:opacity-80">
       <img src="/logo.svg" alt="KulmanLab logo" class="h-8 w-8 rounded-lg" />
       <span class="font-bold tracking-tight text-slate-50">Kulman<span class="text-brand">Lab</span></span>
     </a>
@@ -41,8 +41,8 @@ const mobileLink = (page: string) =>
     <!-- Desktop nav -->
     <div class="hidden md:flex items-center gap-6">
       <a href="/docs" class={link('docs')}><span data-i18n="nav.docs">{t['nav.docs']}</span></a>
-      <a href={changelogUrl} class={link('changelog')}><span data-i18n="nav.changelog">{t['nav.changelog']}</span></a>
-      <a href={faqUrl} class={link('faq')}><span data-i18n="nav.faq">{t['nav.faq']}</span></a>
+      <a href={changelogUrl} data-locale="changelog" class={link('changelog')}><span data-i18n="nav.changelog">{t['nav.changelog']}</span></a>
+      <a href={faqUrl} data-locale="faq" class={link('faq')}><span data-i18n="nav.faq">{t['nav.faq']}</span></a>
       <LanguageSelector lang={lang} page={active === 'faq' ? 'faq' : active === 'changelog' ? 'changelog' : 'home'} />
       <div class="flex items-center gap-3">
         <a href={GITHUB_URL} target="_blank" rel="noopener" aria-label="GitHub" class="text-slate-500 hover:text-slate-200 transition-colors">
@@ -92,8 +92,8 @@ const mobileLink = (page: string) =>
   <div id="mobile-nav" class="hidden border-t border-slate-800 md:hidden">
     <div class="mx-auto max-w-6xl px-4 py-3 flex flex-col gap-1">
       <a href="/docs" class={mobileLink('docs')}><span data-i18n="nav.docs">{t['nav.docs']}</span></a>
-      <a href={changelogUrl} class={mobileLink('changelog')}><span data-i18n="nav.changelog">{t['nav.changelog']}</span></a>
-      <a href={faqUrl} class={mobileLink('faq')}><span data-i18n="nav.faq">{t['nav.faq']}</span></a>
+      <a href={changelogUrl} data-locale="changelog" class={mobileLink('changelog')}><span data-i18n="nav.changelog">{t['nav.changelog']}</span></a>
+      <a href={faqUrl} data-locale="faq" class={mobileLink('faq')}><span data-i18n="nav.faq">{t['nav.faq']}</span></a>
       <div class="flex gap-4 px-3 pt-3 mt-1 border-t border-slate-800">
         <a href={GITHUB_URL} target="_blank" rel="noopener" class="flex items-center gap-2 text-sm text-slate-400 hover:text-slate-200 transition-colors">
           <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
