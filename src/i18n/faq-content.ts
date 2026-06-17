@@ -139,4 +139,50 @@ export const faqContent: Record<string, FaqSection[]> = {
       ],
     },
   ],
+
+  fr: [
+    {
+      headingKey: 'faq.section.start',
+      items: [
+        { q: 'KulmanLab est-il vraiment gratuit ?', a: "Oui — complètement gratuit. Pas d'abonnement, pas de carte de crédit, pas de plan caché. L'ensemble complet des fonctionnalités est disponible pour tous sans limite." },
+        { q: 'Faut-il créer un compte ?', a: "Non. Il n'y a pas de connexion, pas d'inscription et aucun email requis. Ouvrez l'application et commencez à dessiner immédiatement." },
+        { q: 'Quels navigateurs sont pris en charge ?', a: "Tout navigateur de bureau moderne — Chrome, Firefox, Safari et Edge fonctionnent tous. KulmanLab est uniquement pour bureau ; le mobile et la tablette ne sont pas pris en charge actuellement." },
+        { q: 'Fonctionne-t-il hors ligne ?', a: "Oui. Après le premier chargement, l'application est mise en cache et fonctionne entièrement sans connexion internet. Vos dessins sont stockés localement, rien ne nécessite un serveur." },
+      ],
+    },
+    {
+      headingKey: 'faq.section.files',
+      items: [
+        { q: 'Où mes dessins sont-ils stockés ?', a: "Dans le localStorage de votre navigateur — sur votre propre appareil. Rien n'est jamais téléchargé sur un serveur. Chaque navigateur sur chaque appareil a son propre stockage indépendant." },
+        { q: "Que se passe-t-il si j'efface les données de mon navigateur ?", a: "Vos dessins sauvegardés seront perdus. Exportez toujours une copie DXF de tout ce qui est important avant d'effacer le stockage du navigateur." },
+        { q: 'Puis-je ouvrir des fichiers .dwg ?', a: "KulmanLab prend en charge le DXF (Drawing Exchange Format), pas le format propriétaire DWG. La plupart des applications CAO de bureau peuvent exporter en DXF, exportez donc d'abord depuis votre application source." },
+        { q: "Quels formats d'export sont disponibles ?", a: "DXF pour l'échange avec d'autres outils CAO, et PDF ou PNG/WebP pour une sortie prête à imprimer. Le gestionnaire d'impression vous permet de définir la résolution et le format de papier avant l'export." },
+      ],
+    },
+    {
+      headingKey: 'faq.section.features',
+      items: [
+        { q: 'Y a-t-il un terminal de commandes ?', a: "Oui. Tapez des commandes directement — LINE, CIRCLE, MOVE, TRIM et plus de 50 autres. Le terminal prend en charge l'historique (touches fléchées), la complétion automatique (Tab) et la saisie numérique précise." },
+        { q: 'Y a-t-il une gestion des calques ?', a: "Gestion complète des calques : créer, renommer, geler, verrouiller et isoler des calques. Définissez la couleur, le type de ligne et l'épaisseur par calque. Toutes les données de calque sont préservées dans l'export DXF." },
+        { q: 'Quels types de cotes sont disponibles ?', a: "Linéaires, alignées, de rayon, de diamètre, angulaires et en chaîne. Toutes stockées comme entités DIMENSION DXF standard compatibles avec d'autres outils CAO." },
+        { q: 'Puis-je éditer la géométrie avec des poignées ?', a: "Oui. Sélectionnez une entité pour révéler les poignées aux points clés — extrémités, points médians, centres, extrémités d'arc. Faites glisser pour remodeler directement sur le canevas, ou tapez une valeur en faisant glisser pour un positionnement précis." },
+        { q: 'La collaboration en temps réel est-elle prise en charge ?', a: "Pas actuellement. KulmanLab est un outil mono-utilisateur et les dessins restent locaux. La synchronisation cloud et la collaboration sont hors du périmètre actuel." },
+      ],
+    },
+    {
+      headingKey: 'faq.section.compat',
+      items: [
+        { q: "Les fichiers DXF de KulmanLab sont-ils compatibles avec d'autres logiciels CAO ?", a: "Oui. KulmanLab lit et écrit AC1032 DXF — une version largement prise en charge. Les fichiers s'ouvrent correctement dans LibreCAD, QCAD, BricsCAD, FreeCAD et tout autre outil compatible DXF." },
+        { q: 'Quelle est la différence entre DXF et DWG ?', a: "DXF est un format d'échange ouvert basé sur du texte, conçu pour l'interopérabilité. DWG est un format binaire propriétaire. KulmanLab utilise DXF, qui est lisible par pratiquement tout outil CAO." },
+        { q: 'KulmanLab peut-il remplacer mon logiciel CAO de bureau ?', a: "Pour la conception 2D — oui. KulmanLab possède un terminal de commandes complet, des calques, l'accrochage, des cotes, l'édition par poignées et la compatibilité DXF. Il ne prend pas en charge la 3D, les blocs/références externes ni les contraintes paramétriques." },
+      ],
+    },
+    {
+      headingKey: 'faq.section.privacy',
+      items: [
+        { q: 'KulmanLab collecte-t-il mes données de dessin ?', a: "Non. Vos dessins restent dans votre navigateur et ne sont jamais envoyés nulle part. KulmanLab utilise Google Analytics pour des métriques d'utilisation anonymes (vues de pages, nombre de sessions) — aucun contenu de dessin n'est impliqué." },
+        { q: 'Des cookies sont-ils utilisés ?', a: "Uniquement les cookies définis automatiquement par Google Analytics. Aucun suivi au-delà de cela, pas de cookies publicitaires, pas de partage de données avec des tiers." },
+      ],
+    },
+  ],
 };
