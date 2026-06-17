@@ -15,6 +15,7 @@ const REDDIT_URL = 'https://www.reddit.com/r/kulmanlab/';
 const homeUrl = localeUrl(lang, 'home');
 const faqUrl = localeUrl(lang, 'faq');
 const changelogUrl = localeUrl(lang, 'changelog');
+const docsUrl = lang === 'en' ? '/docs' : `/${lang}/docs`;
 ---
 <footer class="border-t border-slate-800 py-10">
   <div class="mx-auto max-w-6xl px-6 flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
@@ -24,7 +25,7 @@ const changelogUrl = localeUrl(lang, 'changelog');
     </a>
     <nav class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-slate-500 sm:justify-start">
       <a href={APP_URL} data-ga-event="launch_app" data-ga-source="footer" class="hover:text-slate-300 transition-colors"><span data-i18n="footer.app">{t['footer.app']}</span></a>
-      <a href="/docs" class="hover:text-slate-300 transition-colors"><span data-i18n="nav.docs">{t['nav.docs']}</span></a>
+      <a href={docsUrl} data-locale="docs" class="hover:text-slate-300 transition-colors"><span data-i18n="nav.docs">{t['nav.docs']}</span></a>
       <a href={changelogUrl} class="hover:text-slate-300 transition-colors"><span data-i18n="nav.changelog">{t['nav.changelog']}</span></a>
       <a href={faqUrl} class="hover:text-slate-300 transition-colors"><span data-i18n="nav.faq">{t['nav.faq']}</span></a>
       <a href={GITHUB_URL} target="_blank" rel="noopener" class="hover:text-slate-300 transition-colors">GitHub</a>

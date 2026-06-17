@@ -14,7 +14,7 @@ interface Props {
 }
 
 const { title, description = '', keywords = [], entrySlug = '', lang = 'en' } = Astro.props;
-const base = lang === 'de' ? '/de/docs' : '/docs';
+const base = lang === 'de' ? '/de/docs' : lang === 'es' ? '/es/docs' : '/docs';
 const canonical = `https://kulmanlab.com${base}${entrySlug ? '/' + entrySlug : ''}`;
 const currentPath = Astro.url.pathname.replace(/\/$/, '');
 
@@ -36,6 +36,24 @@ const s = lang === 'de' ? {
   gridSnap: 'Raster & Fang',
   newFile: 'Neue Datei',
   matchProp: 'Eigenschaften übertragen',
+} : lang === 'es' ? {
+  overview: 'Resumen',
+  ref: 'Referencia de comandos',
+  shapes: 'Formas',
+  edit: 'Editar',
+  markup: 'Anotación',
+  layer: 'Capa',
+  layouts: 'Presentaciones',
+  navigate: 'Navegar',
+  measure: 'Medir',
+  style: 'Estilo',
+  file: 'Archivo',
+  iface: 'Interfaz',
+  zoomIn: 'Acercar',
+  zoomOut: 'Alejar',
+  gridSnap: 'Cuadrícula y ajuste',
+  newFile: 'Nuevo archivo',
+  matchProp: 'Igualar propiedades',
 } : {
   overview: 'Overview',
   ref: 'Command Reference',
@@ -191,6 +209,7 @@ const sidebar = [
     <link rel="alternate" hreflang="x-default" href={`https://kulmanlab.com/docs${entrySlug ? '/' + entrySlug : ''}`} />
     <link rel="alternate" hreflang="en" href={`https://kulmanlab.com/docs${entrySlug ? '/' + entrySlug : ''}`} />
     <link rel="alternate" hreflang="de" href={`https://kulmanlab.com/de/docs${entrySlug ? '/' + entrySlug : ''}`} />
+    <link rel="alternate" hreflang="es" href={`https://kulmanlab.com/es/docs${entrySlug ? '/' + entrySlug : ''}`} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 

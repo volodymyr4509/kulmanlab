@@ -58,18 +58,15 @@ const { lang: currentLang = 'en', page = 'home' } = Astro.props;
 
   function langToUrl(lang: Lang): string {
     const path = window.location.pathname;
-    // Docs pages: /docs/... → /de/docs/... and vice versa
-    if (path.startsWith('/docs/') || path === '/docs') {
-      return lang === 'en' ? path : `/${lang}${path}`;
+    // Strip leading /{locale} prefix (e.g. /de, /es) to get the bare path
+    const bare = path.replace(/^\/[a-z]{2}(?=\/|$)/, '') || '/';
+    // Docs pages stay on the equivalent locale docs path
+    if (bare.startsWith('/docs')) {
+      return lang === 'en' ? bare : `/${lang}${bare}`;
     }
-    if (path.startsWith('/de/docs/') || path === '/de/docs') {
-      const stripped = path.replace(/^\/de/, '');
-      return lang === 'en' ? stripped : path;
-    }
-    // Standard locale pages
+    // Standard locale pages (home, faq, changelog)
     const suffix = page === 'home' ? '/' : `/${page}`;
-    if (lang === 'en') return suffix;
-    return `/${lang}${page === 'home' ? '/' : `/${page}`}`;
+    return lang === 'en' ? suffix : `/${lang}${suffix}`;
   }
 
   function applyLang(lang: Lang) {

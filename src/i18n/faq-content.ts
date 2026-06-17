@@ -93,4 +93,50 @@ export const faqContent: Record<string, FaqSection[]> = {
       ],
     },
   ],
+
+  es: [
+    {
+      headingKey: 'faq.section.start',
+      items: [
+        { q: '¿KulmanLab es realmente gratuito?', a: 'Sí — completamente gratuito. Sin suscripción, sin tarjeta de crédito, sin plan oculto. El conjunto completo de funciones está disponible para todos sin límites.' },
+        { q: '¿Necesito crear una cuenta?', a: 'No. No hay inicio de sesión, ni registro, ni correo electrónico necesario. Abre la app y empieza a dibujar de inmediato.' },
+        { q: '¿Qué navegadores son compatibles?', a: 'Cualquier navegador de escritorio moderno — Chrome, Firefox, Safari y Edge funcionan todos. KulmanLab es solo para escritorio; móvil y tablet no están soportados actualmente.' },
+        { q: '¿Funciona sin conexión?', a: 'Sí. Tras la primera carga, la app queda en caché y funciona completamente sin conexión a internet. Tus dibujos se almacenan localmente, por lo que nada requiere un servidor.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.files',
+      items: [
+        { q: '¿Dónde se guardan mis dibujos?', a: 'En el localStorage de tu navegador — en tu propio dispositivo. Nada se sube jamás a un servidor. Cada navegador en cada dispositivo tiene su propio almacenamiento independiente.' },
+        { q: '¿Qué pasa si borro los datos del navegador?', a: 'Tus dibujos guardados se perderán. Exporta siempre una copia DXF de todo lo importante antes de borrar el almacenamiento del navegador.' },
+        { q: '¿Puedo abrir archivos .dwg?', a: 'KulmanLab admite DXF (Drawing Exchange Format), no el formato propietario DWG. La mayoría de las aplicaciones CAD de escritorio pueden exportar DXF, así que exporta primero desde tu aplicación de origen.' },
+        { q: '¿Qué formatos de exportación están disponibles?', a: 'DXF para intercambio con otras herramientas CAD, y PDF o PNG/WebP para salida lista para imprimir. El gestor de impresión permite establecer DPI y tamaño de papel antes de exportar.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.features',
+      items: [
+        { q: '¿Tiene terminal de comandos?', a: 'Sí. Escribe comandos directamente — LINE, CIRCLE, MOVE, TRIM y más de 50 otros. El terminal admite historial (teclas de flecha), autocompletado (Tab) y entrada numérica exacta.' },
+        { q: '¿Hay soporte de capas?', a: 'Gestión completa de capas: crear, renombrar, congelar, bloquear y aislar capas. Establece color, tipo de línea y grosor por capa. Todos los datos de capa se conservan en la exportación DXF.' },
+        { q: '¿Qué tipos de cotas están disponibles?', a: 'Cotas lineales, alineadas, de radio, diámetro, angulares y en cadena. Todas almacenadas como entidades DIMENSION estándar de DXF, compatibles con otras herramientas CAD con soporte DXF.' },
+        { q: '¿Puedo editar geometría con puntos de control?', a: 'Sí. Selecciona cualquier entidad para revelar los puntos de control en posiciones clave — extremos, puntos medios, centros, extremos de arco. Arrastra para modificar directamente en el lienzo, o escribe un valor mientras arrastras para posicionamiento exacto.' },
+        { q: '¿Se admite colaboración en tiempo real?', a: 'Actualmente no. KulmanLab es una herramienta monousuario y los dibujos permanecen locales. La sincronización en la nube y la colaboración están fuera del alcance actual.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.compat',
+      items: [
+        { q: '¿Los archivos DXF de KulmanLab son compatibles con otro software CAD?', a: 'Sí. KulmanLab lee y escribe DXF AC1032 — una versión ampliamente compatible. Los archivos se abren correctamente en LibreCAD, QCAD, BricsCAD, FreeCAD y cualquier otra herramienta con soporte DXF.' },
+        { q: '¿Cuál es la diferencia entre DXF y DWG?', a: 'DXF es un formato de intercambio abierto y basado en texto diseñado para la interoperabilidad. DWG es un formato binario propietario. KulmanLab usa DXF, que puede ser leído por prácticamente cualquier herramienta CAD.' },
+        { q: '¿Puede KulmanLab reemplazar mi software CAD de escritorio?', a: 'Para dibujo 2D — sí. KulmanLab tiene un terminal de comandos completo, capas, ajuste, cotas, edición con puntos de control y compatibilidad DXF. No admite 3D, bloques/referencias externas ni restricciones paramétricas.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.privacy',
+      items: [
+        { q: '¿KulmanLab recopila los datos de mis dibujos?', a: 'No. Tus dibujos permanecen en tu navegador y nunca se envían a ningún lugar. KulmanLab usa Google Analytics para métricas de uso anónimas (visitas a páginas, recuentos de sesiones) — no se involucra ningún contenido de dibujo.' },
+        { q: '¿Se usan cookies?', a: 'Solo las cookies establecidas automáticamente por Google Analytics. Sin seguimiento adicional, sin cookies publicitarias, sin compartir datos con terceros.' },
+      ],
+    },
+  ],
 };
