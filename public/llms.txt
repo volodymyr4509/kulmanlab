@@ -13,6 +13,13 @@
 - Reddit: https://www.reddit.com/r/kulmanlab/
 - Full reference (llms-full.txt): https://kulmanlab.com/llms-full.txt
 
+## German (Deutsch)
+
+- Landing page (DE): https://kulmanlab.com/de/
+- Docs (DE): https://kulmanlab.com/de/docs
+- Changelog (DE): https://kulmanlab.com/de/changelog
+- FAQ (DE): https://kulmanlab.com/de/faq
+
 ## Description
 
 KulmanLab is a professional-grade 2D CAD editor that runs entirely in the browser. There is nothing to install — open the URL and start drawing. All geometry is stored in your browser's localStorage; no file is ever sent to a server. The app works offline after the first load.
