@@ -39,6 +39,12 @@ Docs (PT): https://kulmanlab.com/pt/docs
 Changelog (PT): https://kulmanlab.com/pt/changelog
 FAQ (PT): https://kulmanlab.com/pt/faq
 
+Ukrainian (Українська):
+Landing page (UK): https://kulmanlab.com/uk/
+Docs (UK): https://kulmanlab.com/uk/docs
+Changelog (UK): https://kulmanlab.com/uk/changelog
+FAQ (UK): https://kulmanlab.com/uk/faq
+
 ---
 
 # About KulmanLab
