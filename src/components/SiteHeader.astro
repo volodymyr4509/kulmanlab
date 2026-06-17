@@ -17,6 +17,7 @@ const REDDIT_URL = 'https://www.reddit.com/r/kulmanlab/';
 const homeUrl = localeUrl(lang, 'home');
 const faqUrl = localeUrl(lang, 'faq');
 const changelogUrl = localeUrl(lang, 'changelog');
+const docsUrl = lang === 'en' ? '/docs' : `/${lang}/docs`;
 
 const link = (page: string) =>
   active === page
@@ -40,7 +41,7 @@ const mobileLink = (page: string) =>
 
     <!-- Desktop nav -->
     <div class="hidden md:flex items-center gap-6">
-      <a href="/docs" class={link('docs')}><span data-i18n="nav.docs">{t['nav.docs']}</span></a>
+      <a href={docsUrl} data-locale="docs" class={link('docs')}><span data-i18n="nav.docs">{t['nav.docs']}</span></a>
       <a href={changelogUrl} data-locale="changelog" class={link('changelog')}><span data-i18n="nav.changelog">{t['nav.changelog']}</span></a>
       <a href={faqUrl} data-locale="faq" class={link('faq')}><span data-i18n="nav.faq">{t['nav.faq']}</span></a>
       <LanguageSelector lang={lang} page={active === 'faq' ? 'faq' : active === 'changelog' ? 'changelog' : 'home'} />
@@ -91,7 +92,7 @@ const mobileLink = (page: string) =>
   <!-- Mobile dropdown -->
   <div id="mobile-nav" class="hidden border-t border-slate-800 md:hidden">
     <div class="mx-auto max-w-6xl px-4 py-3 flex flex-col gap-1">
-      <a href="/docs" class={mobileLink('docs')}><span data-i18n="nav.docs">{t['nav.docs']}</span></a>
+      <a href={docsUrl} data-locale="docs" class={mobileLink('docs')}><span data-i18n="nav.docs">{t['nav.docs']}</span></a>
       <a href={changelogUrl} data-locale="changelog" class={mobileLink('changelog')}><span data-i18n="nav.changelog">{t['nav.changelog']}</span></a>
       <a href={faqUrl} data-locale="faq" class={mobileLink('faq')}><span data-i18n="nav.faq">{t['nav.faq']}</span></a>
       <div class="flex gap-4 px-3 pt-3 mt-1 border-t border-slate-800">

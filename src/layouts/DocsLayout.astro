@@ -3,133 +3,174 @@ import '../styles/global.css';
 import SiteHeader from '../components/SiteHeader.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 import Analytics from '../components/Analytics.astro';
+import type { Lang } from '../i18n/translations';
 
 interface Props {
   title: string;
   description?: string;
   keywords?: string[];
   entrySlug?: string;
+  lang?: Lang;
 }
 
-const { title, description = '', keywords = [], entrySlug = '' } = Astro.props;
-const canonical = `https://kulmanlab.com/docs${entrySlug ? '/' + entrySlug : ''}`;
+const { title, description = '', keywords = [], entrySlug = '', lang = 'en' } = Astro.props;
+const base = lang === 'de' ? '/de/docs' : '/docs';
+const canonical = `https://kulmanlab.com${base}${entrySlug ? '/' + entrySlug : ''}`;
 const currentPath = Astro.url.pathname.replace(/\/$/, '');
+
+const s = lang === 'de' ? {
+  overview: 'Übersicht',
+  ref: 'Befehlsreferenz',
+  shapes: 'Formen',
+  edit: 'Bearbeiten',
+  markup: 'Beschriftung',
+  layer: 'Layer',
+  layouts: 'Layouts',
+  navigate: 'Navigation',
+  measure: 'Messen',
+  style: 'Stil',
+  file: 'Datei',
+  iface: 'Oberfläche',
+  zoomIn: 'Vergrößern',
+  zoomOut: 'Verkleinern',
+  gridSnap: 'Raster & Fang',
+  newFile: 'Neue Datei',
+  matchProp: 'Eigenschaften übertragen',
+} : {
+  overview: 'Overview',
+  ref: 'Command Reference',
+  shapes: 'Shapes',
+  edit: 'Edit',
+  markup: 'Markup',
+  layer: 'Layer',
+  layouts: 'Layouts',
+  navigate: 'Navigate',
+  measure: 'Measure',
+  style: 'Style',
+  file: 'File',
+  iface: 'Interface',
+  zoomIn: 'Zoom In',
+  zoomOut: 'Zoom Out',
+  gridSnap: 'Grid & Snap',
+  newFile: 'New File',
+  matchProp: 'Match Properties',
+};
 
 const sidebar = [
   {
-    title: 'Overview',
-    items: [{ label: 'Command Reference', href: '/docs' }],
+    title: s.overview,
+    items: [{ label: s.ref, href: base }],
   },
   {
-    title: 'Shapes',
+    title: s.shapes,
     items: [
-      { label: 'Line', href: '/docs/commands/line' },
-      { label: 'Polyline', href: '/docs/commands/polyline' },
-      { label: 'Rectangle', href: '/docs/commands/rectangle' },
-      { label: 'Circle', href: '/docs/commands/circle' },
-      { label: 'Arc', href: '/docs/commands/arc' },
-      { label: 'Ellipse', href: '/docs/commands/ellipse' },
-      { label: 'Text', href: '/docs/commands/text' },
-      { label: 'Spline CV', href: '/docs/commands/spline-cv' },
-      { label: 'Spline Fit', href: '/docs/commands/spline-fit' },
+      { label: 'Line', href: `${base}/commands/line` },
+      { label: 'Polyline', href: `${base}/commands/polyline` },
+      { label: 'Rectangle', href: `${base}/commands/rectangle` },
+      { label: 'Circle', href: `${base}/commands/circle` },
+      { label: 'Arc', href: `${base}/commands/arc` },
+      { label: 'Ellipse', href: `${base}/commands/ellipse` },
+      { label: 'Text', href: `${base}/commands/text` },
+      { label: 'Spline CV', href: `${base}/commands/spline-cv` },
+      { label: 'Spline Fit', href: `${base}/commands/spline-fit` },
     ],
   },
   {
-    title: 'Edit',
+    title: s.edit,
     items: [
-      { label: 'Move', href: '/docs/commands/move' },
-      { label: 'Copy', href: '/docs/commands/copy' },
-      { label: 'Rotate', href: '/docs/commands/rotate' },
-      { label: 'Mirror', href: '/docs/commands/mirror' },
-      { label: 'Scale', href: '/docs/commands/scale' },
-      { label: 'Delete', href: '/docs/commands/delete' },
-      { label: 'Trim', href: '/docs/commands/trim' },
-      { label: 'Extend', href: '/docs/commands/extend' },
-      { label: 'Offset', href: '/docs/commands/offset' },
-      { label: 'Fillet', href: '/docs/commands/fillet' },
-      { label: 'Chamfer', href: '/docs/commands/chamfer' },
-      { label: 'Undo', href: '/docs/commands/undo' },
-      { label: 'Redo', href: '/docs/commands/redo' },
+      { label: 'Move', href: `${base}/commands/move` },
+      { label: 'Copy', href: `${base}/commands/copy` },
+      { label: 'Rotate', href: `${base}/commands/rotate` },
+      { label: 'Mirror', href: `${base}/commands/mirror` },
+      { label: 'Scale', href: `${base}/commands/scale` },
+      { label: 'Delete', href: `${base}/commands/delete` },
+      { label: 'Trim', href: `${base}/commands/trim` },
+      { label: 'Extend', href: `${base}/commands/extend` },
+      { label: 'Offset', href: `${base}/commands/offset` },
+      { label: 'Fillet', href: `${base}/commands/fillet` },
+      { label: 'Chamfer', href: `${base}/commands/chamfer` },
+      { label: 'Undo', href: `${base}/commands/undo` },
+      { label: 'Redo', href: `${base}/commands/redo` },
     ],
   },
   {
-    title: 'Markup',
+    title: s.markup,
     items: [
-      { label: 'Leader', href: '/docs/commands/leader' },
-      { label: 'Leader+', href: '/docs/commands/leader-add' },
-      { label: 'Leader−', href: '/docs/commands/leader-remove' },
-      { label: 'Dim Linear', href: '/docs/commands/dim-linear' },
-      { label: 'Dim Aligned', href: '/docs/commands/dim-aligned' },
-      { label: 'Dim Continue', href: '/docs/commands/dim-continue' },
-      { label: 'Dim Radius', href: '/docs/commands/dim-radius' },
-      { label: 'Dim Diameter', href: '/docs/commands/dim-diameter' },
-      { label: 'Dim Angular', href: '/docs/commands/dim-angular' },
+      { label: 'Leader', href: `${base}/commands/leader` },
+      { label: 'Leader+', href: `${base}/commands/leader-add` },
+      { label: 'Leader−', href: `${base}/commands/leader-remove` },
+      { label: 'Dim Linear', href: `${base}/commands/dim-linear` },
+      { label: 'Dim Aligned', href: `${base}/commands/dim-aligned` },
+      { label: 'Dim Continue', href: `${base}/commands/dim-continue` },
+      { label: 'Dim Radius', href: `${base}/commands/dim-radius` },
+      { label: 'Dim Diameter', href: `${base}/commands/dim-diameter` },
+      { label: 'Dim Angular', href: `${base}/commands/dim-angular` },
     ],
   },
   {
-    title: 'Layer',
+    title: s.layer,
     items: [
-      { label: 'LayerMakeCurrent', href: '/docs/commands/layer-make-current' },
-      { label: 'LayerMatch', href: '/docs/commands/layer-match' },
-      { label: 'LayerIsolate', href: '/docs/commands/layer-isolate' },
-      { label: 'LayerUnfreezeAll', href: '/docs/commands/layer-unfreeze-all' },
+      { label: 'LayerMakeCurrent', href: `${base}/commands/layer-make-current` },
+      { label: 'LayerMatch', href: `${base}/commands/layer-match` },
+      { label: 'LayerIsolate', href: `${base}/commands/layer-isolate` },
+      { label: 'LayerUnfreezeAll', href: `${base}/commands/layer-unfreeze-all` },
     ],
   },
   {
-    title: 'Layouts',
+    title: s.layouts,
     items: [
-      { label: 'ViewportRectangle', href: '/docs/commands/viewport-rectangle' },
-      { label: 'ViewportCopy', href: '/docs/commands/viewport-copy' },
-      { label: 'PageManager', href: '/docs/commands/page-manager' },
+      { label: 'ViewportRectangle', href: `${base}/commands/viewport-rectangle` },
+      { label: 'ViewportCopy', href: `${base}/commands/viewport-copy` },
+      { label: 'PageManager', href: `${base}/commands/page-manager` },
     ],
   },
   {
-    title: 'Navigate',
+    title: s.navigate,
     items: [
-      { label: 'Pan', href: '/docs/commands/pan' },
-      { label: 'Zoom In', href: '/docs/commands/zoom-in' },
-      { label: 'Zoom Out', href: '/docs/commands/zoom-out' },
-      { label: 'Fit', href: '/docs/commands/fit' },
+      { label: 'Pan', href: `${base}/commands/pan` },
+      { label: s.zoomIn, href: `${base}/commands/zoom-in` },
+      { label: s.zoomOut, href: `${base}/commands/zoom-out` },
+      { label: 'Fit', href: `${base}/commands/fit` },
     ],
   },
   {
-    title: 'Measure',
+    title: s.measure,
     items: [
-      { label: 'Distance', href: '/docs/commands/distance' },
-      { label: 'Angle', href: '/docs/commands/angle' },
+      { label: 'Distance', href: `${base}/commands/distance` },
+      { label: 'Angle', href: `${base}/commands/angle` },
     ],
   },
   {
-    title: 'Style',
+    title: s.style,
     items: [
-      { label: 'Match Properties', href: '/docs/commands/match-properties' },
+      { label: s.matchProp, href: `${base}/commands/match-properties` },
     ],
   },
   {
-    title: 'File',
+    title: s.file,
     items: [
-      { label: 'Import', href: '/docs/commands/import' },
-      { label: 'New File', href: '/docs/commands/new-file' },
-      { label: 'Files', href: '/docs/commands/files' },
-      { label: 'Print', href: '/docs/commands/print' },
-      { label: 'Export', href: '/docs/commands/export' },
-      { label: 'WipeStorage', href: '/docs/commands/wipestorage' },
+      { label: 'Import', href: `${base}/commands/import` },
+      { label: s.newFile, href: `${base}/commands/new-file` },
+      { label: 'Files', href: `${base}/commands/files` },
+      { label: 'Print', href: `${base}/commands/print` },
+      { label: 'Export', href: `${base}/commands/export` },
+      { label: 'WipeStorage', href: `${base}/commands/wipestorage` },
     ],
   },
   {
-    title: 'Interface',
+    title: s.iface,
     items: [
-      { label: 'Grid & Snap', href: '/docs/interface/grid-snap' },
-      { label: 'Linetype', href: '/docs/interface/linetype' },
-      { label: 'Lineweight', href: '/docs/interface/lineweight' },
-      { label: 'Text Editor', href: '/docs/interface/text-editor' },
+      { label: s.gridSnap, href: `${base}/interface/grid-snap` },
+      { label: 'Linetype', href: `${base}/interface/linetype` },
+      { label: 'Lineweight', href: `${base}/interface/lineweight` },
+      { label: 'Text Editor', href: `${base}/interface/text-editor` },
     ],
   },
 ];
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={lang}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -167,7 +208,7 @@ const sidebar = [
   </head>
   <body class="bg-slate-900 text-slate-50 antialiased font-sans">
 
-    <SiteHeader active="docs" />
+    <SiteHeader active="docs" lang={lang} />
 
     <div class="mx-auto flex max-w-6xl">
 
@@ -244,7 +285,7 @@ const sidebar = [
 
     </div>
 
-    <SiteFooter />
+    <SiteFooter lang={lang} />
     <Analytics />
 
   </body>
