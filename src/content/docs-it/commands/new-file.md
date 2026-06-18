@@ -1,20 +1,42 @@
 ---
-title: Comando New File — KulmanLab CAD
-description: Avvia un nuovo disegno vuoto in KulmanLab CAD.
-keywords: [KulmanLab, KulmanLab CAD, comando new file, nuovo disegno]
+sidebar_position: 2
+title: Nuovo File — Avviare un Disegno Vuoto in KulmanLab CAD
+description: Il comando Nuovo File svuota il canvas e apre un disegno vuoto. Un nome file con timestamp viene generato automaticamente e salvato nell'archivio del browser.
+keywords: [nuovo file CAD, nuovo disegno, canvas vuoto CAD, crea nuovo disegno online, nuovo DXF, KulmanLab nuovo file, reimposta canvas, cancella disegno]
 ---
 
-# New File
+# Nuovo File
 
-Avvia un nuovo disegno vuoto, cancellando quello corrente dalla lavagna.
+Il comando **Nuovo File** svuota il canvas e avvia un disegno vuoto. Un nome file univoco con timestamp viene generato automaticamente.
 
-## Come usarlo
+## Come creare un nuovo file
 
-1. Attiva il comando **New File** dalla barra degli strumenti o digita `newfile` nel terminale.
-2. Conferma se richiesto — la lavagna viene svuotata e si inizia un nuovo disegno.
+Clicca il pulsante **New File** nella barra degli strumenti (icona nuova pagina) nel pannello File. Il canvas si svuota immediatamente — nessuna richiesta o finestra di conferma.
 
-## Suggerimenti
+## Cosa contiene il nuovo file
 
-- Il disegno corrente viene salvato automaticamente nell'archivio del browser prima di aprirne uno nuovo.
-- Puoi recuperare i disegni precedenti con il comando [Files](./files).
-- Esporta con [Export](./export) per salvare una copia permanente prima di iniziare.
+Un file appena creato inizia con:
+
+- **Nessuna entità** sul canvas.
+- **Un livello predefinito** chiamato `0` con colore bianco e tipo di linea `Continuous`.
+- Un **nome file generato** nel formato `kulman-Lun01_HH:MM:SS.dxf` (es. `kulman-Mag22_14:30:00.dxf`).
+
+Il file viene salvato automaticamente nell'archivio del browser e appare in [File Recenti](./files).
+
+## Attenzione — il lavoro non salvato viene eliminato
+
+Cliccare **Nuovo File** elimina tutte le entità sul canvas corrente senza avviso. Se vuoi mantenere il disegno corrente, [esportalo](./export) prima.
+
+## Quando usare Nuovo File vs Importa
+
+| Situazione | Azione consigliata |
+|------------|-------------------|
+| Iniziare un disegno da zero | **Nuovo File** |
+| Aprire un file DXF o JSON esistente | [Importa](./import) |
+| Copiare un disegno per lavorare su una variante | [Esporta](./export) il file corrente, poi [Importa](./import) la copia |
+
+## Comandi correlati
+
+- [Importa](./import) — apri un disegno DXF o JSON esistente
+- [Esporta](./export) — scarica il disegno prima di iniziarne uno nuovo
+- [Files](./files) — ripristina un disegno precedente dall'archivio del browser

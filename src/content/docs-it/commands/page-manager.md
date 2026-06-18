@@ -1,21 +1,30 @@
 ---
-title: Comando PageManager — KulmanLab CAD
-description: Modifica il formato carta e la scala del layout attivo in KulmanLab CAD.
-keywords: [KulmanLab, KulmanLab CAD, page manager, formato carta, scala layout]
+title: Comando PageManager — Modificare Formato Carta e Scala del Layout in KulmanLab CAD
+description: Il comando PageManager apre il pannello delle impostazioni di pagina per il layout attivo, dove puoi modificare il formato carta, l'orientamento e la scala delle unità di disegno.
+keywords: [page manager, impostazioni layout, formato carta, scala disegno, spazio layout, kulmanlab]
 ---
 
 # PageManager
 
-Apre il gestore di pagine per modificare il formato carta e la scala del layout attivo.
+Il comando `PageManager` apre la finestra di dialogo delle impostazioni di pagina per il layout attivo, permettendoti di modificare il formato carta, l'orientamento e la scala tra le unità di disegno e i millimetri.
 
-## Come usarlo
+## Aprire il Page Manager
 
-1. Attiva il comando **PageManager** dalla barra degli strumenti o digita `pagemanager` nel terminale.
-2. Si apre la finestra di dialogo **Page Manager**.
-3. Scegli il **formato carta** (A4, A3, lettera, ecc.) e la **scala**.
-4. Conferma per applicare le modifiche.
+- Digita `PageManager` nel terminale, **oppure**
+- Fai clic destro su una scheda layout in basso e scegli **Page Manager**.
 
-## Suggerimenti
+## Impostazioni
 
-- La scala determina il rapporto tra lo spazio modello e il layout carta.
-- Usa [ViewportRectangle](./viewport-rectangle) per aggiungere finestre di visualizzazione nel layout.
+| Impostazione | Descrizione |
+|-------------|-------------|
+| **Formato carta** | Dimensione foglio standard (A4, A3, A2, Lettera, ecc.) |
+| **Orientamento** | Verticale o Orizzontale |
+| **Scala** | Unità di disegno per mm — controlla come le coordinate del modello si mappano sulla carta |
+
+Modificare il formato carta o la scala ridimensiona proporzionalmente tutti i viewport esistenti nel layout in modo che le loro posizioni rimangano corrette.
+
+## Note
+
+- PageManager si applica solo ai layout carta. Non è disponibile nello spazio modello.
+- Per aggiungere un nuovo layout, clicca il pulsante **+** nella barra delle schede in basso.
+- Per rinominare o eliminare un layout, fai clic destro sulla sua scheda.

@@ -1,20 +1,51 @@
 ---
-title: Comando Dimension Diameter — KulmanLab CAD
-description: Aggiunge quote di diametro a cerchi in KulmanLab CAD.
-keywords: [KulmanLab, KulmanLab CAD, quota diametro, dimensione diametro]
+sidebar_position: 17
+title: "Comando Dimension Diameter — Annota il Diametro di Cerchi e Archi in KulmanLab CAD"
+description: "Il comando Dimension Diameter posiziona una quota diametro (con il simbolo diametro come prefisso) attraverso il centro di un arco o cerchio. Sposta il cursore per ruotare la linea di quota in qualsiasi angolazione. Compatibilità DXF completa come entità DIMENSION diametro."
+keywords: [CAD quota diametro, dimdiameter, annota diametro cerchio, quota diametro arco, simbolo diametro CAD, kulmanlab]
 ---
 
 # Dimension Diameter
 
-Aggiunge una quota di diametro a un cerchio.
+Il comando `dimdiameter` posiziona una quota diametro su un arco o cerchio. La linea di quota attraversa il diametro completo — passando per il centro tra due punti diametralmente opposti dell'arco — ed è etichettata `⌀ <valore>`. Per annotare solo il raggio dal centro a un bordo, usa [Dimension Radius](./dim-radius).
 
-## Come usarlo
+## Anatomia di una quota diametro
 
-1. Attiva il comando **Dimension Diameter** dalla barra degli strumenti o digita `dimdiameter` nel terminale.
-2. Clicca sul **cerchio** da quotare.
-3. Clicca per posizionare la **linea di quota** — viene creata la quota con il simbolo Ø.
+```
+  ●──────────── ⌀ 10.00 ────────────●
+  (punto arco lontano)         (punto arco vicino / lato testo)
+```
 
-## Suggerimenti
+- **Linea di quota** — attraversa il diametro completo, con punte di freccia in entrambi i punti di intersezione dell'arco.
+- **Punto arco vicino** — il punto della circonferenza sul lato del cursore (dove si trova l'etichetta testo).
+- **Punto arco lontano** — il punto diametralmente opposto.
+- **Etichetta** — `⌀` seguito dal valore del diametro.
 
-- La quota viene visualizzata con il prefisso **Ø** seguito dal valore del diametro.
-- Per il raggio usa [Dimension Radius](./dim-radius).
+## Posizionamento di una quota diametro
+
+1. Digita `dimdiameter` nel terminale o clicca il pulsante **Dimension Diameter** nella barra degli strumenti.
+2. **Clicca un arco o cerchio** per selezionarlo.
+3. **Sposta il cursore** per ruotare la linea di quota all'angolazione desiderata.
+4. **Clicca** per posizionare la quota.
+
+Solo le entità **Arc** e **Circle** possono essere selezionate.
+
+## Riferimento tastiera
+
+| Tasto | Azione |
+|-------|--------|
+| `Escape` | Annulla |
+
+## Dimension Diameter vs Dimension Radius
+
+| | Dimension Diameter | Dimension Radius |
+|---|-------------------|-----------------|
+| Misura | Diametro completo (2 × raggio) | Raggio (centro al bordo) |
+| Linea di quota | Bordo → bordo attraverso il centro | Centro → bordo |
+| Prefisso etichetta | `⌀` | `R` |
+| Punte di freccia | Due (in entrambi i punti dell'arco) | Una (nel punto dell'arco) |
+| Ideale per | Quote foro circolare o albero completo | Annotare un lato di un elemento curvo |
+
+## DXF — entità DIMENSION diametro
+
+Le quote diametro vengono salvate come entità `DIMENSION` con geometria di tipo diametro, memorizzando entrambe le posizioni dei punti dell'arco e il valore del diametro misurato (2 × raggio). Tutte le proprietà vengono mantenute senza perdita.

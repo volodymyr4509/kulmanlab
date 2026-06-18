@@ -1,23 +1,42 @@
 ---
-title: Comando LayerIsolate — KulmanLab CAD
-description: Congela tutti i livelli tranne quelli delle entità selezionate in KulmanLab CAD.
-keywords: [KulmanLab, KulmanLab CAD, layer isolate, isola livello]
+sidebar_position: 1
+title: LayerIsolate — Congela Tutti i Layer Tranne quelli Selezionati in KulmanLab CAD
+description: Il comando LayerIsolate congela ogni layer tranne quelli usati dagli oggetti selezionati, permettendoti di concentrarti su geometria specifica senza eliminare nulla.
+keywords: [layer isolate, congela layer CAD, isola layer kulmanlab, gestione layer CAD]
 ---
 
 # LayerIsolate
 
-Congela tutti i livelli tranne quelli delle entità selezionate, isolando visivamente il contenuto rilevante.
+Il comando `LayerIsolate` congela ogni layer **tranne** quelli appartenenti agli oggetti selezionati. Usalo per concentrarti rapidamente su geometria specifica senza nascondere o eliminare nulla in modo permanente — scongela con [LayerUnfreezeAll](./layer-unfreeze-all) quando hai finito.
 
-## Come usarlo
+## Due modi per iniziare
 
-1. Attiva il comando **LayerIsolate** dalla barra degli strumenti o digita `layerisolate` nel terminale.
-2. Clicca sulle **entità** i cui livelli vuoi mantenere visibili.
-3. Premi **Invio** o **Spazio** — tutti gli altri livelli vengono congelati.
+**Pre-seleziona, poi isola** — seleziona le entità prima, poi attiva:
 
-## Ripristino
+1. Seleziona una o più entità sul canvas.
+2. Digita `LayerIsolate` nel terminale o clicca il pulsante **Layer Isolate** nella barra degli strumenti.
+3. I layer delle entità selezionate rimangono visibili; tutti gli altri vengono congelati immediatamente.
 
-Usa [LayerUnfreezeAll](./layer-unfreeze-all) per scongelare tutti i livelli e ripristinare la visibilità completa.
+**Attiva, poi seleziona**:
 
-## Suggerimenti
+1. Digita `LayerIsolate` o clicca il pulsante nella barra degli strumenti.
+2. **Seleziona gli oggetti** — clicca singole entità o trascina per selezionare per area.
+3. Premi **Invio** o **Spazio** per confermare — l'isolamento viene applicato.
 
-- Utile per concentrarsi su una parte specifica del disegno senza distrazioni visive.
+## Riferimento tastiera
+
+| Tasto | Azione |
+|-------|--------|
+| `Invio` / `Spazio` | Conferma la selezione e applica l'isolamento |
+| `Escape` | Annulla e deseleziona |
+
+## Dettagli di comportamento
+
+- Tutti i layer che **non** sono rappresentati nella selezione vengono impostati come congelati.
+- I layer che **sono** rappresentati rimangono non congelati, anche se erano congelati prima.
+- La selezione viene azzerata dopo l'applicazione dell'isolamento.
+- Il comando termina automaticamente dopo l'applicazione.
+
+## Annullare l'isolamento
+
+Esegui [LayerUnfreezeAll](./layer-unfreeze-all) per ripristinare tutti i layer a visibile in un solo passaggio.

@@ -1,19 +1,22 @@
 ---
-title: Comando LayerMakeCurrent — KulmanLab CAD
-description: Imposta il livello attivo facendo clic su un'entità in KulmanLab CAD.
-keywords: [KulmanLab, KulmanLab CAD, layer make current, livello corrente]
+sidebar_position: 1
+title: LayerMakeCurrent — Imposta il Layer di un'Entità come Corrente in KulmanLab CAD
+description: Il comando LayerMakeCurrent imposta il layer di disegno corrente in modo che corrisponda al layer dell'entità cliccata.
+keywords: [layer make current, imposta layer corrente CAD, kulmanlab gestione layer]
 ---
 
 # LayerMakeCurrent
 
-Imposta il livello attivo per corrispondere al livello dell'entità cliccata.
+Il comando `LayerMakeCurrent` imposta il **layer di disegno corrente** sul layer a cui appartiene l'entità cliccata. Le nuove entità verranno poi disegnate automaticamente su quel layer.
 
-## Come usarlo
+## Utilizzo
 
-1. Attiva il comando **LayerMakeCurrent** dalla barra degli strumenti o digita `layermakecurrent` nel terminale.
-2. Clicca sull'**entità** il cui livello vuoi rendere corrente — il livello attivo viene aggiornato.
+1. Digita `LayerMakeCurrent` nel terminale o clicca il pulsante **Make Current** nella barra degli strumenti (icona contagocce).
+2. **Clicca qualsiasi entità** sul canvas.
+3. Il layer corrente viene aggiornato in modo che corrisponda al layer di quella entità. Il comando termina immediatamente.
 
-## Suggerimenti
+## Dettagli di comportamento
 
-- Più veloce che selezionare il livello manualmente dal pannello livelli.
-- Le nuove entità disegnate successivamente verranno create sul livello appena impostato.
+- Se clicchi sul canvas vuoto (nessuna entità trovata), il terminale mostra `nessun oggetto trovato` e il comando rimane attivo così puoi riprovare.
+- Solo l'impostazione del layer corrente viene modificata — nessuna entità viene modificata.
+- Il layer aggiornato si riflette nel selettore di layer nella barra degli strumenti.
