@@ -1,39 +1,55 @@
 ---
-title: Griglia e Snap — KulmanLab CAD
-description: Usa griglia e snap per posizionare con precisione gli elementi in KulmanLab CAD — modalità snap, impostazioni griglia e scorciatoie da tastiera.
-keywords: [KulmanLab, KulmanLab CAD, griglia, snap, griglia snap, precisione disegno]
+sidebar_position: 1
+title: Griglia e Snap — Allineare i Disegni a una Griglia Regolare in KulmanLab CAD
+description: I pulsanti Griglia e Snap nella barra di controllo di KulmanLab CAD sovrappongono una griglia di riferimento sul canvas e bloccano il cursore ai punti della griglia. La spaziatura della griglia si adatta automaticamente al livello di zoom corrente in modo da mostrare sempre valori modello arrotondati.
+keywords: [CAD griglia, snap alla griglia, spaziatura griglia, ausili disegno, kulmanlab, punti griglia, snap ortogonale]
 ---
 
 # Griglia e Snap
 
-La griglia e lo snap aiutano a posizionare gli elementi con precisione nel disegno.
+Due pulsanti nella barra di controllo consentono di sovrapporre una griglia di riferimento e di bloccare il cursore alle sue intersezioni durante il disegno.
 
-## Attivare griglia e snap
+| Pulsante | Cosa fa |
+|----------|---------|
+| **Griglia** | Mostra una griglia visiva a punti o linee sul canvas |
+| **Snap** | Blocca il cursore al punto della griglia più vicino quando nessuno snap geometrico è più vicino |
 
-- Clicca il pulsante **Griglia/Snap** nella barra degli strumenti.
-- Oppure premi **G** sulla tastiera per attivare/disattivare rapidamente.
+I due pulsanti sono indipendenti — puoi mostrare la griglia senza snap, fare snap senza mostrare la griglia, o usarli entrambi insieme.
 
-## Modalità snap
+## Abilitare griglia e snap
 
-Quando lo snap è attivo, il cursore si ancora ai punti della griglia durante il disegno. Questo garantisce che le entità si allineino perfettamente senza la necessità di inserire coordinate manuali.
+Clicca **Griglia** o **Snap** nella barra di controllo. Lo stato attivo è evidenziato. Le impostazioni persistono tra le sessioni.
 
-## Impostazioni griglia
+Quando lo **Snap** è attivo, la griglia passa automaticamente dalla visualizzazione a linee a **punti** — i punti segnano i punti esatti su cui il cursore si aggancerà.
 
-- **Spaziatura** — distanza tra i punti della griglia; modificabile nel pannello impostazioni.
-- **Visualizzazione** — la griglia può essere mostrata come punti o linee sullo sfondo della lavagna.
+## Spaziatura griglia adattiva
 
-## Scorciatoia Snap ad angolo
+La spaziatura della griglia si regola automaticamente mentre zoomi in modo che le linee della griglia siano sempre a una distanza comoda sullo schermo (~40 px). Il passo è sempre un numero "tondo" — un multiplo di 1, 2 o 5 a qualsiasi potenza di dieci:
 
-Mentre stai disegnando, tieni premuto un **tasto freccia** per vincolare la direzione del cursore a incrementi di 45°:
+| Zoom di esempio / scala modello | Passo griglia |
+|---------------------------------|--------------|
+| Zoom indietro (area grande) | 100, 500, 1000 … |
+| Zoom medio | 10, 20, 50 … |
+| Zoom avanti (dettaglio fine) | 1, 2, 5 … |
+| Molto vicino | 0,1, 0,2, 0,5 … |
 
-| Tasto | Vincolo direzione |
-|-------|------------------|
-| ← / → | Orizzontale (0° / 180°) |
-| ↑ / ↓ | Verticale (90° / 270°) |
-| ← + ↑ | Diagonale (135°) |
-| → + ↑ | Diagonale (45°) |
+Questo significa che ogni punto di snap cade su una coordinata tonda nello spazio modello — nessun offset in virgola mobile si accumula.
 
-## Suggerimenti
+## Priorità dello snap
 
-- Disattiva temporaneamente lo snap premendo **G** quando hai bisogno di posizionamenti liberi.
-- Combina snap e quote per disegni tecnici precisi.
+**Gli snap a endpoint e intersezione hanno sempre la priorità sulla griglia.** Il cursore si aggancia a un punto della griglia solo quando non è vicino a nessun candidato snap geometrico (endpoint, punto medio, centro o intersezione).
+
+Questo significa che puoi disegnare con lo snap alla griglia attivo e comunque agganciarti con precisione alla geometria esistente quando il cursore passa abbastanza vicino a essa. La griglia è un fallback, non un override.
+
+## Modalità layout
+
+- **Spazio modello** — i punti o le linee riempiono l'intera area del canvas visibile.
+- **Spazio layout (carta)** — i punti sono ritagliati al rettangolo del foglio e non si estendono oltre.
+- **All'interno di una finestra di visualizzazione** — la griglia segue il sistema di coordinate del modello alla scala della finestra, quindi i punti si allineano alle stesse unità modello indipendentemente dall'ingrandimento della finestra.
+
+## Flusso di lavoro tipico
+
+1. Attiva **Griglia** e **Snap** prima di iniziare un disegno che richiede spaziatura regolare.
+2. Zooma al livello in cui il passo della griglia corrisponde all'incremento desiderato (es. zooma finché i punti sono a 10 unità di distanza).
+3. Disegna — il cursore si aggancia automaticamente ai punti della griglia. La geometria esistente si aggancia normalmente quando sei abbastanza vicino a essa.
+4. Disattiva **Snap** quando hai bisogno del movimento libero del cursore o vuoi agganciarti solo alla geometria.

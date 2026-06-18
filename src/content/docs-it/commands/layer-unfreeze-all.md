@@ -1,18 +1,24 @@
 ---
-title: Comando LayerUnfreezeAll — KulmanLab CAD
-description: Scongela tutti i livelli in un solo passaggio in KulmanLab CAD.
-keywords: [KulmanLab, KulmanLab CAD, layer unfreeze all, scongela livelli]
+sidebar_position: 1
+title: LayerUnfreezeAll — Scongelare Tutti i Livelli in KulmanLab CAD
+description: Il comando LayerUnfreezeAll rimuove il flag di congelamento da ogni livello del disegno in un solo passaggio.
+keywords: [layer unfreeze, scongela tutti i livelli CAD, kulmanlab gestione livelli]
 ---
 
 # LayerUnfreezeAll
 
-Scongela tutti i livelli in un solo passaggio, ripristinando la piena visibilità del disegno.
+Il comando `LayerUnfreezeAll` rimuove il flag di congelamento da **ogni livello** del disegno istantaneamente. Non è richiesta nessuna selezione né conferma — il comando viene eseguito e termina in un unico passaggio.
 
-## Come usarlo
+## Utilizzo
 
-1. Attiva il comando **LayerUnfreezeAll** dalla barra degli strumenti o digita `layerunfreezeall` nel terminale.
-2. Tutti i livelli congelati vengono immediatamente scongelati.
+Digita `LayerUnfreezeAll` nel terminale oppure clicca il pulsante **Unfreeze All** nella barra degli strumenti (icona sole). Tutti i livelli congelati diventano immediatamente visibili.
 
-## Suggerimenti
+## Quando usarlo
 
-- Usalo dopo [LayerIsolate](./layer-isolate) per tornare alla visualizzazione completa del disegno.
+Tipicamente usato dopo [LayerIsolate](./layer-isolate) per ripristinare tutti i livelli allo stato visibile normale.
+
+## Dettagli di comportamento
+
+- Si applica a tutti i livelli indipendentemente dal loro stato attuale.
+- Non modifica i flag di blocco o di stampa — viene modificato solo il flag di congelamento.
+- Il comando termina immediatamente senza nessuna richiesta.

@@ -1,21 +1,57 @@
 ---
-title: Comando Dimension Angular — KulmanLab CAD
-description: Aggiunge quote angolari a linee, archi e cerchi in KulmanLab CAD.
-keywords: [KulmanLab, KulmanLab CAD, quota angolare, dimensione angolo]
+sidebar_position: 9
+title: Dimension Angular — Misura Angoli tra Linee, Archi e Cerchi in KulmanLab CAD
+description: Il comando DimensionAngular posiziona una quota angolare su linee, archi o cerchi. Supporta le modalità angolo tra due linee, estensione arco e settore cerchio.
+keywords: [quota angolare CAD, dimensione angolo, misura angolo tra linee, DimensionAngular, quota arco, annotazione angolo, kulmanlab]
 ---
 
 # Dimension Angular
 
-Aggiunge una quota angolare tra due linee, su un arco o su un cerchio.
+Il comando `DimensionAngular` posiziona una **quota angolare** ad arco sul disegno. Misura e annota l'angolo tra due linee, l'estensione di un arco, o un settore di un cerchio.
 
-## Come usarlo
+## Come attivare
 
-1. Attiva il comando **Dimension Angular** dalla barra degli strumenti o digita `dimangular` nel terminale.
-2. Clicca sulla **prima linea** (o sull'arco/cerchio da quotare).
-3. Clicca sulla **seconda linea** (se si quota l'angolo tra due linee).
-4. Clicca per posizionare la **linea di quota** — viene creata la quota con il simbolo °.
+Clicca il pulsante **Dimension Angular** nella barra degli strumenti nel pannello Annotazione, oppure digita `DimensionAngular` nel terminale.
 
-## Suggerimenti
+## Tre modalità di input
 
-- Su un arco misura l'angolo dell'arco; su un cerchio misura l'angolo di un settore.
-- La quota mostra il valore in gradi.
+Il primo clic determina quale modalità viene usata:
+
+### Due linee
+
+1. **Clicca la prima linea.** La posizione del cursore determina quale lato della linea viene usato.
+2. **Clicca la seconda linea.** Le due linee devono intersecarsi (l'intersezione viene calcolata automaticamente; non deve essere visibile sullo schermo).
+3. **Clicca per posizionare** l'arco di quota. Sposta il cursore per scegliere il raggio e quale settore angolare viene etichettato — l'annotazione segue il cursore sul lato del vertice su cui ti trovi.
+
+Le linee parallele non possono formare una quota angolare; il comando ignora il secondo clic se le linee non si intersecano.
+
+### Arco
+
+1. **Clicca un arco.** La quota viene creata immediatamente dall'angolo iniziale all'angolo finale dell'arco, usando il centro dell'arco come vertice.
+2. **Clicca per posizionare** l'arco di quota al raggio desiderato.
+
+### Cerchio
+
+1. **Clicca un cerchio.** Il primo punto angolare si aggancia al punto più vicino sul cerchio.
+2. **Clicca un secondo punto** sul cerchio per definire il secondo punto angolare.
+3. **Clicca per posizionare** l'arco di quota.
+
+## Riferimento tastiera
+
+| Tasto | Azione |
+|-------|--------|
+| `Escape` | Annulla e torna al primo pick |
+
+## Dettagli di comportamento
+
+- L'arco di quota viene sempre tracciato sul lato del vertice dove lo posizioni — sposta il cursore attraverso il vertice per passare all'angolo supplementare.
+- L'angolo misurato viene mostrato in gradi e si aggiorna in tempo reale mentre sposti il cursore durante il posizionamento.
+- L'annotazione risultante è un'entità `DimensionAngular` completa memorizzata sul layer corrente. Le proprietà di aspetto (dimensione freccia, altezza testo, lunghezza linea di estensione) possono essere regolate nel pannello Proprietà.
+- Le quote angolari sono incluse nell'esportazione JSON ma non sono supportate dall'esportatore DXF.
+
+## Comandi correlati
+
+- [Dimension Linear](./dim-linear) — quota orizzontale o verticale
+- [Dimension Aligned](./dim-aligned) — quota allineata a due punti
+- [Dimension Radius](./dim-radius) — quota raggio per archi e cerchi
+- [Dimension Diameter](./dim-diameter) — quota diametro per cerchi
