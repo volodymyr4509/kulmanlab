@@ -20,6 +20,34 @@
 - Changelog (DE): https://kulmanlab.com/de/changelog
 - FAQ (DE): https://kulmanlab.com/de/faq
 
+## Spanish (Español)
+
+- Landing page (ES): https://kulmanlab.com/es/
+- Docs (ES): https://kulmanlab.com/es/docs
+- Changelog (ES): https://kulmanlab.com/es/changelog
+- FAQ (ES): https://kulmanlab.com/es/faq
+
+## French (Français)
+
+- Landing page (FR): https://kulmanlab.com/fr/
+- Docs (FR): https://kulmanlab.com/fr/docs
+- Changelog (FR): https://kulmanlab.com/fr/changelog
+- FAQ (FR): https://kulmanlab.com/fr/faq
+
+## Italian (Italiano)
+
+- Landing page (IT): https://kulmanlab.com/it/
+- Docs (IT): https://kulmanlab.com/it/docs
+- Changelog (IT): https://kulmanlab.com/it/changelog
+- FAQ (IT): https://kulmanlab.com/it/faq
+
+## Portuguese (Português)
+
+- Landing page (PT): https://kulmanlab.com/pt/
+- Docs (PT): https://kulmanlab.com/pt/docs
+- Changelog (PT): https://kulmanlab.com/pt/changelog
+- FAQ (PT): https://kulmanlab.com/pt/faq
+
 ## Description
 
 KulmanLab is a professional-grade 2D CAD editor that runs entirely in the browser. There is nothing to install — open the URL and start drawing. All geometry is stored in your browser's localStorage; no file is ever sent to a server. The app works offline after the first load.

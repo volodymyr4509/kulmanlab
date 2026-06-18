@@ -15,6 +15,30 @@ Docs (DE): https://kulmanlab.com/de/docs
 Changelog (DE): https://kulmanlab.com/de/changelog
 FAQ (DE): https://kulmanlab.com/de/faq
 
+Spanish (Español):
+Landing page (ES): https://kulmanlab.com/es/
+Docs (ES): https://kulmanlab.com/es/docs
+Changelog (ES): https://kulmanlab.com/es/changelog
+FAQ (ES): https://kulmanlab.com/es/faq
+
+French (Français):
+Landing page (FR): https://kulmanlab.com/fr/
+Docs (FR): https://kulmanlab.com/fr/docs
+Changelog (FR): https://kulmanlab.com/fr/changelog
+FAQ (FR): https://kulmanlab.com/fr/faq
+
+Italian (Italiano):
+Landing page (IT): https://kulmanlab.com/it/
+Docs (IT): https://kulmanlab.com/it/docs
+Changelog (IT): https://kulmanlab.com/it/changelog
+FAQ (IT): https://kulmanlab.com/it/faq
+
+Portuguese (Português):
+Landing page (PT): https://kulmanlab.com/pt/
+Docs (PT): https://kulmanlab.com/pt/docs
+Changelog (PT): https://kulmanlab.com/pt/changelog
+FAQ (PT): https://kulmanlab.com/pt/faq
+
 ---
 
 # About KulmanLab
