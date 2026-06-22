@@ -1,50 +1,57 @@
 ---
 sidebar_position: 31
-title: Dimension Angular Komutu — KulmanLab CAD'de Çizgiler ve Yaylar için Açısal Ölçüler
-description: Dimension Angular komutu, iki çizgi arasındaki açıyı, yayın açısal kapsamını veya daire segmentini ölçer. Yalnızca JSON formatında saklanır — DXF'de değil.
-keywords: [CAD dimension angular komutu, açısal ölçü CAD, çizgiler arasındaki açı ölçüsü, kulmanlab]
+title: Dimension Angular Komutu — KulmanLab CAD'de Çizgiler, Yaylar ve Daireler Arasındaki Açıları Ölç
+description: DimensionAngular komutu, çizgiler, yaylar veya daireler üzerine açısal ölçü ek açıklaması yerleştirir. İki çizgi açısı, yay kapsamı ve daire sektörü modlarını destekler.
+keywords: [açısal ölçü CAD, açı ölçüsü, çizgiler arasındaki açıyı ölç, DimensionAngular, yay ölçüsü, açı ek açıklaması, CAD açı işareti, kulmanlab açısal ölçü]
 ---
 
 # Dimension Angular
 
-`dim angular` komutu, iki çizgi arasındaki açıyı veya bir yay ya da dairenin açısal kapsamını ölçer ve görüntüler. Değer derece cinsinden görüntülenir.
+`DimensionAngular` komutu, çizime **açısal ölçü** yay ek açıklaması yerleştirir. İki çizgi arasındaki açıyı, bir yayın kapsamını veya bir dairenin sektörünü ölçer ve etiketler.
 
-> **DXF Notu:** Açısal ölçüler DXF dışa aktarımına **dahil edilmez**. Yalnızca JSON formatında saklanır. Açısal ölçüleri kaydetmek için [Export](./export) komutunu JSON formatında kullanın.
+## Nasıl Etkinleştirilir
 
-## İki Çizgi
+İşaretleme panelindeki **Dimension Angular** araç çubuğu düğmesine tıklayın veya terminale `DimensionAngular` yazın.
 
-1. Terminale `dim angular` yazın veya **Dim Angular** düğmesine basın.
-2. **Birinci çizgiyi tıklayın**.
-3. **İkinci çizgiyi tıklayın**.
-4. **Metin yerleştirme konumunu tıklayın** — iki çizgi arasında yay ölçü çizgisi çizilir.
+## Üç Giriş Modu
 
-Metin için tıklama konumu (kesişimin hangi tarafında) keskin (küçük) veya geniş (büyük) açının ölçülüp ölçülmeyeceğini belirler.
+İlk tıklama hangi modun kullanılacağını belirler:
 
-## Yay
+### İki Çizgi
 
-1. `dim angular` yazın.
-2. **Yayı tıklayın** — ölçü, yayın başlangıç açısından bitiş açısına kadar açısal kapsamı ölçer.
-3. **Metin yerleştirme konumunu tıklayın**.
+1. **Birinci çizgiyi tıklayın.** İmleç konumu çizginin hangi tarafının kullanıldığını belirler.
+2. **İkinci çizgiyi tıklayın.** İki çizgi kesişmelidir (kesişim otomatik olarak hesaplanır; ekranda görünmesi gerekmez).
+3. **Ölçü yayını yerleştirmek için tıklayın.** İmleci hareket ettirerek yarıçapı ve hangi açısal sektörün etiketleneceğini seçin — ek açıklama, köşenin hangi tarafında olduğunuza bağlı olarak imleci takip eder.
 
-## Daire
+Paralel çizgiler açısal ölçü oluşturamaz; çizgiler kesişmiyorsa komut ikinci tıklamayı yoksayar.
 
-1. `dim angular` yazın.
-2. **Daireyi tıklayın** — ölçü, merkeze göre tıklanan birinci ve ikinci noktadan olan açıyı ölçer.
-3. Açı ölçümünü tanımlamak için **daire üzerindeki ikinci noktayı tıklayın**.
-4. **Metin yerleştirme konumunu tıklayın**.
+### Yay
 
-## Dinamik Güncelleme
+1. **Bir yayı tıklayın.** Ölçü, yayın başlangıç açısından bitiş açısına kadar, yayın merkezini köşe olarak kullanarak hemen oluşturulur.
+2. **İstenen yarıçapta ölçü yayını yerleştirmek için tıklayın.**
 
-Yerleştirme sonrasında yakalama noktaları tutamaçlarla taşındığında ölçü değeri gerçek zamanlı olarak güncellenir.
+### Daire
+
+1. **Bir daireyi tıklayın.** Birinci açı uç noktası daire üzerindeki en yakın noktaya yakalanır.
+2. **Daire üzerinde ikinci noktayı tıklayın** — ikinci açı uç noktasını tanımlamak için.
+3. **Ölçü yayını yerleştirmek için tıklayın.**
 
 ## Klavye Referansı
 
 | Tuş | İşlem |
-|-----|-------|
-| `Escape` | İptal eder ve sıfırlar |
+|-----|--------|
+| `Escape` | İptal eder ve birinci seçime döner |
+
+## Davranış Ayrıntıları
+
+- Ölçü yayı her zaman yerleştirdiğiniz köşenin tarafında çizilir — imleci köşe üzerinden geçirerek tamamlayıcı açıya geçin.
+- Ölçülen açı derece cinsinden gösterilir ve yerleştirme sırasında imleci hareket ettirdikçe canlı olarak güncellenir.
+- Elde edilen ek açıklama, mevcut katmanda saklanan tam bir `DimensionAngular` nesnesidir. Görünüm özellikleri (ok boyutu, metin yüksekliği, uzatma çizgisi uzunluğu) Özellikler panelinden ayarlanabilir.
+- Açısal ölçüler JSON dışa aktarımına dahil edilir ancak DXF dışa aktarıcı tarafından desteklenmez.
 
 ## İlgili Komutlar
 
-- [Dim Linear](./dim-linear) — yatay/dikey ölçüler
-- [Dim Aligned](./dim-aligned) — eğimli mesafe ölçüleri
-- [Angle](./angle) — çizime yerleştirmeden açı ölçer
+- [Dimension Linear](./dim-linear) — yatay veya dikey ölçü
+- [Dimension Aligned](./dim-aligned) — iki noktaya hizalı ölçü
+- [Dimension Radius](./dim-radius) — yay ve daireler için yarıçap ölçüsü
+- [Dimension Diameter](./dim-diameter) — daireler için çap ölçüsü

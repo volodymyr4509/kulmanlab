@@ -1,46 +1,50 @@
 ---
 sidebar_position: 15
-title: Delete Komutu — KulmanLab CAD'de Seçili Nesneleri Sil
-description: Delete komutu, seçili tüm nesneleri çizimden siler. Klavyedeki Delete tuşu en hızlı kısayoldur. İşlem Undo komutuyla geri alınabilir.
-keywords: [CAD delete komutu, nesneleri sil CAD, Delete tuşu CAD, kulmanlab]
+title: Delete Komutu — KulmanLab CAD'de Nesneleri Çizimden Kaldır
+description: Delete komutu seçili nesneleri kalıcı olarak kaldırır (geri alınabilir). Önceden seçilmiş nesneler onay adımı olmadan anında silinir. Delete tuşu komutu etkinleştirmeden bile genel kısayol olarak çalışır. Tekli tıklama ve alan seçimini destekler.
+keywords: [CAD delete komutu, nesneleri kaldır CAD, nesneleri sil CAD, Delete tuşu CAD, silmeyi geri al CAD, kulmanlab]
 ---
 
 # Delete
 
-`delete` komutu, çizimden seçili tüm nesneleri kaldırır. İşlem [Undo](./undo) komutuyla geri alınabilir.
+`delete` komutu, seçili nesneleri çizimden kaldırır. Silme işlemleri [Geri Al](./undo) geçmişine kaydedilir ve en fazla 20 adım geri alınabilir. Ayrı bir "silmeyi onayla" iletişim kutusu yoktur — onay tek bir tuş basışıdır.
 
-## Üç Silme Yöntemi
+## İki Silme Yöntemi
 
-**Önce seç, sonra sil** (en hızlı):
-1. Nesneleri seçin (tıklayın veya kutu sürükleyin).
-2. Klavyedeki **Delete** tuşuna basın.
+**Önce seç, sonra sil** — en hızlı yol:
 
-**Araç çubuğu veya terminal üzerinden**:
-1. Nesneleri seçin.
-2. Terminale `delete` yazın veya **Delete** düğmesine basın.
+1. Tuvalde bir veya daha fazla nesne seçin.
+2. Terminale `delete` yazın, **Delete** araç çubuğu düğmesine tıklayın **veya doğrudan `Delete` tuşuna basın**.
+
+Nesneler anında kaldırılır — ek onay adımı yoktur.
 
 **Etkinleştir, sonra seç**:
-1. `delete` yazın.
-2. Nesneleri seçin.
-3. Onaylamak için **Enter** veya **Boşluk** tuşuna basın.
 
-## Delete Tuşu — Kısayol
+1. Hiçbir şey seçili değilken `delete` yazın veya araç çubuğu düğmesine tıklayın.
+2. **Nesneleri seçin** — tıklayarak seçimi değiştirin veya alan seçimi için sürükleyin.
+3. Seçili nesneleri onaylamak ve kaldırmak için **Enter**, **Boşluk** veya **Delete** tuşuna basın.
 
-Tuvalde seçili nesneler varsa **Delete** tuşuna (veya **Backspace**) basmak terminale komut girmeden anında onları siler.
+## Delete Tuşu Kısayolu
 
-## Silmeyi Geri Alma
+Klavyedeki `Delete` tuşu **genel kısayol** olarak işlev görür — herhangi bir nesne seçiliyse, Delete komutunu terminalde açmaya gerek kalmadan anında siler. Bu, en hızlı tek adımlı silme iş akışıdır:
 
-Nesneleri kurtarmak için silme işleminin hemen ardından [Undo](./undo) (Ctrl+Z / Cmd+Z) kullanın.
+```
+Nesneyi tıkla → Delete tuşuna bas → tamamlandı
+```
 
-## Komut Sırasında Nesne Seçimi
+## Komut Sırasında Seçim
 
 | Yöntem | Davranış |
-|--------|----------|
-| **Tıklama** | İmlecin altındaki nesneyi değiştirir |
-| **Sağa sürükleme** (katı) | Çerçevenin tamamen içindeki nesneleri ekler |
-| **Sola sürükleme** (çapraz) | Çerçeve sınırını kesen nesneleri ekler |
-| **Enter** / **Boşluk** | Seçimi onaylar ve silmeyi gerçekleştirir |
+|--------|-----------|
+| **Tıklama** | İmlecin altındaki nesneyi seçimde açar/kapatır |
+| **Sağa sürükleme** (katı) | Yalnızca kutunun tamamen içindeki nesneleri seçer |
+| **Sola sürükleme** (çapraz) | Kutu sınırıyla kesişen nesneleri seçer |
+| **Enter** / **Boşluk** / **Delete** | Seçili nesneleri onaylar ve siler |
+
+## Silinen Nesneleri Kurtarma
+
+Silme işlemleri [Geri Al](./undo) komutuyla geri alınabilir (terminale `undo` yazın veya araç çubuğu düğmesini kullanın). Dosya başına en fazla **20 adım** geri alınabilir ve geçmiş sayfa yeniden yüklemelerinde de korunur. Kaydetmeden 20'den fazla silme yaptıysanız, önceki silmeler kurtarılamaz.
 
 ## Desteklenen Nesneler
 
-Delete tüm nesne türleriyle çalışır: Çizgi, Çoklu Çizgi, Dikdörtgen, Daire, Yay, Elips, Metin, Spline, Ölçüler, Göstergeler ve diğerleri.
+Sil komutu her tür nesneyle çalışır — Çizgi, Çoklu Çizgi, Dikdörtgen, Daire, Yay, Elips, Metin, Spline, Ölçü, Gösterge ve diğer tüm nesne türleri.

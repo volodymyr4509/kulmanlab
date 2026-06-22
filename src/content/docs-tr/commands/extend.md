@@ -1,64 +1,72 @@
 ---
 sidebar_position: 17
-title: Extend Komutu — KulmanLab CAD'de Çizgileri Sınıra Uzat
-description: Extend komutu, bir çizginin en yakın ucunu en yakın sınır kesişimine kadar uzatır. İmleci çizgi ucuna götürün, vurgulamayı görün ve tıklayın. Sınırlar metin ve spline dışındaki herhangi bir nesne olabilir. Yalnızca çizgilerde çalışır.
-keywords: [CAD extend komutu, çizgiyi uzat CAD, çizgiyi sınıra uzat, uzatma sınırı CAD, kulmanlab]
+title: Extend Komutu — KulmanLab CAD'de Çizgi Ucunu En Yakın Sınıra Uzat
+description: Extend komutu, üzerine gelinmiş bir Çizginin en yakın ucunu başka bir nesneyle oluşturacağı en yakın kesişime kadar uzatır. Tıklamadan önce canlı önizleme uzatılmış çizgiyi gösterir. Extend yalnızca Çizgi nesnelerinde çalışır ve Metin, Spline ile Çoklu Göstergeni sınır olarak yok sayar.
+keywords: [CAD extend komutu, çizgiyi uzat CAD, çizgiyi sınıra uzat, çizgi ucu uzatma, üzerine gelme uzatma önizlemesi, kulmanlab]
 ---
 
 # Extend
 
-`extend` komutu, bir çizginin en yakın ucunu sınır nesnesiyle en yakın kesişimine kadar uzatır. İmleci çizginin ucuna götürün — önizleme vurgulanır — ve onaylamak için tıklayın.
+`extend` komutu, bir [Çizgi](./line)nin en yakın ucunu, çizimdeki başka bir nesneyle oluşturacağı en yakın kesişime kadar uzatır. Uzatmak istediğiniz ucun yakınına gelin — bir önizleme uzatılmış çizgiyi gösterir — ardından uygulamak için tıklayın.
 
-## Nasıl Kullanılır
+Extend yalnızca **Çizgi nesnelerinde** çalışır. Çizginin uzandığı sınırlar, Metin, Mtext, Çoklu Gösterge ve Spline dışındaki herhangi bir nesne türü olabilir.
 
-1. Terminale `extend` yazın veya araç çubuğundaki **Extend** düğmesine basın.
-2. İmleci **uzatılacak çizginin ucuna götürün**.
-3. **Önizleme**, çizgiyi en yakın sınıra kadar uzatılmış gösterir.
-4. **Tıklayın** ve onaylayın.
+## Çizgi Uzatma
 
-Komut aktif kalır — ek çizgi uçlarına götürüp tıklayın. Çıkmak için `Escape` veya `Enter` tuşuna basın.
+1. Terminale `extend` yazın veya araç çubuğundaki **Extend** düğmesine tıklayın.
+2. **Bir çizginin bir ucuna yakın gelin** — önizleme, çizgiyi o yöndeki en yakın sınıra kadar uzatılmış gösterir.
+3. Uzatmayı uygulamak için **tıklayın**.
+
+Komut, her uzatmanın ardından aktif kalır, böylece birden fazla çizgiyi sırayla uzatabilirsiniz. Çıkmak için **Escape** tuşuna basın.
+
+```
+  Önce:                      Sonra:
+
+  ──────           |           ──────────────|
+  (kısa çizgi)     (sınır)  (sınıra uzatıldı)
+```
 
 ## Uç Nokta Seçim Mantığı
 
-İmleç hangi çizgi ucunun uzatılacağını belirler:
+Komut, imlecin hangi uca daha yakın olduğuna bakar:
 
-- İmleç **bitiş noktasına** daha yakınsa — bitiş noktasından uzatılır.
-- İmleç **başlangıç noktasına** daha yakınsa — başlangıç noktasından uzatılır.
-- Çizgi, seçilen uçtan **aynı yönde** ilk sınır nesnesine kadar uzatılır.
+- İmleç **bitiş noktasına daha yakınsa** → uç, çizgi yönü boyunca ileri uzatılır.
+- İmleç **başlangıç noktasına daha yakınsa** → başlangıç, geriye doğru uzatılır (zıt yönde).
 
-## Sınır Olarak Yok Sayılan Nesneler
+Seçilen uç noktadan çizgi yönü boyunca bir ışın yayılır ve bu ışın boyunca herhangi bir başka nesneyle (çizginin kendisi ve yok sayılan türler hariç) oluşan **en yakın kesişim** yeni uç nokta olur.
 
-Bazı nesne türleri, uzatma yolunu kesseler bile **sınır sayılmaz**:
+O yönde kesişim bulunamazsa, önizleme görünmez ve tıklamak hiçbir şey yapmaz.
 
-| Nesne türü | Sınır mı? |
-|------------|-----------|
-| Çizgi | Evet |
-| Çoklu çizgi | Evet |
-| Daire | Evet |
-| Yay | Evet |
-| Elips | Evet |
-| Metin / Mtext | **Hayır** |
-| Gösterge (Multileader) | **Hayır** |
-| Spline | **Hayır** |
+## Sınır Dışlamaları
+
+Aşağıdaki nesne türleri sınır olarak yok sayılır — bir çizgi bunlarla karşılaşmak için uzanmaz:
+
+- Metin / Mtext
+- Çoklu Gösterge
+- Spline
+
+Diğer tüm türler (Çizgi, Yay, Daire, Elips, Çoklu Çizgi, Ölçü) geçerli sınır olarak işlev görür.
 
 ## Klavye Referansı
 
 | Tuş | İşlem |
-|-----|-------|
-| `Escape` / `Enter` | Extend komutundan çıkar |
+|-----|--------|
+| `Escape` | Extend modundan çıkar |
 
 ## Desteklenen Nesneler
 
-| Rol | Desteklenen tür |
-|-----|----------------|
-| **Uzatılan nesne** | Yalnızca **Çizgi** |
-| **Sınır** | Metin, Mtext, Multileader ve Spline dışındaki herhangi bir tür |
+| Nesne | Uzatılabilir mi? |
+|--------|----------------|
+| Çizgi | Evet |
+| Yay, Daire, Elips | Hayır |
+| Çoklu Çizgi / Dikdörtgen | Hayır |
+| Metin, Spline, Ölçü, Gösterge | Hayır |
 
 ## Extend - Trim Karşılaştırması
 
 | | Extend | Trim |
 |---|--------|------|
-| Ne yapar | Çizgiyi sınıra uzatır | Çizgi segmentini kaldırır |
-| Etkileşim | Uca götür + tıkla | Segmente götür + tıkla |
-| Sınır | Metin/Spline dışındaki herhangi bir tür | Herhangi bir nesne türü |
-| Üzerinde çalışır | Yalnızca çizgiler | Yalnızca çizgiler |
+| Ne yapar | Çizgi ucunu sınıra uzatır | Çizginin bir segmentini kaldırır |
+| Tetikleyici | Uzatılacak ucun yakınına gel | Kesilecek segmentin üzerine gel |
+| Sonuç | Çizgi ucu dışa doğru hareket eder | Çizgi bölünür veya kısalır |
+| Her ikisi | Yalnızca çizgiler | Yalnızca çizgiler |

@@ -1,68 +1,69 @@
 ---
 sidebar_position: 50
-title: Export Komutu — KulmanLab CAD'de Çizimi DXF veya JSON Olarak İndir
-description: Export komutu, DXF veya JSON format seçimiyle Dışa Aktarma Yöneticisini açar. DXF dosyaları herhangi bir CAD uygulamasında açılır ancak ölçüler ve göstergeler dahil edilmez. JSON tüm çizim durumunu kaydeder.
-keywords: [CAD export komutu, DXF dosyası indir tarayıcı, çizimi DXF olarak kaydet, çevrimiçi CAD DXF dışa aktar, kulmanlab]
+title: Export — KulmanLab CAD'de Çizimleri DXF veya JSON Olarak İndir
+description: Export komutu, mevcut çizimi DXF (uyumluluk) veya JSON (yerel format) dosyası olarak indirir. JSON, ölçüler ve göstergeler dahil tüm nesneleri korur; DXF, diğer CAD araçlarıyla uyumludur.
+keywords: [DXF dışa aktar, CAD dosyası dışa aktar, DXF tarayıcıda indir, DXF çevrimiçi kaydet, JSON CAD dışa aktar, KulmanLab export, CAD dosyası indirme, DXF dışa aktarma, çizimi dosyaya kaydet, DXF indirme]
 ---
 
 # Export
 
-`export` komutu, çizimi cihazınıza indirmek için format seçimi yapabileceğiniz özel pencere olan **Dışa Aktarma Yöneticisini** açar.
+**Export** komutu, mevcut çizimi dosya sisteminize indirir. İki format mevcuttur: diğer CAD araçlarıyla uyumluluk için **DXF** ve KulmanLab CAD içinde tam doğruluklu kaydetme için **JSON**.
 
-## Dışa Aktarma Yöneticisini Açma
+## Nasıl Dışa Aktarılır
 
-Terminale `export` yazın veya araç çubuğundaki **Export** düğmesine basın. Dışa Aktarma Yöneticisi iki format kartıyla açılır.
+1. Dosya panelindeki araç çubuğunda **Export** düğmesine (indirme simgesi) tıklayın.
+2. **Dışa Aktarma Yöneticisi** açılır penceresi açılır.
+3. Format seçmek için bir format kartına tıklayın — **JSON** veya **DXF**.
+4. **Export** düğmesine tıklayın. Dosya otomatik olarak varsayılan indirmeler klasörünüze indirilir.
 
-## Adım Adım İşlem
+## Format Seçimi
 
-1. **Format kartını tıklayın** — JSON veya DXF.
-2. Kart vurgulanır — seçilen formatı gösterir.
-3. **Export düğmesini tıklayın** — dosya oluşturulur ve indirilir.
+| Format | Uzantı | En iyi | Sınırlamalar |
+|--------|-----------|----------|-------------|
+| **JSON** *(yerel)* | `.json` | KulmanLab CAD'de yeniden açmak için çalışmayı kaydetme | Diğer CAD araçlarıyla uyumlu değil |
+| **DXF** | `.dxf` | FreeCAD, LibreCAD, vb. ile paylaşma | Ölçüler ve göstergeler dışa aktarılmaz |
 
-## Format Karşılaştırması
+**JSON ne zaman kullanılır:** çalışmanızın tam bir kopyasını kaydetmek istediğinizde. JSON, KulmanLab'ın yerel formatıdır ve ölçüler, göstergeler ve tüm katman verileri dahil her nesneyi tam olarak korur.
 
-| | JSON | DXF |
-|---|------|-----|
-| **Ölçüler** | Kaydedilir | **Kaydedilmez** |
-| **Göstergeler (Leader)** | Kaydedilir | **Kaydedilmez** |
-| **Geometri** | Kaydedilir | Kaydedilir (LINE, CIRCLE, ARC, ELLIPSE, LWPOLYLINE, SPLINE, TEXT/MTEXT) |
-| **Katmanlar** | Kaydedilir | Kaydedilir |
-| **Uyumluluk** | Yalnızca KulmanLab | Herhangi bir CAD programı |
-| **Tarayıcılar arası transfer** | Evet (Import ile) | Evet |
+**DXF ne zaman kullanılır:** çizimi başka bir CAD uygulaması kullanan birine teslim etmeniz gerektiğinde. Dışa aktarılan dosya AC1012 DXF formatını kullanır ve DXF uyumlu araçların çoğunda açılabilir.
 
-## DXF'de Neler Kaydedilir
+## Format Başına Dışa Aktarılanlar
 
-Format DXF AC1012. Kaydedilen nesneler:
+### JSON dışa aktarımı
 
-- LINE, CIRCLE, ARC, ELLIPSE, LWPOLYLINE, SPLINE
-- TEXT / MTEXT
-- Özellikler: renk, katman, çizgi türü, çizgi türü ölçeği, kalınlık
-- Katmanlar: adlar, renk, çizgi türü, dondurma/kilitleme durumu
+Tüm nesne türleri dahildir:
 
-DXF'de **kaydedilmeyenler**:
-- Ölçüler (DIMENSION) — JSON kullanın
-- Göstergeler (MLEADER) — JSON kullanın
+- Çizgiler, daireler, yaylar, elipsler, çoklu çizgiler, spline'lar, metinler
+- Ölçüler (doğrusal, hizalı, zincirleme, yarıçap, çap)
+- Çoklu göstergeler
+- Katman tanımları ve çizgi türü tabloları
 
-## JSON'da Neler Kaydedilir
+### DXF dışa aktarımı
 
-JSON **tüm çizim durumunu** kaydeder: tüm geometri, tüm ölçüler, tüm göstergeler, tüm katmanlar ve durumları. Ölçüleri ve göstergeleri kaydetmek için tek format budur.
+Yalnızca geometri nesneleri dahildir:
 
-## Dosya Adı
+- Çizgiler, daireler, yaylar, elipsler, çoklu çizgiler (`LWPOLYLINE` olarak dışa aktarılır), spline'lar, metinler
+- Katman tanımları ve çizgi türü tabloları
 
-İndirilen dosya `kulman-<zaman_damgası>.<uzantı>` olarak adlandırılır, örneğin:
-- `kulman-2026-01-15_14:32:07.json`
-- `kulman-2026-01-15_14:32:07.dxf`
+**DXF'e dahil edilmeyenler:** ölçü nesneleri ve çoklu göstergeler. Bunlar, standart DXF'de sadakatle temsil edilemeyen KulmanLab'a özgü veri yapıları kullanır. Çiziminizde ek açıklamalar varsa, bunları görsel olarak yakalamak için JSON veya [Print](./print) kullanın.
 
-## Export - Print Karşılaştırması
+## Dışa Aktarılan Dosya Adı
 
-| | Export | Print |
-|---|--------|-------|
-| Format | DXF veya JSON (vektör verisi) | PNG, JPEG, WebP veya PDF (raster görüntü) |
-| Sonuç düzenlenebilir mi | Evet (CAD programlarında) | Hayır |
-| En iyi | Programlar arası veri alışverişi | Belgeleme, müşteriye teslim |
+İndirilen dosya, mevcut çizim dosyasından sonra adlandırılır (örneğin `myplan_May22_14:30:00.json`). Uzantı seçilen formatla eşleşecek şekilde değişir.
+
+## Export - Print Farkı
+
+| Özellik | Export | Print |
+|---------|--------|-------|
+| Çıktı | Vektör kaynak dosyası (.dxf / .json) | Raster görüntü (.png / .jpeg / .webp / .pdf) |
+| Diğer araçlarda düzenlenebilir | Evet (DXF) | Hayır |
+| Katmanları ve çizgi türlerini korur | Evet | Hayır (düz olarak işlenir) |
+| Ölçüleri ve göstergeleri yakalar | Yalnızca JSON | Evet |
+
+Düzenlenebilir bir dosyaya ihtiyacınız olduğunda **Export** kullanın. Görsel bir anlık görüntüye ihtiyacınız olduğunda [Print](./print) kullanın.
 
 ## İlgili Komutlar
 
 - [Import](./import) — DXF veya JSON dosyası açar
-- [Print](./print) — resim veya PDF olarak kaydeder
-- [Files](./files) — tarayıcıda kaydedilen çizimleri yönetir
+- [Print](./print) — tuvali PNG, JPEG, WebP veya PDF görüntüsü olarak dışa aktarır
+- [Files](./files) — tarayıcı deposuna kaydedilmiş çizimlere göz atar

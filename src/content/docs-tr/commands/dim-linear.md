@@ -1,75 +1,83 @@
 ---
 sidebar_position: 26
 title: Dimension Linear Komutu — KulmanLab CAD'de Yatay ve Dikey Ölçüler
-description: Dimension Linear komutu, iki nokta arasında yatay veya dikey ölçü yerleştirir. Yön otomatik belirlenir veya H/V tuşlarıyla sabitlenir. Dim Continue ile zincir ölçüleri destekler.
-keywords: [CAD dimension linear komutu, yatay ölçü CAD, dikey ölçü CAD, doğrusal ölçü CAD, DXF DIMENSION, kulmanlab]
+description: Dimension Linear komutu, iki nokta arasındaki yatay veya dikey mesafeyi ölçer. Ölçü çizgisi her zaman eksen hizalıdır — yönü kilitlemek için H veya V tuşuna basın ya da imleç konumunun otomatik belirlemesine izin verin. DXF'de DIMENSION nesneleri olarak tam round-trip.
+keywords: [CAD dimension linear, yatay ölçü CAD, dikey ölçü CAD, dimlinear, H V yönelim kilidi, ölçü kaydırması, kulmanlab]
 ---
 
 # Dimension Linear
 
-`dim linear` komutu, iki yakalama noktası arasında yatay veya dikey ölçü yerleştirir.
+`dimlinear` komutu, iki uzatma çizgisi başlangıç noktası arasında yatay veya dikey ölçü yerleştirir. Ölçü çizgisi her zaman tam yatay veya tam dikey uzanır — keyfi bir açıda yerleştirilemez. Köşegen bir çizgiye paralel ölçü gerektiğinde [Dimension Aligned](./dim-aligned) kullanın.
 
-## Doğrusal Ölçü Anatomisi
+## Doğrusal Ölçünün Anatomisi
 
 ```
-       ← metin →
-  ┌────────────────┐  ← ölçü çizgisi
-  |                |
-  ●                ●  ← yakalama noktaları
+  |←————— 5.00 —————→|
+  |                   |
+  ●  (uzatma çizgisi 1)     ●  (uzatma çizgisi 2)
+  p1                  p2
 ```
 
-- **Yakalama noktaları**: tıklanan iki geometri noktası.
-- **Uzatma çizgileri**: yakalama noktalarından ölçü çizgisine.
-- **Ölçü çizgisi**: yatay veya dikey, ok ve değer metniyle.
+- **Uzatma çizgileri** — ölçülen her noktadan ölçü çizgisine dik olarak iner.
+- **Ölçü çizgisi** — yatay (X mesafesini ölçer) veya dikey (Y mesafesini ölçer).
+- **Değer** — seçilen eksen boyunca yansıtılan mesafe; gerçek noktadan noktaya mesafe değil.
 
-## Doğrusal Ölçü Nasıl Eklenir
+## Doğrusal Ölçü Yerleştirme
 
-1. Terminale `dim linear` yazın veya **Dim Linear** düğmesine basın.
-2. **Birinci yakalama noktasını tıklayın** (veya `X,Y` + Enter girin).
-3. **İkinci yakalama noktasını tıklayın** (veya koordinatları girin).
-4. **Ölçü çizgisi yerleştirme konumunu tıklayın** — geometriden uzaklığı ayarlamak için sürükleyin.
+1. Terminale `dimlinear` yazın veya araç çubuğundaki **Dimension Linear** düğmesine tıklayın.
+2. **Birinci uzatma çizgisi başlangıç noktasını tıklayın** (p1) veya tam koordinat için `X,Y` yazıp **Enter** tuşuna basın.
+3. **İkinci uzatma çizgisi başlangıç noktasını tıklayın** (p2). Koordinat girişi burada da çalışır.
+4. **İmleci hareket ettirerek** ölçü çizgisini konumlandırın. Yönelim, imleç konumundan otomatik olarak algılanır.
+5. **Tıklayın** — ya da kesin yerleştirme için kaydırma mesafesi yazıp **Enter** tuşuna basın.
 
-## Otomatik Yön Belirleme
+## Otomatik Yönelim Algılama
 
-| Noktalara göre imleç konumu | Yönelim |
-|-----------------------------|---------|
-| İmleç her iki noktanın üstünde veya altında | Yatay (ΔX ölçer) |
-| İmleç her iki noktanın solunda veya sağında | Dikey (ΔY ölçer) |
+Hiçbir yönelim zorlanmadığında, komut imleç konumunu ölçülen iki noktaya göre okur:
 
-## H/V Tuşlarıyla Yönü Sabitleme
+| İmleç konumu | Algılanan yönelim | Ölçülen |
+|-----------------|---------------------|-----------------|
+| Noktaların üstünde veya altında | Yatay | p1 ile p2 arasındaki Δ X |
+| Noktaların solunda veya sağında | Dikey | p1 ile p2 arasındaki Δ Y |
 
-Birinci yakalama noktasını ayarladıktan sonra:
-- Zorunlu yatay ölçü için **H** tuşuna basın.
-- Zorunlu dikey ölçü için **V** tuşuna basın.
+Yerleştirme aşamasında yatay kilitlemek için **H**, dikey kilitlemek için **V** tuşuna basın. Kilitlendikten sonra imleci hareket ettirseniz bile yönelim değişmez.
 
-## Uzaklık Girişi
+## Yazılan Kaydırma Mesafesi
 
-Her iki yakalama noktasını ayarladıktan sonra, tıklamak yerine sayısal uzaklık değeri (geometriden ölçü çizgisine olan mesafe) girin ve Enter tuşuna basın.
+Yerleştirme sırasında bir sayı yazarak ölçü çizgisini ölçülen noktalardan tam mesafeye sabitleyebilirsiniz:
+
+| Tuş | İşlem |
+|-----|--------|
+| `0`–`9`, `.` | Kaydırma mesafesine rakam ekler |
+| `Backspace` | Son girilen karakteri siler |
+| `Enter` / `Boşluk` | Yazılan mesafeye yerleştirir |
+
+İmleç tarafı (yatay için üst/alt, dikey için sol/sağ) işareti belirler — ölçü çizgisi imlecin şu anda bulunduğu tarafta görünür.
 
 ## Klavye Referansı
 
 | Tuş | İşlem |
-|-----|-------|
-| `0`–`9`, `.`, `-` | X koordinatı veya uzaklık girişini başlatır |
-| `,` | X'i kilitler ve Y girişine geçer |
-| `H` | Yatay yönü sabitler |
-| `V` | Dikey yönü sabitler |
+|-----|--------|
+| `0`–`9`, `.`, `-` | X koordinatı girişini başlatır (p1/p2 aşamaları) veya kaydırma mesafesi (yerleştirme aşaması) |
+| `,` | X'i kilitler ve Y girişine geçer (p1/p2 aşamaları) |
+| `H` | Yatay yönelimi kilitler (yalnızca yerleştirme aşamasında) |
+| `V` | Dikey yönelimi kilitler (yalnızca yerleştirme aşamasında) |
 | `Backspace` | Son girilen karakteri siler |
-| `Enter` | Koordinatı onaylar veya uzaklığı uygular |
-| `Escape` | İptal eder ve sıfırlar |
+| `Enter` / `Boşluk` | Yazılan koordinatı veya kaydırmayı onaylar |
+| `Escape` | İptal eder |
 
-## Zincir Ölçüler
+## Dimension Linear - Dimension Aligned Karşılaştırması
 
-Bu ölçünün uç noktasından ölçüm zincirine devam etmek için [Dim Continue](./dim-continue) kullanın.
+| | Dimension Linear | Dimension Aligned |
+|---|-----------------|------------------|
+| Eksen | Her zaman Y veya D | Ölçülen çizgiye paralel |
+| Ölçtüğü | Yalnızca X veya Y bileşeni | Gerçek Öklid mesafesi |
+| H/V tuşları | Evet — yönelimi kilitler | Hayır — her zaman p1→p2'yi takip eder |
+| En iyi | Dikdörtgensel yerleşimler, kat planları | Köşegen özellikler, açılı kesimler |
 
-## Dim Linear - Dim Aligned Karşılaştırması
+## Zincirleme Ölçüler
 
-| | Dim Linear | Dim Aligned |
-|---|------------|-------------|
-| Ne ölçer | Yatay veya dikey bileşen | Noktalar arası düz mesafe |
-| Ölçü çizgisi açısı | Her zaman 0° veya 90° | Noktalar arası vektöre paralel |
-| En iyi | Dikdörtgen geometri | Eğimli nesneler, pahlar |
+Son uzatma çizgisinden devam eden ölçüler eklemek için bu ölçüyü yerleştirdikten hemen sonra [Dimension Continue](./dim-continue) kullanın.
 
-## DXF — DIMENSION Nesnesi
+## DXF — DIMENSION nesnesi
 
-Doğrusal ölçüler DXF'de "linear" türüyle `DIMENSION` nesnesi olarak saklanır. DXF uyumlu programlarda tam round-trip.
+Doğrusal ölçüler, `rotationDeg` değeri `0` (yatay) veya `90` (dikey) olarak ayarlanmış `DIMENSION` nesneleri olarak kaydedilir. Uzatma çizgisi başlangıç noktaları, ölçü çizgisi konumu, metin konumu, ölçülen değer, ok stili, metin yüksekliği ve tüm görüntüleme bayrakları kayıpsız round-trip yapar.

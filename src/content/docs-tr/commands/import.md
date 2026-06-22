@@ -1,65 +1,73 @@
 ---
 sidebar_position: 46
-title: Import Komutu — KulmanLab CAD'de DXF veya JSON Dosyası Aç
-description: Import komutu, standart dosya seçimi iletişim kutusunu açar veya sürüklenen dosyayı kabul eder. Geçerli çizim içe aktarılanla değiştirilir. Dosya zaman damgası eklenerek IndexedDB'ye kaydedilir.
-keywords: [CAD import komutu, DXF dosyası aç tarayıcı, DXF içe aktar çevrimiçi, CAD dosyası aç, kulmanlab]
+title: Import — KulmanLab CAD'de DXF veya JSON Dosyası Aç
+description: DXF veya KulmanLab JSON dosyalarını KulmanLab CAD'de açmak için Import komutunu kullanın. Çizgiler, daireler, yaylar, çoklu çizgiler, spline'lar, metinler, ölçüler ve göstergeleri destekler.
+keywords: [DXF dosyasını içe aktar, tarayıcıda DXF aç, çevrimiçi CAD dosyası içe aktar, DXF dosyası aç, DXF görüntüleyici tarayıcı, JSON CAD içe aktar, KulmanLab import, ücretsiz CAD DXF görüntüleyici, çizim yükle, DXF tarayıcıya]
 ---
 
 # Import
 
-`import` komutu, cihazınızdan bir çizim dosyası açar ve düzenleyiciye yükler. DXF ve KulmanLab CAD'in özel JSON formatı desteklenir.
+**Import** komutu, yerel dosya sisteminizden mevcut bir çizimi KulmanLab CAD'e yükler. Hem standart **DXF** formatı hem de KulmanLab'ın kendi **JSON** formatı desteklenir.
 
-## İki İçe Aktarma Yöntemi
+## Dosya Nasıl İçe Aktarılır
 
-- **Araç çubuğu düğmesi / Terminal**: **Import**'a tıklayın veya `import` yazın — standart dosya seçimi iletişim kutusu açılır.
-- **Sürükle ve bırak**: `.dxf` veya `.json` dosyasını doğrudan tuvale sürükleyin — dosya hemen yüklenir.
+1. Ekranın üstündeki Dosya panelindeki araç çubuğunda **Import** düğmesine (klasör simgesi) tıklayın.
+2. Tarayıcınızın dosya seçici penceresi açılır. Çizim dosyanıza gidin ve seçin.
+3. Çizim hemen tuvale yüklenir. Görünüm penceresi tüm nesnelere otomatik olarak sığdırılır.
 
-## DXF'den Ne İçe Aktarılır
+Alternatif olarak, bir dosyayı doğrudan tuvale sürükleyip bırakabilirsiniz.
 
-| DXF Nesnesi | Kod | İçe aktarılır mı? |
-|------------|-----|------------------|
-| Çizgi | `LINE` | Evet |
-| Çoklu çizgi | `LWPOLYLINE` | Evet |
-| Daire | `CIRCLE` | Evet |
-| Yay | `ARC` | Evet |
-| Elips | `ELLIPSE` | Evet |
-| Spline | `SPLINE` | Evet |
-| Metin | `TEXT` / `MTEXT` | Evet |
-| Ölçüler | `DIMENSION` | Evet |
-| Gösterge | `MLEADER` | Evet |
-| 3B cisimler, tarama, bloklar | Çeşitli | Hayır — yok sayılır |
+## Desteklenen Dosya Formatları
+
+| Format | Uzantı | Ne zaman kullanılır |
+|--------|-----------|-------------|
+| **DXF** | `.dxf` | FreeCAD, LibreCAD veya diğer CAD araçlarından çizimler |
+| **JSON** *(yerel)* | `.json` | KulmanLab CAD'den daha önce kaydedilen çizimler — tam doğruluk |
+
+## DXF'den Neler İçe Aktarılır
+
+KulmanLab aşağıdaki DXF nesne türlerini ayrıştırır:
+
+| Nesne türü | DXF kodu | Notlar |
+|-------------|----------|-------|
+| Çizgi | `LINE` | |
+| Daire | `CIRCLE` | |
+| Yay | `ARC` | |
+| Elips | `ELLIPSE` | |
+| Çoklu çizgi | `LWPOLYLINE` | |
+| Spline | `SPLINE` | |
+| Metin | `TEXT`, `MTEXT` | |
+| Ölçü | `DIMENSION` | |
+| Çoklu Gösterge | `MULTILEADER` | |
+
+Katman tanımları ve çizgi türü tabloları da mevcutsa DXF dosyasından içe aktarılır.
+
+Desteklenmeyen DXF türlerini kullanan nesneler sessizce atlanır — çizimin geri kalanı yine de yüklenir.
 
 ## Dosya Adlandırma ve Depolama
 
-İçe aktarma sırasında dosya adına **otomatik olarak zaman damgası eklenir** — aynı dosya önceki sürümlerin üzerine yazmadan birden fazla kez içe aktarılabilir:
+Bir dosyayı içe aktardığınızda, dosya adına zaman damgası eklenir (örneğin `myplan_May22_14:30:00.dxf`). Bu, [Son Dosyalar](./files) bölümünde aynı çizimin birden fazla sürümünü ad çakışması olmadan saklamanızı sağlar. Dosya adı zaten bir zaman damgası içeriyorsa, olduğu gibi kullanılır.
 
-```
-schematic.dxf → schematic_2026-01-15_14:32:07
-```
-
-Dosya tarayıcının **IndexedDB**'sine kaydedilir — bu cihaz ve tarayıcıda yerel olarak.
+Çizim içe aktarma sonrasında tarayıcı deposuna (IndexedDB) otomatik olarak kaydedilir, böylece [Files](./files) panelinde görünür ve sayfa yeniden yüklemelerinde de kaybolmaz.
 
 ## Geçerli Çizime Ne Olur
 
-Geçerli çizim **değiştirilir** — birleştirilmez. Çalışmanızı korumak için içe aktarmadan önce geçerli çizimi [Export](./export) ile kaydedin.
+İçe aktarma, geçerli tuvali değiştirir. Birleştirme veya ekleme yoktur. Kaydedilmemiş değişiklikleriniz varsa, önce geçerli çizimi [dışa aktarın](./export).
 
 ## Başlangıçta
 
-KulmanLab CAD açıldığında IndexedDB'den **en son kaydedilen çizim** otomatik olarak yüklenir. Ek bir işlem gerekmez.
+KulmanLab, sayfa yüklendiğinde en son düzenlenen dosyayı otomatik olarak yeniden açar. Kayıtlı dosya yoksa varsayılan örnek çizim yüklenir.
 
 ## Sorun Giderme
 
-| Sorun | Çözüm |
-|-------|-------|
-| Dosya açılmıyor | Dosyanın `.dxf` veya `.json` olduğunu ve bozulmadığını kontrol edin |
-| Bazı nesneler eksik | Desteklenmeyebilirler (3B cisimler, bloklar) — normal davranış |
-| Çizim boş görünüyor | [Fit](./fit) deneyin — nesneler görünür alanın dışında olabilir |
-| Büyük dosya hatası | Çok büyük DXF dosyaları (1000+ nesne) birkaç saniye sürebilir |
+| Sorun | Olası neden | Çözüm |
+|---------|-------------|-----|
+| İçe aktarma sonrası tuval boş | DXF nesneleri desteklenmeyen türleri kullanıyor (örn. HATCH, INSERT) | Nesneler atlandı — terminaldeki "nesne bulunamadı" mesajını kontrol edin |
+| Import düğmesi hiçbir şey yapmıyor | Tarayıcı dosya seçiciyi engelledi | Düğmeye bir kez daha tıklayın; bazı tarayıcılar yeni bir kullanıcı hareketi gerektirir |
+| Ölçüler yanlış görünüyor | DXF, standart dışı ölçü geometrisi yazan bir araçtan | Kaynak uygulamadan güncel DXF sürümü kullanarak yeniden dışa aktarın |
 
-## Import - Files Karşılaştırması
+## İlgili Komutlar
 
-| | Import | Files |
-|---|--------|-------|
-| Kaynak | Cihazdan dosya | Tarayıcıda önceden kaydedilen çizimler |
-| Nereye bakılır | Dosya sistemi | Tarayıcı IndexedDB deposu |
-| En iyi | Harici DXF dosyalarını açma | Önceki çalışmayı geri yükleme |
+- [Export](./export) — mevcut çizimi DXF veya JSON olarak indirir
+- [Files](./files) — tarayıcıda kaydedilen çizimlere göz atar ve geri yükler
+- [New File](./new-file) — boş çizim başlatır

@@ -1,53 +1,63 @@
 ---
 sidebar_position: 18
-title: Offset Komutu — KulmanLab CAD'de Nesnelerin Paralel Kopyalarını Oluştur
-description: Offset komutu, bir çizgi, çoklu çizgi, daire, yay veya elipsin belirli bir mesafede paralel kopyasını oluşturur. Mesafe tıklamalar arasında korunur. Daireler ve yaylar için sıfır yarıçap hataya karşı korunur.
-keywords: [CAD offset komutu, paralel çizgi kopyası CAD, nesneleri ofsetle CAD, ofset mesafesi CAD, kulmanlab]
+title: Offset Komutu — KulmanLab CAD'de Sabit Mesafede Paralel Kopya Oluştur
+description: Offset komutu, bir Çizgi, Daire, Yay, Elips veya Çoklu Çizginin yazılan mesafede paralel kopyasını oluşturur. Mesafe bir kez girilir ve birden fazla ofset için yeniden kullanılır. Taraf tıklaması kopyanın hangi yönde görüneceğini belirler. Beş nesne türü desteklenir.
+keywords: [CAD offset komutu, paralel kopya CAD, çizgiyi ofsetle CAD, daireyi ofsetle CAD, çoklu çizgiyi ofsetle CAD, eşmerkezli ofset, kulmanlab]
 ---
 
 # Offset
 
-`offset` komutu, bir nesnenin eşit dik mesafede paralel kopyasını oluşturur. Önce mesafe girilir, ardından nesne tıklanır ve ofset tarafı belirtilir.
+`offset` komutu, sabit dik mesafede bir nesnenin paralel kopyasını oluşturur. Mesafeyi bir kez yazarsınız, ardından nesneleri tıklayıp taraf seçersiniz — komut, birden fazla nesneyi tek seferinde ofsete almanızı sağlamak için aynı mesafede hazır bekler.
 
-## Nasıl Kullanılır
+Desteklenen nesne türleri: **Çizgi, Daire, Yay, Elips, Çoklu Çizgi** (Dikdörtgenler dahil).
 
-1. Terminale `offset` yazın veya araç çubuğundaki **Offset** düğmesine basın.
-2. **Ofset mesafesini girin** ve **Enter** tuşuna basın.
-3. Ofseti yapılacak **nesneye tıklayın**.
-4. **Tarafı tıklayın** — kopyanın nesnenin hangi tarafına yerleştirileceği.
-5. Komut aktif kalır — daha fazla nesneye tıklayın veya çıkmak için **Escape** tuşuna basın.
+## Offset Kullanımı
 
-## Nesne Başına Davranış
+1. Terminale `offset` yazın veya araç çubuğundaki **Offset** düğmesine tıklayın.
+2. **Ofset mesafesini yazın** ve **Enter** veya **Boşluk** tuşuna basın.
+3. Ofset alınacak **nesneyi tıklayın** — nesne desteklenen bir tür değilse hata mesajı görünür ve farklı bir nesne tıklayabilirsiniz.
+4. **İmleci** kopyanın görünmesi gereken tarafa hareket ettirin — canlı önizleme eşlik eder.
+5. Ofset kopyasını yerleştirmek için **tıklayın**.
 
-| Nesne | Ofset sonucu |
-|-------|-------------|
-| **Çizgi** | Dik mesafede eşit uzunlukta paralel çizgi |
-| **Çoklu çizgi** | Paralel çoklu çizgi — her segment ofsete kayar, köşeler otomatik kesişir |
-| **Daire** | Daha büyük veya daha küçük yarıçaplı eşmerkezli daire |
-| **Yay** | Aynı açısal kapsama sahip eşmerkezli yay |
-| **Elips** | Değiştirilmiş eksen oranıyla paralel elips |
+Her yerleştirmeden sonra komut, sonraki ofset için hazır olmak üzere **aynı mesafede** adım 3'e döner. Mesafe girişi adımına sıfırlamak için **Escape** tuşuna basın.
 
-## Sıfır Yarıçap Koruması
+```
+  Mesafe: 10
 
-**Daireler** ve **Yaylar** için içe ofset yaparken: mesafe yarıçapı aşıyorsa (sonuç negatif yarıçap olacaksa), komut işlemi **yok sayar** ve nesne oluşturmaz.
+  ─────────────────    ← orijinal çizgi
+  ─────────────────    ← ofset kopyası (10 birim aşağıda)
+```
 
-## Mesafe Korunması
+## Nesne Başına Ofset Davranışı
 
-İlk ofset için mesafeyi girdikten sonra **korunur**. Nesneye sonraki tıklama aynı mesafeyi kullanır — tekrar girmenize gerek yoktur. Mesafeyi değiştirmek için yeni değer girin.
+| Nesne | Ofset nasıl hesaplanır |
+|--------|---------------------------|
+| **Çizgi** | Orijinal yöne dik olarak kaydırılmış paralel çizgi |
+| **Daire** | Eşmerkezli daire; dışına tıkla → daha büyük yarıçap, içine tıkla → daha küçük yarıçap |
+| **Yay** | Yeni yarıçapta eşmerkezli yay; aynı açısal kapsam korunur |
+| **Elips** | Her iki yarı eksen aynı mesafede artırılır veya azaltılır |
+| **Çoklu Çizgi** | Her segment bağımsız olarak ofsete alınır; komşu ofset segmentler köşelerde gönye yapılır |
+
+**Daire**, **Yay** ve **Elips** için: içe ofset herhangi bir yarıçapı veya yarı ekseni sıfıra veya altına düşürürse, ofset uygulanmaz.
 
 ## Klavye Referansı
 
 | Tuş | İşlem |
-|-----|-------|
-| `0`–`9`, `.` | Mesafeye rakam ekler |
-| `Backspace` | Son karakteri siler |
-| `Enter` | Mesafeyi onaylar |
-| `Escape` | İptal eder ve çıkar |
+|-----|--------|
+| `0`–`9`, `.` | Mesafe değerine rakam ekler |
+| `Backspace` | Son girilen karakteri siler |
+| `Enter` / `Boşluk` | Yazılan mesafeyi onaylar ve nesne seçimine geçer |
+| `Escape` | Mesafe girişi adımına sıfırlar |
+
+## İş Akışı Notu
+
+**Escape** tuşuna basana kadar mesafe ayarlanmış olarak kalır. Bu, birçok nesneyi aynı aralıkta ofsete almayı verimli kılar — mesafeyi bir kez yazın, ardından her nesne için tıklayıp taraf seçin.
 
 ## Offset - Copy Karşılaştırması
 
 | | Offset | Copy |
 |---|--------|------|
-| Kopya konumu | Kesin mesafede paralel | Vektöre göre kaydırılmış |
-| Desteklenen türler | Line, Polyline, Circle, Arc, Ellipse | Tüm türler |
-| Kopya geometrisi | Farklı olabilir (daireler/elipsler için) | Orijinalle özdeş |
+| Yer değiştirme | Nesnenin geometrisine dik | Keyfi vektör (temel → hedef) |
+| Desteklenen nesneler | Çizgi, Daire, Yay, Elips, Çoklu Çizgi | Tüm nesne türleri |
+| Mesafe girişi | Nesneyi seçmeden önce yazılır | Seçimden sonra yazılır veya tıklanır |
+| En iyi | Paralel çizgiler, eşmerkezli daireler, içe/dışa yollar | Kopyaları keyfi konumlara yerleştirme |

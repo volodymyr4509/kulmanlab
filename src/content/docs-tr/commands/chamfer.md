@@ -1,61 +1,75 @@
 ---
 sidebar_position: 20
-title: Chamfer Komutu — KulmanLab CAD'de Çizgiler Arasında Düz Pah Kes
-description: Chamfer komutu, iki çizgi veya bitişik çoklu çizgi segmentleri arasındaki köşede düz köşegen pah kesar. İki köşe mesafesi girin, ardından korunacak tarafları tıklayın.
-keywords: [CAD chamfer komutu, çizgiler arası pah CAD, köşe kes CAD, pah mesafesi CAD, kulmanlab]
+title: Chamfer Komutu — KulmanLab CAD'de İki Çizgi Arasına Düz Pah Kes
+description: Chamfer komutu, iki Çizgi veya Çoklu Çizgi nesnesini düz köşegen bir kesimle birleştirir. İki mesafe belirtirsiniz — her nesne boyunca birer tane — komut her ikisini de bu noktalara kadar kırpar ve birleştirici bir çizgi ekler.
+keywords: [CAD chamfer komutu, chamfer çizgi CAD, köşegen köşe kesimi, pah kes CAD, kulmanlab]
 ---
 
 # Chamfer
 
-`chamfer` komutu, iki çizgi veya bitişik [çoklu çizgi](./polyline) segmentleri arasındaki köşede düz köşegen pah keser — [Fillet](./fillet) komutuna benzer, ancak yay yerine düz çizgi eklenir.
+`chamfer` komutu, iki [Çizgi](./line) veya [Çoklu Çizgi](./polyline) nesnesi arasında düz köşegen bir pah keser. Her nesne boyunca ne kadar geri kesileceğini (d1 ve d2) belirtirsiniz; komut her iki nesneyi de bu noktalara kadar kırpar ve aralarına birleştirici bir çizgi ekler.
 
-## Nasıl Kullanılır
+Eşit mesafeler kullanmak simetrik 45° pah üretir; farklı mesafeler asimetrik bir pah oluşturur.
 
-1. Terminale `chamfer` yazın veya araç çubuğundaki **Chamfer** düğmesine basın.
-2. **Birinci pah mesafesini girin** (köşeden birinci çizgi boyunca olan mesafe) ve **Enter** tuşuna basın.
-3. **İkinci pah mesafesini girin** (köşeden ikinci çizgi boyunca olan mesafe) ve **Enter** tuşuna basın. Simetrik pah için aynı değeri girin.
-4. **Birinci çizgiyi tıklayın** — **korumak istediğiniz tarafa** daha yakın.
-5. **İkinci çizgiyi tıklayın** — aynı şekilde kalan tarafa daha yakın. Pah eklenir.
+Chamfer, **Çizgi ve Çoklu Çizgi** nesneleri üzerinde çalışır.
+
+## Chamfer Nasıl Kullanılır
+
+1. Terminale `chamfer` yazın veya araç çubuğundaki **Chamfer** düğmesine tıklayın.
+2. **Birinci pah mesafesini girin** (d1 — birinci nesne boyunca mesafe) ve **Enter** tuşuna basın.
+3. **İkinci pah mesafesini girin** (d2 — ikinci nesne boyunca mesafe) ve **Enter** tuşuna basın.
+4. **Birinci nesneyi tıklayın** — tıkladığınız kısım, herhangi bir kesişimin hangi tarafının korunduğunu belirler.
+5. **İkinci nesnenin üzerine gelin** — kesik çizgili önizleme oluşan pah kesimini gösterir. İmleci korumak istediğiniz tarafa doğru hareket ettirin.
+6. **Tıklayın** — her iki nesne kırpılır ve pah çizgisi eklenir.
+
+```
+  Önce (d1=5, d2=8):            Sonra:
+
+  ──────────────              ──────────╲
+                │                        ╲────
+                │
+```
 
 ## Taraf Seçimi
 
-[Fillet](./fillet) komutuna benzer şekilde, **önceden kesişen** çizgiler için tıklama konumu kesişimin hangi tarafının korunacağını belirler. Her çizginin kırpmadan sonra kalacak kısmını tıklayın.
+İki çizgi birbirini kestiğinde, pah tıklama konumlarıyla tanımlanan köşeye uygulanır — her nesnenin **imleçle aynı taraftaki** kısmı korunur.
 
-## Komutun Oluşturduğu
+- Birinci nesnenin bir ucuna yakın tıklayarak o yarıyı seçin.
+- İmleci ikinci nesnenin istenen yarısına getirin — kesik çizgili önizleme canlı olarak güncellenir.
 
-| | Değer |
-|---|-------|
-| **T1** | Birinci çizgi boyunca ölçüm noktası — kırpıldığı yer |
-| **T2** | İkinci çizgi boyunca ölçüm noktası — kırpıldığı yer |
-| **Düz çizgi** | T1 ve T2 arasına eklenir, birinci çizginin rengini ve katmanını devralır |
+Çoklu Çizgilerde, tıklama konumu çoklu çizginin hangi **segmentinin** katılacağını belirler; kesişim tarafındaki en yakın köşe noktası kırpılır.
 
-## Simetrik - Asimetrik Pah Karşılaştırması
+## Komutun Oluşturduğu Nesneler
 
-- **Simetrik** (her iki mesafe eşit): dik çizgiler için 45° pah.
-- **Asimetrik** (farklı mesafeler): daha keskin veya daha geniş açılı pah.
+- Birinci nesnenin kesişime en yakın uç noktası (veya çoklu çizgi köşe noktası), kesişimden birinci nesne boyunca d1 mesafesindeki **T1** noktasına taşınır.
+- İkinci nesnenin kesişime en yakın uç noktası (veya çoklu çizgi köşe noktası), kesişimden ikinci nesne boyunca d2 mesafesindeki **T2** noktasına taşınır.
+- **T1**'den **T2**'ye yeni bir Çizgi nesnesi eklenir.
 
-## 0 Mesafesi
-
-Her iki mesafe de 0 olduğunda — çizgiler keskin köşeye kadar kırpılır veya uzatılır (R=0 ile Fillet ile aynı), pah eklenmez.
+Eklenen çizgi mevcut çizgi kalınlığı, renk, katman ve çizgi türü ayarlarını devralır.
 
 ## Klavye Referansı
 
 | Tuş | İşlem |
-|-----|-------|
-| `0`–`9`, `.` | Mesafe girer |
-| `Backspace` | Son karakteri siler |
-| `Enter` | Mesafeyi onaylar |
-| `Escape` | İptal eder |
+|-----|--------|
+| `0`–`9`, `.` | Mevcut mesafe değerine rakam ekler |
+| `Backspace` | Son girilen karakteri siler |
+| `Enter` | Yazılan mesafeyi onaylar ve ilerler |
+| `Escape` | İptal eder ve sıfırlar |
 
 ## Desteklenen Nesneler
 
-- [Line](./line) — tam desteklenir
-- Bitişik [Polyline](./polyline) segmentleri — çoklu çizgi içinde pah
+| Nesne | Desteklenir |
+|--------|-----------|
+| Çizgi | Evet |
+| Çoklu Çizgi / Dikdörtgen | Evet |
+| Yay, Daire, Elips | Hayır |
+| Metin, Spline, Ölçü, Gösterge | Hayır |
 
 ## Chamfer - Fillet Karşılaştırması
 
 | | Chamfer | Fillet |
 |---|---------|--------|
-| Ne eklenir | Düz çizgi (pah) | Teğet yay |
-| Giriş | İki mesafe | Tek yarıçap |
-| En iyi | Makine pahları, kesikler | Düzgün köşeler, yuvarlamalar |
+| Köşe türü | Düz kesim | Yuvarlatılmış yay |
+| Giriş | İki mesafe (d1, d2) | Tek yarıçap |
+| Eklenen nesne | Çizgi | Yay |
+| Desteklenen nesneler | Çizgiler ve Çoklu Çizgiler | Yalnızca Çizgiler |

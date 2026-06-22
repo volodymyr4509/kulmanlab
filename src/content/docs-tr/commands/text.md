@@ -1,82 +1,117 @@
 ---
 sidebar_position: 7
-title: Text Komutu — KulmanLab CAD'de Çizime Metin Etiketleri Yerleştir
-description: Text komutu, yakalama noktasını tıklayarak ve içeriği girerek çizime MTEXT yerleştirir. Koordinat girişini, tutamaç düzenlemeyi ve içeriği düzenlemek için çift tıklamayı destekler.
-keywords: [CAD text komutu, metin etiketi CAD, MTEXT CAD, çizime metin ekle, DXF MTEXT nesnesi, kulmanlab]
+title: Text Komutu — KulmanLab CAD'de MTEXT Etiketleri Yerleştir
+description: Text komutu, çok satırlı, zengin biçimli MTEXT etiketi yerleştirir. Bir konum tıklayın, açılır düzenleyiciye yazın ve kaydetmek için Escape tuşuna basın. Düzenleyiciyi yeniden açmak için mevcut herhangi bir etikete çift tıklayın.
+keywords: [CAD text komutu, MTEXT, metin etiketi yerleştir CAD, metin ek açıklaması CAD, kalın italik CAD, çok satırlı metin CAD, kulmanlab]
 ---
 
 # Text
 
-`text` komutu, çizime metin nesnesi (**MTEXT**) yerleştirir. Yakalama noktasını tıklayın, metni girin ve onaylamak için Enter tuşuna basın.
+`text` komutu, çok satırlı metin etiketi yerleştirir. Tuvalde bir konum tıkladıktan sonra, içerik yazabileceğiniz, kalın/italik/üstü çizili uygulayabileceğiniz, yazı tiplerini ve yükseklikleri değiştirebileceğiniz ve satır sonları ekleyebileceğiniz bir açılır düzenleyici açılır. Düzenleyiciyi kaydetmek ve kapatmak için **Escape** tuşuna basın.
 
-## Metin Yerleştirme
+Tam düzenleyici referansı için [Metin Düzenleyici](../interface/text-editor) sayfasına bakın.
 
-1. Terminale `text` yazın veya araç çubuğundaki **Text** düğmesine basın.
-2. **Yakalama noktasını tıklayın** (hizalama temel noktası) veya `X,Y` yazıp **Enter** tuşuna basın.
-3. Görüntülenen satır içi düzenleyiciye **metni girin**.
-4. Onaylamak ve yerleştirmek için **Enter** tuşuna basın veya metnin dışına tıklayın.
+## Metin Etiketi Yerleştirme
 
-Metin yerleştirmeden iptal etmek için **Escape** tuşuna basın.
+1. Terminale `text` yazın veya araç çubuğundaki **Text** düğmesine tıklayın.
+2. Tuvalde **çıpa konumunu tıklayın**. Ya da tam koordinat için `X,Y` yazıp **Enter** tuşuna basın.
+3. Yeni etiketin üzerinde **metin düzenleyici açılır penceresi** açılır. İçeriğinizi yazın.
+4. Etiketi kaydetmek ve düzenleyiciyi kapatmak için **Escape** tuşuna basın.
 
-## Yakalama Noktası için Koordinat Girişi
+Varsayılan yükseklik **12 çizim birimidir**.
+
+## Mevcut Etiketi Düzenleme
+
+O etiket için düzenleyiciyi yeniden açmak üzere tuvaldeki herhangi bir metin etiketine **çift tıklayın**.
+
+## Çıpa için Koordinat Girişi
+
+Tıklamak yerine tam konum yazın:
 
 1. X değerini yazın.
 2. `,` tuşuna basın — terminal `[X], [Y{imleç}]` gösterir.
 3. Y değerini yazın.
-4. Onaylamak için **Enter** tuşuna basın.
+4. Çıpayı yerleştirmek ve düzenleyiciyi açmak için **Enter** tuşuna basın.
 
-## Klavye Referansı — Yakalama Noktası Aşaması
+## Klavye Referansı
+
+**Çıpa aşaması**
 
 | Tuş | İşlem |
-|-----|-------|
+|-----|--------|
 | `0`–`9`, `.`, `-` | X koordinatı girişini başlatır |
 | `,` | X'i kilitler ve Y girişine geçer |
 | `Backspace` | Son girilen karakteri siler |
-| `Enter` | Koordinatı onaylar |
-| `Escape` | İptal eder |
+| `Enter` | Yazılan koordinatı onaylar |
 
-## Klavye Referansı — Metin Düzenleyici Aşaması
+**Metin düzenleyici aşaması** (tam referans için [Metin Düzenleyici](../interface/text-editor)'ye bakın)
 
 | Tuş | İşlem |
-|-----|-------|
-| Herhangi bir karakter | Metne ekler |
-| `←` / `→` | İmleci taşır |
-| `Backspace` | Soldaki karakteri siler |
-| `Delete` | Sağdaki karakteri siler |
-| `Enter` | Onaylar ve metni yerleştirir |
-| `Escape` | İptal eder |
+|-----|--------|
+| Herhangi bir yazdırılabilir karakter | İmlece ekler |
+| `Backspace` / `Delete` | Komşu karakteri veya seçimi siler |
+| `Enter` | Satır sonu ekler |
+| `←` / `→` | Giriş noktasını taşır |
+| `Home` / `End` | Sabit satırın başına/sonuna atlar |
+| `Escape` | Kaydeder ve düzenleyiciyi kapatır |
 
-## Tutamaç Düzenleme
+## Tutamaç Düzenleme — Yeniden Konumlandırma
 
-Seçili metin yakalama noktasında **tek tutamaç** gösterir. Metni taşımak için sürükleyin.
+Seçili bir metin etiketi, çıpa noktasında bir tutamaç gösterir:
+
+| Tutamaç | Konum | Ne yapar |
+|------|----------|--------------|
+| **Çıpa** | Metnin sol altı | Sürükleyerek etiketi yeniden konumlandırır |
 
 ## Metin Seçimi
 
-Metnin **sınırlayıcı kutusuna** tıklamak onu seçer (gliflere tıklamanıza gerek yoktur). Kutunun dışına tıklamak seçmez.
+| Yöntem | Davranış |
+|--------|-----------|
+| **Tıklama** | Tıklama metnin döndürülmüş sınırlayıcı kutusu içine denk gelirse seçer |
+| **Sağa sürükleme** (katı) | Sınırlayıcı kutunun dört köşesinin tamamı seçim alanının içinde olmalıdır |
+| **Sola sürükleme** (çapraz) | Metin sınırlayıcı kutusu ile seçim alanı arasındaki herhangi bir örtüşme seçer |
 
 ## Desteklenen Düzenleme Komutları
 
-| Komut | Ne olur |
-|-------|---------|
-| [Move](./move) | Yakalama noktasını taşır |
-| [Copy](./copy) | Metnin kopyasını oluşturur |
-| [Rotate](./rotate) | Metni yakalama noktası etrafında döndürür |
-| [Mirror](./mirror) | Metin konumunu yansıtır (dize ters çevrilmez) |
-| [Scale](./scale) | Konumu temel noktadan ölçekler |
-| [Delete](./delete) | Metni siler |
+| Komut | Metne ne olur |
+|---------|--------------------------|
+| [Move](./move) | Çıpa noktasını taşır |
+| [Copy](./copy) | Yeni konumda özdeş etiket oluşturur |
+| [Rotate](./rotate) | Çıpa konumunu döndürür ve Dönüş Derecesine açı ekler |
+| [Mirror](./mirror) | Çıpa noktasını yansıtma ekseni üzerinden yansıtır (metin dizisi ters çevrilmez) |
+| [Scale](./scale) | Çıpa konumunu ölçekler ve yüksekliği ölçek faktörüyle çarpar |
+| [Delete](./delete) | Etiketi kaldırır |
+
+Metin **Offset**, **Trim** veya **Extend**'i desteklemez.
 
 ## Özellikler
 
-| Özellik | Değer |
-|---------|-------|
-| Renk | Metin rengi |
-| Katman | Ait olduğu katman |
-| Konum X / Y | Yakalama noktasının koordinatları |
-| Yükseklik | Çizim birimlerinde metin yüksekliği |
-| Dönüş açısı | Eğim açısı derece cinsinden |
-| İçerik | Metin dizisi |
-| Yakalama noktası | Sol üst, Orta üst vb. |
+Bir metin etiketi seçildiğinde özellikler paneli şunları gösterir:
 
-## DXF — MTEXT Nesnesi
+**Genel**
 
-Metin DXF dosyasında `MTEXT` nesnesi olarak saklanır. İçerik, ekleme noktası, yükseklik, dönüş açısı ve yakalama noktası kayıpsız round-trip yapar.
+| Özellik | Varsayılan | Anlam |
+|----------|---------|---------|
+| Renk | 256 (Katmana Göre) | ACI renk dizini |
+| Katman | `0` | Katman ataması |
+
+**Geometri**
+
+| Özellik | Anlam |
+|----------|---------|
+| Konum X / Konum Y | Çıpa noktası koordinatları |
+| Yükseklik | Çizim birimlerinde temel metin yüksekliği (varsayılan: **12**) |
+| Dönüş Derecesi | Derece cinsinden saat yönünün tersine dönüş |
+
+**Özellikler**
+
+| Özellik | Anlam |
+|----------|---------|
+| İçerik | Metin dizisi (MTEXT satır içi kodlar korunur) |
+| Ek Açıklama Noktası | Hizalama kodu (1 = sol üst … 9 = sağ alt) |
+
+Metnin Çizgi Türü, Çizgi Türü Ölçeği veya Kalınlık özellikleri yoktur.
+
+## DXF — MTEXT nesnesi
+
+Metin etiketleri DXF dosyasında **MTEXT** nesneleri olarak saklanır. Kalın ve italik, `\L`, `\K`, `\O` ve satır içi yazı tipi anahtarları (`\f`) kullanılarak kodlanır. Karakter başına yükseklik `\H` olarak kodlanır. Tüm biçimlendirme tam DXF round-trip'ten geçer ve LibreCAD, FreeCAD ve diğer DXF uyumlu uygulamalar tarafından okunabilir.
