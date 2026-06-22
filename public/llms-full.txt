@@ -45,6 +45,12 @@ Docs (UK): https://kulmanlab.com/uk/docs
 Changelog (UK): https://kulmanlab.com/uk/changelog
 FAQ (UK): https://kulmanlab.com/uk/faq
 
+Turkish (Türkçe):
+Landing page (TR): https://kulmanlab.com/tr/
+Docs (TR): https://kulmanlab.com/tr/docs
+Changelog (TR): https://kulmanlab.com/tr/changelog
+FAQ (TR): https://kulmanlab.com/tr/faq
+
 ---
 
 # About KulmanLab
