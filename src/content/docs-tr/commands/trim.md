@@ -1,47 +1,63 @@
 ---
 sidebar_position: 16
-title: Trim Komutu — KulmanLab CAD'de Çizgileri Sınıra Kırp
-description: Trim komutu, üzerine gelindiğinde iki kesişen nesne arasındaki çizgi segmentini kırpar. Kırmızı önizleme neyin silineceğini gösterir. Kesim sınırı olarak herhangi bir nesne türünü destekler, ancak yalnızca çizgiler kırpılabilir.
-keywords: [CAD trim komutu, çizgiyi kırp CAD, sınıra kırp, trim çizgi, kesim sınırı CAD, kulmanlab]
+title: Trim Komutu — KulmanLab CAD'de Kesişimlerde Çizgi Segmentlerini Kırp
+description: Trim komutu, imlece en yakın iki komşu kesişim noktası arasındaki Çizgi kısmını kaldırır. Kırmızı imleç üzerine gelme önizlemesi, tıklamadan önce tam olarak hangi segmentin kesileceğini gösterir. Trim yalnızca Çizgi nesnelerinde çalışır — yay, daire veya çoklu çizgide çalışmaz.
+keywords: [CAD trim komutu, çizgiyi kırp CAD, kesişimde çizgi kes, imleç üzerine gelme kırp önizleme, yalnızca çizgi kırp, kulmanlab]
 ---
 
 # Trim
 
-`trim` komutu, iki kesişen nesne arasındaki çizgi segmentini kaldırır. İmleci ilgili segmente götürün — **kırmızı önizleme** görünür — ve kaldırmak için tıklayın.
+`trim` komutu, iki komşu kesişim noktası arasında kalan [Çizgi](./line) kısmını kaldırarak çizgiyi bir veya iki daha kısa segmente böler. Kesilecek segment imleç konumuna göre belirlenir — kaldırılmasını istediğiniz kısmın üzerine gelin ve kırpmak için tıklayın.
 
-## Nasıl Kullanılır
+Trim yalnızca **Çizgi nesnelerinde** çalışır. Yaylar, daireler, çoklu çizgiler ve diğer nesne türleri için bunun yerine [Delete](./delete) veya tutamaç düzenlemeyi kullanın.
 
-1. Terminale `trim` yazın veya araç çubuğundaki **Trim** düğmesine basın.
-2. İmleci **iki kesişen nesne arasındaki çizgi segmentine götürün**.
-3. **Kırmızı önizleme** neyin silineceğini gösterir.
-4. Segmenti silmek için **tıklayın**.
+## Çizgi Kırpma
 
-Komut aktif kalır — ek segmentlere götürüp tıklayın. Çıkmak için `Escape` veya `Enter` tuşuna basın.
+1. Terminale `trim` yazın veya araç çubuğundaki **Trim** düğmesine tıklayın.
+2. Kaldırmak istediğiniz **çizgi segmentinin üzerine gelin** — kırmızı önizleme tam olarak kesilecek kısmı vurgular.
+3. O segmenti kaldırmak için **tıklayın**.
 
-## Segmentin Nasıl Belirlendiği
+Komut, her kırpmanın ardından aktif kalır, böylece daha fazla segment kesmek için üzerine gelip tıklamaya devam edebilirsiniz. Çıkmak için **Escape** tuşuna basın.
 
-Üzerine gelinen çizgi, çizimdeki diğer nesnelerle tüm kesişim noktalarında bölünür. Vurgulanan segment, imleç konumuna en yakın bölünmüş parçadır.
+```
+  Önce:                     Orta segment kırpıldıktan sonra:
+
+  ──────●──────●──────        ──────●          ●──────
+      kesişim  kesişim       (sol kısım)  (sağ kısım)
+                                 (orta segment kaldırıldı)
+```
+
+## Kırpma Segmentinin Nasıl Belirlendiği
+
+Komut, imleç konumunu üzerine gelinen çizgiye yansıtır ve çizginin diğer nesnelerle tüm kesişim noktalarını bulur. Bu kesişim parametreleri çizgiyi segmentlere böler. İmleç yansımasını içeren aralığa sahip segment vurgulanır ve tıklamada kaldırılır.
+
+- İmleç **ilk kesişimden önceyse**: çizginin o baştaki kısmı kaldırılır.
+- İmleç **iki kesişim arasındaysa**: o orta kısım kaldırılır; çizgi ikiye bölünür.
+- İmleç **son kesişimden sonraysa**: çizginin o sondaki kısmı kaldırılır.
+- Çizginin başka herhangi bir nesneyle **kesişimi yoksa**: önizleme görünmez ve tıklamak hiçbir şey yapmaz.
 
 ## Klavye Referansı
 
 | Tuş | İşlem |
-|-----|-------|
-| `Escape` / `Enter` | Trim komutundan çıkar |
+|-----|--------|
+| `Escape` | Trim modundan çıkar |
 
 ## Desteklenen Nesneler
 
-| Rol | Desteklenen tür |
-|-----|----------------|
-| **Kırpılan nesne** | Yalnızca **Çizgi** |
-| **Kesim sınırı** | Herhangi bir nesne türü (Çizgi, Daire, Yay, Çoklu çizgi vb.) |
+| Nesne | Kırpılabilir mi? |
+|--------|----------------|
+| Çizgi | Evet |
+| Yay, Daire, Elips | Hayır |
+| Çoklu Çizgi / Dikdörtgen | Hayır |
+| Metin, Spline, Ölçü, Gösterge | Hayır |
 
-Yalnızca çizgiler Trim komutuyla kısaltılabilir. Diğer nesne türleri (Daireler, Yaylar, Çoklu çizgiler vb.) kırpılamaz — ancak çizgiler için kesim sınırı olarak kullanılabilirler.
+**Kesim sınırları** olarak kullanılan nesneler herhangi bir tür olabilir — yalnızca kırpılan nesnenin Çizgi nesnesi olması gerekir.
 
 ## Trim - Extend Karşılaştırması
 
 | | Trim | Extend |
 |---|------|--------|
-| Ne yapar | Çizgi segmentini kaldırır | Çizgiyi sınıra uzatır |
-| Etkileşim | Üzerine gel + tıkla | Üzerine gel + tıkla |
-| Sınır | Herhangi bir nesne türü | Herhangi bir nesne türü (metin ve spline hariç) |
-| Üzerinde çalışır | Yalnızca çizgiler | Yalnızca çizgiler |
+| Ne yapar | Çizginin bir segmentini kaldırır | Çizgi ucunu bir sınıra uzatır |
+| Tetikleyici | Kesilecek segmentin üzerine gel | Uzatılacak ucun yakınına gel |
+| Sonuç | Çizgi bölünür veya kısalır | Çizgi ucu sınıra taşınır |
+| Her ikisi | Yalnızca çizgiler | Yalnızca çizgiler |

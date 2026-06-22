@@ -1,41 +1,46 @@
 ---
 sidebar_position: 44
-title: ZoomOut Komutu — KulmanLab CAD'de Uzaklaştır
-description: ZoomOut komutu görünümü 1,5× küçültür. Araç çubuğu düğmesi pencere merkezi etrafında uzaklaştırır; fare tekerleği imleç konumu etrafında uzaklaştırır. Minimum ölçek 0,01×.
-keywords: [CAD zoom out komutu, uzaklaştır CAD, görünümü küçült CAD, kulmanlab]
+title: "Zoom Out Komutu — KulmanLab CAD'de Görünüm Penceresi Yakınlaştırmasını Adım Başına 1,5× Azalt"
+description: "Zoom Out komutu, mevcut yakınlaştırma seviyesini 1,5× böler ve hemen çıkar. Görünüm penceresi orta noktasına göre ortalanır. Daha iyi kontrol için imlece doğru uzaklaştırmak üzere kaydırma tekerleğini kullanın."
+keywords: [CAD zoom out, görünüm yakınlaştırmasını azalt, uzaklaştır komutu, genel bakış CAD, 1,5x yakınlaştırma adımı, kulmanlab]
 ---
 
-# ZoomOut
+# Zoom Out
 
-`zoom out` komutu görünümü **1,5× küçültür** (mevcut ölçeği 1,5'e böler). Her çalıştırmada dünya koordinatlarında daha fazla alan görüntülenir ve nesneler daha küçük görünür.
+`zoomout` komutu, mevcut yakınlaştırma seviyesini **1,5× böler** (~0,667 ile çarpmaya eşdeğer) ve görünüm penceresi orta noktasına ortalanarak hemen çıkar. [Zoom In](./zoom-in)'in tersidir.
 
-## Nasıl Kullanılır
+## Uzaklaştırma
 
-- Terminale `zoom out` yazın, veya
-- Araç çubuğundaki **ZoomOut** düğmesine basın (pencere merkezi etrafında uzaklaştırır), veya
-- **Fare tekerleğini aşağı döndürün** (imleç konumu etrafında uzaklaştırır).
+Araç çubuğundaki **Zoom Out** düğmesine tıklayın veya terminale `zoomout` yazın. Yakınlaştırma anında uygulanır ve komut çıkar — tuvalde tıklama gerekmez.
 
-## Sınırlamalar
+## 1,5× Adımın Nasıl Çalıştığı
 
-| Parametre | Değer |
-|-----------|-------|
-| Her adım faktörü | ÷ 1,5 |
-| Minimum ölçek | 0,01× |
+| Mevcut yakınlaştırma | Bir Zoom Out sonrası |
+|-------------|-------------------|
+| 1,50× | 1,00× |
+| 2,25× | 1,50× |
+| 10,00× | 6,67× |
+| 0,015× | 0,01× (alt sınırda) |
 
-Minimum ölçeğe ulaşıldığında komut devre dışı kalır.
+Yakınlaştırma seviyesi her zaman tuvalde gösterilir. Alt sınır **0,01×**'dir; sonraki adımlar hiçbir şey yapmaz.
 
-## Araç Çubuğu Düğmesi - Fare Tekerleği Karşılaştırması
+## Araç Çubuğu Uzaklaştırma - Kaydırma Tekerleği Karşılaştırması
 
-| | Araç çubuğu düğmesi / komut | Fare tekerleği |
-|---|----------------------------|--------------------|
-| Uzaklaştırma merkezi | Pencere merkezi | İmleç konumu |
-| Adım | ÷ 1,5 sabit | ÷ 1,5 sabit |
-| Erişilebilirlik | Her zaman | Her zaman |
+| | Zoom Out düğmesi | Kaydırma tekerleği |
+|---|----------------|-------------|
+| Yakınlaştırma merkezi | Görünüm penceresi orta noktası | İmleç konumu |
+| Adım boyutu | Tıklama başına 1,5× | Tik başına ~1,1× |
+| Etkinleştirme gerekli | Hayır | Hayır — her zaman çalışır |
+| En iyi | Daha fazla bağlam görmek için geri adım atma | Pürüzsüz, imlece çıpalı uzaklaştırma |
 
-## ZoomOut - ZoomIn Karşılaştırması
+## Klavye Referansı
 
-| | ZoomOut | ZoomIn |
-|---|---------|--------|
-| Yön | Uzaklaştırır (küçültür) | Yakınlaştırır (büyütür) |
-| Adım | ÷ 1,5 | × 1,5 |
-| Sınır | Min 0,01× | Maks 10 000× |
+Bu komut için klavye kısayolu yoktur. Bunun yerine kaydırma tekerleğini kullanın — herhangi bir komut etkinleştirmeden her zaman çalışır.
+
+## İlgili Görünüm Komutları
+
+| Komut | Ne yapar |
+|---------|-------------|
+| [Zoom In](./zoom-in) | Yakınlaştırmayı adım başına 1,5× ile çarpar |
+| [Fit](./fit) | Tüm nesneleri göstermek için yakınlaştırmayı sıfırlar |
+| [Pan](./pan) | Yakınlaştırmadan görünüm penceresini kaydırır |

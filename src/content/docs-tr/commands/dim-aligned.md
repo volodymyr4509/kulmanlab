@@ -1,58 +1,74 @@
 ---
 sidebar_position: 27
-title: Dimension Aligned Komutu — KulmanLab CAD'de Eğimli Mesafe Ölçüleri
-description: Dimension Aligned komutu, iki yakalama noktası arasında hizalanmış ölçü yerleştirir ve açıdan bağımsız olarak aralarındaki düz mesafeyi ölçer. Dim Continue ile zincir ölçüleri destekler.
-keywords: [CAD dimension aligned komutu, hizalı ölçü CAD, eğimli ölçü CAD, eğri boyunca mesafe CAD, kulmanlab]
+title: Dimension Aligned Komutu — KulmanLab CAD'de Herhangi Bir Açıda Gerçek Mesafe Ölçüleri
+description: Dimension Aligned komutu, iki nokta arasındaki gerçek düz çizgi mesafesini ölçer. Ölçü çizgisi, p1→p2 çizgisine paralel olarak herhangi bir açıda uzanır — yalnızca yatay veya dikeyyle sınırlı olan Dimension Linear'den farklıdır. DXF'de DIMENSION nesnesi olarak tam round-trip.
+keywords: [CAD dimension aligned, dimaligned, köşegen ölçü CAD, gerçek mesafe ölçüsü, açılı ölçü CAD, kulmanlab]
 ---
 
 # Dimension Aligned
 
-`dim aligned` komutu, iki yakalama noktası arasındaki çizgiyle hizalanmış ölçü yerleştirir. Yalnızca yatay veya dikey bileşeni ölçen [Dim Linear](./dim-linear) komutunun aksine, Dim Aligned herhangi bir açıda iki nokta arasındaki **düz mesafeyi** ölçer.
+`dimaligned` komutu, iki nokta arasındaki **gerçek düz çizgi mesafesini** ölçen bir ölçü yerleştirir. Ölçü çizgisi iki noktayı birleştiren çizgiye paralel uzanır, dolayısıyla herhangi bir açıda olabilir. Bu, yalnızca yatay veya dikeyle sınırlı olan [Dimension Linear](./dim-linear)'den temel farkıdır.
 
-## Hizalı Ölçü Anatomisi
+## Hizalı Ölçünün Anatomisi
 
 ```
-   ●——————●  ← yakalama noktaları
-    \      \
-     ●——→←——●  ← ölçü çizgisi (vektöre paralel)
-      [metin]
+     ●  p2
+    /|
+   / |  (uzatma çizgisi 2, ölçü çizgisine dik)
+  /  |
+ /←5.00→/
+/  /
+●  /  (uzatma çizgisi 1, ölçü çizgisine dik)
+p1
 ```
 
-Ölçü çizgisi yakalama noktaları arasındaki vektöre **paralel**dir.
+- **Uzatma çizgileri** — ölçü çizgisine dik, ölçülen her noktadan çizilir.
+- **Ölçü çizgisi** — p1→p2'ye paralel, imleç konumuna göre bir tarafa kaydırılmış.
+- **Değer** — gerçek Öklid mesafesi `|p1 – p2|`.
 
-## Hizalı Ölçü Nasıl Eklenir
+## Hizalı Ölçü Yerleştirme
 
-1. Terminale `dim aligned` yazın veya **Dim Aligned** düğmesine basın.
-2. **Birinci yakalama noktasını tıklayın** (veya `X,Y` + Enter girin).
-3. **İkinci yakalama noktasını tıklayın** (veya koordinatları girin).
-4. **Ölçü çizgisi yerleştirme konumunu tıklayın** — geometriden uzaklığı ayarlamak için sürükleyin.
+1. Terminale `dimaligned` yazın veya araç çubuğundaki **Dimension Aligned** düğmesine tıklayın.
+2. **Birinci uzatma çizgisi başlangıç noktasını tıklayın** (p1) veya tam koordinat için `X,Y` yazıp **Enter** tuşuna basın.
+3. **İkinci uzatma çizgisi başlangıç noktasını tıklayın** (p2). Koordinat girişi burada da çalışır.
+4. **İmleci bir tarafa hareket ettirin** — ölçü çizgisinin dikey kaydırma miktarını ayarlamak için.
+5. **Tıklayın** — ya da kesin yerleştirme için kaydırma mesafesi yazıp **Enter** tuşuna basın.
 
-## Uzaklık Girişi
+## Yazılan Kaydırma Mesafesi
 
-Her iki yakalama noktasını ayarladıktan sonra, tam olarak bu mesafeye yerleştirmek için sayısal uzaklık değeri girin ve Enter tuşuna basın.
+Yerleştirme sırasında bir sayı yazarak ölçü çizgisini p1→p2 çizgisinden tam dikey mesafeye sabitleyebilirsiniz:
+
+| Tuş | İşlem |
+|-----|--------|
+| `0`–`9`, `.` | Kaydırmaya rakam ekler |
+| `Backspace` | Son girilen karakteri siler |
+| `Enter` / `Boşluk` | Yazılan kaydırmaya yerleştirir |
+
+İmleç tarafı, ölçü çizgisinin hangi tarafta görüneceğini belirler.
 
 ## Klavye Referansı
 
 | Tuş | İşlem |
-|-----|-------|
-| `0`–`9`, `.`, `-` | X koordinatı veya uzaklık girişini başlatır |
-| `,` | X'i kilitler ve Y girişine geçer |
+|-----|--------|
+| `0`–`9`, `.`, `-` | X koordinatı girişini başlatır (p1/p2 aşamaları) veya kaydırma mesafesi (yerleştirme aşaması) |
+| `,` | X'i kilitler ve Y girişine geçer (p1/p2 aşamaları) |
 | `Backspace` | Son girilen karakteri siler |
-| `Enter` | Koordinatı onaylar veya uzaklığı uygular |
-| `Escape` | İptal eder ve sıfırlar |
+| `Enter` / `Boşluk` | Yazılan koordinatı veya kaydırmayı onaylar |
+| `Escape` | İptal eder |
 
-## Zincir Ölçüler
+## Dimension Aligned - Dimension Linear Karşılaştırması
 
-Bu ölçünün uç noktasından ölçüm zincirine devam etmek için [Dim Continue](./dim-continue) kullanın.
+| | Dimension Aligned | Dimension Linear |
+|---|------------------|-----------------|
+| Ölçü çizgisi açısı | p1→p2'ye paralel — herhangi bir açı | Her zaman yatay veya dikey |
+| Ölçtüğü | Gerçek Öklid mesafesi | Yalnızca X veya Y bileşeni |
+| Y/D yönlendirme kilidi | Hayır | Evet — `H` ve `V` tuşları |
+| En iyi | Köşegen özellikler, açılı kesimler | Dikdörtgensel yerleşimler, ızgaraya hizalı parçalar |
 
-## Dim Aligned - Dim Linear Karşılaştırması
+## Zincirleme Ölçüler
 
-| | Dim Aligned | Dim Linear |
-|---|-------------|-----------|
-| Ne ölçer | Noktalar arası düz mesafe | Yatay veya dikey bileşen |
-| Ölçü çizgisi açısı | Noktalar arası vektöre paralel | Her zaman 0° veya 90° |
-| En iyi | Eğimli nesneler, pahlar, üçgensel hesaplamalar | Eksenlere paralel mesafeler |
+Bu ölçünün ikinci uzatma çizgisinden devam eden ölçüler eklemek için [Dimension Continue](./dim-continue) kullanın — bu hizalı ölçüyle aynı ölçüm açısına kilitlenir.
 
-## DXF — DIMENSION Nesnesi
+## DXF — DIMENSION Nesnesi (hizalı tür)
 
-"Aligned" türüyle `DIMENSION` nesnesi olarak saklanır. DXF uyumlu programlarda tam round-trip.
+Hizalı ölçüler `dimType = 1` (hizalı) ile `DIMENSION` nesnesi olarak kaydedilir. Uzatma çizgisi başlangıç noktaları, ölçü çizgisi konumu, metin konumu, ölçülen değer, döndürme, ok stili ve tüm görüntüleme bayrakları kayıpsız round-trip yapar.

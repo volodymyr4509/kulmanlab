@@ -1,95 +1,108 @@
 ---
 sidebar_position: 29
-title: Leader Komutu — KulmanLab CAD'de Metinli Göstergeler Çiz
-description: Leader komutu, metinli bir ok çizgisi olan gösterge çizer. Gösterge, ucunda açıklama metni bulunan kıvrımlı bir yola (kollara) sahiptir. Açı yakalamayı, koordinat girişini ve birden fazla kolu destekler. Not — göstergeler yalnızca DXF'den içe aktarılır, DXF'e kaydedilmez.
-keywords: [CAD leader komutu, metinli gösterge CAD, ok açıklama, çizgi gösterge CAD, çok segmentli gösterge, kulmanlab]
+title: Leader Komutu — KulmanLab CAD'de Ok Ucu ve Metinli Çoklu Gösterge Çizgileri Çiz
+description: "Leader komutu, dört aşamalı çoklu gösterge ek açıklaması çizer: ok ucu, dirsek, metin konumu ve yazılan etiket. Metin yönü, dirsek konumuna göre otomatik ayarlanır. DXF'de yalnızca içe aktarım — göstergeler kaydedilmez."
+keywords: [CAD leader komutu, çoklu gösterge ek açıklaması, gösterge CAD, ok etiket ek açıklaması, dirsekli gösterge, metin yönü CAD, kulmanlab]
 ---
 
 # Leader
 
-`leader` komutu, metin etiketine yönelen ok çizgisi olan gösterge çizer. Gösterge, ilk noktada ok ve sonunda düzenlenebilir metin etiketi bulunan kıvrımlı nokta yolundan (kollar) oluşur.
+`leader` komutu, dört adımda çoklu gösterge ek açıklaması çizer: bir özelliğe dokunan ok ucu, dirseğe bükülen gösterge çizgisi, metin çıpası ve yazılan etiket. Tüm ek açıklama komutları arasında, Leader, yanıp sönen imleç önizlemesiyle etkileşimli metin girişi aşaması içeren tek komuttur.
 
-> **DXF Notu:** Göstergeler yalnızca içe aktarım için kullanılabilir. DXF dosyalarındaki MLEADER nesneleri doğru şekilde okunur ve görüntülenir. Ancak düzenleyicide çizilen göstergeler DXF dosyası kaydedilirken **kaydedilmez**. Göstergeleri kaydetmek için [Export](./export) komutunu JSON formatında kullanın.
-
-## Gösterge Anatomisi
+## Çoklu Göstergenin Anatomisi
 
 ```
-  ● Nokta 1 (ok)
-   \
-    \  kol
-     \
-      ● Nokta 2
-      |__________
-                 [Etiket Metni]
+  ◄── ok ucu  (adım 2 — özelliğe dokunur)
+      \
+       \  gösterge çizgisi
+        \
+         ●──── dirsek (adım 3) ──── metin çıpası (adım 4)
+                                    Etiket metni  (adım 5)
 ```
 
-İlk tıklanan noktaya **ok** eklenir. Enter'dan önceki son nokta, metin etiketinin bağlandığı yerdir.
+- **Ok ucu** — ek açıklama yapılan özelliğe yerleştirilen sivri uç.
+- **Dirsek** — gösterge çizgisinin metne doğru büküldüğü yön değişim noktası.
+- **Metin çıpası** — etiketin konumlandırıldığı yer. Metin otomatik olarak sola veya sağa hizalanır.
 
-## Komutun Dört Aşaması
+## Gösterge Çizimi
 
-1. **Birinci nokta aşaması** — okun yerleştirileceği yer.
-2. **Sonraki noktalar aşaması** — gösterge kollarının oluşturulması. Metne geçmek için Enter tuşuna basın.
-3. **Metin girişi aşaması** — etiket metnini yazın.
-4. **Onay** — göstergeyi yerleştirmek için Enter tuşuna basın.
+1. Terminale `leader` yazın veya araç çubuğundaki **Leader** düğmesine tıklayın.
+2. **Ok ucunu tıklayın** veya tam koordinat için `X,Y` yazıp **Enter** tuşuna basın.
+3. **Dirseği tıklayın** — göstergadaki bükülme noktası. Açı 45° artışlara kilitlenir; kesin yerleştirme için bir uzunluk yazıp **Enter** tuşuna basın. Ya da mutlak koordinat girmek için `X,Y` yazın.
+4. **Metin konumunu tıklayın** — etiketin çıpalanacağı yer. Aynı seçenekler geçerlidir: tıklayın, açı kilidi + uzunluk veya `X,Y`.
+5. **Etiket metnini yazın** — tuval önizlemesi yanıp sönen imleçle canlı güncellenir. Yerleştirmek için **Enter** tuşuna basın.
 
-## Koordinat Girişi
+## Koordinat Girişi (tüm nokta aşamaları)
 
-Herhangi bir nokta aşamasında tıklamak yerine kesin konum girin:
+Herhangi bir nokta seçim adımında (uç, dirsek, metin konumu) tıklamak yerine tam koordinat yazabilirsiniz:
 
-1. X değerini yazın.
-2. `,` tuşuna basın — terminal `[X], [Y{imleç}]` gösterir.
+1. X değerini yazın (rakamlar, `.` veya `-`).
+2. `,` tuşuna basın — terminal, X'in kilitlendiğini onaylayan `[X], [Y{imleç}]` gösterir.
 3. Y değerini yazın.
-4. Onaylamak için **Enter** tuşuna basın.
+4. Noktayı yerleştirmek için **Enter** tuşuna basın.
 
-## Açı Kilidi
+## Açı Kilitleme (adım 3 ve 4)
 
-Nokta girişi aşamalarında gösterge 45°'lik yakalama eksenlerini izler. İmleç yakın olduğunda 0°, 45°, 90°, 135°, … eksenlerine çekilir. Kilitlenen yön boyunca kesin yerleştirme için mesafeyi yazın ve **Enter** tuşuna basın.
+Yerleştirilen her noktanın ardından, imleç yeterince uzakta olduğunda komut 45° eksenlerine yakalanır. Kilitliyken:
+- Önizleme eksene yakalanır.
+- Bir uzunluk yazıp **Enter** tuşuna basarak bir sonraki noktayı tam o mesafeye yerleştirin.
 
-## Metin Etiketini Düzenleme
+Açı kilitleme ve koordinat girişi birbirini dışlar — önce `,` olmadan bir rakam yazdığınızda, komut bunu mesafe olarak yorumlar (açı kilidi etkin olmalıdır). Bunun yerine mutlak koordinat girmek için X numarasıyla başlayıp virgülle devam edin.
 
-Metin girişi aşamasında:
+## Metin Etiketi Düzenleme
+
+Adım 5'te etiketi yazarken, yerleştirmeden önce metni gezinebilir ve düzenleyebilirsiniz:
 
 | Tuş | İşlem |
-|-----|-------|
-| Herhangi bir karakter | Etiket metnine ekler |
-| `←` / `→` | İmleci metin içinde taşır |
+|-----|--------|
+| Herhangi bir yazdırılabilir karakter | İmleç konumuna ekler |
+| `←` / `→` | İmleci sola veya sağa taşır |
 | `Backspace` | İmlecin solundaki karakteri siler |
 | `Delete` | İmlecin sağındaki karakteri siler |
-| `Enter` | Metni onaylar ve göstergeyi yerleştirir |
+| `Enter` | Göstergeyi yerleştirir |
 
 ## Otomatik Metin Yönü
 
-Metin etiketi yönü son kolun konumuna göre otomatik belirlenir:
+Metin hizalaması, dirseğe göre imleç konumuna göre ayarlanır:
 
-| Konum | Metin hizalaması |
-|-------|-----------------|
-| Kol sağa uzanıyor | Metin uç noktanın solunda |
-| Kol sola uzanıyor | Metin uç noktanın sağında |
+| İmleç konumu | Metin yönü |
+|-----------------|---------------|
+| Dirseğin **sağında** | Metin çıpasından soldan sağa |
+| Dirseğin **solunda** | Sağdan sola (sağ taraftan çıpalı) |
 
-## Klavye Referansı — Nokta Aşamaları
+El ile ayarlama gerekmez — imleci etiketin istediğiniz tarafa getirin ve otomatik olarak doğru hizalanır.
+
+## Klavye Referansı
+
+**Nokta aşamaları (uç, dirsek, metin konumu)**
 
 | Tuş | İşlem |
-|-----|-------|
-| `0`–`9`, `.`, `-` | X koordinatı girişini başlatır |
-| `,` | X'i kilitler ve Y girişine geçer |
+|-----|--------|
+| `0`–`9`, `.`, `-` | X koordinatı yazmaya başlar (ardından `,` ile X'i kilitle ve Y'ye geç) |
+| `,` | X'i onaylar ve Y girişine geçer |
+| `0`–`9`, `.`, `-` | Açı kilitliyken mesafe yazar |
 | `Backspace` | Son girilen karakteri siler |
-| `Enter` | Koordinatı onaylar veya kol girişini bitirir (metne geçer) |
-| `Escape` | İptal eder ve sıfırlar |
+| `Enter` | Yazılan koordinatı veya mesafeyi onaylar |
 
-## Klavye Referansı — Metin Aşaması
+**Metin girişi aşaması**
 
 | Tuş | İşlem |
-|-----|-------|
-| Herhangi bir karakter | Etiket metnine ekler |
-| `←` / `→` | İmleci metin içinde taşır |
-| `Backspace` | Solundaki karakteri siler |
-| `Delete` | Sağındaki karakteri siler |
-| `Enter` | Onaylar ve göstergeyi yerleştirir |
-| `Escape` | Metin girişini iptal eder |
+|-----|--------|
+| Yazdırılabilir karakter | İmlece ekler |
+| `←` / `→` | İmleci taşır |
+| `Backspace` | Solu siler |
+| `Delete` | Sağı siler |
+| `Enter` | Göstergeyi yerleştirir |
+
+| Tuş | İşlem |
+|-----|--------|
+| `Escape` | İptal eder ve adım 2'ye sıfırlar |
 
 ## Kolları Ekleme ve Kaldırma
 
-Göstergeyi yerleştirdikten sonra kollarını değiştirebilirsiniz:
+- Mevcut göstergeye ekstra ok kolu eklemek için: [Leader+](./leader-add)
+- İki veya daha fazla kolu olan göstergeden kol kaldırmak için: [Leader−](./leader-remove)
 
-- **[Leader Add](./leader-add)** — mevcut göstergeye yeni kol ekler.
-- **[Leader Remove](./leader-remove)** — göstergeden kol kaldırır (tek kol kalırsa gösterge silinir).
+## DXF — yalnızca içe aktarım
+
+**Göstergeler yalnızca içe aktarım içindir.** DXF dosyalarındaki `MLEADER` nesneleri doğru şekilde okunur ve görüntülenir, ancak düzenleyicide çizilen göstergeler DXF dosyası kaydedilirken **yazılmaz**. Görsel ek açıklama için göstergeler kullanın; round-trip iş akışları için bunlara güvenmeyin.

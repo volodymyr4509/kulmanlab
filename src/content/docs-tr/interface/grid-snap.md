@@ -1,41 +1,55 @@
 ---
 sidebar_position: 1
-title: Izgara ve Yakalama — KulmanLab CAD Arayüz Referansı
-description: Izgara görsel referans çizgileri sağlar; Yakalama imleci yakın nesne noktalarına kilitler. Her ikisi de bağımsız olarak etkinleştirilebilir. Desteklenen yakalama türleri — uç nokta, orta nokta, merkez, kesişim, dörtte birlik nokta.
-keywords: [CAD ızgara, CAD nesne yakalama, snap CAD, endpoint snap, midpoint snap, kulmanlab]
+title: Izgara ve Yakalama — KulmanLab CAD'de Çizimleri Düzenli Izgaraya Hizala
+description: KulmanLab CAD'deki Izgara ve Yakalama geçiş düğmeleri tuvale referans ızgara katmanı ekler ve imleç hareketini ızgara noktalarına kilitler. Izgara aralığı, her zaman yuvarlak model değerleri gösterecek şekilde mevcut yakınlaştırma seviyesine otomatik olarak uyum sağlar.
+keywords: [CAD ızgara, ızgaraya yakalama, ızgara aralığı, çizim yardımcıları, kulmanlab, ızgara noktaları, dikdörtgensel yakalama]
 ---
 
 # Izgara ve Yakalama
 
-**Izgara** (Grid) — tuval üzerindeki görsel referans noktaları veya çizgileri. Geometriyi hizalamaya yardımcı olur ancak imleç hareketi üzerinde herhangi bir etkisi yoktur.
+Kontrol çubuğundaki iki geçiş düğmesi, referans ızgara katmanı eklemenizi ve çizim sırasında imleci kesişim noktalarına kilitlemenizi sağlar.
 
-**Yakalama** (Snap) — imleç mevcut nesne noktalarına otomatik olarak kilitlenir: uç noktalar, orta noktalar, merkezler, kesişimler ve dörtte birlik noktalar.
+| Düğme | Ne yapar |
+|--------|-------------|
+| **Grid** | Tuvalde görsel nokta veya çizgi ızgarası gösterir |
+| **Snap** | Daha yakın bir geometri yakalama noktası olmadığında imleci en yakın ızgara noktasına kilitler |
 
-## Etkinleştirme ve Devre Dışı Bırakma
+İki geçiş bağımsızdır — ızgarayı yakalamadan gösterebilir, ızgarayı göstermeden yakalama yapabilir veya ikisini birlikte kullanabilirsiniz.
 
-| Özellik | Yöntem |
-|---------|--------|
-| Izgara aç/kapat | **Grid** düğmesine tıklayın veya `G` tuşuna basın |
-| Yakalama aç/kapat | **Snap** düğmesine tıklayın veya `S` tuşuna basın |
+## Izgara ve Yakalamayı Etkinleştirme
 
-Izgara ve Yakalama birbirinden bağımsızdır — her ikisini birlikte, birini veya hiçbirini etkinleştiremezsiniz.
+Kontrol çubuğu araç çubuğunda **Grid** veya **Snap**'e tıklayın. Etkin durum vurgulanır. Ayarlar oturumlar arasında kalıcı olarak korunur.
 
-## Yakalama Türleri
+**Snap** etkinleştirildiğinde, ızgara ekranını otomatik olarak çizgilerden **noktalara** geçirir — noktalar imlecin yakalanacağı tam noktaları işaretler.
 
-| Yakalama türü | Simge | Açıklama |
-|---------------|-------|----------|
-| **Uç nokta** | Kare | Çizgi veya çoklu çizgi segmentinin başlangıç/bitiş noktası |
-| **Orta nokta** | Üçgen | Bir segmentin orta noktası |
-| **Merkez** | Daire | Daire, yay veya elipsin merkezi |
-| **Kesişim** | Çapraz | İki nesnenin kesişme noktası |
-| **Dörtte birlik nokta** | Elmas | Daire/yay/elipsin 0°, 90°, 180°, 270° noktaları |
+## Uyarlamalı Izgara Aralığı
 
-## Yakalama Nasıl Çalışır
+Yakınlaştırdıkça ızgara aralığı otomatik olarak ayarlanır, böylece ızgara çizgileri ekranda her zaman rahat bir mesafede olur (~40 px). Adım her zaman "güzel" bir sayıdır — herhangi bir on kuvvetinde 1, 2 veya 5'in katı:
 
-Aktif bir çizim veya düzenleme komutu sırasında yakalama etkin olduğunda:
+| Örnek yakınlaştırma / model ölçeği | Izgara adımı |
+|---------------------------|-----------|
+| Uzaklaştırılmış (geniş alan) | 100, 500, 1000 … |
+| Orta yakınlaştırma | 10, 20, 50 … |
+| Yakınlaştırılmış (ince ayrıntı) | 1, 2, 5 … |
+| Çok yakın | 0,1, 0,2, 0,5 … |
 
-1. İmleci bir nesne noktasına yaklaştırın.
-2. **Yakalama işareti** (simge) görünür ve nokta türünü gösterir.
-3. İşaret göründüğünde tıklayın — imleç tam olarak yakalama noktasına kilitleniyor.
+Bu, her yakalama noktasının model uzayında yuvarlak koordinata denk geleceği anlamına gelir — kayan nokta kaymaları birikmez.
 
-Yakalama işareti görünmüyorsa imleci biraz daha yavaş hareket ettirin veya nesneye daha da yaklaşın.
+## Yakalama Önceliği
+
+**Uç nokta ve kesişim yakalamaları her zaman ızgaradan önce gelir.** İmleç yalnızca herhangi bir geometri yakalama adayına (uç nokta, orta nokta, merkez veya kesişim) yakın olmadığında ızgara noktasına yakalanır.
+
+Bu, ızgaraya yakalama etkinken çizim yapabileceğiniz ve imlecin yeterince yakınından geçtiğinde mevcut geometriye hâlâ kesin olarak yakalanabileceğiniz anlamına gelir. Izgara bir yedektir, geçersiz kılma değil.
+
+## Yerleşim Modu
+
+- **Model uzayı** — noktalar veya çizgiler görünür tuval alanının tamamını doldurur.
+- **Yerleşim (kağıt) uzayı** — noktalar kağıt dikdörtgenine kırpılır ve dışına çıkmaz.
+- **Görünüm penceresi içinde** — ızgara, görünüm penceresinin ölçeğindeki model koordinat sistemini izler, bu nedenle noktalar görünüm penceresi büyütmesinden bağımsız olarak aynı model birimleriyle hizalanır.
+
+## Tipik İş Akışı
+
+1. Düzenli aralık gerektiren bir çizime başlamadan önce **Grid** ve **Snap**'i açın.
+2. Izgara adımının istenen artışınıza eşleştiği seviyeye yakınlaştırın (örneğin noktalar 10 birim arayla olana kadar yakınlaştırın).
+3. Çizin — imleç otomatik olarak ızgara noktalarına yakalanır. Yakınında olduğunuzda mevcut geometri yine normal şekilde yakalanır.
+4. Serbest imleç hareketi gerektiğinde veya yalnızca geometriye yakalamak istediğinizde **Snap**'i kapatın.

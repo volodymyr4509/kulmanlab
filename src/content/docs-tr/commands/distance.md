@@ -1,46 +1,54 @@
 ---
 sidebar_position: 32
-title: Distance Komutu — KulmanLab CAD'de İki Nokta Arasındaki Mesafeyi Ölç
-description: Distance komutu, iki tıklanan nokta arasındaki mesafeyi ölçer ve sonucu terminalde 4 ondalık basamak hassasiyetle görüntüler. Zincir ölçümü ve koordinat girişini destekler.
-keywords: [CAD distance komutu, mesafe ölç CAD, uzunluk ölçümü, koordinat mesafesi, kulmanlab]
+title: Distance Komutu — KulmanLab CAD'de İki Nokta Arasındaki Düz Çizgi Mesafesini Ölç
+description: Distance komutu, iki tıklanan nokta arasındaki Öklid mesafesini ölçer ve sonucu terminalde 4 ondalık basamak hassasiyetle görüntüler. Sonucun ardından tekrar tıklayarak son noktadan yeni bir ölçüm zinciri başlatın.
+keywords: [CAD mesafe ölç, distance komutu, noktadan noktaya ölçüm, düz çizgi mesafesi, kulmanlab CAD ölçümü]
 ---
 
 # Distance
 
-`distance` komutu, terminalde görüntülenen iki nokta arasındaki mesafeyi ölçer. Tuvalde hiçbir nesne oluşturulmaz — yalnızca okuma.
+`distance` komutu, iki tıklanan nokta arasındaki düz çizgi (Öklid) mesafesini ölçer ve sonucu terminalde 4 ondalık basamak hassasiyetle yazdırır. Bu komut iki ölçüm komutundan biridir — [Angle](./angle) ise köşedeki açısal açılımı ölçer.
 
-## Ölçüm Anatomisi
-
-```
-  ● Nokta 1 ←——————————→ ● Nokta 2
-                d = ?
-```
-
-Mesafe, iki tıklanan nokta arasındaki Öklid uzaklığıdır.
-
-## Zincir Ölçümü
-
-İlk ölçümden sonra (Nokta 1 → Nokta 2) komut aktif kalır ve sonraki tıklamayı bekler. Bu tıklama yeni **Nokta 2** olur (önceki Nokta 2 yeni Nokta 1 olur). Bu, kırık bir yol boyunca mesafeleri ölçmeye olanak tanır:
+## Mesafe Ölçümünün Anatomisi
 
 ```
-  ● N1 →d1→ ● N2 →d2→ ● N3
+  ● birinci nokta
+   \
+    \  önizleme çizgisi (canlı)
+     \
+      ● ikinci nokta    →  terminal: "Distance: 12.3456"
 ```
 
-Her mesafe d1, d2, … terminalde ayrı ayrı görüntülenir.
+- **Birinci nokta** — ölçümün başlangıç noktası.
+- **İkinci nokta** — bitiş noktası; bu noktayı yerleştirmek sonucu anında yazdırır.
+- **Sonuç** — terminalde görüntülenir, tuvale yerleştirilmez.
 
-Zincir ölçümünü tamamlamak için `Escape` tuşuna basın.
+## Mesafe Ölçme
+
+1. Terminale `distance` yazın veya araç çubuğundaki **Distance** düğmesine tıklayın.
+2. **Birinci noktayı tıklayın** veya tam koordinat için `X,Y` yazıp **Enter** tuşuna basın.
+3. **İkinci noktayı tıklayın** — ölçülen mesafe terminalde görünür. Koordinat girişi burada da çalışır.
+4. **Tekrar tıklayın** (isteğe bağlı) yeni bir ölçüm başlatmak için. Komut aktif kalır.
+
+Sıfırlamak için istediğiniz zaman `Escape` tuşuna basın.
+
+## Zincirleme Ölçümler
+
+Sonuç göründükten sonra, hemen tıklamak bir sonraki ölçümü başlatır — tıklanan nokta yeni birinci nokta olur. Bu, komutu yeniden etkinleştirmeden bir dizi mesafeyi ölçmenizi sağlar.
 
 ## Distance - Angle Karşılaştırması
 
 | | Distance | Angle |
-|---|----------|-------|
-| Nokta sayısı | 2 | 3 (zirve + 2) |
-| Ölçer | Noktalar arası uzunluk | Yönler arasındaki iç açı |
-| Sonuç | Çizim birimlerinde tek sayı | Derece cinsinden tek sayı |
+|---|---------|-------|
+| Ne ölçer | Düz çizgi uzunluğu | Köşedeki iç açı |
+| Tıklama sayısı | 2 | 3 |
+| Sonuç biçimi | `12.3456` (birim) | `45.0000°` |
+| Tuval önizlemesi | Birinci noktadan imlece giden çizgi | Köşeden imlece giden iki çizgi |
+| En iyi | Boşluk veya segment uzunluğu | İki özellik arasındaki açılma açısı |
 
 ## Koordinat Girişi
 
-Herhangi bir nokta girişi adımında tıklamak yerine kesin konum girin:
+Tıklamak yerine her iki nokta için de tam konumu yazın:
 
 1. X değerini yazın.
 2. `,` tuşuna basın — terminal `[X], [Y{imleç}]` gösterir.
@@ -50,15 +58,15 @@ Herhangi bir nokta girişi adımında tıklamak yerine kesin konum girin:
 ## Klavye Referansı
 
 | Tuş | İşlem |
-|-----|-------|
+|-----|--------|
 | `0`–`9`, `.`, `-` | X koordinatı girişini başlatır |
 | `,` | X'i kilitler ve Y girişine geçer |
 | `Backspace` | Son girilen karakteri siler |
-| `Enter` | Koordinatı onaylar |
-| `Escape` | İptal eder ve sıfırlar |
+| `Enter` | Yazılan koordinatı onaylar |
+| `Escape` | İptal eder ve adım 2'ye sıfırlar |
 
 ## Notlar
 
-- Sonuçlar **yalnızca terminalde** görüntülenir — tuvalde hiçbir nesne oluşturulmaz.
-- Hassasiyet: **4 ondalık basamak**.
-- Birimler çizim birimleriyle eşleşir (yerleşik birim dönüşümü yoktur).
+- Sonuçlar yalnızca **terminalde** gösterilir — çizime hiçbir şey eklenmez.
+- Sonuç, çizim koordinatlarıyla aynı birimde ifade edilir (yerleşik birim dönüşümü yoktur).
+- Hassasiyet her zaman 4 ondalık basamaktır.

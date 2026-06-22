@@ -1,45 +1,51 @@
 ---
 sidebar_position: 30
-title: Dimension Diameter Komutu — KulmanLab CAD'de Daire Çap Ölçüsü
-description: Dimension Diameter komutu, bir daire için çap ölçüsü yerleştirir. Daireyi tıklayın, ardından metin konumunu belirtin. Değer Ø önekiyle görüntülenir.
-keywords: [CAD dimension diameter komutu, çap ölçüsü CAD, Ø daire ölçüsü, DXF DIMENSION diameter, kulmanlab]
+title: Dimension Diameter Komutu — KulmanLab CAD'de Daire ve Yay Çaplarını İşaretle
+description: Dimension Diameter komutu, bir yay veya daire üzerine çap ölçüsü (çap sembolü önekiyle) yerleştirir. İmleci hareket ettirerek ölçü çizgisini herhangi bir açıya döndürün. DXF'de DIMENSION diameter nesneleri olarak tam round-trip.
+keywords: [CAD diameter dimension, dimdiameter, daire çapını işaretle, yay çap ölçüsü, çap sembolü CAD, kulmanlab]
 ---
 
 # Dimension Diameter
 
-`dim diameter` komutu, bir dairenin çapını gösteren ölçü yerleştirir. Ölçü değeri **Ø** önekiyle görüntülenir (örneğin Ø50).
+`dimdiameter` komutu, bir yay veya daire üzerine çap ölçüsü yerleştirir. Ölçü çizgisi tam çapı kapsar — merkez üzerinden geçerek iki diametrically karşıt yay noktası arasında — ve `⌀ <değer>` olarak etiketlenir. Merkez ile bir kenar arasındaki yarıçapı işaretlemek için [Dimension Radius](./dim-radius) kullanın.
 
-## Çap Ölçüsü Anatomisi
+## Çap Ölçüsünün Anatomisi
 
 ```
-  ●──────●──────●  ← merkez üzerinden geçen ölçü çizgisi
-  (uzak yay noktası) (merkez) (yakın yay noktası)
-           Ø50
+  ●──────────── ⌀ 10.00 ────────────●
+  (uzak yay noktası)              (yakın yay noktası / metin tarafı)
 ```
 
-Ölçü çizgisi dairenin **merkezinden** geçerek bir yay noktasından diğerine (tıklamaya göre yakın ve uzak) gider.
+- **Ölçü çizgisi** — tam çapı kapsar; her iki yay kesişim noktasında ok uçları bulunur.
+- **Yakın yay noktası** — imleç tarafındaki çevre noktası (metin etiketinin bulunduğu yer).
+- **Uzak yay noktası** — diametrically karşıt nokta.
+- **Etiket** — `⌀` sembolü ardından çap değeri.
 
-## Çap Ölçüsü Nasıl Eklenir
+## Çap Ölçüsü Yerleştirme
 
-1. Terminale `dim diameter` yazın veya **Dim Diameter** düğmesine basın.
-2. Seçmek için **daireyi tıklayın**.
-3. **Ölçü metni yerleştirme konumunu tıklayın** — ölçü çizgisi dairenin merkezinden geçer.
+1. Terminale `dimdiameter` yazın veya araç çubuğundaki **Dimension Diameter** düğmesine tıklayın.
+2. Seçmek için **bir yay veya daireyi tıklayın**.
+3. **İmleci hareket ettirerek** ölçü çizgisini istenen açıya döndürün.
+4. Ölçüyü yerleştirmek için **tıklayın**.
+
+Yalnızca **Yay** ve **Daire** nesneleri seçilebilir.
 
 ## Klavye Referansı
 
 | Tuş | İşlem |
-|-----|-------|
-| `Escape` | İptal eder ve sıfırlar |
+|-----|--------|
+| `Escape` | İptal eder |
 
-## Dim Diameter - Dim Radius Karşılaştırması
+## Dimension Diameter - Dimension Radius Karşılaştırması
 
-| | Dim Diameter | Dim Radius |
-|---|-------------|------------|
-| Uygulanır | Yalnızca daireler | Daireler ve yaylar |
-| Değer | 2 × yarıçap | Yarıçap |
-| Gösterim | Ø | R |
-| Ölçü çizgisi | Merkez üzerinden (dairede iki uç) | Merkezden tek uca |
+| | Dimension Diameter | Dimension Radius |
+|---|-------------------|-----------------|
+| Ölçtüğü | Tam çap (2 × yarıçap) | Yarıçap (merkez ile kenar arası) |
+| Ölçü çizgisi | Merkez üzerinden kenar → kenar | Merkez → kenar |
+| Etiket öneki | `⌀` | `R` |
+| Ok uçları | İki tane (her iki yay noktasında) | Bir tane (yay noktasında) |
+| En iyi | Tam dairesel delik veya mil ölçüleri | Eğrisel bir özelliğin bir tarafını işaretleme |
 
-## DXF — DIMENSION Nesnesi
+## DXF — DIMENSION diameter nesnesi
 
-"Diameter" türüyle `DIMENSION` nesnesi olarak saklanır. DXF uyumlu programlarda tam round-trip.
+Çap ölçüleri, her iki yay noktası konumunu ve ölçülen çap değerini (2 × yarıçap) saklayan, çap türü geometrisiyle `DIMENSION` nesnesi olarak kaydedilir. Tüm özellikler kayıpsız round-trip yapar.

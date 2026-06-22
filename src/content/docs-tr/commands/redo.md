@@ -1,34 +1,38 @@
 ---
 sidebar_position: 22
-title: Redo Komutu — KulmanLab CAD'de Geri Alınan İşlemi Yinele
-description: Redo komutu, düzenleme geçmişinde ileri giderek son geri alınan işlemi yineler. Undo sonrasında yeni bir işlem yapıldığında Redo yığını temizlenir. Maksimum derinlik 20 adımdır.
-keywords: [CAD redo komutu, işlemi yinele CAD, Ctrl+Y CAD, redo yığını, kulmanlab]
+title: Redo Komutu — KulmanLab CAD'de Geri Alınan İşlemleri Yeniden Uygula
+description: Redo komutu, Undo tarafından tersine çevrilen son işlemi yeniden uygulayarak geçmiş yığınında ileri gider. Redo yalnızca Undo sonrasında kullanılabilir ve herhangi yeni bir çizim işlemi gerçekleştirildiği anda temizlenir.
+keywords: [CAD redo komutu, redo geçmişi CAD, işlemi yeniden uygula CAD, undo redo CAD, tarayıcı kalıcı redo, kulmanlab]
 ---
 
 # Redo
 
-`redo` komutu, [Undo](./undo) komutuyla geri alınan son işlemi yineler. Undo'dan sonra yeni değişiklikler yaptıysanız, Redo yığını temizlenir — yeni değişiklikler geri alınan dalın yerini alır.
+`redo` komutu, [Undo](./undo) tarafından tersine çevrilen işlemleri yeniden uygulayarak geri alma geçmişinde ileri gider. Redo yalnızca Undo ile geri adım attığınızda ve henüz yeni bir değişiklik yapmadığınızda kullanılabilir.
 
-## Nasıl Kullanılır
+## Nasıl Yinelenir
 
 - Terminale `redo` yazın, veya
-- **Ctrl+Y** (Windows/Linux) veya **Cmd+Y** (Mac) tuşlarına basın, veya
-- Araç çubuğundaki **Redo** düğmesine basın.
+- **Redo** araç çubuğu düğmesine tıklayın.
+
+Her çağrı, daha önce geri alınan bir işlemi yeniden uygular. Mevcut tüm redo girişlerinde ileri adım atmak için tekrar tekrar çağırın.
 
 ## Redo Yığını Davranışı
 
-| Durum | Redo yığını |
-|-------|------------|
-| Undo sonrasında | Kullanılabilir — geri alınan adımları içerir |
-| Yeni işlem yaptıktan sonra | Temizlenir — yeni değişiklikler dalın yerini alır |
-| Redo sonuna kadar yapıldıktan sonra | Boş — yinelenecek adım kalmadı |
-| Depolama | Bellekte (IndexedDB'de değil) |
-| Maksimum derinlik | 20 adım |
+| Ayrıntı | Davranış |
+|--------|-----------|
+| Şundan sonra kullanılabilir | Bir veya daha fazla [Undo](./undo) adımı |
+| Şunun tarafından temizlenir | **Herhangi bir yeni çizim işlemi** — nesne ekleme, düzenleme veya silme |
+| Depolama | Tarayıcı, dosya başına — sayfa yeniden yüklenmesini atlatır (yeniden yüklemeden önce yeni bir işlem yapılmamışsa) |
+| Maksimum derinlik | En fazla 20 giriş (Undo ile aynı havuz) |
+
+Yeni bir nesne çizildiğinde, silindiğinde veya değiştirildiğinde redo yığını temizlenir ve bu girişler kurtarılamaz. Yalnızca yeni çalışmayla geçersiz kılınmamış geri alınan işlemler yeniden uygulanabilir.
 
 ## Redo - Undo Karşılaştırması
 
 | | Redo | Undo |
 |---|------|------|
-| Yön | Geçmişte ileri | Geçmişte geri |
-| Kısayol | Ctrl+Y / Cmd+Y | Ctrl+Z / Cmd+Z |
-| Temizlendiğinde | Undo sonrası yeni işlem | Hiçbir zaman (her zaman Undo yapılabilir) |
+| Yön | Geri alınan girişlerde **ileri** adım atar | Geçmişte **geri** adım atar |
+| Kullanılabildiğinde | En az bir Undo sonrasında, yeni işlem yapılmadan | En az bir kayıtlı işlem mevcutsa |
+| Şunun tarafından temizlenir | Herhangi bir yeni çizim işlemi | Hiçbir şey |
+
+Yinelenecek giriş yokken araç çubuğu Redo düğmesi grileşir. Redo girişleri oluşturmak için önce [Undo](./undo) kullanın.
