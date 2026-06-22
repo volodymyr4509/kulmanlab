@@ -278,6 +278,52 @@ export const faqContent: Record<string, FaqSection[]> = {
     },
   ],
 
+  tr: [
+    {
+      headingKey: 'faq.section.start',
+      items: [
+        { q: 'KulmanLab gerçekten ücretsiz mi?', a: 'Evet — tamamen ücretsiz. Abonelik yok, kredi kartı yok, gizli plan yok. Tam özellik seti herkese sınırsız olarak sunulmaktadır.' },
+        { q: 'Hesap oluşturmam gerekiyor mu?', a: 'Hayır. Giriş, kayıt veya e-posta gerekmez. Uygulamayı açın ve hemen çizmeye başlayın.' },
+        { q: 'Hangi tarayıcılar destekleniyor?', a: 'Herhangi bir modern masaüstü tarayıcı — Chrome, Firefox, Safari ve Edge çalışır. KulmanLab yalnızca masaüstü içindir; mobil ve tablet şu anda desteklenmemektedir.' },
+        { q: 'Çevrimdışı çalışır mı?', a: 'Evet. İlk yüklemeden sonra uygulama önbelleğe alınır ve internet bağlantısı olmadan tamamen çalışır. Çizimleriniz yerel olarak saklanır, hiçbir şey sunucu gerektirmez.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.files',
+      items: [
+        { q: 'Çizimlerim nerede saklanır?', a: 'Tarayıcınızın localStorage\'ında — kendi cihazınızda. Hiçbir şey hiçbir zaman bir sunucuya yüklenmez. Her cihazda her tarayıcının bağımsız depolama alanı vardır.' },
+        { q: 'Tarayıcı verilerimi temizlersem ne olur?', a: 'Kayıtlı çizimleriniz kaybolur. Tarayıcı depolamasını temizlemeden önce her zaman önemli çizimlerin DXF kopyasını dışa aktarın.' },
+        { q: '.dwg dosyalarını açabilir miyim?', a: 'KulmanLab, DXF (Drawing Exchange Format) formatını destekler, tescilli DWG formatını değil. Çoğu masaüstü CAD uygulaması DXF dışa aktarabilir, bu yüzden önce kaynak uygulamanızdan dışa aktarın.' },
+        { q: 'Hangi dışa aktarma formatları mevcut?', a: 'Diğer CAD araçlarıyla değiş tokuş için DXF ve baskıya hazır çıktı için PDF veya PNG/WebP. Yazdırma yöneticisi dışa aktarmadan önce DPI ve kağıt boyutu ayarlamanıza olanak tanır.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.features',
+      items: [
+        { q: 'Komut terminali var mı?', a: 'Evet. Komutları doğrudan yazın — LINE, CIRCLE, MOVE, TRIM ve 50\'den fazlası. Terminal geçmişi (ok tuşları), otomatik tamamlamayı (Tab) ve tam sayısal girişi destekler.' },
+        { q: 'Katman desteği var mı?', a: 'Tam katman yönetimi: katman oluştur, yeniden adlandır, dondur, kilitle ve izole et. Katman başına renk, çizgi türü ve çizgi kalınlığı ayarla. Tüm katman verileri DXF dışa aktarımında korunur.' },
+        { q: 'Hangi ölçü türleri mevcut?', a: 'Doğrusal, hizalı, yarıçap, çap, açısal ve zincir. Tümü diğer CAD araçlarıyla uyumlu standart DXF DIMENSION nesneleri olarak saklanır.' },
+        { q: 'Tutamaçlarla geometri düzenleyebilir miyim?', a: 'Evet. Anahtar noktalarda — uç noktalar, orta noktalar, merkezler, yay uçları — tutamaçları ortaya çıkarmak için herhangi bir nesneyi seçin. Doğrudan tuvalde yeniden şekillendirmek için sürükleyin veya tam yerleşim için sürükleme sırasında bir değer yazın.' },
+        { q: 'Gerçek zamanlı işbirliği destekleniyor mu?', a: 'Şu anda hayır. KulmanLab tek kullanıcılı bir araçtır ve çizimler yerel kalır. Bulut senkronizasyonu ve işbirliği mevcut kapsamın dışındadır.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.compat',
+      items: [
+        { q: 'KulmanLab DXF dosyaları diğer CAD yazılımlarıyla uyumlu mu?', a: 'Evet. KulmanLab AC1032 DXF okur ve yazar — yaygın olarak desteklenen bir sürüm. Dosyalar LibreCAD, QCAD, BricsCAD, FreeCAD ve diğer DXF uyumlu araçlarda doğru açılır.' },
+        { q: 'DXF ve DWG arasındaki fark nedir?', a: 'DXF, birlikte çalışabilirlik için tasarlanmış açık, metin tabanlı bir değişim formatıdır. DWG tescilli bir ikili formattır. KulmanLab, neredeyse her CAD aracı tarafından okunabilen DXF kullanır.' },
+        { q: 'KulmanLab masaüstü CAD yazılımımın yerini alabilir mi?', a: '2D çizim için — evet. KulmanLab tam komut terminali, katmanlar, yakalama, ölçüler, tutamaç düzenleme ve DXF uyumluluğuna sahiptir. 3D, bloklar/dış referanslar veya parametrik kısıtlamaları desteklemiyor.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.privacy',
+      items: [
+        { q: 'KulmanLab çizim verilerimi topluyor mu?', a: 'Hayır. Çizimleriniz tarayıcınızda kalır ve hiçbir yere gönderilmez. KulmanLab anonim kullanım metrikleri (sayfa görüntülemeleri, oturum sayıları) için Google Analytics kullanır — hiçbir çizim içeriği dahil değildir.' },
+        { q: 'Çerez kullanılıyor mu?', a: 'Yalnızca Google Analytics tarafından otomatik olarak ayarlanan çerezler. Bunun ötesinde takip yok, reklam çerezi yok, üçüncü taraf veri paylaşımı yok.' },
+      ],
+    },
+  ],
+
   uk: [
     {
       headingKey: 'faq.section.start',
