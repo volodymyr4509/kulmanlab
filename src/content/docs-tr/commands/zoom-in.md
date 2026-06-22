@@ -2,7 +2,7 @@
 sidebar_position: 43
 title: "Zoom In Komutu — KulmanLab CAD'de Görünüm Penceresini Adım Başına 1,5× Büyüt"
 description: "Zoom In komutu, mevcut yakınlaştırma seviyesini 1,5× ile çarpar ve hemen çıkar. Görünüm penceresi orta noktasına göre ortalanır. Yakınlaştırma aralığı 0,01–10.000. Bunun yerine imlece doğru yakınlaştırmak için kaydırma tekerleğini kullanın."
-keywords: [CAD zoom in, görünümü büyüt, yakınlaştır CAD komutu, 1,5x yakınlaştırma adımı, kulmanlab]
+keywords: [CAD zoom in, görünümü büyüt, yakınlaştır CAD komutu, "1,5x yakınlaştırma adımı", kulmanlab]
 ---
 
 # Zoom In
