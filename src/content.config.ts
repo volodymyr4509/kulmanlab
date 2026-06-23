@@ -67,4 +67,9 @@ const docsId = defineCollection({
   schema: docSchema,
 });
 
-export const collections = { docs, 'docs-de': docsDe, 'docs-es': docsEs, 'docs-fr': docsFr, 'docs-it': docsIt, 'docs-pt': docsPt, 'docs-uk': docsUk, 'docs-tr': docsTr, 'docs-zh': docsZh, 'docs-hi': docsHi, 'docs-ar': docsAr, 'docs-id': docsId };
+const docsJa = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/docs-ja' }),
+  schema: docSchema,
+});
+
+export const collections = { docs, 'docs-de': docsDe, 'docs-es': docsEs, 'docs-fr': docsFr, 'docs-it': docsIt, 'docs-pt': docsPt, 'docs-uk': docsUk, 'docs-tr': docsTr, 'docs-zh': docsZh, 'docs-hi': docsHi, 'docs-ar': docsAr, 'docs-id': docsId, 'docs-ja': docsJa };
