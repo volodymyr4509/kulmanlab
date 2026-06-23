@@ -1,0 +1,132 @@
+---
+title: KulmanLab CAD — 命令参考
+description: KulmanLab CAD 命令参考 — 完整涵盖 KulmanLab CAD 中每一个绘图、编辑、标注、图层、测量和文件命令的使用指南。
+keywords: [KulmanLab, KulmanLab CAD, CAD 命令, 免费浏览器 CAD, DXF 在线编辑器, 绘图命令, kulmanlab 命令, kulmanlab]
+---
+
+# KulmanLab CAD — 命令参考
+
+欢迎使用 **KulmanLab CAD** 命令参考。[KulmanLab CAD](https://kulmanlab.com) 是一款免费的基于浏览器的 CAD 工具，用于绘制、编辑和导出 DXF 文件，无需安装。使用侧边栏可按面板分类浏览所有可用命令。
+
+## 形状
+
+| 命令 | 功能 |
+|---------|-------------|
+| [直线](./commands/line) | 在两点之间绘制直线 |
+| [多段线](./commands/polyline) | 绘制多段开放路径 |
+| [矩形](./commands/rectangle) | 绘制轴对齐矩形 |
+| [圆](./commands/circle) | 通过圆心和半径绘制圆 |
+| [圆弧](./commands/arc) | 通过三点绘制圆弧 |
+| [椭圆](./commands/ellipse) | 通过圆心和两轴绘制椭圆 |
+| [文字](./commands/text) | 在画布上放置文字标签 |
+| [CV 样条线](./commands/spline-cv) | 通过放置控制顶点绘制样条线 |
+| [拟合样条线](./commands/spline-fit) | 绘制穿过所有单击点的样条线 |
+
+## 编辑
+
+| 命令 | 功能 |
+|---------|-------------|
+| [移动](./commands/move) | 将选中图元移动到新位置 |
+| [复制](./commands/copy) | 将选中图元复制到新位置 |
+| [旋转](./commands/rotate) | 将选中图元绕基点旋转 |
+| [镜像](./commands/mirror) | 将选中图元沿直线镜像 |
+| [缩放](./commands/scale) | 将选中图元绕基点缩放 |
+| [删除](./commands/delete) | 从图形中删除选中图元 |
+| [修剪](./commands/trim) | 在交点处修剪线段 |
+| [延伸](./commands/extend) | 将直线延伸到最近的边界交点 |
+| [偏移](./commands/offset) | 以指定距离创建图元的平行副本 |
+| [圆角](./commands/fillet) | 用切弧将两条直线的角连接为圆角 |
+| [倒角](./commands/chamfer) | 在两条直线或多段线之间切出直线斜角 |
+| [撤销](./commands/undo) | 撤销上一步操作 |
+| [重做](./commands/redo) | 重做上一步撤销的操作 |
+
+## 标注
+
+| 命令 | 功能 |
+|---------|-------------|
+| [多重引线](./commands/leader) | 绘制带箭头和文字的多重引线标注 |
+| [添加引线](./commands/leader-add) | 向已有多重引线添加额外的引线臂 |
+| [删除引线](./commands/leader-remove) | 从已有多重引线中删除一条引线臂 |
+| [线性标注](./commands/dim-linear) | 添加水平或垂直标注 |
+| [对齐标注](./commands/dim-aligned) | 添加与两点对齐的标注 |
+| [连续标注](./commands/dim-continue) | 从上一个标注链接新标注 |
+| [半径标注](./commands/dim-radius) | 为圆或圆弧添加半径标注 |
+| [直径标注](./commands/dim-diameter) | 为圆添加直径标注 |
+| [角度标注](./commands/dim-angular) | 为两条直线、圆弧或圆添加角度标注 |
+
+## 图层
+
+| 命令 | 功能 |
+|---------|-------------|
+| [置为当前图层](./commands/layer-make-current) | 将单击图元所在图层设为当前图层 |
+| [图层匹配](./commands/layer-match) | 将选中图元的图层重新指定为与源图元相同 |
+| [图层隔离](./commands/layer-isolate) | 冻结除选中图元所在图层以外的所有图层 |
+| [解冻所有图层](./commands/layer-unfreeze-all) | 一键解冻所有图层 |
+
+## 布局
+
+| 命令 | 功能 |
+|---------|-------------|
+| [矩形视口](./commands/viewport-rectangle) | 通过拾取两个角点在图纸布局中创建视口 |
+| [复制视口](./commands/viewport-copy) | 将视口复制到新位置 |
+| [页面管理器](./commands/page-manager) | 编辑当前布局的图纸大小和比例 |
+
+## 导航
+
+| 命令 | 功能 |
+|---------|-------------|
+| [平移](./commands/pan) | 点击并拖动以移动视口 |
+| [放大](./commands/zoom-in) | 放大视口 |
+| [缩小](./commands/zoom-out) | 缩小视口 |
+| [范围缩放](./commands/fit) | 将所有图元适应到视口中 |
+
+## 测量
+
+| 命令 | 功能 |
+|---------|-------------|
+| [距离](./commands/distance) | 测量两点之间的距离 |
+| [角度](./commands/angle) | 测量三点构成的角度 |
+
+## 样式
+
+| 命令 | 功能 |
+|---------|-------------|
+| [特性匹配](./commands/match-properties) | 将颜色、图层及其他特性从一个图元复制到其他图元 |
+
+## 文件
+
+| 命令 | 功能 |
+|---------|-------------|
+| [导入](./commands/import) | 打开 DXF 或 JSON 图形文件 |
+| [新建文件](./commands/new-file) | 开始一个全新的空白图形 |
+| [文件列表](./commands/files) | 浏览并恢复最近的图形 |
+| [打印](./commands/print) | 将图形区域导出为图像或 PDF |
+| [导出](./commands/export) | 以 DXF 或 JSON 格式下载图形 |
+| [清除存储](./commands/wipestorage) | 清除浏览器存储中的所有图形 |
+
+## 恢复
+
+如果应用程序在每次启动时崩溃（例如，在处理极大坐标后），可以在 URL 末尾追加 `?reset` 以清除所有本地存储数据：
+
+```
+https://kulmanlab.com/?resetKulmanLocalStorage
+```
+
+这将删除浏览器本地数据库中的所有内容并开始一个全新的空白图形。`?reset` 参数会自动从 URL 中移除。当[清除存储](./commands/wipestorage)命令因应用无法加载而无法访问时，请使用此方法作为最后手段。
+
+## 命令的工作方式
+
+每个命令遵循相同的模式：
+
+1. **激活** — 单击工具栏按钮，或在屏幕底部的命令行中输入命令名称。
+2. **按提示操作** — 命令行显示下一步所需的输入内容。
+3. **完成或取消** — 大多数命令在最后一次输入后自动完成。随时按 **Escape** 键可取消。
+
+## 选择对象
+
+几个编辑命令（移动、复制、旋转、镜像、缩放、删除）共用相同的选择行为：
+
+- **单击**图元以选择或取消选择。
+- **向右拖动**（从左到右）进行严格选择 — 只有完全在框内的图元才会被选中。
+- **向左拖动**（从右到左）进行交叉选择 — 与选框相交的任何图元都会被选中。
+- 按 **Enter** 或**空格**确认选择并进入下一步。

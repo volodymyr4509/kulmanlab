@@ -278,6 +278,52 @@ export const faqContent: Record<string, FaqSection[]> = {
     },
   ],
 
+  zh: [
+    {
+      headingKey: 'faq.section.start',
+      items: [
+        { q: 'KulmanLab 真的免费吗？', a: '是的——完全免费。无订阅、无信用卡、无隐藏计划。完整功能集对所有人无限制开放。' },
+        { q: '我需要创建账户吗？', a: '不需要。无需登录、注册或邮箱。打开应用即可立即开始绘图。' },
+        { q: '支持哪些浏览器？', a: '任何现代桌面浏览器——Chrome、Firefox、Safari 和 Edge 均可使用。KulmanLab 仅支持桌面端，目前不支持移动端和平板。' },
+        { q: '可以离线使用吗？', a: '可以。首次加载后，应用会被缓存，完全无需互联网连接即可运行。您的图纸存储在本地，无需服务器。' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.files',
+      items: [
+        { q: '我的图纸存储在哪里？', a: '存储在您浏览器的 localStorage 中——在您自己的设备上。任何内容都不会上传到服务器。每台设备上的每个浏览器都有独立的存储空间。' },
+        { q: '如果我清除浏览器数据会怎样？', a: '您保存的图纸将会丢失。在清除浏览器存储之前，请务必导出重要图纸的 DXF 副本。' },
+        { q: '可以打开 .dwg 文件吗？', a: 'KulmanLab 支持 DXF（图形交换格式），不支持专有的 DWG 格式。大多数桌面 CAD 应用可以导出 DXF，请先从源应用导出。' },
+        { q: '支持哪些导出格式？', a: '支持与其他 CAD 工具交换的 DXF，以及用于打印输出的 PDF 或 PNG/WebP。打印管理器允许在导出前设置 DPI 和纸张尺寸。' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.features',
+      items: [
+        { q: '有命令终端吗？', a: '有。直接输入命令——LINE、CIRCLE、MOVE、TRIM 等 50 多个。终端支持历史记录（方向键）、自动补全（Tab）和精确数字输入。' },
+        { q: '支持图层吗？', a: '完整的图层管理：创建、重命名、冻结、锁定和隔离图层。为每个图层设置颜色、线型和线宽。所有图层数据在 DXF 导出时均会保留。' },
+        { q: '支持哪些标注类型？', a: '线性、对齐、半径、直径、角度和连续标注。全部作为与其他 CAD 工具兼容的标准 DXF DIMENSION 实体存储。' },
+        { q: '可以使用夹点编辑几何图形吗？', a: '可以。选择任意实体，即可在关键点——端点、中点、圆心、弧端点——显示夹点。拖动可直接在画布上重塑，或在拖动时输入数值进行精确定位。' },
+        { q: '支持实时协作吗？', a: '目前不支持。KulmanLab 是单用户工具，图纸保留在本地。云同步和协作超出了当前范围。' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.compat',
+      items: [
+        { q: 'KulmanLab 的 DXF 文件与其他 CAD 软件兼容吗？', a: '兼容。KulmanLab 读写 AC1032 DXF——一个广泛支持的版本。文件可在 LibreCAD、QCAD、BricsCAD、FreeCAD 及任何支持 DXF 的工具中正确打开。' },
+        { q: 'DXF 和 DWG 有什么区别？', a: 'DXF 是专为互操作性设计的开放式文本交换格式。DWG 是专有二进制格式。KulmanLab 使用 DXF，几乎所有 CAD 工具都可读取。' },
+        { q: 'KulmanLab 可以替代我的桌面 CAD 软件吗？', a: '用于 2D 绘图——可以。KulmanLab 拥有完整的命令终端、图层、捕捉、标注、夹点编辑和 DXF 兼容性。不支持 3D、块/外部参照或参数化约束。' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.privacy',
+      items: [
+        { q: 'KulmanLab 会收集我的图纸数据吗？', a: '不会。您的图纸保留在浏览器中，永远不会发送到任何地方。KulmanLab 使用 Google Analytics 收集匿名使用数据（页面浏览量、会话数）——不涉及任何图纸内容。' },
+        { q: '使用 Cookie 吗？', a: '仅使用 Google Analytics 自动设置的 Cookie。除此之外没有跟踪，没有广告 Cookie，没有第三方数据共享。' },
+      ],
+    },
+  ],
+
   tr: [
     {
       headingKey: 'faq.section.start',
