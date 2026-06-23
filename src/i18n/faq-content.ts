@@ -461,4 +461,96 @@ export const faqContent: Record<string, FaqSection[]> = {
       ],
     },
   ],
+
+  ar: [
+    {
+      headingKey: 'faq.section.start',
+      items: [
+        { q: 'هل KulmanLab مجاني حقاً؟', a: 'نعم — مجاني تماماً. بدون اشتراك، بدون بطاقة ائتمان، بدون خطط مخفية. مجموعة الميزات الكاملة متاحة للجميع بدون قيود.' },
+        { q: 'هل أحتاج إلى إنشاء حساب؟', a: 'لا. لا يوجد تسجيل دخول أو تسجيل أو بريد إلكتروني مطلوب. افتح التطبيق وابدأ الرسم فوراً.' },
+        { q: 'ما المتصفحات المدعومة؟', a: 'أي متصفح حديث لسطح المكتب — Chrome وFirefox وSafari وEdge تعمل جميعها. KulmanLab مخصص لسطح المكتب فقط؛ الهاتف والجهاز اللوحي غير مدعومَين حالياً.' },
+        { q: 'هل يعمل دون اتصال؟', a: 'نعم. بعد التحميل الأول يُخزَّن التطبيق مؤقتاً ويعمل بالكامل دون إنترنت. رسوماتك مخزنة محلياً فلا شيء يحتاج خادماً.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.files',
+      items: [
+        { q: 'أين تُخزَّن رسوماتي؟', a: 'في localStorage المتصفح — على جهازك الخاص. لا شيء يُرفع إلى خادم أبداً. كل متصفح على كل جهاز له تخزينه المستقل.' },
+        { q: 'ماذا يحدث إذا مسحت بيانات المتصفح؟', a: 'ستُفقد رسوماتك المحفوظة. صدّر دائماً نسخة DXF من أي رسم مهم قبل مسح تخزين المتصفح.' },
+        { q: 'هل يمكنني فتح ملفات .dwg؟', a: 'يدعم KulmanLab تنسيق DXF (Drawing Exchange Format) وليس تنسيق DWG الخاص. معظم تطبيقات CAD لسطح المكتب تستطيع تصدير DXF، لذا صدّر من تطبيقك المصدر أولاً.' },
+        { q: 'ما تنسيقات التصدير المتاحة؟', a: 'DXF للتبادل مع أدوات CAD الأخرى، وPDF أو PNG/WebP للإخراج الجاهز للطباعة. يتيح لك مدير الطباعة ضبط DPI وحجم الورق قبل التصدير.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.features',
+      items: [
+        { q: 'هل توجد محطة أوامر؟', a: 'نعم. اكتب الأوامر مباشرة — LINE وCIRCLE وMOVE وTRIM وأكثر من 50 أمراً آخر. تدعم المحطة السجل (مفاتيح الأسهم) والإكمال التلقائي (Tab) والإدخال الرقمي الدقيق.' },
+        { q: 'هل هناك دعم للطبقات؟', a: 'إدارة كاملة للطبقات: إنشاء وإعادة تسمية وتجميد وقفل وعزل الطبقات. ضبط اللون ونوع الخط وعرضه لكل طبقة. تُحفظ جميع بيانات الطبقات عند تصدير DXF.' },
+        { q: 'ما أنواع الأبعاد المتاحة؟', a: 'خطية ومحاذاة ونصف قطر وقطر وزاوية ومستمرة. كلها مخزنة كعناصر DXF DIMENSION قياسية متوافقة مع أدوات CAD الأخرى.' },
+        { q: 'هل يمكنني تحرير الهندسة بنقاط التحكم؟', a: 'نعم. حدد أي عنصر لإظهار نقاط التحكم عند النقاط الرئيسية — النهايات والنقط الوسطى والمراكز ونهايات الأقواس. اسحب لإعادة التشكيل مباشرة على اللوحة أو اكتب قيمة أثناء السحب للتموضع الدقيق.' },
+        { q: 'هل التعاون الفوري مدعوم؟', a: 'ليس حالياً. KulmanLab أداة لمستخدم واحد والرسومات تبقى محلية. المزامنة السحابية والتعاون خارج النطاق الحالي.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.compat',
+      items: [
+        { q: 'هل ملفات DXF الخاصة بـ KulmanLab متوافقة مع برامج CAD الأخرى؟', a: 'نعم. يقرأ KulmanLab ويكتب DXF بتنسيق AC1032 — إصدار مدعوم على نطاق واسع. تُفتح الملفات بشكل صحيح في LibreCAD وQCAD وBricsCAD وFreeCAD وأي أداة تدعم DXF.' },
+        { q: 'ما الفرق بين DXF وDWG؟', a: 'DXF تنسيق تبادل مفتوح نصي مصمم للتشغيل البيني. DWG تنسيق ثنائي خاص. يستخدم KulmanLab DXF الذي يمكن قراءته بواسطة أي أداة CAD تقريباً.' },
+        { q: 'هل يمكن لـ KulmanLab أن يحل محل برنامج CAD لسطح المكتب؟', a: 'للرسم الثنائي الأبعاد — نعم. يحتوي KulmanLab على محطة أوامر كاملة وطبقات والتقاط وأبعاد وتحرير نقاط التحكم وتوافق DXF. لا يدعم ثلاثي الأبعاد أو الكتل/المراجع الخارجية أو القيود البارامترية.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.privacy',
+      items: [
+        { q: 'هل يجمع KulmanLab بيانات رسوماتي؟', a: 'لا. رسوماتك تبقى في متصفحك ولا تُرسل إلى أي مكان. يستخدم KulmanLab Google Analytics لمقاييس الاستخدام المجهولة (مشاهدات الصفحة وعدد الجلسات) — لا يشمل ذلك محتوى الرسومات.' },
+        { q: 'هل تُستخدم ملفات تعريف الارتباط؟', a: 'فقط ملفات تعريف الارتباط التي يضعها Google Analytics تلقائياً. لا تتبع إضافي، لا ملفات تعريف ارتباط إعلانية، لا مشاركة بيانات مع أطراف ثالثة.' },
+      ],
+    },
+  ],
+
+  id: [
+    {
+      headingKey: 'faq.section.start',
+      items: [
+        { q: 'Apakah KulmanLab benar-benar gratis?', a: 'Ya — sepenuhnya gratis. Tanpa langganan, tanpa kartu kredit, tanpa paket tersembunyi. Kumpulan fitur lengkap tersedia untuk semua orang tanpa batasan.' },
+        { q: 'Apakah saya perlu membuat akun?', a: 'Tidak. Tidak ada login, pendaftaran, atau email yang diperlukan. Buka aplikasi dan langsung mulai menggambar.' },
+        { q: 'Browser apa yang didukung?', a: 'Browser desktop modern mana pun — Chrome, Firefox, Safari, dan Edge semuanya berfungsi. KulmanLab hanya untuk desktop; perangkat mobile dan tablet belum didukung saat ini.' },
+        { q: 'Apakah berfungsi offline?', a: 'Ya. Setelah pemuatan pertama, aplikasi di-cache dan berjalan sepenuhnya tanpa koneksi internet. Gambar Anda disimpan secara lokal sehingga tidak memerlukan server.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.files',
+      items: [
+        { q: 'Di mana gambar saya disimpan?', a: 'Di localStorage browser Anda — di perangkat Anda sendiri. Tidak ada yang pernah diunggah ke server. Setiap browser di setiap perangkat memiliki penyimpanan independennya sendiri.' },
+        { q: 'Apa yang terjadi jika saya menghapus data browser?', a: 'Gambar tersimpan Anda akan hilang. Selalu ekspor salinan DXF dari hal penting sebelum menghapus penyimpanan browser.' },
+        { q: 'Bisakah saya membuka file .dwg?', a: 'KulmanLab mendukung DXF (Drawing Exchange Format), bukan format DWG yang bersifat proprietary. Sebagian besar aplikasi CAD desktop dapat mengekspor DXF, jadi ekspor dari aplikasi sumber Anda terlebih dahulu.' },
+        { q: 'Format ekspor apa yang tersedia?', a: 'DXF untuk pertukaran dengan alat CAD lain, dan PDF atau PNG/WebP untuk output siap cetak. Manajer cetak memungkinkan Anda mengatur DPI dan ukuran kertas sebelum mengekspor.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.features',
+      items: [
+        { q: 'Apakah ada terminal perintah?', a: 'Ya. Ketik perintah langsung — LINE, CIRCLE, MOVE, TRIM, dan lebih dari 50 lainnya. Terminal mendukung riwayat (tombol panah), pelengkapan otomatis (Tab), dan input numerik yang tepat.' },
+        { q: 'Apakah ada dukungan layer?', a: 'Manajemen layer penuh: buat, ganti nama, bekukan, kunci, dan isolasi layer. Atur warna, tipe garis, dan ketebalan garis per layer. Semua data layer dipertahankan dalam ekspor DXF.' },
+        { q: 'Jenis dimensi apa yang tersedia?', a: 'Linier, sejajar, radius, diameter, sudut, dan lanjutan. Semua disimpan sebagai entitas DIMENSION DXF standar yang kompatibel dengan alat CAD lainnya.' },
+        { q: 'Bisakah saya mengedit geometri dengan grip?', a: 'Ya. Pilih entitas mana pun untuk menampilkan pegangan grip di titik-titik kunci — titik akhir, titik tengah, pusat, ujung busur. Seret untuk membentuk ulang langsung di kanvas, atau ketik nilai saat menyeret untuk penempatan yang tepat.' },
+        { q: 'Apakah kolaborasi real-time didukung?', a: 'Belum saat ini. KulmanLab adalah alat pengguna tunggal dan gambar tetap lokal. Sinkronisasi cloud dan kolaborasi berada di luar cakupan saat ini.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.compat',
+      items: [
+        { q: 'Apakah file DXF KulmanLab kompatibel dengan perangkat lunak CAD lain?', a: 'Ya. KulmanLab membaca dan menulis DXF AC1032 — versi yang didukung secara luas. File terbuka dengan benar di LibreCAD, QCAD, BricsCAD, FreeCAD, dan alat apapun yang mendukung DXF.' },
+        { q: 'Apa perbedaan antara DXF dan DWG?', a: 'DXF adalah format pertukaran terbuka berbasis teks yang dirancang untuk interoperabilitas. DWG adalah format biner proprietary. KulmanLab menggunakan DXF yang dapat dibaca oleh hampir semua alat CAD.' },
+        { q: 'Bisakah KulmanLab menggantikan perangkat lunak CAD desktop saya?', a: 'Untuk drafting 2D — ya. KulmanLab memiliki terminal perintah lengkap, layer, snapping, dimensi, grip editing, dan kompatibilitas DXF. Tidak mendukung 3D, blok/xref, atau batasan parametrik.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.privacy',
+      items: [
+        { q: 'Apakah KulmanLab mengumpulkan data gambar saya?', a: 'Tidak. Gambar Anda tetap di browser dan tidak pernah dikirim ke mana pun. KulmanLab menggunakan Google Analytics untuk metrik penggunaan anonim (tampilan halaman, jumlah sesi) — tidak ada konten gambar yang terlibat.' },
+        { q: 'Apakah cookie digunakan?', a: 'Hanya cookie yang secara otomatis ditetapkan oleh Google Analytics. Tidak ada pelacakan lebih lanjut, tidak ada cookie iklan, tidak ada berbagi data pihak ketiga.' },
+      ],
+    },
+  ],
 };

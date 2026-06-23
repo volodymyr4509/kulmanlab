@@ -13,7 +13,7 @@ interface Props {
 const { title, description, canonical = 'https://kulmanlab.com', lang = 'en', alternates, jsonLd } = Astro.props;
 ---
 <!doctype html>
-<html lang={lang}>
+<html lang={lang} dir={lang === 'ar' ? 'rtl' : 'ltr'}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
