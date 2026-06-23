@@ -85,6 +85,7 @@ const canonical = `https://kulmanlab.com/${lang}/`;
 <Layout
   title={t['page.title']}
   description={t['page.desc']}
+  keywords={t['page.keywords']}
   canonical={canonical}
   lang={lang}
   alternates={buildAlternates('home')}
@@ -103,13 +104,14 @@ const canonical = `https://kulmanlab.com/${lang}/`;
         "description": t['page.desc'],
         "applicationCategory": "DesignApplication",
         "operatingSystem": "Web",
+        "inLanguage": lang,
         "offers": {
           "@type": "Offer",
           "price": "0",
           "priceCurrency": "USD"
         },
         "screenshot": "https://kulmanlab.com/og.png",
-        "featureList": "DXF import and export, Command terminal, Layer management, Dimensions and annotations, PDF and PNG export, Grip editing, Works offline, No account required"
+        "featureList": t['page.featureList']
       }
     ]
   }}

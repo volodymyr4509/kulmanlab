@@ -79,6 +79,7 @@ const stats = [
 <Layout
   title={t['page.title']}
   description={t['page.desc']}
+  keywords={t['page.keywords']}
   canonical="https://kulmanlab.com/"
   lang={lang}
   alternates={buildAlternates('home')}
@@ -94,16 +95,17 @@ const stats = [
         "@type": "SoftwareApplication",
         "name": "KulmanLab",
         "url": "https://app.kulmanlab.com",
-        "description": "Free browser-based 2D CAD and DXF editor. AutoCAD-style commands, layers, dimensions, and PDF export — no installation, no account required.",
+        "description": t['page.desc'],
         "applicationCategory": "DesignApplication",
         "operatingSystem": "Web",
+        "inLanguage": "en",
         "offers": {
           "@type": "Offer",
           "price": "0",
           "priceCurrency": "USD"
         },
         "screenshot": "https://kulmanlab.com/og.png",
-        "featureList": "DXF import and export, Command terminal, Layer management, Dimensions and annotations, PDF and PNG export, Grip editing, Works offline, No account required"
+        "featureList": t['page.featureList']
       }
     ]
   }}
