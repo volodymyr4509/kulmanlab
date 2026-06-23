@@ -83,6 +83,13 @@
 - Changelog (HI): https://kulmanlab.com/hi/changelog
 - FAQ (HI): https://kulmanlab.com/hi/faq
 
+## Japanese (日本語)
+
+- Landing page (JA): https://kulmanlab.com/ja/
+- Docs (JA): https://kulmanlab.com/ja/docs
+- Changelog (JA): https://kulmanlab.com/ja/changelog
+- FAQ (JA): https://kulmanlab.com/ja/faq
+
 ## Chinese Simplified (中文)
 
 - Landing page (ZH): https://kulmanlab.com/zh/
