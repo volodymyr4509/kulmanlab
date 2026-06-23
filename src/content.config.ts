@@ -47,4 +47,9 @@ const docsTr = defineCollection({
   schema: docSchema,
 });
 
-export const collections = { docs, 'docs-de': docsDe, 'docs-es': docsEs, 'docs-fr': docsFr, 'docs-it': docsIt, 'docs-pt': docsPt, 'docs-uk': docsUk, 'docs-tr': docsTr };
+const docsZh = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/docs-zh' }),
+  schema: docSchema,
+});
+
+export const collections = { docs, 'docs-de': docsDe, 'docs-es': docsEs, 'docs-fr': docsFr, 'docs-it': docsIt, 'docs-pt': docsPt, 'docs-uk': docsUk, 'docs-tr': docsTr, 'docs-zh': docsZh };
