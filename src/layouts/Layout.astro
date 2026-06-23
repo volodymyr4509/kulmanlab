@@ -7,10 +7,17 @@ interface Props {
   description: string;
   canonical?: string;
   lang?: string;
+  keywords?: string;
   alternates?: Array<{ hreflang: string; href: string }>;
   jsonLd?: object;
 }
-const { title, description, canonical = 'https://kulmanlab.com', lang = 'en', alternates, jsonLd } = Astro.props;
+const { title, description, canonical = 'https://kulmanlab.com', lang = 'en', keywords, alternates, jsonLd } = Astro.props;
+
+const ogLocale: Record<string, string> = {
+  en: 'en_US', de: 'de_DE', es: 'es_ES', fr: 'fr_FR', it: 'it_IT',
+  pt: 'pt_BR', uk: 'uk_UA', tr: 'tr_TR', zh: 'zh_CN', hi: 'hi_IN',
+  ar: 'ar_SA', id: 'id_ID', ja: 'ja_JP',
+};
 ---
 <!doctype html>
 <html lang={lang} dir={lang === 'ar' ? 'rtl' : 'ltr'}>
@@ -18,8 +25,10 @@ const { title, description, canonical = 'https://kulmanlab.com', lang = 'en', al
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
+    {keywords && <meta name="keywords" content={keywords} />}
 
     <meta property="og:type" content="website" />
+    <meta property="og:locale" content={ogLocale[lang] ?? 'en_US'} />
     <meta property="og:url" content={canonical} />
     <meta property="og:site_name" content="KulmanLab" />
     <meta property="og:title" content={title} />
