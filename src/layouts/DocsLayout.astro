@@ -180,6 +180,42 @@ const s = lang === 'de' ? {
   gridSnap: 'ग्रिड और स्नैप',
   newFile: 'नई फ़ाइल',
   matchProp: 'गुण मिलान',
+} : lang === 'ar' ? {
+  overview: 'نظرة عامة',
+  ref: 'مرجع الأوامر',
+  shapes: 'الأشكال',
+  edit: 'تحرير',
+  markup: 'التعليقات',
+  layer: 'الطبقة',
+  layouts: 'التخطيطات',
+  navigate: 'التنقل',
+  measure: 'القياس',
+  style: 'النمط',
+  file: 'الملف',
+  iface: 'الواجهة',
+  zoomIn: 'تكبير',
+  zoomOut: 'تصغير',
+  gridSnap: 'الشبكة والالتقاط',
+  newFile: 'ملف جديد',
+  matchProp: 'مطابقة الخصائص',
+} : lang === 'id' ? {
+  overview: 'Ikhtisar',
+  ref: 'Referensi Perintah',
+  shapes: 'Bentuk',
+  edit: 'Edit',
+  markup: 'Markup',
+  layer: 'Layer',
+  layouts: 'Layout',
+  navigate: 'Navigasi',
+  measure: 'Ukuran',
+  style: 'Gaya',
+  file: 'File',
+  iface: 'Antarmuka',
+  zoomIn: 'Perbesar',
+  zoomOut: 'Perkecil',
+  gridSnap: 'Grid dan Snap',
+  newFile: 'File Baru',
+  matchProp: 'Cocokkan Properti',
 } : {
   overview: 'Overview',
   ref: 'Command Reference',
@@ -314,7 +350,7 @@ const sidebar = [
 ---
 
 <!doctype html>
-<html lang={lang}>
+<html lang={lang} dir={lang === 'ar' ? 'rtl' : 'ltr'}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -343,6 +379,8 @@ const sidebar = [
     <link rel="alternate" hreflang="tr" href={`https://kulmanlab.com/tr/docs${entrySlug ? '/' + entrySlug : ''}`} />
     <link rel="alternate" hreflang="zh" href={`https://kulmanlab.com/zh/docs${entrySlug ? '/' + entrySlug : ''}`} />
     <link rel="alternate" hreflang="hi" href={`https://kulmanlab.com/hi/docs${entrySlug ? '/' + entrySlug : ''}`} />
+    <link rel="alternate" hreflang="ar" href={`https://kulmanlab.com/ar/docs${entrySlug ? '/' + entrySlug : ''}`} />
+    <link rel="alternate" hreflang="id" href={`https://kulmanlab.com/id/docs${entrySlug ? '/' + entrySlug : ''}`} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 

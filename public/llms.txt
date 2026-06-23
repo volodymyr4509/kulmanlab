@@ -62,6 +62,20 @@
 - Changelog (TR): https://kulmanlab.com/tr/changelog
 - FAQ (TR): https://kulmanlab.com/tr/faq
 
+## Indonesian (Bahasa Indonesia)
+
+- Landing page (ID): https://kulmanlab.com/id/
+- Docs (ID): https://kulmanlab.com/id/docs
+- Changelog (ID): https://kulmanlab.com/id/changelog
+- FAQ (ID): https://kulmanlab.com/id/faq
+
+## Arabic (العربية)
+
+- Landing page (AR): https://kulmanlab.com/ar/
+- Docs (AR): https://kulmanlab.com/ar/docs
+- Changelog (AR): https://kulmanlab.com/ar/changelog
+- FAQ (AR): https://kulmanlab.com/ar/faq
+
 ## Hindi (हिन्दी)
 
 - Landing page (HI): https://kulmanlab.com/hi/
