@@ -62,6 +62,13 @@
 - Changelog (TR): https://kulmanlab.com/tr/changelog
 - FAQ (TR): https://kulmanlab.com/tr/faq
 
+## Hindi (हिन्दी)
+
+- Landing page (HI): https://kulmanlab.com/hi/
+- Docs (HI): https://kulmanlab.com/hi/docs
+- Changelog (HI): https://kulmanlab.com/hi/changelog
+- FAQ (HI): https://kulmanlab.com/hi/faq
+
 ## Chinese Simplified (中文)
 
 - Landing page (ZH): https://kulmanlab.com/zh/
