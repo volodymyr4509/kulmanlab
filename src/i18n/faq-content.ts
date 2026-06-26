@@ -690,4 +690,50 @@ export const faqContent: Record<string, FaqSection[]> = {
       ],
     },
   ],
+
+  vi: [
+    {
+      headingKey: 'faq.section.start',
+      items: [
+        { q: 'KulmanLab có thực sự miễn phí không?', a: 'Có — hoàn toàn miễn phí. Không có đăng ký, không cần thẻ tín dụng, không có gói ẩn. Toàn bộ tính năng được cung cấp cho tất cả mọi người mà không có giới hạn.' },
+        { q: 'Tôi có cần tạo tài khoản không?', a: 'Không. Không cần đăng nhập, đăng ký hay email. Mở ứng dụng và bắt đầu vẽ ngay lập tức.' },
+        { q: 'Những trình duyệt nào được hỗ trợ?', a: 'Bất kỳ trình duyệt máy tính để bàn hiện đại nào — Chrome, Firefox, Safari và Edge đều hoạt động. KulmanLab chỉ dành cho máy tính để bàn; thiết bị di động và máy tính bảng hiện chưa được hỗ trợ.' },
+        { q: 'Có hoạt động ngoại tuyến không?', a: 'Có. Sau lần tải đầu tiên, ứng dụng được lưu vào bộ nhớ đệm và chạy hoàn toàn mà không cần kết nối internet. Các bản vẽ của bạn được lưu trữ cục bộ nên không cần máy chủ.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.files',
+      items: [
+        { q: 'Bản vẽ của tôi được lưu trữ ở đâu?', a: 'Trong localStorage của trình duyệt — trên thiết bị của chính bạn. Không có gì được tải lên máy chủ. Mỗi trình duyệt trên mỗi thiết bị có bộ nhớ lưu trữ độc lập riêng.' },
+        { q: 'Điều gì xảy ra nếu tôi xóa dữ liệu trình duyệt?', a: 'Các bản vẽ đã lưu của bạn sẽ bị mất. Hãy luôn xuất bản sao DXF của những bản vẽ quan trọng trước khi xóa bộ nhớ trình duyệt.' },
+        { q: 'Tôi có thể mở tệp .dwg không?', a: 'KulmanLab hỗ trợ DXF (Drawing Exchange Format), không hỗ trợ định dạng DWG độc quyền. Hầu hết các ứng dụng CAD máy tính để bàn đều có thể xuất DXF, vì vậy hãy xuất từ ứng dụng nguồn của bạn trước.' },
+        { q: 'Những định dạng xuất nào có sẵn?', a: 'DXF để trao đổi với các công cụ CAD khác, và PDF hoặc PNG/WebP cho đầu ra sẵn sàng in. Trình quản lý in cho phép bạn đặt DPI và kích thước giấy trước khi xuất.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.features',
+      items: [
+        { q: 'Có terminal lệnh không?', a: 'Có. Nhập lệnh trực tiếp — LINE, CIRCLE, MOVE, TRIM và hơn 50 lệnh khác. Terminal hỗ trợ lịch sử (phím mũi tên), tự động hoàn thành (Tab) và nhập số chính xác.' },
+        { q: 'Có hỗ trợ lớp không?', a: 'Quản lý lớp đầy đủ: tạo, đổi tên, đóng băng, khóa và cô lập các lớp. Đặt màu sắc, kiểu đường và độ dày đường theo từng lớp. Tất cả dữ liệu lớp được giữ nguyên khi xuất DXF.' },
+        { q: 'Những loại kích thước nào có sẵn?', a: 'Kích thước tuyến tính, căn chỉnh, bán kính, đường kính, góc và liên tục. Tất cả được lưu dưới dạng thực thể DIMENSION DXF chuẩn, tương thích với các công cụ CAD khác.' },
+        { q: 'Tôi có thể chỉnh sửa hình học bằng grip không?', a: 'Có. Chọn bất kỳ thực thể nào để hiển thị tay cầm grip tại các điểm chính — điểm cuối, điểm giữa, tâm, đầu cung. Kéo để định hình lại trực tiếp trên canvas, hoặc nhập giá trị khi kéo để định vị chính xác.' },
+        { q: 'Có hỗ trợ cộng tác theo thời gian thực không?', a: 'Hiện chưa có. KulmanLab là công cụ đơn người dùng và bản vẽ được lưu cục bộ. Đồng bộ đám mây và cộng tác nằm ngoài phạm vi hiện tại.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.compat',
+      items: [
+        { q: 'Các tệp DXF của KulmanLab có tương thích với phần mềm CAD khác không?', a: 'Có. KulmanLab đọc và ghi DXF AC1032 — một phiên bản được hỗ trợ rộng rãi. Các tệp mở đúng cách trong LibreCAD, QCAD, BricsCAD, FreeCAD và bất kỳ công cụ nào hỗ trợ DXF.' },
+        { q: 'Sự khác biệt giữa DXF và DWG là gì?', a: 'DXF là định dạng trao đổi mở, dựa trên văn bản, được thiết kế cho khả năng tương tác. DWG là định dạng nhị phân độc quyền. KulmanLab sử dụng DXF, có thể đọc bởi hầu hết mọi công cụ CAD.' },
+        { q: 'KulmanLab có thể thay thế phần mềm CAD máy tính để bàn của tôi không?', a: 'Cho bản vẽ 2D — có. KulmanLab có terminal lệnh đầy đủ, các lớp, bắt điểm, kích thước, chỉnh sửa grip và tương thích DXF. Không hỗ trợ 3D, block/xref hay ràng buộc tham số.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.privacy',
+      items: [
+        { q: 'KulmanLab có thu thập dữ liệu bản vẽ của tôi không?', a: 'Không. Bản vẽ của bạn được lưu trong trình duyệt và không bao giờ được gửi đi đâu. KulmanLab sử dụng Google Analytics để thu thập số liệu sử dụng ẩn danh (lượt xem trang, số phiên) — không có nội dung bản vẽ nào liên quan.' },
+        { q: 'Cookie có được sử dụng không?', a: 'Chỉ cookie được Google Analytics tự động đặt. Không có theo dõi thêm, không có cookie quảng cáo, không chia sẻ dữ liệu với bên thứ ba.' },
+      ],
+    },
+  ],
 };
