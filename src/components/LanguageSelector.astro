@@ -5,10 +5,21 @@ import type { Lang } from '../i18n/translations';
 interface Props {
   lang?: Lang;
   page?: 'home' | 'faq' | 'changelog';
+  docsSlug?: string;
 }
-const { lang: currentLang = 'en', page = 'home' } = Astro.props;
+const { lang: currentLang = 'en', page = 'home', docsSlug } = Astro.props;
 
 const byCode = Object.fromEntries(languages.map(l => [l.code, l]));
+
+function hrefFor(code: string): string {
+  const prefix = code === 'en' ? '' : `/${code}`;
+  if (docsSlug !== undefined) {
+    return docsSlug ? `${prefix}/docs/${docsSlug}` : `${prefix}/docs` || '/docs';
+  }
+  if (page === 'faq') return `${prefix}/faq` || '/faq';
+  if (page === 'changelog') return `${prefix}/changelog` || '/changelog';
+  return prefix || '/';
+}
 
 const groups: { label: string; codes: string[] }[] = [
   { label: 'Europe', codes: ['en', 'de', 'es', 'fr', 'it', 'pt', 'pl', 'uk'] },
@@ -48,8 +59,9 @@ const groups: { label: string; codes: string[] }[] = [
           const lang = byCode[code];
           if (!lang) return null;
           return (
-            <button
+            <a
               role="option"
+              href={hrefFor(lang.code)}
               data-lang={lang.code}
               class="lang-option flex w-full items-center gap-2.5 px-3 py-1.5 text-sm text-slate-300 hover:bg-slate-800 hover:text-slate-50 transition-colors"
             >
@@ -58,7 +70,7 @@ const groups: { label: string; codes: string[] }[] = [
               <svg data-check class={`ml-auto flex-shrink-0 h-3.5 w-3.5 text-brand ${lang.code === currentLang ? '' : 'hidden'}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
               </svg>
-            </button>
+            </a>
           );
         })}
       </>
@@ -131,7 +143,8 @@ const groups: { label: string; codes: string[] }[] = [
 
   // Language selection — navigate to locale URL
   document.querySelectorAll<HTMLElement>('.lang-option').forEach(btn => {
-    btn.addEventListener('click', () => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
       const lang = btn.dataset.lang as Lang;
       if (!lang) return;
       localStorage.setItem(LS_KEY, lang);

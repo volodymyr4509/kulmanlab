@@ -6,8 +6,9 @@ import { localeUrl } from '../i18n/utils';
 interface Props {
   active?: 'docs' | 'changelog' | 'faq';
   lang?: Lang;
+  docsSlug?: string;
 }
-const { active, lang = 'en' } = Astro.props;
+const { active, lang = 'en', docsSlug } = Astro.props;
 const t = translations[lang];
 
 const APP_URL = 'https://app.kulmanlab.com';
@@ -44,7 +45,7 @@ const mobileLink = (page: string) =>
       <a href={docsUrl} data-locale="docs" class={link('docs')}><span data-i18n="nav.docs">{t['nav.docs']}</span></a>
       <a href={changelogUrl} data-locale="changelog" class={link('changelog')}><span data-i18n="nav.changelog">{t['nav.changelog']}</span></a>
       <a href={faqUrl} data-locale="faq" class={link('faq')}><span data-i18n="nav.faq">{t['nav.faq']}</span></a>
-      <LanguageSelector lang={lang} page={active === 'faq' ? 'faq' : active === 'changelog' ? 'changelog' : 'home'} />
+      <LanguageSelector lang={lang} page={active === 'faq' ? 'faq' : active === 'changelog' ? 'changelog' : 'home'} docsSlug={active === 'docs' ? docsSlug : undefined} />
       <div class="flex items-center gap-3">
         <a href={GITHUB_URL} target="_blank" rel="noopener" aria-label="GitHub" class="text-slate-500 hover:text-slate-200 transition-colors">
           <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
