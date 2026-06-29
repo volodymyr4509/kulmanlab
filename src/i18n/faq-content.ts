@@ -736,4 +736,94 @@ export const faqContent: Record<string, FaqSection[]> = {
       ],
     },
   ],
+  th: [
+    {
+      headingKey: 'faq.section.start',
+      items: [
+        { q: 'KulmanLab ฟรีจริงๆ ไหม?', a: 'ใช่ — ฟรีอย่างสมบูรณ์ ไม่มีค่าสมัครสมาชิก ไม่ต้องใช้บัตรเครดิต ไม่มีแผนซ่อนเร้น ฟีเจอร์ทั้งหมดเปิดให้ทุกคนใช้โดยไม่มีข้อจำกัด' },
+        { q: 'ฉันต้องสร้างบัญชีไหม?', a: 'ไม่ ไม่มีการเข้าสู่ระบบ ไม่มีการสมัคร และไม่ต้องใช้อีเมล เปิดแอปแล้วเริ่มวาดได้ทันที' },
+        { q: 'รองรับเบราว์เซอร์ใดบ้าง?', a: 'เบราว์เซอร์คอมพิวเตอร์ทุกรุ่น — Chrome, Firefox, Safari และ Edge ใช้งานได้ KulmanLab เหมาะสำหรับเดสก์ท็อปเท่านั้น ยังไม่รองรับอุปกรณ์มือถือและแท็บเล็ต' },
+        { q: 'ทำงานออฟไลน์ได้ไหม?', a: 'ได้ หลังจากโหลดครั้งแรก แอปจะถูกแคชและทำงานได้โดยไม่ต้องเชื่อมต่ออินเทอร์เน็ต ไฟล์ภาพถูกเก็บในเครื่องดังนั้นไม่จำเป็นต้องใช้เซิร์ฟเวอร์' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.files',
+      items: [
+        { q: 'ไฟล์ภาพของฉันเก็บอยู่ที่ไหน?', a: 'ใน localStorage ของเบราว์เซอร์ — บนอุปกรณ์ของคุณเอง ไม่มีอะไรถูกอัปโหลดไปยังเซิร์ฟเวอร์ แต่ละเบราว์เซอร์บนแต่ละอุปกรณ์มีพื้นที่จัดเก็บอิสระของตัวเอง' },
+        { q: 'เกิดอะไรขึ้นถ้าฉันล้างข้อมูลเบราว์เซอร์?', a: 'ไฟล์ภาพที่บันทึกไว้จะสูญหาย ควรส่งออกสำเนา DXF ของสิ่งสำคัญก่อนล้างหน่วยความจำเบราว์เซอร์เสมอ' },
+        { q: 'ฉันสามารถเปิดไฟล์ .dwg ได้ไหม?', a: 'KulmanLab รองรับ DXF (Drawing Exchange Format) ไม่ใช่รูปแบบ DWG ที่เป็นกรรมสิทธิ์ แอปพลิเคชัน CAD บนเดสก์ท็อปส่วนใหญ่สามารถส่งออก DXF ได้ ดังนั้นให้ส่งออกจากแอปต้นทางก่อน' },
+        { q: 'รูปแบบการส่งออกใดบ้างที่รองรับ?', a: 'DXF สำหรับแลกเปลี่ยนกับเครื่องมือ CAD อื่น และ PDF หรือ PNG/WebP สำหรับงานพิมพ์ ตัวจัดการการพิมพ์ให้คุณตั้งค่า DPI และขนาดกระดาษก่อนส่งออก' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.features',
+      items: [
+        { q: 'มีเทอร์มินัลคำสั่งไหม?', a: 'มี พิมพ์คำสั่งโดยตรง — LINE, CIRCLE, MOVE, TRIM และอีกกว่า 50 คำสั่ง เทอร์มินัลรองรับประวัติ (แป้นลูกศร) การเติมข้อความอัตโนมัติ (Tab) และการป้อนตัวเลขที่แม่นยำ' },
+        { q: 'รองรับเลเยอร์ไหม?', a: 'รองรับการจัดการเลเยอร์อย่างสมบูรณ์ สร้าง เปลี่ยนชื่อ แช่แข็ง ล็อก และแยกเลเยอร์ ตั้งค่าสี ประเภทเส้น และน้ำหนักเส้นต่อเลเยอร์ ข้อมูลเลเยอร์ทั้งหมดถูกเก็บรักษาไว้ในการส่งออก DXF' },
+        { q: 'มีประเภทขนาดใดบ้าง?', a: 'ขนาดเชิงเส้น ขนาดแนวตั้งฉาก รัศมี เส้นผ่านศูนย์กลาง มุม และต่อเนื่อง ทั้งหมดถูกบันทึกเป็นเอนทิตี DIMENSION DXF มาตรฐาน เข้ากันได้กับเครื่องมือ CAD อื่น' },
+        { q: 'ฉันสามารถแก้ไขรูปทรงด้วย grip ได้ไหม?', a: 'ได้ เลือกเอนทิตีใดก็ได้เพื่อแสดงจุดจับ grip ที่จุดสำคัญ — จุดสิ้นสุด จุดกึ่งกลาง ศูนย์กลาง ปลายโค้ง ลากเพื่อเปลี่ยนรูปโดยตรงบนแคนวาส หรือพิมพ์ค่าขณะลากเพื่อวางตำแหน่งที่แม่นยำ' },
+        { q: 'รองรับการทำงานร่วมกันแบบเรียลไทม์ไหม?', a: 'ยังไม่มี KulmanLab เป็นเครื่องมือสำหรับผู้ใช้คนเดียวและภาพถูกเก็บในเครื่อง การซิงค์คลาวด์และการทำงานร่วมกันอยู่นอกขอบเขตปัจจุบัน' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.compat',
+      items: [
+        { q: 'ไฟล์ DXF ของ KulmanLab เข้ากันได้กับซอฟต์แวร์ CAD อื่นไหม?', a: 'ได้ KulmanLab อ่านและเขียน DXF AC1032 — เวอร์ชันที่รองรับอย่างกว้างขวาง ไฟล์เปิดได้ถูกต้องใน LibreCAD, QCAD, BricsCAD, FreeCAD และเครื่องมือใดก็ตามที่รองรับ DXF' },
+        { q: 'ความแตกต่างระหว่าง DXF และ DWG คืออะไร?', a: 'DXF เป็นรูปแบบแลกเปลี่ยนแบบเปิดที่อ่านได้ออกแบบมาเพื่อความสามารถในการทำงานร่วมกัน DWG เป็นรูปแบบไบนารีที่เป็นกรรมสิทธิ์ KulmanLab ใช้ DXF ซึ่งอ่านได้โดยเครื่องมือ CAD เกือบทุกชนิด' },
+        { q: 'KulmanLab สามารถทดแทนซอฟต์แวร์ CAD บนเดสก์ท็อปของฉันได้ไหม?', a: 'สำหรับการเขียนแบบ 2D — ได้ KulmanLab มีเทอร์มินัลคำสั่งเต็มรูปแบบ เลเยอร์ การจับจุด ขนาด การแก้ไข grip และความเข้ากันได้กับ DXF ไม่รองรับ 3D บล็อก/xref หรือข้อจำกัดพารามิเตอร์' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.privacy',
+      items: [
+        { q: 'KulmanLab รวบรวมข้อมูลภาพของฉันไหม?', a: 'ไม่ ภาพของคุณเก็บอยู่ในเบราว์เซอร์และไม่เคยถูกส่งไปที่ใด KulmanLab ใช้ Google Analytics สำหรับตัวชี้วัดการใช้งานแบบไม่ระบุตัวตน (การดูหน้า จำนวนเซสชัน) — ไม่มีเนื้อหาภาพที่เกี่ยวข้อง' },
+        { q: 'มีการใช้คุกกี้ไหม?', a: 'เฉพาะคุกกี้ที่ Google Analytics ตั้งค่าโดยอัตโนมัติ ไม่มีการติดตามเพิ่มเติม ไม่มีคุกกี้โฆษณา ไม่มีการแบ่งปันข้อมูลกับบุคคลที่สาม' },
+      ],
+    },
+  ],
+  ms: [
+    {
+      headingKey: 'faq.section.start',
+      items: [
+        { q: 'Adakah KulmanLab benar-benar percuma?', a: 'Ya — percuma sepenuhnya. Tiada langganan, tiada kad kredit, tiada pelan tersembunyi. Set ciri penuh tersedia untuk semua orang tanpa had.' },
+        { q: 'Perlukah saya mencipta akaun?', a: 'Tidak. Tiada log masuk, tiada pendaftaran, dan tiada e-mel diperlukan. Buka aplikasi dan mula melukis dengan segera.' },
+        { q: 'Pelayar mana yang disokong?', a: 'Mana-mana pelayar desktop moden — Chrome, Firefox, Safari dan Edge semuanya berfungsi. KulmanLab adalah untuk desktop sahaja; mudah alih dan tablet tidak disokong buat masa ini.' },
+        { q: 'Adakah ia berfungsi luar talian?', a: 'Ya. Selepas muat turun pertama, aplikasi disimpan dalam cache dan berjalan sepenuhnya tanpa sambungan internet. Lukisan anda disimpan secara tempatan jadi tiada yang memerlukan pelayan.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.files',
+      items: [
+        { q: 'Di mana lukisan saya disimpan?', a: 'Dalam localStorage pelayar anda — pada peranti anda sendiri. Tiada apa yang dimuat naik ke pelayan. Setiap pelayar pada setiap peranti mempunyai storan bebas yang tersendiri.' },
+        { q: 'Apa yang berlaku jika saya memadamkan data pelayar?', a: 'Lukisan yang disimpan akan hilang. Sentiasa eksport salinan DXF bagi sebarang perkara penting sebelum memadamkan storan pelayar.' },
+        { q: 'Bolehkah saya membuka fail .dwg?', a: 'KulmanLab menyokong DXF (Drawing Exchange Format), bukan format DWG proprietari. Kebanyakan aplikasi CAD desktop boleh mengeksport DXF, jadi eksport dari aplikasi sumber anda dahulu.' },
+        { q: 'Format eksport apa yang tersedia?', a: 'DXF untuk pertukaran dengan alat CAD lain, dan PDF atau PNG/WebP untuk output sedia cetak. Pengurus cetak membolehkan anda menetapkan DPI dan saiz kertas sebelum mengeksport.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.features',
+      items: [
+        { q: 'Adakah ia mempunyai terminal arahan?', a: 'Ya. Taip arahan secara langsung — LINE, CIRCLE, MOVE, TRIM dan lebih 50 yang lain. Terminal menyokong sejarah (kekunci anak panah), pelengkap automatik (Tab) dan input angka tepat.' },
+        { q: 'Adakah terdapat sokongan lapisan?', a: 'Pengurusan lapisan penuh: cipta, namakan semula, beku, kunci dan asingkan lapisan. Tetapkan warna, jenis garisan dan berat garisan bagi setiap lapisan. Semua data lapisan dipelihara dalam eksport DXF.' },
+        { q: 'Jenis dimensi apa yang tersedia?', a: 'Dimensi linear, sejajar, jejari, diameter, sudut dan berterusan. Semuanya disimpan sebagai entiti DXF DIMENSION piawai yang serasi dengan alat CAD lain.' },
+        { q: 'Bolehkah saya mengedit geometri dengan grip?', a: 'Ya. Pilih mana-mana entiti untuk mendedahkan pemegang grip di titik utama — titik akhir, titik tengah, pusat, hujung arka. Seret untuk membentuk semula terus di atas kanvas, atau taip nilai semasa menyeret untuk penempatan tepat.' },
+        { q: 'Adakah kerjasama masa nyata disokong?', a: 'Tidak buat masa ini. KulmanLab adalah alat pengguna tunggal dan lukisan kekal tempatan. Penyegerakan awan dan kerjasama berada di luar skop semasa.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.compat',
+      items: [
+        { q: 'Adakah fail DXF KulmanLab serasi dengan perisian CAD lain?', a: 'Ya. KulmanLab membaca dan menulis DXF AC1032 — versi yang disokong secara meluas. Fail dibuka dengan betul dalam LibreCAD, QCAD, BricsCAD, FreeCAD dan mana-mana alat berkemampuan DXF.' },
+        { q: 'Apakah perbezaan antara DXF dan DWG?', a: 'DXF adalah format pertukaran terbuka berasaskan teks yang direka untuk kebolehoperasian. DWG adalah format perduaan proprietari. KulmanLab menggunakan DXF, yang boleh dibaca oleh hampir semua alat CAD.' },
+        { q: 'Bolehkah KulmanLab menggantikan perisian CAD desktop saya?', a: 'Untuk lakaran 2D — ya. KulmanLab mempunyai terminal arahan penuh, lapisan, snapping, dimensi, pengeditan grip dan keserasian DXF. Ia tidak menyokong 3D, blok/xref atau kekangan parametrik.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.privacy',
+      items: [
+        { q: 'Adakah KulmanLab mengumpul data lukisan saya?', a: 'Tidak. Lukisan anda kekal dalam pelayar dan tidak pernah dihantar ke mana-mana. KulmanLab menggunakan Google Analytics untuk metrik penggunaan tanpa nama (paparan halaman, kiraan sesi) — tiada kandungan lukisan yang terlibat.' },
+        { q: 'Adakah kuki digunakan?', a: 'Hanya kuki yang ditetapkan secara automatik oleh Google Analytics. Tiada penjejakan di luar itu, tiada kuki pengiklanan, tiada perkongsian data pihak ketiga.' },
+      ],
+    },
+  ],
 };
