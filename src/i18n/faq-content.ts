@@ -826,4 +826,96 @@ export const faqContent: Record<string, FaqSection[]> = {
       ],
     },
   ],
+
+  bn: [
+    {
+      headingKey: 'faq.section.start',
+      items: [
+        { q: 'KulmanLab কি সত্যিই বিনামূল্যে?', a: 'হ্যাঁ — সম্পূর্ণ বিনামূল্যে। কোনো সাবস্ক্রিপশন নেই, কোনো ক্রেডিট কার্ড নেই, কোনো লুকানো পরিকল্পনা নেই। সম্পূর্ণ ফিচার সেট সবার জন্য কোনো সীমা ছাড়াই পাওয়া যায়।' },
+        { q: 'আমার কি অ্যাকাউন্ট তৈরি করতে হবে?', a: 'না। কোনো লগইন, সাইন-আপ বা ইমেইলের প্রয়োজন নেই। অ্যাপটি খুলুন এবং সাথে সাথে ড্রয়িং শুরু করুন।' },
+        { q: 'কোন ব্রাউজারগুলো সমর্থিত?', a: 'যেকোনো আধুনিক ডেস্কটপ ব্রাউজার — Chrome, Firefox, Safari এবং Edge সবই কাজ করে। KulmanLab শুধুমাত্র ডেস্কটপের জন্য; মোবাইল এবং ট্যাবলেট বর্তমানে সমর্থিত নয়।' },
+        { q: 'এটি কি অফলাইনে কাজ করে?', a: 'হ্যাঁ। প্রথম লোডের পরে অ্যাপটি ক্যাশ হয়ে যায় এবং ইন্টারনেট সংযোগ ছাড়াই সম্পূর্ণরূপে চলে। আপনার ড্রয়িংগুলো স্থানীয়ভাবে সংরক্ষিত হয় তাই কোনো সার্ভারের প্রয়োজন নেই।' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.files',
+      items: [
+        { q: 'আমার ড্রয়িংগুলো কোথায় সংরক্ষিত হয়?', a: 'আপনার ব্রাউজারের localStorage-এ — আপনার নিজের ডিভাইসে। কিছুই কখনো সার্ভারে আপলোড হয় না। প্রতিটি ডিভাইসের প্রতিটি ব্রাউজারের নিজস্ব স্বাধীন স্টোরেজ আছে।' },
+        { q: 'আমি যদি ব্রাউজার ডেটা মুছে ফেলি তাহলে কী হবে?', a: 'আপনার সংরক্ষিত ড্রয়িংগুলো হারিয়ে যাবে। ব্রাউজার স্টোরেজ পরিষ্কার করার আগে সবসময় গুরুত্বপূর্ণ জিনিসগুলোর DXF কপি এক্সপোর্ট করুন।' },
+        { q: 'আমি কি .dwg ফাইল খুলতে পারব?', a: 'KulmanLab DXF (Drawing Exchange Format) সমর্থন করে, মালিকানাধীন DWG ফরম্যাট নয়। বেশিরভাগ ডেস্কটপ CAD অ্যাপ্লিকেশন DXF এক্সপোর্ট করতে পারে, তাই প্রথমে আপনার সোর্স অ্যাপ থেকে এক্সপোর্ট করুন।' },
+        { q: 'কোন এক্সপোর্ট ফরম্যাটগুলো পাওয়া যায়?', a: 'অন্যান্য CAD টুলের সাথে আদান-প্রদানের জন্য DXF, এবং প্রিন্ট-রেডি আউটপুটের জন্য PDF বা PNG/WebP। প্রিন্ট ম্যানেজার এক্সপোর্টের আগে DPI এবং পেপার সাইজ সেট করতে দেয়।' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.features',
+      items: [
+        { q: 'এটিতে কি কমান্ড টার্মিনাল আছে?', a: 'হ্যাঁ। সরাসরি কমান্ড টাইপ করুন — LINE, CIRCLE, MOVE, TRIM এবং ৫০টিরও বেশি। টার্মিনাল ইতিহাস (অ্যারো কি), অটোকমপ্লিট (Tab) এবং সঠিক সংখ্যাসূচক ইনপুট সমর্থন করে।' },
+        { q: 'কি লেয়ার সাপোর্ট আছে?', a: 'সম্পূর্ণ লেয়ার ম্যানেজমেন্ট: লেয়ার তৈরি, নাম পরিবর্তন, ফ্রিজ, লক এবং আইসোলেট করুন। প্রতিটি লেয়ারের জন্য রঙ, লাইনটাইপ এবং লাইনওয়েট সেট করুন। DXF এক্সপোর্টে সমস্ত লেয়ার ডেটা সংরক্ষিত থাকে।' },
+        { q: 'কী ধরনের মাত্রা পাওয়া যায়?', a: 'লিনিয়ার, অ্যালাইনড, রেডিয়াস, ডায়ামিটার, অ্যাঙ্গুলার এবং কন্টিনিউ মাত্রা। সবই স্ট্যান্ডার্ড DXF DIMENSION এন্টিটি হিসেবে সংরক্ষিত যা অন্যান্য DXF-সক্ষম CAD টুলের সাথে সামঞ্জস্যপূর্ণ।' },
+        { q: 'আমি কি গ্রিপ দিয়ে জ্যামিতি সম্পাদনা করতে পারি?', a: 'হ্যাঁ। যেকোনো এন্টিটি সিলেক্ট করুন তো মূল পয়েন্টগুলোতে গ্রিপ হ্যান্ডেল দেখা যায় — এন্ডপয়েন্ট, মিডপয়েন্ট, কেন্দ্র, আর্ক এন্ড। সরাসরি ক্যানভাসে রিশেপ করতে টানুন, বা সঠিক প্লেসমেন্টের জন্য টানার সময় মান টাইপ করুন।' },
+        { q: 'কি রিয়েল-টাইম সহযোগিতা সমর্থিত?', a: 'এখন নয়। KulmanLab একটি একক-ব্যবহারকারী টুল এবং ড্রয়িংগুলো স্থানীয়ভাবে থাকে। ক্লাউড সিঙ্ক এবং সহযোগিতা বর্তমান পরিধির বাইরে।' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.compat',
+      items: [
+        { q: 'KulmanLab DXF ফাইলগুলো কি অন্যান্য CAD সফটওয়্যারের সাথে সামঞ্জস্যপূর্ণ?', a: 'হ্যাঁ। KulmanLab AC1032 DXF পড়ে এবং লেখে — একটি ব্যাপকভাবে সমর্থিত সংস্করণ। ফাইলগুলো LibreCAD, QCAD, BricsCAD, FreeCAD এবং অন্য যেকোনো DXF-সক্ষম টুলে সঠিকভাবে খোলে।' },
+        { q: 'DXF এবং DWG-এর মধ্যে পার্থক্য কী?', a: 'DXF হল একটি উন্মুক্ত, টেক্সট-ভিত্তিক বিনিময় ফরম্যাট যা আন্তঃকার্যক্ষমতার জন্য ডিজাইন করা হয়েছে। DWG একটি মালিকানাধীন বাইনারি ফরম্যাট। KulmanLab DXF ব্যবহার করে, যা প্রায় প্রতিটি CAD টুল দ্বারা পঠনযোগ্য।' },
+        { q: 'KulmanLab কি আমার ডেস্কটপ CAD সফটওয়্যার প্রতিস্থাপন করতে পারে?', a: '2D ড্রাফটিং-এর জন্য — হ্যাঁ। KulmanLab-এ সম্পূর্ণ কমান্ড টার্মিনাল, লেয়ার, স্ন্যাপিং, মাত্রা, গ্রিপ এডিটিং এবং DXF সামঞ্জস্যতা আছে। এটি 3D, ব্লক/xref বা প্যারামেট্রিক কনস্ট্রেইন্ট সমর্থন করে না।' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.privacy',
+      items: [
+        { q: 'KulmanLab কি আমার ড্রয়িং ডেটা সংগ্রহ করে?', a: 'না। আপনার ড্রয়িংগুলো আপনার ব্রাউজারে থাকে এবং কোথাও পাঠানো হয় না। KulmanLab বেনামী ব্যবহারের মেট্রিক্সের জন্য (পেজ ভিউ, সেশন কাউন্ট) Google Analytics ব্যবহার করে — কোনো ড্রয়িং বিষয়বস্তু জড়িত নয়।' },
+        { q: 'কি কুকি ব্যবহার করা হয়?', a: 'শুধুমাত্র Google Analytics দ্বারা স্বয়ংক্রিয়ভাবে সেট করা কুকি। এর বাইরে কোনো ট্র্যাকিং নেই, কোনো বিজ্ঞাপন কুকি নেই, কোনো তৃতীয়-পক্ষের ডেটা শেয়ারিং নেই।' },
+      ],
+    },
+  ],
+
+  sw: [
+    {
+      headingKey: 'faq.section.start',
+      items: [
+        { q: 'Je, KulmanLab ni ya bure kweli kweli?', a: 'Ndiyo — bure kabisa. Hakuna usajili, hakuna kadi ya mkopo, hakuna mpango uliofichwa. Seti kamili ya vipengele inapatikana kwa kila mtu bila vikwazo.' },
+        { q: 'Je, ninahitaji kuunda akaunti?', a: 'Hapana. Hakuna kuingia, hakuna kusajili, na hakuna barua pepe inayohitajika. Fungua programu na uanze kuchora mara moja.' },
+        { q: 'Vivinjari vipi vinavyoungwa mkono?', a: 'Kivinjari chochote cha kisasa cha kompyuta — Chrome, Firefox, Safari na Edge vyote vinafanya kazi. KulmanLab ni kwa kompyuta tu; simu za mkononi na kompyuta ndogo hazingwa mkono kwa sasa.' },
+        { q: 'Je, inafanya kazi nje ya mtandao?', a: 'Ndiyo. Baada ya upakiaji wa kwanza programu inakumbukwa na inafanya kazi kabisa bila muunganiko wa intaneti. Michoro yako inahifadhiwa ndani ya kifaa hivyo hakuna kinachohitaji seva.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.files',
+      items: [
+        { q: 'Michoro yangu inahifadhiwa wapi?', a: 'Katika localStorage ya kivinjari chako — kwenye kifaa chako mwenyewe. Hakuna kinachopakiwa kwenye seva. Kila kivinjari kwenye kila kifaa kina hifadhi yake huru.' },
+        { q: 'Nini kinatokea nikifuta data ya kivinjari?', a: 'Michoro yako iliyohifadhiwa itapotea. Daima hamisha nakala ya DXF ya kitu chochote muhimu kabla ya kufuta hifadhi ya kivinjari.' },
+        { q: 'Je, naweza kufungua faili za .dwg?', a: 'KulmanLab inaauni DXF (Drawing Exchange Format), si muundo wa DWG wa umiliki. Programu nyingi za CAD za kompyuta zinaweza kuhamisha DXF, kwa hivyo hamisha kutoka programu yako ya asili kwanza.' },
+        { q: 'Miundo ipi ya uhamishaji inapatikana?', a: 'DXF kwa kubadilishana na zana zingine za CAD, na PDF au PNG/WebP kwa matokeo tayari ya uchapishaji. Kidhibiti cha uchapishaji hukuruhusu kuweka DPI na ukubwa wa karatasi kabla ya kuhamisha.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.features',
+      items: [
+        { q: 'Je, ina terminal ya amri?', a: 'Ndiyo. Andika amri moja kwa moja — LINE, CIRCLE, MOVE, TRIM na zaidi ya 50 zingine. Terminal inaauni historia (vitufe vya mshale), ukamilishaji otomatiki (Tab) na uingizaji sahihi wa nambari.' },
+        { q: 'Je, kuna msaada wa tabaka?', a: 'Usimamizi kamili wa tabaka: unda, piga jina upya, ganda, funga na tenga tabaka. Weka rangi, aina ya mstari na uzito wa mstari kwa kila tabaka. Data yote ya tabaka inahifadhiwa katika uhamishaji wa DXF.' },
+        { q: 'Aina gani za vipimo zinapatikana?', a: 'Vipimo vya mstari, vya kulingana, radi, kipenyo, pembe na vinavyoendelea. Vyote vimehifadhiwa kama vitu vya kawaida vya DXF DIMENSION vinavyolingana na zana zingine za CAD.' },
+        { q: 'Je, naweza kuhariri jiometri kwa vipini?', a: 'Ndiyo. Chagua kitu chochote ili kufunua vipini vya grip katika pointi kuu — pointi za mwisho, pointi za katikati, vituo, mwisho wa arc. Buruta ili kubadilisha umbo moja kwa moja kwenye turubai, au andika thamani unapoburuta kwa uwekaji sahihi.' },
+        { q: 'Je, ushirikiano wa wakati halisi unaauliwa?', a: 'Kwa sasa hapana. KulmanLab ni zana ya mtumiaji mmoja na michoro inabaki ndani ya kifaa. Usawazishaji wa wingu na ushirikiano viko nje ya upeo wa sasa.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.compat',
+      items: [
+        { q: 'Je, faili za DXF za KulmanLab zinalingana na programu zingine za CAD?', a: 'Ndiyo. KulmanLab inasoma na kuandika DXF ya AC1032 — toleo linaloungwa mkono kwa upana. Faili zinafunguka vizuri katika LibreCAD, QCAD, BricsCAD, FreeCAD na zana nyingine yoyote inayoweza DXF.' },
+        { q: 'Tofauti kati ya DXF na DWG ni nini?', a: 'DXF ni muundo wa wazi wa ubadilishanaji wa maandishi uliobuniwa kwa uintegrability. DWG ni muundo wa binary wa umiliki. KulmanLab inatumia DXF, inayoweza kusomwa na karibu kila zana ya CAD.' },
+        { q: 'Je, KulmanLab inaweza kuchukua nafasi ya programu yangu ya CAD ya kompyuta?', a: 'Kwa uandishi wa 2D — ndiyo. KulmanLab ina terminal kamili ya amri, tabaka, kupiga, vipimo, uhariri wa grip na ulinganifu wa DXF. Haiauni 3D, vitalu/xref au vikwazo vya parametriki.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.privacy',
+      items: [
+        { q: 'Je, KulmanLab inakusanya data ya michoro yangu?', a: 'Hapana. Michoro yako inabaki kwenye kivinjari chako na haipelekwi popote. KulmanLab inatumia Google Analytics kwa vipimo vya matumizi vya kubinafsi (mionekano ya ukurasa, idadi ya vikao) — hakuna maudhui ya mchoro yanayohusika.' },
+        { q: 'Je, kuki zinatumika?', a: 'Kuki tu zilizowekwa otomatiki na Google Analytics. Hakuna ufuatiliaji zaidi ya hilo, hakuna kuki za utangazaji, hakuna kushiriki data na watu wa tatu.' },
+      ],
+    },
+  ],
 };

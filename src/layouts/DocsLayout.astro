@@ -324,6 +324,42 @@ const s = lang === 'de' ? {
   gridSnap: 'Grid dan Snap',
   newFile: 'Fail Baharu',
   matchProp: 'Padankan Sifat',
+} : lang === 'bn' ? {
+  overview: 'সংক্ষিপ্ত বিবরণ',
+  ref: 'কমান্ড রেফারেন্স',
+  shapes: 'আকৃতি',
+  edit: 'সম্পাদনা',
+  markup: 'চিহ্নিতকরণ',
+  layer: 'লেয়ার',
+  layouts: 'লেআউট',
+  navigate: 'নেভিগেশন',
+  measure: 'পরিমাপ',
+  style: 'শৈলী',
+  file: 'ফাইল',
+  iface: 'ইন্টারফেস',
+  zoomIn: 'জুম ইন',
+  zoomOut: 'জুম আউট',
+  gridSnap: 'গ্রিড ও স্ন্যাপ',
+  newFile: 'নতুন ফাইল',
+  matchProp: 'বৈশিষ্ট্য মেলানো',
+} : lang === 'sw' ? {
+  overview: 'Muhtasari',
+  ref: 'Marejeo ya Amri',
+  shapes: 'Maumbo',
+  edit: 'Hariri',
+  markup: 'Maelezo',
+  layer: 'Safu',
+  layouts: 'Mpangilio',
+  navigate: 'Navigasioni',
+  measure: 'Kipimo',
+  style: 'Mtindo',
+  file: 'Faili',
+  iface: 'Kiolesura',
+  zoomIn: 'Kuza',
+  zoomOut: 'Punguza',
+  gridSnap: 'Gridi na Snap',
+  newFile: 'Faili Mpya',
+  matchProp: 'Linganisha Sifa',
 } : {
   overview: 'Overview',
   ref: 'Command Reference',
@@ -495,6 +531,8 @@ const sidebar = [
     <link rel="alternate" hreflang="vi" href={`https://kulmanlab.com/vi/docs${entrySlug ? '/' + entrySlug : ''}`} />
     <link rel="alternate" hreflang="th" href={`https://kulmanlab.com/th/docs${entrySlug ? '/' + entrySlug : ''}`} />
     <link rel="alternate" hreflang="ms" href={`https://kulmanlab.com/ms/docs${entrySlug ? '/' + entrySlug : ''}`} />
+    <link rel="alternate" hreflang="bn" href={`https://kulmanlab.com/bn/docs${entrySlug ? '/' + entrySlug : ''}`} />
+    <link rel="alternate" hreflang="sw" href={`https://kulmanlab.com/sw/docs${entrySlug ? '/' + entrySlug : ''}`} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 

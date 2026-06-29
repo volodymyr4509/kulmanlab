@@ -7,6 +7,14 @@ interface Props {
   page?: 'home' | 'faq' | 'changelog';
 }
 const { lang: currentLang = 'en', page = 'home' } = Astro.props;
+
+const byCode = Object.fromEntries(languages.map(l => [l.code, l]));
+
+const groups: { label: string; codes: string[] }[] = [
+  { label: 'Europe', codes: ['en', 'de', 'es', 'fr', 'it', 'pt', 'pl', 'uk'] },
+  { label: 'Middle East & Africa', codes: ['ar', 'tr', 'sw'] },
+  { label: 'South & East Asia', codes: ['hi', 'bn', 'zh', 'ja', 'ko', 'vi', 'th', 'id', 'ms'] },
+];
 ---
 
 <div class="relative" id="lang-wrapper" data-current-lang={currentLang} data-page={page}>
@@ -30,20 +38,30 @@ const { lang: currentLang = 'en', page = 'home' } = Astro.props;
     id="lang-dropdown"
     role="listbox"
     aria-label="Language"
-    class="hidden absolute right-0 top-full mt-1 w-44 rounded-xl border border-slate-700 bg-slate-900 shadow-xl shadow-black/40 z-50 overflow-hidden py-1"
+    class="hidden absolute right-0 top-full mt-1 w-52 rounded-xl border border-slate-700 bg-slate-900 shadow-xl shadow-black/40 z-50 overflow-y-auto max-h-[80vh] py-1"
   >
-    {languages.map(({ code, label, flag }) => (
-      <button
-        role="option"
-        data-lang={code}
-        class="lang-option flex w-full items-center gap-2.5 px-3 py-2 text-sm text-slate-300 hover:bg-slate-800 hover:text-slate-50 transition-colors"
-      >
-        <span class="text-base leading-none">{flag}</span>
-        <span>{label}</span>
-        <svg data-check class={`ml-auto h-3.5 w-3.5 text-brand ${code === currentLang ? '' : 'hidden'}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-        </svg>
-      </button>
+    {groups.map((group, gi) => (
+      <>
+        {gi > 0 && <div class="my-1 border-t border-slate-800" />}
+        <div class="px-3 pt-1.5 pb-0.5 text-xs font-medium text-slate-500 uppercase tracking-wider">{group.label}</div>
+        {group.codes.map(code => {
+          const lang = byCode[code];
+          if (!lang) return null;
+          return (
+            <button
+              role="option"
+              data-lang={lang.code}
+              class="lang-option flex w-full items-center gap-2.5 px-3 py-1.5 text-sm text-slate-300 hover:bg-slate-800 hover:text-slate-50 transition-colors"
+            >
+              <span class="text-base leading-none flex-shrink-0">{lang.flag}</span>
+              <span class="whitespace-nowrap">{lang.label}</span>
+              <svg data-check class={`ml-auto flex-shrink-0 h-3.5 w-3.5 text-brand ${lang.code === currentLang ? '' : 'hidden'}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+            </button>
+          );
+        })}
+      </>
     ))}
   </div>
 </div>
