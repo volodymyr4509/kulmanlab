@@ -118,6 +118,20 @@
 - Changelog (VI): https://kulmanlab.com/vi/changelog
 - FAQ (VI): https://kulmanlab.com/vi/faq
 
+## Bengali (বাংলা)
+
+- Landing page (BN): https://kulmanlab.com/bn/
+- Docs (BN): https://kulmanlab.com/bn/docs
+- Changelog (BN): https://kulmanlab.com/bn/changelog
+- FAQ (BN): https://kulmanlab.com/bn/faq
+
+## Swahili (Kiswahili)
+
+- Landing page (SW): https://kulmanlab.com/sw/
+- Docs (SW): https://kulmanlab.com/sw/docs
+- Changelog (SW): https://kulmanlab.com/sw/changelog
+- FAQ (SW): https://kulmanlab.com/sw/faq
+
 ## Thai (ภาษาไทย)
 
 - Landing page (TH): https://kulmanlab.com/th/
