@@ -360,6 +360,42 @@ const s = lang === 'de' ? {
   gridSnap: 'Gridi na Snap',
   newFile: 'Faili Mpya',
   matchProp: 'Linganisha Sifa',
+} : lang === 'ur' ? {
+  overview: 'جائزہ',
+  ref: 'کمانڈ ریفرنس',
+  shapes: 'اشکال',
+  edit: 'ترمیم',
+  markup: 'نشان زدگی',
+  layer: 'پرت',
+  layouts: 'لے آؤٹس',
+  navigate: 'نیویگیشن',
+  measure: 'پیمائش',
+  style: 'انداز',
+  file: 'فائل',
+  iface: 'انٹرفیس',
+  zoomIn: 'زوم ان',
+  zoomOut: 'زوم آؤٹ',
+  gridSnap: 'گرڈ اور اسنیپ',
+  newFile: 'نئی فائل',
+  matchProp: 'خصوصیات ملائیں',
+} : lang === 'el' ? {
+  overview: 'Επισκόπηση',
+  ref: 'Αναφορά εντολών',
+  shapes: 'Σχήματα',
+  edit: 'Επεξεργασία',
+  markup: 'Σχολιασμός',
+  layer: 'Επίπεδα',
+  layouts: 'Διατάξεις',
+  navigate: 'Πλοήγηση',
+  measure: 'Μέτρηση',
+  style: 'Στυλ',
+  file: 'Αρχείο',
+  iface: 'Διεπαφή',
+  zoomIn: 'Μεγέθυνση',
+  zoomOut: 'Σμίκρυνση',
+  gridSnap: 'Πλέγμα & Snap',
+  newFile: 'Νέο αρχείο',
+  matchProp: 'Αντιστοίχιση ιδιοτήτων',
 } : {
   overview: 'Overview',
   ref: 'Command Reference',
@@ -494,7 +530,7 @@ const sidebar = [
 ---
 
 <!doctype html>
-<html lang={lang} dir={lang === 'ar' ? 'rtl' : 'ltr'}>
+<html lang={lang} dir={lang === 'ar' || lang === 'ur' ? 'rtl' : 'ltr'}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -533,6 +569,8 @@ const sidebar = [
     <link rel="alternate" hreflang="ms" href={`https://kulmanlab.com/ms/docs${entrySlug ? '/' + entrySlug : ''}`} />
     <link rel="alternate" hreflang="bn" href={`https://kulmanlab.com/bn/docs${entrySlug ? '/' + entrySlug : ''}`} />
     <link rel="alternate" hreflang="sw" href={`https://kulmanlab.com/sw/docs${entrySlug ? '/' + entrySlug : ''}`} />
+    <link rel="alternate" hreflang="ur" href={`https://kulmanlab.com/ur/docs${entrySlug ? '/' + entrySlug : ''}`} />
+    <link rel="alternate" hreflang="el" href={`https://kulmanlab.com/el/docs${entrySlug ? '/' + entrySlug : ''}`} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 

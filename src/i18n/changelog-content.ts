@@ -7,6 +7,20 @@ export type Release = {
 
 export const releases: Release[] = [
   {
+    version: '2026.06.20.a4f91c3',
+    date: 'June 20, 2026',
+    title: 'Urdu and Greek — 22 languages, 1 320 pages',
+    highlights: [
+      'Added Urdu (اردو 🇵🇰) — full RTL support using Arabic script; docs, FAQ, and changelog fully translated',
+      'Added Greek (Ελληνικά 🇬🇷) — complete docs, FAQ, and changelog in Greek',
+      'KulmanLab now ships in 22 languages: EN, DE, ES, FR, IT, PT, PL, UK, EL, HI, UR, BN, ZH, JA, KO, VI, TH, ID, MS, TR, AR, SW',
+      'Total site size: 1 320 static pages — all command references, FAQ, and changelogs localised',
+      'RTL layout applied automatically for Urdu (Arabic script) alongside existing Arabic support',
+      'Language switcher row added to the site footer — visible plain-HTML links for all 22 locales so search engines can discover every language version without JavaScript',
+      'All language pages include hreflang alternate links pointing to every other locale',
+    ],
+  },
+  {
     version: '2026.06.12.0269290',
     date: 'June 12, 2026',
     title: 'New website: landing page, docs & FAQ',
@@ -236,6 +250,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   en: releases.map(r => ({ title: r.title, highlights: r.highlights })),
   de: [
     {
+      title: 'Urdu und Griechisch — 22 Sprachen, 1 320 Seiten',
+      highlights: [
+        'Urdu (اردو 🇵🇰) hinzugefügt — vollständige RTL-Unterstützung mit arabischer Schrift; Dokumentation, FAQ und Changelog vollständig übersetzt',
+        'Griechisch (Ελληνικά 🇬🇷) hinzugefügt — vollständige Dokumentation, FAQ und Changelog auf Griechisch',
+        'KulmanLab ist jetzt in 22 Sprachen verfügbar: EN, DE, ES, FR, IT, PT, PL, UK, EL, HI, UR, BN, ZH, JA, KO, VI, TH, ID, MS, TR, AR, SW',
+        'Gesamtgröße der Website: 1 320 statische Seiten — alle Befehlsreferenzen, FAQ und Changelogs lokalisiert',
+        'RTL-Layout wird automatisch für Urdu (arabische Schrift) neben der bestehenden arabischen Unterstützung angewendet',
+        'Sprachauswahl-Zeile in der Website-Fußzeile hinzugefügt — sichtbare plain-HTML-Links für alle 22 Lokalisierungen, damit Suchmaschinen jede Sprachversion ohne JavaScript entdecken können',
+        'Alle Sprachseiten enthalten hreflang-Alternativlinks zu allen anderen Lokalisierungen',
+      ],
+    },
+    {
       title: 'Neue Website: Startseite, Dokumentation & FAQ',
       highlights: [
         'Neue Startseite auf kulmanlab.com — Hero mit Screenshot-Karussell, Feature-Grid und dreitstufiger Workflow-Übersicht',
@@ -431,6 +457,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   es: [
+    {
+      title: 'Urdu y griego — 22 idiomas, 1 320 páginas',
+      highlights: [
+        'Añadido urdu (اردو 🇵🇰) — soporte RTL completo con escritura árabe; documentación, FAQ y changelog completamente traducidos',
+        'Añadido griego (Ελληνικά 🇬🇷) — documentación, FAQ y changelog completos en griego',
+        'KulmanLab está ahora disponible en 22 idiomas: EN, DE, ES, FR, IT, PT, PL, UK, EL, HI, UR, BN, ZH, JA, KO, VI, TH, ID, MS, TR, AR, SW',
+        'Tamaño total del sitio: 1 320 páginas estáticas — todas las referencias de comandos, FAQ y changelogs localizados',
+        'El diseño RTL se aplica automáticamente para el urdu (escritura árabe) junto con el soporte árabe existente',
+        'Fila de selector de idioma añadida al pie de página — enlaces plain-HTML visibles para los 22 idiomas para que los motores de búsqueda descubran cada versión sin JavaScript',
+        'Todas las páginas de idiomas incluyen enlaces alternos hreflang que apuntan a cada otro idioma',
+      ],
+    },
     {
       title: 'Nueva web: página de inicio, documentación y FAQ',
       highlights: [
@@ -628,6 +666,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   fr: [
     {
+      title: 'Ourdou et grec — 22 langues, 1 320 pages',
+      highlights: [
+        'Ajout de l\'ourdou (اردو 🇵🇰) — support RTL complet en écriture arabe ; documentation, FAQ et changelog entièrement traduits',
+        'Ajout du grec (Ελληνικά 🇬🇷) — documentation, FAQ et changelog complets en grec',
+        'KulmanLab est désormais disponible en 22 langues : EN, DE, ES, FR, IT, PT, PL, UK, EL, HI, UR, BN, ZH, JA, KO, VI, TH, ID, MS, TR, AR, SW',
+        'Taille totale du site : 1 320 pages statiques — toutes les références de commandes, FAQ et changelogs localisés',
+        'La mise en page RTL est appliquée automatiquement pour l\'ourdou (écriture arabe) en plus du support arabe existant',
+        'Ligne de sélecteur de langue ajoutée au pied de page — liens plain-HTML visibles pour les 22 locales afin que les moteurs de recherche découvrent chaque version sans JavaScript',
+        'Toutes les pages de langues incluent des liens alternatifs hreflang pointant vers chaque autre locale',
+      ],
+    },
+    {
       title: 'Nouveau site : page d\'accueil, documentation et FAQ',
       highlights: [
         'Toute nouvelle page d\'accueil sur kulmanlab.com — hero avec carrousel de captures d\'écran, grille de fonctionnalités et aperçu du flux de travail en trois étapes',
@@ -823,6 +873,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   it: [
+    {
+      title: 'Urdu e greco — 22 lingue, 1 320 pagine',
+      highlights: [
+        'Aggiunto urdu (اردو 🇵🇰) — supporto RTL completo con scrittura araba; documentazione, FAQ e changelog completamente tradotti',
+        'Aggiunto greco (Ελληνικά 🇬🇷) — documentazione, FAQ e changelog completi in greco',
+        'KulmanLab è ora disponibile in 22 lingue: EN, DE, ES, FR, IT, PT, PL, UK, EL, HI, UR, BN, ZH, JA, KO, VI, TH, ID, MS, TR, AR, SW',
+        'Dimensione totale del sito: 1 320 pagine statiche — tutti i riferimenti ai comandi, FAQ e changelog localizzati',
+        'Il layout RTL viene applicato automaticamente per l\'urdu (scrittura araba) accanto al supporto arabo esistente',
+        'Riga di selezione lingua aggiunta al piè di pagina del sito — link plain-HTML visibili per tutte le 22 localizzazioni affinché i motori di ricerca possano scoprire ogni versione linguistica senza JavaScript',
+        'Tutte le pagine nelle varie lingue includono link alternativi hreflang che puntano a ogni altra localizzazione',
+      ],
+    },
     {
       title: 'Nuovo sito: pagina principale, documentazione e FAQ',
       highlights: [
@@ -1020,6 +1082,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   pt: [
     {
+      title: 'Urdu e grego — 22 idiomas, 1 320 páginas',
+      highlights: [
+        'Adicionado urdu (اردو 🇵🇰) — suporte RTL completo com escrita árabe; documentação, FAQ e changelog completamente traduzidos',
+        'Adicionado grego (Ελληνικά 🇬🇷) — documentação, FAQ e changelog completos em grego',
+        'KulmanLab agora está disponível em 22 idiomas: EN, DE, ES, FR, IT, PT, PL, UK, EL, HI, UR, BN, ZH, JA, KO, VI, TH, ID, MS, TR, AR, SW',
+        'Tamanho total do site: 1 320 páginas estáticas — todas as referências de comandos, FAQ e changelogs localizados',
+        'O layout RTL é aplicado automaticamente para o urdu (escrita árabe) ao lado do suporte árabe existente',
+        'Linha de seletor de idioma adicionada ao rodapé do site — links plain-HTML visíveis para todos os 22 idiomas para que os mecanismos de busca possam descobrir cada versão sem JavaScript',
+        'Todas as páginas de idiomas incluem links alternativos hreflang apontando para cada outro idioma',
+      ],
+    },
+    {
       title: 'Novo site: página inicial, documentação e FAQ',
       highlights: [
         'Nova página inicial em kulmanlab.com — hero com carrossel de capturas de tela, grade de recursos e visão geral do fluxo de trabalho em três etapas',
@@ -1215,6 +1289,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   uk: [
+    {
+      title: 'Урду та грецька — 22 мови, 1 320 сторінок',
+      highlights: [
+        'Додано урду (اردو 🇵🇰) — повна підтримка RTL з арабським письмом; документація, FAQ і журнал змін повністю перекладені',
+        'Додано грецьку (Ελληνικά 🇬🇷) — повна документація, FAQ і журнал змін грецькою мовою',
+        'KulmanLab тепер доступний у 22 мовах: EN, DE, ES, FR, IT, PT, PL, UK, EL, HI, UR, BN, ZH, JA, KO, VI, TH, ID, MS, TR, AR, SW',
+        'Загальний розмір сайту: 1 320 статичних сторінок — усі довідники команд, FAQ і журнали змін локалізовані',
+        'RTL-макет автоматично застосовується для урду (арабське письмо) поруч з існуючою підтримкою арабської',
+        'Рядок вибору мови додано до підвалу сайту — видимі plain-HTML-посилання для всіх 22 мов, щоб пошукові системи могли виявляти кожну мовну версію без JavaScript',
+        'Усі мовні сторінки містять альтернативні посилання hreflang, що вказують на кожну іншу мову',
+      ],
+    },
     {
       title: 'Новий сайт: головна сторінка, документація та FAQ',
       highlights: [
@@ -1412,6 +1498,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   tr: [
     {
+      title: 'Urduca ve Yunanca — 22 dil, 1 320 sayfa',
+      highlights: [
+        'Urduca (اردو 🇵🇰) eklendi — Arap alfabesiyle tam RTL desteği; belgeler, SSS ve değişiklik günlüğü tamamen çevrildi',
+        'Yunanca (Ελληνικά 🇬🇷) eklendi — belgeler, SSS ve değişiklik günlüğü Yunanca\'ya tamamen çevrildi',
+        'KulmanLab artık 22 dilde sunuluyor: EN, DE, ES, FR, IT, PT, PL, UK, EL, HI, UR, BN, ZH, JA, KO, VI, TH, ID, MS, TR, AR, SW',
+        'Toplam site boyutu: 1 320 statik sayfa — tüm komut referansları, SSS ve değişiklik günlükleri yerelleştirildi',
+        'RTL düzeni, Urduca için (Arap alfabesi) mevcut Arapça desteğinin yanı sıra otomatik olarak uygulanıyor',
+        'Site alt bilgisine dil seçici satırı eklendi — arama motorlarının JavaScript olmadan her dil sürümünü keşfedebilmesi için tüm 22 yerel için görünür plain-HTML bağlantıları',
+        'Tüm dil sayfaları, her diğer yerel ayara işaret eden hreflang alternatif bağlantıları içeriyor',
+      ],
+    },
+    {
       title: 'Yeni web sitesi: açılış sayfası, belgeler ve SSS',
       highlights: [
         'kulmanlab.com\'da tamamen yeni açılış sayfası — ekran görüntüsü döngüsü, özellik ızgarası ve üç adımlı iş akışı genel bakışıyla hero bölümü',
@@ -1607,6 +1705,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   zh: [
+    {
+      title: '乌尔都语和希腊语 — 22 种语言，1 320 个页面',
+      highlights: [
+        '新增乌尔都语（اردو 🇵🇰）— 使用阿拉伯文字的完整 RTL 支持；文档、FAQ 和更新日志已完整翻译',
+        '新增希腊语（Ελληνικά 🇬🇷）— 文档、FAQ 和更新日志已完整提供希腊语版本',
+        'KulmanLab 现已支持 22 种语言：EN, DE, ES, FR, IT, PT, PL, UK, EL, HI, UR, BN, ZH, JA, KO, VI, TH, ID, MS, TR, AR, SW',
+        '网站总规模：1 320 个静态页面 — 所有命令参考、FAQ 和更新日志均已本地化',
+        '乌尔都语（阿拉伯文字）的 RTL 布局与现有阿拉伯语支持一同自动应用',
+        '网站页脚新增语言切换行 — 所有 22 种语言均有可见的 plain-HTML 链接，让搜索引擎无需 JavaScript 即可发现每种语言版本',
+        '所有语言页面均包含指向其他每种语言的 hreflang 替代链接',
+      ],
+    },
     {
       title: '全新网站：首页、文档与常见问题',
       highlights: [
@@ -1804,6 +1914,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   hi: [
     {
+      title: 'उर्दू और ग्रीक — 22 भाषाएँ, 1 320 पृष्ठ',
+      highlights: [
+        'उर्दू (اردو 🇵🇰) जोड़ा गया — अरबी लिपि का उपयोग करके पूर्ण RTL समर्थन; डॉक्स, FAQ और चेंजलॉग पूरी तरह अनुवादित',
+        'ग्रीक (Ελληνικά 🇬🇷) जोड़ा गया — पूर्ण डॉक्स, FAQ और चेंजलॉग ग्रीक में',
+        'KulmanLab अब 22 भाषाओं में उपलब्ध है: EN, DE, ES, FR, IT, PT, PL, UK, EL, HI, UR, BN, ZH, JA, KO, VI, TH, ID, MS, TR, AR, SW',
+        'कुल साइट आकार: 1 320 स्टैटिक पेज — सभी कमांड संदर्भ, FAQ और चेंजलॉग स्थानीयकृत',
+        'RTL लेआउट उर्दू (अरबी लिपि) के लिए मौजूदा अरबी समर्थन के साथ स्वचालित रूप से लागू होता है',
+        'साइट फुटर में भाषा स्विचर पंक्ति जोड़ी गई — सभी 22 भाषाओं के लिए दृश्यमान plain-HTML लिंक ताकि खोज इंजन JavaScript के बिना हर भाषा संस्करण की खोज कर सकें',
+        'सभी भाषा पृष्ठों में प्रत्येक अन्य भाषा की ओर इंगित करने वाले hreflang वैकल्पिक लिंक शामिल हैं',
+      ],
+    },
+    {
       title: 'नई वेबसाइट: लैंडिंग पेज, दस्तावेज़ और FAQ',
       highlights: [
         'kulmanlab.com पर बिल्कुल नया लैंडिंग पेज — स्क्रीनशॉट कैरोसेल, फ़ीचर ग्रिड और तीन-चरण वर्कफ़्लो अवलोकन के साथ हीरो',
@@ -1999,6 +2121,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   ar: [
+    {
+      title: 'الأردية واليونانية — 22 لغة، 1 320 صفحة',
+      highlights: [
+        'تمت إضافة الأردية (اردو 🇵🇰) — دعم RTL كامل باستخدام الخط العربي؛ وثائق وأسئلة شائعة وسجل تغييرات مترجمة بالكامل',
+        'تمت إضافة اليونانية (Ελληνικά 🇬🇷) — وثائق وأسئلة شائعة وسجل تغييرات باليونانية كاملة',
+        'يتوفر KulmanLab الآن بـ22 لغة: EN, DE, ES, FR, IT, PT, PL, UK, EL, HI, UR, BN, ZH, JA, KO, VI, TH, ID, MS, TR, AR, SW',
+        'الحجم الإجمالي للموقع: 1 320 صفحة ثابتة — جميع مراجع الأوامر والأسئلة الشائعة وسجلات التغييرات مُترجَمة',
+        'يُطبَّق تخطيط RTL تلقائياً للأردية (الخط العربي) جنباً إلى جنب مع دعم العربية الحالي',
+        'تمت إضافة صف محوِّل اللغة إلى تذييل الموقع — روابط plain-HTML مرئية لجميع اللغات الـ22 حتى تتمكن محركات البحث من اكتشاف كل نسخة لغوية بدون JavaScript',
+        'تتضمن جميع صفحات اللغات روابط بديلة hreflang تشير إلى كل لغة أخرى',
+      ],
+    },
     {
       title: 'موقع جديد: صفحة رئيسية ووثائق وأسئلة شائعة',
       highlights: [
@@ -2196,6 +2330,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   id: [
     {
+      title: 'Urdu dan Yunani — 22 bahasa, 1 320 halaman',
+      highlights: [
+        'Ditambahkan Urdu (اردو 🇵🇰) — dukungan RTL penuh menggunakan aksara Arab; dokumentasi, FAQ, dan changelog diterjemahkan seluruhnya',
+        'Ditambahkan Yunani (Ελληνικά 🇬🇷) — dokumentasi, FAQ, dan changelog lengkap dalam bahasa Yunani',
+        'KulmanLab kini tersedia dalam 22 bahasa: EN, DE, ES, FR, IT, PT, PL, UK, EL, HI, UR, BN, ZH, JA, KO, VI, TH, ID, MS, TR, AR, SW',
+        'Ukuran total situs: 1 320 halaman statis — semua referensi perintah, FAQ, dan changelog telah dilokalisasi',
+        'Tata letak RTL diterapkan secara otomatis untuk Urdu (aksara Arab) bersama dukungan Arab yang ada',
+        'Baris pemilih bahasa ditambahkan ke footer situs — tautan plain-HTML yang terlihat untuk semua 22 bahasa agar mesin pencari dapat menemukan setiap versi bahasa tanpa JavaScript',
+        'Semua halaman bahasa menyertakan tautan alternatif hreflang yang mengarah ke setiap bahasa lainnya',
+      ],
+    },
+    {
       title: 'Website baru: halaman utama, dokumentasi & FAQ',
       highlights: [
         'Halaman utama baru di kulmanlab.com — hero dengan carousel screenshot, grid fitur, dan ikhtisar alur kerja tiga langkah',
@@ -2391,6 +2537,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   ja: [
+    {
+      title: 'ウルドゥー語とギリシャ語 — 22言語、1 320ページ',
+      highlights: [
+        'ウルドゥー語（اردو 🇵🇰）を追加 — アラビア文字を使用した完全な RTL サポート；ドキュメント・FAQ・更新履歴を完全翻訳',
+        'ギリシャ語（Ελληνικά 🇬🇷）を追加 — ドキュメント・FAQ・更新履歴をギリシャ語で完全提供',
+        'KulmanLab は 22 言語に対応しました：EN, DE, ES, FR, IT, PT, PL, UK, EL, HI, UR, BN, ZH, JA, KO, VI, TH, ID, MS, TR, AR, SW',
+        'サイト全体：1 320 静的ページ — コマンドリファレンス・FAQ・更新履歴すべてをローカライズ済み',
+        'ウルドゥー語（アラビア文字）の RTL レイアウトは既存のアラビア語サポートと並んで自動適用される',
+        'サイトフッターに言語切替行を追加 — 22 のロケールすべての plain-HTML リンクが表示され、検索エンジンが JavaScript なしで各言語版を発見できる',
+        'すべての言語ページに他のすべてのロケールへの hreflang 代替リンクを追加',
+      ],
+    },
     {
       title: '新ウェブサイト：ランディングページ、ドキュメント・FAQ',
       highlights: [
@@ -2588,6 +2746,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   pl: [
     {
+      title: 'Urdu i grecki — 22 języki, 1 320 stron',
+      highlights: [
+        'Dodano urdu (اردو 🇵🇰) — pełna obsługa RTL przy użyciu pisma arabskiego; dokumentacja, FAQ i dziennik zmian w pełni przetłumaczone',
+        'Dodano grecki (Ελληνικά 🇬🇷) — pełna dokumentacja, FAQ i dziennik zmian po grecku',
+        'KulmanLab jest teraz dostępny w 22 językach: EN, DE, ES, FR, IT, PT, PL, UK, EL, HI, UR, BN, ZH, JA, KO, VI, TH, ID, MS, TR, AR, SW',
+        'Łączna liczba stron: 1 320 stron statycznych — wszystkie referencje poleceń, FAQ i dzienniki zmian są zlokalizowane',
+        'Układ RTL jest automatycznie stosowany dla urdu (pismo arabskie) obok istniejącego wsparcia arabskiego',
+        'Rząd przełącznika języka dodany do stopki strony — widoczne linki plain-HTML dla wszystkich 22 języków, aby wyszukiwarki mogły odkrywać każdą wersję językową bez JavaScript',
+        'Wszystkie strony językowe zawierają alternatywne linki hreflang wskazujące na każdy inny język',
+      ],
+    },
+    {
       title: 'Nowa strona: landing page, dokumentacja i FAQ',
       highlights: [
         'Zupełnie nowa strona główna na kulmanlab.com — sekcja hero z karuzelą zrzutów ekranu, siatką funkcji i przeglądem procesu pracy w trzech krokach',
@@ -2783,6 +2953,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   ko: [
+    {
+      title: '우르두어와 그리스어 — 22개 언어, 1 320페이지',
+      highlights: [
+        '우르두어(اردو 🇵🇰) 추가 — 아랍 문자를 사용한 완전한 RTL 지원; 문서, FAQ, 변경 이력 완전 번역',
+        '그리스어(Ελληνικά 🇬🇷) 추가 — 그리스어로 된 전체 문서, FAQ, 변경 이력',
+        'KulmanLab은 이제 22개 언어로 제공됩니다: EN, DE, ES, FR, IT, PT, PL, UK, EL, HI, UR, BN, ZH, JA, KO, VI, TH, ID, MS, TR, AR, SW',
+        '사이트 총 크기: 1 320 정적 페이지 — 모든 명령어 참조, FAQ, 변경 이력 현지화',
+        'RTL 레이아웃이 우르두어(아랍 문자)에 기존 아랍어 지원과 함께 자동 적용됩니다',
+        '사이트 푸터에 언어 전환 행 추가 — 검색 엔진이 JavaScript 없이 모든 언어 버전을 발견할 수 있도록 22개 언어의 plain-HTML 링크 표시',
+        '모든 언어 페이지에 다른 모든 언어를 가리키는 hreflang 대체 링크 포함',
+      ],
+    },
     {
       title: '새 웹사이트: 랜딩 페이지, 문서 및 FAQ',
       highlights: [
@@ -2980,6 +3162,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   vi: [
     {
+      title: 'Tiếng Urdu và tiếng Hy Lạp — 22 ngôn ngữ, 1 320 trang',
+      highlights: [
+        'Đã thêm tiếng Urdu (اردو 🇵🇰) — hỗ trợ RTL đầy đủ sử dụng chữ viết Ả Rập; tài liệu, FAQ và nhật ký thay đổi được dịch hoàn toàn',
+        'Đã thêm tiếng Hy Lạp (Ελληνικά 🇬🇷) — tài liệu, FAQ và nhật ký thay đổi đầy đủ bằng tiếng Hy Lạp',
+        'KulmanLab hiện có sẵn bằng 22 ngôn ngữ: EN, DE, ES, FR, IT, PT, PL, UK, EL, HI, UR, BN, ZH, JA, KO, VI, TH, ID, MS, TR, AR, SW',
+        'Tổng kích thước trang web: 1 320 trang tĩnh — tất cả tham chiếu lệnh, FAQ và nhật ký thay đổi được bản địa hóa',
+        'Bố cục RTL được áp dụng tự động cho tiếng Urdu (chữ viết Ả Rập) cùng với hỗ trợ tiếng Ả Rập hiện có',
+        'Hàng chuyển đổi ngôn ngữ được thêm vào chân trang — các liên kết plain-HTML hiển thị cho cả 22 ngôn ngữ để các công cụ tìm kiếm có thể khám phá mọi phiên bản ngôn ngữ mà không cần JavaScript',
+        'Tất cả các trang ngôn ngữ đều có liên kết thay thế hreflang trỏ đến mọi ngôn ngữ khác',
+      ],
+    },
+    {
       title: 'Website mới: trang đích, tài liệu & FAQ',
       highlights: [
         'Trang đích hoàn toàn mới tại kulmanlab.com — hero với băng chuyền ảnh chụp màn hình, lưới tính năng và tổng quan quy trình ba bước',
@@ -3175,6 +3369,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   th: [
+    {
+      title: 'ภาษาอูรดูและกรีก — 22 ภาษา 1 320 หน้า',
+      highlights: [
+        'เพิ่มภาษาอูรดู (اردو 🇵🇰) — รองรับ RTL ครบถ้วนโดยใช้อักษรอาหรับ; เอกสาร FAQ และบันทึกการเปลี่ยนแปลงแปลครบถ้วน',
+        'เพิ่มภาษากรีก (Ελληνικά 🇬🇷) — เอกสาร FAQ และบันทึกการเปลี่ยนแปลงครบถ้วนเป็นภาษากรีก',
+        'KulmanLab พร้อมใช้งานใน 22 ภาษา: EN, DE, ES, FR, IT, PT, PL, UK, EL, HI, UR, BN, ZH, JA, KO, VI, TH, ID, MS, TR, AR, SW',
+        'ขนาดไซต์ทั้งหมด: 1 320 หน้าแบบคงที่ — การอ้างอิงคำสั่ง FAQ และบันทึกการเปลี่ยนแปลงทั้งหมดได้รับการแปลเป็นภาษาท้องถิ่น',
+        'เลย์เอาต์ RTL ถูกนำไปใช้โดยอัตโนมัติสำหรับภาษาอูรดู (อักษรอาหรับ) ควบคู่กับการรองรับภาษาอาหรับที่มีอยู่',
+        'เพิ่มแถวตัวสลับภาษาในส่วนท้ายของเว็บไซต์ — ลิงก์ plain-HTML ที่มองเห็นได้สำหรับทุก 22 ภาษาเพื่อให้เครื่องมือค้นหาค้นพบทุกเวอร์ชันภาษาโดยไม่ต้องใช้ JavaScript',
+        'ทุกหน้าภาษามีลิงก์สำรอง hreflang ที่ชี้ไปยังทุกภาษาอื่น',
+      ],
+    },
     {
       title: 'เว็บไซต์ใหม่: หน้า landing page เอกสาร และ FAQ',
       highlights: [
@@ -3372,6 +3578,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   ms: [
     {
+      title: 'Urdu dan Greek — 22 bahasa, 1 320 halaman',
+      highlights: [
+        'Urdu (اردو 🇵🇰) ditambah — sokongan RTL penuh menggunakan tulisan Arab; dokumentasi, FAQ dan log perubahan diterjemahkan sepenuhnya',
+        'Greek (Ελληνικά 🇬🇷) ditambah — dokumentasi, FAQ dan log perubahan lengkap dalam bahasa Greek',
+        'KulmanLab kini tersedia dalam 22 bahasa: EN, DE, ES, FR, IT, PT, PL, UK, EL, HI, UR, BN, ZH, JA, KO, VI, TH, ID, MS, TR, AR, SW',
+        'Jumlah saiz laman web: 1 320 halaman statik — semua rujukan arahan, FAQ dan log perubahan telah dilokalkan',
+        'Susun atur RTL digunakan secara automatik untuk Urdu (tulisan Arab) bersama sokongan Arab sedia ada',
+        'Baris penukar bahasa ditambah pada pengaki laman web — pautan plain-HTML yang kelihatan untuk semua 22 bahasa supaya enjin carian dapat menemui setiap versi bahasa tanpa JavaScript',
+        'Semua halaman bahasa menyertakan pautan alternatif hreflang yang menunjuk ke setiap bahasa lain',
+      ],
+    },
+    {
       title: 'Laman web baharu: halaman pendaratan, dokumentasi & FAQ',
       highlights: [
         'Halaman pendaratan baharu di kulmanlab.com — hero dengan karusel tangkapan skrin, grid ciri, dan gambaran keseluruhan aliran kerja tiga langkah',
@@ -3567,6 +3785,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   bn: [
+    {
+      title: 'উর্দু ও গ্রিক — ২২টি ভাষা, ১ ৩২০টি পেজ',
+      highlights: [
+        'উর্দু (اردو 🇵🇰) যোগ করা হয়েছে — আরবি লিপি ব্যবহার করে পূর্ণ RTL সমর্থন; ডক্স, FAQ এবং চেঞ্জলগ সম্পূর্ণ অনুবাদিত',
+        'গ্রিক (Ελληνικά 🇬🇷) যোগ করা হয়েছে — গ্রিক ভাষায় সম্পূর্ণ ডক্স, FAQ এবং চেঞ্জলগ',
+        'KulmanLab এখন ২২টি ভাষায় পাওয়া যাচ্ছে: EN, DE, ES, FR, IT, PT, PL, UK, EL, HI, UR, BN, ZH, JA, KO, VI, TH, ID, MS, TR, AR, SW',
+        'মোট সাইটের আকার: ১ ৩২০টি স্ট্যাটিক পেজ — সমস্ত কমান্ড রেফারেন্স, FAQ এবং চেঞ্জলগ স্থানীয়করণ করা হয়েছে',
+        'RTL লেআউট উর্দুর (আরবি লিপি) জন্য বিদ্যমান আরবি সমর্থনের পাশাপাশি স্বয়ংক্রিয়ভাবে প্রয়োগ হয়',
+        'সাইটের ফুটারে ভাষা সুইচার সারি যোগ করা হয়েছে — সমস্ত ২২টি ভাষার জন্য দৃশ্যমান plain-HTML লিঙ্ক যাতে সার্চ ইঞ্জিন JavaScript ছাড়াই প্রতিটি ভাষা সংস্করণ আবিষ্কার করতে পারে',
+        'সব ভাষার পেজে প্রতিটি অন্য ভাষার দিকে নির্দেশকারী hreflang বিকল্প লিঙ্ক অন্তর্ভুক্ত',
+      ],
+    },
     {
       title: 'নতুন ওয়েবসাইট: ল্যান্ডিং পেজ, ডক্স ও FAQ',
       highlights: [
@@ -3784,6 +4014,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   sw: [
     {
+      title: 'Kiurdu na Kigiriki — lugha 22, kurasa 1 320',
+      highlights: [
+        'Kiurdu (اردو 🇵🇰) kimeongezwa — msaada kamili wa RTL ukitumia maandishi ya Kiarabu; nyaraka, Maswali ya Kawaida, na kumbukumbu ya mabadiliko zimetafsiriwa kikamilifu',
+        'Kigiriki (Ελληνικά 🇬🇷) kimeongezwa — nyaraka kamili, Maswali ya Kawaida, na kumbukumbu ya mabadiliko kwa Kigiriki',
+        'KulmanLab sasa inapatikana katika lugha 22: EN, DE, ES, FR, IT, PT, PL, UK, EL, HI, UR, BN, ZH, JA, KO, VI, TH, ID, MS, TR, AR, SW',
+        'Jumla ya ukubwa wa tovuti: kurasa 1 320 za kudumu — marejeo yote ya amri, Maswali ya Kawaida, na kumbukumbu za mabadiliko yamefanyiwa ujanibishaji',
+        'Mpangilio wa RTL unatumika moja kwa moja kwa Kiurdu (maandishi ya Kiarabu) pamoja na msaada wa Kiarabu uliopo',
+        'Mstari wa kubadilisha lugha umeongezwa kwenye kijachini cha tovuti — viungo vya plain-HTML vinavyoonekana kwa lugha zote 22 ili injini za utafutaji ziweze kugundua kila toleo la lugha bila JavaScript',
+        'Kurasa zote za lugha zinajumuisha viungo mbadala vya hreflang vinavyoelekeza kwa kila lugha nyingine',
+      ],
+    },
+    {
       title: 'Tovuti mpya: ukurasa wa kuingia, nyaraka na Maswali ya Kawaida',
       highlights: [
         'Ukurasa mpya kabisa wa kuingia kwenye kulmanlab.com — hero na karusel ya picha, gridi ya vipengele, na muhtasari wa mtiririko wa kazi wa hatua tatu',
@@ -3997,5 +4239,43 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
         'Kitufe cha Nyaraka kiliongezwa kwenye paneli ya usaidizi',
       ],
     },
+  ],
+
+  ur: [
+    { title: 'اردو اور یونانی — 22 زبانیں، 1 320 صفحات', highlights: ['اردو (اردو 🇵🇰) شامل — عربی رسم الخط کے ساتھ مکمل RTL سپورٹ؛ دستاویزات، FAQ اور تبدیلی نامہ مکمل ترجمہ', 'یونانی (Ελληνικά 🇬🇷) شامل — مکمل دستاویزات، FAQ اور تبدیلی نامہ یونانی میں', 'KulmanLab اب 22 زبانوں میں دستیاب: EN, DE, ES, FR, IT, PT, PL, UK, EL, HI, UR, BN, ZH, JA, KO, VI, TH, ID, MS, TR, AR, SW', 'کل سائٹ سائز: 1 320 مستقل صفحات — تمام کمانڈ ریفرنس، FAQ اور تبدیلی نامے مقامی زبان میں', 'RTL لے آؤٹ اردو کے لیے عربی سپورٹ کے ساتھ خود بخود لاگو ہوتا ہے', 'ویب سائٹ فٹر میں زبان سوئچر قطار شامل — تمام 22 زبانوں کے plain-HTML لنکس تاکہ سرچ انجن JavaScript کے بغیر ہر زبان دریافت کریں', 'تمام زبان کے صفحات میں ہر دوسری زبان کی طرف hreflang متبادل لنکس شامل ہیں'] },
+    { title: 'نئی ویب سائٹ: لینڈنگ پیج، دستاویزات اور FAQ', highlights: ['kulmanlab.com پر نیا لینڈنگ پیج — اسکرین شاٹ کیروسل، فیچر گرڈ اور تین مرحلے ورک فلو کا جائزہ', 'موازنہ جدول: KulmanLab بمقابلہ LibreCAD، QCAD، BricsCAD', 'کمانڈ ریفرنس دستاویزات kulmanlab.com/docs پر منتقل', 'FAQ صفحہ: اسٹوریج، DXF مطابقت، فیچرز اور رازداری', 'یہ تبدیلی نامہ صفحہ — ہر ورژن کے ریلیز نوٹس'] },
+    { title: 'ٹیکسٹ ایڈیٹر بہتری اور ویب فونٹس', highlights: ['ٹیکسٹ آئینہ پڑھنے کے لیے گردش ایڈجسٹ کرتا ہے', 'ویب فونٹس ٹیکسٹ ایڈیٹر میں دستیاب', 'کرسر کی اونچائی ٹیکسٹ سائز سے ملتی ہے', 'Bold/Italic کے ساتھ Strikethrough شامل', 'MTEXT میں فی سطر لائن ہائیٹ'] },
+    { title: 'کینوس پر براہ راست ٹیکسٹ ایڈیٹنگ', highlights: ['کینوس پر براہ راست ٹیکسٹ ترمیم بغیر ڈائیلاگ', 'ٹیکسٹ سلیکشن: Shift+Arrow، کلک اور ڈریگ', 'ٹول بار: Bold اور Italic ٹوگلز', 'MTEXT فریم چار ری سائز گرپس کے ساتھ'] },
+    { title: 'زاویہ ٹریکنگ، گرڈ اسنیپ اور MTEXT', highlights: ['قابل ترتیب زاویہ ٹریکنگ: 10°، 15°، 20°، 30°، 45°، 90°', 'گرڈ کے ساتھ اسنیپ ٹوگل', 'ملٹی لائن MTEXT پارسنگ اور رینڈرنگ', 'لے آؤٹ پیپر اسپیس میں گرڈ ڈاٹس'] },
+    { title: 'تمام کمانڈز کے لیے کی بورڈ X,Y انٹری اور لیڈر بہتری', highlights: ['تمام کمانڈز میں X,Y کوآرڈینیٹس براہ راست کی بورڈ سے', 'لیڈر کمانڈ میں بہتری: ایک سے زائد سیگمنٹ', 'کمانڈ ان پٹ فیلڈ میں نیلا اوورلے'] },
+    { title: 'پرنٹ مینیجر اوور ہال اور ٹول بار آئیکن ری ڈیزائن', highlights: ['پرنٹ مینیجر ری ڈیزائن: لائیو پریویو اور آؤٹ پٹ کنٹرولز', 'تمام ٹول بار آئیکنز دوبارہ ڈیزائن', 'PDF اور PNG برآمد میں بہتری'] },
+    { title: 'لے آؤٹ موڈ اور ویو پورٹ ایڈیٹنگ', highlights: ['لے آؤٹ / پیپر اسپیس موڈ ٹول بار ٹوگل کے ساتھ', 'ویو پورٹ اسکیل ڈراپ ڈاؤن: معیاری CAD اسکیلز', 'لے آؤٹ پیپر پر سفید پس منظر'] },
+    { title: 'ٹول بار ری ڈیزائن اور پرت کمانڈز', highlights: ['ٹول بار مکمل ری ڈیزائن: گروپ بندی اور بہتر آئیکنز', 'پرت پینل: بنائیں، نام بدلیں، مرئیت ٹوگل', 'LAYER، LAYISO، LAYUNISO کمانڈز'] },
+    { title: 'Match Properties، کلر پکر اور Properties پینل', highlights: ['MATCHPROP: رنگ، لائن کی قسم، پرت کاپی کریں', 'Properties پینل منتخب اکائیوں کے لیے', 'فل کلر پکر UI'] },
+    { title: 'زاویہ پیمائش کمانڈ', highlights: ['DIMANGULAR: دو لائنوں یا تین نکات کے درمیان زاویہ', 'زاویہ پیمائشیں DXF DIMENSION کے طور پر محفوظ', 'گرپ ایڈیٹنگ زاویہ پیمائشوں پر'] },
+    { title: 'پیمائش گرپس، توسیع لائنز اور تیر کا پکر', highlights: ['پیمائش گرپس: ٹیکسٹ لوکیشن اور آفسیٹ ڈریگ', 'توسیع لائن گیپ اور اوور شوٹ ترتیب دیں', 'تیر کا سائز اور انداز پکر'] },
+    { title: 'کمانڈ ٹرمینل اور لائن چیننگ', highlights: ['کمانڈ ٹرمینل: LINE، CIRCLE، ARC اور 50+ کمانڈز', 'لائن چیننگ: آخری لائن سے جاری رکھیں', 'تاریخ (تیر کیز) اور آٹو کمپلیٹ (Tab)'] },
+    { title: 'ملٹی لیڈر کمانڈ (MLEADER)', highlights: ['MLEADER: ملٹی سیگمنٹ لیڈر کے ساتھ ٹیکسٹ اینوٹیشن', 'گرپ ایڈیٹنگ لیڈر وٹیکس پر', 'DXF MLEADER کے طور پر محفوظ'] },
+    { title: 'کمانڈ ٹرمینل (پریویو) اور UI بہتری', highlights: ['ٹرمینل پریویو: LINE، CIRCLE، MOVE', 'کلاسک CAD تھیم', 'رنگ اور تھیم UI پینل'] },
+    { title: 'Angular اپ گریڈ، دستاویزات سائٹ اور متحرک گرڈ', highlights: ['Angular 19 → 20 → 21 پر اپ گریڈ', 'مکمل کمانڈ ریفرنس دستاویزات سائٹ', 'CAD متحرک گرڈ ٹول بار میں', 'تاریخ پینل (Undo / History / Redo)'] },
+  ],
+
+  el: [
+    { title: 'Ουρντού και Ελληνικά — 22 γλώσσες, 1 320 σελίδες', highlights: ['Προστέθηκε Ουρντού (اردو 🇵🇰) — πλήρης υποστήριξη RTL με αραβική γραφή· έγγραφα, FAQ και αρχείο αλλαγών πλήρως μεταφρασμένα', 'Προστέθηκαν Ελληνικά (Ελληνικά 🇬🇷) — πλήρη έγγραφα, FAQ και αρχείο αλλαγών στα Ελληνικά', 'Το KulmanLab διατίθεται πλέον σε 22 γλώσσες: EN, DE, ES, FR, IT, PT, PL, UK, EL, HI, UR, BN, ZH, JA, KO, VI, TH, ID, MS, TR, AR, SW', 'Συνολικό μέγεθος ιστότοπου: 1 320 στατικές σελίδες — όλες οι αναφορές εντολών, FAQ και αρχεία αλλαγών τοπικοποιημένα', 'Η διάταξη RTL εφαρμόζεται αυτόματα για τα Ουρντού (αραβική γραφή) παράλληλα με την υπάρχουσα υποστήριξη αραβικών', 'Γραμμή επιλογέα γλώσσας προστέθηκε στο υποσέλιδο — ορατοί σύνδεσμοι plain-HTML για όλες τις 22 γλώσσες ώστε οι μηχανές αναζήτησης να ανακαλύπτουν κάθε γλωσσική έκδοση χωρίς JavaScript', 'Όλες οι γλωσσικές σελίδες περιλαμβάνουν εναλλακτικούς συνδέσμους hreflang που δείχνουν σε κάθε άλλη γλώσσα'] },
+    { title: 'Νέος ιστότοπος: σελίδα υποδοχής, τεκμηρίωση & FAQ', highlights: ['Νέα σελίδα υποδοχής στο kulmanlab.com — καρουσέλ, πλέγμα λειτουργιών και επισκόπηση ροής εργασίας', 'Πίνακας σύγκρισης: KulmanLab vs LibreCAD, QCAD, BricsCAD', 'Τεκμηρίωση εντολών στο kulmanlab.com/docs', 'Σελίδα FAQ: αποθήκευση, DXF, λειτουργίες, ιδιωτικότητα', 'Αυτό το αρχείο αλλαγών — σημειώσεις έκδοσης'] },
+    { title: 'Βελτιώσεις επεξεργαστή κειμένου & web fonts', highlights: ['Καθρέφτης κειμένου με ρύθμιση περιστροφής', 'Web fonts στον επιλογέα γραμματοσειράς', 'Δυναμικό ύψος δρομέα', 'Διαγράμμιση στη γραμμή εργαλείων', 'Ύψος γραμμής ανά σειρά MTEXT'] },
+    { title: 'Επεξεργασία κειμένου απευθείας στον καμβά', highlights: ['Επεξεργασία κειμένου με αναβοσβήνον δρομέα — χωρίς διάλογο', 'Επιλογή: Shift+Arrow, κλικ, drag', 'Γραμμή εργαλείων: Bold και Italic', 'Πλαίσιο MTEXT με λαβές αλλαγής μεγέθους'] },
+    { title: 'Παρακολούθηση γωνίας, snap-to-grid & MTEXT', highlights: ['Ρυθμιζόμενη γωνία: 10°, 15°, 20°, 30°, 45°, 90°', 'Εναλλαγή snap-to-grid', 'Πολύ-γραμμές MTEXT', 'Σημεία πλέγματος στον χώρο χαρτιού'] },
+    { title: 'Εισαγωγή X,Y πληκτρολογίου & βελτιώσεις leader', highlights: ['X,Y από πληκτρολόγιο σε όλες τις εντολές', 'Leader με πολλαπλά τμήματα', 'Μπλε επικάλυψη στο πεδίο εισαγωγής'] },
+    { title: 'Αναδιαμόρφωση διαχειριστή εκτύπωσης & toolbar', highlights: ['Νέος διαχειριστής εκτύπωσης: live προεπισκόπηση', 'Επανασχεδιασμός εικονιδίων toolbar', 'Βελτιώσεις εξαγωγής PDF και PNG'] },
+    { title: 'Λειτουργία layout & επεξεργασία viewport', highlights: ['Layout / χώρος χαρτιού με εναλλαγή toolbar', 'Κλίμακα viewport: τυπικές CAD κλίμακες', 'Λευκό φόντο σε χαρτί layout'] },
+    { title: 'Επανασχεδιασμός toolbar & εντολές επιπέδων', highlights: ['Πλήρης επανασχεδιασμός toolbar', 'Πίνακας επιπέδων: δημιουργία, μετονομασία, ορατότητα', 'Εντολές LAYER, LAYISO, LAYUNISO'] },
+    { title: 'Match Properties, επιλογέας χρώματος & Properties', highlights: ['MATCHPROP: αντιγραφή χρώματος, γραμμής, επιπέδου', 'Πίνακας Properties για επιλεγμένες οντότητες', 'Πλήρης επιλογέας χρώματος'] },
+    { title: 'Εντολή γωνιακής διάστασης', highlights: ['DIMANGULAR: γωνία μεταξύ γραμμών ή σημείων', 'Γωνιακές διαστάσεις ως DXF DIMENSION', 'Επεξεργασία με λαβές'] },
+    { title: 'Λαβές διαστάσεων, γραμμές επέκτασης & επιλογέας βέλους', highlights: ['Λαβές διαστάσεων: drag θέσης κειμένου', 'Γραμμές επέκτασης: κενό και υπερπέρασμα', 'Επιλογέας στυλ βέλους'] },
+    { title: 'Terminal εντολών & αλυσίδωση γραμμών', highlights: ['Terminal: LINE, CIRCLE, ARC και 50+ εντολές', 'Αλυσίδωση γραμμών από το τελευταίο σημείο', 'Ιστορικό (βελάκια) και αυτόματη συμπλήρωση (Tab)'] },
+    { title: 'Εντολή multileader (MLEADER)', highlights: ['MLEADER: annotation κειμένου με πολύ-τμηματικό leader', 'Επεξεργασία λαβών σε κορυφές', 'Αποθήκευση ως DXF MLEADER'] },
+    { title: 'Terminal εντολών (προεπισκόπηση) & βελτιώσεις UI', highlights: ['Προεπισκόπηση terminal: LINE, CIRCLE, MOVE', 'Κλασικό θέμα CAD', 'Πίνακας χρώματος και θέματος UI'] },
+    { title: 'Αναβάθμιση Angular, τεκμηρίωση & προσαρμοστικό πλέγμα', highlights: ['Αναβάθμιση Angular 19 → 20 → 21', 'Πλήρης ιστότοπος τεκμηρίωσης εντολών', 'Προσαρμοστικό πλέγμα CAD', 'Πίνακας ιστορικού (Αναίρεση / Ιστορικό / Επανάληψη)'] },
   ],
 };
