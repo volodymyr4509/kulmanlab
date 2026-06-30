@@ -65,6 +65,19 @@ The cursor side determines which side the dimension line appears on.
 | H/V orientation lock | No | Yes — `H` and `V` keys |
 | Best for | Diagonal features, angled cuts | Orthogonal layouts, grid-aligned parts |
 
+## Editing the label — simple mode
+
+**Double-click** a placed aligned dimension to open the text editor in **simple** mode. The editor is pre-seeded with the current rendered value so you can position the cursor and edit it directly.
+
+| Feature | Behaviour |
+|---------|-----------|
+| Bold / Italic / Font / Height | Apply to the **entire** label at once |
+| Per-character formatting | Not supported |
+| `Enter` | Commits the value and closes the editor |
+| Multi-line | Not supported |
+
+See [Text Editor — simple mode](../interface/text-editor#simple-mode) for the full reference.
+
 ## Chaining dimensions
 
 To add more dimensions continuing from the second extension line of this one, use [Dimension Continue](./dim-continue) — it locks to the same measurement angle as this aligned dimension.

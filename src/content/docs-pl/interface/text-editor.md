@@ -1,20 +1,51 @@
 ---
 sidebar_position: 4
-title: Edytor tekstu — Formatowanie tekstu w KulmanLab CAD
-description: Edytor tekstu KulmanLab CAD pozwala umieszczać wieloliniowe, bogato sformatowane etykiety MTEXT z pogrubieniem, kursywą, przekreśleniem, nadpisaniami czcionki i wysokości dla poszczególnych znaków, zawijaniem tekstu i pełną nawigacją kursorem.
-keywords: [edytor tekstu CAD, MTEXT, pogrubiony kursywa CAD, formatowanie tekstu CAD, wieloliniowy tekst CAD, zawijanie tekstu CAD, kulmanlab]
+title: Edytor tekstu — Tryby Rich i Simple w KulmanLab CAD
+description: Edytor tekstu KulmanLab CAD ma dwa tryby — rich (formatowanie poszczególnych znaków, wieloliniowy, zawijanie tekstu dla Text i Multileader) i simple (jednolity styl, jednowierszowy dla elementów wymiarowych). Chip trybu w nagłówku pokazuje, który tryb jest aktywny.
+keywords: [edytor tekstu CAD, MTEXT, pogrubiony kursywa CAD, formatowanie tekstu CAD, wieloliniowy tekst CAD, zawijanie tekstu CAD, rich edytor tekstu, simple edytor tekstu, edytor tekstu wymiaru, kulmanlab]
 ---
 
 # Edytor tekstu
 
-Edytor tekstu otwiera się za każdym razem, gdy umieszczasz nową etykietę tekstową poleceniem `text` lub dwukrotnie klikasz istniejący element tekstowy. Obsługuje wieloliniową treść, formatowanie poszczególnych znaków i zawijanie tekstu.
+Edytor tekstu otwiera się podczas umieszczania lub dwukrotnego klikania edytowalnego elementu. Mały **chip trybu** w nagłówku — **rich** (kolor akcentu) lub **simple** (stonowany) — pokazuje, który tryb jest aktywny dla bieżącego elementu.
+
+## Tryby edytora
+
+### Tryb rich
+
+Używany przez: **Text** (etykiety MTEXT) i adnotacje **Multileader**.
+
+| Funkcja | Zachowanie |
+|---------|-----------|
+| Bold / Italic / Strikethrough | Dla poszczególnych znaków (stosuje się do zaznaczenia lub całego elementu bez zaznaczenia) |
+| Font i Height | Nadpisanie dla poszczególnych znaków lub domyślna całego elementu |
+| `Enter` | Wstawia twardy podział wiersza |
+| `Shift+←/→` | Rozszerza lub zmniejsza zaznaczenie tekstu |
+| `Home` / `End` | Przejście na początek / koniec bieżącego twardego wiersza |
+| Zawijanie tekstu | Obsługiwane przez uchwyty zmiany rozmiaru szerokości odniesienia |
+
+### Tryb simple
+
+Używany przez: **Dimension Linear**, **Dimension Aligned**, **Dimension Angular**, **Dimension Radius**, **Dimension Diameter**.
+
+Edytor jest wstępnie wypełniony bieżącą wyrenderowaną etykietą wymiaru, dzięki czemu możesz ustawić kursor i edytować wartość bezpośrednio.
+
+| Funkcja | Zachowanie |
+|---------|-----------|
+| Bold / Italic / Font / Height | Dostępne — stosowane do **całej** etykiety naraz |
+| Formatowanie poszczególnych znaków | Nieobsługiwane |
+| `Enter` | **Zatwierdza** wartość i zamyka edytor (bez podziału wiersza) |
+| Wieloliniowość | Nieobsługiwana |
+| Zawijanie tekstu | Nieobsługiwane |
 
 ## Otwieranie edytora
 
 | Akcja | Wynik |
 |-------|-------|
-| Polecenie `text` → kliknij pozycję | Tworzy nowy element tekstowy i otwiera edytor |
-| Dwukrotne kliknięcie istniejącego elementu tekstowego | Ponownie otwiera edytor dla tego elementu |
+| Polecenie `text` → kliknij pozycję | Tworzy nowy element tekstowy i otwiera edytor (**rich**) |
+| Dwukrotne kliknięcie istniejącego elementu **Text** | Ponownie otwiera edytor w trybie **rich** |
+| Dwukrotne kliknięcie istniejącego elementu **Multileader** | Otwiera edytor w trybie **rich** |
+| Dwukrotne kliknięcie elementu **wymiarowego** | Otwiera edytor w trybie **simple** |
 | `Escape` wewnątrz edytora | Zamyka edytor i zachowuje wszystkie zmiany |
 
 ## Pasek narzędzi

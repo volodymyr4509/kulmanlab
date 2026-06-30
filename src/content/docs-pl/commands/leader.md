@@ -98,6 +98,12 @@ Wyrównanie tekstu dostosowuje się do pozycji kursora względem doglegs:
 |---------|-------|
 | `Escape` | Anuluj i zresetuj do kroku 2 |
 
+## Edytowanie istniejącej linii prowadzącej
+
+**Dwukrotnie kliknij** umieszczoną linię wielokierunkową, aby ponownie otworzyć edytor tekstu w trybie **rich**. W trybie rich możesz stosować pogrubienie, kursywę oraz nadpisania czcionki lub wysokości dla poszczególnych znaków, a także wstawiać podziały wierszy za pomocą `Enter`. Naciśnij **Escape**, aby zatwierdzić i zamknąć.
+
+Zobacz [Edytor tekstu — tryb rich](../interface/text-editor#rich-mode) w celu uzyskania pełnej dokumentacji.
+
 ## Dodawanie i usuwanie ramion
 
 - Aby dodać dodatkowe ramię z grotem do istniejącej linii prowadzącej: [Linia prowadząca+](./leader-add)

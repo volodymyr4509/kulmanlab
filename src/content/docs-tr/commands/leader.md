@@ -98,6 +98,12 @@ El ile ayarlama gerekmez — imleci etiketin istediğiniz tarafa getirin ve otom
 |-----|--------|
 | `Escape` | İptal eder ve adım 2'ye sıfırlar |
 
+## Mevcut Göstergeyi Düzenleme
+
+Yerleştirilen göstergeye **çift tıklayarak** metin düzenleyiciyi **rich** modda yeniden açın. Rich modda kalın, italik ve karakter başına yazı tipi veya yükseklik geçersiz kılmaları uygulayabilir, `Enter` ile satır sonları ekleyebilirsiniz. Kaydetmek ve kapatmak için **Escape** tuşuna basın.
+
+Tam referans için [Metin Düzenleyici — rich mode](../interface/text-editor#rich-mode) sayfasına bakın.
+
 ## Kolları Ekleme ve Kaldırma
 
 - Mevcut göstergeye ekstra ok kolu eklemek için: [Leader+](./leader-add)

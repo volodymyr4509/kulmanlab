@@ -1,20 +1,51 @@
 ---
 sidebar_position: 4
-title: Metin Düzenleyici — KulmanLab CAD'de Zengin Metin Biçimlendirme
-description: KulmanLab CAD metin düzenleyicisi, kalın, italik, üstü çizili, karakter başına yazı tipi ve yükseklik geçersiz kılmaları, kelime kaydırma ve tam imleç gezintisiyle çok satırlı, zengin biçimli MTEXT etiketleri yerleştirmenizi sağlar.
-keywords: [CAD metin düzenleyici, MTEXT, kalın italik CAD, metin biçimlendirme CAD, çok satırlı metin CAD, kelime kaydırma CAD, kulmanlab]
+title: Metin Düzenleyici — KulmanLab CAD'de Rich ve Simple Modlar
+description: KulmanLab CAD metin düzenleyicisinin iki modu vardır — rich (karakter başına biçimlendirme, çok satırlı, Text ve Multileader için kelime kaydırma) ve simple (tekdüze stil, ölçü nesneleri için tek satırlı). Başlıktaki mode chip hangi modun etkin olduğunu gösterir.
+keywords: [CAD metin düzenleyici, MTEXT, kalın italik CAD, metin biçimlendirme CAD, çok satırlı metin CAD, kelime kaydırma CAD, rich metin düzenleyici, simple metin düzenleyici, ölçü metin düzenleyici, kulmanlab]
 ---
 
 # Metin Düzenleyici
 
-Metin düzenleyici, `text` komutuyla yeni bir metin etiketi yerleştirdiğinizde veya mevcut bir metin nesnesine çift tıkladığınızda açılır. Çok satırlı içeriği, karakter başına biçimlendirmeyi ve kelime kaydırmayı destekler.
+Metin düzenleyici, düzenlenebilir bir nesneye yerleştirdiğinizde veya çift tıkladığınızda açılır. Başlıktaki küçük **mode chip** — **rich** (vurgu rengi) veya **simple** (soluk) — mevcut nesne için hangi modun etkin olduğunu gösterir.
+
+## Düzenleyici Modları
+
+### Rich mode
+
+Kullanan: **Text** (MTEXT etiketleri) ve **Multileader** ek açıklamaları.
+
+| Özellik | Davranış |
+|---------|----------|
+| Bold / Italic / Strikethrough | Karakter başına (seçime uygulanır; seçim yoksa tüm nesneye) |
+| Font ve Height | Karakter başına geçersiz kılma veya tüm nesne varsayılanı |
+| `Enter` | Sabit satır sonu ekler |
+| `Shift+←/→` | Metin seçimini genişletir veya daraltır |
+| `Home` / `End` | Geçerli sabit satırın başına / sonuna atlar |
+| Kelime kaydırma | Referans genişliği yeniden boyutlandırma tutamaçları aracılığıyla desteklenir |
+
+### Simple mode
+
+Kullanan: **Dimension Linear**, **Dimension Aligned**, **Dimension Angular**, **Dimension Radius**, **Dimension Diameter**.
+
+Düzenleyici, imleci konumlandırıp değeri doğrudan düzenleyebilmeniz için ölçünün mevcut görüntülenen etiketiyle önceden doldurulmuştur.
+
+| Özellik | Davranış |
+|---------|----------|
+| Bold / Italic / Font / Height | Mevcut — **tüm** etikete aynı anda uygulanır |
+| Karakter başına biçimlendirme | Desteklenmez |
+| `Enter` | Değeri **kaydeder** ve düzenleyiciyi kapatır (satır sonu yok) |
+| Çok satırlı | Desteklenmez |
+| Kelime kaydırma | Desteklenmez |
 
 ## Düzenleyiciyi Açma
 
 | İşlem | Sonuç |
 |--------|--------|
-| `text` komutu → konumu tıkla | Yeni bir metin nesnesi oluşturur ve düzenleyiciyi açar |
-| Mevcut bir metin nesnesine çift tıkla | O nesne için düzenleyiciyi yeniden açar |
+| `text` komutu → konumu tıkla | Yeni bir metin nesnesi oluşturur ve düzenleyiciyi açar (**rich**) |
+| Mevcut **Text** nesnesine çift tıkla | **rich** modda düzenleyiciyi yeniden açar |
+| Mevcut **Multileader**'a çift tıkla | **rich** modda düzenleyiciyi açar |
+| **Ölçü** nesnesine çift tıkla | **simple** modda düzenleyiciyi açar |
 | Düzenleyici içinde `Escape` | Düzenleyiciyi kapatır ve tüm değişiklikleri saklar |
 
 ## Araç Çubuğu

@@ -46,6 +46,19 @@ Es können nur **Arc**- und **Circle**-Elemente ausgewählt werden.
 | Pfeilspitzen | Zwei (an beiden Bogenpunkten) | Eine (am Bogenpunkt) |
 | Geeignet für | Vollständige Kreisbohrung oder Wellenbemaßungen | Beschriftung einer Seite eines gekrümmten Merkmals |
 
+## Beschriftung bearbeiten — simple mode
+
+**Doppelklicken** Sie auf eine platzierte Durchmesserbemaßung, um den Texteditor im **simple** mode zu öffnen. Der Editor ist mit dem aktuellen angezeigten Wert vorbelegt (z. B. `⌀ 10.00`), sodass Sie den Cursor positionieren und ihn direkt bearbeiten können.
+
+| Feature | Verhalten |
+|---------|-----------|
+| Bold / Italic / Font / Height | Gilt für die **gesamte** Beschriftung auf einmal |
+| Zeichenweise Formatierung | Nicht unterstützt |
+| `Enter` | Übernimmt den Wert und schließt den Editor |
+| Mehrzeilig | Nicht unterstützt |
+
+Siehe [Texteditor — simple mode](../interface/text-editor#simple-mode) für die vollständige Referenz.
+
 ## DXF — DIMENSION-Durchmesserelement
 
 Durchmesserbemaßungen werden als `DIMENSION`-Elemente mit Durchmesser-Geometrietyp gespeichert, mit beiden Bogenpunkt-Positionen und dem gemessenen Durchmesserwert (2 × Radius). Alle Eigenschaften werden verlustfrei übertragen.

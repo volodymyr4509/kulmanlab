@@ -49,6 +49,19 @@ Linhas paralelas não podem formar uma cota angular; o comando ignora o segundo 
 - A anotação resultante é uma entidade `DimensionAngular` completa armazenada na camada atual. As propriedades de aparência (tamanho da seta, altura do texto, comprimento da linha de extensão) podem ser ajustadas no painel Propriedades.
 - As cotas angulares são incluídas na exportação JSON mas não são suportadas pelo exportador DXF.
 
+## Editar a etiqueta — simple mode
+
+**Duplo clique** numa cota angular posicionada para abrir o editor de texto em **simple** mode. O editor é pré-preenchido com o valor renderizado atual para que você possa posicionar o cursor e editá-lo diretamente.
+
+| Feature | Comportamento |
+|---------|--------------|
+| Bold / Italic / Font / Height | Aplica-se à **etiqueta inteira** de uma vez |
+| Formatação por caractere | Não suportada |
+| `Enter` | Confirma o valor e fecha o editor |
+| Multi-linha | Não suportado |
+
+Consulte [Editor de Texto — simple mode](../interface/text-editor#simple-mode) para a referência completa.
+
 ## Comandos relacionados
 
 - [Dimension Linear](./dim-linear) — cota horizontal ou vertical

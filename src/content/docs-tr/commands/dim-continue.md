@@ -73,6 +73,19 @@ Zincirin ortasında yön değiştirilemez. Farklı bir yönde ölçü almak içi
 | Stil | Temelden miras alınır | Mevcut stil |
 | En iyi | Bir sıra boyunca biriken ölçümler | İlk ölçü veya yön değiştirme |
 
+## Yerleştirme Sonrası Etiketleri Düzenleme — simple mode
+
+Zincirdeki herhangi bir ölçüye **çift tıklayarak** metin düzenleyiciyi **simple** modda açın. Her segment bağımsızdır ve ayrı ayrı düzenlenebilir.
+
+| Özellik | Davranış |
+|---------|----------|
+| Bold / Italic / Font / Height | **Tüm** etikete aynı anda uygulanır |
+| Karakter başına biçimlendirme | Desteklenmez |
+| `Enter` | Değeri kaydeder ve düzenleyiciyi kapatır |
+| Çok satırlı | Desteklenmez |
+
+Tam referans için [Metin Düzenleyici — simple mode](../interface/text-editor#simple-mode) sayfasına bakın.
+
 ## DXF — DIMENSION Nesneleri
 
 Zincirdeki her segment DXF dosyasında bağımsız bir `DIMENSION` nesnesi olarak saklanır. Dosyada birbirine bağlı değillerdir — aynı temel ölçüden oluşturulduğu için özellikleri aynıdır, ancak yerleştirme sonrasında her biri ayrı ayrı düzenlenebilir.

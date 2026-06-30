@@ -1,20 +1,51 @@
 ---
 sidebar_position: 4
-title: Éditeur de Texte — Format de Texte Enrichi dans KulmanLab CAD
-description: L'éditeur de texte de KulmanLab CAD permet de placer des étiquettes MTEXT multilignes avec formatage enrichi avec gras, italique, barré, substitutions de police et hauteur par caractère, retour à la ligne et navigation complète avec curseur.
-keywords: [éditeur texte CAO, MTEXT, gras italique CAO, formatage texte CAO, texte multiligne CAO, retour ligne CAO, kulmanlab]
+title: Éditeur de Texte — Modes Rich et Simple dans KulmanLab CAD
+description: L'éditeur de texte de KulmanLab CAD a deux modes — rich (formatage par caractère, multiligne, retour à la ligne pour Text et Multileader) et simple (style uniforme, une ligne pour les entités de cote). Un mode chip dans l'en-tête indique le mode actif.
+keywords: [éditeur texte CAO, MTEXT, gras italique CAO, formatage texte CAO, texte multiligne CAO, retour ligne CAO, éditeur texte rich, éditeur texte simple, éditeur texte cote, kulmanlab]
 ---
 
 # Éditeur de Texte
 
-L'éditeur de texte s'ouvre lorsque vous placez une nouvelle étiquette de texte avec la commande `text` ou en double-cliquant sur une entité de texte existante. Il prend en charge le contenu multiligne, le formatage par caractère et le retour à la ligne.
+L'éditeur de texte s'ouvre lorsque vous placez ou double-cliquez sur une entité modifiable. Un petit **mode chip** dans l'en-tête — **rich** (couleur d'accent) ou **simple** (atténué) — indique le mode actif pour l'entité courante.
+
+## Modes de l'éditeur
+
+### Rich mode
+
+Utilisé par : **Text** (labels MTEXT) et annotations **Multileader**.
+
+| Feature | Comportement |
+|---------|-------------|
+| Bold / Italic / Strikethrough | Par caractère (appliqué à la sélection, ou toute l'entité si aucune sélection) |
+| Font et Height | Substitution par caractère, ou valeur par défaut de l'entité |
+| `Enter` | Insère un saut de ligne dur |
+| `Shift+←/→` | Étend ou réduit une sélection de texte |
+| `Home` / `End` | Aller au début / fin de la ligne dure actuelle |
+| Retour à la ligne | Pris en charge via les poignées de redimensionnement de largeur de référence |
+
+### Simple mode
+
+Utilisé par : **Dimension Linear**, **Dimension Aligned**, **Dimension Angular**, **Dimension Radius**, **Dimension Diameter**.
+
+L'éditeur est prérempli avec le libellé rendu actuel de la cote pour que vous puissiez positionner le curseur et modifier la valeur directement.
+
+| Feature | Comportement |
+|---------|-------------|
+| Bold / Italic / Font / Height | Disponible — s'applique à l'**intégralité** du libellé à la fois |
+| Formatage par caractère | Non pris en charge |
+| `Enter` | **Valide** la valeur et ferme l'éditeur (pas de saut de ligne) |
+| Multiligne | Non pris en charge |
+| Retour à la ligne | Non pris en charge |
 
 ## Ouvrir l'éditeur
 
 | Action | Résultat |
 |--------|----------|
-| Commande `text` → cliquer sur la position | Crée une nouvelle entité de texte et ouvre l'éditeur |
-| Double-clic sur une entité de texte existante | Rouvre l'éditeur pour cette entité |
+| Commande `text` → cliquer sur la position | Crée une nouvelle entité de texte et ouvre l'éditeur (**rich**) |
+| Double-clic sur une entité **Text** existante | Rouvre l'éditeur en **rich** mode |
+| Double-clic sur un **Multileader** existant | Ouvre l'éditeur en **rich** mode |
+| Double-clic sur une entité de **cote** | Ouvre l'éditeur en **simple** mode |
 | `Échap` dans l'éditeur | Ferme l'éditeur et sauvegarde tous les changements |
 
 ## Barre d'outils

@@ -30,6 +30,12 @@ Căn chỉnh văn bản tự động điều chỉnh theo vị trí con trỏ so
 | Bên **phải** của đoạn gấp khúc | Từ trái sang phải từ neo văn bản |
 | Bên **trái** của đoạn gấp khúc | Từ phải sang trái (neo ở phía phải) |
 
+## Chỉnh sửa đường dẫn hiện có
+
+**Nhấp đúp** vào đường dẫn đa đã đặt để mở lại trình soạn thảo văn bản ở chế độ **phong phú**. Ở chế độ phong phú bạn có thể áp dụng in đậm, in nghiêng và ghi đè phông chữ hoặc chiều cao theo từng ký tự, và chèn ngắt dòng bằng `Enter`. Nhấn **Escape** để xác nhận và đóng.
+
+Xem [Trình Soạn Thảo Văn Bản — chế độ phong phú](../interface/text-editor#rich-mode) để tham khảo đầy đủ.
+
 ## Thêm và xóa cánh tay
 
 - Để thêm cánh tay mũi tên phụ vào đường dẫn hiện có: [Leader+](./leader-add)

@@ -65,6 +65,19 @@ Sisi kursor menentukan sisi mana garis dimensi muncul.
 | Kunci orientasi H/V | Tidak | Ya — tombol `H` dan `V` |
 | Terbaik untuk | Fitur diagonal, potongan miring | Layout ortogonal, bagian sejajar grid |
 
+## Mengedit label — mode sederhana
+
+**Klik dua kali** dimensi sejajar yang ditempatkan untuk membuka editor teks dalam mode **sederhana**. Editor diisi terlebih dahulu dengan nilai yang dirender saat ini sehingga Anda dapat memposisikan kursor dan mengeditnya langsung.
+
+| Fitur | Perilaku |
+|-------|---------|
+| Bold / Italic / Font / Height | Berlaku untuk **seluruh label** sekaligus |
+| Pemformatan per karakter | Tidak didukung |
+| `Enter` | Mengonfirmasi nilai dan menutup editor |
+| Multi-baris | Tidak didukung |
+
+Lihat [Text Editor — mode sederhana](../interface/text-editor#simple-mode) untuk referensi lengkap.
+
 ## Merantai dimensi
 
 Untuk menambahkan lebih banyak dimensi yang berlanjut dari garis ekstensi kedua yang ini, gunakan [Dimension Continue](./dim-continue) — itu terkunci pada sudut pengukuran yang sama dengan dimensi sejajar ini.

@@ -46,6 +46,19 @@ Only **Arc** and **Circle** entities can be selected.
 | Arrowheads | Two (at both arc points) | One (at arc point) |
 | Best for | Full circular hole or shaft dimensions | Annotating one side of a curved feature |
 
+## Editing the label — simple mode
+
+**Double-click** a placed diameter dimension to open the text editor in **simple** mode. The editor is pre-seeded with the current rendered value (e.g. `⌀ 10.00`) so you can position the cursor and edit it directly.
+
+| Feature | Behaviour |
+|---------|-----------|
+| Bold / Italic / Font / Height | Apply to the **entire** label at once |
+| Per-character formatting | Not supported |
+| `Enter` | Commits the value and closes the editor |
+| Multi-line | Not supported |
+
+See [Text Editor — simple mode](../interface/text-editor#simple-mode) for the full reference.
+
 ## DXF — DIMENSION diameter entity
 
 Diameter dimensions are saved as `DIMENSION` entities with diameter-type geometry, storing both arc-point positions and the measured diameter value (2 × radius). All properties round-trip without loss.

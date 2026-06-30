@@ -65,6 +65,19 @@ Le côté du curseur détermine de quel côté apparaît la ligne de cote.
 | Verrouillage H/V | Non | Oui — touches `H` et `V` |
 | Idéal pour | Éléments diagonaux, coupes angulaires | Compositions orthogonales, pièces alignées sur grille |
 
+## Modifier le libellé — simple mode
+
+**Double-cliquez** sur une cote alignée placée pour ouvrir l'éditeur de texte en **simple** mode. L'éditeur est prérempli avec la valeur rendue actuelle pour que vous puissiez positionner le curseur et la modifier directement.
+
+| Feature | Comportement |
+|---------|-------------|
+| Bold / Italic / Font / Height | S'applique à l'**intégralité** du libellé à la fois |
+| Formatage par caractère | Non pris en charge |
+| `Enter` | Valide la valeur et ferme l'éditeur |
+| Multiligne | Non pris en charge |
+
+Voir [Éditeur de texte — simple mode](../interface/text-editor#simple-mode) pour la référence complète.
+
 ## Enchaîner les cotes
 
 Pour ajouter d'autres cotes en continuant depuis la deuxième ligne d'extension de celle-ci, utilisez [Dimension Continue](./dim-continue) — elle se verrouille au même angle de mesure que cette cote alignée.

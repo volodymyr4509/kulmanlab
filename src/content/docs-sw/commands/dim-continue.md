@@ -73,6 +73,19 @@ Huwezi kubadilisha mwelekeo katikati ya mnyororo. Anza [Dimension Linear](./dim-
 | Mtindo | Unarithiwa kutoka kwa msingi | Mtindo wa sasa |
 | Bora kwa | Vipimo vya mkusanyo kando ya safu | Kipimo cha kwanza au kubadilisha mwelekeo |
 
+## Kuhariri lebo baada ya kuwekwa — hali rahisi
+
+**Bonyeza mara mbili** kipimo chochote katika mlolongo kufungua kihariri cha maandishi katika hali **rahisi**. Kila sehemu ni huru na inaweza kuhaririwa kibinafsi.
+
+| Kipengele | Tabia |
+|----------|-------|
+| Bold / Italic / Font / Height | Inatumika kwa **lebo nzima** mara moja |
+| Uumbizaji kwa kila herufi | Haisaidiwi |
+| `Enter` | Inathibitisha thamani na kufunga kihariri |
+| Mistari mingi | Haisaidiwi |
+
+Angalia [Text Editor — hali rahisi](../interface/text-editor#simple-mode) kwa marejeo kamili.
+
 ## DXF — vipengele vya DIMENSION
 
 Kila sehemu katika mnyororo imehifadhiwa kama kipengele huru cha `DIMENSION` katika faili ya DXF. Haviunganishwi kwenye faili — zinashiriki sifa kwa sababu ziliundwa kutoka kwa msingi sawa, lakini kila moja inaweza kuhaririwa kwa kujitegemea baada ya kuwekwa.

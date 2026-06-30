@@ -98,6 +98,12 @@ Aucun ajustement manuel n'est nécessaire — déplacez le curseur du côté où
 |--------|--------|
 | `Échap` | Annuler et revenir à l'étape 2 |
 
+## Modifier un répère existant
+
+**Double-cliquez** sur un multirépère placé pour rouvrir l'éditeur de texte en **rich** mode. En rich mode vous pouvez appliquer gras, italique, et des substitutions de police ou hauteur par caractère, et insérer des sauts de ligne avec `Enter`. Appuyez sur **Échap** pour valider et fermer.
+
+Voir [Éditeur de texte — rich mode](../interface/text-editor#rich-mode) pour la référence complète.
+
 ## Ajouter et supprimer des bras
 
 - Pour ajouter un bras de pointe de flèche supplémentaire à un répère existant : [Leader+](./leader-add)

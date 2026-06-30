@@ -7,9 +7,9 @@ keywords: [arahan teks CAD, MTEXT, letak label teks CAD, anotasi teks CAD, tebal
 
 # Text
 
-Arahan `text` meletakkan label teks berbilang baris. Selepas anda mengklik kedudukan pada kanvas, editor popup terbuka di mana anda boleh menaip kandungan, menggunakan tebal/italik/strikethrough, menukar fon dan ketinggian, dan memasukkan pemecahan baris. Tekan **Escape** untuk komit dan tutup editor.
+Arahan `text` meletakkan label teks berbilang baris. Selepas anda mengklik kedudukan pada kanvas, editor popup terbuka dalam mod **kaya** — anda boleh menaip kandungan, menggunakan tebal/italik/strikethrough setiap aksara, menukar fon dan ketinggian, dan memasukkan pemecahan baris. Tekan **Escape** untuk komit dan tutup editor.
 
-Lihat halaman [Text Editor](../interface/text-editor) untuk rujukan editor penuh.
+Lihat halaman [Text Editor](../interface/text-editor) untuk rujukan editor penuh, termasuk perbandingan mod **kaya** dan **mudah**.
 
 ## Meletakkan label teks
 

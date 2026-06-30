@@ -74,6 +74,19 @@ El lado del cursor (arriba/abajo para horizontal, izquierda/derecha para vertica
 | Teclas H/V | Sí — bloquear orientación | No — siempre sigue p1→p2 |
 | Mejor para | Composiciones ortogonales, planos | Elementos diagonales, cortes en ángulo |
 
+## Editar la etiqueta — simple mode
+
+**Haz doble clic** en una cota lineal colocada para abrir el editor de texto en **simple** mode. El editor se precarga con el valor renderizado actual para que puedas posicionar el cursor y editarlo directamente.
+
+| Feature | Comportamiento |
+|---------|---------------|
+| Bold / Italic / Font / Height | Se aplica a la **etiqueta completa** a la vez |
+| Formato por carácter | No compatible |
+| `Enter` | Confirma el valor y cierra el editor |
+| Multilínea | No compatible |
+
+Consulta [Editor de Texto — simple mode](../interface/text-editor#simple-mode) para la referencia completa.
+
 ## Encadenar cotas
 
 Para agregar más cotas continuando desde la última línea de extensión, usa [Dimension Continue](./dim-continue) inmediatamente después de colocar esta.

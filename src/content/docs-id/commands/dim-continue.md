@@ -73,6 +73,19 @@ Anda tidak dapat mengubah arah di tengah rantai. Mulai [Dimension Linear](./dim-
 | Gaya | Diwarisi dari basis | Gaya saat ini |
 | Terbaik untuk | Pengukuran kumulatif sepanjang baris | Dimensi pertama atau mengubah arah |
 
+## Mengedit label setelah penempatan — mode sederhana
+
+**Klik dua kali** dimensi mana pun dalam rantai untuk membuka editor teks dalam mode **sederhana**. Setiap segmen bersifat independen dan dapat diedit secara terpisah.
+
+| Fitur | Perilaku |
+|-------|---------|
+| Bold / Italic / Font / Height | Berlaku untuk **seluruh label** sekaligus |
+| Pemformatan per karakter | Tidak didukung |
+| `Enter` | Mengonfirmasi nilai dan menutup editor |
+| Multi-baris | Tidak didukung |
+
+Lihat [Text Editor — mode sederhana](../interface/text-editor#simple-mode) untuk referensi lengkap.
+
 ## DXF — entitas DIMENSION
 
 Setiap segmen dalam rantai disimpan sebagai entitas `DIMENSION` independen dalam file DXF. Mereka tidak terhubung dalam file — mereka berbagi properti karena dibuat dari basis yang sama, tetapi masing-masing dapat diedit secara individual setelah penempatan.

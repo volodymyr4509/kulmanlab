@@ -46,6 +46,19 @@ Solo le entità **Arc** e **Circle** possono essere selezionate.
 | Punte di freccia | Due (in entrambi i punti dell'arco) | Una (nel punto dell'arco) |
 | Ideale per | Quote foro circolare o albero completo | Annotare un lato di un elemento curvo |
 
+## Modifica dell'etichetta — simple mode
+
+**Doppio clic** su una quota diametro posizionata per aprire l'editor di testo in **simple** mode. L'editor è precompilato con il valore visualizzato corrente (es. `⌀ 10.00`) in modo da poter posizionare il cursore e modificarlo direttamente.
+
+| Feature | Comportamento |
+|---------|--------------|
+| Bold / Italic / Font / Height | Si applica all'**intera** etichetta in una volta |
+| Formattazione per carattere | Non supportata |
+| `Enter` | Conferma il valore e chiude l'editor |
+| Multiriga | Non supportato |
+
+Vedi [Editor di Testo — simple mode](../interface/text-editor#simple-mode) per il riferimento completo.
+
 ## DXF — entità DIMENSION diametro
 
 Le quote diametro vengono salvate come entità `DIMENSION` con geometria di tipo diametro, memorizzando entrambe le posizioni dei punti dell'arco e il valore del diametro misurato (2 × raggio). Tutte le proprietà vengono mantenute senza perdita.

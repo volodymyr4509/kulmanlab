@@ -48,6 +48,19 @@ Można zaznaczać tylko elementy **Łuk** i **Okrąg**. Kliknięcie jakiegokolwi
 | Groty strzałek | Jeden (przy punkcie łuku) | Dwa (przy obu punktach łuku) |
 | Najlepsze do | Opisywanie jednej strony zakrzywionej cechy | Opisywanie pełnych wymiarów kołowych |
 
+## Edytowanie etykiety — tryb simple
+
+**Dwukrotnie kliknij** umieszczony wymiar promienia, aby otworzyć edytor tekstu w trybie **simple**. Edytor jest wstępnie wypełniony bieżącą wyrenderowaną wartością (np. `R 5.00`), dzięki czemu możesz ustawić kursor i edytować ją bezpośrednio.
+
+| Funkcja | Zachowanie |
+|---------|-----------|
+| Bold / Italic / Font / Height | Stosowane do **całej** etykiety naraz |
+| Formatowanie poszczególnych znaków | Nieobsługiwane |
+| `Enter` | Zatwierdza wartość i zamyka edytor |
+| Wieloliniowość | Nieobsługiwana |
+
+Zobacz [Edytor tekstu — tryb simple](../interface/text-editor#simple-mode) w celu uzyskania pełnej dokumentacji.
+
 ## DXF — element DIMENSION typu promień
 
 Wymiary promienia zapisywane są jako elementy `DIMENSION` z geometrią typu promień, przechowując współrzędne środka, pozycję punktu łuku i zmierzoną wartość promienia. Wszystkie właściwości zachowywane są bez utraty danych.

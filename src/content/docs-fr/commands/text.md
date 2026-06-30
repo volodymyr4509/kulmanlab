@@ -7,9 +7,9 @@ keywords: [commande text CAO, MTEXT, placer label texte CAO, annotation texte CA
 
 # Text
 
-La commande `text` place un label de texte multi-ligne. Après avoir cliqué sur une position du canevas, un éditeur popup s'ouvre où vous pouvez taper du contenu, appliquer gras/italique/barré, changer les polices et hauteurs, et insérer des sauts de ligne. Appuyez sur **Échap** pour valider et fermer l'éditeur.
+La commande `text` place un label de texte multi-ligne. Après avoir cliqué sur une position du canevas, un éditeur popup s'ouvre en **rich** mode — vous pouvez taper du contenu, appliquer gras/italique/barré par caractère, changer les polices et hauteurs, et insérer des sauts de ligne. Appuyez sur **Échap** pour valider et fermer l'éditeur.
 
-Consultez la page [Éditeur de texte](../interface/text-editor) pour la référence complète de l'éditeur.
+Consultez la page [Éditeur de texte](../interface/text-editor) pour la référence complète de l'éditeur, incluant une comparaison des modes **rich** et **simple**.
 
 ## Placer un label de texte
 

@@ -49,6 +49,19 @@ Le linee parallele non possono formare una quota angolare; il comando ignora il 
 - L'annotazione risultante è un'entità `DimensionAngular` completa memorizzata sul layer corrente. Le proprietà di aspetto (dimensione freccia, altezza testo, lunghezza linea di estensione) possono essere regolate nel pannello Proprietà.
 - Le quote angolari sono incluse nell'esportazione JSON ma non sono supportate dall'esportatore DXF.
 
+## Modifica dell'etichetta — simple mode
+
+**Doppio clic** su una quota angolare posizionata per aprire l'editor di testo in **simple** mode. L'editor è precompilato con il valore visualizzato corrente in modo da poter posizionare il cursore e modificarlo direttamente.
+
+| Feature | Comportamento |
+|---------|--------------|
+| Bold / Italic / Font / Height | Si applica all'**intera** etichetta in una volta |
+| Formattazione per carattere | Non supportata |
+| `Enter` | Conferma il valore e chiude l'editor |
+| Multiriga | Non supportato |
+
+Vedi [Editor di Testo — simple mode](../interface/text-editor#simple-mode) per il riferimento completo.
+
 ## Comandi correlati
 
 - [Dimension Linear](./dim-linear) — quota orizzontale o verticale

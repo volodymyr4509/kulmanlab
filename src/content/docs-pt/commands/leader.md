@@ -98,6 +98,12 @@ Nenhum ajuste manual necessário — mova o cursor para o lado onde deseja a eti
 |-------|------|
 | `Escape` | Cancela e reinicia para a etapa 2 |
 
+## Editar um leader existente
+
+**Duplo clique** num multileader posicionado para reabrir o editor de texto em **rich** mode. Em rich mode você pode aplicar negrito, itálico e substituições de fonte ou altura por caractere, e inserir quebras de linha com `Enter`. Pressione **Escape** para confirmar e fechar.
+
+Consulte [Editor de Texto — rich mode](../interface/text-editor#rich-mode) para a referência completa.
+
 ## Adicionando e removendo braços
 
 - Para adicionar um braço com seta extra a um leader existente: [Leader+](./leader-add)

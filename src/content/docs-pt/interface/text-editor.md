@@ -1,20 +1,51 @@
 ---
 sidebar_position: 4
-title: Editor de Texto — Formatação Rich-Text no KulmanLab CAD
-description: O editor de texto do KulmanLab CAD permite colocar etiquetas MTEXT multi-linha com negrito, itálico, tachado, substituições de fonte e altura por caractere, quebra automática de linha e navegação completa do cursor.
-keywords: [CAD editor de texto, MTEXT, negrito itálico CAD, formatação texto CAD, texto multi-linha CAD, quebra automática CAD, kulmanlab]
+title: Editor de Texto — Modos Rich e Simple no KulmanLab CAD
+description: O editor de texto do KulmanLab CAD tem dois modos — rich (formatação por caractere, multi-linha, quebra automática para Text e Multileader) e simple (estilo uniforme, linha única para entidades de cota). Um mode chip no cabeçalho mostra qual modo está ativo.
+keywords: [CAD editor de texto, MTEXT, negrito itálico CAD, formatação texto CAD, texto multi-linha CAD, quebra automática CAD, editor texto rich, editor texto simple, editor texto cota, kulmanlab]
 ---
 
 # Editor de texto
 
-O editor de texto abre sempre que você coloca uma nova etiqueta de texto com o comando `text` ou dá duplo clique em uma entidade de texto existente. Suporta conteúdo multi-linha, formatação por caractere e quebra automática de linha.
+O editor de texto abre quando você posiciona ou dá duplo clique em uma entidade editável. Um pequeno **mode chip** no cabeçalho — **rich** (cor de destaque) ou **simple** (atenuado) — mostra qual modo está ativo para a entidade atual.
+
+## Modos do editor
+
+### Rich mode
+
+Usado por: **Text** (etiquetas MTEXT) e anotações **Multileader**.
+
+| Feature | Comportamento |
+|---------|--------------|
+| Bold / Italic / Strikethrough | Por caractere (aplica à seleção, ou à entidade inteira se não houver seleção) |
+| Font e Height | Substituição por caractere, ou padrão da entidade |
+| `Enter` | Insere uma quebra de linha dura |
+| `Shift+←/→` | Estende ou reduz uma seleção de texto |
+| `Home` / `End` | Salta ao início / fim da linha dura atual |
+| Quebra automática | Suportada via grips de redimensionamento de largura de referência |
+
+### Simple mode
+
+Usado por: **Dimension Linear**, **Dimension Aligned**, **Dimension Angular**, **Dimension Radius**, **Dimension Diameter**.
+
+O editor é pré-preenchido com a etiqueta renderizada atual da cota para que você possa posicionar o cursor e editar o valor diretamente.
+
+| Feature | Comportamento |
+|---------|--------------|
+| Bold / Italic / Font / Height | Disponível — aplica-se à **etiqueta inteira** de uma vez |
+| Formatação por caractere | Não suportada |
+| `Enter` | **Confirma** o valor e fecha o editor (sem quebra de linha) |
+| Multi-linha | Não suportado |
+| Quebra automática | Não suportada |
 
 ## Abrindo o editor
 
 | Ação | Resultado |
 |------|-----------|
-| Comando `text` → clique na posição | Cria uma nova entidade de texto e abre o editor |
-| Duplo clique em uma entidade de texto existente | Reabre o editor para aquela entidade |
+| Comando `text` → clique na posição | Cria uma nova entidade de texto e abre o editor (**rich**) |
+| Duplo clique em uma entidade **Text** existente | Reabre o editor em **rich** mode |
+| Duplo clique em um **Multileader** existente | Abre o editor em **rich** mode |
+| Duplo clique em uma entidade de **cota** | Abre o editor em **simple** mode |
 | `Escape` dentro do editor | Fecha o editor e mantém todas as alterações |
 
 ## Barra de ferramentas

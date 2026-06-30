@@ -1,20 +1,51 @@
 ---
 sidebar_position: 4
-title: Text Editor — Rich-Text Formatting in KulmanLab CAD
-description: The KulmanLab CAD text editor lets you place multi-line, richly formatted MTEXT labels with bold, italic, strikethrough, per-character font and height overrides, word-wrap, and full cursor navigation.
-keywords: [CAD text editor, MTEXT, bold italic CAD, text formatting CAD, multi-line text CAD, word wrap CAD, kulmanlab]
+title: Text Editor — Rich and Simple Modes in KulmanLab CAD
+description: The KulmanLab CAD text editor has two modes — rich (per-character formatting, multi-line, word-wrap for Text and Multileader) and simple (uniform style, single-line for dimension entities). A mode chip in the header shows which mode is active.
+keywords: [CAD text editor, MTEXT, bold italic CAD, text formatting CAD, multi-line text CAD, word wrap CAD, rich text editor, simple text editor, dimension text editor, kulmanlab]
 ---
 
 # Text Editor
 
-The text editor opens whenever you place a new text label with the `text` command or double-click an existing text entity. It supports multi-line content, per-character formatting, and word-wrap.
+The text editor opens when you place or double-click an editable entity. A small **mode chip** in the header — **rich** (accent color) or **simple** (muted) — shows which mode is active for the current entity.
+
+## Editor modes
+
+### Rich mode
+
+Used by: **Text** (MTEXT labels) and **Multileader** annotations.
+
+| Feature | Behaviour |
+|---------|-----------|
+| Bold / Italic / Strikethrough | Per-character (apply to selection, or whole entity if no selection) |
+| Font and Height | Per-character override, or whole-entity default |
+| `Enter` | Inserts a hard line break |
+| `Shift+←/→` | Extends or shrinks a text selection |
+| `Home` / `End` | Jump to start / end of the current hard line |
+| Word wrap | Supported via reference-width resize grips |
+
+### Simple mode
+
+Used by: **Dimension Linear**, **Dimension Aligned**, **Dimension Angular**, **Dimension Radius**, **Dimension Diameter**.
+
+The editor is pre-seeded with the current dimension's rendered label so you can position the cursor and edit the value directly.
+
+| Feature | Behaviour |
+|---------|-----------|
+| Bold / Italic / Font / Height | Available — applies to the **entire** label at once |
+| Per-character formatting | Not supported |
+| `Enter` | **Commits** the value and closes the editor (no line break) |
+| Multi-line | Not supported |
+| Word wrap | Not supported |
 
 ## Opening the editor
 
 | Action | Result |
 |--------|--------|
-| `text` command → click position | Creates a new text entity and opens the editor |
-| Double-click an existing text entity | Re-opens the editor for that entity |
+| `text` command → click position | Creates a new text entity and opens the editor (**rich**) |
+| Double-click an existing **Text** entity | Re-opens the editor in **rich** mode |
+| Double-click an existing **Multileader** | Opens the editor in **rich** mode |
+| Double-click a **dimension** entity | Opens the editor in **simple** mode |
 | `Escape` inside the editor | Closes the editor and keeps all changes |
 
 ## Toolbar

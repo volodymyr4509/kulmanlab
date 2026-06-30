@@ -65,6 +65,19 @@ Yerleştirme sırasında bir sayı yazarak ölçü çizgisini p1→p2 çizgisind
 | Y/D yönlendirme kilidi | Hayır | Evet — `H` ve `V` tuşları |
 | En iyi | Köşegen özellikler, açılı kesimler | Dikdörtgensel yerleşimler, ızgaraya hizalı parçalar |
 
+## Etiketi Düzenleme — simple mode
+
+Yerleştirilen hizalı ölçüye **çift tıklayarak** metin düzenleyiciyi **simple** modda açın. Düzenleyici, imleci konumlandırıp doğrudan düzenleyebilmeniz için geçerli görüntülenen değerle önceden doldurulmuştur.
+
+| Özellik | Davranış |
+|---------|----------|
+| Bold / Italic / Font / Height | **Tüm** etikete aynı anda uygulanır |
+| Karakter başına biçimlendirme | Desteklenmez |
+| `Enter` | Değeri kaydeder ve düzenleyiciyi kapatır |
+| Çok satırlı | Desteklenmez |
+
+Tam referans için [Metin Düzenleyici — simple mode](../interface/text-editor#simple-mode) sayfasına bakın.
+
 ## Zincirleme Ölçüler
 
 Bu ölçünün ikinci uzatma çizgisinden devam eden ölçüler eklemek için [Dimension Continue](./dim-continue) kullanın — bu hizalı ölçüyle aynı ölçüm açısına kilitlenir.

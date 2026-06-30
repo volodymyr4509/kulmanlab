@@ -48,6 +48,19 @@ Solo se pueden seleccionar entidades **Arc** y **Circle**. Hacer clic en cualqui
 | Puntas de flecha | Una (en el punto del arco) | Dos (en ambos puntos del arco) |
 | Mejor para | Anotar un lado de un elemento curvo | Anotar dimensiones circulares completas |
 
+## Editar la etiqueta — simple mode
+
+**Haz doble clic** en una cota de radio colocada para abrir el editor de texto en **simple** mode. El editor se precarga con el valor renderizado actual (p. ej. `R 5.00`) para que puedas posicionar el cursor y editarlo directamente.
+
+| Feature | Comportamiento |
+|---------|---------------|
+| Bold / Italic / Font / Height | Se aplica a la **etiqueta completa** a la vez |
+| Formato por carácter | No compatible |
+| `Enter` | Confirma el valor y cierra el editor |
+| Multilínea | No compatible |
+
+Consulta [Editor de Texto — simple mode](../interface/text-editor#simple-mode) para la referencia completa.
+
 ## DXF — entidad DIMENSION de tipo radio
 
 Las cotas de radio se guardan como entidades `DIMENSION` con geometría de tipo radio, almacenando las coordenadas del centro, la posición del punto del arco y el valor del radio medido. Todas las propiedades se exportan sin pérdida.

@@ -48,6 +48,19 @@ Ni vipengele vya **Arc** na **Circle** pekee ndivyo vinavyoweza kuchaguliwa. Kub
 | Vichwa vya mshale | Kimoja (kwenye pointi ya mviringo) | Viwili (kwenye pointi zote za mviringo) |
 | Bora kwa | Kuweka maelezo ya upande mmoja wa kipengele kilichopinda | Kuweka maelezo ya vipimo vya duara kamili |
 
+## Kuhariri lebo — hali rahisi
+
+**Bonyeza mara mbili** kipimo cha radi kilichowekwa kufungua kihariri cha maandishi katika hali **rahisi**. Kihariri kimejazwa awali na thamani inayoonyeshwa kwa sasa (mfano: `R 5.00`) ili uweze kuweka mshale na kuihariri moja kwa moja.
+
+| Kipengele | Tabia |
+|----------|-------|
+| Bold / Italic / Font / Height | Inatumika kwa **lebo nzima** mara moja |
+| Uumbizaji kwa kila herufi | Haisaidiwi |
+| `Enter` | Inathibitisha thamani na kufunga kihariri |
+| Mistari mingi | Haisaidiwi |
+
+Angalia [Text Editor — hali rahisi](../interface/text-editor#simple-mode) kwa marejeo kamili.
+
 ## DXF — kipengele cha DIMENSION cha aina ya radi
 
 Vipimo vya radi vimehifadhiwa kama vipengele vya `DIMENSION` na jiometri ya aina ya radi, vikihifadhi kuratibu za katikati, nafasi ya pointi ya mviringo, na thamani ya radi iliyopimwa. Sifa zote zinasindikwa bila kupoteza.

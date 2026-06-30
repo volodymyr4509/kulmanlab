@@ -49,6 +49,19 @@ Garis paralel tidak dapat membentuk dimensi sudut; perintah mengabaikan klik ked
 - Anotasi yang dihasilkan adalah entitas `DimensionAngular` penuh yang disimpan pada layer saat ini. Properti tampilannya (ukuran panah, tinggi teks, panjang garis ekstensi) dapat disesuaikan di panel Properti.
 - Dimensi sudut disertakan dalam ekspor JSON tetapi tidak didukung oleh eksporter DXF.
 
+## Mengedit label — mode sederhana
+
+**Klik dua kali** dimensi sudut yang ditempatkan untuk membuka editor teks dalam mode **sederhana**. Editor diisi terlebih dahulu dengan nilai yang dirender saat ini sehingga Anda dapat memposisikan kursor dan mengeditnya langsung.
+
+| Fitur | Perilaku |
+|-------|---------|
+| Bold / Italic / Font / Height | Berlaku untuk **seluruh label** sekaligus |
+| Pemformatan per karakter | Tidak didukung |
+| `Enter` | Mengonfirmasi nilai dan menutup editor |
+| Multi-baris | Tidak didukung |
+
+Lihat [Text Editor — mode sederhana](../interface/text-editor#simple-mode) untuk referensi lengkap.
+
 ## Perintah terkait
 
 - [Dimension Linear](./dim-linear) — dimensi horizontal atau vertikal

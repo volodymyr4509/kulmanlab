@@ -48,6 +48,19 @@ Hanya entiti **Arc** dan **Circle** yang boleh dipilih. Mengklik mana-mana jenis
 | Kepala anak panah | Satu (di titik lengkok) | Dua (di kedua-dua titik lengkok) |
 | Terbaik untuk | Menganotasi satu sisi ciri melengkung | Menganotasi dimensi bulatan penuh |
 
+## Mengedit label — mod mudah
+
+**Klik dua kali** dimensi jejari yang diletakkan untuk membuka editor teks dalam mod **mudah**. Editor diisi terlebih dahulu dengan nilai yang dirender semasa (mis. `R 5.00`) supaya anda boleh meletakkan kursor dan mengeditnya terus.
+
+| Ciri | Perilaku |
+|------|---------|
+| Bold / Italic / Font / Height | Berlaku pada **keseluruhan label** sekaligus |
+| Pemformatan setiap aksara | Tidak disokong |
+| `Enter` | Mengkomit nilai dan menutup editor |
+| Berbilang baris | Tidak disokong |
+
+Lihat [Text Editor — mod mudah](../interface/text-editor#simple-mode) untuk rujukan penuh.
+
 ## DXF — entiti DIMENSION jejari
 
 Dimensi jejari disimpan sebagai entiti `DIMENSION` dengan geometri jenis jejari, menyimpan koordinat pusat, kedudukan titik lengkok, dan nilai jejari yang diukur. Semua sifat pusingan penuh tanpa kehilangan.

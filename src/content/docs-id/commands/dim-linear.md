@@ -74,6 +74,19 @@ Sisi kursor (atas/bawah untuk horizontal, kiri/kanan untuk vertikal) menentukan 
 | Tombol H/V | Ya — kunci orientasi | Tidak — selalu mengikuti p1→p2 |
 | Terbaik untuk | Layout ortogonal, denah lantai | Fitur diagonal, potongan miring |
 
+## Mengedit label — mode sederhana
+
+**Klik dua kali** dimensi linear yang ditempatkan untuk membuka editor teks dalam mode **sederhana**. Editor diisi terlebih dahulu dengan nilai yang dirender saat ini sehingga Anda dapat memposisikan kursor dan mengeditnya langsung.
+
+| Fitur | Perilaku |
+|-------|---------|
+| Bold / Italic / Font / Height | Berlaku untuk **seluruh label** sekaligus |
+| Pemformatan per karakter | Tidak didukung |
+| `Enter` | Mengonfirmasi nilai dan menutup editor |
+| Multi-baris | Tidak didukung |
+
+Lihat [Text Editor — mode sederhana](../interface/text-editor#simple-mode) untuk referensi lengkap.
+
 ## Merantai dimensi
 
 Untuk menambahkan lebih banyak dimensi yang berlanjut dari garis ekstensi terakhir, gunakan [Dimension Continue](./dim-continue) segera setelah menempatkan yang ini.

@@ -48,6 +48,19 @@ Es können nur **Arc**- und **Circle**-Elemente ausgewählt werden. Das Klicken 
 | Pfeilspitzen | Eine (am Bogenpunkt) | Zwei (an beiden Bogenpunkten) |
 | Geeignet für | Beschriftung einer Seite eines gekrümmten Merkmals | Beschriftung vollständiger Kreisbemaßungen |
 
+## Beschriftung bearbeiten — simple mode
+
+**Doppelklicken** Sie auf eine platzierte Radiusbemaßung, um den Texteditor im **simple** mode zu öffnen. Der Editor ist mit dem aktuellen angezeigten Wert vorbelegt (z. B. `R 5.00`), sodass Sie den Cursor positionieren und ihn direkt bearbeiten können.
+
+| Feature | Verhalten |
+|---------|-----------|
+| Bold / Italic / Font / Height | Gilt für die **gesamte** Beschriftung auf einmal |
+| Zeichenweise Formatierung | Nicht unterstützt |
+| `Enter` | Übernimmt den Wert und schließt den Editor |
+| Mehrzeilig | Nicht unterstützt |
+
+Siehe [Texteditor — simple mode](../interface/text-editor#simple-mode) für die vollständige Referenz.
+
 ## DXF — DIMENSION-Radiuselement
 
 Radiusbemaßungen werden als `DIMENSION`-Elemente mit Radius-Geometrietyp gespeichert, mit Mittelpunktkoordinaten, der Bogenpunkt-Position und dem gemessenen Radiuswert. Alle Eigenschaften werden verlustfrei übertragen.

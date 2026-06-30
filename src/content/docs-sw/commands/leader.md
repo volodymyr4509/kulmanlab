@@ -98,6 +98,12 @@ Hakuna marekebisho ya mkono yanayohitajika — sogeza mshale upande unaotaka leb
 |--------|---------|
 | `Escape` | Ghairi na anza upya hadi hatua ya 2 |
 
+## Kuhariri kiongozi kilichopo
+
+**Bonyeza mara mbili** multileader iliyowekwa kufungua tena kihariri cha maandishi katika hali **tajiri**. Katika hali tajiri unaweza kutumia herufi nzito, italiki, na ubatilishaji wa fonti au urefu kwa kila herufi, na kuingiza mapumziko ya mstari kwa `Enter`. Bonyeza **Escape** kuthibitisha na kufunga.
+
+Angalia [Text Editor — hali tajiri](../interface/text-editor#rich-mode) kwa marejeo kamili.
+
 ## Kuongeza na kuondoa mikono
 
 - Ili kuongeza mkono wa mshale wa ziada kwenye kiongozi kilichopo: [Leader+](./leader-add)

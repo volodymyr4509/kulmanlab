@@ -48,6 +48,19 @@ Solo le entità **Arc** e **Circle** possono essere selezionate. Cliccare qualsi
 | Punte di freccia | Una (nel punto dell'arco) | Due (in entrambi i punti dell'arco) |
 | Ideale per | Annotare un lato di un elemento curvo | Annotare quote circolari complete |
 
+## Modifica dell'etichetta — simple mode
+
+**Doppio clic** su una quota raggio posizionata per aprire l'editor di testo in **simple** mode. L'editor è precompilato con il valore visualizzato corrente (es. `R 5.00`) in modo da poter posizionare il cursore e modificarlo direttamente.
+
+| Feature | Comportamento |
+|---------|--------------|
+| Bold / Italic / Font / Height | Si applica all'**intera** etichetta in una volta |
+| Formattazione per carattere | Non supportata |
+| `Enter` | Conferma il valore e chiude l'editor |
+| Multiriga | Non supportato |
+
+Vedi [Editor di Testo — simple mode](../interface/text-editor#simple-mode) per il riferimento completo.
+
 ## DXF — entità DIMENSION raggio
 
 Le quote raggio vengono salvate come entità `DIMENSION` con geometria di tipo raggio, memorizzando le coordinate del centro, la posizione del punto dell'arco e il valore del raggio misurato. Tutte le proprietà vengono mantenute senza perdita.

@@ -49,6 +49,19 @@ Linie równoległe nie mogą tworzyć wymiaru kąta; polecenie ignoruje drugie k
 - Wynikowa adnotacja jest pełnym elementem `DimensionAngular` przechowywana na bieżącej warstwie. Właściwości wyglądu (rozmiar strzałki, wysokość tekstu, długość linii przedłużenia) można dostosować w panelu Właściwości.
 - Wymiary kąta są uwzględniane w eksporcie JSON, ale nie są obsługiwane przez eksporter DXF.
 
+## Edytowanie etykiety — tryb simple
+
+**Dwukrotnie kliknij** umieszczony wymiar kąta, aby otworzyć edytor tekstu w trybie **simple**. Edytor jest wstępnie wypełniony bieżącą wyrenderowaną wartością, dzięki czemu możesz ustawić kursor i edytować ją bezpośrednio.
+
+| Funkcja | Zachowanie |
+|---------|-----------|
+| Bold / Italic / Font / Height | Stosowane do **całej** etykiety naraz |
+| Formatowanie poszczególnych znaków | Nieobsługiwane |
+| `Enter` | Zatwierdza wartość i zamyka edytor |
+| Wieloliniowość | Nieobsługiwana |
+
+Zobacz [Edytor tekstu — tryb simple](../interface/text-editor#simple-mode) w celu uzyskania pełnej dokumentacji.
+
 ## Powiązane polecenia
 
 - [Wymiar liniowy](./dim-linear) — wymiar poziomy lub pionowy

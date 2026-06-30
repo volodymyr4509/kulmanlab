@@ -73,6 +73,19 @@ Vous ne pouvez pas changer la direction au milieu d'une chaîne. Démarrez une n
 | Style | Hérité de la base | Style courant |
 | Idéal pour | Mesures accumulées le long d'une rangée | Première cote ou changement de direction |
 
+## Modifier les libellés après le placement — simple mode
+
+**Double-cliquez** sur n'importe quelle cote de la chaîne pour ouvrir l'éditeur de texte en **simple** mode. Chaque segment est indépendant et peut être édité individuellement.
+
+| Feature | Comportement |
+|---------|-------------|
+| Bold / Italic / Font / Height | S'applique à l'**intégralité** du libellé à la fois |
+| Formatage par caractère | Non pris en charge |
+| `Enter` | Valide la valeur et ferme l'éditeur |
+| Multiligne | Non pris en charge |
+
+Voir [Éditeur de texte — simple mode](../interface/text-editor#simple-mode) pour la référence complète.
+
 ## DXF — entités DIMENSION
 
 Chaque segment de la chaîne est stocké comme une entité `DIMENSION` indépendante dans le fichier DXF. Ils ne sont pas liés dans le fichier — ils partagent des propriétés parce qu'ils ont été créés depuis la même base, mais chacun peut être édité individuellement après le placement.

@@ -98,6 +98,12 @@ No se necesita ajuste manual — mueve el cursor al lado donde quieres la etique
 |-----|--------|
 | `Escape` | Cancelar y restablecer al paso 2 |
 
+## Editar una referencia existente
+
+**Haz doble clic** en una multireferencia colocada para reabrir el editor de texto en **rich** mode. En rich mode puedes aplicar negrita, cursiva y anulaciones de fuente o altura por carácter, e insertar saltos de línea con `Enter`. Pulsa **Escape** para confirmar y cerrar.
+
+Consulta [Editor de Texto — rich mode](../interface/text-editor#rich-mode) para la referencia completa.
+
 ## Añadir y eliminar brazos
 
 - Para añadir un brazo de punta de flecha extra a una referencia existente: [Leader+](./leader-add)

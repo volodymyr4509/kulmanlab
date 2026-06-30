@@ -1,18 +1,49 @@
 ---
-title: Trình Soạn Thảo Văn Bản — Định Dạng Văn Bản Phong Phú trong KulmanLab CAD
-description: Trình soạn thảo văn bản KulmanLab CAD cho phép bạn đặt nhãn MTEXT nhiều dòng có định dạng phong phú với in đậm, in nghiêng, gạch ngang, ghi đè phông chữ và chiều cao theo ký tự, xuống dòng tự động và điều hướng con trỏ đầy đủ.
+title: Trình Soạn Thảo Văn Bản — Chế Độ Phong Phú và Đơn Giản trong KulmanLab CAD
+description: Trình soạn thảo văn bản KulmanLab CAD có hai chế độ — phong phú (định dạng theo ký tự, nhiều dòng, tự động xuống dòng cho Văn Bản và Đường Dẫn Đa) và đơn giản (kiểu thống nhất, một dòng cho các thực thể kích thước). Chip chế độ trong tiêu đề hiển thị chế độ nào đang hoạt động.
 ---
 
 # Trình Soạn Thảo Văn Bản
 
-Trình soạn thảo văn bản mở khi bạn đặt nhãn văn bản mới bằng lệnh `text` hoặc nhấp đúp vào thực thể văn bản hiện có. Nó hỗ trợ nội dung nhiều dòng, định dạng theo ký tự và xuống dòng tự động.
+Trình soạn thảo văn bản mở khi bạn đặt hoặc nhấp đúp vào thực thể có thể chỉnh sửa. Một **chip chế độ** nhỏ trong tiêu đề — **rich** (màu nhấn) hoặc **simple** (màu tắt) — hiển thị chế độ nào đang hoạt động cho thực thể hiện tại.
+
+## Chế độ trình soạn thảo
+
+### Chế độ phong phú
+
+Sử dụng bởi: **Văn Bản** (nhãn MTEXT) và chú thích **Đường Dẫn Đa**.
+
+| Tính năng | Hành vi |
+|-----------|---------|
+| Bold / Italic / Strikethrough | Theo ký tự (áp dụng cho lựa chọn, hoặc toàn bộ thực thể nếu không có lựa chọn) |
+| Font và Height | Ghi đè theo ký tự, hoặc mặc định toàn thực thể |
+| `Enter` | Chèn ngắt dòng cứng |
+| `Shift+←/→` | Mở rộng hoặc thu hẹp lựa chọn văn bản |
+| `Home` / `End` | Nhảy đến đầu/cuối dòng cứng hiện tại |
+| Xuống dòng tự động | Được hỗ trợ qua các điểm kéo thay đổi chiều rộng tham chiếu |
+
+### Chế độ đơn giản
+
+Sử dụng bởi: **Kích Thước Tuyến Tính**, **Kích Thước Căn Chỉnh**, **Kích Thước Góc**, **Kích Thước Bán Kính**, **Kích Thước Đường Kính**.
+
+Trình soạn thảo được điền sẵn nhãn hiển thị hiện tại của kích thước để bạn có thể đặt con trỏ và chỉnh sửa giá trị trực tiếp.
+
+| Tính năng | Hành vi |
+|-----------|---------|
+| Bold / Italic / Font / Height | Có thể dùng — áp dụng cho **toàn bộ nhãn** cùng một lúc |
+| Định dạng theo ký tự | Không được hỗ trợ |
+| `Enter` | **Xác nhận** giá trị và đóng trình soạn thảo (không ngắt dòng) |
+| Nhiều dòng | Không được hỗ trợ |
+| Xuống dòng tự động | Không được hỗ trợ |
 
 ## Mở trình soạn thảo
 
 | Hành động | Kết quả |
 |-----------|---------|
-| Lệnh `text` → nhấp vị trí | Tạo thực thể văn bản mới và mở trình soạn thảo |
-| Nhấp đúp thực thể văn bản hiện có | Mở lại trình soạn thảo cho thực thể đó |
+| Lệnh `text` → nhấp vị trí | Tạo thực thể văn bản mới và mở trình soạn thảo (**phong phú**) |
+| Nhấp đúp thực thể **Văn Bản** hiện có | Mở lại trình soạn thảo ở chế độ **phong phú** |
+| Nhấp đúp **Đường Dẫn Đa** hiện có | Mở trình soạn thảo ở chế độ **phong phú** |
+| Nhấp đúp thực thể **kích thước** | Mở trình soạn thảo ở chế độ **đơn giản** |
 | `Escape` bên trong trình soạn thảo | Đóng trình soạn thảo và giữ tất cả thay đổi |
 
 ## Thanh công cụ

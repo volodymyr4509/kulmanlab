@@ -46,6 +46,19 @@ Solo se pueden seleccionar entidades **Arc** y **Circle**.
 | Puntas de flecha | Dos (en ambos puntos del arco) | Una (en el punto del arco) |
 | Mejor para | Dimensiones de agujeros o ejes circulares completos | Anotar un lado de un elemento curvo |
 
+## Editar la etiqueta — simple mode
+
+**Haz doble clic** en una cota de diámetro colocada para abrir el editor de texto en **simple** mode. El editor se precarga con el valor renderizado actual (p. ej. `⌀ 10.00`) para que puedas posicionar el cursor y editarlo directamente.
+
+| Feature | Comportamiento |
+|---------|---------------|
+| Bold / Italic / Font / Height | Se aplica a la **etiqueta completa** a la vez |
+| Formato por carácter | No compatible |
+| `Enter` | Confirma el valor y cierra el editor |
+| Multilínea | No compatible |
+
+Consulta [Editor de Texto — simple mode](../interface/text-editor#simple-mode) para la referencia completa.
+
 ## DXF — entidad DIMENSION de tipo diámetro
 
 Las cotas de diámetro se guardan como entidades `DIMENSION` con geometría de tipo diámetro, almacenando ambas posiciones de los puntos del arco y el valor del diámetro medido (2 × radio). Todas las propiedades se exportan sin pérdida.

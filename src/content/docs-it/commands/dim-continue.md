@@ -73,6 +73,19 @@ Non è possibile cambiare direzione a metà catena. Avvia una nuova [Dimension L
 | Stile | Ereditato dalla base | Stile corrente |
 | Ideale per | Misurazioni cumulative lungo una fila | Prima quota o cambiamento direzione |
 
+## Modifica delle etichette dopo il posizionamento — simple mode
+
+**Doppio clic** su qualsiasi quota della catena per aprire l'editor di testo in **simple** mode. Ogni segmento è indipendente e può essere modificato individualmente.
+
+| Feature | Comportamento |
+|---------|--------------|
+| Bold / Italic / Font / Height | Si applica all'**intera** etichetta in una volta |
+| Formattazione per carattere | Non supportata |
+| `Enter` | Conferma il valore e chiude l'editor |
+| Multiriga | Non supportato |
+
+Vedi [Editor di Testo — simple mode](../interface/text-editor#simple-mode) per il riferimento completo.
+
 ## DXF — entità DIMENSION
 
 Ogni segmento della catena viene memorizzato come entità `DIMENSION` indipendente nel file DXF. Non sono collegati nel file — condividono proprietà perché sono stati creati dalla stessa base, ma ciascuno può essere modificato individualmente dopo il posizionamento.

@@ -65,6 +65,19 @@ Sisi kursor menentukan sisi mana garis dimensi muncul.
 | Kunci orientasi H/V | Tidak | Ya — kekunci `H` dan `V` |
 | Terbaik untuk | Ciri pepenjuru, potongan bercerun | Susun atur ortogon, bahagian selaras grid |
 
+## Mengedit label — mod mudah
+
+**Klik dua kali** dimensi aligned yang diletakkan untuk membuka editor teks dalam mod **mudah**. Editor diisi terlebih dahulu dengan nilai yang dirender semasa supaya anda boleh meletakkan kursor dan mengeditnya terus.
+
+| Ciri | Perilaku |
+|------|---------|
+| Bold / Italic / Font / Height | Berlaku pada **keseluruhan label** sekaligus |
+| Pemformatan setiap aksara | Tidak disokong |
+| `Enter` | Mengkomit nilai dan menutup editor |
+| Berbilang baris | Tidak disokong |
+
+Lihat [Text Editor — mod mudah](../interface/text-editor#simple-mode) untuk rujukan penuh.
+
 ## Merantai dimensi
 
 Untuk menambah lebih banyak dimensi yang diteruskan dari garis sambungan kedua yang ini, gunakan [Dimension Continue](./dim-continue) — ia mengunci ke sudut pengukuran yang sama seperti dimensi aligned ini.

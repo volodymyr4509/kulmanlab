@@ -73,6 +73,19 @@ Você não pode mudar a direção no meio da cadeia. Inicie uma nova [Dimension 
 | Estilo | Herdado da base | Estilo atual |
 | Ideal para | Medições cumulativas ao longo de uma fila | Primeira cota ou mudança de direção |
 
+## Editar etiquetas após o posicionamento — simple mode
+
+**Duplo clique** em qualquer cota da cadeia para abrir o editor de texto em **simple** mode. Cada segmento é independente e pode ser editado individualmente.
+
+| Feature | Comportamento |
+|---------|--------------|
+| Bold / Italic / Font / Height | Aplica-se à **etiqueta inteira** de uma vez |
+| Formatação por caractere | Não suportada |
+| `Enter` | Confirma o valor e fecha o editor |
+| Multi-linha | Não suportado |
+
+Consulte [Editor de Texto — simple mode](../interface/text-editor#simple-mode) para a referência completa.
+
 ## DXF — entidades DIMENSION
 
 Cada segmento da cadeia é armazenado como uma entidade `DIMENSION` independente no arquivo DXF. Elas não são vinculadas no arquivo — compartilham propriedades porque foram criadas a partir da mesma base, mas cada uma pode ser editada individualmente após o posicionamento.
