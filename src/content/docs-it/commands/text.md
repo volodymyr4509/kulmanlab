@@ -7,9 +7,9 @@ keywords: [CAD comando text, MTEXT, posiziona etichetta testo CAD, annotazione t
 
 # Text
 
-Il comando `text` posiziona un'etichetta di testo multi-riga. Dopo aver cliccato una posizione sul canvas, si apre un editor popup dove puoi digitare il contenuto, applicare grassetto/corsivo/barrato, cambiare font e altezze, e inserire interruzioni di riga. Premi **Esc** per confermare e chiudere l'editor.
+Il comando `text` posiziona un'etichetta di testo multi-riga. Dopo aver cliccato una posizione sul canvas, si apre un editor popup in **rich** mode — puoi digitare il contenuto, applicare grassetto/corsivo/barrato per carattere, cambiare font e altezze, e inserire interruzioni di riga. Premi **Esc** per confermare e chiudere l'editor.
 
-Vedi la pagina [Editor di Testo](../interface/text-editor) per il riferimento completo dell'editor.
+Vedi la pagina [Editor di Testo](../interface/text-editor) per il riferimento completo dell'editor, incluso un confronto tra le modalità **rich** e **simple**.
 
 ## Posizionare un'etichetta di testo
 

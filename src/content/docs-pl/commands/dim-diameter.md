@@ -46,6 +46,19 @@ Można zaznaczać tylko elementy **Łuk** i **Okrąg**.
 | Groty strzałek | Dwa (przy obu punktach łuku) | Jeden (przy punkcie łuku) |
 | Najlepsze do | Pełne wymiary okrągłego otworu lub wału | Opisywanie jednej strony zakrzywionej cechy |
 
+## Edytowanie etykiety — tryb simple
+
+**Dwukrotnie kliknij** umieszczony wymiar średnicy, aby otworzyć edytor tekstu w trybie **simple**. Edytor jest wstępnie wypełniony bieżącą wyrenderowaną wartością (np. `⌀ 10.00`), dzięki czemu możesz ustawić kursor i edytować ją bezpośrednio.
+
+| Funkcja | Zachowanie |
+|---------|-----------|
+| Bold / Italic / Font / Height | Stosowane do **całej** etykiety naraz |
+| Formatowanie poszczególnych znaków | Nieobsługiwane |
+| `Enter` | Zatwierdza wartość i zamyka edytor |
+| Wieloliniowość | Nieobsługiwana |
+
+Zobacz [Edytor tekstu — tryb simple](../interface/text-editor#simple-mode) w celu uzyskania pełnej dokumentacji.
+
 ## DXF — element DIMENSION typu średnica
 
 Wymiary średnicy zapisywane są jako elementy `DIMENSION` z geometrią typu średnica, przechowując pozycje obu punktów łuku i zmierzoną wartość średnicy (2 × promień). Wszystkie właściwości zachowywane są bez utraty danych.

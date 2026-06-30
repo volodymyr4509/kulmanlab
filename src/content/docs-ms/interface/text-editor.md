@@ -1,20 +1,51 @@
 ---
 sidebar_position: 4
-title: Editor Teks — Pemformatan Teks Kaya dalam KulmanLab CAD
-description: Editor teks KulmanLab CAD membolehkan anda meletakkan label MTEXT berbilang baris dengan pemformatan kaya dengan tebal, italik, strikethrough, fon setiap aksara dan pengatasan ketinggian, bungkus perkataan, dan navigasi kursor penuh.
-keywords: [CAD editor teks, MTEXT, tebal italik CAD, pemformatan teks CAD, teks berbilang baris CAD, bungkus perkataan CAD, kulmanlab]
+title: Editor Teks — Mod Kaya dan Mudah dalam KulmanLab CAD
+description: Editor teks KulmanLab CAD mempunyai dua mod — kaya (pemformatan setiap aksara, berbilang baris, bungkus perkataan untuk Text dan Multileader) dan mudah (gaya seragam, satu baris untuk entiti dimensi). Cip mod dalam pengepala menunjukkan mod yang aktif.
+keywords: [CAD editor teks, MTEXT, tebal italik CAD, pemformatan teks CAD, teks berbilang baris CAD, bungkus perkataan CAD, editor teks kaya, editor teks mudah, editor teks dimensi, kulmanlab]
 ---
 
 # Text Editor
 
-Editor teks terbuka setiap kali anda meletakkan label teks baharu dengan arahan `text` atau klik dua kali entiti teks sedia ada. Ia menyokong kandungan berbilang baris, pemformatan setiap aksara, dan bungkus perkataan.
+Editor teks terbuka apabila anda meletakkan atau mengklik dua kali entiti yang boleh diedit. **Cip mod** kecil dalam pengepala — **rich** (warna aksen) atau **simple** (warna redup) — menunjukkan mod yang aktif untuk entiti semasa.
+
+## Mod editor
+
+### Mod kaya
+
+Digunakan oleh: **Text** (label MTEXT) dan anotasi **Multileader**.
+
+| Ciri | Perilaku |
+|------|---------|
+| Bold / Italic / Strikethrough | Setiap aksara (berlaku pada pemilihan, atau keseluruhan entiti jika tiada pemilihan) |
+| Font dan Height | Pengatasan setiap aksara, atau lalai keseluruhan entiti |
+| `Enter` | Memasukkan pemecahan baris keras |
+| `Shift+←/→` | Memanjangkan atau mengecilkan pemilihan teks |
+| `Home` / `End` | Lompat ke awal/akhir baris keras semasa |
+| Bungkus perkataan | Disokong melalui grip ubah saiz lebar rujukan |
+
+### Mod mudah
+
+Digunakan oleh: **Dimension Linear**, **Dimension Aligned**, **Dimension Angular**, **Dimension Radius**, **Dimension Diameter**.
+
+Editor diisi terlebih dahulu dengan label yang dirender dari dimensi semasa supaya anda boleh meletakkan kursor dan mengedit nilainya terus.
+
+| Ciri | Perilaku |
+|------|---------|
+| Bold / Italic / Font / Height | Tersedia — berlaku pada **keseluruhan label** sekaligus |
+| Pemformatan setiap aksara | Tidak disokong |
+| `Enter` | **Mengkomit** nilai dan menutup editor (tiada pemecahan baris) |
+| Berbilang baris | Tidak disokong |
+| Bungkus perkataan | Tidak disokong |
 
 ## Membuka editor
 
 | Tindakan | Hasil |
 |---------|-------|
-| Arahan `text` → klik kedudukan | Mencipta entiti teks baharu dan membuka editor |
-| Klik dua kali entiti teks sedia ada | Membuka semula editor untuk entiti tersebut |
+| Arahan `text` → klik kedudukan | Mencipta entiti teks baharu dan membuka editor (**kaya**) |
+| Klik dua kali entiti **Text** sedia ada | Membuka semula editor dalam mod **kaya** |
+| Klik dua kali **Multileader** sedia ada | Membuka editor dalam mod **kaya** |
+| Klik dua kali entiti **dimensi** | Membuka editor dalam mod **mudah** |
 | `Escape` di dalam editor | Menutup editor dan mengekalkan semua perubahan |
 
 ## Bar alat

@@ -7,9 +7,9 @@ keywords: [CAD text command, MTEXT, place text label CAD, text annotation CAD, b
 
 # Text
 
-Amri ya `text` huweka lebo ya maandishi ya mistari mingi. Baada ya kubonyeza nafasi kwenye kanvasi, kihariri cha popup hufunguka ambapo unaweza kuandika maudhui, kutumia herufi nzito/italiki/kupigwa mstari, kubadilisha fonti na urefu, na kuingiza mapumziko ya mstari. Bonyeza **Escape** kuthibitisha na kufunga kihariri.
+Amri ya `text` huweka lebo ya maandishi ya mistari mingi. Baada ya kubonyeza nafasi kwenye kanvasi, kihariri cha popup hufunguka katika hali **tajiri** — unaweza kuandika maudhui, kutumia herufi nzito/italiki/kupigwa mstari kwa kila herufi, kubadilisha fonti na urefu, na kuingiza mapumziko ya mstari. Bonyeza **Escape** kuthibitisha na kufunga kihariri.
 
-Angalia ukurasa wa [Text Editor](../interface/text-editor) kwa marejeo kamili ya kihariri.
+Angalia ukurasa wa [Text Editor](../interface/text-editor) kwa marejeo kamili ya kihariri, ikijumuisha ulinganisho wa hali **tajiri** na **rahisi**.
 
 ## Kuweka lebo ya maandishi
 

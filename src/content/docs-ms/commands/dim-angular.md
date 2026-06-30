@@ -49,6 +49,19 @@ Garis selari tidak boleh membentuk dimensi sudut; arahan mengabaikan klik kedua 
 - Anotasi yang dihasilkan adalah entiti `DimensionAngular` penuh yang disimpan pada lapisan semasa. Sifat penampilannya (saiz anak panah, ketinggian teks, panjang garis sambungan) boleh dilaraskan dalam panel Sifat.
 - Dimensi sudut disertakan dalam eksport JSON tetapi tidak disokong oleh pengeksport DXF.
 
+## Mengedit label — mod mudah
+
+**Klik dua kali** dimensi sudut yang diletakkan untuk membuka editor teks dalam mod **mudah**. Editor diisi terlebih dahulu dengan nilai yang dirender semasa supaya anda boleh meletakkan kursor dan mengeditnya terus.
+
+| Ciri | Perilaku |
+|------|---------|
+| Bold / Italic / Font / Height | Berlaku pada **keseluruhan label** sekaligus |
+| Pemformatan setiap aksara | Tidak disokong |
+| `Enter` | Mengkomit nilai dan menutup editor |
+| Berbilang baris | Tidak disokong |
+
+Lihat [Text Editor — mod mudah](../interface/text-editor#simple-mode) untuk rujukan penuh.
+
 ## Arahan berkaitan
 
 - [Dimension Linear](./dim-linear) — dimensi mendatar atau menegak

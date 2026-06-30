@@ -98,6 +98,12 @@ Keine manuelle Anpassung nötig — bewegen Sie den Cursor auf die Seite, auf de
 |-------|--------|
 | `Escape` | Abbrechen und auf Schritt 2 zurücksetzen |
 
+## Eine vorhandene Führungslinie bearbeiten
+
+**Doppelklicken** Sie auf eine platzierte Mehrfachführungslinie, um den Texteditor im **rich** mode erneut zu öffnen. Im rich mode können Sie Fett, Kursiv und zeichenweise Schriftart- oder Höhen-Überschreibungen anwenden sowie Zeilenumbrüche mit `Enter` einfügen. Drücken Sie **Escape**, um zu bestätigen und zu schließen.
+
+Siehe [Texteditor — rich mode](../interface/text-editor#rich-mode) für die vollständige Referenz.
+
 ## Arme hinzufügen und entfernen
 
 - Um einer vorhandenen Führungslinie einen zusätzlichen Pfeilspitzen-Arm hinzuzufügen: [Leader+](./leader-add)

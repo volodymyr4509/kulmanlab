@@ -65,6 +65,19 @@ El lado del cursor determina en qué lado aparece la línea de cota.
 | Bloqueo de orientación H/V | No | Sí — teclas `H` y `V` |
 | Mejor para | Elementos diagonales, cortes en ángulo | Composiciones ortogonales, piezas alineadas en cuadrícula |
 
+## Editar la etiqueta — simple mode
+
+**Haz doble clic** en una cota alineada colocada para abrir el editor de texto en **simple** mode. El editor se precarga con el valor renderizado actual para que puedas posicionar el cursor y editarlo directamente.
+
+| Feature | Comportamiento |
+|---------|---------------|
+| Bold / Italic / Font / Height | Se aplica a la **etiqueta completa** a la vez |
+| Formato por carácter | No compatible |
+| `Enter` | Confirma el valor y cierra el editor |
+| Multilínea | No compatible |
+
+Consulta [Editor de Texto — simple mode](../interface/text-editor#simple-mode) para la referencia completa.
+
 ## Encadenar cotas
 
 Para agregar más cotas continuando desde la segunda línea de extensión de esta, usa [Dimension Continue](./dim-continue) — se bloquea al mismo ángulo de medición que esta cota alineada.

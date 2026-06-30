@@ -49,6 +49,19 @@ Paralel çizgiler açısal ölçü oluşturamaz; çizgiler kesişmiyorsa komut i
 - Elde edilen ek açıklama, mevcut katmanda saklanan tam bir `DimensionAngular` nesnesidir. Görünüm özellikleri (ok boyutu, metin yüksekliği, uzatma çizgisi uzunluğu) Özellikler panelinden ayarlanabilir.
 - Açısal ölçüler JSON dışa aktarımına dahil edilir ancak DXF dışa aktarıcı tarafından desteklenmez.
 
+## Etiketi Düzenleme — simple mode
+
+Yerleştirilen açısal ölçüye **çift tıklayarak** metin düzenleyiciyi **simple** modda açın. Düzenleyici, imleci konumlandırıp doğrudan düzenleyebilmeniz için geçerli görüntülenen değerle önceden doldurulmuştur.
+
+| Özellik | Davranış |
+|---------|----------|
+| Bold / Italic / Font / Height | **Tüm** etikete aynı anda uygulanır |
+| Karakter başına biçimlendirme | Desteklenmez |
+| `Enter` | Değeri kaydeder ve düzenleyiciyi kapatır |
+| Çok satırlı | Desteklenmez |
+
+Tam referans için [Metin Düzenleyici — simple mode](../interface/text-editor#simple-mode) sayfasına bakın.
+
 ## İlgili Komutlar
 
 - [Dimension Linear](./dim-linear) — yatay veya dikey ölçü

@@ -46,6 +46,19 @@ Seules les entités **Arc** et **Circle** peuvent être sélectionnées.
 | Pointes de flèche | Deux (sur les deux points de l'arc) | Une (sur le point de l'arc) |
 | Idéal pour | Dimensions de trous ou axes circulaires complets | Annoter un côté d'un élément courbe |
 
+## Modifier le libellé — simple mode
+
+**Double-cliquez** sur une cote de diamètre placée pour ouvrir l'éditeur de texte en **simple** mode. L'éditeur est prérempli avec la valeur rendue actuelle (p. ex. `⌀ 10.00`) pour que vous puissiez positionner le curseur et la modifier directement.
+
+| Feature | Comportement |
+|---------|-------------|
+| Bold / Italic / Font / Height | S'applique à l'**intégralité** du libellé à la fois |
+| Formatage par caractère | Non pris en charge |
+| `Enter` | Valide la valeur et ferme l'éditeur |
+| Multiligne | Non pris en charge |
+
+Voir [Éditeur de texte — simple mode](../interface/text-editor#simple-mode) pour la référence complète.
+
 ## DXF — entité DIMENSION de type diamètre
 
 Les cotes de diamètre sont sauvegardées comme entités `DIMENSION` avec géométrie de type diamètre, stockant les deux positions des points de l'arc et la valeur du diamètre mesuré (2 × rayon). Toutes les propriétés sont exportées sans perte.

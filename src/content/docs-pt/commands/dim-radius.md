@@ -48,6 +48,19 @@ Apenas entidades **Arc** e **Circle** podem ser selecionadas. Clicar em qualquer
 | Pontas de seta | Uma (no ponto do arco) | Duas (em ambos os pontos do arco) |
 | Ideal para | Anotar um lado de um elemento curvo | Anotar cotas circulares completas |
 
+## Editar a etiqueta — simple mode
+
+**Duplo clique** numa cota de raio posicionada para abrir o editor de texto em **simple** mode. O editor é pré-preenchido com o valor renderizado atual (ex. `R 5.00`) para que você possa posicionar o cursor e editá-lo diretamente.
+
+| Feature | Comportamento |
+|---------|--------------|
+| Bold / Italic / Font / Height | Aplica-se à **etiqueta inteira** de uma vez |
+| Formatação por caractere | Não suportada |
+| `Enter` | Confirma o valor e fecha o editor |
+| Multi-linha | Não suportado |
+
+Consulte [Editor de Texto — simple mode](../interface/text-editor#simple-mode) para a referência completa.
+
 ## DXF — entidade DIMENSION de raio
 
 As cotas de raio são salvas como entidades `DIMENSION` com geometria do tipo raio, armazenando as coordenadas do centro, a posição do ponto do arco e o valor do raio medido. Todas as propriedades são mantidas sem perda.

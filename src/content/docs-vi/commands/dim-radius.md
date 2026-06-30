@@ -37,6 +37,19 @@ Chỉ các thực thể **Cung** và **Hình tròn** mới có thể được ch
 | Mũi tên | Một (ở điểm cung) | Hai (ở cả hai điểm cung) |
 | Tốt nhất cho | Ghi chú một mặt của đặc điểm cong | Ghi chú kích thước tròn đầy đủ |
 
+## Chỉnh sửa nhãn — chế độ đơn giản
+
+**Nhấp đúp** vào kích thước bán kính đã đặt để mở trình soạn thảo văn bản ở chế độ **đơn giản**. Trình soạn thảo được điền sẵn giá trị hiển thị hiện tại (ví dụ: `R 5.00`) để bạn có thể đặt con trỏ và chỉnh sửa trực tiếp.
+
+| Tính năng | Hành vi |
+|-----------|---------|
+| Bold / Italic / Font / Height | Áp dụng cho **toàn bộ nhãn** cùng một lúc |
+| Định dạng theo ký tự | Không được hỗ trợ |
+| `Enter` | Xác nhận giá trị và đóng trình soạn thảo |
+| Nhiều dòng | Không được hỗ trợ |
+
+Xem [Trình Soạn Thảo Văn Bản — chế độ đơn giản](../interface/text-editor#simple-mode) để tham khảo đầy đủ.
+
 ## DXF — thực thể DIMENSION bán kính
 
 Kích thước bán kính được lưu dưới dạng thực thể `DIMENSION` với hình học loại bán kính, lưu trữ tọa độ tâm, vị trí điểm cung và giá trị bán kính đo được. Tất cả thuộc tính được lưu trữ đầy đủ và không bị mất.

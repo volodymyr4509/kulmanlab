@@ -49,6 +49,19 @@ Mistari inayofanana haiwezi kuunda kipimo cha pembe; amri inazaliwa bonyezo la p
 - Maelezo yanayotokana ni kipengele kamili cha `DimensionAngular` kilichohifadhiwa kwenye safu ya sasa. Sifa zake za mwonekano (ukubwa wa mshale, urefu wa maandishi, urefu wa mstari wa upanuzi) zinaweza kurekebishwa kwenye paneli ya Sifa.
 - Vipimo vya pembe vimejumuishwa katika usafirishaji wa JSON lakini havisaidiwi na kisafirishaji cha DXF.
 
+## Kuhariri lebo — hali rahisi
+
+**Bonyeza mara mbili** kipimo cha pembe kilichowekwa kufungua kihariri cha maandishi katika hali **rahisi**. Kihariri kimejazwa awali na thamani inayoonyeshwa kwa sasa ili uweze kuweka mshale na kuihariri moja kwa moja.
+
+| Kipengele | Tabia |
+|----------|-------|
+| Bold / Italic / Font / Height | Inatumika kwa **lebo nzima** mara moja |
+| Uumbizaji kwa kila herufi | Haisaidiwi |
+| `Enter` | Inathibitisha thamani na kufunga kihariri |
+| Mistari mingi | Haisaidiwi |
+
+Angalia [Text Editor — hali rahisi](../interface/text-editor#simple-mode) kwa marejeo kamili.
+
 ## Amri zinazohusiana
 
 - [Dimension Linear](./dim-linear) — kipimo cha usawa au wima

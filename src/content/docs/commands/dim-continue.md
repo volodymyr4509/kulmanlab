@@ -73,6 +73,19 @@ You cannot change the direction mid-chain. Start a new [Dimension Linear](./dim-
 | Style | Inherited from base | Current style |
 | Best for | Cumulative measurements along a row | First dimension or changing direction |
 
+## Editing labels after placement — simple mode
+
+**Double-click** any dimension in the chain to open the text editor in **simple** mode. Each segment is independent and can be edited individually.
+
+| Feature | Behaviour |
+|---------|-----------|
+| Bold / Italic / Font / Height | Apply to the **entire** label at once |
+| Per-character formatting | Not supported |
+| `Enter` | Commits the value and closes the editor |
+| Multi-line | Not supported |
+
+See [Text Editor — simple mode](../interface/text-editor#simple-mode) for the full reference.
+
 ## DXF — DIMENSION entities
 
 Each segment in the chain is stored as an independent `DIMENSION` entity in the DXF file. They are not linked in the file — they share properties because they were created from the same base, but each can be edited individually after placement.

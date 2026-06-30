@@ -49,6 +49,19 @@ Les lignes parallèles ne peuvent pas former une cote angulaire ; la commande ig
 - L'annotation résultante est une entité `DimensionAngular` complète stockée dans le calque courant. Ses propriétés d'apparence (taille de flèche, hauteur de texte, longueur de ligne d'extension) peuvent être ajustées dans le panneau Propriétés.
 - Les cotes angulaires sont incluses dans l'export JSON mais ne sont pas compatibles avec l'exporteur DXF.
 
+## Modifier le libellé — simple mode
+
+**Double-cliquez** sur une cote angulaire placée pour ouvrir l'éditeur de texte en **simple** mode. L'éditeur est prérempli avec la valeur rendue actuelle pour que vous puissiez positionner le curseur et la modifier directement.
+
+| Feature | Comportement |
+|---------|-------------|
+| Bold / Italic / Font / Height | S'applique à l'**intégralité** du libellé à la fois |
+| Formatage par caractère | Non pris en charge |
+| `Enter` | Valide la valeur et ferme l'éditeur |
+| Multiligne | Non pris en charge |
+
+Voir [Éditeur de texte — simple mode](../interface/text-editor#simple-mode) pour la référence complète.
+
 ## Commandes associées
 
 - [Dimension Linear](./dim-linear) — cote horizontale ou verticale

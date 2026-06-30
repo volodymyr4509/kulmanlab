@@ -73,6 +73,19 @@ Nie możesz zmienić kierunku w środku łańcucha. Uruchom nowy [Wymiar liniowy
 | Styl | Dziedziczone z bazy | Bieżący styl |
 | Najlepsze do | Pomiary skumulowane wzdłuż rzędu | Pierwszy wymiar lub zmiana kierunku |
 
+## Edytowanie etykiet po umieszczeniu — tryb simple
+
+**Dwukrotnie kliknij** dowolny wymiar w łańcuchu, aby otworzyć edytor tekstu w trybie **simple**. Każdy segment jest niezależny i można go edytować osobno.
+
+| Funkcja | Zachowanie |
+|---------|-----------|
+| Bold / Italic / Font / Height | Stosowane do **całej** etykiety naraz |
+| Formatowanie poszczególnych znaków | Nieobsługiwane |
+| `Enter` | Zatwierdza wartość i zamyka edytor |
+| Wieloliniowość | Nieobsługiwana |
+
+Zobacz [Edytor tekstu — tryb simple](../interface/text-editor#simple-mode) w celu uzyskania pełnej dokumentacji.
+
 ## DXF — elementy DIMENSION
 
 Każdy segment w łańcuchu jest przechowywany jako niezależny element `DIMENSION` w pliku DXF. Nie są połączone w pliku — dzielą właściwości, ponieważ zostały utworzone z tej samej bazy, ale każdy może być edytowany indywidualnie po umieszczeniu.

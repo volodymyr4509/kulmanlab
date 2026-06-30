@@ -1,20 +1,51 @@
 ---
 sidebar_position: 4
-title: Editor di Testo — Formattazione RTF in KulmanLab CAD
-description: L'editor di testo di KulmanLab CAD consente di posizionare etichette MTEXT multiriga con testo in grassetto, corsivo, barrato, sostituzioni di font e altezze per carattere, a capo automatico e navigazione completa del cursore.
-keywords: [CAD editor di testo, MTEXT, grassetto corsivo CAD, formattazione testo CAD, testo multiriga CAD, a capo automatico CAD, kulmanlab]
+title: Editor di Testo — Modalità Rich e Simple in KulmanLab CAD
+description: L'editor di testo di KulmanLab CAD ha due modalità — rich (formattazione per carattere, multiriga, a capo automatico per Text e Multileader) e simple (stile uniforme, riga singola per entità di quota). Un mode chip nell'intestazione mostra quale modalità è attiva.
+keywords: [CAD editor di testo, MTEXT, grassetto corsivo CAD, formattazione testo CAD, testo multiriga CAD, a capo automatico CAD, editor testo rich, editor testo simple, editor testo quota, kulmanlab]
 ---
 
 # Editor di testo
 
-L'editor di testo si apre ogni volta che posizioni una nuova etichetta di testo con il comando `text` o fai doppio clic su un'entità di testo esistente. Supporta contenuto multiriga, formattazione per carattere e a capo automatico.
+L'editor di testo si apre quando posizioni o fai doppio clic su un'entità modificabile. Un piccolo **mode chip** nell'intestazione — **rich** (colore accento) o **simple** (attenuato) — mostra quale modalità è attiva per l'entità corrente.
+
+## Modalità dell'editor
+
+### Rich mode
+
+Usato da: **Text** (etichette MTEXT) e annotazioni **Multileader**.
+
+| Feature | Comportamento |
+|---------|--------------|
+| Bold / Italic / Strikethrough | Per carattere (applica alla selezione, o all'intera entità se nessuna selezione) |
+| Font e Height | Sostituzione per carattere, o valore predefinito dell'entità |
+| `Enter` | Inserisce un'interruzione di riga dura |
+| `Shift+←/→` | Estende o riduce una selezione di testo |
+| `Home` / `End` | Salta all'inizio / fine della riga dura corrente |
+| A capo automatico | Supportato tramite grip di ridimensionamento della larghezza di riferimento |
+
+### Simple mode
+
+Usato da: **Dimension Linear**, **Dimension Aligned**, **Dimension Angular**, **Dimension Radius**, **Dimension Diameter**.
+
+L'editor è precompilato con l'etichetta visualizzata corrente della quota in modo da poter posizionare il cursore e modificare il valore direttamente.
+
+| Feature | Comportamento |
+|---------|--------------|
+| Bold / Italic / Font / Height | Disponibile — si applica all'**intera** etichetta in una volta |
+| Formattazione per carattere | Non supportata |
+| `Enter` | **Conferma** il valore e chiude l'editor (nessuna interruzione di riga) |
+| Multiriga | Non supportato |
+| A capo automatico | Non supportato |
 
 ## Aprire l'editor
 
 | Azione | Risultato |
 |--------|-----------|
-| Comando `text` → clicca la posizione | Crea una nuova entità testo e apre l'editor |
-| Doppio clic su un'entità testo esistente | Riapre l'editor per quell'entità |
+| Comando `text` → clicca la posizione | Crea una nuova entità testo e apre l'editor (**rich**) |
+| Doppio clic su un'entità **Text** esistente | Riapre l'editor in **rich** mode |
+| Doppio clic su un **Multileader** esistente | Apre l'editor in **rich** mode |
+| Doppio clic su un'entità **quota** | Apre l'editor in **simple** mode |
 | `Esc` all'interno dell'editor | Chiude l'editor e mantiene tutte le modifiche |
 
 ## Barra degli strumenti

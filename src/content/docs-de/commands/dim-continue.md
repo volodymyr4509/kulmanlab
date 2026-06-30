@@ -73,6 +73,19 @@ Die Richtung kann nicht mitten in der Kette geändert werden. Starten Sie eine n
 | Stil | Von Basis übernommen | Aktueller Stil |
 | Geeignet für | Kumulative Messungen entlang einer Reihe | Erste Bemaßung oder Richtungswechsel |
 
+## Beschriftungen nach der Platzierung bearbeiten — simple mode
+
+**Doppelklicken** Sie auf eine beliebige Bemaßung in der Kette, um den Texteditor im **simple** mode zu öffnen. Jedes Segment ist unabhängig und kann einzeln bearbeitet werden.
+
+| Feature | Verhalten |
+|---------|-----------|
+| Bold / Italic / Font / Height | Gilt für die **gesamte** Beschriftung auf einmal |
+| Zeichenweise Formatierung | Nicht unterstützt |
+| `Enter` | Übernimmt den Wert und schließt den Editor |
+| Mehrzeilig | Nicht unterstützt |
+
+Siehe [Texteditor — simple mode](../interface/text-editor#simple-mode) für die vollständige Referenz.
+
 ## DXF — DIMENSION-Elemente
 
 Jedes Segment in der Kette wird als unabhängiges `DIMENSION`-Element in der DXF-Datei gespeichert. Sie sind in der Datei nicht verknüpft — sie teilen Eigenschaften, weil sie von derselben Basis erstellt wurden, aber jedes kann nach der Platzierung einzeln bearbeitet werden.

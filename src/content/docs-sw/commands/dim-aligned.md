@@ -65,6 +65,19 @@ Upande wa mshale huamua upande ambao mstari wa kipimo utaonekana.
 | Kufunga mwelekeo wa H/V | Hapana | Ndiyo — vifungo vya `H` na `V` |
 | Bora kwa | Vipengele vya diagonal, vikato vya pembe | Mpangilio wa mstari wa moja kwa moja, sehemu zilizopangwa kwenye gridi |
 
+## Kuhariri lebo — hali rahisi
+
+**Bonyeza mara mbili** kipimo kilichopangwa kilichowekwa kufungua kihariri cha maandishi katika hali **rahisi**. Kihariri kimejazwa awali na thamani inayoonyeshwa kwa sasa ili uweze kuweka mshale na kuihariri moja kwa moja.
+
+| Kipengele | Tabia |
+|----------|-------|
+| Bold / Italic / Font / Height | Inatumika kwa **lebo nzima** mara moja |
+| Uumbizaji kwa kila herufi | Haisaidiwi |
+| `Enter` | Inathibitisha thamani na kufunga kihariri |
+| Mistari mingi | Haisaidiwi |
+
+Angalia [Text Editor — hali rahisi](../interface/text-editor#simple-mode) kwa marejeo kamili.
+
 ## Mnyororo wa vipimo
 
 Ili kuongeza vipimo zaidi vikiendelea kutoka kwa mstari wa pili wa upanuzi wa hiki, tumia [Dimension Continue](./dim-continue) — inafunga kwenye pembe sawa ya kipimo kama kipimo hiki kilichopangwa.

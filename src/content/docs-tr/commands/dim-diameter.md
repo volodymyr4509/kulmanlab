@@ -46,6 +46,19 @@ Yalnızca **Yay** ve **Daire** nesneleri seçilebilir.
 | Ok uçları | İki tane (her iki yay noktasında) | Bir tane (yay noktasında) |
 | En iyi | Tam dairesel delik veya mil ölçüleri | Eğrisel bir özelliğin bir tarafını işaretleme |
 
+## Etiketi Düzenleme — simple mode
+
+Yerleştirilen çap ölçüsüne **çift tıklayarak** metin düzenleyiciyi **simple** modda açın. Düzenleyici, geçerli görüntülenen değerle (ör. `⌀ 10.00`) önceden doldurulmuştur; imleci konumlandırıp doğrudan düzenleyebilirsiniz.
+
+| Özellik | Davranış |
+|---------|----------|
+| Bold / Italic / Font / Height | **Tüm** etikete aynı anda uygulanır |
+| Karakter başına biçimlendirme | Desteklenmez |
+| `Enter` | Değeri kaydeder ve düzenleyiciyi kapatır |
+| Çok satırlı | Desteklenmez |
+
+Tam referans için [Metin Düzenleyici — simple mode](../interface/text-editor#simple-mode) sayfasına bakın.
+
 ## DXF — DIMENSION diameter nesnesi
 
 Çap ölçüleri, her iki yay noktası konumunu ve ölçülen çap değerini (2 × yarıçap) saklayan, çap türü geometrisiyle `DIMENSION` nesnesi olarak kaydedilir. Tüm özellikler kayıpsız round-trip yapar.

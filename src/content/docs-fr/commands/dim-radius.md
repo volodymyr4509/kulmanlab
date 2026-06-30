@@ -48,6 +48,19 @@ Seules les entités **Arc** et **Circle** peuvent être sélectionnées. Cliquer
 | Pointes de flèche | Une (sur le point de l'arc) | Deux (sur les deux points de l'arc) |
 | Idéal pour | Annoter un côté d'un élément courbe | Annoter les dimensions circulaires complètes |
 
+## Modifier le libellé — simple mode
+
+**Double-cliquez** sur une cote de rayon placée pour ouvrir l'éditeur de texte en **simple** mode. L'éditeur est prérempli avec la valeur rendue actuelle (p. ex. `R 5.00`) pour que vous puissiez positionner le curseur et la modifier directement.
+
+| Feature | Comportement |
+|---------|-------------|
+| Bold / Italic / Font / Height | S'applique à l'**intégralité** du libellé à la fois |
+| Formatage par caractère | Non pris en charge |
+| `Enter` | Valide la valeur et ferme l'éditeur |
+| Multiligne | Non pris en charge |
+
+Voir [Éditeur de texte — simple mode](../interface/text-editor#simple-mode) pour la référence complète.
+
 ## DXF — entité DIMENSION de type rayon
 
 Les cotes de rayon sont sauvegardées comme entités `DIMENSION` avec géométrie de type rayon, stockant les coordonnées du centre, la position du point de l'arc et la valeur du rayon mesuré. Toutes les propriétés sont exportées sans perte.

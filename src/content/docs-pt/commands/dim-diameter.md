@@ -46,6 +46,19 @@ Apenas entidades **Arc** e **Circle** podem ser selecionadas.
 | Pontas de seta | Duas (em ambos os pontos do arco) | Uma (no ponto do arco) |
 | Ideal para | Cotas de furo circular ou eixo completo | Anotar um lado de um elemento curvo |
 
+## Editar a etiqueta — simple mode
+
+**Duplo clique** numa cota de diâmetro posicionada para abrir o editor de texto em **simple** mode. O editor é pré-preenchido com o valor renderizado atual (ex. `⌀ 10.00`) para que você possa posicionar o cursor e editá-lo diretamente.
+
+| Feature | Comportamento |
+|---------|--------------|
+| Bold / Italic / Font / Height | Aplica-se à **etiqueta inteira** de uma vez |
+| Formatação por caractere | Não suportada |
+| `Enter` | Confirma o valor e fecha o editor |
+| Multi-linha | Não suportado |
+
+Consulte [Editor de Texto — simple mode](../interface/text-editor#simple-mode) para a referência completa.
+
 ## DXF — entidade DIMENSION de diâmetro
 
 As cotas de diâmetro são salvas como entidades `DIMENSION` com geometria do tipo diâmetro, armazenando ambas as posições dos pontos do arco e o valor do diâmetro medido (2 × raio). Todas as propriedades são mantidas sem perda.

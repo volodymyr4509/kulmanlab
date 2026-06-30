@@ -44,6 +44,19 @@ Hướng đo của chuỗi được **cố định theo góc của kích thướ
 | `Enter` | Xác nhận tọa độ đã gõ, hoặc kết thúc chuỗi nếu không có nhập liệu |
 | `Space` / `Escape` | Kết thúc chuỗi |
 
+## Chỉnh sửa nhãn sau khi đặt — chế độ đơn giản
+
+**Nhấp đúp** vào bất kỳ kích thước nào trong chuỗi để mở trình soạn thảo văn bản ở chế độ **đơn giản**. Mỗi đoạn là độc lập và có thể được chỉnh sửa riêng lẻ.
+
+| Tính năng | Hành vi |
+|-----------|---------|
+| Bold / Italic / Font / Height | Áp dụng cho **toàn bộ nhãn** cùng một lúc |
+| Định dạng theo ký tự | Không được hỗ trợ |
+| `Enter` | Xác nhận giá trị và đóng trình soạn thảo |
+| Nhiều dòng | Không được hỗ trợ |
+
+Xem [Trình Soạn Thảo Văn Bản — chế độ đơn giản](../interface/text-editor#simple-mode) để tham khảo đầy đủ.
+
 ## DXF — thực thể DIMENSION
 
 Mỗi đoạn trong chuỗi được lưu dưới dạng thực thể `DIMENSION` độc lập trong tệp DXF. Chúng không được liên kết trong tệp — chúng chia sẻ thuộc tính vì được tạo từ cùng một cơ sở, nhưng mỗi cái có thể được chỉnh sửa độc lập sau khi đặt.

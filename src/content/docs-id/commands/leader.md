@@ -98,6 +98,12 @@ Tidak perlu penyesuaian manual — gerakkan kursor ke sisi di mana Anda ingin la
 |-----|--------|
 | `Escape` | Batal dan reset ke langkah 2 |
 
+## Mengedit leader yang ada
+
+**Klik dua kali** multileader yang ditempatkan untuk membuka kembali editor teks dalam mode **kaya**. Dalam mode kaya Anda dapat menerapkan tebal, miring, dan penggantian font atau tinggi per karakter, serta menyisipkan jeda baris dengan `Enter`. Tekan **Escape** untuk mengonfirmasi dan menutup.
+
+Lihat [Text Editor — mode kaya](../interface/text-editor#rich-mode) untuk referensi lengkap.
+
 ## Menambah dan menghapus lengan
 
 - Untuk menambahkan lengan kepala panah tambahan ke leader yang ada: [Leader+](./leader-add)

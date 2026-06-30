@@ -7,9 +7,9 @@ keywords: [CAD text komutu, MTEXT, metin etiketi yerleştir CAD, metin ek açık
 
 # Text
 
-`text` komutu, çok satırlı metin etiketi yerleştirir. Tuvalde bir konum tıkladıktan sonra, içerik yazabileceğiniz, kalın/italik/üstü çizili uygulayabileceğiniz, yazı tiplerini ve yükseklikleri değiştirebileceğiniz ve satır sonları ekleyebileceğiniz bir açılır düzenleyici açılır. Düzenleyiciyi kaydetmek ve kapatmak için **Escape** tuşuna basın.
+`text` komutu, çok satırlı metin etiketi yerleştirir. Tuvalde bir konum tıkladıktan sonra **rich** modda bir açılır düzenleyici açılır — içerik yazabilir, karakter başına kalın/italik/üstü çizili uygulayabilir, yazı tiplerini ve yükseklikleri değiştirebilir ve satır sonları ekleyebilirsiniz. Düzenleyiciyi kaydetmek ve kapatmak için **Escape** tuşuna basın.
 
-Tam düzenleyici referansı için [Metin Düzenleyici](../interface/text-editor) sayfasına bakın.
+**rich** ve **simple** modların karşılaştırması dahil tam düzenleyici referansı için [Metin Düzenleyici](../interface/text-editor) sayfasına bakın.
 
 ## Metin Etiketi Yerleştirme
 

@@ -65,6 +65,19 @@ Il lato del cursore determina da quale lato appare la linea di quota.
 | Blocco H/V | No | Sì — tasti `H` e `V` |
 | Ideale per | Elementi diagonali, tagli angolati | Layout ortogonali, componenti allineati alla griglia |
 
+## Modifica dell'etichetta — simple mode
+
+**Doppio clic** su una quota allineata posizionata per aprire l'editor di testo in **simple** mode. L'editor è precompilato con il valore visualizzato corrente in modo da poter posizionare il cursore e modificarlo direttamente.
+
+| Feature | Comportamento |
+|---------|--------------|
+| Bold / Italic / Font / Height | Si applica all'**intera** etichetta in una volta |
+| Formattazione per carattere | Non supportata |
+| `Enter` | Conferma il valore e chiude l'editor |
+| Multiriga | Non supportato |
+
+Vedi [Editor di Testo — simple mode](../interface/text-editor#simple-mode) per il riferimento completo.
+
 ## Concatenamento quote
 
 Per aggiungere altre quote continuando dalla seconda linea di estensione di questa, usa [Dimension Continue](./dim-continue) — si blocca allo stesso angolo di misurazione di questa quota allineata.

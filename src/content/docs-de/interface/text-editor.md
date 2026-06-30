@@ -1,20 +1,51 @@
 ---
 sidebar_position: 4
-title: Texteditor — Rich-Text-Formatierung in KulmanLab CAD
-description: Der KulmanLab CAD-Texteditor ermöglicht das Platzieren mehrzeiliger, reich formatierter MTEXT-Beschriftungen mit Fett, Kursiv, Durchgestrichen, zeichenweiser Schriftart- und Höhenüberschreibung, Zeilenumbruch und vollständiger Cursornavigation.
-keywords: [CAD Texteditor, MTEXT, Fett Kursiv CAD, Textformatierung CAD, mehrzeiliger Text CAD, Zeilenumbruch CAD, kulmanlab]
+title: Texteditor — Rich- und Simple-Modus in KulmanLab CAD
+description: Der KulmanLab CAD-Texteditor hat zwei Modi — rich (zeichenweise Formatierung, mehrzeilig, Zeilenumbruch für Text und Multileader) und simple (einheitlicher Stil, einzeilig für Bemaßungselemente). Ein mode chip in der Kopfzeile zeigt den aktiven Modus an.
+keywords: [CAD Texteditor, MTEXT, Fett Kursiv CAD, Textformatierung CAD, mehrzeiliger Text CAD, Zeilenumbruch CAD, rich Texteditor, simple Texteditor, Bemaßungstexteditor, kulmanlab]
 ---
 
 # Texteditor
 
-Der Texteditor öffnet sich, wenn Sie eine neue Textbeschriftung mit dem `text`-Befehl platzieren oder auf eine vorhandene Text-Entität doppelklicken. Er unterstützt mehrzeiligen Inhalt, zeichenweise Formatierung und Zeilenumbruch.
+Der Texteditor öffnet sich, wenn Sie eine bearbeitbare Entität platzieren oder doppelklicken. Ein kleiner **mode chip** in der Kopfzeile — **rich** (Akzentfarbe) oder **simple** (gedämpft) — zeigt an, welcher Modus für die aktuelle Entität aktiv ist.
+
+## Editor-Modi
+
+### Rich mode
+
+Verwendet von: **Text** (MTEXT-Beschriftungen) und **Multileader**-Annotationen.
+
+| Feature | Verhalten |
+|---------|-----------|
+| Bold / Italic / Strikethrough | Zeichenweise (gilt für Auswahl oder gesamte Entität wenn keine Auswahl) |
+| Font und Height | Zeichenweise Überschreibung oder Entitätsstandard |
+| `Enter` | Fügt einen harten Zeilenumbruch ein |
+| `Shift+←/→` | Erweitert oder verkleinert eine Textauswahl |
+| `Home` / `End` | Zum Anfang / Ende der aktuellen harten Zeile springen |
+| Zeilenumbruch | Unterstützt über Referenzbreite-Griffpunkte |
+
+### Simple mode
+
+Verwendet von: **Dimension Linear**, **Dimension Aligned**, **Dimension Angular**, **Dimension Radius**, **Dimension Diameter**.
+
+Der Editor ist mit der aktuellen Bemaßungsbeschriftung vorbelegt, sodass Sie den Cursor positionieren und den Wert direkt bearbeiten können.
+
+| Feature | Verhalten |
+|---------|-----------|
+| Bold / Italic / Font / Height | Verfügbar — gilt für die **gesamte** Beschriftung auf einmal |
+| Zeichenweise Formatierung | Nicht unterstützt |
+| `Enter` | **Übernimmt** den Wert und schließt den Editor (kein Zeilenumbruch) |
+| Mehrzeilig | Nicht unterstützt |
+| Zeilenumbruch | Nicht unterstützt |
 
 ## Den Editor öffnen
 
 | Aktion | Ergebnis |
 |--------|----------|
-| `text`-Befehl → Position klicken | Erstellt eine neue Text-Entität und öffnet den Editor |
-| Auf eine vorhandene Text-Entität doppelklicken | Öffnet den Editor für diese Entität erneut |
+| `text`-Befehl → Position klicken | Erstellt eine neue Text-Entität und öffnet den Editor (**rich**) |
+| Auf eine vorhandene **Text**-Entität doppelklicken | Öffnet den Editor im **rich** mode erneut |
+| Auf einen vorhandenen **Multileader** doppelklicken | Öffnet den Editor im **rich** mode |
+| Auf eine **Bemaßungs**-Entität doppelklicken | Öffnet den Editor im **simple** mode |
 | `Escape` im Editor | Schließt den Editor und behält alle Änderungen bei |
 
 ## Werkzeugleiste

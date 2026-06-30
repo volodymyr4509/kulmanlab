@@ -46,6 +46,19 @@ Hanya entitas **Arc** dan **Circle** yang dapat dipilih.
 | Kepala panah | Dua (di kedua titik busur) | Satu (di titik busur) |
 | Terbaik untuk | Dimensi lubang atau poros melingkar penuh | Menganotasi satu sisi fitur melengkung |
 
+## Mengedit label — mode sederhana
+
+**Klik dua kali** dimensi diameter yang ditempatkan untuk membuka editor teks dalam mode **sederhana**. Editor diisi terlebih dahulu dengan nilai yang dirender saat ini (mis. `⌀ 10.00`) sehingga Anda dapat memposisikan kursor dan mengeditnya langsung.
+
+| Fitur | Perilaku |
+|-------|---------|
+| Bold / Italic / Font / Height | Berlaku untuk **seluruh label** sekaligus |
+| Pemformatan per karakter | Tidak didukung |
+| `Enter` | Mengonfirmasi nilai dan menutup editor |
+| Multi-baris | Tidak didukung |
+
+Lihat [Text Editor — mode sederhana](../interface/text-editor#simple-mode) untuk referensi lengkap.
+
 ## DXF — entitas DIMENSION diameter
 
 Dimensi diameter disimpan sebagai entitas `DIMENSION` dengan geometri tipe diameter, menyimpan kedua posisi titik busur dan nilai diameter yang diukur (2 × radius). Semua properti dapat dipertukarkan tanpa kehilangan data.

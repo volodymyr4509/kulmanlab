@@ -46,6 +46,19 @@ Ni vipengele vya **Arc** na **Circle** pekee ndivyo vinavyoweza kuchaguliwa.
 | Vichwa vya mshale | Viwili (kwenye pointi zote za mviringo) | Kimoja (kwenye pointi ya mviringo) |
 | Bora kwa | Vipimo vya tundu kamili la duara au shimbo | Kuweka maelezo ya upande mmoja wa kipengele kilichopinda |
 
+## Kuhariri lebo — hali rahisi
+
+**Bonyeza mara mbili** kipimo cha kipenyo kilichowekwa kufungua kihariri cha maandishi katika hali **rahisi**. Kihariri kimejazwa awali na thamani inayoonyeshwa kwa sasa (mfano: `⌀ 10.00`) ili uweze kuweka mshale na kuihariri moja kwa moja.
+
+| Kipengele | Tabia |
+|----------|-------|
+| Bold / Italic / Font / Height | Inatumika kwa **lebo nzima** mara moja |
+| Uumbizaji kwa kila herufi | Haisaidiwi |
+| `Enter` | Inathibitisha thamani na kufunga kihariri |
+| Mistari mingi | Haisaidiwi |
+
+Angalia [Text Editor — hali rahisi](../interface/text-editor#simple-mode) kwa marejeo kamili.
+
 ## DXF — kipengele cha DIMENSION cha aina ya kipenyo
 
 Vipimo vya kipenyo vimehifadhiwa kama vipengele vya `DIMENSION` na jiometri ya aina ya kipenyo, vikihifadhi nafasi za pointi zote za mviringo na thamani ya kipenyo iliyopimwa (2 × radi). Sifa zote zinasindikwa bila kupoteza.

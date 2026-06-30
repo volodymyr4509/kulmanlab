@@ -7,9 +7,9 @@ keywords: [CAD text command, MTEXT, place text label CAD, text annotation CAD, b
 
 # Text
 
-The `text` command places a multi-line text label. After you click a position on the canvas, a popup editor opens where you can type content, apply bold/italic/strikethrough, change fonts and heights, and insert line breaks. Press **Escape** to commit and close the editor.
+The `text` command places a multi-line text label. After you click a position on the canvas, a popup editor opens in **rich** mode — you can type content, apply bold/italic/strikethrough per character, change fonts and heights, and insert line breaks. Press **Escape** to commit and close the editor.
 
-See the [Text Editor](../interface/text-editor) page for the full editor reference.
+See the [Text Editor](../interface/text-editor) page for the full editor reference, including a comparison of **rich** and **simple** modes.
 
 ## Placing a text label
 

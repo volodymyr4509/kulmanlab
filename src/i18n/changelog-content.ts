@@ -7,6 +7,21 @@ export type Release = {
 
 export const releases: Release[] = [
   {
+    version: '2026.06.28.8f3519f',
+    date: 'June 28, 2026',
+    title: 'Text editor modes: rich and simple',
+    highlights: [
+      'Text editor header now shows a mode chip — "rich" (accent color) for Text and Multileader, "simple" (muted) for dimension entities',
+      'Double-click any linear, aligned, angular, radius, or diameter dimension to open its label in the text editor',
+      'Simple mode: editor is pre-seeded with the current rendered label so you can position the cursor with ← / → and edit the value directly',
+      'Simple mode: pressing Enter commits the value and closes the editor — no line break is inserted',
+      'Simple mode: bold, italic, font, and height changes apply to the entire dimension label at once',
+      'Rich mode (Text, Multileader): per-character formatting, multi-line Enter, and word-wrap remain fully supported',
+      'Blinking cursor now animates inside the dimension text editor popup',
+      'Text cursor offset corrected — was rendering up to 2× too high after certain font changes',
+    ],
+  },
+  {
     version: '2026.06.20.a4f91c3',
     date: 'June 20, 2026',
     title: 'Urdu and Greek — 22 languages, 1 320 pages',
@@ -250,6 +265,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   en: releases.map(r => ({ title: r.title, highlights: r.highlights })),
   de: [
     {
+      title: 'Texteditor-Modi: rich und simple',
+      highlights: [
+        'Der Texteditor-Header zeigt jetzt einen Modus-Chip an — „rich" (Akzentfarbe) für Text und Multileader, „simple" (gedämpft) für Bemaßungsobjekte',
+        'Doppelklick auf jede lineare, ausgerichtete, winkelige, Radius- oder Durchmesser-Bemaßung öffnet die Beschriftung im Texteditor',
+        'Simple-Modus: Editor wird mit der aktuell gerenderten Beschriftung vorbelegt, sodass Sie den Cursor mit ← / → positionieren und den Wert direkt bearbeiten können',
+        'Simple-Modus: Enter übernimmt den Wert und schließt den Editor — kein Zeilenumbruch wird eingefügt',
+        'Simple-Modus: Fett, Kursiv, Schriftart und Höhe werden auf die gesamte Bemaßungsbeschriftung angewendet',
+        'Rich-Modus (Text, Multileader): Zeichenweise Formatierung, mehrzeiliges Enter und Zeilenumbruch bleiben vollständig unterstützt',
+        'Der blinkende Cursor animiert jetzt im Texteditor-Popup der Bemaßung',
+        'Textkursor-Versatz korrigiert — wurde nach bestimmten Schriftartenänderungen bis zu 2× zu hoch gerendert',
+      ],
+    },
+    {
       title: 'Urdu und Griechisch — 22 Sprachen, 1 320 Seiten',
       highlights: [
         'Urdu (اردو 🇵🇰) hinzugefügt — vollständige RTL-Unterstützung mit arabischer Schrift; Dokumentation, FAQ und Changelog vollständig übersetzt',
@@ -457,6 +485,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   es: [
+    {
+      title: 'Modos del editor de texto: rich y simple',
+      highlights: [
+        'El encabezado del editor de texto muestra ahora un chip de modo — "rich" (color de acento) para Text y Multileader, "simple" (atenuado) para entidades de cota',
+        'Doble clic en cualquier cota lineal, alineada, angular, de radio o de diámetro para abrir su etiqueta en el editor de texto',
+        'Modo simple: el editor se pre-rellena con la etiqueta renderizada actual para que puedas posicionar el cursor con ← / → y editar el valor directamente',
+        'Modo simple: pulsar Enter confirma el valor y cierra el editor — no se inserta un salto de línea',
+        'Modo simple: los cambios de negrita, cursiva, fuente y altura se aplican a toda la etiqueta de cota a la vez',
+        'Modo rich (Text, Multileader): el formato por carácter, el Enter multilínea y el ajuste de texto siguen totalmente soportados',
+        'El cursor parpadeante ahora anima dentro del popup del editor de texto de cotas',
+        'Desplazamiento del cursor de texto corregido — se renderizaba hasta 2× demasiado alto tras ciertos cambios de fuente',
+      ],
+    },
     {
       title: 'Urdu y griego — 22 idiomas, 1 320 páginas',
       highlights: [
@@ -666,6 +707,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   fr: [
     {
+      title: 'Modes de l\'éditeur de texte : rich et simple',
+      highlights: [
+        'L\'en-tête de l\'éditeur de texte affiche maintenant une puce de mode — « rich » (couleur d\'accent) pour Text et Multileader, « simple » (atténué) pour les entités de cote',
+        'Double-clic sur toute cote linéaire, alignée, angulaire, radiale ou diamétrale pour ouvrir son libellé dans l\'éditeur de texte',
+        'Mode simple : l\'éditeur est pré-rempli avec le libellé actuellement rendu pour que vous puissiez positionner le curseur avec ← / → et modifier la valeur directement',
+        'Mode simple : appuyer sur Entrée valide la valeur et ferme l\'éditeur — aucun saut de ligne n\'est inséré',
+        'Mode simple : les changements de gras, italique, police et hauteur s\'appliquent à l\'ensemble du libellé de cote en une seule fois',
+        'Mode rich (Text, Multileader) : la mise en forme par caractère, l\'Entrée multi-ligne et le retour à la ligne restent entièrement pris en charge',
+        'Le curseur clignotant s\'anime maintenant dans la fenêtre contextuelle de l\'éditeur de texte de cote',
+        'Décalage du curseur de texte corrigé — était rendu jusqu\'à 2× trop haut après certains changements de police',
+      ],
+    },
+    {
       title: 'Ourdou et grec — 22 langues, 1 320 pages',
       highlights: [
         'Ajout de l\'ourdou (اردو 🇵🇰) — support RTL complet en écriture arabe ; documentation, FAQ et changelog entièrement traduits',
@@ -873,6 +927,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   it: [
+    {
+      title: 'Modalità dell\'editor di testo: rich e simple',
+      highlights: [
+        'L\'intestazione dell\'editor di testo mostra ora un chip di modalità — "rich" (colore accento) per Text e Multileader, "simple" (attenuato) per le entità di quota',
+        'Doppio clic su qualsiasi quota lineare, allineata, angolare, radiale o diametrale per aprire la sua etichetta nell\'editor di testo',
+        'Modalità simple: l\'editor viene pre-popolato con l\'etichetta attualmente renderizzata per posizionare il cursore con ← / → e modificare il valore direttamente',
+        'Modalità simple: premere Invio conferma il valore e chiude l\'editor — non viene inserito alcun a capo',
+        'Modalità simple: le modifiche di grassetto, corsivo, carattere e altezza vengono applicate all\'intera etichetta di quota in una volta',
+        'Modalità rich (Text, Multileader): la formattazione per carattere, l\'Invio multiriga e il ritorno a capo rimangono completamente supportati',
+        'Il cursore lampeggiante ora si anima nel popup dell\'editor di testo della quota',
+        'Offset del cursore di testo corretto — veniva renderizzato fino a 2× troppo in alto dopo alcune modifiche al carattere',
+      ],
+    },
     {
       title: 'Urdu e greco — 22 lingue, 1 320 pagine',
       highlights: [
@@ -1082,6 +1149,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   pt: [
     {
+      title: 'Modos do editor de texto: rich e simple',
+      highlights: [
+        'O cabeçalho do editor de texto agora exibe um chip de modo — "rich" (cor de destaque) para Text e Multileader, "simple" (atenuado) para entidades de cota',
+        'Clique duplo em qualquer cota linear, alinhada, angular, de raio ou de diâmetro para abrir sua etiqueta no editor de texto',
+        'Modo simple: o editor é pré-preenchido com a etiqueta renderizada atual para que você possa posicionar o cursor com ← / → e editar o valor diretamente',
+        'Modo simple: pressionar Enter confirma o valor e fecha o editor — nenhuma quebra de linha é inserida',
+        'Modo simple: alterações de negrito, itálico, fonte e altura são aplicadas a toda a etiqueta de cota de uma vez',
+        'Modo rich (Text, Multileader): formatação por caractere, Enter multilinha e quebra de linha permanecem totalmente suportados',
+        'O cursor piscante agora anima dentro do popup do editor de texto de cotas',
+        'Deslocamento do cursor de texto corrigido — estava sendo renderizado até 2× muito alto após certas mudanças de fonte',
+      ],
+    },
+    {
       title: 'Urdu e grego — 22 idiomas, 1 320 páginas',
       highlights: [
         'Adicionado urdu (اردو 🇵🇰) — suporte RTL completo com escrita árabe; documentação, FAQ e changelog completamente traduzidos',
@@ -1289,6 +1369,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   uk: [
+    {
+      title: 'Режими текстового редактора: rich і simple',
+      highlights: [
+        'Заголовок текстового редактора тепер показує чіп режиму — «rich» (колір акценту) для Text і Multileader, «simple» (приглушений) для сутностей розмірів',
+        'Подвійне клацання на будь-якому лінійному, вирівняному, кутовому, радіусному або діаметральному розмірі відкриває його мітку в текстовому редакторі',
+        'Режим simple: редактор попередньо заповнюється поточною відображеною міткою, щоб ви могли позиціонувати курсор за допомогою ← / → та редагувати значення безпосередньо',
+        'Режим simple: натискання Enter підтверджує значення і закриває редактор — розрив рядка не вставляється',
+        'Режим simple: зміни жирного, курсиву, шрифту та висоти застосовуються до всієї мітки розміру одразу',
+        'Режим rich (Text, Multileader): посимвольне форматування, багаторядковий Enter і перенос слів залишаються повністю підтримуваними',
+        'Миготливий курсор тепер анімується всередині спливаючого вікна текстового редактора розміру',
+        'Зміщення текстового курсору виправлено — після деяких змін шрифту він рендерився до 2× завеликим',
+      ],
+    },
     {
       title: 'Урду та грецька — 22 мови, 1 320 сторінок',
       highlights: [
@@ -1498,6 +1591,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   tr: [
     {
+      title: 'Metin editörü modları: rich ve simple',
+      highlights: [
+        'Metin editörü başlığı artık bir mod çipi gösteriyor — Text ve Multileader için "rich" (vurgu rengi), boyut nesneleri için "simple" (soluk)',
+        'Herhangi bir doğrusal, hizalı, açısal, yarıçap veya çap boyutuna çift tıklayarak etiketini metin editöründe açın',
+        'Simple mod: editör, mevcut görüntülenen etiketle önceden doldurulur; böylece imlecinizi ← / → ile konumlandırabilir ve değeri doğrudan düzenleyebilirsiniz',
+        'Simple mod: Enter tuşuna basmak değeri onaylar ve editörü kapatır — satır sonu eklenmez',
+        'Simple mod: kalın, italik, yazı tipi ve yükseklik değişiklikleri tüm boyut etiketine aynı anda uygulanır',
+        'Rich mod (Text, Multileader): karakter bazlı biçimlendirme, çok satırlı Enter ve sözcük kaydırma tam olarak desteklenmeye devam eder',
+        'Yanıp sönen imleç artık boyut metin editörü açılır penceresi içinde canlandırılıyor',
+        'Metin imleci ofseti düzeltildi — belirli yazı tipi değişikliklerinden sonra 2× kadar fazla yüksek görüntüleniyordu',
+      ],
+    },
+    {
       title: 'Urduca ve Yunanca — 22 dil, 1 320 sayfa',
       highlights: [
         'Urduca (اردو 🇵🇰) eklendi — Arap alfabesiyle tam RTL desteği; belgeler, SSS ve değişiklik günlüğü tamamen çevrildi',
@@ -1705,6 +1811,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   zh: [
+    {
+      title: '文本编辑器模式：rich 与 simple',
+      highlights: [
+        '文本编辑器标题栏现在显示模式标识 — Text 和 Multileader 为"rich"（强调色），标注对象为"simple"（柔和色）',
+        '双击任意线性、对齐、角度、半径或直径标注，即可在文本编辑器中打开其标签',
+        'Simple 模式：编辑器预填当前渲染的标签，可用 ← / → 定位光标并直接编辑数值',
+        'Simple 模式：按 Enter 确认数值并关闭编辑器 — 不插入换行',
+        'Simple 模式：粗体、斜体、字体和高度的更改一次性应用于整个标注标签',
+        'Rich 模式（Text、Multileader）：按字符格式化、多行 Enter 和自动换行仍完全支持',
+        '光标闪烁现在在标注文本编辑器弹窗内动态显示',
+        '文本光标偏移已修正 — 某些字体更改后渲染位置偏高至 2×',
+      ],
+    },
     {
       title: '乌尔都语和希腊语 — 22 种语言，1 320 个页面',
       highlights: [
@@ -1914,6 +2033,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   hi: [
     {
+      title: 'टेक्स्ट एडिटर मोड: rich और simple',
+      highlights: [
+        'टेक्स्ट एडिटर हेडर अब एक मोड चिप दिखाता है — Text और Multileader के लिए "rich" (एक्सेंट रंग), डायमेंशन एंटिटी के लिए "simple" (म्यूट)',
+        'किसी भी रैखिक, संरेखित, कोणीय, त्रिज्या या व्यास डायमेंशन पर डबल-क्लिक करके उसका लेबल टेक्स्ट एडिटर में खोलें',
+        'Simple मोड: एडिटर वर्तमान रेंडर किए गए लेबल से पहले से भरा होता है ताकि आप ← / → से कर्सर को स्थान दे सकें और मान को सीधे संपादित कर सकें',
+        'Simple मोड: Enter दबाने से मान पुष्टि होता है और एडिटर बंद होता है — कोई लाइन ब्रेक नहीं डाला जाता',
+        'Simple मोड: बोल्ड, इटैलिक, फ़ॉन्ट और ऊंचाई परिवर्तन एक साथ पूरे डायमेंशन लेबल पर लागू होते हैं',
+        'Rich मोड (Text, Multileader): प्रति-वर्ण फ़ॉर्मेटिंग, बहु-पंक्ति Enter और वर्ड-रैप पूरी तरह समर्थित रहते हैं',
+        'ब्लिंकिंग कर्सर अब डायमेंशन टेक्स्ट एडिटर पॉपअप के अंदर एनिमेट होता है',
+        'टेक्स्ट कर्सर ऑफ़सेट सही किया गया — कुछ फ़ॉन्ट परिवर्तनों के बाद यह 2× तक बहुत ऊंचा रेंडर हो रहा था',
+      ],
+    },
+    {
       title: 'उर्दू और ग्रीक — 22 भाषाएँ, 1 320 पृष्ठ',
       highlights: [
         'उर्दू (اردو 🇵🇰) जोड़ा गया — अरबी लिपि का उपयोग करके पूर्ण RTL समर्थन; डॉक्स, FAQ और चेंजलॉग पूरी तरह अनुवादित',
@@ -2121,6 +2253,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   ar: [
+    {
+      title: 'أوضاع محرر النص: rich وsimple',
+      highlights: [
+        'يعرض رأس محرر النص الآن رقاقة وضع — "rich" (لون التمييز) لـText وMultileader، و"simple" (خافت) لكيانات الأبعاد',
+        'انقر نقراً مزدوجاً على أي بُعد خطي أو محاذٍ أو زاوي أو نصف قطر أو قطر لفتح تسميته في محرر النص',
+        'وضع simple: يُملأ المحرر مسبقاً بالتسمية المُصيَّرة الحالية حتى تتمكن من وضع المؤشر بـ ← / → وتحرير القيمة مباشرةً',
+        'وضع simple: يؤكد الضغط على Enter القيمة ويغلق المحرر — لا يُدرج كسر سطر',
+        'وضع simple: تُطبَّق تغييرات الغامق والمائل والخط والارتفاع على تسمية البُعد بأكملها دفعةً واحدة',
+        'وضع rich (Text, Multileader): تنسيق كل محرف والضغط على Enter متعدد الأسطر والتفاف الكلمات لا يزالان مدعومَين بالكامل',
+        'يتحرك المؤشر الوامض الآن داخل نافذة محرر نص البُعد المنبثقة',
+        'تم تصحيح إزاحة مؤشر النص — كان يُصيَّر أعلى بما يصل إلى 2× بعد بعض تغييرات الخط',
+      ],
+    },
     {
       title: 'الأردية واليونانية — 22 لغة، 1 320 صفحة',
       highlights: [
@@ -2330,6 +2475,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   id: [
     {
+      title: 'Mode editor teks: rich dan simple',
+      highlights: [
+        'Header editor teks kini menampilkan chip mode — "rich" (warna aksen) untuk Text dan Multileader, "simple" (redup) untuk entitas dimensi',
+        'Klik dua kali pada dimensi linear, sejajar, sudut, radius, atau diameter mana pun untuk membuka labelnya di editor teks',
+        'Mode simple: editor diisi terlebih dahulu dengan label yang sedang dirender sehingga Anda dapat memposisikan kursor dengan ← / → dan mengedit nilainya langsung',
+        'Mode simple: menekan Enter mengkonfirmasi nilai dan menutup editor — tidak ada jeda baris yang disisipkan',
+        'Mode simple: perubahan tebal, miring, font, dan tinggi berlaku pada seluruh label dimensi sekaligus',
+        'Mode rich (Text, Multileader): pemformatan per karakter, Enter multiline, dan pembungkus kata tetap didukung penuh',
+        'Kursor berkedip kini beranimasi di dalam popup editor teks dimensi',
+        'Offset kursor teks diperbaiki — sebelumnya dirender hingga 2× terlalu tinggi setelah perubahan font tertentu',
+      ],
+    },
+    {
       title: 'Urdu dan Yunani — 22 bahasa, 1 320 halaman',
       highlights: [
         'Ditambahkan Urdu (اردو 🇵🇰) — dukungan RTL penuh menggunakan aksara Arab; dokumentasi, FAQ, dan changelog diterjemahkan seluruhnya',
@@ -2537,6 +2695,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   ja: [
+    {
+      title: 'テキストエディタモード：rich と simple',
+      highlights: [
+        'テキストエディタのヘッダーにモードチップを表示 — Text・Multileader は「rich」（アクセントカラー）、寸法エンティティは「simple」（グレーアウト）',
+        '任意の線形・整列・角度・半径・直径寸法をダブルクリックすると、そのラベルをテキストエディタで開ける',
+        'Simple モード：現在レンダリングされているラベルが事前入力されており、← / → でカーソルを配置して値を直接編集できる',
+        'Simple モード：Enter を押すと値が確定してエディタが閉じる — 改行は挿入されない',
+        'Simple モード：太字・斜体・フォント・高さの変更は寸法ラベル全体に一括で適用される',
+        'Rich モード（Text、Multileader）：文字ごとの書式設定、複数行 Enter、ワードラップは引き続き完全サポート',
+        '寸法テキストエディタのポップアップ内でカーソルが点滅するようになった',
+        'テキストカーソルのオフセットを修正 — 一部のフォント変更後に最大 2× 高く表示される問題を解消',
+      ],
+    },
     {
       title: 'ウルドゥー語とギリシャ語 — 22言語、1 320ページ',
       highlights: [
@@ -2746,6 +2917,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   pl: [
     {
+      title: 'Tryby edytora tekstu: rich i simple',
+      highlights: [
+        'Nagłówek edytora tekstu wyświetla teraz chip trybu — „rich" (kolor akcentu) dla Text i Multileader, „simple" (stonowany) dla obiektów wymiarów',
+        'Dwukrotne kliknięcie dowolnego wymiaru liniowego, wyrównanego, kątowego, promienia lub średnicy otwiera jego etykietę w edytorze tekstu',
+        'Tryb simple: edytor jest wstępnie wypełniony aktualnie renderowaną etykietą, dzięki czemu możesz ustawić kursor za pomocą ← / → i edytować wartość bezpośrednio',
+        'Tryb simple: naciśnięcie Enter zatwierdza wartość i zamyka edytor — nie jest wstawiane przejście do nowej linii',
+        'Tryb simple: zmiany pogrubienia, kursywy, czcionki i wysokości są stosowane do całej etykiety wymiaru jednocześnie',
+        'Tryb rich (Text, Multileader): formatowanie poszczególnych znaków, wieloliniowy Enter i zawijanie tekstu pozostają w pełni obsługiwane',
+        'Migający kursor jest teraz animowany wewnątrz wyskakującego okienka edytora tekstu wymiaru',
+        'Poprawiono przesunięcie kursora tekstowego — po niektórych zmianach czcionki był renderowany do 2× za wysoko',
+      ],
+    },
+    {
       title: 'Urdu i grecki — 22 języki, 1 320 stron',
       highlights: [
         'Dodano urdu (اردو 🇵🇰) — pełna obsługa RTL przy użyciu pisma arabskiego; dokumentacja, FAQ i dziennik zmian w pełni przetłumaczone',
@@ -2953,6 +3137,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   ko: [
+    {
+      title: '텍스트 편집기 모드: rich와 simple',
+      highlights: [
+        '텍스트 편집기 헤더에 모드 칩이 표시됩니다 — Text 및 Multileader는 "rich" (강조색), 치수 객체는 "simple" (음소거색)',
+        '선형, 정렬, 각도, 반지름 또는 지름 치수를 더블 클릭하면 텍스트 편집기에서 레이블을 열 수 있습니다',
+        'Simple 모드: 편집기가 현재 렌더링된 레이블로 미리 채워져 ← / →로 커서를 이동하여 값을 직접 편집할 수 있습니다',
+        'Simple 모드: Enter를 누르면 값이 확정되고 편집기가 닫힙니다 — 줄 바꿈이 삽입되지 않습니다',
+        'Simple 모드: 굵게, 기울임꼴, 글꼴, 높이 변경이 치수 레이블 전체에 한 번에 적용됩니다',
+        'Rich 모드(Text, Multileader): 문자별 서식, 여러 줄 Enter, 줄 바꿈은 계속 완전히 지원됩니다',
+        '치수 텍스트 편집기 팝업 내에서 커서가 깜박이도록 애니메이션 추가',
+        '텍스트 커서 오프셋 수정 — 일부 글꼴 변경 후 최대 2× 너무 높게 렌더링되던 문제 해결',
+      ],
+    },
     {
       title: '우르두어와 그리스어 — 22개 언어, 1 320페이지',
       highlights: [
@@ -3162,6 +3359,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   vi: [
     {
+      title: 'Chế độ trình soạn thảo văn bản: rich và simple',
+      highlights: [
+        'Tiêu đề trình soạn thảo văn bản giờ hiển thị chip chế độ — "rich" (màu nhấn) cho Text và Multileader, "simple" (mờ) cho các thực thể kích thước',
+        'Nhấp đôi vào bất kỳ kích thước tuyến tính, căn chỉnh, góc, bán kính hoặc đường kính nào để mở nhãn của nó trong trình soạn thảo văn bản',
+        'Chế độ simple: trình soạn thảo được điền sẵn nhãn đang hiển thị để bạn có thể di chuyển con trỏ bằng ← / → và chỉnh sửa giá trị trực tiếp',
+        'Chế độ simple: nhấn Enter xác nhận giá trị và đóng trình soạn thảo — không chèn ngắt dòng',
+        'Chế độ simple: thay đổi đậm, nghiêng, phông chữ và chiều cao áp dụng cho toàn bộ nhãn kích thước cùng một lúc',
+        'Chế độ rich (Text, Multileader): định dạng theo ký tự, Enter nhiều dòng và gói từ vẫn được hỗ trợ đầy đủ',
+        'Con trỏ nhấp nháy giờ được hiển thị động bên trong cửa sổ bật lên của trình soạn thảo văn bản kích thước',
+        'Độ lệch con trỏ văn bản đã được sửa — trước đây hiển thị cao hơn đến 2× sau một số thay đổi phông chữ',
+      ],
+    },
+    {
       title: 'Tiếng Urdu và tiếng Hy Lạp — 22 ngôn ngữ, 1 320 trang',
       highlights: [
         'Đã thêm tiếng Urdu (اردو 🇵🇰) — hỗ trợ RTL đầy đủ sử dụng chữ viết Ả Rập; tài liệu, FAQ và nhật ký thay đổi được dịch hoàn toàn',
@@ -3369,6 +3579,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   th: [
+    {
+      title: 'โหมดตัวแก้ไขข้อความ: rich และ simple',
+      highlights: [
+        'ส่วนหัวของตัวแก้ไขข้อความแสดงชิปโหมดแล้ว — "rich" (สีเน้น) สำหรับ Text และ Multileader, "simple" (สีเบา) สำหรับเอนทิตีมิติ',
+        'ดับเบิลคลิกที่มิติเชิงเส้น มิติแนวตั้ง มิติมุม มิติรัศมี หรือมิติเส้นผ่าศูนย์กลางใดก็ได้เพื่อเปิดป้ายกำกับในตัวแก้ไขข้อความ',
+        'โหมด simple: ตัวแก้ไขจะถูกเติมป้ายกำกับที่แสดงอยู่ปัจจุบันล่วงหน้าเพื่อให้คุณวางเคอร์เซอร์ด้วย ← / → และแก้ไขค่าได้โดยตรง',
+        'โหมด simple: การกด Enter จะยืนยันค่าและปิดตัวแก้ไข — ไม่มีการแทรกการขึ้นบรรทัดใหม่',
+        'โหมด simple: การเปลี่ยนตัวหนา ตัวเอียง ฟอนต์ และความสูงจะนำไปใช้กับป้ายกำกับมิติทั้งหมดพร้อมกัน',
+        'โหมด rich (Text, Multileader): การจัดรูปแบบต่ออักขระ Enter หลายบรรทัด และการตัดคำยังคงได้รับการสนับสนุนอย่างเต็มรูปแบบ',
+        'เคอร์เซอร์กะพริบแสดงภาพเคลื่อนไหวภายในป๊อปอัปตัวแก้ไขข้อความมิติแล้ว',
+        'แก้ไขการชดเชยเคอร์เซอร์ข้อความ — เคยแสดงผลสูงเกินไปถึง 2× หลังการเปลี่ยนฟอนต์บางอย่าง',
+      ],
+    },
     {
       title: 'ภาษาอูรดูและกรีก — 22 ภาษา 1 320 หน้า',
       highlights: [
@@ -3578,6 +3801,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   ms: [
     {
+      title: 'Mod editor teks: rich dan simple',
+      highlights: [
+        'Pengepala editor teks kini menunjukkan cip mod — "rich" (warna aksen) untuk Text dan Multileader, "simple" (redup) untuk entiti dimensi',
+        'Klik dua kali pada mana-mana dimensi linear, sejajar, sudut, jejari atau diameter untuk membuka labelnya dalam editor teks',
+        'Mod simple: editor dipra-isi dengan label yang sedang dirender supaya anda boleh meletakkan kursor dengan ← / → dan mengedit nilai secara terus',
+        'Mod simple: menekan Enter mengesahkan nilai dan menutup editor — tiada pemisah baris disisipkan',
+        'Mod simple: perubahan tebal, condong, fon dan ketinggian digunakan pada keseluruhan label dimensi sekaligus',
+        'Mod rich (Text, Multileader): pemformatan setiap aksara, Enter berbilang baris dan pembalut perkataan tetap disokong sepenuhnya',
+        'Kursor berkelip kini dianimasikan di dalam tetingkap timbul editor teks dimensi',
+        'Ofset kursor teks diperbetulkan — sebelum ini dirender sehingga 2× terlalu tinggi selepas perubahan fon tertentu',
+      ],
+    },
+    {
       title: 'Urdu dan Greek — 22 bahasa, 1 320 halaman',
       highlights: [
         'Urdu (اردو 🇵🇰) ditambah — sokongan RTL penuh menggunakan tulisan Arab; dokumentasi, FAQ dan log perubahan diterjemahkan sepenuhnya',
@@ -3785,6 +4021,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   bn: [
+    {
+      title: 'টেক্সট এডিটর মোড: rich এবং simple',
+      highlights: [
+        'টেক্সট এডিটরের হেডারে এখন একটি মোড চিপ দেখায় — Text এবং Multileader-এর জন্য "rich" (অ্যাকসেন্ট রঙ), ডাইমেনশন এন্টিটির জন্য "simple" (নিষ্প্রভ)',
+        'যেকোনো লিনিয়ার, অ্যালাইনড, অ্যাঙ্গুলার, রেডিয়াস বা ডায়ামিটার ডাইমেনশনে ডবল-ক্লিক করে টেক্সট এডিটরে এর লেবেল খুলুন',
+        'Simple মোড: বর্তমানে রেন্ডার হওয়া লেবেল দিয়ে এডিটর আগে থেকে পূর্ণ থাকে যাতে ← / → দিয়ে কার্সার স্থাপন করে সরাসরি মান সম্পাদনা করা যায়',
+        'Simple মোড: Enter চাপলে মান নিশ্চিত হয় এবং এডিটর বন্ধ হয় — কোনো লাইন ব্রেক সন্নিবেশ হয় না',
+        'Simple মোড: বোল্ড, ইটালিক, ফন্ট এবং উচ্চতার পরিবর্তন একসাথে পুরো ডাইমেনশন লেবেলে প্রয়োগ হয়',
+        'Rich মোড (Text, Multileader): প্রতি-অক্ষর ফরম্যাটিং, মাল্টি-লাইন Enter এবং ওয়ার্ড-র‍্যাপ পূর্ণভাবে সমর্থিত থাকে',
+        'ব্লিংকিং কার্সার এখন ডাইমেনশন টেক্সট এডিটর পপআপের ভেতরে অ্যানিমেট হয়',
+        'টেক্সট কার্সার অফসেট সংশোধিত হয়েছে — কিছু ফন্ট পরিবর্তনের পরে ২× পর্যন্ত বেশি উঁচুতে রেন্ডার হচ্ছিল',
+      ],
+    },
     {
       title: 'উর্দু ও গ্রিক — ২২টি ভাষা, ১ ৩২০টি পেজ',
       highlights: [
@@ -4014,6 +4263,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   sw: [
     {
+      title: 'Hali za kihariri cha maandishi: rich na simple',
+      highlights: [
+        'Kichwa cha kihariri cha maandishi sasa kinaonyesha chip ya hali — "rich" (rangi ya msisitizo) kwa Text na Multileader, "simple" (iliyofifia) kwa vipengele vya kipimo',
+        'Bonyeza mara mbili kipimo chochote cha mstari, mlio sawa, pembe, radius, au kipenyo ili kufungua lebo yake katika kihariri cha maandishi',
+        'Hali ya simple: kihariri kimejazwa awali na lebo inayotolewa sasa ili uweze kuweka kishale kwa ← / → na kuhariri thamani moja kwa moja',
+        'Hali ya simple: kubonyeza Enter kunakubali thamani na kufunga kihariri — hakuna mapumziko ya mstari yanayoingizwa',
+        'Hali ya simple: mabadiliko ya herufi nzito, italiki, fonti, na urefu yanatumika kwa lebo nzima ya kipimo mara moja',
+        'Hali ya rich (Text, Multileader): muundo wa kila herufi, Enter ya mistari mingi, na kufunga maneno vinabaki vikisaidiwa kikamilifu',
+        'Kishale kinachowaka na kuzima sasa kinahuishwa ndani ya dirisha la kujitokeza la kihariri cha maandishi ya kipimo',
+        'Uelekezaji wa kishale cha maandishi umesahihishwa — ulikuwa ukitolewa mara 2× juu sana baada ya mabadiliko fulani ya fonti',
+      ],
+    },
+    {
       title: 'Kiurdu na Kigiriki — lugha 22, kurasa 1 320',
       highlights: [
         'Kiurdu (اردو 🇵🇰) kimeongezwa — msaada kamili wa RTL ukitumia maandishi ya Kiarabu; nyaraka, Maswali ya Kawaida, na kumbukumbu ya mabadiliko zimetafsiriwa kikamilifu',
@@ -4242,6 +4504,7 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
 
   ur: [
+    { title: 'ٹیکسٹ ایڈیٹر موڈز: rich اور simple', highlights: ['ٹیکسٹ ایڈیٹر ہیڈر اب موڈ چپ دکھاتا ہے — Text اور Multileader کے لیے "rich" (ایکسنٹ رنگ)، ڈائمنشن کے لیے "simple" (ہلکا)', 'کسی بھی لینیئر، الائنڈ، اینگولر، ریڈیس یا ڈائامیٹر ڈائمنشن پر ڈبل کلک کریں تاکہ لیبل ٹیکسٹ ایڈیٹر میں کھل جائے', 'Simple موڈ: ایڈیٹر موجودہ لیبل سے پہلے سے بھرا ہوتا ہے تاکہ ← / → سے کرسر رکھیں اور براہ راست ویلیو ترمیم کریں', 'Simple موڈ: Enter دبانے سے ویلیو محفوظ ہو کر ایڈیٹر بند ہو جاتا ہے — لائن بریک نہیں ڈالی جاتی', 'Simple موڈ: Bold، Italic، فونٹ اور اونچائی کی تبدیلیاں پورے ڈائمنشن لیبل پر یکساں لاگو ہوتی ہیں', 'Rich موڈ (Text, Multileader): فی حرف فارمیٹنگ، ملٹی لائن Enter اور ورڈ رَیپ پوری طرح سپورٹڈ رہتے ہیں', 'بلنکنگ کرسر ڈائمنشن ٹیکسٹ ایڈیٹر پاپ اَپ کے اندر اینی میٹ ہوتا ہے', 'ٹیکسٹ کرسر آفسیٹ درست کیا گیا — بعض فونٹ تبدیلیوں کے بعد 2× زیادہ اونچا رینڈر ہو رہا تھا'] },
     { title: 'اردو اور یونانی — 22 زبانیں، 1 320 صفحات', highlights: ['اردو (اردو 🇵🇰) شامل — عربی رسم الخط کے ساتھ مکمل RTL سپورٹ؛ دستاویزات، FAQ اور تبدیلی نامہ مکمل ترجمہ', 'یونانی (Ελληνικά 🇬🇷) شامل — مکمل دستاویزات، FAQ اور تبدیلی نامہ یونانی میں', 'KulmanLab اب 22 زبانوں میں دستیاب: EN, DE, ES, FR, IT, PT, PL, UK, EL, HI, UR, BN, ZH, JA, KO, VI, TH, ID, MS, TR, AR, SW', 'کل سائٹ سائز: 1 320 مستقل صفحات — تمام کمانڈ ریفرنس، FAQ اور تبدیلی نامے مقامی زبان میں', 'RTL لے آؤٹ اردو کے لیے عربی سپورٹ کے ساتھ خود بخود لاگو ہوتا ہے', 'ویب سائٹ فٹر میں زبان سوئچر قطار شامل — تمام 22 زبانوں کے plain-HTML لنکس تاکہ سرچ انجن JavaScript کے بغیر ہر زبان دریافت کریں', 'تمام زبان کے صفحات میں ہر دوسری زبان کی طرف hreflang متبادل لنکس شامل ہیں'] },
     { title: 'نئی ویب سائٹ: لینڈنگ پیج، دستاویزات اور FAQ', highlights: ['kulmanlab.com پر نیا لینڈنگ پیج — اسکرین شاٹ کیروسل، فیچر گرڈ اور تین مرحلے ورک فلو کا جائزہ', 'موازنہ جدول: KulmanLab بمقابلہ LibreCAD، QCAD، BricsCAD', 'کمانڈ ریفرنس دستاویزات kulmanlab.com/docs پر منتقل', 'FAQ صفحہ: اسٹوریج، DXF مطابقت، فیچرز اور رازداری', 'یہ تبدیلی نامہ صفحہ — ہر ورژن کے ریلیز نوٹس'] },
     { title: 'ٹیکسٹ ایڈیٹر بہتری اور ویب فونٹس', highlights: ['ٹیکسٹ آئینہ پڑھنے کے لیے گردش ایڈجسٹ کرتا ہے', 'ویب فونٹس ٹیکسٹ ایڈیٹر میں دستیاب', 'کرسر کی اونچائی ٹیکسٹ سائز سے ملتی ہے', 'Bold/Italic کے ساتھ Strikethrough شامل', 'MTEXT میں فی سطر لائن ہائیٹ'] },
@@ -4261,6 +4524,7 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
 
   el: [
+    { title: 'Λειτουργίες επεξεργαστή κειμένου: rich και simple', highlights: ['Ο τίτλος του επεξεργαστή κειμένου εμφανίζει πλέον chip λειτουργίας — "rich" (χρώμα έμφασης) για Text και Multileader, "simple" (αχνό) για οντότητες διαστάσεων', 'Διπλό κλικ σε οποιαδήποτε γραμμική, ευθυγραμμισμένη, γωνιακή, ακτίνας ή διαμέτρου διάσταση για να ανοίξει η ετικέτα στον επεξεργαστή', 'Λειτουργία simple: ο επεξεργαστής προ-συμπληρώνεται με την τρέχουσα ετικέτα ώστε να τοποθετείτε τον κέρσορα με ← / → και να επεξεργάζεστε την τιμή άμεσα', 'Λειτουργία simple: το Enter επιβεβαιώνει την τιμή και κλείνει τον επεξεργαστή — δεν εισάγεται αλλαγή γραμμής', 'Λειτουργία simple: αλλαγές έντονης γραφής, πλάγιας γραφής, γραμματοσειράς και ύψους εφαρμόζονται σε ολόκληρη την ετικέτα διάστασης', 'Λειτουργία rich (Text, Multileader): μορφοποίηση ανά χαρακτήρα, πολύ-γραμμές Enter και αναδίπλωση λέξεων παραμένουν πλήρως υποστηριζόμενα', 'Ο αναβοσβήνον κέρσορας εμφανίζει πλέον animation μέσα στο αναδυόμενο παράθυρο του επεξεργαστή κειμένου διαστάσεων', 'Η απόκλιση κέρσορα κειμένου διορθώθηκε — αποδιδόταν έως 2× πολύ ψηλά μετά από ορισμένες αλλαγές γραμματοσειράς'] },
     { title: 'Ουρντού και Ελληνικά — 22 γλώσσες, 1 320 σελίδες', highlights: ['Προστέθηκε Ουρντού (اردو 🇵🇰) — πλήρης υποστήριξη RTL με αραβική γραφή· έγγραφα, FAQ και αρχείο αλλαγών πλήρως μεταφρασμένα', 'Προστέθηκαν Ελληνικά (Ελληνικά 🇬🇷) — πλήρη έγγραφα, FAQ και αρχείο αλλαγών στα Ελληνικά', 'Το KulmanLab διατίθεται πλέον σε 22 γλώσσες: EN, DE, ES, FR, IT, PT, PL, UK, EL, HI, UR, BN, ZH, JA, KO, VI, TH, ID, MS, TR, AR, SW', 'Συνολικό μέγεθος ιστότοπου: 1 320 στατικές σελίδες — όλες οι αναφορές εντολών, FAQ και αρχεία αλλαγών τοπικοποιημένα', 'Η διάταξη RTL εφαρμόζεται αυτόματα για τα Ουρντού (αραβική γραφή) παράλληλα με την υπάρχουσα υποστήριξη αραβικών', 'Γραμμή επιλογέα γλώσσας προστέθηκε στο υποσέλιδο — ορατοί σύνδεσμοι plain-HTML για όλες τις 22 γλώσσες ώστε οι μηχανές αναζήτησης να ανακαλύπτουν κάθε γλωσσική έκδοση χωρίς JavaScript', 'Όλες οι γλωσσικές σελίδες περιλαμβάνουν εναλλακτικούς συνδέσμους hreflang που δείχνουν σε κάθε άλλη γλώσσα'] },
     { title: 'Νέος ιστότοπος: σελίδα υποδοχής, τεκμηρίωση & FAQ', highlights: ['Νέα σελίδα υποδοχής στο kulmanlab.com — καρουσέλ, πλέγμα λειτουργιών και επισκόπηση ροής εργασίας', 'Πίνακας σύγκρισης: KulmanLab vs LibreCAD, QCAD, BricsCAD', 'Τεκμηρίωση εντολών στο kulmanlab.com/docs', 'Σελίδα FAQ: αποθήκευση, DXF, λειτουργίες, ιδιωτικότητα', 'Αυτό το αρχείο αλλαγών — σημειώσεις έκδοσης'] },
     { title: 'Βελτιώσεις επεξεργαστή κειμένου & web fonts', highlights: ['Καθρέφτης κειμένου με ρύθμιση περιστροφής', 'Web fonts στον επιλογέα γραμματοσειράς', 'Δυναμικό ύψος δρομέα', 'Διαγράμμιση στη γραμμή εργαλείων', 'Ύψος γραμμής ανά σειρά MTEXT'] },

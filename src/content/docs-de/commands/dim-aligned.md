@@ -65,6 +65,19 @@ Die Mauszeiger-Seite bestimmt, auf welcher Seite die Bemaßungslinie erscheint.
 | H/V-Ausrichtungssperre | Nein | Ja — `H`- und `V`-Tasten |
 | Geeignet für | Diagonale Merkmale, angewinkelte Schnitte | Orthogonale Layouts, rasterbezogene Teile |
 
+## Beschriftung bearbeiten — simple mode
+
+**Doppelklicken** Sie auf eine platzierte ausgerichtete Bemaßung, um den Texteditor im **simple** mode zu öffnen. Der Editor ist mit dem aktuellen angezeigten Wert vorbelegt, sodass Sie den Cursor positionieren und ihn direkt bearbeiten können.
+
+| Feature | Verhalten |
+|---------|-----------|
+| Bold / Italic / Font / Height | Gilt für die **gesamte** Beschriftung auf einmal |
+| Zeichenweise Formatierung | Nicht unterstützt |
+| `Enter` | Übernimmt den Wert und schließt den Editor |
+| Mehrzeilig | Nicht unterstützt |
+
+Siehe [Texteditor — simple mode](../interface/text-editor#simple-mode) für die vollständige Referenz.
+
 ## Bemaßungen verketten
 
 Um weitere Bemaßungen ab der zweiten Maßhilfslinie dieser Bemaßung fortzusetzen, verwenden Sie [Dimension Continue](./dim-continue) — es sperrt auf den gleichen Messwinkel wie diese ausgerichtete Bemaßung.

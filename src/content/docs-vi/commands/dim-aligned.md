@@ -39,6 +39,19 @@ Lệnh `dimaligned` đặt một kích thước đo **khoảng cách thực sự
 | Đo | Khoảng cách Euclid thực sự | Chỉ thành phần X hoặc Y |
 | Tốt nhất cho | Đặc điểm đường chéo, vết cắt nghiêng | Bố cục trực giao, chi tiết theo lưới |
 
+## Chỉnh sửa nhãn — chế độ đơn giản
+
+**Nhấp đúp** vào kích thước căn chỉnh đã đặt để mở trình soạn thảo văn bản ở chế độ **đơn giản**. Trình soạn thảo được điền sẵn giá trị hiển thị hiện tại để bạn có thể đặt con trỏ và chỉnh sửa trực tiếp.
+
+| Tính năng | Hành vi |
+|-----------|---------|
+| Bold / Italic / Font / Height | Áp dụng cho **toàn bộ nhãn** cùng một lúc |
+| Định dạng theo ký tự | Không được hỗ trợ |
+| `Enter` | Xác nhận giá trị và đóng trình soạn thảo |
+| Nhiều dòng | Không được hỗ trợ |
+
+Xem [Trình Soạn Thảo Văn Bản — chế độ đơn giản](../interface/text-editor#simple-mode) để tham khảo đầy đủ.
+
 ## Nối tiếp kích thước
 
 Để thêm các kích thước tiếp tục từ đường gióng thứ hai của kích thước này, dùng [Kích Thước Tiếp Tục](./dim-continue) — nó khóa theo cùng góc đo với kích thước căn chỉnh này.

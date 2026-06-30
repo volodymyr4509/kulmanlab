@@ -49,6 +49,19 @@ Parallele Linien können keine Winkelbemaßung bilden; der Befehl ignoriert den 
 - Die resultierende Annotation ist ein vollständiges `DimensionAngular`-Element, das auf der aktuellen Ebene gespeichert wird. Seine Darstellungseigenschaften (Pfeilgröße, Texthöhe, Maßhilfslinienlänge) können im Eigenschaften-Panel angepasst werden.
 - Winkelbemaßungen sind im JSON-Export enthalten, werden aber vom DXF-Exporter nicht unterstützt.
 
+## Beschriftung bearbeiten — simple mode
+
+**Doppelklicken** Sie auf eine platzierte Winkelbemaßung, um den Texteditor im **simple** mode zu öffnen. Der Editor ist mit dem aktuellen angezeigten Wert vorbelegt, sodass Sie den Cursor positionieren und ihn direkt bearbeiten können.
+
+| Feature | Verhalten |
+|---------|-----------|
+| Bold / Italic / Font / Height | Gilt für die **gesamte** Beschriftung auf einmal |
+| Zeichenweise Formatierung | Nicht unterstützt |
+| `Enter` | Übernimmt den Wert und schließt den Editor |
+| Mehrzeilig | Nicht unterstützt |
+
+Siehe [Texteditor — simple mode](../interface/text-editor#simple-mode) für die vollständige Referenz.
+
 ## Verwandte Befehle
 
 - [Dimension Linear](./dim-linear) — horizontale oder vertikale Bemaßung

@@ -74,6 +74,19 @@ Strona kursora (powyżej/poniżej dla poziomej, lewo/prawo dla pionowej) określ
 | Klawisze H/V | Tak — blokują orientację | Nie — zawsze podąża za p1→p2 |
 | Najlepsze do | Układy ortogonalne, plany pięter | Cechy ukośne, nacięcia pod kątem |
 
+## Edytowanie etykiety — tryb simple
+
+**Dwukrotnie kliknij** umieszczony wymiar liniowy, aby otworzyć edytor tekstu w trybie **simple**. Edytor jest wstępnie wypełniony bieżącą wyrenderowaną wartością, dzięki czemu możesz ustawić kursor i edytować ją bezpośrednio.
+
+| Funkcja | Zachowanie |
+|---------|-----------|
+| Bold / Italic / Font / Height | Stosowane do **całej** etykiety naraz |
+| Formatowanie poszczególnych znaków | Nieobsługiwane |
+| `Enter` | Zatwierdza wartość i zamyka edytor |
+| Wieloliniowość | Nieobsługiwana |
+
+Zobacz [Edytor tekstu — tryb simple](../interface/text-editor#simple-mode) w celu uzyskania pełnej dokumentacji.
+
 ## Łączenie wymiarów
 
 Aby dodać więcej wymiarów kontynuowanych od ostatniej linii przedłużenia, użyj [Wymiaru kontynuowanego](./dim-continue) bezpośrednio po umieszczeniu tego.

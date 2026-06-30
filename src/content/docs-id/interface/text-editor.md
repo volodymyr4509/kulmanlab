@@ -1,20 +1,51 @@
 ---
 sidebar_position: 4
-title: Text Editor — Pemformatan Teks Kaya di KulmanLab CAD
-description: Editor teks KulmanLab CAD memungkinkan Anda menempatkan label MTEXT multi-baris yang kaya format dengan tebal, miring, coret, font per karakter dan penggantian tinggi, bungkus kata, dan navigasi kursor penuh.
-keywords: [CAD editor teks, MTEXT, tebal miring CAD, pemformatan teks CAD, teks multi-baris CAD, bungkus kata CAD, kulmanlab]
+title: Text Editor — Mode Kaya dan Sederhana di KulmanLab CAD
+description: Editor teks KulmanLab CAD memiliki dua mode — kaya (pemformatan per karakter, multi-baris, bungkus kata untuk Text dan Multileader) dan sederhana (gaya seragam, satu baris untuk entitas dimensi). Chip mode di header menunjukkan mode mana yang aktif.
+keywords: [CAD editor teks, MTEXT, tebal miring CAD, pemformatan teks CAD, teks multi-baris CAD, bungkus kata CAD, editor teks kaya, editor teks sederhana, editor teks dimensi, kulmanlab]
 ---
 
 # Text Editor
 
-Editor teks terbuka setiap kali Anda menempatkan label teks baru dengan perintah `text` atau mengklik dua kali entitas teks yang ada. Editor mendukung konten multi-baris, pemformatan per karakter, dan bungkus kata.
+Editor teks terbuka saat Anda menempatkan atau mengklik dua kali entitas yang dapat diedit. **Chip mode** kecil di header — **rich** (warna aksen) atau **simple** (warna redup) — menunjukkan mode mana yang aktif untuk entitas saat ini.
+
+## Mode editor
+
+### Mode kaya
+
+Digunakan oleh: **Text** (label MTEXT) dan anotasi **Multileader**.
+
+| Fitur | Perilaku |
+|-------|---------|
+| Bold / Italic / Strikethrough | Per karakter (berlaku untuk seleksi, atau seluruh entitas jika tidak ada seleksi) |
+| Font dan Height | Penggantian per karakter, atau default seluruh entitas |
+| `Enter` | Menyisipkan jeda baris keras |
+| `Shift+←/→` | Memperluas atau mempersempit seleksi teks |
+| `Home` / `End` | Lompat ke awal/akhir baris keras saat ini |
+| Bungkus kata | Didukung melalui grip ubah ukuran lebar referensi |
+
+### Mode sederhana
+
+Digunakan oleh: **Dimension Linear**, **Dimension Aligned**, **Dimension Angular**, **Dimension Radius**, **Dimension Diameter**.
+
+Editor diisi terlebih dahulu dengan label yang dirender dari dimensi saat ini sehingga Anda dapat memposisikan kursor dan mengedit nilainya langsung.
+
+| Fitur | Perilaku |
+|-------|---------|
+| Bold / Italic / Font / Height | Tersedia — berlaku untuk **seluruh label** sekaligus |
+| Pemformatan per karakter | Tidak didukung |
+| `Enter` | **Mengonfirmasi** nilai dan menutup editor (tanpa jeda baris) |
+| Multi-baris | Tidak didukung |
+| Bungkus kata | Tidak didukung |
 
 ## Membuka editor
 
 | Aksi | Hasil |
 |--------|--------|
-| Perintah `text` → klik posisi | Membuat entitas teks baru dan membuka editor |
-| Klik dua kali entitas teks yang ada | Membuka kembali editor untuk entitas tersebut |
+| Perintah `text` → klik posisi | Membuat entitas teks baru dan membuka editor (**kaya**) |
+| Klik dua kali entitas **Text** yang ada | Membuka kembali editor dalam mode **kaya** |
+| Klik dua kali **Multileader** yang ada | Membuka editor dalam mode **kaya** |
+| Klik dua kali entitas **dimensi** | Membuka editor dalam mode **sederhana** |
 | `Escape` di dalam editor | Menutup editor dan menyimpan semua perubahan |
 
 ## Toolbar

@@ -74,6 +74,19 @@ Il lato del cursore (sopra/sotto per orizzontale, sinistra/destra per verticale)
 | Tasti O/V | Sì — blocca orientamento | No — segue sempre p1→p2 |
 | Ideale per | Layout ortogonali, piante | Elementi diagonali, tagli angolati |
 
+## Modifica dell'etichetta — simple mode
+
+**Doppio clic** su una quota lineare posizionata per aprire l'editor di testo in **simple** mode. L'editor è precompilato con il valore visualizzato corrente in modo da poter posizionare il cursore e modificarlo direttamente.
+
+| Feature | Comportamento |
+|---------|--------------|
+| Bold / Italic / Font / Height | Si applica all'**intera** etichetta in una volta |
+| Formattazione per carattere | Non supportata |
+| `Enter` | Conferma il valore e chiude l'editor |
+| Multiriga | Non supportato |
+
+Vedi [Editor di Testo — simple mode](../interface/text-editor#simple-mode) per il riferimento completo.
+
 ## Concatenamento quote
 
 Per aggiungere altre quote continuando dall'ultima linea di estensione, usa [Dimension Continue](./dim-continue) subito dopo aver posizionato questa.

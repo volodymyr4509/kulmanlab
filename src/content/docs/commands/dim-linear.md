@@ -74,6 +74,19 @@ The cursor side (above/below for horizontal, left/right for vertical) determines
 | H/V keys | Yes — lock orientation | No — always follows p1→p2 |
 | Best for | Orthogonal layouts, floor plans | Diagonal features, angled cuts |
 
+## Editing the label — simple mode
+
+**Double-click** a placed linear dimension to open the text editor in **simple** mode. The editor is pre-seeded with the current rendered value so you can position the cursor and edit it directly.
+
+| Feature | Behaviour |
+|---------|-----------|
+| Bold / Italic / Font / Height | Apply to the **entire** label at once |
+| Per-character formatting | Not supported |
+| `Enter` | Commits the value and closes the editor |
+| Multi-line | Not supported |
+
+See [Text Editor — simple mode](../interface/text-editor#simple-mode) for the full reference.
+
 ## Chaining dimensions
 
 To add more dimensions continuing from the last extension line, use [Dimension Continue](./dim-continue) immediately after placing this one.

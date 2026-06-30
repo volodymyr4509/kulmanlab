@@ -74,6 +74,19 @@ Sisi kursor (atas/bawah untuk mendatar, kiri/kanan untuk menegak) menentukan tan
 | Kekunci H/V | Ya — kunci orientasi | Tidak — sentiasa mengikuti p1→p2 |
 | Terbaik untuk | Susun atur ortogon, pelan lantai | Ciri pepenjuru, potongan bercerun |
 
+## Mengedit label — mod mudah
+
+**Klik dua kali** dimensi linear yang diletakkan untuk membuka editor teks dalam mod **mudah**. Editor diisi terlebih dahulu dengan nilai yang dirender semasa supaya anda boleh meletakkan kursor dan mengeditnya terus.
+
+| Ciri | Perilaku |
+|------|---------|
+| Bold / Italic / Font / Height | Berlaku pada **keseluruhan label** sekaligus |
+| Pemformatan setiap aksara | Tidak disokong |
+| `Enter` | Mengkomit nilai dan menutup editor |
+| Berbilang baris | Tidak disokong |
+
+Lihat [Text Editor — mod mudah](../interface/text-editor#simple-mode) untuk rujukan penuh.
+
 ## Merantai dimensi
 
 Untuk menambah lebih banyak dimensi yang diteruskan dari garis sambungan terakhir, gunakan [Dimension Continue](./dim-continue) serta-merta selepas meletakkan yang ini.

@@ -74,6 +74,19 @@ Le côté du curseur (dessus/dessous pour horizontal, gauche/droite pour vertica
 | Touches H/V | Oui — verrouiller l'orientation | Non — suit toujours p1→p2 |
 | Idéal pour | Compositions orthogonales, plans | Éléments diagonaux, coupes angulaires |
 
+## Modifier le libellé — simple mode
+
+**Double-cliquez** sur une cote linéaire placée pour ouvrir l'éditeur de texte en **simple** mode. L'éditeur est prérempli avec la valeur rendue actuelle pour que vous puissiez positionner le curseur et la modifier directement.
+
+| Feature | Comportement |
+|---------|-------------|
+| Bold / Italic / Font / Height | S'applique à l'**intégralité** du libellé à la fois |
+| Formatage par caractère | Non pris en charge |
+| `Enter` | Valide la valeur et ferme l'éditeur |
+| Multiligne | Non pris en charge |
+
+Voir [Éditeur de texte — simple mode](../interface/text-editor#simple-mode) pour la référence complète.
+
 ## Enchaîner les cotes
 
 Pour ajouter d'autres cotes en continuant depuis la dernière ligne d'extension, utilisez [Dimension Continue](./dim-continue) immédiatement après avoir placé celle-ci.

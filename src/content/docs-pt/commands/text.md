@@ -7,9 +7,9 @@ keywords: [CAD comando text, MTEXT, colocar etiqueta texto CAD, anotação texto
 
 # Text
 
-O comando `text` coloca uma etiqueta de texto multi-linha. Após clicar em uma posição no canvas, um editor popup abre onde você pode digitar conteúdo, aplicar negrito/itálico/tachado, alterar fontes e alturas, e inserir quebras de linha. Pressione **Escape** para confirmar e fechar o editor.
+O comando `text` coloca uma etiqueta de texto multi-linha. Após clicar em uma posição no canvas, um editor popup abre em **rich** mode — você pode digitar conteúdo, aplicar negrito/itálico/tachado por caractere, alterar fontes e alturas, e inserir quebras de linha. Pressione **Escape** para confirmar e fechar o editor.
 
-Veja a página [Editor de Texto](../interface/text-editor) para a referência completa do editor.
+Veja a página [Editor de Texto](../interface/text-editor) para a referência completa do editor, incluindo uma comparação dos modos **rich** e **simple**.
 
 ## Colocando uma etiqueta de texto
 

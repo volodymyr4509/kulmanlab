@@ -98,6 +98,12 @@ Tiada pelarasan manual diperlukan — gerakkan kursor ke sisi di mana anda mahu 
 |---------|---------|
 | `Escape` | Batal dan tetapkan semula ke langkah 2 |
 
+## Mengedit pemimpin sedia ada
+
+**Klik dua kali** pelbagai pemimpin yang diletakkan untuk membuka semula editor teks dalam mod **kaya**. Dalam mod kaya anda boleh menggunakan tebal, italik, dan pengatasan fon atau ketinggian setiap aksara, serta memasukkan pemecahan baris dengan `Enter`. Tekan **Escape** untuk komit dan tutup.
+
+Lihat [Text Editor — mod kaya](../interface/text-editor#rich-mode) untuk rujukan penuh.
+
 ## Menambah dan membuang lengan
 
 - Untuk menambah lengan kepala anak panah tambahan pada pemimpin sedia ada: [Leader+](./leader-add)

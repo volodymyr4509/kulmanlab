@@ -1,20 +1,51 @@
 ---
 sidebar_position: 4
-title: "Text Editor — Rich-Text Formatting in KulmanLab CAD"
-description: "Kihariri cha maandishi cha KulmanLab CAD hukuruhusu kuweka lebo za MTEXT za mistari mingi zenye uumbizaji tajiri na herufi nzito, italiki, kupigwa mstari, kubatilisha fonti na urefu kwa kila herufi, kuvingirishwa kwa maneno, na urambazaji kamili wa kishale."
-keywords: [CAD text editor, MTEXT, bold italic CAD, text formatting CAD, multi-line text CAD, word wrap CAD, kulmanlab]
+title: "Text Editor — Hali Tajiri na Rahisi katika KulmanLab CAD"
+description: "Kihariri cha maandishi cha KulmanLab CAD kina hali mbili — tajiri (uumbizaji kwa kila herufi, mistari mingi, kuvingirishwa kwa maneno kwa Text na Multileader) na rahisi (mtindo mmoja, mstari mmoja kwa viumbe vya dimension). Chip ya hali kwenye kichwa inaonyesha hali inayotumika."
+keywords: [CAD text editor, MTEXT, bold italic CAD, text formatting CAD, multi-line text CAD, word wrap CAD, rich text editor, simple text editor, dimension text editor, kulmanlab]
 ---
 
 # Text Editor
 
-Kihariri cha maandishi hufunguka wakati wowote unapoweka lebo mpya ya maandishi na amri ya `text` au unapobonyeza mara mbili kipande cha maandishi kilichopo. Inasaidia maudhui ya mistari mingi, uumbizaji wa kila herufi, na kuvingirishwa kwa maneno.
+Kihariri cha maandishi hufunguka unapoweka au kubonyeza mara mbili kipande kinachoweza kuhaririwa. **Chip ndogo ya hali** kwenye kichwa — **rich** (rangi ya mkazo) au **simple** (rangi iliyofifia) — inaonyesha hali inayotumika kwa kipande cha sasa.
+
+## Hali za kihariri
+
+### Hali tajiri
+
+Inatumiwa na: **Text** (lebo za MTEXT) na maelezo ya **Multileader**.
+
+| Kipengele | Tabia |
+|----------|-------|
+| Bold / Italic / Strikethrough | Kwa kila herufi (inatumika kwa uchaguzi, au kipande kizima kama hakuna uchaguzi) |
+| Font na Height | Ubatilishaji kwa kila herufi, au msingi wa kipande kizima |
+| `Enter` | Inaingiza mapumziko ya mstari mgumu |
+| `Shift+←/→` | Kupanua au kupunguza uchaguzi wa maandishi |
+| `Home` / `End` | Ruka mwanzo/mwisho wa mstari mgumu wa sasa |
+| Kuvingirishwa kwa maneno | Inasaidiwa kupitia vishiko vya kubadilisha upana wa rejeleo |
+
+### Hali rahisi
+
+Inatumiwa na: **Dimension Linear**, **Dimension Aligned**, **Dimension Angular**, **Dimension Radius**, **Dimension Diameter**.
+
+Kihariri kimejazwa awali na lebo inayoonyeshwa ya dimension ya sasa ili uweze kuweka mshale na kuhariri thamani moja kwa moja.
+
+| Kipengele | Tabia |
+|----------|-------|
+| Bold / Italic / Font / Height | Inapatikana — inatumika kwa **lebo nzima** mara moja |
+| Uumbizaji kwa kila herufi | Haisaidiwi |
+| `Enter` | **Inathibitisha** thamani na kufunga kihariri (hakuna mapumziko ya mstari) |
+| Mistari mingi | Haisaidiwi |
+| Kuvingirishwa kwa maneno | Haisaidiwi |
 
 ## Kufungua kihariri
 
 | Kitendo | Matokeo |
 |---------|---------|
-| Amri ya `text` → bonyeza nafasi | Huunda kipande kipya cha maandishi na kufungua kihariri |
-| Bonyeza mara mbili kipande cha maandishi kilichopo | Hufungua upya kihariri kwa kipande hicho |
+| Amri ya `text` → bonyeza nafasi | Huunda kipande kipya cha maandishi na kufungua kihariri (**tajiri**) |
+| Bonyeza mara mbili kipande cha **Text** kilichopo | Hufungua tena kihariri katika hali **tajiri** |
+| Bonyeza mara mbili **Multileader** iliyopo | Hufungua kihariri katika hali **tajiri** |
+| Bonyeza mara mbili kipande cha **dimension** | Hufungua kihariri katika hali **rahisi** |
 | `Escape` ndani ya kihariri | Hufunga kihariri na kuhifadhi mabadiliko yote |
 
 ## Upau wa zana

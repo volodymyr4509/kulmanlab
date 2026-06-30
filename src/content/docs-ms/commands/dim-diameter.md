@@ -46,6 +46,19 @@ Hanya entiti **Arc** dan **Circle** yang boleh dipilih.
 | Kepala anak panah | Dua (di kedua-dua titik lengkok) | Satu (di titik lengkok) |
 | Terbaik untuk | Dimensi lubang bulatan atau aci penuh | Menganotasi satu sisi ciri melengkung |
 
+## Mengedit label — mod mudah
+
+**Klik dua kali** dimensi diameter yang diletakkan untuk membuka editor teks dalam mod **mudah**. Editor diisi terlebih dahulu dengan nilai yang dirender semasa (mis. `⌀ 10.00`) supaya anda boleh meletakkan kursor dan mengeditnya terus.
+
+| Ciri | Perilaku |
+|------|---------|
+| Bold / Italic / Font / Height | Berlaku pada **keseluruhan label** sekaligus |
+| Pemformatan setiap aksara | Tidak disokong |
+| `Enter` | Mengkomit nilai dan menutup editor |
+| Berbilang baris | Tidak disokong |
+
+Lihat [Text Editor — mod mudah](../interface/text-editor#simple-mode) untuk rujukan penuh.
+
 ## DXF — entiti DIMENSION diameter
 
 Dimensi diameter disimpan sebagai entiti `DIMENSION` dengan geometri jenis diameter, menyimpan kedua-dua kedudukan titik lengkok dan nilai diameter yang diukur (2 × jejari). Semua sifat pusingan penuh tanpa kehilangan.

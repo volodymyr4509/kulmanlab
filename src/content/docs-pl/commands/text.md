@@ -7,9 +7,9 @@ keywords: [polecenie tekstu CAD, MTEXT, umieszczanie etykiety tekstowej CAD, adn
 
 # Tekst
 
-Polecenie `text` umieszcza wieloliniową etykietę tekstową. Po kliknięciu pozycji na płótnie otwiera się okno podręczne edytora, gdzie możesz wpisywać treść, stosować pogrubienie/kursywę/przekreślenie, zmieniać czcionki i wysokości oraz wstawiać podziały wierszy. Naciśnij **Escape**, aby zatwierdzić i zamknąć edytor.
+Polecenie `text` umieszcza wieloliniową etykietę tekstową. Po kliknięciu pozycji na płótnie otwiera się okno podręczne edytora w trybie **rich** — możesz wpisywać treść, stosować pogrubienie/kursywę/przekreślenie dla poszczególnych znaków, zmieniać czcionki i wysokości oraz wstawiać podziały wierszy. Naciśnij **Escape**, aby zatwierdzić i zamknąć edytor.
 
-Zobacz stronę [Edytor tekstu](../interface/text-editor), aby uzyskać pełną dokumentację edytora.
+Zobacz stronę [Edytor tekstu](../interface/text-editor), aby uzyskać pełną dokumentację edytora, w tym porównanie trybów **rich** i **simple**.
 
 ## Umieszczanie etykiety tekstowej
 

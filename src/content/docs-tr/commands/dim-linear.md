@@ -74,6 +74,19 @@ Yerleştirme sırasında bir sayı yazarak ölçü çizgisini ölçülen noktala
 | H/V tuşları | Evet — yönelimi kilitler | Hayır — her zaman p1→p2'yi takip eder |
 | En iyi | Dikdörtgensel yerleşimler, kat planları | Köşegen özellikler, açılı kesimler |
 
+## Etiketi Düzenleme — simple mode
+
+Yerleştirilen doğrusal ölçüye **çift tıklayarak** metin düzenleyiciyi **simple** modda açın. Düzenleyici, imleci konumlandırıp doğrudan düzenleyebilmeniz için geçerli görüntülenen değerle önceden doldurulmuştur.
+
+| Özellik | Davranış |
+|---------|----------|
+| Bold / Italic / Font / Height | **Tüm** etikete aynı anda uygulanır |
+| Karakter başına biçimlendirme | Desteklenmez |
+| `Enter` | Değeri kaydeder ve düzenleyiciyi kapatır |
+| Çok satırlı | Desteklenmez |
+
+Tam referans için [Metin Düzenleyici — simple mode](../interface/text-editor#simple-mode) sayfasına bakın.
+
 ## Zincirleme Ölçüler
 
 Son uzatma çizgisinden devam eden ölçüler eklemek için bu ölçüyü yerleştirdikten hemen sonra [Dimension Continue](./dim-continue) kullanın.

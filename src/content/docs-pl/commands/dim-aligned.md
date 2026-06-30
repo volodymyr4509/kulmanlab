@@ -65,6 +65,19 @@ Strona kursora określa, po której stronie pojawi się linia wymiarowa.
 | Blokowanie orientacji H/V | Nie | Tak — klawisze `H` i `V` |
 | Najlepsze do | Cechy ukośne, nacięcia pod kątem | Układy ortogonalne, części wyrównane do siatki |
 
+## Edytowanie etykiety — tryb simple
+
+**Dwukrotnie kliknij** umieszczony wymiar wyrównany, aby otworzyć edytor tekstu w trybie **simple**. Edytor jest wstępnie wypełniony bieżącą wyrenderowaną wartością, dzięki czemu możesz ustawić kursor i edytować ją bezpośrednio.
+
+| Funkcja | Zachowanie |
+|---------|-----------|
+| Bold / Italic / Font / Height | Stosowane do **całej** etykiety naraz |
+| Formatowanie poszczególnych znaków | Nieobsługiwane |
+| `Enter` | Zatwierdza wartość i zamyka edytor |
+| Wieloliniowość | Nieobsługiwana |
+
+Zobacz [Edytor tekstu — tryb simple](../interface/text-editor#simple-mode) w celu uzyskania pełnej dokumentacji.
+
 ## Łączenie wymiarów
 
 Aby dodać więcej wymiarów kontynuowanych od drugiej linii przedłużenia tego wymiaru, użyj [Wymiaru kontynuowanego](./dim-continue) — blokuje się do tego samego kąta pomiaru co ten wymiar wyrównany.

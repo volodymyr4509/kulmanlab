@@ -98,6 +98,12 @@ Nessuna regolazione manuale necessaria — sposta il cursore nel lato dove vuoi 
 |-------|--------|
 | `Esc` | Annulla e ripristina al passo 2 |
 
+## Modifica di un leader esistente
+
+**Doppio clic** su un multileader posizionato per riaprire l'editor di testo in **rich** mode. In rich mode puoi applicare grassetto, corsivo e sostituzioni di font o altezza per carattere, e inserire interruzioni di riga con `Enter`. Premi **Esc** per confermare e chiudere.
+
+Vedi [Editor di Testo — rich mode](../interface/text-editor#rich-mode) per il riferimento completo.
+
 ## Aggiungere e rimuovere bracci
 
 - Per aggiungere un braccio con freccia extra a un leader esistente: [Leader+](./leader-add)

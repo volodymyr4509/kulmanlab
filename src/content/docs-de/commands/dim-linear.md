@@ -74,6 +74,19 @@ Die Mauszeiger-Seite (ober-/unterhalb für horizontal, links/rechts für vertika
 | H/V-Tasten | Ja — Ausrichtung sperren | Nein — folgt immer p1→p2 |
 | Geeignet für | Orthogonale Layouts, Grundrisse | Diagonale Merkmale, angewinkelte Schnitte |
 
+## Beschriftung bearbeiten — simple mode
+
+**Doppelklicken** Sie auf eine platzierte lineare Bemaßung, um den Texteditor im **simple** mode zu öffnen. Der Editor ist mit dem aktuellen angezeigten Wert vorbelegt, sodass Sie den Cursor positionieren und ihn direkt bearbeiten können.
+
+| Feature | Verhalten |
+|---------|-----------|
+| Bold / Italic / Font / Height | Gilt für die **gesamte** Beschriftung auf einmal |
+| Zeichenweise Formatierung | Nicht unterstützt |
+| `Enter` | Übernimmt den Wert und schließt den Editor |
+| Mehrzeilig | Nicht unterstützt |
+
+Siehe [Texteditor — simple mode](../interface/text-editor#simple-mode) für die vollständige Referenz.
+
 ## Bemaßungen verketten
 
 Um weitere Bemaßungen ab der letzten Maßhilfslinie fortzusetzen, verwenden Sie [Dimension Continue](./dim-continue) unmittelbar nach dem Platzieren dieser Bemaßung.

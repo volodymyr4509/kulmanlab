@@ -48,6 +48,19 @@ Only **Arc** and **Circle** entities can be selected. Clicking any other entity 
 | Arrowheads | One (at arc point) | Two (at both arc points) |
 | Best for | Annotating one side of a curved feature | Annotating full circular dimensions |
 
+## Editing the label — simple mode
+
+**Double-click** a placed radius dimension to open the text editor in **simple** mode. The editor is pre-seeded with the current rendered value (e.g. `R 5.00`) so you can position the cursor and edit it directly.
+
+| Feature | Behaviour |
+|---------|-----------|
+| Bold / Italic / Font / Height | Apply to the **entire** label at once |
+| Per-character formatting | Not supported |
+| `Enter` | Commits the value and closes the editor |
+| Multi-line | Not supported |
+
+See [Text Editor — simple mode](../interface/text-editor#simple-mode) for the full reference.
+
 ## DXF — DIMENSION radius entity
 
 Radius dimensions are saved as `DIMENSION` entities with radius-type geometry, storing the center coordinates, the arc-point position, and the measured radius value. All properties round-trip without loss.

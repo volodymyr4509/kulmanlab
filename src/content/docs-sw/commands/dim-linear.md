@@ -74,6 +74,19 @@ Upande wa kishale (juu/chini kwa usawa, kushoto/kulia kwa wima) huamua ishara �
 | Vitufe vya H/V | Ndiyo — hulinda mwelekeo | Hapana — daima hufuata p1→p2 |
 | Bora kwa | Mipangilio ya usawa na wima, michoro ya sakafu | Vipengele vya mwingiliano, mipasuko ya pembe |
 
+## Kuhariri lebo — hali rahisi
+
+**Bonyeza mara mbili** kipimo cha mstari kilichowekwa kufungua kihariri cha maandishi katika hali **rahisi**. Kihariri kimejazwa awali na thamani inayoonyeshwa kwa sasa ili uweze kuweka mshale na kuihariri moja kwa moja.
+
+| Kipengele | Tabia |
+|----------|-------|
+| Bold / Italic / Font / Height | Inatumika kwa **lebo nzima** mara moja |
+| Uumbizaji kwa kila herufi | Haisaidiwi |
+| `Enter` | Inathibitisha thamani na kufunga kihariri |
+| Mistari mingi | Haisaidiwi |
+
+Angalia [Text Editor — hali rahisi](../interface/text-editor#simple-mode) kwa marejeo kamili.
+
 ## Kuunganisha vipimo
 
 Kuongeza vipimo zaidi vikiendelea kutoka mstari wa mwisho wa upanuzi, tumia [Dimension Continue](./dim-continue) mara baada ya kuweka hiki.
