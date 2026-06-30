@@ -1,5 +1,5 @@
 ---
-import { translations, type Lang } from '../i18n/translations';
+import { translations, languages, type Lang } from '../i18n/translations';
 import { localeUrl } from '../i18n/utils';
 
 interface Props {
@@ -17,7 +17,16 @@ const faqUrl = localeUrl(lang, 'faq');
 const changelogUrl = localeUrl(lang, 'changelog');
 const docsUrl = lang === 'en' ? '/docs' : `/${lang}/docs`;
 ---
-<footer class="border-t border-slate-800 py-10">
+<footer class="border-t border-slate-800 pt-8 pb-10">
+  <div class="mx-auto max-w-6xl px-6 mb-6">
+    <div class="flex flex-wrap gap-x-3 gap-y-2 justify-center">
+      {languages.map(l => (
+        l.code === lang
+          ? <span class="text-xs text-slate-400 flex items-center gap-1"><span>{l.flag}</span>{l.code.toUpperCase()}</span>
+          : <a href={l.code === 'en' ? '/' : `/${l.code}`} class="text-xs text-slate-600 hover:text-slate-400 transition-colors flex items-center gap-1"><span>{l.flag}</span>{l.code.toUpperCase()}</a>
+      ))}
+    </div>
+  </div>
   <div class="mx-auto max-w-6xl px-6 flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
     <a href={homeUrl} class="flex items-center gap-2 transition-opacity hover:opacity-80">
       <img src="/logo.svg" alt="KulmanLab" class="h-6 w-6 rounded" />

@@ -17,10 +17,11 @@ const ogLocale: Record<string, string> = {
   en: 'en_US', de: 'de_DE', es: 'es_ES', fr: 'fr_FR', it: 'it_IT',
   pt: 'pt_BR', uk: 'uk_UA', tr: 'tr_TR', zh: 'zh_CN', hi: 'hi_IN',
   ar: 'ar_SA', id: 'id_ID', ja: 'ja_JP', pl: 'pl_PL', ko: 'ko_KR', vi: 'vi_VN', th: 'th_TH', ms: 'ms_MY', bn: 'bn_BD', sw: 'sw_KE',
+  ur: 'ur_PK', el: 'el_GR',
 };
 ---
 <!doctype html>
-<html lang={lang} dir={lang === 'ar' ? 'rtl' : 'ltr'}>
+<html lang={lang} dir={lang === 'ar' || lang === 'ur' ? 'rtl' : 'ltr'}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
