@@ -7,6 +7,19 @@ export type Release = {
 
 export const releases: Release[] = [
   {
+    version: '2026.07.01.41031df',
+    date: 'July 1, 2026',
+    title: 'Text editor copy/paste, feedback bar & theme-aware arrowheads',
+    highlights: [
+      'Text editor: Ctrl/Cmd+C, Ctrl/Cmd+X, and Ctrl/Cmd+V now copy, cut, and paste the selected text',
+      'Pasted text always takes on the formatting already at the cursor rather than the formatting it had when copied; rich mode keeps line breaks, simple mode (dimension labels) strips them',
+      'New feedback bar in the toolbar links to Reddit, GitHub Issues, and email — appears after 10 minutes of use and can be dismissed',
+      'Arrowhead previews in the Properties panel and arrowhead picker now render in a theme-aware color instead of always white',
+      'Improved contrast for toolbar panel captions (e.g. "STYLE", "LAYERS") in light theme',
+      'Coordinate and zoom readout in the toolbar now sit closer to their labels instead of a fixed-width right-aligned column',
+    ],
+  },
+  {
     version: '2026.06.28.8f3519f',
     date: 'June 28, 2026',
     title: 'Text editor modes: rich and simple',
@@ -265,6 +278,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   en: releases.map(r => ({ title: r.title, highlights: r.highlights })),
   de: [
     {
+      title: 'Texteditor Kopieren/Einfügen, Feedback-Leiste & themenbewusste Pfeilspitzen',
+      highlights: [
+        'Texteditor: Strg/Cmd+C, Strg/Cmd+X und Strg/Cmd+V kopieren, schneiden und fügen jetzt den ausgewählten Text ein',
+        'Eingefügter Text übernimmt immer die Formatierung, die bereits am Cursor vorhanden ist, statt die Formatierung beizubehalten, die er beim Kopieren hatte; Rich mode behält Zeilenumbrüche, Simple mode (Bemaßungsbeschriftungen) entfernt sie',
+        'Neue Feedback-Leiste in der Toolbar verlinkt zu Reddit, GitHub Issues und E-Mail — erscheint nach 10 Minuten Nutzung und kann geschlossen werden',
+        'Pfeilspitzen-Vorschauen im Eigenschaften-Panel und Pfeilspitzen-Picker werden jetzt themenabhängig statt immer weiß dargestellt',
+        'Verbesserter Kontrast für Toolbar-Panel-Beschriftungen (z.B. „STYLE", „LAYERS") im hellen Design',
+        'Koordinaten- und Zoom-Anzeige in der Toolbar liegen jetzt näher an ihren Beschriftungen statt in einer festbreiten, rechtsbündigen Spalte',
+      ],
+    },
+    {
       title: 'Texteditor-Modi: rich und simple',
       highlights: [
         'Der Texteditor-Header zeigt jetzt einen Modus-Chip an — „rich" (Akzentfarbe) für Text und Multileader, „simple" (gedämpft) für Bemaßungsobjekte',
@@ -485,6 +509,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   es: [
+    {
+      title: 'Copiar/pegar en el editor de texto, barra de feedback y puntas de flecha adaptadas al tema',
+      highlights: [
+        'Editor de texto: Ctrl/Cmd+C, Ctrl/Cmd+X y Ctrl/Cmd+V ahora copian, cortan y pegan el texto seleccionado',
+        'El texto pegado siempre adopta el formato ya presente en el cursor en lugar de conservar el que tenía al copiarlo; el modo rich conserva los saltos de línea, el modo simple (etiquetas de cota) los elimina',
+        'Nueva barra de feedback en la barra de herramientas con enlaces a Reddit, GitHub Issues y correo electrónico — aparece tras 10 minutos de uso y se puede cerrar',
+        'Las vistas previas de puntas de flecha en el panel de propiedades y el selector de puntas de flecha ahora se adaptan al tema en lugar de ser siempre blancas',
+        'Mejor contraste para las etiquetas de los paneles de la barra de herramientas (p. ej. "STYLE", "LAYERS") en el tema claro',
+        'La lectura de coordenadas y zoom en la barra de herramientas ahora queda más cerca de sus etiquetas, en lugar de una columna de ancho fijo alineada a la derecha',
+      ],
+    },
     {
       title: 'Modos del editor de texto: rich y simple',
       highlights: [
@@ -707,6 +742,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   fr: [
     {
+      title: 'Copier/coller dans l\'éditeur de texte, barre de retours et pointes de flèche adaptées au thème',
+      highlights: [
+        'Éditeur de texte : Ctrl/Cmd+C, Ctrl/Cmd+X et Ctrl/Cmd+V copient, coupent et collent désormais le texte sélectionné',
+        'Le texte collé adopte toujours le formatage déjà présent au niveau du curseur plutôt que de conserver celui qu\'il avait lors de la copie ; le mode rich conserve les sauts de ligne, le mode simple (étiquettes de cote) les supprime',
+        'Nouvelle barre de retours dans la barre d\'outils avec des liens vers Reddit, GitHub Issues et l\'e-mail — apparaît après 10 minutes d\'utilisation et peut être fermée',
+        'Les aperçus de pointes de flèche dans le panneau des propriétés et le sélecteur de pointe de flèche s\'adaptent désormais au thème au lieu d\'être toujours blancs',
+        'Meilleur contraste pour les libellés des panneaux de la barre d\'outils (ex. « STYLE », « LAYERS ») en thème clair',
+        'L\'affichage des coordonnées et du zoom dans la barre d\'outils est désormais plus proche de ses libellés, au lieu d\'une colonne de largeur fixe alignée à droite',
+      ],
+    },
+    {
       title: 'Modes de l\'éditeur de texte : rich et simple',
       highlights: [
         'L\'en-tête de l\'éditeur de texte affiche maintenant une puce de mode — « rich » (couleur d\'accent) pour Text et Multileader, « simple » (atténué) pour les entités de cote',
@@ -927,6 +973,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   it: [
+    {
+      title: 'Copia/incolla nell\'editor di testo, barra di feedback e punte di freccia sensibili al tema',
+      highlights: [
+        'Editor di testo: Ctrl/Cmd+C, Ctrl/Cmd+X e Ctrl/Cmd+V ora copiano, tagliano e incollano il testo selezionato',
+        'Il testo incollato assume sempre la formattazione già presente al cursore invece di mantenere quella che aveva al momento della copia; la modalità rich mantiene le interruzioni di riga, la modalità simple (etichette delle quote) le rimuove',
+        'Nuova barra di feedback nella barra degli strumenti con link a Reddit, GitHub Issues ed email — appare dopo 10 minuti di utilizzo e può essere chiusa',
+        'Le anteprime delle punte di freccia nel pannello proprietà e nel selettore delle punte di freccia ora si adattano al tema invece di essere sempre bianche',
+        'Migliorato il contrasto per le didascalie dei pannelli della barra degli strumenti (es. "STYLE", "LAYERS") nel tema chiaro',
+        'La lettura di coordinate e zoom nella barra degli strumenti ora è più vicina alle rispettive etichette, invece di una colonna a larghezza fissa allineata a destra',
+      ],
+    },
     {
       title: 'Modalità dell\'editor di testo: rich e simple',
       highlights: [
@@ -1149,6 +1206,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   pt: [
     {
+      title: 'Copiar/colar no editor de texto, barra de feedback e pontas de seta adaptadas ao tema',
+      highlights: [
+        'Editor de texto: Ctrl/Cmd+C, Ctrl/Cmd+X e Ctrl/Cmd+V agora copiam, cortam e colam o texto selecionado',
+        'O texto colado sempre assume a formatação já presente no cursor em vez de manter a que tinha ao ser copiado; o modo rich preserva as quebras de linha, o modo simple (rótulos de cota) as remove',
+        'Nova barra de feedback na barra de ferramentas com links para Reddit, GitHub Issues e e-mail — aparece após 10 minutos de uso e pode ser fechada',
+        'As pré-visualizações de pontas de seta no painel de propriedades e no seletor de pontas de seta agora se adaptam ao tema em vez de serem sempre brancas',
+        'Melhor contraste para as legendas dos painéis da barra de ferramentas (ex. "STYLE", "LAYERS") no tema claro',
+        'A leitura de coordenadas e zoom na barra de ferramentas agora fica mais próxima de seus rótulos, em vez de uma coluna de largura fixa alinhada à direita',
+      ],
+    },
+    {
       title: 'Modos do editor de texto: rich e simple',
       highlights: [
         'O cabeçalho do editor de texto agora exibe um chip de modo — "rich" (cor de destaque) para Text e Multileader, "simple" (atenuado) para entidades de cota',
@@ -1369,6 +1437,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   uk: [
+    {
+      title: 'Копіювання/вставлення в текстовому редакторі, панель відгуків і теми для стрілок',
+      highlights: [
+        'Текстовий редактор: Ctrl/Cmd+C, Ctrl/Cmd+X та Ctrl/Cmd+V тепер копіюють, вирізають і вставляють виділений текст',
+        'Вставлений текст завжди набуває форматування, яке вже є в позиції курсора, замість збереження форматування, яке мав під час копіювання; режим rich зберігає розриви рядків, режим simple (мітки розмірів) видаляє їх',
+        'Нова панель відгуків на панелі інструментів з посиланнями на Reddit, GitHub Issues та електронну пошту — з\'являється після 10 хвилин використання і може бути закрита',
+        'Попередній перегляд наконечників стрілок у панелі властивостей та вибірнику наконечників тепер відображається відповідно до теми, а не завжди білим',
+        'Покращено контраст підписів панелей інструментів (напр. "STYLE", "LAYERS") у світлій темі',
+        'Зчитування координат і масштабу на панелі інструментів тепер розташоване ближче до підписів, замість колонки фіксованої ширини з вирівнюванням праворуч',
+      ],
+    },
     {
       title: 'Режими текстового редактора: rich і simple',
       highlights: [
@@ -1591,6 +1670,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   tr: [
     {
+      title: 'Metin düzenleyicide kopyala/yapıştır, geri bildirim çubuğu ve temaya duyarlı ok başları',
+      highlights: [
+        'Metin düzenleyici: Ctrl/Cmd+C, Ctrl/Cmd+X ve Ctrl/Cmd+V artık seçili metni kopyalar, keser ve yapıştırır',
+        'Yapıştırılan metin her zaman kopyalandığı andaki biçimlendirmeyi korumak yerine imleç konumunda zaten bulunan biçimlendirmeyi alır; rich modu satır sonlarını korur, simple modu (ölçü etiketleri) bunları kaldırır',
+        'Araç çubuğunda Reddit, GitHub Issues ve e-postaya bağlantı veren yeni bir geri bildirim çubuğu — 10 dakikalık kullanımdan sonra görünür ve kapatılabilir',
+        'Özellikler panelindeki ve ok başı seçicisindeki ok başı önizlemeleri artık her zaman beyaz olmak yerine temaya duyarlı renkte gösteriliyor',
+        'Açık temada araç çubuğu paneli başlıkları (ör. "STYLE", "LAYERS") için kontrast iyileştirildi',
+        'Araç çubuğundaki koordinat ve yakınlaştırma göstergeleri artık sabit genişlikli, sağa hizalı bir sütun yerine etiketlerine daha yakın duruyor',
+      ],
+    },
+    {
       title: 'Metin editörü modları: rich ve simple',
       highlights: [
         'Metin editörü başlığı artık bir mod çipi gösteriyor — Text ve Multileader için "rich" (vurgu rengi), boyut nesneleri için "simple" (soluk)',
@@ -1811,6 +1901,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   zh: [
+    {
+      title: '文字编辑器复制/粘贴、反馈栏与主题感知箭头',
+      highlights: [
+        '文字编辑器：Ctrl/Cmd+C、Ctrl/Cmd+X 和 Ctrl/Cmd+V 现在可以复制、剪切和粘贴选中的文字',
+        '粘贴的文字始终采用光标处已有的样式，而不是复制时的样式；富文本模式保留换行，简单模式（标注标签）会去除换行',
+        '工具栏新增反馈栏，链接到 Reddit、GitHub Issues 和邮箱 — 使用 10 分钟后出现，可以关闭',
+        '属性面板和箭头选择器中的箭头预览现在会根据主题着色，而不是始终为白色',
+        '改进了浅色主题下工具栏面板标题（如"STYLE"、"LAYERS"）的对比度',
+        '工具栏中的坐标和缩放读数现在更靠近其标签，而不是固定宽度右对齐的列',
+      ],
+    },
     {
       title: '文本编辑器模式：rich 与 simple',
       highlights: [
@@ -2033,6 +2134,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   hi: [
     {
+      title: 'टेक्स्ट एडिटर कॉपी/पेस्ट, फीडबैक बार और थीम-अवेयर ऐरोहेड',
+      highlights: [
+        'टेक्स्ट एडिटर: Ctrl/Cmd+C, Ctrl/Cmd+X, और Ctrl/Cmd+V अब चयनित टेक्स्ट को कॉपी, कट और पेस्ट करते हैं',
+        'पेस्ट किया गया टेक्स्ट हमेशा कॉपी किए जाने के समय की फ़ॉर्मेटिंग की जगह कर्सर पर पहले से मौजूद फ़ॉर्मेटिंग अपनाता है; rich मोड लाइन ब्रेक बनाए रखता है, simple मोड (डायमेंशन लेबल) उन्हें हटा देता है',
+        'टूलबार में नया फीडबैक बार Reddit, GitHub Issues, और ईमेल से लिंक करता है — 10 मिनट उपयोग के बाद दिखता है और बंद किया जा सकता है',
+        'Properties पैनल और ऐरोहेड पिकर में ऐरोहेड प्रीव्यू अब हमेशा सफ़ेद होने की बजाय थीम के अनुसार रंग में दिखते हैं',
+        'लाइट थीम में टूलबार पैनल कैप्शन (जैसे "STYLE", "LAYERS") के लिए बेहतर कंट्रास्ट',
+        'टूलबार में कोऑर्डिनेट और ज़ूम रीडआउट अब फिक्स्ड-चौड़ाई वाले राइट-अलाइन कॉलम की बजाय अपने लेबल के करीब रहते हैं',
+      ],
+    },
+    {
       title: 'टेक्स्ट एडिटर मोड: rich और simple',
       highlights: [
         'टेक्स्ट एडिटर हेडर अब एक मोड चिप दिखाता है — Text और Multileader के लिए "rich" (एक्सेंट रंग), डायमेंशन एंटिटी के लिए "simple" (म्यूट)',
@@ -2253,6 +2365,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   ar: [
+    {
+      title: 'نسخ/لصق في محرر النص، شريط الملاحظات ورؤوس أسهم متوافقة مع السمة',
+      highlights: [
+        'محرر النص: Ctrl/Cmd+C وCtrl/Cmd+X وCtrl/Cmd+V الآن تنسخ وتقص وتلصق النص المحدد',
+        'النص الملصق يأخذ دائماً التنسيق الموجود بالفعل عند المؤشر بدلاً من التنسيق الذي كان عليه عند نسخه؛ الوضع الغني يحافظ على فواصل الأسطر، والوضع البسيط (تسميات الأبعاد) يزيلها',
+        'شريط ملاحظات جديد في شريط الأدوات يربط بـ Reddit وGitHub Issues والبريد الإلكتروني — يظهر بعد 10 دقائق من الاستخدام ويمكن إغلاقه',
+        'معاينات رأس السهم في لوحة الخصائص ومنتقي رأس السهم تُعرض الآن بلون متوافق مع السمة بدلاً من الأبيض دائماً',
+        'تباين محسّن لتسميات لوحات شريط الأدوات (مثل "STYLE" و"LAYERS") في السمة الفاتحة',
+        'قراءة الإحداثيات والتكبير في شريط الأدوات أصبحت الآن أقرب إلى تسمياتها بدلاً من عمود ثابت العرض محاذى لليمين',
+      ],
+    },
     {
       title: 'أوضاع محرر النص: rich وsimple',
       highlights: [
@@ -2475,6 +2598,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   id: [
     {
+      title: 'Salin/tempel di editor teks, bilah masukan & ujung panah yang menyesuaikan tema',
+      highlights: [
+        'Editor teks: Ctrl/Cmd+C, Ctrl/Cmd+X, dan Ctrl/Cmd+V sekarang menyalin, memotong, dan menempel teks yang dipilih',
+        'Teks yang ditempel selalu mengambil format yang sudah ada di kursor, bukan format yang dimilikinya saat disalin; mode kaya mempertahankan jeda baris, mode sederhana (label dimensi) menghapusnya',
+        'Bilah masukan baru di toolbar tertaut ke Reddit, GitHub Issues, dan email — muncul setelah 10 menit pemakaian dan dapat ditutup',
+        'Pratinjau ujung panah di panel Properties dan pemilih ujung panah kini dirender dengan warna yang menyesuaikan tema, bukan selalu putih',
+        'Kontras yang ditingkatkan untuk label panel toolbar (mis. "STYLE", "LAYERS") pada tema terang',
+        'Pembacaan koordinat dan zoom di toolbar kini lebih dekat ke labelnya, bukan kolom lebar tetap rata kanan',
+      ],
+    },
+    {
       title: 'Mode editor teks: rich dan simple',
       highlights: [
         'Header editor teks kini menampilkan chip mode — "rich" (warna aksen) untuk Text dan Multileader, "simple" (redup) untuk entitas dimensi',
@@ -2695,6 +2829,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   ja: [
+    {
+      title: 'テキストエディターのコピー/貼り付け、フィードバックバー、テーマ対応矢印',
+      highlights: [
+        'テキストエディター：Ctrl/Cmd+C、Ctrl/Cmd+X、Ctrl/Cmd+V で選択したテキストのコピー、切り取り、貼り付けができるようになりました',
+        '貼り付けたテキストは、コピー時の書式を引き継ぐのではなく、常にカーソル位置に既にある書式を適用します。リッチモードは改行を保持し、シンプルモード（寸法ラベル）は改行を削除します',
+        'ツールバーに新しいフィードバックバーを追加 — Reddit、GitHub Issues、メールへのリンクがあり、使用開始から10分後に表示され、閉じることができます',
+        'プロパティパネルと矢印ピッカーの矢印プレビューが、常に白色ではなくテーマに応じた色でレンダリングされるようになりました',
+        'ライトテーマでのツールバーパネルのキャプション（「STYLE」、「LAYERS」など）のコントラストを改善',
+        'ツールバーの座標とズームの表示が、固定幅の右揃え列ではなく、ラベルに近い位置に配置されるようになりました',
+      ],
+    },
     {
       title: 'テキストエディタモード：rich と simple',
       highlights: [
@@ -2917,6 +3062,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   pl: [
     {
+      title: 'Kopiowanie/wklejanie w edytorze tekstu, pasek opinii i groty strzałek dopasowane do motywu',
+      highlights: [
+        'Edytor tekstu: Ctrl/Cmd+C, Ctrl/Cmd+X i Ctrl/Cmd+V teraz kopiują, wycinają i wklejają zaznaczony tekst',
+        'Wklejony tekst zawsze przyjmuje formatowanie już obecne przy kursorze zamiast zachowywać formatowanie, jakie miał w momencie kopiowania; tryb rich zachowuje podziały wiersza, tryb simple (etykiety wymiarów) je usuwa',
+        'Nowy pasek opinii na pasku narzędzi z linkami do Reddit, GitHub Issues i e-maila — pojawia się po 10 minutach użytkowania i można go zamknąć',
+        'Podglądy grotów strzałek w panelu właściwości i selektorze grotów strzałek są teraz renderowane w kolorze dopasowanym do motywu zamiast zawsze białym',
+        'Lepszy kontrast podpisów paneli paska narzędzi (np. "STYLE", "LAYERS") w jasnym motywie',
+        'Odczyt współrzędnych i powiększenia na pasku narzędzi znajduje się teraz bliżej swoich etykiet, zamiast w kolumnie o stałej szerokości wyrównanej do prawej',
+      ],
+    },
+    {
       title: 'Tryby edytora tekstu: rich i simple',
       highlights: [
         'Nagłówek edytora tekstu wyświetla teraz chip trybu — „rich" (kolor akcentu) dla Text i Multileader, „simple" (stonowany) dla obiektów wymiarów',
@@ -3137,6 +3293,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   ko: [
+    {
+      title: '텍스트 에디터 복사/붙여넣기, 피드백 바 및 테마 인식 화살표',
+      highlights: [
+        '텍스트 에디터: Ctrl/Cmd+C, Ctrl/Cmd+X, Ctrl/Cmd+V로 선택한 텍스트를 복사, 잘라내기, 붙여넣기 가능',
+        '붙여넣은 텍스트는 복사할 때의 서식이 아니라 커서 위치에 이미 있는 서식을 항상 따름 — 서식 모드는 줄 바꿈을 유지하고, 단순 모드(치수 레이블)는 줄 바꿈을 제거',
+        '툴바에 Reddit, GitHub Issues, 이메일로 연결되는 새 피드백 바 추가 — 10분 사용 후 표시되며 닫을 수 있음',
+        '속성 패널과 화살표 선택기의 화살표 미리보기가 항상 흰색이 아니라 테마에 맞는 색상으로 표시됨',
+        '밝은 테마에서 툴바 패널 캡션(예: "STYLE", "LAYERS")의 대비 개선',
+        '툴바의 좌표 및 확대/축소 표시가 고정폭 우측 정렬 열 대신 레이블에 더 가깝게 배치됨',
+      ],
+    },
     {
       title: '텍스트 편집기 모드: rich와 simple',
       highlights: [
@@ -3359,6 +3526,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   vi: [
     {
+      title: 'Sao chép/dán trong trình soạn thảo văn bản, thanh phản hồi & đầu mũi tên theo chủ đề',
+      highlights: [
+        'Trình soạn thảo văn bản: Ctrl/Cmd+C, Ctrl/Cmd+X và Ctrl/Cmd+V giờ đây sao chép, cắt và dán văn bản đã chọn',
+        'Văn bản được dán luôn nhận định dạng đã có sẵn tại con trỏ thay vì giữ định dạng khi được sao chép; chế độ phong phú giữ nguyên ngắt dòng, chế độ đơn giản (nhãn kích thước) loại bỏ chúng',
+        'Thanh phản hồi mới trên thanh công cụ liên kết đến Reddit, GitHub Issues và email — xuất hiện sau 10 phút sử dụng và có thể đóng lại',
+        'Bản xem trước đầu mũi tên trong bảng Properties và bộ chọn đầu mũi tên giờ đây hiển thị màu theo chủ đề thay vì luôn màu trắng',
+        'Cải thiện độ tương phản cho nhãn bảng thanh công cụ (vd. "STYLE", "LAYERS") ở chủ đề sáng',
+        'Số liệu tọa độ và thu phóng trên thanh công cụ giờ đây nằm gần nhãn hơn, thay vì một cột có chiều rộng cố định căn phải',
+      ],
+    },
+    {
       title: 'Chế độ trình soạn thảo văn bản: rich và simple',
       highlights: [
         'Tiêu đề trình soạn thảo văn bản giờ hiển thị chip chế độ — "rich" (màu nhấn) cho Text và Multileader, "simple" (mờ) cho các thực thể kích thước',
@@ -3579,6 +3757,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   th: [
+    {
+      title: 'คัดลอก/วางในตัวแก้ไขข้อความ แถบความคิดเห็น และหัวลูกศรที่ปรับตามธีม',
+      highlights: [
+        'ตัวแก้ไขข้อความ: Ctrl/Cmd+C, Ctrl/Cmd+X และ Ctrl/Cmd+V ตอนนี้คัดลอก ตัด และวางข้อความที่เลือกได้แล้ว',
+        'ข้อความที่วางจะรับรูปแบบที่มีอยู่แล้วที่เคอร์เซอร์เสมอ แทนที่จะคงรูปแบบตอนคัดลอก — Rich mode จะเก็บการขึ้นบรรทัดใหม่ไว้ ส่วน Simple mode (ป้ายมิติ) จะลบออก',
+        'แถบความคิดเห็นใหม่ในแถบเครื่องมือ เชื่อมไปยัง Reddit, GitHub Issues และอีเมล — ปรากฏหลังใช้งาน 10 นาทีและสามารถปิดได้',
+        'ตัวอย่างหัวลูกศรในแผง Properties และตัวเลือกหัวลูกศรตอนนี้แสดงสีตามธีมแทนที่จะเป็นสีขาวเสมอ',
+        'ปรับปรุงคอนทราสต์ของป้ายกำกับแผงแถบเครื่องมือ (เช่น "STYLE", "LAYERS") ในธีมสว่าง',
+        'ค่าพิกัดและซูมในแถบเครื่องมือตอนนี้อยู่ใกล้ป้ายกำกับมากขึ้น แทนที่จะเป็นคอลัมน์ความกว้างคงที่ชิดขวา',
+      ],
+    },
     {
       title: 'โหมดตัวแก้ไขข้อความ: rich และ simple',
       highlights: [
@@ -3801,6 +3990,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   ms: [
     {
+      title: 'Salin/tampal dalam editor teks, bar maklum balas & kepala anak panah sedar tema',
+      highlights: [
+        'Editor teks: Ctrl/Cmd+C, Ctrl/Cmd+X, dan Ctrl/Cmd+V kini menyalin, memotong, dan menampal teks yang dipilih',
+        'Teks yang ditampal sentiasa menggunakan gaya yang sudah ada pada kursor dan bukan gaya semasa disalin; mod kaya mengekalkan pemecahan baris, mod mudah (label dimensi) membuangnya',
+        'Bar maklum balas baharu dalam bar alat memaut ke Reddit, GitHub Issues, dan e-mel — muncul selepas 10 minit penggunaan dan boleh ditutup',
+        'Pratonton kepala anak panah dalam panel Properties dan pemilih kepala anak panah kini dipaparkan mengikut warna tema dan bukan sentiasa putih',
+        'Kontras yang lebih baik untuk kapsyen panel bar alat (cth. "STYLE", "LAYERS") dalam tema cerah',
+        'Bacaan koordinat dan zum dalam bar alat kini lebih dekat dengan label masing-masing, bukan lagi lajur lebar tetap dijajarkan kanan',
+      ],
+    },
+    {
       title: 'Mod editor teks: rich dan simple',
       highlights: [
         'Pengepala editor teks kini menunjukkan cip mod — "rich" (warna aksen) untuk Text dan Multileader, "simple" (redup) untuk entiti dimensi',
@@ -4021,6 +4221,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   bn: [
+    {
+      title: 'টেক্সট এডিটরে কপি/পেস্ট, ফিডব্যাক বার এবং থিম-অ্যাওয়্যার তীরমুখ',
+      highlights: [
+        'টেক্সট এডিটর: Ctrl/Cmd+C, Ctrl/Cmd+X, এবং Ctrl/Cmd+V এখন নির্বাচিত টেক্সট কপি, কাট এবং পেস্ট করে',
+        'পেস্ট করা টেক্সট সবসময় কপি করার সময়ের ফরম্যাটিংয়ের পরিবর্তে কার্সরে ইতিমধ্যে থাকা ফরম্যাটিং গ্রহণ করে; rich মোড লাইন বিরতি বজায় রাখে, simple মোড (মাত্রা লেবেল) সেগুলি সরিয়ে দেয়',
+        'টুলবারে নতুন ফিডব্যাক বার Reddit, GitHub Issues এবং ইমেইলের সাথে লিঙ্ক করে — ১০ মিনিট ব্যবহারের পরে দেখা যায় এবং বন্ধ করা যায়',
+        'প্রপার্টি প্যানেল এবং তীরমুখ পিকারে তীরমুখের প্রিভিউ এখন সবসময় সাদার পরিবর্তে থিম অনুযায়ী রঙে দেখায়',
+        'হালকা থিমে টুলবার প্যানেল ক্যাপশনের (যেমন "STYLE", "LAYERS") জন্য উন্নত কনট্রাস্ট',
+        'টুলবারে কোঅর্ডিনেট এবং জুম রিডআউট এখন স্থির-প্রস্থের ডান-সারিবদ্ধ কলামের পরিবর্তে তাদের লেবেলের কাছাকাছি থাকে',
+      ],
+    },
     {
       title: 'টেক্সট এডিটর মোড: rich এবং simple',
       highlights: [
@@ -4263,6 +4474,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   sw: [
     {
+      title: 'Kunakili/kubandika kwenye kihariri cha maandishi, upau wa maoni na vichwa vya mshale vinavyofuata mandhari',
+      highlights: [
+        'Kihariri cha maandishi: Ctrl/Cmd+C, Ctrl/Cmd+X, na Ctrl/Cmd+V sasa hunakili, hukata, na kubandika maandishi yaliyochaguliwa',
+        'Maandishi yaliyobandikwa daima huchukua mtindo uliopo tayari kwenye kishale badala ya mtindo uliokuwa nao wakati wa kunakiliwa; hali tajiri huhifadhi mapumziko ya mstari, hali rahisi (lebo za vipimo) huyaondoa',
+        'Upau mpya wa maoni kwenye upau wa zana unaunganisha na Reddit, GitHub Issues, na barua pepe — unaonekana baada ya dakika 10 za matumizi na unaweza kufungwa',
+        'Hakiki za kichwa cha mshale katika paneli ya Properties na kichaguzi cha kichwa cha mshale sasa zinaonyeshwa kwa rangi inayofuata mandhari badala ya nyeupe kila wakati',
+        'Mkinzano bora kwa manukuu ya paneli za upau wa zana (mfano "STYLE", "LAYERS") katika mandhari nyepesi',
+        'Usomaji wa kuratibu na ukuzaji kwenye upau wa zana sasa uko karibu zaidi na lebo zake, badala ya safu wima ya upana maalum iliyopangiliwa kulia',
+      ],
+    },
+    {
       title: 'Hali za kihariri cha maandishi: rich na simple',
       highlights: [
         'Kichwa cha kihariri cha maandishi sasa kinaonyesha chip ya hali — "rich" (rangi ya msisitizo) kwa Text na Multileader, "simple" (iliyofifia) kwa vipengele vya kipimo',
@@ -4504,6 +4726,7 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
 
   ur: [
+    { title: 'متن ایڈیٹر میں کاپی/پیسٹ، فیڈبیک بار اور تھیم کے مطابق تیر کے سر', highlights: ['متن ایڈیٹر: Ctrl/Cmd+C، Ctrl/Cmd+X، اور Ctrl/Cmd+V اب منتخب متن کاپی، کٹ اور پیسٹ کرتے ہیں', 'پیسٹ کیا گیا متن ہمیشہ کاپی کے وقت کی فارمیٹنگ کی بجائے کرسر پر پہلے سے موجود فارمیٹنگ اپناتا ہے؛ rich موڈ لائن بریک برقرار رکھتا ہے، simple موڈ (پیمائش لیبلز) انہیں ہٹا دیتا ہے', 'ٹول بار میں نیا فیڈبیک بار Reddit، GitHub Issues، اور ای میل سے لنک کرتا ہے — 10 منٹ استعمال کے بعد ظاہر ہوتا ہے اور بند کیا جا سکتا ہے', 'Properties پینل اور تیر کے سر پکر میں تیر کے سر کی پیش منظر اب ہمیشہ سفید کی بجائے تھیم کے مطابق رنگ میں دکھتی ہے', 'لائٹ تھیم میں ٹول بار پینل کیپشنز (مثلاً "STYLE"، "LAYERS") کے لیے بہتر کنٹراسٹ', 'ٹول بار میں کوآرڈینیٹ اور زوم ریڈ آؤٹ اب فکسڈ چوڑائی والے دائیں طرف سیدھ کیے کالم کی بجائے اپنے لیبلز کے قریب ہوتے ہیں'] },
     { title: 'ٹیکسٹ ایڈیٹر موڈز: rich اور simple', highlights: ['ٹیکسٹ ایڈیٹر ہیڈر اب موڈ چپ دکھاتا ہے — Text اور Multileader کے لیے "rich" (ایکسنٹ رنگ)، ڈائمنشن کے لیے "simple" (ہلکا)', 'کسی بھی لینیئر، الائنڈ، اینگولر، ریڈیس یا ڈائامیٹر ڈائمنشن پر ڈبل کلک کریں تاکہ لیبل ٹیکسٹ ایڈیٹر میں کھل جائے', 'Simple موڈ: ایڈیٹر موجودہ لیبل سے پہلے سے بھرا ہوتا ہے تاکہ ← / → سے کرسر رکھیں اور براہ راست ویلیو ترمیم کریں', 'Simple موڈ: Enter دبانے سے ویلیو محفوظ ہو کر ایڈیٹر بند ہو جاتا ہے — لائن بریک نہیں ڈالی جاتی', 'Simple موڈ: Bold، Italic، فونٹ اور اونچائی کی تبدیلیاں پورے ڈائمنشن لیبل پر یکساں لاگو ہوتی ہیں', 'Rich موڈ (Text, Multileader): فی حرف فارمیٹنگ، ملٹی لائن Enter اور ورڈ رَیپ پوری طرح سپورٹڈ رہتے ہیں', 'بلنکنگ کرسر ڈائمنشن ٹیکسٹ ایڈیٹر پاپ اَپ کے اندر اینی میٹ ہوتا ہے', 'ٹیکسٹ کرسر آفسیٹ درست کیا گیا — بعض فونٹ تبدیلیوں کے بعد 2× زیادہ اونچا رینڈر ہو رہا تھا'] },
     { title: 'اردو اور یونانی — 22 زبانیں، 1 320 صفحات', highlights: ['اردو (اردو 🇵🇰) شامل — عربی رسم الخط کے ساتھ مکمل RTL سپورٹ؛ دستاویزات، FAQ اور تبدیلی نامہ مکمل ترجمہ', 'یونانی (Ελληνικά 🇬🇷) شامل — مکمل دستاویزات، FAQ اور تبدیلی نامہ یونانی میں', 'KulmanLab اب 22 زبانوں میں دستیاب: EN, DE, ES, FR, IT, PT, PL, UK, EL, HI, UR, BN, ZH, JA, KO, VI, TH, ID, MS, TR, AR, SW', 'کل سائٹ سائز: 1 320 مستقل صفحات — تمام کمانڈ ریفرنس، FAQ اور تبدیلی نامے مقامی زبان میں', 'RTL لے آؤٹ اردو کے لیے عربی سپورٹ کے ساتھ خود بخود لاگو ہوتا ہے', 'ویب سائٹ فٹر میں زبان سوئچر قطار شامل — تمام 22 زبانوں کے plain-HTML لنکس تاکہ سرچ انجن JavaScript کے بغیر ہر زبان دریافت کریں', 'تمام زبان کے صفحات میں ہر دوسری زبان کی طرف hreflang متبادل لنکس شامل ہیں'] },
     { title: 'نئی ویب سائٹ: لینڈنگ پیج، دستاویزات اور FAQ', highlights: ['kulmanlab.com پر نیا لینڈنگ پیج — اسکرین شاٹ کیروسل، فیچر گرڈ اور تین مرحلے ورک فلو کا جائزہ', 'موازنہ جدول: KulmanLab بمقابلہ LibreCAD، QCAD، BricsCAD', 'کمانڈ ریفرنس دستاویزات kulmanlab.com/docs پر منتقل', 'FAQ صفحہ: اسٹوریج، DXF مطابقت، فیچرز اور رازداری', 'یہ تبدیلی نامہ صفحہ — ہر ورژن کے ریلیز نوٹس'] },
@@ -4524,6 +4747,7 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
 
   el: [
+    { title: 'Αντιγραφή/επικόλληση στον επεξεργαστή κειμένου, γραμμή σχολίων & βέλη προσαρμοσμένα στο θέμα', highlights: ['Επεξεργαστής κειμένου: Ctrl/Cmd+C, Ctrl/Cmd+X και Ctrl/Cmd+V πλέον αντιγράφουν, αποκόπτουν και επικολλούν το επιλεγμένο κείμενο', 'Το επικολλημένο κείμενο παίρνει πάντα τη μορφοποίηση που υπάρχει ήδη στον κέρσορα αντί να διατηρεί αυτή που είχε όταν αντιγράφηκε· η λειτουργία rich διατηρεί τις αλλαγές γραμμής, η λειτουργία simple (ετικέτες διαστάσεων) τις αφαιρεί', 'Νέα γραμμή σχολίων στη γραμμή εργαλείων συνδέει με Reddit, GitHub Issues και email — εμφανίζεται μετά από 10 λεπτά χρήσης και μπορεί να κλείσει', 'Οι προεπισκοπήσεις βέλους στον πίνακα ιδιοτήτων και στον επιλογέα βέλους πλέον αποδίδονται με χρώμα ανάλογο του θέματος αντί για πάντα λευκό', 'Βελτιωμένη αντίθεση για τις ετικέτες πάνελ της γραμμής εργαλείων (π.χ. "STYLE", "LAYERS") στο ανοιχτόχρωμο θέμα', 'Η ένδειξη συντεταγμένων και ζουμ στη γραμμή εργαλείων είναι πλέον πιο κοντά στις ετικέτες της, αντί για στήλη σταθερού πλάτους στοιχισμένη δεξιά'] },
     { title: 'Λειτουργίες επεξεργαστή κειμένου: rich και simple', highlights: ['Ο τίτλος του επεξεργαστή κειμένου εμφανίζει πλέον chip λειτουργίας — "rich" (χρώμα έμφασης) για Text και Multileader, "simple" (αχνό) για οντότητες διαστάσεων', 'Διπλό κλικ σε οποιαδήποτε γραμμική, ευθυγραμμισμένη, γωνιακή, ακτίνας ή διαμέτρου διάσταση για να ανοίξει η ετικέτα στον επεξεργαστή', 'Λειτουργία simple: ο επεξεργαστής προ-συμπληρώνεται με την τρέχουσα ετικέτα ώστε να τοποθετείτε τον κέρσορα με ← / → και να επεξεργάζεστε την τιμή άμεσα', 'Λειτουργία simple: το Enter επιβεβαιώνει την τιμή και κλείνει τον επεξεργαστή — δεν εισάγεται αλλαγή γραμμής', 'Λειτουργία simple: αλλαγές έντονης γραφής, πλάγιας γραφής, γραμματοσειράς και ύψους εφαρμόζονται σε ολόκληρη την ετικέτα διάστασης', 'Λειτουργία rich (Text, Multileader): μορφοποίηση ανά χαρακτήρα, πολύ-γραμμές Enter και αναδίπλωση λέξεων παραμένουν πλήρως υποστηριζόμενα', 'Ο αναβοσβήνον κέρσορας εμφανίζει πλέον animation μέσα στο αναδυόμενο παράθυρο του επεξεργαστή κειμένου διαστάσεων', 'Η απόκλιση κέρσορα κειμένου διορθώθηκε — αποδιδόταν έως 2× πολύ ψηλά μετά από ορισμένες αλλαγές γραμματοσειράς'] },
     { title: 'Ουρντού και Ελληνικά — 22 γλώσσες, 1 320 σελίδες', highlights: ['Προστέθηκε Ουρντού (اردو 🇵🇰) — πλήρης υποστήριξη RTL με αραβική γραφή· έγγραφα, FAQ και αρχείο αλλαγών πλήρως μεταφρασμένα', 'Προστέθηκαν Ελληνικά (Ελληνικά 🇬🇷) — πλήρη έγγραφα, FAQ και αρχείο αλλαγών στα Ελληνικά', 'Το KulmanLab διατίθεται πλέον σε 22 γλώσσες: EN, DE, ES, FR, IT, PT, PL, UK, EL, HI, UR, BN, ZH, JA, KO, VI, TH, ID, MS, TR, AR, SW', 'Συνολικό μέγεθος ιστότοπου: 1 320 στατικές σελίδες — όλες οι αναφορές εντολών, FAQ και αρχεία αλλαγών τοπικοποιημένα', 'Η διάταξη RTL εφαρμόζεται αυτόματα για τα Ουρντού (αραβική γραφή) παράλληλα με την υπάρχουσα υποστήριξη αραβικών', 'Γραμμή επιλογέα γλώσσας προστέθηκε στο υποσέλιδο — ορατοί σύνδεσμοι plain-HTML για όλες τις 22 γλώσσες ώστε οι μηχανές αναζήτησης να ανακαλύπτουν κάθε γλωσσική έκδοση χωρίς JavaScript', 'Όλες οι γλωσσικές σελίδες περιλαμβάνουν εναλλακτικούς συνδέσμους hreflang που δείχνουν σε κάθε άλλη γλώσσα'] },
     { title: 'Νέος ιστότοπος: σελίδα υποδοχής, τεκμηρίωση & FAQ', highlights: ['Νέα σελίδα υποδοχής στο kulmanlab.com — καρουσέλ, πλέγμα λειτουργιών και επισκόπηση ροής εργασίας', 'Πίνακας σύγκρισης: KulmanLab vs LibreCAD, QCAD, BricsCAD', 'Τεκμηρίωση εντολών στο kulmanlab.com/docs', 'Σελίδα FAQ: αποθήκευση, DXF, λειτουργίες, ιδιωτικότητα', 'Αυτό το αρχείο αλλαγών — σημειώσεις έκδοσης'] },
