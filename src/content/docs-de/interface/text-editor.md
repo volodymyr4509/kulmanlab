@@ -101,6 +101,18 @@ Das Feld zeigt die Höhe des Zeichens links vom Cursor an. Lassen Sie es leer, u
 
 Die Cursorhöhe passt sich automatisch an die Versalhöhe des angrenzenden Zeichens an, einschließlich der kleineren Größe für tiefgestellten und hochgestellten Text.
 
+## Kopieren, ausschneiden und einfügen
+
+| Taste | Aktion |
+|-------|--------|
+| `Ctrl+C` / `Cmd+C` | Ausgewählten Text kopieren |
+| `Ctrl+X` / `Cmd+X` | Ausgewählten Text ausschneiden |
+| `Ctrl+V` / `Cmd+V` | Am Cursor einfügen |
+
+Kopieren und Ausschneiden erfordern eine aktive Textauswahl. Eingefügter Text ist immer unformatiert — er übernimmt die Formatierung (Fett, Kursiv, Schriftart, Höhe), die bereits am Cursor vorhanden ist, anstatt die Formatierung beizubehalten, die er beim Kopieren hatte.
+
+Im **Rich mode** bleiben Zeilenumbrüche im eingefügten Text erhalten. Im **Simple mode** werden Zeilenumbrüche entfernt, da Bemaßungsbeschriftungen einzeilig sind.
+
 ## Zeilenumbruch
 
 Wenn eine Text-Entität eine **Referenzbreite** festgelegt hat, werden lange Zeilen an Wortgrenzen weich umgebrochen, um in diese Breite zu passen.

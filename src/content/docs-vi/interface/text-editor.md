@@ -91,6 +91,18 @@ Trường số đặt **chiều cao chữ hoa** (chiều cao của chữ hoa) th
 | `Enter` | Chèn ngắt dòng |
 | `Escape` | Đóng trình soạn thảo |
 
+## Sao chép, cắt và dán
+
+| Phím | Hành động |
+|------|-----------|
+| `Ctrl+C` / `Cmd+C` | Sao chép văn bản đã chọn |
+| `Ctrl+X` / `Cmd+X` | Cắt văn bản đã chọn |
+| `Ctrl+V` / `Cmd+V` | Dán tại con trỏ |
+
+Sao chép và cắt yêu cầu có lựa chọn văn bản đang hoạt động. Văn bản được dán luôn là văn bản thuần — nó nhận định dạng (in đậm, in nghiêng, phông chữ, chiều cao) đã có sẵn tại con trỏ thay vì giữ định dạng mà nó có khi được sao chép.
+
+Ở **Chế độ phong phú**, các ngắt dòng trong văn bản được dán sẽ được giữ nguyên. Ở **Chế độ đơn giản**, các ngắt dòng bị loại bỏ vì nhãn kích thước chỉ có một dòng.
+
 ## Xuống dòng tự động
 
 Khi thực thể văn bản có **chiều rộng tham chiếu** được đặt, các dòng dài sẽ tự động xuống dòng tại ranh giới từ để vừa với chiều rộng đó.

@@ -101,6 +101,18 @@ El campo refleja la altura del carácter a la izquierda del cursor. Déjalo en b
 
 La altura del cursor coincide automáticamente con la altura de caja del carácter adyacente, incluyendo el tamaño más pequeño usado para subíndice y superíndice.
 
+## Copiar, cortar y pegar
+
+| Tecla | Acción |
+|-------|--------|
+| `Ctrl+C` / `Cmd+C` | Copiar el texto seleccionado |
+| `Ctrl+X` / `Cmd+X` | Cortar el texto seleccionado |
+| `Ctrl+V` / `Cmd+V` | Pegar en el cursor |
+
+Copiar y cortar requieren una selección de texto activa. El texto pegado siempre es texto plano — adopta el formato (negrita, cursiva, fuente, altura) ya presente en el cursor en lugar de conservar el formato que tenía al copiarlo.
+
+En **Rich mode**, los saltos de línea en el texto pegado se conservan. En **Simple mode**, los saltos de línea se eliminan, ya que las etiquetas de cota son de una sola línea.
+
 ## Ajuste de línea
 
 Cuando una entidad de texto tiene un **ancho de referencia** establecido, las líneas largas se ajustan automáticamente en los límites de las palabras para caber dentro de ese ancho.

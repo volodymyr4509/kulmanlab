@@ -101,6 +101,18 @@ Il campo riflette l'altezza del carattere a sinistra del cursore. Lascialo vuoto
 
 L'altezza del cursore corrisponde automaticamente all'altezza dei capitali del carattere adiacente.
 
+## Copia, taglia e incolla
+
+| Tasto | Azione |
+|-------|--------|
+| `Ctrl+C` / `Cmd+C` | Copia il testo selezionato |
+| `Ctrl+X` / `Cmd+X` | Taglia il testo selezionato |
+| `Ctrl+V` / `Cmd+V` | Incolla al cursore |
+
+Copia e taglia richiedono una selezione di testo attiva. Il testo incollato è sempre semplice — assume la formattazione (grassetto, corsivo, font, altezza) già presente al cursore invece di mantenere quella che aveva al momento della copia.
+
+In **Rich mode**, le interruzioni di riga nel testo incollato vengono mantenute. In **Simple mode**, le interruzioni di riga vengono rimosse, poiché le etichette delle quote sono a riga singola.
+
 ## A capo automatico
 
 Quando un'entità testo ha una **larghezza di riferimento** impostata, le righe lunghe vengono suddivise automaticamente ai confini delle parole per adattarsi a quella larghezza.

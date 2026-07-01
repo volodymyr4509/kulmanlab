@@ -101,6 +101,18 @@ Alan, imleçin solundaki karakterin yüksekliğini yansıtır. Nesne varsayılan
 
 İmleç yüksekliği, alt simge ve üst simge için kullanılan daha küçük boyut dahil olmak üzere komşu karakterin büyük harf yüksekliğiyle otomatik olarak eşleşir.
 
+## Kopyalama, kesme ve yapıştırma
+
+| Tuş | İşlem |
+|-----|--------|
+| `Ctrl+C` / `Cmd+C` | Seçili metni kopyala |
+| `Ctrl+X` / `Cmd+X` | Seçili metni kes |
+| `Ctrl+V` / `Cmd+V` | İmleç konumuna yapıştır |
+
+Kopyalama ve kesme, etkin bir metin seçimi gerektirir. Yapıştırılan metin her zaman düz metindir — kopyalandığı andaki biçimlendirmeyi korumak yerine, imleç konumunda zaten bulunan biçimlendirmeyi (kalın, italik, yazı tipi, yükseklik) alır.
+
+**Rich mode**'da, yapıştırılan metindeki satır sonları korunur. **Simple mode**'da, ölçü etiketleri tek satırlı olduğundan satır sonları kaldırılır.
+
 ## Kelime Kaydırma
 
 Bir metin nesnesinin **referans genişliği** ayarlandığında, uzun satırlar sözcük sınırlarında yumuşak kaydırma yapılarak bu genişliğe sığar.

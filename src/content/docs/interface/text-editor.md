@@ -101,6 +101,18 @@ The field reflects the height of the character left of the cursor. Leave it blan
 
 The cursor height automatically matches the cap height of the adjacent character, including the smaller size used for subscript and superscript.
 
+## Copy, cut, and paste
+
+| Key | Action |
+|-----|--------|
+| `Ctrl+C` / `Cmd+C` | Copy the selected text |
+| `Ctrl+X` / `Cmd+X` | Cut the selected text |
+| `Ctrl+V` / `Cmd+V` | Paste at the cursor |
+
+Copy and cut require an active text selection. Pasted text is always plain — it takes on the formatting (bold, italic, font, height) already at the cursor rather than carrying over the formatting it had when copied.
+
+In **rich mode**, line breaks in the pasted text are preserved. In **simple mode**, line breaks are stripped, since dimension labels are single-line.
+
 ## Word wrap
 
 When a text entity has a **reference width** set, long lines are soft-wrapped at word boundaries to fit within that width.

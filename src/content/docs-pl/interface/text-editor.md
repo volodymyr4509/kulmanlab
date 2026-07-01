@@ -101,6 +101,18 @@ Pole odzwierciedla wysokość znaku po lewej stronie kursora. Zostaw puste, aby 
 
 Wysokość kursora automatycznie dopasowuje się do wysokości kapitalika sąsiedniego znaku, w tym mniejszego rozmiaru używanego dla indeksu dolnego i górnego.
 
+## Kopiowanie, wycinanie i wklejanie
+
+| Klawisz | Akcja |
+|---------|-------|
+| `Ctrl+C` / `Cmd+C` | Kopiuj zaznaczony tekst |
+| `Ctrl+X` / `Cmd+X` | Wytnij zaznaczony tekst |
+| `Ctrl+V` / `Cmd+V` | Wklej w miejscu kursora |
+
+Kopiowanie i wycinanie wymagają aktywnego zaznaczenia tekstu. Wklejony tekst jest zawsze zwykłym tekstem — przyjmuje formatowanie (pogrubienie, kursywa, czcionka, wysokość) już obecne przy kursorze, zamiast zachowywać formatowanie, jakie miał w momencie kopiowania.
+
+W **trybie rich** podziały wiersza we wklejonym tekście są zachowywane. W **trybie simple** podziały wiersza są usuwane, ponieważ etykiety wymiarów są jednowierszowe.
+
 ## Zawijanie tekstu
 
 Gdy element tekstowy ma ustawioną **szerokość odniesienia**, długie wiersze są miękko zawijane na granicach wyrazów, aby mieścić się w tej szerokości.

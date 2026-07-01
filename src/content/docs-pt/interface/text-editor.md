@@ -101,6 +101,18 @@ O campo reflete a altura do caractere à esquerda do cursor. Deixe em branco par
 
 A altura do cursor corresponde automaticamente à altura das maiúsculas do caractere adjacente.
 
+## Copiar, cortar e colar
+
+| Tecla | Ação |
+|-------|------|
+| `Ctrl+C` / `Cmd+C` | Copiar o texto selecionado |
+| `Ctrl+X` / `Cmd+X` | Cortar o texto selecionado |
+| `Ctrl+V` / `Cmd+V` | Colar no cursor |
+
+Copiar e cortar exigem uma seleção de texto ativa. O texto colado é sempre texto simples — ele assume a formatação (negrito, itálico, fonte, altura) já presente no cursor, em vez de manter a formatação que tinha ao ser copiado.
+
+No **Rich mode**, as quebras de linha no texto colado são preservadas. No **Simple mode**, as quebras de linha são removidas, já que os rótulos de cota são de linha única.
+
 ## Quebra automática de linha
 
 Quando uma entidade de texto tem uma **largura de referência** definida, linhas longas são quebradas automaticamente nos limites de palavras para caber dentro dessa largura.
