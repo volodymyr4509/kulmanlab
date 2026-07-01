@@ -101,6 +101,18 @@ Uga unaonyesha urefu wa herufi ya kushoto ya kishale. Iacha tupu kutumia chaguo-
 
 Urefu wa kishale hulingana kiotomatiki na urefu wa kichwa wa herufi iliyo karibu, ikijumuisha ukubwa mdogo unaotumika kwa hali ya chini na ya juu.
 
+## Kunakili, kukata, na kubandika
+
+| Kitufe | Kitendo |
+|--------|---------|
+| `Ctrl+C` / `Cmd+C` | Nakili maandishi yaliyochaguliwa |
+| `Ctrl+X` / `Cmd+X` | Kata maandishi yaliyochaguliwa |
+| `Ctrl+V` / `Cmd+V` | Bandika kwenye kishale |
+
+Kunakili na kukata vinahitaji uchaguzi wa maandishi hai. Maandishi yaliyobandikwa daima ni wazi — huchukua mtindo (herufi nzito, italiki, fonti, urefu) uliopo tayari kwenye kishale badala ya kubeba mtindo uliokuwa nao wakati wa kunakiliwa.
+
+Katika **Hali tajiri**, mapumziko ya mstari katika maandishi yaliyobandikwa yanahifadhiwa. Katika **Hali rahisi**, mapumziko ya mstari yanaondolewa, kwa kuwa lebo za vipimo ni mstari mmoja.
+
 ## Kuvingirishwa kwa maneno
 
 Kipande cha maandishi kikiwa na **upana wa rejeleo** uliowekwa, mistari mirefu huvingiriwa laini kwenye mipaka ya maneno kulingana na upana huo.

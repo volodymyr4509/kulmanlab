@@ -101,6 +101,18 @@ Le champ reflète la hauteur du caractère à gauche du curseur. Laissez-le vide
 
 La hauteur du curseur correspond automatiquement à la hauteur de boîte du caractère adjacent, incluant la taille plus petite utilisée pour l'indice et l'exposant.
 
+## Copier, couper et coller
+
+| Touche | Action |
+|--------|--------|
+| `Ctrl+C` / `Cmd+C` | Copier le texte sélectionné |
+| `Ctrl+X` / `Cmd+X` | Couper le texte sélectionné |
+| `Ctrl+V` / `Cmd+V` | Coller au curseur |
+
+Copier et couper nécessitent une sélection de texte active. Le texte collé est toujours en texte brut — il adopte le formatage (gras, italique, police, hauteur) déjà présent au niveau du curseur plutôt que de conserver le formatage qu'il avait lors de la copie.
+
+En **Rich mode**, les sauts de ligne dans le texte collé sont préservés. En **Simple mode**, les sauts de ligne sont supprimés, car les étiquettes de cote sont sur une seule ligne.
+
 ## Retour à la ligne
 
 Quand une entité de texte a une **largeur de référence** définie, les lignes longues sont automatiquement renvoyées à la ligne aux limites des mots pour tenir dans cette largeur.

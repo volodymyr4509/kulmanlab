@@ -101,6 +101,18 @@ Medan mencerminkan ketinggian aksara di sebelah kiri kursor. Biarkan kosong untu
 
 Ketinggian kursor secara automatik sepadan dengan ketinggian cap aksara bersebelahan, termasuk saiz yang lebih kecil yang digunakan untuk subskrip dan superskrip.
 
+## Salin, potong, dan tampal
+
+| Kekunci | Tindakan |
+|---------|---------|
+| `Ctrl+C` / `Cmd+C` | Salin teks yang dipilih |
+| `Ctrl+X` / `Cmd+X` | Potong teks yang dipilih |
+| `Ctrl+V` / `Cmd+V` | Tampal pada kursor |
+
+Salin dan potong memerlukan pemilihan teks aktif. Teks yang ditampal sentiasa teks biasa — ia menggunakan gaya (tebal, italik, fon, tinggi) yang sudah ada pada kursor, bukannya membawa gaya yang dimilikinya semasa disalin.
+
+Dalam **Mod kaya**, pemecahan baris dalam teks yang ditampal dikekalkan. Dalam **Mod mudah**, pemecahan baris dibuang, kerana label dimensi adalah satu baris.
+
 ## Bungkus perkataan
 
 Apabila entiti teks mempunyai **lebar rujukan** yang ditetapkan, baris panjang dibungkus secara lembut pada sempadan perkataan agar muat dalam lebar tersebut.

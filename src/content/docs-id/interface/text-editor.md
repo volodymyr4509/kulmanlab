@@ -101,6 +101,18 @@ Field mencerminkan tinggi karakter di sebelah kiri kursor. Biarkan kosong untuk 
 
 Tinggi kursor secara otomatis cocok dengan tinggi cap dari karakter yang berdekatan, termasuk ukuran yang lebih kecil yang digunakan untuk subskrip dan superskrip.
 
+## Salin, potong, dan tempel
+
+| Tombol | Aksi |
+|-----|--------|
+| `Ctrl+C` / `Cmd+C` | Salin teks yang dipilih |
+| `Ctrl+X` / `Cmd+X` | Potong teks yang dipilih |
+| `Ctrl+V` / `Cmd+V` | Tempel di kursor |
+
+Menyalin dan memotong memerlukan seleksi teks aktif. Teks yang ditempel selalu berupa teks polos — teks tersebut mengambil format (tebal, miring, font, tinggi) yang sudah ada di kursor, bukan membawa format yang dimilikinya saat disalin.
+
+Dalam **Mode kaya**, jeda baris pada teks yang ditempel dipertahankan. Dalam **Mode sederhana**, jeda baris dihapus, karena label dimensi bersifat satu baris.
+
 ## Bungkus kata
 
 Ketika entitas teks memiliki **lebar referensi** yang diatur, baris panjang dibungkus secara lembut pada batas kata untuk muat dalam lebar tersebut.
