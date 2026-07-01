@@ -55,6 +55,7 @@ Geometry (coordinates, radius, length, etc.) is never affected.
 - Each click or drag-select applies the source properties immediately — there is no confirmation step.
 - Area selection follows the standard rules: drag **right** for strict selection (fully enclosed), drag **left** for crossing selection (any intersection).
 - Clicking the source entity as a target is ignored.
+- For entities with text (**Text**, **Dimensions**, **Multileaders**), only the text height is copied — font, bold, italic, and other text style settings are not matched.
 
 ## Related commands
 
