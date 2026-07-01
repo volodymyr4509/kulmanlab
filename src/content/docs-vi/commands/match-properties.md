@@ -35,6 +35,8 @@ Tối thiểu, **tất cả loại thực thể** chia sẻ các thuộc tính n
 | **Màu sắc** | Chỉ số màu của thực thể (bao gồm "By Layer" / "By Block") |
 | **Lớp** | Lớp mà thực thể thuộc về |
 
+Đối với thực thể có văn bản (**Văn bản**, **Kích Thước**, **Đường Dẫn Đa**), chỉ chiều cao văn bản được sao chép — phông chữ, in đậm, in nghiêng và các cài đặt kiểu văn bản khác không được khớp.
+
 ## Tham khảo phím tắt
 
 | Phím | Hành động |

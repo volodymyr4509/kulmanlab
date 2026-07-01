@@ -55,6 +55,7 @@ La geometria (coordinate, raggio, lunghezza, ecc.) non viene mai influenzata.
 - Ogni clic o selezione per trascino applica immediatamente le proprietà sorgente — non c'è nessun passo di conferma.
 - La selezione per area segue le regole standard: trascina **a destra** per la selezione stretta (completamente racchiusa), trascina **a sinistra** per la selezione incrociante (qualsiasi intersezione).
 - Cliccare l'entità sorgente come destinazione viene ignorato.
+- Per le entità con testo (**Testo**, **Quote**, **Multileader**), viene copiata solo l'altezza del testo — il font, il grassetto, il corsivo e le altre impostazioni di stile del testo non vengono applicati.
 
 ## Comandi correlati
 

@@ -55,6 +55,7 @@ Geometria (współrzędne, promień, długość itp.) nigdy nie jest dotknięta.
 - Każde kliknięcie lub zaznaczenie obszarowe natychmiast stosuje właściwości źródłowe — nie ma kroku potwierdzenia.
 - Zaznaczenie obszarowe postępuje zgodnie ze standardowymi regułami: przeciągnij **w prawo** dla zaznaczenia ścisłego (w pełni zawartego), przeciągnij **w lewo** dla zaznaczenia przecinającego (dowolne przecięcie).
 - Kliknięcie elementu źródłowego jako celu jest ignorowane.
+- Dla elementów z tekstem (**Tekst**, **Wymiary**, **Linie wielokierunkowe**) kopiowana jest tylko wysokość tekstu — czcionka, pogrubienie, kursywa i inne ustawienia stylu tekstu nie są dopasowywane.
 
 ## Powiązane polecenia
 

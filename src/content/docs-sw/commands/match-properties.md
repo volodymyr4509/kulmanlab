@@ -55,6 +55,7 @@ Jiometri (kuratibu, radius, urefu, n.k.) haiathiriwi kamwe.
 - Kila bonyeza au uchaguzi wa kuburuta hutumia sifa za chanzo mara moja — hakuna hatua ya uthibitisho.
 - Uchaguzi wa eneo hufuata kanuni za kawaida: buruta **kulia** kwa uchaguzi mkali (umefungwa kikamilifu), buruta **kushoto** kwa uchaguzi unaopita (makutano yoyote).
 - Kubonyeza kipengele cha chanzo kama lengwa kupuuzwa.
+- Kwa vipengele vyenye maandishi (**Maandishi**, **Vipimo**, **Multileader**), urefu wa maandishi tu ndio hunakiliwa — fonti, herufi nzito, italiki, na mipangilio mingine ya mtindo wa maandishi haviigwi.
 
 ## Amri zinazohusiana
 

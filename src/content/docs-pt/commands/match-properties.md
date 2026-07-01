@@ -55,6 +55,7 @@ A geometria (coordenadas, raio, comprimento, etc.) nunca é afetada.
 - Cada clique ou arraste de seleção aplica imediatamente as propriedades de origem — não há etapa de confirmação.
 - A seleção por área segue as regras padrão: arraste para **direita** para seleção estrita (totalmente fechada), arraste para **esquerda** para seleção cruzada (qualquer interseção).
 - Clicar na entidade de origem como destino é ignorado.
+- Para entidades com texto (**Texto**, **Cotas**, **Multileaders**), apenas a altura do texto é copiada — fonte, negrito, itálico e outras configurações de estilo de texto não são igualadas.
 
 ## Comandos relacionados
 

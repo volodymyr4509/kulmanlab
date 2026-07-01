@@ -55,6 +55,7 @@ Geometrie (Koordinaten, Radius, Länge usw.) wird nie beeinflusst.
 - Jeder Klick oder jede Flächenauswahl wendet die Quelleigenschaften sofort an — es gibt keinen Bestätigungsschritt.
 - Die Flächenauswahl folgt den Standardregeln: **rechts** ziehen für strenge Auswahl (vollständig eingeschlossen), **links** ziehen für schneidende Auswahl (jede Überschneidung).
 - Das Anklicken der Quellentität als Ziel wird ignoriert.
+- Bei Entitäten mit Text (**Text**, **Bemaßungen**, **Mehrfachführungslinien**) wird nur die Texthöhe kopiert — Schriftart, Fett, Kursiv und andere Textstil-Einstellungen werden nicht übernommen.
 
 ## Verwandte Befehle
 

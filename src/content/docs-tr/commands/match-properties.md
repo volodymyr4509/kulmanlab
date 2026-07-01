@@ -55,6 +55,7 @@ Geometri (koordinatlar, yarıçap, uzunluk vb.) hiçbir zaman etkilenmez.
 - Her tıklama veya sürükleyerek seçim kaynak özelliklerini anında uygular — onay adımı yoktur.
 - Alan seçimi standart kuralları izler: **sağa** sürükleme katı seçim (tamamen içine alınmış), **sola** sürükleme çapraz seçim (herhangi bir kesişim).
 - Kaynak nesneyi hedef olarak tıklamak yok sayılır.
+- Metin içeren nesneler için (**Metin**, **Ölçüler**, **Çoklu Göstergeler**), yalnızca metin yüksekliği kopyalanır — yazı tipi, kalın, italik ve diğer metin stili ayarları eşleştirilmez.
 
 ## İlgili Komutlar
 

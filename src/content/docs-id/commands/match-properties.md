@@ -55,6 +55,7 @@ Geometri (koordinat, radius, panjang, dll.) tidak pernah dipengaruhi.
 - Setiap klik atau seret-pilih langsung menerapkan properti sumber — tidak ada langkah konfirmasi.
 - Seleksi area mengikuti aturan standar: seret **kanan** untuk seleksi ketat (sepenuhnya terlampir), seret **kiri** untuk seleksi persilangan (perpotongan mana pun).
 - Mengklik entitas sumber sebagai target diabaikan.
+- Untuk entitas dengan teks (**Teks**, **Dimensi**, **Multileader**), hanya tinggi teks yang disalin — font, tebal, miring, dan pengaturan gaya teks lainnya tidak disamakan.
 
 ## Perintah terkait
 

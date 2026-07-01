@@ -55,6 +55,7 @@ La geometría (coordenadas, radio, longitud, etc.) nunca se ve afectada.
 - Cada clic o arrastre aplica las propiedades de la fuente de inmediato — no hay paso de confirmación.
 - La selección por área sigue las reglas estándar: arrastra a la **derecha** para selección estricta (totalmente encerrado), arrastra a la **izquierda** para selección cruzada (cualquier intersección).
 - Hacer clic en la entidad fuente como destino se ignora.
+- Para entidades con texto (**Text**, **Cotas**, **Multireferencias**), solo se copia la altura del texto — la fuente, la negrita, la cursiva y otros ajustes de estilo de texto no se igualan.
 
 ## Comandos relacionados
 

@@ -55,6 +55,7 @@ Geometri (koordinat, jejari, panjang, dll.) tidak pernah terjejas.
 - Setiap klik atau pilih-seret menggunakan sifat sumber serta-merta — tiada langkah pengesahan.
 - Pemilihan kawasan mengikut peraturan standard: seret **kanan** untuk pemilihan ketat (terlampir sepenuhnya), seret **kiri** untuk pemilihan silang (mana-mana persimpangan).
 - Mengklik entiti sumber sebagai sasaran diabaikan.
+- Untuk entiti yang mempunyai teks (**Teks**, **Dimensi**, **Pelbagai Pemimpin**), hanya ketinggian teks yang disalin — fon, tebal, italik, dan tetapan gaya teks lain tidak disepadankan.
 
 ## Arahan berkaitan
 

@@ -55,6 +55,7 @@ La géométrie (coordonnées, rayon, longueur, etc.) n'est jamais affectée.
 - Chaque clic ou glisser applique les propriétés de la source immédiatement — il n'y a pas d'étape de confirmation.
 - La sélection par zone suit les règles standard : glissez vers la **droite** pour une sélection stricte (totalement encadré), glissez vers la **gauche** pour une sélection croisée (toute intersection).
 - Cliquer sur l'entité source en tant que cible est ignoré.
+- Pour les entités avec du texte (**Texte**, **Cotes**, **Multirepères**), seule la hauteur du texte est copiée — la police, le gras, l'italique et les autres réglages de style de texte ne sont pas assortis.
 
 ## Commandes associées
 
