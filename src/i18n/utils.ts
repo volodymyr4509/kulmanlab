@@ -1,6 +1,6 @@
 import type { Lang } from './translations';
 
-export const LANGS_NO_EN = ['de', 'es', 'fr', 'it', 'pt', 'uk', 'tr', 'zh', 'hi', 'ar', 'id', 'ja', 'pl', 'ko', 'vi', 'th', 'ms', 'bn', 'sw', 'ur', 'el'] as const;
+export const LANGS_NO_EN = ['de', 'es', 'fr', 'it', 'pt', 'uk', 'tr', 'zh', 'hi', 'ar', 'id', 'ja', 'pl', 'ko', 'vi', 'th', 'ms', 'bn', 'sw', 'ur', 'el', 'pa', 'sv'] as const;
 export type NonEnLang = typeof LANGS_NO_EN[number];
 
 export function localeUrl(lang: Lang, page: 'home' | 'faq' | 'changelog'): string {

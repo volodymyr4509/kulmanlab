@@ -396,6 +396,42 @@ const s = lang === 'de' ? {
   gridSnap: 'Πλέγμα & Snap',
   newFile: 'Νέο αρχείο',
   matchProp: 'Αντιστοίχιση ιδιοτήτων',
+} : lang === 'pa' ? {
+  overview: 'ਸੰਖੇਪ ਜਾਣਕਾਰੀ',
+  ref: 'ਕਮਾਂਡ ਹਵਾਲਾ',
+  shapes: 'ਆਕਾਰ',
+  edit: 'ਸੰਪਾਦਨ',
+  markup: 'ਨਿਸ਼ਾਨਦੇਹੀ',
+  layer: 'ਲੇਅਰ',
+  layouts: 'ਲੇਆਉਟ',
+  navigate: 'ਨੈਵੀਗੇਟ',
+  measure: 'ਮਾਪ',
+  style: 'ਸਟਾਈਲ',
+  file: 'ਫਾਈਲ',
+  iface: 'ਇੰਟਰਫੇਸ',
+  zoomIn: 'ਜ਼ੂਮ ਇਨ',
+  zoomOut: 'ਜ਼ੂਮ ਆਊਟ',
+  gridSnap: 'ਗ੍ਰਿਡ ਅਤੇ ਸਨੈਪ',
+  newFile: 'ਨਵੀਂ ਫਾਈਲ',
+  matchProp: 'ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਮੇਲ ਕਰੋ',
+} : lang === 'sv' ? {
+  overview: 'Översikt',
+  ref: 'Kommandoreferens',
+  shapes: 'Former',
+  edit: 'Redigera',
+  markup: 'Markering',
+  layer: 'Lager',
+  layouts: 'Layouter',
+  navigate: 'Navigera',
+  measure: 'Mät',
+  style: 'Stil',
+  file: 'Fil',
+  iface: 'Gränssnitt',
+  zoomIn: 'Zooma in',
+  zoomOut: 'Zooma ut',
+  gridSnap: 'Rutnät och fångst',
+  newFile: 'Ny fil',
+  matchProp: 'Matcha egenskaper',
 } : {
   overview: 'Overview',
   ref: 'Command Reference',
@@ -571,6 +607,8 @@ const sidebar = [
     <link rel="alternate" hreflang="sw" href={`https://kulmanlab.com/sw/docs${entrySlug ? '/' + entrySlug : ''}`} />
     <link rel="alternate" hreflang="ur" href={`https://kulmanlab.com/ur/docs${entrySlug ? '/' + entrySlug : ''}`} />
     <link rel="alternate" hreflang="el" href={`https://kulmanlab.com/el/docs${entrySlug ? '/' + entrySlug : ''}`} />
+    <link rel="alternate" hreflang="pa" href={`https://kulmanlab.com/pa/docs${entrySlug ? '/' + entrySlug : ''}`} />
+    <link rel="alternate" hreflang="sv" href={`https://kulmanlab.com/sv/docs${entrySlug ? '/' + entrySlug : ''}`} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 
