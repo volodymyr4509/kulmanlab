@@ -13,7 +13,7 @@ Gõ `LayerUnfreezeAll` trong terminal hoặc nhấp nút **Unfreeze All** trên 
 
 ## Khi nào dùng
 
-Thường được dùng sau [LayerIsolate](./layer-isolate) để khôi phục tất cả lớp về trạng thái hiển thị bình thường.
+Thường được dùng sau [LayerIsolate](../layer-isolate/) để khôi phục tất cả lớp về trạng thái hiển thị bình thường.
 
 ## Chi tiết hành vi
 

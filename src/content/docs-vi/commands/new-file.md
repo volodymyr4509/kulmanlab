@@ -19,22 +19,22 @@ Tệp mới được tạo bắt đầu với:
 - **Một lớp mặc định** có tên `0` với màu trắng và kiểu đường `Continuous`.
 - **Tên tệp được tạo** theo định dạng `kulman-Mon01_HH:MM:SS.dxf`.
 
-Tệp được lưu vào bộ nhớ trình duyệt tự động và xuất hiện trong [Tệp Gần Đây](./files).
+Tệp được lưu vào bộ nhớ trình duyệt tự động và xuất hiện trong [Tệp Gần Đây](../files/).
 
 ## Cảnh báo — công việc chưa lưu bị xóa
 
-Nhấp **New File** xóa tất cả thực thể trên canvas hiện tại mà không có cảnh báo. Nếu bạn muốn giữ bản vẽ hiện tại, hãy [xuất](./export) nó trước.
+Nhấp **New File** xóa tất cả thực thể trên canvas hiện tại mà không có cảnh báo. Nếu bạn muốn giữ bản vẽ hiện tại, hãy [xuất](../export/) nó trước.
 
 ## Khi nào dùng Tệp Mới vs Nhập
 
 | Tình huống | Hành động được đề xuất |
 |-----------|----------------------|
 | Bắt đầu bản vẽ từ đầu | **Tệp Mới** |
-| Mở tệp DXF hoặc JSON hiện có | [Nhập](./import) |
-| Sao chép bản vẽ để làm biến thể | [Xuất](./export) tệp hiện tại, sau đó [Nhập](./import) bản sao |
+| Mở tệp DXF hoặc JSON hiện có | [Nhập](../import/) |
+| Sao chép bản vẽ để làm biến thể | [Xuất](../export/) tệp hiện tại, sau đó [Nhập](../import/) bản sao |
 
 ## Các lệnh liên quan
 
-- [Nhập](./import) — mở bản vẽ DXF hoặc JSON hiện có
-- [Xuất](./export) — tải bản vẽ trước khi bắt đầu mới
-- [Tệp](./files) — khôi phục bản vẽ trước đó từ bộ nhớ trình duyệt
+- [Nhập](../import/) — mở bản vẽ DXF hoặc JSON hiện có
+- [Xuất](../export/) — tải bản vẽ trước khi bắt đầu mới
+- [Tệp](../files/) — khôi phục bản vẽ trước đó từ bộ nhớ trình duyệt

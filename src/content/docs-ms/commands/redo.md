@@ -7,7 +7,7 @@ keywords: [arahan buat semula CAD, sejarah buat semula CAD, gunakan semula tinda
 
 # Redo
 
-Arahan `redo` melangkah ke hadapan melalui sejarah batal, menggunakan semula tindakan yang telah dibalikkan oleh [Undo](./undo). Redo hanya tersedia apabila anda telah melangkah ke belakang dengan Undo dan belum membuat perubahan baharu.
+Arahan `redo` melangkah ke hadapan melalui sejarah batal, menggunakan semula tindakan yang telah dibalikkan oleh [Undo](../undo/). Redo hanya tersedia apabila anda telah melangkah ke belakang dengan Undo dan belum membuat perubahan baharu.
 
 ## Cara buat semula
 
@@ -20,7 +20,7 @@ Setiap invokasi menggunakan semula satu tindakan yang sebelumnya dibatalkan. Inv
 
 | Butiran | Tingkah laku |
 |---------|-------------|
-| Tersedia selepas | Satu atau lebih langkah [Undo](./undo) |
+| Tersedia selepas | Satu atau lebih langkah [Undo](../undo/) |
 | Dibersihkan oleh | **Mana-mana tindakan lukisan baharu** — menambah, mengedit, atau memadam entiti |
 | Storan | Pelayar, setiap fail — bertahan muat semula halaman (selagi tiada tindakan baharu dibuat sebelum muat semula) |
 | Kedalaman maksimum | Sehingga 20 entri (kumpulan yang sama dengan Undo) |
@@ -35,4 +35,4 @@ Setelah entiti baru dilukis, dipadam, atau diubah suai, tindanan redo dibersihka
 | Tersedia apabila | Selepas sekurang-kurangnya satu Undo, tanpa tindakan baharu diambil | Sekurang-kurangnya satu tindakan yang direkodkan wujud |
 | Dibersihkan oleh | Mana-mana tindakan lukisan baharu | Tiada |
 
-Butang Redo bar alat dikelabukan apabila tiada entri untuk dibuat semula. Gunakan [Undo](./undo) dahulu untuk mencipta entri redo.
+Butang Redo bar alat dikelabukan apabila tiada entri untuk dibuat semula. Gunakan [Undo](../undo/) dahulu untuk mencipta entri redo.

@@ -7,7 +7,7 @@ keywords: [CAD zoom out, reduzir zoom viewport, comando zoom out, visão geral C
 
 # Zoom Out
 
-O comando `zoomout` divide o nível de zoom atual por **1,5×** (equivalente a multiplicar por ~0,667) e sai imediatamente, centralizado no ponto médio da viewport. É o inverso de [Zoom In](./zoom-in).
+O comando `zoomout` divide o nível de zoom atual por **1,5×** (equivalente a multiplicar por ~0,667) e sai imediatamente, centralizado no ponto médio da viewport. É o inverso de [Zoom In](../zoom-in/).
 
 ## Reduzindo o zoom
 
@@ -41,6 +41,6 @@ Não há atalhos de teclado para este comando. Use a roda do mouse — ela funci
 
 | Comando | O que faz |
 |---------|-----------|
-| [Zoom In](./zoom-in) | Multiplica o zoom por 1,5× por passo |
-| [Fit](./fit) | Redefine o zoom para mostrar todas as entidades |
-| [Pan](./pan) | Desloca a viewport sem ampliar |
+| [Zoom In](../zoom-in/) | Multiplica o zoom por 1,5× por passo |
+| [Fit](../fit/) | Redefine o zoom para mostrar todas as entidades |
+| [Pan](../pan/) | Desloca a viewport sem ampliar |

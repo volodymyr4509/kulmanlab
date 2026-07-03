@@ -106,8 +106,8 @@ Siehe [Texteditor — rich mode](../interface/text-editor#rich-mode) für die vo
 
 ## Arme hinzufügen und entfernen
 
-- Um einer vorhandenen Führungslinie einen zusätzlichen Pfeilspitzen-Arm hinzuzufügen: [Leader+](./leader-add)
-- Um einen Arm von einer Führungslinie mit zwei oder mehr Armen zu entfernen: [Leader−](./leader-remove)
+- Um einer vorhandenen Führungslinie einen zusätzlichen Pfeilspitzen-Arm hinzuzufügen: [Leader+](../leader-add/)
+- Um einen Arm von einer Führungslinie mit zwei oder mehr Armen zu entfernen: [Leader−](../leader-remove/)
 
 ## DXF — nur Import
 

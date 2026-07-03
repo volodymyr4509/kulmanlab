@@ -7,7 +7,7 @@ keywords: [arahan garis CAD, lukis garis lurus CAD, rantai segmen garis, potong 
 
 # Line
 
-Arahan `line` melukis segmen garis lurus individu yang disimpan sebagai entiti `LINE` berasingan dalam model DXF. Selepas setiap segmen, arahan kekal aktif dan menggunakan semula titik akhir sebagai titik mula baharu, jadi anda boleh membina laluan yang disambungkan satu segmen pada satu masa. Tidak seperti [Polyline](./polyline), garis yang dirantai kekal sebagai entiti bebas — setiap satunya boleh dipotong, dipanjangkan, atau dipadam tanpa menjejaskan jirannya.
+Arahan `line` melukis segmen garis lurus individu yang disimpan sebagai entiti `LINE` berasingan dalam model DXF. Selepas setiap segmen, arahan kekal aktif dan menggunakan semula titik akhir sebagai titik mula baharu, jadi anda boleh membina laluan yang disambungkan satu segmen pada satu masa. Tidak seperti [Polyline](../polyline/), garis yang dirantai kekal sebagai entiti bebas — setiap satunya boleh dipotong, dipanjangkan, atau dipadam tanpa menjejaskan jirannya.
 
 ## Melukis garis
 
@@ -74,7 +74,7 @@ Garis yang dipilih menunjukkan tiga grip:
 | **Tengah** | Pusat garis | Mengaktifkan **Move** untuk keseluruhan garis |
 | **Akhir** | Titik akhir kedua | Seret untuk mengubah kedudukan — mula kekal tetap |
 
-Meregangkan satu titik akhir tidak pernah menjejaskan yang lain. Ini berbeza daripada pengeditan grip [Polyline](./polyline), di mana menggerak bucu membentuk semula keseluruhan laluan.
+Meregangkan satu titik akhir tidak pernah menjejaskan yang lain. Ini berbeza daripada pengeditan grip [Polyline](../polyline/), di mana menggerak bucu membentuk semula keseluruhan laluan.
 
 ## Memilih garis
 
@@ -86,19 +86,19 @@ Meregangkan satu titik akhir tidak pernah menjejaskan yang lain. Ini berbeza dar
 
 ## Arahan edit yang disokong
 
-Garis adalah entiti **satu-satunya** yang [Trim](./trim) dan [Extend](./extend) beroperasi padanya. Semua arahan transformasi standard juga terpakai:
+Garis adalah entiti **satu-satunya** yang [Trim](../trim/) dan [Extend](../extend/) beroperasi padanya. Semua arahan transformasi standard juga terpakai:
 
 | Arahan | Apa yang berlaku pada garis |
 |--------|-----------------------------|
-| [Move](./move) | Menterjemahkan kedua-dua titik akhir dengan anjakan yang sama |
-| [Copy](./copy) | Mencipta garis yang sama di kedudukan baru |
-| [Rotate](./rotate) | Memutar kedua-dua titik akhir di sekitar titik asas yang dipilih |
-| [Mirror](./mirror) | Mencerminkan kedua-dua titik akhir merentasi paksi cermin |
-| [Scale](./scale) | Mengskala kedua-dua titik akhir secara seragam dari titik asas |
-| [Offset](./offset) | Mencipta garis selari pada jarak tegak lurus tetap |
-| [Trim](./trim) | Memotong garis pada persimpangan — **garis sahaja** |
-| [Extend](./extend) | Meregangkan titik akhir terdekat untuk mencapai sempadan — **garis sahaja** |
-| [Delete](./delete) | Membuang garis daripada lukisan |
+| [Move](../move/) | Menterjemahkan kedua-dua titik akhir dengan anjakan yang sama |
+| [Copy](../copy/) | Mencipta garis yang sama di kedudukan baru |
+| [Rotate](../rotate/) | Memutar kedua-dua titik akhir di sekitar titik asas yang dipilih |
+| [Mirror](../mirror/) | Mencerminkan kedua-dua titik akhir merentasi paksi cermin |
+| [Scale](../scale/) | Mengskala kedua-dua titik akhir secara seragam dari titik asas |
+| [Offset](../offset/) | Mencipta garis selari pada jarak tegak lurus tetap |
+| [Trim](../trim/) | Memotong garis pada persimpangan — **garis sahaja** |
+| [Extend](../extend/) | Meregangkan titik akhir terdekat untuk mencapai sempadan — **garis sahaja** |
+| [Delete](../delete/) | Membuang garis daripada lukisan |
 
 ## Sifat
 

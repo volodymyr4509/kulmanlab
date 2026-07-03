@@ -52,7 +52,7 @@ Zaznaczony splajn CV eksponuje jeden uchwyt na wierzchołek kontrolny:
 |--------|---------|---------|
 | **Wierzchołek kontrolny** | W każdej pozycji CV | Przeciągnij, aby przesunąć ten CV — krzywa przekształca się w kierunku nowej pozycji |
 
-Nie ma uchwytu "przesuń cały splajn". Aby translować cały splajn, użyj polecenia [Przesuń](./move).
+Nie ma uchwytu "przesuń cały splajn". Aby translować cały splajn, użyj polecenia [Przesuń](../move/).
 
 ## Zaznaczanie splajnów CV
 
@@ -66,12 +66,12 @@ Nie ma uchwytu "przesuń cały splajn". Aby translować cały splajn, użyj pole
 
 | Polecenie | Co dzieje się ze splajnem |
 |-----------|---------------------------|
-| [Przesuń](./move) | Translacja wszystkich wierzchołków kontrolnych o to samo przesunięcie |
-| [Kopiuj](./copy) | Tworzy identyczny splajn w nowej pozycji |
-| [Obróć](./rotate) | Obraca wszystkie CV wokół wybranego punktu bazowego |
-| [Odbij](./mirror) | Odbija wszystkie CV przez oś odbicia |
-| [Skaluj](./scale) | Skaluje wszystkie CV równomiernie od punktu bazowego |
-| [Usuń](./delete) | Usuwa splajn |
+| [Przesuń](../move/) | Translacja wszystkich wierzchołków kontrolnych o to samo przesunięcie |
+| [Kopiuj](../copy/) | Tworzy identyczny splajn w nowej pozycji |
+| [Obróć](../rotate/) | Obraca wszystkie CV wokół wybranego punktu bazowego |
+| [Odbij](../mirror/) | Odbija wszystkie CV przez oś odbicia |
+| [Skaluj](../scale/) | Skaluje wszystkie CV równomiernie od punktu bazowego |
+| [Usuń](../delete/) | Usuwa splajn |
 
 Splajny nie obsługują **Odsunięcia**, **Przytnij** ani **Przedłuż**.
 

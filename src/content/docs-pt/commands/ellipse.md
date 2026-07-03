@@ -81,13 +81,13 @@ Os grips dos eixos maior e menor são independentes — você pode remodelar a e
 
 | Comando | Efeito na elipse |
 |---------|----------------|
-| [Move](./move) | Translada o centro; ambos os eixos inalterados |
-| [Copy](./copy) | Cria uma elipse idêntica num novo centro |
-| [Rotate](./rotate) | Roda a posição do centro e o vetor do eixo maior pelo mesmo ângulo |
-| [Mirror](./mirror) | Reflete o centro e recalcula a direção do eixo maior em relação ao eixo especular |
-| [Scale](./scale) | Escala a posição do centro e multiplica os comprimentos de ambos os semieixos pelo fator |
-| [Offset](./offset) | Cria uma elipse concêntrica deslocada para fora ou para dentro por uma distância fixa |
-| [Delete](./delete) | Remove a elipse |
+| [Move](../move/) | Translada o centro; ambos os eixos inalterados |
+| [Copy](../copy/) | Cria uma elipse idêntica num novo centro |
+| [Rotate](../rotate/) | Roda a posição do centro e o vetor do eixo maior pelo mesmo ângulo |
+| [Mirror](../mirror/) | Reflete o centro e recalcula a direção do eixo maior em relação ao eixo especular |
+| [Scale](../scale/) | Escala a posição do centro e multiplica os comprimentos de ambos os semieixos pelo fator |
+| [Offset](../offset/) | Cria uma elipse concêntrica deslocada para fora ou para dentro por uma distância fixa |
+| [Delete](../delete/) | Remove a elipse |
 
 ## Propriedades
 

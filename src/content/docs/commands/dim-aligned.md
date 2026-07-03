@@ -7,7 +7,7 @@ keywords: [CAD dimension aligned, dimaligned, diagonal dimension CAD, true dista
 
 # Dimension Aligned
 
-The `dimaligned` command places a dimension that measures the **true straight-line distance** between two points. The dimension line runs parallel to the line connecting the two points, so it can be at any angle. This is the key difference from [Dimension Linear](./dim-linear), which is restricted to horizontal or vertical.
+The `dimaligned` command places a dimension that measures the **true straight-line distance** between two points. The dimension line runs parallel to the line connecting the two points, so it can be at any angle. This is the key difference from [Dimension Linear](../dim-linear/), which is restricted to horizontal or vertical.
 
 ## Anatomy of an aligned dimension
 
@@ -80,7 +80,7 @@ See [Text Editor — simple mode](../interface/text-editor#simple-mode) for the 
 
 ## Chaining dimensions
 
-To add more dimensions continuing from the second extension line of this one, use [Dimension Continue](./dim-continue) — it locks to the same measurement angle as this aligned dimension.
+To add more dimensions continuing from the second extension line of this one, use [Dimension Continue](../dim-continue/) — it locks to the same measurement angle as this aligned dimension.
 
 ## DXF — DIMENSION entity (aligned type)
 

@@ -7,7 +7,7 @@ keywords: [commande copy CAO, dupliquer entités CAO, copier objets CAO, cloner 
 
 # Copy
 
-La commande `copy` crée des duplicatas traduits des entités sélectionnées et les place décalées d'un point de base vers une destination — les originaux restent exactement là où ils sont. C'est la différence essentielle avec [Move](./move) : Copy ajoute de nouvelles entités au dessin ; Move déplace les entités existantes.
+La commande `copy` crée des duplicatas traduits des entités sélectionnées et les place décalées d'un point de base vers une destination — les originaux restent exactement là où ils sont. C'est la différence essentielle avec [Move](../move/) : Copy ajoute de nouvelles entités au dessin ; Move déplace les entités existantes.
 
 ## Deux façons de démarrer
 

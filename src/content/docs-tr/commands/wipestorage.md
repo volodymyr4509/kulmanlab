@@ -7,7 +7,7 @@ keywords: [CAD wipestorage komutu, tarayıcı deposunu temizle CAD, tüm çiziml
 
 # WipeStorage
 
-`wipestorage` komutu, tarayıcının yerel deposundaki tüm çizimleri ve kaydedilen verileri siler. İşlem **geri alınamaz** — kullanmadan önce önemli çizimleri [Export](./export) ile kaydedin.
+`wipestorage` komutu, tarayıcının yerel deposundaki tüm çizimleri ve kaydedilen verileri siler. İşlem **geri alınamaz** — kullanmadan önce önemli çizimleri [Export](../export/) ile kaydedin.
 
 ## Depoyu Temizleme
 

@@ -59,5 +59,5 @@ Geometri (koordinat, jejari, panjang, dll.) tidak pernah terjejas.
 
 ## Arahan berkaitan
 
-- [LayerMatch](./layer-match) — pindahkan entiti yang dipilih ke lapisan yang sama seperti sumber (hanya sifat lapisan)
-- [LayerMakeCurrent](./layer-make-current) — tetapkan lapisan lukisan semasa dari entiti yang diklik
+- [LayerMatch](../layer-match/) — pindahkan entiti yang dipilih ke lapisan yang sama seperti sumber (hanya sifat lapisan)
+- [LayerMakeCurrent](../layer-make-current/) — tetapkan lapisan lukisan semasa dari entiti yang diklik

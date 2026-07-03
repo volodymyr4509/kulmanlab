@@ -56,4 +56,4 @@ Após o ponto base ser definido, o comando encaixa nos eixos de 45° (0°, 45°,
 
 - ViewportCopy está disponível apenas quando uma aba de layout papel está ativa.
 - A viewport copiada herda a mesma escala, centro do modelo, estado de bloqueio e dimensões do original.
-- Para criar uma nova viewport do zero, use [ViewportRectangle](./viewport-rectangle).
+- Para criar uma nova viewport do zero, use [ViewportRectangle](../viewport-rectangle/).

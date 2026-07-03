@@ -7,7 +7,7 @@ keywords: [CAD rektangelkommando, rita rektangel CAD, axelparallell rektangel, s
 
 # Rectangle
 
-`rectangle`-kommandot ritar en axelparallell rektangel definierad av två klick i motstående hörn. Resultatet sparas som en **sluten `LWPOLYLINE`** med fyra hörnpunkter — en i varje hörn. Det finns ingen egen entitetstyp för rektanglar: efter skapandet beter sig formen precis som vilken annan [Polyline](./polyline) som helst, och varje polylinjeredigering gäller för den.
+`rectangle`-kommandot ritar en axelparallell rektangel definierad av två klick i motstående hörn. Resultatet sparas som en **sluten `LWPOLYLINE`** med fyra hörnpunkter — en i varje hörn. Det finns ingen egen entitetstyp för rektanglar: efter skapandet beter sig formen precis som vilken annan [Polyline](../polyline/) som helst, och varje polylinjeredigering gäller för den.
 
 ## Rita en rektangel
 
@@ -68,17 +68,17 @@ Eftersom rektangeln är en polylinje fungerar markering på samma sätt:
 
 ## Kompatibla redigeringskommandon
 
-Alla polylinjeredigeringskommandon gäller. Trim och Extend fungerar endast på [Line](./line) och fungerar inte på rektanglar:
+Alla polylinjeredigeringskommandon gäller. Trim och Extend fungerar endast på [Line](../line/) och fungerar inte på rektanglar:
 
 | Kommando | Vad som händer med rektangeln |
 |---------|-------------------------------|
-| [Move](./move) | Flyttar alla fyra hörnpunkter med samma förskjutning |
-| [Copy](./copy) | Skapar en identisk rektangel på en ny position |
-| [Rotate](./rotate) | Roterar alla fyra hörnpunkter kring den valda baspunkten |
-| [Mirror](./mirror) | Speglar alla fyra hörnpunkter över spegelaxeln |
-| [Scale](./scale) | Skalar alla fyra hörnpunkter enhetligt från baspunkten |
-| [Offset](./offset) | Skapar en parallell (inre eller yttre) rektangel på ett fast avstånd |
-| [Delete](./delete) | Tar bort rektangeln från ritningen |
+| [Move](../move/) | Flyttar alla fyra hörnpunkter med samma förskjutning |
+| [Copy](../copy/) | Skapar en identisk rektangel på en ny position |
+| [Rotate](../rotate/) | Roterar alla fyra hörnpunkter kring den valda baspunkten |
+| [Mirror](../mirror/) | Speglar alla fyra hörnpunkter över spegelaxeln |
+| [Scale](../scale/) | Skalar alla fyra hörnpunkter enhetligt från baspunkten |
+| [Offset](../offset/) | Skapar en parallell (inre eller yttre) rektangel på ett fast avstånd |
+| [Delete](../delete/) | Tar bort rektangeln från ritningen |
 
 ## Egenskaper
 

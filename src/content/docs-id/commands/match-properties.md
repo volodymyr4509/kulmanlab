@@ -59,5 +59,5 @@ Geometri (koordinat, radius, panjang, dll.) tidak pernah dipengaruhi.
 
 ## Perintah terkait
 
-- [LayerMatch](./layer-match) — memindahkan entitas yang dipilih ke layer yang sama dengan sumber (hanya properti layer)
-- [LayerMakeCurrent](./layer-make-current) — mengatur layer gambar saat ini dari entitas yang diklik
+- [LayerMatch](../layer-match/) — memindahkan entitas yang dipilih ke layer yang sama dengan sumber (hanya properti layer)
+- [LayerMakeCurrent](../layer-make-current/) — mengatur layer gambar saat ini dari entitas yang diklik

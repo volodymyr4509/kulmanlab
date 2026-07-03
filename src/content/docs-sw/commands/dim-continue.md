@@ -51,7 +51,7 @@ Mwelekeo wa kipimo wa mnyororo **umefungwa kwa pembe ya kipimo cha msingi**:
 - Msingi wa mstari (V) → endeleo zote hupima umbali wa wima (Δ Y).
 - Msingi uliowekwa kwa pembe yoyote → endeleo zote hupima kando ya pembe hiyo hiyo.
 
-Huwezi kubadilisha mwelekeo katikati ya mnyororo. Anza [Dimension Linear](./dim-linear) au [Dimension Aligned](./dim-aligned) mpya ili kupima kwa mwelekeo tofauti.
+Huwezi kubadilisha mwelekeo katikati ya mnyororo. Anza [Dimension Linear](../dim-linear/) au [Dimension Aligned](../dim-aligned/) mpya ili kupima kwa mwelekeo tofauti.
 
 ## Marejeo ya kibodi
 

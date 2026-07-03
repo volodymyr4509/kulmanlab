@@ -7,9 +7,9 @@ keywords: [CAD trim command, trim line CAD, cut line intersection, hover trim pr
 
 # Trim
 
-Amri ya `trim` huondoa sehemu ya [Line](./line) inayolala kati ya nukta mbili za karibu za makutano, ikigawanya mstari katika sehemu moja au mbili fupi zaidi. Sehemu ya kukata inatambuliwa na nafasi ya kishale — elea juu ya sehemu unayotaka kuondoa na ubonyeze kukata.
+Amri ya `trim` huondoa sehemu ya [Line](../line/) inayolala kati ya nukta mbili za karibu za makutano, ikigawanya mstari katika sehemu moja au mbili fupi zaidi. Sehemu ya kukata inatambuliwa na nafasi ya kishale — elea juu ya sehemu unayotaka kuondoa na ubonyeze kukata.
 
-Trim inafanya kazi kwenye **vipande vya Line pekee**. Kwa arcs, circles, polylines, na aina nyingine za vipande tumia [Delete](./delete) au uhariri wa kushika badala yake.
+Trim inafanya kazi kwenye **vipande vya Line pekee**. Kwa arcs, circles, polylines, na aina nyingine za vipande tumia [Delete](../delete/) au uhariri wa kushika badala yake.
 
 ## Kukata mstari
 

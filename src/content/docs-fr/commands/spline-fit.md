@@ -7,7 +7,7 @@ keywords: [commande spline fit CAO, spline interpolante CAO, spline à travers p
 
 # Spline Fit
 
-La commande `splinefit` trace une spline cubique passant par chaque point que vous cliquez — une courbe interpolante. Contrairement à [Spline CV](./spline-cv), où la courbe est seulement attirée vers les sommets de contrôle, ici la courbe est forcée de toucher chaque coordonnée cliquée exactement. En interne, l'éditeur ajuste des sommets de contrôle pour y parvenir, et ces SC sont stockés avec les points d'interpolation dans le fichier DXF.
+La commande `splinefit` trace une spline cubique passant par chaque point que vous cliquez — une courbe interpolante. Contrairement à [Spline CV](../spline-cv/), où la courbe est seulement attirée vers les sommets de contrôle, ici la courbe est forcée de toucher chaque coordonnée cliquée exactement. En interne, l'éditeur ajuste des sommets de contrôle pour y parvenir, et ces SC sont stockés avec les points d'interpolation dans le fichier DXF.
 
 ## Tracer une spline par points d'interpolation
 
@@ -51,7 +51,7 @@ Une spline fit sélectionnée expose une poignée par point d'interpolation :
 
 Faire glisser une poignée re-ajuste toute la courbe, pas seulement les segments adjacents. Cela diffère de l'édition par poignée de polyligne, où déplacer un sommet ne reforme que les deux segments adjacents.
 
-Il n'y a pas de poignée "déplacer toute la spline". Pour translater toute la spline, utilisez la commande [Move](./move).
+Il n'y a pas de poignée "déplacer toute la spline". Pour translater toute la spline, utilisez la commande [Move](../move/).
 
 ## Sélectionner des splines fit
 
@@ -65,12 +65,12 @@ Il n'y a pas de poignée "déplacer toute la spline". Pour translater toute la s
 
 | Commande | Ce qui arrive à la spline |
 |----------|-----------------------------|
-| [Move](./move) | Translate tous les points d'interpolation et SC recalculés du même déplacement |
-| [Copy](./copy) | Crée une spline identique à une nouvelle position |
-| [Rotate](./rotate) | Fait pivoter tous les points d'interpolation autour du point de base choisi |
-| [Mirror](./mirror) | Symétrise tous les points d'interpolation par rapport à l'axe de symétrie |
-| [Scale](./scale) | Met à l'échelle tous les points d'interpolation uniformément depuis le point de base |
-| [Delete](./delete) | Supprime la spline |
+| [Move](../move/) | Translate tous les points d'interpolation et SC recalculés du même déplacement |
+| [Copy](../copy/) | Crée une spline identique à une nouvelle position |
+| [Rotate](../rotate/) | Fait pivoter tous les points d'interpolation autour du point de base choisi |
+| [Mirror](../mirror/) | Symétrise tous les points d'interpolation par rapport à l'axe de symétrie |
+| [Scale](../scale/) | Met à l'échelle tous les points d'interpolation uniformément depuis le point de base |
+| [Delete](../delete/) | Supprime la spline |
 
 Les splines ne supportent pas **Offset**, **Trim**, ni **Extend**.
 

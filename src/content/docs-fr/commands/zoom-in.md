@@ -41,6 +41,6 @@ Aucun raccourci clavier pour cette commande. Utilisez la molette de souris à la
 
 | Commande | Action |
 |----------|--------|
-| [Zoom Out](./zoom-out) | Divise le zoom par 1,5× par étape |
-| [Fit](./fit) | Réinitialise le zoom pour afficher toutes les entités |
-| [Pan](./pan) | Déplace le viewport sans zoomer |
+| [Zoom Out](../zoom-out/) | Divise le zoom par 1,5× par étape |
+| [Fit](../fit/) | Réinitialise le zoom pour afficher toutes les entités |
+| [Pan](../pan/) | Déplace le viewport sans zoomer |

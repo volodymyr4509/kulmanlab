@@ -7,7 +7,7 @@ keywords: [dimensi diameter CAD, dimdiameter, menganotasi diameter lingkaran, di
 
 # Dimension Diameter
 
-Perintah `dimdiameter` menempatkan dimensi diameter pada busur atau lingkaran. Garis dimensi merentang diameter penuh — melewati pusat antara dua titik busur yang berdiametral berlawanan — dan dilabeli `⌀ <nilai>`. Untuk menganotasi hanya radius dari pusat ke satu tepi, gunakan [Dimension Radius](./dim-radius).
+Perintah `dimdiameter` menempatkan dimensi diameter pada busur atau lingkaran. Garis dimensi merentang diameter penuh — melewati pusat antara dua titik busur yang berdiametral berlawanan — dan dilabeli `⌀ <nilai>`. Untuk menganotasi hanya radius dari pusat ke satu tepi, gunakan [Dimension Radius](../dim-radius/).
 
 ## Anatomi dimensi diameter
 

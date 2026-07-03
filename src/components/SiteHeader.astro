@@ -18,7 +18,7 @@ const REDDIT_URL = 'https://www.reddit.com/r/kulmanlab/';
 const homeUrl = localeUrl(lang, 'home');
 const faqUrl = localeUrl(lang, 'faq');
 const changelogUrl = localeUrl(lang, 'changelog');
-const docsUrl = lang === 'en' ? '/docs' : `/${lang}/docs`;
+const docsUrl = lang === 'en' ? '/docs/' : `/${lang}/docs/`;
 
 const link = (page: string) =>
   active === page

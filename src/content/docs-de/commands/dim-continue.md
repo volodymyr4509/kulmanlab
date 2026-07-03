@@ -51,7 +51,7 @@ Die Messrichtung der Kette ist **auf den Winkel der Basisbemaßung fixiert**:
 - Lineare Basis (V) → alle Fortsetzungen messen vertikalen Abstand (Δ Y).
 - Ausgerichtete Basis in beliebigem Winkel → alle Fortsetzungen messen entlang dieses Winkels.
 
-Die Richtung kann nicht mitten in der Kette geändert werden. Starten Sie eine neue [Dimension Linear](./dim-linear)- oder [Dimension Aligned](./dim-aligned)-Bemaßung, um in einer anderen Richtung zu bemaßen.
+Die Richtung kann nicht mitten in der Kette geändert werden. Starten Sie eine neue [Dimension Linear](../dim-linear/)- oder [Dimension Aligned](../dim-aligned/)-Bemaßung, um in einer anderen Richtung zu bemaßen.
 
 ## Tastaturübersicht
 

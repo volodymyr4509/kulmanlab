@@ -7,7 +7,7 @@ keywords: [CAD diameter dimension, dimdiameter, annotate circle diameter, arc di
 
 # Dimension Diameter
 
-The `dimdiameter` command places a diameter dimension on an arc or circle. The dimension line spans the full diameter — passing through the center between two diametrically opposite arc points — and is labeled `⌀ <value>`. To annotate just the radius from center to one edge, use [Dimension Radius](./dim-radius).
+The `dimdiameter` command places a diameter dimension on an arc or circle. The dimension line spans the full diameter — passing through the center between two diametrically opposite arc points — and is labeled `⌀ <value>`. To annotate just the radius from center to one edge, use [Dimension Radius](../dim-radius/).
 
 ## Anatomy of a diameter dimension
 

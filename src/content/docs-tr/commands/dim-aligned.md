@@ -7,7 +7,7 @@ keywords: [CAD dimension aligned, dimaligned, köşegen ölçü CAD, gerçek mes
 
 # Dimension Aligned
 
-`dimaligned` komutu, iki nokta arasındaki **gerçek düz çizgi mesafesini** ölçen bir ölçü yerleştirir. Ölçü çizgisi iki noktayı birleştiren çizgiye paralel uzanır, dolayısıyla herhangi bir açıda olabilir. Bu, yalnızca yatay veya dikeyle sınırlı olan [Dimension Linear](./dim-linear)'den temel farkıdır.
+`dimaligned` komutu, iki nokta arasındaki **gerçek düz çizgi mesafesini** ölçen bir ölçü yerleştirir. Ölçü çizgisi iki noktayı birleştiren çizgiye paralel uzanır, dolayısıyla herhangi bir açıda olabilir. Bu, yalnızca yatay veya dikeyle sınırlı olan [Dimension Linear](../dim-linear/)'den temel farkıdır.
 
 ## Hizalı Ölçünün Anatomisi
 
@@ -80,7 +80,7 @@ Tam referans için [Metin Düzenleyici — simple mode](../interface/text-editor
 
 ## Zincirleme Ölçüler
 
-Bu ölçünün ikinci uzatma çizgisinden devam eden ölçüler eklemek için [Dimension Continue](./dim-continue) kullanın — bu hizalı ölçüyle aynı ölçüm açısına kilitlenir.
+Bu ölçünün ikinci uzatma çizgisinden devam eden ölçüler eklemek için [Dimension Continue](../dim-continue/) kullanın — bu hizalı ölçüyle aynı ölçüm açısına kilitlenir.
 
 ## DXF — DIMENSION Nesnesi (hizalı tür)
 

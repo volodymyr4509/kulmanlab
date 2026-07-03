@@ -52,7 +52,7 @@ Spline CV yang dipilih memperlihatkan satu grip per control vertex:
 |------|----------|--------------|
 | **Control vertex** | Di setiap posisi CV | Seret untuk memindahkan CV tersebut — kurva membentuk ulang ke arah posisi baru |
 
-Tidak ada grip "pindahkan seluruh spline". Untuk menerjemahkan seluruh spline, gunakan perintah [Move](./move).
+Tidak ada grip "pindahkan seluruh spline". Untuk menerjemahkan seluruh spline, gunakan perintah [Move](../move/).
 
 ## Memilih spline CV
 
@@ -66,12 +66,12 @@ Tidak ada grip "pindahkan seluruh spline". Untuk menerjemahkan seluruh spline, g
 
 | Perintah | Apa yang terjadi pada spline |
 |---------|---------------------------|
-| [Move](./move) | Menerjemahkan semua control vertex dengan perpindahan yang sama |
-| [Copy](./copy) | Membuat spline identik di posisi baru |
-| [Rotate](./rotate) | Memutar semua CV di sekitar titik dasar yang dipilih |
-| [Mirror](./mirror) | Memantulkan semua CV melintasi sumbu cermin |
-| [Scale](./scale) | Menskalakan semua CV secara seragam dari titik dasar |
-| [Delete](./delete) | Menghapus spline |
+| [Move](../move/) | Menerjemahkan semua control vertex dengan perpindahan yang sama |
+| [Copy](../copy/) | Membuat spline identik di posisi baru |
+| [Rotate](../rotate/) | Memutar semua CV di sekitar titik dasar yang dipilih |
+| [Mirror](../mirror/) | Memantulkan semua CV melintasi sumbu cermin |
+| [Scale](../scale/) | Menskalakan semua CV secara seragam dari titik dasar |
+| [Delete](../delete/) | Menghapus spline |
 
 Spline tidak mendukung **Offset**, **Trim**, atau **Extend**.
 

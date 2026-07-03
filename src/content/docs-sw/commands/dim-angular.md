@@ -64,7 +64,7 @@ Angalia [Text Editor — hali rahisi](../interface/text-editor#simple-mode) kwa 
 
 ## Amri zinazohusiana
 
-- [Dimension Linear](./dim-linear) — kipimo cha usawa au wima
-- [Dimension Aligned](./dim-aligned) — kipimo kilichopangwa kwenye pointi mbili
-- [Dimension Radius](./dim-radius) — kipimo cha radi kwa miviringo na duara
-- [Dimension Diameter](./dim-diameter) — kipimo cha kipenyo kwa duara
+- [Dimension Linear](../dim-linear/) — kipimo cha usawa au wima
+- [Dimension Aligned](../dim-aligned/) — kipimo kilichopangwa kwenye pointi mbili
+- [Dimension Radius](../dim-radius/) — kipimo cha radi kwa miviringo na duara
+- [Dimension Diameter](../dim-diameter/) — kipimo cha kipenyo kwa duara

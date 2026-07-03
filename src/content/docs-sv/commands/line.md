@@ -7,7 +7,7 @@ keywords: [CAD linjekommando, rita rak linje CAD, kedja linjesegment, klipp linj
 
 # Line
 
-`line`-kommandot ritar enskilda raka linjesegment som sparas som separata `LINE`-entiteter i DXF-modellen. Kommandot förblir aktivt efter varje segment och återanvänder slutpunkten som ny startpunkt, så du kan skapa en sammankopplad väg ett segment i taget. Till skillnad från [Polyline](./polyline) förblir kedjade linjer fristående entiteter — var och en kan klippas, förlängas eller tas bort utan att påverka grannarna.
+`line`-kommandot ritar enskilda raka linjesegment som sparas som separata `LINE`-entiteter i DXF-modellen. Kommandot förblir aktivt efter varje segment och återanvänder slutpunkten som ny startpunkt, så du kan skapa en sammankopplad väg ett segment i taget. Till skillnad från [Polyline](../polyline/) förblir kedjade linjer fristående entiteter — var och en kan klippas, förlängas eller tas bort utan att påverka grannarna.
 
 ## Rita en linje
 
@@ -74,7 +74,7 @@ En markerad linje visar tre grepp:
 | **Midpoint** | Linjens mitt | Aktiverar **Move** för hela linjen |
 | **End** | Andra slutpunkten | Dra för att omplacera — starten förblir fast |
 
-Att sträcka ut en slutpunkt påverkar aldrig den andra. Detta skiljer sig från [Polyline](./polyline)-grippredigering, där att flytta en vertex omformar hela banan.
+Att sträcka ut en slutpunkt påverkar aldrig den andra. Detta skiljer sig från [Polyline](../polyline/)-grippredigering, där att flytta en vertex omformar hela banan.
 
 ## Markera linjer
 
@@ -86,19 +86,19 @@ Att sträcka ut en slutpunkt påverkar aldrig den andra. Detta skiljer sig från
 
 ## Kommandon som stöds för redigering
 
-Linjer är den **enda** entiteten som [Trim](./trim) och [Extend](./extend) verkar på. Alla standardtransformationskommandon gäller också:
+Linjer är den **enda** entiteten som [Trim](../trim/) och [Extend](../extend/) verkar på. Alla standardtransformationskommandon gäller också:
 
 | Kommando | Vad som händer med en linje |
 |---------|------------------------|
-| [Move](./move) | Förflyttar båda slutpunkterna med samma förskjutning |
-| [Copy](./copy) | Skapar en identisk linje på en ny position |
-| [Rotate](./rotate) | Roterar båda slutpunkterna runt den valda baspunkten |
-| [Mirror](./mirror) | Speglar båda slutpunkterna över spegelaxeln |
-| [Scale](./scale) | Skalar båda slutpunkterna enhetligt från baspunkten |
-| [Offset](./offset) | Skapar en parallell linje på ett fast vinkelrätt avstånd |
-| [Trim](./trim) | Klipper linjen vid skärningspunkter — **endast linjer** |
-| [Extend](./extend) | Sträcker den närmaste slutpunkten för att nå en gräns — **endast linjer** |
-| [Delete](./delete) | Tar bort linjen från ritningen |
+| [Move](../move/) | Förflyttar båda slutpunkterna med samma förskjutning |
+| [Copy](../copy/) | Skapar en identisk linje på en ny position |
+| [Rotate](../rotate/) | Roterar båda slutpunkterna runt den valda baspunkten |
+| [Mirror](../mirror/) | Speglar båda slutpunkterna över spegelaxeln |
+| [Scale](../scale/) | Skalar båda slutpunkterna enhetligt från baspunkten |
+| [Offset](../offset/) | Skapar en parallell linje på ett fast vinkelrätt avstånd |
+| [Trim](../trim/) | Klipper linjen vid skärningspunkter — **endast linjer** |
+| [Extend](../extend/) | Sträcker den närmaste slutpunkten för att nå en gräns — **endast linjer** |
+| [Delete](../delete/) | Tar bort linjen från ritningen |
 
 ## Egenskaper
 

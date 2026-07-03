@@ -64,7 +64,7 @@ Markup ਪੈਨਲ ਵਿੱਚ **Dimension Angular** ਟੂਲਬਾਰ ਬਟ
 
 ## ਸੰਬੰਧਿਤ ਕਮਾਂਡਾਂ
 
-- [Dimension Linear](./dim-linear) — ਹਰੀਜ਼ੌਂਟਲ ਜਾਂ ਵਰਟੀਕਲ ਡਾਇਮੈਂਸ਼ਨ
-- [Dimension Aligned](./dim-aligned) — ਦੋ ਬਿੰਦੂਆਂ ਨਾਲ ਅਲਾਈਨਡ ਡਾਇਮੈਂਸ਼ਨ
-- [Dimension Radius](./dim-radius) — ਆਰਕਾਂ ਅਤੇ ਸਰਕਲਾਂ ਲਈ ਰੇਡੀਅਸ ਡਾਇਮੈਂਸ਼ਨ
-- [Dimension Diameter](./dim-diameter) — ਸਰਕਲਾਂ ਲਈ ਡਾਇਆਮੀਟਰ ਡਾਇਮੈਂਸ਼ਨ
+- [Dimension Linear](../dim-linear/) — ਹਰੀਜ਼ੌਂਟਲ ਜਾਂ ਵਰਟੀਕਲ ਡਾਇਮੈਂਸ਼ਨ
+- [Dimension Aligned](../dim-aligned/) — ਦੋ ਬਿੰਦੂਆਂ ਨਾਲ ਅਲਾਈਨਡ ਡਾਇਮੈਂਸ਼ਨ
+- [Dimension Radius](../dim-radius/) — ਆਰਕਾਂ ਅਤੇ ਸਰਕਲਾਂ ਲਈ ਰੇਡੀਅਸ ਡਾਇਮੈਂਸ਼ਨ
+- [Dimension Diameter](../dim-diameter/) — ਸਰਕਲਾਂ ਲਈ ਡਾਇਆਮੀਟਰ ਡਾਇਮੈਂਸ਼ਨ

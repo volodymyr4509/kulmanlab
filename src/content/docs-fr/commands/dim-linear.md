@@ -7,7 +7,7 @@ keywords: [cote linéaire CAO, cote horizontale CAO, cote verticale CAO, dimline
 
 # Dimension Linear
 
-La commande `dimlinear` place une cote horizontale ou verticale entre deux origines de lignes d'extension. La ligne de cote est toujours parfaitement horizontale ou parfaitement verticale — elle ne peut pas être placée à un angle arbitraire. Utilisez [Dimension Aligned](./dim-aligned) quand vous avez besoin d'une cote parallèle à une ligne diagonale.
+La commande `dimlinear` place une cote horizontale ou verticale entre deux origines de lignes d'extension. La ligne de cote est toujours parfaitement horizontale ou parfaitement verticale — elle ne peut pas être placée à un angle arbitraire. Utilisez [Dimension Aligned](../dim-aligned/) quand vous avez besoin d'une cote parallèle à une ligne diagonale.
 
 ## Anatomie d'une cote linéaire
 
@@ -89,7 +89,7 @@ Voir [Éditeur de texte — simple mode](../interface/text-editor#simple-mode) p
 
 ## Enchaîner les cotes
 
-Pour ajouter d'autres cotes en continuant depuis la dernière ligne d'extension, utilisez [Dimension Continue](./dim-continue) immédiatement après avoir placé celle-ci.
+Pour ajouter d'autres cotes en continuant depuis la dernière ligne d'extension, utilisez [Dimension Continue](../dim-continue/) immédiatement après avoir placé celle-ci.
 
 ## DXF — entité DIMENSION
 

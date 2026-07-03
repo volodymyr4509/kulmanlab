@@ -52,7 +52,7 @@ Une spline SC sélectionnée expose une poignée par sommet de contrôle :
 |---------|----------|----------------|
 | **Sommet de contrôle** | À chaque position SC | Faites glisser pour déplacer ce SC — la courbe se reforme vers la nouvelle position |
 
-Il n'y a pas de poignée "déplacer toute la spline". Pour translater toute la spline, utilisez la commande [Move](./move).
+Il n'y a pas de poignée "déplacer toute la spline". Pour translater toute la spline, utilisez la commande [Move](../move/).
 
 ## Sélectionner des splines CV
 
@@ -66,12 +66,12 @@ Il n'y a pas de poignée "déplacer toute la spline". Pour translater toute la s
 
 | Commande | Ce qui arrive à la spline |
 |----------|-----------------------------|
-| [Move](./move) | Translate tous les sommets de contrôle du même déplacement |
-| [Copy](./copy) | Crée une spline identique à une nouvelle position |
-| [Rotate](./rotate) | Fait pivoter tous les SC autour du point de base choisi |
-| [Mirror](./mirror) | Symétrise tous les SC par rapport à l'axe de symétrie |
-| [Scale](./scale) | Met à l'échelle tous les SC uniformément depuis le point de base |
-| [Delete](./delete) | Supprime la spline |
+| [Move](../move/) | Translate tous les sommets de contrôle du même déplacement |
+| [Copy](../copy/) | Crée une spline identique à une nouvelle position |
+| [Rotate](../rotate/) | Fait pivoter tous les SC autour du point de base choisi |
+| [Mirror](../mirror/) | Symétrise tous les SC par rapport à l'axe de symétrie |
+| [Scale](../scale/) | Met à l'échelle tous les SC uniformément depuis le point de base |
+| [Delete](../delete/) | Supprime la spline |
 
 Les splines ne supportent pas **Offset**, **Trim**, ni **Extend**.
 

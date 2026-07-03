@@ -7,9 +7,9 @@ keywords: [CAD polyline Befehl, Polylinie zeichnen CAD, mehrsegmentiger Pfad CAD
 
 # Polyline
 
-Der Befehl `polyline` zeichnet einen verbundenen Pfad aus beliebig vielen geraden Segmenten, der als eine einzige `LWPOLYLINE`-Entität gespeichert wird. Da der gesamte Pfad ein Objekt ist, wählt das Auswählen alle Segmente gleichzeitig aus — verschieben, drehen oder skalieren Sie die gesamte Form in einem einzigen Vorgang. Dies ist der wesentliche Unterschied zu verketteten [Linien](./line), wo jedes Segment eine unabhängige Entität ist.
+Der Befehl `polyline` zeichnet einen verbundenen Pfad aus beliebig vielen geraden Segmenten, der als eine einzige `LWPOLYLINE`-Entität gespeichert wird. Da der gesamte Pfad ein Objekt ist, wählt das Auswählen alle Segmente gleichzeitig aus — verschieben, drehen oder skalieren Sie die gesamte Form in einem einzigen Vorgang. Dies ist der wesentliche Unterschied zu verketteten [Linien](../line/), wo jedes Segment eine unabhängige Entität ist.
 
-Polylinien können auch **geschlossen** werden: Der Befehl [Rectangle](./rectangle) verwendet dieselbe `LWPOLYLINE`-Entität mit einem gesetzten Schließen-Flag.
+Polylinien können auch **geschlossen** werden: Der Befehl [Rectangle](../rectangle/) verwendet dieselbe `LWPOLYLINE`-Entität mit einem gesetzten Schließen-Flag.
 
 ## Eine Polylinie zeichnen
 
@@ -39,7 +39,7 @@ Anstatt zu klicken, geben Sie eine genaue Position für jeden Scheitelpunkt ein:
 
 ## Winkelsperre und genaue Segmentlänge
 
-Dieselbe 45°-Einrastlogik wie beim Befehl [Line](./line#angle-locking-and-exact-length-input) gilt zwischen zwei aufeinanderfolgenden Punkten. Bei gesperrter Achse:
+Dieselbe 45°-Einrastlogik wie beim Befehl [Line](../line/#angle-locking-and-exact-length-input) gilt zwischen zwei aufeinanderfolgenden Punkten. Bei gesperrter Achse:
 
 | Taste | Aktion |
 |-------|--------|
@@ -70,9 +70,9 @@ Eine ausgewählte Polylinie zeigt zwei Arten von Griffpunkten:
 | **Scheitelpunkt** | An jedem platzierten Punkt | Ziehen zum Neupositionieren dieses Scheitelpunkts; alle verbundenen Segmente strecken sich mit |
 | **Segment-Mittelpunkt** | Mitte jedes Segments | Ziehen zum Verschieben **beider** Endpunkte dieses Segments zusammen, wobei Segmentlänge und Winkel erhalten bleiben |
 
-Der Segment-Mittelpunkt-Griffpunkt ist einzigartig für Polylinien — er ermöglicht das seitliche Verschieben eines einzelnen Segments ohne Längenänderung. Bei einer [Linie](./line) aktiviert der Mittelpunkt-Griffpunkt stattdessen den Move-Befehl für die gesamte Entität.
+Der Segment-Mittelpunkt-Griffpunkt ist einzigartig für Polylinien — er ermöglicht das seitliche Verschieben eines einzelnen Segments ohne Längenänderung. Bei einer [Linie](../line/) aktiviert der Mittelpunkt-Griffpunkt stattdessen den Move-Befehl für die gesamte Entität.
 
-Es gibt keinen einzelnen Griffpunkt zum „Verschieben der gesamten Polylinie". Um den gesamten Pfad zu verschieben, verwenden Sie den Befehl [Move](./move).
+Es gibt keinen einzelnen Griffpunkt zum „Verschieben der gesamten Polylinie". Um den gesamten Pfad zu verschieben, verwenden Sie den Befehl [Move](../move/).
 
 ## Polylinien auswählen
 
@@ -86,17 +86,17 @@ Da eine Polylinie eine Entität ist, wählt eine schneidende Auswahl, die ein be
 
 ## Unterstützte Bearbeitungsbefehle
 
-Polylinien unterstützen alle allgemeinen Transformationen und offset, aber **nicht** trim oder extend (diese sind nur für [Linie](./line)):
+Polylinien unterstützen alle allgemeinen Transformationen und offset, aber **nicht** trim oder extend (diese sind nur für [Linie](../line/)):
 
 | Befehl | Wirkung auf die Polylinie |
 |--------|--------------------------|
-| [Move](./move) | Verschiebt alle Scheitelpunkte um die gleiche Verschiebung |
-| [Copy](./copy) | Erstellt eine identische Polylinie an einer neuen Position |
-| [Rotate](./rotate) | Dreht alle Scheitelpunkte um den gewählten Basispunkt |
-| [Mirror](./mirror) | Spiegelt alle Scheitelpunkte über die Spiegelachse |
-| [Scale](./scale) | Skaliert alle Scheitelpunkte gleichmäßig vom Basispunkt aus |
-| [Offset](./offset) | Erstellt eine parallele Polylinie in einem festen senkrechten Abstand |
-| [Delete](./delete) | Entfernt die Polylinie aus der Zeichnung |
+| [Move](../move/) | Verschiebt alle Scheitelpunkte um die gleiche Verschiebung |
+| [Copy](../copy/) | Erstellt eine identische Polylinie an einer neuen Position |
+| [Rotate](../rotate/) | Dreht alle Scheitelpunkte um den gewählten Basispunkt |
+| [Mirror](../mirror/) | Spiegelt alle Scheitelpunkte über die Spiegelachse |
+| [Scale](../scale/) | Skaliert alle Scheitelpunkte gleichmäßig vom Basispunkt aus |
+| [Offset](../offset/) | Erstellt eine parallele Polylinie in einem festen senkrechten Abstand |
+| [Delete](../delete/) | Entfernt die Polylinie aus der Zeichnung |
 
 ## Eigenschaften
 
@@ -132,6 +132,6 @@ Wenn eine Polylinie ausgewählt ist, zeigt das Eigenschaftenpanel:
 
 ## DXF — LWPOLYLINE-Entität
 
-Polylinien werden als `LWPOLYLINE`-Entitäten in der DXF-Datei gespeichert. Alle Eigenschaften — Scheitelpunktkoordinaten, Schließen-Flag, Farbe, Layer, Linientyp, Linientypskala und Dicke — machen den Roundtrip verlustfrei. Mit dem Befehl [Rectangle](./rectangle) gezeichnete Rechtecke werden ebenfalls als `LWPOLYLINE` (geschlossen, vier Scheitelpunkte) gespeichert und sind auf DXF-Ebene nicht zu unterscheiden.
+Polylinien werden als `LWPOLYLINE`-Entitäten in der DXF-Datei gespeichert. Alle Eigenschaften — Scheitelpunktkoordinaten, Schließen-Flag, Farbe, Layer, Linientyp, Linientypskala und Dicke — machen den Roundtrip verlustfrei. Mit dem Befehl [Rectangle](../rectangle/) gezeichnete Rechtecke werden ebenfalls als `LWPOLYLINE` (geschlossen, vier Scheitelpunkte) gespeichert und sind auf DXF-Ebene nicht zu unterscheiden.
 
 `LWPOLYLINE`-Entitäten aus jeder DXF-kompatiblen Anwendung (LibreCAD, FreeCAD usw.) werden als vollständig bearbeitbare Polylinien im Editor eingelesen.

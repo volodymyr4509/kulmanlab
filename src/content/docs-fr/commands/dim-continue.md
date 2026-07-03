@@ -51,7 +51,7 @@ La direction de mesure de la chaîne est **fixée à l'angle de la cote de base*
 - Base linéaire (V) → toutes les continuations mesurent la distance verticale (Δ Y).
 - Base alignée à tout angle → toutes les continuations mesurent le long de ce même angle.
 
-Vous ne pouvez pas changer la direction au milieu d'une chaîne. Démarrez une nouvelle [Dimension Linear](./dim-linear) ou [Dimension Aligned](./dim-aligned) pour coter dans une direction différente.
+Vous ne pouvez pas changer la direction au milieu d'une chaîne. Démarrez une nouvelle [Dimension Linear](../dim-linear/) ou [Dimension Aligned](../dim-aligned/) pour coter dans une direction différente.
 
 ## Référence clavier
 

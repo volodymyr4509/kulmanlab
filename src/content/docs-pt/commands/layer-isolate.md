@@ -7,7 +7,7 @@ keywords: [layer isolate, congelar camadas CAD, isolar camada kulmanlab, gerenci
 
 # LayerIsolate
 
-O comando `LayerIsolate` congela todas as camadas **exceto** as pertencentes aos objetos selecionados. Use-o para focar rapidamente em geometria específica sem ocultar ou excluir nada permanentemente — descongele com [LayerUnfreezeAll](./layer-unfreeze-all) quando terminar.
+O comando `LayerIsolate` congela todas as camadas **exceto** as pertencentes aos objetos selecionados. Use-o para focar rapidamente em geometria específica sem ocultar ou excluir nada permanentemente — descongele com [LayerUnfreezeAll](../layer-unfreeze-all/) quando terminar.
 
 ## Duas formas de começar
 
@@ -39,4 +39,4 @@ O comando `LayerIsolate` congela todas as camadas **exceto** as pertencentes aos
 
 ## Desfazer o isolamento
 
-Execute [LayerUnfreezeAll](./layer-unfreeze-all) para restaurar todas as camadas para visível num único passo.
+Execute [LayerUnfreezeAll](../layer-unfreeze-all/) para restaurar todas as camadas para visível num único passo.

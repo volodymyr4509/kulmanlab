@@ -64,7 +64,7 @@ Markup पैनल में **Dimension Angular** टूलबार बटन
 
 ## संबंधित कमांड
 
-- [Dimension Linear](./dim-linear) — क्षैतिज या ऊर्ध्वाधर माप
-- [Dimension Aligned](./dim-aligned) — दो बिंदुओं पर संरेखित माप
-- [Dimension Radius](./dim-radius) — चाप और वृत्त के लिए त्रिज्या माप
-- [Dimension Diameter](./dim-diameter) — वृत्त के लिए व्यास माप
+- [Dimension Linear](../dim-linear/) — क्षैतिज या ऊर्ध्वाधर माप
+- [Dimension Aligned](../dim-aligned/) — दो बिंदुओं पर संरेखित माप
+- [Dimension Radius](../dim-radius/) — चाप और वृत्त के लिए त्रिज्या माप
+- [Dimension Diameter](../dim-diameter/) — वृत्त के लिए व्यास माप

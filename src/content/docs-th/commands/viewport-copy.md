@@ -56,4 +56,4 @@ keywords: [viewport copy, ทำสำเนา viewport, คัดลอก vie
 
 - ViewportCopy พร้อมใช้เฉพาะเมื่อแท็บเลย์เอาต์กระดาษทำงานอยู่
 - viewport ที่คัดลอกสืบทอดสเกล ศูนย์กลางโมเดล สถานะล็อก และขนาดเดียวกับต้นฉบับ
-- หากต้องการสร้าง viewport ใหม่ตั้งแต่ต้น ให้ใช้ [ViewportRectangle](./viewport-rectangle)
+- หากต้องการสร้าง viewport ใหม่ตั้งแต่ต้น ให้ใช้ [ViewportRectangle](../viewport-rectangle/)

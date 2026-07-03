@@ -7,7 +7,7 @@ keywords: [CAD comando rectangle, desenhar retângulo CAD, retângulo alinhado a
 
 # Rectangle
 
-O comando `rectangle` desenha um retângulo alinhado aos eixos definido por dois cliques em cantos opostos. O resultado é armazenado como uma **`LWPOLYLINE` fechada** com quatro vértices — um em cada canto. Não existe um tipo de entidade retângulo dedicado: após a criação a forma se comporta exatamente como qualquer outra [Polilinha](./polyline) e cada edição de polilinha se aplica a ela.
+O comando `rectangle` desenha um retângulo alinhado aos eixos definido por dois cliques em cantos opostos. O resultado é armazenado como uma **`LWPOLYLINE` fechada** com quatro vértices — um em cada canto. Não existe um tipo de entidade retângulo dedicado: após a criação a forma se comporta exatamente como qualquer outra [Polilinha](../polyline/) e cada edição de polilinha se aplica a ela.
 
 ## Desenhando um retângulo
 
@@ -58,17 +58,17 @@ Arrastar um grip de canto transforma o retângulo em um quadrilátero não retan
 
 ## Comandos de edição suportados
 
-Todos os comandos de edição de polilinhas se aplicam. Trim e Extend são apenas para [Linha](./line) e não funcionam em retângulos:
+Todos os comandos de edição de polilinhas se aplicam. Trim e Extend são apenas para [Linha](../line/) e não funcionam em retângulos:
 
 | Comando | O que acontece com o retângulo |
 |---------|-------------------------------|
-| [Move](./move) | Translada todos os quatro vértices pelo mesmo deslocamento |
-| [Copy](./copy) | Cria um retângulo idêntico em uma nova posição |
-| [Rotate](./rotate) | Rotaciona todos os quatro vértices ao redor do ponto base escolhido |
-| [Mirror](./mirror) | Reflete todos os quatro vértices em relação ao eixo espelho |
-| [Scale](./scale) | Escala todos os quatro vértices uniformemente a partir do ponto base |
-| [Offset](./offset) | Cria um retângulo paralelo (interno ou externo) a uma distância fixa |
-| [Delete](./delete) | Remove o retângulo do desenho |
+| [Move](../move/) | Translada todos os quatro vértices pelo mesmo deslocamento |
+| [Copy](../copy/) | Cria um retângulo idêntico em uma nova posição |
+| [Rotate](../rotate/) | Rotaciona todos os quatro vértices ao redor do ponto base escolhido |
+| [Mirror](../mirror/) | Reflete todos os quatro vértices em relação ao eixo espelho |
+| [Scale](../scale/) | Escala todos os quatro vértices uniformemente a partir do ponto base |
+| [Offset](../offset/) | Cria um retângulo paralelo (interno ou externo) a uma distância fixa |
+| [Delete](../delete/) | Remove o retângulo do desenho |
 
 ## Rectangle vs Polilinha vs Linha
 

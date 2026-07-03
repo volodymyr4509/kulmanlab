@@ -7,7 +7,7 @@ keywords: [CAD quota lineare, quota orizzontale CAD, quota verticale CAD, dimlin
 
 # Dimension Linear
 
-Il comando `dimlinear` posiziona una quota orizzontale o verticale tra due origini delle linee di estensione. La linea di quota va sempre perfettamente in orizzontale o in verticale — non può essere posizionata a un angolo arbitrario. Usa [Dimension Aligned](./dim-aligned) quando hai bisogno di una quota parallela a una linea diagonale.
+Il comando `dimlinear` posiziona una quota orizzontale o verticale tra due origini delle linee di estensione. La linea di quota va sempre perfettamente in orizzontale o in verticale — non può essere posizionata a un angolo arbitrario. Usa [Dimension Aligned](../dim-aligned/) quando hai bisogno di una quota parallela a una linea diagonale.
 
 ## Anatomia di una quota lineare
 
@@ -89,7 +89,7 @@ Vedi [Editor di Testo — simple mode](../interface/text-editor#simple-mode) per
 
 ## Concatenamento quote
 
-Per aggiungere altre quote continuando dall'ultima linea di estensione, usa [Dimension Continue](./dim-continue) subito dopo aver posizionato questa.
+Per aggiungere altre quote continuando dall'ultima linea di estensione, usa [Dimension Continue](../dim-continue/) subito dopo aver posizionato questa.
 
 ## DXF — entità DIMENSION
 

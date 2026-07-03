@@ -46,7 +46,7 @@ Khi nhập tệp, dấu thời gian được thêm vào tên tệp. Bản vẽ t
 
 ## Điều gì xảy ra với bản vẽ hiện tại
 
-Nhập thay thế canvas hiện tại. Không có tính năng hợp nhất hoặc thêm vào. Nếu bạn có thay đổi chưa lưu, hãy [xuất](./export) bản vẽ hiện tại trước.
+Nhập thay thế canvas hiện tại. Không có tính năng hợp nhất hoặc thêm vào. Nếu bạn có thay đổi chưa lưu, hãy [xuất](../export/) bản vẽ hiện tại trước.
 
 ## Xử lý sự cố
 
@@ -57,6 +57,6 @@ Nhập thay thế canvas hiện tại. Không có tính năng hợp nhất hoặ
 
 ## Các lệnh liên quan
 
-- [Xuất](./export) — tải bản vẽ hiện tại dưới dạng DXF hoặc JSON
-- [Tệp](./files) — duyệt và khôi phục bản vẽ đã lưu trong trình duyệt
-- [Tệp Mới](./new-file) — bắt đầu bản vẽ trắng
+- [Xuất](../export/) — tải bản vẽ hiện tại dưới dạng DXF hoặc JSON
+- [Tệp](../files/) — duyệt và khôi phục bản vẽ đã lưu trong trình duyệt
+- [Tệp Mới](../new-file/) — bắt đầu bản vẽ trắng

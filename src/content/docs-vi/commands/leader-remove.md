@@ -32,5 +32,5 @@ Lệnh vẫn hoạt động sau khi xóa — bạn có thể ngay lập tức nh
 
 | Lệnh | Tác dụng |
 |------|---------|
-| [Đường Dẫn](./leader) | Tạo đường dẫn đa mới |
-| [Leader+](./leader-add) | Thêm cánh tay vào đường dẫn đa hiện có |
+| [Đường Dẫn](../leader/) | Tạo đường dẫn đa mới |
+| [Leader+](../leader-add/) | Thêm cánh tay vào đường dẫn đa hiện có |

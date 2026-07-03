@@ -7,7 +7,7 @@ keywords: [CAD spline fit command, interpolating spline CAD, spline through poin
 
 # Spline Fit
 
-The `splinefit` command draws a cubic spline that passes through every point you click — an interpolating curve. Unlike [Spline CV](./spline-cv), where the curve is only attracted toward control vertices, here the curve is forced to hit each clicked coordinate exactly. Internally the editor fits control vertices to achieve this, and those CVs are stored alongside the fit points in the DXF file.
+The `splinefit` command draws a cubic spline that passes through every point you click — an interpolating curve. Unlike [Spline CV](../spline-cv/), where the curve is only attracted toward control vertices, here the curve is forced to hit each clicked coordinate exactly. Internally the editor fits control vertices to achieve this, and those CVs are stored alongside the fit points in the DXF file.
 
 ## Drawing a spline through fit points
 
@@ -51,7 +51,7 @@ A selected fit spline exposes one grip per fit point:
 
 Dragging one grip re-fits the whole curve, not just the adjacent segments. This differs from polyline grip editing, where moving a vertex only reshapes the two adjacent segments.
 
-There is no "move whole spline" grip. To translate the entire spline, use the [Move](./move) command.
+There is no "move whole spline" grip. To translate the entire spline, use the [Move](../move/) command.
 
 ## Selecting fit splines
 
@@ -65,12 +65,12 @@ There is no "move whole spline" grip. To translate the entire spline, use the [M
 
 | Command | What happens to the spline |
 |---------|---------------------------|
-| [Move](./move) | Translates all fit points and recomputed CVs by the same displacement |
-| [Copy](./copy) | Creates an identical spline at a new position |
-| [Rotate](./rotate) | Rotates all fit points around the chosen base point |
-| [Mirror](./mirror) | Reflects all fit points across the mirror axis |
-| [Scale](./scale) | Scales all fit points uniformly from the base point |
-| [Delete](./delete) | Removes the spline |
+| [Move](../move/) | Translates all fit points and recomputed CVs by the same displacement |
+| [Copy](../copy/) | Creates an identical spline at a new position |
+| [Rotate](../rotate/) | Rotates all fit points around the chosen base point |
+| [Mirror](../mirror/) | Reflects all fit points across the mirror axis |
+| [Scale](../scale/) | Scales all fit points uniformly from the base point |
+| [Delete](../delete/) | Removes the spline |
 
 Splines do not support **Offset**, **Trim**, or **Extend**.
 

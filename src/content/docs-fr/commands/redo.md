@@ -7,7 +7,7 @@ keywords: [commande redo CAO, rétablir historique CAO, réappliquer action CAO,
 
 # Redo
 
-La commande `redo` avance dans l'historique des annulations, rétablissant les actions qui ont été inversées par [Undo](./undo). Redo n'est disponible que quand vous avez reculé avec Undo et n'avez pas encore fait un nouveau changement.
+La commande `redo` avance dans l'historique des annulations, rétablissant les actions qui ont été inversées par [Undo](../undo/). Redo n'est disponible que quand vous avez reculé avec Undo et n'avez pas encore fait un nouveau changement.
 
 ## Comment rétablir
 
@@ -20,7 +20,7 @@ Chaque invocation rétablit une action précédemment annulée. Invoquez-la à p
 
 | Détail | Comportement |
 |--------|-------------|
-| Disponible après | Un ou plusieurs pas [Undo](./undo) |
+| Disponible après | Un ou plusieurs pas [Undo](../undo/) |
 | Effacé par | **Toute nouvelle action de dessin** — ajouter, modifier ou supprimer une entité |
 | Stockage | Navigateur, par fichier — survit au rechargement de page (tant qu'aucune nouvelle action n'a été faite avant le rechargement) |
 | Profondeur maximale | Jusqu'à 20 entrées (même pool qu'Undo) |
@@ -35,4 +35,4 @@ Une fois qu'une nouvelle entité est tracée, supprimée ou modifiée, la pile d
 | Disponible quand | Après au moins un Undo, sans nouvelle action effectuée | Au moins une action enregistrée existe |
 | Effacé par | Toute nouvelle action de dessin | Rien |
 
-Le bouton Redo de la barre d'outils est grisé quand il n'y a pas d'entrées à rétablir. Utilisez [Undo](./undo) d'abord pour créer des entrées de rétablissement.
+Le bouton Redo de la barre d'outils est grisé quand il n'y a pas d'entrées à rétablir. Utilisez [Undo](../undo/) d'abord pour créer des entrées de rétablissement.

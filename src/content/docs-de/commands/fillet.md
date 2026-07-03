@@ -7,7 +7,7 @@ keywords: [CAD-Fillet-Befehl, Ecke abrunden CAD, Fillet-Bogen, Tangentenbogen zw
 
 # Fillet
 
-Der `fillet`-Befehl rundet die Ecke zwischen zwei [Line](./line)-Elementen ab, indem er einen Tangentenbogen des angegebenen Radius einfügt und jede Linie bis zum Punkt zurückschneidet, an dem der Bogen beginnt. Das Ergebnis ist eine glatte, abgerundete Ecke, die beide Linien verbindet.
+Der `fillet`-Befehl rundet die Ecke zwischen zwei [Line](../line/)-Elementen ab, indem er einen Tangentenbogen des angegebenen Radius einfügt und jede Linie bis zum Punkt zurückschneidet, an dem der Bogen beginnt. Das Ergebnis ist eine glatte, abgerundete Ecke, die beide Linien verbindet.
 
 Fillet funktioniert **nur mit Line-Elementen**.
 

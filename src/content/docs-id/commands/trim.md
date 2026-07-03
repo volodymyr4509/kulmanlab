@@ -7,9 +7,9 @@ keywords: [perintah potong CAD, memotong garis CAD, potong perpotongan garis, pr
 
 # Trim
 
-Perintah `trim` menghapus bagian dari [Line](./line) yang terletak di antara dua titik perpotongan yang berdekatan, memisahkan garis menjadi satu atau dua segmen yang lebih pendek. Segmen yang akan dipotong ditentukan oleh posisi kursor — arahkan kursor ke bagian yang ingin dihapus dan klik untuk memotongnya.
+Perintah `trim` menghapus bagian dari [Line](../line/) yang terletak di antara dua titik perpotongan yang berdekatan, memisahkan garis menjadi satu atau dua segmen yang lebih pendek. Segmen yang akan dipotong ditentukan oleh posisi kursor — arahkan kursor ke bagian yang ingin dihapus dan klik untuk memotongnya.
 
-Trim hanya bekerja pada **entitas Line**. Untuk busur, lingkaran, polyline, dan tipe entitas lainnya, gunakan [Delete](./delete) atau pengeditan grip.
+Trim hanya bekerja pada **entitas Line**. Untuk busur, lingkaran, polyline, dan tipe entitas lainnya, gunakan [Delete](../delete/) atau pengeditan grip.
 
 ## Memotong garis
 

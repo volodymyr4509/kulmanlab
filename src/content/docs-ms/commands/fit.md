@@ -44,6 +44,6 @@ Tiada pintasan papan kekunci untuk arahan ini. Gunakan pintasan **klik dua kali 
 
 | Arahan | Fungsinya |
 |--------|-----------|
-| [Pan](./pan) | Menggeser viewport tanpa zum |
-| [Zoom In](./zoom-in) | Mendarab zum dengan 1.5× setiap langkah |
-| [Zoom Out](./zoom-out) | Membahagi zum dengan 1.5× setiap langkah |
+| [Pan](../pan/) | Menggeser viewport tanpa zum |
+| [Zoom In](../zoom-in/) | Mendarab zum dengan 1.5× setiap langkah |
+| [Zoom Out](../zoom-out/) | Membahagi zum dengan 1.5× setiap langkah |

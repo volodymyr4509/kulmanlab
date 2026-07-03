@@ -47,4 +47,4 @@ Dopo aver posizionato una finestra di visualizzazione, clicca su di essa per sel
 ## Note
 
 - ViewportRectangle è disponibile solo quando una scheda di layout carta è attiva. Eseguirlo nello spazio modello mostra un messaggio di errore e termina.
-- Per copiare una finestra di visualizzazione esistente, usa [ViewportCopy](./viewport-copy).
+- Per copiare una finestra di visualizzazione esistente, usa [ViewportCopy](../viewport-copy/).

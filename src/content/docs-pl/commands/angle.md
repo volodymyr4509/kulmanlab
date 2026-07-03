@@ -7,7 +7,7 @@ keywords: [pomiar kąta CAD, kąt przez trzy punkty, kąt wewnętrzny CAD, polec
 
 # Kąt
 
-Polecenie `angle` mierzy kąt wewnętrzny w wierzchołku utworzonym przez dwa odcinki linii przechodzące przez trzy kliknięte punkty. Wynik — zawsze między 0° a 180° — wyświetlany jest w terminalu z dokładnością do 4 miejsc po przecinku. Jest to jedno z dwóch poleceń pomiarowych — [Odległość](./distance) mierzy zamiast tego długość prostoliniową.
+Polecenie `angle` mierzy kąt wewnętrzny w wierzchołku utworzonym przez dwa odcinki linii przechodzące przez trzy kliknięte punkty. Wynik — zawsze między 0° a 180° — wyświetlany jest w terminalu z dokładnością do 4 miejsc po przecinku. Jest to jedno z dwóch poleceń pomiarowych — [Odległość](../distance/) mierzy zamiast tego długość prostoliniową.
 
 ## Anatomia pomiaru kąta
 

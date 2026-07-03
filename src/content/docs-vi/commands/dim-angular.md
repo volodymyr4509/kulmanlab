@@ -62,7 +62,7 @@ Xem [Trình Soạn Thảo Văn Bản — chế độ đơn giản](../interface/
 
 ## Các lệnh liên quan
 
-- [Kích Thước Tuyến Tính](./dim-linear) — kích thước ngang hoặc dọc
-- [Kích Thước Căn Chỉnh](./dim-aligned) — kích thước căn chỉnh theo hai điểm
-- [Kích Thước Bán Kính](./dim-radius) — kích thước bán kính cho cung và hình tròn
-- [Kích Thước Đường Kính](./dim-diameter) — kích thước đường kính cho hình tròn
+- [Kích Thước Tuyến Tính](../dim-linear/) — kích thước ngang hoặc dọc
+- [Kích Thước Căn Chỉnh](../dim-aligned/) — kích thước căn chỉnh theo hai điểm
+- [Kích Thước Bán Kính](../dim-radius/) — kích thước bán kính cho cung và hình tròn
+- [Kích Thước Đường Kính](../dim-diameter/) — kích thước đường kính cho hình tròn

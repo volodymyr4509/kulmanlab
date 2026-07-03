@@ -28,8 +28,8 @@ La façon la plus rapide de déplacer : **maintenez le bouton central de la sour
 | Glisser clic central | Déplace le viewport | Non — fonctionne toujours |
 | Molette de défilement | Zoom vers/depuis le curseur | Non — fonctionne toujours |
 | Double clic bouton central | Ajuster toutes les entités | Non — fonctionne toujours |
-| [Zoom In](./zoom-in) / [Zoom Out](./zoom-out) | Applique le zoom par pas de 1,5× | Non |
-| [Fit](./fit) | Ajuste toutes les entités dans la vue | Non |
+| [Zoom In](../zoom-in/) / [Zoom Out](../zoom-out/) | Applique le zoom par pas de 1,5× | Non |
+| [Fit](../fit/) | Ajuste toutes les entités dans la vue | Non |
 
 ## Référence clavier
 
@@ -40,5 +40,5 @@ La façon la plus rapide de déplacer : **maintenez le bouton central de la sour
 ## Conseils
 
 - Utilisez la molette de défilement pour zoomer vers une zone cible, puis déplacez pour ajuster la position.
-- **Double clic avec le bouton central de la souris** active [Fit](./fit) instantanément — la façon la plus rapide de retrouver une vue perdue.
+- **Double clic avec le bouton central de la souris** active [Fit](../fit/) instantanément — la façon la plus rapide de retrouver une vue perdue.
 - Si vous êtes au milieu d'une commande (ex. en plaçant un point final de ligne), glissez avec le clic central pour déplacer sans annuler la commande.

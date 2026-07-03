@@ -7,7 +7,7 @@ keywords: [CAD dimensi jejari, dimradius, anotasi jejari bulatan, dimensi jejari
 
 # Dimension Radius
 
-Arahan `dimradius` meletakkan dimensi jejari pada lengkok atau bulatan. Garis dimensi berjalan dari pusat ke titik pada lilitan dalam arah kursor, berlabel `R <nilai>`. Untuk mendimensikan diameter penuh sebaliknya, gunakan [Dimension Diameter](./dim-diameter).
+Arahan `dimradius` meletakkan dimensi jejari pada lengkok atau bulatan. Garis dimensi berjalan dari pusat ke titik pada lilitan dalam arah kursor, berlabel `R <nilai>`. Untuk mendimensikan diameter penuh sebaliknya, gunakan [Dimension Diameter](../dim-diameter/).
 
 ## Anatomi dimensi jejari
 

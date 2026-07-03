@@ -59,5 +59,5 @@ keywords: [مطابقة خصائص CAD, نسخ خصائص عناصر, MATCHPROP,
 
 ## الأوامر ذات الصلة
 
-- [LayerMatch](./layer-match) — نقل العناصر المحددة إلى الطبقة ذاتها كمصدر (خاصية الطبقة فقط)
-- [LayerMakeCurrent](./layer-make-current) — تعيين طبقة الرسم الحالية من عنصر منقور
+- [LayerMatch](../layer-match/) — نقل العناصر المحددة إلى الطبقة ذاتها كمصدر (خاصية الطبقة فقط)
+- [LayerMakeCurrent](../layer-make-current/) — تعيين طبقة الرسم الحالية من عنصر منقور

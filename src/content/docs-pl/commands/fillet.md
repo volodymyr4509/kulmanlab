@@ -7,7 +7,7 @@ keywords: [polecenie zaokrąglenia CAD, zaokrąglanie narożnika CAD, łuk zaokr
 
 # Zaokrąglenie
 
-Polecenie `fillet` zaokrągla narożnik między dwoma elementami [Linia](./line), wstawiając łuk styczny o podanym promieniu i przycinając każdą linię do punktu, gdzie zaczyna się łuk. Wynikiem jest gładki, zaokrąglony narożnik łączący obie linie.
+Polecenie `fillet` zaokrągla narożnik między dwoma elementami [Linia](../line/), wstawiając łuk styczny o podanym promieniu i przycinając każdą linię do punktu, gdzie zaczyna się łuk. Wynikiem jest gładki, zaokrąglony narożnik łączący obie linie.
 
 Zaokrąglenie działa **tylko na elementach Linia**.
 

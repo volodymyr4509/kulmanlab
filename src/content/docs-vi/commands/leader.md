@@ -38,8 +38,8 @@ Xem [Trình Soạn Thảo Văn Bản — chế độ phong phú](../interface/te
 
 ## Thêm và xóa cánh tay
 
-- Để thêm cánh tay mũi tên phụ vào đường dẫn hiện có: [Leader+](./leader-add)
-- Để xóa một cánh tay khỏi đường dẫn có từ hai cánh tay trở lên: [Leader−](./leader-remove)
+- Để thêm cánh tay mũi tên phụ vào đường dẫn hiện có: [Leader+](../leader-add/)
+- Để xóa một cánh tay khỏi đường dẫn có từ hai cánh tay trở lên: [Leader−](../leader-remove/)
 
 ## Tham khảo phím tắt
 

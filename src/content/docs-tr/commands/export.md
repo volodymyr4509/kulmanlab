@@ -45,7 +45,7 @@ Yalnızca geometri nesneleri dahildir:
 - Çizgiler, daireler, yaylar, elipsler, çoklu çizgiler (`LWPOLYLINE` olarak dışa aktarılır), spline'lar, metinler
 - Katman tanımları ve çizgi türü tabloları
 
-**DXF'e dahil edilmeyenler:** ölçü nesneleri ve çoklu göstergeler. Bunlar, standart DXF'de sadakatle temsil edilemeyen KulmanLab'a özgü veri yapıları kullanır. Çiziminizde ek açıklamalar varsa, bunları görsel olarak yakalamak için JSON veya [Print](./print) kullanın.
+**DXF'e dahil edilmeyenler:** ölçü nesneleri ve çoklu göstergeler. Bunlar, standart DXF'de sadakatle temsil edilemeyen KulmanLab'a özgü veri yapıları kullanır. Çiziminizde ek açıklamalar varsa, bunları görsel olarak yakalamak için JSON veya [Print](../print/) kullanın.
 
 ## Dışa Aktarılan Dosya Adı
 
@@ -60,10 +60,10 @@ Yalnızca geometri nesneleri dahildir:
 | Katmanları ve çizgi türlerini korur | Evet | Hayır (düz olarak işlenir) |
 | Ölçüleri ve göstergeleri yakalar | Yalnızca JSON | Evet |
 
-Düzenlenebilir bir dosyaya ihtiyacınız olduğunda **Export** kullanın. Görsel bir anlık görüntüye ihtiyacınız olduğunda [Print](./print) kullanın.
+Düzenlenebilir bir dosyaya ihtiyacınız olduğunda **Export** kullanın. Görsel bir anlık görüntüye ihtiyacınız olduğunda [Print](../print/) kullanın.
 
 ## İlgili Komutlar
 
-- [Import](./import) — DXF veya JSON dosyası açar
-- [Print](./print) — tuvali PNG, JPEG, WebP veya PDF görüntüsü olarak dışa aktarır
-- [Files](./files) — tarayıcı deposuna kaydedilmiş çizimlere göz atar
+- [Import](../import/) — DXF veya JSON dosyası açar
+- [Print](../print/) — tuvali PNG, JPEG, WebP veya PDF görüntüsü olarak dışa aktarır
+- [Files](../files/) — tarayıcı deposuna kaydedilmiş çizimlere göz atar

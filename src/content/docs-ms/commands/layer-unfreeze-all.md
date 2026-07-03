@@ -15,7 +15,7 @@ Taip `LayerUnfreezeAll` dalam terminal atau klik butang bar alat **Unfreeze All*
 
 ## Bila digunakan
 
-Biasanya digunakan selepas [LayerIsolate](./layer-isolate) untuk memulihkan semua lapisan ke keadaan kelihatan normal mereka.
+Biasanya digunakan selepas [LayerIsolate](../layer-isolate/) untuk memulihkan semua lapisan ke keadaan kelihatan normal mereka.
 
 ## Butiran tingkah laku
 

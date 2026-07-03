@@ -75,12 +75,12 @@ Eine ausgewählte Textbeschriftung zeigt einen Griffpunkt am Ankerpunkt:
 
 | Befehl | Auswirkung auf den Text |
 |--------|------------------------|
-| [Move](./move) | Verschiebt den Ankerpunkt |
-| [Copy](./copy) | Erstellt eine identische Beschriftung an einer neuen Position |
-| [Rotate](./rotate) | Dreht die Ankerposition und addiert den Winkel zu Rotationsgrad |
-| [Mirror](./mirror) | Spiegelt den Ankerpunkt an der Spiegelachse (die Textzeichenkette wird nicht umgekehrt) |
-| [Scale](./scale) | Skaliert die Ankerposition und multipliziert die Höhe mit dem Skalierungsfaktor |
-| [Delete](./delete) | Entfernt die Beschriftung |
+| [Move](../move/) | Verschiebt den Ankerpunkt |
+| [Copy](../copy/) | Erstellt eine identische Beschriftung an einer neuen Position |
+| [Rotate](../rotate/) | Dreht die Ankerposition und addiert den Winkel zu Rotationsgrad |
+| [Mirror](../mirror/) | Spiegelt den Ankerpunkt an der Spiegelachse (die Textzeichenkette wird nicht umgekehrt) |
+| [Scale](../scale/) | Skaliert die Ankerposition und multipliziert die Höhe mit dem Skalierungsfaktor |
+| [Delete](../delete/) | Entfernt die Beschriftung |
 
 Text unterstützt weder **Offset**, **Trim** noch **Extend**.
 

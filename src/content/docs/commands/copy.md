@@ -7,7 +7,7 @@ keywords: [CAD copy command, duplicate entities CAD, copy objects CAD, clone geo
 
 # Copy
 
-The `copy` command creates translated duplicates of selected entities and places them offset from a base point to a destination — the originals stay exactly where they are. This is the one key difference from [Move](./move): Copy adds new entities to the drawing; Move relocates existing ones.
+The `copy` command creates translated duplicates of selected entities and places them offset from a base point to a destination — the originals stay exactly where they are. This is the one key difference from [Move](../move/): Copy adds new entities to the drawing; Move relocates existing ones.
 
 ## Two ways to start
 

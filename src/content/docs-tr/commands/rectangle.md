@@ -7,7 +7,7 @@ keywords: [CAD rectangle komutu, dikdörtgen çiz CAD, eksenlere paralel dikdör
 
 # Rectangle
 
-`rectangle` komutu, iki karşıt köşe tıklamasıyla tanımlanan eksenlere paralel dikdörtgen çizer. Sonuç, dört köşede birer köşe noktası olan **kapalı `LWPOLYLINE`** olarak saklanır. Ayrılmış bir dikdörtgen nesne türü yoktur: oluşturulduktan sonra şekil, diğer [Çoklu Çizgi](./polyline) gibi tam olarak davranır ve her çoklu çizgi düzenlemesi ona uygulanır.
+`rectangle` komutu, iki karşıt köşe tıklamasıyla tanımlanan eksenlere paralel dikdörtgen çizer. Sonuç, dört köşede birer köşe noktası olan **kapalı `LWPOLYLINE`** olarak saklanır. Ayrılmış bir dikdörtgen nesne türü yoktur: oluşturulduktan sonra şekil, diğer [Çoklu Çizgi](../polyline/) gibi tam olarak davranır ve her çoklu çizgi düzenlemesi ona uygulanır.
 
 ## Dikdörtgen Çizimi
 
@@ -68,17 +68,17 @@ Dikdörtgen bir çoklu çizgi olduğundan, seçim aynı şekilde çalışır:
 
 ## Desteklenen Düzenleme Komutları
 
-Tüm çoklu çizgi düzenleme komutları geçerlidir. Trim ve Extend yalnızca [Çizgi](./line) için olup dikdörtgenlerde çalışmaz:
+Tüm çoklu çizgi düzenleme komutları geçerlidir. Trim ve Extend yalnızca [Çizgi](../line/) için olup dikdörtgenlerde çalışmaz:
 
 | Komut | Dikdörtgene ne olur |
 |---------|-------------------------------|
-| [Move](./move) | Dört köşenin tamamını aynı yer değiştirmeyle ötelemek |
-| [Copy](./copy) | Yeni konumda özdeş dikdörtgen oluşturur |
-| [Rotate](./rotate) | Dört köşenin tamamını seçilen temel nokta etrafında döndürür |
-| [Mirror](./mirror) | Dört köşenin tamamını yansıtma ekseni üzerinden yansıtır |
-| [Scale](./scale) | Dört köşenin tamamını temel noktadan düzgün şekilde ölçekler |
-| [Offset](./offset) | Sabit mesafede paralel (içe veya dışa) dikdörtgen oluşturur |
-| [Delete](./delete) | Dikdörtgeni çizimden kaldırır |
+| [Move](../move/) | Dört köşenin tamamını aynı yer değiştirmeyle ötelemek |
+| [Copy](../copy/) | Yeni konumda özdeş dikdörtgen oluşturur |
+| [Rotate](../rotate/) | Dört köşenin tamamını seçilen temel nokta etrafında döndürür |
+| [Mirror](../mirror/) | Dört köşenin tamamını yansıtma ekseni üzerinden yansıtır |
+| [Scale](../scale/) | Dört köşenin tamamını temel noktadan düzgün şekilde ölçekler |
+| [Offset](../offset/) | Sabit mesafede paralel (içe veya dışa) dikdörtgen oluşturur |
+| [Delete](../delete/) | Dikdörtgeni çizimden kaldırır |
 
 ## Özellikler
 

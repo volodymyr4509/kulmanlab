@@ -39,4 +39,4 @@ Sau khi điểm cơ sở được đặt, lệnh bắt điểm vào các trục 
 
 - ViewportCopy chỉ khả dụng khi tab bố cục giấy đang hoạt động.
 - Khung nhìn được sao chép kế thừa cùng tỉ lệ, tâm mô hình, trạng thái khóa và kích thước với bản gốc.
-- Để tạo khung nhìn mới từ đầu, dùng [ViewportRectangle](./viewport-rectangle).
+- Để tạo khung nhìn mới từ đầu, dùng [ViewportRectangle](../viewport-rectangle/).

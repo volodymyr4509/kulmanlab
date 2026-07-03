@@ -36,4 +36,4 @@ Every entity mutation is recorded: drawing new entities, deleting entities, grip
 | Available when | At least one recorded action exists | At least one Undo has been performed and no new action has been taken |
 | Cleared by | Nothing — history accumulates until the 20-step limit | Any new drawing action |
 
-Use [Redo](./redo) to reapply an undone action. The toolbar buttons are greyed out when the respective direction is unavailable.
+Use [Redo](../redo/) to reapply an undone action. The toolbar buttons are greyed out when the respective direction is unavailable.

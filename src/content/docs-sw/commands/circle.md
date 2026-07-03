@@ -78,13 +78,13 @@ Kuburuta kipeo chochote cha kardinali (Left, Right, Top, Bottom) hubadilisha rad
 
 | Amri | Kinachotokea kwa duara |
 |------|----------------------|
-| [Move](./move) | Hutafsiri kituo; radi haibadiliki |
-| [Copy](./copy) | Huunda duara linalofanana katika nafasi mpya |
-| [Rotate](./rotate) | Huzungusha nafasi ya kituo (duara lenyewe haliwezi kutofautiana kwa mzunguko) |
-| [Mirror](./mirror) | Huakisi nafasi ya kituo; radi haibadiliki |
-| [Scale](./scale) | Hupima ukubwa wa nafasi ya kituo na kuzidisha radi kwa kiwango cha ukubwa |
-| [Offset](./offset) | Huunda duara mseto kwa radi kubwa au ndogo |
-| [Delete](./delete) | Huondoa duara |
+| [Move](../move/) | Hutafsiri kituo; radi haibadiliki |
+| [Copy](../copy/) | Huunda duara linalofanana katika nafasi mpya |
+| [Rotate](../rotate/) | Huzungusha nafasi ya kituo (duara lenyewe haliwezi kutofautiana kwa mzunguko) |
+| [Mirror](../mirror/) | Huakisi nafasi ya kituo; radi haibadiliki |
+| [Scale](../scale/) | Hupima ukubwa wa nafasi ya kituo na kuzidisha radi kwa kiwango cha ukubwa |
+| [Offset](../offset/) | Huunda duara mseto kwa radi kubwa au ndogo |
+| [Delete](../delete/) | Huondoa duara |
 
 ## Mali
 

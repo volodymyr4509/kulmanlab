@@ -7,7 +7,7 @@ keywords: [wymiar średnicy CAD, dimdiameter, opis średnicy okręgu, wymiar śr
 
 # Wymiar średnicy
 
-Polecenie `dimdiameter` umieszcza wymiar średnicy na łuku lub okręgu. Linia wymiarowa obejmuje pełną średnicę — przechodząc przez środek między dwoma diametralnie przeciwnymi punktami łuku — i jest oznaczona `⌀ <wartość>`. Aby opisać tylko promień od środka do jednej krawędzi, użyj [Wymiaru promienia](./dim-radius).
+Polecenie `dimdiameter` umieszcza wymiar średnicy na łuku lub okręgu. Linia wymiarowa obejmuje pełną średnicę — przechodząc przez środek między dwoma diametralnie przeciwnymi punktami łuku — i jest oznaczona `⌀ <wartość>`. Aby opisać tylko promień od środka do jednej krawędzi, użyj [Wymiaru promienia](../dim-radius/).
 
 ## Anatomia wymiaru średnicy
 

@@ -75,12 +75,12 @@ Un'etichetta di testo selezionata espone un grip nel punto di ancoraggio:
 
 | Comando | Effetto sul testo |
 |---------|-----------------|
-| [Move](./move) | Sposta il punto di ancoraggio |
-| [Copy](./copy) | Crea un'etichetta identica in una nuova posizione |
-| [Rotate](./rotate) | Ruota la posizione dell'ancoraggio e aggiunge l'angolo al Grado di Rotazione |
-| [Mirror](./mirror) | Riflette il punto di ancoraggio rispetto all'asse speculare (la stringa di testo non viene capovolta) |
-| [Scale](./scale) | Scala la posizione dell'ancoraggio e moltiplica l'altezza per il fattore di scala |
-| [Delete](./delete) | Rimuove l'etichetta |
+| [Move](../move/) | Sposta il punto di ancoraggio |
+| [Copy](../copy/) | Crea un'etichetta identica in una nuova posizione |
+| [Rotate](../rotate/) | Ruota la posizione dell'ancoraggio e aggiunge l'angolo al Grado di Rotazione |
+| [Mirror](../mirror/) | Riflette il punto di ancoraggio rispetto all'asse speculare (la stringa di testo non viene capovolta) |
+| [Scale](../scale/) | Scala la posizione dell'ancoraggio e moltiplica l'altezza per il fattore di scala |
+| [Delete](../delete/) | Rimuove l'etichetta |
 
 Il testo non supporta **Offset**, **Trim** o **Extend**.
 

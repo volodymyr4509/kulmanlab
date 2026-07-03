@@ -21,22 +21,22 @@ Fail yang baru dicipta bermula dengan:
 - **Satu lapisan lalai** bernama `0` dengan warna putih dan linetype `Continuous`.
 - **Nama fail yang dijana** dalam format `kulman-Mon01_HH:MM:SS.dxf` (cth. `kulman-May22_14:30:00.dxf`).
 
-Fail disimpan ke storan pelayar secara automatik dan muncul dalam [Fail Terkini](./files).
+Fail disimpan ke storan pelayar secara automatik dan muncul dalam [Fail Terkini](../files/).
 
 ## Amaran — kerja yang tidak disimpan dibuang
 
-Mengklik **New File** membuang semua entiti pada kanvas semasa tanpa amaran. Jika anda ingin menyimpan lukisan semasa, [eksport](./export) dahulu.
+Mengklik **New File** membuang semua entiti pada kanvas semasa tanpa amaran. Jika anda ingin menyimpan lukisan semasa, [eksport](../export/) dahulu.
 
 ## Bila menggunakan New File berbanding Import
 
 | Situasi | Tindakan yang disyorkan |
 |---------|------------------------|
 | Memulakan lukisan dari awal | **New File** |
-| Membuka fail DXF atau JSON sedia ada | [Import](./import) |
-| Menyalin lukisan untuk bekerja pada varian | [Eksport](./export) fail semasa, kemudian [Import](./import) salinan |
+| Membuka fail DXF atau JSON sedia ada | [Import](../import/) |
+| Menyalin lukisan untuk bekerja pada varian | [Eksport](../export/) fail semasa, kemudian [Import](../import/) salinan |
 
 ## Arahan berkaitan
 
-- [Import](./import) — buka lukisan DXF atau JSON sedia ada
-- [Export](./export) — muat turun lukisan sebelum memulakan baharu
-- [Files](./files) — pulihkan lukisan sebelumnya dari storan pelayar
+- [Import](../import/) — buka lukisan DXF atau JSON sedia ada
+- [Export](../export/) — muat turun lukisan sebelum memulakan baharu
+- [Files](../files/) — pulihkan lukisan sebelumnya dari storan pelayar

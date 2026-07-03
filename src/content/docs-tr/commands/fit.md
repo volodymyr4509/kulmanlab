@@ -42,6 +42,6 @@ keywords: [CAD fit komutu, tüm çizimi sığdır, hepsini göster CAD, boyuta g
 
 | Komut | İşlem |
 |-------|-------|
-| [Zoom In](./zoom-in) | 1.5× yakınlaştırır |
-| [Zoom Out](./zoom-out) | 1.5× uzaklaştırır |
-| [Pan](./pan) | Ölçeklendirmeden görünümü kaydırır |
+| [Zoom In](../zoom-in/) | 1.5× yakınlaştırır |
+| [Zoom Out](../zoom-out/) | 1.5× uzaklaştırır |
+| [Pan](../pan/) | Ölçeklendirmeden görünümü kaydırır |

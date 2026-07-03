@@ -21,22 +21,22 @@ A freshly created file starts with:
 - **One default layer** named `0` with color white and linetype `Continuous`.
 - A **generated file name** in the format `kulman-Mon01_HH:MM:SS.dxf` (e.g. `kulman-May22_14:30:00.dxf`).
 
-The file is saved to browser storage automatically and appears in [Recent Files](./files).
+The file is saved to browser storage automatically and appears in [Recent Files](../files/).
 
 ## Warning — unsaved work is discarded
 
-Clicking **New File** discards all entities on the current canvas without warning. If you want to keep the current drawing, [export](./export) it first.
+Clicking **New File** discards all entities on the current canvas without warning. If you want to keep the current drawing, [export](../export/) it first.
 
 ## When to use New File vs Import
 
 | Situation | Recommended action |
 |-----------|-------------------|
 | Starting a drawing from scratch | **New File** |
-| Opening an existing DXF or JSON file | [Import](./import) |
-| Copying a drawing to work on a variant | [Export](./export) the current file, then [Import](./import) the copy |
+| Opening an existing DXF or JSON file | [Import](../import/) |
+| Copying a drawing to work on a variant | [Export](../export/) the current file, then [Import](../import/) the copy |
 
 ## Related commands
 
-- [Import](./import) — open an existing DXF or JSON drawing
-- [Export](./export) — download the drawing before starting fresh
-- [Files](./files) — restore a previous drawing from browser storage
+- [Import](../import/) — open an existing DXF or JSON drawing
+- [Export](../export/) — download the drawing before starting fresh
+- [Files](../files/) — restore a previous drawing from browser storage

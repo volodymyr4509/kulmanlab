@@ -48,12 +48,12 @@ Chiều cao mặc định là **12 đơn vị bản vẽ**.
 
 | Lệnh | Tác dụng với văn bản |
 |------|---------------------|
-| [Di Chuyển](./move) | Di chuyển điểm neo |
-| [Sao Chép](./copy) | Tạo nhãn giống hệt tại vị trí mới |
-| [Xoay](./rotate) | Xoay vị trí neo và thêm góc vào Độ Xoay |
-| [Đối Xứng](./mirror) | Phản chiếu điểm neo (chuỗi văn bản không bị lật) |
-| [Tỉ Lệ](./scale) | Chia tỉ lệ điểm neo và nhân chiều cao với hệ số |
-| [Xóa](./delete) | Xóa nhãn |
+| [Di Chuyển](../move/) | Di chuyển điểm neo |
+| [Sao Chép](../copy/) | Tạo nhãn giống hệt tại vị trí mới |
+| [Xoay](../rotate/) | Xoay vị trí neo và thêm góc vào Độ Xoay |
+| [Đối Xứng](../mirror/) | Phản chiếu điểm neo (chuỗi văn bản không bị lật) |
+| [Tỉ Lệ](../scale/) | Chia tỉ lệ điểm neo và nhân chiều cao với hệ số |
+| [Xóa](../delete/) | Xóa nhãn |
 
 ## DXF — thực thể MTEXT
 

@@ -7,7 +7,7 @@ keywords: [CAD copy-kommando, duplicera entiteter CAD, kopiera objekt CAD, klona
 
 # Copy
 
-`copy`-kommandot skapar flyttade dubbletter av valda entiteter och placerar dem förskjutna från en basspunkt till en destination — originalen ligger kvar precis där de är. Detta är den enda viktiga skillnaden mot [Move](./move): Copy lägger till nya entiteter i ritningen; Move flyttar befintliga.
+`copy`-kommandot skapar flyttade dubbletter av valda entiteter och placerar dem förskjutna från en basspunkt till en destination — originalen ligger kvar precis där de är. Detta är den enda viktiga skillnaden mot [Move](../move/): Copy lägger till nya entiteter i ritningen; Move flyttar befintliga.
 
 ## Två sätt att starta
 

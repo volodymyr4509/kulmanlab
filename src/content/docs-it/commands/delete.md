@@ -7,7 +7,7 @@ keywords: [comando delete CAD, rimuovi entità CAD, cancella oggetti CAD, tasto 
 
 # Delete
 
-Il comando `delete` rimuove le entità selezionate dal disegno. Le eliminazioni vengono registrate nella cronologia [Undo](./undo) e possono essere annullate fino a 20 passaggi. Non esiste una finestra di dialogo separata "conferma eliminazione" — la conferma è una singola pressione di tasto.
+Il comando `delete` rimuove le entità selezionate dal disegno. Le eliminazioni vengono registrate nella cronologia [Undo](../undo/) e possono essere annullate fino a 20 passaggi. Non esiste una finestra di dialogo separata "conferma eliminazione" — la conferma è una singola pressione di tasto.
 
 ## Due modi per eliminare
 
@@ -43,7 +43,7 @@ Clicca entità → premi Canc → fatto
 
 ## Recupero delle entità eliminate
 
-Le eliminazioni sono annullabili con il comando [Undo](./undo) (digita `undo` o usa il pulsante nella barra degli strumenti). È possibile annullare fino a **20 passaggi** per file, e la cronologia persiste tra i ricaricamenti della pagina. Se hai superato 20 eliminazioni senza salvare, le eliminazioni precedenti non possono essere recuperate.
+Le eliminazioni sono annullabili con il comando [Undo](../undo/) (digita `undo` o usa il pulsante nella barra degli strumenti). È possibile annullare fino a **20 passaggi** per file, e la cronologia persiste tra i ricaricamenti della pagina. Se hai superato 20 eliminazioni senza salvare, le eliminazioni precedenti non possono essere recuperate.
 
 ## Entità supportate
 

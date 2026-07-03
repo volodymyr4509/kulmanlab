@@ -7,7 +7,7 @@ keywords: [CAD zoom out, reducir zoom ventana gráfica, comando zoom out, vista 
 
 # Zoom Out
 
-El comando `zoomout` divide el nivel de zoom actual por **1,5×** (equivalente a multiplicar por ~0,667) y sale inmediatamente, centrado en el punto medio de la ventana gráfica. Es el inverso de [Zoom In](./zoom-in).
+El comando `zoomout` divide el nivel de zoom actual por **1,5×** (equivalente a multiplicar por ~0,667) y sale inmediatamente, centrado en el punto medio de la ventana gráfica. Es el inverso de [Zoom In](../zoom-in/).
 
 ## Hacer zoom de alejamiento
 
@@ -41,6 +41,6 @@ No hay atajos de teclado para este comando. Usa la rueda del ratón en su lugar 
 
 | Comando | Qué hace |
 |---------|----------|
-| [Zoom In](./zoom-in) | Multiplica el zoom por 1,5× por paso |
-| [Fit](./fit) | Restablece el zoom para mostrar todas las entidades |
-| [Pan](./pan) | Desplaza la ventana gráfica sin hacer zoom |
+| [Zoom In](../zoom-in/) | Multiplica el zoom por 1,5× por paso |
+| [Fit](../fit/) | Restablece el zoom para mostrar todas las entidades |
+| [Pan](../pan/) | Desplaza la ventana gráfica sin hacer zoom |

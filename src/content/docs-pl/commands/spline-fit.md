@@ -7,7 +7,7 @@ keywords: [polecenie splajnu fit CAD, interpolujący splajn CAD, splajn przez pu
 
 # Splajn Fit
 
-Polecenie `splinefit` rysuje sześcienny splajn przechodzący przez każdy kliknięty punkt — krzywą interpolującą. W odróżnieniu od [Splajnu CV](./spline-cv), gdzie krzywa jest tylko przyciągana do wierzchołków kontrolnych, tutaj krzywa jest zmuszana do trafienia w każdą klikniętą współrzędną dokładnie. Wewnętrznie edytor dopasowuje wierzchołki kontrolne, aby to osiągnąć, a te CV są przechowywane obok punktów dopasowania w pliku DXF.
+Polecenie `splinefit` rysuje sześcienny splajn przechodzący przez każdy kliknięty punkt — krzywą interpolującą. W odróżnieniu od [Splajnu CV](../spline-cv/), gdzie krzywa jest tylko przyciągana do wierzchołków kontrolnych, tutaj krzywa jest zmuszana do trafienia w każdą klikniętą współrzędną dokładnie. Wewnętrznie edytor dopasowuje wierzchołki kontrolne, aby to osiągnąć, a te CV są przechowywane obok punktów dopasowania w pliku DXF.
 
 ## Rysowanie splajnu przez punkty dopasowania
 
@@ -51,7 +51,7 @@ Zaznaczony splajn fit eksponuje jeden uchwyt na punkt dopasowania:
 
 Przeciągnięcie jednego uchwytu ponownie dopasowuje całą krzywą, nie tylko sąsiednie segmenty. Różni się to od edycji uchwytu polilinii, gdzie przesunięcie wierzchołka przekształca tylko dwa sąsiednie segmenty.
 
-Nie ma uchwytu "przesuń cały splajn". Aby translować cały splajn, użyj polecenia [Przesuń](./move).
+Nie ma uchwytu "przesuń cały splajn". Aby translować cały splajn, użyj polecenia [Przesuń](../move/).
 
 ## Zaznaczanie splajnów fit
 
@@ -65,12 +65,12 @@ Nie ma uchwytu "przesuń cały splajn". Aby translować cały splajn, użyj pole
 
 | Polecenie | Co dzieje się ze splajnem |
 |-----------|---------------------------|
-| [Przesuń](./move) | Translacja wszystkich punktów dopasowania i przeliczonych CV o to samo przesunięcie |
-| [Kopiuj](./copy) | Tworzy identyczny splajn w nowej pozycji |
-| [Obróć](./rotate) | Obraca wszystkie punkty dopasowania wokół wybranego punktu bazowego |
-| [Odbij](./mirror) | Odbija wszystkie punkty dopasowania przez oś odbicia |
-| [Skaluj](./scale) | Skaluje wszystkie punkty dopasowania równomiernie od punktu bazowego |
-| [Usuń](./delete) | Usuwa splajn |
+| [Przesuń](../move/) | Translacja wszystkich punktów dopasowania i przeliczonych CV o to samo przesunięcie |
+| [Kopiuj](../copy/) | Tworzy identyczny splajn w nowej pozycji |
+| [Obróć](../rotate/) | Obraca wszystkie punkty dopasowania wokół wybranego punktu bazowego |
+| [Odbij](../mirror/) | Odbija wszystkie punkty dopasowania przez oś odbicia |
+| [Skaluj](../scale/) | Skaluje wszystkie punkty dopasowania równomiernie od punktu bazowego |
+| [Usuń](../delete/) | Usuwa splajn |
 
 Splajny nie obsługują **Odsunięcia**, **Przytnij** ani **Przedłuż**.
 

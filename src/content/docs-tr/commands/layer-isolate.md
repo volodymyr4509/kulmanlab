@@ -37,4 +37,4 @@ keywords: [CAD layer isolate komutu, katmanı izole et CAD, katmanları dondur C
 
 ## Çözme
 
-Tüm katmanları çözmek ve normal görüntüleme moduna dönmek için [LayerUnfreezeAll](./layer-unfreeze-all) kullanın.
+Tüm katmanları çözmek ve normal görüntüleme moduna dönmek için [LayerUnfreezeAll](../layer-unfreeze-all/) kullanın.

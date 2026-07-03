@@ -7,7 +7,7 @@ keywords: [cota de diámetro CAD, dimdiameter, anotar diámetro de círculo, cot
 
 # Dimension Diameter
 
-El comando `dimdiameter` coloca una cota de diámetro en un arco o círculo. La línea de cota abarca el diámetro completo — pasando por el centro entre dos puntos diametralmente opuestos del arco — y se etiqueta `⌀ <valor>`. Para anotar solo el radio desde el centro hasta un borde, usa [Dimension Radius](./dim-radius).
+El comando `dimdiameter` coloca una cota de diámetro en un arco o círculo. La línea de cota abarca el diámetro completo — pasando por el centro entre dos puntos diametralmente opuestos del arco — y se etiqueta `⌀ <valor>`. Para anotar solo el radio desde el centro hasta un borde, usa [Dimension Radius](../dim-radius/).
 
 ## Anatomía de una cota de diámetro
 

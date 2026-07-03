@@ -7,7 +7,7 @@ keywords: [lagerisolering, frys lager CAD, isolera lager kulmanlab, CAD-lagerhan
 
 # LayerIsolate
 
-`LayerIsolate`-kommandot fryser alla lager **utom** de som tillhör de markerade objekten. Använd det för att snabbt fokusera på specifik geometri utan att dölja eller ta bort något permanent — frys upp med [LayerUnfreezeAll](./layer-unfreeze-all) när du är klar.
+`LayerIsolate`-kommandot fryser alla lager **utom** de som tillhör de markerade objekten. Använd det för att snabbt fokusera på specifik geometri utan att dölja eller ta bort något permanent — frys upp med [LayerUnfreezeAll](../layer-unfreeze-all/) när du är klar.
 
 ## Två sätt att starta
 
@@ -39,4 +39,4 @@ keywords: [lagerisolering, frys lager CAD, isolera lager kulmanlab, CAD-lagerhan
 
 ## Ångra isolering
 
-Kör [LayerUnfreezeAll](./layer-unfreeze-all) för att återställa alla lager till synliga i ett steg.
+Kör [LayerUnfreezeAll](../layer-unfreeze-all/) för att återställa alla lager till synliga i ett steg.

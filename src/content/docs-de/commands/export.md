@@ -45,7 +45,7 @@ Nur Geometrieelemente sind enthalten:
 - Lines, Circles, Arcs, Ellipses, Polylines (als `LWPOLYLINE` exportiert), Splines, Text
 - Ebenendefinitionen und Linientypentabellen
 
-**Nicht im DXF enthalten:** Bemaßungselemente und Mehrfach-Hinweislinien. Diese verwenden KulmanLab-spezifische Datenstrukturen, die im Standard-DXF nicht zuverlässig dargestellt werden können. Wenn Ihre Zeichnung Annotationen enthält, verwenden Sie JSON oder [Print](./print), um diese visuell zu erfassen.
+**Nicht im DXF enthalten:** Bemaßungselemente und Mehrfach-Hinweislinien. Diese verwenden KulmanLab-spezifische Datenstrukturen, die im Standard-DXF nicht zuverlässig dargestellt werden können. Wenn Ihre Zeichnung Annotationen enthält, verwenden Sie JSON oder [Print](../print/), um diese visuell zu erfassen.
 
 ## Name der exportierten Datei
 
@@ -60,10 +60,10 @@ Die heruntergeladene Datei wird nach der aktuellen Zeichnungsdatei benannt (z. B
 | Bewahrt Ebenen & Linientypen | Ja | Nein (gerendert flach) |
 | Erfasst Bemaßungen & Hinweislinien | Nur JSON | Ja |
 
-Verwenden Sie **Export**, wenn Sie eine bearbeitbare Datei benötigen. Verwenden Sie [Print](./print), wenn Sie einen visuellen Schnappschuss benötigen.
+Verwenden Sie **Export**, wenn Sie eine bearbeitbare Datei benötigen. Verwenden Sie [Print](../print/), wenn Sie einen visuellen Schnappschuss benötigen.
 
 ## Verwandte Befehle
 
-- [Import](./import) — DXF- oder JSON-Datei öffnen
-- [Print](./print) — Zeichenfläche als PNG, JPEG, WebP oder PDF exportieren
-- [Files](./files) — im Browser-Speicher gespeicherte Zeichnungen durchsuchen
+- [Import](../import/) — DXF- oder JSON-Datei öffnen
+- [Print](../print/) — Zeichenfläche als PNG, JPEG, WebP oder PDF exportieren
+- [Files](../files/) — im Browser-Speicher gespeicherte Zeichnungen durchsuchen

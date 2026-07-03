@@ -7,7 +7,7 @@ keywords: [CAD radius dimension, dimradius, annotate circle radius, arc radius d
 
 # Dimension Radius
 
-Amri ya `dimradius` huweka kipimo cha radi kwenye mviringo au duara. Mstari wa kipimo huendesha kutoka katikati hadi pointi kwenye mzingo kwa mwelekeo wa mshale, ukiandikwa `R <thamani>`. Ili kupima kipenyo kamili badala yake, tumia [Dimension Diameter](./dim-diameter).
+Amri ya `dimradius` huweka kipimo cha radi kwenye mviringo au duara. Mstari wa kipimo huendesha kutoka katikati hadi pointi kwenye mzingo kwa mwelekeo wa mshale, ukiandikwa `R <thamani>`. Ili kupima kipenyo kamili badala yake, tumia [Dimension Diameter](../dim-diameter/).
 
 ## Muundo wa kipimo cha radi
 

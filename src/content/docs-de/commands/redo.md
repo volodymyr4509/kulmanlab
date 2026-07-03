@@ -7,7 +7,7 @@ keywords: [CAD Redo-Befehl, Redo-Verlauf CAD, Aktion wiederherstellen CAD, Undo 
 
 # Redo
 
-Der `redo`-Befehl bewegt sich vorwärts durch den Undo-Verlauf und stellt Aktionen wieder her, die durch [Undo](./undo) rückgängig gemacht wurden. Redo ist nur verfügbar, wenn Sie mit Undo zurückgegangen sind und noch keine neue Änderung vorgenommen haben.
+Der `redo`-Befehl bewegt sich vorwärts durch den Undo-Verlauf und stellt Aktionen wieder her, die durch [Undo](../undo/) rückgängig gemacht wurden. Redo ist nur verfügbar, wenn Sie mit Undo zurückgegangen sind und noch keine neue Änderung vorgenommen haben.
 
 ## So verwenden Sie Redo
 
@@ -20,7 +20,7 @@ Jede Ausführung stellt eine zuvor rückgängig gemachte Aktion wieder her. Füh
 
 | Detail | Verhalten |
 |--------|-----------|
-| Verfügbar nach | Einem oder mehreren [Undo](./undo)-Schritten |
+| Verfügbar nach | Einem oder mehreren [Undo](../undo/)-Schritten |
 | Geleert durch | **Jede neue Zeichenaktion** — Hinzufügen, Bearbeiten oder Löschen einer Entität |
 | Speicherung | Browser, pro Datei — überlebt das Neuladen der Seite (sofern vor dem Neuladen keine neue Aktion durchgeführt wurde) |
 | Maximale Tiefe | Bis zu 20 Einträge (gleicher Pool wie Undo) |
@@ -35,4 +35,4 @@ Sobald eine neue Entität gezeichnet, gelöscht oder geändert wird, wird der Re
 | Verfügbar wenn | Nach mindestens einem Undo, ohne neue Aktion | Mindestens eine aufgezeichnete Aktion vorhanden |
 | Geleert durch | Jede neue Zeichenaktion | Nichts |
 
-Die Redo-Schaltfläche in der Werkzeugleiste ist ausgegraut, wenn keine Einträge zum Wiederholen vorhanden sind. Verwenden Sie zuerst [Undo](./undo), um Redo-Einträge zu erstellen.
+Die Redo-Schaltfläche in der Werkzeugleiste ist ausgegraut, wenn keine Einträge zum Wiederholen vorhanden sind. Verwenden Sie zuerst [Undo](../undo/), um Redo-Einträge zu erstellen.

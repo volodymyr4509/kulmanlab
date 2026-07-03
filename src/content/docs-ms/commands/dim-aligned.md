@@ -7,7 +7,7 @@ keywords: [CAD dimensi aligned, dimaligned, dimensi pepenjuru CAD, dimensi jarak
 
 # Dimension Aligned
 
-Arahan `dimaligned` meletakkan dimensi yang mengukur **jarak garis lurus sebenar** antara dua titik. Garis dimensi berjalan selari dengan garis yang menghubungkan dua titik, jadi ia boleh berada pada mana-mana sudut. Ini adalah perbezaan utama dari [Dimension Linear](./dim-linear), yang terhad kepada mendatar atau menegak.
+Arahan `dimaligned` meletakkan dimensi yang mengukur **jarak garis lurus sebenar** antara dua titik. Garis dimensi berjalan selari dengan garis yang menghubungkan dua titik, jadi ia boleh berada pada mana-mana sudut. Ini adalah perbezaan utama dari [Dimension Linear](../dim-linear/), yang terhad kepada mendatar atau menegak.
 
 ## Anatomi dimensi aligned
 
@@ -80,7 +80,7 @@ Lihat [Text Editor — mod mudah](../interface/text-editor#simple-mode) untuk ru
 
 ## Merantai dimensi
 
-Untuk menambah lebih banyak dimensi yang diteruskan dari garis sambungan kedua yang ini, gunakan [Dimension Continue](./dim-continue) — ia mengunci ke sudut pengukuran yang sama seperti dimensi aligned ini.
+Untuk menambah lebih banyak dimensi yang diteruskan dari garis sambungan kedua yang ini, gunakan [Dimension Continue](../dim-continue/) — ia mengunci ke sudut pengukuran yang sama seperti dimensi aligned ini.
 
 ## DXF — entiti DIMENSION (jenis aligned)
 

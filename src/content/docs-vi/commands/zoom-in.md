@@ -35,6 +35,6 @@ Mức phóng to luôn hiển thị ở **góc dưới bên phải** của canvas
 
 | Lệnh | Tác dụng |
 |------|---------|
-| [Thu Nhỏ](./zoom-out) | Chia phóng to 1.5× mỗi bước |
-| [Vừa Khung](./fit) | Đặt lại phóng to để hiển thị tất cả thực thể |
-| [Di Chuyển Màn Hình](./pan) | Dịch chuyển khung nhìn mà không phóng to |
+| [Thu Nhỏ](../zoom-out/) | Chia phóng to 1.5× mỗi bước |
+| [Vừa Khung](../fit/) | Đặt lại phóng to để hiển thị tất cả thực thể |
+| [Di Chuyển Màn Hình](../pan/) | Dịch chuyển khung nhìn mà không phóng to |

@@ -34,6 +34,6 @@ Nhấp nút **Fit** trên thanh công cụ hoặc gõ `fit` trong terminal. Khun
 
 | Lệnh | Tác dụng |
 |------|---------|
-| [Di Chuyển Màn Hình](./pan) | Dịch chuyển khung nhìn mà không phóng to |
-| [Phóng To](./zoom-in) | Nhân phóng to 1.5× mỗi bước |
-| [Thu Nhỏ](./zoom-out) | Chia phóng to 1.5× mỗi bước |
+| [Di Chuyển Màn Hình](../pan/) | Dịch chuyển khung nhìn mà không phóng to |
+| [Phóng To](../zoom-in/) | Nhân phóng to 1.5× mỗi bước |
+| [Thu Nhỏ](../zoom-out/) | Chia phóng to 1.5× mỗi bước |

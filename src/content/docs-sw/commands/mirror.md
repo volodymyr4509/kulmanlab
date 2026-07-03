@@ -7,7 +7,7 @@ keywords: [CAD mirror command, reflect entities CAD, mirror symmetry CAD, flip o
 
 # Mirror
 
-Amri ya `mirror` huunda nakala zilizoakisiwa za vipengele vilivyochaguliwa zilizoonekana kwenye mhimili wa nukta mbili. Asili **daima huhifadhiwa** — tofauti na [Move](./move) au [Rotate](./rotate), Mirror haibadilishi vipengele vilivyopo kamwe; inaongeza tu vipya.
+Amri ya `mirror` huunda nakala zilizoakisiwa za vipengele vilivyochaguliwa zilizoonekana kwenye mhimili wa nukta mbili. Asili **daima huhifadhiwa** — tofauti na [Move](../move/) au [Rotate](../rotate/), Mirror haibadilishi vipengele vilivyopo kamwe; inaongeza tu vipya.
 
 ## Njia mbili za kuanza
 

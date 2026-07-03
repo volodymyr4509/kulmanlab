@@ -26,6 +26,6 @@ Komut tıklamadan hemen sonra tamamlanır.
 
 | Komut | Ne yapar |
 |-------|----------|
-| [LayerMatch](./layer-match) | Seçili nesneleri başka bir nesnenin katmanına taşır |
-| [LayerIsolate](./layer-isolate) | Seçili nesnelerin bulunduğu katmanlar dışındaki tüm katmanları dondurur |
-| [LayerUnfreezeAll](./layer-unfreeze-all) | Tüm katmanları çözer |
+| [LayerMatch](../layer-match/) | Seçili nesneleri başka bir nesnenin katmanına taşır |
+| [LayerIsolate](../layer-isolate/) | Seçili nesnelerin bulunduğu katmanlar dışındaki tüm katmanları dondurur |
+| [LayerUnfreezeAll](../layer-unfreeze-all/) | Tüm katmanları çözer |

@@ -59,5 +59,5 @@ La géométrie (coordonnées, rayon, longueur, etc.) n'est jamais affectée.
 
 ## Commandes associées
 
-- [LayerMatch](./layer-match) — déplacer les entités sélectionnées vers le même calque qu'une source (propriété de calque uniquement)
-- [LayerMakeCurrent](./layer-make-current) — définir le calque de dessin courant depuis une entité sur laquelle on clique
+- [LayerMatch](../layer-match/) — déplacer les entités sélectionnées vers le même calque qu'une source (propriété de calque uniquement)
+- [LayerMakeCurrent](../layer-make-current/) — définir le calque de dessin courant depuis une entité sur laquelle on clique

@@ -7,7 +7,7 @@ keywords: [CAD 水平垂直寸法, 水平寸法 CAD, 垂直寸法 CAD, dimlinear
 
 # Dimension Linear
 
-`dimlinear` コマンドは 2 つの引出線の起点間に水平または垂直の寸法を配置します。寸法線は常に完全な水平または垂直に配置されます — 任意の角度には配置できません。斜めの線に平行な寸法が必要な場合は [Dimension Aligned](./dim-aligned) を使用してください。
+`dimlinear` コマンドは 2 つの引出線の起点間に水平または垂直の寸法を配置します。寸法線は常に完全な水平または垂直に配置されます — 任意の角度には配置できません。斜めの線に平行な寸法が必要な場合は [Dimension Aligned](../dim-aligned/) を使用してください。
 
 ## 水平垂直寸法の構造
 
@@ -89,7 +89,7 @@ keywords: [CAD 水平垂直寸法, 水平寸法 CAD, 垂直寸法 CAD, dimlinear
 
 ## 寸法の連続
 
-最後の引出線から続く寸法を追加するには、この寸法を配置した直後に [Dimension Continue](./dim-continue) を使用します。
+最後の引出線から続く寸法を追加するには、この寸法を配置した直後に [Dimension Continue](../dim-continue/) を使用します。
 
 ## DXF — DIMENSION エンティティ
 

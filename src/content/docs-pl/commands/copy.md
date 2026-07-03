@@ -7,7 +7,7 @@ keywords: [polecenie kopiowania CAD, duplikowanie elementów CAD, kopiowanie obi
 
 # Kopiuj
 
-Polecenie `copy` tworzy przetłumaczone duplikaty zaznaczonych elementów i umieszcza je z przesunięciem od punktu bazowego do punktu docelowego — oryginały pozostają dokładnie tam, gdzie są. To jedna kluczowa różnica od [Przesuń](./move): Kopiuj dodaje nowe elementy do rysunku; Przesuń relokuje istniejące.
+Polecenie `copy` tworzy przetłumaczone duplikaty zaznaczonych elementów i umieszcza je z przesunięciem od punktu bazowego do punktu docelowego — oryginały pozostają dokładnie tam, gdzie są. To jedna kluczowa różnica od [Przesuń](../move/): Kopiuj dodaje nowe elementy do rysunku; Przesuń relokuje istniejące.
 
 ## Dwa sposoby uruchamiania
 

@@ -71,13 +71,13 @@ Att dra ett start- eller slutgrepp flyttar det till dragpositionen och räknar o
 
 | Kommando | Vad som händer med bågen |
 |---------|------------------------|
-| [Move](./move) | Flyttar centrum; radie och vinklar oförändrade |
-| [Copy](./copy) | Skapar en identisk båge på en ny position |
-| [Rotate](./rotate) | Roterar centrum och förskjuter start-/slutvinklar med rotationsvärdet |
-| [Mirror](./mirror) | Speglar centrum och inverterar start-/slutvinklar över spegelaxeln |
-| [Scale](./scale) | Skalar centrumpositionen och multiplicerar radien med skalfaktorn |
-| [Offset](./offset) | Skapar en koncentrisk båge med en större eller mindre radie, samma vinkelspann |
-| [Delete](./delete) | Tar bort bågen |
+| [Move](../move/) | Flyttar centrum; radie och vinklar oförändrade |
+| [Copy](../copy/) | Skapar en identisk båge på en ny position |
+| [Rotate](../rotate/) | Roterar centrum och förskjuter start-/slutvinklar med rotationsvärdet |
+| [Mirror](../mirror/) | Speglar centrum och inverterar start-/slutvinklar över spegelaxeln |
+| [Scale](../scale/) | Skalar centrumpositionen och multiplicerar radien med skalfaktorn |
+| [Offset](../offset/) | Skapar en koncentrisk båge med en större eller mindre radie, samma vinkelspann |
+| [Delete](../delete/) | Tar bort bågen |
 
 ## Egenskaper
 

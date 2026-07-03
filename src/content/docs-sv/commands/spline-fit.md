@@ -7,7 +7,7 @@ keywords: [CAD spline fit-kommando, interpolerande spline CAD, spline genom punk
 
 # Spline Fit
 
-`splinefit`-kommandot ritar en kubisk spline som passerar genom varje punkt du klickar på — en interpolerande kurva. Till skillnad från [Spline CV](./spline-cv), där kurvan bara dras mot styrpunkter, tvingas kurvan här att träffa varje klickad koordinat exakt. Internt beräknar redigeraren styrpunkter för att åstadkomma detta, och dessa styrpunkter lagras tillsammans med fitpunkterna i DXF-filen.
+`splinefit`-kommandot ritar en kubisk spline som passerar genom varje punkt du klickar på — en interpolerande kurva. Till skillnad från [Spline CV](../spline-cv/), där kurvan bara dras mot styrpunkter, tvingas kurvan här att träffa varje klickad koordinat exakt. Internt beräknar redigeraren styrpunkter för att åstadkomma detta, och dessa styrpunkter lagras tillsammans med fitpunkterna i DXF-filen.
 
 ## Rita en spline genom fitpunkter
 
@@ -51,7 +51,7 @@ En vald fitspline visar ett grepp per fitpunkt:
 
 Att dra ett grepp interpolerar om hela kurvan, inte bara de angränsande segmenten. Detta skiljer sig från redigering av polylinjegrepp, där en flyttad hörnpunkt endast omformar de två angränsande segmenten.
 
-Det finns inget "flytta hela splinen"-grepp. Använd [Move](./move)-kommandot för att flytta hela splinen.
+Det finns inget "flytta hela splinen"-grepp. Använd [Move](../move/)-kommandot för att flytta hela splinen.
 
 ## Markera fitsplines
 
@@ -65,12 +65,12 @@ Det finns inget "flytta hela splinen"-grepp. Använd [Move](./move)-kommandot f�
 
 | Kommando | Vad som händer med splinen |
 |---------|---------------------------|
-| [Move](./move) | Flyttar alla fitpunkter och omräknade styrpunkter med samma förskjutning |
-| [Copy](./copy) | Skapar en identisk spline på en ny position |
-| [Rotate](./rotate) | Roterar alla fitpunkter kring den valda baspunkten |
-| [Mirror](./mirror) | Speglar alla fitpunkter över spegelaxeln |
-| [Scale](./scale) | Skalar alla fitpunkter enhetligt från baspunkten |
-| [Delete](./delete) | Tar bort splinen |
+| [Move](../move/) | Flyttar alla fitpunkter och omräknade styrpunkter med samma förskjutning |
+| [Copy](../copy/) | Skapar en identisk spline på en ny position |
+| [Rotate](../rotate/) | Roterar alla fitpunkter kring den valda baspunkten |
+| [Mirror](../mirror/) | Speglar alla fitpunkter över spegelaxeln |
+| [Scale](../scale/) | Skalar alla fitpunkter enhetligt från baspunkten |
+| [Delete](../delete/) | Tar bort splinen |
 
 Splines stöder inte **Offset**, **Trim** eller **Extend**.
 

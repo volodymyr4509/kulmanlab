@@ -85,13 +85,13 @@ Wszystkie cztery uchwyty kardynalne zachowują się identycznie — nowy promie�
 
 | Polecenie | Co dzieje się z okręgiem |
 |-----------|--------------------------|
-| [Przesuń](./move) | Translacja środka; promień bez zmian |
-| [Kopiuj](./copy) | Tworzy identyczny okrąg w nowym środku |
-| [Obróć](./rotate) | Obraca środek wokół punktu bazowego; promień bez zmian |
-| [Odbij](./mirror) | Odbija środek przez oś odbicia; promień bez zmian |
-| [Skaluj](./scale) | Skaluje pozycję środka i mnoży promień przez współczynnik skali |
-| [Odsunięcie](./offset) | Tworzy współśrodkowy okrąg przy większym lub mniejszym promieniu |
-| [Usuń](./delete) | Usuwa okrąg |
+| [Przesuń](../move/) | Translacja środka; promień bez zmian |
+| [Kopiuj](../copy/) | Tworzy identyczny okrąg w nowym środku |
+| [Obróć](../rotate/) | Obraca środek wokół punktu bazowego; promień bez zmian |
+| [Odbij](../mirror/) | Odbija środek przez oś odbicia; promień bez zmian |
+| [Skaluj](../scale/) | Skaluje pozycję środka i mnoży promień przez współczynnik skali |
+| [Odsunięcie](../offset/) | Tworzy współśrodkowy okrąg przy większym lub mniejszym promieniu |
+| [Usuń](../delete/) | Usuwa okrąg |
 
 ## Właściwości
 
@@ -120,7 +120,7 @@ Wszystkie cztery uchwyty kardynalne zachowują się identycznie — nowy promie�
 | Jak rysować | Środek + promień | Trzy punkty na krzywej |
 | Wpisane wejście | Wartość promienia | Brak — tylko kliknięcie |
 | Uchwyt zmiany rozmiaru | 4 punkty kardynalne | Punkty początku i końca (kąt + promień) |
-| Wymiarowanie | Promień: [Wymiar promienia](./dim-radius) · Średnica: [Wymiar średnicy](./dim-diameter) | [Wymiar promienia](./dim-radius) |
+| Wymiarowanie | Promień: [Wymiar promienia](../dim-radius/) · Średnica: [Wymiar średnicy](../dim-diameter/) | [Wymiar promienia](../dim-radius/) |
 | Najlepsze do | Pełne otwory, okrągłe rozmieszczenie otworów, okrągłe cechy | Zaokrąglenia, częściowe krzywe, łukowe ścieżki |
 
 ## DXF — element CIRCLE

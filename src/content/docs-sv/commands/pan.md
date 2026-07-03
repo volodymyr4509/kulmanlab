@@ -28,8 +28,8 @@ Det snabbaste sättet att panorera: **håll ner mittenmusknappen och dra** när 
 | Dra med mittenknappen | Förskjuter vyporten | Nej — fungerar alltid |
 | Scrollhjul | Zoomar mot markören | Nej — fungerar alltid |
 | Dubbelklick med mittenknappen | Anpassar alla entiteter | Nej — fungerar alltid |
-| [Zoom In](./zoom-in) / [Zoom Out](./zoom-out) | Stegar zoomen 1,5× | Nej |
-| [Fit](./fit) | Anpassar alla entiteter i vyn | Nej |
+| [Zoom In](../zoom-in/) / [Zoom Out](../zoom-out/) | Stegar zoomen 1,5× | Nej |
+| [Fit](../fit/) | Anpassar alla entiteter i vyn | Nej |
 
 ## Snabbreferens tangentbord
 
@@ -40,5 +40,5 @@ Det snabbaste sättet att panorera: **håll ner mittenmusknappen och dra** när 
 ## Tips
 
 - Använd scrollhjulet för att zooma mot ett målområde och panorera sedan för att finjustera positionen.
-- **Dubbelklick med mittenmusknappen** utlöser [Fit](./fit) omedelbart — det snabbaste sättet att återställa en förlorad vy.
+- **Dubbelklick med mittenmusknappen** utlöser [Fit](../fit/) omedelbart — det snabbaste sättet att återställa en förlorad vy.
 - Om du befinner dig mitt i ett kommando (t.ex. placerar en linjeslutpunkt) kan du dra med mittenknappen för att panorera utan att avbryta kommandot.

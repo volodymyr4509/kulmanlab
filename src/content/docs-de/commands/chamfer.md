@@ -7,7 +7,7 @@ keywords: [CAD-Chamfer-Befehl, Fase Linie CAD, diagonaler Eckschnitt, abgeschrä
 
 # Chamfer
 
-Der `chamfer`-Befehl schneidet eine gerade diagonale Ecke zwischen zwei [Line](./line)- oder [Polyline](./polyline)-Elementen. Sie geben an, wie weit zurück entlang jedes Elements geschnitten werden soll (d1 und d2), und der Befehl kürzt beide Elemente auf diese Punkte zurück und fügt eine verbindende Linie zwischen ihnen ein.
+Der `chamfer`-Befehl schneidet eine gerade diagonale Ecke zwischen zwei [Line](../line/)- oder [Polyline](../polyline/)-Elementen. Sie geben an, wie weit zurück entlang jedes Elements geschnitten werden soll (d1 und d2), und der Befehl kürzt beide Elemente auf diese Punkte zurück und fügt eine verbindende Linie zwischen ihnen ein.
 
 Gleiche Abstände erzeugen einen symmetrischen 45°-Schnitt; unterschiedliche Abstände erzeugen eine asymmetrische Fase.
 

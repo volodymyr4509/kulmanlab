@@ -7,7 +7,7 @@ keywords: [CAD extend command, extend line CAD, stretch line to boundary, line e
 
 # Extend
 
-The `extend` command stretches the nearest endpoint of a [Line](./line) to the closest intersection it would form with another entity in the drawing. Hover near the endpoint you want to extend — a preview shows the extended line — then click to apply.
+The `extend` command stretches the nearest endpoint of a [Line](../line/) to the closest intersection it would form with another entity in the drawing. Hover near the endpoint you want to extend — a preview shows the extended line — then click to apply.
 
 Extend works on **Line entities only**. The boundaries the line extends toward can be any other entity type except Text, Mtext, Multileader, and Spline.
 

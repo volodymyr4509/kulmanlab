@@ -36,4 +36,4 @@ Setiap mutasi entitas dicatat: menggambar entitas baru, menghapus entitas, menge
 | Tersedia ketika | Setidaknya satu aksi yang dicatat ada | Setidaknya satu Undo telah dilakukan dan tidak ada aksi baru yang diambil |
 | Dihapus oleh | Tidak ada — riwayat terakumulasi sampai batas 20 langkah | Aksi menggambar baru apa pun |
 
-Gunakan [Redo](./redo) untuk menerapkan ulang aksi yang dibatalkan. Tombol toolbar dinonaktifkan ketika arah yang bersangkutan tidak tersedia.
+Gunakan [Redo](../redo/) untuk menerapkan ulang aksi yang dibatalkan. Tombol toolbar dinonaktifkan ketika arah yang bersangkutan tidak tersedia.

@@ -56,4 +56,4 @@ keywords: [αντιγραφή viewport, αντιγραφή viewport layout, κλ
 
 - Η ViewportCopy είναι διαθέσιμη μόνο όταν είναι ενεργή καρτέλα layout χαρτιού.
 - Το αντιγραμμένο viewport κληρονομεί την ίδια κλίμακα, κέντρο μοντέλου, κατάσταση κλειδώματος και διαστάσεις με το πρωτότυπο.
-- Για δημιουργία νέου viewport από την αρχή, χρησιμοποιήστε [ViewportRectangle](./viewport-rectangle).
+- Για δημιουργία νέου viewport από την αρχή, χρησιμοποιήστε [ViewportRectangle](../viewport-rectangle/).

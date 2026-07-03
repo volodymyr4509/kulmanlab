@@ -85,13 +85,13 @@ Keempat-empat grip kardinal berkelakuan sama — jejari baru bersamaan jarak dar
 
 | Arahan | Apa yang berlaku pada bulatan |
 |--------|-----------------------------|
-| [Move](./move) | Menterjemahkan pusat; jejari tidak berubah |
-| [Copy](./copy) | Mencipta bulatan yang sama di pusat baru |
-| [Rotate](./rotate) | Memutar pusat di sekitar titik asas; jejari tidak berubah |
-| [Mirror](./mirror) | Mencerminkan pusat merentasi paksi cermin; jejari tidak berubah |
-| [Scale](./scale) | Mengskala kedudukan pusat dan mendarab jejari dengan faktor skala |
-| [Offset](./offset) | Mencipta bulatan konsentrik pada jejari lebih besar atau lebih kecil |
-| [Delete](./delete) | Membuang bulatan |
+| [Move](../move/) | Menterjemahkan pusat; jejari tidak berubah |
+| [Copy](../copy/) | Mencipta bulatan yang sama di pusat baru |
+| [Rotate](../rotate/) | Memutar pusat di sekitar titik asas; jejari tidak berubah |
+| [Mirror](../mirror/) | Mencerminkan pusat merentasi paksi cermin; jejari tidak berubah |
+| [Scale](../scale/) | Mengskala kedudukan pusat dan mendarab jejari dengan faktor skala |
+| [Offset](../offset/) | Mencipta bulatan konsentrik pada jejari lebih besar atau lebih kecil |
+| [Delete](../delete/) | Membuang bulatan |
 
 ## Sifat
 
@@ -120,7 +120,7 @@ Keempat-empat grip kardinal berkelakuan sama — jejari baru bersamaan jarak dar
 | Cara melukis | Pusat + jejari | Tiga titik pada kelengkungan |
 | Input bertaip | Nilai jejari | Tiada — klik sahaja |
 | Grip ubah saiz | 4 titik kardinal | Titik mula dan akhir (sudut + jejari) |
-| Pendimensian | Jejari: [Dim Radius](./dim-radius) · Diameter: [Dim Diameter](./dim-diameter) | [Dim Radius](./dim-radius) |
+| Pendimensian | Jejari: [Dim Radius](../dim-radius/) · Diameter: [Dim Diameter](../dim-diameter/) | [Dim Radius](../dim-radius/) |
 | Terbaik untuk | Lubang penuh, bulatan bolt, ciri bulat | Fillet, lengkung separa, laluan melengkung |
 
 ## DXF — entiti CIRCLE

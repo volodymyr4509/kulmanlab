@@ -52,7 +52,7 @@ Ein ausgewählter CV-Spline zeigt einen Griffpunkt pro Kontrollpunkt:
 |------------|----------|----------|
 | **Kontrollpunkt** | An jeder CV-Position | Ziehen zum Verschieben dieses CV — die Kurve formt sich zur neuen Position hin um |
 
-Es gibt keinen „ganzen Spline verschieben"-Griffpunkt. Um den gesamten Spline zu verschieben, verwenden Sie den [Move](./move)-Befehl.
+Es gibt keinen „ganzen Spline verschieben"-Griffpunkt. Um den gesamten Spline zu verschieben, verwenden Sie den [Move](../move/)-Befehl.
 
 ## CV-Splines auswählen
 
@@ -66,12 +66,12 @@ Es gibt keinen „ganzen Spline verschieben"-Griffpunkt. Um den gesamten Spline 
 
 | Befehl | Auswirkung auf den Spline |
 |--------|--------------------------|
-| [Move](./move) | Verschiebt alle Kontrollpunkte um denselben Versatz |
-| [Copy](./copy) | Erstellt einen identischen Spline an einer neuen Position |
-| [Rotate](./rotate) | Dreht alle CVs um den gewählten Basispunkt |
-| [Mirror](./mirror) | Spiegelt alle CVs an der Spiegelachse |
-| [Scale](./scale) | Skaliert alle CVs gleichmäßig vom Basispunkt aus |
-| [Delete](./delete) | Entfernt den Spline |
+| [Move](../move/) | Verschiebt alle Kontrollpunkte um denselben Versatz |
+| [Copy](../copy/) | Erstellt einen identischen Spline an einer neuen Position |
+| [Rotate](../rotate/) | Dreht alle CVs um den gewählten Basispunkt |
+| [Mirror](../mirror/) | Spiegelt alle CVs an der Spiegelachse |
+| [Scale](../scale/) | Skaliert alle CVs gleichmäßig vom Basispunkt aus |
+| [Delete](../delete/) | Entfernt den Spline |
 
 Splines unterstützen weder **Offset**, **Trim** noch **Extend**.
 

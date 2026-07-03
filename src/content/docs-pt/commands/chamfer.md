@@ -7,7 +7,7 @@ keywords: [comando chamfer CAD, chanfro linha CAD, corte diagonal canto, canto b
 
 # Chamfer
 
-O comando `chamfer` corta um canto diagonal reto entre duas entidades [Line](./line) ou [Polyline](./polyline). Você especifica quanto cortar ao longo de cada entidade (d1 e d2), e o comando corta ambas as entidades nesses pontos e insere uma linha de ligação entre elas.
+O comando `chamfer` corta um canto diagonal reto entre duas entidades [Line](../line/) ou [Polyline](../polyline/). Você especifica quanto cortar ao longo de cada entidade (d1 e d2), e o comando corta ambas as entidades nesses pontos e insere uma linha de ligação entre elas.
 
 Usar distâncias iguais produz um corte simétrico a 45°; distâncias diferentes produzem um chanfro assimétrico.
 

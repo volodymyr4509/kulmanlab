@@ -5,7 +5,7 @@ description: Lệnh Zoom Out chia mức phóng to hiện tại cho 1.5× và tho
 
 # Thu Nhỏ
 
-Lệnh `zoomout` chia mức phóng to hiện tại cho **1.5×** (tương đương nhân với ~0.667) và thoát ngay lập tức, được căn giữa theo giữa khung nhìn. Đây là nghịch đảo của [Phóng To](./zoom-in).
+Lệnh `zoomout` chia mức phóng to hiện tại cho **1.5×** (tương đương nhân với ~0.667) và thoát ngay lập tức, được căn giữa theo giữa khung nhìn. Đây là nghịch đảo của [Phóng To](../zoom-in/).
 
 ## Thu nhỏ
 
@@ -35,6 +35,6 @@ Mức phóng to luôn hiển thị ở **góc dưới bên phải** của canvas
 
 | Lệnh | Tác dụng |
 |------|---------|
-| [Phóng To](./zoom-in) | Nhân phóng to 1.5× mỗi bước |
-| [Vừa Khung](./fit) | Đặt lại phóng to để hiển thị tất cả thực thể |
-| [Di Chuyển Màn Hình](./pan) | Dịch chuyển khung nhìn mà không phóng to |
+| [Phóng To](../zoom-in/) | Nhân phóng to 1.5× mỗi bước |
+| [Vừa Khung](../fit/) | Đặt lại phóng to để hiển thị tất cả thực thể |
+| [Di Chuyển Màn Hình](../pan/) | Dịch chuyển khung nhìn mà không phóng to |

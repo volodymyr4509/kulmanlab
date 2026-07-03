@@ -64,7 +64,7 @@ Siehe [Texteditor — simple mode](../interface/text-editor#simple-mode) für di
 
 ## Verwandte Befehle
 
-- [Dimension Linear](./dim-linear) — horizontale oder vertikale Bemaßung
-- [Dimension Aligned](./dim-aligned) — an zwei Punkte ausgerichtete Bemaßung
-- [Dimension Radius](./dim-radius) — Radiusbemaßung für Bögen und Kreise
-- [Dimension Diameter](./dim-diameter) — Durchmesserbemaßung für Kreise
+- [Dimension Linear](../dim-linear/) — horizontale oder vertikale Bemaßung
+- [Dimension Aligned](../dim-aligned/) — an zwei Punkte ausgerichtete Bemaßung
+- [Dimension Radius](../dim-radius/) — Radiusbemaßung für Bögen und Kreise
+- [Dimension Diameter](../dim-diameter/) — Durchmesserbemaßung für Kreise

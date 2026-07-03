@@ -7,9 +7,9 @@ keywords: [CAD comando polyline, disegna polilinea CAD, percorso multi-segmento 
 
 # Polyline
 
-Il comando `polyline` disegna un percorso connesso di un numero qualsiasi di segmenti retti, tutti memorizzati come una singola entità `LWPOLYLINE`. Poiché l'intero percorso è un unico oggetto, selezionarlo seleziona ogni segmento contemporaneamente — sposta, ruota o scala l'intera forma in un'unica operazione. Questa è la distinzione chiave dalle [Linee](./line) concatenate, dove ogni segmento è un'entità indipendente.
+Il comando `polyline` disegna un percorso connesso di un numero qualsiasi di segmenti retti, tutti memorizzati come una singola entità `LWPOLYLINE`. Poiché l'intero percorso è un unico oggetto, selezionarlo seleziona ogni segmento contemporaneamente — sposta, ruota o scala l'intera forma in un'unica operazione. Questa è la distinzione chiave dalle [Linee](../line/) concatenate, dove ogni segmento è un'entità indipendente.
 
-Le polilinee possono anche essere **chiuse**: il comando [Rettangolo](./rectangle) usa la stessa entità `LWPOLYLINE` con un flag di chiusura impostato.
+Le polilinee possono anche essere **chiuse**: il comando [Rettangolo](../rectangle/) usa la stessa entità `LWPOLYLINE` con un flag di chiusura impostato.
 
 ## Disegnare una polilinea
 
@@ -39,7 +39,7 @@ Invece di cliccare, digita una posizione esatta per qualsiasi vertice:
 
 ## Blocco angolo e lunghezza segmento esatta
 
-La stessa logica di aggancio a 45° del comando [Linea](./line) si applica tra due punti consecutivi. Quando è bloccato su un asse:
+La stessa logica di aggancio a 45° del comando [Linea](../line/) si applica tra due punti consecutivi. Quando è bloccato su un asse:
 
 | Tasto | Azione |
 |-------|--------|
@@ -70,9 +70,9 @@ Una polilinea selezionata mostra due tipi di grip:
 | **Vertice** | In ogni punto posizionato | Trascina per riposizionare quel vertice; tutti i segmenti connessi si allungano per seguire |
 | **Punto medio del segmento** | Al centro di ogni segmento | Trascina per traslare **entrambi** gli endpoint di quel segmento insieme, mantenendo lunghezza e angolo intatti |
 
-Il grip del punto medio del segmento è esclusivo delle polilinee — permette di far scorrere un singolo segmento lateralmente senza modificarne la lunghezza. Su una [Linea](./line), il grip del punto medio attiva invece il comando Move per l'intera entità.
+Il grip del punto medio del segmento è esclusivo delle polilinee — permette di far scorrere un singolo segmento lateralmente senza modificarne la lunghezza. Su una [Linea](../line/), il grip del punto medio attiva invece il comando Move per l'intera entità.
 
-Non esiste un grip "sposta tutta la polilinea". Per spostare l'intero percorso usa il comando [Move](./move).
+Non esiste un grip "sposta tutta la polilinea". Per spostare l'intero percorso usa il comando [Move](../move/).
 
 ## Selezione delle polilinee
 
@@ -86,17 +86,17 @@ Poiché una polilinea è un'unica entità, una selezione incrociante che tocca q
 
 ## Comandi di modifica supportati
 
-Le polilinee supportano tutte le trasformazioni generali e l'offset, ma **non** il trim o l'extend (quelli sono solo per le [Linee](./line)):
+Le polilinee supportano tutte le trasformazioni generali e l'offset, ma **non** il trim o l'extend (quelli sono solo per le [Linee](../line/)):
 
 | Comando | Effetto sulla polilinea |
 |---------|------------------------|
-| [Move](./move) | Trasla tutti i vertici dello stesso spostamento |
-| [Copy](./copy) | Crea una polilinea identica in una nuova posizione |
-| [Rotate](./rotate) | Ruota tutti i vertici intorno al punto base scelto |
-| [Mirror](./mirror) | Riflette tutti i vertici rispetto all'asse speculare |
-| [Scale](./scale) | Scala tutti i vertici uniformemente dal punto base |
-| [Offset](./offset) | Crea una polilinea parallela a una distanza perpendicolare fissa |
-| [Delete](./delete) | Rimuove la polilinea dal disegno |
+| [Move](../move/) | Trasla tutti i vertici dello stesso spostamento |
+| [Copy](../copy/) | Crea una polilinea identica in una nuova posizione |
+| [Rotate](../rotate/) | Ruota tutti i vertici intorno al punto base scelto |
+| [Mirror](../mirror/) | Riflette tutti i vertici rispetto all'asse speculare |
+| [Scale](../scale/) | Scala tutti i vertici uniformemente dal punto base |
+| [Offset](../offset/) | Crea una polilinea parallela a una distanza perpendicolare fissa |
+| [Delete](../delete/) | Rimuove la polilinea dal disegno |
 
 ## Polyline vs Linea — quando usare quale
 
@@ -110,6 +110,6 @@ Le polilinee supportano tutte le trasformazioni generali e l'offset, ma **non** 
 
 ## DXF — entità LWPOLYLINE
 
-Le polilinee vengono salvate come entità `LWPOLYLINE` nel file DXF. Tutte le proprietà — coordinate dei vertici, flag di chiusura, colore, livello, tipo di linea, scala del tipo di linea e spessore — vengono salvate e ripristinate senza perdita. I rettangoli disegnati con il comando [Rettangolo](./rectangle) vengono anche salvati come `LWPOLYLINE` (chiusa, quattro vertici) e sono indistinguibili a livello DXF.
+Le polilinee vengono salvate come entità `LWPOLYLINE` nel file DXF. Tutte le proprietà — coordinate dei vertici, flag di chiusura, colore, livello, tipo di linea, scala del tipo di linea e spessore — vengono salvate e ripristinate senza perdita. I rettangoli disegnati con il comando [Rettangolo](../rectangle/) vengono anche salvati come `LWPOLYLINE` (chiusa, quattro vertici) e sono indistinguibili a livello DXF.
 
 Le entità `LWPOLYLINE` da qualsiasi applicazione compatibile DXF (LibreCAD, FreeCAD, ecc.) vengono lette nell'editor come polilinee completamente modificabili.

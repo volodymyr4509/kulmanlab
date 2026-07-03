@@ -56,4 +56,4 @@ Selepas titik asas ditetapkan, arahan snap ke paksi 45° (0°, 45°, 90°, 135°
 
 - ViewportCopy hanya tersedia apabila tab susun atur kertas aktif.
 - Viewport yang disalin mewarisi skala, pusat model, keadaan terkunci, dan dimensi yang sama seperti asal.
-- Untuk mencipta viewport baharu dari awal, gunakan [ViewportRectangle](./viewport-rectangle).
+- Untuk mencipta viewport baharu dari awal, gunakan [ViewportRectangle](../viewport-rectangle/).

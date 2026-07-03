@@ -85,13 +85,13 @@ Los cuatro puntos de control cardinales se comportan de manera idéntica — el 
 
 | Comando | Qué le sucede al círculo |
 |---------|--------------------------|
-| [Move](./move) | Traslada el centro; el radio no cambia |
-| [Copy](./copy) | Crea un círculo idéntico en un nuevo centro |
-| [Rotate](./rotate) | Rota el centro alrededor del punto base; el radio no cambia |
-| [Mirror](./mirror) | Refleja el centro respecto al eje de simetría; el radio no cambia |
-| [Scale](./scale) | Escala la posición del centro y multiplica el radio por el factor de escala |
-| [Offset](./offset) | Crea un círculo concéntrico con un radio mayor o menor |
-| [Delete](./delete) | Elimina el círculo |
+| [Move](../move/) | Traslada el centro; el radio no cambia |
+| [Copy](../copy/) | Crea un círculo idéntico en un nuevo centro |
+| [Rotate](../rotate/) | Rota el centro alrededor del punto base; el radio no cambia |
+| [Mirror](../mirror/) | Refleja el centro respecto al eje de simetría; el radio no cambia |
+| [Scale](../scale/) | Escala la posición del centro y multiplica el radio por el factor de escala |
+| [Offset](../offset/) | Crea un círculo concéntrico con un radio mayor o menor |
+| [Delete](../delete/) | Elimina el círculo |
 
 ## Propiedades
 
@@ -120,7 +120,7 @@ Los cuatro puntos de control cardinales se comportan de manera idéntica — el 
 | Cómo dibujar | Centro + radio | Tres puntos en la curva |
 | Entrada escrita | Valor del radio | Ninguna — solo clic |
 | Punto de control de redimensionado | 4 puntos cardinales | Puntos de inicio y fin (ángulo + radio) |
-| Acotación | Radio: [Dim Radius](./dim-radius) · Diámetro: [Dim Diameter](./dim-diameter) | [Dim Radius](./dim-radius) |
+| Acotación | Radio: [Dim Radius](../dim-radius/) · Diámetro: [Dim Diameter](../dim-diameter/) | [Dim Radius](../dim-radius/) |
 | Mejor para | Agujeros completos, círculos de pernos, elementos redondos | Filetes, curvas parciales, caminos arqueados |
 
 ## DXF — entidad CIRCLE

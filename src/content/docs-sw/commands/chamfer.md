@@ -7,7 +7,7 @@ keywords: [amri ya chamfer ya CAD, chamfer ya mstari CAD, mkato wa kona ya diago
 
 # Chamfer
 
-Amri ya `chamfer` inakata kona ya diagonal ya moja kwa moja kati ya vipengele viwili vya [Line](./line) au [Polyline](./polyline). Unabainisha umbali wa kukata nyuma kando ya kila kipengele (d1 na d2), na amri inakata vipengele vyote viwili hadi pointi hizo na kuingiza mstari wa kuunganisha kati yao.
+Amri ya `chamfer` inakata kona ya diagonal ya moja kwa moja kati ya vipengele viwili vya [Line](../line/) au [Polyline](../polyline/). Unabainisha umbali wa kukata nyuma kando ya kila kipengele (d1 na d2), na amri inakata vipengele vyote viwili hadi pointi hizo na kuingiza mstari wa kuunganisha kati yao.
 
 Kutumia umbali sawasawa kunazalisha mkato wa 45° ulio sawasawa; umbali tofauti unazalisha bevel isiyo sawasawa.
 

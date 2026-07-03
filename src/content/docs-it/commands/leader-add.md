@@ -55,5 +55,5 @@ Invece di cliccare, puoi digitare una posizione esatta:
 
 | Comando | Funzione |
 |---------|---------|
-| [Leader](./leader) | Crea un nuovo multileader da zero |
-| [Leader−](./leader-remove) | Rimuove un braccio da un multileader con due o più bracci |
+| [Leader](../leader/) | Crea un nuovo multileader da zero |
+| [Leader−](../leader-remove/) | Rimuove un braccio da un multileader con due o più bracci |

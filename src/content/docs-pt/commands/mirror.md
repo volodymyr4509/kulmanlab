@@ -7,7 +7,7 @@ keywords: [CAD comando mirror, espelhar entidades CAD, simetria mirror CAD, inve
 
 # Mirror
 
-O comando `mirror` cria cópias espelhadas das entidades selecionadas refletidas em relação a um eixo de dois pontos. Os originais são **sempre mantidos** — diferentemente de [Move](./move) ou [Rotate](./rotate), Mirror nunca modifica as entidades existentes; apenas adiciona novas.
+O comando `mirror` cria cópias espelhadas das entidades selecionadas refletidas em relação a um eixo de dois pontos. Os originais são **sempre mantidos** — diferentemente de [Move](../move/) ou [Rotate](../rotate/), Mirror nunca modifica as entidades existentes; apenas adiciona novas.
 
 ## Duas formas de iniciar
 

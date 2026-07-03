@@ -7,9 +7,9 @@ keywords: [CAD trim-kommando, klipp linje CAD, klipp linjeskärning, hover trim-
 
 # Trim
 
-`trim`-kommandot tar bort den del av en [Line](./line) som ligger mellan två intilliggande skärningspunkter, och delar linjen i ett eller två kortare segment. Vilket segment som klipps bestäms av markörens position — håll markören över den del du vill ta bort och klicka för att klippa den.
+`trim`-kommandot tar bort den del av en [Line](../line/) som ligger mellan två intilliggande skärningspunkter, och delar linjen i ett eller två kortare segment. Vilket segment som klipps bestäms av markörens position — håll markören över den del du vill ta bort och klicka för att klippa den.
 
-Trim fungerar endast på **Line-entiteter**. För bågar, cirklar, polylinjer och andra entitetstyper, använd [Delete](./delete) eller greppredigering istället.
+Trim fungerar endast på **Line-entiteter**. För bågar, cirklar, polylinjer och andra entitetstyper, använd [Delete](../delete/) eller greppredigering istället.
 
 ## Klippa en linje
 

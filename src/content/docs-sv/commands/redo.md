@@ -7,7 +7,7 @@ keywords: [CAD redo-kommando, redo-historik CAD, återställ åtgärd CAD, undo 
 
 # Redo
 
-`redo`-kommandot flyttar framåt genom ångrahistoriken och återställer åtgärder som ångrades av [Undo](./undo). Redo är endast tillgängligt när du har stegat tillbaka med Undo och ännu inte har gjort någon ny ändring.
+`redo`-kommandot flyttar framåt genom ångrahistoriken och återställer åtgärder som ångrades av [Undo](../undo/). Redo är endast tillgängligt när du har stegat tillbaka med Undo och ännu inte har gjort någon ny ändring.
 
 ## Så gör du redo
 
@@ -20,7 +20,7 @@ Varje anrop återställer en tidigare ångrad åtgärd. Anropa det upprepade gå
 
 | Detalj | Beteende |
 |--------|-----------|
-| Tillgängligt efter | Ett eller flera [Undo](./undo)-steg |
+| Tillgängligt efter | Ett eller flera [Undo](../undo/)-steg |
 | Rensas av | **Alla nya ritåtgärder** — att lägga till, redigera eller ta bort en entitet |
 | Lagring | Webbläsare, per fil — överlever sidladdning (så länge ingen ny åtgärd gjordes innan omladdningen) |
 | Maximalt djup | Upp till 20 poster (samma pool som Undo) |
@@ -35,4 +35,4 @@ När en ny entitet ritas, tas bort eller ändras rensas redo-stacken och dessa p
 | Tillgängligt när | Efter minst en Undo, utan att någon ny åtgärd vidtagits | Minst en registrerad åtgärd finns |
 | Rensas av | Alla nya ritåtgärder | Ingenting |
 
-Verktygsfältets Redo-knapp är gråtonad när det inte finns några poster att göra om. Använd [Undo](./undo) först för att skapa redo-poster.
+Verktygsfältets Redo-knapp är gråtonad när det inte finns några poster att göra om. Använd [Undo](../undo/) först för att skapa redo-poster.

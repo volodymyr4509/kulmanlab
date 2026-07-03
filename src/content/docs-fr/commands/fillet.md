@@ -7,7 +7,7 @@ keywords: [commande fillet CAO, arrondir angle CAO, arc de congé, arc tangent d
 
 # Fillet
 
-La commande `fillet` arrondit l'angle entre deux entités [Line](./line) en insérant un arc tangent d'un rayon donné et en raccordant chaque ligne jusqu'au point où l'arc commence. Le résultat est un angle lisse et radié reliant les deux lignes.
+La commande `fillet` arrondit l'angle entre deux entités [Line](../line/) en insérant un arc tangent d'un rayon donné et en raccordant chaque ligne jusqu'au point où l'arc commence. Le résultat est un angle lisse et radié reliant les deux lignes.
 
 Fillet fonctionne sur les **entités Line uniquement**.
 

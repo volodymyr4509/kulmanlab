@@ -28,8 +28,8 @@ Cara terpantas untuk pan: **tahan butang tetikus tengah dan seret** pada bila-bi
 | Seret klik tengah | Menggeser viewport | Tidak — berfungsi sentiasa |
 | Roda tatal | Zum ke arah kursor | Tidak — berfungsi sentiasa |
 | Klik dua kali butang tengah | Muatkan semua entiti | Tidak — berfungsi sentiasa |
-| [Zoom In](./zoom-in) / [Zoom Out](./zoom-out) | Zum langkah 1.5× | Tidak |
-| [Fit](./fit) | Muatkan semua entiti dalam pandangan | Tidak |
+| [Zoom In](../zoom-in/) / [Zoom Out](../zoom-out/) | Zum langkah 1.5× | Tidak |
+| [Fit](../fit/) | Muatkan semua entiti dalam pandangan | Tidak |
 
 ## Rujukan papan kekunci
 
@@ -40,5 +40,5 @@ Cara terpantas untuk pan: **tahan butang tetikus tengah dan seret** pada bila-bi
 ## Petua
 
 - Gunakan roda tatal untuk zum ke kawasan sasaran, kemudian pan untuk melaraskan kedudukan dengan tepat.
-- **Klik dua kali butang tetikus tengah** mencetuskan [Fit](./fit) serta-merta — pintasan terpantas untuk menetapkan semula pandangan yang hilang.
+- **Klik dua kali butang tetikus tengah** mencetuskan [Fit](../fit/) serta-merta — pintasan terpantas untuk menetapkan semula pandangan yang hilang.
 - Jika anda sedang menjalankan arahan (cth. meletakkan titik akhir garis), seret klik tengah untuk pan tanpa membatalkan arahan.

@@ -44,6 +44,6 @@ No hay atajo de teclado para este comando. Usa el atajo de **doble clic con el b
 
 | Comando | Qué hace |
 |---------|----------|
-| [Pan](./pan) | Desplaza la ventana gráfica sin hacer zoom |
-| [Zoom In](./zoom-in) | Multiplica el zoom por 1.5× por paso |
-| [Zoom Out](./zoom-out) | Divide el zoom por 1.5× por paso |
+| [Pan](../pan/) | Desplaza la ventana gráfica sin hacer zoom |
+| [Zoom In](../zoom-in/) | Multiplica el zoom por 1.5× por paso |
+| [Zoom Out](../zoom-out/) | Divide el zoom por 1.5× por paso |

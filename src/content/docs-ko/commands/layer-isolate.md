@@ -7,7 +7,7 @@ keywords: [레이어 격리, 레이어 동결 CAD, 레이어 격리 kulmanlab, C
 
 # LayerIsolate
 
-`LayerIsolate` 명령어는 선택한 객체에 속하는 레이어를 **제외한** 모든 레이어를 동결합니다. 아무것도 영구적으로 숨기거나 삭제하지 않고도 특정 기하학에 빠르게 집중할 때 사용합니다 — 완료 후 [LayerUnfreezeAll](./layer-unfreeze-all)로 동결을 해제하세요.
+`LayerIsolate` 명령어는 선택한 객체에 속하는 레이어를 **제외한** 모든 레이어를 동결합니다. 아무것도 영구적으로 숨기거나 삭제하지 않고도 특정 기하학에 빠르게 집중할 때 사용합니다 — 완료 후 [LayerUnfreezeAll](../layer-unfreeze-all/)로 동결을 해제하세요.
 
 ## 두 가지 시작 방법
 
@@ -39,4 +39,4 @@ keywords: [레이어 격리, 레이어 동결 CAD, 레이어 격리 kulmanlab, C
 
 ## 격리 취소
 
-[LayerUnfreezeAll](./layer-unfreeze-all)을 실행하여 한 번에 모든 레이어를 표시 상태로 복원합니다.
+[LayerUnfreezeAll](../layer-unfreeze-all/)을 실행하여 한 번에 모든 레이어를 표시 상태로 복원합니다.

@@ -75,12 +75,12 @@ Zaznaczona etykieta tekstowa eksponuje jeden uchwyt w punkcie kotwicy:
 
 | Polecenie | Co dzieje się z tekstem |
 |-----------|------------------------|
-| [Przesuń](./move) | Przesuwa punkt kotwicy |
-| [Kopiuj](./copy) | Tworzy identyczną etykietę w nowej pozycji |
-| [Obróć](./rotate) | Obraca pozycję kotwicy i dodaje kąt do Stopni obrotu |
-| [Odbij](./mirror) | Odbija punkt kotwicy przez oś odbicia (ciąg tekstu nie jest odwracany) |
-| [Skaluj](./scale) | Skaluje pozycję kotwicy i mnoży wysokość przez współczynnik skali |
-| [Usuń](./delete) | Usuwa etykietę |
+| [Przesuń](../move/) | Przesuwa punkt kotwicy |
+| [Kopiuj](../copy/) | Tworzy identyczną etykietę w nowej pozycji |
+| [Obróć](../rotate/) | Obraca pozycję kotwicy i dodaje kąt do Stopni obrotu |
+| [Odbij](../mirror/) | Odbija punkt kotwicy przez oś odbicia (ciąg tekstu nie jest odwracany) |
+| [Skaluj](../scale/) | Skaluje pozycję kotwicy i mnoży wysokość przez współczynnik skali |
+| [Usuń](../delete/) | Usuwa etykietę |
 
 Tekst nie obsługuje **Odsunięcia**, **Przytnij** ani **Przedłuż**.
 

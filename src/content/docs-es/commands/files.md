@@ -41,15 +41,15 @@ Al abrir KulmanLab CAD, la aplicación carga automáticamente el **archivo modif
 
 No hay un límite fijo en el número de dibujos que puedes guardar, pero el almacenamiento del navegador es finito. Si notas advertencias de almacenamiento, elimina archivos más antiguos desde el panel de Files.
 
-Para eliminar todos los dibujos guardados a la vez, usa el comando [WipeStorage](./wipestorage).
+Para eliminar todos los dibujos guardados a la vez, usa el comando [WipeStorage](../wipestorage/).
 
 ## Nombres de archivo y versiones
 
-Cada archivo tiene una marca de tiempo en su nombre (p. ej. `myplan_May22_14:30:00.dxf`). Esta marca de tiempo se agrega automáticamente al [importar](./import) un archivo, asegurando que reimportar el mismo archivo fuente cree una nueva entrada en lugar de sobrescribir la versión anterior.
+Cada archivo tiene una marca de tiempo en su nombre (p. ej. `myplan_May22_14:30:00.dxf`). Esta marca de tiempo se agrega automáticamente al [importar](../import/) un archivo, asegurando que reimportar el mismo archivo fuente cree una nueva entrada en lugar de sobrescribir la versión anterior.
 
 ## Comandos relacionados
 
-- [Import](./import) — cargar un dibujo desde tu sistema de archivos al almacenamiento del navegador
-- [Export](./export) — descargar un dibujo a tu sistema de archivos
-- [New File](./new-file) — iniciar un dibujo en blanco (también se guarda automáticamente)
-- [WipeStorage](./wipestorage) — borrar todos los archivos guardados del almacenamiento del navegador
+- [Import](../import/) — cargar un dibujo desde tu sistema de archivos al almacenamiento del navegador
+- [Export](../export/) — descargar un dibujo a tu sistema de archivos
+- [New File](../new-file/) — iniciar un dibujo en blanco (también se guarda automáticamente)
+- [WipeStorage](../wipestorage/) — borrar todos los archivos guardados del almacenamiento del navegador

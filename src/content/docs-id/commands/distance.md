@@ -7,7 +7,7 @@ keywords: [CAD ukur jarak, perintah distance, pengukuran titik ke titik, jarak g
 
 # Distance
 
-Perintah `distance` mengukur jarak garis lurus (Euclidean) antara dua titik yang diklik dan mencetak hasilnya di terminal hingga 4 desimal. Ini adalah salah satu dari dua perintah pengukuran — [Angle](./angle) mengukur bukaan sudut pada vertex sebagai gantinya.
+Perintah `distance` mengukur jarak garis lurus (Euclidean) antara dua titik yang diklik dan mencetak hasilnya di terminal hingga 4 desimal. Ini adalah salah satu dari dua perintah pengukuran — [Angle](../angle/) mengukur bukaan sudut pada vertex sebagai gantinya.
 
 ## Anatomi pengukuran jarak
 

@@ -7,7 +7,7 @@ keywords: [comando fillet CAD, redondear esquina CAD, arco de filete, arco tange
 
 # Fillet
 
-El comando `fillet` redondea la esquina entre dos entidades [Line](./line) insertando un arco tangente de un radio dado y recortando cada línea hasta el punto donde comienza el arco. El resultado es una esquina suave con radio que conecta ambas líneas.
+El comando `fillet` redondea la esquina entre dos entidades [Line](../line/) insertando un arco tangente de un radio dado y recortando cada línea hasta el punto donde comienza el arco. El resultado es una esquina suave con radio que conecta ambas líneas.
 
 Fillet funciona **solo con entidades Line**.
 

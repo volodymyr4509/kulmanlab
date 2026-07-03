@@ -106,8 +106,8 @@ keywords: [CAD εντολή leader, σχόλιο multileader, leader CAD, σχό
 
 ## Προσθήκη και αφαίρεση βραχιόνων
 
-- Για προσθήκη επιπλέον βραχίονα βέλους σε υπάρχον leader: [Leader+](./leader-add)
-- Για αφαίρεση βραχίονα από leader με δύο ή περισσότερους: [Leader−](./leader-remove)
+- Για προσθήκη επιπλέον βραχίονα βέλους σε υπάρχον leader: [Leader+](../leader-add/)
+- Για αφαίρεση βραχίονα από leader με δύο ή περισσότερους: [Leader−](../leader-remove/)
 
 ## DXF — μόνο εισαγωγή
 

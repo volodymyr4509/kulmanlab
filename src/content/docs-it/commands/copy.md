@@ -7,7 +7,7 @@ keywords: [comando copy CAD, duplica entità CAD, copia oggetti CAD, clona geome
 
 # Copy
 
-Il comando `copy` crea duplicati traslati delle entità selezionate e li posiziona sfalsati da un punto base a una destinazione — gli originali restano esattamente dove sono. Questa è la differenza fondamentale rispetto a [Move](./move): Copy aggiunge nuove entità al disegno; Move riposiziona quelle esistenti.
+Il comando `copy` crea duplicati traslati delle entità selezionate e li posiziona sfalsati da un punto base a una destinazione — gli originali restano esattamente dove sono. Questa è la differenza fondamentale rispetto a [Move](../move/): Copy aggiunge nuove entità al disegno; Move riposiziona quelle esistenti.
 
 ## Due modi per iniziare
 

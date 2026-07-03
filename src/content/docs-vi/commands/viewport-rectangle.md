@@ -37,4 +37,4 @@ Sau khi đặt khung nhìn, nhấp để chọn nó:
 ## Ghi chú
 
 - ViewportRectangle chỉ khả dụng khi tab bố cục giấy đang hoạt động. Chạy trong không gian mô hình hiển thị thông báo lỗi và thoát.
-- Để sao chép khung nhìn hiện có, dùng [ViewportCopy](./viewport-copy).
+- Để sao chép khung nhìn hiện có, dùng [ViewportCopy](../viewport-copy/).

@@ -28,8 +28,8 @@ The fastest way to pan: **hold the middle mouse button and drag** at any time, e
 | Middle-click drag | Shifts viewport | No — works always |
 | Scroll wheel | Zooms toward cursor | No — works always |
 | Double-click middle button | Fit all entities | No — works always |
-| [Zoom In](./zoom-in) / [Zoom Out](./zoom-out) | Steps zoom 1.5× | No |
-| [Fit](./fit) | Fits all entities in view | No |
+| [Zoom In](../zoom-in/) / [Zoom Out](../zoom-out/) | Steps zoom 1.5× | No |
+| [Fit](../fit/) | Fits all entities in view | No |
 
 ## Keyboard reference
 
@@ -40,5 +40,5 @@ The fastest way to pan: **hold the middle mouse button and drag** at any time, e
 ## Tips
 
 - Use the scroll wheel to zoom toward a target area, then pan to fine-tune position.
-- **Double-click the middle mouse button** triggers [Fit](./fit) instantly — the fastest way to reset a lost view.
+- **Double-click the middle mouse button** triggers [Fit](../fit/) instantly — the fastest way to reset a lost view.
 - If you are mid-command (e.g., placing a line endpoint), middle-click drag to pan without cancelling the command.

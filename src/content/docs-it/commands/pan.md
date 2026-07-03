@@ -28,8 +28,8 @@ Il modo più rapido di fare pan: **tieni premuto il tasto centrale del mouse e t
 | Trascinamento clic centrale | Sposta il viewport | No — funziona sempre |
 | Rotella di scorrimento | Zoom verso il cursore | No — funziona sempre |
 | Doppio clic tasto centrale | Adatta tutte le entità | No — funziona sempre |
-| [Zoom In](./zoom-in) / [Zoom Out](./zoom-out) | Aumenta/diminuisce zoom di 1,5× | No |
-| [Fit](./fit) | Adatta tutte le entità alla vista | No |
+| [Zoom In](../zoom-in/) / [Zoom Out](../zoom-out/) | Aumenta/diminuisce zoom di 1,5× | No |
+| [Fit](../fit/) | Adatta tutte le entità alla vista | No |
 
 ## Riferimento tastiera
 
@@ -40,5 +40,5 @@ Il modo più rapido di fare pan: **tieni premuto il tasto centrale del mouse e t
 ## Suggerimenti
 
 - Usa la rotella di scorrimento per zoomare su un'area target, poi usa Pan per regolare la posizione.
-- **Doppio clic sul tasto centrale del mouse** attiva [Fit](./fit) istantaneamente — il modo più rapido per reimpostare una vista persa.
+- **Doppio clic sul tasto centrale del mouse** attiva [Fit](../fit/) istantaneamente — il modo più rapido per reimpostare una vista persa.
 - Se sei nel mezzo di un comando (es. posizionamento di un endpoint di linea), trascina con il clic centrale per fare pan senza annullare il comando.

@@ -47,4 +47,4 @@ Setelah menempatkan viewport, klik untuk memilihnya:
 ## Catatan
 
 - ViewportRectangle hanya tersedia ketika tab layout kertas aktif. Menjalankannya di model space menampilkan pesan error dan keluar.
-- Untuk menyalin viewport yang ada, gunakan [ViewportCopy](./viewport-copy).
+- Untuk menyalin viewport yang ada, gunakan [ViewportCopy](../viewport-copy/).

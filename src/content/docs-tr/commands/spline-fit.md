@@ -7,7 +7,7 @@ keywords: [CAD spline fit komutu, interpolasyon spline CAD, noktalardan geçen s
 
 # Spline Fit
 
-`splinefit` komutu, tıkladığınız her noktadan geçen kübik spline çizer — interpolasyon eğrisi. Eğrinin yalnızca kontrol noktalarına doğru çekildiği [Spline CV](./spline-cv)'nin aksine, burada eğri tıklanan her koordinata tam olarak ulaşmak zorundadır. Dahili olarak düzenleyici bunu sağlamak için kontrol noktaları uydurur ve bu CV'ler DXF dosyasında uyum noktalarının yanında saklanır.
+`splinefit` komutu, tıkladığınız her noktadan geçen kübik spline çizer — interpolasyon eğrisi. Eğrinin yalnızca kontrol noktalarına doğru çekildiği [Spline CV](../spline-cv/)'nin aksine, burada eğri tıklanan her koordinata tam olarak ulaşmak zorundadır. Dahili olarak düzenleyici bunu sağlamak için kontrol noktaları uydurur ve bu CV'ler DXF dosyasında uyum noktalarının yanında saklanır.
 
 ## Uyum Noktalarıyla Spline Çizimi
 
@@ -51,7 +51,7 @@ Seçili bir uyum spline, uyum noktası başına bir tutamaç gösterir:
 
 Bir tutamacı sürüklemek tüm eğriyi yeniden uydurur, yalnızca komşu segmentleri değil. Bu, bir köşeyi taşımanın yalnızca iki komşu segmenti yeniden şekillendirdiği çoklu çizgi tutamaç düzenlemesinden farklıdır.
 
-"Tüm spline'ı taşı" tutamacı yoktur. Tüm spline'ı ötelemek için [Move](./move) komutunu kullanın.
+"Tüm spline'ı taşı" tutamacı yoktur. Tüm spline'ı ötelemek için [Move](../move/) komutunu kullanın.
 
 ## Uyum Spline Seçimi
 
@@ -65,12 +65,12 @@ Bir tutamacı sürüklemek tüm eğriyi yeniden uydurur, yalnızca komşu segmen
 
 | Komut | Spline'a ne olur |
 |---------|---------------------------|
-| [Move](./move) | Tüm uyum noktalarını ve yeniden hesaplanan CV'leri aynı yer değiştirmeyle ötelemek |
-| [Copy](./copy) | Yeni konumda özdeş spline oluşturur |
-| [Rotate](./rotate) | Tüm uyum noktalarını seçilen temel nokta etrafında döndürür |
-| [Mirror](./mirror) | Tüm uyum noktalarını yansıtma ekseni üzerinden yansıtır |
-| [Scale](./scale) | Tüm uyum noktalarını temel noktadan düzgün şekilde ölçekler |
-| [Delete](./delete) | Spline'ı kaldırır |
+| [Move](../move/) | Tüm uyum noktalarını ve yeniden hesaplanan CV'leri aynı yer değiştirmeyle ötelemek |
+| [Copy](../copy/) | Yeni konumda özdeş spline oluşturur |
+| [Rotate](../rotate/) | Tüm uyum noktalarını seçilen temel nokta etrafında döndürür |
+| [Mirror](../mirror/) | Tüm uyum noktalarını yansıtma ekseni üzerinden yansıtır |
+| [Scale](../scale/) | Tüm uyum noktalarını temel noktadan düzgün şekilde ölçekler |
+| [Delete](../delete/) | Spline'ı kaldırır |
 
 Spline'lar **Offset**, **Trim** veya **Extend**'i desteklemez.
 

@@ -47,5 +47,5 @@ Polecenie mierzy prostopadłą odległość od kursora do segmentów linii każd
 
 | Polecenie | Co robi |
 |-----------|---------|
-| [Linia prowadząca](./leader) | Tworzenie nowej linii wielokierunkowej od zera |
-| [Linia prowadząca+](./leader-add) | Dodawanie ramienia do istniejącej linii wielokierunkowej |
+| [Linia prowadząca](../leader/) | Tworzenie nowej linii wielokierunkowej od zera |
+| [Linia prowadząca+](../leader-add/) | Dodawanie ramienia do istniejącej linii wielokierunkowej |

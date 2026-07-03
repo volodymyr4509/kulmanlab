@@ -5,9 +5,9 @@ description: Lệnh Trim xóa phần của Đường thẳng giữa hai điểm 
 
 # Cắt
 
-Lệnh `trim` xóa phần của [Đường thẳng](./line) nằm giữa hai điểm giao nhau liền kề, chia đường thẳng thành một hoặc hai đoạn ngắn hơn. Đoạn cần cắt được xác định bởi vị trí con trỏ — di chuyển qua phần bạn muốn xóa và nhấp để cắt.
+Lệnh `trim` xóa phần của [Đường thẳng](../line/) nằm giữa hai điểm giao nhau liền kề, chia đường thẳng thành một hoặc hai đoạn ngắn hơn. Đoạn cần cắt được xác định bởi vị trí con trỏ — di chuyển qua phần bạn muốn xóa và nhấp để cắt.
 
-Cắt chỉ hoạt động trên **thực thể Đường thẳng**. Với các cung, hình tròn, đường đa đoạn và các loại thực thể khác, hãy dùng [Xóa](./delete) hoặc chỉnh sửa điểm kéo.
+Cắt chỉ hoạt động trên **thực thể Đường thẳng**. Với các cung, hình tròn, đường đa đoạn và các loại thực thể khác, hãy dùng [Xóa](../delete/) hoặc chỉnh sửa điểm kéo.
 
 ## Cắt đường thẳng
 

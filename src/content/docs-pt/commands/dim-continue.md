@@ -51,7 +51,7 @@ A direção de medição da cadeia é **fixada no ângulo da cota base**:
 - Base linear (V) → todas as continuações medem distância vertical (Δ Y).
 - Base alinhada em qualquer ângulo → todas as continuações medem ao longo desse mesmo ângulo.
 
-Você não pode mudar a direção no meio da cadeia. Inicie uma nova [Dimension Linear](./dim-linear) ou [Dimension Aligned](./dim-aligned) para cotar numa direção diferente.
+Você não pode mudar a direção no meio da cadeia. Inicie uma nova [Dimension Linear](../dim-linear/) ou [Dimension Aligned](../dim-aligned/) para cotar numa direção diferente.
 
 ## Referência de teclado
 

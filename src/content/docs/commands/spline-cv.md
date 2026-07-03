@@ -52,7 +52,7 @@ A selected CV spline exposes one grip per control vertex:
 |------|----------|--------------|
 | **Control vertex** | At each CV position | Drag to move that CV — the curve reshapes toward the new position |
 
-There is no "move whole spline" grip. To translate the entire spline, use the [Move](./move) command.
+There is no "move whole spline" grip. To translate the entire spline, use the [Move](../move/) command.
 
 ## Selecting CV splines
 
@@ -66,12 +66,12 @@ There is no "move whole spline" grip. To translate the entire spline, use the [M
 
 | Command | What happens to the spline |
 |---------|---------------------------|
-| [Move](./move) | Translates all control vertices by the same displacement |
-| [Copy](./copy) | Creates an identical spline at a new position |
-| [Rotate](./rotate) | Rotates all CVs around the chosen base point |
-| [Mirror](./mirror) | Reflects all CVs across the mirror axis |
-| [Scale](./scale) | Scales all CVs uniformly from the base point |
-| [Delete](./delete) | Removes the spline |
+| [Move](../move/) | Translates all control vertices by the same displacement |
+| [Copy](../copy/) | Creates an identical spline at a new position |
+| [Rotate](../rotate/) | Rotates all CVs around the chosen base point |
+| [Mirror](../mirror/) | Reflects all CVs across the mirror axis |
+| [Scale](../scale/) | Scales all CVs uniformly from the base point |
+| [Delete](../delete/) | Removes the spline |
 
 Splines do not support **Offset**, **Trim**, or **Extend**.
 

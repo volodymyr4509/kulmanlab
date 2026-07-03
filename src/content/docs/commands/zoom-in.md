@@ -41,6 +41,6 @@ There are no keyboard shortcuts for this command. Use the scroll wheel instead �
 
 | Command | What it does |
 |---------|-------------|
-| [Zoom Out](./zoom-out) | Divides zoom by 1.5× per step |
-| [Fit](./fit) | Resets zoom to show all entities |
-| [Pan](./pan) | Shifts the viewport without zooming |
+| [Zoom Out](../zoom-out/) | Divides zoom by 1.5× per step |
+| [Fit](../fit/) | Resets zoom to show all entities |
+| [Pan](../pan/) | Shifts the viewport without zooming |

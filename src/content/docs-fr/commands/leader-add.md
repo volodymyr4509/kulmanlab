@@ -55,5 +55,5 @@ Au lieu de cliquer, vous pouvez taper une position exacte :
 
 | Commande | Action |
 |----------|--------|
-| [Leader](./leader) | Créer un nouveau multirépère depuis zéro |
-| [Leader−](./leader-remove) | Supprimer un bras d'un multirépère qui en a deux ou plus |
+| [Leader](../leader/) | Créer un nouveau multirépère depuis zéro |
+| [Leader−](../leader-remove/) | Supprimer un bras d'un multirépère qui en a deux ou plus |

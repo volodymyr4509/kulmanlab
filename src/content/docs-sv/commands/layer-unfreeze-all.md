@@ -15,7 +15,7 @@ Skriv `LayerUnfreezeAll` i terminalen eller klicka på verktygsfältsknappen **U
 
 ## När det används
 
-Används vanligtvis efter [LayerIsolate](./layer-isolate) för att återställa alla lager till sitt normala synliga tillstånd.
+Används vanligtvis efter [LayerIsolate](../layer-isolate/) för att återställa alla lager till sitt normala synliga tillstånd.
 
 ## Beteendedetaljer
 

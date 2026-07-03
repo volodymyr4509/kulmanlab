@@ -50,6 +50,6 @@ Chỉ các thực thể hình học được bao gồm:
 
 ## Các lệnh liên quan
 
-- [Nhập](./import) — mở tệp DXF hoặc JSON
-- [In](./print) — xuất canvas dưới dạng hình ảnh PNG, JPEG, WebP hoặc PDF
-- [Tệp](./files) — duyệt bản vẽ được lưu trong bộ nhớ trình duyệt
+- [Nhập](../import/) — mở tệp DXF hoặc JSON
+- [In](../print/) — xuất canvas dưới dạng hình ảnh PNG, JPEG, WebP hoặc PDF
+- [Tệp](../files/) — duyệt bản vẽ được lưu trong bộ nhớ trình duyệt

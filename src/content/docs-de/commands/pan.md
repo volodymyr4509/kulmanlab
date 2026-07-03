@@ -28,8 +28,8 @@ Der schnellste Weg zum Verschieben: **Mittlere Maustaste gedrückt halten und zi
 | Mittelmaus-Ziehen | Ansicht verschieben | Nein — funktioniert immer |
 | Mausrad | Zum Cursor heran-/herauszoomen | Nein — funktioniert immer |
 | Mittlere Maustaste doppelklicken | Alle Entitäten einpassen | Nein — funktioniert immer |
-| [Zoom In](./zoom-in) / [Zoom Out](./zoom-out) | Zoom um 1,5× stufenweise | Nein |
-| [Fit](./fit) | Alle Entitäten in die Ansicht einpassen | Nein |
+| [Zoom In](../zoom-in/) / [Zoom Out](../zoom-out/) | Zoom um 1,5× stufenweise | Nein |
+| [Fit](../fit/) | Alle Entitäten in die Ansicht einpassen | Nein |
 
 ## Tastaturkürzel
 
@@ -40,5 +40,5 @@ Der schnellste Weg zum Verschieben: **Mittlere Maustaste gedrückt halten und zi
 ## Tipps
 
 - Verwenden Sie das Mausrad, um zu einem Zielbereich zu zoomen, und verschieben Sie dann die Ansicht zur Feinpositionierung.
-- **Mittlere Maustaste doppelklicken** löst sofort [Fit](./fit) aus — der schnellste Weg, eine verlorene Ansicht zurückzusetzen.
+- **Mittlere Maustaste doppelklicken** löst sofort [Fit](../fit/) aus — der schnellste Weg, eine verlorene Ansicht zurückzusetzen.
 - Wenn Sie sich mitten in einem Befehl befinden (z.B. Linienendpunkt platzieren), ziehen Sie mit der mittleren Maustaste, um zu verschieben, ohne den Befehl abzubrechen.

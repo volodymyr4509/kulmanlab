@@ -51,7 +51,7 @@ keywords: [CAD dimension continue, dimcontinue, پیمائشیں جوڑیں CAD,
 - Linear بیس (V) → تمام تسلسل عمودی فاصلہ ناپتے ہیں (Δ Y)۔
 - کسی بھی زاویے پر Aligned بیس → تمام تسلسل اس ایک زاویے کے ساتھ ناپتے ہیں۔
 
-آپ زنجیر کے درمیان میں سمت نہیں بدل سکتے۔ مختلف سمت میں پیمائش کے لیے نئی [Dimension Linear](./dim-linear) یا [Dimension Aligned](./dim-aligned) شروع کریں۔
+آپ زنجیر کے درمیان میں سمت نہیں بدل سکتے۔ مختلف سمت میں پیمائش کے لیے نئی [Dimension Linear](../dim-linear/) یا [Dimension Aligned](../dim-aligned/) شروع کریں۔
 
 ## کی بورڈ حوالہ
 

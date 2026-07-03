@@ -41,6 +41,6 @@ Es gibt keine Tastaturkürzel für diesen Befehl. Verwenden Sie stattdessen das 
 
 | Befehl | Funktion |
 |--------|----------|
-| [Zoom Out](./zoom-out) | Teilt den Zoom durch 1,5× pro Schritt |
-| [Fit](./fit) | Setzt den Zoom zurück, um alle Entitäten anzuzeigen |
-| [Pan](./pan) | Verschiebt den Viewport ohne Zoomen |
+| [Zoom Out](../zoom-out/) | Teilt den Zoom durch 1,5× pro Schritt |
+| [Fit](../fit/) | Setzt den Zoom zurück, um alle Entitäten anzuzeigen |
+| [Pan](../pan/) | Verschiebt den Viewport ohne Zoomen |

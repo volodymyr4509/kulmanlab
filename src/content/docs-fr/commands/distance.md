@@ -7,7 +7,7 @@ keywords: [mesurer distance CAO, commande distance, mesure point à point, dista
 
 # Distance
 
-La commande `distance` mesure la distance en ligne droite (euclidienne) entre deux points sélectionnés et affiche le résultat dans le terminal avec 4 décimales. C'est l'une des deux commandes de mesure — [Angle](./angle) mesure l'ouverture angulaire à un sommet.
+La commande `distance` mesure la distance en ligne droite (euclidienne) entre deux points sélectionnés et affiche le résultat dans le terminal avec 4 décimales. C'est l'une des deux commandes de mesure — [Angle](../angle/) mesure l'ouverture angulaire à un sommet.
 
 ## Anatomie d'une mesure de distance
 

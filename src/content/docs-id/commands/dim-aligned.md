@@ -7,7 +7,7 @@ keywords: [dimensi sejajar CAD, dimaligned, dimensi diagonal CAD, dimensi jarak 
 
 # Dimension Aligned
 
-Perintah `dimaligned` menempatkan dimensi yang mengukur **jarak garis lurus yang sebenarnya** antara dua titik. Garis dimensi berjalan sejajar dengan garis yang menghubungkan dua titik, sehingga dapat berada pada sudut mana saja. Ini adalah perbedaan utama dari [Dimension Linear](./dim-linear), yang dibatasi horizontal atau vertikal.
+Perintah `dimaligned` menempatkan dimensi yang mengukur **jarak garis lurus yang sebenarnya** antara dua titik. Garis dimensi berjalan sejajar dengan garis yang menghubungkan dua titik, sehingga dapat berada pada sudut mana saja. Ini adalah perbedaan utama dari [Dimension Linear](../dim-linear/), yang dibatasi horizontal atau vertikal.
 
 ## Anatomi dimensi sejajar
 
@@ -80,7 +80,7 @@ Lihat [Text Editor — mode sederhana](../interface/text-editor#simple-mode) unt
 
 ## Merantai dimensi
 
-Untuk menambahkan lebih banyak dimensi yang berlanjut dari garis ekstensi kedua yang ini, gunakan [Dimension Continue](./dim-continue) — itu terkunci pada sudut pengukuran yang sama dengan dimensi sejajar ini.
+Untuk menambahkan lebih banyak dimensi yang berlanjut dari garis ekstensi kedua yang ini, gunakan [Dimension Continue](../dim-continue/) — itu terkunci pada sudut pengukuran yang sama dengan dimensi sejajar ini.
 
 ## DXF — entitas DIMENSION (tipe sejajar)
 

@@ -7,9 +7,9 @@ keywords: [CAD comando trim, cortar linha CAD, cortar linha interseção, prévi
 
 # Trim
 
-O comando `trim` remove a porção de uma [Linha](./line) que fica entre dois pontos de interseção adjacentes, dividindo a linha em um ou dois segmentos mais curtos. O segmento a cortar é determinado pela posição do cursor — passe sobre a parte que deseja remover e clique para cortar.
+O comando `trim` remove a porção de uma [Linha](../line/) que fica entre dois pontos de interseção adjacentes, dividindo a linha em um ou dois segmentos mais curtos. O segmento a cortar é determinado pela posição do cursor — passe sobre a parte que deseja remover e clique para cortar.
 
-Trim funciona **apenas em entidades Linha**. Para arcos, círculos, polilinhas e outros tipos de entidade use [Delete](./delete) ou edição de grip.
+Trim funciona **apenas em entidades Linha**. Para arcos, círculos, polilinhas e outros tipos de entidade use [Delete](../delete/) ou edição de grip.
 
 ## Cortando uma linha
 

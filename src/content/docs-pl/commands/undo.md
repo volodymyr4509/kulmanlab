@@ -36,4 +36,4 @@ Każda mutacja elementu jest zapisywana: rysowanie nowych elementów, usuwanie e
 | Dostępne gdy | Istnieje co najmniej jedna zarejestrowana akcja | Po wykonaniu co najmniej jednego Cofnij bez podjęcia żadnej nowej akcji |
 | Czyszczone przez | Nic — historia akumuluje się do limitu 20 kroków | Dowolna nowa akcja rysowania |
 
-Użyj [Ponów](./redo), aby ponownie zastosować cofniętą akcję. Przyciski paska narzędzi są wyszarzone, gdy odpowiedni kierunek jest niedostępny.
+Użyj [Ponów](../redo/), aby ponownie zastosować cofniętą akcję. Przyciski paska narzędzi są wyszarzone, gdy odpowiedni kierunek jest niedostępny.

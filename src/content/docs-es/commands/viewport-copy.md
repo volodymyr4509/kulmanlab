@@ -56,4 +56,4 @@ Después de establecer el punto base, el comando se ajusta a ejes de 45° (0°, 
 
 - ViewportCopy solo está disponible cuando una pestaña de diseño de papel está activa.
 - La ventana gráfica copiada hereda la misma escala, centro del modelo, estado de bloqueo y dimensiones que la original.
-- Para crear una nueva ventana gráfica desde cero, usa [ViewportRectangle](./viewport-rectangle).
+- Para crear una nueva ventana gráfica desde cero, usa [ViewportRectangle](../viewport-rectangle/).

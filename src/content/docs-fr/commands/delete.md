@@ -7,7 +7,7 @@ keywords: [commande delete CAO, supprimer entités CAO, effacer objets CAO, touc
 
 # Delete
 
-La commande `delete` supprime les entités sélectionnées du dessin. Les suppressions sont enregistrées dans l'historique [Undo](./undo) et peuvent être annulées avec jusqu'à 20 étapes. Il n'y a pas de dialogue séparé de confirmation — la confirmation est une simple pression de touche.
+La commande `delete` supprime les entités sélectionnées du dessin. Les suppressions sont enregistrées dans l'historique [Undo](../undo/) et peuvent être annulées avec jusqu'à 20 étapes. Il n'y a pas de dialogue séparé de confirmation — la confirmation est une simple pression de touche.
 
 ## Deux façons de supprimer
 
@@ -43,7 +43,7 @@ Cliquer sur l'entité → appuyer sur Suppr → terminé
 
 ## Récupérer les entités supprimées
 
-Les suppressions sont annulables avec la commande [Undo](./undo) (tapez `undo` ou utilisez le bouton de la barre d'outils). Jusqu'à **20 étapes** peuvent être annulées par fichier, et l'historique persiste entre les rechargements de page. Si vous avez dépassé 20 suppressions sans sauvegarder, les suppressions antérieures ne peuvent pas être récupérées.
+Les suppressions sont annulables avec la commande [Undo](../undo/) (tapez `undo` ou utilisez le bouton de la barre d'outils). Jusqu'à **20 étapes** peuvent être annulées par fichier, et l'historique persiste entre les rechargements de page. Si vous avez dépassé 20 suppressions sans sauvegarder, les suppressions antérieures ne peuvent pas être récupérées.
 
 ## Entités supportées
 

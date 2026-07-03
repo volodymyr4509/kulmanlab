@@ -7,7 +7,7 @@ keywords: [CAD dimension linear, kipimo cha usawa CAD, kipimo cha wima CAD, diml
 
 # Dimension Linear
 
-Amri ya `dimlinear` huweka kipimo cha usawa au wima kati ya asili mbili za mistari ya upanuzi. Mstari wa kipimo daima unakwenda kwa usawa kabisa au wima kabisa — hauwezi kuwekwa kwa pembe yoyote. Tumia [Dimension Aligned](./dim-aligned) unapohitaji kipimo sambamba na mstari wa mwingiliano.
+Amri ya `dimlinear` huweka kipimo cha usawa au wima kati ya asili mbili za mistari ya upanuzi. Mstari wa kipimo daima unakwenda kwa usawa kabisa au wima kabisa — hauwezi kuwekwa kwa pembe yoyote. Tumia [Dimension Aligned](../dim-aligned/) unapohitaji kipimo sambamba na mstari wa mwingiliano.
 
 ## Muundo wa kipimo cha mstari
 
@@ -89,7 +89,7 @@ Angalia [Text Editor — hali rahisi](../interface/text-editor#simple-mode) kwa 
 
 ## Kuunganisha vipimo
 
-Kuongeza vipimo zaidi vikiendelea kutoka mstari wa mwisho wa upanuzi, tumia [Dimension Continue](./dim-continue) mara baada ya kuweka hiki.
+Kuongeza vipimo zaidi vikiendelea kutoka mstari wa mwisho wa upanuzi, tumia [Dimension Continue](../dim-continue/) mara baada ya kuweka hiki.
 
 ## DXF — kiumbe cha DIMENSION
 

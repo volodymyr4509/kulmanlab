@@ -7,7 +7,7 @@ keywords: [CAD radius dimension, dimradius, annotate circle radius, arc radius d
 
 # Dimension Radius
 
-The `dimradius` command places a radius dimension on an arc or circle. The dimension line runs from the center to a point on the circumference in the cursor's direction, labeled `R <value>`. To dimension a full diameter instead, use [Dimension Diameter](./dim-diameter).
+The `dimradius` command places a radius dimension on an arc or circle. The dimension line runs from the center to a point on the circumference in the cursor's direction, labeled `R <value>`. To dimension a full diameter instead, use [Dimension Diameter](../dim-diameter/).
 
 ## Anatomy of a radius dimension
 

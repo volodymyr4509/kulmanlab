@@ -7,7 +7,7 @@ keywords: [CAD zoom out, reduce viewport zoom, zoom out command, overview CAD, 1
 
 # Zoom Out
 
-The `zoomout` command divides the current zoom level by **1.5×** (equivalent to multiplying by ~0.667) and exits immediately, centered on the viewport midpoint. It is the inverse of [Zoom In](./zoom-in).
+The `zoomout` command divides the current zoom level by **1.5×** (equivalent to multiplying by ~0.667) and exits immediately, centered on the viewport midpoint. It is the inverse of [Zoom In](../zoom-in/).
 
 ## Zooming out
 
@@ -41,6 +41,6 @@ There are no keyboard shortcuts for this command. Use the scroll wheel instead �
 
 | Command | What it does |
 |---------|-------------|
-| [Zoom In](./zoom-in) | Multiplies zoom by 1.5× per step |
-| [Fit](./fit) | Resets zoom to show all entities |
-| [Pan](./pan) | Shifts the viewport without zooming |
+| [Zoom In](../zoom-in/) | Multiplies zoom by 1.5× per step |
+| [Fit](../fit/) | Resets zoom to show all entities |
+| [Pan](../pan/) | Shifts the viewport without zooming |

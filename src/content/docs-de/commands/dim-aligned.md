@@ -7,7 +7,7 @@ keywords: [CAD Bemaßung ausgerichtet, dimaligned, diagonale Bemaßung CAD, wahr
 
 # Dimension Aligned
 
-Der `dimaligned`-Befehl platziert eine Bemaßung, die den **tatsächlichen geradlinigen Abstand** zwischen zwei Punkten misst. Die Bemaßungslinie verläuft parallel zur die beiden Punkte verbindenden Linie, sodass sie in beliebigem Winkel stehen kann. Dies ist der wesentliche Unterschied zu [Dimension Linear](./dim-linear), das auf horizontal oder vertikal beschränkt ist.
+Der `dimaligned`-Befehl platziert eine Bemaßung, die den **tatsächlichen geradlinigen Abstand** zwischen zwei Punkten misst. Die Bemaßungslinie verläuft parallel zur die beiden Punkte verbindenden Linie, sodass sie in beliebigem Winkel stehen kann. Dies ist der wesentliche Unterschied zu [Dimension Linear](../dim-linear/), das auf horizontal oder vertikal beschränkt ist.
 
 ## Aufbau einer ausgerichteten Bemaßung
 
@@ -80,7 +80,7 @@ Siehe [Texteditor — simple mode](../interface/text-editor#simple-mode) für di
 
 ## Bemaßungen verketten
 
-Um weitere Bemaßungen ab der zweiten Maßhilfslinie dieser Bemaßung fortzusetzen, verwenden Sie [Dimension Continue](./dim-continue) — es sperrt auf den gleichen Messwinkel wie diese ausgerichtete Bemaßung.
+Um weitere Bemaßungen ab der zweiten Maßhilfslinie dieser Bemaßung fortzusetzen, verwenden Sie [Dimension Continue](../dim-continue/) — es sperrt auf den gleichen Messwinkel wie diese ausgerichtete Bemaßung.
 
 ## DXF — DIMENSION-Element (ausgerichteter Typ)
 

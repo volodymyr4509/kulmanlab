@@ -81,13 +81,13 @@ Vipini vya mhimili mkubwa na mdogo ni huru — unaweza kubadilisha umbo la duara
 
 | Amri | Kinachotokea kwa duaradufu |
 |---------|-----------------------------|
-| [Move](./move) | Huhamisha kituo; mihimili yote haibadiliki |
-| [Copy](./copy) | Huunda duaradufu sawa kwenye kituo kipya |
-| [Rotate](./rotate) | Huzungusha nafasi ya kituo na vektа ya mhimili mkubwa kwa pembe sawa |
-| [Mirror](./mirror) | Huakisi kituo na kuhesabu upya mwelekeo wa mhimili mkubwa kwenye mhimili wa kioo |
-| [Scale](./scale) | Hupanua nafasi ya kituo na kuzidisha urefu wa nusu-mihimili yote kwa kipengele |
-| [Offset](./offset) | Huunda duaradufu ya muunganiko iliyowekwa nje au ndani kwa umbali maalum |
-| [Delete](./delete) | Huondoa duaradufu |
+| [Move](../move/) | Huhamisha kituo; mihimili yote haibadiliki |
+| [Copy](../copy/) | Huunda duaradufu sawa kwenye kituo kipya |
+| [Rotate](../rotate/) | Huzungusha nafasi ya kituo na vektа ya mhimili mkubwa kwa pembe sawa |
+| [Mirror](../mirror/) | Huakisi kituo na kuhesabu upya mwelekeo wa mhimili mkubwa kwenye mhimili wa kioo |
+| [Scale](../scale/) | Hupanua nafasi ya kituo na kuzidisha urefu wa nusu-mihimili yote kwa kipengele |
+| [Offset](../offset/) | Huunda duaradufu ya muunganiko iliyowekwa nje au ndani kwa umbali maalum |
+| [Delete](../delete/) | Huondoa duaradufu |
 
 ## Sifa
 

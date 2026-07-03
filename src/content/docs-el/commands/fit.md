@@ -44,6 +44,6 @@ keywords: [CAD fit view, zoom to fit, προσαρμογή όλων οντοτή
 
 | Εντολή | Τι κάνει |
 |--------|----------|
-| [Pan](./pan) | Μετατοπίζει το viewport χωρίς zoom |
-| [Zoom In](./zoom-in) | Πολλαπλασιάζει zoom κατά 1.5× ανά βήμα |
-| [Zoom Out](./zoom-out) | Διαιρεί zoom κατά 1.5× ανά βήμα |
+| [Pan](../pan/) | Μετατοπίζει το viewport χωρίς zoom |
+| [Zoom In](../zoom-in/) | Πολλαπλασιάζει zoom κατά 1.5× ανά βήμα |
+| [Zoom Out](../zoom-out/) | Διαιρεί zoom κατά 1.5× ανά βήμα |

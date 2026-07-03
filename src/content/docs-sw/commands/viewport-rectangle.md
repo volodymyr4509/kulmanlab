@@ -47,4 +47,4 @@ Baada ya kuweka mwonekano, bonyeza kuuchagua:
 ## Maelezo
 
 - ViewportRectangle inapatikana tu wakati kichupo cha mpangilio wa karatasi kiko hai. Kuiendeshea katika nafasi ya mfano inaonyesha ujumbe wa hitilafu na kutoka.
-- Kuiga mwonekano uliopo, tumia [ViewportCopy](./viewport-copy).
+- Kuiga mwonekano uliopo, tumia [ViewportCopy](../viewport-copy/).

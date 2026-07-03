@@ -7,7 +7,7 @@ keywords: [CAD copy komutu, nesneleri kopyala CAD, nesneleri çoğalt CAD, geome
 
 # Copy
 
-`copy` komutu, seçili nesnelerin öteleme kopyalarını oluşturur ve bunları temel noktadan hedef noktaya olan kaymaya göre yerleştirir — orijinaller tam olarak yerlerinde kalır. Bu [Move](./move) komutundan temel farktır: Copy çizime yeni nesneler ekler; Move mevcut nesneleri taşır.
+`copy` komutu, seçili nesnelerin öteleme kopyalarını oluşturur ve bunları temel noktadan hedef noktaya olan kaymaya göre yerleştirir — orijinaller tam olarak yerlerinde kalır. Bu [Move](../move/) komutundan temel farktır: Copy çizime yeni nesneler ekler; Move mevcut nesneleri taşır.
 
 ## İki Başlatma Yöntemi
 

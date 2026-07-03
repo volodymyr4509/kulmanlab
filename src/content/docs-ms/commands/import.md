@@ -46,13 +46,13 @@ Entiti yang menggunakan jenis DXF yang tidak disokong dilangkau secara senyap �
 
 ## Penamaan fail dan storan
 
-Apabila anda mengimport fail, cap masa ditambahkan pada nama fail (contohnya `myplan_May22_14:30:00.dxf`). Ini membolehkan anda menyimpan berbilang versi lukisan yang sama dalam [Fail Terkini](./files) tanpa perlanggaran nama. Jika nama fail sudah mengandungi cap masa, ia digunakan seadanya.
+Apabila anda mengimport fail, cap masa ditambahkan pada nama fail (contohnya `myplan_May22_14:30:00.dxf`). Ini membolehkan anda menyimpan berbilang versi lukisan yang sama dalam [Fail Terkini](../files/) tanpa perlanggaran nama. Jika nama fail sudah mengandungi cap masa, ia digunakan seadanya.
 
-Lukisan disimpan secara automatik ke storan pelayar (IndexedDB) selepas import, jadi ia muncul dalam panel [Files](./files) dan bertahan muat semula halaman.
+Lukisan disimpan secara automatik ke storan pelayar (IndexedDB) selepas import, jadi ia muncul dalam panel [Files](../files/) dan bertahan muat semula halaman.
 
 ## Apa yang berlaku pada lukisan semasa
 
-Mengimport menggantikan kanvas semasa. Tiada penggabungan atau penambahan. Jika anda mempunyai perubahan yang belum disimpan, [eksport](./export) lukisan semasa dahulu.
+Mengimport menggantikan kanvas semasa. Tiada penggabungan atau penambahan. Jika anda mempunyai perubahan yang belum disimpan, [eksport](../export/) lukisan semasa dahulu.
 
 ## Semasa permulaan
 
@@ -68,6 +68,6 @@ KulmanLab membuka semula fail yang paling baru-baru ini diedit secara automatik 
 
 ## Arahan berkaitan
 
-- [Export](./export) — muat turun lukisan semasa sebagai DXF atau JSON
-- [Files](./files) — semak imbas dan pulihkan lukisan yang disimpan dalam pelayar
-- [New File](./new-file) — mulakan lukisan kosong
+- [Export](../export/) — muat turun lukisan semasa sebagai DXF atau JSON
+- [Files](../files/) — semak imbas dan pulihkan lukisan yang disimpan dalam pelayar
+- [New File](../new-file/) — mulakan lukisan kosong

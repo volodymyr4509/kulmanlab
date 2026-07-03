@@ -55,5 +55,5 @@ Anstelle eines Klicks können Sie eine genaue Position eingeben:
 
 | Befehl | Funktion |
 |--------|----------|
-| [Leader](./leader) | Eine neue Mehrfachführungslinie von Grund auf erstellen |
-| [Leader−](./leader-remove) | Einen Arm von einer Mehrfachführungslinie mit zwei oder mehr Armen entfernen |
+| [Leader](../leader/) | Eine neue Mehrfachführungslinie von Grund auf erstellen |
+| [Leader−](../leader-remove/) | Einen Arm von einer Mehrfachführungslinie mit zwei oder mehr Armen entfernen |

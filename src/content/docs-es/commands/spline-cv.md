@@ -52,7 +52,7 @@ Una spline CV seleccionada expone un agarre por vértice de control:
 |--------|----------|----------|
 | **Vértice de control** | En cada posición CV | Arrastrar para mover ese CV — la curva se reforma hacia la nueva posición |
 
-No hay un agarre de "mover toda la spline". Para trasladar la spline completa, usa el comando [Move](./move).
+No hay un agarre de "mover toda la spline". Para trasladar la spline completa, usa el comando [Move](../move/).
 
 ## Seleccionar splines CV
 
@@ -66,12 +66,12 @@ No hay un agarre de "mover toda la spline". Para trasladar la spline completa, u
 
 | Comando | Qué ocurre con la spline |
 |---------|--------------------------|
-| [Move](./move) | Traslada todos los vértices de control con el mismo desplazamiento |
-| [Copy](./copy) | Crea una spline idéntica en una nueva posición |
-| [Rotate](./rotate) | Rota todos los CVs alrededor del punto base elegido |
-| [Mirror](./mirror) | Refleja todos los CVs respecto al eje de simetría |
-| [Scale](./scale) | Escala todos los CVs uniformemente desde el punto base |
-| [Delete](./delete) | Elimina la spline |
+| [Move](../move/) | Traslada todos los vértices de control con el mismo desplazamiento |
+| [Copy](../copy/) | Crea una spline idéntica en una nueva posición |
+| [Rotate](../rotate/) | Rota todos los CVs alrededor del punto base elegido |
+| [Mirror](../mirror/) | Refleja todos los CVs respecto al eje de simetría |
+| [Scale](../scale/) | Escala todos los CVs uniformemente desde el punto base |
+| [Delete](../delete/) | Elimina la spline |
 
 Las splines no admiten **Offset**, **Trim** ni **Extend**.
 

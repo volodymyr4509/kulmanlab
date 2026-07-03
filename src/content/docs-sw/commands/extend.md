@@ -7,7 +7,7 @@ keywords: [CAD extend command, extend line CAD, stretch line to boundary, line e
 
 # Extend
 
-Amri ya `extend` hunyoosha mwisho wa karibu wa [Line](./line) hadi makutano ya karibu zaidi ambayo yangeundwa na kiumbe kingine katika mchoro. Egemea karibu na mwisho unaotaka kunyoosha — hakikisho linaonyesha mstari ulionyooshwa — kisha bonyeza kutekeleza.
+Amri ya `extend` hunyoosha mwisho wa karibu wa [Line](../line/) hadi makutano ya karibu zaidi ambayo yangeundwa na kiumbe kingine katika mchoro. Egemea karibu na mwisho unaotaka kunyoosha — hakikisho linaonyesha mstari ulionyooshwa — kisha bonyeza kutekeleza.
 
 Extend inafanya kazi kwenye **viumbe vya Line pekee**. Mipaka ambayo mstari unanyooshwa kwake inaweza kuwa aina yoyote nyingine ya kiumbe isipokuwa Text, Mtext, Multileader, na Spline.
 

@@ -7,7 +7,7 @@ keywords: [comando copy CAD, duplicar entidades CAD, copiar objetos CAD, clonar 
 
 # Copy
 
-El comando `copy` crea duplicados trasladados de las entidades seleccionadas y los coloca desplazados desde un punto base hasta un destino — los originales permanecen exactamente donde están. Esta es la diferencia clave con [Move](./move): Copy agrega nuevas entidades al dibujo; Move reubica las existentes.
+El comando `copy` crea duplicados trasladados de las entidades seleccionadas y los coloca desplazados desde un punto base hasta un destino — los originales permanecen exactamente donde están. Esta es la diferencia clave con [Move](../move/): Copy agrega nuevas entidades al dibujo; Move reubica las existentes.
 
 ## Dos formas de iniciar
 

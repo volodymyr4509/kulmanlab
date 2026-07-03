@@ -41,15 +41,15 @@ Apabila anda membuka KulmanLab CAD, aplikasi memuatkan secara automatik **fail y
 
 Tiada had tetap bilangan lukisan yang boleh anda simpan, tetapi storan pelayar adalah terhad. Jika anda perasan amaran storan, padam fail yang lebih lama dari panel Files.
 
-Untuk membuang semua lukisan yang disimpan sekaligus, gunakan arahan [WipeStorage](./wipestorage).
+Untuk membuang semua lukisan yang disimpan sekaligus, gunakan arahan [WipeStorage](../wipestorage/).
 
 ## Nama fail dan versi
 
-Setiap fail mempunyai cap masa dalam namanya (cth. `myplan_May22_14:30:00.dxf`). Cap masa ini ditambahkan secara automatik apabila anda [mengimport](./import) fail, memastikan mengimport semula fail sumber yang sama mencipta entri baharu dan bukannya menimpa versi sebelumnya.
+Setiap fail mempunyai cap masa dalam namanya (cth. `myplan_May22_14:30:00.dxf`). Cap masa ini ditambahkan secara automatik apabila anda [mengimport](../import/) fail, memastikan mengimport semula fail sumber yang sama mencipta entri baharu dan bukannya menimpa versi sebelumnya.
 
 ## Arahan berkaitan
 
-- [Import](./import) — muatkan lukisan dari sistem fail anda ke storan pelayar
-- [Export](./export) — muat turun lukisan ke sistem fail anda
-- [New File](./new-file) — mulakan lukisan kosong (juga disimpan secara automatik)
-- [WipeStorage](./wipestorage) — kosongkan semua fail yang disimpan dari storan pelayar
+- [Import](../import/) — muatkan lukisan dari sistem fail anda ke storan pelayar
+- [Export](../export/) — muat turun lukisan ke sistem fail anda
+- [New File](../new-file/) — mulakan lukisan kosong (juga disimpan secara automatik)
+- [WipeStorage](../wipestorage/) — kosongkan semua fail yang disimpan dari storan pelayar

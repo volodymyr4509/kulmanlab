@@ -64,7 +64,7 @@ Lihat [Text Editor — mod mudah](../interface/text-editor#simple-mode) untuk ru
 
 ## Arahan berkaitan
 
-- [Dimension Linear](./dim-linear) — dimensi mendatar atau menegak
-- [Dimension Aligned](./dim-aligned) — dimensi selaras dengan dua titik
-- [Dimension Radius](./dim-radius) — dimensi jejari untuk lengkok dan bulatan
-- [Dimension Diameter](./dim-diameter) — dimensi diameter untuk bulatan
+- [Dimension Linear](../dim-linear/) — dimensi mendatar atau menegak
+- [Dimension Aligned](../dim-aligned/) — dimensi selaras dengan dua titik
+- [Dimension Radius](../dim-radius/) — dimensi jejari untuk lengkok dan bulatan
+- [Dimension Diameter](../dim-diameter/) — dimensi diameter untuk bulatan

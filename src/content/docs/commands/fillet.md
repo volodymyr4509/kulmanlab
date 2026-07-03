@@ -7,7 +7,7 @@ keywords: [CAD fillet command, round corner CAD, fillet arc, tangent arc two lin
 
 # Fillet
 
-The `fillet` command rounds the corner between two [Line](./line) entities by inserting a tangent arc of a given radius and trimming each line back to the point where the arc begins. The result is a smooth, radiused corner connecting both lines.
+The `fillet` command rounds the corner between two [Line](../line/) entities by inserting a tangent arc of a given radius and trimming each line back to the point where the arc begins. The result is a smooth, radiused corner connecting both lines.
 
 Fillet works on **Line entities only**.
 

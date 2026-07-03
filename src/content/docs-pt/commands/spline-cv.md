@@ -52,18 +52,18 @@ Uma spline CV selecionada expõe um grip por vértice de controle:
 |------|---------|----------|
 | **Vértice de controle** | Em cada posição CV | Arraste para mover esse CV — a curva remoldela em direção à nova posição |
 
-Não há um grip "mover toda a spline". Para transladar a spline inteira, use o comando [Move](./move).
+Não há um grip "mover toda a spline". Para transladar a spline inteira, use o comando [Move](../move/).
 
 ## Comandos de edição suportados
 
 | Comando | O que acontece com a spline |
 |---------|---------------------------|
-| [Move](./move) | Translada todos os vértices de controle pelo mesmo deslocamento |
-| [Copy](./copy) | Cria uma spline idêntica em uma nova posição |
-| [Rotate](./rotate) | Rotaciona todos os CVs ao redor do ponto base escolhido |
-| [Mirror](./mirror) | Reflete todos os CVs em relação ao eixo espelho |
-| [Scale](./scale) | Escala todos os CVs uniformemente a partir do ponto base |
-| [Delete](./delete) | Remove a spline |
+| [Move](../move/) | Translada todos os vértices de controle pelo mesmo deslocamento |
+| [Copy](../copy/) | Cria uma spline idêntica em uma nova posição |
+| [Rotate](../rotate/) | Rotaciona todos os CVs ao redor do ponto base escolhido |
+| [Mirror](../mirror/) | Reflete todos os CVs em relação ao eixo espelho |
+| [Scale](../scale/) | Escala todos os CVs uniformemente a partir do ponto base |
+| [Delete](../delete/) | Remove a spline |
 
 Splines não suportam **Offset**, **Trim** ou **Extend**.
 

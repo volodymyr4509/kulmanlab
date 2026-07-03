@@ -47,5 +47,5 @@ O comando mede a distância perpendicular do cursor aos segmentos de linha de ca
 
 | Comando | Função |
 |---------|--------|
-| [Leader](./leader) | Cria um novo multileader do zero |
-| [Leader+](./leader-add) | Adiciona um braço a um multileader existente |
+| [Leader](../leader/) | Cria um novo multileader do zero |
+| [Leader+](../leader-add/) | Adiciona um braço a um multileader existente |

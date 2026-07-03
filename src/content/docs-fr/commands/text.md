@@ -75,12 +75,12 @@ Un label de texte sélectionné expose une poignée au point d'ancrage :
 
 | Commande | Ce qui arrive au texte |
 |----------|------------------------|
-| [Move](./move) | Déplace le point d'ancrage |
-| [Copy](./copy) | Crée un label identique à une nouvelle position |
-| [Rotate](./rotate) | Fait pivoter la position d'ancrage et ajoute l'angle à Rotation Degree |
-| [Mirror](./mirror) | Symétrise le point d'ancrage par rapport à l'axe de symétrie (la chaîne de texte n'est pas inversée) |
-| [Scale](./scale) | Met à l'échelle la position d'ancrage et multiplie la hauteur par le facteur d'échelle |
-| [Delete](./delete) | Supprime le label |
+| [Move](../move/) | Déplace le point d'ancrage |
+| [Copy](../copy/) | Crée un label identique à une nouvelle position |
+| [Rotate](../rotate/) | Fait pivoter la position d'ancrage et ajoute l'angle à Rotation Degree |
+| [Mirror](../mirror/) | Symétrise le point d'ancrage par rapport à l'axe de symétrie (la chaîne de texte n'est pas inversée) |
+| [Scale](../scale/) | Met à l'échelle la position d'ancrage et multiplie la hauteur par le facteur d'échelle |
+| [Delete](../delete/) | Supprime le label |
 
 Le texte ne supporte pas **Offset**, **Trim**, ni **Extend**.
 

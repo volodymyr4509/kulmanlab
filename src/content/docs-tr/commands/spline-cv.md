@@ -52,7 +52,7 @@ Seçili bir CV spline, kontrol noktası başına bir tutamaç gösterir:
 |------|----------|--------------|
 | **Kontrol noktası** | Her CV konumunda | Sürükleyerek o CV'yi taşır — eğri yeni konuma doğru yeniden şekillenir |
 
-"Tüm spline'ı taşı" tutamacı yoktur. Tüm spline'ı ötelemek için [Move](./move) komutunu kullanın.
+"Tüm spline'ı taşı" tutamacı yoktur. Tüm spline'ı ötelemek için [Move](../move/) komutunu kullanın.
 
 ## CV Spline Seçimi
 
@@ -66,12 +66,12 @@ Seçili bir CV spline, kontrol noktası başına bir tutamaç gösterir:
 
 | Komut | Spline'a ne olur |
 |---------|---------------------------|
-| [Move](./move) | Tüm kontrol noktalarını aynı yer değiştirmeyle ötelemek |
-| [Copy](./copy) | Yeni konumda özdeş spline oluşturur |
-| [Rotate](./rotate) | Tüm CV'leri seçilen temel nokta etrafında döndürür |
-| [Mirror](./mirror) | Tüm CV'leri yansıtma ekseni üzerinden yansıtır |
-| [Scale](./scale) | Tüm CV'leri temel noktadan düzgün şekilde ölçekler |
-| [Delete](./delete) | Spline'ı kaldırır |
+| [Move](../move/) | Tüm kontrol noktalarını aynı yer değiştirmeyle ötelemek |
+| [Copy](../copy/) | Yeni konumda özdeş spline oluşturur |
+| [Rotate](../rotate/) | Tüm CV'leri seçilen temel nokta etrafında döndürür |
+| [Mirror](../mirror/) | Tüm CV'leri yansıtma ekseni üzerinden yansıtır |
+| [Scale](../scale/) | Tüm CV'leri temel noktadan düzgün şekilde ölçekler |
+| [Delete](../delete/) | Spline'ı kaldırır |
 
 Spline'lar **Offset**, **Trim** veya **Extend**'i desteklemez.
 

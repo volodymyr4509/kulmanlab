@@ -55,5 +55,5 @@ Alih-alih mengklik, Anda dapat mengetik posisi tepat:
 
 | Perintah | Fungsi |
 |---------|-------------|
-| [Leader](./leader) | Membuat multileader baru dari awal |
-| [Leader−](./leader-remove) | Menghapus lengan dari multileader yang memiliki dua atau lebih |
+| [Leader](../leader/) | Membuat multileader baru dari awal |
+| [Leader−](../leader-remove/) | Menghapus lengan dari multileader yang memiliki dua atau lebih |

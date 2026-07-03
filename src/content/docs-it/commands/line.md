@@ -7,7 +7,7 @@ keywords: [CAD comando line, disegna linea retta CAD, concatena segmenti linea, 
 
 # Line
 
-Il comando `line` disegna singoli segmenti di linea retta memorizzati come entità `LINE` separate nel modello DXF. Dopo ogni segmento il comando rimane attivo e riutilizza l'endpoint come nuovo punto di partenza, così puoi costruire percorsi connessi un segmento alla volta. A differenza di una [Polilinea](./polyline), le linee concatenate rimangono entità indipendenti — ciascuna può essere tagliata, estesa o eliminata senza influenzare le vicine.
+Il comando `line` disegna singoli segmenti di linea retta memorizzati come entità `LINE` separate nel modello DXF. Dopo ogni segmento il comando rimane attivo e riutilizza l'endpoint come nuovo punto di partenza, così puoi costruire percorsi connessi un segmento alla volta. A differenza di una [Polilinea](../polyline/), le linee concatenate rimangono entità indipendenti — ciascuna può essere tagliata, estesa o eliminata senza influenzare le vicine.
 
 ## Disegnare linee
 
@@ -74,7 +74,7 @@ Una linea selezionata mostra tre grip:
 | **Centro** | Centro della linea | Attiva **Move** per l'intera linea |
 | **Fine** | Secondo endpoint | Trascina per riposizionare — l'inizio rimane fermo |
 
-Stirare un endpoint non influenza mai l'altro. Questo è diverso dalla modifica dei grip delle [Polilinee](./polyline), dove spostare un vertice ridisegna l'intero percorso.
+Stirare un endpoint non influenza mai l'altro. Questo è diverso dalla modifica dei grip delle [Polilinee](../polyline/), dove spostare un vertice ridisegna l'intero percorso.
 
 ## Selezionare le linee
 
@@ -86,19 +86,19 @@ Stirare un endpoint non influenza mai l'altro. Questo è diverso dalla modifica 
 
 ## Comandi di modifica supportati
 
-Le linee sono la **sola** entità su cui [Trim](./trim) ed [Extend](./extend) operano. Si applicano anche tutti i comandi di trasformazione standard:
+Le linee sono la **sola** entità su cui [Trim](../trim/) ed [Extend](../extend/) operano. Si applicano anche tutti i comandi di trasformazione standard:
 
 | Comando | Cosa succede alla linea |
 |---------|------------------------|
-| [Move](./move) | Trasla entrambi gli endpoint dello stesso spostamento |
-| [Copy](./copy) | Crea una linea identica in una nuova posizione |
-| [Rotate](./rotate) | Ruota entrambi gli endpoint attorno al punto base scelto |
-| [Mirror](./mirror) | Riflette entrambi gli endpoint rispetto all'asse speculare |
-| [Scale](./scale) | Scala entrambi gli endpoint uniformemente dal punto base |
-| [Offset](./offset) | Crea una linea parallela a distanza perpendicolare fissa |
-| [Trim](./trim) | Taglia la linea alle intersezioni — **solo linee** |
-| [Extend](./extend) | Allunga l'endpoint più vicino fino a raggiungere un bordo — **solo linee** |
-| [Delete](./delete) | Rimuove la linea dal disegno |
+| [Move](../move/) | Trasla entrambi gli endpoint dello stesso spostamento |
+| [Copy](../copy/) | Crea una linea identica in una nuova posizione |
+| [Rotate](../rotate/) | Ruota entrambi gli endpoint attorno al punto base scelto |
+| [Mirror](../mirror/) | Riflette entrambi gli endpoint rispetto all'asse speculare |
+| [Scale](../scale/) | Scala entrambi gli endpoint uniformemente dal punto base |
+| [Offset](../offset/) | Crea una linea parallela a distanza perpendicolare fissa |
+| [Trim](../trim/) | Taglia la linea alle intersezioni — **solo linee** |
+| [Extend](../extend/) | Allunga l'endpoint più vicino fino a raggiungere un bordo — **solo linee** |
+| [Delete](../delete/) | Rimuove la linea dal disegno |
 
 ## Proprietà
 

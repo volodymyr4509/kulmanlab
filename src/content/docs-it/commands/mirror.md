@@ -7,7 +7,7 @@ keywords: [CAD comando mirror, rifletti entità CAD, simmetria mirror CAD, capov
 
 # Mirror
 
-Il comando `mirror` crea copie riflesse delle entità selezionate rispetto a un asse in due punti. Gli originali vengono **sempre conservati** — a differenza di [Move](./move) o [Rotate](./rotate), Mirror non modifica mai le entità esistenti; aggiunge solo nuove entità.
+Il comando `mirror` crea copie riflesse delle entità selezionate rispetto a un asse in due punti. Gli originali vengono **sempre conservati** — a differenza di [Move](../move/) o [Rotate](../rotate/), Mirror non modifica mai le entità esistenti; aggiunge solo nuove entità.
 
 ## Due modi per iniziare
 

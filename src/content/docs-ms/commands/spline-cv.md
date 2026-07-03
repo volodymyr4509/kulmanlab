@@ -52,7 +52,7 @@ CV spline yang dipilih mendedahkan satu grip setiap bucu kawalan:
 |------|-----------|-----------|
 | **Bucu kawalan** | Di setiap kedudukan CV | Seret untuk menggerakkan CV itu — kelengkungan membentuk semula ke arah kedudukan baru |
 
-Tiada grip "gerakkan keseluruhan spline". Untuk menterjemahkan keseluruhan spline, gunakan arahan [Move](./move).
+Tiada grip "gerakkan keseluruhan spline". Untuk menterjemahkan keseluruhan spline, gunakan arahan [Move](../move/).
 
 ## Memilih CV spline
 
@@ -66,12 +66,12 @@ Tiada grip "gerakkan keseluruhan spline". Untuk menterjemahkan keseluruhan splin
 
 | Arahan | Apa yang berlaku pada spline |
 |--------|------------------------------|
-| [Move](./move) | Menterjemahkan semua bucu kawalan dengan anjakan yang sama |
-| [Copy](./copy) | Mencipta spline yang sama di kedudukan baru |
-| [Rotate](./rotate) | Memutar semua CV di sekitar titik asas yang dipilih |
-| [Mirror](./mirror) | Mencerminkan semua CV merentasi paksi cermin |
-| [Scale](./scale) | Mengskala semua CV secara seragam dari titik asas |
-| [Delete](./delete) | Membuang spline |
+| [Move](../move/) | Menterjemahkan semua bucu kawalan dengan anjakan yang sama |
+| [Copy](../copy/) | Mencipta spline yang sama di kedudukan baru |
+| [Rotate](../rotate/) | Memutar semua CV di sekitar titik asas yang dipilih |
+| [Mirror](../mirror/) | Mencerminkan semua CV merentasi paksi cermin |
+| [Scale](../scale/) | Mengskala semua CV secara seragam dari titik asas |
+| [Delete](../delete/) | Membuang spline |
 
 Spline tidak menyokong **Offset**, **Trim**, atau **Extend**.
 

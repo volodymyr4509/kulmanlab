@@ -7,7 +7,7 @@ keywords: [CAD redo command, redo history CAD, reapply action CAD, undo redo CAD
 
 # Redo
 
-The `redo` command moves forward through the undo history, reapplying actions that were reversed by [Undo](./undo). Redo is only available when you have stepped back with Undo and have not yet made a new change.
+The `redo` command moves forward through the undo history, reapplying actions that were reversed by [Undo](../undo/). Redo is only available when you have stepped back with Undo and have not yet made a new change.
 
 ## How to redo
 
@@ -20,7 +20,7 @@ Each invocation reapplies one previously undone action. Invoke it repeatedly to 
 
 | Detail | Behaviour |
 |--------|-----------|
-| Available after | One or more [Undo](./undo) steps |
+| Available after | One or more [Undo](../undo/) steps |
 | Cleared by | **Any new drawing action** — adding, editing, or deleting an entity |
 | Storage | Browser, per file — survives page reload (as long as no new action was made before reload) |
 | Maximum depth | Up to 20 entries (same pool as Undo) |
@@ -35,4 +35,4 @@ Once a new entity is drawn, deleted, or modified, the redo stack is cleared and 
 | Available when | After at least one Undo, with no new action taken | At least one recorded action exists |
 | Cleared by | Any new drawing action | Nothing |
 
-The toolbar Redo button is greyed out when there are no entries to redo. Use [Undo](./undo) first to create redo entries.
+The toolbar Redo button is greyed out when there are no entries to redo. Use [Undo](../undo/) first to create redo entries.

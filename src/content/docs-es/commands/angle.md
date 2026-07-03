@@ -7,7 +7,7 @@ keywords: [medición de ángulo CAD, ángulo de tres puntos, ángulo interior CA
 
 # Angle
 
-El comando `angle` mide el ángulo interior en un vértice formado por dos segmentos de línea a través de tres puntos seleccionados. El resultado — siempre entre 0° y 180° — se muestra en el terminal con 4 decimales. Es uno de los dos comandos de medición — [Distance](./distance) mide la longitud en línea recta.
+El comando `angle` mide el ángulo interior en un vértice formado por dos segmentos de línea a través de tres puntos seleccionados. El resultado — siempre entre 0° y 180° — se muestra en el terminal con 4 decimales. Es uno de los dos comandos de medición — [Distance](../distance/) mide la longitud en línea recta.
 
 ## Anatomía de una medición de ángulo
 

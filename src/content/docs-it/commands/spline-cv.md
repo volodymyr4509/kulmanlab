@@ -52,18 +52,18 @@ Una spline CV selezionata espone un grip per ogni vertice di controllo:
 |------|-----------|---------|
 | **Vertice di controllo** | In ogni posizione CV | Trascina per spostare quel CV — la curva si ridisegna verso la nuova posizione |
 
-Non esiste un grip "sposta tutta la spline". Per traslare l'intera spline, usa il comando [Move](./move).
+Non esiste un grip "sposta tutta la spline". Per traslare l'intera spline, usa il comando [Move](../move/).
 
 ## Comandi di modifica supportati
 
 | Comando | Effetto sulla spline |
 |---------|---------------------|
-| [Move](./move) | Trasla tutti i vertici di controllo dello stesso spostamento |
-| [Copy](./copy) | Crea una spline identica in una nuova posizione |
-| [Rotate](./rotate) | Ruota tutti i CV attorno al punto base scelto |
-| [Mirror](./mirror) | Riflette tutti i CV rispetto all'asse speculare |
-| [Scale](./scale) | Scala tutti i CV uniformemente dal punto base |
-| [Delete](./delete) | Rimuove la spline |
+| [Move](../move/) | Trasla tutti i vertici di controllo dello stesso spostamento |
+| [Copy](../copy/) | Crea una spline identica in una nuova posizione |
+| [Rotate](../rotate/) | Ruota tutti i CV attorno al punto base scelto |
+| [Mirror](../mirror/) | Riflette tutti i CV rispetto all'asse speculare |
+| [Scale](../scale/) | Scala tutti i CV uniformemente dal punto base |
+| [Delete](../delete/) | Rimuove la spline |
 
 Le spline non supportano **Offset**, **Trim** o **Extend**.
 

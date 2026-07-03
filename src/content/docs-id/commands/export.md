@@ -45,7 +45,7 @@ Entitas geometri saja yang disertakan:
 - Line, circle, arc, ellipse, polyline (diekspor sebagai `LWPOLYLINE`), spline, text
 - Definisi layer dan tabel tipe garis
 
-**Tidak disertakan dalam DXF:** entitas dimensi dan multileader. Ini menggunakan struktur data spesifik KulmanLab yang tidak dapat direpresentasikan secara akurat dalam DXF standar. Jika gambar Anda memiliki anotasi, gunakan JSON atau [Print](./print) untuk menangkapnya secara visual.
+**Tidak disertakan dalam DXF:** entitas dimensi dan multileader. Ini menggunakan struktur data spesifik KulmanLab yang tidak dapat direpresentasikan secara akurat dalam DXF standar. Jika gambar Anda memiliki anotasi, gunakan JSON atau [Print](../print/) untuk menangkapnya secara visual.
 
 ## Nama file yang diekspor
 
@@ -60,10 +60,10 @@ File yang diunduh diberi nama sesuai file gambar saat ini (mis. `myplan_May22_14
 | Mempertahankan layer & tipe garis | Ya | Tidak (dirender rata) |
 | Menangkap dimensi & leader | Hanya JSON | Ya |
 
-Gunakan **Export** ketika Anda membutuhkan file yang dapat diedit. Gunakan [Print](./print) ketika Anda membutuhkan snapshot visual.
+Gunakan **Export** ketika Anda membutuhkan file yang dapat diedit. Gunakan [Print](../print/) ketika Anda membutuhkan snapshot visual.
 
 ## Perintah terkait
 
-- [Import](./import) — buka file DXF atau JSON
-- [Print](./print) — ekspor kanvas sebagai gambar PNG, JPEG, WebP, atau PDF
-- [Files](./files) — jelajahi gambar yang tersimpan di penyimpanan browser
+- [Import](../import/) — buka file DXF atau JSON
+- [Print](../print/) — ekspor kanvas sebagai gambar PNG, JPEG, WebP, atau PDF
+- [Files](../files/) — jelajahi gambar yang tersimpan di penyimpanan browser

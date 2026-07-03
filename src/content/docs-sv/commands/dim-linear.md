@@ -7,7 +7,7 @@ keywords: [CAD dimension linear, horisontellt mått CAD, vertikalt mått CAD, di
 
 # Dimension Linear
 
-`dimlinear`-kommandot placerar ett horisontellt eller vertikalt mått mellan två hjälplinjeursprung. Måttlinjen går alltid antingen helt horisontellt eller helt vertikalt — den kan inte placeras i en godtycklig vinkel. Använd [Dimension Aligned](./dim-aligned) när du behöver ett mått parallellt med en diagonal linje.
+`dimlinear`-kommandot placerar ett horisontellt eller vertikalt mått mellan två hjälplinjeursprung. Måttlinjen går alltid antingen helt horisontellt eller helt vertikalt — den kan inte placeras i en godtycklig vinkel. Använd [Dimension Aligned](../dim-aligned/) när du behöver ett mått parallellt med en diagonal linje.
 
 ## Anatomi av ett linjärt mått
 
@@ -89,7 +89,7 @@ Se [Textredigerare — enkelt läge](../interface/text-editor#simple-mode) för 
 
 ## Kedja mått
 
-För att lägga till fler mått som fortsätter från den senaste hjälplinjen, använd [Dimension Continue](./dim-continue) direkt efter att du placerat detta mått.
+För att lägga till fler mått som fortsätter från den senaste hjälplinjen, använd [Dimension Continue](../dim-continue/) direkt efter att du placerat detta mått.
 
 ## DXF — DIMENSION-entitet
 

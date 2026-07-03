@@ -35,5 +35,5 @@ keywords: [CAD 선 가중치, 획 너비, 선 너비, DXF 선 가중치, ByLayer
 
 ## 관련 인터페이스 항목
 
-- [선종류](./linetype) — 선의 대시 패턴 제어
+- [선종류](../linetype/) — 선의 대시 패턴 제어
 - [특성 일치](../commands/match-properties) — 한 객체에서 다른 객체로 선 가중치 복사

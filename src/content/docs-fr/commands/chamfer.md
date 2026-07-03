@@ -7,7 +7,7 @@ keywords: [commande chamfer CAO, chanfrein ligne CAO, coupe angle diagonale, bis
 
 # Chamfer
 
-La commande `chamfer` coupe un angle diagonal droit entre deux entités [Line](./line) ou [Polyline](./polyline). Vous spécifiez la distance de recul le long de chaque entité (d1 et d2), et la commande raccorde les deux entités jusqu'à ces points et insère une ligne de raccordement entre elles.
+La commande `chamfer` coupe un angle diagonal droit entre deux entités [Line](../line/) ou [Polyline](../polyline/). Vous spécifiez la distance de recul le long de chaque entité (d1 et d2), et la commande raccorde les deux entités jusqu'à ces points et insère une ligne de raccordement entre elles.
 
 Des distances égales produisent une coupe symétrique à 45° ; des distances différentes produisent un biseau asymétrique.
 

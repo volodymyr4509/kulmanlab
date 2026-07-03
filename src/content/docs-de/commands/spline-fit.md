@@ -7,7 +7,7 @@ keywords: [CAD Spline Fit-Befehl, interpolierender Spline CAD, Spline durch Punk
 
 # Spline Fit
 
-Der `splinefit`-Befehl zeichnet einen kubischen Spline, der durch jeden von Ihnen geklickten Punkt verläuft — eine interpolierende Kurve. Im Gegensatz zu [Spline CV](./spline-cv), wo die Kurve nur zu Kontrollpunkten hingezogen wird, wird die Kurve hier gezwungen, jede geklickte Koordinate exakt zu treffen. Intern berechnet der Editor Kontrollpunkte, um dies zu erreichen, und diese CVs werden zusammen mit den Fit-Punkten in der DXF-Datei gespeichert.
+Der `splinefit`-Befehl zeichnet einen kubischen Spline, der durch jeden von Ihnen geklickten Punkt verläuft — eine interpolierende Kurve. Im Gegensatz zu [Spline CV](../spline-cv/), wo die Kurve nur zu Kontrollpunkten hingezogen wird, wird die Kurve hier gezwungen, jede geklickte Koordinate exakt zu treffen. Intern berechnet der Editor Kontrollpunkte, um dies zu erreichen, und diese CVs werden zusammen mit den Fit-Punkten in der DXF-Datei gespeichert.
 
 ## Einen Spline durch Fit-Punkte zeichnen
 
@@ -51,7 +51,7 @@ Ein ausgewählter Fit-Spline zeigt einen Griffpunkt pro Fit-Punkt:
 
 Das Ziehen eines Griffpunkts passt die gesamte Kurve neu an, nicht nur die angrenzenden Segmente. Dies unterscheidet sich von der Polylinie-Griffpunkt-Bearbeitung, bei der das Verschieben eines Eckpunkts nur die zwei angrenzenden Segmente umformt.
 
-Es gibt keinen „ganzen Spline verschieben"-Griffpunkt. Um den gesamten Spline zu verschieben, verwenden Sie den [Move](./move)-Befehl.
+Es gibt keinen „ganzen Spline verschieben"-Griffpunkt. Um den gesamten Spline zu verschieben, verwenden Sie den [Move](../move/)-Befehl.
 
 ## Fit-Splines auswählen
 
@@ -65,12 +65,12 @@ Es gibt keinen „ganzen Spline verschieben"-Griffpunkt. Um den gesamten Spline 
 
 | Befehl | Auswirkung auf den Spline |
 |--------|--------------------------|
-| [Move](./move) | Verschiebt alle Fit-Punkte und neu berechneten CVs um denselben Versatz |
-| [Copy](./copy) | Erstellt einen identischen Spline an einer neuen Position |
-| [Rotate](./rotate) | Dreht alle Fit-Punkte um den gewählten Basispunkt |
-| [Mirror](./mirror) | Spiegelt alle Fit-Punkte an der Spiegelachse |
-| [Scale](./scale) | Skaliert alle Fit-Punkte gleichmäßig vom Basispunkt aus |
-| [Delete](./delete) | Entfernt den Spline |
+| [Move](../move/) | Verschiebt alle Fit-Punkte und neu berechneten CVs um denselben Versatz |
+| [Copy](../copy/) | Erstellt einen identischen Spline an einer neuen Position |
+| [Rotate](../rotate/) | Dreht alle Fit-Punkte um den gewählten Basispunkt |
+| [Mirror](../mirror/) | Spiegelt alle Fit-Punkte an der Spiegelachse |
+| [Scale](../scale/) | Skaliert alle Fit-Punkte gleichmäßig vom Basispunkt aus |
+| [Delete](../delete/) | Entfernt den Spline |
 
 Splines unterstützen weder **Offset**, **Trim** noch **Extend**.
 

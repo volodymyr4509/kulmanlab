@@ -7,7 +7,7 @@ keywords: [perintah redo CAD, riwayat redo CAD, menerapkan ulang aksi CAD, undo 
 
 # Redo
 
-Perintah `redo` maju melalui riwayat undo, menerapkan ulang aksi yang dibalik oleh [Undo](./undo). Redo hanya tersedia ketika Anda telah mundur dengan Undo dan belum membuat perubahan baru.
+Perintah `redo` maju melalui riwayat undo, menerapkan ulang aksi yang dibalik oleh [Undo](../undo/). Redo hanya tersedia ketika Anda telah mundur dengan Undo dan belum membuat perubahan baru.
 
 ## Cara menerapkan ulang
 
@@ -20,7 +20,7 @@ Setiap pemanggilan menerapkan ulang satu aksi yang sebelumnya dibatalkan. Panggi
 
 | Detail | Perilaku |
 |--------|-----------|
-| Tersedia setelah | Satu atau lebih langkah [Undo](./undo) |
+| Tersedia setelah | Satu atau lebih langkah [Undo](../undo/) |
 | Dihapus oleh | **Aksi menggambar baru apa pun** — menambah, mengedit, atau menghapus entitas |
 | Penyimpanan | Browser, per file — bertahan setelah halaman dimuat ulang (selama tidak ada aksi baru yang dilakukan sebelum dimuat ulang) |
 | Kedalaman maksimum | Hingga 20 entri (pool yang sama dengan Undo) |
@@ -35,4 +35,4 @@ Setelah entitas baru digambar, dihapus, atau dimodifikasi, tumpukan redo dihapus
 | Tersedia ketika | Setelah setidaknya satu Undo, tanpa aksi baru yang diambil | Setidaknya satu aksi yang dicatat ada |
 | Dihapus oleh | Aksi menggambar baru apa pun | Tidak ada |
 
-Tombol Redo toolbar dinonaktifkan ketika tidak ada entri yang perlu di-redo. Gunakan [Undo](./undo) terlebih dahulu untuk membuat entri redo.
+Tombol Redo toolbar dinonaktifkan ketika tidak ada entri yang perlu di-redo. Gunakan [Undo](../undo/) terlebih dahulu untuk membuat entri redo.

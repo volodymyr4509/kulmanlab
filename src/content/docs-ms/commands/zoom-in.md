@@ -41,6 +41,6 @@ Tiada pintasan papan kekunci untuk arahan ini. Gunakan roda tatal sebaliknya —
 
 | Arahan | Fungsinya |
 |--------|-----------|
-| [Zoom Out](./zoom-out) | Membahagi zum dengan 1.5× setiap langkah |
-| [Fit](./fit) | Menetapkan semula zum untuk menunjukkan semua entiti |
-| [Pan](./pan) | Menggeser viewport tanpa zum |
+| [Zoom Out](../zoom-out/) | Membahagi zum dengan 1.5× setiap langkah |
+| [Fit](../fit/) | Menetapkan semula zum untuk menunjukkan semua entiti |
+| [Pan](../pan/) | Menggeser viewport tanpa zum |

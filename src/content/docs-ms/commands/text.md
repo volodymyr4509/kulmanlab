@@ -75,12 +75,12 @@ Label teks yang dipilih mendedahkan satu grip pada titik sauh:
 
 | Arahan | Apa yang berlaku pada teks |
 |--------|-----------------------------|
-| [Move](./move) | Menggerakkan titik sauh |
-| [Copy](./copy) | Mencipta label yang sama di kedudukan baru |
-| [Rotate](./rotate) | Memutar kedudukan sauh dan menambah sudut ke Darjah Putaran |
-| [Mirror](./mirror) | Mencerminkan titik sauh merentasi paksi cermin (rentetan teks tidak dibalikkan) |
-| [Scale](./scale) | Mengskala kedudukan sauh dan mendarab ketinggian dengan faktor skala |
-| [Delete](./delete) | Membuang label |
+| [Move](../move/) | Menggerakkan titik sauh |
+| [Copy](../copy/) | Mencipta label yang sama di kedudukan baru |
+| [Rotate](../rotate/) | Memutar kedudukan sauh dan menambah sudut ke Darjah Putaran |
+| [Mirror](../mirror/) | Mencerminkan titik sauh merentasi paksi cermin (rentetan teks tidak dibalikkan) |
+| [Scale](../scale/) | Mengskala kedudukan sauh dan mendarab ketinggian dengan faktor skala |
+| [Delete](../delete/) | Membuang label |
 
 Teks tidak menyokong **Offset**, **Trim**, atau **Extend**.
 

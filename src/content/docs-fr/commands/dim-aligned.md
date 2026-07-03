@@ -7,7 +7,7 @@ keywords: [cote alignée CAO, dimaligned, cote diagonale CAO, cote distance rée
 
 # Dimension Aligned
 
-La commande `dimaligned` place une cote qui mesure la **distance réelle en ligne droite** entre deux points. La ligne de cote est parallèle à la ligne reliant les deux points, elle peut donc être à tout angle. C'est la différence clé avec [Dimension Linear](./dim-linear), qui est limitée à l'horizontal ou au vertical.
+La commande `dimaligned` place une cote qui mesure la **distance réelle en ligne droite** entre deux points. La ligne de cote est parallèle à la ligne reliant les deux points, elle peut donc être à tout angle. C'est la différence clé avec [Dimension Linear](../dim-linear/), qui est limitée à l'horizontal ou au vertical.
 
 ## Anatomie d'une cote alignée
 
@@ -80,7 +80,7 @@ Voir [Éditeur de texte — simple mode](../interface/text-editor#simple-mode) p
 
 ## Enchaîner les cotes
 
-Pour ajouter d'autres cotes en continuant depuis la deuxième ligne d'extension de celle-ci, utilisez [Dimension Continue](./dim-continue) — elle se verrouille au même angle de mesure que cette cote alignée.
+Pour ajouter d'autres cotes en continuant depuis la deuxième ligne d'extension de celle-ci, utilisez [Dimension Continue](../dim-continue/) — elle se verrouille au même angle de mesure que cette cote alignée.
 
 ## DXF — entité DIMENSION (type aligné)
 

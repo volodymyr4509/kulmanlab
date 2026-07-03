@@ -7,9 +7,9 @@ keywords: [CAD trim komutu, çizgiyi kırp CAD, kesişimde çizgi kes, imleç ü
 
 # Trim
 
-`trim` komutu, iki komşu kesişim noktası arasında kalan [Çizgi](./line) kısmını kaldırarak çizgiyi bir veya iki daha kısa segmente böler. Kesilecek segment imleç konumuna göre belirlenir — kaldırılmasını istediğiniz kısmın üzerine gelin ve kırpmak için tıklayın.
+`trim` komutu, iki komşu kesişim noktası arasında kalan [Çizgi](../line/) kısmını kaldırarak çizgiyi bir veya iki daha kısa segmente böler. Kesilecek segment imleç konumuna göre belirlenir — kaldırılmasını istediğiniz kısmın üzerine gelin ve kırpmak için tıklayın.
 
-Trim yalnızca **Çizgi nesnelerinde** çalışır. Yaylar, daireler, çoklu çizgiler ve diğer nesne türleri için bunun yerine [Delete](./delete) veya tutamaç düzenlemeyi kullanın.
+Trim yalnızca **Çizgi nesnelerinde** çalışır. Yaylar, daireler, çoklu çizgiler ve diğer nesne türleri için bunun yerine [Delete](../delete/) veya tutamaç düzenlemeyi kullanın.
 
 ## Çizgi Kırpma
 

@@ -41,6 +41,6 @@ Bu komut için klavye kısayolu yoktur. Bunun yerine kaydırma tekerleğini kull
 
 | Komut | Ne yapar |
 |---------|-------------|
-| [Zoom Out](./zoom-out) | Yakınlaştırmayı adım başına 1,5× böler |
-| [Fit](./fit) | Tüm nesneleri göstermek için yakınlaştırmayı sıfırlar |
-| [Pan](./pan) | Yakınlaştırmadan görünüm penceresini kaydırır |
+| [Zoom Out](../zoom-out/) | Yakınlaştırmayı adım başına 1,5× böler |
+| [Fit](../fit/) | Tüm nesneleri göstermek için yakınlaştırmayı sıfırlar |
+| [Pan](../pan/) | Yakınlaştırmadan görünüm penceresini kaydırır |

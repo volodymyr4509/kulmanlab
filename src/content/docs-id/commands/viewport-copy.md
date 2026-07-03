@@ -56,4 +56,4 @@ Setelah titik dasar ditetapkan, perintah snap ke sumbu 45° (0°, 45°, 90°, 13
 
 - ViewportCopy hanya tersedia ketika tab layout kertas aktif.
 - Viewport yang disalin mewarisi skala, pusat model, status terkunci, dan dimensi yang sama dari aslinya.
-- Untuk membuat viewport baru dari awal, gunakan [ViewportRectangle](./viewport-rectangle).
+- Untuk membuat viewport baru dari awal, gunakan [ViewportRectangle](../viewport-rectangle/).

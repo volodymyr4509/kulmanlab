@@ -75,12 +75,12 @@ Uma etiqueta de texto selecionada expõe um grip no ponto de ancoragem:
 
 | Comando | O que acontece com o texto |
 |---------|--------------------------|
-| [Move](./move) | Move o ponto de ancoragem |
-| [Copy](./copy) | Cria uma etiqueta idêntica em uma nova posição |
-| [Rotate](./rotate) | Rotaciona a posição da âncora e adiciona o ângulo ao Grau de Rotação |
-| [Mirror](./mirror) | Reflete o ponto de ancoragem em relação ao eixo espelho (a string de texto não é invertida) |
-| [Scale](./scale) | Escala a posição da âncora e multiplica a altura pelo fator de escala |
-| [Delete](./delete) | Remove a etiqueta |
+| [Move](../move/) | Move o ponto de ancoragem |
+| [Copy](../copy/) | Cria uma etiqueta idêntica em uma nova posição |
+| [Rotate](../rotate/) | Rotaciona a posição da âncora e adiciona o ângulo ao Grau de Rotação |
+| [Mirror](../mirror/) | Reflete o ponto de ancoragem em relação ao eixo espelho (a string de texto não é invertida) |
+| [Scale](../scale/) | Escala a posição da âncora e multiplica a altura pelo fator de escala |
+| [Delete](../delete/) | Remove a etiqueta |
 
 Texto não suporta **Offset**, **Trim** ou **Extend**.
 

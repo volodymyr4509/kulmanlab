@@ -7,7 +7,7 @@ keywords: [comando delete CAD, eliminar entidades CAD, borrar objetos CAD, tecla
 
 # Delete
 
-El comando `delete` elimina las entidades seleccionadas del dibujo. Las eliminaciones se registran en el historial de [Undo](./undo) y pueden revertirse con hasta 20 pasos. No hay diálogo separado de "confirmar eliminación" — la confirmación es una sola pulsación de tecla.
+El comando `delete` elimina las entidades seleccionadas del dibujo. Las eliminaciones se registran en el historial de [Undo](../undo/) y pueden revertirse con hasta 20 pasos. No hay diálogo separado de "confirmar eliminación" — la confirmación es una sola pulsación de tecla.
 
 ## Dos formas de eliminar
 
@@ -43,7 +43,7 @@ Haz clic en la entidad → presiona la tecla Delete → listo
 
 ## Recuperar entidades eliminadas
 
-Las eliminaciones son deshaciblcs con el comando [Undo](./undo) (escribe `undo` o usa el botón de la barra de herramientas). Se pueden revertir hasta **20 pasos** por archivo, y el historial persiste entre recargas de página. Si has superado 20 eliminaciones sin guardar, las eliminaciones anteriores no se pueden recuperar.
+Las eliminaciones son deshaciblcs con el comando [Undo](../undo/) (escribe `undo` o usa el botón de la barra de herramientas). Se pueden revertir hasta **20 pasos** por archivo, y el historial persiste entre recargas de página. Si has superado 20 eliminaciones sin guardar, las eliminaciones anteriores no se pueden recuperar.
 
 ## Entidades compatibles
 

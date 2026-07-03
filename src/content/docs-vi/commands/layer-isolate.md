@@ -5,7 +5,7 @@ description: Lệnh LayerIsolate đóng băng mọi lớp trừ những lớp đ
 
 # LayerIsolate
 
-Lệnh `LayerIsolate` đóng băng mọi lớp **trừ** những lớp thuộc về các đối tượng đã chọn. Dùng nó để tập trung nhanh vào hình học cụ thể mà không ẩn hoặc xóa bất cứ thứ gì vĩnh viễn — bỏ đóng băng bằng [LayerUnfreezeAll](./layer-unfreeze-all) khi xong.
+Lệnh `LayerIsolate` đóng băng mọi lớp **trừ** những lớp thuộc về các đối tượng đã chọn. Dùng nó để tập trung nhanh vào hình học cụ thể mà không ẩn hoặc xóa bất cứ thứ gì vĩnh viễn — bỏ đóng băng bằng [LayerUnfreezeAll](../layer-unfreeze-all/) khi xong.
 
 ## Hai cách bắt đầu
 
@@ -36,4 +36,4 @@ Lệnh `LayerIsolate` đóng băng mọi lớp **trừ** những lớp thuộc v
 
 ## Hoàn tác cô lập
 
-Chạy [LayerUnfreezeAll](./layer-unfreeze-all) để khôi phục tất cả lớp về hiển thị trong một bước.
+Chạy [LayerUnfreezeAll](../layer-unfreeze-all/) để khôi phục tất cả lớp về hiển thị trong một bước.

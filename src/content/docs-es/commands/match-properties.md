@@ -59,5 +59,5 @@ La geometría (coordenadas, radio, longitud, etc.) nunca se ve afectada.
 
 ## Comandos relacionados
 
-- [LayerMatch](./layer-match) — mover las entidades seleccionadas a la misma capa que una fuente (solo propiedad de capa)
-- [LayerMakeCurrent](./layer-make-current) — establecer la capa de dibujo actual desde una entidad en la que se hace clic
+- [LayerMatch](../layer-match/) — mover las entidades seleccionadas a la misma capa que una fuente (solo propiedad de capa)
+- [LayerMakeCurrent](../layer-make-current/) — establecer la capa de dibujo actual desde una entidad en la que se hace clic

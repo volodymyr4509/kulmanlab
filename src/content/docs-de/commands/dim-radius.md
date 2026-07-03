@@ -7,7 +7,7 @@ keywords: [CAD-Radiusbemaßung, dimradius, Kreisradius beschriften, Bogenradiusb
 
 # Dimension Radius
 
-Der `dimradius`-Befehl platziert eine Radiusbemaßung auf einem Bogen oder Kreis. Die Bemaßungslinie verläuft vom Mittelpunkt zu einem Punkt auf dem Umfang in Richtung des Mauszeigers und ist mit `R <Wert>` beschriftet. Um stattdessen einen vollständigen Durchmesser zu bemaßen, verwenden Sie [Dimension Diameter](./dim-diameter).
+Der `dimradius`-Befehl platziert eine Radiusbemaßung auf einem Bogen oder Kreis. Die Bemaßungslinie verläuft vom Mittelpunkt zu einem Punkt auf dem Umfang in Richtung des Mauszeigers und ist mit `R <Wert>` beschriftet. Um stattdessen einen vollständigen Durchmesser zu bemaßen, verwenden Sie [Dimension Diameter](../dim-diameter/).
 
 ## Aufbau einer Radiusbemaßung
 

@@ -7,7 +7,7 @@ keywords: [CAD mesafe ölç, distance komutu, noktadan noktaya ölçüm, düz ç
 
 # Distance
 
-`distance` komutu, iki tıklanan nokta arasındaki düz çizgi (Öklid) mesafesini ölçer ve sonucu terminalde 4 ondalık basamak hassasiyetle yazdırır. Bu komut iki ölçüm komutundan biridir — [Angle](./angle) ise köşedeki açısal açılımı ölçer.
+`distance` komutu, iki tıklanan nokta arasındaki düz çizgi (Öklid) mesafesini ölçer ve sonucu terminalde 4 ondalık basamak hassasiyetle yazdırır. Bu komut iki ölçüm komutundan biridir — [Angle](../angle/) ise köşedeki açısal açılımı ölçer.
 
 ## Mesafe Ölçümünün Anatomisi
 

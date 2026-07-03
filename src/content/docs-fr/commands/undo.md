@@ -36,4 +36,4 @@ Chaque mutation d'entité est enregistrée : dessiner de nouvelles entités, sup
 | Disponible quand | Au moins une action enregistrée existe | Au moins un Undo a été effectué et aucune nouvelle action n'a été prise |
 | Effacé par | Rien — l'historique s'accumule jusqu'à la limite de 20 étapes | Toute nouvelle action de dessin |
 
-Utilisez [Redo](./redo) pour rétablir une action annulée. Les boutons de la barre d'outils sont grisés quand la direction respective n'est pas disponible.
+Utilisez [Redo](../redo/) pour rétablir une action annulée. Les boutons de la barre d'outils sont grisés quand la direction respective n'est pas disponible.

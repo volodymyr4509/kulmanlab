@@ -46,13 +46,13 @@ Viumbe vinavyotumia aina za DXF zisizooungwa mkono hupitwa kimya kimya — sehem
 
 ## Kutaja faili na uhifadhi
 
-Unapoingiza faili, muhuri wa wakati huongezwa kwenye jina la faili (kwa mfano `myplan_May22_14:30:00.dxf`). Hii inakuruhusu kuweka matoleo mengi ya mchoro ule ule katika [Faili za Hivi Karibuni](./files) bila mgongano wa majina. Ikiwa jina la faili tayari lina muhuri wa wakati, linatumika kama lilivyo.
+Unapoingiza faili, muhuri wa wakati huongezwa kwenye jina la faili (kwa mfano `myplan_May22_14:30:00.dxf`). Hii inakuruhusu kuweka matoleo mengi ya mchoro ule ule katika [Faili za Hivi Karibuni](../files/) bila mgongano wa majina. Ikiwa jina la faili tayari lina muhuri wa wakati, linatumika kama lilivyo.
 
-Mchoro huhifadhiwa kiotomatiki kwenye hifadhi ya kivinjari (IndexedDB) baada ya kuingizwa, hivyo huonekana katika jopo la [Files](./files) na hunusurika upakiaji upya wa ukurasa.
+Mchoro huhifadhiwa kiotomatiki kwenye hifadhi ya kivinjari (IndexedDB) baada ya kuingizwa, hivyo huonekana katika jopo la [Files](../files/) na hunusurika upakiaji upya wa ukurasa.
 
 ## Kinachotokea kwa mchoro wa sasa
 
-Kuingiza hubadilisha turubai ya sasa. Hakuna kuunganisha au kuongeza. Ikiwa una mabadiliko ambayo hayajahifadhiwa, [hamisha](./export) mchoro wa sasa kwanza.
+Kuingiza hubadilisha turubai ya sasa. Hakuna kuunganisha au kuongeza. Ikiwa una mabadiliko ambayo hayajahifadhiwa, [hamisha](../export/) mchoro wa sasa kwanza.
 
 ## Wakati wa kuanza
 
@@ -68,6 +68,6 @@ KulmanLab hufungua upya kiotomatiki faili iliyohaririwa hivi karibuni zaidi ukur
 
 ## Amri zinazohusiana
 
-- [Export](./export) — pakua mchoro wa sasa kama DXF au JSON
-- [Files](./files) — tazama na urejeshe michoro iliyohifadhiwa kwenye kivinjari
-- [New File](./new-file) — anza mchoro tupu
+- [Export](../export/) — pakua mchoro wa sasa kama DXF au JSON
+- [Files](../files/) — tazama na urejeshe michoro iliyohifadhiwa kwenye kivinjari
+- [New File](../new-file/) — anza mchoro tupu

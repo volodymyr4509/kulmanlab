@@ -15,7 +15,7 @@ Geben Sie `LayerUnfreezeAll` im Terminal ein oder klicken Sie auf die Schaltflä
 
 ## Wann zu verwenden
 
-Wird typischerweise nach [LayerIsolate](./layer-isolate) verwendet, um alle Layer wieder in ihren normalen sichtbaren Zustand zu versetzen.
+Wird typischerweise nach [LayerIsolate](../layer-isolate/) verwendet, um alle Layer wieder in ihren normalen sichtbaren Zustand zu versetzen.
 
 ## Verhaltensdetails
 

@@ -64,7 +64,7 @@ Se [Textredigerare — enkelt läge](../interface/text-editor#simple-mode) för 
 
 ## Relaterade kommandon
 
-- [Dimension Linear](./dim-linear) — horisontellt eller vertikalt mått
-- [Dimension Aligned](./dim-aligned) — mått inriktat mot två punkter
-- [Dimension Radius](./dim-radius) — radiemått för bågar och cirklar
-- [Dimension Diameter](./dim-diameter) — diametermått för cirklar
+- [Dimension Linear](../dim-linear/) — horisontellt eller vertikalt mått
+- [Dimension Aligned](../dim-aligned/) — mått inriktat mot två punkter
+- [Dimension Radius](../dim-radius/) — radiemått för bågar och cirklar
+- [Dimension Diameter](../dim-diameter/) — diametermått för cirklar

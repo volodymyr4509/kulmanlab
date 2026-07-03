@@ -7,7 +7,7 @@ keywords: [comando chamfer CAD, chaflán de línea CAD, corte de esquina diagona
 
 # Chamfer
 
-El comando `chamfer` corta una esquina diagonal recta entre dos entidades [Line](./line) o [Polyline](./polyline). Especificas cuánto recortar a lo largo de cada entidad (d1 y d2), y el comando recorta ambas entidades hasta esos puntos e inserta una línea de conexión entre ellas.
+El comando `chamfer` corta una esquina diagonal recta entre dos entidades [Line](../line/) o [Polyline](../polyline/). Especificas cuánto recortar a lo largo de cada entidad (d1 y d2), y el comando recorta ambas entidades hasta esos puntos e inserta una línea de conexión entre ellas.
 
 Usar distancias iguales produce un corte simétrico de 45°; distancias diferentes producen un bisel asimétrico.
 

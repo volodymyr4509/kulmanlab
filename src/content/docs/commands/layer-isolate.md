@@ -7,7 +7,7 @@ keywords: [layer isolate, freeze layers CAD, isolate layer kulmanlab, CAD layer 
 
 # LayerIsolate
 
-The `LayerIsolate` command freezes every layer **except** those belonging to the selected objects. Use it to quickly focus on specific geometry without hiding or deleting anything permanently — unfreeze with [LayerUnfreezeAll](./layer-unfreeze-all) when done.
+The `LayerIsolate` command freezes every layer **except** those belonging to the selected objects. Use it to quickly focus on specific geometry without hiding or deleting anything permanently — unfreeze with [LayerUnfreezeAll](../layer-unfreeze-all/) when done.
 
 ## Two ways to start
 
@@ -39,4 +39,4 @@ The `LayerIsolate` command freezes every layer **except** those belonging to the
 
 ## Undoing isolation
 
-Run [LayerUnfreezeAll](./layer-unfreeze-all) to restore all layers to visible in one step.
+Run [LayerUnfreezeAll](../layer-unfreeze-all/) to restore all layers to visible in one step.

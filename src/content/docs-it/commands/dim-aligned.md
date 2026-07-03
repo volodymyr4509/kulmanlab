@@ -7,7 +7,7 @@ keywords: [CAD quota allineata, dimaligned, quota diagonale CAD, quota distanza 
 
 # Dimension Aligned
 
-Il comando `dimaligned` posiziona una quota che misura la **distanza reale in linea retta** tra due punti. La linea di quota è parallela alla linea che collega i due punti, quindi può essere in qualsiasi angolazione. Questa è la differenza fondamentale rispetto a [Dimension Linear](./dim-linear), che è limitata all'orizzontale o verticale.
+Il comando `dimaligned` posiziona una quota che misura la **distanza reale in linea retta** tra due punti. La linea di quota è parallela alla linea che collega i due punti, quindi può essere in qualsiasi angolazione. Questa è la differenza fondamentale rispetto a [Dimension Linear](../dim-linear/), che è limitata all'orizzontale o verticale.
 
 ## Anatomia di una quota allineata
 
@@ -80,7 +80,7 @@ Vedi [Editor di Testo — simple mode](../interface/text-editor#simple-mode) per
 
 ## Concatenamento quote
 
-Per aggiungere altre quote continuando dalla seconda linea di estensione di questa, usa [Dimension Continue](./dim-continue) — si blocca allo stesso angolo di misurazione di questa quota allineata.
+Per aggiungere altre quote continuando dalla seconda linea di estensione di questa, usa [Dimension Continue](../dim-continue/) — si blocca allo stesso angolo di misurazione di questa quota allineata.
 
 ## DXF — entità DIMENSION (tipo allineato)
 

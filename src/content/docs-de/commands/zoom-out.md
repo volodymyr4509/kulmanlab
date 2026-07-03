@@ -7,7 +7,7 @@ keywords: [CAD Zoom Out, Ansicht verkleinern, Herauszoomen-Befehl, Übersicht CA
 
 # Zoom Out
 
-Der `zoomout`-Befehl teilt die aktuelle Zoomstufe durch **1,5×** (entspricht einer Multiplikation mit ~0,667) und beendet sich sofort, zentriert auf den Viewport-Mittelpunkt. Er ist das Gegenteil von [Zoom In](./zoom-in).
+Der `zoomout`-Befehl teilt die aktuelle Zoomstufe durch **1,5×** (entspricht einer Multiplikation mit ~0,667) und beendet sich sofort, zentriert auf den Viewport-Mittelpunkt. Er ist das Gegenteil von [Zoom In](../zoom-in/).
 
 ## Herauszoomen
 
@@ -41,6 +41,6 @@ Es gibt keine Tastaturkürzel für diesen Befehl. Verwenden Sie stattdessen das 
 
 | Befehl | Funktion |
 |--------|----------|
-| [Zoom In](./zoom-in) | Multipliziert den Zoom mit 1,5× pro Schritt |
-| [Fit](./fit) | Setzt den Zoom zurück, um alle Entitäten anzuzeigen |
-| [Pan](./pan) | Verschiebt den Viewport ohne Zoomen |
+| [Zoom In](../zoom-in/) | Multipliziert den Zoom mit 1,5× pro Schritt |
+| [Fit](../fit/) | Setzt den Zoom zurück, um alle Entitäten anzuzeigen |
+| [Pan](../pan/) | Verschiebt den Viewport ohne Zoomen |

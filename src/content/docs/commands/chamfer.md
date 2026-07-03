@@ -7,7 +7,7 @@ keywords: [CAD chamfer command, chamfer line CAD, diagonal corner cut, bevel cor
 
 # Chamfer
 
-The `chamfer` command cuts a straight diagonal corner between two [Line](./line) or [Polyline](./polyline) entities. You specify how far back to cut along each entity (d1 and d2), and the command trims both entities to those points and inserts a connecting line between them.
+The `chamfer` command cuts a straight diagonal corner between two [Line](../line/) or [Polyline](../polyline/) entities. You specify how far back to cut along each entity (d1 and d2), and the command trims both entities to those points and inserts a connecting line between them.
 
 Using equal distances produces a symmetric 45° cut; different distances produce an asymmetric bevel.
 

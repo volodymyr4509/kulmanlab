@@ -7,7 +7,7 @@ keywords: [CAD quota diametro, dimdiameter, annota diametro cerchio, quota diame
 
 # Dimension Diameter
 
-Il comando `dimdiameter` posiziona una quota diametro su un arco o cerchio. La linea di quota attraversa il diametro completo — passando per il centro tra due punti diametralmente opposti dell'arco — ed è etichettata `⌀ <valore>`. Per annotare solo il raggio dal centro a un bordo, usa [Dimension Radius](./dim-radius).
+Il comando `dimdiameter` posiziona una quota diametro su un arco o cerchio. La linea di quota attraversa il diametro completo — passando per il centro tra due punti diametralmente opposti dell'arco — ed è etichettata `⌀ <valore>`. Per annotare solo il raggio dal centro a un bordo, usa [Dimension Radius](../dim-radius/).
 
 ## Anatomia di una quota diametro
 

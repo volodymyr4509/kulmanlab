@@ -47,4 +47,4 @@ keywords: [뷰포트 직사각형, 뷰포트 생성, 레이아웃 뷰포트, 용
 ## 참고
 
 - ViewportRectangle은 용지 레이아웃 탭이 활성화된 경우에만 사용 가능합니다. 모델 공간에서 실행하면 오류 메시지가 표시되고 종료됩니다.
-- 기존 뷰포트를 복사하려면 [ViewportCopy](./viewport-copy)를 사용하세요.
+- 기존 뷰포트를 복사하려면 [ViewportCopy](../viewport-copy/)를 사용하세요.

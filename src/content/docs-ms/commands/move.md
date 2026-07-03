@@ -71,7 +71,7 @@ Selepas titik asas ditetapkan, arahan memerhati paksi snap 45° (0°, 45°, 90°
 
 ## Mengaktifkan Move dari grip
 
-Mengklik **grip titik tengah** [Line](./line) yang dipilih melancarkan Move secara automatik, dengan titik tengah sudah ditetapkan sebagai titik asas dan fasa pindah aktif. Ini adalah cara terpantas untuk mengubah kedudukan satu garis tanpa melalui langkah pemilihan.
+Mengklik **grip titik tengah** [Line](../line/) yang dipilih melancarkan Move secara automatik, dengan titik tengah sudah ditetapkan sebagai titik asas dan fasa pindah aktif. Ini adalah cara terpantas untuk mengubah kedudukan satu garis tanpa melalui langkah pemilihan.
 
 ## Pemilihan semasa arahan
 
@@ -88,7 +88,7 @@ Apabila arahan bermula dalam fasa pemilihan:
 
 Entiti yang dipindah kekal dipilih di kedudukan baru. Ini bermakna anda boleh serta-merta:
 - Jalankan **Move** lagi untuk menolak mereka lebih jauh.
-- Jalankan [Copy](./copy), [Rotate](./rotate), atau [Scale](./scale) tanpa memilih semula.
+- Jalankan [Copy](../copy/), [Rotate](../rotate/), atau [Scale](../scale/) tanpa memilih semula.
 - Tekan **Delete** untuk membuangnya.
 
 ## Move berbanding Copy

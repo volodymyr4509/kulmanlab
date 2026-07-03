@@ -7,7 +7,7 @@ keywords: [pengukuran sudut CAD, sudut tiga titik, sudut interior CAD, perintah 
 
 # Angle
 
-Perintah `angle` mengukur sudut interior pada vertex yang dibentuk oleh dua segmen garis melalui tiga titik yang diklik. Hasilnya — selalu antara 0° dan 180° — ditampilkan di terminal hingga 4 desimal. Ini adalah salah satu dari dua perintah pengukuran — [Distance](./distance) mengukur panjang garis lurus sebagai gantinya.
+Perintah `angle` mengukur sudut interior pada vertex yang dibentuk oleh dua segmen garis melalui tiga titik yang diklik. Hasilnya — selalu antara 0° dan 180° — ditampilkan di terminal hingga 4 desimal. Ini adalah salah satu dari dua perintah pengukuran — [Distance](../distance/) mengukur panjang garis lurus sebagai gantinya.
 
 ## Anatomi pengukuran sudut
 

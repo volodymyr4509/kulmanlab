@@ -7,7 +7,7 @@ keywords: [CAD fillet-kommando, runda hörn CAD, fillet-båge, tangentiell båge
 
 # Fillet
 
-`fillet`-kommandot rundar hörnet mellan två [Line](./line)-entiteter genom att infoga en tangentiell båge med en given radie och klippa tillbaka varje linje till den punkt där bågen börjar. Resultatet är ett mjukt, avrundat hörn som förbinder båda linjerna.
+`fillet`-kommandot rundar hörnet mellan två [Line](../line/)-entiteter genom att infoga en tangentiell båge med en given radie och klippa tillbaka varje linje till den punkt där bågen börjar. Resultatet är ett mjukt, avrundat hörn som förbinder båda linjerna.
 
 Fillet fungerar endast på **Line-entiteter**.
 

@@ -41,15 +41,15 @@ Lors de l'ouverture de KulmanLab CAD, l'application charge automatiquement le **
 
 Il n'y a pas de limite fixe au nombre de dessins que vous pouvez sauvegarder, mais le stockage du navigateur est limité. Si vous voyez des avertissements de stockage, supprimez les fichiers plus anciens depuis le panneau Files.
 
-Pour supprimer tous les dessins sauvegardés en une seule fois, utilisez la commande [WipeStorage](./wipestorage).
+Pour supprimer tous les dessins sauvegardés en une seule fois, utilisez la commande [WipeStorage](../wipestorage/).
 
 ## Noms de fichiers et versions
 
-Chaque fichier a un horodatage dans son nom (ex. `myplan_May22_14:30:00.dxf`). Cet horodatage est ajouté automatiquement lors de l'[importation](./import) d'un fichier, garantissant que la réimportation du même fichier source crée une nouvelle entrée plutôt que d'écraser la version précédente.
+Chaque fichier a un horodatage dans son nom (ex. `myplan_May22_14:30:00.dxf`). Cet horodatage est ajouté automatiquement lors de l'[importation](../import/) d'un fichier, garantissant que la réimportation du même fichier source crée une nouvelle entrée plutôt que d'écraser la version précédente.
 
 ## Commandes associées
 
-- [Import](./import) — charger un dessin depuis votre système de fichiers vers le stockage du navigateur
-- [Export](./export) — télécharger un dessin vers votre système de fichiers
-- [New File](./new-file) — démarrer un dessin vierge (aussi sauvegardé automatiquement)
-- [WipeStorage](./wipestorage) — effacer tous les fichiers sauvegardés du stockage du navigateur
+- [Import](../import/) — charger un dessin depuis votre système de fichiers vers le stockage du navigateur
+- [Export](../export/) — télécharger un dessin vers votre système de fichiers
+- [New File](../new-file/) — démarrer un dessin vierge (aussi sauvegardé automatiquement)
+- [WipeStorage](../wipestorage/) — effacer tous les fichiers sauvegardés du stockage du navigateur

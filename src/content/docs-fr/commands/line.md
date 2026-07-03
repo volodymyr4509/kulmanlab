@@ -7,7 +7,7 @@ keywords: [commande line CAO, tracer ligne droite CAO, enchaîner segments de li
 
 # Line
 
-La commande `line` trace des segments de droite individuels stockés comme entités `LINE` séparées dans le modèle DXF. Après chaque segment, la commande reste active et réutilise le point final comme nouveau point de départ, vous permettant de construire des chemins connectés un segment à la fois. Contrairement à une [Polyligne](./polyline), les lignes enchaînées restent des entités indépendantes — chacune peut être raccordée, prolongée ou supprimée sans affecter ses voisines.
+La commande `line` trace des segments de droite individuels stockés comme entités `LINE` séparées dans le modèle DXF. Après chaque segment, la commande reste active et réutilise le point final comme nouveau point de départ, vous permettant de construire des chemins connectés un segment à la fois. Contrairement à une [Polyligne](../polyline/), les lignes enchaînées restent des entités indépendantes — chacune peut être raccordée, prolongée ou supprimée sans affecter ses voisines.
 
 ## Tracer des lignes
 
@@ -74,7 +74,7 @@ Une ligne sélectionnée affiche trois poignées :
 | **Point médian** | Centre de la ligne | Active **Move** pour toute la ligne |
 | **Fin** | Deuxième point final | Faites glisser pour repositionner — le départ reste fixe |
 
-Étirer un point final n'affecte jamais l'autre. Cela diffère de l'édition par poignées de [Polyligne](./polyline), où déplacer un sommet reforme tout le chemin.
+Étirer un point final n'affecte jamais l'autre. Cela diffère de l'édition par poignées de [Polyligne](../polyline/), où déplacer un sommet reforme tout le chemin.
 
 ## Sélectionner des lignes
 
@@ -86,19 +86,19 @@ Une ligne sélectionnée affiche trois poignées :
 
 ## Commandes d'édition supportées
 
-Les lignes sont la **seule** entité sur laquelle opèrent [Trim](./trim) et [Extend](./extend). Toutes les commandes de transformation standard s'appliquent également :
+Les lignes sont la **seule** entité sur laquelle opèrent [Trim](../trim/) et [Extend](../extend/). Toutes les commandes de transformation standard s'appliquent également :
 
 | Commande | Ce qui arrive à une ligne |
 |----------|--------------------------|
-| [Move](./move) | Translate les deux points finaux du même déplacement |
-| [Copy](./copy) | Crée une ligne identique à une nouvelle position |
-| [Rotate](./rotate) | Fait pivoter les deux points finaux autour du point de base choisi |
-| [Mirror](./mirror) | Symétrise les deux points finaux par rapport à l'axe de symétrie |
-| [Scale](./scale) | Met à l'échelle les deux points finaux uniformément depuis le point de base |
-| [Offset](./offset) | Crée une ligne parallèle à une distance perpendiculaire fixe |
-| [Trim](./trim) | Coupe la ligne aux intersections — **lignes uniquement** |
-| [Extend](./extend) | Étire le point final le plus proche jusqu'à atteindre une limite — **lignes uniquement** |
-| [Delete](./delete) | Supprime la ligne du dessin |
+| [Move](../move/) | Translate les deux points finaux du même déplacement |
+| [Copy](../copy/) | Crée une ligne identique à une nouvelle position |
+| [Rotate](../rotate/) | Fait pivoter les deux points finaux autour du point de base choisi |
+| [Mirror](../mirror/) | Symétrise les deux points finaux par rapport à l'axe de symétrie |
+| [Scale](../scale/) | Met à l'échelle les deux points finaux uniformément depuis le point de base |
+| [Offset](../offset/) | Crée une ligne parallèle à une distance perpendiculaire fixe |
+| [Trim](../trim/) | Coupe la ligne aux intersections — **lignes uniquement** |
+| [Extend](../extend/) | Étire le point final le plus proche jusqu'à atteindre une limite — **lignes uniquement** |
+| [Delete](../delete/) | Supprime la ligne du dessin |
 
 ## Propriétés
 

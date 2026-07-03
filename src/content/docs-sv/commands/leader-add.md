@@ -55,5 +55,5 @@ Istället för att klicka kan du skriva en exakt position:
 
 | Kommando | Vad det gör |
 |---------|-------------|
-| [Leader](./leader) | Skapa en helt ny multileader från grunden |
-| [Leader−](./leader-remove) | Ta bort en arm från en multileader som har två eller fler |
+| [Leader](../leader/) | Skapa en helt ny multileader från grunden |
+| [Leader−](../leader-remove/) | Ta bort en arm från en multileader som har två eller fler |

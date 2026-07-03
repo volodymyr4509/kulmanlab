@@ -41,15 +41,15 @@ Gdy otwierasz KulmanLab CAD, aplikacja automatycznie ładuje **ostatnio zmodyfik
 
 Nie ma stałego limitu liczby rysunków, które możesz zapisać, ale pamięć przeglądarki jest ograniczona. Jeśli zauważysz ostrzeżenia o pamięci, usuń starsze pliki z panelu Pliki.
 
-Aby usunąć wszystkie zapisane rysunki jednocześnie, użyj polecenia [WyczyśćPamięć](./wipestorage).
+Aby usunąć wszystkie zapisane rysunki jednocześnie, użyj polecenia [WyczyśćPamięć](../wipestorage/).
 
 ## Nazwy plików i wersjonowanie
 
-Każdy plik ma w nazwie znacznik czasu (np. `mojplan_Maj22_14:30:00.dxf`). Ten znacznik czasu jest dodawany automatycznie podczas [importowania](./import) pliku, zapewniając, że ponowny import tego samego pliku źródłowego tworzy nowy wpis zamiast nadpisywać poprzednią wersję.
+Każdy plik ma w nazwie znacznik czasu (np. `mojplan_Maj22_14:30:00.dxf`). Ten znacznik czasu jest dodawany automatycznie podczas [importowania](../import/) pliku, zapewniając, że ponowny import tego samego pliku źródłowego tworzy nowy wpis zamiast nadpisywać poprzednią wersję.
 
 ## Powiązane polecenia
 
-- [Import](./import) — ładowanie rysunku z systemu plików do pamięci przeglądarki
-- [Eksport](./export) — pobieranie rysunku do systemu plików
-- [Nowy plik](./new-file) — tworzenie pustego rysunku (także zapisywanego automatycznie)
-- [WyczyśćPamięć](./wipestorage) — usuwanie wszystkich zapisanych plików z pamięci przeglądarki
+- [Import](../import/) — ładowanie rysunku z systemu plików do pamięci przeglądarki
+- [Eksport](../export/) — pobieranie rysunku do systemu plików
+- [Nowy plik](../new-file/) — tworzenie pustego rysunku (także zapisywanego automatycznie)
+- [WyczyśćPamięć](../wipestorage/) — usuwanie wszystkich zapisanych plików z pamięci przeglądarki

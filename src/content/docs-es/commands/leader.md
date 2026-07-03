@@ -106,8 +106,8 @@ Consulta [Editor de Texto — rich mode](../interface/text-editor#rich-mode) par
 
 ## Añadir y eliminar brazos
 
-- Para añadir un brazo de punta de flecha extra a una referencia existente: [Leader+](./leader-add)
-- Para eliminar un brazo de una referencia que tiene dos o más: [Leader−](./leader-remove)
+- Para añadir un brazo de punta de flecha extra a una referencia existente: [Leader+](../leader-add/)
+- Para eliminar un brazo de una referencia que tiene dos o más: [Leader−](../leader-remove/)
 
 ## DXF — solo importación
 

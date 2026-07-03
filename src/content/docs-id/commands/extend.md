@@ -7,7 +7,7 @@ keywords: [perintah perpanjang CAD, memperpanjang garis CAD, meregangkan garis k
 
 # Extend
 
-Perintah `extend` meregangkan titik akhir terdekat dari [Line](./line) ke perpotongan terdekat yang akan terbentuk dengan entitas lain dalam gambar. Arahkan kursor dekat titik akhir yang ingin diperpanjang — pratinjau menampilkan garis yang diperpanjang — kemudian klik untuk menerapkannya.
+Perintah `extend` meregangkan titik akhir terdekat dari [Line](../line/) ke perpotongan terdekat yang akan terbentuk dengan entitas lain dalam gambar. Arahkan kursor dekat titik akhir yang ingin diperpanjang — pratinjau menampilkan garis yang diperpanjang — kemudian klik untuk menerapkannya.
 
 Extend hanya bekerja pada **entitas Line**. Batas yang dituju garis dapat berupa tipe entitas lain mana pun kecuali Text, Mtext, Multileader, dan Spline.
 

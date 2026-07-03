@@ -44,6 +44,6 @@ Es gibt keine Tastenkombination für diesen Befehl. Verwenden Sie stattdessen di
 
 | Befehl | Funktion |
 |--------|----------|
-| [Pan](./pan) | Verschiebt das Ansichtsfenster ohne zu zoomen |
-| [Zoom In](./zoom-in) | Multipliziert den Zoom um 1,5× pro Schritt |
-| [Zoom Out](./zoom-out) | Dividiert den Zoom durch 1,5× pro Schritt |
+| [Pan](../pan/) | Verschiebt das Ansichtsfenster ohne zu zoomen |
+| [Zoom In](../zoom-in/) | Multipliziert den Zoom um 1,5× pro Schritt |
+| [Zoom Out](../zoom-out/) | Dividiert den Zoom durch 1,5× pro Schritt |

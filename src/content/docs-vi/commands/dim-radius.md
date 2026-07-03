@@ -5,7 +5,7 @@ description: Lệnh Dimension Radius đặt kích thước bán kính có tiền
 
 # Kích Thước Bán Kính
 
-Lệnh `dimradius` đặt kích thước bán kính lên một cung hoặc hình tròn. Đường kích thước chạy từ tâm đến một điểm trên chu vi theo hướng con trỏ, được ghi nhãn `R <giá trị>`. Để ghi chú toàn bộ đường kính thay thế, dùng [Kích Thước Đường Kính](./dim-diameter).
+Lệnh `dimradius` đặt kích thước bán kính lên một cung hoặc hình tròn. Đường kích thước chạy từ tâm đến một điểm trên chu vi theo hướng con trỏ, được ghi nhãn `R <giá trị>`. Để ghi chú toàn bộ đường kính thay thế, dùng [Kích Thước Đường Kính](../dim-diameter/).
 
 ## Cấu trúc kích thước bán kính
 

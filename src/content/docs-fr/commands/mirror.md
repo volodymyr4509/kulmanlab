@@ -7,7 +7,7 @@ keywords: [commande mirror CAO, symétriser entités CAO, symétrie axiale CAO, 
 
 # Mirror
 
-La commande `mirror` crée des copies symétriques des entités sélectionnées réfléchies par rapport à un axe défini par deux points. Les originaux sont **toujours conservés** — contrairement à [Move](./move) ou [Rotate](./rotate), Mirror ne modifie jamais les entités existantes ; elle en ajoute seulement de nouvelles.
+La commande `mirror` crée des copies symétriques des entités sélectionnées réfléchies par rapport à un axe défini par deux points. Les originaux sont **toujours conservés** — contrairement à [Move](../move/) ou [Rotate](../rotate/), Mirror ne modifie jamais les entités existantes ; elle en ajoute seulement de nouvelles.
 
 ## Deux façons de démarrer
 

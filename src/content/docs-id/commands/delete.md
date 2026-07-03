@@ -7,7 +7,7 @@ keywords: [perintah hapus CAD, menghapus entitas CAD, menghapus objek CAD, tombo
 
 # Delete
 
-Perintah `delete` menghapus entitas yang dipilih dari gambar. Penghapusan dicatat dalam riwayat [Undo](./undo) dan dapat dibalik hingga 20 langkah. Tidak ada dialog "konfirmasi hapus" terpisah — konfirmasi adalah satu kali penekanan tombol.
+Perintah `delete` menghapus entitas yang dipilih dari gambar. Penghapusan dicatat dalam riwayat [Undo](../undo/) dan dapat dibalik hingga 20 langkah. Tidak ada dialog "konfirmasi hapus" terpisah — konfirmasi adalah satu kali penekanan tombol.
 
 ## Dua cara menghapus
 
@@ -43,7 +43,7 @@ Klik entitas → tekan tombol Delete → selesai
 
 ## Memulihkan entitas yang dihapus
 
-Penghapusan dapat dibatalkan dengan perintah [Undo](./undo) (ketik `undo` atau gunakan tombol toolbar). Hingga **20 langkah** dapat dibalik per file, dan riwayat bertahan setelah halaman dimuat ulang. Jika Anda telah melebihi 20 penghapusan tanpa menyimpan, penghapusan sebelumnya tidak dapat dipulihkan.
+Penghapusan dapat dibatalkan dengan perintah [Undo](../undo/) (ketik `undo` atau gunakan tombol toolbar). Hingga **20 langkah** dapat dibalik per file, dan riwayat bertahan setelah halaman dimuat ulang. Jika Anda telah melebihi 20 penghapusan tanpa menyimpan, penghapusan sebelumnya tidak dapat dipulihkan.
 
 ## Entitas yang didukung
 

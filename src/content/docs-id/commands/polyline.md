@@ -7,9 +7,9 @@ keywords: [perintah polyline CAD, menggambar polyline CAD, jalur multi-segmen CA
 
 # Polyline
 
-Perintah `polyline` menggambar jalur terhubung dengan sejumlah segmen lurus, semua disimpan sebagai satu entitas `LWPOLYLINE`. Karena seluruh jalur adalah satu objek, memilihnya memilih setiap segmen sekaligus — pindahkan, putar, atau skalakan seluruh bentuk dalam satu operasi. Ini adalah perbedaan utama dari [Line](./line) yang dirantai, di mana setiap segmen adalah entitas independen.
+Perintah `polyline` menggambar jalur terhubung dengan sejumlah segmen lurus, semua disimpan sebagai satu entitas `LWPOLYLINE`. Karena seluruh jalur adalah satu objek, memilihnya memilih setiap segmen sekaligus — pindahkan, putar, atau skalakan seluruh bentuk dalam satu operasi. Ini adalah perbedaan utama dari [Line](../line/) yang dirantai, di mana setiap segmen adalah entitas independen.
 
-Polyline juga bisa **ditutup**: perintah [Rectangle](./rectangle) menggunakan entitas `LWPOLYLINE` yang sama dengan flag close yang diatur.
+Polyline juga bisa **ditutup**: perintah [Rectangle](../rectangle/) menggunakan entitas `LWPOLYLINE` yang sama dengan flag close yang diatur.
 
 ## Menggambar polyline
 
@@ -39,7 +39,7 @@ Alih-alih mengklik, ketik posisi tepat untuk vertex mana saja:
 
 ## Penguncian sudut dan panjang segmen tepat
 
-Logika snap 45° yang sama seperti perintah [Line](./line#angle-locking-and-exact-length-input) berlaku antara dua titik berturutan mana pun. Saat terkunci ke sumbu:
+Logika snap 45° yang sama seperti perintah [Line](../line/#angle-locking-and-exact-length-input) berlaku antara dua titik berturutan mana pun. Saat terkunci ke sumbu:
 
 | Tombol | Aksi |
 |-----|--------|
@@ -70,9 +70,9 @@ Polyline yang dipilih menampilkan dua jenis grip:
 | **Vertex** | Di setiap titik yang ditempatkan | Seret untuk memposisikan ulang vertex tersebut; semua segmen yang terhubung meregang mengikuti |
 | **Titik tengah segmen** | Titik tengah setiap segmen | Seret untuk menerjemahkan **kedua** titik akhir segmen tersebut bersama-sama, menjaga panjang dan sudut segmen tetap utuh |
 
-Grip titik tengah segmen unik untuk polyline — memungkinkan Anda menggeser segmen individual ke samping tanpa mengubah panjangnya. Pada [Line](./line), grip titik tengah justru mengaktifkan perintah Move untuk seluruh entitas.
+Grip titik tengah segmen unik untuk polyline — memungkinkan Anda menggeser segmen individual ke samping tanpa mengubah panjangnya. Pada [Line](../line/), grip titik tengah justru mengaktifkan perintah Move untuk seluruh entitas.
 
-Tidak ada grip "pindahkan seluruh polyline". Untuk memindahkan seluruh jalur, gunakan perintah [Move](./move).
+Tidak ada grip "pindahkan seluruh polyline". Untuk memindahkan seluruh jalur, gunakan perintah [Move](../move/).
 
 ## Memilih polyline
 
@@ -86,17 +86,17 @@ Karena polyline adalah satu entitas, seleksi persilangan yang menyentuh segmen m
 
 ## Perintah edit yang didukung
 
-Polyline mendukung semua transformasi umum dan offset, tetapi **tidak** trim atau extend (itu khusus untuk [Line](./line)):
+Polyline mendukung semua transformasi umum dan offset, tetapi **tidak** trim atau extend (itu khusus untuk [Line](../line/)):
 
 | Perintah | Apa yang terjadi pada polyline |
 |---------|------------------------------|
-| [Move](./move) | Menerjemahkan semua vertex dengan perpindahan yang sama |
-| [Copy](./copy) | Membuat polyline identik di posisi baru |
-| [Rotate](./rotate) | Memutar semua vertex di sekitar titik dasar yang dipilih |
-| [Mirror](./mirror) | Memantulkan semua vertex melintasi sumbu cermin |
-| [Scale](./scale) | Menskalakan semua vertex secara seragam dari titik dasar |
-| [Offset](./offset) | Membuat polyline paralel pada jarak tegak lurus yang tetap |
-| [Delete](./delete) | Menghapus polyline dari gambar |
+| [Move](../move/) | Menerjemahkan semua vertex dengan perpindahan yang sama |
+| [Copy](../copy/) | Membuat polyline identik di posisi baru |
+| [Rotate](../rotate/) | Memutar semua vertex di sekitar titik dasar yang dipilih |
+| [Mirror](../mirror/) | Memantulkan semua vertex melintasi sumbu cermin |
+| [Scale](../scale/) | Menskalakan semua vertex secara seragam dari titik dasar |
+| [Offset](../offset/) | Membuat polyline paralel pada jarak tegak lurus yang tetap |
+| [Delete](../delete/) | Menghapus polyline dari gambar |
 
 ## Properti
 
@@ -132,6 +132,6 @@ Ketika polyline dipilih, panel properti menampilkan:
 
 ## DXF — entitas LWPOLYLINE
 
-Polyline disimpan sebagai entitas `LWPOLYLINE` dalam file DXF. Semua properti — koordinat vertex, flag close, warna, layer, tipe garis, skala tipe garis, dan ketebalan — dapat dipertukarkan tanpa kehilangan data. Persegi panjang yang digambar dengan perintah [Rectangle](./rectangle) juga disimpan sebagai `LWPOLYLINE` (tertutup, empat vertex) dan tidak dapat dibedakan pada level DXF.
+Polyline disimpan sebagai entitas `LWPOLYLINE` dalam file DXF. Semua properti — koordinat vertex, flag close, warna, layer, tipe garis, skala tipe garis, dan ketebalan — dapat dipertukarkan tanpa kehilangan data. Persegi panjang yang digambar dengan perintah [Rectangle](../rectangle/) juga disimpan sebagai `LWPOLYLINE` (tertutup, empat vertex) dan tidak dapat dibedakan pada level DXF.
 
 Entitas `LWPOLYLINE` dari aplikasi yang kompatibel dengan DXF mana pun (LibreCAD, FreeCAD, dll.) dibaca kembali sebagai polyline yang sepenuhnya dapat diedit di editor.

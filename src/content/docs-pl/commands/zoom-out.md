@@ -7,7 +7,7 @@ keywords: [CAD pomniejsz, zmniejsz powiększenie widoku, polecenie pomniejsz, pr
 
 # Pomniejsz
 
-Polecenie `zoomout` dzieli bieżący poziom powiększenia przez **1,5×** (odpowiednik mnożenia przez ~0,667) i natychmiast kończy się, wyśrodkowane na środku widoku. Jest to odwrotność polecenia [Powiększ](./zoom-in).
+Polecenie `zoomout` dzieli bieżący poziom powiększenia przez **1,5×** (odpowiednik mnożenia przez ~0,667) i natychmiast kończy się, wyśrodkowane na środku widoku. Jest to odwrotność polecenia [Powiększ](../zoom-in/).
 
 ## Pomniejszanie
 
@@ -41,6 +41,6 @@ Dla tego polecenia nie ma skrótów klawiaturowych. Zamiast tego użyj kółka m
 
 | Polecenie | Co robi |
 |-----------|---------|
-| [Powiększ](./zoom-in) | Mnoży powiększenie o 1,5× na krok |
-| [Dopasuj](./fit) | Resetuje powiększenie, aby pokazać wszystkie elementy |
-| [Panoramuj](./pan) | Przesuwa widok bez powiększania |
+| [Powiększ](../zoom-in/) | Mnoży powiększenie o 1,5× na krok |
+| [Dopasuj](../fit/) | Resetuje powiększenie, aby pokazać wszystkie elementy |
+| [Panoramuj](../pan/) | Przesuwa widok bez powiększania |

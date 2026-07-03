@@ -85,13 +85,13 @@ Todos os quatro grips cardinais se comportam de forma idêntica — o novo raio 
 
 | Comando | Efeito no círculo |
 |---------|-----------------|
-| [Move](./move) | Translada o centro; raio inalterado |
-| [Copy](./copy) | Cria um círculo idêntico num novo centro |
-| [Rotate](./rotate) | Roda o centro em torno do ponto base; raio inalterado |
-| [Mirror](./mirror) | Reflete o centro em relação ao eixo especular; raio inalterado |
-| [Scale](./scale) | Escala a posição do centro e multiplica o raio pelo fator de escala |
-| [Offset](./offset) | Cria um círculo concêntrico a raio maior ou menor |
-| [Delete](./delete) | Remove o círculo |
+| [Move](../move/) | Translada o centro; raio inalterado |
+| [Copy](../copy/) | Cria um círculo idêntico num novo centro |
+| [Rotate](../rotate/) | Roda o centro em torno do ponto base; raio inalterado |
+| [Mirror](../mirror/) | Reflete o centro em relação ao eixo especular; raio inalterado |
+| [Scale](../scale/) | Escala a posição do centro e multiplica o raio pelo fator de escala |
+| [Offset](../offset/) | Cria um círculo concêntrico a raio maior ou menor |
+| [Delete](../delete/) | Remove o círculo |
 
 ## Propriedades
 
@@ -120,7 +120,7 @@ Todos os quatro grips cardinais se comportam de forma idêntica — o novo raio 
 | Como desenhar | Centro + raio | Três pontos na curva |
 | Entrada digitada | Valor do raio | Nenhuma — somente clique |
 | Grip de redimensionamento | 4 pontos cardinais | Pontos de início e fim (ângulo + raio) |
-| Cotagem | Raio: [Dim Radius](./dim-radius) · Diâmetro: [Dim Diameter](./dim-diameter) | [Dim Radius](./dim-radius) |
+| Cotagem | Raio: [Dim Radius](../dim-radius/) · Diâmetro: [Dim Diameter](../dim-diameter/) | [Dim Radius](../dim-radius/) |
 | Ideal para | Furos completos, círculos de parafusos, elementos redondos | Chanfros, curvas parciais, percursos curvos |
 
 ## DXF — entidade CIRCLE

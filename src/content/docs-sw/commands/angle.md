@@ -7,7 +7,7 @@ keywords: [kupima pembe ya CAD, pembe ya pointi tatu, pembe ya ndani CAD, amri y
 
 # Angle
 
-Amri ya `angle` inapima pembe ya ndani kwenye kilele inayoundwa na sehemu mbili za mstari kupitia pointi tatu zilizopigiwa klik. Matokeo — daima kati ya 0° na 180° — yanaonyeshwa kwenye terminal kwa nafasi 4 za desimali. Ni moja ya amri mbili za kupima — [Distance](./distance) inapima urefu wa mstari wa moja kwa moja badala yake.
+Amri ya `angle` inapima pembe ya ndani kwenye kilele inayoundwa na sehemu mbili za mstari kupitia pointi tatu zilizopigiwa klik. Matokeo — daima kati ya 0° na 180° — yanaonyeshwa kwenye terminal kwa nafasi 4 za desimali. Ni moja ya amri mbili za kupima — [Distance](../distance/) inapima urefu wa mstari wa moja kwa moja badala yake.
 
 ## Muundo wa kipimo cha pembe
 

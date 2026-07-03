@@ -7,7 +7,7 @@ keywords: [comando rectangle CAD, dibujar rectángulo CAD, rectángulo alineado 
 
 # Rectangle
 
-El comando `rectangle` dibuja un rectángulo con ejes alineados definido por dos clics en esquinas opuestas. El resultado se almacena como una **`LWPOLYLINE` cerrada** con cuatro vértices — uno en cada esquina. No existe un tipo de entidad rectángulo dedicado: tras su creación, la forma se comporta exactamente como cualquier otra [Polyline](./polyline) y todos los comandos de edición de polilíneas se aplican a ella.
+El comando `rectangle` dibuja un rectángulo con ejes alineados definido por dos clics en esquinas opuestas. El resultado se almacena como una **`LWPOLYLINE` cerrada** con cuatro vértices — uno en cada esquina. No existe un tipo de entidad rectángulo dedicado: tras su creación, la forma se comporta exactamente como cualquier otra [Polyline](../polyline/) y todos los comandos de edición de polilíneas se aplican a ella.
 
 ## Dibujar un rectángulo
 
@@ -69,17 +69,17 @@ Dado que el rectángulo es una polilínea, la selección funciona de la misma ma
 
 ## Comandos de edición compatibles
 
-Se aplican todos los comandos de edición de polilíneas. Trim y Extend son exclusivos de [Line](./line) y no funcionan en rectángulos:
+Se aplican todos los comandos de edición de polilíneas. Trim y Extend son exclusivos de [Line](../line/) y no funcionan en rectángulos:
 
 | Comando | Qué ocurre con el rectángulo |
 |---------|------------------------------|
-| [Move](./move) | Traslada los cuatro vértices con el mismo desplazamiento |
-| [Copy](./copy) | Crea un rectángulo idéntico en una nueva posición |
-| [Rotate](./rotate) | Rota los cuatro vértices alrededor del punto base elegido |
-| [Mirror](./mirror) | Refleja los cuatro vértices respecto al eje de simetría |
-| [Scale](./scale) | Escala los cuatro vértices uniformemente desde el punto base |
-| [Offset](./offset) | Crea un rectángulo paralelo (interior o exterior) a una distancia fija |
-| [Delete](./delete) | Elimina el rectángulo del dibujo |
+| [Move](../move/) | Traslada los cuatro vértices con el mismo desplazamiento |
+| [Copy](../copy/) | Crea un rectángulo idéntico en una nueva posición |
+| [Rotate](../rotate/) | Rota los cuatro vértices alrededor del punto base elegido |
+| [Mirror](../mirror/) | Refleja los cuatro vértices respecto al eje de simetría |
+| [Scale](../scale/) | Escala los cuatro vértices uniformemente desde el punto base |
+| [Offset](../offset/) | Crea un rectángulo paralelo (interior o exterior) a una distancia fija |
+| [Delete](../delete/) | Elimina el rectángulo del dibujo |
 
 ## Propiedades
 

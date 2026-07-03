@@ -71,13 +71,13 @@ Trascinare un grip di inizio o fine lo riposiziona nella posizione di trasciname
 
 | Comando | Effetto sull'arco |
 |---------|-----------------|
-| [Move](./move) | Trasla il centro; raggio e angoli invariati |
-| [Copy](./copy) | Crea un arco identico in una nuova posizione |
-| [Rotate](./rotate) | Ruota il centro e sposta gli angoli di inizio/fine della quantità di rotazione |
-| [Mirror](./mirror) | Riflette il centro e inverte gli angoli di inizio/fine rispetto all'asse speculare |
-| [Scale](./scale) | Scala la posizione del centro e moltiplica il raggio per il fattore di scala |
-| [Offset](./offset) | Crea un arco concentrico a raggio maggiore o minore, stesso intervallo angolare |
-| [Delete](./delete) | Rimuove l'arco |
+| [Move](../move/) | Trasla il centro; raggio e angoli invariati |
+| [Copy](../copy/) | Crea un arco identico in una nuova posizione |
+| [Rotate](../rotate/) | Ruota il centro e sposta gli angoli di inizio/fine della quantità di rotazione |
+| [Mirror](../mirror/) | Riflette il centro e inverte gli angoli di inizio/fine rispetto all'asse speculare |
+| [Scale](../scale/) | Scala la posizione del centro e moltiplica il raggio per il fattore di scala |
+| [Offset](../offset/) | Crea un arco concentrico a raggio maggiore o minore, stesso intervallo angolare |
+| [Delete](../delete/) | Rimuove l'arco |
 
 ## Proprietà
 

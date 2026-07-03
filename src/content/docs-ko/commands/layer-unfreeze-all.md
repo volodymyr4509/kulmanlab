@@ -15,7 +15,7 @@ keywords: [레이어 동결 해제, 모든 레이어 동결 해제 CAD, kulmanla
 
 ## 사용 시기
 
-일반적으로 [LayerIsolate](./layer-isolate) 후 모든 레이어를 정상적인 표시 상태로 복원할 때 사용합니다.
+일반적으로 [LayerIsolate](../layer-isolate/) 후 모든 레이어를 정상적인 표시 상태로 복원할 때 사용합니다.
 
 ## 동작 세부 정보
 

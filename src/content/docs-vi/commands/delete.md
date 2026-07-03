@@ -6,7 +6,7 @@ keywords: [lệnh delete CAD, xóa đối tượng CAD, xóa thực thể CAD, p
 
 # Delete
 
-Lệnh `delete` xóa các đối tượng được chọn khỏi bản vẽ. Việc xóa được ghi lại trong lịch sử [Undo](./undo) và có thể đảo ngược với tối đa 20 bước. Không có hộp thoại "xác nhận xóa" riêng biệt — xác nhận chỉ là một lần nhấn phím.
+Lệnh `delete` xóa các đối tượng được chọn khỏi bản vẽ. Việc xóa được ghi lại trong lịch sử [Undo](../undo/) và có thể đảo ngược với tối đa 20 bước. Không có hộp thoại "xác nhận xóa" riêng biệt — xác nhận chỉ là một lần nhấn phím.
 
 ## Hai Cách Xóa
 
@@ -42,7 +42,7 @@ Bấm đối tượng → nhấn phím Delete → xong
 
 ## Phục Hồi Đối Tượng Đã Xóa
 
-Việc xóa có thể hoàn tác bằng lệnh [Undo](./undo) (nhập `undo` hoặc dùng nút thanh công cụ). Tối đa **20 bước** có thể đảo ngược mỗi tệp, và lịch sử duy trì qua các lần tải lại trang. Nếu bạn đã xóa hơn 20 lần mà không lưu, các lần xóa trước đó không thể phục hồi.
+Việc xóa có thể hoàn tác bằng lệnh [Undo](../undo/) (nhập `undo` hoặc dùng nút thanh công cụ). Tối đa **20 bước** có thể đảo ngược mỗi tệp, và lịch sử duy trì qua các lần tải lại trang. Nếu bạn đã xóa hơn 20 lần mà không lưu, các lần xóa trước đó không thể phục hồi.
 
 ## Thực Thể Được Hỗ Trợ
 

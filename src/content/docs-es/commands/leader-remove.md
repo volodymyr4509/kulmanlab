@@ -47,5 +47,5 @@ El comando mide la distancia perpendicular desde el cursor hasta los segmentos d
 
 | Comando | Qué hace |
 |---------|-------------|
-| [Leader](./leader) | Crear una nueva multireferencia desde cero |
-| [Leader+](./leader-add) | Añadir un brazo a una multireferencia existente |
+| [Leader](../leader/) | Crear una nueva multireferencia desde cero |
+| [Leader+](../leader-add/) | Añadir un brazo a una multireferencia existente |

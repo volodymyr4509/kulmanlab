@@ -7,7 +7,7 @@ keywords: [wymiar wyrównany CAD, dimaligned, wymiar ukośny CAD, wymiar rzeczyw
 
 # Wymiar wyrównany
 
-Polecenie `dimaligned` umieszcza wymiar mierzący **rzeczywistą odległość prostoliniową** między dwoma punktami. Linia wymiarowa przebiega równolegle do linii łączącej dwa punkty, więc może być pod dowolnym kątem. To kluczowa różnica od [Wymiaru liniowego](./dim-linear), który jest ograniczony do poziomego lub pionowego.
+Polecenie `dimaligned` umieszcza wymiar mierzący **rzeczywistą odległość prostoliniową** między dwoma punktami. Linia wymiarowa przebiega równolegle do linii łączącej dwa punkty, więc może być pod dowolnym kątem. To kluczowa różnica od [Wymiaru liniowego](../dim-linear/), który jest ograniczony do poziomego lub pionowego.
 
 ## Anatomia wymiaru wyrównanego
 
@@ -80,7 +80,7 @@ Zobacz [Edytor tekstu — tryb simple](../interface/text-editor#simple-mode) w c
 
 ## Łączenie wymiarów
 
-Aby dodać więcej wymiarów kontynuowanych od drugiej linii przedłużenia tego wymiaru, użyj [Wymiaru kontynuowanego](./dim-continue) — blokuje się do tego samego kąta pomiaru co ten wymiar wyrównany.
+Aby dodać więcej wymiarów kontynuowanych od drugiej linii przedłużenia tego wymiaru, użyj [Wymiaru kontynuowanego](../dim-continue/) — blokuje się do tego samego kąta pomiaru co ten wymiar wyrównany.
 
 ## DXF — element DIMENSION (typ wyrównany)
 

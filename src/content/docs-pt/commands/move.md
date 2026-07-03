@@ -71,7 +71,7 @@ Após o ponto base ser definido, o comando procura um eixo de encaixe de 45° (0
 
 ## Ativando Move a partir de um grip
 
-Clicar no **grip do ponto médio** de uma [Linha](./line) selecionada ativa Move automaticamente, com o ponto médio já definido como ponto base e a fase de movimento ativa. Esta é a forma mais rápida de reposicionar uma única linha sem passar pela etapa de seleção.
+Clicar no **grip do ponto médio** de uma [Linha](../line/) selecionada ativa Move automaticamente, com o ponto médio já definido como ponto base e a fase de movimento ativa. Esta é a forma mais rápida de reposicionar uma única linha sem passar pela etapa de seleção.
 
 ## Seleção durante o comando
 
@@ -88,7 +88,7 @@ Quando o comando começa na fase de seleção:
 
 As entidades movidas permanecem selecionadas na nova posição. Isso significa que você pode imediatamente:
 - Executar **Move** novamente para ajustá-las.
-- Executar [Copy](./copy), [Rotate](./rotate) ou [Scale](./scale) sem re-selecionar.
+- Executar [Copy](../copy/), [Rotate](../rotate/) ou [Scale](../scale/) sem re-selecionar.
 - Pressionar **Delete** para removê-las.
 
 ## Move vs Copiar

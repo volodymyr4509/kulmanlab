@@ -36,4 +36,4 @@ Setiap mutasi entiti direkodkan: melukis entiti baharu, memadam entiti, pengedit
 | Tersedia apabila | Sekurang-kurangnya satu tindakan yang direkodkan wujud | Sekurang-kurangnya satu Undo telah dilakukan dan tiada tindakan baharu diambil |
 | Dibersihkan oleh | Tiada — sejarah terkumpul sehingga had 20 langkah | Mana-mana tindakan lukisan baharu |
 
-Gunakan [Redo](./redo) untuk menggunakan semula tindakan yang dibatalkan. Butang bar alat dikelabukan apabila arah masing-masing tidak tersedia.
+Gunakan [Redo](../redo/) untuk menggunakan semula tindakan yang dibatalkan. Butang bar alat dikelabukan apabila arah masing-masing tidak tersedia.

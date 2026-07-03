@@ -56,4 +56,4 @@ Après avoir défini le point de base, la commande s'accroche aux axes à 45° (
 
 - ViewportCopy n'est disponible que lorsqu'un onglet de mise en page papier est actif.
 - La fenêtre copiée hérite de la même échelle, du même centre de modèle, du même état de verrouillage et des mêmes dimensions que l'originale.
-- Pour créer une nouvelle fenêtre depuis zéro, utilisez [ViewportRectangle](./viewport-rectangle).
+- Pour créer une nouvelle fenêtre depuis zéro, utilisez [ViewportRectangle](../viewport-rectangle/).

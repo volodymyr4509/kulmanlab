@@ -7,7 +7,7 @@ keywords: [CAD rectangle command, draw rectangle CAD, axis-aligned rectangle, cl
 
 # Rectangle
 
-The `rectangle` command draws an axis-aligned rectangle defined by two opposite corner clicks. The result is stored as a **closed `LWPOLYLINE`** with four vertices — one at each corner. There is no dedicated rectangle entity type: after creation the shape behaves exactly like any other [Polyline](./polyline) and every polyline edit applies to it.
+The `rectangle` command draws an axis-aligned rectangle defined by two opposite corner clicks. The result is stored as a **closed `LWPOLYLINE`** with four vertices — one at each corner. There is no dedicated rectangle entity type: after creation the shape behaves exactly like any other [Polyline](../polyline/) and every polyline edit applies to it.
 
 ## Drawing a rectangle
 
@@ -68,17 +68,17 @@ Because the rectangle is a polyline, selection works the same way:
 
 ## Supported edit commands
 
-All polyline edit commands apply. Trim and Extend are [Line](./line)-only and do not work on rectangles:
+All polyline edit commands apply. Trim and Extend are [Line](../line/)-only and do not work on rectangles:
 
 | Command | What happens to the rectangle |
 |---------|-------------------------------|
-| [Move](./move) | Translates all four vertices by the same displacement |
-| [Copy](./copy) | Creates an identical rectangle at a new position |
-| [Rotate](./rotate) | Rotates all four vertices around the chosen base point |
-| [Mirror](./mirror) | Reflects all four vertices across the mirror axis |
-| [Scale](./scale) | Scales all four vertices uniformly from the base point |
-| [Offset](./offset) | Creates a parallel (inset or outset) rectangle at a fixed distance |
-| [Delete](./delete) | Removes the rectangle from the drawing |
+| [Move](../move/) | Translates all four vertices by the same displacement |
+| [Copy](../copy/) | Creates an identical rectangle at a new position |
+| [Rotate](../rotate/) | Rotates all four vertices around the chosen base point |
+| [Mirror](../mirror/) | Reflects all four vertices across the mirror axis |
+| [Scale](../scale/) | Scales all four vertices uniformly from the base point |
+| [Offset](../offset/) | Creates a parallel (inset or outset) rectangle at a fixed distance |
+| [Delete](../delete/) | Removes the rectangle from the drawing |
 
 ## Properties
 

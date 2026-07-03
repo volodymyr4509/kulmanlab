@@ -47,4 +47,4 @@ keywords: [viewport rectangle, δημιουργία viewport, viewport layout, v
 ## Σημειώσεις
 
 - Η ViewportRectangle είναι διαθέσιμη μόνο όταν είναι ενεργή καρτέλα layout χαρτιού. Εκτέλεση στον χώρο μοντέλου εμφανίζει μήνυμα σφάλματος και εξέρχεται.
-- Για αντιγραφή υπάρχοντος viewport, χρησιμοποιήστε [ViewportCopy](./viewport-copy).
+- Για αντιγραφή υπάρχοντος viewport, χρησιμοποιήστε [ViewportCopy](../viewport-copy/).

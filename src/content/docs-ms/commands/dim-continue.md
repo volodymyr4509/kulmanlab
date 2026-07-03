@@ -51,7 +51,7 @@ Arah pengukuran rantai **ditetapkan ke sudut dimensi asas**:
 - Asas Linear (V) → semua kesinambungan mengukur jarak menegak (Δ Y).
 - Asas Aligned pada mana-mana sudut → semua kesinambungan mengukur sepanjang sudut yang sama itu.
 
-Anda tidak boleh menukar arah di tengah rantai. Mulakan [Dimension Linear](./dim-linear) atau [Dimension Aligned](./dim-aligned) yang baharu untuk dimensi dalam arah berbeza.
+Anda tidak boleh menukar arah di tengah rantai. Mulakan [Dimension Linear](../dim-linear/) atau [Dimension Aligned](../dim-aligned/) yang baharu untuk dimensi dalam arah berbeza.
 
 ## Rujukan papan kekunci
 

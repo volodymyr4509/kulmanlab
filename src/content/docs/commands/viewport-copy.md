@@ -56,4 +56,4 @@ After the base point is set, the command snaps to 45° axes (0°, 45°, 90°, 13
 
 - ViewportCopy is only available when a paper layout tab is active.
 - The copied viewport inherits the same scale, model center, locked state, and dimensions as the original.
-- To create a new viewport from scratch, use [ViewportRectangle](./viewport-rectangle).
+- To create a new viewport from scratch, use [ViewportRectangle](../viewport-rectangle/).

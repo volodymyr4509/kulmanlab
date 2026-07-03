@@ -7,7 +7,7 @@ keywords: [perintah cermin CAD, memantulkan entitas CAD, simetri cermin CAD, mem
 
 # Mirror
 
-Perintah `mirror` membuat salinan yang dicerminkan dari entitas yang dipilih, dipantulkan melintasi sumbu dua titik. Aslinya **selalu dipertahankan** — tidak seperti [Move](./move) atau [Rotate](./rotate), Mirror tidak pernah memodifikasi entitas yang sudah ada; hanya menambahkan yang baru.
+Perintah `mirror` membuat salinan yang dicerminkan dari entitas yang dipilih, dipantulkan melintasi sumbu dua titik. Aslinya **selalu dipertahankan** — tidak seperti [Move](../move/) atau [Rotate](../rotate/), Mirror tidak pernah memodifikasi entitas yang sudah ada; hanya menambahkan yang baru.
 
 ## Dua cara memulai
 

@@ -75,12 +75,12 @@ Lebo ya maandishi iliyochaguliwa inaonyesha kishiko kimoja katika nukta ya nanga
 
 | Amri | Kinachotokea kwa maandishi |
 |------|---------------------------|
-| [Move](./move) | Husogeza nukta ya nanga |
-| [Copy](./copy) | Huunda lebo inayofanana katika nafasi mpya |
-| [Rotate](./rotate) | Huzungusha nafasi ya nanga na kuongeza pembe kwa Digrii ya Kuzungusha |
-| [Mirror](./mirror) | Huakisi nukta ya nanga kwenye mhimili wa kioo (mnyororo wa maandishi haupinduliwi) |
-| [Scale](./scale) | Hupima nafasi ya nanga na kuzidisha urefu na kiwango cha pima |
-| [Delete](./delete) | Huondoa lebo |
+| [Move](../move/) | Husogeza nukta ya nanga |
+| [Copy](../copy/) | Huunda lebo inayofanana katika nafasi mpya |
+| [Rotate](../rotate/) | Huzungusha nafasi ya nanga na kuongeza pembe kwa Digrii ya Kuzungusha |
+| [Mirror](../mirror/) | Huakisi nukta ya nanga kwenye mhimili wa kioo (mnyororo wa maandishi haupinduliwi) |
+| [Scale](../scale/) | Hupima nafasi ya nanga na kuzidisha urefu na kiwango cha pima |
+| [Delete](../delete/) | Huondoa lebo |
 
 Maandishi hayasaidii **Offset**, **Trim**, au **Extend**.
 

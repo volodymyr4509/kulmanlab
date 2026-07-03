@@ -6,7 +6,7 @@ keywords: [đo góc CAD, góc ba điểm, góc nội tại CAD, lệnh đo góc,
 
 # Angle
 
-Lệnh `angle` đo góc nội tại tại đỉnh được tạo bởi hai đoạn thẳng qua ba điểm bấm. Kết quả — luôn nằm trong khoảng 0° đến 180° — được hiển thị trong terminal với 4 chữ số thập phân. Đây là một trong hai lệnh đo lường — [Distance](./distance) đo độ dài đường thẳng.
+Lệnh `angle` đo góc nội tại tại đỉnh được tạo bởi hai đoạn thẳng qua ba điểm bấm. Kết quả — luôn nằm trong khoảng 0° đến 180° — được hiển thị trong terminal với 4 chữ số thập phân. Đây là một trong hai lệnh đo lường — [Distance](../distance/) đo độ dài đường thẳng.
 
 ## Cấu Trúc Phép Đo Góc
 

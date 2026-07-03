@@ -7,7 +7,7 @@ keywords: [perintah fillet CAD, membulatkan sudut CAD, busur fillet, busur tange
 
 # Fillet
 
-Perintah `fillet` membulatkan sudut antara dua entitas [Line](./line) dengan menyisipkan busur tangen berradius tertentu dan memotong masing-masing garis kembali ke titik di mana busur dimulai. Hasilnya adalah sudut yang halus dan beradius yang menghubungkan kedua garis.
+Perintah `fillet` membulatkan sudut antara dua entitas [Line](../line/) dengan menyisipkan busur tangen berradius tertentu dan memotong masing-masing garis kembali ke titik di mana busur dimulai. Hasilnya adalah sudut yang halus dan beradius yang menghubungkan kedua garis.
 
 Fillet hanya bekerja pada **entitas Line**.
 

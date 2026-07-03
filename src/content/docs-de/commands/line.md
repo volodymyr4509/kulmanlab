@@ -7,7 +7,7 @@ keywords: [CAD line Befehl, gerade Linie zeichnen CAD, Liniensegmente verketten,
 
 # Line
 
-Der Befehl `line` zeichnet einzelne gerade Liniensegmente, die als separate `LINE`-Entitäten im DXF-Modell gespeichert werden. Nach jedem Segment bleibt der Befehl aktiv und verwendet den Endpunkt als neuen Startpunkt, sodass Sie verknüpfte Pfade Segment für Segment aufbauen können. Im Gegensatz zu einer [Polylinie](./polyline) bleiben verkettete Linien unabhängige Entitäten — jede kann getrimmt, verlängert oder gelöscht werden, ohne ihre Nachbarn zu beeinflussen.
+Der Befehl `line` zeichnet einzelne gerade Liniensegmente, die als separate `LINE`-Entitäten im DXF-Modell gespeichert werden. Nach jedem Segment bleibt der Befehl aktiv und verwendet den Endpunkt als neuen Startpunkt, sodass Sie verknüpfte Pfade Segment für Segment aufbauen können. Im Gegensatz zu einer [Polylinie](../polyline/) bleiben verkettete Linien unabhängige Entitäten — jede kann getrimmt, verlängert oder gelöscht werden, ohne ihre Nachbarn zu beeinflussen.
 
 ## Linien zeichnen
 
@@ -74,7 +74,7 @@ Eine ausgewählte Linie zeigt drei Griffpunkte:
 | **Mittelpunkt** | Mitte der Linie | Aktiviert **Move** für die gesamte Linie |
 | **Ende** | Zweiter Endpunkt | Ziehen zum Neupositionieren — Start bleibt fest |
 
-Das Strecken eines Endpunktes beeinflusst den anderen nie. Dies unterscheidet sich von der Griffpunkt-Bearbeitung bei [Polylinie](./polyline), wo das Verschieben eines Scheitelpunkts den gesamten Pfad umformt.
+Das Strecken eines Endpunktes beeinflusst den anderen nie. Dies unterscheidet sich von der Griffpunkt-Bearbeitung bei [Polylinie](../polyline/), wo das Verschieben eines Scheitelpunkts den gesamten Pfad umformt.
 
 ## Linien auswählen
 
@@ -86,19 +86,19 @@ Das Strecken eines Endpunktes beeinflusst den anderen nie. Dies unterscheidet si
 
 ## Unterstützte Bearbeitungsbefehle
 
-Linien sind die **einzige** Entität, auf die [Trim](./trim) und [Extend](./extend) wirken. Alle standardmäßigen Transformationsbefehle gelten ebenfalls:
+Linien sind die **einzige** Entität, auf die [Trim](../trim/) und [Extend](../extend/) wirken. Alle standardmäßigen Transformationsbefehle gelten ebenfalls:
 
 | Befehl | Wirkung auf eine Linie |
 |--------|------------------------|
-| [Move](./move) | Verschiebt beide Endpunkte um die gleiche Verschiebung |
-| [Copy](./copy) | Erstellt eine identische Linie an einer neuen Position |
-| [Rotate](./rotate) | Dreht beide Endpunkte um den gewählten Basispunkt |
-| [Mirror](./mirror) | Spiegelt beide Endpunkte über die Spiegelachse |
-| [Scale](./scale) | Skaliert beide Endpunkte gleichmäßig vom Basispunkt aus |
-| [Offset](./offset) | Erstellt eine parallele Linie in einem festen senkrechten Abstand |
-| [Trim](./trim) | Schneidet die Linie an Schnittpunkten — **nur Linien** |
-| [Extend](./extend) | Streckt den nächstgelegenen Endpunkt bis zu einer Grenze — **nur Linien** |
-| [Delete](./delete) | Entfernt die Linie aus der Zeichnung |
+| [Move](../move/) | Verschiebt beide Endpunkte um die gleiche Verschiebung |
+| [Copy](../copy/) | Erstellt eine identische Linie an einer neuen Position |
+| [Rotate](../rotate/) | Dreht beide Endpunkte um den gewählten Basispunkt |
+| [Mirror](../mirror/) | Spiegelt beide Endpunkte über die Spiegelachse |
+| [Scale](../scale/) | Skaliert beide Endpunkte gleichmäßig vom Basispunkt aus |
+| [Offset](../offset/) | Erstellt eine parallele Linie in einem festen senkrechten Abstand |
+| [Trim](../trim/) | Schneidet die Linie an Schnittpunkten — **nur Linien** |
+| [Extend](../extend/) | Streckt den nächstgelegenen Endpunkt bis zu einer Grenze — **nur Linien** |
+| [Delete](../delete/) | Entfernt die Linie aus der Zeichnung |
 
 ## Eigenschaften
 

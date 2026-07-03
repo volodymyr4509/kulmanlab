@@ -15,7 +15,7 @@ Type `LayerUnfreezeAll` in the terminal or click the **Unfreeze All** toolbar bu
 
 ## When to use
 
-Typically used after [LayerIsolate](./layer-isolate) to restore all layers to their normal visible state.
+Typically used after [LayerIsolate](../layer-isolate/) to restore all layers to their normal visible state.
 
 ## Behaviour details
 

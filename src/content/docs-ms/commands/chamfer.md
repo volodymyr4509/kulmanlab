@@ -7,7 +7,7 @@ keywords: [arahan chamfer CAD, chamfer garis CAD, potongan sudut pepenjuru, sudu
 
 # Chamfer
 
-Arahan `chamfer` memotong sudut pepenjuru lurus antara dua entiti [Line](./line) atau [Polyline](./polyline). Anda menentukan seberapa jauh untuk dipotong sepanjang setiap entiti (d1 dan d2), dan arahan memotong kedua-dua entiti ke titik-titik tersebut dan memasukkan garis penyambung antara mereka.
+Arahan `chamfer` memotong sudut pepenjuru lurus antara dua entiti [Line](../line/) atau [Polyline](../polyline/). Anda menentukan seberapa jauh untuk dipotong sepanjang setiap entiti (d1 dan d2), dan arahan memotong kedua-dua entiti ke titik-titik tersebut dan memasukkan garis penyambung antara mereka.
 
 Menggunakan jarak yang sama menghasilkan potongan 45° simetri; jarak berbeza menghasilkan bevel asimetri.
 

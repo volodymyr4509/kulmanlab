@@ -47,5 +47,5 @@ Il comando misura la distanza perpendicolare dal cursore ai segmenti di linea di
 
 | Comando | Funzione |
 |---------|---------|
-| [Leader](./leader) | Crea un nuovo multileader da zero |
-| [Leader+](./leader-add) | Aggiunge un braccio a un multileader esistente |
+| [Leader](../leader/) | Crea un nuovo multileader da zero |
+| [Leader+](../leader-add/) | Aggiunge un braccio a un multileader esistente |

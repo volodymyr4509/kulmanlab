@@ -71,7 +71,7 @@ Setelah titik dasar ditetapkan, perintah memantau sumbu snap 45° (0°, 45°, 90
 
 ## Mengaktifkan Move dari grip
 
-Mengklik **grip titik tengah** dari [Line](./line) yang dipilih meluncurkan Move secara otomatis, dengan titik tengah sudah ditetapkan sebagai titik dasar dan fase perpindahan aktif. Ini adalah cara tercepat untuk memposisikan ulang satu garis tanpa melalui langkah seleksi.
+Mengklik **grip titik tengah** dari [Line](../line/) yang dipilih meluncurkan Move secara otomatis, dengan titik tengah sudah ditetapkan sebagai titik dasar dan fase perpindahan aktif. Ini adalah cara tercepat untuk memposisikan ulang satu garis tanpa melalui langkah seleksi.
 
 ## Seleksi selama perintah
 
@@ -88,7 +88,7 @@ Ketika perintah dimulai dalam fase seleksi:
 
 Entitas yang dipindah tetap dipilih di posisi barunya. Ini berarti Anda dapat segera:
 - Menjalankan **Move** lagi untuk menggesernya lebih jauh.
-- Menjalankan [Copy](./copy), [Rotate](./rotate), atau [Scale](./scale) tanpa memilih ulang.
+- Menjalankan [Copy](../copy/), [Rotate](../rotate/), atau [Scale](../scale/) tanpa memilih ulang.
 - Menekan **Delete** untuk menghapusnya.
 
 ## Move vs Copy

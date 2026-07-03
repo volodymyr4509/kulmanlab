@@ -71,13 +71,13 @@ Menyeret grip mula atau akhir mengubah kedudukannya ke lokasi seret dan mengira 
 
 | Arahan | Apa yang berlaku pada lengkok |
 |--------|-----------------------------|
-| [Move](./move) | Menterjemahkan pusat; jejari dan sudut tidak berubah |
-| [Copy](./copy) | Mencipta lengkok yang sama di kedudukan baru |
-| [Rotate](./rotate) | Memutar pusat dan menggeser sudut mula/akhir dengan jumlah putaran |
-| [Mirror](./mirror) | Mencerminkan pusat dan membalikkan sudut mula/akhir merentasi paksi cermin |
-| [Scale](./scale) | Mengskala kedudukan pusat dan mendarab jejari dengan faktor skala |
-| [Offset](./offset) | Mencipta lengkok konsentrik pada jejari lebih besar atau lebih kecil, rentang sudut sama |
-| [Delete](./delete) | Membuang lengkok |
+| [Move](../move/) | Menterjemahkan pusat; jejari dan sudut tidak berubah |
+| [Copy](../copy/) | Mencipta lengkok yang sama di kedudukan baru |
+| [Rotate](../rotate/) | Memutar pusat dan menggeser sudut mula/akhir dengan jumlah putaran |
+| [Mirror](../mirror/) | Mencerminkan pusat dan membalikkan sudut mula/akhir merentasi paksi cermin |
+| [Scale](../scale/) | Mengskala kedudukan pusat dan mendarab jejari dengan faktor skala |
+| [Offset](../offset/) | Mencipta lengkok konsentrik pada jejari lebih besar atau lebih kecil, rentang sudut sama |
+| [Delete](../delete/) | Membuang lengkok |
 
 ## Sifat
 

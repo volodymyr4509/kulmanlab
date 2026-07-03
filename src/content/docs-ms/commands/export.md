@@ -45,7 +45,7 @@ Entiti geometri sahaja disertakan:
 - Garis, bulatan, lengkok, elips, poliline (dieksport sebagai `LWPOLYLINE`), spline, teks
 - Definisi lapisan dan jadual linetype
 
-**Tidak disertakan dalam DXF:** entiti dimensi dan pelbagai pemimpin. Ini menggunakan struktur data khusus KulmanLab yang tidak dapat diwakili dengan setia dalam DXF standard. Jika lukisan anda mempunyai anotasi, gunakan JSON atau [Print](./print) untuk menangkapnya secara visual.
+**Tidak disertakan dalam DXF:** entiti dimensi dan pelbagai pemimpin. Ini menggunakan struktur data khusus KulmanLab yang tidak dapat diwakili dengan setia dalam DXF standard. Jika lukisan anda mempunyai anotasi, gunakan JSON atau [Print](../print/) untuk menangkapnya secara visual.
 
 ## Nama fail yang dieksport
 
@@ -60,10 +60,10 @@ Fail yang dimuat turun dinamakan mengikut fail lukisan semasa (cth. `myplan_May2
 | Mengekalkan lapisan & linetype | Ya | Tidak (dirender rata) |
 | Menangkap dimensi & pemimpin | JSON sahaja | Ya |
 
-Gunakan **Export** apabila anda memerlukan fail yang boleh diedit. Gunakan [Print](./print) apabila anda memerlukan gambar visual.
+Gunakan **Export** apabila anda memerlukan fail yang boleh diedit. Gunakan [Print](../print/) apabila anda memerlukan gambar visual.
 
 ## Arahan berkaitan
 
-- [Import](./import) — buka fail DXF atau JSON
-- [Print](./print) — eksport kanvas sebagai imej PNG, JPEG, WebP, atau PDF
-- [Files](./files) — semak imbas lukisan yang disimpan dalam storan pelayar
+- [Import](../import/) — buka fail DXF atau JSON
+- [Print](../print/) — eksport kanvas sebagai imej PNG, JPEG, WebP, atau PDF
+- [Files](../files/) — semak imbas lukisan yang disimpan dalam storan pelayar

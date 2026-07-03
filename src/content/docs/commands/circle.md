@@ -85,13 +85,13 @@ All four cardinal grips behave identically — the new radius equals the distanc
 
 | Command | What happens to the circle |
 |---------|---------------------------|
-| [Move](./move) | Translates the center; radius unchanged |
-| [Copy](./copy) | Creates an identical circle at a new center |
-| [Rotate](./rotate) | Rotates the center around the base point; radius unchanged |
-| [Mirror](./mirror) | Reflects the center across the mirror axis; radius unchanged |
-| [Scale](./scale) | Scales the center position and multiplies the radius by the scale factor |
-| [Offset](./offset) | Creates a concentric circle at a larger or smaller radius |
-| [Delete](./delete) | Removes the circle |
+| [Move](../move/) | Translates the center; radius unchanged |
+| [Copy](../copy/) | Creates an identical circle at a new center |
+| [Rotate](../rotate/) | Rotates the center around the base point; radius unchanged |
+| [Mirror](../mirror/) | Reflects the center across the mirror axis; radius unchanged |
+| [Scale](../scale/) | Scales the center position and multiplies the radius by the scale factor |
+| [Offset](../offset/) | Creates a concentric circle at a larger or smaller radius |
+| [Delete](../delete/) | Removes the circle |
 
 ## Properties
 
@@ -120,7 +120,7 @@ All four cardinal grips behave identically — the new radius equals the distanc
 | How to draw | Center + radius | Three points on the curve |
 | Typed input | Radius value | None — click-only |
 | Resize grip | 4 cardinal points | Start and end points (angle + radius) |
-| Dimensioning | Radius: [Dim Radius](./dim-radius) · Diameter: [Dim Diameter](./dim-diameter) | [Dim Radius](./dim-radius) |
+| Dimensioning | Radius: [Dim Radius](../dim-radius/) · Diameter: [Dim Diameter](../dim-diameter/) | [Dim Radius](../dim-radius/) |
 | Best for | Full holes, bolt circles, round features | Fillets, partial curves, arched paths |
 
 ## DXF — CIRCLE entity

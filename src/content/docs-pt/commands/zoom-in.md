@@ -41,6 +41,6 @@ Não há atalhos de teclado para este comando. Use a roda do mouse — ela funci
 
 | Comando | O que faz |
 |---------|-----------|
-| [Zoom Out](./zoom-out) | Divide o zoom por 1,5× por passo |
-| [Fit](./fit) | Redefine o zoom para mostrar todas as entidades |
-| [Pan](./pan) | Desloca a viewport sem ampliar |
+| [Zoom Out](../zoom-out/) | Divide o zoom por 1,5× por passo |
+| [Fit](../fit/) | Redefine o zoom para mostrar todas as entidades |
+| [Pan](../pan/) | Desloca a viewport sem ampliar |

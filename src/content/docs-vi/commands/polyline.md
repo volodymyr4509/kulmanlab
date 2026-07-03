@@ -5,7 +5,7 @@ description: Lệnh Polyline vẽ bất kỳ số lượng đoạn nối nhau đ
 
 # Đường Đa Đoạn
 
-Lệnh `polyline` vẽ một đường dẫn liên kết gồm bất kỳ số lượng đoạn thẳng nào, tất cả được lưu dưới dạng một thực thể `LWPOLYLINE` duy nhất. Vì toàn bộ đường dẫn là một đối tượng, chọn nó sẽ chọn mọi đoạn cùng lúc — di chuyển, xoay hoặc chia tỉ lệ toàn bộ hình dạng trong một thao tác. Đây là điểm khác biệt chính so với [Đường Thẳng](./line) nối tiếp, nơi mỗi đoạn là thực thể độc lập.
+Lệnh `polyline` vẽ một đường dẫn liên kết gồm bất kỳ số lượng đoạn thẳng nào, tất cả được lưu dưới dạng một thực thể `LWPOLYLINE` duy nhất. Vì toàn bộ đường dẫn là một đối tượng, chọn nó sẽ chọn mọi đoạn cùng lúc — di chuyển, xoay hoặc chia tỉ lệ toàn bộ hình dạng trong một thao tác. Đây là điểm khác biệt chính so với [Đường Thẳng](../line/) nối tiếp, nơi mỗi đoạn là thực thể độc lập.
 
 ## Vẽ đường đa đoạn
 

@@ -7,9 +7,9 @@ keywords: [polecenie polilinii CAD, rysowanie polilinii CAD, wielosegmentowa śc
 
 # Polilinia
 
-Polecenie `polyline` rysuje połączoną ścieżkę z dowolnej liczby prostych segmentów, wszystkie przechowywane jako jeden element `LWPOLYLINE`. Ponieważ cała ścieżka jest jednym obiektem, zaznaczenie jej zaznacza każdy segment jednocześnie — przesuń, obróć lub skaluj cały kształt w jednej operacji. To kluczowe rozróżnienie od połączonych [Linii](./line), gdzie każdy segment jest niezależnym elementem.
+Polecenie `polyline` rysuje połączoną ścieżkę z dowolnej liczby prostych segmentów, wszystkie przechowywane jako jeden element `LWPOLYLINE`. Ponieważ cała ścieżka jest jednym obiektem, zaznaczenie jej zaznacza każdy segment jednocześnie — przesuń, obróć lub skaluj cały kształt w jednej operacji. To kluczowe rozróżnienie od połączonych [Linii](../line/), gdzie każdy segment jest niezależnym elementem.
 
-Polilinie mogą być również **zamknięte**: polecenie [Prostokąt](./rectangle) używa tego samego elementu `LWPOLYLINE` z ustawioną flagą zamknięcia.
+Polilinie mogą być również **zamknięte**: polecenie [Prostokąt](../rectangle/) używa tego samego elementu `LWPOLYLINE` z ustawioną flagą zamknięcia.
 
 ## Rysowanie polilinii
 
@@ -39,7 +39,7 @@ Zamiast klikać, wpisz dokładną pozycję dla dowolnego wierzchołka:
 
 ## Blokowanie kąta i dokładna długość segmentu
 
-Ta sama logika przyciągania 45° co w poleceniu [Linia](./line#angle-locking-and-exact-length-input) stosuje się między dowolnymi dwoma kolejnymi punktami. Przy zablokowaniu do osi:
+Ta sama logika przyciągania 45° co w poleceniu [Linia](../line/#angle-locking-and-exact-length-input) stosuje się między dowolnymi dwoma kolejnymi punktami. Przy zablokowaniu do osi:
 
 | Klawisz | Akcja |
 |---------|-------|
@@ -70,9 +70,9 @@ Zaznaczona polilinia pokazuje dwa typy uchwytów:
 | **Wierzchołek** | W każdym umieszczonym punkcie | Przeciągnij, aby zmienić położenie tego wierzchołka; wszystkie połączone segmenty rozciągają się za nim |
 | **Punkt środkowy segmentu** | Środek każdego segmentu | Przeciągnij, aby translować **oba** punkty końcowe tego segmentu razem, zachowując długość i kąt segmentu |
 
-Uchwyt punktu środkowego segmentu jest unikalny dla polilinii — pozwala przesuwać pojedynczy segment w bok bez zmiany jego długości. W przypadku [Linii](./line) uchwyt punktu środkowego zamiast tego aktywuje polecenie Przesuń dla całego elementu.
+Uchwyt punktu środkowego segmentu jest unikalny dla polilinii — pozwala przesuwać pojedynczy segment w bok bez zmiany jego długości. W przypadku [Linii](../line/) uchwyt punktu środkowego zamiast tego aktywuje polecenie Przesuń dla całego elementu.
 
-Nie ma uchwytu "przesuń całą polilinię". Aby przesunąć całą ścieżkę, użyj polecenia [Przesuń](./move).
+Nie ma uchwytu "przesuń całą polilinię". Aby przesunąć całą ścieżkę, użyj polecenia [Przesuń](../move/).
 
 ## Zaznaczanie polilinii
 
@@ -86,17 +86,17 @@ Ponieważ polilinia jest jednym elementem, zaznaczenie przecinające dotykające
 
 ## Obsługiwane polecenia edycji
 
-Polilinie obsługują wszystkie ogólne transformacje i odsunięcie, ale **nie** przycinanie ani przedłużanie (te dotyczą tylko [Linii](./line)):
+Polilinie obsługują wszystkie ogólne transformacje i odsunięcie, ale **nie** przycinanie ani przedłużanie (te dotyczą tylko [Linii](../line/)):
 
 | Polecenie | Co dzieje się z polilinią |
 |-----------|--------------------------|
-| [Przesuń](./move) | Translacja wszystkich wierzchołków o to samo przesunięcie |
-| [Kopiuj](./copy) | Tworzy identyczną polilinię w nowej pozycji |
-| [Obróć](./rotate) | Obraca wszystkie wierzchołki wokół wybranego punktu bazowego |
-| [Odbij](./mirror) | Odbija wszystkie wierzchołki przez oś odbicia |
-| [Skaluj](./scale) | Skaluje wszystkie wierzchołki równomiernie od punktu bazowego |
-| [Odsunięcie](./offset) | Tworzy równoległą polilinię w stałej prostopadłej odległości |
-| [Usuń](./delete) | Usuwa polilinię z rysunku |
+| [Przesuń](../move/) | Translacja wszystkich wierzchołków o to samo przesunięcie |
+| [Kopiuj](../copy/) | Tworzy identyczną polilinię w nowej pozycji |
+| [Obróć](../rotate/) | Obraca wszystkie wierzchołki wokół wybranego punktu bazowego |
+| [Odbij](../mirror/) | Odbija wszystkie wierzchołki przez oś odbicia |
+| [Skaluj](../scale/) | Skaluje wszystkie wierzchołki równomiernie od punktu bazowego |
+| [Odsunięcie](../offset/) | Tworzy równoległą polilinię w stałej prostopadłej odległości |
+| [Usuń](../delete/) | Usuwa polilinię z rysunku |
 
 ## Właściwości
 
@@ -132,6 +132,6 @@ Gdy polilinia jest zaznaczona, panel właściwości pokazuje:
 
 ## DXF — element LWPOLYLINE
 
-Polilinie zapisywane są jako elementy `LWPOLYLINE` w pliku DXF. Wszystkie właściwości — współrzędne wierzchołków, flaga zamknięcia, kolor, warstwa, typ linii, skala typu linii i grubość — zachowywane są bez utraty danych. Prostokąty narysowane poleceniem [Prostokąt](./rectangle) są również zapisywane jako `LWPOLYLINE` (zamknięty, cztery wierzchołki) i są nieodróżnialne na poziomie DXF.
+Polilinie zapisywane są jako elementy `LWPOLYLINE` w pliku DXF. Wszystkie właściwości — współrzędne wierzchołków, flaga zamknięcia, kolor, warstwa, typ linii, skala typu linii i grubość — zachowywane są bez utraty danych. Prostokąty narysowane poleceniem [Prostokąt](../rectangle/) są również zapisywane jako `LWPOLYLINE` (zamknięty, cztery wierzchołki) i są nieodróżnialne na poziomie DXF.
 
 Elementy `LWPOLYLINE` z dowolnej aplikacji zgodnej z DXF (LibreCAD, FreeCAD itp.) są odczytywane z powrotem jako w pełni edytowalne polilinie w edytorze.

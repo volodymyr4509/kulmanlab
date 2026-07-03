@@ -15,7 +15,7 @@ Tapez `LayerUnfreezeAll` dans le terminal ou cliquez sur le bouton **Unfreeze Al
 
 ## Quand l'utiliser
 
-Généralement utilisée après [LayerIsolate](./layer-isolate) pour restaurer tous les calques à leur état visible normal.
+Généralement utilisée après [LayerIsolate](../layer-isolate/) pour restaurer tous les calques à leur état visible normal.
 
 ## Détails de comportement
 

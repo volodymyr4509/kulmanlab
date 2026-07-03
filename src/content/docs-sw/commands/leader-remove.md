@@ -47,5 +47,5 @@ Amri inapima umbali wa perpendicular kutoka kwa mshale hadi kila sehemu ya mstar
 
 | Amri | Inafanya nini |
 |------|--------------|
-| [Leader](./leader) | Unda multileader mpya kutoka mwanzo |
-| [Leader+](./leader-add) | Ongeza mkono kwenye multileader iliyopo |
+| [Leader](../leader/) | Unda multileader mpya kutoka mwanzo |
+| [Leader+](../leader-add/) | Ongeza mkono kwenye multileader iliyopo |

@@ -44,6 +44,6 @@ Não há atalho de teclado para este comando. Use o atalho de **clique duplo com
 
 | Comando | Função |
 |---------|--------|
-| [Pan](./pan) | Desloca a viewport sem fazer zoom |
-| [Zoom In](./zoom-in) | Multiplica o zoom por 1.5× por passo |
-| [Zoom Out](./zoom-out) | Divide o zoom por 1.5× por passo |
+| [Pan](../pan/) | Desloca a viewport sem fazer zoom |
+| [Zoom In](../zoom-in/) | Multiplica o zoom por 1.5× por passo |
+| [Zoom Out](../zoom-out/) | Divide o zoom por 1.5× por passo |

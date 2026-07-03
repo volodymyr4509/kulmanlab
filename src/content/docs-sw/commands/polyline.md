@@ -7,9 +7,9 @@ keywords: [CAD polyline command, draw polyline CAD, multi-segment path CAD, LWPO
 
 # Polyline
 
-Amri ya `polyline` inachora njia iliyounganishwa ya idadi yoyote ya sehemu za mstari, zote zikihifadhiwa kama kipande kimoja cha `LWPOLYLINE`. Kwa sababu njia nzima ni kitu kimoja, kuichagua kunachagua kila sehemu mara moja — hamisha, zungusha, au pima umbo zima katika operesheni moja. Hii ndiyo tofauti kuu kutoka kwa [Lines](./line) zilizounganishwa, ambapo kila sehemu ni kipande huru.
+Amri ya `polyline` inachora njia iliyounganishwa ya idadi yoyote ya sehemu za mstari, zote zikihifadhiwa kama kipande kimoja cha `LWPOLYLINE`. Kwa sababu njia nzima ni kitu kimoja, kuichagua kunachagua kila sehemu mara moja — hamisha, zungusha, au pima umbo zima katika operesheni moja. Hii ndiyo tofauti kuu kutoka kwa [Lines](../line/) zilizounganishwa, ambapo kila sehemu ni kipande huru.
 
-Polylines pia zinaweza **kufungwa**: amri ya [Rectangle](./rectangle) inatumia kipande hicho hicho cha `LWPOLYLINE` na alama ya kufunga iliyowekwa.
+Polylines pia zinaweza **kufungwa**: amri ya [Rectangle](../rectangle/) inatumia kipande hicho hicho cha `LWPOLYLINE` na alama ya kufunga iliyowekwa.
 
 ## Kuchora polyline
 
@@ -39,7 +39,7 @@ Badala ya kubonyeza, andika nafasi sahihi kwa ncha yoyote:
 
 ## Kufunga pembe na urefu sahihi wa sehemu
 
-Mantiki ile ile ya kufunga 45° kama amri ya [Line](./line#angle-locking-and-exact-length-input) inatumika kati ya nukta mbili zinazofuatana. Ukifungwa kwenye mhimili:
+Mantiki ile ile ya kufunga 45° kama amri ya [Line](../line/#angle-locking-and-exact-length-input) inatumika kati ya nukta mbili zinazofuatana. Ukifungwa kwenye mhimili:
 
 | Kitufe | Kitendo |
 |--------|---------|
@@ -70,9 +70,9 @@ Polyline iliyochaguliwa inaonyesha aina mbili za vishiko:
 | **Ncha** | Katika kila nukta iliyowekwa | Buruta kubadilisha nafasi ya ncha hiyo; sehemu zote zilizounganishwa hupanuka kufuata |
 | **Katikati ya sehemu** | Katikati ya kila sehemu | Buruta kutafsiri **nukta zote mbili** za mwisho za sehemu hiyo pamoja, ukihifadhi urefu na pembe ya sehemu |
 
-Kishiko cha katikati ya sehemu ni kipekee kwa polylines — hukuruhusu kusogeza sehemu moja pembeni bila kubadilisha urefu wake. Katika [Line](./line), kishiko cha katikati badala yake kinawasha amri ya Move kwa kipande kizima.
+Kishiko cha katikati ya sehemu ni kipekee kwa polylines — hukuruhusu kusogeza sehemu moja pembeni bila kubadilisha urefu wake. Katika [Line](../line/), kishiko cha katikati badala yake kinawasha amri ya Move kwa kipande kizima.
 
-Hakuna kishiko kimoja cha "hamisha polyline nzima". Kuhamisha njia nzima tumia amri ya [Move](./move).
+Hakuna kishiko kimoja cha "hamisha polyline nzima". Kuhamisha njia nzima tumia amri ya [Move](../move/).
 
 ## Kuchagua polylines
 
@@ -86,17 +86,17 @@ Kwa sababu polyline ni kipande kimoja, uchaguzi wa kupita unaogusa sehemu yoyote
 
 ## Amri za uhariri zinazosaidiwa
 
-Polylines zinasaidia mabadiliko yote ya kawaida na offset, lakini **si** trim au extend (hizo ni za [Line](./line) pekee):
+Polylines zinasaidia mabadiliko yote ya kawaida na offset, lakini **si** trim au extend (hizo ni za [Line](../line/) pekee):
 
 | Amri | Kinachotokea kwa polyline |
 |------|--------------------------|
-| [Move](./move) | Hutafsiri ncha zote kwa msogeo uleule |
-| [Copy](./copy) | Huunda polyline inayofanana katika nafasi mpya |
-| [Rotate](./rotate) | Huzungusha ncha zote karibu na nukta ya msingi iliyochaguliwa |
-| [Mirror](./mirror) | Huakisi ncha zote kwenye mhimili wa kioo |
-| [Scale](./scale) | Hupima ncha zote kwa usawa kutoka kwa nukta ya msingi |
-| [Offset](./offset) | Huunda polyline sambamba kwa umbali wa perpendicular uliowekwa |
-| [Delete](./delete) | Huondoa polyline kutoka kwa mchoro |
+| [Move](../move/) | Hutafsiri ncha zote kwa msogeo uleule |
+| [Copy](../copy/) | Huunda polyline inayofanana katika nafasi mpya |
+| [Rotate](../rotate/) | Huzungusha ncha zote karibu na nukta ya msingi iliyochaguliwa |
+| [Mirror](../mirror/) | Huakisi ncha zote kwenye mhimili wa kioo |
+| [Scale](../scale/) | Hupima ncha zote kwa usawa kutoka kwa nukta ya msingi |
+| [Offset](../offset/) | Huunda polyline sambamba kwa umbali wa perpendicular uliowekwa |
+| [Delete](../delete/) | Huondoa polyline kutoka kwa mchoro |
 
 ## Sifa
 
@@ -132,6 +132,6 @@ Polyline inapochaguliwa paneli ya sifa inaonyesha:
 
 ## DXF — kipande cha LWPOLYLINE
 
-Polylines huhifadhiwa kama vipande vya `LWPOLYLINE` katika faili ya DXF. Sifa zote — kuratibu za ncha, alama ya kufunga, rangi, safu, aina ya mstari, kiwango cha aina ya mstari, na unene — hufanywa safari ya kwenda na kurudi bila kupoteza. Mstatili uliochorwa kwa amri ya [Rectangle](./rectangle) pia huhifadhiwa kama `LWPOLYLINE` (imefungwa, ncha nne) na haiwezi kutofautishwa katika kiwango cha DXF.
+Polylines huhifadhiwa kama vipande vya `LWPOLYLINE` katika faili ya DXF. Sifa zote — kuratibu za ncha, alama ya kufunga, rangi, safu, aina ya mstari, kiwango cha aina ya mstari, na unene — hufanywa safari ya kwenda na kurudi bila kupoteza. Mstatili uliochorwa kwa amri ya [Rectangle](../rectangle/) pia huhifadhiwa kama `LWPOLYLINE` (imefungwa, ncha nne) na haiwezi kutofautishwa katika kiwango cha DXF.
 
 Vipande vya `LWPOLYLINE` kutoka programu yoyote inayolingana na DXF (LibreCAD, FreeCAD, n.k.) husomwa tena kama polylines zinazoweza kuhaririwa kikamilifu katika kihariri.

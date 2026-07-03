@@ -36,4 +36,4 @@ Jede Entitätsmutation wird aufgezeichnet: Neue Entitäten zeichnen, Entitäten 
 | Verfügbar wenn | Mindestens eine aufgezeichnete Aktion vorhanden | Mindestens ein Undo wurde durchgeführt und keine neue Aktion wurde seitdem vorgenommen |
 | Geleert durch | Nichts — Verlauf akkumuliert bis zum 20-Schritte-Limit | Jede neue Zeichenaktion |
 
-Verwenden Sie [Redo](./redo), um eine rückgängig gemachte Aktion wiederherzustellen. Die Werkzeugleistenschaltflächen sind ausgegraut, wenn die jeweilige Richtung nicht verfügbar ist.
+Verwenden Sie [Redo](../redo/), um eine rückgängig gemachte Aktion wiederherzustellen. Die Werkzeugleistenschaltflächen sind ausgegraut, wenn die jeweilige Richtung nicht verfügbar ist.

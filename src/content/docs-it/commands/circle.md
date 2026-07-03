@@ -85,13 +85,13 @@ Tutti e quattro i grip cardinali si comportano in modo identico — il nuovo rag
 
 | Comando | Effetto sul cerchio |
 |---------|-------------------|
-| [Move](./move) | Trasla il centro; raggio invariato |
-| [Copy](./copy) | Crea un cerchio identico in un nuovo centro |
-| [Rotate](./rotate) | Ruota il centro attorno al punto base; raggio invariato |
-| [Mirror](./mirror) | Riflette il centro rispetto all'asse speculare; raggio invariato |
-| [Scale](./scale) | Scala la posizione del centro e moltiplica il raggio per il fattore di scala |
-| [Offset](./offset) | Crea un cerchio concentrico a raggio maggiore o minore |
-| [Delete](./delete) | Rimuove il cerchio |
+| [Move](../move/) | Trasla il centro; raggio invariato |
+| [Copy](../copy/) | Crea un cerchio identico in un nuovo centro |
+| [Rotate](../rotate/) | Ruota il centro attorno al punto base; raggio invariato |
+| [Mirror](../mirror/) | Riflette il centro rispetto all'asse speculare; raggio invariato |
+| [Scale](../scale/) | Scala la posizione del centro e moltiplica il raggio per il fattore di scala |
+| [Offset](../offset/) | Crea un cerchio concentrico a raggio maggiore o minore |
+| [Delete](../delete/) | Rimuove il cerchio |
 
 ## Proprietà
 
@@ -120,7 +120,7 @@ Tutti e quattro i grip cardinali si comportano in modo identico — il nuovo rag
 | Come disegnare | Centro + raggio | Tre punti sulla curva |
 | Input digitato | Valore raggio | Nessuno — solo clic |
 | Grip ridimensionamento | 4 punti cardinali | Punti di inizio e fine (angolo + raggio) |
-| Quotatura | Raggio: [Dim Radius](./dim-radius) · Diametro: [Dim Diameter](./dim-diameter) | [Dim Radius](./dim-radius) |
+| Quotatura | Raggio: [Dim Radius](../dim-radius/) · Diametro: [Dim Diameter](../dim-diameter/) | [Dim Radius](../dim-radius/) |
 | Ideale per | Fori completi, cerchi di bulloni, elementi rotondi | Raccordi, curve parziali, percorsi curvilinei |
 
 ## DXF — entità CIRCLE

@@ -36,4 +36,4 @@ Cada mutação de entidade é registrada: desenhar novas entidades, excluir enti
 | Disponível quando | Existe pelo menos uma ação registrada | Pelo menos um Undo foi realizado e nenhuma nova ação foi feita |
 | Apagado por | Nada — o histórico acumula até o limite de 20 etapas | Qualquer nova ação de desenho |
 
-Use [Redo](./redo) para reaplicar uma ação desfeita. Os botões da barra de ferramentas ficam acinzentados quando a direção respectiva não está disponível.
+Use [Redo](../redo/) para reaplicar uma ação desfeita. Os botões da barra de ferramentas ficam acinzentados quando a direção respectiva não está disponível.

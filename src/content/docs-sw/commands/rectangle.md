@@ -7,7 +7,7 @@ keywords: [CAD rectangle command, draw rectangle CAD, axis-aligned rectangle, cl
 
 # Rectangle
 
-Amri ya `rectangle` inachora mstatili ulioratibiwa na mhimili uliofafanuliwa na mibonyezo miwili ya kona zilizo kinyume. Matokeo huhifadhiwa kama **`LWPOLYLINE` iliyofungwa** yenye ncha nne — moja katika kila kona. Hakuna aina maalum ya kipande cha mstatili: baada ya kuunda umbo hufanya kazi hasa kama [Polyline](./polyline) nyingine yoyote na kila uhariri wa polyline unatumika kwake.
+Amri ya `rectangle` inachora mstatili ulioratibiwa na mhimili uliofafanuliwa na mibonyezo miwili ya kona zilizo kinyume. Matokeo huhifadhiwa kama **`LWPOLYLINE` iliyofungwa** yenye ncha nne — moja katika kila kona. Hakuna aina maalum ya kipande cha mstatili: baada ya kuunda umbo hufanya kazi hasa kama [Polyline](../polyline/) nyingine yoyote na kila uhariri wa polyline unatumika kwake.
 
 ## Kuchora mstatili
 
@@ -69,17 +69,17 @@ Kwa sababu mstatili ni polyline, uchaguzi hufanya kazi kwa njia ile ile:
 
 ## Amri za uhariri zinazosaidiwa
 
-Amri zote za uhariri wa polyline zinatumika. Trim na Extend ni za [Line](./line) pekee na hazifanyi kazi kwenye mstatili:
+Amri zote za uhariri wa polyline zinatumika. Trim na Extend ni za [Line](../line/) pekee na hazifanyi kazi kwenye mstatili:
 
 | Amri | Kinachotokea kwa mstatili |
 |------|--------------------------|
-| [Move](./move) | Hutafsiri ncha zote nne kwa msogeo uleule |
-| [Copy](./copy) | Huunda mstatili unaolingana katika nafasi mpya |
-| [Rotate](./rotate) | Huzungusha ncha zote nne karibu na nukta ya msingi iliyochaguliwa |
-| [Mirror](./mirror) | Huakisi ncha zote nne kwenye mhimili wa kioo |
-| [Scale](./scale) | Hupima ncha zote nne kwa usawa kutoka kwa nukta ya msingi |
-| [Offset](./offset) | Huunda mstatili sambamba (ndani au nje) kwa umbali uliowekwa |
-| [Delete](./delete) | Huondoa mstatili kutoka kwa mchoro |
+| [Move](../move/) | Hutafsiri ncha zote nne kwa msogeo uleule |
+| [Copy](../copy/) | Huunda mstatili unaolingana katika nafasi mpya |
+| [Rotate](../rotate/) | Huzungusha ncha zote nne karibu na nukta ya msingi iliyochaguliwa |
+| [Mirror](../mirror/) | Huakisi ncha zote nne kwenye mhimili wa kioo |
+| [Scale](../scale/) | Hupima ncha zote nne kwa usawa kutoka kwa nukta ya msingi |
+| [Offset](../offset/) | Huunda mstatili sambamba (ndani au nje) kwa umbali uliowekwa |
+| [Delete](../delete/) | Huondoa mstatili kutoka kwa mchoro |
 
 ## Sifa
 

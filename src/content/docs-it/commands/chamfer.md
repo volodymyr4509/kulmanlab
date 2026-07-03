@@ -7,7 +7,7 @@ keywords: [comando chamfer CAD, smusso linea CAD, taglio angolo diagonale, angol
 
 # Chamfer
 
-Il comando `chamfer` taglia un angolo diagonale retto tra due entità [Line](./line) o [Polyline](./polyline). Si specifica quanto tagliare lungo ciascuna entità (d1 e d2), e il comando taglia entrambe le entità a quei punti e inserisce una linea di collegamento tra loro.
+Il comando `chamfer` taglia un angolo diagonale retto tra due entità [Line](../line/) o [Polyline](../polyline/). Si specifica quanto tagliare lungo ciascuna entità (d1 e d2), e il comando taglia entrambe le entità a quei punti e inserisce una linea di collegamento tra loro.
 
 L'uso di distanze uguali produce un taglio simmetrico a 45°; distanze diverse producono uno smusso asimmetrico.
 

@@ -51,7 +51,7 @@ La direzione di misurazione della catena è **fissa all'angolo della quota base*
 - Base lineare (V) → tutte le continuazioni misurano distanza verticale (Δ Y).
 - Base allineata a qualsiasi angolo → tutte le continuazioni misurano lungo quello stesso angolo.
 
-Non è possibile cambiare direzione a metà catena. Avvia una nuova [Dimension Linear](./dim-linear) o [Dimension Aligned](./dim-aligned) per quotare in una direzione diversa.
+Non è possibile cambiare direzione a metà catena. Avvia una nuova [Dimension Linear](../dim-linear/) o [Dimension Aligned](../dim-aligned/) per quotare in una direzione diversa.
 
 ## Riferimento tastiera
 

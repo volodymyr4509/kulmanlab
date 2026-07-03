@@ -7,7 +7,7 @@ keywords: [CAD delete komutu, nesneleri kaldır CAD, nesneleri sil CAD, Delete t
 
 # Delete
 
-`delete` komutu, seçili nesneleri çizimden kaldırır. Silme işlemleri [Geri Al](./undo) geçmişine kaydedilir ve en fazla 20 adım geri alınabilir. Ayrı bir "silmeyi onayla" iletişim kutusu yoktur — onay tek bir tuş basışıdır.
+`delete` komutu, seçili nesneleri çizimden kaldırır. Silme işlemleri [Geri Al](../undo/) geçmişine kaydedilir ve en fazla 20 adım geri alınabilir. Ayrı bir "silmeyi onayla" iletişim kutusu yoktur — onay tek bir tuş basışıdır.
 
 ## İki Silme Yöntemi
 
@@ -43,7 +43,7 @@ Nesneyi tıkla → Delete tuşuna bas → tamamlandı
 
 ## Silinen Nesneleri Kurtarma
 
-Silme işlemleri [Geri Al](./undo) komutuyla geri alınabilir (terminale `undo` yazın veya araç çubuğu düğmesini kullanın). Dosya başına en fazla **20 adım** geri alınabilir ve geçmiş sayfa yeniden yüklemelerinde de korunur. Kaydetmeden 20'den fazla silme yaptıysanız, önceki silmeler kurtarılamaz.
+Silme işlemleri [Geri Al](../undo/) komutuyla geri alınabilir (terminale `undo` yazın veya araç çubuğu düğmesini kullanın). Dosya başına en fazla **20 adım** geri alınabilir ve geçmiş sayfa yeniden yüklemelerinde de korunur. Kaydetmeden 20'den fazla silme yaptıysanız, önceki silmeler kurtarılamaz.
 
 ## Desteklenen Nesneler
 

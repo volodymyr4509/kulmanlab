@@ -47,4 +47,4 @@ Após posicionar uma viewport, clique nela para selecioná-la:
 ## Notas
 
 - ViewportRectangle está disponível apenas quando uma aba de layout papel está ativa. Executá-lo no espaço modelo mostra uma mensagem de erro e encerra.
-- Para copiar uma viewport existente, use [ViewportCopy](./viewport-copy).
+- Para copiar uma viewport existente, use [ViewportCopy](../viewport-copy/).

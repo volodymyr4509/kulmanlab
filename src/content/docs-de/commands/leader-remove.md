@@ -47,5 +47,5 @@ Der Befehl misst den senkrechten Abstand vom Cursor zu den Liniensegmenten jedes
 
 | Befehl | Funktion |
 |--------|----------|
-| [Leader](./leader) | Eine neue Mehrfachführungslinie von Grund auf erstellen |
-| [Leader+](./leader-add) | Einen Arm zu einer vorhandenen Mehrfachführungslinie hinzufügen |
+| [Leader](../leader/) | Eine neue Mehrfachführungslinie von Grund auf erstellen |
+| [Leader+](../leader-add/) | Einen Arm zu einer vorhandenen Mehrfachführungslinie hinzufügen |

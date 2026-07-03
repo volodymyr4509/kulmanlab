@@ -64,7 +64,7 @@ Lihat [Text Editor — mode sederhana](../interface/text-editor#simple-mode) unt
 
 ## Perintah terkait
 
-- [Dimension Linear](./dim-linear) — dimensi horizontal atau vertikal
-- [Dimension Aligned](./dim-aligned) — dimensi yang sejajar dengan dua titik
-- [Dimension Radius](./dim-radius) — dimensi radius untuk busur dan lingkaran
-- [Dimension Diameter](./dim-diameter) — dimensi diameter untuk lingkaran
+- [Dimension Linear](../dim-linear/) — dimensi horizontal atau vertikal
+- [Dimension Aligned](../dim-aligned/) — dimensi yang sejajar dengan dua titik
+- [Dimension Radius](../dim-radius/) — dimensi radius untuk busur dan lingkaran
+- [Dimension Diameter](../dim-diameter/) — dimensi diameter untuk lingkaran

@@ -47,4 +47,4 @@ Nachdem Sie einen Viewport platziert haben, klicken Sie ihn an, um ihn auszuwäh
 ## Hinweise
 
 - ViewportRectangle ist nur verfügbar, wenn ein Papier-Layout-Tab aktiv ist. Das Ausführen im Modellraum zeigt eine Fehlermeldung und beendet den Befehl.
-- Um einen vorhandenen Viewport zu kopieren, verwenden Sie [ViewportCopy](./viewport-copy).
+- Um einen vorhandenen Viewport zu kopieren, verwenden Sie [ViewportCopy](../viewport-copy/).

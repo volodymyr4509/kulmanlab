@@ -7,7 +7,7 @@ keywords: [polecenie przedłużania CAD, przedłużanie linii CAD, rozciąganie 
 
 # Przedłuż
 
-Polecenie `extend` rozciąga najbliższy punkt końcowy wskazywanej [Linii](./line) do najbliższego przecięcia, które tworzyłaby z innym elementem w rysunku. Najedź kursorem blisko punktu końcowego, który chcesz przedłużyć — podgląd pokazuje przedłużoną linię — a następnie kliknij, aby zastosować.
+Polecenie `extend` rozciąga najbliższy punkt końcowy wskazywanej [Linii](../line/) do najbliższego przecięcia, które tworzyłaby z innym elementem w rysunku. Najedź kursorem blisko punktu końcowego, który chcesz przedłużyć — podgląd pokazuje przedłużoną linię — a następnie kliknij, aby zastosować.
 
 Przedłużanie działa **tylko na elementach Linia**. Granice, do których linia się przedłuża, mogą być dowolnym innym typem elementu z wyjątkiem Tekstu, Mtext, Linii wielokierunkowych i Splajnów.
 

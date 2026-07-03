@@ -7,7 +7,7 @@ keywords: [CAD comando redo, histórico redo CAD, reaplicar ação CAD, undo red
 
 # Redo
 
-O comando `redo` avança pelo histórico de desfazer, reaplicando ações revertidas por [Undo](./undo). Redo só está disponível quando você voltou com Undo e ainda não fez uma nova alteração.
+O comando `redo` avança pelo histórico de desfazer, reaplicando ações revertidas por [Undo](../undo/). Redo só está disponível quando você voltou com Undo e ainda não fez uma nova alteração.
 
 ## Como executar redo
 
@@ -20,7 +20,7 @@ Cada invocação reaaplica uma ação previamente desfeita. Invoque repetidament
 
 | Detalhe | Comportamento |
 |---------|--------------|
-| Disponível após | Um ou mais passos [Undo](./undo) |
+| Disponível após | Um ou mais passos [Undo](../undo/) |
 | Apagado por | **Qualquer nova ação de desenho** — adicionar, editar ou excluir uma entidade |
 | Armazenamento | Navegador, por arquivo — sobrevive a recarregamentos de página (desde que nenhuma nova ação tenha sido feita antes do recarregamento) |
 | Profundidade máxima | Até 20 entradas (mesmo pool que Undo) |
@@ -35,4 +35,4 @@ Uma vez que uma nova entidade é desenhada, excluída ou modificada, a pilha de 
 | Disponível quando | Após pelo menos um Undo, sem nova ação realizada | Existe pelo menos uma ação registrada |
 | Apagado por | Qualquer nova ação de desenho | Nada |
 
-O botão Redo na barra de ferramentas fica acinzentado quando não há entradas para refazer. Use [Undo](./undo) primeiro para criar entradas de redo.
+O botão Redo na barra de ferramentas fica acinzentado quando não há entradas para refazer. Use [Undo](../undo/) primeiro para criar entradas de redo.

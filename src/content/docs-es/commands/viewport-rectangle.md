@@ -47,4 +47,4 @@ Después de colocar una ventana gráfica, haz clic en ella para seleccionarla:
 ## Notas
 
 - ViewportRectangle solo está disponible cuando una pestaña de diseño de papel está activa. Ejecutarlo en el espacio modelo muestra un mensaje de error y sale.
-- Para copiar una ventana gráfica existente, usa [ViewportCopy](./viewport-copy).
+- Para copiar una ventana gráfica existente, usa [ViewportCopy](../viewport-copy/).

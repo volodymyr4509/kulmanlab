@@ -7,7 +7,7 @@ keywords: [arahan panjang CAD, panjangkan garis CAD, regangkan garis ke sempadan
 
 # Extend
 
-Arahan `extend` meregangkan titik akhir terdekat [Line](./line) ke persimpangan terdekat yang akan dibentuknya dengan entiti lain dalam lukisan. Tuding berhampiran titik akhir yang ingin dipanjangkan — pratonton menunjukkan garis yang dipanjangkan — kemudian klik untuk menggunakannya.
+Arahan `extend` meregangkan titik akhir terdekat [Line](../line/) ke persimpangan terdekat yang akan dibentuknya dengan entiti lain dalam lukisan. Tuding berhampiran titik akhir yang ingin dipanjangkan — pratonton menunjukkan garis yang dipanjangkan — kemudian klik untuk menggunakannya.
 
 Extend hanya berfungsi pada **entiti Line**. Sempadan yang dilanjutkan garis boleh menjadi mana-mana jenis entiti lain kecuali Text, Mtext, Multileader, dan Spline.
 

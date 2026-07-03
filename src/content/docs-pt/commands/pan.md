@@ -28,8 +28,8 @@ A forma mais rápida de fazer pan: **mantenha pressionado o botão do meio do mo
 | Arrastar clique do meio | Desloca viewport | Não — funciona sempre |
 | Roda de rolagem | Zoom em direção ao cursor | Não — funciona sempre |
 | Duplo clique botão do meio | Ajustar todas as entidades | Não — funciona sempre |
-| [Zoom In](./zoom-in) / [Zoom Out](./zoom-out) | Aumenta/diminui zoom em 1,5× | Não |
-| [Fit](./fit) | Ajusta todas as entidades à vista | Não |
+| [Zoom In](../zoom-in/) / [Zoom Out](../zoom-out/) | Aumenta/diminui zoom em 1,5× | Não |
+| [Fit](../fit/) | Ajusta todas as entidades à vista | Não |
 
 ## Referência de teclado
 
@@ -40,5 +40,5 @@ A forma mais rápida de fazer pan: **mantenha pressionado o botão do meio do mo
 ## Dicas
 
 - Use a roda de rolagem para dar zoom em uma área alvo, depois faça pan para ajustar a posição.
-- **Duplo clique no botão do meio do mouse** ativa [Fit](./fit) instantaneamente — a forma mais rápida de redefinir uma vista perdida.
+- **Duplo clique no botão do meio do mouse** ativa [Fit](../fit/) instantaneamente — a forma mais rápida de redefinir uma vista perdida.
 - Se estiver no meio de um comando (ex.: posicionando um endpoint de linha), arraste com o clique do meio para fazer pan sem cancelar o comando.

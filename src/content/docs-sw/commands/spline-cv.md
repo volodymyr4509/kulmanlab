@@ -52,7 +52,7 @@ Spline ya CV iliyochaguliwa inaonyesha kishiko kimoja kwa kila ncha ya udhibiti:
 |---------|--------|--------------|
 | **Ncha ya udhibiti** | Katika nafasi ya kila CV | Buruta kuhamisha CV hiyo — mkunjo unabadilika kuelekea nafasi mpya |
 
-Hakuna kishiko cha "hamisha spline nzima". Kutafsiri spline nzima, tumia amri ya [Move](./move).
+Hakuna kishiko cha "hamisha spline nzima". Kutafsiri spline nzima, tumia amri ya [Move](../move/).
 
 ## Kuchagua spline za CV
 
@@ -66,12 +66,12 @@ Hakuna kishiko cha "hamisha spline nzima". Kutafsiri spline nzima, tumia amri ya
 
 | Amri | Kinachotokea kwa spline |
 |------|------------------------|
-| [Move](./move) | Hutafsiri ncha zote za udhibiti kwa msogeo uleule |
-| [Copy](./copy) | Huunda spline inayofanana katika nafasi mpya |
-| [Rotate](./rotate) | Huzungusha CVs zote karibu na nukta ya msingi iliyochaguliwa |
-| [Mirror](./mirror) | Huakisi CVs zote kwenye mhimili wa kioo |
-| [Scale](./scale) | Hupima CVs zote kwa usawa kutoka kwa nukta ya msingi |
-| [Delete](./delete) | Huondoa spline |
+| [Move](../move/) | Hutafsiri ncha zote za udhibiti kwa msogeo uleule |
+| [Copy](../copy/) | Huunda spline inayofanana katika nafasi mpya |
+| [Rotate](../rotate/) | Huzungusha CVs zote karibu na nukta ya msingi iliyochaguliwa |
+| [Mirror](../mirror/) | Huakisi CVs zote kwenye mhimili wa kioo |
+| [Scale](../scale/) | Hupima CVs zote kwa usawa kutoka kwa nukta ya msingi |
+| [Delete](../delete/) | Huondoa spline |
 
 Splines hazisaidii **Offset**, **Trim**, au **Extend**.
 

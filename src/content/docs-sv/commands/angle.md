@@ -7,7 +7,7 @@ keywords: [CAD vinkelmätning, tre-punkts vinkel, inre vinkel CAD, mät vinkel-k
 
 # Angle
 
-`angle`-kommandot mäter den inre vinkeln vid en vertex som bildas av två linjesegment genom tre klickade punkter. Resultatet — alltid mellan 0° och 180° — visas i terminalen med 4 decimaler. Det är ett av två mätkommandon — [Distance](./distance) mäter istället rak linjelängd.
+`angle`-kommandot mäter den inre vinkeln vid en vertex som bildas av två linjesegment genom tre klickade punkter. Resultatet — alltid mellan 0° och 180° — visas i terminalen med 4 decimaler. Det är ett av två mätkommandon — [Distance](../distance/) mäter istället rak linjelängd.
 
 ## Anatomin hos en vinkelmätning
 

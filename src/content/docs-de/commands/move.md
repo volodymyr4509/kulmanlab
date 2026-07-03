@@ -71,7 +71,7 @@ Nachdem der Basispunkt gesetzt ist, überwacht der Befehl eine 45°-Einrastachse
 
 ## Move über einen Griffpunkt aktivieren
 
-Das Anklicken des **Mittelpunkt-Griffpunkts** einer ausgewählten [Linie](./line) startet move automatisch, wobei der Mittelpunkt bereits als Basispunkt gesetzt und die Verschiebungsphase aktiv ist. Dies ist der schnellste Weg, eine einzelne Linie neu zu positionieren, ohne den Auswahlschritt durchlaufen zu müssen.
+Das Anklicken des **Mittelpunkt-Griffpunkts** einer ausgewählten [Linie](../line/) startet move automatisch, wobei der Mittelpunkt bereits als Basispunkt gesetzt und die Verschiebungsphase aktiv ist. Dies ist der schnellste Weg, eine einzelne Linie neu zu positionieren, ohne den Auswahlschritt durchlaufen zu müssen.
 
 ## Auswahl während des Befehls
 
@@ -88,7 +88,7 @@ Wenn der Befehl in der Auswahlphase startet:
 
 Die verschobenen Entitäten bleiben an ihrer neuen Position ausgewählt. Das bedeutet, Sie können sofort:
 - **Move** erneut ausführen, um sie weiter zu verschieben.
-- [Copy](./copy), [Rotate](./rotate) oder [Scale](./scale) ausführen, ohne erneut auszuwählen.
+- [Copy](../copy/), [Rotate](../rotate/) oder [Scale](../scale/) ausführen, ohne erneut auszuwählen.
 - **Delete** drücken, um sie zu entfernen.
 
 ## move vs. copy

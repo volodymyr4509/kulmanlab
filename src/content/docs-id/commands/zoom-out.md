@@ -7,7 +7,7 @@ keywords: [CAD zoom out, mengurangi zoom viewport, perintah zoom out, gambaran u
 
 # Zoom Out
 
-Perintah `zoomout` membagi tingkat zoom saat ini sebesar **1.5×** (setara dengan mengalikan dengan ~0.667) dan langsung keluar, dipusatkan pada titik tengah viewport. Ini adalah kebalikan dari [Zoom In](./zoom-in).
+Perintah `zoomout` membagi tingkat zoom saat ini sebesar **1.5×** (setara dengan mengalikan dengan ~0.667) dan langsung keluar, dipusatkan pada titik tengah viewport. Ini adalah kebalikan dari [Zoom In](../zoom-in/).
 
 ## Memperkecil
 
@@ -41,6 +41,6 @@ Tidak ada pintasan keyboard untuk perintah ini. Gunakan roda gulir sebagai ganti
 
 | Perintah | Fungsi |
 |---------|-------------|
-| [Zoom In](./zoom-in) | Mengalikan zoom sebesar 1.5× per langkah |
-| [Fit](./fit) | Mengatur ulang zoom untuk menampilkan semua entitas |
-| [Pan](./pan) | Menggeser viewport tanpa zoom |
+| [Zoom In](../zoom-in/) | Mengalikan zoom sebesar 1.5× per langkah |
+| [Fit](../fit/) | Mengatur ulang zoom untuk menampilkan semua entitas |
+| [Pan](../pan/) | Menggeser viewport tanpa zoom |

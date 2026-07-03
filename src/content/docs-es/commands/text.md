@@ -75,12 +75,12 @@ Una etiqueta de texto seleccionada expone un agarre en el punto de anclaje:
 
 | Comando | Qué ocurre con el texto |
 |---------|------------------------|
-| [Move](./move) | Mueve el punto de anclaje |
-| [Copy](./copy) | Crea una etiqueta idéntica en una nueva posición |
-| [Rotate](./rotate) | Rota la posición del anclaje y suma el ángulo a Rotation Degree |
-| [Mirror](./mirror) | Refleja el punto de anclaje respecto al eje de simetría (la cadena de texto no se voltea) |
-| [Scale](./scale) | Escala la posición del anclaje y multiplica la altura por el factor de escala |
-| [Delete](./delete) | Elimina la etiqueta |
+| [Move](../move/) | Mueve el punto de anclaje |
+| [Copy](../copy/) | Crea una etiqueta idéntica en una nueva posición |
+| [Rotate](../rotate/) | Rota la posición del anclaje y suma el ángulo a Rotation Degree |
+| [Mirror](../mirror/) | Refleja el punto de anclaje respecto al eje de simetría (la cadena de texto no se voltea) |
+| [Scale](../scale/) | Escala la posición del anclaje y multiplica la altura por el factor de escala |
+| [Delete](../delete/) | Elimina la etiqueta |
 
 Text no admite **Offset**, **Trim** ni **Extend**.
 

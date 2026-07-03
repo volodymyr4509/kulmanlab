@@ -7,7 +7,7 @@ keywords: [cota de radio CAD, dimradius, anotar radio de círculo, cota de radio
 
 # Dimension Radius
 
-El comando `dimradius` coloca una cota de radio en un arco o círculo. La línea de cota va desde el centro hasta un punto en la circunferencia en la dirección del cursor, etiquetada `R <valor>`. Para acotar un diámetro completo, usa [Dimension Diameter](./dim-diameter).
+El comando `dimradius` coloca una cota de radio en un arco o círculo. La línea de cota va desde el centro hasta un punto en la circunferencia en la dirección del cursor, etiquetada `R <valor>`. Para acotar un diámetro completo, usa [Dimension Diameter](../dim-diameter/).
 
 ## Anatomía de una cota de radio
 

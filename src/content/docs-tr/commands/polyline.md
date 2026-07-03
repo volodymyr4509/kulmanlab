@@ -7,9 +7,9 @@ keywords: [CAD polyline komutu, çoklu çizgi çiz CAD, çok segmentli yol CAD, 
 
 # Polyline
 
-`polyline` komutu, tek bir `LWPOLYLINE` nesnesi olarak saklanan herhangi sayıda düz segmentten oluşan bağlantılı yol çizer. Tüm yol tek bir nesne olduğundan, seçmek her segmenti aynı anda seçer — tüm şekli tek bir işlemle taşıyın, döndürün veya ölçeklendirin. Bu, her segmentin bağımsız nesne olduğu zincirleme [Lines](./line) komutundan temel farktır.
+`polyline` komutu, tek bir `LWPOLYLINE` nesnesi olarak saklanan herhangi sayıda düz segmentten oluşan bağlantılı yol çizer. Tüm yol tek bir nesne olduğundan, seçmek her segmenti aynı anda seçer — tüm şekli tek bir işlemle taşıyın, döndürün veya ölçeklendirin. Bu, her segmentin bağımsız nesne olduğu zincirleme [Lines](../line/) komutundan temel farktır.
 
-Çoklu çizgiler ayrıca **kapatılabilir**: [Rectangle](./rectangle) komutu kapatma bayrağı ayarlanmış aynı `LWPOLYLINE` nesnesini kullanır.
+Çoklu çizgiler ayrıca **kapatılabilir**: [Rectangle](../rectangle/) komutu kapatma bayrağı ayarlanmış aynı `LWPOLYLINE` nesnesini kullanır.
 
 ## Çoklu Çizgi Çizimi
 
@@ -39,7 +39,7 @@ Tıklamak yerine herhangi bir köşe için kesin konum girin:
 
 ## Açı Kilidi ve Kesin Segment Uzunluğu
 
-Herhangi iki ardışık nokta arasında [Line](./line) komutundakiyle aynı 45°'lik yakalama mantığı uygulanır. Bir eksene kilitlendiğinde:
+Herhangi iki ardışık nokta arasında [Line](../line/) komutundakiyle aynı 45°'lik yakalama mantığı uygulanır. Bir eksene kilitlendiğinde:
 
 | Tuş | İşlem |
 |-----|-------|
@@ -70,9 +70,9 @@ Seçili çoklu çizgi iki tür tutamaç gösterir:
 | **Köşe** | Her yerleştirilen noktada | Sürükleyerek köşeyi taşıyın; tüm bağlı segmentler uzar |
 | **Segment ortası** | Her segmentin merkezi | Sürükleyerek segmentin **her iki** uç noktasını birlikte taşıyın, uzunluğunu ve açısını koruyarak |
 
-Segment orta nokta tutamacı çoklu çizgilere özgüdür — tek bir segmentin uzunluğunu değiştirmeden yatay olarak kaydırmanızı sağlar. [Line](./line) komutunda orta nokta tutamacı bunun yerine tüm nesne için Move komutunu etkinleştirir.
+Segment orta nokta tutamacı çoklu çizgilere özgüdür — tek bir segmentin uzunluğunu değiştirmeden yatay olarak kaydırmanızı sağlar. [Line](../line/) komutunda orta nokta tutamacı bunun yerine tüm nesne için Move komutunu etkinleştirir.
 
-Tüm çoklu çizgiyi taşımak için ayrı bir tutamaç yoktur. Tüm yolu taşımak için [Move](./move) komutunu kullanın.
+Tüm çoklu çizgiyi taşımak için ayrı bir tutamaç yoktur. Tüm yolu taşımak için [Move](../move/) komutunu kullanın.
 
 ## Çoklu Çizgi Seçimi
 
@@ -86,17 +86,17 @@ Tüm çoklu çizgiyi taşımak için ayrı bir tutamaç yoktur. Tüm yolu taşı
 
 ## Desteklenen Düzenleme Komutları
 
-Çoklu çizgiler tüm yaygın dönüşümleri ve ofseti destekler, ancak kırpma veya uzatmayı **desteklemez** (bunlar yalnızca [Line](./line) içindir):
+Çoklu çizgiler tüm yaygın dönüşümleri ve ofseti destekler, ancak kırpma veya uzatmayı **desteklemez** (bunlar yalnızca [Line](../line/) içindir):
 
 | Komut | Çoklu çizgiye ne olur |
 |-------|----------------------|
-| [Move](./move) | Tüm köşeleri eşit kaymaya taşır |
-| [Copy](./copy) | Yeni konumda özdeş çoklu çizgi oluşturur |
-| [Rotate](./rotate) | Tüm köşeleri seçilen temel nokta etrafında döndürür |
-| [Mirror](./mirror) | Tüm köşeleri ayna ekseni boyunca yansıtır |
-| [Scale](./scale) | Tüm köşeleri temel noktadan eşit ölçekler |
-| [Offset](./offset) | Sabit dik mesafede paralel çoklu çizgi oluşturur |
-| [Delete](./delete) | Çoklu çizgiyi çizimden siler |
+| [Move](../move/) | Tüm köşeleri eşit kaymaya taşır |
+| [Copy](../copy/) | Yeni konumda özdeş çoklu çizgi oluşturur |
+| [Rotate](../rotate/) | Tüm köşeleri seçilen temel nokta etrafında döndürür |
+| [Mirror](../mirror/) | Tüm köşeleri ayna ekseni boyunca yansıtır |
+| [Scale](../scale/) | Tüm köşeleri temel noktadan eşit ölçekler |
+| [Offset](../offset/) | Sabit dik mesafede paralel çoklu çizgi oluşturur |
+| [Delete](../delete/) | Çoklu çizgiyi çizimden siler |
 
 ## Özellikler
 
@@ -130,6 +130,6 @@ Tüm çoklu çizgiyi taşımak için ayrı bir tutamaç yoktur. Tüm yolu taşı
 
 ## DXF — LWPOLYLINE Nesnesi
 
-Çoklu çizgiler DXF dosyasında `LWPOLYLINE` nesneleri olarak saklanır. Köşe koordinatları, kapatma bayrağı, renk, katman, çizgi türü, çizgi türü ölçeği ve kalınlık dahil tüm özellikler kayıpsız round-trip yapar. [Rectangle](./rectangle) komutuyla çizilen dikdörtgenler de `LWPOLYLINE` (kapalı, dört köşe) olarak saklanır ve DXF seviyesinde ayırt edilemez.
+Çoklu çizgiler DXF dosyasında `LWPOLYLINE` nesneleri olarak saklanır. Köşe koordinatları, kapatma bayrağı, renk, katman, çizgi türü, çizgi türü ölçeği ve kalınlık dahil tüm özellikler kayıpsız round-trip yapar. [Rectangle](../rectangle/) komutuyla çizilen dikdörtgenler de `LWPOLYLINE` (kapalı, dört köşe) olarak saklanır ve DXF seviyesinde ayırt edilemez.
 
 Herhangi bir DXF uyumlu uygulamadan (LibreCAD, FreeCAD vb.) gelen `LWPOLYLINE` nesneleri düzenleyicide tam olarak düzenlenebilir çoklu çizgiler olarak döner.

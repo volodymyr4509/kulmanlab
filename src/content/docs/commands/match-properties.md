@@ -59,5 +59,5 @@ Geometry (coordinates, radius, length, etc.) is never affected.
 
 ## Related commands
 
-- [LayerMatch](./layer-match) — move selected entities onto the same layer as a source (layer property only)
-- [LayerMakeCurrent](./layer-make-current) — set the current drawing layer from a clicked entity
+- [LayerMatch](../layer-match/) — move selected entities onto the same layer as a source (layer property only)
+- [LayerMakeCurrent](../layer-make-current/) — set the current drawing layer from a clicked entity

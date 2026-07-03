@@ -81,13 +81,13 @@ Les poignées des axes principal et secondaire sont indépendantes — vous pouv
 
 | Commande | Ce qui arrive à l'ellipse |
 |----------|-----------------------------|
-| [Move](./move) | Translate le centre ; les deux axes inchangés |
-| [Copy](./copy) | Crée une ellipse identique à un nouveau centre |
-| [Rotate](./rotate) | Fait pivoter la position du centre et le vecteur de l'axe principal du même angle |
-| [Mirror](./mirror) | Symétrise le centre et recalcule la direction de l'axe principal par rapport à l'axe de symétrie |
-| [Scale](./scale) | Met à l'échelle la position du centre et multiplie les deux demi-axes par le facteur |
-| [Offset](./offset) | Crée une ellipse concentrique décalée vers l'extérieur ou l'intérieur d'une distance fixe |
-| [Delete](./delete) | Supprime l'ellipse |
+| [Move](../move/) | Translate le centre ; les deux axes inchangés |
+| [Copy](../copy/) | Crée une ellipse identique à un nouveau centre |
+| [Rotate](../rotate/) | Fait pivoter la position du centre et le vecteur de l'axe principal du même angle |
+| [Mirror](../mirror/) | Symétrise le centre et recalcule la direction de l'axe principal par rapport à l'axe de symétrie |
+| [Scale](../scale/) | Met à l'échelle la position du centre et multiplie les deux demi-axes par le facteur |
+| [Offset](../offset/) | Crée une ellipse concentrique décalée vers l'extérieur ou l'intérieur d'une distance fixe |
+| [Delete](../delete/) | Supprime l'ellipse |
 
 ## Propriétés
 

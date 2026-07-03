@@ -47,4 +47,4 @@ Efter att en viewport har placerats, klicka på den för att markera den:
 ## Anteckningar
 
 - ViewportRectangle är endast tillgängligt när en papperslayoutflik är aktiv. Att köra det i modellutrymme visar ett felmeddelande och avslutar kommandot.
-- För att kopiera en befintlig viewport, använd [ViewportCopy](./viewport-copy).
+- För att kopiera en befintlig viewport, använd [ViewportCopy](../viewport-copy/).

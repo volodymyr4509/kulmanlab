@@ -7,7 +7,7 @@ keywords: [CAD zum keluar, kurangkan zum viewport, arahan zum keluar, gambaran k
 
 # Zoom Out
 
-Arahan `zoomout` membahagi paras zum semasa dengan **1.5×** (bersamaan dengan mendarab dengan ~0.667) dan keluar serta-merta, berpusat pada titik tengah viewport. Ia adalah songsangan [Zoom In](./zoom-in).
+Arahan `zoomout` membahagi paras zum semasa dengan **1.5×** (bersamaan dengan mendarab dengan ~0.667) dan keluar serta-merta, berpusat pada titik tengah viewport. Ia adalah songsangan [Zoom In](../zoom-in/).
 
 ## Zum keluar
 
@@ -41,6 +41,6 @@ Tiada pintasan papan kekunci untuk arahan ini. Gunakan roda tatal sebaliknya —
 
 | Arahan | Fungsinya |
 |--------|-----------|
-| [Zoom In](./zoom-in) | Mendarab zum dengan 1.5× setiap langkah |
-| [Fit](./fit) | Menetapkan semula zum untuk menunjukkan semua entiti |
-| [Pan](./pan) | Menggeser viewport tanpa zum |
+| [Zoom In](../zoom-in/) | Mendarab zum dengan 1.5× setiap langkah |
+| [Fit](../fit/) | Menetapkan semula zum untuk menunjukkan semua entiti |
+| [Pan](../pan/) | Menggeser viewport tanpa zum |

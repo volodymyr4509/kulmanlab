@@ -7,7 +7,7 @@ keywords: [cota lineal CAD, cota horizontal CAD, cota vertical CAD, dimlinear, b
 
 # Dimension Linear
 
-El comando `dimlinear` coloca una cota horizontal o vertical entre dos orígenes de líneas de extensión. La línea de cota siempre corre perfectamente horizontal o perfectamente vertical — no puede colocarse en un ángulo arbitrario. Usa [Dimension Aligned](./dim-aligned) cuando necesites una cota paralela a una línea diagonal.
+El comando `dimlinear` coloca una cota horizontal o vertical entre dos orígenes de líneas de extensión. La línea de cota siempre corre perfectamente horizontal o perfectamente vertical — no puede colocarse en un ángulo arbitrario. Usa [Dimension Aligned](../dim-aligned/) cuando necesites una cota paralela a una línea diagonal.
 
 ## Anatomía de una cota lineal
 
@@ -89,7 +89,7 @@ Consulta [Editor de Texto — simple mode](../interface/text-editor#simple-mode)
 
 ## Encadenar cotas
 
-Para agregar más cotas continuando desde la última línea de extensión, usa [Dimension Continue](./dim-continue) inmediatamente después de colocar esta.
+Para agregar más cotas continuando desde la última línea de extensión, usa [Dimension Continue](../dim-continue/) inmediatamente después de colocar esta.
 
 ## DXF — entidad DIMENSION
 

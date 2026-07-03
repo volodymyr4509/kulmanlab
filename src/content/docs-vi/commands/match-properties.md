@@ -46,5 +46,5 @@ Tối thiểu, **tất cả loại thực thể** chia sẻ các thuộc tính n
 
 ## Các lệnh liên quan
 
-- [LayerMatch](./layer-match) — di chuyển thực thể đã chọn sang cùng lớp với nguồn (chỉ thuộc tính lớp)
-- [LayerMakeCurrent](./layer-make-current) — đặt lớp vẽ hiện tại từ thực thể được nhấp
+- [LayerMatch](../layer-match/) — di chuyển thực thể đã chọn sang cùng lớp với nguồn (chỉ thuộc tính lớp)
+- [LayerMakeCurrent](../layer-make-current/) — đặt lớp vẽ hiện tại từ thực thể được nhấp

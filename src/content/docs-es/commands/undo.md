@@ -36,4 +36,4 @@ Cada mutación de entidad se registra: dibujar nuevas entidades, eliminar entida
 | Disponible cuando | Existe al menos una acción registrada | Se ha realizado al menos un Undo y no se ha tomado ninguna acción nueva |
 | Se borra con | Nada — el historial se acumula hasta el límite de 20 pasos | Cualquier nueva acción de dibujo |
 
-Usa [Redo](./redo) para reaaplicar una acción deshecha. Los botones de la barra de herramientas aparecen atenuados cuando la dirección respectiva no está disponible.
+Usa [Redo](../redo/) para reaaplicar una acción deshecha. Los botones de la barra de herramientas aparecen atenuados cuando la dirección respectiva no está disponible.

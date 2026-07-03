@@ -41,6 +41,6 @@ No hay atajos de teclado para este comando. Usa la rueda del ratón en su lugar 
 
 | Comando | Qué hace |
 |---------|----------|
-| [Zoom Out](./zoom-out) | Divide el zoom por 1,5× por paso |
-| [Fit](./fit) | Restablece el zoom para mostrar todas las entidades |
-| [Pan](./pan) | Desplaza la ventana gráfica sin hacer zoom |
+| [Zoom Out](../zoom-out/) | Divide el zoom por 1,5× por paso |
+| [Fit](../fit/) | Restablece el zoom para mostrar todas las entidades |
+| [Pan](../pan/) | Desplaza la ventana gráfica sin hacer zoom |

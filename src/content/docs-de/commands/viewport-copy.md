@@ -56,4 +56,4 @@ Nachdem der Basispunkt gesetzt wurde, rastet der Befehl an 45°-Achsen (0°, 45�
 
 - ViewportCopy ist nur verfügbar, wenn ein Papier-Layout-Tab aktiv ist.
 - Der kopierte Viewport übernimmt denselben Maßstab, Modellmittelpunkt, Sperrstatus und dieselben Abmessungen wie das Original.
-- Um einen neuen Viewport von Grund auf zu erstellen, verwenden Sie [ViewportRectangle](./viewport-rectangle).
+- Um einen neuen Viewport von Grund auf zu erstellen, verwenden Sie [ViewportRectangle](../viewport-rectangle/).

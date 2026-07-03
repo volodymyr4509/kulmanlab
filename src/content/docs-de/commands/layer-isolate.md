@@ -7,7 +7,7 @@ keywords: [Layer isolieren, Layer einfrieren CAD, Layer isolieren kulmanlab, CAD
 
 # LayerIsolate
 
-Der Befehl `LayerIsolate` friert alle Layer **außer** denen der ausgewählten Objekte ein. Verwenden Sie ihn, um schnell auf bestimmte Geometrie zu fokussieren, ohne dabei dauerhaft etwas auszublenden oder zu löschen — heben Sie das Einfrieren mit [LayerUnfreezeAll](./layer-unfreeze-all) auf, wenn Sie fertig sind.
+Der Befehl `LayerIsolate` friert alle Layer **außer** denen der ausgewählten Objekte ein. Verwenden Sie ihn, um schnell auf bestimmte Geometrie zu fokussieren, ohne dabei dauerhaft etwas auszublenden oder zu löschen — heben Sie das Einfrieren mit [LayerUnfreezeAll](../layer-unfreeze-all/) auf, wenn Sie fertig sind.
 
 ## Zwei Möglichkeiten zum Starten
 
@@ -39,4 +39,4 @@ Der Befehl `LayerIsolate` friert alle Layer **außer** denen der ausgewählten O
 
 ## Isolierung aufheben
 
-Führen Sie [LayerUnfreezeAll](./layer-unfreeze-all) aus, um alle Layer in einem Schritt wieder sichtbar zu machen.
+Führen Sie [LayerUnfreezeAll](../layer-unfreeze-all/) aus, um alle Layer in einem Schritt wieder sichtbar zu machen.

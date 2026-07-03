@@ -46,13 +46,13 @@ Entitäten mit nicht unterstützten DXF-Typen werden stillschweigend übersprung
 
 ## Dateiname und Speicherung
 
-Beim Import einer Datei wird dem Dateinamen ein Zeitstempel angehängt (zum Beispiel `myplan_May22_14:30:00.dxf`). So können Sie mehrere Versionen derselben Zeichnung in [Zuletzt verwendete Dateien](./files) aufbewahren, ohne Namenskonflikte zu erzeugen. Enthält der Dateiname bereits einen Zeitstempel, wird er unverändert übernommen.
+Beim Import einer Datei wird dem Dateinamen ein Zeitstempel angehängt (zum Beispiel `myplan_May22_14:30:00.dxf`). So können Sie mehrere Versionen derselben Zeichnung in [Zuletzt verwendete Dateien](../files/) aufbewahren, ohne Namenskonflikte zu erzeugen. Enthält der Dateiname bereits einen Zeitstempel, wird er unverändert übernommen.
 
-Die Zeichnung wird nach dem Import automatisch im Browser-Speicher (IndexedDB) gespeichert, sodass sie im Panel [Dateien](./files) erscheint und Seitenneulades übersteht.
+Die Zeichnung wird nach dem Import automatisch im Browser-Speicher (IndexedDB) gespeichert, sodass sie im Panel [Dateien](../files/) erscheint und Seitenneulades übersteht.
 
 ## Was mit der aktuellen Zeichnung passiert
 
-Beim Import wird die aktuelle Zeichenfläche ersetzt. Es gibt keine Zusammenführung oder Ergänzung. Wenn Sie nicht gespeicherte Änderungen haben, [exportieren](./export) Sie die aktuelle Zeichnung zuerst.
+Beim Import wird die aktuelle Zeichenfläche ersetzt. Es gibt keine Zusammenführung oder Ergänzung. Wenn Sie nicht gespeicherte Änderungen haben, [exportieren](../export/) Sie die aktuelle Zeichnung zuerst.
 
 ## Beim Start
 
@@ -68,6 +68,6 @@ KulmanLab öffnet beim Laden der Seite automatisch die zuletzt bearbeitete Datei
 
 ## Verwandte Befehle
 
-- [Export](./export) — aktuelle Zeichnung als DXF oder JSON herunterladen
-- [Dateien](./files) — im Browser gespeicherte Zeichnungen durchsuchen und wiederherstellen
-- [New File](./new-file) — eine leere Zeichnung starten
+- [Export](../export/) — aktuelle Zeichnung als DXF oder JSON herunterladen
+- [Dateien](../files/) — im Browser gespeicherte Zeichnungen durchsuchen und wiederherstellen
+- [New File](../new-file/) — eine leere Zeichnung starten

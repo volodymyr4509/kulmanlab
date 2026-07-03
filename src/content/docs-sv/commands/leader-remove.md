@@ -47,5 +47,5 @@ Kommandot mäter det vinkelräta avståndet från markören till varje arms linj
 
 | Kommando | Vad det gör |
 |---------|-------------|
-| [Leader](./leader) | Skapa en ny multileader från grunden |
-| [Leader+](./leader-add) | Lägg till en arm på en befintlig multileader |
+| [Leader](../leader/) | Skapa en ny multileader från grunden |
+| [Leader+](../leader-add/) | Lägg till en arm på en befintlig multileader |

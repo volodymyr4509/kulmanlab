@@ -7,9 +7,9 @@ keywords: [polecenie przytnij CAD, przycinanie linii CAD, cięcie linii na przec
 
 # Przytnij
 
-Polecenie `trim` usuwa część [Linii](./line) leżącą między dwoma sąsiednimi punktami przecięcia, dzieląc linię na jeden lub dwa krótsze segmenty. Segment do wycięcia jest określany przez pozycję kursora — najedź kursorem na część, którą chcesz usunąć, i kliknij, aby ją przyciąć.
+Polecenie `trim` usuwa część [Linii](../line/) leżącą między dwoma sąsiednimi punktami przecięcia, dzieląc linię na jeden lub dwa krótsze segmenty. Segment do wycięcia jest określany przez pozycję kursora — najedź kursorem na część, którą chcesz usunąć, i kliknij, aby ją przyciąć.
 
-Przytnij działa **tylko na elementach Linia**. Dla łuków, okręgów, polilinii i innych typów elementów użyj [Usuń](./delete) lub edycji uchwytu.
+Przytnij działa **tylko na elementach Linia**. Dla łuków, okręgów, polilinii i innych typów elementów użyj [Usuń](../delete/) lub edycji uchwytu.
 
 ## Przycinanie linii
 

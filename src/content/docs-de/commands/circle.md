@@ -85,13 +85,13 @@ Alle vier Kardinal-Griffpunkte verhalten sich identisch — der neue Radius ents
 
 | Befehl | Was mit dem Kreis passiert |
 |--------|---------------------------|
-| [Move](./move) | Verschiebt den Mittelpunkt; Radius unverändert |
-| [Copy](./copy) | Erstellt einen identischen Kreis an einem neuen Mittelpunkt |
-| [Rotate](./rotate) | Dreht den Mittelpunkt um den Basispunkt; Radius unverändert |
-| [Mirror](./mirror) | Spiegelt den Mittelpunkt über die Spiegelachse; Radius unverändert |
-| [Scale](./scale) | Skaliert die Mittelpunktposition und multipliziert den Radius mit dem Skalierungsfaktor |
-| [Offset](./offset) | Erstellt einen konzentrischen Kreis mit größerem oder kleinerem Radius |
-| [Delete](./delete) | Entfernt den Kreis |
+| [Move](../move/) | Verschiebt den Mittelpunkt; Radius unverändert |
+| [Copy](../copy/) | Erstellt einen identischen Kreis an einem neuen Mittelpunkt |
+| [Rotate](../rotate/) | Dreht den Mittelpunkt um den Basispunkt; Radius unverändert |
+| [Mirror](../mirror/) | Spiegelt den Mittelpunkt über die Spiegelachse; Radius unverändert |
+| [Scale](../scale/) | Skaliert die Mittelpunktposition und multipliziert den Radius mit dem Skalierungsfaktor |
+| [Offset](../offset/) | Erstellt einen konzentrischen Kreis mit größerem oder kleinerem Radius |
+| [Delete](../delete/) | Entfernt den Kreis |
 
 ## Eigenschaften
 
@@ -120,7 +120,7 @@ Alle vier Kardinal-Griffpunkte verhalten sich identisch — der neue Radius ents
 | Wie zeichnen | Mittelpunkt + Radius | Drei Punkte auf der Kurve |
 | Texteingabe | Radiuswert | Keine — nur per Klick |
 | Griffpunkt-Größenänderung | 4 Kardinalpunkte | Start- und Endpunkte (Winkel + Radius) |
-| Bemaßung | Radius: [Dim Radius](./dim-radius) · Durchmesser: [Dim Diameter](./dim-diameter) | [Dim Radius](./dim-radius) |
+| Bemaßung | Radius: [Dim Radius](../dim-radius/) · Durchmesser: [Dim Diameter](../dim-diameter/) | [Dim Radius](../dim-radius/) |
 | Geeignet für | Vollständige Löcher, Lochkreise, runde Merkmale | Abrundungen, Teilkurven, Bogenpfade |
 
 ## DXF — CIRCLE-Element

@@ -56,4 +56,4 @@ Dopo che il punto base è impostato, il comando si aggancia agli assi a 45° (0�
 
 - ViewportCopy è disponibile solo quando una scheda di layout carta è attiva.
 - La finestra di visualizzazione copiata eredita la stessa scala, centro del modello, stato di blocco e dimensioni dell'originale.
-- Per creare una nuova finestra di visualizzazione da zero, usa [ViewportRectangle](./viewport-rectangle).
+- Per creare una nuova finestra di visualizzazione da zero, usa [ViewportRectangle](../viewport-rectangle/).

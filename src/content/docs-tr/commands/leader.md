@@ -106,8 +106,8 @@ Tam referans için [Metin Düzenleyici — rich mode](../interface/text-editor#r
 
 ## Kolları Ekleme ve Kaldırma
 
-- Mevcut göstergeye ekstra ok kolu eklemek için: [Leader+](./leader-add)
-- İki veya daha fazla kolu olan göstergeden kol kaldırmak için: [Leader−](./leader-remove)
+- Mevcut göstergeye ekstra ok kolu eklemek için: [Leader+](../leader-add/)
+- İki veya daha fazla kolu olan göstergeden kol kaldırmak için: [Leader−](../leader-remove/)
 
 ## DXF — yalnızca içe aktarım
 

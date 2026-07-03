@@ -71,13 +71,13 @@ Menyeret grip awal atau akhir memposisikan ulangnya ke lokasi seret dan menghitu
 
 | Perintah | Apa yang terjadi pada busur |
 |---------|------------------------|
-| [Move](./move) | Menerjemahkan pusat; radius dan sudut tidak berubah |
-| [Copy](./copy) | Membuat busur identik di posisi baru |
-| [Rotate](./rotate) | Memutar pusat dan menggeser sudut awal/akhir sebesar jumlah rotasi |
-| [Mirror](./mirror) | Memantulkan pusat dan membalik sudut awal/akhir melintasi sumbu cermin |
-| [Scale](./scale) | Menskalakan posisi pusat dan mengalikan radius dengan faktor skala |
-| [Offset](./offset) | Membuat busur konsentris pada radius yang lebih besar atau lebih kecil, rentang sudut yang sama |
-| [Delete](./delete) | Menghapus busur |
+| [Move](../move/) | Menerjemahkan pusat; radius dan sudut tidak berubah |
+| [Copy](../copy/) | Membuat busur identik di posisi baru |
+| [Rotate](../rotate/) | Memutar pusat dan menggeser sudut awal/akhir sebesar jumlah rotasi |
+| [Mirror](../mirror/) | Memantulkan pusat dan membalik sudut awal/akhir melintasi sumbu cermin |
+| [Scale](../scale/) | Menskalakan posisi pusat dan mengalikan radius dengan faktor skala |
+| [Offset](../offset/) | Membuat busur konsentris pada radius yang lebih besar atau lebih kecil, rentang sudut yang sama |
+| [Delete](../delete/) | Menghapus busur |
 
 ## Properti
 

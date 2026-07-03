@@ -7,7 +7,7 @@ keywords: [CAD dimensi diameter, dimdiameter, anotasi diameter bulatan, dimensi 
 
 # Dimension Diameter
 
-Arahan `dimdiameter` meletakkan dimensi diameter pada lengkok atau bulatan. Garis dimensi merentang diameter penuh — melalui pusat antara dua titik lengkok yang berlawanan secara diametrik — dan berlabel `⌀ <nilai>`. Untuk menganotasi hanya jejari dari pusat ke satu tepi, gunakan [Dimension Radius](./dim-radius).
+Arahan `dimdiameter` meletakkan dimensi diameter pada lengkok atau bulatan. Garis dimensi merentang diameter penuh — melalui pusat antara dua titik lengkok yang berlawanan secara diametrik — dan berlabel `⌀ <nilai>`. Untuk menganotasi hanya jejari dari pusat ke satu tepi, gunakan [Dimension Radius](../dim-radius/).
 
 ## Anatomi dimensi diameter
 

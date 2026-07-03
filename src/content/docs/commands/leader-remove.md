@@ -47,5 +47,5 @@ The command measures the perpendicular distance from the cursor to each arm's li
 
 | Command | What it does |
 |---------|-------------|
-| [Leader](./leader) | Create a new multileader from scratch |
-| [Leader+](./leader-add) | Add an arm to an existing multileader |
+| [Leader](../leader/) | Create a new multileader from scratch |
+| [Leader+](../leader-add/) | Add an arm to an existing multileader |

@@ -7,7 +7,7 @@ keywords: [aislar capa, congelar capas CAD, aislar capa kulmanlab, gestión de c
 
 # LayerIsolate
 
-El comando `LayerIsolate` congela todas las capas **excepto** las que pertenecen a los objetos seleccionados. Úsalo para enfocarte rápidamente en geometría específica sin ocultar ni eliminar nada permanentemente — descongela con [LayerUnfreezeAll](./layer-unfreeze-all) cuando termines.
+El comando `LayerIsolate` congela todas las capas **excepto** las que pertenecen a los objetos seleccionados. Úsalo para enfocarte rápidamente en geometría específica sin ocultar ni eliminar nada permanentemente — descongela con [LayerUnfreezeAll](../layer-unfreeze-all/) cuando termines.
 
 ## Dos formas de iniciarlo
 
@@ -39,4 +39,4 @@ El comando `LayerIsolate` congela todas las capas **excepto** las que pertenecen
 
 ## Deshacer el aislamiento
 
-Ejecuta [LayerUnfreezeAll](./layer-unfreeze-all) para restaurar todas las capas a visibles en un solo paso.
+Ejecuta [LayerUnfreezeAll](../layer-unfreeze-all/) para restaurar todas las capas a visibles en un solo paso.

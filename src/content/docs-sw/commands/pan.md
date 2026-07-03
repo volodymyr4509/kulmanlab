@@ -28,8 +28,8 @@ Njia ya haraka ya kusogeza: **shikilia kitufe cha katikati cha panya na uburutu*
 | Kuburuta bonyeza ya katikati | Hubadilisha mwonekano | Hapana — inafanya kazi daima |
 | Gurudumu la kusogeza | Hukuza kuelekea kishale | Hapana — inafanya kazi daima |
 | Bonyeza mara mbili kitufe cha katikati | Kuoana vipengele vyote | Hapana — inafanya kazi daima |
-| [Zoom In](./zoom-in) / [Zoom Out](./zoom-out) | Inasogeza kukuza 1.5× | Hapana |
-| [Fit](./fit) | Huoana vipengele vyote katika mwonekano | Hapana |
+| [Zoom In](../zoom-in/) / [Zoom Out](../zoom-out/) | Inasogeza kukuza 1.5× | Hapana |
+| [Fit](../fit/) | Huoana vipengele vyote katika mwonekano | Hapana |
 
 ## Marejeo ya kibodi
 
@@ -40,5 +40,5 @@ Njia ya haraka ya kusogeza: **shikilia kitufe cha katikati cha panya na uburutu*
 ## Vidokezo
 
 - Tumia gurudumu la kusogeza kukuza kuelekea eneo lengwa, kisha sogeza kurekebishia nafasi.
-- **Bonyeza mara mbili kitufe cha katikati cha panya** huanzisha [Fit](./fit) papo hapo — njia ya haraka zaidi ya kurejesha mwonekano uliopotea.
+- **Bonyeza mara mbili kitufe cha katikati cha panya** huanzisha [Fit](../fit/) papo hapo — njia ya haraka zaidi ya kurejesha mwonekano uliopotea.
 - Ukiwa katikati ya amri (mfano, kuweka nukta ya mwisho ya mstari), burutu bonyeza ya katikati kusogeza bila kughairi amri.

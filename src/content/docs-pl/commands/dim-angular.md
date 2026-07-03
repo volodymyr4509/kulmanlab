@@ -64,7 +64,7 @@ Zobacz [Edytor tekstu — tryb simple](../interface/text-editor#simple-mode) w c
 
 ## Powiązane polecenia
 
-- [Wymiar liniowy](./dim-linear) — wymiar poziomy lub pionowy
-- [Wymiar wyrównany](./dim-aligned) — wymiar wyrównany do dwóch punktów
-- [Wymiar promienia](./dim-radius) — wymiar promienia dla łuków i okręgów
-- [Wymiar średnicy](./dim-diameter) — wymiar średnicy dla okręgów
+- [Wymiar liniowy](../dim-linear/) — wymiar poziomy lub pionowy
+- [Wymiar wyrównany](../dim-aligned/) — wymiar wyrównany do dwóch punktów
+- [Wymiar promienia](../dim-radius/) — wymiar promienia dla łuków i okręgów
+- [Wymiar średnicy](../dim-diameter/) — wymiar średnicy dla okręgów

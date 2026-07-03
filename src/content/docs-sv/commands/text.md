@@ -75,12 +75,12 @@ En vald textetikett visar ett grepp vid ankarpunkten:
 
 | Kommando | Vad som händer med texten |
 |---------|--------------------------|
-| [Move](./move) | Flyttar ankarpunkten |
-| [Copy](./copy) | Skapar en identisk etikett på en ny position |
-| [Rotate](./rotate) | Roterar ankarpositionen och lägger till vinkeln till Rotation Degree |
-| [Mirror](./mirror) | Speglar ankarpunkten över spegelaxeln (textsträngen vänds inte) |
-| [Scale](./scale) | Skalar ankarpositionen och multiplicerar höjden med skalfaktorn |
-| [Delete](./delete) | Tar bort etiketten |
+| [Move](../move/) | Flyttar ankarpunkten |
+| [Copy](../copy/) | Skapar en identisk etikett på en ny position |
+| [Rotate](../rotate/) | Roterar ankarpositionen och lägger till vinkeln till Rotation Degree |
+| [Mirror](../mirror/) | Speglar ankarpunkten över spegelaxeln (textsträngen vänds inte) |
+| [Scale](../scale/) | Skalar ankarpositionen och multiplicerar höjden med skalfaktorn |
+| [Delete](../delete/) | Tar bort etiketten |
 
 Text stöder inte **Offset**, **Trim** eller **Extend**.
 

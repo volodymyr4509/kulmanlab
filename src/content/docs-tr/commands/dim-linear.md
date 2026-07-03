@@ -7,7 +7,7 @@ keywords: [CAD dimension linear, yatay ölçü CAD, dikey ölçü CAD, dimlinear
 
 # Dimension Linear
 
-`dimlinear` komutu, iki uzatma çizgisi başlangıç noktası arasında yatay veya dikey ölçü yerleştirir. Ölçü çizgisi her zaman tam yatay veya tam dikey uzanır — keyfi bir açıda yerleştirilemez. Köşegen bir çizgiye paralel ölçü gerektiğinde [Dimension Aligned](./dim-aligned) kullanın.
+`dimlinear` komutu, iki uzatma çizgisi başlangıç noktası arasında yatay veya dikey ölçü yerleştirir. Ölçü çizgisi her zaman tam yatay veya tam dikey uzanır — keyfi bir açıda yerleştirilemez. Köşegen bir çizgiye paralel ölçü gerektiğinde [Dimension Aligned](../dim-aligned/) kullanın.
 
 ## Doğrusal Ölçünün Anatomisi
 
@@ -89,7 +89,7 @@ Tam referans için [Metin Düzenleyici — simple mode](../interface/text-editor
 
 ## Zincirleme Ölçüler
 
-Son uzatma çizgisinden devam eden ölçüler eklemek için bu ölçüyü yerleştirdikten hemen sonra [Dimension Continue](./dim-continue) kullanın.
+Son uzatma çizgisinden devam eden ölçüler eklemek için bu ölçüyü yerleştirdikten hemen sonra [Dimension Continue](../dim-continue/) kullanın.
 
 ## DXF — DIMENSION nesnesi
 

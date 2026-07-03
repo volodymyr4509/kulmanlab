@@ -7,7 +7,7 @@ keywords: [CAD команда layer match, перемістити об'єкти 
 
 # LayerMatch
 
-Команда `layer match` переміщує один або більше об'єктів на шар іншого (джерельного) об'єкта. Це аналог [Match Properties](./match-properties), але лише для шарів.
+Команда `layer match` переміщує один або більше об'єктів на шар іншого (джерельного) об'єкта. Це аналог [Match Properties](../match-properties/), але лише для шарів.
 
 ## Як використовувати
 
@@ -33,5 +33,5 @@ keywords: [CAD команда layer match, перемістити об'єкти 
 
 ## Пов'язані команди
 
-- [Match Properties](./match-properties) — копіює всі властивості (не лише шар)
-- [Layer Make Current](./layer-make-current) — встановити поточний шар
+- [Match Properties](../match-properties/) — копіює всі властивості (не лише шар)
+- [Layer Make Current](../layer-make-current/) — встановити поточний шар

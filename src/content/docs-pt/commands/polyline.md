@@ -7,9 +7,9 @@ keywords: [CAD comando polyline, desenhar polilinha CAD, caminho multi-segmento 
 
 # Polyline
 
-O comando `polyline` desenha um caminho conectado de qualquer número de segmentos retos, todos armazenados como uma única entidade `LWPOLYLINE`. Como o caminho inteiro é um único objeto, selecioná-lo seleciona cada segmento de uma vez — mova, gire ou escale toda a forma em uma única operação. Esta é a distinção fundamental das [Linhas](./line) encadeadas, onde cada segmento é uma entidade independente.
+O comando `polyline` desenha um caminho conectado de qualquer número de segmentos retos, todos armazenados como uma única entidade `LWPOLYLINE`. Como o caminho inteiro é um único objeto, selecioná-lo seleciona cada segmento de uma vez — mova, gire ou escale toda a forma em uma única operação. Esta é a distinção fundamental das [Linhas](../line/) encadeadas, onde cada segmento é uma entidade independente.
 
-Polilinhas também podem ser **fechadas**: o comando [Retângulo](./rectangle) usa a mesma entidade `LWPOLYLINE` com um flag de fechamento definido.
+Polilinhas também podem ser **fechadas**: o comando [Retângulo](../rectangle/) usa a mesma entidade `LWPOLYLINE` com um flag de fechamento definido.
 
 ## Desenhando uma polilinha
 
@@ -39,7 +39,7 @@ Em vez de clicar, digite uma posição exata para qualquer vértice:
 
 ## Travamento de ângulo e comprimento exato do segmento
 
-A mesma lógica de encaixe de 45° do comando [Linha](./line) se aplica entre dois pontos consecutivos. Quando travado em um eixo:
+A mesma lógica de encaixe de 45° do comando [Linha](../line/) se aplica entre dois pontos consecutivos. Quando travado em um eixo:
 
 | Tecla | Ação |
 |-------|------|
@@ -70,9 +70,9 @@ Uma polilinha selecionada mostra dois tipos de grips:
 | **Vértice** | Em cada ponto posicionado | Arraste para reposicionar esse vértice; todos os segmentos conectados se esticam para seguir |
 | **Ponto médio do segmento** | Centro de cada segmento | Arraste para transladar **ambos** os endpoints desse segmento juntos, mantendo comprimento e ângulo intactos |
 
-O grip de ponto médio do segmento é exclusivo das polilinhas — permite deslizar um segmento individual lateralmente sem alterar seu comprimento. Em uma [Linha](./line), o grip de ponto médio ativa o comando Move para toda a entidade.
+O grip de ponto médio do segmento é exclusivo das polilinhas — permite deslizar um segmento individual lateralmente sem alterar seu comprimento. Em uma [Linha](../line/), o grip de ponto médio ativa o comando Move para toda a entidade.
 
-Não há um grip "mover toda a polilinha". Para mover todo o caminho use o comando [Move](./move).
+Não há um grip "mover toda a polilinha". Para mover todo o caminho use o comando [Move](../move/).
 
 ## Selecionando polilinhas
 
@@ -86,17 +86,17 @@ Como uma polilinha é uma entidade, uma seleção cruzada que toca qualquer segm
 
 ## Comandos de edição suportados
 
-Polilinhas suportam todas as transformações gerais e offset, mas **não** trim ou extend (esses são apenas para [Linhas](./line)):
+Polilinhas suportam todas as transformações gerais e offset, mas **não** trim ou extend (esses são apenas para [Linhas](../line/)):
 
 | Comando | O que acontece com a polilinha |
 |---------|-------------------------------|
-| [Move](./move) | Translada todos os vértices pelo mesmo deslocamento |
-| [Copy](./copy) | Cria uma polilinha idêntica em uma nova posição |
-| [Rotate](./rotate) | Rotaciona todos os vértices ao redor do ponto base escolhido |
-| [Mirror](./mirror) | Reflete todos os vértices em relação ao eixo espelho |
-| [Scale](./scale) | Escala todos os vértices uniformemente a partir do ponto base |
-| [Offset](./offset) | Cria uma polilinha paralela a uma distância perpendicular fixa |
-| [Delete](./delete) | Remove a polilinha do desenho |
+| [Move](../move/) | Translada todos os vértices pelo mesmo deslocamento |
+| [Copy](../copy/) | Cria uma polilinha idêntica em uma nova posição |
+| [Rotate](../rotate/) | Rotaciona todos os vértices ao redor do ponto base escolhido |
+| [Mirror](../mirror/) | Reflete todos os vértices em relação ao eixo espelho |
+| [Scale](../scale/) | Escala todos os vértices uniformemente a partir do ponto base |
+| [Offset](../offset/) | Cria uma polilinha paralela a uma distância perpendicular fixa |
+| [Delete](../delete/) | Remove a polilinha do desenho |
 
 ## Polyline vs Linha — quando usar qual
 
@@ -110,6 +110,6 @@ Polilinhas suportam todas as transformações gerais e offset, mas **não** trim
 
 ## DXF — entidade LWPOLYLINE
 
-Polilinhas são salvas como entidades `LWPOLYLINE` no arquivo DXF. Todas as propriedades — coordenadas dos vértices, flag de fechamento, cor, camada, tipo de linha, escala do tipo de linha e espessura — fazem round-trip sem perda. Retângulos desenhados com o comando [Retângulo](./rectangle) também são salvos como `LWPOLYLINE` (fechado, quatro vértices) e são indistinguíveis no nível DXF.
+Polilinhas são salvas como entidades `LWPOLYLINE` no arquivo DXF. Todas as propriedades — coordenadas dos vértices, flag de fechamento, cor, camada, tipo de linha, escala do tipo de linha e espessura — fazem round-trip sem perda. Retângulos desenhados com o comando [Retângulo](../rectangle/) também são salvos como `LWPOLYLINE` (fechado, quatro vértices) e são indistinguíveis no nível DXF.
 
 Entidades `LWPOLYLINE` de qualquer aplicação compatível com DXF (LibreCAD, FreeCAD, etc.) são lidas no editor como polilinhas totalmente editáveis.

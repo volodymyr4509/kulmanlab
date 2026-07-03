@@ -41,15 +41,15 @@ When you open KulmanLab CAD, the app automatically loads the **most recently mod
 
 There is no fixed limit on the number of drawings you can save, but browser storage is finite. If you notice storage warnings, delete older files from the Files panel.
 
-To remove all saved drawings at once, use the [WipeStorage](./wipestorage) command.
+To remove all saved drawings at once, use the [WipeStorage](../wipestorage/) command.
 
 ## File names and versioning
 
-Each file has a timestamp in its name (e.g. `myplan_May22_14:30:00.dxf`). This timestamp is added automatically when you [import](./import) a file, ensuring that re-importing the same source file creates a new entry rather than overwriting the previous version.
+Each file has a timestamp in its name (e.g. `myplan_May22_14:30:00.dxf`). This timestamp is added automatically when you [import](../import/) a file, ensuring that re-importing the same source file creates a new entry rather than overwriting the previous version.
 
 ## Related commands
 
-- [Import](./import) — load a drawing from your file system into browser storage
-- [Export](./export) — download a drawing to your file system
-- [New File](./new-file) — start a blank drawing (also saved automatically)
-- [WipeStorage](./wipestorage) — clear all saved files from browser storage
+- [Import](../import/) — load a drawing from your file system into browser storage
+- [Export](../export/) — download a drawing to your file system
+- [New File](../new-file/) — start a blank drawing (also saved automatically)
+- [WipeStorage](../wipestorage/) — clear all saved files from browser storage

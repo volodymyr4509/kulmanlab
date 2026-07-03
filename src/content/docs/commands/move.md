@@ -71,7 +71,7 @@ After the base point is set the command watches for a 45° snap axis (0°, 45°,
 
 ## Activating Move from a grip
 
-Clicking the **midpoint grip** of a selected [Line](./line) launches Move automatically, with the midpoint already set as the base point and the move phase active. This is the fastest way to reposition a single line without going through the selection step.
+Clicking the **midpoint grip** of a selected [Line](../line/) launches Move automatically, with the midpoint already set as the base point and the move phase active. This is the fastest way to reposition a single line without going through the selection step.
 
 ## Selection during the command
 
@@ -88,7 +88,7 @@ When the command starts in selection phase:
 
 The moved entities remain selected at their new position. This means you can immediately:
 - Run **Move** again to nudge them further.
-- Run [Copy](./copy), [Rotate](./rotate), or [Scale](./scale) without re-selecting.
+- Run [Copy](../copy/), [Rotate](../rotate/), or [Scale](../scale/) without re-selecting.
 - Press **Delete** to remove them.
 
 ## Move vs Copy

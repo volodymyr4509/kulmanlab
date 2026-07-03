@@ -7,7 +7,7 @@ keywords: [CAD diametermått, dimdiameter, ange cirkeldiameter, bågdiametermåt
 
 # Dimension Diameter
 
-`dimdiameter`-kommandot placerar ett diametermått på en båge eller cirkel. Måttlinjen sträcker sig över hela diametern — och passerar genom centrum mellan två diametralt motsatta bågpunkter — och märks `⌀ <värde>`. För att bara ange radien från centrum till en kant, använd [Dimension Radius](./dim-radius).
+`dimdiameter`-kommandot placerar ett diametermått på en båge eller cirkel. Måttlinjen sträcker sig över hela diametern — och passerar genom centrum mellan två diametralt motsatta bågpunkter — och märks `⌀ <värde>`. För att bara ange radien från centrum till en kant, använd [Dimension Radius](../dim-radius/).
 
 ## Anatomin hos ett diametermått
 

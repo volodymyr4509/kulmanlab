@@ -44,6 +44,6 @@ Hakuna njia ya mkato ya kibodi kwa amri hii. Tumia njia ya mkato ya **kubonyeza 
 
 | Amri | Inafanya nini |
 |------|---------------|
-| [Pan](./pan) | Inasongesha dirisha bila kukuza |
-| [Zoom In](./zoom-in) | Huzidisha kukuza kwa 1.5× kwa kila hatua |
-| [Zoom Out](./zoom-out) | Hugawanya kukuza kwa 1.5× kwa kila hatua |
+| [Pan](../pan/) | Inasongesha dirisha bila kukuza |
+| [Zoom In](../zoom-in/) | Huzidisha kukuza kwa 1.5× kwa kila hatua |
+| [Zoom Out](../zoom-out/) | Hugawanya kukuza kwa 1.5× kwa kila hatua |

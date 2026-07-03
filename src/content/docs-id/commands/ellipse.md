@@ -81,13 +81,13 @@ Grip sumbu utama dan minor bersifat independen — Anda dapat membentuk ulang el
 
 | Perintah | Apa yang terjadi pada elips |
 |---------|-----------------------------|
-| [Move](./move) | Menerjemahkan pusat; kedua sumbu tidak berubah |
-| [Copy](./copy) | Membuat elips identik di pusat baru |
-| [Rotate](./rotate) | Memutar posisi pusat dan vektor sumbu utama dengan sudut yang sama |
-| [Mirror](./mirror) | Memantulkan pusat dan menghitung ulang arah sumbu utama melintasi sumbu cermin |
-| [Scale](./scale) | Menskalakan posisi pusat dan mengalikan panjang kedua semi-sumbu dengan faktor |
-| [Offset](./offset) | Membuat elips konsentris yang di-offset ke luar atau ke dalam dengan jarak tetap |
-| [Delete](./delete) | Menghapus elips |
+| [Move](../move/) | Menerjemahkan pusat; kedua sumbu tidak berubah |
+| [Copy](../copy/) | Membuat elips identik di pusat baru |
+| [Rotate](../rotate/) | Memutar posisi pusat dan vektor sumbu utama dengan sudut yang sama |
+| [Mirror](../mirror/) | Memantulkan pusat dan menghitung ulang arah sumbu utama melintasi sumbu cermin |
+| [Scale](../scale/) | Menskalakan posisi pusat dan mengalikan panjang kedua semi-sumbu dengan faktor |
+| [Offset](../offset/) | Membuat elips konsentris yang di-offset ke luar atau ke dalam dengan jarak tetap |
+| [Delete](../delete/) | Menghapus elips |
 
 ## Properti
 

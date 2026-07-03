@@ -7,7 +7,7 @@ keywords: [polecenie usuwania CAD, usuwanie elementów CAD, wymazywanie obiektó
 
 # Usuń
 
-Polecenie `delete` usuwa zaznaczone elementy z rysunku. Usunięcia są zapisywane w historii [Cofnij](./undo) i można je odwrócić w maksymalnie 20 krokach. Nie ma oddzielnego okna dialogowego „potwierdź usunięcie" — potwierdzenie to pojedyncze naciśnięcie klawisza.
+Polecenie `delete` usuwa zaznaczone elementy z rysunku. Usunięcia są zapisywane w historii [Cofnij](../undo/) i można je odwrócić w maksymalnie 20 krokach. Nie ma oddzielnego okna dialogowego „potwierdź usunięcie" — potwierdzenie to pojedyncze naciśnięcie klawisza.
 
 ## Dwa sposoby usuwania
 
@@ -43,7 +43,7 @@ Kliknij element → naciśnij Delete → gotowe
 
 ## Odzyskiwanie usuniętych elementów
 
-Usunięcia można cofnąć poleceniem [Cofnij](./undo) (wpisz `undo` lub użyj przycisku paska narzędzi). Można odwrócić maksymalnie **20 kroków** na plik, a historia jest zachowywana po ponownym załadowaniu strony. Jeśli przekroczono 20 usunięć bez zapisania, wcześniejszych usunięć nie można odzyskać.
+Usunięcia można cofnąć poleceniem [Cofnij](../undo/) (wpisz `undo` lub użyj przycisku paska narzędzi). Można odwrócić maksymalnie **20 kroków** na plik, a historia jest zachowywana po ponownym załadowaniu strony. Jeśli przekroczono 20 usunięć bez zapisania, wcześniejszych usunięć nie można odzyskać.
 
 ## Obsługiwane elementy
 

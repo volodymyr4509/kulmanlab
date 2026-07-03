@@ -7,7 +7,7 @@ keywords: [amri ya delete ya CAD, ondoa vipengele CAD, futa vitu CAD, kitufe cha
 
 # Delete
 
-Amri ya `delete` huondoa vipengele vilivyochaguliwa kutoka kwenye mchoro. Ufutaji unaweza kutendulewa na [Undo](./undo). Ikiwa vipengele vilichaguliwa kabla ya kuamilisha amri, vinafutwa mara moja bila hatua yoyote ya ziada.
+Amri ya `delete` huondoa vipengele vilivyochaguliwa kutoka kwenye mchoro. Ufutaji unaweza kutendulewa na [Undo](../undo/). Ikiwa vipengele vilichaguliwa kabla ya kuamilisha amri, vinafutwa mara moja bila hatua yoyote ya ziada.
 
 ## Njia mbili za kufuta
 
@@ -45,12 +45,12 @@ Huhitaji kufungua amri kupitia terminal au upau wa zana kwanza.
 
 ## Kurejesha vipengele vilivyofutwa
 
-Ufutaji hauna wa kudumu katika kikao cha sasa. Tumia [Undo](./undo) kurejesha vipengele vilivyofutwa:
+Ufutaji hauna wa kudumu katika kikao cha sasa. Tumia [Undo](../undo/) kurejesha vipengele vilivyofutwa:
 
 - Andika `undo` kwenye terminal, au
 - Bonyeza mkato wa kibodi wa Undo (`Ctrl+Z` kwenye Windows/Linux, `Cmd+Z` kwenye macOS).
 
-[Redo](./redo) inaweza kutumika kufuta tena baada ya kutendua iwapo umeamua kubadilisha mawazo yako.
+[Redo](../redo/) inaweza kutumika kufuta tena baada ya kutendua iwapo umeamua kubadilisha mawazo yako.
 
 ## Vipengele vinavyosaidiwa
 

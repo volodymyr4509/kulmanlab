@@ -7,7 +7,7 @@ keywords: [medir distancia CAD, comando distance, medición punto a punto, dista
 
 # Distance
 
-El comando `distance` mide la distancia en línea recta (euclidiana) entre dos puntos seleccionados e imprime el resultado en el terminal con 4 decimales. Es uno de los dos comandos de medición — [Angle](./angle) mide la apertura angular en un vértice.
+El comando `distance` mide la distancia en línea recta (euclidiana) entre dos puntos seleccionados e imprime el resultado en el terminal con 4 decimales. Es uno de los dos comandos de medición — [Angle](../angle/) mide la apertura angular en un vértice.
 
 ## Anatomía de una medición de distancia
 

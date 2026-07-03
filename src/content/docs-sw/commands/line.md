@@ -7,7 +7,7 @@ keywords: [CAD line command, draw straight line CAD, chain line segments, trim l
 
 # Line
 
-Amri ya `line` inachora sehemu za mstari mzito zinazohifadhiwa kama vipande tofauti vya `LINE` katika mfano wa DXF. Baada ya kila sehemu amri inabaki hai na kutumia tena nukta ya mwisho kama nukta mpya ya kuanzia, hivyo unaweza kujenga njia zilizounganishwa sehemu moja kwa wakati mmoja. Tofauti na [Polyline](./polyline), mistari iliyounganishwa hubaki kama vipande huru — kila kimoja kinaweza kukatwa, kupanuliwa, au kufutwa bila kuathiri jirani zake.
+Amri ya `line` inachora sehemu za mstari mzito zinazohifadhiwa kama vipande tofauti vya `LINE` katika mfano wa DXF. Baada ya kila sehemu amri inabaki hai na kutumia tena nukta ya mwisho kama nukta mpya ya kuanzia, hivyo unaweza kujenga njia zilizounganishwa sehemu moja kwa wakati mmoja. Tofauti na [Polyline](../polyline/), mistari iliyounganishwa hubaki kama vipande huru — kila kimoja kinaweza kukatwa, kupanuliwa, au kufutwa bila kuathiri jirani zake.
 
 ## Kuchora mistari
 
@@ -74,7 +74,7 @@ Mstari uliochaguliwa unaonyesha vishiko vitatu:
 | **Katikati** | Katikati ya mstari | Inawasha **Move** kwa mstari wote |
 | **Mwisho** | Nukta ya pili ya mwisho | Buruta kubadilisha nafasi — mwanzo unabaki |
 
-Kunyoosha nukta moja ya mwisho haziathiri nyingine. Hii inatofautiana na uhariri wa kushika wa [Polyline](./polyline), ambapo kuhamisha ncha huumba upya njia nzima.
+Kunyoosha nukta moja ya mwisho haziathiri nyingine. Hii inatofautiana na uhariri wa kushika wa [Polyline](../polyline/), ambapo kuhamisha ncha huumba upya njia nzima.
 
 ## Kuchagua mistari
 
@@ -86,19 +86,19 @@ Kunyoosha nukta moja ya mwisho haziathiri nyingine. Hii inatofautiana na uhariri
 
 ## Amri za uhariri zinazosaidiwa
 
-Mistari ndiyo kipengele **pekee** ambacho [Trim](./trim) na [Extend](./extend) zinafanya kazi nacho. Amri zote za kawaida za mabadiliko pia zinatumika:
+Mistari ndiyo kipengele **pekee** ambacho [Trim](../trim/) na [Extend](../extend/) zinafanya kazi nacho. Amri zote za kawaida za mabadiliko pia zinatumika:
 
 | Amri | Kinachotokea kwa mstari |
 |------|------------------------|
-| [Move](./move) | Hutafsiri nukta zote mbili za mwisho kwa msogeo uleule |
-| [Copy](./copy) | Huunda mstari unaolingana katika nafasi mpya |
-| [Rotate](./rotate) | Huzungusha nukta zote mbili za mwisho karibu na nukta ya msingi iliyochaguliwa |
-| [Mirror](./mirror) | Huakisi nukta zote mbili za mwisho kwenye mhimili wa kioo |
-| [Scale](./scale) | Hupima nukta zote mbili kwa usawa kutoka kwa nukta ya msingi |
-| [Offset](./offset) | Huunda mstari sambamba kwa umbali wa perpendicular uliowekwa |
-| [Trim](./trim) | Hukata mstari katika makutano — **mistari tu** |
-| [Extend](./extend) | Hunyoosha nukta ya karibu zaidi ya mwisho kufikia mpaka — **mistari tu** |
-| [Delete](./delete) | Huondoa mstari kutoka kwa mchoro |
+| [Move](../move/) | Hutafsiri nukta zote mbili za mwisho kwa msogeo uleule |
+| [Copy](../copy/) | Huunda mstari unaolingana katika nafasi mpya |
+| [Rotate](../rotate/) | Huzungusha nukta zote mbili za mwisho karibu na nukta ya msingi iliyochaguliwa |
+| [Mirror](../mirror/) | Huakisi nukta zote mbili za mwisho kwenye mhimili wa kioo |
+| [Scale](../scale/) | Hupima nukta zote mbili kwa usawa kutoka kwa nukta ya msingi |
+| [Offset](../offset/) | Huunda mstari sambamba kwa umbali wa perpendicular uliowekwa |
+| [Trim](../trim/) | Hukata mstari katika makutano — **mistari tu** |
+| [Extend](../extend/) | Hunyoosha nukta ya karibu zaidi ya mwisho kufikia mpaka — **mistari tu** |
+| [Delete](../delete/) | Huondoa mstari kutoka kwa mchoro |
 
 ## Sifa
 

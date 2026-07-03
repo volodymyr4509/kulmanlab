@@ -7,7 +7,7 @@ keywords: [CAD chamfer-kommando, chamfer linje CAD, diagonalt hörnsnitt, fasat 
 
 # Chamfer
 
-`chamfer`-kommandot skär ett rakt diagonalt hörn mellan två [Line](./line)- eller [Polyline](./polyline)-entiteter. Du anger hur långt tillbaka som ska skäras längs varje entitet (d1 och d2), och kommandot klipper tillbaka båda entiteterna till dessa punkter och infogar en förbindande linje mellan dem.
+`chamfer`-kommandot skär ett rakt diagonalt hörn mellan två [Line](../line/)- eller [Polyline](../polyline/)-entiteter. Du anger hur långt tillbaka som ska skäras längs varje entitet (d1 och d2), och kommandot klipper tillbaka båda entiteterna till dessa punkter och infogar en förbindande linje mellan dem.
 
 Att använda lika avstånd ger ett symmetriskt 45°-snitt; olika avstånd ger en asymmetrisk fasning.
 

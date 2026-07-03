@@ -5,7 +5,7 @@ description: Lệnh Mirror phản chiếu các thực thể đã chọn qua đư
 
 # Đối Xứng
 
-Lệnh `mirror` tạo các bản sao được phản chiếu của các thực thể đã chọn qua trục hai điểm. Các bản gốc **luôn được giữ lại** — không giống như [Di Chuyển](./move) hay [Xoay](./rotate), Đối Xứng không bao giờ sửa đổi thực thể hiện có; nó chỉ thêm thực thể mới.
+Lệnh `mirror` tạo các bản sao được phản chiếu của các thực thể đã chọn qua trục hai điểm. Các bản gốc **luôn được giữ lại** — không giống như [Di Chuyển](../move/) hay [Xoay](../rotate/), Đối Xứng không bao giờ sửa đổi thực thể hiện có; nó chỉ thêm thực thể mới.
 
 ## Hai cách bắt đầu
 

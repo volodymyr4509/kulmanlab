@@ -41,6 +41,6 @@ Dla tego polecenia nie ma skrótów klawiaturowych. Zamiast tego użyj kółka m
 
 | Polecenie | Co robi |
 |-----------|---------|
-| [Pomniejsz](./zoom-out) | Dzieli powiększenie o 1,5× na krok |
-| [Dopasuj](./fit) | Resetuje powiększenie, aby pokazać wszystkie elementy |
-| [Panoramuj](./pan) | Przesuwa widok bez powiększania |
+| [Pomniejsz](../zoom-out/) | Dzieli powiększenie o 1,5× na krok |
+| [Dopasuj](../fit/) | Resetuje powiększenie, aby pokazać wszystkie elementy |
+| [Panoramuj](../pan/) | Przesuwa widok bez powiększania |

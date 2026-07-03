@@ -81,13 +81,13 @@ Uchwyty głównej i pobocznej osi są niezależne — możesz zmienić kształt 
 
 | Polecenie | Co dzieje się z elipsą |
 |-----------|-----------------------|
-| [Przesuń](./move) | Translacja środka; obie osie bez zmian |
-| [Kopiuj](./copy) | Tworzy identyczną elipsę w nowym środku |
-| [Obróć](./rotate) | Obraca pozycję środka i wektor głównej osi o ten sam kąt |
-| [Odbij](./mirror) | Odbija środek i przelicza kierunek głównej osi przez oś odbicia |
-| [Skaluj](./scale) | Skaluje pozycję środka i mnoży obie długości półosi przez współczynnik |
-| [Odsunięcie](./offset) | Tworzy współśrodkową elipsę odsuniętą na zewnątrz lub do wewnątrz o stałą odległość |
-| [Usuń](./delete) | Usuwa elipsę |
+| [Przesuń](../move/) | Translacja środka; obie osie bez zmian |
+| [Kopiuj](../copy/) | Tworzy identyczną elipsę w nowym środku |
+| [Obróć](../rotate/) | Obraca pozycję środka i wektor głównej osi o ten sam kąt |
+| [Odbij](../mirror/) | Odbija środek i przelicza kierunek głównej osi przez oś odbicia |
+| [Skaluj](../scale/) | Skaluje pozycję środka i mnoży obie długości półosi przez współczynnik |
+| [Odsunięcie](../offset/) | Tworzy współśrodkową elipsę odsuniętą na zewnątrz lub do wewnątrz o stałą odległość |
+| [Usuń](../delete/) | Usuwa elipsę |
 
 ## Właściwości
 

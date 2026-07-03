@@ -41,15 +41,15 @@ Ketika Anda membuka KulmanLab CAD, aplikasi secara otomatis memuat **file yang p
 
 Tidak ada batas tetap pada jumlah gambar yang dapat Anda simpan, tetapi penyimpanan browser terbatas. Jika Anda melihat peringatan penyimpanan, hapus file lama dari panel Files.
 
-Untuk menghapus semua gambar yang tersimpan sekaligus, gunakan perintah [WipeStorage](./wipestorage).
+Untuk menghapus semua gambar yang tersimpan sekaligus, gunakan perintah [WipeStorage](../wipestorage/).
 
 ## Nama file dan versioning
 
-Setiap file memiliki cap waktu dalam namanya (mis. `myplan_May22_14:30:00.dxf`). Cap waktu ini ditambahkan secara otomatis ketika Anda [mengimpor](./import) file, memastikan bahwa mengimpor ulang file sumber yang sama membuat entri baru alih-alih menimpa versi sebelumnya.
+Setiap file memiliki cap waktu dalam namanya (mis. `myplan_May22_14:30:00.dxf`). Cap waktu ini ditambahkan secara otomatis ketika Anda [mengimpor](../import/) file, memastikan bahwa mengimpor ulang file sumber yang sama membuat entri baru alih-alih menimpa versi sebelumnya.
 
 ## Perintah terkait
 
-- [Import](./import) — muat gambar dari sistem file Anda ke penyimpanan browser
-- [Export](./export) — unduh gambar ke sistem file Anda
-- [New File](./new-file) — mulai gambar kosong (juga disimpan secara otomatis)
-- [WipeStorage](./wipestorage) — hapus semua file yang tersimpan dari penyimpanan browser
+- [Import](../import/) — muat gambar dari sistem file Anda ke penyimpanan browser
+- [Export](../export/) — unduh gambar ke sistem file Anda
+- [New File](../new-file/) — mulai gambar kosong (juga disimpan secara otomatis)
+- [WipeStorage](../wipestorage/) — hapus semua file yang tersimpan dari penyimpanan browser

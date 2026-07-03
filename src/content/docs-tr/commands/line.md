@@ -7,7 +7,7 @@ keywords: [CAD line komutu, düz çizgi çiz CAD, segmentleri zincirle, çizgiyi
 
 # Line
 
-`line` komutu, DXF modelinde ayrı `LINE` nesneleri olarak saklanan ayrı düz çizgi segmentleri çizer. Her segmentten sonra komut aktif kalır ve uç noktayı yeni başlangıç noktası olarak yeniden kullanır, böylece bir seferde bir segment oluşturarak bağlantılı yollar oluşturabilirsiniz. [Polyline](./polyline) komutunun aksine, zincirlenen çizgiler bağımsız nesneler olarak kalır — her biri komşularını etkilemeden kırpılabilir, uzatılabilir veya silinebilir.
+`line` komutu, DXF modelinde ayrı `LINE` nesneleri olarak saklanan ayrı düz çizgi segmentleri çizer. Her segmentten sonra komut aktif kalır ve uç noktayı yeni başlangıç noktası olarak yeniden kullanır, böylece bir seferde bir segment oluşturarak bağlantılı yollar oluşturabilirsiniz. [Polyline](../polyline/) komutunun aksine, zincirlenen çizgiler bağımsız nesneler olarak kalır — her biri komşularını etkilemeden kırpılabilir, uzatılabilir veya silinebilir.
 
 ## Çizgi Çizimi
 
@@ -74,7 +74,7 @@ Seçili çizgi üç tutamaç gösterir:
 | **Orta** | Çizginin merkezi | Tüm çizgi için **Move**'u etkinleştirir |
 | **Bitiş** | İkinci uç nokta | Sürükleyerek taşıyın — başlangıç sabit kalır |
 
-Bir uç noktayı uzatmak hiçbir zaman diğerini etkilemez. Bu, [Polyline](./polyline) tutamaç düzenlemesinden farklıdır; orada bir köşeyi taşımak tüm yolun şeklini değiştirir.
+Bir uç noktayı uzatmak hiçbir zaman diğerini etkilemez. Bu, [Polyline](../polyline/) tutamaç düzenlemesinden farklıdır; orada bir köşeyi taşımak tüm yolun şeklini değiştirir.
 
 ## Çizgi Seçimi
 
@@ -86,19 +86,19 @@ Bir uç noktayı uzatmak hiçbir zaman diğerini etkilemez. Bu, [Polyline](./pol
 
 ## Desteklenen Düzenleme Komutları
 
-Çizgiler, [Trim](./trim) ve [Extend](./extend) işlemlerinin uygulandığı **tek** nesnedir. Tüm standart dönüşüm komutları da geçerlidir:
+Çizgiler, [Trim](../trim/) ve [Extend](../extend/) işlemlerinin uygulandığı **tek** nesnedir. Tüm standart dönüşüm komutları da geçerlidir:
 
 | Komut | Çizgiye ne olur |
 |-------|----------------|
-| [Move](./move) | Her iki uç noktayı eşit kaymaya taşır |
-| [Copy](./copy) | Yeni konumda özdeş çizgi oluşturur |
-| [Rotate](./rotate) | Her iki uç noktayı seçilen temel nokta etrafında döndürür |
-| [Mirror](./mirror) | Her iki uç noktayı ayna ekseni boyunca yansıtır |
-| [Scale](./scale) | Her iki uç noktayı temel noktadan eşit ölçekler |
-| [Offset](./offset) | Sabit dik mesafede paralel çizgi oluşturur |
-| [Trim](./trim) | Çizgiyi kesişimlerde kırpar — **yalnızca çizgiler** |
-| [Extend](./extend) | En yakın uç noktayı sınıra uzatır — **yalnızca çizgiler** |
-| [Delete](./delete) | Çizgiyi çizimden siler |
+| [Move](../move/) | Her iki uç noktayı eşit kaymaya taşır |
+| [Copy](../copy/) | Yeni konumda özdeş çizgi oluşturur |
+| [Rotate](../rotate/) | Her iki uç noktayı seçilen temel nokta etrafında döndürür |
+| [Mirror](../mirror/) | Her iki uç noktayı ayna ekseni boyunca yansıtır |
+| [Scale](../scale/) | Her iki uç noktayı temel noktadan eşit ölçekler |
+| [Offset](../offset/) | Sabit dik mesafede paralel çizgi oluşturur |
+| [Trim](../trim/) | Çizgiyi kesişimlerde kırpar — **yalnızca çizgiler** |
+| [Extend](../extend/) | En yakın uç noktayı sınıra uzatır — **yalnızca çizgiler** |
+| [Delete](../delete/) | Çizgiyi çizimden siler |
 
 ## Özellikler
 

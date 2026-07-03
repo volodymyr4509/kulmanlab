@@ -7,7 +7,7 @@ keywords: [layer isolate, congela layer CAD, isola layer kulmanlab, gestione lay
 
 # LayerIsolate
 
-Il comando `LayerIsolate` congela ogni layer **tranne** quelli appartenenti agli oggetti selezionati. Usalo per concentrarti rapidamente su geometria specifica senza nascondere o eliminare nulla in modo permanente — scongela con [LayerUnfreezeAll](./layer-unfreeze-all) quando hai finito.
+Il comando `LayerIsolate` congela ogni layer **tranne** quelli appartenenti agli oggetti selezionati. Usalo per concentrarti rapidamente su geometria specifica senza nascondere o eliminare nulla in modo permanente — scongela con [LayerUnfreezeAll](../layer-unfreeze-all/) quando hai finito.
 
 ## Due modi per iniziare
 
@@ -39,4 +39,4 @@ Il comando `LayerIsolate` congela ogni layer **tranne** quelli appartenenti agli
 
 ## Annullare l'isolamento
 
-Esegui [LayerUnfreezeAll](./layer-unfreeze-all) per ripristinare tutti i layer a visibile in un solo passaggio.
+Esegui [LayerUnfreezeAll](../layer-unfreeze-all/) per ripristinare tutti i layer a visibile in un solo passaggio.

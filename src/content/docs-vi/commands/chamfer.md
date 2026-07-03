@@ -6,7 +6,7 @@ keywords: [lệnh chamfer CAD, vát góc đường thẳng CAD, cắt góc chéo
 
 # Chamfer
 
-Lệnh `chamfer` vát góc thẳng chéo giữa hai thực thể [Line](./line) hoặc [Polyline](./polyline). Bạn chỉ định khoảng cắt lùi dọc theo mỗi thực thể (d1 và d2), và lệnh cắt bớt cả hai thực thể đến những điểm đó rồi chèn một đường kết nối giữa chúng.
+Lệnh `chamfer` vát góc thẳng chéo giữa hai thực thể [Line](../line/) hoặc [Polyline](../polyline/). Bạn chỉ định khoảng cắt lùi dọc theo mỗi thực thể (d1 và d2), và lệnh cắt bớt cả hai thực thể đến những điểm đó rồi chèn một đường kết nối giữa chúng.
 
 Sử dụng khoảng cách bằng nhau tạo ra đường cắt 45° đối xứng; khoảng cách khác nhau tạo ra vát góc không đối xứng.
 

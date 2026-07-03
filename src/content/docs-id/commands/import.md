@@ -46,13 +46,13 @@ Entitas yang menggunakan tipe DXF yang tidak didukung dilewati secara diam-diam 
 
 ## Penamaan file dan penyimpanan
 
-Ketika Anda mengimpor file, cap waktu ditambahkan ke nama file (misalnya `myplan_May22_14:30:00.dxf`). Ini memungkinkan Anda menyimpan beberapa versi gambar yang sama dalam [Recent Files](./files) tanpa tabrakan nama. Jika nama file sudah berisi cap waktu, itu digunakan apa adanya.
+Ketika Anda mengimpor file, cap waktu ditambahkan ke nama file (misalnya `myplan_May22_14:30:00.dxf`). Ini memungkinkan Anda menyimpan beberapa versi gambar yang sama dalam [Recent Files](../files/) tanpa tabrakan nama. Jika nama file sudah berisi cap waktu, itu digunakan apa adanya.
 
-Gambar secara otomatis disimpan ke penyimpanan browser (IndexedDB) setelah diimpor, sehingga muncul di panel [Files](./files) dan bertahan setelah halaman dimuat ulang.
+Gambar secara otomatis disimpan ke penyimpanan browser (IndexedDB) setelah diimpor, sehingga muncul di panel [Files](../files/) dan bertahan setelah halaman dimuat ulang.
 
 ## Apa yang terjadi pada gambar saat ini
 
-Mengimpor menggantikan kanvas saat ini. Tidak ada penggabungan atau penambahan. Jika Anda memiliki perubahan yang belum disimpan, [ekspor](./export) gambar saat ini terlebih dahulu.
+Mengimpor menggantikan kanvas saat ini. Tidak ada penggabungan atau penambahan. Jika Anda memiliki perubahan yang belum disimpan, [ekspor](../export/) gambar saat ini terlebih dahulu.
 
 ## Saat startup
 
@@ -68,6 +68,6 @@ KulmanLab secara otomatis membuka kembali file yang terakhir diedit ketika halam
 
 ## Perintah terkait
 
-- [Export](./export) — unduh gambar saat ini sebagai DXF atau JSON
-- [Files](./files) — jelajahi dan pulihkan gambar yang tersimpan di browser
-- [New File](./new-file) — mulai gambar kosong
+- [Export](../export/) — unduh gambar saat ini sebagai DXF atau JSON
+- [Files](../files/) — jelajahi dan pulihkan gambar yang tersimpan di browser
+- [New File](../new-file/) — mulai gambar kosong

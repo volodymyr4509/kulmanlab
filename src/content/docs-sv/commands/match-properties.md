@@ -59,5 +59,5 @@ Geometri (koordinater, radie, längd, etc.) påverkas aldrig.
 
 ## Relaterade kommandon
 
-- [LayerMatch](./layer-match) — flytta markerade entiteter till samma lager som en källa (endast lageregenskap)
-- [LayerMakeCurrent](./layer-make-current) — sätt det aktuella ritlagret från en klickad entitet
+- [LayerMatch](../layer-match/) — flytta markerade entiteter till samma lager som en källa (endast lageregenskap)
+- [LayerMakeCurrent](../layer-make-current/) — sätt det aktuella ritlagret från en klickad entitet

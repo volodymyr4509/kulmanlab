@@ -7,7 +7,7 @@ keywords: [perintah persegi panjang CAD, menggambar persegi panjang CAD, persegi
 
 # Rectangle
 
-Perintah `rectangle` menggambar persegi panjang sejajar sumbu yang ditentukan oleh dua klik sudut yang berlawanan. Hasilnya disimpan sebagai **`LWPOLYLINE` tertutup** dengan empat vertex — satu di setiap sudut. Tidak ada tipe entitas persegi panjang khusus: setelah dibuat, bentuk berperilaku persis seperti [Polyline](./polyline) lainnya dan setiap edit polyline berlaku padanya.
+Perintah `rectangle` menggambar persegi panjang sejajar sumbu yang ditentukan oleh dua klik sudut yang berlawanan. Hasilnya disimpan sebagai **`LWPOLYLINE` tertutup** dengan empat vertex — satu di setiap sudut. Tidak ada tipe entitas persegi panjang khusus: setelah dibuat, bentuk berperilaku persis seperti [Polyline](../polyline/) lainnya dan setiap edit polyline berlaku padanya.
 
 ## Menggambar persegi panjang
 
@@ -68,17 +68,17 @@ Karena persegi panjang adalah polyline, seleksi bekerja dengan cara yang sama:
 
 ## Perintah edit yang didukung
 
-Semua perintah edit polyline berlaku. Trim dan Extend hanya untuk [Line](./line) dan tidak berfungsi pada persegi panjang:
+Semua perintah edit polyline berlaku. Trim dan Extend hanya untuk [Line](../line/) dan tidak berfungsi pada persegi panjang:
 
 | Perintah | Apa yang terjadi pada persegi panjang |
 |---------|-------------------------------|
-| [Move](./move) | Menerjemahkan keempat vertex dengan perpindahan yang sama |
-| [Copy](./copy) | Membuat persegi panjang identik di posisi baru |
-| [Rotate](./rotate) | Memutar keempat vertex di sekitar titik dasar yang dipilih |
-| [Mirror](./mirror) | Memantulkan keempat vertex melintasi sumbu cermin |
-| [Scale](./scale) | Menskalakan keempat vertex secara seragam dari titik dasar |
-| [Offset](./offset) | Membuat persegi panjang paralel (masuk atau keluar) pada jarak tetap |
-| [Delete](./delete) | Menghapus persegi panjang dari gambar |
+| [Move](../move/) | Menerjemahkan keempat vertex dengan perpindahan yang sama |
+| [Copy](../copy/) | Membuat persegi panjang identik di posisi baru |
+| [Rotate](../rotate/) | Memutar keempat vertex di sekitar titik dasar yang dipilih |
+| [Mirror](../mirror/) | Memantulkan keempat vertex melintasi sumbu cermin |
+| [Scale](../scale/) | Menskalakan keempat vertex secara seragam dari titik dasar |
+| [Offset](../offset/) | Membuat persegi panjang paralel (masuk atau keluar) pada jarak tetap |
+| [Delete](../delete/) | Menghapus persegi panjang dari gambar |
 
 ## Properti
 

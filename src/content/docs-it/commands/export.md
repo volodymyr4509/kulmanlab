@@ -45,7 +45,7 @@ Sono incluse solo le entità geometriche:
 - Linee, cerchi, archi, ellissi, polilinee (esportate come `LWPOLYLINE`), spline, testo
 - Definizioni layer e tabelle tipo linea
 
-**Non inclusi nel DXF:** entità quota e multilinee guida. Queste usano strutture dati specifiche di KulmanLab che non possono essere rappresentate fedelmente in DXF standard. Se il tuo disegno ha annotazioni, usa JSON o [Print](./print) per catturarle visivamente.
+**Non inclusi nel DXF:** entità quota e multilinee guida. Queste usano strutture dati specifiche di KulmanLab che non possono essere rappresentate fedelmente in DXF standard. Se il tuo disegno ha annotazioni, usa JSON o [Print](../print/) per catturarle visivamente.
 
 ## Nome del file esportato
 
@@ -60,10 +60,10 @@ Il file scaricato prende il nome dal file di disegno corrente (es. `miopiano_Mag
 | Preserva layer e tipi linea | Sì | No (renderizzato piatto) |
 | Cattura quote e leader | Solo JSON | Sì |
 
-Usa **Export** quando hai bisogno di un file modificabile. Usa [Print](./print) quando hai bisogno di un'istantanea visiva.
+Usa **Export** quando hai bisogno di un file modificabile. Usa [Print](../print/) quando hai bisogno di un'istantanea visiva.
 
 ## Comandi correlati
 
-- [Import](./import) — apri un file DXF o JSON
-- [Print](./print) — esporta il canvas come immagine PNG, JPEG, WebP o PDF
-- [Files](./files) — sfoglia i disegni salvati nell'archivio del browser
+- [Import](../import/) — apri un file DXF o JSON
+- [Print](../print/) — esporta il canvas come immagine PNG, JPEG, WebP o PDF
+- [Files](../files/) — sfoglia i disegni salvati nell'archivio del browser

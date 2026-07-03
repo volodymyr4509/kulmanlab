@@ -7,7 +7,7 @@ keywords: [comando fillet CAD, arrotonda angolo CAD, raccordo arco, arco tangent
 
 # Fillet
 
-Il comando `fillet` arrotonda l'angolo tra due entità [Line](./line) inserendo un arco tangente di un dato raggio e tagliando ciascuna linea fino al punto in cui l'arco inizia. Il risultato è un angolo raccordato che collega entrambe le linee.
+Il comando `fillet` arrotonda l'angolo tra due entità [Line](../line/) inserendo un arco tangente di un dato raggio e tagliando ciascuna linea fino al punto in cui l'arco inizia. Il risultato è un angolo raccordato che collega entrambe le linee.
 
 Fillet funziona solo sulle entità **Line**.
 

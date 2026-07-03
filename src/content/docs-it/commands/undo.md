@@ -36,4 +36,4 @@ Ogni mutazione di entità viene registrata: disegnare nuove entità, eliminare e
 | Disponibile quando | Esiste almeno un'azione registrata | Almeno un Undo è stato eseguito e nessuna nuova azione è stata effettuata |
 | Cancellato da | Nulla — la cronologia si accumula fino al limite dei 20 step | Qualsiasi nuova azione di disegno |
 
-Usa [Redo](./redo) per riapplicare un'azione annullata. I pulsanti della barra degli strumenti sono disattivati quando la direzione rispettiva non è disponibile.
+Usa [Redo](../redo/) per riapplicare un'azione annullata. I pulsanti della barra degli strumenti sono disattivati quando la direzione rispettiva non è disponibile.

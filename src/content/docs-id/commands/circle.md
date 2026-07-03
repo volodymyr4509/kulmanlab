@@ -85,13 +85,13 @@ Keempat grip kardinal berperilaku identik — radius baru sama dengan jarak dari
 
 | Perintah | Apa yang terjadi pada lingkaran |
 |---------|---------------------------|
-| [Move](./move) | Menerjemahkan pusat; radius tidak berubah |
-| [Copy](./copy) | Membuat lingkaran identik di pusat baru |
-| [Rotate](./rotate) | Memutar pusat di sekitar titik dasar; radius tidak berubah |
-| [Mirror](./mirror) | Memantulkan pusat melintasi sumbu cermin; radius tidak berubah |
-| [Scale](./scale) | Menskalakan posisi pusat dan mengalikan radius dengan faktor skala |
-| [Offset](./offset) | Membuat lingkaran konsentris pada radius yang lebih besar atau lebih kecil |
-| [Delete](./delete) | Menghapus lingkaran |
+| [Move](../move/) | Menerjemahkan pusat; radius tidak berubah |
+| [Copy](../copy/) | Membuat lingkaran identik di pusat baru |
+| [Rotate](../rotate/) | Memutar pusat di sekitar titik dasar; radius tidak berubah |
+| [Mirror](../mirror/) | Memantulkan pusat melintasi sumbu cermin; radius tidak berubah |
+| [Scale](../scale/) | Menskalakan posisi pusat dan mengalikan radius dengan faktor skala |
+| [Offset](../offset/) | Membuat lingkaran konsentris pada radius yang lebih besar atau lebih kecil |
+| [Delete](../delete/) | Menghapus lingkaran |
 
 ## Properti
 
@@ -120,7 +120,7 @@ Keempat grip kardinal berperilaku identik — radius baru sama dengan jarak dari
 | Cara menggambar | Pusat + radius | Tiga titik pada kurva |
 | Input yang diketik | Nilai radius | Tidak ada — hanya klik |
 | Grip ubah ukuran | 4 titik kardinal | Titik awal dan akhir (sudut + radius) |
-| Dimensi | Radius: [Dim Radius](./dim-radius) · Diameter: [Dim Diameter](./dim-diameter) | [Dim Radius](./dim-radius) |
+| Dimensi | Radius: [Dim Radius](../dim-radius/) · Diameter: [Dim Diameter](../dim-diameter/) | [Dim Radius](../dim-radius/) |
 | Terbaik untuk | Lubang penuh, lingkaran baut, fitur bulat | Fillet, kurva sebagian, jalur melengkung |
 
 ## DXF — entitas CIRCLE

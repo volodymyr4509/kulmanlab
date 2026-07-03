@@ -7,7 +7,7 @@ keywords: [CAD Rectangle-Befehl, Rechteck zeichnen CAD, achsenparalleles Rechtec
 
 # Rectangle
 
-Der `rectangle`-Befehl zeichnet ein achsenparalleles Rechteck, das durch zwei gegenüberliegende Eckenklicks definiert wird. Das Ergebnis wird als **geschlossene `LWPOLYLINE`** mit vier Eckpunkten gespeichert — je einem an jeder Ecke. Es gibt keinen dedizierten Rechteck-Entitätstyp: Nach der Erstellung verhält sich die Form genau wie jede andere [Polylinie](./polyline), und alle Polylinie-Bearbeitungsbefehle sind anwendbar.
+Der `rectangle`-Befehl zeichnet ein achsenparalleles Rechteck, das durch zwei gegenüberliegende Eckenklicks definiert wird. Das Ergebnis wird als **geschlossene `LWPOLYLINE`** mit vier Eckpunkten gespeichert — je einem an jeder Ecke. Es gibt keinen dedizierten Rechteck-Entitätstyp: Nach der Erstellung verhält sich die Form genau wie jede andere [Polylinie](../polyline/), und alle Polylinie-Bearbeitungsbefehle sind anwendbar.
 
 ## Ein Rechteck zeichnen
 
@@ -68,17 +68,17 @@ Da das Rechteck eine Polylinie ist, funktioniert die Auswahl auf die gleiche Wei
 
 ## Unterstützte Bearbeitungsbefehle
 
-Alle Polylinie-Bearbeitungsbefehle sind anwendbar. Trim und Extend sind nur für [Line](./line) verfügbar und funktionieren nicht bei Rechtecken:
+Alle Polylinie-Bearbeitungsbefehle sind anwendbar. Trim und Extend sind nur für [Line](../line/) verfügbar und funktionieren nicht bei Rechtecken:
 
 | Befehl | Auswirkung auf das Rechteck |
 |--------|-----------------------------|
-| [Move](./move) | Verschiebt alle vier Eckpunkte um denselben Versatz |
-| [Copy](./copy) | Erstellt ein identisches Rechteck an einer neuen Position |
-| [Rotate](./rotate) | Dreht alle vier Eckpunkte um den gewählten Basispunkt |
-| [Mirror](./mirror) | Spiegelt alle vier Eckpunkte an der Spiegelachse |
-| [Scale](./scale) | Skaliert alle vier Eckpunkte gleichmäßig vom Basispunkt aus |
-| [Offset](./offset) | Erstellt ein paralleles (nach innen oder außen versetztes) Rechteck in einem festen Abstand |
-| [Delete](./delete) | Entfernt das Rechteck aus der Zeichnung |
+| [Move](../move/) | Verschiebt alle vier Eckpunkte um denselben Versatz |
+| [Copy](../copy/) | Erstellt ein identisches Rechteck an einer neuen Position |
+| [Rotate](../rotate/) | Dreht alle vier Eckpunkte um den gewählten Basispunkt |
+| [Mirror](../mirror/) | Spiegelt alle vier Eckpunkte an der Spiegelachse |
+| [Scale](../scale/) | Skaliert alle vier Eckpunkte gleichmäßig vom Basispunkt aus |
+| [Offset](../offset/) | Erstellt ein paralleles (nach innen oder außen versetztes) Rechteck in einem festen Abstand |
+| [Delete](../delete/) | Entfernt das Rechteck aus der Zeichnung |
 
 ## Eigenschaften
 

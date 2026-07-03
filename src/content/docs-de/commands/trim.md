@@ -7,9 +7,9 @@ keywords: [CAD Trim-Befehl, Linie kürzen CAD, Linie am Schnittpunkt schneiden, 
 
 # Trim
 
-Der `trim`-Befehl entfernt den Abschnitt einer [Line](./line), der zwischen zwei benachbarten Schnittpunkten liegt, und teilt die Linie in ein oder zwei kürzere Segmente. Das zu schneidende Segment wird durch die Cursorposition bestimmt — fahren Sie mit dem Cursor über den Teil, den Sie entfernen möchten, und klicken Sie zum Kürzen.
+Der `trim`-Befehl entfernt den Abschnitt einer [Line](../line/), der zwischen zwei benachbarten Schnittpunkten liegt, und teilt die Linie in ein oder zwei kürzere Segmente. Das zu schneidende Segment wird durch die Cursorposition bestimmt — fahren Sie mit dem Cursor über den Teil, den Sie entfernen möchten, und klicken Sie zum Kürzen.
 
-Trim funktioniert **nur bei Line-Entitäten**. Für Bögen, Kreise, Polylinien und andere Entitätstypen verwenden Sie stattdessen [Delete](./delete) oder die Griffpunkt-Bearbeitung.
+Trim funktioniert **nur bei Line-Entitäten**. Für Bögen, Kreise, Polylinien und andere Entitätstypen verwenden Sie stattdessen [Delete](../delete/) oder die Griffpunkt-Bearbeitung.
 
 ## Eine Linie kürzen
 

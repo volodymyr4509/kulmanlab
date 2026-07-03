@@ -7,7 +7,7 @@ keywords: [perintah garis CAD, menggambar garis lurus CAD, merangkai segmen gari
 
 # Line
 
-Perintah `line` menggambar segmen garis lurus individual yang disimpan sebagai entitas `LINE` terpisah dalam model DXF. Setelah setiap segmen, perintah tetap aktif dan menggunakan titik akhir sebagai titik awal baru, sehingga Anda dapat membangun jalur yang terhubung satu segmen per waktu. Tidak seperti [Polyline](./polyline), garis yang dirangkai tetap menjadi entitas independen — masing-masing dapat dipotong, diperpanjang, atau dihapus tanpa memengaruhi tetangganya.
+Perintah `line` menggambar segmen garis lurus individual yang disimpan sebagai entitas `LINE` terpisah dalam model DXF. Setelah setiap segmen, perintah tetap aktif dan menggunakan titik akhir sebagai titik awal baru, sehingga Anda dapat membangun jalur yang terhubung satu segmen per waktu. Tidak seperti [Polyline](../polyline/), garis yang dirangkai tetap menjadi entitas independen — masing-masing dapat dipotong, diperpanjang, atau dihapus tanpa memengaruhi tetangganya.
 
 ## Menggambar garis
 
@@ -74,7 +74,7 @@ Sebuah garis yang dipilih menampilkan tiga grip:
 | **Midpoint** | Titik tengah garis | Mengaktifkan **Move** untuk seluruh garis |
 | **End** | Titik akhir kedua | Seret untuk memposisikan ulang — awal tetap diam |
 
-Meregangkan satu titik akhir tidak pernah memengaruhi titik akhir lainnya. Ini berbeda dari pengeditan grip [Polyline](./polyline), di mana memindahkan vertex membentuk ulang seluruh jalur.
+Meregangkan satu titik akhir tidak pernah memengaruhi titik akhir lainnya. Ini berbeda dari pengeditan grip [Polyline](../polyline/), di mana memindahkan vertex membentuk ulang seluruh jalur.
 
 ## Memilih garis
 
@@ -86,19 +86,19 @@ Meregangkan satu titik akhir tidak pernah memengaruhi titik akhir lainnya. Ini b
 
 ## Perintah edit yang didukung
 
-Garis adalah entitas **satu-satunya** yang dapat dioperasikan oleh [Trim](./trim) dan [Extend](./extend). Semua perintah transformasi standar juga berlaku:
+Garis adalah entitas **satu-satunya** yang dapat dioperasikan oleh [Trim](../trim/) dan [Extend](../extend/). Semua perintah transformasi standar juga berlaku:
 
 | Perintah | Apa yang terjadi pada garis |
 |---------|------------------------|
-| [Move](./move) | Menerjemahkan kedua titik akhir dengan perpindahan yang sama |
-| [Copy](./copy) | Membuat garis identik di posisi baru |
-| [Rotate](./rotate) | Memutar kedua titik akhir di sekitar titik dasar yang dipilih |
-| [Mirror](./mirror) | Memantulkan kedua titik akhir melintasi sumbu cermin |
-| [Scale](./scale) | Menskalakan kedua titik akhir secara seragam dari titik dasar |
-| [Offset](./offset) | Membuat garis paralel pada jarak tegak lurus yang tetap |
-| [Trim](./trim) | Memotong garis pada perpotongan — **hanya garis** |
-| [Extend](./extend) | Meregangkan titik akhir terdekat untuk mencapai batas — **hanya garis** |
-| [Delete](./delete) | Menghapus garis dari gambar |
+| [Move](../move/) | Menerjemahkan kedua titik akhir dengan perpindahan yang sama |
+| [Copy](../copy/) | Membuat garis identik di posisi baru |
+| [Rotate](../rotate/) | Memutar kedua titik akhir di sekitar titik dasar yang dipilih |
+| [Mirror](../mirror/) | Memantulkan kedua titik akhir melintasi sumbu cermin |
+| [Scale](../scale/) | Menskalakan kedua titik akhir secara seragam dari titik dasar |
+| [Offset](../offset/) | Membuat garis paralel pada jarak tegak lurus yang tetap |
+| [Trim](../trim/) | Memotong garis pada perpotongan — **hanya garis** |
+| [Extend](../extend/) | Meregangkan titik akhir terdekat untuk mencapai batas — **hanya garis** |
+| [Delete](../delete/) | Menghapus garis dari gambar |
 
 ## Properti
 

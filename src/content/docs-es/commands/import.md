@@ -46,13 +46,13 @@ Las entidades que usan tipos DXF no admitidos se omiten silenciosamente — el r
 
 ## Nombre y almacenamiento de archivos
 
-Cuando importas un archivo, se añade una marca de tiempo al nombre del archivo (por ejemplo, `myplan_May22_14:30:00.dxf`). Esto permite mantener múltiples versiones del mismo dibujo en [Archivos Recientes](./files) sin conflictos de nombre. Si el nombre del archivo ya contiene una marca de tiempo, se usa tal cual.
+Cuando importas un archivo, se añade una marca de tiempo al nombre del archivo (por ejemplo, `myplan_May22_14:30:00.dxf`). Esto permite mantener múltiples versiones del mismo dibujo en [Archivos Recientes](../files/) sin conflictos de nombre. Si el nombre del archivo ya contiene una marca de tiempo, se usa tal cual.
 
-El dibujo se guarda automáticamente en el almacenamiento del navegador (IndexedDB) tras la importación, por lo que aparece en el panel [Files](./files) y sobrevive a las recargas de página.
+El dibujo se guarda automáticamente en el almacenamiento del navegador (IndexedDB) tras la importación, por lo que aparece en el panel [Files](../files/) y sobrevive a las recargas de página.
 
 ## Qué ocurre con el dibujo actual
 
-Importar reemplaza el lienzo actual. No hay fusión ni añadido. Si tienes cambios sin guardar, [exporta](./export) el dibujo actual primero.
+Importar reemplaza el lienzo actual. No hay fusión ni añadido. Si tienes cambios sin guardar, [exporta](../export/) el dibujo actual primero.
 
 ## Al iniciar
 
@@ -68,6 +68,6 @@ KulmanLab reabre automáticamente el archivo editado más recientemente cuando s
 
 ## Comandos relacionados
 
-- [Export](./export) — descargar el dibujo actual como DXF o JSON
-- [Files](./files) — explorar y restaurar dibujos guardados en el navegador
-- [New File](./new-file) — iniciar un dibujo en blanco
+- [Export](../export/) — descargar el dibujo actual como DXF o JSON
+- [Files](../files/) — explorar y restaurar dibujos guardados en el navegador
+- [New File](../new-file/) — iniciar un dibujo en blanco

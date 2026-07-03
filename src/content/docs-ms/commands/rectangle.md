@@ -7,7 +7,7 @@ keywords: [arahan segi empat tepat CAD, lukis segi empat tepat CAD, segi empat t
 
 # Rectangle
 
-Arahan `rectangle` melukis segi empat tepat sejajar paksi yang ditakrifkan oleh dua klik sudut bertentangan. Hasilnya disimpan sebagai **`LWPOLYLINE` tertutup** dengan empat bucu — satu di setiap sudut. Tiada jenis entiti segi empat tepat khusus: selepas dicipta, bentuk berkelakuan persis seperti mana-mana [Polyline](./polyline) lain dan setiap edit poliline terpakai padanya.
+Arahan `rectangle` melukis segi empat tepat sejajar paksi yang ditakrifkan oleh dua klik sudut bertentangan. Hasilnya disimpan sebagai **`LWPOLYLINE` tertutup** dengan empat bucu — satu di setiap sudut. Tiada jenis entiti segi empat tepat khusus: selepas dicipta, bentuk berkelakuan persis seperti mana-mana [Polyline](../polyline/) lain dan setiap edit poliline terpakai padanya.
 
 ## Melukis segi empat tepat
 
@@ -68,17 +68,17 @@ Kerana segi empat tepat adalah poliline, pemilihan berfungsi dengan cara yang sa
 
 ## Arahan edit yang disokong
 
-Semua arahan edit poliline terpakai. Trim dan Extend adalah untuk [Line](./line) sahaja dan tidak berfungsi pada segi empat tepat:
+Semua arahan edit poliline terpakai. Trim dan Extend adalah untuk [Line](../line/) sahaja dan tidak berfungsi pada segi empat tepat:
 
 | Arahan | Apa yang berlaku pada segi empat tepat |
 |--------|-----------------------------------------|
-| [Move](./move) | Menterjemahkan keempat-empat bucu dengan anjakan yang sama |
-| [Copy](./copy) | Mencipta segi empat tepat yang sama di kedudukan baru |
-| [Rotate](./rotate) | Memutar keempat-empat bucu di sekitar titik asas yang dipilih |
-| [Mirror](./mirror) | Mencerminkan keempat-empat bucu merentasi paksi cermin |
-| [Scale](./scale) | Mengskala keempat-empat bucu secara seragam dari titik asas |
-| [Offset](./offset) | Mencipta segi empat tepat selari (masuk atau keluar) pada jarak tetap |
-| [Delete](./delete) | Membuang segi empat tepat daripada lukisan |
+| [Move](../move/) | Menterjemahkan keempat-empat bucu dengan anjakan yang sama |
+| [Copy](../copy/) | Mencipta segi empat tepat yang sama di kedudukan baru |
+| [Rotate](../rotate/) | Memutar keempat-empat bucu di sekitar titik asas yang dipilih |
+| [Mirror](../mirror/) | Mencerminkan keempat-empat bucu merentasi paksi cermin |
+| [Scale](../scale/) | Mengskala keempat-empat bucu secara seragam dari titik asas |
+| [Offset](../offset/) | Mencipta segi empat tepat selari (masuk atau keluar) pada jarak tetap |
+| [Delete](../delete/) | Membuang segi empat tepat daripada lukisan |
 
 ## Sifat
 

@@ -14,10 +14,10 @@ const byCode = Object.fromEntries(languages.map(l => [l.code, l]));
 function hrefFor(code: string): string {
   const prefix = code === 'en' ? '' : `/${code}`;
   if (docsSlug !== undefined) {
-    return docsSlug ? `${prefix}/docs/${docsSlug}` : `${prefix}/docs` || '/docs';
+    return docsSlug ? `${prefix}/docs/${docsSlug}/` : `${prefix}/docs/` || '/docs/';
   }
-  if (page === 'faq') return `${prefix}/faq` || '/faq';
-  if (page === 'changelog') return `${prefix}/changelog` || '/changelog';
+  if (page === 'faq') return `${prefix}/faq/` || '/faq/';
+  if (page === 'changelog') return `${prefix}/changelog/` || '/changelog/';
   return prefix || '/';
 }
 
@@ -95,7 +95,7 @@ const groups: { label: string; codes: string[] }[] = [
       return lang === 'en' ? bare : `/${lang}${bare}`;
     }
     // Standard locale pages (home, faq, changelog)
-    const suffix = page === 'home' ? '/' : `/${page}`;
+    const suffix = page === 'home' ? '/' : `/${page}/`;
     return lang === 'en' ? suffix : `/${lang}${suffix}`;
   }
 
@@ -117,7 +117,7 @@ const groups: { label: string; codes: string[] }[] = [
     // Update locale-aware nav links
     document.querySelectorAll<HTMLAnchorElement>('[data-locale]').forEach(el => {
       const p = el.dataset.locale as string;
-      const suffix = p === 'home' ? '/' : `/${p}`;
+      const suffix = p === 'home' ? '/' : `/${p}/`;
       el.href = lang === 'en' ? suffix : `/${lang}${suffix}`;
     });
     document.documentElement.lang = lang;

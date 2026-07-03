@@ -7,9 +7,9 @@ keywords: [arahan potong CAD, potong garis CAD, potong garis persimpangan, prato
 
 # Trim
 
-Arahan `trim` membuang bahagian [Line](./line) yang terletak antara dua titik persimpangan bersebelahan, membelah garis menjadi satu atau dua segmen lebih pendek. Segmen yang dipotong ditentukan oleh kedudukan kursor — tuding ke bahagian yang ingin anda buang dan klik untuk memotongnya.
+Arahan `trim` membuang bahagian [Line](../line/) yang terletak antara dua titik persimpangan bersebelahan, membelah garis menjadi satu atau dua segmen lebih pendek. Segmen yang dipotong ditentukan oleh kedudukan kursor — tuding ke bahagian yang ingin anda buang dan klik untuk memotongnya.
 
-Trim hanya berfungsi pada **entiti Line**. Untuk lengkok, bulatan, poliline, dan jenis entiti lain gunakan [Delete](./delete) atau pengeditan grip sebagai gantinya.
+Trim hanya berfungsi pada **entiti Line**. Untuk lengkok, bulatan, poliline, dan jenis entiti lain gunakan [Delete](../delete/) atau pengeditan grip sebagai gantinya.
 
 ## Memotong garis
 

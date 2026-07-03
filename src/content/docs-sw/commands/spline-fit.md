@@ -7,7 +7,7 @@ keywords: [CAD spline fit command, interpolating spline CAD, spline through poin
 
 # Spline Fit
 
-Amri ya `splinefit` inachora spline ya cubic inayopita kwenye kila nukta unayobonyeza — mkunjo wa ulingano. Tofauti na [Spline CV](./spline-cv), ambapo mkunjo tu huvutwa kuelekea ncha za udhibiti, hapa mkunjo unalazimishwa kugusa kila kuratibu iliyobonyezwa hasa. Ndani kihariri hufanya ulingano wa ncha za udhibiti kufikia hili, na CVs hizo huhifadhiwa pamoja na nukta za ulingano katika faili ya DXF.
+Amri ya `splinefit` inachora spline ya cubic inayopita kwenye kila nukta unayobonyeza — mkunjo wa ulingano. Tofauti na [Spline CV](../spline-cv/), ambapo mkunjo tu huvutwa kuelekea ncha za udhibiti, hapa mkunjo unalazimishwa kugusa kila kuratibu iliyobonyezwa hasa. Ndani kihariri hufanya ulingano wa ncha za udhibiti kufikia hili, na CVs hizo huhifadhiwa pamoja na nukta za ulingano katika faili ya DXF.
 
 ## Kuchora spline kupitia nukta za ulingano
 
@@ -51,7 +51,7 @@ Spline ya ulingano iliyochaguliwa inaonyesha kishiko kimoja kwa kila nukta ya ul
 
 Kuburuta kishiko kimoja kunalingania upya mkunjo wote, si sehemu za karibu tu. Hii inatofautiana na uhariri wa kushika wa polyline, ambapo kuhamisha ncha kunabadilisha sehemu mbili za karibu tu.
 
-Hakuna kishiko cha "hamisha spline nzima". Kutafsiri spline nzima, tumia amri ya [Move](./move).
+Hakuna kishiko cha "hamisha spline nzima". Kutafsiri spline nzima, tumia amri ya [Move](../move/).
 
 ## Kuchagua spline za ulingano
 
@@ -65,12 +65,12 @@ Hakuna kishiko cha "hamisha spline nzima". Kutafsiri spline nzima, tumia amri ya
 
 | Amri | Kinachotokea kwa spline |
 |------|------------------------|
-| [Move](./move) | Hutafsiri nukta zote za ulingano na CVs zilizohesabiwa upya kwa msogeo uleule |
-| [Copy](./copy) | Huunda spline inayofanana katika nafasi mpya |
-| [Rotate](./rotate) | Huzungusha nukta zote za ulingano karibu na nukta ya msingi iliyochaguliwa |
-| [Mirror](./mirror) | Huakisi nukta zote za ulingano kwenye mhimili wa kioo |
-| [Scale](./scale) | Hupima nukta zote za ulingano kwa usawa kutoka kwa nukta ya msingi |
-| [Delete](./delete) | Huondoa spline |
+| [Move](../move/) | Hutafsiri nukta zote za ulingano na CVs zilizohesabiwa upya kwa msogeo uleule |
+| [Copy](../copy/) | Huunda spline inayofanana katika nafasi mpya |
+| [Rotate](../rotate/) | Huzungusha nukta zote za ulingano karibu na nukta ya msingi iliyochaguliwa |
+| [Mirror](../mirror/) | Huakisi nukta zote za ulingano kwenye mhimili wa kioo |
+| [Scale](../scale/) | Hupima nukta zote za ulingano kwa usawa kutoka kwa nukta ya msingi |
+| [Delete](../delete/) | Huondoa spline |
 
 Splines hazisaidii **Offset**, **Trim**, au **Extend**.
 

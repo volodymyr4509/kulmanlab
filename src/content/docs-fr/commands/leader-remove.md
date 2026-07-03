@@ -47,5 +47,5 @@ La commande mesure la distance perpendiculaire du curseur aux segments de ligne 
 
 | Commande | Action |
 |----------|--------|
-| [Leader](./leader) | Créer un nouveau multirépère depuis zéro |
-| [Leader+](./leader-add) | Ajouter un bras à un multirépère existant |
+| [Leader](../leader/) | Créer un nouveau multirépère depuis zéro |
+| [Leader+](../leader-add/) | Ajouter un bras à un multirépère existant |

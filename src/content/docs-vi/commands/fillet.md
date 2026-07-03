@@ -5,7 +5,7 @@ description: Lệnh Fillet kết nối hai thực thể Đường thẳng bằng
 
 # Bo Góc
 
-Lệnh `fillet` làm tròn góc giữa hai thực thể [Đường thẳng](./line) bằng cách chèn một cung tiếp tuyến có bán kính nhất định và cắt ngắn mỗi đường thẳng trở lại điểm nơi cung bắt đầu. Kết quả là một góc mượt mà, có bán kính nối cả hai đường thẳng.
+Lệnh `fillet` làm tròn góc giữa hai thực thể [Đường thẳng](../line/) bằng cách chèn một cung tiếp tuyến có bán kính nhất định và cắt ngắn mỗi đường thẳng trở lại điểm nơi cung bắt đầu. Kết quả là một góc mượt mà, có bán kính nối cả hai đường thẳng.
 
 Bo góc chỉ hoạt động trên **thực thể Đường thẳng**.
 

@@ -81,13 +81,13 @@ Haupt- und Nebenhachsen-Griffpunkte sind unabhängig — die Ellipse kann ohne e
 
 | Befehl | Was mit der Ellipse passiert |
 |--------|------------------------------|
-| [Move](./move) | Verschiebt den Mittelpunkt; beide Achsen unverändert |
-| [Copy](./copy) | Erstellt eine identische Ellipse an einem neuen Mittelpunkt |
-| [Rotate](./rotate) | Dreht die Mittelpunktposition und den Hauptachsenvektor um den gleichen Winkel |
-| [Mirror](./mirror) | Spiegelt den Mittelpunkt und berechnet die Hauptachsenrichtung über die Spiegelachse neu |
-| [Scale](./scale) | Skaliert die Mittelpunktposition und multipliziert beide Halbachsenlängen mit dem Faktor |
-| [Offset](./offset) | Erstellt eine konzentrische Ellipse, die nach außen oder innen um einen festen Abstand versetzt ist |
-| [Delete](./delete) | Entfernt die Ellipse |
+| [Move](../move/) | Verschiebt den Mittelpunkt; beide Achsen unverändert |
+| [Copy](../copy/) | Erstellt eine identische Ellipse an einem neuen Mittelpunkt |
+| [Rotate](../rotate/) | Dreht die Mittelpunktposition und den Hauptachsenvektor um den gleichen Winkel |
+| [Mirror](../mirror/) | Spiegelt den Mittelpunkt und berechnet die Hauptachsenrichtung über die Spiegelachse neu |
+| [Scale](../scale/) | Skaliert die Mittelpunktposition und multipliziert beide Halbachsenlängen mit dem Faktor |
+| [Offset](../offset/) | Erstellt eine konzentrische Ellipse, die nach außen oder innen um einen festen Abstand versetzt ist |
+| [Delete](../delete/) | Entfernt die Ellipse |
 
 ## Eigenschaften
 

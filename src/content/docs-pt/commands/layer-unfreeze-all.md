@@ -15,7 +15,7 @@ Digite `LayerUnfreezeAll` no terminal ou clique no botão **Unfreeze All** na ba
 
 ## Quando usar
 
-Tipicamente usado após [LayerIsolate](./layer-isolate) para restaurar todas as camadas ao estado visível normal.
+Tipicamente usado após [LayerIsolate](../layer-isolate/) para restaurar todas as camadas ao estado visível normal.
 
 ## Detalhes de comportamento
 

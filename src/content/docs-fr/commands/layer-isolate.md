@@ -7,7 +7,7 @@ keywords: [isoler calque, geler calques CAO, isoler calque kulmanlab, gestion ca
 
 # LayerIsolate
 
-La commande `LayerIsolate` gèle tous les calques **sauf** ceux qui appartiennent aux objets sélectionnés. Utilisez-la pour vous concentrer rapidement sur une géométrie spécifique sans rien masquer ni supprimer définitivement — dégelez avec [LayerUnfreezeAll](./layer-unfreeze-all) quand vous avez terminé.
+La commande `LayerIsolate` gèle tous les calques **sauf** ceux qui appartiennent aux objets sélectionnés. Utilisez-la pour vous concentrer rapidement sur une géométrie spécifique sans rien masquer ni supprimer définitivement — dégelez avec [LayerUnfreezeAll](../layer-unfreeze-all/) quand vous avez terminé.
 
 ## Deux façons de la démarrer
 
@@ -39,4 +39,4 @@ La commande `LayerIsolate` gèle tous les calques **sauf** ceux qui appartiennen
 
 ## Annuler l'isolation
 
-Exécutez [LayerUnfreezeAll](./layer-unfreeze-all) pour restaurer tous les calques à l'état visible en une seule étape.
+Exécutez [LayerUnfreezeAll](../layer-unfreeze-all/) pour restaurer tous les calques à l'état visible en une seule étape.

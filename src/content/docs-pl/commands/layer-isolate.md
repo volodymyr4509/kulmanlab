@@ -7,7 +7,7 @@ keywords: [izolacja warstwy, zamrażanie warstw CAD, izolacja warstwy kulmanlab,
 
 # IzolujWarstwę
 
-Polecenie `LayerIsolate` zamraża każdą warstwę **oprócz** tych należących do zaznaczonych obiektów. Użyj go, aby szybko skupić się na konkretnej geometrii bez trwałego ukrywania lub usuwania czegokolwiek — odmroź za pomocą [OdmrózWszystkie](./layer-unfreeze-all) po zakończeniu.
+Polecenie `LayerIsolate` zamraża każdą warstwę **oprócz** tych należących do zaznaczonych obiektów. Użyj go, aby szybko skupić się na konkretnej geometrii bez trwałego ukrywania lub usuwania czegokolwiek — odmroź za pomocą [OdmrózWszystkie](../layer-unfreeze-all/) po zakończeniu.
 
 ## Dwa sposoby uruchamiania
 
@@ -39,4 +39,4 @@ Polecenie `LayerIsolate` zamraża każdą warstwę **oprócz** tych należących
 
 ## Cofanie izolacji
 
-Uruchom [OdmrózWszystkie](./layer-unfreeze-all), aby jednym krokiem przywrócić wszystkie warstwy do widoczności.
+Uruchom [OdmrózWszystkie](../layer-unfreeze-all/), aby jednym krokiem przywrócić wszystkie warstwy do widoczności.

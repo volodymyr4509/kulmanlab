@@ -7,7 +7,7 @@ keywords: [CAD radius dimension, dimradius, daire yarıçapını işaretle, yay 
 
 # Dimension Radius
 
-`dimradius` komutu, bir yay veya daire üzerine yarıçap ölçüsü yerleştirir. Ölçü çizgisi merkezden imleç yönünde çevredeki bir noktaya uzanır ve `R <değer>` olarak etiketlenir. Tam çapı ölçmek için [Dimension Diameter](./dim-diameter) kullanın.
+`dimradius` komutu, bir yay veya daire üzerine yarıçap ölçüsü yerleştirir. Ölçü çizgisi merkezden imleç yönünde çevredeki bir noktaya uzanır ve `R <değer>` olarak etiketlenir. Tam çapı ölçmek için [Dimension Diameter](../dim-diameter/) kullanın.
 
 ## Yarıçap Ölçüsünün Anatomisi
 

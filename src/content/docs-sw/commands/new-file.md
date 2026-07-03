@@ -21,22 +21,22 @@ Faili iliyoundwa upya huanza na:
 - **Safu moja ya chaguo-msingi** iitwayo `0` yenye rangi nyeupe na aina ya mstari `Continuous`.
 - **Jina la faili lililozalishwa** katika muundo `kulman-Mon01_HH:MM:SS.dxf` (mfano `kulman-May22_14:30:00.dxf`).
 
-Faili huhifadhiwa kwenye hifadhi ya kivinjari kiotomatiki na inaonekana katika [Faili za Hivi Karibuni](./files).
+Faili huhifadhiwa kwenye hifadhi ya kivinjari kiotomatiki na inaonekana katika [Faili za Hivi Karibuni](../files/).
 
 ## Onyo — kazi ambayo haijahifadhiwa itapotea
 
-Kubonyeza **New File** hutupilia mbali vipengele vyote kwenye turubai ya sasa bila onyo. Kama unataka kuhifadhi mchoro wa sasa, [hamisha](./export) kwanza.
+Kubonyeza **New File** hutupilia mbali vipengele vyote kwenye turubai ya sasa bila onyo. Kama unataka kuhifadhi mchoro wa sasa, [hamisha](../export/) kwanza.
 
 ## Lini kutumia New File dhidi ya Import
 
 | Hali | Kitendo kinachopendekezwa |
 |------|--------------------------|
 | Kuanza mchoro kutoka mwanzo | **New File** |
-| Kufungua faili ya DXF au JSON iliyopo | [Import](./import) |
-| Kunakili mchoro kufanya kazi kwenye toleo | [Hamisha](./export) faili ya sasa, kisha [ingiza](./import) nakala |
+| Kufungua faili ya DXF au JSON iliyopo | [Import](../import/) |
+| Kunakili mchoro kufanya kazi kwenye toleo | [Hamisha](../export/) faili ya sasa, kisha [ingiza](../import/) nakala |
 
 ## Amri zinazohusiana
 
-- [Import](./import) — fungua mchoro wa DXF au JSON uliopo
-- [Export](./export) — pakua mchoro kabla ya kuanza upya
-- [Files](./files) — rejesha mchoro wa awali kutoka kwa hifadhi ya kivinjari
+- [Import](../import/) — fungua mchoro wa DXF au JSON uliopo
+- [Export](../export/) — pakua mchoro kabla ya kuanza upya
+- [Files](../files/) — rejesha mchoro wa awali kutoka kwa hifadhi ya kivinjari

@@ -7,7 +7,7 @@ keywords: [CAD zoom out, görünüm yakınlaştırmasını azalt, uzaklaştır k
 
 # Zoom Out
 
-`zoomout` komutu, mevcut yakınlaştırma seviyesini **1,5× böler** (~0,667 ile çarpmaya eşdeğer) ve görünüm penceresi orta noktasına ortalanarak hemen çıkar. [Zoom In](./zoom-in)'in tersidir.
+`zoomout` komutu, mevcut yakınlaştırma seviyesini **1,5× böler** (~0,667 ile çarpmaya eşdeğer) ve görünüm penceresi orta noktasına ortalanarak hemen çıkar. [Zoom In](../zoom-in/)'in tersidir.
 
 ## Uzaklaştırma
 
@@ -41,6 +41,6 @@ Bu komut için klavye kısayolu yoktur. Bunun yerine kaydırma tekerleğini kull
 
 | Komut | Ne yapar |
 |---------|-------------|
-| [Zoom In](./zoom-in) | Yakınlaştırmayı adım başına 1,5× ile çarpar |
-| [Fit](./fit) | Tüm nesneleri göstermek için yakınlaştırmayı sıfırlar |
-| [Pan](./pan) | Yakınlaştırmadan görünüm penceresini kaydırır |
+| [Zoom In](../zoom-in/) | Yakınlaştırmayı adım başına 1,5× ile çarpar |
+| [Fit](../fit/) | Tüm nesneleri göstermek için yakınlaştırmayı sıfırlar |
+| [Pan](../pan/) | Yakınlaştırmadan görünüm penceresini kaydırır |

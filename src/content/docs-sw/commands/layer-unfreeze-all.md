@@ -15,7 +15,7 @@ Andika `LayerUnfreezeAll` kwenye terminal au bonyeza kitufe cha **Unfreeze All**
 
 ## Wakati wa kutumia
 
-Kawaida hutumika baada ya [LayerIsolate](./layer-isolate) ili kurejesha safu zote hadi hali yao ya kawaida ya kuonekana.
+Kawaida hutumika baada ya [LayerIsolate](../layer-isolate/) ili kurejesha safu zote hadi hali yao ya kawaida ya kuonekana.
 
 ## Maelezo ya tabia
 

@@ -40,13 +40,13 @@ Một hình elip được chọn có năm điểm kéo:
 
 | Lệnh | Tác dụng với hình elip |
 |------|----------------------|
-| [Di Chuyển](./move) | Dịch chuyển tâm; cả hai trục không đổi |
-| [Sao Chép](./copy) | Tạo hình elip giống hệt tại tâm mới |
-| [Xoay](./rotate) | Xoay vị trí tâm và vector trục lớn theo cùng góc |
-| [Đối Xứng](./mirror) | Phản chiếu tâm và tính lại hướng trục lớn |
-| [Tỉ Lệ](./scale) | Chia tỉ lệ vị trí tâm và nhân cả hai bán trục |
-| [Offset](./offset) | Tạo hình elip đồng tâm lệch ra ngoài hoặc vào trong |
-| [Xóa](./delete) | Xóa hình elip |
+| [Di Chuyển](../move/) | Dịch chuyển tâm; cả hai trục không đổi |
+| [Sao Chép](../copy/) | Tạo hình elip giống hệt tại tâm mới |
+| [Xoay](../rotate/) | Xoay vị trí tâm và vector trục lớn theo cùng góc |
+| [Đối Xứng](../mirror/) | Phản chiếu tâm và tính lại hướng trục lớn |
+| [Tỉ Lệ](../scale/) | Chia tỉ lệ vị trí tâm và nhân cả hai bán trục |
+| [Offset](../offset/) | Tạo hình elip đồng tâm lệch ra ngoài hoặc vào trong |
+| [Xóa](../delete/) | Xóa hình elip |
 
 ## DXF — thực thể ELLIPSE
 

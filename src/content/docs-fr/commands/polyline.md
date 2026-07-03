@@ -7,9 +7,9 @@ keywords: [commande polyline CAO, tracer polyligne CAO, chemin multi-segments CA
 
 # Polyline
 
-La commande `polyline` trace un chemin connecté de n'importe quel nombre de segments droits, tous stockés comme une seule entité `LWPOLYLINE`. Parce que tout le chemin est un seul objet, le sélectionner sélectionne chaque segment à la fois — déplacez, faites pivoter ou mettez à l'échelle toute la forme en une seule opération. C'est la distinction clé avec les [Lines](./line) enchaînées, où chaque segment est une entité indépendante.
+La commande `polyline` trace un chemin connecté de n'importe quel nombre de segments droits, tous stockés comme une seule entité `LWPOLYLINE`. Parce que tout le chemin est un seul objet, le sélectionner sélectionne chaque segment à la fois — déplacez, faites pivoter ou mettez à l'échelle toute la forme en une seule opération. C'est la distinction clé avec les [Lines](../line/) enchaînées, où chaque segment est une entité indépendante.
 
-Les polylignes peuvent également être **fermées** : la commande [Rectangle](./rectangle) utilise la même entité `LWPOLYLINE` avec un indicateur de fermeture défini.
+Les polylignes peuvent également être **fermées** : la commande [Rectangle](../rectangle/) utilise la même entité `LWPOLYLINE` avec un indicateur de fermeture défini.
 
 ## Tracer une polyligne
 
@@ -39,7 +39,7 @@ Au lieu de cliquer, tapez une position exacte pour tout sommet :
 
 ## Verrouillage d'angle et longueur de segment exacte
 
-La même logique de verrouillage à 45° que la commande [Line](./line#angle-locking-and-exact-length-input) s'applique entre deux points consécutifs. Quand verrouillé sur un axe :
+La même logique de verrouillage à 45° que la commande [Line](../line/#angle-locking-and-exact-length-input) s'applique entre deux points consécutifs. Quand verrouillé sur un axe :
 
 | Touche | Action |
 |--------|--------|
@@ -70,9 +70,9 @@ Une polyligne sélectionnée affiche deux types de poignées :
 | **Sommet** | À chaque point placé | Faites glisser pour repositionner ce sommet ; tous les segments connectés s'étirent pour suivre |
 | **Milieu de segment** | Centre de chaque segment | Faites glisser pour translater **les deux** extrémités de ce segment ensemble, en conservant la longueur et l'angle du segment intact |
 
-La poignée de milieu de segment est propre aux polylignes — elle permet de faire glisser un segment individuel latéralement sans changer sa longueur. Sur une [Line](./line), la poignée de point médian active plutôt la commande Move pour l'entité entière.
+La poignée de milieu de segment est propre aux polylignes — elle permet de faire glisser un segment individuel latéralement sans changer sa longueur. Sur une [Line](../line/), la poignée de point médian active plutôt la commande Move pour l'entité entière.
 
-Il n'y a pas de poignée unique "déplacer toute la polyligne". Pour déplacer tout le chemin, utilisez la commande [Move](./move).
+Il n'y a pas de poignée unique "déplacer toute la polyligne". Pour déplacer tout le chemin, utilisez la commande [Move](../move/).
 
 ## Sélectionner des polylignes
 
@@ -86,17 +86,17 @@ Parce qu'une polyligne est une seule entité, une sélection par croisement qui 
 
 ## Commandes d'édition supportées
 
-Les polylignes supportent toutes les transformations générales et l'offset, mais **pas** trim ni extend (ce sont des fonctions [Line](./line) uniquement) :
+Les polylignes supportent toutes les transformations générales et l'offset, mais **pas** trim ni extend (ce sont des fonctions [Line](../line/) uniquement) :
 
 | Commande | Ce qui arrive à la polyligne |
 |----------|------------------------------|
-| [Move](./move) | Translate tous les sommets du même déplacement |
-| [Copy](./copy) | Crée une polyligne identique à une nouvelle position |
-| [Rotate](./rotate) | Fait pivoter tous les sommets autour du point de base choisi |
-| [Mirror](./mirror) | Symétrise tous les sommets par rapport à l'axe de symétrie |
-| [Scale](./scale) | Met à l'échelle tous les sommets uniformément depuis le point de base |
-| [Offset](./offset) | Crée une polyligne parallèle à une distance perpendiculaire fixe |
-| [Delete](./delete) | Supprime la polyligne du dessin |
+| [Move](../move/) | Translate tous les sommets du même déplacement |
+| [Copy](../copy/) | Crée une polyligne identique à une nouvelle position |
+| [Rotate](../rotate/) | Fait pivoter tous les sommets autour du point de base choisi |
+| [Mirror](../mirror/) | Symétrise tous les sommets par rapport à l'axe de symétrie |
+| [Scale](../scale/) | Met à l'échelle tous les sommets uniformément depuis le point de base |
+| [Offset](../offset/) | Crée une polyligne parallèle à une distance perpendiculaire fixe |
+| [Delete](../delete/) | Supprime la polyligne du dessin |
 
 ## Propriétés
 
@@ -132,6 +132,6 @@ Quand une polyligne est sélectionnée, le panneau des propriétés affiche :
 
 ## DXF — entité LWPOLYLINE
 
-Les polylignes sont enregistrées comme entités `LWPOLYLINE` dans le fichier DXF. Toutes les propriétés — coordonnées des sommets, indicateur de fermeture, couleur, calque, type de ligne, échelle de type de ligne et épaisseur — font l'aller-retour sans perte. Les rectangles dessinés avec la commande [Rectangle](./rectangle) sont également enregistrés comme `LWPOLYLINE` (fermé, quatre sommets) et sont indiscernables au niveau DXF.
+Les polylignes sont enregistrées comme entités `LWPOLYLINE` dans le fichier DXF. Toutes les propriétés — coordonnées des sommets, indicateur de fermeture, couleur, calque, type de ligne, échelle de type de ligne et épaisseur — font l'aller-retour sans perte. Les rectangles dessinés avec la commande [Rectangle](../rectangle/) sont également enregistrés comme `LWPOLYLINE` (fermé, quatre sommets) et sont indiscernables au niveau DXF.
 
 Les entités `LWPOLYLINE` de toute application compatible DXF (LibreCAD, FreeCAD, etc.) sont relues comme des polylignes entièrement éditables dans l'éditeur.

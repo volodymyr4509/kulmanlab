@@ -7,7 +7,7 @@ keywords: [CAD quota raggio, dimradius, annota raggio cerchio, quota raggio arco
 
 # Dimension Radius
 
-Il comando `dimradius` posiziona una quota raggio su un arco o cerchio. La linea di quota va dal centro a un punto sulla circonferenza nella direzione del cursore, etichettata `R <valore>`. Per quotare un diametro completo invece, usa [Dimension Diameter](./dim-diameter).
+Il comando `dimradius` posiziona una quota raggio su un arco o cerchio. La linea di quota va dal centro a un punto sulla circonferenza nella direzione del cursore, etichettata `R <valore>`. Per quotare un diametro completo invece, usa [Dimension Diameter](../dim-diameter/).
 
 ## Anatomia di una quota raggio
 

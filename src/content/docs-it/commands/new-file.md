@@ -21,22 +21,22 @@ Un file appena creato inizia con:
 - **Un livello predefinito** chiamato `0` con colore bianco e tipo di linea `Continuous`.
 - Un **nome file generato** nel formato `kulman-Lun01_HH:MM:SS.dxf` (es. `kulman-Mag22_14:30:00.dxf`).
 
-Il file viene salvato automaticamente nell'archivio del browser e appare in [File Recenti](./files).
+Il file viene salvato automaticamente nell'archivio del browser e appare in [File Recenti](../files/).
 
 ## Attenzione — il lavoro non salvato viene eliminato
 
-Cliccare **Nuovo File** elimina tutte le entità sul canvas corrente senza avviso. Se vuoi mantenere il disegno corrente, [esportalo](./export) prima.
+Cliccare **Nuovo File** elimina tutte le entità sul canvas corrente senza avviso. Se vuoi mantenere il disegno corrente, [esportalo](../export/) prima.
 
 ## Quando usare Nuovo File vs Importa
 
 | Situazione | Azione consigliata |
 |------------|-------------------|
 | Iniziare un disegno da zero | **Nuovo File** |
-| Aprire un file DXF o JSON esistente | [Importa](./import) |
-| Copiare un disegno per lavorare su una variante | [Esporta](./export) il file corrente, poi [Importa](./import) la copia |
+| Aprire un file DXF o JSON esistente | [Importa](../import/) |
+| Copiare un disegno per lavorare su una variante | [Esporta](../export/) il file corrente, poi [Importa](../import/) la copia |
 
 ## Comandi correlati
 
-- [Importa](./import) — apri un disegno DXF o JSON esistente
-- [Esporta](./export) — scarica il disegno prima di iniziarne uno nuovo
-- [Files](./files) — ripristina un disegno precedente dall'archivio del browser
+- [Importa](../import/) — apri un disegno DXF o JSON esistente
+- [Esporta](../export/) — scarica il disegno prima di iniziarne uno nuovo
+- [Files](../files/) — ripristina un disegno precedente dall'archivio del browser

@@ -7,9 +7,9 @@ keywords: [commande trim CAO, raccorder ligne CAO, couper ligne intersection, ap
 
 # Trim
 
-La commande `trim` supprime la portion d'une [Line](./line) qui se trouve entre deux points d'intersection adjacents, divisant la ligne en un ou deux segments plus courts. Le segment à couper est déterminé par la position du curseur — survolez la partie que vous voulez supprimer et cliquez pour la raccorder.
+La commande `trim` supprime la portion d'une [Line](../line/) qui se trouve entre deux points d'intersection adjacents, divisant la ligne en un ou deux segments plus courts. Le segment à couper est déterminé par la position du curseur — survolez la partie que vous voulez supprimer et cliquez pour la raccorder.
 
-Trim fonctionne sur les **entités Line uniquement**. Pour les arcs, cercles, polylignes et autres types d'entités, utilisez [Delete](./delete) ou l'édition par poignées.
+Trim fonctionne sur les **entités Line uniquement**. Pour les arcs, cercles, polylignes et autres types d'entités, utilisez [Delete](../delete/) ou l'édition par poignées.
 
 ## Raccorder une ligne
 

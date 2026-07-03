@@ -7,9 +7,9 @@ keywords: [CAD polyline command, draw polyline CAD, multi-segment path CAD, LWPO
 
 # Polyline
 
-The `polyline` command draws a connected path of any number of straight segments, all stored as a single `LWPOLYLINE` entity. Because the entire path is one object, selecting it selects every segment at once — move, rotate, or scale the whole shape in a single operation. This is the key distinction from chained [Lines](./line), where each segment is an independent entity.
+The `polyline` command draws a connected path of any number of straight segments, all stored as a single `LWPOLYLINE` entity. Because the entire path is one object, selecting it selects every segment at once — move, rotate, or scale the whole shape in a single operation. This is the key distinction from chained [Lines](../line/), where each segment is an independent entity.
 
-Polylines can also be **closed**: the [Rectangle](./rectangle) command uses the same `LWPOLYLINE` entity with a close flag set.
+Polylines can also be **closed**: the [Rectangle](../rectangle/) command uses the same `LWPOLYLINE` entity with a close flag set.
 
 ## Drawing a polyline
 
@@ -39,7 +39,7 @@ Instead of clicking, type an exact position for any vertex:
 
 ## Angle locking and exact segment length
 
-The same 45° snap logic as the [Line](./line#angle-locking-and-exact-length-input) command applies between any two consecutive points. When locked to an axis:
+The same 45° snap logic as the [Line](../line/#angle-locking-and-exact-length-input) command applies between any two consecutive points. When locked to an axis:
 
 | Key | Action |
 |-----|--------|
@@ -70,9 +70,9 @@ A selected polyline shows two types of grips:
 | **Vertex** | At each placed point | Drag to reposition that vertex; all connected segments stretch to follow |
 | **Segment midpoint** | Centre of each segment | Drag to translate **both** endpoints of that segment together, keeping the segment length and angle intact |
 
-The segment-midpoint grip is unique to polylines — it lets you slide an individual segment sideways without changing its length. On a [Line](./line), the midpoint grip instead activates the Move command for the whole entity.
+The segment-midpoint grip is unique to polylines — it lets you slide an individual segment sideways without changing its length. On a [Line](../line/), the midpoint grip instead activates the Move command for the whole entity.
 
-There is no single "move the whole polyline" grip. To move the entire path use the [Move](./move) command.
+There is no single "move the whole polyline" grip. To move the entire path use the [Move](../move/) command.
 
 ## Selecting polylines
 
@@ -86,17 +86,17 @@ Because a polyline is one entity, a crossing selection that touches any segment 
 
 ## Supported edit commands
 
-Polylines support all general transformations and offset, but **not** trim or extend (those are [Line](./line)-only):
+Polylines support all general transformations and offset, but **not** trim or extend (those are [Line](../line/)-only):
 
 | Command | What happens to the polyline |
 |---------|------------------------------|
-| [Move](./move) | Translates all vertices by the same displacement |
-| [Copy](./copy) | Creates an identical polyline at a new position |
-| [Rotate](./rotate) | Rotates all vertices around the chosen base point |
-| [Mirror](./mirror) | Reflects all vertices across the mirror axis |
-| [Scale](./scale) | Scales all vertices uniformly from the base point |
-| [Offset](./offset) | Creates a parallel polyline at a fixed perpendicular distance |
-| [Delete](./delete) | Removes the polyline from the drawing |
+| [Move](../move/) | Translates all vertices by the same displacement |
+| [Copy](../copy/) | Creates an identical polyline at a new position |
+| [Rotate](../rotate/) | Rotates all vertices around the chosen base point |
+| [Mirror](../mirror/) | Reflects all vertices across the mirror axis |
+| [Scale](../scale/) | Scales all vertices uniformly from the base point |
+| [Offset](../offset/) | Creates a parallel polyline at a fixed perpendicular distance |
+| [Delete](../delete/) | Removes the polyline from the drawing |
 
 ## Properties
 
@@ -132,6 +132,6 @@ When a polyline is selected the properties panel shows:
 
 ## DXF — LWPOLYLINE entity
 
-Polylines are saved as `LWPOLYLINE` entities in the DXF file. All properties — vertex coordinates, closed flag, color, layer, linetype, linetype scale, and thickness — round-trip without loss. Rectangles drawn with the [Rectangle](./rectangle) command also save as `LWPOLYLINE` (closed, four vertices) and are indistinguishable at the DXF level.
+Polylines are saved as `LWPOLYLINE` entities in the DXF file. All properties — vertex coordinates, closed flag, color, layer, linetype, linetype scale, and thickness — round-trip without loss. Rectangles drawn with the [Rectangle](../rectangle/) command also save as `LWPOLYLINE` (closed, four vertices) and are indistinguishable at the DXF level.
 
 `LWPOLYLINE` entities from any DXF-compatible application (LibreCAD, FreeCAD, etc.) are read back as fully editable polylines in the editor.

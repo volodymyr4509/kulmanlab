@@ -64,7 +64,7 @@ Vedi [Editor di Testo — simple mode](../interface/text-editor#simple-mode) per
 
 ## Comandi correlati
 
-- [Dimension Linear](./dim-linear) — quota orizzontale o verticale
-- [Dimension Aligned](./dim-aligned) — quota allineata a due punti
-- [Dimension Radius](./dim-radius) — quota raggio per archi e cerchi
-- [Dimension Diameter](./dim-diameter) — quota diametro per cerchi
+- [Dimension Linear](../dim-linear/) — quota orizzontale o verticale
+- [Dimension Aligned](../dim-aligned/) — quota allineata a due punti
+- [Dimension Radius](../dim-radius/) — quota raggio per archi e cerchi
+- [Dimension Diameter](../dim-diameter/) — quota diametro per cerchi

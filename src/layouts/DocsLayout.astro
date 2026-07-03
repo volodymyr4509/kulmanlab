@@ -15,7 +15,7 @@ interface Props {
 
 const { title, description = '', keywords = [], entrySlug = '', lang = 'en' } = Astro.props;
 const base = lang === 'en' ? '/docs' : `/${lang}/docs`;
-const canonical = `https://kulmanlab.com${base}${entrySlug ? '/' + entrySlug : ''}`;
+const canonical = `https://kulmanlab.com${base}${entrySlug ? '/' + entrySlug : ''}/`;
 const currentPath = Astro.url.pathname.replace(/\/$/, '');
 
 const s = lang === 'de' ? {
@@ -455,111 +455,111 @@ const s = lang === 'de' ? {
 const sidebar = [
   {
     title: s.overview,
-    items: [{ label: s.ref, href: base }],
+    items: [{ label: s.ref, href: `${base}/` }],
   },
   {
     title: s.shapes,
     items: [
-      { label: 'Line', href: `${base}/commands/line` },
-      { label: 'Polyline', href: `${base}/commands/polyline` },
-      { label: 'Rectangle', href: `${base}/commands/rectangle` },
-      { label: 'Circle', href: `${base}/commands/circle` },
-      { label: 'Arc', href: `${base}/commands/arc` },
-      { label: 'Ellipse', href: `${base}/commands/ellipse` },
-      { label: 'Text', href: `${base}/commands/text` },
-      { label: 'Spline CV', href: `${base}/commands/spline-cv` },
-      { label: 'Spline Fit', href: `${base}/commands/spline-fit` },
+      { label: 'Line', href: `${base}/commands/line/` },
+      { label: 'Polyline', href: `${base}/commands/polyline/` },
+      { label: 'Rectangle', href: `${base}/commands/rectangle/` },
+      { label: 'Circle', href: `${base}/commands/circle/` },
+      { label: 'Arc', href: `${base}/commands/arc/` },
+      { label: 'Ellipse', href: `${base}/commands/ellipse/` },
+      { label: 'Text', href: `${base}/commands/text/` },
+      { label: 'Spline CV', href: `${base}/commands/spline-cv/` },
+      { label: 'Spline Fit', href: `${base}/commands/spline-fit/` },
     ],
   },
   {
     title: s.edit,
     items: [
-      { label: 'Move', href: `${base}/commands/move` },
-      { label: 'Copy', href: `${base}/commands/copy` },
-      { label: 'Rotate', href: `${base}/commands/rotate` },
-      { label: 'Mirror', href: `${base}/commands/mirror` },
-      { label: 'Scale', href: `${base}/commands/scale` },
-      { label: 'Delete', href: `${base}/commands/delete` },
-      { label: 'Trim', href: `${base}/commands/trim` },
-      { label: 'Extend', href: `${base}/commands/extend` },
-      { label: 'Offset', href: `${base}/commands/offset` },
-      { label: 'Fillet', href: `${base}/commands/fillet` },
-      { label: 'Chamfer', href: `${base}/commands/chamfer` },
-      { label: 'Undo', href: `${base}/commands/undo` },
-      { label: 'Redo', href: `${base}/commands/redo` },
+      { label: 'Move', href: `${base}/commands/move/` },
+      { label: 'Copy', href: `${base}/commands/copy/` },
+      { label: 'Rotate', href: `${base}/commands/rotate/` },
+      { label: 'Mirror', href: `${base}/commands/mirror/` },
+      { label: 'Scale', href: `${base}/commands/scale/` },
+      { label: 'Delete', href: `${base}/commands/delete/` },
+      { label: 'Trim', href: `${base}/commands/trim/` },
+      { label: 'Extend', href: `${base}/commands/extend/` },
+      { label: 'Offset', href: `${base}/commands/offset/` },
+      { label: 'Fillet', href: `${base}/commands/fillet/` },
+      { label: 'Chamfer', href: `${base}/commands/chamfer/` },
+      { label: 'Undo', href: `${base}/commands/undo/` },
+      { label: 'Redo', href: `${base}/commands/redo/` },
     ],
   },
   {
     title: s.markup,
     items: [
-      { label: 'Leader', href: `${base}/commands/leader` },
-      { label: 'Leader+', href: `${base}/commands/leader-add` },
-      { label: 'Leader−', href: `${base}/commands/leader-remove` },
-      { label: 'Dim Linear', href: `${base}/commands/dim-linear` },
-      { label: 'Dim Aligned', href: `${base}/commands/dim-aligned` },
-      { label: 'Dim Continue', href: `${base}/commands/dim-continue` },
-      { label: 'Dim Radius', href: `${base}/commands/dim-radius` },
-      { label: 'Dim Diameter', href: `${base}/commands/dim-diameter` },
-      { label: 'Dim Angular', href: `${base}/commands/dim-angular` },
+      { label: 'Leader', href: `${base}/commands/leader/` },
+      { label: 'Leader+', href: `${base}/commands/leader-add/` },
+      { label: 'Leader−', href: `${base}/commands/leader-remove/` },
+      { label: 'Dim Linear', href: `${base}/commands/dim-linear/` },
+      { label: 'Dim Aligned', href: `${base}/commands/dim-aligned/` },
+      { label: 'Dim Continue', href: `${base}/commands/dim-continue/` },
+      { label: 'Dim Radius', href: `${base}/commands/dim-radius/` },
+      { label: 'Dim Diameter', href: `${base}/commands/dim-diameter/` },
+      { label: 'Dim Angular', href: `${base}/commands/dim-angular/` },
     ],
   },
   {
     title: s.layer,
     items: [
-      { label: 'LayerMakeCurrent', href: `${base}/commands/layer-make-current` },
-      { label: 'LayerMatch', href: `${base}/commands/layer-match` },
-      { label: 'LayerIsolate', href: `${base}/commands/layer-isolate` },
-      { label: 'LayerUnfreezeAll', href: `${base}/commands/layer-unfreeze-all` },
+      { label: 'LayerMakeCurrent', href: `${base}/commands/layer-make-current/` },
+      { label: 'LayerMatch', href: `${base}/commands/layer-match/` },
+      { label: 'LayerIsolate', href: `${base}/commands/layer-isolate/` },
+      { label: 'LayerUnfreezeAll', href: `${base}/commands/layer-unfreeze-all/` },
     ],
   },
   {
     title: s.layouts,
     items: [
-      { label: 'ViewportRectangle', href: `${base}/commands/viewport-rectangle` },
-      { label: 'ViewportCopy', href: `${base}/commands/viewport-copy` },
-      { label: 'PageManager', href: `${base}/commands/page-manager` },
+      { label: 'ViewportRectangle', href: `${base}/commands/viewport-rectangle/` },
+      { label: 'ViewportCopy', href: `${base}/commands/viewport-copy/` },
+      { label: 'PageManager', href: `${base}/commands/page-manager/` },
     ],
   },
   {
     title: s.navigate,
     items: [
-      { label: 'Pan', href: `${base}/commands/pan` },
-      { label: s.zoomIn, href: `${base}/commands/zoom-in` },
-      { label: s.zoomOut, href: `${base}/commands/zoom-out` },
-      { label: 'Fit', href: `${base}/commands/fit` },
+      { label: 'Pan', href: `${base}/commands/pan/` },
+      { label: s.zoomIn, href: `${base}/commands/zoom-in/` },
+      { label: s.zoomOut, href: `${base}/commands/zoom-out/` },
+      { label: 'Fit', href: `${base}/commands/fit/` },
     ],
   },
   {
     title: s.measure,
     items: [
-      { label: 'Distance', href: `${base}/commands/distance` },
-      { label: 'Angle', href: `${base}/commands/angle` },
+      { label: 'Distance', href: `${base}/commands/distance/` },
+      { label: 'Angle', href: `${base}/commands/angle/` },
     ],
   },
   {
     title: s.style,
     items: [
-      { label: s.matchProp, href: `${base}/commands/match-properties` },
+      { label: s.matchProp, href: `${base}/commands/match-properties/` },
     ],
   },
   {
     title: s.file,
     items: [
-      { label: 'Import', href: `${base}/commands/import` },
-      { label: s.newFile, href: `${base}/commands/new-file` },
-      { label: 'Files', href: `${base}/commands/files` },
-      { label: 'Print', href: `${base}/commands/print` },
-      { label: 'Export', href: `${base}/commands/export` },
-      { label: 'WipeStorage', href: `${base}/commands/wipestorage` },
+      { label: 'Import', href: `${base}/commands/import/` },
+      { label: s.newFile, href: `${base}/commands/new-file/` },
+      { label: 'Files', href: `${base}/commands/files/` },
+      { label: 'Print', href: `${base}/commands/print/` },
+      { label: 'Export', href: `${base}/commands/export/` },
+      { label: 'WipeStorage', href: `${base}/commands/wipestorage/` },
     ],
   },
   {
     title: s.iface,
     items: [
-      { label: s.gridSnap, href: `${base}/interface/grid-snap` },
-      { label: 'Linetype', href: `${base}/interface/linetype` },
-      { label: 'Lineweight', href: `${base}/interface/lineweight` },
-      { label: 'Text Editor', href: `${base}/interface/text-editor` },
+      { label: s.gridSnap, href: `${base}/interface/grid-snap/` },
+      { label: 'Linetype', href: `${base}/interface/linetype/` },
+      { label: 'Lineweight', href: `${base}/interface/lineweight/` },
+      { label: 'Text Editor', href: `${base}/interface/text-editor/` },
     ],
   },
 ];
@@ -584,31 +584,31 @@ const sidebar = [
     <meta name="twitter:description" content={description} />
 
     <link rel="canonical" href={canonical} />
-    <link rel="alternate" hreflang="x-default" href={`https://kulmanlab.com/docs${entrySlug ? '/' + entrySlug : ''}`} />
-    <link rel="alternate" hreflang="en" href={`https://kulmanlab.com/docs${entrySlug ? '/' + entrySlug : ''}`} />
-    <link rel="alternate" hreflang="de" href={`https://kulmanlab.com/de/docs${entrySlug ? '/' + entrySlug : ''}`} />
-    <link rel="alternate" hreflang="es" href={`https://kulmanlab.com/es/docs${entrySlug ? '/' + entrySlug : ''}`} />
-    <link rel="alternate" hreflang="fr" href={`https://kulmanlab.com/fr/docs${entrySlug ? '/' + entrySlug : ''}`} />
-    <link rel="alternate" hreflang="it" href={`https://kulmanlab.com/it/docs${entrySlug ? '/' + entrySlug : ''}`} />
-    <link rel="alternate" hreflang="pt" href={`https://kulmanlab.com/pt/docs${entrySlug ? '/' + entrySlug : ''}`} />
-    <link rel="alternate" hreflang="uk" href={`https://kulmanlab.com/uk/docs${entrySlug ? '/' + entrySlug : ''}`} />
-    <link rel="alternate" hreflang="tr" href={`https://kulmanlab.com/tr/docs${entrySlug ? '/' + entrySlug : ''}`} />
-    <link rel="alternate" hreflang="zh" href={`https://kulmanlab.com/zh/docs${entrySlug ? '/' + entrySlug : ''}`} />
-    <link rel="alternate" hreflang="hi" href={`https://kulmanlab.com/hi/docs${entrySlug ? '/' + entrySlug : ''}`} />
-    <link rel="alternate" hreflang="ar" href={`https://kulmanlab.com/ar/docs${entrySlug ? '/' + entrySlug : ''}`} />
-    <link rel="alternate" hreflang="id" href={`https://kulmanlab.com/id/docs${entrySlug ? '/' + entrySlug : ''}`} />
-    <link rel="alternate" hreflang="ja" href={`https://kulmanlab.com/ja/docs${entrySlug ? '/' + entrySlug : ''}`} />
-    <link rel="alternate" hreflang="pl" href={`https://kulmanlab.com/pl/docs${entrySlug ? '/' + entrySlug : ''}`} />
-    <link rel="alternate" hreflang="ko" href={`https://kulmanlab.com/ko/docs${entrySlug ? '/' + entrySlug : ''}`} />
-    <link rel="alternate" hreflang="vi" href={`https://kulmanlab.com/vi/docs${entrySlug ? '/' + entrySlug : ''}`} />
-    <link rel="alternate" hreflang="th" href={`https://kulmanlab.com/th/docs${entrySlug ? '/' + entrySlug : ''}`} />
-    <link rel="alternate" hreflang="ms" href={`https://kulmanlab.com/ms/docs${entrySlug ? '/' + entrySlug : ''}`} />
-    <link rel="alternate" hreflang="bn" href={`https://kulmanlab.com/bn/docs${entrySlug ? '/' + entrySlug : ''}`} />
-    <link rel="alternate" hreflang="sw" href={`https://kulmanlab.com/sw/docs${entrySlug ? '/' + entrySlug : ''}`} />
-    <link rel="alternate" hreflang="ur" href={`https://kulmanlab.com/ur/docs${entrySlug ? '/' + entrySlug : ''}`} />
-    <link rel="alternate" hreflang="el" href={`https://kulmanlab.com/el/docs${entrySlug ? '/' + entrySlug : ''}`} />
-    <link rel="alternate" hreflang="pa" href={`https://kulmanlab.com/pa/docs${entrySlug ? '/' + entrySlug : ''}`} />
-    <link rel="alternate" hreflang="sv" href={`https://kulmanlab.com/sv/docs${entrySlug ? '/' + entrySlug : ''}`} />
+    <link rel="alternate" hreflang="x-default" href={`https://kulmanlab.com/docs${entrySlug ? '/' + entrySlug : ''}/`} />
+    <link rel="alternate" hreflang="en" href={`https://kulmanlab.com/docs${entrySlug ? '/' + entrySlug : ''}/`} />
+    <link rel="alternate" hreflang="de" href={`https://kulmanlab.com/de/docs${entrySlug ? '/' + entrySlug : ''}/`} />
+    <link rel="alternate" hreflang="es" href={`https://kulmanlab.com/es/docs${entrySlug ? '/' + entrySlug : ''}/`} />
+    <link rel="alternate" hreflang="fr" href={`https://kulmanlab.com/fr/docs${entrySlug ? '/' + entrySlug : ''}/`} />
+    <link rel="alternate" hreflang="it" href={`https://kulmanlab.com/it/docs${entrySlug ? '/' + entrySlug : ''}/`} />
+    <link rel="alternate" hreflang="pt" href={`https://kulmanlab.com/pt/docs${entrySlug ? '/' + entrySlug : ''}/`} />
+    <link rel="alternate" hreflang="uk" href={`https://kulmanlab.com/uk/docs${entrySlug ? '/' + entrySlug : ''}/`} />
+    <link rel="alternate" hreflang="tr" href={`https://kulmanlab.com/tr/docs${entrySlug ? '/' + entrySlug : ''}/`} />
+    <link rel="alternate" hreflang="zh" href={`https://kulmanlab.com/zh/docs${entrySlug ? '/' + entrySlug : ''}/`} />
+    <link rel="alternate" hreflang="hi" href={`https://kulmanlab.com/hi/docs${entrySlug ? '/' + entrySlug : ''}/`} />
+    <link rel="alternate" hreflang="ar" href={`https://kulmanlab.com/ar/docs${entrySlug ? '/' + entrySlug : ''}/`} />
+    <link rel="alternate" hreflang="id" href={`https://kulmanlab.com/id/docs${entrySlug ? '/' + entrySlug : ''}/`} />
+    <link rel="alternate" hreflang="ja" href={`https://kulmanlab.com/ja/docs${entrySlug ? '/' + entrySlug : ''}/`} />
+    <link rel="alternate" hreflang="pl" href={`https://kulmanlab.com/pl/docs${entrySlug ? '/' + entrySlug : ''}/`} />
+    <link rel="alternate" hreflang="ko" href={`https://kulmanlab.com/ko/docs${entrySlug ? '/' + entrySlug : ''}/`} />
+    <link rel="alternate" hreflang="vi" href={`https://kulmanlab.com/vi/docs${entrySlug ? '/' + entrySlug : ''}/`} />
+    <link rel="alternate" hreflang="th" href={`https://kulmanlab.com/th/docs${entrySlug ? '/' + entrySlug : ''}/`} />
+    <link rel="alternate" hreflang="ms" href={`https://kulmanlab.com/ms/docs${entrySlug ? '/' + entrySlug : ''}/`} />
+    <link rel="alternate" hreflang="bn" href={`https://kulmanlab.com/bn/docs${entrySlug ? '/' + entrySlug : ''}/`} />
+    <link rel="alternate" hreflang="sw" href={`https://kulmanlab.com/sw/docs${entrySlug ? '/' + entrySlug : ''}/`} />
+    <link rel="alternate" hreflang="ur" href={`https://kulmanlab.com/ur/docs${entrySlug ? '/' + entrySlug : ''}/`} />
+    <link rel="alternate" hreflang="el" href={`https://kulmanlab.com/el/docs${entrySlug ? '/' + entrySlug : ''}/`} />
+    <link rel="alternate" hreflang="pa" href={`https://kulmanlab.com/pa/docs${entrySlug ? '/' + entrySlug : ''}/`} />
+    <link rel="alternate" hreflang="sv" href={`https://kulmanlab.com/sv/docs${entrySlug ? '/' + entrySlug : ''}/`} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 

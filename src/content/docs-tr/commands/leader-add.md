@@ -55,5 +55,5 @@ Tıklamak yerine kesin konum girebilirsiniz:
 
 | Komut | Ne yapar |
 |-------|----------|
-| [Leader](./leader) | Sıfırdan yeni gösterge oluşturur |
-| [Leader−](./leader-remove) | İki veya daha fazla kollu göstergeden kol kaldırır |
+| [Leader](../leader/) | Sıfırdan yeni gösterge oluşturur |
+| [Leader−](../leader-remove/) | İki veya daha fazla kollu göstergeden kol kaldırır |

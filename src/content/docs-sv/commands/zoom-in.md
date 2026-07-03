@@ -41,6 +41,6 @@ Det finns inga tangentbordsgenvägar för det här kommandot. Använd scrollhjul
 
 | Kommando | Vad det gör |
 |---------|-------------|
-| [Zoom Out](./zoom-out) | Dividerar zoomen med 1,5× per steg |
-| [Fit](./fit) | Återställer zoomen så alla entiteter visas |
-| [Pan](./pan) | Förskjuter vyporten utan att zooma |
+| [Zoom Out](../zoom-out/) | Dividerar zoomen med 1,5× per steg |
+| [Fit](../fit/) | Återställer zoomen så alla entiteter visas |
+| [Pan](../pan/) | Förskjuter vyporten utan att zooma |

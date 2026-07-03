@@ -71,13 +71,13 @@ Başlangıç veya bitiş tutamacını sürüklemek onu sürükleme konumuna taş
 
 | Komut | Yaya ne olur |
 |-------|-------------|
-| [Move](./move) | Merkezi taşır; yarıçap ve açılar değişmez |
-| [Copy](./copy) | Yeni konumda özdeş yay oluşturur |
-| [Rotate](./rotate) | Merkezi döndürür ve başlangıç/bitiş açılarını dönüş miktarı kadar kaydırır |
-| [Mirror](./mirror) | Merkezi yansıtır ve başlangıç/bitiş açılarını ayna eksenine göre ters çevirir |
-| [Scale](./scale) | Merkez konumunu ölçekler ve yarıçapı ölçek faktörüyle çarpar |
-| [Offset](./offset) | Daha büyük veya daha küçük yarıçaplı, aynı açısal kapsamlı eşmerkezli yay oluşturur |
-| [Delete](./delete) | Yayı siler |
+| [Move](../move/) | Merkezi taşır; yarıçap ve açılar değişmez |
+| [Copy](../copy/) | Yeni konumda özdeş yay oluşturur |
+| [Rotate](../rotate/) | Merkezi döndürür ve başlangıç/bitiş açılarını dönüş miktarı kadar kaydırır |
+| [Mirror](../mirror/) | Merkezi yansıtır ve başlangıç/bitiş açılarını ayna eksenine göre ters çevirir |
+| [Scale](../scale/) | Merkez konumunu ölçekler ve yarıçapı ölçek faktörüyle çarpar |
+| [Offset](../offset/) | Daha büyük veya daha küçük yarıçaplı, aynı açısal kapsamlı eşmerkezli yay oluşturur |
+| [Delete](../delete/) | Yayı siler |
 
 ## Özellikler
 

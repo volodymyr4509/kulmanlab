@@ -44,6 +44,6 @@ Non esiste una scorciatoia da tastiera per questo comando. Usa invece la scorcia
 
 | Comando | Funzione |
 |---------|----------|
-| [Pan](./pan) | Sposta la viewport senza zoomare |
-| [Zoom In](./zoom-in) | Moltiplica lo zoom per 1.5× per step |
-| [Zoom Out](./zoom-out) | Divide lo zoom per 1.5× per step |
+| [Pan](../pan/) | Sposta la viewport senza zoomare |
+| [Zoom In](../zoom-in/) | Moltiplica lo zoom per 1.5× per step |
+| [Zoom Out](../zoom-out/) | Divide lo zoom per 1.5× per step |

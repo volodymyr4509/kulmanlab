@@ -44,6 +44,6 @@ Det finns ingen tangentbordsgenväg för det här kommandot. Använd genvägen *
 
 | Kommando | Vad det gör |
 |---------|-------------|
-| [Pan](./pan) | Förskjuter vyporten utan att zooma |
-| [Zoom In](./zoom-in) | Multiplicerar zoomen med 1,5× per steg |
-| [Zoom Out](./zoom-out) | Dividerar zoomen med 1,5× per steg |
+| [Pan](../pan/) | Förskjuter vyporten utan att zooma |
+| [Zoom In](../zoom-in/) | Multiplicerar zoomen med 1,5× per steg |
+| [Zoom Out](../zoom-out/) | Dividerar zoomen med 1,5× per steg |

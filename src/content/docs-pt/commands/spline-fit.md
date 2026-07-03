@@ -7,7 +7,7 @@ keywords: [CAD comando spline fit, spline interpoladora CAD, spline por pontos, 
 
 # Spline Fit
 
-O comando `splinefit` desenha uma spline cúbica que passa por cada ponto clicado — uma curva interpoladora. Diferentemente de [Spline CV](./spline-cv), onde a curva é apenas atraída pelos vértices de controle, aqui a curva é forçada a tocar cada coordenada clicada exatamente. Internamente o editor ajusta vértices de controle para conseguir isso, e esses CVs são armazenados junto com os pontos de ajuste no arquivo DXF.
+O comando `splinefit` desenha uma spline cúbica que passa por cada ponto clicado — uma curva interpoladora. Diferentemente de [Spline CV](../spline-cv/), onde a curva é apenas atraída pelos vértices de controle, aqui a curva é forçada a tocar cada coordenada clicada exatamente. Internamente o editor ajusta vértices de controle para conseguir isso, e esses CVs são armazenados junto com os pontos de ajuste no arquivo DXF.
 
 ## Desenhando uma spline por pontos de ajuste
 
@@ -51,18 +51,18 @@ Uma spline fit selecionada expõe um grip por ponto de ajuste:
 
 Arrastar um grip re-ajusta a curva inteira, não apenas os segmentos adjacentes. Isso difere da edição de grips de polilinha, onde mover um vértice apenas remoldela os dois segmentos adjacentes.
 
-Não há um grip "mover toda a spline". Para transladar a spline inteira, use o comando [Move](./move).
+Não há um grip "mover toda a spline". Para transladar a spline inteira, use o comando [Move](../move/).
 
 ## Comandos de edição suportados
 
 | Comando | O que acontece com a spline |
 |---------|---------------------------|
-| [Move](./move) | Translada todos os pontos de ajuste e CVs recalculados pelo mesmo deslocamento |
-| [Copy](./copy) | Cria uma spline idêntica em uma nova posição |
-| [Rotate](./rotate) | Rotaciona todos os pontos de ajuste ao redor do ponto base escolhido |
-| [Mirror](./mirror) | Reflete todos os pontos de ajuste em relação ao eixo espelho |
-| [Scale](./scale) | Escala todos os pontos de ajuste uniformemente a partir do ponto base |
-| [Delete](./delete) | Remove a spline |
+| [Move](../move/) | Translada todos os pontos de ajuste e CVs recalculados pelo mesmo deslocamento |
+| [Copy](../copy/) | Cria uma spline idêntica em uma nova posição |
+| [Rotate](../rotate/) | Rotaciona todos os pontos de ajuste ao redor do ponto base escolhido |
+| [Mirror](../mirror/) | Reflete todos os pontos de ajuste em relação ao eixo espelho |
+| [Scale](../scale/) | Escala todos os pontos de ajuste uniformemente a partir do ponto base |
+| [Delete](../delete/) | Remove a spline |
 
 Splines não suportam **Offset**, **Trim** ou **Extend**.
 

@@ -7,7 +7,7 @@ keywords: [CAD mirror-kommando, spegla entiteter CAD, spegelsymmetri CAD, vänd 
 
 # Mirror
 
-`mirror`-kommandot skapar speglade kopior av valda entiteter, reflekterade över en tvåpunktsaxel. Originalen **behålls alltid** — till skillnad från [Move](./move) eller [Rotate](./rotate) ändrar Mirror aldrig befintliga entiteter; den lägger bara till nya.
+`mirror`-kommandot skapar speglade kopior av valda entiteter, reflekterade över en tvåpunktsaxel. Originalen **behålls alltid** — till skillnad från [Move](../move/) eller [Rotate](../rotate/) ändrar Mirror aldrig befintliga entiteter; den lägger bara till nya.
 
 ## Två sätt att starta
 

@@ -45,7 +45,7 @@ Uwzględniane są tylko elementy geometryczne:
 - Linie, okręgi, łuki, elipsy, polilinie (eksportowane jako `LWPOLYLINE`), splajny, tekst
 - Definicje warstw i tabele typów linii
 
-**Nie uwzględnione w DXF:** elementy wymiarowe i linie wielokierunkowe. Używają one specyficznych dla KulmanLab struktur danych, których nie można wiernie odwzorować w standardowym DXF. Jeśli rysunek zawiera adnotacje, użyj JSON lub [Drukuj](./print), aby uchwycić je wizualnie.
+**Nie uwzględnione w DXF:** elementy wymiarowe i linie wielokierunkowe. Używają one specyficznych dla KulmanLab struktur danych, których nie można wiernie odwzorować w standardowym DXF. Jeśli rysunek zawiera adnotacje, użyj JSON lub [Drukuj](../print/), aby uchwycić je wizualnie.
 
 ## Nazwa eksportowanego pliku
 
@@ -60,10 +60,10 @@ Pobrany plik jest nazwany na podstawie bieżącego pliku rysunku (np. `mojplan_M
 | Zachowuje warstwy i typy linii | Tak | Nie (renderowany płasko) |
 | Przechwytuje wymiary i linie prowadzące | Tylko JSON | Tak |
 
-Użyj **Eksportu**, gdy potrzebujesz edytowalnego pliku. Użyj [Drukuj](./print), gdy potrzebujesz wizualnej migawki.
+Użyj **Eksportu**, gdy potrzebujesz edytowalnego pliku. Użyj [Drukuj](../print/), gdy potrzebujesz wizualnej migawki.
 
 ## Powiązane polecenia
 
-- [Import](./import) — otwieranie pliku DXF lub JSON
-- [Drukuj](./print) — eksportowanie płótna jako obraz PNG, JPEG, WebP lub PDF
-- [Pliki](./files) — przeglądanie rysunków zapisanych w pamięci przeglądarki
+- [Import](../import/) — otwieranie pliku DXF lub JSON
+- [Drukuj](../print/) — eksportowanie płótna jako obraz PNG, JPEG, WebP lub PDF
+- [Pliki](../files/) — przeglądanie rysunków zapisanych w pamięci przeglądarki

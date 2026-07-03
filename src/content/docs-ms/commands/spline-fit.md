@@ -7,7 +7,7 @@ keywords: [arahan spline fit CAD, spline interpolasi CAD, spline melalui titik, 
 
 # Spline Fit
 
-Arahan `splinefit` melukis spline kubik yang melalui setiap titik yang anda klik — kelengkungan interpolasi. Tidak seperti [Spline CV](./spline-cv), di mana kelengkungan hanya tertarik ke arah bucu kawalan, di sini kelengkungan dipaksa untuk menyentuh setiap koordinat yang diklik dengan tepat. Secara dalaman editor memasang bucu kawalan untuk mencapai ini, dan CV tersebut disimpan bersama titik fit dalam fail DXF.
+Arahan `splinefit` melukis spline kubik yang melalui setiap titik yang anda klik — kelengkungan interpolasi. Tidak seperti [Spline CV](../spline-cv/), di mana kelengkungan hanya tertarik ke arah bucu kawalan, di sini kelengkungan dipaksa untuk menyentuh setiap koordinat yang diklik dengan tepat. Secara dalaman editor memasang bucu kawalan untuk mencapai ini, dan CV tersebut disimpan bersama titik fit dalam fail DXF.
 
 ## Melukis spline melalui titik fit
 
@@ -51,7 +51,7 @@ Fit spline yang dipilih mendedahkan satu grip setiap titik fit:
 
 Menyeret satu grip menginterpolasi semula keseluruhan kelengkungan, bukan hanya segmen bersebelahan. Ini berbeza daripada pengeditan grip poliline, di mana menggerakkan bucu hanya membentuk semula dua segmen bersebelahan.
 
-Tiada grip "gerakkan keseluruhan spline". Untuk menterjemahkan keseluruhan spline, gunakan arahan [Move](./move).
+Tiada grip "gerakkan keseluruhan spline". Untuk menterjemahkan keseluruhan spline, gunakan arahan [Move](../move/).
 
 ## Memilih fit spline
 
@@ -65,12 +65,12 @@ Tiada grip "gerakkan keseluruhan spline". Untuk menterjemahkan keseluruhan splin
 
 | Arahan | Apa yang berlaku pada spline |
 |--------|------------------------------|
-| [Move](./move) | Menterjemahkan semua titik fit dan CV yang dikira semula dengan anjakan yang sama |
-| [Copy](./copy) | Mencipta spline yang sama di kedudukan baru |
-| [Rotate](./rotate) | Memutar semua titik fit di sekitar titik asas yang dipilih |
-| [Mirror](./mirror) | Mencerminkan semua titik fit merentasi paksi cermin |
-| [Scale](./scale) | Mengskala semua titik fit secara seragam dari titik asas |
-| [Delete](./delete) | Membuang spline |
+| [Move](../move/) | Menterjemahkan semua titik fit dan CV yang dikira semula dengan anjakan yang sama |
+| [Copy](../copy/) | Mencipta spline yang sama di kedudukan baru |
+| [Rotate](../rotate/) | Memutar semua titik fit di sekitar titik asas yang dipilih |
+| [Mirror](../mirror/) | Mencerminkan semua titik fit merentasi paksi cermin |
+| [Scale](../scale/) | Mengskala semua titik fit secara seragam dari titik asas |
+| [Delete](../delete/) | Membuang spline |
 
 Spline tidak menyokong **Offset**, **Trim**, atau **Extend**.
 

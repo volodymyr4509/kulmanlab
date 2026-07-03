@@ -44,6 +44,6 @@ Dla tego polecenia nie ma skrótu klawiaturowego. Zamiast tego użyj skrótu **d
 
 | Polecenie | Co robi |
 |-----------|---------|
-| [Panoramuj](./pan) | Przesuwa widok bez powiększania |
-| [Powiększ](./zoom-in) | Mnoży powiększenie o 1,5× na krok |
-| [Pomniejsz](./zoom-out) | Dzieli powiększenie o 1,5× na krok |
+| [Panoramuj](../pan/) | Przesuwa widok bez powiększania |
+| [Powiększ](../zoom-in/) | Mnoży powiększenie o 1,5× na krok |
+| [Pomniejsz](../zoom-out/) | Dzieli powiększenie o 1,5× na krok |

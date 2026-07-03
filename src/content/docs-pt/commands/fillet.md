@@ -7,7 +7,7 @@ keywords: [comando fillet CAD, arredondar canto CAD, arco de filete, arco tangen
 
 # Fillet
 
-O comando `fillet` arredonda o canto entre duas entidades [Line](./line) inserindo um arco tangente de um dado raio e aparando cada linha de volta ao ponto onde o arco começa. O resultado é um canto suave e com raio conectando ambas as linhas.
+O comando `fillet` arredonda o canto entre duas entidades [Line](../line/) inserindo um arco tangente de um dado raio e aparando cada linha de volta ao ponto onde o arco começa. O resultado é um canto suave e com raio conectando ambas as linhas.
 
 O Fillet funciona apenas em entidades **Line**.
 

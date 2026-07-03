@@ -7,7 +7,7 @@ keywords: [CAD extend-kommando, förläng linje CAD, sträck linje till gräns, 
 
 # Extend
 
-`extend`-kommandot förlänger den närmaste ändpunkten på en [Line](./line) till den närmaste skärningen den skulle bilda med en annan entitet i ritningen. Hovra nära den ändpunkt du vill förlänga — en förhandsgranskning visar den förlängda linjen — klicka sedan för att verkställa.
+`extend`-kommandot förlänger den närmaste ändpunkten på en [Line](../line/) till den närmaste skärningen den skulle bilda med en annan entitet i ritningen. Hovra nära den ändpunkt du vill förlänga — en förhandsgranskning visar den förlängda linjen — klicka sedan för att verkställa.
 
 Extend fungerar endast på **Line-entiteter**. Gränserna linjen förlängs mot kan vara vilken annan entitetstyp som helst utom Text, Mtext, Multileader och Spline.
 

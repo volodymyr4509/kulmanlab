@@ -15,7 +15,7 @@ Wpisz `LayerUnfreezeAll` w terminalu lub kliknij przycisk **Odmroź wszystkie** 
 
 ## Kiedy używać
 
-Zazwyczaj używane po [IzolujWarstwę](./layer-isolate), aby przywrócić wszystkie warstwy do normalnego widocznego stanu.
+Zazwyczaj używane po [IzolujWarstwę](../layer-isolate/), aby przywrócić wszystkie warstwy do normalnego widocznego stanu.
 
 ## Szczegóły zachowania
 

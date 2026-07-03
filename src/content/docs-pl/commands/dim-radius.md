@@ -7,7 +7,7 @@ keywords: [wymiar promienia CAD, dimradius, opis promienia okręgu, wymiar promi
 
 # Wymiar promienia
 
-Polecenie `dimradius` umieszcza wymiar promienia na łuku lub okręgu. Linia wymiarowa biegnie od środka do punktu na obwodzie w kierunku kursora, oznaczona `R <wartość>`. Aby zamiast tego wymiarować pełną średnicę, użyj [Wymiaru średnicy](./dim-diameter).
+Polecenie `dimradius` umieszcza wymiar promienia na łuku lub okręgu. Linia wymiarowa biegnie od środka do punktu na obwodzie w kierunku kursora, oznaczona `R <wartość>`. Aby zamiast tego wymiarować pełną średnicę, użyj [Wymiaru średnicy](../dim-diameter/).
 
 ## Anatomia wymiaru promienia
 

@@ -38,5 +38,5 @@ keywords: [CAD pan komutu, görünümü kaydır CAD, tuvali sürükle CAD, orta 
 ## İpuçları
 
 - **Kaydırma + Pan**: Yakınlaştırma için fare tekerleği, kaydırma için orta düğme — komutlar arasında geçiş yapmadan en hızlı gezinme.
-- **Orta düğmeye çift tıkla**: Manuel Pan yerine — orta düğmeye çift tıklamak tüm çizimi görmek için [Fit](./fit) komutunu çalıştırır.
+- **Orta düğmeye çift tıkla**: Manuel Pan yerine — orta düğmeye çift tıklamak tüm çizimi görmek için [Fit](../fit/) komutunu çalıştırır.
 - **Komut sırasında Pan**: Mevcut komutu kesintiye uğratmadan (örneğin Line noktaları yerleştirirken) geçici Pan için orta düğmeyi basılı tutun.

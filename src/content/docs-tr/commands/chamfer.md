@@ -7,7 +7,7 @@ keywords: [CAD chamfer komutu, chamfer çizgi CAD, köşegen köşe kesimi, pah 
 
 # Chamfer
 
-`chamfer` komutu, iki [Çizgi](./line) veya [Çoklu Çizgi](./polyline) nesnesi arasında düz köşegen bir pah keser. Her nesne boyunca ne kadar geri kesileceğini (d1 ve d2) belirtirsiniz; komut her iki nesneyi de bu noktalara kadar kırpar ve aralarına birleştirici bir çizgi ekler.
+`chamfer` komutu, iki [Çizgi](../line/) veya [Çoklu Çizgi](../polyline/) nesnesi arasında düz köşegen bir pah keser. Her nesne boyunca ne kadar geri kesileceğini (d1 ve d2) belirtirsiniz; komut her iki nesneyi de bu noktalara kadar kırpar ve aralarına birleştirici bir çizgi ekler.
 
 Eşit mesafeler kullanmak simetrik 45° pah üretir; farklı mesafeler asimetrik bir pah oluşturur.
 

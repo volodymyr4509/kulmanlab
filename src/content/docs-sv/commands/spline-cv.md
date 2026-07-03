@@ -52,7 +52,7 @@ En vald CV-spline visar ett grepp per styrpunkt:
 |------|----------|--------------|
 | **Control vertex** | Vid varje CV-position | Dra för att flytta den styrpunkten — kurvan omformas mot den nya positionen |
 
-Det finns inget "flytta hela splinen"-grepp. Använd [Move](./move)-kommandot för att flytta hela splinen.
+Det finns inget "flytta hela splinen"-grepp. Använd [Move](../move/)-kommandot för att flytta hela splinen.
 
 ## Markera CV-splines
 
@@ -66,12 +66,12 @@ Det finns inget "flytta hela splinen"-grepp. Använd [Move](./move)-kommandot f�
 
 | Kommando | Vad som händer med splinen |
 |---------|---------------------------|
-| [Move](./move) | Flyttar alla styrpunkter med samma förskjutning |
-| [Copy](./copy) | Skapar en identisk spline på en ny position |
-| [Rotate](./rotate) | Roterar alla styrpunkter kring den valda baspunkten |
-| [Mirror](./mirror) | Speglar alla styrpunkter över spegelaxeln |
-| [Scale](./scale) | Skalar alla styrpunkter enhetligt från baspunkten |
-| [Delete](./delete) | Tar bort splinen |
+| [Move](../move/) | Flyttar alla styrpunkter med samma förskjutning |
+| [Copy](../copy/) | Skapar en identisk spline på en ny position |
+| [Rotate](../rotate/) | Roterar alla styrpunkter kring den valda baspunkten |
+| [Mirror](../mirror/) | Speglar alla styrpunkter över spegelaxeln |
+| [Scale](../scale/) | Skalar alla styrpunkter enhetligt från baspunkten |
+| [Delete](../delete/) | Tar bort splinen |
 
 Splines stöder inte **Offset**, **Trim** eller **Extend**.
 

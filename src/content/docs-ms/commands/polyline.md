@@ -7,9 +7,9 @@ keywords: [arahan poliline CAD, lukis poliline CAD, laluan berbilang segmen CAD,
 
 # Polyline
 
-Arahan `polyline` melukis laluan bersambung sebarang bilangan segmen lurus, semua disimpan sebagai satu entiti `LWPOLYLINE`. Kerana keseluruhan laluan adalah satu objek, memilihnya memilih setiap segmen sekaligus — gerakkan, putar, atau skala keseluruhan bentuk dalam satu operasi. Ini adalah perbezaan utama dari [Lines](./line) yang dirantai, di mana setiap segmen adalah entiti bebas.
+Arahan `polyline` melukis laluan bersambung sebarang bilangan segmen lurus, semua disimpan sebagai satu entiti `LWPOLYLINE`. Kerana keseluruhan laluan adalah satu objek, memilihnya memilih setiap segmen sekaligus — gerakkan, putar, atau skala keseluruhan bentuk dalam satu operasi. Ini adalah perbezaan utama dari [Lines](../line/) yang dirantai, di mana setiap segmen adalah entiti bebas.
 
-Poliline juga boleh **ditutup**: arahan [Rectangle](./rectangle) menggunakan entiti `LWPOLYLINE` yang sama dengan bendera tutup ditetapkan.
+Poliline juga boleh **ditutup**: arahan [Rectangle](../rectangle/) menggunakan entiti `LWPOLYLINE` yang sama dengan bendera tutup ditetapkan.
 
 ## Melukis poliline
 
@@ -39,7 +39,7 @@ Daripada mengklik, taip kedudukan tepat untuk mana-mana bucu:
 
 ## Penguncian sudut dan panjang segmen tepat
 
-Logik snap 45° yang sama seperti arahan [Line](./line#angle-locking-and-exact-length-input) terpakai antara mana-mana dua titik berturutan. Apabila dikunci ke paksi:
+Logik snap 45° yang sama seperti arahan [Line](../line/#angle-locking-and-exact-length-input) terpakai antara mana-mana dua titik berturutan. Apabila dikunci ke paksi:
 
 | Kekunci | Tindakan |
 |---------|---------|
@@ -70,9 +70,9 @@ Poliline yang dipilih menunjukkan dua jenis grip:
 | **Bucu** | Di setiap titik yang diletakkan | Seret untuk mengubah kedudukan bucu itu; semua segmen yang disambungkan meregang untuk mengikuti |
 | **Titik tengah segmen** | Pusat setiap segmen | Seret untuk menterjemahkan **kedua-dua** titik akhir segmen itu bersama-sama, mengekalkan panjang dan sudut segmen |
 
-Grip titik tengah segmen adalah unik untuk poliline — ia membolehkan anda menggeser segmen individu ke sisi tanpa mengubah panjangnya. Pada [Line](./line), grip titik tengah sebaliknya mengaktifkan arahan Move untuk keseluruhan entiti.
+Grip titik tengah segmen adalah unik untuk poliline — ia membolehkan anda menggeser segmen individu ke sisi tanpa mengubah panjangnya. Pada [Line](../line/), grip titik tengah sebaliknya mengaktifkan arahan Move untuk keseluruhan entiti.
 
-Tiada grip tunggal "gerakkan keseluruhan poliline". Untuk menggerakkan keseluruhan laluan gunakan arahan [Move](./move).
+Tiada grip tunggal "gerakkan keseluruhan poliline". Untuk menggerakkan keseluruhan laluan gunakan arahan [Move](../move/).
 
 ## Memilih poliline
 
@@ -86,17 +86,17 @@ Kerana poliline adalah satu entiti, pemilihan silang yang menyentuh mana-mana se
 
 ## Arahan edit yang disokong
 
-Poliline menyokong semua transformasi umum dan offset, tetapi **bukan** trim atau extend (yang untuk [Line](./line) sahaja):
+Poliline menyokong semua transformasi umum dan offset, tetapi **bukan** trim atau extend (yang untuk [Line](../line/) sahaja):
 
 | Arahan | Apa yang berlaku pada poliline |
 |--------|---------------------------------|
-| [Move](./move) | Menterjemahkan semua bucu dengan anjakan yang sama |
-| [Copy](./copy) | Mencipta poliline yang sama di kedudukan baru |
-| [Rotate](./rotate) | Memutar semua bucu di sekitar titik asas yang dipilih |
-| [Mirror](./mirror) | Mencerminkan semua bucu merentasi paksi cermin |
-| [Scale](./scale) | Mengskala semua bucu secara seragam dari titik asas |
-| [Offset](./offset) | Mencipta poliline selari pada jarak tegak lurus tetap |
-| [Delete](./delete) | Membuang poliline daripada lukisan |
+| [Move](../move/) | Menterjemahkan semua bucu dengan anjakan yang sama |
+| [Copy](../copy/) | Mencipta poliline yang sama di kedudukan baru |
+| [Rotate](../rotate/) | Memutar semua bucu di sekitar titik asas yang dipilih |
+| [Mirror](../mirror/) | Mencerminkan semua bucu merentasi paksi cermin |
+| [Scale](../scale/) | Mengskala semua bucu secara seragam dari titik asas |
+| [Offset](../offset/) | Mencipta poliline selari pada jarak tegak lurus tetap |
+| [Delete](../delete/) | Membuang poliline daripada lukisan |
 
 ## Sifat
 
@@ -132,6 +132,6 @@ Apabila poliline dipilih, panel sifat menunjukkan:
 
 ## DXF — entiti LWPOLYLINE
 
-Poliline disimpan sebagai entiti `LWPOLYLINE` dalam fail DXF. Semua sifat — koordinat bucu, bendera tutup, warna, lapisan, linetype, skala linetype, dan ketebalan — pusingan penuh tanpa kehilangan. Segi empat tepat yang dilukis dengan arahan [Rectangle](./rectangle) juga disimpan sebagai `LWPOLYLINE` (tertutup, empat bucu) dan tidak dapat dibezakan pada peringkat DXF.
+Poliline disimpan sebagai entiti `LWPOLYLINE` dalam fail DXF. Semua sifat — koordinat bucu, bendera tutup, warna, lapisan, linetype, skala linetype, dan ketebalan — pusingan penuh tanpa kehilangan. Segi empat tepat yang dilukis dengan arahan [Rectangle](../rectangle/) juga disimpan sebagai `LWPOLYLINE` (tertutup, empat bucu) dan tidak dapat dibezakan pada peringkat DXF.
 
 Entiti `LWPOLYLINE` dari mana-mana aplikasi serasi DXF (LibreCAD, FreeCAD, dll.) dibaca semula sebagai poliline yang boleh diedit sepenuhnya dalam editor.

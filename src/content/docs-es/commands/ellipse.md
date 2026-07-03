@@ -81,13 +81,13 @@ Los puntos de control de los ejes mayor y menor son independientes — puedes ca
 
 | Comando | Qué le sucede a la elipse |
 |---------|---------------------------|
-| [Move](./move) | Traslada el centro; ambos ejes sin cambios |
-| [Copy](./copy) | Crea una elipse idéntica en un nuevo centro |
-| [Rotate](./rotate) | Rota la posición del centro y el vector del eje mayor por el mismo ángulo |
-| [Mirror](./mirror) | Refleja el centro y recalcula la dirección del eje mayor respecto al eje de simetría |
-| [Scale](./scale) | Escala la posición del centro y multiplica ambas longitudes de semiejes por el factor |
-| [Offset](./offset) | Crea una elipse concéntrica desplazada hacia afuera o hacia adentro a una distancia fija |
-| [Delete](./delete) | Elimina la elipse |
+| [Move](../move/) | Traslada el centro; ambos ejes sin cambios |
+| [Copy](../copy/) | Crea una elipse idéntica en un nuevo centro |
+| [Rotate](../rotate/) | Rota la posición del centro y el vector del eje mayor por el mismo ángulo |
+| [Mirror](../mirror/) | Refleja el centro y recalcula la dirección del eje mayor respecto al eje de simetría |
+| [Scale](../scale/) | Escala la posición del centro y multiplica ambas longitudes de semiejes por el factor |
+| [Offset](../offset/) | Crea una elipse concéntrica desplazada hacia afuera o hacia adentro a una distancia fija |
+| [Delete](../delete/) | Elimina la elipse |
 
 ## Propiedades
 

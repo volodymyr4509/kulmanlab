@@ -7,7 +7,7 @@ keywords: [CAD mirror Befehl, Entitäten spiegeln CAD, Spiegelsymmetrie CAD, Obj
 
 # Mirror
 
-Der Befehl `mirror` erstellt gespiegelte Kopien ausgewählter Entitäten, die über eine Zwei-Punkt-Achse reflektiert werden. Die Originale bleiben **immer erhalten** — im Gegensatz zu [Move](./move) oder [Rotate](./rotate) verändert mirror keine vorhandenen Entitäten; es werden nur neue hinzugefügt.
+Der Befehl `mirror` erstellt gespiegelte Kopien ausgewählter Entitäten, die über eine Zwei-Punkt-Achse reflektiert werden. Die Originale bleiben **immer erhalten** — im Gegensatz zu [Move](../move/) oder [Rotate](../rotate/) verändert mirror keine vorhandenen Entitäten; es werden nur neue hinzugefügt.
 
 ## Zwei Möglichkeiten zum Starten
 

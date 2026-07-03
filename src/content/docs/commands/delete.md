@@ -7,7 +7,7 @@ keywords: [CAD delete command, remove entities CAD, erase objects CAD, delete ke
 
 # Delete
 
-The `delete` command removes selected entities from the drawing. Deletions are recorded in the [Undo](./undo) history and can be reversed with up to 20 steps. There is no separate "confirm delete" dialog — confirmation is a single key press.
+The `delete` command removes selected entities from the drawing. Deletions are recorded in the [Undo](../undo/) history and can be reversed with up to 20 steps. There is no separate "confirm delete" dialog — confirmation is a single key press.
 
 ## Two ways to delete
 
@@ -43,7 +43,7 @@ Click entity → press Delete key → done
 
 ## Recovering deleted entities
 
-Deletions are undoable with the [Undo](./undo) command (type `undo` or use the toolbar button). Up to **20 steps** can be reversed per file, and the history persists across page reloads. If you have exceeded 20 deletions without saving, earlier deletions cannot be recovered.
+Deletions are undoable with the [Undo](../undo/) command (type `undo` or use the toolbar button). Up to **20 steps** can be reversed per file, and the history persists across page reloads. If you have exceeded 20 deletions without saving, earlier deletions cannot be recovered.
 
 ## Supported entities
 

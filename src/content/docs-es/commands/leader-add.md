@@ -55,5 +55,5 @@ En lugar de hacer clic, puedes escribir una posición exacta:
 
 | Comando | Qué hace |
 |---------|-------------|
-| [Leader](./leader) | Crear una nueva multireferencia desde cero |
-| [Leader−](./leader-remove) | Eliminar un brazo de una multireferencia que tiene dos o más |
+| [Leader](../leader/) | Crear una nueva multireferencia desde cero |
+| [Leader−](../leader-remove/) | Eliminar un brazo de una multireferencia que tiene dos o más |

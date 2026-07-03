@@ -7,7 +7,7 @@ keywords: [asingkan lapisan, bekukan lapisan CAD, asingkan lapisan kulmanlab, pe
 
 # LayerIsolate
 
-Arahan `LayerIsolate` membekukan setiap lapisan **kecuali** yang dimiliki objek yang dipilih. Gunakannya untuk fokus dengan cepat pada geometri tertentu tanpa menyembunyikan atau memadamkan apa-apa secara kekal — nyahbeku dengan [LayerUnfreezeAll](./layer-unfreeze-all) apabila selesai.
+Arahan `LayerIsolate` membekukan setiap lapisan **kecuali** yang dimiliki objek yang dipilih. Gunakannya untuk fokus dengan cepat pada geometri tertentu tanpa menyembunyikan atau memadamkan apa-apa secara kekal — nyahbeku dengan [LayerUnfreezeAll](../layer-unfreeze-all/) apabila selesai.
 
 ## Dua cara untuk memulakan
 
@@ -39,4 +39,4 @@ Arahan `LayerIsolate` membekukan setiap lapisan **kecuali** yang dimiliki objek 
 
 ## Membatalkan pengasingan
 
-Jalankan [LayerUnfreezeAll](./layer-unfreeze-all) untuk memulihkan semua lapisan kepada kelihatan dalam satu langkah.
+Jalankan [LayerUnfreezeAll](../layer-unfreeze-all/) untuk memulihkan semua lapisan kepada kelihatan dalam satu langkah.

@@ -46,13 +46,13 @@ Elementy używające nieobsługiwanych typów DXF są po cichu pomijane — resz
 
 ## Nazewnictwo plików i przechowywanie
 
-Podczas importowania pliku do jego nazwy dołączany jest znacznik czasu (na przykład `mojplan_Maj22_14:30:00.dxf`). Pozwala to przechowywać wiele wersji tego samego rysunku w [Ostatnich plikach](./files) bez kolizji nazw. Jeśli nazwa pliku już zawiera znacznik czasu, jest używana bez zmian.
+Podczas importowania pliku do jego nazwy dołączany jest znacznik czasu (na przykład `mojplan_Maj22_14:30:00.dxf`). Pozwala to przechowywać wiele wersji tego samego rysunku w [Ostatnich plikach](../files/) bez kolizji nazw. Jeśli nazwa pliku już zawiera znacznik czasu, jest używana bez zmian.
 
-Rysunek jest automatycznie zapisywany w pamięci przeglądarki (IndexedDB) po zaimportowaniu, dzięki czemu pojawia się w panelu [Pliki](./files) i przeżywa przeładowania strony.
+Rysunek jest automatycznie zapisywany w pamięci przeglądarki (IndexedDB) po zaimportowaniu, dzięki czemu pojawia się w panelu [Pliki](../files/) i przeżywa przeładowania strony.
 
 ## Co dzieje się z bieżącym rysunkiem
 
-Import zastępuje bieżące płótno. Nie ma scalania ani dołączania. Jeśli masz niezapisane zmiany, najpierw [eksportuj](./export) bieżący rysunek.
+Import zastępuje bieżące płótno. Nie ma scalania ani dołączania. Jeśli masz niezapisane zmiany, najpierw [eksportuj](../export/) bieżący rysunek.
 
 ## Przy uruchomieniu
 
@@ -68,6 +68,6 @@ KulmanLab automatycznie ponownie otwiera ostatnio edytowany plik przy ładowaniu
 
 ## Powiązane polecenia
 
-- [Eksport](./export) — pobieranie bieżącego rysunku jako DXF lub JSON
-- [Pliki](./files) — przeglądanie i przywracanie rysunków zapisanych w przeglądarce
-- [Nowy plik](./new-file) — tworzenie pustego rysunku
+- [Eksport](../export/) — pobieranie bieżącego rysunku jako DXF lub JSON
+- [Pliki](../files/) — przeglądanie i przywracanie rysunków zapisanych w przeglądarce
+- [Nowy plik](../new-file/) — tworzenie pustego rysunku

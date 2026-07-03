@@ -35,5 +35,5 @@ Cánh tay được đặt và lệnh vẫn hoạt động — bạn có thể ng
 
 | Lệnh | Tác dụng |
 |------|---------|
-| [Đường Dẫn](./leader) | Tạo một đường dẫn đa hoàn toàn mới |
-| [Leader−](./leader-remove) | Xóa một cánh tay khỏi đường dẫn đa có từ hai cánh tay trở lên |
+| [Đường Dẫn](../leader/) | Tạo một đường dẫn đa hoàn toàn mới |
+| [Leader−](../leader-remove/) | Xóa một cánh tay khỏi đường dẫn đa có từ hai cánh tay trở lên |

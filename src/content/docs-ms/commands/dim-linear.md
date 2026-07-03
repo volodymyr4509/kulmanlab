@@ -7,7 +7,7 @@ keywords: [CAD dimensi linear, dimensi mendatar CAD, dimensi menegak CAD, dimlin
 
 # Dimension Linear
 
-Arahan `dimlinear` meletakkan dimensi mendatar atau menegak antara dua asal garis sambungan. Garis dimensi sentiasa berjalan sama ada mendatar atau menegak sepenuhnya — ia tidak boleh diletakkan pada sudut sewenang-wenangnya. Gunakan [Dimension Aligned](./dim-aligned) apabila anda memerlukan dimensi selari dengan garis pepenjuru.
+Arahan `dimlinear` meletakkan dimensi mendatar atau menegak antara dua asal garis sambungan. Garis dimensi sentiasa berjalan sama ada mendatar atau menegak sepenuhnya — ia tidak boleh diletakkan pada sudut sewenang-wenangnya. Gunakan [Dimension Aligned](../dim-aligned/) apabila anda memerlukan dimensi selari dengan garis pepenjuru.
 
 ## Anatomi dimensi linear
 
@@ -89,7 +89,7 @@ Lihat [Text Editor — mod mudah](../interface/text-editor#simple-mode) untuk ru
 
 ## Merantai dimensi
 
-Untuk menambah lebih banyak dimensi yang diteruskan dari garis sambungan terakhir, gunakan [Dimension Continue](./dim-continue) serta-merta selepas meletakkan yang ini.
+Untuk menambah lebih banyak dimensi yang diteruskan dari garis sambungan terakhir, gunakan [Dimension Continue](../dim-continue/) serta-merta selepas meletakkan yang ini.
 
 ## DXF — entiti DIMENSION
 

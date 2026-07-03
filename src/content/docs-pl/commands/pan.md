@@ -28,8 +28,8 @@ Najszybszy sposób panoramowania: **przytrzymaj środkowy przycisk myszy i przec
 | Przeciągnięcie środkowym przyciskiem | Przesuwa widok | Nie — działa zawsze |
 | Kółko myszy | Powiększa w kierunku kursora | Nie — działa zawsze |
 | Dwukrotne kliknięcie środkowym przyciskiem | Dopasowuje wszystkie elementy | Nie — działa zawsze |
-| [Powiększ](./zoom-in) / [Pomniejsz](./zoom-out) | Skok powiększenia 1,5× | Nie |
-| [Dopasuj](./fit) | Dopasowuje wszystkie elementy w widoku | Nie |
+| [Powiększ](../zoom-in/) / [Pomniejsz](../zoom-out/) | Skok powiększenia 1,5× | Nie |
+| [Dopasuj](../fit/) | Dopasowuje wszystkie elementy w widoku | Nie |
 
 ## Skróty klawiaturowe
 
@@ -40,5 +40,5 @@ Najszybszy sposób panoramowania: **przytrzymaj środkowy przycisk myszy i przec
 ## Wskazówki
 
 - Użyj kółka myszy, aby powiększyć na docelowy obszar, a następnie panoramuj, aby precyzyjnie dostroić pozycję.
-- **Dwukrotne kliknięcie środkowym przyciskiem myszy** natychmiast wyzwala [Dopasuj](./fit) — najszybszy sposób na resetowanie utraconego widoku.
+- **Dwukrotne kliknięcie środkowym przyciskiem myszy** natychmiast wyzwala [Dopasuj](../fit/) — najszybszy sposób na resetowanie utraconego widoku.
 - Jeśli jesteś w środku polecenia (np. umieszczasz punkt końcowy linii), przeciągnij środkowym przyciskiem, aby panoramować bez anulowania polecenia.

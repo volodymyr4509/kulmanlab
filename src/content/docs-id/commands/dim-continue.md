@@ -51,7 +51,7 @@ Arah pengukuran rantai **tetap pada sudut dimensi basis**:
 - Basis linear (V) → semua kelanjutan mengukur jarak vertikal (Δ Y).
 - Basis sejajar pada sudut mana saja → semua kelanjutan mengukur sepanjang sudut yang sama tersebut.
 
-Anda tidak dapat mengubah arah di tengah rantai. Mulai [Dimension Linear](./dim-linear) atau [Dimension Aligned](./dim-aligned) baru untuk dimensi ke arah yang berbeda.
+Anda tidak dapat mengubah arah di tengah rantai. Mulai [Dimension Linear](../dim-linear/) atau [Dimension Aligned](../dim-aligned/) baru untuk dimensi ke arah yang berbeda.
 
 ## Referensi keyboard
 

@@ -7,7 +7,7 @@ keywords: [arahan cermin CAD, cermin entiti CAD, simetri cermin CAD, balik objek
 
 # Mirror
 
-Arahan `mirror` mencipta salinan entiti yang dipilih yang dicerminkan merentasi paksi dua titik. Asal **sentiasa disimpan** — tidak seperti [Move](./move) atau [Rotate](./rotate), Mirror tidak pernah mengubah suai entiti sedia ada; ia hanya menambah yang baharu.
+Arahan `mirror` mencipta salinan entiti yang dipilih yang dicerminkan merentasi paksi dua titik. Asal **sentiasa disimpan** — tidak seperti [Move](../move/) atau [Rotate](../rotate/), Mirror tidak pernah mengubah suai entiti sedia ada; ia hanya menambah yang baharu.
 
 ## Dua cara untuk memulakan
 

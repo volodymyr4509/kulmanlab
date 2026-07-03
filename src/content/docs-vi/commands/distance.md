@@ -5,7 +5,7 @@ description: Lệnh Distance đo khoảng cách Euclid giữa hai điểm nhấp
 
 # Khoảng Cách
 
-Lệnh `distance` đo khoảng cách đường thẳng (Euclid) giữa hai điểm nhấp và in kết quả trong terminal đến 4 chữ số thập phân. Đây là một trong hai lệnh đo lường — [Góc](./angle) đo góc mở tại một đỉnh thay thế.
+Lệnh `distance` đo khoảng cách đường thẳng (Euclid) giữa hai điểm nhấp và in kết quả trong terminal đến 4 chữ số thập phân. Đây là một trong hai lệnh đo lường — [Góc](../angle/) đo góc mở tại một đỉnh thay thế.
 
 ## Đo khoảng cách
 

@@ -71,13 +71,13 @@ Arrastrar un punto de control de inicio o fin lo reposiciona en la ubicación de
 
 | Comando | Qué le sucede al arco |
 |---------|-----------------------|
-| [Move](./move) | Traslada el centro; el radio y los ángulos no cambian |
-| [Copy](./copy) | Crea un arco idéntico en una nueva posición |
-| [Rotate](./rotate) | Rota el centro y desplaza los ángulos de inicio/fin por la cantidad de rotación |
-| [Mirror](./mirror) | Refleja el centro e invierte los ángulos de inicio/fin respecto al eje de simetría |
-| [Scale](./scale) | Escala la posición del centro y multiplica el radio por el factor de escala |
-| [Offset](./offset) | Crea un arco concéntrico con un radio mayor o menor, mismo ángulo |
-| [Delete](./delete) | Elimina el arco |
+| [Move](../move/) | Traslada el centro; el radio y los ángulos no cambian |
+| [Copy](../copy/) | Crea un arco idéntico en una nueva posición |
+| [Rotate](../rotate/) | Rota el centro y desplaza los ángulos de inicio/fin por la cantidad de rotación |
+| [Mirror](../mirror/) | Refleja el centro e invierte los ángulos de inicio/fin respecto al eje de simetría |
+| [Scale](../scale/) | Escala la posición del centro y multiplica el radio por el factor de escala |
+| [Offset](../offset/) | Crea un arco concéntrico con un radio mayor o menor, mismo ángulo |
+| [Delete](../delete/) | Elimina el arco |
 
 ## Propiedades
 

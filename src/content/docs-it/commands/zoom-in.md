@@ -41,6 +41,6 @@ Non esistono scorciatoie da tastiera per questo comando. Usa la rotella del mous
 
 | Comando | Cosa fa |
 |---------|---------|
-| [Zoom Out](./zoom-out) | Divide lo zoom per 1,5× per passo |
-| [Fit](./fit) | Reimposta lo zoom per mostrare tutte le entità |
-| [Pan](./pan) | Sposta la finestra senza zoomare |
+| [Zoom Out](../zoom-out/) | Divide lo zoom per 1,5× per passo |
+| [Fit](../fit/) | Reimposta lo zoom per mostrare tutte le entità |
+| [Pan](../pan/) | Sposta la finestra senza zoomare |

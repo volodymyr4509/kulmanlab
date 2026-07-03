@@ -7,7 +7,7 @@ keywords: [CAD mirror komutu, ayna yansıması CAD, nesne simetrisi CAD, nesnele
 
 # Mirror
 
-`mirror` komutu, seçili nesnelerin iki nokta tarafından tanımlanan eksen boyunca ayna görüntülerini oluşturur. Orijinaller **her zaman korunur** — [Move](./move) veya [Rotate](./rotate) komutlarının aksine, Mirror mevcut nesneleri değiştirmez; yalnızca yenilerini ekler.
+`mirror` komutu, seçili nesnelerin iki nokta tarafından tanımlanan eksen boyunca ayna görüntülerini oluşturur. Orijinaller **her zaman korunur** — [Move](../move/) veya [Rotate](../rotate/) komutlarının aksine, Mirror mevcut nesneleri değiştirmez; yalnızca yenilerini ekler.
 
 ## İki Başlatma Yöntemi
 

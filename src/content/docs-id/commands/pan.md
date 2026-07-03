@@ -28,8 +28,8 @@ Cara tercepat untuk pan: **tahan tombol mouse tengah dan seret** kapan saja, bah
 | Seret klik tengah | Menggeser viewport | Tidak — selalu berfungsi |
 | Roda gulir | Zoom ke arah kursor | Tidak — selalu berfungsi |
 | Klik ganda tombol tengah | Fit semua entitas | Tidak — selalu berfungsi |
-| [Zoom In](./zoom-in) / [Zoom Out](./zoom-out) | Menambah/mengurangi zoom 1.5× | Tidak |
-| [Fit](./fit) | Menampilkan semua entitas dalam tampilan | Tidak |
+| [Zoom In](../zoom-in/) / [Zoom Out](../zoom-out/) | Menambah/mengurangi zoom 1.5× | Tidak |
+| [Fit](../fit/) | Menampilkan semua entitas dalam tampilan | Tidak |
 
 ## Referensi keyboard
 
@@ -40,5 +40,5 @@ Cara tercepat untuk pan: **tahan tombol mouse tengah dan seret** kapan saja, bah
 ## Tips
 
 - Gunakan roda gulir untuk zoom ke area target, kemudian pan untuk menyetel posisi.
-- **Klik ganda tombol mouse tengah** memicu [Fit](./fit) secara instan — cara tercepat untuk mengatur ulang tampilan yang hilang.
+- **Klik ganda tombol mouse tengah** memicu [Fit](../fit/) secara instan — cara tercepat untuk mengatur ulang tampilan yang hilang.
 - Jika Anda sedang dalam perintah (mis., menempatkan titik akhir garis), seret klik tengah untuk pan tanpa membatalkan perintah.

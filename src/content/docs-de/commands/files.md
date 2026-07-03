@@ -41,15 +41,15 @@ Wenn Sie KulmanLab CAD öffnen, lädt die App automatisch die **zuletzt geänder
 
 Es gibt kein festes Limit für die Anzahl der Zeichnungen, die Sie speichern können, aber der Browser-Speicher ist begrenzt. Wenn Sie Speicherwarnungen bemerken, löschen Sie ältere Dateien aus dem Files-Panel.
 
-Um alle gespeicherten Zeichnungen auf einmal zu entfernen, verwenden Sie den [WipeStorage](./wipestorage)-Befehl.
+Um alle gespeicherten Zeichnungen auf einmal zu entfernen, verwenden Sie den [WipeStorage](../wipestorage/)-Befehl.
 
 ## Dateinamen und Versionierung
 
-Jede Datei hat einen Zeitstempel im Namen (z. B. `myplan_May22_14:30:00.dxf`). Dieser Zeitstempel wird automatisch hinzugefügt, wenn Sie eine Datei [importieren](./import), sodass das erneute Importieren derselben Quelldatei einen neuen Eintrag erstellt, anstatt die vorherige Version zu überschreiben.
+Jede Datei hat einen Zeitstempel im Namen (z. B. `myplan_May22_14:30:00.dxf`). Dieser Zeitstempel wird automatisch hinzugefügt, wenn Sie eine Datei [importieren](../import/), sodass das erneute Importieren derselben Quelldatei einen neuen Eintrag erstellt, anstatt die vorherige Version zu überschreiben.
 
 ## Verwandte Befehle
 
-- [Import](./import) — Zeichnung von Ihrem Dateisystem in den Browser-Speicher laden
-- [Export](./export) — Zeichnung auf Ihr Dateisystem herunterladen
-- [New File](./new-file) — leere Zeichnung beginnen (wird auch automatisch gespeichert)
-- [WipeStorage](./wipestorage) — alle gespeicherten Dateien aus dem Browser-Speicher löschen
+- [Import](../import/) — Zeichnung von Ihrem Dateisystem in den Browser-Speicher laden
+- [Export](../export/) — Zeichnung auf Ihr Dateisystem herunterladen
+- [New File](../new-file/) — leere Zeichnung beginnen (wird auch automatisch gespeichert)
+- [WipeStorage](../wipestorage/) — alle gespeicherten Dateien aus dem Browser-Speicher löschen

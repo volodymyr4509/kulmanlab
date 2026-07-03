@@ -7,7 +7,7 @@ keywords: [CAD comando line, desenhar linha reta CAD, encadear segmentos linha, 
 
 # Line
 
-O comando `line` desenha segmentos de linha reta individuais armazenados como entidades `LINE` separadas no modelo DXF. Após cada segmento o comando permanece ativo e reutiliza o endpoint como um novo ponto de início, então você pode construir caminhos conectados um segmento de cada vez. Diferentemente de uma [Polilinha](./polyline), linhas encadeadas permanecem entidades independentes — cada uma pode ser aparada, estendida ou excluída sem afetar suas vizinhas.
+O comando `line` desenha segmentos de linha reta individuais armazenados como entidades `LINE` separadas no modelo DXF. Após cada segmento o comando permanece ativo e reutiliza o endpoint como um novo ponto de início, então você pode construir caminhos conectados um segmento de cada vez. Diferentemente de uma [Polilinha](../polyline/), linhas encadeadas permanecem entidades independentes — cada uma pode ser aparada, estendida ou excluída sem afetar suas vizinhas.
 
 ## Desenhando linhas
 
@@ -74,7 +74,7 @@ Uma linha selecionada mostra três grips:
 | **Ponto médio** | Centro da linha | Ativa **Move** para a linha inteira |
 | **Fim** | Segundo endpoint | Arraste para reposicionar — o início permanece fixo |
 
-Esticar um endpoint nunca afeta o outro. Isso difere da edição de grips de [Polilinha](./polyline), onde mover um vértice remodela o caminho inteiro.
+Esticar um endpoint nunca afeta o outro. Isso difere da edição de grips de [Polilinha](../polyline/), onde mover um vértice remodela o caminho inteiro.
 
 ## Selecionando linhas
 
@@ -86,19 +86,19 @@ Esticar um endpoint nunca afeta o outro. Isso difere da edição de grips de [Po
 
 ## Comandos de edição suportados
 
-Linhas são a **única** entidade em que [Trim](./trim) e [Extend](./extend) operam. Todos os comandos de transformação padrão também se aplicam:
+Linhas são a **única** entidade em que [Trim](../trim/) e [Extend](../extend/) operam. Todos os comandos de transformação padrão também se aplicam:
 
 | Comando | O que acontece com a linha |
 |---------|--------------------------|
-| [Move](./move) | Translada ambos os endpoints pelo mesmo deslocamento |
-| [Copy](./copy) | Cria uma linha idêntica em uma nova posição |
-| [Rotate](./rotate) | Rotaciona ambos os endpoints ao redor do ponto base escolhido |
-| [Mirror](./mirror) | Reflete ambos os endpoints em relação ao eixo espelho |
-| [Scale](./scale) | Escala ambos os endpoints uniformemente a partir do ponto base |
-| [Offset](./offset) | Cria uma linha paralela a distância perpendicular fixa |
-| [Trim](./trim) | Corta a linha nas interseções — **apenas linhas** |
-| [Extend](./extend) | Estica o endpoint mais próximo até atingir um limite — **apenas linhas** |
-| [Delete](./delete) | Remove a linha do desenho |
+| [Move](../move/) | Translada ambos os endpoints pelo mesmo deslocamento |
+| [Copy](../copy/) | Cria uma linha idêntica em uma nova posição |
+| [Rotate](../rotate/) | Rotaciona ambos os endpoints ao redor do ponto base escolhido |
+| [Mirror](../mirror/) | Reflete ambos os endpoints em relação ao eixo espelho |
+| [Scale](../scale/) | Escala ambos os endpoints uniformemente a partir do ponto base |
+| [Offset](../offset/) | Cria uma linha paralela a distância perpendicular fixa |
+| [Trim](../trim/) | Corta a linha nas interseções — **apenas linhas** |
+| [Extend](../extend/) | Estica o endpoint mais próximo até atingir um limite — **apenas linhas** |
+| [Delete](../delete/) | Remove a linha do desenho |
 
 ## Propriedades
 

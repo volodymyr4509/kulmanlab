@@ -44,6 +44,6 @@ There is no keyboard shortcut for this command. Use the **middle mouse button do
 
 | Command | What it does |
 |---------|-------------|
-| [Pan](./pan) | Shifts the viewport without zooming |
-| [Zoom In](./zoom-in) | Multiplies zoom by 1.5× per step |
-| [Zoom Out](./zoom-out) | Divides zoom by 1.5× per step |
+| [Pan](../pan/) | Shifts the viewport without zooming |
+| [Zoom In](../zoom-in/) | Multiplies zoom by 1.5× per step |
+| [Zoom Out](../zoom-out/) | Divides zoom by 1.5× per step |

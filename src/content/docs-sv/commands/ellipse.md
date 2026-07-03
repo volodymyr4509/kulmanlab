@@ -81,13 +81,13 @@ Stor- och lillaxelns grepp är oberoende — du kan omforma ellipsen utan att k�
 
 | Kommando | Vad som händer med ellipsen |
 |---------|-----------------------------|
-| [Move](./move) | Flyttar centrum; båda axlarna oförändrade |
-| [Copy](./copy) | Skapar en identisk ellips med ett nytt centrum |
-| [Rotate](./rotate) | Roterar centrumpositionen och storaxelvektorn med samma vinkel |
-| [Mirror](./mirror) | Speglar centrum och räknar om storaxelns riktning över spegelaxeln |
-| [Scale](./scale) | Skalar centrumpositionen och multiplicerar båda halvaxellängderna med faktorn |
-| [Offset](./offset) | Skapar en koncentrisk ellips förskjuten utåt eller inåt med ett fast avstånd |
-| [Delete](./delete) | Tar bort ellipsen |
+| [Move](../move/) | Flyttar centrum; båda axlarna oförändrade |
+| [Copy](../copy/) | Skapar en identisk ellips med ett nytt centrum |
+| [Rotate](../rotate/) | Roterar centrumpositionen och storaxelvektorn med samma vinkel |
+| [Mirror](../mirror/) | Speglar centrum och räknar om storaxelns riktning över spegelaxeln |
+| [Scale](../scale/) | Skalar centrumpositionen och multiplicerar båda halvaxellängderna med faktorn |
+| [Offset](../offset/) | Skapar en koncentrisk ellips förskjuten utåt eller inåt med ett fast avstånd |
+| [Delete](../delete/) | Tar bort ellipsen |
 
 ## Egenskaper
 

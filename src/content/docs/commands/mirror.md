@@ -7,7 +7,7 @@ keywords: [CAD mirror command, reflect entities CAD, mirror symmetry CAD, flip o
 
 # Mirror
 
-The `mirror` command creates mirrored copies of selected entities reflected across a two-point axis. The originals are **always kept** — unlike [Move](./move) or [Rotate](./rotate), Mirror never modifies existing entities; it only adds new ones.
+The `mirror` command creates mirrored copies of selected entities reflected across a two-point axis. The originals are **always kept** — unlike [Move](../move/) or [Rotate](../rotate/), Mirror never modifies existing entities; it only adds new ones.
 
 ## Two ways to start
 

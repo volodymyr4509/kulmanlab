@@ -7,7 +7,7 @@ keywords: [CAO zoom out, réduire zoom viewport, commande zoom out, vue d'ensemb
 
 # Zoom Out
 
-La commande `zoomout` divise le niveau de zoom actuel par **1,5×** (équivalent à multiplier par ~0,667) et se termine immédiatement, centré sur le point médian du viewport. C'est l'inverse de [Zoom In](./zoom-in).
+La commande `zoomout` divise le niveau de zoom actuel par **1,5×** (équivalent à multiplier par ~0,667) et se termine immédiatement, centré sur le point médian du viewport. C'est l'inverse de [Zoom In](../zoom-in/).
 
 ## Zoomer en arrière
 
@@ -41,6 +41,6 @@ Aucun raccourci clavier pour cette commande. Utilisez la molette de souris à la
 
 | Commande | Action |
 |----------|--------|
-| [Zoom In](./zoom-in) | Multiplie le zoom par 1,5× par étape |
-| [Fit](./fit) | Réinitialise le zoom pour afficher toutes les entités |
-| [Pan](./pan) | Déplace le viewport sans zoomer |
+| [Zoom In](../zoom-in/) | Multiplie le zoom par 1,5× par étape |
+| [Fit](../fit/) | Réinitialise le zoom pour afficher toutes les entités |
+| [Pan](../pan/) | Déplace le viewport sans zoomer |

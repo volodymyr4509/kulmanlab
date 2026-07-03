@@ -7,7 +7,7 @@ keywords: [polecenie fazowania CAD, fazowanie linii CAD, ukośne cięcie narożn
 
 # Fazowanie
 
-Polecenie `chamfer` ścina prosty ukośny narożnik między dwoma elementami [Linia](./line) lub [Polilinia](./polyline). Podajesz odległość cofnięcia wzdłuż każdego elementu (d1 i d2), a polecenie przycina oba elementy do tych punktów i wstawia łączącą linię między nimi.
+Polecenie `chamfer` ścina prosty ukośny narożnik między dwoma elementami [Linia](../line/) lub [Polilinia](../polyline/). Podajesz odległość cofnięcia wzdłuż każdego elementu (d1 i d2), a polecenie przycina oba elementy do tych punktów i wstawia łączącą linię między nimi.
 
 Użycie równych odległości daje symetryczne cięcie pod kątem 45°; różne odległości dają niesymetryczne fazowanie.
 

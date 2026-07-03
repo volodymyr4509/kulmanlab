@@ -47,4 +47,4 @@ Après avoir placé une fenêtre, cliquez dessus pour la sélectionner :
 ## Notes
 
 - ViewportRectangle n'est disponible que lorsqu'un onglet de mise en page papier est actif. L'exécuter dans l'espace modèle affiche un message d'erreur et quitte.
-- Pour copier une fenêtre existante, utilisez [ViewportCopy](./viewport-copy).
+- Pour copier une fenêtre existante, utilisez [ViewportCopy](../viewport-copy/).

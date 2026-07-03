@@ -7,7 +7,7 @@ keywords: [commande extend CAO, prolonger ligne CAO, étirer ligne jusqu'à limi
 
 # Extend
 
-La commande `extend` prolonge le point final le plus proche d'une [Line](./line) survolée jusqu'à l'intersection la plus proche qu'elle formerait avec une autre entité du dessin. Survolez près du point final que vous souhaitez prolonger — un aperçu montre la ligne prolongée — puis cliquez pour appliquer.
+La commande `extend` prolonge le point final le plus proche d'une [Line](../line/) survolée jusqu'à l'intersection la plus proche qu'elle formerait avec une autre entité du dessin. Survolez près du point final que vous souhaitez prolonger — un aperçu montre la ligne prolongée — puis cliquez pour appliquer.
 
 Extend fonctionne sur les **entités Line uniquement**. Les limites vers lesquelles la ligne se prolonge peuvent être n'importe quel autre type d'entité sauf Text, Mtext, Multileader et Spline.
 

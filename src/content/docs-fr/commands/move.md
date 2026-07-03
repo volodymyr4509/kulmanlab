@@ -71,7 +71,7 @@ Une fois le point de base défini, la commande surveille un axe de verrouillage 
 
 ## Activer Move depuis une poignée
 
-Cliquer sur la **poignée de point médian** d'une [Line](./line) sélectionnée lance Move automatiquement, avec le point médian déjà défini comme point de base et la phase de déplacement active. C'est le moyen le plus rapide de repositionner une seule ligne sans passer par l'étape de sélection.
+Cliquer sur la **poignée de point médian** d'une [Line](../line/) sélectionnée lance Move automatiquement, avec le point médian déjà défini comme point de base et la phase de déplacement active. C'est le moyen le plus rapide de repositionner une seule ligne sans passer par l'étape de sélection.
 
 ## Sélection pendant la commande
 
@@ -88,7 +88,7 @@ Lorsque la commande démarre en phase de sélection :
 
 Les entités déplacées restent sélectionnées à leur nouvelle position. Cela signifie que vous pouvez immédiatement :
 - Relancer **Move** pour les ajuster davantage.
-- Lancer [Copy](./copy), [Rotate](./rotate), ou [Scale](./scale) sans re-sélectionner.
+- Lancer [Copy](../copy/), [Rotate](../rotate/), ou [Scale](../scale/) sans re-sélectionner.
 - Appuyer sur **Suppr** pour les supprimer.
 
 ## Move vs Copy

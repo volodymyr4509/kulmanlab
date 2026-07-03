@@ -55,5 +55,5 @@ Badala ya kubonyeza, unaweza kuandika nafasi sahihi:
 
 | Amri | Inafanya nini |
 |------|--------------|
-| [Leader](./leader) | Unda multileader mpya kabisa kutoka mwanzo |
-| [Leader−](./leader-remove) | Ondoa mkono kutoka kwa multileader yenye mikono miwili au zaidi |
+| [Leader](../leader/) | Unda multileader mpya kabisa kutoka mwanzo |
+| [Leader−](../leader-remove/) | Ondoa mkono kutoka kwa multileader yenye mikono miwili au zaidi |

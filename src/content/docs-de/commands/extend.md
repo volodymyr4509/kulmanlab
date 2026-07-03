@@ -7,7 +7,7 @@ keywords: [CAD-Extend-Befehl, Linie verlängern CAD, Linie zur Begrenzung dehnen
 
 # Extend
 
-Der `extend`-Befehl dehnt den nächsten Endpunkt einer [Line](./line) bis zum nächsten Schnittpunkt, den sie mit einem anderen Element in der Zeichnung bilden würde. Hovern Sie nahe dem Endpunkt, den Sie verlängern möchten — eine Vorschau zeigt die verlängerte Linie — dann klicken Sie, um anzuwenden.
+Der `extend`-Befehl dehnt den nächsten Endpunkt einer [Line](../line/) bis zum nächsten Schnittpunkt, den sie mit einem anderen Element in der Zeichnung bilden würde. Hovern Sie nahe dem Endpunkt, den Sie verlängern möchten — eine Vorschau zeigt die verlängerte Linie — dann klicken Sie, um anzuwenden.
 
 Extend funktioniert **nur mit Line-Elementen**. Die Begrenzungen, bis zu denen die Linie verlängert wird, können jeder andere Elementtyp außer Text, Mtext, Multileader und Spline sein.
 

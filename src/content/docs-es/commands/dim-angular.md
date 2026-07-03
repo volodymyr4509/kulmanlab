@@ -64,7 +64,7 @@ Consulta [Editor de Texto — simple mode](../interface/text-editor#simple-mode)
 
 ## Comandos relacionados
 
-- [Dimension Linear](./dim-linear) — cota horizontal o vertical
-- [Dimension Aligned](./dim-aligned) — cota alineada a dos puntos
-- [Dimension Radius](./dim-radius) — cota de radio para arcos y círculos
-- [Dimension Diameter](./dim-diameter) — cota de diámetro para círculos
+- [Dimension Linear](../dim-linear/) — cota horizontal o vertical
+- [Dimension Aligned](../dim-aligned/) — cota alineada a dos puntos
+- [Dimension Radius](../dim-radius/) — cota de radio para arcos y círculos
+- [Dimension Diameter](../dim-diameter/) — cota de diámetro para círculos

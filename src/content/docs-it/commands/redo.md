@@ -7,7 +7,7 @@ keywords: [CAD comando redo, cronologia redo CAD, riapplica azione CAD, undo red
 
 # Redo
 
-Il comando `redo` avanza nella cronologia degli annullamenti, riapplicando le azioni invertite da [Undo](./undo). Redo è disponibile solo quando hai fatto un passo indietro con Undo e non hai ancora effettuato una nuova modifica.
+Il comando `redo` avanza nella cronologia degli annullamenti, riapplicando le azioni invertite da [Undo](../undo/). Redo è disponibile solo quando hai fatto un passo indietro con Undo e non hai ancora effettuato una nuova modifica.
 
 ## Come eseguire il redo
 
@@ -20,7 +20,7 @@ Ogni invocazione riapplica un'azione precedentemente annullata. Invocalo ripetut
 
 | Dettaglio | Comportamento |
 |-----------|--------------|
-| Disponibile dopo | Uno o più passi [Undo](./undo) |
+| Disponibile dopo | Uno o più passi [Undo](../undo/) |
 | Cancellato da | **Qualsiasi nuova azione di disegno** — aggiunta, modifica o eliminazione di un'entità |
 | Archiviazione | Browser, per file — sopravvive al ricaricamento della pagina (purché nessuna nuova azione sia stata effettuata prima del ricaricamento) |
 | Profondità massima | Fino a 20 voci (stesso pool di Undo) |
@@ -35,4 +35,4 @@ Una volta che una nuova entità viene disegnata, eliminata o modificata, lo stac
 | Disponibile quando | Dopo almeno un Undo, senza nuove azioni effettuate | Esiste almeno un'azione registrata |
 | Cancellato da | Qualsiasi nuova azione di disegno | Nulla |
 
-Il pulsante Redo nella barra degli strumenti è disattivato quando non ci sono voci da rifare. Usa prima [Undo](./undo) per creare voci di redo.
+Il pulsante Redo nella barra degli strumenti è disattivato quando non ci sono voci da rifare. Usa prima [Undo](../undo/) per creare voci di redo.

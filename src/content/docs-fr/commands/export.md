@@ -45,7 +45,7 @@ Seules les entités géométriques sont incluses :
 - Lignes, cercles, arcs, ellipses, polylignes (exportées comme `LWPOLYLINE`), splines, texte
 - Définitions de calques et tables de types de ligne
 
-**Non inclus dans DXF :** entités de cotes et multirépères. Ceux-ci utilisent des structures de données spécifiques à KulmanLab qui ne peuvent pas être représentées fidèlement en DXF standard. Si votre dessin comporte des annotations, utilisez JSON ou [Print](./print) pour les capturer visuellement.
+**Non inclus dans DXF :** entités de cotes et multirépères. Ceux-ci utilisent des structures de données spécifiques à KulmanLab qui ne peuvent pas être représentées fidèlement en DXF standard. Si votre dessin comporte des annotations, utilisez JSON ou [Print](../print/) pour les capturer visuellement.
 
 ## Nom du fichier exporté
 
@@ -60,10 +60,10 @@ Le fichier téléchargé porte le nom du fichier de dessin actuel (ex. `myplan_M
 | Préserve calques et types de ligne | Oui | Non (rendu plat) |
 | Capture cotes et répères | JSON uniquement | Oui |
 
-Utilisez **Export** quand vous avez besoin d'un fichier modifiable. Utilisez [Print](./print) quand vous avez besoin d'un instantané visuel.
+Utilisez **Export** quand vous avez besoin d'un fichier modifiable. Utilisez [Print](../print/) quand vous avez besoin d'un instantané visuel.
 
 ## Commandes associées
 
-- [Import](./import) — ouvrir un fichier DXF ou JSON
-- [Print](./print) — exporter le canevas en image PNG, JPEG, WebP ou PDF
-- [Files](./files) — parcourir les dessins sauvegardés dans le stockage du navigateur
+- [Import](../import/) — ouvrir un fichier DXF ou JSON
+- [Print](../print/) — exporter le canevas en image PNG, JPEG, WebP ou PDF
+- [Files](../files/) — parcourir les dessins sauvegardés dans le stockage du navigateur

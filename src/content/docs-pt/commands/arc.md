@@ -71,13 +71,13 @@ Arrastar um grip de início ou fim reposiciona-o no local de arraste e recalcula
 
 | Comando | Efeito no arco |
 |---------|---------------|
-| [Move](./move) | Translada o centro; raio e ângulos inalterados |
-| [Copy](./copy) | Cria um arco idêntico numa nova posição |
-| [Rotate](./rotate) | Roda o centro e desloca os ângulos de início/fim pela quantidade de rotação |
-| [Mirror](./mirror) | Reflete o centro e inverte os ângulos de início/fim em relação ao eixo especular |
-| [Scale](./scale) | Escala a posição do centro e multiplica o raio pelo fator de escala |
-| [Offset](./offset) | Cria um arco concêntrico a raio maior ou menor, mesmo intervalo angular |
-| [Delete](./delete) | Remove o arco |
+| [Move](../move/) | Translada o centro; raio e ângulos inalterados |
+| [Copy](../copy/) | Cria um arco idêntico numa nova posição |
+| [Rotate](../rotate/) | Roda o centro e desloca os ângulos de início/fim pela quantidade de rotação |
+| [Mirror](../mirror/) | Reflete o centro e inverte os ângulos de início/fim em relação ao eixo especular |
+| [Scale](../scale/) | Escala a posição do centro e multiplica o raio pelo fator de escala |
+| [Offset](../offset/) | Cria um arco concêntrico a raio maior ou menor, mesmo intervalo angular |
+| [Delete](../delete/) | Remove o arco |
 
 ## Propriedades
 

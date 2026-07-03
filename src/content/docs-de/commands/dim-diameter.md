@@ -7,7 +7,7 @@ keywords: [CAD-Durchmesserbemaßung, dimdiameter, Kreisdurchmesser beschriften, 
 
 # Dimension Diameter
 
-Der `dimdiameter`-Befehl platziert eine Durchmesserbemaßung auf einem Bogen oder Kreis. Die Bemaßungslinie erstreckt sich über den gesamten Durchmesser — durch den Mittelpunkt zwischen zwei diametral gegenüberliegenden Bogenpunkten — und ist mit `⌀ <Wert>` beschriftet. Um stattdessen nur den Radius vom Mittelpunkt bis zur Kante zu beschriften, verwenden Sie [Dimension Radius](./dim-radius).
+Der `dimdiameter`-Befehl platziert eine Durchmesserbemaßung auf einem Bogen oder Kreis. Die Bemaßungslinie erstreckt sich über den gesamten Durchmesser — durch den Mittelpunkt zwischen zwei diametral gegenüberliegenden Bogenpunkten — und ist mit `⌀ <Wert>` beschriftet. Um stattdessen nur den Radius vom Mittelpunkt bis zur Kante zu beschriften, verwenden Sie [Dimension Radius](../dim-radius/).
 
 ## Aufbau einer Durchmesserbemaßung
 

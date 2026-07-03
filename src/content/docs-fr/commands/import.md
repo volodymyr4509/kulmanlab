@@ -46,13 +46,13 @@ Les entités utilisant des types DXF non pris en charge sont ignorées silencieu
 
 ## Nom et stockage des fichiers
 
-Lors de l'importation d'un fichier, un horodatage est ajouté au nom du fichier (ex. `myplan_May22_14:30:00.dxf`). Cela permet de conserver plusieurs versions du même dessin dans [Fichiers Récents](./files) sans conflits de nom. Si le nom du fichier contient déjà un horodatage, il est utilisé tel quel.
+Lors de l'importation d'un fichier, un horodatage est ajouté au nom du fichier (ex. `myplan_May22_14:30:00.dxf`). Cela permet de conserver plusieurs versions du même dessin dans [Fichiers Récents](../files/) sans conflits de nom. Si le nom du fichier contient déjà un horodatage, il est utilisé tel quel.
 
-Le dessin est automatiquement sauvegardé dans le stockage du navigateur (IndexedDB) après l'importation, il apparaît donc dans le panneau [Files](./files) et survit aux rechargements de page.
+Le dessin est automatiquement sauvegardé dans le stockage du navigateur (IndexedDB) après l'importation, il apparaît donc dans le panneau [Files](../files/) et survit aux rechargements de page.
 
 ## Ce qui se passe avec le dessin actuel
 
-L'importation remplace le canevas actuel. Il n'y a pas de fusion ni d'ajout. Si vous avez des modifications non enregistrées, [exportez](./export) d'abord le dessin actuel.
+L'importation remplace le canevas actuel. Il n'y a pas de fusion ni d'ajout. Si vous avez des modifications non enregistrées, [exportez](../export/) d'abord le dessin actuel.
 
 ## Au démarrage
 
@@ -68,6 +68,6 @@ KulmanLab rouvre automatiquement le fichier modifié le plus récemment quand la
 
 ## Commandes associées
 
-- [Export](./export) — télécharger le dessin actuel en DXF ou JSON
-- [Files](./files) — parcourir et restaurer les dessins sauvegardés dans le navigateur
-- [New File](./new-file) — démarrer un dessin vierge
+- [Export](../export/) — télécharger le dessin actuel en DXF ou JSON
+- [Files](../files/) — parcourir et restaurer les dessins sauvegardés dans le navigateur
+- [New File](../new-file/) — démarrer un dessin vierge

@@ -5,7 +5,7 @@ description: Lệnh Dimension Linear đo khoảng cách ngang hoặc dọc giữ
 
 # Kích Thước Tuyến Tính
 
-Lệnh `dimlinear` đặt kích thước ngang hoặc dọc giữa hai điểm gốc gióng. Đường kích thước luôn chạy hoàn toàn ngang hoặc dọc — không thể đặt theo góc tùy ý. Dùng [Kích Thước Căn Chỉnh](./dim-aligned) khi cần kích thước song song với đường chéo.
+Lệnh `dimlinear` đặt kích thước ngang hoặc dọc giữa hai điểm gốc gióng. Đường kích thước luôn chạy hoàn toàn ngang hoặc dọc — không thể đặt theo góc tùy ý. Dùng [Kích Thước Căn Chỉnh](../dim-aligned/) khi cần kích thước song song với đường chéo.
 
 ## Cấu trúc kích thước tuyến tính
 
@@ -66,7 +66,7 @@ Xem [Trình Soạn Thảo Văn Bản — chế độ đơn giản](../interface/
 
 ## Nối tiếp kích thước
 
-Để thêm các kích thước tiếp tục từ đường gióng cuối cùng, dùng [Kích Thước Tiếp Tục](./dim-continue) ngay sau khi đặt kích thước này.
+Để thêm các kích thước tiếp tục từ đường gióng cuối cùng, dùng [Kích Thước Tiếp Tục](../dim-continue/) ngay sau khi đặt kích thước này.
 
 ## DXF — thực thể DIMENSION
 

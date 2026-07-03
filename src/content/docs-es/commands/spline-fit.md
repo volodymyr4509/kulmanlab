@@ -7,7 +7,7 @@ keywords: [comando spline fit CAD, spline interpolada CAD, spline a través de p
 
 # Spline Fit
 
-El comando `splinefit` dibuja una spline cúbica que pasa por cada punto que hagas clic — una curva interpolada. A diferencia de [Spline CV](./spline-cv), donde la curva solo es atraída hacia los vértices de control, aquí la curva está obligada a pasar exactamente por cada coordenada clicada. Internamente el editor ajusta los vértices de control para lograrlo, y esos CVs se almacenan junto con los puntos de ajuste en el archivo DXF.
+El comando `splinefit` dibuja una spline cúbica que pasa por cada punto que hagas clic — una curva interpolada. A diferencia de [Spline CV](../spline-cv/), donde la curva solo es atraída hacia los vértices de control, aquí la curva está obligada a pasar exactamente por cada coordenada clicada. Internamente el editor ajusta los vértices de control para lograrlo, y esos CVs se almacenan junto con los puntos de ajuste en el archivo DXF.
 
 ## Dibujar una spline a través de puntos de ajuste
 
@@ -51,7 +51,7 @@ Una spline de ajuste seleccionada expone un agarre por punto de ajuste:
 
 Arrastrar un agarre reajusta toda la curva, no solo los segmentos adyacentes. Esto difiere de la edición de agarres de polilíneas, donde mover un vértice solo reforma los dos segmentos adyacentes.
 
-No hay un agarre de "mover toda la spline". Para trasladar la spline completa, usa el comando [Move](./move).
+No hay un agarre de "mover toda la spline". Para trasladar la spline completa, usa el comando [Move](../move/).
 
 ## Seleccionar splines de ajuste
 
@@ -65,12 +65,12 @@ No hay un agarre de "mover toda la spline". Para trasladar la spline completa, u
 
 | Comando | Qué ocurre con la spline |
 |---------|--------------------------|
-| [Move](./move) | Traslada todos los puntos de ajuste y los CVs recalculados con el mismo desplazamiento |
-| [Copy](./copy) | Crea una spline idéntica en una nueva posición |
-| [Rotate](./rotate) | Rota todos los puntos de ajuste alrededor del punto base elegido |
-| [Mirror](./mirror) | Refleja todos los puntos de ajuste respecto al eje de simetría |
-| [Scale](./scale) | Escala todos los puntos de ajuste uniformemente desde el punto base |
-| [Delete](./delete) | Elimina la spline |
+| [Move](../move/) | Traslada todos los puntos de ajuste y los CVs recalculados con el mismo desplazamiento |
+| [Copy](../copy/) | Crea una spline idéntica en una nueva posición |
+| [Rotate](../rotate/) | Rota todos los puntos de ajuste alrededor del punto base elegido |
+| [Mirror](../mirror/) | Refleja todos los puntos de ajuste respecto al eje de simetría |
+| [Scale](../scale/) | Escala todos los puntos de ajuste uniformemente desde el punto base |
+| [Delete](../delete/) | Elimina la spline |
 
 Las splines no admiten **Offset**, **Trim** ni **Extend**.
 

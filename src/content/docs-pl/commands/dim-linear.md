@@ -7,7 +7,7 @@ keywords: [wymiar liniowy CAD, wymiar poziomy CAD, wymiar pionowy CAD, dimlinear
 
 # Wymiar liniowy
 
-Polecenie `dimlinear` umieszcza wymiar poziomy lub pionowy między dwoma punktami początku linii przedłużenia. Linia wymiarowa przebiega zawsze idealnie poziomo lub idealnie pionowo — nie można jej umieścić pod dowolnym kątem. Użyj [Wymiaru wyrównanego](./dim-aligned), gdy potrzebujesz wymiaru równoległego do ukośnej linii.
+Polecenie `dimlinear` umieszcza wymiar poziomy lub pionowy między dwoma punktami początku linii przedłużenia. Linia wymiarowa przebiega zawsze idealnie poziomo lub idealnie pionowo — nie można jej umieścić pod dowolnym kątem. Użyj [Wymiaru wyrównanego](../dim-aligned/), gdy potrzebujesz wymiaru równoległego do ukośnej linii.
 
 ## Anatomia wymiaru liniowego
 
@@ -89,7 +89,7 @@ Zobacz [Edytor tekstu — tryb simple](../interface/text-editor#simple-mode) w c
 
 ## Łączenie wymiarów
 
-Aby dodać więcej wymiarów kontynuowanych od ostatniej linii przedłużenia, użyj [Wymiaru kontynuowanego](./dim-continue) bezpośrednio po umieszczeniu tego.
+Aby dodać więcej wymiarów kontynuowanych od ostatniej linii przedłużenia, użyj [Wymiaru kontynuowanego](../dim-continue/) bezpośrednio po umieszczeniu tego.
 
 ## DXF — element DIMENSION
 

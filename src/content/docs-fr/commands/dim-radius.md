@@ -7,7 +7,7 @@ keywords: [cote rayon CAO, dimradius, annoter rayon cercle, cote rayon arc, cote
 
 # Dimension Radius
 
-La commande `dimradius` place une cote de rayon sur un arc ou un cercle. La ligne de cote va du centre à un point sur la circonférence dans la direction du curseur, étiquetée `R <valeur>`. Pour coter un diamètre complet, utilisez [Dimension Diameter](./dim-diameter).
+La commande `dimradius` place une cote de rayon sur un arc ou un cercle. La ligne de cote va du centre à un point sur la circonférence dans la direction du curseur, étiquetée `R <valeur>`. Pour coter un diamètre complet, utilisez [Dimension Diameter](../dim-diameter/).
 
 ## Anatomie d'une cote de rayon
 

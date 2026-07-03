@@ -45,7 +45,7 @@ Viumbe vya jiometri pekee vimejumuishwa:
 - Mistari, duara, archi, duaradufu, polyline (zinaexportwa kama `LWPOLYLINE`), spline, maandishi
 - Ufafanuzi wa tabaka na jedwali za aina za mstari
 
-**Haijajumuishwa katika DXF:** viumbe vya kipimo na vielelezo vingi. Hizi hutumia miundo ya data maalum ya KulmanLab ambayo haiwezi kuwakilishwa kikamilifu katika DXF ya kawaida. Ikiwa mchoro wako una maelezo, tumia JSON au [Print](./print) kuyakamata kwa njia ya kuona.
+**Haijajumuishwa katika DXF:** viumbe vya kipimo na vielelezo vingi. Hizi hutumia miundo ya data maalum ya KulmanLab ambayo haiwezi kuwakilishwa kikamilifu katika DXF ya kawaida. Ikiwa mchoro wako una maelezo, tumia JSON au [Print](../print/) kuyakamata kwa njia ya kuona.
 
 ## Jina la faili lililoorodheshwa
 
@@ -60,10 +60,10 @@ Faili linalopakuliwa lina jina la faili la mchoro wa sasa (mfano: `myplan_May22_
 | Huhifadhi tabaka na aina za mstari | Ndiyo | Hapana (inatolewa tambarare) |
 | Hunakili vipimo na viongozi | JSON pekee | Ndiyo |
 
-Tumia **Export** unapohitaji faili linaloweza kuhaririwa. Tumia [Print](./print) unapohitaji picha ya kuona.
+Tumia **Export** unapohitaji faili linaloweza kuhaririwa. Tumia [Print](../print/) unapohitaji picha ya kuona.
 
 ## Amri zinazohusiana
 
-- [Import](./import) — fungua faili la DXF au JSON
-- [Print](./print) — exporta turubai kama picha ya PNG, JPEG, WebP, au PDF
-- [Files](./files) — vinjari michoro iliyohifadhiwa katika hifadhi ya kivinjari
+- [Import](../import/) — fungua faili la DXF au JSON
+- [Print](../print/) — exporta turubai kama picha ya PNG, JPEG, WebP, au PDF
+- [Files](../files/) — vinjari michoro iliyohifadhiwa katika hifadhi ya kivinjari

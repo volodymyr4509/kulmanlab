@@ -45,7 +45,7 @@ Geometry-only entities are included:
 - Lines, circles, arcs, ellipses, polylines (exported as `LWPOLYLINE`), splines, text
 - Layer definitions and linetype tables
 
-**Not included in DXF:** dimension entities and multileaders. These use KulmanLab-specific data structures that cannot be represented faithfully in standard DXF. If your drawing has annotations, use JSON or [Print](./print) to capture them visually.
+**Not included in DXF:** dimension entities and multileaders. These use KulmanLab-specific data structures that cannot be represented faithfully in standard DXF. If your drawing has annotations, use JSON or [Print](../print/) to capture them visually.
 
 ## Exported file name
 
@@ -60,10 +60,10 @@ The downloaded file is named after the current drawing file (e.g. `myplan_May22_
 | Preserves layers & linetypes | Yes | No (rendered flat) |
 | Captures dimensions & leaders | JSON only | Yes |
 
-Use **Export** when you need an editable file. Use [Print](./print) when you need a visual snapshot.
+Use **Export** when you need an editable file. Use [Print](../print/) when you need a visual snapshot.
 
 ## Related commands
 
-- [Import](./import) — open a DXF or JSON file
-- [Print](./print) — export the canvas as a PNG, JPEG, WebP, or PDF image
-- [Files](./files) — browse drawings saved in browser storage
+- [Import](../import/) — open a DXF or JSON file
+- [Print](../print/) — export the canvas as a PNG, JPEG, WebP, or PDF image
+- [Files](../files/) — browse drawings saved in browser storage

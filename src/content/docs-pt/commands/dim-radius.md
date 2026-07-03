@@ -7,7 +7,7 @@ keywords: [CAD cota raio, dimradius, anotar raio círculo, cota raio arco, cota 
 
 # Dimension Radius
 
-O comando `dimradius` posiciona uma cota de raio num arco ou círculo. A linha de cota vai do centro a um ponto na circunferência na direção do cursor, etiquetada `R <valor>`. Para dimensionar um diâmetro completo, use [Dimension Diameter](./dim-diameter).
+O comando `dimradius` posiciona uma cota de raio num arco ou círculo. A linha de cota vai do centro a um ponto na circunferência na direção do cursor, etiquetada `R <valor>`. Para dimensionar um diâmetro completo, use [Dimension Diameter](../dim-diameter/).
 
 ## Anatomia de uma cota de raio
 

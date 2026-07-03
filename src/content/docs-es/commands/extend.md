@@ -7,7 +7,7 @@ keywords: [comando extend CAD, extender línea CAD, estirar línea hasta límite
 
 # Extend
 
-El comando `extend` estira el extremo más cercano de una [Line](./line) hasta la intersección más próxima que formaría con otra entidad del dibujo. Pasa el cursor cerca del extremo que quieres extender — una vista previa muestra la línea extendida — luego haz clic para aplicar.
+El comando `extend` estira el extremo más cercano de una [Line](../line/) hasta la intersección más próxima que formaría con otra entidad del dibujo. Pasa el cursor cerca del extremo que quieres extender — una vista previa muestra la línea extendida — luego haz clic para aplicar.
 
 Extend funciona **solo con entidades Line**. Los límites hacia los que se extiende la línea pueden ser cualquier otro tipo de entidad excepto Text, Mtext, Multileader y Spline.
 

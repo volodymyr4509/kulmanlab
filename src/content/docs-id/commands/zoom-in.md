@@ -41,6 +41,6 @@ Tidak ada pintasan keyboard untuk perintah ini. Gunakan roda gulir sebagai ganti
 
 | Perintah | Fungsi |
 |---------|-------------|
-| [Zoom Out](./zoom-out) | Membagi zoom sebesar 1.5× per langkah |
-| [Fit](./fit) | Mengatur ulang zoom untuk menampilkan semua entitas |
-| [Pan](./pan) | Menggeser viewport tanpa zoom |
+| [Zoom Out](../zoom-out/) | Membagi zoom sebesar 1.5× per langkah |
+| [Fit](../fit/) | Mengatur ulang zoom untuk menampilkan semua entitas |
+| [Pan](../pan/) | Menggeser viewport tanpa zoom |

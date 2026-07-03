@@ -41,15 +41,15 @@ Unapofungua KulmanLab CAD, programu hupakia kiotomatiki **faili iliyobadilishwa 
 
 Hakuna kikomo maalum cha idadi ya michoro unayoweza kuhifadhi, lakini hifadhi ya kivinjari ina mipaka. Ikiwa utaona maonyo ya hifadhi, futa faili za zamani kutoka kwa jopo la Files.
 
-Ili kuondoa michoro yote iliyohifadhiwa mara moja, tumia amri ya [WipeStorage](./wipestorage).
+Ili kuondoa michoro yote iliyohifadhiwa mara moja, tumia amri ya [WipeStorage](../wipestorage/).
 
 ## Majina ya faili na matoleo
 
-Kila faili ina muhuri wa wakati katika jina lake (mfano `myplan_May22_14:30:00.dxf`). Muhuri huu wa wakati huongezwa kiotomatiki unapofanya [kuingiza](./import) faili, ikihakikisha kwamba kuingiza upya faili ile ile ya chanzo kunaunda ingizo jipya badala ya kubadilisha toleo la awali.
+Kila faili ina muhuri wa wakati katika jina lake (mfano `myplan_May22_14:30:00.dxf`). Muhuri huu wa wakati huongezwa kiotomatiki unapofanya [kuingiza](../import/) faili, ikihakikisha kwamba kuingiza upya faili ile ile ya chanzo kunaunda ingizo jipya badala ya kubadilisha toleo la awali.
 
 ## Amri zinazohusiana
 
-- [Import](./import) — pakia mchoro kutoka kwa mfumo wa faili wako kwenye hifadhi ya kivinjari
-- [Export](./export) — pakua mchoro kwenye mfumo wako wa faili
-- [New File](./new-file) — anza mchoro tupu (pia unahifadhiwa kiotomatiki)
-- [WipeStorage](./wipestorage) — futa faili zote zilizohifadhiwa kutoka kwa hifadhi ya kivinjari
+- [Import](../import/) — pakia mchoro kutoka kwa mfumo wa faili wako kwenye hifadhi ya kivinjari
+- [Export](../export/) — pakua mchoro kwenye mfumo wako wa faili
+- [New File](../new-file/) — anza mchoro tupu (pia unahifadhiwa kiotomatiki)
+- [WipeStorage](../wipestorage/) — futa faili zote zilizohifadhiwa kutoka kwa hifadhi ya kivinjari

@@ -46,13 +46,13 @@ Entiteter som använder DXF-typer som inte stöds hoppas tyst över — resten a
 
 ## Filnamn och lagring
 
-När du importerar en fil läggs en tidsstämpel till i filnamnet (till exempel `myplan_May22_14:30:00.dxf`). Detta gör att du kan behålla flera versioner av samma ritning i [Recent Files](./files) utan namnkollisioner. Om filnamnet redan innehåller en tidsstämpel används det som det är.
+När du importerar en fil läggs en tidsstämpel till i filnamnet (till exempel `myplan_May22_14:30:00.dxf`). Detta gör att du kan behålla flera versioner av samma ritning i [Recent Files](../files/) utan namnkollisioner. Om filnamnet redan innehåller en tidsstämpel används det som det är.
 
-Ritningen sparas automatiskt i webbläsarens lagring (IndexedDB) efter importen, så den visas i panelen [Files](./files) och överlever sidladdningar.
+Ritningen sparas automatiskt i webbläsarens lagring (IndexedDB) efter importen, så den visas i panelen [Files](../files/) och överlever sidladdningar.
 
 ## Vad som händer med den aktuella ritningen
 
-Import ersätter den aktuella ritytan. Det finns ingen sammanslagning eller tillägg. Om du har osparade ändringar, [exportera](./export) den aktuella ritningen först.
+Import ersätter den aktuella ritytan. Det finns ingen sammanslagning eller tillägg. Om du har osparade ändringar, [exportera](../export/) den aktuella ritningen först.
 
 ## Vid uppstart
 
@@ -68,6 +68,6 @@ KulmanLab öppnar automatiskt den senast redigerade filen när sidan laddas. Om 
 
 ## Relaterade kommandon
 
-- [Export](./export) — ladda ner den aktuella ritningen som DXF eller JSON
-- [Files](./files) — bläddra bland och återställ ritningar sparade i webbläsaren
-- [New File](./new-file) — starta en tom ritning
+- [Export](../export/) — ladda ner den aktuella ritningen som DXF eller JSON
+- [Files](../files/) — bläddra bland och återställ ritningar sparade i webbläsaren
+- [New File](../new-file/) — starta en tom ritning

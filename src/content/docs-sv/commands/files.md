@@ -41,15 +41,15 @@ När du öppnar KulmanLab CAD laddar appen automatiskt den **senast ändrade fil
 
 Det finns ingen fast gräns för antalet ritningar du kan spara, men webbläsarens lagring är begränsad. Om du märker lagringsvarningar, ta bort äldre filer från panelen Files.
 
-För att ta bort alla sparade ritningar på en gång, använd kommandot [WipeStorage](./wipestorage).
+För att ta bort alla sparade ritningar på en gång, använd kommandot [WipeStorage](../wipestorage/).
 
 ## Filnamn och versionshantering
 
-Varje fil har en tidsstämpel i namnet (t.ex. `myplan_May22_14:30:00.dxf`). Denna tidsstämpel läggs till automatiskt när du [importerar](./import) en fil, vilket säkerställer att en ny import av samma källfil skapar en ny post istället för att skriva över den föregående versionen.
+Varje fil har en tidsstämpel i namnet (t.ex. `myplan_May22_14:30:00.dxf`). Denna tidsstämpel läggs till automatiskt när du [importerar](../import/) en fil, vilket säkerställer att en ny import av samma källfil skapar en ny post istället för att skriva över den föregående versionen.
 
 ## Relaterade kommandon
 
-- [Import](./import) — ladda en ritning från ditt filsystem till webbläsarens lagring
-- [Export](./export) — ladda ner en ritning till ditt filsystem
-- [New File](./new-file) — starta en tom ritning (sparas också automatiskt)
-- [WipeStorage](./wipestorage) — rensa alla sparade filer från webbläsarens lagring
+- [Import](../import/) — ladda en ritning från ditt filsystem till webbläsarens lagring
+- [Export](../export/) — ladda ner en ritning till ditt filsystem
+- [New File](../new-file/) — starta en tom ritning (sparas också automatiskt)
+- [WipeStorage](../wipestorage/) — rensa alla sparade filer från webbläsarens lagring

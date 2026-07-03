@@ -7,7 +7,7 @@ keywords: [CAD cota alinhada, dimaligned, cota diagonal CAD, cota distância rea
 
 # Dimension Aligned
 
-O comando `dimaligned` posiciona uma cota que mede a **distância real em linha reta** entre dois pontos. A linha de cota é paralela à linha que conecta os dois pontos, podendo estar em qualquer ângulo. Esta é a diferença fundamental em relação ao [Dimension Linear](./dim-linear), que é restrito a horizontal ou vertical.
+O comando `dimaligned` posiciona uma cota que mede a **distância real em linha reta** entre dois pontos. A linha de cota é paralela à linha que conecta os dois pontos, podendo estar em qualquer ângulo. Esta é a diferença fundamental em relação ao [Dimension Linear](../dim-linear/), que é restrito a horizontal ou vertical.
 
 ## Anatomia de uma cota alinhada
 
@@ -80,7 +80,7 @@ Consulte [Editor de Texto — simple mode](../interface/text-editor#simple-mode)
 
 ## Encadeamento de cotas
 
-Para adicionar mais cotas continuando da segunda linha de extensão desta, use [Dimension Continue](./dim-continue) — ele bloqueia no mesmo ângulo de medição que esta cota alinhada.
+Para adicionar mais cotas continuando da segunda linha de extensão desta, use [Dimension Continue](../dim-continue/) — ele bloqueia no mesmo ângulo de medição que esta cota alinhada.
 
 ## DXF — entidade DIMENSION (tipo alinhado)
 

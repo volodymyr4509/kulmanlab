@@ -81,13 +81,13 @@ Major and minor axis grips are independent — you can reshape the ellipse witho
 
 | Command | What happens to the ellipse |
 |---------|-----------------------------|
-| [Move](./move) | Translates the center; both axes unchanged |
-| [Copy](./copy) | Creates an identical ellipse at a new center |
-| [Rotate](./rotate) | Rotates the center position and the major axis vector by the same angle |
-| [Mirror](./mirror) | Reflects the center and recalculates the major axis direction across the mirror axis |
-| [Scale](./scale) | Scales the center position and multiplies both semi-axis lengths by the factor |
-| [Offset](./offset) | Creates a concentric ellipse offset outward or inward by a fixed distance |
-| [Delete](./delete) | Removes the ellipse |
+| [Move](../move/) | Translates the center; both axes unchanged |
+| [Copy](../copy/) | Creates an identical ellipse at a new center |
+| [Rotate](../rotate/) | Rotates the center position and the major axis vector by the same angle |
+| [Mirror](../mirror/) | Reflects the center and recalculates the major axis direction across the mirror axis |
+| [Scale](../scale/) | Scales the center position and multiplies both semi-axis lengths by the factor |
+| [Offset](../offset/) | Creates a concentric ellipse offset outward or inward by a fixed distance |
+| [Delete](../delete/) | Removes the ellipse |
 
 ## Properties
 

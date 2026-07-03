@@ -64,7 +64,7 @@ Markup پینل میں **Dimension Angular** ٹول بار بٹن پر کلک ک
 
 ## متعلقہ کمانڈز
 
-- [Dimension Linear](./dim-linear) — افقی یا عمودی پیمائش
-- [Dimension Aligned](./dim-aligned) — دو نقاط سے سیدھ میں پیمائش
-- [Dimension Radius](./dim-radius) — قوس اور دائروں کے لیے نصف قطر پیمائش
-- [Dimension Diameter](./dim-diameter) — دائروں کے لیے قطر پیمائش
+- [Dimension Linear](../dim-linear/) — افقی یا عمودی پیمائش
+- [Dimension Aligned](../dim-aligned/) — دو نقاط سے سیدھ میں پیمائش
+- [Dimension Radius](../dim-radius/) — قوس اور دائروں کے لیے نصف قطر پیمائش
+- [Dimension Diameter](../dim-diameter/) — دائروں کے لیے قطر پیمائش

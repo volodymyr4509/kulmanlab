@@ -7,7 +7,7 @@ keywords: [CAD move command, translate entities CAD, move objects CAD, angle loc
 
 # Move
 
-Amri ya `move` hutafsiri vipengele vilivyochaguliwa kutoka nafasi moja hadi nyingine kwa kufafanua nukta ya msingi na nukta ya lengwa. Tofauti na [Copy](./copy), Move huondoa vipengele kutoka nafasi yake ya asili — hakuna nakala inayoundwa.
+Amri ya `move` hutafsiri vipengele vilivyochaguliwa kutoka nafasi moja hadi nyingine kwa kufafanua nukta ya msingi na nukta ya lengwa. Tofauti na [Copy](../copy/), Move huondoa vipengele kutoka nafasi yake ya asili — hakuna nakala inayoundwa.
 
 ## Njia mbili za kuanza
 

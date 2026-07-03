@@ -59,5 +59,5 @@ La geometria (coordinate, raggio, lunghezza, ecc.) non viene mai influenzata.
 
 ## Comandi correlati
 
-- [LayerMatch](./layer-match) — sposta le entità selezionate sullo stesso livello di una sorgente (solo proprietà del livello)
-- [LayerMakeCurrent](./layer-make-current) — imposta il livello di disegno attuale da un'entità cliccata
+- [LayerMatch](../layer-match/) — sposta le entità selezionate sullo stesso livello di una sorgente (solo proprietà del livello)
+- [LayerMakeCurrent](../layer-make-current/) — imposta il livello di disegno attuale da un'entità cliccata

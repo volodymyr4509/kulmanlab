@@ -7,7 +7,7 @@ keywords: [CAD zooma ut, minska vyportzoom, zoom out-kommando, översikt CAD, "1
 
 # Zoom Out
 
-`zoomout`-kommandot dividerar den aktuella zoomnivån med **1,5×** (motsvarar att multiplicera med ~0,667) och avslutas omedelbart, centrerat på vyportens mittpunkt. Det är motsatsen till [Zoom In](./zoom-in).
+`zoomout`-kommandot dividerar den aktuella zoomnivån med **1,5×** (motsvarar att multiplicera med ~0,667) och avslutas omedelbart, centrerat på vyportens mittpunkt. Det är motsatsen till [Zoom In](../zoom-in/).
 
 ## Zooma ut
 
@@ -41,6 +41,6 @@ Det finns inga tangentbordsgenvägar för det här kommandot. Använd scrollhjul
 
 | Kommando | Vad det gör |
 |---------|-------------|
-| [Zoom In](./zoom-in) | Multiplicerar zoomen med 1,5× per steg |
-| [Fit](./fit) | Återställer zoomen så alla entiteter visas |
-| [Pan](./pan) | Förskjuter vyporten utan att zooma |
+| [Zoom In](../zoom-in/) | Multiplicerar zoomen med 1,5× per steg |
+| [Fit](../fit/) | Återställer zoomen så alla entiteter visas |
+| [Pan](../pan/) | Förskjuter vyporten utan att zooma |

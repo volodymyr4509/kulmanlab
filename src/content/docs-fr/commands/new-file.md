@@ -21,22 +21,22 @@ Un fichier nouvellement créé commence avec :
 - **Un calque par défaut** nommé `0` avec une couleur blanche et un type de ligne `Continuous`.
 - Un **nom de fichier généré** au format `kulman-Mon01_HH:MM:SS.dxf` (ex. `kulman-May22_14:30:00.dxf`).
 
-Le fichier est automatiquement sauvegardé dans le stockage du navigateur et apparaît dans [Fichiers Récents](./files).
+Le fichier est automatiquement sauvegardé dans le stockage du navigateur et apparaît dans [Fichiers Récents](../files/).
 
 ## Avertissement — le travail non enregistré est perdu
 
-Cliquer sur **New File** supprime toutes les entités du canevas actuel sans avertissement. Si vous souhaitez conserver le dessin actuel, [exportez-le](./export) d'abord.
+Cliquer sur **New File** supprime toutes les entités du canevas actuel sans avertissement. Si vous souhaitez conserver le dessin actuel, [exportez-le](../export/) d'abord.
 
 ## Quand utiliser New File vs Import
 
 | Situation | Action recommandée |
 |-----------|-------------------|
 | Démarrer un dessin depuis zéro | **New File** |
-| Ouvrir un fichier DXF ou JSON existant | [Import](./import) |
-| Copier un dessin pour travailler sur une variante | [Exportez](./export) le fichier actuel, puis [importez](./import) la copie |
+| Ouvrir un fichier DXF ou JSON existant | [Import](../import/) |
+| Copier un dessin pour travailler sur une variante | [Exportez](../export/) le fichier actuel, puis [importez](../import/) la copie |
 
 ## Commandes associées
 
-- [Import](./import) — ouvrir un dessin DXF ou JSON existant
-- [Export](./export) — télécharger le dessin avant d'en commencer un nouveau
-- [Files](./files) — restaurer un dessin précédent depuis le stockage du navigateur
+- [Import](../import/) — ouvrir un dessin DXF ou JSON existant
+- [Export](../export/) — télécharger le dessin avant d'en commencer un nouveau
+- [Files](../files/) — restaurer un dessin précédent depuis le stockage du navigateur

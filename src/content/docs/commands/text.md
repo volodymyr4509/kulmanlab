@@ -75,12 +75,12 @@ A selected text label exposes one grip at the anchor point:
 
 | Command | What happens to the text |
 |---------|--------------------------|
-| [Move](./move) | Moves the anchor point |
-| [Copy](./copy) | Creates an identical label at a new position |
-| [Rotate](./rotate) | Rotates the anchor position and adds the angle to Rotation Degree |
-| [Mirror](./mirror) | Reflects the anchor point across the mirror axis (text string is not flipped) |
-| [Scale](./scale) | Scales the anchor position and multiplies the height by the scale factor |
-| [Delete](./delete) | Removes the label |
+| [Move](../move/) | Moves the anchor point |
+| [Copy](../copy/) | Creates an identical label at a new position |
+| [Rotate](../rotate/) | Rotates the anchor position and adds the angle to Rotation Degree |
+| [Mirror](../mirror/) | Reflects the anchor point across the mirror axis (text string is not flipped) |
+| [Scale](../scale/) | Scales the anchor position and multiplies the height by the scale factor |
+| [Delete](../delete/) | Removes the label |
 
 Text does not support **Offset**, **Trim**, or **Extend**.
 

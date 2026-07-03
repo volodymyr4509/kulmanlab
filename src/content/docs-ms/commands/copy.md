@@ -7,7 +7,7 @@ keywords: [arahan salin CAD, duplikasi entiti CAD, salin objek CAD, klon geometr
 
 # Copy
 
-Arahan `copy` mencipta duplikat entiti yang dipilih dan meletakkannya diimbangi dari titik asas ke destinasi — asal kekal tepat di mana ia berada. Ini adalah satu perbezaan utama dari [Move](./move): Copy menambah entiti baru ke lukisan; Move memindahkan yang sedia ada.
+Arahan `copy` mencipta duplikat entiti yang dipilih dan meletakkannya diimbangi dari titik asas ke destinasi — asal kekal tepat di mana ia berada. Ini adalah satu perbezaan utama dari [Move](../move/): Copy menambah entiti baru ke lukisan; Move memindahkan yang sedia ada.
 
 ## Dua cara untuk memulakan
 

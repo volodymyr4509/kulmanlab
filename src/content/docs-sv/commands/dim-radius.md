@@ -7,7 +7,7 @@ keywords: [CAD radiemått, dimradius, ange cirkelradie, bågradiemått, R-prefix
 
 # Dimension Radius
 
-`dimradius`-kommandot placerar ett radiemått på en båge eller cirkel. Måttlinjen går från centrum till en punkt på periferin i markörens riktning, märkt `R <värde>`. För att mäta en hel diameter istället, använd [Dimension Diameter](./dim-diameter).
+`dimradius`-kommandot placerar ett radiemått på en båge eller cirkel. Måttlinjen går från centrum till en punkt på periferin i markörens riktning, märkt `R <värde>`. För att mäta en hel diameter istället, använd [Dimension Diameter](../dim-diameter/).
 
 ## Anatomin hos ett radiemått
 

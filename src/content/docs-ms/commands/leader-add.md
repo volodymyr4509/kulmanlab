@@ -55,5 +55,5 @@ Daripada mengklik, anda boleh menaip kedudukan tepat:
 
 | Arahan | Fungsinya |
 |--------|-----------|
-| [Leader](./leader) | Cipta pelbagai pemimpin baharu dari awal |
-| [Leader−](./leader-remove) | Buang lengan dari pelbagai pemimpin yang mempunyai dua atau lebih |
+| [Leader](../leader/) | Cipta pelbagai pemimpin baharu dari awal |
+| [Leader−](../leader-remove/) | Buang lengan dari pelbagai pemimpin yang mempunyai dua atau lebih |

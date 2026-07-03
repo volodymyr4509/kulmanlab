@@ -47,4 +47,4 @@ After placing a viewport, click it to select it:
 ## Notes
 
 - ViewportRectangle is only available when a paper layout tab is active. Running it in model space shows an error message and exits.
-- To copy an existing viewport, use [ViewportCopy](./viewport-copy).
+- To copy an existing viewport, use [ViewportCopy](../viewport-copy/).

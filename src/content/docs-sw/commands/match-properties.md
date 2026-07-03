@@ -59,5 +59,5 @@ Jiometri (kuratibu, radius, urefu, n.k.) haiathiriwi kamwe.
 
 ## Amri zinazohusiana
 
-- [LayerMatch](./layer-match) — hamisha vipengele vilivyochaguliwa kwenye safu ile ile na chanzo (sifa ya safu tu)
-- [LayerMakeCurrent](./layer-make-current) — weka safu ya sasa ya kuchora kutoka kwa kipengele kilichobonyezwa
+- [LayerMatch](../layer-match/) — hamisha vipengele vilivyochaguliwa kwenye safu ile ile na chanzo (sifa ya safu tu)
+- [LayerMakeCurrent](../layer-make-current/) — weka safu ya sasa ya kuchora kutoka kwa kipengele kilichobonyezwa

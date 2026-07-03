@@ -15,7 +15,7 @@ keywords: [レイヤーフリーズ解除, 全レイヤー解除 CAD, kulmanlab 
 
 ## 使用するタイミング
 
-通常は [LayerIsolate](./layer-isolate) の後に使用して、すべてのレイヤーを通常の表示状態に戻します。
+通常は [LayerIsolate](../layer-isolate/) の後に使用して、すべてのレイヤーを通常の表示状態に戻します。
 
 ## 動作の詳細
 

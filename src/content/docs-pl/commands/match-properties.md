@@ -59,5 +59,5 @@ Geometria (współrzędne, promień, długość itp.) nigdy nie jest dotknięta.
 
 ## Powiązane polecenia
 
-- [DopasujWarstwę](./layer-match) — przenoszenie zaznaczonych elementów na tę samą warstwę co źródło (tylko właściwość warstwy)
-- [UstawAktywneWarstwy](./layer-make-current) — ustawianie bieżącej warstwy rysunkowej z klikniętego elementu
+- [DopasujWarstwę](../layer-match/) — przenoszenie zaznaczonych elementów na tę samą warstwę co źródło (tylko właściwość warstwy)
+- [UstawAktywneWarstwy](../layer-make-current/) — ustawianie bieżącej warstwy rysunkowej z klikniętego elementu

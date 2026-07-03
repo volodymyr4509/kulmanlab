@@ -55,5 +55,5 @@ Instead of clicking, you can type an exact position:
 
 | Command | What it does |
 |---------|-------------|
-| [Leader](./leader) | Create a brand-new multileader from scratch |
-| [Leader−](./leader-remove) | Remove an arm from a multileader that has two or more |
+| [Leader](../leader/) | Create a brand-new multileader from scratch |
+| [Leader−](../leader-remove/) | Remove an arm from a multileader that has two or more |

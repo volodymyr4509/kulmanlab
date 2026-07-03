@@ -47,5 +47,5 @@ Arahan mengukur jarak tegak lurus dari kursor ke setiap segmen garis lengan (ter
 
 | Arahan | Fungsinya |
 |--------|-----------|
-| [Leader](./leader) | Cipta pelbagai pemimpin baharu dari awal |
-| [Leader+](./leader-add) | Tambah lengan pada pelbagai pemimpin sedia ada |
+| [Leader](../leader/) | Cipta pelbagai pemimpin baharu dari awal |
+| [Leader+](../leader-add/) | Tambah lengan pada pelbagai pemimpin sedia ada |

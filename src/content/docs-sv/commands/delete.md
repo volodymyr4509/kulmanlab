@@ -7,7 +7,7 @@ keywords: [CAD delete-kommando, ta bort entiteter CAD, radera objekt CAD, delete
 
 # Delete
 
-`delete`-kommandot tar bort valda entiteter från ritningen. Borttagningar registreras i [Undo](./undo)-historiken och kan återställas upp till 20 steg. Det finns ingen separat "bekräfta borttagning"-dialog — bekräftelsen sker med ett enda tangenttryck.
+`delete`-kommandot tar bort valda entiteter från ritningen. Borttagningar registreras i [Undo](../undo/)-historiken och kan återställas upp till 20 steg. Det finns ingen separat "bekräfta borttagning"-dialog — bekräftelsen sker med ett enda tangenttryck.
 
 ## Två sätt att ta bort
 
@@ -43,7 +43,7 @@ Klicka på entitet → tryck på Delete-tangenten → klart
 
 ## Återställa borttagna entiteter
 
-Borttagningar kan ångras med [Undo](./undo)-kommandot (skriv `undo` eller använd knappen i verktygsfältet). Upp till **20 steg** kan återställas per fil, och historiken bevaras mellan sidladdningar. Om du har överskridit 20 borttagningar utan att spara kan tidigare borttagningar inte återställas.
+Borttagningar kan ångras med [Undo](../undo/)-kommandot (skriv `undo` eller använd knappen i verktygsfältet). Upp till **20 steg** kan återställas per fil, och historiken bevaras mellan sidladdningar. Om du har överskridit 20 borttagningar utan att spara kan tidigare borttagningar inte återställas.
 
 ## Entiteter som stöds
 

@@ -7,7 +7,7 @@ keywords: [comando extend CAD, estender linha CAD, esticar linha até limite, es
 
 # Extend
 
-O comando `extend` estica o ponto final mais próximo de uma [Line](./line) até a primeira interseção que formaria com outra entidade no desenho. Passe o cursor próximo ao ponto final que deseja estender — uma pré-visualização mostra a linha estendida — depois clique para aplicar.
+O comando `extend` estica o ponto final mais próximo de uma [Line](../line/) até a primeira interseção que formaria com outra entidade no desenho. Passe o cursor próximo ao ponto final que deseja estender — uma pré-visualização mostra a linha estendida — depois clique para aplicar.
 
 O Extend funciona apenas em entidades **Line**. Os limites para os quais a linha se estende podem ser qualquer outro tipo de entidade exceto Text, Mtext, Multileader e Spline.
 

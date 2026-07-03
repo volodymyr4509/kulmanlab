@@ -71,13 +71,13 @@ Dragging a start or end grip repositions it to the drag location and recalculate
 
 | Command | What happens to the arc |
 |---------|------------------------|
-| [Move](./move) | Translates the center; radius and angles unchanged |
-| [Copy](./copy) | Creates an identical arc at a new position |
-| [Rotate](./rotate) | Rotates the center and shifts start/end angles by the rotation amount |
-| [Mirror](./mirror) | Reflects the center and inverts start/end angles across the mirror axis |
-| [Scale](./scale) | Scales the center position and multiplies the radius by the scale factor |
-| [Offset](./offset) | Creates a concentric arc at a larger or smaller radius, same angle span |
-| [Delete](./delete) | Removes the arc |
+| [Move](../move/) | Translates the center; radius and angles unchanged |
+| [Copy](../copy/) | Creates an identical arc at a new position |
+| [Rotate](../rotate/) | Rotates the center and shifts start/end angles by the rotation amount |
+| [Mirror](../mirror/) | Reflects the center and inverts start/end angles across the mirror axis |
+| [Scale](../scale/) | Scales the center position and multiplies the radius by the scale factor |
+| [Offset](../offset/) | Creates a concentric arc at a larger or smaller radius, same angle span |
+| [Delete](../delete/) | Removes the arc |
 
 ## Properties
 

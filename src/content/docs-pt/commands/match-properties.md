@@ -59,5 +59,5 @@ A geometria (coordenadas, raio, comprimento, etc.) nunca é afetada.
 
 ## Comandos relacionados
 
-- [LayerMatch](./layer-match) — move as entidades selecionadas para a mesma camada de uma origem (apenas propriedade de camada)
-- [LayerMakeCurrent](./layer-make-current) — define a camada de desenho atual a partir de uma entidade clicada
+- [LayerMatch](../layer-match/) — move as entidades selecionadas para a mesma camada de uma origem (apenas propriedade de camada)
+- [LayerMakeCurrent](../layer-make-current/) — define a camada de desenho atual a partir de uma entidade clicada

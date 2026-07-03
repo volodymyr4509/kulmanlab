@@ -51,7 +51,7 @@ Kedjans mätriktning är **låst till basmåttets vinkel**:
 - Linjär bas (V) → alla fortsättningar mäter vertikalt avstånd (Δ Y).
 - Inriktad bas i valfri vinkel → alla fortsättningar mäter längs samma vinkel.
 
-Du kan inte ändra riktning mitt i kedjan. Starta ett nytt [Dimension Linear](./dim-linear) eller [Dimension Aligned](./dim-aligned) för att mäta i en annan riktning.
+Du kan inte ändra riktning mitt i kedjan. Starta ett nytt [Dimension Linear](../dim-linear/) eller [Dimension Aligned](../dim-aligned/) för att mäta i en annan riktning.
 
 ## Tangentbordsreferens
 

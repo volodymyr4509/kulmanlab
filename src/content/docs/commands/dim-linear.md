@@ -7,7 +7,7 @@ keywords: [CAD dimension linear, horizontal dimension CAD, vertical dimension CA
 
 # Dimension Linear
 
-The `dimlinear` command places a horizontal or vertical dimension between two extension-line origins. The dimension line always runs either perfectly horizontal or perfectly vertical — it cannot be placed at an arbitrary angle. Use [Dimension Aligned](./dim-aligned) when you need a dimension parallel to a diagonal line.
+The `dimlinear` command places a horizontal or vertical dimension between two extension-line origins. The dimension line always runs either perfectly horizontal or perfectly vertical — it cannot be placed at an arbitrary angle. Use [Dimension Aligned](../dim-aligned/) when you need a dimension parallel to a diagonal line.
 
 ## Anatomy of a linear dimension
 
@@ -89,7 +89,7 @@ See [Text Editor — simple mode](../interface/text-editor#simple-mode) for the 
 
 ## Chaining dimensions
 
-To add more dimensions continuing from the last extension line, use [Dimension Continue](./dim-continue) immediately after placing this one.
+To add more dimensions continuing from the last extension line, use [Dimension Continue](../dim-continue/) immediately after placing this one.
 
 ## DXF — DIMENSION entity
 

@@ -7,7 +7,7 @@ keywords: [CAD mät avstånd, distance-kommando, punkt-till-punkt-mätning, rakt
 
 # Distance
 
-`distance`-kommandot mäter det raka (euklidiska) avståndet mellan två klickade punkter och skriver ut resultatet i terminalen med 4 decimalers precision. Det är ett av två mätkommandon — [Angle](./angle) mäter istället vinkelöppningen vid en vertex.
+`distance`-kommandot mäter det raka (euklidiska) avståndet mellan två klickade punkter och skriver ut resultatet i terminalen med 4 decimalers precision. Det är ett av två mätkommandon — [Angle](../angle/) mäter istället vinkelöppningen vid en vertex.
 
 ## Anatomi av en avståndsmätning
 

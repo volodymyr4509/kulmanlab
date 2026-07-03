@@ -41,6 +41,6 @@ Hakuna njia za mkato za kibodi kwa amri hii. Tumia gurudumu la skrolini badala y
 
 | Amri | Kinachofanya |
 |------|-------------|
-| [Zoom Out](./zoom-out) | Hugawanya zoom kwa 1.5× kwa kila hatua |
-| [Fit](./fit) | Hurejesha zoom kuonyesha vipande vyote |
-| [Pan](./pan) | Husogeza mwonekano bila kupanua |
+| [Zoom Out](../zoom-out/) | Hugawanya zoom kwa 1.5× kwa kila hatua |
+| [Fit](../fit/) | Hurejesha zoom kuonyesha vipande vyote |
+| [Pan](../pan/) | Husogeza mwonekano bila kupanua |

@@ -28,8 +28,8 @@ La forma más rápida de desplazar: **mantén presionado el botón central del r
 | Arrastre con clic central | Desplaza el viewport | No — funciona siempre |
 | Rueda de desplazamiento | Acerca/aleja hacia el cursor | No — funciona siempre |
 | Doble clic con botón central | Ajustar todas las entidades | No — funciona siempre |
-| [Zoom In](./zoom-in) / [Zoom Out](./zoom-out) | Aplica zoom en pasos de 1,5× | No |
-| [Fit](./fit) | Ajusta todas las entidades en la vista | No |
+| [Zoom In](../zoom-in/) / [Zoom Out](../zoom-out/) | Aplica zoom en pasos de 1,5× | No |
+| [Fit](../fit/) | Ajusta todas las entidades en la vista | No |
 
 ## Referencia de teclado
 
@@ -40,5 +40,5 @@ La forma más rápida de desplazar: **mantén presionado el botón central del r
 ## Consejos
 
 - Usa la rueda de desplazamiento para acercar hacia un área objetivo, luego desplaza para ajustar la posición.
-- **Doble clic con el botón central del ratón** activa [Fit](./fit) al instante — la forma más rápida de restablecer una vista perdida.
+- **Doble clic con el botón central del ratón** activa [Fit](../fit/) al instante — la forma más rápida de restablecer una vista perdida.
 - Si estás en medio de un comando (p. ej., colocando un punto final de línea), arrastra con el clic central para desplazar sin cancelar el comando.

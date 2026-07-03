@@ -5,7 +5,7 @@ description: Lệnh Dimension Aligned đo khoảng cách thực sự giữa hai 
 
 # Kích Thước Căn Chỉnh
 
-Lệnh `dimaligned` đặt một kích thước đo **khoảng cách thực sự** giữa hai điểm. Đường kích thước chạy song song với đường nối hai điểm, có thể nghiêng theo bất kỳ góc nào. Đây là điểm khác biệt chính so với [Kích Thước Tuyến Tính](./dim-linear), chỉ hoạt động theo chiều ngang hoặc dọc.
+Lệnh `dimaligned` đặt một kích thước đo **khoảng cách thực sự** giữa hai điểm. Đường kích thước chạy song song với đường nối hai điểm, có thể nghiêng theo bất kỳ góc nào. Đây là điểm khác biệt chính so với [Kích Thước Tuyến Tính](../dim-linear/), chỉ hoạt động theo chiều ngang hoặc dọc.
 
 ## Cấu trúc kích thước căn chỉnh
 
@@ -54,7 +54,7 @@ Xem [Trình Soạn Thảo Văn Bản — chế độ đơn giản](../interface/
 
 ## Nối tiếp kích thước
 
-Để thêm các kích thước tiếp tục từ đường gióng thứ hai của kích thước này, dùng [Kích Thước Tiếp Tục](./dim-continue) — nó khóa theo cùng góc đo với kích thước căn chỉnh này.
+Để thêm các kích thước tiếp tục từ đường gióng thứ hai của kích thước này, dùng [Kích Thước Tiếp Tục](../dim-continue/) — nó khóa theo cùng góc đo với kích thước căn chỉnh này.
 
 ## DXF — thực thể DIMENSION (loại căn chỉnh)
 

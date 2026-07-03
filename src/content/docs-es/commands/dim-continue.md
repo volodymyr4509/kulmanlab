@@ -51,7 +51,7 @@ La dirección de medición de la cadena está **fijada al ángulo de la cota bas
 - Base lineal (V) → todas las continuaciones miden distancia vertical (Δ Y).
 - Base alineada a cualquier ángulo → todas las continuaciones miden a lo largo de ese mismo ángulo.
 
-No puedes cambiar la dirección en medio de una cadena. Inicia una nueva [Dimension Linear](./dim-linear) o [Dimension Aligned](./dim-aligned) para acotar en una dirección diferente.
+No puedes cambiar la dirección en medio de una cadena. Inicia una nueva [Dimension Linear](../dim-linear/) o [Dimension Aligned](../dim-aligned/) para acotar en una dirección diferente.
 
 ## Referencia de teclado
 

@@ -7,7 +7,7 @@ keywords: [perintah chamfer CAD, chamfer garis CAD, potongan sudut diagonal, sud
 
 # Chamfer
 
-Perintah `chamfer` memotong sudut diagonal lurus antara dua entitas [Line](./line) atau [Polyline](./polyline). Anda menentukan seberapa jauh ke belakang untuk memotong sepanjang setiap entitas (d1 dan d2), dan perintah memotong kedua entitas ke titik-titik tersebut dan menyisipkan garis penghubung di antara keduanya.
+Perintah `chamfer` memotong sudut diagonal lurus antara dua entitas [Line](../line/) atau [Polyline](../polyline/). Anda menentukan seberapa jauh ke belakang untuk memotong sepanjang setiap entitas (d1 dan d2), dan perintah memotong kedua entitas ke titik-titik tersebut dan menyisipkan garis penghubung di antara keduanya.
 
 Menggunakan jarak yang sama menghasilkan potongan 45° simetris; jarak yang berbeda menghasilkan bevel asimetris.
 

@@ -7,7 +7,7 @@ keywords: [CAD-Linearbemaßung, horizontale Bemaßung CAD, vertikale Bemaßung C
 
 # Dimension Linear
 
-Der `dimlinear`-Befehl platziert eine horizontale oder vertikale Bemaßung zwischen zwei Maßhilfslinien-Ursprüngen. Die Bemaßungslinie verläuft immer entweder vollkommen horizontal oder vollkommen vertikal — sie kann nicht in einem beliebigen Winkel platziert werden. Verwenden Sie [Dimension Aligned](./dim-aligned), wenn Sie eine Bemaßung parallel zu einer diagonalen Linie benötigen.
+Der `dimlinear`-Befehl platziert eine horizontale oder vertikale Bemaßung zwischen zwei Maßhilfslinien-Ursprüngen. Die Bemaßungslinie verläuft immer entweder vollkommen horizontal oder vollkommen vertikal — sie kann nicht in einem beliebigen Winkel platziert werden. Verwenden Sie [Dimension Aligned](../dim-aligned/), wenn Sie eine Bemaßung parallel zu einer diagonalen Linie benötigen.
 
 ## Aufbau einer linearen Bemaßung
 
@@ -89,7 +89,7 @@ Siehe [Texteditor — simple mode](../interface/text-editor#simple-mode) für di
 
 ## Bemaßungen verketten
 
-Um weitere Bemaßungen ab der letzten Maßhilfslinie fortzusetzen, verwenden Sie [Dimension Continue](./dim-continue) unmittelbar nach dem Platzieren dieser Bemaßung.
+Um weitere Bemaßungen ab der letzten Maßhilfslinie fortzusetzen, verwenden Sie [Dimension Continue](../dim-continue/) unmittelbar nach dem Platzieren dieser Bemaßung.
 
 ## DXF — DIMENSION-Element
 

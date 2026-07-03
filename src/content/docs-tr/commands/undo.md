@@ -36,4 +36,4 @@ Her nesne mutasyonu kaydedilir: yeni nesne çizme, nesne silme, uç noktaları t
 | Kullanılabildiğinde | En az bir kayıtlı işlem mevcutsa | En az bir Undo yapıldığında ve yeni işlem yapılmamışsa |
 | Şunun tarafından temizlenir | Hiçbir şey — geçmiş 20 adım sınırına kadar birikir | Herhangi bir yeni çizim işlemi |
 
-Geri alınan bir işlemi yeniden uygulamak için [Redo](./redo) kullanın. İlgili yön kullanılabilir olmadığında araç çubuğu düğmeleri grileşir.
+Geri alınan bir işlemi yeniden uygulamak için [Redo](../redo/) kullanın. İlgili yön kullanılabilir olmadığında araç çubuğu düğmeleri grileşir.

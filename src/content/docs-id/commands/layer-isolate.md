@@ -7,7 +7,7 @@ keywords: [layer isolate, membekukan layer CAD, isolasi layer kulmanlab, manajem
 
 # LayerIsolate
 
-Perintah `LayerIsolate` membekukan setiap layer **kecuali** yang dimiliki oleh objek yang dipilih. Gunakan untuk fokus dengan cepat pada geometri tertentu tanpa menyembunyikan atau menghapus apa pun secara permanen — cairkan dengan [LayerUnfreezeAll](./layer-unfreeze-all) setelah selesai.
+Perintah `LayerIsolate` membekukan setiap layer **kecuali** yang dimiliki oleh objek yang dipilih. Gunakan untuk fokus dengan cepat pada geometri tertentu tanpa menyembunyikan atau menghapus apa pun secara permanen — cairkan dengan [LayerUnfreezeAll](../layer-unfreeze-all/) setelah selesai.
 
 ## Dua cara memulai
 
@@ -39,4 +39,4 @@ Perintah `LayerIsolate` membekukan setiap layer **kecuali** yang dimiliki oleh o
 
 ## Membatalkan isolasi
 
-Jalankan [LayerUnfreezeAll](./layer-unfreeze-all) untuk memulihkan semua layer ke kondisi terlihat dalam satu langkah.
+Jalankan [LayerUnfreezeAll](../layer-unfreeze-all/) untuk memulihkan semua layer ke kondisi terlihat dalam satu langkah.

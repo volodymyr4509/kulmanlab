@@ -71,7 +71,7 @@ När basspunkten är satt bevakar kommandot en 45°-fångningsaxel (0°, 45°, 9
 
 ## Aktivera Move från ett grepp
 
-Att klicka på **mittpunktsgreppet** på en vald [Line](./line) startar Move automatiskt, med mittpunkten redan satt som basspunkt och flyttfasen aktiv. Detta är det snabbaste sättet att omplacera en enskild linje utan att gå igenom valsteget.
+Att klicka på **mittpunktsgreppet** på en vald [Line](../line/) startar Move automatiskt, med mittpunkten redan satt som basspunkt och flyttfasen aktiv. Detta är det snabbaste sättet att omplacera en enskild linje utan att gå igenom valsteget.
 
 ## Val under kommandot
 
@@ -88,7 +88,7 @@ När kommandot startar i valfasen:
 
 De flyttade entiteterna förblir valda på sin nya position. Det innebär att du direkt kan:
 - Köra **Move** igen för att flytta dem ytterligare.
-- Köra [Copy](./copy), [Rotate](./rotate) eller [Scale](./scale) utan att välja om.
+- Köra [Copy](../copy/), [Rotate](../rotate/) eller [Scale](../scale/) utan att välja om.
 - Trycka **Delete** för att ta bort dem.
 
 ## Move jämfört med Copy

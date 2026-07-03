@@ -71,7 +71,7 @@ Po ustawieniu punktu bazowego polecenie obserwuje oś przyciągania 45° (0°, 4
 
 ## Aktywowanie Przesuń z uchwytu
 
-Kliknięcie **uchwytu punktu środkowego** zaznaczonej [Linii](./line) automatycznie uruchamia Przesuń, z punktem środkowym już ustawionym jako punkt bazowy i aktywną fazą przesunięcia. Jest to najszybszy sposób na repozycjonowanie pojedynczej linii bez przechodzenia przez krok zaznaczania.
+Kliknięcie **uchwytu punktu środkowego** zaznaczonej [Linii](../line/) automatycznie uruchamia Przesuń, z punktem środkowym już ustawionym jako punkt bazowy i aktywną fazą przesunięcia. Jest to najszybszy sposób na repozycjonowanie pojedynczej linii bez przechodzenia przez krok zaznaczania.
 
 ## Zaznaczanie podczas polecenia
 
@@ -88,7 +88,7 @@ Gdy polecenie zaczyna się w fazie zaznaczania:
 
 Przeniesione elementy pozostają zaznaczone w nowej pozycji. Oznacza to, że możesz od razu:
 - Uruchomić **Przesuń** ponownie, aby je lekko dostosować.
-- Uruchomić [Kopiuj](./copy), [Obróć](./rotate) lub [Skaluj](./scale) bez ponownego zaznaczania.
+- Uruchomić [Kopiuj](../copy/), [Obróć](../rotate/) lub [Skaluj](../scale/) bez ponownego zaznaczania.
 - Nacisnąć **Delete**, aby je usunąć.
 
 ## Przesuń a Kopiuj

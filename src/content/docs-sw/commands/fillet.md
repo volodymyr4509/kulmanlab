@@ -7,7 +7,7 @@ keywords: [CAD fillet command, round corner CAD, fillet arc, tangent arc two lin
 
 # Fillet
 
-Amri ya `fillet` inapinda pembe kati ya viumbe viwili vya [Line](./line) kwa kuingiza upinde wa tangent wa radi fulani na kupunguza kila mstari hadi sehemu ambapo upinde unaanza. Matokeo ni pembe laini, yenye radi inayounganisha mistari yote miwili.
+Amri ya `fillet` inapinda pembe kati ya viumbe viwili vya [Line](../line/) kwa kuingiza upinde wa tangent wa radi fulani na kupunguza kila mstari hadi sehemu ambapo upinde unaanza. Matokeo ni pembe laini, yenye radi inayounganisha mistari yote miwili.
 
 Fillet inafanya kazi kwenye **viumbe vya Line peke yake**.
 

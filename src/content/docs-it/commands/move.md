@@ -71,7 +71,7 @@ Dopo che il punto base è impostato, il comando cerca un asse di aggancio a 45°
 
 ## Attivare Move da un grip
 
-Cliccare il **grip del punto medio** di una [Linea](./line) selezionata avvia Move automaticamente, con il punto medio già impostato come punto base e la fase di spostamento attiva. Questo è il modo più rapido per riposizionare una singola linea senza passare per la fase di selezione.
+Cliccare il **grip del punto medio** di una [Linea](../line/) selezionata avvia Move automaticamente, con il punto medio già impostato come punto base e la fase di spostamento attiva. Questo è il modo più rapido per riposizionare una singola linea senza passare per la fase di selezione.
 
 ## Selezione durante il comando
 
@@ -88,7 +88,7 @@ Quando il comando inizia nella fase di selezione:
 
 Le entità spostate rimangono selezionate nella nuova posizione. Questo significa che puoi immediatamente:
 - Eseguire di nuovo **Move** per spostarle ulteriormente.
-- Eseguire [Copy](./copy), [Rotate](./rotate) o [Scale](./scale) senza ri-selezionare.
+- Eseguire [Copy](../copy/), [Rotate](../rotate/) o [Scale](../scale/) senza ri-selezionare.
 - Premere **Canc** per eliminarle.
 
 ## Move vs Copia

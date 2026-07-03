@@ -64,7 +64,7 @@ Voir [Éditeur de texte — simple mode](../interface/text-editor#simple-mode) p
 
 ## Commandes associées
 
-- [Dimension Linear](./dim-linear) — cote horizontale ou verticale
-- [Dimension Aligned](./dim-aligned) — cote alignée sur deux points
-- [Dimension Radius](./dim-radius) — cote de rayon pour arcs et cercles
-- [Dimension Diameter](./dim-diameter) — cote de diamètre pour cercles
+- [Dimension Linear](../dim-linear/) — cote horizontale ou verticale
+- [Dimension Aligned](../dim-aligned/) — cote alignée sur deux points
+- [Dimension Radius](../dim-radius/) — cote de rayon pour arcs et cercles
+- [Dimension Diameter](../dim-diameter/) — cote de diamètre pour cercles

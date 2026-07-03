@@ -21,22 +21,22 @@ Eine neu erstellte Datei beginnt mit:
 - **Einem Standard-Layer** namens `0` mit weißer Farbe und Linientyp `Continuous`.
 - Einem **generierten Dateinamen** im Format `kulman-Mon01_HH:MM:SS.dxf` (z.B. `kulman-May22_14:30:00.dxf`).
 
-Die Datei wird automatisch im Browser-Speicher gespeichert und erscheint in [Zuletzt verwendete Dateien](./files).
+Die Datei wird automatisch im Browser-Speicher gespeichert und erscheint in [Zuletzt verwendete Dateien](../files/).
 
 ## Warnung — nicht gespeicherte Arbeit wird verworfen
 
-Das Klicken auf **New File** verwirft alle Entitäten auf der aktuellen Zeichenfläche ohne Warnung. Wenn Sie die aktuelle Zeichnung behalten möchten, [exportieren](./export) Sie sie zuerst.
+Das Klicken auf **New File** verwirft alle Entitäten auf der aktuellen Zeichenfläche ohne Warnung. Wenn Sie die aktuelle Zeichnung behalten möchten, [exportieren](../export/) Sie sie zuerst.
 
 ## Wann New File vs. Import verwenden
 
 | Situation | Empfohlene Aktion |
 |-----------|------------------|
 | Eine Zeichnung von Grund auf beginnen | **New File** |
-| Eine vorhandene DXF- oder JSON-Datei öffnen | [Import](./import) |
-| Eine Zeichnung kopieren, um an einer Variante zu arbeiten | Aktuelle Datei [exportieren](./export), dann die Kopie [importieren](./import) |
+| Eine vorhandene DXF- oder JSON-Datei öffnen | [Import](../import/) |
+| Eine Zeichnung kopieren, um an einer Variante zu arbeiten | Aktuelle Datei [exportieren](../export/), dann die Kopie [importieren](../import/) |
 
 ## Verwandte Befehle
 
-- [Import](./import) — eine vorhandene DXF- oder JSON-Zeichnung öffnen
-- [Export](./export) — die Zeichnung herunterladen, bevor Sie neu beginnen
-- [Dateien](./files) — eine frühere Zeichnung aus dem Browser-Speicher wiederherstellen
+- [Import](../import/) — eine vorhandene DXF- oder JSON-Zeichnung öffnen
+- [Export](../export/) — die Zeichnung herunterladen, bevor Sie neu beginnen
+- [Dateien](../files/) — eine frühere Zeichnung aus dem Browser-Speicher wiederherstellen

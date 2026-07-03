@@ -71,13 +71,13 @@ Kuburuta kipeo cha mwanzo au mwisho kukihamisha hadi mahali pa kuburuta na kukok
 
 | Amri | Kinachotokea kwa upinde |
 |------|------------------------|
-| [Move](./move) | Hutafsiri kituo; radi na pembe hazibadiliki |
-| [Copy](./copy) | Huunda upinde unaofanana katika nafasi mpya |
-| [Rotate](./rotate) | Huzungusha kituo na kubadilisha pembe za mwanzo/mwisho kwa kiasi cha mzunguko |
-| [Mirror](./mirror) | Huakisi kituo na kubadilisha pembe za mwanzo/mwisho upande wa pili wa mhimili wa kioo |
-| [Scale](./scale) | Hupima ukubwa wa nafasi ya kituo na kuzidisha radi kwa kiwango cha ukubwa |
-| [Offset](./offset) | Huunda upinde mseto kwa radi kubwa au ndogo, upeo wa pembe sawa |
-| [Delete](./delete) | Huondoa upinde |
+| [Move](../move/) | Hutafsiri kituo; radi na pembe hazibadiliki |
+| [Copy](../copy/) | Huunda upinde unaofanana katika nafasi mpya |
+| [Rotate](../rotate/) | Huzungusha kituo na kubadilisha pembe za mwanzo/mwisho kwa kiasi cha mzunguko |
+| [Mirror](../mirror/) | Huakisi kituo na kubadilisha pembe za mwanzo/mwisho upande wa pili wa mhimili wa kioo |
+| [Scale](../scale/) | Hupima ukubwa wa nafasi ya kituo na kuzidisha radi kwa kiwango cha ukubwa |
+| [Offset](../offset/) | Huunda upinde mseto kwa radi kubwa au ndogo, upeo wa pembe sawa |
+| [Delete](../delete/) | Huondoa upinde |
 
 ## Mali
 

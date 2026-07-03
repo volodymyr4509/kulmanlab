@@ -51,7 +51,7 @@ Zincirin ölçüm yönü **temel ölçünün açısına sabitlenir**:
 - Doğrusal temel (D) → tüm devamlar dikey mesafeyi (Δ Y) ölçer.
 - Herhangi bir açıdaki hizalı temel → tüm devamlar aynı açı boyunca ölçer.
 
-Zincirin ortasında yön değiştirilemez. Farklı bir yönde ölçü almak için yeni bir [Dimension Linear](./dim-linear) veya [Dimension Aligned](./dim-aligned) başlatın.
+Zincirin ortasında yön değiştirilemez. Farklı bir yönde ölçü almak için yeni bir [Dimension Linear](../dim-linear/) veya [Dimension Aligned](../dim-aligned/) başlatın.
 
 ## Klavye Referansı
 

@@ -7,7 +7,7 @@ keywords: [CAD-Löschbefehl, Elemente entfernen CAD, Objekte löschen CAD, Entf-
 
 # Delete
 
-Der `delete`-Befehl entfernt ausgewählte Elemente aus der Zeichnung. Löschungen werden im [Undo](./undo)-Verlauf aufgezeichnet und können mit bis zu 20 Schritten rückgängig gemacht werden. Es gibt kein separates Dialogfeld zur Löschbestätigung — die Bestätigung erfolgt mit einem einzigen Tastendruck.
+Der `delete`-Befehl entfernt ausgewählte Elemente aus der Zeichnung. Löschungen werden im [Undo](../undo/)-Verlauf aufgezeichnet und können mit bis zu 20 Schritten rückgängig gemacht werden. Es gibt kein separates Dialogfeld zur Löschbestätigung — die Bestätigung erfolgt mit einem einzigen Tastendruck.
 
 ## Zwei Arten zu löschen
 
@@ -43,7 +43,7 @@ Element klicken → Delete-Taste drücken → fertig
 
 ## Gelöschte Elemente wiederherstellen
 
-Löschungen können mit dem [Undo](./undo)-Befehl rückgängig gemacht werden (geben Sie `undo` ein oder verwenden Sie die Symbolleisten-Schaltfläche). Bis zu **20 Schritte** können pro Datei rückgängig gemacht werden, und der Verlauf bleibt auch nach Seitenaktualisierungen erhalten. Wenn Sie mehr als 20 Löschungen ohne Speichern vorgenommen haben, können frühere Löschungen nicht wiederhergestellt werden.
+Löschungen können mit dem [Undo](../undo/)-Befehl rückgängig gemacht werden (geben Sie `undo` ein oder verwenden Sie die Symbolleisten-Schaltfläche). Bis zu **20 Schritte** können pro Datei rückgängig gemacht werden, und der Verlauf bleibt auch nach Seitenaktualisierungen erhalten. Wenn Sie mehr als 20 Löschungen ohne Speichern vorgenommen haben, können frühere Löschungen nicht wiederhergestellt werden.
 
 ## Unterstützte Elemente
 

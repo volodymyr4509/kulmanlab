@@ -7,7 +7,7 @@ keywords: [CAD dimension aligned, dimaligned, diagonal dimension CAD, true dista
 
 # Dimension Aligned
 
-Amri ya `dimaligned` huweka kipimo ambacho hupima **umbali wa kweli wa mstari ulionyoofu** kati ya pointi mbili. Mstari wa kipimo hufanana na mstari unaoungana pointi hizo mbili, hivyo unaweza kuwa kwa pembe yoyote. Hii ndiyo tofauti kuu kutoka kwa [Dimension Linear](./dim-linear), ambayo iko mdogo kwa usawa au wima.
+Amri ya `dimaligned` huweka kipimo ambacho hupima **umbali wa kweli wa mstari ulionyoofu** kati ya pointi mbili. Mstari wa kipimo hufanana na mstari unaoungana pointi hizo mbili, hivyo unaweza kuwa kwa pembe yoyote. Hii ndiyo tofauti kuu kutoka kwa [Dimension Linear](../dim-linear/), ambayo iko mdogo kwa usawa au wima.
 
 ## Muundo wa kipimo kilichopangwa
 
@@ -80,7 +80,7 @@ Angalia [Text Editor — hali rahisi](../interface/text-editor#simple-mode) kwa 
 
 ## Mnyororo wa vipimo
 
-Ili kuongeza vipimo zaidi vikiendelea kutoka kwa mstari wa pili wa upanuzi wa hiki, tumia [Dimension Continue](./dim-continue) — inafunga kwenye pembe sawa ya kipimo kama kipimo hiki kilichopangwa.
+Ili kuongeza vipimo zaidi vikiendelea kutoka kwa mstari wa pili wa upanuzi wa hiki, tumia [Dimension Continue](../dim-continue/) — inafunga kwenye pembe sawa ya kipimo kama kipimo hiki kilichopangwa.
 
 ## DXF — kipengele cha DIMENSION (aina iliyopangwa)
 

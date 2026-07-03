@@ -64,7 +64,7 @@ Tam referans için [Metin Düzenleyici — simple mode](../interface/text-editor
 
 ## İlgili Komutlar
 
-- [Dimension Linear](./dim-linear) — yatay veya dikey ölçü
-- [Dimension Aligned](./dim-aligned) — iki noktaya hizalı ölçü
-- [Dimension Radius](./dim-radius) — yay ve daireler için yarıçap ölçüsü
-- [Dimension Diameter](./dim-diameter) — daireler için çap ölçüsü
+- [Dimension Linear](../dim-linear/) — yatay veya dikey ölçü
+- [Dimension Aligned](../dim-aligned/) — iki noktaya hizalı ölçü
+- [Dimension Radius](../dim-radius/) — yay ve daireler için yarıçap ölçüsü
+- [Dimension Diameter](../dim-diameter/) — daireler için çap ölçüsü

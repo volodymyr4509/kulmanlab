@@ -7,7 +7,7 @@ keywords: [comando delete CAD, remover entidades CAD, apagar objetos CAD, tecla 
 
 # Delete
 
-O comando `delete` remove as entidades selecionadas do desenho. As exclusões são registradas no histórico de [Undo](./undo) e podem ser revertidas com até 20 passos. Não há uma caixa de diálogo separada de "confirmar exclusão" — a confirmação é um único pressionamento de tecla.
+O comando `delete` remove as entidades selecionadas do desenho. As exclusões são registradas no histórico de [Undo](../undo/) e podem ser revertidas com até 20 passos. Não há uma caixa de diálogo separada de "confirmar exclusão" — a confirmação é um único pressionamento de tecla.
 
 ## Duas formas de excluir
 
@@ -43,7 +43,7 @@ Clique na entidade → pressione Delete → pronto
 
 ## Recuperar entidades excluídas
 
-As exclusões são desfazíveis com o comando [Undo](./undo) (digite `undo` ou use o botão da barra de ferramentas). Até **20 passos** podem ser revertidos por arquivo, e o histórico persiste entre recarregamentos de página. Se você excedeu 20 exclusões sem salvar, exclusões anteriores não podem ser recuperadas.
+As exclusões são desfazíveis com o comando [Undo](../undo/) (digite `undo` ou use o botão da barra de ferramentas). Até **20 passos** podem ser revertidos por arquivo, e o histórico persiste entre recarregamentos de página. Se você excedeu 20 exclusões sem salvar, exclusões anteriores não podem ser recuperadas.
 
 ## Entidades suportadas
 

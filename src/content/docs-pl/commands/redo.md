@@ -7,7 +7,7 @@ keywords: [polecenie ponów CAD, historia ponów CAD, ponowne stosowanie akcji C
 
 # Ponów
 
-Polecenie `redo` przesuwa się do przodu przez historię cofnięć, ponownie stosując akcje odwrócone przez [Cofnij](./undo). Ponów jest dostępne tylko gdy cofnąłeś się z Cofnij i nie wykonałeś jeszcze nowej zmiany.
+Polecenie `redo` przesuwa się do przodu przez historię cofnięć, ponownie stosując akcje odwrócone przez [Cofnij](../undo/). Ponów jest dostępne tylko gdy cofnąłeś się z Cofnij i nie wykonałeś jeszcze nowej zmiany.
 
 ## Jak ponowić
 
@@ -20,7 +20,7 @@ Każde wywołanie ponownie stosuje jedną wcześniej cofniętą akcję. Wywołuj
 
 | Szczegół | Zachowanie |
 |---------|-----------|
-| Dostępne po | Jednym lub więcej krokach [Cofnij](./undo) |
+| Dostępne po | Jednym lub więcej krokach [Cofnij](../undo/) |
 | Czyszczone przez | **Dowolną nową akcję rysowania** — dodanie, edytowanie lub usunięcie elementu |
 | Przechowywanie | Przeglądarka, per plik — przeżywa przeładowanie strony (o ile żadna nowa akcja nie była wykonana przed przeładowaniem) |
 | Maksymalna głębokość | Do 20 wpisów (ta sama pula co Cofnij) |
@@ -35,4 +35,4 @@ Gdy nowy element jest narysowany, usunięty lub zmodyfikowany, stos ponów jest 
 | Dostępne gdy | Po co najmniej jednym Cofnij, bez wykonanej nowej akcji | Istnieje co najmniej jedna zarejestrowana akcja |
 | Czyszczone przez | Dowolną nową akcję rysowania | Nic |
 
-Przycisk Ponów na pasku narzędzi jest wyszarzony gdy nie ma wpisów do ponowienia. Najpierw użyj [Cofnij](./undo), aby utworzyć wpisy ponów.
+Przycisk Ponów na pasku narzędzi jest wyszarzony gdy nie ma wpisów do ponowienia. Najpierw użyj [Cofnij](../undo/), aby utworzyć wpisy ponów.

@@ -55,8 +55,8 @@ Yarıçap 0 olduğunda köşe keskinleşir — çizgiler yay eklenmeden kesişim
 
 ## Desteklenen Nesneler
 
-- [Line](./line) — tam desteklenir
-- Bitişik [Polyline](./polyline) segmentleri — çoklu çizgi içinde yuvarlama
+- [Line](../line/) — tam desteklenir
+- Bitişik [Polyline](../polyline/) segmentleri — çoklu çizgi içinde yuvarlama
 
 ## Fillet - Chamfer Karşılaştırması
 

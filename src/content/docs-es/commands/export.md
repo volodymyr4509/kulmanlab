@@ -45,7 +45,7 @@ Se incluyen entidades de solo geometría:
 - Líneas, círculos, arcos, elipses, polilíneas (exportadas como `LWPOLYLINE`), splines, texto
 - Definiciones de capas y tablas de tipos de línea
 
-**No incluido en DXF:** entidades de cota y multidirectores. Estas usan estructuras de datos específicas de KulmanLab que no pueden representarse fielmente en DXF estándar. Si tu dibujo tiene anotaciones, usa JSON o [Print](./print) para capturarlas visualmente.
+**No incluido en DXF:** entidades de cota y multidirectores. Estas usan estructuras de datos específicas de KulmanLab que no pueden representarse fielmente en DXF estándar. Si tu dibujo tiene anotaciones, usa JSON o [Print](../print/) para capturarlas visualmente.
 
 ## Nombre del archivo exportado
 
@@ -60,10 +60,10 @@ El archivo descargado lleva el nombre del archivo de dibujo actual (p. ej. `mypl
 | Preserva capas y tipos de línea | Sí | No (renderizado plano) |
 | Captura cotas y directores | Solo JSON | Sí |
 
-Usa **Export** cuando necesites un archivo editable. Usa [Print](./print) cuando necesites una instantánea visual.
+Usa **Export** cuando necesites un archivo editable. Usa [Print](../print/) cuando necesites una instantánea visual.
 
 ## Comandos relacionados
 
-- [Import](./import) — abrir un archivo DXF o JSON
-- [Print](./print) — exportar el lienzo como imagen PNG, JPEG, WebP o PDF
-- [Files](./files) — explorar dibujos guardados en el almacenamiento del navegador
+- [Import](../import/) — abrir un archivo DXF o JSON
+- [Print](../print/) — exportar el lienzo como imagen PNG, JPEG, WebP o PDF
+- [Files](../files/) — explorar dibujos guardados en el almacenamiento del navegador

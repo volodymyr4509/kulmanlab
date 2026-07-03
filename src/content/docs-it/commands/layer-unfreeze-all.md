@@ -15,7 +15,7 @@ Digita `LayerUnfreezeAll` nel terminale oppure clicca il pulsante **Unfreeze All
 
 ## Quando usarlo
 
-Tipicamente usato dopo [LayerIsolate](./layer-isolate) per ripristinare tutti i livelli allo stato visibile normale.
+Tipicamente usato dopo [LayerIsolate](../layer-isolate/) per ripristinare tutti i livelli allo stato visibile normale.
 
 ## Dettagli di comportamento
 

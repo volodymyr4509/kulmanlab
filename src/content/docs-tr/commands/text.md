@@ -75,12 +75,12 @@ Seçili bir metin etiketi, çıpa noktasında bir tutamaç gösterir:
 
 | Komut | Metne ne olur |
 |---------|--------------------------|
-| [Move](./move) | Çıpa noktasını taşır |
-| [Copy](./copy) | Yeni konumda özdeş etiket oluşturur |
-| [Rotate](./rotate) | Çıpa konumunu döndürür ve Dönüş Derecesine açı ekler |
-| [Mirror](./mirror) | Çıpa noktasını yansıtma ekseni üzerinden yansıtır (metin dizisi ters çevrilmez) |
-| [Scale](./scale) | Çıpa konumunu ölçekler ve yüksekliği ölçek faktörüyle çarpar |
-| [Delete](./delete) | Etiketi kaldırır |
+| [Move](../move/) | Çıpa noktasını taşır |
+| [Copy](../copy/) | Yeni konumda özdeş etiket oluşturur |
+| [Rotate](../rotate/) | Çıpa konumunu döndürür ve Dönüş Derecesine açı ekler |
+| [Mirror](../mirror/) | Çıpa noktasını yansıtma ekseni üzerinden yansıtır (metin dizisi ters çevrilmez) |
+| [Scale](../scale/) | Çıpa konumunu ölçekler ve yüksekliği ölçek faktörüyle çarpar |
+| [Delete](../delete/) | Etiketi kaldırır |
 
 Metin **Offset**, **Trim** veya **Extend**'i desteklemez.
 

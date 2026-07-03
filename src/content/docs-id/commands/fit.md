@@ -44,6 +44,6 @@ Tidak ada pintasan keyboard untuk perintah ini. Gunakan pintasan **klik ganda to
 
 | Perintah | Fungsi |
 |---------|-------------|
-| [Pan](./pan) | Menggeser viewport tanpa zoom |
-| [Zoom In](./zoom-in) | Mengalikan zoom sebesar 1.5× per langkah |
-| [Zoom Out](./zoom-out) | Membagi zoom sebesar 1.5× per langkah |
+| [Pan](../pan/) | Menggeser viewport tanpa zoom |
+| [Zoom In](../zoom-in/) | Mengalikan zoom sebesar 1.5× per langkah |
+| [Zoom Out](../zoom-out/) | Membagi zoom sebesar 1.5× per langkah |

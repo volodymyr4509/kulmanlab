@@ -7,7 +7,7 @@ keywords: [CAD-Kopierbefehl, Elemente duplizieren CAD, Objekte kopieren CAD, Geo
 
 # Copy
 
-Der `copy`-Befehl erstellt verschobene Duplikate ausgewählter Elemente und platziert sie mit einem Versatz vom Basispunkt zum Ziel — die Originale bleiben genau an ihrer Stelle. Dies ist der wesentliche Unterschied zu [Move](./move): Copy fügt der Zeichnung neue Elemente hinzu; Move verschiebt vorhandene.
+Der `copy`-Befehl erstellt verschobene Duplikate ausgewählter Elemente und platziert sie mit einem Versatz vom Basispunkt zum Ziel — die Originale bleiben genau an ihrer Stelle. Dies ist der wesentliche Unterschied zu [Move](../move/): Copy fügt der Zeichnung neue Elemente hinzu; Move verschiebt vorhandene.
 
 ## Zwei Arten zu starten
 

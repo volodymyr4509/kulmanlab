@@ -106,8 +106,8 @@ Lihat [Text Editor — mod kaya](../interface/text-editor#rich-mode) untuk rujuk
 
 ## Menambah dan membuang lengan
 
-- Untuk menambah lengan kepala anak panah tambahan pada pemimpin sedia ada: [Leader+](./leader-add)
-- Untuk membuang lengan dari pemimpin yang mempunyai dua atau lebih: [Leader−](./leader-remove)
+- Untuk menambah lengan kepala anak panah tambahan pada pemimpin sedia ada: [Leader+](../leader-add/)
+- Untuk membuang lengan dari pemimpin yang mempunyai dua atau lebih: [Leader−](../leader-remove/)
 
 ## DXF — import sahaja
 

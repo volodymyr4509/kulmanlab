@@ -7,7 +7,7 @@ keywords: [mierzenie odległości CAD, polecenie distance, pomiar punkt-punkt, o
 
 # Odległość
 
-Polecenie `distance` mierzy odległość prostoliniową (euklidesową) między dwoma klikniętymi punktami i drukuje wynik w terminalu z dokładnością do 4 miejsc po przecinku. Jest to jedno z dwóch poleceń pomiarowych — [Kąt](./angle) mierzy zamiast tego kąt otwierający w wierzchołku.
+Polecenie `distance` mierzy odległość prostoliniową (euklidesową) między dwoma klikniętymi punktami i drukuje wynik w terminalu z dokładnością do 4 miejsc po przecinku. Jest to jedno z dwóch poleceń pomiarowych — [Kąt](../angle/) mierzy zamiast tego kąt otwierający w wierzchołku.
 
 ## Anatomia pomiaru odległości
 

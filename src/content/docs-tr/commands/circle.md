@@ -85,13 +85,13 @@ Dört kardinal tutamacın tamamı aynı şekilde davranır — yeni yarıçap, m
 
 | Komut | Daireye ne olur |
 |-------|----------------|
-| [Move](./move) | Merkezi taşır; yarıçap değişmez |
-| [Copy](./copy) | Yeni merkezde özdeş daire oluşturur |
-| [Rotate](./rotate) | Merkezi temel nokta etrafında döndürür; yarıçap değişmez |
-| [Mirror](./mirror) | Merkezi ayna ekseni boyunca yansıtır; yarıçap değişmez |
-| [Scale](./scale) | Merkez konumunu ölçekler ve yarıçapı ölçek faktörüyle çarpar |
-| [Offset](./offset) | Daha büyük veya daha küçük yarıçaplı eşmerkezli daire oluşturur |
-| [Delete](./delete) | Daireyi siler |
+| [Move](../move/) | Merkezi taşır; yarıçap değişmez |
+| [Copy](../copy/) | Yeni merkezde özdeş daire oluşturur |
+| [Rotate](../rotate/) | Merkezi temel nokta etrafında döndürür; yarıçap değişmez |
+| [Mirror](../mirror/) | Merkezi ayna ekseni boyunca yansıtır; yarıçap değişmez |
+| [Scale](../scale/) | Merkez konumunu ölçekler ve yarıçapı ölçek faktörüyle çarpar |
+| [Offset](../offset/) | Daha büyük veya daha küçük yarıçaplı eşmerkezli daire oluşturur |
+| [Delete](../delete/) | Daireyi siler |
 
 ## Özellikler
 
@@ -120,7 +120,7 @@ Dört kardinal tutamacın tamamı aynı şekilde davranır — yeni yarıçap, m
 | Nasıl çizilir | Merkez + yarıçap | Eğri üzerinde üç nokta |
 | Klavye girişi | Yarıçap değeri | Yok — yalnızca tıklama |
 | Yeniden boyutlandırma tutamacı | 4 kardinal nokta | Başlangıç ve bitiş noktaları (açı + yarıçap) |
-| Ölçüler | Yarıçap: [Dim Radius](./dim-radius) · Çap: [Dim Diameter](./dim-diameter) | [Dim Radius](./dim-radius) |
+| Ölçüler | Yarıçap: [Dim Radius](../dim-radius/) · Çap: [Dim Diameter](../dim-diameter/) | [Dim Radius](../dim-radius/) |
 | En iyi | Tam delikler, cıvata delikleri, dairesel özellikler | Yuvarlamalar, kısmi eğriler, yay yolları |
 
 ## DXF — CIRCLE Nesnesi

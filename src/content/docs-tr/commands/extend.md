@@ -7,7 +7,7 @@ keywords: [CAD extend komutu, çizgiyi uzat CAD, çizgiyi sınıra uzat, çizgi 
 
 # Extend
 
-`extend` komutu, bir [Çizgi](./line)nin en yakın ucunu, çizimdeki başka bir nesneyle oluşturacağı en yakın kesişime kadar uzatır. Uzatmak istediğiniz ucun yakınına gelin — bir önizleme uzatılmış çizgiyi gösterir — ardından uygulamak için tıklayın.
+`extend` komutu, bir [Çizgi](../line/)nin en yakın ucunu, çizimdeki başka bir nesneyle oluşturacağı en yakın kesişime kadar uzatır. Uzatmak istediğiniz ucun yakınına gelin — bir önizleme uzatılmış çizgiyi gösterir — ardından uygulamak için tıklayın.
 
 Extend yalnızca **Çizgi nesnelerinde** çalışır. Çizginin uzandığı sınırlar, Metin, Mtext, Çoklu Gösterge ve Spline dışındaki herhangi bir nesne türü olabilir.
 

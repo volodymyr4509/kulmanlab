@@ -59,5 +59,5 @@ Geometrie (Koordinaten, Radius, Länge usw.) wird nie beeinflusst.
 
 ## Verwandte Befehle
 
-- [LayerMatch](./layer-match) — ausgewählte Entitäten auf denselben Layer wie eine Quelle verschieben (nur Layer-Eigenschaft)
-- [LayerMakeCurrent](./layer-make-current) — den aktuellen Zeichnungslayer von einer angeklickten Entität übernehmen
+- [LayerMatch](../layer-match/) — ausgewählte Entitäten auf denselben Layer wie eine Quelle verschieben (nur Layer-Eigenschaft)
+- [LayerMakeCurrent](../layer-make-current/) — den aktuellen Zeichnungslayer von einer angeklickten Entität übernehmen

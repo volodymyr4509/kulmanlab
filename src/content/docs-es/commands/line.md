@@ -7,7 +7,7 @@ keywords: [comando line CAD, dibujar línea recta CAD, encadenar segmentos de l�
 
 # Line
 
-El comando `line` dibuja segmentos de línea recta individuales almacenados como entidades `LINE` separadas en el modelo DXF. Después de cada segmento el comando permanece activo y reutiliza el punto final como nuevo punto de inicio, para que puedas construir trayectorias conectadas un segmento a la vez. A diferencia de una [Polyline](./polyline), las líneas encadenadas permanecen como entidades independientes — cada una puede recortarse, extenderse o eliminarse sin afectar a sus vecinas.
+El comando `line` dibuja segmentos de línea recta individuales almacenados como entidades `LINE` separadas en el modelo DXF. Después de cada segmento el comando permanece activo y reutiliza el punto final como nuevo punto de inicio, para que puedas construir trayectorias conectadas un segmento a la vez. A diferencia de una [Polyline](../polyline/), las líneas encadenadas permanecen como entidades independientes — cada una puede recortarse, extenderse o eliminarse sin afectar a sus vecinas.
 
 ## Dibujar líneas
 
@@ -74,7 +74,7 @@ Una línea seleccionada muestra tres agarres:
 | **Punto medio** | Centro de la línea | Activa **Move** para toda la línea |
 | **Final** | Segundo punto final | Arrastra para reposicionar — el inicio permanece fijo |
 
-Estirar un punto final nunca afecta al otro. Esto difiere de la edición con agarres de [Polyline](./polyline), donde mover un vértice reformula toda la trayectoria.
+Estirar un punto final nunca afecta al otro. Esto difiere de la edición con agarres de [Polyline](../polyline/), donde mover un vértice reformula toda la trayectoria.
 
 ## Seleccionar líneas
 
@@ -86,19 +86,19 @@ Estirar un punto final nunca afecta al otro. Esto difiere de la edición con aga
 
 ## Comandos de edición admitidos
 
-Las líneas son la **única** entidad en la que operan [Trim](./trim) y [Extend](./extend). También se aplican todos los comandos de transformación estándar:
+Las líneas son la **única** entidad en la que operan [Trim](../trim/) y [Extend](../extend/). También se aplican todos los comandos de transformación estándar:
 
 | Comando | Qué ocurre con una línea |
 |---------|------------------------|
-| [Move](./move) | Traslada ambos puntos finales por el mismo desplazamiento |
-| [Copy](./copy) | Crea una línea idéntica en una nueva posición |
-| [Rotate](./rotate) | Rota ambos puntos finales alrededor del punto base elegido |
-| [Mirror](./mirror) | Refleja ambos puntos finales a través del eje de espejo |
-| [Scale](./scale) | Escala ambos puntos finales uniformemente desde el punto base |
-| [Offset](./offset) | Crea una línea paralela a una distancia perpendicular fija |
-| [Trim](./trim) | Corta la línea en las intersecciones — **solo líneas** |
-| [Extend](./extend) | Estira el punto final más cercano hasta alcanzar un límite — **solo líneas** |
-| [Delete](./delete) | Elimina la línea del dibujo |
+| [Move](../move/) | Traslada ambos puntos finales por el mismo desplazamiento |
+| [Copy](../copy/) | Crea una línea idéntica en una nueva posición |
+| [Rotate](../rotate/) | Rota ambos puntos finales alrededor del punto base elegido |
+| [Mirror](../mirror/) | Refleja ambos puntos finales a través del eje de espejo |
+| [Scale](../scale/) | Escala ambos puntos finales uniformemente desde el punto base |
+| [Offset](../offset/) | Crea una línea paralela a una distancia perpendicular fija |
+| [Trim](../trim/) | Corta la línea en las intersecciones — **solo líneas** |
+| [Extend](../extend/) | Estira el punto final más cercano hasta alcanzar un límite — **solo líneas** |
+| [Delete](../delete/) | Elimina la línea del dibujo |
 
 ## Propiedades
 

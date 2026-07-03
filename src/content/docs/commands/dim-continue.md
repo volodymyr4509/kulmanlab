@@ -51,7 +51,7 @@ The chain's measurement direction is **fixed to the base dimension's angle**:
 - Linear base (V) → all continuations measure vertical distance (Δ Y).
 - Aligned base at any angle → all continuations measure along that same angle.
 
-You cannot change the direction mid-chain. Start a new [Dimension Linear](./dim-linear) or [Dimension Aligned](./dim-aligned) to dimension in a different direction.
+You cannot change the direction mid-chain. Start a new [Dimension Linear](../dim-linear/) or [Dimension Aligned](../dim-aligned/) to dimension in a different direction.
 
 ## Keyboard reference
 

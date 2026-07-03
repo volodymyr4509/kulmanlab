@@ -81,13 +81,13 @@ Grip paksi major dan minor adalah bebas — anda boleh membentuk semula elips ta
 
 | Arahan | Apa yang berlaku pada elips |
 |--------|-----------------------------|
-| [Move](./move) | Menterjemahkan pusat; kedua-dua paksi tidak berubah |
-| [Copy](./copy) | Mencipta elips yang sama di pusat baru |
-| [Rotate](./rotate) | Memutar kedudukan pusat dan vektor paksi major dengan sudut yang sama |
-| [Mirror](./mirror) | Mencerminkan pusat dan mengira semula arah paksi major merentasi paksi cermin |
-| [Scale](./scale) | Mengskala kedudukan pusat dan mendarab kedua-dua panjang semi-paksi dengan faktor |
-| [Offset](./offset) | Mencipta elips konsentrik diimbangi ke luar atau ke dalam dengan jarak tetap |
-| [Delete](./delete) | Membuang elips |
+| [Move](../move/) | Menterjemahkan pusat; kedua-dua paksi tidak berubah |
+| [Copy](../copy/) | Mencipta elips yang sama di pusat baru |
+| [Rotate](../rotate/) | Memutar kedudukan pusat dan vektor paksi major dengan sudut yang sama |
+| [Mirror](../mirror/) | Mencerminkan pusat dan mengira semula arah paksi major merentasi paksi cermin |
+| [Scale](../scale/) | Mengskala kedudukan pusat dan mendarab kedua-dua panjang semi-paksi dengan faktor |
+| [Offset](../offset/) | Mencipta elips konsentrik diimbangi ke luar atau ke dalam dengan jarak tetap |
+| [Delete](../delete/) | Membuang elips |
 
 ## Sifat
 

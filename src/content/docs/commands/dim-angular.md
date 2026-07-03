@@ -64,7 +64,7 @@ See [Text Editor — simple mode](../interface/text-editor#simple-mode) for the 
 
 ## Related commands
 
-- [Dimension Linear](./dim-linear) — horizontal or vertical dimension
-- [Dimension Aligned](./dim-aligned) — dimension aligned to two points
-- [Dimension Radius](./dim-radius) — radius dimension for arcs and circles
-- [Dimension Diameter](./dim-diameter) — diameter dimension for circles
+- [Dimension Linear](../dim-linear/) — horizontal or vertical dimension
+- [Dimension Aligned](../dim-aligned/) — dimension aligned to two points
+- [Dimension Radius](../dim-radius/) — radius dimension for arcs and circles
+- [Dimension Diameter](../dim-diameter/) — diameter dimension for circles

@@ -71,13 +71,13 @@ Faire glisser une poignée de début ou de fin la repositionne à l'emplacement 
 
 | Commande | Ce qui arrive à l'arc |
 |----------|-----------------------|
-| [Move](./move) | Translate le centre ; rayon et angles inchangés |
-| [Copy](./copy) | Crée un arc identique à une nouvelle position |
-| [Rotate](./rotate) | Fait pivoter le centre et décale les angles de début/fin du montant de rotation |
-| [Mirror](./mirror) | Symétrise le centre et inverse les angles de début/fin par rapport à l'axe de symétrie |
-| [Scale](./scale) | Met à l'échelle la position du centre et multiplie le rayon par le facteur d'échelle |
-| [Offset](./offset) | Crée un arc concentrique à un rayon plus grand ou plus petit, même étendue angulaire |
-| [Delete](./delete) | Supprime l'arc |
+| [Move](../move/) | Translate le centre ; rayon et angles inchangés |
+| [Copy](../copy/) | Crée un arc identique à une nouvelle position |
+| [Rotate](../rotate/) | Fait pivoter le centre et décale les angles de début/fin du montant de rotation |
+| [Mirror](../mirror/) | Symétrise le centre et inverse les angles de début/fin par rapport à l'axe de symétrie |
+| [Scale](../scale/) | Met à l'échelle la position du centre et multiplie le rayon par le facteur d'échelle |
+| [Offset](../offset/) | Crée un arc concentrique à un rayon plus grand ou plus petit, même étendue angulaire |
+| [Delete](../delete/) | Supprime l'arc |
 
 ## Propriétés
 

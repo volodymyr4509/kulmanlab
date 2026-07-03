@@ -7,7 +7,7 @@ keywords: [arahan fillet CAD, bundarkan sudut CAD, lengkok fillet, lengkok tange
 
 # Fillet
 
-Arahan `fillet` membundarkan sudut antara dua entiti [Line](./line) dengan memasukkan lengkok tangen berjejari tertentu dan memotong setiap garis kembali ke titik di mana lengkok bermula. Hasilnya adalah sudut yang bundar dan beradi yang menghubungkan kedua-dua garis.
+Arahan `fillet` membundarkan sudut antara dua entiti [Line](../line/) dengan memasukkan lengkok tangen berjejari tertentu dan memotong setiap garis kembali ke titik di mana lengkok bermula. Hasilnya adalah sudut yang bundar dan beradi yang menghubungkan kedua-dua garis.
 
 Fillet hanya berfungsi pada **entiti Line**.
 

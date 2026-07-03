@@ -7,7 +7,7 @@ keywords: [CAD zoom out, reduce viewport zoom, zoom out command, overview CAD, 1
 
 # Zoom Out
 
-Amri ya `zoomout` hugawanya kiwango cha sasa cha zoom kwa **1.5×** (sawa na kuzidisha kwa ~0.667) na kutoka mara moja, imewekwa katikati ya katikati ya mwonekano. Ni kinyume cha [Zoom In](./zoom-in).
+Amri ya `zoomout` hugawanya kiwango cha sasa cha zoom kwa **1.5×** (sawa na kuzidisha kwa ~0.667) na kutoka mara moja, imewekwa katikati ya katikati ya mwonekano. Ni kinyume cha [Zoom In](../zoom-in/).
 
 ## Kupunguza zoom
 
@@ -41,6 +41,6 @@ Hakuna njia za mkato za kibodi kwa amri hii. Tumia gurudumu la skrolini badala y
 
 | Amri | Kinachofanya |
 |------|-------------|
-| [Zoom In](./zoom-in) | Huzidisha zoom kwa 1.5× kwa kila hatua |
-| [Fit](./fit) | Hurejesha zoom kuonyesha vipande vyote |
-| [Pan](./pan) | Husogeza mwonekano bila kupanua |
+| [Zoom In](../zoom-in/) | Huzidisha zoom kwa 1.5× kwa kila hatua |
+| [Fit](../fit/) | Hurejesha zoom kuonyesha vipande vyote |
+| [Pan](../pan/) | Husogeza mwonekano bila kupanua |

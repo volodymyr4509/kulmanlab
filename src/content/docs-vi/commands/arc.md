@@ -68,13 +68,13 @@ Cung được chọn có ba điểm kéo:
 
 | Lệnh | Tác Động Lên Cung |
 |------|-------------------|
-| [Move](./move) | Dịch chuyển tâm; bán kính và góc không thay đổi |
-| [Copy](./copy) | Tạo cung giống hệt ở vị trí mới |
-| [Rotate](./rotate) | Xoay tâm và dịch chuyển góc bắt đầu/kết thúc theo lượng xoay |
-| [Mirror](./mirror) | Phản chiếu tâm và đảo ngược góc bắt đầu/kết thúc qua trục đối xứng |
-| [Scale](./scale) | Thay đổi tỉ lệ vị trí tâm và nhân bán kính với hệ số tỉ lệ |
-| [Offset](./offset) | Tạo cung đồng tâm ở bán kính lớn hơn hoặc nhỏ hơn, cùng khoảng góc |
-| [Delete](./delete) | Xóa cung |
+| [Move](../move/) | Dịch chuyển tâm; bán kính và góc không thay đổi |
+| [Copy](../copy/) | Tạo cung giống hệt ở vị trí mới |
+| [Rotate](../rotate/) | Xoay tâm và dịch chuyển góc bắt đầu/kết thúc theo lượng xoay |
+| [Mirror](../mirror/) | Phản chiếu tâm và đảo ngược góc bắt đầu/kết thúc qua trục đối xứng |
+| [Scale](../scale/) | Thay đổi tỉ lệ vị trí tâm và nhân bán kính với hệ số tỉ lệ |
+| [Offset](../offset/) | Tạo cung đồng tâm ở bán kính lớn hơn hoặc nhỏ hơn, cùng khoảng góc |
+| [Delete](../delete/) | Xóa cung |
 
 ## Thuộc Tính
 

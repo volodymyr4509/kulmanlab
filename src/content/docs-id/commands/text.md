@@ -75,12 +75,12 @@ Label teks yang dipilih memperlihatkan satu grip di titik jangkar:
 
 | Perintah | Apa yang terjadi pada teks |
 |---------|--------------------------|
-| [Move](./move) | Memindahkan titik jangkar |
-| [Copy](./copy) | Membuat label identik di posisi baru |
-| [Rotate](./rotate) | Memutar posisi jangkar dan menambahkan sudut ke Rotation Degree |
-| [Mirror](./mirror) | Memantulkan titik jangkar melintasi sumbu cermin (string teks tidak dibalik) |
-| [Scale](./scale) | Menskalakan posisi jangkar dan mengalikan tinggi dengan faktor skala |
-| [Delete](./delete) | Menghapus label |
+| [Move](../move/) | Memindahkan titik jangkar |
+| [Copy](../copy/) | Membuat label identik di posisi baru |
+| [Rotate](../rotate/) | Memutar posisi jangkar dan menambahkan sudut ke Rotation Degree |
+| [Mirror](../mirror/) | Memantulkan titik jangkar melintasi sumbu cermin (string teks tidak dibalik) |
+| [Scale](../scale/) | Menskalakan posisi jangkar dan mengalikan tinggi dengan faktor skala |
+| [Delete](../delete/) | Menghapus label |
 
 Teks tidak mendukung **Offset**, **Trim**, atau **Extend**.
 

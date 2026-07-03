@@ -7,7 +7,7 @@ keywords: [CAD comando rectangle, disegna rettangolo CAD, rettangolo allineato a
 
 # Rectangle
 
-Il comando `rectangle` disegna un rettangolo allineato agli assi definito da due clic su angoli opposti. Il risultato è memorizzato come una **`LWPOLYLINE` chiusa** con quattro vertici — uno per ogni angolo. Non esiste un tipo di entità rettangolo dedicato: dopo la creazione la forma si comporta esattamente come qualsiasi altra [Polilinea](./polyline) e ogni modifica alle polilinee si applica ad essa.
+Il comando `rectangle` disegna un rettangolo allineato agli assi definito da due clic su angoli opposti. Il risultato è memorizzato come una **`LWPOLYLINE` chiusa** con quattro vertici — uno per ogni angolo. Non esiste un tipo di entità rettangolo dedicato: dopo la creazione la forma si comporta esattamente come qualsiasi altra [Polilinea](../polyline/) e ogni modifica alle polilinee si applica ad essa.
 
 ## Disegnare un rettangolo
 
@@ -58,17 +58,17 @@ Trascinare un grip d'angolo trasforma il rettangolo in un quadrilatero non retta
 
 ## Comandi di modifica supportati
 
-Si applicano tutti i comandi di modifica delle polilinee. Trim e Extend sono solo per [Linea](./line) e non funzionano sui rettangoli:
+Si applicano tutti i comandi di modifica delle polilinee. Trim e Extend sono solo per [Linea](../line/) e non funzionano sui rettangoli:
 
 | Comando | Effetto sul rettangolo |
 |---------|----------------------|
-| [Move](./move) | Trasla tutti e quattro i vertici dello stesso spostamento |
-| [Copy](./copy) | Crea un rettangolo identico in una nuova posizione |
-| [Rotate](./rotate) | Ruota tutti e quattro i vertici intorno al punto base scelto |
-| [Mirror](./mirror) | Riflette tutti e quattro i vertici rispetto all'asse speculare |
-| [Scale](./scale) | Scala tutti e quattro i vertici uniformemente dal punto base |
-| [Offset](./offset) | Crea un rettangolo parallelo (interno o esterno) a una distanza fissa |
-| [Delete](./delete) | Rimuove il rettangolo dal disegno |
+| [Move](../move/) | Trasla tutti e quattro i vertici dello stesso spostamento |
+| [Copy](../copy/) | Crea un rettangolo identico in una nuova posizione |
+| [Rotate](../rotate/) | Ruota tutti e quattro i vertici intorno al punto base scelto |
+| [Mirror](../mirror/) | Riflette tutti e quattro i vertici rispetto all'asse speculare |
+| [Scale](../scale/) | Scala tutti e quattro i vertici uniformemente dal punto base |
+| [Offset](../offset/) | Crea un rettangolo parallelo (interno o esterno) a una distanza fissa |
+| [Delete](../delete/) | Rimuove il rettangolo dal disegno |
 
 ## Rectangle vs Polyline vs Linea
 

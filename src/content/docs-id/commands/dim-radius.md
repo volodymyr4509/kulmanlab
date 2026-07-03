@@ -7,7 +7,7 @@ keywords: [dimensi radius CAD, dimradius, menganotasi radius lingkaran, dimensi 
 
 # Dimension Radius
 
-Perintah `dimradius` menempatkan dimensi radius pada busur atau lingkaran. Garis dimensi berjalan dari pusat ke titik pada lingkar dalam arah kursor, dilabeli `R <nilai>`. Untuk mengukur diameter penuh sebagai gantinya, gunakan [Dimension Diameter](./dim-diameter).
+Perintah `dimradius` menempatkan dimensi radius pada busur atau lingkaran. Garis dimensi berjalan dari pusat ke titik pada lingkar dalam arah kursor, dilabeli `R <nilai>`. Untuk mengukur diameter penuh sebagai gantinya, gunakan [Dimension Diameter](../dim-diameter/).
 
 ## Anatomi dimensi radius
 

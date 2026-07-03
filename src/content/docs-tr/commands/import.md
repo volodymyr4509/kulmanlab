@@ -46,13 +46,13 @@ Desteklenmeyen DXF türlerini kullanan nesneler sessizce atlanır — çizimin g
 
 ## Dosya Adlandırma ve Depolama
 
-Bir dosyayı içe aktardığınızda, dosya adına zaman damgası eklenir (örneğin `myplan_May22_14:30:00.dxf`). Bu, [Son Dosyalar](./files) bölümünde aynı çizimin birden fazla sürümünü ad çakışması olmadan saklamanızı sağlar. Dosya adı zaten bir zaman damgası içeriyorsa, olduğu gibi kullanılır.
+Bir dosyayı içe aktardığınızda, dosya adına zaman damgası eklenir (örneğin `myplan_May22_14:30:00.dxf`). Bu, [Son Dosyalar](../files/) bölümünde aynı çizimin birden fazla sürümünü ad çakışması olmadan saklamanızı sağlar. Dosya adı zaten bir zaman damgası içeriyorsa, olduğu gibi kullanılır.
 
-Çizim içe aktarma sonrasında tarayıcı deposuna (IndexedDB) otomatik olarak kaydedilir, böylece [Files](./files) panelinde görünür ve sayfa yeniden yüklemelerinde de kaybolmaz.
+Çizim içe aktarma sonrasında tarayıcı deposuna (IndexedDB) otomatik olarak kaydedilir, böylece [Files](../files/) panelinde görünür ve sayfa yeniden yüklemelerinde de kaybolmaz.
 
 ## Geçerli Çizime Ne Olur
 
-İçe aktarma, geçerli tuvali değiştirir. Birleştirme veya ekleme yoktur. Kaydedilmemiş değişiklikleriniz varsa, önce geçerli çizimi [dışa aktarın](./export).
+İçe aktarma, geçerli tuvali değiştirir. Birleştirme veya ekleme yoktur. Kaydedilmemiş değişiklikleriniz varsa, önce geçerli çizimi [dışa aktarın](../export/).
 
 ## Başlangıçta
 
@@ -68,6 +68,6 @@ KulmanLab, sayfa yüklendiğinde en son düzenlenen dosyayı otomatik olarak yen
 
 ## İlgili Komutlar
 
-- [Export](./export) — mevcut çizimi DXF veya JSON olarak indirir
-- [Files](./files) — tarayıcıda kaydedilen çizimlere göz atar ve geri yükler
-- [New File](./new-file) — boş çizim başlatır
+- [Export](../export/) — mevcut çizimi DXF veya JSON olarak indirir
+- [Files](../files/) — tarayıcıda kaydedilen çizimlere göz atar ve geri yükler
+- [New File](../new-file/) — boş çizim başlatır

@@ -7,7 +7,7 @@ keywords: [dimensi linear CAD, dimensi horizontal CAD, dimensi vertikal CAD, dim
 
 # Dimension Linear
 
-Perintah `dimlinear` menempatkan dimensi horizontal atau vertikal antara dua asal garis ekstensi. Garis dimensi selalu berjalan secara horizontal atau vertikal sempurna — tidak dapat ditempatkan pada sudut arbitrer. Gunakan [Dimension Aligned](./dim-aligned) ketika Anda perlu dimensi yang sejajar dengan garis diagonal.
+Perintah `dimlinear` menempatkan dimensi horizontal atau vertikal antara dua asal garis ekstensi. Garis dimensi selalu berjalan secara horizontal atau vertikal sempurna — tidak dapat ditempatkan pada sudut arbitrer. Gunakan [Dimension Aligned](../dim-aligned/) ketika Anda perlu dimensi yang sejajar dengan garis diagonal.
 
 ## Anatomi dimensi linear
 
@@ -89,7 +89,7 @@ Lihat [Text Editor — mode sederhana](../interface/text-editor#simple-mode) unt
 
 ## Merantai dimensi
 
-Untuk menambahkan lebih banyak dimensi yang berlanjut dari garis ekstensi terakhir, gunakan [Dimension Continue](./dim-continue) segera setelah menempatkan yang ini.
+Untuk menambahkan lebih banyak dimensi yang berlanjut dari garis ekstensi terakhir, gunakan [Dimension Continue](../dim-continue/) segera setelah menempatkan yang ini.
 
 ## DXF — entitas DIMENSION
 

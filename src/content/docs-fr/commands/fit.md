@@ -44,6 +44,6 @@ Aucun raccourci clavier pour cette commande. Utilisez le raccourci **double clic
 
 | Commande | Action |
 |----------|--------|
-| [Pan](./pan) | Déplace le viewport sans zoomer |
-| [Zoom In](./zoom-in) | Multiplie le zoom par 1,5× par étape |
-| [Zoom Out](./zoom-out) | Divise le zoom par 1,5× par étape |
+| [Pan](../pan/) | Déplace le viewport sans zoomer |
+| [Zoom In](../zoom-in/) | Multiplie le zoom par 1,5× par étape |
+| [Zoom Out](../zoom-out/) | Divise le zoom par 1,5× par étape |

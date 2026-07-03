@@ -7,7 +7,7 @@ keywords: [layer isolate, ซ่อนเลเยอร์ CAD, isolate layer k
 
 # LayerIsolate
 
-คำสั่ง `LayerIsolate` ซ่อนทุกเลเยอร์ **ยกเว้น** เลเยอร์ที่เป็นของวัตถุที่เลือก ใช้เพื่อโฟกัสกับเรขาคณิตเฉพาะอย่างรวดเร็วโดยไม่ซ่อนหรือลบอะไรอย่างถาวร — ยกเลิกการซ่อนด้วย [LayerUnfreezeAll](./layer-unfreeze-all) เมื่อเสร็จ
+คำสั่ง `LayerIsolate` ซ่อนทุกเลเยอร์ **ยกเว้น** เลเยอร์ที่เป็นของวัตถุที่เลือก ใช้เพื่อโฟกัสกับเรขาคณิตเฉพาะอย่างรวดเร็วโดยไม่ซ่อนหรือลบอะไรอย่างถาวร — ยกเลิกการซ่อนด้วย [LayerUnfreezeAll](../layer-unfreeze-all/) เมื่อเสร็จ
 
 ## สองวิธีเริ่มต้น
 
@@ -39,4 +39,4 @@ keywords: [layer isolate, ซ่อนเลเยอร์ CAD, isolate layer k
 
 ## การเลิกทำการ isolate
 
-รัน [LayerUnfreezeAll](./layer-unfreeze-all) เพื่อกู้คืนเลเยอร์ทั้งหมดให้มองเห็นในขั้นตอนเดียว
+รัน [LayerUnfreezeAll](../layer-unfreeze-all/) เพื่อกู้คืนเลเยอร์ทั้งหมดให้มองเห็นในขั้นตอนเดียว

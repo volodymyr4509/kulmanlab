@@ -83,13 +83,13 @@ Les quatre poignées cardinales se comportent de manière identique — le nouve
 
 | Commande | Ce qui arrive au cercle |
 |----------|------------------------|
-| [Move](./move) | Translate le centre ; rayon inchangé |
-| [Copy](./copy) | Crée un cercle identique à un nouveau centre |
-| [Rotate](./rotate) | Fait pivoter le centre autour du point de base ; rayon inchangé |
-| [Mirror](./mirror) | Symétrise le centre par rapport à l'axe de symétrie ; rayon inchangé |
-| [Scale](./scale) | Met à l'échelle la position du centre et multiplie le rayon par le facteur d'échelle |
-| [Offset](./offset) | Crée un cercle concentrique à un rayon plus grand ou plus petit |
-| [Delete](./delete) | Supprime le cercle |
+| [Move](../move/) | Translate le centre ; rayon inchangé |
+| [Copy](../copy/) | Crée un cercle identique à un nouveau centre |
+| [Rotate](../rotate/) | Fait pivoter le centre autour du point de base ; rayon inchangé |
+| [Mirror](../mirror/) | Symétrise le centre par rapport à l'axe de symétrie ; rayon inchangé |
+| [Scale](../scale/) | Met à l'échelle la position du centre et multiplie le rayon par le facteur d'échelle |
+| [Offset](../offset/) | Crée un cercle concentrique à un rayon plus grand ou plus petit |
+| [Delete](../delete/) | Supprime le cercle |
 
 ## Propriétés
 
@@ -118,7 +118,7 @@ Les quatre poignées cardinales se comportent de manière identique — le nouve
 | Comment tracer | Centre + rayon | Trois points sur la courbe |
 | Saisie | Valeur du rayon | Aucune — clic uniquement |
 | Poignée de redimensionnement | 4 points cardinaux | Points de début et de fin (angle + rayon) |
-| Cotation | Rayon : [Dim Radius](./dim-radius) · Diamètre : [Dim Diameter](./dim-diameter) | [Dim Radius](./dim-radius) |
+| Cotation | Rayon : [Dim Radius](../dim-radius/) · Diamètre : [Dim Diameter](../dim-diameter/) | [Dim Radius](../dim-radius/) |
 | Idéal pour | Trous complets, cercles de boulons, éléments ronds | Congés, courbes partielles, chemins arqués |
 
 ## DXF — entité CIRCLE

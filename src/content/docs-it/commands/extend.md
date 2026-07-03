@@ -7,7 +7,7 @@ keywords: [comando extend CAD, estendi linea CAD, allunga linea al limite, esten
 
 # Extend
 
-Il comando `extend` allunga il punto finale più vicino di una [Line](./line) alla prima intersezione che formerebbe con un'altra entità nel disegno. Passa il cursore vicino al punto finale che vuoi estendere — un'anteprima mostra la linea estesa — poi clicca per applicare.
+Il comando `extend` allunga il punto finale più vicino di una [Line](../line/) alla prima intersezione che formerebbe con un'altra entità nel disegno. Passa il cursore vicino al punto finale che vuoi estendere — un'anteprima mostra la linea estesa — poi clicca per applicare.
 
 Extend funziona solo sulle entità **Line**. I limiti verso cui la linea si estende possono essere qualsiasi altro tipo di entità eccetto Text, Mtext, Multileader e Spline.
 

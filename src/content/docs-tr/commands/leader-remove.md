@@ -47,5 +47,5 @@ Komut, imlecten her kolun segmentlerine (son kol noktasından geçiş bölgesine
 
 | Komut | Ne yapar |
 |-------|----------|
-| [Leader](./leader) | Sıfırdan yeni gösterge oluşturur |
-| [Leader+](./leader-add) | Mevcut göstergeye kol ekler |
+| [Leader](../leader/) | Sıfırdan yeni gösterge oluşturur |
+| [Leader+](../leader-add/) | Mevcut göstergeye kol ekler |

@@ -46,13 +46,13 @@ Le entità che usano tipi DXF non supportati vengono ignorate silenziosamente �
 
 ## Nomi file e archiviazione
 
-Quando importi un file, viene aggiunto un timestamp al nome del file (per esempio `miopiano_Mag22_14:30:00.dxf`). Questo ti permette di tenere più versioni dello stesso disegno nei [File Recenti](./files) senza conflitti di nomi. Se il nome del file contiene già un timestamp, viene usato così com'è.
+Quando importi un file, viene aggiunto un timestamp al nome del file (per esempio `miopiano_Mag22_14:30:00.dxf`). Questo ti permette di tenere più versioni dello stesso disegno nei [File Recenti](../files/) senza conflitti di nomi. Se il nome del file contiene già un timestamp, viene usato così com'è.
 
-Il disegno viene automaticamente salvato nell'archivio del browser (IndexedDB) dopo l'importazione, quindi appare nel pannello [Files](./files) e sopravvive ai ricaricamenti della pagina.
+Il disegno viene automaticamente salvato nell'archivio del browser (IndexedDB) dopo l'importazione, quindi appare nel pannello [Files](../files/) e sopravvive ai ricaricamenti della pagina.
 
 ## Cosa succede al disegno corrente
 
-L'importazione sostituisce il canvas corrente. Non c'è unione o aggiunta. Se hai modifiche non salvate, [esporta](./export) il disegno corrente prima.
+L'importazione sostituisce il canvas corrente. Non c'è unione o aggiunta. Se hai modifiche non salvate, [esporta](../export/) il disegno corrente prima.
 
 ## All'avvio
 
@@ -68,6 +68,6 @@ KulmanLab riapre automaticamente il file più recentemente modificato quando la 
 
 ## Comandi correlati
 
-- [Export](./export) — scarica il disegno corrente come DXF o JSON
-- [Files](./files) — sfoglia e ripristina i disegni salvati nel browser
-- [New File](./new-file) — inizia un disegno vuoto
+- [Export](../export/) — scarica il disegno corrente come DXF o JSON
+- [Files](../files/) — sfoglia e ripristina i disegni salvati nel browser
+- [New File](../new-file/) — inizia un disegno vuoto

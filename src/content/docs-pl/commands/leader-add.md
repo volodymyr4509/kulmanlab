@@ -55,5 +55,5 @@ Zamiast klikać możesz wpisać dokładną pozycję:
 
 | Polecenie | Co robi |
 |-----------|---------|
-| [Linia prowadząca](./leader) | Tworzenie zupełnie nowej linii wielokierunkowej od zera |
-| [Linia prowadząca−](./leader-remove) | Usuwanie ramienia z linii wielokierunkowej mającej dwa lub więcej |
+| [Linia prowadząca](../leader/) | Tworzenie zupełnie nowej linii wielokierunkowej od zera |
+| [Linia prowadząca−](../leader-remove/) | Usuwanie ramienia z linii wielokierunkowej mającej dwa lub więcej |

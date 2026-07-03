@@ -56,4 +56,4 @@ Baada ya nukta ya msingi kuwekwa, amri inakuwa kwenye mihimili ya 45° (0°, 45�
 
 - ViewportCopy inapatikana tu wakati kichupo cha mpangilio wa karatasi kiko hai.
 - Mwonekano ulioigwa unarith kiwango, kitovu cha mfano, hali ya kufungwa, na vipimo sawa na asili.
-- Kuunda mwonekano mpya kutoka mwanzo, tumia [ViewportRectangle](./viewport-rectangle).
+- Kuunda mwonekano mpya kutoka mwanzo, tumia [ViewportRectangle](../viewport-rectangle/).

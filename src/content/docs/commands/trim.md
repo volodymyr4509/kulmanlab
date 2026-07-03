@@ -7,9 +7,9 @@ keywords: [CAD trim command, trim line CAD, cut line intersection, hover trim pr
 
 # Trim
 
-The `trim` command removes the portion of a [Line](./line) that lies between two adjacent intersection points, splitting the line into one or two shorter segments. The segment to cut is determined by the cursor position — hover over the part you want removed and click to trim it.
+The `trim` command removes the portion of a [Line](../line/) that lies between two adjacent intersection points, splitting the line into one or two shorter segments. The segment to cut is determined by the cursor position — hover over the part you want removed and click to trim it.
 
-Trim works on **Line entities only**. For arcs, circles, polylines, and other entity types use [Delete](./delete) or grip editing instead.
+Trim works on **Line entities only**. For arcs, circles, polylines, and other entity types use [Delete](../delete/) or grip editing instead.
 
 ## Trimming a line
 

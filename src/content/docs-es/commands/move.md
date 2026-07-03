@@ -71,7 +71,7 @@ Después de establecer el punto base, el comando busca un eje de ajuste de 45° 
 
 ## Activar Move desde un agarre
 
-Hacer clic en el **agarre de punto medio** de una [Line](./line) seleccionada lanza Move automáticamente, con el punto medio ya establecido como punto base y la fase de movimiento activa. Esta es la forma más rápida de reposicionar una sola línea sin pasar por el paso de selección.
+Hacer clic en el **agarre de punto medio** de una [Line](../line/) seleccionada lanza Move automáticamente, con el punto medio ya establecido como punto base y la fase de movimiento activa. Esta es la forma más rápida de reposicionar una sola línea sin pasar por el paso de selección.
 
 ## Selección durante el comando
 
@@ -88,7 +88,7 @@ Cuando el comando comienza en la fase de selección:
 
 Las entidades movidas permanecen seleccionadas en su nueva posición. Esto significa que puedes inmediatamente:
 - Ejecutar **Move** de nuevo para ajustarlas más.
-- Ejecutar [Copy](./copy), [Rotate](./rotate) o [Scale](./scale) sin volver a seleccionar.
+- Ejecutar [Copy](../copy/), [Rotate](../rotate/) o [Scale](../scale/) sin volver a seleccionar.
 - Presionar **Delete** para eliminarlas.
 
 ## Move vs Copy

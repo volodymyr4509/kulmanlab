@@ -71,13 +71,13 @@ Das Ziehen eines Start- oder End-Griffpunkts positioniert ihn an die Zielpositio
 
 | Befehl | Was mit dem Bogen passiert |
 |--------|---------------------------|
-| [Move](./move) | Verschiebt den Mittelpunkt; Radius und Winkel unverändert |
-| [Copy](./copy) | Erstellt einen identischen Bogen an einer neuen Position |
-| [Rotate](./rotate) | Dreht den Mittelpunkt und verschiebt Start-/Endwinkel um den Drehbetrag |
-| [Mirror](./mirror) | Spiegelt den Mittelpunkt und invertiert Start-/Endwinkel über die Spiegelachse |
-| [Scale](./scale) | Skaliert die Mittelpunktposition und multipliziert den Radius mit dem Skalierungsfaktor |
-| [Offset](./offset) | Erstellt einen konzentrischen Bogen mit größerem oder kleinerem Radius, gleicher Winkelspanne |
-| [Delete](./delete) | Entfernt den Bogen |
+| [Move](../move/) | Verschiebt den Mittelpunkt; Radius und Winkel unverändert |
+| [Copy](../copy/) | Erstellt einen identischen Bogen an einer neuen Position |
+| [Rotate](../rotate/) | Dreht den Mittelpunkt und verschiebt Start-/Endwinkel um den Drehbetrag |
+| [Mirror](../mirror/) | Spiegelt den Mittelpunkt und invertiert Start-/Endwinkel über die Spiegelachse |
+| [Scale](../scale/) | Skaliert die Mittelpunktposition und multipliziert den Radius mit dem Skalierungsfaktor |
+| [Offset](../offset/) | Erstellt einen konzentrischen Bogen mit größerem oder kleinerem Radius, gleicher Winkelspanne |
+| [Delete](../delete/) | Entfernt den Bogen |
 
 ## Eigenschaften
 

@@ -47,5 +47,5 @@ Perintah mengukur jarak tegak lurus dari kursor ke segmen garis setiap lengan (t
 
 | Perintah | Fungsi |
 |---------|-------------|
-| [Leader](./leader) | Membuat multileader baru dari awal |
-| [Leader+](./leader-add) | Menambahkan lengan ke multileader yang ada |
+| [Leader](../leader/) | Membuat multileader baru dari awal |
+| [Leader+](../leader-add/) | Menambahkan lengan ke multileader yang ada |

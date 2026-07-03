@@ -7,7 +7,7 @@ keywords: [CAD dimension aligned, dimaligned, diagonalt mått CAD, verkligt avst
 
 # Dimension Aligned
 
-`dimaligned`-kommandot placerar ett mått som mäter det **verkliga raka avståndet** mellan två punkter. Måttlinjen går parallellt med linjen som förbinder de två punkterna, så den kan ligga i valfri vinkel. Detta är den viktigaste skillnaden mot [Dimension Linear](./dim-linear), som är begränsat till horisontellt eller vertikalt.
+`dimaligned`-kommandot placerar ett mått som mäter det **verkliga raka avståndet** mellan två punkter. Måttlinjen går parallellt med linjen som förbinder de två punkterna, så den kan ligga i valfri vinkel. Detta är den viktigaste skillnaden mot [Dimension Linear](../dim-linear/), som är begränsat till horisontellt eller vertikalt.
 
 ## Anatomi av ett justerat mått
 
@@ -80,7 +80,7 @@ Se [Textredigerare — enkelt läge](../interface/text-editor#simple-mode) för 
 
 ## Kedja mått
 
-För att lägga till fler mått som fortsätter från detta måtts andra hjälplinjeursprung, använd [Dimension Continue](./dim-continue) — det låser till samma mätvinkel som detta justerade mått.
+För att lägga till fler mått som fortsätter från detta måtts andra hjälplinjeursprung, använd [Dimension Continue](../dim-continue/) — det låser till samma mätvinkel som detta justerade mått.
 
 ## DXF — DIMENSION-entitet (justerad typ)
 

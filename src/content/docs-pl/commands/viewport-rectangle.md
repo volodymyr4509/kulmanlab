@@ -47,4 +47,4 @@ Po umieszczeniu okna widoku kliknij je, aby je zaznaczyć:
 ## Uwagi
 
 - ProstokątWidoku jest dostępny tylko gdy aktywna jest zakładka układu papieru. Uruchomienie w przestrzeni modelu pokazuje komunikat o błędzie i wychodzi.
-- Aby skopiować istniejące okno widoku, użyj [KopiujWidok](./viewport-copy).
+- Aby skopiować istniejące okno widoku, użyj [KopiujWidok](../viewport-copy/).

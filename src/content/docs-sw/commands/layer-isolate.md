@@ -7,7 +7,7 @@ keywords: [layer isolate, freeze layers CAD, isolate layer kulmanlab, CAD layer 
 
 # LayerIsolate
 
-Amri ya `LayerIsolate` inaganda kila safu **isipokuwa** zile zinazomilikiwa na vitu vilivyochaguliwa. Itumie ili kuzingatia haraka jiometri maalum bila kuficha au kufuta chochote kwa kudumu — ficha kwa kutumia [LayerUnfreezeAll](./layer-unfreeze-all) unapokuwa umekamilisha.
+Amri ya `LayerIsolate` inaganda kila safu **isipokuwa** zile zinazomilikiwa na vitu vilivyochaguliwa. Itumie ili kuzingatia haraka jiometri maalum bila kuficha au kufuta chochote kwa kudumu — ficha kwa kutumia [LayerUnfreezeAll](../layer-unfreeze-all/) unapokuwa umekamilisha.
 
 ## Njia mbili za kuanzisha
 
@@ -39,4 +39,4 @@ Amri ya `LayerIsolate` inaganda kila safu **isipokuwa** zile zinazomilikiwa na v
 
 ## Kufuta utenganishaji
 
-Endesha [LayerUnfreezeAll](./layer-unfreeze-all) ili kurejesha safu zote kuwa zinazoonekana kwa hatua moja.
+Endesha [LayerUnfreezeAll](../layer-unfreeze-all/) ili kurejesha safu zote kuwa zinazoonekana kwa hatua moja.

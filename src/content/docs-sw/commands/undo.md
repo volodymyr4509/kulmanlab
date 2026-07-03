@@ -36,4 +36,4 @@ Kila mabadiliko ya kipande hurekodiwa: kuchora vipande vipya, kufuta vipande, uh
 | Inapatikana wakati | Kitendo kimoja kilichorekodiwa angalau kipo | Undo angalau moja imefanywa na hakuna kitendo kipya kilichochukuliwa |
 | Inafutwa na | Hakuna — historia inakusanyika hadi kikomo cha hatua 20 | Kitendo chochote kipya cha kuchora |
 
-Tumia [Redo](./redo) kurudisha kitendo kilichofutwa. Vitufe vya upau wa zana huwa vijivu wakati mwelekeo husika haupatikani.
+Tumia [Redo](../redo/) kurudisha kitendo kilichofutwa. Vitufe vya upau wa zana huwa vijivu wakati mwelekeo husika haupatikani.

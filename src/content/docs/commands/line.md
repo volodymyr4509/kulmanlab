@@ -7,7 +7,7 @@ keywords: [CAD line command, draw straight line CAD, chain line segments, trim l
 
 # Line
 
-The `line` command draws individual straight-line segments stored as separate `LINE` entities in the DXF model. After each segment the command stays active and re-uses the endpoint as a new start point, so you can build connected paths one segment at a time. Unlike a [Polyline](./polyline), chained lines remain independent entities — each one can be trimmed, extended, or deleted without affecting its neighbours.
+The `line` command draws individual straight-line segments stored as separate `LINE` entities in the DXF model. After each segment the command stays active and re-uses the endpoint as a new start point, so you can build connected paths one segment at a time. Unlike a [Polyline](../polyline/), chained lines remain independent entities — each one can be trimmed, extended, or deleted without affecting its neighbours.
 
 ## Drawing lines
 
@@ -74,7 +74,7 @@ A selected line shows three grips:
 | **Midpoint** | Centre of the line | Activates **Move** for the whole line |
 | **End** | Second endpoint | Drag to reposition — the start stays fixed |
 
-Stretching one endpoint never affects the other. This differs from [Polyline](./polyline) grip editing, where moving a vertex reshapes the entire path.
+Stretching one endpoint never affects the other. This differs from [Polyline](../polyline/) grip editing, where moving a vertex reshapes the entire path.
 
 ## Selecting lines
 
@@ -86,19 +86,19 @@ Stretching one endpoint never affects the other. This differs from [Polyline](./
 
 ## Supported edit commands
 
-Lines are the **only** entity that [Trim](./trim) and [Extend](./extend) operate on. All standard transformation commands also apply:
+Lines are the **only** entity that [Trim](../trim/) and [Extend](../extend/) operate on. All standard transformation commands also apply:
 
 | Command | What happens to a line |
 |---------|------------------------|
-| [Move](./move) | Translates both endpoints by the same displacement |
-| [Copy](./copy) | Creates an identical line at a new position |
-| [Rotate](./rotate) | Rotates both endpoints around the chosen base point |
-| [Mirror](./mirror) | Reflects both endpoints across the mirror axis |
-| [Scale](./scale) | Scales both endpoints uniformly from the base point |
-| [Offset](./offset) | Creates a parallel line at a fixed perpendicular distance |
-| [Trim](./trim) | Cuts the line at intersections — **lines only** |
-| [Extend](./extend) | Stretches the nearest endpoint to reach a boundary — **lines only** |
-| [Delete](./delete) | Removes the line from the drawing |
+| [Move](../move/) | Translates both endpoints by the same displacement |
+| [Copy](../copy/) | Creates an identical line at a new position |
+| [Rotate](../rotate/) | Rotates both endpoints around the chosen base point |
+| [Mirror](../mirror/) | Reflects both endpoints across the mirror axis |
+| [Scale](../scale/) | Scales both endpoints uniformly from the base point |
+| [Offset](../offset/) | Creates a parallel line at a fixed perpendicular distance |
+| [Trim](../trim/) | Cuts the line at intersections — **lines only** |
+| [Extend](../extend/) | Stretches the nearest endpoint to reach a boundary — **lines only** |
+| [Delete](../delete/) | Removes the line from the drawing |
 
 ## Properties
 

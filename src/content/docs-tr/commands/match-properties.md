@@ -59,5 +59,5 @@ Geometri (koordinatlar, yarıçap, uzunluk vb.) hiçbir zaman etkilenmez.
 
 ## İlgili Komutlar
 
-- [LayerMatch](./layer-match) — seçili nesneleri kaynakla aynı katmana taşır (yalnızca katman özelliği)
-- [LayerMakeCurrent](./layer-make-current) — tıklanan nesneden mevcut çizim katmanını ayarlar
+- [LayerMatch](../layer-match/) — seçili nesneleri kaynakla aynı katmana taşır (yalnızca katman özelliği)
+- [LayerMakeCurrent](../layer-make-current/) — tıklanan nesneden mevcut çizim katmanını ayarlar

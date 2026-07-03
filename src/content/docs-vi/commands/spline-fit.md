@@ -5,7 +5,7 @@ description: Lệnh Spline Fit vẽ spline bậc ba đi qua mọi điểm bạn 
 
 # Spline Fit
 
-Lệnh `splinefit` vẽ spline bậc ba đi qua mọi điểm bạn nhấp — đường cong nội suy. Không giống như [Spline CV](./spline-cv), nơi đường cong chỉ bị hút về phía các điểm kiểm soát, ở đây đường cong bị buộc phải chạm vào từng tọa độ đã nhấp chính xác.
+Lệnh `splinefit` vẽ spline bậc ba đi qua mọi điểm bạn nhấp — đường cong nội suy. Không giống như [Spline CV](../spline-cv/), nơi đường cong chỉ bị hút về phía các điểm kiểm soát, ở đây đường cong bị buộc phải chạm vào từng tọa độ đã nhấp chính xác.
 
 ## Vẽ spline qua điểm khớp
 

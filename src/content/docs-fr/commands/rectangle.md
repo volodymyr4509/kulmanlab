@@ -7,7 +7,7 @@ keywords: [commande rectangle CAO, tracer rectangle CAO, rectangle aligné axes,
 
 # Rectangle
 
-La commande `rectangle` trace un rectangle aligné sur les axes défini par deux clics sur des coins opposés. Le résultat est stocké comme une **`LWPOLYLINE` fermée** à quatre sommets — un à chaque coin. Il n'existe pas de type d'entité rectangle dédié : après création, la forme se comporte exactement comme toute autre [Polyligne](./polyline) et chaque commande d'édition de polyligne s'y applique.
+La commande `rectangle` trace un rectangle aligné sur les axes défini par deux clics sur des coins opposés. Le résultat est stocké comme une **`LWPOLYLINE` fermée** à quatre sommets — un à chaque coin. Il n'existe pas de type d'entité rectangle dédié : après création, la forme se comporte exactement comme toute autre [Polyligne](../polyline/) et chaque commande d'édition de polyligne s'y applique.
 
 ## Tracer un rectangle
 
@@ -68,17 +68,17 @@ Parce que le rectangle est une polyligne, la sélection fonctionne de la même f
 
 ## Commandes d'édition supportées
 
-Toutes les commandes d'édition de polyligne s'appliquent. Trim et Extend sont réservés aux [Line](./line) et ne fonctionnent pas sur les rectangles :
+Toutes les commandes d'édition de polyligne s'appliquent. Trim et Extend sont réservés aux [Line](../line/) et ne fonctionnent pas sur les rectangles :
 
 | Commande | Ce qui arrive au rectangle |
 |----------|---------------------------|
-| [Move](./move) | Translate les quatre sommets du même déplacement |
-| [Copy](./copy) | Crée un rectangle identique à une nouvelle position |
-| [Rotate](./rotate) | Fait pivoter les quatre sommets autour du point de base choisi |
-| [Mirror](./mirror) | Symétrise les quatre sommets par rapport à l'axe de symétrie |
-| [Scale](./scale) | Met à l'échelle les quatre sommets uniformément depuis le point de base |
-| [Offset](./offset) | Crée un rectangle parallèle (intérieur ou extérieur) à une distance fixe |
-| [Delete](./delete) | Supprime le rectangle du dessin |
+| [Move](../move/) | Translate les quatre sommets du même déplacement |
+| [Copy](../copy/) | Crée un rectangle identique à une nouvelle position |
+| [Rotate](../rotate/) | Fait pivoter les quatre sommets autour du point de base choisi |
+| [Mirror](../mirror/) | Symétrise les quatre sommets par rapport à l'axe de symétrie |
+| [Scale](../scale/) | Met à l'échelle les quatre sommets uniformément depuis le point de base |
+| [Offset](../offset/) | Crée un rectangle parallèle (intérieur ou extérieur) à une distance fixe |
+| [Delete](../delete/) | Supprime le rectangle du dessin |
 
 ## Propriétés
 

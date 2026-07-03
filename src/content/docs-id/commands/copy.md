@@ -7,7 +7,7 @@ keywords: [perintah salin CAD, menduplikasi entitas CAD, menyalin objek CAD, men
 
 # Copy
 
-Perintah `copy` membuat duplikat yang diterjemahkan dari entitas yang dipilih dan menempatkannya diimbangi dari titik dasar ke tujuan — aslinya tetap persis di tempatnya. Ini adalah satu perbedaan utama dari [Move](./move): Copy menambahkan entitas baru ke gambar; Move memindahkan entitas yang sudah ada.
+Perintah `copy` membuat duplikat yang diterjemahkan dari entitas yang dipilih dan menempatkannya diimbangi dari titik dasar ke tujuan — aslinya tetap persis di tempatnya. Ini adalah satu perbedaan utama dari [Move](../move/): Copy menambahkan entitas baru ke gambar; Move memindahkan entitas yang sudah ada.
 
 ## Dua cara memulai
 

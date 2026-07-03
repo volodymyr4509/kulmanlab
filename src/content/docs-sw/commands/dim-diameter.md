@@ -7,7 +7,7 @@ keywords: [CAD diameter dimension, dimdiameter, annotate circle diameter, arc di
 
 # Dimension Diameter
 
-Amri ya `dimdiameter` huweka kipimo cha kipenyo kwenye mviringo au duara. Mstari wa kipimo unapita kipenyo chote — kupita katikati kati ya pointi mbili zinazopingana za mviringo — na umewekwa lebo `⌀ <thamani>`. Ili kuweka maelezo ya radi pekee kutoka katikati hadi ukingo mmoja, tumia [Dimension Radius](./dim-radius).
+Amri ya `dimdiameter` huweka kipimo cha kipenyo kwenye mviringo au duara. Mstari wa kipimo unapita kipenyo chote — kupita katikati kati ya pointi mbili zinazopingana za mviringo — na umewekwa lebo `⌀ <thamani>`. Ili kuweka maelezo ya radi pekee kutoka katikati hadi ukingo mmoja, tumia [Dimension Radius](../dim-radius/).
 
 ## Muundo wa kipimo cha kipenyo
 

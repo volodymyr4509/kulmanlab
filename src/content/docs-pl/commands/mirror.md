@@ -7,7 +7,7 @@ keywords: [polecenie odbijania CAD, odbijanie elementów CAD, symetria lustrzana
 
 # Odbij
 
-Polecenie `mirror` tworzy odbite kopie zaznaczonych elementów odbitych przez dwupunktową oś. Oryginały są **zawsze zachowywane** — w odróżnieniu od [Przesuń](./move) lub [Obróć](./rotate), Odbij nigdy nie modyfikuje istniejących elementów; dodaje tylko nowe.
+Polecenie `mirror` tworzy odbite kopie zaznaczonych elementów odbitych przez dwupunktową oś. Oryginały są **zawsze zachowywane** — w odróżnieniu od [Przesuń](../move/) lub [Obróć](../rotate/), Odbij nigdy nie modyfikuje istniejących elementów; dodaje tylko nowe.
 
 ## Dwa sposoby uruchamiania
 

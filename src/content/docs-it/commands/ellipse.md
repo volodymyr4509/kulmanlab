@@ -81,13 +81,13 @@ I grip degli assi maggiore e minore sono indipendenti — puoi ridisegnare l'ell
 
 | Comando | Effetto sull'ellisse |
 |---------|--------------------|
-| [Move](./move) | Trasla il centro; entrambi gli assi invariati |
-| [Copy](./copy) | Crea un'ellisse identica in un nuovo centro |
-| [Rotate](./rotate) | Ruota la posizione del centro e il vettore asse maggiore dello stesso angolo |
-| [Mirror](./mirror) | Riflette il centro e ricalcola la direzione dell'asse maggiore rispetto all'asse speculare |
-| [Scale](./scale) | Scala la posizione del centro e moltiplica le lunghezze di entrambi i semiassi per il fattore |
-| [Offset](./offset) | Crea un'ellisse concentrica spostata verso l'esterno o l'interno di una distanza fissa |
-| [Delete](./delete) | Rimuove l'ellisse |
+| [Move](../move/) | Trasla il centro; entrambi gli assi invariati |
+| [Copy](../copy/) | Crea un'ellisse identica in un nuovo centro |
+| [Rotate](../rotate/) | Ruota la posizione del centro e il vettore asse maggiore dello stesso angolo |
+| [Mirror](../mirror/) | Riflette il centro e ricalcola la direzione dell'asse maggiore rispetto all'asse speculare |
+| [Scale](../scale/) | Scala la posizione del centro e moltiplica le lunghezze di entrambi i semiassi per il fattore |
+| [Offset](../offset/) | Crea un'ellisse concentrica spostata verso l'esterno o l'interno di una distanza fissa |
+| [Delete](../delete/) | Rimuove l'ellisse |
 
 ## Proprietà
 

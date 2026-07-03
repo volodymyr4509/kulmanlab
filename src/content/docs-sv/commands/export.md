@@ -45,7 +45,7 @@ Endast geometrientiteter inkluderas:
 - Linjer, cirklar, bågar, ellipser, polylinjer (exporteras som `LWPOLYLINE`), splines, text
 - Lagerdefinitioner och linjetypstabeller
 
-**Ingår inte i DXF:** dimensionsentiteter och multileaders. Dessa använder KulmanLab-specifika datastrukturer som inte kan representeras troget i standard-DXF. Om din ritning har annoteringar, använd JSON eller [Print](./print) för att fånga dem visuellt.
+**Ingår inte i DXF:** dimensionsentiteter och multileaders. Dessa använder KulmanLab-specifika datastrukturer som inte kan representeras troget i standard-DXF. Om din ritning har annoteringar, använd JSON eller [Print](../print/) för att fånga dem visuellt.
 
 ## Exporterat filnamn
 
@@ -60,10 +60,10 @@ Den nedladdade filen namnges efter den aktuella ritningsfilen (t.ex. `myplan_May
 | Bevarar lager och linjetyper | Ja | Nej (renderas platt) |
 | Fångar dimensioner och ledare | Endast JSON | Ja |
 
-Använd **Export** när du behöver en redigerbar fil. Använd [Print](./print) när du behöver en visuell ögonblicksbild.
+Använd **Export** när du behöver en redigerbar fil. Använd [Print](../print/) när du behöver en visuell ögonblicksbild.
 
 ## Relaterade kommandon
 
-- [Import](./import) — öppna en DXF- eller JSON-fil
-- [Print](./print) — exportera ritytan som en PNG-, JPEG-, WebP- eller PDF-bild
-- [Files](./files) — bläddra bland ritningar sparade i webbläsarens lagring
+- [Import](../import/) — öppna en DXF- eller JSON-fil
+- [Print](../print/) — exportera ritytan som en PNG-, JPEG-, WebP- eller PDF-bild
+- [Files](../files/) — bläddra bland ritningar sparade i webbläsarens lagring

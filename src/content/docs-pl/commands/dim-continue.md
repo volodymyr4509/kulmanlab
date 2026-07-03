@@ -51,7 +51,7 @@ Kierunek pomiaru łańcucha jest **zablokowany do kąta wymiaru bazowego**:
 - Baza liniowa (V) → wszystkie kontynuacje mierzą odległość pionową (Δ Y).
 - Baza wyrównana pod dowolnym kątem → wszystkie kontynuacje mierzą wzdłuż tego samego kąta.
 
-Nie możesz zmienić kierunku w środku łańcucha. Uruchom nowy [Wymiar liniowy](./dim-linear) lub [Wymiar wyrównany](./dim-aligned), aby wymiarować w innym kierunku.
+Nie możesz zmienić kierunku w środku łańcucha. Uruchom nowy [Wymiar liniowy](../dim-linear/) lub [Wymiar wyrównany](../dim-aligned/), aby wymiarować w innym kierunku.
 
 ## Skróty klawiaturowe
 

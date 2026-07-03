@@ -85,13 +85,13 @@ Alla fyra kardinalgrepp beter sig identiskt — den nya radien blir avståndet f
 
 | Kommando | Vad som händer med cirkeln |
 |---------|---------------------------|
-| [Move](./move) | Flyttar centrum; radien oförändrad |
-| [Copy](./copy) | Skapar en identisk cirkel med ett nytt centrum |
-| [Rotate](./rotate) | Roterar centrum kring baspunkten; radien oförändrad |
-| [Mirror](./mirror) | Speglar centrum över spegelaxeln; radien oförändrad |
-| [Scale](./scale) | Skalar centrumpositionen och multiplicerar radien med skalfaktorn |
-| [Offset](./offset) | Skapar en koncentrisk cirkel med en större eller mindre radie |
-| [Delete](./delete) | Tar bort cirkeln |
+| [Move](../move/) | Flyttar centrum; radien oförändrad |
+| [Copy](../copy/) | Skapar en identisk cirkel med ett nytt centrum |
+| [Rotate](../rotate/) | Roterar centrum kring baspunkten; radien oförändrad |
+| [Mirror](../mirror/) | Speglar centrum över spegelaxeln; radien oförändrad |
+| [Scale](../scale/) | Skalar centrumpositionen och multiplicerar radien med skalfaktorn |
+| [Offset](../offset/) | Skapar en koncentrisk cirkel med en större eller mindre radie |
+| [Delete](../delete/) | Tar bort cirkeln |
 
 ## Egenskaper
 
@@ -120,7 +120,7 @@ Alla fyra kardinalgrepp beter sig identiskt — den nya radien blir avståndet f
 | Hur man ritar | Centrum + radie | Tre punkter på kurvan |
 | Skriven inmatning | Radievärde | Ingen — endast klick |
 | Storleksgrepp | 4 kardinalpunkter | Start- och slutpunkter (vinkel + radie) |
-| Måttsättning | Radie: [Dim Radius](./dim-radius) · Diameter: [Dim Diameter](./dim-diameter) | [Dim Radius](./dim-radius) |
+| Måttsättning | Radie: [Dim Radius](../dim-radius/) · Diameter: [Dim Diameter](../dim-diameter/) | [Dim Radius](../dim-radius/) |
 | Bäst för | Fullständiga hål, bultcirklar, runda former | Avfasningar, delvisa kurvor, bågformade vägar |
 
 ## DXF — CIRCLE-entitet

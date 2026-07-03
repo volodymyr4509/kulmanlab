@@ -36,4 +36,4 @@ Varje entitetsmutation registreras: att rita nya entiteter, ta bort entiteter, g
 | Tillgängligt när | Minst en registrerad åtgärd finns | Minst en Undo har utförts och ingen ny åtgärd har vidtagits |
 | Rensas av | Ingenting — historiken ackumuleras tills 20-stegsgränsen | Alla nya ritåtgärder |
 
-Använd [Redo](./redo) för att återställa en ångrad åtgärd. Verktygsfältsknapparna är gråtonade när respektive riktning inte är tillgänglig.
+Använd [Redo](../redo/) för att återställa en ångrad åtgärd. Verktygsfältsknapparna är gråtonade när respektive riktning inte är tillgänglig.

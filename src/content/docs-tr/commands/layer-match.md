@@ -7,7 +7,7 @@ keywords: [CAD layer match komutu, nesneleri katmana taşı CAD, nesne katmanın
 
 # LayerMatch
 
-`layer match` komutu, bir veya daha fazla nesneyi başka bir (kaynak) nesnenin katmanına taşır. Bu, [Match Properties](./match-properties) komutunun yalnızca katmanlar için olan karşılığıdır.
+`layer match` komutu, bir veya daha fazla nesneyi başka bir (kaynak) nesnenin katmanına taşır. Bu, [Match Properties](../match-properties/) komutunun yalnızca katmanlar için olan karşılığıdır.
 
 ## Nasıl Kullanılır
 
@@ -33,5 +33,5 @@ keywords: [CAD layer match komutu, nesneleri katmana taşı CAD, nesne katmanın
 
 ## İlgili Komutlar
 
-- [Match Properties](./match-properties) — tüm özellikleri kopyalar (yalnızca katman değil)
-- [Layer Make Current](./layer-make-current) — geçerli katmanı ayarlar
+- [Match Properties](../match-properties/) — tüm özellikleri kopyalar (yalnızca katman değil)
+- [Layer Make Current](../layer-make-current/) — geçerli katmanı ayarlar
