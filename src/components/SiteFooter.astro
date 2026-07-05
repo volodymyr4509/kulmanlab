@@ -23,7 +23,7 @@ const docsUrl = lang === 'en' ? '/docs/' : `/${lang}/docs/`;
       {languages.map(l => (
         l.code === lang
           ? <span class="text-xs text-slate-400 flex items-center gap-1"><span>{l.flag}</span>{l.code.toUpperCase()}</span>
-          : <a href={l.code === 'en' ? '/' : `/${l.code}`} class="text-xs text-slate-600 hover:text-slate-400 transition-colors flex items-center gap-1"><span>{l.flag}</span>{l.code.toUpperCase()}</a>
+          : <a href={l.code === 'en' ? '/' : `/${l.code}/`} class="text-xs text-slate-600 hover:text-slate-400 transition-colors flex items-center gap-1"><span>{l.flag}</span>{l.code.toUpperCase()}</a>
       ))}
     </div>
   </div>
