@@ -102,7 +102,7 @@ No manual adjustment needed — move the cursor to the side where you want the l
 
 **Double-click** a placed multileader to reopen the text editor in **rich** mode. In rich mode you can apply bold, italic, and per-character font or height overrides, and insert line breaks with `Enter`. Press **Escape** to commit and close.
 
-See [Text Editor — rich mode](../interface/text-editor#rich-mode) for the full reference.
+See [Text Editor — rich mode](../../interface/text-editor/#rich-mode) for the full reference.
 
 ## Adding and removing arms
 

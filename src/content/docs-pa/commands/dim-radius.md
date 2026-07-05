@@ -59,7 +59,7 @@ keywords: [CAD ਰੇਡੀਅਸ ਡਾਇਮੈਂਸ਼ਨ, dimradius, ਸਰ
 | `Enter` | ਮੁੱਲ ਕਮਿੱਟ ਕਰਦਾ ਹੈ ਅਤੇ ਐਡੀਟਰ ਬੰਦ ਕਰਦਾ ਹੈ |
 | ਮਲਟੀ-ਲਾਈਨ | ਸਮਰਥਿਤ ਨਹੀਂ |
 
-ਪੂਰੇ ਰੈਫਰੈਂਸ ਲਈ [Text Editor — simple mode](../interface/text-editor#simple-mode) ਵੇਖੋ।
+ਪੂਰੇ ਰੈਫਰੈਂਸ ਲਈ [Text Editor — simple mode](../../interface/text-editor/#simple-mode) ਵੇਖੋ।
 
 ## DXF — DIMENSION ਰੇਡੀਅਸ ਐਂਟਿਟੀ
 

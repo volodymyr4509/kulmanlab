@@ -59,7 +59,7 @@ Hanya entitas **Arc** dan **Circle** yang dapat dipilih. Mengklik tipe entitas l
 | `Enter` | Mengonfirmasi nilai dan menutup editor |
 | Multi-baris | Tidak didukung |
 
-Lihat [Text Editor — mode sederhana](../interface/text-editor#simple-mode) untuk referensi lengkap.
+Lihat [Text Editor — mode sederhana](../../interface/text-editor/#simple-mode) untuk referensi lengkap.
 
 ## DXF — entitas DIMENSION radius
 

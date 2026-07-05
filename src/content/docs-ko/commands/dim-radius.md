@@ -59,7 +59,7 @@ keywords: [CAD 반지름 치수, dimradius, 원 반지름 주석, 호 반지름 
 | `Enter` | 값을 확정하고 편집기 닫기 |
 | 여러 줄 | 지원되지 않음 |
 
-자세한 내용은 [텍스트 편집기 — 단순 모드](../interface/text-editor#simple-mode)를 참조하세요.
+자세한 내용은 [텍스트 편집기 — 단순 모드](../../interface/text-editor/#simple-mode)를 참조하세요.
 
 ## DXF — DIMENSION 반지름 객체
 

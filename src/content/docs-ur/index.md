@@ -12,97 +12,97 @@ keywords: [KulmanLab, KulmanLab CAD, CAD کمانڈز, مفت براؤزر CAD, 
 
 | کمانڈ | یہ کیا کرتا ہے |
 |---------|-------------|
-| [Line](./commands/line) | دو نقاط کے درمیان ایک سیدھی لائن کھینچیں |
-| [Polyline](./commands/polyline) | ایک کثیر-حصہ کھلا راستہ کھینچیں |
-| [Rectangle](./commands/rectangle) | ایک محور-سیدھ مستطیل کھینچیں |
-| [Circle](./commands/circle) | مرکز اور نصف قطر سے ایک دائرہ کھینچیں |
-| [Arc](./commands/arc) | تین نقاط سے گزرتا ہوا ایک قوس کھینچیں |
-| [Ellipse](./commands/ellipse) | مرکز اور دو محوروں سے ایک بیضوی کھینچیں |
-| [Text](./commands/text) | کینوس پر ایک متن لیبل رکھیں |
-| [Spline CV](./commands/spline-cv) | کنٹرول ورٹیسز رکھ کر ایک اسپلائن کھینچیں |
-| [Spline Fit](./commands/spline-fit) | کلک کیے گئے نقاط سے گزرتا ہوا ایک اسپلائن کھینچیں |
+| [Line](./commands/line/) | دو نقاط کے درمیان ایک سیدھی لائن کھینچیں |
+| [Polyline](./commands/polyline/) | ایک کثیر-حصہ کھلا راستہ کھینچیں |
+| [Rectangle](./commands/rectangle/) | ایک محور-سیدھ مستطیل کھینچیں |
+| [Circle](./commands/circle/) | مرکز اور نصف قطر سے ایک دائرہ کھینچیں |
+| [Arc](./commands/arc/) | تین نقاط سے گزرتا ہوا ایک قوس کھینچیں |
+| [Ellipse](./commands/ellipse/) | مرکز اور دو محوروں سے ایک بیضوی کھینچیں |
+| [Text](./commands/text/) | کینوس پر ایک متن لیبل رکھیں |
+| [Spline CV](./commands/spline-cv/) | کنٹرول ورٹیسز رکھ کر ایک اسپلائن کھینچیں |
+| [Spline Fit](./commands/spline-fit/) | کلک کیے گئے نقاط سے گزرتا ہوا ایک اسپلائن کھینچیں |
 
 ## ترمیم
 
 | کمانڈ | یہ کیا کرتا ہے |
 |---------|-------------|
-| [Move](./commands/move) | منتخب اشیاء کو نئی پوزیشن پر منتقل کریں |
-| [Copy](./commands/copy) | منتخب اشیاء کو نئی پوزیشن پر نقل کریں |
-| [Rotate](./commands/rotate) | ایک بنیادی نقطے کے گرد منتخب اشیاء کو گھمائیں |
-| [Mirror](./commands/mirror) | ایک لائن کے پار منتخب اشیاء کا آئینہ بنائیں |
-| [Scale](./commands/scale) | ایک بنیادی نقطے کے گرد منتخب اشیاء کا پیمانہ تبدیل کریں |
-| [Delete](./commands/delete) | ڈرائنگ سے منتخب اشیاء حذف کریں |
-| [Trim](./commands/trim) | لائن سیگمنٹ کو اس کے تقاطع پر تراشیں |
-| [Extend](./commands/extend) | قریب ترین سرحدی تقاطع تک لائن کو بڑھائیں |
-| [Offset](./commands/offset) | ایک مخصوص فاصلے پر کسی شے کی متوازی نقل بنائیں |
-| [Fillet](./commands/fillet) | ایک مماسی قوس سے دو لائنوں کے درمیان کونے کو گول کریں |
-| [Chamfer](./commands/chamfer) | دو لائنوں یا Polylines کے درمیان ایک سیدھا ترچھا کونہ کاٹیں |
-| [Undo](./commands/undo) | آخری عمل واپس کریں |
-| [Redo](./commands/redo) | آخری واپس کیے گئے عمل کو دوبارہ کریں |
+| [Move](./commands/move/) | منتخب اشیاء کو نئی پوزیشن پر منتقل کریں |
+| [Copy](./commands/copy/) | منتخب اشیاء کو نئی پوزیشن پر نقل کریں |
+| [Rotate](./commands/rotate/) | ایک بنیادی نقطے کے گرد منتخب اشیاء کو گھمائیں |
+| [Mirror](./commands/mirror/) | ایک لائن کے پار منتخب اشیاء کا آئینہ بنائیں |
+| [Scale](./commands/scale/) | ایک بنیادی نقطے کے گرد منتخب اشیاء کا پیمانہ تبدیل کریں |
+| [Delete](./commands/delete/) | ڈرائنگ سے منتخب اشیاء حذف کریں |
+| [Trim](./commands/trim/) | لائن سیگمنٹ کو اس کے تقاطع پر تراشیں |
+| [Extend](./commands/extend/) | قریب ترین سرحدی تقاطع تک لائن کو بڑھائیں |
+| [Offset](./commands/offset/) | ایک مخصوص فاصلے پر کسی شے کی متوازی نقل بنائیں |
+| [Fillet](./commands/fillet/) | ایک مماسی قوس سے دو لائنوں کے درمیان کونے کو گول کریں |
+| [Chamfer](./commands/chamfer/) | دو لائنوں یا Polylines کے درمیان ایک سیدھا ترچھا کونہ کاٹیں |
+| [Undo](./commands/undo/) | آخری عمل واپس کریں |
+| [Redo](./commands/redo/) | آخری واپس کیے گئے عمل کو دوبارہ کریں |
 
 ## مارک اپ
 
 | کمانڈ | یہ کیا کرتا ہے |
 |---------|-------------|
-| [Leader](./commands/leader) | تیر کے سر اور متن کے ساتھ ایک ملٹی لیڈر تشریح کھینچیں |
-| [Leader+](./commands/leader-add) | موجودہ ملٹی لیڈر میں ایک اضافی بازو شامل کریں |
-| [Leader−](./commands/leader-remove) | موجودہ ملٹی لیڈر سے ایک بازو ہٹائیں |
-| [Dimension Linear](./commands/dim-linear) | افقی یا عمودی پیمائش شامل کریں |
-| [Dimension Aligned](./commands/dim-aligned) | دو نقاط سے سیدھ میں پیمائش شامل کریں |
-| [Dimension Continue](./commands/dim-continue) | آخری پیمائش سے نئی پیمائش کو جوڑیں |
-| [Dimension Radius](./commands/dim-radius) | دائرے یا قوس میں نصف قطر کی پیمائش شامل کریں |
-| [Dimension Diameter](./commands/dim-diameter) | دائرے میں قطر کی پیمائش شامل کریں |
-| [Dimension Angular](./commands/dim-angular) | دو لائنوں، قوس، یا دائرے میں زاویاتی پیمائش شامل کریں |
+| [Leader](./commands/leader/) | تیر کے سر اور متن کے ساتھ ایک ملٹی لیڈر تشریح کھینچیں |
+| [Leader+](./commands/leader-add/) | موجودہ ملٹی لیڈر میں ایک اضافی بازو شامل کریں |
+| [Leader−](./commands/leader-remove/) | موجودہ ملٹی لیڈر سے ایک بازو ہٹائیں |
+| [Dimension Linear](./commands/dim-linear/) | افقی یا عمودی پیمائش شامل کریں |
+| [Dimension Aligned](./commands/dim-aligned/) | دو نقاط سے سیدھ میں پیمائش شامل کریں |
+| [Dimension Continue](./commands/dim-continue/) | آخری پیمائش سے نئی پیمائش کو جوڑیں |
+| [Dimension Radius](./commands/dim-radius/) | دائرے یا قوس میں نصف قطر کی پیمائش شامل کریں |
+| [Dimension Diameter](./commands/dim-diameter/) | دائرے میں قطر کی پیمائش شامل کریں |
+| [Dimension Angular](./commands/dim-angular/) | دو لائنوں، قوس، یا دائرے میں زاویاتی پیمائش شامل کریں |
 
 ## پرت
 
 | کمانڈ | یہ کیا کرتا ہے |
 |---------|-------------|
-| [LayerMakeCurrent](./commands/layer-make-current) | کلک کی گئی شے کی پرت سے ملانے کے لیے موجودہ پرت سیٹ کریں |
-| [LayerMatch](./commands/layer-match) | منتخب اشیاء کو ماخذ شے کی پرت سے ملانے کے لیے دوبارہ تفویض کریں |
-| [LayerIsolate](./commands/layer-isolate) | منتخب اشیاء کی پرتوں کے علاوہ تمام پرتیں منجمد کریں |
-| [LayerUnfreezeAll](./commands/layer-unfreeze-all) | ایک مرحلے میں تمام پرتیں پگھلائیں |
+| [LayerMakeCurrent](./commands/layer-make-current/) | کلک کی گئی شے کی پرت سے ملانے کے لیے موجودہ پرت سیٹ کریں |
+| [LayerMatch](./commands/layer-match/) | منتخب اشیاء کو ماخذ شے کی پرت سے ملانے کے لیے دوبارہ تفویض کریں |
+| [LayerIsolate](./commands/layer-isolate/) | منتخب اشیاء کی پرتوں کے علاوہ تمام پرتیں منجمد کریں |
+| [LayerUnfreezeAll](./commands/layer-unfreeze-all/) | ایک مرحلے میں تمام پرتیں پگھلائیں |
 
 ## لے آؤٹس
 
 | کمانڈ | یہ کیا کرتا ہے |
 |---------|-------------|
-| [ViewportRectangle](./commands/viewport-rectangle) | دو کونے منتخب کر کے کاغذی لے آؤٹ میں ویوپورٹ بنائیں |
-| [ViewportCopy](./commands/viewport-copy) | ویوپورٹ کو نئی پوزیشن پر نقل کریں |
-| [PageManager](./commands/page-manager) | فعال لے آؤٹ کے لیے کاغذ کا سائز اور پیمانہ ترمیم کریں |
+| [ViewportRectangle](./commands/viewport-rectangle/) | دو کونے منتخب کر کے کاغذی لے آؤٹ میں ویوپورٹ بنائیں |
+| [ViewportCopy](./commands/viewport-copy/) | ویوپورٹ کو نئی پوزیشن پر نقل کریں |
+| [PageManager](./commands/page-manager/) | فعال لے آؤٹ کے لیے کاغذ کا سائز اور پیمانہ ترمیم کریں |
 
 ## نیویگیٹ
 
 | کمانڈ | یہ کیا کرتا ہے |
 |---------|-------------|
-| [Pan](./commands/pan) | ویوپورٹ منتقل کرنے کے لیے کلک کریں اور گھسیٹیں |
-| [Zoom In](./commands/zoom-in) | ویوپورٹ زوم ان کریں |
-| [Zoom Out](./commands/zoom-out) | ویوپورٹ زوم آؤٹ کریں |
-| [Fit](./commands/fit) | ویوپورٹ میں تمام اشیاء فٹ کریں |
+| [Pan](./commands/pan/) | ویوپورٹ منتقل کرنے کے لیے کلک کریں اور گھسیٹیں |
+| [Zoom In](./commands/zoom-in/) | ویوپورٹ زوم ان کریں |
+| [Zoom Out](./commands/zoom-out/) | ویوپورٹ زوم آؤٹ کریں |
+| [Fit](./commands/fit/) | ویوپورٹ میں تمام اشیاء فٹ کریں |
 
 ## پیمائش
 
 | کمانڈ | یہ کیا کرتا ہے |
 |---------|-------------|
-| [Distance](./commands/distance) | دو نقاط کے درمیان فاصلہ ناپیں |
-| [Angle](./commands/angle) | تین نقاط کے درمیان زاویہ ناپیں |
+| [Distance](./commands/distance/) | دو نقاط کے درمیان فاصلہ ناپیں |
+| [Angle](./commands/angle/) | تین نقاط کے درمیان زاویہ ناپیں |
 
 ## انداز
 
 | کمانڈ | یہ کیا کرتا ہے |
 |---------|-------------|
-| [Match Properties](./commands/match-properties) | ایک شے سے دوسروں تک رنگ، پرت، اور دیگر خصوصیات نقل کریں |
+| [Match Properties](./commands/match-properties/) | ایک شے سے دوسروں تک رنگ، پرت، اور دیگر خصوصیات نقل کریں |
 
 ## فائل
 
 | کمانڈ | یہ کیا کرتا ہے |
 |---------|-------------|
-| [Import](./commands/import) | DXF یا JSON ڈرائنگ فائل کھولیں |
-| [New File](./commands/new-file) | نئی خالی ڈرائنگ شروع کریں |
-| [Files](./commands/files) | حالیہ ڈرائنگز براؤز اور بحال کریں |
-| [Print](./commands/print) | ڈرائنگ کا علاقہ تصویر یا PDF کے طور پر برآمد کریں |
-| [Export](./commands/export) | ڈرائنگ کو DXF یا JSON کے طور پر ڈاؤن لوڈ کریں |
-| [WipeStorage](./commands/wipestorage) | براؤزر اسٹوریج سے تمام ڈرائنگز صاف کریں |
+| [Import](./commands/import/) | DXF یا JSON ڈرائنگ فائل کھولیں |
+| [New File](./commands/new-file/) | نئی خالی ڈرائنگ شروع کریں |
+| [Files](./commands/files/) | حالیہ ڈرائنگز براؤز اور بحال کریں |
+| [Print](./commands/print/) | ڈرائنگ کا علاقہ تصویر یا PDF کے طور پر برآمد کریں |
+| [Export](./commands/export/) | ڈرائنگ کو DXF یا JSON کے طور پر ڈاؤن لوڈ کریں |
+| [WipeStorage](./commands/wipestorage/) | براؤزر اسٹوریج سے تمام ڈرائنگز صاف کریں |
 
 ## بازیابی
 
@@ -112,7 +112,7 @@ keywords: [KulmanLab, KulmanLab CAD, CAD کمانڈز, مفت براؤزر CAD, 
 https://kulmanlab.com/?resetKulmanLocalStorage
 ```
 
-یہ براؤزر کے مقامی ڈیٹابیس سے سب کچھ حذف کرتا ہے اور ایک نئی خالی ڈرائنگ شروع کرتا ہے۔ `?reset` پیرامیٹر خود بخود URL سے ہٹ جاتا ہے۔ اسے آخری حل کے طور پر استعمال کریں جب [WipeStorage](./commands/wipestorage) ناقابل رسائی ہو کیونکہ ایپ بالکل لوڈ نہیں ہوتی۔
+یہ براؤزر کے مقامی ڈیٹابیس سے سب کچھ حذف کرتا ہے اور ایک نئی خالی ڈرائنگ شروع کرتا ہے۔ `?reset` پیرامیٹر خود بخود URL سے ہٹ جاتا ہے۔ اسے آخری حل کے طور پر استعمال کریں جب [WipeStorage](./commands/wipestorage/) ناقابل رسائی ہو کیونکہ ایپ بالکل لوڈ نہیں ہوتی۔
 
 ## کمانڈز کیسے کام کرتی ہیں
 

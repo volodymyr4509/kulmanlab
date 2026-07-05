@@ -34,7 +34,7 @@ Căn chỉnh văn bản tự động điều chỉnh theo vị trí con trỏ so
 
 **Nhấp đúp** vào đường dẫn đa đã đặt để mở lại trình soạn thảo văn bản ở chế độ **phong phú**. Ở chế độ phong phú bạn có thể áp dụng in đậm, in nghiêng và ghi đè phông chữ hoặc chiều cao theo từng ký tự, và chèn ngắt dòng bằng `Enter`. Nhấn **Escape** để xác nhận và đóng.
 
-Xem [Trình Soạn Thảo Văn Bản — chế độ phong phú](../interface/text-editor#rich-mode) để tham khảo đầy đủ.
+Xem [Trình Soạn Thảo Văn Bản — chế độ phong phú](../../interface/text-editor/#rich-mode) để tham khảo đầy đủ.
 
 ## Thêm và xóa cánh tay
 

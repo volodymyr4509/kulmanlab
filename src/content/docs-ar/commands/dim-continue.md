@@ -84,7 +84,7 @@ keywords: [استمرار بُعد CAD, dimcontinue, تسلسل أبعاد CAD, 
 | `Enter` | يُثبِّت القيمة ويغلق المحرر |
 | متعدد الأسطر | غير مدعوم |
 
-راجع [محرر النص — الوضع البسيط](../interface/text-editor#simple-mode) للمرجع الكامل.
+راجع [محرر النص — الوضع البسيط](../../interface/text-editor/#simple-mode) للمرجع الكامل.
 
 ## DXF — عناصر DIMENSION
 

@@ -85,7 +85,7 @@ keywords: [CAD 线性标注, 水平标注 CAD, 垂直标注 CAD, 线性标注命
 | `Enter` | 提交值并关闭编辑器 |
 | 多行 | 不支持 |
 
-请参阅[文字编辑器 — 简单模式](../interface/text-editor#simple-mode)获取完整参考。
+请参阅[文字编辑器 — 简单模式](../../interface/text-editor/#simple-mode)获取完整参考。
 
 ## 链式标注
 

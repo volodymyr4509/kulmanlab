@@ -12,97 +12,97 @@ keywords: [KulmanLab, KulmanLab CAD, คำสั่ง CAD, CAD ฟรีใน
 
 | คำสั่ง | สิ่งที่ทำ |
 |---------|-----------|
-| [Line](./commands/line) | วาดเส้นตรงระหว่างสองจุด |
-| [Polyline](./commands/polyline) | วาดเส้นทางหลายส่วนแบบเปิด |
-| [Rectangle](./commands/rectangle) | วาดสี่เหลี่ยมผืนผ้าแนวแกน |
-| [Circle](./commands/circle) | วาดวงกลมด้วยจุดศูนย์กลางและรัศมี |
-| [Arc](./commands/arc) | วาดส่วนโค้งผ่านสามจุด |
-| [Ellipse](./commands/ellipse) | วาดวงรีด้วยจุดศูนย์กลางและสองแกน |
-| [Text](./commands/text) | วางป้ายข้อความบนแคนวาส |
-| [Spline CV](./commands/spline-cv) | วาดสไปลน์โดยวางจุดควบคุม |
-| [Spline Fit](./commands/spline-fit) | วาดสไปลน์ที่ผ่านจุดที่คลิก |
+| [Line](./commands/line/) | วาดเส้นตรงระหว่างสองจุด |
+| [Polyline](./commands/polyline/) | วาดเส้นทางหลายส่วนแบบเปิด |
+| [Rectangle](./commands/rectangle/) | วาดสี่เหลี่ยมผืนผ้าแนวแกน |
+| [Circle](./commands/circle/) | วาดวงกลมด้วยจุดศูนย์กลางและรัศมี |
+| [Arc](./commands/arc/) | วาดส่วนโค้งผ่านสามจุด |
+| [Ellipse](./commands/ellipse/) | วาดวงรีด้วยจุดศูนย์กลางและสองแกน |
+| [Text](./commands/text/) | วางป้ายข้อความบนแคนวาส |
+| [Spline CV](./commands/spline-cv/) | วาดสไปลน์โดยวางจุดควบคุม |
+| [Spline Fit](./commands/spline-fit/) | วาดสไปลน์ที่ผ่านจุดที่คลิก |
 
 ## แก้ไข
 
 | คำสั่ง | สิ่งที่ทำ |
 |---------|-----------|
-| [Move](./commands/move) | ย้ายวัตถุที่เลือกไปยังตำแหน่งใหม่ |
-| [Copy](./commands/copy) | คัดลอกวัตถุที่เลือกไปยังตำแหน่งใหม่ |
-| [Rotate](./commands/rotate) | หมุนวัตถุที่เลือกรอบจุดฐาน |
-| [Mirror](./commands/mirror) | สะท้อนวัตถุที่เลือกข้ามเส้น |
-| [Scale](./commands/scale) | ปรับมาตราส่วนวัตถุที่เลือกรอบจุดฐาน |
-| [Delete](./commands/delete) | ลบวัตถุที่เลือกออกจากภาพวาด |
-| [Trim](./commands/trim) | ตัดส่วนของเส้นที่จุดตัด |
-| [Extend](./commands/extend) | ยืดเส้นไปยังจุดตัดขอบเขตที่ใกล้ที่สุด |
-| [Offset](./commands/offset) | สร้างสำเนาขนานของวัตถุที่ระยะที่กำหนด |
-| [Fillet](./commands/fillet) | ทำมุมโค้งระหว่างสองเส้นด้วยส่วนโค้งสัมผัส |
-| [Chamfer](./commands/chamfer) | ตัดมุมเฉียงตรงระหว่างสองเส้นหรือโพลีไลน์ |
-| [Undo](./commands/undo) | เลิกทำการกระทำล่าสุด |
-| [Redo](./commands/redo) | ทำซ้ำการกระทำที่เพิ่งเลิกทำ |
+| [Move](./commands/move/) | ย้ายวัตถุที่เลือกไปยังตำแหน่งใหม่ |
+| [Copy](./commands/copy/) | คัดลอกวัตถุที่เลือกไปยังตำแหน่งใหม่ |
+| [Rotate](./commands/rotate/) | หมุนวัตถุที่เลือกรอบจุดฐาน |
+| [Mirror](./commands/mirror/) | สะท้อนวัตถุที่เลือกข้ามเส้น |
+| [Scale](./commands/scale/) | ปรับมาตราส่วนวัตถุที่เลือกรอบจุดฐาน |
+| [Delete](./commands/delete/) | ลบวัตถุที่เลือกออกจากภาพวาด |
+| [Trim](./commands/trim/) | ตัดส่วนของเส้นที่จุดตัด |
+| [Extend](./commands/extend/) | ยืดเส้นไปยังจุดตัดขอบเขตที่ใกล้ที่สุด |
+| [Offset](./commands/offset/) | สร้างสำเนาขนานของวัตถุที่ระยะที่กำหนด |
+| [Fillet](./commands/fillet/) | ทำมุมโค้งระหว่างสองเส้นด้วยส่วนโค้งสัมผัส |
+| [Chamfer](./commands/chamfer/) | ตัดมุมเฉียงตรงระหว่างสองเส้นหรือโพลีไลน์ |
+| [Undo](./commands/undo/) | เลิกทำการกระทำล่าสุด |
+| [Redo](./commands/redo/) | ทำซ้ำการกระทำที่เพิ่งเลิกทำ |
 
 ## คำอธิบายประกอบ
 
 | คำสั่ง | สิ่งที่ทำ |
 |---------|-----------|
-| [Leader](./commands/leader) | วาดคำอธิบายหลายหัวลูกศรพร้อมหัวลูกศรและข้อความ |
-| [Leader+](./commands/leader-add) | เพิ่มแขนพิเศษให้กับหัวลูกศรหลายหัวที่มีอยู่ |
-| [Leader−](./commands/leader-remove) | ลบแขนออกจากหัวลูกศรหลายหัว |
-| [Dimension Linear](./commands/dim-linear) | เพิ่มมิติแนวนอนหรือแนวตั้ง |
-| [Dimension Aligned](./commands/dim-aligned) | เพิ่มมิติที่ตรงกับสองจุด |
-| [Dimension Continue](./commands/dim-continue) | ต่อเชื่อมมิติใหม่จากมิติล่าสุด |
-| [Dimension Radius](./commands/dim-radius) | เพิ่มมิติรัศมีให้กับวงกลมหรือส่วนโค้ง |
-| [Dimension Diameter](./commands/dim-diameter) | เพิ่มมิติเส้นผ่านศูนย์กลางให้กับวงกลม |
-| [Dimension Angular](./commands/dim-angular) | เพิ่มมิติมุมให้กับสองเส้น ส่วนโค้ง หรือวงกลม |
+| [Leader](./commands/leader/) | วาดคำอธิบายหลายหัวลูกศรพร้อมหัวลูกศรและข้อความ |
+| [Leader+](./commands/leader-add/) | เพิ่มแขนพิเศษให้กับหัวลูกศรหลายหัวที่มีอยู่ |
+| [Leader−](./commands/leader-remove/) | ลบแขนออกจากหัวลูกศรหลายหัว |
+| [Dimension Linear](./commands/dim-linear/) | เพิ่มมิติแนวนอนหรือแนวตั้ง |
+| [Dimension Aligned](./commands/dim-aligned/) | เพิ่มมิติที่ตรงกับสองจุด |
+| [Dimension Continue](./commands/dim-continue/) | ต่อเชื่อมมิติใหม่จากมิติล่าสุด |
+| [Dimension Radius](./commands/dim-radius/) | เพิ่มมิติรัศมีให้กับวงกลมหรือส่วนโค้ง |
+| [Dimension Diameter](./commands/dim-diameter/) | เพิ่มมิติเส้นผ่านศูนย์กลางให้กับวงกลม |
+| [Dimension Angular](./commands/dim-angular/) | เพิ่มมิติมุมให้กับสองเส้น ส่วนโค้ง หรือวงกลม |
 
 ## เลเยอร์
 
 | คำสั่ง | สิ่งที่ทำ |
 |---------|-----------|
-| [LayerMakeCurrent](./commands/layer-make-current) | ตั้งค่าเลเยอร์ปัจจุบันให้ตรงกับเลเยอร์ของวัตถุที่คลิก |
-| [LayerMatch](./commands/layer-match) | กำหนดวัตถุที่เลือกใหม่ให้ตรงกับเลเยอร์ของวัตถุต้นทาง |
-| [LayerIsolate](./commands/layer-isolate) | ซ่อนเลเยอร์ทั้งหมดยกเว้นเลเยอร์ของวัตถุที่เลือก |
-| [LayerUnfreezeAll](./commands/layer-unfreeze-all) | ยกเลิกการซ่อนเลเยอร์ทั้งหมดในขั้นตอนเดียว |
+| [LayerMakeCurrent](./commands/layer-make-current/) | ตั้งค่าเลเยอร์ปัจจุบันให้ตรงกับเลเยอร์ของวัตถุที่คลิก |
+| [LayerMatch](./commands/layer-match/) | กำหนดวัตถุที่เลือกใหม่ให้ตรงกับเลเยอร์ของวัตถุต้นทาง |
+| [LayerIsolate](./commands/layer-isolate/) | ซ่อนเลเยอร์ทั้งหมดยกเว้นเลเยอร์ของวัตถุที่เลือก |
+| [LayerUnfreezeAll](./commands/layer-unfreeze-all/) | ยกเลิกการซ่อนเลเยอร์ทั้งหมดในขั้นตอนเดียว |
 
 ## เค้าโครง
 
 | คำสั่ง | สิ่งที่ทำ |
 |---------|-----------|
-| [ViewportRectangle](./commands/viewport-rectangle) | สร้างพื้นที่แสดงผลในเค้าโครงกระดาษโดยเลือกสองมุม |
-| [ViewportCopy](./commands/viewport-copy) | ทำสำเนาพื้นที่แสดงผลไปยังตำแหน่งใหม่ |
-| [PageManager](./commands/page-manager) | แก้ไขขนาดกระดาษและมาตราส่วนสำหรับเค้าโครงที่ใช้งาน |
+| [ViewportRectangle](./commands/viewport-rectangle/) | สร้างพื้นที่แสดงผลในเค้าโครงกระดาษโดยเลือกสองมุม |
+| [ViewportCopy](./commands/viewport-copy/) | ทำสำเนาพื้นที่แสดงผลไปยังตำแหน่งใหม่ |
+| [PageManager](./commands/page-manager/) | แก้ไขขนาดกระดาษและมาตราส่วนสำหรับเค้าโครงที่ใช้งาน |
 
 ## ไปยัง
 
 | คำสั่ง | สิ่งที่ทำ |
 |---------|-----------|
-| [Pan](./commands/pan) | คลิกและลากเพื่อเลื่อนพื้นที่แสดงผล |
-| [Zoom In](./commands/zoom-in) | ขยายพื้นที่แสดงผล |
-| [Zoom Out](./commands/zoom-out) | ย่อพื้นที่แสดงผล |
-| [Fit](./commands/fit) | จัดวัตถุทั้งหมดให้พอดีกับพื้นที่แสดงผล |
+| [Pan](./commands/pan/) | คลิกและลากเพื่อเลื่อนพื้นที่แสดงผล |
+| [Zoom In](./commands/zoom-in/) | ขยายพื้นที่แสดงผล |
+| [Zoom Out](./commands/zoom-out/) | ย่อพื้นที่แสดงผล |
+| [Fit](./commands/fit/) | จัดวัตถุทั้งหมดให้พอดีกับพื้นที่แสดงผล |
 
 ## วัดขนาด
 
 | คำสั่ง | สิ่งที่ทำ |
 |---------|-----------|
-| [Distance](./commands/distance) | วัดระยะห่างระหว่างสองจุด |
-| [Angle](./commands/angle) | วัดมุมระหว่างสามจุด |
+| [Distance](./commands/distance/) | วัดระยะห่างระหว่างสองจุด |
+| [Angle](./commands/angle/) | วัดมุมระหว่างสามจุด |
 
 ## สไตล์
 
 | คำสั่ง | สิ่งที่ทำ |
 |---------|-----------|
-| [Match Properties](./commands/match-properties) | คัดลอกสี เลเยอร์ และคุณสมบัติอื่นๆ จากวัตถุหนึ่งไปยังวัตถุอื่น |
+| [Match Properties](./commands/match-properties/) | คัดลอกสี เลเยอร์ และคุณสมบัติอื่นๆ จากวัตถุหนึ่งไปยังวัตถุอื่น |
 
 ## ไฟล์
 
 | คำสั่ง | สิ่งที่ทำ |
 |---------|-----------|
-| [Import](./commands/import) | เปิดไฟล์ภาพวาด DXF หรือ JSON |
-| [New File](./commands/new-file) | เริ่มภาพวาดเปล่าใหม่ |
-| [Files](./commands/files) | เรียกดูและกู้คืนภาพวาดล่าสุด |
-| [Print](./commands/print) | ส่งออกพื้นที่ภาพวาดเป็นรูปภาพหรือ PDF |
-| [Export](./commands/export) | ดาวน์โหลดภาพวาดเป็น DXF หรือ JSON |
-| [WipeStorage](./commands/wipestorage) | ล้างภาพวาดทั้งหมดจากหน่วยความจำเบราว์เซอร์ |
+| [Import](./commands/import/) | เปิดไฟล์ภาพวาด DXF หรือ JSON |
+| [New File](./commands/new-file/) | เริ่มภาพวาดเปล่าใหม่ |
+| [Files](./commands/files/) | เรียกดูและกู้คืนภาพวาดล่าสุด |
+| [Print](./commands/print/) | ส่งออกพื้นที่ภาพวาดเป็นรูปภาพหรือ PDF |
+| [Export](./commands/export/) | ดาวน์โหลดภาพวาดเป็น DXF หรือ JSON |
+| [WipeStorage](./commands/wipestorage/) | ล้างภาพวาดทั้งหมดจากหน่วยความจำเบราว์เซอร์ |
 
 ## การกู้คืน
 
@@ -112,7 +112,7 @@ keywords: [KulmanLab, KulmanLab CAD, คำสั่ง CAD, CAD ฟรีใน
 https://kulmanlab.com/?resetKulmanLocalStorage
 ```
 
-การกระทำนี้จะลบทุกอย่างออกจากฐานข้อมูลในเครื่องของเบราว์เซอร์และเริ่มต้นภาพวาดเปล่าใหม่ พารามิเตอร์ `?reset` จะลบตัวเองออกจาก URL โดยอัตโนมัติ ใช้วิธีนี้เป็นทางเลือกสุดท้ายเมื่อ [WipeStorage](./commands/wipestorage) ไม่สามารถเข้าถึงได้เนื่องจากแอปไม่โหลด
+การกระทำนี้จะลบทุกอย่างออกจากฐานข้อมูลในเครื่องของเบราว์เซอร์และเริ่มต้นภาพวาดเปล่าใหม่ พารามิเตอร์ `?reset` จะลบตัวเองออกจาก URL โดยอัตโนมัติ ใช้วิธีนี้เป็นทางเลือกสุดท้ายเมื่อ [WipeStorage](./commands/wipestorage/) ไม่สามารถเข้าถึงได้เนื่องจากแอปไม่โหลด
 
 ## วิธีการทำงานของคำสั่ง
 

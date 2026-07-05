@@ -22,7 +22,7 @@ Bricken **linetype** i verktygsfältet styr streckmönstret som tilldelas varje 
 
 Den valda linjetypen tillämpas på varje entitet som skapas efter ändringen. Den påverkar inte retroaktivt befintliga entiteter.
 
-För att ändra linjetypen för befintliga entiteter, markera dem och redigera fältet **Linetype** i egenskapspanelen, eller använd [MatchProperties](../commands/match-properties) för att kopiera den från en annan entitet.
+För att ändra linjetypen för befintliga entiteter, markera dem och redigera fältet **Linetype** i egenskapspanelen, eller använd [MatchProperties](../../commands/match-properties/) för att kopiera den från en annan entitet.
 
 ## Linjetypsskala
 

@@ -85,7 +85,7 @@ keywords: [CAD 선형 치수, 수평 치수 CAD, 수직 치수 CAD, dimlinear, H
 | `Enter` | 값을 확정하고 편집기 닫기 |
 | 여러 줄 | 지원되지 않음 |
 
-자세한 내용은 [텍스트 편집기 — 단순 모드](../interface/text-editor#simple-mode)를 참조하세요.
+자세한 내용은 [텍스트 편집기 — 단순 모드](../../interface/text-editor/#simple-mode)를 참조하세요.
 
 ## 치수 연결
 

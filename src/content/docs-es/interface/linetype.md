@@ -22,7 +22,7 @@ El chip de **linetype** en la barra de herramientas controla el patrón de guion
 
 El tipo de línea seleccionado se aplica a cada entidad creada después del cambio. No afecta retroactivamente a las entidades existentes.
 
-Para cambiar el tipo de línea de las entidades existentes, selecciónalas y edita el campo **Linetype** en el panel de propiedades, o usa [MatchProperties](../commands/match-properties) para copiarlo de otra entidad.
+Para cambiar el tipo de línea de las entidades existentes, selecciónalas y edita el campo **Linetype** en el panel de propiedades, o usa [MatchProperties](../../commands/match-properties/) para copiarlo de otra entidad.
 
 ## Escala de tipo de línea
 

@@ -102,7 +102,7 @@ Nessuna regolazione manuale necessaria — sposta il cursore nel lato dove vuoi 
 
 **Doppio clic** su un multileader posizionato per riaprire l'editor di testo in **rich** mode. In rich mode puoi applicare grassetto, corsivo e sostituzioni di font o altezza per carattere, e inserire interruzioni di riga con `Enter`. Premi **Esc** per confermare e chiudere.
 
-Vedi [Editor di Testo — rich mode](../interface/text-editor#rich-mode) per il riferimento completo.
+Vedi [Editor di Testo — rich mode](../../interface/text-editor/#rich-mode) per il riferimento completo.
 
 ## Aggiungere e rimuovere bracci
 

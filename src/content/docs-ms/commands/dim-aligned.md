@@ -76,7 +76,7 @@ Sisi kursor menentukan sisi mana garis dimensi muncul.
 | `Enter` | Mengkomit nilai dan menutup editor |
 | Berbilang baris | Tidak disokong |
 
-Lihat [Text Editor — mod mudah](../interface/text-editor#simple-mode) untuk rujukan penuh.
+Lihat [Text Editor — mod mudah](../../interface/text-editor/#simple-mode) untuk rujukan penuh.
 
 ## Merantai dimensi
 

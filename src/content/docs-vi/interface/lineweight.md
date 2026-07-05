@@ -21,7 +21,7 @@ Các giá trị độ dày đường DXF tiêu chuẩn có sẵn: 0,00, 0,05, 0,
 
 Độ dày đường được chọn được áp dụng cho mọi thực thể được tạo sau khi thay đổi. Nó không hồi tố ảnh hưởng đến các thực thể hiện có.
 
-Để thay đổi độ dày đường của các thực thể hiện có, chọn chúng và chỉnh sửa trường **Lineweight** trong bảng thuộc tính, hoặc dùng [MatchProperties](../commands/match-properties) để sao chép nó từ thực thể khác.
+Để thay đổi độ dày đường của các thực thể hiện có, chọn chúng và chỉnh sửa trường **Lineweight** trong bảng thuộc tính, hoặc dùng [MatchProperties](../../commands/match-properties/) để sao chép nó từ thực thể khác.
 
 ## Hiển thị
 

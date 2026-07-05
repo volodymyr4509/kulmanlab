@@ -23,7 +23,7 @@ Nilai lineweight DXF standard tersedia: 0.00, 0.05, 0.09, 0.13, 0.15, 0.18, 0.20
 
 Lineweight yang dipilih digunakan pada setiap entiti yang dicipta selepas perubahan. Ia tidak menjejaskan entiti sedia ada secara retroaktif.
 
-Untuk menukar lineweight entiti sedia ada, pilihnya dan edit medan **Lineweight** dalam panel sifat, atau gunakan [MatchProperties](../commands/match-properties) untuk menyalinnya dari entiti lain.
+Untuk menukar lineweight entiti sedia ada, pilihnya dan edit medan **Lineweight** dalam panel sifat, atau gunakan [MatchProperties](../../commands/match-properties/) untuk menyalinnya dari entiti lain.
 
 ## Rendering
 

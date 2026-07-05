@@ -76,7 +76,7 @@ Upande wa mshale huamua upande ambao mstari wa kipimo utaonekana.
 | `Enter` | Inathibitisha thamani na kufunga kihariri |
 | Mistari mingi | Haisaidiwi |
 
-Angalia [Text Editor — hali rahisi](../interface/text-editor#simple-mode) kwa marejeo kamili.
+Angalia [Text Editor — hali rahisi](../../interface/text-editor/#simple-mode) kwa marejeo kamili.
 
 ## Mnyororo wa vipimo
 

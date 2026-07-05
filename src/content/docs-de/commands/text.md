@@ -9,7 +9,7 @@ keywords: [CAD Text-Befehl, MTEXT, Textbeschriftung platzieren CAD, Textanmerkun
 
 Der `text`-Befehl platziert eine mehrzeilige Textbeschriftung. Nachdem Sie eine Position auf der Zeichenfläche angeklickt haben, öffnet sich ein Popup-Editor im **rich** mode — Sie können Inhalt eingeben, Fett/Kursiv/Durchgestrichen zeichenweise anwenden, Schriftarten und -höhen ändern und Zeilenumbrüche einfügen. Drücken Sie **Escape**, um zu bestätigen und den Editor zu schließen.
 
-Auf der Seite [Texteditor](../interface/text-editor) finden Sie die vollständige Editor-Referenz, einschließlich eines Vergleichs von **rich** und **simple** mode.
+Auf der Seite [Texteditor](../../interface/text-editor/) finden Sie die vollständige Editor-Referenz, einschließlich eines Vergleichs von **rich** und **simple** mode.
 
 ## Eine Textbeschriftung platzieren
 
@@ -44,7 +44,7 @@ Statt zu klicken, geben Sie eine exakte Position ein:
 | `Backspace` | Letztes eingegebenes Zeichen löschen |
 | `Enter` | Eingegebene Koordinate bestätigen |
 
-**Texteditor-Phase** (vollständige Referenz unter [Texteditor](../interface/text-editor))
+**Texteditor-Phase** (vollständige Referenz unter [Texteditor](../../interface/text-editor/))
 
 | Taste | Aktion |
 |-------|--------|

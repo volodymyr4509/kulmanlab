@@ -12,97 +12,97 @@ keywords: [KulmanLab, KulmanLab CAD, CAD कमांड, मुफ़्त ब
 
 | कमांड | क्या करती है |
 |---------|-------------|
-| [Line](./commands/line) | दो बिंदुओं के बीच एक सीधी रेखा खींचें |
-| [Polyline](./commands/polyline) | एक बहु-खंड खुला पथ बनाएं |
-| [Rectangle](./commands/rectangle) | अक्ष-संरेखित आयत बनाएं |
-| [Circle](./commands/circle) | केंद्र और त्रिज्या से वृत्त बनाएं |
-| [Arc](./commands/arc) | तीन बिंदुओं से होकर चाप बनाएं |
-| [Ellipse](./commands/ellipse) | केंद्र और दो अक्षों से दीर्घवृत्त बनाएं |
-| [Text](./commands/text) | कैनवास पर टेक्स्ट लेबल रखें |
-| [Spline CV](./commands/spline-cv) | कंट्रोल वर्टेक्स रखकर स्प्लाइन बनाएं |
-| [Spline Fit](./commands/spline-fit) | क्लिक किए गए बिंदुओं से होकर गुजरने वाली स्प्लाइन बनाएं |
+| [Line](./commands/line/) | दो बिंदुओं के बीच एक सीधी रेखा खींचें |
+| [Polyline](./commands/polyline/) | एक बहु-खंड खुला पथ बनाएं |
+| [Rectangle](./commands/rectangle/) | अक्ष-संरेखित आयत बनाएं |
+| [Circle](./commands/circle/) | केंद्र और त्रिज्या से वृत्त बनाएं |
+| [Arc](./commands/arc/) | तीन बिंदुओं से होकर चाप बनाएं |
+| [Ellipse](./commands/ellipse/) | केंद्र और दो अक्षों से दीर्घवृत्त बनाएं |
+| [Text](./commands/text/) | कैनवास पर टेक्स्ट लेबल रखें |
+| [Spline CV](./commands/spline-cv/) | कंट्रोल वर्टेक्स रखकर स्प्लाइन बनाएं |
+| [Spline Fit](./commands/spline-fit/) | क्लिक किए गए बिंदुओं से होकर गुजरने वाली स्प्लाइन बनाएं |
 
 ## संपादन
 
 | कमांड | क्या करती है |
 |---------|-------------|
-| [Move](./commands/move) | चयनित ऑब्जेक्ट को नई स्थिति पर मूव करें |
-| [Copy](./commands/copy) | चयनित ऑब्जेक्ट को नई स्थिति पर कॉपी करें |
-| [Rotate](./commands/rotate) | चयनित ऑब्जेक्ट को आधार बिंदु के चारों ओर रोटेट करें |
-| [Mirror](./commands/mirror) | चयनित ऑब्जेक्ट को एक रेखा पर मिरर करें |
-| [Scale](./commands/scale) | चयनित ऑब्जेक्ट को आधार बिंदु के चारों ओर स्केल करें |
-| [Delete](./commands/delete) | ड्राइंग से चयनित ऑब्जेक्ट हटाएं |
-| [Trim](./commands/trim) | रेखा खंड को उसके प्रतिच्छेदन पर ट्रिम करें |
-| [Extend](./commands/extend) | रेखा को निकटतम सीमा प्रतिच्छेदन तक एक्सटेंड करें |
-| [Offset](./commands/offset) | किसी ऑब्जेक्ट की एक निश्चित दूरी पर समानांतर कॉपी बनाएं |
-| [Fillet](./commands/fillet) | दो रेखाओं के बीच कोने को स्पर्शरेखा चाप से गोल बनाएं |
-| [Chamfer](./commands/chamfer) | दो रेखाओं या पॉलीलाइन के बीच सीधा विकर्ण कोना काटें |
-| [Undo](./commands/undo) | पिछली क्रिया को अनडू करें |
-| [Redo](./commands/redo) | पिछली अनडू की गई क्रिया को रीडू करें |
+| [Move](./commands/move/) | चयनित ऑब्जेक्ट को नई स्थिति पर मूव करें |
+| [Copy](./commands/copy/) | चयनित ऑब्जेक्ट को नई स्थिति पर कॉपी करें |
+| [Rotate](./commands/rotate/) | चयनित ऑब्जेक्ट को आधार बिंदु के चारों ओर रोटेट करें |
+| [Mirror](./commands/mirror/) | चयनित ऑब्जेक्ट को एक रेखा पर मिरर करें |
+| [Scale](./commands/scale/) | चयनित ऑब्जेक्ट को आधार बिंदु के चारों ओर स्केल करें |
+| [Delete](./commands/delete/) | ड्राइंग से चयनित ऑब्जेक्ट हटाएं |
+| [Trim](./commands/trim/) | रेखा खंड को उसके प्रतिच्छेदन पर ट्रिम करें |
+| [Extend](./commands/extend/) | रेखा को निकटतम सीमा प्रतिच्छेदन तक एक्सटेंड करें |
+| [Offset](./commands/offset/) | किसी ऑब्जेक्ट की एक निश्चित दूरी पर समानांतर कॉपी बनाएं |
+| [Fillet](./commands/fillet/) | दो रेखाओं के बीच कोने को स्पर्शरेखा चाप से गोल बनाएं |
+| [Chamfer](./commands/chamfer/) | दो रेखाओं या पॉलीलाइन के बीच सीधा विकर्ण कोना काटें |
+| [Undo](./commands/undo/) | पिछली क्रिया को अनडू करें |
+| [Redo](./commands/redo/) | पिछली अनडू की गई क्रिया को रीडू करें |
 
 ## मार्कअप
 
 | कमांड | क्या करती है |
 |---------|-------------|
-| [Leader](./commands/leader) | तीर और टेक्स्ट के साथ मल्टीलीडर एनोटेशन बनाएं |
-| [Leader+](./commands/leader-add) | मौजूदा मल्टीलीडर में अतिरिक्त भुजा जोड़ें |
-| [Leader−](./commands/leader-remove) | मौजूदा मल्टीलीडर से एक भुजा हटाएं |
-| [Dimension Linear](./commands/dim-linear) | क्षैतिज या ऊर्ध्वाधर माप जोड़ें |
-| [Dimension Aligned](./commands/dim-aligned) | दो बिंदुओं पर संरेखित माप जोड़ें |
-| [Dimension Continue](./commands/dim-continue) | पिछले माप से नई माप जोड़ें |
-| [Dimension Radius](./commands/dim-radius) | वृत्त या चाप पर त्रिज्या माप जोड़ें |
-| [Dimension Diameter](./commands/dim-diameter) | वृत्त पर व्यास माप जोड़ें |
-| [Dimension Angular](./commands/dim-angular) | दो रेखाओं, चाप, या वृत्त पर कोणीय माप जोड़ें |
+| [Leader](./commands/leader/) | तीर और टेक्स्ट के साथ मल्टीलीडर एनोटेशन बनाएं |
+| [Leader+](./commands/leader-add/) | मौजूदा मल्टीलीडर में अतिरिक्त भुजा जोड़ें |
+| [Leader−](./commands/leader-remove/) | मौजूदा मल्टीलीडर से एक भुजा हटाएं |
+| [Dimension Linear](./commands/dim-linear/) | क्षैतिज या ऊर्ध्वाधर माप जोड़ें |
+| [Dimension Aligned](./commands/dim-aligned/) | दो बिंदुओं पर संरेखित माप जोड़ें |
+| [Dimension Continue](./commands/dim-continue/) | पिछले माप से नई माप जोड़ें |
+| [Dimension Radius](./commands/dim-radius/) | वृत्त या चाप पर त्रिज्या माप जोड़ें |
+| [Dimension Diameter](./commands/dim-diameter/) | वृत्त पर व्यास माप जोड़ें |
+| [Dimension Angular](./commands/dim-angular/) | दो रेखाओं, चाप, या वृत्त पर कोणीय माप जोड़ें |
 
 ## लेयर
 
 | कमांड | क्या करती है |
 |---------|-------------|
-| [LayerMakeCurrent](./commands/layer-make-current) | क्लिक किए गए ऑब्जेक्ट की लेयर को वर्तमान लेयर के रूप में सेट करें |
-| [LayerMatch](./commands/layer-match) | चयनित ऑब्जेक्ट को स्रोत ऑब्जेक्ट की लेयर पर असाइन करें |
-| [LayerIsolate](./commands/layer-isolate) | चयनित ऑब्जेक्ट की लेयर को छोड़कर सभी लेयर फ्रीज करें |
-| [LayerUnfreezeAll](./commands/layer-unfreeze-all) | एक चरण में सभी लेयर अनफ्रीज करें |
+| [LayerMakeCurrent](./commands/layer-make-current/) | क्लिक किए गए ऑब्जेक्ट की लेयर को वर्तमान लेयर के रूप में सेट करें |
+| [LayerMatch](./commands/layer-match/) | चयनित ऑब्जेक्ट को स्रोत ऑब्जेक्ट की लेयर पर असाइन करें |
+| [LayerIsolate](./commands/layer-isolate/) | चयनित ऑब्जेक्ट की लेयर को छोड़कर सभी लेयर फ्रीज करें |
+| [LayerUnfreezeAll](./commands/layer-unfreeze-all/) | एक चरण में सभी लेयर अनफ्रीज करें |
 
 ## लेआउट
 
 | कमांड | क्या करती है |
 |---------|-------------|
-| [ViewportRectangle](./commands/viewport-rectangle) | दो कोने चुनकर पेपर लेआउट में व्यूपोर्ट बनाएं |
-| [ViewportCopy](./commands/viewport-copy) | व्यूपोर्ट को नई स्थिति पर डुप्लिकेट करें |
-| [PageManager](./commands/page-manager) | सक्रिय लेआउट के लिए पेपर साइज़ और स्केल संपादित करें |
+| [ViewportRectangle](./commands/viewport-rectangle/) | दो कोने चुनकर पेपर लेआउट में व्यूपोर्ट बनाएं |
+| [ViewportCopy](./commands/viewport-copy/) | व्यूपोर्ट को नई स्थिति पर डुप्लिकेट करें |
+| [PageManager](./commands/page-manager/) | सक्रिय लेआउट के लिए पेपर साइज़ और स्केल संपादित करें |
 
 ## नेविगेट
 
 | कमांड | क्या करती है |
 |---------|-------------|
-| [Pan](./commands/pan) | व्यूपोर्ट मूव करने के लिए क्लिक और ड्रैग करें |
-| [Zoom In](./commands/zoom-in) | व्यूपोर्ट को ज़ूम इन करें |
-| [Zoom Out](./commands/zoom-out) | व्यूपोर्ट को ज़ूम आउट करें |
-| [Fit](./commands/fit) | सभी ऑब्जेक्ट को व्यूपोर्ट में फ़िट करें |
+| [Pan](./commands/pan/) | व्यूपोर्ट मूव करने के लिए क्लिक और ड्रैग करें |
+| [Zoom In](./commands/zoom-in/) | व्यूपोर्ट को ज़ूम इन करें |
+| [Zoom Out](./commands/zoom-out/) | व्यूपोर्ट को ज़ूम आउट करें |
+| [Fit](./commands/fit/) | सभी ऑब्जेक्ट को व्यूपोर्ट में फ़िट करें |
 
 ## माप
 
 | कमांड | क्या करती है |
 |---------|-------------|
-| [Distance](./commands/distance) | दो बिंदुओं के बीच की दूरी मापें |
-| [Angle](./commands/angle) | तीन बिंदुओं के बीच का कोण मापें |
+| [Distance](./commands/distance/) | दो बिंदुओं के बीच की दूरी मापें |
+| [Angle](./commands/angle/) | तीन बिंदुओं के बीच का कोण मापें |
 
 ## स्टाइल
 
 | कमांड | क्या करती है |
 |---------|-------------|
-| [Match Properties](./commands/match-properties) | एक ऑब्जेक्ट से दूसरे ऑब्जेक्ट में रंग, लेयर और अन्य गुण कॉपी करें |
+| [Match Properties](./commands/match-properties/) | एक ऑब्जेक्ट से दूसरे ऑब्जेक्ट में रंग, लेयर और अन्य गुण कॉपी करें |
 
 ## फ़ाइल
 
 | कमांड | क्या करती है |
 |---------|-------------|
-| [Import](./commands/import) | DXF या JSON ड्राइंग फ़ाइल खोलें |
-| [New File](./commands/new-file) | नई खाली ड्राइंग शुरू करें |
-| [Files](./commands/files) | हाल की ड्राइंग ब्राउज़ करें और पुनः स्थापित करें |
-| [Print](./commands/print) | ड्राइंग क्षेत्र को इमेज या PDF के रूप में निर्यात करें |
-| [Export](./commands/export) | ड्राइंग को DXF या JSON के रूप में डाउनलोड करें |
-| [WipeStorage](./commands/wipestorage) | ब्राउज़र स्टोरेज से सभी ड्राइंग साफ़ करें |
+| [Import](./commands/import/) | DXF या JSON ड्राइंग फ़ाइल खोलें |
+| [New File](./commands/new-file/) | नई खाली ड्राइंग शुरू करें |
+| [Files](./commands/files/) | हाल की ड्राइंग ब्राउज़ करें और पुनः स्थापित करें |
+| [Print](./commands/print/) | ड्राइंग क्षेत्र को इमेज या PDF के रूप में निर्यात करें |
+| [Export](./commands/export/) | ड्राइंग को DXF या JSON के रूप में डाउनलोड करें |
+| [WipeStorage](./commands/wipestorage/) | ब्राउज़र स्टोरेज से सभी ड्राइंग साफ़ करें |
 
 ## रिकवरी
 
@@ -112,7 +112,7 @@ keywords: [KulmanLab, KulmanLab CAD, CAD कमांड, मुफ़्त ब
 https://kulmanlab.com/?resetKulmanLocalStorage
 ```
 
-यह ब्राउज़र के स्थानीय डेटाबेस से सब कुछ हटा देता है और एक नई खाली ड्राइंग शुरू करता है। `?reset` पैरामीटर URL से स्वयं हट जाता है। इसे अंतिम उपाय के रूप में उपयोग करें जब [WipeStorage](./commands/wipestorage) पहुंच से बाहर हो क्योंकि ऐप बिल्कुल लोड नहीं होता।
+यह ब्राउज़र के स्थानीय डेटाबेस से सब कुछ हटा देता है और एक नई खाली ड्राइंग शुरू करता है। `?reset` पैरामीटर URL से स्वयं हट जाता है। इसे अंतिम उपाय के रूप में उपयोग करें जब [WipeStorage](./commands/wipestorage/) पहुंच से बाहर हो क्योंकि ऐप बिल्कुल लोड नहीं होता।
 
 ## कमांड कैसे काम करती हैं
 

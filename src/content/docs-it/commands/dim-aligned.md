@@ -76,7 +76,7 @@ Il lato del cursore determina da quale lato appare la linea di quota.
 | `Enter` | Conferma il valore e chiude l'editor |
 | Multiriga | Non supportato |
 
-Vedi [Editor di Testo — simple mode](../interface/text-editor#simple-mode) per il riferimento completo.
+Vedi [Editor di Testo — simple mode](../../interface/text-editor/#simple-mode) per il riferimento completo.
 
 ## Concatenamento quote
 

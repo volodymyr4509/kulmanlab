@@ -23,7 +23,7 @@ Les valeurs standard d'épaisseur de ligne DXF sont disponibles : 0,00, 0,05, 0,
 
 L'épaisseur de ligne sélectionnée s'applique à chaque entité créée après le changement. Elle n'affecte pas rétroactivement les entités existantes.
 
-Pour changer l'épaisseur de ligne des entités existantes, sélectionnez-les et modifiez le champ **Lineweight** dans le panneau de propriétés, ou utilisez [MatchProperties](../commands/match-properties) pour le copier depuis une autre entité.
+Pour changer l'épaisseur de ligne des entités existantes, sélectionnez-les et modifiez le champ **Lineweight** dans le panneau de propriétés, ou utilisez [MatchProperties](../../commands/match-properties/) pour le copier depuis une autre entité.
 
 ## Rendu
 

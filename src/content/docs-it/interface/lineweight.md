@@ -23,7 +23,7 @@ I valori standard DXF sono disponibili: 0,00, 0,05, 0,09, 0,13, 0,15, 0,18, 0,20
 
 Lo spessore di linea selezionato viene applicato a ogni entità creata dopo la modifica. Non influenza retroattivamente le entità esistenti.
 
-Per cambiare lo spessore di linea delle entità esistenti, selezionale e modifica il campo **Spessore di linea** nel pannello proprietà, o usa [MatchProperties](../commands/match-properties) per copiarlo da un'altra entità.
+Per cambiare lo spessore di linea delle entità esistenti, selezionale e modifica il campo **Spessore di linea** nel pannello proprietà, o usa [MatchProperties](../../commands/match-properties/) per copiarlo da un'altra entità.
 
 ## Rendering
 

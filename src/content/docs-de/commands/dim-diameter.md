@@ -57,7 +57,7 @@ Es können nur **Arc**- und **Circle**-Elemente ausgewählt werden.
 | `Enter` | Übernimmt den Wert und schließt den Editor |
 | Mehrzeilig | Nicht unterstützt |
 
-Siehe [Texteditor — simple mode](../interface/text-editor#simple-mode) für die vollständige Referenz.
+Siehe [Texteditor — simple mode](../../interface/text-editor/#simple-mode) für die vollständige Referenz.
 
 ## DXF — DIMENSION-Durchmesserelement
 

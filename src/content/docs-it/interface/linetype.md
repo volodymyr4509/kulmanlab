@@ -22,7 +22,7 @@ Il selettore **tipo di linea** nella barra degli strumenti controlla lo schema d
 
 Il tipo di linea selezionato viene applicato a ogni entità creata dopo la modifica. Non influenza retroattivamente le entità esistenti.
 
-Per cambiare il tipo di linea delle entità esistenti, selezionale e modifica il campo **Tipo di linea** nel pannello proprietà, o usa [MatchProperties](../commands/match-properties) per copiarlo da un'altra entità.
+Per cambiare il tipo di linea delle entità esistenti, selezionale e modifica il campo **Tipo di linea** nel pannello proprietà, o usa [MatchProperties](../../commands/match-properties/) per copiarlo da un'altra entità.
 
 ## Scala tipo di linea
 

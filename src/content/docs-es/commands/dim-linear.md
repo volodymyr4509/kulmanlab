@@ -85,7 +85,7 @@ El lado del cursor (arriba/abajo para horizontal, izquierda/derecha para vertica
 | `Enter` | Confirma el valor y cierra el editor |
 | Multilínea | No compatible |
 
-Consulta [Editor de Texto — simple mode](../interface/text-editor#simple-mode) para la referencia completa.
+Consulta [Editor de Texto — simple mode](../../interface/text-editor/#simple-mode) para la referencia completa.
 
 ## Encadenar cotas
 

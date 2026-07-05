@@ -76,7 +76,7 @@ Strona kursora określa, po której stronie pojawi się linia wymiarowa.
 | `Enter` | Zatwierdza wartość i zamyka edytor |
 | Wieloliniowość | Nieobsługiwana |
 
-Zobacz [Edytor tekstu — tryb simple](../interface/text-editor#simple-mode) w celu uzyskania pełnej dokumentacji.
+Zobacz [Edytor tekstu — tryb simple](../../interface/text-editor/#simple-mode) w celu uzyskania pełnej dokumentacji.
 
 ## Łączenie wymiarów
 

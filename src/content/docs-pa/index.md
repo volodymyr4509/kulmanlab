@@ -12,97 +12,97 @@ keywords: [KulmanLab, KulmanLab CAD, CAD ਕਮਾਂਡ, ਮੁਫ਼ਤ ਬ੍
 
 | ਕਮਾਂਡ | ਇਹ ਕੀ ਕਰਦੀ ਹੈ |
 |---------|-------------|
-| [Line](./commands/line) | ਦੋ ਬਿੰਦੂਆਂ ਵਿਚਕਾਰ ਸਿੱਧੀ ਰੇਖਾ ਖਿੱਚੋ |
-| [Polyline](./commands/polyline) | ਬਹੁ-ਖੰਡ ਖੁੱਲ੍ਹਾ ਮਾਰਗ ਬਣਾਓ |
-| [Rectangle](./commands/rectangle) | ਧੁਰੇ-ਸੰਰੇਖਿਤ ਆਇਤ ਬਣਾਓ |
-| [Circle](./commands/circle) | ਕੇਂਦਰ ਅਤੇ ਰੇਡੀਅਸ ਤੋਂ ਚੱਕਰ ਬਣਾਓ |
-| [Arc](./commands/arc) | ਤਿੰਨ ਬਿੰਦੂਆਂ ਰਾਹੀਂ ਚਾਪ ਬਣਾਓ |
-| [Ellipse](./commands/ellipse) | ਕੇਂਦਰ ਅਤੇ ਦੋ ਧੁਰਿਆਂ ਤੋਂ ਅੰਡਾਕਾਰ ਬਣਾਓ |
-| [Text](./commands/text) | ਕੈਨਵਸ ਉੱਤੇ ਟੈਕਸਟ ਲੇਬਲ ਰੱਖੋ |
-| [Spline CV](./commands/spline-cv) | ਕੰਟਰੋਲ ਵਰਟੈਕਸ ਰੱਖ ਕੇ ਸਪਲਾਈਨ ਬਣਾਓ |
-| [Spline Fit](./commands/spline-fit) | ਕਲਿੱਕ ਕੀਤੇ ਬਿੰਦੂਆਂ ਵਿੱਚੋਂ ਲੰਘਦੀ ਸਪਲਾਈਨ ਬਣਾਓ |
+| [Line](./commands/line/) | ਦੋ ਬਿੰਦੂਆਂ ਵਿਚਕਾਰ ਸਿੱਧੀ ਰੇਖਾ ਖਿੱਚੋ |
+| [Polyline](./commands/polyline/) | ਬਹੁ-ਖੰਡ ਖੁੱਲ੍ਹਾ ਮਾਰਗ ਬਣਾਓ |
+| [Rectangle](./commands/rectangle/) | ਧੁਰੇ-ਸੰਰੇਖਿਤ ਆਇਤ ਬਣਾਓ |
+| [Circle](./commands/circle/) | ਕੇਂਦਰ ਅਤੇ ਰੇਡੀਅਸ ਤੋਂ ਚੱਕਰ ਬਣਾਓ |
+| [Arc](./commands/arc/) | ਤਿੰਨ ਬਿੰਦੂਆਂ ਰਾਹੀਂ ਚਾਪ ਬਣਾਓ |
+| [Ellipse](./commands/ellipse/) | ਕੇਂਦਰ ਅਤੇ ਦੋ ਧੁਰਿਆਂ ਤੋਂ ਅੰਡਾਕਾਰ ਬਣਾਓ |
+| [Text](./commands/text/) | ਕੈਨਵਸ ਉੱਤੇ ਟੈਕਸਟ ਲੇਬਲ ਰੱਖੋ |
+| [Spline CV](./commands/spline-cv/) | ਕੰਟਰੋਲ ਵਰਟੈਕਸ ਰੱਖ ਕੇ ਸਪਲਾਈਨ ਬਣਾਓ |
+| [Spline Fit](./commands/spline-fit/) | ਕਲਿੱਕ ਕੀਤੇ ਬਿੰਦੂਆਂ ਵਿੱਚੋਂ ਲੰਘਦੀ ਸਪਲਾਈਨ ਬਣਾਓ |
 
 ## ਸੰਪਾਦਨ
 
 | ਕਮਾਂਡ | ਇਹ ਕੀ ਕਰਦੀ ਹੈ |
 |---------|-------------|
-| [Move](./commands/move) | ਚੁਣੀਆਂ ਇਕਾਈਆਂ ਨੂੰ ਨਵੀਂ ਸਥਿਤੀ 'ਤੇ ਲਿਜਾਓ |
-| [Copy](./commands/copy) | ਚੁਣੀਆਂ ਇਕਾਈਆਂ ਨੂੰ ਨਵੀਂ ਸਥਿਤੀ 'ਤੇ ਕਾਪੀ ਕਰੋ |
-| [Rotate](./commands/rotate) | ਚੁਣੀਆਂ ਇਕਾਈਆਂ ਨੂੰ ਇੱਕ ਬੇਸ ਬਿੰਦੂ ਦੁਆਲੇ ਘੁਮਾਓ |
-| [Mirror](./commands/mirror) | ਚੁਣੀਆਂ ਇਕਾਈਆਂ ਨੂੰ ਇੱਕ ਰੇਖਾ ਦੇ ਪਾਰ ਮਿਰਰ ਕਰੋ |
-| [Scale](./commands/scale) | ਚੁਣੀਆਂ ਇਕਾਈਆਂ ਨੂੰ ਇੱਕ ਬੇਸ ਬਿੰਦੂ ਦੁਆਲੇ ਸਕੇਲ ਕਰੋ |
-| [Delete](./commands/delete) | ਡਰਾਇੰਗ ਵਿੱਚੋਂ ਚੁਣੀਆਂ ਇਕਾਈਆਂ ਹਟਾਓ |
-| [Trim](./commands/trim) | ਰੇਖਾ ਖੰਡ ਨੂੰ ਉਸ ਦੇ ਇੰਟਰਸੈਕਸ਼ਨਾਂ 'ਤੇ ਟ੍ਰਿਮ ਕਰੋ |
-| [Extend](./commands/extend) | ਰੇਖਾ ਨੂੰ ਨੇੜਲੇ ਬਾਊਂਡਰੀ ਇੰਟਰਸੈਕਸ਼ਨ ਤੱਕ ਵਧਾਓ |
-| [Offset](./commands/offset) | ਕਿਸੇ ਇਕਾਈ ਦੀ ਦਿੱਤੀ ਦੂਰੀ 'ਤੇ ਸਮਾਨਾਂਤਰ ਕਾਪੀ ਬਣਾਓ |
-| [Fillet](./commands/fillet) | ਦੋ ਰੇਖਾਵਾਂ ਵਿਚਕਾਰਲੇ ਕੋਨੇ ਨੂੰ ਸਪਰਸ਼ ਚਾਪ ਨਾਲ ਗੋਲ ਕਰੋ |
-| [Chamfer](./commands/chamfer) | ਦੋ ਰੇਖਾਵਾਂ ਜਾਂ ਪੌਲੀਲਾਈਨਾਂ ਵਿਚਕਾਰ ਸਿੱਧਾ ਤਿਰਛਾ ਕੋਨਾ ਕੱਟੋ |
-| [Undo](./commands/undo) | ਆਖਰੀ ਕਾਰਵਾਈ ਅਣਕੀਤੀ ਕਰੋ |
-| [Redo](./commands/redo) | ਆਖਰੀ ਅਣਕੀਤੀ ਕਾਰਵਾਈ ਦੁਬਾਰਾ ਕਰੋ |
+| [Move](./commands/move/) | ਚੁਣੀਆਂ ਇਕਾਈਆਂ ਨੂੰ ਨਵੀਂ ਸਥਿਤੀ 'ਤੇ ਲਿਜਾਓ |
+| [Copy](./commands/copy/) | ਚੁਣੀਆਂ ਇਕਾਈਆਂ ਨੂੰ ਨਵੀਂ ਸਥਿਤੀ 'ਤੇ ਕਾਪੀ ਕਰੋ |
+| [Rotate](./commands/rotate/) | ਚੁਣੀਆਂ ਇਕਾਈਆਂ ਨੂੰ ਇੱਕ ਬੇਸ ਬਿੰਦੂ ਦੁਆਲੇ ਘੁਮਾਓ |
+| [Mirror](./commands/mirror/) | ਚੁਣੀਆਂ ਇਕਾਈਆਂ ਨੂੰ ਇੱਕ ਰੇਖਾ ਦੇ ਪਾਰ ਮਿਰਰ ਕਰੋ |
+| [Scale](./commands/scale/) | ਚੁਣੀਆਂ ਇਕਾਈਆਂ ਨੂੰ ਇੱਕ ਬੇਸ ਬਿੰਦੂ ਦੁਆਲੇ ਸਕੇਲ ਕਰੋ |
+| [Delete](./commands/delete/) | ਡਰਾਇੰਗ ਵਿੱਚੋਂ ਚੁਣੀਆਂ ਇਕਾਈਆਂ ਹਟਾਓ |
+| [Trim](./commands/trim/) | ਰੇਖਾ ਖੰਡ ਨੂੰ ਉਸ ਦੇ ਇੰਟਰਸੈਕਸ਼ਨਾਂ 'ਤੇ ਟ੍ਰਿਮ ਕਰੋ |
+| [Extend](./commands/extend/) | ਰੇਖਾ ਨੂੰ ਨੇੜਲੇ ਬਾਊਂਡਰੀ ਇੰਟਰਸੈਕਸ਼ਨ ਤੱਕ ਵਧਾਓ |
+| [Offset](./commands/offset/) | ਕਿਸੇ ਇਕਾਈ ਦੀ ਦਿੱਤੀ ਦੂਰੀ 'ਤੇ ਸਮਾਨਾਂਤਰ ਕਾਪੀ ਬਣਾਓ |
+| [Fillet](./commands/fillet/) | ਦੋ ਰੇਖਾਵਾਂ ਵਿਚਕਾਰਲੇ ਕੋਨੇ ਨੂੰ ਸਪਰਸ਼ ਚਾਪ ਨਾਲ ਗੋਲ ਕਰੋ |
+| [Chamfer](./commands/chamfer/) | ਦੋ ਰੇਖਾਵਾਂ ਜਾਂ ਪੌਲੀਲਾਈਨਾਂ ਵਿਚਕਾਰ ਸਿੱਧਾ ਤਿਰਛਾ ਕੋਨਾ ਕੱਟੋ |
+| [Undo](./commands/undo/) | ਆਖਰੀ ਕਾਰਵਾਈ ਅਣਕੀਤੀ ਕਰੋ |
+| [Redo](./commands/redo/) | ਆਖਰੀ ਅਣਕੀਤੀ ਕਾਰਵਾਈ ਦੁਬਾਰਾ ਕਰੋ |
 
 ## ਮਾਰਕਅੱਪ
 
 | ਕਮਾਂਡ | ਇਹ ਕੀ ਕਰਦੀ ਹੈ |
 |---------|-------------|
-| [Leader](./commands/leader) | ਤੀਰ ਅਤੇ ਟੈਕਸਟ ਵਾਲਾ ਮਲਟੀਲੀਡਰ ਐਨੋਟੇਸ਼ਨ ਬਣਾਓ |
-| [Leader+](./commands/leader-add) | ਮੌਜੂਦਾ ਮਲਟੀਲੀਡਰ ਵਿੱਚ ਵਾਧੂ ਬਾਂਹ ਜੋੜੋ |
-| [Leader−](./commands/leader-remove) | ਮੌਜੂਦਾ ਮਲਟੀਲੀਡਰ ਵਿੱਚੋਂ ਬਾਂਹ ਹਟਾਓ |
-| [Dimension Linear](./commands/dim-linear) | ਖਿਤਿਜੀ ਜਾਂ ਲੰਬਕਾਰੀ ਮਾਪ ਜੋੜੋ |
-| [Dimension Aligned](./commands/dim-aligned) | ਦੋ ਬਿੰਦੂਆਂ ਦੇ ਅਨੁਸਾਰ ਸੰਰੇਖਿਤ ਮਾਪ ਜੋੜੋ |
-| [Dimension Continue](./commands/dim-continue) | ਆਖਰੀ ਮਾਪ ਤੋਂ ਨਵਾਂ ਮਾਪ ਜੋੜੋ |
-| [Dimension Radius](./commands/dim-radius) | ਚੱਕਰ ਜਾਂ ਚਾਪ ਉੱਤੇ ਰੇਡੀਅਸ ਮਾਪ ਜੋੜੋ |
-| [Dimension Diameter](./commands/dim-diameter) | ਚੱਕਰ ਉੱਤੇ ਵਿਆਸ ਮਾਪ ਜੋੜੋ |
-| [Dimension Angular](./commands/dim-angular) | ਦੋ ਰੇਖਾਵਾਂ, ਇੱਕ ਚਾਪ, ਜਾਂ ਇੱਕ ਚੱਕਰ ਉੱਤੇ ਕੋਣੀ ਮਾਪ ਜੋੜੋ |
+| [Leader](./commands/leader/) | ਤੀਰ ਅਤੇ ਟੈਕਸਟ ਵਾਲਾ ਮਲਟੀਲੀਡਰ ਐਨੋਟੇਸ਼ਨ ਬਣਾਓ |
+| [Leader+](./commands/leader-add/) | ਮੌਜੂਦਾ ਮਲਟੀਲੀਡਰ ਵਿੱਚ ਵਾਧੂ ਬਾਂਹ ਜੋੜੋ |
+| [Leader−](./commands/leader-remove/) | ਮੌਜੂਦਾ ਮਲਟੀਲੀਡਰ ਵਿੱਚੋਂ ਬਾਂਹ ਹਟਾਓ |
+| [Dimension Linear](./commands/dim-linear/) | ਖਿਤਿਜੀ ਜਾਂ ਲੰਬਕਾਰੀ ਮਾਪ ਜੋੜੋ |
+| [Dimension Aligned](./commands/dim-aligned/) | ਦੋ ਬਿੰਦੂਆਂ ਦੇ ਅਨੁਸਾਰ ਸੰਰੇਖਿਤ ਮਾਪ ਜੋੜੋ |
+| [Dimension Continue](./commands/dim-continue/) | ਆਖਰੀ ਮਾਪ ਤੋਂ ਨਵਾਂ ਮਾਪ ਜੋੜੋ |
+| [Dimension Radius](./commands/dim-radius/) | ਚੱਕਰ ਜਾਂ ਚਾਪ ਉੱਤੇ ਰੇਡੀਅਸ ਮਾਪ ਜੋੜੋ |
+| [Dimension Diameter](./commands/dim-diameter/) | ਚੱਕਰ ਉੱਤੇ ਵਿਆਸ ਮਾਪ ਜੋੜੋ |
+| [Dimension Angular](./commands/dim-angular/) | ਦੋ ਰੇਖਾਵਾਂ, ਇੱਕ ਚਾਪ, ਜਾਂ ਇੱਕ ਚੱਕਰ ਉੱਤੇ ਕੋਣੀ ਮਾਪ ਜੋੜੋ |
 
 ## ਲੇਅਰ
 
 | ਕਮਾਂਡ | ਇਹ ਕੀ ਕਰਦੀ ਹੈ |
 |---------|-------------|
-| [LayerMakeCurrent](./commands/layer-make-current) | ਮੌਜੂਦਾ ਲੇਅਰ ਨੂੰ ਕਲਿੱਕ ਕੀਤੀ ਇਕਾਈ ਦੀ ਲੇਅਰ ਨਾਲ ਮਿਲਾਓ |
-| [LayerMatch](./commands/layer-match) | ਚੁਣੀਆਂ ਇਕਾਈਆਂ ਨੂੰ ਸਰੋਤ ਇਕਾਈ ਦੀ ਲੇਅਰ ਨਾਲ ਮਿਲਾਉਣ ਲਈ ਮੁੜ-ਨਿਰਧਾਰਿਤ ਕਰੋ |
-| [LayerIsolate](./commands/layer-isolate) | ਚੁਣੀਆਂ ਇਕਾਈਆਂ ਦੀਆਂ ਲੇਅਰਾਂ ਨੂੰ ਛੱਡ ਕੇ ਬਾਕੀ ਸਾਰੀਆਂ ਲੇਅਰਾਂ ਫ੍ਰੀਜ਼ ਕਰੋ |
-| [LayerUnfreezeAll](./commands/layer-unfreeze-all) | ਇੱਕ ਕਦਮ ਵਿੱਚ ਸਾਰੀਆਂ ਲੇਅਰਾਂ ਅਨਫ੍ਰੀਜ਼ ਕਰੋ |
+| [LayerMakeCurrent](./commands/layer-make-current/) | ਮੌਜੂਦਾ ਲੇਅਰ ਨੂੰ ਕਲਿੱਕ ਕੀਤੀ ਇਕਾਈ ਦੀ ਲੇਅਰ ਨਾਲ ਮਿਲਾਓ |
+| [LayerMatch](./commands/layer-match/) | ਚੁਣੀਆਂ ਇਕਾਈਆਂ ਨੂੰ ਸਰੋਤ ਇਕਾਈ ਦੀ ਲੇਅਰ ਨਾਲ ਮਿਲਾਉਣ ਲਈ ਮੁੜ-ਨਿਰਧਾਰਿਤ ਕਰੋ |
+| [LayerIsolate](./commands/layer-isolate/) | ਚੁਣੀਆਂ ਇਕਾਈਆਂ ਦੀਆਂ ਲੇਅਰਾਂ ਨੂੰ ਛੱਡ ਕੇ ਬਾਕੀ ਸਾਰੀਆਂ ਲੇਅਰਾਂ ਫ੍ਰੀਜ਼ ਕਰੋ |
+| [LayerUnfreezeAll](./commands/layer-unfreeze-all/) | ਇੱਕ ਕਦਮ ਵਿੱਚ ਸਾਰੀਆਂ ਲੇਅਰਾਂ ਅਨਫ੍ਰੀਜ਼ ਕਰੋ |
 
 ## ਲੇਆਉਟ
 
 | ਕਮਾਂਡ | ਇਹ ਕੀ ਕਰਦੀ ਹੈ |
 |---------|-------------|
-| [ViewportRectangle](./commands/viewport-rectangle) | ਦੋ ਕੋਨੇ ਚੁਣ ਕੇ ਪੇਪਰ ਲੇਆਉਟ ਵਿੱਚ ਵਿਊਪੋਰਟ ਬਣਾਓ |
-| [ViewportCopy](./commands/viewport-copy) | ਵਿਊਪੋਰਟ ਨੂੰ ਨਵੀਂ ਸਥਿਤੀ 'ਤੇ ਡੁਪਲੀਕੇਟ ਕਰੋ |
-| [PageManager](./commands/page-manager) | ਸਰਗਰਮ ਲੇਆਉਟ ਲਈ ਪੇਪਰ ਸਾਈਜ਼ ਅਤੇ ਸਕੇਲ ਸੰਪਾਦਿਤ ਕਰੋ |
+| [ViewportRectangle](./commands/viewport-rectangle/) | ਦੋ ਕੋਨੇ ਚੁਣ ਕੇ ਪੇਪਰ ਲੇਆਉਟ ਵਿੱਚ ਵਿਊਪੋਰਟ ਬਣਾਓ |
+| [ViewportCopy](./commands/viewport-copy/) | ਵਿਊਪੋਰਟ ਨੂੰ ਨਵੀਂ ਸਥਿਤੀ 'ਤੇ ਡੁਪਲੀਕੇਟ ਕਰੋ |
+| [PageManager](./commands/page-manager/) | ਸਰਗਰਮ ਲੇਆਉਟ ਲਈ ਪੇਪਰ ਸਾਈਜ਼ ਅਤੇ ਸਕੇਲ ਸੰਪਾਦਿਤ ਕਰੋ |
 
 ## ਨੈਵੀਗੇਟ
 
 | ਕਮਾਂਡ | ਇਹ ਕੀ ਕਰਦੀ ਹੈ |
 |---------|-------------|
-| [Pan](./commands/pan) | ਵਿਊਪੋਰਟ ਹਿਲਾਉਣ ਲਈ ਕਲਿੱਕ ਕਰੋ ਅਤੇ ਡਰੈਗ ਕਰੋ |
-| [Zoom In](./commands/zoom-in) | ਵਿਊਪੋਰਟ ਨੂੰ ਜ਼ੂਮ ਇਨ ਕਰੋ |
-| [Zoom Out](./commands/zoom-out) | ਵਿਊਪੋਰਟ ਨੂੰ ਜ਼ੂਮ ਆਊਟ ਕਰੋ |
-| [Fit](./commands/fit) | ਸਾਰੀਆਂ ਇਕਾਈਆਂ ਨੂੰ ਵਿਊਪੋਰਟ ਵਿੱਚ ਫਿੱਟ ਕਰੋ |
+| [Pan](./commands/pan/) | ਵਿਊਪੋਰਟ ਹਿਲਾਉਣ ਲਈ ਕਲਿੱਕ ਕਰੋ ਅਤੇ ਡਰੈਗ ਕਰੋ |
+| [Zoom In](./commands/zoom-in/) | ਵਿਊਪੋਰਟ ਨੂੰ ਜ਼ੂਮ ਇਨ ਕਰੋ |
+| [Zoom Out](./commands/zoom-out/) | ਵਿਊਪੋਰਟ ਨੂੰ ਜ਼ੂਮ ਆਊਟ ਕਰੋ |
+| [Fit](./commands/fit/) | ਸਾਰੀਆਂ ਇਕਾਈਆਂ ਨੂੰ ਵਿਊਪੋਰਟ ਵਿੱਚ ਫਿੱਟ ਕਰੋ |
 
 ## ਮਾਪ
 
 | ਕਮਾਂਡ | ਇਹ ਕੀ ਕਰਦੀ ਹੈ |
 |---------|-------------|
-| [Distance](./commands/distance) | ਦੋ ਬਿੰਦੂਆਂ ਵਿਚਕਾਰ ਦੂਰੀ ਮਾਪੋ |
-| [Angle](./commands/angle) | ਤਿੰਨ ਬਿੰਦੂਆਂ ਵਿਚਕਾਰ ਕੋਣ ਮਾਪੋ |
+| [Distance](./commands/distance/) | ਦੋ ਬਿੰਦੂਆਂ ਵਿਚਕਾਰ ਦੂਰੀ ਮਾਪੋ |
+| [Angle](./commands/angle/) | ਤਿੰਨ ਬਿੰਦੂਆਂ ਵਿਚਕਾਰ ਕੋਣ ਮਾਪੋ |
 
 ## ਸਟਾਈਲ
 
 | ਕਮਾਂਡ | ਇਹ ਕੀ ਕਰਦੀ ਹੈ |
 |---------|-------------|
-| [Match Properties](./commands/match-properties) | ਇੱਕ ਇਕਾਈ ਤੋਂ ਦੂਜੀਆਂ ਵਿੱਚ ਰੰਗ, ਲੇਅਰ ਅਤੇ ਹੋਰ ਗੁਣ ਕਾਪੀ ਕਰੋ |
+| [Match Properties](./commands/match-properties/) | ਇੱਕ ਇਕਾਈ ਤੋਂ ਦੂਜੀਆਂ ਵਿੱਚ ਰੰਗ, ਲੇਅਰ ਅਤੇ ਹੋਰ ਗੁਣ ਕਾਪੀ ਕਰੋ |
 
 ## ਫ਼ਾਈਲ
 
 | ਕਮਾਂਡ | ਇਹ ਕੀ ਕਰਦੀ ਹੈ |
 |---------|-------------|
-| [Import](./commands/import) | DXF ਜਾਂ JSON ਡਰਾਇੰਗ ਫ਼ਾਈਲ ਖੋਲ੍ਹੋ |
-| [New File](./commands/new-file) | ਨਵੀਂ ਖਾਲੀ ਡਰਾਇੰਗ ਸ਼ੁਰੂ ਕਰੋ |
-| [Files](./commands/files) | ਹਾਲੀਆ ਡਰਾਇੰਗਾਂ ਬ੍ਰਾਊਜ਼ ਅਤੇ ਬਹਾਲ ਕਰੋ |
-| [Print](./commands/print) | ਡਰਾਇੰਗ ਖੇਤਰ ਨੂੰ ਚਿੱਤਰ ਜਾਂ PDF ਵਜੋਂ ਐਕਸਪੋਰਟ ਕਰੋ |
-| [Export](./commands/export) | ਡਰਾਇੰਗ ਨੂੰ DXF ਜਾਂ JSON ਵਜੋਂ ਡਾਊਨਲੋਡ ਕਰੋ |
-| [WipeStorage](./commands/wipestorage) | ਬ੍ਰਾਊਜ਼ਰ ਸਟੋਰੇਜ ਵਿੱਚੋਂ ਸਾਰੀਆਂ ਡਰਾਇੰਗਾਂ ਸਾਫ਼ ਕਰੋ |
+| [Import](./commands/import/) | DXF ਜਾਂ JSON ਡਰਾਇੰਗ ਫ਼ਾਈਲ ਖੋਲ੍ਹੋ |
+| [New File](./commands/new-file/) | ਨਵੀਂ ਖਾਲੀ ਡਰਾਇੰਗ ਸ਼ੁਰੂ ਕਰੋ |
+| [Files](./commands/files/) | ਹਾਲੀਆ ਡਰਾਇੰਗਾਂ ਬ੍ਰਾਊਜ਼ ਅਤੇ ਬਹਾਲ ਕਰੋ |
+| [Print](./commands/print/) | ਡਰਾਇੰਗ ਖੇਤਰ ਨੂੰ ਚਿੱਤਰ ਜਾਂ PDF ਵਜੋਂ ਐਕਸਪੋਰਟ ਕਰੋ |
+| [Export](./commands/export/) | ਡਰਾਇੰਗ ਨੂੰ DXF ਜਾਂ JSON ਵਜੋਂ ਡਾਊਨਲੋਡ ਕਰੋ |
+| [WipeStorage](./commands/wipestorage/) | ਬ੍ਰਾਊਜ਼ਰ ਸਟੋਰੇਜ ਵਿੱਚੋਂ ਸਾਰੀਆਂ ਡਰਾਇੰਗਾਂ ਸਾਫ਼ ਕਰੋ |
 
 ## ਰਿਕਵਰੀ
 
@@ -112,7 +112,7 @@ keywords: [KulmanLab, KulmanLab CAD, CAD ਕਮਾਂਡ, ਮੁਫ਼ਤ ਬ੍
 https://kulmanlab.com/?resetKulmanLocalStorage
 ```
 
-ਇਹ ਬ੍ਰਾਊਜ਼ਰ ਦੇ ਲੋਕਲ ਡੇਟਾਬੇਸ ਵਿੱਚੋਂ ਸਭ ਕੁਝ ਮਿਟਾ ਦਿੰਦਾ ਹੈ ਅਤੇ ਨਵੀਂ ਖਾਲੀ ਡਰਾਇੰਗ ਸ਼ੁਰੂ ਕਰਦਾ ਹੈ। `?reset` ਪੈਰਾਮੀਟਰ URL ਵਿੱਚੋਂ ਆਪਣੇ ਆਪ ਹਟ ਜਾਂਦਾ ਹੈ। ਇਸ ਨੂੰ ਆਖਰੀ ਉਪਾਅ ਵਜੋਂ ਵਰਤੋ ਜਦੋਂ [WipeStorage](./commands/wipestorage) ਪਹੁੰਚ ਤੋਂ ਬਾਹਰ ਹੋਵੇ ਕਿਉਂਕਿ ਐਪ ਬਿਲਕੁਲ ਲੋਡ ਨਹੀਂ ਹੁੰਦੀ।
+ਇਹ ਬ੍ਰਾਊਜ਼ਰ ਦੇ ਲੋਕਲ ਡੇਟਾਬੇਸ ਵਿੱਚੋਂ ਸਭ ਕੁਝ ਮਿਟਾ ਦਿੰਦਾ ਹੈ ਅਤੇ ਨਵੀਂ ਖਾਲੀ ਡਰਾਇੰਗ ਸ਼ੁਰੂ ਕਰਦਾ ਹੈ। `?reset` ਪੈਰਾਮੀਟਰ URL ਵਿੱਚੋਂ ਆਪਣੇ ਆਪ ਹਟ ਜਾਂਦਾ ਹੈ। ਇਸ ਨੂੰ ਆਖਰੀ ਉਪਾਅ ਵਜੋਂ ਵਰਤੋ ਜਦੋਂ [WipeStorage](./commands/wipestorage/) ਪਹੁੰਚ ਤੋਂ ਬਾਹਰ ਹੋਵੇ ਕਿਉਂਕਿ ਐਪ ਬਿਲਕੁਲ ਲੋਡ ਨਹੀਂ ਹੁੰਦੀ।
 
 ## ਕਮਾਂਡਾਂ ਕਿਵੇਂ ਕੰਮ ਕਰਦੀਆਂ ਹਨ
 

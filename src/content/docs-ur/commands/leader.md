@@ -102,7 +102,7 @@ keywords: [CAD leader کمانڈ, ملٹی لیڈر تشریح, leader CAD, تی
 
 رکھے گئے multileader پر **ڈبل کلک** کریں **rich** موڈ میں متن ایڈیٹر دوبارہ کھولنے کے لیے۔ rich موڈ میں آپ bold، italic، اور فی حرف فونٹ یا اونچائی اوور رائیڈز لاگو کر سکتے ہیں، اور `Enter` سے لائن بریک شامل کر سکتے ہیں۔ کمٹ کرنے اور بند کرنے کے لیے **Escape** دبائیں۔
 
-مکمل حوالہ کے لیے [Text Editor — rich mode](../interface/text-editor#rich-mode) دیکھیں۔
+مکمل حوالہ کے لیے [Text Editor — rich mode](../../interface/text-editor/#rich-mode) دیکھیں۔
 
 ## بازو شامل اور ہٹانا
 

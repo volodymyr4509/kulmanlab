@@ -60,7 +60,7 @@ Linie równoległe nie mogą tworzyć wymiaru kąta; polecenie ignoruje drugie k
 | `Enter` | Zatwierdza wartość i zamyka edytor |
 | Wieloliniowość | Nieobsługiwana |
 
-Zobacz [Edytor tekstu — tryb simple](../interface/text-editor#simple-mode) w celu uzyskania pełnej dokumentacji.
+Zobacz [Edytor tekstu — tryb simple](../../interface/text-editor/#simple-mode) w celu uzyskania pełnej dokumentacji.
 
 ## Powiązane polecenia
 

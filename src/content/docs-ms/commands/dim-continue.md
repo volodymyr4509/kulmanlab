@@ -84,7 +84,7 @@ Anda tidak boleh menukar arah di tengah rantai. Mulakan [Dimension Linear](../di
 | `Enter` | Mengkomit nilai dan menutup editor |
 | Berbilang baris | Tidak disokong |
 
-Lihat [Text Editor — mod mudah](../interface/text-editor#simple-mode) untuk rujukan penuh.
+Lihat [Text Editor — mod mudah](../../interface/text-editor/#simple-mode) untuk rujukan penuh.
 
 ## DXF — entiti DIMENSION
 

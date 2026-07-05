@@ -60,7 +60,7 @@ Les lignes parallèles ne peuvent pas former une cote angulaire ; la commande ig
 | `Enter` | Valide la valeur et ferme l'éditeur |
 | Multiligne | Non pris en charge |
 
-Voir [Éditeur de texte — simple mode](../interface/text-editor#simple-mode) pour la référence complète.
+Voir [Éditeur de texte — simple mode](../../interface/text-editor/#simple-mode) pour la référence complète.
 
 ## Commandes associées
 

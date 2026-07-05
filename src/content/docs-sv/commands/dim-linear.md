@@ -85,7 +85,7 @@ Markörens sida (ovanför/under för horisontell, vänster/höger för vertikal)
 | `Enter` | Bekräftar värdet och stänger redigeraren |
 | Flera rader | Stöds inte |
 
-Se [Textredigerare — enkelt läge](../interface/text-editor#simple-mode) för den fullständiga referensen.
+Se [Textredigerare — enkelt läge](../../interface/text-editor/#simple-mode) för den fullständiga referensen.
 
 ## Kedja mått
 

@@ -23,7 +23,7 @@ Nilai ketebalan garis DXF standar tersedia: 0.00, 0.05, 0.09, 0.13, 0.15, 0.18, 
 
 Ketebalan garis yang dipilih diterapkan ke setiap entitas yang dibuat setelah perubahan. Ini tidak secara retroaktif memengaruhi entitas yang ada.
 
-Untuk mengubah ketebalan garis entitas yang ada, pilih mereka dan edit field **Lineweight** di panel properti, atau gunakan [MatchProperties](../commands/match-properties) untuk menyalinnya dari entitas lain.
+Untuk mengubah ketebalan garis entitas yang ada, pilih mereka dan edit field **Lineweight** di panel properti, atau gunakan [MatchProperties](../../commands/match-properties/) untuk menyalinnya dari entitas lain.
 
 ## Rendering
 

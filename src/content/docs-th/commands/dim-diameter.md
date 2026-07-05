@@ -57,7 +57,7 @@ keywords: [มิติเส้นผ่านศูนย์กลาง CAD, 
 | `Enter` | ยืนยันค่าและปิดโปรแกรมแก้ไข |
 | หลายบรรทัด | ไม่รองรับ |
 
-ดู [Text Editor — simple mode](../interface/text-editor#simple-mode) สำหรับข้อมูลอ้างอิงทั้งหมด
+ดู [Text Editor — simple mode](../../interface/text-editor/#simple-mode) สำหรับข้อมูลอ้างอิงทั้งหมด
 
 ## DXF — วัตถุ DIMENSION ประเภท diameter
 

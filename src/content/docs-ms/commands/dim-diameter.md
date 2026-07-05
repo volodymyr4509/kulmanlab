@@ -57,7 +57,7 @@ Hanya entiti **Arc** dan **Circle** yang boleh dipilih.
 | `Enter` | Mengkomit nilai dan menutup editor |
 | Berbilang baris | Tidak disokong |
 
-Lihat [Text Editor — mod mudah](../interface/text-editor#simple-mode) untuk rujukan penuh.
+Lihat [Text Editor — mod mudah](../../interface/text-editor/#simple-mode) untuk rujukan penuh.
 
 ## DXF — entiti DIMENSION diameter
 

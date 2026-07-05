@@ -76,7 +76,7 @@ p1
 | `Enter` | ਮੁੱਲ ਕਮਿੱਟ ਕਰਦਾ ਹੈ ਅਤੇ ਐਡੀਟਰ ਬੰਦ ਕਰਦਾ ਹੈ |
 | ਮਲਟੀ-ਲਾਈਨ | ਸਮਰਥਿਤ ਨਹੀਂ |
 
-ਪੂਰੇ ਰੈਫਰੈਂਸ ਲਈ [Text Editor — simple mode](../interface/text-editor#simple-mode) ਵੇਖੋ।
+ਪੂਰੇ ਰੈਫਰੈਂਸ ਲਈ [Text Editor — simple mode](../../interface/text-editor/#simple-mode) ਵੇਖੋ।
 
 ## ਡਾਇਮੈਂਸ਼ਨਾਂ ਦੀ ਚੇਨਿੰਗ
 

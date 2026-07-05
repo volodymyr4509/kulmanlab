@@ -60,7 +60,7 @@ Garis paralel tidak dapat membentuk dimensi sudut; perintah mengabaikan klik ked
 | `Enter` | Mengonfirmasi nilai dan menutup editor |
 | Multi-baris | Tidak didukung |
 
-Lihat [Text Editor — mode sederhana](../interface/text-editor#simple-mode) untuk referensi lengkap.
+Lihat [Text Editor — mode sederhana](../../interface/text-editor/#simple-mode) untuk referensi lengkap.
 
 ## Perintah terkait
 

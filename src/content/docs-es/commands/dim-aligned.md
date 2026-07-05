@@ -76,7 +76,7 @@ El lado del cursor determina en qué lado aparece la línea de cota.
 | `Enter` | Confirma el valor y cierra el editor |
 | Multilínea | No compatible |
 
-Consulta [Editor de Texto — simple mode](../interface/text-editor#simple-mode) para la referencia completa.
+Consulta [Editor de Texto — simple mode](../../interface/text-editor/#simple-mode) para la referencia completa.
 
 ## Encadenar cotas
 

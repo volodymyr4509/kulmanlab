@@ -9,7 +9,7 @@ keywords: [perintah teks CAD, MTEXT, menempatkan label teks CAD, anotasi teks CA
 
 Perintah `text` menempatkan label teks multi-baris. Setelah Anda mengklik posisi di kanvas, editor popup terbuka dalam mode **kaya** — Anda dapat mengetik konten, menerapkan tebal/miring/coret per karakter, mengubah font dan tinggi, dan menyisipkan jeda baris. Tekan **Escape** untuk mengonfirmasi dan menutup editor.
 
-Lihat halaman [Text Editor](../interface/text-editor) untuk referensi editor lengkap, termasuk perbandingan mode **kaya** dan **sederhana**.
+Lihat halaman [Text Editor](../../interface/text-editor/) untuk referensi editor lengkap, termasuk perbandingan mode **kaya** dan **sederhana**.
 
 ## Menempatkan label teks
 
@@ -44,7 +44,7 @@ Alih-alih mengklik, ketik posisi tepat:
 | `Backspace` | Hapus karakter terakhir yang diketik |
 | `Enter` | Konfirmasi koordinat yang diketik |
 
-**Fase editor teks** (lihat [Text Editor](../interface/text-editor) untuk referensi lengkap)
+**Fase editor teks** (lihat [Text Editor](../../interface/text-editor/) untuk referensi lengkap)
 
 | Tombol | Aksi |
 |-----|--------|

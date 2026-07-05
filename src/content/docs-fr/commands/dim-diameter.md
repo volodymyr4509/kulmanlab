@@ -57,7 +57,7 @@ Seules les entités **Arc** et **Circle** peuvent être sélectionnées.
 | `Enter` | Valide la valeur et ferme l'éditeur |
 | Multiligne | Non pris en charge |
 
-Voir [Éditeur de texte — simple mode](../interface/text-editor#simple-mode) pour la référence complète.
+Voir [Éditeur de texte — simple mode](../../interface/text-editor/#simple-mode) pour la référence complète.
 
 ## DXF — entité DIMENSION de type diamètre
 

@@ -76,7 +76,7 @@ The cursor side determines which side the dimension line appears on.
 | `Enter` | Commits the value and closes the editor |
 | Multi-line | Not supported |
 
-See [Text Editor — simple mode](../interface/text-editor#simple-mode) for the full reference.
+See [Text Editor — simple mode](../../interface/text-editor/#simple-mode) for the full reference.
 
 ## Chaining dimensions
 

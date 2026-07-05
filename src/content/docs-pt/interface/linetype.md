@@ -22,7 +22,7 @@ O seletor de **tipo de linha** na barra de ferramentas controla o padrão de tra
 
 O tipo de linha selecionado é aplicado a cada entidade criada após a alteração. Não afeta retroativamente as entidades existentes.
 
-Para alterar o tipo de linha de entidades existentes, selecione-as e edite o campo **Tipo de linha** no painel de propriedades, ou use [MatchProperties](../commands/match-properties) para copiá-lo de outra entidade.
+Para alterar o tipo de linha de entidades existentes, selecione-as e edite o campo **Tipo de linha** no painel de propriedades, ou use [MatchProperties](../../commands/match-properties/) para copiá-lo de outra entidade.
 
 ## Escala do tipo de linha
 

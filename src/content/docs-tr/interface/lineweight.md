@@ -23,7 +23,7 @@ Standart DXF çizgi kalınlığı değerleri mevcuttur: 0,00, 0,05, 0,09, 0,13, 
 
 Seçilen çizgi kalınlığı, değişiklikten sonra oluşturulan her nesneye uygulanır. Mevcut nesneleri geriye dönük olarak etkilemez.
 
-Mevcut nesnelerin çizgi kalınlığını değiştirmek için onları seçin ve özellikler panelindeki **Çizgi Kalınlığı** alanını düzenleyin ya da başka bir nesneden kopyalamak için [MatchProperties](../commands/match-properties) kullanın.
+Mevcut nesnelerin çizgi kalınlığını değiştirmek için onları seçin ve özellikler panelindeki **Çizgi Kalınlığı** alanını düzenleyin ya da başka bir nesneden kopyalamak için [MatchProperties](../../commands/match-properties/) kullanın.
 
 ## Oluşturma
 

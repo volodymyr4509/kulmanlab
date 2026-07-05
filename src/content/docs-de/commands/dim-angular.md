@@ -60,7 +60,7 @@ Parallele Linien können keine Winkelbemaßung bilden; der Befehl ignoriert den 
 | `Enter` | Übernimmt den Wert und schließt den Editor |
 | Mehrzeilig | Nicht unterstützt |
 
-Siehe [Texteditor — simple mode](../interface/text-editor#simple-mode) für die vollständige Referenz.
+Siehe [Texteditor — simple mode](../../interface/text-editor/#simple-mode) für die vollständige Referenz.
 
 ## Verwandte Befehle
 

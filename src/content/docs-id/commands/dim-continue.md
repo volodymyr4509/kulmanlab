@@ -84,7 +84,7 @@ Anda tidak dapat mengubah arah di tengah rantai. Mulai [Dimension Linear](../dim
 | `Enter` | Mengonfirmasi nilai dan menutup editor |
 | Multi-baris | Tidak didukung |
 
-Lihat [Text Editor — mode sederhana](../interface/text-editor#simple-mode) untuk referensi lengkap.
+Lihat [Text Editor — mode sederhana](../../interface/text-editor/#simple-mode) untuk referensi lengkap.
 
 ## DXF — entitas DIMENSION
 

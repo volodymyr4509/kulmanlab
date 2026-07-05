@@ -102,7 +102,7 @@ No se necesita ajuste manual — mueve el cursor al lado donde quieres la etique
 
 **Haz doble clic** en una multireferencia colocada para reabrir el editor de texto en **rich** mode. En rich mode puedes aplicar negrita, cursiva y anulaciones de fuente o altura por carácter, e insertar saltos de línea con `Enter`. Pulsa **Escape** para confirmar y cerrar.
 
-Consulta [Editor de Texto — rich mode](../interface/text-editor#rich-mode) para la referencia completa.
+Consulta [Editor de Texto — rich mode](../../interface/text-editor/#rich-mode) para la referencia completa.
 
 ## Añadir y eliminar brazos
 

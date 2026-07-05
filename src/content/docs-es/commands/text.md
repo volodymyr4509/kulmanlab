@@ -9,7 +9,7 @@ keywords: [comando text CAD, MTEXT, colocar etiqueta de texto CAD, anotación de
 
 El comando `text` coloca una etiqueta de texto multilínea. Tras hacer clic en una posición del lienzo, se abre un editor emergente en **rich** mode — puedes escribir contenido, aplicar negrita/cursiva/tachado por carácter, cambiar fuentes y alturas, e insertar saltos de línea. Pulsa **Escape** para confirmar y cerrar el editor.
 
-Consulta la página del [Editor de Texto](../interface/text-editor) para la referencia completa del editor, incluyendo una comparación de los modos **rich** y **simple**.
+Consulta la página del [Editor de Texto](../../interface/text-editor/) para la referencia completa del editor, incluyendo una comparación de los modos **rich** y **simple**.
 
 ## Colocar una etiqueta de texto
 
@@ -44,7 +44,7 @@ En lugar de hacer clic, escribe una posición exacta:
 | `Backspace` | Borrar el último carácter escrito |
 | `Enter` | Confirmar coordenada escrita |
 
-**Fase del editor de texto** (consulta el [Editor de Texto](../interface/text-editor) para la referencia completa)
+**Fase del editor de texto** (consulta el [Editor de Texto](../../interface/text-editor/) para la referencia completa)
 
 | Tecla | Acción |
 |-------|--------|

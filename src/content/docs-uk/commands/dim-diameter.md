@@ -57,7 +57,7 @@ keywords: [CAD розмір діаметра, dimdiameter, розмір діам
 | `Enter` | Підтверджує значення та закриває редактор |
 | Багаторядковість | Не підтримується |
 
-Дивіться [Текстовий редактор — simple mode](../interface/text-editor#simple-mode) для повного довідника.
+Дивіться [Текстовий редактор — simple mode](../../interface/text-editor/#simple-mode) для повного довідника.
 
 ## DXF — об'єкт DIMENSION з типом діаметра
 

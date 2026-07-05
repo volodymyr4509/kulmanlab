@@ -12,97 +12,97 @@ Selamat datang ke rujukan arahan **KulmanLab CAD**. [KulmanLab CAD](https://kulm
 
 | Arahan | Fungsinya |
 |--------|-----------|
-| [Line](./commands/line) | Lukis garis lurus antara dua titik |
-| [Polyline](./commands/polyline) | Lukis laluan terbuka berbilang segmen |
-| [Rectangle](./commands/rectangle) | Lukis segi empat tepat sejajar paksi |
-| [Circle](./commands/circle) | Lukis bulatan mengikut pusat dan jejari |
-| [Arc](./commands/arc) | Lukis lengkok melalui tiga titik |
-| [Ellipse](./commands/ellipse) | Lukis elips mengikut pusat dan dua paksi |
-| [Text](./commands/text) | Letak label teks pada kanvas |
-| [Spline CV](./commands/spline-cv) | Lukis spline dengan meletakkan bucu kawalan |
-| [Spline Fit](./commands/spline-fit) | Lukis spline yang melalui titik-titik yang diklik |
+| [Line](./commands/line/) | Lukis garis lurus antara dua titik |
+| [Polyline](./commands/polyline/) | Lukis laluan terbuka berbilang segmen |
+| [Rectangle](./commands/rectangle/) | Lukis segi empat tepat sejajar paksi |
+| [Circle](./commands/circle/) | Lukis bulatan mengikut pusat dan jejari |
+| [Arc](./commands/arc/) | Lukis lengkok melalui tiga titik |
+| [Ellipse](./commands/ellipse/) | Lukis elips mengikut pusat dan dua paksi |
+| [Text](./commands/text/) | Letak label teks pada kanvas |
+| [Spline CV](./commands/spline-cv/) | Lukis spline dengan meletakkan bucu kawalan |
+| [Spline Fit](./commands/spline-fit/) | Lukis spline yang melalui titik-titik yang diklik |
 
 ## Edit
 
 | Arahan | Fungsinya |
 |--------|-----------|
-| [Move](./commands/move) | Pindahkan entiti yang dipilih ke kedudukan baru |
-| [Copy](./commands/copy) | Salin entiti yang dipilih ke kedudukan baru |
-| [Rotate](./commands/rotate) | Putarkan entiti yang dipilih di sekitar titik asas |
-| [Mirror](./commands/mirror) | Cerminkan entiti yang dipilih merentasi satu garis |
-| [Scale](./commands/scale) | Skala entiti yang dipilih di sekitar titik asas |
-| [Delete](./commands/delete) | Buang entiti yang dipilih daripada lukisan |
-| [Trim](./commands/trim) | Potong segmen garis pada persilangannya |
-| [Extend](./commands/extend) | Panjangkan garis ke persimpangan sempadan terdekat |
-| [Offset](./commands/offset) | Cipta salinan selari entiti pada jarak tertentu |
-| [Fillet](./commands/fillet) | Bundarkan sudut antara dua garis dengan lengkok tangen |
-| [Chamfer](./commands/chamfer) | Potong sudut pepenjuru lurus antara dua garis atau poliline |
-| [Undo](./commands/undo) | Batal tindakan terakhir |
-| [Redo](./commands/redo) | Buat semula tindakan yang dibatalkan |
+| [Move](./commands/move/) | Pindahkan entiti yang dipilih ke kedudukan baru |
+| [Copy](./commands/copy/) | Salin entiti yang dipilih ke kedudukan baru |
+| [Rotate](./commands/rotate/) | Putarkan entiti yang dipilih di sekitar titik asas |
+| [Mirror](./commands/mirror/) | Cerminkan entiti yang dipilih merentasi satu garis |
+| [Scale](./commands/scale/) | Skala entiti yang dipilih di sekitar titik asas |
+| [Delete](./commands/delete/) | Buang entiti yang dipilih daripada lukisan |
+| [Trim](./commands/trim/) | Potong segmen garis pada persilangannya |
+| [Extend](./commands/extend/) | Panjangkan garis ke persimpangan sempadan terdekat |
+| [Offset](./commands/offset/) | Cipta salinan selari entiti pada jarak tertentu |
+| [Fillet](./commands/fillet/) | Bundarkan sudut antara dua garis dengan lengkok tangen |
+| [Chamfer](./commands/chamfer/) | Potong sudut pepenjuru lurus antara dua garis atau poliline |
+| [Undo](./commands/undo/) | Batal tindakan terakhir |
+| [Redo](./commands/redo/) | Buat semula tindakan yang dibatalkan |
 
 ## Markup
 
 | Arahan | Fungsinya |
 |--------|-----------|
-| [Leader](./commands/leader) | Lukis anotasi pelbagai pemimpin dengan kepala anak panah dan teks |
-| [Leader+](./commands/leader-add) | Tambah lengan tambahan pada pelbagai pemimpin sedia ada |
-| [Leader−](./commands/leader-remove) | Buang lengan daripada pelbagai pemimpin sedia ada |
-| [Dimension Linear](./commands/dim-linear) | Tambah dimensi mendatar atau menegak |
-| [Dimension Aligned](./commands/dim-aligned) | Tambah dimensi yang selaras dengan dua titik |
-| [Dimension Continue](./commands/dim-continue) | Rantai dimensi baru dari yang terakhir |
-| [Dimension Radius](./commands/dim-radius) | Tambah dimensi jejari pada bulatan atau lengkok |
-| [Dimension Diameter](./commands/dim-diameter) | Tambah dimensi diameter pada bulatan |
-| [Dimension Angular](./commands/dim-angular) | Tambah dimensi sudut pada dua garis, lengkok, atau bulatan |
+| [Leader](./commands/leader/) | Lukis anotasi pelbagai pemimpin dengan kepala anak panah dan teks |
+| [Leader+](./commands/leader-add/) | Tambah lengan tambahan pada pelbagai pemimpin sedia ada |
+| [Leader−](./commands/leader-remove/) | Buang lengan daripada pelbagai pemimpin sedia ada |
+| [Dimension Linear](./commands/dim-linear/) | Tambah dimensi mendatar atau menegak |
+| [Dimension Aligned](./commands/dim-aligned/) | Tambah dimensi yang selaras dengan dua titik |
+| [Dimension Continue](./commands/dim-continue/) | Rantai dimensi baru dari yang terakhir |
+| [Dimension Radius](./commands/dim-radius/) | Tambah dimensi jejari pada bulatan atau lengkok |
+| [Dimension Diameter](./commands/dim-diameter/) | Tambah dimensi diameter pada bulatan |
+| [Dimension Angular](./commands/dim-angular/) | Tambah dimensi sudut pada dua garis, lengkok, atau bulatan |
 
 ## Lapisan
 
 | Arahan | Fungsinya |
 |--------|-----------|
-| [LayerMakeCurrent](./commands/layer-make-current) | Tetapkan lapisan semasa agar sepadan dengan lapisan entiti yang diklik |
-| [LayerMatch](./commands/layer-match) | Tugaskan semula entiti yang dipilih untuk memadankan lapisan entiti sumber |
-| [LayerIsolate](./commands/layer-isolate) | Bekukan semua lapisan kecuali lapisan entiti yang dipilih |
-| [LayerUnfreezeAll](./commands/layer-unfreeze-all) | Nyahbeku semua lapisan dalam satu langkah |
+| [LayerMakeCurrent](./commands/layer-make-current/) | Tetapkan lapisan semasa agar sepadan dengan lapisan entiti yang diklik |
+| [LayerMatch](./commands/layer-match/) | Tugaskan semula entiti yang dipilih untuk memadankan lapisan entiti sumber |
+| [LayerIsolate](./commands/layer-isolate/) | Bekukan semua lapisan kecuali lapisan entiti yang dipilih |
+| [LayerUnfreezeAll](./commands/layer-unfreeze-all/) | Nyahbeku semua lapisan dalam satu langkah |
 
 ## Susun Atur
 
 | Arahan | Fungsinya |
 |--------|-----------|
-| [ViewportRectangle](./commands/viewport-rectangle) | Cipta viewport dalam susun atur kertas dengan memilih dua sudut |
-| [ViewportCopy](./commands/viewport-copy) | Duplikasi viewport ke kedudukan baru |
-| [PageManager](./commands/page-manager) | Edit saiz kertas dan skala untuk susun atur aktif |
+| [ViewportRectangle](./commands/viewport-rectangle/) | Cipta viewport dalam susun atur kertas dengan memilih dua sudut |
+| [ViewportCopy](./commands/viewport-copy/) | Duplikasi viewport ke kedudukan baru |
+| [PageManager](./commands/page-manager/) | Edit saiz kertas dan skala untuk susun atur aktif |
 
 ## Navigasi
 
 | Arahan | Fungsinya |
 |--------|-----------|
-| [Pan](./commands/pan) | Klik dan seret untuk menggerakkan viewport |
-| [Zoom In](./commands/zoom-in) | Zum masuk viewport |
-| [Zoom Out](./commands/zoom-out) | Zum keluar viewport |
-| [Fit](./commands/fit) | Muatkan semua entiti ke dalam viewport |
+| [Pan](./commands/pan/) | Klik dan seret untuk menggerakkan viewport |
+| [Zoom In](./commands/zoom-in/) | Zum masuk viewport |
+| [Zoom Out](./commands/zoom-out/) | Zum keluar viewport |
+| [Fit](./commands/fit/) | Muatkan semua entiti ke dalam viewport |
 
 ## Ukur
 
 | Arahan | Fungsinya |
 |--------|-----------|
-| [Distance](./commands/distance) | Ukur jarak antara dua titik |
-| [Angle](./commands/angle) | Ukur sudut antara tiga titik |
+| [Distance](./commands/distance/) | Ukur jarak antara dua titik |
+| [Angle](./commands/angle/) | Ukur sudut antara tiga titik |
 
 ## Gaya
 
 | Arahan | Fungsinya |
 |--------|-----------|
-| [Match Properties](./commands/match-properties) | Salin warna, lapisan, dan sifat lain dari satu entiti ke entiti lain |
+| [Match Properties](./commands/match-properties/) | Salin warna, lapisan, dan sifat lain dari satu entiti ke entiti lain |
 
 ## Fail
 
 | Arahan | Fungsinya |
 |--------|-----------|
-| [Import](./commands/import) | Buka fail lukisan DXF atau JSON |
-| [New File](./commands/new-file) | Mulakan lukisan kosong baharu |
-| [Files](./commands/files) | Semak imbas dan pulihkan lukisan terkini |
-| [Print](./commands/print) | Eksport kawasan lukisan sebagai imej atau PDF |
-| [Export](./commands/export) | Muat turun lukisan sebagai DXF atau JSON |
-| [WipeStorage](./commands/wipestorage) | Padamkan semua lukisan daripada storan pelayar |
+| [Import](./commands/import/) | Buka fail lukisan DXF atau JSON |
+| [New File](./commands/new-file/) | Mulakan lukisan kosong baharu |
+| [Files](./commands/files/) | Semak imbas dan pulihkan lukisan terkini |
+| [Print](./commands/print/) | Eksport kawasan lukisan sebagai imej atau PDF |
+| [Export](./commands/export/) | Muat turun lukisan sebagai DXF atau JSON |
+| [WipeStorage](./commands/wipestorage/) | Padamkan semua lukisan daripada storan pelayar |
 
 ## Pemulihan
 
@@ -112,7 +112,7 @@ Jika aplikasi ranap setiap kali dimulakan (contohnya, selepas bekerja dengan koo
 https://kulmanlab.com/?resetKulmanLocalStorage
 ```
 
-Ini memadamkan semua data daripada pangkalan data tempatan pelayar dan memulakan lukisan kosong baharu. Parameter `?reset` akan hilang dari URL secara automatik. Gunakan ini sebagai jalan terakhir apabila [WipeStorage](./commands/wipestorage) tidak dapat diakses kerana aplikasi tidak dapat dimuatkan sama sekali.
+Ini memadamkan semua data daripada pangkalan data tempatan pelayar dan memulakan lukisan kosong baharu. Parameter `?reset` akan hilang dari URL secara automatik. Gunakan ini sebagai jalan terakhir apabila [WipeStorage](./commands/wipestorage/) tidak dapat diakses kerana aplikasi tidak dapat dimuatkan sama sekali.
 
 ## Cara arahan berfungsi
 

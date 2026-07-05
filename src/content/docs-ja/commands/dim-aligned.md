@@ -76,7 +76,7 @@ p1
 | `Enter` | 値を確定してエディターを閉じる |
 | 複数行 | サポートされていません |
 
-詳細は [テキストエディター — シンプルモード](../interface/text-editor#simple-mode) を参照してください。
+詳細は [テキストエディター — シンプルモード](../../interface/text-editor/#simple-mode) を参照してください。
 
 ## 寸法の連続
 

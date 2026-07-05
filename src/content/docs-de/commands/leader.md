@@ -102,7 +102,7 @@ Keine manuelle Anpassung nötig — bewegen Sie den Cursor auf die Seite, auf de
 
 **Doppelklicken** Sie auf eine platzierte Mehrfachführungslinie, um den Texteditor im **rich** mode erneut zu öffnen. Im rich mode können Sie Fett, Kursiv und zeichenweise Schriftart- oder Höhen-Überschreibungen anwenden sowie Zeilenumbrüche mit `Enter` einfügen. Drücken Sie **Escape**, um zu bestätigen und zu schließen.
 
-Siehe [Texteditor — rich mode](../interface/text-editor#rich-mode) für die vollständige Referenz.
+Siehe [Texteditor — rich mode](../../interface/text-editor/#rich-mode) für die vollständige Referenz.
 
 ## Arme hinzufügen und entfernen
 

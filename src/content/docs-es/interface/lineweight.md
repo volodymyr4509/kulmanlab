@@ -23,7 +23,7 @@ Los valores estándar de grosor de línea DXF están disponibles: 0,00, 0,05, 0,
 
 El grosor de línea seleccionado se aplica a cada entidad creada después del cambio. No afecta retroactivamente a las entidades existentes.
 
-Para cambiar el grosor de línea de las entidades existentes, selecciónalas y edita el campo **Lineweight** en el panel de propiedades, o usa [MatchProperties](../commands/match-properties) para copiarlo de otra entidad.
+Para cambiar el grosor de línea de las entidades existentes, selecciónalas y edita el campo **Lineweight** en el panel de propiedades, o usa [MatchProperties](../../commands/match-properties/) para copiarlo de otra entidad.
 
 ## Renderizado
 

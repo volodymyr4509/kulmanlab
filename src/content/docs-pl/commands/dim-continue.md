@@ -84,7 +84,7 @@ Nie możesz zmienić kierunku w środku łańcucha. Uruchom nowy [Wymiar liniowy
 | `Enter` | Zatwierdza wartość i zamyka edytor |
 | Wieloliniowość | Nieobsługiwana |
 
-Zobacz [Edytor tekstu — tryb simple](../interface/text-editor#simple-mode) w celu uzyskania pełnej dokumentacji.
+Zobacz [Edytor tekstu — tryb simple](../../interface/text-editor/#simple-mode) w celu uzyskania pełnej dokumentacji.
 
 ## DXF — elementy DIMENSION
 

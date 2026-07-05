@@ -84,7 +84,7 @@ No puedes cambiar la dirección en medio de una cadena. Inicia una nueva [Dimens
 | `Enter` | Confirma el valor y cierra el editor |
 | Multilínea | No compatible |
 
-Consulta [Editor de Texto — simple mode](../interface/text-editor#simple-mode) para la referencia completa.
+Consulta [Editor de Texto — simple mode](../../interface/text-editor/#simple-mode) para la referencia completa.
 
 ## DXF — entidades DIMENSION
 

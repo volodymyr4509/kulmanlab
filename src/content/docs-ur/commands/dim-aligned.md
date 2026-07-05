@@ -76,7 +76,7 @@ p1
 | `Enter` | قدر محفوظ کرتا ہے اور ایڈیٹر بند کرتا ہے |
 | ملٹی لائن | حمایت یافتہ نہیں |
 
-مکمل حوالہ کے لیے [Text Editor — simple mode](../interface/text-editor#simple-mode) دیکھیں۔
+مکمل حوالہ کے لیے [Text Editor — simple mode](../../interface/text-editor/#simple-mode) دیکھیں۔
 
 ## پیمائشیں جوڑنا
 

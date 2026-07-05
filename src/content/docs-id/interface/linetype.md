@@ -22,7 +22,7 @@ Chip **linetype** di toolbar mengontrol pola garis putus-putus yang ditetapkan k
 
 Tipe garis yang dipilih diterapkan ke setiap entitas yang dibuat setelah perubahan. Ini tidak secara retroaktif memengaruhi entitas yang ada.
 
-Untuk mengubah tipe garis entitas yang ada, pilih mereka dan edit field **Linetype** di panel properti, atau gunakan [MatchProperties](../commands/match-properties) untuk menyalinnya dari entitas lain.
+Untuk mengubah tipe garis entitas yang ada, pilih mereka dan edit field **Linetype** di panel properti, atau gunakan [MatchProperties](../../commands/match-properties/) untuk menyalinnya dari entitas lain.
 
 ## Skala tipe garis
 

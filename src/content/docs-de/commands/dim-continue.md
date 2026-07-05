@@ -84,7 +84,7 @@ Die Richtung kann nicht mitten in der Kette geändert werden. Starten Sie eine n
 | `Enter` | Übernimmt den Wert und schließt den Editor |
 | Mehrzeilig | Nicht unterstützt |
 
-Siehe [Texteditor — simple mode](../interface/text-editor#simple-mode) für die vollständige Referenz.
+Siehe [Texteditor — simple mode](../../interface/text-editor/#simple-mode) für die vollständige Referenz.
 
 ## DXF — DIMENSION-Elemente
 

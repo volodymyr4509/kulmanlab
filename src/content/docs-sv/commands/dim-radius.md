@@ -59,7 +59,7 @@ Endast **Arc**- och **Circle**-entiteter kan väljas. Att klicka på någon anna
 | `Enter` | Bekräftar värdet och stänger redigeraren |
 | Flera rader | Stöds inte |
 
-Se [Textredigerare — enkelt läge](../interface/text-editor#simple-mode) för fullständig referens.
+Se [Textredigerare — enkelt läge](../../interface/text-editor/#simple-mode) för fullständig referens.
 
 ## DXF — DIMENSION-radieentitet
 

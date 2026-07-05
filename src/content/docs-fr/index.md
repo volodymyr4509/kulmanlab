@@ -12,97 +12,97 @@ Bienvenue dans la référence des commandes **KulmanLab CAD**. [KulmanLab CAD](h
 
 | Commande | Ce qu'elle fait |
 |----------|----------------|
-| [Line](./commands/line) | Trace un segment de droite entre deux points |
-| [Polyline](./commands/polyline) | Trace un chemin ouvert multi-segments |
-| [Rectangle](./commands/rectangle) | Trace un rectangle aligné sur les axes |
-| [Circle](./commands/circle) | Trace un cercle par centre et rayon |
-| [Arc](./commands/arc) | Trace un arc à travers trois points |
-| [Ellipse](./commands/ellipse) | Trace une ellipse par centre et deux axes |
-| [Text](./commands/text) | Place un label de texte sur le canevas |
-| [Spline CV](./commands/spline-cv) | Trace une spline en plaçant des sommets de contrôle |
-| [Spline Fit](./commands/spline-fit) | Trace une spline passant par les points cliqués |
+| [Line](./commands/line/) | Trace un segment de droite entre deux points |
+| [Polyline](./commands/polyline/) | Trace un chemin ouvert multi-segments |
+| [Rectangle](./commands/rectangle/) | Trace un rectangle aligné sur les axes |
+| [Circle](./commands/circle/) | Trace un cercle par centre et rayon |
+| [Arc](./commands/arc/) | Trace un arc à travers trois points |
+| [Ellipse](./commands/ellipse/) | Trace une ellipse par centre et deux axes |
+| [Text](./commands/text/) | Place un label de texte sur le canevas |
+| [Spline CV](./commands/spline-cv/) | Trace une spline en plaçant des sommets de contrôle |
+| [Spline Fit](./commands/spline-fit/) | Trace une spline passant par les points cliqués |
 
 ## Édition
 
 | Commande | Ce qu'elle fait |
 |----------|----------------|
-| [Move](./commands/move) | Déplace les entités sélectionnées vers une nouvelle position |
-| [Copy](./commands/copy) | Copie les entités sélectionnées vers une nouvelle position |
-| [Rotate](./commands/rotate) | Fait pivoter les entités sélectionnées autour d'un point de base |
-| [Mirror](./commands/mirror) | Symétrise les entités sélectionnées par rapport à une ligne |
-| [Scale](./commands/scale) | Met à l'échelle les entités sélectionnées autour d'un point de base |
-| [Delete](./commands/delete) | Supprime les entités sélectionnées du dessin |
-| [Trim](./commands/trim) | Raccorde un segment de ligne à ses intersections |
-| [Extend](./commands/extend) | Prolonge une ligne jusqu'à l'intersection limite la plus proche |
-| [Offset](./commands/offset) | Crée une copie parallèle d'une entité à une distance donnée |
-| [Fillet](./commands/fillet) | Arrondit un angle entre deux lignes avec un arc tangent |
-| [Chamfer](./commands/chamfer) | Coupe un angle diagonal droit entre deux lignes ou polylignes |
-| [Undo](./commands/undo) | Annule la dernière action |
-| [Redo](./commands/redo) | Rétablit la dernière action annulée |
+| [Move](./commands/move/) | Déplace les entités sélectionnées vers une nouvelle position |
+| [Copy](./commands/copy/) | Copie les entités sélectionnées vers une nouvelle position |
+| [Rotate](./commands/rotate/) | Fait pivoter les entités sélectionnées autour d'un point de base |
+| [Mirror](./commands/mirror/) | Symétrise les entités sélectionnées par rapport à une ligne |
+| [Scale](./commands/scale/) | Met à l'échelle les entités sélectionnées autour d'un point de base |
+| [Delete](./commands/delete/) | Supprime les entités sélectionnées du dessin |
+| [Trim](./commands/trim/) | Raccorde un segment de ligne à ses intersections |
+| [Extend](./commands/extend/) | Prolonge une ligne jusqu'à l'intersection limite la plus proche |
+| [Offset](./commands/offset/) | Crée une copie parallèle d'une entité à une distance donnée |
+| [Fillet](./commands/fillet/) | Arrondit un angle entre deux lignes avec un arc tangent |
+| [Chamfer](./commands/chamfer/) | Coupe un angle diagonal droit entre deux lignes ou polylignes |
+| [Undo](./commands/undo/) | Annule la dernière action |
+| [Redo](./commands/redo/) | Rétablit la dernière action annulée |
 
 ## Annotation
 
 | Commande | Ce qu'elle fait |
 |----------|----------------|
-| [Leader](./commands/leader) | Trace une annotation multi-repère avec pointe de flèche et texte |
-| [Leader+](./commands/leader-add) | Ajoute un bras supplémentaire à un multi-repère existant |
-| [Leader−](./commands/leader-remove) | Supprime un bras d'un multi-repère existant |
-| [Dimension Linear](./commands/dim-linear) | Ajoute une cote horizontale ou verticale |
-| [Dimension Aligned](./commands/dim-aligned) | Ajoute une cote alignée sur deux points |
-| [Dimension Continue](./commands/dim-continue) | Enchaîne une nouvelle cote à partir de la dernière |
-| [Dimension Radius](./commands/dim-radius) | Ajoute une cote de rayon à un cercle ou un arc |
-| [Dimension Diameter](./commands/dim-diameter) | Ajoute une cote de diamètre à un cercle |
-| [Dimension Angular](./commands/dim-angular) | Ajoute une cote angulaire à deux lignes, un arc ou un cercle |
+| [Leader](./commands/leader/) | Trace une annotation multi-repère avec pointe de flèche et texte |
+| [Leader+](./commands/leader-add/) | Ajoute un bras supplémentaire à un multi-repère existant |
+| [Leader−](./commands/leader-remove/) | Supprime un bras d'un multi-repère existant |
+| [Dimension Linear](./commands/dim-linear/) | Ajoute une cote horizontale ou verticale |
+| [Dimension Aligned](./commands/dim-aligned/) | Ajoute une cote alignée sur deux points |
+| [Dimension Continue](./commands/dim-continue/) | Enchaîne une nouvelle cote à partir de la dernière |
+| [Dimension Radius](./commands/dim-radius/) | Ajoute une cote de rayon à un cercle ou un arc |
+| [Dimension Diameter](./commands/dim-diameter/) | Ajoute une cote de diamètre à un cercle |
+| [Dimension Angular](./commands/dim-angular/) | Ajoute une cote angulaire à deux lignes, un arc ou un cercle |
 
 ## Calque
 
 | Commande | Ce qu'elle fait |
 |----------|----------------|
-| [LayerMakeCurrent](./commands/layer-make-current) | Définit le calque actif pour qu'il corresponde au calque de l'entité cliquée |
-| [LayerMatch](./commands/layer-match) | Réassigne les entités sélectionnées au calque d'une entité source |
-| [LayerIsolate](./commands/layer-isolate) | Gèle tous les calques sauf ceux des entités sélectionnées |
-| [LayerUnfreezeAll](./commands/layer-unfreeze-all) | Dégèle tous les calques en une seule étape |
+| [LayerMakeCurrent](./commands/layer-make-current/) | Définit le calque actif pour qu'il corresponde au calque de l'entité cliquée |
+| [LayerMatch](./commands/layer-match/) | Réassigne les entités sélectionnées au calque d'une entité source |
+| [LayerIsolate](./commands/layer-isolate/) | Gèle tous les calques sauf ceux des entités sélectionnées |
+| [LayerUnfreezeAll](./commands/layer-unfreeze-all/) | Dégèle tous les calques en une seule étape |
 
 ## Mises en page
 
 | Commande | Ce qu'elle fait |
 |----------|----------------|
-| [ViewportRectangle](./commands/viewport-rectangle) | Crée une fenêtre de vue dans un layout papier en sélectionnant deux coins |
-| [ViewportCopy](./commands/viewport-copy) | Duplique une fenêtre de vue vers une nouvelle position |
-| [PageManager](./commands/page-manager) | Modifie le format papier et l'échelle du layout actif |
+| [ViewportRectangle](./commands/viewport-rectangle/) | Crée une fenêtre de vue dans un layout papier en sélectionnant deux coins |
+| [ViewportCopy](./commands/viewport-copy/) | Duplique une fenêtre de vue vers une nouvelle position |
+| [PageManager](./commands/page-manager/) | Modifie le format papier et l'échelle du layout actif |
 
 ## Navigation
 
 | Commande | Ce qu'elle fait |
 |----------|----------------|
-| [Pan](./commands/pan) | Cliquez et faites glisser pour déplacer la fenêtre de vue |
-| [Zoom In](./commands/zoom-in) | Effectue un zoom avant dans la fenêtre de vue |
-| [Zoom Out](./commands/zoom-out) | Effectue un zoom arrière dans la fenêtre de vue |
-| [Fit](./commands/fit) | Ajuste toutes les entités dans la fenêtre de vue |
+| [Pan](./commands/pan/) | Cliquez et faites glisser pour déplacer la fenêtre de vue |
+| [Zoom In](./commands/zoom-in/) | Effectue un zoom avant dans la fenêtre de vue |
+| [Zoom Out](./commands/zoom-out/) | Effectue un zoom arrière dans la fenêtre de vue |
+| [Fit](./commands/fit/) | Ajuste toutes les entités dans la fenêtre de vue |
 
 ## Mesure
 
 | Commande | Ce qu'elle fait |
 |----------|----------------|
-| [Distance](./commands/distance) | Mesure la distance entre deux points |
-| [Angle](./commands/angle) | Mesure l'angle entre trois points |
+| [Distance](./commands/distance/) | Mesure la distance entre deux points |
+| [Angle](./commands/angle/) | Mesure l'angle entre trois points |
 
 ## Style
 
 | Commande | Ce qu'elle fait |
 |----------|----------------|
-| [Match Properties](./commands/match-properties) | Copie la couleur, le calque et d'autres propriétés d'une entité vers d'autres |
+| [Match Properties](./commands/match-properties/) | Copie la couleur, le calque et d'autres propriétés d'une entité vers d'autres |
 
 ## Fichier
 
 | Commande | Ce qu'elle fait |
 |----------|----------------|
-| [Import](./commands/import) | Ouvre un fichier de dessin DXF ou JSON |
-| [New File](./commands/new-file) | Démarre un nouveau dessin vierge |
-| [Files](./commands/files) | Parcourir et restaurer les dessins récents |
-| [Print](./commands/print) | Exporte une zone de dessin en image ou PDF |
-| [Export](./commands/export) | Télécharge le dessin en DXF ou JSON |
-| [WipeStorage](./commands/wipestorage) | Efface tous les dessins du stockage du navigateur |
+| [Import](./commands/import/) | Ouvre un fichier de dessin DXF ou JSON |
+| [New File](./commands/new-file/) | Démarre un nouveau dessin vierge |
+| [Files](./commands/files/) | Parcourir et restaurer les dessins récents |
+| [Print](./commands/print/) | Exporte une zone de dessin en image ou PDF |
+| [Export](./commands/export/) | Télécharge le dessin en DXF ou JSON |
+| [WipeStorage](./commands/wipestorage/) | Efface tous les dessins du stockage du navigateur |
 
 ## Récupération
 
@@ -112,7 +112,7 @@ Si l'application plante à chaque démarrage (par exemple après avoir travaill�
 https://kulmanlab.com/?resetKulmanLocalStorage
 ```
 
-Cela supprime tout de la base de données locale du navigateur et démarre un nouveau dessin vierge. Le paramètre `?reset` se supprime automatiquement de l'URL. Utilisez ceci en dernier recours lorsque [WipeStorage](./commands/wipestorage) est inaccessible parce que l'application ne se charge pas du tout.
+Cela supprime tout de la base de données locale du navigateur et démarre un nouveau dessin vierge. Le paramètre `?reset` se supprime automatiquement de l'URL. Utilisez ceci en dernier recours lorsque [WipeStorage](./commands/wipestorage/) est inaccessible parce que l'application ne se charge pas du tout.
 
 ## Comment fonctionnent les commandes
 

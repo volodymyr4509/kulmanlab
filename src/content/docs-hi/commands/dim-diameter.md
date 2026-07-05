@@ -57,7 +57,7 @@ keywords: [CAD व्यास माप, dimdiameter, वृत्त व्य
 | `Enter` | वैल्यू सहेजता है और एडिटर बंद करता है |
 | बहु-पंक्ति | समर्थित नहीं |
 
-पूर्ण संदर्भ के लिए [Text Editor — simple mode](../interface/text-editor#simple-mode) देखें।
+पूर्ण संदर्भ के लिए [Text Editor — simple mode](../../interface/text-editor/#simple-mode) देखें।
 
 ## DXF — DIMENSION व्यास ऑब्जेक्ट
 

@@ -22,7 +22,7 @@ Der **Linientyp**-Chip in der Werkzeugleiste steuert das Strichmuster, das jeder
 
 Der ausgewählte Linientyp wird auf jede nach der Änderung erstellte Entität angewendet. Er wirkt sich nicht rückwirkend auf vorhandene Entitäten aus.
 
-Um den Linientyp vorhandener Entitäten zu ändern, wählen Sie diese aus und bearbeiten Sie das **Linientyp**-Feld im Eigenschaftenpanel, oder verwenden Sie [MatchProperties](../commands/match-properties), um ihn von einer anderen Entität zu kopieren.
+Um den Linientyp vorhandener Entitäten zu ändern, wählen Sie diese aus und bearbeiten Sie das **Linientyp**-Feld im Eigenschaftenpanel, oder verwenden Sie [MatchProperties](../../commands/match-properties/), um ihn von einer anderen Entität zu kopieren.
 
 ## Linientyp-Skalierung
 

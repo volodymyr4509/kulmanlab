@@ -60,7 +60,7 @@ Markup पैनल में **Dimension Angular** टूलबार बटन
 | `Enter` | वैल्यू सहेजता है और एडिटर बंद करता है |
 | बहु-पंक्ति | समर्थित नहीं |
 
-पूर्ण संदर्भ के लिए [Text Editor — simple mode](../interface/text-editor#simple-mode) देखें।
+पूर्ण संदर्भ के लिए [Text Editor — simple mode](../../interface/text-editor/#simple-mode) देखें।
 
 ## संबंधित कमांड
 

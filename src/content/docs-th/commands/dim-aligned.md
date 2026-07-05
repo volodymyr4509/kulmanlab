@@ -76,7 +76,7 @@ p1
 | `Enter` | ยืนยันค่าและปิดโปรแกรมแก้ไข |
 | หลายบรรทัด | ไม่รองรับ |
 
-ดู [Text Editor — simple mode](../interface/text-editor#simple-mode) สำหรับข้อมูลอ้างอิงทั้งหมด
+ดู [Text Editor — simple mode](../../interface/text-editor/#simple-mode) สำหรับข้อมูลอ้างอิงทั้งหมด
 
 ## การต่อเชื่อมมิติ
 

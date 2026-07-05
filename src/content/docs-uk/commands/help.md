@@ -50,5 +50,5 @@ keywords: [CAD команда help, документація KulmanLab, клав
 | Ресурс | Де знайти |
 |--------|-----------|
 | Довідник команд | `kulmanlab.com/uk/docs` |
-| Зміни версій | [Changelog](https://kulmanlab.com/uk/changelog) |
-| Поширені запитання | [FAQ](https://kulmanlab.com/uk/faq) |
+| Зміни версій | [Changelog](https://kulmanlab.com/uk/changelog/) |
+| Поширені запитання | [FAQ](https://kulmanlab.com/uk/faq/) |

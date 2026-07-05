@@ -84,7 +84,7 @@ Huwezi kubadilisha mwelekeo katikati ya mnyororo. Anza [Dimension Linear](../dim
 | `Enter` | Inathibitisha thamani na kufunga kihariri |
 | Mistari mingi | Haisaidiwi |
 
-Angalia [Text Editor — hali rahisi](../interface/text-editor#simple-mode) kwa marejeo kamili.
+Angalia [Text Editor — hali rahisi](../../interface/text-editor/#simple-mode) kwa marejeo kamili.
 
 ## DXF — vipengele vya DIMENSION
 

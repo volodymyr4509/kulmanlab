@@ -85,7 +85,7 @@ keywords: [CAD 水平垂直寸法, 水平寸法 CAD, 垂直寸法 CAD, dimlinear
 | `Enter` | 値を確定してエディターを閉じる |
 | 複数行 | サポートされていません |
 
-詳細は [テキストエディター — シンプルモード](../interface/text-editor#simple-mode) を参照してください。
+詳細は [テキストエディター — シンプルモード](../../interface/text-editor/#simple-mode) を参照してください。
 
 ## 寸法の連続
 

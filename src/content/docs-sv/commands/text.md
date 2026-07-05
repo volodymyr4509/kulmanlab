@@ -9,7 +9,7 @@ keywords: [CAD textkommando, MTEXT, placera textetikett CAD, textanteckning CAD,
 
 `text`-kommandot placerar en flerradig textetikett. Efter att du har klickat på en position på ritytan öppnas en popup-redigerare i **rich**-läge — du kan skriva innehåll, tillämpa fetstil/kursiv/genomstruken per tecken, ändra typsnitt och höjder samt infoga radbrytningar. Tryck på **Escape** för att bekräfta och stänga redigeraren.
 
-Se sidan [Texteditor](../interface/text-editor) för den fullständiga editorreferensen, inklusive en jämförelse av **rich**- och **simple**-lägena.
+Se sidan [Texteditor](../../interface/text-editor/) för den fullständiga editorreferensen, inklusive en jämförelse av **rich**- och **simple**-lägena.
 
 ## Placera en textetikett
 
@@ -44,7 +44,7 @@ Istället för att klicka kan du skriva en exakt position:
 | `Backspace` | Ta bort senast skrivna tecken |
 | `Enter` | Bekräfta inmatad koordinat |
 
-**Textredigerarfasen** (se [Texteditor](../interface/text-editor) för den fullständiga referensen)
+**Textredigerarfasen** (se [Texteditor](../../interface/text-editor/) för den fullständiga referensen)
 
 | Tangent | Åtgärd |
 |-----|--------|

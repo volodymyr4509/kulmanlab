@@ -23,7 +23,7 @@ Standard-DXF-Linienstärkewerte sind verfügbar: 0,00, 0,05, 0,09, 0,13, 0,15, 0
 
 Die ausgewählte Linienstärke wird auf jede nach der Änderung erstellte Entität angewendet. Sie wirkt sich nicht rückwirkend auf vorhandene Entitäten aus.
 
-Um die Linienstärke vorhandener Entitäten zu ändern, wählen Sie diese aus und bearbeiten Sie das **Linienstärke**-Feld im Eigenschaftenpanel, oder verwenden Sie [MatchProperties](../commands/match-properties), um sie von einer anderen Entität zu kopieren.
+Um die Linienstärke vorhandener Entitäten zu ändern, wählen Sie diese aus und bearbeiten Sie das **Linienstärke**-Feld im Eigenschaftenpanel, oder verwenden Sie [MatchProperties](../../commands/match-properties/), um sie von einer anderen Entität zu kopieren.
 
 ## Darstellung
 

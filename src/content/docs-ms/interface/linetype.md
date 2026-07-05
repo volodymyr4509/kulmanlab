@@ -22,7 +22,7 @@ Cip **linetype** dalam bar alat mengawal corak dash yang ditetapkan pada setiap 
 
 Linetype yang dipilih digunakan pada setiap entiti yang dicipta selepas perubahan. Ia tidak menjejaskan entiti sedia ada secara retroaktif.
 
-Untuk menukar linetype entiti sedia ada, pilihnya dan edit medan **Linetype** dalam panel sifat, atau gunakan [MatchProperties](../commands/match-properties) untuk menyalinnya dari entiti lain.
+Untuk menukar linetype entiti sedia ada, pilihnya dan edit medan **Linetype** dalam panel sifat, atau gunakan [MatchProperties](../../commands/match-properties/) untuk menyalinnya dari entiti lain.
 
 ## Skala linetype
 

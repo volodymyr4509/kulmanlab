@@ -23,7 +23,7 @@ Standardvärden för DXF-linjevikt är tillgängliga: 0,00, 0,05, 0,09, 0,13, 0,
 
 Den valda linjevikten tillämpas på varje entitet som skapas efter ändringen. Den påverkar inte retroaktivt befintliga entiteter.
 
-För att ändra linjevikten för befintliga entiteter, markera dem och redigera fältet **Lineweight** i egenskapspanelen, eller använd [MatchProperties](../commands/match-properties) för att kopiera den från en annan entitet.
+För att ändra linjevikten för befintliga entiteter, markera dem och redigera fältet **Lineweight** i egenskapspanelen, eller använd [MatchProperties](../../commands/match-properties/) för att kopiera den från en annan entitet.
 
 ## Rendering
 

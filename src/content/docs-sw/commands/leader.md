@@ -102,7 +102,7 @@ Hakuna marekebisho ya mkono yanayohitajika — sogeza mshale upande unaotaka leb
 
 **Bonyeza mara mbili** multileader iliyowekwa kufungua tena kihariri cha maandishi katika hali **tajiri**. Katika hali tajiri unaweza kutumia herufi nzito, italiki, na ubatilishaji wa fonti au urefu kwa kila herufi, na kuingiza mapumziko ya mstari kwa `Enter`. Bonyeza **Escape** kuthibitisha na kufunga.
 
-Angalia [Text Editor — hali tajiri](../interface/text-editor#rich-mode) kwa marejeo kamili.
+Angalia [Text Editor — hali tajiri](../../interface/text-editor/#rich-mode) kwa marejeo kamili.
 
 ## Kuongeza na kuondoa mikono
 

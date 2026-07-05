@@ -85,7 +85,7 @@ The cursor side (above/below for horizontal, left/right for vertical) determines
 | `Enter` | Commits the value and closes the editor |
 | Multi-line | Not supported |
 
-See [Text Editor — simple mode](../interface/text-editor#simple-mode) for the full reference.
+See [Text Editor — simple mode](../../interface/text-editor/#simple-mode) for the full reference.
 
 ## Chaining dimensions
 

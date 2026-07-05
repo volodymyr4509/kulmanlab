@@ -12,97 +12,97 @@ keywords: [KulmanLab, KulmanLab CAD, CAD 명령어, 무료 브라우저 CAD, DXF
 
 | 명령어 | 기능 |
 |--------|------|
-| [선](./commands/line) | 두 점 사이에 직선 그리기 |
-| [폴리선](./commands/polyline) | 여러 선분으로 이루어진 열린 경로 그리기 |
-| [직사각형](./commands/rectangle) | 축 정렬 직사각형 그리기 |
-| [원](./commands/circle) | 중심점과 반지름으로 원 그리기 |
-| [호](./commands/arc) | 세 점을 통과하는 호 그리기 |
-| [타원](./commands/ellipse) | 중심점과 두 축으로 타원 그리기 |
-| [텍스트](./commands/text) | 캔버스에 텍스트 레이블 배치 |
-| [스플라인 CV](./commands/spline-cv) | 제어 꼭짓점을 배치하여 스플라인 그리기 |
-| [스플라인 피트](./commands/spline-fit) | 클릭한 점을 통과하는 스플라인 그리기 |
+| [선](./commands/line/) | 두 점 사이에 직선 그리기 |
+| [폴리선](./commands/polyline/) | 여러 선분으로 이루어진 열린 경로 그리기 |
+| [직사각형](./commands/rectangle/) | 축 정렬 직사각형 그리기 |
+| [원](./commands/circle/) | 중심점과 반지름으로 원 그리기 |
+| [호](./commands/arc/) | 세 점을 통과하는 호 그리기 |
+| [타원](./commands/ellipse/) | 중심점과 두 축으로 타원 그리기 |
+| [텍스트](./commands/text/) | 캔버스에 텍스트 레이블 배치 |
+| [스플라인 CV](./commands/spline-cv/) | 제어 꼭짓점을 배치하여 스플라인 그리기 |
+| [스플라인 피트](./commands/spline-fit/) | 클릭한 점을 통과하는 스플라인 그리기 |
 
 ## 편집
 
 | 명령어 | 기능 |
 |--------|------|
-| [이동](./commands/move) | 선택한 객체를 새 위치로 이동 |
-| [복사](./commands/copy) | 선택한 객체를 새 위치에 복사 |
-| [회전](./commands/rotate) | 선택한 객체를 기준점을 중심으로 회전 |
-| [대칭](./commands/mirror) | 선택한 객체를 선에 대해 대칭 복사 |
-| [축척](./commands/scale) | 선택한 객체를 기준점을 중심으로 축척 |
-| [삭제](./commands/delete) | 선택한 객체를 도면에서 제거 |
-| [자르기](./commands/trim) | 교차점에서 선 세그먼트 자르기 |
-| [연장](./commands/extend) | 선을 가장 가까운 경계 교차점까지 연장 |
-| [간격띄우기](./commands/offset) | 지정한 거리만큼 객체의 평행 복사본 생성 |
-| [모깎기](./commands/fillet) | 두 선 사이의 모서리를 접선 호로 라운딩 |
-| [모따기](./commands/chamfer) | 두 선 또는 폴리선 사이의 모서리를 직선으로 경사지게 자르기 |
-| [실행 취소](./commands/undo) | 마지막 작업 취소 |
-| [다시 실행](./commands/redo) | 마지막으로 취소한 작업 다시 실행 |
+| [이동](./commands/move/) | 선택한 객체를 새 위치로 이동 |
+| [복사](./commands/copy/) | 선택한 객체를 새 위치에 복사 |
+| [회전](./commands/rotate/) | 선택한 객체를 기준점을 중심으로 회전 |
+| [대칭](./commands/mirror/) | 선택한 객체를 선에 대해 대칭 복사 |
+| [축척](./commands/scale/) | 선택한 객체를 기준점을 중심으로 축척 |
+| [삭제](./commands/delete/) | 선택한 객체를 도면에서 제거 |
+| [자르기](./commands/trim/) | 교차점에서 선 세그먼트 자르기 |
+| [연장](./commands/extend/) | 선을 가장 가까운 경계 교차점까지 연장 |
+| [간격띄우기](./commands/offset/) | 지정한 거리만큼 객체의 평행 복사본 생성 |
+| [모깎기](./commands/fillet/) | 두 선 사이의 모서리를 접선 호로 라운딩 |
+| [모따기](./commands/chamfer/) | 두 선 또는 폴리선 사이의 모서리를 직선으로 경사지게 자르기 |
+| [실행 취소](./commands/undo/) | 마지막 작업 취소 |
+| [다시 실행](./commands/redo/) | 마지막으로 취소한 작업 다시 실행 |
 
 ## 마크업
 
 | 명령어 | 기능 |
 |--------|------|
-| [지시선](./commands/leader) | 화살표와 텍스트가 있는 다중 지시선 주석 그리기 |
-| [지시선+](./commands/leader-add) | 기존 다중 지시선에 화살표 팔 추가 |
-| [지시선−](./commands/leader-remove) | 기존 다중 지시선에서 팔 제거 |
-| [선형 치수](./commands/dim-linear) | 수평 또는 수직 치수 추가 |
-| [정렬 치수](./commands/dim-aligned) | 두 점에 정렬된 치수 추가 |
-| [연속 치수](./commands/dim-continue) | 마지막 치수에서 새 치수를 연속으로 추가 |
-| [반지름 치수](./commands/dim-radius) | 원 또는 호에 반지름 치수 추가 |
-| [지름 치수](./commands/dim-diameter) | 원에 지름 치수 추가 |
-| [각도 치수](./commands/dim-angular) | 두 선, 호 또는 원에 각도 치수 추가 |
+| [지시선](./commands/leader/) | 화살표와 텍스트가 있는 다중 지시선 주석 그리기 |
+| [지시선+](./commands/leader-add/) | 기존 다중 지시선에 화살표 팔 추가 |
+| [지시선−](./commands/leader-remove/) | 기존 다중 지시선에서 팔 제거 |
+| [선형 치수](./commands/dim-linear/) | 수평 또는 수직 치수 추가 |
+| [정렬 치수](./commands/dim-aligned/) | 두 점에 정렬된 치수 추가 |
+| [연속 치수](./commands/dim-continue/) | 마지막 치수에서 새 치수를 연속으로 추가 |
+| [반지름 치수](./commands/dim-radius/) | 원 또는 호에 반지름 치수 추가 |
+| [지름 치수](./commands/dim-diameter/) | 원에 지름 치수 추가 |
+| [각도 치수](./commands/dim-angular/) | 두 선, 호 또는 원에 각도 치수 추가 |
 
 ## 레이어
 
 | 명령어 | 기능 |
 |--------|------|
-| [LayerMakeCurrent](./commands/layer-make-current) | 클릭한 객체의 레이어를 현재 레이어로 설정 |
-| [LayerMatch](./commands/layer-match) | 선택한 객체의 레이어를 원본 객체의 레이어에 맞게 재지정 |
-| [LayerIsolate](./commands/layer-isolate) | 선택한 객체의 레이어를 제외한 모든 레이어 동결 |
-| [LayerUnfreezeAll](./commands/layer-unfreeze-all) | 한 번에 모든 레이어 동결 해제 |
+| [LayerMakeCurrent](./commands/layer-make-current/) | 클릭한 객체의 레이어를 현재 레이어로 설정 |
+| [LayerMatch](./commands/layer-match/) | 선택한 객체의 레이어를 원본 객체의 레이어에 맞게 재지정 |
+| [LayerIsolate](./commands/layer-isolate/) | 선택한 객체의 레이어를 제외한 모든 레이어 동결 |
+| [LayerUnfreezeAll](./commands/layer-unfreeze-all/) | 한 번에 모든 레이어 동결 해제 |
 
 ## 레이아웃
 
 | 명령어 | 기능 |
 |--------|------|
-| [ViewportRectangle](./commands/viewport-rectangle) | 두 모서리를 선택하여 용지 레이아웃에 뷰포트 생성 |
-| [ViewportCopy](./commands/viewport-copy) | 뷰포트를 새 위치에 복제 |
-| [PageManager](./commands/page-manager) | 활성 레이아웃의 용지 크기와 축척 편집 |
+| [ViewportRectangle](./commands/viewport-rectangle/) | 두 모서리를 선택하여 용지 레이아웃에 뷰포트 생성 |
+| [ViewportCopy](./commands/viewport-copy/) | 뷰포트를 새 위치에 복제 |
+| [PageManager](./commands/page-manager/) | 활성 레이아웃의 용지 크기와 축척 편집 |
 
 ## 탐색
 
 | 명령어 | 기능 |
 |--------|------|
-| [초점 이동](./commands/pan) | 클릭하고 드래그하여 뷰포트 이동 |
-| [확대](./commands/zoom-in) | 뷰포트 확대 |
-| [축소](./commands/zoom-out) | 뷰포트 축소 |
-| [전체 보기](./commands/fit) | 모든 객체가 뷰포트에 맞게 조정 |
+| [초점 이동](./commands/pan/) | 클릭하고 드래그하여 뷰포트 이동 |
+| [확대](./commands/zoom-in/) | 뷰포트 확대 |
+| [축소](./commands/zoom-out/) | 뷰포트 축소 |
+| [전체 보기](./commands/fit/) | 모든 객체가 뷰포트에 맞게 조정 |
 
 ## 측정
 
 | 명령어 | 기능 |
 |--------|------|
-| [거리](./commands/distance) | 두 점 사이의 거리 측정 |
-| [각도](./commands/angle) | 세 점 사이의 각도 측정 |
+| [거리](./commands/distance/) | 두 점 사이의 거리 측정 |
+| [각도](./commands/angle/) | 세 점 사이의 각도 측정 |
 
 ## 스타일
 
 | 명령어 | 기능 |
 |--------|------|
-| [특성 일치](./commands/match-properties) | 한 객체에서 다른 객체로 색상, 레이어 및 기타 특성 복사 |
+| [특성 일치](./commands/match-properties/) | 한 객체에서 다른 객체로 색상, 레이어 및 기타 특성 복사 |
 
 ## 파일
 
 | 명령어 | 기능 |
 |--------|------|
-| [가져오기](./commands/import) | DXF 또는 JSON 도면 파일 열기 |
-| [새 파일](./commands/new-file) | 새 빈 도면 시작 |
-| [파일](./commands/files) | 최근 도면 찾아보기 및 복원 |
-| [인쇄](./commands/print) | 도면 영역을 이미지 또는 PDF로 내보내기 |
-| [내보내기](./commands/export) | 도면을 DXF 또는 JSON으로 다운로드 |
-| [WipeStorage](./commands/wipestorage) | 브라우저 저장소에서 모든 도면 지우기 |
+| [가져오기](./commands/import/) | DXF 또는 JSON 도면 파일 열기 |
+| [새 파일](./commands/new-file/) | 새 빈 도면 시작 |
+| [파일](./commands/files/) | 최근 도면 찾아보기 및 복원 |
+| [인쇄](./commands/print/) | 도면 영역을 이미지 또는 PDF로 내보내기 |
+| [내보내기](./commands/export/) | 도면을 DXF 또는 JSON으로 다운로드 |
+| [WipeStorage](./commands/wipestorage/) | 브라우저 저장소에서 모든 도면 지우기 |
 
 ## 복구
 
@@ -112,7 +112,7 @@ keywords: [KulmanLab, KulmanLab CAD, CAD 명령어, 무료 브라우저 CAD, DXF
 https://kulmanlab.com/?resetKulmanLocalStorage
 ```
 
-이 명령은 브라우저의 로컬 데이터베이스에서 모든 것을 삭제하고 새 빈 도면으로 시작합니다. `?reset` 매개변수는 URL에서 자동으로 제거됩니다. 앱이 전혀 로드되지 않아 [WipeStorage](./commands/wipestorage)에 접근할 수 없을 때 최후의 수단으로 사용하세요.
+이 명령은 브라우저의 로컬 데이터베이스에서 모든 것을 삭제하고 새 빈 도면으로 시작합니다. `?reset` 매개변수는 URL에서 자동으로 제거됩니다. 앱이 전혀 로드되지 않아 [WipeStorage](./commands/wipestorage/)에 접근할 수 없을 때 최후의 수단으로 사용하세요.
 
 ## 명령어 작동 방식
 

@@ -60,7 +60,7 @@ Las líneas paralelas no pueden formar una cota angular; el comando ignora el se
 | `Enter` | Confirma el valor y cierra el editor |
 | Multilínea | No compatible |
 
-Consulta [Editor de Texto — simple mode](../interface/text-editor#simple-mode) para la referencia completa.
+Consulta [Editor de Texto — simple mode](../../interface/text-editor/#simple-mode) para la referencia completa.
 
 ## Comandos relacionados
 

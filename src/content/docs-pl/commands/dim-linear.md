@@ -85,7 +85,7 @@ Strona kursora (powyżej/poniżej dla poziomej, lewo/prawo dla pionowej) określ
 | `Enter` | Zatwierdza wartość i zamyka edytor |
 | Wieloliniowość | Nieobsługiwana |
 
-Zobacz [Edytor tekstu — tryb simple](../interface/text-editor#simple-mode) w celu uzyskania pełnej dokumentacji.
+Zobacz [Edytor tekstu — tryb simple](../../interface/text-editor/#simple-mode) w celu uzyskania pełnej dokumentacji.
 
 ## Łączenie wymiarów
 

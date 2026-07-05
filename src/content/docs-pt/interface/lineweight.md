@@ -23,7 +23,7 @@ Os valores DXF padrão estão disponíveis: 0,00, 0,05, 0,09, 0,13, 0,15, 0,18, 
 
 A espessura de linha selecionada é aplicada a cada entidade criada após a alteração. Não afeta retroativamente as entidades existentes.
 
-Para alterar a espessura de linha de entidades existentes, selecione-as e edite o campo **Espessura de linha** no painel de propriedades, ou use [MatchProperties](../commands/match-properties) para copiá-lo de outra entidade.
+Para alterar a espessura de linha de entidades existentes, selecione-as e edite o campo **Espessura de linha** no painel de propriedades, ou use [MatchProperties](../../commands/match-properties/) para copiá-lo de outra entidade.
 
 ## Renderização
 

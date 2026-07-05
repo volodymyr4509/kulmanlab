@@ -57,7 +57,7 @@ Ni vipengele vya **Arc** na **Circle** pekee ndivyo vinavyoweza kuchaguliwa.
 | `Enter` | Inathibitisha thamani na kufunga kihariri |
 | Mistari mingi | Haisaidiwi |
 
-Angalia [Text Editor — hali rahisi](../interface/text-editor#simple-mode) kwa marejeo kamili.
+Angalia [Text Editor — hali rahisi](../../interface/text-editor/#simple-mode) kwa marejeo kamili.
 
 ## DXF — kipengele cha DIMENSION cha aina ya kipenyo
 

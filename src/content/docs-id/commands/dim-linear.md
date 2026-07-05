@@ -85,7 +85,7 @@ Sisi kursor (atas/bawah untuk horizontal, kiri/kanan untuk vertikal) menentukan 
 | `Enter` | Mengonfirmasi nilai dan menutup editor |
 | Multi-baris | Tidak didukung |
 
-Lihat [Text Editor — mode sederhana](../interface/text-editor#simple-mode) untuk referensi lengkap.
+Lihat [Text Editor — mode sederhana](../../interface/text-editor/#simple-mode) untuk referensi lengkap.
 
 ## Merantai dimensi
 

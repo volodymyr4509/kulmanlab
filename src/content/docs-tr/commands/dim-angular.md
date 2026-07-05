@@ -60,7 +60,7 @@ Yerleştirilen açısal ölçüye **çift tıklayarak** metin düzenleyiciyi **s
 | `Enter` | Değeri kaydeder ve düzenleyiciyi kapatır |
 | Çok satırlı | Desteklenmez |
 
-Tam referans için [Metin Düzenleyici — simple mode](../interface/text-editor#simple-mode) sayfasına bakın.
+Tam referans için [Metin Düzenleyici — simple mode](../../interface/text-editor/#simple-mode) sayfasına bakın.
 
 ## İlgili Komutlar
 

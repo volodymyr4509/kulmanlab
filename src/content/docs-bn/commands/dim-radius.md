@@ -59,7 +59,7 @@ keywords: [CAD ব্যাসার্ধ মাত্রা, dimradius, বৃ
 | `Enter` | মান কমিট করে এবং এডিটর বন্ধ করে |
 | বহু-লাইন | সমর্থিত নয় |
 
-সম্পূর্ণ রেফারেন্সের জন্য [Text Editor — simple mode](../interface/text-editor#simple-mode) দেখুন।
+সম্পূর্ণ রেফারেন্সের জন্য [Text Editor — simple mode](../../interface/text-editor/#simple-mode) দেখুন।
 
 ## DXF — DIMENSION ব্যাসার্ধ সত্তা
 

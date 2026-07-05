@@ -12,97 +12,97 @@ keywords: [KulmanLab, KulmanLab CAD, εντολές CAD, δωρεάν CAD browse
 
 | Εντολή | Τι κάνει |
 |--------|----------|
-| [Line](./commands/line) | Σχεδιάζει ευθεία γραμμή μεταξύ δύο σημείων |
-| [Polyline](./commands/polyline) | Σχεδιάζει πολυτμηματικό ανοιχτό μονοπάτι |
-| [Rectangle](./commands/rectangle) | Σχεδιάζει ορθογώνιο παράλληλο στους άξονες |
-| [Circle](./commands/circle) | Σχεδιάζει κύκλο με κέντρο και ακτίνα |
-| [Arc](./commands/arc) | Σχεδιάζει τόξο μέσα από τρία σημεία |
-| [Ellipse](./commands/ellipse) | Σχεδιάζει έλλειψη με κέντρο και δύο άξονες |
-| [Text](./commands/text) | Τοποθετεί ετικέτα κειμένου στον καμβά |
-| [Spline CV](./commands/spline-cv) | Σχεδιάζει spline τοποθετώντας κορυφές ελέγχου |
-| [Spline Fit](./commands/spline-fit) | Σχεδιάζει spline που διέρχεται από κλικαρισμένα σημεία |
+| [Line](./commands/line/) | Σχεδιάζει ευθεία γραμμή μεταξύ δύο σημείων |
+| [Polyline](./commands/polyline/) | Σχεδιάζει πολυτμηματικό ανοιχτό μονοπάτι |
+| [Rectangle](./commands/rectangle/) | Σχεδιάζει ορθογώνιο παράλληλο στους άξονες |
+| [Circle](./commands/circle/) | Σχεδιάζει κύκλο με κέντρο και ακτίνα |
+| [Arc](./commands/arc/) | Σχεδιάζει τόξο μέσα από τρία σημεία |
+| [Ellipse](./commands/ellipse/) | Σχεδιάζει έλλειψη με κέντρο και δύο άξονες |
+| [Text](./commands/text/) | Τοποθετεί ετικέτα κειμένου στον καμβά |
+| [Spline CV](./commands/spline-cv/) | Σχεδιάζει spline τοποθετώντας κορυφές ελέγχου |
+| [Spline Fit](./commands/spline-fit/) | Σχεδιάζει spline που διέρχεται από κλικαρισμένα σημεία |
 
 ## Επεξεργασία
 
 | Εντολή | Τι κάνει |
 |--------|----------|
-| [Move](./commands/move) | Μετακινεί επιλεγμένα αντικείμενα σε νέα θέση |
-| [Copy](./commands/copy) | Αντιγράφει επιλεγμένα αντικείμενα σε νέα θέση |
-| [Rotate](./commands/rotate) | Περιστρέφει επιλεγμένα αντικείμενα γύρω από βασικό σημείο |
-| [Mirror](./commands/mirror) | Αντικατοπτρίζει επιλεγμένα αντικείμενα ως προς γραμμή |
-| [Scale](./commands/scale) | Κλιμακώνει επιλεγμένα αντικείμενα γύρω από βασικό σημείο |
-| [Delete](./commands/delete) | Αφαιρεί επιλεγμένα αντικείμενα από το σχέδιο |
-| [Trim](./commands/trim) | Κόβει τμήμα γραμμής στις τομές της |
-| [Extend](./commands/extend) | Επεκτείνει γραμμή μέχρι την πλησιέστερη τομή ορίου |
-| [Offset](./commands/offset) | Δημιουργεί παράλληλο αντίγραφο αντικειμένου σε δοσμένη απόσταση |
-| [Fillet](./commands/fillet) | Στρογγυλοποιεί γωνία μεταξύ δύο γραμμών με εφαπτομενικό τόξο |
-| [Chamfer](./commands/chamfer) | Κόβει ευθεία διαγώνια γωνία μεταξύ δύο γραμμών ή polylines |
-| [Undo](./commands/undo) | Αναιρεί την τελευταία ενέργεια |
-| [Redo](./commands/redo) | Επαναλαμβάνει την τελευταία αναιρεμένη ενέργεια |
+| [Move](./commands/move/) | Μετακινεί επιλεγμένα αντικείμενα σε νέα θέση |
+| [Copy](./commands/copy/) | Αντιγράφει επιλεγμένα αντικείμενα σε νέα θέση |
+| [Rotate](./commands/rotate/) | Περιστρέφει επιλεγμένα αντικείμενα γύρω από βασικό σημείο |
+| [Mirror](./commands/mirror/) | Αντικατοπτρίζει επιλεγμένα αντικείμενα ως προς γραμμή |
+| [Scale](./commands/scale/) | Κλιμακώνει επιλεγμένα αντικείμενα γύρω από βασικό σημείο |
+| [Delete](./commands/delete/) | Αφαιρεί επιλεγμένα αντικείμενα από το σχέδιο |
+| [Trim](./commands/trim/) | Κόβει τμήμα γραμμής στις τομές της |
+| [Extend](./commands/extend/) | Επεκτείνει γραμμή μέχρι την πλησιέστερη τομή ορίου |
+| [Offset](./commands/offset/) | Δημιουργεί παράλληλο αντίγραφο αντικειμένου σε δοσμένη απόσταση |
+| [Fillet](./commands/fillet/) | Στρογγυλοποιεί γωνία μεταξύ δύο γραμμών με εφαπτομενικό τόξο |
+| [Chamfer](./commands/chamfer/) | Κόβει ευθεία διαγώνια γωνία μεταξύ δύο γραμμών ή polylines |
+| [Undo](./commands/undo/) | Αναιρεί την τελευταία ενέργεια |
+| [Redo](./commands/redo/) | Επαναλαμβάνει την τελευταία αναιρεμένη ενέργεια |
 
 ## Σήμανση
 
 | Εντολή | Τι κάνει |
 |--------|----------|
-| [Leader](./commands/leader) | Σχεδιάζει σύνθετη γραμμή οδήγησης με βέλος και κείμενο |
-| [Leader+](./commands/leader-add) | Προσθέτει επιπλέον βραχίονα σε υπάρχουσα γραμμή οδήγησης |
-| [Leader−](./commands/leader-remove) | Αφαιρεί βραχίονα από υπάρχουσα γραμμή οδήγησης |
-| [Dimension Linear](./commands/dim-linear) | Προσθέτει οριζόντια ή κατακόρυφη διάσταση |
-| [Dimension Aligned](./commands/dim-aligned) | Προσθέτει διάσταση ευθυγραμμισμένη με δύο σημεία |
-| [Dimension Continue](./commands/dim-continue) | Αλυσιδώνει νέα διάσταση από την τελευταία |
-| [Dimension Radius](./commands/dim-radius) | Προσθέτει διάσταση ακτίνας σε κύκλο ή τόξο |
-| [Dimension Diameter](./commands/dim-diameter) | Προσθέτει διάσταση διαμέτρου σε κύκλο |
-| [Dimension Angular](./commands/dim-angular) | Προσθέτει γωνιακή διάσταση σε δύο γραμμές, τόξο ή κύκλο |
+| [Leader](./commands/leader/) | Σχεδιάζει σύνθετη γραμμή οδήγησης με βέλος και κείμενο |
+| [Leader+](./commands/leader-add/) | Προσθέτει επιπλέον βραχίονα σε υπάρχουσα γραμμή οδήγησης |
+| [Leader−](./commands/leader-remove/) | Αφαιρεί βραχίονα από υπάρχουσα γραμμή οδήγησης |
+| [Dimension Linear](./commands/dim-linear/) | Προσθέτει οριζόντια ή κατακόρυφη διάσταση |
+| [Dimension Aligned](./commands/dim-aligned/) | Προσθέτει διάσταση ευθυγραμμισμένη με δύο σημεία |
+| [Dimension Continue](./commands/dim-continue/) | Αλυσιδώνει νέα διάσταση από την τελευταία |
+| [Dimension Radius](./commands/dim-radius/) | Προσθέτει διάσταση ακτίνας σε κύκλο ή τόξο |
+| [Dimension Diameter](./commands/dim-diameter/) | Προσθέτει διάσταση διαμέτρου σε κύκλο |
+| [Dimension Angular](./commands/dim-angular/) | Προσθέτει γωνιακή διάσταση σε δύο γραμμές, τόξο ή κύκλο |
 
 ## Επίπεδο
 
 | Εντολή | Τι κάνει |
 |--------|----------|
-| [LayerMakeCurrent](./commands/layer-make-current) | Ορίζει ως τρέχον επίπεδο το επίπεδο αντικειμένου που κλικαρίστηκε |
-| [LayerMatch](./commands/layer-match) | Αναθέτει εκ νέου επίπεδα σε επιλεγμένα αντικείμενα ώστε να ταιριάζουν με αρχικό αντικείμενο |
-| [LayerIsolate](./commands/layer-isolate) | Παγώνει όλα τα επίπεδα εκτός από αυτά των επιλεγμένων αντικειμένων |
-| [LayerUnfreezeAll](./commands/layer-unfreeze-all) | Ξεπαγώνει όλα τα επίπεδα με ένα βήμα |
+| [LayerMakeCurrent](./commands/layer-make-current/) | Ορίζει ως τρέχον επίπεδο το επίπεδο αντικειμένου που κλικαρίστηκε |
+| [LayerMatch](./commands/layer-match/) | Αναθέτει εκ νέου επίπεδα σε επιλεγμένα αντικείμενα ώστε να ταιριάζουν με αρχικό αντικείμενο |
+| [LayerIsolate](./commands/layer-isolate/) | Παγώνει όλα τα επίπεδα εκτός από αυτά των επιλεγμένων αντικειμένων |
+| [LayerUnfreezeAll](./commands/layer-unfreeze-all/) | Ξεπαγώνει όλα τα επίπεδα με ένα βήμα |
 
 ## Διατάξεις
 
 | Εντολή | Τι κάνει |
 |--------|----------|
-| [ViewportRectangle](./commands/viewport-rectangle) | Δημιουργεί viewport σε διάταξη χαρτιού επιλέγοντας δύο γωνίες |
-| [ViewportCopy](./commands/viewport-copy) | Αντιγράφει viewport σε νέα θέση |
-| [PageManager](./commands/page-manager) | Επεξεργάζεται μέγεθος χαρτιού και κλίμακα για την ενεργή διάταξη |
+| [ViewportRectangle](./commands/viewport-rectangle/) | Δημιουργεί viewport σε διάταξη χαρτιού επιλέγοντας δύο γωνίες |
+| [ViewportCopy](./commands/viewport-copy/) | Αντιγράφει viewport σε νέα θέση |
+| [PageManager](./commands/page-manager/) | Επεξεργάζεται μέγεθος χαρτιού και κλίμακα για την ενεργή διάταξη |
 
 ## Πλοήγηση
 
 | Εντολή | Τι κάνει |
 |--------|----------|
-| [Pan](./commands/pan) | Κλικ και σύρσιμο για μετακίνηση του viewport |
-| [Zoom In](./commands/zoom-in) | Μεγέθυνση του viewport |
-| [Zoom Out](./commands/zoom-out) | Σμίκρυνση του viewport |
-| [Fit](./commands/fit) | Προσαρμόζει όλα τα αντικείμενα στο viewport |
+| [Pan](./commands/pan/) | Κλικ και σύρσιμο για μετακίνηση του viewport |
+| [Zoom In](./commands/zoom-in/) | Μεγέθυνση του viewport |
+| [Zoom Out](./commands/zoom-out/) | Σμίκρυνση του viewport |
+| [Fit](./commands/fit/) | Προσαρμόζει όλα τα αντικείμενα στο viewport |
 
 ## Μέτρηση
 
 | Εντολή | Τι κάνει |
 |--------|----------|
-| [Distance](./commands/distance) | Μετράει την απόσταση μεταξύ δύο σημείων |
-| [Angle](./commands/angle) | Μετράει τη γωνία μεταξύ τριών σημείων |
+| [Distance](./commands/distance/) | Μετράει την απόσταση μεταξύ δύο σημείων |
+| [Angle](./commands/angle/) | Μετράει τη γωνία μεταξύ τριών σημείων |
 
 ## Στυλ
 
 | Εντολή | Τι κάνει |
 |--------|----------|
-| [Match Properties](./commands/match-properties) | Αντιγράφει χρώμα, επίπεδο και άλλες ιδιότητες από ένα αντικείμενο σε άλλα |
+| [Match Properties](./commands/match-properties/) | Αντιγράφει χρώμα, επίπεδο και άλλες ιδιότητες από ένα αντικείμενο σε άλλα |
 
 ## Αρχείο
 
 | Εντολή | Τι κάνει |
 |--------|----------|
-| [Import](./commands/import) | Ανοίγει αρχείο DXF ή JSON |
-| [New File](./commands/new-file) | Ξεκινά ένα νέο κενό σχέδιο |
-| [Files](./commands/files) | Περιηγείται και επαναφέρει πρόσφατα σχέδια |
-| [Print](./commands/print) | Εξάγει περιοχή σχεδίου ως εικόνα ή PDF |
-| [Export](./commands/export) | Κατεβάζει το σχέδιο ως DXF ή JSON |
-| [WipeStorage](./commands/wipestorage) | Διαγράφει όλα τα σχέδια από την αποθήκευση του browser |
+| [Import](./commands/import/) | Ανοίγει αρχείο DXF ή JSON |
+| [New File](./commands/new-file/) | Ξεκινά ένα νέο κενό σχέδιο |
+| [Files](./commands/files/) | Περιηγείται και επαναφέρει πρόσφατα σχέδια |
+| [Print](./commands/print/) | Εξάγει περιοχή σχεδίου ως εικόνα ή PDF |
+| [Export](./commands/export/) | Κατεβάζει το σχέδιο ως DXF ή JSON |
+| [WipeStorage](./commands/wipestorage/) | Διαγράφει όλα τα σχέδια από την αποθήκευση του browser |
 
 ## Ανάκτηση
 
@@ -112,7 +112,7 @@ keywords: [KulmanLab, KulmanLab CAD, εντολές CAD, δωρεάν CAD browse
 https://kulmanlab.com/?resetKulmanLocalStorage
 ```
 
-Αυτό διαγράφει τα πάντα από την τοπική βάση δεδομένων του browser και ξεκινά ένα νέο κενό σχέδιο. Η παράμετρος `?reset` αφαιρείται αυτόματα από τη URL. Χρησιμοποιήστε τη ως έσχατη λύση όταν το [WipeStorage](./commands/wipestorage) δεν είναι προσβάσιμο επειδή η εφαρμογή δεν φορτώνει καθόλου.
+Αυτό διαγράφει τα πάντα από την τοπική βάση δεδομένων του browser και ξεκινά ένα νέο κενό σχέδιο. Η παράμετρος `?reset` αφαιρείται αυτόματα από τη URL. Χρησιμοποιήστε τη ως έσχατη λύση όταν το [WipeStorage](./commands/wipestorage/) δεν είναι προσβάσιμο επειδή η εφαρμογή δεν φορτώνει καθόλου.
 
 ## Πώς λειτουργούν οι εντολές
 

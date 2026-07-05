@@ -22,7 +22,7 @@ Chip **typ linii** na pasku narzędzi kontroluje wzorzec przerywany przypisany d
 
 Wybrany typ linii jest stosowany do każdego elementu utworzonego po zmianie. Nie wpływa retroaktywnie na istniejące elementy.
 
-Aby zmienić typ linii istniejących elementów, zaznacz je i edytuj pole **Typ linii** w panelu właściwości, lub użyj [DopasujWłaściwości](../commands/match-properties), aby skopiować go z innego elementu.
+Aby zmienić typ linii istniejących elementów, zaznacz je i edytuj pole **Typ linii** w panelu właściwości, lub użyj [DopasujWłaściwości](../../commands/match-properties/), aby skopiować go z innego elementu.
 
 ## Skala typu linii
 

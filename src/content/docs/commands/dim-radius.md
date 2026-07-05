@@ -59,7 +59,7 @@ Only **Arc** and **Circle** entities can be selected. Clicking any other entity 
 | `Enter` | Commits the value and closes the editor |
 | Multi-line | Not supported |
 
-See [Text Editor — simple mode](../interface/text-editor#simple-mode) for the full reference.
+See [Text Editor — simple mode](../../interface/text-editor/#simple-mode) for the full reference.
 
 ## DXF — DIMENSION radius entity
 

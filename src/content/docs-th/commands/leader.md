@@ -102,7 +102,7 @@ keywords: [คำสั่ง leader CAD, คำอธิบาย multileader, 
 
 **ดับเบิลคลิก** multileader ที่วางแล้วเพื่อเปิดโปรแกรมแก้ไขข้อความอีกครั้งในโหมด **rich** ในโหมด rich คุณสามารถใช้ตัวหนา ตัวเอียง และการแทนที่ฟอนต์หรือขนาดต่อตัวอักษร และแทรกการขึ้นบรรทัดใหม่ด้วย `Enter` กด **Escape** เพื่อยืนยันและปิด
 
-ดู [Text Editor — rich mode](../interface/text-editor#rich-mode) สำหรับข้อมูลอ้างอิงทั้งหมด
+ดู [Text Editor — rich mode](../../interface/text-editor/#rich-mode) สำหรับข้อมูลอ้างอิงทั้งหมด
 
 ## การเพิ่มและลบแขน
 

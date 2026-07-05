@@ -23,7 +23,7 @@ Standard DXF lineweight values are available: 0.00, 0.05, 0.09, 0.13, 0.15, 0.18
 
 The selected lineweight is applied to every entity created after the change. It does not retroactively affect existing entities.
 
-To change the lineweight of existing entities, select them and edit the **Lineweight** field in the properties panel, or use [MatchProperties](../commands/match-properties) to copy it from another entity.
+To change the lineweight of existing entities, select them and edit the **Lineweight** field in the properties panel, or use [MatchProperties](../../commands/match-properties/) to copy it from another entity.
 
 ## Rendering
 

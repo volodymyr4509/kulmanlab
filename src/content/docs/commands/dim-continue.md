@@ -84,7 +84,7 @@ You cannot change the direction mid-chain. Start a new [Dimension Linear](../dim
 | `Enter` | Commits the value and closes the editor |
 | Multi-line | Not supported |
 
-See [Text Editor — simple mode](../interface/text-editor#simple-mode) for the full reference.
+See [Text Editor — simple mode](../../interface/text-editor/#simple-mode) for the full reference.
 
 ## DXF — DIMENSION entities
 

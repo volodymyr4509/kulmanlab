@@ -102,7 +102,7 @@ Ingen manuell justering behövs — flytta markören till den sida där du vill 
 
 **Dubbelklicka** på en placerad multileader för att öppna textredigeraren igen i **rikt** läge. I rikt läge kan du tillämpa fet stil, kursiv och teckenspecifika typsnitts- eller höjdöverskridningar, samt infoga radbrytningar med `Enter`. Tryck **Escape** för att bekräfta och stänga.
 
-Se [Textredigerare — rikt läge](../interface/text-editor#rich-mode) för fullständig referens.
+Se [Textredigerare — rikt läge](../../interface/text-editor/#rich-mode) för fullständig referens.
 
 ## Lägga till och ta bort armar
 

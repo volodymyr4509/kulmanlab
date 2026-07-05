@@ -102,7 +102,7 @@ Tiada pelarasan manual diperlukan — gerakkan kursor ke sisi di mana anda mahu 
 
 **Klik dua kali** pelbagai pemimpin yang diletakkan untuk membuka semula editor teks dalam mod **kaya**. Dalam mod kaya anda boleh menggunakan tebal, italik, dan pengatasan fon atau ketinggian setiap aksara, serta memasukkan pemecahan baris dengan `Enter`. Tekan **Escape** untuk komit dan tutup.
 
-Lihat [Text Editor — mod kaya](../interface/text-editor#rich-mode) untuk rujukan penuh.
+Lihat [Text Editor — mod kaya](../../interface/text-editor/#rich-mode) untuk rujukan penuh.
 
 ## Menambah dan membuang lengan
 

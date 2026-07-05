@@ -85,7 +85,7 @@ Upande wa kishale (juu/chini kwa usawa, kushoto/kulia kwa wima) huamua ishara �
 | `Enter` | Inathibitisha thamani na kufunga kihariri |
 | Mistari mingi | Haisaidiwi |
 
-Angalia [Text Editor — hali rahisi](../interface/text-editor#simple-mode) kwa marejeo kamili.
+Angalia [Text Editor — hali rahisi](../../interface/text-editor/#simple-mode) kwa marejeo kamili.
 
 ## Kuunganisha vipimo
 

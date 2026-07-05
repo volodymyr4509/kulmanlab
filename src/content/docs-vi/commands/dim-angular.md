@@ -58,7 +58,7 @@ Các đường song song không thể tạo kích thước góc.
 | `Enter` | Xác nhận giá trị và đóng trình soạn thảo |
 | Nhiều dòng | Không được hỗ trợ |
 
-Xem [Trình Soạn Thảo Văn Bản — chế độ đơn giản](../interface/text-editor#simple-mode) để tham khảo đầy đủ.
+Xem [Trình Soạn Thảo Văn Bản — chế độ đơn giản](../../interface/text-editor/#simple-mode) để tham khảo đầy đủ.
 
 ## Các lệnh liên quan
 

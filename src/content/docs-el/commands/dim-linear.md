@@ -85,7 +85,7 @@ keywords: [CAD dimension linear, οριζόντια διάσταση CAD, κατ
 | `Enter` | Επικυρώνει την τιμή και κλείνει τον επεξεργαστή |
 | Πολυγραμμικό | Δεν υποστηρίζεται |
 
-Δείτε [Text Editor — simple mode](../interface/text-editor#simple-mode) για την πλήρη αναφορά.
+Δείτε [Text Editor — simple mode](../../interface/text-editor/#simple-mode) για την πλήρη αναφορά.
 
 ## Αλυσίδα διαστάσεων
 

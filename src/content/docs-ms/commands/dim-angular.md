@@ -60,7 +60,7 @@ Garis selari tidak boleh membentuk dimensi sudut; arahan mengabaikan klik kedua 
 | `Enter` | Mengkomit nilai dan menutup editor |
 | Berbilang baris | Tidak disokong |
 
-Lihat [Text Editor — mod mudah](../interface/text-editor#simple-mode) untuk rujukan penuh.
+Lihat [Text Editor — mod mudah](../../interface/text-editor/#simple-mode) untuk rujukan penuh.
 
 ## Arahan berkaitan
 

@@ -102,7 +102,7 @@ keywords: [CAD εντολή leader, σχόλιο multileader, leader CAD, σχό
 
 **Διπλό κλικ** σε τοποθετημένο multileader για επαναφορά του επεξεργαστή κειμένου σε **rich** mode. Σε rich mode μπορείτε να εφαρμόσετε έντονη, πλάγια γραφή και παρακάμψεις γραμματοσειράς ή ύψους ανά χαρακτήρα, και να εισάγετε αλλαγές γραμμής με `Enter`. Πατήστε **Escape** για επικύρωση και κλείσιμο.
 
-Δείτε [Text Editor — rich mode](../interface/text-editor#rich-mode) για την πλήρη αναφορά.
+Δείτε [Text Editor — rich mode](../../interface/text-editor/#rich-mode) για την πλήρη αναφορά.
 
 ## Προσθήκη και αφαίρεση βραχιόνων
 

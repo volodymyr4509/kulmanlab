@@ -84,7 +84,7 @@ Vous ne pouvez pas changer la direction au milieu d'une chaîne. Démarrez une n
 | `Enter` | Valide la valeur et ferme l'éditeur |
 | Multiligne | Non pris en charge |
 
-Voir [Éditeur de texte — simple mode](../interface/text-editor#simple-mode) pour la référence complète.
+Voir [Éditeur de texte — simple mode](../../interface/text-editor/#simple-mode) pour la référence complète.
 
 ## DXF — entités DIMENSION
 

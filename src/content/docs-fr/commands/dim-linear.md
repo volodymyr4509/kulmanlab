@@ -85,7 +85,7 @@ Le côté du curseur (dessus/dessous pour horizontal, gauche/droite pour vertica
 | `Enter` | Valide la valeur et ferme l'éditeur |
 | Multiligne | Non pris en charge |
 
-Voir [Éditeur de texte — simple mode](../interface/text-editor#simple-mode) pour la référence complète.
+Voir [Éditeur de texte — simple mode](../../interface/text-editor/#simple-mode) pour la référence complète.
 
 ## Enchaîner les cotes
 

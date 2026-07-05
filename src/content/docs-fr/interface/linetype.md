@@ -22,7 +22,7 @@ Le chip **linetype** dans la barre d'outils contrôle le motif de tirets assign�
 
 Le type de ligne sélectionné s'applique à chaque entité créée après le changement. Il n'affecte pas rétroactivement les entités existantes.
 
-Pour changer le type de ligne des entités existantes, sélectionnez-les et modifiez le champ **Linetype** dans le panneau de propriétés, ou utilisez [MatchProperties](../commands/match-properties) pour le copier depuis une autre entité.
+Pour changer le type de ligne des entités existantes, sélectionnez-les et modifiez le champ **Linetype** dans le panneau de propriétés, ou utilisez [MatchProperties](../../commands/match-properties/) pour le copier depuis une autre entité.
 
 ## Échelle de type de ligne
 

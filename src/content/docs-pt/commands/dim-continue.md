@@ -84,7 +84,7 @@ Você não pode mudar a direção no meio da cadeia. Inicie uma nova [Dimension 
 | `Enter` | Confirma o valor e fecha o editor |
 | Multi-linha | Não suportado |
 
-Consulte [Editor de Texto — simple mode](../interface/text-editor#simple-mode) para a referência completa.
+Consulte [Editor de Texto — simple mode](../../interface/text-editor/#simple-mode) para a referência completa.
 
 ## DXF — entidades DIMENSION
 

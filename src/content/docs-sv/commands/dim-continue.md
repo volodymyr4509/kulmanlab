@@ -84,7 +84,7 @@ Du kan inte ändra riktning mitt i kedjan. Starta ett nytt [Dimension Linear](..
 | `Enter` | Bekräftar värdet och stänger redigeraren |
 | Flera rader | Stöds inte |
 
-Se [Textredigerare — enkelt läge](../interface/text-editor#simple-mode) för fullständig referens.
+Se [Textredigerare — enkelt läge](../../interface/text-editor/#simple-mode) för fullständig referens.
 
 ## DXF — DIMENSION-entiteter
 

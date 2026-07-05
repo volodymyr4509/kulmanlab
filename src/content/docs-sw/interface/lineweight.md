@@ -23,7 +23,7 @@ Thamani za kawaida za uzito wa mstari wa DXF zinapatikana: 0.00, 0.05, 0.09, 0.1
 
 Uzito wa mstari uliochaguliwa unatumika kwa kila kipande kilichoundwa baada ya mabadiliko. Haibadilishi vipande vilivyopo kwa njia ya kurudisha nyuma.
 
-Kubadilisha uzito wa mstari wa vipande vilivyopo, vichague na uhariri uga wa **Lineweight** kwenye paneli ya sifa, au tumia [MatchProperties](../commands/match-properties) kuinakili kutoka kwa kipande kingine.
+Kubadilisha uzito wa mstari wa vipande vilivyopo, vichague na uhariri uga wa **Lineweight** kwenye paneli ya sifa, au tumia [MatchProperties](../../commands/match-properties/) kuinakili kutoka kwa kipande kingine.
 
 ## Kutolewa
 

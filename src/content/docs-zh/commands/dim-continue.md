@@ -84,7 +84,7 @@ keywords: [CAD 连续标注, 连续标注命令, 链接标注 CAD, 基线标注,
 | `Enter` | 提交值并关闭编辑器 |
 | 多行 | 不支持 |
 
-请参阅[文字编辑器 — 简单模式](../interface/text-editor#simple-mode)获取完整参考。
+请参阅[文字编辑器 — 简单模式](../../interface/text-editor/#simple-mode)获取完整参考。
 
 ## DXF — DIMENSION 实体
 

@@ -60,7 +60,7 @@ keywords: [角度寸法 CAD, 角度寸法, 直線間角度計測, DimensionAngul
 | `Enter` | 値を確定してエディターを閉じる |
 | 複数行 | サポートされていません |
 
-詳細は [テキストエディター — シンプルモード](../interface/text-editor#simple-mode) を参照してください。
+詳細は [テキストエディター — シンプルモード](../../interface/text-editor/#simple-mode) を参照してください。
 
 ## 関連コマンド
 

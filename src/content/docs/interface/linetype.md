@@ -22,7 +22,7 @@ The **linetype** chip in the toolbar controls the dash pattern assigned to every
 
 The selected linetype is applied to every entity created after the change. It does not retroactively affect existing entities.
 
-To change the linetype of existing entities, select them and edit the **Linetype** field in the properties panel, or use [MatchProperties](../commands/match-properties) to copy it from another entity.
+To change the linetype of existing entities, select them and edit the **Linetype** field in the properties panel, or use [MatchProperties](../../commands/match-properties/) to copy it from another entity.
 
 ## Linetype scale
 

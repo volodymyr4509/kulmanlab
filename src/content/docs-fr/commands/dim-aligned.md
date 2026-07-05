@@ -76,7 +76,7 @@ Le côté du curseur détermine de quel côté apparaît la ligne de cote.
 | `Enter` | Valide la valeur et ferme l'éditeur |
 | Multiligne | Non pris en charge |
 
-Voir [Éditeur de texte — simple mode](../interface/text-editor#simple-mode) pour la référence complète.
+Voir [Éditeur de texte — simple mode](../../interface/text-editor/#simple-mode) pour la référence complète.
 
 ## Enchaîner les cotes
 

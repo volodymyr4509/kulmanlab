@@ -7,7 +7,7 @@ description: Lệnh Text đặt nhãn MTEXT nhiều dòng, có định dạng ph
 
 Lệnh `text` đặt nhãn văn bản nhiều dòng. Sau khi bạn nhấp vị trí trên canvas, trình soạn thảo popup mở ở chế độ **phong phú** — bạn có thể gõ nội dung, áp dụng in đậm/in nghiêng/gạch ngang theo từng ký tự, thay đổi phông chữ và chiều cao, và chèn ngắt dòng. Nhấn **Escape** để xác nhận và đóng trình soạn thảo.
 
-Xem trang [Trình Soạn Thảo Văn Bản](../interface/text-editor) để tham khảo đầy đủ trình soạn thảo, bao gồm so sánh chế độ **phong phú** và **đơn giản**.
+Xem trang [Trình Soạn Thảo Văn Bản](../../interface/text-editor/) để tham khảo đầy đủ trình soạn thảo, bao gồm so sánh chế độ **phong phú** và **đơn giản**.
 
 ## Đặt nhãn văn bản
 
@@ -33,7 +33,7 @@ Chiều cao mặc định là **12 đơn vị bản vẽ**.
 | `Backspace` | Xóa ký tự cuối |
 | `Enter` | Xác nhận tọa độ đã gõ |
 
-**Giai đoạn trình soạn thảo văn bản** (xem [Trình Soạn Thảo Văn Bản](../interface/text-editor) để tham khảo đầy đủ)
+**Giai đoạn trình soạn thảo văn bản** (xem [Trình Soạn Thảo Văn Bản](../../interface/text-editor/) để tham khảo đầy đủ)
 
 | Phím | Hành động |
 |------|-----------|

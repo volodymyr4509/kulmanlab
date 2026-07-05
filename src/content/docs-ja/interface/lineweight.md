@@ -23,7 +23,7 @@ keywords: [CAD 線幅, ストローク幅, 線の太さ, DXF 線幅, ByLayer 線
 
 選択した線幅は変更後に作成されるすべてのエンティティに適用されます。既存のエンティティには遡って適用されません。
 
-既存のエンティティの線幅を変更するには、選択してプロパティパネルの **Lineweight** フィールドを編集するか、[MatchProperties](../commands/match-properties) を使用して別のエンティティからコピーします。
+既存のエンティティの線幅を変更するには、選択してプロパティパネルの **Lineweight** フィールドを編集するか、[MatchProperties](../../commands/match-properties/) を使用して別のエンティティからコピーします。
 
 ## レンダリング
 

@@ -76,7 +76,7 @@ Die Mauszeiger-Seite bestimmt, auf welcher Seite die Bemaßungslinie erscheint.
 | `Enter` | Übernimmt den Wert und schließt den Editor |
 | Mehrzeilig | Nicht unterstützt |
 
-Siehe [Texteditor — simple mode](../interface/text-editor#simple-mode) für die vollständige Referenz.
+Siehe [Texteditor — simple mode](../../interface/text-editor/#simple-mode) für die vollständige Referenz.
 
 ## Bemaßungen verketten
 

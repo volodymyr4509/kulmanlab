@@ -22,7 +22,7 @@ Chipu ya **aina ya mstari** kwenye upau wa zana inadhibiti mfumo wa deshi uliowe
 
 Aina ya mstari iliyochaguliwa inatumika kwa kila kipande kilichoundwa baada ya mabadiliko. Haibadilishi vipande vilivyopo kwa njia ya kurudisha nyuma.
 
-Kubadilisha aina ya mstari ya vipande vilivyopo, vichague na uhariri uga wa **Aina ya mstari** kwenye paneli ya sifa, au tumia [MatchProperties](../commands/match-properties) kuinakili kutoka kwa kipande kingine.
+Kubadilisha aina ya mstari ya vipande vilivyopo, vichague na uhariri uga wa **Aina ya mstari** kwenye paneli ya sifa, au tumia [MatchProperties](../../commands/match-properties/) kuinakili kutoka kwa kipande kingine.
 
 ## Kiwango cha aina ya mstari
 

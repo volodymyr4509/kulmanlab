@@ -85,7 +85,7 @@ keywords: [CAD dimension linear, горизонтальний розмір CAD, 
 | `Enter` | Підтверджує значення та закриває редактор |
 | Багаторядковість | Не підтримується |
 
-Дивіться [Текстовий редактор — simple mode](../interface/text-editor#simple-mode) для повного довідника.
+Дивіться [Текстовий редактор — simple mode](../../interface/text-editor/#simple-mode) для повного довідника.
 
 ## Ланцюгові розміри
 
