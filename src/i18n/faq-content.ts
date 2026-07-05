@@ -1100,4 +1100,49 @@ export const faqContent: Record<string, FaqSection[]> = {
       ],
     },
   ],
+  tl: [
+    {
+      headingKey: 'faq.section.start',
+      items: [
+        { q: 'Talaga bang libre ang KulmanLab?', a: 'Oo — ganap na libre. Walang subscription, walang credit card, walang nakatagong plano. Available ang buong feature set sa lahat nang walang limitasyon.' },
+        { q: 'Kailangan ko bang gumawa ng account?', a: 'Hindi. Walang login, pagpaparehistro, o email na kinakailangan. Buksan ang app at magsimulang gumuhit agad.' },
+        { q: 'Anong mga browser ang suportado?', a: 'Anumang modernong desktop browser — gumagana ang Chrome, Firefox, Safari, at Edge. Para lamang sa desktop ang KulmanLab; hindi pa suportado ang mobile at tablet sa ngayon.' },
+        { q: 'Gumagana ba ito offline?', a: 'Oo. Pagkatapos ng unang pag-load, naka-cache ang app at tumatakbo nang ganap kahit walang internet connection. Naka-save nang lokal ang iyong mga drawing kaya walang kailangang server.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.files',
+      items: [
+        { q: 'Saan naka-save ang aking mga drawing?', a: 'Sa localStorage ng browser — sa mismong device mo. Walang kailanman na-upload sa server. May sarili at hiwalay na storage ang bawat browser sa bawat device.' },
+        { q: 'Ano ang mangyayari kung i-clear ko ang browser data?', a: 'Mawawala ang mga naka-save mong drawing. I-export mo lagi ang DXF copy ng mahahalagang bagay bago i-clear ang browser storage.' },
+        { q: 'Puwede ko bang buksan ang mga .dwg file?', a: 'Sinusuportahan ng KulmanLab ang DXF (Drawing Exchange Format), hindi ang proprietary na DWG format. Karamihan sa mga desktop CAD program ay puwedeng mag-export ng DXF, kaya i-export mo muna mula sa iyong source app.' },
+        { q: 'Anong mga export format ang available?', a: 'DXF para sa pagpapalitan sa ibang CAD tool, at PDF o PNG/WebP para sa handa-nang-i-print na output. Ang Print Manager ay nagbibigay-daan sa iyong itakda ang DPI at sukat ng papel bago mag-export.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.features',
+      items: [
+        { q: 'May command terminal ba ito?', a: 'Oo. Mag-type ng mga command nang direkta — LINE, CIRCLE, MOVE, TRIM, at 50+ pa. Sinusuportahan ng terminal ang history (arrow keys), autocomplete (Tab), at eksaktong numeric input.' },
+        { q: 'May layer support ba?', a: 'Ganap na pamamahala ng layer: gumawa, palitan ang pangalan, i-freeze, i-lock, at i-isolate ang mga layer. Itakda ang kulay, linetype, at lineweight para sa bawat layer. Napapanatili ang lahat ng layer data kapag nag-export ng DXF.' },
+        { q: 'Anong mga uri ng dimension ang available?', a: 'Linear, aligned, radius, diameter, angular, at continue dimensions. Lahat ay naka-save bilang standard na DXF DIMENSION entities na compatible sa ibang DXF-capable na CAD tool.' },
+        { q: 'Puwede ko bang i-edit ang geometry gamit ang mga grip?', a: 'Oo. Piliin ang anumang entity at lalabas ang mga grip sa mahahalagang punto — endpoint, midpoint, center, arc end. I-drag para i-reshape nang direkta sa canvas, o mag-type ng value habang nagda-drag para sa eksaktong placement.' },
+        { q: 'May suporta ba para sa real-time collaboration?', a: 'Wala pa sa ngayon. Ang KulmanLab ay isang single-user na tool at naka-save nang lokal ang mga drawing. Ang cloud sync at collaboration ay wala pang saklaw sa kasalukuyan.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.compat',
+      items: [
+        { q: 'Compatible ba ang mga DXF file ng KulmanLab sa ibang CAD software?', a: 'Oo. Nagbabasa at nagsusulat ang KulmanLab ng AC1032 DXF — isang malawak na suportadong bersyon. Bumubukas nang tama ang mga file sa LibreCAD, QCAD, BricsCAD, FreeCAD, at anumang ibang DXF-capable na tool.' },
+        { q: 'Ano ang pagkakaiba ng DXF at DWG?', a: 'Ang DXF ay isang open, text-based na exchange format na dinisenyo para sa interoperability. Ang DWG ay isang proprietary binary format. Gumagamit ang KulmanLab ng DXF, na puwedeng basahin ng halos lahat ng CAD tool.' },
+        { q: 'Puwede bang palitan ng KulmanLab ang aking desktop CAD software?', a: 'Para sa 2D drawing — oo. May kumpletong command terminal, layer, snapping, dimensions, grip editing, at DXF compatibility ang KulmanLab. Hindi nito sinusuportahan ang 3D, blocks/xrefs, o parametric constraints.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.privacy',
+      items: [
+        { q: 'Kinokolekta ba ng KulmanLab ang aking drawing data?', a: 'Hindi. Nananatili ang iyong mga drawing sa browser mo at hindi kailanman ipinapadala kahit saan. Gumagamit ang KulmanLab ng Google Analytics para sa anonymous na usage statistics (page views, session count) — walang nagagalaw na drawing content.' },
+        { q: 'May ginagamit bang cookies?', a: 'Ang mga cookies lamang na awtomatikong itinatakda ng Google Analytics. Wala nang iba pang tracking, walang advertising cookies, walang pagbabahagi ng data sa third party.' },
+      ],
+    },
+  ],
 };

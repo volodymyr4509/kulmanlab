@@ -6,9 +6,9 @@
 
 - App: https://app.kulmanlab.com
 - Landing page: https://kulmanlab.com
-- Docs: https://kulmanlab.com/docs
-- Changelog: https://kulmanlab.com/changelog
-- FAQ: https://kulmanlab.com/faq
+- Docs: https://kulmanlab.com/docs/
+- Changelog: https://kulmanlab.com/changelog/
+- FAQ: https://kulmanlab.com/faq/
 - GitHub: https://github.com/volodymyr4509/kulmanlab
 - Reddit: https://www.reddit.com/r/kulmanlab/
 - Full reference (llms-full.txt): https://kulmanlab.com/llms-full.txt
@@ -16,163 +16,170 @@
 ## German (Deutsch)
 
 - Landing page (DE): https://kulmanlab.com/de/
-- Docs (DE): https://kulmanlab.com/de/docs
-- Changelog (DE): https://kulmanlab.com/de/changelog
-- FAQ (DE): https://kulmanlab.com/de/faq
+- Docs (DE): https://kulmanlab.com/de/docs/
+- Changelog (DE): https://kulmanlab.com/de/changelog/
+- FAQ (DE): https://kulmanlab.com/de/faq/
 
 ## Spanish (Español)
 
 - Landing page (ES): https://kulmanlab.com/es/
-- Docs (ES): https://kulmanlab.com/es/docs
-- Changelog (ES): https://kulmanlab.com/es/changelog
-- FAQ (ES): https://kulmanlab.com/es/faq
+- Docs (ES): https://kulmanlab.com/es/docs/
+- Changelog (ES): https://kulmanlab.com/es/changelog/
+- FAQ (ES): https://kulmanlab.com/es/faq/
 
 ## French (Français)
 
 - Landing page (FR): https://kulmanlab.com/fr/
-- Docs (FR): https://kulmanlab.com/fr/docs
-- Changelog (FR): https://kulmanlab.com/fr/changelog
-- FAQ (FR): https://kulmanlab.com/fr/faq
+- Docs (FR): https://kulmanlab.com/fr/docs/
+- Changelog (FR): https://kulmanlab.com/fr/changelog/
+- FAQ (FR): https://kulmanlab.com/fr/faq/
 
 ## Italian (Italiano)
 
 - Landing page (IT): https://kulmanlab.com/it/
-- Docs (IT): https://kulmanlab.com/it/docs
-- Changelog (IT): https://kulmanlab.com/it/changelog
-- FAQ (IT): https://kulmanlab.com/it/faq
+- Docs (IT): https://kulmanlab.com/it/docs/
+- Changelog (IT): https://kulmanlab.com/it/changelog/
+- FAQ (IT): https://kulmanlab.com/it/faq/
 
 ## Portuguese (Português)
 
 - Landing page (PT): https://kulmanlab.com/pt/
-- Docs (PT): https://kulmanlab.com/pt/docs
-- Changelog (PT): https://kulmanlab.com/pt/changelog
-- FAQ (PT): https://kulmanlab.com/pt/faq
+- Docs (PT): https://kulmanlab.com/pt/docs/
+- Changelog (PT): https://kulmanlab.com/pt/changelog/
+- FAQ (PT): https://kulmanlab.com/pt/faq/
 
 ## Ukrainian (Українська)
 
 - Landing page (UK): https://kulmanlab.com/uk/
-- Docs (UK): https://kulmanlab.com/uk/docs
-- Changelog (UK): https://kulmanlab.com/uk/changelog
-- FAQ (UK): https://kulmanlab.com/uk/faq
+- Docs (UK): https://kulmanlab.com/uk/docs/
+- Changelog (UK): https://kulmanlab.com/uk/changelog/
+- FAQ (UK): https://kulmanlab.com/uk/faq/
 
 ## Turkish (Türkçe)
 
 - Landing page (TR): https://kulmanlab.com/tr/
-- Docs (TR): https://kulmanlab.com/tr/docs
-- Changelog (TR): https://kulmanlab.com/tr/changelog
-- FAQ (TR): https://kulmanlab.com/tr/faq
+- Docs (TR): https://kulmanlab.com/tr/docs/
+- Changelog (TR): https://kulmanlab.com/tr/changelog/
+- FAQ (TR): https://kulmanlab.com/tr/faq/
 
 ## Indonesian (Bahasa Indonesia)
 
 - Landing page (ID): https://kulmanlab.com/id/
-- Docs (ID): https://kulmanlab.com/id/docs
-- Changelog (ID): https://kulmanlab.com/id/changelog
-- FAQ (ID): https://kulmanlab.com/id/faq
+- Docs (ID): https://kulmanlab.com/id/docs/
+- Changelog (ID): https://kulmanlab.com/id/changelog/
+- FAQ (ID): https://kulmanlab.com/id/faq/
 
 ## Arabic (العربية)
 
 - Landing page (AR): https://kulmanlab.com/ar/
-- Docs (AR): https://kulmanlab.com/ar/docs
-- Changelog (AR): https://kulmanlab.com/ar/changelog
-- FAQ (AR): https://kulmanlab.com/ar/faq
+- Docs (AR): https://kulmanlab.com/ar/docs/
+- Changelog (AR): https://kulmanlab.com/ar/changelog/
+- FAQ (AR): https://kulmanlab.com/ar/faq/
 
 ## Hindi (हिन्दी)
 
 - Landing page (HI): https://kulmanlab.com/hi/
-- Docs (HI): https://kulmanlab.com/hi/docs
-- Changelog (HI): https://kulmanlab.com/hi/changelog
-- FAQ (HI): https://kulmanlab.com/hi/faq
+- Docs (HI): https://kulmanlab.com/hi/docs/
+- Changelog (HI): https://kulmanlab.com/hi/changelog/
+- FAQ (HI): https://kulmanlab.com/hi/faq/
 
 ## Japanese (日本語)
 
 - Landing page (JA): https://kulmanlab.com/ja/
-- Docs (JA): https://kulmanlab.com/ja/docs
-- Changelog (JA): https://kulmanlab.com/ja/changelog
-- FAQ (JA): https://kulmanlab.com/ja/faq
+- Docs (JA): https://kulmanlab.com/ja/docs/
+- Changelog (JA): https://kulmanlab.com/ja/changelog/
+- FAQ (JA): https://kulmanlab.com/ja/faq/
 
 ## Chinese Simplified (中文)
 
 - Landing page (ZH): https://kulmanlab.com/zh/
-- Docs (ZH): https://kulmanlab.com/zh/docs
-- Changelog (ZH): https://kulmanlab.com/zh/changelog
-- FAQ (ZH): https://kulmanlab.com/zh/faq
+- Docs (ZH): https://kulmanlab.com/zh/docs/
+- Changelog (ZH): https://kulmanlab.com/zh/changelog/
+- FAQ (ZH): https://kulmanlab.com/zh/faq/
 
 ## Polish (Polski)
 
 - Landing page (PL): https://kulmanlab.com/pl/
-- Docs (PL): https://kulmanlab.com/pl/docs
-- Changelog (PL): https://kulmanlab.com/pl/changelog
-- FAQ (PL): https://kulmanlab.com/pl/faq
+- Docs (PL): https://kulmanlab.com/pl/docs/
+- Changelog (PL): https://kulmanlab.com/pl/changelog/
+- FAQ (PL): https://kulmanlab.com/pl/faq/
 
 ## Korean (한국어)
 
 - Landing page (KO): https://kulmanlab.com/ko/
-- Docs (KO): https://kulmanlab.com/ko/docs
-- Changelog (KO): https://kulmanlab.com/ko/changelog
-- FAQ (KO): https://kulmanlab.com/ko/faq
+- Docs (KO): https://kulmanlab.com/ko/docs/
+- Changelog (KO): https://kulmanlab.com/ko/changelog/
+- FAQ (KO): https://kulmanlab.com/ko/faq/
 
 ## Vietnamese (Tiếng Việt)
 
 - Landing page (VI): https://kulmanlab.com/vi/
-- Docs (VI): https://kulmanlab.com/vi/docs
-- Changelog (VI): https://kulmanlab.com/vi/changelog
-- FAQ (VI): https://kulmanlab.com/vi/faq
+- Docs (VI): https://kulmanlab.com/vi/docs/
+- Changelog (VI): https://kulmanlab.com/vi/changelog/
+- FAQ (VI): https://kulmanlab.com/vi/faq/
 
 ## Bengali (বাংলা)
 
 - Landing page (BN): https://kulmanlab.com/bn/
-- Docs (BN): https://kulmanlab.com/bn/docs
-- Changelog (BN): https://kulmanlab.com/bn/changelog
-- FAQ (BN): https://kulmanlab.com/bn/faq
+- Docs (BN): https://kulmanlab.com/bn/docs/
+- Changelog (BN): https://kulmanlab.com/bn/changelog/
+- FAQ (BN): https://kulmanlab.com/bn/faq/
 
 ## Swahili (Kiswahili)
 
 - Landing page (SW): https://kulmanlab.com/sw/
-- Docs (SW): https://kulmanlab.com/sw/docs
-- Changelog (SW): https://kulmanlab.com/sw/changelog
-- FAQ (SW): https://kulmanlab.com/sw/faq
+- Docs (SW): https://kulmanlab.com/sw/docs/
+- Changelog (SW): https://kulmanlab.com/sw/changelog/
+- FAQ (SW): https://kulmanlab.com/sw/faq/
 
 ## Thai (ภาษาไทย)
 
 - Landing page (TH): https://kulmanlab.com/th/
-- Docs (TH): https://kulmanlab.com/th/docs
-- Changelog (TH): https://kulmanlab.com/th/changelog
-- FAQ (TH): https://kulmanlab.com/th/faq
+- Docs (TH): https://kulmanlab.com/th/docs/
+- Changelog (TH): https://kulmanlab.com/th/changelog/
+- FAQ (TH): https://kulmanlab.com/th/faq/
 
 ## Malay (Bahasa Melayu)
 
 - Landing page (MS): https://kulmanlab.com/ms/
-- Docs (MS): https://kulmanlab.com/ms/docs
-- Changelog (MS): https://kulmanlab.com/ms/changelog
-- FAQ (MS): https://kulmanlab.com/ms/faq
+- Docs (MS): https://kulmanlab.com/ms/docs/
+- Changelog (MS): https://kulmanlab.com/ms/changelog/
+- FAQ (MS): https://kulmanlab.com/ms/faq/
 
 ## Urdu (اردو)
 
 - Landing page (UR): https://kulmanlab.com/ur/
-- Docs (UR): https://kulmanlab.com/ur/docs
-- Changelog (UR): https://kulmanlab.com/ur/changelog
-- FAQ (UR): https://kulmanlab.com/ur/faq
+- Docs (UR): https://kulmanlab.com/ur/docs/
+- Changelog (UR): https://kulmanlab.com/ur/changelog/
+- FAQ (UR): https://kulmanlab.com/ur/faq/
 
 ## Greek (Ελληνικά)
 
 - Landing page (EL): https://kulmanlab.com/el/
-- Docs (EL): https://kulmanlab.com/el/docs
-- Changelog (EL): https://kulmanlab.com/el/changelog
-- FAQ (EL): https://kulmanlab.com/el/faq
+- Docs (EL): https://kulmanlab.com/el/docs/
+- Changelog (EL): https://kulmanlab.com/el/changelog/
+- FAQ (EL): https://kulmanlab.com/el/faq/
 
 ## Punjabi (ਪੰਜਾਬੀ)
 
 - Landing page (PA): https://kulmanlab.com/pa/
-- Docs (PA): https://kulmanlab.com/pa/docs
-- Changelog (PA): https://kulmanlab.com/pa/changelog
-- FAQ (PA): https://kulmanlab.com/pa/faq
+- Docs (PA): https://kulmanlab.com/pa/docs/
+- Changelog (PA): https://kulmanlab.com/pa/changelog/
+- FAQ (PA): https://kulmanlab.com/pa/faq/
 
 ## Swedish (Svenska)
 
 - Landing page (SV): https://kulmanlab.com/sv/
-- Docs (SV): https://kulmanlab.com/sv/docs
-- Changelog (SV): https://kulmanlab.com/sv/changelog
-- FAQ (SV): https://kulmanlab.com/sv/faq
+- Docs (SV): https://kulmanlab.com/sv/docs/
+- Changelog (SV): https://kulmanlab.com/sv/changelog/
+- FAQ (SV): https://kulmanlab.com/sv/faq/
+
+## Filipino
+
+- Landing page (TL): https://kulmanlab.com/tl/
+- Docs (TL): https://kulmanlab.com/tl/docs/
+- Changelog (TL): https://kulmanlab.com/tl/changelog/
+- FAQ (TL): https://kulmanlab.com/tl/faq/
 
 ## Description
 
