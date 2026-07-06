@@ -1,13 +1,13 @@
 ---
 sidebar_position: 3
-title: Polecenie Kopiuj — Duplikowanie elementów w nowej pozycji w KulmanLab CAD
-description: Polecenie Kopiuj tworzy przetłumaczone duplikaty zaznaczonych elementów, pozostawiając oryginały na miejscu. Obsługuje wstępne zaznaczanie, blokowanie kąta i dokładne wprowadzanie odległości. Kopie są umieszczane i polecenie kończy się; oryginały pozostają bez zmian.
+title: Polecenie Copy — Duplikowanie elementów w nowej pozycji w KulmanLab CAD
+description: Polecenie Copy tworzy przetłumaczone duplikaty zaznaczonych elementów, pozostawiając oryginały na miejscu. Obsługuje wstępne zaznaczanie, blokowanie kąta i dokładne wprowadzanie odległości. Kopie są umieszczane i polecenie kończy się; oryginały pozostają bez zmian.
 keywords: [polecenie kopiowania CAD, duplikowanie elementów CAD, kopiowanie obiektów CAD, klonowanie geometrii CAD, blokowanie kąta kopiowania, dokładna odległość kopiowania, kulmanlab]
 ---
 
-# Kopiuj
+# Copy
 
-Polecenie `copy` tworzy przetłumaczone duplikaty zaznaczonych elementów i umieszcza je z przesunięciem od punktu bazowego do punktu docelowego — oryginały pozostają dokładnie tam, gdzie są. To jedna kluczowa różnica od [Przesuń](../move/): Kopiuj dodaje nowe elementy do rysunku; Przesuń relokuje istniejące.
+Polecenie `copy` tworzy przetłumaczone duplikaty zaznaczonych elementów i umieszcza je z przesunięciem od punktu bazowego do punktu docelowego — oryginały pozostają dokładnie tam, gdzie są. To jedna kluczowa różnica od [Move](../move/): Kopiuj dodaje nowe elementy do rysunku; Move relokuje istniejące.
 
 ## Dwa sposoby uruchamiania
 

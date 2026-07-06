@@ -1,11 +1,11 @@
 ---
-title: Lệnh Kéo Dài — Kéo Dài Điểm Cuối Đường Thẳng Đến Ranh Giới Gần Nhất trong KulmanLab CAD
+title: Lệnh Extend — Kéo Dài Điểm Cuối Đường Thẳng Đến Ranh Giới Gần Nhất trong KulmanLab CAD
 description: Lệnh Extend kéo dài điểm cuối gần nhất của một Đường thẳng đến giao điểm gần nhất với thực thể khác. Bản xem trước trực tiếp hiển thị đường thẳng được kéo dài trước khi nhấp. Extend chỉ hoạt động trên thực thể Đường thẳng.
 ---
 
-# Kéo Dài
+# Extend
 
-Lệnh `extend` kéo dài điểm cuối gần nhất của một [Đường thẳng](../line/) đến giao điểm gần nhất mà nó sẽ tạo ra với thực thể khác trong bản vẽ. Di chuyển con trỏ gần điểm cuối muốn kéo dài — bản xem trước hiển thị đường thẳng được kéo dài — sau đó nhấp để áp dụng.
+Lệnh `extend` kéo dài điểm cuối gần nhất của một [Line](../line/) đến giao điểm gần nhất mà nó sẽ tạo ra với thực thể khác trong bản vẽ. Di chuyển con trỏ gần điểm cuối muốn kéo dài — bản xem trước hiển thị đường thẳng được kéo dài — sau đó nhấp để áp dụng.
 
 Kéo dài chỉ hoạt động trên **thực thể Đường thẳng**. Các ranh giới mà đường thẳng kéo dài đến có thể là bất kỳ loại thực thể nào ngoại trừ Văn bản, Mtext, Đa đường dẫn và Spline.
 
@@ -37,9 +37,9 @@ Các loại thực thể sau bị bỏ qua là ranh giới:
 |------|-----------|
 | `Escape` | Thoát chế độ kéo dài |
 
-## Kéo Dài vs Cắt
+## Extend vs Trim
 
-| | Kéo Dài | Cắt |
+| | Extend | Trim |
 |---|------|------|
 | Tác dụng | Kéo dài điểm cuối đường thẳng đến ranh giới | Xóa đoạn của đường thẳng |
 | Kích hoạt | Di chuyển gần điểm cuối để kéo dài | Di chuyển qua đoạn để cắt |

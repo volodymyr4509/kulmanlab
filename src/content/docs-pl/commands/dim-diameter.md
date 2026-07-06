@@ -1,13 +1,13 @@
 ---
 sidebar_position: 17
-title: "Polecenie Wymiar średnicy — Opisywanie pełnych średnic okręgów i łuków w KulmanLab CAD"
-description: "Polecenie Wymiar średnicy umieszcza wymiar średnicy (poprzedzony symbolem średnicy) przez łuk lub okrąg przez środek. Przesuń kursor, aby obrócić linię wymiarową pod dowolny kąt. Pełna obsługa zapisu i odczytu DXF jako elementy DIMENSION typu średnica."
+title: "Polecenie Dimension Diameter — Opisywanie pełnych średnic okręgów i łuków w KulmanLab CAD"
+description: "Polecenie Dimension Diameter umieszcza wymiar średnicy (poprzedzony symbolem średnicy) przez łuk lub okrąg przez środek. Przesuń kursor, aby obrócić linię wymiarową pod dowolny kąt. Pełna obsługa zapisu i odczytu DXF jako elementy DIMENSION typu średnica."
 keywords: [wymiar średnicy CAD, dimdiameter, opis średnicy okręgu, wymiar średnicy łuku, symbol średnicy CAD, kulmanlab]
 ---
 
-# Wymiar średnicy
+# Dimension Diameter
 
-Polecenie `dimdiameter` umieszcza wymiar średnicy na łuku lub okręgu. Linia wymiarowa obejmuje pełną średnicę — przechodząc przez środek między dwoma diametralnie przeciwnymi punktami łuku — i jest oznaczona `⌀ <wartość>`. Aby opisać tylko promień od środka do jednej krawędzi, użyj [Wymiaru promienia](../dim-radius/).
+Polecenie `dimdiameter` umieszcza wymiar średnicy na łuku lub okręgu. Linia wymiarowa obejmuje pełną średnicę — przechodząc przez środek między dwoma diametralnie przeciwnymi punktami łuku — i jest oznaczona `⌀ <wartość>`. Aby opisać tylko promień od środka do jednej krawędzi, użyj [Dimension Radius](../dim-radius/).
 
 ## Anatomia wymiaru średnicy
 

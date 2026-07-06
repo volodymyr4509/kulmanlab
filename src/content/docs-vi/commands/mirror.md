@@ -1,11 +1,11 @@
 ---
-title: Lệnh Đối Xứng — Phản Chiếu Thực Thể Qua Trục Hai Điểm trong KulmanLab CAD
+title: Lệnh Mirror — Phản Chiếu Thực Thể Qua Trục Hai Điểm trong KulmanLab CAD
 description: Lệnh Mirror phản chiếu các thực thể đã chọn qua đường gương được xác định bởi hai lần nhấp. Các bản gốc luôn được giữ lại — Mirror tạo ra các bản sao được phản chiếu mới. Trục gương có thể theo bất kỳ góc nào và bắt điểm theo gia số 45°.
 ---
 
-# Đối Xứng
+# Mirror
 
-Lệnh `mirror` tạo các bản sao được phản chiếu của các thực thể đã chọn qua trục hai điểm. Các bản gốc **luôn được giữ lại** — không giống như [Di Chuyển](../move/) hay [Xoay](../rotate/), Đối Xứng không bao giờ sửa đổi thực thể hiện có; nó chỉ thêm thực thể mới.
+Lệnh `mirror` tạo các bản sao được phản chiếu của các thực thể đã chọn qua trục hai điểm. Các bản gốc **luôn được giữ lại** — không giống như [Move](../move/) hay [Rotate](../rotate/), Mirror không bao giờ sửa đổi thực thể hiện có; nó chỉ thêm thực thể mới.
 
 ## Hai cách bắt đầu
 
@@ -51,9 +51,9 @@ Trục là đường vô hạn qua hai điểm được nhấp. Nó có thể th
 | Đường đa đoạn / Hình chữ nhật | Mỗi đỉnh được phản chiếu |
 | Văn bản | Điểm neo được phản chiếu; chuỗi văn bản **không** bị đảo ngược |
 
-## Đối Xứng vs Sao Chép
+## Mirror vs Copy
 
-| | Đối Xứng | Sao Chép |
+| | Mirror | Copy |
 |---|------|------|
 | Bản gốc | Luôn được giữ lại | Luôn được giữ lại |
 | Vị trí thực thể mới | Được phản chiếu qua trục | Lệch theo vector dịch chuyển |

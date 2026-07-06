@@ -1,13 +1,13 @@
 ---
 sidebar_position: 14
-title: 对齐标注命令 — 在 KulmanLab CAD 中创建任意角度的真实距离标注
-description: 对齐标注命令测量两点之间的真实直线距离。标注线平行于 p1→p2 连线，可以是任意角度 — 不同于仅限水平或垂直的线性标注。完整支持 DXF 的 DIMENSION 实体往返转换。
+title: Dimension Aligned命令 — 在 KulmanLab CAD 中创建任意角度的真实距离标注
+description: Dimension Aligned 命令测量两点之间的真实直线距离。标注线平行于 p1→p2 连线，可以是任意角度 — 不同于仅限水平或垂直的线性标注。完整支持 DXF 的 DIMENSION 实体往返转换。
 keywords: [CAD 对齐标注, 对齐标注, 斜向标注 CAD, 真实距离标注, 角度标注 CAD, kulmanlab]
 ---
 
-# 对齐标注
+# Dimension Aligned
 
-`dimaligned`（对齐标注）命令放置一个测量两点之间**真实直线距离**的标注。标注线平行于连接两点的直线，因此可以是任意角度。这是与[线性标注](../dim-linear/)的关键区别，后者仅限水平或垂直方向。
+`dimaligned`（对齐标注）命令放置一个测量两点之间**真实直线距离**的标注。标注线平行于连接两点的直线，因此可以是任意角度。这是与[Dimension Linear](../dim-linear/)的关键区别，后者仅限水平或垂直方向。
 
 ## 对齐标注的结构
 
@@ -28,7 +28,7 @@ p1
 
 ## 放置对齐标注
 
-1. 在命令行中输入 `dimaligned`，或单击工具栏中的**对齐标注**按钮。
+1. 在命令行中输入 `dimaligned`，或单击工具栏中的**Dimension Aligned** 按钮。
 2. **单击第一条延伸线原点**（p1），或输入 `X,Y` 并按 **Enter** 键精确输入坐标。
 3. **单击第二条延伸线原点**（p2）。此处也可以输入坐标。
 4. **移动光标**到一侧以设置标注线的垂直偏移量。
@@ -56,9 +56,9 @@ p1
 | `Enter` / 空格 | 确认输入的坐标或偏移量 |
 | `Escape` | 取消 |
 
-## 对齐标注 vs 线性标注
+## Dimension Aligned vs Dimension Linear
 
-| | 对齐标注 | 线性标注 |
+| | Dimension Aligned | Dimension Linear |
 |---|------------------|-----------------|
 | 标注线角度 | 平行于 p1→p2 — 任意角度 | 始终水平或垂直 |
 | 测量内容 | 真实欧几里得距离 | 仅 X 或 Y 分量 |
@@ -80,7 +80,7 @@ p1
 
 ## 链式标注
 
-要从该标注的第二条延伸线继续添加更多标注，请使用[连续标注](../dim-continue/) — 它锁定与该对齐标注相同的测量角度。
+要从该标注的第二条延伸线继续添加更多标注，请使用[Dimension Continue](../dim-continue/) — 它锁定与该对齐标注相同的测量角度。
 
 ## DXF — DIMENSION 实体（对齐类型）
 

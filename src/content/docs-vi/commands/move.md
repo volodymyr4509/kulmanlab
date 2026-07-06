@@ -1,9 +1,9 @@
 ---
-title: Lệnh Di Chuyển — Dịch Chuyển Thực Thể Đã Chọn Theo Điểm Cơ Sở trong KulmanLab CAD
+title: Lệnh Move — Dịch Chuyển Thực Thể Đã Chọn Theo Điểm Cơ Sở trong KulmanLab CAD
 description: Lệnh Move dịch chuyển một hoặc nhiều thực thể đã chọn theo điểm cơ sở và điểm đích. Hỗ trợ chọn trước, khóa góc và nhập khoảng cách chính xác. Sau khi di chuyển, thực thể vẫn được chọn tại vị trí mới. Mọi loại thực thể đều được hỗ trợ.
 ---
 
-# Di Chuyển
+# Move
 
 Lệnh `move` dịch chuyển các thực thể đã chọn từ điểm cơ sở đến điểm đích. Vector dịch chuyển từ cơ sở đến đích được áp dụng cho mọi thực thể đã chọn. Sau khi di chuyển, tất cả thực thể vẫn được chọn tại vị trí mới.
 
@@ -47,9 +47,9 @@ Sau khi đặt điểm cơ sở, lệnh theo dõi trục bắt điểm 45°. Khi
 | `Enter` | Xác nhận tọa độ hoặc áp dụng di chuyển |
 | `Escape` | Hủy và đặt lại |
 
-## Di Chuyển vs Sao Chép
+## Move vs Copy
 
-| | Di Chuyển | Sao Chép |
+| | Move | Copy |
 |---|------|------|
 | Vị trí ban đầu | Bị bỏ trống — thực thể không còn ở đó | Được giữ lại — bản gốc vẫn ở chỗ cũ |
 | Số lượng kết quả | Cùng số lượng thực thể | Thêm một bộ cho mỗi thao tác |

@@ -1,11 +1,11 @@
 ---
 sidebar_position: 5
-title: Polecenie Skaluj — Równomierne zmienianie rozmiaru elementów wokół punktu bazowego w KulmanLab CAD
-description: Polecenie Skaluj równomiernie zmienia rozmiar zaznaczonych elementów przez wpisany współczynnik wokół stałego punktu bazowego. Współczynnik jest zawsze wprowadzany klawiaturą — nie ma kliknięcia-aby-ustawić-skalę. Współczynnik większy od 1 powiększa; mniejszy od 1 pomniejsza. Każdy typ elementu jest obsługiwany.
+title: Polecenie Scale — Równomierne zmienianie rozmiaru elementów wokół punktu bazowego w KulmanLab CAD
+description: Polecenie Scale równomiernie zmienia rozmiar zaznaczonych elementów przez wpisany współczynnik wokół stałego punktu bazowego. Współczynnik jest zawsze wprowadzany klawiaturą — nie ma kliknięcia-aby-ustawić-skalę. Współczynnik większy od 1 powiększa; mniejszy od 1 pomniejsza. Każdy typ elementu jest obsługiwany.
 keywords: [polecenie skalowania CAD, zmiana rozmiaru elementów CAD, skalowanie obiektów CAD, jednolita skala CAD, współczynnik skali CAD, powiększanie pomniejszanie CAD, kulmanlab]
 ---
 
-# Skaluj
+# Scale
 
 Polecenie `scale` równomiernie zmienia rozmiar zaznaczonych elementów wokół punktu bazowego. Wszystkie odległości od punktu bazowego są mnożone przez współczynnik skali — współczynnik `2` podwaja wszystkie wymiary, `0.5` je połowi. Współczynnik jest zawsze wprowadzany przez wpisanie; nie ma kliknięcia-aby-ustawić-skalę.
 

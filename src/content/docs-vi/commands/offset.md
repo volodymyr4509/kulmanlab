@@ -38,9 +38,9 @@ Sau mỗi lần đặt, lệnh quay lại bước 3 theo **cùng khoảng cách*
 | `Enter` / `Space` | Xác nhận khoảng cách đã gõ và chuyển sang chọn thực thể |
 | `Escape` | Đặt lại về bước nhập khoảng cách |
 
-## Offset vs Sao Chép
+## Offset vs Copy
 
-| | Offset | Sao Chép |
+| | Offset | Copy |
 |---|------|------|
 | Dịch chuyển | Vuông góc với hình học thực thể | Vector tùy ý (cơ sở → đích) |
 | Thực thể được hỗ trợ | Đường thẳng, Hình tròn, Cung, Hình elip, Đường đa đoạn | Tất cả loại thực thể |

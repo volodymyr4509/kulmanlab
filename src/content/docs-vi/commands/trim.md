@@ -1,13 +1,13 @@
 ---
-title: Lệnh Cắt — Cắt Đoạn Đường Thẳng Tại Giao Điểm trong KulmanLab CAD
+title: Lệnh Trim — Cắt Đoạn Đường Thẳng Tại Giao Điểm trong KulmanLab CAD
 description: Lệnh Trim xóa phần của Đường thẳng giữa hai điểm giao nhau liền kề gần con trỏ nhất. Bản xem trước đỏ hiển thị chính xác đoạn nào sẽ bị cắt trước khi nhấp. Trim chỉ hoạt động trên thực thể Đường thẳng — không phải cung, hình tròn hoặc đường đa đoạn.
 ---
 
-# Cắt
+# Trim
 
-Lệnh `trim` xóa phần của [Đường thẳng](../line/) nằm giữa hai điểm giao nhau liền kề, chia đường thẳng thành một hoặc hai đoạn ngắn hơn. Đoạn cần cắt được xác định bởi vị trí con trỏ — di chuyển qua phần bạn muốn xóa và nhấp để cắt.
+Lệnh `trim` xóa phần của [Line](../line/) nằm giữa hai điểm giao nhau liền kề, chia đường thẳng thành một hoặc hai đoạn ngắn hơn. Đoạn cần cắt được xác định bởi vị trí con trỏ — di chuyển qua phần bạn muốn xóa và nhấp để cắt.
 
-Cắt chỉ hoạt động trên **thực thể Đường thẳng**. Với các cung, hình tròn, đường đa đoạn và các loại thực thể khác, hãy dùng [Xóa](../delete/) hoặc chỉnh sửa điểm kéo.
+Cắt chỉ hoạt động trên **thực thể Đường thẳng**. Với các cung, hình tròn, đường đa đoạn và các loại thực thể khác, hãy dùng [Delete](../delete/) hoặc chỉnh sửa điểm kéo.
 
 ## Cắt đường thẳng
 
@@ -36,9 +36,9 @@ Lệnh chiếu vị trí con trỏ lên đường thẳng đang di chuyển và 
 | Đường đa đoạn / Hình chữ nhật | Không |
 | Văn bản, Spline, Kích thước, Đường dẫn | Không |
 
-## Cắt vs Kéo Dài
+## Trim vs Extend
 
-| | Cắt | Kéo Dài |
+| | Trim | Extend |
 |---|------|------|
 | Tác dụng | Xóa đoạn của đường thẳng | Kéo dài điểm cuối đường thẳng đến ranh giới |
 | Kích hoạt | Di chuyển qua đoạn cần cắt | Di chuyển gần điểm cuối cần kéo dài |

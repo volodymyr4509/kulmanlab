@@ -1,13 +1,13 @@
 ---
 sidebar_position: 9
-title: Polecenie Splajn Fit — Rysowanie interpolujących splajnów przez kliknięte punkty w KulmanLab CAD
-description: Polecenie Splajn Fit rysuje sześcienny splajn przechodzący przez każdy kliknięty punkt dokładnie. Wewnętrznie krzywa jest przechowywana zarówno z punktami dopasowania, jak i obliczonymi wierzchołkami kontrolnymi. Przeciągnięcie uchwytu punktu dopasowania ponownie interpoluje całą krzywą. Pełna obsługa zapisu i odczytu DXF jako elementy SPLINE.
+title: Polecenie Spline Fit — Rysowanie interpolujących splajnów przez kliknięte punkty w KulmanLab CAD
+description: Polecenie Spline Fit rysuje sześcienny splajn przechodzący przez każdy kliknięty punkt dokładnie. Wewnętrznie krzywa jest przechowywana zarówno z punktami dopasowania, jak i obliczonymi wierzchołkami kontrolnymi. Przeciągnięcie uchwytu punktu dopasowania ponownie interpoluje całą krzywą. Pełna obsługa zapisu i odczytu DXF jako elementy SPLINE.
 keywords: [polecenie splajnu fit CAD, interpolujący splajn CAD, splajn przez punkty, rysowanie gładkiej krzywej CAD, punkty dopasowania SPLINE DXF, edycja uchwytu splajnu, kulmanlab]
 ---
 
-# Splajn Fit
+# Spline Fit
 
-Polecenie `splinefit` rysuje sześcienny splajn przechodzący przez każdy kliknięty punkt — krzywą interpolującą. W odróżnieniu od [Splajnu CV](../spline-cv/), gdzie krzywa jest tylko przyciągana do wierzchołków kontrolnych, tutaj krzywa jest zmuszana do trafienia w każdą klikniętą współrzędną dokładnie. Wewnętrznie edytor dopasowuje wierzchołki kontrolne, aby to osiągnąć, a te CV są przechowywane obok punktów dopasowania w pliku DXF.
+Polecenie `splinefit` rysuje sześcienny splajn przechodzący przez każdy kliknięty punkt — krzywą interpolującą. W odróżnieniu od [Spline CV](../spline-cv/), gdzie krzywa jest tylko przyciągana do wierzchołków kontrolnych, tutaj krzywa jest zmuszana do trafienia w każdą klikniętą współrzędną dokładnie. Wewnętrznie edytor dopasowuje wierzchołki kontrolne, aby to osiągnąć, a te CV są przechowywane obok punktów dopasowania w pliku DXF.
 
 ## Rysowanie splajnu przez punkty dopasowania
 
@@ -51,7 +51,7 @@ Zaznaczony splajn fit eksponuje jeden uchwyt na punkt dopasowania:
 
 Przeciągnięcie jednego uchwytu ponownie dopasowuje całą krzywą, nie tylko sąsiednie segmenty. Różni się to od edycji uchwytu polilinii, gdzie przesunięcie wierzchołka przekształca tylko dwa sąsiednie segmenty.
 
-Nie ma uchwytu "przesuń cały splajn". Aby translować cały splajn, użyj polecenia [Przesuń](../move/).
+Nie ma uchwytu "przesuń cały splajn". Aby translować cały splajn, użyj polecenia [Move](../move/).
 
 ## Zaznaczanie splajnów fit
 
@@ -65,14 +65,14 @@ Nie ma uchwytu "przesuń cały splajn". Aby translować cały splajn, użyj pole
 
 | Polecenie | Co dzieje się ze splajnem |
 |-----------|---------------------------|
-| [Przesuń](../move/) | Translacja wszystkich punktów dopasowania i przeliczonych CV o to samo przesunięcie |
-| [Kopiuj](../copy/) | Tworzy identyczny splajn w nowej pozycji |
-| [Obróć](../rotate/) | Obraca wszystkie punkty dopasowania wokół wybranego punktu bazowego |
-| [Odbij](../mirror/) | Odbija wszystkie punkty dopasowania przez oś odbicia |
-| [Skaluj](../scale/) | Skaluje wszystkie punkty dopasowania równomiernie od punktu bazowego |
-| [Usuń](../delete/) | Usuwa splajn |
+| [Move](../move/) | Translacja wszystkich punktów dopasowania i przeliczonych CV o to samo przesunięcie |
+| [Copy](../copy/) | Tworzy identyczny splajn w nowej pozycji |
+| [Rotate](../rotate/) | Obraca wszystkie punkty dopasowania wokół wybranego punktu bazowego |
+| [Mirror](../mirror/) | Odbija wszystkie punkty dopasowania przez oś odbicia |
+| [Scale](../scale/) | Skaluje wszystkie punkty dopasowania równomiernie od punktu bazowego |
+| [Delete](../delete/) | Usuwa splajn |
 
-Splajny nie obsługują **Odsunięcia**, **Przytnij** ani **Przedłuż**.
+Splajny nie obsługują **Offset**, **Trim** ani **Extend**.
 
 ## Właściwości
 

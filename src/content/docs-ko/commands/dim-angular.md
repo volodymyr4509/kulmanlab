@@ -1,17 +1,17 @@
 ---
 sidebar_position: 9
-title: 각도 치수 — KulmanLab CAD에서 선, 호 및 원 사이의 각도 측정
+title: Dimension Angular — KulmanLab CAD에서 선, 호 및 원 사이의 각도 측정
 description: DimensionAngular 명령어는 선, 호 또는 원에 각도 치수 주석을 배치합니다. 두 선 각도, 호 범위, 원 섹터 모드를 지원합니다.
 keywords: [각도 치수 CAD, 각도 치수, 선 사이 각도 측정, DimensionAngular, 호 치수, 각도 주석, CAD 각도 마크업, kulmanlab 각도 치수]
 ---
 
-# 각도 치수
+# Dimension Angular
 
 `DimensionAngular` 명령어는 도면에 **각도 치수** 호 주석을 배치합니다. 두 선 사이의 각도, 호의 범위, 또는 원의 섹터를 측정하고 레이블을 붙입니다.
 
 ## 활성화 방법
 
-마크업 패널의 **각도 치수** 도구 모음 버튼을 클릭하거나, 터미널에 `DimensionAngular`를 입력합니다.
+마크업 패널의 **Dimension Angular** 도구 모음 버튼을 클릭하거나, 터미널에 `DimensionAngular`를 입력합니다.
 
 ## 세 가지 입력 모드
 
@@ -64,7 +64,7 @@ keywords: [각도 치수 CAD, 각도 치수, 선 사이 각도 측정, Dimension
 
 ## 관련 명령어
 
-- [선형 치수](../dim-linear/) — 수평 또는 수직 치수
-- [정렬 치수](../dim-aligned/) — 두 점에 정렬된 치수
-- [반지름 치수](../dim-radius/) — 호 및 원에 대한 반지름 치수
-- [지름 치수](../dim-diameter/) — 원에 대한 지름 치수
+- [Dimension Linear](../dim-linear/) — 수평 또는 수직 치수
+- [Dimension Aligned](../dim-aligned/) — 두 점에 정렬된 치수
+- [Dimension Radius](../dim-radius/) — 호 및 원에 대한 반지름 치수
+- [Dimension Diameter](../dim-diameter/) — 원에 대한 지름 치수

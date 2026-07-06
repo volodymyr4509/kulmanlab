@@ -1,13 +1,13 @@
 ---
 sidebar_position: 2
-title: Nuovo File — Avviare un Disegno Vuoto in KulmanLab CAD
-description: Il comando Nuovo File svuota il canvas e apre un disegno vuoto. Un nome file con timestamp viene generato automaticamente e salvato nell'archivio del browser.
+title: New File — Avviare un Disegno Vuoto in KulmanLab CAD
+description: Il comando New File svuota il canvas e apre un disegno vuoto. Un nome file con timestamp viene generato automaticamente e salvato nell'archivio del browser.
 keywords: [nuovo file CAD, nuovo disegno, canvas vuoto CAD, crea nuovo disegno online, nuovo DXF, KulmanLab nuovo file, reimposta canvas, cancella disegno]
 ---
 
-# Nuovo File
+# New File
 
-Il comando **Nuovo File** svuota il canvas e avvia un disegno vuoto. Un nome file univoco con timestamp viene generato automaticamente.
+Il comando **New File** svuota il canvas e avvia un disegno vuoto. Un nome file univoco con timestamp viene generato automaticamente.
 
 ## Come creare un nuovo file
 
@@ -25,13 +25,13 @@ Il file viene salvato automaticamente nell'archivio del browser e appare in [Fil
 
 ## Attenzione — il lavoro non salvato viene eliminato
 
-Cliccare **Nuovo File** elimina tutte le entità sul canvas corrente senza avviso. Se vuoi mantenere il disegno corrente, [esportalo](../export/) prima.
+Cliccare **New File** elimina tutte le entità sul canvas corrente senza avviso. Se vuoi mantenere il disegno corrente, [esportalo](../export/) prima.
 
-## Quando usare Nuovo File vs Importa
+## Quando usare New File vs Importa
 
 | Situazione | Azione consigliata |
 |------------|-------------------|
-| Iniziare un disegno da zero | **Nuovo File** |
+| Iniziare un disegno da zero | **New File** |
 | Aprire un file DXF o JSON esistente | [Importa](../import/) |
 | Copiare un disegno per lavorare su una variante | [Esporta](../export/) il file corrente, poi [Importa](../import/) la copia |
 

@@ -1,10 +1,10 @@
 ---
-title: Polecenie KopiujWidok — Duplikowanie okna widoku w KulmanLab CAD
-description: Polecenie KopiujWidok duplikuje wybrane okno widoku do nowej pozycji w tym samym układzie, zachowując ustawienia skali i widoku modelu. Obsługuje dokładne wprowadzanie współrzędnych, blokowanie kąta i wpisywanie odległości.
+title: Polecenie ViewportCopy — Duplikowanie okna widoku w KulmanLab CAD
+description: Polecenie ViewportCopy duplikuje wybrane okno widoku do nowej pozycji w tym samym układzie, zachowując ustawienia skali i widoku modelu. Obsługuje dokładne wprowadzanie współrzędnych, blokowanie kąta i wpisywanie odległości.
 keywords: [kopiowanie widoku, duplikowanie widoku, kopiowanie widoku układu, blokowanie kąta widoku, dokładne współrzędne widoku, kulmanlab]
 ---
 
-# KopiujWidok
+# ViewportCopy
 
 Polecenie `ViewportCopy` kopiuje okno widoku na nową pozycję, zachowując jego skalę i środek modelu. Dostępne tylko w przestrzeni układu.
 
@@ -56,4 +56,4 @@ Po ustawieniu punktu bazowego polecenie przyciąga do osi 45° (0°, 45°, 90°,
 
 - KopiujWidok jest dostępny tylko gdy aktywna jest zakładka układu papieru.
 - Skopiowane okno widoku dziedziczy tę samą skalę, środek modelu, stan zablokowania i wymiary co oryginał.
-- Aby utworzyć nowe okno widoku od zera, użyj [ProstokątWidoku](../viewport-rectangle/).
+- Aby utworzyć nowe okno widoku od zera, użyj [ViewportRectangle](../viewport-rectangle/).

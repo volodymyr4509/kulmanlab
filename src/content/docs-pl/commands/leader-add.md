@@ -1,11 +1,11 @@
 ---
 sidebar_position: 12
-title: Polecenie Linia prowadząca+ — Dodawanie ramienia z grotem do istniejącej linii wielokierunkowej w KulmanLab CAD
-description: Polecenie Linia prowadząca+ dodaje nowe ramię z grotem do istniejącej linii wielokierunkowej. Nowe ramię dzieli dogleg, tekst i całe formatowanie wybranej linii prowadzącej. Dwa kliknięcia — zaznacz linię prowadzącą, umieść nowy grot.
+title: Polecenie Leader+ — Dodawanie ramienia z grotem do istniejącej linii wielokierunkowej w KulmanLab CAD
+description: Polecenie Leader+ dodaje nowe ramię z grotem do istniejącej linii wielokierunkowej. Nowe ramię dzieli dogleg, tekst i całe formatowanie wybranej linii prowadzącej. Dwa kliknięcia — zaznacz linię prowadzącą, umieść nowy grot.
 keywords: [CAD dodawanie ramienia linii prowadzącej, polecenie leader+, dodaj strzałkę do linii prowadzącej, ramię linii wielokierunkowej, kulmanlab]
 ---
 
-# Linia prowadząca+
+# Leader+
 
 Polecenie `leader+` dodaje nowe ramię z grotem do istniejącej linii wielokierunkowej. Nowe ramię wskazuje od istniejącego doglegs linii prowadzącej do nowego grota, który klikasz. Całe formatowanie — pozycja doglegs, tekst, typ grota i rozmiar — jest dziedziczone z wybranej linii prowadzącej.
 
@@ -55,5 +55,5 @@ Zamiast klikać możesz wpisać dokładną pozycję:
 
 | Polecenie | Co robi |
 |-----------|---------|
-| [Linia prowadząca](../leader/) | Tworzenie zupełnie nowej linii wielokierunkowej od zera |
-| [Linia prowadząca−](../leader-remove/) | Usuwanie ramienia z linii wielokierunkowej mającej dwa lub więcej |
+| [Leader](../leader/) | Tworzenie zupełnie nowej linii wielokierunkowej od zera |
+| [Leader−](../leader-remove/) | Usuwanie ramienia z linii wielokierunkowej mającej dwa lub więcej |

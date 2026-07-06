@@ -1,13 +1,13 @@
 ---
 sidebar_position: 13
-title: 线性标注命令 — 在 KulmanLab CAD 中创建水平和垂直标注
-description: 线性标注命令测量两点之间的水平或垂直距离。标注线始终与坐标轴对齐 — 按 H 或 V 键锁定方向，或让光标位置自动决定。完整支持 DXF 的 DIMENSION 实体往返转换。
+title: Dimension Linear命令 — 在 KulmanLab CAD 中创建水平和垂直标注
+description: Dimension Linear 命令测量两点之间的水平或垂直距离。标注线始终与坐标轴对齐 — 按 H 或 V 键锁定方向，或让光标位置自动决定。完整支持 DXF 的 DIMENSION 实体往返转换。
 keywords: [CAD 线性标注, 水平标注 CAD, 垂直标注 CAD, 线性标注命令, H V 方向锁定, 标注偏移, kulmanlab]
 ---
 
-# 线性标注
+# Dimension Linear
 
-`dimlinear`（线性标注）命令在两条延伸线原点之间放置水平或垂直标注。标注线始终完全水平或完全垂直 — 不能以任意角度放置。当需要平行于斜线的标注时，请使用[对齐标注](../dim-aligned/)。
+`dimlinear`（线性标注）命令在两条延伸线原点之间放置水平或垂直标注。标注线始终完全水平或完全垂直 — 不能以任意角度放置。当需要平行于斜线的标注时，请使用[Dimension Aligned](../dim-aligned/)。
 
 ## 线性标注的结构
 
@@ -24,7 +24,7 @@ keywords: [CAD 线性标注, 水平标注 CAD, 垂直标注 CAD, 线性标注命
 
 ## 放置线性标注
 
-1. 在命令行中输入 `dimlinear`，或单击工具栏中的**线性标注**按钮。
+1. 在命令行中输入 `dimlinear`，或单击工具栏中的**Dimension Linear** 按钮。
 2. **单击第一条延伸线原点**（p1），或输入 `X,Y` 并按 **Enter** 键精确输入坐标。
 3. **单击第二条延伸线原点**（p2）。此处也可以输入坐标。
 4. **移动光标**以定位标注线。方向由光标位置自动检测。
@@ -65,9 +65,9 @@ keywords: [CAD 线性标注, 水平标注 CAD, 垂直标注 CAD, 线性标注命
 | `Enter` / 空格 | 确认输入的坐标或偏移量 |
 | `Escape` | 取消 |
 
-## 线性标注 vs 对齐标注
+## Dimension Linear vs Dimension Aligned
 
-| | 线性标注 | 对齐标注 |
+| | Dimension Linear | Dimension Aligned |
 |---|-----------------|------------------|
 | 轴向 | 始终 H 或 V | 平行于测量直线 |
 | 测量内容 | 仅 X 或 Y 分量 | 真实欧几里得距离 |
@@ -89,7 +89,7 @@ keywords: [CAD 线性标注, 水平标注 CAD, 垂直标注 CAD, 线性标注命
 
 ## 链式标注
 
-要从上一条延伸线继续添加更多标注，放置此标注后立即使用[连续标注](../dim-continue/)。
+要从上一条延伸线继续添加更多标注，放置此标注后立即使用[Dimension Continue](../dim-continue/)。
 
 ## DXF — DIMENSION 实体
 

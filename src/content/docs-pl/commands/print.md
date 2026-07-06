@@ -1,11 +1,11 @@
 ---
 sidebar_position: 5
-title: Polecenie Drukuj — Eksportowanie rysunku jako PNG, JPEG, WebP lub PDF w KulmanLab CAD
-description: Polecenie Drukuj otwiera Menedżera druku — dedykowane okno eksportu z podglądem na żywo, selektorem formatu, przełącznikiem monochromatycznym i opcjonalnym zaznaczaniem obszaru. Eksportuje do 2000×2000 px. Obsługuje PNG, JPEG, WebP i PDF.
+title: Polecenie Print — Eksportowanie rysunku jako PNG, JPEG, WebP lub PDF w KulmanLab CAD
+description: Polecenie Print otwiera Menedżera druku — dedykowane okno eksportu z podglądem na żywo, selektorem formatu, przełącznikiem monochromatycznym i opcjonalnym zaznaczaniem obszaru. Eksportuje do 2000×2000 px. Obsługuje PNG, JPEG, WebP i PDF.
 keywords: [eksport PNG CAD, eksport PDF CAD, drukowanie rysunku CAD, menedżer druku, monochromatyczny eksport, kulmanlab eksport]
 ---
 
-# Drukuj
+# Print
 
 Polecenie `print` otwiera **Menedżera druku** — dedykowane okno eksportu z podglądem na żywo, selektorem formatu (PNG / JPEG / WebP / PDF), przełącznikiem monochromatycznym i opcjonalnym przycięciem obszaru. Nic nie jest wysyłane do fizycznej drukarki; wyjście jest pobierane jako plik.
 

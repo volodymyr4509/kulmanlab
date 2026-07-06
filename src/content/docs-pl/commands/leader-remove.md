@@ -1,11 +1,11 @@
 ---
 sidebar_position: 11
-title: "Polecenie Linia prowadząca− — Usuwanie ramienia z grotem z linii wielokierunkowej w KulmanLab CAD"
-description: "Polecenie Linia prowadząca− usuwa jedno ramię z grotem z linii wielokierunkowej mającej dwa lub więcej. Najedź kursorem blisko ramienia do usunięcia — najbliższe ramię jest podświetlane. Dogleg, tekst i pozostałe ramiona są zachowywane."
+title: "Polecenie Leader− — Usuwanie ramienia z grotem z linii wielokierunkowej w KulmanLab CAD"
+description: "Polecenie Leader− usuwa jedno ramię z grotem z linii wielokierunkowej mającej dwa lub więcej. Najedź kursorem blisko ramienia do usunięcia — najbliższe ramię jest podświetlane. Dogleg, tekst i pozostałe ramiona są zachowywane."
 keywords: [CAD usuwanie ramienia linii prowadzącej, polecenie leader-, usuń strzałkę z linii prowadzącej, usuwanie ramienia linii wielokierunkowej, kulmanlab]
 ---
 
-# Linia prowadząca−
+# Leader−
 
 Polecenie `leader-` usuwa jedno ramię z grotem z istniejącej linii wielokierunkowej. Etykieta tekstowa, dogleg i wszystkie pozostałe ramiona są zachowywane — usuwane jest tylko zaznaczone ramię. Linia wielokierunkowa z tylko jednym ramieniem nie może mieć usuniętego ramienia.
 
@@ -47,5 +47,5 @@ Polecenie mierzy prostopadłą odległość od kursora do segmentów linii każd
 
 | Polecenie | Co robi |
 |-----------|---------|
-| [Linia prowadząca](../leader/) | Tworzenie nowej linii wielokierunkowej od zera |
-| [Linia prowadząca+](../leader-add/) | Dodawanie ramienia do istniejącej linii wielokierunkowej |
+| [Leader](../leader/) | Tworzenie nowej linii wielokierunkowej od zera |
+| [Leader+](../leader-add/) | Dodawanie ramienia do istniejącej linii wielokierunkowej |

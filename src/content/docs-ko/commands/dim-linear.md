@@ -1,13 +1,13 @@
 ---
 sidebar_position: 13
-title: 선형 치수 명령어 — KulmanLab CAD에서 수평 및 수직 치수
-description: 선형 치수 명령어는 두 점 사이의 수평 또는 수직 거리를 측정합니다. 치수 선은 항상 축 정렬됩니다 — H 또는 V를 눌러 방향을 잠그거나, 커서 위치가 자동으로 결정하도록 합니다. DXF DIMENSION 객체로 완전한 왕복 지원.
+title: Dimension Linear 명령어 — KulmanLab CAD에서 수평 및 수직 치수
+description: Dimension Linear 명령어는 두 점 사이의 수평 또는 수직 거리를 측정합니다. 치수 선은 항상 축 정렬됩니다 — H 또는 V를 눌러 방향을 잠그거나, 커서 위치가 자동으로 결정하도록 합니다. DXF DIMENSION 객체로 완전한 왕복 지원.
 keywords: [CAD 선형 치수, 수평 치수 CAD, 수직 치수 CAD, dimlinear, H V 방향 잠금, 치수 오프셋, kulmanlab]
 ---
 
-# 선형 치수
+# Dimension Linear
 
-`dimlinear` 명령어는 두 개의 치수 보조선 시작점 사이에 수평 또는 수직 치수를 배치합니다. 치수 선은 항상 완전히 수평 또는 수직으로 실행됩니다 — 임의 각도로 배치할 수 없습니다. 대각선에 평행한 치수가 필요하면 [정렬 치수](../dim-aligned/)를 사용하세요.
+`dimlinear` 명령어는 두 개의 치수 보조선 시작점 사이에 수평 또는 수직 치수를 배치합니다. 치수 선은 항상 완전히 수평 또는 수직으로 실행됩니다 — 임의 각도로 배치할 수 없습니다. 대각선에 평행한 치수가 필요하면 [Dimension Aligned](../dim-aligned/)를 사용하세요.
 
 ## 선형 치수의 구조
 
@@ -24,7 +24,7 @@ keywords: [CAD 선형 치수, 수평 치수 CAD, 수직 치수 CAD, dimlinear, H
 
 ## 선형 치수 배치
 
-1. 터미널에 `dimlinear`를 입력하거나 **선형 치수** 도구 모음 버튼을 클릭합니다.
+1. 터미널에 `dimlinear`를 입력하거나 **Dimension Linear** 도구 모음 버튼을 클릭합니다.
 2. **첫 번째 치수 보조선 시작점(p1)을 클릭**하거나, `X,Y`를 입력하고 **Enter**를 눌러 정확한 좌표를 입력합니다.
 3. **두 번째 치수 보조선 시작점(p2)을 클릭**합니다. 여기서도 좌표 입력이 작동합니다.
 4. **커서를 이동**하여 치수 선 위치를 설정합니다. 방향이 커서 위치에서 자동으로 감지됩니다.
@@ -65,9 +65,9 @@ keywords: [CAD 선형 치수, 수평 치수 CAD, 수직 치수 CAD, dimlinear, H
 | `Enter` / `Space` | 입력한 좌표 또는 오프셋 확인 |
 | `Escape` | 취소 |
 
-## 선형 치수 vs 정렬 치수
+## Dimension Linear vs Dimension Aligned
 
-| | 선형 치수 | 정렬 치수 |
+| | Dimension Linear | Dimension Aligned |
 |--|----------|----------|
 | 축 | 항상 H 또는 V | 측정 선에 평행 |
 | 측정 내용 | X 또는 Y 구성 요소만 | 실제 유클리드 거리 |
@@ -89,7 +89,7 @@ keywords: [CAD 선형 치수, 수평 치수 CAD, 수직 치수 CAD, dimlinear, H
 
 ## 치수 연결
 
-이 치수를 배치한 직후 마지막 치수 보조선에서 계속되는 치수를 추가하려면 [연속 치수](../dim-continue/)를 사용하세요.
+이 치수를 배치한 직후 마지막 치수 보조선에서 계속되는 치수를 추가하려면 [Dimension Continue](../dim-continue/)를 사용하세요.
 
 ## DXF — DIMENSION 객체
 

@@ -1,11 +1,11 @@
 ---
-title: Lệnh Đường Đa Đoạn — Vẽ Đường Dẫn Nhiều Đoạn Thành Một Thực Thể trong KulmanLab CAD
+title: Lệnh Polyline — Vẽ Đường Dẫn Nhiều Đoạn Thành Một Thực Thể trong KulmanLab CAD
 description: Lệnh Polyline vẽ bất kỳ số lượng đoạn nối nhau được lưu dưới dạng một thực thể LWPOLYLINE. Điểm kéo đỉnh và điểm giữa đoạn cho phép định hình lại bất kỳ phần nào của đường dẫn sau khi tạo. Hỗ trợ offset; không hỗ trợ cắt hoặc kéo dài.
 ---
 
-# Đường Đa Đoạn
+# Polyline
 
-Lệnh `polyline` vẽ một đường dẫn liên kết gồm bất kỳ số lượng đoạn thẳng nào, tất cả được lưu dưới dạng một thực thể `LWPOLYLINE` duy nhất. Vì toàn bộ đường dẫn là một đối tượng, chọn nó sẽ chọn mọi đoạn cùng lúc — di chuyển, xoay hoặc chia tỉ lệ toàn bộ hình dạng trong một thao tác. Đây là điểm khác biệt chính so với [Đường Thẳng](../line/) nối tiếp, nơi mỗi đoạn là thực thể độc lập.
+Lệnh `polyline` vẽ một đường dẫn liên kết gồm bất kỳ số lượng đoạn thẳng nào, tất cả được lưu dưới dạng một thực thể `LWPOLYLINE` duy nhất. Vì toàn bộ đường dẫn là một đối tượng, chọn nó sẽ chọn mọi đoạn cùng lúc — di chuyển, xoay hoặc chia tỉ lệ toàn bộ hình dạng trong một thao tác. Đây là điểm khác biệt chính so với [Line](../line/) nối tiếp, nơi mỗi đoạn là thực thể độc lập.
 
 ## Vẽ đường đa đoạn
 
@@ -38,13 +38,13 @@ Một đường đa đoạn được chọn có hai loại điểm kéo:
 | `Space` | Kết thúc đường đa đoạn |
 | `Escape` | Loại bỏ tất cả điểm và thoát |
 
-## Đường Đa Đoạn vs Đường Thẳng — khi nào dùng cái nào
+## Polyline vs Line — khi nào dùng cái nào
 
-| | Đường Đa Đoạn | Đường Thẳng |
+| | Polyline | Line |
 |---|------|------|
 | Số lượng thực thể | Một `LWPOLYLINE` cho toàn bộ đường dẫn | Một `LINE` cho mỗi đoạn |
 | Hình dạng đóng | Có (cờ đóng) | Không |
-| Cắt / Kéo Dài | Không | Có — từng đoạn |
+| Trim / Extend | Không | Có — từng đoạn |
 | Tốt nhất cho | Đường viền, vật thể bạn giữ nguyên | Đường xây dựng, hình học bạn sẽ cắt |
 
 ## DXF — thực thể LWPOLYLINE

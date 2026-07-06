@@ -1,11 +1,11 @@
 ---
-title: Lệnh Bo Góc — Làm Tròn Góc Giữa Hai Đường Thẳng trong KulmanLab CAD
+title: Lệnh Fillet — Làm Tròn Góc Giữa Hai Đường Thẳng trong KulmanLab CAD
 description: Lệnh Fillet kết nối hai thực thể Đường thẳng bằng một cung tiếp tuyến có bán kính xác định, cắt ngắn mỗi đường thẳng trở lại điểm tiếp tuyến. Bản xem trước cung nét đứt giúp chọn góc đúng trước khi nhấp.
 ---
 
-# Bo Góc
+# Fillet
 
-Lệnh `fillet` làm tròn góc giữa hai thực thể [Đường thẳng](../line/) bằng cách chèn một cung tiếp tuyến có bán kính nhất định và cắt ngắn mỗi đường thẳng trở lại điểm nơi cung bắt đầu. Kết quả là một góc mượt mà, có bán kính nối cả hai đường thẳng.
+Lệnh `fillet` làm tròn góc giữa hai thực thể [Line](../line/) bằng cách chèn một cung tiếp tuyến có bán kính nhất định và cắt ngắn mỗi đường thẳng trở lại điểm nơi cung bắt đầu. Kết quả là một góc mượt mà, có bán kính nối cả hai đường thẳng.
 
 Bo góc chỉ hoạt động trên **thực thể Đường thẳng**.
 
@@ -32,9 +32,9 @@ Bo góc chỉ hoạt động trên **thực thể Đường thẳng**.
 | `Enter` | Xác nhận bán kính đã gõ và chuyển sang chọn đường thẳng |
 | `Escape` | Hủy và đặt lại |
 
-## Bo Góc vs Vát Góc
+## Fillet vs Chamfer
 
-| | Bo Góc | Vát Góc |
+| | Fillet | Chamfer |
 |---|------|------|
 | Loại góc | Cung tròn | Vát thẳng |
 | Đầu vào | Một bán kính | Hai khoảng cách (d1, d2) |

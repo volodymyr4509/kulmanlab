@@ -1,9 +1,9 @@
 ---
-title: Khớp Thuộc Tính — Sao Chép Thuộc Tính Thực Thể trong KulmanLab CAD
+title: Match Properties — Sao Chép Thuộc Tính Thực Thể trong KulmanLab CAD
 description: Lệnh MatchProperties sao chép màu sắc, lớp và các thuộc tính dùng chung khác từ thực thể nguồn sang một hoặc nhiều thực thể mục tiêu. Khớp thuộc tính giống như các công cụ CAD máy tính để bàn.
 ---
 
-# Khớp Thuộc Tính
+# Match Properties
 
 Lệnh `MatchProperties` sao chép **thuộc tính trực quan và lớp** từ thực thể nguồn sang một hoặc nhiều thực thể mục tiêu. Chỉ các thuộc tính được chia sẻ giữa loại thực thể nguồn và mục tiêu mới được chuyển — hình học không bao giờ bị thay đổi.
 
@@ -35,7 +35,7 @@ Tối thiểu, **tất cả loại thực thể** chia sẻ các thuộc tính n
 | **Màu sắc** | Chỉ số màu của thực thể (bao gồm "By Layer" / "By Block") |
 | **Lớp** | Lớp mà thực thể thuộc về |
 
-Đối với thực thể có văn bản (**Văn bản**, **Kích Thước**, **Đường Dẫn Đa**), chỉ chiều cao văn bản được sao chép — phông chữ, in đậm, in nghiêng và các cài đặt kiểu văn bản khác không được khớp.
+Đối với thực thể có văn bản (**Text**, **Dimension**, **Leader**), chỉ chiều cao văn bản được sao chép — phông chữ, in đậm, in nghiêng và các cài đặt kiểu văn bản khác không được khớp.
 
 ## Tham khảo phím tắt
 

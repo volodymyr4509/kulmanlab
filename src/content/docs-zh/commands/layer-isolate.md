@@ -1,20 +1,20 @@
 ---
 sidebar_position: 1
-title: 图层隔离 — 在 KulmanLab CAD 中冻结除选中图元以外的所有图层
+title: LayerIsolate — 在 KulmanLab CAD 中冻结除选中图元以外的所有图层
 description: 图层隔离命令冻结除属于选中对象的图层以外的每个图层，让您专注于特定几何图形而无需永久删除任何内容。
 keywords: [图层隔离, 冻结图层 CAD, 隔离图层 kulmanlab, CAD 图层管理, kulmanlab]
 ---
 
-# 图层隔离
+# LayerIsolate
 
-`LayerIsolate`（图层隔离）命令冻结**除**属于选中对象的图层以外的每个图层。使用它可以快速专注于特定几何图形，而无需永久隐藏或删除任何内容 — 完成后用[解冻所有图层](../layer-unfreeze-all/)恢复。
+`LayerIsolate`（图层隔离）命令冻结**除**属于选中对象的图层以外的每个图层。使用它可以快速专注于特定几何图形，而无需永久隐藏或删除任何内容 — 完成后用[LayerUnfreezeAll](../layer-unfreeze-all/)恢复。
 
 ## 两种启动方式
 
 **预先选择，然后隔离** — 先选择图元，再激活：
 
 1. 在画布上选择一个或多个图元。
-2. 在命令行中输入 `LayerIsolate`，或单击工具栏中的**图层隔离**按钮。
+2. 在命令行中输入 `LayerIsolate`，或单击工具栏中的**LayerIsolate**按钮。
 3. 选中图元所在的图层保持可见；所有其他图层立即被冻结。
 
 **激活后选择**：
@@ -39,4 +39,4 @@ keywords: [图层隔离, 冻结图层 CAD, 隔离图层 kulmanlab, CAD 图层管
 
 ## 撤销隔离
 
-运行[解冻所有图层](../layer-unfreeze-all/)可一步将所有图层恢复为可见。
+运行[LayerUnfreezeAll](../layer-unfreeze-all/)可一步将所有图层恢复为可见。

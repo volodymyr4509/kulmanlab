@@ -102,7 +102,7 @@ Benvenuto nel riferimento comandi di **KulmanLab CAD**. [KulmanLab CAD](https://
 | [Files](./commands/files/) | Sfoglia e ripristina i disegni recenti |
 | [Print](./commands/print/) | Esporta un'area del disegno come immagine o PDF |
 | [Export](./commands/export/) | Scarica il disegno come DXF o JSON |
-| [WipeStorage](./commands/wipestorage/) | Cancella tutti i disegni dall'archivio del browser |
+| [Wipe Storage](./commands/wipestorage/) | Cancella tutti i disegni dall'archivio del browser |
 
 ## Ripristino
 
@@ -112,7 +112,7 @@ Se l'applicazione si blocca ad ogni avvio (ad esempio dopo aver lavorato con coo
 https://kulmanlab.com/?resetKulmanLocalStorage
 ```
 
-Questo elimina tutto dal database locale del browser e avvia un nuovo disegno vuoto. Il parametro `?reset` si rimuove automaticamente dall'URL. Usalo come ultima risorsa quando [WipeStorage](./commands/wipestorage/) non è accessibile perché l'applicazione non si carica del tutto.
+Questo elimina tutto dal database locale del browser e avvia un nuovo disegno vuoto. Il parametro `?reset` si rimuove automaticamente dall'URL. Usalo come ultima risorsa quando [Wipe Storage](./commands/wipestorage/) non è accessibile perché l'applicazione non si carica del tutto.
 
 ## Come funzionano i comandi
 

@@ -1,11 +1,11 @@
 ---
-title: Lệnh Thu Nhỏ — Giảm Phóng To Khung Nhìn 1.5× Mỗi Bước trong KulmanLab CAD
+title: Lệnh Zoom Out — Giảm Phóng To Khung Nhìn 1.5× Mỗi Bước trong KulmanLab CAD
 description: Lệnh Zoom Out chia mức phóng to hiện tại cho 1.5× và thoát ngay lập tức. Được căn giữa theo giữa khung nhìn. Dùng bánh xe cuộn để thu nhỏ hướng con trỏ để kiểm soát tốt hơn.
 ---
 
-# Thu Nhỏ
+# Zoom Out
 
-Lệnh `zoomout` chia mức phóng to hiện tại cho **1.5×** (tương đương nhân với ~0.667) và thoát ngay lập tức, được căn giữa theo giữa khung nhìn. Đây là nghịch đảo của [Phóng To](../zoom-in/).
+Lệnh `zoomout` chia mức phóng to hiện tại cho **1.5×** (tương đương nhân với ~0.667) và thoát ngay lập tức, được căn giữa theo giữa khung nhìn. Đây là nghịch đảo của [Zoom In](../zoom-in/).
 
 ## Thu nhỏ
 
@@ -13,7 +13,7 @@ Nhấp nút **Zoom Out** trên thanh công cụ hoặc gõ `zoomout` trong termi
 
 ## Cách bước 1.5× hoạt động
 
-| Phóng to hiện tại | Sau một lần Thu Nhỏ |
+| Phóng to hiện tại | Sau một lần Zoom Out |
 |------------------|---------------------|
 | 1.50× | 1.00× |
 | 2.25× | 1.50× |
@@ -24,7 +24,7 @@ Mức phóng to luôn hiển thị ở **góc dưới bên phải** của canvas
 
 ## Nút thu nhỏ thanh công cụ vs bánh xe cuộn
 
-| | Nút Thu Nhỏ | Bánh xe cuộn |
+| | Nút Zoom Out | Bánh xe cuộn |
 |---|------|------|
 | Tâm phóng to | Giữa khung nhìn | Vị trí con trỏ |
 | Bước | 1.5× mỗi lần nhấp | ~1.1× mỗi nhấp |
@@ -35,6 +35,6 @@ Mức phóng to luôn hiển thị ở **góc dưới bên phải** của canvas
 
 | Lệnh | Tác dụng |
 |------|---------|
-| [Phóng To](../zoom-in/) | Nhân phóng to 1.5× mỗi bước |
-| [Vừa Khung](../fit/) | Đặt lại phóng to để hiển thị tất cả thực thể |
-| [Di Chuyển Màn Hình](../pan/) | Dịch chuyển khung nhìn mà không phóng to |
+| [Zoom In](../zoom-in/) | Nhân phóng to 1.5× mỗi bước |
+| [Fit](../fit/) | Đặt lại phóng to để hiển thị tất cả thực thể |
+| [Pan](../pan/) | Dịch chuyển khung nhìn mà không phóng to |

@@ -1,13 +1,13 @@
 ---
 sidebar_position: 3
-title: Polecenie Prostokąt — Rysowanie prostokątów wyrównanych do osi w KulmanLab CAD
-description: Polecenie Prostokąt tworzy prostokąt wyrównany do osi z dwóch przeciwnych narożników. Wynikiem jest zamknięty element LWPOLYLINE z czterema wierzchołkami — identyczny z każdą inną polilinią po umieszczeniu, więc każde polecenie edycji polilinii ma do niego zastosowanie.
+title: Polecenie Rectangle — Rysowanie prostokątów wyrównanych do osi w KulmanLab CAD
+description: Polecenie Rectangle tworzy prostokąt wyrównany do osi z dwóch przeciwnych narożników. Wynikiem jest zamknięty element LWPOLYLINE z czterema wierzchołkami — identyczny z każdą inną polilinią po umieszczeniu, więc każde polecenie edycji polilinii ma do niego zastosowanie.
 keywords: [polecenie prostokąta CAD, rysowanie prostokąta CAD, prostokąt wyrównany do osi, zamknięta polilinia CAD, LWPOLYLINE DXF, edycja uchwytu prostokąta, kulmanlab]
 ---
 
-# Prostokąt
+# Rectangle
 
-Polecenie `rectangle` rysuje prostokąt wyrównany do osi, zdefiniowany przez dwa kliknięcia przeciwnych narożników. Wynik jest przechowywany jako **zamknięty element `LWPOLYLINE`** z czterema wierzchołkami — po jednym w każdym narożniku. Nie ma dedykowanego typu elementu prostokąt: po utworzeniu kształt zachowuje się dokładnie jak każda inna [Polilinia](../polyline/) i każda edycja polilinii ma do niego zastosowanie.
+Polecenie `rectangle` rysuje prostokąt wyrównany do osi, zdefiniowany przez dwa kliknięcia przeciwnych narożników. Wynik jest przechowywany jako **zamknięty element `LWPOLYLINE`** z czterema wierzchołkami — po jednym w każdym narożniku. Nie ma dedykowanego typu elementu prostokąt: po utworzeniu kształt zachowuje się dokładnie jak każda inna [Polyline](../polyline/) i każda edycja polilinii ma do niego zastosowanie.
 
 ## Rysowanie prostokąta
 
@@ -68,17 +68,17 @@ Ponieważ prostokąt jest polilinią, zaznaczanie działa w ten sam sposób:
 
 ## Obsługiwane polecenia edycji
 
-Wszystkie polecenia edycji polilinii mają zastosowanie. Przytnij i Przedłuż dotyczą tylko [Linii](../line/) i nie działają na prostokątach:
+Wszystkie polecenia edycji polilinii mają zastosowanie. Trim i Extend dotyczą tylko [Line](../line/) i nie działają na prostokątach:
 
 | Polecenie | Co dzieje się z prostokątem |
 |-----------|-----------------------------|
-| [Przesuń](../move/) | Translacja wszystkich czterech wierzchołków o to samo przesunięcie |
-| [Kopiuj](../copy/) | Tworzy identyczny prostokąt w nowej pozycji |
-| [Obróć](../rotate/) | Obraca wszystkie cztery wierzchołki wokół wybranego punktu bazowego |
-| [Odbij](../mirror/) | Odbija wszystkie cztery wierzchołki przez oś odbicia |
-| [Skaluj](../scale/) | Skaluje wszystkie cztery wierzchołki równomiernie od punktu bazowego |
-| [Odsunięcie](../offset/) | Tworzy równoległy (wewnętrzny lub zewnętrzny) prostokąt w stałej odległości |
-| [Usuń](../delete/) | Usuwa prostokąt z rysunku |
+| [Move](../move/) | Translacja wszystkich czterech wierzchołków o to samo przesunięcie |
+| [Copy](../copy/) | Tworzy identyczny prostokąt w nowej pozycji |
+| [Rotate](../rotate/) | Obraca wszystkie cztery wierzchołki wokół wybranego punktu bazowego |
+| [Mirror](../mirror/) | Odbija wszystkie cztery wierzchołki przez oś odbicia |
+| [Scale](../scale/) | Skaluje wszystkie cztery wierzchołki równomiernie od punktu bazowego |
+| [Offset](../offset/) | Tworzy równoległy (wewnętrzny lub zewnętrzny) prostokąt w stałej odległości |
+| [Delete](../delete/) | Usuwa prostokąt z rysunku |
 
 ## Właściwości
 

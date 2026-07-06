@@ -47,5 +47,5 @@ Bir DXF dosyası [içe aktarıldığında](../import/) ada **zaman damgası** ek
 
 - [Import](../import/) — cihazdan dosya açar
 - [Export](../export/) — çizimi cihaza indirir
-- [WipeStorage](../wipestorage/) — depodan tüm çizimleri siler
+- [Wipe Storage](../wipestorage/) — depodan tüm çizimleri siler
 - [New File](../new-file/) — yeni boş çizim başlatır

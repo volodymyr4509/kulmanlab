@@ -1,11 +1,11 @@
 ---
 sidebar_position: 5
-title: Polecenie Łuk — Rysowanie łuków trójpunktowych metodą okręgu opisanego w KulmanLab CAD
-description: Polecenie Łuk rysuje łuk kołowy przez dokładnie trzy kliknięte punkty, używając geometrii okręgu opisanego. Uchwyty początku i końca pozwalają przeciągać punkty końcowe łuku do nowego kąta i promienia po umieszczeniu. Pełna obsługa zapisu i odczytu DXF jako elementy ARC.
+title: Polecenie Arc — Rysowanie łuków trójpunktowych metodą okręgu opisanego w KulmanLab CAD
+description: Polecenie Arc rysuje łuk kołowy przez dokładnie trzy kliknięte punkty, używając geometrii okręgu opisanego. Uchwyty początku i końca pozwalają przeciągać punkty końcowe łuku do nowego kąta i promienia po umieszczeniu. Pełna obsługa zapisu i odczytu DXF jako elementy ARC.
 keywords: [polecenie łuku CAD, łuk trójpunktowy CAD, łuk przez okrąg opisany, rysowanie łuku CAD, element ARC DXF, edycja uchwytu łuku, kulmanlab]
 ---
 
-# Łuk
+# Arc
 
 Polecenie `arc` rysuje łuk kołowy przez trzy kliknięte punkty. Łuk obliczany jest jako jedyny okrąg opisany przechodzący przez wszystkie trzy punkty — nie trzeba bezpośrednio podawać środka ani promienia. Łuk biegnie od pierwszego kliknięcia do trzeciego, przechodząc przez drugie.
 
@@ -69,13 +69,13 @@ Zaznaczony łuk eksponuje trzy uchwyty:
 
 | Polecenie | Co dzieje się z łukiem |
 |-----------|------------------------|
-| [Przesuń](../move/) | Translacja środka; promień i kąty bez zmian |
-| [Kopiuj](../copy/) | Tworzy identyczny łuk w nowej pozycji |
-| [Obróć](../rotate/) | Obraca środek i przesuwa kąty początku/końca o kąt obrotu |
-| [Odbij](../mirror/) | Odbija środek i odwraca kąty początku/końca względem osi odbicia |
-| [Skaluj](../scale/) | Skaluje pozycję środka i mnoży promień przez współczynnik skali |
-| [Odsunięcie](../offset/) | Tworzy współśrodkowy łuk przy większym lub mniejszym promieniu, zachowując ten sam zakres kąta |
-| [Usuń](../delete/) | Usuwa łuk |
+| [Move](../move/) | Translacja środka; promień i kąty bez zmian |
+| [Copy](../copy/) | Tworzy identyczny łuk w nowej pozycji |
+| [Rotate](../rotate/) | Obraca środek i przesuwa kąty początku/końca o kąt obrotu |
+| [Mirror](../mirror/) | Odbija środek i odwraca kąty początku/końca względem osi odbicia |
+| [Scale](../scale/) | Skaluje pozycję środka i mnoży promień przez współczynnik skali |
+| [Offset](../offset/) | Tworzy współśrodkowy łuk przy większym lub mniejszym promieniu, zachowując ten sam zakres kąta |
+| [Delete](../delete/) | Usuwa łuk |
 
 ## Właściwości
 

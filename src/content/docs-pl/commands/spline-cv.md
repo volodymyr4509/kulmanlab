@@ -1,11 +1,11 @@
 ---
 sidebar_position: 8
-title: Polecenie Splajn CV — Rysowanie B-splajnów przez umieszczanie wierzchołków kontrolnych w KulmanLab CAD
-description: Polecenie Splajn CV rysuje sześcienny B-splajn przez umieszczanie wierzchołków kontrolnych. Krzywa jest przyciągana do wierzchołków, ale przechodzi tylko przez pierwszy i ostatni (zaciśnięte węzły). Każdy uchwyt CV można przeciągnąć, aby przekształcić krzywą po umieszczeniu. Pełna obsługa zapisu i odczytu DXF jako elementy SPLINE.
+title: Polecenie Spline CV — Rysowanie B-splajnów przez umieszczanie wierzchołków kontrolnych w KulmanLab CAD
+description: Polecenie Spline CV rysuje sześcienny B-splajn przez umieszczanie wierzchołków kontrolnych. Krzywa jest przyciągana do wierzchołków, ale przechodzi tylko przez pierwszy i ostatni (zaciśnięte węzły). Każdy uchwyt CV można przeciągnąć, aby przekształcić krzywą po umieszczeniu. Pełna obsługa zapisu i odczytu DXF jako elementy SPLINE.
 keywords: [polecenie splajnu CAD, wierzchołki kontrolne B-splajnu, zaciśnięty splajn CAD, rysowanie splajnu CAD, element SPLINE DXF, edycja uchwytu splajnu, kulmanlab]
 ---
 
-# Splajn CV
+# Spline CV
 
 Polecenie `splinecv` rysuje **sześcienny B-splajn** przez umieszczanie wierzchołków kontrolnych (CV). Wynikowa krzywa jest przyciągana do każdego CV, ale przez nie nie przechodzi — z wyjątkiem pierwszego i ostatniego wierzchołka, gdzie **zaciśnięte węzły** zakotwiczają krzywą dokładnie. Daje to intuicyjną kontrolę kształtu: pociągnij wierzchołek, aby pchnąć krzywą w jego kierunku, bez zmuszania jej do dotknięcia każdego punktu.
 
@@ -52,7 +52,7 @@ Zaznaczony splajn CV eksponuje jeden uchwyt na wierzchołek kontrolny:
 |--------|---------|---------|
 | **Wierzchołek kontrolny** | W każdej pozycji CV | Przeciągnij, aby przesunąć ten CV — krzywa przekształca się w kierunku nowej pozycji |
 
-Nie ma uchwytu "przesuń cały splajn". Aby translować cały splajn, użyj polecenia [Przesuń](../move/).
+Nie ma uchwytu "przesuń cały splajn". Aby translować cały splajn, użyj polecenia [Move](../move/).
 
 ## Zaznaczanie splajnów CV
 
@@ -66,14 +66,14 @@ Nie ma uchwytu "przesuń cały splajn". Aby translować cały splajn, użyj pole
 
 | Polecenie | Co dzieje się ze splajnem |
 |-----------|---------------------------|
-| [Przesuń](../move/) | Translacja wszystkich wierzchołków kontrolnych o to samo przesunięcie |
-| [Kopiuj](../copy/) | Tworzy identyczny splajn w nowej pozycji |
-| [Obróć](../rotate/) | Obraca wszystkie CV wokół wybranego punktu bazowego |
-| [Odbij](../mirror/) | Odbija wszystkie CV przez oś odbicia |
-| [Skaluj](../scale/) | Skaluje wszystkie CV równomiernie od punktu bazowego |
-| [Usuń](../delete/) | Usuwa splajn |
+| [Move](../move/) | Translacja wszystkich wierzchołków kontrolnych o to samo przesunięcie |
+| [Copy](../copy/) | Tworzy identyczny splajn w nowej pozycji |
+| [Rotate](../rotate/) | Obraca wszystkie CV wokół wybranego punktu bazowego |
+| [Mirror](../mirror/) | Odbija wszystkie CV przez oś odbicia |
+| [Scale](../scale/) | Skaluje wszystkie CV równomiernie od punktu bazowego |
+| [Delete](../delete/) | Usuwa splajn |
 
-Splajny nie obsługują **Odsunięcia**, **Przytnij** ani **Przedłuż**.
+Splajny nie obsługują **Offset**, **Trim** ani **Extend**.
 
 ## Właściwości
 

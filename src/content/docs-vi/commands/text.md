@@ -1,9 +1,9 @@
 ---
-title: Lệnh Văn Bản — Đặt Nhãn MTEXT trong KulmanLab CAD
+title: Lệnh Text — Đặt Nhãn MTEXT trong KulmanLab CAD
 description: Lệnh Text đặt nhãn MTEXT nhiều dòng, có định dạng phong phú. Nhấp vị trí, gõ trong trình soạn thảo popup và nhấn Escape để xác nhận. Nhấp đúp bất kỳ nhãn hiện có nào để mở lại trình soạn thảo.
 ---
 
-# Văn Bản
+# Text
 
 Lệnh `text` đặt nhãn văn bản nhiều dòng. Sau khi bạn nhấp vị trí trên canvas, trình soạn thảo popup mở ở chế độ **phong phú** — bạn có thể gõ nội dung, áp dụng in đậm/in nghiêng/gạch ngang theo từng ký tự, thay đổi phông chữ và chiều cao, và chèn ngắt dòng. Nhấn **Escape** để xác nhận và đóng trình soạn thảo.
 
@@ -48,12 +48,12 @@ Chiều cao mặc định là **12 đơn vị bản vẽ**.
 
 | Lệnh | Tác dụng với văn bản |
 |------|---------------------|
-| [Di Chuyển](../move/) | Di chuyển điểm neo |
-| [Sao Chép](../copy/) | Tạo nhãn giống hệt tại vị trí mới |
-| [Xoay](../rotate/) | Xoay vị trí neo và thêm góc vào Độ Xoay |
-| [Đối Xứng](../mirror/) | Phản chiếu điểm neo (chuỗi văn bản không bị lật) |
-| [Tỉ Lệ](../scale/) | Chia tỉ lệ điểm neo và nhân chiều cao với hệ số |
-| [Xóa](../delete/) | Xóa nhãn |
+| [Move](../move/) | Di chuyển điểm neo |
+| [Copy](../copy/) | Tạo nhãn giống hệt tại vị trí mới |
+| [Rotate](../rotate/) | Xoay vị trí neo và thêm góc vào Độ Xoay |
+| [Mirror](../mirror/) | Phản chiếu điểm neo (chuỗi văn bản không bị lật) |
+| [Scale](../scale/) | Chia tỉ lệ điểm neo và nhân chiều cao với hệ số |
+| [Delete](../delete/) | Xóa nhãn |
 
 ## DXF — thực thể MTEXT
 

@@ -27,7 +27,7 @@ Cánh tay được đặt và lệnh vẫn hoạt động — bạn có thể ng
 
 ## Ghi chú
 
-- Chỉ có thể chọn thực thể **Đường Dẫn Đa** — nhấp vào bất kỳ loại thực thể nào khác sẽ không có hiệu lực.
+- Chỉ có thể chọn thực thể **Leader** — nhấp vào bất kỳ loại thực thể nào khác sẽ không có hiệu lực.
 - Cánh tay mới bắt đầu từ đoạn gấp khúc hiện có; bạn chỉ chọn vị trí đầu mũi tên.
 - Không có giới hạn số lượng cánh tay mà một đường dẫn đa có thể có.
 
@@ -35,5 +35,5 @@ Cánh tay được đặt và lệnh vẫn hoạt động — bạn có thể ng
 
 | Lệnh | Tác dụng |
 |------|---------|
-| [Đường Dẫn](../leader/) | Tạo một đường dẫn đa hoàn toàn mới |
+| [Leader](../leader/) | Tạo một đường dẫn đa hoàn toàn mới |
 | [Leader−](../leader-remove/) | Xóa một cánh tay khỏi đường dẫn đa có từ hai cánh tay trở lên |

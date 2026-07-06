@@ -64,7 +64,7 @@ keywords: [角度寸法 CAD, 角度寸法, 直線間角度計測, DimensionAngul
 
 ## 関連コマンド
 
-- [寸法 水平垂直](../dim-linear/) — 水平または垂直寸法
-- [寸法 整列](../dim-aligned/) — 2 点に整列した寸法
-- [寸法 半径](../dim-radius/) — 円弧と円の半径寸法
-- [寸法 直径](../dim-diameter/) — 円の直径寸法
+- [Dimension Linear](../dim-linear/) — 水平または垂直寸法
+- [Dimension Aligned](../dim-aligned/) — 2 点に整列した寸法
+- [Dimension Radius](../dim-radius/) — 円弧と円の半径寸法
+- [Dimension Diameter](../dim-diameter/) — 円の直径寸法

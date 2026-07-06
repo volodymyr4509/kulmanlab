@@ -1,9 +1,9 @@
 ---
-title: Nhập — Mở Tệp DXF hoặc JSON trong KulmanLab CAD
+title: Import — Mở Tệp DXF hoặc JSON trong KulmanLab CAD
 description: Dùng lệnh Import để mở các tệp DXF hoặc JSON của KulmanLab trong KulmanLab CAD. Hỗ trợ đường thẳng, hình tròn, cung, đường đa đoạn, spline, văn bản, kích thước và đường dẫn.
 ---
 
-# Nhập
+# Import
 
 Lệnh **Import** tải một bản vẽ hiện có từ hệ thống tệp cục bộ vào KulmanLab CAD. Cả định dạng **DXF** tiêu chuẩn và định dạng **JSON** của KulmanLab đều được hỗ trợ.
 
@@ -46,7 +46,7 @@ Khi nhập tệp, dấu thời gian được thêm vào tên tệp. Bản vẽ t
 
 ## Điều gì xảy ra với bản vẽ hiện tại
 
-Nhập thay thế canvas hiện tại. Không có tính năng hợp nhất hoặc thêm vào. Nếu bạn có thay đổi chưa lưu, hãy [xuất](../export/) bản vẽ hiện tại trước.
+Import thay thế canvas hiện tại. Không có tính năng hợp nhất hoặc thêm vào. Nếu bạn có thay đổi chưa lưu, hãy [Export](../export/) bản vẽ hiện tại trước.
 
 ## Xử lý sự cố
 
@@ -57,6 +57,6 @@ Nhập thay thế canvas hiện tại. Không có tính năng hợp nhất hoặ
 
 ## Các lệnh liên quan
 
-- [Xuất](../export/) — tải bản vẽ hiện tại dưới dạng DXF hoặc JSON
-- [Tệp](../files/) — duyệt và khôi phục bản vẽ đã lưu trong trình duyệt
-- [Tệp Mới](../new-file/) — bắt đầu bản vẽ trắng
+- [Export](../export/) — tải bản vẽ hiện tại dưới dạng DXF hoặc JSON
+- [Files](../files/) — duyệt và khôi phục bản vẽ đã lưu trong trình duyệt
+- [New File](../new-file/) — bắt đầu bản vẽ trắng

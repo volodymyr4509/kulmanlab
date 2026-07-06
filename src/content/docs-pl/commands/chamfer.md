@@ -1,13 +1,13 @@
 ---
 sidebar_position: 21
-title: Polecenie Fazowanie — Ścięcie prostego narożnika między dwiema liniami w KulmanLab CAD
-description: Polecenie Fazowanie łączy dwa elementy Linia lub Polilinia prostym ukośnym cięciem. Podajesz dwie odległości — jedną wzdłuż każdego elementu — a polecenie przycina oba do tych punktów i wstawia łączącą linię.
+title: Polecenie Chamfer — Ścięcie prostego narożnika między dwiema liniami w KulmanLab CAD
+description: Polecenie Chamfer łączy dwa elementy Linia lub Polilinia prostym ukośnym cięciem. Podajesz dwie odległości — jedną wzdłuż każdego elementu — a polecenie przycina oba do tych punktów i wstawia łączącą linię.
 keywords: [polecenie fazowania CAD, fazowanie linii CAD, ukośne cięcie narożnika, fazowanie narożnika CAD, kulmanlab]
 ---
 
-# Fazowanie
+# Chamfer
 
-Polecenie `chamfer` ścina prosty ukośny narożnik między dwoma elementami [Linia](../line/) lub [Polilinia](../polyline/). Podajesz odległość cofnięcia wzdłuż każdego elementu (d1 i d2), a polecenie przycina oba elementy do tych punktów i wstawia łączącą linię między nimi.
+Polecenie `chamfer` ścina prosty ukośny narożnik między dwoma elementami [Line](../line/) lub [Polyline](../polyline/). Podajesz odległość cofnięcia wzdłuż każdego elementu (d1 i d2), a polecenie przycina oba elementy do tych punktów i wstawia łączącą linię między nimi.
 
 Użycie równych odległości daje symetryczne cięcie pod kątem 45°; różne odległości dają niesymetryczne fazowanie.
 

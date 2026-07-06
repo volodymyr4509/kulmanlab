@@ -1,9 +1,9 @@
 ---
-title: Xuất — Tải Bản Vẽ Dưới Dạng DXF hoặc JSON trong KulmanLab CAD
+title: Export — Tải Bản Vẽ Dưới Dạng DXF hoặc JSON trong KulmanLab CAD
 description: Lệnh Export tải bản vẽ hiện tại xuống dưới dạng DXF hoặc JSON (định dạng gốc). JSON lưu giữ tất cả thực thể bao gồm kích thước và đường dẫn; DXF tương thích với các công cụ CAD khác.
 ---
 
-# Xuất
+# Export
 
 Lệnh **Export** tải bản vẽ hiện tại xuống hệ thống tệp của bạn. Có hai định dạng: **DXF** để tương thích với các công cụ CAD khác và **JSON** để lưu đầy đủ trong KulmanLab CAD.
 
@@ -23,7 +23,7 @@ Lệnh **Export** tải bản vẽ hiện tại xuống hệ thống tệp của
 
 ## Nội dung được xuất theo định dạng
 
-### Xuất JSON
+### Export JSON
 
 Tất cả loại thực thể được bao gồm:
 - Đường thẳng, hình tròn, cung, hình elip, đường đa đoạn, spline, văn bản
@@ -31,7 +31,7 @@ Tất cả loại thực thể được bao gồm:
 - Đa đường dẫn
 - Định nghĩa lớp và bảng kiểu đường
 
-### Xuất DXF
+### Export DXF
 
 Chỉ các thực thể hình học được bao gồm:
 - Đường thẳng, hình tròn, cung, hình elip, đường đa đoạn (xuất dưới dạng `LWPOLYLINE`), spline, văn bản
@@ -39,9 +39,9 @@ Chỉ các thực thể hình học được bao gồm:
 
 **Không bao gồm trong DXF:** thực thể kích thước và đa đường dẫn.
 
-## Sự khác biệt giữa Xuất và In
+## Sự khác biệt giữa Export và Print
 
-| Tính năng | Xuất | In |
+| Tính năng | Export | Print |
 |-----------|------|---|
 | Đầu ra | Tệp nguồn vector (.dxf / .json) | Hình ảnh raster (.png / .jpeg / .webp / .pdf) |
 | Có thể chỉnh sửa trong công cụ khác | Có (DXF) | Không |
@@ -50,6 +50,6 @@ Chỉ các thực thể hình học được bao gồm:
 
 ## Các lệnh liên quan
 
-- [Nhập](../import/) — mở tệp DXF hoặc JSON
-- [In](../print/) — xuất canvas dưới dạng hình ảnh PNG, JPEG, WebP hoặc PDF
-- [Tệp](../files/) — duyệt bản vẽ được lưu trong bộ nhớ trình duyệt
+- [Import](../import/) — mở tệp DXF hoặc JSON
+- [Print](../print/) — xuất canvas dưới dạng hình ảnh PNG, JPEG, WebP hoặc PDF
+- [Files](../files/) — duyệt bản vẽ được lưu trong bộ nhớ trình duyệt

@@ -1,17 +1,17 @@
 ---
-title: 矩形视口命令 — 在 KulmanLab CAD 的布局中创建视口
+title: ViewportRectangle命令 — 在 KulmanLab CAD 的布局中创建视口
 description: 矩形视口命令通过拾取两个对角在图纸布局中创建视口。视口以布局默认比例显示模型空间图元。
 keywords: [矩形视口, 创建视口, 布局视口, 图纸空间视口, kulmanlab]
 ---
 
-# 矩形视口
+# ViewportRectangle
 
 `ViewportRectangle`（矩形视口）命令通过拾取两个对角在当前图纸布局中创建新视口。仅在布局空间中可用。
 
 ## 创建视口
 
 1. 使用屏幕底部的标签切换到图纸布局。
-2. 在命令行中输入 `ViewportRectangle`，或单击工具栏中的**矩形视口**按钮。
+2. 在命令行中输入 `ViewportRectangle`，或单击工具栏中的**ViewportRectangle**按钮。
 3. **单击第一个角**，或输入 `X,Y` 并按 **Enter** 键精确输入坐标。
 4. **单击对角** — 视口立即放置。此处也可以输入坐标。
 
@@ -47,4 +47,4 @@ keywords: [矩形视口, 创建视口, 布局视口, 图纸空间视口, kulmanl
 ## 注意事项
 
 - 矩形视口仅在图纸布局标签激活时可用。在模型空间中运行会显示错误消息并退出。
-- 要复制现有视口，请使用[复制视口](../viewport-copy/)。
+- 要复制现有视口，请使用[ViewportCopy](../viewport-copy/)。

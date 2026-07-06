@@ -1,9 +1,9 @@
 ---
-title: Lệnh Trợ Giúp
+title: Lệnh Help
 description: Mở bảng trợ giúp trong ứng dụng KulmanLab CAD. Hiển thị các phím tắt bàn phím, mẹo điều hướng và thông tin liên hệ.
 ---
 
-# Trợ Giúp
+# Help
 
 Mở bảng trợ giúp trong ứng dụng với tóm tắt tất cả các phím tắt bàn phím, mẹo điều hướng và hướng dẫn sử dụng chung.
 

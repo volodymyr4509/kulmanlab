@@ -1,11 +1,11 @@
 ---
 sidebar_position: 2
-title: "Polecenie Powiększ — Powiększanie widoku o 1,5× na krok w KulmanLab CAD"
-description: "Polecenie Powiększ mnoży bieżący poziom powiększenia o 1,5× i natychmiast kończy się, wyśrodkowane na środku widoku. Zakres powiększenia 0,01–10 000. Użyj kółka myszy, aby powiększyć w kierunku kursora."
+title: "Polecenie Zoom In — Powiększanie widoku o 1,5× na krok w KulmanLab CAD"
+description: "Polecenie Zoom In mnoży bieżący poziom powiększenia o 1,5× i natychmiast kończy się, wyśrodkowane na środku widoku. Zakres powiększenia 0,01–10 000. Użyj kółka myszy, aby powiększyć w kierunku kursora."
 keywords: [CAD powiększ, powiększenie widoku, polecenie powiększenia CAD, krok powiększenia 1,5x, kulmanlab]
 ---
 
-# Powiększ
+# Zoom In
 
 Polecenie `zoomin` mnoży bieżący poziom powiększenia o **1,5×** i natychmiast kończy się, wyśrodkowane na środku widoku. Jest to odpowiednik paska narzędzi jednego kliknięcia kółkiem myszy w kierunku środka ekranu, a nie kursora.
 
@@ -41,6 +41,6 @@ Dla tego polecenia nie ma skrótów klawiaturowych. Zamiast tego użyj kółka m
 
 | Polecenie | Co robi |
 |-----------|---------|
-| [Pomniejsz](../zoom-out/) | Dzieli powiększenie o 1,5× na krok |
-| [Dopasuj](../fit/) | Resetuje powiększenie, aby pokazać wszystkie elementy |
-| [Panoramuj](../pan/) | Przesuwa widok bez powiększania |
+| [Zoom Out](../zoom-out/) | Dzieli powiększenie o 1,5× na krok |
+| [Fit](../fit/) | Resetuje powiększenie, aby pokazać wszystkie elementy |
+| [Pan](../pan/) | Przesuwa widok bez powiększania |

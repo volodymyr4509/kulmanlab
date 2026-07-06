@@ -23,7 +23,7 @@ Dostępne są standardowe wartości grubości linii DXF: 0,00, 0,05, 0,09, 0,13,
 
 Wybrana grubość linii jest stosowana do każdego elementu utworzonego po zmianie. Nie wpływa retroaktywnie na istniejące elementy.
 
-Aby zmienić grubość linii istniejących elementów, zaznacz je i edytuj pole **Grubość linii** w panelu właściwości, lub użyj [DopasujWłaściwości](../../commands/match-properties/), aby skopiować ją z innego elementu.
+Aby zmienić grubość linii istniejących elementów, zaznacz je i edytuj pole **Grubość linii** w panelu właściwości, lub użyj [Match Properties](../../commands/match-properties/), aby skopiować ją z innego elementu.
 
 ## Renderowanie
 

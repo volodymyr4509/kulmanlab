@@ -1,11 +1,11 @@
 ---
 sidebar_position: 1
-title: Polecenie Panoramuj — Nawigacja widokiem przez kliknięcie i przeciągnięcie w KulmanLab CAD
-description: Polecenie Panoramuj wchodzi w tryb stałego przeciągania-przewijania. Kliknij i przeciągnij w dowolnym miejscu na płótnie, aby przesunąć widok bez zmiany poziomu powiększenia. Przeciągnięcie środkowym przyciskiem myszy działa w dowolnym momencie bez aktywowania Panoramowania.
+title: Polecenie Pan — Nawigacja widokiem przez kliknięcie i przeciągnięcie w KulmanLab CAD
+description: Polecenie Pan wchodzi w tryb stałego przeciągania-przewijania. Kliknij i przeciągnij w dowolnym miejscu na płótnie, aby przesunąć widok bez zmiany poziomu powiększenia. Przeciągnięcie środkowym przyciskiem myszy działa w dowolnym momencie bez aktywowania Panoramowania.
 keywords: [panoramowanie widoku CAD, polecenie pan, przeciąganie nawigacji, przewijanie płótna CAD, nawigacja widokiem, kulmanlab]
 ---
 
-# Panoramuj
+# Pan
 
 Polecenie `pan` wchodzi w tryb stałego przeciągania-przewijania — kliknij i przeciągnij w dowolnym miejscu na płótnie, aby przesunąć widok. Poziom powiększenia nie zmienia się. Tryb panoramowania pozostaje aktywny dopóki nie naciśniesz `Escape`, dzięki czemu możesz przeciągać wielokrotnie w jednej aktywacji.
 
@@ -28,8 +28,8 @@ Najszybszy sposób panoramowania: **przytrzymaj środkowy przycisk myszy i przec
 | Przeciągnięcie środkowym przyciskiem | Przesuwa widok | Nie — działa zawsze |
 | Kółko myszy | Powiększa w kierunku kursora | Nie — działa zawsze |
 | Dwukrotne kliknięcie środkowym przyciskiem | Dopasowuje wszystkie elementy | Nie — działa zawsze |
-| [Powiększ](../zoom-in/) / [Pomniejsz](../zoom-out/) | Skok powiększenia 1,5× | Nie |
-| [Dopasuj](../fit/) | Dopasowuje wszystkie elementy w widoku | Nie |
+| [Zoom In](../zoom-in/) / [Zoom Out](../zoom-out/) | Skok powiększenia 1,5× | Nie |
+| [Fit](../fit/) | Dopasowuje wszystkie elementy w widoku | Nie |
 
 ## Skróty klawiaturowe
 
@@ -40,5 +40,5 @@ Najszybszy sposób panoramowania: **przytrzymaj środkowy przycisk myszy i przec
 ## Wskazówki
 
 - Użyj kółka myszy, aby powiększyć na docelowy obszar, a następnie panoramuj, aby precyzyjnie dostroić pozycję.
-- **Dwukrotne kliknięcie środkowym przyciskiem myszy** natychmiast wyzwala [Dopasuj](../fit/) — najszybszy sposób na resetowanie utraconego widoku.
+- **Dwukrotne kliknięcie środkowym przyciskiem myszy** natychmiast wyzwala [Fit](../fit/) — najszybszy sposób na resetowanie utraconego widoku.
 - Jeśli jesteś w środku polecenia (np. umieszczasz punkt końcowy linii), przeciągnij środkowym przyciskiem, aby panoramować bez anulowania polecenia.

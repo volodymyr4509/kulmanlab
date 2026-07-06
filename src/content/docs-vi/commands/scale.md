@@ -1,9 +1,9 @@
 ---
-title: Lệnh Tỉ Lệ — Thay Đổi Kích Thước Thực Thể Đồng Đều Quanh Điểm Cơ Sở trong KulmanLab CAD
+title: Lệnh Scale — Thay Đổi Kích Thước Thực Thể Đồng Đều Quanh Điểm Cơ Sở trong KulmanLab CAD
 description: Lệnh Scale thay đổi kích thước các thực thể đã chọn đồng đều theo hệ số đã gõ quanh điểm cơ sở cố định. Hệ số luôn được nhập bằng bàn phím — không có tính năng nhấp để đặt tỉ lệ. Hệ số lớn hơn 1 phóng to; nhỏ hơn 1 thu nhỏ. Mọi loại thực thể đều được hỗ trợ.
 ---
 
-# Tỉ Lệ
+# Scale
 
 Lệnh `scale` thay đổi kích thước các thực thể đã chọn đồng đều quanh điểm cơ sở. Tất cả khoảng cách từ điểm cơ sở được nhân với hệ số tỉ lệ — hệ số `2` tăng gấp đôi tất cả kích thước, `0.5` giảm một nửa chúng. Hệ số luôn được nhập bằng cách gõ; không có tính năng nhấp để đặt tỉ lệ.
 

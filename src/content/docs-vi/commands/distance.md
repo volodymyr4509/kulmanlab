@@ -1,11 +1,11 @@
 ---
-title: Lệnh Khoảng Cách — Đo Khoảng Cách Đường Thẳng Giữa Hai Điểm trong KulmanLab CAD
+title: Lệnh Distance — Đo Khoảng Cách Đường Thẳng Giữa Hai Điểm trong KulmanLab CAD
 description: Lệnh Distance đo khoảng cách Euclid giữa hai điểm nhấp và hiển thị kết quả đến 4 chữ số thập phân. Nhấp lại sau kết quả để đo chuỗi từ điểm cuối.
 ---
 
-# Khoảng Cách
+# Distance
 
-Lệnh `distance` đo khoảng cách đường thẳng (Euclid) giữa hai điểm nhấp và in kết quả trong terminal đến 4 chữ số thập phân. Đây là một trong hai lệnh đo lường — [Góc](../angle/) đo góc mở tại một đỉnh thay thế.
+Lệnh `distance` đo khoảng cách đường thẳng (Euclid) giữa hai điểm nhấp và in kết quả trong terminal đến 4 chữ số thập phân. Đây là một trong hai lệnh đo lường — [Angle](../angle/) đo góc mở tại một đỉnh thay thế.
 
 ## Đo khoảng cách
 
@@ -20,9 +20,9 @@ Nhấn `Escape` bất kỳ lúc nào để đặt lại về bước 2.
 
 Sau khi hiển thị kết quả, nhấp ngay lập tức bắt đầu đo tiếp theo — điểm nhấp trở thành điểm đầu tiên mới. Điều này cho phép đo một chuỗi khoảng cách mà không cần kích hoạt lại lệnh.
 
-## Khoảng Cách vs Góc
+## Distance vs Angle
 
-| | Khoảng Cách | Góc |
+| | Distance | Angle |
 |---|------|------|
 | Đo gì | Chiều dài đường thẳng | Góc nội tại tại đỉnh |
 | Số lần nhấp | 2 | 3 |

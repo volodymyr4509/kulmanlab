@@ -1,11 +1,11 @@
 ---
 sidebar_position: 9
-title: Wymiar kąta — Mierzenie kątów między liniami, łukami i okręgami w KulmanLab CAD
+title: Dimension Angular — Mierzenie kątów między liniami, łukami i okręgami w KulmanLab CAD
 description: Polecenie WymiarKąta umieszcza adnotację kąta na liniach, łukach lub okręgach. Obsługuje tryb kąta dwóch linii, zakresu łuku i sektora okręgu.
 keywords: [wymiar kąta CAD, wymiar kąta, mierzenie kąta między liniami, WymiarKąta, wymiar łuku, adnotacja kąta, opis kąta CAD, kulmanlab wymiar kąta]
 ---
 
-# Wymiar kąta
+# Dimension Angular
 
 Polecenie `DimensionAngular` umieszcza **adnotację kąta** — łukową adnotację na rysunku. Mierzy i opisuje kąt między dwiema liniami, zakres łuku lub sektor okręgu.
 
@@ -64,7 +64,7 @@ Zobacz [Edytor tekstu — tryb simple](../../interface/text-editor/#simple-mode)
 
 ## Powiązane polecenia
 
-- [Wymiar liniowy](../dim-linear/) — wymiar poziomy lub pionowy
-- [Wymiar wyrównany](../dim-aligned/) — wymiar wyrównany do dwóch punktów
-- [Wymiar promienia](../dim-radius/) — wymiar promienia dla łuków i okręgów
-- [Wymiar średnicy](../dim-diameter/) — wymiar średnicy dla okręgów
+- [Dimension Linear](../dim-linear/) — wymiar poziomy lub pionowy
+- [Dimension Aligned](../dim-aligned/) — wymiar wyrównany do dwóch punktów
+- [Dimension Radius](../dim-radius/) — wymiar promienia dla łuków i okręgów
+- [Dimension Diameter](../dim-diameter/) — wymiar średnicy dla okręgów

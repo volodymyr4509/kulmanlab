@@ -1,11 +1,11 @@
 ---
 sidebar_position: 7
-title: Polecenie Tekst — Umieszczanie etykiet MTEXT w KulmanLab CAD
-description: Polecenie Tekst umieszcza wieloliniową, bogato sformatowaną etykietę MTEXT. Kliknij pozycję, wpisz w oknie podręcznym edytora i naciśnij Escape, aby zatwierdzić. Dwukrotne kliknięcie dowolnej istniejącej etykiety ponownie otwiera edytor.
+title: Polecenie Text — Umieszczanie etykiet MTEXT w KulmanLab CAD
+description: Polecenie Text umieszcza wieloliniową, bogato sformatowaną etykietę MTEXT. Kliknij pozycję, wpisz w oknie podręcznym edytora i naciśnij Escape, aby zatwierdzić. Dwukrotne kliknięcie dowolnej istniejącej etykiety ponownie otwiera edytor.
 keywords: [polecenie tekstu CAD, MTEXT, umieszczanie etykiety tekstowej CAD, adnotacja tekstowa CAD, pogrubiony kursywa CAD, wieloliniowy tekst CAD, kulmanlab]
 ---
 
-# Tekst
+# Text
 
 Polecenie `text` umieszcza wieloliniową etykietę tekstową. Po kliknięciu pozycji na płótnie otwiera się okno podręczne edytora w trybie **rich** — możesz wpisywać treść, stosować pogrubienie/kursywę/przekreślenie dla poszczególnych znaków, zmieniać czcionki i wysokości oraz wstawiać podziały wierszy. Naciśnij **Escape**, aby zatwierdzić i zamknąć edytor.
 
@@ -75,14 +75,14 @@ Zaznaczona etykieta tekstowa eksponuje jeden uchwyt w punkcie kotwicy:
 
 | Polecenie | Co dzieje się z tekstem |
 |-----------|------------------------|
-| [Przesuń](../move/) | Przesuwa punkt kotwicy |
-| [Kopiuj](../copy/) | Tworzy identyczną etykietę w nowej pozycji |
-| [Obróć](../rotate/) | Obraca pozycję kotwicy i dodaje kąt do Stopni obrotu |
-| [Odbij](../mirror/) | Odbija punkt kotwicy przez oś odbicia (ciąg tekstu nie jest odwracany) |
-| [Skaluj](../scale/) | Skaluje pozycję kotwicy i mnoży wysokość przez współczynnik skali |
-| [Usuń](../delete/) | Usuwa etykietę |
+| [Move](../move/) | Przesuwa punkt kotwicy |
+| [Copy](../copy/) | Tworzy identyczną etykietę w nowej pozycji |
+| [Rotate](../rotate/) | Obraca pozycję kotwicy i dodaje kąt do Stopni obrotu |
+| [Mirror](../mirror/) | Odbija punkt kotwicy przez oś odbicia (ciąg tekstu nie jest odwracany) |
+| [Scale](../scale/) | Skaluje pozycję kotwicy i mnoży wysokość przez współczynnik skali |
+| [Delete](../delete/) | Usuwa etykietę |
 
-Tekst nie obsługuje **Odsunięcia**, **Przytnij** ani **Przedłuż**.
+Tekst nie obsługuje **Offset**, **Trim** ani **Extend**.
 
 ## Właściwości
 

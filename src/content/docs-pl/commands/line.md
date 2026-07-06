@@ -1,13 +1,13 @@
 ---
 sidebar_position: 1
-title: Polecenie Linia — Rysowanie, łączenie, przycinanie i przedłużanie linii w KulmanLab CAD
-description: Polecenie Linia rysuje pojedyncze prostoliniowe odcinki, które można łączyć koniec-do-końca. Linie są jedynym typem elementu, na którym działają Przytnij i Przedłuż. Pełna obsługa zapisu i odczytu DXF jako elementy LINE.
+title: Polecenie Line — Rysowanie, łączenie, przycinanie i przedłużanie linii w KulmanLab CAD
+description: Polecenie Line rysuje pojedyncze prostoliniowe odcinki, które można łączyć koniec-do-końca. Linie są jedynym typem elementu, na którym działają Trim i Extend. Pełna obsługa zapisu i odczytu DXF jako elementy LINE.
 keywords: [polecenie linii CAD, rysowanie prostej linii CAD, łączenie segmentów linii, przycinanie linii CAD, przedłużanie linii CAD, blokowanie kąta CAD, element LINE DXF, kulmanlab]
 ---
 
-# Linia
+# Line
 
-Polecenie `line` rysuje pojedyncze prostoliniowe odcinki przechowywane jako oddzielne elementy `LINE` w modelu DXF. Po każdym segmencie polecenie pozostaje aktywne i ponownie używa punktu końcowego jako nowego punktu startowego, dzięki czemu można budować połączone ścieżki jeden segment na raz. W odróżnieniu od [Polilinii](../polyline/), połączone linie pozostają niezależnymi elementami — każdą z nich można przyciąć, przedłużyć lub usunąć bez wpływu na sąsiednie.
+Polecenie `line` rysuje pojedyncze prostoliniowe odcinki przechowywane jako oddzielne elementy `LINE` w modelu DXF. Po każdym segmencie polecenie pozostaje aktywne i ponownie używa punktu końcowego jako nowego punktu startowego, dzięki czemu można budować połączone ścieżki jeden segment na raz. W odróżnieniu od [Polyline](../polyline/), połączone linie pozostają niezależnymi elementami — każdą z nich można przyciąć, przedłużyć lub usunąć bez wpływu na sąsiednie.
 
 ## Rysowanie linii
 
@@ -74,7 +74,7 @@ Zaznaczona linia pokazuje trzy uchwyty:
 | **Środek** | Środek linii | Aktywuje **Przesuń** dla całej linii |
 | **Koniec** | Drugi punkt końcowy | Przeciągnij, aby zmienić położenie — początek pozostaje nieruchomy |
 
-Rozciąganie jednego punktu końcowego nigdy nie wpływa na drugi. Różni się to od edycji uchwytów [Polilinii](../polyline/), gdzie przesunięcie wierzchołka przekształca całą ścieżkę.
+Rozciąganie jednego punktu końcowego nigdy nie wpływa na drugi. Różni się to od edycji uchwytów [Polyline](../polyline/), gdzie przesunięcie wierzchołka przekształca całą ścieżkę.
 
 ## Zaznaczanie linii
 
@@ -86,19 +86,19 @@ Rozciąganie jednego punktu końcowego nigdy nie wpływa na drugi. Różni się 
 
 ## Obsługiwane polecenia edycji
 
-Linie są **jedynym** elementem, na którym działają [Przytnij](../trim/) i [Przedłuż](../extend/). Wszystkie standardowe polecenia transformacji również mają zastosowanie:
+Linie są **jedynym** elementem, na którym działają [Trim](../trim/) i [Extend](../extend/). Wszystkie standardowe polecenia transformacji również mają zastosowanie:
 
 | Polecenie | Co dzieje się z linią |
 |-----------|-----------------------|
-| [Przesuń](../move/) | Translacja obu punktów końcowych o to samo przesunięcie |
-| [Kopiuj](../copy/) | Tworzy identyczną linię w nowej pozycji |
-| [Obróć](../rotate/) | Obraca oba punkty końcowe wokół wybranego punktu bazowego |
-| [Odbij](../mirror/) | Odbija oba punkty końcowe przez oś odbicia |
-| [Skaluj](../scale/) | Skaluje oba punkty końcowe równomiernie od punktu bazowego |
-| [Odsunięcie](../offset/) | Tworzy równoległą linię w stałej prostopadłej odległości |
-| [Przytnij](../trim/) | Tnie linię na przecięciach — **tylko linie** |
-| [Przedłuż](../extend/) | Rozciąga najbliższy punkt końcowy, aby dotrzeć do granicy — **tylko linie** |
-| [Usuń](../delete/) | Usuwa linię z rysunku |
+| [Move](../move/) | Translacja obu punktów końcowych o to samo przesunięcie |
+| [Copy](../copy/) | Tworzy identyczną linię w nowej pozycji |
+| [Rotate](../rotate/) | Obraca oba punkty końcowe wokół wybranego punktu bazowego |
+| [Mirror](../mirror/) | Odbija oba punkty końcowe przez oś odbicia |
+| [Scale](../scale/) | Skaluje oba punkty końcowe równomiernie od punktu bazowego |
+| [Offset](../offset/) | Tworzy równoległą linię w stałej prostopadłej odległości |
+| [Trim](../trim/) | Tnie linię na przecięciach — **tylko linie** |
+| [Extend](../extend/) | Rozciąga najbliższy punkt końcowy, aby dotrzeć do granicy — **tylko linie** |
+| [Delete](../delete/) | Usuwa linię z rysunku |
 
 ## Właściwości
 

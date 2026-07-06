@@ -1,11 +1,11 @@
 ---
 sidebar_position: 4
-title: Polecenie Dopasuj — Kadrowanie wszystkich elementów w widoku jednym kliknięciem w KulmanLab CAD
-description: Polecenie Dopasuj oblicza prostokąt ograniczający wszystkich elementów i dostosowuje powiększenie i panoramowanie, aby każdy element był widoczny z niewielkim marginesem. Dwukrotne kliknięcie środkowym przyciskiem myszy uruchamia Dopasuj bez aktywowania polecenia.
+title: Polecenie Fit — Kadrowanie wszystkich elementów w widoku jednym kliknięciem w KulmanLab CAD
+description: Polecenie Fit oblicza prostokąt ograniczający wszystkich elementów i dostosowuje powiększenie i panoramowanie, aby każdy element był widoczny z niewielkim marginesem. Dwukrotne kliknięcie środkowym przyciskiem myszy uruchamia Dopasuj bez aktywowania polecenia.
 keywords: [CAD dopasuj widok, powiększ do dopasowania, kadruj wszystkie elementy, polecenie dopasuj CAD, powiększenie prostokąta ograniczającego, kulmanlab]
 ---
 
-# Dopasuj
+# Fit
 
 Polecenie `fit` oblicza prostokąt ograniczający wszystkich elementów w rysunku i dostosowuje zarówno poziom powiększenia, jak i pozycję panoramowania, aby każdy element był widoczny z niewielkim marginesem. Jest to najszybszy sposób na odzyskanie utraconego widoku lub zorientowanie się po zaimportowaniu pliku DXF.
 
@@ -44,6 +44,6 @@ Dla tego polecenia nie ma skrótu klawiaturowego. Zamiast tego użyj skrótu **d
 
 | Polecenie | Co robi |
 |-----------|---------|
-| [Panoramuj](../pan/) | Przesuwa widok bez powiększania |
-| [Powiększ](../zoom-in/) | Mnoży powiększenie o 1,5× na krok |
-| [Pomniejsz](../zoom-out/) | Dzieli powiększenie o 1,5× na krok |
+| [Pan](../pan/) | Przesuwa widok bez powiększania |
+| [Zoom In](../zoom-in/) | Mnoży powiększenie o 1,5× na krok |
+| [Zoom Out](../zoom-out/) | Dzieli powiększenie o 1,5× na krok |

@@ -1,15 +1,15 @@
 ---
 sidebar_position: 7
-title: Polecenie Przytnij — Cięcie segmentów linii na przecięciach w KulmanLab CAD
-description: Polecenie Przytnij usuwa część Linii między dwoma sąsiednimi punktami przecięcia najbliższymi kursorowi. Czerwony podgląd po najechaniu kursorem pokazuje dokładnie, który segment zostanie wycięty przed kliknięciem. Przytnij działa tylko na elementach Linia — nie na łukach, okręgach ani poliliniach.
+title: Polecenie Trim — Cięcie segmentów linii na przecięciach w KulmanLab CAD
+description: Polecenie Trim usuwa część Linii między dwoma sąsiednimi punktami przecięcia najbliższymi kursorowi. Czerwony podgląd po najechaniu kursorem pokazuje dokładnie, który segment zostanie wycięty przed kliknięciem. Przytnij działa tylko na elementach Linia — nie na łukach, okręgach ani poliliniach.
 keywords: [polecenie przytnij CAD, przycinanie linii CAD, cięcie linii na przecięciu, podgląd przycinania po najechaniu, tylko linie przytnij, kulmanlab]
 ---
 
-# Przytnij
+# Trim
 
-Polecenie `trim` usuwa część [Linii](../line/) leżącą między dwoma sąsiednimi punktami przecięcia, dzieląc linię na jeden lub dwa krótsze segmenty. Segment do wycięcia jest określany przez pozycję kursora — najedź kursorem na część, którą chcesz usunąć, i kliknij, aby ją przyciąć.
+Polecenie `trim` usuwa część [Line](../line/) leżącą między dwoma sąsiednimi punktami przecięcia, dzieląc linię na jeden lub dwa krótsze segmenty. Segment do wycięcia jest określany przez pozycję kursora — najedź kursorem na część, którą chcesz usunąć, i kliknij, aby ją przyciąć.
 
-Przytnij działa **tylko na elementach Linia**. Dla łuków, okręgów, polilinii i innych typów elementów użyj [Usuń](../delete/) lub edycji uchwytu.
+Przytnij działa **tylko na elementach Linia**. Dla łuków, okręgów, polilinii i innych typów elementów użyj [Delete](../delete/) lub edycji uchwytu.
 
 ## Przycinanie linii
 

@@ -12,47 +12,47 @@ keywords: [KulmanLab, KulmanLab CAD, CADコマンド, 無料ブラウザCAD, DXF
 
 | コマンド | 機能 |
 |---------|------|
-| [直線](./commands/line/) | 2 点間に直線を描く |
-| [ポリライン](./commands/polyline/) | 複数セグメントの開いたパスを描く |
-| [長方形](./commands/rectangle/) | 軸平行な長方形を描く |
-| [円](./commands/circle/) | 中心と半径で円を描く |
-| [円弧](./commands/arc/) | 3 点を通る円弧を描く |
-| [楕円](./commands/ellipse/) | 中心と 2 軸で楕円を描く |
-| [テキスト](./commands/text/) | キャンバスにテキストラベルを配置する |
-| [スプライン CV](./commands/spline-cv/) | コントロール頂点を配置してスプラインを描く |
-| [スプライン フィット](./commands/spline-fit/) | クリック点を通過するスプラインを描く |
+| [Line](./commands/line/) | 2 点間に直線を描く |
+| [Polyline](./commands/polyline/) | 複数セグメントの開いたパスを描く |
+| [Rectangle](./commands/rectangle/) | 軸平行な長方形を描く |
+| [Circle](./commands/circle/) | 中心と半径で円を描く |
+| [Arc](./commands/arc/) | 3 点を通る円弧を描く |
+| [Ellipse](./commands/ellipse/) | 中心と 2 軸で楕円を描く |
+| [Text](./commands/text/) | キャンバスにテキストラベルを配置する |
+| [Spline CV](./commands/spline-cv/) | コントロール頂点を配置してスプラインを描く |
+| [Spline Fit](./commands/spline-fit/) | クリック点を通過するスプラインを描く |
 
 ## 編集
 
 | コマンド | 機能 |
 |---------|------|
-| [移動](./commands/move/) | 選択エンティティを新しい位置に移動する |
-| [コピー](./commands/copy/) | 選択エンティティを新しい位置に複製する |
-| [回転](./commands/rotate/) | 基点を中心に選択エンティティを回転する |
-| [鏡像](./commands/mirror/) | 軸を基準に選択エンティティを鏡像複製する |
-| [尺度変更](./commands/scale/) | 基点を中心に選択エンティティを拡大縮小する |
-| [削除](./commands/delete/) | 選択エンティティを図面から削除する |
-| [トリム](./commands/trim/) | 交点で直線セグメントをトリムする |
-| [延長](./commands/extend/) | 直線を最近傍の境界交点まで延長する |
-| [オフセット](./commands/offset/) | 指定距離で平行コピーを作成する |
-| [フィレット](./commands/fillet/) | 2 直線の角を接線円弧で丸める |
-| [面取り](./commands/chamfer/) | 2 直線またはポリラインの角を斜め直線で切り取る |
-| [元に戻す](./commands/undo/) | 直前の操作を取り消す |
-| [やり直し](./commands/redo/) | 取り消した操作をやり直す |
+| [Move](./commands/move/) | 選択エンティティを新しい位置に移動する |
+| [Copy](./commands/copy/) | 選択エンティティを新しい位置に複製する |
+| [Rotate](./commands/rotate/) | 基点を中心に選択エンティティを回転する |
+| [Mirror](./commands/mirror/) | 軸を基準に選択エンティティを鏡像複製する |
+| [Scale](./commands/scale/) | 基点を中心に選択エンティティを拡大縮小する |
+| [Delete](./commands/delete/) | 選択エンティティを図面から削除する |
+| [Trim](./commands/trim/) | 交点で直線セグメントをトリムする |
+| [Extend](./commands/extend/) | 直線を最近傍の境界交点まで延長する |
+| [Offset](./commands/offset/) | 指定距離で平行コピーを作成する |
+| [Fillet](./commands/fillet/) | 2 直線の角を接線円弧で丸める |
+| [Chamfer](./commands/chamfer/) | 2 直線またはポリラインの角を斜め直線で切り取る |
+| [Undo](./commands/undo/) | 直前の操作を取り消す |
+| [Redo](./commands/redo/) | 取り消した操作をやり直す |
 
 ## マークアップ
 
 | コマンド | 機能 |
 |---------|------|
-| [引出線](./commands/leader/) | 矢印とテキストを持つ引出線注釈を描く |
-| [引出線+](./commands/leader-add/) | 既存の引出線にアームを追加する |
-| [引出線−](./commands/leader-remove/) | 既存の引出線からアームを削除する |
-| [寸法 水平垂直](./commands/dim-linear/) | 水平または垂直寸法を追加する |
-| [寸法 整列](./commands/dim-aligned/) | 2 点に整列した寸法を追加する |
-| [寸法 連続](./commands/dim-continue/) | 直前の寸法から連続寸法を追加する |
-| [寸法 半径](./commands/dim-radius/) | 円または円弧に半径寸法を追加する |
-| [寸法 直径](./commands/dim-diameter/) | 円に直径寸法を追加する |
-| [寸法 角度](./commands/dim-angular/) | 2 直線・円弧・円に角度寸法を追加する |
+| [Leader](./commands/leader/) | 矢印とテキストを持つ引出線注釈を描く |
+| [Leader+](./commands/leader-add/) | 既存の引出線にアームを追加する |
+| [Leader−](./commands/leader-remove/) | 既存の引出線からアームを削除する |
+| [Dimension Linear](./commands/dim-linear/) | 水平または垂直寸法を追加する |
+| [Dimension Aligned](./commands/dim-aligned/) | 2 点に整列した寸法を追加する |
+| [Dimension Continue](./commands/dim-continue/) | 直前の寸法から連続寸法を追加する |
+| [Dimension Radius](./commands/dim-radius/) | 円または円弧に半径寸法を追加する |
+| [Dimension Diameter](./commands/dim-diameter/) | 円に直径寸法を追加する |
+| [Dimension Angular](./commands/dim-angular/) | 2 直線・円弧・円に角度寸法を追加する |
 
 ## レイヤー
 
@@ -75,33 +75,33 @@ keywords: [KulmanLab, KulmanLab CAD, CADコマンド, 無料ブラウザCAD, DXF
 
 | コマンド | 機能 |
 |---------|------|
-| [パン](./commands/pan/) | クリックしてドラッグしてビューポートを移動する |
-| [ズームイン](./commands/zoom-in/) | ビューポートを拡大する |
-| [ズームアウト](./commands/zoom-out/) | ビューポートを縮小する |
-| [フィット](./commands/fit/) | すべてのエンティティをビューポートに収める |
+| [Pan](./commands/pan/) | クリックしてドラッグしてビューポートを移動する |
+| [Zoom In](./commands/zoom-in/) | ビューポートを拡大する |
+| [Zoom Out](./commands/zoom-out/) | ビューポートを縮小する |
+| [Fit](./commands/fit/) | すべてのエンティティをビューポートに収める |
 
 ## 計測
 
 | コマンド | 機能 |
 |---------|------|
-| [距離](./commands/distance/) | 2 点間の距離を計測する |
-| [角度](./commands/angle/) | 3 点間の角度を計測する |
+| [Distance](./commands/distance/) | 2 点間の距離を計測する |
+| [Angle](./commands/angle/) | 3 点間の角度を計測する |
 
 ## スタイル
 
 | コマンド | 機能 |
 |---------|------|
-| [プロパティ一致](./commands/match-properties/) | 色・レイヤーなどのプロパティをエンティティ間でコピーする |
+| [Match Properties](./commands/match-properties/) | 色・レイヤーなどのプロパティをエンティティ間でコピーする |
 
 ## ファイル
 
 | コマンド | 機能 |
 |---------|------|
-| [インポート](./commands/import/) | DXF または JSON 図面ファイルを開く |
-| [新規ファイル](./commands/new-file/) | 空白の新しい図面を開始する |
-| [ファイル](./commands/files/) | 最近の図面を参照して復元する |
-| [印刷](./commands/print/) | 図面エリアを画像または PDF としてエクスポートする |
-| [エクスポート](./commands/export/) | 図面を DXF または JSON でダウンロードする |
+| [Import](./commands/import/) | DXF または JSON 図面ファイルを開く |
+| [New File](./commands/new-file/) | 空白の新しい図面を開始する |
+| [Files](./commands/files/) | 最近の図面を参照して復元する |
+| [Print](./commands/print/) | 図面エリアを画像または PDF としてエクスポートする |
+| [Export](./commands/export/) | 図面を DXF または JSON でダウンロードする |
 | [WipeStorage](./commands/wipestorage/) | ブラウザストレージからすべての図面を削除する |
 
 ## 復旧
@@ -124,7 +124,7 @@ https://kulmanlab.com/?resetKulmanLocalStorage
 
 ## オブジェクトの選択
 
-複数の編集コマンド（移動、コピー、回転、鏡像、尺度変更、削除）は同じ選択動作を共有します:
+複数の編集コマンド（Move、Copy、Rotate、Mirror、Scale、Delete）は同じ選択動作を共有します:
 
 - エンティティを**クリック**して選択/選択解除します。
 - **右方向にドラッグ**（左から右）すると厳密選択 — ボックス内に完全に入っているエンティティのみが選択されます。

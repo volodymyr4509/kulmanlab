@@ -1,13 +1,13 @@
 ---
 sidebar_position: 13
-title: Polecenie Wymiar liniowy — Wymiary poziome i pionowe w KulmanLab CAD
-description: Polecenie Wymiar liniowy mierzy poziomą lub pionową odległość między dwoma punktami. Linia wymiarowa jest zawsze wyrównana do osi — naciśnij H lub V, aby zablokować orientację, lub pozwól pozycji kursora decydować automatycznie. Pełna obsługa zapisu i odczytu DXF jako elementy DIMENSION.
+title: Polecenie Dimension Linear — Wymiary poziome i pionowe w KulmanLab CAD
+description: Polecenie Dimension Linear mierzy poziomą lub pionową odległość między dwoma punktami. Linia wymiarowa jest zawsze wyrównana do osi — naciśnij H lub V, aby zablokować orientację, lub pozwól pozycji kursora decydować automatycznie. Pełna obsługa zapisu i odczytu DXF jako elementy DIMENSION.
 keywords: [wymiar liniowy CAD, wymiar poziomy CAD, wymiar pionowy CAD, dimlinear, blokowanie orientacji H V, odsunięcie wymiaru, kulmanlab]
 ---
 
-# Wymiar liniowy
+# Dimension Linear
 
-Polecenie `dimlinear` umieszcza wymiar poziomy lub pionowy między dwoma punktami początku linii przedłużenia. Linia wymiarowa przebiega zawsze idealnie poziomo lub idealnie pionowo — nie można jej umieścić pod dowolnym kątem. Użyj [Wymiaru wyrównanego](../dim-aligned/), gdy potrzebujesz wymiaru równoległego do ukośnej linii.
+Polecenie `dimlinear` umieszcza wymiar poziomy lub pionowy między dwoma punktami początku linii przedłużenia. Linia wymiarowa przebiega zawsze idealnie poziomo lub idealnie pionowo — nie można jej umieścić pod dowolnym kątem. Użyj [Dimension Aligned](../dim-aligned/), gdy potrzebujesz wymiaru równoległego do ukośnej linii.
 
 ## Anatomia wymiaru liniowego
 
@@ -89,7 +89,7 @@ Zobacz [Edytor tekstu — tryb simple](../../interface/text-editor/#simple-mode)
 
 ## Łączenie wymiarów
 
-Aby dodać więcej wymiarów kontynuowanych od ostatniej linii przedłużenia, użyj [Wymiaru kontynuowanego](../dim-continue/) bezpośrednio po umieszczeniu tego.
+Aby dodać więcej wymiarów kontynuowanych od ostatniej linii przedłużenia, użyj [Dimension Continue](../dim-continue/) bezpośrednio po umieszczeniu tego.
 
 ## DXF — element DIMENSION
 

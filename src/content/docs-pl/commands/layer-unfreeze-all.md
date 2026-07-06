@@ -1,11 +1,11 @@
 ---
 sidebar_position: 1
-title: OdmrózWszystkie — Odmrażanie wszystkich warstw w KulmanLab CAD
-description: Polecenie OdmrózWszystkie jednym krokiem usuwa flagę zamrożenia na każdej warstwie rysunku.
+title: LayerUnfreezeAll — Odmrażanie wszystkich warstw w KulmanLab CAD
+description: Polecenie LayerUnfreezeAll jednym krokiem usuwa flagę zamrożenia na każdej warstwie rysunku.
 keywords: [odmrożenie warstwy, odmrożenie wszystkich warstw CAD, zarządzanie warstwami kulmanlab]
 ---
 
-# OdmrózWszystkie
+# LayerUnfreezeAll
 
 Polecenie `LayerUnfreezeAll` natychmiast usuwa flagę zamrożenia na **każdej warstwie** w rysunku. Żadne zaznaczenie ani potwierdzenie nie jest potrzebne — uruchamia się i kończy w jednym kroku.
 
@@ -15,7 +15,7 @@ Wpisz `LayerUnfreezeAll` w terminalu lub kliknij przycisk **Odmroź wszystkie** 
 
 ## Kiedy używać
 
-Zazwyczaj używane po [IzolujWarstwę](../layer-isolate/), aby przywrócić wszystkie warstwy do normalnego widocznego stanu.
+Zazwyczaj używane po [LayerIsolate](../layer-isolate/), aby przywrócić wszystkie warstwy do normalnego widocznego stanu.
 
 ## Szczegóły zachowania
 

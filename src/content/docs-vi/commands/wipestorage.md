@@ -1,9 +1,9 @@
 ---
-title: Lệnh Xóa Bộ Nhớ — Xóa Tất Cả Dữ Liệu Trình Duyệt trong KulmanLab CAD
+title: Lệnh Wipe Storage — Xóa Tất Cả Dữ Liệu Trình Duyệt trong KulmanLab CAD
 description: Lệnh wipestorage xóa vĩnh viễn tất cả tệp, lớp, kiểu đường và lịch sử hoàn tác được lưu trong trình duyệt. Yêu cầu gõ YES để xác nhận. Dùng khi đặt lại cơ sở dữ liệu cục bộ bị hỏng hoặc quá đầy.
 ---
 
-# Xóa Bộ Nhớ
+# Wipe Storage
 
 Lệnh `wipestorage` xóa vĩnh viễn **tất cả dữ liệu được lưu trong trình duyệt** cho KulmanLab CAD — mọi tệp đã lưu, bảng lớp và kiểu đường, và lịch sử hoàn tác. Trang tự động tải lại sau đó.
 

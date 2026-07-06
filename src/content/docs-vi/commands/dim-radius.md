@@ -1,11 +1,11 @@
 ---
-title: Lệnh Kích Thước Bán Kính — Ghi Chú Bán Kính Cung và Hình Tròn trong KulmanLab CAD
+title: Lệnh Dimension Radius — Ghi Chú Bán Kính Cung và Hình Tròn trong KulmanLab CAD
 description: Lệnh Dimension Radius đặt kích thước bán kính có tiền tố R lên một cung hoặc hình tròn. Nhấp thực thể, sau đó di chuyển con trỏ để định hướng đường kích thước từ tâm đến chu vi. Hỗ trợ DXF đầy đủ dưới dạng thực thể DIMENSION bán kính.
 ---
 
-# Kích Thước Bán Kính
+# Dimension Radius
 
-Lệnh `dimradius` đặt kích thước bán kính lên một cung hoặc hình tròn. Đường kích thước chạy từ tâm đến một điểm trên chu vi theo hướng con trỏ, được ghi nhãn `R <giá trị>`. Để ghi chú toàn bộ đường kính thay thế, dùng [Kích Thước Đường Kính](../dim-diameter/).
+Lệnh `dimradius` đặt kích thước bán kính lên một cung hoặc hình tròn. Đường kích thước chạy từ tâm đến một điểm trên chu vi theo hướng con trỏ, được ghi nhãn `R <giá trị>`. Để ghi chú toàn bộ đường kính thay thế, dùng [Dimension Diameter](../dim-diameter/).
 
 ## Cấu trúc kích thước bán kính
 
@@ -27,9 +27,9 @@ Chỉ các thực thể **Cung** và **Hình tròn** mới có thể được ch
 |------|-----------|
 | `Escape` | Hủy |
 
-## Kích Thước Bán Kính vs Kích Thước Đường Kính
+## Dimension Radius vs Dimension Diameter
 
-| | Kích Thước Bán Kính | Kích Thước Đường Kính |
+| | Dimension Radius | Dimension Diameter |
 |---|------|------|
 | Đo | Bán kính (tâm đến cạnh) | Đường kính (cạnh đến cạnh qua tâm) |
 | Đường kích thước | Tâm → điểm cung | Điểm cung → điểm cung (qua tâm) |

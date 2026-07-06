@@ -1,13 +1,13 @@
 ---
 sidebar_position: 14
-title: Polecenie Wymiar wyrównany — Wymiary rzeczywistej odległości pod dowolnym kątem w KulmanLab CAD
-description: Polecenie Wymiar wyrównany mierzy rzeczywistą odległość prostoliniową między dwoma punktami. Linia wymiarowa przebiega równolegle do linii p1→p2 pod dowolnym kątem — w przeciwieństwie do Wymiaru liniowego, który jest ograniczony do poziomego lub pionowego. Pełna obsługa zapisu i odczytu DXF jako elementy DIMENSION.
+title: Polecenie Dimension Aligned — Wymiary rzeczywistej odległości pod dowolnym kątem w KulmanLab CAD
+description: Polecenie Dimension Aligned mierzy rzeczywistą odległość prostoliniową między dwoma punktami. Linia wymiarowa przebiega równolegle do linii p1→p2 pod dowolnym kątem — w przeciwieństwie do Wymiaru liniowego, który jest ograniczony do poziomego lub pionowego. Pełna obsługa zapisu i odczytu DXF jako elementy DIMENSION.
 keywords: [wymiar wyrównany CAD, dimaligned, wymiar ukośny CAD, wymiar rzeczywistej odległości, wymiar pod kątem CAD, kulmanlab]
 ---
 
-# Wymiar wyrównany
+# Dimension Aligned
 
-Polecenie `dimaligned` umieszcza wymiar mierzący **rzeczywistą odległość prostoliniową** między dwoma punktami. Linia wymiarowa przebiega równolegle do linii łączącej dwa punkty, więc może być pod dowolnym kątem. To kluczowa różnica od [Wymiaru liniowego](../dim-linear/), który jest ograniczony do poziomego lub pionowego.
+Polecenie `dimaligned` umieszcza wymiar mierzący **rzeczywistą odległość prostoliniową** między dwoma punktami. Linia wymiarowa przebiega równolegle do linii łączącej dwa punkty, więc może być pod dowolnym kątem. To kluczowa różnica od [Dimension Linear](../dim-linear/), który jest ograniczony do poziomego lub pionowego.
 
 ## Anatomia wymiaru wyrównanego
 
@@ -80,7 +80,7 @@ Zobacz [Edytor tekstu — tryb simple](../../interface/text-editor/#simple-mode)
 
 ## Łączenie wymiarów
 
-Aby dodać więcej wymiarów kontynuowanych od drugiej linii przedłużenia tego wymiaru, użyj [Wymiaru kontynuowanego](../dim-continue/) — blokuje się do tego samego kąta pomiaru co ten wymiar wyrównany.
+Aby dodać więcej wymiarów kontynuowanych od drugiej linii przedłużenia tego wymiaru, użyj [Dimension Continue](../dim-continue/) — blokuje się do tego samego kąta pomiaru co ten wymiar wyrównany.
 
 ## DXF — element DIMENSION (typ wyrównany)
 

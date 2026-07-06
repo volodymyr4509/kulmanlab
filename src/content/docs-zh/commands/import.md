@@ -1,11 +1,11 @@
 ---
 sidebar_position: 1
-title: 导入 — 在 KulmanLab CAD 中打开 DXF 或 JSON 文件
+title: Import — 在 KulmanLab CAD 中打开 DXF 或 JSON 文件
 description: 使用导入命令在 KulmanLab CAD 中打开 DXF 或 KulmanLab JSON 文件。支持直线、圆、圆弧、多段线、样条线、文字、标注和引线。
 keywords: [导入 DXF 文件, 在浏览器中打开 DXF, 在线导入 CAD 文件, 打开 DXF 文件, DXF 浏览器查看器, 导入 JSON CAD, KulmanLab 导入, 免费 CAD DXF 查看器, 加载图形, DXF 到浏览器, kulmanlab]
 ---
 
-# 导入
+# Import
 
 **导入**命令从您的本地文件系统将现有图形加载到 KulmanLab CAD 中。支持标准 **DXF** 格式和 KulmanLab 的原生 **JSON** 格式。
 
@@ -48,11 +48,11 @@ DXF 文件中存在的图层定义和线型表也会被导入。
 
 导入文件时，时间戳会附加到文件名（例如 `myplan_May22_14:30:00.dxf`）。这样您就可以在[最近文件](../files/)中保留同一图形的多个版本而不会产生名称冲突。如果文件名已经包含时间戳，则按原样使用。
 
-导入后，图形自动保存到浏览器存储（IndexedDB），因此它出现在[文件列表](../files/)面板中并在页面重新加载后仍然存在。
+导入后，图形自动保存到浏览器存储（IndexedDB），因此它出现在[Files](../files/)面板中并在页面重新加载后仍然存在。
 
 ## 对当前图形的影响
 
-导入会替换当前画布。没有合并或追加功能。如果您有未保存的更改，请先[导出](../export/)当前图形。
+导入会替换当前画布。没有合并或追加功能。如果您有未保存的更改，请先[Export](../export/)当前图形。
 
 ## 启动时
 
@@ -68,6 +68,6 @@ DXF 文件中存在的图层定义和线型表也会被导入。
 
 ## 相关命令
 
-- [导出](../export/) — 将当前图形下载为 DXF 或 JSON
-- [文件列表](../files/) — 浏览并恢复保存在浏览器中的图形
-- [新建文件](../new-file/) — 开始空白图形
+- [Export](../export/) — 将当前图形下载为 DXF 或 JSON
+- [Files](../files/) — 浏览并恢复保存在浏览器中的图形
+- [New File](../new-file/) — 开始空白图形

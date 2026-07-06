@@ -1,13 +1,13 @@
 ---
 sidebar_position: 10
-title: Polecenie Przedłuż — Rozciąganie punktu końcowego linii do najbliższej granicy w KulmanLab CAD
-description: Polecenie Przedłuż rozciąga najbliższy punkt końcowy wskazywanej Linii do najbliższego przecięcia z innym elementem. Podgląd na żywo pokazuje przedłużoną linię przed kliknięciem. Przedłużanie działa tylko na elementach Linia i ignoruje Tekst, Splajn i Linie wielokierunkowe jako granice.
+title: Polecenie Extend — Rozciąganie punktu końcowego linii do najbliższej granicy w KulmanLab CAD
+description: Polecenie Extend rozciąga najbliższy punkt końcowy wskazywanej Linii do najbliższego przecięcia z innym elementem. Podgląd na żywo pokazuje przedłużoną linię przed kliknięciem. Przedłużanie działa tylko na elementach Linia i ignoruje Tekst, Splajn i Linie wielokierunkowe jako granice.
 keywords: [polecenie przedłużania CAD, przedłużanie linii CAD, rozciąganie linii do granicy, przedłużanie punktu końcowego linii, podgląd przedłużania, kulmanlab]
 ---
 
-# Przedłuż
+# Extend
 
-Polecenie `extend` rozciąga najbliższy punkt końcowy wskazywanej [Linii](../line/) do najbliższego przecięcia, które tworzyłaby z innym elementem w rysunku. Najedź kursorem blisko punktu końcowego, który chcesz przedłużyć — podgląd pokazuje przedłużoną linię — a następnie kliknij, aby zastosować.
+Polecenie `extend` rozciąga najbliższy punkt końcowy wskazywanej [Line](../line/) do najbliższego przecięcia, które tworzyłaby z innym elementem w rysunku. Najedź kursorem blisko punktu końcowego, który chcesz przedłużyć — podgląd pokazuje przedłużoną linię — a następnie kliknij, aby zastosować.
 
 Przedłużanie działa **tylko na elementach Linia**. Granice, do których linia się przedłuża, mogą być dowolnym innym typem elementu z wyjątkiem Tekstu, Mtext, Linii wielokierunkowych i Splajnów.
 

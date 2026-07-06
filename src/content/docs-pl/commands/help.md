@@ -1,17 +1,17 @@
 ---
 sidebar_position: 1
-title: Polecenie Pomoc
+title: Polecenie Help
 description: Otwórz wbudowany panel pomocy w KulmanLab CAD. Pokazuje skróty klawiaturowe, wskazówki nawigacyjne i informacje kontaktowe.
 keywords: [CAD, pomoc, skróty klawiaturowe, kontakt, kulmanlab]
 ---
 
-# Pomoc
+# Help
 
 Otwiera wbudowany panel pomocy z podsumowaniem wszystkich skrótów klawiaturowych, wskazówek nawigacyjnych i ogólnego użytkowania.
 
 ## Jak używać
 
-Kliknij przycisk **Pomoc** na pasku narzędzi lub wpisz `help` w terminalu. Panel pomocy otwiera się natychmiast i polecenie kończy się.
+Kliknij przycisk **Help** na pasku narzędzi lub wpisz `help` w terminalu. Panel pomocy otwiera się natychmiast i polecenie kończy się.
 
 ## Co zawiera panel pomocy
 

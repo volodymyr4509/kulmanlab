@@ -1,13 +1,13 @@
 ---
 sidebar_position: 17
-title: "지름 치수 명령어 — KulmanLab CAD에서 완전한 원 및 호 지름 주석"
-description: "지름 치수 명령어는 호 또는 원에 중심을 통과하여 지름 기호가 붙은 지름 치수를 배치합니다. 커서를 이동하여 치수 선을 임의 각도로 회전합니다. DXF DIMENSION 지름 객체로 완전한 왕복 지원."
+title: "Dimension Diameter 명령어 — KulmanLab CAD에서 완전한 원 및 호 지름 주석"
+description: "Dimension Diameter 명령어는 호 또는 원에 중심을 통과하여 지름 기호가 붙은 지름 치수를 배치합니다. 커서를 이동하여 치수 선을 임의 각도로 회전합니다. DXF DIMENSION 지름 객체로 완전한 왕복 지원."
 keywords: [CAD 지름 치수, dimdiameter, 원 지름 주석, 호 지름 치수, 지름 기호 CAD, kulmanlab]
 ---
 
-# 지름 치수
+# Dimension Diameter
 
-`dimdiameter` 명령어는 호 또는 원에 지름 치수를 배치합니다. 치수 선은 중심 사이를 통과하여 지름 반대편 두 호 점 사이에 걸쳐 있으며 `⌀ <값>`으로 레이블이 붙습니다. 한쪽 가장자리에서 중심까지의 반지름만 주석을 달려면 [반지름 치수](../dim-radius/)를 사용하세요.
+`dimdiameter` 명령어는 호 또는 원에 지름 치수를 배치합니다. 치수 선은 중심 사이를 통과하여 지름 반대편 두 호 점 사이에 걸쳐 있으며 `⌀ <값>`으로 레이블이 붙습니다. 한쪽 가장자리에서 중심까지의 반지름만 주석을 달려면 [Dimension Radius](../dim-radius/)를 사용하세요.
 
 ## 지름 치수의 구조
 
@@ -23,7 +23,7 @@ keywords: [CAD 지름 치수, dimdiameter, 원 지름 주석, 호 지름 치수,
 
 ## 지름 치수 배치
 
-1. 터미널에 `dimdiameter`를 입력하거나 **지름 치수** 도구 모음 버튼을 클릭합니다.
+1. 터미널에 `dimdiameter`를 입력하거나 **Dimension Diameter** 도구 모음 버튼을 클릭합니다.
 2. **호 또는 원을 클릭**하여 선택합니다.
 3. **커서를 이동**하여 치수 선을 원하는 각도로 회전합니다.
 4. **클릭**하여 치수를 배치합니다.
@@ -36,9 +36,9 @@ keywords: [CAD 지름 치수, dimdiameter, 원 지름 주석, 호 지름 치수,
 |----|------|
 | `Escape` | 취소 |
 
-## 지름 치수 vs 반지름 치수
+## Dimension Diameter vs Dimension Radius
 
-| | 지름 치수 | 반지름 치수 |
+| | Dimension Diameter | Dimension Radius |
 |--|----------|-----------|
 | 측정 내용 | 전체 지름(2 × 반지름) | 반지름(중심에서 가장자리까지) |
 | 치수 선 | 가장자리 → 중심 통과 가장자리 | 중심 → 가장자리 |

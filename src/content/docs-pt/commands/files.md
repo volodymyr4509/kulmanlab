@@ -41,7 +41,7 @@ Quando você abre o KulmanLab CAD, o aplicativo carrega automaticamente o **arqu
 
 Não há limite fixo para o número de desenhos que você pode salvar, mas o armazenamento do navegador é finito. Se notar avisos de armazenamento, exclua arquivos mais antigos no painel Files.
 
-Para remover todos os desenhos salvos de uma vez, use o comando [WipeStorage](../wipestorage/).
+Para remover todos os desenhos salvos de uma vez, use o comando [Wipe Storage](../wipestorage/).
 
 ## Nomes de arquivo e versionamento
 
@@ -52,4 +52,4 @@ Cada arquivo tem um timestamp em seu nome (ex.: `meuplano_Mai22_14:30:00.dxf`). 
 - [Import](../import/) — carregar um desenho do sistema de arquivos para o armazenamento do navegador
 - [Export](../export/) — baixar um desenho para o sistema de arquivos
 - [New File](../new-file/) — iniciar um desenho em branco (também salvo automaticamente)
-- [WipeStorage](../wipestorage/) — limpar todos os arquivos salvos do armazenamento do navegador
+- [Wipe Storage](../wipestorage/) — limpar todos os arquivos salvos do armazenamento do navegador

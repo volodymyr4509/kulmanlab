@@ -1,11 +1,11 @@
 ---
 sidebar_position: 15
-title: Polecenie Wymiar kontynuowany — Łączenie wymiarów od istniejącej linii bazowej w KulmanLab CAD
-description: Polecenie Wymiar kontynuowany przedłuża łańcuch wymiarów od drugiej linii przedłużenia ostatniego umieszczonego wymiaru. Automatycznie dziedziczy kąt, odsunięcie, rozmiar strzałki i wysokość tekstu wymiaru bazowego. Działa zarówno z bazami liniowymi, jak i wyrównanymi.
+title: Polecenie Dimension Continue — Łączenie wymiarów od istniejącej linii bazowej w KulmanLab CAD
+description: Polecenie Dimension Continue przedłuża łańcuch wymiarów od drugiej linii przedłużenia ostatniego umieszczonego wymiaru. Automatycznie dziedziczy kąt, odsunięcie, rozmiar strzałki i wysokość tekstu wymiaru bazowego. Działa zarówno z bazami liniowymi, jak i wyrównanymi.
 keywords: [wymiar kontynuowany CAD, dimcontinue, łańcuch wymiarów CAD, wymiar linii bazowej, kontynuacja serii wymiarów, kulmanlab]
 ---
 
-# Wymiar kontynuowany
+# Dimension Continue
 
 Polecenie `dimcontinue` łączy nowe wymiary od **drugiej linii przedłużenia** istniejącego wymiaru. Każdy nowy segment jest umieszczany wzdłuż tej samej osi pomiarowej i przy tym samym odsunięciu linii wymiarowej co baza. Wszystkie właściwości stylu — rozmiar strzałki, wysokość tekstu, długości linii przedłużenia — są automatycznie kopiowane z bazy.
 
@@ -51,7 +51,7 @@ Kierunek pomiaru łańcucha jest **zablokowany do kąta wymiaru bazowego**:
 - Baza liniowa (V) → wszystkie kontynuacje mierzą odległość pionową (Δ Y).
 - Baza wyrównana pod dowolnym kątem → wszystkie kontynuacje mierzą wzdłuż tego samego kąta.
 
-Nie możesz zmienić kierunku w środku łańcucha. Uruchom nowy [Wymiar liniowy](../dim-linear/) lub [Wymiar wyrównany](../dim-aligned/), aby wymiarować w innym kierunku.
+Nie możesz zmienić kierunku w środku łańcucha. Uruchom nowy [Dimension Linear](../dim-linear/) lub [Dimension Aligned](../dim-aligned/), aby wymiarować w innym kierunku.
 
 ## Skróty klawiaturowe
 

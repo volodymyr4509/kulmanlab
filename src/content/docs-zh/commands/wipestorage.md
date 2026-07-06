@@ -1,10 +1,10 @@
 ---
-title: 清除存储命令 — 在 KulmanLab CAD 中清除所有浏览器数据
+title: Wipe Storage命令 — 在 KulmanLab CAD 中清除所有浏览器数据
 description: 清除存储命令永久删除浏览器中保存的所有 KulmanLab CAD 文件、图层、线型和撤销历史。需要输入 YES 确认。在重置损坏或过满的本地数据库时使用。
 keywords: [CAD 清除存储, 清除浏览器数据 CAD, 重置 CAD 应用, 删除本地文件 CAD, kulmanlab 清除存储, kulmanlab]
 ---
 
-# 清除存储
+# Wipe Storage
 
 `wipestorage`（清除存储）命令永久删除 KulmanLab CAD **在浏览器中存储的所有数据** — 每个已保存的文件、图层和线型表，以及撤销历史。之后页面自动重新加载。
 

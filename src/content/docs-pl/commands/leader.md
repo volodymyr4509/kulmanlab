@@ -1,11 +1,11 @@
 ---
 sidebar_position: 10
-title: Polecenie Linia prowadząca — Rysowanie adnotacji linii wielokierunkowej z grotem i tekstem w KulmanLab CAD
-description: "Polecenie Linia prowadząca rysuje czterofazową adnotację linii wielokierunkowej: grot strzałki, dogleg, pozycja tekstu i wpisana etykieta. Kierunek tekstu dostosowuje się automatycznie na podstawie pozycji doglegs. Tylko import w DXF — linie prowadzące nie są zapisywane przy zapisywaniu."
+title: Polecenie Leader — Rysowanie adnotacji linii wielokierunkowej z grotem i tekstem w KulmanLab CAD
+description: "Polecenie Leader rysuje czterofazową adnotację linii wielokierunkowej: grot strzałki, dogleg, pozycja tekstu i wpisana etykieta. Kierunek tekstu dostosowuje się automatycznie na podstawie pozycji doglegs. Tylko import w DXF — linie prowadzące nie są zapisywane przy zapisywaniu."
 keywords: [polecenie linii prowadzącej CAD, adnotacja linii wielokierunkowej, linia prowadząca CAD, adnotacja ze strzałką i etykietą, dogleg linii prowadzącej, kierunek tekstu CAD, kulmanlab]
 ---
 
-# Linia prowadząca
+# Leader
 
 Polecenie `leader` rysuje adnotację linii wielokierunkowej w czterech krokach: grot dotykający cechy, linia prowadząca zginająca się w doglegs, kotwica tekstu i wpisana etykieta. Ze wszystkich poleceń adnotacji, Linia prowadząca jest jedynym, które zawiera interaktywną fazę wprowadzania tekstu z podglądem migającego kursora.
 
@@ -106,8 +106,8 @@ Zobacz [Edytor tekstu — tryb rich](../../interface/text-editor/#rich-mode) w c
 
 ## Dodawanie i usuwanie ramion
 
-- Aby dodać dodatkowe ramię z grotem do istniejącej linii prowadzącej: [Linia prowadząca+](../leader-add/)
-- Aby usunąć ramię z linii prowadzącej mającej dwa lub więcej: [Linia prowadząca−](../leader-remove/)
+- Aby dodać dodatkowe ramię z grotem do istniejącej linii prowadzącej: [Leader+](../leader-add/)
+- Aby usunąć ramię z linii prowadzącej mającej dwa lub więcej: [Leader−](../leader-remove/)
 
 ## DXF — tylko import
 

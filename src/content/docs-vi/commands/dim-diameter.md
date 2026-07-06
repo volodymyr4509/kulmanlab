@@ -1,11 +1,11 @@
 ---
-title: Lệnh Kích Thước Đường Kính — Ghi Chú Đường Kính Hình Tròn và Cung trong KulmanLab CAD
+title: Lệnh Dimension Diameter — Ghi Chú Đường Kính Hình Tròn và Cung trong KulmanLab CAD
 description: Lệnh Dimension Diameter đặt kích thước đường kính (có tiền tố ký hiệu đường kính) qua tâm của cung hoặc hình tròn. Di chuyển con trỏ để xoay đường kích thước theo bất kỳ góc nào. Hỗ trợ DXF đầy đủ dưới dạng thực thể DIMENSION đường kính.
 ---
 
-# Kích Thước Đường Kính
+# Dimension Diameter
 
-Lệnh `dimdiameter` đặt kích thước đường kính lên một cung hoặc hình tròn. Đường kích thước trải qua toàn bộ đường kính — đi qua tâm giữa hai điểm đối diện trên cung — và được ghi nhãn `⌀ <giá trị>`. Để chỉ ghi chú bán kính từ tâm đến một cạnh, dùng [Kích Thước Bán Kính](../dim-radius/).
+Lệnh `dimdiameter` đặt kích thước đường kính lên một cung hoặc hình tròn. Đường kích thước trải qua toàn bộ đường kính — đi qua tâm giữa hai điểm đối diện trên cung — và được ghi nhãn `⌀ <giá trị>`. Để chỉ ghi chú bán kính từ tâm đến một cạnh, dùng [Dimension Radius](../dim-radius/).
 
 ## Cấu trúc kích thước đường kính
 
@@ -29,9 +29,9 @@ Chỉ các thực thể **Cung** và **Hình tròn** mới có thể được ch
 |------|-----------|
 | `Escape` | Hủy |
 
-## Kích Thước Đường Kính vs Kích Thước Bán Kính
+## Dimension Diameter vs Dimension Radius
 
-| | Kích Thước Đường Kính | Kích Thước Bán Kính |
+| | Dimension Diameter | Dimension Radius |
 |---|------|------|
 | Đo | Đường kính đầy đủ (2 × bán kính) | Bán kính (tâm đến cạnh) |
 | Đường kích thước | Cạnh → cạnh qua tâm | Tâm → cạnh |

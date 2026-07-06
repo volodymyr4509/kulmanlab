@@ -1,11 +1,11 @@
 ---
 sidebar_position: 1
-title: Polecenie Cofnij — Cofanie się przez historię rysowania w KulmanLab CAD
-description: Polecenie Cofnij odwraca ostatnią akcję rysowania jeden krok na raz. Na plik przechowywanych jest do 20 kroków, które są utrwalane w przeglądarce między przeładowaniami stron. Wykonanie nowej akcji po cofnięciu czyści stos ponów.
+title: Polecenie Undo — Cofanie się przez historię rysowania w KulmanLab CAD
+description: Polecenie Undo odwraca ostatnią akcję rysowania jeden krok na raz. Na plik przechowywanych jest do 20 kroków, które są utrwalane w przeglądarce między przeładowaniami stron. Wykonanie nowej akcji po cofnięciu czyści stos ponów.
 keywords: [polecenie cofnij CAD, historia cofnij CAD, cofanie akcji CAD, kroki cofnij CAD, trwałe cofnij w przeglądarce, kulmanlab]
 ---
 
-# Cofnij
+# Undo
 
 Polecenie `undo` odwraca ostatnią zmianę w rysunku — jeden krok na wywołanie. Każde dodanie, usunięcie lub edycja elementów jest zapisywana jako oddzielny wpis historii. Cofnij cofa te wpisy w odwrotnej kolejności.
 
@@ -36,4 +36,4 @@ Każda mutacja elementu jest zapisywana: rysowanie nowych elementów, usuwanie e
 | Dostępne gdy | Istnieje co najmniej jedna zarejestrowana akcja | Po wykonaniu co najmniej jednego Cofnij bez podjęcia żadnej nowej akcji |
 | Czyszczone przez | Nic — historia akumuluje się do limitu 20 kroków | Dowolna nowa akcja rysowania |
 
-Użyj [Ponów](../redo/), aby ponownie zastosować cofniętą akcję. Przyciski paska narzędzi są wyszarzone, gdy odpowiedni kierunek jest niedostępny.
+Użyj [Redo](../redo/), aby ponownie zastosować cofniętą akcję. Przyciski paska narzędzi są wyszarzone, gdy odpowiedni kierunek jest niedostępny.

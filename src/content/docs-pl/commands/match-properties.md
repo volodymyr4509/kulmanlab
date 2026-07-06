@@ -1,17 +1,17 @@
 ---
 sidebar_position: 1
-title: Dopasuj właściwości — Kopiowanie właściwości elementów w KulmanLab CAD
-description: Polecenie DopasujWłaściwości kopiuje kolor, warstwę i inne współdzielone właściwości z elementu źródłowego na jeden lub więcej elementów docelowych. Dopasowuje właściwości w taki sam sposób, jak narzędzia CAD na komputerze stacjonarnym.
+title: Match Properties — Kopiowanie właściwości elementów w KulmanLab CAD
+description: Polecenie FitWłaściwości kopiuje kolor, warstwę i inne współdzielone właściwości z elementu źródłowego na jeden lub więcej elementów docelowych. Dopasowuje właściwości w taki sam sposób, jak narzędzia CAD na komputerze stacjonarnym.
 keywords: [dopasuj właściwości CAD, kopiowanie właściwości elementu, MATCHPROP, dopasowanie warstwy koloru, przenoszenie właściwości, kulmanlab dopasuj właściwości, malowanie właściwościami, kopiowanie warstwy CAD]
 ---
 
-# Dopasuj właściwości
+# Match Properties
 
 Polecenie `MatchProperties` kopiuje **właściwości wizualne i warstwy** z elementu źródłowego na jeden lub więcej elementów docelowych. Przenoszone są tylko właściwości wspólne dla typów elementów źródłowego i docelowego — geometria nigdy nie jest zmieniana.
 
 ## Jak aktywować
 
-Kliknij przycisk **Dopasuj właściwości** na pasku narzędzi (ikona wałka malarskiego) w panelu Styl lub wpisz `MatchProperties` w terminalu.
+Kliknij przycisk **Match Properties** na pasku narzędzi (ikona wałka malarskiego) w panelu Styl lub wpisz `MatchProperties` w terminalu.
 
 ## Przepływ pracy
 
@@ -59,5 +59,5 @@ Geometria (współrzędne, promień, długość itp.) nigdy nie jest dotknięta.
 
 ## Powiązane polecenia
 
-- [DopasujWarstwę](../layer-match/) — przenoszenie zaznaczonych elementów na tę samą warstwę co źródło (tylko właściwość warstwy)
-- [UstawAktywneWarstwy](../layer-make-current/) — ustawianie bieżącej warstwy rysunkowej z klikniętego elementu
+- [LayerMatch](../layer-match/) — przenoszenie zaznaczonych elementów na tę samą warstwę co źródło (tylko właściwość warstwy)
+- [LayerMakeCurrent](../layer-make-current/) — ustawianie bieżącej warstwy rysunkowej z klikniętego elementu

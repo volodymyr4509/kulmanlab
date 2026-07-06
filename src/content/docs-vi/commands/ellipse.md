@@ -1,9 +1,9 @@
 ---
-title: Lệnh Hình Elip — Vẽ Hình Elip Xoay Theo Tâm và Hai Trục trong KulmanLab CAD
+title: Lệnh Ellipse — Vẽ Hình Elip Xoay Theo Tâm và Hai Trục trong KulmanLab CAD
 description: Lệnh Ellipse vẽ hình elip bằng ba lần nhấp — tâm, điểm cuối trục đầu tiên (theo bất kỳ hướng nào), sau đó độ dài trục thứ hai. Hai trục luôn vuông góc. Mỗi bán trục có điểm kéo riêng để thay đổi kích thước độc lập sau khi đặt. Hỗ trợ DXF đầy đủ dưới dạng thực thể ELLIPSE.
 ---
 
-# Hình Elip
+# Ellipse
 
 Lệnh `ellipse` vẽ một hình elip sử dụng ba lần nhấp: điểm tâm, điểm cuối của bán trục đầu tiên (lớn) theo bất kỳ góc nào, và độ dài của bán trục thứ hai (nhỏ). Hai trục luôn vuông góc với nhau — hướng trục thứ hai được tự động suy ra từ trục đầu tiên.
 
@@ -40,13 +40,13 @@ Một hình elip được chọn có năm điểm kéo:
 
 | Lệnh | Tác dụng với hình elip |
 |------|----------------------|
-| [Di Chuyển](../move/) | Dịch chuyển tâm; cả hai trục không đổi |
-| [Sao Chép](../copy/) | Tạo hình elip giống hệt tại tâm mới |
-| [Xoay](../rotate/) | Xoay vị trí tâm và vector trục lớn theo cùng góc |
-| [Đối Xứng](../mirror/) | Phản chiếu tâm và tính lại hướng trục lớn |
-| [Tỉ Lệ](../scale/) | Chia tỉ lệ vị trí tâm và nhân cả hai bán trục |
+| [Move](../move/) | Dịch chuyển tâm; cả hai trục không đổi |
+| [Copy](../copy/) | Tạo hình elip giống hệt tại tâm mới |
+| [Rotate](../rotate/) | Xoay vị trí tâm và vector trục lớn theo cùng góc |
+| [Mirror](../mirror/) | Phản chiếu tâm và tính lại hướng trục lớn |
+| [Scale](../scale/) | Chia tỉ lệ vị trí tâm và nhân cả hai bán trục |
 | [Offset](../offset/) | Tạo hình elip đồng tâm lệch ra ngoài hoặc vào trong |
-| [Xóa](../delete/) | Xóa hình elip |
+| [Delete](../delete/) | Xóa hình elip |
 
 ## DXF — thực thể ELLIPSE
 

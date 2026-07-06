@@ -1,11 +1,11 @@
 ---
 sidebar_position: 2
-title: Polecenie Obróć — Obracanie elementów wokół punktu bazowego w KulmanLab CAD
-description: Polecenie Obróć obraca zaznaczone elementy wokół wybranego punktu bazowego. Kąt można wpisać precyzyjnie lub ustawić przez kliknięcie — kierunek kursora od punktu bazowego do kliknięcia określa kąt. Dodatnie kąty są przeciwnie do ruchu wskazówek zegara w układzie współrzędnych DXF.
+title: Polecenie Rotate — Obracanie elementów wokół punktu bazowego w KulmanLab CAD
+description: Polecenie Rotate obraca zaznaczone elementy wokół wybranego punktu bazowego. Kąt można wpisać precyzyjnie lub ustawić przez kliknięcie — kierunek kursora od punktu bazowego do kliknięcia określa kąt. Dodatnie kąty są przeciwnie do ruchu wskazówek zegara w układzie współrzędnych DXF.
 keywords: [polecenie obrotu CAD, obracanie elementów CAD, obracanie obiektów kątem, obrót przeciwnie do ruchu wskazówek zegara CAD, wpisany kąt obrotu, kulmanlab]
 ---
 
-# Obróć
+# Rotate
 
 Polecenie `rotate` obraca zaznaczone elementy wokół punktu bazowego. Kąt obrotu podajesz przez wpisanie liczby w stopniach lub przez kliknięcie — kąt jest obliczany z kierunku między punktem bazowym a pozycją kliknięcia.
 

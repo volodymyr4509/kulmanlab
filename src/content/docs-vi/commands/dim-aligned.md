@@ -1,11 +1,11 @@
 ---
-title: Lệnh Kích Thước Căn Chỉnh — Ghi Kích Thước Theo Bất Kỳ Góc Nào trong KulmanLab CAD
+title: Lệnh Dimension Aligned — Ghi Kích Thước Theo Bất Kỳ Góc Nào trong KulmanLab CAD
 description: Lệnh Dimension Aligned đo khoảng cách thực sự giữa hai điểm. Đường kích thước chạy song song với đường p1→p2 theo bất kỳ góc nào — khác với Dimension Linear chỉ theo chiều ngang hoặc dọc. Hỗ trợ DXF đầy đủ dưới dạng thực thể DIMENSION.
 ---
 
-# Kích Thước Căn Chỉnh
+# Dimension Aligned
 
-Lệnh `dimaligned` đặt một kích thước đo **khoảng cách thực sự** giữa hai điểm. Đường kích thước chạy song song với đường nối hai điểm, có thể nghiêng theo bất kỳ góc nào. Đây là điểm khác biệt chính so với [Kích Thước Tuyến Tính](../dim-linear/), chỉ hoạt động theo chiều ngang hoặc dọc.
+Lệnh `dimaligned` đặt một kích thước đo **khoảng cách thực sự** giữa hai điểm. Đường kích thước chạy song song với đường nối hai điểm, có thể nghiêng theo bất kỳ góc nào. Đây là điểm khác biệt chính so với [Dimension Linear](../dim-linear/), chỉ hoạt động theo chiều ngang hoặc dọc.
 
 ## Cấu trúc kích thước căn chỉnh
 
@@ -31,9 +31,9 @@ Lệnh `dimaligned` đặt một kích thước đo **khoảng cách thực sự
 | `Enter` / `Space` | Xác nhận tọa độ hoặc khoảng lệch |
 | `Escape` | Hủy |
 
-## Kích Thước Căn Chỉnh vs Kích Thước Tuyến Tính
+## Dimension Aligned vs Dimension Linear
 
-| | Kích Thước Căn Chỉnh | Kích Thước Tuyến Tính |
+| | Dimension Aligned | Dimension Linear |
 |---|------|------|
 | Góc đường kích thước | Song song với p1→p2 — bất kỳ góc nào | Luôn ngang hoặc dọc |
 | Đo | Khoảng cách Euclid thực sự | Chỉ thành phần X hoặc Y |
@@ -54,7 +54,7 @@ Xem [Trình Soạn Thảo Văn Bản — chế độ đơn giản](../../interfa
 
 ## Nối tiếp kích thước
 
-Để thêm các kích thước tiếp tục từ đường gióng thứ hai của kích thước này, dùng [Kích Thước Tiếp Tục](../dim-continue/) — nó khóa theo cùng góc đo với kích thước căn chỉnh này.
+Để thêm các kích thước tiếp tục từ đường gióng thứ hai của kích thước này, dùng [Dimension Continue](../dim-continue/) — nó khóa theo cùng góc đo với kích thước căn chỉnh này.
 
 ## DXF — thực thể DIMENSION (loại căn chỉnh)
 

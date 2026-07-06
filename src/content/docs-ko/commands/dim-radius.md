@@ -1,13 +1,13 @@
 ---
 sidebar_position: 16
-title: 반지름 치수 명령어 — KulmanLab CAD에서 호 및 원 반지름 주석
-description: 반지름 치수 명령어는 호 또는 원에 R 접두사가 붙은 방사형 치수를 배치합니다. 객체를 클릭한 다음 커서를 이동하여 중심에서 원주까지 치수 선을 방향 설정합니다. DXF DIMENSION 반지름 객체로 완전한 왕복 지원.
+title: Dimension Radius 명령어 — KulmanLab CAD에서 호 및 원 반지름 주석
+description: Dimension Radius 명령어는 호 또는 원에 R 접두사가 붙은 방사형 치수를 배치합니다. 객체를 클릭한 다음 커서를 이동하여 중심에서 원주까지 치수 선을 방향 설정합니다. DXF DIMENSION 반지름 객체로 완전한 왕복 지원.
 keywords: [CAD 반지름 치수, dimradius, 원 반지름 주석, 호 반지름 치수, R 접두사 치수, kulmanlab]
 ---
 
-# 반지름 치수
+# Dimension Radius
 
-`dimradius` 명령어는 호 또는 원에 반지름 치수를 배치합니다. 치수 선은 중심에서 커서 방향의 원주 점까지 실행되며 `R <값>`으로 레이블이 붙습니다. 전체 지름에 치수를 달려면 [지름 치수](../dim-diameter/)를 사용하세요.
+`dimradius` 명령어는 호 또는 원에 반지름 치수를 배치합니다. 치수 선은 중심에서 커서 방향의 원주 점까지 실행되며 `R <값>`으로 레이블이 붙습니다. 전체 지름에 치수를 달려면 [Dimension Diameter](../dim-diameter/)를 사용하세요.
 
 ## 반지름 치수의 구조
 
@@ -25,7 +25,7 @@ keywords: [CAD 반지름 치수, dimradius, 원 반지름 주석, 호 반지름 
 
 ## 반지름 치수 배치
 
-1. 터미널에 `dimradius`를 입력하거나 **반지름 치수** 도구 모음 버튼을 클릭합니다.
+1. 터미널에 `dimradius`를 입력하거나 **Dimension Radius** 도구 모음 버튼을 클릭합니다.
 2. **호 또는 원을 클릭**하여 선택합니다.
 3. 치수 선을 방향 설정하기 위해 **커서를 이동** — 호 점이 중심에서 커서 방향을 추적합니다.
 4. **클릭**하여 치수를 배치합니다.
@@ -38,9 +38,9 @@ keywords: [CAD 반지름 치수, dimradius, 원 반지름 주석, 호 반지름 
 |----|------|
 | `Escape` | 취소 |
 
-## 반지름 치수 vs 지름 치수
+## Dimension Radius vs Dimension Diameter
 
-| | 반지름 치수 | 지름 치수 |
+| | Dimension Radius | Dimension Diameter |
 |--|-----------|----------|
 | 측정 내용 | 반지름(중심에서 가장자리까지) | 지름(가장자리에서 가장자리, 중심 통과) |
 | 치수 선 | 중심 → 호 점 | 호 점 → 호 점(중심 통과) |

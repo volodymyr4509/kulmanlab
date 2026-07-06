@@ -11,7 +11,7 @@ Trình soạn thảo văn bản mở khi bạn đặt hoặc nhấp đúp vào t
 
 ### Chế độ phong phú
 
-Sử dụng bởi: **Văn Bản** (nhãn MTEXT) và chú thích **Đường Dẫn Đa**.
+Sử dụng bởi: **Text** (nhãn MTEXT) và chú thích **Leader**.
 
 | Tính năng | Hành vi |
 |-----------|---------|
@@ -24,7 +24,7 @@ Sử dụng bởi: **Văn Bản** (nhãn MTEXT) và chú thích **Đường Dẫ
 
 ### Chế độ đơn giản
 
-Sử dụng bởi: **Kích Thước Tuyến Tính**, **Kích Thước Căn Chỉnh**, **Kích Thước Góc**, **Kích Thước Bán Kính**, **Kích Thước Đường Kính**.
+Sử dụng bởi: **Dimension Linear**, **Dimension Aligned**, **Dimension Angular**, **Dimension Radius**, **Dimension Diameter**.
 
 Trình soạn thảo được điền sẵn nhãn hiển thị hiện tại của kích thước để bạn có thể đặt con trỏ và chỉnh sửa giá trị trực tiếp.
 
@@ -41,8 +41,8 @@ Trình soạn thảo được điền sẵn nhãn hiển thị hiện tại củ
 | Hành động | Kết quả |
 |-----------|---------|
 | Lệnh `text` → nhấp vị trí | Tạo thực thể văn bản mới và mở trình soạn thảo (**phong phú**) |
-| Nhấp đúp thực thể **Văn Bản** hiện có | Mở lại trình soạn thảo ở chế độ **phong phú** |
-| Nhấp đúp **Đường Dẫn Đa** hiện có | Mở trình soạn thảo ở chế độ **phong phú** |
+| Nhấp đúp thực thể **Text** hiện có | Mở lại trình soạn thảo ở chế độ **phong phú** |
+| Nhấp đúp **Leader** hiện có | Mở trình soạn thảo ở chế độ **phong phú** |
 | Nhấp đúp thực thể **kích thước** | Mở trình soạn thảo ở chế độ **đơn giản** |
 | `Escape` bên trong trình soạn thảo | Đóng trình soạn thảo và giữ tất cả thay đổi |
 

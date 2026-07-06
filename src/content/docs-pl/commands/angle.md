@@ -1,13 +1,13 @@
 ---
 sidebar_position: 1
-title: Polecenie Kąt — Mierzenie kąta wewnętrznego w wierzchołku przez trzy punkty w KulmanLab CAD
-description: Polecenie Kąt mierzy kąt wewnętrzny (0°–180°) w wierzchołku wyznaczonym przez trzy kliknięte punkty. Kliknij pierwszy koniec, wierzchołek, drugi koniec. Wynik wyświetlany w terminalu z dokładnością do 4 miejsc po przecinku.
+title: Polecenie Angle — Mierzenie kąta wewnętrznego w wierzchołku przez trzy punkty w KulmanLab CAD
+description: Polecenie Angle mierzy kąt wewnętrzny (0°–180°) w wierzchołku wyznaczonym przez trzy kliknięte punkty. Kliknij pierwszy koniec, wierzchołek, drugi koniec. Wynik wyświetlany w terminalu z dokładnością do 4 miejsc po przecinku.
 keywords: [pomiar kąta CAD, kąt przez trzy punkty, kąt wewnętrzny CAD, polecenie pomiaru kąta, kąt wierzchołka, kulmanlab]
 ---
 
-# Kąt
+# Angle
 
-Polecenie `angle` mierzy kąt wewnętrzny w wierzchołku utworzonym przez dwa odcinki linii przechodzące przez trzy kliknięte punkty. Wynik — zawsze między 0° a 180° — wyświetlany jest w terminalu z dokładnością do 4 miejsc po przecinku. Jest to jedno z dwóch poleceń pomiarowych — [Odległość](../distance/) mierzy zamiast tego długość prostoliniową.
+Polecenie `angle` mierzy kąt wewnętrzny w wierzchołku utworzonym przez dwa odcinki linii przechodzące przez trzy kliknięte punkty. Wynik — zawsze między 0° a 180° — wyświetlany jest w terminalu z dokładnością do 4 miejsc po przecinku. Jest to jedno z dwóch poleceń pomiarowych — [Distance](../distance/) mierzy zamiast tego długość prostoliniową.
 
 ## Anatomia pomiaru kąta
 

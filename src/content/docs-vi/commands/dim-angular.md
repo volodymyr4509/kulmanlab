@@ -1,9 +1,9 @@
 ---
-title: Kích Thước Góc — Đo Góc Giữa Các Đường, Cung và Hình Tròn trong KulmanLab CAD
+title: Dimension Angular — Đo Góc Giữa Các Đường, Cung và Hình Tròn trong KulmanLab CAD
 description: "Lệnh DimensionAngular đặt chú thích kích thước góc lên các đường thẳng, cung hoặc hình tròn. Hỗ trợ ba chế độ: hai đường thẳng, khoảng cung và cung tròn."
 ---
 
-# Kích Thước Góc
+# Dimension Angular
 
 Lệnh `DimensionAngular` đặt một **chú thích kích thước góc** dạng cung lên bản vẽ. Nó đo và ghi nhãn góc giữa hai đường thẳng, khoảng của một cung, hoặc một phần của hình tròn.
 
@@ -62,7 +62,7 @@ Xem [Trình Soạn Thảo Văn Bản — chế độ đơn giản](../../interfa
 
 ## Các lệnh liên quan
 
-- [Kích Thước Tuyến Tính](../dim-linear/) — kích thước ngang hoặc dọc
-- [Kích Thước Căn Chỉnh](../dim-aligned/) — kích thước căn chỉnh theo hai điểm
-- [Kích Thước Bán Kính](../dim-radius/) — kích thước bán kính cho cung và hình tròn
-- [Kích Thước Đường Kính](../dim-diameter/) — kích thước đường kính cho hình tròn
+- [Dimension Linear](../dim-linear/) — kích thước ngang hoặc dọc
+- [Dimension Aligned](../dim-aligned/) — kích thước căn chỉnh theo hai điểm
+- [Dimension Radius](../dim-radius/) — kích thước bán kính cho cung và hình tròn
+- [Dimension Diameter](../dim-diameter/) — kích thước đường kính cho hình tròn

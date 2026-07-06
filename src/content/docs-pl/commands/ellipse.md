@@ -1,11 +1,11 @@
 ---
 sidebar_position: 6
-title: Polecenie Elipsa — Rysowanie obróconej elipsy przez środek i dwie osie w KulmanLab CAD
-description: Polecenie Elipsa rysuje elipsę w trzech kliknięciach — środek, punkt końcowy pierwszej osi (w dowolnym kierunku), następnie długość drugiej osi. Obie osie są zawsze prostopadłe. Każda półoś ma własny uchwyt do niezależnej zmiany rozmiaru po umieszczeniu. Pełna obsługa zapisu i odczytu DXF jako elementy ELLIPSE.
+title: Polecenie Ellipse — Rysowanie obróconej elipsy przez środek i dwie osie w KulmanLab CAD
+description: Polecenie Ellipse rysuje elipsę w trzech kliknięciach — środek, punkt końcowy pierwszej osi (w dowolnym kierunku), następnie długość drugiej osi. Obie osie są zawsze prostopadłe. Każda półoś ma własny uchwyt do niezależnej zmiany rozmiaru po umieszczeniu. Pełna obsługa zapisu i odczytu DXF jako elementy ELLIPSE.
 keywords: [polecenie elipsy CAD, rysowanie elipsy CAD, obrócona elipsa CAD, osie elipsy, element ELLIPSE DXF, edycja uchwytu elipsy, stosunek osi, kulmanlab]
 ---
 
-# Elipsa
+# Ellipse
 
 Polecenie `ellipse` rysuje elipsę za pomocą trzech kliknięć: punkt środkowy, punkt końcowy pierwszej (głównej) półosi pod dowolnym kątem i długość drugiej (pobocznej) półosi. Obie osie są zawsze do siebie prostopadłe — kierunek drugiej osi jest wyprowadzany automatycznie z pierwszej.
 
@@ -81,13 +81,13 @@ Uchwyty głównej i pobocznej osi są niezależne — możesz zmienić kształt 
 
 | Polecenie | Co dzieje się z elipsą |
 |-----------|-----------------------|
-| [Przesuń](../move/) | Translacja środka; obie osie bez zmian |
-| [Kopiuj](../copy/) | Tworzy identyczną elipsę w nowym środku |
-| [Obróć](../rotate/) | Obraca pozycję środka i wektor głównej osi o ten sam kąt |
-| [Odbij](../mirror/) | Odbija środek i przelicza kierunek głównej osi przez oś odbicia |
-| [Skaluj](../scale/) | Skaluje pozycję środka i mnoży obie długości półosi przez współczynnik |
-| [Odsunięcie](../offset/) | Tworzy współśrodkową elipsę odsuniętą na zewnątrz lub do wewnątrz o stałą odległość |
-| [Usuń](../delete/) | Usuwa elipsę |
+| [Move](../move/) | Translacja środka; obie osie bez zmian |
+| [Copy](../copy/) | Tworzy identyczną elipsę w nowym środku |
+| [Rotate](../rotate/) | Obraca pozycję środka i wektor głównej osi o ten sam kąt |
+| [Mirror](../mirror/) | Odbija środek i przelicza kierunek głównej osi przez oś odbicia |
+| [Scale](../scale/) | Skaluje pozycję środka i mnoży obie długości półosi przez współczynnik |
+| [Offset](../offset/) | Tworzy współśrodkową elipsę odsuniętą na zewnątrz lub do wewnątrz o stałą odległość |
+| [Delete](../delete/) | Usuwa elipsę |
 
 ## Właściwości
 

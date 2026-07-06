@@ -1,11 +1,11 @@
 ---
 sidebar_position: 4
-title: Polecenie Okrąg — Rysowanie okręgów przez środek i promień w KulmanLab CAD
-description: Polecenie Okrąg umieszcza okrąg przez kliknięcie punktu środkowego, a następnie kliknięcie lub wpisanie promienia. Cztery uchwyty kardynalne pozwalają zmieniać rozmiar promienia przez przeciąganie bez ponownego uruchamiania polecenia. Pełna obsługa zapisu i odczytu DXF jako elementy CIRCLE.
+title: Polecenie Circle — Rysowanie okręgów przez środek i promień w KulmanLab CAD
+description: Polecenie Circle umieszcza okrąg przez kliknięcie punktu środkowego, a następnie kliknięcie lub wpisanie promienia. Cztery uchwyty kardynalne pozwalają zmieniać rozmiar promienia przez przeciąganie bez ponownego uruchamiania polecenia. Pełna obsługa zapisu i odczytu DXF jako elementy CIRCLE.
 keywords: [polecenie okręgu CAD, rysowanie okręgu CAD, wprowadzanie promienia okręgu, zmiana rozmiaru okręgu uchwytem, element CIRCLE DXF, wymiar promienia okręgu, kulmanlab]
 ---
 
-# Okrąg
+# Circle
 
 Polecenie `circle` rysuje okrąg zdefiniowany przez punkt środkowy i promień. Po kliknięciu środka możesz ustawić promień przez kliknięcie drugiego punktu na płótnie lub przez wpisanie dokładnej liczby — obie opcje są dostępne jednocześnie.
 
@@ -85,13 +85,13 @@ Wszystkie cztery uchwyty kardynalne zachowują się identycznie — nowy promie�
 
 | Polecenie | Co dzieje się z okręgiem |
 |-----------|--------------------------|
-| [Przesuń](../move/) | Translacja środka; promień bez zmian |
-| [Kopiuj](../copy/) | Tworzy identyczny okrąg w nowym środku |
-| [Obróć](../rotate/) | Obraca środek wokół punktu bazowego; promień bez zmian |
-| [Odbij](../mirror/) | Odbija środek przez oś odbicia; promień bez zmian |
-| [Skaluj](../scale/) | Skaluje pozycję środka i mnoży promień przez współczynnik skali |
-| [Odsunięcie](../offset/) | Tworzy współśrodkowy okrąg przy większym lub mniejszym promieniu |
-| [Usuń](../delete/) | Usuwa okrąg |
+| [Move](../move/) | Translacja środka; promień bez zmian |
+| [Copy](../copy/) | Tworzy identyczny okrąg w nowym środku |
+| [Rotate](../rotate/) | Obraca środek wokół punktu bazowego; promień bez zmian |
+| [Mirror](../mirror/) | Odbija środek przez oś odbicia; promień bez zmian |
+| [Scale](../scale/) | Skaluje pozycję środka i mnoży promień przez współczynnik skali |
+| [Offset](../offset/) | Tworzy współśrodkowy okrąg przy większym lub mniejszym promieniu |
+| [Delete](../delete/) | Usuwa okrąg |
 
 ## Właściwości
 
@@ -120,7 +120,7 @@ Wszystkie cztery uchwyty kardynalne zachowują się identycznie — nowy promie�
 | Jak rysować | Środek + promień | Trzy punkty na krzywej |
 | Wpisane wejście | Wartość promienia | Brak — tylko kliknięcie |
 | Uchwyt zmiany rozmiaru | 4 punkty kardynalne | Punkty początku i końca (kąt + promień) |
-| Wymiarowanie | Promień: [Wymiar promienia](../dim-radius/) · Średnica: [Wymiar średnicy](../dim-diameter/) | [Wymiar promienia](../dim-radius/) |
+| Wymiarowanie | Promień: [Dimension Radius](../dim-radius/) · Średnica: [Dimension Diameter](../dim-diameter/) | [Dimension Radius](../dim-radius/) |
 | Najlepsze do | Pełne otwory, okrągłe rozmieszczenie otworów, okrągłe cechy | Zaokrąglenia, częściowe krzywe, łukowe ścieżki |
 
 ## DXF — element CIRCLE

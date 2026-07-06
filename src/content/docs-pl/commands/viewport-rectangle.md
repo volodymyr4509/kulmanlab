@@ -1,10 +1,10 @@
 ---
-title: Polecenie ProstokątWidoku — Tworzenie okna widoku w układzie w KulmanLab CAD
-description: Polecenie ProstokątWidoku tworzy okno widoku w aktywnym układzie papieru przez wyznaczenie dwóch przeciwnych narożników. Okno widoku pokazuje elementy przestrzeni modelu przy domyślnej skali układu.
+title: Polecenie ViewportRectangle — Tworzenie okna widoku w układzie w KulmanLab CAD
+description: Polecenie ViewportRectangle tworzy okno widoku w aktywnym układzie papieru przez wyznaczenie dwóch przeciwnych narożników. Okno widoku pokazuje elementy przestrzeni modelu przy domyślnej skali układu.
 keywords: [prostokąt widoku, tworzenie okna widoku, okno widoku układu, okno widoku przestrzeni papieru, kulmanlab]
 ---
 
-# ProstokątWidoku
+# ViewportRectangle
 
 Polecenie `ViewportRectangle` tworzy nowe okno widoku w aktywnym układzie papieru przez wyznaczenie dwóch przeciwnych narożników. Dostępne tylko w przestrzeni układu.
 
@@ -47,4 +47,4 @@ Po umieszczeniu okna widoku kliknij je, aby je zaznaczyć:
 ## Uwagi
 
 - ProstokątWidoku jest dostępny tylko gdy aktywna jest zakładka układu papieru. Uruchomienie w przestrzeni modelu pokazuje komunikat o błędzie i wychodzi.
-- Aby skopiować istniejące okno widoku, użyj [KopiujWidok](../viewport-copy/).
+- Aby skopiować istniejące okno widoku, użyj [ViewportCopy](../viewport-copy/).

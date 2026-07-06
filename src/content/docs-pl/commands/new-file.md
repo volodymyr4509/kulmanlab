@@ -1,11 +1,11 @@
 ---
 sidebar_position: 2
-title: Nowy plik — Tworzenie pustego rysunku w KulmanLab CAD
-description: Polecenie Nowy plik czyści płótno i otwiera świeży pusty rysunek. Automatycznie generowana jest nazwa pliku ze znacznikiem czasu, która jest zapisywana w pamięci przeglądarki.
+title: New File — Tworzenie pustego rysunku w KulmanLab CAD
+description: Polecenie New File czyści płótno i otwiera świeży pusty rysunek. Automatycznie generowana jest nazwa pliku ze znacznikiem czasu, która jest zapisywana w pamięci przeglądarki.
 keywords: [nowy plik CAD, nowy rysunek, puste płótno CAD, tworzenie nowego rysunku online, nowy DXF, KulmanLab nowy plik, resetowanie płótna, czyszczenie rysunku]
 ---
 
-# Nowy plik
+# New File
 
 Polecenie **Nowy plik** czyści płótno i zaczyna świeży pusty rysunek. Unikalna nazwa pliku ze znacznikiem czasu jest generowana automatycznie.
 
@@ -25,7 +25,7 @@ Plik jest automatycznie zapisywany w pamięci przeglądarki i pojawia się w [Os
 
 ## Ostrzeżenie — niezapisana praca zostanie odrzucona
 
-Kliknięcie **Nowy plik** odrzuca wszystkie elementy na bieżącym płótnie bez ostrzeżenia. Jeśli chcesz zachować bieżący rysunek, najpierw [wyeksportuj](../export/) go.
+Kliknięcie **Nowy plik** odrzuca wszystkie elementy na bieżącym płótnie bez ostrzeżenia. Jeśli chcesz zachować bieżący rysunek, najpierw [Export](../export/) go.
 
 ## Kiedy używać Nowego pliku a Importu
 
@@ -33,10 +33,10 @@ Kliknięcie **Nowy plik** odrzuca wszystkie elementy na bieżącym płótnie bez
 |-----------|-------------------|
 | Rozpoczynanie rysunku od zera | **Nowy plik** |
 | Otwieranie istniejącego pliku DXF lub JSON | [Import](../import/) |
-| Kopiowanie rysunku do pracy nad wariantem | [Eksportuj](../export/) bieżący plik, następnie [Importuj](../import/) kopię |
+| Kopiowanie rysunku do pracy nad wariantem | [Export](../export/) bieżący plik, następnie [Import](../import/) kopię |
 
 ## Powiązane polecenia
 
 - [Import](../import/) — otwieranie istniejącego rysunku DXF lub JSON
-- [Eksport](../export/) — pobieranie rysunku przed rozpoczęciem od nowa
-- [Pliki](../files/) — przywracanie poprzedniego rysunku z pamięci przeglądarki
+- [Export](../export/) — pobieranie rysunku przed rozpoczęciem od nowa
+- [Files](../files/) — przywracanie poprzedniego rysunku z pamięci przeglądarki

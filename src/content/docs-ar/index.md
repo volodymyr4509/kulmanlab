@@ -102,7 +102,7 @@ keywords: [KulmanLab, KulmanLab CAD, أوامر CAD, برنامج CAD مجاني
 | [Files](./commands/files/) | تصفح الرسومات الأخيرة واستعادتها |
 | [Print](./commands/print/) | تصدير منطقة رسم كصورة أو PDF |
 | [Export](./commands/export/) | تنزيل الرسم بصيغة DXF أو JSON |
-| [WipeStorage](./commands/wipestorage/) | مسح جميع الرسومات من تخزين المتصفح |
+| [Wipe Storage](./commands/wipestorage/) | مسح جميع الرسومات من تخزين المتصفح |
 
 ## الاسترداد
 
@@ -112,7 +112,7 @@ keywords: [KulmanLab, KulmanLab CAD, أوامر CAD, برنامج CAD مجاني
 https://kulmanlab.com/?resetKulmanLocalStorage
 ```
 
-يؤدي هذا إلى حذف كل شيء من قاعدة بيانات المتصفح المحلية وبدء رسم فارغ جديد. تُزيل معامل `?reset` نفسه من عنوان URL تلقائياً. استخدم هذا كملاذ أخير عندما يتعذّر الوصول إلى [WipeStorage](./commands/wipestorage/) لأن التطبيق لا يُحمَّل أصلاً.
+يؤدي هذا إلى حذف كل شيء من قاعدة بيانات المتصفح المحلية وبدء رسم فارغ جديد. تُزيل معامل `?reset` نفسه من عنوان URL تلقائياً. استخدم هذا كملاذ أخير عندما يتعذّر الوصول إلى [Wipe Storage](./commands/wipestorage/) لأن التطبيق لا يُحمَّل أصلاً.
 
 ## كيف تعمل الأوامر
 

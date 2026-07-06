@@ -1,13 +1,13 @@
 ---
 sidebar_position: 2
-title: Novo Arquivo — Iniciar um Desenho em Branco no KulmanLab CAD
-description: O comando Novo Arquivo limpa o canvas e abre um desenho em branco. Um nome de arquivo com timestamp é gerado automaticamente e salvo no armazenamento do navegador.
+title: New File — Iniciar um Desenho em Branco no KulmanLab CAD
+description: O comando New File limpa o canvas e abre um desenho em branco. Um nome de arquivo com timestamp é gerado automaticamente e salvo no armazenamento do navegador.
 keywords: [novo arquivo CAD, novo desenho, canvas em branco CAD, criar novo desenho online, novo DXF, KulmanLab novo arquivo, redefinir canvas, limpar desenho]
 ---
 
-# Novo Arquivo
+# New File
 
-O comando **Novo Arquivo** limpa o canvas e inicia um desenho em branco. Um nome de arquivo único com timestamp é gerado automaticamente.
+O comando **New File** limpa o canvas e inicia um desenho em branco. Um nome de arquivo único com timestamp é gerado automaticamente.
 
 ## Como criar um novo arquivo
 
@@ -25,13 +25,13 @@ O arquivo é salvo automaticamente no armazenamento do navegador e aparece em [A
 
 ## Atenção — trabalho não salvo é descartado
 
-Clicar em **Novo Arquivo** descarta todas as entidades no canvas atual sem aviso. Se você quiser manter o desenho atual, [exporte](../export/) primeiro.
+Clicar em **New File** descarta todas as entidades no canvas atual sem aviso. Se você quiser manter o desenho atual, [exporte](../export/) primeiro.
 
-## Quando usar Novo Arquivo vs Importar
+## Quando usar New File vs Importar
 
 | Situação | Ação recomendada |
 |----------|-----------------|
-| Começar um desenho do zero | **Novo Arquivo** |
+| Começar um desenho do zero | **New File** |
 | Abrir um arquivo DXF ou JSON existente | [Importar](../import/) |
 | Copiar um desenho para trabalhar em uma variante | [Exportar](../export/) o arquivo atual, depois [Importar](../import/) a cópia |
 

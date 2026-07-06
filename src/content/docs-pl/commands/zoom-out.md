@@ -1,13 +1,13 @@
 ---
 sidebar_position: 3
-title: "Polecenie Pomniejsz — Zmniejszanie powiększenia widoku o 1,5× na krok w KulmanLab CAD"
-description: "Polecenie Pomniejsz dzieli bieżący poziom powiększenia o 1,5× i natychmiast kończy się, wyśrodkowane na środku widoku. Użyj kółka myszy, aby płynniej pomniejszać w kierunku kursora."
+title: "Polecenie Zoom Out — Zmniejszanie powiększenia widoku o 1,5× na krok w KulmanLab CAD"
+description: "Polecenie Zoom Out dzieli bieżący poziom powiększenia o 1,5× i natychmiast kończy się, wyśrodkowane na środku widoku. Użyj kółka myszy, aby płynniej pomniejszać w kierunku kursora."
 keywords: [CAD pomniejsz, zmniejsz powiększenie widoku, polecenie pomniejsz, przegląd CAD, krok powiększenia 1,5x, kulmanlab]
 ---
 
-# Pomniejsz
+# Zoom Out
 
-Polecenie `zoomout` dzieli bieżący poziom powiększenia przez **1,5×** (odpowiednik mnożenia przez ~0,667) i natychmiast kończy się, wyśrodkowane na środku widoku. Jest to odwrotność polecenia [Powiększ](../zoom-in/).
+Polecenie `zoomout` dzieli bieżący poziom powiększenia przez **1,5×** (odpowiednik mnożenia przez ~0,667) i natychmiast kończy się, wyśrodkowane na środku widoku. Jest to odwrotność polecenia [Zoom In](../zoom-in/).
 
 ## Pomniejszanie
 
@@ -41,6 +41,6 @@ Dla tego polecenia nie ma skrótów klawiaturowych. Zamiast tego użyj kółka m
 
 | Polecenie | Co robi |
 |-----------|---------|
-| [Powiększ](../zoom-in/) | Mnoży powiększenie o 1,5× na krok |
-| [Dopasuj](../fit/) | Resetuje powiększenie, aby pokazać wszystkie elementy |
-| [Panoramuj](../pan/) | Przesuwa widok bez powiększania |
+| [Zoom In](../zoom-in/) | Mnoży powiększenie o 1,5× na krok |
+| [Fit](../fit/) | Resetuje powiększenie, aby pokazać wszystkie elementy |
+| [Pan](../pan/) | Przesuwa widok bez powiększania |

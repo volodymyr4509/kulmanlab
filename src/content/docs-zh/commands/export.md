@@ -1,20 +1,20 @@
 ---
 sidebar_position: 5
-title: 导出 — 在 KulmanLab CAD 中将图形下载为 DXF 或 JSON
-description: 导出命令将当前图形下载为 DXF（）或 JSON（原生）文件。JSON 保留所有图元（包括标注和引线）；DXF 与其他 CAD 工具兼容。
+title: Export — 在 KulmanLab CAD 中将图形下载为 DXF 或 JSON
+description: Export 命令将当前图形下载为 DXF（）或 JSON（原生）文件。JSON 保留所有图元（包括标注和引线）；DXF 与其他 CAD 工具兼容。
 keywords: [导出 DXF, 导出 CAD 文件, 浏览器下载 DXF, 在线保存 DXF, 导出 JSON CAD, KulmanLab 导出, CAD 文件下载, DXF 导出, 保存图形到文件, DXF 下载, kulmanlab]
 ---
 
-# 导出
+# Export
 
-**导出**命令将当前图形下载到您的文件系统。提供两种格式：**DXF** 用于与其他 CAD 工具兼容，**JSON** 用于在 KulmanLab CAD 中完整保存。
+**Export** 命令将当前图形下载到您的文件系统。提供两种格式：**DXF** 用于与其他 CAD 工具兼容，**JSON** 用于在 KulmanLab CAD 中完整保存。
 
 ## 如何导出
 
-1. 在文件面板中单击**导出**工具栏按钮（下载图标）。
-2. 弹出**导出管理器**。
+1. 在文件面板中单击**Export** 工具栏按钮（下载图标）。
+2. 弹出**Export Manager**。
 3. 单击格式卡片选择格式 — **JSON** 或 **DXF**。
-4. 单击**导出**按钮。文件自动下载到您的默认下载文件夹。
+4. 单击**Export** 按钮。文件自动下载到您的默认下载文件夹。
 
 ## 选择格式
 
@@ -45,25 +45,25 @@ keywords: [导出 DXF, 导出 CAD 文件, 浏览器下载 DXF, 在线保存 DXF,
 - 直线、圆、圆弧、椭圆、多段线（导出为 `LWPOLYLINE`）、样条线、文字
 - 图层定义和线型表
 
-**DXF 中不包含：** 标注图元和多重引线。这些使用 KulmanLab 特定的数据结构，无法在标准 DXF 中准确表示。如果您的图形有注释，请使用 JSON 或[打印](../print/)以可视方式捕获它们。
+**DXF 中不包含：** 标注图元和多重引线。这些使用 KulmanLab 特定的数据结构，无法在标准 DXF 中准确表示。如果您的图形有注释，请使用 JSON 或[Print](../print/)以可视方式捕获它们。
 
 ## 导出的文件名
 
 下载的文件以当前图形文件命名（例如 `myplan_May22_14:30:00.json`）。扩展名根据所选格式更改。
 
-## 导出 vs 打印的区别
+## Export vs Print 的区别
 
-| 功能 | 导出 | 打印 |
+| 功能 | Export | Print |
 |---------|--------|-------|
 | 输出 | 矢量源文件（.dxf / .json） | 光栅图像（.png / .jpeg / .webp / .pdf） |
 | 可在其他工具中编辑 | 是（DXF） | 否 |
 | 保留图层和线型 | 是 | 否（渲染为平面） |
 | 捕获标注和引线 | 仅 JSON | 是 |
 
-需要可编辑文件时使用**导出**。需要可视快照时使用[打印](../print/)。
+需要可编辑文件时使用**Export**。需要可视快照时使用[Print](../print/)。
 
 ## 相关命令
 
-- [导入](../import/) — 打开 DXF 或 JSON 文件
-- [打印](../print/) — 将画布导出为 PNG、JPEG、WebP 或 PDF 图像
-- [文件列表](../files/) — 浏览保存在浏览器存储中的图形
+- [Import](../import/) — 打开 DXF 或 JSON 文件
+- [Print](../print/) — 将画布导出为 PNG、JPEG、WebP 或 PDF 图像
+- [Files](../files/) — 浏览保存在浏览器存储中的图形
