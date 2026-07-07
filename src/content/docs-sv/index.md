@@ -92,6 +92,7 @@ Välkommen till **KulmanLab CAD**-kommandoreferensen. [KulmanLab CAD](https://ku
 | Kommando | Vad det gör |
 |---------|-------------|
 | [Match Properties](./commands/match-properties/) | Kopiera färg, lager och andra egenskaper från en entitet till andra |
+| [Font Manager](./commands/font-manager/) | Bläddra bland, välj och ladda upp anpassade TTF-typsnitt |
 
 ## Fil
 

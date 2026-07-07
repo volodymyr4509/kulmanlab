@@ -83,6 +83,7 @@ KulmanLab is a free, browser-based 2D CAD editor. No installation, no account, n
 - Layout / paper space with multiple layouts and viewport editing
 - Print manager: PDF and PNG/WebP export with DPI control
 - On-canvas text editing (MTEXT) with Bold, Italic, per-character font and size
+- Font Manager: browse built-in and Google Fonts, or upload custom .ttf files
 - Undo/redo history
 - Adaptive CAD grid with snap-to-grid
 
@@ -1436,6 +1437,58 @@ There is no keyboard shortcut for this command. Use the **middle mouse button do
 | [Pan](./pan) | Shifts the viewport without zooming |
 | [Zoom In](./zoom-in) | Multiplies zoom by 1.5× per step |
 | [Zoom Out](./zoom-out) | Divides zoom by 1.5× per step |
+
+---
+
+# Font Manager
+
+The `FontManager` command opens a dialog for browsing and selecting fonts, and for uploading your own `.ttf` files for use in Text and Multileader entities.
+
+## Opening the Font Manager
+
+- Type `FontManager` in the terminal, **or**
+- Click the **Font Manager** button in the text editor toolbar.
+
+## Font groups
+
+| Group | Contents |
+|-------|----------|
+| **Default** | The built-in sans-serif font — always available |
+| **User** | Your own uploaded `.ttf` fonts (only shown once you've added one) |
+| **Free** | 15 bundled Google Fonts (EB Garamond, Fira Code, Inter, Lato, Merriweather, Montserrat, Nunito, Open Sans, Oswald, Playfair Display, Poppins, Raleway, Roboto, Roboto Condensed, Source Code Pro) |
+| **System** | Common OS fonts (Courier New, Georgia, Helvetica, Impact, Lucida Console, Tahoma, Times New Roman, Trebuchet MS, Verdana) |
+
+Click any font in the list to preview it on the right — name, alphabet sample, a pangram, and digits.
+
+## Uploading a custom font
+
+1. Click **Add Font** in the dialog footer (or type `Font+` in the terminal to open the file picker directly).
+2. Choose a `.ttf` file. Only TrueType fonts are supported — `.otf` and `.woff`/`.woff2` are not.
+3. The file name (without the extension) becomes the font's name in the **User** group. For example, uploading `MyFont.ttf` adds a font named `MyFont`.
+
+Uploaded fonts are saved permanently in the browser (IndexedDB) and reload automatically the next time you open KulmanLab CAD.
+
+## Removing a custom font
+
+Hover a font in the **User** group and click the **×** button next to it. Built-in fonts (Default, Free, System) cannot be removed.
+
+## Keyboard reference
+
+| Key | Action |
+|-----|--------|
+| `↑` / `↓` | Move the selection up or down the font list |
+| `Escape` | Close the Font Manager |
+
+## DXF compatibility
+
+The font name is embedded in exported **MTEXT** entities as an inline formatting code, so a DXF round-tripped through KulmanLab CAD keeps its font assignment. Custom font *files* are not embedded in the DXF — only the font *name* is. If you re-import a drawing that references a custom font you haven't uploaded on this device, text renders in the default font until you upload a font with that same name.
+
+## Related commands
+
+| Command | What it does |
+|---------|-------------|
+| [Text](./text) | Places the text labels that font choices apply to |
+| [Match Properties](./match-properties) | Copies text height, but not font, between entities |
 
 ---
 
@@ -3579,10 +3632,12 @@ The button appears highlighted (active) when every character in the current sele
 
 ### Font
 
-The dropdown lists a curated set of cross-platform typefaces (Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console, Impact). The top option **Arial** is the default.
+The dropdown groups available typefaces into **Default** (the built-in sans-serif), **User** (your own uploaded fonts, if any), **Free** (a set of bundled Google Fonts), and **System** (common OS fonts such as Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console, and Impact).
 
 - **With a selection** — overrides the font for selected characters only.
 - **No selection** — applies the font to the whole entity.
+
+Not limited to the built-in list — click the **Font Manager** button in the toolbar to upload your own `.ttf` file and add it to the **User** group. See [Font Manager](./font-manager) for details.
 
 ### Height
 

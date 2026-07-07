@@ -92,6 +92,7 @@ Selamat datang di referensi perintah **KulmanLab CAD**. [KulmanLab CAD](https://
 | Perintah | Fungsi |
 |---------|-------------|
 | [Match Properties](./commands/match-properties/) | Menyalin warna, layer, dan properti lain dari satu entitas ke entitas lainnya |
+| [Font Manager](./commands/font-manager/) | Jelajahi, pilih, dan unggah font TTF khusus |
 
 ## File
 

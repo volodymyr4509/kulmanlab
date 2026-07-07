@@ -2,7 +2,7 @@
 sidebar_position: 4
 title: Text Editor — Mode Kaya dan Sederhana di KulmanLab CAD
 description: Editor teks KulmanLab CAD memiliki dua mode — kaya (pemformatan per karakter, multi-baris, bungkus kata untuk Text dan Multileader) dan sederhana (gaya seragam, satu baris untuk entitas dimensi). Chip mode di header menunjukkan mode mana yang aktif.
-keywords: [CAD editor teks, MTEXT, tebal miring CAD, pemformatan teks CAD, teks multi-baris CAD, bungkus kata CAD, editor teks kaya, editor teks sederhana, editor teks dimensi, kulmanlab]
+keywords: [CAD editor teks, MTEXT, tebal miring CAD, pemformatan teks CAD, teks multi-baris CAD, bungkus kata CAD, editor teks kaya, editor teks sederhana, editor teks dimensi, font kustom CAD, unggah ttf CAD, kulmanlab]
 ---
 
 # Text Editor
@@ -70,12 +70,14 @@ Tombol tampak disorot (aktif) ketika setiap karakter dalam seleksi saat ini — 
 
 ### Font
 
-Dropdown mencantumkan sekumpulan typeface lintas platform yang dikurasi (Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console, Impact). Opsi teratas **Arial** adalah default.
+Dropdown mengelompokkan typeface yang tersedia menjadi **Default** (font sans-serif bawaan), **User** (font yang Anda unggah sendiri, jika ada), **Free** (sekumpulan Google Fonts bawaan), dan **System** (font OS umum seperti Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console, dan Impact).
 
 - **Dengan seleksi** — mengganti font hanya untuk karakter yang dipilih.
 - **Tidak ada seleksi** — menerapkan font ke seluruh entitas.
 
 Dropdown mencerminkan font dari karakter di sebelah kiri kursor ketika tidak ada seleksi.
+
+Tidak terbatas pada daftar bawaan — klik tombol **Font Manager** di toolbar untuk mengunggah file `.ttf` Anda sendiri dan menambahkannya ke grup **User**. Lihat [Font Manager](../../commands/font-manager/) untuk detailnya.
 
 ### Tinggi
 

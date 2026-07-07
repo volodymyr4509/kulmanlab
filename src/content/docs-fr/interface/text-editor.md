@@ -2,7 +2,7 @@
 sidebar_position: 4
 title: Éditeur de Texte — Modes Rich et Simple dans KulmanLab CAD
 description: L'éditeur de texte de KulmanLab CAD a deux modes — rich (formatage par caractère, multiligne, retour à la ligne pour Text et Multileader) et simple (style uniforme, une ligne pour les entités de cote). Un mode chip dans l'en-tête indique le mode actif.
-keywords: [éditeur texte CAO, MTEXT, gras italique CAO, formatage texte CAO, texte multiligne CAO, retour ligne CAO, éditeur texte rich, éditeur texte simple, éditeur texte cote, kulmanlab]
+keywords: [éditeur texte CAO, MTEXT, gras italique CAO, formatage texte CAO, texte multiligne CAO, retour ligne CAO, éditeur texte rich, éditeur texte simple, éditeur texte cote, police personnalisée CAO, téléverser ttf CAO, kulmanlab]
 ---
 
 # Éditeur de Texte
@@ -70,12 +70,14 @@ Le bouton apparaît en surbrillance (actif) quand tous les caractères de la sé
 
 ### Police
 
-Le menu déroulant liste un ensemble sélectionné de polices multiplateformes (Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console, Impact). L'option supérieure **Arial** est la police par défaut.
+Le menu déroulant regroupe les polices disponibles en **Default** (la police sans-serif intégrée), **User** (vos propres polices téléversées, le cas échéant), **Free** (un ensemble de Google Fonts regroupées) et **System** (les polices courantes du système d'exploitation telles que Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console et Impact).
 
 - **Avec une sélection** — remplace la police uniquement pour les caractères sélectionnés.
 - **Sans sélection** — applique la police à toute l'entité.
 
 Le menu déroulant reflète la police du caractère à gauche du curseur quand il n'y a pas de sélection.
+
+Vous n'êtes pas limité à la liste intégrée — cliquez sur le bouton **Font Manager** dans la barre d'outils pour téléverser votre propre fichier `.ttf` et l'ajouter au groupe **User**. Voir [Font Manager](../../commands/font-manager/) pour plus de détails.
 
 ### Hauteur
 

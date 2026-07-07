@@ -2,7 +2,7 @@
 sidebar_position: 4
 title: Text Editor — Rich at Simple na Mode sa KulmanLab CAD
 description: May dalawang mode ang text editor ng KulmanLab CAD — rich (per-character formatting, multi-line, word-wrap para sa Text at Multileader) at simple (uniform na style, single-line para sa dimension entity). Ipinapakita ng mode chip sa header kung aling mode ang aktibo.
-keywords: [CAD text editor, MTEXT, bold italic CAD, text formatting CAD, multi-line text CAD, word wrap CAD, rich text editor, simple text editor, dimension text editor, kulmanlab]
+keywords: [CAD text editor, MTEXT, bold italic CAD, text formatting CAD, multi-line text CAD, word wrap CAD, rich text editor, simple text editor, dimension text editor, custom font CAD, upload ttf CAD, kulmanlab]
 ---
 
 # Text Editor
@@ -70,12 +70,14 @@ Lumalabas na naka-highlight (aktibo) ang button kapag ang bawat character sa kas
 
 ### Font
 
-Naglilista ang dropdown ng curated set ng cross-platform na typeface (Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console, Impact). Ang pinakaunang opsyon na **Arial** ang default.
+Ginu-group ng dropdown ang mga available na font sa **Default** (ang built-in na sans-serif), **User** (ang sarili mong na-upload na font, kung meron), **Free** (isang set ng bundled Google Fonts), at **System** (mga karaniwang OS font tulad ng Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console, at Impact).
 
 - **May selection** — ino-override ang font para lang sa mga napiling character.
 - **Walang selection** — nalalapat ang font sa buong entity.
 
 Ipinapakita ng dropdown ang font ng character sa kaliwa ng cursor kapag walang selection.
+
+Hindi limitado sa built-in na listahan — i-click ang **Font Manager** button sa toolbar para mag-upload ng sarili mong `.ttf` file at idagdag ito sa **User** group. Tingnan ang [Font Manager](../../commands/font-manager/) para sa detalye.
 
 ### Height
 

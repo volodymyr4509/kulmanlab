@@ -92,6 +92,7 @@ keywords: [KulmanLab, KulmanLab CAD, CAD کمانڈز, مفت براؤزر CAD, 
 | کمانڈ | یہ کیا کرتا ہے |
 |---------|-------------|
 | [Match Properties](./commands/match-properties/) | ایک شے سے دوسروں تک رنگ، پرت، اور دیگر خصوصیات نقل کریں |
+| [Font Manager](./commands/font-manager/) | فونٹس براؤز کریں، منتخب کریں، اور کسٹم TTF فونٹس اپ لوڈ کریں |
 
 ## فائل
 

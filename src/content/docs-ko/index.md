@@ -92,6 +92,7 @@ keywords: [KulmanLab, KulmanLab CAD, CAD 명령어, 무료 브라우저 CAD, DXF
 | 명령어 | 기능 |
 |--------|------|
 | [Match Properties](./commands/match-properties/) | 한 객체에서 다른 객체로 색상, 레이어 및 기타 특성 복사 |
+| [Font Manager](./commands/font-manager/) | 글꼴 찾아보기, 선택 및 사용자 지정 TTF 글꼴 업로드 |
 
 ## 파일
 

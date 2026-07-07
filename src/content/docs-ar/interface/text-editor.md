@@ -2,7 +2,7 @@
 sidebar_position: 4
 title: محرر النص — الوضعان الغني والبسيط في KulmanLab CAD
 description: يمتلك محرر النص في KulmanLab CAD وضعَين — الغني (تنسيق لكل حرف، متعدد الأسطر، التفاف كلمات لـ Text وMultileader) والبسيط (أسلوب موحد، سطر واحد لعناصر الأبعاد). تعرض رقاقة الوضع في الرأس الوضعَ النشط.
-keywords: [محرر نص CAD, MTEXT, تدعيم إمالة CAD, تنسيق نص CAD, نص متعدد أسطر CAD, التفاف كلمات CAD, محرر نص غني, محرر نص بسيط, محرر نص أبعاد, kulmanlab]
+keywords: [محرر نص CAD, MTEXT, تدعيم إمالة CAD, تنسيق نص CAD, نص متعدد أسطر CAD, التفاف كلمات CAD, محرر نص غني, محرر نص بسيط, محرر نص أبعاد, خط مخصص CAD, رفع TTF CAD, kulmanlab]
 ---
 
 # محرر النص
@@ -70,12 +70,14 @@ keywords: [محرر نص CAD, MTEXT, تدعيم إمالة CAD, تنسيق نص 
 
 ### الخط
 
-تعرض القائمة المنسدلة مجموعة منتقاة من الخطوط متعددة المنصات (Helvetica وTimes New Roman وGeorgia وCourier New وVerdana وTahoma وTrebuchet MS وLucida Console وImpact). الخيار الأعلى **Arial** هو الافتراضي.
+تُصنِّف القائمة المنسدلة الخطوط المتاحة إلى **Default** (الخط الافتراضي المدمج بلا زوائد)، و**User** (خطوطك التي رفعتها بنفسك، إن وُجدت)، و**Free** (مجموعة من خطوط Google Fonts المرفقة)، و**System** (خطوط النظام الشائعة مثل Helvetica وTimes New Roman وGeorgia وCourier New وVerdana وTahoma وTrebuchet MS وLucida Console وImpact).
 
 - **مع تحديد** — يتجاوز الخط للأحرف المحددة فقط.
 - **بلا تحديد** — يُطبِّق الخط على كامل العنصر.
 
 تعكس القائمة المنسدلة خط الحرف إلى يسار المؤشر عند عدم وجود تحديد.
+
+لست مقيّداً بالقائمة المدمجة — انقر زر **Font Manager** في شريط الأدوات لرفع ملف `.ttf` خاص بك وإضافته إلى مجموعة **User**. راجع [Font Manager](../../commands/font-manager/) لمزيد من التفاصيل.
 
 ### الارتفاع
 

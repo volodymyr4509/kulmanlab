@@ -92,6 +92,7 @@ Willkommen bei der **KulmanLab CAD** Befehlsreferenz. [KulmanLab CAD](https://ku
 | Befehl | Funktion |
 |--------|----------|
 | [Match Properties](./commands/match-properties/) | Farbe, Ebene und andere Eigenschaften von einem Element auf andere übertragen |
+| [Font Manager](./commands/font-manager/) | Schriftarten durchsuchen, auswählen und eigene TTF-Dateien hochladen |
 
 ## Datei
 

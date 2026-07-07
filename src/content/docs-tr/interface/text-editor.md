@@ -2,7 +2,7 @@
 sidebar_position: 4
 title: Metin Düzenleyici — KulmanLab CAD'de Rich ve Simple Modlar
 description: KulmanLab CAD metin düzenleyicisinin iki modu vardır — rich (karakter başına biçimlendirme, çok satırlı, Text ve Multileader için kelime kaydırma) ve simple (tekdüze stil, ölçü nesneleri için tek satırlı). Başlıktaki mode chip hangi modun etkin olduğunu gösterir.
-keywords: [CAD metin düzenleyici, MTEXT, kalın italik CAD, metin biçimlendirme CAD, çok satırlı metin CAD, kelime kaydırma CAD, rich metin düzenleyici, simple metin düzenleyici, ölçü metin düzenleyici, kulmanlab]
+keywords: [CAD metin düzenleyici, MTEXT, kalın italik CAD, metin biçimlendirme CAD, çok satırlı metin CAD, kelime kaydırma CAD, rich metin düzenleyici, simple metin düzenleyici, ölçü metin düzenleyici, özel yazı tipi CAD, TTF yükleme CAD, kulmanlab]
 ---
 
 # Metin Düzenleyici
@@ -70,12 +70,14 @@ Geçerli seçimdeki — veya imleçin hemen solundaki karakterdeki — her karak
 
 ### Yazı Tipi
 
-Açılır menü, seçilmiş platformlar arası yazı tiplerini listeler (Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console, Impact). En üstteki seçenek **Arial** varsayılandır.
+Açılır menü, kullanılabilir yazı tiplerini **Default** (yerleşik sans-serif yazı tipi), **User** (varsa kendi yüklediğiniz yazı tipleri), **Free** (birlikte gelen Google Fonts yazı tipleri seti) ve **System** (Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console ve Impact gibi yaygın işletim sistemi yazı tipleri) olarak gruplar.
 
 - **Seçimle** — yalnızca seçilen karakterler için yazı tipini geçersiz kılar.
 - **Seçim yok** — yazı tipini tüm nesneye uygular.
 
 Seçim yokken açılır menü, imleçin solundaki karakterin yazı tipini yansıtır.
+
+Yerleşik listeyle sınırlı değilsiniz — kendi `.ttf` dosyanızı yüklemek ve **User** grubuna eklemek için araç çubuğundaki **Font Manager** düğmesine tıklayın. Ayrıntılar için bkz. [Font Manager](../../commands/font-manager/).
 
 ### Yükseklik
 

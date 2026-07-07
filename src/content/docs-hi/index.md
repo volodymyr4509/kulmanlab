@@ -92,6 +92,7 @@ keywords: [KulmanLab, KulmanLab CAD, CAD कमांड, मुफ़्त ब
 | कमांड | क्या करती है |
 |---------|-------------|
 | [Match Properties](./commands/match-properties/) | एक ऑब्जेक्ट से दूसरे ऑब्जेक्ट में रंग, लेयर और अन्य गुण कॉपी करें |
+| [Font Manager](./commands/font-manager/) | फ़ॉन्ट ब्राउज़ करें, चुनें, और कस्टम TTF फ़ॉन्ट अपलोड करें |
 
 ## फ़ाइल
 

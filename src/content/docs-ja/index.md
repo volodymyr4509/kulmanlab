@@ -92,6 +92,7 @@ keywords: [KulmanLab, KulmanLab CAD, CADコマンド, 無料ブラウザCAD, DXF
 | コマンド | 機能 |
 |---------|------|
 | [Match Properties](./commands/match-properties/) | 色・レイヤーなどのプロパティをエンティティ間でコピーする |
+| [Font Manager](./commands/font-manager/) | フォントを閲覧・選択し、カスタム TTF フォントをアップロードする |
 
 ## ファイル
 

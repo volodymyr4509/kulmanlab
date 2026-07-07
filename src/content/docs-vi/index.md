@@ -92,6 +92,7 @@ Chào mừng bạn đến với tài liệu tham khảo lệnh **KulmanLab CAD**
 | Lệnh | Chức năng |
 |------|-----------|
 | [Match Properties](./commands/match-properties/) | Sao chép màu sắc, lớp và các thuộc tính khác từ một đối tượng sang đối tượng khác |
+| [Font Manager](./commands/font-manager/) | Duyệt, chọn và tải lên phông chữ TTF tùy chỉnh |
 
 ## Tệp
 

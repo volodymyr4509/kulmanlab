@@ -92,6 +92,7 @@ Karibu kwenye marejeo ya amri za **KulmanLab CAD**. [KulmanLab CAD](https://kulm
 | Amri | Inachofanya |
 |------|------------|
 | [Match Properties](./commands/match-properties/) | Nakili rangi, safu, na mali nyingine kutoka kipengele kimoja hadi vingine |
+| [Font Manager](./commands/font-manager/) | Vinjari, chagua, na pakia fonti maalum za TTF |
 
 ## Faili
 

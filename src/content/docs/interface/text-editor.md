@@ -2,7 +2,7 @@
 sidebar_position: 4
 title: Text Editor — Rich and Simple Modes in KulmanLab CAD
 description: The KulmanLab CAD text editor has two modes — rich (per-character formatting, multi-line, word-wrap for Text and Multileader) and simple (uniform style, single-line for dimension entities). A mode chip in the header shows which mode is active.
-keywords: [CAD text editor, MTEXT, bold italic CAD, text formatting CAD, multi-line text CAD, word wrap CAD, rich text editor, simple text editor, dimension text editor, kulmanlab]
+keywords: [CAD text editor, MTEXT, bold italic CAD, text formatting CAD, multi-line text CAD, word wrap CAD, rich text editor, simple text editor, dimension text editor, custom font CAD, upload ttf CAD, kulmanlab]
 ---
 
 # Text Editor
@@ -70,12 +70,14 @@ The button appears highlighted (active) when every character in the current sele
 
 ### Font
 
-The dropdown lists a curated set of cross-platform typefaces (Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console, Impact). The top option **Arial** is the default.
+The dropdown groups available typefaces into **Default** (the built-in sans-serif), **User** (your own uploaded fonts, if any), **Free** (a set of bundled Google Fonts), and **System** (common OS fonts such as Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console, and Impact).
 
 - **With a selection** — overrides the font for selected characters only.
 - **No selection** — applies the font to the whole entity.
 
 The dropdown reflects the font of the character left of the cursor when there is no selection.
+
+Not limited to the built-in list — click the **Font Manager** button in the toolbar to upload your own `.ttf` file and add it to the **User** group. See [Font Manager](../../commands/font-manager/) for details.
 
 ### Height
 

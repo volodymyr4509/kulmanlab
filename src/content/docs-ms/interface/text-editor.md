@@ -2,7 +2,7 @@
 sidebar_position: 4
 title: Editor Teks — Mod Kaya dan Mudah dalam KulmanLab CAD
 description: Editor teks KulmanLab CAD mempunyai dua mod — kaya (pemformatan setiap aksara, berbilang baris, bungkus perkataan untuk Text dan Multileader) dan mudah (gaya seragam, satu baris untuk entiti dimensi). Cip mod dalam pengepala menunjukkan mod yang aktif.
-keywords: [CAD editor teks, MTEXT, tebal italik CAD, pemformatan teks CAD, teks berbilang baris CAD, bungkus perkataan CAD, editor teks kaya, editor teks mudah, editor teks dimensi, kulmanlab]
+keywords: [CAD editor teks, MTEXT, tebal italik CAD, pemformatan teks CAD, teks berbilang baris CAD, bungkus perkataan CAD, editor teks kaya, editor teks mudah, editor teks dimensi, fon kustom CAD, muat naik ttf CAD, kulmanlab]
 ---
 
 # Text Editor
@@ -70,12 +70,14 @@ Butang kelihatan diserlahkan (aktif) apabila setiap aksara dalam pemilihan semas
 
 ### Fon
 
-Dropdown menyenaraikan set taip muka silang platform yang terpilih (Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console, Impact). Pilihan teratas **Arial** adalah lalai.
+Dropdown mengumpulkan fon yang tersedia kepada **Default** (fon sans-serif terbina dalam), **User** (fon anda sendiri yang dimuat naik, jika ada), **Free** (satu set Google Fonts terbina dalam), dan **System** (fon OS biasa seperti Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console, dan Impact).
 
 - **Dengan pemilihan** — mengatasi fon untuk aksara yang dipilih sahaja.
 - **Tiada pemilihan** — menggunakan fon pada keseluruhan entiti.
 
 Dropdown mencerminkan fon aksara di sebelah kiri kursor apabila tiada pemilihan.
+
+Tidak terhad kepada senarai terbina dalam — klik butang **Font Manager** pada bar alat untuk memuat naik fail `.ttf` anda sendiri dan menambahkannya ke kumpulan **User**. Lihat [Font Manager](../../commands/font-manager/) untuk butiran lanjut.
 
 ### Ketinggian
 

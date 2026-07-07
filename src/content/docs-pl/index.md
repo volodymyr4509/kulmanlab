@@ -92,6 +92,7 @@ Witaj w dokumentacji poleceń **KulmanLab CAD**. [KulmanLab CAD](https://kulmanl
 | Polecenie | Co robi |
 |-----------|---------|
 | [Match Properties](./commands/match-properties/) | Kopiuje kolor, warstwę i inne właściwości z jednego elementu na inne |
+| [Font Manager](./commands/font-manager/) | Przeglądaj, wybieraj i przesyłaj własne czcionki TTF |
 
 ## Plik
 

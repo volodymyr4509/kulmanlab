@@ -92,6 +92,7 @@ keywords: [KulmanLab, KulmanLab CAD, εντολές CAD, δωρεάν CAD browse
 | Εντολή | Τι κάνει |
 |--------|----------|
 | [Match Properties](./commands/match-properties/) | Αντιγράφει χρώμα, επίπεδο και άλλες ιδιότητες από ένα αντικείμενο σε άλλα |
+| [Font Manager](./commands/font-manager/) | Περιηγηθείτε, επιλέξτε και μεταφορτώστε προσαρμοσμένες γραμματοσειρές TTF |
 
 ## Αρχείο
 

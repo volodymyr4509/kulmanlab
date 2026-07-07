@@ -92,6 +92,7 @@ keywords: [KulmanLab, KulmanLab CAD, CAD 命令, 免费浏览器 CAD, DXF 在线
 | 命令 | 功能 |
 |---------|-------------|
 | [Match Properties](./commands/match-properties/) | 将颜色、图层及其他特性从一个图元复制到其他图元 |
+| [Font Manager](./commands/font-manager/) | 浏览、选择字体，并上传自定义 TTF 字体 |
 
 ## 文件
 

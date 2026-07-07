@@ -2,7 +2,7 @@
 sidebar_position: 4
 title: Editor de Texto — Modos Rich y Simple en KulmanLab CAD
 description: El editor de texto de KulmanLab CAD tiene dos modos — rich (formato por carácter, multilínea, ajuste de línea para Text y Multileader) y simple (estilo uniforme, una línea para entidades de cota). Un mode chip en el encabezado muestra qué modo está activo.
-keywords: [editor de texto CAD, MTEXT, negrita cursiva CAD, formato de texto CAD, texto multilínea CAD, ajuste de línea CAD, editor de texto rich, editor de texto simple, editor texto cota, kulmanlab]
+keywords: [editor de texto CAD, MTEXT, negrita cursiva CAD, formato de texto CAD, texto multilínea CAD, ajuste de línea CAD, editor de texto rich, editor de texto simple, editor texto cota, fuente personalizada CAD, subir ttf CAD, kulmanlab]
 ---
 
 # Editor de Texto
@@ -70,12 +70,14 @@ El botón aparece resaltado (activo) cuando todos los caracteres de la selecció
 
 ### Fuente
 
-El desplegable lista un conjunto seleccionado de tipos de letra multiplataforma (Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console, Impact). La opción superior **Arial** es la predeterminada.
+El desplegable agrupa las fuentes disponibles en **Default** (la fuente sans-serif integrada), **User** (tus propias fuentes subidas, si las tienes), **Free** (un conjunto de Google Fonts incluidas) y **System** (fuentes comunes del sistema operativo como Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console e Impact).
 
 - **Con una selección** — anula la fuente solo para los caracteres seleccionados.
 - **Sin selección** — aplica la fuente a toda la entidad.
 
 El desplegable refleja la fuente del carácter a la izquierda del cursor cuando no hay selección.
+
+No estás limitado a la lista integrada — haz clic en el botón **Font Manager** de la barra de herramientas para subir tu propio archivo `.ttf` y añadirlo al grupo **User**. Consulta [Font Manager](../../commands/font-manager/) para más detalles.
 
 ### Altura
 

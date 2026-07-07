@@ -2,7 +2,7 @@
 sidebar_position: 4
 title: Editor di Testo — Modalità Rich e Simple in KulmanLab CAD
 description: L'editor di testo di KulmanLab CAD ha due modalità — rich (formattazione per carattere, multiriga, a capo automatico per Text e Multileader) e simple (stile uniforme, riga singola per entità di quota). Un mode chip nell'intestazione mostra quale modalità è attiva.
-keywords: [CAD editor di testo, MTEXT, grassetto corsivo CAD, formattazione testo CAD, testo multiriga CAD, a capo automatico CAD, editor testo rich, editor testo simple, editor testo quota, kulmanlab]
+keywords: [CAD editor di testo, MTEXT, grassetto corsivo CAD, formattazione testo CAD, testo multiriga CAD, a capo automatico CAD, editor testo rich, editor testo simple, editor testo quota, font personalizzato CAD, caricare ttf CAD, kulmanlab]
 ---
 
 # Editor di testo
@@ -70,12 +70,14 @@ Il pulsante appare evidenziato (attivo) quando ogni carattere nella selezione co
 
 ### Font
 
-Il menu elenca una serie curata di caratteri cross-platform (Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console, Impact). La prima opzione **Arial** è quella predefinita.
+Il menu raggruppa i font disponibili in **Default** (il font sans-serif integrato), **User** (i tuoi font personalizzati caricati, se presenti), **Free** (un insieme di Google Fonts incluse) e **System** (font comuni del sistema operativo come Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console e Impact).
 
 - **Con una selezione** — sostituisce il font per i soli caratteri selezionati.
 - **Nessuna selezione** — applica il font all'intera entità.
 
 Il menu riflette il font del carattere a sinistra del cursore quando non c'è selezione.
+
+Non sei limitato all'elenco integrato — clicca il pulsante **Font Manager** nella barra degli strumenti per caricare il tuo file `.ttf` personalizzato e aggiungerlo al gruppo **User**. Consulta [Font Manager](../../commands/font-manager/) per i dettagli.
 
 ### Altezza
 

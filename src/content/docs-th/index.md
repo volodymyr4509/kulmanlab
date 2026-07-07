@@ -92,6 +92,7 @@ keywords: [KulmanLab, KulmanLab CAD, คำสั่ง CAD, CAD ฟรีใน
 | คำสั่ง | สิ่งที่ทำ |
 |---------|-----------|
 | [Match Properties](./commands/match-properties/) | คัดลอกสี เลเยอร์ และคุณสมบัติอื่นๆ จากวัตถุหนึ่งไปยังวัตถุอื่น |
+| [Font Manager](./commands/font-manager/) | เรียกดู เลือก และอัปโหลดฟอนต์ TTF ที่กำหนดเอง |
 
 ## ไฟล์
 

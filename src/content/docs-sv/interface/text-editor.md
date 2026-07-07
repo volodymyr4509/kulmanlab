@@ -2,7 +2,7 @@
 sidebar_position: 4
 title: Texteditor — Rikt och enkelt läge i KulmanLab CAD
 description: KulmanLab CAD-texteditorn har två lägen — rikt (formatering per tecken, flera rader, radbrytning för Text och Multileader) och enkelt (enhetlig stil, en rad för måttsättningsentiteter). En lägesbricka i huvudet visar vilket läge som är aktivt.
-keywords: [CAD-texteditor, MTEXT, fet kursiv CAD, textformatering CAD, flerradig text CAD, radbrytning CAD, rik texteditor, enkel texteditor, texteditor för måttsättning, kulmanlab]
+keywords: [CAD-texteditor, MTEXT, fet kursiv CAD, textformatering CAD, flerradig text CAD, radbrytning CAD, rik texteditor, enkel texteditor, texteditor för måttsättning, anpassat typsnitt CAD, ladda upp TTF CAD, kulmanlab]
 ---
 
 # Text Editor
@@ -70,12 +70,14 @@ Knappen visas markerad (aktiv) när varje tecken i den aktuella markeringen — 
 
 ### Typsnitt
 
-Rullgardinsmenyn listar ett kurerat urval av plattformsoberoende typsnitt (Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console, Impact). Det översta alternativet **Arial** är standard.
+Rullgardinsmenyn grupperar tillgängliga typsnitt i **Default** (det inbyggda sans-serif-typsnittet), **User** (dina egna uppladdade typsnitt, om några finns), **Free** (ett urval av medföljande Google Fonts) och **System** (vanliga typsnitt för operativsystemet, till exempel Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console och Impact).
 
 - **Med en markering** — åsidosätter typsnittet endast för markerade tecken.
 - **Ingen markering** — tillämpar typsnittet på hela entiteten.
 
 Rullgardinsmenyn återspeglar typsnittet för tecknet till vänster om markören när ingen markering finns.
+
+Inte begränsad till den inbyggda listan — klicka på knappen **Font Manager** i verktygsfältet för att ladda upp ditt eget `.ttf`-typsnitt och lägga till det i gruppen **User**. Se [Font Manager](../../commands/font-manager/) för mer information.
 
 ### Höjd
 

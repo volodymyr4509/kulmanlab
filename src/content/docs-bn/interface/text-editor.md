@@ -2,7 +2,7 @@
 sidebar_position: 4
 title: "Text Editor — KulmanLab CAD-এ Rich এবং Simple মোড"
 description: "KulmanLab CAD টেক্সট এডিটরের দুটি মোড রয়েছে — rich (প্রতি-অক্ষর ফরম্যাটিং, বহু-লাইন, Text এবং Multileader-এর জন্য ওয়ার্ড-র‌্যাপ) এবং simple (একসমান স্টাইল, মাত্রা এন্টিটির জন্য এক-লাইন)। হেডারে একটি মোড চিপ দেখায় কোন মোড সক্রিয়।"
-keywords: [CAD টেক্সট এডিটর, MTEXT, বোল্ড ইটালিক CAD, টেক্সট ফরম্যাটিং CAD, বহু-লাইন টেক্সট CAD, ওয়ার্ড র‌্যাপ CAD, rich টেক্সট এডিটর, simple টেক্সট এডিটর, মাত্রা টেক্সট এডিটর, kulmanlab]
+keywords: [CAD টেক্সট এডিটর, MTEXT, বোল্ড ইটালিক CAD, টেক্সট ফরম্যাটিং CAD, বহু-লাইন টেক্সট CAD, ওয়ার্ড র‌্যাপ CAD, rich টেক্সট এডিটর, simple টেক্সট এডিটর, মাত্রা টেক্সট এডিটর, কাস্টম ফন্ট CAD, ttf আপলোড CAD, kulmanlab]
 ---
 
 # Text Editor
@@ -70,12 +70,14 @@ keywords: [CAD টেক্সট এডিটর, MTEXT, বোল্ড ইট
 
 ### ফন্ট
 
-ড্রপডাউন ক্রস-প্ল্যাটফর্ম টাইপফেসের একটি কিউরেটেড সেট তালিকাভুক্ত করে (Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console, Impact)। শীর্ষ অপশন **Arial** হলো ডিফল্ট।
+ড্রপডাউন উপলব্ধ ফন্টগুলিকে চারটি গ্রুপে ভাগ করে — **Default** (বিল্ট-ইন sans-serif), **User** (আপনার নিজের আপলোড করা ফন্ট, যদি থাকে), **Free** (একগুচ্ছ বান্ডিল করা Google Fonts), এবং **System** (Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console এবং Impact-এর মতো সাধারণ OS ফন্ট)।
 
 - **নির্বাচন সহ** — শুধুমাত্র নির্বাচিত অক্ষরের জন্য ফন্ট ওভাররাইড করে।
 - **নির্বাচন নেই** — সম্পূর্ণ এন্টিটিতে ফন্ট প্রয়োগ করে।
 
 নির্বাচন না থাকলে ড্রপডাউন কার্সরের বাম দিকের অক্ষরের ফন্ট প্রতিফলিত করে।
+
+শুধুমাত্র বিল্ট-ইন তালিকায় সীমাবদ্ধ নয় — টুলবারে **Font Manager** বাটনে ক্লিক করে নিজের `.ttf` ফাইল আপলোড করে **User** গ্রুপে যোগ করুন। বিস্তারিত জানতে দেখুন [Font Manager](../../commands/font-manager/)।
 
 ### উচ্চতা
 

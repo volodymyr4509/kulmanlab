@@ -2,7 +2,7 @@
 sidebar_position: 4
 title: Texteditor — Rich- und Simple-Modus in KulmanLab CAD
 description: Der KulmanLab CAD-Texteditor hat zwei Modi — rich (zeichenweise Formatierung, mehrzeilig, Zeilenumbruch für Text und Multileader) und simple (einheitlicher Stil, einzeilig für Bemaßungselemente). Ein mode chip in der Kopfzeile zeigt den aktiven Modus an.
-keywords: [CAD Texteditor, MTEXT, Fett Kursiv CAD, Textformatierung CAD, mehrzeiliger Text CAD, Zeilenumbruch CAD, rich Texteditor, simple Texteditor, Bemaßungstexteditor, kulmanlab]
+keywords: [CAD Texteditor, MTEXT, Fett Kursiv CAD, Textformatierung CAD, mehrzeiliger Text CAD, Zeilenumbruch CAD, rich Texteditor, simple Texteditor, Bemaßungstexteditor, eigene Schriftart CAD, TTF hochladen CAD, kulmanlab]
 ---
 
 # Texteditor
@@ -70,12 +70,14 @@ Die Schaltfläche erscheint hervorgehoben (aktiv), wenn jedes Zeichen in der akt
 
 ### Schriftart
 
-Das Dropdown listet eine kuratierte Auswahl plattformübergreifender Schriftarten auf (Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console, Impact). Die oberste Option **Arial** ist die Standardschriftart.
+Das Dropdown gruppiert die verfügbaren Schriftarten in **Default** (die integrierte Sans-Serif-Schriftart), **User** (Ihre eigenen hochgeladenen Schriftarten, sofern vorhanden), **Free** (eine Auswahl gebündelter Google Fonts) und **System** (gängige Betriebssystem-Schriftarten wie Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console und Impact).
 
 - **Mit einer Auswahl** — überschreibt die Schriftart nur für die ausgewählten Zeichen.
 - **Keine Auswahl** — wendet die Schriftart auf die gesamte Entität an.
 
 Das Dropdown zeigt die Schriftart des Zeichens links vom Cursor an, wenn keine Auswahl vorhanden ist.
+
+Nicht auf die integrierte Liste beschränkt — klicken Sie auf die Schaltfläche **Font Manager** in der Werkzeugleiste, um eine eigene `.ttf`-Datei hochzuladen und sie der Gruppe **User** hinzuzufügen. Siehe [Font Manager](../../commands/font-manager/) für Details.
 
 ### Höhe
 

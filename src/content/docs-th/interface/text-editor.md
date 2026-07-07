@@ -2,7 +2,7 @@
 sidebar_position: 4
 title: "Text Editor — Rich และ Simple Modes ใน KulmanLab CAD"
 description: "โปรแกรมแก้ไขข้อความ KulmanLab CAD มีสองโหมด — rich (การจัดรูปแบบต่อตัวอักษร หลายบรรทัด word-wrap สำหรับ Text และ Multileader) และ simple (สไตล์รวม บรรทัดเดียวสำหรับ dimension entities) chip โหมดในส่วนหัวแสดงโหมดที่ใช้งาน"
-keywords: [CAD text editor, MTEXT, ตัวหนาตัวเอียง CAD, การจัดรูปแบบข้อความ CAD, ข้อความหลายบรรทัด CAD, word wrap CAD, rich text editor, simple text editor, dimension text editor, kulmanlab]
+keywords: [CAD text editor, MTEXT, ตัวหนาตัวเอียง CAD, การจัดรูปแบบข้อความ CAD, ข้อความหลายบรรทัด CAD, word wrap CAD, rich text editor, simple text editor, dimension text editor, ฟอนต์กำหนดเอง CAD, อัปโหลด ttf CAD, kulmanlab]
 ---
 
 # Text Editor
@@ -70,10 +70,12 @@ keywords: [CAD text editor, MTEXT, ตัวหนาตัวเอียง CA
 
 ### ฟอนต์
 
-ดรอปดาวน์แสดงชุดตัวอักษรข้ามแพลตฟอร์มที่คัดสรรไว้ (Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console, Impact) ตัวเลือกบนสุด **Arial** เป็นค่าเริ่มต้น
+ดรอปดาวน์แบ่งฟอนต์ที่มีให้ใช้งานออกเป็นกลุ่ม **Default** (ฟอนต์ sans-serif ในตัว), **User** (ฟอนต์ที่คุณอัปโหลดเอง ถ้ามี), **Free** (ชุดฟอนต์ Google Fonts ที่มาพร้อมระบบ) และ **System** (ฟอนต์ทั่วไปของระบบปฏิบัติการ เช่น Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console และ Impact)
 
 - **มีการเลือก** — แทนที่ฟอนต์สำหรับตัวอักษรที่เลือกเท่านั้น
 - **ไม่มีการเลือก** — ใช้ฟอนต์กับวัตถุทั้งหมด
+
+ไม่ได้จำกัดอยู่แค่รายการในตัว — คลิกปุ่ม **Font Manager** บนแถบเครื่องมือเพื่ออัปโหลดไฟล์ `.ttf` ของคุณเองและเพิ่มเข้าไปในกลุ่ม **User** ดูรายละเอียดที่ [Font Manager](../../commands/font-manager/)
 
 ### ความสูง
 

@@ -2,7 +2,7 @@
 sidebar_position: 4
 title: Editor de Texto — Modos Rich e Simple no KulmanLab CAD
 description: O editor de texto do KulmanLab CAD tem dois modos — rich (formatação por caractere, multi-linha, quebra automática para Text e Multileader) e simple (estilo uniforme, linha única para entidades de cota). Um mode chip no cabeçalho mostra qual modo está ativo.
-keywords: [CAD editor de texto, MTEXT, negrito itálico CAD, formatação texto CAD, texto multi-linha CAD, quebra automática CAD, editor texto rich, editor texto simple, editor texto cota, kulmanlab]
+keywords: [CAD editor de texto, MTEXT, negrito itálico CAD, formatação texto CAD, texto multi-linha CAD, quebra automática CAD, editor texto rich, editor texto simple, editor texto cota, fonte personalizada CAD, enviar ttf CAD, kulmanlab]
 ---
 
 # Editor de texto
@@ -70,12 +70,14 @@ O botão aparece destacado (ativo) quando cada caractere na seleção atual — 
 
 ### Fonte
 
-O menu lista um conjunto selecionado de fontes cross-platform (Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console, Impact). A primeira opção **Arial** é o padrão.
+O menu agrupa as fontes disponíveis em **Default** (a fonte sans-serif integrada), **User** (suas próprias fontes enviadas, se houver), **Free** (um conjunto de Google Fonts incluídas) e **System** (fontes comuns do sistema operacional, como Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console e Impact).
 
 - **Com uma seleção** — substitui a fonte apenas para os caracteres selecionados.
 - **Sem seleção** — aplica a fonte a toda a entidade.
 
 O menu reflete a fonte do caractere à esquerda do cursor quando não há seleção.
+
+Você não fica limitado à lista integrada — clique no botão **Font Manager** na barra de ferramentas para enviar seu próprio arquivo `.ttf` e adicioná-lo ao grupo **User**. Veja [Font Manager](../../commands/font-manager/) para mais detalhes.
 
 ### Altura
 

@@ -92,6 +92,7 @@ keywords: [KulmanLab, KulmanLab CAD, أوامر CAD, برنامج CAD مجاني
 | الأمر | ما يفعله |
 |-------|----------|
 | [Match Properties](./commands/match-properties/) | نسخ اللون والطبقة وخصائص أخرى من عنصر إلى عناصر أخرى |
+| [Font Manager](./commands/font-manager/) | تصفح واختر الخطوط، وارفع خطوط TTF مخصصة |
 
 ## الملف
 

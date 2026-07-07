@@ -2,7 +2,7 @@
 sidebar_position: 4
 title: Edytor tekstu — Tryby Rich i Simple w KulmanLab CAD
 description: Edytor tekstu KulmanLab CAD ma dwa tryby — rich (formatowanie poszczególnych znaków, wieloliniowy, zawijanie tekstu dla Text i Multileader) i simple (jednolity styl, jednowierszowy dla elementów wymiarowych). Chip trybu w nagłówku pokazuje, który tryb jest aktywny.
-keywords: [edytor tekstu CAD, MTEXT, pogrubiony kursywa CAD, formatowanie tekstu CAD, wieloliniowy tekst CAD, zawijanie tekstu CAD, rich edytor tekstu, simple edytor tekstu, edytor tekstu wymiaru, kulmanlab]
+keywords: [edytor tekstu CAD, MTEXT, pogrubiony kursywa CAD, formatowanie tekstu CAD, wieloliniowy tekst CAD, zawijanie tekstu CAD, rich edytor tekstu, simple edytor tekstu, edytor tekstu wymiaru, niestandardowa czcionka CAD, przesyłanie TTF CAD, kulmanlab]
 ---
 
 # Edytor tekstu
@@ -70,12 +70,14 @@ Przycisk pojawia się podświetlony (aktywny), gdy każdy znak w bieżącym zazn
 
 ### Czcionka
 
-Lista rozwijana zawiera wyselekcjonowany zestaw czcionek wieloplatformowych (Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console, Impact). Górna opcja **Arial** jest domyślna.
+Lista rozwijana grupuje dostępne czcionki na **Default** (wbudowana czcionka bezszeryfowa), **User** (Twoje własne przesłane czcionki, jeśli takie są), **Free** (zestaw dołączonych czcionek Google Fonts) i **System** (popularne czcionki systemowe, takie jak Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console i Impact).
 
 - **Z zaznaczeniem** — nadpisuje czcionkę tylko dla zaznaczonych znaków.
 - **Bez zaznaczenia** — stosuje czcionkę do całego elementu.
 
 Lista rozwijana odzwierciedla czcionkę znaku po lewej stronie kursora, gdy nie ma zaznaczenia.
+
+Nie jesteś ograniczony do wbudowanej listy — kliknij przycisk **Font Manager** na pasku narzędzi, aby przesłać własny plik `.ttf` i dodać go do grupy **User**. Szczegóły znajdziesz w [Font Manager](../../commands/font-manager/).
 
 ### Wysokość
 

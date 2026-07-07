@@ -66,10 +66,12 @@ Thanh công cụ nổi phía trên hộp bao của văn bản và neo vào thự
 
 ### Phông chữ
 
-Dropdown liệt kê các bộ phông chữ đa nền tảng (Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console, Impact). Tùy chọn đầu **Arial** là mặc định.
+Dropdown nhóm các phông chữ khả dụng thành **Default** (phông chữ sans-serif tích hợp sẵn), **User** (phông chữ bạn tự tải lên, nếu có), **Free** (một bộ Google Fonts đi kèm), và **System** (các phông chữ hệ điều hành thông dụng như Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console và Impact).
 
 - **Với lựa chọn** — ghi đè phông chữ chỉ cho các ký tự được chọn.
 - **Không có lựa chọn** — áp dụng phông chữ cho toàn bộ thực thể.
+
+Không chỉ giới hạn ở danh sách tích hợp sẵn — nhấp nút **Font Manager** trên thanh công cụ để tải lên tệp `.ttf` của riêng bạn và thêm vào nhóm **User**. Xem [Font Manager](../../commands/font-manager/) để biết chi tiết.
 
 ### Chiều cao
 

@@ -92,6 +92,7 @@ Selamat datang ke rujukan arahan **KulmanLab CAD**. [KulmanLab CAD](https://kulm
 | Arahan | Fungsinya |
 |--------|-----------|
 | [Match Properties](./commands/match-properties/) | Salin warna, lapisan, dan sifat lain dari satu entiti ke entiti lain |
+| [Font Manager](./commands/font-manager/) | Semak imbas, pilih, dan muat naik fon TTF tersuai |
 
 ## Fail
 

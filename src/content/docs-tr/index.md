@@ -92,6 +92,7 @@ keywords: [KulmanLab, KulmanLab CAD, CAD komutları, ücretsiz tarayıcı CAD, �
 | Komut | Ne yapar |
 |-------|----------|
 | [Match Properties](./commands/match-properties/) | Renk, katman ve diğer özellikleri bir nesneden diğerlerine kopyalar |
+| [Font Manager](./commands/font-manager/) | Yazı tiplerine göz atın, seçin ve özel TTF dosyaları yükleyin |
 
 ## Dosya
 

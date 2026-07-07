@@ -92,6 +92,7 @@ Benvenuto nel riferimento comandi di **KulmanLab CAD**. [KulmanLab CAD](https://
 | Comando | Cosa fa |
 |---------|---------|
 | [Match Properties](./commands/match-properties/) | Copia il colore, il livello e altre proprietà da un'entità ad altre |
+| [Font Manager](./commands/font-manager/) | Sfoglia, seleziona e carica font TTF personalizzati |
 
 ## File
 

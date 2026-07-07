@@ -2,7 +2,7 @@
 sidebar_position: 4
 title: "Text Editor — Hali Tajiri na Rahisi katika KulmanLab CAD"
 description: "Kihariri cha maandishi cha KulmanLab CAD kina hali mbili — tajiri (uumbizaji kwa kila herufi, mistari mingi, kuvingirishwa kwa maneno kwa Text na Multileader) na rahisi (mtindo mmoja, mstari mmoja kwa viumbe vya dimension). Chip ya hali kwenye kichwa inaonyesha hali inayotumika."
-keywords: [CAD text editor, MTEXT, bold italic CAD, text formatting CAD, multi-line text CAD, word wrap CAD, rich text editor, simple text editor, dimension text editor, kulmanlab]
+keywords: [CAD text editor, MTEXT, bold italic CAD, text formatting CAD, multi-line text CAD, word wrap CAD, rich text editor, simple text editor, dimension text editor, custom font CAD, upload ttf CAD, kulmanlab]
 ---
 
 # Text Editor
@@ -70,12 +70,14 @@ Kitufe kinaonekana kimewekwa alama (kikifanya kazi) wakati kila herufi katika uc
 
 ### Fonti
 
-Menyu ya kuchagua inaorodhesha mkusanyo uliochaguliwa wa aina za herufi za msalaba-mfumo (Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console, Impact). Chaguo la juu **Arial** ndilo la chaguo-msingi.
+Menyu ya kuchagua hupanga fonti zinazopatikana katika makundi ya **Default** (fonti ya sans-serif iliyojengwa ndani), **User** (fonti zako mwenyewe ulizopakia, ikiwa zipo), **Free** (mkusanyiko wa Google Fonts zilizojumuishwa), na **System** (fonti za kawaida za OS kama vile Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Lucida Console, na Impact).
 
 - **Na uchaguzi** — hubatilisha fonti kwa herufi zilizochaguliwa tu.
 - **Hakuna uchaguzi** — hutumia fonti kwenye kipande kizima.
 
 Menyu ya kuchagua inaonyesha fonti ya herufi ya kushoto ya kishale wakati hakuna uchaguzi.
+
+Haikomei kwenye orodha iliyojengwa ndani — bonyeza kitufe cha **Font Manager** kwenye upau wa zana ili kupakia faili yako mwenyewe ya `.ttf` na kuiongeza kwenye kikundi cha **User**. Angalia [Font Manager](../../commands/font-manager/) kwa maelezo zaidi.
 
 ### Urefu
 
