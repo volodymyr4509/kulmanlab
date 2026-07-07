@@ -86,6 +86,7 @@ keywords: [KulmanLab, KulmanLab CAD, CAD कमांड, मुफ़्त ब
 |---------|-------------|
 | [Distance](./commands/distance/) | दो बिंदुओं के बीच की दूरी मापें |
 | [Angle](./commands/angle/) | तीन बिंदुओं के बीच का कोण मापें |
+| [Area](./commands/area/) | एक बहुभुज का क्षेत्रफल और परिधि मापें |
 
 ## स्टाइल
 

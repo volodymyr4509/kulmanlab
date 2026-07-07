@@ -7,7 +7,7 @@ keywords: [CAD-Abstandsmessung, distance-Befehl, Punkt-zu-Punkt-Messung, geradli
 
 # Distance
 
-Der `distance`-Befehl misst den geradlinigen (euklidischen) Abstand zwischen zwei geklickten Punkten und gibt das Ergebnis im Terminal auf 4 Dezimalstellen aus. Es ist einer von zwei Messbefehlen — [Angle](../angle/) misst stattdessen die Winkelöffnung an einem Scheitelpunkt.
+Der `distance`-Befehl misst den geradlinigen (euklidischen) Abstand zwischen zwei geklickten Punkten und gibt das Ergebnis im Terminal auf 4 Dezimalstellen aus. Es ist einer von drei Messbefehlen — [Angle](../angle/) misst die Winkelöffnung an einem Scheitelpunkt, und [Area](../area/) misst die eingeschlossene Fläche und den Umfang eines Polygons.
 
 ## Aufbau einer Abstandsmessung
 

@@ -7,7 +7,7 @@ keywords: [mesure angle CAO, angle trois points, angle intérieur CAO, commande 
 
 # Angle
 
-La commande `angle` mesure l'angle intérieur à un sommet formé par deux segments de ligne à travers trois points sélectionnés. Le résultat — toujours entre 0° et 180° — s'affiche dans le terminal avec 4 décimales. C'est l'une des deux commandes de mesure — [Distance](../distance/) mesure la longueur en ligne droite.
+La commande `angle` mesure l'angle intérieur à un sommet formé par deux segments de ligne à travers trois points sélectionnés. Le résultat — toujours entre 0° et 180° — s'affiche dans le terminal avec 4 décimales. C'est l'une des trois commandes de mesure — [Distance](../distance/) mesure la longueur en ligne droite, et [Area](../area/) mesure l'aire délimitée et le périmètre d'un polygone.
 
 ## Anatomie d'une mesure d'angle
 

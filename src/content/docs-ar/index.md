@@ -86,6 +86,7 @@ keywords: [KulmanLab, KulmanLab CAD, أوامر CAD, برنامج CAD مجاني
 |-------|----------|
 | [Distance](./commands/distance/) | قياس المسافة بين نقطتين |
 | [Angle](./commands/angle/) | قياس الزاوية بين ثلاث نقاط |
+| [Area](./commands/area/) | قياس مساحة ومحيط مضلع |
 
 ## النمط
 

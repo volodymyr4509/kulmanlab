@@ -86,6 +86,7 @@ Selamat datang ke rujukan arahan **KulmanLab CAD**. [KulmanLab CAD](https://kulm
 |--------|-----------|
 | [Distance](./commands/distance/) | Ukur jarak antara dua titik |
 | [Angle](./commands/angle/) | Ukur sudut antara tiga titik |
+| [Area](./commands/area/) | Ukur luas dan perimeter poligon |
 
 ## Gaya
 

@@ -7,7 +7,7 @@ keywords: [CAD ukur jarak, arahan jarak, pengukuran titik ke titik, jarak garis 
 
 # Distance
 
-Arahan `distance` mengukur jarak garis lurus (Euclidean) antara dua titik yang diklik dan mencetak hasilnya dalam terminal kepada 4 titik perpuluhan. Ia adalah salah satu dari dua arahan pengukuran — [Angle](../angle/) mengukur pembukaan sudut pada bucu sebaliknya.
+Arahan `distance` mengukur jarak garis lurus (Euclidean) antara dua titik yang diklik dan mencetak hasilnya dalam terminal kepada 4 titik perpuluhan. Ia adalah salah satu daripada tiga arahan pengukuran — [Angle](../angle/) mengukur pembukaan sudut pada bucu, dan [Area](../area/) mengukur luas dan perimeter poligon tertutup.
 
 ## Anatomi pengukuran jarak
 

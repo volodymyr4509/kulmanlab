@@ -86,6 +86,7 @@ keywords: [KulmanLab, KulmanLab CAD, CAD komutları, ücretsiz tarayıcı CAD, �
 |-------|----------|
 | [Distance](./commands/distance/) | İki nokta arasındaki mesafeyi ölçer |
 | [Angle](./commands/angle/) | Üç nokta arasındaki açıyı ölçer |
+| [Area](./commands/area/) | Bir çokgenin alanını ve çevresini ölçer |
 
 ## Stil
 

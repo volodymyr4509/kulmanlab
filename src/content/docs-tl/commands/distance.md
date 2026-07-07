@@ -7,7 +7,7 @@ keywords: [CAD pagsukat ng distansya, distance command, point-to-point na pagsuk
 
 # Distance
 
-Sinusukat ng `distance` command ang straight-line (Euclidean) distance sa pagitan ng dalawang na-click na punto at ini-print ang resulta sa terminal hanggang 4 decimal places. Isa ito sa dalawang measurement command — sinusukat naman ng [Angle](../angle/) ang angular opening sa isang vertex.
+Sinusukat ng `distance` command ang straight-line (Euclidean) distance sa pagitan ng dalawang na-click na punto at ini-print ang resulta sa terminal hanggang 4 decimal places. Isa ito sa tatlong measurement command — sinusukat ng [Angle](../angle/) ang angular opening sa isang vertex, at sinusukat ng [Area](../area/) ang saklaw na area at perimeter ng isang polygon.
 
 ## Anatomiya ng Distance Measurement
 

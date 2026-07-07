@@ -7,7 +7,7 @@ keywords: [CAD ukuran sudut, sudut tiga titik, sudut dalam CAD, arahan ukur sudu
 
 # Angle
 
-Arahan `angle` mengukur sudut dalam di bucu yang dibentuk oleh dua segmen garis melalui tiga titik yang diklik. Hasilnya — sentiasa antara 0° dan 180° — dipaparkan dalam terminal kepada 4 titik perpuluhan. Ia adalah salah satu dari dua arahan pengukuran — [Distance](../distance/) mengukur panjang garis lurus sebaliknya.
+Arahan `angle` mengukur sudut dalam di bucu yang dibentuk oleh dua segmen garis melalui tiga titik yang diklik. Hasilnya — sentiasa antara 0° dan 180° — dipaparkan dalam terminal kepada 4 titik perpuluhan. Ia adalah salah satu daripada tiga arahan pengukuran — [Distance](../distance/) mengukur panjang garis lurus, dan [Area](../area/) mengukur luas dan perimeter poligon tertutup.
 
 ## Anatomi pengukuran sudut
 

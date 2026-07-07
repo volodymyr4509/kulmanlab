@@ -86,6 +86,7 @@ keywords: [KulmanLab, KulmanLab CAD, εντολές CAD, δωρεάν CAD browse
 |--------|----------|
 | [Distance](./commands/distance/) | Μετράει την απόσταση μεταξύ δύο σημείων |
 | [Angle](./commands/angle/) | Μετράει τη γωνία μεταξύ τριών σημείων |
+| [Area](./commands/area/) | Μετράει το εμβαδόν και την περίμετρο πολυγώνου |
 
 ## Στυλ
 

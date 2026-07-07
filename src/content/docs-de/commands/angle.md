@@ -7,7 +7,7 @@ keywords: [CAD-Winkelmessung, Drei-Punkt-Winkel, Innenwinkel CAD, Winkel-Befehl 
 
 # Angle
 
-Der `angle`-Befehl misst den Innenwinkel an einem Scheitelpunkt, der durch zwei Liniensegmente durch drei geklickte Punkte gebildet wird. Das Ergebnis — immer zwischen 0° und 180° — wird im Terminal auf 4 Dezimalstellen angezeigt. Es ist einer von zwei Messbefehlen — [Distance](../distance/) misst stattdessen die geradlinige Länge.
+Der `angle`-Befehl misst den Innenwinkel an einem Scheitelpunkt, der durch zwei Liniensegmente durch drei geklickte Punkte gebildet wird. Das Ergebnis — immer zwischen 0° und 180° — wird im Terminal auf 4 Dezimalstellen angezeigt. Es ist einer von drei Messbefehlen — [Distance](../distance/) misst die geradlinige Länge, und [Area](../area/) misst die eingeschlossene Fläche und den Umfang eines Polygons.
 
 ## Aufbau einer Winkelmessung
 

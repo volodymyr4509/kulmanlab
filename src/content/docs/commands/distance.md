@@ -7,7 +7,7 @@ keywords: [CAD measure distance, distance command, point-to-point measurement, s
 
 # Distance
 
-The `distance` command measures the straight-line (Euclidean) distance between two clicked points and prints the result in the terminal to 4 decimal places. It is one of two measurement commands — [Angle](../angle/) measures the angular opening at a vertex instead.
+The `distance` command measures the straight-line (Euclidean) distance between two clicked points and prints the result in the terminal to 4 decimal places. It is one of three measurement commands — [Angle](../angle/) measures the angular opening at a vertex, and [Area](../area/) measures the enclosed area and perimeter of a polygon.
 
 ## Anatomy of a distance measurement
 

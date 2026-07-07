@@ -86,6 +86,7 @@ keywords: [KulmanLab, KulmanLab CAD, คำสั่ง CAD, CAD ฟรีใน
 |---------|-----------|
 | [Distance](./commands/distance/) | วัดระยะห่างระหว่างสองจุด |
 | [Angle](./commands/angle/) | วัดมุมระหว่างสามจุด |
+| [Area](./commands/area/) | วัดพื้นที่และเส้นรอบวงของรูปหลายเหลี่ยม |
 
 ## สไตล์
 

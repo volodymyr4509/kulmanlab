@@ -86,6 +86,7 @@ keywords: [KulmanLab, KulmanLab CAD, CAD 명령어, 무료 브라우저 CAD, DXF
 |--------|------|
 | [Distance](./commands/distance/) | 두 점 사이의 거리 측정 |
 | [Angle](./commands/angle/) | 세 점 사이의 각도 측정 |
+| [Area](./commands/area/) | 다각형의 면적과 둘레 측정 |
 
 ## 스타일
 

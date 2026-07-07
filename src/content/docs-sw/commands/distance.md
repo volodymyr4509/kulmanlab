@@ -7,7 +7,7 @@ keywords: [CAD measure distance, distance command, point-to-point measurement, s
 
 # Distance
 
-Amri ya `distance` hupima umbali wa mstari mnyoofu (Euclidean) kati ya pointi mbili zilizobonyezwa na kuchapisha matokeo kwenye terminal hadi tarakimu 4 za desimali. Ni moja ya amri mbili za kipimo — [Angle](../angle/) hupima ufunguzi wa pembe kwenye kilele badala yake.
+Amri ya `distance` hupima umbali wa mstari mnyoofu (Euclidean) kati ya pointi mbili zilizobonyezwa na kuchapisha matokeo kwenye terminal hadi tarakimu 4 za desimali. Ni moja ya amri tatu za kipimo — [Angle](../angle/) hupima ufunguzi wa pembe kwenye kilele, na [Area](../area/) hupima eneo na mzunguko wa poligoni iliyofungwa.
 
 ## Muundo wa kipimo cha umbali
 

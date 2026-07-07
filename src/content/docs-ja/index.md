@@ -86,6 +86,7 @@ keywords: [KulmanLab, KulmanLab CAD, CADコマンド, 無料ブラウザCAD, DXF
 |---------|------|
 | [Distance](./commands/distance/) | 2 点間の距離を計測する |
 | [Angle](./commands/angle/) | 3 点間の角度を計測する |
+| [Area](./commands/area/) | 多角形の面積と周長を計測する |
 
 ## スタイル
 

@@ -7,6 +7,20 @@ export type Release = {
 
 export const releases: Release[] = [
   {
+    version: '2026.07.07.dca1eff',
+    date: 'July 7, 2026',
+    title: 'Area measure command & toolbar icon refresh',
+    highlights: [
+      'New Area command measures the enclosed area and perimeter of a polygon — click 3 or more points, then press Enter to close the shape',
+      'Area supports angle-locked directional entry: snap to the configured angle-tracking increment and type an exact edge length',
+      'The closed polygon — fill, outline, and vertex grips — stays highlighted on the canvas until you dismiss the result',
+      'Measure panel is now a 2×2 grid: Distance and Angle on the top row, Area on the row below',
+      'Distance and Angle toolbar icons redrawn with solid strokes and a filled wedge instead of dashed lines',
+      'Area toolbar icon simplified to a chamfered square with vertex snap points',
+      'Fixed terminal prompt text jumping when the key badge appears',
+    ],
+  },
+  {
     version: '2026.07.01.41031df',
     date: 'July 1, 2026',
     title: 'Text editor copy/paste, feedback bar & theme-aware arrowheads',
@@ -278,6 +292,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   en: releases.map(r => ({ title: r.title, highlights: r.highlights })),
   de: [
     {
+      title: 'Area-Messbefehl & Symbolleisten-Icon-Überarbeitung',
+      highlights: [
+        'Neuer Area-Befehl misst die eingeschlossene Fläche und den Umfang eines Polygons — 3 oder mehr Punkte klicken, dann Enter drücken, um die Form zu schließen',
+        'Area unterstützt winkelgesperrte Richtungseingabe: am eingestellten Winkelraster-Schritt einrasten und eine exakte Kantenlänge eingeben',
+        'Das geschlossene Polygon — Füllung, Umriss und Eckpunkt-Griffe — bleibt auf der Zeichenfläche hervorgehoben, bis das Ergebnis ausgeblendet wird',
+        'Das Messen-Panel ist jetzt ein 2×2-Raster: Distance und Angle in der oberen Reihe, Area in der Reihe darunter',
+        'Symbolleisten-Icons für Distance und Angle neu gezeichnet — durchgezogene Linien und ein gefüllter Keil statt gestrichelter Linien',
+        'Area-Symbolleisten-Icon vereinfacht zu einem gefasten Quadrat mit Eckpunkt-Schnappstellen',
+        'Behoben: Terminal-Prompt-Text sprang, wenn das Tasten-Badge erschien',
+      ],
+    },
+    {
       title: 'Texteditor Kopieren/Einfügen, Feedback-Leiste & themenbewusste Pfeilspitzen',
       highlights: [
         'Texteditor: Strg/Cmd+C, Strg/Cmd+X und Strg/Cmd+V kopieren, schneiden und fügen jetzt den ausgewählten Text ein',
@@ -509,6 +535,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   es: [
+    {
+      title: 'Comando de medición Area y renovación de iconos de la barra de herramientas',
+      highlights: [
+        'Nuevo comando Area mide el área encerrada y el perímetro de un polígono — haz clic en 3 o más puntos y presiona Enter para cerrar la forma',
+        'Area admite entrada direccional con bloqueo de ángulo: se ajusta al incremento de seguimiento de ángulo configurado y permite escribir una longitud de arista exacta',
+        'El polígono cerrado — relleno, contorno y controladores de vértice — permanece resaltado en el lienzo hasta que se descarta el resultado',
+        'El panel Measure ahora es una cuadrícula 2×2: Distance y Angle en la fila superior, Area en la fila de abajo',
+        'Los iconos de la barra de herramientas de Distance y Angle se rediseñaron con trazos sólidos y una cuña rellena en lugar de líneas discontinuas',
+        'El icono de la barra de herramientas de Area se simplificó a un cuadrado achaflanado con puntos de ajuste en los vértices',
+        'Se corrigió el salto del texto del prompt del terminal cuando aparecía la insignia de tecla',
+      ],
+    },
     {
       title: 'Copiar/pegar en el editor de texto, barra de feedback y puntas de flecha adaptadas al tema',
       highlights: [
@@ -742,7 +780,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   fr: [
     {
-      title: 'Copier/coller dans l\'éditeur de texte, barre de retours et pointes de flèche adaptées au thème',
+      title: 'Commande de mesure Area et refonte des icônes de la barre d\'outils',
+      highlights: [
+        'Nouvelle commande Area : mesure l\'aire délimitée et le périmètre d\'un polygone — cliquez sur 3 points ou plus, puis appuyez sur Entrée pour fermer la forme',
+        'Area prend en charge la saisie directionnelle avec verrouillage d\'angle : s\'aligne sur l\'incrément de suivi d\'angle configuré et permet de saisir une longueur d\'arête exacte',
+        'Le polygone fermé — remplissage, contour et poignées de sommet — reste surligné sur le canevas jusqu\'à ce que le résultat soit masqué',
+        'Le panneau Measure est désormais une grille 2×2 : Distance et Angle sur la rangée du haut, Area sur la rangée du dessous',
+        'Les icônes de la barre d\'outils de Distance et Angle ont été redessinées avec des traits pleins et un coin rempli au lieu de lignes pointillées',
+        'L\'icône de la barre d\'outils Area a été simplifiée en un carré chanfreiné avec des points d\'accrochage aux sommets',
+        'Correction du texte d\'invite du terminal qui sautait lors de l\'apparition du badge de touche',
+      ],
+    },
+    {
       highlights: [
         'Éditeur de texte : Ctrl/Cmd+C, Ctrl/Cmd+X et Ctrl/Cmd+V copient, coupent et collent désormais le texte sélectionné',
         'Le texte collé adopte toujours le formatage déjà présent au niveau du curseur plutôt que de conserver celui qu\'il avait lors de la copie ; le mode rich conserve les sauts de ligne, le mode simple (étiquettes de cote) les supprime',
@@ -973,6 +1022,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   it: [
+    {
+      title: 'Comando di misurazione Area e rinnovamento delle icone della barra degli strumenti',
+      highlights: [
+        'Nuovo comando Area: misura l\'area racchiusa e il perimetro di un poligono — clicca 3 o più punti, poi premi Invio per chiudere la forma',
+        'Area supporta l\'inserimento direzionale con blocco angolare: si allinea all\'incremento di tracciamento angolare configurato e permette di digitare una lunghezza del lato esatta',
+        'Il poligono chiuso — riempimento, contorno e maniglie dei vertici — rimane evidenziato sul canvas finché il risultato non viene nascosto',
+        'Il pannello Measure è ora una griglia 2×2: Distance e Angle nella riga superiore, Area nella riga sottostante',
+        'Le icone della barra degli strumenti di Distance e Angle sono state ridisegnate con tratti continui e un cuneo pieno al posto delle linee tratteggiate',
+        'L\'icona della barra degli strumenti di Area è stata semplificata in un quadrato smussato con punti di aggancio ai vertici',
+        'Corretto il testo del prompt del terminale che saltava quando appariva il badge del tasto',
+      ],
+    },
     {
       title: 'Copia/incolla nell\'editor di testo, barra di feedback e punte di freccia sensibili al tema',
       highlights: [
@@ -1206,6 +1267,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   pt: [
     {
+      title: 'Comando de medição Area e renovação dos ícones da barra de ferramentas',
+      highlights: [
+        'Novo comando Area: mede a área delimitada e o perímetro de um polígono — clique em 3 ou mais pontos e pressione Enter para fechar a forma',
+        'Area suporta entrada direcional com bloqueio de ângulo: encaixa no incremento de rastreio de ângulo configurado e permite digitar um comprimento de aresta exato',
+        'O polígono fechado — preenchimento, contorno e alças de vértice — permanece destacado no canvas até o resultado ser dispensado',
+        'O painel Measure agora é uma grelha 2×2: Distance e Angle na linha de cima, Area na linha de baixo',
+        'Os ícones da barra de ferramentas de Distance e Angle foram redesenhados com traços contínuos e uma cunha preenchida em vez de linhas tracejadas',
+        'O ícone da barra de ferramentas Area foi simplificado para um quadrado chanfrado com pontos de encaixe nos vértices',
+        'Corrigido o texto de prompt do terminal que saltava quando o emblema de tecla aparecia',
+      ],
+    },
+    {
       title: 'Copiar/colar no editor de texto, barra de feedback e pontas de seta adaptadas ao tema',
       highlights: [
         'Editor de texto: Ctrl/Cmd+C, Ctrl/Cmd+X e Ctrl/Cmd+V agora copiam, cortam e colam o texto selecionado',
@@ -1437,6 +1510,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   uk: [
+    {
+      title: 'Команда вимірювання Area та оновлення піктограм панелі інструментів',
+      highlights: [
+        'Нова команда Area вимірює площу, обмежену багатокутником, та його периметр — клацніть 3 або більше точок, потім натисніть Enter, щоб замкнути фігуру',
+        'Area підтримує напрямковий ввід із блокуванням кута: прилипання до налаштованого кроку відстеження кута та введення точної довжини ребра',
+        'Замкнутий багатокутник — заливка, контур і маркери вершин — залишається підсвіченим на полотні, доки результат не приховано',
+        'Панель Measure тепер є сіткою 2×2: Distance і Angle у верхньому ряду, Area у ряду нижче',
+        'Піктограми Distance і Angle на панелі інструментів перемальовано з суцільними лініями та заповненим клином замість пунктирних ліній',
+        'Піктограму Area на панелі інструментів спрощено до фаскованого квадрата з точками прив\'язки у вершинах',
+        'Виправлено стрибання тексту підказки термінала при появі значка клавіші',
+      ],
+    },
     {
       title: 'Копіювання/вставлення в текстовому редакторі, панель відгуків і теми для стрілок',
       highlights: [
@@ -1670,6 +1755,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   tr: [
     {
+      title: 'Area ölçüm komutu ve araç çubuğu simge yenilemesi',
+      highlights: [
+        'Yeni Area komutu, bir çokgenin kapladığı alanı ve çevresini ölçer — 3 veya daha fazla noktaya tıklayın, ardından şekli kapatmak için Enter tuşuna basın',
+        'Area, açı kilitli yönlü giriş destekler: yapılandırılmış açı izleme artışına yapışır ve tam bir kenar uzunluğu yazmanıza olanak tanır',
+        'Kapalı çokgen — dolgu, kontur ve köşe noktası tutamaçları — sonuç kapatılana kadar tuval üzerinde vurgulu kalır',
+        'Measure paneli artık 2×2 bir ızgara: üst sırada Distance ve Angle, altındaki sırada Area',
+        'Distance ve Angle araç çubuğu simgeleri, kesikli çizgiler yerine düz çizgiler ve dolgulu bir kama ile yeniden çizildi',
+        'Area araç çubuğu simgesi, köşe noktalarında yakalama noktaları bulunan pahlı bir kareye basitleştirildi',
+        'Tuş rozeti göründüğünde terminal komut metninin sıçraması düzeltildi',
+      ],
+    },
+    {
       title: 'Metin düzenleyicide kopyala/yapıştır, geri bildirim çubuğu ve temaya duyarlı ok başları',
       highlights: [
         'Metin düzenleyici: Ctrl/Cmd+C, Ctrl/Cmd+X ve Ctrl/Cmd+V artık seçili metni kopyalar, keser ve yapıştırır',
@@ -1901,6 +1998,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   zh: [
+    {
+      title: 'Area 面积测量命令与工具栏图标更新',
+      highlights: [
+        '新的 Area 命令可测量多边形的面积和周长 — 单击 3 个或更多点，然后按 Enter 闭合图形',
+        'Area 支持角度锁定的方向输入：吸附到已配置的角度追踪增量，并可输入精确的边长',
+        '闭合的多边形——填充、轮廓和顶点夹点——在结果被关闭之前会一直保持在画布上高亮显示',
+        'Measure 面板现在是 2×2 网格：Distance 和 Angle 位于上排，Area 位于下排',
+        'Distance 和 Angle 的工具栏图标已重新绘制，改用实线和填充楔形，取代原来的虚线',
+        'Area 工具栏图标简化为带顶点吸附点的倒角方块',
+        '修复了按键徽章出现时命令行提示文字跳动的问题',
+      ],
+    },
     {
       title: '文字编辑器复制/粘贴、反馈栏与主题感知箭头',
       highlights: [
@@ -2134,6 +2243,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   hi: [
     {
+      title: 'Area माप कमांड और टूलबार आइकन रीफ्रेश',
+      highlights: [
+        'नई Area कमांड एक बहुभुज का घिरा हुआ क्षेत्रफल और परिधि मापती है — 3 या अधिक बिंदुओं पर क्लिक करें, फिर आकृति बंद करने के लिए Enter दबाएं',
+        'Area एंगल-लॉक्ड दिशात्मक प्रविष्टि का समर्थन करती है: कॉन्फ़िगर किए गए एंगल-ट्रैकिंग इन्क्रीमेंट पर स्नैप करें और सटीक एज लंबाई टाइप करें',
+        'बंद बहुभुज — फिल, आउटलाइन और वर्टेक्स ग्रिप्स — जब तक परिणाम खारिज न हो, कैनवास पर हाइलाइट रहता है',
+        'Measure पैनल अब 2×2 ग्रिड है: ऊपरी पंक्ति में Distance और Angle, नीचे की पंक्ति में Area',
+        'Distance और Angle के टूलबार आइकन डैश्ड रेखाओं की जगह ठोस स्ट्रोक और भरे हुए वेज के साथ फिर से डिज़ाइन किए गए',
+        'Area टूलबार आइकन को वर्टेक्स स्नैप पॉइंट्स वाले चैम्फर्ड स्क्वायर में सरल बनाया गया',
+        'की बैज दिखने पर टर्मिनल प्रॉम्प्ट टेक्स्ट के उछलने की समस्या ठीक की गई',
+      ],
+    },
+    {
       title: 'टेक्स्ट एडिटर कॉपी/पेस्ट, फीडबैक बार और थीम-अवेयर ऐरोहेड',
       highlights: [
         'टेक्स्ट एडिटर: Ctrl/Cmd+C, Ctrl/Cmd+X, और Ctrl/Cmd+V अब चयनित टेक्स्ट को कॉपी, कट और पेस्ट करते हैं',
@@ -2365,6 +2486,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   ar: [
+    {
+      title: 'أمر قياس Area وتجديد أيقونات شريط الأدوات',
+      highlights: [
+        'أمر Area الجديد يقيس المساحة المحصورة ومحيط مضلع — انقر على 3 نقاط أو أكثر، ثم اضغط Enter لإغلاق الشكل',
+        'يدعم Area الإدخال الاتجاهي المقفل بزاوية: الانجذاب إلى زيادة تتبُّع الزاوية المهيأة وكتابة طول ضلع دقيق',
+        'يبقى المضلع المغلق — التعبئة والحدود ومقابض الرؤوس — مظللاً على اللوحة حتى تُخفى النتيجة',
+        'أصبحت لوحة Measure الآن شبكة 2×2: Distance وAngle في الصف العلوي، وArea في الصف السفلي',
+        'أُعيد رسم أيقونتَي Distance وAngle في شريط الأدوات بخطوط متصلة وإسفين مملوء بدلاً من الخطوط المتقطعة',
+        'بُسِّطت أيقونة Area في شريط الأدوات إلى مربع مشطوف الحواف بنقاط انجذاب عند الرؤوس',
+        'تم إصلاح قفز نص موجه المحطة عند ظهور شارة المفتاح',
+      ],
+    },
     {
       title: 'نسخ/لصق في محرر النص، شريط الملاحظات ورؤوس أسهم متوافقة مع السمة',
       highlights: [
@@ -2598,6 +2731,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   id: [
     {
+      title: 'Perintah pengukuran Area & pembaruan ikon toolbar',
+      highlights: [
+        'Perintah Area baru mengukur luas yang tertutup dan keliling poligon — klik 3 titik atau lebih, lalu tekan Enter untuk menutup bentuk',
+        'Area mendukung entri arah dengan kunci sudut: menempel ke increment pelacakan sudut yang dikonfigurasi dan memungkinkan mengetik panjang sisi yang tepat',
+        'Poligon yang tertutup — isian, garis luar, dan grip vertex — tetap disorot di kanvas hingga hasilnya dihilangkan',
+        'Panel Measure sekarang berupa grid 2×2: Distance dan Angle di baris atas, Area di baris bawah',
+        'Ikon toolbar Distance dan Angle digambar ulang dengan garis solid dan baji terisi, menggantikan garis putus-putus',
+        'Ikon toolbar Area disederhanakan menjadi persegi bertepi miring dengan titik snap di setiap vertex',
+        'Memperbaiki teks prompt terminal yang melompat saat lencana tombol muncul',
+      ],
+    },
+    {
       title: 'Salin/tempel di editor teks, bilah masukan & ujung panah yang menyesuaikan tema',
       highlights: [
         'Editor teks: Ctrl/Cmd+C, Ctrl/Cmd+X, dan Ctrl/Cmd+V sekarang menyalin, memotong, dan menempel teks yang dipilih',
@@ -2829,6 +2974,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   ja: [
+    {
+      title: 'Area 計測コマンドとツールバーアイコンの刷新',
+      highlights: [
+        '新しい Area コマンドは多角形の面積と周長を計測します — 3 点以上をクリックし、Enter を押して図形を閉じます',
+        'Area は角度ロックによる方向入力に対応 — 設定された角度追跡の増分にスナップし、正確な辺の長さを入力できます',
+        '閉じた多角形 — 塗りつぶし、輪郭、頂点グリップ — は結果が消されるまでキャンバス上にハイライト表示されたままです',
+        'Measure パネルは 2×2 グリッドになりました — 上段に Distance と Angle、下段に Area',
+        'Distance と Angle のツールバーアイコンを、破線ではなく実線と塗りつぶしのくさび形で再描画',
+        'Area のツールバーアイコンを、頂点にスナップポイントを持つ面取り四角形にシンプル化',
+        'キーバッジが表示された際にターミナルのプロンプトテキストが飛ぶ不具合を修正',
+      ],
+    },
     {
       title: 'テキストエディターのコピー/貼り付け、フィードバックバー、テーマ対応矢印',
       highlights: [
@@ -3062,6 +3219,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   pl: [
     {
+      title: 'Polecenie pomiaru Area i odświeżenie ikon paska narzędzi',
+      highlights: [
+        'Nowe polecenie Area mierzy pole powierzchni i obwód wielokąta — kliknij 3 lub więcej punktów, a następnie naciśnij Enter, aby zamknąć kształt',
+        'Area obsługuje wprowadzanie kierunkowe z blokadą kąta: przyciąga do skonfigurowanego przyrostu śledzenia kąta i pozwala wpisać dokładną długość krawędzi',
+        'Zamknięty wielokąt — wypełnienie, kontur i uchwyty wierzchołków — pozostaje podświetlony na płótnie, dopóki wynik nie zostanie ukryty',
+        'Panel Measure to teraz siatka 2×2: Distance i Angle w górnym rzędzie, Area w rzędzie poniżej',
+        'Ikony Distance i Angle na pasku narzędzi przerysowano z liniami ciągłymi i wypełnionym klinem zamiast przerywanych linii',
+        'Ikonę Area na pasku narzędzi uproszczono do ściętego kwadratu z punktami przyciągania w wierzchołkach',
+        'Naprawiono skakanie tekstu podpowiedzi terminala przy pojawianiu się plakietki klawisza',
+      ],
+    },
+    {
       title: 'Kopiowanie/wklejanie w edytorze tekstu, pasek opinii i groty strzałek dopasowane do motywu',
       highlights: [
         'Edytor tekstu: Ctrl/Cmd+C, Ctrl/Cmd+X i Ctrl/Cmd+V teraz kopiują, wycinają i wklejają zaznaczony tekst',
@@ -3293,6 +3462,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   ko: [
+    {
+      title: 'Area 측정 명령어 및 도구 모음 아이콘 새 단장',
+      highlights: [
+        '새로운 Area 명령어는 다각형의 면적과 둘레를 측정합니다 — 3개 이상의 점을 클릭한 다음 Enter를 눌러 도형을 닫으세요',
+        'Area는 각도 잠금 방향 입력을 지원합니다: 설정된 각도 추적 간격에 맞춰지고 정확한 변 길이를 입력할 수 있습니다',
+        '닫힌 다각형 — 채우기, 윤곽선, 꼭짓점 그립 — 은 결과가 사라질 때까지 캔버스에 강조 표시된 채로 유지됩니다',
+        'Measure 패널이 이제 2×2 격자가 되었습니다: 상단 행에 Distance와 Angle, 하단 행에 Area',
+        'Distance와 Angle의 도구 모음 아이콘이 점선 대신 실선과 채워진 쐐기 모양으로 다시 그려졌습니다',
+        'Area 도구 모음 아이콘이 꼭짓점에 스냅 포인트가 있는 모따기 사각형으로 단순화되었습니다',
+        '키 배지가 나타날 때 터미널 프롬프트 텍스트가 튀는 문제를 수정했습니다',
+      ],
+    },
     {
       title: '텍스트 에디터 복사/붙여넣기, 피드백 바 및 테마 인식 화살표',
       highlights: [
@@ -3526,6 +3707,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   vi: [
     {
+      title: 'Lệnh đo Area & làm mới biểu tượng thanh công cụ',
+      highlights: [
+        'Lệnh Area mới đo diện tích khép kín và chu vi của một đa giác — bấm 3 điểm trở lên, sau đó nhấn Enter để khép kín hình dạng',
+        'Area hỗ trợ nhập hướng khóa góc: khớp vào bước theo dõi góc đã cấu hình và cho phép nhập độ dài cạnh chính xác',
+        'Đa giác đã khép kín — tô màu, đường viền và các điểm điều khiển đỉnh — vẫn được làm nổi bật trên canvas cho đến khi kết quả bị ẩn',
+        'Bảng Measure giờ đây là lưới 2×2: Distance và Angle ở hàng trên, Area ở hàng dưới',
+        'Các biểu tượng thanh công cụ Distance và Angle được vẽ lại với nét liền và hình nêm được tô màu thay vì các đường nét đứt',
+        'Biểu tượng thanh công cụ Area được đơn giản hóa thành hình vuông vát cạnh với các điểm bắt dính tại đỉnh',
+        'Đã sửa lỗi văn bản gợi ý terminal bị nhảy khi huy hiệu phím xuất hiện',
+      ],
+    },
+    {
       title: 'Sao chép/dán trong trình soạn thảo văn bản, thanh phản hồi & đầu mũi tên theo chủ đề',
       highlights: [
         'Trình soạn thảo văn bản: Ctrl/Cmd+C, Ctrl/Cmd+X và Ctrl/Cmd+V giờ đây sao chép, cắt và dán văn bản đã chọn',
@@ -3757,6 +3950,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   th: [
+    {
+      title: 'คำสั่งวัด Area และการปรับปรุงไอคอนแถบเครื่องมือ',
+      highlights: [
+        'คำสั่ง Area ใหม่วัดพื้นที่ที่ปิดล้อมและเส้นรอบวงของรูปหลายเหลี่ยม — คลิก 3 จุดขึ้นไป จากนั้นกด Enter เพื่อปิดรูปทรง',
+        'Area รองรับการป้อนทิศทางแบบล็อกมุม: ยึดติดกับการเพิ่มการติดตามมุมที่กำหนดค่าไว้ และให้พิมพ์ความยาวขอบที่แน่นอนได้',
+        'รูปหลายเหลี่ยมที่ปิดแล้ว — การเติมสี เส้นขอบ และจุดจับที่จุดยอด — ยังคงไฮไลต์อยู่บนแคนวาสจนกว่าผลลัพธ์จะถูกปิด',
+        'แผง Measure ตอนนี้เป็นตารางแบบ 2×2: Distance และ Angle อยู่แถวบน ส่วน Area อยู่แถวล่าง',
+        'ไอคอนแถบเครื่องมือของ Distance และ Angle ถูกวาดใหม่ด้วยเส้นทึบและรูปลิ่มที่เติมสีแทนเส้นประ',
+        'ไอคอนแถบเครื่องมือ Area ถูกทำให้เรียบง่ายเป็นสี่เหลี่ยมตัดมุมพร้อมจุดยึดที่จุดยอด',
+        'แก้ไขปัญหาข้อความพร้อมท์เทอร์มินัลกระโดดเมื่อป้ายปุ่มปรากฏขึ้น',
+      ],
+    },
     {
       title: 'คัดลอก/วางในตัวแก้ไขข้อความ แถบความคิดเห็น และหัวลูกศรที่ปรับตามธีม',
       highlights: [
@@ -3990,6 +4195,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   ms: [
     {
+      title: 'Arahan pengukuran Area & penyegaran ikon bar alat',
+      highlights: [
+        'Arahan Area baharu mengukur luas tertutup dan perimeter poligon — klik 3 titik atau lebih, kemudian tekan Enter untuk menutup bentuk',
+        'Area menyokong kemasukan arah berkunci sudut: melekat pada peningkatan penjejakan sudut yang dikonfigurasi dan membenarkan anda menaip panjang tepi yang tepat',
+        'Poligon yang ditutup — isian, garis luar, dan pemegang bucu — kekal ditonjolkan pada kanvas sehingga hasil disingkirkan',
+        'Panel Measure kini merupakan grid 2×2: Distance dan Angle di baris atas, Area di baris bawah',
+        'Ikon bar alat Distance dan Angle dilukis semula dengan garis pejal dan baji terisi menggantikan garis putus-putus',
+        'Ikon bar alat Area dipermudahkan kepada segi empat sama bertepi pangkas dengan titik lekap pada bucu',
+        'Membetulkan teks gesaan terminal yang melompat apabila lencana kekunci muncul',
+      ],
+    },
+    {
       title: 'Salin/tampal dalam editor teks, bar maklum balas & kepala anak panah sedar tema',
       highlights: [
         'Editor teks: Ctrl/Cmd+C, Ctrl/Cmd+X, dan Ctrl/Cmd+V kini menyalin, memotong, dan menampal teks yang dipilih',
@@ -4221,6 +4438,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   bn: [
+    {
+      title: 'Area পরিমাপ কমান্ড এবং টুলবার আইকন রিফ্রেশ',
+      highlights: [
+        'নতুন Area কমান্ড একটি বহুভুজের আবদ্ধ ক্ষেত্রফল ও পরিসীমা পরিমাপ করে — 3টি বা তার বেশি পয়েন্টে ক্লিক করুন, তারপর আকৃতি বন্ধ করতে Enter চাপুন',
+        'Area কোণ-লক করা দিকনির্দেশনামূলক এন্ট্রি সমর্থন করে: কনফিগার করা কোণ-ট্র্যাকিং বৃদ্ধিতে স্ন্যাপ করে এবং একটি সঠিক প্রান্তের দৈর্ঘ্য টাইপ করতে দেয়',
+        'বন্ধ করা বহুভুজ — ফিল, রূপরেখা এবং ভার্টেক্স গ্রিপ — ফলাফল বাতিল না হওয়া পর্যন্ত ক্যানভাসে হাইলাইট হয়ে থাকে',
+        'Measure প্যানেল এখন একটি 2×2 গ্রিড: উপরের সারিতে Distance এবং Angle, নিচের সারিতে Area',
+        'Distance এবং Angle-এর টুলবার আইকন ড্যাশড লাইনের পরিবর্তে নিরবচ্ছিন্ন স্ট্রোক এবং একটি ভরাট ওয়েজ দিয়ে পুনরায় আঁকা হয়েছে',
+        'Area টুলবার আইকনকে ভার্টেক্সে স্ন্যাপ পয়েন্টসহ একটি চ্যামফার্ড বর্গক্ষেত্রে সরলীকৃত করা হয়েছে',
+        'কী ব্যাজ প্রদর্শিত হলে টার্মিনাল প্রম্পট টেক্সট লাফ দেওয়ার সমস্যা সমাধান করা হয়েছে',
+      ],
+    },
     {
       title: 'টেক্সট এডিটরে কপি/পেস্ট, ফিডব্যাক বার এবং থিম-অ্যাওয়্যার তীরমুখ',
       highlights: [
@@ -4474,6 +4703,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   sw: [
     {
+      title: 'Amri ya kupima Area na uboreshaji wa aikoni za upau wa zana',
+      highlights: [
+        'Amri mpya ya Area hupima eneo lililofungwa na mzunguko wa poligoni — bonyeza pointi 3 au zaidi, kisha bonyeza Enter kufunga umbo',
+        'Area inasaidia uingizaji wa mwelekeo uliofungwa kwa pembe: hushikamana na kiwango cha ufuatiliaji wa pembe kilichowekwa na kuruhusu kuandika urefu sahihi wa ukingo',
+        'Poligoni iliyofungwa — ujazo, mstari wa nje, na vishikizo vya vipeo — inabaki imeangaziwa kwenye turubai hadi matokeo yaondolewe',
+        'Paneli ya Measure sasa ni gridi ya 2×2: Distance na Angle kwenye mstari wa juu, Area kwenye mstari wa chini',
+        'Aikoni za upau wa zana za Distance na Angle zimechorwa upya kwa mistari thabiti na kabari iliyojazwa badala ya mistari iliyokatika',
+        'Aikoni ya upau wa zana ya Area imerahisishwa kuwa mraba wenye pembe zilizokatwa na alama za kushikamana kwenye vipeo',
+        'Imerekebisha tatizo la maandishi ya ishara ya terminal kuruka wakati beji ya kitufe inapoonekana',
+      ],
+    },
+    {
       title: 'Kunakili/kubandika kwenye kihariri cha maandishi, upau wa maoni na vichwa vya mshale vinavyofuata mandhari',
       highlights: [
         'Kihariri cha maandishi: Ctrl/Cmd+C, Ctrl/Cmd+X, na Ctrl/Cmd+V sasa hunakili, hukata, na kubandika maandishi yaliyochaguliwa',
@@ -4726,6 +4967,7 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
 
   ur: [
+    { title: 'Area پیمائش کمانڈ اور ٹول بار آئیکن کی تازہ کاری', highlights: ['نئی Area کمانڈ کثیرالاضلاع کا احاطہ شدہ رقبہ اور محیط ناپتی ہے — ۳ یا زیادہ نقاط پر کلک کریں، پھر شکل بند کرنے کے لیے Enter دبائیں', 'Area زاویہ لاک شدہ سمتی اندراج کو سپورٹ کرتی ہے: ترتیب دیے گئے زاویہ ٹریکنگ اضافے پر جم جاتی ہے اور درست کنارے کی لمبائی ٹائپ کرنے دیتی ہے', 'بند کیا گیا کثیرالاضلاع — بھرائی، خاکہ، اور ورٹیکس گرِپس — نتیجہ ختم ہونے تک کینوس پر نمایاں رہتا ہے', 'Measure پینل اب ۲×۲ گرڈ ہے: اوپری قطار میں Distance اور Angle، نچلی قطار میں Area', 'Distance اور Angle کے ٹول بار آئیکنز کو ڈیشڈ لائنوں کی بجائے ٹھوس لکیروں اور بھرے ہوئے ویج کے ساتھ دوبارہ ڈیزائن کیا گیا', 'Area ٹول بار آئیکن کو ورٹیکس پر سنیپ پوائنٹس کے ساتھ چیمفرڈ اسکوائر میں آسان بنایا گیا', 'کی بیج ظاہر ہونے پر ٹرمینل پرامپٹ ٹیکسٹ کے اچھلنے کا مسئلہ حل کیا گیا'] },
     { title: 'متن ایڈیٹر میں کاپی/پیسٹ، فیڈبیک بار اور تھیم کے مطابق تیر کے سر', highlights: ['متن ایڈیٹر: Ctrl/Cmd+C، Ctrl/Cmd+X، اور Ctrl/Cmd+V اب منتخب متن کاپی، کٹ اور پیسٹ کرتے ہیں', 'پیسٹ کیا گیا متن ہمیشہ کاپی کے وقت کی فارمیٹنگ کی بجائے کرسر پر پہلے سے موجود فارمیٹنگ اپناتا ہے؛ rich موڈ لائن بریک برقرار رکھتا ہے، simple موڈ (پیمائش لیبلز) انہیں ہٹا دیتا ہے', 'ٹول بار میں نیا فیڈبیک بار Reddit، GitHub Issues، اور ای میل سے لنک کرتا ہے — 10 منٹ استعمال کے بعد ظاہر ہوتا ہے اور بند کیا جا سکتا ہے', 'Properties پینل اور تیر کے سر پکر میں تیر کے سر کی پیش منظر اب ہمیشہ سفید کی بجائے تھیم کے مطابق رنگ میں دکھتی ہے', 'لائٹ تھیم میں ٹول بار پینل کیپشنز (مثلاً "STYLE"، "LAYERS") کے لیے بہتر کنٹراسٹ', 'ٹول بار میں کوآرڈینیٹ اور زوم ریڈ آؤٹ اب فکسڈ چوڑائی والے دائیں طرف سیدھ کیے کالم کی بجائے اپنے لیبلز کے قریب ہوتے ہیں'] },
     { title: 'ٹیکسٹ ایڈیٹر موڈز: rich اور simple', highlights: ['ٹیکسٹ ایڈیٹر ہیڈر اب موڈ چپ دکھاتا ہے — Text اور Multileader کے لیے "rich" (ایکسنٹ رنگ)، ڈائمنشن کے لیے "simple" (ہلکا)', 'کسی بھی لینیئر، الائنڈ، اینگولر، ریڈیس یا ڈائامیٹر ڈائمنشن پر ڈبل کلک کریں تاکہ لیبل ٹیکسٹ ایڈیٹر میں کھل جائے', 'Simple موڈ: ایڈیٹر موجودہ لیبل سے پہلے سے بھرا ہوتا ہے تاکہ ← / → سے کرسر رکھیں اور براہ راست ویلیو ترمیم کریں', 'Simple موڈ: Enter دبانے سے ویلیو محفوظ ہو کر ایڈیٹر بند ہو جاتا ہے — لائن بریک نہیں ڈالی جاتی', 'Simple موڈ: Bold، Italic، فونٹ اور اونچائی کی تبدیلیاں پورے ڈائمنشن لیبل پر یکساں لاگو ہوتی ہیں', 'Rich موڈ (Text, Multileader): فی حرف فارمیٹنگ، ملٹی لائن Enter اور ورڈ رَیپ پوری طرح سپورٹڈ رہتے ہیں', 'بلنکنگ کرسر ڈائمنشن ٹیکسٹ ایڈیٹر پاپ اَپ کے اندر اینی میٹ ہوتا ہے', 'ٹیکسٹ کرسر آفسیٹ درست کیا گیا — بعض فونٹ تبدیلیوں کے بعد 2× زیادہ اونچا رینڈر ہو رہا تھا'] },
     { title: 'اردو اور یونانی — 22 زبانیں، 1 320 صفحات', highlights: ['اردو (اردو 🇵🇰) شامل — عربی رسم الخط کے ساتھ مکمل RTL سپورٹ؛ دستاویزات، FAQ اور تبدیلی نامہ مکمل ترجمہ', 'یونانی (Ελληνικά 🇬🇷) شامل — مکمل دستاویزات، FAQ اور تبدیلی نامہ یونانی میں', 'KulmanLab اب 22 زبانوں میں دستیاب: EN, DE, ES, FR, IT, PT, PL, UK, EL, HI, UR, BN, ZH, JA, KO, VI, TH, ID, MS, TR, AR, SW', 'کل سائٹ سائز: 1 320 مستقل صفحات — تمام کمانڈ ریفرنس، FAQ اور تبدیلی نامے مقامی زبان میں', 'RTL لے آؤٹ اردو کے لیے عربی سپورٹ کے ساتھ خود بخود لاگو ہوتا ہے', 'ویب سائٹ فٹر میں زبان سوئچر قطار شامل — تمام 22 زبانوں کے plain-HTML لنکس تاکہ سرچ انجن JavaScript کے بغیر ہر زبان دریافت کریں', 'تمام زبان کے صفحات میں ہر دوسری زبان کی طرف hreflang متبادل لنکس شامل ہیں'] },
@@ -4747,6 +4989,7 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
 
   el: [
+    { title: 'Εντολή μέτρησης Area & ανανέωση εικονιδίων γραμμής εργαλείων', highlights: ['Η νέα εντολή Area μετρά το εμβαδόν και την περίμετρο ενός πολυγώνου — κάντε κλικ σε 3 ή περισσότερα σημεία, μετά πατήστε Enter για να κλείσετε το σχήμα', 'Το Area υποστηρίζει κατευθυντική εισαγωγή με κλείδωμα γωνίας: προσκολλάται στην ρυθμισμένη προσαύξηση παρακολούθησης γωνίας και επιτρέπει την πληκτρολόγηση ακριβούς μήκους πλευράς', 'Το κλειστό πολύγωνο — γέμισμα, περίγραμμα και λαβές κορυφών — παραμένει επισημασμένο στον καμβά μέχρι να απορριφθεί το αποτέλεσμα', 'Ο πίνακας Measure είναι πλέον πλέγμα 2×2: Distance και Angle στην πάνω σειρά, Area στην κάτω σειρά', 'Τα εικονίδια γραμμής εργαλείων Distance και Angle ανασχεδιάστηκαν με συνεχείς γραμμές και γεμισμένη σφήνα αντί για διακεκομμένες γραμμές', 'Το εικονίδιο γραμμής εργαλείων Area απλοποιήθηκε σε ένα τετράγωνο με λοξότμητες γωνίες και σημεία προσκόλλησης στις κορυφές', 'Διορθώθηκε το άλμα του κειμένου προτροπής τερματικού όταν εμφανίζεται το σήμα πλήκτρου'] },
     { title: 'Αντιγραφή/επικόλληση στον επεξεργαστή κειμένου, γραμμή σχολίων & βέλη προσαρμοσμένα στο θέμα', highlights: ['Επεξεργαστής κειμένου: Ctrl/Cmd+C, Ctrl/Cmd+X και Ctrl/Cmd+V πλέον αντιγράφουν, αποκόπτουν και επικολλούν το επιλεγμένο κείμενο', 'Το επικολλημένο κείμενο παίρνει πάντα τη μορφοποίηση που υπάρχει ήδη στον κέρσορα αντί να διατηρεί αυτή που είχε όταν αντιγράφηκε· η λειτουργία rich διατηρεί τις αλλαγές γραμμής, η λειτουργία simple (ετικέτες διαστάσεων) τις αφαιρεί', 'Νέα γραμμή σχολίων στη γραμμή εργαλείων συνδέει με Reddit, GitHub Issues και email — εμφανίζεται μετά από 10 λεπτά χρήσης και μπορεί να κλείσει', 'Οι προεπισκοπήσεις βέλους στον πίνακα ιδιοτήτων και στον επιλογέα βέλους πλέον αποδίδονται με χρώμα ανάλογο του θέματος αντί για πάντα λευκό', 'Βελτιωμένη αντίθεση για τις ετικέτες πάνελ της γραμμής εργαλείων (π.χ. "STYLE", "LAYERS") στο ανοιχτόχρωμο θέμα', 'Η ένδειξη συντεταγμένων και ζουμ στη γραμμή εργαλείων είναι πλέον πιο κοντά στις ετικέτες της, αντί για στήλη σταθερού πλάτους στοιχισμένη δεξιά'] },
     { title: 'Λειτουργίες επεξεργαστή κειμένου: rich και simple', highlights: ['Ο τίτλος του επεξεργαστή κειμένου εμφανίζει πλέον chip λειτουργίας — "rich" (χρώμα έμφασης) για Text και Multileader, "simple" (αχνό) για οντότητες διαστάσεων', 'Διπλό κλικ σε οποιαδήποτε γραμμική, ευθυγραμμισμένη, γωνιακή, ακτίνας ή διαμέτρου διάσταση για να ανοίξει η ετικέτα στον επεξεργαστή', 'Λειτουργία simple: ο επεξεργαστής προ-συμπληρώνεται με την τρέχουσα ετικέτα ώστε να τοποθετείτε τον κέρσορα με ← / → και να επεξεργάζεστε την τιμή άμεσα', 'Λειτουργία simple: το Enter επιβεβαιώνει την τιμή και κλείνει τον επεξεργαστή — δεν εισάγεται αλλαγή γραμμής', 'Λειτουργία simple: αλλαγές έντονης γραφής, πλάγιας γραφής, γραμματοσειράς και ύψους εφαρμόζονται σε ολόκληρη την ετικέτα διάστασης', 'Λειτουργία rich (Text, Multileader): μορφοποίηση ανά χαρακτήρα, πολύ-γραμμές Enter και αναδίπλωση λέξεων παραμένουν πλήρως υποστηριζόμενα', 'Ο αναβοσβήνον κέρσορας εμφανίζει πλέον animation μέσα στο αναδυόμενο παράθυρο του επεξεργαστή κειμένου διαστάσεων', 'Η απόκλιση κέρσορα κειμένου διορθώθηκε — αποδιδόταν έως 2× πολύ ψηλά μετά από ορισμένες αλλαγές γραμματοσειράς'] },
     { title: 'Ουρντού και Ελληνικά — 22 γλώσσες, 1 320 σελίδες', highlights: ['Προστέθηκε Ουρντού (اردو 🇵🇰) — πλήρης υποστήριξη RTL με αραβική γραφή· έγγραφα, FAQ και αρχείο αλλαγών πλήρως μεταφρασμένα', 'Προστέθηκαν Ελληνικά (Ελληνικά 🇬🇷) — πλήρη έγγραφα, FAQ και αρχείο αλλαγών στα Ελληνικά', 'Το KulmanLab διατίθεται πλέον σε 22 γλώσσες: EN, DE, ES, FR, IT, PT, PL, UK, EL, HI, UR, BN, ZH, JA, KO, VI, TH, ID, MS, TR, AR, SW', 'Συνολικό μέγεθος ιστότοπου: 1 320 στατικές σελίδες — όλες οι αναφορές εντολών, FAQ και αρχεία αλλαγών τοπικοποιημένα', 'Η διάταξη RTL εφαρμόζεται αυτόματα για τα Ουρντού (αραβική γραφή) παράλληλα με την υπάρχουσα υποστήριξη αραβικών', 'Γραμμή επιλογέα γλώσσας προστέθηκε στο υποσέλιδο — ορατοί σύνδεσμοι plain-HTML για όλες τις 22 γλώσσες ώστε οι μηχανές αναζήτησης να ανακαλύπτουν κάθε γλωσσική έκδοση χωρίς JavaScript', 'Όλες οι γλωσσικές σελίδες περιλαμβάνουν εναλλακτικούς συνδέσμους hreflang που δείχνουν σε κάθε άλλη γλώσσα'] },
@@ -4767,6 +5010,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     { title: 'Αναβάθμιση Angular, τεκμηρίωση & προσαρμοστικό πλέγμα', highlights: ['Αναβάθμιση Angular 19 → 20 → 21', 'Πλήρης ιστότοπος τεκμηρίωσης εντολών', 'Προσαρμοστικό πλέγμα CAD', 'Πίνακας ιστορικού (Αναίρεση / Ιστορικό / Επανάληψη)'] },
   ],
   pa: [
+    {
+      title: 'Area ਮਾਪ ਕਮਾਂਡ ਅਤੇ ਟੂਲਬਾਰ ਆਈਕਨ ਰਿਫ੍ਰੈਸ਼',
+      highlights: [
+        'ਨਵੀਂ Area ਕਮਾਂਡ ਬਹੁਭੁਜ ਦਾ ਘਿਰਿਆ ਹੋਇਆ ਖੇਤਰਫਲ ਅਤੇ ਘੇਰਾ ਮਾਪਦੀ ਹੈ — 3 ਜਾਂ ਵੱਧ ਪੁਆਇੰਟਾਂ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ, ਫਿਰ ਆਕਾਰ ਬੰਦ ਕਰਨ ਲਈ Enter ਦਬਾਓ',
+        'Area ਐਂਗਲ-ਲੌਕਡ ਦਿਸ਼ਾਤਮਕ ਐਂਟਰੀ ਦਾ ਸਮਰਥਨ ਕਰਦੀ ਹੈ: ਸੰਰਚਿਤ ਐਂਗਲ-ਟ੍ਰੈਕਿੰਗ ਵਾਧੇ ਉੱਤੇ ਸਨੈਪ ਹੁੰਦੀ ਹੈ ਅਤੇ ਸਟੀਕ ਕਿਨਾਰੇ ਦੀ ਲੰਬਾਈ ਟਾਈਪ ਕਰਨ ਦਿੰਦੀ ਹੈ',
+        'ਬੰਦ ਕੀਤਾ ਬਹੁਭੁਜ — ਭਰਾਈ, ਰੂਪਰੇਖਾ, ਅਤੇ ਵਰਟੈਕਸ ਗ੍ਰਿੱਪਸ — ਨਤੀਜਾ ਖਾਰਜ ਹੋਣ ਤੱਕ ਕੈਨਵਸ ਉੱਤੇ ਹਾਈਲਾਈਟ ਰਹਿੰਦਾ ਹੈ',
+        'Measure ਪੈਨਲ ਹੁਣ 2×2 ਗਰਿੱਡ ਹੈ: ਉੱਪਰਲੀ ਕਤਾਰ ਵਿੱਚ Distance ਅਤੇ Angle, ਹੇਠਲੀ ਕਤਾਰ ਵਿੱਚ Area',
+        'Distance ਅਤੇ Angle ਦੇ ਟੂਲਬਾਰ ਆਈਕਨ ਡੈਸ਼ਡ ਲਾਈਨਾਂ ਦੀ ਬਜਾਏ ਠੋਸ ਸਟ੍ਰੋਕ ਅਤੇ ਭਰੇ ਹੋਏ ਵੇਜ ਨਾਲ ਦੁਬਾਰਾ ਡਿਜ਼ਾਈਨ ਕੀਤੇ ਗਏ',
+        'Area ਟੂਲਬਾਰ ਆਈਕਨ ਨੂੰ ਵਰਟੈਕਸ ਉੱਤੇ ਸਨੈਪ ਪੁਆਇੰਟਾਂ ਵਾਲੇ ਚੈਂਫਰਡ ਵਰਗ ਵਿੱਚ ਸਰਲ ਬਣਾਇਆ ਗਿਆ',
+        'ਕੀ ਬੈਜ ਦਿਖਣ ਉੱਤੇ ਟਰਮੀਨਲ ਪ੍ਰੌਂਪਟ ਟੈਕਸਟ ਦੇ ਉੱਛਲਣ ਦੀ ਸਮੱਸਿਆ ਠੀਕ ਕੀਤੀ ਗਈ',
+      ],
+    },
     {
       title: 'ਟੈਕਸਟ ਐਡੀਟਰ ਕਾਪੀ/ਪੇਸਟ, ਫੀਡਬੈਕ ਬਾਰ ਅਤੇ ਥੀਮ-ਅਵੇਅਰ ਐਰੋਹੈੱਡ',
       highlights: [
@@ -5000,6 +5255,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   sv: [
     {
+      title: 'Area-mätkommando & uppdaterade verktygsfältsikoner',
+      highlights: [
+        'Nya Area-kommandot mäter den inneslutna arean och omkretsen av en polygon — klicka på 3 eller fler punkter, tryck sedan Enter för att stänga formen',
+        'Area stöder vinkellåst riktningsinmatning: fäster till det konfigurerade vinkelspårningssteget och låter dig skriva en exakt kantlängd',
+        'Den stängda polygonen — fyllning, kontur och hörngrepp — förblir markerad på ritytan tills resultatet avfärdas',
+        'Measure-panelen är nu ett 2×2-rutnät: Distance och Angle på den övre raden, Area på raden under',
+        'Distance- och Angle-ikonerna i verktygsfältet har ritats om med heldragna linjer och en fylld kil istället för streckade linjer',
+        'Area-ikonen i verktygsfältet har förenklats till en fasad kvadrat med snapppunkter vid hörnen',
+        'Åtgärdade att terminalens promptext hoppade till när tangentmärket visades',
+      ],
+    },
+    {
       title: 'Kopiera/klistra in i textredigeraren, feedbackfält & temamedvetna pilspetsar',
       highlights: [
         'Textredigerare: Ctrl/Cmd+C, Ctrl/Cmd+X och Ctrl/Cmd+V kopierar, klipper ut och klistrar nu in den markerade texten',
@@ -5231,6 +5498,18 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   tl: [
+    {
+      title: 'Area measurement command at pag-refresh ng mga toolbar icon',
+      highlights: [
+        'Sinusukat ng bagong Area command ang saklaw na area at perimeter ng isang polygon — mag-click ng 3 o higit pang punto, pagkatapos ay pindutin ang Enter para isara ang hugis',
+        'Sinusuportahan ng Area ang angle-locked directional entry: nagsa-snap ito sa naka-configure na angle-tracking increment at nagpapahintulot na mag-type ng eksaktong haba ng edge',
+        'Ang saradong polygon — fill, outline, at vertex grips — ay nananatiling naka-highlight sa canvas hanggang maitago ang resulta',
+        'Ang Measure panel ay isa na ngayong 2×2 grid: Distance at Angle sa itaas na row, Area sa row sa ibaba',
+        'Muling ginuhit ang mga toolbar icon ng Distance at Angle gamit ang solid na linya at napunong wedge sa halip na dashed na linya',
+        'Pinasimple ang toolbar icon ng Area sa isang chamfered square na may snap points sa mga vertex',
+        'Inayos ang pag-jump ng terminal prompt text kapag lumalabas ang key badge',
+      ],
+    },
     {
       title: 'Copy/paste sa text editor, feedback bar, at theme-aware na mga arrowhead',
       highlights: [

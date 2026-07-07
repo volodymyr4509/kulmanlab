@@ -86,6 +86,7 @@ Chào mừng bạn đến với tài liệu tham khảo lệnh **KulmanLab CAD**
 |------|-----------|
 | [Distance](./commands/distance/) | Đo khoảng cách giữa hai điểm |
 | [Angle](./commands/angle/) | Đo góc giữa ba điểm |
+| [Area](./commands/area/) | Đo diện tích và chu vi của đa giác |
 
 ## Kiểu Dáng
 

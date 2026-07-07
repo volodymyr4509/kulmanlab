@@ -86,6 +86,7 @@ keywords: [KulmanLab, KulmanLab CAD, CAD ਕਮਾਂਡ, ਮੁਫ਼ਤ ਬ੍
 |---------|-------------|
 | [Distance](./commands/distance/) | ਦੋ ਬਿੰਦੂਆਂ ਵਿਚਕਾਰ ਦੂਰੀ ਮਾਪੋ |
 | [Angle](./commands/angle/) | ਤਿੰਨ ਬਿੰਦੂਆਂ ਵਿਚਕਾਰ ਕੋਣ ਮਾਪੋ |
+| [Area](./commands/area/) | ਬਹੁਭੁਜ ਦਾ ਖੇਤਰਫਲ ਅਤੇ ਘੇਰਾ ਮਾਪੋ |
 
 ## ਸਟਾਈਲ
 

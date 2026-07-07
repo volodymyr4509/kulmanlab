@@ -7,7 +7,7 @@ keywords: [misura angolo CAD, angolo a tre punti, angolo interno CAD, comando mi
 
 # Angle
 
-Il comando `angle` misura l'angolo interno in un vertice formato da due segmenti attraverso tre punti cliccati. Il risultato — sempre compreso tra 0° e 180° — viene visualizzato nel terminale con 4 decimali. È uno dei due comandi di misurazione — [Distance](../distance/) misura invece la lunghezza in linea retta.
+Il comando `angle` misura l'angolo interno in un vertice formato da due segmenti attraverso tre punti cliccati. Il risultato — sempre compreso tra 0° e 180° — viene visualizzato nel terminale con 4 decimali. È uno dei tre comandi di misurazione — [Distance](../distance/) misura la lunghezza in linea retta, e [Area](../area/) misura l'area racchiusa e il perimetro di un poligono.
 
 ## Anatomia di una misurazione angolare
 

@@ -7,7 +7,7 @@ keywords: [CAD angle measurement, three point angle, interior angle CAD, measure
 
 # Angle
 
-Sinusukat ng `angle` command ang interior angle sa isang vertex na nabuo ng dalawang line segment sa pamamagitan ng tatlong na-click na punto. Ang resulta — laging nasa pagitan ng 0° at 180° — ay ipinapakita sa terminal hanggang 4 decimal places. Isa ito sa dalawang measurement commands — ang [Distance](../distance/) ang sumusukat ng straight-line length sa halip.
+Sinusukat ng `angle` command ang interior angle sa isang vertex na nabuo ng dalawang line segment sa pamamagitan ng tatlong na-click na punto. Ang resulta — laging nasa pagitan ng 0° at 180° — ay ipinapakita sa terminal hanggang 4 decimal places. Isa ito sa tatlong measurement commands — sinusukat ng [Distance](../distance/) ang straight-line length, at sinusukat ng [Area](../area/) ang saklaw na area at perimeter ng isang polygon.
 
 ## Anatomya ng Angle Measurement
 

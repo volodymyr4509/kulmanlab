@@ -86,6 +86,7 @@ keywords: [KulmanLab, KulmanLab CAD, CAD 命令, 免费浏览器 CAD, DXF 在线
 |---------|-------------|
 | [Distance](./commands/distance/) | 测量两点之间的距离 |
 | [Angle](./commands/angle/) | 测量三点构成的角度 |
+| [Area](./commands/area/) | 测量多边形的面积和周长 |
 
 ## 样式
 

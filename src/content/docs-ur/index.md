@@ -86,6 +86,7 @@ keywords: [KulmanLab, KulmanLab CAD, CAD کمانڈز, مفت براؤزر CAD, 
 |---------|-------------|
 | [Distance](./commands/distance/) | دو نقاط کے درمیان فاصلہ ناپیں |
 | [Angle](./commands/angle/) | تین نقاط کے درمیان زاویہ ناپیں |
+| [Area](./commands/area/) | ایک کثیرالاضلاع کا رقبہ اور محیط ناپیں |
 
 ## انداز
 
