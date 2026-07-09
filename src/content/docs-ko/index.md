@@ -31,6 +31,7 @@ keywords: [KulmanLab, KulmanLab CAD, CAD 명령어, 무료 브라우저 CAD, DXF
 | [Rotate](./commands/rotate/) | 선택한 객체를 기준점을 중심으로 회전 |
 | [Mirror](./commands/mirror/) | 선택한 객체를 선에 대해 대칭 복사 |
 | [Scale](./commands/scale/) | 선택한 객체를 기준점을 중심으로 축척 |
+| [Align](./commands/align/) | 점 쌍을 사용해 객체를 이동, 회전, 선택적으로 크기 조정 |
 | [Delete](./commands/delete/) | 선택한 객체를 도면에서 제거 |
 | [Trim](./commands/trim/) | 교차점에서 선 세그먼트 자르기 |
 | [Extend](./commands/extend/) | 선을 가장 가까운 경계 교차점까지 연장 |

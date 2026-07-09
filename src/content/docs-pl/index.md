@@ -31,6 +31,7 @@ Witaj w dokumentacji poleceń **KulmanLab CAD**. [KulmanLab CAD](https://kulmanl
 | [Rotate](./commands/rotate/) | Obraca zaznaczone elementy wokół punktu bazowego |
 | [Mirror](./commands/mirror/) | Odbija zaznaczone elementy przez oś |
 | [Scale](./commands/scale/) | Skaluje zaznaczone elementy wokół punktu bazowego |
+| [Align](./commands/align/) | Przesuwa, obraca i opcjonalnie skaluje elementy za pomocą par punktów |
 | [Delete](./commands/delete/) | Usuwa zaznaczone elementy z rysunku |
 | [Trim](./commands/trim/) | Przycina segment linii na jej przecięciach |
 | [Extend](./commands/extend/) | Przedłuża linię do najbliższego przecięcia z granicą |

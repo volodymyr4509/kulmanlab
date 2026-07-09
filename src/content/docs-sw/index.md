@@ -31,6 +31,7 @@ Karibu kwenye marejeo ya amri za **KulmanLab CAD**. [KulmanLab CAD](https://kulm
 | [Rotate](./commands/rotate/) | Zungusha vipengele vilivyochaguliwa karibu na pointi ya msingi |
 | [Mirror](./commands/mirror/) | Onyesha kioo vipengele vilivyochaguliwa kupitia mstari |
 | [Scale](./commands/scale/) | Pima ukubwa wa vipengele vilivyochaguliwa karibu na pointi ya msingi |
+| [Align](./commands/align/) | Hamisha, zungusha, na pima kwa hiari vipengele kwa kutumia jozi za pointi |
 | [Delete](./commands/delete/) | Ondoa vipengele vilivyochaguliwa kutoka kwenye mchoro |
 | [Trim](./commands/trim/) | Kata sehemu ya mstari katika makutano yake |
 | [Extend](./commands/extend/) | Ongeza mstari hadi makutano ya mpaka wa karibu |

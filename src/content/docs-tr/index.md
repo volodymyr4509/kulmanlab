@@ -31,6 +31,7 @@ keywords: [KulmanLab, KulmanLab CAD, CAD komutları, ücretsiz tarayıcı CAD, �
 | [Rotate](./commands/rotate/) | Seçili nesneleri temel nokta etrafında döndürür |
 | [Mirror](./commands/mirror/) | Seçili nesneleri bir çizgi boyunca aynalar |
 | [Scale](./commands/scale/) | Seçili nesneleri temel nokta etrafında ölçekler |
+| [Align](./commands/align/) | Nokta çiftleri kullanarak nesneleri taşır, döndürür ve isteğe bağlı ölçekler |
 | [Delete](./commands/delete/) | Seçili nesneleri çizimden siler |
 | [Trim](./commands/trim/) | Kesişimlerde çizgi parçasını kırpar |
 | [Extend](./commands/extend/) | Çizgiyi en yakın sınır kesişimine kadar uzatır |

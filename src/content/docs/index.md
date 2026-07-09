@@ -31,6 +31,7 @@ Welcome to the **KulmanLab CAD** command reference. [KulmanLab CAD](https://kulm
 | [Rotate](./commands/rotate/) | Rotate selected entities around a base point |
 | [Mirror](./commands/mirror/) | Mirror selected entities across a line |
 | [Scale](./commands/scale/) | Scale selected entities around a base point |
+| [Align](./commands/align/) | Translate, rotate, and optionally scale entities using point pairs |
 | [Delete](./commands/delete/) | Remove selected entities from the drawing |
 | [Trim](./commands/trim/) | Trim a line segment at its intersections |
 | [Extend](./commands/extend/) | Extend a line to the nearest boundary intersection |

@@ -31,6 +31,7 @@ Välkommen till **KulmanLab CAD**-kommandoreferensen. [KulmanLab CAD](https://ku
 | [Rotate](./commands/rotate/) | Rotera markerade entiteter runt en baspunkt |
 | [Mirror](./commands/mirror/) | Spegla markerade entiteter över en linje |
 | [Scale](./commands/scale/) | Skala markerade entiteter runt en baspunkt |
+| [Align](./commands/align/) | Flytta, rotera och skala valfritt entiteter med punktpar |
 | [Delete](./commands/delete/) | Ta bort markerade entiteter från ritningen |
 | [Trim](./commands/trim/) | Klipp ett linjesegment vid dess skärningspunkter |
 | [Extend](./commands/extend/) | Förläng en linje till närmaste gränsskärning |

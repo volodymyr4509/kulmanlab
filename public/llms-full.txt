@@ -138,6 +138,60 @@ No. Drawings stay in the browser. Google Analytics collects anonymous page-view 
 
 # Complete Command Reference
 
+# Align
+
+The `align` command repositions selected entities using one or two pairs of source/destination points. With one pair it behaves exactly like [Move](./move) (translate only). With two pairs it also rotates the selection so the source-to-source direction matches the destination-to-destination direction, and can optionally scale it so the source segment length matches the destination segment length — translate, rotate, and scale in a single operation.
+
+## Two ways to start
+
+**Pre-select, then align**: select entities, type `align` (or click the toolbar button), click S1, click D1, click S2 (or Enter for translate-only), click D2, then answer the scale prompt.
+
+**Activate, then select**: type `align` with nothing selected, select objects, confirm with Enter/Space, then continue with S1 → D1 → S2 → D2 → scale prompt.
+
+The terminal only needs enough letters to be unambiguous — typing `al` and pressing Enter activates Align directly, since no other command name starts with those two letters.
+
+## One-point alignment (translate only)
+
+After D1 is placed, press Enter instead of clicking a second source point. The selection is translated by the S1→D1 vector — no rotation or scaling — identical to a Move using S1 as the base point and D1 as the destination.
+
+## Two-point alignment (translate + rotate + optional scale)
+
+Once S2 and D2 are both placed, the rotation angle is the difference between the destination direction (D1 → D2) and the source direction (S1 → S2). The scale prompt — `scale objects to alignment points? [Yes/No] <N>` — defaults to No:
+
+- **Y** also scales the selection uniformly around D1 so the S1–S2 distance becomes the D1–D2 distance.
+- **N** or **Enter** keeps the original size — only translate and rotate are applied.
+
+Pressing a key at the scale prompt applies the alignment immediately — there's no separate confirmation step.
+
+## Keyboard reference
+
+| Key | Action |
+|-----|--------|
+| `Enter` / `Space` | Confirm selection and advance to the S1 phase |
+| `Enter` (at the S2 step) | Skip rotation — apply a translate-only alignment using S1 and D1 |
+| `Y` | Apply the alignment with scaling |
+| `N` / `Enter` (at the scale prompt) | Apply the alignment without scaling |
+| `Escape` | While picking points: discard them and return to the selection phase; with nothing selected: cancel the command |
+
+## After aligning
+
+The aligned entities remain selected at their new position, and the command ends automatically — run Align again, or switch to Move, Rotate, or Scale without re-selecting.
+
+## Align vs Move
+
+| | Align | Move |
+|---|-------|------|
+| Point pairs | 1 (translate only) or 2 (translate + rotate + scale) | 1 (translate only) |
+| Rotation | Yes, with a second point pair | No |
+| Scaling | Optional, with a second point pair | No |
+| Best for | Fitting one shape onto another using reference points | Simple repositioning |
+
+## Supported entities
+
+Align works on every entity type supported by Move, Rotate, and Scale — the same translate, rotate, and scale operations those commands use are applied in sequence, so nothing is excluded.
+
+---
+
 # Angle
 
 The `angle` command measures the interior angle at a vertex formed by two line segments through three clicked points. The result — always between 0° and 180° — is displayed in the terminal to 4 decimal places. It is one of three measurement commands — [Distance](./distance) measures straight-line length, and [Area](./area) measures the enclosed area and perimeter of a polygon.

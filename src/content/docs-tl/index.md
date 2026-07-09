@@ -31,6 +31,7 @@ Maligayang pagdating sa command reference ng **KulmanLab CAD**. Ang [KulmanLab C
 | [Rotate](./commands/rotate/) | I-rotate ang mga napiling entity sa paligid ng base point |
 | [Mirror](./commands/mirror/) | I-mirror ang mga napiling entity sa kabilang panig ng linya |
 | [Scale](./commands/scale/) | I-scale ang mga napiling entity mula sa base point |
+| [Align](./commands/align/) | I-translate, i-rotate, at i-scale nang opsyonal ang mga entity gamit ang point pairs |
 | [Delete](./commands/delete/) | Alisin ang mga napiling entity sa drawing |
 | [Trim](./commands/trim/) | Putulin ang line segment sa mga intersection nito |
 | [Extend](./commands/extend/) | Palawigin ang linya hanggang sa pinakamalapit na boundary intersection |

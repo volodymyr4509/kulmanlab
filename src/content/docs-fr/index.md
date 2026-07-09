@@ -31,6 +31,7 @@ Bienvenue dans la référence des commandes **KulmanLab CAD**. [KulmanLab CAD](h
 | [Rotate](./commands/rotate/) | Fait pivoter les entités sélectionnées autour d'un point de base |
 | [Mirror](./commands/mirror/) | Symétrise les entités sélectionnées par rapport à une ligne |
 | [Scale](./commands/scale/) | Met à l'échelle les entités sélectionnées autour d'un point de base |
+| [Align](./commands/align/) | Translate, fait pivoter et redimensionne des entités à l'aide de paires de points |
 | [Delete](./commands/delete/) | Supprime les entités sélectionnées du dessin |
 | [Trim](./commands/trim/) | Raccorde un segment de ligne à ses intersections |
 | [Extend](./commands/extend/) | Prolonge une ligne jusqu'à l'intersection limite la plus proche |

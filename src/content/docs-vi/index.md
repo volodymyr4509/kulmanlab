@@ -31,6 +31,7 @@ Chào mừng bạn đến với tài liệu tham khảo lệnh **KulmanLab CAD**
 | [Rotate](./commands/rotate/) | Xoay các đối tượng được chọn quanh điểm cơ sở |
 | [Mirror](./commands/mirror/) | Đối xứng các đối tượng được chọn qua một đường |
 | [Scale](./commands/scale/) | Thay đổi tỉ lệ các đối tượng được chọn quanh điểm cơ sở |
+| [Align](./commands/align/) | Dịch chuyển, xoay và tùy chọn thu phóng đối tượng bằng cặp điểm |
 | [Delete](./commands/delete/) | Xóa các đối tượng được chọn khỏi bản vẽ |
 | [Trim](./commands/trim/) | Cắt đoạn đường thẳng tại các giao điểm |
 | [Extend](./commands/extend/) | Kéo dài đường thẳng đến giao điểm ranh giới gần nhất |

@@ -31,6 +31,7 @@ Benvenuto nel riferimento comandi di **KulmanLab CAD**. [KulmanLab CAD](https://
 | [Rotate](./commands/rotate/) | Ruota le entità selezionate attorno a un punto base |
 | [Mirror](./commands/mirror/) | Riflette le entità selezionate rispetto a una linea |
 | [Scale](./commands/scale/) | Scala le entità selezionate attorno a un punto base |
+| [Align](./commands/align/) | Trasla, ruota e scala facoltativamente le entità usando coppie di punti |
 | [Delete](./commands/delete/) | Elimina le entità selezionate dal disegno |
 | [Trim](./commands/trim/) | Accorcia un segmento di linea alle sue intersezioni |
 | [Extend](./commands/extend/) | Prolunga una linea fino all'intersezione limite più vicina |

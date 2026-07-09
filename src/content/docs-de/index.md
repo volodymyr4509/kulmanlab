@@ -31,6 +31,7 @@ Willkommen bei der **KulmanLab CAD** Befehlsreferenz. [KulmanLab CAD](https://ku
 | [Rotate](./commands/rotate/) | Ausgewählte Elemente um einen Basispunkt drehen |
 | [Mirror](./commands/mirror/) | Ausgewählte Elemente an einer Linie spiegeln |
 | [Scale](./commands/scale/) | Ausgewählte Elemente um einen Basispunkt skalieren |
+| [Align](./commands/align/) | Elemente mit Punktpaaren verschieben, drehen und optional skalieren |
 | [Delete](./commands/delete/) | Ausgewählte Elemente aus der Zeichnung entfernen |
 | [Trim](./commands/trim/) | Liniensegment an seinen Schnittpunkten kürzen |
 | [Extend](./commands/extend/) | Linie bis zur nächsten Begrenzungsschnittlinie verlängern |

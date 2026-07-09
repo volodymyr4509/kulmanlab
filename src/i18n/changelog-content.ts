@@ -7,6 +7,19 @@ export type Release = {
 
 export const releases: Release[] = [
   {
+    version: '2026.07.09.cecea22',
+    date: 'July 9, 2026',
+    title: 'Align command: translate, rotate & scale with point pairs',
+    highlights: [
+      'New Align command repositions entities using one or two pairs of source/destination points — translate only with one pair, or translate + rotate + optional scale with two',
+      'One-point alignment (press Enter at the second source point) works exactly like Move — translate only, no rotation',
+      'Two-point alignment computes the rotation from the source and destination segment directions, then prompts Yes/No to also scale so the segment lengths match',
+      'Live canvas preview at every step: a ghost move preview while placing the first destination point, then a dashed rotated preview once both destination points are set',
+      'Accessible via the new Align button in the Edit toolbar panel, or by typing `align` (as few as `al` is enough) in the terminal',
+      'Fixed Align prompt wording to match the "pick" phrasing used by other commands',
+    ],
+  },
+  {
     version: '2026.07.07.dca1eff',
     date: 'July 7, 2026',
     title: 'Area measure command & toolbar icon refresh',
@@ -292,6 +305,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   en: releases.map(r => ({ title: r.title, highlights: r.highlights })),
   de: [
     {
+      title: 'Align-Befehl: Verschieben, Drehen & Skalieren mit Punktpaaren',
+      highlights: [
+        'Neuer Align-Befehl positioniert Objekte über ein oder zwei Quell-/Ziel-Punktpaare neu — nur Verschieben mit einem Paar, oder Verschieben + Drehen + optionales Skalieren mit zwei Paaren',
+        'Ausrichtung mit einem Punkt (Enter beim zweiten Quellpunkt) funktioniert genau wie Move — nur Verschieben, keine Drehung',
+        'Ausrichtung mit zwei Punkten berechnet die Drehung aus den Quell- und Zielrichtungen und fragt anschließend Ja/Nein, ob zusätzlich so skaliert werden soll, dass die Streckenlängen übereinstimmen',
+        'Live-Vorschau auf der Zeichenfläche bei jedem Schritt: eine Verschiebungs-Vorschau beim Setzen des ersten Zielpunkts, danach eine gestrichelte gedrehte Vorschau, sobald beide Zielpunkte gesetzt sind',
+        'Erreichbar über die neue Align-Schaltfläche im Bearbeiten-Symbolleistenpanel oder durch Eingabe von `align` (auch `al` genügt) im Terminal',
+        'Wortlaut des Align-Prompts an die „pick"-Formulierung anderer Befehle angeglichen',
+      ],
+    },
+    {
       title: 'Area-Messbefehl & Symbolleisten-Icon-Überarbeitung',
       highlights: [
         'Neuer Area-Befehl misst die eingeschlossene Fläche und den Umfang eines Polygons — 3 oder mehr Punkte klicken, dann Enter drücken, um die Form zu schließen',
@@ -535,6 +559,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   es: [
+    {
+      title: 'Comando Align: trasladar, rotar y escalar con pares de puntos',
+      highlights: [
+        'Nuevo comando Align reposiciona entidades usando uno o dos pares de puntos de origen/destino — solo traslada con un par, o traslada + rota + escala opcionalmente con dos pares',
+        'La alineación de un punto (presionando Enter en el segundo punto de origen) funciona exactamente como Move — solo traslación, sin rotación',
+        'La alineación de dos puntos calcula la rotación a partir de las direcciones de los segmentos de origen y destino, y luego pregunta Sí/No para también escalar de modo que coincidan las longitudes de los segmentos',
+        'Vista previa en vivo en el lienzo en cada paso: una vista previa de movimiento al colocar el primer punto de destino, y luego una vista previa rotada discontinua una vez colocados ambos puntos de destino',
+        'Accesible mediante el nuevo botón Align en el panel de herramientas Edit, o escribiendo `align` (basta con `al`) en el terminal',
+        'Se corrigió el texto del comando Align para que coincida con la frase "pick" usada por otros comandos',
+      ],
+    },
     {
       title: 'Comando de medición Area y renovación de iconos de la barra de herramientas',
       highlights: [
@@ -780,6 +815,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   fr: [
     {
+      title: 'Commande Align : translation, rotation & mise à l\'échelle par paires de points',
+      highlights: [
+        'Nouvelle commande Align repositionne les entités à l\'aide d\'une ou deux paires de points source/destination — translation seule avec une paire, ou translation + rotation + mise à l\'échelle facultative avec deux paires',
+        'L\'alignement à un point (Entrée au deuxième point source) fonctionne exactement comme Move — translation seule, sans rotation',
+        'L\'alignement à deux points calcule la rotation à partir des directions des segments source et destination, puis demande Oui/Non pour aussi mettre à l\'échelle afin que les longueurs des segments correspondent',
+        'Aperçu en direct sur le canevas à chaque étape : un aperçu de déplacement lors du placement du premier point de destination, puis un aperçu pivoté en pointillés une fois les deux points de destination placés',
+        'Accessible via le nouveau bouton Align du panneau d\'outils Edit, ou en tapant `align` (`al` suffit) dans le terminal',
+        'Correction du texte de l\'invite Align pour correspondre à la formulation « pick » des autres commandes',
+      ],
+    },
+    {
       title: 'Commande de mesure Area et refonte des icônes de la barre d\'outils',
       highlights: [
         'Nouvelle commande Area : mesure l\'aire délimitée et le périmètre d\'un polygone — cliquez sur 3 points ou plus, puis appuyez sur Entrée pour fermer la forme',
@@ -1022,6 +1068,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   it: [
+    {
+      title: 'Comando Align: traslazione, rotazione e scala con coppie di punti',
+      highlights: [
+        'Il nuovo comando Align riposiziona le entità usando una o due coppie di punti origine/destinazione — solo traslazione con una coppia, oppure traslazione + rotazione + scala facoltativa con due coppie',
+        'L\'allineamento a un punto (Invio al secondo punto origine) funziona esattamente come Move — solo traslazione, senza rotazione',
+        'L\'allineamento a due punti calcola la rotazione dalle direzioni dei segmenti origine e destinazione, poi chiede Sì/No per applicare anche la scala in modo che le lunghezze dei segmenti coincidano',
+        'Anteprima live sul canvas a ogni passaggio: un\'anteprima di spostamento durante il posizionamento del primo punto di destinazione, poi un\'anteprima ruotata tratteggiata una volta posizionati entrambi i punti di destinazione',
+        'Accessibile tramite il nuovo pulsante Align nel pannello degli strumenti Edit, oppure digitando `align` (basta `al`) nel terminale',
+        'Corretto il testo del prompt di Align per adeguarlo alla formulazione "pick" degli altri comandi',
+      ],
+    },
     {
       title: 'Comando di misurazione Area e rinnovamento delle icone della barra degli strumenti',
       highlights: [
@@ -1267,6 +1324,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   pt: [
     {
+      title: 'Comando Align: transladar, rodar e escalar com pares de pontos',
+      highlights: [
+        'O novo comando Align reposiciona entidades usando um ou dois pares de pontos de origem/destino — apenas translação com um par, ou translação + rotação + escala opcional com dois pares',
+        'O alinhamento de um ponto (Enter no segundo ponto de origem) funciona exatamente como o Move — apenas translação, sem rotação',
+        'O alinhamento de dois pontos calcula a rotação a partir das direções dos segmentos de origem e destino, depois pergunta Sim/Não para também escalar de modo que os comprimentos dos segmentos coincidam',
+        'Pré-visualização em tempo real no canvas em cada passo: uma pré-visualização de movimento ao colocar o primeiro ponto de destino, depois uma pré-visualização rodada tracejada assim que ambos os pontos de destino estão colocados',
+        'Acessível através do novo botão Align no painel de ferramentas Edit, ou digitando `align` (basta `al`) no terminal',
+        'Corrigido o texto do prompt do Align para corresponder à formulação "pick" usada pelos outros comandos',
+      ],
+    },
+    {
       title: 'Comando de medição Area e renovação dos ícones da barra de ferramentas',
       highlights: [
         'Novo comando Area: mede a área delimitada e o perímetro de um polígono — clique em 3 ou mais pontos e pressione Enter para fechar a forma',
@@ -1510,6 +1578,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   uk: [
+    {
+      title: 'Команда Align: перенесення, обертання та масштабування за парами точок',
+      highlights: [
+        'Нова команда Align переміщує об\'єкти за однією або двома парами точок джерела/призначення — лише перенесення з однією парою, або перенесення + обертання + опціональне масштабування з двома парами',
+        'Вирівнювання за однією точкою (Enter на другій точці джерела) працює точно як Move — лише перенесення, без обертання',
+        'Вирівнювання за двома точками обчислює кут обертання з напрямків відрізків джерела та призначення, а потім запитує Так/Ні щодо масштабування, аби довжини відрізків збіглися',
+        'Живий попередній перегляд на полотні на кожному кроці: попередній перегляд переміщення під час розміщення першої точки призначення, потім пунктирний обертовий попередній перегляд після встановлення обох точок призначення',
+        'Доступна через нову кнопку Align на панелі інструментів Edit, або введенням `align` (достатньо `al`) у терміналі',
+        'Виправлено текст підказки Align відповідно до формулювання "pick", яке використовується іншими командами',
+      ],
+    },
     {
       title: 'Команда вимірювання Area та оновлення піктограм панелі інструментів',
       highlights: [
@@ -1755,6 +1834,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   tr: [
     {
+      title: 'Align komutu: nokta çiftleriyle taşıma, döndürme ve ölçekleme',
+      highlights: [
+        'Yeni Align komutu, bir veya iki kaynak/hedef nokta çifti kullanarak nesneleri yeniden konumlandırır — tek çiftle yalnızca taşıma, iki çiftle taşıma + döndürme + isteğe bağlı ölçekleme',
+        'Tek nokta hizalama (ikinci kaynak noktasında Enter) tam olarak Move gibi çalışır — yalnızca taşıma, döndürme yok',
+        'İki nokta hizalama, kaynak ve hedef segment yönlerinden döndürmeyi hesaplar, ardından segment uzunluklarının eşleşmesi için ölçekleme yapılıp yapılmayacağını Evet/Hayır olarak sorar',
+        'Her adımda tuval üzerinde canlı önizleme: ilk hedef noktası yerleştirilirken bir taşıma önizlemesi, ardından her iki hedef noktası da ayarlandığında kesikli döndürülmüş bir önizleme',
+        'Edit araç çubuğu panelindeki yeni Align düğmesiyle veya terminale `align` (`al` yeterlidir) yazılarak erişilebilir',
+        'Align komut istemi metni, diğer komutların kullandığı "pick" ifadesiyle eşleşecek şekilde düzeltildi',
+      ],
+    },
+    {
       title: 'Area ölçüm komutu ve araç çubuğu simge yenilemesi',
       highlights: [
         'Yeni Area komutu, bir çokgenin kapladığı alanı ve çevresini ölçer — 3 veya daha fazla noktaya tıklayın, ardından şekli kapatmak için Enter tuşuna basın',
@@ -1998,6 +2088,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   zh: [
+    {
+      title: 'Align 命令：使用点对进行平移、旋转和缩放',
+      highlights: [
+        '新的 Align 命令使用一对或两对源/目标点重新定位实体——只用一对点时仅平移，用两对点时可平移+旋转+可选缩放',
+        '单点对齐（在第二个源点处按 Enter）与 Move 完全相同——仅平移，不旋转',
+        '双点对齐会根据源线段和目标线段的方向计算旋转角度，然后询问是/否，是否同时缩放以使线段长度一致',
+        '每一步都有实时画布预览：放置第一个目标点时显示移动预览，两个目标点都设置好后显示虚线旋转预览',
+        '可通过 Edit 工具栏面板中新增的 Align 按钮访问，或在命令行中输入 `align`（输入 `al` 即可）',
+        '修正了 Align 提示文字，使其与其他命令使用的 "pick" 措辞保持一致',
+      ],
+    },
     {
       title: 'Area 面积测量命令与工具栏图标更新',
       highlights: [
@@ -2243,6 +2344,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   hi: [
     {
+      title: 'Align कमांड: पॉइंट जोड़ों के साथ ट्रांसलेट, रोटेट और स्केल करें',
+      highlights: [
+        'नई Align कमांड एक या दो सोर्स/डेस्टिनेशन पॉइंट जोड़ों का उपयोग करके एंटिटीज़ को दोबारा स्थान देती है — एक जोड़े के साथ केवल ट्रांसलेट, या दो जोड़ों के साथ ट्रांसलेट + रोटेट + वैकल्पिक स्केल',
+        'सिंगल-पॉइंट एलाइनमेंट (दूसरे सोर्स पॉइंट पर Enter) बिल्कुल Move की तरह काम करता है — केवल ट्रांसलेट, कोई रोटेशन नहीं',
+        'टू-पॉइंट एलाइनमेंट सोर्स और डेस्टिनेशन सेगमेंट दिशाओं से रोटेशन की गणना करता है, फिर पूछता है Yes/No कि क्या सेगमेंट लंबाई मेल खाने के लिए स्केल भी किया जाए',
+        'हर चरण में कैनवास पर लाइव प्रीव्यू: पहला डेस्टिनेशन पॉइंट रखते समय एक मूव प्रीव्यू, फिर दोनों डेस्टिनेशन पॉइंट सेट होने के बाद एक डैश्ड घुमाया हुआ प्रीव्यू',
+        'Edit टूलबार पैनल में नए Align बटन के जरिए, या टर्मिनल में `align` (सिर्फ `al` काफी है) टाइप करके एक्सेस किया जा सकता है',
+        'Align प्रॉम्प्ट के टेक्स्ट को अन्य कमांड्स द्वारा इस्तेमाल की जाने वाली "pick" शब्दावली से मिलाया गया',
+      ],
+    },
+    {
       title: 'Area माप कमांड और टूलबार आइकन रीफ्रेश',
       highlights: [
         'नई Area कमांड एक बहुभुज का घिरा हुआ क्षेत्रफल और परिधि मापती है — 3 या अधिक बिंदुओं पर क्लिक करें, फिर आकृति बंद करने के लिए Enter दबाएं',
@@ -2486,6 +2598,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   ar: [
+    {
+      title: 'أمر Align: النقل والتدوير والتحجيم باستخدام أزواج النقاط',
+      highlights: [
+        'أمر Align الجديد يعيد وضع الكيانات باستخدام زوج واحد أو زوجين من نقاط المصدر/الوجهة — نقل فقط بزوج واحد، أو نقل + تدوير + تحجيم اختياري بزوجين',
+        'المحاذاة بنقطة واحدة (الضغط على Enter عند نقطة المصدر الثانية) تعمل تماماً مثل Move — نقل فقط، دون تدوير',
+        'المحاذاة بنقطتين تحسب زاوية التدوير من اتجاهي مقطع المصدر ومقطع الوجهة، ثم تسأل نعم/لا لتطبيق التحجيم أيضاً بحيث يتطابق طول المقطعين',
+        'معاينة حية على اللوحة في كل خطوة: معاينة نقل أثناء وضع نقطة الوجهة الأولى، ثم معاينة مدورة متقطعة بعد ضبط كلتا نقطتي الوجهة',
+        'يمكن الوصول إليه عبر زر Align الجديد في لوحة أدوات Edit، أو بكتابة `align` (يكفي `al`) في المحطة',
+        'تم تصحيح نص موجه Align ليطابق صياغة "pick" المستخدمة في الأوامر الأخرى',
+      ],
+    },
     {
       title: 'أمر قياس Area وتجديد أيقونات شريط الأدوات',
       highlights: [
@@ -2731,6 +2854,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   id: [
     {
+      title: 'Perintah Align: translasi, rotasi & skala dengan pasangan titik',
+      highlights: [
+        'Perintah Align baru memposisikan ulang entitas menggunakan satu atau dua pasang titik sumber/tujuan — hanya translasi dengan satu pasang, atau translasi + rotasi + skala opsional dengan dua pasang',
+        'Perataan satu titik (tekan Enter di titik sumber kedua) bekerja persis seperti Move — hanya translasi, tanpa rotasi',
+        'Perataan dua titik menghitung rotasi dari arah segmen sumber dan tujuan, lalu menanyakan Ya/Tidak untuk juga menskalakan agar panjang segmen cocok',
+        'Pratinjau langsung di kanvas pada setiap langkah: pratinjau perpindahan saat menempatkan titik tujuan pertama, lalu pratinjau berputar putus-putus setelah kedua titik tujuan ditempatkan',
+        'Dapat diakses melalui tombol Align baru di panel toolbar Edit, atau dengan mengetik `align` (`al` saja sudah cukup) di terminal',
+        'Memperbaiki teks prompt Align agar sesuai dengan kata "pick" yang digunakan perintah lain',
+      ],
+    },
+    {
       title: 'Perintah pengukuran Area & pembaruan ikon toolbar',
       highlights: [
         'Perintah Area baru mengukur luas yang tertutup dan keliling poligon — klik 3 titik atau lebih, lalu tekan Enter untuk menutup bentuk',
@@ -2974,6 +3108,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   ja: [
+    {
+      title: 'Align コマンド：点のペアで移動・回転・拡大縮小',
+      highlights: [
+        '新しい Align コマンドは、1組または2組の始点・終点ペアを使ってエンティティを再配置します — 1組なら移動のみ、2組なら移動＋回転＋任意の拡大縮小',
+        '1点合わせ（2番目の始点で Enter）は Move と全く同じ動作です — 回転なしの移動のみ',
+        '2点合わせでは、始点セグメントと終点セグメントの方向から回転角度を計算し、セグメントの長さを一致させるために拡大縮小するかどうかを Yes/No で尋ねます',
+        '各ステップでキャンバス上にライブプレビュー — 最初の終点を配置する際は移動プレビュー、両方の終点が設定された後は破線の回転プレビューを表示します',
+        'Edit ツールバーパネルの新しい Align ボタン、またはターミナルで `align`（`al` だけでも可）と入力することでアクセスできます',
+        'Align のプロンプト文言を他のコマンドと同じ「pick」という表現に合わせて修正しました',
+      ],
+    },
     {
       title: 'Area 計測コマンドとツールバーアイコンの刷新',
       highlights: [
@@ -3219,6 +3364,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   pl: [
     {
+      title: 'Polecenie Align: przesuwanie, obracanie i skalowanie za pomocą par punktów',
+      highlights: [
+        'Nowe polecenie Align zmienia położenie obiektów za pomocą jednej lub dwóch par punktów źródłowych/docelowych — samo przesunięcie przy jednej parze, lub przesunięcie + obrót + opcjonalne skalowanie przy dwóch parach',
+        'Wyrównanie za pomocą jednego punktu (Enter przy drugim punkcie źródłowym) działa dokładnie jak Move — tylko przesunięcie, bez obrotu',
+        'Wyrównanie za pomocą dwóch punktów oblicza obrót na podstawie kierunków odcinka źródłowego i docelowego, a następnie pyta Tak/Nie, czy dodatkowo przeskalować, aby długości odcinków się zgadzały',
+        'Podgląd na żywo na płótnie na każdym etapie: podgląd przesunięcia podczas umieszczania pierwszego punktu docelowego, a następnie przerywany obrócony podgląd po ustawieniu obu punktów docelowych',
+        'Dostępne poprzez nowy przycisk Align w panelu narzędzi Edit lub wpisując `align` (wystarczy `al`) w terminalu',
+        'Poprawiono tekst polecenia Align, aby dopasować go do sformułowania „pick" używanego przez inne polecenia',
+      ],
+    },
+    {
       title: 'Polecenie pomiaru Area i odświeżenie ikon paska narzędzi',
       highlights: [
         'Nowe polecenie Area mierzy pole powierzchni i obwód wielokąta — kliknij 3 lub więcej punktów, a następnie naciśnij Enter, aby zamknąć kształt',
@@ -3462,6 +3618,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   ko: [
+    {
+      title: 'Align 명령어: 점 쌍으로 이동, 회전, 크기 조정',
+      highlights: [
+        '새로운 Align 명령어는 하나 또는 두 개의 원본/대상 점 쌍을 사용해 엔티티를 재배치합니다 — 한 쌍이면 이동만, 두 쌍이면 이동 + 회전 + 선택적 크기 조정',
+        '한 점 정렬(두 번째 원본 점에서 Enter)은 Move와 완전히 동일하게 작동합니다 — 회전 없이 이동만',
+        '두 점 정렬은 원본과 대상 선분 방향에서 회전 각도를 계산한 다음, 선분 길이를 맞추기 위해 크기도 조정할지 예/아니오로 묻습니다',
+        '각 단계마다 캔버스에 실시간 미리보기가 표시됩니다: 첫 번째 대상 점을 배치할 때는 이동 미리보기, 두 대상 점이 모두 설정되면 점선으로 된 회전 미리보기',
+        'Edit 도구 모음 패널의 새로운 Align 버튼을 통해, 또는 터미널에 `align`(`al`만 입력해도 충분)을 입력하여 접근할 수 있습니다',
+        '다른 명령어에서 사용하는 "pick" 표현에 맞춰 Align 프롬프트 문구를 수정했습니다',
+      ],
+    },
     {
       title: 'Area 측정 명령어 및 도구 모음 아이콘 새 단장',
       highlights: [
@@ -3707,6 +3874,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   vi: [
     {
+      title: 'Lệnh Align: di chuyển, xoay & thu phóng bằng cặp điểm',
+      highlights: [
+        'Lệnh Align mới định vị lại các thực thể bằng một hoặc hai cặp điểm nguồn/đích — chỉ di chuyển với một cặp, hoặc di chuyển + xoay + thu phóng tùy chọn với hai cặp',
+        'Căn chỉnh một điểm (nhấn Enter tại điểm nguồn thứ hai) hoạt động giống hệt Move — chỉ di chuyển, không xoay',
+        'Căn chỉnh hai điểm tính toán góc xoay từ hướng của đoạn nguồn và đoạn đích, sau đó hỏi Có/Không để thu phóng thêm sao cho độ dài đoạn khớp nhau',
+        'Xem trước trực tiếp trên canvas ở mỗi bước: xem trước di chuyển khi đặt điểm đích đầu tiên, sau đó xem trước xoay dạng nét đứt khi cả hai điểm đích đã được đặt',
+        'Có thể truy cập qua nút Align mới trong bảng công cụ Edit, hoặc bằng cách gõ `align` (chỉ cần `al`) trong terminal',
+        'Đã sửa văn bản gợi ý của Align để khớp với cách diễn đạt "pick" được các lệnh khác sử dụng',
+      ],
+    },
+    {
       title: 'Lệnh đo Area & làm mới biểu tượng thanh công cụ',
       highlights: [
         'Lệnh Area mới đo diện tích khép kín và chu vi của một đa giác — bấm 3 điểm trở lên, sau đó nhấn Enter để khép kín hình dạng',
@@ -3950,6 +4128,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   th: [
+    {
+      title: 'คำสั่ง Align: ย้าย หมุน และปรับขนาดด้วยคู่จุด',
+      highlights: [
+        'คำสั่ง Align ใหม่จัดตำแหน่งเอนทิตีใหม่โดยใช้คู่จุดต้นทาง/ปลายทางหนึ่งหรือสองคู่ — ย้ายอย่างเดียวด้วยหนึ่งคู่ หรือย้าย + หมุน + ปรับขนาด (ไม่บังคับ) ด้วยสองคู่',
+        'การจัดแนวจุดเดียว (กด Enter ที่จุดต้นทางที่สอง) ทำงานเหมือน Move ทุกประการ — ย้ายอย่างเดียว ไม่มีการหมุน',
+        'การจัดแนวสองจุดจะคำนวณมุมหมุนจากทิศทางของส่วนต้นทางและปลายทาง จากนั้นถามใช่/ไม่ใช่ว่าจะปรับขนาดด้วยหรือไม่เพื่อให้ความยาวของส่วนตรงกัน',
+        'ตัวอย่างแบบสดบนแคนวาสในทุกขั้นตอน: ตัวอย่างการย้ายขณะวางจุดปลายทางแรก จากนั้นตัวอย่างการหมุนแบบเส้นประเมื่อวางจุดปลายทางทั้งสองแล้ว',
+        'เข้าถึงได้ผ่านปุ่ม Align ใหม่ในแผงเครื่องมือ Edit หรือพิมพ์ `align` (แค่ `al` ก็พอ) ในเทอร์มินัล',
+        'แก้ไขข้อความพร้อมท์ของ Align ให้ตรงกับถ้อยคำ "pick" ที่ใช้ในคำสั่งอื่น ๆ',
+      ],
+    },
     {
       title: 'คำสั่งวัด Area และการปรับปรุงไอคอนแถบเครื่องมือ',
       highlights: [
@@ -4195,6 +4384,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   ms: [
     {
+      title: 'Arahan Align: memindah, memutar & menskala dengan pasangan titik',
+      highlights: [
+        'Arahan Align baharu meletakkan semula entiti menggunakan satu atau dua pasang titik sumber/destinasi — hanya pergerakan dengan satu pasang, atau pergerakan + putaran + skala pilihan dengan dua pasang',
+        'Penjajaran satu titik (tekan Enter pada titik sumber kedua) berfungsi sama seperti Move — hanya pergerakan, tiada putaran',
+        'Penjajaran dua titik mengira putaran daripada arah segmen sumber dan destinasi, kemudian menanya Ya/Tidak untuk turut menskala supaya panjang segmen sepadan',
+        'Pratonton langsung pada kanvas pada setiap langkah: pratonton pergerakan semasa meletakkan titik destinasi pertama, kemudian pratonton berputar bergaris putus selepas kedua-dua titik destinasi ditetapkan',
+        'Boleh diakses melalui butang Align baharu dalam panel bar alat Edit, atau dengan menaip `align` (`al` sudah memadai) dalam terminal',
+        'Membetulkan teks gesaan Align supaya sepadan dengan ungkapan "pick" yang digunakan oleh arahan lain',
+      ],
+    },
+    {
       title: 'Arahan pengukuran Area & penyegaran ikon bar alat',
       highlights: [
         'Arahan Area baharu mengukur luas tertutup dan perimeter poligon — klik 3 titik atau lebih, kemudian tekan Enter untuk menutup bentuk',
@@ -4438,6 +4638,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   bn: [
+    {
+      title: 'Align কমান্ড: পয়েন্ট জোড়া দিয়ে ট্রান্সলেট, রোটেট ও স্কেল করুন',
+      highlights: [
+        'নতুন Align কমান্ড এক বা দুই জোড়া সোর্স/ডেস্টিনেশন পয়েন্ট ব্যবহার করে এনটিটি পুনঃস্থাপন করে — এক জোড়ায় শুধু ট্রান্সলেট, অথবা দুই জোড়ায় ট্রান্সলেট + রোটেট + ঐচ্ছিক স্কেল',
+        'সিঙ্গেল-পয়েন্ট অ্যালাইনমেন্ট (দ্বিতীয় সোর্স পয়েন্টে Enter) ঠিক Move-এর মতো কাজ করে — শুধু ট্রান্সলেট, কোনো রোটেশন নেই',
+        'টু-পয়েন্ট অ্যালাইনমেন্ট সোর্স ও ডেস্টিনেশন সেগমেন্টের দিক থেকে রোটেশন গণনা করে, তারপর জিজ্ঞাসা করে Yes/No যে সেগমেন্টের দৈর্ঘ্য মেলাতে স্কেলও করা হবে কিনা',
+        'প্রতিটি ধাপে ক্যানভাসে লাইভ প্রিভিউ: প্রথম ডেস্টিনেশন পয়েন্ট রাখার সময় একটি মুভ প্রিভিউ, তারপর উভয় ডেস্টিনেশন পয়েন্ট সেট হওয়ার পর একটি ড্যাশড ঘোরানো প্রিভিউ',
+        'Edit টুলবার প্যানেলের নতুন Align বাটনের মাধ্যমে, অথবা টার্মিনালে `align` (শুধু `al` লিখলেই যথেষ্ট) টাইপ করে অ্যাক্সেস করা যায়',
+        'অন্যান্য কমান্ডে ব্যবহৃত "pick" শব্দের সাথে মেলাতে Align প্রম্পটের টেক্সট ঠিক করা হয়েছে',
+      ],
+    },
     {
       title: 'Area পরিমাপ কমান্ড এবং টুলবার আইকন রিফ্রেশ',
       highlights: [
@@ -4703,6 +4914,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   sw: [
     {
+      title: 'Amri ya Align: kuhamisha, kuzungusha na kupima kwa jozi za pointi',
+      highlights: [
+        'Amri mpya ya Align huweka upya vitu kwa kutumia jozi moja au mbili za pointi za chanzo/marudio — kuhamisha tu kwa jozi moja, au kuhamisha + kuzungusha + kupima kwa hiari kwa jozi mbili',
+        'Kupatanisha kwa pointi moja (kubonyeza Enter kwenye pointi ya pili ya chanzo) hufanya kazi sawa na Move — kuhamisha tu, bila kuzungusha',
+        'Kupatanisha kwa pointi mbili huhesabu mzunguko kutoka mielekeo ya sehemu ya chanzo na marudio, kisha huuliza Ndiyo/Hapana kama pia upime ili urefu wa sehemu ulingane',
+        'Hakikisho la moja kwa moja kwenye turubai katika kila hatua: hakikisho la kuhamisha wakati wa kuweka pointi ya kwanza ya marudio, kisha hakikisho la kuzunguka lililokatika baada ya pointi zote mbili za marudio kuwekwa',
+        'Inafikiwa kupitia kitufe kipya cha Align kwenye paneli ya upau wa zana ya Edit, au kwa kuandika `align` (`al` pekee inatosha) kwenye terminal',
+        'Imerekebisha maandishi ya ishara ya Align kuendana na msamiati wa "pick" unaotumiwa na amri nyingine',
+      ],
+    },
+    {
       title: 'Amri ya kupima Area na uboreshaji wa aikoni za upau wa zana',
       highlights: [
         'Amri mpya ya Area hupima eneo lililofungwa na mzunguko wa poligoni — bonyeza pointi 3 au zaidi, kisha bonyeza Enter kufunga umbo',
@@ -4967,6 +5189,7 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
 
   ur: [
+    { title: 'Align کمانڈ: پوائنٹ جوڑوں کے ساتھ منتقلی، گردش اور اسکیل', highlights: ['نئی Align کمانڈ ایک یا دو سورس/ڈسٹینیشن پوائنٹ جوڑوں کا استعمال کرتے ہوئے اجزاء کو دوبارہ جگہ دیتی ہے — ایک جوڑے کے ساتھ صرف منتقلی، یا دو جوڑوں کے ساتھ منتقلی + گردش + اختیاری اسکیل', 'ایک پوائنٹ ترتیب (دوسرے سورس پوائنٹ پر Enter) بالکل Move کی طرح کام کرتی ہے — صرف منتقلی، کوئی گردش نہیں', 'دو پوائنٹ ترتیب سورس اور ڈسٹینیشن سیگمنٹ کی سمتوں سے گردش کا حساب لگاتی ہے، پھر پوچھتی ہے ہاں/نہیں کہ آیا سیگمنٹ کی لمبائی ملانے کے لیے اسکیل بھی کیا جائے', 'ہر مرحلے میں کینوس پر لائیو پیش نظارہ: پہلا ڈسٹینیشن پوائنٹ رکھتے وقت ایک موو پیش نظارہ، پھر دونوں ڈسٹینیشن پوائنٹس سیٹ ہونے کے بعد ایک ڈیشڈ گھمایا ہوا پیش نظارہ', 'Edit ٹول بار پینل میں نئے Align بٹن کے ذریعے، یا ٹرمینل میں `align` (صرف `al` کافی ہے) ٹائپ کر کے رسائی حاصل کی جا سکتی ہے', 'دیگر کمانڈز کے استعمال کردہ "pick" الفاظ سے مماثل بنانے کے لیے Align کے پرامپٹ کا متن درست کیا گیا'] },
     { title: 'Area پیمائش کمانڈ اور ٹول بار آئیکن کی تازہ کاری', highlights: ['نئی Area کمانڈ کثیرالاضلاع کا احاطہ شدہ رقبہ اور محیط ناپتی ہے — ۳ یا زیادہ نقاط پر کلک کریں، پھر شکل بند کرنے کے لیے Enter دبائیں', 'Area زاویہ لاک شدہ سمتی اندراج کو سپورٹ کرتی ہے: ترتیب دیے گئے زاویہ ٹریکنگ اضافے پر جم جاتی ہے اور درست کنارے کی لمبائی ٹائپ کرنے دیتی ہے', 'بند کیا گیا کثیرالاضلاع — بھرائی، خاکہ، اور ورٹیکس گرِپس — نتیجہ ختم ہونے تک کینوس پر نمایاں رہتا ہے', 'Measure پینل اب ۲×۲ گرڈ ہے: اوپری قطار میں Distance اور Angle، نچلی قطار میں Area', 'Distance اور Angle کے ٹول بار آئیکنز کو ڈیشڈ لائنوں کی بجائے ٹھوس لکیروں اور بھرے ہوئے ویج کے ساتھ دوبارہ ڈیزائن کیا گیا', 'Area ٹول بار آئیکن کو ورٹیکس پر سنیپ پوائنٹس کے ساتھ چیمفرڈ اسکوائر میں آسان بنایا گیا', 'کی بیج ظاہر ہونے پر ٹرمینل پرامپٹ ٹیکسٹ کے اچھلنے کا مسئلہ حل کیا گیا'] },
     { title: 'متن ایڈیٹر میں کاپی/پیسٹ، فیڈبیک بار اور تھیم کے مطابق تیر کے سر', highlights: ['متن ایڈیٹر: Ctrl/Cmd+C، Ctrl/Cmd+X، اور Ctrl/Cmd+V اب منتخب متن کاپی، کٹ اور پیسٹ کرتے ہیں', 'پیسٹ کیا گیا متن ہمیشہ کاپی کے وقت کی فارمیٹنگ کی بجائے کرسر پر پہلے سے موجود فارمیٹنگ اپناتا ہے؛ rich موڈ لائن بریک برقرار رکھتا ہے، simple موڈ (پیمائش لیبلز) انہیں ہٹا دیتا ہے', 'ٹول بار میں نیا فیڈبیک بار Reddit، GitHub Issues، اور ای میل سے لنک کرتا ہے — 10 منٹ استعمال کے بعد ظاہر ہوتا ہے اور بند کیا جا سکتا ہے', 'Properties پینل اور تیر کے سر پکر میں تیر کے سر کی پیش منظر اب ہمیشہ سفید کی بجائے تھیم کے مطابق رنگ میں دکھتی ہے', 'لائٹ تھیم میں ٹول بار پینل کیپشنز (مثلاً "STYLE"، "LAYERS") کے لیے بہتر کنٹراسٹ', 'ٹول بار میں کوآرڈینیٹ اور زوم ریڈ آؤٹ اب فکسڈ چوڑائی والے دائیں طرف سیدھ کیے کالم کی بجائے اپنے لیبلز کے قریب ہوتے ہیں'] },
     { title: 'ٹیکسٹ ایڈیٹر موڈز: rich اور simple', highlights: ['ٹیکسٹ ایڈیٹر ہیڈر اب موڈ چپ دکھاتا ہے — Text اور Multileader کے لیے "rich" (ایکسنٹ رنگ)، ڈائمنشن کے لیے "simple" (ہلکا)', 'کسی بھی لینیئر، الائنڈ، اینگولر، ریڈیس یا ڈائامیٹر ڈائمنشن پر ڈبل کلک کریں تاکہ لیبل ٹیکسٹ ایڈیٹر میں کھل جائے', 'Simple موڈ: ایڈیٹر موجودہ لیبل سے پہلے سے بھرا ہوتا ہے تاکہ ← / → سے کرسر رکھیں اور براہ راست ویلیو ترمیم کریں', 'Simple موڈ: Enter دبانے سے ویلیو محفوظ ہو کر ایڈیٹر بند ہو جاتا ہے — لائن بریک نہیں ڈالی جاتی', 'Simple موڈ: Bold، Italic، فونٹ اور اونچائی کی تبدیلیاں پورے ڈائمنشن لیبل پر یکساں لاگو ہوتی ہیں', 'Rich موڈ (Text, Multileader): فی حرف فارمیٹنگ، ملٹی لائن Enter اور ورڈ رَیپ پوری طرح سپورٹڈ رہتے ہیں', 'بلنکنگ کرسر ڈائمنشن ٹیکسٹ ایڈیٹر پاپ اَپ کے اندر اینی میٹ ہوتا ہے', 'ٹیکسٹ کرسر آفسیٹ درست کیا گیا — بعض فونٹ تبدیلیوں کے بعد 2× زیادہ اونچا رینڈر ہو رہا تھا'] },
@@ -4989,6 +5212,7 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
 
   el: [
+    { title: 'Εντολή Align: μετατόπιση, περιστροφή & κλιμάκωση με ζεύγη σημείων', highlights: ['Η νέα εντολή Align επανατοποθετεί οντότητες χρησιμοποιώντας ένα ή δύο ζεύγη σημείων πηγής/προορισμού — μόνο μετατόπιση με ένα ζεύγος, ή μετατόπιση + περιστροφή + προαιρετική κλιμάκωση με δύο ζεύγη', 'Η ευθυγράμμιση ενός σημείου (Enter στο δεύτερο σημείο πηγής) λειτουργεί ακριβώς όπως το Move — μόνο μετατόπιση, χωρίς περιστροφή', 'Η ευθυγράμμιση δύο σημείων υπολογίζει την περιστροφή από τις κατευθύνσεις των τμημάτων πηγής και προορισμού, και έπειτα ρωτά Ναι/Όχι για να εφαρμοστεί επίσης κλιμάκωση ώστε τα μήκη των τμημάτων να ταιριάζουν', 'Ζωντανή προεπισκόπηση στον καμβά σε κάθε βήμα: προεπισκόπηση μετακίνησης κατά την τοποθέτηση του πρώτου σημείου προορισμού, έπειτα διακεκομμένη περιστραμμένη προεπισκόπηση μόλις οριστούν και τα δύο σημεία προορισμού', 'Προσβάσιμη μέσω του νέου κουμπιού Align στο πάνελ εργαλείων Edit, ή πληκτρολογώντας `align` (αρκεί το `al`) στο τερματικό', 'Διορθώθηκε το κείμενο της προτροπής Align ώστε να ταιριάζει με τη διατύπωση "pick" που χρησιμοποιούν οι άλλες εντολές'] },
     { title: 'Εντολή μέτρησης Area & ανανέωση εικονιδίων γραμμής εργαλείων', highlights: ['Η νέα εντολή Area μετρά το εμβαδόν και την περίμετρο ενός πολυγώνου — κάντε κλικ σε 3 ή περισσότερα σημεία, μετά πατήστε Enter για να κλείσετε το σχήμα', 'Το Area υποστηρίζει κατευθυντική εισαγωγή με κλείδωμα γωνίας: προσκολλάται στην ρυθμισμένη προσαύξηση παρακολούθησης γωνίας και επιτρέπει την πληκτρολόγηση ακριβούς μήκους πλευράς', 'Το κλειστό πολύγωνο — γέμισμα, περίγραμμα και λαβές κορυφών — παραμένει επισημασμένο στον καμβά μέχρι να απορριφθεί το αποτέλεσμα', 'Ο πίνακας Measure είναι πλέον πλέγμα 2×2: Distance και Angle στην πάνω σειρά, Area στην κάτω σειρά', 'Τα εικονίδια γραμμής εργαλείων Distance και Angle ανασχεδιάστηκαν με συνεχείς γραμμές και γεμισμένη σφήνα αντί για διακεκομμένες γραμμές', 'Το εικονίδιο γραμμής εργαλείων Area απλοποιήθηκε σε ένα τετράγωνο με λοξότμητες γωνίες και σημεία προσκόλλησης στις κορυφές', 'Διορθώθηκε το άλμα του κειμένου προτροπής τερματικού όταν εμφανίζεται το σήμα πλήκτρου'] },
     { title: 'Αντιγραφή/επικόλληση στον επεξεργαστή κειμένου, γραμμή σχολίων & βέλη προσαρμοσμένα στο θέμα', highlights: ['Επεξεργαστής κειμένου: Ctrl/Cmd+C, Ctrl/Cmd+X και Ctrl/Cmd+V πλέον αντιγράφουν, αποκόπτουν και επικολλούν το επιλεγμένο κείμενο', 'Το επικολλημένο κείμενο παίρνει πάντα τη μορφοποίηση που υπάρχει ήδη στον κέρσορα αντί να διατηρεί αυτή που είχε όταν αντιγράφηκε· η λειτουργία rich διατηρεί τις αλλαγές γραμμής, η λειτουργία simple (ετικέτες διαστάσεων) τις αφαιρεί', 'Νέα γραμμή σχολίων στη γραμμή εργαλείων συνδέει με Reddit, GitHub Issues και email — εμφανίζεται μετά από 10 λεπτά χρήσης και μπορεί να κλείσει', 'Οι προεπισκοπήσεις βέλους στον πίνακα ιδιοτήτων και στον επιλογέα βέλους πλέον αποδίδονται με χρώμα ανάλογο του θέματος αντί για πάντα λευκό', 'Βελτιωμένη αντίθεση για τις ετικέτες πάνελ της γραμμής εργαλείων (π.χ. "STYLE", "LAYERS") στο ανοιχτόχρωμο θέμα', 'Η ένδειξη συντεταγμένων και ζουμ στη γραμμή εργαλείων είναι πλέον πιο κοντά στις ετικέτες της, αντί για στήλη σταθερού πλάτους στοιχισμένη δεξιά'] },
     { title: 'Λειτουργίες επεξεργαστή κειμένου: rich και simple', highlights: ['Ο τίτλος του επεξεργαστή κειμένου εμφανίζει πλέον chip λειτουργίας — "rich" (χρώμα έμφασης) για Text και Multileader, "simple" (αχνό) για οντότητες διαστάσεων', 'Διπλό κλικ σε οποιαδήποτε γραμμική, ευθυγραμμισμένη, γωνιακή, ακτίνας ή διαμέτρου διάσταση για να ανοίξει η ετικέτα στον επεξεργαστή', 'Λειτουργία simple: ο επεξεργαστής προ-συμπληρώνεται με την τρέχουσα ετικέτα ώστε να τοποθετείτε τον κέρσορα με ← / → και να επεξεργάζεστε την τιμή άμεσα', 'Λειτουργία simple: το Enter επιβεβαιώνει την τιμή και κλείνει τον επεξεργαστή — δεν εισάγεται αλλαγή γραμμής', 'Λειτουργία simple: αλλαγές έντονης γραφής, πλάγιας γραφής, γραμματοσειράς και ύψους εφαρμόζονται σε ολόκληρη την ετικέτα διάστασης', 'Λειτουργία rich (Text, Multileader): μορφοποίηση ανά χαρακτήρα, πολύ-γραμμές Enter και αναδίπλωση λέξεων παραμένουν πλήρως υποστηριζόμενα', 'Ο αναβοσβήνον κέρσορας εμφανίζει πλέον animation μέσα στο αναδυόμενο παράθυρο του επεξεργαστή κειμένου διαστάσεων', 'Η απόκλιση κέρσορα κειμένου διορθώθηκε — αποδιδόταν έως 2× πολύ ψηλά μετά από ορισμένες αλλαγές γραμματοσειράς'] },
@@ -5010,6 +5234,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     { title: 'Αναβάθμιση Angular, τεκμηρίωση & προσαρμοστικό πλέγμα', highlights: ['Αναβάθμιση Angular 19 → 20 → 21', 'Πλήρης ιστότοπος τεκμηρίωσης εντολών', 'Προσαρμοστικό πλέγμα CAD', 'Πίνακας ιστορικού (Αναίρεση / Ιστορικό / Επανάληψη)'] },
   ],
   pa: [
+    {
+      title: 'Align ਕਮਾਂਡ: ਪੁਆਇੰਟ ਜੋੜਿਆਂ ਨਾਲ ਟ੍ਰਾਂਸਲੇਟ, ਰੋਟੇਟ ਅਤੇ ਸਕੇਲ ਕਰੋ',
+      highlights: [
+        'ਨਵੀਂ Align ਕਮਾਂਡ ਇੱਕ ਜਾਂ ਦੋ ਸੋਰਸ/ਡੈਸਟੀਨੇਸ਼ਨ ਪੁਆਇੰਟ ਜੋੜਿਆਂ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਵਸਤੂਆਂ ਨੂੰ ਦੁਬਾਰਾ ਸਥਾਪਿਤ ਕਰਦੀ ਹੈ — ਇੱਕ ਜੋੜੇ ਨਾਲ ਸਿਰਫ਼ ਟ੍ਰਾਂਸਲੇਟ, ਜਾਂ ਦੋ ਜੋੜਿਆਂ ਨਾਲ ਟ੍ਰਾਂਸਲੇਟ + ਰੋਟੇਟ + ਵਿਕਲਪਿਕ ਸਕੇਲ',
+        'ਸਿੰਗਲ-ਪੁਆਇੰਟ ਅਲਾਈਨਮੈਂਟ (ਦੂਜੇ ਸੋਰਸ ਪੁਆਇੰਟ ਉੱਤੇ Enter) ਬਿਲਕੁਲ Move ਵਾਂਗ ਕੰਮ ਕਰਦੀ ਹੈ — ਸਿਰਫ਼ ਟ੍ਰਾਂਸਲੇਟ, ਕੋਈ ਰੋਟੇਸ਼ਨ ਨਹੀਂ',
+        'ਟੂ-ਪੁਆਇੰਟ ਅਲਾਈਨਮੈਂਟ ਸੋਰਸ ਅਤੇ ਡੈਸਟੀਨੇਸ਼ਨ ਸੈਗਮੈਂਟ ਦਿਸ਼ਾਵਾਂ ਤੋਂ ਰੋਟੇਸ਼ਨ ਦੀ ਗਣਨਾ ਕਰਦੀ ਹੈ, ਫਿਰ ਪੁੱਛਦੀ ਹੈ ਹਾਂ/ਨਹੀਂ ਕਿ ਕੀ ਸੈਗਮੈਂਟ ਦੀ ਲੰਬਾਈ ਮਿਲਾਉਣ ਲਈ ਸਕੇਲ ਵੀ ਕੀਤਾ ਜਾਵੇ',
+        'ਹਰ ਕਦਮ ਉੱਤੇ ਕੈਨਵਸ ਉੱਤੇ ਲਾਈਵ ਪ੍ਰੀਵਿਊ: ਪਹਿਲਾ ਡੈਸਟੀਨੇਸ਼ਨ ਪੁਆਇੰਟ ਰੱਖਦੇ ਸਮੇਂ ਇੱਕ ਮੂਵ ਪ੍ਰੀਵਿਊ, ਫਿਰ ਦੋਵੇਂ ਡੈਸਟੀਨੇਸ਼ਨ ਪੁਆਇੰਟ ਸੈੱਟ ਹੋਣ ਤੋਂ ਬਾਅਦ ਇੱਕ ਡੈਸ਼ਡ ਘੁੰਮਾਇਆ ਪ੍ਰੀਵਿਊ',
+        'Edit ਟੂਲਬਾਰ ਪੈਨਲ ਵਿੱਚ ਨਵੇਂ Align ਬਟਨ ਰਾਹੀਂ, ਜਾਂ ਟਰਮੀਨਲ ਵਿੱਚ `align` (ਸਿਰਫ਼ `al` ਕਾਫ਼ੀ ਹੈ) ਟਾਈਪ ਕਰਕੇ ਪਹੁੰਚਿਆ ਜਾ ਸਕਦਾ ਹੈ',
+        'ਹੋਰ ਕਮਾਂਡਾਂ ਦੁਆਰਾ ਵਰਤੇ ਜਾਂਦੇ "pick" ਸ਼ਬਦਾਵਲੀ ਨਾਲ ਮੇਲ ਖਾਣ ਲਈ Align ਪ੍ਰੌਂਪਟ ਦਾ ਟੈਕਸਟ ਠੀਕ ਕੀਤਾ ਗਿਆ',
+      ],
+    },
     {
       title: 'Area ਮਾਪ ਕਮਾਂਡ ਅਤੇ ਟੂਲਬਾਰ ਆਈਕਨ ਰਿਫ੍ਰੈਸ਼',
       highlights: [
@@ -5255,6 +5490,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   sv: [
     {
+      title: 'Align-kommandot: flytta, rotera & skala med punktpar',
+      highlights: [
+        'Nya Align-kommandot placerar om entiteter med hjälp av ett eller två käll-/målpunktpar — enbart förflyttning med ett par, eller förflyttning + rotation + valfri skalning med två par',
+        'Enpunktsjustering (Enter vid den andra källpunkten) fungerar precis som Move — enbart förflyttning, ingen rotation',
+        'Tvåpunktsjustering beräknar rotationen utifrån käll- och målsegmentens riktningar och frågar sedan Ja/Nej om skalning också ska tillämpas så att segmentlängderna matchar',
+        'Live förhandsvisning på ritytan vid varje steg: en förhandsvisning av förflyttningen när den första målpunkten placeras, sedan en streckad roterad förhandsvisning när båda målpunkterna har angetts',
+        'Nås via den nya Align-knappen i verktygsfältspanelen Edit, eller genom att skriva `align` (det räcker med `al`) i terminalen',
+        'Rättade Align-promptens text så att den matchar ordvalet "pick" som används av andra kommandon',
+      ],
+    },
+    {
       title: 'Area-mätkommando & uppdaterade verktygsfältsikoner',
       highlights: [
         'Nya Area-kommandot mäter den inneslutna arean och omkretsen av en polygon — klicka på 3 eller fler punkter, tryck sedan Enter för att stänga formen',
@@ -5498,6 +5744,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   tl: [
+    {
+      title: 'Align command: paglipat, pag-ikot, at pag-scale gamit ang mga pares ng punto',
+      highlights: [
+        'Ang bagong Align command ay muling naglalagay ng mga entity gamit ang isa o dalawang pares ng source/destination point — paglipat lamang gamit ang isang pares, o paglipat + pag-ikot + opsyonal na pag-scale gamit ang dalawang pares',
+        'Ang single-point na pag-align (pindutin ang Enter sa ikalawang source point) ay gumagana nang eksaktong tulad ng Move — paglipat lamang, walang pag-ikot',
+        'Kinakalkula ng two-point na pag-align ang pag-ikot mula sa direksyon ng source at destination segment, pagkatapos ay itatanong ang Yes/No kung i-scale din para magtugma ang haba ng segment',
+        'Live na preview sa canvas sa bawat hakbang: preview ng paglipat habang inilalagay ang unang destination point, pagkatapos ay dashed na naka-ikot na preview kapag nailagay na ang parehong destination point',
+        'Naa-access sa pamamagitan ng bagong Align button sa Edit toolbar panel, o sa pag-type ng `align` (sapat na ang `al`) sa terminal',
+        'Inayos ang text ng Align prompt para tumugma sa "pick" na parirala na ginagamit ng ibang command',
+      ],
+    },
     {
       title: 'Area measurement command at pag-refresh ng mga toolbar icon',
       highlights: [

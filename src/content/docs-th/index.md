@@ -31,6 +31,7 @@ keywords: [KulmanLab, KulmanLab CAD, คำสั่ง CAD, CAD ฟรีใน
 | [Rotate](./commands/rotate/) | หมุนวัตถุที่เลือกรอบจุดฐาน |
 | [Mirror](./commands/mirror/) | สะท้อนวัตถุที่เลือกข้ามเส้น |
 | [Scale](./commands/scale/) | ปรับมาตราส่วนวัตถุที่เลือกรอบจุดฐาน |
+| [Align](./commands/align/) | ย้าย หมุน และปรับขนาด (ไม่บังคับ) วัตถุด้วยคู่จุด |
 | [Delete](./commands/delete/) | ลบวัตถุที่เลือกออกจากภาพวาด |
 | [Trim](./commands/trim/) | ตัดส่วนของเส้นที่จุดตัด |
 | [Extend](./commands/extend/) | ยืดเส้นไปยังจุดตัดขอบเขตที่ใกล้ที่สุด |

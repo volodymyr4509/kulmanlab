@@ -497,6 +497,7 @@ const sidebar = [
       { label: 'Rotate', href: `${base}/commands/rotate/` },
       { label: 'Mirror', href: `${base}/commands/mirror/` },
       { label: 'Scale', href: `${base}/commands/scale/` },
+      { label: 'Align', href: `${base}/commands/align/` },
       { label: 'Delete', href: `${base}/commands/delete/` },
       { label: 'Trim', href: `${base}/commands/trim/` },
       { label: 'Extend', href: `${base}/commands/extend/` },
@@ -660,7 +661,7 @@ const sidebar = [
         <!-- Overview (always visible, not collapsible) -->
         <div class="mb-2">
           {sidebar[0].items.map(item => {
-            const active = currentPath === item.href;
+            const active = currentPath === item.href.replace(/\/$/, '');
             return (
               <a
                 href={item.href}
@@ -681,7 +682,7 @@ const sidebar = [
 
         <!-- Collapsible sections -->
         {sidebar.slice(1).map(group => {
-          const isOpen = group.items.some(item => currentPath === item.href);
+          const isOpen = group.items.some(item => currentPath === item.href.replace(/\/$/, ''));
           return (
             <details open={isOpen} class="group mb-1">
               <summary class="flex cursor-pointer list-none items-center gap-2 rounded px-3 py-1.5 text-xs font-semibold uppercase tracking-widest text-slate-500 hover:text-slate-300 transition-colors select-none">
@@ -696,7 +697,7 @@ const sidebar = [
               </summary>
               <ul class="ml-3 mt-0.5 border-l border-slate-800 pl-3">
                 {group.items.map(item => {
-                  const active = currentPath === item.href;
+                  const active = currentPath === item.href.replace(/\/$/, '');
                   return (
                     <li>
                       <a

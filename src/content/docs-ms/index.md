@@ -31,6 +31,7 @@ Selamat datang ke rujukan arahan **KulmanLab CAD**. [KulmanLab CAD](https://kulm
 | [Rotate](./commands/rotate/) | Putarkan entiti yang dipilih di sekitar titik asas |
 | [Mirror](./commands/mirror/) | Cerminkan entiti yang dipilih merentasi satu garis |
 | [Scale](./commands/scale/) | Skala entiti yang dipilih di sekitar titik asas |
+| [Align](./commands/align/) | Pindah, putar, dan skala entiti secara pilihan menggunakan pasangan titik |
 | [Delete](./commands/delete/) | Buang entiti yang dipilih daripada lukisan |
 | [Trim](./commands/trim/) | Potong segmen garis pada persilangannya |
 | [Extend](./commands/extend/) | Panjangkan garis ke persimpangan sempadan terdekat |

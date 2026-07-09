@@ -31,6 +31,7 @@ Selamat datang di referensi perintah **KulmanLab CAD**. [KulmanLab CAD](https://
 | [Rotate](./commands/rotate/) | Memutar entitas yang dipilih di sekitar titik dasar |
 | [Mirror](./commands/mirror/) | Mencerminkan entitas yang dipilih melintasi garis |
 | [Scale](./commands/scale/) | Mengubah skala entitas yang dipilih di sekitar titik dasar |
+| [Align](./commands/align/) | Menerjemahkan, memutar, dan menskala opsional entitas menggunakan pasangan titik |
 | [Delete](./commands/delete/) | Menghapus entitas yang dipilih dari gambar |
 | [Trim](./commands/trim/) | Memotong segmen garis pada perpotongannya |
 | [Extend](./commands/extend/) | Memperpanjang garis ke perpotongan batas terdekat |

@@ -31,6 +31,7 @@ keywords: [KulmanLab, KulmanLab CAD, أوامر CAD, برنامج CAD مجاني
 | [Rotate](./commands/rotate/) | تدوير العناصر المحددة حول نقطة أساس |
 | [Mirror](./commands/mirror/) | قلب العناصر المحددة عبر خط |
 | [Scale](./commands/scale/) | تغيير مقياس العناصر المحددة حول نقطة أساس |
+| [Align](./commands/align/) | نقل وتدوير وتحجيم اختياري للعناصر باستخدام أزواج النقاط |
 | [Delete](./commands/delete/) | حذف العناصر المحددة من الرسم |
 | [Trim](./commands/trim/) | قص مقطع خط عند تقاطعاته |
 | [Extend](./commands/extend/) | تمديد خط إلى أقرب تقاطع حدودي |

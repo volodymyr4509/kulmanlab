@@ -31,6 +31,7 @@ keywords: [KulmanLab, KulmanLab CAD, CAD کمانڈز, مفت براؤزر CAD, 
 | [Rotate](./commands/rotate/) | ایک بنیادی نقطے کے گرد منتخب اشیاء کو گھمائیں |
 | [Mirror](./commands/mirror/) | ایک لائن کے پار منتخب اشیاء کا آئینہ بنائیں |
 | [Scale](./commands/scale/) | ایک بنیادی نقطے کے گرد منتخب اشیاء کا پیمانہ تبدیل کریں |
+| [Align](./commands/align/) | پوائنٹ جوڑوں کا استعمال کرتے ہوئے اشیاء منتقل، گھمائیں اور اختیاری طور پر اسکیل کریں |
 | [Delete](./commands/delete/) | ڈرائنگ سے منتخب اشیاء حذف کریں |
 | [Trim](./commands/trim/) | لائن سیگمنٹ کو اس کے تقاطع پر تراشیں |
 | [Extend](./commands/extend/) | قریب ترین سرحدی تقاطع تک لائن کو بڑھائیں |

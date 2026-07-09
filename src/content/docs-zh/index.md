@@ -31,6 +31,7 @@ keywords: [KulmanLab, KulmanLab CAD, CAD 命令, 免费浏览器 CAD, DXF 在线
 | [Rotate](./commands/rotate/) | 将选中图元绕基点旋转 |
 | [Mirror](./commands/mirror/) | 将选中图元沿直线镜像 |
 | [Scale](./commands/scale/) | 将选中图元绕基点缩放 |
+| [Align](./commands/align/) | 使用点对平移、旋转并可选缩放图元 |
 | [Delete](./commands/delete/) | 从图形中删除选中图元 |
 | [Trim](./commands/trim/) | 在交点处修剪线段 |
 | [Extend](./commands/extend/) | 将直线延伸到最近的边界交点 |

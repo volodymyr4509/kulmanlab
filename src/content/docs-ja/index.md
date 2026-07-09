@@ -31,6 +31,7 @@ keywords: [KulmanLab, KulmanLab CAD, CADコマンド, 無料ブラウザCAD, DXF
 | [Rotate](./commands/rotate/) | 基点を中心に選択エンティティを回転する |
 | [Mirror](./commands/mirror/) | 軸を基準に選択エンティティを鏡像複製する |
 | [Scale](./commands/scale/) | 基点を中心に選択エンティティを拡大縮小する |
+| [Align](./commands/align/) | 点のペアを使ってエンティティを移動・回転・任意で拡大縮小する |
 | [Delete](./commands/delete/) | 選択エンティティを図面から削除する |
 | [Trim](./commands/trim/) | 交点で直線セグメントをトリムする |
 | [Extend](./commands/extend/) | 直線を最近傍の境界交点まで延長する |
