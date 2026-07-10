@@ -80,6 +80,7 @@ KulmanLab is a free, browser-based 2D CAD editor. No installation, no account, n
 - Grip editing on all entity types — drag endpoints, midpoints, arc ends, dimension text
 - Snapping: endpoint, midpoint, center, intersection, perpendicular, tangent, nearest, grid
 - Angle tracking with configurable increments (10°, 15°, 20°, 30°, 45°, 90°)
+- Vector pins: hover a snap point to pin it and track along its reference lines
 - Layout / paper space with multiple layouts and viewport editing
 - Print manager: PDF and PNG/WebP export with DPI control
 - On-canvas text editing (MTEXT) with Bold, Italic, per-character font and size
@@ -3782,5 +3783,37 @@ Press `Enter` to insert a hard line break. Each hard line is independent — `Ho
 ## DXF compatibility
 
 Text entities are stored as **MTEXT** in DXF files. Bold and italic are encoded as `\L`, `\K`, `\O`, and inline font switches (`\f`). Per-character height is encoded as `\H`. All formatting is preserved on export and readable by AutoCAD, LibreCAD, and other DXF-compatible applications.
+
+---
+
+# Vector Pins
+
+Vector Pins are a drawing aid that lets you align new geometry with existing points without drawing construction lines — KulmanLab CAD's equivalent of object snap tracking. The feature is controlled by the **Pins** toggle in the control bar (next to Grid, Snap, and ANGL). It is on by default and the setting persists across sessions.
+
+## Pinning a point
+
+Hover a snap point (endpoint, midpoint, or center marker) for **500 ms** during a command — the marker turns into a filled accent square and the point is pinned. Hovering a grip of a selected entity outside a command pins it the same way. Pin as many points as needed.
+
+## Tracking along reference lines
+
+Every pinned point projects two invisible reference lines — one horizontal and one vertical — through its exact coordinates:
+
+- Within 12 px of a pin's vertical line the cursor snaps onto it: a dashed accent line is drawn through the pin across the whole view, with an X marker at the snapped position. The X coordinate is exactly the pin's X.
+- The same applies to the horizontal line for the pin's Y coordinate.
+- Near one line of each orientation — even from two different pins — the cursor snaps to their intersection, placing a point exactly at (X of pin A, Y of pin B).
+
+Snapped coordinates are taken directly from the pin, so alignment is exact.
+
+## Snap priority
+
+Regular geometry snaps (endpoint, midpoint, center, intersection) take precedence over pin reference lines — if a point snap is closer, it wins. Pin tracking fills the gaps between geometry, it never blocks snapping to the geometry itself.
+
+## Combining with angle lock
+
+When a command has locked the cursor to an angle-tracking ray (the ANGL toggle), pin snapping switches to targeting the intersections of the locked ray with the pin reference lines (only ahead of the ray origin). Ray snapping works in every command with angle locking: Line, Polyline, Arc, Circle, Move, Copy, Area, Leader, and ViewportCopy.
+
+## Pin lifecycle
+
+All pins are cleared when a new command fires, when Escape is pressed, when the Pins toggle is switched off, or when switching between model and paper space. Within a single command you can pin, draw, pin again — pins survive every click of a multi-point command such as Polyline.
 
 ---
