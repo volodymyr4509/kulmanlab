@@ -1,8 +1,9 @@
 ---
-sidebar_position: 10
 title: Amri ya Extend — Nyoosha Mwisho wa Mstari Hadi Mpaka wa Karibu Zaidi katika KulmanLab CAD
 description: "Amri ya Extend hunyoosha mwisho wa karibu wa Mstari ulioegemewa hadi makutano ya karibu zaidi na kiumbe kingine. Hakikisho la moja kwa moja linaonyesha mstari ulionyooshwa kabla ya kubonyeza. Extend inafanya kazi kwenye viumbe vya Line pekee na hupuuza Text, Spline, na Multileader kama mipaka."
 keywords: [CAD extend command, extend line CAD, stretch line to boundary, line endpoint extend, hover extend preview, kulmanlab]
+group: edit
+order: 9
 ---
 
 # Extend

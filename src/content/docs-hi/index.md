@@ -2,6 +2,8 @@
 title: KulmanLab CAD — कमांड संदर्भ
 description: KulmanLab CAD कमांड संदर्भ — KulmanLab CAD में हर ड्राइंग, संपादन, मार्कअप, लेयर, माप और फ़ाइल कमांड के लिए पूर्ण गाइड।
 keywords: [KulmanLab, KulmanLab CAD, CAD कमांड, मुफ़्त ब्राउज़र CAD, DXF एडिटर ऑनलाइन, ड्राइंग कमांड, kulmanlab]
+group: overview
+order: 1
 ---
 
 # KulmanLab CAD — कमांड संदर्भ

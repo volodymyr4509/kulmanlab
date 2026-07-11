@@ -1,6 +1,8 @@
 ---
 title: Lệnh PageManager — Chỉnh Sửa Kích Thước Giấy và Tỉ Lệ Bố Cục trong KulmanLab CAD
 description: Lệnh PageManager mở bảng cài đặt trang cho bố cục đang hoạt động, nơi bạn có thể thay đổi định dạng giấy, hướng và tỉ lệ đơn vị bản vẽ.
+group: layouts
+order: 3
 ---
 
 # PageManager

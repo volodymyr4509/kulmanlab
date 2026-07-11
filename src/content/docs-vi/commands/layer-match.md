@@ -1,6 +1,8 @@
 ---
 title: LayerMatch — Gán Lại Lớp Thực Thể để Khớp với Nguồn trong KulmanLab CAD
 description: Lệnh LayerMatch gán lại lớp của một hoặc nhiều thực thể mục tiêu để khớp với lớp của thực thể nguồn bạn nhấp.
+group: layer
+order: 2
 ---
 
 # LayerMatch

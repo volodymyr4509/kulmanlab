@@ -1,6 +1,8 @@
 ---
 title: Trình Soạn Thảo Văn Bản — Chế Độ Phong Phú và Đơn Giản trong KulmanLab CAD
 description: Trình soạn thảo văn bản KulmanLab CAD có hai chế độ — phong phú (định dạng theo ký tự, nhiều dòng, tự động xuống dòng cho Văn Bản và Đường Dẫn Đa) và đơn giản (kiểu thống nhất, một dòng cho các thực thể kích thước). Chip chế độ trong tiêu đề hiển thị chế độ nào đang hoạt động.
+group: interface
+order: 5
 ---
 
 # Trình Soạn Thảo Văn Bản

@@ -2,6 +2,8 @@
 title: ViewportCopy-kommandot — Duplicera en viewport i KulmanLab CAD
 description: ViewportCopy-kommandot duplicerar en markerad viewport till en ny position i samma layout, med bevarad skala och modellvyinställningar. Stöder exakt koordinatinmatning, vinkellås och skriven avståndsinmatning.
 keywords: [kopiera viewport, duplicera viewport, kopiera viewportlayout, vinkellås viewport, exakt koordinat viewport, kulmanlab]
+group: layouts
+order: 2
 ---
 
 # ViewportCopy

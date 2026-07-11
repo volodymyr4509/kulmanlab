@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Comando Undo — Tornare Indietro nella Cronologia del Disegno in KulmanLab CAD
 description: Il comando Undo inverte l'ultima azione di disegno uno step alla volta. Fino a 20 step sono memorizzati per file e persistiti nel browser tra i ricaricamenti della pagina. Eseguire una nuova azione dopo l'annullamento cancella lo stack di redo.
 keywords: [CAD comando undo, cronologia undo CAD, inverti azione CAD, step undo CAD, undo persistente browser, kulmanlab]
+group: edit
+order: 13
 ---
 
 # Undo

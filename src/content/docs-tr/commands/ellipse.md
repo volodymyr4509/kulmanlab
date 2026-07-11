@@ -1,8 +1,9 @@
 ---
-sidebar_position: 6
 title: Ellipse Komutu — KulmanLab CAD'de Merkez ve İki Eksenle Döndürülmüş Elips Çiz
 description: Ellipse komutu, üç tıklamayla elips çizer — merkez, birinci eksen ucu (herhangi bir yönde) ve ikinci eksen uzunluğu. İki eksen her zaman dik açılıdır. Yerleştirme sonrasında bağımsız yeniden boyutlandırma için her yarı eksenin kendi tutamacı vardır. DXF'de ELLIPSE nesneleri olarak tam round-trip.
 keywords: [CAD ellipse komutu, elips çiz CAD, döndürülmüş elips CAD, elips eksenleri, ELLIPSE DXF nesnesi, elips tutamaç düzenleme, eksen oranı, kulmanlab]
+group: shapes
+order: 6
 ---
 
 # Ellipse

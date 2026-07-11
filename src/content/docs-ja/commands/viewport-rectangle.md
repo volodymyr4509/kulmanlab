@@ -2,6 +2,8 @@
 title: ViewportRectangle コマンド — レイアウトにビューポートを作成（KulmanLab CAD）
 description: ViewportRectangle コマンドは対角の 2 点を選択することで用紙レイアウトにビューポートを作成します。ビューポートはレイアウトのデフォルトスケールでモデル空間のエンティティを表示します。
 keywords: [ビューポート長方形, ビューポート作成, レイアウトビューポート, 用紙空間ビューポート, kulmanlab]
+group: layouts
+order: 1
 ---
 
 # ViewportRectangle（ビューポート長方形）

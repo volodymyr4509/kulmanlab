@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Befehl move — Ausgewählte Entitäten über einen Basispunkt verschieben in KulmanLab CAD
 description: Der Befehl move verschiebt eine oder mehrere ausgewählte Entitäten von einem Basispunkt zu einem Zielpunkt. Unterstützt Vorauswahl, Winkelsperre und genaue Entfernungseingabe. Nach dem Verschieben bleiben die Entitäten an ihrer neuen Position ausgewählt. Jeder Entitätstyp wird unterstützt.
 keywords: [CAD move Befehl, Entitäten verschieben CAD, Objekte bewegen CAD, Winkelsperre verschieben, genaue Entfernung verschieben, Griffpunkt verschieben CAD, kulmanlab]
+group: edit
+order: 1
 ---
 
 # Move

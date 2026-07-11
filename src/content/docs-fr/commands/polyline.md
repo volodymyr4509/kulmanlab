@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Commande Polyline — Tracer des chemins multi-segments comme une seule entité dans KulmanLab CAD
 description: La commande Polyline trace n'importe quel nombre de segments connectés stockés comme une seule entité LWPOLYLINE. Les poignées de sommet et de milieu de segment permettent de remodeler toute partie du chemin après création. Supporte l'offset ; ne supporte pas Trim ni Extend.
 keywords: [commande polyline CAO, tracer polyligne CAO, chemin multi-segments CAO, LWPOLYLINE DXF, remodeler polyligne, poignée sommet CAO, offset polyligne, kulmanlab]
+group: shapes
+order: 2
 ---
 
 # Polyline

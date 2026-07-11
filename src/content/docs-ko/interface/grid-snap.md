@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: 그리드 & 스냅 — KulmanLab CAD에서 도면을 규칙적인 격자에 정렬
 description: KulmanLab CAD의 그리드 및 스냅 전환 버튼은 캔버스에 참조 격자를 표시하고 커서 이동을 격자 점에 고정합니다. 격자 간격은 현재 줌 수준에 자동으로 적응하여 항상 둥근 모델 값을 표시합니다.
 keywords: [CAD 그리드, 그리드 스냅, 격자 간격, 도면 보조, kulmanlab, 그리드 점, 직교 스냅, 격자 표시, 커서 고정]
+group: interface
+order: 1
 ---
 
 # 그리드 & 스냅

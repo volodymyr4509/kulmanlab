@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Files — Painel de Arquivos Recentes no KulmanLab CAD
 description: O comando Files abre o painel Arquivos Recentes — navegue por todos os desenhos salvos no seu navegador, restaure qualquer um deles para o canvas, ou exclua os que não precisar mais.
 keywords: [arquivos recentes CAD, histórico de arquivos navegador CAD, restaurar desenho, reabrir DXF, armazenamento navegador CAD, KulmanLab files, desenhos salvos, IndexedDB CAD, gerenciar desenhos]
+group: file
+order: 3
 ---
 
 # Files

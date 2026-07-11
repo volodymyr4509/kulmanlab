@@ -1,8 +1,9 @@
 ---
-sidebar_position: 9
 title: Polecenie Spline Fit — Rysowanie interpolujących splajnów przez kliknięte punkty w KulmanLab CAD
 description: Polecenie Spline Fit rysuje sześcienny splajn przechodzący przez każdy kliknięty punkt dokładnie. Wewnętrznie krzywa jest przechowywana zarówno z punktami dopasowania, jak i obliczonymi wierzchołkami kontrolnymi. Przeciągnięcie uchwytu punktu dopasowania ponownie interpoluje całą krzywą. Pełna obsługa zapisu i odczytu DXF jako elementy SPLINE.
 keywords: [polecenie splajnu fit CAD, interpolujący splajn CAD, splajn przez punkty, rysowanie gładkiej krzywej CAD, punkty dopasowania SPLINE DXF, edycja uchwytu splajnu, kulmanlab]
+group: shapes
+order: 9
 ---
 
 # Spline Fit

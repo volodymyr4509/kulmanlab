@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: "Commande Zoom In — Agrandir la Vue 1,5× par Étape dans KulmanLab CAD"
 description: "La commande Zoom In multiplie le niveau de zoom actuel par 1,5× et se termine immédiatement. Centré sur le point médian du viewport. Plage de zoom 0,01–10 000. Utilisez la molette de la souris pour zoomer vers le curseur à la place."
 keywords: [CAO zoom in, agrandir viewport, commande zoom CAO, pas de zoom 1,5x, kulmanlab]
+group: navigate
+order: 2
 ---
 
 # Zoom In

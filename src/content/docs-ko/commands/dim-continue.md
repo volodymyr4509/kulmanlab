@@ -1,8 +1,9 @@
 ---
-sidebar_position: 15
 title: Dimension Continue 명령어 — KulmanLab CAD에서 기존 기준선에서 치수 연결
 description: Dimension Continue 명령어는 기존 치수의 두 번째 치수 보조선에서 새 치수를 연결합니다. 기준 치수의 각도, 오프셋, 화살표 크기, 텍스트 높이를 자동으로 상속합니다. 선형 및 정렬 기준 모두와 함께 작동합니다.
 keywords: [CAD 연속 치수, dimcontinue, 치수 연결 CAD, 기준선 치수, 치수 시리즈 계속, kulmanlab]
+group: markup
+order: 6
 ---
 
 # Dimension Continue

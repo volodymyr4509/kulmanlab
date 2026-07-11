@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Comando Redo — Riapplicare Azioni Annullate in KulmanLab CAD
 description: Il comando Redo riapplica l'ultima azione invertita da Undo, avanzando nella cronologia. Redo è disponibile solo dopo un Undo e viene cancellato nel momento in cui viene eseguita qualsiasi nuova azione di disegno.
 keywords: [CAD comando redo, cronologia redo CAD, riapplica azione CAD, undo redo CAD, redo persistente browser, kulmanlab]
+group: edit
+order: 14
 ---
 
 # Redo

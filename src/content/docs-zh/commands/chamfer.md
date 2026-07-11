@@ -1,8 +1,9 @@
 ---
-sidebar_position: 21
 title: Chamfer命令 — 在 KulmanLab CAD 中切出两条直线之间的直线倒角
 description: Chamfer 命令用直线斜切将两条直线或多段线图元连接起来。您指定两个距离（沿每个图元各一个），命令将两者都修剪至这些点并插入一条连接直线。
 keywords: [CAD Chamfer 命令, 倒角直线 CAD, 斜角切割, 斜面角 CAD, kulmanlab]
+group: edit
+order: 12
 ---
 
 # Chamfer

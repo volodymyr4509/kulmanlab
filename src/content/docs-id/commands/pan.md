@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Perintah Pan — Navigasi Viewport dengan Klik-dan-Seret di KulmanLab CAD
 description: Perintah Pan memasuki mode seret-untuk-gulir yang persisten. Klik dan seret di mana saja pada kanvas untuk menggeser tampilan tanpa mengubah tingkat zoom. Seret klik tengah berfungsi kapan saja tanpa mengaktifkan Pan.
 keywords: [CAD pan viewport, perintah pan, seret untuk navigasi, gulir kanvas CAD, navigasi viewport, kulmanlab]
+group: navigate
+order: 1
 ---
 
 # Pan

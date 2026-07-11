@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: "Fit ਕਮਾਂਡ — KulmanLab CAD ਵਿੱਚ ਇੱਕ ਕਲਿੱਕ ਵਿੱਚ ਵਿਊਪੋਰਟ ਵਿੱਚ ਸਾਰੀਆਂ ਐਂਟਿਟੀਜ਼ ਫਰੇਮ ਕਰੋ"
 description: "Fit ਕਮਾਂਡ ਸਾਰੀਆਂ ਐਂਟਿਟੀਜ਼ ਦਾ ਬਾਊਂਡਿੰਗ ਬਾਕਸ ਗਿਣਦੀ ਹੈ ਅਤੇ ਜ਼ੂਮ ਤੇ ਪੈਨ ਵਿਵਸਥਿਤ ਕਰਦੀ ਹੈ ਤਾਂ ਜੋ ਹਰੇਕ ਐਂਟਿਟੀ ਥੋੜ੍ਹੇ ਹਾਸ਼ੀਏ ਨਾਲ ਦਿਖਾਈ ਦੇਵੇ। ਮਿਡਲ ਮਾਊਸ ਬਟਨ ਦਾ ਡਬਲ-ਕਲਿੱਕ ਕਮਾਂਡ ਸਰਗਰਮ ਕੀਤੇ ਬਿਨਾਂ Fit ਟ੍ਰਿਗਰ ਕਰਦਾ ਹੈ।"
 keywords: [CAD fit view, zoom to fit, frame all entities, fit command CAD, bounding box zoom, kulmanlab]
+group: navigate
+order: 4
 ---
 
 # Fit

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: New File — Iniciar um Desenho em Branco no KulmanLab CAD
 description: O comando New File limpa o canvas e abre um desenho em branco. Um nome de arquivo com timestamp é gerado automaticamente e salvo no armazenamento do navegador.
 keywords: [novo arquivo CAD, novo desenho, canvas em branco CAD, criar novo desenho online, novo DXF, KulmanLab novo arquivo, redefinir canvas, limpar desenho]
+group: file
+order: 2
 ---
 
 # New File

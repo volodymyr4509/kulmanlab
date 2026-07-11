@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Vector Pins — Przyciąganie wzdłuż linii odniesienia przez przypięte punkty w KulmanLab CAD
 description: Vector Pins pozwalają przypiąć punkt przyciągania, najeżdżając na niego kursorem na pół sekundy, a następnie śledzić kursor wzdłuż przerywanych poziomych i pionowych linii odniesienia przechodzących przez przypięty punkt — wyrównuj nową geometrię z istniejącymi punktami bez linii konstrukcyjnych.
 keywords: [vector pins, śledzenie przyciągania do obiektów, linie odniesienia, śledzenie wyrównania, śledzenie przyciągania CAD, linie konstrukcyjne, kulmanlab]
+group: interface
+order: 2
 ---
 
 # Vector Pins

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 16
 title: 寸法 半径コマンド — 円弧と円の半径注釈（KulmanLab CAD）
 description: dimradius コマンドは円弧または円に R 接頭辞付きの半径寸法を配置します。エンティティをクリックし、カーソルを移動して中心から円周への寸法線の向きを設定します。DIMENSION 半径エンティティとして DXF ラウンドトリップ対応。
 keywords: [CAD 半径寸法, dimradius, 円半径注釈, 円弧半径寸法, R接頭辞 寸法, kulmanlab, dim-radius]
+group: markup
+order: 7
 ---
 
 # Dimension Radius

@@ -2,6 +2,8 @@
 title: "KulmanLab CAD — Marejeo ya Amri"
 description: "Marejeo ya amri za KulmanLab CAD — mwongozo kamili wa kila amri ya kuchora, kuhariri, kuweka alama, safu, kupima, na faili katika KulmanLab CAD."
 keywords: [KulmanLab, KulmanLab CAD, amri za CAD, CAD ya kivinjari bila malipo, mhariri wa DXF mtandaoni, amri za kuchora, amri za kulmanlab]
+group: overview
+order: 1
 ---
 
 # KulmanLab CAD — Marejeo ya Amri

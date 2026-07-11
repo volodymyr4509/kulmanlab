@@ -1,8 +1,9 @@
 ---
-sidebar_position: 16
 title: Dimension Radius 명령어 — KulmanLab CAD에서 호 및 원 반지름 주석
 description: Dimension Radius 명령어는 호 또는 원에 R 접두사가 붙은 방사형 치수를 배치합니다. 객체를 클릭한 다음 커서를 이동하여 중심에서 원주까지 치수 선을 방향 설정합니다. DXF DIMENSION 반지름 객체로 완전한 왕복 지원.
 keywords: [CAD 반지름 치수, dimradius, 원 반지름 주석, 호 반지름 치수, R 접두사 치수, kulmanlab]
+group: markup
+order: 7
 ---
 
 # Dimension Radius

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Befehl polyline — Mehrsegment-Pfade als einzelne Entität zeichnen in KulmanLab CAD
 description: Der Befehl polyline zeichnet beliebig viele verbundene Segmente, die als eine LWPOLYLINE-Entität gespeichert werden. Scheitelpunkt- und Segment-Mittelpunkt-Griffpunkte ermöglichen die Umformung jedes Teils des Pfades nach der Erstellung. Unterstützt offset; unterstützt kein trim oder extend.
 keywords: [CAD polyline Befehl, Polylinie zeichnen CAD, mehrsegmentiger Pfad CAD, LWPOLYLINE DXF, Polylinie umformen, Scheitelpunkt-Griffpunkt CAD, Polylinie versetzen, kulmanlab]
+group: shapes
+order: 2
 ---
 
 # Polyline

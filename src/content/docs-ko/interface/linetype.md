@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: 선종류 도구 모음 선택기 — KulmanLab CAD에서 대시 패턴 제어
 description: KulmanLab CAD 도구 모음의 선종류 선택기는 새로 그려지는 모든 객체에 적용되는 대시 패턴을 설정합니다. 현재 DXF 파일에서 로드된 모든 선종류와 기본 제공 ByLayer, ByBlock 및 연속 옵션을 지원합니다.
 keywords: [CAD 선종류, 대시 패턴, 파선, DXF 선종류, ByLayer 선종류, kulmanlab, 선 스타일, 점선, 중심선, 숨은선]
+group: interface
+order: 3
 ---
 
 # 선종류

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Match Properties — Copier les propriétés d'entités dans KulmanLab CAD
 description: La commande MatchProperties copie la couleur, le calque et d'autres propriétés partagées d'une entité source vers une ou plusieurs entités cibles. Correspond aux propriétés de la même façon que les outils CAO de bureau.
 keywords: [correspondre propriétés CAO, copier propriétés entité, MATCHPROP, correspondre calque et couleur, transférer propriétés, match properties kulmanlab, peindre propriétés, copier calque CAO]
+group: style
+order: 1
 ---
 
 # Match Properties

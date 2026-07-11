@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Comando Angle — Misura l'Angolo Interno in un Vertice con Tre Punti in KulmanLab CAD
 description: Il comando Angle misura l'angolo interno (0°–180°) in un vertice definito da tre punti cliccati. Clicca primo-punto, vertice, secondo-punto. Il risultato viene mostrato nel terminale con 4 decimali.
 keywords: [misura angolo CAD, angolo a tre punti, angolo interno CAD, comando misura angolo, angolo vertice, kulmanlab]
+group: measure
+order: 2
 ---
 
 # Angle

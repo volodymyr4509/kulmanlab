@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: Arahan Mirror — Cerminkan Entiti Merentasi Paksi Dua Titik dalam KulmanLab CAD
 description: Arahan Mirror mencerminkan entiti yang dipilih merentasi garis cermin yang ditakrifkan oleh dua klik. Asal sentiasa disimpan — Mirror mencipta salinan yang dicerminkan baharu. Paksi cermin boleh berada pada mana-mana sudut dan snap ke gandaan 45°.
 keywords: [arahan cermin CAD, cermin entiti CAD, simetri cermin CAD, balik objek CAD, paksi cermin CAD, kulmanlab]
+group: edit
+order: 4
 ---
 
 # Mirror

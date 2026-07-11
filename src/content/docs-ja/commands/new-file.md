@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: New File — 空の図面を開始（KulmanLab CAD）
 description: New File コマンドはキャンバスをクリアして新しい空の図面を開きます。タイムスタンプ付きのファイル名が自動的に生成され、ブラウザーストレージに保存されます。
 keywords: [新しい CAD ファイル, 新規図面, 空のキャンバス CAD, オンラインで新規図面作成, 新規 DXF, KulmanLab 新規ファイル, キャンバスのリセット, 図面のクリア]
+group: file
+order: 2
 ---
 
 # New File（新規ファイル）

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 16
 title: Εντολή Dimension Radius — Σήμανση Ακτίνας Τόξων και Κύκλων στο KulmanLab CAD
 description: Η εντολή Dimension Radius τοποθετεί διάσταση ακτίνας με πρόθεμα R σε τόξο ή κύκλο. Κάντε κλικ στην οντότητα, μετά μετακινήστε τον κέρσορα για προσανατολισμό της γραμμής διάστασης από κέντρο σε περιφέρεια. Πλήρης DXF round-trip ως οντότητες DIMENSION ακτίνας.
 keywords: [CAD radius dimension, dimradius, σήμανση ακτίνας κύκλου, διάσταση ακτίνας τόξου, διάσταση με πρόθεμα R, kulmanlab]
+group: markup
+order: 7
 ---
 
 # Dimension Radius

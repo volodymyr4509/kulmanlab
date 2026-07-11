@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: "LayerMatch — KulmanLab CAD-এ এন্টিটির লেয়ার একটি উৎসের সাথে মেলানো"
 description: "LayerMatch কমান্ড এক বা একাধিক টার্গেট এন্টিটির লেয়ার পুনরায় নির্ধারণ করে আপনার ক্লিক করা উৎস এন্টিটির লেয়ারের সাথে মেলাতে।"
 keywords: [লেয়ার ম্যাচ, লেয়ার মেলানো CAD, লেয়ার পুনরায় নির্ধারণ kulmanlab, CAD লেয়ার ম্যানেজমেন্ট]
+group: layer
+order: 2
 ---
 
 # LayerMatch

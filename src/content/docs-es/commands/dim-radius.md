@@ -1,8 +1,9 @@
 ---
-sidebar_position: 16
 title: Comando Dimension Radius — Anotar Radios de Arcos y Círculos en KulmanLab CAD
 description: El comando Dimension Radius coloca una cota radial con prefijo R en un arco o círculo. Haz clic en la entidad, luego mueve el cursor para orientar la línea de cota desde el centro hasta la circunferencia. Exportación completa a DXF como entidades DIMENSION de tipo radio.
 keywords: [cota de radio CAD, dimradius, anotar radio de círculo, cota de radio de arco, cota con prefijo R, kulmanlab]
+group: markup
+order: 7
 ---
 
 # Dimension Radius

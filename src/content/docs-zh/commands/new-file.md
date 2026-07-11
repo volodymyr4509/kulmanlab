@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: New File — 在 KulmanLab CAD 中开始空白图形
 description: New File 命令清空画布并开始一个全新的空白图形。带时间戳的文件名自动生成并保存到浏览器存储。
 keywords: [新建 CAD 文件, 新建图形, 空白画布 CAD, 在线创建新图形, 开始新 DXF, KulmanLab 新建文件, 重置画布, 清空图形, kulmanlab]
+group: file
+order: 2
 ---
 
 # New File

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Εντολή Rectangle — Σχεδίαση Ορθογωνίων Παραλληλεπίπεδων στο KulmanLab CAD
 description: Η εντολή Rectangle δημιουργεί ορθογώνιο παραλληλεπίπεδο από δύο απέναντι γωνίες. Το αποτέλεσμα είναι κλειστό LWPOLYLINE με τέσσερις κορυφές — πανομοιότυπο με οποιοδήποτε άλλο polyline μόλις τοποθετηθεί, οπότε κάθε εντολή επεξεργασίας polyline εφαρμόζεται σε αυτό.
 keywords: [CAD εντολή rectangle, σχεδίαση ορθογωνίου CAD, ορθογώνιο παραλληλεπίπεδο, κλειστό polyline CAD, LWPOLYLINE DXF, επεξεργασία grip ορθογωνίου, kulmanlab]
+group: shapes
+order: 3
 ---
 
 # Rectangle

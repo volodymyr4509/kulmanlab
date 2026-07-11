@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Polyline命令 — 在 KulmanLab CAD 中将多段路径绘制为单个图元
 description: 多段线命令绘制任意数量的连接段，全部存储为一个 LWPOLYLINE 实体。顶点和线段中点夹点可在创建后重塑路径的任何部分。支持偏移；不支持修剪或延伸。
 keywords: [CAD Polyline 命令, 绘制多段线 CAD, 多段路径 CAD, LWPOLYLINE DXF, 重塑多段线, 顶点夹点 CAD, 偏移多段线, kulmanlab]
+group: shapes
+order: 2
 ---
 
 # Polyline

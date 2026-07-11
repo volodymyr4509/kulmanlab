@@ -1,8 +1,9 @@
 ---
-sidebar_position: 9
 title: Spline Fit命令 — 在 KulmanLab CAD 中绘制穿过单击点的插值样条线
 description: 拟合样条线命令绘制精确经过每个单击点的三次样条线。曲线内部存储拟合点和计算出的控制顶点。拖动拟合点夹点会重新插值整条曲线。完整支持 DXF 的 SPLINE 实体往返转换。
 keywords: [CAD Spline Fit 命令, 插值样条线 CAD, 穿过点的样条线, 绘制平滑曲线 CAD, SPLINE DXF 拟合点, 样条线夹点编辑, kulmanlab]
+group: shapes
+order: 9
 ---
 
 # Spline Fit

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 11
 title: Arahan Offset — Cipta Salinan Selari pada Jarak Tetap dalam KulmanLab CAD
 description: Arahan Offset mencipta salinan selari Line, Circle, Arc, Ellipse, atau Polyline pada jarak bertaip. Jarak dimasukkan sekali dan digunakan semula untuk berbilang offset. Klik sisi menentukan arah salinan muncul. Lima jenis entiti disokong.
 keywords: [arahan offset CAD, salinan selari CAD, offset garis CAD, offset bulatan CAD, offset poliline CAD, offset konsentrik, kulmanlab]
+group: edit
+order: 10
 ---
 
 # Offset

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: "Rectangle Command — Draw Axis-Aligned Rectangles in KulmanLab CAD"
 description: "Amri ya Rectangle huunda mstatili ulioratibiwa na mhimili kutoka kwa kona mbili zilizo kinyume. Matokeo ni LWPOLYLINE iliyofungwa yenye ncha nne — inafanana na polyline nyingine yoyote baada ya kuwekwa, hivyo kila amri ya uhariri wa polyline inatumika kwake."
 keywords: [CAD rectangle command, draw rectangle CAD, axis-aligned rectangle, closed polyline CAD, LWPOLYLINE DXF, rectangle grip editing, kulmanlab]
+group: shapes
+order: 3
 ---
 
 # Rectangle

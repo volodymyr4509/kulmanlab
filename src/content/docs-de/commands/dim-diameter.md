@@ -1,8 +1,9 @@
 ---
-sidebar_position: 17
 title: "Dimension Diameter-Befehl — Vollständige Kreis- und Bogendurchmesser beschriften in KulmanLab CAD"
 description: "Der Dimension Diameter-Befehl platziert eine Durchmesserbemaßung (mit dem Durchmessersymbol als Präfix) durch den Mittelpunkt eines Bogens oder Kreises. Bewegen Sie den Mauszeiger, um die Bemaßungslinie in beliebigem Winkel zu drehen. Vollständiger DXF-Austausch als DIMENSION-Durchmesserelemente."
 keywords: [CAD-Durchmesserbemaßung, dimdiameter, Kreisdurchmesser beschriften, Bogendurchmesserbemaßung, Durchmessersymbol CAD, kulmanlab]
+group: markup
+order: 8
 ---
 
 # Dimension Diameter

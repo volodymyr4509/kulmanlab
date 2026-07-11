@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Files — Πάνελ Πρόσφατων Αρχείων στο KulmanLab CAD
 description: Η εντολή Files ανοίγει το πάνελ Πρόσφατων Αρχείων — περιηγηθείτε σε όλα τα σχέδια αποθηκευμένα στο browser σας, επαναφέρετε οποιοδήποτε από αυτά στον καμβά, ή διαγράψτε αυτά που δεν χρειάζεστε πλέον.
 keywords: [πρόσφατα αρχεία CAD, ιστορικό αρχείων browser CAD, επαναφορά σχεδίου, επαναφόρτωση DXF, browser storage CAD, KulmanLab files, αποθηκευμένα σχέδια, IndexedDB CAD, διαχείριση σχεδίων]
+group: file
+order: 3
 ---
 
 # Files

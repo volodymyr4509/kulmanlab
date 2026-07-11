@@ -1,8 +1,9 @@
 ---
-sidebar_position: 14
 title: Dimension Aligned-Befehl — Wahre Abstands-Bemaßungen in beliebigem Winkel in KulmanLab CAD
 description: Der Dimension Aligned-Befehl misst den tatsächlichen geradlinigen Abstand zwischen zwei Punkten. Die Bemaßungslinie verläuft parallel zur p1→p2-Linie in beliebigem Winkel — anders als Dimension Linear, das auf horizontal oder vertikal beschränkt ist. Vollständiger DXF-Austausch als DIMENSION-Elemente.
 keywords: [CAD Bemaßung ausgerichtet, dimaligned, diagonale Bemaßung CAD, wahre Abstandsbemaßung, angewinkelte Bemaßung CAD, kulmanlab]
+group: markup
+order: 5
 ---
 
 # Dimension Aligned

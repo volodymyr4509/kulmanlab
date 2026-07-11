@@ -1,8 +1,9 @@
 ---
-sidebar_position: 13
 title: أمر Dimension Linear — الأبعاد الأفقية والرأسية في KulmanLab CAD
 description: يقيس أمر Dimension Linear المسافة الأفقية أو الرأسية بين نقطتين. خط البُعد دائماً موازٍ للمحاور — اضغط H أو V لتثبيت الاتجاه، أو دع موضع المؤشر يحدده تلقائياً. يدعم التحويل الكامل لـ DXF كعناصر DIMENSION.
 keywords: [بُعد خطي CAD, بُعد أفقي CAD, بُعد رأسي CAD, dimlinear, تثبيت اتجاه H V, إزاحة البُعد, kulmanlab]
+group: markup
+order: 4
 ---
 
 # Dimension Linear

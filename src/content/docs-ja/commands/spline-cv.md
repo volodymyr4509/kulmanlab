@@ -1,8 +1,9 @@
 ---
-sidebar_position: 8
 title: Spline CV コマンド — 制御頂点を配置して B スプラインを作図（KulmanLab CAD）
 description: Spline CV コマンドは制御頂点を配置することで 3 次 B スプラインを作図します。曲線は頂点に引き寄せられますが、最初と最後の頂点（クランプトノット）のみを通過します。各 CV グリップをドラッグして配置後に曲線を変形できます。DXF SPLINE エンティティとして完全双方向対応。
 keywords: [CAD スプラインコマンド, B スプライン制御頂点, クランプトスプライン CAD, スプライン作図 CAD, SPLINE DXF エンティティ, スプライングリップ編集, kulmanlab]
+group: shapes
+order: 8
 ---
 
 # Spline CV（スプライン CV）

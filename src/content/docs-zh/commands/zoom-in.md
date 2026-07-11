@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: "Zoom In命令 — 在 KulmanLab CAD 中每步将视口放大 1.5×"
 description: "放大命令将当前缩放级别乘以 1.5×，立即退出，以视口中点为中心。缩放范围 0.01–10,000。使用滚轮向光标方向缩放以获得更精细的控制。"
 keywords: [CAD 放大, 放大视口, 缩放命令 CAD, 1.5 倍缩放步长, kulmanlab]
+group: navigate
+order: 2
 ---
 
 # Zoom In

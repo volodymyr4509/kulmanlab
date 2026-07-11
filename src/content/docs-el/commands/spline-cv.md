@@ -1,8 +1,9 @@
 ---
-sidebar_position: 8
 title: Εντολή Spline CV — Σχεδίαση B-Splines με Τοποθέτηση Κορυφών Ελέγχου στο KulmanLab CAD
 description: Η εντολή Spline CV σχεδιάζει κυβική B-spline με τοποθέτηση κορυφών ελέγχου. Η καμπύλη έλκεται προς τις κορυφές αλλά διέρχεται μόνο από την πρώτη και τελευταία (clamped knots). Κάθε grip CV μπορεί να σύρεται για αναδιαμόρφωση καμπύλης μετά τη δημιουργία. Πλήρης DXF round-trip ως οντότητες SPLINE.
 keywords: [CAD εντολή spline, B-spline κορυφές ελέγχου, clamped spline CAD, σχεδίαση spline CAD, SPLINE DXF οντότητα, επεξεργασία grip spline, kulmanlab]
+group: shapes
+order: 8
 ---
 
 # Spline CV

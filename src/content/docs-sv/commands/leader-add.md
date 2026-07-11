@@ -1,8 +1,9 @@
 ---
-sidebar_position: 12
 title: Leader+-kommandot — Lägg till en pilspetsarm på en befintlig multileader i KulmanLab CAD
 description: Leader+-kommandot lägger till en ny pilspetsarm på en befintlig multileader. Den nya armen delar dogleg, text och all styling med den valda leadern. Två klick — välj leadern, placera den nya spetsen.
 keywords: [CAD lägg till leader-arm, leader+-kommando, lägg till pil på leader, multileader-arm, kulmanlab]
+group: markup
+order: 2
 ---
 
 # Leader+

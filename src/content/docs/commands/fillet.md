@@ -1,8 +1,9 @@
 ---
-sidebar_position: 20
 title: Fillet Command — Round a Corner Between Two Lines in KulmanLab CAD
 description: The Fillet command connects two Line entities with a tangent arc of a specified radius, trimming each line back to the tangent point. A dashed arc preview helps you pick the correct corner before clicking.
 keywords: [CAD fillet command, round corner CAD, fillet arc, tangent arc two lines, kulmanlab]
+group: edit
+order: 11
 ---
 
 # Fillet

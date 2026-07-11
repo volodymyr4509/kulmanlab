@@ -1,8 +1,9 @@
 ---
-sidebar_position: 21
 title: คำสั่ง Chamfer — ตัดมุมตรงระหว่างสองเส้นใน KulmanLab CAD
 description: คำสั่ง Chamfer เชื่อมวัตถุ Line หรือ Polyline สองชิ้นด้วยการตัดเฉียงตรง คุณระบุระยะสองค่า — หนึ่งค่าตามแต่ละวัตถุ — และคำสั่งจะตัดทั้งสองกลับไปยังจุดเหล่านั้นและแทรกเส้นเชื่อม
 keywords: [คำสั่ง chamfer CAD, chamfer เส้น CAD, ตัดมุมเฉียง, เฉลียงมุม CAD, kulmanlab]
+group: edit
+order: 12
 ---
 
 # Chamfer

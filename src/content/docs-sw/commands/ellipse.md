@@ -1,8 +1,9 @@
 ---
-sidebar_position: 6
 title: Amri ya Ellipse — Chora Duaradufu Zilizozungushwa kwa Kituo na Mihimili Miwili katika KulmanLab CAD
 description: "Amri ya Ellipse huchora duaradufu kwa mibonyezo mitatu — kituo, mwisho wa mhimili wa kwanza (mwelekeo wowote), kisha urefu wa mhimili wa pili. Mihimili miwili daima iko perpendicular. Kila nusu-mhimili ina mpini wake wa kubadilisha ukubwa kwa uhuru baada ya kuweka. Uhifadhi kamili wa DXF kama viumbe vya ELLIPSE."
 keywords: [CAD ellipse command, draw ellipse CAD, rotated ellipse CAD, ellipse axes, ELLIPSE DXF entity, ellipse grip editing, axis ratio, kulmanlab]
+group: shapes
+order: 6
 ---
 
 # Ellipse

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: "Line کمانڈ — KulmanLab CAD میں لائنیں کھینچیں، جوڑیں، تراشیں اور بڑھائیں"
 description: "Line کمانڈ الگ سیدھے لائن سیگمنٹ کھینچتی ہے جنہیں آخر سے آخر تک جوڑا جا سکتا ہے۔ لائنیں واحد شے کی قسم ہیں جن پر Trim اور Extend کام کرتے ہیں۔ DXF میں LINE اشیاء کے طور پر مکمل راؤنڈ ٹرپ۔"
 keywords: [CAD لائن کمانڈ, سیدھی لائن کھینچیں CAD, لائن سیگمنٹ جوڑیں, لائن تراشیں CAD, لائن بڑھائیں CAD, زاویہ لاک CAD, DXF LINE شے, kulmanlab]
+group: shapes
+order: 1
 ---
 
 # Line

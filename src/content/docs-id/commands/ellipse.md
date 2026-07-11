@@ -1,8 +1,9 @@
 ---
-sidebar_position: 6
 title: Perintah Ellipse — Menggambar Elips Terputar Berdasarkan Pusat dan Dua Sumbu di KulmanLab CAD
 description: Perintah Ellipse menggambar elips dalam tiga klik — pusat, titik akhir sumbu pertama (arah mana saja), lalu panjang sumbu kedua. Kedua sumbu selalu tegak lurus. Setiap semi-sumbu memiliki gripnya sendiri untuk pengubahan ukuran independen setelah penempatan. Dukungan penuh DXF sebagai entitas ELLIPSE.
 keywords: [perintah elips CAD, menggambar elips CAD, elips terputar CAD, sumbu elips, entitas DXF ELLIPSE, pengeditan grip elips, rasio sumbu, kulmanlab]
+group: shapes
+order: 6
 ---
 
 # Ellipse

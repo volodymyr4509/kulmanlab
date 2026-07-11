@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Export コマンド — 図面を DXF または JSON でダウンロード（KulmanLab CAD）
 description: エクスポートコマンドは現在の図面を DXF（互換性）または JSON（ネイティブ）ファイルとしてダウンロードします。JSON は寸法と引出線を含むすべてのエンティティを保存し、DXF は他の CAD ツールと互換性があります。
 keywords: [DXF エクスポート, CAD ファイルエクスポート, ブラウザ DXF ダウンロード, オンライン DXF 保存, JSON エクスポート CAD, KulmanLab エクスポート, CAD ファイルダウンロード, DXF ダウンロード]
+group: file
+order: 5
 ---
 
 # Export（エクスポート）

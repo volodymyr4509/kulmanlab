@@ -2,6 +2,8 @@
 title: "คำสั่ง Wipe Storage — ล้างข้อมูลเบราว์เซอร์ทั้งหมดใน KulmanLab CAD"
 description: "คำสั่ง wipestorage ลบไฟล์ทั้งหมด เลเยอร์ linetypes และประวัติ Undo ที่บันทึกในเบราว์เซอร์อย่างถาวร ต้องพิมพ์ YES เพื่อยืนยัน ใช้เมื่อรีเซ็ตฐานข้อมูลท้องถิ่นที่เสียหายหรือเต็ม"
 keywords: [CAD wipe storage, ล้างข้อมูลเบราว์เซอร์ CAD, รีเซ็ตแอป CAD, ลบไฟล์ท้องถิ่น CAD, kulmanlab wipestorage]
+group: file
+order: 6
 ---
 
 # Wipe Storage

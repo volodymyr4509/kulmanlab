@@ -1,8 +1,9 @@
 ---
-sidebar_position: 7
 title: Text Command — Place MTEXT Labels in KulmanLab CAD
 description: The Text command places a multi-line, richly formatted MTEXT label. Click a position, type in the popup editor, and press Escape to commit. Double-click any existing label to reopen the editor.
 keywords: [CAD text command, MTEXT, place text label CAD, text annotation CAD, bold italic CAD, multi-line text CAD, kulmanlab]
+group: shapes
+order: 7
 ---
 
 # Text

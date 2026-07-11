@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: 线宽工具栏选择器 — 在 KulmanLab CAD 中控制笔划宽度
 description: KulmanLab CAD 工具栏中的线宽选择器设置应用于所有新绘制图元的笔划宽度。支持标准 DXF 线宽值，从 0.00 毫米到 2.11 毫米，以及随层和默认模式。
 keywords: [CAD 线宽, 笔划宽度, 线条宽度, DXF 线宽, 随层线宽, kulmanlab]
+group: interface
+order: 4
 ---
 
 # 线宽

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: New File — Starta en tom ritning i KulmanLab CAD
 description: New File-kommandot rensar ritytan och öppnar en ny tom ritning. Ett tidsstämplat filnamn genereras automatiskt och sparas i webbläsarens lagring.
 keywords: [ny CAD-fil, ny ritning, tom rityta CAD, skapa ny ritning online, starta ny DXF, KulmanLab ny fil, återställ rityta, rensa ritning]
+group: file
+order: 2
 ---
 
 # New File

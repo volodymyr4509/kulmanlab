@@ -1,8 +1,9 @@
 ---
-sidebar_position: 11
 title: "Leader−-kommandot — Ta bort en pilspetsarm från en multileader i KulmanLab CAD"
 description: "Leader−-kommandot tar bort en pilspetsarm från en multileader som har två eller fler. Håll muspekaren nära armen som ska tas bort — den närmaste armen markeras. Dogleg, text och återstående armar bevaras."
 keywords: [CAD ta bort leader-arm, leader--kommando, ta bort pil från leader, ta bort multileader-arm, kulmanlab]
+group: markup
+order: 3
 ---
 
 # Leader−

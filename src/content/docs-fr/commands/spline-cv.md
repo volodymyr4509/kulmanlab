@@ -1,8 +1,9 @@
 ---
-sidebar_position: 8
 title: Commande Spline CV — Tracer des B-splines en plaçant des sommets de contrôle dans KulmanLab CAD
 description: La commande Spline CV trace une B-spline cubique en plaçant des sommets de contrôle. La courbe est attirée vers les sommets mais ne passe que par le premier et le dernier (nœuds serrés). Chaque poignée SC peut être glissée pour remodeler la courbe après placement. Aller-retour DXF complet en tant qu'entités SPLINE.
 keywords: [commande spline CAO, B-spline sommets de contrôle, spline serrée CAO, tracer spline CAO, entité SPLINE DXF, édition poignée spline, kulmanlab]
+group: shapes
+order: 8
 ---
 
 # Spline CV

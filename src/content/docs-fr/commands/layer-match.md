@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerMatch — Réassigner les calques d'entités pour correspondre à une source dans KulmanLab CAD
 description: La commande LayerMatch réassigne le calque d'une ou plusieurs entités cibles pour correspondre au calque d'une entité source sur laquelle vous cliquez.
 keywords: [correspondre calque, égaliser calque CAO, réassigner calque kulmanlab, gestion calques CAO]
+group: layer
+order: 2
 ---
 
 # LayerMatch

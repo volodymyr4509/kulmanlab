@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: Editor de Texto — Modos Rich y Simple en KulmanLab CAD
 description: El editor de texto de KulmanLab CAD tiene dos modos — rich (formato por carácter, multilínea, ajuste de línea para Text y Multileader) y simple (estilo uniforme, una línea para entidades de cota). Un mode chip en el encabezado muestra qué modo está activo.
 keywords: [editor de texto CAD, MTEXT, negrita cursiva CAD, formato de texto CAD, texto multilínea CAD, ajuste de línea CAD, editor de texto rich, editor de texto simple, editor texto cota, fuente personalizada CAD, subir ttf CAD, kulmanlab]
+group: interface
+order: 5
 ---
 
 # Editor de Texto

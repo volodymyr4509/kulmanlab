@@ -1,8 +1,9 @@
 ---
-sidebar_position: 13
 title: Mirror Komutu — KulmanLab CAD'de Nesneleri Eksen Boyunca Aynala
 description: Mirror komutu, seçili nesnelerin iki nokta tarafından tanımlanan bir eksen boyunca ayna görüntülerini oluşturur. Orijinaller her zaman korunur — Mirror yalnızca yeni yansıtılmış kopyalar ekler. Ayna ekseni herhangi bir açıda olabilir ve 45° katlarına yapışır.
 keywords: [CAD mirror komutu, ayna yansıması CAD, nesne simetrisi CAD, nesneleri yansıt, ayna ekseni CAD, kulmanlab]
+group: edit
+order: 4
 ---
 
 # Mirror

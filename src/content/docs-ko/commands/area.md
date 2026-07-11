@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Area 명령어 — KulmanLab CAD에서 다각형의 면적과 둘레 측정
 description: Area 명령어는 신발끈 공식(shoelace formula)을 사용하여 3개 이상의 클릭한 점으로 정의된 다각형의 면적과 둘레를 측정합니다. 각도 잠금 방향 입력과 결과의 캔버스 상 지속적인 강조 표시를 지원합니다.
 keywords: [CAD 면적 측정, area 명령어, 다각형 면적 계산, 둘레 측정, 신발끈 공식, kulmanlab CAD 측정]
+group: measure
+order: 3
 ---
 
 # Area

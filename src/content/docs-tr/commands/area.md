@@ -1,8 +1,9 @@
 ---
-sidebar_position: 34
 title: Area Komutu — KulmanLab CAD'de Bir Çokgenin Alanını ve Çevresini Ölç
 description: Area komutu, 3 veya daha fazla tıklanan noktayla tanımlanan bir çokgenin kapladığı alanı ve çevresini, ayakkabı bağı (shoelace) formülünü kullanarak ölçer. Açı kilitli yönlü giriş ve sonucun tuval üzerinde kalıcı vurgulanmasını destekler.
 keywords: [CAD alan ölç, area komutu, çokgen alanı hesapla, çevre ölçümü, ayakkabı bağı formülü, kulmanlab CAD ölçümü]
+group: measure
+order: 3
 ---
 
 # Area

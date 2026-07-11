@@ -2,6 +2,8 @@
 title: Font Manager 명령어 — KulmanLab CAD에서 사용자 지정 TTF 폰트 업로드 및 관리
 description: Font Manager 명령어는 폰트를 찾아보고 미리 보고 선택하며, 자신의 .ttf 파일을 업로드할 수 있는 대화 상자를 엽니다. 업로드된 폰트는 브라우저에 저장되며 DXF 내보내기에 이름으로 포함됩니다.
 keywords: [폰트 관리자, 사용자 지정 폰트 CAD, TTF 업로드, 사용자 지정 서체 CAD, Google Fonts CAD, 텍스트 폰트 CAD, kulmanlab]
+group: style
+order: 2
 ---
 
 # Font Manager

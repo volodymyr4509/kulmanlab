@@ -1,8 +1,9 @@
 ---
-sidebar_position: 6
 title: Commande Delete — Supprimer des entités du dessin dans KulmanLab CAD
 description: La commande Delete supprime les entités sélectionnées de façon permanente (annulable). Les entités pré-sélectionnées sont supprimées instantanément sans étape de confirmation. La touche Suppr fonctionne comme raccourci global même sans activer la commande. Supporte la sélection par clic et par zone.
 keywords: [commande delete CAO, supprimer entités CAO, effacer objets CAO, touche suppr CAO, annuler suppression CAO, kulmanlab]
+group: edit
+order: 7
 ---
 
 # Delete

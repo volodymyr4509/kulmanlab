@@ -2,6 +2,8 @@
 title: Perintah ViewportCopy — Menduplikasi Viewport di KulmanLab CAD
 description: Perintah ViewportCopy menduplikasi viewport yang dipilih ke posisi baru di layout yang sama, mempertahankan pengaturan skala dan tampilan model. Mendukung entri koordinat tepat, penguncian sudut, dan input jarak yang diketik.
 keywords: [viewport copy, duplikat viewport, salin viewport layout, kunci sudut viewport, koordinat tepat viewport, kulmanlab]
+group: layouts
+order: 2
 ---
 
 # ViewportCopy

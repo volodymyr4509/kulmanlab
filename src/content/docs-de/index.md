@@ -2,6 +2,8 @@
 title: KulmanLab CAD — Befehlsreferenz
 description: KulmanLab CAD Befehlsreferenz — vollständige Anleitung zu allen Zeichen-, Bearbeitungs-, Beschriftungs-, Ebenen-, Mess- und Dateibefehlen in KulmanLab CAD.
 keywords: [KulmanLab, KulmanLab CAD, CAD-Befehle, kostenloses Browser-CAD, DXF-Editor online, Zeichenbefehle, kulmanlab-Befehle]
+group: overview
+order: 1
 ---
 
 # KulmanLab CAD — Befehlsreferenz

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 11
 title: "Perintah Leader− — Menghapus Lengan Kepala Panah dari Multileader di KulmanLab CAD"
 description: "Perintah Leader− menghapus satu lengan kepala panah dari multileader yang memiliki dua atau lebih. Arahkan kursor dekat lengan yang akan dihapus — lengan terdekat disorot. Dogleg, teks, dan lengan yang tersisa dipertahankan."
 keywords: [CAD hapus lengan leader, perintah leader-, hapus panah dari leader, hapus lengan multileader, kulmanlab]
+group: markup
+order: 3
 ---
 
 # Leader−

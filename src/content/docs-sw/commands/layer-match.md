@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerMatch — Gawanya Safu za Vitu Zilingane na Chanzo katika KulmanLab CAD
 description: "Amri ya LayerMatch inagawanya upya safu ya vitu moja au zaidi ili ilingane na safu ya kitu chanzo unachobonyeza."
 keywords: [layer match, match layer CAD, reassign layer kulmanlab, CAD layer management]
+group: layer
+order: 2
 ---
 
 # LayerMatch

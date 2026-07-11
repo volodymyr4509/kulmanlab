@@ -1,8 +1,9 @@
 ---
-sidebar_position: 51
 title: Команда Wipe Storage — Очистити всі кресленики з браузерного сховища у KulmanLab CAD
 description: Команда Wipe Storage видаляє всі кресленики, збережені в локальному сховищі браузера. Дія незворотна — використовуйте Export для збереження важливих кресленників перед очищенням.
 keywords: [CAD команда wipestorage, очистити сховище браузера CAD, видалити всі кресленики, скинути дані CAD, kulmanlab]
+group: file
+order: 6
 ---
 
 # Wipe Storage

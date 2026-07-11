@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Perintah Print — Mengekspor Gambar sebagai PNG, JPEG, WebP, atau PDF di KulmanLab CAD
 description: Perintah Print membuka Print Manager — jendela ekspor khusus dengan pratinjau langsung, pemilih format, toggle monokrom, dan seleksi area opsional. Ekspor hingga 2000×2000 px. Mendukung PNG, JPEG, WebP, dan PDF.
 keywords: [CAD ekspor PNG, CAD ekspor PDF, cetak gambar CAD, print manager, ekspor monokrom, kulmanlab ekspor]
+group: file
+order: 4
 ---
 
 # Print

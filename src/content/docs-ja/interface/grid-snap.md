@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: グリッドとスナップ — 等間隔グリッドに図面を揃える（KulmanLab CAD）
 description: KulmanLab CAD のグリッドとスナップの切り替えボタンは、キャンバスに基準グリッドを表示してカーソルの動きをグリッド点にロックします。グリッド間隔は現在のズームレベルに自動的に適応し、常に切りの良いモデル値を表示します。
 keywords: [CAD グリッド, グリッドスナップ, グリッド間隔, 作図補助, kulmanlab, グリッドドット, 直交スナップ]
+group: interface
+order: 1
 ---
 
 # グリッドとスナップ

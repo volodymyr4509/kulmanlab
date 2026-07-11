@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: Texteditor — Rikt och enkelt läge i KulmanLab CAD
 description: KulmanLab CAD-texteditorn har två lägen — rikt (formatering per tecken, flera rader, radbrytning för Text och Multileader) och enkelt (enhetlig stil, en rad för måttsättningsentiteter). En lägesbricka i huvudet visar vilket läge som är aktivt.
 keywords: [CAD-texteditor, MTEXT, fet kursiv CAD, textformatering CAD, flerradig text CAD, radbrytning CAD, rik texteditor, enkel texteditor, texteditor för måttsättning, anpassat typsnitt CAD, ladda upp TTF CAD, kulmanlab]
+group: interface
+order: 5
 ---
 
 # Text Editor

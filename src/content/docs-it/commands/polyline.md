@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Comando Polyline — Disegnare Percorsi Multi-Segmento come Entità Singola in KulmanLab CAD
 description: Il comando Polyline disegna un numero qualsiasi di segmenti connessi memorizzati come una singola entità LWPOLYLINE. I grip di vertice e punto medio del segmento permettono di ridisegnare qualsiasi parte del percorso dopo la creazione. Supporta offset; non supporta trim o extend.
 keywords: [CAD comando polyline, disegna polilinea CAD, percorso multi-segmento CAD, LWPOLYLINE DXF, ridisegna polilinea, grip vertice CAD, offset polilinea, kulmanlab]
+group: shapes
+order: 2
 ---
 
 # Polyline

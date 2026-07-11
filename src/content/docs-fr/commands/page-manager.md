@@ -2,6 +2,8 @@
 title: Commande PageManager — Modifier la taille du papier et l'échelle de la mise en page dans KulmanLab CAD
 description: La commande PageManager ouvre le panneau de configuration de page pour la mise en page active, où vous pouvez changer le format du papier, l'orientation et l'échelle des unités de dessin.
 keywords: [gestionnaire de pages, configuration mise en page, taille papier, échelle dessin, espace mise en page, kulmanlab]
+group: layouts
+order: 3
 ---
 
 # PageManager

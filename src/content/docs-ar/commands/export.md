@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: أمر Export — تنزيل الرسومات بصيغة DXF أو JSON في KulmanLab CAD
 description: يُنزِّل أمر Export الرسم الحالي بصيغة DXF أو JSON (أصلي). يحفظ JSON جميع العناصر بما فيها الأبعاد وخطوط الإشارة؛ DXF متوافق مع أدوات CAD الأخرى.
 keywords: [تصدير DXF, تصدير ملف CAD, تنزيل DXF من المتصفح, حفظ DXF عبر الإنترنت, تصدير JSON CAD, تصدير KulmanLab, تنزيل ملف CAD, تصدير DXF, حفظ رسم إلى ملف, kulmanlab]
+group: file
+order: 5
 ---
 
 # Export

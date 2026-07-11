@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Match Properties — Kopiera entitetsegenskaper i KulmanLab CAD
 description: MatchProperties-kommandot kopierar färg, lager och andra delade egenskaper från en källentitet till en eller flera målentiteter. Matchar egenskaper på samma sätt som CAD-program för skrivbordet gör.
 keywords: [matcha egenskaper CAD, kopiera entitetsegenskaper, MATCHPROP, matcha lagerfärg, överför egenskaper, kulmanlab match properties, måla egenskaper, kopiera lager CAD]
+group: style
+order: 1
 ---
 
 # Match Properties

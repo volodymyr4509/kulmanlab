@@ -2,6 +2,8 @@
 title: "KulmanLab CAD — کمانڈ حوالہ"
 description: "KulmanLab CAD کمانڈ حوالہ — KulmanLab CAD میں ہر ڈرائنگ، ترمیم، مارک اپ، پرت، پیمائش اور فائل کمانڈ کا مکمل رہنما۔"
 keywords: [KulmanLab, KulmanLab CAD, CAD کمانڈز, مفت براؤزر CAD, DXF ایڈیٹر آن لائن, ڈرائنگ کمانڈز, kulmanlab کمانڈز]
+group: overview
+order: 1
 ---
 
 # KulmanLab CAD — کمانڈ حوالہ

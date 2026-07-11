@@ -1,8 +1,9 @@
 ---
-sidebar_position: 6
 title: Delete コマンド — 図面からエンティティを削除（KulmanLab CAD）
 description: delete コマンドは選択したエンティティを永続的に削除します（元に戻す可能）。事前選択したエンティティは確認ステップなしで即座に削除されます。Delete キーはコマンドを起動せずにグローバルショートカットとして機能します。シングルクリックおよび範囲選択をサポートします。
 keywords: [CAD 削除コマンド, エンティティ削除 CAD, オブジェクト消去 CAD, Delete キー CAD, 削除 元に戻す CAD, kulmanlab, delete]
+group: edit
+order: 7
 ---
 
 # Delete

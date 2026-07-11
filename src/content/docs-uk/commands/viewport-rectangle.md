@@ -1,8 +1,9 @@
 ---
-sidebar_position: 39
 title: Команда ViewportRectangle — Створити вікно перегляду в паперовому компонуванні у KulmanLab CAD
 description: Команда ViewportRectangle створює прямокутне вікно перегляду в активному паперовому компонуванні. Підтримує введення координат. Після створення редагуйте ручками — кути, краї, центр, масштаб та блокування.
 keywords: [CAD команда viewport rectangle, вікно перегляду компонування CAD, паперове компонування CAD, kulmanlab]
+group: layouts
+order: 1
 ---
 
 # ViewportRectangle

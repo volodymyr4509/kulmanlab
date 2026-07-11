@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Rotate Command — Rotate Entities Around a Base Point in KulmanLab CAD
 description: The Rotate command rotates selected entities around a chosen base point. Angle can be typed precisely or set by clicking — the cursor direction from base point to click determines the angle. Positive angles are counter-clockwise in DXF coordinates.
 keywords: [CAD rotate command, rotate entities CAD, rotate objects angle, counter-clockwise rotation CAD, typed angle rotate, kulmanlab]
+group: edit
+order: 3
 ---
 
 # Rotate

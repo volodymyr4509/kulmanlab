@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: Fit コマンド — ワンクリックですべてのエンティティをビューポートに収める（KulmanLab CAD）
 description: fit コマンドはすべてのエンティティのバウンディングボックスを計算し、すべてのエンティティが小さなマージンで表示されるようにズームとパンを調整します。マウスホイールのダブルクリックでコマンドを起動せずに Fit を実行できます。
 keywords: [CAD フィット表示, ズームして全体表示, すべてのエンティティをフレーム, fit コマンド CAD, バウンディングボックスズーム, kulmanlab, fit]
+group: navigate
+order: 4
 ---
 
 # Fit

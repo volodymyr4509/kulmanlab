@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Copy-Befehl — Elemente an einer neuen Position duplizieren in KulmanLab CAD
 description: Der Copy-Befehl erstellt verschobene Duplikate ausgewählter Elemente, während die Originale an ihrer Position verbleiben. Unterstützt Vorauswahl, Winkelsperre und genaue Abstandseingabe. Die Kopien werden platziert und der Befehl endet; Originale bleiben unverändert.
 keywords: [CAD-Kopierbefehl, Elemente duplizieren CAD, Objekte kopieren CAD, Geometrie klonen CAD, Winkelsperre kopieren, exakter Abstand kopieren, kulmanlab]
+group: edit
+order: 2
 ---
 
 # Copy

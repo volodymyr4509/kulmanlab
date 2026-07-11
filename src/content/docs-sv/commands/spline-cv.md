@@ -1,8 +1,9 @@
 ---
-sidebar_position: 8
 title: Spline CV-kommandot — Rita B-splines genom att placera styrpunkter i KulmanLab CAD
 description: Spline CV-kommandot ritar en kubisk B-spline genom att placera styrpunkter. Kurvan dras mot styrpunkterna men passerar bara genom den första och sista (låsta knutar). Varje CV-grepp kan dras för att omforma kurvan efter placering. Fullständig DXF-rundtur som SPLINE-entiteter.
 keywords: [CAD splinekommando, B-spline styrpunkter, låst spline CAD, rita spline CAD, SPLINE DXF-entitet, redigera splinegrepp, kulmanlab]
+group: shapes
+order: 8
 ---
 
 # Spline CV

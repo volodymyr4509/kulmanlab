@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: "Polecenie Zoom In — Powiększanie widoku o 1,5× na krok w KulmanLab CAD"
 description: "Polecenie Zoom In mnoży bieżący poziom powiększenia o 1,5× i natychmiast kończy się, wyśrodkowane na środku widoku. Zakres powiększenia 0,01–10 000. Użyj kółka myszy, aby powiększyć w kierunku kursora."
 keywords: [CAD powiększ, powiększenie widoku, polecenie powiększenia CAD, krok powiększenia 1,5x, kulmanlab]
+group: navigate
+order: 2
 ---
 
 # Zoom In

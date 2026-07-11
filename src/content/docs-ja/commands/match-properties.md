@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Match Properties — エンティティのプロパティをコピー（KulmanLab CAD）
 description: MatchProperties コマンドはソースエンティティから 1 つ以上の対象エンティティに色、レイヤー、その他の共有プロパティをコピーします。デスクトップ CAD ツールと同じ方法でプロパティを一致させます。
 keywords: [プロパティの一致 CAD, エンティティプロパティのコピー, MATCHPROP, レイヤー色一致, プロパティ転送, kulmanlab プロパティの一致, ペイントプロパティ, レイヤーコピー CAD]
+group: style
+order: 1
 ---
 
 # Match Properties（プロパティの一致）

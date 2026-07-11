@@ -2,6 +2,8 @@
 title: Font Manager コマンド — カスタム TTF フォントのアップロードと管理（KulmanLab CAD）
 description: Font Manager コマンドは、フォントの閲覧・プレビュー・選択と、独自の .ttf ファイルのアップロードを行うダイアログを開きます。アップロードしたフォントはブラウザに保存され、DXF エクスポートに名前で埋め込まれます。
 keywords: [フォントマネージャー, カスタムフォント CAD, TTF アップロード, カスタム書体 CAD, Google Fonts CAD, テキストフォント CAD, kulmanlab]
+group: style
+order: 2
 ---
 
 # Font Manager（フォントマネージャー）

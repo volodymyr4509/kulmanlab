@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Vector Pins — Lekap di Sepanjang Garisan Rujukan Melalui Titik yang Disemat dalam KulmanLab CAD
 description: Vector Pins membolehkan anda menyemat titik lekapan dengan menuding kursor padanya selama setengah saat, kemudian menjejaki kursor di sepanjang garisan rujukan mendatar dan menegak bergaris putus yang melalui titik yang disemat — jajarkan geometri baharu dengan titik sedia ada tanpa garisan binaan.
 keywords: [vector pins, penjejakan lekapan objek, garisan rujukan, penjejakan penjajaran, penjejakan lekapan CAD, garisan binaan, kulmanlab]
+group: interface
+order: 2
 ---
 
 # Vector Pins

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerIsolate コマンド — 選択エンティティ以外のレイヤーをフリーズ（KulmanLab CAD）
 description: LayerIsolate コマンドは選択したオブジェクトが属するレイヤー以外のすべてのレイヤーをフリーズします。何も削除せず特定の図形に集中できます。
 keywords: [レイヤーアイソレート, レイヤーフリーズ CAD, レイヤー分離 kulmanlab, CAD レイヤー管理]
+group: layer
+order: 3
 ---
 
 # LayerIsolate

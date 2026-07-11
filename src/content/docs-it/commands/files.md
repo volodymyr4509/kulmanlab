@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Files — Pannello File Recenti in KulmanLab CAD
 description: Il comando Files apre il pannello File Recenti — sfoglia tutti i disegni salvati nel tuo browser, ripristina qualsiasi disegno sul canvas, o elimina quelli non più necessari.
 keywords: [file recenti CAD, cronologia file browser CAD, ripristina disegno, riapri DXF, archivio browser CAD, KulmanLab files, disegni salvati, IndexedDB CAD, gestisci disegni]
+group: file
+order: 3
 ---
 
 # Files

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Commande Rectangle — Tracer des rectangles alignés sur les axes dans KulmanLab CAD
 description: La commande Rectangle crée un rectangle aligné sur les axes à partir de deux coins opposés. Le résultat est une LWPOLYLINE fermée à quatre sommets — identique à toute autre polyligne une fois placée, donc chaque commande d'édition de polyligne s'y applique.
 keywords: [commande rectangle CAO, tracer rectangle CAO, rectangle aligné axes, polyligne fermée CAO, LWPOLYLINE DXF, édition poignée rectangle, kulmanlab]
+group: shapes
+order: 3
 ---
 
 # Rectangle

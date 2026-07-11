@@ -1,8 +1,9 @@
 ---
-sidebar_position: 12
 title: Leader+ 명령어 — KulmanLab CAD에서 기존 다중 지시선에 화살표 팔 추가
 description: Leader+ 명령어는 기존 다중 지시선에 새 화살표 팔을 추가합니다. 새 팔은 선택한 지시선의 꺾임, 텍스트 및 모든 스타일을 공유합니다. 두 번의 클릭 — 지시선 선택, 새 끝 배치.
 keywords: [CAD 지시선 팔 추가, 지시선+ 명령어, 지시선에 화살표 추가, 다중 지시선 팔, kulmanlab]
+group: markup
+order: 2
 ---
 
 # Leader+

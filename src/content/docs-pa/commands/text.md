@@ -1,8 +1,9 @@
 ---
-sidebar_position: 7
 title: "Text ਕਮਾਂਡ — KulmanLab CAD ਵਿੱਚ MTEXT ਲੇਬਲ ਰੱਖੋ"
 description: "Text ਕਮਾਂਡ ਇੱਕ ਮਲਟੀ-ਲਾਈਨ, ਅਮੀਰ ਢੰਗ ਨਾਲ ਫਾਰਮੈਟ ਕੀਤਾ MTEXT ਲੇਬਲ ਰੱਖਦੀ ਹੈ। ਇੱਕ ਸਥਿਤੀ 'ਤੇ ਕਲਿੱਕ ਕਰੋ, ਪੌਪਅੱਪ ਐਡੀਟਰ ਵਿੱਚ ਟਾਈਪ ਕਰੋ, ਅਤੇ ਕਮਿੱਟ ਕਰਨ ਲਈ Escape ਦਬਾਓ। ਕਿਸੇ ਵੀ ਮੌਜੂਦਾ ਲੇਬਲ 'ਤੇ ਡਬਲ-ਕਲਿੱਕ ਕਰਕੇ ਐਡੀਟਰ ਦੁਬਾਰਾ ਖੋਲ੍ਹੋ।"
 keywords: [CAD ਟੈਕਸਟ ਕਮਾਂਡ, MTEXT, ਟੈਕਸਟ ਲੇਬਲ ਰੱਖੋ CAD, ਟੈਕਸਟ ਐਨੋਟੇਸ਼ਨ CAD, ਬੋਲਡ ਇਟੈਲਿਕ CAD, ਮਲਟੀ-ਲਾਈਨ ਟੈਕਸਟ CAD, kulmanlab]
+group: shapes
+order: 7
 ---
 
 # Text

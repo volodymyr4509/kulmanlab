@@ -1,8 +1,9 @@
 ---
-sidebar_position: 11
 title: "Commande Leader− — Supprimer un bras de pointe de flèche d'un multirépère dans KulmanLab CAD"
 description: "La commande Leader− supprime un bras de pointe de flèche d'un multirépère qui en a deux ou plus. Placez le curseur près du bras à supprimer — le bras le plus proche est mis en évidence. La brisure, le texte et les bras restants sont conservés."
 keywords: [supprimer bras répère CAO, commande leader-, supprimer flèche répère, supprimer bras multirépère, kulmanlab]
+group: markup
+order: 3
 ---
 
 # Leader−

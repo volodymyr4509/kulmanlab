@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Undo Command — Step Back Through Drawing History in KulmanLab CAD
 description: The Undo command reverses the last drawing action one step at a time. Up to 20 steps are stored per file and persisted in the browser across page reloads. Performing a new action after undoing clears the redo stack.
 keywords: [CAD undo command, undo history CAD, reverse action CAD, undo steps CAD, browser persistent undo, kulmanlab]
+group: edit
+order: 13
 ---
 
 # Undo

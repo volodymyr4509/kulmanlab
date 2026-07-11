@@ -2,6 +2,8 @@
 title: ViewportCopy命令 — 在 KulmanLab CAD 中复制视口
 description: 复制视口命令将选中的视口复制到同一布局中的新位置，保留比例和模型视图设置。支持精确坐标输入、角度锁定和输入距离。
 keywords: [复制视口, 复制视口布局, 角度锁定视口, 精确坐标视口, kulmanlab]
+group: layouts
+order: 2
 ---
 
 # ViewportCopy

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 21
 title: Команда Undo — Скасувати дії в історії кресленика у KulmanLab CAD
 description: Команда Undo скасовує останню дію редагування на один крок. Зберігається до 20 кроків на файл у браузері (IndexedDB), і стан відновлюється після перезавантаження сторінки. Нова дія після Undo очищає стек Redo.
 keywords: [CAD команда undo, скасувати дію CAD, Ctrl+Z CAD, історія undo CAD, браузерна история undo, kulmanlab]
+group: edit
+order: 13
 ---
 
 # Undo

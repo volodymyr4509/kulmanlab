@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Commande Line — Tracer, enchaîner, raccorder et prolonger des lignes dans KulmanLab CAD
 description: La commande Line trace des segments de droite individuels pouvant être enchaînés bout à bout. Les lignes sont le seul type d'entité sur lequel Trim et Extend fonctionnent. Aller-retour DXF complet en tant qu'entités LINE.
 keywords: [commande line CAO, tracer ligne droite CAO, enchaîner segments de ligne, raccorder ligne CAO, prolonger ligne CAO, verrouillage angle CAO, entité DXF LINE, kulmanlab]
+group: shapes
+order: 1
 ---
 
 # Line

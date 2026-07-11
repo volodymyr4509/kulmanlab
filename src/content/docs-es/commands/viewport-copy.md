@@ -2,6 +2,8 @@
 title: Comando ViewportCopy — Duplicar una Ventana Gráfica en KulmanLab CAD
 description: El comando ViewportCopy duplica una ventana gráfica seleccionada a una nueva posición en el mismo diseño, preservando la escala y la configuración de la vista del modelo. Admite entrada de coordenadas exactas, bloqueo de ángulo y entrada de distancia escrita.
 keywords: [copiar ventana gráfica, duplicar viewport, copiar viewport en diseño, bloqueo de ángulo viewport, coordenada exacta viewport, kulmanlab]
+group: layouts
+order: 2
 ---
 
 # ViewportCopy

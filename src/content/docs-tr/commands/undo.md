@@ -1,8 +1,9 @@
 ---
-sidebar_position: 21
 title: Undo Komutu — KulmanLab CAD'de Çizim Geçmişinde Geri Adım At
 description: Undo komutu, son çizim işlemini seferinde bir adım tersine çevirir. Dosya başına en fazla 20 adım saklanır ve sayfa yeniden yüklemelerinde tarayıcıda kalıcı olarak tutulur. Geri alındıktan sonra yeni bir işlem yapmak redo yığınını temizler.
 keywords: [CAD undo komutu, undo geçmişi CAD, işlemi tersine çevir CAD, undo adımları CAD, tarayıcı kalıcı undo, kulmanlab]
+group: edit
+order: 13
 ---
 
 # Undo

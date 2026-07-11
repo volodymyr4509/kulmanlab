@@ -1,8 +1,9 @@
 ---
-sidebar_position: 20
 title: Fillet コマンド — 2 直線の角を丸める（KulmanLab CAD）
 description: fillet コマンドは指定した半径の接線円弧を挿入して 2 つの Line エンティティの角を丸め、各直線を接点まで切り戻します。クリック前に破線の円弧プレビューで正しいコーナーを確認できます。
 keywords: [CAD フィレットコマンド, コーナーを丸める CAD, フィレット円弧, 2直線への接線円弧, kulmanlab, fillet]
+group: edit
+order: 11
 ---
 
 # Fillet

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Export — Mengunduh Gambar sebagai DXF atau JSON di KulmanLab CAD
 description: Perintah Export mengunduh gambar saat ini sebagai file DXF atau JSON (asli). JSON mempertahankan semua entitas termasuk dimensi dan leader; DXF kompatibel dengan alat CAD lainnya.
 keywords: [ekspor DXF, ekspor file CAD, unduh DXF browser, simpan DXF online, ekspor JSON CAD, KulmanLab export, unduh file CAD, ekspor DXF, simpan gambar ke file, unduh DXF, kulmanlab]
+group: file
+order: 5
 ---
 
 # Export

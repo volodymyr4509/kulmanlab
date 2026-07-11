@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Line命令 — 在 KulmanLab CAD 中绘制、连接、修剪和延伸直线
 description: Line 命令绘制可以首尾相接的单独直线段。直线是修剪和延伸命令唯一支持的图元类型。完整支持 DXF 的 LINE 实体往返转换。
 keywords: [CAD Line 命令, 绘制直线 CAD, 连接线段, 修剪直线 CAD, 延伸直线 CAD, 角度锁定 CAD, DXF LINE 实体, kulmanlab]
+group: shapes
+order: 1
 ---
 
 # Line

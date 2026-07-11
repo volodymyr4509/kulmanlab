@@ -1,8 +1,9 @@
 ---
-sidebar_position: 17
 title: "Commande Dimension Diameter — Annoter les Diamètres Complets des Cercles et Arcs dans KulmanLab CAD"
 description: "La commande Dimension Diameter place une cote de diamètre (avec le symbole de diamètre en préfixe) à travers un arc ou un cercle en passant par le centre. Déplacez le curseur pour faire pivoter la ligne de cote à tout angle. Export complet en DXF comme entités DIMENSION de type diamètre."
 keywords: [cote diamètre CAO, dimdiameter, annoter diamètre cercle, cote diamètre arc, symbole diamètre CAO, kulmanlab]
+group: markup
+order: 8
 ---
 
 # Dimension Diameter

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Help-Befehl
 description: Öffnet das In-App-Hilfe-Panel in KulmanLab CAD. Zeigt Tastenkombinationen, Navigationshinweise und Kontaktinformationen.
 keywords: [CAD, Hilfe, Tastenkombinationen, Kontakt, kulmanlab]
+group: overview
+order: 2
 ---
 
 # Help

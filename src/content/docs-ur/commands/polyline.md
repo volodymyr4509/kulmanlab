@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: "Polyline کمانڈ — KulmanLab CAD میں ملٹی سیگمنٹ راستے ایک اینٹیٹی کے طور پر بنائیں"
 description: "Polyline کمانڈ کسی بھی تعداد کے متصل سیگمنٹس ایک LWPOLYLINE اینٹیٹی کے طور پر بناتی ہے۔ ورٹیکس اور سیگمنٹ درمیانی نقطے کے گرپس راستے کو تشکیل دینے دیتے ہیں۔ آفسیٹ سپورٹ کرتی ہے؛ ٹرم یا ایکسٹینڈ سپورٹ نہیں۔"
 keywords: [CAD polyline کمانڈ, polyline بنائیں CAD, ملٹی سیگمنٹ راستہ CAD, LWPOLYLINE DXF, polyline تشکیل, ورٹیکس گرپ CAD, آفسیٹ polyline, kulmanlab]
+group: shapes
+order: 2
 ---
 
 # Polyline

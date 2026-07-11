@@ -1,6 +1,8 @@
 ---
 title: Files — Bảng Tệp Gần Đây trong KulmanLab CAD
 description: Lệnh Files mở bảng Tệp Gần Đây — duyệt tất cả bản vẽ được lưu trong trình duyệt, khôi phục bất kỳ bản vẽ nào lên canvas, hoặc xóa những bản không cần nữa.
+group: file
+order: 3
 ---
 
 # Files

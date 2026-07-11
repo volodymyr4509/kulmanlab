@@ -1,8 +1,9 @@
 ---
-sidebar_position: 9
 title: "Spline Fit Command — Draw Interpolating Splines Through Clicked Points in KulmanLab CAD"
 description: "Amri ya Spline Fit inachora spline ya cubic inayopita kwenye kila nukta iliyobonyezwa hasa. Ndani mkunjo huhifadhiwa na nukta za ulingano na ncha za udhibiti zilizohesabiwa. Kuburuta kishiko cha nukta ya ulingano kunalingania upya mkunjo wote. Safari kamili ya DXF kama vipande vya SPLINE."
 keywords: [CAD spline fit command, interpolating spline CAD, spline through points, draw smooth curve CAD, SPLINE DXF fit points, spline grip editing, kulmanlab]
+group: shapes
+order: 9
 ---
 
 # Spline Fit

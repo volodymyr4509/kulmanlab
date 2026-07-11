@@ -2,6 +2,8 @@
 title: Commande Font Manager — Téléverser et Gérer des Polices TTF Personnalisées dans KulmanLab CAD
 description: La commande Font Manager ouvre un dialogue pour parcourir, prévisualiser et sélectionner des polices, et pour téléverser vos propres fichiers .ttf. Les polices téléversées sont enregistrées dans le navigateur et intégrées par leur nom dans les exports DXF.
 keywords: [font manager, police personnalisée CAO, téléverser ttf, typographie personnalisée CAO, google fonts CAO, police de texte CAO, kulmanlab]
+group: style
+order: 2
 ---
 
 # Font Manager

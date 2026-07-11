@@ -2,6 +2,8 @@
 title: "ViewportRectangle Command — Create a Viewport in a Layout in KulmanLab CAD"
 description: "Amri ya ViewportRectangle huunda mwonekano katika mpangilio wa karatasi kwa kuchagua kona mbili zilizo kinyume. Mwonekano unaonyesha vipande vya nafasi ya mfano kwa kiwango cha chaguo-msingi cha mpangilio."
 keywords: [viewport rectangle, create viewport, layout viewport, paper space viewport, kulmanlab]
+group: layouts
+order: 1
 ---
 
 # ViewportRectangle

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Export — Pakua Michoro kama DXF au JSON katika KulmanLab CAD
 description: "Amri ya Export hupakua mchoro wa sasa kama faili la DXF au JSON (asili). JSON huhifadhi viumbe vyote ikiwa ni pamoja na vipimo na viongozi; DXF inaweza kufanya kazi na zana nyingine za CAD."
 keywords: [export DXF, export CAD file, download DXF browser, save DXF online, export JSON CAD, KulmanLab export, CAD file download, DXF export, save drawing to file, DXF download]
+group: file
+order: 5
 ---
 
 # Export

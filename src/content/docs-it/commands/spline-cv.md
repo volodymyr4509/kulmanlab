@@ -1,8 +1,9 @@
 ---
-sidebar_position: 8
 title: Comando Spline CV — Disegnare B-Spline Posizionando Vertici di Controllo in KulmanLab CAD
 description: Il comando Spline CV disegna una B-spline cubica posizionando vertici di controllo. La curva è attratta verso i vertici ma passa solo attraverso il primo e l'ultimo (nodi bloccati). Ogni grip CV può essere trascinato per ridisegnare la curva dopo il posizionamento. Round-trip DXF completo come entità SPLINE.
 keywords: [CAD comando spline, B-spline vertici controllo, spline bloccata CAD, disegna spline CAD, entità SPLINE DXF, modifica grip spline, kulmanlab]
+group: shapes
+order: 8
 ---
 
 # Spline CV

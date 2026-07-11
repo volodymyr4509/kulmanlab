@@ -2,6 +2,8 @@
 title: "ViewportCopy Command — Duplicate a Viewport in KulmanLab CAD"
 description: "Amri ya ViewportCopy huiga mwonekano uliochaguliwa kwenye nafasi mpya katika mpangilio uleule, ukihifadhi mipangilio ya kiwango na mwonekano wa mfano. Inasaidia uingizaji sahihi wa kuratibu, kufunga pembe, na uingizaji wa umbali ulioandikwa."
 keywords: [viewport copy, duplicate viewport, copy viewport layout, angle lock viewport, exact coordinate viewport, kulmanlab]
+group: layouts
+order: 2
 ---
 
 # ViewportCopy

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 20
 title: Arahan Fillet — Bundarkan Sudut antara Dua Garis dalam KulmanLab CAD
 description: Arahan Fillet menghubungkan dua entiti Line dengan lengkok tangen berjejari tertentu, memotong setiap garis kembali ke titik tangen. Pratonton lengkok bertitik-titik membantu anda memilih sudut yang betul sebelum mengklik.
 keywords: [arahan fillet CAD, bundarkan sudut CAD, lengkok fillet, lengkok tangen dua garis, kulmanlab]
+group: edit
+order: 11
 ---
 
 # Fillet

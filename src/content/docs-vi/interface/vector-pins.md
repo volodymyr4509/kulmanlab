@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Vector Pins — Bắt Điểm Dọc Theo Đường Tham Chiếu Qua Các Điểm Đã Ghim trong KulmanLab CAD
 description: Vector Pins cho phép bạn ghim một điểm bắt bằng cách giữ con trỏ trên nó nửa giây, sau đó theo dõi con trỏ dọc theo các đường tham chiếu ngang và dọc nét đứt đi qua điểm đã ghim — căn chỉnh hình học mới với các điểm hiện có mà không cần đường dựng hình.
 keywords: [vector pins, theo dõi bắt điểm đối tượng, đường tham chiếu, theo dõi căn chỉnh, theo dõi bắt điểm CAD, đường dựng hình, kulmanlab]
+group: interface
+order: 2
 ---
 
 # Vector Pins

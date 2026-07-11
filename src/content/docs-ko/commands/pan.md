@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Pan 명령어 — KulmanLab CAD에서 클릭하고 드래그하는 뷰포트 탐색
 description: 초점 이동 명령어는 지속적인 드래그-스크롤 모드를 시작합니다. 캔버스의 아무 곳이나 클릭하고 드래그하여 확대/축소 수준을 변경하지 않고 뷰를 이동합니다. 가운데 클릭 드래그는 초점 이동을 활성화하지 않고도 항상 작동합니다.
 keywords: [CAD 초점 이동 뷰포트, 초점 이동 명령어, 드래그하여 탐색, 캔버스 스크롤 CAD, 뷰포트 탐색, kulmanlab]
+group: navigate
+order: 1
 ---
 
 # Pan

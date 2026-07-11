@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Print コマンド — 図面を PNG、JPEG、WebP、または PDF でエクスポート（KulmanLab CAD）
 description: Print コマンドは印刷マネージャーを開きます — ライブプレビュー、フォーマット選択、モノクロ切り替え、オプションのエリア選択を備えた専用エクスポートウィンドウです。最大 2000×2000 px のエクスポートに対応。PNG、JPEG、WebP、PDF をサポート。
 keywords: [CAD PNG エクスポート, CAD PDF エクスポート, CAD 図面印刷, 印刷マネージャー, モノクロエクスポート, kulmanlab エクスポート]
+group: file
+order: 4
 ---
 
 # Print（印刷）

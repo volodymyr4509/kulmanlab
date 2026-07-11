@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerIsolate — Πάγωμα Όλων των Επιπέδων Εκτός από τα Επιλεγμένα στο KulmanLab CAD
 description: Η εντολή LayerIsolate παγώνει κάθε επίπεδο εκτός από αυτά που χρησιμοποιούνται από τα επιλεγμένα αντικείμενα, επιτρέποντάς σας να εστιάσετε σε συγκεκριμένη γεωμετρία χωρίς να διαγράψετε τίποτα.
 keywords: [layer isolate, πάγωμα επιπέδων CAD, απομόνωση επιπέδου kulmanlab, διαχείριση επιπέδων CAD]
+group: layer
+order: 3
 ---
 
 # LayerIsolate

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 11
 title: Comando offset — Crear copias paralelas a una distancia fija en KulmanLab CAD
 description: El comando offset crea una copia paralela de una Line, Circle, Arc, Ellipse o Polyline a una distancia escrita. La distancia se introduce una vez y se reutiliza para múltiples desplazamientos. Un clic lateral determina en qué dirección aparece la copia. Se admiten cinco tipos de entidad.
 keywords: [comando offset CAD, copia paralela CAD, desplazar línea CAD, desplazar círculo CAD, desplazar polilínea CAD, desplazamiento concéntrico, kulmanlab]
+group: edit
+order: 10
 ---
 
 # Offset

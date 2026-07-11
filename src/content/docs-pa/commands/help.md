@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: "Help ਕਮਾਂਡ"
 description: "KulmanLab CAD ਵਿੱਚ ਐਪ-ਅੰਦਰੂਨੀ ਹੈਲਪ ਪੈਨਲ ਖੋਲ੍ਹੋ। ਕੀਬੋਰਡ ਸ਼ਾਰਟਕੱਟ, ਨੈਵੀਗੇਸ਼ਨ ਟਿਪਸ, ਅਤੇ ਸੰਪਰਕ ਜਾਣਕਾਰੀ ਦਿਖਾਉਂਦਾ ਹੈ।"
 keywords: [CAD, help, keyboard shortcuts, contact, kulmanlab]
+group: overview
+order: 2
 ---
 
 # Help

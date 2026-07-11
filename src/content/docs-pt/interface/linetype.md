@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Seletor de Tipo de Linha — Controlar Padrões de Traço no KulmanLab CAD
 description: O seletor de tipo de linha na barra de ferramentas do KulmanLab CAD define o padrão de traço aplicado a todas as entidades desenhadas subsequentemente. Suporta todos os tipos de linha carregados do arquivo DXF atual mais as opções ByLayer, ByBlock e Continuous embutidas.
 keywords: [CAD tipo linha, padrão traço, linha tracejada, DXF linetype, ByLayer linetype, kulmanlab]
+group: interface
+order: 3
 ---
 
 # Tipo de linha

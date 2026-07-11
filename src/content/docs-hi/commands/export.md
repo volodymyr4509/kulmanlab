@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Export — KulmanLab CAD में DXF या JSON के रूप में ड्राइंग डाउनलोड करें
 description: Export कमांड वर्तमान ड्राइंग को DXF (AutoCAD) या JSON (नेटिव) फ़ाइल के रूप में डाउनलोड करती है। JSON माप और लीडर सहित सभी ऑब्जेक्ट सुरक्षित रखता है; DXF AutoCAD और अन्य CAD टूल्स के साथ संगत है।
 keywords: [DXF निर्यात, CAD फ़ाइल निर्यात, ब्राउज़र DXF डाउनलोड, ऑनलाइन DXF सेव, JSON CAD निर्यात, KulmanLab निर्यात, CAD फ़ाइल डाउनलोड, ड्राइंग फ़ाइल में सेव]
+group: file
+order: 5
 ---
 
 # Export

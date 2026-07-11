@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Line Command — Draw, Chain, Trim and Extend Lines in KulmanLab CAD
 description: "Amri ya Line inachora sehemu za mstari mzito zinazoweza kuunganishwa mwisho hadi mwisho. Mistari ndiyo aina pekee ya kipengele ambacho Trim na Extend zinafanya kazi nacho. Uhifadhi kamili wa DXF kama vipande vya LINE."
 keywords: [CAD line command, draw straight line CAD, chain line segments, trim line CAD, extend line CAD, angle lock CAD, DXF LINE entity, kulmanlab]
+group: shapes
+order: 1
 ---
 
 # Line

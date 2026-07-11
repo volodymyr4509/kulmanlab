@@ -1,8 +1,9 @@
 ---
-sidebar_position: 16
 title: Commande Dimension Radius — Annoter les Rayons des Arcs et Cercles dans KulmanLab CAD
 description: La commande Dimension Radius place une cote radiale avec préfixe R sur un arc ou un cercle. Cliquez sur l'entité, puis déplacez le curseur pour orienter la ligne de cote du centre vers la circonférence. Export complet en DXF comme entités DIMENSION de type rayon.
 keywords: [cote rayon CAO, dimradius, annoter rayon cercle, cote rayon arc, cote préfixe R, kulmanlab]
+group: markup
+order: 7
 ---
 
 # Dimension Radius

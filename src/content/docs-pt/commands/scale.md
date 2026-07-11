@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Comando Scale — Redimensionar Entidades Uniformemente em torno de um Ponto Base no KulmanLab CAD
 description: O comando Scale redimensiona as entidades selecionadas uniformemente por um fator digitado em torno de um ponto base fixo. O fator é sempre inserido pelo teclado — não há clique-para-definir-escala. Um fator maior que 1 amplia; menor que 1 reduz. Todos os tipos de entidade são suportados.
 keywords: [CAD comando scale, redimensionar entidades CAD, escalar objetos CAD, escala uniforme CAD, fator escala CAD, ampliar reduzir CAD, kulmanlab]
+group: edit
+order: 5
 ---
 
 # Scale

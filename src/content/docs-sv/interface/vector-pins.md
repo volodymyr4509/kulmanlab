@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: "Vector Pins — Fäst längs referenslinjer genom nålade punkter i KulmanLab CAD"
 description: "Vector Pins låter dig nåla fast en fästpunkt genom att hålla markören över den i en halv sekund, och sedan spåra markören längs streckade horisontella och vertikala referenslinjer genom den nålade punkten — rikta in ny geometri mot befintliga punkter utan konstruktionslinjer."
 keywords: [vector pins, objektfästspårning, referenslinjer, inriktningsspårning, fästspårning CAD, konstruktionslinjer, kulmanlab]
+group: interface
+order: 2
 ---
 
 # Vector Pins

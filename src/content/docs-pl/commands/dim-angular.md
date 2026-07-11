@@ -1,8 +1,9 @@
 ---
-sidebar_position: 9
 title: Dimension Angular — Mierzenie kątów między liniami, łukami i okręgami w KulmanLab CAD
 description: Polecenie WymiarKąta umieszcza adnotację kąta na liniach, łukach lub okręgach. Obsługuje tryb kąta dwóch linii, zakresu łuku i sektora okręgu.
 keywords: [wymiar kąta CAD, wymiar kąta, mierzenie kąta między liniami, WymiarKąta, wymiar łuku, adnotacja kąta, opis kąta CAD, kulmanlab wymiar kąta]
+group: markup
+order: 9
 ---
 
 # Dimension Angular

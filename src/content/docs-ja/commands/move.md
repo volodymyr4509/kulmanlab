@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Move コマンド — 基点で選択エンティティを移動（KulmanLab CAD）
 description: Move コマンドは基点と目的地で 1 つ以上の選択エンティティを移動します。事前選択、角度ロック、正確な距離入力をサポートします。移動後もエンティティは新しい位置で選択されたままです。すべてのエンティティタイプに対応。
 keywords: [CAD 移動コマンド, エンティティ移動 CAD, オブジェクト移動 CAD, 角度ロック 移動, 正確な距離 移動, グリップ移動 CAD, kulmanlab]
+group: edit
+order: 1
 ---
 
 # Move（移動）

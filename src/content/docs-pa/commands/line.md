@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Line ਕਮਾਂਡ — KulmanLab CAD ਵਿੱਚ ਰੇਖਾਵਾਂ ਖਿੱਚੋ, ਜੋੜੋ, ਟ੍ਰਿਮ ਕਰੋ ਅਤੇ ਵਧਾਓ
 description: Line ਕਮਾਂਡ ਵੱਖਰੇ ਸਿੱਧੀ-ਰੇਖਾ ਖੰਡ ਖਿੱਚਦੀ ਹੈ ਜਿਹਨਾਂ ਨੂੰ ਸਿਰੇ-ਤੋਂ-ਸਿਰੇ ਜੋੜਿਆ ਜਾ ਸਕਦਾ ਹੈ। ਰੇਖਾਵਾਂ ਹੀ ਇੱਕੋ-ਇੱਕ ਇਕਾਈ ਕਿਸਮ ਹਨ ਜਿਹਨਾਂ 'ਤੇ Trim ਅਤੇ Extend ਕੰਮ ਕਰਦੇ ਹਨ। DXF ਵਿੱਚ LINE ਇਕਾਈਆਂ ਵਜੋਂ ਪੂਰਾ ਰਾਊਂਡ-ਟ੍ਰਿਪ।
 keywords: [CAD ਰੇਖਾ ਕਮਾਂਡ, ਸਿੱਧੀ ਰੇਖਾ ਖਿੱਚੋ CAD, ਜੋੜੀ ਰੇਖਾ ਖੰਡ, ਰੇਖਾ ਟ੍ਰਿਮ CAD, ਰੇਖਾ ਵਧਾਓ CAD, ਕੋਣ ਲਾਕ CAD, DXF LINE ਇਕਾਈ, kulmanlab]
+group: shapes
+order: 1
 ---
 
 # Line

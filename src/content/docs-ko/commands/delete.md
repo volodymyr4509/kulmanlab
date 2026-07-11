@@ -1,8 +1,9 @@
 ---
-sidebar_position: 6
 title: Delete 명령어 — KulmanLab CAD에서 도면에서 객체 제거
 description: Delete 명령어는 선택한 객체를 영구적으로 제거합니다(실행 취소 가능). 사전 선택된 객체는 확인 단계 없이 즉시 삭제됩니다. Delete 키는 명령어를 활성화하지 않고도 전역 단축키로 작동합니다. 단일 클릭 및 영역 선택을 지원합니다.
 keywords: [CAD Delete 명령어, 객체 제거 CAD, 지우기 CAD, Delete 키 CAD, 삭제 취소 CAD, kulmanlab]
+group: edit
+order: 7
 ---
 
 # Delete

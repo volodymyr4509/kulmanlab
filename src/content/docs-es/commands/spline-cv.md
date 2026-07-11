@@ -1,8 +1,9 @@
 ---
-sidebar_position: 8
 title: Comando Spline CV — Dibujar B-Splines Colocando Vértices de Control en KulmanLab CAD
 description: El comando Spline CV dibuja una B-spline cúbica colocando vértices de control. La curva es atraída hacia los vértices pero pasa solo por el primero y el último (nudos fijados). Cada agarre CV puede arrastrarse para reformar la curva tras la colocación. Compatibilidad total con DXF como entidades SPLINE.
 keywords: [comando spline CAD, B-spline vértices de control, spline fijada CAD, dibujar spline CAD, entidad SPLINE DXF, edición de agarres spline, kulmanlab]
+group: shapes
+order: 8
 ---
 
 # Spline CV

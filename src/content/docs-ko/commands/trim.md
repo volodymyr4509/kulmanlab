@@ -1,8 +1,9 @@
 ---
-sidebar_position: 7
 title: Trim 명령어 — KulmanLab CAD에서 교차점에서 선 세그먼트 자르기
 description: 자르기 명령어는 커서에 가장 가까운 두 인접 교차점 사이에 있는 선의 부분을 제거합니다. 빨간색 호버 미리보기가 클릭 전에 정확히 어떤 세그먼트가 잘릴지 보여줍니다. 자르기는 선 객체에서만 작동합니다 — 호, 원 또는 폴리선에서는 작동하지 않습니다.
 keywords: [CAD Trim 명령어, 선 자르기 CAD, 교차점에서 선 자르기, 호버 자르기 미리보기, 선만 자르기, kulmanlab]
+group: edit
+order: 8
 ---
 
 # Trim

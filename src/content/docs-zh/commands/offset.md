@@ -1,8 +1,9 @@
 ---
-sidebar_position: 11
 title: Offset命令 — 在 KulmanLab CAD 中以固定距离创建平行副本
 description: Offset 命令以输入的距离创建直线、圆、圆弧、椭圆或多段线的平行副本。距离输入一次并可用于多次偏移。侧面单击决定副本出现在哪个方向。支持五种图元类型。
 keywords: [CAD Offset 命令, 平行副本 CAD, 偏移直线 CAD, 偏移圆 CAD, 偏移多段线 CAD, 同心偏移, kulmanlab]
+group: edit
+order: 10
 ---
 
 # Offset

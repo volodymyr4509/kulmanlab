@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Rutnät & Snap — Justera ritningar mot ett regelbundet rutnät i KulmanLab CAD
 description: Reglagen Grid och Snap i KulmanLab CAD lägger ett referensrutnät ovanpå ritytan och låser markörrörelsen till rutnätspunkter. Rutnätsavståndet anpassas automatiskt till den aktuella zoomnivån så att det alltid visar runda modellvärden.
 keywords: [CAD-rutnät, snap till rutnät, rutnätsavstånd, ritningshjälpmedel, kulmanlab, rutnätspunkter, ortogonal snap]
+group: interface
+order: 1
 ---
 
 # Rutnät & Snap

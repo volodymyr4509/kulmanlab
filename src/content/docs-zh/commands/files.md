@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Files — KulmanLab CAD 最近文件面板
 description: 文件列表命令打开最近文件面板 — 浏览保存在浏览器中的所有图形，将其中任何一个恢复到画布上，或删除不再需要的文件。
 keywords: [最近文件 CAD, 文件历史浏览器 CAD, 恢复图形, 重新打开 DXF, 浏览器存储 CAD, KulmanLab 文件, 已保存图形, IndexedDB CAD, 管理图形, kulmanlab]
+group: file
+order: 3
 ---
 
 # Files

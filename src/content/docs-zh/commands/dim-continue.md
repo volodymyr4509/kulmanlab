@@ -1,8 +1,9 @@
 ---
-sidebar_position: 15
 title: Dimension Continue命令 — 在 KulmanLab CAD 中从已有基线链接标注
 description: Dimension Continue 命令从现有标注的第二条延伸线延伸标注链。它自动继承基础标注的角度、偏移量、箭头大小和文字高度。适用于线性和对齐基准。
 keywords: [CAD 连续标注, 连续标注命令, 链接标注 CAD, 基线标注, 连续标注系列, kulmanlab]
+group: markup
+order: 6
 ---
 
 # Dimension Continue

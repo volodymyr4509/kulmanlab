@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: أمر Match Properties — نسخ خصائص العناصر في KulmanLab CAD
 description: يُنسخ أمر MatchProperties اللون والطبقة وخصائص أخرى مشتركة من عنصر مصدر إلى عنصر أو أكثر من العناصر المستهدفة. يطابق الخصائص بالطريقة ذاتها التي تفعلها أدوات CAD لسطح المكتب.
 keywords: [مطابقة خصائص CAD, نسخ خصائص عناصر, MATCHPROP, مطابقة طبقة لون, نقل خصائص, خصائص مطابقة kulmanlab, طلاء خصائص, نسخ طبقة CAD]
+group: style
+order: 1
 ---
 
 # Match Properties

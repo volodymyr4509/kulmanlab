@@ -1,8 +1,9 @@
 ---
-sidebar_position: 10
 title: Leader Command — Gumuhit ng Multileader Annotations na may Arrowhead at Text sa KulmanLab CAD
 description: "Ginuguhit ng Leader command ang apat na phase na multileader annotation: arrowhead tip, dogleg elbow, text position, at na-type na label. Awtomatikong nag-a-adjust ang text direction base sa posisyon ng dogleg. Import-only sa DXF — hindi isinusulat ang mga leader kapag nag-save."
 keywords: [CAD leader command, multileader annotation, leader CAD, arrow label annotation, dogleg leader, text direction CAD, kulmanlab]
+group: markup
+order: 1
 ---
 
 # Leader

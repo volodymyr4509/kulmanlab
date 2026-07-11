@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Print 명령어 — KulmanLab CAD에서 도면을 PNG, JPEG, WebP 또는 PDF로 내보내기
 description: 인쇄 명령어는 인쇄 관리자를 엽니다 — 실시간 미리보기, 형식 선택기, 단색 전환 및 선택적 영역 선택이 있는 전용 내보내기 창입니다. 최대 2000×2000 픽셀 내보내기를 지원합니다. PNG, JPEG, WebP, PDF를 지원합니다.
 keywords: [CAD PNG 내보내기, CAD PDF 내보내기, CAD 도면 인쇄, 인쇄 관리자, 단색 내보내기, kulmanlab 내보내기, 도면 이미지 저장, CAD 스크린샷]
+group: file
+order: 4
 ---
 
 # Print

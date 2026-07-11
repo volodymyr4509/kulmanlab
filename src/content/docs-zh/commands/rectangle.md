@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Rectangle命令 — 在 KulmanLab CAD 中绘制轴对齐矩形
 description: 矩形命令通过两个对角单击创建轴对齐矩形。结果是一个带四个顶点的闭合 LWPOLYLINE — 放置后与任何其他多段线完全相同，因此每个多段线编辑命令都适用。
 keywords: [CAD Rectangle 命令, 绘制矩形 CAD, 轴对齐矩形, 闭合多段线 CAD, LWPOLYLINE DXF, 矩形夹点编辑, kulmanlab]
+group: shapes
+order: 3
 ---
 
 # Rectangle

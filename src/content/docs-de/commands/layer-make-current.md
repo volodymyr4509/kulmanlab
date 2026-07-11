@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerMakeCurrent — Den Layer einer Entität als aktuellen Layer setzen in KulmanLab CAD
 description: Der Befehl LayerMakeCurrent setzt den aktuellen Zeichnungslayer auf den Layer der angeklickten Entität.
 keywords: [Layer als aktuell setzen, aktuellen Layer setzen CAD, kulmanlab Layerverwaltung]
+group: layer
+order: 1
 ---
 
 # LayerMakeCurrent

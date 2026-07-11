@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: Commande Mirror — Symétriser des entités par rapport à un axe dans KulmanLab CAD
 description: La commande Mirror symétrise les entités sélectionnées par rapport à une ligne de symétrie définie par deux clics. Les originaux sont toujours conservés — Mirror crée de nouvelles copies symétriques. L'axe peut être à n'importe quel angle et se verrouille à des incréments de 45°.
 keywords: [commande mirror CAO, symétriser entités CAO, symétrie axiale CAO, retourner objets CAO, axe de symétrie CAO, kulmanlab]
+group: edit
+order: 4
 ---
 
 # Mirror

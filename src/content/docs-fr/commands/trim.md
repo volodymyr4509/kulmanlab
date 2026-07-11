@@ -1,8 +1,9 @@
 ---
-sidebar_position: 7
 title: Commande Trim — Couper des segments de ligne aux intersections dans KulmanLab CAD
 description: La commande Trim supprime la portion d'une Ligne entre deux points d'intersection adjacents les plus proches du curseur. Un aperçu de survol rouge montre exactement quel segment sera coupé avant de cliquer. Trim fonctionne sur les entités Line uniquement — pas sur les arcs, cercles ou polylignes.
 keywords: [commande trim CAO, raccorder ligne CAO, couper ligne intersection, aperçu trim survol, trim ligne uniquement, kulmanlab]
+group: edit
+order: 8
 ---
 
 # Trim

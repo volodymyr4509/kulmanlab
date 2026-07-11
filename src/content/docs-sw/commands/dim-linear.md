@@ -1,8 +1,9 @@
 ---
-sidebar_position: 13
 title: Amri ya Dimension Linear — Vipimo vya Usawa na Wima katika KulmanLab CAD
 description: "Amri ya Dimension Linear hupima umbali wa usawa au wima kati ya pointi mbili. Mstari wa kipimo daima uko sambamba na mhimili — bonyeza H au V kulinda mwelekeo, au acha nafasi ya kishale kuamua kiotomatiki. Uhifadhi kamili wa DXF kama viumbe vya DIMENSION."
 keywords: [CAD dimension linear, kipimo cha usawa CAD, kipimo cha wima CAD, dimlinear, H V orientation lock, dimension offset, kulmanlab]
+group: markup
+order: 4
 ---
 
 # Dimension Linear

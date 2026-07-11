@@ -1,8 +1,9 @@
 ---
-sidebar_position: 16
 title: คำสั่ง Dimension Radius — ระบุรัศมีของส่วนโค้งและวงกลมใน KulmanLab CAD
 description: คำสั่ง Dimension Radius วางมิติรัศมีนำหน้า R บนส่วนโค้งหรือวงกลม คลิกวัตถุ แล้วย้ายเคอร์เซอร์เพื่อจัดทิศทางเส้นมิติจากศูนย์กลางถึงเส้นรอบวง รองรับ DXF แบบสมบูรณ์เป็นวัตถุ DIMENSION ประเภท radius
 keywords: [มิติรัศมี CAD, dimradius, ระบุรัศมีวงกลม, มิติรัศมีส่วนโค้ง, มิตินำหน้า R, kulmanlab]
+group: markup
+order: 7
 ---
 
 # Dimension Radius

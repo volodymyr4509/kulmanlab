@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerMatch — กำหนดเลเยอร์วัตถุให้ตรงกับต้นทางใน KulmanLab CAD
 description: คำสั่ง LayerMatch กำหนดเลเยอร์ของวัตถุเป้าหมายหนึ่งหรือมากกว่าให้ตรงกับเลเยอร์ของวัตถุต้นทางที่คุณคลิก
 keywords: [layer match, จับคู่เลเยอร์ CAD, กำหนดเลเยอร์ใหม่ kulmanlab, การจัดการเลเยอร์ CAD]
+group: layer
+order: 2
 ---
 
 # LayerMatch

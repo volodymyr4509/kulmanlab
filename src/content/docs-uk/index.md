@@ -2,6 +2,8 @@
 title: KulmanLab CAD — Довідник команд
 description: Довідник команд KulmanLab CAD — повний посібник з усіх команд креслення, редагування, розмітки, шарів, вимірювань та файлів у KulmanLab CAD.
 keywords: [KulmanLab, KulmanLab CAD, CAD команди, безкоштовний браузерний CAD, DXF редактор онлайн, команди креслення, kulmanlab команди]
+group: overview
+order: 1
 ---
 
 # KulmanLab CAD — Довідник команд

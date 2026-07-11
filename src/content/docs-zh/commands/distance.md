@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Distance命令 — 在 KulmanLab CAD 中测量两点之间的直线距离
 description: Distance 命令测量两个单击点之间的欧几里得距离，并以 4 位小数在命令行中显示结果。结果显示后再次单击可从最后一点开始链式测量。
 keywords: [CAD 测量距离, 距离命令, 点到点测量, 直线距离, kulmanlab CAD 测量, kulmanlab]
+group: measure
+order: 1
 ---
 
 # Distance

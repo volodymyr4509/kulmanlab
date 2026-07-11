@@ -2,6 +2,8 @@
 title: Commande ViewportRectangle — Créer une Fenêtre de Mise en Page dans KulmanLab CAD
 description: La commande ViewportRectangle crée une fenêtre dans une mise en page papier en sélectionnant deux coins opposés. La fenêtre affiche les entités de l'espace modèle à l'échelle par défaut de la mise en page.
 keywords: [viewport rectangle, créer viewport, viewport mise en page, viewport espace papier, kulmanlab]
+group: layouts
+order: 1
 ---
 
 # ViewportRectangle

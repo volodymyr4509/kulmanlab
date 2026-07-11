@@ -1,8 +1,9 @@
 ---
-sidebar_position: 6
 title: Ellipse命令 — 在 KulmanLab CAD 中通过圆心和两轴绘制旋转椭圆
 description: Ellipse 命令通过三次单击绘制椭圆 — 圆心、第一轴端点（任意方向），然后是第二轴长度。两轴始终垂直。每条半轴都有独立的夹点可在放置后独立调整大小。完整支持 DXF 的 ELLIPSE 实体往返转换。
 keywords: [CAD Ellipse 命令, 绘制椭圆 CAD, 旋转椭圆 CAD, 椭圆轴, ELLIPSE DXF 实体, 椭圆夹点编辑, 轴比, kulmanlab]
+group: shapes
+order: 6
 ---
 
 # Ellipse

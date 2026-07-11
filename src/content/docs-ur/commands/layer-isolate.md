@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: "LayerIsolate — KulmanLab CAD میں منتخب کے علاوہ تمام لیئرز منجمد کریں"
 description: "LayerIsolate کمانڈ منتخب اشیاء کے علاوہ تمام لیئرز منجمد کر دیتی ہے، جس سے آپ کچھ بھی حذف کیے بغیر مخصوص جیومیٹری پر توجہ مرکوز کر سکتے ہیں۔"
 keywords: [لیئر آئسولیٹ, لیئرز منجمد CAD, kulmanlab لیئر مینجمنٹ]
+group: layer
+order: 3
 ---
 
 # LayerIsolate

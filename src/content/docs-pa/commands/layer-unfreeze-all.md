@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerUnfreezeAll — KulmanLab CAD ਵਿੱਚ ਸਾਰੀਆਂ ਲੇਅਰਾਂ ਅਨਫ੍ਰੀਜ਼ ਕਰੋ
 description: LayerUnfreezeAll ਕਮਾਂਡ ਇੱਕ ਹੀ ਸਟੈਪ ਵਿੱਚ ਡਰਾਇੰਗ ਦੀ ਹਰੇਕ ਲੇਅਰ 'ਤੇ ਫ੍ਰੋਜ਼ਨ ਫਲੈਗ ਸਾਫ਼ ਕਰਦੀ ਹੈ।
 keywords: [ਲੇਅਰ ਅਨਫ੍ਰੀਜ਼, ਸਾਰੀਆਂ ਲੇਅਰਾਂ ਅਨਫ੍ਰੀਜ਼ ਕਰੋ CAD, kulmanlab ਲੇਅਰ ਪ੍ਰਬੰਧਨ]
+group: layer
+order: 4
 ---
 
 # LayerUnfreezeAll

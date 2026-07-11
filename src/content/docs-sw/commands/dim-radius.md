@@ -1,8 +1,9 @@
 ---
-sidebar_position: 16
 title: Amri ya Dimension Radius — Weka Maelezo ya Radi za Mviringo na Duara katika KulmanLab CAD
 description: "Amri ya Dimension Radius huweka kipimo cha radiali chenye awali ya R kwenye mviringo au duara. Bonyeza kipengele, kisha sogeza mshale ili kupanga mstari wa kipimo kutoka katikati hadi mzingo. Inasindikwa kikamilifu na DXF kama vipengele vya DIMENSION vya aina ya radi."
 keywords: [CAD radius dimension, dimradius, annotate circle radius, arc radius dimension, R prefix dimension, kulmanlab]
+group: markup
+order: 7
 ---
 
 # Dimension Radius

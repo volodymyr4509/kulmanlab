@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: "Polecenie Zoom Out — Zmniejszanie powiększenia widoku o 1,5× na krok w KulmanLab CAD"
 description: "Polecenie Zoom Out dzieli bieżący poziom powiększenia o 1,5× i natychmiast kończy się, wyśrodkowane na środku widoku. Użyj kółka myszy, aby płynniej pomniejszać w kierunku kursora."
 keywords: [CAD pomniejsz, zmniejsz powiększenie widoku, polecenie pomniejsz, przegląd CAD, krok powiększenia 1,5x, kulmanlab]
+group: navigate
+order: 3
 ---
 
 # Zoom Out

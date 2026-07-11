@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: Circle コマンド — 中心と半径で円を描く（KulmanLab CAD）
 description: circle コマンドは中心点をクリックし、次に半径をクリックまたは入力して円を配置します。4 方向のグリップでコマンドを再実行せずにドラッグして半径をリサイズできます。CIRCLE エンティティとして DXF ラウンドトリップ対応。
 keywords: [CAD 円コマンド, 円描画 CAD, 円半径入力, 円グリップリサイズ, CIRCLE DXFエンティティ, 半径寸法 円, kulmanlab, circle]
+group: shapes
+order: 4
 ---
 
 # Circle

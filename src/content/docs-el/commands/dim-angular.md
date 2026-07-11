@@ -1,8 +1,9 @@
 ---
-sidebar_position: 9
 title: Dimension Angular — Μέτρηση Γωνιών Μεταξύ Γραμμών, Τόξων και Κύκλων στο KulmanLab CAD
 description: Η εντολή DimensionAngular τοποθετεί γωνιακή διαστασιολόγηση σε γραμμές, τόξα ή κύκλους. Υποστηρίζει λειτουργίες γωνίας δύο γραμμών, εύρους τόξου και τομέα κύκλου.
 keywords: [γωνιακή διάσταση CAD, διάσταση γωνίας, μέτρηση γωνίας μεταξύ γραμμών, DimensionAngular, διάσταση τόξου, σήμανση γωνίας, CAD γωνιακή σήμανση, kulmanlab angular dimension]
+group: markup
+order: 9
 ---
 
 # Dimension Angular

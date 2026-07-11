@@ -1,8 +1,9 @@
 ---
-sidebar_position: 10
 title: "Εντολή Leader — Σχεδίαση Πολυγραμμής Σχολίου με Βέλος και Κείμενο στο KulmanLab CAD"
 description: "Η εντολή Leader σχεδιάζει σχόλιο multileader τεσσάρων φάσεων: άκρο βέλους, αγκώνας dogleg, θέση κειμένου και πληκτρολογημένη ετικέτα. Η κατεύθυνση κειμένου προσαρμόζεται αυτόματα με βάση τη θέση dogleg. Μόνο εισαγωγή σε DXF — τα leaders δεν γράφονται κατά την αποθήκευση."
 keywords: [CAD εντολή leader, σχόλιο multileader, leader CAD, σχόλιο με βέλος, dogleg leader, κατεύθυνση κειμένου CAD, kulmanlab]
+group: markup
+order: 1
 ---
 
 # Leader

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: "Vector Pins — Lekeza kwenye Mistari ya Marejeleo Kupitia Pointi Zilizobandikwa katika KulmanLab CAD"
 description: "Vector Pins hukuruhusu kubandika pointi ya ulekezaji kwa kuelea juu yake nusu sekunde, kisha kufuatilia kishale kando ya mistari ya marejeleo ya mlalo na wima yenye vistari inayopita kwenye pointi iliyobandikwa — panga jiometri mpya na pointi zilizopo bila mistari ya ujenzi."
 keywords: [vector pins, ufuatiliaji wa ulekezaji wa vitu, mistari ya marejeleo, ufuatiliaji wa upangaji, ufuatiliaji wa ulekezaji CAD, mistari ya ujenzi, kulmanlab]
+group: interface
+order: 2
 ---
 
 # Vector Pins

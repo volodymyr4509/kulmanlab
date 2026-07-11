@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerIsolate — Frys alla lager utom de markerade i KulmanLab CAD
 description: LayerIsolate-kommandot fryser alla lager utom de som används av de markerade objekten, så att du kan fokusera på specifik geometri utan att ta bort något.
 keywords: [lagerisolering, frys lager CAD, isolera lager kulmanlab, CAD-lagerhantering]
+group: layer
+order: 3
 ---
 
 # LayerIsolate

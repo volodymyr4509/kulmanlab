@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: "Pan-kommandot — Navigering i vyporten genom klicka-och-dra i KulmanLab CAD"
 description: "Pan-kommandot aktiverar ett bestående dra-för-att-scrolla-läge. Klicka och dra var som helst på ritytan för att förskjuta vyn utan att ändra zoomnivån. Dra med mittenknappen fungerar när som helst utan att aktivera Pan."
 keywords: [CAD panorera vyport, pan-kommando, dra för att navigera, ritytescroll CAD, vyportnavigering, kulmanlab]
+group: navigate
+order: 1
 ---
 
 # Pan

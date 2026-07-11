@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Area コマンド — 多角形の面積と周長を計測（KulmanLab CAD）
 description: area コマンドは、3 点以上のクリックで定義された多角形の面積と周長を、シューレースの公式（shoelace formula）を使って計測します。角度ロックによる方向入力と、結果のキャンバス上への持続的なハイライト表示に対応しています。
 keywords: [CAD 面積計測, area コマンド, 多角形面積計算, 周長計測, シューレースの公式, kulmanlab CAD 計測]
+group: measure
+order: 3
 ---
 
 # Area

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 7
 title: Arahan Align — Memindah, Memutar dan Menskala Entiti Menggunakan Pasangan Titik dalam KulmanLab CAD
 description: Arahan Align meletakkan semula entiti yang dipilih menggunakan satu atau dua pasang titik sumber/destinasi — menggabungkan pergerakan, putaran, dan skala seragam pilihan dalam satu operasi. Berfungsi seperti gabungan Move + Rotate + Scale.
 keywords: [arahan align CAD, jajarkan entiti CAD, pindah putar skala, penjajaran pasangan titik, setara ALIGN AutoCAD, kulmanlab]
+group: edit
+order: 6
 ---
 
 # Align

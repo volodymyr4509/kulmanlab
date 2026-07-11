@@ -1,8 +1,9 @@
 ---
-sidebar_position: 7
 title: Align 명령어 — KulmanLab CAD에서 점 쌍으로 객체 이동, 회전, 크기 조정
 description: Align 명령어는 하나 또는 두 개의 원본/대상 점 쌍을 사용해 선택한 객체를 재배치합니다 — 이동, 회전, 선택적 균일 크기 조정을 하나의 작업으로 결합합니다. Move + Rotate + Scale을 결합한 것처럼 작동합니다.
 keywords: [CAD Align 명령어, 객체 정렬 CAD, 이동 회전 크기 조정, 점 쌍 정렬, AutoCAD ALIGN 상응, kulmanlab]
+group: edit
+order: 6
 ---
 
 # Align

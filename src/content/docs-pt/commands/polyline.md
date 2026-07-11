@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Comando Polyline — Desenhar Caminhos com Múltiplos Segmentos como Entidade Única no KulmanLab CAD
 description: O comando Polyline desenha qualquer número de segmentos conectados armazenados como uma única entidade LWPOLYLINE. Grips de vértice e ponto médio de segmento permitem remodelar qualquer parte do caminho após a criação. Suporta offset; não suporta trim ou extend.
 keywords: [CAD comando polyline, desenhar polilinha CAD, caminho multi-segmento CAD, LWPOLYLINE DXF, remodelar polilinha, grip vértice CAD, offset polilinha, kulmanlab]
+group: shapes
+order: 2
 ---
 
 # Polyline

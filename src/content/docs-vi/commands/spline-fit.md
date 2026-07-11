@@ -1,6 +1,8 @@
 ---
 title: Lệnh Spline Fit — Vẽ Spline Nội Suy Qua Các Điểm Đã Nhấp trong KulmanLab CAD
 description: Lệnh Spline Fit vẽ spline bậc ba đi qua mọi điểm bạn nhấp chính xác. Bên trong đường cong được lưu với cả điểm khớp và điểm kiểm soát được tính toán. Kéo điểm kéo điểm khớp sẽ tái nội suy toàn bộ đường cong. Hỗ trợ DXF đầy đủ dưới dạng thực thể SPLINE.
+group: shapes
+order: 9
 ---
 
 # Spline Fit

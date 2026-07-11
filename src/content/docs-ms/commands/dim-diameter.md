@@ -1,8 +1,9 @@
 ---
-sidebar_position: 17
 title: "Arahan Dimension Diameter — Anotasi Diameter Penuh Bulatan dan Lengkok dalam KulmanLab CAD"
 description: "Arahan Dimension Diameter meletakkan dimensi diameter (berprefiks simbol diameter) merentasi lengkok atau bulatan melalui pusat. Gerakkan kursor untuk memutar garis dimensi ke mana-mana sudut. Pusingan penuh DXF sebagai entiti DIMENSION diameter."
 keywords: [CAD dimensi diameter, dimdiameter, anotasi diameter bulatan, dimensi diameter lengkok, simbol diameter CAD, kulmanlab]
+group: markup
+order: 8
 ---
 
 # Dimension Diameter

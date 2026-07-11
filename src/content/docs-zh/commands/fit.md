@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: Fit命令 — 在 KulmanLab CAD 中一键将所有图元适应到视口
 description: 范围缩放命令计算所有图元的边界框，并调整缩放和平移以使每个图元都以小边距可见。双击鼠标中键可在不激活命令的情况下触发范围缩放。
 keywords: [CAD 范围缩放, 缩放以适应, 框选所有图元, 范围缩放命令 CAD, 边界框缩放, kulmanlab]
+group: navigate
+order: 4
 ---
 
 # Fit

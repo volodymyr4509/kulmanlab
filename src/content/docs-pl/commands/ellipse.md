@@ -1,8 +1,9 @@
 ---
-sidebar_position: 6
 title: Polecenie Ellipse — Rysowanie obróconej elipsy przez środek i dwie osie w KulmanLab CAD
 description: Polecenie Ellipse rysuje elipsę w trzech kliknięciach — środek, punkt końcowy pierwszej osi (w dowolnym kierunku), następnie długość drugiej osi. Obie osie są zawsze prostopadłe. Każda półoś ma własny uchwyt do niezależnej zmiany rozmiaru po umieszczeniu. Pełna obsługa zapisu i odczytu DXF jako elementy ELLIPSE.
 keywords: [polecenie elipsy CAD, rysowanie elipsy CAD, obrócona elipsa CAD, osie elipsy, element ELLIPSE DXF, edycja uchwytu elipsy, stosunek osi, kulmanlab]
+group: shapes
+order: 6
 ---
 
 # Ellipse

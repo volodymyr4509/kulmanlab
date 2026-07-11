@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Undo Command — Umatras sa Drawing History sa KulmanLab CAD
 description: Binabaligtad ng Undo command ang huling drawing action nang isang hakbang sa isang pagkakataon. Hanggang 20 hakbang ang naka-store bawat file at napapanatili sa browser kahit mag-reload ng page. Ang paggawa ng bagong action pagkatapos mag-undo ay nag-cle-clear ng redo stack.
 keywords: [CAD undo command, undo history CAD, ibalik ang aksyon CAD, undo steps CAD, browser persistent undo, kulmanlab]
+group: edit
+order: 13
 ---
 
 # Undo

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Lineweight Toolbar Picker — Control Stroke Width in KulmanLab CAD
 description: The lineweight picker in the KulmanLab CAD toolbar sets the stroke width applied to all newly drawn entities. Supports standard DXF lineweight values from 0.00 mm to 2.11 mm plus ByLayer and Default modes.
 keywords: [CAD lineweight, stroke width, line width, DXF lineweight, ByLayer lineweight, kulmanlab]
+group: interface
+order: 4
 ---
 
 # Lineweight

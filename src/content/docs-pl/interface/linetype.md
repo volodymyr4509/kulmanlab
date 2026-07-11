@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Selektor typów linii — Kontrolowanie wzorców przerywanych w KulmanLab CAD
 description: Selektor typów linii na pasku narzędzi KulmanLab CAD ustawia wzorzec przerywany stosowany do wszystkich nowo rysowanych elementów. Obsługuje wszystkie typy linii załadowane z bieżącego pliku DXF oraz wbudowane opcje ByLayer, ByBlock i Ciągły.
 keywords: [typ linii CAD, wzorzec przerywany, linia przerywana, typ linii DXF, typ linii ByLayer, kulmanlab]
+group: interface
+order: 3
 ---
 
 # Typ linii

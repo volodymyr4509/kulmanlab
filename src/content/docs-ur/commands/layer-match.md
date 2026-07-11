@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: "LayerMatch — KulmanLab CAD میں اینٹیٹی لیئرز کو ماخذ سے ملائیں"
 description: "LayerMatch کمانڈ ایک یا زیادہ ہدف اشیاء کا لیئر ایک کلک کردہ ماخذ اینٹیٹی کے لیئر سے ملانے کے لیے تبدیل کرتی ہے۔"
 keywords: [لیئر میچ, لیئر ملائیں CAD, لیئر تبدیل kulmanlab, CAD لیئر مینجمنٹ]
+group: layer
+order: 2
 ---
 
 # LayerMatch

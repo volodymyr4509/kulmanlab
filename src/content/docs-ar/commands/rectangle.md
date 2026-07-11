@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: أمر Rectangle — رسم مستطيلات موازية للمحاور في KulmanLab CAD
 description: ينشئ أمر Rectangle مستطيلاً موازياً للمحاور من زاويتين متقابلتين. النتيجة خط متعدد LWPOLYLINE مغلق بأربعة رؤوس — مطابق لأي خط متعدد آخر بعد الإنشاء، لذا تنطبق عليه جميع أوامر تحرير الخطوط المتعددة.
 keywords: [أمر مستطيل CAD, رسم مستطيل CAD, مستطيل موازٍ للمحاور, خط متعدد مغلق, LWPOLYLINE DXF, تحرير نقاط التحكم للمستطيل, kulmanlab]
+group: shapes
+order: 3
 ---
 
 # Rectangle

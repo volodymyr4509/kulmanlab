@@ -1,6 +1,8 @@
 ---
 title: Lệnh Line — Vẽ, Nối Tiếp, Cắt và Kéo Dài Đường Thẳng trong KulmanLab CAD
 description: Lệnh Line vẽ các đoạn đường thẳng riêng lẻ có thể nối tiếp đầu cuối. Đường thẳng là loại thực thể duy nhất mà Cắt và Kéo Dài hoạt động. Hỗ trợ DXF đầy đủ dưới dạng thực thể LINE.
+group: shapes
+order: 1
 ---
 
 # Line

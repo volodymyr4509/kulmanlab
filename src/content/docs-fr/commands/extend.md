@@ -1,8 +1,9 @@
 ---
-sidebar_position: 10
 title: Commande Extend — Prolonger un point final de ligne jusqu'à la limite la plus proche dans KulmanLab CAD
 description: La commande Extend prolonge le point final le plus proche d'une Line survolée jusqu'à l'intersection la plus proche avec une autre entité. Un aperçu en direct montre la ligne prolongée avant de cliquer. Extend fonctionne sur les entités Line uniquement et ignore Text, Spline et Multileader comme limites.
 keywords: [commande extend CAO, prolonger ligne CAO, étirer ligne jusqu'à limite, point final ligne extend, aperçu extend survol, kulmanlab]
+group: edit
+order: 9
 ---
 
 # Extend

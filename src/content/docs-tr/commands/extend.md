@@ -1,8 +1,9 @@
 ---
-sidebar_position: 17
 title: Extend Komutu — KulmanLab CAD'de Çizgi Ucunu En Yakın Sınıra Uzat
 description: Extend komutu, üzerine gelinmiş bir Çizginin en yakın ucunu başka bir nesneyle oluşturacağı en yakın kesişime kadar uzatır. Tıklamadan önce canlı önizleme uzatılmış çizgiyi gösterir. Extend yalnızca Çizgi nesnelerinde çalışır ve Metin, Spline ile Çoklu Göstergeni sınır olarak yok sayar.
 keywords: [CAD extend komutu, çizgiyi uzat CAD, çizgiyi sınıra uzat, çizgi ucu uzatma, üzerine gelme uzatma önizlemesi, kulmanlab]
+group: edit
+order: 9
 ---
 
 # Extend

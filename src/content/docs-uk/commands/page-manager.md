@@ -1,8 +1,9 @@
 ---
-sidebar_position: 41
 title: Команда PageManager — Налаштувати розмір паперу та масштаб компонування у KulmanLab CAD
 description: Команда PageManager відкриває діалог для редагування розміру паперу, орієнтації та масштабу активного паперового компонування або вікна перегляду.
 keywords: [CAD команда page manager, розмір паперу CAD, масштаб компонування CAD, налаштування друку CAD, kulmanlab]
+group: layouts
+order: 3
 ---
 
 # PageManager

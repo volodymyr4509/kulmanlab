@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerUnfreezeAll — Descongelar todas las capas en KulmanLab CAD
 description: El comando LayerUnfreezeAll elimina el indicador de congelación en todas las capas del dibujo en un solo paso.
 keywords: [descongelar capa, descongelar todas las capas CAD, gestión de capas kulmanlab]
+group: layer
+order: 4
 ---
 
 # LayerUnfreezeAll

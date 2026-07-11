@@ -1,8 +1,9 @@
 ---
-sidebar_position: 10
 title: Extend コマンド — 直線の端点を最近傍の境界まで延長（KulmanLab CAD）
 description: extend コマンドはホバーした Line の最近傍端点を他のエンティティとの最も近い交点まで延長します。クリック前にライブプレビューで延長後の直線が表示されます。Line エンティティのみで機能し、Text、Spline、Multileader は境界として無視されます。
 keywords: [CAD 延長コマンド, 直線延長 CAD, 境界まで直線を伸ばす, 直線端点延長, ホバー延長プレビュー, kulmanlab, extend]
+group: edit
+order: 9
 ---
 
 # Extend

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 7
 title: Arahan Text — Letak Label MTEXT dalam KulmanLab CAD
 description: Arahan Text meletakkan label MTEXT berbilang baris dengan pemformatan kaya. Klik kedudukan, taip dalam editor popup, dan tekan Escape untuk komit. Klik dua kali mana-mana label sedia ada untuk membuka semula editor.
 keywords: [arahan teks CAD, MTEXT, letak label teks CAD, anotasi teks CAD, tebal italik CAD, teks berbilang baris CAD, kulmanlab]
+group: shapes
+order: 7
 ---
 
 # Text

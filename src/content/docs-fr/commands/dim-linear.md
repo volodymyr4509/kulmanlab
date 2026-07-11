@@ -1,8 +1,9 @@
 ---
-sidebar_position: 13
 title: Commande Dimension Linear — Cotes Horizontales et Verticales dans KulmanLab CAD
 description: La commande Dimension Linear mesure la distance horizontale ou verticale entre deux points. La ligne de cote est toujours alignée sur les axes — appuyez sur H ou V pour verrouiller l'orientation, ou laissez la position du curseur le décider automatiquement. Export complet en DXF comme entités DIMENSION.
 keywords: [cote linéaire CAO, cote horizontale CAO, cote verticale CAO, dimlinear, verrouillage orientation H V, décalage cote, kulmanlab]
+group: markup
+order: 4
 ---
 
 # Dimension Linear

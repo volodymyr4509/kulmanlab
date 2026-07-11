@@ -1,8 +1,9 @@
 ---
-sidebar_position: 11
 title: "คำสั่ง Leader− — ลบแขนหัวลูกศรออกจาก Multileader ใน KulmanLab CAD"
 description: "คำสั่ง Leader− ลบแขนหัวลูกศรหนึ่งแขนออกจาก multileader ที่มีสองแขนหรือมากกว่า วางเมาส์ใกล้แขนที่ต้องการลบ — แขนที่ใกล้ที่สุดถูกไฮไลต์ dogleg ข้อความ และแขนที่เหลือถูกเก็บไว้"
 keywords: [CAD leader ลบแขน, คำสั่ง leader-, ลบลูกศรจาก leader, ลบแขน multileader, kulmanlab]
+group: markup
+order: 3
 ---
 
 # Leader−

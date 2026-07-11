@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: Metin Düzenleyici — KulmanLab CAD'de Rich ve Simple Modlar
 description: KulmanLab CAD metin düzenleyicisinin iki modu vardır — rich (karakter başına biçimlendirme, çok satırlı, Text ve Multileader için kelime kaydırma) ve simple (tekdüze stil, ölçü nesneleri için tek satırlı). Başlıktaki mode chip hangi modun etkin olduğunu gösterir.
 keywords: [CAD metin düzenleyici, MTEXT, kalın italik CAD, metin biçimlendirme CAD, çok satırlı metin CAD, kelime kaydırma CAD, rich metin düzenleyici, simple metin düzenleyici, ölçü metin düzenleyici, özel yazı tipi CAD, TTF yükleme CAD, kulmanlab]
+group: interface
+order: 5
 ---
 
 # Metin Düzenleyici

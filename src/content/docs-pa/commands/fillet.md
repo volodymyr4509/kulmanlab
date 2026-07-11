@@ -1,8 +1,9 @@
 ---
-sidebar_position: 20
 title: "Fillet ਕਮਾਂਡ — KulmanLab CAD ਵਿੱਚ ਦੋ ਲਾਈਨਾਂ ਵਿਚਕਾਰ ਕੋਨਾ ਗੋਲ ਕਰੋ"
 description: "Fillet ਕਮਾਂਡ ਦੋ Line ਐਂਟਿਟੀਜ਼ ਨੂੰ ਨਿਰਧਾਰਤ ਰੇਡੀਅਸ ਦੇ ਟੈਂਜੈਂਟ ਆਰਕ ਨਾਲ ਜੋੜਦੀ ਹੈ, ਹਰੇਕ ਲਾਈਨ ਨੂੰ ਟੈਂਜੈਂਟ ਪੁਆਇੰਟ ਤੱਕ ਟ੍ਰਿਮ ਕਰਦੀ ਹੈ। ਇੱਕ ਡੈਸ਼ਡ ਆਰਕ ਪ੍ਰੀਵਿਊ ਕਲਿੱਕ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਸਹੀ ਕੋਨਾ ਚੁਣਨ ਵਿੱਚ ਮਦਦ ਕਰਦਾ ਹੈ।"
 keywords: [CAD fillet ਕਮਾਂਡ, ਗੋਲ ਕੋਨਾ CAD, fillet ਆਰਕ, ਟੈਂਜੈਂਟ ਆਰਕ ਦੋ ਲਾਈਨਾਂ, kulmanlab]
+group: edit
+order: 11
 ---
 
 # Fillet

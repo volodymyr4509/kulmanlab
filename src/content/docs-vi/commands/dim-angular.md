@@ -1,6 +1,8 @@
 ---
 title: Dimension Angular — Đo Góc Giữa Các Đường, Cung và Hình Tròn trong KulmanLab CAD
 description: "Lệnh DimensionAngular đặt chú thích kích thước góc lên các đường thẳng, cung hoặc hình tròn. Hỗ trợ ba chế độ: hai đường thẳng, khoảng cung và cung tròn."
+group: markup
+order: 9
 ---
 
 # Dimension Angular

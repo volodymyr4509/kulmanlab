@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Pan命令 — 在 KulmanLab CAD 中通过点击拖动进行视口导航
 description: Pan 命令进入持续的拖动滚动模式。在画布上任意位置单击并拖动以移动视图，而不改变缩放级别。任何时候中键拖动都可以在不激活 Pan 命令的情况下平移。
 keywords: [CAD 平移视口, 平移命令, 拖动导航, 画布滚动 CAD, 视口导航, kulmanlab]
+group: navigate
+order: 1
 ---
 
 # Pan

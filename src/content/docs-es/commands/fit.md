@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: Comando Fit — Encuadrar Todas las Entidades en la Ventana Gráfica con un Clic en KulmanLab CAD
 description: El comando Fit calcula el cuadro delimitador de todas las entidades y ajusta el zoom y el desplazamiento para que todas las entidades sean visibles con un pequeño margen. Hacer doble clic con el botón central del ratón activa Fit sin necesidad de abrir el comando.
 keywords: [CAD ajustar vista, zoom para encuadrar, encuadrar todas las entidades, comando fit CAD, zoom cuadro delimitador, kulmanlab]
+group: navigate
+order: 4
 ---
 
 # Fit

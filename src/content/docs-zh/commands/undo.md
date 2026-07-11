@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Undo命令 — 在 KulmanLab CAD 中逐步后退绘图历史
 description: 撤销命令逐步撤销最后一次绘图操作。每个文件存储最多 20 步，在页面重新加载后在浏览器中持久保存。在撤销后执行新操作会清除重做堆栈。
 keywords: [CAD Undo 命令, 撤销历史 CAD, 撤销操作 CAD, 撤销步骤 CAD, 浏览器持久撤销, kulmanlab]
+group: edit
+order: 13
 ---
 
 # Undo

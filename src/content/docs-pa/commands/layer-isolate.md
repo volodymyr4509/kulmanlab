@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerIsolate — KulmanLab CAD ਵਿੱਚ ਚੁਣੀਆਂ ਹੋਈਆਂ ਨੂੰ ਛੱਡ ਕੇ ਸਾਰੀਆਂ ਲੇਅਰਾਂ ਫ੍ਰੀਜ਼ ਕਰੋ
 description: LayerIsolate ਕਮਾਂਡ ਚੁਣੀਆਂ ਗਈਆਂ ਇਕਾਈਆਂ ਵੱਲੋਂ ਵਰਤੀਆਂ ਜਾਂਦੀਆਂ ਲੇਅਰਾਂ ਨੂੰ ਛੱਡ ਕੇ ਹਰੇਕ ਲੇਅਰ ਨੂੰ ਫ੍ਰੀਜ਼ ਕਰਦੀ ਹੈ, ਜਿਸ ਨਾਲ ਤੁਸੀਂ ਕੁਝ ਵੀ ਮਿਟਾਏ ਬਿਨਾਂ ਖਾਸ ਜਿਓਮੈਟਰੀ 'ਤੇ ਧਿਆਨ ਕੇਂਦਰਿਤ ਕਰ ਸਕਦੇ ਹੋ।
 keywords: [ਲੇਅਰ ਆਈਸੋਲੇਟ, ਲੇਅਰਾਂ ਫ੍ਰੀਜ਼ ਕਰੋ CAD, ਲੇਅਰ ਆਈਸੋਲੇਟ kulmanlab, CAD ਲੇਅਰ ਪ੍ਰਬੰਧਨ]
+group: layer
+order: 3
 ---
 
 # LayerIsolate

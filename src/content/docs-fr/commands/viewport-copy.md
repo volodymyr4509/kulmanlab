@@ -2,6 +2,8 @@
 title: Commande ViewportCopy — Dupliquer une Fenêtre dans KulmanLab CAD
 description: La commande ViewportCopy duplique une fenêtre sélectionnée vers une nouvelle position dans la même mise en page, en préservant l'échelle et la configuration de la vue du modèle. Prend en charge la saisie de coordonnées exactes, le verrouillage d'angle et la saisie de distance.
 keywords: [copier fenêtre, dupliquer viewport, copier viewport mise en page, verrouillage angle viewport, coordonnée exacte viewport, kulmanlab]
+group: layouts
+order: 2
 ---
 
 # ViewportCopy

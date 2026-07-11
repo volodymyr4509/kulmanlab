@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerMatch — KulmanLab CAD में स्रोत से मिलाने के लिए ऑब्जेक्ट लेयर पुनः असाइन करें
 description: LayerMatch कमांड एक या अधिक लक्ष्य ऑब्जेक्ट की लेयर को आपके द्वारा क्लिक किए गए स्रोत ऑब्जेक्ट की लेयर से मिलाने के लिए पुनः असाइन करती है।
 keywords: [लेयर मैच, लेयर मिलाएं CAD, लेयर पुनः असाइन kulmanlab, CAD लेयर प्रबंधन]
+group: layer
+order: 2
 ---
 
 # LayerMatch

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 10
 title: Extend Command — I-stretch ang Endpoint ng Linya Papunta sa Pinakamalapit na Boundary sa KulmanLab CAD
 description: Ini-stretch ng Extend command ang pinakamalapit na endpoint ng ho-hover na Line papunta sa pinakamalapit na intersection nito sa ibang entity. May live preview na nagpapakita ng extended line bago ka mag-click. Gumagana lang ang Extend sa Line entities at hindi kinikilala ang Text, Spline, at Multileader bilang boundaries.
 keywords: [CAD extend command, extend line CAD, i-stretch ang linya papunta sa boundary, line endpoint extend, hover extend preview, kulmanlab]
+group: edit
+order: 9
 ---
 
 # Extend

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 7
 title: Polecenie Trim — Cięcie segmentów linii na przecięciach w KulmanLab CAD
 description: Polecenie Trim usuwa część Linii między dwoma sąsiednimi punktami przecięcia najbliższymi kursorowi. Czerwony podgląd po najechaniu kursorem pokazuje dokładnie, który segment zostanie wycięty przed kliknięciem. Przytnij działa tylko na elementach Linia — nie na łukach, okręgach ani poliliniach.
 keywords: [polecenie przytnij CAD, przycinanie linii CAD, cięcie linii na przecięciu, podgląd przycinania po najechaniu, tylko linie przytnij, kulmanlab]
+group: edit
+order: 8
 ---
 
 # Trim

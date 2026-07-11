@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Rectangle-Befehl — Achsenparallele Rechtecke in KulmanLab CAD zeichnen
 description: Der Rectangle-Befehl erstellt ein achsenparalleles Rechteck aus zwei gegenüberliegenden Ecken. Das Ergebnis ist eine geschlossene LWPOLYLINE mit vier Eckpunkten — nach dem Platzieren identisch mit jeder anderen Polylinie, sodass alle Polylinie-Bearbeitungsbefehle anwendbar sind.
 keywords: [CAD Rectangle-Befehl, Rechteck zeichnen CAD, achsenparalleles Rechteck, geschlossene Polylinie CAD, LWPOLYLINE DXF, Rechteck Griffpunkt-Bearbeitung, kulmanlab]
+group: shapes
+order: 3
 ---
 
 # Rectangle

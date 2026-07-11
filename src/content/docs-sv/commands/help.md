@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Help-kommandot
 description: Öppna hjälppanelen i appen i KulmanLab CAD. Visar tangentbordsgenvägar, navigeringstips och kontaktinformation.
 keywords: [CAD, hjälp, tangentbordsgenvägar, kontakt, kulmanlab]
+group: overview
+order: 2
 ---
 
 # Help

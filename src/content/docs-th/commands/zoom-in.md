@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: "คำสั่ง Zoom In — ขยาย Viewport 1.5 เท่าต่อขั้นตอนใน KulmanLab CAD"
 description: "คำสั่ง Zoom In คูณระดับซูมปัจจุบันด้วย 1.5 เท่าและออกทันที ศูนย์กลางที่จุดกึ่งกลาง viewport ช่วงซูม 0.01–10,000 ใช้ scroll wheel เพื่อซูมไปทางเคอร์เซอร์แทน"
 keywords: [CAD zoom in, ขยาย viewport, คำสั่ง zoom CAD, ขั้นตอนซูม 1.5 เท่า, kulmanlab]
+group: navigate
+order: 2
 ---
 
 # Zoom In

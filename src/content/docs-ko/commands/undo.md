@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Undo 명령어 — KulmanLab CAD에서 도면 기록을 통해 단계 되돌리기
 description: 실행 취소 명령어는 마지막 도면 작업을 한 번에 하나씩 되돌립니다. 파일당 최대 20단계가 저장되며 페이지 새로고침 후에도 브라우저에 유지됩니다. 실행 취소 후 새 작업을 수행하면 다시 실행 스택이 지워집니다.
 keywords: [CAD Undo 명령어, 실행 취소 기록 CAD, 작업 되돌리기 CAD, 실행 취소 단계 CAD, 브라우저 영구 실행 취소, kulmanlab]
+group: edit
+order: 13
 ---
 
 # Undo

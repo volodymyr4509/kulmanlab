@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: "Zoom In 명령어 — KulmanLab CAD에서 단계별 1.5× 뷰포트 확대"
 description: "확대 명령어는 현재 확대/축소 수준을 1.5×로 곱하고 즉시 종료됩니다. 뷰포트 중간점을 중심으로. 확대/축소 범위 0.01–10,000. 대신 커서 방향으로 확대/축소하려면 스크롤 휠을 사용하세요."
 keywords: [CAD 확대, 뷰포트 확대, 확대 명령어 CAD, 1.5x 확대 단계, kulmanlab]
+group: navigate
+order: 2
 ---
 
 # Zoom In

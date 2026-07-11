@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Polyline コマンド — 複数セグメントパスを 1 つのエンティティとして作図（KulmanLab CAD）
 description: Polyline コマンドは 1 つの LWPOLYLINE エンティティとして保存される、任意数の接続セグメントからなるパスを作図します。頂点グリップとセグメント中点グリップで作成後にパスの任意の部分を変形できます。オフセットをサポート；トリムと延長は非対応。
 keywords: [CAD ポリラインコマンド, ポリライン作図 CAD, 複数セグメントパス CAD, LWPOLYLINE DXF, ポリライン変形, 頂点グリップ CAD, ポリラインオフセット, kulmanlab]
+group: shapes
+order: 2
 ---
 
 # Polyline（ポリライン）

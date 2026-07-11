@@ -1,6 +1,8 @@
 ---
 title: LayerUnfreezeAll — Bỏ Đóng Băng Tất Cả Lớp trong KulmanLab CAD
 description: Lệnh LayerUnfreezeAll xóa cờ đóng băng trên mọi lớp trong bản vẽ trong một bước.
+group: layer
+order: 4
 ---
 
 # LayerUnfreezeAll

@@ -2,6 +2,8 @@
 title: KulmanLab CAD — Dokumentacja poleceń
 description: Dokumentacja poleceń KulmanLab CAD — kompletny przewodnik po wszystkich poleceniach rysowania, edycji, opisu, warstw, pomiarów i plików w KulmanLab CAD.
 keywords: [KulmanLab, KulmanLab CAD, polecenia CAD, darmowy CAD w przeglądarce, edytor DXF online, polecenia rysowania, kulmanlab polecenia]
+group: overview
+order: 1
 ---
 
 # KulmanLab CAD — Dokumentacja poleceń

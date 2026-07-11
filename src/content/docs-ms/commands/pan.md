@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Arahan Pan — Navigasi Viewport Klik-dan-Seret dalam KulmanLab CAD
 description: Arahan Pan memasuki mod seret-untuk-tatal yang berterusan. Klik dan seret di mana-mana pada kanvas untuk menggeser pandangan tanpa mengubah paras zum. Seret klik tengah berfungsi pada bila-bila masa tanpa mengaktifkan Pan.
 keywords: [CAD pan viewport, arahan pan, seret untuk navigasi, tatal kanvas CAD, navigasi viewport, kulmanlab]
+group: navigate
+order: 1
 ---
 
 # Pan

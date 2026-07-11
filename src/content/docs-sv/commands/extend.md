@@ -1,8 +1,9 @@
 ---
-sidebar_position: 10
 title: Extend-kommandot — Förläng en linjeändpunkt till närmaste gräns i KulmanLab CAD
 description: Extend-kommandot förlänger den närmaste ändpunkten på en linje du hovrar över till den närmaste skärningen med en annan entitet. En live-förhandsgranskning visar den förlängda linjen innan du klickar. Extend fungerar endast på Line-entiteter och ignorerar Text, Spline och Multileader som gränser.
 keywords: [CAD extend-kommando, förläng linje CAD, sträck linje till gräns, förläng linjeändpunkt, hover-förhandsgranskning extend, kulmanlab]
+group: edit
+order: 9
 ---
 
 # Extend

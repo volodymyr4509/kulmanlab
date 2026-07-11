@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: "Amri ya Circle — Chora Duara kwa Kituo na Radi katika KulmanLab CAD"
 description: "Amri ya Circle inaweka duara kwa kubonyeza pointi ya kituo kisha kubonyeza au kuandika radi. Vipeo vinne vya kardinali hukuruhusu kubadilisha ukubwa wa radi kwa kuburuta bila kuendesha tena amri. Mzunguko kamili wa DXF kama vipengele vya CIRCLE."
 keywords: [amri ya circle ya CAD, chora duara CAD, uingizaji wa radi ya duara, kubadilisha ukubwa wa duara kwa kipeo, kipengele cha CIRCLE DXF, dimradius duara, kulmanlab]
+group: shapes
+order: 4
 ---
 
 # Circle

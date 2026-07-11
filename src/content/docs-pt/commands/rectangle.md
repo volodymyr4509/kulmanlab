@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Comando Rectangle — Desenhar Retângulos Alinhados aos Eixos no KulmanLab CAD
 description: O comando Rectangle cria um retângulo alinhado aos eixos a partir de dois cantos opostos. O resultado é uma LWPOLYLINE fechada com quatro vértices — idêntica a qualquer outra polilinha uma vez posicionada, então cada comando de edição de polilinha se aplica a ela.
 keywords: [CAD comando rectangle, desenhar retângulo CAD, retângulo alinhado aos eixos, polilinha fechada CAD, LWPOLYLINE DXF, edição grip retângulo, kulmanlab]
+group: shapes
+order: 3
 ---
 
 # Rectangle

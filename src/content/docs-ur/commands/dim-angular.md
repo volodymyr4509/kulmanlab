@@ -1,8 +1,9 @@
 ---
-sidebar_position: 9
 title: "Dimension Angular — KulmanLab CAD میں لائنوں، قوس اور دائروں کے درمیان زاویے ناپیں"
 description: "DimensionAngular کمانڈ لائنوں، قوس، یا دائروں پر زاویاتی پیمائش تشریح رکھتی ہے۔ دو لائن زاویہ، قوس پھیلاؤ، اور دائرہ سیکٹر طریقوں کو سپورٹ کرتی ہے۔"
 keywords: [زاویاتی پیمائش CAD, زاویہ dimension, لائنوں کے درمیان زاویہ ناپیں, DimensionAngular, قوس dimension, زاویہ تشریح, CAD زاویہ مارک اپ, kulmanlab زاویاتی dimension]
+group: markup
+order: 9
 ---
 
 # Dimension Angular

@@ -2,6 +2,8 @@
 title: Commande Wipe Storage — Effacer Toutes les Données du Navigateur dans KulmanLab CAD
 description: La commande wipestorage supprime définitivement tous les fichiers, calques, types de ligne et historiques d'annulation sauvegardés dans le navigateur. Nécessite de taper YES pour confirmer. Utilisez-la pour réinitialiser une base de données locale corrompue ou saturée.
 keywords: [CAO wipe storage, effacer données navigateur CAO, réinitialiser application CAO, supprimer fichiers locaux CAO, kulmanlab wipestorage]
+group: file
+order: 6
 ---
 
 # Wipe Storage

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Files — Panel de Archivos Recientes en KulmanLab CAD
 description: El comando Files abre el panel de Archivos Recientes — explora todos los dibujos guardados en tu navegador, restaura cualquiera de ellos en el lienzo o elimina los que ya no necesitas.
 keywords: [archivos recientes CAD, historial de archivos navegador CAD, restaurar dibujo, reabrir DXF, almacenamiento navegador CAD, archivos KulmanLab, dibujos guardados, IndexedDB CAD, gestionar dibujos]
+group: file
+order: 3
 ---
 
 # Files

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 21
 title: "Chamfer ਕਮਾਂਡ — KulmanLab CAD ਵਿੱਚ ਦੋ ਲਾਈਨਾਂ ਵਿਚਕਾਰ ਸਿੱਧਾ ਕੋਨਾ ਕੱਟੋ"
 description: "Chamfer ਕਮਾਂਡ ਦੋ Line ਜਾਂ Polyline ਐਂਟਿਟੀਜ਼ ਨੂੰ ਸਿੱਧੇ ਵਿਕਰਣ ਕੱਟ ਨਾਲ ਜੋੜਦੀ ਹੈ। ਤੁਸੀਂ ਦੋ ਦੂਰੀਆਂ ਨਿਰਧਾਰਤ ਕਰਦੇ ਹੋ — ਹਰੇਕ ਐਂਟਿਟੀ ਦੇ ਨਾਲ ਇੱਕ — ਅਤੇ ਕਮਾਂਡ ਦੋਵਾਂ ਨੂੰ ਉਹਨਾਂ ਪੁਆਇੰਟਾਂ ਤੱਕ ਟ੍ਰਿਮ ਕਰਦੀ ਹੈ ਅਤੇ ਇੱਕ ਜੋੜਨ ਵਾਲੀ ਲਾਈਨ ਸ਼ਾਮਲ ਕਰਦੀ ਹੈ।"
 keywords: [CAD chamfer ਕਮਾਂਡ, chamfer ਲਾਈਨ CAD, ਵਿਕਰਣ ਕੋਨਾ ਕੱਟ, ਬੀਵਲ ਕੋਨਾ CAD, kulmanlab]
+group: edit
+order: 12
 ---
 
 # Chamfer

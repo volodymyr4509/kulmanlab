@@ -2,6 +2,8 @@
 title: ViewportCopy Command — Duplicate a Viewport in KulmanLab CAD
 description: The ViewportCopy command duplicates a selected viewport to a new position in the same layout, preserving scale and model view settings. Supports exact coordinate entry, angle locking, and typed distance input.
 keywords: [viewport copy, duplicate viewport, copy viewport layout, angle lock viewport, exact coordinate viewport, kulmanlab]
+group: layouts
+order: 2
 ---
 
 # ViewportCopy

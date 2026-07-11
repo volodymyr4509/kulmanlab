@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: Circle-Befehl — Kreise durch Mittelpunkt und Radius zeichnen in KulmanLab CAD
 description: Der Circle-Befehl platziert einen Kreis durch Klicken eines Mittelpunkts und anschließendes Klicken oder Eingeben des Radius. Vier Kardinal-Griffpunkte ermöglichen das Ändern des Radius durch Ziehen ohne erneutes Ausführen des Befehls. Vollständiger DXF-Austausch als CIRCLE-Elemente.
 keywords: [CAD-Kreisbefehl, Kreis zeichnen CAD, Kreisradius-Eingabe, Kreis-Griffpunkt-Größenänderung, CIRCLE DXF-Element, dimradius Kreis, kulmanlab]
+group: shapes
+order: 4
 ---
 
 # Circle

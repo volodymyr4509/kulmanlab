@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Selector de Tipo de Línea en la Barra de Herramientas — Controlar Patrones de Guiones en KulmanLab CAD
 description: El selector de tipo de línea en la barra de herramientas de KulmanLab CAD establece el patrón de guiones aplicado a todas las nuevas entidades dibujadas. Admite todos los tipos de línea cargados desde el archivo DXF actual más las opciones integradas ByLayer, ByBlock y Continuous.
 keywords: [tipo de línea CAD, patrón de guiones, línea discontinua, tipo de línea DXF, tipo de línea ByLayer, kulmanlab]
+group: interface
+order: 3
 ---
 
 # Linetype

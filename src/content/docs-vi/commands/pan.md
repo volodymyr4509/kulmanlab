@@ -1,6 +1,8 @@
 ---
 title: Lệnh Pan — Điều Hướng Khung Nhìn Kéo Và Thả trong KulmanLab CAD
 description: Lệnh Pan vào chế độ kéo để cuộn liên tục. Nhấp và kéo bất kỳ đâu trên canvas để dịch chuyển khung nhìn mà không thay đổi mức phóng to. Kéo chuột giữa hoạt động bất kỳ lúc nào mà không cần kích hoạt Pan.
+group: navigate
+order: 1
 ---
 
 # Pan

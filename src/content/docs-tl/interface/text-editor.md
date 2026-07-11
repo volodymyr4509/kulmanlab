@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: Text Editor — Rich at Simple na Mode sa KulmanLab CAD
 description: May dalawang mode ang text editor ng KulmanLab CAD — rich (per-character formatting, multi-line, word-wrap para sa Text at Multileader) at simple (uniform na style, single-line para sa dimension entity). Ipinapakita ng mode chip sa header kung aling mode ang aktibo.
 keywords: [CAD text editor, MTEXT, bold italic CAD, text formatting CAD, multi-line text CAD, word wrap CAD, rich text editor, simple text editor, dimension text editor, custom font CAD, upload ttf CAD, kulmanlab]
+group: interface
+order: 5
 ---
 
 # Text Editor

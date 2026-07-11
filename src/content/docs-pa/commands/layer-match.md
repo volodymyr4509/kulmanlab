@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerMatch — KulmanLab CAD ਵਿੱਚ ਸਰੋਤ ਨਾਲ ਮੇਲ ਕਰਨ ਲਈ ਇਕਾਈ ਲੇਅਰਾਂ ਮੁੜ-ਨਿਰਧਾਰਿਤ ਕਰੋ
 description: LayerMatch ਕਮਾਂਡ ਇੱਕ ਜਾਂ ਵੱਧ ਟਾਰਗੇਟ ਇਕਾਈਆਂ ਦੀ ਲੇਅਰ ਨੂੰ ਤੁਹਾਡੇ ਵੱਲੋਂ ਕਲਿੱਕ ਕੀਤੀ ਗਈ ਸਰੋਤ ਇਕਾਈ ਦੀ ਲੇਅਰ ਨਾਲ ਮੇਲ ਕਰਨ ਲਈ ਮੁੜ-ਨਿਰਧਾਰਿਤ ਕਰਦੀ ਹੈ।
 keywords: [ਲੇਅਰ ਮੈਚ, ਲੇਅਰ ਮੇਲ ਕਰੋ CAD, ਲੇਅਰ ਮੁੜ-ਨਿਰਧਾਰਿਤ kulmanlab, CAD ਲੇਅਰ ਪ੍ਰਬੰਧਨ]
+group: layer
+order: 2
 ---
 
 # LayerMatch

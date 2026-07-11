@@ -1,8 +1,9 @@
 ---
-sidebar_position: 16
 title: Dimension Radius ਕਮਾਂਡ — KulmanLab CAD ਵਿੱਚ ਆਰਕ ਅਤੇ ਸਰਕਲ ਰੇਡੀਅਸ ਦਰਸਾਓ
 description: Dimension Radius ਕਮਾਂਡ ਇੱਕ ਆਰਕ ਜਾਂ ਸਰਕਲ 'ਤੇ R-ਪ੍ਰੀਫਿਕਸ ਵਾਲਾ ਰੇਡੀਅਲ ਡਾਇਮੈਂਸ਼ਨ ਰੱਖਦੀ ਹੈ। ਇਕਾਈ 'ਤੇ ਕਲਿੱਕ ਕਰੋ, ਫਿਰ ਡਾਇਮੈਂਸ਼ਨ ਲਾਈਨ ਨੂੰ ਕੇਂਦਰ ਤੋਂ ਪਰੀਧੀ ਵੱਲ ਸਥਿਤ ਕਰਨ ਲਈ ਕਰਸਰ ਹਿਲਾਓ। DIMENSION ਰੇਡੀਅਸ ਐਂਟਿਟੀਆਂ ਦੇ ਰੂਪ ਵਿੱਚ ਪੂਰਾ DXF ਰਾਊਂਡ-ਟ੍ਰਿਪ।
 keywords: [CAD ਰੇਡੀਅਸ ਡਾਇਮੈਂਸ਼ਨ, dimradius, ਸਰਕਲ ਰੇਡੀਅਸ ਦਰਸਾਓ, ਆਰਕ ਰੇਡੀਅਸ ਡਾਇਮੈਂਸ਼ਨ, R ਪ੍ਰੀਫਿਕਸ ਡਾਇਮੈਂਸ਼ਨ, kulmanlab]
+group: markup
+order: 7
 ---
 
 # Dimension Radius

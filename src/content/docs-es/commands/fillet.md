@@ -1,8 +1,9 @@
 ---
-sidebar_position: 20
 title: Comando Fillet — Redondear una Esquina Entre Dos Líneas en KulmanLab CAD
 description: El comando Fillet conecta dos entidades Line con un arco tangente de un radio especificado, recortando cada línea hasta el punto de tangencia. Una vista previa de arco discontinuo ayuda a elegir la esquina correcta antes de hacer clic.
 keywords: [comando fillet CAD, redondear esquina CAD, arco de filete, arco tangente dos líneas, kulmanlab]
+group: edit
+order: 11
 ---
 
 # Fillet

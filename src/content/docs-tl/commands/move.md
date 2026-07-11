@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: "Move Command — I-translate ang mga Napiling Entity gamit ang Base Point sa KulmanLab CAD"
 description: "Ginagalaw ng Move command ang isa o higit pang napiling entity gamit ang base point at destination. Sinusuportahan ang pre-selection, angle locking, at exact distance input. Pagkatapos ng move, nananatiling naka-select ang mga entity sa bago nilang posisyon. Sinusuportahan ang bawat entity type."
 keywords: [CAD move command, i-translate ang entity CAD, igalaw ang objects CAD, angle lock move, exact distance move, grip move CAD, kulmanlab]
+group: edit
+order: 1
 ---
 
 # Move

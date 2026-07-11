@@ -1,8 +1,9 @@
 ---
-sidebar_position: 20
 title: Polecenie Fillet — Zaokrąglanie narożnika między dwiema liniami w KulmanLab CAD
 description: Polecenie Fillet łączy dwa elementy Linia łukiem stycznych o podanym promieniu, przycinając każdą linię do punktu stycznego. Przerywany podgląd łuku pomaga wybrać właściwy narożnik przed kliknięciem.
 keywords: [polecenie zaokrąglenia CAD, zaokrąglanie narożnika CAD, łuk zaokrąglenia, łuk styczny dwóch linii, kulmanlab]
+group: edit
+order: 11
 ---
 
 # Fillet

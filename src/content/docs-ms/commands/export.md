@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Export — Muat Turun Lukisan sebagai DXF atau JSON dalam KulmanLab CAD
 description: Arahan Export memuat turun lukisan semasa ke sistem fail anda. JSON mengekalkan semua entiti termasuk dimensi dan pemimpin; DXF serasi dengan alat CAD lain.
 keywords: [eksport DXF, eksport fail CAD, muat turun DXF pelayar, simpan DXF dalam talian, eksport JSON CAD, eksport KulmanLab, muat turun fail CAD, eksport DXF, simpan lukisan ke fail, muat turun DXF]
+group: file
+order: 5
 ---
 
 # Export

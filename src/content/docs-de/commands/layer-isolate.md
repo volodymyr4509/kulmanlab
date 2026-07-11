@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerIsolate — Alle Layer außer den ausgewählten einfrieren in KulmanLab CAD
 description: Der Befehl LayerIsolate friert alle Layer außer denen der ausgewählten Objekte ein, sodass Sie sich auf bestimmte Geometrie konzentrieren können, ohne etwas zu löschen.
 keywords: [Layer isolieren, Layer einfrieren CAD, Layer isolieren kulmanlab, CAD-Layerverwaltung]
+group: layer
+order: 3
 ---
 
 # LayerIsolate

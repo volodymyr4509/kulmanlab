@@ -1,8 +1,9 @@
 ---
-sidebar_position: 13
 title: "Dimension Linear কমান্ড — KulmanLab CAD-এ অনুভূমিক এবং উল্লম্ব মাত্রা"
 description: "Dimension Linear কমান্ড দুটি পয়েন্টের মধ্যে অনুভূমিক বা উল্লম্ব দূরত্ব পরিমাপ করে। মাত্রা রেখা সর্বদা অক্ষ-সারিবদ্ধ — অভিমুখ লক করতে H বা V চাপুন, বা কার্সার অবস্থান স্বয়ংক্রিয়ভাবে সিদ্ধান্ত নিতে দিন। DIMENSION সত্তা হিসেবে সম্পূর্ণ DXF রাউন্ড-ট্রিপ।"
 keywords: [CAD dimension linear, অনুভূমিক মাত্রা CAD, উল্লম্ব মাত্রা CAD, dimlinear, H V অভিমুখ লক, মাত্রা অফসেট, kulmanlab]
+group: markup
+order: 4
 ---
 
 # Dimension Linear

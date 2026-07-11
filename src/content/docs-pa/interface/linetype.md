@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: ਲਾਈਨਟਾਈਪ ਟੂਲਬਾਰ ਪਿਕਰ — KulmanLab CAD ਵਿੱਚ ਡੈਸ਼ ਪੈਟਰਨ ਕੰਟਰੋਲ ਕਰੋ
 description: KulmanLab CAD ਟੂਲਬਾਰ ਵਿੱਚ ਲਾਈਨਟਾਈਪ ਪਿਕਰ ਸਾਰੀਆਂ ਨਵੀਆਂ ਖਿੱਚੀਆਂ ਗਈਆਂ ਇਕਾਈਆਂ 'ਤੇ ਲਾਗੂ ਹੋਣ ਵਾਲਾ ਡੈਸ਼ ਪੈਟਰਨ ਸੈੱਟ ਕਰਦਾ ਹੈ। ਮੌਜੂਦਾ DXF ਫ਼ਾਈਲ ਵਿੱਚੋਂ ਲੋਡ ਸਾਰੀਆਂ ਲਾਈਨਟਾਈਪਾਂ ਦੇ ਨਾਲ-ਨਾਲ ਬਿਲਟ-ਇਨ ByLayer, ByBlock, ਅਤੇ Continuous ਵਿਕਲਪਾਂ ਦਾ ਸਮਰਥਨ ਕਰਦਾ ਹੈ।
 keywords: [CAD ਲਾਈਨਟਾਈਪ, ਡੈਸ਼ ਪੈਟਰਨ, ਡੈਸ਼ ਵਾਲੀ ਰੇਖਾ, DXF ਲਾਈਨਟਾਈਪ, ByLayer ਲਾਈਨਟਾਈਪ, kulmanlab]
+group: interface
+order: 3
 ---
 
 # ਲਾਈਨਟਾਈਪ

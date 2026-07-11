@@ -2,6 +2,8 @@
 title: Polecenie ViewportRectangle — Tworzenie okna widoku w układzie w KulmanLab CAD
 description: Polecenie ViewportRectangle tworzy okno widoku w aktywnym układzie papieru przez wyznaczenie dwóch przeciwnych narożników. Okno widoku pokazuje elementy przestrzeni modelu przy domyślnej skali układu.
 keywords: [prostokąt widoku, tworzenie okna widoku, okno widoku układu, okno widoku przestrzeni papieru, kulmanlab]
+group: layouts
+order: 1
 ---
 
 # ViewportRectangle

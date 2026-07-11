@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Perintah Distance — Mengukur Jarak Garis Lurus antara Dua Titik di KulmanLab CAD
 description: Perintah Distance mengukur jarak Euclidean antara dua titik yang diklik dan menampilkan hasilnya hingga 4 desimal. Klik lagi setelah hasilnya untuk merantai pengukuran baru dari titik terakhir.
 keywords: [CAD ukur jarak, perintah distance, pengukuran titik ke titik, jarak garis lurus, pengukuran CAD kulmanlab]
+group: measure
+order: 1
 ---
 
 # Distance

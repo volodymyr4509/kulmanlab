@@ -2,6 +2,8 @@
 title: Wipe Storage-kommandot — Rensa all webbläsardata i KulmanLab CAD
 description: wipestorage-kommandot raderar permanent alla filer, lager, linjetyper och ångrahistorik som sparats i webbläsaren. Kräver att du skriver YES för att bekräfta. Använd när du återställer en skadad eller överfull lokal databas.
 keywords: [CAD rensa lagring, rensa webbläsardata CAD, återställ CAD-app, radera lokala filer CAD, kulmanlab wipestorage]
+group: file
+order: 6
 ---
 
 # Wipe Storage

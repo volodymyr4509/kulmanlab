@@ -1,8 +1,9 @@
 ---
-sidebar_position: 14
 title: Dimension Aligned 명령어 — KulmanLab CAD에서 임의 각도의 실제 거리 치수
 description: Dimension Aligned 명령어는 두 점 사이의 실제 직선 거리를 측정합니다. 치수 선은 임의 각도에서 p1→p2 선에 평행하게 실행됩니다 — 수평 또는 수직으로만 제한되는 선형 치수와 다릅니다. DXF DIMENSION 객체로 완전한 왕복 지원.
 keywords: [CAD 정렬 치수, dimaligned, 대각선 치수 CAD, 실제 거리 치수, 각도 치수 CAD, kulmanlab]
+group: markup
+order: 5
 ---
 
 # Dimension Aligned

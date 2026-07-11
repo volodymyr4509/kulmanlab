@@ -2,6 +2,8 @@
 title: Lệnh Copy — Sao Chép Đối Tượng Đến Vị Trí Mới trong KulmanLab CAD
 description: Lệnh Copy tạo các bản sao dịch chuyển của các đối tượng được chọn trong khi để nguyên các bản gốc. Hỗ trợ chọn trước, khóa góc và nhập khoảng cách chính xác. Các bản sao được đặt và lệnh kết thúc; bản gốc không thay đổi.
 keywords: [lệnh copy CAD, sao chép đối tượng CAD, nhân bản hình học CAD, khóa góc sao chép, khoảng cách chính xác, kulmanlab]
+group: edit
+order: 2
 ---
 
 # Copy

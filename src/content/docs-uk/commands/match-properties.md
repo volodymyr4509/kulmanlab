@@ -1,8 +1,9 @@
 ---
-sidebar_position: 34
 title: Команда Match Properties — Копіювати властивості між об'єктами у KulmanLab CAD
 description: Команда MatchProperties копіює колір, шар та інші спільні властивості від джерельного об'єкта до одного або більше цільових об'єктів. Відповідає властивостям так само як настільні CAD інструменти.
 keywords: [match properties CAD, копіювати властивості об'єкта, MATCHPROP, відповідність шару кольору, перенести властивості, kulmanlab match properties, пензель властивостей, копіювати шар CAD]
+group: style
+order: 1
 ---
 
 # Match Properties

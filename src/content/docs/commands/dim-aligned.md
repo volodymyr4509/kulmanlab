@@ -1,8 +1,9 @@
 ---
-sidebar_position: 14
 title: Dimension Aligned Command — True-Distance Dimensions at Any Angle in KulmanLab CAD
 description: The Dimension Aligned command measures the true straight-line distance between two points. The dimension line runs parallel to the p1→p2 line at any angle — unlike Dimension Linear which is restricted to horizontal or vertical. Full DXF round-trip as DIMENSION entities.
 keywords: [CAD dimension aligned, dimaligned, diagonal dimension CAD, true distance dimension, angled dimension CAD, kulmanlab]
+group: markup
+order: 5
 ---
 
 # Dimension Aligned

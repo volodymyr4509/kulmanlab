@@ -2,6 +2,8 @@
 title: Arahan ViewportCopy — Duplikasi Viewport dalam KulmanLab CAD
 description: Arahan ViewportCopy menduplikasi viewport yang dipilih ke kedudukan baru dalam susun atur yang sama, mengekalkan tetapan skala dan pandangan model. Menyokong kemasukan koordinat tepat, penguncian sudut, dan input jarak bertaip.
 keywords: [salin viewport, duplikasi viewport, salin viewport susun atur, kunci sudut viewport, koordinat tepat viewport, kulmanlab]
+group: layouts
+order: 2
 ---
 
 # ViewportCopy

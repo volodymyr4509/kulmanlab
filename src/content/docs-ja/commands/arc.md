@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Arc コマンド — 外接円法による 3 点円弧の描画（KulmanLab CAD）
 description: arc コマンドは外接円ジオメトリを使用して、クリックした 3 点を通る円弧を描きます。配置後にスタートおよびエンドグリップをドラッグして円弧の端点を調整できます。ARC エンティティとして DXF ラウンドトリップ対応。
 keywords: [CAD 円弧コマンド, 3点円弧 CAD, 外接円弧, 円弧描画 CAD, ARC DXFエンティティ, 円弧グリップ編集, kulmanlab, arc]
+group: shapes
+order: 5
 ---
 
 # Arc

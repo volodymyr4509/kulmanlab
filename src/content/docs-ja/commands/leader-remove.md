@@ -1,8 +1,9 @@
 ---
-sidebar_position: 11
 title: "Leader− コマンド — マルチ引出線から矢印アームを削除（KulmanLab CAD）"
 description: "Leader− コマンドは 2 本以上のアームを持つマルチ引出線から 1 本の矢印アームを削除します。カーソルをアームの近くに移動すると最も近いアームがハイライト表示されます。ドッグレッグ、テキスト、残りのアームは保持されます。"
 keywords: [CAD 引出線 アーム削除, leader- コマンド, 引出線から矢印を削除, マルチ引出線 アーム削除, kulmanlab]
+group: markup
+order: 3
 ---
 
 # Leader−

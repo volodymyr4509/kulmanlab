@@ -1,8 +1,9 @@
 ---
-sidebar_position: 17
 title: "คำสั่ง Dimension Diameter — ระบุเส้นผ่านศูนย์กลางของวงกลมและส่วนโค้งเต็มใน KulmanLab CAD"
 description: "คำสั่ง Dimension Diameter วางมิติเส้นผ่านศูนย์กลาง (นำหน้าด้วยสัญลักษณ์เส้นผ่านศูนย์กลาง) ข้ามส่วนโค้งหรือวงกลมผ่านศูนย์กลาง ย้ายเคอร์เซอร์เพื่อหมุนเส้นมิติไปมุมใดก็ได้ รองรับ DXF แบบสมบูรณ์เป็นวัตถุ DIMENSION ประเภท diameter"
 keywords: [มิติเส้นผ่านศูนย์กลาง CAD, dimdiameter, ระบุเส้นผ่านศูนย์กลางวงกลม, มิติเส้นผ่านศูนย์กลางส่วนโค้ง, kulmanlab]
+group: markup
+order: 8
 ---
 
 # Dimension Diameter

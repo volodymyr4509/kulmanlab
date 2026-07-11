@@ -2,6 +2,8 @@
 title: KulmanLab CAD — Referensi Perintah
 description: Referensi perintah KulmanLab CAD — panduan lengkap untuk setiap perintah menggambar, mengedit, markup, layer, pengukuran, dan file di KulmanLab CAD.
 keywords: [KulmanLab, KulmanLab CAD, perintah CAD, CAD browser gratis, editor DXF online, perintah menggambar, kulmanlab]
+group: overview
+order: 1
 ---
 
 # KulmanLab CAD — Referensi Perintah

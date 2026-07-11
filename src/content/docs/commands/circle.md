@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: Circle Command — Draw Circles by Center and Radius in KulmanLab CAD
 description: The Circle command places a circle by clicking a center point and then clicking or typing the radius. Four cardinal grips let you resize the radius by dragging without re-running the command. Full DXF round-trip as CIRCLE entities.
 keywords: [CAD circle command, draw circle CAD, circle radius input, resize circle grip, CIRCLE DXF entity, dimradius circle, kulmanlab]
+group: shapes
+order: 4
 ---
 
 # Circle

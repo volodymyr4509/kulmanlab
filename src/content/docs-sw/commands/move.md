@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Move Command — Translate Selected Entities by Base Point in KulmanLab CAD
 description: "Amri ya Move hutafsiri vipengele moja au zaidi vilivyochaguliwa kwa nukta ya msingi na lengwa. Inasaidia uchaguzi wa awali, ufungaji wa pembe, na uingizaji wa umbali sahihi. Baada ya kuhamia vipengele vinabaki vikichaguliwa katika nafasi yake mpya. Kila aina ya kipengele inasaidiwa."
 keywords: [CAD move command, translate entities CAD, move objects CAD, angle lock move, exact distance move, grip move CAD, kulmanlab]
+group: edit
+order: 1
 ---
 
 # Move

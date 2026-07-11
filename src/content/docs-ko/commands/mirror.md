@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: Mirror 명령어 — KulmanLab CAD에서 두 점 축을 기준으로 객체 반사
 description: Mirror 명령어는 두 번의 클릭으로 정의된 대칭선을 기준으로 선택한 객체의 미러 복사본을 만듭니다. 원본은 항상 유지됩니다 — 대칭은 새로운 미러 복사본을 만듭니다. 대칭축은 임의 각도로 설정할 수 있으며 45° 단위로 스냅됩니다.
 keywords: [CAD Mirror 명령어, 객체 반사 CAD, 대칭 CAD, 객체 뒤집기 CAD, 대칭축 CAD, kulmanlab]
+group: edit
+order: 4
 ---
 
 # Mirror

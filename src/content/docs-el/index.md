@@ -2,6 +2,8 @@
 title: KulmanLab CAD — Αναφορά Εντολών
 description: Αναφορά εντολών KulmanLab CAD — πλήρης οδηγός για κάθε εντολή σχεδίασης, επεξεργασίας, σήμανσης, επιπέδου, μέτρησης και αρχείων στο KulmanLab CAD.
 keywords: [KulmanLab, KulmanLab CAD, εντολές CAD, δωρεάν CAD browser, DXF editor online, εντολές σχεδίασης, kulmanlab commands]
+group: overview
+order: 1
 ---
 
 # KulmanLab CAD — Αναφορά Εντολών

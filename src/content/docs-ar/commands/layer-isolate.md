@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerIsolate — تجميد جميع الطبقات باستثناء المحددة في KulmanLab CAD
 description: يُجمِّد أمر LayerIsolate كل طبقة باستثناء تلك التي تنتمي إليها الكائنات المحددة، مما يتيح التركيز على هندسة محددة دون حذف أي شيء.
 keywords: [عزل طبقة, تجميد طبقات CAD, عزل طبقة kulmanlab, إدارة طبقات CAD]
+group: layer
+order: 3
 ---
 
 # LayerIsolate

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 6
 title: คำสั่ง Delete — ลบวัตถุออกจากภาพวาดใน KulmanLab CAD
 description: คำสั่ง Delete ลบวัตถุที่เลือกออกอย่างถาวร (สามารถเลิกทำได้) วัตถุที่เลือกล่วงหน้าถูกลบทันทีโดยไม่มีขั้นตอนยืนยัน ปุ่ม Delete ทำงานเป็นทางลัดทั่วไปแม้ไม่ได้เปิดใช้งานคำสั่ง รองรับการเลือกแบบคลิกเดี่ยวและพื้นที่
 keywords: [คำสั่ง delete CAD, ลบวัตถุ CAD, ลบออก CAD, ปุ่ม Delete CAD, เลิกทำการลบ CAD, kulmanlab]
+group: edit
+order: 7
 ---
 
 # Delete

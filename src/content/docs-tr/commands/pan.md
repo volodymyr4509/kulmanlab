@@ -1,8 +1,9 @@
 ---
-sidebar_position: 42
 title: Pan Komutu — KulmanLab CAD'de Çizim Görünümünü Kaydır
 description: Pan komutu, çizim görünümünü ölçeği değiştirmeden kaydırır. Ayrıca orta fare düğmesi basılı tutularak (diğer komutlar sırasında bile her zaman çalışır) veya Boşluk tuşuyla kullanılabilir.
 keywords: [CAD pan komutu, görünümü kaydır CAD, tuvali sürükle CAD, orta fare düğmesi pan, kulmanlab]
+group: navigate
+order: 1
 ---
 
 # Pan

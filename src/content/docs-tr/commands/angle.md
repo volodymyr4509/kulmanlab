@@ -1,8 +1,9 @@
 ---
-sidebar_position: 33
 title: Angle Komutu — KulmanLab CAD'de Üç Nokta ile Köşedeki İç Açıyı Ölç
 description: Angle komutu, üç tıklanan nokta tarafından tanımlanan köşedeki iç açıyı (0°–180°) ölçer. Birinci uç, köşe, ikinci uç sırasıyla tıklayın. Sonuç terminalde 4 ondalık basamak hassasiyetle gösterilir.
 keywords: [CAD angle komutu, CAD açı ölç, üç noktalı açı, iç açı, açı ölçümü, köşe açısı, kulmanlab]
+group: measure
+order: 2
 ---
 
 # Angle

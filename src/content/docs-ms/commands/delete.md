@@ -1,8 +1,9 @@
 ---
-sidebar_position: 6
 title: Arahan Delete — Buang Entiti daripada Lukisan dalam KulmanLab CAD
 description: Arahan Delete membuang entiti yang dipilih secara kekal (boleh dibatalkan). Entiti yang dipra-pilih dipadam serta-merta tanpa langkah pengesahan. Kekunci Delete berfungsi sebagai pintasan global walaupun tanpa mengaktifkan arahan. Menyokong pemilihan klik tunggal dan kawasan.
 keywords: [arahan padam CAD, buang entiti CAD, padamkan objek CAD, kekunci padam CAD, batal padam CAD, kulmanlab]
+group: edit
+order: 7
 ---
 
 # Delete

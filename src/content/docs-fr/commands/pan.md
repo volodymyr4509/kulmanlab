@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Commande pan — Navigation par clic et glisser dans KulmanLab CAD
 description: La commande pan entre dans un mode de glisser persistant pour déplacer la vue. Cliquez et faites glisser n'importe où sur le canevas pour déplacer la vue sans changer le niveau de zoom. Le glisser avec le bouton central de la souris fonctionne à tout moment sans activer Pan.
 keywords: [déplacer vue CAO, commande pan, glisser pour naviguer, déplacer canevas CAO, navigation viewport, kulmanlab]
+group: navigate
+order: 1
 ---
 
 # Pan

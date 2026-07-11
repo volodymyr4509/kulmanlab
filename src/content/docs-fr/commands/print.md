@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Commande print — Exporter le dessin en PNG, JPEG, WebP ou PDF dans KulmanLab CAD
 description: La commande print ouvre le Gestionnaire d'impression — une fenêtre d'export dédiée avec aperçu en temps réel, sélecteur de format, option niveaux de gris et sélection de zone optionnelle. Export jusqu'à 2000×2000 px. Prend en charge PNG, JPEG, WebP et PDF.
 keywords: [exporter PNG CAO, exporter PDF CAO, imprimer dessin CAO, gestionnaire impression, export niveaux de gris, export kulmanlab]
+group: file
+order: 4
 ---
 
 # Print

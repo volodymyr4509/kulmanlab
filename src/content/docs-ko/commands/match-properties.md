@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Match Properties — KulmanLab CAD에서 객체 특성 복사
 description: MatchProperties 명령어는 원본 객체에서 하나 이상의 대상 객체로 색상, 레이어 및 기타 공유 특성을 복사합니다. 데스크탑 CAD 도구와 동일한 방식으로 특성을 일치시킵니다.
 keywords: [특성 일치 CAD, 객체 특성 복사, MATCHPROP, 레이어 색상 일치, 특성 전송, kulmanlab 특성 일치, 페인트 특성, 레이어 복사 CAD]
+group: style
+order: 1
 ---
 
 # Match Properties

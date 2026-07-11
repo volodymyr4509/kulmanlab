@@ -2,6 +2,8 @@
 title: Arahan Wipe Storage — Kosongkan Semua Data Pelayar dalam KulmanLab CAD
 description: Arahan wipestorage memadamkan secara kekal semua fail, lapisan, linetype, dan sejarah batal yang disimpan dalam pelayar. Memerlukan menaip YES untuk mengesahkan. Gunakan apabila menetapkan semula pangkalan data tempatan yang rosak atau penuh.
 keywords: [CAD padam storan, kosongkan data pelayar CAD, tetapkan semula aplikasi CAD, padamkan fail tempatan CAD, kulmanlab wipestorage]
+group: file
+order: 6
 ---
 
 # Wipe Storage

@@ -2,6 +2,8 @@
 title: KulmanLab CAD — Tài Liệu Tham Khảo Lệnh
 description: Tài liệu tham khảo lệnh KulmanLab CAD — hướng dẫn đầy đủ về mọi lệnh vẽ, chỉnh sửa, chú thích, lớp, đo lường và tệp trong KulmanLab CAD.
 keywords: [KulmanLab, KulmanLab CAD, lệnh CAD, CAD trình duyệt miễn phí, chỉnh sửa DXF trực tuyến, lệnh vẽ, kulmanlab lệnh]
+group: overview
+order: 1
 ---
 
 # KulmanLab CAD — Tài Liệu Tham Khảo Lệnh

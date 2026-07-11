@@ -1,8 +1,9 @@
 ---
-sidebar_position: 9
 title: Spline Fit Command — Draw Interpolating Splines Through Clicked Points in KulmanLab CAD
 description: The Spline Fit command draws a cubic spline that passes through every clicked point exactly. Internally the curve is stored with both fit points and computed control vertices. Dragging a fit-point grip re-interpolates the entire curve. Full DXF round-trip as SPLINE entities.
 keywords: [CAD spline fit command, interpolating spline CAD, spline through points, draw smooth curve CAD, SPLINE DXF fit points, spline grip editing, kulmanlab]
+group: shapes
+order: 9
 ---
 
 # Spline Fit

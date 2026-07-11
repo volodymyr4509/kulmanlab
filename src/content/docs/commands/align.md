@@ -1,8 +1,9 @@
 ---
-sidebar_position: 7
 title: Align Command — Translate, Rotate, and Scale Entities Using Point Pairs in KulmanLab CAD
 description: The Align command repositions selected entities using one or two pairs of source/destination points, combining translate, rotate, and an optional uniform scale into a single operation. Works like a combined Move + Rotate + Scale.
 keywords: [CAD align command, align entities CAD, translate rotate scale, point pair alignment, AutoCAD ALIGN equivalent, kulmanlab]
+group: edit
+order: 6
 ---
 
 # Align

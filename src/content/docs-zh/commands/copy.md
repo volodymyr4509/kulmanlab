@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Copy命令 — 在 KulmanLab CAD 中将图元复制到新位置
 description: Copy 命令在保留原图元的同时，将选中图元的平移副本放置到新位置。支持预先选择、角度锁定和精确距离输入。副本放置完成后命令退出；原图元保持不变。
 keywords: [CAD Copy 命令, 复制图元 CAD, 复制对象 CAD, 克隆几何 CAD, 角度锁定复制, 精确距离复制, kulmanlab]
+group: edit
+order: 2
 ---
 
 # Copy

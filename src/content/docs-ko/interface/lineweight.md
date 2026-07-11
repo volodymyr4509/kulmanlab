@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: 선 가중치 도구 모음 선택기 — KulmanLab CAD에서 획 너비 제어
 description: KulmanLab CAD 도구 모음의 선 가중치 선택기는 새로 그려지는 모든 객체에 적용되는 획 너비를 설정합니다. 0.00mm에서 2.11mm까지의 표준 DXF 선 가중치 값과 ByLayer 및 기본 모드를 지원합니다.
 keywords: [CAD 선 가중치, 획 너비, 선 너비, DXF 선 가중치, ByLayer 선 가중치, kulmanlab, 선 두께, 선 굵기]
+group: interface
+order: 4
 ---
 
 # 선 가중치

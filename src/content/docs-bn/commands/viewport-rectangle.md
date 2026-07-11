@@ -2,6 +2,8 @@
 title: "ViewportRectangle কমান্ড — KulmanLab CAD-এ লেআউটে ভিউপোর্ট তৈরি করুন"
 description: "ViewportRectangle কমান্ড দুটি বিপরীত কোণ বেছে পেপার লেআউটে একটি ভিউপোর্ট তৈরি করে। ভিউপোর্টটি লেআউটের ডিফল্ট স্কেলে মডেল স্পেস এন্টিটি দেখায়।"
 keywords: [ভিউপোর্ট আয়তক্ষেত্র, ভিউপোর্ট তৈরি, লেআউট ভিউপোর্ট, পেপার স্পেস ভিউপোর্ট, kulmanlab]
+group: layouts
+order: 1
 ---
 
 # ViewportRectangle

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Redo 명령어 — KulmanLab CAD에서 취소된 작업 재적용
 description: 다시 실행 명령어는 실행 취소로 되돌린 마지막 작업을 재적용하여 기록 스택을 앞으로 이동합니다. 다시 실행은 실행 취소 후에만 사용 가능하며 새 도면 작업이 수행되는 즉시 지워집니다.
 keywords: [CAD Redo 명령어, 다시 실행 기록 CAD, 작업 재적용 CAD, 실행 취소 다시 실행 CAD, 브라우저 영구 다시 실행, kulmanlab]
+group: edit
+order: 14
 ---
 
 # Redo

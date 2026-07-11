@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Arahan Undo — Langkah Kembali Melalui Sejarah Lukisan dalam KulmanLab CAD
 description: Arahan Undo membalikkan tindakan lukisan terakhir satu langkah pada satu masa. Sehingga 20 langkah disimpan setiap fail dan berterusan dalam pelayar merentasi muat semula halaman. Melakukan tindakan baharu selepas mengbatalkan membersihkan tindanan redo.
 keywords: [arahan batal CAD, sejarah batal CAD, balikkan tindakan CAD, langkah batal CAD, batal berterusan pelayar, kulmanlab]
+group: edit
+order: 13
 ---
 
 # Undo

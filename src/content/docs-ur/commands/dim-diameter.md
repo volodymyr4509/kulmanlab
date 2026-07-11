@@ -1,8 +1,9 @@
 ---
-sidebar_position: 17
 title: "Dimension Diameter کمانڈ — KulmanLab CAD میں مکمل دائرے اور قوس کے قطر تشریح کریں"
 description: "Dimension Diameter کمانڈ قوس یا دائرے پر قطر پیمائش (قطر علامت کے ساتھ) مرکز سے گزر کر رکھتی ہے۔ کرسر حرکت دے کر پیمائش لائن کو کسی بھی زاویے پر گھمائیں۔ DXF میں DIMENSION قطر اشیاء کے طور پر مکمل راؤنڈ ٹرپ۔"
 keywords: [CAD قطر پیمائش, dimdiameter, دائرہ قطر تشریح کریں, قوس قطر پیمائش, قطر علامت CAD, kulmanlab]
+group: markup
+order: 8
 ---
 
 # Dimension Diameter

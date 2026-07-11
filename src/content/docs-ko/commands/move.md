@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Move 명령어 — KulmanLab CAD에서 기준점으로 선택한 객체 이동
 description: 이동 명령어는 기준점에서 대상점까지 하나 이상의 선택한 객체를 이동합니다. 사전 선택, 각도 잠금, 정확한 거리 입력을 지원합니다. 이동 후 객체는 새 위치에서 선택된 상태로 유지됩니다. 모든 객체 유형을 지원합니다.
 keywords: [CAD Move 명령어, 객체 이동 CAD, 각도 잠금 이동, 정확한 거리 이동, 그립 이동 CAD, kulmanlab]
+group: edit
+order: 1
 ---
 
 # Move

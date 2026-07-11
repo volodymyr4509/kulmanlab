@@ -2,6 +2,8 @@
 title: "คำสั่ง ViewportCopy — ทำสำเนา Viewport ใน KulmanLab CAD"
 description: "คำสั่ง ViewportCopy ทำสำเนา viewport ที่เลือกไปยังตำแหน่งใหม่ในเลย์เอาต์เดียวกัน โดยรักษาสเกลและการตั้งค่าวิวโมเดล รองรับการป้อนพิกัดที่แน่นอน การล็อกมุม และการป้อนระยะที่แน่นอน"
 keywords: [viewport copy, ทำสำเนา viewport, คัดลอก viewport เลย์เอาต์, ล็อกมุม viewport, พิกัดที่แน่นอน viewport, kulmanlab]
+group: layouts
+order: 2
 ---
 
 # ViewportCopy

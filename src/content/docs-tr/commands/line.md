@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Line Komutu — KulmanLab CAD'de Çizgi Çiz, Zincirle, Kırp ve Uzat
 description: Line komutu, uçtan uca zincirlenebilen ayrı düz çizgi segmentleri çizer. Çizgiler, Trim ve Extend işlemlerinin uygulandığı tek nesne türüdür. DXF LINE nesneleri olarak tam round-trip.
 keywords: [CAD line komutu, düz çizgi çiz CAD, segmentleri zincirle, çizgiyi kırp CAD, çizgiyi uzat CAD, açı kilidi CAD, DXF LINE nesnesi, kulmanlab]
+group: shapes
+order: 1
 ---
 
 # Line

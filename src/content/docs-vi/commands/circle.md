@@ -2,6 +2,8 @@
 title: Lệnh Circle — Vẽ Hình Tròn Theo Tâm và Bán Kính trong KulmanLab CAD
 description: Lệnh Circle đặt hình tròn bằng cách bấm điểm tâm rồi bấm hoặc nhập bán kính. Bốn điểm kéo hướng chính cho phép thay đổi kích thước bán kính bằng cách kéo mà không cần chạy lại lệnh. Lưu DXF đầy đủ dưới dạng thực thể CIRCLE.
 keywords: [lệnh circle CAD, vẽ hình tròn CAD, nhập bán kính hình tròn, thay đổi kích thước hình tròn điểm kéo, thực thể CIRCLE DXF, kulmanlab]
+group: shapes
+order: 4
 ---
 
 # Circle

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 7
 title: أمر Text — وضع تسميات MTEXT في KulmanLab CAD
 description: يضع أمر Text تسمية نصية متعددة الأسطر بتنسيق غني. انقر على موضع، اكتب في المحرر المنبثق، واضغط Escape للتأكيد. انقر مزدوجاً على أي تسمية موجودة لإعادة فتح المحرر.
 keywords: [أمر نص CAD, MTEXT, وضع تسمية نصية, تعليق نصي CAD, عريض مائل CAD, نص متعدد الأسطر CAD, kulmanlab]
+group: shapes
+order: 7
 ---
 
 # Text

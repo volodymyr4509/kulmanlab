@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerUnfreezeAll — Ficha Safu Zote katika KulmanLab CAD
 description: "Amri ya LayerUnfreezeAll inafuta alama ya kuganda kwenye kila safu katika mchoro kwa hatua moja."
 keywords: [layer unfreeze, unfreeze all layers CAD, kulmanlab layer management]
+group: layer
+order: 4
 ---
 
 # LayerUnfreezeAll

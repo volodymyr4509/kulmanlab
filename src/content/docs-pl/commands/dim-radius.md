@@ -1,8 +1,9 @@
 ---
-sidebar_position: 16
 title: Polecenie Dimension Radius — Opisywanie promieni łuków i okręgów w KulmanLab CAD
 description: Polecenie Dimension Radius umieszcza radialny wymiar z prefiksem R na łuku lub okręgu. Kliknij element, a następnie przesuń kursor, aby ustawić orientację linii wymiarowej od środka do obwodu. Pełna obsługa zapisu i odczytu DXF jako elementy DIMENSION typu promień.
 keywords: [wymiar promienia CAD, dimradius, opis promienia okręgu, wymiar promienia łuku, wymiar z prefiksem R, kulmanlab]
+group: markup
+order: 7
 ---
 
 # Dimension Radius

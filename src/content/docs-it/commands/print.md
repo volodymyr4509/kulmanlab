@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Comando Print — Esportare il Disegno come PNG, JPEG, WebP o PDF in KulmanLab CAD
 description: Il comando Print apre il Print Manager — una finestra di esportazione dedicata con anteprima live, selettore di formato, opzione monocromatica e selezione area opzionale. Esporta fino a 2000×2000 px. Supporta PNG, JPEG, WebP e PDF.
 keywords: [CAD esporta PNG, CAD esporta PDF, stampa disegno CAD, print manager, esporta monocromatico, kulmanlab export]
+group: file
+order: 4
 ---
 
 # Print

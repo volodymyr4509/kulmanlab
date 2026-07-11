@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Help کمانڈ
 description: "KulmanLab CAD میں ان-ایپ مدد پینل کھولیں۔ کی بورڈ شارٹ کٹس، نیویگیشن تجاویز، اور رابطہ معلومات دکھاتا ہے۔"
 keywords: [CAD, مدد, کی بورڈ شارٹ کٹس, رابطہ, kulmanlab]
+group: overview
+order: 2
 ---
 
 # Help

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 10
 title: Polecenie Extend — Rozciąganie punktu końcowego linii do najbliższej granicy w KulmanLab CAD
 description: Polecenie Extend rozciąga najbliższy punkt końcowy wskazywanej Linii do najbliższego przecięcia z innym elementem. Podgląd na żywo pokazuje przedłużoną linię przed kliknięciem. Przedłużanie działa tylko na elementach Linia i ignoruje Tekst, Splajn i Linie wielokierunkowe jako granice.
 keywords: [polecenie przedłużania CAD, przedłużanie linii CAD, rozciąganie linii do granicy, przedłużanie punktu końcowego linii, podgląd przedłużania, kulmanlab]
+group: edit
+order: 9
 ---
 
 # Extend

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 26
 title: Dimension Linear Komutu — KulmanLab CAD'de Yatay ve Dikey Ölçüler
 description: Dimension Linear komutu, iki nokta arasındaki yatay veya dikey mesafeyi ölçer. Ölçü çizgisi her zaman eksen hizalıdır — yönü kilitlemek için H veya V tuşuna basın ya da imleç konumunun otomatik belirlemesine izin verin. DXF'de DIMENSION nesneleri olarak tam round-trip.
 keywords: [CAD dimension linear, yatay ölçü CAD, dikey ölçü CAD, dimlinear, H V yönelim kilidi, ölçü kaydırması, kulmanlab]
+group: markup
+order: 4
 ---
 
 # Dimension Linear

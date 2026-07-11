@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: "Files — KulmanLab CAD ਵਿੱਚ ਹਾਲੀਆ ਫਾਈਲਾਂ ਪੈਨਲ"
 description: "Files ਕਮਾਂਡ Recent Files ਪੈਨਲ ਖੋਲ੍ਹਦੀ ਹੈ — ਆਪਣੇ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਸੇਵ ਸਾਰੀਆਂ ਡਰਾਇੰਗਾਂ ਬ੍ਰਾਊਜ਼ ਕਰੋ, ਉਹਨਾਂ ਵਿੱਚੋਂ ਕਿਸੇ ਨੂੰ ਵੀ ਕੈਨਵਸ 'ਤੇ ਰੀਸਟੋਰ ਕਰੋ, ਜਾਂ ਜਿਹਨਾਂ ਦੀ ਹੁਣ ਲੋੜ ਨਹੀਂ ਉਹਨਾਂ ਨੂੰ ਮਿਟਾਓ।"
 keywords: [ਹਾਲੀਆ ਫਾਈਲਾਂ CAD, ਫਾਈਲ ਇਤਿਹਾਸ ਬ੍ਰਾਊਜ਼ਰ CAD, ਡਰਾਇੰਗ ਰੀਸਟੋਰ ਕਰੋ, DXF ਦੁਬਾਰਾ ਖੋਲ੍ਹੋ, ਬ੍ਰਾਊਜ਼ਰ ਸਟੋਰੇਜ CAD, KulmanLab Files, ਸੇਵ ਡਰਾਇੰਗਾਂ, IndexedDB CAD, ਡਰਾਇੰਗਾਂ ਦਾ ਪ੍ਰਬੰਧਨ]
+group: file
+order: 3
 ---
 
 # Files

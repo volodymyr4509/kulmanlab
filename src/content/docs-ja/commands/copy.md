@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Copy コマンド — エンティティを新しい位置に複製（KulmanLab CAD）
 description: copy コマンドは選択したエンティティの複製を作成し、元のエンティティはそのままにします。事前選択・角度ロック・正確な距離入力をサポートします。複製が配置されるとコマンドが終了し、元のエンティティは変更されません。
 keywords: [CAD コピーコマンド, エンティティ複製 CAD, オブジェクトコピー CAD, ジオメトリ複製 CAD, 角度ロック コピー, 距離指定 コピー, kulmanlab, copy]
+group: edit
+order: 2
 ---
 
 # Copy

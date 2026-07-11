@@ -1,6 +1,8 @@
 ---
 title: Lệnh ViewportRectangle — Tạo Khung Nhìn Trong Bố Cục trong KulmanLab CAD
 description: Lệnh ViewportRectangle tạo khung nhìn trong bố cục giấy bằng cách chọn hai góc đối diện. Khung nhìn hiển thị các thực thể không gian mô hình theo tỉ lệ mặc định của bố cục.
+group: layouts
+order: 1
 ---
 
 # ViewportRectangle

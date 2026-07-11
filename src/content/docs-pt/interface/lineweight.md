@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Seletor de Espessura de Linha — Controlar a Largura do Traço no KulmanLab CAD
 description: O seletor de espessura de linha na barra de ferramentas do KulmanLab CAD define a largura do traço aplicada a todas as entidades desenhadas subsequentemente. Suporta valores DXF padrão de 0,00 mm a 2,11 mm mais os modos ByLayer e Default.
 keywords: [CAD espessura linha, largura traço, largura linha, DXF lineweight, ByLayer lineweight, kulmanlab]
+group: interface
+order: 4
 ---
 
 # Espessura de linha

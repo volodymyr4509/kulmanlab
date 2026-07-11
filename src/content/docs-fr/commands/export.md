@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Export — Télécharger des Dessins en DXF ou JSON dans KulmanLab CAD
 description: La commande Export télécharge le dessin actuel en fichier DXF (compatible) ou JSON (natif). JSON préserve toutes les entités y compris les cotes et répères ; DXF est compatible avec d'autres outils CAO.
 keywords: [exporter DXF, exporter fichier CAO, télécharger DXF navigateur, sauvegarder DXF en ligne, exporter JSON CAO, export KulmanLab, téléchargement fichier CAO, exportation DXF, sauvegarder dessin en fichier, téléchargement DXF]
+group: file
+order: 5
 ---
 
 # Export

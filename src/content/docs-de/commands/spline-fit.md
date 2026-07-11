@@ -1,8 +1,9 @@
 ---
-sidebar_position: 9
 title: Spline Fit-Befehl — Interpolierende Splines durch geklickte Punkte zeichnen in KulmanLab CAD
 description: Der Spline Fit-Befehl zeichnet einen kubischen Spline, der exakt durch jeden geklickten Punkt verläuft. Intern wird die Kurve sowohl mit Fit-Punkten als auch mit berechneten Kontrollpunkten gespeichert. Das Ziehen eines Fit-Punkt-Griffpunkts interpoliert die gesamte Kurve neu. Vollständiger DXF-Durchlauf als SPLINE-Entitäten.
 keywords: [CAD Spline Fit-Befehl, interpolierender Spline CAD, Spline durch Punkte, glatte Kurve zeichnen CAD, SPLINE DXF Fit-Punkte, Spline Griffpunkt-Bearbeitung, kulmanlab]
+group: shapes
+order: 9
 ---
 
 # Spline Fit

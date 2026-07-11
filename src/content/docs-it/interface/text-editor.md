@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: Editor di Testo — Modalità Rich e Simple in KulmanLab CAD
 description: L'editor di testo di KulmanLab CAD ha due modalità — rich (formattazione per carattere, multiriga, a capo automatico per Text e Multileader) e simple (stile uniforme, riga singola per entità di quota). Un mode chip nell'intestazione mostra quale modalità è attiva.
 keywords: [CAD editor di testo, MTEXT, grassetto corsivo CAD, formattazione testo CAD, testo multiriga CAD, a capo automatico CAD, editor testo rich, editor testo simple, editor testo quota, font personalizzato CAD, caricare ttf CAD, kulmanlab]
+group: interface
+order: 5
 ---
 
 # Editor di testo

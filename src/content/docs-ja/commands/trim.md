@@ -1,8 +1,9 @@
 ---
-sidebar_position: 7
 title: Trim コマンド — 交差点で直線セグメントをカット（KulmanLab CAD）
 description: Trim コマンドはカーソルに最も近い 2 つの隣接交差点の間にある直線の部分を削除します。クリック前に赤いホバープレビューでカットされるセグメントが正確に表示されます。Trim は Line エンティティのみで機能します — 円弧、円、ポリラインには非対応。
 keywords: [CAD トリムコマンド, 直線トリム CAD, 直線交差点カット, ホバートリムプレビュー, 直線専用トリム, kulmanlab]
+group: edit
+order: 8
 ---
 
 # Trim（トリム）

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 8
 title: Spline CV命令 — 在 KulmanLab CAD 中通过放置控制顶点绘制 B 样条线
 description: CV 样条线命令通过放置控制顶点绘制三次 B 样条线。曲线被顶点吸引但仅经过第一个和最后一个（固定端点）。每个 CV 夹点可在放置后拖动以重塑曲线。完整支持 DXF 的 SPLINE 实体往返转换。
 keywords: [CAD 样条线命令, B 样条线控制顶点, 固定端点样条线 CAD, 绘制样条线 CAD, SPLINE DXF 实体, 样条线夹点编辑, kulmanlab]
+group: shapes
+order: 8
 ---
 
 # Spline CV

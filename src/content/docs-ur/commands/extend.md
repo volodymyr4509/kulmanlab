@@ -1,8 +1,9 @@
 ---
-sidebar_position: 10
 title: "Extend کمانڈ — KulmanLab CAD میں لائن اختتامی نقطہ قریب ترین سرحد تک بڑھائیں"
 description: "Extend کمانڈ ہوور کردہ Line کے قریب ترین اختتامی نقطے کو کسی دوسری شے کے ساتھ قریب ترین تقاطع تک بڑھاتی ہے۔ ایک لائیو پیش نظارہ کلک کرنے سے پہلے بڑھی ہوئی لائن دکھاتا ہے۔ Extend صرف Line اشیاء پر کام کرتی ہے اور Text، Spline، اور Multileader کو سرحد کے طور پر نظرانداز کرتی ہے۔"
 keywords: [CAD extend کمانڈ, لائن بڑھائیں CAD, لائن کو سرحد تک بڑھائیں, لائن اختتامی نقطہ extend, ہوور extend پیش نظارہ, kulmanlab]
+group: edit
+order: 9
 ---
 
 # Extend

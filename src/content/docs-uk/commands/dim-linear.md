@@ -1,8 +1,9 @@
 ---
-sidebar_position: 26
 title: Команда Dimension Linear — Горизонтальні та вертикальні розміри у KulmanLab CAD
 description: Команда Dimension Linear вимірює горизонтальну або вертикальну відстань між двома точками. Лінія розміру завжди вирівняна по осях — натисніть H або V для фіксації орієнтації, або дозвольте позиції курсора визначити автоматично. Повний DXF round-trip як об'єкти DIMENSION.
 keywords: [CAD dimension linear, горизонтальний розмір CAD, вертикальний розмір CAD, dimlinear, блокування H V орієнтації, відступ розміру, DXF DIMENSION, kulmanlab]
+group: markup
+order: 4
 ---
 
 # Dimension Linear

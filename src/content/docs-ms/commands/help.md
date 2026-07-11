@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Arahan Help
 description: Buka panel bantuan dalam aplikasi dalam KulmanLab CAD. Menunjukkan pintasan papan kekunci, petua navigasi, dan maklumat hubungan.
 keywords: [CAD, bantuan, pintasan papan kekunci, hubungi, kulmanlab]
+group: overview
+order: 2
 ---
 
 # Help

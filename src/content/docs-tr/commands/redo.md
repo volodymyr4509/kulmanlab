@@ -1,8 +1,9 @@
 ---
-sidebar_position: 22
 title: Redo Komutu — KulmanLab CAD'de Geri Alınan İşlemleri Yeniden Uygula
 description: Redo komutu, Undo tarafından tersine çevrilen son işlemi yeniden uygulayarak geçmiş yığınında ileri gider. Redo yalnızca Undo sonrasında kullanılabilir ve herhangi yeni bir çizim işlemi gerçekleştirildiği anda temizlenir.
 keywords: [CAD redo komutu, redo geçmişi CAD, işlemi yeniden uygula CAD, undo redo CAD, tarayıcı kalıcı redo, kulmanlab]
+group: edit
+order: 14
 ---
 
 # Redo

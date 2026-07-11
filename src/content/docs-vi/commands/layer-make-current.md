@@ -1,6 +1,8 @@
 ---
 title: LayerMakeCurrent — Đặt Lớp của Thực Thể Làm Lớp Hiện Tại trong KulmanLab CAD
 description: Lệnh LayerMakeCurrent đặt lớp vẽ hiện tại khớp với lớp của thực thể được nhấp.
+group: layer
+order: 1
 ---
 
 # LayerMakeCurrent

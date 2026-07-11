@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Files — Recent Files-panelen i KulmanLab CAD
 description: Files-kommandot öppnar panelen Recent Files — bläddra bland alla ritningar som sparats i din webbläsare, återställ vilken som helst av dem till ritytan, eller ta bort de du inte längre behöver.
 keywords: [senaste filer CAD, filhistorik webbläsare CAD, återställ ritning, öppna DXF igen, webbläsarlagring CAD, KulmanLab filer, sparade ritningar, IndexedDB CAD, hantera ritningar]
+group: file
+order: 3
 ---
 
 # Files

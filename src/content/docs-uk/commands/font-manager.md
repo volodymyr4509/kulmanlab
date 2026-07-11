@@ -2,6 +2,8 @@
 title: Font Manager Command — Завантажити та керувати власними TTF-шрифтами у KulmanLab CAD
 description: Команда Font Manager відкриває діалог для перегляду, попереднього перегляду та вибору шрифтів, а також для завантаження власних файлів .ttf. Завантажені шрифти зберігаються в браузері та вбудовуються за назвою в експортовані файли DXF.
 keywords: [font manager, власний шрифт CAD, завантажити ttf, власний типографський шрифт CAD, google fonts CAD, шрифт для тексту CAD, kulmanlab]
+group: style
+order: 2
 ---
 
 # Font Manager

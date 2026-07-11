@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: "Amri ya Copy — Nakili Vipengele hadi Nafasi Mpya katika KulmanLab CAD"
 description: "Amri ya Copy huunda nakala zilizotafsiriwa za vipengele vilivyochaguliwa huku vikiacha vya asili mahali pake. Inasaidia uchaguzi wa awali, kufunga pembe, na uingizaji wa umbali halisi. Nakala zinawekwa na amri inamaliza; asili zinabaki bila kubadilika."
 keywords: [amri ya copy ya CAD, nakili vipengele CAD, nakili vitu CAD, nakili jiometri CAD, kufunga pembe kwa copy, umbali halisi wa copy, kulmanlab]
+group: edit
+order: 2
 ---
 
 # Copy

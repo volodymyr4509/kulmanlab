@@ -2,6 +2,8 @@
 title: أمر Font Manager — رفع وإدارة خطوط TTF مخصصة في KulmanLab CAD
 description: يفتح أمر Font Manager حواراً لتصفح الخطوط ومعاينتها واختيارها، ولرفع ملفات .ttf الخاصة بك. تُحفظ الخطوط التي تم رفعها في المتصفح وتُضمَّن بالاسم في ملفات DXF المُصدَّرة.
 keywords: [مدير الخطوط, خط مخصص CAD, رفع TTF, خط طباعة مخصص CAD, خطوط google CAD, خط النص CAD, kulmanlab]
+group: style
+order: 2
 ---
 
 # Font Manager

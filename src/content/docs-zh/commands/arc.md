@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Arc命令 — 在 KulmanLab CAD 中使用外接圆方法绘制三点圆弧
 description: Arc 命令使用外接圆几何方法通过恰好三个单击点绘制圆弧。起点和终点夹点可在放置后拖动以调整圆弧端点的角度和半径。完整支持 DXF 的 ARC 实体往返转换。
 keywords: [CAD Arc 命令, 三点圆弧 CAD, 外接圆弧, 绘制圆弧 CAD, ARC DXF 实体, 圆弧夹点编辑, kulmanlab]
+group: shapes
+order: 5
 ---
 
 # Arc

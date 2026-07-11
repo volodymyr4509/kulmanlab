@@ -2,6 +2,8 @@
 title: KulmanLab CAD — Référence des commandes
 description: Référence des commandes KulmanLab CAD — guide complet de toutes les commandes de dessin, d'édition, d'annotation, de calques, de mesure et de fichiers dans KulmanLab CAD.
 keywords: [KulmanLab, KulmanLab CAD, commandes CAO, CAO gratuite navigateur, éditeur DXF en ligne, commandes de dessin, kulmanlab]
+group: overview
+order: 1
 ---
 
 # KulmanLab CAD — Référence des commandes

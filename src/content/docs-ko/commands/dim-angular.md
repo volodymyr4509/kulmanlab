@@ -1,8 +1,9 @@
 ---
-sidebar_position: 9
 title: Dimension Angular — KulmanLab CAD에서 선, 호 및 원 사이의 각도 측정
 description: DimensionAngular 명령어는 선, 호 또는 원에 각도 치수 주석을 배치합니다. 두 선 각도, 호 범위, 원 섹터 모드를 지원합니다.
 keywords: [각도 치수 CAD, 각도 치수, 선 사이 각도 측정, DimensionAngular, 호 치수, 각도 주석, CAD 각도 마크업, kulmanlab 각도 치수]
+group: markup
+order: 9
 ---
 
 # Dimension Angular

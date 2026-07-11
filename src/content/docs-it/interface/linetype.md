@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Selettore Tipo di Linea — Controllare gli Schemi di Tratteggio in KulmanLab CAD
 description: Il selettore del tipo di linea nella barra degli strumenti di KulmanLab CAD imposta lo schema di tratteggio applicato a tutte le entità disegnate successivamente. Supporta tutti i tipi di linea caricati dal file DXF corrente più le opzioni ByLayer, ByBlock e Continuous integrate.
 keywords: [CAD tipo linea, schema tratteggio, linea tratteggiata, DXF linetype, ByLayer linetype, kulmanlab]
+group: interface
+order: 3
 ---
 
 # Tipo di linea

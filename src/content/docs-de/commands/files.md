@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Files — Zuletzt verwendete Dateien in KulmanLab CAD
 description: Der Files-Befehl öffnet das Panel für zuletzt verwendete Dateien — alle im Browser gespeicherten Zeichnungen durchsuchen, eine davon auf der Zeichenfläche wiederherstellen oder nicht mehr benötigte löschen.
 keywords: [zuletzt verwendete Dateien CAD, Dateiverlauf Browser CAD, Zeichnung wiederherstellen, DXF erneut öffnen, Browser-Speicher CAD, KulmanLab-Dateien, gespeicherte Zeichnungen, IndexedDB CAD, Zeichnungen verwalten]
+group: file
+order: 3
 ---
 
 # Files

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Line Command — Draw, Chain, Trim and Extend Lines in KulmanLab CAD
 description: The Line command draws individual straight-line segments that can be chained end-to-end. Lines are the only entity type that Trim and Extend work on. Full DXF round-trip as LINE entities.
 keywords: [CAD line command, draw straight line CAD, chain line segments, trim line CAD, extend line CAD, angle lock CAD, DXF LINE entity, kulmanlab]
+group: shapes
+order: 1
 ---
 
 # Line

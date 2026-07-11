@@ -1,8 +1,9 @@
 ---
-sidebar_position: 21
 title: Chamfer Command — Puputulin ang Straight na Sulok sa Pagitan ng Dalawang Linya sa KulmanLab CAD
 description: Kinokonekta ng Chamfer command ang dalawang Line o Polyline entities gamit ang straight diagonal cut. Magtatakda ka ng dalawang distansya — isa sa bawat entity — at trinim ng command ang pareho pabalik hanggang sa mga puntong iyon, at isinisingit ang connecting line.
 keywords: [CAD chamfer command, chamfer line CAD, diagonal corner cut, bevel corner CAD, kulmanlab]
+group: edit
+order: 12
 ---
 
 # Chamfer

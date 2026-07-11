@@ -1,6 +1,8 @@
 ---
 title: Lệnh Dimension Continue — Nối Tiếp Chuỗi Kích Thước trong KulmanLab CAD
 description: Lệnh Dimension Continue kéo dài chuỗi kích thước từ đường gióng thứ hai của kích thước cuối cùng đã đặt. Tự động kế thừa góc, khoảng lệch, kích thước mũi tên và chiều cao văn bản từ kích thước cơ sở. Hoạt động với cả kích thước tuyến tính và căn chỉnh.
+group: markup
+order: 6
 ---
 
 # Dimension Continue

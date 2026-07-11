@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Çizgi Türü — KulmanLab CAD Arayüz Referansı
 description: Çizgi türü (LTYPE) bir nesnenin kesik çizgi, noktalı, sürekli veya diğer DXF standart desenlerle nasıl görüneceğini tanımlar. ByLayer (önerilen), ByBlock veya açık değer olarak ayarlanabilir.
 keywords: [CAD çizgi türü, linetype CAD, DXF LTYPE, çizgi deseni CAD, kesik çizgi CAD, kulmanlab]
+group: interface
+order: 3
 ---
 
 # Çizgi Türü

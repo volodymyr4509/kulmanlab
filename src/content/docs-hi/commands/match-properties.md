@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Match Properties — KulmanLab CAD में ऑब्जेक्ट गुण कॉपी करें
 description: MatchProperties कमांड रंग, लेयर, और अन्य साझा गुण स्रोत ऑब्जेक्ट से एक या अधिक लक्ष्य ऑब्जेक्ट को कॉपी करती है। डेस्कटॉप CAD टूल्स की तरह ही गुण मिलाती है।
 keywords: [मैच प्रॉपर्टीज़ CAD, ऑब्जेक्ट गुण कॉपी, MATCHPROP, लेयर रंग मिलाएं, गुण ट्रांसफर, kulmanlab मैच प्रॉपर्टीज़, पेंट प्रॉपर्टीज़]
+group: style
+order: 1
 ---
 
 # Match Properties

@@ -2,6 +2,8 @@
 title: Font Manager Command — Upload and Manage Custom TTF Fonts in KulmanLab CAD
 description: "Amri ya Font Manager hufungua mazungumzo ya kuvinjari, kuhakiki mapema, na kuchagua fonti, na kwa kupakia faili zako mwenyewe za .ttf. Fonti zilizopakiwa huhifadhiwa kwenye kivinjari na kuwekwa ndani kwa jina katika usafirishaji wa DXF."
 keywords: [font manager, fonti maalum CAD, pakia ttf, aina ya herufi maalum CAD, google fonts CAD, fonti ya maandishi CAD, kulmanlab]
+group: style
+order: 2
 ---
 
 # Font Manager

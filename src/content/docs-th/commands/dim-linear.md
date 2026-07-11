@@ -1,8 +1,9 @@
 ---
-sidebar_position: 13
 title: คำสั่ง Dimension Linear — มิติแนวนอนและแนวตั้งใน KulmanLab CAD
 description: คำสั่ง Dimension Linear วัดระยะแนวนอนหรือแนวตั้งระหว่างสองจุด เส้นมิติตรงแนวแกนเสมอ — กด H หรือ V เพื่อล็อกทิศทาง หรือปล่อยให้ตำแหน่งเคอร์เซอร์ตัดสินโดยอัตโนมัติ รองรับ DXF แบบสมบูรณ์เป็นวัตถุ DIMENSION
 keywords: [มิติ linear CAD, มิติแนวนอน CAD, มิติแนวตั้ง CAD, dimlinear, การล็อก H V, ออฟเซ็ตมิติ, kulmanlab]
+group: markup
+order: 4
 ---
 
 # Dimension Linear

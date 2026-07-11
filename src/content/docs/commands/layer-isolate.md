@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerIsolate — Freeze All Layers Except Selected in KulmanLab CAD
 description: The LayerIsolate command freezes every layer except those used by the selected objects, letting you focus on specific geometry without deleting anything.
 keywords: [layer isolate, freeze layers CAD, isolate layer kulmanlab, CAD layer management]
+group: layer
+order: 3
 ---
 
 # LayerIsolate

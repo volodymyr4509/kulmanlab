@@ -1,10 +1,26 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 
+const docsGroups = [
+  'overview',
+  'shapes',
+  'edit',
+  'markup',
+  'layer',
+  'layouts',
+  'navigate',
+  'measure',
+  'style',
+  'file',
+  'interface',
+] as const;
+
 const docSchema = z.object({
   title: z.string(),
   description: z.string().optional(),
   keywords: z.array(z.string()).optional(),
+  group: z.enum(docsGroups),
+  order: z.number(),
 });
 
 const docs = defineCollection({

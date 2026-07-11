@@ -1,8 +1,9 @@
 ---
-sidebar_position: 13
 title: Comando Dimension Linear — Cotas Horizontais e Verticais no KulmanLab CAD
 description: O comando Dimension Linear mede a distância horizontal ou vertical entre dois pontos. A linha de cota é sempre alinhada ao eixo — pressione H ou V para bloquear a orientação, ou deixe a posição do cursor decidir automaticamente. Compatibilidade DXF completa como entidades DIMENSION.
 keywords: [CAD cota linear, cota horizontal CAD, cota vertical CAD, dimlinear, bloqueio orientação H V, deslocamento cota, kulmanlab]
+group: markup
+order: 4
 ---
 
 # Dimension Linear

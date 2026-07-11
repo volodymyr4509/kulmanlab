@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: أمر Help
 description: فتح لوح المساعدة داخل التطبيق في KulmanLab CAD. يعرض اختصارات لوحة المفاتيح ونصائح التنقل ومعلومات الاتصال.
 keywords: [CAD, مساعدة, اختصارات لوحة المفاتيح, اتصال, kulmanlab]
+group: overview
+order: 2
 ---
 
 # Help

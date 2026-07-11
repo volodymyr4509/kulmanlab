@@ -1,8 +1,9 @@
 ---
-sidebar_position: 17
 title: Align Komutu — KulmanLab CAD'de Nokta Çiftleriyle Taşı, Döndür ve Ölçekle
 description: Align komutu, bir veya iki kaynak/hedef nokta çifti kullanarak seçili nesneleri yeniden konumlandırır — taşıma, döndürme ve isteğe bağlı tek biçimli ölçeklemeyi tek işlemde birleştirir. Birleştirilmiş bir Move + Rotate + Scale gibi çalışır.
 keywords: [CAD align komutu, nesneleri hizala CAD, taşıma döndürme ölçekleme, nokta çifti hizalama, AutoCAD ALIGN karşılığı, kulmanlab]
+group: edit
+order: 6
 ---
 
 # Align

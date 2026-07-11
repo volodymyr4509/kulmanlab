@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Comando Help
 description: Abra o painel de ajuda in-app no KulmanLab CAD. Mostra atalhos de teclado, dicas de navegação e informações de contato.
 keywords: [CAD, help, atalhos de teclado, contato, kulmanlab]
+group: overview
+order: 2
 ---
 
 # Help

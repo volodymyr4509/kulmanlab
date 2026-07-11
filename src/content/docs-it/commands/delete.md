@@ -1,8 +1,9 @@
 ---
-sidebar_position: 6
 title: Comando Delete — Rimuovi Entità dal Disegno in KulmanLab CAD
 description: Il comando Delete rimuove le entità selezionate in modo permanente (annullabile). Le entità pre-selezionate vengono eliminate immediatamente senza passaggio di conferma. Il tasto Delete funziona come scorciatoia globale anche senza attivare il comando. Supporta selezione singola e per area.
 keywords: [comando delete CAD, rimuovi entità CAD, cancella oggetti CAD, tasto delete CAD, annulla delete CAD, kulmanlab]
+group: edit
+order: 7
 ---
 
 # Delete

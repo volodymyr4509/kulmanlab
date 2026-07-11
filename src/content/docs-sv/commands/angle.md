@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Angle-kommandot — Mät den inre vinkeln vid en vertex med tre punkter i KulmanLab CAD
 description: Angle-kommandot mäter den inre vinkeln (0°–180°) vid en vertex definierad av tre klickade punkter. Klicka första änden, vertex, andra änden. Resultatet visas i terminalen med 4 decimaler.
 keywords: [CAD vinkelmätning, tre-punkts vinkel, inre vinkel CAD, mät vinkel-kommando, vertexvinkel, kulmanlab]
+group: measure
+order: 2
 ---
 
 # Angle

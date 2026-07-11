@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Vector Pins — Agganciare il Cursore alle Linee di Riferimento dei Punti Fissati in KulmanLab CAD
 description: I Vector Pins permettono di fissare un punto di snap tenendo il cursore fermo su di esso per mezzo secondo, e poi di tracciare il cursore lungo linee di riferimento orizzontali e verticali tratteggiate passanti per il punto fissato — allinea la nuova geometria ai punti esistenti senza linee di costruzione.
 keywords: [vector pins, puntamento snap oggetti, linee di riferimento, tracciamento allineamento, tracciamento snap CAD, linee di costruzione, kulmanlab]
+group: interface
+order: 2
 ---
 
 # Vector Pins

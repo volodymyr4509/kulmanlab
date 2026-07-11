@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Import — Fungua Faili za DXF au JSON katika KulmanLab CAD
 description: "Tumia amri ya Import kufungua faili za DXF au KulmanLab JSON katika KulmanLab CAD. Inaunga mkono mistari, miduara, upinde, polylines, splines, maandishi, vipimo, na viongozi."
 keywords: [import DXF file, open DXF in browser, import CAD file online, open DXF file, DXF viewer browser, import JSON CAD, KulmanLab import, free CAD DXF viewer, load drawing, DXF to browser]
+group: file
+order: 1
 ---
 
 # Import

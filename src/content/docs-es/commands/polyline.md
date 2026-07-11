@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Comando polyline — Dibujar trayectorias de múltiples segmentos como una sola entidad en KulmanLab CAD
 description: El comando polyline dibuja cualquier número de segmentos conectados almacenados como una sola entidad LWPOLYLINE. Los agarres de vértice y de punto medio de segmento permiten reformar cualquier parte de la trayectoria después de su creación. Admite offset; no admite trim ni extend.
 keywords: [comando polyline CAD, dibujar polilínea CAD, trayectoria multisegmento CAD, DXF LWPOLYLINE, reformar polilínea, agarre de vértice CAD, desplazar polilínea, kulmanlab]
+group: shapes
+order: 2
 ---
 
 # Polyline

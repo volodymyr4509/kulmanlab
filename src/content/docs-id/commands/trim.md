@@ -1,8 +1,9 @@
 ---
-sidebar_position: 7
 title: Perintah Trim — Memotong Segmen Garis pada Perpotongan di KulmanLab CAD
 description: Perintah Trim menghapus bagian dari Line antara dua titik perpotongan yang berdekatan paling dekat dengan kursor. Pratinjau hover merah menampilkan dengan tepat segmen mana yang akan dipotong sebelum Anda klik. Trim hanya bekerja pada entitas Line — bukan busur, lingkaran, atau polyline.
 keywords: [perintah potong CAD, memotong garis CAD, potong perpotongan garis, pratinjau hover potong, potong hanya garis, kulmanlab]
+group: edit
+order: 8
 ---
 
 # Trim

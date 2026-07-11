@@ -1,8 +1,9 @@
 ---
-sidebar_position: 6
 title: Ellipse 명령어 — KulmanLab CAD에서 중심점과 두 축으로 회전 타원 그리기
 description: Ellipse 명령어는 세 번의 클릭으로 타원을 그립니다 — 중심점, 첫 번째 축 끝점(임의 방향), 그다음 두 번째 축 길이. 두 축은 항상 수직입니다. 각 반축에는 배치 후 독립적으로 크기를 조정하는 자체 그립이 있습니다. DXF ELLIPSE 객체로 완전한 왕복 지원.
 keywords: [CAD Ellipse 명령어, 타원 그리기 CAD, 회전 타원 CAD, 타원 축, ELLIPSE DXF 객체, 타원 그립 편집, 축 비율, kulmanlab]
+group: shapes
+order: 6
 ---
 
 # Ellipse

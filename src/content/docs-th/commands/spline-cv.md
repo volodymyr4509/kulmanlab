@@ -1,8 +1,9 @@
 ---
-sidebar_position: 8
 title: "คำสั่ง Spline CV — วาด B-Spline โดยวางจุดควบคุมใน KulmanLab CAD"
 description: "คำสั่ง Spline CV วาด B-spline ลูกบาศก์โดยวางจุดควบคุม เส้นโค้งดึงดูดไปทางจุดยอด แต่ผ่านเฉพาะจุดแรกและจุดสุดท้าย (clamped knots) กริป CV แต่ละอันสามารถลากเพื่อปรับรูปร่างเส้นโค้งหลังวาง ส่งออก DXF เต็มรูปแบบเป็นวัตถุ SPLINE"
 keywords: [คำสั่ง spline CAD, B-spline จุดควบคุม, clamped spline CAD, วาด spline CAD, วัตถุ SPLINE DXF, การแก้ไขกริป spline, kulmanlab]
+group: shapes
+order: 8
 ---
 
 # Spline CV

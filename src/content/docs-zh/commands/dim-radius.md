@@ -1,8 +1,9 @@
 ---
-sidebar_position: 16
 title: Dimension Radius命令 — 在 KulmanLab CAD 中标注圆弧和圆的半径
 description: Dimension Radius 命令在圆弧或圆上放置以 R 为前缀的径向标注。单击图元，然后移动光标以确定从圆心到圆周的标注线方向。完整支持 DXF 的 DIMENSION 半径实体往返转换。
 keywords: [CAD 半径标注, 半径标注命令, 标注圆半径, 圆弧半径标注, R 前缀标注, kulmanlab]
+group: markup
+order: 7
 ---
 
 # Dimension Radius

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: New File — Memulai Gambar Kosong di KulmanLab CAD
 description: Perintah New File membersihkan kanvas dan membuka gambar kosong yang baru. Nama file dengan cap waktu dibuat secara otomatis dan disimpan ke penyimpanan browser.
 keywords: [file CAD baru, gambar baru, kanvas kosong CAD, buat gambar baru online, mulai DXF baru, KulmanLab new file, reset kanvas, hapus gambar, kulmanlab]
+group: file
+order: 2
 ---
 
 # New File

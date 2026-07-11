@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerMatch — Αναθέση Επιπέδων Οντοτήτων ώστε να Ταιριάζουν με Πηγή στο KulmanLab CAD
 description: Η εντολή LayerMatch αναθέτει εκ νέου το επίπεδο μίας ή περισσότερων οντοτήτων-στόχων ώστε να ταιριάζει με το επίπεδο της πηγαίας οντότητας που κλικάρατε.
 keywords: [layer match, ταίριασμα επιπέδου CAD, αναθέση επιπέδου kulmanlab, διαχείριση επιπέδων CAD]
+group: layer
+order: 2
 ---
 
 # LayerMatch

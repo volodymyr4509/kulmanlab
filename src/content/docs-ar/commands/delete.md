@@ -1,8 +1,9 @@
 ---
-sidebar_position: 6
 title: أمر Delete — حذف العناصر من الرسم في KulmanLab CAD
 description: يحذف أمر Delete العناصر المحددة بشكل دائم (قابل للتراجع). تُحذف العناصر المحددة مسبقاً فوراً دون خطوة تأكيد. مفتاح Delete يعمل كاختصار عام حتى دون تفعيل الأمر. يدعم التحديد المنفرد والمنطقي.
 keywords: [أمر حذف CAD, حذف عناصر CAD, مسح كائنات CAD, مفتاح Delete, التراجع عن الحذف, kulmanlab]
+group: edit
+order: 7
 ---
 
 # Delete

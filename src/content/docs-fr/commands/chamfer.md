@@ -1,8 +1,9 @@
 ---
-sidebar_position: 21
 title: Commande Chamfer — Couper un angle diagonal entre deux lignes dans KulmanLab CAD
 description: La commande Chamfer relie deux entités Line ou Polyline avec une coupe diagonale droite. Vous spécifiez deux distances — une le long de chaque entité — et la commande raccorde les deux jusqu'à ces points et insère une ligne de raccordement.
 keywords: [commande chamfer CAO, chanfrein ligne CAO, coupe angle diagonale, biseauter angle CAO, kulmanlab]
+group: edit
+order: 12
 ---
 
 # Chamfer

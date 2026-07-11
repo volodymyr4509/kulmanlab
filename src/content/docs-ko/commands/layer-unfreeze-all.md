@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerUnfreezeAll — KulmanLab CAD에서 모든 레이어 동결 해제
 description: LayerUnfreezeAll 명령어는 도면의 모든 레이어에서 동결 플래그를 한 번에 지웁니다.
 keywords: [레이어 동결 해제, 모든 레이어 동결 해제 CAD, kulmanlab 레이어 관리]
+group: layer
+order: 4
 ---
 
 # LayerUnfreezeAll

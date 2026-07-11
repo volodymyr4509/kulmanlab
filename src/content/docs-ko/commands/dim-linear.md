@@ -1,8 +1,9 @@
 ---
-sidebar_position: 13
 title: Dimension Linear 명령어 — KulmanLab CAD에서 수평 및 수직 치수
 description: Dimension Linear 명령어는 두 점 사이의 수평 또는 수직 거리를 측정합니다. 치수 선은 항상 축 정렬됩니다 — H 또는 V를 눌러 방향을 잠그거나, 커서 위치가 자동으로 결정하도록 합니다. DXF DIMENSION 객체로 완전한 왕복 지원.
 keywords: [CAD 선형 치수, 수평 치수 CAD, 수직 치수 CAD, dimlinear, H V 방향 잠금, 치수 오프셋, kulmanlab]
+group: markup
+order: 4
 ---
 
 # Dimension Linear

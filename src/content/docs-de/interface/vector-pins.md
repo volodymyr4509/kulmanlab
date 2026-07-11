@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Vector Pins — Entlang von Referenzlinien durch angeheftete Punkte einrasten in KulmanLab CAD
 description: Mit Vector Pins heften Sie einen Fangpunkt an, indem Sie ihn eine halbe Sekunde mit dem Cursor überfahren, und verfolgen dann gestrichelte horizontale und vertikale Referenzlinien durch den angehefteten Punkt — neue Geometrie an vorhandenen Punkten ausrichten, ganz ohne Konstruktionslinien.
 keywords: [Vector Pins, Objektfang-Verfolgung, Referenzlinien, Ausrichtungsverfolgung, Fangverfolgung CAD, Konstruktionslinien, kulmanlab]
+group: interface
+order: 2
 ---
 
 # Vector Pins

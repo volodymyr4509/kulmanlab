@@ -1,6 +1,8 @@
 ---
 title: Lệnh Distance — Đo Khoảng Cách Đường Thẳng Giữa Hai Điểm trong KulmanLab CAD
 description: Lệnh Distance đo khoảng cách Euclid giữa hai điểm nhấp và hiển thị kết quả đến 4 chữ số thập phân. Nhấp lại sau kết quả để đo chuỗi từ điểm cuối.
+group: measure
+order: 1
 ---
 
 # Distance

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Rectangle कमांड — KulmanLab CAD में अक्ष-संरेखित आयत बनाएं
 description: Rectangle कमांड दो विपरीत कोनों से अक्ष-संरेखित आयत बनाती है। परिणाम चार वर्टेक्स वाला बंद LWPOLYLINE है — रखने के बाद किसी भी अन्य पॉलीलाइन जैसा, इसलिए हर पॉलीलाइन संपादन कमांड इस पर लागू होती है।
 keywords: [CAD आयत कमांड, आयत बनाएं, अक्ष-संरेखित आयत, बंद पॉलीलाइन CAD, LWPOLYLINE DXF, आयत ग्रिप संपादन, kulmanlab]
+group: shapes
+order: 3
 ---
 
 # Rectangle

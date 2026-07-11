@@ -1,8 +1,9 @@
 ---
-sidebar_position: 10
 title: Extend命令 — 在 KulmanLab CAD 中将直线端点延伸到最近的边界
 description: 延伸命令将悬停直线的最近端点延伸到与另一个图元的最近交点。实时预览在单击前显示延伸后的直线。延伸仅适用于直线图元，忽略文字、样条线和多重引线作为边界。
 keywords: [CAD Extend 命令, 延伸直线 CAD, 延伸到边界, 直线端点延伸, 悬停延伸预览, kulmanlab]
+group: edit
+order: 9
 ---
 
 # Extend

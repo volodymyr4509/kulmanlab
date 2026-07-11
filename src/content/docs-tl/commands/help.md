@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Help Command
 description: Buksan ang in-app help panel sa KulmanLab CAD. Nagpapakita ng keyboard shortcuts, navigation tips, at contact information.
 keywords: [CAD, help, keyboard shortcuts, contact, kulmanlab]
+group: overview
+order: 2
 ---
 
 # Help

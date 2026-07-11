@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Rectangle 명령어 — KulmanLab CAD에서 축 정렬 직사각형 그리기
 description: 직사각형 명령어는 두 개의 반대쪽 모서리에서 축 정렬 직사각형을 생성합니다. 결과는 네 꼭짓점이 있는 닫힌 LWPOLYLINE입니다 — 배치 후 다른 폴리선과 동일하므로 모든 폴리선 편집 명령어를 적용할 수 있습니다.
 keywords: [CAD Rectangle 명령어, 직사각형 그리기 CAD, 축 정렬 직사각형, 닫힌 폴리선 CAD, LWPOLYLINE DXF, 직사각형 그립 편집, kulmanlab]
+group: shapes
+order: 3
 ---
 
 # Rectangle

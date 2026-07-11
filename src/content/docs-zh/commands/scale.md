@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Scale命令 — 在 KulmanLab CAD 中绕基点统一缩放图元
 description: 缩放命令绕固定基点以输入的比例系数统一缩放选中图元。比例系数始终通过键盘输入 — 没有单击设置缩放。系数大于 1 放大；小于 1 缩小。支持每种图元类型。
 keywords: [CAD Scale 命令, 调整图元大小 CAD, 缩放对象 CAD, 统一缩放 CAD, 缩放系数 CAD, 放大缩小 CAD, kulmanlab]
+group: edit
+order: 5
 ---
 
 # Scale

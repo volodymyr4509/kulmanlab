@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Comando Help
 description: Abre el panel de ayuda integrado en KulmanLab CAD. Muestra atajos de teclado, consejos de navegación e información de contacto.
 keywords: [CAD, ayuda, atajos de teclado, contacto, kulmanlab]
+group: overview
+order: 2
 ---
 
 # Help

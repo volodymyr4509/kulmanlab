@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Arc 명령어 — KulmanLab CAD에서 외접원 방법으로 세 점 호 그리기
 description: Arc 명령어는 외접원 기하학을 사용하여 클릭한 세 점을 통과하는 원호를 그립니다. 시작 및 끝 그립을 통해 배치 후 호의 끝점을 새 각도와 반지름으로 드래그할 수 있습니다. DXF ARC 객체로 완전한 왕복 지원.
 keywords: [CAD Arc 명령어, 세 점 호 CAD, 외접원 호, 호 그리기 CAD, ARC DXF 객체, 호 그립 편집, kulmanlab]
+group: shapes
+order: 5
 ---
 
 # Arc

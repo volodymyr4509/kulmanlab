@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: أمر Distance — قياس المسافة الخطية بين نقطتين في KulmanLab CAD
 description: يقيس أمر Distance المسافة الإقليدية بين نقطتين منقورتين ويعرض النتيجة بأربعة منازل عشرية. انقر مجدداً بعد النتيجة لتسلسل قياس جديد من آخر نقطة.
 keywords: [قياس مسافة CAD, أمر مسافة, قياس نقطة إلى نقطة, مسافة خطية مستقيمة, قياس KulmanLab CAD]
+group: measure
+order: 1
 ---
 
 # Distance

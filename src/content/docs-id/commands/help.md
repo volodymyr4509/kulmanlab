@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Perintah Help
 description: Membuka panel bantuan dalam aplikasi di KulmanLab CAD. Menampilkan pintasan keyboard, tips navigasi, dan informasi kontak.
 keywords: [CAD, bantuan, pintasan keyboard, kontak, kulmanlab]
+group: overview
+order: 2
 ---
 
 # Help

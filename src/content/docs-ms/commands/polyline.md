@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Arahan Polyline — Lukis Laluan Berbilang Segmen sebagai Entiti Tunggal dalam KulmanLab CAD
 description: Arahan Polyline melukis sebarang bilangan segmen yang disambungkan dan disimpan sebagai satu entiti LWPOLYLINE. Grip bucu dan titik tengah segmen membolehkan anda membentuk semula mana-mana bahagian laluan selepas penciptaan. Menyokong offset; tidak menyokong trim atau extend.
 keywords: [arahan poliline CAD, lukis poliline CAD, laluan berbilang segmen CAD, DXF LWPOLYLINE, bentuk semula poliline, grip bucu CAD, offset poliline, kulmanlab]
+group: shapes
+order: 2
 ---
 
 # Polyline

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: "Undo Command — Step Back Through Drawing History in KulmanLab CAD"
 description: "Amri ya Undo hubatilisha kitendo cha mwisho cha kuchora hatua moja kwa wakati. Hadi hatua 20 huhifadhiwa kwa kila faili na kubaki kwenye kivinjari baada ya kupakia upya ukurasa. Kufanya kitendo kipya baada ya kufuta kunafuta rafu ya redo."
 keywords: [CAD undo command, undo history CAD, reverse action CAD, undo steps CAD, browser persistent undo, kulmanlab]
+group: edit
+order: 13
 ---
 
 # Undo

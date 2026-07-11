@@ -1,8 +1,9 @@
 ---
-sidebar_position: 10
 title: Leader コマンド — 矢印とテキストによるマルチ引出線注釈を作図（KulmanLab CAD）
 description: "Leader コマンドはマルチ引出線注釈を 4 フェーズで作図します：矢印先端、ドッグレッグ肘部、テキスト位置、テキスト入力。DXF インポートのみ対応 — 保存時に書き出されません。"
 keywords: [CAD 引出線コマンド, マルチ引出線注釈, 引出線 CAD, 矢印ラベル注釈, ドッグレッグ引出線, テキスト方向 CAD, kulmanlab]
+group: markup
+order: 1
 ---
 
 # Leader

@@ -1,6 +1,8 @@
 ---
 title: Bộ Chọn Kiểu Đường Trên Thanh Công Cụ — Kiểm Soát Mẫu Nét Đứt trong KulmanLab CAD
 description: Bộ chọn kiểu đường trong thanh công cụ KulmanLab CAD đặt mẫu nét đứt áp dụng cho tất cả thực thể mới được vẽ. Hỗ trợ tất cả kiểu đường được tải từ tệp DXF hiện tại cộng với các tùy chọn ByLayer, ByBlock và Continuous có sẵn.
+group: interface
+order: 3
 ---
 
 # Kiểu Đường

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: "Commande Zoom Out — Réduire le Zoom du Viewport 1,5× par Étape dans KulmanLab CAD"
 description: "La commande Zoom Out divise le niveau de zoom actuel par 1,5× et se termine immédiatement. Centré sur le point médian du viewport. Utilisez la molette de souris pour zoomer en arrière vers le curseur pour un contrôle plus précis."
 keywords: [CAO zoom out, réduire zoom viewport, commande zoom out, vue d'ensemble CAO, pas de zoom 1,5x, kulmanlab]
+group: navigate
+order: 3
 ---
 
 # Zoom Out

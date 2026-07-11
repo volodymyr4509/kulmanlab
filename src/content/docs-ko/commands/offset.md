@@ -1,8 +1,9 @@
 ---
-sidebar_position: 11
 title: Offset 명령어 — KulmanLab CAD에서 고정 거리만큼 평행 복사본 생성
 description: 간격띄우기 명령어는 입력한 거리만큼 선, 원, 호, 타원 또는 폴리선의 평행 복사본을 만듭니다. 거리는 한 번 입력되고 여러 간격띄우기에 재사용됩니다. 측면 클릭이 복사본이 나타날 방향을 결정합니다. 다섯 가지 객체 유형 지원.
 keywords: [CAD Offset 명령어, 평행 복사 CAD, 선 간격띄우기 CAD, 원 간격띄우기 CAD, 폴리선 간격띄우기 CAD, 동심 간격띄우기, kulmanlab]
+group: edit
+order: 10
 ---
 
 # Offset

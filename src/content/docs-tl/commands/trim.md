@@ -1,8 +1,9 @@
 ---
-sidebar_position: 7
 title: "Trim Command — Putulin ang Line Segment sa mga Intersection sa KulmanLab CAD"
 description: "Tinatanggal ng Trim command ang bahagi ng Line sa pagitan ng dalawang magkatabing intersection point na pinakamalapit sa cursor. Ipinapakita ng red hover preview kung aling segment nga ang puputulin bago ka mag-click. Gumagana lang ang Trim sa Line entities — hindi sa arcs, circles, o polylines."
 keywords: [CAD trim command, putulin ang linya CAD, cut line intersection, hover trim preview, line only trim, kulmanlab]
+group: edit
+order: 8
 ---
 
 # Trim

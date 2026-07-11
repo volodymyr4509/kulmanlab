@@ -1,8 +1,9 @@
 ---
-sidebar_position: 6
 title: Perintah Delete — Menghapus Entitas dari Gambar di KulmanLab CAD
 description: Perintah Delete menghapus entitas yang dipilih secara permanen (dapat dibatalkan). Entitas yang dipilih sebelumnya langsung dihapus tanpa langkah konfirmasi. Tombol Delete berfungsi sebagai pintasan global bahkan tanpa mengaktifkan perintah. Mendukung seleksi klik tunggal dan area.
 keywords: [perintah hapus CAD, menghapus entitas CAD, menghapus objek CAD, tombol delete CAD, undo hapus CAD, kulmanlab]
+group: edit
+order: 7
 ---
 
 # Delete

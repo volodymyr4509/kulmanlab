@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerIsolate — 在 KulmanLab CAD 中冻结除选中图元以外的所有图层
 description: 图层隔离命令冻结除属于选中对象的图层以外的每个图层，让您专注于特定几何图形而无需永久删除任何内容。
 keywords: [图层隔离, 冻结图层 CAD, 隔离图层 kulmanlab, CAD 图层管理, kulmanlab]
+group: layer
+order: 3
 ---
 
 # LayerIsolate

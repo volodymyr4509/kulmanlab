@@ -1,8 +1,9 @@
 ---
-sidebar_position: 12
 title: Perintah Leader+ — Menambahkan Lengan Kepala Panah ke Multileader yang Ada di KulmanLab CAD
 description: Perintah Leader+ menambahkan lengan kepala panah baru ke multileader yang ada. Lengan baru berbagi dogleg, teks, dan semua gaya dari leader yang dipilih. Dua klik — pilih leader, tempatkan ujung baru.
 keywords: [CAD tambah lengan leader, perintah leader+, tambah panah ke leader, lengan multileader, kulmanlab]
+group: markup
+order: 2
 ---
 
 # Leader+

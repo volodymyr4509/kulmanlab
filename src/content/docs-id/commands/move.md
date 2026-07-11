@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Perintah Move — Menerjemahkan Entitas yang Dipilih Berdasarkan Titik Dasar di KulmanLab CAD
 description: Perintah Move menerjemahkan satu atau lebih entitas yang dipilih berdasarkan titik dasar dan tujuan. Mendukung pra-seleksi, penguncian sudut, dan input jarak tepat. Setelah dipindah, entitas tetap dipilih di posisi baru. Setiap tipe entitas didukung.
 keywords: [perintah pindah CAD, menerjemahkan entitas CAD, memindahkan objek CAD, kunci sudut pindah, jarak tepat pindah, grip pindah CAD, kulmanlab]
+group: edit
+order: 1
 ---
 
 # Move

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 17
 title: "Dimension Diameter 명령어 — KulmanLab CAD에서 완전한 원 및 호 지름 주석"
 description: "Dimension Diameter 명령어는 호 또는 원에 중심을 통과하여 지름 기호가 붙은 지름 치수를 배치합니다. 커서를 이동하여 치수 선을 임의 각도로 회전합니다. DXF DIMENSION 지름 객체로 완전한 왕복 지원."
 keywords: [CAD 지름 치수, dimdiameter, 원 지름 주석, 호 지름 치수, 지름 기호 CAD, kulmanlab]
+group: markup
+order: 8
 ---
 
 # Dimension Diameter

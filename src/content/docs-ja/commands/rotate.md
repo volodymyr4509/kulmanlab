@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Rotate コマンド — 基点を中心にエンティティを回転（KulmanLab CAD）
 description: Rotate コマンドは選択エンティティを指定した基点を中心に回転させます。角度は正確に入力するか、クリックで設定できます — 基点からクリック位置への方向が角度を決定します。DXF 座標系では正の角度が反時計回りになります。
 keywords: [CAD 回転コマンド, エンティティ回転 CAD, オブジェクト回転 角度, 反時計回り回転 CAD, 入力角度回転, kulmanlab]
+group: edit
+order: 3
 ---
 
 # Rotate（回転）

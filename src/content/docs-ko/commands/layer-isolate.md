@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerIsolate — KulmanLab CAD에서 선택한 것을 제외한 모든 레이어 동결
 description: LayerIsolate 명령어는 선택한 객체에 속하는 레이어를 제외한 모든 레이어를 동결하여 아무것도 삭제하지 않고도 특정 기하학에 집중할 수 있게 합니다.
 keywords: [레이어 격리, 레이어 동결 CAD, 레이어 격리 kulmanlab, CAD 레이어 관리]
+group: layer
+order: 3
 ---
 
 # LayerIsolate

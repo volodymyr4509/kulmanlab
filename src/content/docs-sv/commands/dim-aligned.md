@@ -1,8 +1,9 @@
 ---
-sidebar_position: 14
 title: "Dimension Aligned-kommandot — Verkliga avståndsmått i valfri vinkel i KulmanLab CAD"
 description: "Dimension Aligned-kommandot mäter det verkliga raka avståndet mellan två punkter. Måttlinjen går parallellt med p1→p2-linjen i valfri vinkel — till skillnad från Dimension Linear som är begränsat till horisontellt eller vertikalt. Fullständig DXF-rundtur som DIMENSION-entiteter."
 keywords: [CAD dimension aligned, dimaligned, diagonalt mått CAD, verkligt avståndsmått, vinklat mått CAD, kulmanlab]
+group: markup
+order: 5
 ---
 
 # Dimension Aligned

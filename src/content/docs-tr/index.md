@@ -2,6 +2,8 @@
 title: KulmanLab CAD — Komut Referansı
 description: KulmanLab CAD komut referansı — KulmanLab CAD'deki tüm çizim, düzenleme, açıklama, katman, ölçüm ve dosya komutları için eksiksiz kılavuz.
 keywords: [KulmanLab, KulmanLab CAD, CAD komutları, ücretsiz tarayıcı CAD, çevrimiçi DXF düzenleyici, çizim komutları, kulmanlab komutları]
+group: overview
+order: 1
 ---
 
 # KulmanLab CAD — Komut Referansı

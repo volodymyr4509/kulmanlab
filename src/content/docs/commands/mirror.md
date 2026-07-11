@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: Mirror Command — Reflect Entities Across a Two-Point Axis in KulmanLab CAD
 description: The Mirror command reflects selected entities across a mirror line defined by two clicks. The originals are always kept — Mirror creates new mirrored copies. The mirror axis can be at any angle and snaps to 45° increments.
 keywords: [CAD mirror command, reflect entities CAD, mirror symmetry CAD, flip objects CAD, mirror axis CAD, kulmanlab]
+group: edit
+order: 4
 ---
 
 # Mirror

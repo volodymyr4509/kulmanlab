@@ -2,6 +2,8 @@
 title: "คำสั่ง ViewportRectangle — สร้าง Viewport ในเลย์เอาต์ใน KulmanLab CAD"
 description: "คำสั่ง ViewportRectangle สร้าง viewport ในเลย์เอาต์กระดาษโดยเลือกสองมุมตรงข้าม viewport แสดงวัตถุในโมเดลสเปซที่สเกลเริ่มต้นของเลย์เอาต์"
 keywords: [viewport rectangle, สร้าง viewport, viewport เลย์เอาต์, viewport paper space, kulmanlab]
+group: layouts
+order: 1
 ---
 
 # ViewportRectangle

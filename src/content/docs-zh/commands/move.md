@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Move命令 — 在 KulmanLab CAD 中通过基点平移选中图元
 description: Move 命令通过基点和目标点平移一个或多个选中图元。支持预先选择、角度锁定和精确距离输入。移动后图元在新位置保持选中状态。支持每种图元类型。
 keywords: [CAD Move 命令, 平移图元 CAD, 移动对象 CAD, 角度锁定移动, 精确距离移动, 夹点移动 CAD, kulmanlab]
+group: edit
+order: 1
 ---
 
 # Move

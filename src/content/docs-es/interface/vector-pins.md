@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Vector Pins — Ajustar a Líneas de Referencia a Través de Puntos Fijados en KulmanLab CAD
 description: Los Vector Pins permiten fijar un punto de ajuste manteniendo el cursor sobre él medio segundo, y luego rastrear el cursor a lo largo de líneas de referencia horizontales y verticales discontinuas que pasan por el punto fijado — alinea geometría nueva con puntos existentes sin líneas de construcción.
 keywords: [vector pins, rastreo de referencia a objetos, líneas de referencia, rastreo de alineación, rastreo de ajuste CAD, líneas de construcción, kulmanlab]
+group: interface
+order: 2
 ---
 
 # Vector Pins

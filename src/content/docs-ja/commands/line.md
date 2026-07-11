@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Line コマンド — 直線の作図、連鎖、トリム、延長（KulmanLab CAD）
 description: Line コマンドは端点を共有しながら連鎖できる個別の直線セグメントを作図します。直線は Trim および Extend が機能する唯一のエンティティタイプです。DXF LINE エンティティとして完全に双方向対応。
 keywords: [CAD 直線コマンド, 直線 CAD, 直線セグメント連鎖, トリム 直線 CAD, 延長 直線 CAD, 角度ロック CAD, DXF LINE エンティティ, kulmanlab]
+group: shapes
+order: 1
 ---
 
 # Line

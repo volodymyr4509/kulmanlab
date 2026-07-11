@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Comando move — Trasladar entidades seleccionadas por punto base en KulmanLab CAD
 description: El comando move traslada una o más entidades seleccionadas por un punto base y un destino. Admite preselección, bloqueo de ángulo y entrada de distancia exacta. Después del movimiento, las entidades permanecen seleccionadas en su nueva posición. Se admite todo tipo de entidad.
 keywords: [comando move CAD, trasladar entidades CAD, mover objetos CAD, bloqueo de ángulo al mover, distancia exacta al mover, mover con agarre CAD, kulmanlab]
+group: edit
+order: 1
 ---
 
 # Move

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 12
 title: Leader+命令 — 在 KulmanLab CAD 中为已有多重引线添加箭头臂
 description: 添加引线命令为已有多重引线添加新的箭头臂。新引线臂共享所选引线的折点、文字和所有样式。两次单击 — 选择引线，放置新的箭头尖端。
 keywords: [CAD 添加引线臂, 添加引线命令, 为引线添加箭头, 多重引线臂, kulmanlab]
+group: markup
+order: 2
 ---
 
 # Leader+

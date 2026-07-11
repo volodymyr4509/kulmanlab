@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Help Command
 description: Open the in-app help panel in KulmanLab CAD. Shows keyboard shortcuts, navigation tips, and contact information.
 keywords: [CAD, help, keyboard shortcuts, contact, kulmanlab]
+group: overview
+order: 2
 ---
 
 # Help

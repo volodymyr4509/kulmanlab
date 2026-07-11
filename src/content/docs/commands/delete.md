@@ -1,8 +1,9 @@
 ---
-sidebar_position: 6
 title: Delete Command — Remove Entities from the Drawing in KulmanLab CAD
 description: The Delete command removes selected entities permanently (undoable). Pre-selected entities are deleted instantly with no confirmation step. The Delete key works as a global shortcut even without activating the command. Supports single-click and area selection.
 keywords: [CAD delete command, remove entities CAD, erase objects CAD, delete key CAD, undo delete CAD, kulmanlab]
+group: edit
+order: 7
 ---
 
 # Delete

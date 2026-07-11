@@ -1,8 +1,9 @@
 ---
-sidebar_position: 9
 title: Perintah Spline Fit — Menggambar Spline Interpolasi Melalui Titik yang Diklik di KulmanLab CAD
 description: Perintah Spline Fit menggambar spline kubik yang melewati setiap titik yang diklik tepat. Secara internal kurva disimpan dengan titik fit dan control vertex yang dihitung. Menyeret grip titik fit menginterpolasi ulang seluruh kurva. Dukungan penuh DXF sebagai entitas SPLINE.
 keywords: [perintah spline fit CAD, spline interpolasi CAD, spline melalui titik, menggambar kurva mulus CAD, titik fit DXF SPLINE, pengeditan grip spline, kulmanlab]
+group: shapes
+order: 9
 ---
 
 # Spline Fit

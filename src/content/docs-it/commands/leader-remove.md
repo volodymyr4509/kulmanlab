@@ -1,8 +1,9 @@
 ---
-sidebar_position: 11
 title: "Comando Leader− — Rimuovere un Braccio con Freccia da un Multileader in KulmanLab CAD"
 description: "Il comando Leader− rimuove un braccio con freccia da un multileader che ne ha due o più. Passa il cursore vicino al braccio da rimuovere — il braccio più vicino viene evidenziato. Il dogleg, il testo e i bracci rimanenti vengono conservati."
 keywords: [CAD leader rimuovi braccio, comando leader-, rimuovi freccia dal leader, elimina braccio multileader, kulmanlab]
+group: markup
+order: 3
 ---
 
 # Leader−

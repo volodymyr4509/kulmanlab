@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: Circle 명령어 — KulmanLab CAD에서 중심점과 반지름으로 원 그리기
 description: Circle 명령어는 중심점을 클릭한 다음 클릭하거나 반지름을 입력하여 원을 배치합니다. 4개의 주요 그립을 통해 명령어를 다시 실행하지 않고도 드래그로 반지름을 조정할 수 있습니다. DXF CIRCLE 객체로 완전한 왕복 지원.
 keywords: [CAD Circle 명령어, 원 그리기 CAD, 원 반지름 입력, 원 그립 크기 조정, CIRCLE DXF 객체, 반지름 치수 원, kulmanlab]
+group: shapes
+order: 4
 ---
 
 # Circle

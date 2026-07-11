@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: "Zoom In コマンド — ビューポートを 1.5× ステップで拡大（KulmanLab CAD）"
 description: "Zoom In コマンドは現在のズームレベルを 1.5× 倍にしてすぐに終了します。ビューポートの中央を中心にズームします。ズーム範囲は 0.01〜10,000。カーソルに向けてズームするにはスクロールホイールを使用してください。"
 keywords: [CAD ズームイン, ビューポート拡大, ズームコマンド CAD, 1.5x ズームステップ, kulmanlab]
+group: navigate
+order: 2
 ---
 
 # Zoom In（ズームイン）

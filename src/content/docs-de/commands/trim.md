@@ -1,8 +1,9 @@
 ---
-sidebar_position: 7
 title: Trim-Befehl — Liniensegmente an Schnittpunkten kürzen in KulmanLab CAD
 description: Der Trim-Befehl entfernt den Abschnitt einer Line zwischen zwei benachbarten, dem Cursor nächstgelegenen Schnittpunkten. Eine rote Hover-Vorschau zeigt genau an, welches Segment geschnitten wird, bevor Sie klicken. Trim funktioniert nur bei Line-Entitäten — nicht bei Bögen, Kreisen oder Polylinien.
 keywords: [CAD Trim-Befehl, Linie kürzen CAD, Linie am Schnittpunkt schneiden, Hover-Trim-Vorschau, nur Linie kürzen, kulmanlab]
+group: edit
+order: 8
 ---
 
 # Trim

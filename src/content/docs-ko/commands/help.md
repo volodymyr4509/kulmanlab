@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Help 명령어 — KulmanLab CAD 인앱 도움말 패널
 description: KulmanLab CAD에서 인앱 도움말 패널을 엽니다. 키보드 단축키, 탐색 팁, 연락처 정보를 표시합니다.
 keywords: [CAD 도움말, 키보드 단축키, 탐색 팁, 연락처, kulmanlab, 도움말 패널, 빠른 참고, CAD 단축키]
+group: overview
+order: 2
 ---
 
 # Help

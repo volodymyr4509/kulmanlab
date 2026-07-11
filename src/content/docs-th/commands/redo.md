@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: "คำสั่ง Redo — นำการกระทำที่ยกเลิกกลับมาใน KulmanLab CAD"
 description: "คำสั่ง Redo นำการกระทำล่าสุดที่ถูก Undo ไปกลับมาใช้ โดยเดินหน้าในสแตกประวัติ Redo พร้อมใช้หลังจาก Undo เท่านั้น และถูกล้างทันทีที่มีการกระทำวาดใหม่"
 keywords: [คำสั่ง redo CAD, ประวัติ redo CAD, นำกลับมาใช้ CAD, undo redo CAD, redo เบราว์เซอร์, kulmanlab]
+group: edit
+order: 14
 ---
 
 # Redo

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 7
 title: Befehl align — Entitäten mit Punktpaaren verschieben, drehen und skalieren in KulmanLab CAD
 description: Der Befehl align positioniert ausgewählte Entitäten mit ein oder zwei Quell-/Zielpunktpaaren neu — er kombiniert Verschieben, Drehen und optionales Skalieren in einem einzigen Vorgang. Funktioniert wie ein kombiniertes Move + Rotate + Scale.
 keywords: [CAD align Befehl, Entitäten ausrichten CAD, verschieben drehen skalieren, Punktpaar-Ausrichtung, AutoCAD ALIGN Äquivalent, kulmanlab]
+group: edit
+order: 6
 ---
 
 # Align

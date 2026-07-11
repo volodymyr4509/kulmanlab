@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: 栅格与捕捉 — 在 KulmanLab CAD 中将图形对齐到规则网格
 description: KulmanLab CAD 中的栅格和捕捉切换按钮在画布上叠加参考栅格，并将光标移动锁定到栅格点。栅格间距自动适应当前缩放级别，以便始终显示整数模型值。
 keywords: [CAD 栅格, 捕捉到栅格, 栅格间距, 绘图辅助, kulmanlab, 栅格点, 正交捕捉, kulmanlab]
+group: interface
+order: 1
 ---
 
 # 栅格与捕捉

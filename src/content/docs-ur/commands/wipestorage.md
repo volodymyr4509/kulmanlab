@@ -2,6 +2,8 @@
 title: "Wipe Storage کمانڈ — KulmanLab CAD میں تمام براؤزر ڈیٹا صاف کریں"
 description: "wipestorage کمانڈ مستقل طور پر براؤزر میں محفوظ تمام فائلیں، لیئرز، لائن ٹائپس، اور undo تاریخ حذف کرتی ہے۔ تصدیق کے لیے YES ٹائپ کرنا ضروری ہے۔ خراب یا بھری ہوئی مقامی ڈیٹا بیس ری سیٹ کرتے وقت استعمال کریں۔"
 keywords: [CAD wipe storage, براؤزر ڈیٹا صاف CAD, CAD ایپ ری سیٹ, مقامی فائلیں حذف CAD, kulmanlab wipestorage]
+group: file
+order: 6
 ---
 
 # Wipe Storage

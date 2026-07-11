@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Print कमांड — KulmanLab CAD में ड्राइंग को PNG, JPEG, WebP, या PDF के रूप में निर्यात करें
 description: Print कमांड Print Manager खोलती है — लाइव प्रीव्यू, फ़ॉर्मेट सेलेक्टर, मोनोक्रोम टॉगल, और वैकल्पिक क्षेत्र चयन वाली एक समर्पित निर्यात विंडो। 2000×2000 px तक निर्यात करता है। PNG, JPEG, WebP, और PDF समर्थित हैं।
 keywords: [CAD PNG निर्यात, CAD PDF निर्यात, CAD ड्राइंग प्रिंट, प्रिंट मैनेजर, मोनोक्रोम निर्यात, kulmanlab निर्यात]
+group: file
+order: 4
 ---
 
 # Print

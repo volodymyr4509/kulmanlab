@@ -1,8 +1,9 @@
 ---
-sidebar_position: 11
 title: Copy Komutu — KulmanLab CAD'de Nesneleri Yeni Konuma Kopyala
 description: Copy komutu, seçili nesnelerin öteleme kopyalarını oluşturarak orijinalleri yerinde bırakır. Ön seçimi, açı kilidini ve kesin mesafe girişini destekler. Orijinaller değişmeden kalır.
 keywords: [CAD copy komutu, nesneleri kopyala CAD, nesneleri çoğalt CAD, geometriyi klonla CAD, copy açı kilidi, kesin mesafe copy, kulmanlab]
+group: edit
+order: 2
 ---
 
 # Copy

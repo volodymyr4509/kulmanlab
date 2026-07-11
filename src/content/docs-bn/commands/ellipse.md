@@ -1,8 +1,9 @@
 ---
-sidebar_position: 6
 title: "Ellipse কমান্ড — KulmanLab CAD-এ কেন্দ্র এবং দুটি অক্ষ দিয়ে ঘোরানো উপবৃত্ত আঁকুন"
 description: "Ellipse কমান্ড তিনটি ক্লিকে একটি উপবৃত্ত আঁকে — কেন্দ্র, প্রথম অক্ষ শেষবিন্দু (যেকোনো দিক), তারপর দ্বিতীয় অক্ষের দৈর্ঘ্য। দুটি অক্ষ সর্বদা লম্ব। প্রতিটি অর্ধ-অক্ষের স্থাপনার পরে স্বাধীন আকার পরিবর্তনের জন্য নিজস্ব গ্রিপ রয়েছে। ELLIPSE সত্তা হিসেবে সম্পূর্ণ DXF রাউন্ড-ট্রিপ।"
 keywords: [CAD ellipse কমান্ড, ellipse আঁকা CAD, ঘোরানো ellipse CAD, ellipse অক্ষ, ELLIPSE DXF সত্তা, ellipse grip সম্পাদনা, অক্ষ অনুপাত, kulmanlab]
+group: shapes
+order: 6
 ---
 
 # Ellipse

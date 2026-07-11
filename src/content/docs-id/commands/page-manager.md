@@ -2,6 +2,8 @@
 title: Perintah PageManager — Mengedit Ukuran Kertas dan Skala Layout di KulmanLab CAD
 description: Perintah PageManager membuka panel pengaturan halaman untuk layout aktif, di mana Anda dapat mengubah format kertas, orientasi, dan skala satuan gambar.
 keywords: [page manager, pengaturan layout, ukuran kertas, skala gambar, layout space, kulmanlab]
+group: layouts
+order: 3
 ---
 
 # PageManager

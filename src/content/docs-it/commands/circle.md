@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: Comando Circle — Disegna Cerchi per Centro e Raggio in KulmanLab CAD
 description: Il comando Circle posiziona un cerchio cliccando un centro e poi cliccando o digitando il raggio. Quattro grip cardinali permettono di ridimensionare il raggio trascinando senza rieseguire il comando. Compatibilità DXF completa come entità CIRCLE.
 keywords: [comando circle CAD, disegna cerchio CAD, input raggio cerchio, ridimensiona cerchio grip, entità CIRCLE DXF, kulmanlab]
+group: shapes
+order: 4
 ---
 
 # Circle

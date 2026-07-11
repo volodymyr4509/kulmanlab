@@ -1,8 +1,9 @@
 ---
-sidebar_position: 9
 title: Spline Fit コマンド — クリックした点を通る補間スプラインを作図（KulmanLab CAD）
 description: Spline Fit コマンドはクリックしたすべての点を正確に通る 3 次スプラインを作図します。内部的に曲線はフィット点と計算された制御頂点の両方で保存されます。フィット点グリップをドラッグすると曲線全体が再補間されます。DXF SPLINE エンティティとして完全双方向対応。
 keywords: [CAD スプラインフィットコマンド, 補間スプライン CAD, 点を通るスプライン, 滑らかな曲線作図 CAD, SPLINE DXF フィット点, スプライングリップ編集, kulmanlab]
+group: shapes
+order: 9
 ---
 
 # Spline Fit（スプラインフィット）

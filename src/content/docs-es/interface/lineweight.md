@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Selector de Grosor de Línea en la Barra de Herramientas — Controlar el Ancho de Trazo en KulmanLab CAD
 description: El selector de grosor de línea en la barra de herramientas de KulmanLab CAD establece el ancho de trazo aplicado a todas las nuevas entidades dibujadas. Admite los valores estándar de grosor de línea DXF de 0,00 mm a 2,11 mm más los modos ByLayer y Default.
 keywords: [grosor de línea CAD, ancho de trazo, ancho de línea, grosor de línea DXF, grosor de línea ByLayer, kulmanlab]
+group: interface
+order: 4
 ---
 
 # Lineweight

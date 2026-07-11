@@ -2,6 +2,8 @@
 title: ViewportCopy-Befehl — Einen Viewport in KulmanLab CAD duplizieren
 description: Der ViewportCopy-Befehl dupliziert einen ausgewählten Viewport an eine neue Position im selben Layout und bewahrt dabei Maßstab und Modellansichtseinstellungen. Unterstützt exakte Koordinateneingabe, Winkelsperre und eingetippte Abstands-Eingabe.
 keywords: [Viewport kopieren, Viewport duplizieren, Viewport-Layout kopieren, Winkelsperre Viewport, exakte Koordinate Viewport, kulmanlab]
+group: layouts
+order: 2
 ---
 
 # ViewportCopy

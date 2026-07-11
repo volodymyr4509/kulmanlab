@@ -1,8 +1,9 @@
 ---
-sidebar_position: 6
 title: Ellipse コマンド — 中心と 2 軸で回転楕円を描く（KulmanLab CAD）
 description: ellipse コマンドは 3 クリックで楕円を描きます — 中心・最初の軸端点（任意の方向）・2 番目の軸長さ。2 つの軸は常に垂直です。各半軸に独自のグリップがあり、配置後に独立してリサイズできます。ELLIPSE エンティティとして DXF ラウンドトリップ対応。
 keywords: [CAD 楕円コマンド, 楕円描画 CAD, 回転楕円 CAD, 楕円軸, ELLIPSE DXFエンティティ, 楕円グリップ編集, 軸比率, kulmanlab, ellipse]
+group: shapes
+order: 6
 ---
 
 # Ellipse

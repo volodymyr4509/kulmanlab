@@ -1,8 +1,9 @@
 ---
-sidebar_position: 21
 title: Chamfer-Befehl — Gerade Ecke zwischen zwei Linien schneiden in KulmanLab CAD
 description: Der Chamfer-Befehl verbindet zwei Line- oder Polyline-Elemente mit einem geraden diagonalen Schnitt. Sie geben zwei Abstände an — je einen entlang jedes Elements — und der Befehl kürzt beide auf diese Punkte zurück und fügt eine verbindende Linie ein.
 keywords: [CAD-Chamfer-Befehl, Fase Linie CAD, diagonaler Eckschnitt, abgeschrägte Ecke CAD, kulmanlab]
+group: edit
+order: 12
 ---
 
 # Chamfer

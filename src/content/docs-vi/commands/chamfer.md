@@ -2,6 +2,8 @@
 title: Lệnh Chamfer — Vát Góc Thẳng Giữa Hai Đường Thẳng trong KulmanLab CAD
 description: Lệnh Chamfer kết nối hai thực thể Line hoặc Polyline bằng đường cắt chéo thẳng. Bạn chỉ định hai khoảng cách — một dọc theo mỗi thực thể — và lệnh cắt bớt cả hai đến những điểm đó rồi chèn một đường kết nối.
 keywords: [lệnh chamfer CAD, vát góc đường thẳng CAD, cắt góc chéo, vát góc CAD, kulmanlab]
+group: edit
+order: 12
 ---
 
 # Chamfer

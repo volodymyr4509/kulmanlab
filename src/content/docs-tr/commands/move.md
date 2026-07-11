@@ -1,8 +1,9 @@
 ---
-sidebar_position: 10
 title: Move Komutu — KulmanLab CAD'de Seçili Nesneleri Temel Noktadan Taşı
 description: Move komutu, bir veya daha fazla seçili nesneyi temel noktadan hedef noktaya taşır. Ön seçimi, açı kilidini ve kesin mesafe girişini destekler. Taşıma sonrasında nesneler yeni konumda seçili kalır.
 keywords: [CAD move komutu, nesneleri taşı CAD, taşıma temel noktası, move açı kilidi, kesin mesafe move, kulmanlab]
+group: edit
+order: 1
 ---
 
 # Move

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 12
 title: Comando Leader+ — Adicionar um Braço com Seta a um Multileader no KulmanLab CAD
 description: O comando Leader+ adiciona um novo braço com ponta de seta a um multileader existente. O novo braço compartilha o dogleg, texto e todo o estilo do leader selecionado. Dois cliques — selecione o leader, posicione a nova ponta.
 keywords: [CAD leader adicionar braço, comando leader+, adicionar seta ao leader, braço multileader, kulmanlab]
+group: markup
+order: 2
 ---
 
 # Leader+

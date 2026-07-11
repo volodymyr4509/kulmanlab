@@ -2,6 +2,8 @@
 title: "Wipe Storage Command — Clear All Browser Data in KulmanLab CAD"
 description: "Amri ya wipestorage hufuta kwa kudumu faili zote, safu, aina za mstari, na historia ya kufuta iliyohifadhiwa kwenye kivinjari. Inahitaji kuandika YES kuthibitisha. Tumia wakati wa kurejesha hifadhidata iliyoharibika au iliyojaa."
 keywords: [CAD wipe storage, clear browser data CAD, reset CAD app, delete local files CAD, kulmanlab wipestorage]
+group: file
+order: 6
 ---
 
 # Wipe Storage

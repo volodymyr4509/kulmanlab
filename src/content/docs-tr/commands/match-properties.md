@@ -1,8 +1,9 @@
 ---
-sidebar_position: 34
 title: Match Properties — KulmanLab CAD'de Nesne Özelliklerini Kopyala
 description: MatchProperties komutu, renk, katman ve diğer paylaşılan özellikleri kaynak nesneden bir veya daha fazla hedef nesneye kopyalar. Masaüstü CAD araçlarıyla aynı şekilde özellikleri eşleştirir.
 keywords: [match properties CAD, nesne özelliklerini kopyala, MATCHPROP, katman renk eşleştir, özellikleri aktar, kulmanlab match properties, özellikleri boyayı, katman kopyala CAD]
+group: style
+order: 1
 ---
 
 # Match Properties

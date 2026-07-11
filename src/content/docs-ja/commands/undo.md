@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Undo コマンド — 作図履歴をステップバック（KulmanLab CAD）
 description: Undo コマンドは最後の作図操作を 1 ステップずつ元に戻します。ファイルごとに最大 20 ステップが保存され、ページリロード後もブラウザーで保持されます。元に戻した後に新しい操作を行うとやり直しスタックがクリアされます。
 keywords: [CAD 元に戻すコマンド, 元に戻す履歴 CAD, 操作の取り消し CAD, 元に戻すステップ CAD, ブラウザー永続元に戻す, kulmanlab]
+group: edit
+order: 13
 ---
 
 # Undo（元に戻す）

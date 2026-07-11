@@ -1,8 +1,9 @@
 ---
-sidebar_position: 14
 title: Polecenie Dimension Aligned — Wymiary rzeczywistej odległości pod dowolnym kątem w KulmanLab CAD
 description: Polecenie Dimension Aligned mierzy rzeczywistą odległość prostoliniową między dwoma punktami. Linia wymiarowa przebiega równolegle do linii p1→p2 pod dowolnym kątem — w przeciwieństwie do Wymiaru liniowego, który jest ograniczony do poziomego lub pionowego. Pełna obsługa zapisu i odczytu DXF jako elementy DIMENSION.
 keywords: [wymiar wyrównany CAD, dimaligned, wymiar ukośny CAD, wymiar rzeczywistej odległości, wymiar pod kątem CAD, kulmanlab]
+group: markup
+order: 5
 ---
 
 # Dimension Aligned

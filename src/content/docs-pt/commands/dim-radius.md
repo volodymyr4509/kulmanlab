@@ -1,8 +1,9 @@
 ---
-sidebar_position: 16
 title: Comando Dimension Radius — Anotar Raios de Arcos e Círculos no KulmanLab CAD
 description: O comando Dimension Radius posiciona uma cota radial prefixada com R num arco ou círculo. Clique na entidade, depois mova o cursor para orientar a linha de cota do centro à circunferência. Compatibilidade DXF completa como entidades DIMENSION de raio.
 keywords: [CAD cota raio, dimradius, anotar raio círculo, cota raio arco, cota com prefixo R, kulmanlab]
+group: markup
+order: 7
 ---
 
 # Dimension Radius

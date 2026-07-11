@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Polecenie Arc — Rysowanie łuków trójpunktowych metodą okręgu opisanego w KulmanLab CAD
 description: Polecenie Arc rysuje łuk kołowy przez dokładnie trzy kliknięte punkty, używając geometrii okręgu opisanego. Uchwyty początku i końca pozwalają przeciągać punkty końcowe łuku do nowego kąta i promienia po umieszczeniu. Pełna obsługa zapisu i odczytu DXF jako elementy ARC.
 keywords: [polecenie łuku CAD, łuk trójpunktowy CAD, łuk przez okrąg opisany, rysowanie łuku CAD, element ARC DXF, edycja uchwytu łuku, kulmanlab]
+group: shapes
+order: 5
 ---
 
 # Arc

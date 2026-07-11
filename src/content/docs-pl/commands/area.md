@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Polecenie Area — Mierzenie pola powierzchni i obwodu wielokąta w KulmanLab CAD
 description: Polecenie Area mierzy pole powierzchni i obwód wielokąta wyznaczonego przez 3 lub więcej klikniętych punktów, wykorzystując wzór Gaussa (shoelace formula). Obsługuje wprowadzanie kierunkowe z blokadą kąta oraz trwałe podświetlenie wyniku na płótnie.
 keywords: [mierzenie pola powierzchni CAD, polecenie area, obliczanie pola wielokąta, pomiar obwodu, wzór Gaussa, kulmanlab CAD pomiar]
+group: measure
+order: 3
 ---
 
 # Area

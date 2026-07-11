@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: "Undo کمانڈ — KulmanLab CAD میں ڈرائنگ تاریخ میں پیچھے جائیں"
 description: "Undo کمانڈ آخری ڈرائنگ عمل ایک مرحلے میں پلٹاتی ہے۔ فی فائل 20 مراحل تک محفوظ ہیں اور صفحہ ریلوڈ کے بعد بھی براؤزر میں برقرار رہتے ہیں۔ Undo کے بعد نیا عمل کرنے سے redo اسٹیک صاف ہو جاتی ہے۔"
 keywords: [CAD undo کمانڈ, undo تاریخ CAD, عمل پلٹائیں CAD, undo مراحل CAD, براؤزر مستقل undo, kulmanlab]
+group: edit
+order: 13
 ---
 
 # Undo

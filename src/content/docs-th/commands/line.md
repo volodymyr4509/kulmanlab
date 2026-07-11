@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: คำสั่ง Line — วาด ต่อเชื่อม ตัด และยืดเส้นตรงใน KulmanLab CAD
 description: คำสั่ง Line วาดส่วนของเส้นตรงแต่ละส่วนที่สามารถต่อเชื่อมกันได้ เส้นตรงเป็นประเภทวัตถุเดียวที่ Trim และ Extend ทำงานได้ รองรับ DXF แบบสมบูรณ์เป็นวัตถุ LINE
 keywords: [คำสั่งเส้น CAD, วาดเส้นตรง CAD, ต่อเชื่อมส่วนของเส้น, ตัดเส้น CAD, ยืดเส้น CAD, ล็อกมุม CAD, วัตถุ DXF LINE, kulmanlab]
+group: shapes
+order: 1
 ---
 
 # Line

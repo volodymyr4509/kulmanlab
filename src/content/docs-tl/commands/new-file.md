@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: New File — Simulan ang Isang Blangkong Drawing sa KulmanLab CAD
 description: Nililinis ng New File command ang canvas at nagbubukas ng bagong blangkong drawing. Awtomatikong nabubuo ang isang timestamped na pangalan ng file at na-save sa browser storage.
 keywords: [bagong CAD file, bagong drawing, blangkong canvas CAD, gumawa ng bagong drawing online, simulan ang bagong DXF, KulmanLab new file, i-reset ang canvas, linisin ang drawing]
+group: file
+order: 2
 ---
 
 # New File

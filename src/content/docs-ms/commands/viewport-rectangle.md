@@ -2,6 +2,8 @@
 title: Arahan ViewportRectangle — Cipta Viewport dalam Susun Atur dalam KulmanLab CAD
 description: Arahan ViewportRectangle mencipta viewport dalam susun atur kertas dengan memilih dua sudut bertentangan. Viewport menunjukkan entiti ruang model pada skala lalai susun atur.
 keywords: [viewport rectangle, cipta viewport, viewport susun atur, viewport ruang kertas, kulmanlab]
+group: layouts
+order: 1
 ---
 
 # ViewportRectangle

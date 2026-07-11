@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerMatch — KulmanLab CAD에서 객체 레이어를 원본에 맞게 재지정
 description: LayerMatch 명령어는 하나 이상의 대상 객체의 레이어를 클릭한 원본 객체의 레이어에 맞게 재지정합니다.
 keywords: [레이어 일치, 레이어 일치 CAD, 레이어 재지정 kulmanlab, CAD 레이어 관리]
+group: layer
+order: 2
 ---
 
 # LayerMatch

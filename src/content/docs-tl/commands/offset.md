@@ -1,8 +1,9 @@
 ---
-sidebar_position: 11
 title: Offset Command — Gumawa ng Parallel Copy sa Fixed na Distansya sa KulmanLab CAD
 description: Gumagawa ang Offset command ng parallel copy ng isang Line, Circle, Arc, Ellipse, o Polyline sa naka-type na distansya. Isang beses lang i-type ang distansya at magagamit muli ito para sa maraming offset. Ang side-click ang nagtatakda kung saang direksyon lalabas ang copy. Limang entity type ang supported.
 keywords: [CAD offset command, parallel copy CAD, offset line CAD, offset circle CAD, offset polyline CAD, concentric offset, kulmanlab]
+group: edit
+order: 10
 ---
 
 # Offset

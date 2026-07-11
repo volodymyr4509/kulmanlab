@@ -1,8 +1,9 @@
 ---
-sidebar_position: 16
 title: Dimension Radius-kommandot — Ange radier för bågar och cirklar i KulmanLab CAD
 description: Dimension Radius-kommandot placerar ett radiellt mått med R-prefix på en båge eller cirkel. Klicka på entiteten och flytta sedan markören för att rikta måttlinjen från centrum till periferin. Fullständig DXF-rundtur som DIMENSION-radieentiteter.
 keywords: [CAD radiemått, dimradius, ange cirkelradie, bågradiemått, R-prefix mått, kulmanlab]
+group: markup
+order: 7
 ---
 
 # Dimension Radius

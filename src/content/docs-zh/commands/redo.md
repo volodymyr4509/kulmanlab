@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Redo命令 — 在 KulmanLab CAD 中重新应用已撤销的操作
 description: 重做命令重新应用上一次被撤销命令撤销的操作，在历史堆栈中向前移动。重做仅在执行撤销后可用，一旦执行任何新的绘图操作就会被清除。
 keywords: [CAD Redo 命令, 重做历史 CAD, 重新应用操作 CAD, 撤销重做 CAD, 浏览器持久重做, kulmanlab]
+group: edit
+order: 14
 ---
 
 # Redo

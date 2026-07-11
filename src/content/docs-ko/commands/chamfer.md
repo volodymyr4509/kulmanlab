@@ -1,8 +1,9 @@
 ---
-sidebar_position: 21
 title: Chamfer 명령어 — KulmanLab CAD에서 두 선 사이의 모서리를 직선으로 경사지게 자르기
 description: Chamfer 명령어는 두 선 또는 폴리선 객체를 직선 대각 절단으로 연결합니다. 두 거리(각 객체를 따라 하나씩)를 지정하면 명령어가 두 객체를 해당 점까지 잘라 연결 선을 삽입합니다.
 keywords: [CAD Chamfer 명령어, 선 모따기 CAD, 대각 모서리 절단, 경사 모서리 CAD, kulmanlab]
+group: edit
+order: 12
 ---
 
 # Chamfer

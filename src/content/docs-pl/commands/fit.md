@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: Polecenie Fit — Kadrowanie wszystkich elementów w widoku jednym kliknięciem w KulmanLab CAD
 description: Polecenie Fit oblicza prostokąt ograniczający wszystkich elementów i dostosowuje powiększenie i panoramowanie, aby każdy element był widoczny z niewielkim marginesem. Dwukrotne kliknięcie środkowym przyciskiem myszy uruchamia Dopasuj bez aktywowania polecenia.
 keywords: [CAD dopasuj widok, powiększ do dopasowania, kadruj wszystkie elementy, polecenie dopasuj CAD, powiększenie prostokąta ograniczającego, kulmanlab]
+group: navigate
+order: 4
 ---
 
 # Fit

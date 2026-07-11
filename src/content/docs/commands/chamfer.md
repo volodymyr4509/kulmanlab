@@ -1,8 +1,9 @@
 ---
-sidebar_position: 21
 title: Chamfer Command — Cut a Straight Corner Between Two Lines in KulmanLab CAD
 description: The Chamfer command connects two Line or Polyline entities with a straight diagonal cut. You specify two distances — one along each entity — and the command trims both back to those points and inserts a connecting line.
 keywords: [CAD chamfer command, chamfer line CAD, diagonal corner cut, bevel corner CAD, kulmanlab]
+group: edit
+order: 12
 ---
 
 # Chamfer

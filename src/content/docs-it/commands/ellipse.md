@@ -1,8 +1,9 @@
 ---
-sidebar_position: 6
 title: Comando Ellipse — Disegna Ellissi Ruotate per Centro e Due Assi in KulmanLab CAD
 description: Il comando Ellipse disegna un'ellisse in tre clic — centro, punto finale del primo asse (in qualsiasi direzione), poi lunghezza del secondo asse. I due assi sono sempre perpendicolari. Ciascun semiasse ha il proprio grip per il ridimensionamento indipendente dopo il posizionamento. Compatibilità DXF completa come entità ELLIPSE.
 keywords: [comando ellipse CAD, disegna ellisse CAD, ellisse ruotata CAD, assi ellisse, entità ELLIPSE DXF, modifica grip ellisse, kulmanlab]
+group: shapes
+order: 6
 ---
 
 # Ellipse

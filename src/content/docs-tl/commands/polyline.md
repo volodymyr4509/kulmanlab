@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Polyline Command — Gumuhit ng Multi-Segment na Path bilang Iisang Entity sa KulmanLab CAD
 description: Ginuguhit ng Polyline command ang anumang bilang ng magkakadugtong na segment na naka-save bilang isang LWPOLYLINE entity. Ang vertex at segment-midpoint grips ay nagbibigay-daan sa iyong baguhin ang hugis ng anumang bahagi ng path pagkatapos itong gawin. Sinusuportahan ang offset; hindi sinusuportahan ang trim o extend.
 keywords: [CAD polyline command, gumuhit ng polyline CAD, multi-segment na path CAD, LWPOLYLINE DXF, baguhin ang hugis ng polyline, vertex grip CAD, offset polyline, kulmanlab]
+group: shapes
+order: 2
 ---
 
 # Polyline

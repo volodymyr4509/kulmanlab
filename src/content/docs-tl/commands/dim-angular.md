@@ -1,8 +1,9 @@
 ---
-sidebar_position: 9
 title: Dimension Angular — Sukatin ang Angle sa Pagitan ng mga Line, Arc at Circle sa KulmanLab CAD
 description: Naglalagay ang DimensionAngular command ng angular dimension annotation sa mga line, arc, o circle. Sinusuportahan ang two-line angle, arc span, at circle sector modes.
 keywords: [angular dimension CAD, angle dimension, sukatin ang angle sa pagitan ng mga linya, DimensionAngular, arc dimension, angle annotation, CAD angle markup, kulmanlab angular dimension]
+group: markup
+order: 9
 ---
 
 # Dimension Angular

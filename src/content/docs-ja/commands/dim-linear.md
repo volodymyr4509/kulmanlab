@@ -1,8 +1,9 @@
 ---
-sidebar_position: 13
 title: 寸法 水平垂直コマンド — 水平および垂直寸法（KulmanLab CAD）
 description: dimlinear コマンドは 2 点間の水平または垂直距離を計測します。寸法線は常に軸平行です — H または V キーで向きをロックするか、カーソル位置に自動的に検出させます。DIMENSION エンティティとして DXF ラウンドトリップ対応。
 keywords: [CAD 水平垂直寸法, 水平寸法 CAD, 垂直寸法 CAD, dimlinear, H V 向きロック, 寸法オフセット, kulmanlab, dim-linear]
+group: markup
+order: 4
 ---
 
 # Dimension Linear

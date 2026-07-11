@@ -1,8 +1,9 @@
 ---
-sidebar_position: 12
 title: คำสั่ง Leader+ — เพิ่มแขนหัวลูกศรให้กับ Multileader ที่มีอยู่ใน KulmanLab CAD
 description: คำสั่ง Leader+ เพิ่มแขนหัวลูกศรใหม่ให้กับ multileader ที่มีอยู่ แขนใหม่แชร์ dogleg ข้อความ และสไตล์ทั้งหมดของ leader ที่เลือก สองคลิก — เลือก leader วาง tip ใหม่
 keywords: [CAD leader เพิ่มแขน, คำสั่ง leader+, เพิ่มลูกศรให้ leader, แขน multileader, kulmanlab]
+group: markup
+order: 2
 ---
 
 # Leader+

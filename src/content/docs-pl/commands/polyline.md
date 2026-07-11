@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Polecenie Polyline — Rysowanie wielosegmentowych ścieżek jako pojedynczego elementu w KulmanLab CAD
 description: Polecenie Polyline rysuje dowolną liczbę połączonych segmentów przechowywanych jako jeden element LWPOLYLINE. Uchwyty wierzchołków i punktów środkowych segmentów pozwalają przekształcać dowolną część ścieżki po utworzeniu. Obsługuje odsunięcie; nie obsługuje przycinania ani przedłużania.
 keywords: [polecenie polilinii CAD, rysowanie polilinii CAD, wielosegmentowa ścieżka CAD, LWPOLYLINE DXF, przekształcanie polilinii, uchwyt wierzchołka CAD, odsunięcie polilinii, kulmanlab]
+group: shapes
+order: 2
 ---
 
 # Polyline

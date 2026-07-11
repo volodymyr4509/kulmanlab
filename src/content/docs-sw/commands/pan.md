@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: "Pan Command — Click-and-Drag Viewport Navigation in KulmanLab CAD"
 description: "Amri ya Pan huingia hali ya kudumu ya kusogeza kwa kuburuta. Bonyeza na uburutu mahali popote kwenye turubai kubadilisha mwonekano bila kubadilisha kiwango cha kukuza. Kuburuta bonyeza ya katikati kunafanya kazi wakati wowote bila kuanzisha Pan."
 keywords: [CAD pan viewport, pan command, drag to navigate, canvas scroll CAD, viewport navigation, kulmanlab]
+group: navigate
+order: 1
 ---
 
 # Pan

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: "LayerUnfreezeAll — KulmanLab CAD میں تمام لیئرز غیر منجمد کریں"
 description: "LayerUnfreezeAll کمانڈ ایک مرحلے میں ڈرائنگ کے ہر لیئر سے منجمد فلیگ صاف کرتی ہے۔"
 keywords: [لیئر غیر منجمد, تمام لیئرز غیر منجمد CAD, kulmanlab لیئر مینجمنٹ]
+group: layer
+order: 4
 ---
 
 # LayerUnfreezeAll

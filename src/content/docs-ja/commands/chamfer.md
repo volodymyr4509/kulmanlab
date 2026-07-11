@@ -1,8 +1,9 @@
 ---
-sidebar_position: 21
 title: Chamfer コマンド — 2 直線間の角を斜め直線で切り取る（KulmanLab CAD）
 description: chamfer コマンドは 2 つの Line または Polyline エンティティを斜め直線で結合します。各エンティティに沿った 2 つの距離を指定し、コマンドは両方をその点までトリムして接続する直線を挿入します。
 keywords: [CAD 面取りコマンド, 面取り 直線 CAD, 斜め角切り, ベベル角 CAD, kulmanlab, chamfer]
+group: edit
+order: 12
 ---
 
 # Chamfer

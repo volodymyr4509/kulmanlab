@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Files — Panel Fail Terkini dalam KulmanLab CAD
 description: Arahan Files membuka panel Fail Terkini — semak imbas semua lukisan yang disimpan dalam pelayar anda, pulihkan mana-mana daripadanya ke kanvas, atau padamkan yang tidak diperlukan lagi.
 keywords: [fail terkini CAD, sejarah fail pelayar CAD, pulihkan lukisan, buka semula DXF, storan pelayar CAD, fail KulmanLab, lukisan yang disimpan, IndexedDB CAD, urus lukisan]
+group: file
+order: 3
 ---
 
 # Files

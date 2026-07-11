@@ -1,8 +1,9 @@
 ---
-sidebar_position: 7
 title: Text-Befehl — MTEXT-Beschriftungen in KulmanLab CAD platzieren
 description: Der Text-Befehl platziert eine mehrzeilige, reich formatierte MTEXT-Beschriftung. Klicken Sie eine Position an, tippen Sie im Popup-Editor und drücken Sie Escape zum Bestätigen. Doppelklicken Sie eine vorhandene Beschriftung, um den Editor erneut zu öffnen.
 keywords: [CAD Text-Befehl, MTEXT, Textbeschriftung platzieren CAD, Textanmerkung CAD, fett kursiv CAD, mehrzeiliger Text CAD, kulmanlab]
+group: shapes
+order: 7
 ---
 
 # Text

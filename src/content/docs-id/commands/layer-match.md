@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerMatch — Menetapkan Ulang Layer Entitas agar Sesuai dengan Sumber di KulmanLab CAD
 description: Perintah LayerMatch menetapkan ulang layer satu atau lebih entitas target agar sesuai dengan layer entitas sumber yang Anda klik.
 keywords: [layer match, cocokkan layer CAD, tetapkan ulang layer kulmanlab, manajemen layer CAD]
+group: layer
+order: 2
 ---
 
 # LayerMatch

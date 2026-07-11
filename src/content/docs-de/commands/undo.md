@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Undo-Befehl — Schrittweise durch den Zeichnungsverlauf zurückgehen in KulmanLab CAD
 description: Der Undo-Befehl macht die letzte Zeichenaktion jeweils einen Schritt rückgängig. Bis zu 20 Schritte werden pro Datei gespeichert und im Browser über Seitenneulades hinaus gesichert. Das Durchführen einer neuen Aktion nach einem Undo löscht den Redo-Stapel.
 keywords: [CAD Undo-Befehl, Undo-Verlauf CAD, Aktion rückgängig machen CAD, Undo-Schritte CAD, Browser-persistentes Undo, kulmanlab]
+group: edit
+order: 13
 ---
 
 # Undo

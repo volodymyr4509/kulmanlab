@@ -2,6 +2,8 @@
 title: KulmanLab CAD — Referencia de Comandos
 description: Referencia de comandos de KulmanLab CAD — guía completa de todos los comandos de dibujo, edición, anotación, capas, medición y archivos en KulmanLab CAD.
 keywords: [KulmanLab, KulmanLab CAD, comandos CAD, CAD gratuito en el navegador, editor DXF en línea, comandos de dibujo, kulmanlab]
+group: overview
+order: 1
 ---
 
 # KulmanLab CAD — Referencia de Comandos

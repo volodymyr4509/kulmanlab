@@ -1,8 +1,9 @@
 ---
-sidebar_position: 15
 title: Dimension Continue-Befehl — Bemaßungen von einer vorhandenen Basislinie verketten in KulmanLab CAD
 description: Der Dimension Continue-Befehl verlängert eine Bemaßungskette ab der zweiten Maßhilfslinie der zuletzt platzierten Bemaßung. Er übernimmt automatisch Winkel, Versatz, Pfeilgröße und Texthöhe der Basisbemaßung. Funktioniert mit linearen und ausgerichteten Basislinien.
 keywords: [CAD Bemaßung fortsetzen, dimcontinue, Bemaßungen verketten CAD, Basislinienbemaßung, Bemaßungsreihe fortsetzen, kulmanlab]
+group: markup
+order: 6
 ---
 
 # Dimension Continue

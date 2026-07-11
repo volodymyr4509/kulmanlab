@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerUnfreezeAll — ยกเลิกการซ่อนเลเยอร์ทั้งหมดใน KulmanLab CAD
 description: คำสั่ง LayerUnfreezeAll ล้างแฟล็กซ่อนของทุกเลเยอร์ในภาพวาดในขั้นตอนเดียว
 keywords: [layer unfreeze, ยกเลิกซ่อนเลเยอร์ CAD, kulmanlab layer management]
+group: layer
+order: 4
 ---
 
 # LayerUnfreezeAll

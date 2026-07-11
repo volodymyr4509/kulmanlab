@@ -1,8 +1,9 @@
 ---
-sidebar_position: 7
 title: "Trim-kommandot — Klipp linjesegment vid skärningspunkter i KulmanLab CAD"
 description: "Trim-kommandot tar bort den del av en Line som ligger mellan två intilliggande skärningspunkter närmast markören. En röd hover-förhandsvisning visar exakt vilket segment som kommer klippas innan du klickar. Trim fungerar endast på Line-entiteter — inte bågar, cirklar eller polylinjer."
 keywords: [CAD trim-kommando, klipp linje CAD, klipp linjeskärning, hover trim-förhandsvisning, endast linje trim, kulmanlab]
+group: edit
+order: 8
 ---
 
 # Trim

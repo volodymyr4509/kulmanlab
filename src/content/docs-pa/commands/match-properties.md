@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Match Properties — KulmanLab CAD ਵਿੱਚ ਇਕਾਈ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਕਾਪੀ ਕਰੋ
 description: MatchProperties ਕਮਾਂਡ ਰੰਗ, ਲੇਅਰ, ਅਤੇ ਹੋਰ ਸਾਂਝੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਨੂੰ ਸਰੋਤ ਇਕਾਈ ਤੋਂ ਇੱਕ ਜਾਂ ਵੱਧ ਟਾਰਗੇਟ ਇਕਾਈਆਂ ਵਿੱਚ ਕਾਪੀ ਕਰਦੀ ਹੈ। ਡੈਸਕਟੌਪ CAD ਟੂਲਾਂ ਵਾਂਗ ਹੀ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਮੇਲ ਕਰਦੀ ਹੈ।
 keywords: [ਮੈਚ ਪ੍ਰਾਪਰਟੀਜ਼ CAD, ਇਕਾਈ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਕਾਪੀ ਕਰੋ, MATCHPROP, ਲੇਅਰ ਰੰਗ ਮੇਲ ਕਰੋ, ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਟ੍ਰਾਂਸਫਰ, kulmanlab ਮੈਚ ਪ੍ਰਾਪਰਟੀਜ਼, ਪੇਂਟ ਪ੍ਰਾਪਰਟੀਜ਼, ਲੇਅਰ ਕਾਪੀ CAD]
+group: style
+order: 1
 ---
 
 # Match Properties

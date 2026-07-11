@@ -1,8 +1,9 @@
 ---
-sidebar_position: 6
 title: Delete-Befehl — Elemente aus der Zeichnung entfernen in KulmanLab CAD
 description: Der Delete-Befehl entfernt ausgewählte Elemente dauerhaft (rückgängig machbar). Vorausgewählte Elemente werden sofort ohne Bestätigungsschritt gelöscht. Die Entf-Taste funktioniert als globale Tastenkombination, ohne den Befehl aktivieren zu müssen. Unterstützt Einzel-Klick- und Flächenauswahl.
 keywords: [CAD-Löschbefehl, Elemente entfernen CAD, Objekte löschen CAD, Entf-Taste CAD, Löschen rückgängig CAD, kulmanlab]
+group: edit
+order: 7
 ---
 
 # Delete

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: คำสั่ง Help
 description: เปิดแผงช่วยเหลือในแอปใน KulmanLab CAD แสดงทางลัดแป้นพิมพ์ เคล็ดลับการนำทาง และข้อมูลการติดต่อ
 keywords: [CAD, help, ทางลัดแป้นพิมพ์, ติดต่อ, kulmanlab]
+group: overview
+order: 2
 ---
 
 # Help

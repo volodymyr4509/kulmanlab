@@ -1,8 +1,9 @@
 ---
-sidebar_position: 46
 title: Команда Import — Відкрити DXF або JSON файл у KulmanLab CAD
 description: Використовуйте команду Import для відкриття файлів DXF або KulmanLab JSON у KulmanLab CAD. Підтримує лінії, кола, дуги, полілінії, сплайни, текст, розміри та виноски.
 keywords: [імпортувати DXF файл, відкрити DXF у браузері, імпорт CAD файлу онлайн, відкрити DXF файл, переглядач DXF браузер, імпорт JSON CAD, KulmanLab import, безкоштовний переглядач DXF, завантажити кресленик, DXF у браузер]
+group: file
+order: 1
 ---
 
 # Import

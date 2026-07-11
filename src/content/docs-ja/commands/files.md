@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Files コマンド — 最近使ったファイルパネル（KulmanLab CAD）
 description: Files コマンドは最近使ったファイルパネルを開きます — ブラウザに保存されているすべての図面を参照し、キャンバスに復元したり、不要なものを削除できます。
 keywords: [最近のファイル CAD, ファイル履歴 ブラウザ CAD, 図面復元, DXF 再度開く, ブラウザストレージ CAD, KulmanLab ファイル, 保存済み図面, IndexedDB CAD, 図面管理]
+group: file
+order: 3
 ---
 
 # Files（ファイル）

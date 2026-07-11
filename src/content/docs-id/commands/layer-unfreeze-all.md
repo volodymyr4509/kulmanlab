@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerUnfreezeAll — Mencairkan Semua Layer di KulmanLab CAD
 description: Perintah LayerUnfreezeAll menghapus flag beku pada setiap layer dalam gambar dalam satu langkah.
 keywords: [layer unfreeze, mencairkan semua layer CAD, manajemen layer kulmanlab]
+group: layer
+order: 4
 ---
 
 # LayerUnfreezeAll

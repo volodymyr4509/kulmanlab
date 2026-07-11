@@ -1,8 +1,9 @@
 ---
-sidebar_position: 14
 title: Dimension Aligned命令 — 在 KulmanLab CAD 中创建任意角度的真实距离标注
 description: Dimension Aligned 命令测量两点之间的真实直线距离。标注线平行于 p1→p2 连线，可以是任意角度 — 不同于仅限水平或垂直的线性标注。完整支持 DXF 的 DIMENSION 实体往返转换。
 keywords: [CAD 对齐标注, 对齐标注, 斜向标注 CAD, 真实距离标注, 角度标注 CAD, kulmanlab]
+group: markup
+order: 5
 ---
 
 # Dimension Aligned

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: "Print Command — Export the Drawing as PNG, JPEG, WebP, or PDF in KulmanLab CAD"
 description: "Amri ya Print inafungua Print Manager — dirisha la maalum la kusafirisha na hakiki ya moja kwa moja, kichaguo cha muundo, kubadilisha rangi nyeusi, na uchaguzi wa eneo maalum. Husafirisha hadi pikseli 2000×2000. Inasaidia PNG, JPEG, WebP, na PDF."
 keywords: [CAD export PNG, CAD export PDF, print CAD drawing, print manager, monochrome export, kulmanlab export]
+group: file
+order: 4
 ---
 
 # Print

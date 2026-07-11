@@ -1,8 +1,9 @@
 ---
-sidebar_position: 20
 title: Chamfer Komutu — KulmanLab CAD'de İki Çizgi Arasına Düz Pah Kes
 description: Chamfer komutu, iki Çizgi veya Çoklu Çizgi nesnesini düz köşegen bir kesimle birleştirir. İki mesafe belirtirsiniz — her nesne boyunca birer tane — komut her ikisini de bu noktalara kadar kırpar ve birleştirici bir çizgi ekler.
 keywords: [CAD chamfer komutu, chamfer çizgi CAD, köşegen köşe kesimi, pah kes CAD, kulmanlab]
+group: edit
+order: 12
 ---
 
 # Chamfer

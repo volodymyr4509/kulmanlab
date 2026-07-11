@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Grille et Accrochage — Aligner les Dessins sur une Grille Régulière dans KulmanLab CAD
 description: Les contrôles de Grille et Accrochage dans KulmanLab CAD superposent une grille de référence sur le canevas et verrouillent le mouvement du curseur sur les points de la grille. L'espacement de la grille s'adapte automatiquement au niveau de zoom actuel pour toujours afficher des valeurs de modèle rondes.
 keywords: [grille CAO, accrochage grille, espacement grille, aides au dessin, kulmanlab, points grille, accrochage orthogonal]
+group: interface
+order: 1
 ---
 
 # Grille et Accrochage

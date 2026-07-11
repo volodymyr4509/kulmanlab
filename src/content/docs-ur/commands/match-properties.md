@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: "Match Properties — KulmanLab CAD میں اینٹیٹی خصوصیات کاپی کریں"
 description: "MatchProperties کمانڈ رنگ، لیئر، اور دیگر مشترک خصوصیات ماخذ اینٹیٹی سے ایک یا زیادہ ہدف اشیاء میں کاپی کرتی ہے۔ ڈیسک ٹاپ CAD ٹولز کی طرح خصوصیات ملاتی ہے۔"
 keywords: [خصوصیات ملائیں CAD, اینٹیٹی خصوصیات کاپی, MATCHPROP, لیئر رنگ ملائیں, خصوصیات منتقل, kulmanlab خصوصیات ملائیں, خصوصیات پینٹ, لیئر کاپی CAD]
+group: style
+order: 1
 ---
 
 # Match Properties

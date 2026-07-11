@@ -1,8 +1,9 @@
 ---
-sidebar_position: 21
 title: Εντολή Chamfer — Ευθεία Κοπή Γωνίας Μεταξύ Δύο Γραμμών στο KulmanLab CAD
 description: Η εντολή Chamfer συνδέει δύο οντότητες Line ή Polyline με ευθεία διαγώνια κοπή. Ορίζετε δύο αποστάσεις — μία κατά μήκος κάθε οντότητας — και η εντολή κόβει και τις δύο στα σημεία αυτά και εισάγει μια συνδετική γραμμή.
 keywords: [εντολή chamfer CAD, chamfer γραμμή CAD, διαγώνια κοπή γωνίας, bevel γωνίας CAD, kulmanlab]
+group: edit
+order: 12
 ---
 
 # Chamfer

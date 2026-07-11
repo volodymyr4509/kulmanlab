@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Arahan Rectangle — Lukis Segi Empat Tepat Sejajar Paksi dalam KulmanLab CAD
 description: Arahan Rectangle mencipta segi empat tepat sejajar paksi daripada dua sudut bertentangan. Hasilnya adalah LWPOLYLINE tertutup dengan empat bucu — sama seperti mana-mana poliline lain selepas dicipta, jadi setiap arahan edit poliline terpakai padanya.
 keywords: [arahan segi empat tepat CAD, lukis segi empat tepat CAD, segi empat tepat sejajar paksi, poliline tertutup CAD, DXF LWPOLYLINE, pengeditan grip segi empat tepat, kulmanlab]
+group: shapes
+order: 3
 ---
 
 # Rectangle

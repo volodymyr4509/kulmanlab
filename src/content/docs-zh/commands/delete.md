@@ -1,8 +1,9 @@
 ---
-sidebar_position: 6
 title: Delete命令 — 从 KulmanLab CAD 图形中删除图元
 description: Delete 命令永久删除选中图元（可撤销）。预先选中的图元无需确认步骤即可立即删除。Delete 键作为全局快捷键使用，无需激活命令。支持单击和区域选择。
 keywords: [CAD Delete 命令, 删除图元 CAD, 清除对象 CAD, Delete 键 CAD, 撤销删除 CAD, kulmanlab]
+group: edit
+order: 7
 ---
 
 # Delete

@@ -2,6 +2,8 @@
 title: Font Manager Komutu — KulmanLab CAD'de Özel TTF Yazı Tiplerini Yükleyin ve Yönetin
 description: Font Manager komutu, yazı tiplerine göz atmak, önizlemek ve seçmek için, ayrıca kendi .ttf dosyalarınızı yüklemek için bir iletişim kutusu açar. Yüklenen yazı tipleri tarayıcıda kaydedilir ve DXF dışa aktarımlarında ada göre gömülür.
 keywords: [font manager, özel yazı tipi CAD, ttf yükle, özel karakter tipi CAD, google fonts CAD, metin yazı tipi CAD, kulmanlab]
+group: style
+order: 2
 ---
 
 # Font Manager

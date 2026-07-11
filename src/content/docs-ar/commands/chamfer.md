@@ -1,8 +1,9 @@
 ---
-sidebar_position: 21
 title: أمر Chamfer — شطب زاوية مستقيمة بين خطين في KulmanLab CAD
 description: يصل أمر Chamfer بين عنصرَي Line أو Polyline بقطع مائل مستقيم. تحدد مسافتين — واحدة على كل عنصر — ويقص الأمر كليهما إلى تلك النقاط ويُدرج خطاً واصلاً بينهما.
 keywords: [أمر شطب CAD, شطب خط CAD, قطع زاوية قطرية, زاوية مشطوبة CAD, kulmanlab]
+group: edit
+order: 12
 ---
 
 # Chamfer

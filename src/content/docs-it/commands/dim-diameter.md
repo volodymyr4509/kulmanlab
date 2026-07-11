@@ -1,8 +1,9 @@
 ---
-sidebar_position: 17
 title: "Comando Dimension Diameter — Annota il Diametro di Cerchi e Archi in KulmanLab CAD"
 description: "Il comando Dimension Diameter posiziona una quota diametro (con il simbolo diametro come prefisso) attraverso il centro di un arco o cerchio. Sposta il cursore per ruotare la linea di quota in qualsiasi angolazione. Compatibilità DXF completa come entità DIMENSION diametro."
 keywords: [CAD quota diametro, dimdiameter, annota diametro cerchio, quota diametro arco, simbolo diametro CAD, kulmanlab]
+group: markup
+order: 8
 ---
 
 # Dimension Diameter

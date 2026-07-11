@@ -1,8 +1,9 @@
 ---
-sidebar_position: 12
 title: Comando Leader+ — Añadir un brazo de punta de flecha a una multireferencia existente en KulmanLab CAD
 description: El comando Leader+ añade un nuevo brazo de punta de flecha a una multireferencia existente. El nuevo brazo comparte el quiebre, el texto y todo el estilo de la referencia seleccionada. Dos clics — selecciona la referencia, coloca la nueva punta.
 keywords: [añadir brazo a referencia CAD, comando leader+, añadir flecha a referencia, brazo de multireferencia, kulmanlab]
+group: markup
+order: 2
 ---
 
 # Leader+

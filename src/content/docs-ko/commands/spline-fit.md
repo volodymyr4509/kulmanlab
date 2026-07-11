@@ -1,8 +1,9 @@
 ---
-sidebar_position: 9
 title: Spline Fit 명령어 — KulmanLab CAD에서 클릭한 점을 통과하는 보간 스플라인 그리기
 description: 스플라인 피트 명령어는 클릭한 모든 점을 정확히 통과하는 3차 스플라인을 그립니다. 내부적으로 곡선은 피트 점과 계산된 제어 꼭짓점 모두로 저장됩니다. 피트 점 그립을 드래그하면 전체 곡선이 재보간됩니다. DXF SPLINE 객체로 완전한 왕복 지원.
 keywords: [CAD Spline Fit 명령어, 보간 스플라인 CAD, 점을 통과하는 스플라인, 부드러운 곡선 그리기 CAD, SPLINE DXF 피트 점, 스플라인 그립 편집, kulmanlab]
+group: shapes
+order: 9
 ---
 
 # Spline Fit

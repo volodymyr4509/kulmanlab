@@ -1,8 +1,9 @@
 ---
-sidebar_position: 51
 title: Wipe Storage Komutu — KulmanLab CAD'de Tarayıcı Deposundan Tüm Çizimleri Temizle
 description: Wipe Storage komutu, tarayıcının yerel deposunda kaydedilen tüm çizimleri siler. İşlem geri alınamaz — temizlemeden önce önemli çizimleri Export ile kaydedin.
 keywords: [CAD wipestorage komutu, tarayıcı deposunu temizle CAD, tüm çizimleri sil, CAD verilerini sıfırla, kulmanlab]
+group: file
+order: 6
 ---
 
 # Wipe Storage

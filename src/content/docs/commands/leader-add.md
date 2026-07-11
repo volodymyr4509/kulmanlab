@@ -1,8 +1,9 @@
 ---
-sidebar_position: 12
 title: Leader+ Command — Add an Arrowhead Arm to an Existing Multileader in KulmanLab CAD
 description: The Leader+ command adds a new arrowhead arm to an existing multileader. The new arm shares the dogleg, text, and all styling of the selected leader. Two clicks — select the leader, place the new tip.
 keywords: [CAD leader add arm, leader+ command, add arrow to leader, multileader arm, kulmanlab]
+group: markup
+order: 2
 ---
 
 # Leader+

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Comando Area — Medir a Área e o Perímetro de um Polígono no KulmanLab CAD
 description: O comando Area mede a área delimitada e o perímetro de um polígono definido por 3 ou mais pontos clicados, usando a fórmula do sapateiro (shoelace). Suporta entrada direcional com bloqueio de ângulo e um destaque persistente do resultado no canvas.
 keywords: [CAD medir área, comando area, cálculo de área de polígono, medição de perímetro, fórmula do sapateiro, kulmanlab]
+group: measure
+order: 3
 ---
 
 # Area

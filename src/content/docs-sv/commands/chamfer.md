@@ -1,8 +1,9 @@
 ---
-sidebar_position: 21
 title: Chamfer-kommandot — Skär ett rakt hörn mellan två linjer i KulmanLab CAD
 description: Chamfer-kommandot förbinder två Line- eller Polyline-entiteter med ett rakt diagonalt snitt. Du anger två avstånd — ett längs varje entitet — och kommandot klipper tillbaka båda till dessa punkter och infogar en förbindande linje.
 keywords: [CAD chamfer-kommando, chamfer linje CAD, diagonalt hörnsnitt, fasat hörn CAD, kulmanlab]
+group: edit
+order: 12
 ---
 
 # Chamfer

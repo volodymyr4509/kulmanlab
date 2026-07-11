@@ -1,8 +1,9 @@
 ---
-sidebar_position: 29
 title: Команда Dimension Radius — Розмір радіуса дуги або кола у KulmanLab CAD
 description: Команда Dimension Radius розміщує розмір радіуса з префіксом R на дузі або колі. Клацніть об'єкт, потім перемістіть курсор для орієнтації лінії розміру від центру до окружності. Повний DXF round-trip як об'єкти DIMENSION з типом радіуса.
 keywords: [CAD розмір радіуса, dimradius, розмір радіуса кола, розмір радіуса дуги, розмір з префіксом R, DXF DIMENSION radius, kulmanlab]
+group: markup
+order: 7
 ---
 
 # Dimension Radius

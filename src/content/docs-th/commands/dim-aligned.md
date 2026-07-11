@@ -1,8 +1,9 @@
 ---
-sidebar_position: 14
 title: คำสั่ง Dimension Aligned — มิติระยะจริงในมุมใดก็ได้ใน KulmanLab CAD
 description: คำสั่ง Dimension Aligned วัดระยะเส้นตรงจริงระหว่างสองจุด เส้นมิติวิ่งขนานกับเส้น p1→p2 ในมุมใดก็ได้ — ต่างจาก Dimension Linear ที่จำกัดเฉพาะแนวนอนหรือแนวตั้ง รองรับ DXF แบบสมบูรณ์เป็นวัตถุ DIMENSION
 keywords: [มิติ aligned CAD, dimaligned, มิติเส้นทแยง CAD, มิติระยะจริง, มิติมุม CAD, kulmanlab]
+group: markup
+order: 5
 ---
 
 # Dimension Aligned

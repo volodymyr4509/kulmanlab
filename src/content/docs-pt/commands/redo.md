@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Comando Redo — Reaplicar Ações Desfeitas no KulmanLab CAD
 description: O comando Redo reaaplica a última ação revertida por Undo, avançando pela pilha de histórico. Redo só está disponível após um Undo e é apagado no momento em que qualquer nova ação de desenho é realizada.
 keywords: [CAD comando redo, histórico redo CAD, reaplicar ação CAD, undo redo CAD, redo persistente navegador, kulmanlab]
+group: edit
+order: 14
 ---
 
 # Redo

@@ -2,6 +2,8 @@
 title: PageManager コマンド — レイアウトの用紙サイズとスケールを編集（KulmanLab CAD）
 description: PageManager コマンドはアクティブなレイアウトのページ設定パネルを開き、用紙フォーマット、向き、作図単位スケールを変更できます。
 keywords: [ページマネージャー, レイアウト設定, 用紙サイズ, 作図スケール, レイアウト空間, kulmanlab]
+group: layouts
+order: 3
 ---
 
 # PageManager（ページマネージャー）

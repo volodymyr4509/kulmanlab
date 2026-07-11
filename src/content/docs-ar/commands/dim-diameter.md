@@ -1,8 +1,9 @@
 ---
-sidebar_position: 17
 title: "أمر Dimension Diameter — توصيف أقطار الدوائر والأقواس الكاملة في KulmanLab CAD"
 description: "يضع أمر Dimension Diameter بُعداً قطرياً (بادئه رمز القطر) عبر قوس أو دائرة من خلال المركز. حرّك المؤشر لتدوير خط البُعد إلى أي زاوية. يدعم التحويل الكامل لـ DXF كعناصر DIMENSION من نوع القطر."
 keywords: [بُعد قطر CAD, dimdiameter, توصيف قطر دائرة, بُعد قطر قوس, رمز قطر CAD, kulmanlab]
+group: markup
+order: 8
 ---
 
 # Dimension Diameter

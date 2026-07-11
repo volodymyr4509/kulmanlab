@@ -1,8 +1,9 @@
 ---
-sidebar_position: 17
 title: "Amri ya Dimension Diameter — Weka Maelezo ya Vipimo vya Kipenyo cha Duara na Mviringo katika KulmanLab CAD"
 description: "Amri ya Dimension Diameter huweka kipimo cha kipenyo (chenye awali ya alama ya kipenyo) kwenye mviringo au duara kupitia katikati. Sogeza mshale ili kuzungusha mstari wa kipimo kwenye pembe yoyote. Inasindikwa kikamilifu na DXF kama vipengele vya DIMENSION vya aina ya kipenyo."
 keywords: [CAD diameter dimension, dimdiameter, annotate circle diameter, arc diameter dimension, diameter symbol CAD, kulmanlab]
+group: markup
+order: 8
 ---
 
 # Dimension Diameter

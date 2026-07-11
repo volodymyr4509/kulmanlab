@@ -1,8 +1,9 @@
 ---
-sidebar_position: 9
 title: Εντολή Spline Fit — Σχεδίαση Παρεμβολικών Splines μέσα από Σημεία Κλικ στο KulmanLab CAD
 description: Η εντολή Spline Fit σχεδιάζει κυβική spline που διέρχεται ακριβώς από κάθε σημείο κλικ. Εσωτερικά η καμπύλη αποθηκεύεται τόσο με σημεία fit όσο και με υπολογισμένες κορυφές ελέγχου. Σύρσιμο grip σημείου fit επαναπαρεμβάλλει ολόκληρη την καμπύλη. Πλήρης DXF round-trip ως οντότητες SPLINE.
 keywords: [CAD εντολή spline fit, παρεμβολική spline CAD, spline μέσα από σημεία, σχεδίαση ομαλής καμπύλης CAD, SPLINE DXF σημεία fit, επεξεργασία grip spline, kulmanlab]
+group: shapes
+order: 9
 ---
 
 # Spline Fit

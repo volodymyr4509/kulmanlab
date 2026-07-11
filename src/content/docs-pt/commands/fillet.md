@@ -1,8 +1,9 @@
 ---
-sidebar_position: 20
 title: Comando Fillet — Arredondar um Canto entre Duas Linhas no KulmanLab CAD
 description: O comando Fillet conecta duas entidades Line com um arco tangente de um raio especificado, aparando cada linha de volta ao ponto tangente. Uma pré-visualização de arco tracejado ajuda a escolher o canto correto antes de clicar.
 keywords: [comando fillet CAD, arredondar canto CAD, arco de filete, arco tangente duas linhas, kulmanlab]
+group: edit
+order: 11
 ---
 
 # Fillet

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Import — 在 KulmanLab CAD 中打开 DXF 或 JSON 文件
 description: 使用导入命令在 KulmanLab CAD 中打开 DXF 或 KulmanLab JSON 文件。支持直线、圆、圆弧、多段线、样条线、文字、标注和引线。
 keywords: [导入 DXF 文件, 在浏览器中打开 DXF, 在线导入 CAD 文件, 打开 DXF 文件, DXF 浏览器查看器, 导入 JSON CAD, KulmanLab 导入, 免费 CAD DXF 查看器, 加载图形, DXF 到浏览器, kulmanlab]
+group: file
+order: 1
 ---
 
 # Import

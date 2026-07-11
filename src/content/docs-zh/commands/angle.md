@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Angle命令 — 在 KulmanLab CAD 中通过三点测量顶点处的内角
 description: Angle 命令通过三个单击点测量顶点处的内角（0°–180°）。依次单击第一端点、顶点、第二端点。结果以 4 位小数显示在命令行中。
 keywords: [CAD 角度测量, 三点角度, 内角 CAD, 测量角度命令, 顶点角度, kulmanlab]
+group: measure
+order: 2
 ---
 
 # Angle

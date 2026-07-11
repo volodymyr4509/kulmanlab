@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Perintah Scale — Mengubah Ukuran Entitas Secara Seragam di Sekitar Titik Dasar di KulmanLab CAD
 description: Perintah Scale mengubah ukuran entitas yang dipilih secara seragam berdasarkan faktor yang diketik di sekitar titik dasar yang tetap. Faktor selalu dimasukkan melalui keyboard — tidak ada klik-untuk-mengatur-skala. Faktor lebih besar dari 1 memperbesar; kurang dari 1 memperkecil. Setiap tipe entitas didukung.
 keywords: [perintah skala CAD, mengubah ukuran entitas CAD, menskalakan objek CAD, skala seragam CAD, faktor skala CAD, memperbesar memperkecil CAD, kulmanlab]
+group: edit
+order: 5
 ---
 
 # Scale

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 31
 title: Dimension Angular Komutu — KulmanLab CAD'de Çizgiler, Yaylar ve Daireler Arasındaki Açıları Ölç
 description: DimensionAngular komutu, çizgiler, yaylar veya daireler üzerine açısal ölçü ek açıklaması yerleştirir. İki çizgi açısı, yay kapsamı ve daire sektörü modlarını destekler.
 keywords: [açısal ölçü CAD, açı ölçüsü, çizgiler arasındaki açıyı ölç, DimensionAngular, yay ölçüsü, açı ek açıklaması, CAD açı işareti, kulmanlab açısal ölçü]
+group: markup
+order: 9
 ---
 
 # Dimension Angular

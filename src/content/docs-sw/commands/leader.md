@@ -1,8 +1,9 @@
 ---
-sidebar_position: 10
 title: Amri ya Leader — Chora Maelezo ya Multileader yenye Kichwa cha Mshale na Maandishi katika KulmanLab CAD
 description: "Amri ya Leader inachora maelezo ya multileader katika awamu nne: ncha ya mshale, kiwiko cha dogleg, nafasi ya maandishi, na lebo iliyoandikwa. Mwelekeo wa maandishi unabadilishwa moja kwa moja kulingana na nafasi ya dogleg. Uagizaji tu katika DXF — viongozi haviandikwi wakati wa kuhifadhi."
 keywords: [CAD leader command, multileader annotation, leader CAD, arrow label annotation, dogleg leader, text direction CAD, kulmanlab]
+group: markup
+order: 1
 ---
 
 # Leader

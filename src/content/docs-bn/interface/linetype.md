@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: "Linetype টুলবার পিকার — KulmanLab CAD-এ ড্যাশ প্যাটার্ন নিয়ন্ত্রণ"
 description: "KulmanLab CAD টুলবারের লাইনটাইপ পিকার সমস্ত নতুন আঁকা এন্টিটিতে প্রয়োগ করা ড্যাশ প্যাটার্ন সেট করে। বর্তমান DXF ফাইল থেকে লোড হওয়া সমস্ত লাইনটাইপ এবং বিল্ট-ইন ByLayer, ByBlock এবং Continuous অপশন সমর্থন করে।"
 keywords: [CAD লাইনটাইপ, ড্যাশ প্যাটার্ন, ড্যাশযুক্ত লাইন, DXF লাইনটাইপ, ByLayer লাইনটাইপ, kulmanlab]
+group: interface
+order: 3
 ---
 
 # Linetype

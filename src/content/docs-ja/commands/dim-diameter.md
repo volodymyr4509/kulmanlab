@@ -1,8 +1,9 @@
 ---
-sidebar_position: 17
 title: "寸法 直径コマンド — 円および円弧の直径注釈（KulmanLab CAD）"
 description: "dimdiameter コマンドは円弧または円に直径寸法（直径記号付き）を中心を通るラインとして配置します。カーソルを移動して寸法線を任意の角度に回転できます。DIMENSION 直径エンティティとして DXF ラウンドトリップ対応。"
 keywords: [CAD 直径寸法, dimdiameter, 円直径注釈, 円弧直径寸法, 直径記号 CAD, kulmanlab, dim-diameter]
+group: markup
+order: 8
 ---
 
 # Dimension Diameter

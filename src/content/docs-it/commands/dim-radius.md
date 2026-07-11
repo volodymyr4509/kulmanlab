@@ -1,8 +1,9 @@
 ---
-sidebar_position: 16
 title: Comando Dimension Radius — Annota i Raggi di Archi e Cerchi in KulmanLab CAD
 description: Il comando Dimension Radius posiziona una quota radiale con prefisso R su un arco o cerchio. Clicca l'entità, poi sposta il cursore per orientare la linea di quota dal centro alla circonferenza. Compatibilità DXF completa come entità DIMENSION raggio.
 keywords: [CAD quota raggio, dimradius, annota raggio cerchio, quota raggio arco, quota con prefisso R, kulmanlab]
+group: markup
+order: 7
 ---
 
 # Dimension Radius

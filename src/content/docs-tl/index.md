@@ -2,6 +2,8 @@
 title: KulmanLab CAD — Sanggunian ng mga Command
 description: Sanggunian ng mga command sa KulmanLab CAD — kumpletong gabay sa bawat command para sa pagguhit, pag-edit, markup, layer, pagsukat, at file sa KulmanLab CAD.
 keywords: [KulmanLab, KulmanLab CAD, mga command sa CAD, libreng CAD sa browser, DXF editor online, mga command sa pagguhit, kulmanlab commands]
+group: overview
+order: 1
 ---
 
 # KulmanLab CAD — Sanggunian ng mga Command

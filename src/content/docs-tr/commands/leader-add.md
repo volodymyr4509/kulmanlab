@@ -1,8 +1,9 @@
 ---
-sidebar_position: 24
 title: Leader+ Komutu — KulmanLab CAD'de Mevcut Göstergeye Ok Kolu Ekle
 description: Leader+ komutu, mevcut çok segmentli göstergeye yeni bir ok kolu ekler. Yeni kol, seçilen göstergenin geçiş bölgesini, metnini ve tüm stilini devralır. İki tıklama — göstergeyi seçin, yeni ok ucunu yerleştirin.
 keywords: [CAD leader add komutu, gösterge kolu ekle CAD, MLEADER çoklu ok, kulmanlab]
+group: markup
+order: 2
 ---
 
 # Leader+

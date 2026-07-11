@@ -1,8 +1,9 @@
 ---
-sidebar_position: 10
 title: Extend Command — Stretch a Line Endpoint to the Nearest Boundary in KulmanLab CAD
 description: The Extend command stretches the nearest endpoint of a hovered Line to the closest intersection with another entity. A live preview shows the extended line before you click. Extend works on Line entities only and ignores Text, Spline, and Multileader as boundaries.
 keywords: [CAD extend command, extend line CAD, stretch line to boundary, line endpoint extend, hover extend preview, kulmanlab]
+group: edit
+order: 9
 ---
 
 # Extend

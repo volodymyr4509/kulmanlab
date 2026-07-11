@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Lệnh Area — Đo Diện Tích và Chu Vi Của Đa Giác trong KulmanLab CAD
 description: Lệnh Area đo diện tích khép kín và chu vi của một đa giác được xác định bởi 3 điểm bấm trở lên, sử dụng công thức shoelace. Hỗ trợ nhập hướng khóa góc và làm nổi bật kết quả liên tục trên canvas.
 keywords: [đo diện tích CAD, lệnh area, tính diện tích đa giác, đo chu vi, công thức shoelace, kulmanlab CAD đo lường]
+group: measure
+order: 3
 ---
 
 # Area

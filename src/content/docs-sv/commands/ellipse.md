@@ -1,8 +1,9 @@
 ---
-sidebar_position: 6
 title: Ellipse-kommandot — Rita roterade ellipser via centrum och två axlar i KulmanLab CAD
 description: Ellipse-kommandot ritar en ellips i tre klick — centrum, första axelns ändpunkt (valfri riktning), sedan andra axelns längd. De två axlarna är alltid vinkelräta mot varandra. Varje halvaxel har sitt eget grepp för oberoende storleksändring efter placering. Fullständig DXF-rundtur som ELLIPSE-entiteter.
 keywords: [CAD ellipskommando, rita ellips CAD, roterad ellips CAD, ellipsaxlar, ELLIPSE DXF-entitet, redigera ellipsgrepp, axelförhållande, kulmanlab]
+group: shapes
+order: 6
 ---
 
 # Ellipse

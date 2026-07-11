@@ -1,8 +1,9 @@
 ---
-sidebar_position: 9
 title: Commande Spline Fit — Tracer des splines interpolantes à travers des points cliqués dans KulmanLab CAD
 description: La commande Spline Fit trace une spline cubique passant exactement par chaque point cliqué. En interne, la courbe est stockée avec des points d'interpolation et des sommets de contrôle calculés. Faire glisser une poignée de point d'interpolation re-interpole toute la courbe. Aller-retour DXF complet en tant qu'entités SPLINE.
 keywords: [commande spline fit CAO, spline interpolante CAO, spline à travers points, tracer courbe lisse CAO, entité SPLINE DXF points fit, édition poignée spline, kulmanlab]
+group: shapes
+order: 9
 ---
 
 # Spline Fit

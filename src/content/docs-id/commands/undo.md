@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Perintah Undo — Mundur Melalui Riwayat Gambar di KulmanLab CAD
 description: Perintah Undo membalik aksi menggambar terakhir satu langkah per waktu. Hingga 20 langkah disimpan per file dan dipertahankan di browser setelah halaman dimuat ulang. Melakukan aksi baru setelah undo menghapus tumpukan redo.
 keywords: [perintah undo CAD, riwayat undo CAD, membalik aksi CAD, langkah undo CAD, undo browser persisten, kulmanlab]
+group: edit
+order: 13
 ---
 
 # Undo

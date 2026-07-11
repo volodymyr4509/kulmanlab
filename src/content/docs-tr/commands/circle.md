@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: Circle Komutu — KulmanLab CAD'de Merkez ve Yarıçapla Daire Çiz
 description: Circle komutu, merkez noktasını tıklayarak ardından yarıçapı tıklayarak veya girerek daire yerleştirir. Dört kardinal tutamaç, komutu yeniden başlatmadan yarıçapı sürükleyerek değiştirmeye olanak tanır. DXF CIRCLE nesneleri olarak tam round-trip.
 keywords: [CAD circle komutu, CAD daire çiz, daire yarıçap girişi, tutamaçla daire yeniden boyutlandır, DXF CIRCLE nesnesi, daire yarıçap ölçüsü, kulmanlab]
+group: shapes
+order: 4
 ---
 
 # Circle

@@ -2,6 +2,8 @@
 title: คำสั่ง PageManager — แก้ไขขนาดกระดาษและมาตราส่วนของเค้าโครงใน KulmanLab CAD
 description: คำสั่ง PageManager เปิดแผงการตั้งค่าหน้าสำหรับเค้าโครงที่ใช้งาน ให้คุณเปลี่ยนรูปแบบกระดาษ ทิศทาง และมาตราส่วนหน่วยวาด
 keywords: [page manager, การตั้งค่าเค้าโครง, ขนาดกระดาษ, มาตราส่วนภาพวาด, พื้นที่เค้าโครง, kulmanlab]
+group: layouts
+order: 3
 ---
 
 # PageManager

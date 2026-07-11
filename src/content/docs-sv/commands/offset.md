@@ -1,8 +1,9 @@
 ---
-sidebar_position: 11
 title: Offset-kommandot — Skapa parallella kopior på ett fast avstånd i KulmanLab CAD
 description: Offset-kommandot skapar en parallell kopia av en Line, Circle, Arc, Ellipse eller Polyline på ett inskrivet avstånd. Avståndet anges en gång och återanvänds för flera offset. Ett klick på önskad sida avgör i vilken riktning kopian visas. Fem entitetstyper stöds.
 keywords: [CAD offset-kommando, parallell kopia CAD, offset linje CAD, offset cirkel CAD, offset polyline CAD, koncentrisk offset, kulmanlab]
+group: edit
+order: 10
 ---
 
 # Offset

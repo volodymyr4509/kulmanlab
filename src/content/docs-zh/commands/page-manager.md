@@ -2,6 +2,8 @@
 title: PageManager命令 — 在 KulmanLab CAD 中编辑布局图纸大小和比例
 description: PageManager 命令打开当前布局的页面设置面板，您可以在其中更改图纸格式、方向和图形单位比例。
 keywords: [页面管理器, 布局设置, 图纸大小, 图形比例, 布局空间, kulmanlab]
+group: layouts
+order: 3
 ---
 
 # PageManager

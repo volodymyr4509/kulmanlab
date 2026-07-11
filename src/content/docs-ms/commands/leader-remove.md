@@ -1,8 +1,9 @@
 ---
-sidebar_position: 11
 title: "Arahan Leader− — Buang Lengan Kepala Anak Panah daripada Pelbagai Pemimpin dalam KulmanLab CAD"
 description: "Arahan Leader− membuang satu lengan kepala anak panah dari pelbagai pemimpin yang mempunyai dua atau lebih. Tuding berhampiran lengan yang ingin dibuang — lengan yang paling hampir diserlahkan. Dogleg, teks, dan lengan yang tinggal dipelihara."
 keywords: [CAD buang lengan pemimpin, arahan leader-, buang anak panah dari pemimpin, padam lengan pelbagai pemimpin, kulmanlab]
+group: markup
+order: 3
 ---
 
 # Leader−

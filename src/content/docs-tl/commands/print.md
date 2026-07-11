@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Print Command — I-export ang Drawing bilang PNG, JPEG, WebP, o PDF sa KulmanLab CAD
 description: Binubuksan ng Print command ang Print Manager — isang dedikadong export window na may live preview, format selector, monochrome toggle, at opsyonal na area selection. Nag-e-export hanggang 2000×2000 px. Sinusuportahan ang PNG, JPEG, WebP, at PDF.
 keywords: [CAD export PNG, CAD export PDF, i-print ang CAD drawing, print manager, monochrome export, kulmanlab export]
+group: file
+order: 4
 ---
 
 # Print

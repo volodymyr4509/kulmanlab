@@ -2,6 +2,8 @@
 title: Arahan Font Manager — Muat Naik dan Urus Fon TTF Kustom dalam KulmanLab CAD
 description: Arahan Font Manager membuka dialog untuk melayari, pratonton, dan memilih fon, serta untuk memuat naik fail .ttf anda sendiri. Fon yang dimuat naik disimpan dalam pelayar dan disematkan mengikut nama dalam eksport DXF.
 keywords: [font manager, fon kustom CAD, muat naik ttf, taip muka kustom CAD, google fonts CAD, fon teks CAD, kulmanlab]
+group: style
+order: 2
 ---
 
 # Font Manager

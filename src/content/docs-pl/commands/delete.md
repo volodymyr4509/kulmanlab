@@ -1,8 +1,9 @@
 ---
-sidebar_position: 6
 title: Polecenie Delete — Usuwanie elementów z rysunku w KulmanLab CAD
 description: Polecenie Delete trwale usuwa zaznaczone elementy (z możliwością cofnięcia). Wstępnie zaznaczone elementy są usuwane natychmiast bez kroku potwierdzenia. Klawisz Delete działa jako globalny skrót nawet bez aktywowania polecenia. Obsługuje zaznaczanie pojedynczym kliknięciem i obszarowe.
 keywords: [polecenie usuwania CAD, usuwanie elementów CAD, wymazywanie obiektów CAD, klawisz Delete CAD, cofnij usuwanie CAD, kulmanlab]
+group: edit
+order: 7
 ---
 
 # Delete

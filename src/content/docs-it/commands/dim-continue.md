@@ -1,8 +1,9 @@
 ---
-sidebar_position: 15
 title: Comando Dimension Continue — Concatena Quote da una Linea Base Esistente in KulmanLab CAD
 description: Il comando Dimension Continue estende una catena di quote dalla seconda linea di estensione dell'ultima quota posizionata. Eredita automaticamente l'angolo, lo scostamento, la dimensione delle frecce e l'altezza del testo della quota base. Funziona sia con basi lineari che allineate.
 keywords: [CAD quota continua, dimcontinue, quote concatenate CAD, quota di riferimento, serie quote continue, kulmanlab]
+group: markup
+order: 6
 ---
 
 # Dimension Continue

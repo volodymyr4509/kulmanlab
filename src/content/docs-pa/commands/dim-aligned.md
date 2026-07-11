@@ -1,8 +1,9 @@
 ---
-sidebar_position: 14
 title: Dimension Aligned ਕਮਾਂਡ — KulmanLab CAD ਵਿੱਚ ਕਿਸੇ ਵੀ ਕੋਣ 'ਤੇ ਅਸਲ-ਦੂਰੀ ਡਾਇਮੈਂਸ਼ਨ
 description: Dimension Aligned ਕਮਾਂਡ ਦੋ ਬਿੰਦੂਆਂ ਵਿਚਕਾਰ ਅਸਲ ਸਿੱਧੀ-ਲਾਈਨ ਦੂਰੀ ਮਾਪਦੀ ਹੈ। ਡਾਇਮੈਂਸ਼ਨ ਲਾਈਨ p1→p2 ਲਾਈਨ ਦੇ ਸਮਾਨਾਂਤਰ ਕਿਸੇ ਵੀ ਕੋਣ 'ਤੇ ਚੱਲਦੀ ਹੈ — Dimension Linear ਦੇ ਉਲਟ ਜੋ ਹਰੀਜ਼ੌਂਟਲ ਜਾਂ ਵਰਟੀਕਲ ਤੱਕ ਸੀਮਿਤ ਹੈ। DIMENSION ਐਂਟਿਟੀਆਂ ਦੇ ਰੂਪ ਵਿੱਚ ਪੂਰਾ DXF ਰਾਊਂਡ-ਟ੍ਰਿਪ।
 keywords: [CAD ਡਾਇਮੈਂਸ਼ਨ ਅਲਾਈਨਡ, dimaligned, ਡਾਇਗਨਲ ਡਾਇਮੈਂਸ਼ਨ CAD, ਅਸਲ ਦੂਰੀ ਡਾਇਮੈਂਸ਼ਨ, ਕੋਣੀ ਡਾਇਮੈਂਸ਼ਨ CAD, kulmanlab]
+group: markup
+order: 5
 ---
 
 # Dimension Aligned

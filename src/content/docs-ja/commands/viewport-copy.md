@@ -2,6 +2,8 @@
 title: ViewportCopy コマンド — ビューポートを複製（KulmanLab CAD）
 description: ViewportCopy コマンドは同じレイアウト内の選択したビューポートを新しい位置に複製し、スケールとモデルビュー設定を保持します。正確な座標入力、角度ロック、入力した距離をサポートします。
 keywords: [ビューポートコピー, ビューポート複製, ビューポートレイアウトコピー, 角度ロック ビューポート, 正確な座標 ビューポート, kulmanlab]
+group: layouts
+order: 2
 ---
 
 # ViewportCopy（ビューポートコピー）

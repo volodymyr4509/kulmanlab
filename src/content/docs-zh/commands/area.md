@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Area命令 — 在 KulmanLab CAD 中测量多边形的面积和周长
 description: Area 命令使用鞋带公式（shoelace formula）测量由 3 个或更多单击点定义的多边形的面积和周长。支持角度锁定的方向输入，以及结果在画布上的持续高亮显示。
 keywords: [CAD 测量面积, area命令, 多边形面积计算, 周长测量, 鞋带公式, kulmanlab CAD 测量]
+group: measure
+order: 3
 ---
 
 # Area

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Linientyp-Werkzeugleisten-Auswahl — Strichmuster in KulmanLab CAD steuern
 description: Der Linientyp-Auswähler in der KulmanLab CAD-Werkzeugleiste legt das Strichmuster fest, das auf alle neu gezeichneten Entitäten angewendet wird. Unterstützt alle aus der aktuellen DXF-Datei geladenen Linientypen sowie die integrierten Optionen ByLayer, ByBlock und Continuous.
 keywords: [CAD Linientyp, Strichmuster, gestrichelte Linie, DXF Linientyp, ByLayer Linientyp, kulmanlab]
+group: interface
+order: 3
 ---
 
 # Linientyp

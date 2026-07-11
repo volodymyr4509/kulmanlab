@@ -1,8 +1,9 @@
 ---
-sidebar_position: 20
 title: Fillet 명령어 — KulmanLab CAD에서 두 선 사이의 모서리 라운딩
 description: Fillet 명령어는 지정된 반지름의 접선 호를 삽입하고 각 선을 접선점까지 잘라 두 선 객체 사이의 모서리를 연결합니다. 점선 호 미리보기를 통해 클릭 전에 올바른 모서리를 선택할 수 있습니다.
 keywords: [CAD Fillet 명령어, 모서리 라운딩 CAD, 모깎기 호, 두 선에 접하는 호, kulmanlab]
+group: edit
+order: 11
 ---
 
 # Fillet

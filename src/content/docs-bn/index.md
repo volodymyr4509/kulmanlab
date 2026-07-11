@@ -2,6 +2,8 @@
 title: "KulmanLab CAD — কমান্ড রেফারেন্স"
 description: "KulmanLab CAD কমান্ড রেফারেন্স — KulmanLab CAD-এর প্রতিটি ড্রয়িং, সম্পাদনা, মার্কআপ, লেয়ার, পরিমাপ এবং ফাইল কমান্ডের সম্পূর্ণ গাইড।"
 keywords: [KulmanLab, KulmanLab CAD, CAD কমান্ড, বিনামূল্যে ব্রাউজার CAD, DXF সম্পাদক অনলাইন, ড্রয়িং কমান্ড, kulmanlab কমান্ড]
+group: overview
+order: 1
 ---
 
 # KulmanLab CAD — কমান্ড রেফারেন্স

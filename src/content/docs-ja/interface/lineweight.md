@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: 線幅ツールバーピッカー — KulmanLab CAD のストローク幅を制御
 description: KulmanLab CAD ツールバーの線幅ピッカーは、新しく作図するすべてのエンティティに適用されるストローク幅を設定します。0.00 mm から 2.11 mm の標準 DXF 線幅値と ByLayer および Default モードをサポートします。
 keywords: [CAD 線幅, ストローク幅, 線の太さ, DXF 線幅, ByLayer 線幅, kulmanlab]
+group: interface
+order: 4
 ---
 
 # 線幅（Lineweight）

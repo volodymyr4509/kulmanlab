@@ -2,6 +2,8 @@
 title: أمر Wipe Storage — مسح جميع بيانات المتصفح في KulmanLab CAD
 description: يحذف أمر wipestorage نهائياً جميع الملفات والطبقات وأنواع الخطوط وسجل التراجع المحفوظ في المتصفح. يتطلب كتابة YES للتأكيد. يُستخدم عند إعادة تعيين قاعدة بيانات محلية تالفة أو ممتلئة.
 keywords: [مسح تخزين CAD, مسح بيانات المتصفح CAD, إعادة تعيين تطبيق CAD, حذف الملفات المحلية CAD, wipestorage kulmanlab, kulmanlab]
+group: file
+order: 6
 ---
 
 # Wipe Storage

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 40
 title: Команда ViewportCopy — Дублювати вікно перегляду у KulmanLab CAD
 description: Команда ViewportCopy дублює існуюче вікно перегляду паперового компонування на нову позицію. Успадковує масштаб, центр моделі, блокування та розміри оригіналу.
 keywords: [CAD команда viewport copy, дублювати вікно перегляду CAD, копіювати viewport компонування, kulmanlab]
+group: layouts
+order: 2
 ---
 
 # ViewportCopy

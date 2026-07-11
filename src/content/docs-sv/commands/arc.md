@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Arc-kommandot — Rita trepunktsbågar med circumcircle-metoden i KulmanLab CAD
 description: Arc-kommandot ritar en cirkelbåge genom exakt tre klickade punkter med hjälp av circumcircle-geometri. Start- och slutgrepp låter dig dra bågens ändpunkter till en ny vinkel och radie efter placering. Fullständig DXF-rundtur som ARC-entiteter.
 keywords: [CAD bågkommando, trepunktsbåge CAD, circumcircle-båge, rita båge CAD, ARC DXF-entitet, redigera båggrepp, kulmanlab]
+group: shapes
+order: 5
 ---
 
 # Arc

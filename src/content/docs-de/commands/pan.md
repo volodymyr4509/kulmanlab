@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Befehl pan — Klicken-und-Ziehen-Navigation in KulmanLab CAD
 description: Der Befehl pan aktiviert einen dauerhaften Ziehen-zum-Scrollen-Modus. Klicken und ziehen Sie auf der Zeichenfläche, um die Ansicht zu verschieben, ohne die Zoomstufe zu ändern. Mittelmaus-Ziehen funktioniert jederzeit ohne Aktivierung von pan.
 keywords: [CAD Ansicht verschieben, pan Befehl, zum Navigieren ziehen, Zeichenfläche scrollen CAD, Ansichtsnavigation, kulmanlab]
+group: navigate
+order: 1
 ---
 
 # Pan

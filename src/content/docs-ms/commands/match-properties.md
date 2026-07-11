@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Match Properties — Salin Sifat Entiti dalam KulmanLab CAD
 description: Arahan MatchProperties menyalin warna, lapisan, dan sifat kongsi lain dari entiti sumber ke satu atau lebih entiti sasaran. Memadankan sifat dengan cara yang sama seperti alat CAD desktop.
 keywords: [padankan sifat CAD, salin sifat entiti, MATCHPROP, padankan lapisan warna, pindahkan sifat, padankan sifat kulmanlab, cat sifat, salin lapisan CAD]
+group: style
+order: 1
 ---
 
 # Match Properties

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerIsolate — Bekukan Semua Lapisan Kecuali yang Dipilih dalam KulmanLab CAD
 description: Arahan LayerIsolate membekukan setiap lapisan kecuali yang dimiliki objek yang dipilih, membolehkan anda fokus pada geometri tertentu tanpa memadamkan apa-apa.
 keywords: [asingkan lapisan, bekukan lapisan CAD, asingkan lapisan kulmanlab, pengurusan lapisan CAD]
+group: layer
+order: 3
 ---
 
 # LayerIsolate

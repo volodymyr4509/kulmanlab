@@ -1,8 +1,9 @@
 ---
-sidebar_position: 9
 title: Dimension Angular — Pima Pembe Kati ya Mistari, Miviringo na Duara katika KulmanLab CAD
 description: "Amri ya DimensionAngular huweka maelezo ya kipimo cha pembe kwenye mistari, miviringo, au duara. Inasaidia hali za pembe ya mistari miwili, upana wa mviringo, na sekta ya duara."
 keywords: [angular dimension CAD, angle dimension, measure angle between lines, DimensionAngular, arc dimension, angle annotation, CAD angle markup, kulmanlab angular dimension]
+group: markup
+order: 9
 ---
 
 # Dimension Angular

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: "Print ਕਮਾਂਡ — KulmanLab CAD ਵਿੱਚ ਡਰਾਇੰਗ ਨੂੰ PNG, JPEG, WebP, ਜਾਂ PDF ਵਜੋਂ ਐਕਸਪੋਰਟ ਕਰੋ"
 description: "Print ਕਮਾਂਡ Print Manager ਖੋਲ੍ਹਦੀ ਹੈ — ਲਾਈਵ ਪ੍ਰੀਵਿਊ, ਫਾਰਮੈਟ ਸਿਲੈਕਟਰ, ਮੋਨੋਕ੍ਰੋਮ ਟੌਗਲ, ਅਤੇ ਵਿਕਲਪਿਕ ਖੇਤਰ ਚੋਣ ਵਾਲੀ ਇੱਕ ਸਮਰਪਿਤ ਐਕਸਪੋਰਟ ਵਿੰਡੋ। 2000×2000 px ਤੱਕ ਐਕਸਪੋਰਟ ਕਰਦੀ ਹੈ। PNG, JPEG, WebP, ਅਤੇ PDF ਸਮਰਥਿਤ ਹਨ।"
 keywords: [CAD PNG ਐਕਸਪੋਰਟ, CAD PDF ਐਕਸਪੋਰਟ, CAD ਡਰਾਇੰਗ ਪ੍ਰਿੰਟ ਕਰੋ, ਪ੍ਰਿੰਟ ਮੈਨੇਜਰ, ਮੋਨੋਕ੍ਰੋਮ ਐਕਸਪੋਰਟ, kulmanlab ਐਕਸਪੋਰਟ]
+group: file
+order: 4
 ---
 
 # Print

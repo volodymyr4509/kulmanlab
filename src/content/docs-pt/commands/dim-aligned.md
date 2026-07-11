@@ -1,8 +1,9 @@
 ---
-sidebar_position: 14
 title: Comando Dimension Aligned — Cotas de Distância Real em Qualquer Ângulo no KulmanLab CAD
 description: O comando Dimension Aligned mede a distância real em linha reta entre dois pontos. A linha de cota é paralela à linha p1→p2 em qualquer ângulo — ao contrário do Dimension Linear que é restrito a horizontal ou vertical. Compatibilidade DXF completa como entidades DIMENSION.
 keywords: [CAD cota alinhada, dimaligned, cota diagonal CAD, cota distância real, cota angulada CAD, kulmanlab]
+group: markup
+order: 5
 ---
 
 # Dimension Aligned

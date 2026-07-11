@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Match Properties — Kopyahin ang Entity Properties sa KulmanLab CAD
 description: Kinokopya ng MatchProperties command ang kulay, layer, at iba pang shared properties mula sa source entity patungo sa isa o higit pang target entities. Nagta-match ng properties sa parehong paraan tulad ng ginagawa ng desktop CAD tools.
 keywords: [match properties CAD, kopyahin ang entity properties, MATCHPROP, i-match ang layer color, transfer properties, kulmanlab match properties, paint properties, kopyahin ang layer CAD]
+group: style
+order: 1
 ---
 
 # Match Properties

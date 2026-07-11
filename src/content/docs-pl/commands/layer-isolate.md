@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerIsolate — Zamrażanie wszystkich warstw z wyjątkiem zaznaczonych w KulmanLab CAD
 description: Polecenie LayerIsolate zamraża każdą warstwę z wyjątkiem tych, do których należą zaznaczone obiekty, pozwalając skupić się na konkretnej geometrii bez usuwania czegokolwiek.
 keywords: [izolacja warstwy, zamrażanie warstw CAD, izolacja warstwy kulmanlab, zarządzanie warstwami CAD]
+group: layer
+order: 3
 ---
 
 # LayerIsolate

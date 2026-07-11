@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: New File — Start a Blank Drawing in KulmanLab CAD
 description: The New File command clears the canvas and opens a fresh blank drawing. A timestamped file name is generated automatically and saved to browser storage.
 keywords: [new CAD file, new drawing, blank canvas CAD, create new drawing online, start new DXF, KulmanLab new file, reset canvas, clear drawing]
+group: file
+order: 2
 ---
 
 # New File

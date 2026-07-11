@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: New File — KulmanLab CAD에서 빈 도면 시작
 description: 새 파일 명령어는 캔버스를 지우고 새로운 빈 도면을 엽니다. 타임스탬프가 있는 파일 이름이 자동으로 생성되고 브라우저 저장소에 저장됩니다.
 keywords: [새 CAD 파일, 새 도면, 빈 캔버스 CAD, 온라인으로 새 도면 만들기, 새 DXF 시작, KulmanLab 새 파일, 캔버스 초기화, 도면 지우기]
+group: file
+order: 2
 ---
 
 # New File

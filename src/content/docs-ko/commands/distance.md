@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Distance 명령어 — KulmanLab CAD에서 두 점 사이의 직선 거리 측정
 description: Distance 명령어는 두 클릭한 점 사이의 유클리드 거리를 측정하고 결과를 소수점 4자리까지 터미널에 표시합니다. 결과 후 다시 클릭하면 마지막 점에서 새 측정을 연결합니다.
 keywords: [CAD 거리 측정, 거리 명령어, 점-점 측정, 직선 거리, kulmanlab CAD 측정]
+group: measure
+order: 1
 ---
 
 # Distance

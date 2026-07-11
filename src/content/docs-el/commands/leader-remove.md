@@ -1,8 +1,9 @@
 ---
-sidebar_position: 11
 title: "Εντολή Leader− — Αφαίρεση Βραχίονα Βέλους από Multileader στο KulmanLab CAD"
 description: "Η εντολή Leader− αφαιρεί έναν βραχίονα βέλους από ένα multileader που έχει δύο ή περισσότερους. Τοποθετήστε τον κέρσορα κοντά στον βραχίονα προς αφαίρεση — ο πλησιέστερος βραχίονας επισημαίνεται. Το dogleg, το κείμενο και οι υπόλοιποι βραχίονες διατηρούνται."
 keywords: [CAD αφαίρεση βραχίονα leader, εντολή leader-, αφαίρεση βέλους από leader, διαγραφή βραχίονα multileader, kulmanlab]
+group: markup
+order: 3
 ---
 
 # Leader−

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Angle Command — Measure the Interior Angle at a Vertex Using Three Points in KulmanLab CAD
 description: The Angle command measures the interior angle (0°–180°) at a vertex defined by three clicked points. Click first-end, vertex, second-end. Result shown in the terminal to 4 decimal places.
 keywords: [CAD angle measurement, three point angle, interior angle CAD, measure angle command, vertex angle, kulmanlab]
+group: measure
+order: 2
 ---
 
 # Angle

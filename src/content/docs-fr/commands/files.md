@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Files — Panneau des Fichiers Récents dans KulmanLab CAD
 description: La commande Files ouvre le panneau des Fichiers Récents — parcourez tous les dessins sauvegardés dans votre navigateur, restaurez n'importe lequel sur le canevas ou supprimez ceux dont vous n'avez plus besoin.
 keywords: [fichiers récents CAO, historique fichiers navigateur CAO, restaurer dessin, rouvrir DXF, stockage navigateur CAO, fichiers KulmanLab, dessins sauvegardés, IndexedDB CAO, gérer dessins]
+group: file
+order: 3
 ---
 
 # Files

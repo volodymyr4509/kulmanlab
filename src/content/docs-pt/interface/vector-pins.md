@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Vector Pins — Encaixar em Linhas de Referência de Pontos Fixados no KulmanLab CAD
 description: Os Vector Pins permitem fixar um ponto de encaixe pairando sobre ele por meio segundo, e depois seguir o cursor ao longo de linhas de referência horizontais e verticais tracejadas que passam pelo ponto fixado — alinhe geometria nova com pontos existentes sem linhas de construção.
 keywords: [vector pins, rastreio de encaixe a objetos, linhas de referência, rastreio de alinhamento, rastreio de encaixe CAD, linhas de construção, kulmanlab]
+group: interface
+order: 2
 ---
 
 # Vector Pins

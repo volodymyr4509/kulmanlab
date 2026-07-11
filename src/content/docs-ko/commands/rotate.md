@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Rotate 명령어 — KulmanLab CAD에서 기준점을 중심으로 객체 회전
 description: 회전 명령어는 선택한 객체를 선택한 기준점을 중심으로 회전합니다. 각도는 정확하게 입력하거나 클릭으로 설정할 수 있습니다 — 기준점에서 클릭 위치까지의 커서 방향이 각도를 결정합니다. 양의 각도는 DXF 좌표에서 반시계 방향입니다.
 keywords: [CAD Rotate 명령어, 객체 회전 CAD, 각도로 회전 CAD, 반시계 방향 회전 CAD, 입력한 각도 회전, kulmanlab]
+group: edit
+order: 3
 ---
 
 # Rotate

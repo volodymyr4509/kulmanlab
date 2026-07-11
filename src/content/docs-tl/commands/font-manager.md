@@ -2,6 +2,8 @@
 title: Font Manager Command — I-upload at Pamahalaan ang Custom TTF Fonts sa KulmanLab CAD
 description: Binubuksan ng Font Manager command ang isang dialog para mag-browse, mag-preview, at pumili ng fonts, at para mag-upload ng sarili mong .ttf files. Naka-save ang mga na-upload na font sa browser at naka-embed ayon sa pangalan sa mga DXF export.
 keywords: [font manager, custom font CAD, mag-upload ng ttf, custom na typeface CAD, google fonts CAD, text font CAD, kulmanlab]
+group: style
+order: 2
 ---
 
 # Font Manager

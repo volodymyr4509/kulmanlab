@@ -2,6 +2,8 @@
 title: KulmanLab CAD — Kommandoreferens
 description: KulmanLab CAD kommandoreferens — fullständig guide till varje rit-, redigerings-, markerings-, lager-, mät- och filkommando i KulmanLab CAD.
 keywords: [KulmanLab, KulmanLab CAD, CAD-kommandon, gratis webbläsar-CAD, DXF-redigerare online, ritkommandon, kulmanlab-kommandon]
+group: overview
+order: 1
 ---
 
 # KulmanLab CAD — Kommandoreferens

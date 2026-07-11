@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Arahan Print — Eksport Lukisan sebagai PNG, JPEG, WebP, atau PDF dalam KulmanLab CAD
 description: Arahan Print membuka Pengurus Cetak — tetingkap eksport khusus dengan pratonton langsung, pemilih format, togel monokrom, dan pemilihan kawasan pilihan. Eksport sehingga 2000×2000 px. Menyokong PNG, JPEG, WebP, dan PDF.
 keywords: [CAD eksport PNG, CAD eksport PDF, cetak lukisan CAD, pengurus cetak, eksport monokrom, eksport kulmanlab]
+group: file
+order: 4
 ---
 
 # Print

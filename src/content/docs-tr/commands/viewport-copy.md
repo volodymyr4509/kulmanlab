@@ -1,8 +1,9 @@
 ---
-sidebar_position: 40
 title: ViewportCopy Komutu — KulmanLab CAD'de Görünüm Penceresini Kopyala
 description: ViewportCopy komutu, mevcut kağıt yerleşim görünüm penceresini yeni bir konuma kopyalar. Orijinalin ölçeğini, model merkezini, kilidini ve boyutlarını devralır.
 keywords: [CAD viewport copy komutu, görünüm penceresini kopyala CAD, yerleşim viewport kopyala, kulmanlab]
+group: layouts
+order: 2
 ---
 
 # ViewportCopy

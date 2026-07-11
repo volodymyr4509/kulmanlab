@@ -1,8 +1,9 @@
 ---
-sidebar_position: 25
 title: Leader− Komutu — KulmanLab CAD'de Göstergeden Ok Kolu Kaldır
 description: Leader− komutu, iki veya daha fazla kollu çok segmentli göstergeden bir ok kolunu kaldırır. Kaldırılacak kola imleci yaklaştırın — en yakın kol vurgulanır. Geçiş bölgesi, metin ve diğer tüm kollar korunur.
 keywords: [CAD leader remove komutu, gösterge kolu kaldır CAD, MLEADER oku sil, kulmanlab]
+group: markup
+order: 3
 ---
 
 # Leader−

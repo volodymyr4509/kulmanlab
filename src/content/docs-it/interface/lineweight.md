@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Selettore Spessore di Linea — Controllare la Larghezza del Tratto in KulmanLab CAD
 description: Il selettore dello spessore di linea nella barra degli strumenti di KulmanLab CAD imposta la larghezza del tratto applicata a tutte le entità disegnate successivamente. Supporta i valori standard DXF da 0,00 mm a 2,11 mm più le modalità ByLayer e Default.
 keywords: [CAD spessore linea, larghezza tratto, larghezza linea, DXF lineweight, ByLayer lineweight, kulmanlab]
+group: interface
+order: 4
 ---
 
 # Spessore di linea

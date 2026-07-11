@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerMakeCurrent — Ustawianie warstwy elementu jako bieżącej w KulmanLab CAD
 description: Polecenie LayerMakeCurrent ustawia bieżącą warstwę rysunkową na warstwę klikniętego elementu.
 keywords: [ustaw bieżącą warstwę, ustaw bieżącą warstwę CAD, zarządzanie warstwami kulmanlab]
+group: layer
+order: 1
 ---
 
 # LayerMakeCurrent

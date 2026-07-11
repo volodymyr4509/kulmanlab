@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: New File — Démarrer un dessin vierge dans KulmanLab CAD
 description: La commande New File vide le canevas et ouvre un nouveau dessin vierge. Un nom de fichier avec horodatage est généré automatiquement et sauvegardé dans le stockage du navigateur.
 keywords: [nouveau fichier CAO, nouveau dessin, canevas vierge CAO, créer nouveau dessin en ligne, démarrer nouveau DXF, nouveau fichier KulmanLab, réinitialiser canevas, vider dessin]
+group: file
+order: 2
 ---
 
 # New File

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 17
 title: "Polecenie Dimension Diameter — Opisywanie pełnych średnic okręgów i łuków w KulmanLab CAD"
 description: "Polecenie Dimension Diameter umieszcza wymiar średnicy (poprzedzony symbolem średnicy) przez łuk lub okrąg przez środek. Przesuń kursor, aby obrócić linię wymiarową pod dowolny kąt. Pełna obsługa zapisu i odczytu DXF jako elementy DIMENSION typu średnica."
 keywords: [wymiar średnicy CAD, dimdiameter, opis średnicy okręgu, wymiar średnicy łuku, symbol średnicy CAD, kulmanlab]
+group: markup
+order: 8
 ---
 
 # Dimension Diameter

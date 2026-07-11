@@ -1,8 +1,9 @@
 ---
-sidebar_position: 11
 title: "Leader− 명령어 — KulmanLab CAD에서 다중 지시선에서 화살표 팔 제거"
 description: "Leader− 명령어는 두 개 이상의 팔이 있는 다중 지시선에서 화살표 팔 하나를 제거합니다. 제거할 팔 근처에 커서를 올리면 가장 가까운 팔이 강조 표시됩니다. 꺾임, 텍스트, 나머지 팔은 보존됩니다."
 keywords: [CAD 지시선 팔 제거, 지시선- 명령어, 지시선에서 화살표 제거, 다중 지시선 팔 삭제, kulmanlab]
+group: markup
+order: 3
 ---
 
 # Leader−

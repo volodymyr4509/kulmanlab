@@ -1,8 +1,9 @@
 ---
-sidebar_position: 20
 title: Fillet命令 — 在 KulmanLab CAD 中将两条直线之间的角倒为圆角
 description: 圆角命令通过插入指定半径的切弧并将每条直线修剪至切点，将两条直线图元之间的角连接为圆角。虚线弧预览可在单击前帮助您选择正确的角。
 keywords: [CAD Fillet 命令, 倒圆角 CAD, 圆角弧, 两线切弧, kulmanlab]
+group: edit
+order: 11
 ---
 
 # Fillet

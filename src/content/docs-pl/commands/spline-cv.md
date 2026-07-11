@@ -1,8 +1,9 @@
 ---
-sidebar_position: 8
 title: Polecenie Spline CV — Rysowanie B-splajnów przez umieszczanie wierzchołków kontrolnych w KulmanLab CAD
 description: Polecenie Spline CV rysuje sześcienny B-splajn przez umieszczanie wierzchołków kontrolnych. Krzywa jest przyciągana do wierzchołków, ale przechodzi tylko przez pierwszy i ostatni (zaciśnięte węzły). Każdy uchwyt CV można przeciągnąć, aby przekształcić krzywą po umieszczeniu. Pełna obsługa zapisu i odczytu DXF jako elementy SPLINE.
 keywords: [polecenie splajnu CAD, wierzchołki kontrolne B-splajnu, zaciśnięty splajn CAD, rysowanie splajnu CAD, element SPLINE DXF, edycja uchwytu splajnu, kulmanlab]
+group: shapes
+order: 8
 ---
 
 # Spline CV

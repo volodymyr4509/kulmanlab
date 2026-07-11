@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Angle 명령어 — KulmanLab CAD에서 세 점을 사용하여 꼭짓점에서의 내부 각도 측정
 description: Angle 명령어는 세 클릭한 점을 통한 두 선분으로 형성된 꼭짓점에서의 내부 각도(0°–180°)를 측정합니다. 첫 번째 끝-꼭짓점-두 번째 끝을 클릭합니다. 결과가 소수점 4자리까지 터미널에 표시됩니다.
 keywords: [CAD 각도 측정, 세 점 각도, 내부 각도 CAD, 각도 측정 명령어, 꼭짓점 각도, kulmanlab]
+group: measure
+order: 2
 ---
 
 # Angle

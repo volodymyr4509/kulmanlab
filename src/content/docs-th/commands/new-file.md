@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: New File — เริ่มภาพวาดเปล่าใน KulmanLab CAD
 description: คำสั่ง New File ล้างแคนวาสและเปิดภาพวาดเปล่าใหม่ ชื่อไฟล์พร้อมการประทับเวลาถูกสร้างโดยอัตโนมัติและบันทึกในหน่วยความจำเบราว์เซอร์
 keywords: [ไฟล์ CAD ใหม่, ภาพวาดใหม่, แคนวาสเปล่า CAD, สร้างภาพวาดใหม่ออนไลน์, KulmanLab new file]
+group: file
+order: 2
 ---
 
 # New File

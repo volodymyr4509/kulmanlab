@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: คำสั่ง Mirror — สะท้อนวัตถุข้ามแกนสองจุดใน KulmanLab CAD
 description: คำสั่ง Mirror สะท้อนวัตถุที่เลือกข้ามเส้นสะท้อนที่กำหนดด้วยสองคลิก ต้นฉบับถูกเก็บไว้เสมอ — Mirror สร้างสำเนาที่สะท้อนใหม่ แกนสะท้อนสามารถอยู่ในมุมใดก็ได้และสแนปกับ 45°
 keywords: [คำสั่ง mirror CAD, สะท้อนวัตถุ CAD, สมมาตร mirror CAD, พลิกวัตถุ CAD, แกน mirror CAD, kulmanlab]
+group: edit
+order: 4
 ---
 
 # Mirror

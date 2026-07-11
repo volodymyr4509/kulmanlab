@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Comando Help
 description: Apri il pannello di aiuto in-app in KulmanLab CAD. Mostra scorciatoie da tastiera, suggerimenti per la navigazione e informazioni di contatto.
 keywords: [CAD, help, scorciatoie tastiera, contatto, kulmanlab]
+group: overview
+order: 2
 ---
 
 # Help

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 20
 title: Fillet-kommandot — Runda ett hörn mellan två linjer i KulmanLab CAD
 description: Fillet-kommandot förbinder två Line-entiteter med en tangentiell båge av angiven radie och klipper tillbaka varje linje till tangentpunkten. En streckad bågförhandsgranskning hjälper dig att välja rätt hörn innan du klickar.
 keywords: [CAD fillet-kommando, runda hörn CAD, fillet-båge, tangentiell båge två linjer, kulmanlab]
+group: edit
+order: 11
 ---
 
 # Fillet

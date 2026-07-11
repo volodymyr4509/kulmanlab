@@ -1,8 +1,9 @@
 ---
-sidebar_position: 13
 title: Dimension Linear कमांड — KulmanLab CAD में क्षैतिज और ऊर्ध्वाधर माप
 description: Dimension Linear कमांड दो बिंदुओं के बीच क्षैतिज या ऊर्ध्वाधर दूरी मापती है। माप रेखा हमेशा अक्ष-संरेखित होती है — अभिमुखता लॉक करने के लिए H या V दबाएं, या कर्सर की स्थिति स्वचालित रूप से तय करे। DXF में DIMENSION ऑब्जेक्ट के रूप में पूर्ण राउंड-ट्रिप।
 keywords: [CAD माप रेखीय, क्षैतिज माप CAD, ऊर्ध्वाधर माप CAD, dimlinear, H V अभिमुखता लॉक, माप ऑफसेट, kulmanlab]
+group: markup
+order: 4
 ---
 
 # Dimension Linear

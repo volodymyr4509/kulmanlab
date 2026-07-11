@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Help命令
 description: 在 KulmanLab CAD 中打开应用内帮助面板。显示键盘快捷键、导航提示和联系信息。
 keywords: [CAD, 帮助, 键盘快捷键, 联系, kulmanlab]
+group: overview
+order: 2
 ---
 
 # Help

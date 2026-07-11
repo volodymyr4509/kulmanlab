@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Match Properties — 在 KulmanLab CAD 中复制图元属性
 description: Match Properties 命令将颜色、图层和其他共享属性从源图元复制到一个或多个目标图元。与桌面 CAD 工具相同的特性匹配方式。
 keywords: [特性匹配 CAD, 复制图元属性, 特性匹配命令, 匹配图层颜色, 传递属性, kulmanlab 特性匹配, 粉刷属性, 复制图层 CAD, kulmanlab]
+group: style
+order: 1
 ---
 
 # Match Properties

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: "คำสั่ง Print — ส่งออกภาพวาดเป็น PNG, JPEG, WebP หรือ PDF ใน KulmanLab CAD"
 description: "คำสั่ง Print เปิด Print Manager — หน้าต่างส่งออกพร้อมตัวอย่างแบบสด ตัวเลือกรูปแบบ สลับขาวดำ และตัวเลือกพื้นที่การส่งออก ส่งออกสูงสุด 2000×2000 px รองรับ PNG, JPEG, WebP และ PDF"
 keywords: [CAD ส่งออก PNG, CAD ส่งออก PDF, พิมพ์ภาพวาด CAD, print manager, ส่งออกขาวดำ, kulmanlab export]
+group: file
+order: 4
 ---
 
 # Print

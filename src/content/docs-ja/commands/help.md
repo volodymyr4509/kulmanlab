@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Help コマンド
 description: KulmanLab CAD のアプリ内ヘルプパネルを開きます。キーボードショートカット・ナビゲーションのヒント・連絡先情報が表示されます。
 keywords: [CAD, ヘルプ, キーボードショートカット, 連絡先, kulmanlab, help]
+group: overview
+order: 2
 ---
 
 # Help

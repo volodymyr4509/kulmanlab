@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: أمر New File — بدء رسم فارغ في KulmanLab CAD
 description: يمسح أمر New File اللوحة ويفتح رسماً فارغاً جديداً. يُنشأ اسم ملف بطابع زمني تلقائياً ويُحفظ في تخزين المتصفح.
 keywords: [ملف CAD جديد, رسم جديد, لوحة فارغة CAD, إنشاء رسم جديد عبر الإنترنت, بدء DXF جديد, ملف جديد KulmanLab, إعادة تعيين اللوحة, مسح الرسم, kulmanlab]
+group: file
+order: 2
 ---
 
 # New File

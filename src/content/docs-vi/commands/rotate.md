@@ -1,6 +1,8 @@
 ---
 title: Lệnh Rotate — Xoay Thực Thể Quanh Điểm Cơ Sở trong KulmanLab CAD
 description: Lệnh Rotate xoay các thực thể đã chọn quanh điểm cơ sở đã chọn. Góc có thể được gõ chính xác hoặc đặt bằng nhấp — hướng con trỏ từ điểm cơ sở đến lần nhấp xác định góc. Góc dương là ngược chiều kim đồng hồ trong tọa độ DXF.
+group: edit
+order: 3
 ---
 
 # Rotate

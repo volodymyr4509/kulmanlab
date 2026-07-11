@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Vector Pins — 在 KulmanLab CAD 中沿固定点的参考线捕捉
 description: Vector Pins（矢量固定点）让你将光标悬停在捕捉点上半秒即可将其固定，然后沿穿过固定点的水平和垂直虚线参考线追踪光标——无需辅助线即可将新几何图形与现有点对齐。
 keywords: [vector pins, 对象捕捉追踪, 参考线, 对齐追踪, 捕捉追踪 CAD, 辅助线, kulmanlab]
+group: interface
+order: 2
 ---
 
 # Vector Pins

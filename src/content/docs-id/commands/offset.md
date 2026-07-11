@@ -1,8 +1,9 @@
 ---
-sidebar_position: 11
 title: Perintah Offset — Membuat Salinan Paralel pada Jarak Tetap di KulmanLab CAD
 description: Perintah Offset membuat salinan paralel dari Line, Circle, Arc, Ellipse, atau Polyline pada jarak yang diketik. Jarak dimasukkan sekali dan digunakan ulang untuk beberapa offset. Klik sisi menentukan ke arah mana salinan muncul. Lima tipe entitas didukung.
 keywords: [perintah offset CAD, salinan paralel CAD, offset garis CAD, offset lingkaran CAD, offset polyline CAD, offset konsentris, kulmanlab]
+group: edit
+order: 10
 ---
 
 # Offset

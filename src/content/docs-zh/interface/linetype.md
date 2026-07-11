@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: 线型工具栏选择器 — 在 KulmanLab CAD 中控制虚线样式
 description: KulmanLab CAD 工具栏中的线型选择器设置应用于所有新绘制图元的虚线样式。支持从当前 DXF 文件加载的所有线型，以及内置的随层、随块和连续选项。
 keywords: [CAD 线型, 虚线样式, 虚线, DXF 线型, 随层线型, kulmanlab]
+group: interface
+order: 3
 ---
 
 # 线型

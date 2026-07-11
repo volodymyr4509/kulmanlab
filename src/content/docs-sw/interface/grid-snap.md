@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: "Grid & Snap — Align Drawings to a Regular Grid in KulmanLab CAD"
 description: "Vitufe vya Grid na Snap katika KulmanLab CAD vinaweka mwongozo wa gridi kwenye kanvasi na kufunga msogeo wa kishale kwenye nukta za gridi. Nafasi ya gridi huzoea kiotomatiki kwa kiwango cha zoom wa sasa hivyo daima inaonyesha thamani za mfano za karibu."
 keywords: [CAD grid, snap to grid, grid spacing, drawing aids, kulmanlab, grid dots, orthogonal snap]
+group: interface
+order: 1
 ---
 
 # Grid & Snap

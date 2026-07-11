@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Line 명령어 — KulmanLab CAD에서 선 그리기, 연결, 자르기 및 연장
 description: Line 명령어는 끝점을 서로 연결하여 이어질 수 있는 개별 직선 세그먼트를 그립니다. 선은 자르기와 연장 명령어가 작동하는 유일한 객체 유형입니다. DXF LINE 객체로 완전한 왕복 지원.
 keywords: [CAD Line 명령어, 직선 그리기, 선 세그먼트 연결, 선 자르기 CAD, 선 연장 CAD, 각도 잠금 CAD, DXF LINE 객체, kulmanlab]
+group: shapes
+order: 1
 ---
 
 # Line

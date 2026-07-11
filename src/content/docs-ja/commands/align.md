@@ -1,8 +1,9 @@
 ---
-sidebar_position: 7
 title: Align コマンド — 点のペアでエンティティを移動・回転・拡大縮小（KulmanLab CAD）
 description: Align コマンドは、1組または2組の始点・終点ペアを使って選択エンティティを再配置します — 移動、回転、任意の均一な拡大縮小を1つの操作にまとめます。Move + Rotate + Scale を組み合わせたように動作します。
 keywords: [CAD align コマンド, エンティティ整列 CAD, 移動回転拡大縮小, 点ペア整列, AutoCAD の ALIGN 相当, kulmanlab]
+group: edit
+order: 6
 ---
 
 # Align（整列）

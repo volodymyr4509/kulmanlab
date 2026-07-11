@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Vector Pins — ピン留めした点の参照線にスナップ（KulmanLab CAD）
 description: Vector Pins は、スナップ点に半秒カーソルを合わせてピン留めし、その点を通る破線の水平・垂直参照線に沿ってカーソルを追跡できる機能です — 補助線を引かずに新しい図形を既存の点に整列できます。
 keywords: [vector pins, オブジェクトスナップトラッキング, 参照線, 整列トラッキング, スナップ追跡 CAD, 補助線, kulmanlab]
+group: interface
+order: 2
 ---
 
 # Vector Pins

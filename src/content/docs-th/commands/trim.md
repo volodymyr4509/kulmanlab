@@ -1,8 +1,9 @@
 ---
-sidebar_position: 7
 title: "คำสั่ง Trim — ตัดส่วนของเส้นที่จุดตัดใน KulmanLab CAD"
 description: "คำสั่ง Trim ลบส่วนของ Line ระหว่างจุดตัดที่อยู่ติดกันสองจุดที่ใกล้เคอร์เซอร์ที่สุด ตัวอย่างเมื่อ hover สีแดงแสดงส่วนที่จะถูกตัดก่อนคลิก Trim ทำงานกับ Line entities เท่านั้น ไม่ใช่ arcs, circles หรือ polylines"
 keywords: [คำสั่ง trim CAD, ตัดเส้น CAD, ตัดที่จุดตัด, ตัวอย่าง hover trim, เส้นเท่านั้น, kulmanlab]
+group: edit
+order: 8
 ---
 
 # Trim

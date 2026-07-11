@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Files — Panel ostatnich plików w KulmanLab CAD
 description: Polecenie Files otwiera panel Ostatnich plików — przeglądaj wszystkie rysunki zapisane w przeglądarce, przywracaj dowolny z nich do płótna lub usuwaj te, których już nie potrzebujesz.
 keywords: [ostatnie pliki CAD, historia plików przeglądarki CAD, przywracanie rysunku, ponowne otwieranie DXF, pamięć przeglądarki CAD, KulmanLab pliki, zapisane rysunki, IndexedDB CAD, zarządzanie rysunkami]
+group: file
+order: 3
 ---
 
 # Files

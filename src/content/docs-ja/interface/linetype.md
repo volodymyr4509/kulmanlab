@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: 線種ツールバーピッカー — KulmanLab CAD の破線パターンを制御
 description: KulmanLab CAD ツールバーの線種ピッカーは、新しく作図するすべてのエンティティに適用される破線パターンを設定します。現在の DXF ファイルから読み込まれたすべての線種と、組み込みの ByLayer、ByBlock、Continuous オプションをサポートします。
 keywords: [CAD 線種, 破線パターン, 破線, DXF 線種, ByLayer 線種, kulmanlab]
+group: interface
+order: 3
 ---
 
 # 線種（Linetype）

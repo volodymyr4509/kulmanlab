@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: "คำสั่ง Rectangle — วาดสี่เหลี่ยมแนวแกนใน KulmanLab CAD"
 description: "คำสั่ง Rectangle สร้างสี่เหลี่ยมแนวแกนจากสองมุมตรงข้าม ผลลัพธ์คือ LWPOLYLINE แบบปิดที่มีสี่จุดยอด — เหมือนกับโพลีไลน์อื่นๆ ทุกประการหลังจากวาง ดังนั้นคำสั่งแก้ไขโพลีไลน์ทุกคำสั่งจึงใช้ได้กับมัน"
 keywords: [คำสั่ง rectangle CAD, วาดสี่เหลี่ยม CAD, สี่เหลี่ยมแนวแกน, closed polyline CAD, LWPOLYLINE DXF, การแก้ไขกริปสี่เหลี่ยม, kulmanlab]
+group: shapes
+order: 3
 ---
 
 # Rectangle

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 9
 title: 寸法 角度 — 直線・円弧・円間の角度計測（KulmanLab CAD）
 description: DimensionAngular コマンドは直線・円弧・円に角度寸法注釈を配置します。2 直線の角度・円弧の範囲・円のセクターモードをサポートします。
 keywords: [角度寸法 CAD, 角度寸法, 直線間角度計測, DimensionAngular, 円弧寸法, 角度注釈, CAD角度マークアップ, kulmanlab 角度寸法]
+group: markup
+order: 9
 ---
 
 # Dimension Angular

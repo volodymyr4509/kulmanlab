@@ -1,8 +1,9 @@
 ---
-sidebar_position: 15
 title: Εντολή Dimension Continue — Αλυσίδα Διαστάσεων από Υπάρχουσα Βάση στο KulmanLab CAD
 description: Η εντολή Dimension Continue επεκτείνει αλυσίδα διαστάσεων από τη δεύτερη γραμμή επέκτασης της τελευταίας τοποθετημένης διάστασης. Κληρονομεί αυτόματα τη γωνία, τη μετατόπιση, το μέγεθος βέλους και το ύψος κειμένου της βασικής διάστασης. Λειτουργεί με βάσεις τόσο linear όσο και aligned.
 keywords: [CAD dimension continue, dimcontinue, αλυσίδα διαστάσεων CAD, βασική γραμμή διάστασης, συνέχιση σειράς διαστάσεων, kulmanlab]
+group: markup
+order: 6
 ---
 
 # Dimension Continue

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: "Line কমান্ড — KulmanLab CAD-এ লাইন আঁকুন, চেইন করুন, ট্রিম করুন এবং প্রসারিত করুন"
 description: "Line কমান্ড পৃথক সরল-রেখা সেগমেন্ট আঁকে যা শেষ-থেকে-শেষ চেইন করা যায়। লাইনই একমাত্র এন্টিটি টাইপ যার উপর Trim এবং Extend কাজ করে। DXF-এ LINE এন্টিটি হিসেবে পূর্ণ রাউন্ড-ট্রিপ।"
 keywords: [CAD লাইন কমান্ড, সরল লাইন আঁকো CAD, চেইন লাইন সেগমেন্ট, ট্রিম লাইন CAD, প্রসারিত লাইন CAD, কোণ লক CAD, DXF LINE এন্টিটি, kulmanlab]
+group: shapes
+order: 1
 ---
 
 # Line

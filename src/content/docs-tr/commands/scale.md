@@ -1,8 +1,9 @@
 ---
-sidebar_position: 14
 title: Scale Komutu — KulmanLab CAD'de Nesneleri Temel Noktaya Göre Eşit Ölçekle
 description: Scale komutu, seçili nesneleri temel noktaya göre eşit şekilde büyütür veya küçültür. 1'den büyük faktör büyütür, küçük faktör küçültür. Negatif faktör (-1) ayna görüntüsü gibi davranır.
 keywords: [CAD scale komutu, nesneleri ölçekle CAD, ölçek faktörü, eşit ölçekleme CAD, büyüt küçült, kulmanlab]
+group: edit
+order: 5
 ---
 
 # Scale

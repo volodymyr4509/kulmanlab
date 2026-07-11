@@ -1,6 +1,8 @@
 ---
 title: Lệnh Undo — Lùi Lại Qua Lịch Sử Vẽ trong KulmanLab CAD
 description: Lệnh Undo đảo ngược hành động vẽ cuối cùng từng bước một. Tối đa 20 bước được lưu trữ theo tệp và được duy trì trong trình duyệt qua các lần tải lại trang. Thực hiện hành động mới sau khi hoàn tác sẽ xóa ngăn xếp làm lại.
+group: edit
+order: 13
 ---
 
 # Undo

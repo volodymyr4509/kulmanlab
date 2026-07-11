@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Files — Jopo la Faili za Hivi Karibuni katika KulmanLab CAD
 description: "Amri ya Files inafungua jopo la Faili za Hivi Karibuni — tazama michoro yote iliyohifadhiwa kwenye kivinjari chako, irudishe yoyote kwenye turubai, au futa ile usiyohitaji tena."
 keywords: [recent files CAD, file history browser CAD, restore drawing, reopen DXF, browser storage CAD, KulmanLab files, saved drawings, IndexedDB CAD, manage drawings]
+group: file
+order: 3
 ---
 
 # Files

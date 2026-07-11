@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: Circle命令 — 在 KulmanLab CAD 中通过圆心和半径绘制圆
 description: Circle 命令通过单击圆心点，然后单击或输入半径来放置圆。四个象限夹点可在不重新运行命令的情况下通过拖动调整半径。完整支持 DXF 的 CIRCLE 实体往返转换。
 keywords: [CAD Circle 命令, 绘制圆 CAD, 圆半径输入, 调整圆夹点, CIRCLE DXF 实体, 半径标注圆, kulmanlab]
+group: shapes
+order: 4
 ---
 
 # Circle

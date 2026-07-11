@@ -1,8 +1,9 @@
 ---
-sidebar_position: 12
 title: Comando Leader+ — Aggiungere un Braccio con Freccia a un Multileader in KulmanLab CAD
 description: Il comando Leader+ aggiunge un nuovo braccio con punta di freccia a un multileader esistente. Il nuovo braccio condivide il dogleg, il testo e tutto lo stile del leader selezionato. Due clic — seleziona il leader, posiziona la nuova punta.
 keywords: [CAD leader aggiungi braccio, comando leader+, aggiungi freccia al leader, braccio multileader, kulmanlab]
+group: markup
+order: 2
 ---
 
 # Leader+

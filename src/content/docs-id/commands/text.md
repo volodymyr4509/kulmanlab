@@ -1,8 +1,9 @@
 ---
-sidebar_position: 7
 title: Perintah Text — Menempatkan Label MTEXT di KulmanLab CAD
 description: Perintah Text menempatkan label MTEXT multi-baris yang kaya format. Klik posisi, ketik di editor popup, dan tekan Escape untuk mengonfirmasi. Klik dua kali label yang ada untuk membuka kembali editor.
 keywords: [perintah teks CAD, MTEXT, menempatkan label teks CAD, anotasi teks CAD, tebal miring CAD, teks multi-baris CAD, kulmanlab]
+group: shapes
+order: 7
 ---
 
 # Text

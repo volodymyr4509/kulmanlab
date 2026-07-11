@@ -1,6 +1,8 @@
 ---
 title: Lệnh Mirror — Phản Chiếu Thực Thể Qua Trục Hai Điểm trong KulmanLab CAD
 description: Lệnh Mirror phản chiếu các thực thể đã chọn qua đường gương được xác định bởi hai lần nhấp. Các bản gốc luôn được giữ lại — Mirror tạo ra các bản sao được phản chiếu mới. Trục gương có thể theo bất kỳ góc nào và bắt điểm theo gia số 45°.
+group: edit
+order: 4
 ---
 
 # Mirror

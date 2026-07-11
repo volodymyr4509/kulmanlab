@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: Circle-kommandot — Rita cirklar via centrum och radie i KulmanLab CAD
 description: Circle-kommandot placerar en cirkel genom att klicka på en centrumpunkt och sedan klicka eller skriva radien. Fyra kardinalgrepp låter dig ändra radien genom att dra utan att köra kommandot på nytt. Fullständig DXF-rundtur som CIRCLE-entiteter.
 keywords: [CAD cirkelkommando, rita cirkel CAD, radieinmatning cirkel, ändra storlek cirkelgrepp, CIRCLE DXF-entitet, dimradius cirkel, kulmanlab]
+group: shapes
+order: 4
 ---
 
 # Circle

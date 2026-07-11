@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Area Command — Measure Polygon Area and Perimeter in KulmanLab CAD
 description: The Area command measures the enclosed area and perimeter of a polygon defined by 3 or more clicked points, using the shoelace formula. Supports angle-locked directional entry and a persistent on-canvas highlight of the result.
 keywords: [CAD measure area, area command, polygon area calculator, perimeter measurement, shoelace formula, kulmanlab CAD measurement]
+group: measure
+order: 3
 ---
 
 # Area

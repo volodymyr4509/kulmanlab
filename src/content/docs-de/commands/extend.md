@@ -1,8 +1,9 @@
 ---
-sidebar_position: 10
 title: Extend-Befehl — Linienendpunkt bis zur nächsten Begrenzung dehnen in KulmanLab CAD
 description: Der Extend-Befehl dehnt den nächsten Endpunkt einer gehoverten Linie bis zum nächsten Schnittpunkt mit einem anderen Element. Eine Live-Vorschau zeigt die verlängerte Linie vor dem Klicken. Extend funktioniert nur mit Line-Elementen und ignoriert Text, Spline und Multileader als Begrenzungen.
 keywords: [CAD-Extend-Befehl, Linie verlängern CAD, Linie zur Begrenzung dehnen, Linienendpunkt verlängern, Hover-Verlängerungs-Vorschau, kulmanlab]
+group: edit
+order: 9
 ---
 
 # Extend

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 10
 title: คำสั่ง Extend — ยืดจุดสิ้นสุดของเส้นไปยังขอบเขตที่ใกล้ที่สุดใน KulmanLab CAD
 description: คำสั่ง Extend ยืดจุดสิ้นสุดที่ใกล้ที่สุดของ Line ที่วางเมาส์ไปยังจุดตัดที่ใกล้ที่สุดกับวัตถุอื่น ตัวอย่างสดแสดงเส้นที่ยืดแล้วก่อนคลิก Extend ทำงานกับวัตถุ Line เท่านั้นและเพิกเฉย Text, Spline และ Multileader เป็นขอบเขต
 keywords: [คำสั่ง extend CAD, ยืดเส้น CAD, ยืดเส้นไปยังขอบเขต, ยืดจุดสิ้นสุดเส้น, kulmanlab]
+group: edit
+order: 9
 ---
 
 # Extend

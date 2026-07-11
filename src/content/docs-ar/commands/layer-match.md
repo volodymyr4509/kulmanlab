@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerMatch — إعادة تعيين طبقات العناصر لتطابق مصدراً في KulmanLab CAD
 description: يُعيد أمر LayerMatch تعيين طبقة عنصر أو أكثر من العناصر المستهدفة لتطابق طبقة عنصر المصدر الذي تنقر عليه.
 keywords: [مطابقة طبقة, مطابقة طبقة CAD, إعادة تعيين طبقة kulmanlab, إدارة طبقات CAD]
+group: layer
+order: 2
 ---
 
 # LayerMatch

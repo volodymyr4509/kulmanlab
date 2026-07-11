@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerMatch コマンド — エンティティのレイヤーをソースに合わせて変更（KulmanLab CAD）
 description: LayerMatch コマンドは対象エンティティのレイヤーをクリックしたソースエンティティのレイヤーに合わせて変更します。
 keywords: [レイヤーマッチ, レイヤー一致 CAD, レイヤー変更 kulmanlab, CAD レイヤー管理]
+group: layer
+order: 2
 ---
 
 # LayerMatch

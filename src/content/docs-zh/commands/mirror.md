@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: Mirror命令 — 在 KulmanLab CAD 中沿两点轴反射图元
 description: Mirror 命令将选中图元沿由两次单击定义的镜像线反射。原图元始终保留 — Mirror 创建新的镜像副本。镜像轴可以是任意角度，并捕捉到 45° 增量。
 keywords: [CAD Mirror 命令, 反射图元 CAD, 镜像对称 CAD, 翻转对象 CAD, 镜像轴 CAD, kulmanlab]
+group: edit
+order: 4
 ---
 
 # Mirror

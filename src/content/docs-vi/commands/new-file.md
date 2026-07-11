@@ -1,6 +1,8 @@
 ---
 title: New File — Bắt Đầu Bản Vẽ Trắng trong KulmanLab CAD
 description: Lệnh New File xóa canvas và mở một bản vẽ trắng mới. Tên tệp có dấu thời gian được tạo tự động và lưu vào bộ nhớ trình duyệt.
+group: file
+order: 2
 ---
 
 # New File

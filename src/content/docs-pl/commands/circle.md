@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: Polecenie Circle — Rysowanie okręgów przez środek i promień w KulmanLab CAD
 description: Polecenie Circle umieszcza okrąg przez kliknięcie punktu środkowego, a następnie kliknięcie lub wpisanie promienia. Cztery uchwyty kardynalne pozwalają zmieniać rozmiar promienia przez przeciąganie bez ponownego uruchamiania polecenia. Pełna obsługa zapisu i odczytu DXF jako elementy CIRCLE.
 keywords: [polecenie okręgu CAD, rysowanie okręgu CAD, wprowadzanie promienia okręgu, zmiana rozmiaru okręgu uchwytem, element CIRCLE DXF, wymiar promienia okręgu, kulmanlab]
+group: shapes
+order: 4
 ---
 
 # Circle

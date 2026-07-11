@@ -2,6 +2,8 @@
 title: Comando Font Manager — Subir y Gestionar Fuentes TTF Personalizadas en KulmanLab CAD
 description: El comando Font Manager abre un diálogo para explorar, previsualizar y seleccionar fuentes, y para subir tus propios archivos .ttf. Las fuentes subidas se guardan en el navegador y se incrustan por nombre en las exportaciones DXF.
 keywords: [font manager, fuente personalizada CAD, subir ttf, tipografía personalizada CAD, google fonts CAD, fuente de texto CAD, kulmanlab]
+group: style
+order: 2
 ---
 
 # Font Manager

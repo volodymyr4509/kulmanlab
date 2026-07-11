@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: New File — Avviare un Disegno Vuoto in KulmanLab CAD
 description: Il comando New File svuota il canvas e apre un disegno vuoto. Un nome file con timestamp viene generato automaticamente e salvato nell'archivio del browser.
 keywords: [nuovo file CAD, nuovo disegno, canvas vuoto CAD, crea nuovo disegno online, nuovo DXF, KulmanLab nuovo file, reimposta canvas, cancella disegno]
+group: file
+order: 2
 ---
 
 # New File

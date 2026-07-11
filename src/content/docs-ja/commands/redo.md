@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Redo コマンド — 元に戻した操作をやり直し（KulmanLab CAD）
 description: Redo コマンドは Undo で元に戻した最後の操作を再適用し、履歴スタックを前進させます。Redo は Undo の後にのみ使用可能で、新しい作図操作を行った瞬間にクリアされます。
 keywords: [CAD やり直しコマンド, やり直し履歴 CAD, 操作の再適用 CAD, 元に戻す やり直し CAD, ブラウザー永続やり直し, kulmanlab]
+group: edit
+order: 14
 ---
 
 # Redo（やり直し）

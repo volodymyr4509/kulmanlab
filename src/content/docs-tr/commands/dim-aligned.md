@@ -1,8 +1,9 @@
 ---
-sidebar_position: 27
 title: Dimension Aligned Komutu — KulmanLab CAD'de Herhangi Bir Açıda Gerçek Mesafe Ölçüleri
 description: Dimension Aligned komutu, iki nokta arasındaki gerçek düz çizgi mesafesini ölçer. Ölçü çizgisi, p1→p2 çizgisine paralel olarak herhangi bir açıda uzanır — yalnızca yatay veya dikeyyle sınırlı olan Dimension Linear'den farklıdır. DXF'de DIMENSION nesnesi olarak tam round-trip.
 keywords: [CAD dimension aligned, dimaligned, köşegen ölçü CAD, gerçek mesafe ölçüsü, açılı ölçü CAD, kulmanlab]
+group: markup
+order: 5
 ---
 
 # Dimension Aligned

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Väljare för linjetyp i verktygsfältet — Kontrollera streckmönster i KulmanLab CAD
 description: Linjetypsväljaren i KulmanLab CAD-verktygsfältet ställer in streckmönstret som tillämpas på alla nyritade entiteter. Stöder alla linjetyper laddade från den aktuella DXF-filen samt de inbyggda alternativen ByLayer, ByBlock och Continuous.
 keywords: [CAD-linjetyp, streckmönster, streckad linje, DXF-linjetyp, ByLayer-linjetyp, kulmanlab]
+group: interface
+order: 3
 ---
 
 # Linetype

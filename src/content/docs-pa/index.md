@@ -2,6 +2,8 @@
 title: KulmanLab CAD — ਕਮਾਂਡ ਸੰਦਰਭ
 description: KulmanLab CAD ਕਮਾਂਡ ਸੰਦਰਭ — KulmanLab CAD ਵਿੱਚ ਹਰ ਡਰਾਇੰਗ, ਸੰਪਾਦਨ, ਮਾਰਕਅੱਪ, ਲੇਅਰ, ਮਾਪ ਅਤੇ ਫ਼ਾਈਲ ਕਮਾਂਡ ਲਈ ਪੂਰੀ ਗਾਈਡ।
 keywords: [KulmanLab, KulmanLab CAD, CAD ਕਮਾਂਡ, ਮੁਫ਼ਤ ਬ੍ਰਾਊਜ਼ਰ CAD, DXF ਐਡੀਟਰ ਔਨਲਾਈਨ, ਡਰਾਇੰਗ ਕਮਾਂਡ, kulmanlab]
+group: overview
+order: 1
 ---
 
 # KulmanLab CAD — ਕਮਾਂਡ ਸੰਦਰਭ

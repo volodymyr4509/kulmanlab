@@ -1,8 +1,9 @@
 ---
-sidebar_position: 8
 title: Spline CV 명령어 — KulmanLab CAD에서 제어 꼭짓점으로 B-스플라인 그리기
 description: 스플라인 CV 명령어는 제어 꼭짓점(CV)을 배치하여 3차 B-스플라인을 그립니다. 곡선은 꼭짓점 방향으로 끌어당겨지지만 첫 번째와 마지막 꼭짓점만 통과합니다(고정 매듭). 각 CV 그립을 드래그하여 배치 후 곡선을 재형성할 수 있습니다. DXF SPLINE 객체로 완전한 왕복 지원.
 keywords: [CAD 스플라인 명령어, B-스플라인 제어 꼭짓점, 고정 스플라인 CAD, 스플라인 그리기 CAD, SPLINE DXF 객체, 스플라인 그립 편집, kulmanlab]
+group: shapes
+order: 8
 ---
 
 # Spline CV

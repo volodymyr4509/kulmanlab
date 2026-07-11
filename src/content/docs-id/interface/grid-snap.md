@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Grid & Snap — Menyelaraskan Gambar ke Grid Reguler di KulmanLab CAD
 description: Toggle Grid dan Snap di KulmanLab CAD menampilkan grid referensi di kanvas dan mengunci gerakan kursor ke titik-titik grid. Jarak grid menyesuaikan secara otomatis dengan tingkat zoom saat ini sehingga selalu menampilkan nilai model yang bulat.
 keywords: [CAD grid, snap ke grid, jarak grid, alat bantu menggambar, kulmanlab, titik grid, snap ortogonal]
+group: interface
+order: 1
 ---
 
 # Grid & Snap

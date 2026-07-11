@@ -1,8 +1,9 @@
 ---
-sidebar_position: 10
 title: Perintah Leader — Menggambar Anotasi Multileader dengan Kepala Panah dan Teks di KulmanLab CAD
 description: "Perintah Leader menggambar anotasi multileader empat fase: ujung kepala panah, siku dogleg, posisi teks, dan label yang diketik. Arah teks menyesuaikan secara otomatis berdasarkan posisi dogleg. Hanya impor dalam DXF — leader tidak ditulis saat disimpan."
 keywords: [perintah leader CAD, anotasi multileader, leader CAD, anotasi label panah, dogleg leader, arah teks CAD, kulmanlab]
+group: markup
+order: 1
 ---
 
 # Leader

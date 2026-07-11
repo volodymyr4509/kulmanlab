@@ -1,6 +1,8 @@
 ---
 title: Lệnh Dimension Linear — Kích Thước Ngang và Dọc trong KulmanLab CAD
 description: Lệnh Dimension Linear đo khoảng cách ngang hoặc dọc giữa hai điểm. Đường kích thước luôn căn chỉnh theo trục — nhấn H hoặc V để khóa hướng, hoặc để vị trí con trỏ tự động xác định. Hỗ trợ DXF đầy đủ dưới dạng thực thể DIMENSION.
+group: markup
+order: 4
 ---
 
 # Dimension Linear

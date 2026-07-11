@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Export — KulmanLab CAD에서 도면을 DXF 또는 JSON으로 다운로드
 description: Export 명령어는 현재 도면을 DXF(호환성) 또는 JSON(기본) 파일로 다운로드합니다. JSON은 치수와 지시선을 포함한 모든 객체를 보존합니다. DXF는 AutoCAD 및 기타 CAD 도구와 호환됩니다.
 keywords: [DXF 내보내기, CAD 파일 내보내기, 브라우저에서 DXF 다운로드, DXF 온라인 저장, JSON CAD 내보내기, KulmanLab 내보내기, CAD 파일 다운로드, 도면 저장, DXF 다운로드]
+group: file
+order: 5
 ---
 
 # Export

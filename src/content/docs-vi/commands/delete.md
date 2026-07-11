@@ -2,6 +2,8 @@
 title: Lệnh Delete — Xóa Đối Tượng Khỏi Bản Vẽ trong KulmanLab CAD
 description: Lệnh Delete xóa vĩnh viễn các đối tượng được chọn (có thể hoàn tác). Các đối tượng được chọn trước bị xóa ngay lập tức mà không cần bước xác nhận. Phím Delete hoạt động như phím tắt toàn cục ngay cả khi không kích hoạt lệnh.
 keywords: [lệnh delete CAD, xóa đối tượng CAD, xóa thực thể CAD, phím delete CAD, hoàn tác xóa CAD, kulmanlab]
+group: edit
+order: 7
 ---
 
 # Delete

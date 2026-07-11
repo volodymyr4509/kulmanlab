@@ -1,6 +1,8 @@
 ---
 title: Lệnh ViewportCopy — Nhân Đôi Khung Nhìn trong KulmanLab CAD
 description: Lệnh ViewportCopy nhân đôi khung nhìn đã chọn đến vị trí mới trong cùng bố cục, bảo toàn tỉ lệ và cài đặt khung nhìn mô hình. Hỗ trợ nhập tọa độ chính xác, khóa góc và nhập khoảng cách đã gõ.
+group: layouts
+order: 2
 ---
 
 # ViewportCopy

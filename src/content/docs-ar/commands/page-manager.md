@@ -2,6 +2,8 @@
 title: أمر PageManager — تحرير حجم ورقة التخطيط ومقياسه في KulmanLab CAD
 description: يفتح أمر PageManager لوح إعدادات الصفحة للتخطيط النشط، حيث يمكنك تغيير تنسيق الورقة والاتجاه ومقياس وحدات الرسم.
 keywords: [مدير الصفحات, إعدادات التخطيط, حجم الورقة, مقياس الرسم, فضاء التخطيط, kulmanlab]
+group: layouts
+order: 3
 ---
 
 # PageManager

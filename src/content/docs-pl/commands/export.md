@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Export — Pobieranie rysunków jako DXF lub JSON w KulmanLab CAD
 description: Polecenie Export pobiera bieżący rysunek jako plik DXF lub JSON (natywny). JSON zachowuje wszystkie elementy łącznie z wymiarami i liniami prowadzącymi; DXF jest zgodny z innymi narzędziami CAD.
 keywords: [eksport DXF, eksport pliku CAD, pobieranie DXF w przeglądarce, zapis DXF online, eksport JSON CAD, KulmanLab eksport, pobieranie pliku CAD, eksport DXF, zapis rysunku do pliku, pobieranie DXF]
+group: file
+order: 5
 ---
 
 # Export

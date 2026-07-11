@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: คำสั่ง Distance — วัดระยะเส้นตรงระหว่างสองจุดใน KulmanLab CAD
 description: คำสั่ง Distance วัดระยะ Euclidean ระหว่างสองจุดที่คลิกและแสดงผลลัพธ์ถึง 4 ตำแหน่งทศนิยม คลิกอีกครั้งหลังจากผลลัพธ์เพื่อต่อเชื่อมการวัดใหม่จากจุดสุดท้าย
 keywords: [วัดระยะ CAD, คำสั่งระยะ, การวัดจุดต่อจุด, ระยะเส้นตรง, kulmanlab]
+group: measure
+order: 1
 ---
 
 # Distance

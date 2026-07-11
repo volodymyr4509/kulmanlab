@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerUnfreezeAll — Dégeler tous les calques dans KulmanLab CAD
 description: La commande LayerUnfreezeAll supprime l'indicateur de gel sur tous les calques du dessin en une seule étape.
 keywords: [dégeler calque, dégeler tous les calques CAO, gestion calques kulmanlab]
+group: layer
+order: 4
 ---
 
 # LayerUnfreezeAll

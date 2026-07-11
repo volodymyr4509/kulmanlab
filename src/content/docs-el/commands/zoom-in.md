@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: "Εντολή Zoom In — Μεγέθυνση Viewport κατά 1.5× ανά Βήμα στο KulmanLab CAD"
 description: "Η εντολή Zoom In πολλαπλασιάζει το τρέχον επίπεδο ζουμ κατά 1.5× και εξέρχεται αμέσως. Κεντρώνεται στο μέσο σημείο viewport. Εύρος ζουμ 0.01–10,000. Χρησιμοποιήστε τη ρόδα κύλισης για ζουμ προς τον κέρσορα αντί."
 keywords: [CAD zoom in, μεγέθυνση viewport, εντολή zoom CAD, βήμα ζουμ 1.5x, kulmanlab]
+group: navigate
+order: 2
 ---
 
 # Zoom In

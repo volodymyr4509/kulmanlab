@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerIsolate — KulmanLab CAD में चयनित को छोड़कर सभी लेयर फ्रीज करें
 description: LayerIsolate कमांड चयनित ऑब्जेक्ट की लेयर को छोड़कर हर लेयर फ्रीज करती है, आपको कुछ भी स्थायी रूप से छिपाए या हटाए बिना विशिष्ट ज्यामिति पर ध्यान केंद्रित करने देती है।
 keywords: [लेयर आइसोलेट, लेयर फ्रीज CAD, लेयर आइसोलेट kulmanlab, CAD लेयर प्रबंधन]
+group: layer
+order: 3
 ---
 
 # LayerIsolate

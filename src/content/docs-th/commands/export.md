@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Export — ดาวน์โหลดภาพวาดเป็น DXF หรือ JSON ใน KulmanLab CAD
 description: คำสั่ง Export ดาวน์โหลดภาพวาดปัจจุบันเป็นไฟล์ DXF หรือ JSON JSON เก็บรักษาวัตถุทั้งหมดรวมถึงมิติและ leader DXF รองรับกับเครื่องมือ CAD อื่น
 keywords: [ส่งออก DXF, ส่งออกไฟล์ CAD, ดาวน์โหลด DXF ในเบราว์เซอร์, บันทึก DXF ออนไลน์, ส่งออก JSON CAD, KulmanLab export]
+group: file
+order: 5
 ---
 
 # Export

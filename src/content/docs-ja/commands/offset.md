@@ -1,8 +1,9 @@
 ---
-sidebar_position: 11
 title: Offset コマンド — 固定距離で平行コピーを作成（KulmanLab CAD）
 description: Offset コマンドは直線、円、円弧、楕円、またはポリラインの平行コピーを入力した距離で作成します。距離は一度入力すれば複数のオフセットで再利用されます。どちら側にコピーを作成するかはサイドクリックで決定します。5 つのエンティティタイプをサポート。
 keywords: [CAD オフセットコマンド, 平行コピー CAD, 直線オフセット CAD, 円オフセット CAD, ポリラインオフセット CAD, 同心オフセット, kulmanlab]
+group: edit
+order: 10
 ---
 
 # Offset（オフセット）

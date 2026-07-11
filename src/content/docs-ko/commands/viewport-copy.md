@@ -2,6 +2,8 @@
 title: ViewportCopy 명령어 — KulmanLab CAD에서 뷰포트 복제
 description: ViewportCopy 명령어는 선택한 뷰포트를 같은 레이아웃의 새 위치에 복제하며 축척 및 모델 뷰 설정을 보존합니다. 정확한 좌표 입력, 각도 잠금, 입력한 거리를 지원합니다.
 keywords: [뷰포트 복사, 뷰포트 복제, 뷰포트 레이아웃 복사, 각도 잠금 뷰포트, 정확한 좌표 뷰포트, kulmanlab]
+group: layouts
+order: 2
 ---
 
 # ViewportCopy

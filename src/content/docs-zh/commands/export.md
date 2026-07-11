@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Export — 在 KulmanLab CAD 中将图形下载为 DXF 或 JSON
 description: Export 命令将当前图形下载为 DXF（）或 JSON（原生）文件。JSON 保留所有图元（包括标注和引线）；DXF 与其他 CAD 工具兼容。
 keywords: [导出 DXF, 导出 CAD 文件, 浏览器下载 DXF, 在线保存 DXF, 导出 JSON CAD, KulmanLab 导出, CAD 文件下载, DXF 导出, 保存图形到文件, DXF 下载, kulmanlab]
+group: file
+order: 5
 ---
 
 # Export

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 20
 title: Comando Fillet — Arrotonda un Angolo tra Due Linee in KulmanLab CAD
 description: Il comando Fillet collega due entità Line con un arco tangente di un raggio specificato, tagliando ciascuna linea fino al punto tangente. Un'anteprima ad arco tratteggiata aiuta a scegliere l'angolo corretto prima del clic.
 keywords: [comando fillet CAD, arrotonda angolo CAD, raccordo arco, arco tangente due linee, kulmanlab]
+group: edit
+order: 11
 ---
 
 # Fillet

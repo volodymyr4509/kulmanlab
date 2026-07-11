@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: "Circle کمانڈ — KulmanLab CAD میں مرکز اور نصف قطر سے دائرے کھینچیں"
 description: "Circle کمانڈ مرکزی نقطہ کلک کر کے پھر نصف قطر کلک یا ٹائپ کر کے دائرہ رکھتی ہے۔ چار کارڈینل گرپ آپ کو کمانڈ دوبارہ چلائے بغیر گھسیٹ کر نصف قطر تبدیل کرنے دیتے ہیں۔ DXF میں CIRCLE اشیاء کے طور پر مکمل راؤنڈ ٹرپ۔"
 keywords: [CAD دائرہ کمانڈ, دائرہ کھینچیں CAD, دائرہ نصف قطر ان پٹ, دائرہ سائز تبدیل کریں گرپ, CIRCLE DXF شے, dimradius دائرہ, kulmanlab]
+group: shapes
+order: 4
 ---
 
 # Circle

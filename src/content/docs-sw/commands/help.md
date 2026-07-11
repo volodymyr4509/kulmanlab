@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Amri ya Help
 description: Fungua jopo la msaada ndani ya programu katika KulmanLab CAD. Inaonyesha njia za mkato za kibodi, vidokezo vya uabiri, na maelezo ya mawasiliano.
 keywords: [CAD, help, keyboard shortcuts, contact, kulmanlab]
+group: overview
+order: 2
 ---
 
 # Help

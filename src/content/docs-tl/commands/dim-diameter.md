@@ -1,8 +1,9 @@
 ---
-sidebar_position: 17
 title: "Dimension Diameter Command — Markahan ang Buong Diameter ng Circle at Arc sa KulmanLab CAD"
 description: "Naglalagay ang Dimension Diameter command ng diameter dimension (may prefix na diameter symbol) sa kabuuan ng isang arc o circle sa pamamagitan ng center. Igalaw ang cursor para i-rotate ang dimension line sa anumang angle. Kumpletong DXF round-trip bilang DIMENSION diameter entities."
 keywords: [CAD diameter dimension, dimdiameter, markahan ang diameter ng circle, arc diameter dimension, diameter symbol CAD, kulmanlab]
+group: markup
+order: 8
 ---
 
 # Dimension Diameter

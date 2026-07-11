@@ -1,8 +1,9 @@
 ---
-sidebar_position: 11
 title: "Leader−命令 — 在 KulmanLab CAD 中从多重引线中删除箭头臂"
 description: "删除引线命令从多重引线中删除一条箭头臂（该引线需有两条或以上）。将光标悬停在要删除的引线臂附近 — 最近的引线臂被高亮显示。折点、文字和其余引线臂均被保留。"
 keywords: [CAD 删除引线臂, 删除引线命令, 从引线中删除箭头, 多重引线臂删除, kulmanlab]
+group: markup
+order: 3
 ---
 
 # Leader−

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Match Properties — Menyalin Properti Entitas di KulmanLab CAD
 description: Perintah MatchProperties menyalin warna, layer, dan properti bersama lainnya dari entitas sumber ke satu atau lebih entitas target. Mencocokkan properti dengan cara yang sama seperti alat CAD desktop.
 keywords: [match properties CAD, menyalin properti entitas, MATCHPROP, cocokkan layer warna, transfer properti, kulmanlab match properties, cat properti, salin layer CAD]
+group: style
+order: 1
 ---
 
 # Match Properties

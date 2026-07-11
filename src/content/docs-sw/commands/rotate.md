@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: "Rotate Command — Rotate Entities Around a Base Point in KulmanLab CAD"
 description: "Amri ya Rotate huzungusha vipande vilivyochaguliwa karibu na nukta ya msingi iliyochaguliwa. Pembe inaweza kuandikwa kwa usahihi au kuwekwa kwa kubonyeza — mwelekeo wa kishale kutoka kwa nukta ya msingi hadi bonyeza huamua pembe. Pembe chanya ni kinyume cha saa katika kuratibu za DXF."
 keywords: [CAD rotate command, rotate entities CAD, rotate objects angle, counter-clockwise rotation CAD, typed angle rotate, kulmanlab]
+group: edit
+order: 3
 ---
 
 # Rotate

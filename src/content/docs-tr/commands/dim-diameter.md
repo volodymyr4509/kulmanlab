@@ -1,8 +1,9 @@
 ---
-sidebar_position: 30
 title: Dimension Diameter Komutu — KulmanLab CAD'de Daire ve Yay Çaplarını İşaretle
 description: Dimension Diameter komutu, bir yay veya daire üzerine çap ölçüsü (çap sembolü önekiyle) yerleştirir. İmleci hareket ettirerek ölçü çizgisini herhangi bir açıya döndürün. DXF'de DIMENSION diameter nesneleri olarak tam round-trip.
 keywords: [CAD diameter dimension, dimdiameter, daire çapını işaretle, yay çap ölçüsü, çap sembolü CAD, kulmanlab]
+group: markup
+order: 8
 ---
 
 # Dimension Diameter

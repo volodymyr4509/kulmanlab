@@ -1,8 +1,9 @@
 ---
-sidebar_position: 10
 title: คำสั่ง Leader — วาดคำอธิบาย Multileader พร้อมหัวลูกศรและข้อความใน KulmanLab CAD
 description: "คำสั่ง Leader วาด multileader สี่ขั้นตอน: tip หัวลูกศร ข้อศอก dogleg ตำแหน่งข้อความ และป้ายที่พิมพ์ ทิศทางข้อความปรับโดยอัตโนมัติตามตำแหน่ง dogleg นำเข้าเท่านั้นใน DXF"
 keywords: [คำสั่ง leader CAD, คำอธิบาย multileader, leader CAD, คำอธิบายป้ายลูกศร, dogleg leader, kulmanlab]
+group: markup
+order: 1
 ---
 
 # Leader

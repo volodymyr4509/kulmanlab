@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Redo Command — Reapply Undone Actions in KulmanLab CAD
 description: The Redo command reapplies the last action reversed by Undo, moving forward through the history stack. Redo is only available after an Undo and is cleared the moment any new drawing action is performed.
 keywords: [CAD redo command, redo history CAD, reapply action CAD, undo redo CAD, browser persistent redo, kulmanlab]
+group: edit
+order: 14
 ---
 
 # Redo

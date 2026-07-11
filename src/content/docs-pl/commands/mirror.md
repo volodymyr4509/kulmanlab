@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: Polecenie Mirror — Odbijanie elementów przez dwupunktową oś w KulmanLab CAD
 description: Polecenie Mirror odbija zaznaczone elementy przez oś lustrzaną zdefiniowaną przez dwa kliknięcia. Oryginały są zawsze zachowywane — Odbij tworzy nowe odbite kopie. Oś odbicia może być pod dowolnym kątem i przyciąga do przyrostów 45°.
 keywords: [polecenie odbijania CAD, odbijanie elementów CAD, symetria lustrzana CAD, odwracanie obiektów CAD, oś odbicia CAD, kulmanlab]
+group: edit
+order: 4
 ---
 
 # Mirror

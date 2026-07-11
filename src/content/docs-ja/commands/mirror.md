@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: Mirror コマンド — 2 点軸でエンティティを鏡像（KulmanLab CAD）
 description: Mirror コマンドは 2 点でクリックして定義した鏡像軸で選択エンティティを反転します。元のエンティティは常に保持されます — Mirror は新しい鏡像コピーを作成します。鏡像軸は任意の角度で 45° 刻みにスナップします。
 keywords: [CAD 鏡像コマンド, エンティティ反転 CAD, 鏡像対称 CAD, オブジェクト反転 CAD, 鏡像軸 CAD, kulmanlab]
+group: edit
+order: 4
 ---
 
 # Mirror（鏡像）

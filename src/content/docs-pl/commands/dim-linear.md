@@ -1,8 +1,9 @@
 ---
-sidebar_position: 13
 title: Polecenie Dimension Linear — Wymiary poziome i pionowe w KulmanLab CAD
 description: Polecenie Dimension Linear mierzy poziomą lub pionową odległość między dwoma punktami. Linia wymiarowa jest zawsze wyrównana do osi — naciśnij H lub V, aby zablokować orientację, lub pozwól pozycji kursora decydować automatycznie. Pełna obsługa zapisu i odczytu DXF jako elementy DIMENSION.
 keywords: [wymiar liniowy CAD, wymiar poziomy CAD, wymiar pionowy CAD, dimlinear, blokowanie orientacji H V, odsunięcie wymiaru, kulmanlab]
+group: markup
+order: 4
 ---
 
 # Dimension Linear

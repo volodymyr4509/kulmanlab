@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerMakeCurrent — تعيين طبقة عنصر كطبقة حالية في KulmanLab CAD
 description: يُعيِّن أمر LayerMakeCurrent الطبقة الحالية للرسم لتطابق طبقة العنصر المنقور.
 keywords: [جعل طبقة حالية, تعيين الطبقة الحالية CAD, إدارة طبقات kulmanlab]
+group: layer
+order: 1
 ---
 
 # LayerMakeCurrent

@@ -2,6 +2,8 @@
 title: Font Manager-kommandot — Ladda upp och hantera anpassade TTF-typsnitt i KulmanLab CAD
 description: Font Manager-kommandot öppnar en dialogruta för att bläddra bland, förhandsgranska och välja typsnitt, samt för att ladda upp dina egna .ttf-filer. Uppladdade typsnitt sparas i webbläsaren och bäddas in med namn i DXF-exporter.
 keywords: [font manager, anpassat typsnitt CAD, ladda upp ttf, anpassad fontfamilj CAD, google fonts CAD, typsnitt för text CAD, kulmanlab]
+group: style
+order: 2
 ---
 
 # Font Manager

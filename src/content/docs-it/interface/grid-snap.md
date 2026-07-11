@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Griglia e Snap — Allineare i Disegni a una Griglia Regolare in KulmanLab CAD
 description: I pulsanti Griglia e Snap nella barra di controllo di KulmanLab CAD sovrappongono una griglia di riferimento sul canvas e bloccano il cursore ai punti della griglia. La spaziatura della griglia si adatta automaticamente al livello di zoom corrente in modo da mostrare sempre valori modello arrotondati.
 keywords: [CAD griglia, snap alla griglia, spaziatura griglia, ausili disegno, kulmanlab, punti griglia, snap ortogonale]
+group: interface
+order: 1
 ---
 
 # Griglia e Snap

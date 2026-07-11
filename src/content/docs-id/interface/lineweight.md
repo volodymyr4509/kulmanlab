@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Pemilih Lineweight di Toolbar — Mengontrol Lebar Goresan di KulmanLab CAD
 description: Pemilih ketebalan garis di toolbar KulmanLab CAD mengatur lebar goresan yang diterapkan ke semua entitas yang baru digambar. Mendukung nilai ketebalan garis DXF standar dari 0.00 mm hingga 2.11 mm ditambah mode ByLayer dan Default.
 keywords: [CAD ketebalan garis, lebar goresan, lebar garis, DXF ketebalan garis, ByLayer ketebalan garis, kulmanlab]
+group: interface
+order: 4
 ---
 
 # Lineweight

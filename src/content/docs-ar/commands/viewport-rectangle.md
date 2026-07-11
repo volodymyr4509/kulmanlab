@@ -2,6 +2,8 @@
 title: أمر ViewportRectangle — إنشاء إطار عرض في تخطيط في KulmanLab CAD
 description: يُنشئ أمر ViewportRectangle إطار عرض في تخطيط ورقي باختيار زاويتين متقابلتين. يُظهر إطار العرض عناصر فضاء النموذج بمقياس التخطيط الافتراضي.
 keywords: [مستطيل إطار عرض, إنشاء إطار عرض, إطار عرض تخطيط, إطار عرض فضاء الورق, kulmanlab]
+group: layouts
+order: 1
 ---
 
 # ViewportRectangle

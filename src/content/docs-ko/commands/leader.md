@@ -1,8 +1,9 @@
 ---
-sidebar_position: 10
 title: Leader 명령어 — KulmanLab CAD에서 화살표와 텍스트가 있는 다중 지시선 주석 그리기
 description: "Leader 명령어는 네 단계로 다중 지시선 주석을 그립니다: 화살표 끝, 꺾임 팔꿈치, 텍스트 위치, 입력한 레이블. 텍스트 방향은 꺾임 위치에 따라 자동으로 조정됩니다. DXF에서는 가져오기만 지원됩니다 — 지시선은 저장 시 기록되지 않습니다."
 keywords: [CAD Leader 명령어, 다중 지시선 주석, 지시선 CAD, 화살표 레이블 주석, 꺾임 지시선, 텍스트 방향 CAD, kulmanlab]
+group: markup
+order: 1
 ---
 
 # Leader

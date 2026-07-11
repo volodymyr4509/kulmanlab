@@ -1,8 +1,9 @@
 ---
-sidebar_position: 13
 title: Dimension Linear命令 — 在 KulmanLab CAD 中创建水平和垂直标注
 description: Dimension Linear 命令测量两点之间的水平或垂直距离。标注线始终与坐标轴对齐 — 按 H 或 V 键锁定方向，或让光标位置自动决定。完整支持 DXF 的 DIMENSION 实体往返转换。
 keywords: [CAD 线性标注, 水平标注 CAD, 垂直标注 CAD, 线性标注命令, H V 方向锁定, 标注偏移, kulmanlab]
+group: markup
+order: 4
 ---
 
 # Dimension Linear

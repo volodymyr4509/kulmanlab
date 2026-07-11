@@ -1,8 +1,9 @@
 ---
-sidebar_position: 47
 title: New File — KulmanLab CAD'de Boş Çizim Başlat
 description: New File komutu, tuvali temizler ve yeni boş çizim açar. Zaman damgalı bir dosya adı otomatik oluşturulur ve tarayıcı deposuna kaydedilir.
 keywords: [yeni CAD dosyası, yeni çizim, boş tuval CAD, çevrimiçi yeni çizim oluştur, yeni DXF başlat, KulmanLab new file, tuvali sıfırla, çizimi temizle]
+group: file
+order: 2
 ---
 
 # New File

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Help कमांड
 description: KulmanLab CAD में इन-ऐप हेल्प पैनल खोलें। कीबोर्ड शॉर्टकट, नेविगेशन टिप्स, और संपर्क जानकारी दिखाता है।
 keywords: [CAD, सहायता, कीबोर्ड शॉर्टकट, संपर्क, kulmanlab]
+group: overview
+order: 2
 ---
 
 # Help

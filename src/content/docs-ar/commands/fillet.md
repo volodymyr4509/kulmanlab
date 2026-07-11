@@ -1,8 +1,9 @@
 ---
-sidebar_position: 20
 title: أمر Fillet — تقريب زاوية بين خطين في KulmanLab CAD
 description: يصل أمر Fillet بين عنصرَي Line بقوس مماسي بنصف قطر محدد، مقصوصاً كل خط حتى نقطة التماس. معاينة بقوس متقطع تساعدك على اختيار الزاوية الصحيحة قبل النقر.
 keywords: [أمر تقريب CAD, تقريب زاوية CAD, قوس التقريب, قوس مماسي بين خطين, kulmanlab]
+group: edit
+order: 11
 ---
 
 # Fillet

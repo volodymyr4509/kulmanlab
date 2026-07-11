@@ -1,8 +1,9 @@
 ---
-sidebar_position: 8
 title: Perintah Spline CV — Menggambar B-Spline dengan Menempatkan Control Vertex di KulmanLab CAD
 description: Perintah Spline CV menggambar B-spline kubik dengan menempatkan control vertex. Kurva tertarik ke arah vertex tetapi hanya melewati yang pertama dan terakhir (knot yang dijepit). Setiap grip CV dapat diseret untuk membentuk ulang kurva setelah penempatan. Dukungan penuh DXF sebagai entitas SPLINE.
 keywords: [perintah spline CAD, B-spline control vertex, spline terjepit CAD, menggambar spline CAD, entitas DXF SPLINE, pengeditan grip spline, kulmanlab]
+group: shapes
+order: 8
 ---
 
 # Spline CV

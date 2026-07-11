@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Comando Rectangle — Disegnare Rettangoli Allineati agli Assi in KulmanLab CAD
 description: Il comando Rectangle crea un rettangolo allineato agli assi da due angoli opposti. Il risultato è una LWPOLYLINE chiusa con quattro vertici — identica a qualsiasi altra polilinea una volta posizionata, quindi ogni comando di modifica delle polilinee si applica ad essa.
 keywords: [CAD comando rectangle, disegna rettangolo CAD, rettangolo allineato agli assi, polilinea chiusa CAD, LWPOLYLINE DXF, modifica grip rettangolo, kulmanlab]
+group: shapes
+order: 3
 ---
 
 # Rectangle

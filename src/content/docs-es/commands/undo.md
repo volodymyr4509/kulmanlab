@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Comando Undo — Retroceder por el Historial de Dibujo en KulmanLab CAD
 description: El comando Undo revierte la última acción de dibujo un paso a la vez. Se almacenan hasta 20 pasos por archivo y se persisten en el navegador a través de recargas de página. Realizar una nueva acción después de deshacer borra la pila de redo.
 keywords: [comando undo CAD, historial undo CAD, revertir acción CAD, pasos undo CAD, undo persistente en navegador, kulmanlab]
+group: edit
+order: 13
 ---
 
 # Undo

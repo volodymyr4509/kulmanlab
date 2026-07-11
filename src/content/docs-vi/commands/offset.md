@@ -1,6 +1,8 @@
 ---
 title: Lệnh Offset — Tạo Bản Sao Song Song ở Khoảng Cách Cố Định trong KulmanLab CAD
 description: Lệnh Offset tạo bản sao song song của Đường thẳng, Hình tròn, Cung, Hình elip hoặc Đường đa đoạn ở khoảng cách đã gõ. Khoảng cách được nhập một lần và tái sử dụng cho nhiều lần offset. Nhấp phía xác định hướng bản sao xuất hiện. Hỗ trợ năm loại thực thể.
+group: edit
+order: 10
 ---
 
 # Offset

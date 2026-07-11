@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: "LayerUnfreezeAll — KulmanLab CAD-এ সমস্ত লেয়ার আনফ্রিজ করুন"
 description: "LayerUnfreezeAll কমান্ড ড্রয়িংয়ের প্রতিটি লেয়ারের ফ্রোজেন ফ্ল্যাগ এক ধাপে মুছে দেয়।"
 keywords: [লেয়ার আনফ্রিজ, সমস্ত লেয়ার আনফ্রিজ CAD, kulmanlab লেয়ার ম্যানেজমেন্ট]
+group: layer
+order: 4
 ---
 
 # LayerUnfreezeAll

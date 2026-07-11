@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Grade e Snap — Alinhar Desenhos a uma Grade Regular no KulmanLab CAD
 description: Os botões Grade e Snap na barra de controle do KulmanLab CAD sobrepõem uma grade de referência no canvas e travam o cursor nos pontos da grade. O espaçamento da grade se adapta automaticamente ao nível de zoom atual para sempre mostrar valores de modelo arredondados.
 keywords: [CAD grade, snap à grade, espaçamento grade, auxílios de desenho, kulmanlab, pontos grade, snap ortogonal]
+group: interface
+order: 1
 ---
 
 # Grade e Snap

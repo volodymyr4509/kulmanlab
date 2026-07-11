@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerMakeCurrent — KulmanLab CAD ਵਿੱਚ ਇਕਾਈ ਦੀ ਲੇਅਰ ਨੂੰ ਮੌਜੂਦਾ ਵਜੋਂ ਸੈੱਟ ਕਰੋ
 description: LayerMakeCurrent ਕਮਾਂਡ ਮੌਜੂਦਾ ਡਰਾਇੰਗ ਲੇਅਰ ਨੂੰ ਕਲਿੱਕ ਕੀਤੀ ਗਈ ਇਕਾਈ ਦੀ ਲੇਅਰ ਨਾਲ ਮਿਲਾਉਣ ਲਈ ਸੈੱਟ ਕਰਦੀ ਹੈ।
 keywords: [ਲੇਅਰ ਮੌਜੂਦਾ ਬਣਾਓ, ਮੌਜੂਦਾ ਲੇਅਰ ਸੈੱਟ ਕਰੋ CAD, kulmanlab ਲੇਅਰ ਪ੍ਰਬੰਧਨ]
+group: layer
+order: 1
 ---
 
 # LayerMakeCurrent

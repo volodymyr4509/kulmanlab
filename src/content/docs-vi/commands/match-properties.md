@@ -1,6 +1,8 @@
 ---
 title: Match Properties — Sao Chép Thuộc Tính Thực Thể trong KulmanLab CAD
 description: Lệnh MatchProperties sao chép màu sắc, lớp và các thuộc tính dùng chung khác từ thực thể nguồn sang một hoặc nhiều thực thể mục tiêu. Khớp thuộc tính giống như các công cụ CAD máy tính để bàn.
+group: style
+order: 1
 ---
 
 # Match Properties

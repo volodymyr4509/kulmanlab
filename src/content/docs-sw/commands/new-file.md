@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: New File — Start a Blank Drawing in KulmanLab CAD
 description: "Amri ya New File husafisha turubai na kufungua mchoro mpya wazi. Jina la faili lenye muhuri wa wakati huzalishwa kiotomatiki na kuhifadhiwa kwenye hifadhi ya kivinjari."
 keywords: [new CAD file, new drawing, blank canvas CAD, create new drawing online, start new DXF, KulmanLab new file, reset canvas, clear drawing]
+group: file
+order: 2
 ---
 
 # New File

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 20
 title: Perintah Fillet — Membulatkan Sudut antara Dua Garis di KulmanLab CAD
 description: Perintah Fillet menghubungkan dua entitas Line dengan busur tangen berradius tertentu, memotong masing-masing garis kembali ke titik tangen. Pratinjau busur putus-putus membantu Anda memilih sudut yang benar sebelum mengklik.
 keywords: [perintah fillet CAD, membulatkan sudut CAD, busur fillet, busur tangen dua garis, kulmanlab]
+group: edit
+order: 11
 ---
 
 # Fillet

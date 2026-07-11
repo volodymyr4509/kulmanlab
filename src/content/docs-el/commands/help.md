@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Εντολή Help
 description: Άνοιγμα του πάνελ βοήθειας εντός εφαρμογής στο KulmanLab CAD. Εμφανίζει συντομεύσεις πληκτρολογίου, συμβουλές πλοήγησης και στοιχεία επικοινωνίας.
 keywords: [CAD, βοήθεια, συντομεύσεις πληκτρολογίου, επικοινωνία, kulmanlab]
+group: overview
+order: 2
 ---
 
 # Help

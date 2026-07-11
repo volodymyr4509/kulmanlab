@@ -1,8 +1,9 @@
 ---
-sidebar_position: 12
 title: Εντολή Leader+ — Προσθήκη Βραχίονα Βέλους σε Υπάρχουσα Γραμμή Οδήγησης στο KulmanLab CAD
 description: Η εντολή Leader+ προσθέτει νέο βραχίονα βέλους σε υπάρχουσα γραμμή οδήγησης. Ο νέος βραχίονας μοιράζεται το dogleg, το κείμενο και όλο το στυλ της επιλεγμένης γραμμής οδήγησης. Δύο κλικ — επιλογή γραμμής οδήγησης, τοποθέτηση νέας άκρης βέλους.
 keywords: [CAD leader add arm, leader+ command, προσθήκη βέλους σε leader, βραχίονας multileader, kulmanlab]
+group: markup
+order: 2
 ---
 
 # Leader+

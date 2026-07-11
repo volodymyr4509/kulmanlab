@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Match Properties — Αντιγραφή Ιδιοτήτων Οντότητας στο KulmanLab CAD
 description: Η εντολή MatchProperties αντιγράφει χρώμα, επίπεδο και άλλες κοινές ιδιότητες από μια πηγαία οντότητα σε μία ή περισσότερες οντότητες στόχους. Αντιστοιχίζει ιδιότητες με τον ίδιο τρόπο που το κάνουν τα επαγγελματικά εργαλεία CAD.
 keywords: [match properties CAD, αντιγραφή ιδιοτήτων οντότητας, MATCHPROP, αντιστοίχιση επιπέδου χρώματος, μεταφορά ιδιοτήτων, kulmanlab match properties, paint properties, αντιγραφή επιπέδου CAD]
+group: style
+order: 1
 ---
 
 # Match Properties

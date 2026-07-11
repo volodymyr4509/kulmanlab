@@ -1,8 +1,9 @@
 ---
-sidebar_position: 7
 title: Text 명령어 — KulmanLab CAD에서 MTEXT 레이블 배치
 description: 텍스트 명령어는 여러 줄의 서식이 적용된 MTEXT 레이블을 배치합니다. 위치를 클릭하고, 팝업 편집기에서 입력하고, Escape를 눌러 확정합니다. 기존 레이블을 더블 클릭하여 편집기를 다시 엽니다.
 keywords: [CAD Text 명령어, MTEXT, 텍스트 레이블 배치 CAD, 텍스트 주석 CAD, 굵게 기울임체 CAD, 여러 줄 텍스트 CAD, kulmanlab]
+group: shapes
+order: 7
 ---
 
 # Text

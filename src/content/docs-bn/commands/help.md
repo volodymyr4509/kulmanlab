@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Help কমান্ড
 description: "KulmanLab CAD-এ ইন-অ্যাপ সহায়তা প্যানেল খুলুন। কীবোর্ড শর্টকাট, নেভিগেশন টিপস এবং যোগাযোগের তথ্য দেখায়।"
 keywords: [CAD, সহায়তা, কীবোর্ড শর্টকাট, যোগাযোগ, kulmanlab]
+group: overview
+order: 2
 ---
 
 # Help

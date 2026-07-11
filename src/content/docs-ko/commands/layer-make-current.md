@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerMakeCurrent — KulmanLab CAD에서 객체의 레이어를 현재로 설정
 description: LayerMakeCurrent 명령어는 현재 도면 레이어를 클릭한 객체가 속한 레이어에 맞게 설정합니다.
 keywords: [레이어 현재로 설정, 현재 레이어 설정 CAD, kulmanlab 레이어 관리]
+group: layer
+order: 1
 ---
 
 # LayerMakeCurrent

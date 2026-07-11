@@ -1,8 +1,9 @@
 ---
-sidebar_position: 8
 title: أمر Spline CV — رسم منحنيات B-Spline بوضع نقاط التحكم في KulmanLab CAD
 description: يرسم أمر Spline CV منحنى B-Spline تكعيبياً بوضع نقاط التحكم. ينجذب المنحنى نحو النقاط لكنه يمر فقط بالأولى والأخيرة (عقد مشبوكة). يمكن سحب كل نقطة تحكم لإعادة تشكيل المنحنى بعد الوضع. يدعم التحويل الكامل لـ DXF كعناصر SPLINE.
 keywords: [أمر منحنى CAD, نقاط التحكم B-Spline, منحنى مشبوك CAD, رسم منحنى CAD, عنصر SPLINE في DXF, تحرير نقاط تحكم المنحنى, kulmanlab]
+group: shapes
+order: 8
 ---
 
 # Spline CV

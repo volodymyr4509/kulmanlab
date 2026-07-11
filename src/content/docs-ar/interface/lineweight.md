@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: منتقي عرض الخط في شريط الأدوات — التحكم في عرض الضربة في KulmanLab CAD
 description: يضبط منتقي عرض الخط في شريط أدوات KulmanLab CAD عرض الضربة المطبَّق على جميع العناصر المرسومة حديثاً. يدعم قيم عرض الخط القياسية في DXF من 0.00 ملم إلى 2.11 ملم إضافةً إلى أوضاع ByLayer والافتراضي.
 keywords: [عرض خط CAD, عرض الضربة, عرض الخط, عرض خط DXF, عرض خط ByLayer, kulmanlab]
+group: interface
+order: 4
 ---
 
 # عرض الخط

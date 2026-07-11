@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerUnfreezeAll — 在 KulmanLab CAD 中解冻所有图层
 description: 解冻所有图层命令一步清除图形中每个图层的冻结标志。
 keywords: [解冻图层, 解冻所有图层 CAD, kulmanlab 图层管理, kulmanlab]
+group: layer
+order: 4
 ---
 
 # LayerUnfreezeAll

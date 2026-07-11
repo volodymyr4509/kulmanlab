@@ -1,6 +1,8 @@
 ---
 title: Lệnh Dimension Radius — Ghi Chú Bán Kính Cung và Hình Tròn trong KulmanLab CAD
 description: Lệnh Dimension Radius đặt kích thước bán kính có tiền tố R lên một cung hoặc hình tròn. Nhấp thực thể, sau đó di chuyển con trỏ để định hướng đường kích thước từ tâm đến chu vi. Hỗ trợ DXF đầy đủ dưới dạng thực thể DIMENSION bán kính.
+group: markup
+order: 7
 ---
 
 # Dimension Radius

@@ -2,6 +2,8 @@
 title: ViewportRectangle命令 — 在 KulmanLab CAD 的布局中创建视口
 description: 矩形视口命令通过拾取两个对角在图纸布局中创建视口。视口以布局默认比例显示模型空间图元。
 keywords: [矩形视口, 创建视口, 布局视口, 图纸空间视口, kulmanlab]
+group: layouts
+order: 1
 ---
 
 # ViewportRectangle

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 9
 title: أمر Dimension Angular — قياس الزوايا بين الخطوط والأقواس والدوائر في KulmanLab CAD
 description: يضع أمر DimensionAngular تعليق بُعد زاوي على الخطوط أو الأقواس أو الدوائر. يدعم وضع الزاوية بين خطين وامتداد القوس وقطاع الدائرة.
 keywords: [بُعد زاوي CAD, بُعد زاوية, قياس زاوية بين خطين, DimensionAngular, بُعد قوس, توصيف زاوية, توصيف زاوية CAD, kulmanlab بُعد زاوي]
+group: markup
+order: 9
 ---
 
 # Dimension Angular

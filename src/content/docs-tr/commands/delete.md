@@ -1,8 +1,9 @@
 ---
-sidebar_position: 15
 title: Delete Komutu — KulmanLab CAD'de Nesneleri Çizimden Kaldır
 description: Delete komutu seçili nesneleri kalıcı olarak kaldırır (geri alınabilir). Önceden seçilmiş nesneler onay adımı olmadan anında silinir. Delete tuşu komutu etkinleştirmeden bile genel kısayol olarak çalışır. Tekli tıklama ve alan seçimini destekler.
 keywords: [CAD delete komutu, nesneleri kaldır CAD, nesneleri sil CAD, Delete tuşu CAD, silmeyi geri al CAD, kulmanlab]
+group: edit
+order: 7
 ---
 
 # Delete

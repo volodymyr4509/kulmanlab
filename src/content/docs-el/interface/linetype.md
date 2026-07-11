@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Επιλογέας Linetype Γραμμής Εργαλείων — Έλεγχος Μοτίβων Παύλας στο KulmanLab CAD
 description: Ο επιλογέας linetype στη γραμμή εργαλείων KulmanLab CAD ορίζει το μοτίβο παύλας που εφαρμόζεται σε όλες τις νέες οντότητες που σχεδιάζονται. Υποστηρίζει όλα τα linetypes φορτωμένα από το τρέχον αρχείο DXF καθώς και τις ενσωματωμένες επιλογές ByLayer, ByBlock και Continuous.
 keywords: [CAD linetype, μοτίβο παύλας, διακεκομμένη γραμμή, DXF linetype, ByLayer linetype, kulmanlab]
+group: interface
+order: 3
 ---
 
 # Linetype

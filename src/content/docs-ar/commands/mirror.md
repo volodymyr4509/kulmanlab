@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: أمر Mirror — عكس العناصر عبر محور نقطتين في KulmanLab CAD
 description: يعكس أمر Mirror العناصر المحددة عبر خط انعكاس محدد بنقرتين. تُحتفظ بالأصول دائماً — ينشئ Mirror نسخاً معكوسة جديدة. يمكن أن يكون محور الانعكاس بأي زاوية ويُلتقط على مضاعفات 45°.
 keywords: [أمر قلب CAD, عكس عناصر CAD, تماثل قلب CAD, قلب كائنات CAD, محور قلب CAD, kulmanlab]
+group: edit
+order: 4
 ---
 
 # Mirror

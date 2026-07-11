@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: "Lineweight Toolbar Picker — Control Stroke Width in KulmanLab CAD"
 description: "Kichaguo cha uzito wa mstari kwenye upau wa zana wa KulmanLab CAD huweka upana wa mstari unaotumiwa kwa vipande vyote vipya unavyochora. Inasaidia thamani za kawaida za uzito wa mstari wa DXF kutoka 0.00 mm hadi 2.11 mm pamoja na hali za ByLayer na Default."
 keywords: [CAD lineweight, stroke width, line width, DXF lineweight, ByLayer lineweight, kulmanlab]
+group: interface
+order: 4
 ---
 
 # Lineweight

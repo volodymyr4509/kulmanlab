@@ -1,8 +1,9 @@
 ---
-sidebar_position: 29
 title: Dimension Radius Komutu — KulmanLab CAD'de Yay ve Daire Yarıçaplarını İşaretle
 description: Dimension Radius komutu, bir yay veya daire üzerine R önekli yarıçap ölçüsü yerleştirir. Nesneyi tıklayın, ardından ölçü çizgisini merkezden çevreye yönlendirmek için imleci hareket ettirin. DXF'de DIMENSION radius nesneleri olarak tam round-trip.
 keywords: [CAD radius dimension, dimradius, daire yarıçapını işaretle, yay yarıçap ölçüsü, R öneki ölçüsü, kulmanlab]
+group: markup
+order: 7
 ---
 
 # Dimension Radius

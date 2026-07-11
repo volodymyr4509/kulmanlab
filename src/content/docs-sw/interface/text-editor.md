@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: "Text Editor — Hali Tajiri na Rahisi katika KulmanLab CAD"
 description: "Kihariri cha maandishi cha KulmanLab CAD kina hali mbili — tajiri (uumbizaji kwa kila herufi, mistari mingi, kuvingirishwa kwa maneno kwa Text na Multileader) na rahisi (mtindo mmoja, mstari mmoja kwa viumbe vya dimension). Chip ya hali kwenye kichwa inaonyesha hali inayotumika."
 keywords: [CAD text editor, MTEXT, bold italic CAD, text formatting CAD, multi-line text CAD, word wrap CAD, rich text editor, simple text editor, dimension text editor, custom font CAD, upload ttf CAD, kulmanlab]
+group: interface
+order: 5
 ---
 
 # Text Editor

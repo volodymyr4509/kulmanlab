@@ -1,8 +1,9 @@
 ---
-sidebar_position: 45
 title: Fit Komutu — KulmanLab CAD'de Tüm Çizimi Pencereye Sığdır
 description: Fit komutu, tüm nesnelerin sınırlayıcı kutusunu hesaplar ve tüm çizimi görüntülemek için görünüm ölçeğini ve konumunu ayarlar. Orta fare düğmesine çift tıklama kısayoldur.
 keywords: [CAD fit komutu, tüm çizimi sığdır, hepsini göster CAD, boyuta göre ölçek, kulmanlab]
+group: navigate
+order: 4
 ---
 
 # Fit

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 7
 title: Trim命令 — 在 KulmanLab CAD 中在交点处切割线段
 description: 修剪命令删除直线在两个最近交点之间最接近光标的部分。红色悬停预览在单击前精确显示将被切割的段。修剪仅适用于直线图元 — 不适用于圆弧、圆或多段线。
 keywords: [CAD Trim 命令, 修剪直线 CAD, 切割线交点, 悬停修剪预览, 仅直线修剪, kulmanlab]
+group: edit
+order: 8
 ---
 
 # Trim

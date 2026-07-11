@@ -1,8 +1,9 @@
 ---
-sidebar_position: 17
 title: "Dimension Diameter-kommandot — Ange fullständiga diametrar för cirklar och bågar i KulmanLab CAD"
 description: "Dimension Diameter-kommandot placerar ett diametermått (med diametersymbolen som prefix) tvärs över en båge eller cirkel genom centrum. Flytta markören för att rotera måttlinjen till valfri vinkel. Fullständig DXF-rundtur som DIMENSION-diameterentiteter."
 keywords: [CAD diametermått, dimdiameter, ange cirkeldiameter, bågdiametermått, diametersymbol CAD, kulmanlab]
+group: markup
+order: 8
 ---
 
 # Dimension Diameter

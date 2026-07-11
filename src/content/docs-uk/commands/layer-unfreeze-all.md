@@ -1,8 +1,9 @@
 ---
-sidebar_position: 38
 title: Команда LayerUnfreezeAll — Розморозити всі шари у KulmanLab CAD
 description: Команда LayerUnfreezeAll розморожує всі шари кресленика за один крок. Зазвичай використовується після LayerIsolate для відновлення повної видимості. Прапорці блокування та друку не змінюються.
 keywords: [CAD команда layer unfreeze all, розморозити шари CAD, показати всі шари CAD, kulmanlab]
+group: layer
+order: 4
 ---
 
 # LayerUnfreezeAll

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: "Pan ਕਮਾਂਡ — KulmanLab CAD ਵਿੱਚ ਕਲਿੱਕ-ਅਤੇ-ਡ੍ਰੈਗ ਵਿਊਪੋਰਟ ਨੈਵੀਗੇਸ਼ਨ"
 description: "Pan ਕਮਾਂਡ ਇੱਕ ਸਥਾਈ ਡ੍ਰੈਗ-ਟੂ-ਸਕ੍ਰੌਲ ਮੋਡ ਵਿੱਚ ਦਾਖਲ ਹੁੰਦੀ ਹੈ। ਜ਼ੂਮ ਲੈਵਲ ਬਦਲੇ ਬਿਨਾਂ ਦ੍ਰਿਸ਼ ਸ਼ਿਫਟ ਕਰਨ ਲਈ ਕੈਨਵਸ ਉੱਤੇ ਕਿਤੇ ਵੀ ਕਲਿੱਕ ਕਰੋ ਅਤੇ ਡ੍ਰੈਗ ਕਰੋ। Pan ਸਰਗਰਮ ਕੀਤੇ ਬਿਨਾਂ ਕਿਸੇ ਵੀ ਸਮੇਂ ਮਿਡਲ-ਕਲਿੱਕ ਡ੍ਰੈਗ ਕੰਮ ਕਰਦਾ ਹੈ।"
 keywords: [CAD pan viewport, pan command, drag to navigate, canvas scroll CAD, viewport navigation, kulmanlab]
+group: navigate
+order: 1
 ---
 
 # Pan

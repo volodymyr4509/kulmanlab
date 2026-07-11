@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: "Zoom Out命令 — 在 KulmanLab CAD 中每步将视口缩放减小 1.5×"
 description: "缩小命令将当前缩放级别除以 1.5×，立即退出，以视口中点为中心。使用滚轮向光标方向缩小以获得更精细的控制。"
 keywords: [CAD 缩小, 减小视口缩放, 缩小命令, 概览 CAD, 1.5 倍缩放步长, kulmanlab]
+group: navigate
+order: 3
 ---
 
 # Zoom Out

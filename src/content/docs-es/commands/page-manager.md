@@ -2,6 +2,8 @@
 title: Comando PageManager — Editar el tamaño del papel y la escala del diseño en KulmanLab CAD
 description: El comando PageManager abre el panel de configuración de página para el diseño activo, donde puedes cambiar el formato del papel, la orientación y la escala de unidades de dibujo.
 keywords: [administrador de páginas, configuración de diseño, tamaño de papel, escala del dibujo, espacio de diseño, kulmanlab]
+group: layouts
+order: 3
 ---
 
 # PageManager

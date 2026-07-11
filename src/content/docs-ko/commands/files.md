@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Files — KulmanLab CAD에서 최근 파일 패널
 description: Files 명령어는 최근 파일 패널을 엽니다 — 브라우저에 저장된 모든 도면을 탐색하고, 캔버스에 복원하거나, 더 이상 필요 없는 것을 삭제합니다.
 keywords: [최근 파일 CAD, 파일 기록 브라우저 CAD, 도면 복원, DXF 다시 열기, 브라우저 저장소 CAD, KulmanLab 파일, 저장된 도면, IndexedDB CAD, 도면 관리]
+group: file
+order: 3
 ---
 
 # Files

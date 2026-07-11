@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: "Zoom In Command — I-magnify ang Viewport nang 1.5× Bawat Step sa KulmanLab CAD"
 description: "Pinaparami ng Zoom In command ang kasalukuyang zoom level nang 1.5× at agad na magsasara. Naka-center sa midpoint ng viewport. Zoom range na 0.01–10,000. Gamitin ang scroll wheel para mag-zoom papunta sa cursor sa halip."
 keywords: [CAD zoom in, i-magnify ang viewport, zoom command CAD, 1.5x zoom step, kulmanlab]
+group: navigate
+order: 2
 ---
 
 # Zoom In

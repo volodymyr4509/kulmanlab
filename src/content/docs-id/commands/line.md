@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Perintah Line — Menggambar, Merangkai, Memotong dan Memperpanjang Garis di KulmanLab CAD
 description: Perintah Line menggambar segmen garis lurus individual yang dapat dirangkai ujung ke ujung. Garis adalah satu-satunya tipe entitas yang dapat dioperasikan oleh Trim dan Extend. Dukungan penuh DXF sebagai entitas LINE.
 keywords: [perintah garis CAD, menggambar garis lurus CAD, merangkai segmen garis, potong garis CAD, perpanjang garis CAD, kunci sudut CAD, entitas DXF LINE, kulmanlab]
+group: shapes
+order: 1
 ---
 
 # Line

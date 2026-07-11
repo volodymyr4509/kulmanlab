@@ -1,8 +1,9 @@
 ---
-sidebar_position: 10
 title: Extend 명령어 — KulmanLab CAD에서 선 끝점을 가장 가까운 경계까지 늘리기
 description: Extend 명령어는 호버된 선의 가장 가까운 끝점을 다른 객체와의 가장 가까운 교차점까지 늘립니다. 실시간 미리보기가 클릭 전에 연장된 선을 보여줍니다. 연장은 선 객체에서만 작동하며 텍스트, 스플라인, 다중 지시선을 경계로 무시합니다.
 keywords: [CAD Extend 명령어, 선 연장 CAD, 경계까지 선 늘리기, 선 끝점 연장, 호버 연장 미리보기, kulmanlab]
+group: edit
+order: 9
 ---
 
 # Extend

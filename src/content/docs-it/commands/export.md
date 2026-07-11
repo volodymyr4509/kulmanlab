@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Export — Scarica Disegni come DXF o JSON in KulmanLab CAD
 description: Il comando Export scarica il disegno corrente come file DXF () o JSON (nativo). JSON preserva tutte le entità incluse quote e leader; DXF è compatibile con e altri strumenti CAD.
 keywords: [esporta DXF, esporta file CAD, scarica DXF browser, salva DXF online, esporta JSON CAD, KulmanLab export, scarica file CAD, download DXF, salva disegno su file]
+group: file
+order: 5
 ---
 
 # Export

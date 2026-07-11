@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: أمر Files — لوح الملفات الأخيرة في KulmanLab CAD
 description: يفتح أمر Files لوح الملفات الأخيرة — تصفح جميع الرسومات المحفوظة في متصفحك واستعادة أي منها إلى اللوحة أو حذف ما لم تعد تحتاجه.
 keywords: [الملفات الأخيرة CAD, سجل الملفات CAD, استعادة رسم, إعادة فتح DXF, تخزين المتصفح CAD, ملفات KulmanLab, الرسومات المحفوظة, IndexedDB CAD, إدارة الرسومات, kulmanlab]
+group: file
+order: 3
 ---
 
 # Files

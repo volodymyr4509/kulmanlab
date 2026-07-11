@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: منتقي نوع الخط في شريط الأدوات — التحكم في أنماط الشرط في KulmanLab CAD
 description: يضبط منتقي نوع الخط في شريط أدوات KulmanLab CAD نمط الشرط المطبَّق على جميع العناصر المرسومة حديثاً. يدعم جميع أنواع الخطوط المحمَّلة من ملف DXF الحالي إضافةً إلى خيارات ByLayer وByBlock والمستمر المدمجة.
 keywords: [نوع خط CAD, نمط شرط, خط منقط, نوع خط DXF, نوع خط ByLayer, kulmanlab]
+group: interface
+order: 3
 ---
 
 # نوع الخط

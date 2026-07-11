@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: "Import — KulmanLab CAD ਵਿੱਚ DXF ਜਾਂ JSON ਫਾਈਲਾਂ ਖੋਲ੍ਹੋ"
 description: "KulmanLab CAD ਵਿੱਚ DXF ਜਾਂ KulmanLab JSON ਫਾਈਲਾਂ ਖੋਲ੍ਹਣ ਲਈ Import ਕਮਾਂਡ ਵਰਤੋ। ਲਾਈਨਾਂ, ਸਰਕਲ, ਆਰਕ, ਪੌਲੀਲਾਈਨਾਂ, ਸਪਲਾਈਨਾਂ, ਟੈਕਸਟ, ਡਾਈਮੈਂਸ਼ਨਾਂ ਅਤੇ ਲੀਡਰਾਂ ਦਾ ਸਮਰਥਨ ਕਰਦਾ ਹੈ।"
 keywords: [DXF ਫਾਈਲ ਇੰਪੋਰਟ ਕਰੋ, ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ DXF ਖੋਲ੍ਹੋ, ਆਨਲਾਈਨ CAD ਫਾਈਲ ਇੰਪੋਰਟ ਕਰੋ, DXF ਫਾਈਲ ਖੋਲ੍ਹੋ, DXF ਵਿਊਅਰ ਬ੍ਰਾਊਜ਼ਰ, JSON CAD ਇੰਪੋਰਟ ਕਰੋ, KulmanLab Import, ਮੁਫ਼ਤ CAD DXF ਵਿਊਅਰ, ਡਰਾਇੰਗ ਲੋਡ ਕਰੋ, ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ DXF]
+group: file
+order: 1
 ---
 
 # Import

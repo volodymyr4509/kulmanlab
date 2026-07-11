@@ -1,8 +1,9 @@
 ---
-sidebar_position: 10
 title: Leader命令 — 在 KulmanLab CAD 中绘制带箭头和文字的多重引线注释
 description: "多重引线命令通过四个阶段绘制多重引线注释：箭头尖端、折点肘部、文字位置和输入标签。文字方向根据折点位置自动调整。DXF 中仅支持导入 — 引线在保存时不写入。"
 keywords: [CAD Leader 命令, 多重引线注释, 引线 CAD, 箭头标签注释, 折点引线, 文字方向 CAD, kulmanlab]
+group: markup
+order: 1
 ---
 
 # Leader

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: "Vector Pins — Mag-snap sa mga Reference Line na Dumadaan sa mga Naka-pin na Punto sa KulmanLab CAD"
 description: "Hinahayaan ka ng Vector Pins na mag-pin ng snap point sa pamamagitan ng pag-hover dito nang kalahating segundo, pagkatapos ay subaybayan ang cursor sa mga dashed na pahalang at patayong reference line na dumadaan sa naka-pin na punto — ihanay ang bagong geometry sa mga umiiral na punto nang walang construction line."
 keywords: [vector pins, object snap tracking, mga reference line, pagsubaybay ng paghahanay, snap tracking CAD, mga construction line, kulmanlab]
+group: interface
+order: 2
 ---
 
 # Vector Pins

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 12
 title: Leader+ コマンド — 既存のマルチ引出線に矢印アームを追加（KulmanLab CAD）
 description: Leader+ コマンドは既存のマルチ引出線に新しい矢印アームを追加します。新しいアームはドッグレッグ、テキスト、およびスタイルをすべて引き継ぎます。2 クリック — 引出線を選択して新しい先端を配置。
 keywords: [CAD 引出線 アーム追加, leader+ コマンド, 引出線に矢印を追加, マルチ引出線 アーム, kulmanlab]
+group: markup
+order: 2
 ---
 
 # Leader+

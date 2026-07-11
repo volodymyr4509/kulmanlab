@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Vector Pins — KulmanLab CAD에서 고정된 점을 지나는 참조선에 스냅
 description: Vector Pins는 스냅 점 위에 커서를 반 초 동안 올려 고정하고, 고정된 점을 지나는 점선 수평·수직 참조선을 따라 커서를 추적할 수 있게 합니다 — 보조선 없이 새 도형을 기존 점에 정렬하세요.
 keywords: [vector pins, 객체 스냅 추적, 참조선, 정렬 추적, 스냅 추적 CAD, 보조선, kulmanlab]
+group: interface
+order: 2
 ---
 
 # Vector Pins

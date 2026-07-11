@@ -2,6 +2,8 @@
 title: "ViewportRectangle کمانڈ — KulmanLab CAD میں لے آؤٹ میں ویوپورٹ بنائیں"
 description: "ViewportRectangle کمانڈ دو مخالف کونے چن کر کاغذ لے آؤٹ میں ویوپورٹ بناتی ہے۔ ویوپورٹ لے آؤٹ کے ڈیفالٹ پیمانے پر ماڈل اسپیس اشیاء دکھاتا ہے۔"
 keywords: [ویوپورٹ مستطیل, ویوپورٹ بنائیں, لے آؤٹ ویوپورٹ, کاغذ اسپیس ویوپورٹ, kulmanlab]
+group: layouts
+order: 1
 ---
 
 # ViewportRectangle

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Befehl print — Zeichnung als PNG, JPEG, WebP oder PDF exportieren in KulmanLab CAD
 description: Der Befehl print öffnet den Druck-Manager — ein dediziertes Exportfenster mit Live-Vorschau, Formatselektor, Monochrom-Schalter und optionaler Bereichsauswahl. Exportiert bis zu 2000×2000 Px. Unterstützt PNG, JPEG, WebP und PDF.
 keywords: [CAD PNG exportieren, CAD PDF exportieren, CAD-Zeichnung drucken, Druck-Manager, Monochrom-Export, kulmanlab exportieren]
+group: file
+order: 4
 ---
 
 # Print

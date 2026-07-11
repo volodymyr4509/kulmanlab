@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Scale コマンド — 基点を中心にエンティティを均一にリサイズ（KulmanLab CAD）
 description: Scale コマンドは入力した係数で選択エンティティを固定基点を中心に均一にリサイズします。係数は常にキーボードで入力します — クリックでスケールを設定する方法はありません。1 より大きい係数で拡大、1 より小さい係数で縮小。すべてのエンティティタイプに対応。
 keywords: [CAD スケールコマンド, エンティティリサイズ CAD, オブジェクトスケール CAD, 均一スケール CAD, スケール係数 CAD, 拡大縮小 CAD, kulmanlab]
+group: edit
+order: 5
 ---
 
 # Scale（尺度変更）

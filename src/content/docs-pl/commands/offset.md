@@ -1,8 +1,9 @@
 ---
-sidebar_position: 11
 title: Polecenie Offset — Tworzenie równoległych kopii w stałej odległości w KulmanLab CAD
 description: Polecenie Offset tworzy równoległą kopię Linii, Okręgu, Łuku, Elipsy lub Polilinii przy wpisanej odległości. Odległość jest wprowadzana raz i ponownie używana przy wielu odsunięciach. Kliknięcie strony określa, w którym kierunku pojawi się kopia. Obsługiwanych jest pięć typów elementów.
 keywords: [polecenie odsunięcia CAD, równoległa kopia CAD, odsunięcie linii CAD, odsunięcie okręgu CAD, odsunięcie polilinii CAD, odsunięcie współśrodkowe, kulmanlab]
+group: edit
+order: 10
 ---
 
 # Offset

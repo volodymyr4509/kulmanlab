@@ -1,8 +1,9 @@
 ---
-sidebar_position: 17
 title: "Dimension Diameter命令 — 在 KulmanLab CAD 中标注完整圆和圆弧的直径"
 description: "Dimension Diameter 命令通过圆心在圆弧或圆上放置直径标注（以直径符号为前缀）。移动光标可将标注线旋转到任意角度。完整支持 DXF 的 DIMENSION 直径实体往返转换。"
 keywords: [CAD 直径标注, 直径标注命令, 标注圆直径, 圆弧直径标注, 直径符号 CAD, kulmanlab]
+group: markup
+order: 8
 ---
 
 # Dimension Diameter

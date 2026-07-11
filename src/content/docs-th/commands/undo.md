@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: "คำสั่ง Undo — ย้อนกลับในประวัติการวาดใน KulmanLab CAD"
 description: "คำสั่ง Undo ย้อนกลับการกระทำวาดล่าสุดทีละขั้นตอน เก็บสูงสุด 20 ขั้นตอนต่อไฟล์และคงอยู่ในเบราว์เซอร์ระหว่างการโหลดหน้า การดำเนินการใหม่หลังจาก Undo จะล้าง redo stack"
 keywords: [คำสั่ง undo CAD, ประวัติ undo CAD, ย้อนกลับ CAD, ขั้นตอน undo CAD, undo เบราว์เซอร์, kulmanlab]
+group: edit
+order: 13
 ---
 
 # Undo

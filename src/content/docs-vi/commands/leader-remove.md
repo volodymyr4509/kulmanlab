@@ -1,6 +1,8 @@
 ---
 title: Lệnh Leader− — Xóa Cánh Tay Mũi Tên khỏi Đường Dẫn Đa trong KulmanLab CAD
 description: Lệnh Leader− xóa một cánh tay mũi tên khỏi đường dẫn đa có từ hai cánh tay trở lên. Di chuyển gần cánh tay cần xóa — cánh tay gần nhất được tô sáng. Đoạn gấp khúc, văn bản và các cánh tay còn lại được bảo toàn.
+group: markup
+order: 3
 ---
 
 # Leader−

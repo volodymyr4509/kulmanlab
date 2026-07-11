@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Copy 명령어 — KulmanLab CAD에서 객체를 새 위치에 복제
 description: Copy 명령어는 원본을 그대로 유지하면서 선택한 객체의 이동된 복사본을 만들어 배치합니다. 사전 선택, 각도 잠금, 정확한 거리 입력을 지원합니다. 복사본이 배치되고 명령어가 종료됩니다; 원본은 변경되지 않습니다.
 keywords: [CAD Copy 명령어, 객체 복제 CAD, 복사 CAD, 기하학 복제 CAD, 각도 잠금 복사, 정확한 거리 복사, kulmanlab]
+group: edit
+order: 2
 ---
 
 # Copy

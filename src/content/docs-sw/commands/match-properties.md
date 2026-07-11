@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Match Properties — Copy Entity Properties in KulmanLab CAD
 description: "Amri ya MatchProperties hunakili rangi, safu, na sifa nyingine zinazoshirikiwa kutoka kwa kipengele cha chanzo hadi vipengele moja au zaidi vya lengwa. Inalingana na sifa kwa njia ile ile ambayo zana za CAD za kompyuta hufanya."
 keywords: [match properties CAD, copy entity properties, MATCHPROP, match layer color, transfer properties, kulmanlab match properties, paint properties, copy layer CAD]
+group: style
+order: 1
 ---
 
 # Match Properties

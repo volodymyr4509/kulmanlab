@@ -1,8 +1,9 @@
 ---
-sidebar_position: 16
 title: أمر Dimension Radius — توصيف أنصاف أقطار الأقواس والدوائر في KulmanLab CAD
 description: يضع أمر Dimension Radius بُعداً شعاعياً بادئه R على قوس أو دائرة. انقر على العنصر ثم حرّك المؤشر لتوجيه خط البُعد من المركز إلى المحيط. يدعم التحويل الكامل لـ DXF كعناصر DIMENSION من نوع الشعاع.
 keywords: [بُعد نصف قطر CAD, dimradius, توصيف نصف قطر دائرة, بُعد نصف قطر قوس, بادئة R للبُعد, kulmanlab]
+group: markup
+order: 7
 ---
 
 # Dimension Radius

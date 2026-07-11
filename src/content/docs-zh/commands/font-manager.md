@@ -2,6 +2,8 @@
 title: Font Manager命令 — 在 KulmanLab CAD 中上传和管理自定义 TTF 字体
 description: Font Manager 命令打开一个对话框，用于浏览、预览和选择字体，以及上传您自己的 .ttf 文件。已上传的字体保存在浏览器中，并在 DXF 导出时按名称嵌入。
 keywords: [字体管理器, 自定义字体 CAD, 上传 TTF, 自定义字体样式 CAD, google 字体 CAD, 文字字体 CAD, kulmanlab]
+group: style
+order: 2
 ---
 
 # Font Manager

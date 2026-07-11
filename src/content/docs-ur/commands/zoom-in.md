@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: "Zoom In کمانڈ — KulmanLab CAD میں ویوپورٹ 1.5× فی قدم بڑا کریں"
 description: "Zoom In کمانڈ موجودہ زوم سطح کو 1.5× سے ضرب دیتی ہے اور فوری طور پر ختم ہوتی ہے۔ ویوپورٹ درمیانی نقطے پر مرکوز۔ زوم حد 0.01–10,000۔ کرسر کی طرف زوم کرنے کے لیے اسکرول ویل استعمال کریں۔"
 keywords: [CAD zoom in, ویوپورٹ بڑا, zoom کمانڈ CAD, 1.5x zoom قدم, kulmanlab]
+group: navigate
+order: 2
 ---
 
 # Zoom In

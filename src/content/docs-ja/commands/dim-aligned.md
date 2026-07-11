@@ -1,8 +1,9 @@
 ---
-sidebar_position: 14
 title: 寸法 整列コマンド — 任意の角度での真の距離寸法（KulmanLab CAD）
 description: dimaligned コマンドは 2 点間の真の直線距離を計測します。寸法線は p1→p2 の線に平行して任意の角度で描かれます — 水平または垂直に制限される Dimension Linear とは異なります。DIMENSION エンティティとして DXF ラウンドトリップ対応。
 keywords: [CAD 整列寸法, dimaligned, 斜め寸法 CAD, 真の距離寸法, 角度寸法 CAD, kulmanlab, dim-aligned]
+group: markup
+order: 5
 ---
 
 # Dimension Aligned

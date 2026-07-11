@@ -1,8 +1,9 @@
 ---
-sidebar_position: 7
 title: أمر Align — نقل وتدوير وتحجيم العناصر باستخدام أزواج النقاط في KulmanLab CAD
 description: يعيد أمر Align وضع العناصر المحددة باستخدام زوج واحد أو زوجين من نقاط المصدر/الوجهة — يجمع بين النقل والتدوير والتحجيم الموحد الاختياري في عملية واحدة. يعمل مثل دمج Move + Rotate + Scale.
 keywords: [أمر align CAD, محاذاة عناصر CAD, نقل تدوير تحجيم, محاذاة بزوج نقاط, ما يعادل ALIGN في AutoCAD, kulmanlab]
+group: edit
+order: 6
 ---
 
 # Align

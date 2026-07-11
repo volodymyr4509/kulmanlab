@@ -1,6 +1,8 @@
 ---
 title: Lệnh Trim — Cắt Đoạn Đường Thẳng Tại Giao Điểm trong KulmanLab CAD
 description: Lệnh Trim xóa phần của Đường thẳng giữa hai điểm giao nhau liền kề gần con trỏ nhất. Bản xem trước đỏ hiển thị chính xác đoạn nào sẽ bị cắt trước khi nhấp. Trim chỉ hoạt động trên thực thể Đường thẳng — không phải cung, hình tròn hoặc đường đa đoạn.
+group: edit
+order: 8
 ---
 
 # Trim

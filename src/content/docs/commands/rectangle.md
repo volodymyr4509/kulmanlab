@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Rectangle Command — Draw Axis-Aligned Rectangles in KulmanLab CAD
 description: The Rectangle command creates an axis-aligned rectangle from two opposite corners. The result is a closed LWPOLYLINE with four vertices — identical to any other polyline once placed, so every polyline edit command applies to it.
 keywords: [CAD rectangle command, draw rectangle CAD, axis-aligned rectangle, closed polyline CAD, LWPOLYLINE DXF, rectangle grip editing, kulmanlab]
+group: shapes
+order: 3
 ---
 
 # Rectangle

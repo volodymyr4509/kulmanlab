@@ -2,6 +2,8 @@
 title: Wipe Storage 명령어 — KulmanLab CAD에서 모든 브라우저 데이터 지우기
 description: wipestorage 명령어는 브라우저에 저장된 모든 파일, 레이어, 선종류 및 실행 취소 기록을 영구적으로 삭제합니다. 확인을 위해 YES를 입력해야 합니다. 손상되거나 가득 찬 로컬 데이터베이스를 초기화할 때 사용합니다.
 keywords: [CAD 저장소 지우기, 브라우저 데이터 지우기 CAD, CAD 앱 초기화, 로컬 파일 삭제 CAD, kulmanlab wipestorage, 브라우저 저장소 삭제, CAD 데이터베이스 초기화]
+group: file
+order: 6
 ---
 
 # Wipe Storage

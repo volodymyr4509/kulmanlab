@@ -1,8 +1,9 @@
 ---
-sidebar_position: 11
 title: "Amri ya Leader− — Ondoa Mkono wa Mshale kutoka kwa Multileader katika KulmanLab CAD"
 description: "Amri ya Leader− inaondoa mkono mmoja wa mshale kutoka kwa multileader yenye mikono miwili au zaidi. Sogeza karibu na mkono wa kuondoa — mkono wa karibu zaidi unawakwa. Dogleg, maandishi, na mikono iliyobaki vinabakiwa."
 keywords: [CAD leader remove arm, leader- command, remove arrow from leader, multileader arm delete, kulmanlab]
+group: markup
+order: 3
 ---
 
 # Leader−

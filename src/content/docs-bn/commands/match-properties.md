@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: "Match Properties — KulmanLab CAD-এ এন্টিটি প্রপার্টি কপি করুন"
 description: "MatchProperties কমান্ড উৎস এন্টিটি থেকে এক বা একাধিক টার্গেট এন্টিটিতে রঙ, লেয়ার এবং অন্যান্য শেয়ার করা প্রপার্টি কপি করে। ডেস্কটপ CAD টুলের মতোই প্রপার্টি মেলায়।"
 keywords: [প্রপার্টি মেলান CAD, এন্টিটি প্রপার্টি কপি করুন, MATCHPROP, লেয়ার রঙ মেলান, প্রপার্টি স্থানান্তর, kulmanlab match properties, পেইন্ট প্রপার্টি, লেয়ার কপি CAD]
+group: style
+order: 1
 ---
 
 # Match Properties

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 17
 title: "Dimension Diameter कमांड — KulmanLab CAD में पूर्ण वृत्त और चाप व्यास एनोटेट करें"
 description: "Dimension Diameter कमांड एक चाप या वृत्त पर केंद्र से होकर व्यास माप (व्यास प्रतीक के साथ) रखती है। माप रेखा को किसी भी कोण पर घुमाने के लिए कर्सर मूव करें। DXF में DIMENSION व्यास ऑब्जेक्ट के रूप में पूर्ण राउंड-ट्रिप।"
 keywords: [CAD व्यास माप, dimdiameter, वृत्त व्यास एनोटेट, चाप व्यास माप, व्यास प्रतीक CAD, kulmanlab]
+group: markup
+order: 8
 ---
 
 # Dimension Diameter

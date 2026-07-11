@@ -1,6 +1,8 @@
 ---
 title: Lệnh Dimension Diameter — Ghi Chú Đường Kính Hình Tròn và Cung trong KulmanLab CAD
 description: Lệnh Dimension Diameter đặt kích thước đường kính (có tiền tố ký hiệu đường kính) qua tâm của cung hoặc hình tròn. Di chuyển con trỏ để xoay đường kích thước theo bất kỳ góc nào. Hỗ trợ DXF đầy đủ dưới dạng thực thể DIMENSION đường kính.
+group: markup
+order: 8
 ---
 
 # Dimension Diameter

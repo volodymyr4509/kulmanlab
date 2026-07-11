@@ -2,6 +2,8 @@
 title: ViewportRectangle-Befehl — Einen Viewport in einem Layout in KulmanLab CAD erstellen
 description: Der ViewportRectangle-Befehl erstellt einen Viewport in einem Papier-Layout durch Auswahl zweier gegenüberliegender Ecken. Der Viewport zeigt die Modellraum-Entitäten im Standard-Maßstab des Layouts.
 keywords: [Viewport-Rechteck, Viewport erstellen, Layout-Viewport, Papierraum-Viewport, kulmanlab]
+group: layouts
+order: 1
 ---
 
 # ViewportRectangle

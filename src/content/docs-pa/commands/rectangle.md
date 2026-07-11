@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Rectangle ਕਮਾਂਡ — KulmanLab CAD ਵਿੱਚ ਧੁਰੇ-ਸੰਰੇਖਿਤ ਆਇਤ ਖਿੱਚੋ
 description: Rectangle ਕਮਾਂਡ ਦੋ ਵਿਰੋਧੀ ਕੋਨਿਆਂ ਤੋਂ ਧੁਰੇ-ਸੰਰੇਖਿਤ ਆਇਤ ਬਣਾਉਂਦੀ ਹੈ। ਨਤੀਜਾ ਚਾਰ ਵਰਟੈਕਸਾਂ ਵਾਲਾ ਬੰਦ LWPOLYLINE ਹੁੰਦਾ ਹੈ — ਬਣਨ ਤੋਂ ਬਾਅਦ ਕਿਸੇ ਵੀ ਹੋਰ ਪੌਲੀਲਾਈਨ ਵਰਗਾ, ਇਸ ਲਈ ਹਰ ਪੌਲੀਲਾਈਨ ਸੰਪਾਦਨ ਕਮਾਂਡ ਇਸ 'ਤੇ ਲਾਗੂ ਹੁੰਦੀ ਹੈ।
 keywords: [CAD ਆਇਤ ਕਮਾਂਡ, ਆਇਤ ਖਿੱਚੋ CAD, ਧੁਰੇ-ਸੰਰੇਖਿਤ ਆਇਤ, ਬੰਦ ਪੌਲੀਲਾਈਨ CAD, LWPOLYLINE DXF, ਆਇਤ ਗ੍ਰਿਪ ਸੰਪਾਦਨ, kulmanlab]
+group: shapes
+order: 3
 ---
 
 # Rectangle

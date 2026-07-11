@@ -2,6 +2,8 @@
 title: ViewportRectangle कमांड — KulmanLab CAD में लेआउट में व्यूपोर्ट बनाएं
 description: ViewportRectangle कमांड पेपर लेआउट में दो विपरीत कोने चुनकर व्यूपोर्ट बनाती है। व्यूपोर्ट लेआउट के डिफ़ॉल्ट स्केल पर मॉडल स्पेस ऑब्जेक्ट दिखाता है।
 keywords: [व्यूपोर्ट आयत, व्यूपोर्ट बनाएं, लेआउट व्यूपोर्ट, पेपर स्पेस व्यूपोर्ट, kulmanlab]
+group: layouts
+order: 1
 ---
 
 # ViewportRectangle

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 7
 title: "Text کمانڈ — KulmanLab CAD میں MTEXT لیبلز رکھیں"
 description: "Text کمانڈ ملٹی لائن، امیر فارمیٹ MTEXT لیبل رکھتی ہے۔ پوزیشن کلک کریں، پاپ اپ ایڈیٹر میں ٹائپ کریں، اور کمٹ کرنے کے لیے Escape دبائیں۔ موجودہ لیبل دوبارہ کھولنے کے لیے ڈبل کلک کریں۔"
 keywords: [CAD text کمانڈ, MTEXT, متن لیبل رکھیں CAD, متن تشریح CAD, bold italic CAD, ملٹی لائن متن CAD, kulmanlab]
+group: shapes
+order: 7
 ---
 
 # Text

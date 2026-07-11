@@ -1,8 +1,9 @@
 ---
-sidebar_position: 7
 title: Text Komutu — KulmanLab CAD'de MTEXT Etiketleri Yerleştir
 description: Text komutu, çok satırlı, zengin biçimli MTEXT etiketi yerleştirir. Bir konum tıklayın, açılır düzenleyiciye yazın ve kaydetmek için Escape tuşuna basın. Düzenleyiciyi yeniden açmak için mevcut herhangi bir etikete çift tıklayın.
 keywords: [CAD text komutu, MTEXT, metin etiketi yerleştir CAD, metin ek açıklaması CAD, kalın italik CAD, çok satırlı metin CAD, kulmanlab]
+group: shapes
+order: 7
 ---
 
 # Text

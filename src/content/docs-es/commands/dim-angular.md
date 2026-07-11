@@ -1,8 +1,9 @@
 ---
-sidebar_position: 9
 title: Dimension Angular — Medir Ángulos Entre Líneas, Arcos y Círculos en KulmanLab CAD
 description: El comando DimensionAngular coloca una anotación de cota angular en líneas, arcos o círculos. Admite el ángulo entre dos líneas, el arco de extensión y los modos de sector de círculo.
 keywords: [cota angular CAD, cota de ángulo, medir ángulo entre líneas, DimensionAngular, cota de arco, anotación de ángulo, anotación de ángulo CAD, cota angular kulmanlab]
+group: markup
+order: 9
 ---
 
 # Dimension Angular

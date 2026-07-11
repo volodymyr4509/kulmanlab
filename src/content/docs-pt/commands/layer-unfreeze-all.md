@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerUnfreezeAll — Descongelar Todas as Camadas no KulmanLab CAD
 description: O comando LayerUnfreezeAll remove o flag de congelamento de cada camada do desenho em um único passo.
 keywords: [layer unfreeze, descongelar todas as camadas CAD, kulmanlab gerenciamento de camadas]
+group: layer
+order: 4
 ---
 
 # LayerUnfreezeAll

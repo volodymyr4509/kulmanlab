@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Εντολή Redo — Επανεφαρμογή Αναιρεθεισών Ενεργειών στο KulmanLab CAD
 description: Η εντολή Redo επανεφαρμόζει την τελευταία ενέργεια που αναιρέθηκε από το Undo, προχωρώντας μπροστά στη στοίβα ιστορικού. Το Redo είναι διαθέσιμο μόνο μετά από Undo και διαγράφεται τη στιγμή που εκτελείται οποιαδήποτε νέα ενέργεια σχεδίασης.
 keywords: [CAD εντολή redo, ιστορικό redo CAD, επανεφαρμογή ενέργειας CAD, undo redo CAD, επίμονο redo στον browser, kulmanlab]
+group: edit
+order: 14
 ---
 
 # Redo

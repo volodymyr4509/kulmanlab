@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Files — Recent Files Panel sa KulmanLab CAD
 description: Binubuksan ng Files command ang Recent Files panel — mag-browse ng lahat ng drawing na naka-save sa iyong browser, i-restore ang alinman sa mga ito sa canvas, o tanggalin ang mga hindi mo na kailangan.
 keywords: [recent files CAD, file history browser CAD, i-restore ang drawing, buksan muli ang DXF, browser storage CAD, KulmanLab files, mga saved drawing, IndexedDB CAD, pamahalaan ang mga drawing]
+group: file
+order: 3
 ---
 
 # Files

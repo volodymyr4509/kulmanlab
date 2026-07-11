@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: New File — Tworzenie pustego rysunku w KulmanLab CAD
 description: Polecenie New File czyści płótno i otwiera świeży pusty rysunek. Automatycznie generowana jest nazwa pliku ze znacznikiem czasu, która jest zapisywana w pamięci przeglądarki.
 keywords: [nowy plik CAD, nowy rysunek, puste płótno CAD, tworzenie nowego rysunku online, nowy DXF, KulmanLab nowy plik, resetowanie płótna, czyszczenie rysunku]
+group: file
+order: 2
 ---
 
 # New File

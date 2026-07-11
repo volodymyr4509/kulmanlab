@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: "Distance Command — Sukatin ang Straight-Line Distance sa Pagitan ng Dalawang Punto sa KulmanLab CAD"
 description: "Sinusukat ng Distance command ang Euclidean distance sa pagitan ng dalawang na-click na punto at ipinapakita ang resulta hanggang 4 decimal places. I-click ulit pagkatapos ng resulta para kumadena ng bagong sukatan mula sa huling punto."
 keywords: [CAD pagsukat ng distansya, distance command, point-to-point na pagsukat, straight line distance, kulmanlab CAD pagsukat]
+group: measure
+order: 1
 ---
 
 # Distance

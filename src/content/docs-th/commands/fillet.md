@@ -1,8 +1,9 @@
 ---
-sidebar_position: 20
 title: คำสั่ง Fillet — ทำมุมโค้งระหว่างสองเส้นใน KulmanLab CAD
 description: คำสั่ง Fillet เชื่อมวัตถุ Line สองชิ้นด้วยส่วนโค้งสัมผัสที่มีรัศมีที่ระบุ ตัดแต่ละเส้นกลับไปยังจุดสัมผัส ตัวอย่างส่วนโค้งประช่วยคุณเลือกมุมที่ถูกต้องก่อนคลิก
 keywords: [คำสั่ง fillet CAD, ทำมุมโค้ง CAD, ส่วนโค้ง fillet, ส่วนโค้งสัมผัสสองเส้น, kulmanlab]
+group: edit
+order: 11
 ---
 
 # Fillet

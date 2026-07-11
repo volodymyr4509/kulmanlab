@@ -1,8 +1,9 @@
 ---
-sidebar_position: 15
 title: Dimension Continue Command — Kumadena ng mga Dimension Mula sa Umiiral na Baseline sa KulmanLab CAD
 description: Pinapalawig ng Dimension Continue command ang kadena ng mga dimension mula sa second extension line ng huling nailagay na dimension. Awtomatiko nitong minamana ang angle, offset, arrow size, at text height ng base dimension. Gumagana ito sa parehong linear at aligned na base.
 keywords: [CAD dimension continue, dimcontinue, kumadena ng dimension CAD, baseline dimension, ipagpatuloy ang dimension series, kulmanlab]
+group: markup
+order: 6
 ---
 
 # Dimension Continue

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: "Zoom In Command — Magnify the Viewport by 1.5× Per Step in KulmanLab CAD"
 description: "The Zoom In command multiplies the current zoom level by 1.5× and exits immediately. Centered on the viewport midpoint. Zoom range 0.01–10,000. Use the scroll wheel to zoom toward the cursor instead."
 keywords: [CAD zoom in, magnify viewport, zoom command CAD, 1.5x zoom step, kulmanlab]
+group: navigate
+order: 2
 ---
 
 # Zoom In

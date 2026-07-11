@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Amri ya Distance — Pima Umbali wa Mstari Mnyoofu Kati ya Pointi Mbili katika KulmanLab CAD
 description: "Amri ya Distance hupima umbali wa Euclidean kati ya pointi mbili zilizobonyezwa na kuonyesha matokeo hadi tarakimu 4 za desimali. Bonyeza tena baada ya matokeo kuanza kipimo kipya kutoka pointi ya mwisho."
 keywords: [CAD measure distance, distance command, point-to-point measurement, straight line distance, kulmanlab CAD measurement]
+group: measure
+order: 1
 ---
 
 # Distance

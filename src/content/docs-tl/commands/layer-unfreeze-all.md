@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerUnfreezeAll — I-unfreeze ang Lahat ng Layer sa KulmanLab CAD
 description: Nililinis ng LayerUnfreezeAll command ang frozen flag sa bawat layer sa drawing nang isang hakbang lang.
 keywords: [layer unfreeze, i-unfreeze ang lahat ng layers CAD, kulmanlab layer management]
+group: layer
+order: 4
 ---
 
 # LayerUnfreezeAll

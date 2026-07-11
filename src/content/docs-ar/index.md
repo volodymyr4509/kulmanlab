@@ -2,6 +2,8 @@
 title: KulmanLab CAD — مرجع الأوامر
 description: مرجع أوامر KulmanLab CAD — دليل شامل لكل أوامر الرسم والتحرير والتوصيف والطبقات والقياس والملفات في KulmanLab CAD.
 keywords: [KulmanLab, KulmanLab CAD, أوامر CAD, برنامج CAD مجاني في المتصفح, محرر DXF عبر الإنترنت, أوامر الرسم, kulmanlab]
+group: overview
+order: 1
 ---
 
 # KulmanLab CAD — مرجع الأوامر

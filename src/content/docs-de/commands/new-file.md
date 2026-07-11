@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: New File — Eine leere Zeichnung in KulmanLab CAD starten
 description: Der Befehl New File löscht die Zeichenfläche und öffnet eine neue leere Zeichnung. Ein Dateiname mit Zeitstempel wird automatisch generiert und im Browser-Speicher gespeichert.
 keywords: [neue CAD-Datei, neue Zeichnung, leere Zeichenfläche CAD, neue Zeichnung online erstellen, neue DXF starten, KulmanLab neue Datei, Zeichenfläche zurücksetzen, Zeichnung löschen]
+group: file
+order: 2
 ---
 
 # New File

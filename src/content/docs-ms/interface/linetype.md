@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Pemilih Linetype Bar Alat — Kawal Corak Dashes dalam KulmanLab CAD
 description: Pemilih linetype dalam bar alat KulmanLab CAD menetapkan corak dash yang digunakan pada semua entiti yang baru dilukis. Menyokong semua linetype yang dimuatkan dari fail DXF semasa ditambah pilihan ByLayer, ByBlock, dan Continuous terbina dalam.
 keywords: [CAD linetype, corak dash, garis putus-putus, DXF linetype, ByLayer linetype, kulmanlab]
+group: interface
+order: 3
 ---
 
 # Linetype

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: "Zoom Out コマンド — ビューポートのズームを 1.5× ステップで縮小（KulmanLab CAD）"
 description: "Zoom Out コマンドは現在のズームレベルを 1.5× で割ってすぐに終了します。ビューポートの中央を中心にズームします。より細かい制御のためにカーソルに向けてズームアウトするにはスクロールホイールを使用してください。"
 keywords: [CAD ズームアウト, ビューポートズーム縮小, ズームアウトコマンド, 全体表示 CAD, 1.5x ズームステップ, kulmanlab]
+group: navigate
+order: 3
 ---
 
 # Zoom Out（ズームアウト）

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 37
 title: LayerIsolate Komutu — KulmanLab CAD'de Seçilenler Dışındaki Tüm Katmanları Dondur
 description: LayerIsolate komutu, seçili nesnelerin bulunduğu katmanlar dışındaki tüm katmanları dondurur. Seçim otomatik olarak temizlenir. Geri yüklemek için LayerUnfreezeAll kullanın.
 keywords: [CAD layer isolate komutu, katmanı izole et CAD, katmanları dondur CAD, yalnızca geçerli katmanı göster, kulmanlab]
+group: layer
+order: 3
 ---
 
 # LayerIsolate

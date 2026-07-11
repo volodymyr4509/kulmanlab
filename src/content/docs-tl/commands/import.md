@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Import — Buksan ang mga DXF o JSON File sa KulmanLab CAD
 description: Gamitin ang Import command para buksan ang mga DXF o KulmanLab JSON file sa KulmanLab CAD. Sinusuportahan ang lines, circles, arcs, polylines, splines, text, dimensions, at leaders.
 keywords: [i-import ang DXF file, buksan ang DXF sa browser, i-import ang CAD file online, buksan ang DXF file, DXF viewer browser, i-import ang JSON CAD, KulmanLab import, libreng CAD DXF viewer, i-load ang drawing, DXF papunta sa browser]
+group: file
+order: 1
 ---
 
 # Import

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 13
 title: Εντολή Dimension Linear — Οριζόντιες και Κατακόρυφες Διαστάσεις στο KulmanLab CAD
 description: Η εντολή Dimension Linear μετράει την οριζόντια ή κατακόρυφη απόσταση μεταξύ δύο σημείων. Η γραμμή διάστασης είναι πάντα ευθυγραμμισμένη με τον άξονα — πατήστε H ή V για κλείδωμα προσανατολισμού, ή αφήστε τη θέση κέρσορα να αποφασίσει αυτόματα. Πλήρης DXF round-trip ως οντότητες DIMENSION.
 keywords: [CAD dimension linear, οριζόντια διάσταση CAD, κατακόρυφη διάσταση CAD, dimlinear, κλείδωμα προσανατολισμού H V, μετατόπιση διάστασης, kulmanlab]
+group: markup
+order: 4
 ---
 
 # Dimension Linear

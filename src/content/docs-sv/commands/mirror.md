@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: "Mirror-kommandot — Spegla entiteter över en tvåpunktsaxel i KulmanLab CAD"
 description: "Mirror-kommandot speglar valda entiteter över en spegellinje definierad av två klick. Originalen behålls alltid — Mirror skapar nya speglade kopior. Spegelaxeln kan ha vilken vinkel som helst och fångas till 45°-steg."
 keywords: [CAD mirror-kommando, spegla entiteter CAD, spegelsymmetri CAD, vänd objekt CAD, spegelaxel CAD, kulmanlab]
+group: edit
+order: 4
 ---
 
 # Mirror

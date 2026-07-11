@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Commande Arc — Tracer des arcs à trois points dans KulmanLab CAD
 description: La commande Arc trace un arc circulaire à travers exactement trois points cliqués en utilisant la géométrie du cercle circonscrit. Les poignées de début et de fin permettent de faire glisser les extrémités de l'arc vers un nouvel angle et rayon après placement. Aller-retour DXF complet en tant qu'entités ARC.
 keywords: [commande arc CAO, arc trois points CAO, arc cercle circonscrit, tracer arc CAO, entité ARC DXF, édition poignée arc, kulmanlab]
+group: shapes
+order: 5
 ---
 
 # Arc

@@ -2,6 +2,8 @@
 title: Comando Font Manager — Caricare e Gestire Font TTF Personalizzati in KulmanLab CAD
 description: Il comando Font Manager apre una finestra di dialogo per sfogliare, visualizzare in anteprima e selezionare i font, e per caricare i tuoi file .ttf personalizzati. I font caricati vengono salvati nel browser e incorporati per nome nelle esportazioni DXF.
 keywords: [font manager, font personalizzato CAD, caricare ttf, carattere personalizzato CAD, google fonts CAD, font di testo CAD, kulmanlab]
+group: style
+order: 2
 ---
 
 # Font Manager

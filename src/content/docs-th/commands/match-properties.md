@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Match Properties — คัดลอกคุณสมบัติวัตถุใน KulmanLab CAD
 description: คำสั่ง MatchProperties คัดลอกสี เลเยอร์ และคุณสมบัติร่วมอื่นๆ จากวัตถุต้นทางไปยังวัตถุเป้าหมายหนึ่งหรือมากกว่า จับคู่คุณสมบัติเหมือนกับเครื่องมือ CAD บนเดสก์ท็อป
 keywords: [match properties CAD, คัดลอกคุณสมบัติวัตถุ, MATCHPROP, จับคู่เลเยอร์สี, ถ่ายโอนคุณสมบัติ, kulmanlab]
+group: style
+order: 1
 ---
 
 # Match Properties

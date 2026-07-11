@@ -1,8 +1,9 @@
 ---
-sidebar_position: 10
 title: Perintah Extend — Meregangkan Titik Akhir Garis ke Batas Terdekat di KulmanLab CAD
 description: Perintah Extend meregangkan titik akhir terdekat dari Line yang di-hover ke perpotongan terdekat dengan entitas lain. Pratinjau langsung menampilkan garis yang diperpanjang sebelum Anda klik. Extend hanya bekerja pada entitas Line dan mengabaikan Text, Spline, dan Multileader sebagai batas.
 keywords: [perintah perpanjang CAD, memperpanjang garis CAD, meregangkan garis ke batas, perpanjang titik akhir garis, pratinjau hover perpanjang, kulmanlab]
+group: edit
+order: 9
 ---
 
 # Extend

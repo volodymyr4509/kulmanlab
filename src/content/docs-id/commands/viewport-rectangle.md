@@ -2,6 +2,8 @@
 title: Perintah ViewportRectangle — Membuat Viewport di Layout di KulmanLab CAD
 description: Perintah ViewportRectangle membuat viewport di layout kertas dengan memilih dua sudut yang berlawanan. Viewport menampilkan entitas model space pada skala default layout.
 keywords: [viewport rectangle, membuat viewport, layout viewport, viewport paper space, kulmanlab]
+group: layouts
+order: 1
 ---
 
 # ViewportRectangle

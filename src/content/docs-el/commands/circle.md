@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: Εντολή Circle — Σχεδίαση Κύκλων με Κέντρο και Ακτίνα στο KulmanLab CAD
 description: Η εντολή Circle τοποθετεί κύκλο κάνοντας κλικ στο κέντρο και στη συνέχεια κάνοντας κλικ ή πληκτρολογώντας την ακτίνα. Τέσσερα βασικά grips επιτρέπουν αλλαγή ακτίνας με σύρσιμο χωρίς επανεκτέλεση της εντολής. Πλήρης DXF round-trip ως οντότητες CIRCLE.
 keywords: [εντολή circle CAD, σχεδίαση κύκλου CAD, εισαγωγή ακτίνας κύκλου, αλλαγή μεγέθους κύκλου grip, CIRCLE DXF entity, dimradius circle, kulmanlab]
+group: shapes
+order: 4
 ---
 
 # Circle

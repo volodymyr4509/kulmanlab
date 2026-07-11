@@ -1,8 +1,9 @@
 ---
-sidebar_position: 13
 title: Comando Dimension Linear — Quote Orizzontali e Verticali in KulmanLab CAD
 description: Il comando Dimension Linear misura la distanza orizzontale o verticale tra due punti. La linea di quota è sempre allineata agli assi — premi H o V per bloccare l'orientamento, o lascia che la posizione del cursore decida automaticamente. Compatibilità DXF completa come entità DIMENSION.
 keywords: [CAD quota lineare, quota orizzontale CAD, quota verticale CAD, dimlinear, blocco orientamento H V, scostamento quota, kulmanlab]
+group: markup
+order: 4
 ---
 
 # Dimension Linear

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: Comando mirror — Reflejar entidades a través de un eje de dos puntos en KulmanLab CAD
 description: El comando mirror refleja las entidades seleccionadas a través de una línea de espejo definida por dos clics. Los originales siempre se conservan — Mirror crea nuevas copias reflejadas. El eje de espejo puede estar en cualquier ángulo y se ajusta a incrementos de 45°.
 keywords: [comando mirror CAD, reflejar entidades CAD, simetría espejo CAD, voltear objetos CAD, eje de espejo CAD, kulmanlab]
+group: edit
+order: 4
 ---
 
 # Mirror

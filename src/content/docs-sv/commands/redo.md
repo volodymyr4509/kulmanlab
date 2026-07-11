@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Redo-kommandot — Återställ ångrade åtgärder i KulmanLab CAD
 description: Redo-kommandot återställer den senaste åtgärden som ångrades av Undo och flyttar framåt genom historikstacken. Redo är endast tillgängligt efter en Undo och rensas i samma stund som en ny ritåtgärd utförs.
 keywords: [CAD redo-kommando, redo-historik CAD, återställ åtgärd CAD, undo redo CAD, webbläsarpersistent redo, kulmanlab]
+group: edit
+order: 14
 ---
 
 # Redo

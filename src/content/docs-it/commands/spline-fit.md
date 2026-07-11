@@ -1,8 +1,9 @@
 ---
-sidebar_position: 9
 title: Comando Spline Fit — Disegnare Spline Interpolatrici Attraverso Punti Cliccati in KulmanLab CAD
 description: Il comando Spline Fit disegna una spline cubica che passa esattamente per ogni punto cliccato. Internamente la curva è memorizzata sia con punti di adattamento che con vertici di controllo calcolati. Trascinare un grip del punto di adattamento ri-interpola l'intera curva. Round-trip DXF completo come entità SPLINE.
 keywords: [CAD comando spline fit, spline interpolatrice CAD, spline per punti, disegna curva liscia CAD, SPLINE DXF punti adattamento, modifica grip spline, kulmanlab]
+group: shapes
+order: 9
 ---
 
 # Spline Fit

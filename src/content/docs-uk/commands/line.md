@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Команда Line — Малювати, ланцюгувати, обрізати та продовжувати лінії у KulmanLab CAD
 description: Команда Line малює окремі прямолінійні відрізки, які можна ланцюгувати кінець-до-кінця. Лінії — єдиний тип об'єкта, на який діють Trim і Extend. Повний DXF round-trip як об'єкти LINE.
 keywords: [CAD команда line, намалювати пряму лінію CAD, ланцюгування відрізків, обрізання лінії CAD, продовження лінії CAD, блокування кута CAD, DXF об'єкт LINE, kulmanlab]
+group: shapes
+order: 1
 ---
 
 # Line

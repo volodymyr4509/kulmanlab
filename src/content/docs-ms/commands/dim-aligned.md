@@ -1,8 +1,9 @@
 ---
-sidebar_position: 14
 title: Arahan Dimension Aligned — Dimensi Jarak Sebenar pada Mana-Mana Sudut dalam KulmanLab CAD
 description: Arahan Dimension Aligned mengukur jarak garis lurus sebenar antara dua titik. Garis dimensi berjalan selari dengan garis p1→p2 pada mana-mana sudut — tidak seperti Dimension Linear yang terhad kepada mendatar atau menegak. Pusingan penuh DXF sebagai entiti DIMENSION.
 keywords: [CAD dimensi aligned, dimaligned, dimensi pepenjuru CAD, dimensi jarak sebenar, dimensi bercerun CAD, kulmanlab]
+group: markup
+order: 5
 ---
 
 # Dimension Aligned

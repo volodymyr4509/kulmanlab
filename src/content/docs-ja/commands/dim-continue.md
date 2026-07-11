@@ -1,8 +1,9 @@
 ---
-sidebar_position: 15
 title: 寸法 連続コマンド — 既存のベースラインから寸法を連続（KulmanLab CAD）
 description: dimcontinue コマンドは既存の寸法の 2 番目の引出線から新しい寸法を連続します。ベース寸法の角度・オフセット・矢印サイズ・テキスト高さを自動的に継承します。水平・垂直・整列のベースに対応します。
 keywords: [CAD 連続寸法, dimcontinue, 連続寸法 CAD, ベースライン寸法, 連続寸法シリーズ, kulmanlab, dim-continue]
+group: markup
+order: 6
 ---
 
 # Dimension Continue

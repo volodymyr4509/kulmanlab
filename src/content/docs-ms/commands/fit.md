@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: Arahan Fit — Bingkaikan Semua Entiti dalam Viewport dengan Satu Klik dalam KulmanLab CAD
 description: Arahan Fit mengira kotak sempadan semua entiti dan melaraskan zum dan pan supaya setiap entiti kelihatan dengan margin kecil. Klik dua kali butang tetikus tengah mencetuskan Fit tanpa mengaktifkan arahan.
 keywords: [CAD pandangan fit, zum untuk fit, bingkaikan semua entiti, arahan fit CAD, zum kotak sempadan, kulmanlab]
+group: navigate
+order: 4
 ---
 
 # Fit

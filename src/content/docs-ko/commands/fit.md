@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: Fit 명령어 — KulmanLab CAD에서 한 번의 클릭으로 뷰포트에 모든 객체 맞추기
 description: Fit 명령어는 모든 객체의 경계 박스를 계산하고 작은 여백을 두어 모든 객체가 표시되도록 확대/축소와 이동을 조정합니다. 가운데 마우스 버튼을 더블 클릭하면 명령어를 활성화하지 않고도 전체 보기가 실행됩니다.
 keywords: [CAD 전체 보기, 뷰에 맞추기, 모든 객체 프레임, 전체 보기 명령어 CAD, 경계 박스 확대/축소, kulmanlab]
+group: navigate
+order: 4
 ---
 
 # Fit

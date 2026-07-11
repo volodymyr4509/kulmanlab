@@ -1,6 +1,8 @@
 ---
 title: Lệnh Leader — Vẽ Chú Thích Đa Đường Dẫn với Mũi Tên và Văn Bản trong KulmanLab CAD
 description: "Lệnh Leader vẽ chú thích đa đường dẫn bốn giai đoạn: đầu mũi tên, đoạn gấp khúc, vị trí văn bản và nhãn đã gõ. Hướng văn bản tự động điều chỉnh theo vị trí đoạn gấp khúc. Chỉ nhập trong DXF — các đường dẫn không được ghi khi lưu."
+group: markup
+order: 1
 ---
 
 # Leader

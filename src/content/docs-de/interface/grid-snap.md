@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Raster & Einrasten — Zeichnungen an einem regelmäßigen Raster ausrichten in KulmanLab CAD
 description: Die Raster- und Einrast-Umschalter in KulmanLab CAD blenden ein Referenzraster auf der Zeichenfläche ein und sperren die Cursorbewegung auf Rasterpunkte. Der Rasterabstand passt sich automatisch an die aktuelle Zoomstufe an, sodass immer runde Modellwerte angezeigt werden.
 keywords: [CAD Raster, Einrasten am Raster, Rasterabstand, Zeichnungshilfen, kulmanlab, Rasterpunkte, orthogonales Einrasten]
+group: interface
+order: 1
 ---
 
 # Raster & Einrasten

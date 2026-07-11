@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Scale Command — Resize Entities Uniformly Around a Base Point in KulmanLab CAD
 description: The Scale command resizes selected entities uniformly by a typed factor around a fixed base point. The factor is always keyboard-entered — there is no click-to-set-scale. A factor greater than 1 enlarges; less than 1 shrinks. Every entity type is supported.
 keywords: [CAD scale command, resize entities CAD, scale objects CAD, uniform scale CAD, scale factor CAD, enlarge shrink CAD, kulmanlab]
+group: edit
+order: 5
 ---
 
 # Scale

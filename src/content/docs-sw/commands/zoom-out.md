@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: "Zoom Out Command — Reduce the Viewport Zoom by 1.5× Per Step in KulmanLab CAD"
 description: "Amri ya Zoom Out hugawanya kiwango cha sasa cha zoom kwa 1.5× na kutoka mara moja. Imewekwa katikati ya katikati ya mwonekano. Tumia gurudumu la skrolini kupunguza zoom kuelekea kishale kwa udhibiti bora zaidi."
 keywords: [CAD zoom out, reduce viewport zoom, zoom out command, overview CAD, 1.5x zoom step, kulmanlab]
+group: navigate
+order: 3
 ---
 
 # Zoom Out

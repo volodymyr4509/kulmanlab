@@ -1,8 +1,9 @@
 ---
-sidebar_position: 30
 title: Команда Dimension Diameter — Розмір діаметра кола або дуги у KulmanLab CAD
 description: Команда Dimension Diameter розміщує розмір діаметра (з префіксом символу діаметра) через центр дуги або кола. Переміщуйте курсор для обертання лінії розміру під будь-яким кутом. Повний DXF round-trip як об'єкти DIMENSION з типом діаметра.
 keywords: [CAD розмір діаметра, dimdiameter, розмір діаметра кола, розмір діаметра дуги, символ діаметра CAD, DXF DIMENSION diameter, kulmanlab]
+group: markup
+order: 8
 ---
 
 # Dimension Diameter

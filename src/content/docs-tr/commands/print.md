@@ -1,8 +1,9 @@
 ---
-sidebar_position: 49
 title: Print Komutu — KulmanLab CAD'de Çizimi PNG, JPEG, WebP veya PDF Olarak Dışa Aktar
 description: Print komutu, önizleme, format seçimi, tek renkli mod anahtarı ve alan seçimiyle Yazdırma Yöneticisini açar. PNG, JPEG, WebP ve PDF destekler. Maksimum çözünürlük 2000×2000 piksel.
 keywords: [CAD PNG dışa aktar, CAD PDF dışa aktar, çizimi yazdır CAD, yazdırma yöneticisi CAD, tek renkli dışa aktarma, kulmanlab]
+group: file
+order: 4
 ---
 
 # Print

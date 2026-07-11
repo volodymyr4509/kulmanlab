@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: 텍스트 편집기 — KulmanLab CAD의 서식 및 단순 모드
 description: KulmanLab CAD 텍스트 편집기에는 두 가지 모드가 있습니다 — 서식(글자별 서식, 여러 줄, 텍스트 및 다중 지시선용 자동 줄 바꿈)과 단순(통일 스타일, 치수 객체용 단일 행). 헤더의 모드 칩이 활성 모드를 표시합니다.
 keywords: [CAD 텍스트 편집기, MTEXT, 굵게 기울임꼴 CAD, 텍스트 서식 CAD, 여러 줄 텍스트 CAD, 자동 줄 바꿈 CAD, 서식 텍스트 편집기, 단순 텍스트 편집기, 치수 텍스트 편집기, 사용자 지정 글꼴 CAD, TTF 업로드 CAD, kulmanlab]
+group: interface
+order: 5
 ---
 
 # 텍스트 편집기

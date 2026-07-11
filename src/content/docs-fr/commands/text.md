@@ -1,8 +1,9 @@
 ---
-sidebar_position: 7
 title: Commande Text — Placer des labels MTEXT dans KulmanLab CAD
 description: La commande Text place un label MTEXT multi-ligne avec formatage enrichi. Cliquez sur une position, tapez dans l'éditeur popup, et appuyez sur Échap pour valider. Double-cliquez sur un label existant pour rouvrir l'éditeur.
 keywords: [commande text CAO, MTEXT, placer label texte CAO, annotation texte CAO, gras italique CAO, texte multi-ligne CAO, kulmanlab]
+group: shapes
+order: 7
 ---
 
 # Text

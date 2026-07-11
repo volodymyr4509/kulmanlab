@@ -1,8 +1,9 @@
 ---
-sidebar_position: 20
 title: Fillet Command — I-round ang Sulok sa Pagitan ng Dalawang Linya sa KulmanLab CAD
 description: Kinokonekta ng Fillet command ang dalawang Line entities gamit ang tangent arc na may nakatakdang radius, na tinatrim pabalik ang bawat linya hanggang sa tangent point. May dashed arc preview na tumutulong sa iyo na piliin ang tamang sulok bago mag-click.
 keywords: [CAD fillet command, i-round ang sulok CAD, fillet arc, tangent arc dalawang linya, kulmanlab]
+group: edit
+order: 11
 ---
 
 # Fillet

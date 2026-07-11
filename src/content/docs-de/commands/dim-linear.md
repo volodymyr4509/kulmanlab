@@ -1,8 +1,9 @@
 ---
-sidebar_position: 13
 title: Dimension Linear-Befehl — Horizontale und vertikale Bemaßungen in KulmanLab CAD
 description: Der Dimension Linear-Befehl misst den horizontalen oder vertikalen Abstand zwischen zwei Punkten. Die Bemaßungslinie ist immer achsenparallel — drücken Sie H oder V, um die Ausrichtung zu sperren, oder lassen Sie die Mauszeiger-Position automatisch entscheiden. Vollständiger DXF-Austausch als DIMENSION-Elemente.
 keywords: [CAD-Linearbemaßung, horizontale Bemaßung CAD, vertikale Bemaßung CAD, dimlinear, H-V-Ausrichtungssperre, Bemaßungsversatz, kulmanlab]
+group: markup
+order: 4
 ---
 
 # Dimension Linear

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 22
 title: Команда Redo — Повторити скасовані дії у KulmanLab CAD
 description: Команда Redo повторює останню дію, скасовану Undo, рухаючись вперед по стеку історії. Redo доступний лише після Undo і очищається в момент виконання будь-якої нової дії малювання.
 keywords: [CAD команда redo, повторити дію CAD, Ctrl+Y CAD, стек redo CAD, браузерний redo, kulmanlab]
+group: edit
+order: 14
 ---
 
 # Redo

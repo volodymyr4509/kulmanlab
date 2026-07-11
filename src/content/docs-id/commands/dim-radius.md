@@ -1,8 +1,9 @@
 ---
-sidebar_position: 16
 title: Perintah Dimension Radius — Menganotasi Radius Busur dan Lingkaran di KulmanLab CAD
 description: Perintah Dimension Radius menempatkan dimensi radial dengan awalan R pada busur atau lingkaran. Klik entitas, kemudian gerakkan kursor untuk mengorientasikan garis dimensi dari pusat ke lingkar. Dukungan penuh DXF sebagai entitas DIMENSION radius.
 keywords: [dimensi radius CAD, dimradius, menganotasi radius lingkaran, dimensi radius busur, dimensi awalan R, kulmanlab]
+group: markup
+order: 7
 ---
 
 # Dimension Radius

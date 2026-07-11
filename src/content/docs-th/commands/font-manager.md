@@ -2,6 +2,8 @@
 title: คำสั่ง Font Manager — อัปโหลดและจัดการฟอนต์ TTF กำหนดเองใน KulmanLab CAD
 description: คำสั่ง Font Manager เปิดกล่องโต้ตอบสำหรับเรียกดู แสดงตัวอย่าง และเลือกฟอนต์ รวมถึงอัปโหลดไฟล์ .ttf ของคุณเอง ฟอนต์ที่อัปโหลดจะถูกบันทึกไว้ในเบราว์เซอร์และฝังตามชื่อในไฟล์ที่ส่งออกเป็น DXF
 keywords: [font manager, ฟอนต์กำหนดเอง CAD, อัปโหลด ttf, แบบอักษรกำหนดเอง CAD, google fonts CAD, ฟอนต์ข้อความ CAD, kulmanlab]
+group: style
+order: 2
 ---
 
 # Font Manager

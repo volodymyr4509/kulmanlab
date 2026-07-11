@@ -1,8 +1,9 @@
 ---
-sidebar_position: 10
 title: "Extend কমান্ড — KulmanLab CAD-এ নিকটতম সীমানায় একটি লাইনের শেষবিন্দু প্রসারিত করুন"
 description: "Extend কমান্ড হোভার করা Line-এর নিকটতম শেষবিন্দুকে অন্য সত্তার সাথে নিকটতম ছেদে প্রসারিত করে। একটি লাইভ পূর্বদর্শন ক্লিকের আগে প্রসারিত লাইন দেখায়। Extend শুধুমাত্র Line সত্তায় কাজ করে এবং Text, Spline এবং Multileader-কে সীমানা হিসেবে উপেক্ষা করে।"
 keywords: [CAD extend কমান্ড, লাইন প্রসারিত CAD, সীমানায় লাইন প্রসারিত, লাইন শেষবিন্দু extend, হোভার extend পূর্বদর্শন, kulmanlab]
+group: edit
+order: 9
 ---
 
 # Extend

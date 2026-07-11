@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: Text Editor — Rich και Simple Modes στο KulmanLab CAD
 description: Ο επεξεργαστής κειμένου KulmanLab CAD έχει δύο modes — rich (μορφοποίηση ανά χαρακτήρα, πολυγραμμικό, αναδίπλωση λέξεων για Text και Multileader) και simple (ενιαίο στυλ, μονογραμμικό για οντότητες διάστασης). Ένα mode chip στην κεφαλίδα δείχνει ποιο mode είναι ενεργό.
 keywords: [CAD επεξεργαστής κειμένου, MTEXT, έντονο πλάγιο CAD, μορφοποίηση κειμένου CAD, πολυγραμμικό κείμενο CAD, αναδίπλωση λέξεων CAD, rich επεξεργαστής κειμένου, simple επεξεργαστής κειμένου, επεξεργαστής κειμένου διάστασης, προσαρμοσμένη γραμματοσειρά CAD, μεταφόρτωση TTF CAD, kulmanlab]
+group: interface
+order: 5
 ---
 
 # Text Editor

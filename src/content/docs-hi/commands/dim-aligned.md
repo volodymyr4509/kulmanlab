@@ -1,8 +1,9 @@
 ---
-sidebar_position: 14
 title: Dimension Aligned कमांड — KulmanLab CAD में किसी भी कोण पर सही दूरी माप
 description: Dimension Aligned कमांड दो बिंदुओं के बीच सही सीधी-रेखा दूरी मापती है। माप रेखा p1→p2 रेखा के समानांतर किसी भी कोण पर चलती है — Dimension Linear के विपरीत जो क्षैतिज या ऊर्ध्वाधर तक सीमित है। DXF में DIMENSION ऑब्जेक्ट के रूप में पूर्ण राउंड-ट्रिप।
 keywords: [CAD माप संरेखित, dimaligned, विकर्ण माप CAD, सही दूरी माप, कोणीय माप CAD, kulmanlab]
+group: markup
+order: 5
 ---
 
 # Dimension Aligned

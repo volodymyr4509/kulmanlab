@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: "Undo ਕਮਾਂਡ — KulmanLab CAD ਵਿੱਚ ਡਰਾਇੰਗ ਹਿਸਟਰੀ ਰਾਹੀਂ ਪਿੱਛੇ ਜਾਓ"
 description: "Undo ਕਮਾਂਡ ਆਖਰੀ ਡਰਾਇੰਗ ਕਾਰਵਾਈ ਨੂੰ ਇੱਕ-ਇੱਕ ਕਦਮ ਕਰਕੇ ਉਲਟਾਉਂਦੀ ਹੈ। ਪ੍ਰਤੀ ਫਾਈਲ 20 ਕਦਮਾਂ ਤੱਕ ਸਟੋਰ ਕੀਤੇ ਜਾਂਦੇ ਹਨ ਅਤੇ ਪੇਜ ਰੀਲੋਡਾਂ ਦੌਰਾਨ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਬਰਕਰਾਰ ਰਹਿੰਦੇ ਹਨ। ਅਨਡੂ ਤੋਂ ਬਾਅਦ ਨਵੀਂ ਕਾਰਵਾਈ ਕਰਨ ਨਾਲ ਰੀਡੂ ਸਟੈਕ ਸਾਫ਼ ਹੋ ਜਾਂਦਾ ਹੈ।"
 keywords: [CAD undo command, undo history CAD, reverse action CAD, undo steps CAD, browser persistent undo, kulmanlab]
+group: edit
+order: 13
 ---
 
 # Undo

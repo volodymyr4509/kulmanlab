@@ -1,8 +1,9 @@
 ---
-sidebar_position: 14
 title: "Dimension Aligned কমান্ড — KulmanLab CAD-এ যেকোনো কোণে সত্যিকারের দূরত্ব মাত্রা"
 description: "Dimension Aligned কমান্ড দুটি পয়েন্টের মধ্যে সত্যিকারের সরল-রেখার দূরত্ব পরিমাপ করে। মাত্রা রেখা যেকোনো কোণে p1→p2 রেখার সমান্তরালে চলে — Dimension Linear-এর বিপরীতে যা অনুভূমিক বা উল্লম্বে সীমাবদ্ধ। DIMENSION সত্তা হিসেবে সম্পূর্ণ DXF রাউন্ড-ট্রিপ।"
 keywords: [CAD dimension aligned, dimaligned, তির্যক মাত্রা CAD, সত্যিকারের দূরত্ব মাত্রা, কোণীয় মাত্রা CAD, kulmanlab]
+group: markup
+order: 5
 ---
 
 # Dimension Aligned

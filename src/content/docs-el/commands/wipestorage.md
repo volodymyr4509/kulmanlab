@@ -2,6 +2,8 @@
 title: Εντολή Wipe Storage — Καθαρισμός Όλων των Δεδομένων Browser στο KulmanLab CAD
 description: Η εντολή wipestorage διαγράφει μόνιμα όλα τα αρχεία, επίπεδα, linetypes και ιστορικό αναίρεσης αποθηκευμένα στον browser. Απαιτεί πληκτρολόγηση YES για επιβεβαίωση. Χρησιμοποιήστε κατά την επαναφορά κατεστραμμένης ή υπερπλήρους τοπικής βάσης δεδομένων.
 keywords: [CAD wipe storage, καθαρισμός δεδομένων browser CAD, επαναφορά εφαρμογής CAD, διαγραφή τοπικών αρχείων CAD, kulmanlab wipestorage]
+group: file
+order: 6
 ---
 
 # Wipe Storage

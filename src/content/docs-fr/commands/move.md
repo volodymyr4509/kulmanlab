@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Commande Move — Translater les entités sélectionnées par point de base dans KulmanLab CAD
 description: La commande Move translate une ou plusieurs entités sélectionnées par un point de base et une destination. Supporte la pré-sélection, le verrouillage d'angle et la saisie de distance exacte. Après le déplacement, les entités restent sélectionnées à leur nouvelle position. Tous les types d'entités sont supportés.
 keywords: [commande move CAO, translater entités CAO, déplacer objets CAO, verrouillage angle move, distance exacte move, déplacement par poignée CAO, kulmanlab]
+group: edit
+order: 1
 ---
 
 # Move

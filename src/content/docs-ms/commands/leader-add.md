@@ -1,8 +1,9 @@
 ---
-sidebar_position: 12
 title: Arahan Leader+ — Tambah Lengan Kepala Anak Panah pada Pelbagai Pemimpin Sedia Ada dalam KulmanLab CAD
 description: Arahan Leader+ menambah lengan kepala anak panah baharu pada pelbagai pemimpin sedia ada. Lengan baharu berkongsi dogleg, teks, dan semua gaya pemimpin yang dipilih. Dua klik — pilih pemimpin, letakkan hujung baharu.
 keywords: [CAD tambah lengan pemimpin, arahan leader+, tambah anak panah ke pemimpin, lengan pelbagai pemimpin, kulmanlab]
+group: markup
+order: 2
 ---
 
 # Leader+

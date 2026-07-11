@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: "Text Editor — KulmanLab CAD-এ Rich এবং Simple মোড"
 description: "KulmanLab CAD টেক্সট এডিটরের দুটি মোড রয়েছে — rich (প্রতি-অক্ষর ফরম্যাটিং, বহু-লাইন, Text এবং Multileader-এর জন্য ওয়ার্ড-র‌্যাপ) এবং simple (একসমান স্টাইল, মাত্রা এন্টিটির জন্য এক-লাইন)। হেডারে একটি মোড চিপ দেখায় কোন মোড সক্রিয়।"
 keywords: [CAD টেক্সট এডিটর, MTEXT, বোল্ড ইটালিক CAD, টেক্সট ফরম্যাটিং CAD, বহু-লাইন টেক্সট CAD, ওয়ার্ড র‌্যাপ CAD, rich টেক্সট এডিটর, simple টেক্সট এডিটর, মাত্রা টেক্সট এডিটর, কাস্টম ফন্ট CAD, ttf আপলোড CAD, kulmanlab]
+group: interface
+order: 5
 ---
 
 # Text Editor

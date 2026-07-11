@@ -1,8 +1,9 @@
 ---
-sidebar_position: 10
 title: Comando Leader — Disegnare Annotazioni Multileader con Freccia e Testo in KulmanLab CAD
 description: "Il comando Leader disegna un'annotazione multileader in quattro fasi: punta della freccia, gomito dogleg, posizione del testo ed etichetta digitata. La direzione del testo si regola automaticamente in base alla posizione del dogleg. Solo importazione in DXF — i leader non vengono scritti al salvataggio."
 keywords: [CAD comando leader, annotazione multileader, leader CAD, annotazione con freccia, dogleg leader, direzione testo CAD, kulmanlab]
+group: markup
+order: 1
 ---
 
 # Leader

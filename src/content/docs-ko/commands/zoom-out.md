@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: "Zoom Out 명령어 — KulmanLab CAD에서 단계별 1.5× 뷰포트 축소"
 description: "축소 명령어는 현재 확대/축소 수준을 1.5×로 나누고 즉시 종료됩니다. 뷰포트 중간점을 중심으로. 더 세밀한 제어를 위해 커서 방향으로 축소하려면 스크롤 휠을 사용하세요."
 keywords: [CAD 축소, 뷰포트 확대/축소 줄이기, 축소 명령어, 전체 보기 CAD, 1.5x 확대/축소 단계, kulmanlab]
+group: navigate
+order: 3
 ---
 
 # Zoom Out

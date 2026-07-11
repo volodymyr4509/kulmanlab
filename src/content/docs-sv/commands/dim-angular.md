@@ -1,8 +1,9 @@
 ---
-sidebar_position: 9
 title: Dimension Angular — Mät vinklar mellan linjer, bågar och cirklar i KulmanLab CAD
 description: DimensionAngular-kommandot placerar en vinkelmåttannotation på linjer, bågar eller cirklar. Stödjer tvålinjevinkel, bågspann och cirkelsektorlägen.
 keywords: [vinkelmått CAD, vinkelmått, mät vinkel mellan linjer, DimensionAngular, bågmått, vinkelannotation, CAD vinkelmarkering, kulmanlab vinkelmått]
+group: markup
+order: 9
 ---
 
 # Dimension Angular

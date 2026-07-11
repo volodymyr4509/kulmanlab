@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerMatch — Tugaskan Semula Lapisan Entiti untuk Sepadan dengan Sumber dalam KulmanLab CAD
 description: Arahan LayerMatch menugaskan semula lapisan satu atau lebih entiti sasaran agar sepadan dengan lapisan entiti sumber yang anda klik.
 keywords: [padankan lapisan, padankan lapisan CAD, tugaskan semula lapisan kulmanlab, pengurusan lapisan CAD]
+group: layer
+order: 2
 ---
 
 # LayerMatch

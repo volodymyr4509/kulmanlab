@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: أمر Line — رسم خطوط مستقيمة وتسلسلها وقصّها وتمديدها في KulmanLab CAD
 description: يرسم أمر Line مقاطع خطية مستقيمة مستقلة يمكن ربطها طرفاً بطرف. الخطوط هي النوع الوحيد من العناصر الذي تعمل عليه أوامر Trim وExtend. يدعم التحويل الكامل لـ DXF كعناصر LINE.
 keywords: [أمر خط CAD, رسم خط مستقيم, تسلسل مقاطع الخط, قص خط CAD, تمديد خط CAD, تثبيت الزاوية CAD, عنصر LINE في DXF, kulmanlab]
+group: shapes
+order: 1
 ---
 
 # Line

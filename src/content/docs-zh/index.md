@@ -2,6 +2,8 @@
 title: KulmanLab CAD — 命令参考
 description: KulmanLab CAD 命令参考 — 完整涵盖 KulmanLab CAD 中每一个绘图、编辑、标注、图层、测量和文件命令的使用指南。
 keywords: [KulmanLab, KulmanLab CAD, CAD 命令, 免费浏览器 CAD, DXF 在线编辑器, 绘图命令, kulmanlab 命令, kulmanlab]
+group: overview
+order: 1
 ---
 
 # KulmanLab CAD — 命令参考

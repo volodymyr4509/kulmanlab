@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: "Import — KulmanLab CAD-এ DXF বা JSON ফাইল খুলুন"
 description: "KulmanLab CAD-এ DXF বা KulmanLab JSON ফাইল খুলতে Import কমান্ড ব্যবহার করুন। লাইন, বৃত্ত, চাপ, পলিলাইন, স্প্লাইন, টেক্সট, ডাইমেনশন এবং লিডার সমর্থিত।"
 keywords: [DXF ফাইল আমদানি, ব্রাউজারে DXF খুলুন, অনলাইনে CAD ফাইল আমদানি, DXF ফাইল খুলুন, ব্রাউজার DXF ভিউয়ার, JSON CAD আমদানি, KulmanLab আমদানি]
+group: file
+order: 1
 ---
 
 # Import

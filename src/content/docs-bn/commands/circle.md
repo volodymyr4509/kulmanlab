@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: "Circle কমান্ড — KulmanLab CAD-এ কেন্দ্র এবং ব্যাসার্ধ দিয়ে বৃত্ত আঁকুন"
 description: "Circle কমান্ড একটি কেন্দ্র পয়েন্ট ক্লিক করে এবং তারপর ব্যাসার্ধ ক্লিক বা টাইপ করে একটি বৃত্ত স্থাপন করে। চারটি কার্ডিনাল গ্রিপ আপনাকে কমান্ড পুনরায় চালানো ছাড়াই টেনে ব্যাসার্ধ পরিবর্তন করতে দেয়। CIRCLE সত্তা হিসেবে সম্পূর্ণ DXF রাউন্ড-ট্রিপ।"
 keywords: [CAD circle কমান্ড, circle আঁকা CAD, circle ব্যাসার্ধ ইনপুট, circle grip পরিবর্তন, CIRCLE DXF সত্তা, dimradius circle, kulmanlab]
+group: shapes
+order: 4
 ---
 
 # Circle

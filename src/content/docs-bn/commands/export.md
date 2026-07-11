@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: "Export — KulmanLab CAD-এ DXF বা JSON হিসেবে ড্রয়িং ডাউনলোড করুন"
 description: "Export কমান্ড বর্তমান ড্রয়িং একটি DXF বা JSON (নেটিভ) ফাইল হিসেবে ডাউনলোড করে। JSON মাত্রা এবং লিডার সহ সমস্ত সত্তা সংরক্ষণ করে; DXF অন্যান্য CAD টুলের সাথে সামঞ্জস্যপূর্ণ।"
 keywords: [DXF এক্সপোর্ট, CAD ফাইল এক্সপোর্ট, ব্রাউজারে DXF ডাউনলোড, DXF অনলাইন সেভ, JSON CAD এক্সপোর্ট, KulmanLab এক্সপোর্ট, CAD ফাইল ডাউনলোড, DXF এক্সপোর্ট, ড্রয়িং ফাইলে সেভ, DXF ডাউনলোড]
+group: file
+order: 5
 ---
 
 # Export

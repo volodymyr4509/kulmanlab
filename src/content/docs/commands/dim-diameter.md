@@ -1,8 +1,9 @@
 ---
-sidebar_position: 17
 title: "Dimension Diameter Command — Annotate Full Circle and Arc Diameters in KulmanLab CAD"
 description: "The Dimension Diameter command places a diameter dimension (prefixed with the diameter symbol) across an arc or circle through the center. Move the cursor to rotate the dimension line to any angle. Full DXF round-trip as DIMENSION diameter entities."
 keywords: [CAD diameter dimension, dimdiameter, annotate circle diameter, arc diameter dimension, diameter symbol CAD, kulmanlab]
+group: markup
+order: 8
 ---
 
 # Dimension Diameter

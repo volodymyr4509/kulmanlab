@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Rotate命令 — 在 KulmanLab CAD 中绕基点旋转图元
 description: 旋转命令绕选定基点旋转选中图元。角度可以精确输入或通过单击设置 — 从基点到单击位置的方向决定角度。DXF 坐标中正角度为逆时针。
 keywords: [CAD Rotate 命令, 旋转图元 CAD, 旋转对象角度, 逆时针旋转 CAD, 输入角度旋转, kulmanlab]
+group: edit
+order: 3
 ---
 
 # Rotate

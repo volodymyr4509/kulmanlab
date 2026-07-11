@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: New File — Mulakan Lukisan Kosong dalam KulmanLab CAD
 description: Arahan New File mengosongkan kanvas dan membuka lukisan kosong baharu. Nama fail yang dicap masa dijana secara automatik dan disimpan ke storan pelayar.
 keywords: [fail CAD baharu, lukisan baharu, kanvas kosong CAD, cipta lukisan baharu dalam talian, mula DXF baharu, fail baharu KulmanLab, tetapkan semula kanvas, kosongkan lukisan]
+group: file
+order: 2
 ---
 
 # New File

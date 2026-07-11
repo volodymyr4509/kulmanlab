@@ -1,8 +1,9 @@
 ---
-sidebar_position: 16
 title: Dimension Radius Command — Annotate Arc and Circle Radii in KulmanLab CAD
 description: The Dimension Radius command places an R-prefixed radial dimension on an arc or circle. Click the entity, then move the cursor to orient the dimension line from center to circumference. Full DXF round-trip as DIMENSION radius entities.
 keywords: [CAD radius dimension, dimradius, annotate circle radius, arc radius dimension, R prefix dimension, kulmanlab]
+group: markup
+order: 7
 ---
 
 # Dimension Radius

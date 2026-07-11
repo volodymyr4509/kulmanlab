@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: Polyline 명령어 — KulmanLab CAD에서 단일 객체로 다중 세그먼트 경로 그리기
 description: 폴리선 명령어는 하나의 LWPOLYLINE 객체로 저장된 임의 개수의 연결된 세그먼트를 그립니다. 꼭짓점 및 세그먼트 중간점 그립을 통해 생성 후 경로의 어떤 부분이든 재형성할 수 있습니다. 간격띄우기를 지원하며 자르기 또는 연장은 지원하지 않습니다.
 keywords: [CAD Polyline 명령어, 폴리선 그리기 CAD, 다중 세그먼트 경로 CAD, LWPOLYLINE DXF, 폴리선 재형성, 꼭짓점 그립 CAD, 폴리선 간격띄우기, kulmanlab]
+group: shapes
+order: 2
 ---
 
 # Polyline

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 35
 title: Команда LayerMakeCurrent — Встановити поточний шар за об'єктом у KulmanLab CAD
 description: Команда LayerMakeCurrent встановлює поточний активний шар відповідно до шару об'єкта, на який ви клацаєте. Корисно для переключення шарів без відкриття менеджера шарів.
 keywords: [CAD команда layer make current, встановити поточний шар CAD, переключити шар CAD, kulmanlab]
+group: layer
+order: 1
 ---
 
 # LayerMakeCurrent

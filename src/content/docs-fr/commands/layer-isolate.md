@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: LayerIsolate — Geler tous les calques sauf les calques sélectionnés dans KulmanLab CAD
 description: La commande LayerIsolate gèle tous les calques sauf ceux utilisés par les objets sélectionnés, vous permettant de vous concentrer sur une géométrie spécifique sans rien supprimer.
 keywords: [isoler calque, geler calques CAO, isoler calque kulmanlab, gestion calques CAO]
+group: layer
+order: 3
 ---
 
 # LayerIsolate

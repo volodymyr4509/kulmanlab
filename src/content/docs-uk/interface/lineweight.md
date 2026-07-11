@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Товщина лінії — Управління товщиною ліній у KulmanLab CAD
 description: Товщина лінії визначає ширину відображення та друку ліній і поліліній. Змінюйте на панелі властивостей або встановлюйте на рівні шарів. Повний DXF round-trip через властивість LWEIGHT.
 keywords: [товщина лінії CAD, ширина лінії CAD, DXF LWEIGHT, ByLayer товщина, kulmanlab]
+group: interface
+order: 4
 ---
 
 # Товщина лінії

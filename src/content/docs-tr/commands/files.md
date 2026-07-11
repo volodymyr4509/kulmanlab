@@ -1,8 +1,9 @@
 ---
-sidebar_position: 48
 title: Files Komutu — KulmanLab CAD'de Kaydedilen Çizimleri Görüntüle ve Geri Yükle
 description: Files komutu, tarayıcının IndexedDB'sinde kaydedilen çizimlerin listesini görüntüler. Kaydedilen herhangi bir çizimi geri yükleyin, silin veya indirin. Başlangıçta en yenisi otomatik olarak yüklenir.
 keywords: [CAD files komutu, çizimi geri yükle CAD, kaydedilen dosyalar listesi CAD, tarayıcı IndexedDB, kulmanlab]
+group: file
+order: 3
 ---
 
 # Files

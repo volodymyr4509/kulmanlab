@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: محرر النص — الوضعان الغني والبسيط في KulmanLab CAD
 description: يمتلك محرر النص في KulmanLab CAD وضعَين — الغني (تنسيق لكل حرف، متعدد الأسطر، التفاف كلمات لـ Text وMultileader) والبسيط (أسلوب موحد، سطر واحد لعناصر الأبعاد). تعرض رقاقة الوضع في الرأس الوضعَ النشط.
 keywords: [محرر نص CAD, MTEXT, تدعيم إمالة CAD, تنسيق نص CAD, نص متعدد أسطر CAD, التفاف كلمات CAD, محرر نص غني, محرر نص بسيط, محرر نص أبعاد, خط مخصص CAD, رفع TTF CAD, kulmanlab]
+group: interface
+order: 5
 ---
 
 # محرر النص

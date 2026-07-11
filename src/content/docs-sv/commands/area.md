@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: "Area-kommandot — Mät area och omkrets för en polygon i KulmanLab CAD"
 description: "Area-kommandot mäter den inneslutna arean och omkretsen av en polygon definierad av 3 eller fler klickade punkter, med hjälp av shoelace-formeln. Stöder vinkellåst riktningsinmatning och en varaktig markering av resultatet på ritytan."
 keywords: [CAD mät area, area-kommando, beräkning av polygonarea, omkretsmätning, shoelace-formeln, kulmanlab CAD-mätning]
+group: measure
+order: 3
 ---
 
 # Area

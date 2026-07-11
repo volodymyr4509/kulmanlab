@@ -1,8 +1,9 @@
 ---
-sidebar_position: 41
 title: PageManager Komutu — KulmanLab CAD'de Kağıt Boyutunu ve Yerleşim Ölçeğini Yapılandır
 description: PageManager komutu, aktif kağıt yerleşiminin veya görünüm penceresinin kağıt boyutunu, yönünü ve ölçeğini düzenlemek için bir iletişim kutusu açar.
 keywords: [CAD page manager komutu, kağıt boyutu CAD, yerleşim ölçeği CAD, baskı ayarları CAD, kulmanlab]
+group: layouts
+order: 3
 ---
 
 # PageManager

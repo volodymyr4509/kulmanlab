@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: ਲਾਈਨਵੇਟ ਟੂਲਬਾਰ ਪਿਕਰ — KulmanLab CAD ਵਿੱਚ ਸਟ੍ਰੋਕ ਚੌੜਾਈ ਕੰਟਰੋਲ ਕਰੋ
 description: KulmanLab CAD ਟੂਲਬਾਰ ਵਿੱਚ ਲਾਈਨਵੇਟ ਪਿਕਰ ਸਾਰੀਆਂ ਨਵੀਆਂ ਖਿੱਚੀਆਂ ਗਈਆਂ ਇਕਾਈਆਂ 'ਤੇ ਲਾਗੂ ਹੋਣ ਵਾਲੀ ਸਟ੍ਰੋਕ ਚੌੜਾਈ ਸੈੱਟ ਕਰਦਾ ਹੈ। 0.00 mm ਤੋਂ 2.11 mm ਤੱਕ ਮਿਆਰੀ DXF ਲਾਈਨਵੇਟ ਮੁੱਲਾਂ ਦੇ ਨਾਲ-ਨਾਲ ByLayer ਅਤੇ Default ਮੋਡਾਂ ਦਾ ਸਮਰਥਨ ਕਰਦਾ ਹੈ।
 keywords: [CAD ਲਾਈਨਵੇਟ, ਸਟ੍ਰੋਕ ਚੌੜਾਈ, ਰੇਖਾ ਚੌੜਾਈ, DXF ਲਾਈਨਵੇਟ, ByLayer ਲਾਈਨਵੇਟ, kulmanlab]
+group: interface
+order: 4
 ---
 
 # ਲਾਈਨਵੇਟ

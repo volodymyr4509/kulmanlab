@@ -1,8 +1,9 @@
 ---
-sidebar_position: 12
 title: Rotate Komutu — KulmanLab CAD'de Nesneleri Temel Nokta Etrafında Döndür
 description: Rotate komutu, seçili nesneleri seçilen temel nokta etrafında döndürür. Açı kesin olarak girilebilir veya tıklamayla belirlenebilir — temel noktadan tıklamaya doğru imleç yönü açıyı belirler. DXF koordinatlarında pozitif açılar saat yönünün tersine döner.
 keywords: [CAD rotate komutu, nesneleri döndür CAD, dönüş açısı, saat yönünün tersi CAD, açı girişi, kulmanlab]
+group: edit
+order: 3
 ---
 
 # Rotate

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: Editor Teks — Mod Kaya dan Mudah dalam KulmanLab CAD
 description: Editor teks KulmanLab CAD mempunyai dua mod — kaya (pemformatan setiap aksara, berbilang baris, bungkus perkataan untuk Text dan Multileader) dan mudah (gaya seragam, satu baris untuk entiti dimensi). Cip mod dalam pengepala menunjukkan mod yang aktif.
 keywords: [CAD editor teks, MTEXT, tebal italik CAD, pemformatan teks CAD, teks berbilang baris CAD, bungkus perkataan CAD, editor teks kaya, editor teks mudah, editor teks dimensi, fon kustom CAD, muat naik ttf CAD, kulmanlab]
+group: interface
+order: 5
 ---
 
 # Text Editor

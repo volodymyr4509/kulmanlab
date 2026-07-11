@@ -2,6 +2,8 @@
 title: Polecenie ViewportCopy — Duplikowanie okna widoku w KulmanLab CAD
 description: Polecenie ViewportCopy duplikuje wybrane okno widoku do nowej pozycji w tym samym układzie, zachowując ustawienia skali i widoku modelu. Obsługuje dokładne wprowadzanie współrzędnych, blokowanie kąta i wpisywanie odległości.
 keywords: [kopiowanie widoku, duplikowanie widoku, kopiowanie widoku układu, blokowanie kąta widoku, dokładne współrzędne widoku, kulmanlab]
+group: layouts
+order: 2
 ---
 
 # ViewportCopy

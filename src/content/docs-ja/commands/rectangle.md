@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Rectangle コマンド — 軸平行な長方形を作図（KulmanLab CAD）
 description: Rectangle コマンドは対角の 2 点クリックで軸平行な長方形を作成します。結果は 4 頂点を持つ閉じた LWPOLYLINE で、配置後は他のポリラインと同一なので、すべてのポリライン編集コマンドが適用できます。
 keywords: [CAD 長方形コマンド, 長方形作図 CAD, 軸平行長方形, 閉じたポリライン CAD, LWPOLYLINE DXF, 長方形グリップ編集, kulmanlab]
+group: shapes
+order: 3
 ---
 
 # Rectangle（長方形）

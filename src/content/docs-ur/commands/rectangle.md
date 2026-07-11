@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: "Rectangle کمانڈ — KulmanLab CAD میں محور سیدھ مستطیل بنائیں"
 description: "Rectangle کمانڈ دو مخالف کونوں سے محور سیدھ مستطیل بناتی ہے۔ نتیجہ چار ورٹیکس کے ساتھ بند LWPOLYLINE ہے — رکھاؤ کے بعد کسی بھی دوسری پولی لائن سے ایک جیسا، لہٰذا ہر پولی لائن ترمیم کمانڈ اس پر لاگو ہوتی ہے۔"
 keywords: [CAD rectangle کمانڈ, مستطیل بنائیں CAD, محور سیدھ مستطیل, بند polyline CAD, LWPOLYLINE DXF, مستطیل گرپ ترمیم, kulmanlab]
+group: shapes
+order: 3
 ---
 
 # Rectangle

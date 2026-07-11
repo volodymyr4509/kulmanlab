@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: Comando Fit — Inquadra Tutte le Entità nella Viewport con un Clic in KulmanLab CAD
 description: Il comando Fit calcola il riquadro di delimitazione di tutte le entità e regola zoom e pan così che ogni entità sia visibile con un piccolo margine. Il doppio clic con il tasto centrale del mouse attiva Fit senza aprire il comando.
 keywords: [CAD adatta vista, zoom estendi, inquadra tutte le entità, comando fit CAD, zoom riquadro delimitazione, kulmanlab]
+group: navigate
+order: 4
 ---
 
 # Fit

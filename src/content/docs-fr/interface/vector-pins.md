@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Vector Pins — Accrocher le Curseur aux Lignes de Référence des Points Épinglés dans KulmanLab CAD
 description: Les Vector Pins permettent d'épingler un point d'accrochage en le survolant une demi-seconde, puis de suivre le curseur le long de lignes de référence horizontales et verticales en pointillés passant par le point épinglé — alignez la nouvelle géométrie sur des points existants sans lignes de construction.
 keywords: [vector pins, repérage d'accrochage aux objets, lignes de référence, repérage d'alignement, suivi d'accrochage CAO, lignes de construction, kulmanlab]
+group: interface
+order: 2
 ---
 
 # Vector Pins

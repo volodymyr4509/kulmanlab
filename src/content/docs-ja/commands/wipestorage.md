@@ -2,6 +2,8 @@
 title: Wipe Storage コマンド — すべてのブラウザーデータをクリア（KulmanLab CAD）
 description: wipestorage コマンドはブラウザーに保存されているすべてのファイル、レイヤー、線種、元に戻す履歴を完全に削除します。確認のために YES と入力する必要があります。壊れたまたは満杯になったローカルデータベースをリセットするときに使用します。
 keywords: [CAD ストレージのクリア, ブラウザーデータのクリア CAD, CAD アプリリセット, ローカルファイル削除 CAD, kulmanlab wipestorage]
+group: file
+order: 6
 ---
 
 # Wipe Storage（ストレージのクリア）

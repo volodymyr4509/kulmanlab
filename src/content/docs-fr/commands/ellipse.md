@@ -1,8 +1,9 @@
 ---
-sidebar_position: 6
 title: Commande Ellipse — Tracer des ellipses pivotées par centre et deux axes dans KulmanLab CAD
 description: La commande Ellipse trace une ellipse en trois clics — centre, extrémité du premier axe (toute direction), puis longueur du second axe. Les deux axes sont toujours perpendiculaires. Chaque demi-axe a sa propre poignée pour un redimensionnement indépendant après le placement. Aller-retour DXF complet en tant qu'entités ELLIPSE.
 keywords: [commande ellipse CAO, tracer ellipse CAO, ellipse pivotée CAO, axes ellipse, entité ELLIPSE DXF, édition poignée ellipse, rapport d'axes, kulmanlab]
+group: shapes
+order: 6
 ---
 
 # Ellipse

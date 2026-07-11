@@ -1,8 +1,9 @@
 ---
-sidebar_position: 7
 title: Align命令 — 在 KulmanLab CAD 中使用点对平移、旋转和缩放图元
 description: Align 命令使用一对或两对源/目标点重新定位选中图元——将平移、旋转和可选的等比缩放合并为一次操作。工作方式相当于组合的 Move + Rotate + Scale。
 keywords: [CAD Align 命令, 对齐图元 CAD, 平移旋转缩放, 点对对齐, AutoCAD ALIGN 等效命令, kulmanlab]
+group: edit
+order: 6
 ---
 
 # Align

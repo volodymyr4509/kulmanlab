@@ -1,8 +1,9 @@
 ---
-sidebar_position: 27
 title: Команда Dimension Aligned — Справжній розмір відстані під будь-яким кутом у KulmanLab CAD
 description: Команда Dimension Aligned вимірює справжню пряму відстань між двома точками. Лінія розміру йде паралельно лінії p1→p2 під будь-яким кутом — на відміну від Dimension Linear, що обмежений горизонтальним або вертикальним. Повний DXF round-trip як об'єкти DIMENSION.
 keywords: [CAD dimension aligned, dimaligned, нахилений розмір CAD, справжній розмір відстані, розмір під кутом CAD, DXF DIMENSION aligned, kulmanlab]
+group: markup
+order: 5
 ---
 
 # Dimension Aligned

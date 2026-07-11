@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: "Export — KulmanLab CAD میں ڈرائنگز DXF یا JSON کے طور پر ڈاؤن لوڈ کریں"
 description: "Export کمانڈ موجودہ ڈرائنگ کو DXF (مطابقت) یا JSON (مقامی) فائل کے طور پر ڈاؤن لوڈ کرتی ہے۔ JSON تمام اشیاء بشمول پیمائشیں اور لیڈرز محفوظ کرتا ہے؛ DXF دیگر CAD ٹولز سے مطابق ہے۔"
 keywords: [DXF برآمد کریں, CAD فائل برآمد کریں, DXF براؤزر ڈاؤن لوڈ کریں, DXF آن لائن محفوظ کریں, JSON CAD برآمد کریں, KulmanLab برآمد, CAD فائل ڈاؤن لوڈ, DXF برآمد, ڈرائنگ فائل میں محفوظ کریں, DXF ڈاؤن لوڈ]
+group: file
+order: 5
 ---
 
 # Export

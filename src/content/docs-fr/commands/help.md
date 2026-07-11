@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Commande Help
 description: Ouvre le panneau d'aide intégré dans KulmanLab CAD. Affiche les raccourcis clavier, les conseils de navigation et les informations de contact.
 keywords: [CAO, aide, raccourcis clavier, contact, kulmanlab]
+group: overview
+order: 2
 ---
 
 # Help

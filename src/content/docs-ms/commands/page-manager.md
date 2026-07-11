@@ -2,6 +2,8 @@
 title: Arahan PageManager — Edit Saiz Kertas dan Skala Susun Atur dalam KulmanLab CAD
 description: Arahan PageManager membuka panel tetapan halaman untuk susun atur aktif, di mana anda boleh menukar format kertas, orientasi, dan skala unit lukisan.
 keywords: [pengurus halaman, tetapan susun atur, saiz kertas, skala lukisan, ruang susun atur, kulmanlab]
+group: layouts
+order: 3
 ---
 
 # PageManager

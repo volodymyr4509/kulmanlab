@@ -1,6 +1,8 @@
 ---
 title: Lệnh Help
 description: Mở bảng trợ giúp trong ứng dụng KulmanLab CAD. Hiển thị các phím tắt bàn phím, mẹo điều hướng và thông tin liên hệ.
+group: overview
+order: 2
 ---
 
 # Help

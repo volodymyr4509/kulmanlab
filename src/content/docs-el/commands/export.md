@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Export — Λήψη Σχεδίων ως DXF ή JSON στο KulmanLab CAD
 description: Η εντολή Export κατεβάζει το τρέχον σχέδιο ως αρχείο DXF ή JSON (native). Το JSON διατηρεί όλες τις οντότητες συμπεριλαμβανομένων διαστάσεων και leaders· το DXF είναι συμβατό με άλλα εργαλεία CAD.
 keywords: [εξαγωγή DXF, εξαγωγή αρχείου CAD, λήψη DXF browser, αποθήκευση DXF online, εξαγωγή JSON CAD, KulmanLab export, λήψη αρχείου CAD, DXF export, αποθήκευση σχεδίου σε αρχείο, DXF download]
+group: file
+order: 5
 ---
 
 # Export

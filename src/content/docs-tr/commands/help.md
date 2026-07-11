@@ -1,8 +1,9 @@
 ---
-sidebar_position: 52
 title: Help Komutu — KulmanLab CAD Belgelerini Aç
 description: Help komutu çevrimiçi belgeleri açar. Yardım sayfası ayrıca klavye kısayol referans tablolarını, güncel sürümü ve iletişim e-postasını gösterir.
 keywords: [CAD help komutu, KulmanLab belgeleri, CAD klavye kısayolları, kulmanlab]
+group: overview
+order: 2
 ---
 
 # Help

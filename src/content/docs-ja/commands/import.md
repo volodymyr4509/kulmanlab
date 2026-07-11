@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Import コマンド — KulmanLab CAD で DXF または JSON ファイルを開く
 description: インポートコマンドを使用して KulmanLab CAD で DXF または KulmanLab JSON ファイルを開きます。直線・円・円弧・ポリライン・スプライン・テキスト・寸法・引出線をサポートします。
 keywords: [DXFファイルインポート, ブラウザでDXFを開く, CADファイルオンラインインポート, DXFファイルを開く, DXFビューアブラウザ, JSON CADインポート, KulmanLabインポート, 無料CAD DXFビューア, 図面読み込み]
+group: file
+order: 1
 ---
 
 # Import（インポート）

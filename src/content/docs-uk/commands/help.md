@@ -1,8 +1,9 @@
 ---
-sidebar_position: 52
 title: Команда Help — Відкрити документацію KulmanLab CAD
 description: Команда Help відкриває онлайн-документацію. Сторінка довідки також відображає довідкові таблиці клавіатурних скорочень, поточну версію та контактний email.
 keywords: [CAD команда help, документація KulmanLab, клавіатурні скорочення CAD, kulmanlab]
+group: overview
+order: 2
 ---
 
 # Help

@@ -2,6 +2,8 @@
 title: KulmanLab CAD — คู่มืออ้างอิงคำสั่ง
 description: คู่มืออ้างอิงคำสั่ง KulmanLab CAD — คู่มือฉบับสมบูรณ์สำหรับทุกคำสั่งการวาด แก้ไข ใส่คำอธิบาย เลเยอร์ วัดขนาด และไฟล์ใน KulmanLab CAD
 keywords: [KulmanLab, KulmanLab CAD, คำสั่ง CAD, CAD ฟรีในเบราว์เซอร์, แก้ไข DXF ออนไลน์, คำสั่งวาด, kulmanlab commands]
+group: overview
+order: 1
 ---
 
 # KulmanLab CAD — คู่มืออ้างอิงคำสั่ง

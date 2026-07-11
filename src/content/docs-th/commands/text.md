@@ -1,8 +1,9 @@
 ---
-sidebar_position: 7
 title: "คำสั่ง Text — วางป้ายข้อความ MTEXT ใน KulmanLab CAD"
 description: "คำสั่ง Text วางป้ายข้อความ MTEXT หลายบรรทัดพร้อมการจัดรูปแบบที่หลากหลาย คลิกตำแหน่ง พิมพ์ในโปรแกรมแก้ไขป๊อปอัป แล้วกด Escape เพื่อยืนยัน ดับเบิลคลิกป้ายที่มีอยู่เพื่อเปิดโปรแกรมแก้ไขอีกครั้ง"
 keywords: [คำสั่ง text CAD, MTEXT, วางป้ายข้อความ CAD, คำอธิบาย CAD, ตัวหนาตัวเอียง CAD, ข้อความหลายบรรทัด CAD, kulmanlab]
+group: shapes
+order: 7
 ---
 
 # Text

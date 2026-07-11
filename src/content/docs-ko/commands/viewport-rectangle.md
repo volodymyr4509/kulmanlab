@@ -2,6 +2,8 @@
 title: ViewportRectangle 명령어 — KulmanLab CAD에서 레이아웃에 뷰포트 생성
 description: ViewportRectangle 명령어는 두 개의 반대쪽 모서리를 선택하여 용지 레이아웃에 뷰포트를 생성합니다. 뷰포트는 레이아웃의 기본 축척으로 모델 공간 객체를 표시합니다.
 keywords: [뷰포트 직사각형, 뷰포트 생성, 레이아웃 뷰포트, 용지 공간 뷰포트, kulmanlab]
+group: layouts
+order: 1
 ---
 
 # ViewportRectangle

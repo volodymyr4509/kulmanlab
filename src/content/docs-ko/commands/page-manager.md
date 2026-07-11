@@ -2,6 +2,8 @@
 title: PageManager 명령어 — KulmanLab CAD에서 레이아웃 용지 크기 및 축척 편집
 description: PageManager 명령어는 활성 레이아웃의 페이지 설정 패널을 열어 용지 형식, 방향, 도면 단위 축척을 변경할 수 있게 합니다.
 keywords: [페이지 관리자, 레이아웃 설정, 용지 크기, 도면 축척, 레이아웃 공간, kulmanlab]
+group: layouts
+order: 3
 ---
 
 # PageManager

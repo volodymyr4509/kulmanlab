@@ -1,8 +1,9 @@
 ---
-sidebar_position: 9
 title: Dimension Angular — 在 KulmanLab CAD 中测量直线、圆弧和圆之间的角度
 description: Dimension Angular 命令在直线、圆弧或圆上放置角度标注。支持两线角度、圆弧范围和圆扇形三种模式。
 keywords: [角度标注 CAD, 角度标注, 测量直线间角度, 角度标注命令, 圆弧标注, 角度注释, CAD 角度标记, kulmanlab 角度标注, kulmanlab]
+group: markup
+order: 9
 ---
 
 # Dimension Angular

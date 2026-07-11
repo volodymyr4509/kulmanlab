@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
 title: "Redo Command — Reapply Undone Actions in KulmanLab CAD"
 description: "Amri ya Redo inarejesha kitendo cha mwisho kilichogeuzwa na Undo, ikisogea mbele kupitia rafu ya historia. Redo inapatikana tu baada ya Undo na inafutwa mara kitendo kipya cha kuchora kinachofanywa."
 keywords: [CAD redo command, redo history CAD, reapply action CAD, undo redo CAD, browser persistent redo, kulmanlab]
+group: edit
+order: 14
 ---
 
 # Redo

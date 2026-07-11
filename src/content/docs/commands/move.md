@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: Move Command — Translate Selected Entities by Base Point in KulmanLab CAD
 description: The Move command translates one or more selected entities by a base point and destination. Supports pre-selection, angle locking, and exact distance input. After the move the entities stay selected at their new position. Every entity type is supported.
 keywords: [CAD move command, translate entities CAD, move objects CAD, angle lock move, exact distance move, grip move CAD, kulmanlab]
+group: edit
+order: 1
 ---
 
 # Move

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: "Zoom Out کمانڈ — KulmanLab CAD میں ویوپورٹ زوم 1.5× فی قدم کم کریں"
 description: "Zoom Out کمانڈ موجودہ زوم سطح کو 1.5× سے تقسیم کرتی ہے اور فوری طور پر ختم ہوتی ہے۔ ویوپورٹ درمیانی نقطے پر مرکوز۔ باریک کنٹرول کے لیے کرسر کی طرف زوم آؤٹ کرنے کے لیے اسکرول ویل استعمال کریں۔"
 keywords: [CAD zoom out, ویوپورٹ زوم کم, zoom out کمانڈ, جائزہ CAD, 1.5x zoom قدم, kulmanlab]
+group: navigate
+order: 3
 ---
 
 # Zoom Out

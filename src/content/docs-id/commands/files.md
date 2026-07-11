@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Files — Panel File Terbaru di KulmanLab CAD
 description: Perintah Files membuka panel Recent Files — jelajahi semua gambar yang tersimpan di browser Anda, pulihkan salah satunya ke kanvas, atau hapus yang tidak lagi Anda butuhkan.
 keywords: [file terbaru CAD, riwayat file browser CAD, pulihkan gambar, buka kembali DXF, penyimpanan browser CAD, KulmanLab files, gambar tersimpan, IndexedDB CAD, kelola gambar, kulmanlab]
+group: file
+order: 3
 ---
 
 # Files

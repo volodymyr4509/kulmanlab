@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: "Text Editor — KulmanLab CAD میں Rich اور Simple موڈز"
 description: "KulmanLab CAD متن ایڈیٹر کے دو موڈز ہیں — rich (فی حرف فارمیٹنگ، ملٹی لائن، Text اور Multileader کے لیے word-wrap) اور simple (یکساں انداز، پیمائش اشیاء کے لیے واحد لائن)۔ ہیڈر میں موڈ چپ ظاہر کرتی ہے کون سا موڈ فعال ہے۔"
 keywords: [CAD متن ایڈیٹر, MTEXT, bold italic CAD, متن فارمیٹنگ CAD, ملٹی لائن متن CAD, word wrap CAD, rich متن ایڈیٹر, simple متن ایڈیٹر, پیمائش متن ایڈیٹر, کسٹم فونٹ CAD, ttf اپ لوڈ CAD, kulmanlab]
+group: interface
+order: 5
 ---
 
 # Text Editor

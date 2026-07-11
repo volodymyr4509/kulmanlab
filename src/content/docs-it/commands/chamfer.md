@@ -1,8 +1,9 @@
 ---
-sidebar_position: 21
 title: Comando Chamfer — Taglia un Angolo Retto tra Due Linee in KulmanLab CAD
 description: Il comando Chamfer collega due entità Line o Polyline con un taglio diagonale retto. Si specificano due distanze — una per ciascuna entità — e il comando taglia entrambe fino a quei punti e inserisce una linea di collegamento.
 keywords: [comando chamfer CAD, smusso linea CAD, taglio angolo diagonale, angolo smussato CAD, kulmanlab]
+group: edit
+order: 12
 ---
 
 # Chamfer

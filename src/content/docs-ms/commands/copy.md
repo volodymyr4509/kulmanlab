@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: Arahan Copy — Duplikasi Entiti ke Kedudukan Baru dalam KulmanLab CAD
 description: Arahan Copy mencipta duplikat entiti yang dipilih sambil mengekalkan asal di tempat. Menyokong pra-pemilihan, penguncian sudut, dan input jarak tepat. Salinan diletakkan dan arahan keluar; asal kekal tidak berubah.
 keywords: [arahan salin CAD, duplikasi entiti CAD, salin objek CAD, klon geometri CAD, kunci sudut salin, jarak tepat salin, kulmanlab]
+group: edit
+order: 2
 ---
 
 # Copy

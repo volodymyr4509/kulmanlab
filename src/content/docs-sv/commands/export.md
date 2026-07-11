@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Export — Ladda ner ritningar som DXF eller JSON i KulmanLab CAD
 description: Export-kommandot laddar ner den aktuella ritningen som en DXF- () eller JSON-fil (nativ). JSON bevarar alla entiteter inklusive dimensioner och ledare; DXF är kompatibelt med  och andra CAD-verktyg.
 keywords: [exportera DXF, exportera CAD-fil, ladda ner DXF webbläsare, spara DXF online, exportera JSON CAD, KulmanLab export, CAD-filnedladdning, DXF-export, spara ritning till fil, DXF-nedladdning]
+group: file
+order: 5
 ---
 
 # Export

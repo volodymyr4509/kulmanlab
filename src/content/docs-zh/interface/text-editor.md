@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
 title: 文字编辑器 — KulmanLab CAD 中的富文本和简单模式
 description: KulmanLab CAD 文字编辑器有两种模式 — 富文本（每字符格式、多行、自动换行，用于 Text 和 Multileader）和简单（统一样式、单行，用于标注图元）。标题中的模式标记显示当前活动模式。
 keywords: [CAD 文字编辑器, MTEXT, 粗体斜体 CAD, 文字格式 CAD, 多行文字 CAD, 自动换行 CAD, 富文本编辑器, 简单文字编辑器, 标注文字编辑器, 自定义字体 CAD, 上传 TTF CAD, kulmanlab]
+group: interface
+order: 5
 ---
 
 # 文字编辑器

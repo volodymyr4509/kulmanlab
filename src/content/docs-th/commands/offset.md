@@ -1,8 +1,9 @@
 ---
-sidebar_position: 11
 title: คำสั่ง Offset — สร้างสำเนาขนานที่ระยะคงที่ใน KulmanLab CAD
 description: คำสั่ง Offset สร้างสำเนาขนานของ Line, Circle, Arc, Ellipse หรือ Polyline ที่ระยะที่พิมพ์ ระยะถูกป้อนครั้งเดียวและใช้ซ้ำสำหรับ offset หลายครั้ง การคลิกด้านกำหนดทิศทางที่สำเนาปรากฏ รองรับวัตถุห้าประเภท
 keywords: [คำสั่ง offset CAD, สำเนาขนาน CAD, offset เส้น CAD, offset วงกลม CAD, offset โพลีไลน์ CAD, kulmanlab]
+group: edit
+order: 10
 ---
 
 # Offset

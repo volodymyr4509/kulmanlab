@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
 title: "คำสั่ง Zoom Out — ลด Viewport Zoom 1.5 เท่าต่อขั้นตอนใน KulmanLab CAD"
 description: "คำสั่ง Zoom Out หารระดับซูมปัจจุบันด้วย 1.5 เท่าและออกทันที ศูนย์กลางที่จุดกึ่งกลาง viewport ใช้ scroll wheel เพื่อซูมออกไปทางเคอร์เซอร์สำหรับการควบคุมที่ละเอียดยิ่งขึ้น"
 keywords: [CAD zoom out, ลดซูม viewport, คำสั่ง zoom out, ภาพรวม CAD, ขั้นตอนซูม 1.5 เท่า, kulmanlab]
+group: navigate
+order: 3
 ---
 
 # Zoom Out

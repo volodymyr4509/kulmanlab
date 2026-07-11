@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Print命令 — 在 KulmanLab CAD 中将图形导出为 PNG、JPEG、WebP 或 PDF
 description: 打印命令打开打印管理器 — 带实时预览、格式选择器、单色切换和可选区域选择的专用导出窗口。导出分辨率最高 2000×2000 像素。支持 PNG、JPEG、WebP 和 PDF。
 keywords: [CAD 导出 PNG, CAD 导出 PDF, 打印 CAD 图形, 打印管理器, 单色导出, kulmanlab 导出, kulmanlab]
+group: file
+order: 4
 ---
 
 # Print

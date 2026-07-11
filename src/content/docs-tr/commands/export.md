@@ -1,8 +1,9 @@
 ---
-sidebar_position: 50
 title: Export — KulmanLab CAD'de Çizimleri DXF veya JSON Olarak İndir
 description: Export komutu, mevcut çizimi DXF (uyumluluk) veya JSON (yerel format) dosyası olarak indirir. JSON, ölçüler ve göstergeler dahil tüm nesneleri korur; DXF, diğer CAD araçlarıyla uyumludur.
 keywords: [DXF dışa aktar, CAD dosyası dışa aktar, DXF tarayıcıda indir, DXF çevrimiçi kaydet, JSON CAD dışa aktar, KulmanLab export, CAD dosyası indirme, DXF dışa aktarma, çizimi dosyaya kaydet, DXF indirme]
+group: file
+order: 5
 ---
 
 # Export

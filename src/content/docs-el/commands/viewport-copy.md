@@ -2,6 +2,8 @@
 title: Εντολή ViewportCopy — Αντιγραφή Viewport στο KulmanLab CAD
 description: Η εντολή ViewportCopy αντιγράφει επιλεγμένο viewport σε νέα θέση στο ίδιο layout, διατηρώντας τις ρυθμίσεις κλίμακας και προβολής μοντέλου. Υποστηρίζει ακριβή εισαγωγή συντεταγμένης, κλείδωμα γωνίας και εισαγωγή πληκτρολογημένης απόστασης.
 keywords: [αντιγραφή viewport, αντιγραφή viewport layout, κλείδωμα γωνίας viewport, ακριβής συντεταγμένη viewport, kulmanlab]
+group: layouts
+order: 2
 ---
 
 # ViewportCopy

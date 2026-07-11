@@ -1,8 +1,9 @@
 ---
-sidebar_position: 9
 title: Dimension Angular — KulmanLab CAD ਵਿੱਚ ਲਾਈਨਾਂ, ਆਰਕਾਂ ਅਤੇ ਸਰਕਲਾਂ ਵਿਚਕਾਰ ਕੋਣ ਮਾਪੋ
 description: DimensionAngular ਕਮਾਂਡ ਲਾਈਨਾਂ, ਆਰਕਾਂ, ਜਾਂ ਸਰਕਲਾਂ 'ਤੇ ਇੱਕ ਐਂਗੁਲਰ ਡਾਇਮੈਂਸ਼ਨ ਐਨੋਟੇਸ਼ਨ ਰੱਖਦੀ ਹੈ। ਦੋ-ਲਾਈਨ ਕੋਣ, ਆਰਕ ਸਪੈਨ, ਅਤੇ ਸਰਕਲ ਸੈਕਟਰ ਮੋਡਾਂ ਦਾ ਸਮਰਥਨ ਕਰਦੀ ਹੈ।
 keywords: [ਐਂਗੁਲਰ ਡਾਇਮੈਂਸ਼ਨ CAD, ਕੋਣ ਡਾਇਮੈਂਸ਼ਨ, ਲਾਈਨਾਂ ਵਿਚਕਾਰ ਕੋਣ ਮਾਪੋ, DimensionAngular, ਆਰਕ ਡਾਇਮੈਂਸ਼ਨ, ਕੋਣ ਐਨੋਟੇਸ਼ਨ, CAD ਕੋਣ ਮਾਰਕਅੱਪ, kulmanlab angular dimension]
+group: markup
+order: 9
 ---
 
 # Dimension Angular

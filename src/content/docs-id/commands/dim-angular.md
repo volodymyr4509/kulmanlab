@@ -1,8 +1,9 @@
 ---
-sidebar_position: 9
 title: Dimension Angular — Mengukur Sudut antara Garis, Busur dan Lingkaran di KulmanLab CAD
 description: Perintah DimensionAngular menempatkan anotasi dimensi sudut pada garis, busur, atau lingkaran. Mendukung mode sudut dua garis, rentang busur, dan sektor lingkaran.
 keywords: [dimensi sudut CAD, dimensi sudut, mengukur sudut antara garis, DimensionAngular, dimensi busur, anotasi sudut, markup sudut CAD, kulmanlab dimensi sudut]
+group: markup
+order: 9
 ---
 
 # Dimension Angular

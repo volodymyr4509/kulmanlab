@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
 title: Scale 명령어 — KulmanLab CAD에서 기준점을 중심으로 객체 균일하게 크기 조정
 description: 축척 명령어는 고정된 기준점을 중심으로 입력한 인수만큼 선택한 객체를 균일하게 크기 조정합니다. 인수는 항상 키보드로 입력합니다 — 클릭으로 축척을 설정하는 방법은 없습니다. 1보다 큰 인수는 확대; 1보다 작으면 축소. 모든 객체 유형을 지원합니다.
 keywords: [CAD Scale 명령어, 객체 크기 조정 CAD, 객체 축척 CAD, 균일 축척 CAD, 축척 인수 CAD, 확대 축소 CAD, kulmanlab]
+group: edit
+order: 5
 ---
 
 # Scale

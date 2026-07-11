@@ -2,6 +2,8 @@
 title: KulmanLab CAD — コマンドリファレンス
 description: KulmanLab CAD コマンドリファレンス — 図形描画・編集・マークアップ・レイヤー・計測・ファイル操作のすべてのコマンドを網羅したガイド。
 keywords: [KulmanLab, KulmanLab CAD, CADコマンド, 無料ブラウザCAD, DXFエディタ オンライン, 描画コマンド, kulmanlab コマンド]
+group: overview
+order: 1
 ---
 
 # KulmanLab CAD — コマンドリファレンス

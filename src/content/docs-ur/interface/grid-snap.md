@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
 title: "Grid & Snap — KulmanLab CAD میں ڈرائنگیں باقاعدہ گرڈ سے سیدھ میں کریں"
 description: "KulmanLab CAD میں Grid اور Snap ٹوگلز کینوس پر حوالہ گرڈ اوورلے کرتے ہیں اور کرسر کی حرکت گرڈ نقاط پر لاک کرتے ہیں۔ گرڈ فاصلہ خود بخود موجودہ زوم سطح کے مطابق ڈھلتا ہے تاکہ ہمیشہ گول ماڈل قدریں دکھائے۔"
 keywords: [CAD گرڈ, گرڈ سے اسنیپ, گرڈ فاصلہ, ڈرائنگ امداد, kulmanlab, گرڈ ڈاٹس, عمودی اسنیپ]
+group: interface
+order: 1
 ---
 
 # Grid & Snap

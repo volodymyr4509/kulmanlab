@@ -1,6 +1,8 @@
 ---
 title: Export — Tải Bản Vẽ Dưới Dạng DXF hoặc JSON trong KulmanLab CAD
 description: Lệnh Export tải bản vẽ hiện tại xuống dưới dạng DXF hoặc JSON (định dạng gốc). JSON lưu giữ tất cả thực thể bao gồm kích thước và đường dẫn; DXF tương thích với các công cụ CAD khác.
+group: file
+order: 5
 ---
 
 # Export

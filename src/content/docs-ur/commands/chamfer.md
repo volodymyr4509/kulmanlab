@@ -1,8 +1,9 @@
 ---
-sidebar_position: 21
 title: "Chamfer کمانڈ — KulmanLab CAD میں دو لائنوں کے درمیان سیدھا کونہ کاٹیں"
 description: "Chamfer کمانڈ دو Line یا Polyline اشیاء کو ایک سیدھے ترچھے کٹ سے جوڑتی ہے۔ آپ دو فاصلے بتاتے ہیں — ہر شے کے ساتھ ایک — اور کمانڈ دونوں کو ان نقاط تک تراشتی ہے اور ایک جوڑنے والی لائن داخل کرتی ہے۔"
 keywords: [CAD چیمفر کمانڈ, لائن چیمفر CAD, ترچھا کونہ کاٹ, بیول کونہ CAD, kulmanlab]
+group: edit
+order: 12
 ---
 
 # Chamfer
