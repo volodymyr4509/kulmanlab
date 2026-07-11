@@ -15,8 +15,8 @@ export const faqContent: Record<string, FaqSection[]> = {
     {
       headingKey: 'faq.section.files',
       items: [
-        { q: 'Where are my drawings stored?', a: "In your browser's localStorage — on your own device. Nothing is ever uploaded to a server. Each browser on each device has its own independent storage." },
-        { q: 'What happens if I clear my browser data?', a: 'Your saved drawings will be lost. Always export a DXF copy of anything important before clearing browser storage.' },
+        { q: 'Where are my drawings stored?', a: "In your browser's IndexedDB — on your own device. Nothing is ever uploaded to a server. Each browser on each device has its own independent storage." },
+        { q: 'What happens if I clear my browser data?', a: 'Your saved drawings will be lost. Always export a JSON copy of anything important before clearing browser storage.' },
         { q: 'Can I open .dwg files?', a: 'KulmanLab supports DXF (Drawing Exchange Format), not the proprietary DWG format. Most desktop CAD applications can export DXF, so export from your source app first.' },
         { q: 'Which export formats are available?', a: 'DXF and JSON via Export — DXF for round-tripping with other CAD tools, JSON for full-fidelity saves (including dimensions and leaders) within KulmanLab. Print separately exports PNG, JPEG, WebP, or PDF images, with an optional area crop and monochrome toggle.' },
       ],
@@ -61,8 +61,8 @@ export const faqContent: Record<string, FaqSection[]> = {
     {
       headingKey: 'faq.section.files',
       items: [
-        { q: 'Wo werden meine Zeichnungen gespeichert?', a: 'Im localStorage Ihres Browsers — auf Ihrem eigenen Gerät. Es wird nichts auf einen Server hochgeladen. Jeder Browser auf jedem Gerät hat seinen eigenen unabhängigen Speicher.' },
-        { q: 'Was passiert, wenn ich meine Browserdaten lösche?', a: 'Ihre gespeicherten Zeichnungen gehen verloren. Exportieren Sie immer eine DXF-Kopie von allem Wichtigen, bevor Sie den Browser-Speicher leeren.' },
+        { q: 'Wo werden meine Zeichnungen gespeichert?', a: 'Im IndexedDB Ihres Browsers — auf Ihrem eigenen Gerät. Es wird nichts auf einen Server hochgeladen. Jeder Browser auf jedem Gerät hat seinen eigenen unabhängigen Speicher.' },
+        { q: 'Was passiert, wenn ich meine Browserdaten lösche?', a: 'Ihre gespeicherten Zeichnungen gehen verloren. Exportieren Sie immer eine JSON-Kopie von allem Wichtigen, bevor Sie den Browser-Speicher leeren.' },
         { q: 'Kann ich .dwg-Dateien öffnen?', a: 'KulmanLab unterstützt DXF (Drawing Exchange Format), nicht das proprietäre DWG-Format. Die meisten Desktop-CAD-Anwendungen können DXF exportieren, exportieren Sie also zuerst aus Ihrer Quell-App.' },
         { q: 'Welche Exportformate sind verfügbar?', a: 'DXF und JSON über Export — DXF für den Austausch mit anderen CAD-Tools, JSON für vollständige Sicherungen (inklusive Bemaßungen und Führungslinien) innerhalb von KulmanLab. Separat exportiert Print PNG-, JPEG-, WebP- oder PDF-Bilder, mit optionalem Bildausschnitt und Schwarz-Weiß-Modus.' },
       ],
@@ -107,8 +107,8 @@ export const faqContent: Record<string, FaqSection[]> = {
     {
       headingKey: 'faq.section.files',
       items: [
-        { q: '¿Dónde se guardan mis dibujos?', a: 'En el localStorage de tu navegador — en tu propio dispositivo. Nada se sube jamás a un servidor. Cada navegador en cada dispositivo tiene su propio almacenamiento independiente.' },
-        { q: '¿Qué pasa si borro los datos del navegador?', a: 'Tus dibujos guardados se perderán. Exporta siempre una copia DXF de todo lo importante antes de borrar el almacenamiento del navegador.' },
+        { q: '¿Dónde se guardan mis dibujos?', a: 'En el IndexedDB de tu navegador — en tu propio dispositivo. Nada se sube jamás a un servidor. Cada navegador en cada dispositivo tiene su propio almacenamiento independiente.' },
+        { q: '¿Qué pasa si borro los datos del navegador?', a: 'Tus dibujos guardados se perderán. Exporta siempre una copia JSON de todo lo importante antes de borrar el almacenamiento del navegador.' },
         { q: '¿Puedo abrir archivos .dwg?', a: 'KulmanLab admite DXF (Drawing Exchange Format), no el formato propietario DWG. La mayoría de las aplicaciones CAD de escritorio pueden exportar DXF, así que exporta primero desde tu aplicación de origen.' },
         { q: '¿Qué formatos de exportación están disponibles?', a: 'DXF y JSON mediante Export — DXF para intercambio con otras herramientas CAD, JSON para guardados con fidelidad completa (incluidas cotas y líneas de referencia) dentro de KulmanLab. Por separado, Print exporta imágenes PNG, JPEG, WebP o PDF, con recorte de área opcional y modo monocromo.' },
       ],
@@ -153,8 +153,8 @@ export const faqContent: Record<string, FaqSection[]> = {
     {
       headingKey: 'faq.section.files',
       items: [
-        { q: 'Où mes dessins sont-ils stockés ?', a: "Dans le localStorage de votre navigateur — sur votre propre appareil. Rien n'est jamais téléchargé sur un serveur. Chaque navigateur sur chaque appareil a son propre stockage indépendant." },
-        { q: "Que se passe-t-il si j'efface les données de mon navigateur ?", a: "Vos dessins sauvegardés seront perdus. Exportez toujours une copie DXF de tout ce qui est important avant d'effacer le stockage du navigateur." },
+        { q: 'Où mes dessins sont-ils stockés ?', a: "Dans le IndexedDB de votre navigateur — sur votre propre appareil. Rien n'est jamais téléchargé sur un serveur. Chaque navigateur sur chaque appareil a son propre stockage indépendant." },
+        { q: "Que se passe-t-il si j'efface les données de mon navigateur ?", a: "Vos dessins sauvegardés seront perdus. Exportez toujours une copie JSON de tout ce qui est important avant d'effacer le stockage du navigateur." },
         { q: 'Puis-je ouvrir des fichiers .dwg ?', a: "KulmanLab prend en charge le DXF (Drawing Exchange Format), pas le format propriétaire DWG. La plupart des applications CAO de bureau peuvent exporter en DXF, exportez donc d'abord depuis votre application source." },
         { q: "Quels formats d'export sont disponibles ?", a: "DXF et JSON via Export — DXF pour l'échange avec d'autres outils CAO, JSON pour une sauvegarde à fidélité totale (y compris cotes et lignes de repère) dans KulmanLab. Séparément, Print exporte des images PNG, JPEG, WebP ou PDF, avec une zone de recadrage optionnelle et un mode monochrome." },
       ],
@@ -199,8 +199,8 @@ export const faqContent: Record<string, FaqSection[]> = {
     {
       headingKey: 'faq.section.files',
       items: [
-        { q: 'Dove sono archiviati i miei disegni?', a: 'Nel localStorage del tuo browser — sul tuo dispositivo. Nulla viene mai caricato su un server. Ogni browser su ogni dispositivo ha il proprio archivio indipendente.' },
-        { q: 'Cosa succede se cancello i dati del browser?', a: 'I tuoi disegni salvati andranno persi. Esporta sempre una copia DXF di tutto ciò che è importante prima di cancellare l\'archivio del browser.' },
+        { q: 'Dove sono archiviati i miei disegni?', a: 'Nel IndexedDB del tuo browser — sul tuo dispositivo. Nulla viene mai caricato su un server. Ogni browser su ogni dispositivo ha il proprio archivio indipendente.' },
+        { q: 'Cosa succede se cancello i dati del browser?', a: 'I tuoi disegni salvati andranno persi. Esporta sempre una copia JSON di tutto ciò che è importante prima di cancellare l\'archivio del browser.' },
         { q: 'Posso aprire file .dwg?', a: 'KulmanLab supporta DXF (Drawing Exchange Format), non il formato proprietario DWG. La maggior parte delle applicazioni CAD desktop può esportare DXF, quindi esporta prima dall\'applicazione sorgente.' },
         { q: 'Quali formati di esportazione sono disponibili?', a: "DXF e JSON tramite Export — DXF per lo scambio con altri strumenti CAD, JSON per salvataggi a piena fedeltà (comprese quote e linee di richiamo) all'interno di KulmanLab. Separatamente, Print esporta immagini PNG, JPEG, WebP o PDF, con ritaglio dell'area opzionale e modalità monocromatica." },
       ],
@@ -245,8 +245,8 @@ export const faqContent: Record<string, FaqSection[]> = {
     {
       headingKey: 'faq.section.files',
       items: [
-        { q: 'Onde meus desenhos são armazenados?', a: 'No localStorage do seu navegador — no seu próprio dispositivo. Nada é jamais enviado para um servidor. Cada navegador em cada dispositivo tem seu próprio armazenamento independente.' },
-        { q: 'O que acontece se eu limpar os dados do navegador?', a: 'Seus desenhos salvos serão perdidos. Sempre exporte uma cópia DXF de tudo que for importante antes de limpar o armazenamento do navegador.' },
+        { q: 'Onde meus desenhos são armazenados?', a: 'No IndexedDB do seu navegador — no seu próprio dispositivo. Nada é jamais enviado para um servidor. Cada navegador em cada dispositivo tem seu próprio armazenamento independente.' },
+        { q: 'O que acontece se eu limpar os dados do navegador?', a: 'Seus desenhos salvos serão perdidos. Sempre exporte uma cópia JSON de tudo que for importante antes de limpar o armazenamento do navegador.' },
         { q: 'Posso abrir arquivos .dwg?', a: 'O KulmanLab suporta DXF (Drawing Exchange Format), não o formato proprietário DWG. A maioria dos aplicativos CAD desktop pode exportar DXF, então exporte do seu aplicativo de origem primeiro.' },
         { q: 'Quais formatos de exportação estão disponíveis?', a: 'DXF e JSON via Export — DXF para intercâmbio com outras ferramentas CAD, JSON para salvamento com fidelidade total (incluindo cotas e linhas de chamada) dentro do KulmanLab. Separadamente, o Print exporta imagens PNG, JPEG, WebP ou PDF, com recorte de área opcional e modo monocromático.' },
       ],
@@ -291,8 +291,8 @@ export const faqContent: Record<string, FaqSection[]> = {
     {
       headingKey: 'faq.section.files',
       items: [
-        { q: '我的图纸存储在哪里？', a: '存储在您浏览器的 localStorage 中——在您自己的设备上。任何内容都不会上传到服务器。每台设备上的每个浏览器都有独立的存储空间。' },
-        { q: '如果我清除浏览器数据会怎样？', a: '您保存的图纸将会丢失。在清除浏览器存储之前，请务必导出重要图纸的 DXF 副本。' },
+        { q: '我的图纸存储在哪里？', a: '存储在您浏览器的 IndexedDB 中——在您自己的设备上。任何内容都不会上传到服务器。每台设备上的每个浏览器都有独立的存储空间。' },
+        { q: '如果我清除浏览器数据会怎样？', a: '您保存的图纸将会丢失。在清除浏览器存储之前，请务必导出重要图纸的 JSON 副本。' },
         { q: '可以打开 .dwg 文件吗？', a: 'KulmanLab 支持 DXF（图形交换格式），不支持专有的 DWG 格式。大多数桌面 CAD 应用可以导出 DXF，请先从源应用导出。' },
         { q: '支持哪些导出格式？', a: '通过 Export 支持 DXF 和 JSON——DXF 用于与其他 CAD 工具交换，JSON 用于在 KulmanLab 内部完整保真保存（包括标注和引线）。另外，Print 可导出 PNG、JPEG、WebP 或 PDF 图像，并可选择裁剪区域和黑白模式。' },
       ],
@@ -337,8 +337,8 @@ export const faqContent: Record<string, FaqSection[]> = {
     {
       headingKey: 'faq.section.files',
       items: [
-        { q: 'Çizimlerim nerede saklanır?', a: 'Tarayıcınızın localStorage\'ında — kendi cihazınızda. Hiçbir şey hiçbir zaman bir sunucuya yüklenmez. Her cihazda her tarayıcının bağımsız depolama alanı vardır.' },
-        { q: 'Tarayıcı verilerimi temizlersem ne olur?', a: 'Kayıtlı çizimleriniz kaybolur. Tarayıcı depolamasını temizlemeden önce her zaman önemli çizimlerin DXF kopyasını dışa aktarın.' },
+        { q: 'Çizimlerim nerede saklanır?', a: 'Tarayıcınızın IndexedDB\'ında — kendi cihazınızda. Hiçbir şey hiçbir zaman bir sunucuya yüklenmez. Her cihazda her tarayıcının bağımsız depolama alanı vardır.' },
+        { q: 'Tarayıcı verilerimi temizlersem ne olur?', a: 'Kayıtlı çizimleriniz kaybolur. Tarayıcı depolamasını temizlemeden önce her zaman önemli çizimlerin JSON kopyasını dışa aktarın.' },
         { q: '.dwg dosyalarını açabilir miyim?', a: 'KulmanLab, DXF (Drawing Exchange Format) formatını destekler, tescilli DWG formatını değil. Çoğu masaüstü CAD uygulaması DXF dışa aktarabilir, bu yüzden önce kaynak uygulamanızdan dışa aktarın.' },
         { q: 'Hangi dışa aktarma formatları mevcut?', a: 'Export ile DXF ve JSON — DXF diğer CAD araçlarıyla değiş tokuş için, JSON ise KulmanLab içinde tam sadakatle kaydetmek için (ölçüler ve lider çizgileri dahil). Ayrıca Print, PNG, JPEG, WebP veya PDF görüntüleri dışa aktarır; isteğe bağlı alan kırpma ve monokrom seçeneğiyle.' },
       ],
@@ -383,8 +383,8 @@ export const faqContent: Record<string, FaqSection[]> = {
     {
       headingKey: 'faq.section.files',
       items: [
-        { q: 'Де зберігаються мої кресленики?', a: 'У localStorage вашого браузера — на вашому пристрої. Нічого ніколи не завантажується на сервер. Кожен браузер на кожному пристрої має власне незалежне сховище.' },
-        { q: 'Що станеться, якщо я очищу дані браузера?', a: 'Ваші збережені кресленики буде втрачено. Завжди експортуйте копію DXF важливих кресленнь перед очищенням сховища браузера.' },
+        { q: 'Де зберігаються мої кресленики?', a: 'У IndexedDB вашого браузера — на вашому пристрої. Нічого ніколи не завантажується на сервер. Кожен браузер на кожному пристрої має власне незалежне сховище.' },
+        { q: 'Що станеться, якщо я очищу дані браузера?', a: 'Ваші збережені кресленики буде втрачено. Завжди експортуйте копію JSON важливих кресленнь перед очищенням сховища браузера.' },
         { q: 'Чи можна відкривати файли .dwg?', a: 'KulmanLab підтримує DXF (Drawing Exchange Format), а не власний формат DWG. Більшість настільних CAD-програм можуть експортувати DXF, тому спочатку виконайте експорт з вихідної програми.' },
         { q: 'Які формати експорту доступні?', a: 'DXF і JSON через Export — DXF для обміну з іншими CAD-інструментами, JSON для збереження з повною точністю (включно з розмірами та виносками) у KulmanLab. Окремо Print експортує зображення PNG, JPEG, WebP або PDF, з опціональним обрізанням області та монохромним режимом.' },
       ],
@@ -429,8 +429,8 @@ export const faqContent: Record<string, FaqSection[]> = {
     {
       headingKey: 'faq.section.files',
       items: [
-        { q: 'मेरी ड्राइंग कहां संग्रहीत होती हैं?', a: 'आपके ब्राउज़र के localStorage में — आपके अपने डिवाइस पर। कुछ भी कभी सर्वर पर अपलोड नहीं होता। प्रत्येक डिवाइस पर प्रत्येक ब्राउज़र का अपना स्वतंत्र स्टोरेज होता है।' },
-        { q: 'अगर मैं ब्राउज़र डेटा साफ़ करूं तो क्या होगा?', a: 'आपकी सहेजी गई ड्राइंग खो जाएंगी। ब्राउज़र स्टोरेज साफ़ करने से पहले हमेशा महत्वपूर्ण ड्राइंग की DXF कॉपी निर्यात करें।' },
+        { q: 'मेरी ड्राइंग कहां संग्रहीत होती हैं?', a: 'आपके ब्राउज़र के IndexedDB में — आपके अपने डिवाइस पर। कुछ भी कभी सर्वर पर अपलोड नहीं होता। प्रत्येक डिवाइस पर प्रत्येक ब्राउज़र का अपना स्वतंत्र स्टोरेज होता है।' },
+        { q: 'अगर मैं ब्राउज़र डेटा साफ़ करूं तो क्या होगा?', a: 'आपकी सहेजी गई ड्राइंग खो जाएंगी। ब्राउज़र स्टोरेज साफ़ करने से पहले हमेशा महत्वपूर्ण ड्राइंग की JSON कॉपी निर्यात करें।' },
         { q: 'क्या मैं .dwg फ़ाइलें खोल सकता हूं?', a: 'KulmanLab DXF (Drawing Exchange Format) का समर्थन करता है, न कि DWG प्रारूप का। अधिकांश डेस्कटॉप CAD एप्लिकेशन DXF निर्यात कर सकते हैं, इसलिए पहले अपने स्रोत ऐप से निर्यात करें।' },
         { q: 'कौन से निर्यात प्रारूप उपलब्ध हैं?', a: 'Export के ज़रिए DXF और JSON — DXF अन्य CAD टूल के साथ आदान-प्रदान के लिए, JSON KulmanLab के भीतर पूर्ण-निष्ठा वाली सेव (डायमेंशन और लीडर सहित) के लिए। इसके अलावा, Print PNG, JPEG, WebP या PDF इमेज एक्सपोर्ट करता है, जिसमें वैकल्पिक क्षेत्र क्रॉप और मोनोक्रोम विकल्प शामिल है।' },
       ],
@@ -475,8 +475,8 @@ export const faqContent: Record<string, FaqSection[]> = {
     {
       headingKey: 'faq.section.files',
       items: [
-        { q: 'أين تُخزَّن رسوماتي؟', a: 'في localStorage المتصفح — على جهازك الخاص. لا شيء يُرفع إلى خادم أبداً. كل متصفح على كل جهاز له تخزينه المستقل.' },
-        { q: 'ماذا يحدث إذا مسحت بيانات المتصفح؟', a: 'ستُفقد رسوماتك المحفوظة. صدّر دائماً نسخة DXF من أي رسم مهم قبل مسح تخزين المتصفح.' },
+        { q: 'أين تُخزَّن رسوماتي؟', a: 'في IndexedDB المتصفح — على جهازك الخاص. لا شيء يُرفع إلى خادم أبداً. كل متصفح على كل جهاز له تخزينه المستقل.' },
+        { q: 'ماذا يحدث إذا مسحت بيانات المتصفح؟', a: 'ستُفقد رسوماتك المحفوظة. صدّر دائماً نسخة JSON من أي رسم مهم قبل مسح تخزين المتصفح.' },
         { q: 'هل يمكنني فتح ملفات .dwg؟', a: 'يدعم KulmanLab تنسيق DXF (Drawing Exchange Format) وليس تنسيق DWG الخاص. معظم تطبيقات CAD لسطح المكتب تستطيع تصدير DXF، لذا صدّر من تطبيقك المصدر أولاً.' },
         { q: 'ما تنسيقات التصدير المتاحة؟', a: 'DXF وJSON عبر Export — DXF للتبادل مع أدوات CAD الأخرى، وJSON للحفظ الكامل الدقة (بما في ذلك الأبعاد وخطوط القيادة) داخل KulmanLab. بشكل منفصل، يقوم Print بتصدير صور PNG أو JPEG أو WebP أو PDF، مع خيار اقتصاص منطقة اختياري ووضع أحادي اللون.' },
       ],
@@ -521,8 +521,8 @@ export const faqContent: Record<string, FaqSection[]> = {
     {
       headingKey: 'faq.section.files',
       items: [
-        { q: 'Di mana gambar saya disimpan?', a: 'Di localStorage browser Anda — di perangkat Anda sendiri. Tidak ada yang pernah diunggah ke server. Setiap browser di setiap perangkat memiliki penyimpanan independennya sendiri.' },
-        { q: 'Apa yang terjadi jika saya menghapus data browser?', a: 'Gambar tersimpan Anda akan hilang. Selalu ekspor salinan DXF dari hal penting sebelum menghapus penyimpanan browser.' },
+        { q: 'Di mana gambar saya disimpan?', a: 'Di IndexedDB browser Anda — di perangkat Anda sendiri. Tidak ada yang pernah diunggah ke server. Setiap browser di setiap perangkat memiliki penyimpanan independennya sendiri.' },
+        { q: 'Apa yang terjadi jika saya menghapus data browser?', a: 'Gambar tersimpan Anda akan hilang. Selalu ekspor salinan JSON dari hal penting sebelum menghapus penyimpanan browser.' },
         { q: 'Bisakah saya membuka file .dwg?', a: 'KulmanLab mendukung DXF (Drawing Exchange Format), bukan format DWG yang bersifat proprietary. Sebagian besar aplikasi CAD desktop dapat mengekspor DXF, jadi ekspor dari aplikasi sumber Anda terlebih dahulu.' },
         { q: 'Format ekspor apa yang tersedia?', a: 'DXF dan JSON melalui Export — DXF untuk pertukaran dengan alat CAD lain, JSON untuk penyimpanan dengan fidelitas penuh (termasuk dimensi dan leader) di dalam KulmanLab. Secara terpisah, Print mengekspor gambar PNG, JPEG, WebP, atau PDF, dengan opsi pemotongan area dan mode monokrom.' },
       ],
@@ -566,8 +566,8 @@ export const faqContent: Record<string, FaqSection[]> = {
     {
       headingKey: 'faq.section.files',
       items: [
-        { q: '図面はどこに保存されますか？', a: 'ブラウザのlocalStorage、つまりご自身のデバイス上に保存されます。サーバーへのアップロードは一切行われません。デバイスごと、ブラウザごとに独立したストレージが使われます。' },
-        { q: 'ブラウザのデータを消去するとどうなりますか？', a: '保存済みの図面が失われます。重要なファイルはブラウザデータを消去する前に必ずDXFとしてエクスポートしておいてください。' },
+        { q: '図面はどこに保存されますか？', a: 'ブラウザのIndexedDB、つまりご自身のデバイス上に保存されます。サーバーへのアップロードは一切行われません。デバイスごと、ブラウザごとに独立したストレージが使われます。' },
+        { q: 'ブラウザのデータを消去するとどうなりますか？', a: '保存済みの図面が失われます。重要なファイルはブラウザデータを消去する前に必ずJSONとしてエクスポートしておいてください。' },
         { q: '.dwgファイルは開けますか？', a: 'KulmanLabはDXF（Drawing Exchange Format）に対応しています。DWGには対応していません。多くのCADアプリからDXF形式でエクスポートできますので、先にDXFへ変換してください。' },
         { q: '出力できるファイル形式は何ですか？', a: 'Export では DXF と JSON に対応 — DXF は他の CAD ツールとのやり取り用、JSON は寸法やリーダーを含めた完全な保存用（KulmanLab 内部形式）です。別途、Print では PNG、JPEG、WebP、PDF 画像を書き出せ、任意のエリア切り出しとモノクロ設定にも対応しています。' },
       ],
@@ -612,8 +612,8 @@ export const faqContent: Record<string, FaqSection[]> = {
     {
       headingKey: 'faq.section.files',
       items: [
-        { q: 'Gdzie są przechowywane moje rysunki?', a: 'W localStorage Twojej przeglądarki — na Twoim własnym urządzeniu. Żadne dane nie są nigdy przesyłane na serwer. Każda przeglądarka na każdym urządzeniu ma własną niezależną przestrzeń przechowywania.' },
-        { q: 'Co się stanie, jeśli wyczyści dane przeglądarki?', a: 'Twoje zapisane rysunki zostaną utracone. Zawsze eksportuj kopię DXF wszystkich ważnych rysunków przed wyczyszczeniem danych przeglądarki.' },
+        { q: 'Gdzie są przechowywane moje rysunki?', a: 'W IndexedDB Twojej przeglądarki — na Twoim własnym urządzeniu. Żadne dane nie są nigdy przesyłane na serwer. Każda przeglądarka na każdym urządzeniu ma własną niezależną przestrzeń przechowywania.' },
+        { q: 'Co się stanie, jeśli wyczyści dane przeglądarki?', a: 'Twoje zapisane rysunki zostaną utracone. Zawsze eksportuj kopię JSON wszystkich ważnych rysunków przed wyczyszczeniem danych przeglądarki.' },
         { q: 'Czy mogę otwierać pliki .dwg?', a: 'KulmanLab obsługuje format DXF (Drawing Exchange Format), a nie własnościowy format DWG. Większość desktopowych aplikacji CAD może eksportować DXF — najpierw wyeksportuj plik ze swojej aplikacji źródłowej.' },
         { q: 'Jakie formaty eksportu są dostępne?', a: 'DXF i JSON przez Export — DXF do wymiany z innymi narzędziami CAD, JSON do zapisu z pełną wiernością (łącznie z wymiarami i liniami odniesienia) w KulmanLab. Osobno, Print eksportuje obrazy PNG, JPEG, WebP lub PDF, z opcjonalnym przycinaniem obszaru i trybem monochromatycznym.' },
       ],
@@ -658,8 +658,8 @@ export const faqContent: Record<string, FaqSection[]> = {
     {
       headingKey: 'faq.section.files',
       items: [
-        { q: '도면은 어디에 저장되나요?', a: '브라우저의 localStorage에 저장됩니다. 즉, 사용자의 기기에만 보관됩니다. 서버에는 아무것도 업로드되지 않습니다. 기기와 브라우저마다 독립적인 저장 공간을 사용합니다.' },
-        { q: '브라우저 데이터를 삭제하면 어떻게 되나요?', a: '저장된 도면이 모두 삭제됩니다. 브라우저 저장 공간을 비우기 전에 중요한 도면의 DXF 파일을 반드시 내보내두세요.' },
+        { q: '도면은 어디에 저장되나요?', a: '브라우저의 IndexedDB에 저장됩니다. 즉, 사용자의 기기에만 보관됩니다. 서버에는 아무것도 업로드되지 않습니다. 기기와 브라우저마다 독립적인 저장 공간을 사용합니다.' },
+        { q: '브라우저 데이터를 삭제하면 어떻게 되나요?', a: '저장된 도면이 모두 삭제됩니다. 브라우저 저장 공간을 비우기 전에 중요한 도면의 JSON 파일을 반드시 내보내두세요.' },
         { q: '.dwg 파일을 열 수 있나요?', a: 'KulmanLab은 DXF(Drawing Exchange Format)를 지원하며 독점 형식인 DWG는 지원하지 않습니다. 대부분의 데스크톱 CAD 프로그램에서 DXF로 내보낼 수 있으므로, 원본 프로그램에서 먼저 내보내기를 하세요.' },
         { q: '어떤 내보내기 형식을 사용할 수 있나요?', a: 'Export를 통해 DXF와 JSON을 사용할 수 있습니다 — DXF는 다른 CAD 도구와의 교환용, JSON은 치수와 지시선을 포함한 완전한 형태로 KulmanLab 내에 저장하기 위한 것입니다. 별도로 Print는 PNG, JPEG, WebP, PDF 이미지를 내보내며, 선택적 영역 자르기와 흑백 모드를 제공합니다.' },
       ],
@@ -704,8 +704,8 @@ export const faqContent: Record<string, FaqSection[]> = {
     {
       headingKey: 'faq.section.files',
       items: [
-        { q: 'Bản vẽ của tôi được lưu trữ ở đâu?', a: 'Trong localStorage của trình duyệt — trên thiết bị của chính bạn. Không có gì được tải lên máy chủ. Mỗi trình duyệt trên mỗi thiết bị có bộ nhớ lưu trữ độc lập riêng.' },
-        { q: 'Điều gì xảy ra nếu tôi xóa dữ liệu trình duyệt?', a: 'Các bản vẽ đã lưu của bạn sẽ bị mất. Hãy luôn xuất bản sao DXF của những bản vẽ quan trọng trước khi xóa bộ nhớ trình duyệt.' },
+        { q: 'Bản vẽ của tôi được lưu trữ ở đâu?', a: 'Trong IndexedDB của trình duyệt — trên thiết bị của chính bạn. Không có gì được tải lên máy chủ. Mỗi trình duyệt trên mỗi thiết bị có bộ nhớ lưu trữ độc lập riêng.' },
+        { q: 'Điều gì xảy ra nếu tôi xóa dữ liệu trình duyệt?', a: 'Các bản vẽ đã lưu của bạn sẽ bị mất. Hãy luôn xuất bản sao JSON của những bản vẽ quan trọng trước khi xóa bộ nhớ trình duyệt.' },
         { q: 'Tôi có thể mở tệp .dwg không?', a: 'KulmanLab hỗ trợ DXF (Drawing Exchange Format), không hỗ trợ định dạng DWG độc quyền. Hầu hết các ứng dụng CAD máy tính để bàn đều có thể xuất DXF, vì vậy hãy xuất từ ứng dụng nguồn của bạn trước.' },
         { q: 'Những định dạng xuất nào có sẵn?', a: 'DXF và JSON qua Export — DXF để trao đổi với các công cụ CAD khác, JSON để lưu với độ trung thực đầy đủ (bao gồm kích thước và đường dẫn chú thích) trong KulmanLab. Riêng Print xuất ảnh PNG, JPEG, WebP hoặc PDF, với tùy chọn cắt vùng và chế độ đơn sắc.' },
       ],
@@ -749,8 +749,8 @@ export const faqContent: Record<string, FaqSection[]> = {
     {
       headingKey: 'faq.section.files',
       items: [
-        { q: 'ไฟล์ภาพของฉันเก็บอยู่ที่ไหน?', a: 'ใน localStorage ของเบราว์เซอร์ — บนอุปกรณ์ของคุณเอง ไม่มีอะไรถูกอัปโหลดไปยังเซิร์ฟเวอร์ แต่ละเบราว์เซอร์บนแต่ละอุปกรณ์มีพื้นที่จัดเก็บอิสระของตัวเอง' },
-        { q: 'เกิดอะไรขึ้นถ้าฉันล้างข้อมูลเบราว์เซอร์?', a: 'ไฟล์ภาพที่บันทึกไว้จะสูญหาย ควรส่งออกสำเนา DXF ของสิ่งสำคัญก่อนล้างหน่วยความจำเบราว์เซอร์เสมอ' },
+        { q: 'ไฟล์ภาพของฉันเก็บอยู่ที่ไหน?', a: 'ใน IndexedDB ของเบราว์เซอร์ — บนอุปกรณ์ของคุณเอง ไม่มีอะไรถูกอัปโหลดไปยังเซิร์ฟเวอร์ แต่ละเบราว์เซอร์บนแต่ละอุปกรณ์มีพื้นที่จัดเก็บอิสระของตัวเอง' },
+        { q: 'เกิดอะไรขึ้นถ้าฉันล้างข้อมูลเบราว์เซอร์?', a: 'ไฟล์ภาพที่บันทึกไว้จะสูญหาย ควรส่งออกสำเนา JSON ของสิ่งสำคัญก่อนล้างหน่วยความจำเบราว์เซอร์เสมอ' },
         { q: 'ฉันสามารถเปิดไฟล์ .dwg ได้ไหม?', a: 'KulmanLab รองรับ DXF (Drawing Exchange Format) ไม่ใช่รูปแบบ DWG ที่เป็นกรรมสิทธิ์ แอปพลิเคชัน CAD บนเดสก์ท็อปส่วนใหญ่สามารถส่งออก DXF ได้ ดังนั้นให้ส่งออกจากแอปต้นทางก่อน' },
         { q: 'รูปแบบการส่งออกใดบ้างที่รองรับ?', a: 'DXF และ JSON ผ่าน Export — DXF สำหรับแลกเปลี่ยนกับเครื่องมือ CAD อื่น ส่วน JSON สำหรับบันทึกแบบคงความถูกต้องสมบูรณ์ (รวมเส้นบอกขนาดและเส้นชี้) ภายใน KulmanLab แยกต่างหาก Print จะส่งออกภาพ PNG, JPEG, WebP หรือ PDF พร้อมตัวเลือกครอบตัดพื้นที่และโหมดขาวดำ' },
       ],
@@ -794,8 +794,8 @@ export const faqContent: Record<string, FaqSection[]> = {
     {
       headingKey: 'faq.section.files',
       items: [
-        { q: 'Di mana lukisan saya disimpan?', a: 'Dalam localStorage pelayar anda — pada peranti anda sendiri. Tiada apa yang dimuat naik ke pelayan. Setiap pelayar pada setiap peranti mempunyai storan bebas yang tersendiri.' },
-        { q: 'Apa yang berlaku jika saya memadamkan data pelayar?', a: 'Lukisan yang disimpan akan hilang. Sentiasa eksport salinan DXF bagi sebarang perkara penting sebelum memadamkan storan pelayar.' },
+        { q: 'Di mana lukisan saya disimpan?', a: 'Dalam IndexedDB pelayar anda — pada peranti anda sendiri. Tiada apa yang dimuat naik ke pelayan. Setiap pelayar pada setiap peranti mempunyai storan bebas yang tersendiri.' },
+        { q: 'Apa yang berlaku jika saya memadamkan data pelayar?', a: 'Lukisan yang disimpan akan hilang. Sentiasa eksport salinan JSON bagi sebarang perkara penting sebelum memadamkan storan pelayar.' },
         { q: 'Bolehkah saya membuka fail .dwg?', a: 'KulmanLab menyokong DXF (Drawing Exchange Format), bukan format DWG proprietari. Kebanyakan aplikasi CAD desktop boleh mengeksport DXF, jadi eksport dari aplikasi sumber anda dahulu.' },
         { q: 'Format eksport apa yang tersedia?', a: 'DXF dan JSON melalui Export — DXF untuk pertukaran dengan alat CAD lain, JSON untuk simpanan kesetiaan penuh (termasuk dimensi dan leader) dalam KulmanLab. Secara berasingan, Print mengeksport imej PNG, JPEG, WebP, atau PDF, dengan pilihan pangkasan kawasan dan mod monokrom.' },
       ],
@@ -840,8 +840,8 @@ export const faqContent: Record<string, FaqSection[]> = {
     {
       headingKey: 'faq.section.files',
       items: [
-        { q: 'আমার ড্রয়িংগুলো কোথায় সংরক্ষিত হয়?', a: 'আপনার ব্রাউজারের localStorage-এ — আপনার নিজের ডিভাইসে। কিছুই কখনো সার্ভারে আপলোড হয় না। প্রতিটি ডিভাইসের প্রতিটি ব্রাউজারের নিজস্ব স্বাধীন স্টোরেজ আছে।' },
-        { q: 'আমি যদি ব্রাউজার ডেটা মুছে ফেলি তাহলে কী হবে?', a: 'আপনার সংরক্ষিত ড্রয়িংগুলো হারিয়ে যাবে। ব্রাউজার স্টোরেজ পরিষ্কার করার আগে সবসময় গুরুত্বপূর্ণ জিনিসগুলোর DXF কপি এক্সপোর্ট করুন।' },
+        { q: 'আমার ড্রয়িংগুলো কোথায় সংরক্ষিত হয়?', a: 'আপনার ব্রাউজারের IndexedDB-এ — আপনার নিজের ডিভাইসে। কিছুই কখনো সার্ভারে আপলোড হয় না। প্রতিটি ডিভাইসের প্রতিটি ব্রাউজারের নিজস্ব স্বাধীন স্টোরেজ আছে।' },
+        { q: 'আমি যদি ব্রাউজার ডেটা মুছে ফেলি তাহলে কী হবে?', a: 'আপনার সংরক্ষিত ড্রয়িংগুলো হারিয়ে যাবে। ব্রাউজার স্টোরেজ পরিষ্কার করার আগে সবসময় গুরুত্বপূর্ণ জিনিসগুলোর JSON কপি এক্সপোর্ট করুন।' },
         { q: 'আমি কি .dwg ফাইল খুলতে পারব?', a: 'KulmanLab DXF (Drawing Exchange Format) সমর্থন করে, মালিকানাধীন DWG ফরম্যাট নয়। বেশিরভাগ ডেস্কটপ CAD অ্যাপ্লিকেশন DXF এক্সপোর্ট করতে পারে, তাই প্রথমে আপনার সোর্স অ্যাপ থেকে এক্সপোর্ট করুন।' },
         { q: 'কোন এক্সপোর্ট ফরম্যাটগুলো পাওয়া যায়?', a: 'Export-এর মাধ্যমে DXF এবং JSON — অন্যান্য CAD টুলের সাথে আদান-প্রদানের জন্য DXF, এবং KulmanLab-এর মধ্যে সম্পূর্ণ বিশ্বস্ততার সাথে সংরক্ষণের জন্য (ডাইমেনশন ও লিডার সহ) JSON। আলাদাভাবে, Print PNG, JPEG, WebP বা PDF ছবি এক্সপোর্ট করে, ঐচ্ছিক এরিয়া ক্রপ ও মনোক্রোম মোড সহ।' },
       ],
@@ -886,8 +886,8 @@ export const faqContent: Record<string, FaqSection[]> = {
     {
       headingKey: 'faq.section.files',
       items: [
-        { q: 'Michoro yangu inahifadhiwa wapi?', a: 'Katika localStorage ya kivinjari chako — kwenye kifaa chako mwenyewe. Hakuna kinachopakiwa kwenye seva. Kila kivinjari kwenye kila kifaa kina hifadhi yake huru.' },
-        { q: 'Nini kinatokea nikifuta data ya kivinjari?', a: 'Michoro yako iliyohifadhiwa itapotea. Daima hamisha nakala ya DXF ya kitu chochote muhimu kabla ya kufuta hifadhi ya kivinjari.' },
+        { q: 'Michoro yangu inahifadhiwa wapi?', a: 'Katika IndexedDB ya kivinjari chako — kwenye kifaa chako mwenyewe. Hakuna kinachopakiwa kwenye seva. Kila kivinjari kwenye kila kifaa kina hifadhi yake huru.' },
+        { q: 'Nini kinatokea nikifuta data ya kivinjari?', a: 'Michoro yako iliyohifadhiwa itapotea. Daima hamisha nakala ya JSON ya kitu chochote muhimu kabla ya kufuta hifadhi ya kivinjari.' },
         { q: 'Je, naweza kufungua faili za .dwg?', a: 'KulmanLab inaauni DXF (Drawing Exchange Format), si muundo wa DWG wa umiliki. Programu nyingi za CAD za kompyuta zinaweza kuhamisha DXF, kwa hivyo hamisha kutoka programu yako ya asili kwanza.' },
         { q: 'Miundo ipi ya uhamishaji inapatikana?', a: 'DXF na JSON kupitia Export — DXF kwa kubadilishana na zana zingine za CAD, JSON kwa uhifadhi kamili (ikiwemo vipimo na mistari ya kiongozi) ndani ya KulmanLab. Kando, Print huhamisha picha za PNG, JPEG, WebP, au PDF, zikiwa na chaguo la kukata eneo na hali ya rangi moja (monochrome).' },
       ],
@@ -932,8 +932,8 @@ export const faqContent: Record<string, FaqSection[]> = {
     {
       headingKey: 'faq.section.files',
       items: [
-        { q: 'میری ڈرائنگز کہاں محفوظ ہوتی ہیں؟', a: 'آپ کے براؤزر کے localStorage میں — آپ کے اپنے آلے پر۔ کچھ بھی کبھی سرور پر اپلوڈ نہیں ہوتا۔ ہر آلے پر ہر براؤزر کا اپنا آزاد اسٹوریج ہوتا ہے۔' },
-        { q: 'اگر میں براؤزر ڈیٹا صاف کروں تو کیا ہوگا؟', a: 'آپ کی محفوظ ڈرائنگز ضائع ہو جائیں گی۔ براؤزر اسٹوریج صاف کرنے سے پہلے ہمیشہ کسی بھی اہم چیز کی DXF کاپی برآمد کریں۔' },
+        { q: 'میری ڈرائنگز کہاں محفوظ ہوتی ہیں؟', a: 'آپ کے براؤزر کے IndexedDB میں — آپ کے اپنے آلے پر۔ کچھ بھی کبھی سرور پر اپلوڈ نہیں ہوتا۔ ہر آلے پر ہر براؤزر کا اپنا آزاد اسٹوریج ہوتا ہے۔' },
+        { q: 'اگر میں براؤزر ڈیٹا صاف کروں تو کیا ہوگا؟', a: 'آپ کی محفوظ ڈرائنگز ضائع ہو جائیں گی۔ براؤزر اسٹوریج صاف کرنے سے پہلے ہمیشہ کسی بھی اہم چیز کی JSON کاپی برآمد کریں۔' },
         { q: 'کیا میں .dwg فائلیں کھول سکتا ہوں؟', a: 'KulmanLab DXF (Drawing Exchange Format) سپورٹ کرتا ہے، نہ کہ ملکیتی DWG فارمیٹ۔ زیادہ تر ڈیسک ٹاپ CAD ایپلیکیشنز DXF برآمد کر سکتی ہیں، اس لیے پہلے اپنی سورس ایپ سے برآمد کریں۔' },
         { q: 'کون سے برآمد فارمیٹس دستیاب ہیں؟', a: 'Export کے ذریعے DXF اور JSON — دوسرے CAD ٹولز کے ساتھ تبادلے کے لیے DXF، اور KulmanLab کے اندر مکمل وفاداری کے ساتھ محفوظ کرنے کے لیے (طول و عرض اور لیڈرز سمیت) JSON۔ الگ سے، Print PNG، JPEG، WebP، یا PDF تصاویر برآمد کرتا ہے، جس میں اختیاری ایریا کراپ اور مونوکروم موڈ شامل ہے۔' },
       ],
@@ -978,8 +978,8 @@ export const faqContent: Record<string, FaqSection[]> = {
     {
       headingKey: 'faq.section.files',
       items: [
-        { q: 'Πού αποθηκεύονται τα σχέδιά μου;', a: 'Στο localStorage του browser σας — στη δική σας συσκευή. Τίποτα δεν ανεβαίνει ποτέ σε διακομιστή. Κάθε browser σε κάθε συσκευή έχει τη δική του ανεξάρτητη αποθήκευση.' },
-        { q: 'Τι συμβαίνει αν καθαρίσω τα δεδομένα του browser;', a: 'Τα αποθηκευμένα σχέδιά σας θα χαθούν. Πάντα εξάγετε αντίγραφο DXF οτιδήποτε σημαντικού πριν καθαρίσετε την αποθήκευση του browser.' },
+        { q: 'Πού αποθηκεύονται τα σχέδιά μου;', a: 'Στο IndexedDB του browser σας — στη δική σας συσκευή. Τίποτα δεν ανεβαίνει ποτέ σε διακομιστή. Κάθε browser σε κάθε συσκευή έχει τη δική του ανεξάρτητη αποθήκευση.' },
+        { q: 'Τι συμβαίνει αν καθαρίσω τα δεδομένα του browser;', a: 'Τα αποθηκευμένα σχέδιά σας θα χαθούν. Πάντα εξάγετε αντίγραφο JSON οτιδήποτε σημαντικού πριν καθαρίσετε την αποθήκευση του browser.' },
         { q: 'Μπορώ να ανοίξω αρχεία .dwg;', a: 'Το KulmanLab υποστηρίζει DXF (Drawing Exchange Format), όχι τη μορφή DWG. Τα περισσότερα desktop CAD μπορούν να εξάγουν DXF, οπότε εξάγετε πρώτα από την εφαρμογή πηγής σας.' },
         { q: 'Ποιες μορφές εξαγωγής είναι διαθέσιμες;', a: 'DXF και JSON μέσω Export — DXF για ανταλλαγή με άλλα εργαλεία CAD, JSON για αποθήκευση πλήρους πιστότητας (συμπεριλαμβανομένων διαστάσεων και οδηγών) εντός του KulmanLab. Ξεχωριστά, το Print εξάγει εικόνες PNG, JPEG, WebP ή PDF, με προαιρετική περικοπή περιοχής και λειτουργία μονόχρωμου.' },
       ],
@@ -1023,8 +1023,8 @@ export const faqContent: Record<string, FaqSection[]> = {
     {
       headingKey: 'faq.section.files',
       items: [
-        { q: 'ਮੇਰੀਆਂ ਡਰਾਇੰਗਾਂ ਕਿੱਥੇ ਸੰਭਾਲੀਆਂ ਜਾਂਦੀਆਂ ਹਨ?', a: 'ਤੁਹਾਡੇ ਬ੍ਰਾਊਜ਼ਰ ਦੇ localStorage ਵਿੱਚ — ਤੁਹਾਡੀ ਆਪਣੀ ਡਿਵਾਈਸ ਉੱਤੇ। ਕੁਝ ਵੀ ਕਦੇ ਸਰਵਰ ਉੱਤੇ ਅੱਪਲੋਡ ਨਹੀਂ ਹੁੰਦਾ। ਹਰੇਕ ਡਿਵਾਈਸ ਦੇ ਹਰੇਕ ਬ੍ਰਾਊਜ਼ਰ ਦੀ ਆਪਣੀ ਸੁਤੰਤਰ ਸਟੋਰੇਜ ਹੁੰਦੀ ਹੈ।' },
-        { q: 'ਜੇ ਮੈਂ ਬ੍ਰਾਊਜ਼ਰ ਡਾਟਾ ਮਿਟਾ ਦੇਵਾਂ ਤਾਂ ਕੀ ਹੋਵੇਗਾ?', a: 'ਤੁਹਾਡੀਆਂ ਸੰਭਾਲੀਆਂ ਡਰਾਇੰਗਾਂ ਗੁੰਮ ਹੋ ਜਾਣਗੀਆਂ। ਬ੍ਰਾਊਜ਼ਰ ਸਟੋਰੇਜ ਸਾਫ਼ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਹਮੇਸ਼ਾ ਜ਼ਰੂਰੀ ਚੀਜ਼ਾਂ ਦੀ DXF ਕਾਪੀ ਐਕਸਪੋਰਟ ਕਰੋ।' },
+        { q: 'ਮੇਰੀਆਂ ਡਰਾਇੰਗਾਂ ਕਿੱਥੇ ਸੰਭਾਲੀਆਂ ਜਾਂਦੀਆਂ ਹਨ?', a: 'ਤੁਹਾਡੇ ਬ੍ਰਾਊਜ਼ਰ ਦੇ IndexedDB ਵਿੱਚ — ਤੁਹਾਡੀ ਆਪਣੀ ਡਿਵਾਈਸ ਉੱਤੇ। ਕੁਝ ਵੀ ਕਦੇ ਸਰਵਰ ਉੱਤੇ ਅੱਪਲੋਡ ਨਹੀਂ ਹੁੰਦਾ। ਹਰੇਕ ਡਿਵਾਈਸ ਦੇ ਹਰੇਕ ਬ੍ਰਾਊਜ਼ਰ ਦੀ ਆਪਣੀ ਸੁਤੰਤਰ ਸਟੋਰੇਜ ਹੁੰਦੀ ਹੈ।' },
+        { q: 'ਜੇ ਮੈਂ ਬ੍ਰਾਊਜ਼ਰ ਡਾਟਾ ਮਿਟਾ ਦੇਵਾਂ ਤਾਂ ਕੀ ਹੋਵੇਗਾ?', a: 'ਤੁਹਾਡੀਆਂ ਸੰਭਾਲੀਆਂ ਡਰਾਇੰਗਾਂ ਗੁੰਮ ਹੋ ਜਾਣਗੀਆਂ। ਬ੍ਰਾਊਜ਼ਰ ਸਟੋਰੇਜ ਸਾਫ਼ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਹਮੇਸ਼ਾ ਜ਼ਰੂਰੀ ਚੀਜ਼ਾਂ ਦੀ JSON ਕਾਪੀ ਐਕਸਪੋਰਟ ਕਰੋ।' },
         { q: 'ਕੀ ਮੈਂ .dwg ਫਾਈਲਾਂ ਖੋਲ੍ਹ ਸਕਦਾ ਹਾਂ?', a: 'KulmanLab DXF (Drawing Exchange Format) ਸਪੋਰਟ ਕਰਦਾ ਹੈ, ਮਲਕੀਅਤੀ DWG ਫਾਰਮੈਟ ਨਹੀਂ। ਜ਼ਿਆਦਾਤਰ ਡੈਸਕਟੌਪ CAD ਐਪਲੀਕੇਸ਼ਨ DXF ਐਕਸਪੋਰਟ ਕਰ ਸਕਦੀਆਂ ਹਨ, ਇਸ ਲਈ ਪਹਿਲਾਂ ਆਪਣੀ ਸੋਰਸ ਐਪ ਤੋਂ ਐਕਸਪੋਰਟ ਕਰੋ।' },
         { q: 'ਕਿਹੜੇ ਐਕਸਪੋਰਟ ਫਾਰਮੈਟ ਉਪਲਬਧ ਹਨ?', a: "Export ਰਾਹੀਂ DXF ਅਤੇ JSON — ਹੋਰ CAD ਟੂਲਾਂ ਨਾਲ ਵਟਾਂਦਰੇ ਲਈ DXF, ਅਤੇ KulmanLab ਦੇ ਅੰਦਰ ਪੂਰੀ ਵਫ਼ਾਦਾਰੀ ਨਾਲ ਸੰਭਾਲਣ ਲਈ (ਡਾਇਮੈਂਸ਼ਨ ਅਤੇ ਲੀਡਰ ਸਮੇਤ) JSON। ਵੱਖਰੇ ਤੌਰ 'ਤੇ, Print PNG, JPEG, WebP, ਜਾਂ PDF ਚਿੱਤਰ ਐਕਸਪੋਰਟ ਕਰਦਾ ਹੈ, ਵਿਕਲਪਿਕ ਏਰੀਆ ਕ੍ਰੌਪ ਅਤੇ ਮੋਨੋਕ੍ਰੋਮ ਮੋਡ ਨਾਲ।" },
       ],
@@ -1068,8 +1068,8 @@ export const faqContent: Record<string, FaqSection[]> = {
     {
       headingKey: 'faq.section.files',
       items: [
-        { q: 'Var sparas mina ritningar?', a: 'I webbläsarens localStorage — på din egen enhet. Ingenting laddas någonsin upp till en server. Varje webbläsare på varje enhet har sin egen oberoende lagring.' },
-        { q: 'Vad händer om jag rensar webbläsardata?', a: 'Dina sparade ritningar går förlorade. Exportera alltid en DXF-kopia av viktiga saker innan du rensar webbläsarlagringen.' },
+        { q: 'Var sparas mina ritningar?', a: 'I webbläsarens IndexedDB — på din egen enhet. Ingenting laddas någonsin upp till en server. Varje webbläsare på varje enhet har sin egen oberoende lagring.' },
+        { q: 'Vad händer om jag rensar webbläsardata?', a: 'Dina sparade ritningar går förlorade. Exportera alltid en JSON-kopia av viktiga saker innan du rensar webbläsarlagringen.' },
         { q: 'Kan jag öppna .dwg-filer?', a: 'KulmanLab stödjer DXF (Drawing Exchange Format), inte det proprietära DWG-formatet. De flesta skrivbords-CAD-program kan exportera DXF, så exportera från din källapp först.' },
         { q: 'Vilka exportformat är tillgängliga?', a: 'DXF och JSON via Export — DXF för utbyte med andra CAD-verktyg, JSON för sparande med full trohet (inklusive måttsättning och ledare) inom KulmanLab. Separat exporterar Print PNG-, JPEG-, WebP- eller PDF-bilder, med valfri områdesbeskärning och monokromt läge.' },
       ],
@@ -1113,8 +1113,8 @@ export const faqContent: Record<string, FaqSection[]> = {
     {
       headingKey: 'faq.section.files',
       items: [
-        { q: 'Saan naka-save ang aking mga drawing?', a: 'Sa localStorage ng browser — sa mismong device mo. Walang kailanman na-upload sa server. May sarili at hiwalay na storage ang bawat browser sa bawat device.' },
-        { q: 'Ano ang mangyayari kung i-clear ko ang browser data?', a: 'Mawawala ang mga naka-save mong drawing. I-export mo lagi ang DXF copy ng mahahalagang bagay bago i-clear ang browser storage.' },
+        { q: 'Saan naka-save ang aking mga drawing?', a: 'Sa IndexedDB ng browser — sa mismong device mo. Walang kailanman na-upload sa server. May sarili at hiwalay na storage ang bawat browser sa bawat device.' },
+        { q: 'Ano ang mangyayari kung i-clear ko ang browser data?', a: 'Mawawala ang mga naka-save mong drawing. I-export mo lagi ang JSON copy ng mahahalagang bagay bago i-clear ang browser storage.' },
         { q: 'Puwede ko bang buksan ang mga .dwg file?', a: 'Sinusuportahan ng KulmanLab ang DXF (Drawing Exchange Format), hindi ang proprietary na DWG format. Karamihan sa mga desktop CAD program ay puwedeng mag-export ng DXF, kaya i-export mo muna mula sa iyong source app.' },
         { q: 'Anong mga export format ang available?', a: 'DXF at JSON sa pamamagitan ng Export — DXF para sa palitan sa ibang CAD tool, JSON para sa buong-katapatang pag-save (kabilang ang mga dimension at leader) sa loob ng KulmanLab. Hiwalay dito, ini-export ng Print ang mga larawang PNG, JPEG, WebP, o PDF, may opsyonal na pag-crop ng area at monochrome mode.' },
       ],
