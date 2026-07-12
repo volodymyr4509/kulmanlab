@@ -7,6 +7,19 @@ export type Release = {
 
 export const releases: Release[] = [
   {
+    version: '2026.07.12.16f6fe3',
+    date: 'July 12, 2026',
+    title: 'Vector pins: object snap tracking with angle-lock ray snapping',
+    highlights: [
+      'New Vector Pins toggle (Pins) in the control bar — hover a snap point or grip for 500ms to pin it, then track the cursor along dashed horizontal/vertical reference lines through the pinned point, with normal geometry snaps still taking priority',
+      'Angle-locked rays now snap to the intersection of the locked direction with pin reference lines in Line, Polyline, Arc, Circle, Move, Copy, Area, Leader, and ViewportCopy',
+      'Distance and Angle now keep their result on screen until Escape, with an accent-colored preview that is dashed while picking and solid once committed; Distance also shows grips at both endpoints',
+      'Fixed a bug where clicking model entities visible through a layout viewport selected phantom paper-space copies whose edits and deletes silently did nothing — viewport content is now display-only for selection (snapping through viewports is unaffected)',
+      'Intersection X markers now draw in the accent color instead of green, matching the rest of the snap and preview palette',
+      'Improved the ANGL control-bar dropdown layout',
+    ],
+  },
+  {
     version: '2026.07.09.cecea22',
     date: 'July 9, 2026',
     title: 'Align command: translate, rotate & scale with point pairs',
@@ -305,6 +318,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   en: releases.map(r => ({ title: r.title, highlights: r.highlights })),
   de: [
     {
+      title: 'Vector Pins: Objektfang-Verfolgung mit Strahl-Einrasten bei Winkelsperre',
+      highlights: [
+        'Neuer Vector-Pins-Schalter (Pins) in der Kontrollleiste — einen Fangpunkt oder Griff 500 ms überfahren, um ihn zu heften, dann den Cursor entlang gestrichelter horizontaler/vertikaler Referenzlinien durch den angehefteten Punkt verfolgen; normale Geometriefänge behalten weiterhin Vorrang',
+        'Winkelgesperrte Strahlen rasten jetzt auf den Schnittpunkt der gesperrten Richtung mit Pin-Referenzlinien ein — bei Line, Polyline, Arc, Circle, Move, Copy, Area, Leader und ViewportCopy',
+        'Distance und Angle behalten ihr Ergebnis jetzt bis Escape auf dem Bildschirm, mit einer Akzentfarben-Vorschau, die beim Auswählen gestrichelt und nach dem Abschluss durchgezogen ist; Distance zeigt zudem Griffe an beiden Endpunkten',
+        'Fehler behoben, bei dem das Klicken auf Modell-Entitäten, die durch einen Layout-Viewport sichtbar waren, Phantom-Kopien im Papierbereich auswählte, deren Bearbeitung und Löschung stillschweigend wirkungslos blieb — Viewport-Inhalt ist jetzt nur zur Anzeige, keine Auswahl möglich (Fangen durch Viewports bleibt unverändert)',
+        'Schnittpunkt-X-Markierungen werden jetzt in der Akzentfarbe statt in Grün gezeichnet, passend zur restlichen Fang- und Vorschau-Palette',
+        'Das ANGL-Dropdown-Layout in der Kontrollleiste verbessert',
+      ],
+    },
+    {
       title: 'Align-Befehl: Verschieben, Drehen & Skalieren mit Punktpaaren',
       highlights: [
         'Neuer Align-Befehl positioniert Objekte über ein oder zwei Quell-/Ziel-Punktpaare neu — nur Verschieben mit einem Paar, oder Verschieben + Drehen + optionales Skalieren mit zwei Paaren',
@@ -559,6 +583,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   es: [
+    {
+      title: 'Vector pins: rastreo de referencia a objetos con ajuste de rayo en bloqueo de ángulo',
+      highlights: [
+        'Nuevo interruptor Vector Pins (Pins) en la barra de control — mantén el cursor sobre un punto de ajuste o un agarre durante 500 ms para fijarlo, luego sigue el cursor a lo largo de líneas de referencia horizontales/verticales discontinuas que pasan por el punto fijado, con los ajustes de geometría normales conservando prioridad',
+        'Los rayos con ángulo bloqueado ahora se ajustan a la intersección de la dirección bloqueada con las líneas de referencia de los pins en Line, Polyline, Arc, Circle, Move, Copy, Area, Leader y ViewportCopy',
+        'Distance y Angle ahora mantienen su resultado en pantalla hasta Escape, con una vista previa de color de acento que es discontinua mientras se elige y sólida una vez confirmada; Distance también muestra agarres en ambos extremos',
+        'Se corrigió un error por el cual hacer clic en entidades del modelo visibles a través de un viewport de diseño seleccionaba copias fantasma en el espacio de papel cuyas ediciones y eliminaciones no tenían efecto alguno — el contenido del viewport ahora es solo visual para la selección (el ajuste a través de los viewports no se ve afectado)',
+        'Los marcadores X de intersección ahora se dibujan en el color de acento en lugar de verde, a juego con el resto de la paleta de ajuste y vista previa',
+        'Se mejoró el diseño del menú desplegable ANGL de la barra de control',
+      ],
+    },
     {
       title: 'Comando Align: trasladar, rotar y escalar con pares de puntos',
       highlights: [
@@ -815,6 +850,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   fr: [
     {
+      title: 'Vector pins : repérage d\'accrochage aux objets avec accrochage de rayon en verrouillage d\'angle',
+      highlights: [
+        'Nouveau commutateur Vector Pins (Pins) dans la barre de contrôle — survolez un point d\'accrochage ou une poignée pendant 500 ms pour l\'épingler, puis suivez le curseur le long de lignes de référence horizontales/verticales en pointillés passant par le point épinglé, les accrochages géométriques normaux gardant la priorité',
+        'Les rayons à angle verrouillé s\'accrochent désormais à l\'intersection de la direction verrouillée avec les lignes de référence des épingles dans Line, Polyline, Arc, Circle, Move, Copy, Area, Leader et ViewportCopy',
+        'Distance et Angle conservent désormais leur résultat à l\'écran jusqu\'à Échap, avec un aperçu en couleur d\'accent en pointillés pendant la sélection et plein une fois validé ; Distance affiche aussi des poignées aux deux extrémités',
+        'Correction d\'un bug où cliquer sur des entités du modèle visibles à travers un viewport de mise en page sélectionnait des copies fantômes dans l\'espace papier, dont les modifications et suppressions restaient silencieusement sans effet — le contenu des viewports est désormais uniquement visuel pour la sélection (l\'accrochage à travers les viewports n\'est pas affecté)',
+        'Les marqueurs X d\'intersection sont désormais dessinés dans la couleur d\'accent au lieu du vert, en accord avec le reste de la palette d\'accrochage et d\'aperçu',
+        'Amélioration de la mise en page du menu déroulant ANGL de la barre de contrôle',
+      ],
+    },
+    {
       title: 'Commande Align : translation, rotation & mise à l\'échelle par paires de points',
       highlights: [
         'Nouvelle commande Align repositionne les entités à l\'aide d\'une ou deux paires de points source/destination — translation seule avec une paire, ou translation + rotation + mise à l\'échelle facultative avec deux paires',
@@ -1068,6 +1114,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   it: [
+    {
+      title: 'Vector pins: puntamento snap oggetti con aggancio del raggio in blocco angolare',
+      highlights: [
+        'Nuovo interruttore Vector Pins (Pins) nella barra di controllo — tieni il cursore su un punto di snap o un grip per 500 ms per fissarlo, poi traccia il cursore lungo linee di riferimento orizzontali/verticali tratteggiate passanti per il punto fissato, con gli snap geometrici normali che mantengono la priorità',
+        'I raggi con angolo bloccato ora si agganciano all\'intersezione della direzione bloccata con le linee di riferimento dei pin in Line, Polyline, Arc, Circle, Move, Copy, Area, Leader e ViewportCopy',
+        'Distance e Angle ora mantengono il risultato a schermo fino a Esc, con un\'anteprima color accento tratteggiata durante la selezione e piena una volta confermata; Distance mostra inoltre grip a entrambe le estremità',
+        'Corretto un bug per cui cliccare su entità del modello visibili attraverso un viewport di layout selezionava copie fantasma nello spazio carta, le cui modifiche ed eliminazioni non avevano alcun effetto — il contenuto del viewport è ora solo visivo ai fini della selezione (l\'aggancio attraverso i viewport non è interessato)',
+        'Gli indicatori X di intersezione ora vengono disegnati nel colore d\'accento invece che in verde, in linea con il resto della palette di snap e anteprima',
+        'Migliorato il layout del menu a tendina ANGL nella barra di controllo',
+      ],
+    },
     {
       title: 'Comando Align: traslazione, rotazione e scala con coppie di punti',
       highlights: [
@@ -1324,6 +1381,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   pt: [
     {
+      title: 'Vector pins: rastreio de encaixe a objetos com encaixe de raio em bloqueio de ângulo',
+      highlights: [
+        'Novo interruptor Vector Pins (Pins) na barra de controlo — pairar sobre um ponto de encaixe ou uma alça durante 500 ms para o fixar, depois seguir o cursor ao longo de linhas de referência horizontais/verticais tracejadas que passam pelo ponto fixado, mantendo os encaixes de geometria normais a prioridade',
+        'Os raios com ângulo bloqueado agora encaixam na interseção da direção bloqueada com as linhas de referência dos pins em Line, Polyline, Arc, Circle, Move, Copy, Area, Leader e ViewportCopy',
+        'Distance e Angle agora mantêm o resultado no ecrã até Escape, com uma pré-visualização na cor de destaque que é tracejada durante a seleção e sólida após confirmar; Distance também mostra alças em ambas as extremidades',
+        'Corrigido um erro em que clicar em entidades do modelo visíveis através de um viewport de esquema selecionava cópias fantasma no espaço de papel, cujas edições e eliminações não tinham qualquer efeito — o conteúdo do viewport agora é apenas visual para efeitos de seleção (o encaixe através de viewports não é afetado)',
+        'Os marcadores X de interseção agora são desenhados na cor de destaque em vez de verde, alinhados com o resto da paleta de encaixe e pré-visualização',
+        'Melhorado o esquema do menu suspenso ANGL na barra de controlo',
+      ],
+    },
+    {
       title: 'Comando Align: transladar, rodar e escalar com pares de pontos',
       highlights: [
         'O novo comando Align reposiciona entidades usando um ou dois pares de pontos de origem/destino — apenas translação com um par, ou translação + rotação + escala opcional com dois pares',
@@ -1578,6 +1646,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   uk: [
+    {
+      title: 'Vector pins: відстеження об\'єктної прив\'язки з прив\'язкою променя при блокуванні кута',
+      highlights: [
+        'Новий перемикач Vector Pins (Pins) на панелі керування — затримайте курсор на точці прив\'язки або маркері (ручці) на 500 мс, щоб закріпити її, потім ведіть курсор уздовж пунктирних горизонтальних/вертикальних опорних ліній через закріплену точку; звичайні геометричні прив\'язки й далі мають пріоритет',
+        'Промені із заблокованим кутом тепер прив\'язуються до перетину заблокованого напрямку з опорними лініями пінів у Line, Polyline, Arc, Circle, Move, Copy, Area, Leader та ViewportCopy',
+        'Distance та Angle тепер зберігають результат на екрані до Escape, з попереднім переглядом акцентного кольору — пунктирним під час вибору та суцільним після підтвердження; Distance також показує маркери на обох кінцевих точках',
+        'Виправлено помилку, через яку клацання по об\'єктах моделі, видимих крізь видове вікно компонування, вибирало примарні копії в паперовому просторі, редагування та видалення яких мовчки не давали жодного ефекту — вміст видового вікна тепер лише для перегляду щодо вибору (прив\'язка крізь видові вікна не постраждала)',
+        'Маркери перетину X тепер малюються акцентним кольором замість зеленого, відповідно до решти палітри прив\'язки й попереднього перегляду',
+        'Покращено компонування випадного меню ANGL на панелі керування',
+      ],
+    },
     {
       title: 'Команда Align: перенесення, обертання та масштабування за парами точок',
       highlights: [
@@ -1834,6 +1913,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   tr: [
     {
+      title: 'Vector pins: açı kilidinde ışın yakalamayla nesne yakalama izleme',
+      highlights: [
+        'Kontrol çubuğunda yeni Vector Pins (Pins) düğmesi — sabitlemek için bir yakalama noktası veya tutamaç üzerinde 500 ms durun, ardından sabitlenen noktadan geçen kesikli yatay/dikey referans çizgileri boyunca imleci izleyin; normal geometri yakalamaları önceliğini korur',
+        'Açı kilitli ışınlar artık Line, Polyline, Arc, Circle, Move, Copy, Area, Leader ve ViewportCopy\'de kilitli yönün pin referans çizgileriyle kesişimine yakalanıyor',
+        'Distance ve Angle artık sonuçlarını Escape\'e kadar ekranda tutuyor; seçim sırasında kesikli, onaylandığında düz olan vurgu renkli bir önizlemeyle. Distance ayrıca her iki uç noktada tutamaç gösteriyor',
+        'Bir yerleşim görünüm penceresinden görünen model nesnelerine tıklamanın, düzenleme ve silmeleri sessizce hiçbir etki yapmayan hayalet kağıt-alanı kopyalarını seçmesine neden olan hata düzeltildi — görünüm penceresi içeriği artık seçim için yalnızca görüntüleme amaçlı (görünüm pencereleri üzerinden yakalama etkilenmedi)',
+        'Kesişim X işaretleri artık yeşil yerine vurgu renginde çiziliyor, yakalama ve önizleme paletinin geri kalanıyla uyumlu',
+        'Kontrol çubuğundaki ANGL açılır menü düzeni iyileştirildi',
+      ],
+    },
+    {
       title: 'Align komutu: nokta çiftleriyle taşıma, döndürme ve ölçekleme',
       highlights: [
         'Yeni Align komutu, bir veya iki kaynak/hedef nokta çifti kullanarak nesneleri yeniden konumlandırır — tek çiftle yalnızca taşıma, iki çiftle taşıma + döndürme + isteğe bağlı ölçekleme',
@@ -2088,6 +2178,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   zh: [
+    {
+      title: 'Vector pins：对象捕捉追踪，支持角度锁定射线捕捉',
+      highlights: [
+        '控制栏新增 Vector Pins（Pins）开关——将光标悬停在捕捉点或夹点上 500 毫秒即可固定，然后沿穿过固定点的水平/垂直虚线参考线追踪光标，普通几何捕捉仍保持优先',
+        '角度锁定射线现在会捕捉到锁定方向与固定点参考线的交点，适用于 Line、Polyline、Arc、Circle、Move、Copy、Area、Leader 和 ViewportCopy',
+        'Distance 和 Angle 现在会将结果保留在屏幕上直到按下 Escape，预览采用强调色，选取时为虚线，确认后变为实线；Distance 还会在两个端点显示夹点',
+        '修复了一个错误：点击通过布局视口可见的模型图元会选中图纸空间中的幻影副本，对其编辑和删除都悄无声息地不起作用——现在视口内容仅用于显示，无法选择（通过视口的捕捉不受影响）',
+        '交点 X 标记现在以强调色绘制，而不是绿色，与其余捕捉和预览配色保持一致',
+        '改进了控制栏中 ANGL 下拉菜单的布局',
+      ],
+    },
     {
       title: 'Align 命令：使用点对进行平移、旋转和缩放',
       highlights: [
@@ -2344,6 +2445,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   hi: [
     {
+      title: 'Vector pins: एंगल-लॉक रे स्नैपिंग के साथ ऑब्जेक्ट स्नैप ट्रैकिंग',
+      highlights: [
+        'कंट्रोल बार में नया Vector Pins (Pins) टॉगल — किसी स्नैप पॉइंट या ग्रिप पर 500ms होवर करके उसे पिन करें, फिर पिन किए गए पॉइंट से गुजरने वाली डैश्ड क्षैतिज/ऊर्ध्वाधर रेफरेंस लाइनों के साथ कर्सर ट्रैक करें; सामान्य ज्यामिति स्नैप अभी भी प्राथमिकता रखते हैं',
+        'एंगल-लॉक की गई किरणें अब Line, Polyline, Arc, Circle, Move, Copy, Area, Leader और ViewportCopy में लॉक की गई दिशा और पिन रेफरेंस लाइनों के प्रतिच्छेदन पर स्नैप होती हैं',
+        'Distance और Angle अब Escape तक अपना परिणाम स्क्रीन पर बनाए रखते हैं, एक्सेंट-रंगीन प्रीव्यू के साथ जो चुनते समय डैश्ड और पुष्टि के बाद ठोस होता है; Distance दोनों एंडपॉइंट्स पर ग्रिप भी दिखाता है',
+        'एक बग ठीक किया गया जिसमें लेआउट व्यूपोर्ट के माध्यम से दिखने वाले मॉडल ऑब्जेक्ट पर क्लिक करने से पेपर-स्पेस के फैंटम कॉपी चुने जाते थे जिनके एडिट और डिलीट चुपचाप कुछ नहीं करते थे — व्यूपोर्ट कंटेंट अब चयन के लिए केवल डिस्प्ले है (व्यूपोर्ट के माध्यम से स्नैपिंग अप्रभावित है)',
+        'प्रतिच्छेदन X मार्कर अब हरे रंग की बजाय एक्सेंट रंग में बनते हैं, बाकी स्नैप और प्रीव्यू पैलेट से मेल खाते हुए',
+        'कंट्रोल बार में ANGL ड्रॉपडाउन का लेआउट सुधारा गया',
+      ],
+    },
+    {
       title: 'Align कमांड: पॉइंट जोड़ों के साथ ट्रांसलेट, रोटेट और स्केल करें',
       highlights: [
         'नई Align कमांड एक या दो सोर्स/डेस्टिनेशन पॉइंट जोड़ों का उपयोग करके एंटिटीज़ को दोबारा स्थान देती है — एक जोड़े के साथ केवल ट्रांसलेट, या दो जोड़ों के साथ ट्रांसलेट + रोटेट + वैकल्पिक स्केल',
@@ -2598,6 +2710,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   ar: [
+    {
+      title: 'Vector pins: تتبع التقاط الكائنات مع التقاط الشعاع عند قفل الزاوية',
+      highlights: [
+        'مفتاح Vector Pins (Pins) جديد في شريط التحكم — حوّم فوق نقطة التقاط أو مقبض لمدة 500 مللي ثانية لتثبيته، ثم تتبع المؤشر على طول خطوط مرجعية أفقية/رأسية متقطعة تمر عبر النقطة المثبّتة، مع بقاء الأولوية لالتقاطات الهندسة العادية',
+        'الأشعة المقفلة بزاوية تلتقط الآن على تقاطع الاتجاه المقفل مع الخطوط المرجعية للدبابيس في Line وPolyline وArc وCircle وMove وCopy وArea وLeader وViewportCopy',
+        'يحافظ الآن أمرا Distance وAngle على نتيجتهما على الشاشة حتى Escape، مع معاينة بلون التمييز تكون متقطعة أثناء الاختيار ومصمتة بعد التأكيد؛ كما يعرض Distance مقابض عند كلتا نقطتي النهاية',
+        'تم إصلاح خلل كان النقر فيه على عناصر النموذج المرئية عبر إطار عرض تخطيطي يحدد نسخاً وهمية في مساحة الورق كانت عمليات التحرير والحذف عليها لا تُحدث أي أثر بصمت — أصبح محتوى إطار العرض الآن للعرض فقط بخصوص التحديد (الالتقاط عبر إطارات العرض لم يتأثر)',
+        'تُرسم علامات X عند التقاطع الآن بلون التمييز بدلاً من الأخضر، بما يتوافق مع بقية لوحة الالتقاط والمعاينة',
+        'تحسين تخطيط القائمة المنسدلة ANGL في شريط التحكم',
+      ],
+    },
     {
       title: 'أمر Align: النقل والتدوير والتحجيم باستخدام أزواج النقاط',
       highlights: [
@@ -2854,6 +2977,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   id: [
     {
+      title: 'Vector pins: pelacakan snap objek dengan snap sinar saat kunci sudut',
+      highlights: [
+        'Tombol Vector Pins (Pins) baru di bilah kontrol — arahkan kursor ke titik snap atau grip selama 500 md untuk menyematkannya, lalu lacak kursor di sepanjang garis referensi horizontal/vertikal putus-putus yang melewati titik yang disematkan, dengan snap geometri biasa tetap diutamakan',
+        'Sinar yang terkunci sudutnya kini snap ke perpotongan arah terkunci dengan garis referensi pin di Line, Polyline, Arc, Circle, Move, Copy, Area, Leader, dan ViewportCopy',
+        'Distance dan Angle kini mempertahankan hasilnya di layar hingga Escape, dengan pratinjau berwarna aksen yang putus-putus saat memilih dan solid setelah dikonfirmasi; Distance juga menampilkan grip di kedua titik ujung',
+        'Memperbaiki bug di mana mengklik entitas model yang terlihat melalui viewport tata letak memilih salinan hantu ruang kertas yang penyuntingan dan penghapusannya diam-diam tidak berpengaruh — konten viewport kini hanya untuk tampilan terkait pemilihan (snap melalui viewport tidak terpengaruh)',
+        'Penanda X perpotongan kini digambar dengan warna aksen, bukan hijau, selaras dengan palet snap dan pratinjau lainnya',
+        'Memperbaiki tata letak dropdown ANGL pada bilah kontrol',
+      ],
+    },
+    {
       title: 'Perintah Align: translasi, rotasi & skala dengan pasangan titik',
       highlights: [
         'Perintah Align baru memposisikan ulang entitas menggunakan satu atau dua pasang titik sumber/tujuan — hanya translasi dengan satu pasang, atau translasi + rotasi + skala opsional dengan dua pasang',
@@ -3108,6 +3242,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   ja: [
+    {
+      title: 'Vector pins：角度ロック時のレイスナップに対応したオブジェクトスナップトラッキング',
+      highlights: [
+        'コントロールバーに新しい Vector Pins（Pins）トグルを追加 — スナップ点やグリップに500ms カーソルを合わせてピン留めし、ピン留めした点を通る破線の水平・垂直参照線に沿ってカーソルを追跡（通常のジオメトリスナップは引き続き優先されます）',
+        '角度ロックされたレイが、Line、Polyline、Arc、Circle、Move、Copy、Area、Leader、ViewportCopy でロック方向とピン参照線の交点にスナップするようになりました',
+        'Distance と Angle は Escape を押すまで結果を画面に表示し続けるようになり、選択中は破線、確定後は実線のアクセントカラーのプレビューを表示します。Distance は両端にグリップも表示します',
+        'レイアウトビューポート越しに見えるモデルのエンティティをクリックすると、編集や削除が静かに無効化されるペーパースペースの幻のコピーが選択されてしまうバグを修正 — ビューポートの内容は選択に関しては表示専用になりました（ビューポート越しのスナップには影響ありません）',
+        '交点の X マーカーが緑色ではなくアクセントカラーで描画されるようになり、他のスナップ・プレビューのパレットと統一されました',
+        'コントロールバーの ANGL ドロップダウンのレイアウトを改善',
+      ],
+    },
     {
       title: 'Align コマンド：点のペアで移動・回転・拡大縮小',
       highlights: [
@@ -3364,6 +3509,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   pl: [
     {
+      title: 'Vector pins: śledzenie przyciągania do obiektów z przyciąganiem promienia przy blokadzie kąta',
+      highlights: [
+        'Nowy przełącznik Vector Pins (Pins) na pasku sterowania — najedź na punkt przyciągania lub uchwyt na 500 ms, aby go przypiąć, a następnie śledź kursor wzdłuż przerywanych poziomych/pionowych linii odniesienia przechodzących przez przypięty punkt; zwykłe przyciąganie geometryczne nadal ma pierwszeństwo',
+        'Promienie zablokowane kątowo przyciągają się teraz do przecięcia zablokowanego kierunku z liniami odniesienia pinezek w Line, Polyline, Arc, Circle, Move, Copy, Area, Leader i ViewportCopy',
+        'Distance i Angle zachowują teraz wynik na ekranie aż do naciśnięcia Escape, z podglądem w kolorze akcentu — przerywanym podczas wybierania i pełnym po zatwierdzeniu; Distance pokazuje też uchwyty na obu końcach',
+        'Naprawiono błąd, przez który kliknięcie elementów modelu widocznych przez viewport układu wybierało widma kopii w przestrzeni papieru, których edycja i usuwanie po cichu nie miały żadnego efektu — zawartość viewportu jest teraz wyłącznie do podglądu w kontekście zaznaczania (przyciąganie przez viewporty nie zostało zmienione)',
+        'Znaczniki X przecięcia są teraz rysowane w kolorze akcentu zamiast zielonego, zgodnie z resztą palety przyciągania i podglądu',
+        'Poprawiono układ rozwijanego menu ANGL na pasku sterowania',
+      ],
+    },
+    {
       title: 'Polecenie Align: przesuwanie, obracanie i skalowanie za pomocą par punktów',
       highlights: [
         'Nowe polecenie Align zmienia położenie obiektów za pomocą jednej lub dwóch par punktów źródłowych/docelowych — samo przesunięcie przy jednej parze, lub przesunięcie + obrót + opcjonalne skalowanie przy dwóch parach',
@@ -3618,6 +3774,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   ko: [
+    {
+      title: 'Vector pins: 각도 잠금 광선 스냅을 지원하는 객체 스냅 추적',
+      highlights: [
+        '컨트롤 바에 새로운 Vector Pins(Pins) 토글 추가 — 스냅 점이나 그립 위에 커서를 500ms 올려 고정한 다음, 고정된 점을 지나는 점선 수평/수직 참조선을 따라 커서를 추적합니다. 일반 도형 스냅이 여전히 우선순위를 가집니다',
+        '각도 잠금 광선이 이제 Line, Polyline, Arc, Circle, Move, Copy, Area, Leader, ViewportCopy에서 잠긴 방향과 핀 참조선의 교차점에 스냅됩니다',
+        'Distance와 Angle이 이제 Escape를 누를 때까지 결과를 화면에 유지하며, 선택 중에는 점선, 확정 후에는 실선인 강조색 미리보기를 표시합니다. Distance는 양쪽 끝점에 그립도 표시합니다',
+        '레이아웃 뷰포트를 통해 보이는 모델 객체를 클릭하면 편집과 삭제가 조용히 아무 효과도 내지 않는 종이 공간의 유령 사본이 선택되던 버그를 수정 — 이제 뷰포트 내용은 선택과 관련해서는 표시 전용입니다(뷰포트를 통한 스냅은 영향받지 않습니다)',
+        '교차점 X 마커가 이제 초록색 대신 강조색으로 그려져 나머지 스냅 및 미리보기 팔레트와 일치합니다',
+        '컨트롤 바의 ANGL 드롭다운 레이아웃 개선',
+      ],
+    },
     {
       title: 'Align 명령어: 점 쌍으로 이동, 회전, 크기 조정',
       highlights: [
@@ -3874,6 +4041,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   vi: [
     {
+      title: 'Vector pins: theo dõi bắt điểm đối tượng với bắt tia khi khóa góc',
+      highlights: [
+        'Công tắc Vector Pins (Pins) mới trên thanh điều khiển — giữ con trỏ trên một điểm bắt hoặc điểm điều khiển trong 500ms để ghim nó, sau đó theo dõi con trỏ dọc theo các đường tham chiếu ngang/dọc nét đứt đi qua điểm đã ghim; các bắt điểm hình học thông thường vẫn được ưu tiên',
+        'Các tia bị khóa góc giờ đây bắt vào giao điểm của hướng đã khóa với các đường tham chiếu của ghim trong Line, Polyline, Arc, Circle, Move, Copy, Area, Leader và ViewportCopy',
+        'Distance và Angle giờ đây giữ kết quả trên màn hình cho đến khi nhấn Escape, với bản xem trước màu nhấn có nét đứt khi đang chọn và nét liền sau khi xác nhận; Distance cũng hiển thị điểm điều khiển ở cả hai đầu',
+        'Đã sửa lỗi khi nhấp vào các thực thể mô hình hiển thị qua khung nhìn bố cục sẽ chọn các bản sao ảo trong không gian giấy mà việc chỉnh sửa và xóa không có tác dụng gì — nội dung khung nhìn giờ đây chỉ để hiển thị đối với việc chọn (bắt điểm qua khung nhìn không bị ảnh hưởng)',
+        'Dấu X giao điểm giờ đây được vẽ bằng màu nhấn thay vì màu xanh lá, phù hợp với phần còn lại của bảng màu bắt điểm và xem trước',
+        'Cải thiện bố cục danh sách thả xuống ANGL trên thanh điều khiển',
+      ],
+    },
+    {
       title: 'Lệnh Align: di chuyển, xoay & thu phóng bằng cặp điểm',
       highlights: [
         'Lệnh Align mới định vị lại các thực thể bằng một hoặc hai cặp điểm nguồn/đích — chỉ di chuyển với một cặp, hoặc di chuyển + xoay + thu phóng tùy chọn với hai cặp',
@@ -4128,6 +4306,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   th: [
+    {
+      title: 'Vector pins: การติดตามสแนปวัตถุพร้อมการสแนปรังสีเมื่อล็อกมุม',
+      highlights: [
+        'ปุ่มสลับ Vector Pins (Pins) ใหม่ในแถบควบคุม — ชี้เคอร์เซอร์ค้างบนจุดสแนปหรือกริปเป็นเวลา 500ms เพื่อปักหมุด จากนั้นติดตามเคอร์เซอร์ตามเส้นอ้างอิงแนวนอน/แนวตั้งแบบเส้นประที่ผ่านจุดที่ปักหมุด โดยการสแนปรูปทรงปกติยังคงมีความสำคัญเหนือกว่า',
+        'รังสีที่ล็อกมุมแล้วตอนนี้จะสแนปไปยังจุดตัดของทิศทางที่ล็อกกับเส้นอ้างอิงของหมุดใน Line, Polyline, Arc, Circle, Move, Copy, Area, Leader และ ViewportCopy',
+        'Distance และ Angle ตอนนี้จะเก็บผลลัพธ์ไว้บนหน้าจอจนกว่าจะกด Escape พร้อมตัวอย่างสีเน้นที่เป็นเส้นประขณะเลือกและเป็นเส้นทึบเมื่อยืนยันแล้ว โดย Distance ยังแสดงกริปที่จุดปลายทั้งสองด้วย',
+        'แก้ไขข้อบกพร่องที่การคลิกวัตถุโมเดลที่มองเห็นผ่านวิวพอร์ตเลย์เอาต์จะเลือกสำเนาผีในพื้นที่กระดาษ ซึ่งการแก้ไขและลบไม่มีผลใด ๆ อย่างเงียบ ๆ — เนื้อหาวิวพอร์ตตอนนี้ใช้แสดงผลเท่านั้นสำหรับการเลือก (การสแนปผ่านวิวพอร์ตไม่ได้รับผลกระทบ)',
+        'เครื่องหมาย X ของจุดตัดตอนนี้วาดด้วยสีเน้นแทนสีเขียว ให้เข้ากับชุดสีสแนปและตัวอย่างที่เหลือ',
+        'ปรับปรุงเลย์เอาต์เมนูแบบเลื่อนลง ANGL ในแถบควบคุม',
+      ],
+    },
     {
       title: 'คำสั่ง Align: ย้าย หมุน และปรับขนาดด้วยคู่จุด',
       highlights: [
@@ -4384,6 +4573,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   ms: [
     {
+      title: 'Vector pins: penjejakan lekapan objek dengan lekapan sinar semasa kunci sudut',
+      highlights: [
+        'Togol Vector Pins (Pins) baharu pada bar kawalan — tuding pada titik lekapan atau grip selama 500 ms untuk menyematnya, kemudian jejaki kursor di sepanjang garisan rujukan mendatar/menegak bergaris putus yang melalui titik yang disemat; lekapan geometri biasa masih mengekalkan keutamaan',
+        'Sinar yang dikunci sudutnya kini melekap pada persilangan arah yang dikunci dengan garisan rujukan pin dalam Line, Polyline, Arc, Circle, Move, Copy, Area, Leader dan ViewportCopy',
+        'Distance dan Angle kini mengekalkan hasil pada skrin sehingga Escape, dengan pratonton warna aksen yang bergaris putus semasa memilih dan pejal selepas disahkan; Distance turut menunjukkan grip pada kedua-dua titik hujung',
+        'Membetulkan pepijat di mana mengklik entiti model yang kelihatan melalui viewport susun atur memilih salinan hantu dalam ruang kertas yang penyuntingan dan pemadamannya tidak memberi kesan secara senyap — kandungan viewport kini hanya untuk paparan berkaitan pemilihan (lekapan melalui viewport tidak terjejas)',
+        'Penanda X persilangan kini dilukis dalam warna aksen bukannya hijau, selaras dengan selebihnya palet lekapan dan pratonton',
+        'Memperbaiki susun atur menu lungsur ANGL pada bar kawalan',
+      ],
+    },
+    {
       title: 'Arahan Align: memindah, memutar & menskala dengan pasangan titik',
       highlights: [
         'Arahan Align baharu meletakkan semula entiti menggunakan satu atau dua pasang titik sumber/destinasi — hanya pergerakan dengan satu pasang, atau pergerakan + putaran + skala pilihan dengan dua pasang',
@@ -4638,6 +4838,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   bn: [
+    {
+      title: 'Vector pins: অ্যাঙ্গেল-লক রে স্ন্যাপিং সহ অবজেক্ট স্ন্যাপ ট্র্যাকিং',
+      highlights: [
+        'কন্ট্রোল বারে নতুন Vector Pins (Pins) টগল — কোনো স্ন্যাপ পয়েন্ট বা গ্রিপে 500ms কার্সর রেখে সেটি পিন করুন, তারপর পিন করা পয়েন্টের মধ্য দিয়ে যাওয়া ড্যাশড অনুভূমিক/উল্লম্ব রেফারেন্স লাইন বরাবর কার্সর ট্র্যাক করুন; সাধারণ জ্যামিতি স্ন্যাপ এখনও অগ্রাধিকার পায়',
+        'অ্যাঙ্গেল-লক করা রশ্মি এখন Line, Polyline, Arc, Circle, Move, Copy, Area, Leader এবং ViewportCopy-তে লক করা দিক ও পিন রেফারেন্স লাইনের ছেদবিন্দুতে স্ন্যাপ হয়',
+        'Distance এবং Angle এখন Escape পর্যন্ত তাদের ফলাফল স্ক্রিনে রাখে, একটি অ্যাকসেন্ট-রঙা প্রিভিউ সহ যা নির্বাচনের সময় ড্যাশড এবং নিশ্চিত হওয়ার পর নিরবচ্ছিন্ন থাকে; Distance উভয় এন্ডপয়েন্টে গ্রিপও দেখায়',
+        'একটি বাগ ঠিক করা হয়েছে যেখানে লেআউট ভিউপোর্টের মাধ্যমে দৃশ্যমান মডেল এন্টিটিতে ক্লিক করলে পেপার-স্পেসের ফ্যান্টম কপি নির্বাচিত হতো যাদের এডিট ও ডিলিট নীরবে কিছুই করত না — ভিউপোর্ট কন্টেন্ট এখন নির্বাচনের ক্ষেত্রে শুধু প্রদর্শনের জন্য (ভিউপোর্টের মাধ্যমে স্ন্যাপিং প্রভাবিত হয় না)',
+        'ছেদবিন্দু X মার্কার এখন সবুজের বদলে অ্যাকসেন্ট রঙে আঁকা হয়, বাকি স্ন্যাপ ও প্রিভিউ প্যালেটের সাথে মিলিয়ে',
+        'কন্ট্রোল বারে ANGL ড্রপডাউনের লেআউট উন্নত করা হয়েছে',
+      ],
+    },
     {
       title: 'Align কমান্ড: পয়েন্ট জোড়া দিয়ে ট্রান্সলেট, রোটেট ও স্কেল করুন',
       highlights: [
@@ -4914,6 +5125,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   sw: [
     {
+      title: 'Vector pins: ufuatiliaji wa ulekezaji wa vitu na ulekezaji wa mnururisho wakati wa kufunga pembe',
+      highlights: [
+        'Kitufe kipya cha Vector Pins (Pins) kwenye upau wa udhibiti — elea juu ya pointi ya ulekezaji au kishikizo kwa 500ms ili kuibandika, kisha fuatilia kishale kando ya mistari ya marejeleo ya mlalo/wima yenye vistari inayopita kwenye pointi iliyobandikwa; ulekezaji wa kawaida wa jiometri bado una kipaumbele',
+        'Mionzi iliyofungwa pembe sasa hulekezwa kwenye makutano ya mwelekeo uliofungwa na mistari ya marejeleo ya pini katika Line, Polyline, Arc, Circle, Move, Copy, Area, Leader na ViewportCopy',
+        'Distance na Angle sasa huhifadhi matokeo yao kwenye skrini hadi Escape, na hakikisho la rangi ya msisitizo ambalo lina vistari wakati wa kuchagua na kamili baada ya kuthibitishwa; Distance pia huonyesha vishikizo kwenye pointi zote mbili za mwisho',
+        'Imerekebisha hitilafu ambapo kubonyeza vipengele vya modeli vinavyoonekana kupitia viewport ya mpangilio kulichagua nakala za mzuka za nafasi ya karatasi ambazo kuhariri na kufuta kwake hakukuwa na athari yoyote kimya kimya — maudhui ya viewport sasa ni ya kuonyesha tu kuhusiana na uchaguzi (ulekezaji kupitia viewport haujaathirika)',
+        'Alama za X za makutano sasa huchorwa kwa rangi ya msisitizo badala ya kijani, sambamba na palette nyingine ya ulekezaji na hakikisho',
+        'Imeboresha mpangilio wa orodha shuka ya ANGL kwenye upau wa udhibiti',
+      ],
+    },
+    {
       title: 'Amri ya Align: kuhamisha, kuzungusha na kupima kwa jozi za pointi',
       highlights: [
         'Amri mpya ya Align huweka upya vitu kwa kutumia jozi moja au mbili za pointi za chanzo/marudio — kuhamisha tu kwa jozi moja, au kuhamisha + kuzungusha + kupima kwa hiari kwa jozi mbili',
@@ -5189,6 +5411,7 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
 
   ur: [
+    { title: 'Vector pins: زاویہ لاک رے سنیپنگ کے ساتھ آبجیکٹ سنیپ ٹریکنگ', highlights: ['کنٹرول بار میں نیا Vector Pins (Pins) ٹوگل — کسی سنیپ پوائنٹ یا گرپ پر 500ms کرسر رکھ کر اسے پن کریں، پھر پن کیے گئے پوائنٹ سے گزرنے والی ڈیشڈ افقی/عمودی حوالہ لائنوں کے ساتھ کرسر ٹریک کریں؛ عام جیومیٹری سنیپس اب بھی ترجیح رکھتے ہیں', 'زاویہ لاک شدہ شعاعیں اب Line، Polyline، Arc، Circle، Move، Copy، Area، Leader اور ViewportCopy میں لاک شدہ سمت اور پن حوالہ لائنوں کے تقاطع پر سنیپ ہوتی ہیں', 'Distance اور Angle اب Escape تک اپنا نتیجہ اسکرین پر برقرار رکھتے ہیں، ایک ایکسنٹ رنگ کے پیش نظارے کے ساتھ جو انتخاب کے دوران ڈیشڈ اور تصدیق کے بعد ٹھوس ہوتا ہے؛ Distance دونوں اینڈ پوائنٹس پر گرپس بھی دکھاتا ہے', 'ایک بگ ٹھیک کیا گیا جہاں لے آؤٹ ویو پورٹ کے ذریعے نظر آنے والی ماڈل اشیاء پر کلک کرنے سے پیپر اسپیس کی فینٹم کاپیاں منتخب ہو جاتی تھیں جن کی ترمیم اور حذف خاموشی سے کچھ نہیں کرتی تھیں — ویو پورٹ کا مواد اب انتخاب کے لیے صرف ڈسپلے کے لیے ہے (ویو پورٹس کے ذریعے سنیپنگ متاثر نہیں ہوئی)', 'تقاطع کے X نشانات اب سبز کی بجائے ایکسنٹ رنگ میں بنائے جاتے ہیں، باقی سنیپ اور پیش نظارہ پیلیٹ سے مماثل', 'کنٹرول بار میں ANGL ڈراپ ڈاؤن کی ترتیب بہتر بنائی گئی'] },
     { title: 'Align کمانڈ: پوائنٹ جوڑوں کے ساتھ منتقلی، گردش اور اسکیل', highlights: ['نئی Align کمانڈ ایک یا دو سورس/ڈسٹینیشن پوائنٹ جوڑوں کا استعمال کرتے ہوئے اجزاء کو دوبارہ جگہ دیتی ہے — ایک جوڑے کے ساتھ صرف منتقلی، یا دو جوڑوں کے ساتھ منتقلی + گردش + اختیاری اسکیل', 'ایک پوائنٹ ترتیب (دوسرے سورس پوائنٹ پر Enter) بالکل Move کی طرح کام کرتی ہے — صرف منتقلی، کوئی گردش نہیں', 'دو پوائنٹ ترتیب سورس اور ڈسٹینیشن سیگمنٹ کی سمتوں سے گردش کا حساب لگاتی ہے، پھر پوچھتی ہے ہاں/نہیں کہ آیا سیگمنٹ کی لمبائی ملانے کے لیے اسکیل بھی کیا جائے', 'ہر مرحلے میں کینوس پر لائیو پیش نظارہ: پہلا ڈسٹینیشن پوائنٹ رکھتے وقت ایک موو پیش نظارہ، پھر دونوں ڈسٹینیشن پوائنٹس سیٹ ہونے کے بعد ایک ڈیشڈ گھمایا ہوا پیش نظارہ', 'Edit ٹول بار پینل میں نئے Align بٹن کے ذریعے، یا ٹرمینل میں `align` (صرف `al` کافی ہے) ٹائپ کر کے رسائی حاصل کی جا سکتی ہے', 'دیگر کمانڈز کے استعمال کردہ "pick" الفاظ سے مماثل بنانے کے لیے Align کے پرامپٹ کا متن درست کیا گیا'] },
     { title: 'Area پیمائش کمانڈ اور ٹول بار آئیکن کی تازہ کاری', highlights: ['نئی Area کمانڈ کثیرالاضلاع کا احاطہ شدہ رقبہ اور محیط ناپتی ہے — ۳ یا زیادہ نقاط پر کلک کریں، پھر شکل بند کرنے کے لیے Enter دبائیں', 'Area زاویہ لاک شدہ سمتی اندراج کو سپورٹ کرتی ہے: ترتیب دیے گئے زاویہ ٹریکنگ اضافے پر جم جاتی ہے اور درست کنارے کی لمبائی ٹائپ کرنے دیتی ہے', 'بند کیا گیا کثیرالاضلاع — بھرائی، خاکہ، اور ورٹیکس گرِپس — نتیجہ ختم ہونے تک کینوس پر نمایاں رہتا ہے', 'Measure پینل اب ۲×۲ گرڈ ہے: اوپری قطار میں Distance اور Angle، نچلی قطار میں Area', 'Distance اور Angle کے ٹول بار آئیکنز کو ڈیشڈ لائنوں کی بجائے ٹھوس لکیروں اور بھرے ہوئے ویج کے ساتھ دوبارہ ڈیزائن کیا گیا', 'Area ٹول بار آئیکن کو ورٹیکس پر سنیپ پوائنٹس کے ساتھ چیمفرڈ اسکوائر میں آسان بنایا گیا', 'کی بیج ظاہر ہونے پر ٹرمینل پرامپٹ ٹیکسٹ کے اچھلنے کا مسئلہ حل کیا گیا'] },
     { title: 'متن ایڈیٹر میں کاپی/پیسٹ، فیڈبیک بار اور تھیم کے مطابق تیر کے سر', highlights: ['متن ایڈیٹر: Ctrl/Cmd+C، Ctrl/Cmd+X، اور Ctrl/Cmd+V اب منتخب متن کاپی، کٹ اور پیسٹ کرتے ہیں', 'پیسٹ کیا گیا متن ہمیشہ کاپی کے وقت کی فارمیٹنگ کی بجائے کرسر پر پہلے سے موجود فارمیٹنگ اپناتا ہے؛ rich موڈ لائن بریک برقرار رکھتا ہے، simple موڈ (پیمائش لیبلز) انہیں ہٹا دیتا ہے', 'ٹول بار میں نیا فیڈبیک بار Reddit، GitHub Issues، اور ای میل سے لنک کرتا ہے — 10 منٹ استعمال کے بعد ظاہر ہوتا ہے اور بند کیا جا سکتا ہے', 'Properties پینل اور تیر کے سر پکر میں تیر کے سر کی پیش منظر اب ہمیشہ سفید کی بجائے تھیم کے مطابق رنگ میں دکھتی ہے', 'لائٹ تھیم میں ٹول بار پینل کیپشنز (مثلاً "STYLE"، "LAYERS") کے لیے بہتر کنٹراسٹ', 'ٹول بار میں کوآرڈینیٹ اور زوم ریڈ آؤٹ اب فکسڈ چوڑائی والے دائیں طرف سیدھ کیے کالم کی بجائے اپنے لیبلز کے قریب ہوتے ہیں'] },
@@ -5212,6 +5435,7 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
 
   el: [
+    { title: 'Vector pins: παρακολούθηση έλξης αντικειμένων με έλξη ακτίνας κατά το κλείδωμα γωνίας', highlights: ['Νέος διακόπτης Vector Pins (Pins) στη γραμμή ελέγχου — αιωρηθείτε πάνω από ένα σημείο έλξης ή μια λαβή για 500 ms για να το καρφιτσώσετε, μετά παρακολουθήστε τον κέρσορα κατά μήκος διακεκομμένων οριζόντιων/κατακόρυφων γραμμών αναφοράς που περνούν από το καρφιτσωμένο σημείο· οι κανονικές γεωμετρικές έλξεις διατηρούν την προτεραιότητα', 'Οι ακτίνες με κλειδωμένη γωνία έλκονται πλέον στην τομή της κλειδωμένης κατεύθυνσης με τις γραμμές αναφοράς των καρφιτσών στα Line, Polyline, Arc, Circle, Move, Copy, Area, Leader και ViewportCopy', 'Τα Distance και Angle διατηρούν πλέον το αποτέλεσμά τους στην οθόνη μέχρι το Escape, με προεπισκόπηση χρώματος έμφασης που είναι διακεκομμένη κατά την επιλογή και συμπαγής μόλις επιβεβαιωθεί· το Distance εμφανίζει επίσης λαβές και στα δύο άκρα', 'Διορθώθηκε σφάλμα όπου το κλικ σε οντότητες μοντέλου ορατές μέσα από ένα viewport διάταξης επέλεγε φαντομικά αντίγραφα στον χώρο χαρτιού των οποίων η επεξεργασία και η διαγραφή δεν είχαν καμία επίδραση σιωπηλά — το περιεχόμενο του viewport είναι πλέον μόνο για προβολή όσον αφορά την επιλογή (η έλξη μέσω viewports δεν επηρεάζεται)', 'Οι δείκτες X τομής σχεδιάζονται πλέον με το χρώμα έμφασης αντί για πράσινο, ευθυγραμμισμένοι με την υπόλοιπη παλέτα έλξης και προεπισκόπησης', 'Βελτιώθηκε η διάταξη του αναπτυσσόμενου μενού ANGL στη γραμμή ελέγχου'] },
     { title: 'Εντολή Align: μετατόπιση, περιστροφή & κλιμάκωση με ζεύγη σημείων', highlights: ['Η νέα εντολή Align επανατοποθετεί οντότητες χρησιμοποιώντας ένα ή δύο ζεύγη σημείων πηγής/προορισμού — μόνο μετατόπιση με ένα ζεύγος, ή μετατόπιση + περιστροφή + προαιρετική κλιμάκωση με δύο ζεύγη', 'Η ευθυγράμμιση ενός σημείου (Enter στο δεύτερο σημείο πηγής) λειτουργεί ακριβώς όπως το Move — μόνο μετατόπιση, χωρίς περιστροφή', 'Η ευθυγράμμιση δύο σημείων υπολογίζει την περιστροφή από τις κατευθύνσεις των τμημάτων πηγής και προορισμού, και έπειτα ρωτά Ναι/Όχι για να εφαρμοστεί επίσης κλιμάκωση ώστε τα μήκη των τμημάτων να ταιριάζουν', 'Ζωντανή προεπισκόπηση στον καμβά σε κάθε βήμα: προεπισκόπηση μετακίνησης κατά την τοποθέτηση του πρώτου σημείου προορισμού, έπειτα διακεκομμένη περιστραμμένη προεπισκόπηση μόλις οριστούν και τα δύο σημεία προορισμού', 'Προσβάσιμη μέσω του νέου κουμπιού Align στο πάνελ εργαλείων Edit, ή πληκτρολογώντας `align` (αρκεί το `al`) στο τερματικό', 'Διορθώθηκε το κείμενο της προτροπής Align ώστε να ταιριάζει με τη διατύπωση "pick" που χρησιμοποιούν οι άλλες εντολές'] },
     { title: 'Εντολή μέτρησης Area & ανανέωση εικονιδίων γραμμής εργαλείων', highlights: ['Η νέα εντολή Area μετρά το εμβαδόν και την περίμετρο ενός πολυγώνου — κάντε κλικ σε 3 ή περισσότερα σημεία, μετά πατήστε Enter για να κλείσετε το σχήμα', 'Το Area υποστηρίζει κατευθυντική εισαγωγή με κλείδωμα γωνίας: προσκολλάται στην ρυθμισμένη προσαύξηση παρακολούθησης γωνίας και επιτρέπει την πληκτρολόγηση ακριβούς μήκους πλευράς', 'Το κλειστό πολύγωνο — γέμισμα, περίγραμμα και λαβές κορυφών — παραμένει επισημασμένο στον καμβά μέχρι να απορριφθεί το αποτέλεσμα', 'Ο πίνακας Measure είναι πλέον πλέγμα 2×2: Distance και Angle στην πάνω σειρά, Area στην κάτω σειρά', 'Τα εικονίδια γραμμής εργαλείων Distance και Angle ανασχεδιάστηκαν με συνεχείς γραμμές και γεμισμένη σφήνα αντί για διακεκομμένες γραμμές', 'Το εικονίδιο γραμμής εργαλείων Area απλοποιήθηκε σε ένα τετράγωνο με λοξότμητες γωνίες και σημεία προσκόλλησης στις κορυφές', 'Διορθώθηκε το άλμα του κειμένου προτροπής τερματικού όταν εμφανίζεται το σήμα πλήκτρου'] },
     { title: 'Αντιγραφή/επικόλληση στον επεξεργαστή κειμένου, γραμμή σχολίων & βέλη προσαρμοσμένα στο θέμα', highlights: ['Επεξεργαστής κειμένου: Ctrl/Cmd+C, Ctrl/Cmd+X και Ctrl/Cmd+V πλέον αντιγράφουν, αποκόπτουν και επικολλούν το επιλεγμένο κείμενο', 'Το επικολλημένο κείμενο παίρνει πάντα τη μορφοποίηση που υπάρχει ήδη στον κέρσορα αντί να διατηρεί αυτή που είχε όταν αντιγράφηκε· η λειτουργία rich διατηρεί τις αλλαγές γραμμής, η λειτουργία simple (ετικέτες διαστάσεων) τις αφαιρεί', 'Νέα γραμμή σχολίων στη γραμμή εργαλείων συνδέει με Reddit, GitHub Issues και email — εμφανίζεται μετά από 10 λεπτά χρήσης και μπορεί να κλείσει', 'Οι προεπισκοπήσεις βέλους στον πίνακα ιδιοτήτων και στον επιλογέα βέλους πλέον αποδίδονται με χρώμα ανάλογο του θέματος αντί για πάντα λευκό', 'Βελτιωμένη αντίθεση για τις ετικέτες πάνελ της γραμμής εργαλείων (π.χ. "STYLE", "LAYERS") στο ανοιχτόχρωμο θέμα', 'Η ένδειξη συντεταγμένων και ζουμ στη γραμμή εργαλείων είναι πλέον πιο κοντά στις ετικέτες της, αντί για στήλη σταθερού πλάτους στοιχισμένη δεξιά'] },
@@ -5234,6 +5458,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     { title: 'Αναβάθμιση Angular, τεκμηρίωση & προσαρμοστικό πλέγμα', highlights: ['Αναβάθμιση Angular 19 → 20 → 21', 'Πλήρης ιστότοπος τεκμηρίωσης εντολών', 'Προσαρμοστικό πλέγμα CAD', 'Πίνακας ιστορικού (Αναίρεση / Ιστορικό / Επανάληψη)'] },
   ],
   pa: [
+    {
+      title: 'Vector pins: ਐਂਗਲ-ਲਾਕ ਰੇ ਸਨੈਪਿੰਗ ਨਾਲ ਆਬਜੈਕਟ ਸਨੈਪ ਟਰੈਕਿੰਗ',
+      highlights: [
+        'ਕੰਟਰੋਲ ਬਾਰ ਵਿੱਚ ਨਵਾਂ Vector Pins (Pins) ਟੌਗਲ — ਕਿਸੇ ਸਨੈਪ ਪੁਆਇੰਟ ਜਾਂ ਗ੍ਰਿਪ ਉੱਤੇ 500ms ਕਰਸਰ ਰੱਖ ਕੇ ਇਸਨੂੰ ਪਿੰਨ ਕਰੋ, ਫਿਰ ਪਿੰਨ ਕੀਤੇ ਪੁਆਇੰਟ ਵਿੱਚੋਂ ਲੰਘਦੀਆਂ ਡੈਸ਼ਡ ਖਿਤਿਜੀ/ਲੰਬਕਾਰੀ ਰੈਫਰੈਂਸ ਲਾਈਨਾਂ ਦੇ ਨਾਲ ਕਰਸਰ ਟਰੈਕ ਕਰੋ; ਆਮ ਜਿਓਮੈਟਰੀ ਸਨੈਪ ਅਜੇ ਵੀ ਤਰਜੀਹ ਰੱਖਦੇ ਹਨ',
+        'ਐਂਗਲ-ਲਾਕ ਕੀਤੀਆਂ ਕਿਰਨਾਂ ਹੁਣ Line, Polyline, Arc, Circle, Move, Copy, Area, Leader ਅਤੇ ViewportCopy ਵਿੱਚ ਲਾਕ ਕੀਤੀ ਦਿਸ਼ਾ ਅਤੇ ਪਿੰਨ ਰੈਫਰੈਂਸ ਲਾਈਨਾਂ ਦੇ ਇੰਟਰਸੈਕਸ਼ਨ ਉੱਤੇ ਸਨੈਪ ਹੁੰਦੀਆਂ ਹਨ',
+        'Distance ਅਤੇ Angle ਹੁਣ Escape ਤੱਕ ਆਪਣਾ ਨਤੀਜਾ ਸਕ੍ਰੀਨ ਉੱਤੇ ਬਣਾਈ ਰੱਖਦੇ ਹਨ, ਇੱਕ ਐਕਸੈਂਟ-ਰੰਗੀ ਪ੍ਰੀਵਿਊ ਨਾਲ ਜੋ ਚੁਣਦੇ ਸਮੇਂ ਡੈਸ਼ਡ ਅਤੇ ਪੁਸ਼ਟੀ ਤੋਂ ਬਾਅਦ ਠੋਸ ਹੁੰਦਾ ਹੈ; Distance ਦੋਵੇਂ ਐਂਡਪੁਆਇੰਟਾਂ ਉੱਤੇ ਗ੍ਰਿਪਸ ਵੀ ਦਿਖਾਉਂਦਾ ਹੈ',
+        'ਇੱਕ ਬੱਗ ਠੀਕ ਕੀਤਾ ਗਿਆ ਜਿੱਥੇ ਲੇਆਉਟ ਵਿਊਪੋਰਟ ਰਾਹੀਂ ਦਿਖਣ ਵਾਲੀਆਂ ਮਾਡਲ ਐਂਟਿਟੀਆਂ ਉੱਤੇ ਕਲਿੱਕ ਕਰਨ ਨਾਲ ਪੇਪਰ-ਸਪੇਸ ਦੀਆਂ ਫੈਂਟਮ ਕਾਪੀਆਂ ਚੁਣੀਆਂ ਜਾਂਦੀਆਂ ਸਨ ਜਿਨ੍ਹਾਂ ਦੀ ਸੋਧ ਅਤੇ ਮਿਟਾਉਣਾ ਚੁੱਪਚਾਪ ਕੁਝ ਨਹੀਂ ਕਰਦੇ ਸਨ — ਵਿਊਪੋਰਟ ਸਮੱਗਰੀ ਹੁਣ ਚੋਣ ਦੇ ਸੰਬੰਧ ਵਿੱਚ ਸਿਰਫ਼ ਡਿਸਪਲੇ ਲਈ ਹੈ (ਵਿਊਪੋਰਟਾਂ ਰਾਹੀਂ ਸਨੈਪਿੰਗ ਪ੍ਰਭਾਵਿਤ ਨਹੀਂ ਹੋਈ)',
+        'ਇੰਟਰਸੈਕਸ਼ਨ X ਨਿਸ਼ਾਨ ਹੁਣ ਹਰੇ ਦੀ ਬਜਾਏ ਐਕਸੈਂਟ ਰੰਗ ਵਿੱਚ ਖਿੱਚੇ ਜਾਂਦੇ ਹਨ, ਬਾਕੀ ਸਨੈਪ ਅਤੇ ਪ੍ਰੀਵਿਊ ਪੈਲੇਟ ਨਾਲ ਮੇਲ ਖਾਂਦੇ ਹੋਏ',
+        'ਕੰਟਰੋਲ ਬਾਰ ਵਿੱਚ ANGL ਡ੍ਰਾਪਡਾਊਨ ਦਾ ਲੇਆਉਟ ਸੁਧਾਰਿਆ ਗਿਆ',
+      ],
+    },
     {
       title: 'Align ਕਮਾਂਡ: ਪੁਆਇੰਟ ਜੋੜਿਆਂ ਨਾਲ ਟ੍ਰਾਂਸਲੇਟ, ਰੋਟੇਟ ਅਤੇ ਸਕੇਲ ਕਰੋ',
       highlights: [
@@ -5490,6 +5725,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   sv: [
     {
+      title: 'Vector pins: objektfästspårning med strålfästning vid vinkellås',
+      highlights: [
+        'Ny Vector Pins-knapp (Pins) i kontrollfältet — håll markören över en fästpunkt eller ett grepp i 500 ms för att nåla fast den, spåra sedan markören längs streckade horisontella/vertikala referenslinjer genom den nålade punkten; vanliga geometrifästen har fortfarande företräde',
+        'Vinkellåsta strålar fäster nu på skärningspunkten mellan den låsta riktningen och nålarnas referenslinjer i Line, Polyline, Arc, Circle, Move, Copy, Area, Leader och ViewportCopy',
+        'Distance och Angle behåller nu sitt resultat på skärmen tills Escape, med en förhandsvisning i accentfärg som är streckad under val och heldragen efter bekräftelse; Distance visar också grepp vid båda ändpunkterna',
+        'Åtgärdade en bugg där klick på modellentiteter synliga genom en layout-viewport valde spökkopior i pappersutrymmet vars redigeringar och borttagningar tyst inte hade någon effekt — viewportinnehåll är nu endast visuellt vid val (fästning genom viewportar påverkas inte)',
+        'Skärningspunkts-X-markörer ritas nu i accentfärg istället för grönt, i linje med resten av fäst- och förhandsvisningspaletten',
+        'Förbättrade layouten för ANGL-rullgardinsmenyn i kontrollfältet',
+      ],
+    },
+    {
       title: 'Align-kommandot: flytta, rotera & skala med punktpar',
       highlights: [
         'Nya Align-kommandot placerar om entiteter med hjälp av ett eller två käll-/målpunktpar — enbart förflyttning med ett par, eller förflyttning + rotation + valfri skalning med två par',
@@ -5744,6 +5990,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   tl: [
+    {
+      title: 'Vector pins: object snap tracking na may ray snapping kapag naka-angle lock',
+      highlights: [
+        'Bagong Vector Pins (Pins) toggle sa control bar — mag-hover sa isang snap point o grip nang 500ms para i-pin ito, pagkatapos ay subaybayan ang cursor sa mga dashed na pahalang/patayong reference line na dumadaan sa naka-pin na punto; ang mga karaniwang geometry snap ay nananatiling prayoridad',
+        'Ang mga ray na naka-angle lock ay mag-s-snap na ngayon sa intersection ng naka-lock na direksyon at mga reference line ng pin sa Line, Polyline, Arc, Circle, Move, Copy, Area, Leader, at ViewportCopy',
+        'Pinapanatili na ngayon ng Distance at Angle ang kanilang resulta sa screen hanggang sa Escape, na may accent-colored na preview na dashed habang pumipili at solid pagkatapos kumpirmahin; nagpapakita rin ang Distance ng mga grip sa magkabilang endpoint',
+        'Inayos ang bug kung saan ang pag-click sa mga entity ng modelo na nakikita sa pamamagitan ng layout viewport ay pumipili ng mga phantom copy sa paper space na ang pag-edit at pagtanggal ay tahimik na walang epekto — ang laman ng viewport ngayon ay para sa pagtingin lamang kaugnay ng pagpili (hindi apektado ang snapping sa pamamagitan ng mga viewport)',
+        'Ang mga X marker ng intersection ay iginuguhit na ngayon sa accent color sa halip na berde, kasabay ng iba pang bahagi ng snap at preview palette',
+        'Pinahusay ang layout ng ANGL dropdown sa control bar',
+      ],
+    },
     {
       title: 'Align command: paglipat, pag-ikot, at pag-scale gamit ang mga pares ng punto',
       highlights: [
