@@ -1,6 +1,6 @@
 ---
 title: Export — Download Drawings as DXF or JSON in KulmanLab CAD
-description: The Export command downloads the current drawing as a DXF () or JSON (native) file. JSON preserves all entities including dimensions and leaders; DXF is compatible with  and other CAD tools.
+description: The Export command downloads the current drawing as a DXF or JSON (native) file. JSON preserves all entities including dimensions and leaders; DXF is compatible with other CAD tools.
 keywords: [export DXF, export CAD file, download DXF browser, save DXF online, export JSON CAD, KulmanLab export, CAD file download, DXF export, save drawing to file, DXF download]
 group: file
 order: 5
@@ -22,7 +22,7 @@ The **Export** command downloads the current drawing to your file system. Two fo
 | Format | Extension | Best for | Limitations |
 |--------|-----------|----------|-------------|
 | **JSON** *(native)* | `.json` | Saving work to reopen in KulmanLab CAD | Not compatible with other CAD tools |
-| **DXF** | `.dxf` | Sharing with , FreeCAD, LibreCAD, etc. | Dimensions and leaders are not exported |
+| **DXF** | `.dxf` | Sharing with FreeCAD, LibreCAD, etc. | Dimensions and leaders are not exported |
 
 **When to use JSON:** anytime you want to save a complete copy of your work. JSON is KulmanLab's native format and preserves every entity exactly — including dimensions, leaders, and all layer data.
 

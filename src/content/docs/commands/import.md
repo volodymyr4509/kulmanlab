@@ -8,7 +8,7 @@ order: 1
 
 # Import
 
-The **Import** command loads an existing drawing from your local file system into KulmanLab CAD. Both the standard  **DXF** format and KulmanLab's own **JSON** format are supported.
+The **Import** command loads an existing drawing from your local file system into KulmanLab CAD. Both the standard **DXF** format and KulmanLab's own **JSON** format are supported.
 
 ## How to import a file
 
@@ -22,7 +22,7 @@ Alternatively, you can drag and drop a file directly onto the canvas.
 
 | Format | Extension | When to use |
 |--------|-----------|-------------|
-| **DXF** | `.dxf` | Drawings from , FreeCAD, LibreCAD, or other CAD tools |
+| **DXF** | `.dxf` | Drawings from FreeCAD, LibreCAD, or other CAD tools |
 | **JSON** *(native)* | `.json` | Drawings previously saved from KulmanLab CAD — full fidelity |
 
 ## What gets imported from DXF

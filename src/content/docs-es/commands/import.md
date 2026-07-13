@@ -22,7 +22,7 @@ Como alternativa, puedes arrastrar y soltar un archivo directamente sobre el lie
 
 | Formato | Extensión | Cuándo usarlo |
 |--------|-----------|-------------|
-| **DXF** | `.dxf` | Dibujos de , FreeCAD, LibreCAD u otras herramientas CAD |
+| **DXF** | `.dxf` | Dibujos de FreeCAD, LibreCAD u otras herramientas CAD |
 | **JSON** *(nativo)* | `.json` | Dibujos guardados previamente desde KulmanLab CAD — fidelidad total |
 
 ## Qué se importa desde DXF

@@ -22,7 +22,7 @@ Alternativt kan du dra och släppa en fil direkt på ritytan.
 
 | Format | Filändelse | När det ska användas |
 |--------|-----------|-------------|
-| **DXF** | `.dxf` | Ritningar från , FreeCAD, LibreCAD eller andra CAD-verktyg |
+| **DXF** | `.dxf` | Ritningar från FreeCAD, LibreCAD eller andra CAD-verktyg |
 | **JSON** *(nativt)* | `.json` | Ritningar som tidigare sparats från KulmanLab CAD — full trohet |
 
 ## Vad som importeras från DXF

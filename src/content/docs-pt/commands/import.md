@@ -22,7 +22,7 @@ Alternativamente, você pode arrastar e soltar um arquivo diretamente no canvas.
 
 | Formato | Extensão | Quando usar |
 |---------|----------|-------------|
-| **DXF** | `.dxf` | Desenhos de , FreeCAD, LibreCAD, ou outras ferramentas CAD |
+| **DXF** | `.dxf` | Desenhos de FreeCAD, LibreCAD, ou outras ferramentas CAD |
 | **JSON** *(nativo)* | `.json` | Desenhos previamente salvos do KulmanLab CAD — fidelidade completa |
 
 ## O que é importado do DXF

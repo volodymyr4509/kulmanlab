@@ -22,7 +22,7 @@ Bilang alternatibo, puwede mo ring i-drag at i-drop ang isang file nang direkta 
 
 | Format | Extension | Kailan gagamitin |
 |--------|-----------|-------------------|
-| **DXF** | `.dxf` | Mga drawing mula sa , FreeCAD, LibreCAD, o iba pang CAD tools |
+| **DXF** | `.dxf` | Mga drawing mula sa FreeCAD, LibreCAD, o iba pang CAD tools |
 | **JSON** *(native)* | `.json` | Mga drawing na dati nang na-save mula sa KulmanLab CAD — full fidelity |
 
 ## Ano ang na-i-import mula sa DXF
