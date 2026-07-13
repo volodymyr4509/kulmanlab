@@ -265,7 +265,7 @@ For 2D drafting — yes. KulmanLab has a full command terminal, layers, snapping
 No. Your drawings stay in your browser and are never sent anywhere. KulmanLab uses Google Analytics for anonymous usage metrics (page views, session counts) — no drawing content is involved.
 
 **Are cookies used?**
-Only the cookies set automatically by Google Analytics. No tracking beyond that, no third-party data sharing.
+Cookies are used for Google Analytics, which collects anonymous usage metrics (page views, session counts).
 
 ## Recent releases
 
@@ -305,7 +305,7 @@ Configurable angle tracking (10°–90°) with arc indicator. Snap-to-grid toggl
 
 ## Privacy
 
-KulmanLab collects no drawing data. Your DXF files and canvas state are stored locally in IndexedDB — never uploaded. Google Analytics is used for anonymous usage metrics (page views, session counts). The site sets cookies only for GA. No account, no login, no server-side storage.
+KulmanLab collects no drawing data. Your DXF files and canvas state are stored locally in IndexedDB — never uploaded. Google Analytics is used for anonymous usage metrics (page views, session counts). The site uses cookies for Google Analytics. No account, no login, no server-side storage.
 
 ## Release cadence
 
