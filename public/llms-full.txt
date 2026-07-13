@@ -61,7 +61,7 @@ FAQ (ZH): https://kulmanlab.com/zh/faq
 
 # About KulmanLab
 
-KulmanLab is a free, browser-based 2D CAD editor. No installation, no account, no data uploaded. Open the URL and start drawing — your files stay in your browser's localStorage on your own device.
+KulmanLab is a free, browser-based 2D CAD editor. No installation, no account, no data uploaded. Open the URL and start drawing — your files stay in your browser's IndexedDB on your own device.
 
 ## Key facts
 
@@ -102,7 +102,7 @@ KulmanLab is a free, browser-based 2D CAD editor. No installation, no account, n
 No. KulmanLab supports DXF, not DWG. Most desktop CAD apps can export DXF — export from your source app first.
 
 **Where are my drawings stored?**
-In your browser's localStorage on your own device. Nothing is uploaded to a server.
+In your browser's IndexedDB on your own device. Nothing is uploaded to a server.
 
 **What happens if I clear my browser data?**
 Saved drawings are lost. Export a DXF copy of anything important before clearing browser storage.

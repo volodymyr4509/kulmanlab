@@ -43,7 +43,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       headingKey: 'faq.section.privacy',
       items: [
         { q: 'Does KulmanLab collect my drawing data?', a: 'No. Your drawings stay in your browser and are never sent anywhere. KulmanLab uses Google Analytics for anonymous usage metrics (page views, session counts) — no drawing content is involved.' },
-        { q: 'Are cookies used?', a: 'Only the cookies set automatically by Google Analytics. No tracking beyond that, no advertising cookies, no third-party data sharing.' },
+        { q: 'Are cookies used?', a: 'Only the cookies set automatically by Google Analytics. No tracking beyond that, no third-party data sharing.' },
       ],
     },
   ],
@@ -89,7 +89,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       headingKey: 'faq.section.privacy',
       items: [
         { q: 'Sammelt KulmanLab meine Zeichnungsdaten?', a: 'Nein. Ihre Zeichnungen bleiben in Ihrem Browser und werden niemals irgendwo gesendet. KulmanLab verwendet Google Analytics für anonyme Nutzungsmetriken (Seitenaufrufe, Sitzungsanzahl) — kein Zeichnungsinhalt ist beteiligt.' },
-        { q: 'Werden Cookies verwendet?', a: 'Nur die von Google Analytics automatisch gesetzten Cookies. Kein Tracking darüber hinaus, keine Werbe-Cookies, keine Datenweitergabe an Dritte.' },
+        { q: 'Werden Cookies verwendet?', a: 'Nur die von Google Analytics automatisch gesetzten Cookies. Kein Tracking darüber hinaus, keine Datenweitergabe an Dritte.' },
       ],
     },
   ],
@@ -135,7 +135,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       headingKey: 'faq.section.privacy',
       items: [
         { q: '¿KulmanLab recopila los datos de mis dibujos?', a: 'No. Tus dibujos permanecen en tu navegador y nunca se envían a ningún lugar. KulmanLab usa Google Analytics para métricas de uso anónimas (visitas a páginas, recuentos de sesiones) — no se involucra ningún contenido de dibujo.' },
-        { q: '¿Se usan cookies?', a: 'Solo las cookies establecidas automáticamente por Google Analytics. Sin seguimiento adicional, sin cookies publicitarias, sin compartir datos con terceros.' },
+        { q: '¿Se usan cookies?', a: 'Solo las cookies establecidas automáticamente por Google Analytics. Sin seguimiento adicional, sin compartir datos con terceros.' },
       ],
     },
   ],
@@ -181,7 +181,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       headingKey: 'faq.section.privacy',
       items: [
         { q: 'KulmanLab collecte-t-il mes données de dessin ?', a: "Non. Vos dessins restent dans votre navigateur et ne sont jamais envoyés nulle part. KulmanLab utilise Google Analytics pour des métriques d'utilisation anonymes (vues de pages, nombre de sessions) — aucun contenu de dessin n'est impliqué." },
-        { q: 'Des cookies sont-ils utilisés ?', a: "Uniquement les cookies définis automatiquement par Google Analytics. Aucun suivi au-delà de cela, pas de cookies publicitaires, pas de partage de données avec des tiers." },
+        { q: 'Des cookies sont-ils utilisés ?', a: "Uniquement les cookies définis automatiquement par Google Analytics. Aucun suivi au-delà de cela, pas de partage de données avec des tiers." },
       ],
     },
   ],
@@ -227,7 +227,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       headingKey: 'faq.section.privacy',
       items: [
         { q: 'KulmanLab raccoglie i miei dati di disegno?', a: 'No. I tuoi disegni rimangono nel tuo browser e non vengono mai inviati da nessuna parte. KulmanLab usa Google Analytics per metriche di utilizzo anonime (visualizzazioni di pagina, conteggi di sessioni) — nessun contenuto di disegno è coinvolto.' },
-        { q: 'Vengono usati cookie?', a: 'Solo i cookie impostati automaticamente da Google Analytics. Nessun tracciamento oltre a questo, nessun cookie pubblicitario, nessuna condivisione di dati con terze parti.' },
+        { q: 'Vengono usati cookie?', a: 'Solo i cookie impostati automaticamente da Google Analytics. Nessun tracciamento oltre a questo, nessuna condivisione di dati con terze parti.' },
       ],
     },
   ],
@@ -273,7 +273,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       headingKey: 'faq.section.privacy',
       items: [
         { q: 'O KulmanLab coleta meus dados de desenho?', a: 'Não. Seus desenhos ficam no seu navegador e nunca são enviados a lugar nenhum. O KulmanLab usa Google Analytics para métricas de uso anônimas (visualizações de página, contagens de sessão) — nenhum conteúdo de desenho é envolvido.' },
-        { q: 'São usados cookies?', a: 'Apenas os cookies definidos automaticamente pelo Google Analytics. Sem rastreamento além disso, sem cookies de publicidade, sem compartilhamento de dados com terceiros.' },
+        { q: 'São usados cookies?', a: 'Apenas os cookies definidos automaticamente pelo Google Analytics. Sem rastreamento além disso, sem compartilhamento de dados com terceiros.' },
       ],
     },
   ],
@@ -319,7 +319,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       headingKey: 'faq.section.privacy',
       items: [
         { q: 'KulmanLab 会收集我的图纸数据吗？', a: '不会。您的图纸保留在浏览器中，永远不会发送到任何地方。KulmanLab 使用 Google Analytics 收集匿名使用数据（页面浏览量、会话数）——不涉及任何图纸内容。' },
-        { q: '使用 Cookie 吗？', a: '仅使用 Google Analytics 自动设置的 Cookie。除此之外没有跟踪，没有广告 Cookie，没有第三方数据共享。' },
+        { q: '使用 Cookie 吗？', a: '仅使用 Google Analytics 自动设置的 Cookie。除此之外没有跟踪，没有第三方数据共享。' },
       ],
     },
   ],
@@ -365,7 +365,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       headingKey: 'faq.section.privacy',
       items: [
         { q: 'KulmanLab çizim verilerimi topluyor mu?', a: 'Hayır. Çizimleriniz tarayıcınızda kalır ve hiçbir yere gönderilmez. KulmanLab anonim kullanım metrikleri (sayfa görüntülemeleri, oturum sayıları) için Google Analytics kullanır — hiçbir çizim içeriği dahil değildir.' },
-        { q: 'Çerez kullanılıyor mu?', a: 'Yalnızca Google Analytics tarafından otomatik olarak ayarlanan çerezler. Bunun ötesinde takip yok, reklam çerezi yok, üçüncü taraf veri paylaşımı yok.' },
+        { q: 'Çerez kullanılıyor mu?', a: 'Yalnızca Google Analytics tarafından otomatik olarak ayarlanan çerezler. Bunun ötesinde takip yok, üçüncü taraf veri paylaşımı yok.' },
       ],
     },
   ],
@@ -411,7 +411,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       headingKey: 'faq.section.privacy',
       items: [
         { q: 'Чи збирає KulmanLab дані моїх кресленнь?', a: 'Ні. Ваші кресленики залишаються у браузері та ніколи нікуди не надсилаються. KulmanLab використовує Google Analytics для анонімних показників використання (перегляди сторінок, кількість сеансів) — жодний вміст кресленнь не залучається.' },
-        { q: 'Чи використовуються cookie?', a: 'Лише cookie, автоматично встановлені Google Analytics. Без додаткового відстеження, без рекламних cookie, без передачі даних третім сторонам.' },
+        { q: 'Чи використовуються cookie?', a: 'Лише cookie, автоматично встановлені Google Analytics. Без додаткового відстеження, без передачі даних третім сторонам.' },
       ],
     },
   ],
@@ -457,7 +457,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       headingKey: 'faq.section.privacy',
       items: [
         { q: 'क्या KulmanLab मेरी ड्राइंग डेटा एकत्र करता है?', a: 'नहीं। आपकी ड्राइंग आपके ब्राउज़र में रहती हैं और कहीं नहीं भेजी जातीं। KulmanLab अनाम उपयोग मेट्रिक्स (पेज व्यू, सत्र गणना) के लिए Google Analytics का उपयोग करता है — कोई ड्राइंग सामग्री शामिल नहीं।' },
-        { q: 'क्या कुकी का उपयोग होता है?', a: 'केवल Google Analytics द्वारा स्वचालित रूप से सेट की गई कुकी। इसके अलावा कोई ट्रैकिंग नहीं, कोई विज्ञापन कुकी नहीं, कोई तृतीय-पक्ष डेटा साझाकरण नहीं।' },
+        { q: 'क्या कुकी का उपयोग होता है?', a: 'केवल Google Analytics द्वारा स्वचालित रूप से सेट की गई कुकी। इसके अलावा कोई ट्रैकिंग नहीं, कोई तृतीय-पक्ष डेटा साझाकरण नहीं।' },
       ],
     },
   ],
@@ -503,7 +503,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       headingKey: 'faq.section.privacy',
       items: [
         { q: 'هل يجمع KulmanLab بيانات رسوماتي؟', a: 'لا. رسوماتك تبقى في متصفحك ولا تُرسل إلى أي مكان. يستخدم KulmanLab Google Analytics لمقاييس الاستخدام المجهولة (مشاهدات الصفحة وعدد الجلسات) — لا يشمل ذلك محتوى الرسومات.' },
-        { q: 'هل تُستخدم ملفات تعريف الارتباط؟', a: 'فقط ملفات تعريف الارتباط التي يضعها Google Analytics تلقائياً. لا تتبع إضافي، لا ملفات تعريف ارتباط إعلانية، لا مشاركة بيانات مع أطراف ثالثة.' },
+        { q: 'هل تُستخدم ملفات تعريف الارتباط؟', a: 'فقط ملفات تعريف الارتباط التي يضعها Google Analytics تلقائياً. لا تتبع إضافي، لا مشاركة بيانات مع أطراف ثالثة.' },
       ],
     },
   ],
@@ -549,7 +549,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       headingKey: 'faq.section.privacy',
       items: [
         { q: 'Apakah KulmanLab mengumpulkan data gambar saya?', a: 'Tidak. Gambar Anda tetap di browser dan tidak pernah dikirim ke mana pun. KulmanLab menggunakan Google Analytics untuk metrik penggunaan anonim (tampilan halaman, jumlah sesi) — tidak ada konten gambar yang terlibat.' },
-        { q: 'Apakah cookie digunakan?', a: 'Hanya cookie yang secara otomatis ditetapkan oleh Google Analytics. Tidak ada pelacakan lebih lanjut, tidak ada cookie iklan, tidak ada berbagi data pihak ketiga.' },
+        { q: 'Apakah cookie digunakan?', a: 'Hanya cookie yang secara otomatis ditetapkan oleh Google Analytics. Tidak ada pelacakan lebih lanjut, tidak ada berbagi data pihak ketiga.' },
       ],
     },
   ],
@@ -594,7 +594,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       headingKey: 'faq.section.privacy',
       items: [
         { q: 'KulmanLabは図面データを収集しますか？', a: '収集しません。図面はブラウザ内に保存され、どこにも送信されません。KulmanLabは匿名の利用統計（ページビュー、セッション数）にGoogle Analyticsを使用していますが、図面の内容は一切関係しません。' },
-        { q: 'Cookieは使用されていますか？', a: 'Google Analyticsが自動的に設定するCookieのみです。それ以外のトラッキング、広告Cookie、第三者へのデータ共有は行っていません。' },
+        { q: 'Cookieは使用されていますか？', a: 'Google Analyticsが自動的に設定するCookieのみです。それ以外のトラッキング、第三者へのデータ共有は行っていません。' },
       ],
     },
   ],
@@ -640,7 +640,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       headingKey: 'faq.section.privacy',
       items: [
         { q: 'Czy KulmanLab zbiera dane moich rysunków?', a: 'Nie. Twoje rysunki pozostają w przeglądarce i nigdy nie są nigdzie wysyłane. KulmanLab używa Google Analytics do anonimowych statystyk użytkowania (odsłony stron, liczba sesji) — żadna zawartość rysunków nie jest zaangażowana.' },
-        { q: 'Czy używane są pliki cookie?', a: 'Tylko pliki cookie ustawiane automatycznie przez Google Analytics. Żadnego dodatkowego śledzenia, żadnych reklamowych plików cookie, żadnego udostępniania danych stronom trzecim.' },
+        { q: 'Czy używane są pliki cookie?', a: 'Tylko pliki cookie ustawiane automatycznie przez Google Analytics. Żadnego dodatkowego śledzenia, żadnego udostępniania danych stronom trzecim.' },
       ],
     },
   ],
@@ -686,7 +686,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       headingKey: 'faq.section.privacy',
       items: [
         { q: 'KulmanLab이 도면 데이터를 수집하나요?', a: '아니요. 도면은 브라우저 내에 보관되며 어디에도 전송되지 않습니다. KulmanLab은 익명 이용 통계(페이지뷰, 세션 수)를 위해 Google Analytics를 사용하지만 도면 내용은 포함되지 않습니다.' },
-        { q: '쿠키가 사용되나요?', a: 'Google Analytics가 자동으로 설정하는 쿠키만 사용됩니다. 그 외 추적은 없으며, 광고 쿠키도 없고, 제3자에게 데이터를 공유하지 않습니다.' },
+        { q: '쿠키가 사용되나요?', a: 'Google Analytics가 자동으로 설정하는 쿠키만 사용됩니다. 그 외 추적은 없으며, 제3자에게 데이터를 공유하지 않습니다.' },
       ],
     },
   ],
@@ -732,7 +732,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       headingKey: 'faq.section.privacy',
       items: [
         { q: 'KulmanLab có thu thập dữ liệu bản vẽ của tôi không?', a: 'Không. Bản vẽ của bạn được lưu trong trình duyệt và không bao giờ được gửi đi đâu. KulmanLab sử dụng Google Analytics để thu thập số liệu sử dụng ẩn danh (lượt xem trang, số phiên) — không có nội dung bản vẽ nào liên quan.' },
-        { q: 'Cookie có được sử dụng không?', a: 'Chỉ cookie được Google Analytics tự động đặt. Không có theo dõi thêm, không có cookie quảng cáo, không chia sẻ dữ liệu với bên thứ ba.' },
+        { q: 'Cookie có được sử dụng không?', a: 'Chỉ cookie được Google Analytics tự động đặt. Không có theo dõi thêm, không chia sẻ dữ liệu với bên thứ ba.' },
       ],
     },
   ],
@@ -777,7 +777,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       headingKey: 'faq.section.privacy',
       items: [
         { q: 'KulmanLab รวบรวมข้อมูลภาพของฉันไหม?', a: 'ไม่ ภาพของคุณเก็บอยู่ในเบราว์เซอร์และไม่เคยถูกส่งไปที่ใด KulmanLab ใช้ Google Analytics สำหรับตัวชี้วัดการใช้งานแบบไม่ระบุตัวตน (การดูหน้า จำนวนเซสชัน) — ไม่มีเนื้อหาภาพที่เกี่ยวข้อง' },
-        { q: 'มีการใช้คุกกี้ไหม?', a: 'เฉพาะคุกกี้ที่ Google Analytics ตั้งค่าโดยอัตโนมัติ ไม่มีการติดตามเพิ่มเติม ไม่มีคุกกี้โฆษณา ไม่มีการแบ่งปันข้อมูลกับบุคคลที่สาม' },
+        { q: 'มีการใช้คุกกี้ไหม?', a: 'เฉพาะคุกกี้ที่ Google Analytics ตั้งค่าโดยอัตโนมัติ ไม่มีการติดตามเพิ่มเติม ไม่มีการแบ่งปันข้อมูลกับบุคคลที่สาม' },
       ],
     },
   ],
@@ -822,7 +822,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       headingKey: 'faq.section.privacy',
       items: [
         { q: 'Adakah KulmanLab mengumpul data lukisan saya?', a: 'Tidak. Lukisan anda kekal dalam pelayar dan tidak pernah dihantar ke mana-mana. KulmanLab menggunakan Google Analytics untuk metrik penggunaan tanpa nama (paparan halaman, kiraan sesi) — tiada kandungan lukisan yang terlibat.' },
-        { q: 'Adakah kuki digunakan?', a: 'Hanya kuki yang ditetapkan secara automatik oleh Google Analytics. Tiada penjejakan di luar itu, tiada kuki pengiklanan, tiada perkongsian data pihak ketiga.' },
+        { q: 'Adakah kuki digunakan?', a: 'Hanya kuki yang ditetapkan secara automatik oleh Google Analytics. Tiada penjejakan di luar itu, tiada perkongsian data pihak ketiga.' },
       ],
     },
   ],
@@ -868,7 +868,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       headingKey: 'faq.section.privacy',
       items: [
         { q: 'KulmanLab কি আমার ড্রয়িং ডেটা সংগ্রহ করে?', a: 'না। আপনার ড্রয়িংগুলো আপনার ব্রাউজারে থাকে এবং কোথাও পাঠানো হয় না। KulmanLab বেনামী ব্যবহারের মেট্রিক্সের জন্য (পেজ ভিউ, সেশন কাউন্ট) Google Analytics ব্যবহার করে — কোনো ড্রয়িং বিষয়বস্তু জড়িত নয়।' },
-        { q: 'কি কুকি ব্যবহার করা হয়?', a: 'শুধুমাত্র Google Analytics দ্বারা স্বয়ংক্রিয়ভাবে সেট করা কুকি। এর বাইরে কোনো ট্র্যাকিং নেই, কোনো বিজ্ঞাপন কুকি নেই, কোনো তৃতীয়-পক্ষের ডেটা শেয়ারিং নেই।' },
+        { q: 'কি কুকি ব্যবহার করা হয়?', a: 'শুধুমাত্র Google Analytics দ্বারা স্বয়ংক্রিয়ভাবে সেট করা কুকি। এর বাইরে কোনো ট্র্যাকিং নেই, কোনো তৃতীয়-পক্ষের ডেটা শেয়ারিং নেই।' },
       ],
     },
   ],
@@ -914,7 +914,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       headingKey: 'faq.section.privacy',
       items: [
         { q: 'Je, KulmanLab inakusanya data ya michoro yangu?', a: 'Hapana. Michoro yako inabaki kwenye kivinjari chako na haipelekwi popote. KulmanLab inatumia Google Analytics kwa vipimo vya matumizi vya kubinafsi (mionekano ya ukurasa, idadi ya vikao) — hakuna maudhui ya mchoro yanayohusika.' },
-        { q: 'Je, kuki zinatumika?', a: 'Kuki tu zilizowekwa otomatiki na Google Analytics. Hakuna ufuatiliaji zaidi ya hilo, hakuna kuki za utangazaji, hakuna kushiriki data na watu wa tatu.' },
+        { q: 'Je, kuki zinatumika?', a: 'Kuki tu zilizowekwa otomatiki na Google Analytics. Hakuna ufuatiliaji zaidi ya hilo, hakuna kushiriki data na watu wa tatu.' },
       ],
     },
   ],
@@ -960,7 +960,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       headingKey: 'faq.section.privacy',
       items: [
         { q: 'کیا KulmanLab میرا ڈرائنگ ڈیٹا جمع کرتا ہے؟', a: 'نہیں۔ آپ کی ڈرائنگز آپ کے براؤزر میں رہتی ہیں اور کہیں نہیں بھیجی جاتیں۔ KulmanLab گمنام استعمال میٹرکس (صفحہ دیکھنے، سیشن گنتی) کے لیے Google Analytics استعمال کرتا ہے — کوئی ڈرائنگ مواد شامل نہیں۔' },
-        { q: 'کیا کوکیز استعمال ہوتی ہیں؟', a: 'صرف Google Analytics کی طرف سے خودکار طور پر سیٹ کی گئی کوکیز۔ اس کے علاوہ کوئی ٹریکنگ نہیں، کوئی اشتہاری کوکیز نہیں، کوئی تھرڈ پارٹی ڈیٹا شیئرنگ نہیں۔' },
+        { q: 'کیا کوکیز استعمال ہوتی ہیں؟', a: 'صرف Google Analytics کی طرف سے خودکار طور پر سیٹ کی گئی کوکیز۔ اس کے علاوہ کوئی ٹریکنگ نہیں، کوئی تھرڈ پارٹی ڈیٹا شیئرنگ نہیں۔' },
       ],
     },
   ],
@@ -1006,7 +1006,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       headingKey: 'faq.section.privacy',
       items: [
         { q: 'Συλλέγει το KulmanLab τα δεδομένα των σχεδίων μου;', a: 'Όχι. Τα σχέδιά σας παραμένουν στον browser σας και δεν αποστέλλονται πουθενά. Το KulmanLab χρησιμοποιεί το Google Analytics για ανώνυμα μετρικά χρήσης — δεν εμπλέκεται περιεχόμενο σχεδίων.' },
-        { q: 'Χρησιμοποιούνται cookies;', a: 'Μόνο τα cookies που ορίζονται αυτόματα από το Google Analytics. Χωρίς επιπλέον παρακολούθηση, χωρίς διαφημιστικά cookies, χωρίς κοινή χρήση δεδομένων με τρίτους.' },
+        { q: 'Χρησιμοποιούνται cookies;', a: 'Μόνο τα cookies που ορίζονται αυτόματα από το Google Analytics. Χωρίς επιπλέον παρακολούθηση, χωρίς κοινή χρήση δεδομένων με τρίτους.' },
       ],
     },
   ],
@@ -1051,7 +1051,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       headingKey: 'faq.section.privacy',
       items: [
         { q: 'ਕੀ KulmanLab ਮੇਰੀ ਡਰਾਇੰਗ ਡਾਟਾ ਇਕੱਠਾ ਕਰਦਾ ਹੈ?', a: 'ਨਹੀਂ। ਤੁਹਾਡੀਆਂ ਡਰਾਇੰਗਾਂ ਤੁਹਾਡੇ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਰਹਿੰਦੀਆਂ ਹਨ ਅਤੇ ਕਿਤੇ ਵੀ ਭੇਜੀਆਂ ਨਹੀਂ ਜਾਂਦੀਆਂ। KulmanLab ਬੇਨਾਮ ਵਰਤੋਂ ਮੈਟ੍ਰਿਕਸ (ਪੇਜ ਵਿਊ, ਸੈਸ਼ਨ ਗਿਣਤੀ) ਲਈ Google Analytics ਵਰਤਦਾ ਹੈ — ਕੋਈ ਡਰਾਇੰਗ ਸਮੱਗਰੀ ਸ਼ਾਮਲ ਨਹੀਂ।' },
-        { q: 'ਕੀ ਕੂਕੀਜ਼ ਵਰਤੀਆਂ ਜਾਂਦੀਆਂ ਹਨ?', a: 'ਸਿਰਫ਼ Google Analytics ਦੁਆਰਾ ਆਟੋਮੈਟਿਕ ਸੈੱਟ ਕੀਤੀਆਂ ਕੂਕੀਜ਼। ਇਸ ਤੋਂ ਬਾਹਰ ਕੋਈ ਟਰੈਕਿੰਗ ਨਹੀਂ, ਕੋਈ ਵਿਗਿਆਪਨ ਕੂਕੀਜ਼ ਨਹੀਂ, ਕੋਈ ਤੀਜੀ-ਧਿਰ ਡਾਟਾ ਸ਼ੇਅਰਿੰਗ ਨਹੀਂ।' },
+        { q: 'ਕੀ ਕੂਕੀਜ਼ ਵਰਤੀਆਂ ਜਾਂਦੀਆਂ ਹਨ?', a: 'ਸਿਰਫ਼ Google Analytics ਦੁਆਰਾ ਆਟੋਮੈਟਿਕ ਸੈੱਟ ਕੀਤੀਆਂ ਕੂਕੀਜ਼। ਇਸ ਤੋਂ ਬਾਹਰ ਕੋਈ ਟਰੈਕਿੰਗ ਨਹੀਂ, ਕੋਈ ਤੀਜੀ-ਧਿਰ ਡਾਟਾ ਸ਼ੇਅਰਿੰਗ ਨਹੀਂ।' },
       ],
     },
   ],
@@ -1096,7 +1096,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       headingKey: 'faq.section.privacy',
       items: [
         { q: 'Samlar KulmanLab in min ritningsdata?', a: 'Nej. Dina ritningar stannar i din webbläsare och skickas aldrig någonstans. KulmanLab använder Google Analytics för anonym användningsstatistik (sidvisningar, sessionsantal) — inget ritningsinnehåll berörs.' },
-        { q: 'Används cookies?', a: 'Endast cookies som sätts automatiskt av Google Analytics. Utöver det ingen spårning, inga annonscookies, ingen datadelning med tredje part.' },
+        { q: 'Används cookies?', a: 'Endast cookies som sätts automatiskt av Google Analytics. Utöver det ingen spårning, ingen datadelning med tredje part.' },
       ],
     },
   ],
@@ -1141,7 +1141,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       headingKey: 'faq.section.privacy',
       items: [
         { q: 'Kinokolekta ba ng KulmanLab ang aking drawing data?', a: 'Hindi. Nananatili ang iyong mga drawing sa browser mo at hindi kailanman ipinapadala kahit saan. Gumagamit ang KulmanLab ng Google Analytics para sa anonymous na usage statistics (page views, session count) — walang nagagalaw na drawing content.' },
-        { q: 'May ginagamit bang cookies?', a: 'Ang mga cookies lamang na awtomatikong itinatakda ng Google Analytics. Wala nang iba pang tracking, walang advertising cookies, walang pagbabahagi ng data sa third party.' },
+        { q: 'May ginagamit bang cookies?', a: 'Ang mga cookies lamang na awtomatikong itinatakda ng Google Analytics. Wala nang iba pang tracking, walang pagbabahagi ng data sa third party.' },
       ],
     },
   ],
