@@ -1,0 +1,32 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import PrivacyBody from '../../components/PrivacyBody.astro';
+import type { Lang } from '../../i18n/translations';
+import { LANGS_NO_EN, buildAlternates } from '../../i18n/utils';
+import { privacyContent } from '../../i18n/privacy-content';
+
+export function getStaticPaths() {
+  return LANGS_NO_EN.map(lang => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params as { lang: Lang };
+const c = privacyContent[lang] ?? privacyContent['en'];
+---
+
+<Layout
+  title={c.title}
+  description={c.desc}
+  canonical={`https://kulmanlab.com/${lang}/privacy/`}
+  lang={lang}
+  alternates={buildAlternates('privacy')}
+>
+
+  <SiteHeader lang={lang} />
+
+  <PrivacyBody lang={lang} />
+
+  <SiteFooter lang={lang} />
+
+</Layout>

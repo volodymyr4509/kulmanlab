@@ -90,8 +90,8 @@ const groups: { label: string; codes: string[] }[] = [
     const path = window.location.pathname;
     // Strip leading /{locale} prefix (e.g. /de, /es) to get the bare path
     const bare = path.replace(/^\/[a-z]{2}(?=\/|$)/, '') || '/';
-    // Docs pages stay on the equivalent locale docs path
-    if (bare.startsWith('/docs')) {
+    // Docs and privacy pages stay on the equivalent locale path
+    if (bare.startsWith('/docs') || bare.startsWith('/privacy')) {
       return lang === 'en' ? bare : `/${lang}${bare}`;
     }
     // Standard locale pages (home, faq, changelog)

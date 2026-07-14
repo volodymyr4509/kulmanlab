@@ -15,6 +15,7 @@ const REDDIT_URL = 'https://www.reddit.com/r/kulmanlab/';
 const homeUrl = localeUrl(lang, 'home');
 const faqUrl = localeUrl(lang, 'faq');
 const changelogUrl = localeUrl(lang, 'changelog');
+const privacyUrl = localeUrl(lang, 'privacy');
 const docsUrl = lang === 'en' ? '/docs/' : `/${lang}/docs/`;
 ---
 <footer class="border-t border-slate-800 pt-8 pb-10">
@@ -37,7 +38,7 @@ const docsUrl = lang === 'en' ? '/docs/' : `/${lang}/docs/`;
       <a href={docsUrl} data-locale="docs" class="hover:text-slate-300 transition-colors"><span data-i18n="nav.docs">{t['nav.docs']}</span></a>
       <a href={changelogUrl} class="hover:text-slate-300 transition-colors"><span data-i18n="nav.changelog">{t['nav.changelog']}</span></a>
       <a href={faqUrl} class="hover:text-slate-300 transition-colors"><span data-i18n="nav.faq">{t['nav.faq']}</span></a>
-      <a href="/privacy/" class="hover:text-slate-300 transition-colors">Privacy</a>
+      <a href={privacyUrl} data-locale="privacy" class="hover:text-slate-300 transition-colors"><span data-i18n="footer.privacy">{t['footer.privacy']}</span></a>
       <a href={GITHUB_URL} target="_blank" rel="noopener" class="hover:text-slate-300 transition-colors">GitHub</a>
       <a href={REDDIT_URL} target="_blank" rel="noopener" class="hover:text-slate-300 transition-colors">Reddit</a>
     </nav>

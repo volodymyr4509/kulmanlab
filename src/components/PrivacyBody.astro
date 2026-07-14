@@ -1,0 +1,71 @@
+---
+import { privacyContent } from '../i18n/privacy-content';
+
+interface Props {
+  lang: string;
+}
+const { lang } = Astro.props;
+const c = privacyContent[lang] ?? privacyContent['en'];
+---
+<main class="mx-auto max-w-3xl px-6 py-16 privacy-prose">
+
+  <div class="mb-10">
+    <h1 class="mb-3 text-4xl font-bold text-slate-50">{c.heading}</h1>
+    <p class="text-slate-500 text-sm">{c.updated}</p>
+  </div>
+
+  <div class="mb-12 rounded-xl border border-brand/20 bg-brand/5 p-6">
+    <h2 class="mb-3 text-lg font-bold text-slate-50">{c.summaryHeading}</h2>
+    <ul class="space-y-2 text-sm text-slate-300 leading-relaxed">
+      {c.summary.map(item => (
+        <li class="flex items-start gap-3">
+          <span class="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-brand"></span>
+          <span set:html={item} />
+        </li>
+      ))}
+    </ul>
+  </div>
+
+  <div class="space-y-12 text-slate-300 leading-relaxed">
+    {c.sections.map(section => (
+      <section>
+        <h2 class="mb-3 text-2xl font-bold text-slate-50">{section.h}</h2>
+        {section.blocks.map((block, i) => (
+          block.t === 'p'
+            ? <p class={i === section.blocks.length - 1 ? '' : 'mb-3'} set:html={block.html} />
+            : <ul class={`space-y-2 text-sm ${i === section.blocks.length - 1 ? '' : 'mb-3'}`}>
+                {block.items.map(item => (
+                  <li class="flex items-start gap-3">
+                    <span class="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-slate-500"></span>
+                    <span set:html={item} />
+                  </li>
+                ))}
+              </ul>
+        ))}
+      </section>
+    ))}
+  </div>
+
+</main>
+
+<style>
+  .privacy-prose :global(a) {
+    color: #4A8580;
+  }
+  .privacy-prose :global(a:hover) {
+    text-decoration: underline;
+  }
+  .privacy-prose :global(strong) {
+    color: #f1f5f9;
+    font-weight: 600;
+  }
+  .privacy-prose :global(code) {
+    font-family: ui-monospace, monospace;
+    font-size: 0.75rem;
+    color: #4A8580;
+    background: rgba(74, 133, 128, 0.1);
+    border: 1px solid rgba(74, 133, 128, 0.2);
+    border-radius: 0.25rem;
+    padding: 0.125rem 0.375rem;
+  }
+</style>
