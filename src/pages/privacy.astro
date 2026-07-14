@@ -1,0 +1,174 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import type { Lang } from '../i18n/translations';
+
+const lang: Lang = 'en';
+
+const GITHUB_ISSUES_URL = 'https://github.com/volodymyr4509/kulmanlab/issues';
+---
+
+<Layout
+  title="Privacy Policy — KulmanLab"
+  description="How KulmanLab handles your data: drawings stay on your device, no accounts, no ads. Google Analytics is used for anonymous usage metrics."
+  canonical="https://kulmanlab.com/privacy/"
+  lang={lang}
+>
+
+  <SiteHeader lang={lang} />
+
+  <main class="mx-auto max-w-3xl px-6 py-16">
+
+    <div class="mb-10">
+      <h1 class="mb-3 text-4xl font-bold text-slate-50">Privacy Policy</h1>
+      <p class="text-slate-500 text-sm">Last updated: July 14, 2026</p>
+    </div>
+
+    <!-- Summary -->
+    <div class="mb-12 rounded-xl border border-brand/20 bg-brand/5 p-6">
+      <h2 class="mb-3 text-lg font-bold text-slate-50">The short version</h2>
+      <ul class="space-y-2 text-sm text-slate-300 leading-relaxed">
+        <li class="flex items-start gap-3"><span class="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-brand"></span>Your drawings are stored in your browser and never leave your device. All your work belongs to you.</li>
+        <li class="flex items-start gap-3"><span class="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-brand"></span>There are no accounts, no sign-up, and no email. We do not know who you are.</li>
+        <li class="flex items-start gap-3"><span class="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-brand"></span>We use Google Analytics to count visits and understand which features are used. It never sees your drawing content.</li>
+        <li class="flex items-start gap-3"><span class="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-brand"></span>The app is free and funded by ads (Google AdSense). Your drawings are never used for advertising, and we never sell your data.</li>
+      </ul>
+    </div>
+
+    <div class="space-y-12 text-slate-300 leading-relaxed">
+
+      <section>
+        <h2 class="mb-3 text-2xl font-bold text-slate-50">Your drawings stay on your device</h2>
+        <p class="mb-3">
+          Everything you draw in KulmanLab CAD is saved to your browser's local storage (IndexedDB) on your own
+          device. Drawings are never uploaded, transmitted, or stored on any server. After the first load the app
+          works fully offline — no server is involved in opening, editing, or saving your files.
+        </p>
+        <p>
+          Because your files exist only in your browser, you are in full control of them. You can delete individual
+          drawings from the <a href="/docs/commands/files/" class="text-brand hover:underline">Files panel</a>, erase
+          everything at once with the <a href="/docs/commands/wipestorage/" class="text-brand hover:underline">wipestorage</a>
+          command, or clear the site data in your browser settings. We cannot access, restore, or delete your files
+          for you — we never have them.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="mb-3 text-2xl font-bold text-slate-50">No accounts, no personal data</h2>
+        <p>
+          KulmanLab has no login, no registration, and no email collection. We do not collect your name, email
+          address, or any other information that identifies you personally, and we have nothing to sell or share.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="mb-3 text-2xl font-bold text-slate-50">Analytics</h2>
+        <p class="mb-3">
+          This website (kulmanlab.com) and the app (app.kulmanlab.com) use <strong class="text-slate-100">Google
+          Analytics 4</strong> to collect anonymous usage metrics. This tells us things like how many people visit,
+          which pages they read, what country they are in (approximate, derived from the IP address — Google
+          Analytics 4 does not store IP addresses), and what browser and device type they use.
+        </p>
+        <p class="mb-3">On the website we also record a few anonymous interaction events:</p>
+        <ul class="mb-3 space-y-2 text-sm">
+          <li class="flex items-start gap-3"><span class="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-slate-500"></span>clicks on "Launch App" and similar buttons,</li>
+          <li class="flex items-start gap-3"><span class="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-slate-500"></span>clicks on outbound links (the destination address of the link),</li>
+          <li class="flex items-start gap-3"><span class="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-slate-500"></span>how far down a page you scroll, and the interface language you use.</li>
+        </ul>
+        <p>
+          None of this includes your drawing content, file names, or anything you create in the app. Analytics data
+          is processed by Google under the
+          <a href="https://policies.google.com/privacy" target="_blank" rel="noopener" class="text-brand hover:underline">Google Privacy Policy</a>.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="mb-3 text-2xl font-bold text-slate-50">Advertising</h2>
+        <p class="mb-3">
+          The app (app.kulmanlab.com) is free to use and is funded by ads served through
+          <strong class="text-slate-100">Google AdSense</strong>. This website (kulmanlab.com) does not show ads.
+        </p>
+        <p class="mb-3">
+          Third-party vendors, including Google, use cookies to serve ads based on your prior visits to this or
+          other websites. Google's use of advertising cookies enables it and its partners to show you ads based on
+          your visits to the app and/or other sites on the Internet. Ads are selected by Google — they never see
+          your drawing content, file names, or anything you create in the app.
+        </p>
+        <p>
+          You can opt out of personalized advertising in Google's
+          <a href="https://adssettings.google.com" target="_blank" rel="noopener" class="text-brand hover:underline">Ads Settings</a>,
+          or opt out of third-party advertising cookies more broadly at
+          <a href="https://www.aboutads.info/choices" target="_blank" rel="noopener" class="text-brand hover:underline">aboutads.info</a>
+          (or <a href="https://www.youronlinechoices.eu" target="_blank" rel="noopener" class="text-brand hover:underline">youronlinechoices.eu</a> in Europe).
+          How Google uses data from sites that show its ads is described at
+          <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener" class="text-brand hover:underline">policies.google.com/technologies/partner-sites</a>.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="mb-3 text-2xl font-bold text-slate-50">Cookies and local storage</h2>
+        <p class="mb-3">
+          Two kinds of cookies are used. Google Analytics sets
+          <code class="text-xs font-mono text-brand bg-brand/10 border border-brand/20 rounded px-1.5 py-0.5">_ga</code>
+          and <code class="text-xs font-mono text-brand bg-brand/10 border border-brand/20 rounded px-1.5 py-0.5">_ga_*</code>
+          on both the website and the app — they contain a random identifier that distinguishes browsers so that
+          repeat visits are not counted as new visitors, expire after up to two years, and cannot be used to
+          identify you personally. In the app, Google AdSense and its advertising partners set additional
+          advertising cookies to serve and measure ads, as described in the Advertising section above. There are no
+          social-media cookies, and the website itself sets no advertising cookies.
+        </p>
+        <p>
+          In addition, the website remembers your language preference and the app stores your drawings and undo
+          history in browser local storage. This data never leaves your device.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="mb-3 text-2xl font-bold text-slate-50">Third-party services</h2>
+        <p class="mb-3">Besides Google Analytics and Google AdSense, KulmanLab relies on two infrastructure services:</p>
+        <ul class="space-y-2 text-sm">
+          <li class="flex items-start gap-3"><span class="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-slate-500"></span><span><strong class="text-slate-100">Google Fonts</strong> — the Inter font is loaded from Google's servers. Your browser sends a standard web request (including your IP address) to Google to fetch the font files.</span></li>
+          <li class="flex items-start gap-3"><span class="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-slate-500"></span><span><strong class="text-slate-100">Firebase Hosting (Google)</strong> — serves this website and the app. Like any web server, it processes standard request logs (IP address, requested URL, user agent) to deliver the pages.</span></li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="mb-3 text-2xl font-bold text-slate-50">Your choices</h2>
+        <p class="mb-3">
+          If you prefer not to be counted in analytics, you can block the Google Analytics cookies in your browser,
+          use a content blocker, or install the
+          <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener" class="text-brand hover:underline">Google Analytics opt-out add-on</a>.
+          The website and the app work exactly the same without analytics.
+        </p>
+        <p>
+          For advertising, you can turn off ad personalization in
+          <a href="https://adssettings.google.com" target="_blank" rel="noopener" class="text-brand hover:underline">Google Ads Settings</a>
+          — you will still see ads in the app, but they will not be based on your interests or browsing history.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="mb-3 text-2xl font-bold text-slate-50">Changes to this policy</h2>
+        <p>
+          If our data practices change — for example, if a new third-party service is added — this page will be
+          updated and the date at the top revised.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="mb-3 text-2xl font-bold text-slate-50">Contact</h2>
+        <p>
+          Questions about privacy? Open an issue on
+          <a href={GITHUB_ISSUES_URL} target="_blank" rel="noopener" class="text-brand hover:underline">GitHub</a>
+          or ask in the <a href="https://www.reddit.com/r/kulmanlab/" target="_blank" rel="noopener" class="text-brand hover:underline">Reddit community</a>.
+        </p>
+      </section>
+
+    </div>
+
+  </main>
+
+  <SiteFooter lang={lang} />
+
+</Layout>
