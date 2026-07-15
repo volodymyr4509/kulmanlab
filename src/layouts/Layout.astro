@@ -1,6 +1,8 @@
 ---
 import '../styles/global.css';
 import Analytics from '../components/Analytics.astro';
+import ConsentBanner from '../components/ConsentBanner.astro';
+import type { Lang } from '../i18n/translations';
 
 interface Props {
   title: string;
@@ -60,11 +62,26 @@ const ogLocale: Record<string, string> = {
 
     {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
 
-    <!-- Google Analytics -->
+    <!-- Google Analytics (Consent Mode v2: denied until the user accepts via the consent banner) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-24RLZ955SW"></script>
-    <script>
+    <script is:inline>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
+      gtag('consent', 'default', {
+        ad_storage: 'granted',
+        ad_user_data: 'granted',
+        ad_personalization: 'granted',
+        analytics_storage: 'granted',
+      });
+      // Opt-in regions (EEA + UK + CH): denied until the user accepts. Google resolves the region from IP.
+      gtag('consent', 'default', {
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        analytics_storage: 'denied',
+        region: ['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'],
+        wait_for_update: 500,
+      });
       gtag('js', new Date());
       gtag('config', 'G-24RLZ955SW');
     </script>
@@ -73,6 +90,7 @@ const ogLocale: Record<string, string> = {
   </head>
   <body class="bg-slate-900 text-slate-50 antialiased font-sans">
     <slot />
+    <ConsentBanner lang={lang as Lang} />
     <Analytics />
   </body>
 </html>

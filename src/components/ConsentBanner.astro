@@ -1,0 +1,82 @@
+---
+import { translations, type Lang } from '../i18n/translations';
+
+interface Props {
+  lang?: Lang;
+}
+const { lang = 'en' } = Astro.props;
+const t = translations[lang];
+const privacyUrl = lang === 'en' ? '/privacy/' : `/${lang}/privacy/`;
+---
+<div id="consent-banner" class="hidden fixed bottom-0 inset-x-0 z-[60] border-t border-slate-700 bg-slate-900/95 backdrop-blur">
+  <div class="mx-auto max-w-6xl px-6 py-4 flex flex-col sm:flex-row items-center gap-3 sm:gap-6">
+    <p class="flex-1 text-sm text-slate-300 text-center sm:text-start">
+      <span data-i18n="consent.message">{t['consent.message']}</span>
+      <a href={privacyUrl} data-locale="privacy" class="text-brand hover:underline"><span data-i18n="footer.privacy">{t['footer.privacy']}</span></a>
+    </p>
+    <div class="flex items-center gap-3">
+      <button
+        id="consent-decline"
+        class="rounded-lg border border-slate-600 px-4 py-2 text-sm text-slate-300 hover:border-slate-500 hover:text-slate-100 transition-colors"
+      ><span data-i18n="consent.decline">{t['consent.decline']}</span></button>
+      <button
+        id="consent-accept"
+        class="rounded-lg bg-brand px-4 py-2 text-sm font-medium text-white hover:bg-brand-light transition-colors"
+      ><span data-i18n="consent.accept">{t['consent.accept']}</span></button>
+    </div>
+  </div>
+</div>
+
+<script>
+  const KEY = 'kl-consent';
+  const banner = document.getElementById('consent-banner');
+
+  type ConsentValue = 'granted' | 'denied';
+
+  function applyConsent(value: ConsentValue) {
+    const g = (window as Window & { gtag?: (...args: unknown[]) => void }).gtag;
+    g?.('consent', 'update', {
+      ad_storage: value,
+      ad_user_data: value,
+      ad_personalization: value,
+      analytics_storage: value,
+    });
+  }
+
+  function choose(value: ConsentValue) {
+    localStorage.setItem(KEY, value);
+    applyConsent(value);
+    banner?.classList.add('hidden');
+  }
+
+  document.getElementById('consent-accept')?.addEventListener('click', () => choose('granted'));
+  document.getElementById('consent-decline')?.addEventListener('click', () => choose('denied'));
+
+  // "Cookie settings" links (footer) reopen the banner so consent can be changed
+  document.querySelectorAll<HTMLElement>('[data-consent-open]').forEach(el => {
+    el.addEventListener('click', (e) => {
+      e.preventDefault();
+      banner?.classList.remove('hidden');
+    });
+  });
+
+  // The banner is only auto-shown where opt-in consent is required (EEA/UK/CH).
+  // Timezone is an approximation; the authoritative per-region consent default
+  // is set via gtag's region parameter in the layout head (IP-based, by Google).
+  function inOptInRegion(): boolean {
+    try {
+      const tz = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
+      return tz.startsWith('Europe/')
+        || ['Atlantic/Canary', 'Atlantic/Madeira', 'Atlantic/Azores', 'Atlantic/Reykjavik', 'Atlantic/Faroe'].includes(tz);
+    } catch {
+      return true; // unknown — err on the side of asking
+    }
+  }
+
+  const saved = localStorage.getItem(KEY);
+  if (saved === 'granted' || saved === 'denied') {
+    applyConsent(saved);
+  } else if (inOptInRegion()) {
+    banner?.classList.remove('hidden');
+  }
+</script>
