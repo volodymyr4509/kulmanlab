@@ -8,16 +8,12 @@ interface Props {
 const { lang = 'en' } = Astro.props;
 const t = translations[lang];
 
-const APP_URL = 'https://app.kulmanlab.com';
 const GITHUB_URL = 'https://github.com/volodymyr4509/kulmanlab';
 const REDDIT_URL = 'https://www.reddit.com/r/kulmanlab/';
 
 const homeUrl = localeUrl(lang, 'home');
-const faqUrl = localeUrl(lang, 'faq');
-const changelogUrl = localeUrl(lang, 'changelog');
 const privacyUrl = localeUrl(lang, 'privacy');
 const aboutUrl = localeUrl(lang, 'about');
-const docsUrl = lang === 'en' ? '/docs/' : `/${lang}/docs/`;
 ---
 <footer class="border-t border-slate-800 pt-8 pb-10">
   <div class="mx-auto max-w-6xl px-6 mb-6">
@@ -35,10 +31,6 @@ const docsUrl = lang === 'en' ? '/docs/' : `/${lang}/docs/`;
       <span class="text-sm font-bold text-slate-400">Kulman<span class="text-brand/70">Lab</span></span>
     </a>
     <nav class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-slate-500 sm:justify-start">
-      <a href={APP_URL} data-ga-event="launch_app" data-ga-source="footer" class="hover:text-slate-300 transition-colors"><span data-i18n="footer.app">{t['footer.app']}</span></a>
-      <a href={docsUrl} data-locale="docs" class="hover:text-slate-300 transition-colors"><span data-i18n="nav.docs">{t['nav.docs']}</span></a>
-      <a href={changelogUrl} class="hover:text-slate-300 transition-colors"><span data-i18n="nav.changelog">{t['nav.changelog']}</span></a>
-      <a href={faqUrl} class="hover:text-slate-300 transition-colors"><span data-i18n="nav.faq">{t['nav.faq']}</span></a>
       <a href={aboutUrl} data-locale="about" class="hover:text-slate-300 transition-colors"><span data-i18n="footer.about">{t['footer.about']}</span></a>
       <a href={privacyUrl} data-locale="privacy" class="hover:text-slate-300 transition-colors"><span data-i18n="footer.privacy">{t['footer.privacy']}</span></a>
       <a href="#" data-consent-open class="hover:text-slate-300 transition-colors"><span data-i18n="consent.settings">{t['consent.settings']}</span></a>
