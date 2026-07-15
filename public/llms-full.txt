@@ -4,58 +4,204 @@
 
 App: https://app.kulmanlab.com
 Landing page: https://kulmanlab.com
-Docs: https://kulmanlab.com/docs
-FAQ: https://kulmanlab.com/faq
-Changelog: https://kulmanlab.com/changelog
+Docs: https://kulmanlab.com/docs/
+FAQ: https://kulmanlab.com/faq/
+Changelog: https://kulmanlab.com/changelog/
+About: https://kulmanlab.com/about/
+Privacy: https://kulmanlab.com/privacy/
 Source: https://github.com/volodymyr4509/kulmanlab
 
 German (Deutsch):
 Landing page (DE): https://kulmanlab.com/de/
-Docs (DE): https://kulmanlab.com/de/docs
-Changelog (DE): https://kulmanlab.com/de/changelog
-FAQ (DE): https://kulmanlab.com/de/faq
+Docs (DE): https://kulmanlab.com/de/docs/
+Changelog (DE): https://kulmanlab.com/de/changelog/
+About (DE): https://kulmanlab.com/de/about/
+Privacy (DE): https://kulmanlab.com/de/privacy/
+FAQ (DE): https://kulmanlab.com/de/faq/
 
 Spanish (Español):
 Landing page (ES): https://kulmanlab.com/es/
-Docs (ES): https://kulmanlab.com/es/docs
-Changelog (ES): https://kulmanlab.com/es/changelog
-FAQ (ES): https://kulmanlab.com/es/faq
+Docs (ES): https://kulmanlab.com/es/docs/
+Changelog (ES): https://kulmanlab.com/es/changelog/
+About (ES): https://kulmanlab.com/es/about/
+Privacy (ES): https://kulmanlab.com/es/privacy/
+FAQ (ES): https://kulmanlab.com/es/faq/
 
 French (Français):
 Landing page (FR): https://kulmanlab.com/fr/
-Docs (FR): https://kulmanlab.com/fr/docs
-Changelog (FR): https://kulmanlab.com/fr/changelog
-FAQ (FR): https://kulmanlab.com/fr/faq
+Docs (FR): https://kulmanlab.com/fr/docs/
+Changelog (FR): https://kulmanlab.com/fr/changelog/
+About (FR): https://kulmanlab.com/fr/about/
+Privacy (FR): https://kulmanlab.com/fr/privacy/
+FAQ (FR): https://kulmanlab.com/fr/faq/
 
 Italian (Italiano):
 Landing page (IT): https://kulmanlab.com/it/
-Docs (IT): https://kulmanlab.com/it/docs
-Changelog (IT): https://kulmanlab.com/it/changelog
-FAQ (IT): https://kulmanlab.com/it/faq
+Docs (IT): https://kulmanlab.com/it/docs/
+Changelog (IT): https://kulmanlab.com/it/changelog/
+About (IT): https://kulmanlab.com/it/about/
+Privacy (IT): https://kulmanlab.com/it/privacy/
+FAQ (IT): https://kulmanlab.com/it/faq/
 
 Portuguese (Português):
 Landing page (PT): https://kulmanlab.com/pt/
-Docs (PT): https://kulmanlab.com/pt/docs
-Changelog (PT): https://kulmanlab.com/pt/changelog
-FAQ (PT): https://kulmanlab.com/pt/faq
+Docs (PT): https://kulmanlab.com/pt/docs/
+Changelog (PT): https://kulmanlab.com/pt/changelog/
+About (PT): https://kulmanlab.com/pt/about/
+Privacy (PT): https://kulmanlab.com/pt/privacy/
+FAQ (PT): https://kulmanlab.com/pt/faq/
 
 Ukrainian (Українська):
 Landing page (UK): https://kulmanlab.com/uk/
-Docs (UK): https://kulmanlab.com/uk/docs
-Changelog (UK): https://kulmanlab.com/uk/changelog
-FAQ (UK): https://kulmanlab.com/uk/faq
+Docs (UK): https://kulmanlab.com/uk/docs/
+Changelog (UK): https://kulmanlab.com/uk/changelog/
+About (UK): https://kulmanlab.com/uk/about/
+Privacy (UK): https://kulmanlab.com/uk/privacy/
+FAQ (UK): https://kulmanlab.com/uk/faq/
 
 Turkish (Türkçe):
 Landing page (TR): https://kulmanlab.com/tr/
-Docs (TR): https://kulmanlab.com/tr/docs
-Changelog (TR): https://kulmanlab.com/tr/changelog
-FAQ (TR): https://kulmanlab.com/tr/faq
+Docs (TR): https://kulmanlab.com/tr/docs/
+Changelog (TR): https://kulmanlab.com/tr/changelog/
+About (TR): https://kulmanlab.com/tr/about/
+Privacy (TR): https://kulmanlab.com/tr/privacy/
+FAQ (TR): https://kulmanlab.com/tr/faq/
+
+Indonesian (Bahasa Indonesia):
+Landing page (ID): https://kulmanlab.com/id/
+Docs (ID): https://kulmanlab.com/id/docs/
+Changelog (ID): https://kulmanlab.com/id/changelog/
+About (ID): https://kulmanlab.com/id/about/
+Privacy (ID): https://kulmanlab.com/id/privacy/
+FAQ (ID): https://kulmanlab.com/id/faq/
+
+Arabic (العربية):
+Landing page (AR): https://kulmanlab.com/ar/
+Docs (AR): https://kulmanlab.com/ar/docs/
+Changelog (AR): https://kulmanlab.com/ar/changelog/
+About (AR): https://kulmanlab.com/ar/about/
+Privacy (AR): https://kulmanlab.com/ar/privacy/
+FAQ (AR): https://kulmanlab.com/ar/faq/
+
+Hindi (हिन्दी):
+Landing page (HI): https://kulmanlab.com/hi/
+Docs (HI): https://kulmanlab.com/hi/docs/
+Changelog (HI): https://kulmanlab.com/hi/changelog/
+About (HI): https://kulmanlab.com/hi/about/
+Privacy (HI): https://kulmanlab.com/hi/privacy/
+FAQ (HI): https://kulmanlab.com/hi/faq/
+
+Japanese (日本語):
+Landing page (JA): https://kulmanlab.com/ja/
+Docs (JA): https://kulmanlab.com/ja/docs/
+Changelog (JA): https://kulmanlab.com/ja/changelog/
+About (JA): https://kulmanlab.com/ja/about/
+Privacy (JA): https://kulmanlab.com/ja/privacy/
+FAQ (JA): https://kulmanlab.com/ja/faq/
 
 Chinese Simplified (中文):
 Landing page (ZH): https://kulmanlab.com/zh/
-Docs (ZH): https://kulmanlab.com/zh/docs
-Changelog (ZH): https://kulmanlab.com/zh/changelog
-FAQ (ZH): https://kulmanlab.com/zh/faq
+Docs (ZH): https://kulmanlab.com/zh/docs/
+Changelog (ZH): https://kulmanlab.com/zh/changelog/
+About (ZH): https://kulmanlab.com/zh/about/
+Privacy (ZH): https://kulmanlab.com/zh/privacy/
+FAQ (ZH): https://kulmanlab.com/zh/faq/
+
+Polish (Polski):
+Landing page (PL): https://kulmanlab.com/pl/
+Docs (PL): https://kulmanlab.com/pl/docs/
+Changelog (PL): https://kulmanlab.com/pl/changelog/
+About (PL): https://kulmanlab.com/pl/about/
+Privacy (PL): https://kulmanlab.com/pl/privacy/
+FAQ (PL): https://kulmanlab.com/pl/faq/
+
+Korean (한국어):
+Landing page (KO): https://kulmanlab.com/ko/
+Docs (KO): https://kulmanlab.com/ko/docs/
+Changelog (KO): https://kulmanlab.com/ko/changelog/
+About (KO): https://kulmanlab.com/ko/about/
+Privacy (KO): https://kulmanlab.com/ko/privacy/
+FAQ (KO): https://kulmanlab.com/ko/faq/
+
+Vietnamese (Tiếng Việt):
+Landing page (VI): https://kulmanlab.com/vi/
+Docs (VI): https://kulmanlab.com/vi/docs/
+Changelog (VI): https://kulmanlab.com/vi/changelog/
+About (VI): https://kulmanlab.com/vi/about/
+Privacy (VI): https://kulmanlab.com/vi/privacy/
+FAQ (VI): https://kulmanlab.com/vi/faq/
+
+Bengali (বাংলা):
+Landing page (BN): https://kulmanlab.com/bn/
+Docs (BN): https://kulmanlab.com/bn/docs/
+Changelog (BN): https://kulmanlab.com/bn/changelog/
+About (BN): https://kulmanlab.com/bn/about/
+Privacy (BN): https://kulmanlab.com/bn/privacy/
+FAQ (BN): https://kulmanlab.com/bn/faq/
+
+Swahili (Kiswahili):
+Landing page (SW): https://kulmanlab.com/sw/
+Docs (SW): https://kulmanlab.com/sw/docs/
+Changelog (SW): https://kulmanlab.com/sw/changelog/
+About (SW): https://kulmanlab.com/sw/about/
+Privacy (SW): https://kulmanlab.com/sw/privacy/
+FAQ (SW): https://kulmanlab.com/sw/faq/
+
+Thai (ภาษาไทย):
+Landing page (TH): https://kulmanlab.com/th/
+Docs (TH): https://kulmanlab.com/th/docs/
+Changelog (TH): https://kulmanlab.com/th/changelog/
+About (TH): https://kulmanlab.com/th/about/
+Privacy (TH): https://kulmanlab.com/th/privacy/
+FAQ (TH): https://kulmanlab.com/th/faq/
+
+Malay (Bahasa Melayu):
+Landing page (MS): https://kulmanlab.com/ms/
+Docs (MS): https://kulmanlab.com/ms/docs/
+Changelog (MS): https://kulmanlab.com/ms/changelog/
+About (MS): https://kulmanlab.com/ms/about/
+Privacy (MS): https://kulmanlab.com/ms/privacy/
+FAQ (MS): https://kulmanlab.com/ms/faq/
+
+Urdu (اردو):
+Landing page (UR): https://kulmanlab.com/ur/
+Docs (UR): https://kulmanlab.com/ur/docs/
+Changelog (UR): https://kulmanlab.com/ur/changelog/
+About (UR): https://kulmanlab.com/ur/about/
+Privacy (UR): https://kulmanlab.com/ur/privacy/
+FAQ (UR): https://kulmanlab.com/ur/faq/
+
+Greek (Ελληνικά):
+Landing page (EL): https://kulmanlab.com/el/
+Docs (EL): https://kulmanlab.com/el/docs/
+Changelog (EL): https://kulmanlab.com/el/changelog/
+About (EL): https://kulmanlab.com/el/about/
+Privacy (EL): https://kulmanlab.com/el/privacy/
+FAQ (EL): https://kulmanlab.com/el/faq/
+
+Punjabi (ਪੰਜਾਬੀ):
+Landing page (PA): https://kulmanlab.com/pa/
+Docs (PA): https://kulmanlab.com/pa/docs/
+Changelog (PA): https://kulmanlab.com/pa/changelog/
+About (PA): https://kulmanlab.com/pa/about/
+Privacy (PA): https://kulmanlab.com/pa/privacy/
+FAQ (PA): https://kulmanlab.com/pa/faq/
+
+Swedish (Svenska):
+Landing page (SV): https://kulmanlab.com/sv/
+Docs (SV): https://kulmanlab.com/sv/docs/
+Changelog (SV): https://kulmanlab.com/sv/changelog/
+About (SV): https://kulmanlab.com/sv/about/
+Privacy (SV): https://kulmanlab.com/sv/privacy/
+FAQ (SV): https://kulmanlab.com/sv/faq/
+
+Filipino:
+Landing page (TL): https://kulmanlab.com/tl/
+Docs (TL): https://kulmanlab.com/tl/docs/
+Changelog (TL): https://kulmanlab.com/tl/changelog/
+About (TL): https://kulmanlab.com/tl/about/
+Privacy (TL): https://kulmanlab.com/tl/privacy/
+FAQ (TL): https://kulmanlab.com/tl/faq/
 
 ---
 
@@ -68,7 +214,7 @@ KulmanLab is a free, browser-based 2D CAD editor. No installation, no account, n
 - **Free**: no subscription, no credit card, no hidden plan
 - **No account**: no login or sign-up required
 - **Works offline**: cached after first load, no server needed
-- **Privacy**: drawings never leave your device; Google Analytics used only for anonymous page-view metrics
+- **Privacy**: drawings never leave your device; Google Analytics used for anonymous usage metrics; the app is funded by ads via Google AdSense, with a region-scoped consent banner (Google Consent Mode v2) for the EEA, UK, and Switzerland — see https://kulmanlab.com/privacy/
 - **DXF compatible**: reads and writes AC1032 DXF, compatible with LibreCAD, QCAD, BricsCAD, FreeCAD
 - **Desktop browsers only**: Chrome, Firefox, Safari, Edge — mobile not currently supported
 
@@ -120,7 +266,7 @@ For 2D drafting — yes. It has a full command terminal, layers, snapping, dimen
 Not currently. KulmanLab is a single-user tool.
 
 **Does KulmanLab collect drawing data?**
-No. Drawings stay in the browser. Google Analytics collects anonymous page-view metrics only.
+No. Drawings stay in the browser. Google Analytics collects anonymous usage metrics, and the app shows ads via Google AdSense — neither ever sees drawing content. Full policy: https://kulmanlab.com/privacy/
 
 ## Comparison with alternatives
 

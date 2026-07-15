@@ -9,6 +9,8 @@
 - Docs: https://kulmanlab.com/docs/
 - Changelog: https://kulmanlab.com/changelog/
 - FAQ: https://kulmanlab.com/faq/
+- About: https://kulmanlab.com/about/
+- Privacy: https://kulmanlab.com/privacy/
 - GitHub: https://github.com/volodymyr4509/kulmanlab
 - Reddit: https://www.reddit.com/r/kulmanlab/
 - Full reference (llms-full.txt): https://kulmanlab.com/llms-full.txt
@@ -19,6 +21,8 @@
 - Docs (DE): https://kulmanlab.com/de/docs/
 - Changelog (DE): https://kulmanlab.com/de/changelog/
 - FAQ (DE): https://kulmanlab.com/de/faq/
+- About (DE): https://kulmanlab.com/de/about/
+- Privacy (DE): https://kulmanlab.com/de/privacy/
 
 ## Spanish (Español)
 
@@ -26,6 +30,8 @@
 - Docs (ES): https://kulmanlab.com/es/docs/
 - Changelog (ES): https://kulmanlab.com/es/changelog/
 - FAQ (ES): https://kulmanlab.com/es/faq/
+- About (ES): https://kulmanlab.com/es/about/
+- Privacy (ES): https://kulmanlab.com/es/privacy/
 
 ## French (Français)
 
@@ -33,6 +39,8 @@
 - Docs (FR): https://kulmanlab.com/fr/docs/
 - Changelog (FR): https://kulmanlab.com/fr/changelog/
 - FAQ (FR): https://kulmanlab.com/fr/faq/
+- About (FR): https://kulmanlab.com/fr/about/
+- Privacy (FR): https://kulmanlab.com/fr/privacy/
 
 ## Italian (Italiano)
 
@@ -40,6 +48,8 @@
 - Docs (IT): https://kulmanlab.com/it/docs/
 - Changelog (IT): https://kulmanlab.com/it/changelog/
 - FAQ (IT): https://kulmanlab.com/it/faq/
+- About (IT): https://kulmanlab.com/it/about/
+- Privacy (IT): https://kulmanlab.com/it/privacy/
 
 ## Portuguese (Português)
 
@@ -47,6 +57,8 @@
 - Docs (PT): https://kulmanlab.com/pt/docs/
 - Changelog (PT): https://kulmanlab.com/pt/changelog/
 - FAQ (PT): https://kulmanlab.com/pt/faq/
+- About (PT): https://kulmanlab.com/pt/about/
+- Privacy (PT): https://kulmanlab.com/pt/privacy/
 
 ## Ukrainian (Українська)
 
@@ -54,6 +66,8 @@
 - Docs (UK): https://kulmanlab.com/uk/docs/
 - Changelog (UK): https://kulmanlab.com/uk/changelog/
 - FAQ (UK): https://kulmanlab.com/uk/faq/
+- About (UK): https://kulmanlab.com/uk/about/
+- Privacy (UK): https://kulmanlab.com/uk/privacy/
 
 ## Turkish (Türkçe)
 
@@ -61,6 +75,8 @@
 - Docs (TR): https://kulmanlab.com/tr/docs/
 - Changelog (TR): https://kulmanlab.com/tr/changelog/
 - FAQ (TR): https://kulmanlab.com/tr/faq/
+- About (TR): https://kulmanlab.com/tr/about/
+- Privacy (TR): https://kulmanlab.com/tr/privacy/
 
 ## Indonesian (Bahasa Indonesia)
 
@@ -68,6 +84,8 @@
 - Docs (ID): https://kulmanlab.com/id/docs/
 - Changelog (ID): https://kulmanlab.com/id/changelog/
 - FAQ (ID): https://kulmanlab.com/id/faq/
+- About (ID): https://kulmanlab.com/id/about/
+- Privacy (ID): https://kulmanlab.com/id/privacy/
 
 ## Arabic (العربية)
 
@@ -75,6 +93,8 @@
 - Docs (AR): https://kulmanlab.com/ar/docs/
 - Changelog (AR): https://kulmanlab.com/ar/changelog/
 - FAQ (AR): https://kulmanlab.com/ar/faq/
+- About (AR): https://kulmanlab.com/ar/about/
+- Privacy (AR): https://kulmanlab.com/ar/privacy/
 
 ## Hindi (हिन्दी)
 
@@ -82,6 +102,8 @@
 - Docs (HI): https://kulmanlab.com/hi/docs/
 - Changelog (HI): https://kulmanlab.com/hi/changelog/
 - FAQ (HI): https://kulmanlab.com/hi/faq/
+- About (HI): https://kulmanlab.com/hi/about/
+- Privacy (HI): https://kulmanlab.com/hi/privacy/
 
 ## Japanese (日本語)
 
@@ -89,6 +111,8 @@
 - Docs (JA): https://kulmanlab.com/ja/docs/
 - Changelog (JA): https://kulmanlab.com/ja/changelog/
 - FAQ (JA): https://kulmanlab.com/ja/faq/
+- About (JA): https://kulmanlab.com/ja/about/
+- Privacy (JA): https://kulmanlab.com/ja/privacy/
 
 ## Chinese Simplified (中文)
 
@@ -96,6 +120,8 @@
 - Docs (ZH): https://kulmanlab.com/zh/docs/
 - Changelog (ZH): https://kulmanlab.com/zh/changelog/
 - FAQ (ZH): https://kulmanlab.com/zh/faq/
+- About (ZH): https://kulmanlab.com/zh/about/
+- Privacy (ZH): https://kulmanlab.com/zh/privacy/
 
 ## Polish (Polski)
 
@@ -103,6 +129,8 @@
 - Docs (PL): https://kulmanlab.com/pl/docs/
 - Changelog (PL): https://kulmanlab.com/pl/changelog/
 - FAQ (PL): https://kulmanlab.com/pl/faq/
+- About (PL): https://kulmanlab.com/pl/about/
+- Privacy (PL): https://kulmanlab.com/pl/privacy/
 
 ## Korean (한국어)
 
@@ -110,6 +138,8 @@
 - Docs (KO): https://kulmanlab.com/ko/docs/
 - Changelog (KO): https://kulmanlab.com/ko/changelog/
 - FAQ (KO): https://kulmanlab.com/ko/faq/
+- About (KO): https://kulmanlab.com/ko/about/
+- Privacy (KO): https://kulmanlab.com/ko/privacy/
 
 ## Vietnamese (Tiếng Việt)
 
@@ -117,6 +147,8 @@
 - Docs (VI): https://kulmanlab.com/vi/docs/
 - Changelog (VI): https://kulmanlab.com/vi/changelog/
 - FAQ (VI): https://kulmanlab.com/vi/faq/
+- About (VI): https://kulmanlab.com/vi/about/
+- Privacy (VI): https://kulmanlab.com/vi/privacy/
 
 ## Bengali (বাংলা)
 
@@ -124,6 +156,8 @@
 - Docs (BN): https://kulmanlab.com/bn/docs/
 - Changelog (BN): https://kulmanlab.com/bn/changelog/
 - FAQ (BN): https://kulmanlab.com/bn/faq/
+- About (BN): https://kulmanlab.com/bn/about/
+- Privacy (BN): https://kulmanlab.com/bn/privacy/
 
 ## Swahili (Kiswahili)
 
@@ -131,6 +165,8 @@
 - Docs (SW): https://kulmanlab.com/sw/docs/
 - Changelog (SW): https://kulmanlab.com/sw/changelog/
 - FAQ (SW): https://kulmanlab.com/sw/faq/
+- About (SW): https://kulmanlab.com/sw/about/
+- Privacy (SW): https://kulmanlab.com/sw/privacy/
 
 ## Thai (ภาษาไทย)
 
@@ -138,6 +174,8 @@
 - Docs (TH): https://kulmanlab.com/th/docs/
 - Changelog (TH): https://kulmanlab.com/th/changelog/
 - FAQ (TH): https://kulmanlab.com/th/faq/
+- About (TH): https://kulmanlab.com/th/about/
+- Privacy (TH): https://kulmanlab.com/th/privacy/
 
 ## Malay (Bahasa Melayu)
 
@@ -145,6 +183,8 @@
 - Docs (MS): https://kulmanlab.com/ms/docs/
 - Changelog (MS): https://kulmanlab.com/ms/changelog/
 - FAQ (MS): https://kulmanlab.com/ms/faq/
+- About (MS): https://kulmanlab.com/ms/about/
+- Privacy (MS): https://kulmanlab.com/ms/privacy/
 
 ## Urdu (اردو)
 
@@ -152,6 +192,8 @@
 - Docs (UR): https://kulmanlab.com/ur/docs/
 - Changelog (UR): https://kulmanlab.com/ur/changelog/
 - FAQ (UR): https://kulmanlab.com/ur/faq/
+- About (UR): https://kulmanlab.com/ur/about/
+- Privacy (UR): https://kulmanlab.com/ur/privacy/
 
 ## Greek (Ελληνικά)
 
@@ -159,6 +201,8 @@
 - Docs (EL): https://kulmanlab.com/el/docs/
 - Changelog (EL): https://kulmanlab.com/el/changelog/
 - FAQ (EL): https://kulmanlab.com/el/faq/
+- About (EL): https://kulmanlab.com/el/about/
+- Privacy (EL): https://kulmanlab.com/el/privacy/
 
 ## Punjabi (ਪੰਜਾਬੀ)
 
@@ -166,6 +210,8 @@
 - Docs (PA): https://kulmanlab.com/pa/docs/
 - Changelog (PA): https://kulmanlab.com/pa/changelog/
 - FAQ (PA): https://kulmanlab.com/pa/faq/
+- About (PA): https://kulmanlab.com/pa/about/
+- Privacy (PA): https://kulmanlab.com/pa/privacy/
 
 ## Swedish (Svenska)
 
@@ -173,6 +219,8 @@
 - Docs (SV): https://kulmanlab.com/sv/docs/
 - Changelog (SV): https://kulmanlab.com/sv/changelog/
 - FAQ (SV): https://kulmanlab.com/sv/faq/
+- About (SV): https://kulmanlab.com/sv/about/
+- Privacy (SV): https://kulmanlab.com/sv/privacy/
 
 ## Filipino
 
@@ -180,6 +228,8 @@
 - Docs (TL): https://kulmanlab.com/tl/docs/
 - Changelog (TL): https://kulmanlab.com/tl/changelog/
 - FAQ (TL): https://kulmanlab.com/tl/faq/
+- About (TL): https://kulmanlab.com/tl/about/
+- Privacy (TL): https://kulmanlab.com/tl/privacy/
 
 ## Description
 
@@ -305,8 +355,8 @@ Configurable angle tracking (10°–90°) with arc indicator. Snap-to-grid toggl
 
 ## Privacy
 
-KulmanLab collects no drawing data. Your DXF files and canvas state are stored locally in IndexedDB — never uploaded. Google Analytics is used for anonymous usage metrics (page views, session counts). The site uses cookies for Google Analytics. No account, no login, no server-side storage.
+KulmanLab collects no drawing data. Your DXF files and canvas state are stored locally in IndexedDB — never uploaded. Google Analytics is used for anonymous usage metrics (page views, session counts), and the app is funded by ads served through Google AdSense. A region-scoped consent banner (Google Consent Mode v2) asks for opt-in before Analytics or ad cookies are set in the EEA, UK, and Switzerland. No account, no login, no server-side storage. Full details: https://kulmanlab.com/privacy/
 
 ## Release cadence
 
-KulmanLab ships updates continuously — typically every few days. See https://kulmanlab.com/changelog for the full release history.
+KulmanLab ships updates continuously — typically every few days. See https://kulmanlab.com/changelog/ for the full release history.
