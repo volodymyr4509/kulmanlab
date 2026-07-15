@@ -7,6 +7,18 @@ export type Release = {
 
 export const releases: Release[] = [
   {
+    version: '2026.07.15.0c09002',
+    date: 'July 15, 2026',
+    title: 'Privacy policy, About page & GDPR-compliant consent banner',
+    highlights: [
+      'New Privacy Policy page explains what data KulmanLab collects — local-only drawing storage, Google Analytics, and the advertising coming to the app via Google AdSense — translated into all 25 site languages',
+      'New About page tells the story behind KulmanLab — translated into all 25 site languages',
+      'Added a region-scoped cookie consent banner using Google Consent Mode v2: Analytics defaults to denied until accepted in the EEA, UK, and Switzerland, and to granted immediately everywhere else; a "Cookie settings" link in the footer reopens it at any time',
+      'Footer trimmed to About, Privacy, Cookie settings, GitHub, and Reddit — App, Docs, Changelog, and FAQ remain one click away in the header',
+      'Fixed Google Analytics silently not recording custom events (Launch App clicks, outbound link clicks, scroll depth) on the live site — the tracking script was being scoped by the bundler so window.gtag never actually existed',
+    ],
+  },
+  {
     version: '2026.07.12.16f6fe3',
     date: 'July 12, 2026',
     title: 'Vector pins: object snap tracking with angle-lock ray snapping',
@@ -318,6 +330,16 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   en: releases.map(r => ({ title: r.title, highlights: r.highlights })),
   de: [
     {
+      title: 'Datenschutzerklärung, Über-uns-Seite & DSGVO-konformer Cookie-Banner',
+      highlights: [
+        'Neue Datenschutzerklärung erklärt, welche Daten KulmanLab erfasst — nur lokal gespeicherte Zeichnungen, Google Analytics und die künftige Werbung in der App über Google AdSense — übersetzt in alle 25 Sprachen der Website',
+        'Neue Über-uns-Seite erzählt die Geschichte hinter KulmanLab — übersetzt in alle 25 Sprachen der Website',
+        'Regional begrenzter Cookie-Consent-Banner mit Google Consent Mode v2 hinzugefügt: Analytics ist standardmäßig deaktiviert, bis in der EU, dem Vereinigten Königreich und der Schweiz zugestimmt wird, und andernorts sofort aktiviert; ein "Cookie-Einstellungen"-Link in der Fußzeile öffnet ihn jederzeit erneut',
+        'Fußzeile auf Über uns, Datenschutz, Cookie-Einstellungen, GitHub und Reddit reduziert — App, Dokumentation, Changelog und FAQ bleiben in der Kopfzeile einen Klick entfernt',
+        'Fehler behoben, bei dem Google Analytics stillschweigend keine benutzerdefinierten Ereignisse (Klicks auf "App starten", Klicks auf externe Links, Scroll-Tiefe) auf der Live-Website erfasste — das Tracking-Skript wurde vom Bundler in einen Modul-Scope gesetzt, sodass window.gtag nie tatsächlich existierte',
+      ],
+    },
+    {
       title: 'Vector Pins: Objektfang-Verfolgung mit Strahl-Einrasten bei Winkelsperre',
       highlights: [
         'Neuer Vector-Pins-Schalter (Pins) in der Kontrollleiste — einen Fangpunkt oder Griff 500 ms überfahren, um ihn zu heften, dann den Cursor entlang gestrichelter horizontaler/vertikaler Referenzlinien durch den angehefteten Punkt verfolgen; normale Geometriefänge behalten weiterhin Vorrang',
@@ -583,6 +605,16 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   es: [
+    {
+      title: 'Política de privacidad, página Acerca de y banner de consentimiento conforme al RGPD',
+      highlights: [
+        'Nueva página de Política de privacidad que explica qué datos recopila KulmanLab — dibujos almacenados solo localmente, Google Analytics y la publicidad que llegará a la app mediante Google AdSense — traducida a los 25 idiomas del sitio',
+        'Nueva página Acerca de que cuenta la historia detrás de KulmanLab — traducida a los 25 idiomas del sitio',
+        'Añadido un banner de consentimiento de cookies limitado por región con Google Consent Mode v2: Analytics se deniega de forma predeterminada hasta que se acepta en el EEE, el Reino Unido y Suiza, y se concede de inmediato en el resto del mundo; un enlace de "Configuración de cookies" en el pie de página permite reabrirlo en cualquier momento',
+        'Pie de página reducido a Acerca de, Privacidad, Configuración de cookies, GitHub y Reddit — App, Documentación, Novedades y Preguntas frecuentes siguen a un clic en la cabecera',
+        'Corregido un error por el que Google Analytics no registraba silenciosamente eventos personalizados (clics en "Abrir la app", clics en enlaces externos, profundidad de desplazamiento) en el sitio en producción — el script de seguimiento quedaba encapsulado por el empaquetador, por lo que window.gtag nunca llegaba a existir',
+      ],
+    },
     {
       title: 'Vector pins: rastreo de referencia a objetos con ajuste de rayo en bloqueo de ángulo',
       highlights: [
@@ -850,6 +882,16 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   fr: [
     {
+      title: 'Politique de confidentialité, page À propos et bannière de consentement conforme RGPD',
+      highlights: [
+        'Nouvelle page Politique de confidentialité expliquant quelles données KulmanLab collecte — dessins stockés uniquement en local, Google Analytics et la publicité à venir dans l\'app via Google AdSense — traduite dans les 25 langues du site',
+        'Nouvelle page À propos racontant l\'histoire derrière KulmanLab — traduite dans les 25 langues du site',
+        'Ajout d\'une bannière de consentement aux cookies limitée par région avec Google Consent Mode v2 : Analytics est refusé par défaut tant qu\'il n\'est pas accepté dans l\'EEE, au Royaume-Uni et en Suisse, et accordé immédiatement partout ailleurs ; un lien « Paramètres des cookies » dans le pied de page permet de la rouvrir à tout moment',
+        'Pied de page réduit à À propos, Confidentialité, Paramètres des cookies, GitHub et Reddit — App, Documentation, Nouveautés et FAQ restent accessibles en un clic depuis l\'en-tête',
+        'Correction d\'un bug empêchant silencieusement Google Analytics d\'enregistrer les événements personnalisés (clics sur « Lancer l\'app », clics sur liens sortants, profondeur de défilement) sur le site en production — le script de suivi était mis en portée de module par le bundler, si bien que window.gtag n\'existait jamais réellement',
+      ],
+    },
+    {
       title: 'Vector pins : repérage d\'accrochage aux objets avec accrochage de rayon en verrouillage d\'angle',
       highlights: [
         'Nouveau commutateur Vector Pins (Pins) dans la barre de contrôle — survolez un point d\'accrochage ou une poignée pendant 500 ms pour l\'épingler, puis suivez le curseur le long de lignes de référence horizontales/verticales en pointillés passant par le point épinglé, les accrochages géométriques normaux gardant la priorité',
@@ -1114,6 +1156,16 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   it: [
+    {
+      title: 'Informativa sulla privacy, pagina Chi siamo e banner di consenso conforme al GDPR',
+      highlights: [
+        'Nuova pagina Informativa sulla privacy che spiega quali dati raccoglie KulmanLab — disegni salvati solo localmente, Google Analytics e la pubblicità in arrivo nell\'app tramite Google AdSense — tradotta in tutte le 25 lingue del sito',
+        'Nuova pagina Chi siamo che racconta la storia dietro KulmanLab — tradotta in tutte le 25 lingue del sito',
+        'Aggiunto un banner di consenso ai cookie limitato per area geografica con Google Consent Mode v2: Analytics è negato di default finché non viene accettato nello SEE, nel Regno Unito e in Svizzera, e concesso immediatamente altrove; un link "Impostazioni cookie" nel footer permette di riaprirlo in qualsiasi momento',
+        'Footer ridotto a Chi siamo, Privacy, Impostazioni cookie, GitHub e Reddit — App, Documentazione, Changelog e FAQ restano a un clic di distanza nell\'header',
+        'Risolto un bug per cui Google Analytics non registrava silenziosamente gli eventi personalizzati (clic su "Avvia app", clic su link esterni, profondità di scorrimento) sul sito in produzione — lo script di tracciamento veniva racchiuso in uno scope di modulo dal bundler, quindi window.gtag non esisteva mai realmente',
+      ],
+    },
     {
       title: 'Vector pins: puntamento snap oggetti con aggancio del raggio in blocco angolare',
       highlights: [
@@ -1381,6 +1433,16 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   pt: [
     {
+      title: 'Política de privacidade, página Sobre e banner de consentimento em conformidade com o RGPD',
+      highlights: [
+        'Nova página de Política de privacidade explica quais dados o KulmanLab coleta — desenhos armazenados apenas localmente, Google Analytics e a publicidade que chegará ao app via Google AdSense — traduzida para os 25 idiomas do site',
+        'Nova página Sobre conta a história por trás do KulmanLab — traduzida para os 25 idiomas do site',
+        'Adicionado um banner de consentimento de cookies limitado por região com o Google Consent Mode v2: o Analytics é negado por padrão até ser aceito no EEE, no Reino Unido e na Suíça, e concedido imediatamente em qualquer outro lugar; um link "Configurações de cookies" no rodapé permite reabri-lo a qualquer momento',
+        'Rodapé reduzido a Sobre, Privacidade, Configurações de cookies, GitHub e Reddit — App, Documentação, Changelog e FAQ continuam a um clique no cabeçalho',
+        'Corrigido um bug em que o Google Analytics não registrava silenciosamente eventos personalizados (cliques em "Abrir o app", cliques em links externos, profundidade de rolagem) no site em produção — o script de rastreamento ficava encapsulado em escopo de módulo pelo bundler, então window.gtag nunca chegava a existir',
+      ],
+    },
+    {
       title: 'Vector pins: rastreio de encaixe a objetos com encaixe de raio em bloqueio de ângulo',
       highlights: [
         'Novo interruptor Vector Pins (Pins) na barra de controlo — pairar sobre um ponto de encaixe ou uma alça durante 500 ms para o fixar, depois seguir o cursor ao longo de linhas de referência horizontais/verticais tracejadas que passam pelo ponto fixado, mantendo os encaixes de geometria normais a prioridade',
@@ -1646,6 +1708,16 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   uk: [
+    {
+      title: 'Політика конфіденційності, сторінка «Про нас» і банер згоди відповідно до GDPR',
+      highlights: [
+        'Нова сторінка Політики конфіденційності пояснює, які дані збирає KulmanLab — креслення зберігаються лише локально, Google Analytics і реклама, яка з\'явиться в застосунку через Google AdSense — перекладена всіма 25 мовами сайту',
+        'Нова сторінка «Про KulmanLab» розповідає історію проєкту — перекладена всіма 25 мовами сайту',
+        'Додано банер згоди на використання cookie з регіональним обмеженням через Google Consent Mode v2: Analytics за замовчуванням вимкнено, доки користувач не погодиться в ЄЕЗ, Великій Британії та Швейцарії, і одразу увімкнено скрізь інде; посилання «Налаштування cookie» у футері дозволяє відкрити його знову в будь-який момент',
+        'Футер скорочено до пунктів «Про нас», «Конфіденційність», «Налаштування cookie», GitHub і Reddit — «Застосунок», «Документація», «Історія змін» і «Часті запитання» залишаються в шапці сайту, за один клік',
+        'Виправлено помилку, через яку Google Analytics непомітно не фіксував користувацькі події (кліки на «Запустити застосунок», кліки на зовнішні посилання, глибину прокрутки) на робочому сайті — скрипт відстеження опинявся в області видимості модуля через збирач, тож window.gtag фактично ніколи не існував',
+      ],
+    },
     {
       title: 'Vector pins: відстеження об\'єктної прив\'язки з прив\'язкою променя при блокуванні кута',
       highlights: [
@@ -1913,6 +1985,16 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   tr: [
     {
+      title: 'Gizlilik politikası, Hakkında sayfası ve GDPR uyumlu çerez izin banner\'ı',
+      highlights: [
+        'KulmanLab\'in hangi verileri topladığını açıklayan yeni Gizlilik Politikası sayfası — yalnızca yerel olarak saklanan çizimler, Google Analytics ve Google AdSense üzerinden uygulamaya gelecek reklamlar — sitenin tüm 25 diline çevrildi',
+        'KulmanLab\'in arkasındaki hikâyeyi anlatan yeni Hakkında sayfası — sitenin tüm 25 diline çevrildi',
+        'Google Consent Mode v2 ile bölgeye göre sınırlandırılmış bir çerez izin banner\'ı eklendi: Analytics, AEA, Birleşik Krallık ve İsviçre\'de kabul edilene kadar varsayılan olarak reddedilir, diğer her yerde ise anında izin verilir; alt bilgideki "Çerez ayarları" bağlantısı istenildiğinde yeniden açılmasını sağlar',
+        'Alt bilgi; Hakkında, Gizlilik, Çerez ayarları, GitHub ve Reddit\'e indirgendi — Uygulama, Belgeler, Sürüm Notları ve SSS üst bilgide bir tık uzaklıkta kalmaya devam ediyor',
+        'Google Analytics\'in canlı sitede özel etkinlikleri ("Uygulamayı Başlat" tıklamaları, dış bağlantı tıklamaları, kaydırma derinliği) sessizce kaydetmediği bir hata düzeltildi — izleme betiği bundler tarafından modül kapsamına alınıyordu, bu yüzden window.gtag hiçbir zaman gerçekten var olmadı',
+      ],
+    },
+    {
       title: 'Vector pins: açı kilidinde ışın yakalamayla nesne yakalama izleme',
       highlights: [
         'Kontrol çubuğunda yeni Vector Pins (Pins) düğmesi — sabitlemek için bir yakalama noktası veya tutamaç üzerinde 500 ms durun, ardından sabitlenen noktadan geçen kesikli yatay/dikey referans çizgileri boyunca imleci izleyin; normal geometri yakalamaları önceliğini korur',
@@ -2178,6 +2260,16 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   zh: [
+    {
+      title: '隐私政策、关于页面与符合 GDPR 的 Cookie 同意横幅',
+      highlights: [
+        '新增隐私政策页面，说明 KulmanLab 收集哪些数据——图纸仅本地存储、Google Analytics，以及即将通过 Google AdSense 在应用中投放的广告——已翻译为全部 25 种网站语言',
+        '新增关于页面，讲述 KulmanLab 背后的故事——已翻译为全部 25 种网站语言',
+        '新增基于 Google Consent Mode v2 的区域限定 Cookie 同意横幅：在欧洲经济区、英国和瑞士，默认拒绝 Analytics，直到用户同意为止；在其他地区则立即默认授予；页脚的"Cookie 设置"链接可随时重新打开该横幅',
+        '页脚精简为"关于""隐私""Cookie 设置""GitHub"和"Reddit"——"应用""文档""更新日志"和"常见问题"仍保留在页眉中，一键可达',
+        '修复了 Google Analytics 在正式站点上悄无声息地未记录自定义事件（"启动应用"点击、外链点击、滚动深度）的问题——追踪脚本被打包工具限定在模块作用域内，导致 window.gtag 实际上从未存在过',
+      ],
+    },
     {
       title: 'Vector pins：对象捕捉追踪，支持角度锁定射线捕捉',
       highlights: [
@@ -2445,6 +2537,16 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   hi: [
     {
+      title: 'गोपनीयता नीति, परिचय पेज और GDPR-अनुरूप कुकी सहमति बैनर',
+      highlights: [
+        'नया गोपनीयता नीति पेज बताता है कि KulmanLab कौन-सा डेटा एकत्र करता है — केवल स्थानीय रूप से संग्रहीत ड्रॉइंग, Google Analytics, और Google AdSense के ज़रिए ऐप में आने वाले विज्ञापन — साइट की सभी 25 भाषाओं में अनूदित',
+        'नया परिचय पेज KulmanLab के पीछे की कहानी बताता है — साइट की सभी 25 भाषाओं में अनूदित',
+        'Google Consent Mode v2 के साथ एक क्षेत्र-सीमित कुकी सहमति बैनर जोड़ा गया: EEA, यूके और स्विट्जरलैंड में स्वीकृति मिलने तक Analytics डिफ़ॉल्ट रूप से अस्वीकृत रहता है, बाक़ी हर जगह तुरंत स्वीकृत हो जाता है; फ़ुटर में "कुकी सेटिंग्स" लिंक इसे कभी भी दोबारा खोलने देता है',
+        'फ़ुटर को परिचय, गोपनीयता, कुकी सेटिंग्स, GitHub और Reddit तक सीमित किया गया — ऐप, दस्तावेज़, चेंजलॉग और FAQ अब भी हेडर में एक क्लिक दूर हैं',
+        'एक बग ठीक किया गया जिसमें Google Analytics लाइव साइट पर कस्टम इवेंट्स (ऐप लॉन्च क्लिक, बाहरी लिंक क्लिक, स्क्रॉल डेप्थ) चुपचाप रिकॉर्ड नहीं कर रहा था — ट्रैकिंग स्क्रिप्ट को बंडलर द्वारा मॉड्यूल स्कोप में डाल दिया जाता था, जिससे window.gtag असल में कभी अस्तित्व में ही नहीं आता था',
+      ],
+    },
+    {
       title: 'Vector pins: एंगल-लॉक रे स्नैपिंग के साथ ऑब्जेक्ट स्नैप ट्रैकिंग',
       highlights: [
         'कंट्रोल बार में नया Vector Pins (Pins) टॉगल — किसी स्नैप पॉइंट या ग्रिप पर 500ms होवर करके उसे पिन करें, फिर पिन किए गए पॉइंट से गुजरने वाली डैश्ड क्षैतिज/ऊर्ध्वाधर रेफरेंस लाइनों के साथ कर्सर ट्रैक करें; सामान्य ज्यामिति स्नैप अभी भी प्राथमिकता रखते हैं',
@@ -2710,6 +2812,16 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   ar: [
+    {
+      title: 'سياسة الخصوصية وصفحة "حول" ولافتة موافقة متوافقة مع GDPR',
+      highlights: [
+        'صفحة سياسة خصوصية جديدة توضح البيانات التي يجمعها KulmanLab — رسومات مخزَّنة محليًا فقط، Google Analytics، والإعلانات القادمة إلى التطبيق عبر Google AdSense — مترجمة إلى جميع لغات الموقع الـ25',
+        'صفحة "حول" جديدة تروي القصة وراء KulmanLab — مترجمة إلى جميع لغات الموقع الـ25',
+        'إضافة لافتة موافقة على ملفات تعريف الارتباط محدودة حسب المنطقة باستخدام Google Consent Mode v2: تُرفض Analytics افتراضيًا حتى تتم الموافقة عليها في المنطقة الاقتصادية الأوروبية والمملكة المتحدة وسويسرا، وتُمنح فورًا في أي مكان آخر؛ رابط "إعدادات ملفات تعريف الارتباط" في التذييل يتيح إعادة فتحها في أي وقت',
+        'تقليص التذييل إلى حول وسياسة الخصوصية وإعدادات ملفات تعريف الارتباط وGitHub وReddit — يبقى التطبيق والوثائق وسجل التغييرات والأسئلة الشائعة على بُعد نقرة واحدة في الترويسة',
+        'إصلاح خطأ كان يجعل Google Analytics لا يسجل بصمت الأحداث المخصصة (نقرات "تشغيل التطبيق"، نقرات الروابط الخارجية، عمق التمرير) على الموقع الفعلي — كانت أداة التجميع تحصر نص التتبع داخل نطاق وحدة، ما جعل window.gtag غير موجود فعليًا أبدًا',
+      ],
+    },
     {
       title: 'Vector pins: تتبع التقاط الكائنات مع التقاط الشعاع عند قفل الزاوية',
       highlights: [
@@ -2977,6 +3089,16 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   id: [
     {
+      title: 'Kebijakan privasi, halaman Tentang, dan banner persetujuan yang sesuai GDPR',
+      highlights: [
+        'Halaman Kebijakan Privasi baru menjelaskan data apa yang dikumpulkan KulmanLab — gambar hanya disimpan secara lokal, Google Analytics, dan iklan yang akan hadir di aplikasi melalui Google AdSense — diterjemahkan ke 25 bahasa situs',
+        'Halaman Tentang baru menceritakan kisah di balik KulmanLab — diterjemahkan ke 25 bahasa situs',
+        'Menambahkan banner persetujuan cookie yang dibatasi berdasarkan wilayah menggunakan Google Consent Mode v2: Analytics ditolak secara default sampai disetujui di EEA, Inggris, dan Swiss, dan langsung diberikan di tempat lain; tautan "Pengaturan cookie" di footer memungkinkan membukanya kembali kapan saja',
+        'Footer dipangkas menjadi Tentang, Privasi, Pengaturan cookie, GitHub, dan Reddit — Aplikasi, Dokumentasi, Changelog, dan FAQ tetap satu klik di header',
+        'Memperbaiki bug di mana Google Analytics diam-diam tidak mencatat event kustom (klik "Luncurkan Aplikasi", klik tautan keluar, kedalaman gulir) di situs langsung — skrip pelacakan dibatasi dalam cakupan modul oleh bundler, sehingga window.gtag sebenarnya tidak pernah ada',
+      ],
+    },
+    {
       title: 'Vector pins: pelacakan snap objek dengan snap sinar saat kunci sudut',
       highlights: [
         'Tombol Vector Pins (Pins) baru di bilah kontrol — arahkan kursor ke titik snap atau grip selama 500 md untuk menyematkannya, lalu lacak kursor di sepanjang garis referensi horizontal/vertikal putus-putus yang melewati titik yang disematkan, dengan snap geometri biasa tetap diutamakan',
@@ -3242,6 +3364,16 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   ja: [
+    {
+      title: 'プライバシーポリシー、概要ページ、GDPR準拠の同意バナーを追加',
+      highlights: [
+        'KulmanLab がどのデータを収集するかを説明する新しいプライバシーポリシーページを追加 — ローカルのみに保存される図面、Google Analytics、Google AdSense によってアプリに導入される広告について — サイトの全25言語に翻訳',
+        'KulmanLab の背景にある物語を伝える新しい概要ページを追加 — サイトの全25言語に翻訳',
+        'Google Consent Mode v2 を用いた地域限定の Cookie 同意バナーを追加 — EEA、英国、スイスでは同意するまで Analytics をデフォルトで拒否し、それ以外の地域では即座に許可。フッターの「Cookie 設定」リンクからいつでも再度開けます',
+        'フッターを「概要」「プライバシー」「Cookie 設定」「GitHub」「Reddit」に整理 — 「アプリ」「ドキュメント」「更新履歴」「よくある質問」はヘッダーからワンクリックでアクセス可能なまま',
+        '本番サイトで Google Analytics のカスタムイベント（「アプリを起動」クリック、外部リンククリック、スクロール深度）が気づかれないまま記録されていなかった不具合を修正 — トラッキングスクリプトがバンドラーによってモジュールスコープに閉じ込められ、window.gtag が実際には存在していませんでした',
+      ],
+    },
     {
       title: 'Vector pins：角度ロック時のレイスナップに対応したオブジェクトスナップトラッキング',
       highlights: [
@@ -3509,6 +3641,16 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   pl: [
     {
+      title: 'Polityka prywatności, strona O nas i baner zgody zgodny z RODO',
+      highlights: [
+        'Nowa strona Polityki prywatności wyjaśnia, jakie dane zbiera KulmanLab — rysunki przechowywane wyłącznie lokalnie, Google Analytics oraz reklamy, które pojawią się w aplikacji dzięki Google AdSense — przetłumaczona na wszystkie 25 języków serwisu',
+        'Nowa strona O nas opowiada historię KulmanLab — przetłumaczona na wszystkie 25 języków serwisu',
+        'Dodano baner zgody na pliki cookie ograniczony regionalnie, wykorzystujący Google Consent Mode v2: Analytics jest domyślnie odrzucany, dopóki nie zostanie zaakceptowany w EOG, Wielkiej Brytanii i Szwajcarii, a wszędzie indziej przyznawany od razu; link "Ustawienia plików cookie" w stopce pozwala otworzyć go ponownie w dowolnym momencie',
+        'Stopka ograniczona do O nas, Prywatność, Ustawienia plików cookie, GitHub i Reddit — Aplikacja, Dokumentacja, Lista zmian i FAQ pozostają dostępne jednym kliknięciem w nagłówku',
+        'Naprawiono błąd, przez który Google Analytics po cichu nie rejestrował zdarzeń niestandardowych (kliknięcia "Uruchom aplikację", kliknięcia linków wychodzących, głębokość przewijania) na działającej stronie — skrypt śledzący był zamykany przez bundler w zasięgu modułu, więc window.gtag w rzeczywistości nigdy nie istniał',
+      ],
+    },
+    {
       title: 'Vector pins: śledzenie przyciągania do obiektów z przyciąganiem promienia przy blokadzie kąta',
       highlights: [
         'Nowy przełącznik Vector Pins (Pins) na pasku sterowania — najedź na punkt przyciągania lub uchwyt na 500 ms, aby go przypiąć, a następnie śledź kursor wzdłuż przerywanych poziomych/pionowych linii odniesienia przechodzących przez przypięty punkt; zwykłe przyciąganie geometryczne nadal ma pierwszeństwo',
@@ -3774,6 +3916,16 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   ko: [
+    {
+      title: '개인정보 처리방침, 소개 페이지, GDPR 준수 동의 배너 추가',
+      highlights: [
+        'KulmanLab이 수집하는 데이터를 설명하는 새 개인정보 처리방침 페이지 추가 — 로컬에만 저장되는 도면, Google Analytics, Google AdSense를 통해 앱에 도입될 광고 — 사이트의 25개 언어 전체로 번역',
+        'KulmanLab의 이야기를 들려주는 새 소개 페이지 추가 — 사이트의 25개 언어 전체로 번역',
+        'Google Consent Mode v2를 사용한 지역별 쿠키 동의 배너 추가: EEA, 영국, 스위스에서는 동의하기 전까지 Analytics가 기본적으로 거부되며, 그 외 지역에서는 즉시 허용됨; 푸터의 "쿠키 설정" 링크로 언제든 다시 열 수 있음',
+        '푸터를 소개, 개인정보 보호, 쿠키 설정, GitHub, Reddit으로 정리 — 앱, 문서, 변경 이력, FAQ는 헤더에서 한 번의 클릭으로 계속 이용 가능',
+        '실 서비스 사이트에서 Google Analytics가 사용자 지정 이벤트(앱 실행 클릭, 외부 링크 클릭, 스크롤 깊이)를 조용히 기록하지 않던 버그 수정 — 번들러가 추적 스크립트를 모듈 범위로 가두면서 window.gtag가 실제로는 존재한 적이 없었음',
+      ],
+    },
     {
       title: 'Vector pins: 각도 잠금 광선 스냅을 지원하는 객체 스냅 추적',
       highlights: [
@@ -4041,6 +4193,16 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   vi: [
     {
+      title: 'Chính sách quyền riêng tư, trang Giới thiệu và banner đồng ý tuân thủ GDPR',
+      highlights: [
+        'Trang Chính sách quyền riêng tư mới giải thích dữ liệu nào KulmanLab thu thập — bản vẽ chỉ lưu cục bộ, Google Analytics, và quảng cáo sắp có trong ứng dụng qua Google AdSense — được dịch sang cả 25 ngôn ngữ của trang web',
+        'Trang Giới thiệu mới kể câu chuyện đằng sau KulmanLab — được dịch sang cả 25 ngôn ngữ của trang web',
+        'Thêm banner đồng ý cookie giới hạn theo khu vực bằng Google Consent Mode v2: Analytics mặc định bị từ chối cho đến khi được chấp nhận ở EEA, Vương quốc Anh và Thụy Sĩ, và được cấp ngay lập tức ở mọi nơi khác; liên kết "Cài đặt cookie" ở chân trang cho phép mở lại bất cứ lúc nào',
+        'Chân trang được rút gọn còn Giới thiệu, Quyền riêng tư, Cài đặt cookie, GitHub và Reddit — Ứng dụng, Tài liệu, Nhật ký thay đổi và Câu hỏi thường gặp vẫn chỉ cách một cú nhấp trong phần đầu trang',
+        'Sửa lỗi khiến Google Analytics âm thầm không ghi nhận các sự kiện tùy chỉnh (nhấp "Mở ứng dụng", nhấp liên kết ra ngoài, độ sâu cuộn) trên trang web thực tế — script theo dõi bị trình đóng gói giới hạn trong phạm vi module, khiến window.gtag thực sự chưa từng tồn tại',
+      ],
+    },
+    {
       title: 'Vector pins: theo dõi bắt điểm đối tượng với bắt tia khi khóa góc',
       highlights: [
         'Công tắc Vector Pins (Pins) mới trên thanh điều khiển — giữ con trỏ trên một điểm bắt hoặc điểm điều khiển trong 500ms để ghim nó, sau đó theo dõi con trỏ dọc theo các đường tham chiếu ngang/dọc nét đứt đi qua điểm đã ghim; các bắt điểm hình học thông thường vẫn được ưu tiên',
@@ -4306,6 +4468,16 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   th: [
+    {
+      title: 'นโยบายความเป็นส่วนตัว หน้าเกี่ยวกับ และแบนเนอร์ขอความยินยอมตามมาตรฐาน GDPR',
+      highlights: [
+        'เพิ่มหน้านโยบายความเป็นส่วนตัวใหม่ อธิบายว่า KulmanLab เก็บข้อมูลอะไรบ้าง — แบบเขียนที่จัดเก็บเฉพาะในเครื่อง, Google Analytics และโฆษณาที่กำลังจะมาถึงแอปผ่าน Google AdSense — แปลครบทั้ง 25 ภาษาของเว็บไซต์',
+        'เพิ่มหน้าเกี่ยวกับใหม่ บอกเล่าเรื่องราวเบื้องหลัง KulmanLab — แปลครบทั้ง 25 ภาษาของเว็บไซต์',
+        'เพิ่มแบนเนอร์ขอความยินยอมใช้คุกกี้แบบจำกัดตามภูมิภาคด้วย Google Consent Mode v2: ค่าเริ่มต้นของ Analytics จะถูกปฏิเสธจนกว่าจะได้รับความยินยอมในเขต EEA สหราชอาณาจักร และสวิตเซอร์แลนด์ ส่วนที่อื่นจะได้รับอนุญาตทันที; ลิงก์ "การตั้งค่าคุกกี้" ที่ท้ายเว็บไซต์ช่วยให้เปิดแบนเนอร์นี้ใหม่ได้ทุกเมื่อ',
+        'ลดรายการที่ท้ายเว็บไซต์เหลือเพียง เกี่ยวกับ, ความเป็นส่วนตัว, การตั้งค่าคุกกี้, GitHub และ Reddit — แอป, เอกสาร, บันทึกการเปลี่ยนแปลง และคำถามที่พบบ่อย ยังคงอยู่ในส่วนหัวคลิกเดียวถึง',
+        'แก้ไขบั๊กที่ทำให้ Google Analytics ไม่บันทึกอีเวนต์ที่กำหนดเอง (คลิก "เปิดแอป", คลิกลิงก์ออกไปภายนอก, ความลึกของการเลื่อน) บนเว็บไซต์จริงอย่างเงียบ ๆ — สคริปต์ติดตามถูกจำกัดขอบเขตเป็นโมดูลโดยตัวรวมไฟล์ ทำให้ window.gtag ไม่เคยมีอยู่จริง',
+      ],
+    },
     {
       title: 'Vector pins: การติดตามสแนปวัตถุพร้อมการสแนปรังสีเมื่อล็อกมุม',
       highlights: [
@@ -4573,6 +4745,16 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   ms: [
     {
+      title: 'Dasar privasi, halaman Perihal dan sepanduk kebenaran mematuhi GDPR',
+      highlights: [
+        'Halaman Dasar Privasi baharu menerangkan data yang dikumpul oleh KulmanLab — lukisan hanya disimpan secara setempat, Google Analytics, dan iklan yang akan hadir dalam aplikasi melalui Google AdSense — diterjemahkan ke semua 25 bahasa laman web',
+        'Halaman Perihal baharu menceritakan kisah di sebalik KulmanLab — diterjemahkan ke semua 25 bahasa laman web',
+        'Menambah sepanduk kebenaran kuki yang terhad mengikut wilayah menggunakan Google Consent Mode v2: Analytics ditolak secara lalai sehingga dipersetujui di EEA, United Kingdom dan Switzerland, dan diberi kebenaran serta-merta di tempat lain; pautan "Tetapan kuki" pada footer membolehkan ia dibuka semula pada bila-bila masa',
+        'Footer dikurangkan kepada Perihal, Privasi, Tetapan kuki, GitHub dan Reddit — Aplikasi, Dokumentasi, Log Perubahan dan Soalan Lazim kekal satu klik jauhnya pada header',
+        'Membaiki pepijat yang menyebabkan Google Analytics secara senyap tidak merekodkan acara tersuai (klik "Lancarkan Aplikasi", klik pautan keluar, kedalaman tatal) pada laman langsung — skrip penjejakan dihadkan dalam skop modul oleh bundler, menyebabkan window.gtag sebenarnya tidak pernah wujud',
+      ],
+    },
+    {
       title: 'Vector pins: penjejakan lekapan objek dengan lekapan sinar semasa kunci sudut',
       highlights: [
         'Togol Vector Pins (Pins) baharu pada bar kawalan — tuding pada titik lekapan atau grip selama 500 ms untuk menyematnya, kemudian jejaki kursor di sepanjang garisan rujukan mendatar/menegak bergaris putus yang melalui titik yang disemat; lekapan geometri biasa masih mengekalkan keutamaan',
@@ -4838,6 +5020,16 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   bn: [
+    {
+      title: 'গোপনীয়তা নীতি, সম্পর্কে পেজ এবং GDPR-সম্মত কুকি সম্মতি ব্যানার',
+      highlights: [
+        'নতুন গোপনীয়তা নীতি পেজে ব্যাখ্যা করা হয়েছে KulmanLab কোন ডেটা সংগ্রহ করে — শুধু স্থানীয়ভাবে সংরক্ষিত অঙ্কন, Google Analytics, এবং Google AdSense-এর মাধ্যমে অ্যাপে আসতে চলা বিজ্ঞাপন — সাইটের সব ২৫টি ভাষায় অনূদিত',
+        'নতুন সম্পর্কে পেজ KulmanLab-এর পেছনের গল্প বলে — সাইটের সব ২৫টি ভাষায় অনূদিত',
+        'Google Consent Mode v2 ব্যবহার করে একটি অঞ্চল-সীমিত কুকি সম্মতি ব্যানার যোগ করা হয়েছে: EEA, যুক্তরাজ্য এবং সুইজারল্যান্ডে সম্মতি না পাওয়া পর্যন্ত Analytics ডিফল্টভাবে প্রত্যাখ্যাত থাকে, অন্য সব জায়গায় সঙ্গে সঙ্গে অনুমোদিত হয়; ফুটারের "কুকি সেটিংস" লিংক যেকোনো সময় এটি আবার খুলতে দেয়',
+        'ফুটার সংক্ষিপ্ত করে সম্পর্কে, গোপনীয়তা, কুকি সেটিংস, GitHub এবং Reddit করা হয়েছে — অ্যাপ, ডকুমেন্টেশন, পরিবর্তন লগ এবং সাধারণ প্রশ্নাবলী হেডারে এক ক্লিকেই থেকে যায়',
+        'একটি বাগ ঠিক করা হয়েছে যেখানে লাইভ সাইটে Google Analytics নীরবে কাস্টম ইভেন্ট (অ্যাপ চালু ক্লিক, বহির্গামী লিংক ক্লিক, স্ক্রল ডেপথ) রেকর্ড করছিল না — বান্ডলার ট্র্যাকিং স্ক্রিপ্টকে মডিউল স্কোপে আটকে রাখছিল, ফলে window.gtag আসলে কখনো অস্তিত্বে ছিলই না',
+      ],
+    },
     {
       title: 'Vector pins: অ্যাঙ্গেল-লক রে স্ন্যাপিং সহ অবজেক্ট স্ন্যাপ ট্র্যাকিং',
       highlights: [
@@ -5125,6 +5317,16 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   sw: [
     {
+      title: 'Sera ya faragha, ukurasa wa Kuhusu, na bango la idhini linalotii GDPR',
+      highlights: [
+        'Ukurasa mpya wa Sera ya Faragha unaeleza data gani KulmanLab hukusanya — michoro huhifadhiwa kwa njia ya ndani pekee, Google Analytics, na matangazo yanayokuja kwenye programu kupitia Google AdSense — umetafsiriwa kwa lugha zote 25 za tovuti',
+        'Ukurasa mpya wa Kuhusu unaeleza hadithi nyuma ya KulmanLab — umetafsiriwa kwa lugha zote 25 za tovuti',
+        'Kuongeza bango la idhini ya vidakuzi lililowekewa mipaka ya kikanda kwa kutumia Google Consent Mode v2: Analytics hukataliwa kwa default hadi ikubaliwe katika EEA, Uingereza, na Uswisi, na kukubaliwa mara moja kila mahali pengine; kiungo cha "Mipangilio ya vidakuzi" kwenye footer huruhusu kufungua tena wakati wowote',
+        'Footer imepunguzwa hadi Kuhusu, Faragha, Mipangilio ya vidakuzi, GitHub na Reddit — Programu, Nyaraka, Rekodi ya Mabadiliko na Maswali Yanayoulizwa Mara kwa Mara zinabaki bonyezo moja tu kwenye kichwa cha ukurasa',
+        'Kurekebisha hitilafu ambapo Google Analytics kwa siri haikurekodi matukio maalum (mibofyo ya "Fungua Programu", mibofyo ya viungo vya nje, kina cha kusogeza) kwenye tovuti hai — hati ya ufuatiliaji ilikuwa ikifungiwa katika wigo wa moduli na bundler, hivyo window.gtag halisi haikuwahi kuwepo',
+      ],
+    },
+    {
       title: 'Vector pins: ufuatiliaji wa ulekezaji wa vitu na ulekezaji wa mnururisho wakati wa kufunga pembe',
       highlights: [
         'Kitufe kipya cha Vector Pins (Pins) kwenye upau wa udhibiti — elea juu ya pointi ya ulekezaji au kishikizo kwa 500ms ili kuibandika, kisha fuatilia kishale kando ya mistari ya marejeleo ya mlalo/wima yenye vistari inayopita kwenye pointi iliyobandikwa; ulekezaji wa kawaida wa jiometri bado una kipaumbele',
@@ -5411,6 +5613,16 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
 
   ur: [
+    {
+      title: 'رازداری کی پالیسی، تعارف کا صفحہ اور GDPR کے مطابق کوکی رضامندی بینر',
+      highlights: [
+        'نیا رازداری کی پالیسی صفحہ بتاتا ہے کہ KulmanLab کون سا ڈیٹا جمع کرتا ہے — صرف مقامی طور پر محفوظ ڈرائنگز، Google Analytics، اور Google AdSense کے ذریعے ایپ میں آنے والے اشتہارات — سائٹ کی تمام 25 زبانوں میں ترجمہ شدہ',
+        'نیا تعارف صفحہ KulmanLab کے پیچھے کی کہانی بتاتا ہے — سائٹ کی تمام 25 زبانوں میں ترجمہ شدہ',
+        'Google Consent Mode v2 کے ساتھ ایک علاقے کے مطابق محدود کوکی رضامندی بینر شامل کیا گیا: EEA، برطانیہ اور سوئٹزرلینڈ میں قبول کیے جانے تک Analytics پہلے سے مسترد رہتا ہے، باقی ہر جگہ فوری طور پر منظور ہو جاتا ہے؛ فوٹر میں "کوکی ترتیبات" لنک اسے کسی بھی وقت دوبارہ کھولنے دیتا ہے',
+        'فوٹر کو تعارف، رازداری، کوکی ترتیبات، GitHub اور Reddit تک محدود کر دیا گیا — ایپ، دستاویزات، تبدیلیوں کی فہرست اور اکثر پوچھے گئے سوالات اب بھی ہیڈر میں ایک کلک کی دوری پر ہیں',
+        'ایک بگ ٹھیک کیا گیا جس میں Google Analytics لائیو سائٹ پر خاموشی سے کسٹم ایونٹس (ایپ شروع کریں کلکس، بیرونی لنک کلکس، اسکرول ڈیپتھ) ریکارڈ نہیں کر رہا تھا — ٹریکنگ اسکرپٹ کو بنڈلر کی جانب سے ماڈیول اسکوپ میں بند کر دیا جاتا تھا، جس کی وجہ سے window.gtag دراصل کبھی موجود ہی نہیں تھا',
+      ],
+    },
     { title: 'Vector pins: زاویہ لاک رے سنیپنگ کے ساتھ آبجیکٹ سنیپ ٹریکنگ', highlights: ['کنٹرول بار میں نیا Vector Pins (Pins) ٹوگل — کسی سنیپ پوائنٹ یا گرپ پر 500ms کرسر رکھ کر اسے پن کریں، پھر پن کیے گئے پوائنٹ سے گزرنے والی ڈیشڈ افقی/عمودی حوالہ لائنوں کے ساتھ کرسر ٹریک کریں؛ عام جیومیٹری سنیپس اب بھی ترجیح رکھتے ہیں', 'زاویہ لاک شدہ شعاعیں اب Line، Polyline، Arc، Circle، Move، Copy، Area، Leader اور ViewportCopy میں لاک شدہ سمت اور پن حوالہ لائنوں کے تقاطع پر سنیپ ہوتی ہیں', 'Distance اور Angle اب Escape تک اپنا نتیجہ اسکرین پر برقرار رکھتے ہیں، ایک ایکسنٹ رنگ کے پیش نظارے کے ساتھ جو انتخاب کے دوران ڈیشڈ اور تصدیق کے بعد ٹھوس ہوتا ہے؛ Distance دونوں اینڈ پوائنٹس پر گرپس بھی دکھاتا ہے', 'ایک بگ ٹھیک کیا گیا جہاں لے آؤٹ ویو پورٹ کے ذریعے نظر آنے والی ماڈل اشیاء پر کلک کرنے سے پیپر اسپیس کی فینٹم کاپیاں منتخب ہو جاتی تھیں جن کی ترمیم اور حذف خاموشی سے کچھ نہیں کرتی تھیں — ویو پورٹ کا مواد اب انتخاب کے لیے صرف ڈسپلے کے لیے ہے (ویو پورٹس کے ذریعے سنیپنگ متاثر نہیں ہوئی)', 'تقاطع کے X نشانات اب سبز کی بجائے ایکسنٹ رنگ میں بنائے جاتے ہیں، باقی سنیپ اور پیش نظارہ پیلیٹ سے مماثل', 'کنٹرول بار میں ANGL ڈراپ ڈاؤن کی ترتیب بہتر بنائی گئی'] },
     { title: 'Align کمانڈ: پوائنٹ جوڑوں کے ساتھ منتقلی، گردش اور اسکیل', highlights: ['نئی Align کمانڈ ایک یا دو سورس/ڈسٹینیشن پوائنٹ جوڑوں کا استعمال کرتے ہوئے اجزاء کو دوبارہ جگہ دیتی ہے — ایک جوڑے کے ساتھ صرف منتقلی، یا دو جوڑوں کے ساتھ منتقلی + گردش + اختیاری اسکیل', 'ایک پوائنٹ ترتیب (دوسرے سورس پوائنٹ پر Enter) بالکل Move کی طرح کام کرتی ہے — صرف منتقلی، کوئی گردش نہیں', 'دو پوائنٹ ترتیب سورس اور ڈسٹینیشن سیگمنٹ کی سمتوں سے گردش کا حساب لگاتی ہے، پھر پوچھتی ہے ہاں/نہیں کہ آیا سیگمنٹ کی لمبائی ملانے کے لیے اسکیل بھی کیا جائے', 'ہر مرحلے میں کینوس پر لائیو پیش نظارہ: پہلا ڈسٹینیشن پوائنٹ رکھتے وقت ایک موو پیش نظارہ، پھر دونوں ڈسٹینیشن پوائنٹس سیٹ ہونے کے بعد ایک ڈیشڈ گھمایا ہوا پیش نظارہ', 'Edit ٹول بار پینل میں نئے Align بٹن کے ذریعے، یا ٹرمینل میں `align` (صرف `al` کافی ہے) ٹائپ کر کے رسائی حاصل کی جا سکتی ہے', 'دیگر کمانڈز کے استعمال کردہ "pick" الفاظ سے مماثل بنانے کے لیے Align کے پرامپٹ کا متن درست کیا گیا'] },
     { title: 'Area پیمائش کمانڈ اور ٹول بار آئیکن کی تازہ کاری', highlights: ['نئی Area کمانڈ کثیرالاضلاع کا احاطہ شدہ رقبہ اور محیط ناپتی ہے — ۳ یا زیادہ نقاط پر کلک کریں، پھر شکل بند کرنے کے لیے Enter دبائیں', 'Area زاویہ لاک شدہ سمتی اندراج کو سپورٹ کرتی ہے: ترتیب دیے گئے زاویہ ٹریکنگ اضافے پر جم جاتی ہے اور درست کنارے کی لمبائی ٹائپ کرنے دیتی ہے', 'بند کیا گیا کثیرالاضلاع — بھرائی، خاکہ، اور ورٹیکس گرِپس — نتیجہ ختم ہونے تک کینوس پر نمایاں رہتا ہے', 'Measure پینل اب ۲×۲ گرڈ ہے: اوپری قطار میں Distance اور Angle، نچلی قطار میں Area', 'Distance اور Angle کے ٹول بار آئیکنز کو ڈیشڈ لائنوں کی بجائے ٹھوس لکیروں اور بھرے ہوئے ویج کے ساتھ دوبارہ ڈیزائن کیا گیا', 'Area ٹول بار آئیکن کو ورٹیکس پر سنیپ پوائنٹس کے ساتھ چیمفرڈ اسکوائر میں آسان بنایا گیا', 'کی بیج ظاہر ہونے پر ٹرمینل پرامپٹ ٹیکسٹ کے اچھلنے کا مسئلہ حل کیا گیا'] },
@@ -5435,6 +5647,16 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
 
   el: [
+    {
+      title: 'Πολιτική απορρήτου, σελίδα Σχετικά και banner συγκατάθεσης συμβατό με GDPR',
+      highlights: [
+        'Νέα σελίδα Πολιτικής Απορρήτου εξηγεί ποια δεδομένα συλλέγει το KulmanLab — σχέδια αποθηκευμένα μόνο τοπικά, Google Analytics και οι διαφημίσεις που έρχονται στην εφαρμογή μέσω του Google AdSense — μεταφρασμένη και στις 25 γλώσσες του ιστότοπου',
+        'Νέα σελίδα Σχετικά αφηγείται την ιστορία πίσω από το KulmanLab — μεταφρασμένη και στις 25 γλώσσες του ιστότοπου',
+        'Προστέθηκε banner συγκατάθεσης cookies περιορισμένο ανά περιοχή με το Google Consent Mode v2: το Analytics απορρίπτεται από προεπιλογή έως ότου γίνει αποδοχή στον ΕΟΧ, το Ηνωμένο Βασίλειο και την Ελβετία, ενώ επιτρέπεται αμέσως παντού αλλού· ένας σύνδεσμος «Ρυθμίσεις cookies» στο υποσέλιδο επιτρέπει το άνοιγμά του ξανά ανά πάσα στιγμή',
+        'Το υποσέλιδο περιορίστηκε σε Σχετικά, Απόρρητο, Ρυθμίσεις cookies, GitHub και Reddit — Εφαρμογή, Τεκμηρίωση, Ιστορικό αλλαγών και Συχνές ερωτήσεις παραμένουν προσβάσιμα με ένα κλικ στην κεφαλίδα',
+        'Διορθώθηκε σφάλμα όπου το Google Analytics απέτυχε σιωπηλά να καταγράψει προσαρμοσμένα συμβάντα (κλικ στο «Εκκίνηση εφαρμογής», κλικ σε εξωτερικούς συνδέσμους, βάθος κύλισης) στον ενεργό ιστότοπο — το σενάριο παρακολούθησης περιοριζόταν σε εμβέλεια module από τον bundler, με αποτέλεσμα το window.gtag να μην υπάρχει ποτέ στην πραγματικότητα',
+      ],
+    },
     { title: 'Vector pins: παρακολούθηση έλξης αντικειμένων με έλξη ακτίνας κατά το κλείδωμα γωνίας', highlights: ['Νέος διακόπτης Vector Pins (Pins) στη γραμμή ελέγχου — αιωρηθείτε πάνω από ένα σημείο έλξης ή μια λαβή για 500 ms για να το καρφιτσώσετε, μετά παρακολουθήστε τον κέρσορα κατά μήκος διακεκομμένων οριζόντιων/κατακόρυφων γραμμών αναφοράς που περνούν από το καρφιτσωμένο σημείο· οι κανονικές γεωμετρικές έλξεις διατηρούν την προτεραιότητα', 'Οι ακτίνες με κλειδωμένη γωνία έλκονται πλέον στην τομή της κλειδωμένης κατεύθυνσης με τις γραμμές αναφοράς των καρφιτσών στα Line, Polyline, Arc, Circle, Move, Copy, Area, Leader και ViewportCopy', 'Τα Distance και Angle διατηρούν πλέον το αποτέλεσμά τους στην οθόνη μέχρι το Escape, με προεπισκόπηση χρώματος έμφασης που είναι διακεκομμένη κατά την επιλογή και συμπαγής μόλις επιβεβαιωθεί· το Distance εμφανίζει επίσης λαβές και στα δύο άκρα', 'Διορθώθηκε σφάλμα όπου το κλικ σε οντότητες μοντέλου ορατές μέσα από ένα viewport διάταξης επέλεγε φαντομικά αντίγραφα στον χώρο χαρτιού των οποίων η επεξεργασία και η διαγραφή δεν είχαν καμία επίδραση σιωπηλά — το περιεχόμενο του viewport είναι πλέον μόνο για προβολή όσον αφορά την επιλογή (η έλξη μέσω viewports δεν επηρεάζεται)', 'Οι δείκτες X τομής σχεδιάζονται πλέον με το χρώμα έμφασης αντί για πράσινο, ευθυγραμμισμένοι με την υπόλοιπη παλέτα έλξης και προεπισκόπησης', 'Βελτιώθηκε η διάταξη του αναπτυσσόμενου μενού ANGL στη γραμμή ελέγχου'] },
     { title: 'Εντολή Align: μετατόπιση, περιστροφή & κλιμάκωση με ζεύγη σημείων', highlights: ['Η νέα εντολή Align επανατοποθετεί οντότητες χρησιμοποιώντας ένα ή δύο ζεύγη σημείων πηγής/προορισμού — μόνο μετατόπιση με ένα ζεύγος, ή μετατόπιση + περιστροφή + προαιρετική κλιμάκωση με δύο ζεύγη', 'Η ευθυγράμμιση ενός σημείου (Enter στο δεύτερο σημείο πηγής) λειτουργεί ακριβώς όπως το Move — μόνο μετατόπιση, χωρίς περιστροφή', 'Η ευθυγράμμιση δύο σημείων υπολογίζει την περιστροφή από τις κατευθύνσεις των τμημάτων πηγής και προορισμού, και έπειτα ρωτά Ναι/Όχι για να εφαρμοστεί επίσης κλιμάκωση ώστε τα μήκη των τμημάτων να ταιριάζουν', 'Ζωντανή προεπισκόπηση στον καμβά σε κάθε βήμα: προεπισκόπηση μετακίνησης κατά την τοποθέτηση του πρώτου σημείου προορισμού, έπειτα διακεκομμένη περιστραμμένη προεπισκόπηση μόλις οριστούν και τα δύο σημεία προορισμού', 'Προσβάσιμη μέσω του νέου κουμπιού Align στο πάνελ εργαλείων Edit, ή πληκτρολογώντας `align` (αρκεί το `al`) στο τερματικό', 'Διορθώθηκε το κείμενο της προτροπής Align ώστε να ταιριάζει με τη διατύπωση "pick" που χρησιμοποιούν οι άλλες εντολές'] },
     { title: 'Εντολή μέτρησης Area & ανανέωση εικονιδίων γραμμής εργαλείων', highlights: ['Η νέα εντολή Area μετρά το εμβαδόν και την περίμετρο ενός πολυγώνου — κάντε κλικ σε 3 ή περισσότερα σημεία, μετά πατήστε Enter για να κλείσετε το σχήμα', 'Το Area υποστηρίζει κατευθυντική εισαγωγή με κλείδωμα γωνίας: προσκολλάται στην ρυθμισμένη προσαύξηση παρακολούθησης γωνίας και επιτρέπει την πληκτρολόγηση ακριβούς μήκους πλευράς', 'Το κλειστό πολύγωνο — γέμισμα, περίγραμμα και λαβές κορυφών — παραμένει επισημασμένο στον καμβά μέχρι να απορριφθεί το αποτέλεσμα', 'Ο πίνακας Measure είναι πλέον πλέγμα 2×2: Distance και Angle στην πάνω σειρά, Area στην κάτω σειρά', 'Τα εικονίδια γραμμής εργαλείων Distance και Angle ανασχεδιάστηκαν με συνεχείς γραμμές και γεμισμένη σφήνα αντί για διακεκομμένες γραμμές', 'Το εικονίδιο γραμμής εργαλείων Area απλοποιήθηκε σε ένα τετράγωνο με λοξότμητες γωνίες και σημεία προσκόλλησης στις κορυφές', 'Διορθώθηκε το άλμα του κειμένου προτροπής τερματικού όταν εμφανίζεται το σήμα πλήκτρου'] },
@@ -5458,6 +5680,16 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     { title: 'Αναβάθμιση Angular, τεκμηρίωση & προσαρμοστικό πλέγμα', highlights: ['Αναβάθμιση Angular 19 → 20 → 21', 'Πλήρης ιστότοπος τεκμηρίωσης εντολών', 'Προσαρμοστικό πλέγμα CAD', 'Πίνακας ιστορικού (Αναίρεση / Ιστορικό / Επανάληψη)'] },
   ],
   pa: [
+    {
+      title: 'ਪਰਦੇਦਾਰੀ ਨੀਤੀ, ਬਾਰੇ ਪੰਨਾ ਅਤੇ GDPR-ਅਨੁਕੂਲ ਕੂਕੀ ਸਹਿਮਤੀ ਬੈਨਰ',
+      highlights: [
+        'ਨਵਾਂ ਪਰਦੇਦਾਰੀ ਨੀਤੀ ਪੰਨਾ ਦੱਸਦਾ ਹੈ ਕਿ KulmanLab ਕਿਹੜਾ ਡੇਟਾ ਇਕੱਠਾ ਕਰਦਾ ਹੈ — ਸਿਰਫ਼ ਸਥਾਨਕ ਤੌਰ ਤੇ ਸਟੋਰ ਕੀਤੀਆਂ ਡਰਾਇੰਗਾਂ, Google Analytics, ਅਤੇ Google AdSense ਰਾਹੀਂ ਐਪ ਵਿੱਚ ਆਉਣ ਵਾਲੇ ਇਸ਼ਤਿਹਾਰ — ਸਾਈਟ ਦੀਆਂ ਸਾਰੀਆਂ 25 ਭਾਸ਼ਾਵਾਂ ਵਿੱਚ ਅਨੁਵਾਦਿਤ',
+        'ਨਵਾਂ ਬਾਰੇ ਪੰਨਾ KulmanLab ਦੇ ਪਿੱਛੇ ਦੀ ਕਹਾਣੀ ਦੱਸਦਾ ਹੈ — ਸਾਈਟ ਦੀਆਂ ਸਾਰੀਆਂ 25 ਭਾਸ਼ਾਵਾਂ ਵਿੱਚ ਅਨੁਵਾਦਿਤ',
+        'Google Consent Mode v2 ਨਾਲ ਇੱਕ ਖੇਤਰ-ਸੀਮਿਤ ਕੂਕੀ ਸਹਿਮਤੀ ਬੈਨਰ ਜੋੜਿਆ ਗਿਆ: EEA, ਯੂਕੇ ਅਤੇ ਸਵਿਟਜ਼ਰਲੈਂਡ ਵਿੱਚ ਸਵੀਕਾਰ ਹੋਣ ਤੱਕ Analytics ਮੂਲ ਰੂਪ ਵਿੱਚ ਅਸਵੀਕਾਰ ਰਹਿੰਦਾ ਹੈ, ਬਾਕੀ ਹਰ ਥਾਂ ਤੁਰੰਤ ਮਨਜ਼ੂਰ ਹੋ ਜਾਂਦਾ ਹੈ; ਫੁੱਟਰ ਵਿੱਚ "ਕੂਕੀ ਸੈਟਿੰਗਾਂ" ਲਿੰਕ ਇਸਨੂੰ ਕਿਸੇ ਵੀ ਸਮੇਂ ਦੁਬਾਰਾ ਖੋਲ੍ਹਣ ਦਿੰਦਾ ਹੈ',
+        'ਫੁੱਟਰ ਨੂੰ ਬਾਰੇ, ਪਰਦੇਦਾਰੀ, ਕੂਕੀ ਸੈਟਿੰਗਾਂ, GitHub ਅਤੇ Reddit ਤੱਕ ਸੀਮਿਤ ਕੀਤਾ ਗਿਆ — ਐਪ, ਦਸਤਾਵੇਜ਼, ਬਦਲਾਅ ਸੂਚੀ ਅਤੇ ਅਕਸਰ ਪੁੱਛੇ ਜਾਂਦੇ ਸਵਾਲ ਹੁਣ ਵੀ ਹੈਡਰ ਵਿੱਚ ਇੱਕ ਕਲਿੱਕ ਦੂਰ ਹਨ',
+        'ਇੱਕ ਬੱਗ ਠੀਕ ਕੀਤਾ ਗਿਆ ਜਿੱਥੇ Google Analytics ਲਾਈਵ ਸਾਈਟ ਤੇ ਚੁੱਪਚਾਪ ਕਸਟਮ ਇਵੈਂਟਸ (ਐਪ ਸ਼ੁਰੂ ਕਰੋ ਕਲਿੱਕ, ਬਾਹਰੀ ਲਿੰਕ ਕਲਿੱਕ, ਸਕ੍ਰੌਲ ਡੂੰਘਾਈ) ਰਿਕਾਰਡ ਨਹੀਂ ਕਰ ਰਿਹਾ ਸੀ — ਟਰੈਕਿੰਗ ਸਕ੍ਰਿਪਟ ਨੂੰ ਬੰਡਲਰ ਦੁਆਰਾ ਮੌਡਿਊਲ ਸਕੋਪ ਵਿੱਚ ਬੰਦ ਕਰ ਦਿੱਤਾ ਜਾਂਦਾ ਸੀ, ਜਿਸ ਕਰਕੇ window.gtag ਅਸਲ ਵਿੱਚ ਕਦੇ ਮੌਜੂਦ ਹੀ ਨਹੀਂ ਸੀ',
+      ],
+    },
     {
       title: 'Vector pins: ਐਂਗਲ-ਲਾਕ ਰੇ ਸਨੈਪਿੰਗ ਨਾਲ ਆਬਜੈਕਟ ਸਨੈਪ ਟਰੈਕਿੰਗ',
       highlights: [
@@ -5725,6 +5957,16 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   sv: [
     {
+      title: 'Integritetspolicy, Om-sida och GDPR-anpassad cookie-banner',
+      highlights: [
+        'Ny sida med integritetspolicy förklarar vilka data KulmanLab samlar in — ritningar lagras endast lokalt, Google Analytics och den kommande reklamen i appen via Google AdSense — översatt till alla 25 webbplatsspråk',
+        'Ny Om-sida berättar historien bakom KulmanLab — översatt till alla 25 webbplatsspråk',
+        'Lade till en regionbegränsad cookie-samtyckesbanner med Google Consent Mode v2: Analytics nekas som standard tills det accepteras inom EES, Storbritannien och Schweiz, och beviljas omedelbart överallt annars; en länk "Cookie-inställningar" i sidfoten gör att den kan öppnas igen när som helst',
+        'Sidfoten kortades till Om, Integritet, Cookie-inställningar, GitHub och Reddit — App, Dokumentation, Ändringslogg och Vanliga frågor finns kvar ett klick bort i sidhuvudet',
+        'Fixade en bugg där Google Analytics tyst misslyckades med att registrera anpassade händelser (klick på "Starta appen", klick på utgående länkar, skrolldjup) på den publicerade webbplatsen — spårningsskriptet begränsades till modulomfång av bundlern, så window.gtag existerade i praktiken aldrig',
+      ],
+    },
+    {
       title: 'Vector pins: objektfästspårning med strålfästning vid vinkellås',
       highlights: [
         'Ny Vector Pins-knapp (Pins) i kontrollfältet — håll markören över en fästpunkt eller ett grepp i 500 ms för att nåla fast den, spåra sedan markören längs streckade horisontella/vertikala referenslinjer genom den nålade punkten; vanliga geometrifästen har fortfarande företräde',
@@ -5990,6 +6232,16 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   tl: [
+    {
+      title: 'Patakaran sa privacy, pahinang Tungkol, at GDPR-compliant na consent banner',
+      highlights: [
+        'Bagong pahina ng Patakaran sa Privacy na nagpapaliwanag kung anong data ang kinokolekta ng KulmanLab — mga drawing na naka-imbak lang lokal, Google Analytics, at ang mga ad na paparating sa app sa pamamagitan ng Google AdSense — isinalin sa lahat ng 25 wika ng site',
+        'Bagong pahinang Tungkol na nagkukuwento ng istorya sa likod ng KulmanLab — isinalin sa lahat ng 25 wika ng site',
+        'Idinagdag ang isang consent banner para sa cookies na may hangganan sa rehiyon gamit ang Google Consent Mode v2: naka-deny bilang default ang Analytics hangga\'t hindi tinatanggap sa EEA, UK, at Switzerland, at agad na naka-grant sa lahat ng ibang lugar; ang link na "Mga setting ng cookie" sa footer ay nagpapahintulot na buksan itong muli anumang oras',
+        'Pinaikli ang footer sa Tungkol, Privacy, Mga setting ng cookie, GitHub, at Reddit — nananatiling isang click lang ang layo sa header ang App, Docs, Changelog, at FAQ',
+        'Naayos ang bug kung saan hindi tahimik na naitatala ng Google Analytics ang mga custom event (mga click sa "Ilunsad ang App", mga click sa palabas na link, lalim ng scroll) sa live na site — ang tracking script ay naka-scope sa module ng bundler, kaya hindi talaga nagkaroon ng window.gtag',
+      ],
+    },
     {
       title: 'Vector pins: object snap tracking na may ray snapping kapag naka-angle lock',
       highlights: [
