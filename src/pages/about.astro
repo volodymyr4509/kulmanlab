@@ -1,0 +1,28 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import AboutBody from '../components/AboutBody.astro';
+import type { Lang } from '../i18n/translations';
+import { buildAlternates } from '../i18n/utils';
+import { aboutContent } from '../i18n/about-content';
+
+const lang: Lang = 'en';
+const c = aboutContent[lang];
+---
+
+<Layout
+  title={c.title}
+  description={c.desc}
+  canonical="https://kulmanlab.com/about/"
+  lang={lang}
+  alternates={buildAlternates('about')}
+>
+
+  <SiteHeader lang={lang} />
+
+  <AboutBody lang={lang} />
+
+  <SiteFooter lang={lang} />
+
+</Layout>

@@ -1,0 +1,40 @@
+---
+import { aboutContent } from '../i18n/about-content';
+
+interface Props {
+  lang: string;
+}
+const { lang } = Astro.props;
+const c = aboutContent[lang] ?? aboutContent['en'];
+---
+<main class="mx-auto max-w-3xl px-6 py-16 about-prose">
+
+  <div class="mb-10">
+    <h1 class="mb-3 text-4xl font-bold text-slate-50">{c.heading}</h1>
+    <p class="text-slate-400 text-lg">{c.subtitle}</p>
+  </div>
+
+  <div class="space-y-10 text-slate-300 leading-relaxed">
+    {c.sections.map(section => (
+      <section>
+        {section.h && <h2 class="mb-3 text-2xl font-bold text-slate-50">{section.h}</h2>}
+        {section.ps.map((p, i) => (
+          <p class={i === section.ps.length - 1 ? '' : 'mb-3'} set:html={p} />
+        ))}
+      </section>
+    ))}
+  </div>
+
+</main>
+
+<style>
+  .about-prose :global(a) {
+    color: #4A8580;
+  }
+  .about-prose :global(a:hover) {
+    text-decoration: underline;
+  }
+  .about-prose :global(em) {
+    color: #f1f5f9;
+  }
+</style>

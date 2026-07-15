@@ -1,0 +1,32 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import AboutBody from '../../components/AboutBody.astro';
+import type { Lang } from '../../i18n/translations';
+import { LANGS_NO_EN, buildAlternates } from '../../i18n/utils';
+import { aboutContent } from '../../i18n/about-content';
+
+export function getStaticPaths() {
+  return LANGS_NO_EN.map(lang => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params as { lang: Lang };
+const c = aboutContent[lang] ?? aboutContent['en'];
+---
+
+<Layout
+  title={c.title}
+  description={c.desc}
+  canonical={`https://kulmanlab.com/${lang}/about/`}
+  lang={lang}
+  alternates={buildAlternates('about')}
+>
+
+  <SiteHeader lang={lang} />
+
+  <AboutBody lang={lang} />
+
+  <SiteFooter lang={lang} />
+
+</Layout>
