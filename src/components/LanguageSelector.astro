@@ -121,7 +121,6 @@ const groups: { label: string; codes: string[] }[] = [
       el.href = lang === 'en' ? suffix : `/${lang}${suffix}`;
     });
     document.documentElement.lang = lang;
-    localStorage.setItem(LS_KEY, lang);
   }
 
   // Toggle dropdown
@@ -155,13 +154,21 @@ const groups: { label: string; codes: string[] }[] = [
     });
   });
 
-  // On English pages, apply saved/detected language for text swapping
+  // On English pages: an explicit saved preference redirects to the localized
+  // page (e.g. arriving at /privacy/ with uk selected → /uk/privacy/). Browser
+  // language alone (no saved choice) only soft-swaps the data-i18n labels.
   if (currentLang === 'en') {
     const saved = localStorage.getItem(LS_KEY) as Lang | null;
-    const browser = navigator.language.slice(0, 2) as Lang;
-    const detected = (saved && saved in translations) ? saved : (browser in translations ? browser : 'en');
-    if (detected !== 'en') {
-      applyLang(detected);
+    if (saved && saved !== 'en' && saved in translations) {
+      const target = langToUrl(saved);
+      if (target !== window.location.pathname) {
+        window.location.replace(target);
+      }
+    } else if (!saved) {
+      const browser = navigator.language.slice(0, 2) as Lang;
+      if (browser !== 'en' && browser in translations) {
+        applyLang(browser);
+      }
     }
   } else {
     // Persist current locale so English pages (like /docs) can auto-apply it
