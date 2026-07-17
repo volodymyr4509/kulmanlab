@@ -4,7 +4,7 @@ import { translations, type Lang } from '../i18n/translations';
 import { localeUrl } from '../i18n/utils';
 
 interface Props {
-  active?: 'docs' | 'changelog' | 'faq';
+  active?: 'docs' | 'changelog' | 'howto' | 'faq';
   lang?: Lang;
   docsSlug?: string;
 }
@@ -44,6 +44,7 @@ const mobileLink = (page: string) =>
     <div class="hidden md:flex items-center gap-6">
       <a href={docsUrl} data-locale="docs" class={link('docs')}><span data-i18n="nav.docs">{t['nav.docs']}</span></a>
       <a href={changelogUrl} data-locale="changelog" class={link('changelog')}><span data-i18n="nav.changelog">{t['nav.changelog']}</span></a>
+      <a href="/how-to/" class={link('howto')}><span data-i18n="nav.howto">{t['nav.howto']}</span></a>
       <a href={faqUrl} data-locale="faq" class={link('faq')}><span data-i18n="nav.faq">{t['nav.faq']}</span></a>
       <LanguageSelector lang={lang} page={active === 'faq' ? 'faq' : active === 'changelog' ? 'changelog' : 'home'} docsSlug={active === 'docs' ? docsSlug : undefined} />
       <div class="flex items-center gap-3">
@@ -95,6 +96,7 @@ const mobileLink = (page: string) =>
     <div class="mx-auto max-w-6xl px-4 py-3 flex flex-col gap-1">
       <a href={docsUrl} data-locale="docs" class={mobileLink('docs')}><span data-i18n="nav.docs">{t['nav.docs']}</span></a>
       <a href={changelogUrl} data-locale="changelog" class={mobileLink('changelog')}><span data-i18n="nav.changelog">{t['nav.changelog']}</span></a>
+      <a href="/how-to/" class={mobileLink('howto')}><span data-i18n="nav.howto">{t['nav.howto']}</span></a>
       <a href={faqUrl} data-locale="faq" class={mobileLink('faq')}><span data-i18n="nav.faq">{t['nav.faq']}</span></a>
       <div class="flex gap-4 px-3 pt-3 mt-1 border-t border-slate-800">
         <a href={GITHUB_URL} target="_blank" rel="noopener" class="flex items-center gap-2 text-sm text-slate-400 hover:text-slate-200 transition-colors">
