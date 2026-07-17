@@ -1,0 +1,84 @@
+---
+import { howtoContent } from '../i18n/howto-content';
+
+interface Props {
+  lang: string;
+}
+const { lang } = Astro.props;
+const c = howtoContent[lang] ?? howtoContent['en'];
+const docsRoot = lang === 'en' ? '/docs/' : `/${lang}/docs/`;
+---
+<main class="mx-auto max-w-3xl px-6 py-16 howto-prose">
+
+  <div class="mb-14">
+    <h1 class="mb-3 text-4xl font-bold text-slate-50">{c.heading}</h1>
+    <p class="text-slate-400 text-lg">{c.subtitle}</p>
+  </div>
+
+  <!-- Table of contents -->
+  <nav class="mb-14 rounded-xl border border-slate-800 bg-slate-800/20 px-6 py-5">
+    <ul class="space-y-1.5 text-sm">
+      {c.guides.map((g, i) => (
+        <li>
+          <a href={`#guide-${i + 1}`} class="text-slate-300 hover:text-brand transition-colors">{i + 1}. {g.title}</a>
+        </li>
+      ))}
+    </ul>
+  </nav>
+
+  <div class="space-y-14">
+    {c.guides.map((g, i) => (
+      <section id={`guide-${i + 1}`} class="scroll-mt-24">
+        <h2 class="mb-2 text-2xl font-bold text-slate-50">{g.title}</h2>
+        <p class="mb-4 text-slate-400">{g.intro}</p>
+        <ol class="space-y-2.5 mb-4">
+          {g.steps.map((step, si) => (
+            <li class="flex items-start gap-3 text-sm text-slate-300 leading-relaxed">
+              <span class="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-brand/15 text-xs font-semibold text-brand">{si + 1}</span>
+              <span set:html={step} />
+            </li>
+          ))}
+        </ol>
+        <p class="text-sm text-slate-500">
+          {c.docsLabel}{' '}
+          {g.links.map((l, li) => (
+            <>
+              {li > 0 && <span> · </span>}
+              <a href={`${docsRoot}${l.slug}/`} class="text-brand hover:underline">{l.label}</a>
+            </>
+          ))}
+        </p>
+      </section>
+    ))}
+  </div>
+
+  <div class="mt-16 rounded-xl border border-slate-800 bg-slate-800/20 px-6 py-8 text-center">
+    <p class="mb-1 text-slate-300 font-medium">{c.outroTitle}</p>
+    <p class="text-sm text-slate-500" set:html={c.outroHtml} />
+  </div>
+
+</main>
+
+<style>
+  .howto-prose :global(code) {
+    font-family: ui-monospace, monospace;
+    font-size: 0.75rem;
+    color: #4A8580;
+    background: rgba(74, 133, 128, 0.1);
+    border: 1px solid rgba(74, 133, 128, 0.2);
+    border-radius: 0.25rem;
+    padding: 0.125rem 0.375rem;
+  }
+  .howto-prose :global(ol a),
+  .howto-prose :global(.mt-16 a) {
+    color: #4A8580;
+  }
+  .howto-prose :global(ol a:hover),
+  .howto-prose :global(.mt-16 a:hover) {
+    text-decoration: underline;
+  }
+  .howto-prose :global(strong) {
+    color: #f1f5f9;
+    font-weight: 600;
+  }
+</style>

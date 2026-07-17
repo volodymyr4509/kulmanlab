@@ -90,12 +90,8 @@ const groups: { label: string; codes: string[] }[] = [
     const path = window.location.pathname;
     // Strip leading /{locale} prefix (e.g. /de, /es) to get the bare path
     const bare = path.replace(/^\/[a-z]{2}(?=\/|$)/, '') || '/';
-    // How-to is English-only for now — stay put regardless of language
-    if (bare.startsWith('/how-to')) {
-      return bare;
-    }
-    // Docs, privacy, and about pages stay on the equivalent locale path
-    if (bare.startsWith('/docs') || bare.startsWith('/privacy') || bare.startsWith('/about')) {
+    // Docs, privacy, about, and how-to pages stay on the equivalent locale path
+    if (bare.startsWith('/docs') || bare.startsWith('/privacy') || bare.startsWith('/about') || bare.startsWith('/how-to')) {
       return lang === 'en' ? bare : `/${lang}${bare}`;
     }
     // Standard locale pages (home, faq, changelog)

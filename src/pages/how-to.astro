@@ -2,239 +2,27 @@
 import Layout from '../layouts/Layout.astro';
 import SiteHeader from '../components/SiteHeader.astro';
 import SiteFooter from '../components/SiteFooter.astro';
+import HowToBody from '../components/HowToBody.astro';
 import type { Lang } from '../i18n/translations';
+import { buildAlternates } from '../i18n/utils';
+import { howtoContent } from '../i18n/howto-content';
 
 const lang: Lang = 'en';
-
-type Guide = {
-  title: string;
-  intro: string;
-  steps: string[];
-  links: Array<{ label: string; href: string }>;
-};
-
-const guides: Guide[] = [
-  {
-    title: 'Open a DXF file',
-    intro: 'KulmanLab reads DXF — the exchange format every CAD tool can produce. Files open straight from your disk and never leave your device.',
-    steps: [
-      'Open <a href="https://app.kulmanlab.com">app.kulmanlab.com</a>.',
-      'Click the <strong>Import</strong> button in the File panel, or type <code>import</code> in the terminal.',
-      'Pick a <code>.dxf</code> (or KulmanLab <code>.json</code>) file from your computer.',
-      'The drawing loads onto the canvas and is auto-saved to your browser storage, so it will still be there next time.',
-    ],
-    links: [
-      { label: 'Import command', href: '/docs/commands/import/' },
-      { label: 'Recent files panel', href: '/docs/commands/files/' },
-    ],
-  },
-  {
-    title: 'Draw with exact dimensions',
-    intro: 'Every drawing command accepts typed input, so you never have to eyeball a length or coordinate.',
-    steps: [
-      'Start a command — click <strong>Line</strong> or type <code>line</code> and press <strong>Enter</strong>.',
-      'Type a start point as <code>x,y</code> (for example <code>0,0</code>) and press <strong>Enter</strong>.',
-      'Move the cursor in the direction you want, then type a length (for example <code>250</code>) and press <strong>Enter</strong> — the segment is drawn exactly that long.',
-      'Turn on angle lock in the control bar (or hold the configured increment) to keep segments at exact angles like 30°, 45°, or 90°.',
-    ],
-    links: [
-      { label: 'Line command', href: '/docs/commands/line/' },
-      { label: 'Grid & snap', href: '/docs/interface/grid-snap/' },
-    ],
-  },
-  {
-    title: 'Organize a drawing with layers',
-    intro: 'Layers keep construction lines, geometry, and annotations separate — and they survive DXF export.',
-    steps: [
-      'Open the <strong>Layers</strong> panel in the toolbar and create a layer for each kind of content (outline, dimensions, notes…).',
-      'Set color, linetype, and lineweight per layer so entities pick up sensible defaults.',
-      'Make a layer current with <code>layer-make-current</code> before drawing, or move selected entities with <code>layer-match</code>.',
-      'Use <code>layer-isolate</code> to hide everything except the layer you are working on, and <code>layer-unfreeze-all</code> to bring it all back.',
-    ],
-    links: [
-      { label: 'Layer isolate', href: '/docs/commands/layer-isolate/' },
-      { label: 'Linetype', href: '/docs/interface/linetype/' },
-      { label: 'Lineweight', href: '/docs/interface/lineweight/' },
-    ],
-  },
-  {
-    title: 'Add dimensions',
-    intro: 'Dimensions are real DXF DIMENSION entities, so they round-trip to any other CAD tool.',
-    steps: [
-      'Type <code>dim-linear</code> (horizontal/vertical) or <code>dim-aligned</code> (parallel to the measured edge) in the terminal.',
-      'Pick the two points you want to measure, then place the dimension line with a third click.',
-      'Chain a row of measurements with <code>dim-continue</code> — each new dimension starts where the last one ended.',
-      'For circles and arcs, use <code>dim-radius</code>, <code>dim-diameter</code>, or <code>dim-angular</code>.',
-      'Double-click any dimension label to edit its text.',
-    ],
-    links: [
-      { label: 'Linear dimension', href: '/docs/commands/dim-linear/' },
-      { label: 'Continue dimension', href: '/docs/commands/dim-continue/' },
-      { label: 'Text editor', href: '/docs/interface/text-editor/' },
-    ],
-  },
-  {
-    title: 'Measure distance, angle, and area',
-    intro: 'Quick measurements without creating any geometry — results stay on screen until you press Escape.',
-    steps: [
-      'Type <code>distance</code> and pick two points to read a length.',
-      'Type <code>angle</code> and pick two lines (or three points) to read the angle between them.',
-      'Type <code>area</code> and click three or more points, then press <strong>Enter</strong> — the enclosed area and perimeter are shown.',
-    ],
-    links: [
-      { label: 'Distance', href: '/docs/commands/distance/' },
-      { label: 'Angle', href: '/docs/commands/angle/' },
-      { label: 'Area', href: '/docs/commands/area/' },
-    ],
-  },
-  {
-    title: 'Prepare a file for laser cutting or CNC',
-    intro: 'The workflow KulmanLab was originally built for: check a file, clean it up, send it to the machine.',
-    steps: [
-      'Import the DXF and look it over — <code>fit</code> zooms the whole drawing into view.',
-      'Delete anything the machine should not cut: construction lines, notes, dimensions. <code>layer-isolate</code> helps find strays.',
-      'Tidy the geometry: <code>trim</code> overhanging ends, close gaps, and check sizes with <code>distance</code>.',
-      'Export as DXF and load it into your machine software. Cut paths survive exactly as drawn — KulmanLab writes plain AC1032 DXF.',
-    ],
-    links: [
-      { label: 'Trim', href: '/docs/commands/trim/' },
-      { label: 'Fit view', href: '/docs/commands/fit/' },
-      { label: 'Export', href: '/docs/commands/export/' },
-    ],
-  },
-  {
-    title: 'Set up a paper layout with viewports',
-    intro: 'Layouts are paper-space sheets — compose one or more scaled views of your model on a page, ready for printing.',
-    steps: [
-      'Click a <strong>layout tab</strong> at the bottom of the screen to switch from model space to paper space. The <strong>+</strong> button in the tab bar adds a new layout.',
-      '<strong>Right-click a layout tab</strong> to rename or delete it, or to open the <strong>Page Manager</strong> — there you set the paper format (A4, A3, Letter…), orientation, and the drawing-units-per-mm scale.',
-      'Type <code>viewport-rectangle</code> and click two opposite corners to place a viewport — a window showing your model on the paper.',
-      'Click a viewport to select it: drag its edges or corners to resize, drag the center grip to move it, and pick an exact scale (e.g. <code>1:50</code>) from the scale selector in the control bar.',
-      'Scroll inside a viewport to zoom the model view, middle-drag to pan it. When it looks right, <strong>right-click the viewport</strong> and choose <strong>Lock</strong> to protect it from accidental changes.',
-      'Need the same view twice? <code>viewport-copy</code> duplicates a viewport with its scale and model view preserved.',
-    ],
-    links: [
-      { label: 'Page manager', href: '/docs/commands/page-manager/' },
-      { label: 'Viewport rectangle', href: '/docs/commands/viewport-rectangle/' },
-      { label: 'Viewport copy', href: '/docs/commands/viewport-copy/' },
-    ],
-  },
-  {
-    title: 'Print or save as PDF / PNG',
-    intro: 'The print manager renders your drawing to a paper-ready image, with live preview.',
-    steps: [
-      'Type <code>print</code> or click the Print button in the File panel.',
-      'Choose the output format: PDF for documents, PNG/JPEG/WebP for images.',
-      'Optionally crop to an area of the drawing and toggle monochrome output for clean line prints.',
-      'Click <strong>Print</strong> — the file downloads to your computer.',
-    ],
-    links: [
-      { label: 'Print command', href: '/docs/commands/print/' },
-      { label: 'Page manager', href: '/docs/commands/page-manager/' },
-    ],
-  },
-  {
-    title: 'Back up and manage saved drawings',
-    intro: 'Drawings live in your browser storage — private, offline, and yours to manage.',
-    steps: [
-      'Open the <strong>Files</strong> panel to see every drawing saved in this browser; restore or delete any of them.',
-      'Before clearing browser data or switching machines, export anything important — <code>.json</code> keeps full fidelity, <code>.dxf</code> maximizes compatibility.',
-      'To reset the app completely, type <code>wipestorage</code> and confirm with <code>YES</code> — this permanently deletes all locally saved drawings.',
-    ],
-    links: [
-      { label: 'Files panel', href: '/docs/commands/files/' },
-      { label: 'Export', href: '/docs/commands/export/' },
-      { label: 'Wipe storage', href: '/docs/commands/wipestorage/' },
-    ],
-  },
-];
+const c = howtoContent[lang];
 ---
 
 <Layout
-  title="How to Use KulmanLab — Guides for Common CAD Tasks"
-  description="Step-by-step guides for KulmanLab CAD: open DXF files, draw with exact dimensions, use layers, add dimensions, prepare laser-cutting files, print, and back up your drawings."
+  title={c.title}
+  description={c.desc}
   canonical="https://kulmanlab.com/how-to/"
   lang={lang}
+  alternates={buildAlternates('how-to')}
 >
 
   <SiteHeader active="howto" lang={lang} />
 
-  <main class="mx-auto max-w-3xl px-6 py-16 howto-prose">
-
-    <div class="mb-14">
-      <h1 class="mb-3 text-4xl font-bold text-slate-50">How to</h1>
-      <p class="text-slate-400 text-lg">Step-by-step guides for the most common tasks in KulmanLab CAD.</p>
-    </div>
-
-    <!-- Table of contents -->
-    <nav class="mb-14 rounded-xl border border-slate-800 bg-slate-800/20 px-6 py-5">
-      <ul class="space-y-1.5 text-sm">
-        {guides.map((g, i) => (
-          <li>
-            <a href={`#guide-${i + 1}`} class="text-slate-300 hover:text-brand transition-colors">{i + 1}. {g.title}</a>
-          </li>
-        ))}
-      </ul>
-    </nav>
-
-    <div class="space-y-14">
-      {guides.map((g, i) => (
-        <section id={`guide-${i + 1}`} class="scroll-mt-24">
-          <h2 class="mb-2 text-2xl font-bold text-slate-50">{g.title}</h2>
-          <p class="mb-4 text-slate-400">{g.intro}</p>
-          <ol class="space-y-2.5 mb-4">
-            {g.steps.map((step, si) => (
-              <li class="flex items-start gap-3 text-sm text-slate-300 leading-relaxed">
-                <span class="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-brand/15 text-xs font-semibold text-brand">{si + 1}</span>
-                <span set:html={step} />
-              </li>
-            ))}
-          </ol>
-          <p class="text-sm text-slate-500">
-            Docs:{' '}
-            {g.links.map((l, li) => (
-              <>
-                {li > 0 && <span> · </span>}
-                <a href={l.href} class="text-brand hover:underline">{l.label}</a>
-              </>
-            ))}
-          </p>
-        </section>
-      ))}
-    </div>
-
-    <div class="mt-16 rounded-xl border border-slate-800 bg-slate-800/20 px-6 py-8 text-center">
-      <p class="mb-1 text-slate-300 font-medium">Looking for a specific command?</p>
-      <p class="text-sm text-slate-500">
-        The <a href="/docs/" class="text-brand hover:text-brand-light transition-colors">command reference</a> documents all 50+ commands, and the
-        <a href="/faq/" class="text-brand hover:text-brand-light transition-colors">FAQ</a> covers storage, formats, and compatibility.
-      </p>
-    </div>
-
-  </main>
+  <HowToBody lang={lang} />
 
   <SiteFooter lang={lang} />
 
 </Layout>
-
-<style>
-  .howto-prose :global(code) {
-    font-family: ui-monospace, monospace;
-    font-size: 0.75rem;
-    color: #4A8580;
-    background: rgba(74, 133, 128, 0.1);
-    border: 1px solid rgba(74, 133, 128, 0.2);
-    border-radius: 0.25rem;
-    padding: 0.125rem 0.375rem;
-  }
-  .howto-prose :global(ol a) {
-    color: #4A8580;
-  }
-  .howto-prose :global(ol a:hover) {
-    text-decoration: underline;
-  }
-  .howto-prose :global(strong) {
-    color: #f1f5f9;
-    font-weight: 600;
-  }
-</style>
