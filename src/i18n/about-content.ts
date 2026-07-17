@@ -50,7 +50,7 @@ export const aboutContent: Record<string, AboutContent> = {
   },
 
   de: {
-    title: 'Über KulmanLab — die Geschichte hinter dem kostenlosen Browser-CAD',
+    title: 'Über KulmanLab — die Geschichte des kostenlosen CAD',
     desc: 'KulmanLab ist ein Ein-Personen-Projekt: ein Bauingenieur, der Backend-Entwickler wurde und das schnelle, kostenlose 2D-CAD baut, das er sich immer gewünscht hat. Keine Konten, keine Uploads, keine Server.',
     heading: 'Über KulmanLab',
     subtitle: 'Ein Ein-Personen-Projekt, in Ruhe gebaut.',
@@ -90,7 +90,7 @@ export const aboutContent: Record<string, AboutContent> = {
   },
 
   es: {
-    title: 'Acerca de KulmanLab — la historia detrás del CAD gratuito en el navegador',
+    title: 'Acerca de KulmanLab — la historia del CAD gratuito',
     desc: 'KulmanLab es un proyecto de una sola persona: un ingeniero civil convertido en desarrollador backend que construye el CAD 2D rápido y gratuito que siempre quiso. Sin cuentas, sin subidas, sin servidores.',
     heading: 'Acerca de KulmanLab',
     subtitle: 'Un proyecto de una sola persona, construido sin prisa.',
@@ -130,7 +130,7 @@ export const aboutContent: Record<string, AboutContent> = {
   },
 
   fr: {
-    title: 'À propos de KulmanLab — l\'histoire derrière la CAO gratuite dans le navigateur',
+    title: 'À propos de KulmanLab — l\'histoire de la CAO gratuite',
     desc: 'KulmanLab est le projet d\'une seule personne : un ingénieur civil devenu développeur backend qui construit la CAO 2D rapide et gratuite dont il a toujours rêvé. Pas de comptes, pas de téléversements, pas de serveurs.',
     heading: 'À propos de KulmanLab',
     subtitle: 'Le projet d\'une seule personne, construit sans se presser.',
@@ -170,7 +170,7 @@ export const aboutContent: Record<string, AboutContent> = {
   },
 
   it: {
-    title: 'Informazioni su KulmanLab — la storia dietro il CAD gratuito nel browser',
+    title: 'Informazioni su KulmanLab — la storia del CAD gratuito',
     desc: 'KulmanLab è il progetto di una sola persona: un ingegnere civile diventato sviluppatore backend che costruisce il CAD 2D veloce e gratuito che ha sempre desiderato. Niente account, niente upload, niente server.',
     heading: 'Informazioni su KulmanLab',
     subtitle: 'Il progetto di una sola persona, costruito con calma.',
@@ -210,7 +210,7 @@ export const aboutContent: Record<string, AboutContent> = {
   },
 
   pt: {
-    title: 'Sobre o KulmanLab — a história por trás do CAD gratuito no navegador',
+    title: 'Sobre o KulmanLab — a história do CAD gratuito',
     desc: 'O KulmanLab é um projeto de uma pessoa só: um engenheiro civil que virou desenvolvedor backend e constrói o CAD 2D rápido e gratuito que sempre quis. Sem contas, sem uploads, sem servidores.',
     heading: 'Sobre o KulmanLab',
     subtitle: 'Um projeto de uma pessoa só, construído sem pressa.',
@@ -290,7 +290,7 @@ export const aboutContent: Record<string, AboutContent> = {
   },
 
   tr: {
-    title: 'KulmanLab Hakkında — tarayıcıdaki ücretsiz CAD\'in arkasındaki hikâye',
+    title: 'KulmanLab Hakkında — ücretsiz tarayıcı CAD\'in hikâyesi',
     desc: 'KulmanLab tek kişilik bir proje: backend geliştiricisi olan bir inşaat mühendisinin her zaman istediği hızlı, ücretsiz 2D CAD. Hesap yok, yükleme yok, sunucu yok.',
     heading: 'KulmanLab Hakkında',
     subtitle: 'Tek kişilik, acele etmeden geliştirilen bir proje.',
@@ -850,7 +850,7 @@ export const aboutContent: Record<string, AboutContent> = {
   },
 
   el: {
-    title: 'Σχετικά με το KulmanLab — η ιστορία πίσω από το δωρεάν CAD στον περιηγητή',
+    title: 'Σχετικά με το KulmanLab — η ιστορία του δωρεάν CAD',
     desc: 'Το KulmanLab είναι έργο ενός ανθρώπου: ενός πολιτικού μηχανικού που έγινε backend developer και φτιάχνει το γρήγορο, δωρεάν 2D CAD που πάντα ήθελε. Χωρίς λογαριασμούς, χωρίς μεταφορτώσεις, χωρίς διακομιστές.',
     heading: 'Σχετικά με το KulmanLab',
     subtitle: 'Έργο ενός ανθρώπου, χτισμένο χωρίς βιασύνη.',
@@ -970,7 +970,7 @@ export const aboutContent: Record<string, AboutContent> = {
   },
 
   tl: {
-    title: 'Tungkol sa KulmanLab — ang kuwento sa likod ng libreng CAD sa browser',
+    title: 'Tungkol sa KulmanLab — ang kuwento ng libreng CAD',
     desc: 'Ang KulmanLab ay proyekto ng isang tao: isang civil engineer na naging backend developer at gumagawa ng mabilis at libreng 2D CAD na matagal na niyang gusto. Walang account, walang upload, walang server.',
     heading: 'Tungkol sa KulmanLab',
     subtitle: 'Proyekto ng isang tao, ginawa nang dahan-dahan.',
