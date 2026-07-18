@@ -7,6 +7,17 @@ export type Release = {
 
 export const releases: Release[] = [
   {
+    version: '2026.07.19.b22f372',
+    date: 'July 19, 2026',
+    title: 'How-to guides (25 languages) & responsive nav polish',
+    highlights: [
+      'How-to guides and the site header now render cleanly on phones and tablets — the mobile menu includes the new How-to link alongside Docs, Changelog, and FAQ',
+      'New How-to page with 9 step-by-step guides — opening DXF files, drawing with exact dimensions, organizing layers, dimensioning, measuring distance/angle/area, preparing files for laser cutting or CNC, paper layouts with viewports, printing, and backing up drawings — translated into all 25 site languages',
+      'Fixed language switching on English pages: with a language saved in the dropdown, pages like Privacy and About now redirect to the fully translated version instead of staying in English with only the navigation labels swapped',
+      'Shortened overly long page titles (homepage and About page) in 20+ languages so they display fully in search results',
+    ],
+  },
+  {
     version: '2026.07.15.0c09002',
     date: 'July 15, 2026',
     title: 'Privacy policy, About page & GDPR-compliant consent banner',
@@ -330,6 +341,15 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   en: releases.map(r => ({ title: r.title, highlights: r.highlights })),
   de: [
     {
+      title: 'How-to-Anleitungen (25 Sprachen) & responsives Navigations-Update',
+      highlights: [
+        'How-to-Anleitungen und die Kopfzeile der Website werden jetzt sauber auf Smartphones und Tablets dargestellt — das mobile Menü enthält den neuen How-to-Link neben Docs, Changelog und FAQ',
+        'Neue How-to-Seite mit 9 Schritt-für-Schritt-Anleitungen — DXF-Dateien öffnen, mit exakten Maßen zeichnen, Ebenen organisieren, bemaßen, Abstand/Winkel/Fläche messen, Dateien für Laserschnitt oder CNC vorbereiten, Papierlayouts mit Viewports, drucken und Zeichnungen sichern — übersetzt in alle 25 Sprachen der Website',
+        'Sprachumschaltung auf englischen Seiten repariert: Bei gespeicherter Sprache im Dropdown leiten Seiten wie Datenschutz und Über uns jetzt auf die vollständig übersetzte Version um, statt auf Englisch zu bleiben und nur die Navigationsbeschriftungen zu übersetzen',
+        'Zu lange Seitentitel (Startseite und Über-uns-Seite) in über 20 Sprachen gekürzt, damit sie vollständig in Suchergebnissen angezeigt werden',
+      ],
+    },
+    {
       title: 'Datenschutzerklärung, Über-uns-Seite & DSGVO-konformer Cookie-Banner',
       highlights: [
         'Neue Datenschutzerklärung erklärt, welche Daten KulmanLab erfasst — nur lokal gespeicherte Zeichnungen, Google Analytics und die künftige Werbung in der App über Google AdSense — übersetzt in alle 25 Sprachen der Website',
@@ -605,6 +625,15 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   es: [
+    {
+      title: 'Guías How-to (25 idiomas) y ajustes de navegación responsiva',
+      highlights: [
+        'Las guías How-to y la cabecera del sitio ahora se ven perfectas en teléfonos y tablets — el menú móvil incluye el nuevo enlace How-to junto a Docs, Changelog y FAQ',
+        'Nueva página How-to con 9 guías paso a paso — abrir archivos DXF, dibujar con medidas exactas, organizar capas, acotar, medir distancia/ángulo/área, preparar archivos para corte láser o CNC, layouts de papel con viewports, imprimir y respaldar dibujos — traducida a los 25 idiomas del sitio',
+        'Corregido el cambio de idioma en páginas en inglés: con un idioma guardado en el desplegable, páginas como Privacidad y Acerca de ahora redirigen a la versión totalmente traducida en lugar de quedarse en inglés con solo las etiquetas de navegación traducidas',
+        'Acortados títulos de página demasiado largos (portada y página Acerca de) en más de 20 idiomas para que se muestren completos en los resultados de búsqueda',
+      ],
+    },
     {
       title: 'Política de privacidad, página Acerca de y banner de consentimiento conforme al RGPD',
       highlights: [
@@ -882,6 +911,15 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   fr: [
     {
+      title: 'Guides pratiques (25 langues) et amélioration de la navigation responsive',
+      highlights: [
+        'Les guides pratiques et l\'en-tête du site s\'affichent désormais parfaitement sur téléphones et tablettes — le menu mobile inclut le nouveau lien Guides aux côtés de Documentation, Nouveautés et FAQ',
+        'Nouvelle page de guides pratiques avec 9 guides pas à pas — ouvrir des fichiers DXF, dessiner avec des cotes exactes, organiser les calques, coter, mesurer distance/angle/aire, préparer des fichiers pour la découpe laser ou CNC, mises en page papier avec viewports, imprimer et sauvegarder les dessins — traduite dans les 25 langues du site',
+        'Correction du changement de langue sur les pages anglaises : avec une langue enregistrée dans le menu déroulant, des pages comme Confidentialité et À propos redirigent désormais vers la version entièrement traduite au lieu de rester en anglais avec seulement les libellés de navigation traduits',
+        'Titres de page trop longs (accueil et page À propos) raccourcis dans plus de 20 langues afin qu\'ils s\'affichent en entier dans les résultats de recherche',
+      ],
+    },
+    {
       title: 'Politique de confidentialité, page À propos et bannière de consentement conforme RGPD',
       highlights: [
         'Nouvelle page Politique de confidentialité expliquant quelles données KulmanLab collecte — dessins stockés uniquement en local, Google Analytics et la publicité à venir dans l\'app via Google AdSense — traduite dans les 25 langues du site',
@@ -1156,6 +1194,15 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   it: [
+    {
+      title: 'Guide pratiche (25 lingue) e miglioramenti alla navigazione responsive',
+      highlights: [
+        'Le guide pratiche e l\'intestazione del sito ora si visualizzano perfettamente su telefoni e tablet — il menu mobile include il nuovo link Guide accanto a Documentazione, Changelog e FAQ',
+        'Nuova pagina delle guide pratiche con 9 guide passo-passo — aprire file DXF, disegnare con misure esatte, organizzare i layer, quotare, misurare distanza/angolo/area, preparare file per taglio laser o CNC, layout carta con viewport, stampare e fare backup dei disegni — tradotta in tutte le 25 lingue del sito',
+        'Risolto il cambio lingua sulle pagine in inglese: con una lingua salvata nel menu a tendina, pagine come Privacy e Chi siamo ora reindirizzano alla versione completamente tradotta invece di restare in inglese con solo le etichette di navigazione tradotte',
+        'Accorciati i titoli di pagina troppo lunghi (home e pagina Chi siamo) in oltre 20 lingue perché appaiano per intero nei risultati di ricerca',
+      ],
+    },
     {
       title: 'Informativa sulla privacy, pagina Chi siamo e banner di consenso conforme al GDPR',
       highlights: [
@@ -1433,6 +1480,15 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   pt: [
     {
+      title: 'Guias práticos (25 idiomas) e melhorias na navegação responsiva',
+      highlights: [
+        'Os guias práticos e o cabeçalho do site agora aparecem perfeitamente em celulares e tablets — o menu mobile inclui o novo link Guias ao lado de Docs, Changelog e FAQ',
+        'Nova página de guias práticos com 9 guias passo a passo — abrir arquivos DXF, desenhar com medidas exatas, organizar camadas, cotar, medir distância/ângulo/área, preparar arquivos para corte a laser ou CNC, layouts de papel com viewports, imprimir e fazer backup de desenhos — traduzida para os 25 idiomas do site',
+        'Corrigida a troca de idioma em páginas em inglês: com um idioma salvo no menu suspenso, páginas como Privacidade e Sobre agora redirecionam para a versão totalmente traduzida em vez de permanecer em inglês com apenas os rótulos de navegação traduzidos',
+        'Encurtados títulos de página excessivamente longos (página inicial e Sobre) em mais de 20 idiomas para que apareçam por completo nos resultados de busca',
+      ],
+    },
+    {
       title: 'Política de privacidade, página Sobre e banner de consentimento em conformidade com o RGPD',
       highlights: [
         'Nova página de Política de privacidade explica quais dados o KulmanLab coleta — desenhos armazenados apenas localmente, Google Analytics e a publicidade que chegará ao app via Google AdSense — traduzida para os 25 idiomas do site',
@@ -1708,6 +1764,15 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   uk: [
+    {
+      title: 'Інструкції «Як зробити» (25 мов) та адаптивна навігація',
+      highlights: [
+        'Сторінка «Як зробити» та шапка сайту тепер чітко відображаються на телефонах і планшетах — мобільне меню містить нове посилання «Як зробити» поруч із «Документація», «Історія змін» і «Часті запитання»',
+        'Нова сторінка «Як зробити» з 9 покроковими інструкціями — відкриття DXF-файлів, креслення з точними розмірами, організація шарів, розміри, вимірювання відстані/кута/площі, підготовка файлів для лазерного різання чи ЧПК, паперові макети з в\'юпортами, друк і резервне копіювання креслень — перекладена всіма 25 мовами сайту',
+        'Виправлено перемикання мови на англійських сторінках: якщо в спадному меню збережено мову, сторінки на кшталт «Конфіденційність» і «Про нас» тепер переадресовують на повністю перекладену версію, а не залишаються англійською з перекладеними лише підписами навігації',
+        'Скорочено надто довгі заголовки сторінок (головна та «Про нас») у понад 20 мовах, щоб вони повністю відображалися в результатах пошуку',
+      ],
+    },
     {
       title: 'Політика конфіденційності, сторінка «Про нас» і банер згоди відповідно до GDPR',
       highlights: [
@@ -1985,6 +2050,15 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   tr: [
     {
+      title: 'Nasıl yapılır rehberleri (25 dil) ve duyarlı gezinme iyileştirmeleri',
+      highlights: [
+        'Nasıl yapılır rehberleri ve site başlığı artık telefon ve tabletlerde sorunsuz görüntüleniyor — mobil menüde Belgeler, Sürüm Notları ve SSS\'nin yanında yeni Nasıl yapılır bağlantısı da yer alıyor',
+        '9 adım adım rehber içeren yeni Nasıl yapılır sayfası — DXF dosyası açma, tam ölçülerle çizim, katmanları düzenleme, ölçülendirme, mesafe/açı/alan ölçme, lazer kesim veya CNC için dosya hazırlama, viewport\'larla kâğıt yerleşimleri, yazdırma ve çizimleri yedekleme — sitenin tüm 25 diline çevrildi',
+        'İngilizce sayfalarda dil değiştirme sorunu giderildi: açılır menüde bir dil kayıtlıysa, Gizlilik ve Hakkında gibi sayfalar artık yalnızca gezinme etiketleri çevrilmiş İngilizce halde kalmak yerine tamamen çevrilmiş sürüme yönlendiriyor',
+        '20\'den fazla dilde aşırı uzun sayfa başlıkları (ana sayfa ve Hakkında sayfası) arama sonuçlarında tam görünecek şekilde kısaltıldı',
+      ],
+    },
+    {
       title: 'Gizlilik politikası, Hakkında sayfası ve GDPR uyumlu çerez izin banner\'ı',
       highlights: [
         'KulmanLab\'in hangi verileri topladığını açıklayan yeni Gizlilik Politikası sayfası — yalnızca yerel olarak saklanan çizimler, Google Analytics ve Google AdSense üzerinden uygulamaya gelecek reklamlar — sitenin tüm 25 diline çevrildi',
@@ -2260,6 +2334,15 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   zh: [
+    {
+      title: '使用指南（25 种语言）与响应式导航优化',
+      highlights: [
+        '使用指南和网站页眉现在能在手机和平板上清晰呈现——移动端菜单中新增了"使用指南"链接，与"文档""更新日志""常见问题"并列',
+        '新增使用指南页面，包含 9 个分步教程——打开 DXF 文件、按精确尺寸绘图、整理图层、标注尺寸、测量距离/角度/面积、为激光切割或 CNC 准备文件、用视口搭建图纸布局、打印以及备份图纸——已翻译为全部 25 种网站语言',
+        '修复了英文页面上的语言切换问题：当下拉菜单中已保存某语言时，隐私政策、关于等页面现在会跳转到完整翻译版本，而不再停留在只有导航标签被翻译的英文页面上',
+        '在 20 多种语言中缩短了过长的页面标题（首页和关于页面），使其能在搜索结果中完整显示',
+      ],
+    },
     {
       title: '隐私政策、关于页面与符合 GDPR 的 Cookie 同意横幅',
       highlights: [
@@ -2537,6 +2620,15 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   hi: [
     {
+      title: 'गाइड (25 भाषाएँ) और रिस्पॉन्सिव नेविगेशन सुधार',
+      highlights: [
+        'गाइड और साइट का हेडर अब फ़ोन और टैबलेट पर साफ़-सुथरे दिखते हैं — मोबाइल मेनू में डॉक्स, चेंजलॉग और FAQ के साथ नया गाइड लिंक भी शामिल है',
+        '9 चरण-दर-चरण गाइड वाला नया गाइड पेज — DXF फ़ाइलें खोलना, सटीक मापों से चित्र बनाना, लेयर व्यवस्थित करना, डाइमेंशन जोड़ना, दूरी/कोण/क्षेत्रफल मापना, लेज़र कटिंग या CNC के लिए फ़ाइलें तैयार करना, व्यूपोर्ट के साथ पेपर लेआउट, प्रिंट करना और ड्रॉइंग का बैकअप — साइट की सभी 25 भाषाओं में अनूदित',
+        'अंग्रेज़ी पेजों पर भाषा बदलना ठीक किया गया: ड्रॉपडाउन में भाषा सहेजी होने पर, गोपनीयता और परिचय जैसे पेज अब पूरी तरह अनूदित संस्करण पर रीडायरेक्ट होते हैं, न कि केवल नेविगेशन लेबल अनुवादित अंग्रेज़ी पेज पर रुके रहते हैं',
+        '20+ भाषाओं में बहुत लंबे पेज टाइटल (होमपेज और परिचय पेज) छोटे किए गए ताकि वे खोज परिणामों में पूरी तरह दिखें',
+      ],
+    },
+    {
       title: 'गोपनीयता नीति, परिचय पेज और GDPR-अनुरूप कुकी सहमति बैनर',
       highlights: [
         'नया गोपनीयता नीति पेज बताता है कि KulmanLab कौन-सा डेटा एकत्र करता है — केवल स्थानीय रूप से संग्रहीत ड्रॉइंग, Google Analytics, और Google AdSense के ज़रिए ऐप में आने वाले विज्ञापन — साइट की सभी 25 भाषाओं में अनूदित',
@@ -2812,6 +2904,15 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   ar: [
+    {
+      title: 'أدلة "كيفية الاستخدام" (25 لغة) وتحسينات التنقل المتجاوب',
+      highlights: [
+        'تظهر الآن أدلة "كيفية الاستخدام" وترويسة الموقع بوضوح على الهواتف والأجهزة اللوحية — تتضمن القائمة على الجوال رابط "كيفية الاستخدام" الجديد إلى جانب الوثائق وسجل التغييرات والأسئلة الشائعة',
+        'صفحة "كيفية الاستخدام" جديدة تضم 9 أدلة خطوة بخطوة — فتح ملفات DXF، الرسم بمقاسات دقيقة، تنظيم الطبقات، إضافة الأبعاد، قياس المسافة/الزاوية/المساحة، تحضير الملفات للقطع بالليزر أو CNC، إعداد مخططات ورقية بمنافذ عرض، الطباعة، والنسخ الاحتياطي للرسومات — مترجمة إلى جميع لغات الموقع الـ25',
+        'إصلاح تبديل اللغة في الصفحات الإنجليزية: عند حفظ لغة في القائمة المنسدلة، تعيد صفحات مثل سياسة الخصوصية وحول التوجيه الآن إلى النسخة المترجمة بالكامل بدلًا من البقاء بالإنجليزية مع ترجمة تسميات التنقل فقط',
+        'تقصير عناوين الصفحات الطويلة جدًا (الصفحة الرئيسية وصفحة حول) في أكثر من 20 لغة كي تظهر كاملة في نتائج البحث',
+      ],
+    },
     {
       title: 'سياسة الخصوصية وصفحة "حول" ولافتة موافقة متوافقة مع GDPR',
       highlights: [
@@ -3089,6 +3190,15 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   id: [
     {
+      title: 'Panduan (25 bahasa) dan penyempurnaan navigasi responsif',
+      highlights: [
+        'Panduan dan header situs kini tampil rapi di ponsel dan tablet — menu seluler menyertakan tautan Panduan baru di samping Dokumen, Changelog, dan FAQ',
+        'Halaman Panduan baru dengan 9 panduan langkah demi langkah — membuka file DXF, menggambar dengan ukuran presisi, mengatur layer, menambah dimensi, mengukur jarak/sudut/luas, menyiapkan file untuk potong laser atau CNC, layout kertas dengan viewport, mencetak, dan mencadangkan gambar — diterjemahkan ke 25 bahasa situs',
+        'Memperbaiki pergantian bahasa pada halaman berbahasa Inggris: dengan bahasa tersimpan di dropdown, halaman seperti Privasi dan Tentang kini mengalihkan ke versi yang diterjemahkan penuh, bukan tetap berbahasa Inggris dengan hanya label navigasi yang diterjemahkan',
+        'Memperpendek judul halaman yang terlalu panjang (beranda dan halaman Tentang) di lebih dari 20 bahasa agar tampil utuh di hasil pencarian',
+      ],
+    },
+    {
       title: 'Kebijakan privasi, halaman Tentang, dan banner persetujuan yang sesuai GDPR',
       highlights: [
         'Halaman Kebijakan Privasi baru menjelaskan data apa yang dikumpulkan KulmanLab — gambar hanya disimpan secara lokal, Google Analytics, dan iklan yang akan hadir di aplikasi melalui Google AdSense — diterjemahkan ke 25 bahasa situs',
@@ -3364,6 +3474,15 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   ja: [
+    {
+      title: '使い方ガイド（全25言語）とレスポンシブなナビゲーション改善',
+      highlights: [
+        '使い方ガイドとサイトのヘッダーがスマートフォンやタブレットできれいに表示されるようになりました — モバイルメニューにはドキュメント、更新履歴、よくある質問と並んで新しい使い方リンクが含まれます',
+        '9つのステップバイステップガイドを収録した新しい使い方ページを追加 — DXFファイルを開く、正確な寸法で作図、レイヤーの整理、寸法記入、距離/角度/面積の計測、レーザー加工やCNC用のファイル準備、ビューポート付き用紙レイアウト、印刷、図面のバックアップ — サイトの全25言語に翻訳',
+        '英語ページでの言語切り替えを修正 — ドロップダウンで言語が保存されている場合、プライバシーポリシーや概要などのページはナビゲーションラベルだけが翻訳された英語のままではなく、完全に翻訳されたバージョンにリダイレクトされるようになりました',
+        '20以上の言語でホームページと概要ページの長すぎるタイトルを短縮し、検索結果に全文表示されるようにしました',
+      ],
+    },
     {
       title: 'プライバシーポリシー、概要ページ、GDPR準拠の同意バナーを追加',
       highlights: [
@@ -3641,6 +3760,15 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   pl: [
     {
+      title: 'Poradniki (25 języków) i poprawki responsywnej nawigacji',
+      highlights: [
+        'Poradniki i nagłówek strony wyświetlają się teraz poprawnie na telefonach i tabletach — menu mobilne zawiera nowy link Poradniki obok Dokumentacji, Listy zmian i FAQ',
+        'Nowa strona poradników z 9 przewodnikami krok po kroku — otwieranie plików DXF, rysowanie z dokładnymi wymiarami, organizowanie warstw, wymiarowanie, mierzenie odległości/kąta/pola, przygotowanie plików do cięcia laserem lub CNC, układy papieru z rzutniami, drukowanie i tworzenie kopii zapasowych rysunków — przetłumaczona na wszystkie 25 języków serwisu',
+        'Naprawiono przełączanie języka na stronach angielskich: przy zapisanym języku w rozwijanym menu, strony takie jak Prywatność i O nas przekierowują teraz do w pełni przetłumaczonej wersji zamiast pozostawać po angielsku z przetłumaczonymi tylko etykietami nawigacji',
+        'Skrócono zbyt długie tytuły stron (strona główna i O nas) w ponad 20 językach, aby wyświetlały się w całości w wynikach wyszukiwania',
+      ],
+    },
+    {
       title: 'Polityka prywatności, strona O nas i baner zgody zgodny z RODO',
       highlights: [
         'Nowa strona Polityki prywatności wyjaśnia, jakie dane zbiera KulmanLab — rysunki przechowywane wyłącznie lokalnie, Google Analytics oraz reklamy, które pojawią się w aplikacji dzięki Google AdSense — przetłumaczona na wszystkie 25 języków serwisu',
@@ -3916,6 +4044,15 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   ko: [
+    {
+      title: '사용법 가이드(25개 언어) 및 반응형 내비게이션 개선',
+      highlights: [
+        '사용법 가이드와 사이트 헤더가 이제 휴대폰과 태블릿에서도 깔끔하게 표시됩니다 — 모바일 메뉴에 문서, 변경 이력, FAQ와 함께 새로운 사용법 링크가 추가되었습니다',
+        '9개의 단계별 가이드를 담은 새 사용법 페이지 추가 — DXF 파일 열기, 정확한 치수로 그리기, 레이어 정리, 치수 기입, 거리/각도/면적 측정, 레이저 커팅·CNC용 파일 준비, 뷰포트로 용지 레이아웃 구성, 인쇄, 도면 백업 — 사이트의 25개 언어 전체로 번역',
+        '영문 페이지에서 언어 전환 문제 수정 — 드롭다운에 언어가 저장되어 있으면 개인정보 처리방침, 소개 같은 페이지가 내비게이션 라벨만 번역된 영문 상태로 남지 않고 완전히 번역된 버전으로 이동합니다',
+        '20개 이상의 언어에서 지나치게 긴 페이지 제목(홈페이지 및 소개 페이지)을 줄여 검색 결과에 전체가 표시되도록 함',
+      ],
+    },
     {
       title: '개인정보 처리방침, 소개 페이지, GDPR 준수 동의 배너 추가',
       highlights: [
@@ -4193,6 +4330,15 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   vi: [
     {
+      title: 'Hướng dẫn (25 ngôn ngữ) và cải thiện điều hướng responsive',
+      highlights: [
+        'Trang hướng dẫn và phần đầu trang web giờ hiển thị gọn gàng trên điện thoại và máy tính bảng — menu di động có thêm liên kết Hướng dẫn mới bên cạnh Tài liệu, Nhật ký thay đổi và FAQ',
+        'Trang Hướng dẫn mới với 9 hướng dẫn từng bước — mở tệp DXF, vẽ với kích thước chính xác, sắp xếp layer, ghi kích thước, đo khoảng cách/góc/diện tích, chuẩn bị tệp cho cắt laser hoặc CNC, dựng layout giấy với viewport, in ấn và sao lưu bản vẽ — được dịch sang cả 25 ngôn ngữ của trang web',
+        'Sửa lỗi chuyển đổi ngôn ngữ trên các trang tiếng Anh: khi đã lưu ngôn ngữ trong danh sách thả xuống, các trang như Quyền riêng tư và Giới thiệu giờ chuyển hướng sang phiên bản được dịch đầy đủ thay vì giữ nguyên tiếng Anh chỉ với nhãn điều hướng được dịch',
+        'Rút ngắn tiêu đề trang quá dài (trang chủ và trang Giới thiệu) ở hơn 20 ngôn ngữ để hiển thị đầy đủ trong kết quả tìm kiếm',
+      ],
+    },
+    {
       title: 'Chính sách quyền riêng tư, trang Giới thiệu và banner đồng ý tuân thủ GDPR',
       highlights: [
         'Trang Chính sách quyền riêng tư mới giải thích dữ liệu nào KulmanLab thu thập — bản vẽ chỉ lưu cục bộ, Google Analytics, và quảng cáo sắp có trong ứng dụng qua Google AdSense — được dịch sang cả 25 ngôn ngữ của trang web',
@@ -4468,6 +4614,15 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   th: [
+    {
+      title: 'คู่มือการใช้งาน (25 ภาษา) และการปรับปรุงเมนูให้ตอบสนองทุกหน้าจอ',
+      highlights: [
+        'หน้าคู่มือการใช้งานและส่วนหัวของเว็บไซต์ตอนนี้แสดงผลได้ดีบนมือถือและแท็บเล็ต — เมนูมือถือมีลิงก์คู่มือการใช้งานใหม่อยู่ข้างเอกสาร บันทึกการเปลี่ยนแปลง และคำถามที่พบบ่อย',
+        'เพิ่มหน้าคู่มือการใช้งานใหม่พร้อมคู่มือทีละขั้นตอน 9 เรื่อง — เปิดไฟล์ DXF, วาดด้วยขนาดที่แม่นยำ, จัดระเบียบเลเยอร์, ใส่เส้นบอกขนาด, วัดระยะทาง/มุม/พื้นที่, เตรียมไฟล์สำหรับตัดเลเซอร์หรือ CNC, จัดเลย์เอาต์กระดาษด้วยวิวพอร์ต, พิมพ์ และสำรองแบบเขียน — แปลครบทั้ง 25 ภาษาของเว็บไซต์',
+        'แก้ไขการสลับภาษาบนหน้าภาษาอังกฤษ: เมื่อมีการบันทึกภาษาไว้ในดรอปดาวน์ หน้าอย่างนโยบายความเป็นส่วนตัวและเกี่ยวกับตอนนี้จะเปลี่ยนเส้นทางไปยังเวอร์ชันที่แปลครบถ้วน แทนที่จะค้างอยู่ที่หน้าภาษาอังกฤษซึ่งแปลแค่ป้ายเมนู',
+        'ย่อชื่อหน้าที่ยาวเกินไป (หน้าแรกและหน้าเกี่ยวกับ) ในกว่า 20 ภาษา เพื่อให้แสดงผลครบถ้วนในผลการค้นหา',
+      ],
+    },
     {
       title: 'นโยบายความเป็นส่วนตัว หน้าเกี่ยวกับ และแบนเนอร์ขอความยินยอมตามมาตรฐาน GDPR',
       highlights: [
@@ -4745,6 +4900,15 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   ms: [
     {
+      title: 'Panduan (25 bahasa) dan penambahbaikan navigasi responsif',
+      highlights: [
+        'Panduan dan pengepala laman kini dipaparkan dengan kemas pada telefon dan tablet — menu mudah alih kini merangkumi pautan Panduan baharu di sebelah Dokumen, Log Perubahan dan Soalan Lazim',
+        'Halaman Panduan baharu dengan 9 panduan langkah demi langkah — membuka fail DXF, melukis dengan ukuran tepat, menyusun lapisan, menambah dimensi, mengukur jarak/sudut/luas, menyediakan fail untuk pemotongan laser atau CNC, layout kertas dengan viewport, mencetak dan menyandarkan lukisan — diterjemahkan ke semua 25 bahasa laman web',
+        'Membaiki pertukaran bahasa pada halaman bahasa Inggeris: apabila bahasa disimpan dalam menu lungsur, halaman seperti Privasi dan Perihal kini mengubah hala ke versi yang diterjemahkan sepenuhnya dan bukannya kekal dalam bahasa Inggeris dengan hanya label navigasi diterjemahkan',
+        'Memendekkan tajuk halaman yang terlalu panjang (halaman utama dan Perihal) dalam lebih 20 bahasa supaya dipaparkan sepenuhnya dalam hasil carian',
+      ],
+    },
+    {
       title: 'Dasar privasi, halaman Perihal dan sepanduk kebenaran mematuhi GDPR',
       highlights: [
         'Halaman Dasar Privasi baharu menerangkan data yang dikumpul oleh KulmanLab — lukisan hanya disimpan secara setempat, Google Analytics, dan iklan yang akan hadir dalam aplikasi melalui Google AdSense — diterjemahkan ke semua 25 bahasa laman web',
@@ -5020,6 +5184,15 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   bn: [
+    {
+      title: 'গাইড (২৫ ভাষা) এবং রেসপনসিভ নেভিগেশন উন্নতি',
+      highlights: [
+        'গাইড পেজ এবং সাইটের হেডার এখন ফোন ও ট্যাবলেটে পরিষ্কারভাবে দেখা যায় — মোবাইল মেনুতে ডকুমেন্টেশন, চেঞ্জলগ এবং সাধারণ প্রশ্নাবলির পাশে নতুন গাইড লিংক যুক্ত হয়েছে',
+        '৯টি ধাপে-ধাপে গাইডসহ নতুন গাইড পেজ — DXF ফাইল খোলা, নিখুঁত মাপে আঁকা, লেয়ার সাজানো, ডাইমেনশন যোগ, দূরত্ব/কোণ/ক্ষেত্রফল মাপা, লেজার কাটিং বা CNC-এর জন্য ফাইল তৈরি, ভিউপোর্টসহ কাগজের লেআউট, প্রিন্ট এবং অঙ্কনের ব্যাকআপ — সাইটের সব ২৫টি ভাষায় অনূদিত',
+        'ইংরেজি পেজে ভাষা পরিবর্তনের সমস্যা সমাধান করা হয়েছে: ড্রপডাউনে কোনো ভাষা সংরক্ষিত থাকলে, গোপনীয়তা ও সম্পর্কে-এর মতো পেজ এখন শুধু নেভিগেশন লেবেল অনূদিত ইংরেজি পেজে না থেকে সম্পূর্ণ অনূদিত সংস্করণে রিডাইরেক্ট হয়',
+        '২০টির বেশি ভাষায় অতিরিক্ত লম্বা পেজ শিরোনাম (হোমপেজ ও সম্পর্কে পেজ) ছোট করা হয়েছে, যাতে সেগুলো সার্চ ফলাফলে সম্পূর্ণভাবে দেখা যায়',
+      ],
+    },
     {
       title: 'গোপনীয়তা নীতি, সম্পর্কে পেজ এবং GDPR-সম্মত কুকি সম্মতি ব্যানার',
       highlights: [
@@ -5316,6 +5489,15 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   sw: [
+    {
+      title: 'Miongozo (lugha 25) na maboresho ya uelekezaji unaojirekebisha',
+      highlights: [
+        'Miongozo na kichwa cha tovuti sasa vinaonekana vizuri kwenye simu na kompyuta kibao — menyu ya simu sasa inajumuisha kiungo kipya cha Miongozo kando ya Nyaraka, Rekodi ya Mabadiliko na Maswali',
+        'Ukurasa mpya wa Miongozo wenye miongozo 9 ya hatua kwa hatua — kufungua faili za DXF, kuchora kwa vipimo kamili, kupanga tabaka, kuongeza vipimo, kupima umbali/pembe/eneo, kuandaa faili za kukata kwa leza au CNC, mipangilio ya karatasi yenye viwambo, kuchapisha na kuhifadhi nakala za michoro — imetafsiriwa kwa lugha zote 25 za tovuti',
+        'Kurekebisha ubadilishaji wa lugha kwenye kurasa za Kiingereza: lugha ikiwa imehifadhiwa kwenye kishuka, kurasa kama Faragha na Kuhusu sasa zinaelekeza kwenye toleo lililotafsiriwa kikamilifu badala ya kubaki kwa Kiingereza na lebo za uelekezaji pekee zikiwa zimetafsiriwa',
+        'Kufupisha vichwa vya kurasa virefu kupita kiasi (ukurasa wa nyumbani na Kuhusu) katika lugha zaidi ya 20 ili vionekane kikamilifu kwenye matokeo ya utafutaji',
+      ],
+    },
     {
       title: 'Sera ya faragha, ukurasa wa Kuhusu, na bango la idhini linalotii GDPR',
       highlights: [
@@ -5614,6 +5796,15 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
 
   ur: [
     {
+      title: 'رہنما ہدایات (25 زبانیں) اور ریسپانسو نیویگیشن بہتری',
+      highlights: [
+        'اب رہنما ہدایات اور سائٹ کا ہیڈر فون اور ٹیبلٹ پر صاف نظر آتے ہیں — موبائل مینو میں دستاویزات، تبدیلیوں کی فہرست اور اکثر پوچھے گئے سوالات کے ساتھ نیا رہنما ہدایات لنک بھی شامل ہے',
+        '9 مرحلہ وار رہنما ہدایات پر مشتمل نیا صفحہ — DXF فائلیں کھولنا، درست پیمائشوں سے ڈرائنگ، لیئرز ترتیب دینا، ڈائمینشن لگانا، فاصلہ/زاویہ/رقبہ ماپنا، لیزر کٹنگ یا CNC کے لیے فائلیں تیار کرنا، ویو پورٹس کے ساتھ کاغذی لے آؤٹ، پرنٹ کرنا اور ڈرائنگز کا بیک اپ — سائٹ کی تمام 25 زبانوں میں ترجمہ شدہ',
+        'انگریزی صفحات پر زبان بدلنے کا مسئلہ حل کیا گیا: ڈراپ ڈاؤن میں زبان محفوظ ہونے پر، رازداری اور تعارف جیسے صفحات اب صرف نیویگیشن لیبلز کا ترجمہ شدہ انگریزی صفحہ دکھانے کی بجائے مکمل ترجمہ شدہ ورژن پر ری ڈائریکٹ ہوتے ہیں',
+        '20 سے زیادہ زبانوں میں بہت لمبے صفحے کے عنوانات (ہوم پیج اور تعارف صفحہ) مختصر کیے گئے تاکہ وہ سرچ نتائج میں مکمل طور پر دکھائی دیں',
+      ],
+    },
+    {
       title: 'رازداری کی پالیسی، تعارف کا صفحہ اور GDPR کے مطابق کوکی رضامندی بینر',
       highlights: [
         'نیا رازداری کی پالیسی صفحہ بتاتا ہے کہ KulmanLab کون سا ڈیٹا جمع کرتا ہے — صرف مقامی طور پر محفوظ ڈرائنگز، Google Analytics، اور Google AdSense کے ذریعے ایپ میں آنے والے اشتہارات — سائٹ کی تمام 25 زبانوں میں ترجمہ شدہ',
@@ -5648,6 +5839,15 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
 
   el: [
     {
+      title: 'Οδηγοί (25 γλώσσες) και βελτιώσεις προσαρμοστικής πλοήγησης',
+      highlights: [
+        'Οι οδηγοί και η κεφαλίδα του ιστότοπου εμφανίζονται πλέον καθαρά σε κινητά και tablet — το μενού κινητού περιλαμβάνει τον νέο σύνδεσμο Οδηγοί δίπλα στα Τεκμηρίωση, Ιστορικό αλλαγών και Συχνές ερωτήσεις',
+        'Νέα σελίδα οδηγών με 9 οδηγούς βήμα-βήμα — άνοιγμα αρχείων DXF, σχεδίαση με ακριβείς διαστάσεις, οργάνωση επιπέδων, διαστασιολόγηση, μέτρηση απόστασης/γωνίας/εμβαδού, προετοιμασία αρχείων για κοπή λέιζερ ή CNC, διατάξεις χαρτιού με viewports, εκτύπωση και αντίγραφα ασφαλείας σχεδίων — μεταφρασμένη και στις 25 γλώσσες του ιστότοπου',
+        'Διορθώθηκε η εναλλαγή γλώσσας σε αγγλικές σελίδες: με αποθηκευμένη γλώσσα στο αναπτυσσόμενο μενού, σελίδες όπως Απόρρητο και Σχετικά ανακατευθύνουν πλέον στην πλήρως μεταφρασμένη έκδοση αντί να παραμένουν στα αγγλικά με μόνο τις ετικέτες πλοήγησης μεταφρασμένες',
+        'Συντομεύτηκαν υπερβολικά μεγάλοι τίτλοι σελίδων (αρχική και Σχετικά) σε πάνω από 20 γλώσσες ώστε να εμφανίζονται πλήρως στα αποτελέσματα αναζήτησης',
+      ],
+    },
+    {
       title: 'Πολιτική απορρήτου, σελίδα Σχετικά και banner συγκατάθεσης συμβατό με GDPR',
       highlights: [
         'Νέα σελίδα Πολιτικής Απορρήτου εξηγεί ποια δεδομένα συλλέγει το KulmanLab — σχέδια αποθηκευμένα μόνο τοπικά, Google Analytics και οι διαφημίσεις που έρχονται στην εφαρμογή μέσω του Google AdSense — μεταφρασμένη και στις 25 γλώσσες του ιστότοπου',
@@ -5680,6 +5880,15 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     { title: 'Αναβάθμιση Angular, τεκμηρίωση & προσαρμοστικό πλέγμα', highlights: ['Αναβάθμιση Angular 19 → 20 → 21', 'Πλήρης ιστότοπος τεκμηρίωσης εντολών', 'Προσαρμοστικό πλέγμα CAD', 'Πίνακας ιστορικού (Αναίρεση / Ιστορικό / Επανάληψη)'] },
   ],
   pa: [
+    {
+      title: 'ਗਾਈਡਾਂ (25 ਭਾਸ਼ਾਵਾਂ) ਅਤੇ ਰਿਸਪੌਂਸਿਵ ਨੇਵੀਗੇਸ਼ਨ ਸੁਧਾਰ',
+      highlights: [
+        'ਗਾਈਡਾਂ ਅਤੇ ਸਾਈਟ ਦਾ ਹੈਡਰ ਹੁਣ ਫੋਨ ਅਤੇ ਟੈਬਲੇਟ ਤੇ ਸਾਫ਼-ਸੁਥਰੇ ਦਿਖਦੇ ਹਨ — ਮੋਬਾਈਲ ਮੀਨੂ ਵਿੱਚ ਡੌਕਸ, ਚੇਂਜਲੌਗ ਅਤੇ ਅਕਸਰ ਪੁੱਛੇ ਸਵਾਲਾਂ ਦੇ ਨਾਲ ਨਵਾਂ ਗਾਈਡ ਲਿੰਕ ਵੀ ਸ਼ਾਮਲ ਹੈ',
+        '9 ਕਦਮ-ਦਰ-ਕਦਮ ਗਾਈਡਾਂ ਵਾਲਾ ਨਵਾਂ ਗਾਈਡ ਪੰਨਾ — DXF ਫਾਈਲਾਂ ਖੋਲ੍ਹਣਾ, ਸਟੀਕ ਮਾਪਾਂ ਨਾਲ ਚਿੱਤਰਕਾਰੀ, ਲੇਅਰਾਂ ਸੰਗਠਿਤ ਕਰਨਾ, ਡਾਇਮੈਨਸ਼ਨ ਜੋੜਨਾ, ਦੂਰੀ/ਕੋਣ/ਖੇਤਰਫਲ ਮਾਪਣਾ, ਲੇਜ਼ਰ ਕਟਿੰਗ ਜਾਂ CNC ਲਈ ਫਾਈਲਾਂ ਤਿਆਰ ਕਰਨਾ, ਵਿਊਪੋਰਟਾਂ ਨਾਲ ਕਾਗਜ਼ੀ ਲੇਆਉਟ, ਪ੍ਰਿੰਟ ਕਰਨਾ ਅਤੇ ਡਰਾਇੰਗਾਂ ਦਾ ਬੈਕਅੱਪ — ਸਾਈਟ ਦੀਆਂ ਸਾਰੀਆਂ 25 ਭਾਸ਼ਾਵਾਂ ਵਿੱਚ ਅਨੁਵਾਦਿਤ',
+        'ਅੰਗਰੇਜ਼ੀ ਪੰਨਿਆਂ ਤੇ ਭਾਸ਼ਾ ਬਦਲਣ ਦੀ ਸਮੱਸਿਆ ਠੀਕ ਕੀਤੀ ਗਈ: ਡ੍ਰੌਪਡਾਊਨ ਵਿੱਚ ਭਾਸ਼ਾ ਸੰਭਾਲੀ ਹੋਣ ਤੇ, ਪਰਦੇਦਾਰੀ ਅਤੇ ਬਾਰੇ ਵਰਗੇ ਪੰਨੇ ਹੁਣ ਸਿਰਫ਼ ਨੇਵੀਗੇਸ਼ਨ ਲੇਬਲ ਅਨੁਵਾਦਿਤ ਅੰਗਰੇਜ਼ੀ ਪੰਨੇ ਤੇ ਰਹਿਣ ਦੀ ਬਜਾਏ ਪੂਰੀ ਤਰ੍ਹਾਂ ਅਨੁਵਾਦਿਤ ਵਰਜ਼ਨ ਤੇ ਰੀਡਾਇਰੈਕਟ ਹੁੰਦੇ ਹਨ',
+        '20 ਤੋਂ ਵੱਧ ਭਾਸ਼ਾਵਾਂ ਵਿੱਚ ਬਹੁਤ ਲੰਬੇ ਪੰਨਾ ਸਿਰਲੇਖ (ਹੋਮਪੇਜ ਅਤੇ ਬਾਰੇ ਪੰਨਾ) ਛੋਟੇ ਕੀਤੇ ਗਏ ਤਾਂ ਜੋ ਉਹ ਖੋਜ ਨਤੀਜਿਆਂ ਵਿੱਚ ਪੂਰੀ ਤਰ੍ਹਾਂ ਦਿਖਾਈ ਦੇਣ',
+      ],
+    },
     {
       title: 'ਪਰਦੇਦਾਰੀ ਨੀਤੀ, ਬਾਰੇ ਪੰਨਾ ਅਤੇ GDPR-ਅਨੁਕੂਲ ਕੂਕੀ ਸਹਿਮਤੀ ਬੈਨਰ',
       highlights: [
@@ -5957,6 +6166,15 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   sv: [
     {
+      title: 'Guider (25 språk) och förbättringar av responsiv navigering',
+      highlights: [
+        'Guiderna och webbplatsens sidhuvud visas nu snyggt på mobiler och surfplattor — mobilmenyn innehåller den nya Guider-länken bredvid Dokumentation, Ändringslogg och Vanliga frågor',
+        'Ny guidesida med 9 steg-för-steg-guider — öppna DXF-filer, rita med exakta mått, organisera lager, måttsätta, mäta avstånd/vinkel/area, förbereda filer för laserskärning eller CNC, papperslayouter med vyfönster, skriva ut och säkerhetskopiera ritningar — översatt till alla 25 webbplatsspråk',
+        'Åtgärdat språkbyte på engelska sidor: med ett sparat språk i rullgardinsmenyn omdirigerar sidor som Integritet och Om nu till den fullt översatta versionen istället för att stanna kvar på engelska med bara navigeringsetiketterna översatta',
+        'Förkortade alltför långa sidtitlar (startsida och Om-sida) på över 20 språk så att de visas i sin helhet i sökresultat',
+      ],
+    },
+    {
       title: 'Integritetspolicy, Om-sida och GDPR-anpassad cookie-banner',
       highlights: [
         'Ny sida med integritetspolicy förklarar vilka data KulmanLab samlar in — ritningar lagras endast lokalt, Google Analytics och den kommande reklamen i appen via Google AdSense — översatt till alla 25 webbplatsspråk',
@@ -6232,6 +6450,15 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   tl: [
+    {
+      title: 'Mga Gabay (25 wika) at pagpapabuti sa responsive na navigation',
+      highlights: [
+        'Malinaw na ngayong ipinapakita ang mga gabay at header ng site sa mga telepono at tablet — kasama na ngayon sa mobile menu ang bagong link na Mga Gabay katabi ng Docs, Changelog, at FAQ',
+        'Bagong pahina ng Mga Gabay na may 9 na step-by-step na gabay — pagbubukas ng DXF file, pagguhit nang may eksaktong sukat, pag-aayos ng layer, pagdaragdag ng dimensyon, pagsukat ng distansya/anggulo/area, paghahanda ng file para sa laser cutting o CNC, pag-set up ng paper layout na may viewport, pag-print, at pag-backup ng mga drawing — isinalin sa lahat ng 25 wika ng site',
+        'Naayos ang pagpapalit ng wika sa mga pahinang Ingles: kapag may naka-save na wika sa dropdown, ang mga pahina tulad ng Privacy at Tungkol ay ngayon nagre-redirect sa buong isinaling bersyon sa halip na manatiling Ingles na naisalin lang ang mga label ng navigation',
+        'Pinaikli ang masyadong mahahabang pamagat ng pahina (homepage at pahinang Tungkol) sa mahigit 20 wika para lumabas nang buo sa mga resulta ng paghahanap',
+      ],
+    },
     {
       title: 'Patakaran sa privacy, pahinang Tungkol, at GDPR-compliant na consent banner',
       highlights: [
