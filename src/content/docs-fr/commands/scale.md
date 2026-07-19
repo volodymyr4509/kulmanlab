@@ -1,5 +1,5 @@
 ---
-title: Commande Scale — Redimensionner des entités uniformément autour d'un point de base dans KulmanLab CAD
+title: Scale — Redimensionner des entités autour d'un point de base
 description: La commande Scale redimensionne les entités sélectionnées uniformément par un facteur saisi autour d'un point de base fixe. Le facteur est toujours saisi au clavier — il n'y a pas de mise à l'échelle par clic. Un facteur supérieur à 1 agrandit ; inférieur à 1 réduit. Tous les types d'entités sont supportés.
 keywords: [commande scale CAO, redimensionner entités CAO, mise à l'échelle objets CAO, scale uniforme CAO, facteur d'échelle CAO, agrandir réduire CAO, kulmanlab]
 group: edit

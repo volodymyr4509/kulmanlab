@@ -1,5 +1,5 @@
 ---
-title: Commande Leader+ — Ajouter un bras de pointe de flèche à un multirépère existant dans KulmanLab CAD
+title: Leader+ — Ajouter un bras de flèche à un multirépère existant
 description: La commande Leader+ ajoute un nouveau bras de pointe de flèche à un multirépère existant. Le nouveau bras partage la brisure, le texte et tout le style du répère sélectionné. Deux clics — sélectionner le répère, placer la nouvelle pointe.
 keywords: [ajouter bras répère CAO, commande leader+, ajouter flèche répère, bras multirépère, kulmanlab]
 group: markup

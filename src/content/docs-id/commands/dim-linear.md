@@ -1,5 +1,5 @@
 ---
-title: Perintah Dimension Linear — Dimensi Horizontal dan Vertikal di KulmanLab CAD
+title: Perintah Dimension Linear — Dimensi Horizontal dan Vertikal
 description: Perintah Dimension Linear mengukur jarak horizontal atau vertikal antara dua titik. Garis dimensi selalu sejajar sumbu — tekan H atau V untuk mengunci orientasi, atau biarkan posisi kursor yang memutuskan secara otomatis. Dukungan penuh DXF sebagai entitas DIMENSION.
 keywords: [dimensi linear CAD, dimensi horizontal CAD, dimensi vertikal CAD, dimlinear, kunci orientasi H V, offset dimensi, kulmanlab]
 group: markup

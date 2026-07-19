@@ -1,5 +1,5 @@
 ---
-title: Polecenie Leader — Rysowanie adnotacji linii wielokierunkowej z grotem i tekstem w KulmanLab CAD
+title: Leader — Adnotacja linii wielokierunkowej z grotem i tekstem
 description: "Polecenie Leader rysuje czterofazową adnotację linii wielokierunkowej: grot strzałki, dogleg, pozycja tekstu i wpisana etykieta. Kierunek tekstu dostosowuje się automatycznie na podstawie pozycji doglegs. Tylko import w DXF — linie prowadzące nie są zapisywane przy zapisywaniu."
 keywords: [polecenie linii prowadzącej CAD, adnotacja linii wielokierunkowej, linia prowadząca CAD, adnotacja ze strzałką i etykietą, dogleg linii prowadzącej, kierunek tekstu CAD, kulmanlab]
 group: markup

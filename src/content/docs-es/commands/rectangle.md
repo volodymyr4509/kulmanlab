@@ -1,5 +1,5 @@
 ---
-title: Comando Rectangle — Dibujar Rectángulos con Ejes Alineados en KulmanLab CAD
+title: Comando Rectangle — Dibujar Rectángulos con Ejes Alineados
 description: El comando Rectangle crea un rectángulo con ejes alineados a partir de dos esquinas opuestas. El resultado es una LWPOLYLINE cerrada con cuatro vértices — idéntica a cualquier otra polilínea una vez colocada, por lo que todos los comandos de edición de polilíneas se aplican a ella.
 keywords: [comando rectangle CAD, dibujar rectángulo CAD, rectángulo alineado a ejes, polilínea cerrada CAD, LWPOLYLINE DXF, edición de agarres de rectángulo, kulmanlab]
 group: shapes

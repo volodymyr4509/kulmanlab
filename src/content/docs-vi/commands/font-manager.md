@@ -1,5 +1,5 @@
 ---
-title: Lệnh Font Manager — Tải Lên và Quản Lý Phông Chữ TTF Tùy Chỉnh trong KulmanLab CAD
+title: Lệnh Font Manager — Tải Lên và Quản Lý Phông Chữ TTF Tùy Chỉnh
 description: Lệnh Font Manager mở hộp thoại để duyệt, xem trước và chọn phông chữ, cũng như tải lên tệp .ttf của riêng bạn. Phông chữ đã tải lên được lưu trong trình duyệt và được nhúng theo tên trong các bản xuất DXF.
 group: style
 order: 2

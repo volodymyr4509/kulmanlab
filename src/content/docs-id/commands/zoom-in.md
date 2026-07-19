@@ -1,5 +1,5 @@
 ---
-title: "Perintah Zoom In — Memperbesar Viewport sebesar 1.5× per Langkah di KulmanLab CAD"
+title: "Perintah Zoom In — Memperbesar Viewport sebesar 1.5× per Langkah"
 description: "Perintah Zoom In mengalikan tingkat zoom saat ini sebesar 1.5× dan langsung keluar. Dipusatkan pada titik tengah viewport. Rentang zoom 0.01–10.000. Gunakan roda gulir untuk zoom ke arah kursor sebagai gantinya."
 keywords: [CAD zoom in, memperbesar viewport, perintah zoom CAD, langkah zoom 1.5x, kulmanlab]
 group: navigate

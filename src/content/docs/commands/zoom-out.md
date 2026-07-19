@@ -1,5 +1,5 @@
 ---
-title: "Zoom Out Command — Reduce the Viewport Zoom by 1.5× Per Step in KulmanLab CAD"
+title: "Zoom Out Command — Reduce the Viewport Zoom by 1.5× Per Step"
 description: "The Zoom Out command divides the current zoom level by 1.5× and exits immediately. Centered on the viewport midpoint. Use the scroll wheel to zoom out toward the cursor for finer control."
 keywords: [CAD zoom out, reduce viewport zoom, zoom out command, overview CAD, 1.5x zoom step, kulmanlab]
 group: navigate

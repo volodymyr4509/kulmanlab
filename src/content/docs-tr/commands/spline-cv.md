@@ -1,5 +1,5 @@
 ---
-title: Spline CV Komutu — KulmanLab CAD'de Kontrol Noktaları Yerleştirerek B-Spline Çiz
+title: Spline CV Komutu — Kontrol Noktaları Yerleştirerek B-Spline Çiz
 description: Spline CV komutu, kontrol noktaları yerleştirerek kübik B-spline çizer. Eğri köşelere doğru çekilir, ancak yalnızca birinci ve sonuncusundan geçer (sıkıştırılmış düğümler). Her CV tutamacı yerleştirme sonrasında eğriyi yeniden şekillendirmek için sürüklenebilir. DXF'de SPLINE nesneleri olarak tam round-trip.
 keywords: [CAD spline komutu, B-spline kontrol noktaları, sıkıştırılmış spline CAD, spline çiz CAD, SPLINE DXF nesnesi, spline tutamaç düzenleme, kulmanlab]
 group: shapes

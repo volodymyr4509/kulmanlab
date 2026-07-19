@@ -1,5 +1,5 @@
 ---
-title: Befehl Leader — Mehrfachführungslinien-Anmerkungen mit Pfeilspitze und Text in KulmanLab CAD zeichnen
+title: Leader — Mehrfachführungslinie mit Pfeilspitze und Text zeichnen
 description: "Der Befehl leader zeichnet eine vierphasige Mehrfachführungslinien-Anmerkung: Pfeilspitze, Knickpunkt, Textposition und getippte Beschriftung. Die Textausrichtung passt sich automatisch basierend auf der Knickposition an. Nur Import in DXF — Führungslinien werden beim Speichern nicht geschrieben."
 keywords: [CAD leader Befehl, Mehrfachführungslinie Anmerkung, Führungslinie CAD, Pfeil Beschriftung Anmerkung, Knick Führungslinie, Textausrichtung CAD, kulmanlab]
 group: markup

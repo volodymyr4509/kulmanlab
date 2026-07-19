@@ -1,5 +1,5 @@
 ---
-title: Polyline Command — Draw Multi-Segment Paths as a Single Entity in KulmanLab CAD
+title: Polyline Command — Draw Multi-Segment Paths as a Single Entity
 description: The Polyline command draws any number of connected segments stored as one LWPOLYLINE entity. Vertex and segment-midpoint grips let you reshape any part of the path after creation. Supports offset; does not support trim or extend.
 keywords: [CAD polyline command, draw polyline CAD, multi-segment path CAD, LWPOLYLINE DXF, reshape polyline, vertex grip CAD, offset polyline, kulmanlab]
 group: shapes

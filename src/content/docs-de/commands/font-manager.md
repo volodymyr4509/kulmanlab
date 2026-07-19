@@ -1,5 +1,5 @@
 ---
-title: Font Manager-Befehl — Eigene TTF-Schriftarten in KulmanLab CAD hochladen und verwalten
+title: Font Manager — Eigene TTF-Schriftarten hochladen und verwalten
 description: Der Befehl Font Manager öffnet einen Dialog zum Durchsuchen, Vorschauen und Auswählen von Schriftarten sowie zum Hochladen eigener .ttf-Dateien. Hochgeladene Schriftarten werden im Browser gespeichert und in DXF-Exporten namentlich eingebettet.
 keywords: [font manager, eigene Schriftart CAD, TTF hochladen, benutzerdefinierte Schriftart CAD, google fonts CAD, Textschriftart CAD, kulmanlab]
 group: style

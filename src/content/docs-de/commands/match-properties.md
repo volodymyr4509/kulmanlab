@@ -1,5 +1,5 @@
 ---
-title: Eigenschaften übertragen — Entitätseigenschaften in KulmanLab CAD kopieren
+title: Eigenschaften übertragen — Entitätseigenschaften kopieren
 description: Der Befehl MatchProperties kopiert Farbe, Layer und andere gemeinsame Eigenschaften von einer Quellentität auf eine oder mehrere Zielentitäten. Überträgt Eigenschaften genauso wie Desktop-CAD-Werkzeuge.
 keywords: [Eigenschaften übertragen CAD, Entitätseigenschaften kopieren, MATCHPROP, Layer Farbe angleichen, Eigenschaften übertragen, kulmanlab Eigenschaften übertragen, Eigenschaften malen, Layer kopieren CAD]
 group: style

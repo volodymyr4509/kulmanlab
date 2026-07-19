@@ -1,5 +1,5 @@
 ---
-title: Comando ViewportRectangle — Creare una Finestra di Visualizzazione in un Layout in KulmanLab CAD
+title: ViewportRectangle — Creare una Finestra di Visualizzazione
 description: Il comando ViewportRectangle crea una finestra di visualizzazione in un layout carta selezionando due angoli opposti. La finestra mostra le entità dello spazio modello alla scala predefinita del layout.
 keywords: [viewport rectangle, crea viewport, viewport layout, viewport spazio carta, kulmanlab]
 group: layouts

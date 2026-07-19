@@ -1,5 +1,5 @@
 ---
-title: LayerMakeCurrent — ตั้งค่าเลเยอร์ของวัตถุเป็นเลเยอร์ปัจจุบันใน KulmanLab CAD
+title: LayerMakeCurrent — ตั้งค่าเลเยอร์ของวัตถุเป็นเลเยอร์ปัจจุบัน
 description: คำสั่ง LayerMakeCurrent ตั้งค่าเลเยอร์การวาดปัจจุบันให้ตรงกับเลเยอร์ของวัตถุที่คลิก
 keywords: [layer make current, ตั้งค่าเลเยอร์ปัจจุบัน CAD, kulmanlab layer management]
 group: layer

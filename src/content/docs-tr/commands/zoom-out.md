@@ -1,5 +1,5 @@
 ---
-title: "Zoom Out Komutu — KulmanLab CAD'de Görünüm Penceresi Yakınlaştırmasını Adım Başına 1,5× Azalt"
+title: "Zoom Out — Görünüm Penceresini Adım Başına 1,5× Uzaklaştır"
 description: "Zoom Out komutu, mevcut yakınlaştırma seviyesini 1,5× böler ve hemen çıkar. Görünüm penceresi orta noktasına göre ortalanır. Daha iyi kontrol için imlece doğru uzaklaştırmak üzere kaydırma tekerleğini kullanın."
 keywords: [CAD zoom out, görünüm yakınlaştırmasını azalt, uzaklaştır komutu, genel bakış CAD, "1,5x yakınlaştırma adımı", kulmanlab]
 group: navigate

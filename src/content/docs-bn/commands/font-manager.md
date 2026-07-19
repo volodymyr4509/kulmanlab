@@ -1,5 +1,5 @@
 ---
-title: "Font Manager কমান্ড — KulmanLab CAD-এ কাস্টম TTF ফন্ট আপলোড ও পরিচালনা"
+title: "Font Manager কমান্ড — কাস্টম TTF ফন্ট আপলোড ও পরিচালনা"
 description: "Font Manager কমান্ড ফন্ট ব্রাউজ, প্রিভিউ এবং নির্বাচন করার জন্য এবং আপনার নিজের .ttf ফাইল আপলোড করার জন্য একটি ডায়ালগ খোলে। আপলোড করা ফন্টগুলি ব্রাউজারে সংরক্ষিত হয় এবং DXF এক্সপোর্টে নাম অনুসারে এমবেড করা হয়।"
 keywords: [font manager, কাস্টম ফন্ট CAD, ttf আপলোড, কাস্টম টাইপফেস CAD, google fonts CAD, টেক্সট ফন্ট CAD, kulmanlab]
 group: style

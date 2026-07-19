@@ -1,5 +1,5 @@
 ---
-title: "Redo ਕਮਾਂਡ — KulmanLab CAD ਵਿੱਚ ਅਨਡੂ ਕੀਤੀਆਂ ਕਾਰਵਾਈਆਂ ਦੁਬਾਰਾ ਲਾਗੂ ਕਰੋ"
+title: "Redo ਕਮਾਂਡ — ਅਨਡੂ ਕੀਤੀਆਂ ਕਾਰਵਾਈਆਂ ਦੁਬਾਰਾ ਲਾਗੂ ਕਰੋ"
 description: "Redo ਕਮਾਂਡ Undo ਦੁਆਰਾ ਉਲਟਾਈ ਗਈ ਆਖਰੀ ਕਾਰਵਾਈ ਨੂੰ ਦੁਬਾਰਾ ਲਾਗੂ ਕਰਦੀ ਹੈ, ਹਿਸਟਰੀ ਸਟੈਕ ਰਾਹੀਂ ਅੱਗੇ ਵਧਦੀ ਹੈ। Redo ਸਿਰਫ਼ Undo ਤੋਂ ਬਾਅਦ ਉਪਲਬਧ ਹੈ ਅਤੇ ਜਿਵੇਂ ਹੀ ਕੋਈ ਨਵੀਂ ਡਰਾਇੰਗ ਕਾਰਵਾਈ ਕੀਤੀ ਜਾਂਦੀ ਹੈ ਸਾਫ਼ ਹੋ ਜਾਂਦੀ ਹੈ।"
 keywords: [CAD redo command, redo history CAD, reapply action CAD, undo redo CAD, browser persistent redo, kulmanlab]
 group: edit

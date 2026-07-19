@@ -1,5 +1,5 @@
 ---
-title: "Perintah Zoom Out — Mengurangi Zoom Viewport sebesar 1.5× per Langkah di KulmanLab CAD"
+title: "Zoom Out — Mengurangi Zoom Viewport sebesar 1.5× per Langkah"
 description: "Perintah Zoom Out membagi tingkat zoom saat ini sebesar 1.5× dan langsung keluar. Dipusatkan pada titik tengah viewport. Gunakan roda gulir untuk zoom out ke arah kursor untuk kontrol yang lebih halus."
 keywords: [CAD zoom out, mengurangi zoom viewport, perintah zoom out, gambaran umum CAD, langkah zoom 1.5x, kulmanlab]
 group: navigate

@@ -1,5 +1,5 @@
 ---
-title: "Comando Leader− — Eliminar un brazo de punta de flecha de una multireferencia en KulmanLab CAD"
+title: "Leader− — Eliminar un brazo de flecha de una multireferencia"
 description: "El comando Leader− elimina un brazo de punta de flecha de una multireferencia que tiene dos o más. Sitúa el cursor cerca del brazo a eliminar — el brazo más cercano se resalta. El quiebre, el texto y los brazos restantes se conservan."
 keywords: [eliminar brazo de referencia CAD, comando leader-, eliminar flecha de referencia, eliminar brazo de multireferencia, kulmanlab]
 group: markup

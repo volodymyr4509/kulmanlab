@@ -1,5 +1,5 @@
 ---
-title: Spline Fit-kommandot — Rita interpolerande splines genom klickade punkter i KulmanLab CAD
+title: Spline Fit — Rita interpolerande splines genom klickade punkter
 description: Spline Fit-kommandot ritar en kubisk spline som passerar exakt genom varje klickad punkt. Internt lagras kurvan med både fitpunkter och beräknade styrpunkter. Att dra ett fitpunktsgrepp interpolerar om hela kurvan. Fullständig DXF-rundtur som SPLINE-entiteter.
 keywords: [CAD spline fit-kommando, interpolerande spline CAD, spline genom punkter, rita mjuk kurva CAD, SPLINE DXF-fitpunkter, redigera splinegrepp, kulmanlab]
 group: shapes

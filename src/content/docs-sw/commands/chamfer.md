@@ -1,5 +1,5 @@
 ---
-title: "Amri ya Chamfer — Kata Kona ya Moja kwa Moja Kati ya Mistari Miwili katika KulmanLab CAD"
+title: "Chamfer — Kata Kona ya Moja kwa Moja Kati ya Mistari Miwili"
 description: "Amri ya Chamfer inaunganisha vipengele viwili vya Line au Polyline kwa mkato wa diagonal wa moja kwa moja. Unabainisha umbali mbili — moja kando ya kila kipengele — na amri inakata vyote viwili hadi pointi hizo na kuingiza mstari wa kuunganisha."
 keywords: [amri ya chamfer ya CAD, chamfer ya mstari CAD, mkato wa kona ya diagonal, kona ya bevel CAD, kulmanlab]
 group: edit

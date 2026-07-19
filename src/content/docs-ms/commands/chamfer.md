@@ -1,5 +1,5 @@
 ---
-title: Arahan Chamfer — Potong Sudut Lurus antara Dua Garis dalam KulmanLab CAD
+title: Arahan Chamfer — Potong Sudut Lurus antara Dua Garis
 description: Arahan Chamfer menghubungkan dua entiti Line atau Polyline dengan potongan pepenjuru lurus. Anda menentukan dua jarak — satu sepanjang setiap entiti — dan arahan memotong kedua-duanya kembali ke titik-titik tersebut dan memasukkan garis penyambung.
 keywords: [arahan chamfer CAD, chamfer garis CAD, potongan sudut pepenjuru, sudut bevel CAD, kulmanlab]
 group: edit

@@ -1,5 +1,5 @@
 ---
-title: "Spline CV Command — Draw B-Splines by Placing Control Vertices in KulmanLab CAD"
+title: "Spline CV Command — Draw B-Splines by Placing Control Vertices"
 description: "Amri ya Spline CV inachora B-spline ya cubic kwa kuweka ncha za udhibiti. Mkunjo huvutiwa kuelekea ncha lakini hupita tu katika ya kwanza na ya mwisho (vifundo vilivyofungwa). Kila kishiko cha CV kinaweza kuburuzwa kubadilisha mkunjo baada ya kuwekwa. Safari kamili ya DXF kama vipande vya SPLINE."
 keywords: [CAD spline command, B-spline control vertices, clamped spline CAD, draw spline CAD, SPLINE DXF entity, spline grip editing, kulmanlab]
 group: shapes

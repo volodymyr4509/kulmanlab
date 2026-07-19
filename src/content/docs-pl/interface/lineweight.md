@@ -1,5 +1,5 @@
 ---
-title: Selektor grubości linii — Kontrolowanie szerokości pociągnięcia w KulmanLab CAD
+title: Selektor grubości linii — Kontrolowanie szerokości pociągnięcia
 description: Selektor grubości linii na pasku narzędzi KulmanLab CAD ustawia szerokość pociągnięcia stosowaną do wszystkich nowo rysowanych elementów. Obsługuje standardowe wartości grubości linii DXF od 0,00 mm do 2,11 mm oraz tryby ByLayer i Domyślny.
 keywords: [grubość linii CAD, szerokość pociągnięcia, szerokość linii, grubość linii DXF, grubość linii ByLayer, kulmanlab]
 group: interface

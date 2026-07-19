@@ -1,5 +1,5 @@
 ---
-title: "Delete-kommandot — Ta bort entiteter från ritningen i KulmanLab CAD"
+title: "Delete-kommandot — Ta bort entiteter från ritningen"
 description: "Delete-kommandot tar bort valda entiteter permanent (kan ångras). Förvalda entiteter tas bort direkt utan bekräftelsesteg. Delete-tangenten fungerar som en global genväg även utan att aktivera kommandot. Stöder enkelklick och områdesval."
 keywords: [CAD delete-kommando, ta bort entiteter CAD, radera objekt CAD, delete-tangent CAD, ångra borttagning CAD, kulmanlab]
 group: edit

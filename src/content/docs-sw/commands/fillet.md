@@ -1,5 +1,5 @@
 ---
-title: Amri ya Fillet — Pinda Pembe Kati ya Mistari Miwili katika KulmanLab CAD
+title: Amri ya Fillet — Pinda Pembe Kati ya Mistari Miwili
 description: "Amri ya Fillet inaunganisha viumbe viwili vya Line kwa upinde wa tangent wa radi iliyobainishwa, ikipunguza kila mstari hadi sehemu ya tangent. Onyesho la upinde wa nukta ya mstari linakusaidia kuchagua pembe sahihi kabla ya kubonyeza."
 keywords: [CAD fillet command, round corner CAD, fillet arc, tangent arc two lines, kulmanlab]
 group: edit

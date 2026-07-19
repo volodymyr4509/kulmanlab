@@ -1,5 +1,5 @@
 ---
-title: Amri ya Dimension Aligned — Vipimo vya Umbali wa Kweli kwa Pembe Yoyote katika KulmanLab CAD
+title: Dimension Aligned — Vipimo vya Umbali wa Kweli kwa Pembe Yoyote
 description: "Amri ya Dimension Aligned hupima umbali wa kweli wa mstari ulionyoofu kati ya pointi mbili. Mstari wa kipimo hufanana na mstari wa p1→p2 kwa pembe yoyote — tofauti na Dimension Linear ambayo iko mdogo kwa usawa au wima. Inasaidiana kikamilifu na DXF kama vipengele vya DIMENSION."
 keywords: [CAD dimension aligned, dimaligned, diagonal dimension CAD, true distance dimension, angled dimension CAD, kulmanlab]
 group: markup

@@ -1,5 +1,5 @@
 ---
-title: Εντολή ViewportRectangle — Δημιουργία Viewport σε Layout στο KulmanLab CAD
+title: Εντολή ViewportRectangle — Δημιουργία Viewport σε Layout
 description: Η εντολή ViewportRectangle δημιουργεί viewport σε layout χαρτιού επιλέγοντας δύο απέναντι γωνίες. Το viewport εμφανίζει τις οντότητες χώρου μοντέλου στην προεπιλεγμένη κλίμακα του layout.
 keywords: [viewport rectangle, δημιουργία viewport, viewport layout, viewport χώρος χαρτιού, kulmanlab]
 group: layouts

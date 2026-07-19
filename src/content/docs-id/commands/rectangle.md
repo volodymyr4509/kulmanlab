@@ -1,5 +1,5 @@
 ---
-title: Perintah Rectangle — Menggambar Persegi Panjang Sejajar Sumbu di KulmanLab CAD
+title: Perintah Rectangle — Menggambar Persegi Panjang Sejajar Sumbu
 description: Perintah Rectangle membuat persegi panjang sejajar sumbu dari dua sudut yang berlawanan. Hasilnya adalah LWPOLYLINE tertutup dengan empat vertex — identik dengan polyline lain setelah ditempatkan, sehingga setiap perintah edit polyline berlaku padanya.
 keywords: [perintah persegi panjang CAD, menggambar persegi panjang CAD, persegi panjang sejajar sumbu, polyline tertutup CAD, DXF LWPOLYLINE, pengeditan grip persegi panjang, kulmanlab]
 group: shapes

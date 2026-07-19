@@ -1,5 +1,5 @@
 ---
-title: Polecenie Undo — Cofanie się przez historię rysowania w KulmanLab CAD
+title: Polecenie Undo — Cofanie się przez historię rysowania
 description: Polecenie Undo odwraca ostatnią akcję rysowania jeden krok na raz. Na plik przechowywanych jest do 20 kroków, które są utrwalane w przeglądarce między przeładowaniami stron. Wykonanie nowej akcji po cofnięciu czyści stos ponów.
 keywords: [polecenie cofnij CAD, historia cofnij CAD, cofanie akcji CAD, kroki cofnij CAD, trwałe cofnij w przeglądarce, kulmanlab]
 group: edit

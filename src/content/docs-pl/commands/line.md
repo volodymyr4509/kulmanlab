@@ -1,5 +1,5 @@
 ---
-title: Polecenie Line — Rysowanie, łączenie, przycinanie i przedłużanie linii w KulmanLab CAD
+title: Line — Rysowanie, łączenie, przycinanie i przedłużanie linii
 description: Polecenie Line rysuje pojedyncze prostoliniowe odcinki, które można łączyć koniec-do-końca. Linie są jedynym typem elementu, na którym działają Trim i Extend. Pełna obsługa zapisu i odczytu DXF jako elementy LINE.
 keywords: [polecenie linii CAD, rysowanie prostej linii CAD, łączenie segmentów linii, przycinanie linii CAD, przedłużanie linii CAD, blokowanie kąta CAD, element LINE DXF, kulmanlab]
 group: shapes

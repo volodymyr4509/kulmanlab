@@ -1,5 +1,5 @@
 ---
-title: "Arahan Zoom In — Besarkan Viewport sebanyak 1.5× Setiap Langkah dalam KulmanLab CAD"
+title: "Arahan Zoom In — Besarkan Viewport sebanyak 1.5× Setiap Langkah"
 description: "Arahan Zoom In mendarab paras zum semasa sebanyak 1.5× dan keluar serta-merta. Berpusat pada titik tengah viewport. Julat zum 0.01–10,000. Gunakan roda tatal untuk zum ke arah kursor sebaliknya."
 keywords: [CAD zum masuk, besarkan viewport, arahan zum CAD, langkah zum 1.5x, kulmanlab]
 group: navigate

@@ -1,5 +1,5 @@
 ---
-title: Spline CV Command — Draw B-Splines by Placing Control Vertices in KulmanLab CAD
+title: Spline CV Command — Draw B-Splines by Placing Control Vertices
 description: The Spline CV command draws a cubic B-spline by placing control vertices. The curve is attracted toward vertices but passes through only the first and last ones (clamped knots). Each CV grip can be dragged to reshape the curve after placement. Full DXF round-trip as SPLINE entities.
 keywords: [CAD spline command, B-spline control vertices, clamped spline CAD, draw spline CAD, SPLINE DXF entity, spline grip editing, kulmanlab]
 group: shapes

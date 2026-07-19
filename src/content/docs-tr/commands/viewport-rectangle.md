@@ -1,5 +1,5 @@
 ---
-title: ViewportRectangle Komutu — KulmanLab CAD'de Kağıt Yerleşiminde Görünüm Penceresi Oluştur
+title: ViewportRectangle — Kağıt Yerleşiminde Görünüm Penceresi Oluştur
 description: ViewportRectangle komutu, aktif kağıt yerleşiminde iki karşıt köşeyi tıklayarak dikdörtgen görünüm penceresi oluşturur. Koordinat girişini destekler. Oluşturduktan sonra tutamaçlarla düzenleyin — köşeler, kenarlar, merkez, ölçek ve kilit.
 keywords: [CAD viewport rectangle komutu, yerleşim görünüm penceresi CAD, kağıt yerleşimi CAD, kulmanlab]
 group: layouts

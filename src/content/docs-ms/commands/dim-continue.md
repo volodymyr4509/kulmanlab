@@ -1,5 +1,5 @@
 ---
-title: Arahan Dimension Continue — Rantai Dimensi dari Garis Asas Sedia Ada dalam KulmanLab CAD
+title: Dimension Continue — Rantai Dimensi dari Garis Asas Sedia Ada
 description: Arahan Dimension Continue memanjangkan rantai dimensi dari garis sambungan kedua dimensi terakhir yang diletakkan. Ia mewarisi sudut, offset, saiz anak panah, dan ketinggian teks dimensi asas secara automatik. Berfungsi dengan asas linear dan aligned.
 keywords: [CAD dimensi continue, dimcontinue, rantai dimensi CAD, dimensi garis asas, teruskan siri dimensi, kulmanlab]
 group: markup

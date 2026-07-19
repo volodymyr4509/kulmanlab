@@ -1,5 +1,5 @@
 ---
-title: Polecenie Pan — Nawigacja widokiem przez kliknięcie i przeciągnięcie w KulmanLab CAD
+title: Pan — Nawigacja widokiem przez kliknięcie i przeciągnięcie
 description: Polecenie Pan wchodzi w tryb stałego przeciągania-przewijania. Kliknij i przeciągnij w dowolnym miejscu na płótnie, aby przesunąć widok bez zmiany poziomu powiększenia. Przeciągnięcie środkowym przyciskiem myszy działa w dowolnym momencie bez aktywowania Panoramowania.
 keywords: [panoramowanie widoku CAD, polecenie pan, przeciąganie nawigacji, przewijanie płótna CAD, nawigacja widokiem, kulmanlab]
 group: navigate

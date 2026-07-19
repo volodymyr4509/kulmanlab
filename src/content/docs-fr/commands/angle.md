@@ -1,5 +1,5 @@
 ---
-title: Commande Angle — Mesurer l'Angle Intérieur à un Sommet en Utilisant Trois Points dans KulmanLab CAD
+title: Angle — Mesurer l'Angle Intérieur à un Sommet avec Trois Points
 description: La commande Angle mesure l'angle intérieur (0°–180°) à un sommet défini par trois points sélectionnés. Cliquez sur le premier extrémité, le sommet et le deuxième extrémité. Le résultat s'affiche dans le terminal avec 4 décimales.
 keywords: [mesure angle CAO, angle trois points, angle intérieur CAO, commande mesurer angle, angle sommet, kulmanlab]
 group: measure

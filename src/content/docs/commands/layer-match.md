@@ -1,5 +1,5 @@
 ---
-title: LayerMatch — Reassign Entity Layers to Match a Source in KulmanLab CAD
+title: LayerMatch — Reassign Entity Layers to Match a Source
 description: The LayerMatch command reassigns the layer of one or more target entities to match the layer of a source entity you click.
 keywords: [layer match, match layer CAD, reassign layer kulmanlab, CAD layer management]
 group: layer

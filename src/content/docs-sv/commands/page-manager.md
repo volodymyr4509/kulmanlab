@@ -1,5 +1,5 @@
 ---
-title: PageManager-kommandot — Redigera pappersstorlek och skala för layout i KulmanLab CAD
+title: PageManager — Redigera pappersstorlek och skala för layout
 description: PageManager-kommandot öppnar sidinställningspanelen för det aktiva layoutet, där du kan ändra pappersformat, orientering och ritningsenhetsskala.
 keywords: [sidhanterare, layoutinställningar, pappersstorlek, ritningsskala, layoututrymme, kulmanlab]
 group: layouts

@@ -1,5 +1,5 @@
 ---
-title: LayerMakeCurrent — Set an Entity's Layer as Current in KulmanLab CAD
+title: LayerMakeCurrent — Set an Entity's Layer as Current
 description: The LayerMakeCurrent command sets the current drawing layer to match the layer of a clicked entity.
 keywords: [layer make current, set current layer CAD, kulmanlab layer management]
 group: layer

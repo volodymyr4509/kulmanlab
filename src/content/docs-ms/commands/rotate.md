@@ -1,5 +1,5 @@
 ---
-title: Arahan Rotate — Putar Entiti di Sekitar Titik Asas dalam KulmanLab CAD
+title: Arahan Rotate — Putar Entiti di Sekitar Titik Asas
 description: Arahan Rotate memutar entiti yang dipilih di sekitar titik asas yang dipilih. Sudut boleh ditaip dengan tepat atau ditetapkan dengan mengklik — arah kursor dari titik asas ke klik menentukan sudut. Sudut positif adalah lawan arah jam dalam koordinat DXF.
 keywords: [arahan putar CAD, putar entiti CAD, putar objek sudut, putaran lawan arah jam CAD, sudut bertaip putar, kulmanlab]
 group: edit

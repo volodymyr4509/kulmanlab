@@ -1,5 +1,5 @@
 ---
-title: "Zoom In-Befehl — Ansicht um 1,5× pro Schritt vergrößern in KulmanLab CAD"
+title: "Zoom In-Befehl — Ansicht um 1,5× pro Schritt vergrößern"
 description: "Der Zoom In-Befehl multipliziert die aktuelle Zoomstufe mit 1,5× und beendet sich sofort. Zentriert auf den Viewport-Mittelpunkt. Zoom-Bereich 0,01–10.000. Verwenden Sie stattdessen das Scrollrad, um zum Cursor hin zu zoomen."
 keywords: [CAD Zoom In, Ansicht vergrößern, Zoom-Befehl CAD, "1,5×-Zoomschritt", kulmanlab]
 group: navigate

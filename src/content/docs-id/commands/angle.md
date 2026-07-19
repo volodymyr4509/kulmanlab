@@ -1,5 +1,5 @@
 ---
-title: Perintah Angle — Mengukur Sudut Interior pada Vertex Menggunakan Tiga Titik di KulmanLab CAD
+title: Angle — Mengukur Sudut Interior pada Vertex dengan Tiga Titik
 description: Perintah Angle mengukur sudut interior (0°–180°) pada vertex yang ditentukan oleh tiga titik yang diklik. Klik pertama-ujung, vertex, ujung-kedua. Hasil ditampilkan di terminal hingga 4 desimal.
 keywords: [pengukuran sudut CAD, sudut tiga titik, sudut interior CAD, perintah ukur sudut, sudut vertex, kulmanlab]
 group: measure

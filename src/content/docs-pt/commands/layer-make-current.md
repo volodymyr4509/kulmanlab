@@ -1,5 +1,5 @@
 ---
-title: LayerMakeCurrent — Definir a Camada de uma Entidade como Atual no KulmanLab CAD
+title: LayerMakeCurrent — Definir a Camada de uma Entidade como Atual
 description: O comando LayerMakeCurrent define a camada de desenho atual para corresponder à camada da entidade clicada.
 keywords: [layer make current, definir camada atual CAD, kulmanlab gerenciamento de camadas]
 group: layer

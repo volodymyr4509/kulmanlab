@@ -1,5 +1,5 @@
 ---
-title: Dimension Angular — KulmanLab CAD में रेखाओं, चाप और वृत्तों के बीच कोण मापें
+title: Dimension Angular — रेखाओं, चाप और वृत्तों के बीच कोण मापें
 description: DimensionAngular कमांड रेखाओं, चाप, या वृत्तों पर कोणीय माप एनोटेशन रखती है। दो-रेखा कोण, चाप विस्तार और वृत्त सेक्टर मोड का समर्थन करती है।
 keywords: [कोणीय माप CAD, कोण माप, रेखाओं के बीच कोण मापें, DimensionAngular, चाप माप, कोण एनोटेशन, CAD कोण मार्कअप, kulmanlab कोणीय माप]
 group: markup

@@ -1,5 +1,5 @@
 ---
-title: "Lineweight টুলবার পিকার — KulmanLab CAD-এ স্ট্রোক প্রস্থ নিয়ন্ত্রণ"
+title: "Lineweight টুলবার পিকার — স্ট্রোক প্রস্থ নিয়ন্ত্রণ"
 description: "KulmanLab CAD টুলবারের লাইনওয়েট পিকার সমস্ত নতুন আঁকা এন্টিটিতে প্রয়োগ করা স্ট্রোক প্রস্থ সেট করে। ByLayer এবং Default মোড সহ ০.০০ mm থেকে ২.১১ mm পর্যন্ত মানক DXF লাইনওয়েট মান সমর্থন করে।"
 keywords: [CAD লাইনওয়েট, স্ট্রোক প্রস্থ, লাইন প্রস্থ, DXF লাইনওয়েট, ByLayer লাইনওয়েট, kulmanlab]
 group: interface

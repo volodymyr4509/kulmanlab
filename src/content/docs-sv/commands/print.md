@@ -1,5 +1,5 @@
 ---
-title: Print-kommandot — Exportera ritningen som PNG, JPEG, WebP eller PDF i KulmanLab CAD
+title: Print — Exportera ritningen som PNG, JPEG, WebP eller PDF
 description: Print-kommandot öppnar Print Manager — ett dedikerat exportfönster med en direktuppdaterad förhandsgranskning, formatväljare, monokrom-växling och valfri områdesmarkering. Exporterar upp till 2000×2000 px. Stöder PNG, JPEG, WebP och PDF.
 keywords: [CAD exportera PNG, CAD exportera PDF, skriv ut CAD-ritning, print manager, monokrom export, kulmanlab export]
 group: file

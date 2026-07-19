@@ -1,5 +1,5 @@
 ---
-title: "Εντολή Dimension Diameter — Σήμανση Διαμέτρου Κύκλων και Τόξων στο KulmanLab CAD"
+title: "Εντολή Dimension Diameter — Σήμανση Διαμέτρου Κύκλων και Τόξων"
 description: "Η εντολή Dimension Diameter τοποθετεί διάσταση διαμέτρου (με πρόθεμα το σύμβολο διαμέτρου) σε τόξο ή κύκλο μέσα από το κέντρο. Μετακινήστε τον κέρσορα για περιστροφή της γραμμής διάστασης σε οποιαδήποτε γωνία. Πλήρης DXF round-trip ως οντότητες DIMENSION διαμέτρου."
 keywords: [CAD diameter dimension, dimdiameter, σήμανση διαμέτρου κύκλου, διάσταση διαμέτρου τόξου, σύμβολο διαμέτρου CAD, kulmanlab]
 group: markup

@@ -1,5 +1,5 @@
 ---
-title: LayerMakeCurrent — Establecer la capa de una entidad como actual en KulmanLab CAD
+title: LayerMakeCurrent — Establecer la capa de una entidad como actual
 description: El comando LayerMakeCurrent establece la capa de dibujo actual para que coincida con la capa de la entidad en la que se hace clic.
 keywords: [establecer capa actual, capa actual CAD, gestión de capas kulmanlab]
 group: layer

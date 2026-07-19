@@ -1,5 +1,5 @@
 ---
-title: Comando Wipe Storage — Cancellare Tutti i Dati del Browser in KulmanLab CAD
+title: Comando Wipe Storage — Cancellare Tutti i Dati del Browser
 description: Il comando wipestorage elimina permanentemente tutti i file, livelli, tipi di linea e la cronologia di undo salvati nel browser. Richiede di digitare YES per confermare. Da usare quando si reimposta un database locale corrotto o pieno.
 keywords: [CAD wipe storage, cancella dati browser CAD, reset applicazione CAD, elimina file locali CAD, kulmanlab wipestorage]
 group: file

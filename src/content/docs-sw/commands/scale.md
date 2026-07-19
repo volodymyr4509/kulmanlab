@@ -1,5 +1,5 @@
 ---
-title: "Scale Command — Resize Entities Uniformly Around a Base Point in KulmanLab CAD"
+title: "Scale Command — Resize Entities Uniformly Around a Base Point"
 description: "Amri ya Scale hubadilisha ukubwa wa vipande vilivyochaguliwa kwa usawa kwa kiwango kilichoandikwa karibu na nukta ya msingi iliyowekwa. Kiwango daima huingizwa kwa kibodi — hakuna kubonyeza-kuweka-kiwango. Kiwango zaidi ya 1 hukuza; chini ya 1 hupunguza. Kila aina ya kipande inasaidiwa."
 keywords: [CAD scale command, resize entities CAD, scale objects CAD, uniform scale CAD, scale factor CAD, enlarge shrink CAD, kulmanlab]
 group: edit

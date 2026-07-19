@@ -1,5 +1,5 @@
 ---
-title: Lệnh Leader+ — Thêm Cánh Tay Mũi Tên vào Đường Dẫn Đa trong KulmanLab CAD
+title: Lệnh Leader+ — Thêm Cánh Tay Mũi Tên vào Đường Dẫn Đa
 description: Lệnh Leader+ thêm một cánh tay mũi tên mới vào đường dẫn đa hiện có. Cánh tay mới chia sẻ đoạn gấp khúc, văn bản và tất cả kiểu dáng của đường dẫn đã chọn. Hai lần nhấp — chọn đường dẫn, đặt đầu mũi tên mới.
 group: markup
 order: 2

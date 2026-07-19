@@ -1,5 +1,5 @@
 ---
-title: Mirror Command — Reflect Entities Across a Two-Point Axis in KulmanLab CAD
+title: Mirror Command — Reflect Entities Across a Two-Point Axis
 description: "Amri ya Mirror huakisi vipengele vilivyochaguliwa kwenye mstari wa kioo uliofafanuliwa na mibonyezo miwili. Asili daima huhifadhiwa — Mirror huunda nakala mpya zilizoakisiwa. Mhimili wa kioo unaweza kuwa katika pembe yoyote na hufunga kwa nyongeza za 45°."
 keywords: [CAD mirror command, reflect entities CAD, mirror symmetry CAD, flip objects CAD, mirror axis CAD, kulmanlab]
 group: edit

@@ -1,5 +1,5 @@
 ---
-title: Arahan Move — Terjemahkan Entiti yang Dipilih mengikut Titik Asas dalam KulmanLab CAD
+title: Arahan Move — Terjemahkan Entiti yang Dipilih mengikut Titik Asas
 description: Arahan Move menterjemahkan satu atau lebih entiti yang dipilih mengikut titik asas dan destinasi. Menyokong pra-pemilihan, penguncian sudut, dan input jarak tepat. Selepas pindah, entiti kekal dipilih di kedudukan baru. Setiap jenis entiti disokong.
 keywords: [arahan pindah CAD, terjemah entiti CAD, pindah objek CAD, kunci sudut pindah, jarak tepat pindah, grip pindah CAD, kulmanlab]
 group: edit

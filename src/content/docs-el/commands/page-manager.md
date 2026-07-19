@@ -1,5 +1,5 @@
 ---
-title: Εντολή PageManager — Επεξεργασία Μεγέθους Χαρτιού και Κλίμακας Layout στο KulmanLab CAD
+title: PageManager — Επεξεργασία Μεγέθους Χαρτιού και Κλίμακας Layout
 description: Η εντολή PageManager ανοίγει τον πίνακα ρυθμίσεων σελίδας για το ενεργό layout, όπου μπορείτε να αλλάξετε μορφή χαρτιού, προσανατολισμό και κλίμακα μονάδων σχεδίασης.
 keywords: [page manager, ρυθμίσεις layout, μέγεθος χαρτιού, κλίμακα σχεδίου, χώρος layout, kulmanlab]
 group: layouts

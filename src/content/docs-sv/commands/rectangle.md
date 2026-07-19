@@ -1,5 +1,5 @@
 ---
-title: Rectangle-kommandot — Rita axelparallella rektanglar i KulmanLab CAD
+title: Rectangle-kommandot — Rita axelparallella rektanglar
 description: Rectangle-kommandot skapar en axelparallell rektangel från två motstående hörn. Resultatet är en sluten LWPOLYLINE med fyra hörnpunkter — identisk med vilken annan polylinje som helst när den väl är placerad, så varje redigeringskommando för polylinjer fungerar på den.
 keywords: [CAD rektangelkommando, rita rektangel CAD, axelparallell rektangel, sluten polylinje CAD, LWPOLYLINE DXF, redigera rektangelgrepp, kulmanlab]
 group: shapes

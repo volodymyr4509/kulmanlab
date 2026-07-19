@@ -1,5 +1,5 @@
 ---
-title: คำสั่ง Polyline — วาดเส้นทางหลายส่วนเป็นวัตถุเดียวใน KulmanLab CAD
+title: คำสั่ง Polyline — วาดเส้นทางหลายส่วนเป็นวัตถุเดียว
 description: คำสั่ง Polyline วาดส่วนที่เชื่อมต่อจำนวนเท่าใดก็ได้ที่จัดเก็บเป็นวัตถุ LWPOLYLINE เดียว กริปจุดยอดและจุดกึ่งกลางส่วนให้คุณปรับรูปร่างส่วนใดก็ได้ของเส้นทางหลังสร้าง รองรับ offset ไม่รองรับ trim หรือ extend
 keywords: [คำสั่ง polyline CAD, วาด polyline CAD, เส้นทางหลายส่วน CAD, DXF LWPOLYLINE, ปรับรูปร่าง polyline, กริปจุดยอด CAD, kulmanlab]
 group: shapes

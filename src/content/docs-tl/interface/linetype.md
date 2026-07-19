@@ -1,5 +1,5 @@
 ---
-title: Linetype Toolbar Picker — Kontrolin ang Dash Pattern sa KulmanLab CAD
+title: Linetype Toolbar Picker — Kontrolin ang Dash Pattern
 description: Itinatakda ng linetype picker sa toolbar ng KulmanLab CAD ang dash pattern na ilalapat sa lahat ng bagong guhit na entity. Suportado ang lahat ng linetype na na-load mula sa kasalukuyang DXF file kasama ang built-in na ByLayer, ByBlock, at Continuous na opsyon.
 keywords: [CAD linetype, dash pattern, dashed na linya, DXF linetype, ByLayer linetype, kulmanlab]
 group: interface

@@ -1,5 +1,5 @@
 ---
-title: Polecenie Wipe Storage — Czyszczenie wszystkich danych przeglądarki w KulmanLab CAD
+title: Wipe Storage — Czyszczenie wszystkich danych przeglądarki
 description: Polecenie wipestorage trwale usuwa wszystkie pliki, warstwy, typy linii i historię cofnij zapisane w przeglądarce. Wymaga wpisania YES w celu potwierdzenia. Używane przy resetowaniu uszkodzonej lub przepełnionej lokalnej bazy danych.
 keywords: [CAD wyczyść pamięć, czyszczenie danych przeglądarki CAD, resetowanie aplikacji CAD, usuwanie lokalnych plików CAD, kulmanlab wipestorage]
 group: file

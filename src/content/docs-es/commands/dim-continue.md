@@ -1,5 +1,5 @@
 ---
-title: Comando Dimension Continue — Encadenar Cotas desde una Línea Base Existente en KulmanLab CAD
+title: Dimension Continue — Encadenar Cotas desde Línea Base Existente
 description: El comando Dimension Continue extiende una cadena de cotas desde la segunda línea de extensión de la última cota colocada. Hereda automáticamente el ángulo, el desplazamiento, el tamaño de flecha y la altura de texto de la cota base. Funciona con bases lineales y alineadas.
 keywords: [cota continua CAD, dimcontinue, encadenar cotas CAD, cota de línea base, serie de cotas continuas, kulmanlab]
 group: markup

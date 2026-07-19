@@ -1,5 +1,5 @@
 ---
-title: Fit-Befehl — Alle Elemente mit einem Klick in das Ansichtsfenster einpassen in KulmanLab CAD
+title: Fit — Alle Elemente per Klick ins Ansichtsfenster einpassen
 description: Der Fit-Befehl berechnet das Begrenzungsrechteck aller Elemente und passt Zoom und Verschiebung so an, dass jedes Element mit einem kleinen Rand sichtbar ist. Ein Doppelklick auf die mittlere Maustaste löst Fit aus, ohne den Befehl zu aktivieren.
 keywords: [CAD-Ansicht einpassen, Zoom zum Einpassen, alle Elemente einrahmen, Fit-Befehl CAD, Begrenzungsrechteck-Zoom, kulmanlab]
 group: navigate

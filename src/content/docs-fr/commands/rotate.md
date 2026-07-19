@@ -1,5 +1,5 @@
 ---
-title: Commande Rotate — Faire pivoter des entités autour d'un point de base dans KulmanLab CAD
+title: Rotate — Faire pivoter des entités autour d'un point de base
 description: La commande Rotate fait pivoter les entités sélectionnées autour d'un point de base choisi. L'angle peut être saisi précisément ou défini par clic — la direction du curseur depuis le point de base jusqu'au clic détermine l'angle. Les angles positifs sont dans le sens antihoraire en coordonnées DXF.
 keywords: [commande rotate CAO, faire pivoter entités CAO, rotation objets angle, rotation antihoraire CAO, angle saisi rotation, kulmanlab]
 group: edit

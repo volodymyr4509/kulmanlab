@@ -1,5 +1,5 @@
 ---
-title: "Copy-kommandot — Duplicera entiteter till en ny position i KulmanLab CAD"
+title: "Copy-kommandot — Duplicera entiteter till en ny position"
 description: "Copy-kommandot skapar flyttade dubbletter av valda entiteter samtidigt som originalen lämnas kvar. Stöder förval, vinkellås och exakt avståndsinmatning. Kopiorna placeras och kommandot avslutas; originalen förblir oförändrade."
 keywords: [CAD copy-kommando, duplicera entiteter CAD, kopiera objekt CAD, klona geometri CAD, vinkellås kopiering, exakt avstånd kopiering, kulmanlab]
 group: edit

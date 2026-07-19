@@ -1,5 +1,5 @@
 ---
-title: Vector Pins — Snap Along Reference Lines Through Pinned Points in KulmanLab CAD
+title: Vector Pins — Snap Along Reference Lines Through Pinned Points
 description: Vector Pins let you pin a snap point by hovering it for half a second, then track the cursor along dashed horizontal and vertical reference lines through the pinned point — align new geometry with existing points without construction lines.
 keywords: [vector pins, object snap tracking, reference lines, alignment tracking, snap tracking CAD, construction lines, kulmanlab]
 group: interface

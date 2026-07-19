@@ -1,5 +1,5 @@
 ---
-title: Comando Circle — Dibujar Círculos por Centro y Radio en KulmanLab CAD
+title: Comando Circle — Dibujar Círculos por Centro y Radio
 description: El comando Circle coloca un círculo haciendo clic en un punto central y luego haciendo clic o escribiendo el radio. Cuatro puntos de control cardinales permiten redimensionar el radio arrastrando sin volver a ejecutar el comando. Exportación completa a DXF como entidades CIRCLE.
 keywords: [comando circle CAD, dibujar círculo CAD, entrada de radio de círculo, redimensionar círculo con punto de control, entidad CIRCLE DXF, dimradius círculo, kulmanlab]
 group: shapes

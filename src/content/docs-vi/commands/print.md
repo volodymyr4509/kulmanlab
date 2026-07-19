@@ -1,5 +1,5 @@
 ---
-title: Lệnh Print — Xuất Bản Vẽ Dưới Dạng PNG, JPEG, WebP hoặc PDF trong KulmanLab CAD
+title: Lệnh Print — Xuất Bản Vẽ Dưới Dạng PNG, JPEG, WebP hoặc PDF
 description: Lệnh Print mở Print Manager — cửa sổ xuất chuyên dụng với bản xem trước trực tiếp, bộ chọn định dạng, nút chuyển đổi đơn sắc và chọn vùng tùy chọn. Xuất tối đa 2000×2000 px. Hỗ trợ PNG, JPEG, WebP và PDF.
 group: file
 order: 4

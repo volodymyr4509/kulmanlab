@@ -1,5 +1,5 @@
 ---
-title: Εντολή Dimension Aligned — Πραγματικές Αποστάσεις σε Οποιαδήποτε Γωνία στο KulmanLab CAD
+title: Dimension Aligned — Πραγματικές Αποστάσεις σε Οποιαδήποτε Γωνία
 description: Η εντολή Dimension Aligned μετράει την πραγματική ευθύγραμμη απόσταση μεταξύ δύο σημείων. Η γραμμή διάστασης τρέχει παράλληλα στη γραμμή p1→p2 σε οποιαδήποτε γωνία — σε αντίθεση με το Dimension Linear που περιορίζεται σε οριζόντιο ή κατακόρυφο. Πλήρης DXF round-trip ως οντότητες DIMENSION.
 keywords: [CAD dimension aligned, dimaligned, διαγώνια διάσταση CAD, πραγματική απόσταση διάστασης, γωνιακή διάσταση CAD, kulmanlab]
 group: markup

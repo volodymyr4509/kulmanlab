@@ -1,5 +1,5 @@
 ---
-title: Pemilih Lineweight Bar Alat — Kawal Lebar Strok dalam KulmanLab CAD
+title: Pemilih Lineweight Bar Alat — Kawal Lebar Strok
 description: Pemilih lineweight dalam bar alat KulmanLab CAD menetapkan lebar strok yang digunakan pada semua entiti yang baru dilukis. Menyokong nilai lineweight DXF standard dari 0.00 mm hingga 2.11 mm ditambah mod ByLayer dan Default.
 keywords: [CAD lineweight, lebar strok, lebar garis, DXF lineweight, ByLayer lineweight, kulmanlab]
 group: interface

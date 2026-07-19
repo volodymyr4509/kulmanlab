@@ -1,5 +1,5 @@
 ---
-title: Cuadrícula y Ajuste — Alinear Dibujos a una Cuadrícula Regular en KulmanLab CAD
+title: Cuadrícula y Ajuste — Alinear Dibujos a una Cuadrícula Regular
 description: Los controles de Cuadrícula y Ajuste en KulmanLab CAD superponen una cuadrícula de referencia en el lienzo y bloquean el movimiento del cursor a los puntos de la cuadrícula. El espaciado de la cuadrícula se adapta automáticamente al nivel de zoom actual para que siempre muestre valores de modelo redondos.
 keywords: [cuadrícula CAD, ajuste a cuadrícula, espaciado de cuadrícula, ayudas de dibujo, kulmanlab, puntos de cuadrícula, ajuste ortogonal]
 group: interface

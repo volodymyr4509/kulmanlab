@@ -1,5 +1,5 @@
 ---
-title: Offset Command — Create Parallel Copies at a Fixed Distance in KulmanLab CAD
+title: Offset Command — Create Parallel Copies at a Fixed Distance
 description: The Offset command creates a parallel copy of a Line, Circle, Arc, Ellipse, or Polyline at a typed distance. Distance is entered once and reused for multiple offsets. A side-click determines which direction the copy appears. Five entity types supported.
 keywords: [CAD offset command, parallel copy CAD, offset line CAD, offset circle CAD, offset polyline CAD, concentric offset, kulmanlab]
 group: edit

@@ -1,5 +1,5 @@
 ---
-title: Comando Area — Medir el Área y el Perímetro de un Polígono en KulmanLab CAD
+title: Comando Area — Medir el Área y el Perímetro de un Polígono
 description: El comando Area mide el área encerrada y el perímetro de un polígono definido por 3 o más puntos seleccionados, usando la fórmula del área de Gauss. Admite entrada direccional con bloqueo de ángulo y un resaltado persistente del resultado en el lienzo.
 keywords: [medir área CAD, comando area, calculadora de área de polígono, medición de perímetro, fórmula del área de Gauss, medición CAD kulmanlab]
 group: measure

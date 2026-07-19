@@ -1,5 +1,5 @@
 ---
-title: Dimension Angular — Winkel zwischen Linien, Bögen und Kreisen messen in KulmanLab CAD
+title: Dimension Angular — Winkel zwischen Linien, Bögen, Kreisen messen
 description: Der DimensionAngular-Befehl platziert eine Winkelbemaßungs-Annotation auf Linien, Bögen oder Kreisen. Unterstützt Zwei-Linien-Winkel, Bogenspanne und Kreissektor-Modi.
 keywords: [Winkelbemaßung CAD, Winkelbemaßung, Winkel zwischen Linien messen, DimensionAngular, Bogenbemaßung, Winkelannotation, CAD-Winkelbeschriftung, kulmanlab Winkelbemaßung]
 group: markup

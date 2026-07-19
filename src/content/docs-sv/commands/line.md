@@ -1,5 +1,5 @@
 ---
-title: "Line-kommandot — Rita, kedja, klipp och förläng linjer i KulmanLab CAD"
+title: "Line-kommandot — Rita, kedja, klipp och förläng linjer"
 description: "Line-kommandot ritar enskilda raka linjesegment som kan kedjas ände mot ände. Linje är den enda entitetstypen som Trim och Extend fungerar på. Fullständig DXF-rundtur som LINE-entiteter."
 keywords: [CAD linjekommando, rita rak linje CAD, kedja linjesegment, klipp linje CAD, förläng linje CAD, vinkellås CAD, DXF LINE-entitet, kulmanlab]
 group: shapes

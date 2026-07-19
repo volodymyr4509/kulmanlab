@@ -1,5 +1,5 @@
 ---
-title: LayerIsolate — Ganda Safu Zote Isipokuwa Zilizochaguliwa katika KulmanLab CAD
+title: LayerIsolate — Ganda Safu Zote Isipokuwa Zilizochaguliwa
 description: "Amri ya LayerIsolate inaganda kila safu isipokuwa zile zinazotumiwa na vitu vilivyochaguliwa, ikikuruhusu kuzingatia jiometri maalum bila kufuta chochote."
 keywords: [layer isolate, freeze layers CAD, isolate layer kulmanlab, CAD layer management]
 group: layer

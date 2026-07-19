@@ -1,5 +1,5 @@
 ---
-title: Commande Fillet — Arrondir un angle entre deux lignes dans KulmanLab CAD
+title: Commande Fillet — Arrondir un angle entre deux lignes
 description: La commande Fillet relie deux entités Line avec un arc tangent de rayon spécifié, en raccordant chaque ligne jusqu'au point de tangence. Un aperçu d'arc en pointillés aide à choisir le bon angle avant de cliquer.
 keywords: [commande fillet CAO, arrondir angle CAO, arc de congé, arc tangent deux lignes, kulmanlab]
 group: edit

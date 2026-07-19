@@ -1,5 +1,5 @@
 ---
-title: "Wipe Storage ਕਮਾਂਡ — KulmanLab CAD ਵਿੱਚ ਸਾਰਾ ਬ੍ਰਾਊਜ਼ਰ ਡਾਟਾ ਸਾਫ਼ ਕਰੋ"
+title: "Wipe Storage ਕਮਾਂਡ — ਸਾਰਾ ਬ੍ਰਾਊਜ਼ਰ ਡਾਟਾ ਸਾਫ਼ ਕਰੋ"
 description: "wipestorage ਕਮਾਂਡ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਸੇਵ ਕੀਤੀਆਂ ਸਾਰੀਆਂ ਫਾਈਲਾਂ, ਲੇਅਰਾਂ, ਲਾਈਨਟਾਈਪਾਂ, ਅਤੇ ਅਨਡੂ ਹਿਸਟਰੀ ਨੂੰ ਸਥਾਈ ਤੌਰ ਤੇ ਮਿਟਾਉਂਦੀ ਹੈ। ਪੁਸ਼ਟੀ ਕਰਨ ਲਈ YES ਟਾਈਪ ਕਰਨਾ ਲੋੜੀਂਦਾ ਹੈ। ਖਰਾਬ ਜਾਂ ਓਵਰਫਿਲਡ ਲੋਕਲ ਡਾਟਾਬੇਸ ਰੀਸੈੱਟ ਕਰਨ ਵੇਲੇ ਵਰਤੋ।"
 keywords: [CAD wipe storage, clear browser data CAD, reset CAD app, delete local files CAD, kulmanlab wipestorage]
 group: file

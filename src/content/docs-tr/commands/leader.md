@@ -1,5 +1,5 @@
 ---
-title: Leader Komutu — KulmanLab CAD'de Ok Ucu ve Metinli Çoklu Gösterge Çizgileri Çiz
+title: Leader Komutu — Ok Ucu ve Metinli Çoklu Gösterge Çizgileri Çiz
 description: "Leader komutu, dört aşamalı çoklu gösterge ek açıklaması çizer: ok ucu, dirsek, metin konumu ve yazılan etiket. Metin yönü, dirsek konumuna göre otomatik ayarlanır. DXF'de yalnızca içe aktarım — göstergeler kaydedilmez."
 keywords: [CAD leader komutu, çoklu gösterge ek açıklaması, gösterge CAD, ok etiket ek açıklaması, dirsekli gösterge, metin yönü CAD, kulmanlab]
 group: markup

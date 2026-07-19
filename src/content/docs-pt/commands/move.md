@@ -1,5 +1,5 @@
 ---
-title: Comando Move — Transladar Entidades Selecionadas por Ponto Base no KulmanLab CAD
+title: Comando Move — Transladar Entidades Selecionadas por Ponto Base
 description: O comando Move translada uma ou mais entidades selecionadas por um ponto base e destino. Suporta pré-seleção, travamento de ângulo e entrada de distância exata. Após o movimento as entidades permanecem selecionadas na nova posição. Todos os tipos de entidade são suportados.
 keywords: [CAD comando move, transladar entidades CAD, mover objetos CAD, travamento ângulo move, distância exata move, grip move CAD, kulmanlab]
 group: edit

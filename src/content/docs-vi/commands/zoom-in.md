@@ -1,5 +1,5 @@
 ---
-title: Lệnh Zoom In — Phóng To Khung Nhìn 1.5× Mỗi Bước trong KulmanLab CAD
+title: Lệnh Zoom In — Phóng To Khung Nhìn 1.5× Mỗi Bước
 description: Lệnh Zoom In nhân mức phóng to hiện tại lên 1.5× và thoát ngay lập tức. Được căn giữa theo giữa khung nhìn. Phạm vi phóng to 0.01–10.000. Dùng bánh xe cuộn để phóng to hướng con trỏ thay thế.
 group: navigate
 order: 2

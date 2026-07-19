@@ -1,5 +1,5 @@
 ---
-title: "Scale-kommandot — Skala om entiteter jämnt kring en basspunkt i KulmanLab CAD"
+title: "Scale-kommandot — Skala om entiteter jämnt kring en basspunkt"
 description: "Scale-kommandot skalar om valda entiteter jämnt med en inskriven faktor kring en fast basspunkt. Faktorn matas alltid in via tangentbordet — det går inte att ställa in skalan genom att klicka. En faktor större än 1 förstorar; mindre än 1 förminskar. Alla entitetstyper stöds."
 keywords: [CAD scale-kommando, skala om entiteter CAD, skala objekt CAD, enhetlig skalning CAD, skalfaktor CAD, förstora förminska CAD, kulmanlab]
 group: edit

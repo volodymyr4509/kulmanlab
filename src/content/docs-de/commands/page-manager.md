@@ -1,5 +1,5 @@
 ---
-title: Befehl PageManager — Papierformat und Maßstab des Layouts in KulmanLab CAD bearbeiten
+title: PageManager — Papierformat und Maßstab des Layouts bearbeiten
 description: Der Befehl PageManager öffnet das Seiten-Einstellungspanel für das aktive Layout, wo Sie Papierformat, Ausrichtung und Zeichnungseinheitenmaßstab ändern können.
 keywords: [Seitenmanager, Layout-Einstellungen, Papierformat, Zeichnungsmaßstab, Layout-Raum, kulmanlab]
 group: layouts

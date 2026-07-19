@@ -1,5 +1,5 @@
 ---
-title: "Dimension Continue کمانڈ — KulmanLab CAD میں موجودہ بیس لائن سے پیمائشیں جوڑیں"
+title: "Dimension Continue کمانڈ — موجودہ بیس لائن سے پیمائشیں جوڑیں"
 description: "Dimension Continue کمانڈ آخری رکھی گئی پیمائش کی دوسری ایکسٹینشن لائن سے پیمائشوں کی ایک زنجیر بڑھاتی ہے۔ یہ بیس پیمائش کا زاویہ، آفسیٹ، تیر کا سائز، اور متن اونچائی خود بخود وراثت میں لیتی ہے۔ linear اور aligned bases دونوں کے ساتھ کام کرتی ہے۔"
 keywords: [CAD dimension continue, dimcontinue, پیمائشیں جوڑیں CAD, بیس لائن پیمائش, پیمائش سلسلہ جاری رکھیں, kulmanlab]
 group: markup

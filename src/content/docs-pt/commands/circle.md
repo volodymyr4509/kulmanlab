@@ -1,5 +1,5 @@
 ---
-title: Comando Circle — Desenhar Círculos por Centro e Raio no KulmanLab CAD
+title: Comando Circle — Desenhar Círculos por Centro e Raio
 description: O comando Circle posiciona um círculo clicando num ponto central e depois clicando ou digitando o raio. Quatro grips cardinais permitem redimensionar o raio arrastando sem precisar executar o comando novamente. Compatibilidade DXF completa como entidades CIRCLE.
 keywords: [comando circle CAD, desenhar círculo CAD, entrada raio círculo, redimensionar círculo grip, entidade CIRCLE DXF, kulmanlab]
 group: shapes

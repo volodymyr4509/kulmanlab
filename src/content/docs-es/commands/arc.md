@@ -1,5 +1,5 @@
 ---
-title: Comando Arc — Dibujar Arcos de Tres Puntos Usando el Método de la Circunferencia en KulmanLab CAD
+title: Arc — Dibujar Arcos de Tres Puntos por Circunferencia
 description: El comando Arc dibuja un arco circular a través de exactamente tres puntos seleccionados usando geometría de circunferencia. Los puntos de control de inicio y fin permiten arrastrar los extremos del arco a un nuevo ángulo y radio después de colocarlo. Exportación completa a DXF como entidades ARC.
 keywords: [comando arc CAD, arco de tres puntos CAD, arco circunferencia, dibujar arco CAD, entidad ARC DXF, edición con puntos de control de arco, kulmanlab]
 group: shapes

@@ -1,5 +1,5 @@
 ---
-title: LayerMatch — Entitätslayer an eine Quelllayer anpassen in KulmanLab CAD
+title: LayerMatch — Entitätslayer an eine Quelllayer anpassen
 description: Der Befehl LayerMatch weist den Layer einer oder mehrerer Zielentitäten neu zu, sodass er mit dem Layer einer von Ihnen angeklickten Quellentität übereinstimmt.
 keywords: [Layer angleichen, Layer anpassen CAD, Layer neu zuweisen kulmanlab, CAD-Layerverwaltung]
 group: layer

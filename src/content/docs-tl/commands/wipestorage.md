@@ -1,5 +1,5 @@
 ---
-title: Wipe Storage Command — Burahin ang Lahat ng Browser Data sa KulmanLab CAD
+title: Wipe Storage Command — Burahin ang Lahat ng Browser Data
 description: Permanenteng binubura ng wipestorage command ang lahat ng file, layer, linetype, at undo history na naka-save sa browser. Kailangang i-type ang YES para kumpirmahin. Gamitin kapag nire-reset ang isang sirang o overfilled na local database.
 keywords: [CAD wipe storage, burahin ang browser data CAD, i-reset ang CAD app, tanggalin ang local files CAD, kulmanlab wipestorage]
 group: file

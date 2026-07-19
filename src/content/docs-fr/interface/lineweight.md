@@ -1,5 +1,5 @@
 ---
-title: Sélecteur d'Épaisseur de Ligne dans la Barre d'Outils — Contrôler la Largeur de Trait dans KulmanLab CAD
+title: Sélecteur d'Épaisseur de Ligne — Contrôler la Largeur de Trait
 description: Le sélecteur d'épaisseur de ligne dans la barre d'outils de KulmanLab CAD définit la largeur de trait appliquée à toutes les nouvelles entités dessinées. Prend en charge les valeurs standard d'épaisseur de ligne DXF de 0,00 mm à 2,11 mm plus les modes ParCalque et Défaut.
 keywords: [épaisseur ligne CAO, largeur trait, largeur ligne, épaisseur ligne DXF, épaisseur ligne ParCalque, kulmanlab]
 group: interface

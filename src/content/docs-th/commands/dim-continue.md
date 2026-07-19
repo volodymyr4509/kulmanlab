@@ -1,5 +1,5 @@
 ---
-title: คำสั่ง Dimension Continue — ต่อเชื่อมมิติจากเส้นฐานที่มีอยู่ใน KulmanLab CAD
+title: คำสั่ง Dimension Continue — ต่อเชื่อมมิติจากเส้นฐานที่มีอยู่
 description: คำสั่ง Dimension Continue ขยายสายมิติจากเส้นขยายที่สองของมิติล่าสุดที่วาง รับทอดมุม ออฟเซ็ต ขนาดลูกศร และความสูงข้อความจากมิติฐานโดยอัตโนมัติ ทำงานกับฐานทั้ง linear และ aligned
 keywords: [มิติ continue CAD, dimcontinue, ต่อเชื่อมมิติ CAD, มิติเส้นฐาน, ต่อสายมิติ, kulmanlab]
 group: markup

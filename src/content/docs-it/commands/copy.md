@@ -1,5 +1,5 @@
 ---
-title: Comando Copy — Duplica Entità in una Nuova Posizione in KulmanLab CAD
+title: Comando Copy — Duplica Entità in una Nuova Posizione
 description: Il comando Copy crea duplicati traslati delle entità selezionate lasciando gli originali al loro posto. Supporta pre-selezione, blocco angolare e input distanza esatta. Le copie vengono posizionate e il comando termina; gli originali rimangono invariati.
 keywords: [comando copy CAD, duplica entità CAD, copia oggetti CAD, clona geometria CAD, blocco angolo copia, distanza esatta copia, kulmanlab]
 group: edit

@@ -1,5 +1,5 @@
 ---
-title: Spline CV Command — Gumuhit ng B-Spline sa Paglalagay ng Control Vertices sa KulmanLab CAD
+title: Spline CV — Gumuhit ng B-Spline sa Paglalagay ng Control Vertices
 description: Ginuguhit ng Spline CV command ang cubic B-spline sa paglalagay ng control vertices. Naaakit ang curve papunta sa mga vertex ngunit dumadaan lamang sa una at huli (clamped knots). Bawat CV grip ay puwedeng i-drag para baguhin ang hugis ng curve pagkatapos mailagay. Full DXF round-trip bilang SPLINE entities.
 keywords: [CAD spline command, B-spline control vertices, clamped spline CAD, gumuhit ng spline CAD, SPLINE DXF entity, spline grip editing, kulmanlab]
 group: shapes

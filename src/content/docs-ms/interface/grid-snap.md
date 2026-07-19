@@ -1,5 +1,5 @@
 ---
-title: Grid & Snap — Selaraskan Lukisan ke Grid Tetap dalam KulmanLab CAD
+title: Grid & Snap — Selaraskan Lukisan ke Grid Tetap
 description: Togel Grid dan Snap dalam KulmanLab CAD melapisi grid rujukan pada kanvas dan mengunci pergerakan kursor ke titik grid. Jarak grid menyesuaikan secara automatik kepada paras zum semasa supaya ia sentiasa menunjukkan nilai model yang bundar.
 keywords: [CAD grid, snap ke grid, jarak grid, bantuan lukisan, kulmanlab, titik grid, snap ortogon]
 group: interface

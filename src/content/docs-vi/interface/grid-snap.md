@@ -1,5 +1,5 @@
 ---
-title: Lưới & Bắt Điểm — Căn Chỉnh Bản Vẽ theo Lưới Đều trong KulmanLab CAD
+title: Lưới & Bắt Điểm — Căn Chỉnh Bản Vẽ theo Lưới Đều
 description: Các nút bật/tắt Lưới và Bắt Điểm trong KulmanLab CAD phủ lưới tham chiếu lên canvas và khóa chuyển động con trỏ vào các điểm lưới. Khoảng cách lưới tự động thích nghi theo mức phóng to hiện tại để luôn hiển thị các giá trị mô hình tròn.
 group: interface
 order: 1

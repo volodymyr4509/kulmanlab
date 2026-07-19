@@ -1,5 +1,5 @@
 ---
-title: Arahan Ellipse — Lukis Elips Berputar mengikut Pusat dan Dua Paksi dalam KulmanLab CAD
+title: Ellipse — Lukis Elips Berputar mengikut Pusat dan Dua Paksi
 description: Arahan Ellipse melukis elips dalam tiga klik — pusat, titik akhir paksi pertama (mana-mana arah), kemudian panjang paksi kedua. Kedua-dua paksi sentiasa berserenjang. Setiap semi-paksi mempunyai gripnya sendiri untuk mengubah saiz secara bebas selepas peletakan. Pusingan penuh DXF sebagai entiti ELLIPSE.
 keywords: [arahan elips CAD, lukis elips CAD, elips berputar CAD, paksi elips, entiti DXF ELLIPSE, pengeditan grip elips, nisbah paksi, kulmanlab]
 group: shapes

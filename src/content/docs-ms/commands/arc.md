@@ -1,5 +1,5 @@
 ---
-title: Arahan Arc — Lukis Lengkok Tiga Titik Menggunakan Kaedah Bulatan Circumscribed dalam KulmanLab CAD
+title: Arc — Lukis Lengkok Tiga Titik dengan Bulatan Circumscribed
 description: Arahan Arc melukis lengkok bulatan melalui tepat tiga titik yang diklik menggunakan geometri circumcircle. Grip mula dan akhir membolehkan anda menyeret titik akhir lengkok ke sudut dan jejari baru selepas peletakan. Pusingan penuh DXF sebagai entiti ARC.
 keywords: [arahan lengkok CAD, lengkok tiga titik CAD, lengkok circumcircle, lukis lengkok CAD, entiti DXF ARC, pengeditan grip lengkok, kulmanlab]
 group: shapes

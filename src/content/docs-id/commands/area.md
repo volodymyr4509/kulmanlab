@@ -1,5 +1,5 @@
 ---
-title: Perintah Area — Mengukur Luas dan Keliling Poligon di KulmanLab CAD
+title: Perintah Area — Mengukur Luas dan Keliling Poligon
 description: Perintah Area mengukur luas yang tertutup dan keliling poligon yang ditentukan oleh 3 titik yang diklik atau lebih, menggunakan rumus shoelace. Mendukung entri arah dengan kunci sudut dan sorotan hasil yang persisten di kanvas.
 keywords: [CAD ukur luas, perintah area, kalkulasi luas poligon, pengukuran keliling, rumus shoelace, pengukuran CAD kulmanlab]
 group: measure

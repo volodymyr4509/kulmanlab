@@ -1,5 +1,5 @@
 ---
-title: LayerMakeCurrent — Gawing Current ang Layer ng Entity sa KulmanLab CAD
+title: LayerMakeCurrent — Gawing Current ang Layer ng Entity
 description: Ise-set ng LayerMakeCurrent command ang current drawing layer para tumugma sa layer ng entity na kine-click mo.
 keywords: [layer make current, i-set ang current layer CAD, kulmanlab layer management]
 group: layer

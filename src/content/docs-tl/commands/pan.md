@@ -1,5 +1,5 @@
 ---
-title: "Pan Command — Click-and-Drag na Pag-navigate sa Viewport sa KulmanLab CAD"
+title: "Pan Command — Click-and-Drag na Pag-navigate sa Viewport"
 description: "Ang Pan command ay pumapasok sa isang persistent na drag-to-scroll mode. I-click at i-drag ang kahit saan sa canvas para ilipat ang view nang hindi binabago ang zoom level. Gumagana ang middle-click drag anumang oras nang hindi kinakailangang i-activate ang Pan."
 keywords: [CAD pan viewport, pan command, i-drag para mag-navigate, canvas scroll CAD, viewport navigation, kulmanlab]
 group: navigate

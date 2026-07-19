@@ -1,5 +1,5 @@
 ---
-title: "Amri ya Area — Pima Eneo na Mzunguko wa Poligoni katika KulmanLab CAD"
+title: "Amri ya Area — Pima Eneo na Mzunguko wa Poligoni"
 description: "Amri ya Area hupima eneo lililofungwa na mzunguko wa poligoni inayofafanuliwa na pointi 3 au zaidi zilizobonyezwa, kwa kutumia fomula ya shoelace. Inasaidia uingizaji wa mwelekeo uliofungwa kwa pembe na uangaziaji wa kudumu wa matokeo kwenye turubai."
 keywords: [kupima eneo la CAD, amri ya area, hesabu ya eneo la poligoni, kipimo cha mzunguko, fomula ya shoelace, kulmanlab CAD kipimo]
 group: measure

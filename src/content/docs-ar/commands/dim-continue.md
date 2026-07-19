@@ -1,5 +1,5 @@
 ---
-title: أمر Dimension Continue — تسلسل الأبعاد من خط أساس موجود في KulmanLab CAD
+title: أمر Dimension Continue — تسلسل الأبعاد من خط أساس موجود
 description: يمتد أمر Dimension Continue سلسلة من الأبعاد من خط التمديد الثاني لآخر بُعد موضوع. يرث زاوية وإزاحة وحجم السهم وارتفاع النص من البُعد الأساسي تلقائياً. يعمل مع الأسس الخطية والمحاذية.
 keywords: [استمرار بُعد CAD, dimcontinue, تسلسل أبعاد CAD, بُعد أساسي, متابعة سلسلة أبعاد, kulmanlab]
 group: markup

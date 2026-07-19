@@ -1,5 +1,5 @@
 ---
-title: Polecenie Align — Przesuwanie, obracanie i skalowanie elementów za pomocą par punktów w KulmanLab CAD
+title: Align — Przesuwanie, obracanie i skalowanie za pomocą par punktów
 description: Polecenie Align zmienia położenie zaznaczonych elementów za pomocą jednej lub dwóch par punktów źródłowych/docelowych — łączy przesunięcie, obrót i opcjonalne jednolite skalowanie w jednej operacji. Działa jak połączenie Move + Rotate + Scale.
 keywords: [polecenie align CAD, wyrównywanie elementów CAD, przesuwanie obracanie skalowanie, wyrównanie parą punktów, odpowiednik ALIGN z AutoCAD, kulmanlab]
 group: edit

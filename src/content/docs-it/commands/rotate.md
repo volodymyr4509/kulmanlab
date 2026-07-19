@@ -1,5 +1,5 @@
 ---
-title: Comando Rotate — Ruotare Entità Attorno a un Punto Base in KulmanLab CAD
+title: Comando Rotate — Ruotare Entità Attorno a un Punto Base
 description: Il comando Rotate ruota le entità selezionate attorno a un punto base scelto. L'angolo può essere digitato con precisione o impostato cliccando — la direzione del cursore dal punto base al clic determina l'angolo. Gli angoli positivi sono in senso antiorario nelle coordinate DXF.
 keywords: [CAD comando rotate, ruota entità CAD, ruota oggetti angolo, rotazione antioraria CAD, angolo digitato rotate, kulmanlab]
 group: edit

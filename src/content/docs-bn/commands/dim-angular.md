@@ -1,5 +1,5 @@
 ---
-title: "Dimension Angular — KulmanLab CAD-এ লাইন, আর্ক এবং বৃত্তের মধ্যে কোণ পরিমাপ করুন"
+title: "Dimension Angular — লাইন, আর্ক এবং বৃত্তের মধ্যে কোণ পরিমাপ করুন"
 description: "DimensionAngular কমান্ড লাইন, আর্ক বা বৃত্তে একটি কোণীয় মাত্রা টীকা স্থাপন করে। দুই-লাইন কোণ, আর্ক স্প্যান এবং বৃত্ত সেক্টর মোড সমর্থন করে।"
 keywords: [কোণীয় মাত্রা CAD, কোণ মাত্রা, লাইনের মধ্যে কোণ পরিমাপ, DimensionAngular, আর্ক মাত্রা, কোণ টীকা, CAD কোণ মার্কআপ, kulmanlab কোণীয় মাত্রা]
 group: markup

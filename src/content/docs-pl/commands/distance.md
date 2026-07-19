@@ -1,5 +1,5 @@
 ---
-title: Polecenie Distance — Mierzenie odległości prostoliniowej między dwoma punktami w KulmanLab CAD
+title: Distance — Odległość prostoliniowa między dwoma punktami
 description: Polecenie Distance mierzy odległość euklidesową między dwoma klikniętymi punktami i wyświetla wynik z dokładnością do 4 miejsc po przecinku. Kliknij ponownie po wyniku, aby połączyć nowy pomiar od ostatniego punktu.
 keywords: [mierzenie odległości CAD, polecenie distance, pomiar punkt-punkt, odległość prostoliniowa, kulmanlab CAD pomiar]
 group: measure

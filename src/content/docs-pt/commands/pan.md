@@ -1,5 +1,5 @@
 ---
-title: Comando Pan — Navegação da Viewport Clicar-e-Arrastar no KulmanLab CAD
+title: Comando Pan — Navegação da Viewport Clicar-e-Arrastar
 description: O comando Pan entra em um modo de arrastar persistente. Clique e arraste em qualquer lugar no canvas para deslocar a vista sem alterar o nível de zoom. O arraste com clique do meio funciona a qualquer momento sem ativar Pan.
 keywords: [CAD pan viewport, comando pan, arrastar para navegar, rolagem canvas CAD, navegação viewport, kulmanlab]
 group: navigate

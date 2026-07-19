@@ -1,5 +1,5 @@
 ---
-title: Arahan Dimension Radius — Anotasi Jejari Lengkok dan Bulatan dalam KulmanLab CAD
+title: Arahan Dimension Radius — Anotasi Jejari Lengkok dan Bulatan
 description: Arahan Dimension Radius meletakkan dimensi radial berprefiks R pada lengkok atau bulatan. Klik entiti, kemudian gerakkan kursor untuk mengorientasikan garis dimensi dari pusat ke lilitan. Pusingan penuh DXF sebagai entiti DIMENSION jejari.
 keywords: [CAD dimensi jejari, dimradius, anotasi jejari bulatan, dimensi jejari lengkok, dimensi prefiks R, kulmanlab]
 group: markup

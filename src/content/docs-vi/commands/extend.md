@@ -1,5 +1,5 @@
 ---
-title: Lệnh Extend — Kéo Dài Điểm Cuối Đường Thẳng Đến Ranh Giới Gần Nhất trong KulmanLab CAD
+title: Extend — Kéo Dài Điểm Cuối Đường Thẳng Đến Ranh Giới Gần Nhất
 description: Lệnh Extend kéo dài điểm cuối gần nhất của một Đường thẳng đến giao điểm gần nhất với thực thể khác. Bản xem trước trực tiếp hiển thị đường thẳng được kéo dài trước khi nhấp. Extend chỉ hoạt động trên thực thể Đường thẳng.
 group: edit
 order: 9

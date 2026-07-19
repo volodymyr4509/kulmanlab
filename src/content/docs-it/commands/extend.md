@@ -1,5 +1,5 @@
 ---
-title: Comando Extend — Allunga il Punto Finale di una Linea fino al Limite più Vicino in KulmanLab CAD
+title: Extend — Allunga il Punto Finale di una Linea al Limite Vicino
 description: Il comando Extend allunga il punto finale più vicino di una Linea hoverable fino alla prima intersezione con un'altra entità. Un'anteprima in tempo reale mostra la linea estesa prima del clic. Extend funziona solo sulle entità Line e ignora Text, Spline e Multileader come limiti.
 keywords: [comando extend CAD, estendi linea CAD, allunga linea al limite, estendi punto finale linea, anteprima hover extend, kulmanlab]
 group: edit

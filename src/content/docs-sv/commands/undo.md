@@ -1,5 +1,5 @@
 ---
-title: Undo-kommandot — Stega tillbaka genom ritningshistoriken i KulmanLab CAD
+title: Undo-kommandot — Stega tillbaka genom ritningshistoriken
 description: Undo-kommandot ångrar den senaste ritåtgärden ett steg i taget. Upp till 20 steg lagras per fil och sparas i webbläsaren mellan sidladdningar. Att utföra en ny åtgärd efter en ångring rensar redo-stacken.
 keywords: [CAD undo-kommando, ångra historik CAD, ångra åtgärd CAD, ångra-steg CAD, webbläsarpersistent undo, kulmanlab]
 group: edit

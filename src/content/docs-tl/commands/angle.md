@@ -1,5 +1,5 @@
 ---
-title: Angle Command — Sukatin ang Interior Angle sa Isang Vertex Gamit ang Tatlong Punto sa KulmanLab CAD
+title: Angle — Sukatin ang Interior Angle sa Vertex, Tatlong Punto
 description: Sinusukat ng Angle command ang interior angle (0°–180°) sa isang vertex na tinutukoy ng tatlong na-click na punto. Mag-click ng first-end, vertex, second-end. Ipinapakita ang resulta sa terminal hanggang 4 decimal places.
 keywords: [CAD angle measurement, three point angle, interior angle CAD, measure angle command, vertex angle, kulmanlab]
 group: measure

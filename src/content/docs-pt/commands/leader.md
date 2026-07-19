@@ -1,5 +1,5 @@
 ---
-title: Comando Leader — Desenhar Anotações Multileader com Seta e Texto no KulmanLab CAD
+title: Comando Leader — Desenhar Anotações Multileader com Seta e Texto
 description: "O comando Leader desenha uma anotação multileader em quatro etapas: ponta da seta, cotovelo dogleg, posição do texto e etiqueta digitada. A direção do texto ajusta automaticamente com base na posição do dogleg. Somente importação em DXF — leaders não são gravados ao salvar."
 keywords: [CAD comando leader, anotação multileader, leader CAD, anotação com seta, dogleg leader, direção texto CAD, kulmanlab]
 group: markup

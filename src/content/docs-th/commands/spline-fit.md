@@ -1,5 +1,5 @@
 ---
-title: "คำสั่ง Spline Fit — วาด Spline การแทรกค่าผ่านจุดที่คลิกใน KulmanLab CAD"
+title: "คำสั่ง Spline Fit — วาด Spline การแทรกค่าผ่านจุดที่คลิก"
 description: "คำสั่ง Spline Fit วาด spline ลูกบาศก์ที่ผ่านทุกจุดที่คลิกพอดี ภายในเก็บเส้นโค้งพร้อม fit points และจุดควบคุมที่คำนวณแล้ว การลากกริป fit-point จะ re-interpolate เส้นโค้งทั้งหมด ส่งออก DXF เต็มรูปแบบเป็นวัตถุ SPLINE"
 keywords: [คำสั่ง spline fit CAD, interpolating spline CAD, spline ผ่านจุด, วาดเส้นโค้งเรียบ CAD, SPLINE DXF fit points, การแก้ไขกริป spline, kulmanlab]
 group: shapes

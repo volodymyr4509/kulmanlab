@@ -1,5 +1,5 @@
 ---
-title: Comando Move — Trascinare Entità Selezionate per Punto Base in KulmanLab CAD
+title: Comando Move — Trascinare Entità Selezionate per Punto Base
 description: Il comando Move trasla una o più entità selezionate per un punto base e destinazione. Supporta pre-selezione, blocco angolo e inserimento distanza esatta. Dopo lo spostamento le entità rimangono selezionate nella nuova posizione. Tutti i tipi di entità sono supportati.
 keywords: [CAD comando move, trasla entità CAD, sposta oggetti CAD, blocco angolo move, distanza esatta move, grip move CAD, kulmanlab]
 group: edit

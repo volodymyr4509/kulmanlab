@@ -1,5 +1,5 @@
 ---
-title: "Dimension Aligned کمانڈ — KulmanLab CAD میں کسی بھی زاویے پر اصل فاصلے کی پیمائش"
+title: "Dimension Aligned کمانڈ — کسی بھی زاویے پر اصل فاصلے کی پیمائش"
 description: "Dimension Aligned کمانڈ دو نقاط کے درمیان اصل سیدھی لائن کا فاصلہ ناپتی ہے۔ پیمائش لائن p1→p2 لائن کے متوازی کسی بھی زاویے پر چلتی ہے — Dimension Linear کے برعکس جو افقی یا عمودی تک محدود ہے۔ DXF میں DIMENSION اشیاء کے طور پر مکمل راؤنڈ ٹرپ۔"
 keywords: [CAD dimension aligned, dimaligned, ترچھی پیمائش CAD, اصل فاصلہ پیمائش, زاویہ دار پیمائش CAD, kulmanlab]
 group: markup

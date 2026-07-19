@@ -1,5 +1,5 @@
 ---
-title: Rotate-Befehl — Entitäten um einen Basispunkt drehen in KulmanLab CAD
+title: Rotate-Befehl — Entitäten um einen Basispunkt drehen
 description: Der Rotate-Befehl dreht ausgewählte Entitäten um einen gewählten Basispunkt. Der Winkel kann präzise eingegeben oder per Klick festgelegt werden — die Cursorrichtung vom Basispunkt zum Klick bestimmt den Winkel. Positive Winkel drehen in DXF-Koordinaten gegen den Uhrzeigersinn.
 keywords: [CAD Rotate-Befehl, Entitäten drehen CAD, Objekte drehen Winkel, Gegen-Uhrzeigersinn-Drehung CAD, Winkel eingeben drehen, kulmanlab]
 group: edit

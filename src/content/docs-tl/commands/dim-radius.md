@@ -1,5 +1,5 @@
 ---
-title: Dimension Radius Command — Markahan ang Radius ng Arc at Circle sa KulmanLab CAD
+title: Dimension Radius Command — Markahan ang Radius ng Arc at Circle
 description: Naglalagay ang Dimension Radius command ng radial dimension na may R-prefix sa isang arc o circle. I-click ang entity, pagkatapos igalaw ang cursor para i-orient ang dimension line mula sa center papunta sa circumference. Kumpletong DXF round-trip bilang DIMENSION radius entities.
 keywords: [CAD radius dimension, dimradius, markahan ang radius ng circle, arc radius dimension, R prefix dimension, kulmanlab]
 group: markup

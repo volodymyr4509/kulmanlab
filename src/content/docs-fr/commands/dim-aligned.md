@@ -1,5 +1,5 @@
 ---
-title: Commande Dimension Aligned — Cotes de Distance Réelle à Tout Angle dans KulmanLab CAD
+title: Dimension Aligned — Cotes de Distance Réelle à Tout Angle
 description: La commande Dimension Aligned mesure la distance réelle en ligne droite entre deux points. La ligne de cote est parallèle à la ligne p1→p2 à tout angle — contrairement à Dimension Linear qui est limitée à l'horizontal ou vertical. Export complet en DXF comme entités DIMENSION.
 keywords: [cote alignée CAO, dimaligned, cote diagonale CAO, cote distance réelle, cote angulaire CAO, kulmanlab]
 group: markup

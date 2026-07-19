@@ -1,5 +1,5 @@
 ---
-title: "Perintah Dimension Diameter — Menganotasi Diameter Lingkaran dan Busur Penuh di KulmanLab CAD"
+title: "Dimension Diameter — Anotasi Diameter Lingkaran dan Busur Penuh"
 description: "Perintah Dimension Diameter menempatkan dimensi diameter (diberi awalan simbol diameter) melintasi busur atau lingkaran melalui pusat. Gerakkan kursor untuk memutar garis dimensi ke sudut mana saja. Dukungan penuh DXF sebagai entitas DIMENSION diameter."
 keywords: [dimensi diameter CAD, dimdiameter, menganotasi diameter lingkaran, dimensi diameter busur, simbol diameter CAD, kulmanlab]
 group: markup

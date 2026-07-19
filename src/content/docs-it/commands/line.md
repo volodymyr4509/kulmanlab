@@ -1,5 +1,5 @@
 ---
-title: Comando Line — Disegnare, Concatenare, Tagliare ed Estendere Linee in KulmanLab CAD
+title: Line — Disegnare, Concatenare, Tagliare ed Estendere Linee
 description: Il comando Line disegna singoli segmenti di linea retta che possono essere concatenati testa a coda. Le linee sono l'unico tipo di entità su cui Trim ed Extend funzionano. Round-trip DXF completo come entità LINE.
 keywords: [CAD comando line, disegna linea retta CAD, concatena segmenti linea, trim linea CAD, estendi linea CAD, blocco angolo CAD, entità DXF LINE, kulmanlab]
 group: shapes

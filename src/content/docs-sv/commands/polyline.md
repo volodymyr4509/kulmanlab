@@ -1,5 +1,5 @@
 ---
-title: "Polyline-kommandot — Rita banor med flera segment som en enda entitet i KulmanLab CAD"
+title: "Polyline — Rita banor med flera segment som en enda entitet"
 description: "Polyline-kommandot ritar valfritt antal sammankopplade segment lagrade som en enda LWPOLYLINE-entitet. Vertex- och segmentmittpunktsgrepp låter dig omforma valfri del av banan efter skapandet. Stöder offset; stöder inte trim eller extend."
 keywords: [CAD polyline-kommando, rita polyline CAD, bana med flera segment CAD, LWPOLYLINE DXF, omforma polyline, vertexgrepp CAD, offset polyline, kulmanlab]
 group: shapes

@@ -1,5 +1,5 @@
 ---
-title: Fit Command — Frame All Entities in the Viewport in One Click in KulmanLab CAD
+title: Fit Command — Frame All Entities in the Viewport in One Click
 description: The Fit command calculates the bounding box of all entities and adjusts zoom and pan so every entity is visible with a small margin. Double-click the middle mouse button triggers Fit without activating the command.
 keywords: [CAD fit view, zoom to fit, frame all entities, fit command CAD, bounding box zoom, kulmanlab]
 group: navigate

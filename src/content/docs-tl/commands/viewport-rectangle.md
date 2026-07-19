@@ -1,5 +1,5 @@
 ---
-title: ViewportRectangle Command — Gumawa ng Viewport sa Layout sa KulmanLab CAD
+title: ViewportRectangle Command — Gumawa ng Viewport sa Layout
 description: Gumagawa ang ViewportRectangle command ng viewport sa isang paper layout sa pamamagitan ng pagpili ng dalawang magkasalungat na sulok. Ipinapakita ng viewport ang model space entities sa default scale ng layout.
 keywords: [viewport rectangle, gumawa ng viewport, layout viewport, paper space viewport, kulmanlab]
 group: layouts

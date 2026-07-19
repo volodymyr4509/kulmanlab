@@ -1,5 +1,5 @@
 ---
-title: Arahan Dimension Linear — Dimensi Mendatar dan Menegak dalam KulmanLab CAD
+title: Arahan Dimension Linear — Dimensi Mendatar dan Menegak
 description: Arahan Dimension Linear mengukur jarak mendatar atau menegak antara dua titik. Garis dimensi sentiasa sejajar paksi — tekan H atau V untuk mengunci orientasi, atau biarkan kedudukan kursor menentukan secara automatik. Pusingan penuh DXF sebagai entiti DIMENSION.
 keywords: [CAD dimensi linear, dimensi mendatar CAD, dimensi menegak CAD, dimlinear, kunci orientasi H V, offset dimensi, kulmanlab]
 group: markup

@@ -1,5 +1,5 @@
 ---
-title: LayerMakeCurrent — Mengatur Layer Entitas sebagai Saat Ini di KulmanLab CAD
+title: LayerMakeCurrent — Mengatur Layer Entitas sebagai Saat Ini
 description: Perintah LayerMakeCurrent mengatur layer gambar saat ini agar sesuai dengan layer entitas yang diklik.
 keywords: [layer make current, mengatur layer saat ini CAD, manajemen layer kulmanlab]
 group: layer

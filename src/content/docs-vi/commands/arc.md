@@ -1,5 +1,5 @@
 ---
-title: Lệnh Arc — Vẽ Cung Ba Điểm Sử Dụng Phương Pháp Circumcircle trong KulmanLab CAD
+title: Lệnh Arc — Vẽ Cung Ba Điểm Sử Dụng Phương Pháp Circumcircle
 description: Lệnh Arc vẽ cung tròn qua đúng ba điểm bấm sử dụng hình học circumcircle. Điểm kéo đầu và cuối cho phép kéo các điểm cuối cung về vị trí mới sau khi đặt. Lưu DXF đầy đủ dưới dạng thực thể ARC.
 keywords: [lệnh cung CAD, cung ba điểm CAD, circumcircle arc, vẽ cung CAD, thực thể ARC DXF, chỉnh sửa điểm kéo cung, kulmanlab]
 group: shapes

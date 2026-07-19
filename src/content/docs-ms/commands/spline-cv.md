@@ -1,5 +1,5 @@
 ---
-title: Arahan Spline CV — Lukis B-Spline dengan Meletakkan Bucu Kawalan dalam KulmanLab CAD
+title: Arahan Spline CV — Lukis B-Spline dengan Meletakkan Bucu Kawalan
 description: Arahan Spline CV melukis B-spline kubik dengan meletakkan bucu kawalan. Kelengkungan tertarik ke arah bucu tetapi hanya melalui yang pertama dan terakhir (simpul yang dijepit). Setiap grip CV boleh diseret untuk membentuk semula kelengkungan selepas peletakan. Pusingan penuh DXF sebagai entiti SPLINE.
 keywords: [arahan spline CAD, bucu kawalan B-spline, spline dijepit CAD, lukis spline CAD, entiti DXF SPLINE, pengeditan grip spline, kulmanlab]
 group: shapes

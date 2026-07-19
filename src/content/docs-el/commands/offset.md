@@ -1,5 +1,5 @@
 ---
-title: Εντολή Offset — Δημιουργία Παράλληλων Αντιγράφων σε Σταθερή Απόσταση στο KulmanLab CAD
+title: Offset — Δημιουργία Παράλληλων Αντιγράφων σε Σταθερή Απόσταση
 description: Η εντολή Offset δημιουργεί παράλληλο αντίγραφο Line, Circle, Arc, Ellipse ή Polyline σε πληκτρολογημένη απόσταση. Η απόσταση εισάγεται μια φορά και επαναχρησιμοποιείται για πολλαπλά offset. Ένα κλικ πλευράς καθορίζει την κατεύθυνση. Πέντε τύποι οντοτήτων υποστηρίζονται.
 keywords: [CAD εντολή offset, παράλληλο αντίγραφο CAD, offset γραμμή CAD, offset κύκλος CAD, offset polyline CAD, ομόκεντρο offset, kulmanlab]
 group: edit

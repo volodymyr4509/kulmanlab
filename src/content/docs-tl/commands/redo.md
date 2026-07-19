@@ -1,5 +1,5 @@
 ---
-title: Redo Command — I-apply Muli ang mga Na-undo na Aksyon sa KulmanLab CAD
+title: Redo Command — I-apply Muli ang mga Na-undo na Aksyon
 description: Ina-apply muli ng Redo command ang huling aksyon na binaligtad ng Undo, na sumusulong sa history stack. Available lang ang Redo pagkatapos ng Undo at kinu-clear ito sa sandaling may bagong drawing action na gagawin.
 keywords: [CAD redo command, redo history CAD, i-apply muli ang aksyon CAD, undo redo CAD, browser persistent redo, kulmanlab]
 group: edit

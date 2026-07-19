@@ -1,5 +1,5 @@
 ---
-title: Befehl Leader+ — Einen Pfeilspitzen-Arm zu einer vorhandenen Mehrfachführungslinie hinzufügen in KulmanLab CAD
+title: Leader+ — Pfeilspitzen-Arm zu vorhandener Mehrfachführungslinie
 description: Der Befehl Leader+ fügt einer vorhandenen Mehrfachführungslinie einen neuen Pfeilspitzen-Arm hinzu. Der neue Arm teilt Knickpunkt, Text und alle Stileigenschaften der ausgewählten Führungslinie. Zwei Klicks — Führungslinie auswählen, neue Spitze platzieren.
 keywords: [CAD Führungslinie Arm hinzufügen, leader+ Befehl, Pfeil zur Führungslinie hinzufügen, Mehrfachführungslinie Arm, kulmanlab]
 group: markup

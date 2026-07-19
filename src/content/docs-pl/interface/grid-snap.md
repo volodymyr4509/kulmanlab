@@ -1,5 +1,5 @@
 ---
-title: Siatka i przyciąganie — Wyrównywanie rysunków do regularnej siatki w KulmanLab CAD
+title: Siatka i przyciąganie — Wyrównywanie rysunków do siatki
 description: Przełączniki Siatka i Przyciąganie w KulmanLab CAD nakładają siatkę odniesienia na płótno i blokują ruch kursora do punktów siatki. Odstępy siatki dostosowują się automatycznie do bieżącego poziomu powiększenia, aby zawsze pokazywać okrągłe wartości modelu.
 keywords: [siatka CAD, przyciąganie do siatki, odstępy siatki, narzędzia rysowania, kulmanlab, kropki siatki, przyciąganie ortogonalne]
 group: interface

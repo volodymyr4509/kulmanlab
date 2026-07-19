@@ -1,5 +1,5 @@
 ---
-title: "Zoom Out-Befehl — Ansicht um 1,5× pro Schritt verkleinern in KulmanLab CAD"
+title: "Zoom Out-Befehl — Ansicht um 1,5× pro Schritt verkleinern"
 description: "Der Zoom Out-Befehl teilt die aktuelle Zoomstufe durch 1,5× und beendet sich sofort. Zentriert auf den Viewport-Mittelpunkt. Verwenden Sie das Scrollrad zum Herauszoomen zum Cursor für feinere Kontrolle."
 keywords: [CAD Zoom Out, Ansicht verkleinern, Herauszoomen-Befehl, Übersicht CAD, "1,5×-Zoomschritt", kulmanlab]
 group: navigate

@@ -1,5 +1,5 @@
 ---
-title: "Comando Zoom In — Ampliar a Viewport em 1,5× por Passo no KulmanLab CAD"
+title: "Comando Zoom In — Ampliar a Viewport em 1,5× por Passo"
 description: "O comando Zoom In multiplica o nível de zoom atual por 1,5× e sai imediatamente, centralizado no ponto médio da viewport. Intervalo de zoom 0,01–10.000. Use a roda do mouse para ampliar na direção do cursor."
 keywords: [CAD zoom in, ampliar viewport, comando zoom CAD, passo zoom 1.5x, kulmanlab]
 group: navigate

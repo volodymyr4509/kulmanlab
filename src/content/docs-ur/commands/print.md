@@ -1,5 +1,5 @@
 ---
-title: "Print کمانڈ — KulmanLab CAD میں ڈرائنگ PNG، JPEG، WebP، یا PDF کے طور پر برآمد کریں"
+title: "Print کمانڈ — ڈرائنگ PNG، JPEG، WebP، یا PDF کے طور پر برآمد کریں"
 description: "Print کمانڈ Print Manager کھولتی ہے — براہ راست پیش نظارہ، فارمیٹ سلیکٹر، مونوکروم ٹوگل، اور اختیاری رقبہ انتخاب کے ساتھ ایک مخصوص برآمد ونڈو۔ 2000×2000 px تک برآمد کرتی ہے۔ PNG، JPEG، WebP، اور PDF سپورٹ کرتی ہے۔"
 keywords: [CAD PNG برآمد, CAD PDF برآمد, CAD ڈرائنگ پرنٹ, پرنٹ مینیجر, مونوکروم برآمد, kulmanlab برآمد]
 group: file

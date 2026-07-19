@@ -1,5 +1,5 @@
 ---
-title: "Comando Dimension Diameter — Anotar Diámetros Completos de Círculos y Arcos en KulmanLab CAD"
+title: "Dimension Diameter — Anotar Diámetros de Círculos y Arcos"
 description: "El comando Dimension Diameter coloca una cota de diámetro (con prefijo del símbolo de diámetro) a través de un arco o círculo pasando por el centro. Mueve el cursor para rotar la línea de cota a cualquier ángulo. Exportación completa a DXF como entidades DIMENSION de tipo diámetro."
 keywords: [cota de diámetro CAD, dimdiameter, anotar diámetro de círculo, cota de diámetro de arco, símbolo de diámetro CAD, kulmanlab]
 group: markup

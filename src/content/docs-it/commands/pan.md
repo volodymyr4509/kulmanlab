@@ -1,5 +1,5 @@
 ---
-title: Comando Pan — Navigazione della Vista Clic-e-Trascina in KulmanLab CAD
+title: Comando Pan — Navigazione della Vista Clic-e-Trascina
 description: Il comando Pan entra in una modalità di scorrimento persistente. Clicca e trascina ovunque sul canvas per spostare la vista senza modificare il livello di zoom. Il trascinamento con clic centrale funziona in qualsiasi momento senza attivare Pan.
 keywords: [CAD pan viewport, comando pan, trascina per navigare, scorrimento canvas CAD, navigazione viewport, kulmanlab]
 group: navigate

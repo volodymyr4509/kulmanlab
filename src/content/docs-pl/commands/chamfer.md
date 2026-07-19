@@ -1,5 +1,5 @@
 ---
-title: Polecenie Chamfer — Ścięcie prostego narożnika między dwiema liniami w KulmanLab CAD
+title: Chamfer — Ścięcie prostego narożnika między dwiema liniami
 description: Polecenie Chamfer łączy dwa elementy Linia lub Polilinia prostym ukośnym cięciem. Podajesz dwie odległości — jedną wzdłuż każdego elementu — a polecenie przycina oba do tych punktów i wstawia łączącą linię.
 keywords: [polecenie fazowania CAD, fazowanie linii CAD, ukośne cięcie narożnika, fazowanie narożnika CAD, kulmanlab]
 group: edit

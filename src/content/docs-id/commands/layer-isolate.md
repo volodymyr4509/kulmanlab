@@ -1,5 +1,5 @@
 ---
-title: LayerIsolate — Membekukan Semua Layer Kecuali yang Dipilih di KulmanLab CAD
+title: LayerIsolate — Membekukan Semua Layer Kecuali yang Dipilih
 description: Perintah LayerIsolate membekukan setiap layer kecuali yang digunakan oleh objek yang dipilih, memungkinkan Anda fokus pada geometri tertentu tanpa menghapus apa pun.
 keywords: [layer isolate, membekukan layer CAD, isolasi layer kulmanlab, manajemen layer CAD]
 group: layer

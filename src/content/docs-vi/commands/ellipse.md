@@ -1,5 +1,5 @@
 ---
-title: Lệnh Ellipse — Vẽ Hình Elip Xoay Theo Tâm và Hai Trục trong KulmanLab CAD
+title: Lệnh Ellipse — Vẽ Hình Elip Xoay Theo Tâm và Hai Trục
 description: Lệnh Ellipse vẽ hình elip bằng ba lần nhấp — tâm, điểm cuối trục đầu tiên (theo bất kỳ hướng nào), sau đó độ dài trục thứ hai. Hai trục luôn vuông góc. Mỗi bán trục có điểm kéo riêng để thay đổi kích thước độc lập sau khi đặt. Hỗ trợ DXF đầy đủ dưới dạng thực thể ELLIPSE.
 group: shapes
 order: 6

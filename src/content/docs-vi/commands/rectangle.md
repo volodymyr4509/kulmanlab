@@ -1,5 +1,5 @@
 ---
-title: Lệnh Rectangle — Vẽ Hình Chữ Nhật Căn Chỉnh Trục trong KulmanLab CAD
+title: Lệnh Rectangle — Vẽ Hình Chữ Nhật Căn Chỉnh Trục
 description: Lệnh Rectangle tạo một hình chữ nhật căn chỉnh trục từ hai góc đối diện. Kết quả là một LWPOLYLINE đóng với bốn đỉnh — giống hệt với bất kỳ đường đa đoạn nào khác sau khi đặt, vì vậy mọi lệnh chỉnh sửa đường đa đoạn đều áp dụng được.
 group: shapes
 order: 3

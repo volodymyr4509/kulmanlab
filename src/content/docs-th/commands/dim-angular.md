@@ -1,5 +1,5 @@
 ---
-title: Dimension Angular — วัดมุมระหว่างเส้น ส่วนโค้ง และวงกลมใน KulmanLab CAD
+title: Dimension Angular — วัดมุมระหว่างเส้น ส่วนโค้ง และวงกลม
 description: คำสั่ง DimensionAngular วางคำอธิบายมิติมุมบนเส้น ส่วนโค้ง หรือวงกลม รองรับโหมดมุมสองเส้น ช่วงส่วนโค้ง และเซกเตอร์วงกลม
 keywords: [มิติมุม CAD, มิติมุม, วัดมุมระหว่างเส้น, DimensionAngular, มิติส่วนโค้ง, คำอธิบายมุม, kulmanlab]
 group: markup

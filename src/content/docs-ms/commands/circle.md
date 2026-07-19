@@ -1,5 +1,5 @@
 ---
-title: Arahan Circle — Lukis Bulatan mengikut Pusat dan Jejari dalam KulmanLab CAD
+title: Arahan Circle — Lukis Bulatan mengikut Pusat dan Jejari
 description: Arahan Circle meletakkan bulatan dengan mengklik titik pusat kemudian mengklik atau menaip jejari. Empat grip kardinal membolehkan anda mengubah saiz jejari dengan menyeret tanpa menjalankan semula arahan. Pusingan penuh DXF sebagai entiti CIRCLE.
 keywords: [arahan bulatan CAD, lukis bulatan CAD, input jejari bulatan, grip ubah saiz bulatan, entiti DXF CIRCLE, dimradius bulatan, kulmanlab]
 group: shapes

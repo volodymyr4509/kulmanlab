@@ -1,5 +1,5 @@
 ---
-title: Arahan Angle — Ukur Sudut Dalam di Bucu Menggunakan Tiga Titik dalam KulmanLab CAD
+title: Arahan Angle — Ukur Sudut Dalam di Bucu Menggunakan Tiga Titik
 description: Arahan Angle mengukur sudut dalam (0°–180°) di bucu yang ditakrifkan oleh tiga titik yang diklik. Klik titik pertama, bucu, titik kedua. Hasilnya ditunjukkan dalam terminal kepada 4 titik perpuluhan.
 keywords: [CAD ukuran sudut, sudut tiga titik, sudut dalam CAD, arahan ukur sudut, sudut bucu, kulmanlab]
 group: measure

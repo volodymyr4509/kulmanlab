@@ -1,5 +1,5 @@
 ---
-title: Arahan Extend — Regangkan Titik Akhir Garis ke Sempadan Terdekat dalam KulmanLab CAD
+title: Arahan Extend — Regangkan Titik Akhir Garis ke Sempadan Terdekat
 description: Arahan Extend meregangkan titik akhir terdekat Line yang dituding ke persimpangan terdekat dengan entiti lain. Pratonton langsung menunjukkan garis yang dipanjangkan sebelum anda mengklik. Extend hanya berfungsi pada entiti Line dan mengabaikan Text, Spline, dan Multileader sebagai sempadan.
 keywords: [arahan panjang CAD, panjangkan garis CAD, regangkan garis ke sempadan, titik akhir garis panjang, pratonton hover panjang, kulmanlab]
 group: edit

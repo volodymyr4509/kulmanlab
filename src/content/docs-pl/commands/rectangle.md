@@ -1,5 +1,5 @@
 ---
-title: Polecenie Rectangle — Rysowanie prostokątów wyrównanych do osi w KulmanLab CAD
+title: Polecenie Rectangle — Rysowanie prostokątów wyrównanych do osi
 description: Polecenie Rectangle tworzy prostokąt wyrównany do osi z dwóch przeciwnych narożników. Wynikiem jest zamknięty element LWPOLYLINE z czterema wierzchołkami — identyczny z każdą inną polilinią po umieszczeniu, więc każde polecenie edycji polilinii ma do niego zastosowanie.
 keywords: [polecenie prostokąta CAD, rysowanie prostokąta CAD, prostokąt wyrównany do osi, zamknięta polilinia CAD, LWPOLYLINE DXF, edycja uchwytu prostokąta, kulmanlab]
 group: shapes

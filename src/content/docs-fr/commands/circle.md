@@ -1,5 +1,5 @@
 ---
-title: Commande Circle — Tracer des cercles par centre et rayon dans KulmanLab CAD
+title: Commande Circle — Tracer des cercles par centre et rayon
 description: La commande Circle place un cercle en cliquant sur un point central puis en cliquant ou saisissant le rayon. Quatre poignées cardinales permettent de redimensionner le rayon par glissement sans relancer la commande. Aller-retour DXF complet en tant qu'entités CIRCLE.
 keywords: [commande circle CAO, tracer cercle CAO, saisie rayon cercle, redimensionner cercle poignée, entité CIRCLE DXF, dimradius cercle, kulmanlab]
 group: shapes

@@ -1,5 +1,5 @@
 ---
-title: "Font Manager کمانڈ — KulmanLab CAD میں کسٹم TTF فونٹس اپ لوڈ اور منظم کریں"
+title: "Font Manager کمانڈ — کسٹم TTF فونٹس اپ لوڈ اور منظم کریں"
 description: "Font Manager کمانڈ فونٹس براؤز کرنے، پیش نظارہ کرنے، اور منتخب کرنے کے لیے، اور اپنی .ttf فائلیں اپ لوڈ کرنے کے لیے ایک ڈائیلاگ کھولتی ہے۔ اپ لوڈ کردہ فونٹس براؤزر میں محفوظ ہوتے ہیں اور DXF ایکسپورٹس میں نام کے ساتھ ایمبیڈ ہوتے ہیں۔"
 keywords: [font manager, کسٹم فونٹ CAD, ttf اپ لوڈ, کسٹم ٹائپ فیس CAD, google fonts CAD, ٹیکسٹ فونٹ CAD, kulmanlab]
 group: style

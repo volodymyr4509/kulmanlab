@@ -1,5 +1,5 @@
 ---
-title: Perintah Fit — Membingkai Semua Entitas dalam Viewport dengan Satu Klik di KulmanLab CAD
+title: Fit — Membingkai Semua Entitas dalam Viewport dengan Satu Klik
 description: Perintah Fit menghitung kotak pembatas semua entitas dan menyesuaikan zoom dan pan sehingga setiap entitas terlihat dengan margin kecil. Klik ganda tombol mouse tengah memicu Fit tanpa mengaktifkan perintah.
 keywords: [CAD fit view, zoom untuk fit, bingkai semua entitas, perintah fit CAD, zoom kotak pembatas, kulmanlab]
 group: navigate

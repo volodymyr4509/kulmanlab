@@ -1,5 +1,5 @@
 ---
-title: "Offset Command — Create Parallel Copies at a Fixed Distance in KulmanLab CAD"
+title: "Offset Command — Create Parallel Copies at a Fixed Distance"
 description: "Amri ya Offset huunda nakala sambamba ya Line, Circle, Arc, Ellipse, au Polyline kwa umbali uliowekwa. Umbali huingizwa mara moja na kutumika tena kwa offset nyingi. Bonyeza upande huamua upande gani nakala inaonekana. Aina tano za vipengele zinasaidiwa."
 keywords: [CAD offset command, parallel copy CAD, offset line CAD, offset circle CAD, offset polyline CAD, concentric offset, kulmanlab]
 group: edit

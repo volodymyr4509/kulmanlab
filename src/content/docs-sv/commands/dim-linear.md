@@ -1,5 +1,5 @@
 ---
-title: "Dimension Linear-kommandot — Horisontella och vertikala mått i KulmanLab CAD"
+title: "Dimension Linear-kommandot — Horisontella och vertikala mått"
 description: "Dimension Linear-kommandot mäter det horisontella eller vertikala avståndet mellan två punkter. Måttlinjen är alltid axelparallell — tryck H eller V för att låsa orienteringen, eller låt markörens position avgöra automatiskt. Fullständig DXF-rundtur som DIMENSION-entiteter."
 keywords: [CAD dimension linear, horisontellt mått CAD, vertikalt mått CAD, dimlinear, H V orienteringslås, måttförskjutning, kulmanlab]
 group: markup

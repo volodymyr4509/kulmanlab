@@ -1,5 +1,5 @@
 ---
-title: Dimension Continue Command — Chain Dimensions from an Existing Baseline in KulmanLab CAD
+title: Dimension Continue — Chain Dimensions from an Existing Baseline
 description: The Dimension Continue command extends a chain of dimensions from the second extension line of the last placed dimension. It inherits the base dimension's angle, offset, arrow size, and text height automatically. Works with both linear and aligned bases.
 keywords: [CAD dimension continue, dimcontinue, chain dimensions CAD, baseline dimension, continue dimension series, kulmanlab]
 group: markup

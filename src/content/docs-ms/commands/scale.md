@@ -1,5 +1,5 @@
 ---
-title: Arahan Scale — Ubah Saiz Entiti Secara Seragam di Sekitar Titik Asas dalam KulmanLab CAD
+title: Scale — Ubah Saiz Entiti Secara Seragam di Sekitar Titik Asas
 description: Arahan Scale mengubah saiz entiti yang dipilih secara seragam dengan faktor bertaip di sekitar titik asas tetap. Faktor sentiasa dimasukkan melalui papan kekunci — tiada klik-untuk-tetapkan-skala. Faktor lebih besar dari 1 membesarkan; kurang dari 1 mengecilkan. Setiap jenis entiti disokong.
 keywords: [arahan skala CAD, ubah saiz entiti CAD, skala objek CAD, skala seragam CAD, faktor skala CAD, besarkan kecilkan CAD, kulmanlab]
 group: edit

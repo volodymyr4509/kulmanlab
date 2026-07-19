@@ -1,5 +1,5 @@
 ---
-title: "Spline CV ਕਮਾਂਡ — KulmanLab CAD ਵਿੱਚ ਕੰਟਰੋਲ ਵਰਟਿਸਿਸ ਰੱਖ ਕੇ B-Spline ਖਿੱਚੋ"
+title: "Spline CV ਕਮਾਂਡ — ਕੰਟਰੋਲ ਵਰਟਿਸਿਸ ਰੱਖ ਕੇ B-Spline ਖਿੱਚੋ"
 description: "Spline CV ਕਮਾਂਡ ਕੰਟਰੋਲ ਵਰਟਿਸਿਸ ਰੱਖ ਕੇ ਕਿਊਬਿਕ B-spline ਖਿੱਚਦੀ ਹੈ। ਕਰਵ ਵਰਟਿਸਿਸ ਵੱਲ ਖਿੱਚਿਆ ਜਾਂਦਾ ਹੈ ਪਰ ਸਿਰਫ਼ ਪਹਿਲੇ ਅਤੇ ਆਖਰੀ ਵਿੱਚੋਂ ਲੰਘਦਾ ਹੈ (clamped knots)। ਹਰੇਕ CV ਗ੍ਰਿਪ ਨੂੰ ਰੱਖਣ ਤੋਂ ਬਾਅਦ ਕਰਵ ਨੂੰ ਮੁੜ-ਆਕਾਰ ਦੇਣ ਲਈ ਖਿੱਚਿਆ ਜਾ ਸਕਦਾ ਹੈ। SPLINE ਐਂਟਿਟੀਜ਼ ਵਜੋਂ ਪੂਰਾ DXF ਰਾਊਂਡ-ਟ੍ਰਿਪ।"
 keywords: [CAD spline command, B-spline control vertices, clamped spline CAD, draw spline CAD, SPLINE DXF entity, spline grip editing, kulmanlab]
 group: shapes

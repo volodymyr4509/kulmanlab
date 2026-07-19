@@ -1,5 +1,5 @@
 ---
-title: "Εντολή Zoom Out — Μείωση Ζουμ Viewport κατά 1.5× ανά Βήμα στο KulmanLab CAD"
+title: "Εντολή Zoom Out — Μείωση Ζουμ Viewport κατά 1.5× ανά Βήμα"
 description: "Η εντολή Zoom Out διαιρεί το τρέχον επίπεδο ζουμ κατά 1.5× και εξέρχεται αμέσως. Κεντρώνεται στο μέσο σημείο viewport. Χρησιμοποιήστε τη ρόδα κύλισης για ζουμ έξω προς τον κέρσορα για λεπτότερο έλεγχο."
 keywords: [CAD zoom out, μείωση ζουμ viewport, εντολή zoom out, επισκόπηση CAD, βήμα ζουμ 1.5x, kulmanlab]
 group: navigate

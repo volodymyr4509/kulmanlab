@@ -1,5 +1,5 @@
 ---
-title: Leader Command — Draw Multileader Annotations with Arrowhead and Text in KulmanLab CAD
+title: Leader — Draw Multileader Annotations with Arrowhead and Text
 description: "The Leader command draws a four-phase multileader annotation: arrowhead tip, dogleg elbow, text position, and typed label. Text direction adjusts automatically based on dogleg position. Import-only in DXF — leaders are not written on save."
 keywords: [CAD leader command, multileader annotation, leader CAD, arrow label annotation, dogleg leader, text direction CAD, kulmanlab]
 group: markup

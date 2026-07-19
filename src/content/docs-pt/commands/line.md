@@ -1,5 +1,5 @@
 ---
-title: Comando Line — Desenhar, Encadear, Aparar e Estender Linhas no KulmanLab CAD
+title: Comando Line — Desenhar, Encadear, Aparar e Estender Linhas
 description: O comando Line desenha segmentos de linha reta individuais que podem ser encadeados ponta a ponta. Linhas são o único tipo de entidade em que Trim e Extend funcionam. Round-trip DXF completo como entidades LINE.
 keywords: [CAD comando line, desenhar linha reta CAD, encadear segmentos linha, trim linha CAD, estender linha CAD, travamento ângulo CAD, entidade DXF LINE, kulmanlab]
 group: shapes

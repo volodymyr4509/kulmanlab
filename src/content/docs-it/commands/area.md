@@ -1,5 +1,5 @@
 ---
-title: Comando Area — Misura l'Area e il Perimetro di un Poligono in KulmanLab CAD
+title: Comando Area — Misura l'Area e il Perimetro di un Poligono
 description: Il comando Area misura l'area racchiusa e il perimetro di un poligono definito da 3 o più punti cliccati, usando la formula di Gauss (shoelace). Supporta l'inserimento direzionale con blocco angolare e un'evidenziazione persistente del risultato sul canvas.
 keywords: [CAD misura area, comando area, calcolo area poligono, misurazione perimetro, formula di Gauss, kulmanlab]
 group: measure

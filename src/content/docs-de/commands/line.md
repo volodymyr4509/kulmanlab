@@ -1,5 +1,5 @@
 ---
-title: Befehl line — Linien zeichnen, verketten, trimmen und verlängern in KulmanLab CAD
+title: Befehl line — Linien zeichnen, verketten, trimmen und verlängern
 description: Der Befehl line zeichnet einzelne gerade Liniensegmente, die end-to-end verkettet werden können. Linien sind der einzige Entitätstyp, auf den Trim und Extend wirken. Vollständiger DXF-Roundtrip als LINE-Entitäten.
 keywords: [CAD line Befehl, gerade Linie zeichnen CAD, Liniensegmente verketten, Linie trimmen CAD, Linie verlängern CAD, Winkelsperre CAD, DXF LINE Entität, kulmanlab]
 group: shapes

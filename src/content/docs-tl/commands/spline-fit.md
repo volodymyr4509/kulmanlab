@@ -1,5 +1,5 @@
 ---
-title: Spline Fit Command — Gumuhit ng Interpolating na Spline sa Pamamagitan ng Na-click na mga Punto sa KulmanLab CAD
+title: Spline Fit — Interpolating na Spline sa Na-click na mga Punto
 description: Ginuguhit ng Spline Fit command ang cubic spline na dumadaan sa bawat na-click na punto nang eksakto. Sa loob, nakaimbak ang curve gamit ang parehong fit points at computed control vertices. Ang pag-drag sa fit-point grip ay muling nag-i-interpolate ng buong curve. Full DXF round-trip bilang SPLINE entities.
 keywords: [CAD spline fit command, interpolating spline CAD, spline through points, gumuhit ng smooth curve CAD, SPLINE DXF fit points, spline grip editing, kulmanlab]
 group: shapes

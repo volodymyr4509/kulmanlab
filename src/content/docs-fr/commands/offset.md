@@ -1,5 +1,5 @@
 ---
-title: Commande Offset — Créer des copies parallèles à une distance fixe dans KulmanLab CAD
+title: Commande Offset — Créer des copies parallèles à une distance fixe
 description: La commande Offset crée une copie parallèle d'une Line, Circle, Arc, Ellipse ou Polyline à une distance saisie. La distance est saisie une fois et réutilisée pour plusieurs offsets. Un clic de côté détermine la direction de la copie. Cinq types d'entités supportés.
 keywords: [commande offset CAO, copie parallèle CAO, offset ligne CAO, offset cercle CAO, offset polyligne CAO, offset concentrique, kulmanlab]
 group: edit

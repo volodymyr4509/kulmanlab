@@ -1,5 +1,5 @@
 ---
-title: "Amri ya Arc — Chora Upinde wa Pointi Tatu Kwa Kutumia Njia ya Circumcircle katika KulmanLab CAD"
+title: "Arc — Chora Upinde wa Pointi Tatu kwa Njia ya Circumcircle"
 description: "Amri ya Arc inachora upinde wa mduara kupitia pointi tatu zilizopigiwa klik kwa kutumia jiometri ya circumcircle. Vipeo vya mwanzo na mwisho hukuruhusu kuburuta ncha za upinde hadi pembe na radi mpya baada ya kuweka. Mzunguko kamili wa DXF kama vipengele vya ARC."
 keywords: [amri ya arc ya CAD, upinde wa pointi tatu CAD, upinde wa circumcircle, chora arc CAD, kipengele cha ARC DXF, uhariri wa kipeo cha arc, kulmanlab]
 group: shapes

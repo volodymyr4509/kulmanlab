@@ -1,5 +1,5 @@
 ---
-title: Export — I-download ang mga Drawing bilang DXF o JSON sa KulmanLab CAD
+title: Export — I-download ang mga Drawing bilang DXF o JSON
 description: Ida-download ng Export command ang kasalukuyang drawing bilang isang DXF o JSON (native) file. Pinapanatili ng JSON ang lahat ng entities kasama ang dimensions at leaders; ang DXF ay compatible sa iba pang CAD tools.
 keywords: [i-export ang DXF, i-export ang CAD file, i-download ang DXF sa browser, i-save ang DXF online, i-export ang JSON CAD, KulmanLab export, CAD file download, DXF export, i-save ang drawing bilang file, DXF download]
 group: file

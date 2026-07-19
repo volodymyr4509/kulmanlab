@@ -1,5 +1,5 @@
 ---
-title: Print Command — Export the Drawing as PNG, JPEG, WebP, or PDF in KulmanLab CAD
+title: Print Command — Export the Drawing as PNG, JPEG, WebP, or PDF
 description: The Print command opens the Print Manager — a dedicated export window with a live preview, format selector, monochrome toggle, and optional area selection. Exports up to 2000×2000 px. Supports PNG, JPEG, WebP, and PDF.
 keywords: [CAD export PNG, CAD export PDF, print CAD drawing, print manager, monochrome export, kulmanlab export]
 group: file

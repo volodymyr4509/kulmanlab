@@ -1,5 +1,5 @@
 ---
-title: "ตัวเลือก Linetype บนแถบเครื่องมือ — ควบคุมรูปแบบเส้นประใน KulmanLab CAD"
+title: "ตัวเลือก Linetype บนแถบเครื่องมือ — ควบคุมรูปแบบเส้นประ"
 description: "ตัวเลือก linetype ในแถบเครื่องมือ KulmanLab CAD ตั้งรูปแบบเส้นประที่ใช้กับวัตถุที่วาดใหม่ทั้งหมด รองรับ linetypes ทั้งหมดที่โหลดจากไฟล์ DXF ปัจจุบัน รวมถึงตัวเลือก ByLayer, ByBlock และ Continuous ในตัว"
 keywords: [CAD linetype, รูปแบบเส้นประ, เส้นประ, DXF linetype, ByLayer linetype, kulmanlab]
 group: interface

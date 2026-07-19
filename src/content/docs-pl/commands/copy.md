@@ -1,5 +1,5 @@
 ---
-title: Polecenie Copy — Duplikowanie elementów w nowej pozycji w KulmanLab CAD
+title: Polecenie Copy — Duplikowanie elementów w nowej pozycji
 description: Polecenie Copy tworzy przetłumaczone duplikaty zaznaczonych elementów, pozostawiając oryginały na miejscu. Obsługuje wstępne zaznaczanie, blokowanie kąta i dokładne wprowadzanie odległości. Kopie są umieszczane i polecenie kończy się; oryginały pozostają bez zmian.
 keywords: [polecenie kopiowania CAD, duplikowanie elementów CAD, kopiowanie obiektów CAD, klonowanie geometrii CAD, blokowanie kąta kopiowania, dokładna odległość kopiowania, kulmanlab]
 group: edit

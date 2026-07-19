@@ -1,5 +1,5 @@
 ---
-title: Befehl offset — Parallele Kopien in einem festen Abstand erstellen in KulmanLab CAD
+title: offset — Parallele Kopien in einem festen Abstand erstellen
 description: Der Befehl offset erstellt eine parallele Kopie einer Linie, eines Kreises, eines Bogens, einer Ellipse oder einer Polylinie in einem eingegebenen Abstand. Der Abstand wird einmal eingegeben und für mehrere Versatze wiederverwendet. Ein Seitenklick bestimmt, in welche Richtung die Kopie erscheint. Fünf Entitätstypen unterstützt.
 keywords: [CAD offset Befehl, parallele Kopie CAD, Linie versetzen CAD, Kreis versetzen CAD, Polylinie versetzen CAD, konzentrischer Versatz, kulmanlab]
 group: edit

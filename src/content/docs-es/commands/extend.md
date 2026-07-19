@@ -1,5 +1,5 @@
 ---
-title: Comando Extend — Estirar un Extremo de Línea hasta el Límite Más Cercano en KulmanLab CAD
+title: Extend — Estirar un Extremo de Línea hasta el Límite Más Cercano
 description: El comando Extend estira el extremo más cercano de una línea sobre la que se pasa el cursor hasta la intersección más próxima con otra entidad. Una vista previa en vivo muestra la línea extendida antes de hacer clic. Extend funciona solo con entidades Line e ignora Text, Spline y Multileader como límites.
 keywords: [comando extend CAD, extender línea CAD, estirar línea hasta límite, extremo de línea extend, vista previa extend al pasar el cursor, kulmanlab]
 group: edit

@@ -1,5 +1,5 @@
 ---
-title: Comando leader — Dibujar anotaciones multireferencia con punta de flecha y texto en KulmanLab CAD
+title: leader — Dibujar anotaciones multireferencia con flecha y texto
 description: "El comando leader dibuja una anotación multireferencia en cuatro fases: punta de flecha, codo de quiebre, posición del texto y etiqueta escrita. La dirección del texto se ajusta automáticamente según la posición del quiebre. Solo importación en DXF — las referencias no se escriben al guardar."
 keywords: [comando leader CAD, anotación multireferencia, referencia CAD, anotación con etiqueta y flecha, referencia con quiebre, dirección de texto CAD, kulmanlab]
 group: markup

@@ -1,5 +1,5 @@
 ---
-title: Polyline Komutu — KulmanLab CAD'de Çok Segmentli Yolları Tek Nesne Olarak Çiz
+title: Polyline Komutu — Çok Segmentli Yolları Tek Nesne Olarak Çiz
 description: Polyline komutu, tek bir LWPOLYLINE nesnesi olarak saklanan herhangi sayıda bağlantılı segmenti çizer. Köşe ve segment orta nokta tutamaçları, oluşturma sonrasında yolun herhangi bir bölümünü yeniden şekillendirmeye olanak tanır. Offset'i destekler; Trim ve Extend'i desteklemez.
 keywords: [CAD polyline komutu, çoklu çizgi çiz CAD, çok segmentli yol CAD, LWPOLYLINE DXF, çoklu çizgiyi yeniden şekillendir, köşe tutamacı CAD, çoklu çizgi ofseti, kulmanlab]
 group: shapes

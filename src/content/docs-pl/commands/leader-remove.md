@@ -1,5 +1,5 @@
 ---
-title: "Polecenie Leader− — Usuwanie ramienia z grotem z linii wielokierunkowej w KulmanLab CAD"
+title: "Leader− — Usuwanie ramienia z grotem z linii wielokierunkowej"
 description: "Polecenie Leader− usuwa jedno ramię z grotem z linii wielokierunkowej mającej dwa lub więcej. Najedź kursorem blisko ramienia do usunięcia — najbliższe ramię jest podświetlane. Dogleg, tekst i pozostałe ramiona są zachowywane."
 keywords: [CAD usuwanie ramienia linii prowadzącej, polecenie leader-, usuń strzałkę z linii prowadzącej, usuwanie ramienia linii wielokierunkowej, kulmanlab]
 group: markup

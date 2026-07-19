@@ -1,5 +1,5 @@
 ---
-title: Lệnh Fit — Đóng Khung Tất Cả Thực Thể Trong Khung Nhìn Bằng Một Nhấp trong KulmanLab CAD
+title: Fit — Đóng Khung Tất Cả Thực Thể Trong Khung Nhìn Bằng Một Nhấp
 description: Lệnh Fit tính hộp bao của tất cả thực thể và điều chỉnh phóng to/thu nhỏ và di chuyển để mọi thực thể đều hiển thị với một khoảng lề nhỏ. Nhấp đúp chuột giữa kích hoạt Fit mà không cần kích hoạt lệnh.
 group: navigate
 order: 4

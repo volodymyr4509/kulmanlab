@@ -1,5 +1,5 @@
 ---
-title: "Amri ya Delete — Ondoa Vipengele kutoka kwenye Mchoro katika KulmanLab CAD"
+title: "Amri ya Delete — Ondoa Vipengele kutoka kwenye Mchoro"
 description: "Amri ya Delete huondoa vipengele vilivyochaguliwa kwa kudumu (inaweza kutendulewa). Vipengele vilivyochaguliwa mapema vinafutwa mara moja bila hatua ya uthibitisho. Kitufe cha Delete kinafanya kazi kama mkato wa ulimwengu hata bila kuamilisha amri. Inasaidia uchaguzi wa klik moja na wa eneo."
 keywords: [amri ya delete ya CAD, ondoa vipengele CAD, futa vitu CAD, kitufe cha delete CAD, tendua delete CAD, kulmanlab]
 group: edit

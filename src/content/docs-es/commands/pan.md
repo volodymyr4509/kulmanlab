@@ -1,5 +1,5 @@
 ---
-title: Comando pan — Navegación de la vista por clic y arrastre en KulmanLab CAD
+title: Comando pan — Navegación de la vista por clic y arrastre
 description: El comando pan entra en un modo persistente de arrastre para desplazar la vista. Haz clic y arrastra en cualquier parte del lienzo para desplazar la vista sin cambiar el nivel de zoom. El arrastre con el botón central del ratón funciona en cualquier momento sin activar Pan.
 keywords: [desplazar vista CAD, comando pan, arrastrar para navegar, desplazar lienzo CAD, navegación de viewport, kulmanlab]
 group: navigate

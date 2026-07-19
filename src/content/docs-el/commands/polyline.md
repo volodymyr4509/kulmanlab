@@ -1,5 +1,5 @@
 ---
-title: Εντολή Polyline — Σχεδίαση Πολυτμηματικών Μονοπατιών ως Μία Οντότητα στο KulmanLab CAD
+title: Polyline — Σχεδίαση Πολυτμηματικών Μονοπατιών ως Μία Οντότητα
 description: Η εντολή Polyline σχεδιάζει οποιοδήποτε πλήθος συνδεδεμένων τμημάτων αποθηκευμένα ως μία οντότητα LWPOLYLINE. Τα grips κορυφής και μέσου τμήματος επιτρέπουν αναδιαμόρφωση οποιουδήποτε τμήματος μετά τη δημιουργία. Υποστηρίζει offset· δεν υποστηρίζει trim ή extend.
 keywords: [CAD εντολή polyline, σχεδίαση polyline CAD, πολυτμηματικό μονοπάτι CAD, LWPOLYLINE DXF, αναδιαμόρφωση polyline, grip κορυφής CAD, offset polyline, kulmanlab]
 group: shapes

@@ -1,5 +1,5 @@
 ---
-title: Dimension Continue-kommandot — Kedja mått från en befintlig baslinje i KulmanLab CAD
+title: Dimension Continue — Kedja mått från en befintlig baslinje
 description: Dimension Continue-kommandot förlänger en kedja av mått från den andra hjälplinjen i det senast placerade måttet. Det ärver automatiskt basmåttets vinkel, avstånd, pilstorlek och texthöjd. Fungerar med både linjära och inriktade baser.
 keywords: [CAD dimension continue, dimcontinue, kedja mått CAD, baslinjemått, fortsätt måttserie, kulmanlab]
 group: markup

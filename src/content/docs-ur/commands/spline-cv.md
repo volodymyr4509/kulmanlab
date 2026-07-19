@@ -1,5 +1,5 @@
 ---
-title: "Spline CV کمانڈ — KulmanLab CAD میں کنٹرول ورٹیکسیز رکھ کر B-Splines بنائیں"
+title: "Spline CV کمانڈ — کنٹرول ورٹیکسیز رکھ کر B-Splines بنائیں"
 description: "Spline CV کمانڈ کنٹرول ورٹیکسیز رکھ کر cubic B-spline بناتی ہے۔ وکر ورٹیکسیز کی طرف کھنچتا ہے لیکن صرف پہلے اور آخری سے گزرتا ہے (clamped knots)۔ ہر CV گرپ وکر کو دوبارہ تشکیل دینے کے لیے ڈریگ کیا جا سکتا ہے۔ SPLINE اشیاء کے طور پر مکمل DXF راؤنڈ ٹرپ۔"
 keywords: [CAD spline کمانڈ, B-spline کنٹرول ورٹیکسیز, clamped spline CAD, spline بنائیں CAD, SPLINE DXF اینٹیٹی, spline گرپ ترمیم, kulmanlab]
 group: shapes

@@ -1,5 +1,5 @@
 ---
-title: Polecenie Move — Translacja zaznaczonych elementów przez punkt bazowy w KulmanLab CAD
+title: Move — Translacja zaznaczonych elementów przez punkt bazowy
 description: Polecenie Move transluje jeden lub więcej zaznaczonych elementów przez punkt bazowy i punkt docelowy. Obsługuje wstępne zaznaczanie, blokowanie kąta i dokładne wprowadzanie odległości. Po przesunięciu elementy pozostają zaznaczone w nowej pozycji. Każdy typ elementu jest obsługiwany.
 keywords: [polecenie przesuwania CAD, translacja elementów CAD, przesuwanie obiektów CAD, blokowanie kąta przesunięcia, dokładna odległość przesunięcia, przesunięcie uchwytem CAD, kulmanlab]
 group: edit

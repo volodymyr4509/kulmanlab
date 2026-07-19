@@ -1,5 +1,5 @@
 ---
-title: Perintah Rotate — Memutar Entitas di Sekitar Titik Dasar di KulmanLab CAD
+title: Perintah Rotate — Memutar Entitas di Sekitar Titik Dasar
 description: Perintah Rotate memutar entitas yang dipilih di sekitar titik dasar yang dipilih. Sudut dapat diketik secara tepat atau ditetapkan dengan mengklik — arah kursor dari titik dasar ke klik menentukan sudutnya. Sudut positif berlawanan arah jarum jam dalam koordinat DXF.
 keywords: [perintah putar CAD, memutar entitas CAD, memutar objek sudut, rotasi berlawanan arah jarum jam CAD, sudut yang diketik putar, kulmanlab]
 group: edit

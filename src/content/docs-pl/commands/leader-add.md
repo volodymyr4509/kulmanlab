@@ -1,5 +1,5 @@
 ---
-title: Polecenie Leader+ — Dodawanie ramienia z grotem do istniejącej linii wielokierunkowej w KulmanLab CAD
+title: Leader+ — Dodawanie ramienia z grotem do linii wielokierunkowej
 description: Polecenie Leader+ dodaje nowe ramię z grotem do istniejącej linii wielokierunkowej. Nowe ramię dzieli dogleg, tekst i całe formatowanie wybranej linii prowadzącej. Dwa kliknięcia — zaznacz linię prowadzącą, umieść nowy grot.
 keywords: [CAD dodawanie ramienia linii prowadzącej, polecenie leader+, dodaj strzałkę do linii prowadzącej, ramię linii wielokierunkowej, kulmanlab]
 group: markup

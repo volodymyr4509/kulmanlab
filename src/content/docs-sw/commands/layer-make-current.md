@@ -1,5 +1,5 @@
 ---
-title: LayerMakeCurrent — Weka Safu ya Kitu kama ya Sasa katika KulmanLab CAD
+title: LayerMakeCurrent — Weka Safu ya Kitu kama ya Sasa
 description: "Amri ya LayerMakeCurrent inaweka safu ya kuchora ya sasa ilingane na safu ya kitu kilichobonyezwa."
 keywords: [layer make current, set current layer CAD, kulmanlab layer management]
 group: layer

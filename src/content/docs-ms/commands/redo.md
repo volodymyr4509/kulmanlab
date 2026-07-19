@@ -1,5 +1,5 @@
 ---
-title: Arahan Redo — Gunakan Semula Tindakan yang Dibatalkan dalam KulmanLab CAD
+title: Arahan Redo — Gunakan Semula Tindakan yang Dibatalkan
 description: Arahan Redo menggunakan semula tindakan terakhir yang dibalikkan oleh Undo, melangkah ke hadapan melalui tindanan sejarah. Redo hanya tersedia selepas Undo dan dibersihkan serta-merta apabila mana-mana tindakan lukisan baharu dilakukan.
 keywords: [arahan buat semula CAD, sejarah buat semula CAD, gunakan semula tindakan CAD, batal buat semula CAD, buat semula berterusan pelayar, kulmanlab]
 group: edit

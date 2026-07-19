@@ -1,5 +1,5 @@
 ---
-title: "LayerMakeCurrent — KulmanLab CAD میں کسی اینٹیٹی کا لیئر موجودہ بنائیں"
+title: "LayerMakeCurrent — کسی اینٹیٹی کا لیئر موجودہ بنائیں"
 description: "LayerMakeCurrent کمانڈ موجودہ ڈرائنگ لیئر کو کلک کی گئی اینٹیٹی کے لیئر سے ملانے کے لیے سیٹ کرتی ہے۔"
 keywords: [لیئر موجودہ بنائیں, موجودہ لیئر سیٹ CAD, kulmanlab لیئر مینجمنٹ]
 group: layer

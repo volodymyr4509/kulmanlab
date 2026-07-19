@@ -1,5 +1,5 @@
 ---
-title: "PageManager Command — Edit Layout Paper Size and Scale in KulmanLab CAD"
+title: "PageManager Command — Edit Layout Paper Size and Scale"
 description: "Amri ya PageManager hufungua paneli ya mipangilio ya ukurasa kwa mpangilio unaotumika, ambapo unaweza kubadilisha muundo wa karatasi, mwelekeo, na kiwango cha vitengo vya mchoro."
 keywords: [page manager, layout settings, paper size, drawing scale, layout space, kulmanlab]
 group: layouts

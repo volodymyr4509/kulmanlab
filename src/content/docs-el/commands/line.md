@@ -1,5 +1,5 @@
 ---
-title: Εντολή Line — Σχεδίαση, Αλυσίδα, Trim και Extend Γραμμών στο KulmanLab CAD
+title: Εντολή Line — Σχεδίαση, Αλυσίδα, Trim και Extend Γραμμών
 description: Η εντολή Line σχεδιάζει μεμονωμένα ευθύγραμμα τμήματα που μπορούν να αλυσιδωθούν άκρο-με-άκρο. Οι γραμμές είναι ο μοναδικός τύπος αντικειμένου στον οποίο λειτουργούν οι Trim και Extend. Πλήρης DXF round-trip ως οντότητες LINE.
 keywords: [εντολή line CAD, σχεδίαση ευθείας γραμμής, αλυσίδα τμημάτων γραμμής, trim line CAD, extend line CAD, angle lock CAD, DXF LINE entity, kulmanlab]
 group: shapes

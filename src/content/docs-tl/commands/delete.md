@@ -1,5 +1,5 @@
 ---
-title: "Delete Command — Tanggalin ang mga Entity sa Drawing sa KulmanLab CAD"
+title: "Delete Command — Tanggalin ang mga Entity sa Drawing"
 description: "Permanenteng tinatanggal ng Delete command ang napiling entity (puwedeng i-undo). Agad na natatanggal ang mga pre-selected na entity nang walang hakbang ng kumpirmasyon. Gumagana ang Delete key bilang global shortcut kahit hindi in-a-activate ang command. Sinusuportahan ang single-click at area selection."
 keywords: [CAD delete command, tanggalin ang entity CAD, burahin ang objects CAD, delete key CAD, i-undo ang delete CAD, kulmanlab]
 group: edit

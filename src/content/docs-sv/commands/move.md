@@ -1,5 +1,5 @@
 ---
-title: "Move-kommandot — Flytta valda entiteter via en basspunkt i KulmanLab CAD"
+title: "Move-kommandot — Flytta valda entiteter via en basspunkt"
 description: "Move-kommandot flyttar en eller flera valda entiteter från en basspunkt till en destination. Stöder förval, vinkellås och exakt avståndsinmatning. Efter flytten förblir entiteterna valda på sin nya position. Alla entitetstyper stöds."
 keywords: [CAD move-kommando, flytta entiteter CAD, flytta objekt CAD, vinkellås flytt, exakt avstånd flytt, greppflytt CAD, kulmanlab]
 group: edit

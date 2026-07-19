@@ -1,5 +1,5 @@
 ---
-title: Circle Command — Gumuhit ng mga Circle gamit ang Center at Radius sa KulmanLab CAD
+title: Circle Command — Gumuhit ng mga Circle gamit ang Center at Radius
 description: Inilalagay ng Circle command ang circle sa pamamagitan ng pag-click sa center point at pagkatapos ay pag-click o pag-type ng radius. Apat na cardinal grip ang nagpapahintulot sa iyo na i-resize ang radius sa pag-drag nang hindi na kailangang ulitin ang command. Full DXF round-trip bilang CIRCLE entities.
 keywords: [CAD circle command, gumuhit ng circle CAD, circle radius input, i-resize ang circle grip, CIRCLE DXF entity, dimradius circle, kulmanlab]
 group: shapes

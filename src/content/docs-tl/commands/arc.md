@@ -1,5 +1,5 @@
 ---
-title: Arc Command — Gumuhit ng Three-Point Arc gamit ang Circumcircle Method sa KulmanLab CAD
+title: Arc — Gumuhit ng Three-Point Arc gamit ang Circumcircle Method
 description: Ginuguhit ng Arc command ang circular arc sa pamamagitan ng eksaktong tatlong na-click na punto gamit ang circumcircle geometry. Ang start at end grip ay nagpapahintulot sa iyo na i-drag ang mga endpoint ng arc papunta sa bagong angle at radius pagkatapos mailagay. Full DXF round-trip bilang ARC entities.
 keywords: [CAD arc command, three point arc CAD, circumcircle arc, gumuhit ng arc CAD, ARC DXF entity, arc grip editing, kulmanlab]
 group: shapes

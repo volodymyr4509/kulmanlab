@@ -1,5 +1,5 @@
 ---
-title: "Amri ya Leader+ — Ongeza Mkono wa Mshale kwenye Multileader Iliyopo katika KulmanLab CAD"
+title: "Leader+ — Ongeza Mkono wa Mshale kwenye Multileader Iliyopo"
 description: "Amri ya Leader+ inaongeza mkono mpya wa mshale kwenye multileader iliyopo. Mkono mpya unashiriki dogleg, maandishi, na mtindo wote wa kiongozi kilichochaguliwa. Mibonyezo miwili — chagua kiongozi, weka ncha mpya."
 keywords: [CAD leader add arm, leader+ command, add arrow to leader, multileader arm, kulmanlab]
 group: markup

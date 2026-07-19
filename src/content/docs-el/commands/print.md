@@ -1,5 +1,5 @@
 ---
-title: Εντολή Print — Εξαγωγή Σχεδίου ως PNG, JPEG, WebP ή PDF στο KulmanLab CAD
+title: Εντολή Print — Εξαγωγή Σχεδίου ως PNG, JPEG, WebP ή PDF
 description: Η εντολή Print ανοίγει τον Print Manager — ειδικό παράθυρο εξαγωγής με ζωντανή προεπισκόπηση, επιλογέα μορφής, εναλλαγή ασπρόμαυρου και προαιρετική επιλογή περιοχής. Εξαγωγή έως 2000×2000 px. Υποστηρίζει PNG, JPEG, WebP και PDF.
 keywords: [CAD εξαγωγή PNG, CAD εξαγωγή PDF, εκτύπωση σχεδίου CAD, print manager, ασπρόμαυρη εξαγωγή, kulmanlab export]
 group: file

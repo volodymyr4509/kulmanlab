@@ -1,5 +1,5 @@
 ---
-title: Comando print — Exportar el dibujo como PNG, JPEG, WebP o PDF en KulmanLab CAD
+title: Comando print — Exportar el dibujo como PNG, JPEG, WebP o PDF
 description: El comando print abre el Administrador de Impresión — una ventana de exportación dedicada con vista previa en tiempo real, selector de formato, opción de escala de grises y selección opcional de área. Exporta hasta 2000×2000 px. Admite PNG, JPEG, WebP y PDF.
 keywords: [exportar PNG CAD, exportar PDF CAD, imprimir dibujo CAD, administrador de impresión, exportar en escala de grises, exportar kulmanlab]
 group: file

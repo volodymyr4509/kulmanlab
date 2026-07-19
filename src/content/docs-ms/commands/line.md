@@ -1,5 +1,5 @@
 ---
-title: Arahan Line — Lukis, Rantai, Potong dan Panjangkan Garis dalam KulmanLab CAD
+title: Arahan Line — Lukis, Rantai, Potong dan Panjangkan Garis
 description: Arahan Line melukis segmen garis lurus individu yang boleh dirantai hujung ke hujung. Garis adalah satu-satunya jenis entiti yang Trim dan Extend beroperasi padanya. Pusingan penuh DXF sebagai entiti LINE.
 keywords: [arahan garis CAD, lukis garis lurus CAD, rantai segmen garis, potong garis CAD, panjangkan garis CAD, kunci sudut CAD, entiti DXF LINE, kulmanlab]
 group: shapes

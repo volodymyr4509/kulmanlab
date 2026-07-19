@@ -1,5 +1,5 @@
 ---
-title: Arc Command — Draw Three-Point Arcs Using the Circumcircle Method in KulmanLab CAD
+title: Arc Command — Draw Three-Point Arcs Using the Circumcircle Method
 description: The Arc command draws a circular arc through exactly three clicked points using circumcircle geometry. Start and end grips let you drag the arc endpoints to a new angle and radius after placement. Full DXF round-trip as ARC entities.
 keywords: [CAD arc command, three point arc CAD, circumcircle arc, draw arc CAD, ARC DXF entity, arc grip editing, kulmanlab]
 group: shapes

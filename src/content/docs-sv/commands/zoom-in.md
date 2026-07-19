@@ -1,5 +1,5 @@
 ---
-title: "Zoom In-kommandot — Förstora vyporten med 1,5× per steg i KulmanLab CAD"
+title: "Zoom In-kommandot — Förstora vyporten med 1,5× per steg"
 description: "Zoom In-kommandot multiplicerar den aktuella zoomnivån med 1,5× och avslutas omedelbart. Centreras på vyportens mittpunkt. Zoomintervall 0,01–10 000. Använd scrollhjulet för att zooma mot markören istället."
 keywords: [CAD zooma in, förstora vyport, zoom-kommando CAD, "1,5x zoomsteg", kulmanlab]
 group: navigate

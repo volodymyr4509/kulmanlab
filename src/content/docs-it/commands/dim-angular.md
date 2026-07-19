@@ -1,5 +1,5 @@
 ---
-title: Dimension Angular — Misura Angoli tra Linee, Archi e Cerchi in KulmanLab CAD
+title: Dimension Angular — Misura Angoli tra Linee, Archi e Cerchi
 description: Il comando DimensionAngular posiziona una quota angolare su linee, archi o cerchi. Supporta le modalità angolo tra due linee, estensione arco e settore cerchio.
 keywords: [quota angolare CAD, dimensione angolo, misura angolo tra linee, DimensionAngular, quota arco, annotazione angolo, kulmanlab]
 group: markup

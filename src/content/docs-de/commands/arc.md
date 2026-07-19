@@ -1,5 +1,5 @@
 ---
-title: Arc-Befehl — Drei-Punkt-Bögen mit der Umkreismethode zeichnen in KulmanLab CAD
+title: Arc-Befehl — Drei-Punkt-Bögen mit der Umkreismethode zeichnen
 description: Der Arc-Befehl zeichnet einen Kreisbogen durch genau drei geklickte Punkte mithilfe der Umkreisgeometrie. Start- und End-Griffpunkte ermöglichen das Ziehen der Bogenendpunkte nach der Platzierung. Vollständiger DXF-Austausch als ARC-Elemente.
 keywords: [CAD-Bogenbefehl, Drei-Punkt-Bogen CAD, Umkreis-Bogen, Bogen zeichnen CAD, ARC DXF-Element, Bogen-Griffpunkt-Bearbeitung, kulmanlab]
 group: shapes

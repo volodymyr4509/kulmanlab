@@ -1,5 +1,5 @@
 ---
-title: Lệnh Spline CV — Vẽ B-Spline Bằng Cách Đặt Điểm Kiểm Soát trong KulmanLab CAD
+title: Lệnh Spline CV — Vẽ B-Spline Bằng Cách Đặt Điểm Kiểm Soát
 description: Lệnh Spline CV vẽ B-spline bậc ba bằng cách đặt các điểm kiểm soát. Đường cong bị hút về phía các điểm kiểm soát nhưng chỉ đi qua điểm đầu và cuối (nút kẹp chặt). Mỗi điểm kéo CV có thể được kéo để định hình lại đường cong sau khi đặt. Hỗ trợ DXF đầy đủ dưới dạng thực thể SPLINE.
 group: shapes
 order: 8

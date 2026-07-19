@@ -1,5 +1,5 @@
 ---
-title: Font Manager ਕਮਾਂਡ — KulmanLab CAD ਵਿੱਚ ਕਸਟਮ TTF ਫੌਂਟ ਅੱਪਲੋਡ ਅਤੇ ਪ੍ਰਬੰਧਿਤ ਕਰੋ
+title: Font Manager ਕਮਾਂਡ — ਕਸਟਮ TTF ਫੌਂਟ ਅੱਪਲੋਡ ਅਤੇ ਪ੍ਰਬੰਧਿਤ ਕਰੋ
 description: Font Manager ਕਮਾਂਡ ਫੌਂਟਾਂ ਨੂੰ ਬ੍ਰਾਊਜ਼ ਕਰਨ, ਪ੍ਰੀਵਿਊ ਕਰਨ ਅਤੇ ਚੁਣਨ ਲਈ, ਅਤੇ ਆਪਣੀਆਂ .ttf ਫਾਈਲਾਂ ਅੱਪਲੋਡ ਕਰਨ ਲਈ ਇੱਕ ਡਾਇਲਾਗ ਖੋਲ੍ਹਦੀ ਹੈ। ਅੱਪਲੋਡ ਕੀਤੇ ਫੌਂਟ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਸੇਵ ਹੁੰਦੇ ਹਨ ਅਤੇ DXF ਐਕਸਪੋਰਟਾਂ ਵਿੱਚ ਨਾਮ ਅਨੁਸਾਰ ਸ਼ਾਮਲ ਹੁੰਦੇ ਹਨ।
 keywords: [font manager, ਕਸਟਮ ਫੌਂਟ CAD, TTF ਅੱਪਲੋਡ ਕਰੋ, ਕਸਟਮ ਟਾਈਪਫੇਸ CAD, google fonts CAD, ਟੈਕਸਟ ਫੌਂਟ CAD, kulmanlab]
 group: style

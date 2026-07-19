@@ -1,5 +1,5 @@
 ---
-title: Commande Leader — Dessiner des annotations multirépères avec flèche et texte dans KulmanLab CAD
+title: Leader — Annotation multirépère avec flèche et texte
 description: "La commande Leader dessine une annotation multirépère en quatre phases : pointe de flèche, coude de brisure, position du texte et libellé saisi. La direction du texte s'ajuste automatiquement selon la position du coude. Importation DXF uniquement — les répères ne sont pas écrits lors de l'enregistrement."
 keywords: [commande leader CAO, annotation multirépère, répère CAO, annotation flèche texte, répère avec coude, direction texte CAO, kulmanlab]
 group: markup

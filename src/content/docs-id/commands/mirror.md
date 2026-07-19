@@ -1,5 +1,5 @@
 ---
-title: Perintah Mirror — Memantulkan Entitas Melintasi Sumbu Dua Titik di KulmanLab CAD
+title: Perintah Mirror — Memantulkan Entitas Melintasi Sumbu Dua Titik
 description: Perintah Mirror memantulkan entitas yang dipilih melintasi garis cermin yang ditentukan oleh dua klik. Aslinya selalu dipertahankan — Mirror membuat salinan yang dicerminkan yang baru. Sumbu cermin dapat berada pada sudut mana saja dan snap ke kelipatan 45°.
 keywords: [perintah cermin CAD, memantulkan entitas CAD, simetri cermin CAD, membalik objek CAD, sumbu cermin CAD, kulmanlab]
 group: edit

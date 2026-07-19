@@ -1,5 +1,5 @@
 ---
-title: Dimension Angular — Mesurer les Angles Entre Lignes, Arcs et Cercles dans KulmanLab CAD
+title: Dimension Angular — Mesurer Angles entre Lignes, Arcs, Cercles
 description: La commande DimensionAngular place une annotation de cote angulaire sur des lignes, arcs ou cercles. Elle prend en charge l'angle entre deux lignes, l'arc d'extension et les modes de secteur de cercle.
 keywords: [cote angulaire CAO, cote d'angle, mesurer angle entre lignes, DimensionAngular, cote d'arc, annotation angulaire, kulmanlab]
 group: markup

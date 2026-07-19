@@ -1,5 +1,5 @@
 ---
-title: Dimension Angular — Ukur Sudut antara Garis, Lengkok dan Bulatan dalam KulmanLab CAD
+title: Dimension Angular — Ukur Sudut antara Garis, Lengkok dan Bulatan
 description: Arahan DimensionAngular meletakkan anotasi dimensi sudut pada garis, lengkok, atau bulatan. Menyokong mod sudut dua garis, rentang lengkok, dan sektor bulatan.
 keywords: [dimensi sudut CAD, dimensi sudut, ukur sudut antara garis, DimensionAngular, dimensi lengkok, anotasi sudut, markup sudut CAD, dimensi sudut kulmanlab]
 group: markup

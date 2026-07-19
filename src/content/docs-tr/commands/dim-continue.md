@@ -1,5 +1,5 @@
 ---
-title: Dimension Continue Komutu — KulmanLab CAD'de Mevcut Temel Çizgiden Ölçü Zinciri Oluştur
+title: Dimension Continue — Mevcut Temel Çizgiden Ölçü Zinciri Oluştur
 description: Dimension Continue komutu, son yerleştirilen ölçünün ikinci uzatma çizgisinden yeni ölçüler zinciri oluşturur. Temel ölçünün açısını, kaydırmasını, ok boyutunu ve metin yüksekliğini otomatik olarak devralır. Hem doğrusal hem de hizalı temellerle çalışır.
 keywords: [CAD dimension continue, dimcontinue, zincir ölçüler CAD, temel çizgi ölçüsü, ölçü serisini devam ettir, kulmanlab]
 group: markup

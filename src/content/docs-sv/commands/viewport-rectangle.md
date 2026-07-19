@@ -1,5 +1,5 @@
 ---
-title: ViewportRectangle-kommandot — Skapa en viewport i en layout i KulmanLab CAD
+title: ViewportRectangle-kommandot — Skapa en viewport i en layout
 description: ViewportRectangle-kommandot skapar en viewport i ett papperslayout genom att välja två motstående hörn. Viewporten visar modellutrymmets entiteter i layoutets standardskala.
 keywords: [viewport-rektangel, skapa viewport, layoutviewport, pappersviewport, kulmanlab]
 group: layouts

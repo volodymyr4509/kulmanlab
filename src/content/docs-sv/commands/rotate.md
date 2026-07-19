@@ -1,5 +1,5 @@
 ---
-title: "Rotate-kommandot — Rotera entiteter kring en basspunkt i KulmanLab CAD"
+title: "Rotate-kommandot — Rotera entiteter kring en basspunkt"
 description: "Rotate-kommandot roterar valda entiteter kring en vald basspunkt. Vinkeln kan skrivas in exakt eller ställas in genom att klicka — markörens riktning från basspunkten till klicket avgör vinkeln. Positiva vinklar är moturs i DXF-koordinater."
 keywords: [CAD rotate-kommando, rotera entiteter CAD, rotera objekt vinkel, moturs rotation CAD, inskriven vinkel rotation, kulmanlab]
 group: edit

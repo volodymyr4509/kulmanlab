@@ -1,5 +1,5 @@
 ---
-title: Match Properties — Kopiowanie właściwości elementów w KulmanLab CAD
+title: Match Properties — Kopiowanie właściwości elementów
 description: Polecenie FitWłaściwości kopiuje kolor, warstwę i inne współdzielone właściwości z elementu źródłowego na jeden lub więcej elementów docelowych. Dopasowuje właściwości w taki sam sposób, jak narzędzia CAD na komputerze stacjonarnym.
 keywords: [dopasuj właściwości CAD, kopiowanie właściwości elementu, MATCHPROP, dopasowanie warstwy koloru, przenoszenie właściwości, kulmanlab dopasuj właściwości, malowanie właściwościami, kopiowanie warstwy CAD]
 group: style

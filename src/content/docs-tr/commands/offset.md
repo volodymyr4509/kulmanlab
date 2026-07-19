@@ -1,5 +1,5 @@
 ---
-title: Offset Komutu — KulmanLab CAD'de Sabit Mesafede Paralel Kopya Oluştur
+title: Offset Komutu — Sabit Mesafede Paralel Kopya Oluştur
 description: Offset komutu, bir Çizgi, Daire, Yay, Elips veya Çoklu Çizginin yazılan mesafede paralel kopyasını oluşturur. Mesafe bir kez girilir ve birden fazla ofset için yeniden kullanılır. Taraf tıklaması kopyanın hangi yönde görüneceğini belirler. Beş nesne türü desteklenir.
 keywords: [CAD offset komutu, paralel kopya CAD, çizgiyi ofsetle CAD, daireyi ofsetle CAD, çoklu çizgiyi ofsetle CAD, eşmerkezli ofset, kulmanlab]
 group: edit

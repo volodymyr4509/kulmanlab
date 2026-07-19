@@ -1,5 +1,5 @@
 ---
-title: "Dimension Linear Command — Horizontal at Vertical na Dimension sa KulmanLab CAD"
+title: "Dimension Linear Command — Horizontal at Vertical na Dimension"
 description: "Sinusukat ng Dimension Linear command ang horizontal o vertical na distansya sa pagitan ng dalawang punto. Palaging axis-aligned ang dimension line — pindutin ang H o V para i-lock ang orientation, o hayaang ang posisyon ng cursor ang magdesisyon nang automatic. Kumpletong DXF round-trip bilang DIMENSION entities."
 keywords: [CAD dimension linear, horizontal dimension CAD, vertical dimension CAD, dimlinear, H V orientation lock, dimension offset, kulmanlab]
 group: markup

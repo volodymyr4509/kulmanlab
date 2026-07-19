@@ -1,5 +1,5 @@
 ---
-title: LayerMakeCurrent — Imposta il Layer di un'Entità come Corrente in KulmanLab CAD
+title: LayerMakeCurrent — Imposta il Layer di un'Entità come Corrente
 description: Il comando LayerMakeCurrent imposta il layer di disegno corrente in modo che corrisponda al layer dell'entità cliccata.
 keywords: [layer make current, imposta layer corrente CAD, kulmanlab gestione layer]
 group: layer

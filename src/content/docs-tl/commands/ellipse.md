@@ -1,5 +1,5 @@
 ---
-title: Ellipse Command — Gumuhit ng Naka-rotate na Ellipse gamit ang Center at Dalawang Axis sa KulmanLab CAD
+title: Ellipse — Naka-rotate na Ellipse, Center at Dalawang Axis
 description: Ginuguhit ng Ellipse command ang ellipse sa tatlong click — center, unang axis endpoint (anumang direksyon), pagkatapos ay haba ng ikalawang axis. Palaging perpendicular ang dalawang axis. May sarili itong grip ang bawat semi-axis para sa independiyenteng pag-resize pagkatapos mailagay. Full DXF round-trip bilang ELLIPSE entities.
 keywords: [CAD ellipse command, gumuhit ng ellipse CAD, naka-rotate na ellipse CAD, ellipse axes, ELLIPSE DXF entity, ellipse grip editing, axis ratio, kulmanlab]
 group: shapes

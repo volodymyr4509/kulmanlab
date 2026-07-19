@@ -1,5 +1,5 @@
 ---
-title: Redo-Befehl — Rückgängig gemachte Aktionen in KulmanLab CAD wiederherstellen
+title: Redo-Befehl — Rückgängig gemachte Aktionen wiederherstellen
 description: Der Redo-Befehl stellt die zuletzt durch Undo rückgängig gemachte Aktion wieder her und bewegt sich vorwärts durch den Verlaufsstapel. Redo ist nur nach einem Undo verfügbar und wird gelöscht, sobald eine neue Zeichenaktion ausgeführt wird.
 keywords: [CAD Redo-Befehl, Redo-Verlauf CAD, Aktion wiederherstellen CAD, Undo Redo CAD, Browser-persistentes Redo, kulmanlab]
 group: edit

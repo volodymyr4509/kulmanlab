@@ -1,5 +1,5 @@
 ---
-title: LayerMakeCurrent Komutu — KulmanLab CAD'de Geçerli Katmanı Nesneye Göre Ayarla
+title: LayerMakeCurrent Komutu — Geçerli Katmanı Nesneye Göre Ayarla
 description: LayerMakeCurrent komutu, tıkladığınız nesnenin katmanına göre geçerli aktif katmanı ayarlar. Katman yöneticisini açmadan katmanlar arasında geçiş yapmak için kullanışlıdır.
 keywords: [CAD layer make current komutu, geçerli katmanı ayarla CAD, katman değiştir CAD, kulmanlab]
 group: layer

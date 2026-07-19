@@ -1,5 +1,5 @@
 ---
-title: Comando Chamfer — Cortar una Esquina Recta Entre Dos Líneas en KulmanLab CAD
+title: Comando Chamfer — Cortar una Esquina Recta Entre Dos Líneas
 description: El comando Chamfer conecta dos entidades Line o Polyline con un corte diagonal recto. Especificas dos distancias — una a lo largo de cada entidad — y el comando recorta ambas hasta esos puntos e inserta una línea de conexión.
 keywords: [comando chamfer CAD, chaflán de línea CAD, corte de esquina diagonal, bisel de esquina CAD, kulmanlab]
 group: edit

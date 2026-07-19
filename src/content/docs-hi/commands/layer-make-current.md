@@ -1,5 +1,5 @@
 ---
-title: LayerMakeCurrent — KulmanLab CAD में ऑब्जेक्ट की लेयर वर्तमान के रूप में सेट करें
+title: LayerMakeCurrent — ऑब्जेक्ट की लेयर वर्तमान के रूप में सेट करें
 description: LayerMakeCurrent कमांड वर्तमान ड्राइंग लेयर को क्लिक किए गए ऑब्जेक्ट की लेयर से मिलाने के लिए सेट करती है।
 keywords: [लेयर वर्तमान बनाएं, वर्तमान लेयर सेट करें CAD, kulmanlab लेयर प्रबंधन]
 group: layer

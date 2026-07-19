@@ -1,5 +1,5 @@
 ---
-title: "Befehl Leader− — Einen Pfeilspitzen-Arm von einer Mehrfachführungslinie entfernen in KulmanLab CAD"
+title: "Leader− — Pfeilspitzen-Arm von Mehrfachführungslinie entfernen"
 description: "Der Befehl Leader− entfernt einen Pfeilspitzen-Arm von einer Mehrfachführungslinie mit zwei oder mehr Armen. Fahren Sie mit dem Cursor über den zu entfernenden Arm — der nächstgelegene Arm wird hervorgehoben. Knickpunkt, Text und verbleibende Arme bleiben erhalten."
 keywords: [CAD Führungslinie Arm entfernen, leader- Befehl, Pfeil von Führungslinie entfernen, Mehrfachführungslinie Arm löschen, kulmanlab]
 group: markup

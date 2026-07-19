@@ -1,5 +1,5 @@
 ---
-title: "Align Command — I-translate, I-rotate, at I-scale ang mga Entity gamit ang Point Pairs sa KulmanLab CAD"
+title: "Align — I-translate, I-rotate, I-scale Entity gamit Point Pairs"
 description: "Muling pinopositio ng Align command ang mga napiling entity gamit ang isa o dalawang pares ng source/destination point — pinagsasama ang translate, rotate, at opsyonal na uniform scale sa isang operasyon. Gumagana ito tulad ng pinagsamang Move + Rotate + Scale."
 keywords: [CAD align command, i-align ang entity CAD, translate rotate scale, point pair alignment, katumbas ng AutoCAD ALIGN, kulmanlab]
 group: edit

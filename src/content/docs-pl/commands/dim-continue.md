@@ -1,5 +1,5 @@
 ---
-title: Polecenie Dimension Continue — Łączenie wymiarów od istniejącej linii bazowej w KulmanLab CAD
+title: Dimension Continue — Łączenie wymiarów od linii bazowej
 description: Polecenie Dimension Continue przedłuża łańcuch wymiarów od drugiej linii przedłużenia ostatniego umieszczonego wymiaru. Automatycznie dziedziczy kąt, odsunięcie, rozmiar strzałki i wysokość tekstu wymiaru bazowego. Działa zarówno z bazami liniowymi, jak i wyrównanymi.
 keywords: [wymiar kontynuowany CAD, dimcontinue, łańcuch wymiarów CAD, wymiar linii bazowej, kontynuacja serii wymiarów, kulmanlab]
 group: markup

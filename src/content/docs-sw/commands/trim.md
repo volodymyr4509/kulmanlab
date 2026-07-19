@@ -1,5 +1,5 @@
 ---
-title: "Trim Command — Cut Line Segments at Intersections in KulmanLab CAD"
+title: "Trim Command — Cut Line Segments at Intersections"
 description: "Amri ya Trim huondoa sehemu ya Line kati ya nukta mbili za karibu za makutano zilizo karibu zaidi na kishale. Hakiki ya hover nyekundu inaonyesha hasa sehemu gani itakatwa kabla ya kubonyeza. Trim inafanya kazi kwenye vipande vya Line pekee — si arcs, circles, au polylines."
 keywords: [CAD trim command, trim line CAD, cut line intersection, hover trim preview, line only trim, kulmanlab]
 group: edit

@@ -1,5 +1,5 @@
 ---
-title: Fillet Komutu — KulmanLab CAD'de Çizgiler Arasındaki Köşeleri Yuvarla
+title: Fillet Komutu — Çizgiler Arasındaki Köşeleri Yuvarla
 description: Fillet komutu, iki çizgi veya bitişik çoklu çizgi segmentleri arasına teğet yay ekler, çizgileri dokunma noktasına kadar kırpar veya uzatır. Kesişen çizgilerde korunacak köşe tarafını tıklayın.
 keywords: [CAD fillet komutu, köşe yuvarlama CAD, çizgiler arası yay ekle, yuvarlama yarıçapı CAD, kulmanlab]
 group: edit

@@ -1,5 +1,5 @@
 ---
-title: Commande Area — Mesurer l'Aire et le Périmètre d'un Polygone dans KulmanLab CAD
+title: Commande Area — Mesurer l'Aire et le Périmètre d'un Polygone
 description: La commande Area mesure l'aire délimitée et le périmètre d'un polygone défini par 3 points sélectionnés ou plus, à l'aide de la formule du lacet. Prend en charge la saisie directionnelle avec verrouillage d'angle et un surlignage persistant du résultat sur le canevas.
 keywords: [mesurer aire CAO, commande area, calcul aire polygone, mesure de périmètre, formule du lacet, mesure CAO kulmanlab]
 group: measure

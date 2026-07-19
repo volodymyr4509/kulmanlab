@@ -1,5 +1,5 @@
 ---
-title: Comando Align — Transladar, Rodar e Escalar Entidades com Pares de Pontos no KulmanLab CAD
+title: Align — Transladar, Rodar e Escalar Entidades com Pares de Pontos
 description: O comando Align reposiciona as entidades selecionadas usando um ou dois pares de pontos de origem/destino — combinando translação, rotação e uma escala uniforme opcional numa única operação. Funciona como um Move + Rotate + Scale combinados.
 keywords: [CAD comando align, alinhar entidades CAD, transladar rodar escalar, alinhamento por par de pontos, equivalente ALIGN do AutoCAD, kulmanlab]
 group: edit

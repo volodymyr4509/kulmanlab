@@ -1,5 +1,5 @@
 ---
-title: Spline CV-Befehl — B-Splines durch Platzieren von Kontrollpunkten zeichnen in KulmanLab CAD
+title: Spline CV — B-Splines über Kontrollpunkte zeichnen
 description: Der Spline CV-Befehl zeichnet einen kubischen B-Spline durch Platzieren von Kontrollpunkten. Die Kurve wird zu den Punkten hingezogen, verläuft aber nur durch den ersten und letzten (eingespannte Knoten). Jeder CV-Griffpunkt kann nach der Platzierung gezogen werden, um die Kurve umzuformen. Vollständiger DXF-Durchlauf als SPLINE-Entitäten.
 keywords: [CAD Spline-Befehl, B-Spline Kontrollpunkte, eingespannter Spline CAD, Spline zeichnen CAD, SPLINE DXF-Entität, Spline Griffpunkt-Bearbeitung, kulmanlab]
 group: shapes

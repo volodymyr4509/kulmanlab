@@ -1,5 +1,5 @@
 ---
-title: Dimension Radius-Befehl — Bogen- und Kreisradien beschriften in KulmanLab CAD
+title: Dimension Radius-Befehl — Bogen- und Kreisradien beschriften
 description: Der Dimension Radius-Befehl platziert eine mit R-Präfix versehene Radiusbemaßung auf einem Bogen oder Kreis. Klicken Sie das Element an, dann bewegen Sie den Mauszeiger, um die Bemaßungslinie vom Mittelpunkt zum Umfang auszurichten. Vollständiger DXF-Austausch als DIMENSION-Radiuselemente.
 keywords: [CAD-Radiusbemaßung, dimradius, Kreisradius beschriften, Bogenradiusbemaßung, R-Präfix-Bemaßung, kulmanlab]
 group: markup

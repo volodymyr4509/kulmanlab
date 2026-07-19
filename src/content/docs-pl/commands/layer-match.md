@@ -1,5 +1,5 @@
 ---
-title: LayerMatch — Przypisywanie warstw elementów do warstwy źródła w KulmanLab CAD
+title: LayerMatch — Przypisywanie warstw elementów do warstwy źródła
 description: Polecenie LayerMatch przypisuje warstwę jednego lub więcej docelowych elementów, aby odpowiadała warstwie klikniętego elementu źródłowego.
 keywords: [dopasuj warstwę, dopasowanie warstwy CAD, zmiana przypisania warstwy kulmanlab, zarządzanie warstwami CAD]
 group: layer

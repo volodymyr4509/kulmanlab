@@ -1,5 +1,5 @@
 ---
-title: Lệnh Angle — Đo Góc Nội Tại Tại Một Đỉnh Qua Ba Điểm trong KulmanLab CAD
+title: Lệnh Angle — Đo Góc Nội Tại Tại Một Đỉnh Qua Ba Điểm
 description: Lệnh Angle đo góc nội tại (0°–180°) tại đỉnh được xác định bởi ba điểm bấm. Bấm điểm đầu, đỉnh, điểm cuối. Kết quả hiển thị trong terminal với 4 chữ số thập phân.
 keywords: [đo góc CAD, góc ba điểm, góc nội tại CAD, lệnh đo góc, góc đỉnh, kulmanlab]
 group: measure

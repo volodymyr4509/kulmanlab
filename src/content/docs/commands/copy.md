@@ -1,5 +1,5 @@
 ---
-title: Copy Command — Duplicate Entities at a New Position in KulmanLab CAD
+title: Copy Command — Duplicate Entities at a New Position
 description: The Copy command creates translated duplicates of selected entities while leaving the originals in place. Supports pre-selection, angle locking, and exact distance input. The copies are placed and the command exits; originals remain unchanged.
 keywords: [CAD copy command, duplicate entities CAD, copy objects CAD, clone geometry CAD, angle lock copy, exact distance copy, kulmanlab]
 group: edit

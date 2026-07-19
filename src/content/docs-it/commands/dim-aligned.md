@@ -1,5 +1,5 @@
 ---
-title: Comando Dimension Aligned — Quote alla Distanza Reale in Qualsiasi Angolazione in KulmanLab CAD
+title: Dimension Aligned — Quota alla Distanza Reale in Ogni Angolazione
 description: Il comando Dimension Aligned misura la distanza reale in linea retta tra due punti. La linea di quota è parallela alla linea p1→p2 in qualsiasi angolazione — a differenza di Dimension Linear che è limitata all'orizzontale o verticale. Compatibilità DXF completa come entità DIMENSION.
 keywords: [CAD quota allineata, dimaligned, quota diagonale CAD, quota distanza reale, quota angolata CAD, kulmanlab]
 group: markup

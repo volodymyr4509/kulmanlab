@@ -1,5 +1,5 @@
 ---
-title: Arahan Spline Fit — Lukis Spline Interpolasi Melalui Titik yang Diklik dalam KulmanLab CAD
+title: Spline Fit — Lukis Spline Interpolasi Melalui Titik yang Diklik
 description: Arahan Spline Fit melukis spline kubik yang melalui setiap titik yang diklik dengan tepat. Secara dalaman kelengkungan disimpan dengan titik fit dan bucu kawalan yang dikira. Menyeret grip titik fit menginterpolasi semula keseluruhan kelengkungan. Pusingan penuh DXF sebagai entiti SPLINE.
 keywords: [arahan spline fit CAD, spline interpolasi CAD, spline melalui titik, lukis kelengkungan halus CAD, titik fit DXF SPLINE, pengeditan grip spline, kulmanlab]
 group: shapes

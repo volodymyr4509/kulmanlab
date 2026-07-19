@@ -1,5 +1,5 @@
 ---
-title: "Line Command — Gumuhit, Kumadena, Putulin, at Palawigin ang mga Linya sa KulmanLab CAD"
+title: "Line — Gumuhit, Kumadena, Putulin, at Palawigin ang mga Linya"
 description: "Ginuguhit ng Line command ang mga indibidwal na straight line segment na puwedeng kumadena end-to-end. Ang Line ang tanging entity type na ginagamitan ng Trim at Extend. Kumpletong DXF round-trip bilang LINE entities."
 keywords: [CAD line command, gumuhit ng straight line CAD, kumadena ng line segment, putulin ang linya CAD, palawigin ang linya CAD, angle lock CAD, DXF LINE entity, kulmanlab]
 group: shapes

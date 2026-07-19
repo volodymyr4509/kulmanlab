@@ -1,5 +1,5 @@
 ---
-title: Bộ Chọn Độ Dày Đường Trên Thanh Công Cụ — Kiểm Soát Độ Rộng Nét Vẽ trong KulmanLab CAD
+title: Bộ Chọn Độ Dày Đường — Kiểm Soát Độ Rộng Nét Vẽ
 description: Bộ chọn độ dày đường trong thanh công cụ KulmanLab CAD đặt độ rộng nét vẽ áp dụng cho tất cả thực thể mới được vẽ. Hỗ trợ các giá trị độ dày đường DXF tiêu chuẩn từ 0,00 mm đến 2,11 mm cộng với chế độ ByLayer và Default.
 group: interface
 order: 4

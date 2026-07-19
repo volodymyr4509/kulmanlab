@@ -1,5 +1,5 @@
 ---
-title: Perintah Dimension Aligned — Dimensi Jarak Sebenarnya pada Sudut Mana Saja di KulmanLab CAD
+title: Dimension Aligned — Dimensi Jarak Sebenarnya pada Sudut Mana Saja
 description: Perintah Dimension Aligned mengukur jarak garis lurus yang sebenarnya antara dua titik. Garis dimensi berjalan sejajar dengan garis p1→p2 pada sudut mana saja — tidak seperti Dimension Linear yang dibatasi horizontal atau vertikal. Dukungan penuh DXF sebagai entitas DIMENSION.
 keywords: [dimensi sejajar CAD, dimaligned, dimensi diagonal CAD, dimensi jarak sebenarnya, dimensi bersudut CAD, kulmanlab]
 group: markup

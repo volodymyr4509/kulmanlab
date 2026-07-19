@@ -1,5 +1,5 @@
 ---
-title: Polecenie PageManager — Edytowanie rozmiaru papieru i skali układu w KulmanLab CAD
+title: PageManager — Edytowanie rozmiaru papieru i skali układu
 description: Polecenie PageManager otwiera panel ustawień strony dla aktywnego układu, gdzie można zmienić format papieru, orientację i skalę jednostek rysunkowych.
 keywords: [menedżer stron, ustawienia układu, rozmiar papieru, skala rysunku, przestrzeń układu, kulmanlab]
 group: layouts

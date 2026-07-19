@@ -1,5 +1,5 @@
 ---
-title: Linienstärke-Werkzeugleisten-Auswahl — Strichbreite in KulmanLab CAD steuern
+title: Linienstärke-Werkzeugleisten-Auswahl — Strichbreite steuern
 description: Der Linienstärke-Auswähler in der KulmanLab CAD-Werkzeugleiste legt die Strichbreite fest, die auf alle neu gezeichneten Entitäten angewendet wird. Unterstützt Standard-DXF-Linienstärkewerte von 0,00 mm bis 2,11 mm sowie ByLayer- und Standard-Modi.
 keywords: [CAD Linienstärke, Strichbreite, Linienbreite, DXF Linienstärke, ByLayer Linienstärke, kulmanlab]
 group: interface

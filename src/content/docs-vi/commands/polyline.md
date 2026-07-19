@@ -1,5 +1,5 @@
 ---
-title: Lệnh Polyline — Vẽ Đường Dẫn Nhiều Đoạn Thành Một Thực Thể trong KulmanLab CAD
+title: Lệnh Polyline — Vẽ Đường Dẫn Nhiều Đoạn Thành Một Thực Thể
 description: Lệnh Polyline vẽ bất kỳ số lượng đoạn nối nhau được lưu dưới dạng một thực thể LWPOLYLINE. Điểm kéo đỉnh và điểm giữa đoạn cho phép định hình lại bất kỳ phần nào của đường dẫn sau khi tạo. Hỗ trợ offset; không hỗ trợ cắt hoặc kéo dài.
 group: shapes
 order: 2

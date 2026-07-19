@@ -1,5 +1,5 @@
 ---
-title: Perintah Arc — Menggambar Busur Tiga Titik Menggunakan Metode Lingkaran Luar di KulmanLab CAD
+title: Arc — Menggambar Busur Tiga Titik dengan Lingkaran Luar
 description: Perintah Arc menggambar busur melingkar melalui tepat tiga titik yang diklik menggunakan geometri lingkaran luar. Grip awal dan akhir memungkinkan Anda menyeret titik akhir busur ke sudut dan radius baru setelah penempatan. Dukungan penuh DXF sebagai entitas ARC.
 keywords: [perintah busur CAD, busur tiga titik CAD, busur lingkaran luar, menggambar busur CAD, entitas DXF ARC, pengeditan grip busur, kulmanlab]
 group: shapes

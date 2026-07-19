@@ -1,5 +1,5 @@
 ---
-title: Scale-Befehl — Entitäten gleichmäßig um einen Basispunkt skalieren in KulmanLab CAD
+title: Scale — Entitäten gleichmäßig um einen Basispunkt skalieren
 description: Der Scale-Befehl skaliert ausgewählte Entitäten gleichmäßig um einen festgelegten Basispunkt mit einem eingegebenen Faktor. Der Faktor wird immer über die Tastatur eingegeben — es gibt kein Klicken zum Festlegen der Skalierung. Ein Faktor größer als 1 vergrößert; kleiner als 1 verkleinert. Jeder Entitätstyp wird unterstützt.
 keywords: [CAD Scale-Befehl, Entitäten skalieren CAD, Objekte skalieren CAD, gleichmäßige Skalierung CAD, Skalierungsfaktor CAD, vergrößern verkleinern CAD, kulmanlab]
 group: edit

@@ -1,5 +1,5 @@
 ---
-title: "Mirror Command — I-reflect ang mga Entity sa Kabila ng Two-Point Axis sa KulmanLab CAD"
+title: "Mirror — I-reflect ang mga Entity sa Kabila ng Two-Point Axis"
 description: "Nire-reflect ng Mirror command ang napiling entity sa kabila ng mirror line na tinutukoy ng dalawang click. Palaging napapanatili ang mga orihinal — gumagawa ang Mirror ng mga bagong na-mirror na kopya. Puwedeng nasa anumang angle ang mirror axis at nag-s-snap ito sa 45° increments."
 keywords: [CAD mirror command, i-reflect ang entity CAD, mirror symmetry CAD, i-flip ang objects CAD, mirror axis CAD, kulmanlab]
 group: edit

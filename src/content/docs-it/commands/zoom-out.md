@@ -1,5 +1,5 @@
 ---
-title: "Comando Zoom Out — Ridurre lo Zoom della Finestra di 1,5× per Passo in KulmanLab CAD"
+title: "Zoom Out — Ridurre lo Zoom della Finestra di 1,5× per Passo"
 description: "Il comando Zoom Out divide il livello di zoom corrente per 1,5× ed esce immediatamente, centrato sul centro della finestra. Usa la rotella del mouse per ridurre lo zoom verso il cursore per un controllo più fine."
 keywords: [CAD zoom out, ridurre zoom viewport, comando zoom out, panoramica CAD, passo zoom 1.5x, kulmanlab]
 group: navigate

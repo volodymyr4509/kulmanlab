@@ -1,5 +1,5 @@
 ---
-title: "Spline Fit کمانڈ — KulmanLab CAD میں کلک کردہ نقاط سے گزرنے والی Interpolating Splines بنائیں"
+title: "Spline Fit — کلک کردہ نقاط سے Interpolating Splines بنائیں"
 description: "Spline Fit کمانڈ cubic spline بناتی ہے جو ہر کلک کردہ نقطے سے بالکل گزرتا ہے۔ اندرونی طور پر وکر فٹ نقاط اور حساب شدہ کنٹرول ورٹیکسیز دونوں ذخیرہ کرتا ہے۔ فٹ نقطہ گرپ ڈریگ کرنے سے پورا وکر دوبارہ interpolated ہوتا ہے۔ SPLINE اشیاء کے طور پر مکمل DXF راؤنڈ ٹرپ۔"
 keywords: [CAD spline fit کمانڈ, interpolating spline CAD, نقاط سے spline, ہموار وکر بنائیں CAD, SPLINE DXF فٹ نقاط, spline گرپ ترمیم, kulmanlab]
 group: shapes

@@ -1,5 +1,5 @@
 ---
-title: ViewportRectangle ਕਮਾਂਡ — KulmanLab CAD ਵਿੱਚ ਲੇਆਉਟ ਵਿੱਚ ਵਿਊਪੋਰਟ ਬਣਾਓ
+title: ViewportRectangle ਕਮਾਂਡ — ਲੇਆਉਟ ਵਿੱਚ ਵਿਊਪੋਰਟ ਬਣਾਓ
 description: ViewportRectangle ਕਮਾਂਡ ਦੋ ਵਿਰੋਧੀ ਕੋਨੇ ਚੁਣ ਕੇ ਪੇਪਰ ਲੇਆਉਟ ਵਿੱਚ ਇੱਕ ਵਿਊਪੋਰਟ ਬਣਾਉਂਦੀ ਹੈ। ਵਿਊਪੋਰਟ ਲੇਆਉਟ ਦੇ ਡਿਫਾਲਟ ਸਕੇਲ 'ਤੇ ਮਾਡਲ ਸਪੇਸ ਇਕਾਈਆਂ ਦਿਖਾਉਂਦਾ ਹੈ।
 keywords: [ਵਿਊਪੋਰਟ ਰੈਕਟੈਂਗਲ, ਵਿਊਪੋਰਟ ਬਣਾਓ, ਲੇਆਉਟ ਵਿਊਪੋਰਟ, ਪੇਪਰ ਸਪੇਸ ਵਿਊਪੋਰਟ, kulmanlab]
 group: layouts

@@ -1,5 +1,5 @@
 ---
-title: Comando Ellipse — Desenhar Elipses Rotacionadas por Centro e Dois Eixos no KulmanLab CAD
+title: Ellipse — Desenhar Elipses Rotacionadas por Centro e Dois Eixos
 description: O comando Ellipse desenha uma elipse em três cliques — centro, ponto final do primeiro eixo (em qualquer direção), depois comprimento do segundo eixo. Os dois eixos são sempre perpendiculares. Cada semieixo tem seu próprio grip para redimensionamento independente após o posicionamento. Compatibilidade DXF completa como entidades ELLIPSE.
 keywords: [comando ellipse CAD, desenhar elipse CAD, elipse rotacionada CAD, eixos elipse, entidade ELLIPSE DXF, edição grip elipse, kulmanlab]
 group: shapes

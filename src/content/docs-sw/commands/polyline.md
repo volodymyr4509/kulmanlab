@@ -1,5 +1,5 @@
 ---
-title: "Polyline Command — Draw Multi-Segment Paths as a Single Entity in KulmanLab CAD"
+title: "Polyline Command — Draw Multi-Segment Paths as a Single Entity"
 description: "Amri ya Polyline inachora idadi yoyote ya sehemu zilizounganishwa zilizohifadhiwa kama kipande kimoja cha LWPOLYLINE. Vishiko vya ncha na katikati ya sehemu hukuruhusu kubadilisha sehemu yoyote ya njia baada ya kuunda. Inasaidia offset; haisaidii trim au extend."
 keywords: [CAD polyline command, draw polyline CAD, multi-segment path CAD, LWPOLYLINE DXF, reshape polyline, vertex grip CAD, offset polyline, kulmanlab]
 group: shapes

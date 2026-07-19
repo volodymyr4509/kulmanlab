@@ -1,5 +1,5 @@
 ---
-title: "Comando Leader− — Remover um Braço com Seta de um Multileader no KulmanLab CAD"
+title: "Comando Leader− — Remover um Braço com Seta de um Multileader"
 description: "O comando Leader− remove um braço com seta de um multileader que tem dois ou mais. Passe o cursor próximo ao braço a remover — o braço mais próximo é destacado. O dogleg, o texto e os braços restantes são preservados."
 keywords: [CAD leader remover braço, comando leader-, remover seta do leader, excluir braço multileader, kulmanlab]
 group: markup

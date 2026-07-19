@@ -1,5 +1,5 @@
 ---
-title: Arahan Trim — Potong Segmen Garis pada Persimpangan dalam KulmanLab CAD
+title: Arahan Trim — Potong Segmen Garis pada Persimpangan
 description: Arahan Trim membuang bahagian Line antara dua titik persimpangan bersebelahan yang paling hampir dengan kursor. Pratonton hover merah menunjukkan tepat segmen yang akan dipotong sebelum anda mengklik. Trim hanya berfungsi pada entiti Line — bukan lengkok, bulatan, atau poliline.
 keywords: [arahan potong CAD, potong garis CAD, potong garis persimpangan, pratonton hover potong, garis sahaja potong, kulmanlab]
 group: edit

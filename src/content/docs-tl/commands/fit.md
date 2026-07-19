@@ -1,5 +1,5 @@
 ---
-title: "Fit Command — I-frame ang Lahat ng Entity sa Viewport sa Isang Click sa KulmanLab CAD"
+title: "Fit — I-frame ang Lahat ng Entity sa Viewport sa Isang Click"
 description: "Kinakalkula ng Fit command ang bounding box ng lahat ng entity at ina-adjust ang zoom at pan para makita ang bawat entity nang may maliit na margin. Ang double-click ng middle mouse button ay nagpapa-trigger ng Fit nang hindi kailangang i-activate ang command."
 keywords: [CAD fit view, zoom to fit, i-frame ang lahat ng entity, fit command CAD, bounding box zoom, kulmanlab]
 group: navigate

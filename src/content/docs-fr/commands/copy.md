@@ -1,5 +1,5 @@
 ---
-title: Commande Copy — Dupliquer des entités à une nouvelle position dans KulmanLab CAD
+title: Commande Copy — Dupliquer des entités à une nouvelle position
 description: La commande Copy crée des duplicatas traduits des entités sélectionnées tout en laissant les originaux en place. Supporte la pré-sélection, le verrouillage d'angle et la saisie de distance exacte. Les copies sont placées et la commande se termine ; les originaux restent inchangés.
 keywords: [commande copy CAO, dupliquer entités CAO, copier objets CAO, cloner géométrie CAO, verrouillage angle copie, distance exacte copie, kulmanlab]
 group: edit

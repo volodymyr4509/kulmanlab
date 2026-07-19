@@ -1,5 +1,5 @@
 ---
-title: Angle-Befehl — Innenwinkel an einem Scheitelpunkt mit drei Punkten messen in KulmanLab CAD
+title: Angle — Innenwinkel an einem Scheitelpunkt mit drei Punkten
 description: Der Angle-Befehl misst den Innenwinkel (0°–180°) an einem Scheitelpunkt, der durch drei geklickte Punkte definiert wird. Ersten Endpunkt, Scheitelpunkt und zweiten Endpunkt klicken. Ergebnis wird im Terminal auf 4 Dezimalstellen angezeigt.
 keywords: [CAD-Winkelmessung, Drei-Punkt-Winkel, Innenwinkel CAD, Winkel-Befehl messen, Scheitelpunkt-Winkel, kulmanlab]
 group: measure

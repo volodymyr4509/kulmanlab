@@ -1,5 +1,5 @@
 ---
-title: "Dimension Linear کمانڈ — KulmanLab CAD میں افقی اور عمودی پیمائشیں"
+title: "Dimension Linear کمانڈ — افقی اور عمودی پیمائشیں"
 description: "Dimension Linear کمانڈ دو نقاط کے درمیان افقی یا عمودی فاصلہ ناپتی ہے۔ پیمائش لائن ہمیشہ محور-سیدھ ہوتی ہے — H یا V دبائیں رخ لاک کرنے کے لیے، یا کرسر کی پوزیشن کو خود بخود فیصلہ کرنے دیں۔ DXF میں DIMENSION اشیاء کے طور پر مکمل راؤنڈ ٹرپ۔"
 keywords: [CAD dimension linear, افقی پیمائش CAD, عمودی پیمائش CAD, dimlinear, H V رخ لاک, پیمائش آفسیٹ, kulmanlab]
 group: markup

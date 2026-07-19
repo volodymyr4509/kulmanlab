@@ -1,5 +1,5 @@
 ---
-title: Trim Komutu — KulmanLab CAD'de Kesişimlerde Çizgi Segmentlerini Kırp
+title: Trim Komutu — Kesişimlerde Çizgi Segmentlerini Kırp
 description: Trim komutu, imlece en yakın iki komşu kesişim noktası arasındaki Çizgi kısmını kaldırır. Kırmızı imleç üzerine gelme önizlemesi, tıklamadan önce tam olarak hangi segmentin kesileceğini gösterir. Trim yalnızca Çizgi nesnelerinde çalışır — yay, daire veya çoklu çizgide çalışmaz.
 keywords: [CAD trim komutu, çizgiyi kırp CAD, kesişimde çizgi kes, imleç üzerine gelme kırp önizleme, yalnızca çizgi kırp, kulmanlab]
 group: edit

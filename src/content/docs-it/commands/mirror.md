@@ -1,5 +1,5 @@
 ---
-title: Comando Mirror — Riflettere Entità rispetto a un Asse in KulmanLab CAD
+title: Comando Mirror — Riflettere Entità rispetto a un Asse
 description: Il comando Mirror riflette le entità selezionate rispetto a una linea asse definita da due clic. Gli originali vengono sempre conservati — Mirror crea nuove copie riflesse. L'asse speculare può avere qualsiasi angolo e si aggancia agli incrementi di 45°.
 keywords: [CAD comando mirror, rifletti entità CAD, simmetria mirror CAD, capovolgi oggetti CAD, asse speculare CAD, kulmanlab]
 group: edit

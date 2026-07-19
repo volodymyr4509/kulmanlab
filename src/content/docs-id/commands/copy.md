@@ -1,5 +1,5 @@
 ---
-title: Perintah Copy — Menduplikasi Entitas di Posisi Baru di KulmanLab CAD
+title: Perintah Copy — Menduplikasi Entitas di Posisi Baru
 description: Perintah Copy membuat duplikat yang diterjemahkan dari entitas yang dipilih sambil membiarkan aslinya tetap di tempat. Mendukung pra-seleksi, penguncian sudut, dan input jarak tepat. Salinan ditempatkan dan perintah keluar; aslinya tetap tidak berubah.
 keywords: [perintah salin CAD, menduplikasi entitas CAD, menyalin objek CAD, mengkloning geometri CAD, kunci sudut salin, jarak tepat salin, kulmanlab]
 group: edit

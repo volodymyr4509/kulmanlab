@@ -1,5 +1,5 @@
 ---
-title: Команда Dimension Continue — Ланцюг розмірів від існуючої базової лінії у KulmanLab CAD
+title: Dimension Continue — Ланцюг розмірів від існуючої базової лінії
 description: Команда Dimension Continue розширює ланцюг розмірів від другої виносної лінії останнього розміщеного розміру. Автоматично успадковує кут, відступ, розмір стрілки та висоту тексту базового розміру. Працює з лінійними та вирівняними базами.
 keywords: [CAD dimension continue, dimcontinue, ланцюгові розміри CAD, базовий розмір, продовження ряду розмірів, DXF DIMENSION, kulmanlab]
 group: markup

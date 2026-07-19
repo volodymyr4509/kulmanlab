@@ -1,5 +1,5 @@
 ---
-title: Commande Fit — Ajuster Toutes les Entités dans le Viewport en un Clic dans KulmanLab CAD
+title: Fit — Ajuster Toutes les Entités dans le Viewport en un Clic
 description: La commande Fit calcule le cadre de délimitation de toutes les entités et ajuste le zoom et le déplacement pour que toutes les entités soient visibles avec une petite marge. Double-cliquer avec le bouton central de la souris active Fit sans ouvrir la commande.
 keywords: [CAO ajuster vue, zoom pour cadrer, cadrer toutes les entités, commande fit CAO, zoom cadre délimitation, kulmanlab]
 group: navigate

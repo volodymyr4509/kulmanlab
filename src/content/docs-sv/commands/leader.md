@@ -1,5 +1,5 @@
 ---
-title: Leader-kommandot — Rita Multileader-annotationer med pilspets och text i KulmanLab CAD
+title: Leader — Rita Multileader-annotationer med pilspets och text
 description: "Leader-kommandot ritar en fyrfasig multileader-annotation: pilspets, dogleg-armbåge, textposition och inskriven etikett. Textriktningen justeras automatiskt baserat på dogleg-positionen. Endast import i DXF — leaders skrivs inte vid sparande."
 keywords: [CAD leader-kommando, multileader-annotation, leader CAD, pil-etikett-annotation, dogleg leader, textriktning CAD, kulmanlab]
 group: markup

@@ -1,5 +1,5 @@
 ---
-title: Commande Dimension Continue — Enchaîner les Cotes depuis une Ligne de Base Existante dans KulmanLab CAD
+title: Dimension Continue — Enchaîner les Cotes depuis une Ligne de Base
 description: La commande Dimension Continue étend une chaîne de cotes depuis la deuxième ligne d'extension de la dernière cote placée. Elle hérite automatiquement de l'angle, du décalage, de la taille de flèche et de la hauteur de texte de la cote de base. Fonctionne avec les bases linéaires et alignées.
 keywords: [cote continue CAO, dimcontinue, enchaîner cotes CAO, cote ligne de base, série cotes continues, kulmanlab]
 group: markup

@@ -1,5 +1,5 @@
 ---
-title: Izgara ve Yakalama — KulmanLab CAD'de Çizimleri Düzenli Izgaraya Hizala
+title: Izgara ve Yakalama — Çizimleri Düzenli Izgaraya Hizala
 description: KulmanLab CAD'deki Izgara ve Yakalama geçiş düğmeleri tuvale referans ızgara katmanı ekler ve imleç hareketini ızgara noktalarına kilitler. Izgara aralığı, her zaman yuvarlak model değerleri gösterecek şekilde mevcut yakınlaştırma seviyesine otomatik olarak uyum sağlar.
 keywords: [CAD ızgara, ızgaraya yakalama, ızgara aralığı, çizim yardımcıları, kulmanlab, ızgara noktaları, dikdörtgensel yakalama]
 group: interface

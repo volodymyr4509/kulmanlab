@@ -1,5 +1,5 @@
 ---
-title: Befehl mirror — Entitäten über eine Zwei-Punkt-Achse spiegeln in KulmanLab CAD
+title: Befehl mirror — Entitäten über eine Zwei-Punkt-Achse spiegeln
 description: Der Befehl mirror spiegelt ausgewählte Entitäten über eine durch zwei Klicks definierte Spiegelachse. Die Originale bleiben immer erhalten — mirror erstellt neue gespiegelte Kopien. Die Spiegelachse kann in jedem Winkel liegen und rastet in 45°-Schritten ein.
 keywords: [CAD mirror Befehl, Entitäten spiegeln CAD, Spiegelsymmetrie CAD, Objekte spiegeln CAD, Spiegelachse CAD, kulmanlab]
 group: edit

@@ -1,5 +1,5 @@
 ---
-title: Команда Export — Завантажити кресленик як DXF або JSON у KulmanLab CAD
+title: Команда Export — Завантажити кресленик як DXF або JSON
 description: Команда Export відкриває Менеджер експорту зі вибором формату DXF або JSON. DXF-файли відкриваються в будь-якому CAD-додатку але не включають розміри та виноски. JSON зберігає повний стан кресленика.
 keywords: [CAD команда export, завантажити DXF файл браузер, зберегти кресленик як DXF, export DXF онлайн CAD, kulmanlab]
 group: file

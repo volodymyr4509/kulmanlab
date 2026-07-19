@@ -1,5 +1,5 @@
 ---
-title: Çizgi Kalınlığı Araç Çubuğu Seçici — KulmanLab CAD'de Kontur Genişliğini Kontrol Et
+title: Çizgi Kalınlığı Seçici — Kontur Genişliğini Kontrol Et
 description: KulmanLab CAD araç çubuğundaki çizgi kalınlığı seçici, yeni çizilen tüm nesnelere uygulanan kontur genişliğini ayarlar. 0,00 mm ile 2,11 mm arasındaki standart DXF çizgi kalınlığı değerlerinin yanı sıra Katmana Göre ve Varsayılan modları destekler.
 keywords: [CAD çizgi kalınlığı, kontur genişliği, çizgi genişliği, DXF çizgi kalınlığı, Katmana Göre çizgi kalınlığı, kulmanlab]
 group: interface

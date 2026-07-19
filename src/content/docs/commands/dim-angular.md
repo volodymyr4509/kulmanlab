@@ -1,5 +1,5 @@
 ---
-title: Dimension Angular — Measure Angles Between Lines, Arcs and Circles in KulmanLab CAD
+title: Dimension Angular — Measure Angles Between Lines, Arcs, Circles
 description: The DimensionAngular command places an angular dimension annotation on lines, arcs, or circles. Supports two-line angle, arc span, and circle sector modes.
 keywords: [angular dimension CAD, angle dimension, measure angle between lines, DimensionAngular, arc dimension, angle annotation, CAD angle markup, kulmanlab angular dimension]
 group: markup

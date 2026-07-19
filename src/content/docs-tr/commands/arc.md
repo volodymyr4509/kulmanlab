@@ -1,5 +1,5 @@
 ---
-title: Arc Komutu — KulmanLab CAD'de Çevrel Daire Yöntemiyle Üç Noktalı Yay Çiz
+title: Arc Komutu — Çevrel Daire Yöntemiyle Üç Noktalı Yay Çiz
 description: Arc komutu, çevrel daire geometrisini kullanarak tam olarak üç tıklanan nokta üzerinden dairesel yay çizer. Başlangıç ve bitiş tutamaçları, yerleştirme sonrasında yayın uç noktalarını yeni açı ve yarıçapa sürüklemeye olanak tanır. DXF ARC nesneleri olarak tam round-trip.
 keywords: [CAD arc komutu, üç noktalı yay CAD, çevrel daire yayı, CAD yay çiz, DXF ARC nesnesi, yay tutamaç düzenleme, kulmanlab]
 group: shapes

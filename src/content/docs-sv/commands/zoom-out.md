@@ -1,5 +1,5 @@
 ---
-title: "Zoom Out-kommandot — Minska vyportens zoom med 1,5× per steg i KulmanLab CAD"
+title: "Zoom Out-kommandot — Minska vyportens zoom med 1,5× per steg"
 description: "Zoom Out-kommandot dividerar den aktuella zoomnivån med 1,5× och avslutas omedelbart. Centreras på vyportens mittpunkt. Använd scrollhjulet för att zooma ut mot markören för finare kontroll."
 keywords: [CAD zooma ut, minska vyportzoom, zoom out-kommando, översikt CAD, "1,5x zoomsteg", kulmanlab]
 group: navigate

@@ -1,5 +1,5 @@
 ---
-title: Dimension Linear Command — Horizontal and Vertical Dimensions in KulmanLab CAD
+title: Dimension Linear Command — Horizontal and Vertical Dimensions
 description: The Dimension Linear command measures the horizontal or vertical distance between two points. The dimension line is always axis-aligned — press H or V to lock orientation, or let the cursor position decide automatically. Full DXF round-trip as DIMENSION entities.
 keywords: [CAD dimension linear, horizontal dimension CAD, vertical dimension CAD, dimlinear, H V orientation lock, dimension offset, kulmanlab]
 group: markup

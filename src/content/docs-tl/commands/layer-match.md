@@ -1,5 +1,5 @@
 ---
-title: LayerMatch — I-reassign ang Layer ng Entity Ayon sa Source sa KulmanLab CAD
+title: LayerMatch — I-reassign ang Layer ng Entity Ayon sa Source
 description: Nire-reassign ng LayerMatch command ang layer ng isa o higit pang target entities para tumugma sa layer ng source entity na kine-click mo.
 keywords: [layer match, i-match ang layer CAD, i-reassign ang layer kulmanlab, CAD layer management]
 group: layer

@@ -1,5 +1,5 @@
 ---
-title: Comando PageManager — Modificare Formato Carta e Scala del Layout in KulmanLab CAD
+title: Comando PageManager — Modificare Formato Carta e Scala del Layout
 description: Il comando PageManager apre il pannello delle impostazioni di pagina per il layout attivo, dove puoi modificare il formato carta, l'orientamento e la scala delle unità di disegno.
 keywords: [page manager, impostazioni layout, formato carta, scala disegno, spazio layout, kulmanlab]
 group: layouts

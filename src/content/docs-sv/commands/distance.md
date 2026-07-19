@@ -1,5 +1,5 @@
 ---
-title: "Distance-kommandot — Mät raka avstånd mellan två punkter i KulmanLab CAD"
+title: "Distance-kommandot — Mät raka avstånd mellan två punkter"
 description: "Distance-kommandot mäter det euklidiska avståndet mellan två klickade punkter och visar resultatet med 4 decimalers precision. Klicka igen efter resultatet för att kedja en ny mätning från den senaste punkten."
 keywords: [CAD mät avstånd, distance-kommando, punkt-till-punkt-mätning, rakt avstånd, kulmanlab CAD-mätning]
 group: measure

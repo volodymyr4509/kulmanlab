@@ -1,5 +1,5 @@
 ---
-title: "Leader− Command — Alisin ang Arrowhead Arm mula sa Multileader sa KulmanLab CAD"
+title: "Leader− Command — Alisin ang Arrowhead Arm mula sa Multileader"
 description: "Inaalis ng Leader− command ang isang arrowhead arm mula sa multileader na may dalawa o higit pa. I-hover malapit sa arm na aalisin — ma-highlight ang pinakamalapit na arm. Napapanatili ang dogleg, text, at natitirang mga arm."
 keywords: [CAD leader remove arm, leader- command, alisin ang arrow mula sa leader, multileader arm delete, kulmanlab]
 group: markup

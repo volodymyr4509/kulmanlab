@@ -1,5 +1,5 @@
 ---
-title: Comando ViewportRectangle — Crear una Ventana Gráfica en un Diseño en KulmanLab CAD
+title: ViewportRectangle — Crear una Ventana Gráfica en un Diseño
 description: El comando ViewportRectangle crea una ventana gráfica en un diseño de papel seleccionando dos esquinas opuestas. La ventana gráfica muestra las entidades del espacio modelo a la escala predeterminada del diseño.
 keywords: [viewport rectangle, crear viewport, viewport de diseño, viewport en espacio papel, kulmanlab]
 group: layouts

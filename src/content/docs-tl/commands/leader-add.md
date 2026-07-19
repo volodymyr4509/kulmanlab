@@ -1,5 +1,5 @@
 ---
-title: Leader+ Command — Magdagdag ng Arrowhead Arm sa Umiiral na Multileader sa KulmanLab CAD
+title: Leader+ — Magdagdag ng Arrowhead Arm sa Umiiral na Multileader
 description: Nagdaragdag ang Leader+ command ng bagong arrowhead arm sa umiiral na multileader. Ang bagong arm ay pareho ang dogleg, text, at lahat ng styling ng napiling leader. Dalawang click — piliin ang leader, ilagay ang bagong tip.
 keywords: [CAD leader add arm, leader+ command, magdagdag ng arrow sa leader, multileader arm, kulmanlab]
 group: markup

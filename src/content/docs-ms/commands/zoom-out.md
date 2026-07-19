@@ -1,5 +1,5 @@
 ---
-title: "Arahan Zoom Out — Kurangkan Zum Viewport sebanyak 1.5× Setiap Langkah dalam KulmanLab CAD"
+title: "Zoom Out — Kurangkan Zum Viewport sebanyak 1.5× Setiap Langkah"
 description: "Arahan Zoom Out membahagi paras zum semasa dengan 1.5× dan keluar serta-merta. Berpusat pada titik tengah viewport. Gunakan roda tatal untuk zum keluar ke arah kursor untuk kawalan yang lebih halus."
 keywords: [CAD zum keluar, kurangkan zum viewport, arahan zum keluar, gambaran keseluruhan CAD, langkah zum 1.5x, kulmanlab]
 group: navigate

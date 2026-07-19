@@ -1,5 +1,5 @@
 ---
-title: "Zoom Out Command — Bawasan ang Zoom ng Viewport nang 1.5× Bawat Step sa KulmanLab CAD"
+title: "Zoom Out — Bawasan ang Zoom ng Viewport nang 1.5× Bawat Step"
 description: "Hinahati ng Zoom Out command ang kasalukuyang zoom level nang 1.5× at agad na magsasara. Naka-center sa midpoint ng viewport. Gamitin ang scroll wheel para mag-zoom out papunta sa cursor para sa mas mainam na control."
 keywords: [CAD zoom out, bawasan ang viewport zoom, zoom out command, overview CAD, 1.5x zoom step, kulmanlab]
 group: navigate

@@ -1,5 +1,5 @@
 ---
-title: Ellipse Command — Draw Rotated Ellipses by Center and Two Axes in KulmanLab CAD
+title: Ellipse Command — Draw Rotated Ellipses by Center and Two Axes
 description: The Ellipse command draws an ellipse in three clicks — center, first axis endpoint (any direction), then second axis length. The two axes are always perpendicular. Each semi-axis has its own grip for independent resizing after placement. Full DXF round-trip as ELLIPSE entities.
 keywords: [CAD ellipse command, draw ellipse CAD, rotated ellipse CAD, ellipse axes, ELLIPSE DXF entity, ellipse grip editing, axis ratio, kulmanlab]
 group: shapes

@@ -1,5 +1,5 @@
 ---
-title: Perintah Circle — Menggambar Lingkaran Berdasarkan Pusat dan Radius di KulmanLab CAD
+title: Circle — Menggambar Lingkaran Berdasarkan Pusat dan Radius
 description: Perintah Circle menempatkan lingkaran dengan mengklik titik pusat lalu mengklik atau mengetik radius. Empat grip kardinal memungkinkan Anda mengubah ukuran radius dengan menyeret tanpa menjalankan ulang perintah. Dukungan penuh DXF sebagai entitas CIRCLE.
 keywords: [perintah lingkaran CAD, menggambar lingkaran CAD, input radius lingkaran, ubah ukuran lingkaran grip, entitas DXF CIRCLE, dimradius lingkaran, kulmanlab]
 group: shapes

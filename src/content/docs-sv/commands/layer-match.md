@@ -1,5 +1,5 @@
 ---
-title: LayerMatch — Omtilldela entiteters lager för att matcha en källa i KulmanLab CAD
+title: LayerMatch — Omtilldela entiteters lager för att matcha en källa
 description: LayerMatch-kommandot omtilldelar lagret för en eller flera målentiteter så att det matchar lagret för en källentitet du klickar på.
 keywords: [lagermatchning, matcha lager CAD, omtilldela lager kulmanlab, CAD-lagerhantering]
 group: layer

@@ -1,5 +1,5 @@
 ---
-title: "Dimension Aligned Command — True-Distance na Dimension sa Anumang Angle sa KulmanLab CAD"
+title: "Dimension Aligned — True-Distance na Dimension sa Anumang Angle"
 description: "Sinusukat ng Dimension Aligned command ang tunay na straight-line distance sa pagitan ng dalawang punto. Parallel ang dimension line sa p1→p2 na linya sa anumang angle — hindi tulad ng Dimension Linear na limitado sa horizontal o vertical. Kumpletong DXF round-trip bilang DIMENSION entities."
 keywords: [CAD dimension aligned, dimaligned, diagonal dimension CAD, true distance dimension, angled dimension CAD, kulmanlab]
 group: markup

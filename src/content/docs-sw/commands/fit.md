@@ -1,5 +1,5 @@
 ---
-title: Amri ya Fit — Fremu Viumbe Vyote kwenye Dirisha kwa Kubonyeza Mara Moja katika KulmanLab CAD
+title: Fit — Fremu Viumbe Vyote kwenye Dirisha kwa Kubonyeza Mara Moja
 description: "Amri ya Fit huhesabu sanduku la mpaka wa viumbe vyote na kurekebisha kukuza na kusongesha ili kila kiumbe kionekane kwa ukingo mdogo. Kubonyeza mara mbili kitufe cha kati cha kipanya huanzisha Fit bila kuanzisha amri."
 keywords: [CAD fit view, zoom to fit, frame all entities, fit command CAD, bounding box zoom, kulmanlab]
 group: navigate

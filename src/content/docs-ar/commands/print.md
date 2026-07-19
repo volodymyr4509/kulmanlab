@@ -1,5 +1,5 @@
 ---
-title: "أمر Print — تصدير الرسم بصيغة PNG أو JPEG أو WebP أو PDF في KulmanLab CAD"
+title: "أمر Print — تصدير الرسم بصيغة PNG أو JPEG أو WebP أو PDF"
 description: يفتح أمر Print مدير الطباعة — نافذة تصدير مخصصة بمعاينة حية ومحدد التنسيق ومفتاح الأحادية اللونية وتحديد منطقة اختياري. يُصدِّر حتى 2000×2000 بكسل. يدعم PNG وJPEG وWebP وPDF.
 keywords: [تصدير CAD PNG, تصدير CAD PDF, طباعة رسم CAD, مدير الطباعة, تصدير أحادي اللون, تصدير kulmanlab, kulmanlab]
 group: file

@@ -1,5 +1,5 @@
 ---
-title: Amri ya Dimension Continue — Vipimo vya Mnyororo kutoka kwa Msingi Uliopo katika KulmanLab CAD
+title: Dimension Continue — Vipimo vya Mnyororo kutoka kwa Msingi Uliopo
 description: "Amri ya Dimension Continue inaendeleza mnyororo wa vipimo kutoka kwa mstari wa pili wa upanuzi wa kipimo kilichowekwa mwisho. Inarithi pembe ya kipimo cha msingi, mwelekeo, ukubwa wa mshale, na urefu wa maandishi kiotomatiki. Inafanya kazi na misingi ya mstari na iliyopangwa."
 keywords: [CAD dimension continue, dimcontinue, chain dimensions CAD, baseline dimension, continue dimension series, kulmanlab]
 group: markup

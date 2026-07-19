@@ -1,5 +1,5 @@
 ---
-title: PageManager Command — Edit Layout Paper Size and Scale in KulmanLab CAD
+title: PageManager Command — Edit Layout Paper Size and Scale
 description: The PageManager command opens the page settings panel for the active layout, where you can change paper format, orientation, and drawing units scale.
 keywords: [page manager, layout settings, paper size, drawing scale, layout space, kulmanlab]
 group: layouts

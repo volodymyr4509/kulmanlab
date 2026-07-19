@@ -1,5 +1,5 @@
 ---
-title: Commande Undo — Revenir en arrière dans l'historique du dessin dans KulmanLab CAD
+title: Commande Undo — Revenir en arrière dans l'historique du dessin
 description: La commande Undo inverse la dernière action de dessin une étape à la fois. Jusqu'à 20 étapes sont stockées par fichier et persistées dans le navigateur entre les rechargements de page. Effectuer une nouvelle action après avoir annulé efface la pile de rétablissement.
 keywords: [commande undo CAO, historique annulation CAO, inverser action CAO, étapes annulation CAO, annulation persistante navigateur, kulmanlab]
 group: edit

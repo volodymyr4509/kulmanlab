@@ -1,5 +1,5 @@
 ---
-title: "Rotate Command — I-rotate ang mga Entity Paikot sa Base Point sa KulmanLab CAD"
+title: "Rotate Command — I-rotate ang mga Entity Paikot sa Base Point"
 description: "Inii-rotate ng Rotate command ang napiling entity paikot sa piniling base point. Puwedeng i-type nang eksakto ang angle o itakda sa pamamagitan ng pag-click — ang direksyon ng cursor mula sa base point papunta sa click ang nagtatakda ng angle. Counter-clockwise ang positive angle sa DXF coordinates."
 keywords: [CAD rotate command, i-rotate ang entity CAD, i-rotate ang objects angle, counter-clockwise rotation CAD, typed angle rotate, kulmanlab]
 group: edit

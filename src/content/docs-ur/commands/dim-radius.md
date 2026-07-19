@@ -1,5 +1,5 @@
 ---
-title: "Dimension Radius کمانڈ — KulmanLab CAD میں قوس اور دائرے کے نصف قطر تشریح کریں"
+title: "Dimension Radius کمانڈ — قوس اور دائرے کے نصف قطر تشریح کریں"
 description: "Dimension Radius کمانڈ قوس یا دائرے پر R-سابقہ شدہ شعاعی پیمائش رکھتی ہے۔ شے پر کلک کریں، پھر مرکز سے محیط تک پیمائش لائن کو رخ دینے کے لیے کرسر حرکت دیں۔ DXF میں DIMENSION نصف قطر اشیاء کے طور پر مکمل راؤنڈ ٹرپ۔"
 keywords: [CAD نصف قطر پیمائش, dimradius, دائرہ نصف قطر تشریح کریں, قوس نصف قطر پیمائش, R سابقہ پیمائش, kulmanlab]
 group: markup

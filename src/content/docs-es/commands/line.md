@@ -1,5 +1,5 @@
 ---
-title: Comando line — Dibujar, encadenar, recortar y extender líneas en KulmanLab CAD
+title: Comando line — Dibujar, encadenar, recortar y extender líneas
 description: El comando line dibuja segmentos de línea recta individuales que se pueden encadenar de extremo a extremo. Las líneas son el único tipo de entidad en el que funcionan Trim y Extend. Ida y vuelta completa en DXF como entidades LINE.
 keywords: [comando line CAD, dibujar línea recta CAD, encadenar segmentos de línea, recortar línea CAD, extender línea CAD, bloqueo de ángulo CAD, entidad DXF LINE, kulmanlab]
 group: shapes

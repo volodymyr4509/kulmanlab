@@ -1,5 +1,5 @@
 ---
-title: Polecenie Redo — Ponowne stosowanie cofniętych akcji w KulmanLab CAD
+title: Polecenie Redo — Ponowne stosowanie cofniętych akcji
 description: Polecenie Redo ponownie stosuje ostatnią akcję odwróconą przez Cofnij, przesuwając się do przodu przez stos historii. Ponów jest dostępne tylko po Cofnij i jest czyszczone w chwili wykonania jakiejkolwiek nowej akcji rysowania.
 keywords: [polecenie ponów CAD, historia ponów CAD, ponowne stosowanie akcji CAD, cofnij ponów CAD, trwałe ponów w przeglądarce, kulmanlab]
 group: edit

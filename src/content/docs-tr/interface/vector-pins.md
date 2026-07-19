@@ -1,5 +1,5 @@
 ---
-title: Vector Pins — KulmanLab CAD'de Sabitlenmiş Noktalardan Geçen Referans Çizgilerine Yakalanma
+title: Vector Pins — Sabitlenmiş Noktalardan Geçen Referans Çizgilerine
 description: Vector Pins, bir yakalama noktasının üzerinde yarım saniye durarak onu sabitlemenizi, ardından imleci sabitlenmiş noktadan geçen kesikli yatay ve dikey referans çizgileri boyunca izlemenizi sağlar — yapım çizgileri olmadan yeni geometriyi mevcut noktalarla hizalayın.
 keywords: [vector pins, nesne yakalama izleme, referans çizgileri, hizalama izleme, yakalama izleme CAD, yapım çizgileri, kulmanlab]
 group: interface

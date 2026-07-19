@@ -1,5 +1,5 @@
 ---
-title: Spline Fit Komutu — KulmanLab CAD'de Tıklanan Noktalardan Geçen İnterpolasyon Spline'ı Çiz
+title: Spline Fit — Tıklanan Noktalardan Geçen İnterpolasyon Spline'ı
 description: Spline Fit komutu, her tıklanan noktadan tam olarak geçen kübik spline çizer. Dahili olarak eğri hem uyum noktalarıyla hem de hesaplanan kontrol noktalarıyla saklanır. Uyum noktası tutamacını sürüklemek tüm eğriyi yeniden interpolasyon yapar. DXF'de SPLINE nesneleri olarak tam round-trip.
 keywords: [CAD spline fit komutu, interpolasyon spline CAD, noktalardan geçen spline, pürüzsüz eğri çiz CAD, SPLINE DXF uyum noktaları, spline tutamaç düzenleme, kulmanlab]
 group: shapes

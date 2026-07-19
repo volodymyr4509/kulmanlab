@@ -1,5 +1,5 @@
 ---
-title: Lệnh Fillet — Làm Tròn Góc Giữa Hai Đường Thẳng trong KulmanLab CAD
+title: Lệnh Fillet — Làm Tròn Góc Giữa Hai Đường Thẳng
 description: Lệnh Fillet kết nối hai thực thể Đường thẳng bằng một cung tiếp tuyến có bán kính xác định, cắt ngắn mỗi đường thẳng trở lại điểm tiếp tuyến. Bản xem trước cung nét đứt giúp chọn góc đúng trước khi nhấp.
 group: edit
 order: 11

@@ -1,5 +1,5 @@
 ---
-title: "Arahan Leader — Lukis Anotasi Pelbagai Pemimpin dengan Kepala Anak Panah dan Teks dalam KulmanLab CAD"
+title: "Leader — Anotasi Multileader dengan Kepala Anak Panah dan Teks"
 description: "Arahan Leader melukis anotasi pelbagai pemimpin empat fasa: hujung kepala anak panah, siku dogleg, kedudukan teks, dan label bertaip. Arah teks menyesuaikan secara automatik berdasarkan kedudukan dogleg. Import sahaja dalam DXF — pemimpin tidak ditulis semasa menyimpan."
 keywords: [arahan pemimpin CAD, anotasi pelbagai pemimpin, pemimpin CAD, anotasi label anak panah, dogleg pemimpin, arah teks CAD, kulmanlab]
 group: markup

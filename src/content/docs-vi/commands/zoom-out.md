@@ -1,5 +1,5 @@
 ---
-title: Lệnh Zoom Out — Giảm Phóng To Khung Nhìn 1.5× Mỗi Bước trong KulmanLab CAD
+title: Lệnh Zoom Out — Giảm Phóng To Khung Nhìn 1.5× Mỗi Bước
 description: Lệnh Zoom Out chia mức phóng to hiện tại cho 1.5× và thoát ngay lập tức. Được căn giữa theo giữa khung nhìn. Dùng bánh xe cuộn để thu nhỏ hướng con trỏ để kiểm soát tốt hơn.
 group: navigate
 order: 3

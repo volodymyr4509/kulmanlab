@@ -1,5 +1,5 @@
 ---
-title: Lệnh Move — Dịch Chuyển Thực Thể Đã Chọn Theo Điểm Cơ Sở trong KulmanLab CAD
+title: Lệnh Move — Dịch Chuyển Thực Thể Đã Chọn Theo Điểm Cơ Sở
 description: Lệnh Move dịch chuyển một hoặc nhiều thực thể đã chọn theo điểm cơ sở và điểm đích. Hỗ trợ chọn trước, khóa góc và nhập khoảng cách chính xác. Sau khi di chuyển, thực thể vẫn được chọn tại vị trí mới. Mọi loại thực thể đều được hỗ trợ.
 group: edit
 order: 1

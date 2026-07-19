@@ -1,5 +1,5 @@
 ---
-title: Ellipse-Befehl — Gedrehte Ellipsen durch Mittelpunkt und zwei Achsen zeichnen in KulmanLab CAD
+title: Ellipse — Ellipse per Mittelpunkt und zwei Achsen zeichnen
 description: Der Ellipse-Befehl zeichnet eine Ellipse mit drei Klicks — Mittelpunkt, erster Achsenendpunkt (beliebige Richtung), dann zweite Achsenlänge. Die beiden Achsen stehen immer senkrecht aufeinander. Jede Halbachse hat einen eigenen Griffpunkt zur unabhängigen Größenänderung nach der Platzierung. Vollständiger DXF-Austausch als ELLIPSE-Elemente.
 keywords: [CAD-Ellipsenbefehl, Ellipse zeichnen CAD, gedrehte Ellipse CAD, Ellipsenachsen, ELLIPSE DXF-Element, Ellipsen-Griffpunkt-Bearbeitung, Achsenverhältnis, kulmanlab]
 group: shapes

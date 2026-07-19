@@ -1,5 +1,5 @@
 ---
-title: "Scale Command — I-resize nang Uniform ang mga Entity Paikot sa Base Point sa KulmanLab CAD"
+title: "Scale — I-resize nang Uniform ang mga Entity Paikot sa Base Point"
 description: "Ini-resize ng Scale command ang napiling entity nang uniform gamit ang na-type na factor paikot sa isang nakapirming base point. Palaging keyboard-entered ang factor — walang click-to-set-scale. Ang factor na higit sa 1 ay nagpapalaki; mas mababa sa 1 ay nagpapaliit. Sinusuportahan ang bawat entity type."
 keywords: [CAD scale command, i-resize ang entity CAD, i-scale ang objects CAD, uniform scale CAD, scale factor CAD, palakihin paliitin CAD, kulmanlab]
 group: edit

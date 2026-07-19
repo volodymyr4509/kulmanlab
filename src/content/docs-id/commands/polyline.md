@@ -1,5 +1,5 @@
 ---
-title: Perintah Polyline — Menggambar Jalur Multi-Segmen sebagai Satu Entitas di KulmanLab CAD
+title: Polyline — Menggambar Jalur Multi-Segmen sebagai Satu Entitas
 description: Perintah Polyline menggambar sejumlah segmen yang terhubung yang disimpan sebagai satu entitas LWPOLYLINE. Grip vertex dan titik tengah segmen memungkinkan Anda membentuk ulang bagian mana pun dari jalur setelah dibuat. Mendukung offset; tidak mendukung trim atau extend.
 keywords: [perintah polyline CAD, menggambar polyline CAD, jalur multi-segmen CAD, DXF LWPOLYLINE, membentuk ulang polyline, grip vertex CAD, offset polyline, kulmanlab]
 group: shapes

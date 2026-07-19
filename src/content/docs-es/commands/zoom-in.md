@@ -1,5 +1,5 @@
 ---
-title: "Comando Zoom In — Ampliar la Ventana Gráfica 1,5× por Paso en KulmanLab CAD"
+title: "Comando Zoom In — Ampliar la Ventana Gráfica 1,5× por Paso"
 description: "El comando Zoom In multiplica el nivel de zoom actual por 1,5× y sale inmediatamente. Centrado en el punto medio de la ventana gráfica. Rango de zoom 0,01–10.000. Usa la rueda del ratón para hacer zoom hacia el cursor en su lugar."
 keywords: [CAD zoom in, ampliar ventana gráfica, comando zoom CAD, paso de zoom 1,5x, kulmanlab]
 group: navigate

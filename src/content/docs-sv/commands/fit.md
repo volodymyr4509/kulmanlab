@@ -1,5 +1,5 @@
 ---
-title: "Fit-kommandot — Rama in alla entiteter i vyporten med ett klick i KulmanLab CAD"
+title: "Fit-kommandot — Rama in alla entiteter i vyporten med ett klick"
 description: "Fit-kommandot beräknar avgränsningsrutan för alla entiteter och justerar zoom och panorering så att alla entiteter blir synliga med en liten marginal. Dubbelklick med mittenmusknappen utlöser Fit utan att aktivera kommandot."
 keywords: [CAD anpassa vy, zooma till anpassa, rama in alla entiteter, fit-kommando CAD, avgränsningsruta zoom, kulmanlab]
 group: navigate

@@ -1,5 +1,5 @@
 ---
-title: Comando Trim — Tagliare Segmenti di Linea alle Intersezioni in KulmanLab CAD
+title: Comando Trim — Tagliare Segmenti di Linea alle Intersezioni
 description: Il comando Trim rimuove la porzione di una Linea tra due punti di intersezione adiacenti più vicini al cursore. Un'anteprima in rosso al passaggio del cursore mostra esattamente quale segmento verrà tagliato prima del clic. Trim funziona solo sulle entità Linea — non su archi, cerchi o polilinee.
 keywords: [CAD comando trim, taglia linea CAD, taglia linea intersezione, anteprima trim hover, trim solo linea, kulmanlab]
 group: edit

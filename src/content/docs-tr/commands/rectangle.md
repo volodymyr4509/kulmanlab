@@ -1,5 +1,5 @@
 ---
-title: Rectangle Komutu — KulmanLab CAD'de Eksenlere Paralel Dikdörtgenler Çiz
+title: Rectangle Komutu — Eksenlere Paralel Dikdörtgenler Çiz
 description: Rectangle komutu, iki karşıt köşeden eksenlere paralel dikdörtgen oluşturur. Sonuç, dört köşeli kapalı LWPOLYLINE'dır — bir kez yerleştirildikten sonra diğer çoklu çizgilerle özdeştir, dolayısıyla her çoklu çizgi düzenleme komutu ona uygulanır.
 keywords: [CAD rectangle komutu, dikdörtgen çiz CAD, eksenlere paralel dikdörtgen, kapalı çoklu çizgi CAD, LWPOLYLINE DXF, dikdörtgen tutamaç düzenleme, kulmanlab]
 group: shapes

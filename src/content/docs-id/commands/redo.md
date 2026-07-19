@@ -1,5 +1,5 @@
 ---
-title: Perintah Redo — Menerapkan Ulang Aksi yang Dibatalkan di KulmanLab CAD
+title: Perintah Redo — Menerapkan Ulang Aksi yang Dibatalkan
 description: Perintah Redo menerapkan ulang aksi terakhir yang dibalik oleh Undo, maju melalui tumpukan riwayat. Redo hanya tersedia setelah Undo dan dihapus pada saat aksi menggambar baru apa pun dilakukan.
 keywords: [perintah redo CAD, riwayat redo CAD, menerapkan ulang aksi CAD, undo redo CAD, redo browser persisten, kulmanlab]
 group: edit

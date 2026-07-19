@@ -1,5 +1,5 @@
 ---
-title: LayerIsolate — Congelar todas las capas excepto las seleccionadas en KulmanLab CAD
+title: LayerIsolate — Congelar todas las capas excepto las seleccionadas
 description: El comando LayerIsolate congela todas las capas excepto las usadas por los objetos seleccionados, permitiéndote centrarte en geometría específica sin eliminar nada.
 keywords: [aislar capa, congelar capas CAD, aislar capa kulmanlab, gestión de capas CAD]
 group: layer

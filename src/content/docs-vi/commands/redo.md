@@ -1,5 +1,5 @@
 ---
-title: Lệnh Redo — Áp Dụng Lại Các Hành Động Đã Hoàn Tác trong KulmanLab CAD
+title: Lệnh Redo — Áp Dụng Lại Các Hành Động Đã Hoàn Tác
 description: Lệnh Redo áp dụng lại hành động cuối cùng đã bị đảo ngược bởi Undo, tiến về phía trước trong ngăn xếp lịch sử. Redo chỉ khả dụng sau khi Undo và bị xóa ngay khi có hành động vẽ mới được thực hiện.
 group: edit
 order: 14

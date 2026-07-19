@@ -1,5 +1,5 @@
 ---
-title: Vector Pins — Snap di Sepanjang Garis Referensi Melalui Titik yang Disematkan di KulmanLab CAD
+title: Vector Pins — Snap Sepanjang Garis Referensi Titik Disematkan
 description: Vector Pins memungkinkan Anda menyematkan titik snap dengan mengarahkan kursor ke atasnya selama setengah detik, lalu melacak kursor di sepanjang garis referensi horizontal dan vertikal putus-putus yang melewati titik yang disematkan — sejajarkan geometri baru dengan titik yang ada tanpa garis konstruksi.
 keywords: [vector pins, pelacakan snap objek, garis referensi, pelacakan perataan, pelacakan snap CAD, garis konstruksi, kulmanlab]
 group: interface

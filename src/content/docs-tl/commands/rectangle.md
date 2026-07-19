@@ -1,5 +1,5 @@
 ---
-title: Rectangle Command — Gumuhit ng Axis-Aligned na mga Rectangle sa KulmanLab CAD
+title: Rectangle Command — Gumuhit ng Axis-Aligned na mga Rectangle
 description: Gumagawa ang Rectangle command ng axis-aligned na rectangle mula sa dalawang magkasalungat na sulok. Ang resulta ay closed LWPOLYLINE na may apat na vertex — identikal sa anumang ibang polyline kapag nailagay na, kaya applicable dito ang bawat polyline edit command.
 keywords: [CAD rectangle command, gumuhit ng rectangle CAD, axis-aligned na rectangle, closed polyline CAD, LWPOLYLINE DXF, rectangle grip editing, kulmanlab]
 group: shapes

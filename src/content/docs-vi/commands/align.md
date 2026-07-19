@@ -1,5 +1,5 @@
 ---
-title: Lệnh Align — Dịch Chuyển, Xoay và Thu Phóng Thực Thể Bằng Cặp Điểm trong KulmanLab CAD
+title: Align — Dịch Chuyển, Xoay và Thu Phóng Thực Thể Bằng Cặp Điểm
 description: Lệnh Align định vị lại các thực thể đã chọn bằng một hoặc hai cặp điểm nguồn/đích — kết hợp dịch chuyển, xoay và thu phóng đồng nhất tùy chọn trong một thao tác duy nhất. Hoạt động như sự kết hợp của Move + Rotate + Scale.
 keywords: [lệnh align CAD, căn chỉnh thực thể CAD, dịch chuyển xoay thu phóng, căn chỉnh theo cặp điểm, tương đương ALIGN của AutoCAD, kulmanlab]
 group: edit

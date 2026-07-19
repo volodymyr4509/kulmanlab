@@ -1,5 +1,5 @@
 ---
-title: "Export — KulmanLab CAD ਵਿੱਚ ਡਰਾਇੰਗਾਂ ਨੂੰ DXF ਜਾਂ JSON ਵਜੋਂ ਡਾਊਨਲੋਡ ਕਰੋ"
+title: "Export — ਡਰਾਇੰਗਾਂ ਨੂੰ DXF ਜਾਂ JSON ਵਜੋਂ ਡਾਊਨਲੋਡ ਕਰੋ"
 description: "Export ਕਮਾਂਡ ਮੌਜੂਦਾ ਡਰਾਇੰਗ ਨੂੰ DXF ਜਾਂ JSON (ਨੇਟਿਵ) ਫਾਈਲ ਵਜੋਂ ਡਾਊਨਲੋਡ ਕਰਦੀ ਹੈ। JSON ਮਾਪਾਂ ਅਤੇ ਲੀਡਰਾਂ ਸਮੇਤ ਸਾਰੀਆਂ ਐਂਟਿਟੀਜ਼ ਸੁਰੱਖਿਅਤ ਰੱਖਦਾ ਹੈ; DXF ਹੋਰ CAD ਟੂਲਾਂ ਨਾਲ ਅਨੁਕੂਲ ਹੈ।"
 keywords: [export DXF, export CAD file, download DXF browser, save DXF online, export JSON CAD, KulmanLab export, CAD file download, DXF export, save drawing to file, DXF download]
 group: file

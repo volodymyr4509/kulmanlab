@@ -1,5 +1,5 @@
 ---
-title: Perintah Dimension Continue — Merantai Dimensi dari Baseline yang Ada di KulmanLab CAD
+title: Dimension Continue — Merantai Dimensi dari Baseline yang Ada
 description: Perintah Dimension Continue memperpanjang rantai dimensi dari garis ekstensi kedua dimensi terakhir yang ditempatkan. Perintah ini mewarisi sudut, offset, ukuran panah, dan tinggi teks dimensi dasar secara otomatis. Bekerja dengan basis linear maupun sejajar.
 keywords: [CAD dimension continue, dimcontinue, merantai dimensi CAD, dimensi baseline, lanjutkan seri dimensi, kulmanlab]
 group: markup

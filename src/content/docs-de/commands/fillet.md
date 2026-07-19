@@ -1,5 +1,5 @@
 ---
-title: Fillet-Befehl — Ecke zwischen zwei Linien abrunden in KulmanLab CAD
+title: Fillet-Befehl — Ecke zwischen zwei Linien abrunden
 description: Der Fillet-Befehl verbindet zwei Line-Elemente mit einem Tangentenbogen des angegebenen Radius und kürzt jede Linie bis zum Tangentenpunkt zurück. Eine gestrichelte Bogenvorschau hilft Ihnen, die richtige Ecke vor dem Klicken auszuwählen.
 keywords: [CAD-Fillet-Befehl, Ecke abrunden CAD, Fillet-Bogen, Tangentenbogen zwei Linien, kulmanlab]
 group: edit

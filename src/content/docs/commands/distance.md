@@ -1,5 +1,5 @@
 ---
-title: Distance Command — Measure Straight-Line Distance Between Two Points in KulmanLab CAD
+title: Distance — Measure Straight-Line Distance Between Two Points
 description: The Distance command measures the Euclidean distance between two clicked points and displays the result to 4 decimal places. Click again after the result to chain a new measurement from the last point.
 keywords: [CAD measure distance, distance command, point-to-point measurement, straight line distance, kulmanlab CAD measurement]
 group: measure

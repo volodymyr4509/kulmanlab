@@ -1,5 +1,5 @@
 ---
-title: Comando Mirror — Espelhar Entidades em relação a um Eixo no KulmanLab CAD
+title: Comando Mirror — Espelhar Entidades em relação a um Eixo
 description: O comando Mirror espelha as entidades selecionadas em relação a uma linha de eixo definida por dois cliques. Os originais são sempre mantidos — Mirror cria novas cópias espelhadas. O eixo de espelhamento pode ter qualquer ângulo e encaixa em incrementos de 45°.
 keywords: [CAD comando mirror, espelhar entidades CAD, simetria mirror CAD, inverter objetos CAD, eixo espelho CAD, kulmanlab]
 group: edit

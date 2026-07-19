@@ -1,5 +1,5 @@
 ---
-title: Grid & Snap — I-align ang mga Drawing sa Regular na Grid sa KulmanLab CAD
+title: Grid & Snap — I-align ang mga Drawing sa Regular na Grid
 description: Ang Grid at Snap toggle sa KulmanLab CAD ay nag-o-overlay ng reference grid sa canvas at nagla-lock sa galaw ng cursor papunta sa mga grid point. Awtomatikong umaadapt ang grid spacing sa kasalukuyang zoom level para laging magpakita ng round na model values.
 keywords: [CAD grid, mag-snap sa grid, grid spacing, mga tulong sa pagguhit, kulmanlab, grid dots, orthogonal snap]
 group: interface

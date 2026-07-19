@@ -1,5 +1,5 @@
 ---
-title: Comando Chamfer — Criar um Corte Diagonal entre Duas Linhas no KulmanLab CAD
+title: Comando Chamfer — Criar um Corte Diagonal entre Duas Linhas
 description: O comando Chamfer conecta duas entidades Line ou Polyline com um corte diagonal reto. Você especifica duas distâncias — uma ao longo de cada entidade — e o comando corta ambas até esses pontos e insere uma linha de ligação.
 keywords: [comando chamfer CAD, chanfro linha CAD, corte diagonal canto, canto bisotado CAD, kulmanlab]
 group: edit

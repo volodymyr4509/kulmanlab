@@ -1,5 +1,5 @@
 ---
-title: أمر Dimension Aligned — أبعاد المسافة الحقيقية بأي زاوية في KulmanLab CAD
+title: أمر Dimension Aligned — أبعاد المسافة الحقيقية بأي زاوية
 description: يقيس أمر Dimension Aligned المسافة الخطية الفعلية بين نقطتين. يعمل خط البُعد موازياً لخط p1→p2 بأي زاوية — على خلاف Dimension Linear المقتصر على الأفقي أو الرأسي. يدعم التحويل الكامل لـ DXF كعناصر DIMENSION.
 keywords: [بُعد محاذٍ CAD, dimaligned, بُعد قطري CAD, بُعد المسافة الحقيقية, بُعد مائل CAD, kulmanlab]
 group: markup

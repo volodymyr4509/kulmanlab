@@ -1,5 +1,5 @@
 ---
-title: LayerIsolate — I-freeze ang Lahat ng Layer Maliban sa Napili sa KulmanLab CAD
+title: LayerIsolate — I-freeze ang Lahat ng Layer Maliban sa Napili
 description: Nagfe-freeze ang LayerIsolate command sa bawat layer maliban sa mga ginagamit ng napiling objects, kaya makakapag-focus ka sa specific na geometry nang walang tinatanggal.
 keywords: [layer isolate, i-freeze ang layers CAD, i-isolate ang layer kulmanlab, CAD layer management]
 group: layer

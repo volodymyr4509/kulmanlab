@@ -1,5 +1,5 @@
 ---
-title: "Copy Command — Duplicate ang mga Entity sa Bagong Posisyon sa KulmanLab CAD"
+title: "Copy Command — Duplicate ang mga Entity sa Bagong Posisyon"
 description: "Gumagawa ang Copy command ng mga na-translate na duplicate ng napiling entity habang nananatili ang mga orihinal sa lugar. Sinusuportahan ang pre-selection, angle locking, at exact distance input. Inilalagay ang mga kopya at lumalabas ang command; hindi nagbabago ang mga orihinal."
 keywords: [CAD copy command, duplicate entity CAD, kopyahin ang objects CAD, i-clone ang geometry CAD, angle lock copy, exact distance copy, kulmanlab]
 group: edit

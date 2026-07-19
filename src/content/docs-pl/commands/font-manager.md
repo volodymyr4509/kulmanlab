@@ -1,5 +1,5 @@
 ---
-title: Polecenie Font Manager — Przesyłanie i zarządzanie niestandardowymi czcionkami TTF w KulmanLab CAD
+title: Font Manager — Przesyłanie i zarządzanie czcionkami TTF
 description: Polecenie Font Manager otwiera okno dialogowe do przeglądania, podglądu i wybierania czcionek oraz przesyłania własnych plików .ttf. Przesłane czcionki są zapisywane w przeglądarce i osadzane pod nazwą w eksportach DXF.
 keywords: [menedżer czcionek, niestandardowa czcionka CAD, przesyłanie TTF, niestandardowy krój pisma CAD, Google Fonts CAD, czcionka tekstu CAD, kulmanlab]
 group: style

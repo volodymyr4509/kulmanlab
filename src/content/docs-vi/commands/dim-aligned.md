@@ -1,5 +1,5 @@
 ---
-title: Lệnh Dimension Aligned — Ghi Kích Thước Theo Bất Kỳ Góc Nào trong KulmanLab CAD
+title: Lệnh Dimension Aligned — Ghi Kích Thước Theo Bất Kỳ Góc Nào
 description: Lệnh Dimension Aligned đo khoảng cách thực sự giữa hai điểm. Đường kích thước chạy song song với đường p1→p2 theo bất kỳ góc nào — khác với Dimension Linear chỉ theo chiều ngang hoặc dọc. Hỗ trợ DXF đầy đủ dưới dạng thực thể DIMENSION.
 group: markup
 order: 5

@@ -1,5 +1,5 @@
 ---
-title: Perintah Chamfer — Memotong Sudut Lurus antara Dua Garis di KulmanLab CAD
+title: Perintah Chamfer — Memotong Sudut Lurus antara Dua Garis
 description: Perintah Chamfer menghubungkan dua entitas Line atau Polyline dengan potongan diagonal lurus. Anda menentukan dua jarak — satu sepanjang setiap entitas — dan perintah memotong keduanya kembali ke titik-titik tersebut dan menyisipkan garis penghubung.
 keywords: [perintah chamfer CAD, chamfer garis CAD, potongan sudut diagonal, sudut bevel CAD, kulmanlab]
 group: edit
