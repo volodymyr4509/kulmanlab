@@ -213,6 +213,16 @@ FAQ (NL): https://kulmanlab.com/nl/faq/
 
 ---
 
+Hebrew (עברית):
+Landing page (HE): https://kulmanlab.com/he/
+Docs (HE): https://kulmanlab.com/he/docs/
+Changelog (HE): https://kulmanlab.com/he/changelog/
+About (HE): https://kulmanlab.com/he/about/
+Privacy (HE): https://kulmanlab.com/he/privacy/
+FAQ (HE): https://kulmanlab.com/he/faq/
+
+---
+
 # About KulmanLab
 
 KulmanLab is a free, browser-based 2D CAD editor. No installation, no account, no data uploaded. Open the URL and start drawing — your files stay in your browser's IndexedDB on your own device.

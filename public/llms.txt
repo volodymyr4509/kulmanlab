@@ -240,6 +240,15 @@
 - About (NL): https://kulmanlab.com/nl/about/
 - Privacy (NL): https://kulmanlab.com/nl/privacy/
 
+## Hebrew (עברית)
+
+- Landing page (HE): https://kulmanlab.com/he/
+- Docs (HE): https://kulmanlab.com/he/docs/
+- Changelog (HE): https://kulmanlab.com/he/changelog/
+- FAQ (HE): https://kulmanlab.com/he/faq/
+- About (HE): https://kulmanlab.com/he/about/
+- Privacy (HE): https://kulmanlab.com/he/privacy/
+
 ## Description
 
 KulmanLab is a professional-grade 2D CAD editor that runs entirely in the browser. There is nothing to install — open the URL and start drawing. All geometry is stored in your browser's IndexedDB; no file is ever sent to a server. The app works offline after the first load.
