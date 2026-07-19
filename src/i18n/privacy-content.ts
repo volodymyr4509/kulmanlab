@@ -2163,4 +2163,90 @@ export const privacyContent: Record<string, PrivacyContent> = {
       },
     ],
   },
+
+  nl: {
+    title: 'Privacybeleid — KulmanLab',
+    desc: 'Hoe KulmanLab met uw gegevens omgaat: tekeningen blijven op uw apparaat, geen accounts. Google Analytics voor anonieme gebruiksstatistieken; advertenties in de app via Google AdSense.',
+    heading: 'Privacybeleid',
+    updated: 'Laatst bijgewerkt: 14 juli 2026',
+    summaryHeading: 'De korte versie',
+    summary: [
+      'Uw tekeningen worden opgeslagen in uw browser en verlaten nooit uw apparaat. Al uw werk is van u.',
+      'Er zijn geen accounts, geen registratie en geen e-mail. Wij weten niet wie u bent.',
+      'Wij gebruiken Google Analytics om bezoeken te tellen en te begrijpen welke functies worden gebruikt. Het ziet nooit de inhoud van uw tekeningen.',
+      'De app is gratis en wordt gefinancierd door advertenties (Google AdSense). Uw tekeningen worden nooit gebruikt voor reclame, en wij verkopen nooit uw gegevens.',
+    ],
+    sections: [
+      {
+        h: 'Uw tekeningen blijven op uw apparaat',
+        blocks: [
+          { t: 'p', html: "Alles wat u tekent in KulmanLab CAD wordt opgeslagen in de lokale opslag (IndexedDB) van uw browser, op uw eigen apparaat. Tekeningen worden nooit geüpload, verzonden of op een server opgeslagen. Na de eerste keer laden werkt de app volledig offline — er is geen server betrokken bij het openen, bewerken of opslaan van uw bestanden." },
+          { t: 'p', html: 'Omdat uw bestanden alleen in uw browser bestaan, heeft u er volledige controle over. U kunt individuele tekeningen verwijderen via het <a href="/nl/docs/commands/files/">Bestanden-paneel</a>, alles in één keer wissen met het commando <a href="/nl/docs/commands/wipestorage/">wipestorage</a>, of de sitegegevens wissen in uw browserinstellingen. Wij kunnen uw bestanden niet voor u benaderen, herstellen of verwijderen — wij hebben ze nooit gehad.' },
+        ],
+      },
+      {
+        h: 'Geen accounts, geen persoonsgegevens',
+        blocks: [
+          { t: 'p', html: 'KulmanLab heeft geen login, geen registratie en verzamelt geen e-mailadressen. Wij verzamelen uw naam, e-mailadres of andere informatie die u persoonlijk identificeert niet, en wij hebben niets te verkopen of te delen.' },
+        ],
+      },
+      {
+        h: 'Analytics',
+        blocks: [
+          { t: 'p', html: 'Deze website (kulmanlab.com) en de app (app.kulmanlab.com) gebruiken <strong>Google Analytics 4</strong> om anonieme gebruiksstatistieken te verzamelen. Dit vertelt ons bijvoorbeeld hoeveel mensen ons bezoeken, welke pagina\'s ze lezen, in welk land ze zich bevinden (bij benadering, afgeleid van het IP-adres — Google Analytics 4 slaat geen IP-adressen op), en welke browser en apparaattype ze gebruiken.' },
+          { t: 'p', html: 'Op de website registreren wij ook enkele anonieme interactiegebeurtenissen:' },
+          { t: 'ul', items: [
+            'klikken op "App starten" en soortgelijke knoppen,',
+            'klikken op uitgaande links (het bestemmingsadres van de link),',
+            'hoever u naar beneden scrollt op een pagina, en de interfacetaal die u gebruikt.',
+          ] },
+          { t: 'p', html: 'Niets hiervan omvat de inhoud van uw tekeningen, bestandsnamen, of iets anders dat u in de app maakt. Analytics-gegevens worden door Google verwerkt onder het <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacybeleid van Google</a>.' },
+        ],
+      },
+      {
+        h: 'Adverteren',
+        blocks: [
+          { t: 'p', html: 'De app (app.kulmanlab.com) is gratis te gebruiken en wordt gefinancierd door advertenties die via <strong>Google AdSense</strong> worden weergegeven. Deze website (kulmanlab.com) toont geen advertenties.' },
+          { t: 'p', html: "Externe leveranciers, waaronder Google, gebruiken cookies om advertenties te tonen op basis van uw eerdere bezoeken aan deze of andere websites. Het gebruik van advertentiecookies door Google stelt Google en zijn partners in staat u advertenties te tonen op basis van uw bezoeken aan de app en/of andere sites op internet. Advertenties worden door Google geselecteerd — ze zien nooit de inhoud van uw tekeningen, bestandsnamen, of iets anders dat u in de app maakt." },
+          { t: 'p', html: "U kunt gepersonaliseerde advertenties uitschakelen in de <a href=\"https://adssettings.google.com\" target=\"_blank\" rel=\"noopener\">advertentie-instellingen van Google</a>, of breder afzien van externe advertentiecookies via <a href=\"https://www.aboutads.info/choices\" target=\"_blank\" rel=\"noopener\">aboutads.info</a> (of <a href=\"https://www.youronlinechoices.eu\" target=\"_blank\" rel=\"noopener\">youronlinechoices.eu</a> in Europa). Hoe Google gegevens gebruikt van sites die zijn advertenties tonen, wordt beschreven op <a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">policies.google.com/technologies/partner-sites</a>." },
+        ],
+      },
+      {
+        h: 'Cookies en lokale opslag',
+        blocks: [
+          { t: 'p', html: 'Er worden twee soorten cookies gebruikt. Google Analytics plaatst <code>_ga</code> en <code>_ga_*</code> op zowel de website als de app — deze bevatten een willekeurige identificatiecode die browsers onderscheidt, zodat herhaalde bezoeken niet als nieuwe bezoekers worden geteld, verlopen na maximaal twee jaar en kunnen niet worden gebruikt om u persoonlijk te identificeren. In de app plaatsen Google AdSense en zijn advertentiepartners aanvullende advertentiecookies om advertenties te tonen en te meten, zoals beschreven in de sectie Adverteren hierboven. Er zijn geen sociale-mediacookies, en de website zelf plaatst geen advertentiecookies.' },
+          { t: 'p', html: 'Daarnaast onthoudt de website uw taalvoorkeur en slaat de app uw tekeningen en ongedaanmaakgeschiedenis op in de lokale opslag van de browser. Deze gegevens verlaten nooit uw apparaat.' },
+        ],
+      },
+      {
+        h: 'Diensten van derden',
+        blocks: [
+          { t: 'p', html: 'Naast Google Analytics en Google AdSense vertrouwt KulmanLab op twee infrastructuurdiensten:' },
+          { t: 'ul', items: [
+            "<strong>Google Fonts</strong> — het lettertype Inter wordt geladen vanaf de servers van Google. Uw browser stuurt een standaard webverzoek (inclusief uw IP-adres) naar Google om de lettertypebestanden op te halen.",
+            '<strong>Firebase Hosting (Google)</strong> — levert deze website en de app. Zoals elke webserver verwerkt het standaard verzoeklogs (IP-adres, opgevraagde URL, user agent) om de pagina\'s te leveren.',
+          ] },
+        ],
+      },
+      {
+        h: 'Uw keuzes',
+        blocks: [
+          { t: 'p', html: 'Als u liever niet meetelt in de statistieken, kunt u de Google Analytics-cookies in uw browser blokkeren, een contentblocker gebruiken, of de <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Google Analytics-opt-outadd-on</a> installeren. De website en de app werken precies hetzelfde zonder analytics.' },
+          { t: 'p', html: 'Voor advertenties kunt u advertentiepersonalisatie uitschakelen in de <a href="https://adssettings.google.com" target="_blank" rel="noopener">advertentie-instellingen van Google</a> — u ziet nog steeds advertenties in de app, maar deze zijn niet gebaseerd op uw interesses of browsegeschiedenis.' },
+        ],
+      },
+      {
+        h: 'Wijzigingen in dit beleid',
+        blocks: [
+          { t: 'p', html: 'Als onze gegevenspraktijken veranderen — bijvoorbeeld als er een nieuwe externe dienst wordt toegevoegd — wordt deze pagina bijgewerkt en de datum bovenaan herzien.' },
+        ],
+      },
+      {
+        h: 'Contact',
+        blocks: [
+          { t: 'p', html: 'Vragen over privacy? Open een issue op <a href="https://github.com/volodymyr4509/kulmanlab/issues" target="_blank" rel="noopener">GitHub</a> of vraag het in de <a href="https://www.reddit.com/r/kulmanlab/" target="_blank" rel="noopener">Reddit-community</a>.' },
+        ],
+      },
+    ],
+  },
 };

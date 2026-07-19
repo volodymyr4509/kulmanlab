@@ -1008,4 +1008,44 @@ export const aboutContent: Record<string, AboutContent> = {
       },
     ],
   },
+
+  nl: {
+    title: 'Over KulmanLab — het verhaal achter de gratis browser-CAD',
+    desc: 'KulmanLab is een eenmansproject: een burgerlijk ingenieur die backend-ontwikkelaar werd en de snelle, gratis 2D-CAD bouwt die hij altijd wilde. Geen accounts, geen uploads, geen servers.',
+    heading: 'Over KulmanLab',
+    subtitle: 'Een eenmansproject, op de langzame manier gebouwd.',
+    sections: [
+      {
+        ps: [
+          'Hoi, ik ben Volodymyr en ik woon in Oekraïne. Ik ben opgeleid tot burgerlijk ingenieur — ik bracht jaren door aan de tekentafel en in desktop-CAD-software voordat ik overstapte naar backend-softwareontwikkeling. De ingenieursjeuk verdween echter nooit. Uiteindelijk bracht het me diep in de wereld van CNC-machines, en tot het zelf bouwen van een CO₂-lasersnijder vanaf nul.',
+          'Daar komt KulmanLab vandaan: ik had steeds een snelle manier nodig om een DXF-bestand te openen, op te schonen, een paar lijnen aan te passen en naar de machine te sturen — zonder zware CAD-software op te starten of me aan te melden voor nog een clouddienst. Dus begon ik mijn eigen gereedschap te bouwen. Dat was in 2023; het is sindsdien een avonden-en-weekendenproject.',
+        ],
+      },
+      {
+        h: 'De naam',
+        ps: [
+          'Een <em>kulman</em> is hoe de klassieke tekenmachine — het Kuhlmann-tekenbord — wordt genoemd in het deel van de wereld waar ik vandaan kom. Generaties ingenieurs leerden erop tekenen. KulmanLab is mijn poging om die geest in de browser te bewaren.',
+        ],
+      },
+      {
+        h: 'Wat ik vind dat een CAD-gereedschap moet zijn',
+        ps: [
+          'Gratis, direct en privé. KulmanLab heeft geen accounts, geen uploads en geen server erachter — uw tekeningen worden volledig op uw eigen apparaat verwerkt en opgeslagen, en de app blijft offline werken. Niets te installeren, niets waarop u moet abonneren, niets om af te staan. De details staan in het <a href="/nl/privacy/">privacybeleid</a>, dat kort is omdat er echt weinig te vertellen valt.',
+          'Het is bewust een gericht gereedschap: snel 2D-tekenwerk met een opdrachtterminal, lagen, maatvoering en eerlijke DXF-import/-export — geen vervanging voor een volledige desktop-CAD-suite. Als u dingen snijdt op CNC- of lasermachines, of snel technische schetsen nodig heeft voor een labverslag, is het met u in gedachten gebouwd.',
+        ],
+      },
+      {
+        h: 'Onder de motorkap',
+        ps: [
+          'KulmanLab is geschreven in Angular bovenop HTML5 Canvas, en verwerkt moeiteloos tekeningen met 100.000+ objecten. Het moeilijkste onderdeel tot nu toe is het DXF-formaat zelf — het parsen ervan is eenvoudig, maar bestanden schrijven die elke CAD-editor accepteert is een mijnenveld van reverse-engineerde splines en groepscodes.',
+        ],
+      },
+      {
+        h: 'Zeg hallo',
+        ps: [
+          'Een bug gevonden, een functie mist, of wilt u gewoon laten zien wat u heeft gemaakt? Open een issue op <a href="https://github.com/volodymyr4509/kulmanlab" target="_blank" rel="noopener">GitHub</a>, sluit u aan bij <a href="https://www.reddit.com/r/kulmanlab/" target="_blank" rel="noopener">r/kulmanlab</a>, of schrijf me op <a href="mailto:kulmanlab@gmail.com">kulmanlab@gmail.com</a>. Ik lees alles.',
+        ],
+      },
+    ],
+  },
 };

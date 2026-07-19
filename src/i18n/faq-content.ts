@@ -1145,4 +1145,50 @@ export const faqContent: Record<string, FaqSection[]> = {
       ],
     },
   ],
+
+  nl: [
+    {
+      headingKey: 'faq.section.start',
+      items: [
+        { q: 'Is KulmanLab echt gratis?', a: 'Ja — volledig gratis. Geen abonnement, geen creditcard, geen verborgen plan. De volledige functieset is voor iedereen beschikbaar, zonder beperkingen.' },
+        { q: 'Moet ik een account aanmaken?', a: 'Nee. Er is geen login, geen registratie en geen e-mailadres nodig. Open de app en begin direct met tekenen.' },
+        { q: 'Welke browsers worden ondersteund?', a: 'Elke moderne desktopbrowser — Chrome, Firefox, Safari en Edge werken allemaal. KulmanLab is alleen voor desktop; mobiel en tablet worden momenteel niet ondersteund.' },
+        { q: 'Werkt het offline?', a: 'Ja. Na de eerste keer laden wordt de app gecachet en werkt hij volledig zonder internetverbinding. Uw tekeningen worden lokaal opgeslagen, dus er is geen server nodig.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.files',
+      items: [
+        { q: 'Waar worden mijn tekeningen opgeslagen?', a: 'In de IndexedDB van uw browser — op uw eigen apparaat. Er wordt nooit iets naar een server geüpload. Elke browser op elk apparaat heeft zijn eigen onafhankelijke opslag.' },
+        { q: 'Wat gebeurt er als ik mijn browsergegevens wis?', a: 'Uw opgeslagen tekeningen gaan verloren. Exporteer altijd een JSON-kopie van belangrijke bestanden voordat u de browseropslag wist.' },
+        { q: 'Kan ik .dwg-bestanden openen?', a: 'KulmanLab ondersteunt DXF (Drawing Exchange Format), niet het propriëtaire DWG-formaat. De meeste desktop-CAD-toepassingen kunnen DXF exporteren, dus exporteer eerst vanuit uw bronapplicatie.' },
+        { q: 'Welke exportformaten zijn beschikbaar?', a: 'DXF en JSON via Export — DXF voor uitwisseling met andere CAD-tools, JSON voor volledig getrouwe opslag (inclusief maatvoering en leaders) binnen KulmanLab. Print exporteert apart PNG-, JPEG-, WebP- of PDF-afbeeldingen, met optionele gebiedsbijsnijding en monochrome weergave.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.features',
+      items: [
+        { q: 'Is er een opdrachtterminal?', a: 'Ja. Typ commando\'s rechtstreeks in — LINE, CIRCLE, MOVE, TRIM en 50+ andere. De terminal ondersteunt geschiedenis (pijltjestoetsen), automatisch aanvullen (Tab) en exacte numerieke invoer.' },
+        { q: 'Is er ondersteuning voor lagen?', a: 'Volledig laagbeheer: lagen aanmaken, hernoemen, bevriezen, vergrendelen en isoleren. Stel kleur, lijntype en lijndikte per laag in. Alle laaggegevens blijven behouden bij DXF-export.' },
+        { q: 'Welke maatvoeringstypen zijn beschikbaar?', a: 'Lineaire, uitgelijnde, radius-, diameter-, hoek- en doorlopende maatvoering. Allemaal opgeslagen als standaard DXF DIMENSION-entiteiten, compatibel met andere DXF-geschikte CAD-tools.' },
+        { q: 'Kan ik geometrie bewerken met grips?', a: 'Ja. Selecteer een entiteit om grips te tonen op belangrijke punten — eindpunten, middelpunten, centra, boogeinden. Sleep om direct op het canvas te wijzigen, of typ een waarde tijdens het slepen voor exacte plaatsing.' },
+        { q: 'Wordt realtime samenwerking ondersteund?', a: 'Momenteel niet. KulmanLab is een tool voor één gebruiker en tekeningen blijven lokaal. Cloudsynchronisatie en samenwerking vallen buiten het huidige bereik.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.compat',
+      items: [
+        { q: 'Zijn KulmanLab DXF-bestanden compatibel met andere CAD-software?', a: 'Ja. KulmanLab leest en schrijft AC1032 DXF — een breed ondersteunde versie. Bestanden openen correct in LibreCAD, QCAD, BricsCAD, FreeCAD en elke andere DXF-geschikte tool.' },
+        { q: 'Wat is het verschil tussen DXF en DWG?', a: 'DXF is een open, tekstgebaseerd uitwisselingsformaat ontworpen voor interoperabiliteit. DWG is een propriëtair binair formaat. KulmanLab gebruikt DXF, dat door vrijwel elke CAD-tool leesbaar is.' },
+        { q: 'Kan KulmanLab mijn desktop-CAD-software vervangen?', a: 'Voor 2D-tekenwerk — ja. KulmanLab heeft een volledige opdrachtterminal, lagen, snapping, maatvoering, grip-bewerking en DXF-compatibiliteit. Het ondersteunt geen 3D, blocks/xrefs of parametrische beperkingen.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.privacy',
+      items: [
+        { q: 'Verzamelt KulmanLab mijn tekengegevens?', a: 'Nee. Uw tekeningen blijven in uw browser en worden nooit ergens naartoe gestuurd. KulmanLab gebruikt Google Analytics voor anonieme gebruiksstatistieken (paginaweergaven, sessieaantallen) — er is geen tekeninhoud bij betrokken.' },
+        { q: 'Worden er cookies gebruikt?', a: 'Cookies worden gebruikt voor Google Analytics, dat anonieme gebruiksstatistieken verzamelt (paginaweergaven, sessieaantallen).' },
+      ],
+    },
+  ],
 };

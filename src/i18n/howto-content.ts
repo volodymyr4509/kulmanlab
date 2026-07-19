@@ -3640,4 +3640,149 @@ export const howtoContent: Record<string, HowToContent> = {
       },
     ],
   },
+
+  nl: {
+    title: 'KulmanLab gebruiken — handleidingen voor veelvoorkomende taken',
+    desc: 'Stapsgewijze handleidingen voor KulmanLab CAD: DXF-bestanden openen, tekenen met exacte maten, lagen gebruiken, maatvoering toevoegen, laser-snijbestanden voorbereiden, afdrukken en tekeningen back-uppen.',
+    heading: 'Handleidingen',
+    subtitle: 'Stapsgewijze handleidingen voor de meest voorkomende taken in KulmanLab CAD.',
+    docsLabel: 'Docs:',
+    outroTitle: 'Op zoek naar een specifiek commando?',
+    outroHtml: 'De <a href="/nl/docs/">opdrachtreferentie</a> documenteert alle 50+ commando\'s, en de <a href="/nl/faq/">FAQ</a> behandelt opslag, formaten en compatibiliteit.',
+    guides: [
+      {
+        title: 'Een DXF-bestand openen',
+        intro: 'KulmanLab leest DXF — het uitwisselingsformaat dat elke CAD-tool kan produceren. Bestanden openen rechtstreeks vanaf uw schijf en verlaten nooit uw apparaat.',
+        steps: [
+          'Open <a href="https://app.kulmanlab.com">app.kulmanlab.com</a>.',
+          'Klik op de knop <strong>Import</strong> in het Bestand-paneel, of typ <code>import</code> in de terminal.',
+          'Kies een <code>.dxf</code>- (of KulmanLab <code>.json</code>-)bestand van uw computer.',
+          'De tekening wordt op het canvas geladen en automatisch opgeslagen in uw browseropslag, dus het staat er de volgende keer nog steeds.',
+        ],
+        links: [
+          { label: 'Import-commando', slug: 'commands/import' },
+          { label: 'Recente bestanden-paneel', slug: 'commands/files' },
+        ],
+      },
+      {
+        title: 'Tekenen met exacte maten',
+        intro: 'Elk tekencommando accepteert getypte invoer, dus u hoeft nooit een lengte of coördinaat op het oog in te schatten.',
+        steps: [
+          'Start een commando — klik op <strong>Line</strong> of typ <code>line</code> en druk op <strong>Enter</strong>.',
+          'Typ een startpunt als <code>x,y</code> (bijvoorbeeld <code>0,0</code>) en druk op <strong>Enter</strong>.',
+          'Beweeg de cursor in de gewenste richting, typ dan een lengte (bijvoorbeeld <code>250</code>) en druk op <strong>Enter</strong> — het segment wordt precies zo lang getekend.',
+          'Zet hoekvergrendeling aan in de controlebalk (of houd de ingestelde stapgrootte aan) om segmenten op exacte hoeken zoals 30°, 45° of 90° te houden.',
+        ],
+        links: [
+          { label: 'Line-commando', slug: 'commands/line' },
+          { label: 'Raster & snap', slug: 'interface/grid-snap' },
+        ],
+      },
+      {
+        title: 'Een tekening organiseren met lagen',
+        intro: 'Lagen houden hulplijnen, geometrie en annotaties gescheiden — en overleven DXF-export.',
+        steps: [
+          'Open het <strong>Lagen</strong>-paneel in de werkbalk en maak een laag voor elk type inhoud (omtrek, maatvoering, notities…).',
+          'Stel kleur, lijntype en lijndikte per laag in zodat entiteiten zinvolle standaardwaarden krijgen.',
+          'Maak een laag actueel met <code>layer-make-current</code> voordat u tekent, of verplaats geselecteerde entiteiten met <code>layer-match</code>.',
+          'Gebruik <code>layer-isolate</code> om alles te verbergen behalve de laag waaraan u werkt, en <code>layer-unfreeze-all</code> om alles terug te halen.',
+        ],
+        links: [
+          { label: 'Laag isoleren', slug: 'commands/layer-isolate' },
+          { label: 'Lijntype', slug: 'interface/linetype' },
+          { label: 'Lijndikte', slug: 'interface/lineweight' },
+        ],
+      },
+      {
+        title: 'Maatvoering toevoegen',
+        intro: 'Maatvoering bestaat uit echte DXF DIMENSION-entiteiten, dus ze gaan probleemloos naar elke andere CAD-tool.',
+        steps: [
+          'Typ <code>dim-linear</code> (horizontaal/verticaal) of <code>dim-aligned</code> (parallel aan de gemeten rand) in de terminal.',
+          'Kies de twee punten die u wilt meten, en plaats dan de maatlijn met een derde klik.',
+          'Ketting een reeks metingen aaneen met <code>dim-continue</code> — elke nieuwe maatvoering begint waar de vorige eindigde.',
+          'Gebruik voor cirkels en bogen <code>dim-radius</code>, <code>dim-diameter</code> of <code>dim-angular</code>.',
+          'Dubbelklik op een maatlabel om de tekst ervan te bewerken.',
+        ],
+        links: [
+          { label: 'Lineaire maatvoering', slug: 'commands/dim-linear' },
+          { label: 'Doorlopende maatvoering', slug: 'commands/dim-continue' },
+          { label: 'Tekstverwerker', slug: 'interface/text-editor' },
+        ],
+      },
+      {
+        title: 'Afstand, hoek en oppervlakte meten',
+        intro: 'Snelle metingen zonder geometrie te creëren — resultaten blijven op het scherm staan tot u op Escape drukt.',
+        steps: [
+          'Typ <code>distance</code> en kies twee punten om een lengte af te lezen.',
+          'Typ <code>angle</code> en kies twee lijnen (of drie punten) om de hoek ertussen af te lezen.',
+          'Typ <code>area</code> en klik drie of meer punten aan, druk dan op <strong>Enter</strong> — de omsloten oppervlakte en omtrek worden getoond.',
+        ],
+        links: [
+          { label: 'Distance', slug: 'commands/distance' },
+          { label: 'Angle', slug: 'commands/angle' },
+          { label: 'Area', slug: 'commands/area' },
+        ],
+      },
+      {
+        title: 'Een bestand voorbereiden voor lasersnijden of CNC',
+        intro: 'De workflow waarvoor KulmanLab oorspronkelijk is gebouwd: controleer een bestand, ruim het op, stuur het naar de machine.',
+        steps: [
+          'Importeer de DXF en bekijk deze — <code>fit</code> zoomt de hele tekening in beeld.',
+          'Verwijder alles wat de machine niet mag snijden: hulplijnen, notities, maatvoering. <code>layer-isolate</code> helpt bij het vinden van dwalende elementen.',
+          'Ruim de geometrie op: <code>trim</code> overhangende uiteinden, sluit gaten, en controleer maten met <code>distance</code>.',
+          'Exporteer als DXF en laad het in uw machinesoftware. Snijpaden blijven exact zoals getekend — KulmanLab schrijft pure AC1032 DXF.',
+        ],
+        links: [
+          { label: 'Trim', slug: 'commands/trim' },
+          { label: 'Weergave passend maken', slug: 'commands/fit' },
+          { label: 'Export', slug: 'commands/export' },
+        ],
+      },
+      {
+        title: 'Een papierlayout met viewports opzetten',
+        intro: 'Layouts zijn bladen in de papierruimte — stel één of meer geschaalde aanzichten van uw model samen op een pagina, klaar om af te drukken.',
+        steps: [
+          'Klik op een <strong>layouttabblad</strong> onderaan het scherm om te wisselen van modelruimte naar papierruimte. De <strong>+</strong>-knop in de tabbalk voegt een nieuwe layout toe.',
+          '<strong>Rechtsklik op een layouttabblad</strong> om het te hernoemen of verwijderen, of om de <strong>Page Manager</strong> te openen — daar stelt u het papierformaat (A4, A3, Letter…), de oriëntatie en de schaal tekeneenheden per mm in.',
+          'Typ <code>viewport-rectangle</code> en klik twee tegenoverliggende hoeken aan om een viewport te plaatsen — een venster dat uw model op het papier toont.',
+          'Klik op een viewport om het te selecteren: sleep de randen of hoeken om het formaat aan te passen, sleep de middelste grip om het te verplaatsen, en kies een exacte schaal (bijv. <code>1:50</code>) uit de schaalkiezer in de controlebalk.',
+          'Scroll binnen een viewport om het modelaanzicht te zoomen, sleep met de middelste knop om te pannen. Als het er goed uitziet, <strong>rechtsklik op de viewport</strong> en kies <strong>Lock</strong> om het te beschermen tegen per ongeluk wijzigen.',
+          'Hetzelfde aanzicht nog een keer nodig? <code>viewport-copy</code> dupliceert een viewport met behoud van schaal en modelaanzicht.',
+        ],
+        links: [
+          { label: 'Page manager', slug: 'commands/page-manager' },
+          { label: 'Viewport rectangle', slug: 'commands/viewport-rectangle' },
+          { label: 'Viewport copy', slug: 'commands/viewport-copy' },
+        ],
+      },
+      {
+        title: 'Afdrukken of opslaan als PDF / PNG',
+        intro: 'De printmanager rendert uw tekening naar een afdrukklare afbeelding, met live preview.',
+        steps: [
+          'Typ <code>print</code> of klik op de knop Print in het Bestand-paneel.',
+          'Kies het uitvoerformaat: PDF voor documenten, PNG/JPEG/WebP voor afbeeldingen.',
+          'Snijd optioneel bij tot een gebied van de tekening en schakel monochrome uitvoer in voor schone lijnafdrukken.',
+          'Klik op <strong>Print</strong> — het bestand wordt naar uw computer gedownload.',
+        ],
+        links: [
+          { label: 'Print-commando', slug: 'commands/print' },
+          { label: 'Page manager', slug: 'commands/page-manager' },
+        ],
+      },
+      {
+        title: 'Opgeslagen tekeningen back-uppen en beheren',
+        intro: 'Tekeningen leven in uw browseropslag — privé, offline en volledig door u te beheren.',
+        steps: [
+          'Open het <strong>Bestanden</strong>-paneel om elke tekening te zien die in deze browser is opgeslagen; herstel of verwijder er zoveel als u wilt.',
+          'Exporteer belangrijke tekeningen voordat u browsergegevens wist of van machine wisselt — <code>.json</code> behoudt volledige getrouwheid, <code>.dxf</code> maximaliseert compatibiliteit.',
+          'Om de app volledig te resetten, typt u <code>wipestorage</code> en bevestigt u met <code>YES</code> — dit verwijdert permanent alle lokaal opgeslagen tekeningen.',
+        ],
+        links: [
+          { label: 'Bestanden-paneel', slug: 'commands/files' },
+          { label: 'Export', slug: 'commands/export' },
+          { label: 'Opslag wissen', slug: 'commands/wipestorage' },
+        ],
+      },
+    ],
+  },
 };

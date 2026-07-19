@@ -148,4 +148,9 @@ const docsTl = defineCollection({
   schema: docSchema,
 });
 
-export const collections = { docs, 'docs-de': docsDe, 'docs-es': docsEs, 'docs-fr': docsFr, 'docs-it': docsIt, 'docs-pt': docsPt, 'docs-uk': docsUk, 'docs-tr': docsTr, 'docs-zh': docsZh, 'docs-hi': docsHi, 'docs-ar': docsAr, 'docs-id': docsId, 'docs-ja': docsJa, 'docs-pl': docsPl, 'docs-ko': docsKo, 'docs-vi': docsVi, 'docs-th': docsTh, 'docs-ms': docsMs, 'docs-bn': docsBn, 'docs-sw': docsSw, 'docs-ur': docsUr, 'docs-el': docsEl, 'docs-pa': docsPa, 'docs-sv': docsSv, 'docs-tl': docsTl };
+const docsNl = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/docs-nl' }),
+  schema: docSchema,
+});
+
+export const collections = { docs, 'docs-de': docsDe, 'docs-es': docsEs, 'docs-fr': docsFr, 'docs-it': docsIt, 'docs-pt': docsPt, 'docs-uk': docsUk, 'docs-tr': docsTr, 'docs-zh': docsZh, 'docs-hi': docsHi, 'docs-ar': docsAr, 'docs-id': docsId, 'docs-ja': docsJa, 'docs-pl': docsPl, 'docs-ko': docsKo, 'docs-vi': docsVi, 'docs-th': docsTh, 'docs-ms': docsMs, 'docs-bn': docsBn, 'docs-sw': docsSw, 'docs-ur': docsUr, 'docs-el': docsEl, 'docs-pa': docsPa, 'docs-sv': docsSv, 'docs-tl': docsTl, 'docs-nl': docsNl };

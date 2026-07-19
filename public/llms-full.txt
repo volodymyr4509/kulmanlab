@@ -203,6 +203,14 @@ About (TL): https://kulmanlab.com/tl/about/
 Privacy (TL): https://kulmanlab.com/tl/privacy/
 FAQ (TL): https://kulmanlab.com/tl/faq/
 
+Dutch (Nederlands):
+Landing page (NL): https://kulmanlab.com/nl/
+Docs (NL): https://kulmanlab.com/nl/docs/
+Changelog (NL): https://kulmanlab.com/nl/changelog/
+About (NL): https://kulmanlab.com/nl/about/
+Privacy (NL): https://kulmanlab.com/nl/privacy/
+FAQ (NL): https://kulmanlab.com/nl/faq/
+
 ---
 
 # About KulmanLab
