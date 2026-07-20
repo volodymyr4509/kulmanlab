@@ -1237,4 +1237,50 @@ export const faqContent: Record<string, FaqSection[]> = {
       ],
     },
   ],
+
+  ha: [
+    {
+      headingKey: 'faq.section.start',
+      items: [
+        { q: 'Shin KulmanLab kyauta ne da gaske?', a: 'Eh — kyauta ɗungurungum. Babu biyan kuɗi na wata-wata, babu katin banki, babu wani shiri boye. Duk fasalolin suna nan a shirye ga kowa ba tare da wata iyaka ba.' },
+        { q: 'Shin ina bukatar ƙirƙirar asusu?', a: 'Aʼa. Babu shiga, babu rijista, kuma ba a bukatar imel. Buɗe manhaja ka fara zane nan take.' },
+        { q: 'Waɗanne burauza ake goyon baya?', a: 'Kowace burauza ta zamani ta tebur — Chrome, Firefox, Safari, da Edge duk suna aiki. KulmanLab don tebur ne kawai; wayar hannu da tablet ba a goyon bayansu a yanzu.' },
+        { q: 'Shin yana aiki ba tare da intanet ba?', a: 'Eh. Bayan lodawa ta farko, manhajar tana ajiyewa a cache kuma tana aiki gaba ɗaya ba tare da haɗin intanet ba. Ana ajiye zanenka a gida don haka ba a bukatar uwar garke (server).' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.files',
+      items: [
+        { q: 'Ina ake ajiye zanen-zanena?', a: 'A cikin IndexedDB na burauzarka — a naʼurarka. Ba a taɓa loda kome zuwa uwar garke. Kowace burauza a kowace naʼura tana da ajiyar kanta mai zaman kanta.' },
+        { q: 'Me zai faru idan na share bayanan burauzata?', a: 'Zanen-zanenka da aka ajiye za su ɓace. Ka koyaushe fitar da kwafin JSON na duk abin da yake da muhimmanci kafin ka share ajiyar burauza.' },
+        { q: 'Shin zan iya buɗe fayilolin .dwg?', a: 'KulmanLab yana goyon bayan DXF (Drawing Exchange Format), ba tsarin DWG na mallaka ba. Yawancin manhajojin CAD na tebur na iya fitar da DXF, don haka ka fitar daga manhajarka ta farko tukuna.' },
+        { q: 'Waɗanne tsarin fitarwa ake da su?', a: 'DXF da JSON ta hanyar Export — DXF don yin musaya tare da wasu kayan aikin CAD, JSON don ajiya cikakke (haɗe da girma-girma da leaders) a cikin KulmanLab. Print daban yana fitar da hotunan PNG, JPEG, WebP, ko PDF, tare da zaɓi na yankan yanki da yanayin baki-da-fari.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.features',
+      items: [
+        { q: 'Shin yana da tashar umarni?', a: 'Eh. Rubuta umarni kai tsaye — LINE, CIRCLE, MOVE, TRIM, da wasu sama da 50. Tashar tana goyon bayan tarihi (madannan kibiya), cika-kai-tsaye (Tab), da shigar da lambobi daidai.' },
+        { q: 'Shin akwai goyon bayan layer?', a: 'Cikakken sarrafa layer: ƙirƙira, sake suna, daskarewa, kullewa, da keɓance layers. Saita launi, nauʼin layi, da nauyin layi ga kowace layer. Duk bayanan layer ana kiyaye su a fitarwar DXF.' },
+        { q: 'Waɗanne nauʼukan girma-girma ake da su?', a: 'Layi, daidaitacce, radius, diameter, angular, da girma-girma masu ci gaba. Duk ana ajiye su a matsayin abubuwan DIMENSION na DXF na yau da kullum, masu dacewa da wasu kayan aikin CAD da ke goyon bayan DXF.' },
+        { q: 'Shin zan iya gyara sifa da grips?', a: 'Eh. Zaɓi kowace abu don ganin hannayen grip a mahimman wurare — ƙarshen layi, tsakiya, tsakiyar daʼira, ƙarshen baka. Ja don sake fasalta kai tsaye a kan canvas, ko rubuta ƙima yayin ja don matsawa daidai.' },
+        { q: 'Shin ana goyon bayan haɗin gwiwa a lokaci-guda?', a: 'Aʼa a yanzu. KulmanLab kayan aiki ne na mai amfani ɗaya kuma zanen-zane suna zama a gida. Aikin girgije da haɗin gwiwa suna waje da iyakar aikin yanzu.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.compat',
+      items: [
+        { q: 'Shin fayilolin DXF na KulmanLab suna dacewa da wasu manhajojin CAD?', a: 'Eh. KulmanLab yana karantawa da rubuta DXF na AC1032 — sigar da ake goyon bayanta sosai. Fayiloli suna buɗewa daidai a LibreCAD, QCAD, BricsCAD, FreeCAD, da kowane kayan aiki da ke goyon bayan DXF.' },
+        { q: 'Menene bambanci tsakanin DXF da DWG?', a: 'DXF tsari ne buɗaɗɗe, mai dogara da rubutu, wanda aka tsara don musayar bayanai. DWG tsari ne na binary na mallaka. KulmanLab yana amfani da DXF, wanda kusan kowane kayan aikin CAD zai iya karantawa.' },
+        { q: 'Shin KulmanLab zai iya maye gurbin manhajar CAD na tebur na?', a: 'Don zane na 2D — eh. KulmanLab yana da cikakkiyar tashar umarni, layers, snapping, girma-girma, gyaran grip, da dacewa da DXF. Ba ya goyon bayan 3D, blocks/xrefs, ko iyakoki na parametric.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.privacy',
+      items: [
+        { q: 'Shin KulmanLab yana tattara bayanan zanena?', a: 'Aʼa. Zanen-zanenka suna zama a burauzarka kuma ba a taɓa aika su koʼina ba. KulmanLab yana amfani da Google Analytics don ƙididdigar amfani ba tare da bayyana suna ba (kallon shafuka, adadin zamansu) — babu wani abu na zanenka da ke shiga cikin hakan.' },
+        { q: 'Shin ana amfani da cookies?', a: 'Ana amfani da cookies don Google Analytics, wanda ke tattara ƙididdigar amfani ba tare da bayyana suna ba (kallon shafuka, adadin zamansu).' },
+      ],
+    },
+  ],
 };

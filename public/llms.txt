@@ -249,6 +249,15 @@
 - About (HE): https://kulmanlab.com/he/about/
 - Privacy (HE): https://kulmanlab.com/he/privacy/
 
+## Hausa
+
+- Landing page (HA): https://kulmanlab.com/ha/
+- Docs (HA): https://kulmanlab.com/ha/docs/
+- Changelog (HA): https://kulmanlab.com/ha/changelog/
+- FAQ (HA): https://kulmanlab.com/ha/faq/
+- About (HA): https://kulmanlab.com/ha/about/
+- Privacy (HA): https://kulmanlab.com/ha/privacy/
+
 ## Description
 
 KulmanLab is a professional-grade 2D CAD editor that runs entirely in the browser. There is nothing to install — open the URL and start drawing. All geometry is stored in your browser's IndexedDB; no file is ever sent to a server. The app works offline after the first load.

@@ -3930,4 +3930,149 @@ export const howtoContent: Record<string, HowToContent> = {
       },
     ],
   },
+
+  ha: {
+    title: 'Yadda Ake Amfani da KulmanLab — Jagorori don Ayyukan CAD',
+    desc: 'Jagorori na mataki-bayan-mataki don KulmanLab CAD: buɗe fayilolin DXF, zana da ainihin girma-girma, yin amfani da layers, ƙara girma-girma, shirya fayiloli don yankan laser, bugawa, da adana zanen-zanenka.',
+    heading: 'Jagorori',
+    subtitle: 'Jagorori na mataki-bayan-mataki don ayyukan da aka fi yawan yi a KulmanLab CAD.',
+    docsLabel: 'Docs:',
+    outroTitle: 'Kana neman wani umarni na musamman?',
+    outroHtml: '<a href="/ha/docs/">Jerin umarni</a> yana rubuta dukkan umarni sama da 50, kuma <a href="/ha/faq/">FAQ</a> yana rufe ajiya, tsari, da dacewa.',
+    guides: [
+      {
+        title: 'Buɗe fayil ɗin DXF',
+        intro: 'KulmanLab yana karanta DXF — tsarin musaya wanda kowane kayan aikin CAD zai iya samarwa. Fayiloli suna buɗewa kai tsaye daga diskinka kuma ba sa taɓa barin naʼurarka.',
+        steps: [
+          'Buɗe <a href="https://app.kulmanlab.com">app.kulmanlab.com</a>.',
+          'Danna maɓallin <strong>Import</strong> a panel na File, ko rubuta <code>import</code> a tashar umarni.',
+          'Zaɓi fayil ɗin <code>.dxf</code> (ko <code>.json</code> na KulmanLab) daga kwamfutarka.',
+          'Zanen yana loda a kan canvas kuma ana ajiye shi kai tsaye a ajiyar burauzarka, don haka zai kasance can lokaci na gaba.',
+        ],
+        links: [
+          { label: 'Umarnin Import', slug: 'commands/import' },
+          { label: 'Panel na fayiloli na baya-bayan nan', slug: 'commands/files' },
+        ],
+      },
+      {
+        title: 'Zana da ainihin girma-girma',
+        intro: 'Kowane umarnin zane yana karɓar shigarwa ta rubutu, don haka ba za ka taɓa bukatar ƙiyasta tsawo ko daidaitawa da ido ba.',
+        steps: [
+          'Fara umarni — danna <strong>Line</strong> ko rubuta <code>line</code> ka danna <strong>Enter</strong>.',
+          'Rubuta tabon farawa kamar <code>x,y</code> (misali <code>0,0</code>) ka danna <strong>Enter</strong>.',
+          'Motsa mai nuni zuwa shugabancin da kake so, sannan ka rubuta tsawo (misali <code>250</code>) ka danna <strong>Enter</strong> — za a zana sashen daidai da wannan tsawon.',
+          'Kunna kulle-kusurwa a control bar (ko riƙe matakin da aka saita) don kiyaye sassa a kusurwoyi daidai kamar 30°, 45°, ko 90°.',
+        ],
+        links: [
+          { label: 'Umarnin Line', slug: 'commands/line' },
+          { label: 'Grid & Snap', slug: 'interface/grid-snap' },
+        ],
+      },
+      {
+        title: 'Tsara zane da layers',
+        intro: 'Layers suna raba layukan gini, geometry, da bayanai — kuma suna wanzuwa a fitarwar DXF.',
+        steps: [
+          'Buɗe panel na <strong>Layers</strong> a kayan aiki ka ƙirƙiri layer don kowane irin abu (waje, girma-girma, bayanai...).',
+          'Saita launi, nauʼin layi, da nauyin layi ga kowace layer don abubuwa su karɓi tsoho mai maʼana.',
+          'Mayar da layer zuwa mai aiki da <code>layer-make-current</code> kafin zane, ko motsa abubuwan da aka zaɓa da <code>layer-match</code>.',
+          'Yi amfani da <code>layer-isolate</code> don ɓoye komai sai layer ɗin da kake aiki a kai, da <code>layer-unfreeze-all</code> don dawo da komai.',
+        ],
+        links: [
+          { label: 'Layer Isolate', slug: 'commands/layer-isolate' },
+          { label: 'Nauʼin Layi', slug: 'interface/linetype' },
+          { label: 'Nauyin Layi', slug: 'interface/lineweight' },
+        ],
+      },
+      {
+        title: 'Ƙara girma-girma',
+        intro: 'Girma-girma abubuwan DIMENSION na DXF na gaskiya ne, don haka suna komawa daidai zuwa kowane kayan aikin CAD.',
+        steps: [
+          'Rubuta <code>dim-linear</code> (a kwance/a tsaye) ko <code>dim-aligned</code> (daidai da gefen da ake aunawa) a tashar umarni.',
+          'Zaɓi tabo biyu da kake son aunawa, sannan sanya layin girma-girma da danna na uku.',
+          'Sarƙa jerin awo da <code>dim-continue</code> — kowace sabuwar girma-girma tana farawa inda ta ƙarshe ta ƙare.',
+          'Don daʼira da baka, yi amfani da <code>dim-radius</code>, <code>dim-diameter</code>, ko <code>dim-angular</code>.',
+          'Danna sau biyu kowace alamar girma-girma don gyara rubutunta.',
+        ],
+        links: [
+          { label: 'Girma-girma ta Layi', slug: 'commands/dim-linear' },
+          { label: 'Girma-girma Mai Ci Gaba', slug: 'commands/dim-continue' },
+          { label: 'Naʼurar Gyaran Rubutu', slug: 'interface/text-editor' },
+        ],
+      },
+      {
+        title: 'Auna nisa, kusurwa, da fili',
+        intro: 'Awo cikin sauri ba tare da ƙirƙirar wata geometry ba — sakamako yana zama a fuskar allo har sai ka danna Escape.',
+        steps: [
+          'Rubuta <code>distance</code> ka zaɓi tabo biyu don karanta tsawo.',
+          'Rubuta <code>angle</code> ka zaɓi layi biyu (ko tabo uku) don karanta kusurwar da ke tsakaninsu.',
+          'Rubuta <code>area</code> ka danna tabo uku ko fiye, sannan ka danna <strong>Enter</strong> — za a nuna fili da kewaye da aka rufe.',
+        ],
+        links: [
+          { label: 'Distance', slug: 'commands/distance' },
+          { label: 'Angle', slug: 'commands/angle' },
+          { label: 'Area', slug: 'commands/area' },
+        ],
+      },
+      {
+        title: 'Shirya fayil don yankan laser ko CNC',
+        intro: 'Tsarin aikin da aka fara gina KulmanLab dominsa: duba fayil, tsaftace shi, aika zuwa naʼurar.',
+        steps: [
+          'Shigo da DXF ka dube shi — <code>fit</code> yana zom da dukkan zanen zuwa cikin kallo.',
+          'Share duk abin da naʼurar bai kamata ta yanke ba: layukan gini, bayanai, girma-girma. <code>layer-isolate</code> yana taimakawa gano abubuwan da suka ɓace.',
+          'Tsaftace geometry: <code>trim</code> ƙarshen da ya wuce gona da iri, rufe gibi, ka duba girma da <code>distance</code>.',
+          'Fitar da shi a matsayin DXF ka loda shi a software na naʼurarka. Hanyoyin yankewa suna wanzuwa daidai yadda aka zana su — KulmanLab yana rubuta DXF na AC1032 mai sauƙi.',
+        ],
+        links: [
+          { label: 'Trim', slug: 'commands/trim' },
+          { label: 'Fit', slug: 'commands/fit' },
+          { label: 'Export', slug: 'commands/export' },
+        ],
+      },
+      {
+        title: 'Kafa tsarin takarda da viewports',
+        intro: 'Layouts takardu ne na paper-space — tsara kallo ɗaya ko fiye masu maʼauni na model ɗinka a shafi, a shirye don bugawa.',
+        steps: [
+          'Danna <strong>layout tab</strong> a ƙasan allo don sauyawa daga model space zuwa paper space. Maɓallin <strong>+</strong> a tab bar yana ƙara sabon layout.',
+          'Danna dama a layout tab don sake masa suna ko share shi, ko don buɗe <strong>Page Manager</strong> — a can za ka saita tsarin takarda (A4, A3, Letter...), shugabanci, da maʼaunin drawing-units-per-mm.',
+          'Rubuta <code>viewport-rectangle</code> ka danna kusurwoyi biyu masu adawa don sanya viewport — taga mai nuna model ɗinka a kan takarda.',
+          'Danna viewport don zaɓarsa: ja gefuna ko kusurwoyinsa don sake girma, ja grip na tsakiya don motsa shi, kuma ka zaɓi ainihin girma (misali <code>1:50</code>) daga mai zaɓen girma a control bar.',
+          'Yi scroll a cikin viewport don zom kallon model, ja da tsakiyar maɓalli don pan. Idan ya yi kama daidai, <strong>danna dama a viewport</strong> ka zaɓi <strong>Lock</strong> don kare shi daga canje-canjen kwatsam.',
+          'Kana bukatar wannan kallo sau biyu? <code>viewport-copy</code> yana kwafi viewport tare da kiyaye girmarsa da kallon model.',
+        ],
+        links: [
+          { label: 'Page Manager', slug: 'commands/page-manager' },
+          { label: 'Viewport Rectangle', slug: 'commands/viewport-rectangle' },
+          { label: 'Viewport Copy', slug: 'commands/viewport-copy' },
+        ],
+      },
+      {
+        title: 'Buga ko ajiye a matsayin PDF / PNG',
+        intro: 'Manajan bugawa yana mayar da zanenka zuwa hoto a shirye don takarda, tare da preview mai rai.',
+        steps: [
+          'Rubuta <code>print</code> ko danna maɓallin Print a panel na File.',
+          'Zaɓi tsarin fitarwa: PDF don takardu, PNG/JPEG/WebP don hotuna.',
+          'Idan kana so, yanke zuwa yanki na zanen ka kunna fitarwa ta baki-da-fari don buga layuka masu tsafta.',
+          'Danna <strong>Print</strong> — fayil zai sauka a kwamfutarka.',
+        ],
+        links: [
+          { label: 'Umarnin Print', slug: 'commands/print' },
+          { label: 'Page Manager', slug: 'commands/page-manager' },
+        ],
+      },
+      {
+        title: 'Adana da sarrafa zanen-zanen da aka ajiye',
+        intro: 'Zanen-zane suna zama a ajiyar burauzarka — na sirri, ba tare da intanet ba, kuma naka ne ka sarrafa su.',
+        steps: [
+          'Buɗe panel na <strong>Files</strong> don ganin kowane zane da aka ajiye a wannan burauza; mayar da ko share kowanne.',
+          'Kafin share bayanan burauza ko sauya naʼura, fitar da duk abin da yake da muhimmanci — <code>.json</code> yana riƙe cikakken inganci, <code>.dxf</code> yana ƙara dacewa zuwa iyaka.',
+          'Don sake saita manhajar gaba ɗaya, rubuta <code>wipestorage</code> ka tabbatar da <code>YES</code> — wannan yana share dukkan zanen-zanen da aka ajiye a gida na dindindin.',
+        ],
+        links: [
+          { label: 'Panel na Files', slug: 'commands/files' },
+          { label: 'Export', slug: 'commands/export' },
+          { label: 'Wipe Storage', slug: 'commands/wipestorage' },
+        ],
+      },
+    ],
+  },
 };

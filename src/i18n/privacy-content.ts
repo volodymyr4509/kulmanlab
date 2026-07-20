@@ -2335,4 +2335,90 @@ export const privacyContent: Record<string, PrivacyContent> = {
       },
     ],
   },
+
+  ha: {
+    title: 'Manufar Sirri — KulmanLab',
+    desc: 'Yadda KulmanLab ke sarrafa bayananka: zanen-zane suna zama a naʼurarka, babu asusu. Google Analytics don ƙididdigar amfani ba tare da bayyana suna ba; tallace-tallace a cikin manhajar ta hanyar Google AdSense.',
+    heading: 'Manufar Sirri',
+    updated: 'An sabunta na ƙarshe: 14 Yuli, 2026',
+    summaryHeading: 'Gajeriyar sigar',
+    summary: [
+      'Ana ajiye zanen-zanenka a burauzarka kuma ba sa taɓa barin naʼurarka. Dukkan aikinka naka ne.',
+      'Babu asusu, babu rijista, kuma babu imel. Ba mu san ko su waye ba.',
+      'Muna amfani da Google Analytics don ƙidaya ziyara da fahimtar waɗanne fasaloli ake amfani da su. Ba ya taɓa ganin abin da ke cikin zanenka.',
+      'Manhajar kyauta ce kuma tallace-tallace (Google AdSense) ke tallafa mata. Ba a taɓa amfani da zanen-zanenka don talla ba, kuma ba mu taɓa sayar da bayananka ba.',
+    ],
+    sections: [
+      {
+        h: 'Zanen-zanenka suna zama a naʼurarka',
+        blocks: [
+          { t: 'p', html: 'Duk abin da ka zana a KulmanLab CAD ana ajiye shi a ajiyar gida ta burauzarka (IndexedDB) a naʼurarka. Ba a taɓa loda zanen-zane, aika su, ko ajiye su a wani uwar garke ba. Bayan lodawa ta farko, manhajar tana aiki gaba ɗaya ba tare da intanet ba — babu uwar garke da ke shiga cikin buɗewa, gyarawa, ko ajiye fayilolinka.' },
+          { t: 'p', html: 'Tunda fayilolinka suna wanzuwa a burauzarka kaɗai, kana da cikakken iko a kansu. Za ka iya share zanen-zane guda ɗaya daga <a href="/ha/docs/commands/files/">panel na Files</a>, share komai lokaci guda da umarnin <a href="/ha/docs/commands/wipestorage/">wipestorage</a>, ko share bayanan shafi a saitunan burauzarka. Ba za mu iya shiga, mayar da su, ko share fayilolinka a madadinka ba — ba mu taɓa samun su ba.' },
+        ],
+      },
+      {
+        h: 'Babu asusu, babu bayanan sirri',
+        blocks: [
+          { t: 'p', html: 'KulmanLab ba shi da shiga, rijista, ko tattara imel. Ba mu tattara sunanka, adireshin imel, ko wani bayani da ke gano ka a matsayin mutum, kuma ba mu da wani abu da za mu sayar ko raba.' },
+        ],
+      },
+      {
+        h: 'Analytics',
+        blocks: [
+          { t: 'p', html: 'Wannan shafin (kulmanlab.com) da manhajar (app.kulmanlab.com) suna amfani da <strong>Google Analytics 4</strong> don tattara ƙididdigar amfani ba tare da bayyana suna ba. Wannan yana gaya mana abubuwa kamar yawan mutanen da suke ziyara, waɗanne shafuka suke karantawa, a wace ƙasa suke (kimantawa, daga adireshin IP — Google Analytics 4 ba ya ajiye adireshin IP), da irin burauza da naʼurar da suke amfani da su.' },
+          { t: 'p', html: 'A shafin, muna kuma rikodin wasu abubuwan hulɗa ba tare da bayyana suna ba:' },
+          { t: 'ul', items: [
+            'danna "Buɗe Manhaja" da irin waɗannan maɓallai,',
+            'danna hanyoyin haɗi na waje (adireshin da hanyar haɗin ke kaiwa),',
+            'har wace zurfi kake scroll a shafi, da harshen interface da kake amfani da shi.',
+          ] },
+          { t: 'p', html: 'Babu ɗayan waɗannan da ya haɗa da abin da ke cikin zanenka, sunayen fayiloli, ko wani abu da ka ƙirƙira a manhajar. Google ce ke sarrafa bayanan Analytics a ƙarƙashin <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Manufar Sirri ta Google</a>.' },
+        ],
+      },
+      {
+        h: 'Talla',
+        blocks: [
+          { t: 'p', html: 'Manhajar (app.kulmanlab.com) kyauta ce a yi amfani da ita kuma tallace-tallace da ake bayarwa ta hanyar <strong>Google AdSense</strong> ke tallafa mata. Wannan shafin (kulmanlab.com) ba ya nuna tallace-tallace.' },
+          { t: 'p', html: "Kamfanoni na waje, ciki har da Google, suna amfani da cookies don bayar da tallace-tallace bisa ziyarorinka na baya zuwa wannan ko wasu shafuka. Amfanin Google da cookies na talla yana ba shi da abokan hulɗarsa damar nuna maka tallace-tallace bisa ziyarorinka zuwa manhajar da/ko wasu shafuka a Intanet. Google ce ke zaɓen tallace-tallace — ba sa taɓa ganin abin da ke cikin zanenka, sunayen fayiloli, ko wani abu da ka ƙirƙira a manhajar." },
+          { t: 'p', html: 'Za ka iya fita daga tallace-tallace na keɓance a <a href="https://adssettings.google.com" target="_blank" rel="noopener">Saitunan Tallace-tallace na Google</a>, ko fita daga cookies na talla na kamfanoni na waje gaba ɗaya a <a href="https://www.aboutads.info/choices" target="_blank" rel="noopener">aboutads.info</a> (ko <a href="https://www.youronlinechoices.eu" target="_blank" rel="noopener">youronlinechoices.eu</a> a Turai). Yadda Google ke amfani da bayanai daga shafukan da ke nuna tallace-tallacenta an bayyana su a <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">policies.google.com/technologies/partner-sites</a>.' },
+        ],
+      },
+      {
+        h: 'Cookies da ajiyar gida',
+        blocks: [
+          { t: 'p', html: 'Ana amfani da nauʼukan cookies guda biyu. Google Analytics tana saita <code>_ga</code> da <code>_ga_*</code> a shafin da kuma manhajar — suna ɗauke da alamar bazuwar da ke bambanta burauza domin kada a ƙidaya ziyara maimaitawa a matsayin sabbin baƙi, suna ƙarewa bayan har shekaru biyu, kuma ba za a iya amfani da su don gane ka a matsayin mutum ba. A manhajar, Google AdSense da abokan hulɗarta na talla suna saita ƙarin cookies na talla don bayarwa da auna tallace-tallace, kamar yadda aka bayyana a sashin Talla a sama. Babu cookies na kafofin sada zumunta, kuma shafin da kansa ba ya saita cookies na talla.' },
+          { t: 'p', html: 'Bugu da ƙari, shafin yana tuna zaɓin harshenka kuma manhajar tana ajiye zanen-zanenka da tarihin undo a ajiyar gida ta burauza. Wannan bayanin ba ya taɓa barin naʼurarka.' },
+        ],
+      },
+      {
+        h: 'Ayyukan kamfanoni na waje',
+        blocks: [
+          { t: 'p', html: 'Baya ga Google Analytics da Google AdSense, KulmanLab tana dogara da ayyuka biyu na tsari:' },
+          { t: 'ul', items: [
+            "<strong>Google Fonts</strong> — ana loda font ɗin Inter daga uwayen garken Google. Burauzarka tana aika buƙata ta yau da kullum (haɗe da adireshin IP naka) zuwa Google don samun fayilolin font.",
+            '<strong>Firebase Hosting (Google)</strong> — yana bayar da wannan shafin da manhajar. Kamar kowane uwar garken yanar gizo, yana sarrafa rikodin buƙatun yau da kullum (adireshin IP, URL da aka buƙata, user agent) don isar da shafuka.',
+          ] },
+        ],
+      },
+      {
+        h: 'Zaɓinka',
+        blocks: [
+          { t: 'p', html: 'Idan ba ka son a ƙidaya ka a analytics, za ka iya toshe cookies na Google Analytics a burauzarka, yi amfani da content blocker, ko shigar da <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">ƙarin na fita daga Google Analytics</a>. Shafin da manhajar suna aiki daidai iri ɗaya ba tare da analytics ba.' },
+          { t: 'p', html: "Don talla, za ka iya kashe keɓance talla a <a href=\"https://adssettings.google.com\" target=\"_blank\" rel=\"noopener\">Saitunan Talla na Google</a> — har yanzu za ka ga tallace-tallace a manhajar, amma ba za su dogara da abubuwan da kake shaʼawa ko tarihin bincikenka ba." },
+        ],
+      },
+      {
+        h: 'Canje-canje ga wannan manufar',
+        blocks: [
+          { t: 'p', html: 'Idan ayyukan bayananmu suka canza — misali, idan an ƙara sabon aikin kamfani na waje — za a sabunta wannan shafin kuma a sake kwanan wata a sama.' },
+        ],
+      },
+      {
+        h: 'Tuntuɓi mu',
+        blocks: [
+          { t: 'p', html: 'Tambayoyi game da sirri? Buɗe issue a <a href="https://github.com/volodymyr4509/kulmanlab/issues" target="_blank" rel="noopener">GitHub</a> ko tambaya a <a href="https://www.reddit.com/r/kulmanlab/" target="_blank" rel="noopener">alʼummar Reddit</a>.' },
+        ],
+      },
+    ],
+  },
 };

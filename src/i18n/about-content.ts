@@ -1088,4 +1088,44 @@ export const aboutContent: Record<string, AboutContent> = {
       },
     ],
   },
+
+  ha: {
+    title: 'Game da KulmanLab — labarin bayan CAD ta burauza kyauta',
+    desc: 'KulmanLab aiki ne na mutum ɗaya: injiniyan gine-gine wanda ya zama mai haɓaka backend yana gina CAD na 2D mai sauri, kyauta wanda koyaushe yake so. Babu asusu, babu loda, babu uwar garke.',
+    heading: 'Game da KulmanLab',
+    subtitle: 'Aiki na mutum ɗaya, wanda aka gina a hankali.',
+    sections: [
+      {
+        ps: [
+          'Sannu, ni Volodymyr ne, kuma ina zaune a Ukraine. Injiniyan gine-gine ne ta hanyar karatu — na yi shekaru a allon zane da a manhajojin CAD na tebur kafin na sauya sanaʼa zuwa haɓaka software na backend. Amma shaʼawar injiniya ba ta taɓa tafiya ba. A ƙarshe ta kai ni ga zurfin injinan CNC, da gina naʼurar yankan laser ta CO₂ ta kaina daga farko.',
+          'Daga nan ne KulmanLab ya fito: koyaushe ina bukatar hanya mai sauri don buɗe fayil ɗin DXF, tsaftace shi, daidaita wasu layuka, sannan in aika zuwa naʼurar — ba tare da kunna manhajar CAD mai nauyi ba ko yin rijista a wani sabis na girgije. Don haka na fara gina kayan aikina. Wannan ya faru a shekarar 2023; tun daga lokacin ya kasance aiki na maraice da ƙarshen mako.',
+        ],
+      },
+      {
+        h: 'Sunan',
+        ps: [
+          'Kulman shine sunan da ake kira injin zane na gargajiya — allon zane na Kuhlmann — a wurin da na fito. Ƙarni na injiniyoyi sun koyi zana a kansa. KulmanLab shine yunƙurina na riƙe wannan ruhi a cikin burauza.',
+        ],
+      },
+      {
+        h: 'Abin da nake gaskata kayan aikin CAD ya kamata ya kasance',
+        ps: [
+          'Kyauta, nan take, da sirri. KulmanLab ba shi da asusu, loda, ko uwar garke a bayansa — ana sarrafa da ajiye zanen-zanenka gaba ɗaya a naʼurarka, kuma manhajar tana ci gaba da aiki ba tare da intanet ba. Babu abin da za a shigar, babu abin da za a biya kuɗi na wata-wata, babu abin da za a bayar. Cikakkun bayanai suna nan a <a href="/ha/privacy/">manufar sirri</a>, wadda take gajera domin da gaske babu abin da za a faɗa da yawa.',
+          'Da gangan aka mayar da hankali kan wannan kayan aiki: zane na 2D mai sauri tare da tashar umarni, layers, girma-girma, da shigo/fitar da DXF na gaskiya — ba maye gurbin cikakken tsarin CAD na tebur ba. Idan kana yankan abubuwa a injinan CNC ko laser, ko kana bukatar zane-zanen fasaha masu sauri don rahoton dakin gwaje-gwaje, an gina shi da kai a zuciya.',
+        ],
+      },
+      {
+        h: 'A ƙarƙashin murfin',
+        ps: [
+          'An rubuta KulmanLab a Angular a saman HTML5 Canvas, kuma yana sarrafa zanen-zane masu abubuwa sama da 100,000 cikin sauƙi. Mafi wahalar sashi shine tsarin DXF da kansa — fassara shi mai sauƙi ne, amma rubuta fayilolin da kowane editan CAD zai karɓa filin maʼadanai ne na splines da group codes waɗanda aka gano ta hanyar reverse-engineering.',
+        ],
+      },
+      {
+        h: 'Ka gaishe mu',
+        ps: [
+          'Ka sami kwaro, ka rasa wani fasali, ko kawai kana son nuna abin da ka yi? Buɗe issue a <a href="https://github.com/volodymyr4509/kulmanlab" target="_blank" rel="noopener">GitHub</a>, shiga <a href="https://www.reddit.com/r/kulmanlab/" target="_blank" rel="noopener">r/kulmanlab</a>, ko rubuto mini a <a href="mailto:kulmanlab@gmail.com">kulmanlab@gmail.com</a>. Ina karanta komai.',
+        ],
+      },
+    ],
+  },
 };
