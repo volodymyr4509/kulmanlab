@@ -20,6 +20,7 @@ Utilisé par : **Text** (labels MTEXT) et annotations **Multileader**.
 |---------|-------------|
 | Bold / Italic / Strikethrough | Par caractère (appliqué à la sélection, ou toute l'entité si aucune sélection) |
 | Font et Height | Substitution par caractère, ou valeur par défaut de l'entité |
+| Alignment (Left / Center / Right / Justify) | **Texte uniquement** — non disponible pour Multileader |
 | `Enter` | Insère un saut de ligne dur |
 | `Shift+←/→` | Étend ou réduit une sélection de texte |
 | `Home` / `End` | Aller au début / fin de la ligne dure actuelle |
@@ -88,6 +89,14 @@ Le champ numérique définit la **hauteur de boîte** (hauteur d'une lettre maju
 - **Sans sélection** — change la hauteur de base de l'entité (s'applique à tous les caractères sans remplacement de hauteur individuel).
 
 Le champ reflète la hauteur du caractère à gauche du curseur. Laissez-le vide pour utiliser la valeur par défaut de l'entité.
+
+### Alignement
+
+Quatre boutons — **Align Left**, **Align Center**, **Align Right**, **Justify** — définissent l'alignement du paragraphe. Disponible uniquement pour les entités **Text** ; les étiquettes Multileader et de cote n'affichent pas ces boutons.
+
+- Cliquer sur un bouton rejustifie chaque ligne dans le cadre de délimitation existant de l'entité — cela ne déplace pas le point d'insertion et ne redimensionne pas le cadre.
+- Cliquer sur le bouton déjà actif supprime la substitution, revenant à la colonne impliquée par le point d'attache de l'entité.
+- **Justify** étire l'espacement entre les mots pour que chaque ligne remplisse toute la largeur de ligne.
 
 ## Curseur et navigation
 

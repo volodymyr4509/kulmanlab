@@ -20,6 +20,7 @@ Digunakan oleh: **Text** (label MTEXT) dan anotasi **Multileader**.
 |------|---------|
 | Bold / Italic / Strikethrough | Setiap aksara (berlaku pada pemilihan, atau keseluruhan entiti jika tiada pemilihan) |
 | Font dan Height | Pengatasan setiap aksara, atau lalai keseluruhan entiti |
+| Alignment (Left / Center / Right / Justify) | **Teks sahaja** — tidak tersedia untuk Multileader |
 | `Enter` | Memasukkan pemecahan baris keras |
 | `Shift+←/→` | Memanjangkan atau mengecilkan pemilihan teks |
 | `Home` / `End` | Lompat ke awal/akhir baris keras semasa |
@@ -88,6 +89,14 @@ Medan nombor menetapkan **ketinggian cap** (ketinggian huruf besar) dalam unit l
 - **Tiada pemilihan** — menukar ketinggian asas entiti (terpakai pada semua aksara yang tidak mempunyai pengatasan ketinggian individu).
 
 Medan mencerminkan ketinggian aksara di sebelah kiri kursor. Biarkan kosong untuk menggunakan lalai entiti.
+
+### Penjajaran
+
+Empat butang — **Align Left**, **Align Center**, **Align Right**, **Justify** — menetapkan penjajaran perenggan. Tersedia hanya untuk entiti **Text**; label Multileader dan dimensi tidak menunjukkan butang ini.
+
+- Mengklik butang akan menjajarkan semula setiap baris dalam kotak sempadan sedia ada entiti — tidak menggerakkan titik sisipan atau mengubah saiz kotak.
+- Mengklik butang yang sudah aktif akan mengosongkan pengatasan, kembali ke lajur yang tersirat oleh titik lampiran entiti.
+- **Justify** meregangkan jarak antara perkataan supaya setiap baris memenuhi keseluruhan lebar baris.
 
 ## Kursor dan navigasi
 

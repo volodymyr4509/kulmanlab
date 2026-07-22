@@ -20,6 +20,7 @@ Kullanan: **Text** (MTEXT etiketleri) ve **Multileader** ek açıklamaları.
 |---------|----------|
 | Bold / Italic / Strikethrough | Karakter başına (seçime uygulanır; seçim yoksa tüm nesneye) |
 | Font ve Height | Karakter başına geçersiz kılma veya tüm nesne varsayılanı |
+| Alignment (Left / Center / Right / Justify) | **Yalnızca metin** — Multileader için kullanılamaz |
 | `Enter` | Sabit satır sonu ekler |
 | `Shift+←/→` | Metin seçimini genişletir veya daraltır |
 | `Home` / `End` | Geçerli sabit satırın başına / sonuna atlar |
@@ -88,6 +89,14 @@ Sayı alanı, çizim birimlerinde **büyük harf yüksekliğini** (bir büyük h
 - **Seçim yok** — nesnenin temel yüksekliğini değiştirir (ayrı yükseklik geçersiz kılması olmayan tüm karakterlere uygulanır).
 
 Alan, imleçin solundaki karakterin yüksekliğini yansıtır. Nesne varsayılanını kullanmak için boş bırakın.
+
+### Hizalama
+
+Dört düğme — **Align Left**, **Align Center**, **Align Right**, **Justify** — paragraf hizalamasını ayarlar. Yalnızca **Text** nesneleri için kullanılabilir; Multileader ve ölçü etiketleri bu düğmeleri göstermez.
+
+- Bir düğmeye tıklamak, nesnenin mevcut sınırlayıcı kutusu içinde her satırı yeniden hizalar — ekleme noktasını taşımaz veya kutuyu yeniden boyutlandırmaz.
+- Zaten etkin olan düğmeye tıklamak geçersiz kılmayı temizler ve nesnenin tutturma noktasının ima ettiği sütuna geri döner.
+- **Justify**, her satırın tam satır genişliğini doldurması için kelimeler arası boşluğu genişletir.
 
 ## İmleç ve Gezinti
 

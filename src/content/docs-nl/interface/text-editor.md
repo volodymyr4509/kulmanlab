@@ -20,6 +20,7 @@ Gebruikt door: **Text** (MTEXT-labels) en **Multileader**-annotaties.
 |---------|-----------|
 | Vet / Cursief / Doorhalen | Per teken (toegepast op selectie, of hele entiteit als er geen selectie is) |
 | Lettertype en hoogte | Overschrijving per teken, of standaardwaarde voor de hele entiteit |
+| Alignment (Left / Center / Right / Justify) | **Alleen tekst** — niet beschikbaar voor Multileader |
 | `Enter` | Voegt een harde regelafbreking in |
 | `Shift+←/→` | Breidt een tekstselectie uit of verkleint deze |
 | `Home` / `End` | Spring naar begin / einde van de huidige harde regel |
@@ -88,6 +89,14 @@ Het getalveld stelt de **kapitaalhoogte** (hoogte van een hoofdletter) in tekene
 - **Geen selectie** — wijzigt de basishoogte van de entiteit (geldt voor alle tekens zonder individuele hoogteoverschrijving).
 
 Het veld toont de hoogte van het teken links van de cursor. Laat het leeg om de standaardwaarde van de entiteit te gebruiken.
+
+### Uitlijning
+
+Vier knoppen — **Align Left**, **Align Center**, **Align Right**, **Justify** — stellen de alineauitlijning in. Alleen beschikbaar voor **Text**-entiteiten; Multileader- en maatvoeringslabels tonen deze knoppen niet.
+
+- Door op een knop te klikken wordt elke regel opnieuw uitgelijnd binnen het bestaande begrenzingsvak van de entiteit — het verplaatst het invoegpunt niet en verandert het vak niet van grootte.
+- Door op de al actieve knop te klikken wordt de overschrijving gewist, terug naar de kolom die wordt geïmpliceerd door het aanhechtingspunt van de entiteit.
+- **Justify** rekt de spatiëring tussen woorden uit zodat elke regel de volledige regelbreedte vult.
 
 ## Cursor en navigatie
 

@@ -20,6 +20,7 @@ Używany przez: **Text** (etykiety MTEXT) i adnotacje **Multileader**.
 |---------|-----------|
 | Bold / Italic / Strikethrough | Dla poszczególnych znaków (stosuje się do zaznaczenia lub całego elementu bez zaznaczenia) |
 | Font i Height | Nadpisanie dla poszczególnych znaków lub domyślna całego elementu |
+| Alignment (Left / Center / Right / Justify) | **Tylko tekst** — niedostępne dla Multileader |
 | `Enter` | Wstawia twardy podział wiersza |
 | `Shift+←/→` | Rozszerza lub zmniejsza zaznaczenie tekstu |
 | `Home` / `End` | Przejście na początek / koniec bieżącego twardego wiersza |
@@ -88,6 +89,14 @@ Pole liczbowe ustawia **wysokość kapitalika** (wysokość dużej litery) w jed
 - **Bez zaznaczenia** — zmienia podstawową wysokość elementu (stosuje się do wszystkich znaków, które nie mają indywidualnego nadpisania wysokości).
 
 Pole odzwierciedla wysokość znaku po lewej stronie kursora. Zostaw puste, aby użyć domyślnej wartości elementu.
+
+### Wyrównanie
+
+Cztery przyciski — **Align Left**, **Align Center**, **Align Right**, **Justify** — ustawiają wyrównanie akapitu. Dostępne tylko dla elementów **Text**; etykiety Multileader i wymiarów nie pokazują tych przycisków.
+
+- Kliknięcie przycisku ponownie wyrównuje każdy wiersz w obrębie istniejącego prostokąta ograniczającego elementu — nie przesuwa punktu wstawienia ani nie zmienia rozmiaru prostokąta.
+- Kliknięcie już aktywnego przycisku usuwa nadpisanie, wracając do kolumny sugerowanej przez punkt zaczepienia elementu.
+- **Justify** rozciąga odstępy między wyrazami tak, aby każdy wiersz wypełniał całą szerokość wiersza.
 
 ## Kursor i nawigacja
 

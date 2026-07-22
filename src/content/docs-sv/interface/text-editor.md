@@ -20,6 +20,7 @@ Används av: **Text** (MTEXT-etiketter) och **Multileader**-annotationer.
 |---------|-----------|
 | Fet / Kursiv / Genomstruken | Per tecken (tillämpas på markering, eller hela entiteten om ingen markering finns) |
 | Typsnitt och Höjd | Åsidosättning per tecken, eller standard för hela entiteten |
+| Alignment (Left / Center / Right / Justify) | **Endast text** — inte tillgänglig för Multileader |
 | `Enter` | Infogar en hård radbrytning |
 | `Shift+←/→` | Utökar eller krymper en textmarkering |
 | `Home` / `End` | Hoppa till start / slut av den aktuella hårda raden |
@@ -88,6 +89,14 @@ Talfältet ställer in **versalhöjden** (höjden på en stor bokstav) i ritenhe
 - **Ingen markering** — ändrar entitetens grundhöjd (tillämpas på alla tecken som inte har en individuell höjdåsidosättning).
 
 Fältet återspeglar höjden på tecknet till vänster om markören. Lämna det tomt för att använda entitetens standardvärde.
+
+### Justering
+
+Fyra knappar — **Align Left**, **Align Center**, **Align Right**, **Justify** — ställer in styckejustering. Tillgängligt endast för **Text**-entiteter; Multileader och måttsättningsetiketter visar inte dessa knappar.
+
+- Att klicka på en knapp justerar om varje rad inom entitetens befintliga avgränsningsruta — det flyttar inte infogningspunkten eller ändrar rutans storlek.
+- Att klicka på den redan aktiva knappen rensar åsidosättningen och återgår till den kolumn som antyds av entitetens förankringspunkt.
+- **Justify** sträcker ut mellanrummet mellan ord så att varje rad fyller hela radbredden.
 
 ## Markör och navigering
 

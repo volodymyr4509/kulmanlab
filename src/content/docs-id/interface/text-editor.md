@@ -20,6 +20,7 @@ Digunakan oleh: **Text** (label MTEXT) dan anotasi **Multileader**.
 |-------|---------|
 | Bold / Italic / Strikethrough | Per karakter (berlaku untuk seleksi, atau seluruh entitas jika tidak ada seleksi) |
 | Font dan Height | Penggantian per karakter, atau default seluruh entitas |
+| Alignment (Left / Center / Right / Justify) | **Hanya teks** — tidak tersedia untuk Multileader |
 | `Enter` | Menyisipkan jeda baris keras |
 | `Shift+←/→` | Memperluas atau mempersempit seleksi teks |
 | `Home` / `End` | Lompat ke awal/akhir baris keras saat ini |
@@ -88,6 +89,14 @@ Field angka mengatur **tinggi cap** (tinggi huruf kapital) dalam satuan gambar.
 - **Tidak ada seleksi** — mengubah tinggi dasar entitas (berlaku untuk semua karakter yang tidak memiliki penggantian tinggi individual).
 
 Field mencerminkan tinggi karakter di sebelah kiri kursor. Biarkan kosong untuk menggunakan default entitas.
+
+### Perataan
+
+Empat tombol — **Align Left**, **Align Center**, **Align Right**, **Justify** — mengatur perataan paragraf. Tersedia hanya untuk entitas **Text**; label Multileader dan dimensi tidak menampilkan tombol ini.
+
+- Mengklik tombol akan meratakan ulang setiap baris dalam kotak pembatas entitas yang ada — tidak memindahkan titik penyisipan atau mengubah ukuran kotak.
+- Mengklik tombol yang sudah aktif akan menghapus penggantian, kembali ke kolom yang tersirat oleh titik lampiran entitas.
+- **Justify** meregangkan spasi antar kata sehingga setiap baris memenuhi seluruh lebar baris.
 
 ## Kursor dan navigasi
 

@@ -20,6 +20,7 @@ Used by: **Text** (MTEXT labels) and **Multileader** annotations.
 |---------|-----------|
 | Bold / Italic / Strikethrough | Per-character (apply to selection, or whole entity if no selection) |
 | Font and Height | Per-character override, or whole-entity default |
+| Alignment (Left / Center / Right / Justify) | **Text only** — not available for Multileader |
 | `Enter` | Inserts a hard line break |
 | `Shift+←/→` | Extends or shrinks a text selection |
 | `Home` / `End` | Jump to start / end of the current hard line |
@@ -88,6 +89,14 @@ The number field sets the **cap height** (height of a capital letter) in drawing
 - **No selection** — changes the entity's base height (applies to all characters that do not have an individual height override).
 
 The field reflects the height of the character left of the cursor. Leave it blank to use the entity default.
+
+### Alignment
+
+Four buttons — **Align Left**, **Align Center**, **Align Right**, **Justify** — set paragraph alignment. Available for **Text** entities only; Multileader and dimension labels don't show these buttons.
+
+- Clicking a button re-justifies every row within the entity's existing bounding box — it doesn't move the insertion point or resize the box.
+- Clicking the already-active button clears the override, falling back to the column implied by the entity's attachment point.
+- **Justify** stretches inter-word spacing so each row fills the full row width.
 
 ## Cursor and navigation
 

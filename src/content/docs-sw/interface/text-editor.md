@@ -20,6 +20,7 @@ Inatumiwa na: **Text** (lebo za MTEXT) na maelezo ya **Multileader**.
 |----------|-------|
 | Bold / Italic / Strikethrough | Kwa kila herufi (inatumika kwa uchaguzi, au kipande kizima kama hakuna uchaguzi) |
 | Font na Height | Ubatilishaji kwa kila herufi, au msingi wa kipande kizima |
+| Alignment (Left / Center / Right / Justify) | **Maandishi pekee** — haipatikani kwa Multileader |
 | `Enter` | Inaingiza mapumziko ya mstari mgumu |
 | `Shift+←/→` | Kupanua au kupunguza uchaguzi wa maandishi |
 | `Home` / `End` | Ruka mwanzo/mwisho wa mstari mgumu wa sasa |
@@ -88,6 +89,14 @@ Uga wa nambari huweka **urefu wa kichwa** (urefu wa herufi kubwa) katika vitengo
 - **Hakuna uchaguzi** — hubadilisha urefu wa msingi wa kipande (inatumika kwa herufi zote ambazo hazina ubatilishaji wa urefu wa mtu binafsi).
 
 Uga unaonyesha urefu wa herufi ya kushoto ya kishale. Iacha tupu kutumia chaguo-msingi la kipande.
+
+### Ulinganifu
+
+Vitufe vinne — **Align Left**, **Align Center**, **Align Right**, **Justify** — huweka ulinganifu wa aya. Inapatikana kwa vipande vya **Text** pekee; lebo za Multileader na vipimo hazionyeshi vitufe hivi.
+
+- Kubonyeza kitufe hulinganisha upya kila mstari ndani ya sanduku la mipaka lililopo la kipande — hakuhamishi sehemu ya kuingiza wala kubadilisha ukubwa wa sanduku.
+- Kubonyeza kitufe kilichokwisha kuwa hai husafisha ubatilishaji, ukirudi kwenye safu inayodokezwa na sehemu ya kushikamana ya kipande.
+- **Justify** hunyoosha nafasi kati ya maneno ili kila mstari ujaze upana mzima wa mstari.
 
 ## Kishale na urambazaji
 

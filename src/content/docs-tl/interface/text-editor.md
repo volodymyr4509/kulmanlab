@@ -20,6 +20,7 @@ Ginagamit ng: **Text** (MTEXT labels) at **Multileader** annotations.
 |---------|-----------|
 | Bold / Italic / Strikethrough | Per-character (nalalapat sa selection, o sa buong entity kung walang selection) |
 | Font at Height | Per-character override, o whole-entity default |
+| Alignment (Left / Center / Right / Justify) | **Text lang** — hindi available para sa Multileader |
 | `Enter` | Naglalagay ng hard line break |
 | `Shift+←/→` | Pinapahaba o pinapaikli ang text selection |
 | `Home` / `End` | Lumundag papunta sa simula / dulo ng kasalukuyang hard line |
@@ -88,6 +89,14 @@ Itinatakda ng number field ang **cap height** (taas ng malaking titik) sa drawin
 - **Walang selection** — binabago ang base height ng entity (nalalapat sa lahat ng character na walang individual na height override).
 
 Ipinapakita ng field ang height ng character sa kaliwa ng cursor. Iwanang blangko para gamitin ang default ng entity.
+
+### Alignment
+
+Apat na button — **Align Left**, **Align Center**, **Align Right**, **Justify** — nagtatakda ng alignment ng paragraph. Available lang para sa **Text** entity; hindi ipinapakita ang mga button na ito para sa Multileader at dimension label.
+
+- Ang pag-click sa isang button ay muling nagju-justify sa bawat linya sa loob ng umiiral na bounding box ng entity — hindi nito inililipat ang insertion point o binabago ang laki ng box.
+- Ang pag-click sa button na aktibo na ay nag-aalis sa override, babalik sa column na ipinapahiwatig ng attachment point ng entity.
+- Pinapalawak ng **Justify** ang espasyo sa pagitan ng mga salita para punuin ng bawat linya ang buong lapad ng linya.
 
 ## Cursor at Navigation
 

@@ -20,6 +20,7 @@ Verwendet von: **Text** (MTEXT-Beschriftungen) und **Multileader**-Annotationen.
 |---------|-----------|
 | Bold / Italic / Strikethrough | Zeichenweise (gilt für Auswahl oder gesamte Entität wenn keine Auswahl) |
 | Font und Height | Zeichenweise Überschreibung oder Entitätsstandard |
+| Alignment (Left / Center / Right / Justify) | **Nur Text** — nicht verfügbar für Multileader |
 | `Enter` | Fügt einen harten Zeilenumbruch ein |
 | `Shift+←/→` | Erweitert oder verkleinert eine Textauswahl |
 | `Home` / `End` | Zum Anfang / Ende der aktuellen harten Zeile springen |
@@ -88,6 +89,14 @@ Das Zahlenfeld legt die **Versalhöhe** (Höhe eines Großbuchstabens) in Zeichn
 - **Keine Auswahl** — ändert die Basishöhe der Entität (gilt für alle Zeichen ohne individuelle Höhenüberschreibung).
 
 Das Feld zeigt die Höhe des Zeichens links vom Cursor an. Lassen Sie es leer, um den Entitätsstandard zu verwenden.
+
+### Ausrichtung
+
+Vier Schaltflächen — **Align Left**, **Align Center**, **Align Right**, **Justify** — legen die Absatzausrichtung fest. Nur für **Text**-Entitäten verfügbar; Multileader und Bemaßungsbeschriftungen zeigen diese Schaltflächen nicht.
+
+- Ein Klick richtet jede Zeile innerhalb des vorhandenen Begrenzungsrahmens der Entität neu aus — der Einfügepunkt wird nicht verschoben und der Rahmen nicht in der Größe verändert.
+- Ein Klick auf die bereits aktive Schaltfläche hebt die Überschreibung auf und fällt zurück auf die Spalte, die durch den Attachment Point der Entität vorgegeben ist.
+- **Justify** streckt die Wortzwischenräume, sodass jede Zeile die volle Zeilenbreite ausfüllt.
 
 ## Cursor und Navigation
 

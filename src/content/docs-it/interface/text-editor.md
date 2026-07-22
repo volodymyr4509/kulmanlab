@@ -20,6 +20,7 @@ Usato da: **Text** (etichette MTEXT) e annotazioni **Multileader**.
 |---------|--------------|
 | Bold / Italic / Strikethrough | Per carattere (applica alla selezione, o all'intera entità se nessuna selezione) |
 | Font e Height | Sostituzione per carattere, o valore predefinito dell'entità |
+| Alignment (Left / Center / Right / Justify) | **Solo testo** — non disponibile per Multileader |
 | `Enter` | Inserisce un'interruzione di riga dura |
 | `Shift+←/→` | Estende o riduce una selezione di testo |
 | `Home` / `End` | Salta all'inizio / fine della riga dura corrente |
@@ -88,6 +89,14 @@ Il campo numerico imposta l'**altezza dei capitali** (altezza di una lettera mai
 - **Nessuna selezione** — cambia l'altezza di base dell'entità (si applica a tutti i caratteri che non hanno una sostituzione di altezza individuale).
 
 Il campo riflette l'altezza del carattere a sinistra del cursore. Lascialo vuoto per usare il valore predefinito dell'entità.
+
+### Allineamento
+
+Quattro pulsanti — **Align Left**, **Align Center**, **Align Right**, **Justify** — impostano l'allineamento del paragrafo. Disponibile solo per entità **Text**; le etichette Multileader e di quota non mostrano questi pulsanti.
+
+- Cliccando un pulsante si riallinea ogni riga all'interno del riquadro di delimitazione esistente dell'entità — non sposta il punto di inserimento né ridimensiona il riquadro.
+- Cliccando il pulsante già attivo si rimuove la sostituzione, tornando alla colonna implicita nel punto di ancoraggio dell'entità.
+- **Justify** allarga la spaziatura tra le parole in modo che ogni riga riempia l'intera larghezza della riga.
 
 ## Cursore e navigazione
 

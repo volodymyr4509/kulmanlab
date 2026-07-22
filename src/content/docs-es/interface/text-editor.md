@@ -20,6 +20,7 @@ Usado por: **Text** (etiquetas MTEXT) y anotaciones **Multileader**.
 |---------|---------------|
 | Bold / Italic / Strikethrough | Por carácter (aplica a la selección, o a toda la entidad si no hay selección) |
 | Font y Height | Anulación por carácter, o valor predeterminado de toda la entidad |
+| Alignment (Left / Center / Right / Justify) | **Solo texto** — no disponible para Multileader |
 | `Enter` | Inserta un salto de línea duro |
 | `Shift+←/→` | Extiende o reduce una selección de texto |
 | `Home` / `End` | Saltar al inicio / fin de la línea dura actual |
@@ -88,6 +89,14 @@ El campo numérico establece la **altura de caja** (altura de una letra mayúscu
 - **Sin selección** — cambia la altura base de la entidad (se aplica a todos los caracteres que no tienen una anulación de altura individual).
 
 El campo refleja la altura del carácter a la izquierda del cursor. Déjalo en blanco para usar el valor predeterminado de la entidad.
+
+### Alineación
+
+Cuatro botones — **Align Left**, **Align Center**, **Align Right**, **Justify** — establecen la alineación del párrafo. Disponible solo para entidades **Text**; las etiquetas de Multileader y de cota no muestran estos botones.
+
+- Al hacer clic en un botón se vuelve a justificar cada línea dentro del cuadro delimitador existente de la entidad — no mueve el punto de inserción ni cambia el tamaño del cuadro.
+- Al hacer clic en el botón ya activo se elimina la anulación, volviendo a la columna implícita en el punto de anclaje de la entidad.
+- **Justify** estira el espaciado entre palabras para que cada línea llene todo el ancho de la línea.
 
 ## Cursor y navegación
 

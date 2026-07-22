@@ -20,6 +20,7 @@ Usado por: **Text** (etiquetas MTEXT) e anotações **Multileader**.
 |---------|--------------|
 | Bold / Italic / Strikethrough | Por caractere (aplica à seleção, ou à entidade inteira se não houver seleção) |
 | Font e Height | Substituição por caractere, ou padrão da entidade |
+| Alignment (Left / Center / Right / Justify) | **Somente texto** — não disponível para Multileader |
 | `Enter` | Insere uma quebra de linha dura |
 | `Shift+←/→` | Estende ou reduz uma seleção de texto |
 | `Home` / `End` | Salta ao início / fim da linha dura atual |
@@ -88,6 +89,14 @@ O campo numérico define a **altura das maiúsculas** (altura de uma letra maiú
 - **Sem seleção** — altera a altura de base da entidade (aplica a todos os caracteres que não têm uma substituição de altura individual).
 
 O campo reflete a altura do caractere à esquerda do cursor. Deixe em branco para usar o padrão da entidade.
+
+### Alinhamento
+
+Quatro botões — **Align Left**, **Align Center**, **Align Right**, **Justify** — definem o alinhamento do parágrafo. Disponível apenas para entidades **Text**; os rótulos de Multileader e de cota não mostram esses botões.
+
+- Clicar em um botão reajusta cada linha dentro da caixa delimitadora existente da entidade — não move o ponto de inserção nem redimensiona a caixa.
+- Clicar no botão já ativo remove a substituição, voltando à coluna implícita no ponto de fixação da entidade.
+- **Justify** estica o espaçamento entre palavras para que cada linha preencha toda a largura da linha.
 
 ## Cursor e navegação
 

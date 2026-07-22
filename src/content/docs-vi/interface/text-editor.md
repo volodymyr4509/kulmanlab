@@ -19,6 +19,7 @@ Sử dụng bởi: **Text** (nhãn MTEXT) và chú thích **Leader**.
 |-----------|---------|
 | Bold / Italic / Strikethrough | Theo ký tự (áp dụng cho lựa chọn, hoặc toàn bộ thực thể nếu không có lựa chọn) |
 | Font và Height | Ghi đè theo ký tự, hoặc mặc định toàn thực thể |
+| Alignment (Left / Center / Right / Justify) | **Chỉ văn bản** — không khả dụng cho Leader |
 | `Enter` | Chèn ngắt dòng cứng |
 | `Shift+←/→` | Mở rộng hoặc thu hẹp lựa chọn văn bản |
 | `Home` / `End` | Nhảy đến đầu/cuối dòng cứng hiện tại |
@@ -81,6 +82,14 @@ Trường số đặt **chiều cao chữ hoa** (chiều cao của chữ hoa) th
 
 - **Với lựa chọn** — ghi đè chiều cao cho các ký tự được chọn.
 - **Không có lựa chọn** — thay đổi chiều cao cơ sở của thực thể.
+
+### Căn Chỉnh
+
+Bốn nút — **Align Left**, **Align Center**, **Align Right**, **Justify** — đặt canh chỉnh đoạn văn. Chỉ khả dụng cho thực thể **Text**; nhãn Leader và kích thước không hiển thị các nút này.
+
+- Nhấp vào một nút sẽ canh chỉnh lại từng dòng trong hộp bao hiện có của thực thể — không di chuyển điểm chèn hoặc thay đổi kích thước hộp.
+- Nhấp vào nút đã hoạt động sẽ xóa ghi đè, quay lại cột được ngụ ý bởi điểm gắn của thực thể.
+- **Justify** kéo giãn khoảng cách giữa các từ để mỗi dòng lấp đầy toàn bộ chiều rộng dòng.
 
 ## Con trỏ và điều hướng
 

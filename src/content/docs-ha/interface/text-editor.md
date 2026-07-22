@@ -20,6 +20,7 @@ Ana amfani a: **Text** (alamun MTEXT) da bayanin **Multileader**.
 |---------|-----------|
 | Bold / Italic / Strikethrough | Ga kowane harafi (yana aiki ga zaɓi, ko dukkan abin idan babu zaɓi) |
 | Font da Height | Canjin ga kowane harafi, ko tsoho na dukkan abin |
+| Alignment (Left / Center / Right / Justify) | **Rubutu kaɗai** — ba a samuwa ga Multileader |
 | `Enter` | Yana sanya karyewar layi kashi |
 | `Shift+←/→` | Yana faɗaɗawa ko rage zaɓen rubutu |
 | `Home` / `End` | Kai zuwa farko / ƙarshe na layin kashi na yanzu |
@@ -88,6 +89,14 @@ Filin lamba yana saita **cap height** (tsayin babban haruf) a unit na zane.
 - **Babu zaɓi** — yana canza tsayin asali na abin (yana shafar dukkan harufan da ba su da canjin tsayi na kansu).
 
 Filin yana nuna tsayin harafin zuwa hagu na mai nuni. Bar shi babu-kome don yin amfani da tsoho na abin.
+
+### Daidaitawa
+
+Maɓallai huɗu — **Align Left**, **Align Center**, **Align Right**, **Justify** — suna saita daidaitawar sakin layi. Ana samu ga abubuwan **Text** kaɗai; alamun Multileader da na girma-girma ba sa nuna waɗannan maɓallan.
+
+- Danna maɓalli yana sake daidaita kowace layi a cikin akwatin dubawa da ke akwai na abin — ba ya motsa maki na sakawa ko canza girman akwatin.
+- Danna maɓallin da ke aiki tuni yana share canjin, ya koma zuwa ginshiƙin da maki na haɗi na abin ke nunawa.
+- **Justify** yana miƙe tazarar tsakanin kalmomi don kowace layi ta cika fadin layi gaba ɗaya.
 
 ## Mai nuni da kewayawa
 
