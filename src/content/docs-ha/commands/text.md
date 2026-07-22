@@ -2,8 +2,8 @@
 title: Text — Sanya Alamun MTEXT a KulmanLab CAD
 description: Umarnin Text yana sanya alamar rubutu mai layi da yawa da tsari mai wadata. Danna matsayi, rubuta a naʼurar gyaran popup, ka danna Escape don tabbatarwa. Danna sau biyu kowace alama da ke akwai don sake buɗe naʼurar.
 keywords: [umarnin text CAD, MTEXT, sanya alamar rubutu CAD, bayanin rubutu CAD, mai-nauyi karkatacce CAD, rubutu mai layi da yawa CAD, kulmanlab]
-group: shapes
-order: 7
+group: markup
+order: 0
 ---
 
 # Text

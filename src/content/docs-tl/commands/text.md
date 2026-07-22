@@ -2,8 +2,8 @@
 title: Text Command — Maglagay ng MTEXT Label sa KulmanLab CAD
 description: Inilalagay ng Text command ang multi-line at richly formatted na MTEXT label. I-click ang posisyon, mag-type sa popup editor, at pindutin ang Escape para i-commit. I-double-click ang anumang umiiral na label para buksan muli ang editor.
 keywords: [CAD text command, MTEXT, maglagay ng text label CAD, text annotation CAD, bold italic CAD, multi-line text CAD, kulmanlab]
-group: shapes
-order: 7
+group: markup
+order: 0
 ---
 
 # Text

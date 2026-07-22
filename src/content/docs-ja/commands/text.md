@@ -2,8 +2,8 @@
 title: Text コマンド — MTEXT ラベルを配置（KulmanLab CAD）
 description: Text コマンドは複数行のリッチフォーマット MTEXT ラベルを配置します。位置をクリックし、ポップアップエディターで入力し、Escape を押してコミットします。既存のラベルをダブルクリックしてエディターを再開できます。
 keywords: [CAD テキストコマンド, MTEXT, テキストラベル配置 CAD, テキスト注釈 CAD, 太字 斜体 CAD, 複数行テキスト CAD, kulmanlab]
-group: shapes
-order: 7
+group: markup
+order: 0
 ---
 
 # Text（テキスト）

@@ -2,8 +2,8 @@
 title: "Text Command — Place MTEXT Labels in KulmanLab CAD"
 description: "Amri ya Text huweka lebo ya MTEXT ya mistari mingi yenye uumbizaji tajiri. Bonyeza nafasi, andika katika kihariri cha popup, na ubonyeze Escape kuthibitisha. Bonyeza mara mbili lebo yoyote iliyopo kufungua tena kihariri."
 keywords: [CAD text command, MTEXT, place text label CAD, text annotation CAD, bold italic CAD, multi-line text CAD, kulmanlab]
-group: shapes
-order: 7
+group: markup
+order: 0
 ---
 
 # Text

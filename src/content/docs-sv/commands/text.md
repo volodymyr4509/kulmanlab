@@ -2,8 +2,8 @@
 title: Text-kommandot — Placera MTEXT-etiketter i KulmanLab CAD
 description: Text-kommandot placerar en flerradig, rikt formaterad MTEXT-etikett. Klicka på en position, skriv i popup-redigeraren och tryck på Escape för att bekräfta. Dubbelklicka på valfri befintlig etikett för att öppna redigeraren igen.
 keywords: [CAD textkommando, MTEXT, placera textetikett CAD, textanteckning CAD, fetstil kursiv CAD, flerradig text CAD, kulmanlab]
-group: shapes
-order: 7
+group: markup
+order: 0
 ---
 
 # Text

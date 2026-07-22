@@ -2,8 +2,8 @@
 title: Polecenie Text — Umieszczanie etykiet MTEXT w KulmanLab CAD
 description: Polecenie Text umieszcza wieloliniową, bogato sformatowaną etykietę MTEXT. Kliknij pozycję, wpisz w oknie podręcznym edytora i naciśnij Escape, aby zatwierdzić. Dwukrotne kliknięcie dowolnej istniejącej etykiety ponownie otwiera edytor.
 keywords: [polecenie tekstu CAD, MTEXT, umieszczanie etykiety tekstowej CAD, adnotacja tekstowa CAD, pogrubiony kursywa CAD, wieloliniowy tekst CAD, kulmanlab]
-group: shapes
-order: 7
+group: markup
+order: 0
 ---
 
 # Text

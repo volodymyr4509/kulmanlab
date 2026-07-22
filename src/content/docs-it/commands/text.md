@@ -2,8 +2,8 @@
 title: Comando Text — Posizionare Etichette MTEXT in KulmanLab CAD
 description: Il comando Text posiziona un'etichetta di testo multi-riga con formattazione avanzata. Clicca una posizione, digita nell'editor popup, e premi Esc per confermare. Doppio clic su un'etichetta esistente per riaprire l'editor.
 keywords: [CAD comando text, MTEXT, posiziona etichetta testo CAD, annotazione testo CAD, grassetto corsivo CAD, testo multi-riga CAD, kulmanlab]
-group: shapes
-order: 7
+group: markup
+order: 0
 ---
 
 # Text

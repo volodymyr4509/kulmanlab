@@ -2,8 +2,8 @@
 title: Text-commando — Plaats MTEXT-labels in KulmanLab CAD
 description: Het Text-commando plaatst een meerregelig, rijk opgemaakt MTEXT-label. Klik een positie aan, typ in de pop-up editor en druk op Escape om te bevestigen. Dubbelklik op een bestaand label om de editor opnieuw te openen.
 keywords: [CAD text commando, MTEXT, tekstlabel plaatsen CAD, tekstannotatie CAD, vet cursief CAD, meerregelige tekst CAD, kulmanlab]
-group: shapes
-order: 7
+group: markup
+order: 0
 ---
 
 # Text

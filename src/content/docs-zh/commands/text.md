@@ -2,8 +2,8 @@
 title: Text命令 — 在 KulmanLab CAD 中放置 MTEXT 标签
 description: 文字命令放置多行、富格式 MTEXT 标签。单击位置，在弹出编辑器中输入，然后按 Escape 提交。双击任意现有标签可重新打开编辑器。
 keywords: [CAD Text 命令, MTEXT, 放置文字标签 CAD, 文字注释 CAD, 粗体斜体 CAD, 多行文字 CAD, kulmanlab]
-group: shapes
-order: 7
+group: markup
+order: 0
 ---
 
 # Text

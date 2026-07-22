@@ -2,8 +2,8 @@
 title: Comando Text — Colocar Etiquetas MTEXT no KulmanLab CAD
 description: O comando Text coloca uma etiqueta de texto multi-linha com formatação avançada. Clique em uma posição, digite no editor popup e pressione Escape para confirmar. Duplo clique em qualquer etiqueta existente para reabrir o editor.
 keywords: [CAD comando text, MTEXT, colocar etiqueta texto CAD, anotação texto CAD, negrito itálico CAD, texto multi-linha CAD, kulmanlab]
-group: shapes
-order: 7
+group: markup
+order: 0
 ---
 
 # Text

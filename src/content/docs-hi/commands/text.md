@@ -2,8 +2,8 @@
 title: Text कमांड — KulmanLab CAD में MTEXT लेबल रखें
 description: Text कमांड बहु-पंक्ति, समृद्ध रूप से स्वरूपित MTEXT लेबल रखती है। एक स्थिति क्लिक करें, पॉपअप एडिटर में टाइप करें, और कमिट करने के लिए Escape दबाएं। किसी भी मौजूदा लेबल को एडिटर फिर से खोलने के लिए डबल-क्लिक करें।
 keywords: [CAD टेक्स्ट कमांड, MTEXT, टेक्स्ट लेबल रखें CAD, टेक्स्ट एनोटेशन CAD, बोल्ड इटैलिक CAD, बहु-पंक्ति टेक्स्ट CAD, kulmanlab]
-group: shapes
-order: 7
+group: markup
+order: 0
 ---
 
 # Text

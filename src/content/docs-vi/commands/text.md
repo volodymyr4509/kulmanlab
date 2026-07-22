@@ -1,8 +1,8 @@
 ---
 title: Lệnh Text — Đặt Nhãn MTEXT trong KulmanLab CAD
 description: Lệnh Text đặt nhãn MTEXT nhiều dòng, có định dạng phong phú. Nhấp vị trí, gõ trong trình soạn thảo popup và nhấn Escape để xác nhận. Nhấp đúp bất kỳ nhãn hiện có nào để mở lại trình soạn thảo.
-group: shapes
-order: 7
+group: markup
+order: 0
 ---
 
 # Text

@@ -2,8 +2,8 @@
 title: Text — מיקום תוויות MTEXT ב-KulmanLab CAD
 description: פקודת Text ממקמת תווית MTEXT מרובת-שורות ומעוצבת עשירות. לחצו על מיקום, הקלידו בעורך הקופץ, ולחצו Escape לאישור. לחיצה כפולה על כל תווית קיימת פותחת מחדש את העורך.
 keywords: [פקודת text CAD, MTEXT, מיקום תווית טקסט CAD, הערת טקסט CAD, מודגש נטוי CAD, טקסט מרובה שורות CAD, kulmanlab]
-group: shapes
-order: 7
+group: markup
+order: 0
 ---
 
 # Text
