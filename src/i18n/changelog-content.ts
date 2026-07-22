@@ -7,6 +7,19 @@ export type Release = {
 
 export const releases: Release[] = [
   {
+    version: '2026.07.23.49fac9a',
+    date: 'July 23, 2026',
+    title: 'Text editor: paragraph alignment, underline & rotated-text fixes',
+    highlights: [
+      'New paragraph alignment buttons in the text editor toolbar — Align Left, Align Center, Align Right, and Justify — layered on top of the attachment-point column; available for Text entities only, not Multileader or dimension labels',
+      'New underline toggle button next to Bold, Italic, and Strikethrough',
+      'The text cursor now slants to match italic text while editing, matching word-processor convention',
+      'Fixed click-to-place-caret resolving to the wrong character on text rotated to any angle other than 0°/180°',
+      'Fixed the text editor popup floating over the text instead of above it for Middle/Bottom-anchored attachment points, and overlapping rotated leader text on Multileaders',
+      'Fixed per-character height overrides (e.g. mixed font sizes imported from DXF) keeping their absolute size instead of scaling with the entity, on both Text and Multileader',
+    ],
+  },
+  {
     version: '2026.07.19.b22f372',
     date: 'July 19, 2026',
     title: 'How-to guides (25 languages) & responsive nav polish',
@@ -341,6 +354,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   en: releases.map(r => ({ title: r.title, highlights: r.highlights })),
   de: [
     {
+      title: 'Texteditor: Absatzausrichtung, Unterstreichung & Korrekturen für gedrehten Text',
+      highlights: [
+        'Neue Schaltflächen zur Absatzausrichtung in der Texteditor-Symbolleiste — Align Left, Align Center, Align Right und Justify — als Überschreibung über der vom Attachment Point vorgegebenen Spalte; nur für Text-Entitäten verfügbar, nicht für Multileader oder Bemaßungsbeschriftungen',
+        'Neue Schaltfläche zum Unterstreichen neben Bold, Italic und Strikethrough',
+        'Der Textcursor neigt sich jetzt passend zu kursivem Text während der Bearbeitung, entsprechend der Konvention in Textverarbeitungsprogrammen',
+        'Behoben: Klick-zur-Cursor-Platzierung wählte bei Text, der auf einen anderen Winkel als 0°/180° gedreht war, das falsche Zeichen aus',
+        'Behoben: Das Texteditor-Popup schwebte bei Middle-/Bottom-verankerten Attachment Points über dem Text statt darüber, und überlappte bei Multileadern gedrehten Leader-Text',
+        'Behoben: Zeichenweise Höhenüberschreibungen (z. B. gemischte Schriftgrößen aus importierten DXF-Dateien) behielten ihre absolute Größe, statt mit der Entität mitzuskalieren — sowohl bei Text als auch bei Multileader',
+      ],
+    },
+    {
       title: 'How-to-Anleitungen (25 Sprachen) & responsives Navigations-Update',
       highlights: [
         'How-to-Anleitungen und die Kopfzeile der Website werden jetzt sauber auf Smartphones und Tablets dargestellt — das mobile Menü enthält den neuen How-to-Link neben Docs, Changelog und FAQ',
@@ -625,6 +649,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   es: [
+    {
+      title: 'Editor de texto: alineación de párrafo, subrayado y correcciones de texto rotado',
+      highlights: [
+        'Nuevos botones de alineación de párrafo en la barra de herramientas del editor de texto — Align Left, Align Center, Align Right y Justify — como anulación sobre la columna que implica el punto de anclaje; disponible solo para entidades Text, no para Multileader ni etiquetas de cota',
+        'Nuevo botón de subrayado junto a Bold, Italic y Strikethrough',
+        'El cursor de texto ahora se inclina para coincidir con el texto en cursiva mientras editas, siguiendo la convención de los procesadores de texto',
+        'Se corrigió que el clic para colocar el cursor resolviera el carácter incorrecto en texto rotado a cualquier ángulo distinto de 0°/180°',
+        'Se corrigió que el popup del editor de texto flotara sobre el texto en lugar de encima de él en puntos de anclaje Middle/Bottom, y que se superpusiera con el texto rotado de un leader en Multileaders',
+        'Se corrigió que las anulaciones de altura por carácter (por ejemplo, tamaños de fuente mixtos importados de DXF) mantuvieran su tamaño absoluto en lugar de escalar con la entidad, tanto en Text como en Multileader',
+      ],
+    },
     {
       title: 'Guías How-to (25 idiomas) y ajustes de navegación responsiva',
       highlights: [
@@ -911,6 +946,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   fr: [
     {
+      title: 'Éditeur de texte : alignement de paragraphe, soulignement et corrections de texte pivoté',
+      highlights: [
+        'Nouveaux boutons d\'alignement de paragraphe dans la barre d\'outils de l\'éditeur de texte — Align Left, Align Center, Align Right et Justify — en substitution de la colonne impliquée par le point d\'attache ; disponible uniquement pour les entités Text, pas pour Multileader ni les étiquettes de cote',
+        'Nouveau bouton de soulignement à côté de Bold, Italic et Strikethrough',
+        'Le curseur de texte s\'incline désormais pour correspondre au texte en italique pendant l\'édition, selon la convention des traitements de texte',
+        'Correction : le clic pour placer le curseur résolvait le mauvais caractère sur du texte pivoté à un angle autre que 0°/180°',
+        'Correction : la popup de l\'éditeur de texte flottait sur le texte au lieu d\'au-dessus pour les points d\'attache ancrés au Milieu/Bas, et chevauchait le texte pivoté d\'un leader sur les Multileaders',
+        'Correction : les substitutions de hauteur par caractère (par exemple des tailles de police mixtes importées depuis un DXF) conservaient leur taille absolue au lieu de se mettre à l\'échelle avec l\'entité, à la fois sur Text et Multileader',
+      ],
+    },
+    {
       title: 'Guides pratiques (25 langues) et amélioration de la navigation responsive',
       highlights: [
         'Les guides pratiques et l\'en-tête du site s\'affichent désormais parfaitement sur téléphones et tablettes — le menu mobile inclut le nouveau lien Guides aux côtés de Documentation, Nouveautés et FAQ',
@@ -1194,6 +1240,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   it: [
+    {
+      title: 'Editor di testo: allineamento paragrafo, sottolineato e correzioni per testo ruotato',
+      highlights: [
+        'Nuovi pulsanti di allineamento del paragrafo nella barra degli strumenti dell\'editor di testo — Align Left, Align Center, Align Right e Justify — come sostituzione della colonna implicita nel punto di ancoraggio; disponibile solo per entità Text, non per Multileader o etichette di quota',
+        'Nuovo pulsante sottolineato accanto a Bold, Italic e Strikethrough',
+        'Il cursore di testo ora si inclina per corrispondere al testo in corsivo durante la modifica, secondo la convenzione degli elaboratori di testo',
+        'Risolto: il clic per posizionare il cursore selezionava il carattere sbagliato su testo ruotato a qualsiasi angolo diverso da 0°/180°',
+        'Risolto: il popup dell\'editor di testo galleggiava sul testo invece che sopra di esso per i punti di ancoraggio Middle/Bottom, e si sovrapponeva al testo ruotato di un leader nei Multileader',
+        'Risolto: le sostituzioni di altezza per carattere (ad esempio dimensioni di font miste importate da DXF) mantenevano la loro dimensione assoluta invece di scalare con l\'entità, sia su Text che su Multileader',
+      ],
+    },
     {
       title: 'Guide pratiche (25 lingue) e miglioramenti alla navigazione responsive',
       highlights: [
@@ -1480,6 +1537,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   pt: [
     {
+      title: 'Editor de texto: alinhamento de parágrafo, sublinhado e correções de texto rotacionado',
+      highlights: [
+        'Novos botões de alinhamento de parágrafo na barra de ferramentas do editor de texto — Align Left, Align Center, Align Right e Justify — como substituição sobre a coluna implícita pelo ponto de fixação; disponível apenas para entidades Text, não para Multileader ou rótulos de cota',
+        'Novo botão de sublinhado ao lado de Bold, Italic e Strikethrough',
+        'O cursor de texto agora se inclina para combinar com o texto em itálico durante a edição, seguindo a convenção de processadores de texto',
+        'Corrigido: o clique para posicionar o cursor resolvia o caractere errado em texto rotacionado em qualquer ângulo diferente de 0°/180°',
+        'Corrigido: o popup do editor de texto flutuava sobre o texto em vez de acima dele para pontos de fixação Middle/Bottom, e sobrepunha o texto rotacionado de um leader em Multileaders',
+        'Corrigido: as substituições de altura por caractere (por exemplo, tamanhos de fonte mistos importados de DXF) mantinham seu tamanho absoluto em vez de escalar com a entidade, tanto em Text quanto em Multileader',
+      ],
+    },
+    {
       title: 'Guias práticos (25 idiomas) e melhorias na navegação responsiva',
       highlights: [
         'Os guias práticos e o cabeçalho do site agora aparecem perfeitamente em celulares e tablets — o menu mobile inclui o novo link Guias ao lado de Docs, Changelog e FAQ',
@@ -1764,6 +1832,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   uk: [
+    {
+      title: 'Текстовий редактор: вирівнювання абзацу, підкреслення та виправлення для повернутого тексту',
+      highlights: [
+        'Нові кнопки вирівнювання абзацу на панелі інструментів текстового редактора — Align Left, Align Center, Align Right та Justify — як перевизначення поверх стовпця, визначеного точкою прив\'язки; доступно лише для об\'єктів Text, не для Multileader чи міток розмірів',
+        'Нова кнопка підкреслення поруч із Bold, Italic та Strikethrough',
+        'Текстовий курсор тепер нахиляється відповідно до курсивного тексту під час редагування, за конвенцією текстових редакторів',
+        'Виправлено: клацання для розміщення курсора вибирало неправильний символ на тексті, повернутому під будь-яким кутом, окрім 0°/180°',
+        'Виправлено: спливаюче вікно текстового редактора зависало над текстом замість того, щоб бути над ним, для точок прив\'язки Middle/Bottom, а також перекривало повернутий текст виноски на Multileader',
+        'Виправлено: перевизначення висоти для окремих символів (наприклад, змішані розміри шрифту, імпортовані з DXF) зберігали абсолютний розмір замість масштабування разом з об\'єктом, як на Text, так і на Multileader',
+      ],
+    },
     {
       title: 'Інструкції «Як зробити» (25 мов) та адаптивна навігація',
       highlights: [
@@ -2050,6 +2129,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   tr: [
     {
+      title: 'Metin düzenleyici: paragraf hizalama, altı çizili ve döndürülmüş metin düzeltmeleri',
+      highlights: [
+        'Metin düzenleyici araç çubuğuna yeni paragraf hizalama düğmeleri eklendi — Align Left, Align Center, Align Right ve Justify — tutturma noktasının ima ettiği sütunun üzerine bir geçersiz kılma olarak; yalnızca Text nesneleri için kullanılabilir, Multileader veya ölçü etiketleri için değil',
+        'Bold, Italic ve Strikethrough\'un yanına yeni bir altı çizili düğmesi eklendi',
+        'Metin imleci artık düzenleme sırasında italik metle eşleşecek şekilde eğiliyor, kelime işlemci kuralına uygun olarak',
+        'Düzeltme: 0°/180° dışında herhangi bir açıya döndürülmüş metinde tıklayarak imleç yerleştirme yanlış karakteri seçiyordu',
+        'Düzeltme: metin düzenleyici açılır penceresi Middle/Bottom tutturma noktalarında metnin üzerinde değil metnin üstünde yüzüyordu ve Multileader\'larda döndürülmüş lider metniyle çakışıyordu',
+        'Düzeltme: karakter başına yükseklik geçersiz kılmaları (ör. DXF\'ten içe aktarılan karışık yazı tipi boyutları), nesneyle birlikte ölçeklenmek yerine mutlak boyutlarını koruyordu — hem Text hem de Multileader\'da',
+      ],
+    },
+    {
       title: 'Nasıl yapılır rehberleri (25 dil) ve duyarlı gezinme iyileştirmeleri',
       highlights: [
         'Nasıl yapılır rehberleri ve site başlığı artık telefon ve tabletlerde sorunsuz görüntüleniyor — mobil menüde Belgeler, Sürüm Notları ve SSS\'nin yanında yeni Nasıl yapılır bağlantısı da yer alıyor',
@@ -2334,6 +2424,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   zh: [
+    {
+      title: '文字编辑器：段落对齐、下划线与旋转文字修复',
+      highlights: [
+        '文字编辑器工具栏新增段落对齐按钮 — Align Left、Align Center、Align Right 和 Justify — 作为附着点所暗示的列之上的覆盖；仅适用于 Text 图元，不适用于 Multileader 或标注标签',
+        '在 Bold、Italic、Strikethrough 旁新增下划线切换按钮',
+        '编辑时文字光标现在会倾斜以匹配斜体文字，符合文字处理软件的惯例',
+        '修复了点击定位光标在旋转角度非 0°/180° 的文字上定位到错误字符的问题',
+        '修复了文字编辑器弹出框在 Middle/Bottom 锚点附着点上悬浮在文字上方而非正上方的问题，以及在 Multileader 上与旋转的引线文字重叠的问题',
+        '修复了逐字符高度覆盖（例如从 DXF 导入的混合字体大小）在图元缩放时保持绝对大小而不随之缩放的问题，Text 和 Multileader 均受影响',
+      ],
+    },
     {
       title: '使用指南（25 种语言）与响应式导航优化',
       highlights: [
@@ -2620,6 +2721,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   hi: [
     {
+      title: 'टेक्स्ट एडिटर: पैराग्राफ अलाइनमेंट, अंडरलाइन और घुमाए गए टेक्स्ट की खामियां ठीक कीं',
+      highlights: [
+        'टेक्स्ट एडिटर टूलबार में नए पैराग्राफ अलाइनमेंट बटन — Align Left, Align Center, Align Right, और Justify — अटैचमेंट पॉइंट से निहित कॉलम के ऊपर एक ओवरराइड के रूप में; केवल Text ऑब्जेक्ट के लिए उपलब्ध, Multileader या आयाम लेबल के लिए नहीं',
+        'Bold, Italic, और Strikethrough के साथ नया अंडरलाइन टॉगल बटन',
+        'एडिट करते समय टेक्स्ट कर्सर अब इटैलिक टेक्स्ट से मेल खाने के लिए झुकता है, वर्ड-प्रोसेसर कन्वेंशन के अनुसार',
+        'ठीक किया गया: 0°/180° के अलावा किसी भी कोण पर घुमाए गए टेक्स्ट पर क्लिक-टू-प्लेस-कैरेट गलत अक्षर चुन रहा था',
+        'ठीक किया गया: Middle/Bottom अटैचमेंट पॉइंट्स के लिए टेक्स्ट एडिटर पॉपअप टेक्स्ट के ऊपर होने की बजाय उस पर तैर रहा था, और Multileader पर घुमाए गए लीडर टेक्स्ट को ओवरलैप कर रहा था',
+        'ठीक किया गया: प्रति-अक्षर हाइट ओवरराइड (जैसे DXF से इम्पोर्ट किए गए मिश्रित फ़ॉन्ट साइज़) ऑब्जेक्ट के साथ स्केल होने के बजाय अपना पूर्ण आकार बनाए रखते थे — Text और Multileader दोनों पर',
+      ],
+    },
+    {
       title: 'गाइड (25 भाषाएँ) और रिस्पॉन्सिव नेविगेशन सुधार',
       highlights: [
         'गाइड और साइट का हेडर अब फ़ोन और टैबलेट पर साफ़-सुथरे दिखते हैं — मोबाइल मेनू में डॉक्स, चेंजलॉग और FAQ के साथ नया गाइड लिंक भी शामिल है',
@@ -2904,6 +3016,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   ar: [
+    {
+      title: 'محرر النص: محاذاة الفقرة، التسطير وإصلاحات النص المُدار',
+      highlights: [
+        'أزرار محاذاة فقرة جديدة في شريط أدوات محرر النص — Align Left وAlign Center وAlign Right وJustify — كتجاوز فوق العمود الذي يحدده نقطة الارتكاز؛ متاحة فقط لعناصر Text، وليس لـ Multileader أو تسميات الأبعاد',
+        'زر تسطير جديد بجانب Bold وItalic وStrikethrough',
+        'مؤشر النص يميل الآن ليطابق النص المائل أثناء التحرير، وفقاً لعرف معالجات النصوص',
+        'تم إصلاح: النقر لوضع المؤشر كان يحدد الحرف الخاطئ في النص المُدار بأي زاوية غير 0°/180°',
+        'تم إصلاح: نافذة محرر النص المنبثقة كانت تطفو فوق النص بدلاً من أعلاه عند نقاط الارتكاز Middle/Bottom، وتتداخل مع نص الخط الرائد المُدار في Multileader',
+        'تم إصلاح: تجاوزات الارتفاع لكل حرف (مثل أحجام الخطوط المختلطة المستوردة من DXF) كانت تحافظ على حجمها المطلق بدلاً من التحجيم مع العنصر، سواء في Text أو Multileader',
+      ],
+    },
     {
       title: 'أدلة "كيفية الاستخدام" (25 لغة) وتحسينات التنقل المتجاوب',
       highlights: [
@@ -3190,6 +3313,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   id: [
     {
+      title: 'Text editor: perataan paragraf, garis bawah & perbaikan teks berputar',
+      highlights: [
+        'Tombol perataan paragraf baru di toolbar text editor — Align Left, Align Center, Align Right, dan Justify — sebagai penggantian di atas kolom yang tersirat oleh titik lampiran; tersedia hanya untuk entitas Text, bukan Multileader atau label dimensi',
+        'Tombol toggle garis bawah baru di samping Bold, Italic, dan Strikethrough',
+        'Kursor teks sekarang miring untuk menyesuaikan dengan teks miring saat mengedit, mengikuti konvensi pengolah kata',
+        'Diperbaiki: klik-untuk-menempatkan-kursor memilih karakter yang salah pada teks yang diputar ke sudut selain 0°/180°',
+        'Diperbaiki: popup text editor mengambang di atas teks alih-alih tepat di atasnya untuk titik lampiran berjangkar Middle/Bottom, dan tumpang tindih dengan teks leader yang diputar pada Multileader',
+        'Diperbaiki: penggantian tinggi per karakter (misalnya ukuran font campuran yang diimpor dari DXF) mempertahankan ukuran absolutnya alih-alih ikut skala dengan entitas, pada Text maupun Multileader',
+      ],
+    },
+    {
       title: 'Panduan (25 bahasa) dan penyempurnaan navigasi responsif',
       highlights: [
         'Panduan dan header situs kini tampil rapi di ponsel dan tablet — menu seluler menyertakan tautan Panduan baru di samping Dokumen, Changelog, dan FAQ',
@@ -3474,6 +3608,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   ja: [
+    {
+      title: 'テキストエディター：段落の配置、下線、回転したテキストの修正',
+      highlights: [
+        'テキストエディターのツールバーに段落配置ボタンを追加 — Align Left、Align Center、Align Right、Justify — アタッチメントポイントが示す列の上書きとして機能。Text エンティティのみで利用可能で、Multileader や寸法ラベルでは利用不可',
+        'Bold、Italic、Strikethrough の隣に下線切り替えボタンを追加',
+        '編集中、テキストカーソルが斜体テキストに合わせて傾くようになりました（ワープロソフトの慣例に準拠）',
+        '修正：0°/180° 以外の角度に回転したテキストで、クリックによるキャレット配置が間違った文字を選択する問題',
+        '修正：Middle/Bottom アタッチメントポイントでテキストエディターのポップアップがテキストの上ではなくテキストの上に浮かぶ問題、および Multileader で回転した引き出し線テキストと重なる問題',
+        '修正：文字ごとの高さのオーバーライド（DXF からインポートされた混在フォントサイズなど）が、エンティティに合わせて拡大縮小されず絶対サイズのままになる問題（Text と Multileader の両方）',
+      ],
+    },
     {
       title: '使い方ガイド（全25言語）とレスポンシブなナビゲーション改善',
       highlights: [
@@ -3760,6 +3905,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   pl: [
     {
+      title: 'Edytor tekstu: wyrównanie akapitu, podkreślenie i poprawki dla obróconego tekstu',
+      highlights: [
+        'Nowe przyciski wyrównania akapitu na pasku narzędzi edytora tekstu — Align Left, Align Center, Align Right i Justify — jako nadpisanie kolumny sugerowanej przez punkt zaczepienia; dostępne tylko dla elementów Text, nie dla Multileader ani etykiet wymiarów',
+        'Nowy przycisk podkreślenia obok Bold, Italic i Strikethrough',
+        'Kursor tekstowy pochyla się teraz zgodnie z kursywą podczas edycji, zgodnie z konwencją edytorów tekstu',
+        'Naprawiono: kliknięcie w celu umieszczenia kursora wybierało niewłaściwy znak w tekście obróconym pod dowolnym kątem innym niż 0°/180°',
+        'Naprawiono: wyskakujące okienko edytora tekstu unosiło się nad tekstem zamiast nad nim dla punktów zaczepienia Middle/Bottom, a także nakładało się na obrócony tekst odnośnika w Multileaderach',
+        'Naprawiono: nadpisania wysokości dla poszczególnych znaków (np. mieszane rozmiary czcionek zaimportowane z DXF) zachowywały swój bezwzględny rozmiar zamiast skalować się razem z elementem, zarówno w Text, jak i Multileader',
+      ],
+    },
+    {
       title: 'Poradniki (25 języków) i poprawki responsywnej nawigacji',
       highlights: [
         'Poradniki i nagłówek strony wyświetlają się teraz poprawnie na telefonach i tabletach — menu mobilne zawiera nowy link Poradniki obok Dokumentacji, Listy zmian i FAQ',
@@ -4044,6 +4200,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   ko: [
+    {
+      title: '텍스트 편집기: 단락 정렬, 밑줄, 회전된 텍스트 수정',
+      highlights: [
+        '텍스트 편집기 도구 모음에 새 단락 정렬 버튼 추가 — Align Left, Align Center, Align Right, Justify — 부착점이 암시하는 열 위에 오버라이드로 적용됨. Text 객체에만 사용 가능하며 Multileader나 치수 레이블에는 사용할 수 없음',
+        'Bold, Italic, Strikethrough 옆에 새 밑줄 토글 버튼 추가',
+        '편집 중 텍스트 커서가 기울임꼴 텍스트에 맞춰 기울어짐 — 워드 프로세서 관례를 따름',
+        '수정됨: 0°/180° 이외의 각도로 회전된 텍스트에서 클릭으로 커서를 배치할 때 잘못된 문자가 선택되던 문제',
+        '수정됨: Middle/Bottom 부착점에서 텍스트 편집기 팝업이 텍스트 위가 아니라 텍스트 위에 떠 있던 문제, 그리고 Multileader에서 회전된 지시선 텍스트와 겹치던 문제',
+        '수정됨: 글자별 높이 오버라이드(예: DXF에서 가져온 혼합 글꼴 크기)가 객체와 함께 크기가 조정되지 않고 절대 크기를 유지하던 문제 — Text와 Multileader 모두 해당',
+      ],
+    },
     {
       title: '사용법 가이드(25개 언어) 및 반응형 내비게이션 개선',
       highlights: [
@@ -4330,6 +4497,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   vi: [
     {
+      title: 'Trình soạn thảo văn bản: căn chỉnh đoạn văn, gạch chân & sửa lỗi văn bản xoay',
+      highlights: [
+        'Các nút căn chỉnh đoạn văn mới trên thanh công cụ trình soạn thảo văn bản — Align Left, Align Center, Align Right, và Justify — là một ghi đè trên cột được ngụ ý bởi điểm gắn; chỉ khả dụng cho thực thể Text, không dành cho Multileader hoặc nhãn kích thước',
+        'Nút gạch chân mới bên cạnh Bold, Italic, và Strikethrough',
+        'Con trỏ văn bản giờ đây nghiêng để khớp với văn bản in nghiêng khi chỉnh sửa, theo quy ước của trình xử lý văn bản',
+        'Đã sửa: nhấp để đặt con trỏ chọn sai ký tự trên văn bản xoay ở bất kỳ góc nào khác 0°/180°',
+        'Đã sửa: popup trình soạn thảo văn bản nổi trên văn bản thay vì phía trên nó đối với các điểm gắn neo Middle/Bottom, và chồng lên văn bản đường dẫn đã xoay trên Multileader',
+        'Đã sửa: các ghi đè chiều cao theo từng ký tự (ví dụ: cỡ phông chữ hỗn hợp nhập từ DXF) giữ nguyên kích thước tuyệt đối thay vì co giãn theo thực thể, trên cả Text và Multileader',
+      ],
+    },
+    {
       title: 'Hướng dẫn (25 ngôn ngữ) và cải thiện điều hướng responsive',
       highlights: [
         'Trang hướng dẫn và phần đầu trang web giờ hiển thị gọn gàng trên điện thoại và máy tính bảng — menu di động có thêm liên kết Hướng dẫn mới bên cạnh Tài liệu, Nhật ký thay đổi và FAQ',
@@ -4614,6 +4792,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   th: [
+    {
+      title: 'Text editor: การจัดแนวย่อหน้า ขีดเส้นใต้ และการแก้ไขข้อความที่หมุน',
+      highlights: [
+        'ปุ่มจัดแนวย่อหน้าใหม่ในแถบเครื่องมือ text editor — Align Left, Align Center, Align Right และ Justify — เป็นการแทนที่เหนือคอลัมน์ที่กำหนดโดยจุดยึด; ใช้ได้เฉพาะกับ entity Text เท่านั้น ไม่รองรับ Multileader หรือป้าย dimension',
+        'ปุ่มสลับขีดเส้นใต้ใหม่ ข้าง Bold, Italic และ Strikethrough',
+        'เคอร์เซอร์ข้อความตอนนี้จะเอียงให้ตรงกับข้อความตัวเอียงขณะแก้ไข ตามธรรมเนียมของโปรแกรมประมวลผลคำ',
+        'แก้ไขแล้ว: การคลิกเพื่อวางเคอร์เซอร์เลือกตัวอักษรผิดบนข้อความที่หมุนไปในมุมใดๆ ที่ไม่ใช่ 0°/180°',
+        'แก้ไขแล้ว: ป็อปอัพ text editor ลอยอยู่เหนือข้อความแทนที่จะอยู่ด้านบนสำหรับจุดยึด Middle/Bottom และซ้อนทับกับข้อความ leader ที่หมุนบน Multileader',
+        'แก้ไขแล้ว: การแทนที่ความสูงต่อตัวอักษร (เช่น ขนาดฟอนต์ผสมที่นำเข้าจาก DXF) ยังคงขนาดสัมบูรณ์แทนที่จะปรับตามขนาด entity ทั้งบน Text และ Multileader',
+      ],
+    },
     {
       title: 'คู่มือการใช้งาน (25 ภาษา) และการปรับปรุงเมนูให้ตอบสนองทุกหน้าจอ',
       highlights: [
@@ -4900,6 +5089,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   ms: [
     {
+      title: 'Text editor: penjajaran perenggan, garis bawah & pembetulan teks berputar',
+      highlights: [
+        'Butang penjajaran perenggan baharu pada bar alat text editor — Align Left, Align Center, Align Right, dan Justify — sebagai pengatasan ke atas lajur yang tersirat oleh titik lampiran; tersedia hanya untuk entiti Text, bukan Multileader atau label dimensi',
+        'Butang togol garis bawah baharu di sebelah Bold, Italic, dan Strikethrough',
+        'Kursor teks kini condong untuk sepadan dengan teks italik semasa penyuntingan, mengikut konvensyen pemproses kata',
+        'Diperbetulkan: klik-untuk-meletak-kursor memilih aksara yang salah pada teks yang diputar pada sebarang sudut selain 0°/180°',
+        'Diperbetulkan: popup text editor terapung di atas teks bukannya tepat di atasnya untuk titik lampiran berlabuh Middle/Bottom, dan bertindih dengan teks leader yang diputar pada Multileader',
+        'Diperbetulkan: pengatasan ketinggian setiap aksara (contohnya saiz fon bercampur yang diimport dari DXF) mengekalkan saiz mutlaknya berbanding menskala bersama entiti, pada kedua-dua Text dan Multileader',
+      ],
+    },
+    {
       title: 'Panduan (25 bahasa) dan penambahbaikan navigasi responsif',
       highlights: [
         'Panduan dan pengepala laman kini dipaparkan dengan kemas pada telefon dan tablet — menu mudah alih kini merangkumi pautan Panduan baharu di sebelah Dokumen, Log Perubahan dan Soalan Lazim',
@@ -5184,6 +5384,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   bn: [
+    {
+      title: 'টেক্সট এডিটর: প্যারাগ্রাফ অ্যালাইনমেন্ট, আন্ডারলাইন এবং ঘোরানো টেক্সটের সংশোধন',
+      highlights: [
+        'টেক্সট এডিটর টুলবারে নতুন প্যারাগ্রাফ অ্যালাইনমেন্ট বাটন — Align Left, Align Center, Align Right, এবং Justify — অ্যাটাচমেন্ট পয়েন্ট দ্বারা নির্দেশিত কলামের উপর একটি ওভাররাইড হিসেবে; শুধুমাত্র Text এন্টিটির জন্য উপলব্ধ, Multileader বা মাত্রা লেবেলের জন্য নয়',
+        'Bold, Italic, এবং Strikethrough-এর পাশে নতুন আন্ডারলাইন টগল বাটন',
+        'সম্পাদনার সময় টেক্সট কার্সর এখন ইটালিক টেক্সটের সাথে মিলিয়ে হেলে যায়, ওয়ার্ড-প্রসেসর প্রথা অনুসারে',
+        'ঠিক করা হয়েছে: 0°/180° ব্যতীত যেকোনো কোণে ঘোরানো টেক্সটে ক্লিক-টু-প্লেস-কার্সর ভুল অক্ষর নির্বাচন করছিল',
+        'ঠিক করা হয়েছে: Middle/Bottom অ্যাটাচমেন্ট পয়েন্টের জন্য টেক্সট এডিটর পপআপ টেক্সটের উপরে না থেকে তার উপর ভাসছিল, এবং Multileader-এ ঘোরানো লিডার টেক্সটের সাথে ওভারল্যাপ করছিল',
+        'ঠিক করা হয়েছে: প্রতি-অক্ষর উচ্চতা ওভাররাইড (যেমন DXF থেকে আমদানি করা মিশ্র ফন্ট আকার) এন্টিটির সাথে স্কেল না হয়ে তাদের সম্পূর্ণ আকার বজায় রাখছিল — Text এবং Multileader উভয়েই',
+      ],
+    },
     {
       title: 'গাইড (২৫ ভাষা) এবং রেসপনসিভ নেভিগেশন উন্নতি',
       highlights: [
@@ -5489,6 +5700,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   sw: [
+    {
+      title: 'Kihariri cha maandishi: ulinganifu wa aya, mstari wa chini na marekebisho ya maandishi yaliyozungushwa',
+      highlights: [
+        'Vitufe vipya vya ulinganifu wa aya kwenye upau wa zana wa kihariri cha maandishi — Align Left, Align Center, Align Right, na Justify — kama ubatilishaji juu ya safu inayodokezwa na sehemu ya kushikamana; inapatikana kwa vipande vya Text pekee, si Multileader au lebo za vipimo',
+        'Kitufe kipya cha kubadilisha mstari wa chini kando ya Bold, Italic, na Strikethrough',
+        'Kishale cha maandishi sasa kinainama kulingana na maandishi ya italiki wakati wa kuhariri, kufuatia desturi ya programu za uchakataji maneno',
+        'Imerekebishwa: kubonyeza ili kuweka kishale kulikuwa kukichagua herufi isiyo sahihi kwenye maandishi yaliyozungushwa kwa pembe yoyote isipokuwa 0°/180°',
+        'Imerekebishwa: dirisha ibukizi la kihariri cha maandishi lilikuwa likielea juu ya maandishi badala ya juu yake kwa sehemu za kushikamana za Middle/Bottom, na kuingiliana na maandishi ya leader yaliyozungushwa kwenye Multileader',
+        'Imerekebishwa: ubatilishaji wa urefu kwa kila herufi (kwa mfano, saizi za fonti mchanganyiko zilizoingizwa kutoka DXF) zilikuwa zikidumisha ukubwa wao kamili badala ya kubadilika kulingana na kipande, kwenye Text na Multileader zote',
+      ],
+    },
     {
       title: 'Miongozo (lugha 25) na maboresho ya uelekezaji unaojirekebisha',
       highlights: [
@@ -5796,6 +6018,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
 
   ur: [
     {
+      title: 'ٹیکسٹ ایڈیٹر: پیراگراف الائنمنٹ، انڈر لائن اور گھمائے گئے متن کی اصلاحات',
+      highlights: [
+        'ٹیکسٹ ایڈیٹر ٹول بار میں نئے پیراگراف الائنمنٹ بٹن — Align Left، Align Center، Align Right، اور Justify — اٹیچمنٹ پوائنٹ کے اشارہ کردہ کالم پر ایک اوور رائیڈ کے طور پر؛ صرف Text اینٹیٹیز کے لیے دستیاب، Multileader یا پیمائش لیبلز کے لیے نہیں',
+        'Bold، Italic، اور Strikethrough کے ساتھ نیا انڈر لائن ٹوگل بٹن',
+        'ترمیم کے دوران ٹیکسٹ کرسر اب Italic متن سے مماثل ہونے کے لیے جھکتا ہے، ورڈ پروسیسر کنونشن کے مطابق',
+        'درست کیا گیا: 0°/180° کے علاوہ کسی بھی زاویے پر گھمائے گئے متن پر کلک کر کے کرسر رکھنے سے غلط حرف منتخب ہو رہا تھا',
+        'درست کیا گیا: Middle/Bottom اٹیچمنٹ پوائنٹس کے لیے ٹیکسٹ ایڈیٹر پاپ اپ متن کے اوپر ہونے کی بجائے اس پر تیر رہا تھا، اور Multileader پر گھمائے گئے لیڈر متن کے ساتھ اوورلیپ ہو رہا تھا',
+        'درست کیا گیا: فی حرف اونچائی اوور رائیڈز (مثلاً DXF سے درآمد شدہ ملے جلے فونٹ سائز) اینٹیٹی کے ساتھ اسکیل ہونے کی بجائے اپنا مطلق سائز برقرار رکھ رہے تھے — Text اور Multileader دونوں پر',
+      ],
+    },
+    {
       title: 'رہنما ہدایات (25 زبانیں) اور ریسپانسو نیویگیشن بہتری',
       highlights: [
         'اب رہنما ہدایات اور سائٹ کا ہیڈر فون اور ٹیبلٹ پر صاف نظر آتے ہیں — موبائل مینو میں دستاویزات، تبدیلیوں کی فہرست اور اکثر پوچھے گئے سوالات کے ساتھ نیا رہنما ہدایات لنک بھی شامل ہے',
@@ -5839,6 +6072,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
 
   el: [
     {
+      title: 'Επεξεργαστής κειμένου: στοίχιση παραγράφου, υπογράμμιση & διορθώσεις για περιστραμμένο κείμενο',
+      highlights: [
+        'Νέα κουμπιά στοίχισης παραγράφου στη γραμμή εργαλείων του επεξεργαστή κειμένου — Align Left, Align Center, Align Right και Justify — ως παράκαμψη πάνω από τη στήλη που υποδηλώνεται από το σημείο προσάρτησης· διαθέσιμο μόνο για οντότητες Text, όχι για Multileader ή ετικέτες διαστάσεων',
+        'Νέο κουμπί υπογράμμισης δίπλα στα Bold, Italic και Strikethrough',
+        'Ο δρομέας κειμένου κλίνει πλέον ώστε να ταιριάζει με το πλάγιο κείμενο κατά την επεξεργασία, σύμφωνα με τη σύμβαση των επεξεργαστών κειμένου',
+        'Διορθώθηκε: το κλικ για τοποθέτηση του δρομέα επέλεγε λάθος χαρακτήρα σε κείμενο περιστραμμένο σε οποιαδήποτε γωνία εκτός από 0°/180°',
+        'Διορθώθηκε: το αναδυόμενο παράθυρο του επεξεργαστή κειμένου αιωρούνταν πάνω στο κείμενο αντί από πάνω του για σημεία προσάρτησης Middle/Bottom, και επικαλύπτονταν με το περιστραμμένο κείμενο ενός leader σε Multileader',
+        'Διορθώθηκε: οι παρακάμψεις ύψους ανά χαρακτήρα (π.χ. μεικτά μεγέθη γραμματοσειράς που εισάγονται από DXF) διατηρούσαν το απόλυτο μέγεθός τους αντί να κλιμακώνονται με την οντότητα, τόσο σε Text όσο και σε Multileader',
+      ],
+    },
+    {
       title: 'Οδηγοί (25 γλώσσες) και βελτιώσεις προσαρμοστικής πλοήγησης',
       highlights: [
         'Οι οδηγοί και η κεφαλίδα του ιστότοπου εμφανίζονται πλέον καθαρά σε κινητά και tablet — το μενού κινητού περιλαμβάνει τον νέο σύνδεσμο Οδηγοί δίπλα στα Τεκμηρίωση, Ιστορικό αλλαγών και Συχνές ερωτήσεις',
@@ -5880,6 +6124,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     { title: 'Αναβάθμιση Angular, τεκμηρίωση & προσαρμοστικό πλέγμα', highlights: ['Αναβάθμιση Angular 19 → 20 → 21', 'Πλήρης ιστότοπος τεκμηρίωσης εντολών', 'Προσαρμοστικό πλέγμα CAD', 'Πίνακας ιστορικού (Αναίρεση / Ιστορικό / Επανάληψη)'] },
   ],
   pa: [
+    {
+      title: 'ਟੈਕਸਟ ਐਡੀਟਰ: ਪੈਰਾਗ੍ਰਾਫ ਸੰਰੇਖਣ, ਅੰਡਰਲਾਈਨ ਅਤੇ ਘੁੰਮਾਏ ਟੈਕਸਟ ਦੀਆਂ ਸੁਧਾਈਆਂ',
+      highlights: [
+        'ਟੈਕਸਟ ਐਡੀਟਰ ਟੂਲਬਾਰ ਵਿੱਚ ਨਵੇਂ ਪੈਰਾਗ੍ਰਾਫ ਸੰਰੇਖਣ ਬਟਨ — Align Left, Align Center, Align Right, ਅਤੇ Justify — ਅਟੈਚਮੈਂਟ ਪੁਆਇੰਟ ਦੁਆਰਾ ਸੰਕੇਤ ਕੀਤੇ ਕਾਲਮ ਉੱਤੇ ਇੱਕ ਓਵਰਰਾਈਡ ਵਜੋਂ; ਸਿਰਫ਼ Text ਇਕਾਈਆਂ ਲਈ ਉਪਲਬਧ, Multileader ਜਾਂ ਡਾਈਮੈਂਸ਼ਨ ਲੇਬਲ ਲਈ ਨਹੀਂ',
+        'Bold, Italic, ਅਤੇ Strikethrough ਦੇ ਨਾਲ ਨਵਾਂ ਅੰਡਰਲਾਈਨ ਟੌਗਲ ਬਟਨ',
+        'ਸੰਪਾਦਨ ਦੌਰਾਨ ਟੈਕਸਟ ਕਰਸਰ ਹੁਣ ਇਟੈਲਿਕ ਟੈਕਸਟ ਨਾਲ ਮੇਲ ਖਾਣ ਲਈ ਝੁਕਦਾ ਹੈ, ਵਰਡ-ਪ੍ਰੋਸੈਸਰ ਕਨਵੈਨਸ਼ਨ ਦੇ ਅਨੁਸਾਰ',
+        'ਠੀਕ ਕੀਤਾ ਗਿਆ: 0°/180° ਤੋਂ ਇਲਾਵਾ ਕਿਸੇ ਵੀ ਕੋਣ \'ਤੇ ਘੁੰਮਾਏ ਟੈਕਸਟ \'ਤੇ ਕਲਿੱਕ-ਟੂ-ਪਲੇਸ-ਕੈਰਟ ਗਲਤ ਅੱਖਰ ਚੁਣ ਰਿਹਾ ਸੀ',
+        'ਠੀਕ ਕੀਤਾ ਗਿਆ: Middle/Bottom ਅਟੈਚਮੈਂਟ ਪੁਆਇੰਟਾਂ ਲਈ ਟੈਕਸਟ ਐਡੀਟਰ ਪੌਪਅੱਪ ਟੈਕਸਟ ਦੇ ਉੱਤੇ ਹੋਣ ਦੀ ਬਜਾਏ ਉਸ \'ਤੇ ਤੈਰ ਰਿਹਾ ਸੀ, ਅਤੇ Multileader \'ਤੇ ਘੁੰਮਾਏ ਲੀਡਰ ਟੈਕਸਟ ਨਾਲ ਓਵਰਲੈਪ ਕਰ ਰਿਹਾ ਸੀ',
+        'ਠੀਕ ਕੀਤਾ ਗਿਆ: ਪ੍ਰਤੀ-ਅੱਖਰ ਹਾਈਟ ਓਵਰਰਾਈਡ (ਜਿਵੇਂ DXF ਤੋਂ ਇੰਪੋਰਟ ਕੀਤੇ ਮਿਸ਼ਰਤ ਫੌਂਟ ਆਕਾਰ) ਇਕਾਈ ਨਾਲ ਸਕੇਲ ਹੋਣ ਦੀ ਬਜਾਏ ਆਪਣਾ ਪੂਰਨ ਆਕਾਰ ਬਰਕਰਾਰ ਰੱਖ ਰਹੇ ਸਨ — Text ਅਤੇ Multileader ਦੋਵਾਂ \'ਤੇ',
+      ],
+    },
     {
       title: 'ਗਾਈਡਾਂ (25 ਭਾਸ਼ਾਵਾਂ) ਅਤੇ ਰਿਸਪੌਂਸਿਵ ਨੇਵੀਗੇਸ਼ਨ ਸੁਧਾਰ',
       highlights: [
@@ -6166,6 +6421,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   sv: [
     {
+      title: 'Texteditor: styckejustering, understrykning & korrigeringar för roterad text',
+      highlights: [
+        'Nya knappar för styckejustering i texteditorns verktygsfält — Align Left, Align Center, Align Right och Justify — som en åsidosättning ovanpå kolumnen som antyds av förankringspunkten; tillgängligt endast för Text-entiteter, inte Multileader eller måttsättningsetiketter',
+        'Ny understrykningsknapp bredvid Bold, Italic och Strikethrough',
+        'Textmarkören lutar nu för att matcha kursiv text under redigering, enligt ordbehandlarkonvention',
+        'Åtgärdat: klick-för-att-placera-markör valde fel tecken på text roterad till någon annan vinkel än 0°/180°',
+        'Åtgärdat: texteditorns popup svävade över texten istället för ovanför den för Middle/Bottom-förankrade förankringspunkter, och överlappade roterad ledartext på Multileader',
+        'Åtgärdat: åsidosättningar av höjd per tecken (t.ex. blandade typsnittsstorlekar importerade från DXF) behöll sin absoluta storlek istället för att skalas med entiteten, både på Text och Multileader',
+      ],
+    },
+    {
       title: 'Guider (25 språk) och förbättringar av responsiv navigering',
       highlights: [
         'Guiderna och webbplatsens sidhuvud visas nu snyggt på mobiler och surfplattor — mobilmenyn innehåller den nya Guider-länken bredvid Dokumentation, Ändringslogg och Vanliga frågor',
@@ -6450,6 +6716,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   tl: [
+    {
+      title: 'Text editor: pag-align ng parapo, underline & mga ayos para sa naikot na text',
+      highlights: [
+        'Mga bagong button ng pag-align ng parapo sa toolbar ng text editor — Align Left, Align Center, Align Right, at Justify — bilang override sa ibabaw ng column na ipinapahiwatig ng attachment point; available lang para sa Text entity, hindi para sa Multileader o dimension label',
+        'Bagong underline toggle button sa tabi ng Bold, Italic, at Strikethrough',
+        'Ang text cursor ay humihilig na ngayon para tumugma sa italic na text habang nag-e-edit, ayon sa kumbensyon ng word processor',
+        'Naayos: ang click-to-place-cursor ay pumipili ng maling character sa text na naikot sa anumang anggulo bukod sa 0°/180°',
+        'Naayos: ang popup ng text editor ay lumulutang sa ibabaw ng text sa halip na nasa itaas nito para sa Middle/Bottom attachment point, at nag-o-overlap sa naikot na leader text sa Multileader',
+        'Naayos: ang mga override ng taas bawat character (hal. magkahalong laki ng font na na-import mula sa DXF) ay pinapanatili ang absolute na laki sa halip na mag-scale kasama ang entity, sa parehong Text at Multileader',
+      ],
+    },
     {
       title: 'Mga Gabay (25 wika) at pagpapabuti sa responsive na navigation',
       highlights: [
@@ -6737,6 +7014,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
 
   nl: [
     {
+      title: 'Teksteditor: alineauitlijning, onderstrepen & correcties voor geroteerde tekst',
+      highlights: [
+        'Nieuwe knoppen voor alineauitlijning in de werkbalk van de teksteditor — Align Left, Align Center, Align Right en Justify — als overschrijving boven de kolom die wordt geïmpliceerd door het aanhechtingspunt; alleen beschikbaar voor Text-entiteiten, niet voor Multileader of maatvoeringslabels',
+        'Nieuwe onderstrepen-knop naast Bold, Italic en Strikethrough',
+        'De tekstcursor helt nu om overeen te komen met cursieve tekst tijdens het bewerken, volgens de conventie van tekstverwerkers',
+        'Opgelost: klikken om de cursor te plaatsen selecteerde het verkeerde teken bij tekst die was geroteerd tot een andere hoek dan 0°/180°',
+        'Opgelost: de pop-up van de teksteditor zweefde over de tekst in plaats van erboven bij Middle/Bottom-verankerde aanhechtingspunten, en overlapte geroteerde leader-tekst op Multileaders',
+        'Opgelost: overschrijvingen van hoogte per teken (bijv. gemengde lettergroottes geïmporteerd uit DXF) behielden hun absolute grootte in plaats van mee te schalen met de entiteit, zowel op Text als Multileader',
+      ],
+    },
+    {
       title: 'How-to-handleidingen (25 talen) & responsieve navigatie',
       highlights: [
         'How-to-handleidingen en de koptekst van de site worden nu netjes weergegeven op telefoons en tablets — het mobiele menu bevat de nieuwe How-to-link naast Documentatie, Changelog en FAQ',
@@ -7023,6 +7311,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
 
   he: [
     {
+      title: 'עורך טקסט: יישור פסקאות, קו תחתון ותיקונים לטקסט מסובב',
+      highlights: [
+        'כפתורי יישור פסקאות חדשים בסרגל הכלים של עורך הטקסט — Align Left, Align Center, Align Right ו-Justify — כעקיפה מעל העמודה המשתמעת מנקודת העיגון; זמין רק לישויות Text, לא ל-Multileader או לתוויות מידות',
+        'כפתור קו תחתון חדש לצד Bold, Italic ו-Strikethrough',
+        'סמן הטקסט נוטה כעת כדי להתאים לטקסט נטוי בזמן העריכה, בהתאם למוסכמת מעבדי התמלילים',
+        'תוקן: לחיצה למיקום הסמן בחרה את התו הלא נכון בטקסט מסובב בכל זווית פרט ל-0°/180°',
+        'תוקן: החלונית הקופצת של עורך הטקסט ריחפה מעל הטקסט במקום מעליו עבור נקודות עיגון מסוג Middle/Bottom, וחפפה טקסט חץ מסובב ב-Multileader',
+        'תוקן: עקיפות גובה לפי תו (למשל גדלי גופן מעורבים שיובאו מ-DXF) שמרו על הגודל המוחלט שלהן במקום לשנות קנה מידה יחד עם הישות, הן ב-Text והן ב-Multileader',
+      ],
+    },
+    {
       title: 'מדריכי שימוש (25 שפות) ושיפור ניווט רספונסיבי',
       highlights: [
         'מדריכי השימוש וכותרת האתר כעת מוצגים בצורה נקייה בטלפונים וטאבלטים — תפריט המובייל כולל את קישור המדריכים החדש לצד תיעוד, יומן שינויים ושאלות נפוצות',
@@ -7308,6 +7607,17 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
 
   ha: [
+    {
+      title: 'Naʼurar Gyaran Rubutu: daidaitawar sakin layi, layin ƙasa da gyare-gyaren rubutu mai jujjuyawa',
+      highlights: [
+        'Sabbin maɓallan daidaitawar sakin layi a kayan aiki na naʼurar gyaran rubutu — Align Left, Align Center, Align Right, da Justify — a matsayin canji a kan ginshiƙin da maki na haɗi ke nunawa; ana samu ga abubuwan Text kaɗai, ba don Multileader ko alamun girma-girma ba',
+        'Sabon maɓallin layin ƙasa kusa da Bold, Italic, da Strikethrough',
+        'Mai nunin rubutu yanzu yana karkata don daidaitawa da rubutu mai karkatacce yayin gyarawa, bisa ga al\'adar shirye-shiryen rubutu',
+        'An gyara: dannawa don sanya mai nuni yana zaɓen harafi mara daidai a kan rubutu da aka juyar zuwa kowace kusurwa banda 0°/180°',
+        'An gyara: taga mai fitowa na naʼurar gyaran rubutu yana iyo a kan rubutu maimakon sama da shi ga makin haɗi na Middle/Bottom, kuma yana mamaye rubutun jagora da aka juyar a kan Multileader',
+        'An gyara: canje-canjen tsayi ga kowane harafi (misali girman font gauraye da aka shigo daga DXF) suna riƙe da girmansu cikakke maimakon daidaitawa da abin, a kan Text da Multileader duka',
+      ],
+    },
     {
       title: 'Jagororin amfani (harsuna 25) da inganta kewayawa mai koma-baya',
       highlights: [
