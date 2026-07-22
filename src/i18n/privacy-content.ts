@@ -2421,4 +2421,90 @@ export const privacyContent: Record<string, PrivacyContent> = {
       },
     ],
   },
+
+  no: {
+    title: 'Personvernerklæring — KulmanLab',
+    desc: 'Hvordan KulmanLab håndterer dataene dine: tegninger forblir på enheten din, ingen kontoer. Google Analytics for anonyme bruksmålinger; annonser i appen via Google AdSense.',
+    heading: 'Personvernerklæring',
+    updated: 'Sist oppdatert: 14. juli 2026',
+    summaryHeading: 'Kortversjonen',
+    summary: [
+      'Tegningene dine lagres i nettleseren din og forlater aldri enheten din. Alt arbeidet ditt tilhører deg.',
+      'Det finnes ingen kontoer, ingen registrering og ingen e-post. Vi vet ikke hvem du er.',
+      'Vi bruker Google Analytics til å telle besøk og forstå hvilke funksjoner som brukes. Den ser aldri tegneinnholdet ditt.',
+      'Appen er gratis og finansiert av annonser (Google AdSense). Tegningene dine brukes aldri til reklame, og vi selger aldri dataene dine.',
+    ],
+    sections: [
+      {
+        h: 'Tegningene dine forblir på enheten din',
+        blocks: [
+          { t: 'p', html: 'Alt du tegner i KulmanLab CAD lagres i nettleserens lokale lagring (IndexedDB) på din egen enhet. Tegninger lastes aldri opp, overføres eller lagres på noen server. Etter den første innlastingen fungerer appen helt uten internett — ingen server er involvert i å åpne, redigere eller lagre filene dine.' },
+          { t: 'p', html: 'Fordi filene dine kun finnes i nettleseren din, har du full kontroll over dem. Du kan slette individuelle tegninger fra <a href="/no/docs/commands/files/">Files-panelet</a>, slette alt på én gang med <a href="/no/docs/commands/wipestorage/">wipestorage</a>-kommandoen, eller tømme nettstedsdataene i nettleserinnstillingene dine. Vi kan ikke få tilgang til, gjenopprette eller slette filene dine for deg — vi har dem aldri.' },
+        ],
+      },
+      {
+        h: 'Ingen kontoer, ingen personopplysninger',
+        blocks: [
+          { t: 'p', html: 'KulmanLab har ingen innlogging, ingen registrering og ingen innsamling av e-post. Vi samler ikke inn navnet ditt, e-postadressen din eller annen informasjon som identifiserer deg personlig, og vi har ingenting å selge eller dele.' },
+        ],
+      },
+      {
+        h: 'Analyse',
+        blocks: [
+          { t: 'p', html: 'Dette nettstedet (kulmanlab.com) og appen (app.kulmanlab.com) bruker <strong>Google Analytics 4</strong> til å samle inn anonyme bruksmålinger. Dette forteller oss ting som hvor mange som besøker, hvilke sider de leser, hvilket land de befinner seg i (omtrentlig, utledet fra IP-adressen — Google Analytics 4 lagrer ikke IP-adresser), og hvilken nettleser og enhetstype de bruker.' },
+          { t: 'p', html: 'På nettstedet registrerer vi også noen få anonyme interaksjonshendelser:' },
+          { t: 'ul', items: [
+            'klikk på "Launch App" og lignende knapper,',
+            'klikk på utgående lenker (destinasjonsadressen til lenken),',
+            'hvor langt ned på en side du ruller, og grensesnittspråket du bruker.',
+          ] },
+          { t: 'p', html: 'Ingenting av dette inkluderer tegneinnholdet ditt, filnavn, eller noe du oppretter i appen. Analysedata behandles av Google i henhold til <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Googles personvernerklæring</a>.' },
+        ],
+      },
+      {
+        h: 'Annonsering',
+        blocks: [
+          { t: 'p', html: 'Appen (app.kulmanlab.com) er gratis å bruke og finansieres av annonser levert gjennom <strong>Google AdSense</strong>. Dette nettstedet (kulmanlab.com) viser ikke annonser.' },
+          { t: 'p', html: 'Tredjepartsleverandører, inkludert Google, bruker informasjonskapsler til å vise annonser basert på tidligere besøk du har gjort på dette eller andre nettsteder. Googles bruk av annonseinformasjonskapsler gjør det mulig for det og partnerne dets å vise deg annonser basert på besøkene dine i appen og/eller andre nettsteder på internett. Annonser velges av Google — de ser aldri tegneinnholdet ditt, filnavn, eller noe du oppretter i appen.' },
+          { t: 'p', html: 'Du kan velge bort personlig tilpasset annonsering i Googles <a href="https://adssettings.google.com" target="_blank" rel="noopener">annonseinnstillinger</a>, eller velge bort tredjeparts annonseinformasjonskapsler mer generelt på <a href="https://www.aboutads.info/choices" target="_blank" rel="noopener">aboutads.info</a> (eller <a href="https://www.youronlinechoices.eu" target="_blank" rel="noopener">youronlinechoices.eu</a> i Europa). Hvordan Google bruker data fra nettsteder som viser annonsene sine, er beskrevet på <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">policies.google.com/technologies/partner-sites</a>.' },
+        ],
+      },
+      {
+        h: 'Informasjonskapsler og lokal lagring',
+        blocks: [
+          { t: 'p', html: 'To typer informasjonskapsler brukes. Google Analytics setter <code>_ga</code> og <code>_ga_*</code> både på nettstedet og i appen — de inneholder en tilfeldig identifikator som skiller nettlesere fra hverandre, slik at gjentatte besøk ikke telles som nye besøkende, utløper etter opptil to år, og kan ikke brukes til å identifisere deg personlig. I appen setter Google AdSense og annonsepartnerne dets ytterligere annonseinformasjonskapsler for å vise og måle annonser, som beskrevet i Annonsering-delen ovenfor. Det finnes ingen informasjonskapsler for sosiale medier, og nettstedet selv setter ingen annonseinformasjonskapsler.' },
+          { t: 'p', html: 'I tillegg husker nettstedet språkpreferansen din, og appen lagrer tegningene dine og angre-historikken i nettleserens lokale lagring. Disse dataene forlater aldri enheten din.' },
+        ],
+      },
+      {
+        h: 'Tredjepartstjenester',
+        blocks: [
+          { t: 'p', html: 'Utover Google Analytics og Google AdSense er KulmanLab avhengig av to infrastrukturtjenester:' },
+          { t: 'ul', items: [
+            '<strong>Google Fonts</strong> — skriften Inter lastes fra Googles servere. Nettleseren din sender en standard webforespørsel (inkludert IP-adressen din) til Google for å hente skriftfilene.',
+            '<strong>Firebase Hosting (Google)</strong> — leverer dette nettstedet og appen. Som enhver webserver behandler den standard forespørselslogger (IP-adresse, forespurt URL, brukeragent) for å levere sidene.',
+          ] },
+        ],
+      },
+      {
+        h: 'Dine valg',
+        blocks: [
+          { t: 'p', html: 'Hvis du foretrekker å ikke bli talt i analyser, kan du blokkere Google Analytics-informasjonskapslene i nettleseren din, bruke en innholdsblokkerer, eller installere <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Google Analytics-reservasjonstillegget</a>. Nettstedet og appen fungerer akkurat likt uten analyse.' },
+          { t: 'p', html: 'For annonsering kan du slå av annonsepersonalisering i <a href="https://adssettings.google.com" target="_blank" rel="noopener">Google Ads-innstillinger</a> — du vil fortsatt se annonser i appen, men de vil ikke være basert på interessene eller nettleserhistorikken din.' },
+        ],
+      },
+      {
+        h: 'Endringer i denne erklæringen',
+        blocks: [
+          { t: 'p', html: 'Hvis dataspraksisene våre endres — for eksempel hvis en ny tredjepartstjeneste legges til — vil denne siden oppdateres og datoen øverst revideres.' },
+        ],
+      },
+      {
+        h: 'Kontakt',
+        blocks: [
+          { t: 'p', html: 'Spørsmål om personvern? Åpne en issue på <a href="https://github.com/volodymyr4509/kulmanlab/issues" target="_blank" rel="noopener">GitHub</a> eller spør i <a href="https://www.reddit.com/r/kulmanlab/" target="_blank" rel="noopener">Reddit-fellesskapet</a>.' },
+        ],
+      },
+    ],
+  },
 };

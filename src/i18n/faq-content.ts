@@ -1283,4 +1283,50 @@ export const faqContent: Record<string, FaqSection[]> = {
       ],
     },
   ],
+
+  no: [
+    {
+      headingKey: 'faq.section.start',
+      items: [
+        { q: 'Er KulmanLab virkelig gratis?', a: 'Ja — helt gratis. Ingen abonnement, ikke noe kredittkort, ingen skjult plan. Hele funksjonssettet er tilgjengelig for alle uten begrensninger.' },
+        { q: 'Må jeg opprette en konto?', a: 'Nei. Det er ingen innlogging, ingen registrering, og ingen e-post kreves. Åpne appen og begynn å tegne umiddelbart.' },
+        { q: 'Hvilke nettlesere støttes?', a: 'Enhver moderne stasjonær nettleser — Chrome, Firefox, Safari og Edge fungerer alle. KulmanLab er kun for stasjonære enheter; mobil og nettbrett støttes ikke for øyeblikket.' },
+        { q: 'Fungerer det uten internett?', a: 'Ja. Etter den første innlastingen er appen bufret og kjører helt uten internettforbindelse. Tegningene dine lagres lokalt, slik at ingenting krever en server.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.files',
+      items: [
+        { q: 'Hvor lagres tegningene mine?', a: 'I nettleserens IndexedDB — på din egen enhet. Ingenting lastes noensinne opp til en server. Hver nettleser på hver enhet har sin egen uavhengige lagring.' },
+        { q: 'Hva skjer hvis jeg sletter nettleserdataene mine?', a: 'De lagrede tegningene dine vil gå tapt. Eksporter alltid en JSON-kopi av alt som er viktig før du sletter nettleserlagringen.' },
+        { q: 'Kan jeg åpne .dwg-filer?', a: 'KulmanLab støtter DXF (Drawing Exchange Format), ikke det proprietære DWG-formatet. De fleste desktop CAD-programmer kan eksportere DXF, så eksporter fra kildeapplikasjonen din først.' },
+        { q: 'Hvilke eksportformater er tilgjengelige?', a: 'DXF og JSON via Export — DXF for rundtur med andre CAD-verktøy, JSON for lagring med full nøyaktighet (inkludert mål og ledere) i KulmanLab. Print eksporterer separat PNG-, JPEG-, WebP- eller PDF-bilder, med valgfri områdebeskjæring og monokrom-bryter.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.features',
+      items: [
+        { q: 'Har den en kommandoterminal?', a: 'Ja. Skriv kommandoer direkte — LINE, CIRCLE, MOVE, TRIM og over 50 andre. Terminalen støtter historikk (piltaster), autofullføring (Tab) og eksakt numerisk inntasting.' },
+        { q: 'Er det støtte for lag?', a: 'Full lagadministrasjon: opprett, gi nytt navn til, frys, lås og isoler lag. Sett farge, linetype og lineweight per lag. Alle lagdata bevares i DXF-eksport.' },
+        { q: 'Hvilke måltyper er tilgjengelige?', a: 'Lineær, justert, radius, diameter, vinkel og fortsatte mål. Alle lagres som standard DXF DIMENSION-entiteter kompatible med andre DXF-kompatible CAD-verktøy.' },
+        { q: 'Kan jeg redigere geometri med grep?', a: 'Ja. Marker en hvilken som helst entitet for å vise gripehåndtak ved viktige punkter — endepunkter, midtpunkter, sentre, bueender. Dra for å omforme direkte på lerretet, eller skriv inn en verdi mens du drar for eksakt plassering.' },
+        { q: 'Støttes sanntidssamarbeid?', a: 'Ikke for øyeblikket. KulmanLab er et enkeltbrukerverktøy, og tegninger forblir lokale. Skysynkronisering og samarbeid er utenfor det nåværende omfanget.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.compat',
+      items: [
+        { q: 'Er KulmanLab DXF-filer kompatible med annen CAD-programvare?', a: 'Ja. KulmanLab leser og skriver AC1032 DXF — en bredt støttet versjon. Filer åpnes korrekt i LibreCAD, QCAD, BricsCAD, FreeCAD og ethvert annet DXF-kompatibelt verktøy.' },
+        { q: 'Hva er forskjellen mellom DXF og DWG?', a: 'DXF er et åpent, tekstbasert utvekslingsformat designet for interoperabilitet. DWG er et proprietært binærformat. KulmanLab bruker DXF, som kan leses av så godt som ethvert CAD-verktøy.' },
+        { q: 'Kan KulmanLab erstatte min desktop CAD-programvare?', a: 'For 2D-tegning — ja. KulmanLab har en full kommandoterminal, lag, snapping, mål, grep-redigering og DXF-kompatibilitet. Den støtter ikke 3D, blokker/xrefs eller parametriske begrensninger.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.privacy',
+      items: [
+        { q: 'Samler KulmanLab inn tegnedataene mine?', a: 'Nei. Tegningene dine forblir i nettleseren din og sendes aldri noe sted. KulmanLab bruker Google Analytics for anonyme bruksmålinger (sidevisninger, øktantall) — ingen tegneinnhold er involvert.' },
+        { q: 'Brukes informasjonskapsler?', a: 'Informasjonskapsler brukes for Google Analytics, som samler inn anonyme bruksmålinger (sidevisninger, øktantall).' },
+      ],
+    },
+  ],
 };

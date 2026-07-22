@@ -4971,4 +4971,181 @@ export const howtoContent: Record<string, HowToContent> = {
       },
     ],
   },
+
+  no: {
+    title: 'Slik Bruker du KulmanLab — Guider for Vanlige CAD-oppgaver',
+    desc: 'Steg-for-steg-guider for KulmanLab CAD: åpne DXF-filer, tegn med eksakte dimensjoner, bruk lag, legg til mål, forbered filer for laserkutting, skriv ut og sikkerhetskopier tegningene dine.',
+    heading: 'Slik gjør du',
+    subtitle: 'Steg-for-steg-guider for de vanligste oppgavene i KulmanLab CAD.',
+    docsLabel: 'Dokumentasjon:',
+    outroTitle: 'Leter du etter en spesifikk kommando?',
+    outroHtml: '<a href="/no/docs/">Kommandoreferansen</a> dokumenterer alle 50+ kommandoene, og <a href="/no/faq/">FAQ</a>-en dekker lagring, formater og kompatibilitet.',
+    guides: [
+      {
+        title: 'Åpne en DXF-fil',
+        intro: 'KulmanLab leser DXF — utvekslingsformatet ethvert CAD-verktøy kan produsere. Filer åpnes direkte fra disken din og forlater aldri enheten din.',
+        steps: [
+          'Åpne <a href="https://app.kulmanlab.com">app.kulmanlab.com</a>.',
+          'Klikk på <strong>Import</strong>-knappen i File-panelet, eller skriv <code>import</code> i terminalen.',
+          'Velg en <code>.dxf</code>-fil (eller KulmanLab <code>.json</code>) fra datamaskinen din.',
+          'Tegningen lastes inn på lerretet og lagres automatisk i nettleserlagringen din, slik at den fortsatt er der neste gang.',
+        ],
+        links: [
+          { label: 'Import-kommando', slug: 'commands/import' },
+          { label: 'Panel for nylige filer', slug: 'commands/files' },
+        ],
+      },
+      {
+        title: 'Tegn med eksakte dimensjoner',
+        intro: 'Hver tegnekommando godtar inntastet input, slik at du aldri trenger å anslå en lengde eller koordinat.',
+        steps: [
+          'Start en kommando — klikk <strong>Line</strong> eller skriv <code>line</code> og trykk <strong>Enter</strong>.',
+          'Skriv et startpunkt som <code>x,y</code> (for eksempel <code>0,0</code>) og trykk <strong>Enter</strong>.',
+          'Flytt markøren i ønsket retning, skriv deretter inn en lengde (for eksempel <code>250</code>) og trykk <strong>Enter</strong> — segmentet tegnes nøyaktig så langt.',
+          'Slå på vinkellås i kontrollinjen (eller hold det konfigurerte inkrementet) for å holde segmenter i eksakte vinkler som 30°, 45° eller 90°.',
+        ],
+        links: [
+          { label: 'Line-kommando', slug: 'commands/line' },
+          { label: 'Rutenett og snap', slug: 'interface/grid-snap' },
+        ],
+      },
+      {
+        title: 'Organiser en tegning med lag',
+        intro: 'Lag holder hjelpelinjer, geometri og annotasjoner atskilt — og de overlever DXF-eksport.',
+        steps: [
+          'Åpne <strong>Layers</strong>-panelet i verktøylinjen og opprett et lag for hver type innhold (omriss, mål, notater …).',
+          'Sett farge, linetype og lineweight per lag, slik at entiteter får fornuftige standardverdier.',
+          'Gjør et lag gjeldende med <code>layer-make-current</code> før du tegner, eller flytt markerte entiteter med <code>layer-match</code>.',
+          'Bruk <code>layer-isolate</code> for å skjule alt unntatt laget du jobber med, og <code>layer-unfreeze-all</code> for å hente alt tilbake.',
+        ],
+        links: [
+          { label: 'Layer isolate', slug: 'commands/layer-isolate' },
+          { label: 'Linetype', slug: 'interface/linetype' },
+          { label: 'Lineweight', slug: 'interface/lineweight' },
+        ],
+      },
+      {
+        title: 'Legg til mål',
+        intro: 'Mål er ekte DXF DIMENSION-entiteter, slik at de overlever en rundtur til ethvert annet CAD-verktøy.',
+        steps: [
+          'Skriv <code>dim-linear</code> (horisontalt/vertikalt) eller <code>dim-aligned</code> (parallelt med den målte kanten) i terminalen.',
+          'Velg de to punktene du vil måle, og plasser deretter mållinjen med et tredje klikk.',
+          'Kjed en rad med målinger med <code>dim-continue</code> — hvert nye mål starter der det forrige sluttet.',
+          'For sirkler og buer, bruk <code>dim-radius</code>, <code>dim-diameter</code> eller <code>dim-angular</code>.',
+          'Dobbeltklikk en hvilken som helst mål-etikett for å redigere teksten.',
+        ],
+        links: [
+          { label: 'Lineært mål', slug: 'commands/dim-linear' },
+          { label: 'Fortsett mål', slug: 'commands/dim-continue' },
+          { label: 'Tekstredigering', slug: 'interface/text-editor' },
+        ],
+      },
+      {
+        title: 'Mål avstand, vinkel og areal',
+        intro: 'Raske målinger uten å opprette noen geometri — resultater blir stående på skjermen til du trykker Escape.',
+        steps: [
+          'Skriv <code>distance</code> og velg to punkter for å lese en lengde.',
+          'Skriv <code>angle</code> og velg to linjer (eller tre punkter) for å lese vinkelen mellom dem.',
+          'Skriv <code>area</code> og klikk tre eller flere punkter, trykk deretter <strong>Enter</strong> — det omsluttede arealet og omkretsen vises.',
+        ],
+        links: [
+          { label: 'Distance', slug: 'commands/distance' },
+          { label: 'Angle', slug: 'commands/angle' },
+          { label: 'Area', slug: 'commands/area' },
+        ],
+      },
+      {
+        title: 'Forbered en fil for laserkutting eller CNC',
+        intro: 'Arbeidsflyten KulmanLab opprinnelig ble bygget for: sjekk en fil, rydd den opp, send den til maskinen.',
+        steps: [
+          'Importer DXF-en og se den over — <code>fit</code> zoomer hele tegningen inn i visning.',
+          'Slett alt maskinen ikke skal kutte: hjelpelinjer, notater, mål. <code>layer-isolate</code> hjelper med å finne feilplasserte elementer.',
+          'Rydd opp i geometrien: <code>trim</code> overhengende ender, lukk mellomrom, og sjekk størrelser med <code>distance</code>.',
+          'Eksporter som DXF og last den inn i maskinprogramvaren din. Kuttbaner overlever nøyaktig som tegnet — KulmanLab skriver ren AC1032 DXF.',
+        ],
+        links: [
+          { label: 'Trim', slug: 'commands/trim' },
+          { label: 'Fit-visning', slug: 'commands/fit' },
+          { label: 'Export', slug: 'commands/export' },
+        ],
+      },
+      {
+        title: 'Sett opp et papirlayout med viewporter',
+        intro: 'Layouter er papirrom-ark — sett sammen én eller flere skalerte visninger av modellen din på en side, klare for utskrift.',
+        steps: [
+          'Klikk en <strong>layout-fane</strong> nederst på skjermen for å bytte fra modellrom til papirrom. <strong>+</strong>-knappen i fanelinjen legger til et nytt layout.',
+          '<strong>Høyreklikk en layout-fane</strong> for å gi den nytt navn eller slette den, eller for å åpne <strong>Page Manager</strong> — der setter du papirformatet (A4, A3, Letter …), orienteringen, og skalaen tegneenheter-per-mm.',
+          'Skriv <code>viewport-rectangle</code> og klikk to motsatte hjørner for å plassere en viewport — et vindu som viser modellen din på papiret.',
+          'Klikk en viewport for å velge den: dra kantene eller hjørnene for å endre størrelse, dra sentergrepet for å flytte den, og velg en eksakt skala (f.eks. <code>1:50</code>) fra skalavelgeren i kontrollinjen.',
+          'Rull inni en viewport for å zoome modellvisningen, midtklikk-dra for å panorere den. Når det ser riktig ut, <strong>høyreklikk viewporten</strong> og velg <strong>Lock</strong> for å beskytte den mot utilsiktede endringer.',
+          'Trenger du den samme visningen to ganger? <code>viewport-copy</code> dupliserer en viewport med skalaen og modellvisningen bevart.',
+        ],
+        links: [
+          { label: 'Page manager', slug: 'commands/page-manager' },
+          { label: 'Viewport rectangle', slug: 'commands/viewport-rectangle' },
+          { label: 'Viewport copy', slug: 'commands/viewport-copy' },
+        ],
+      },
+      {
+        title: 'Skriv ut eller lagre som PDF / PNG',
+        intro: 'Print manager gjengir tegningen din til et utskriftsklart bilde, med levende forhåndsvisning.',
+        steps: [
+          'Skriv <code>print</code> eller klikk på Print-knappen i File-panelet.',
+          'Velg utdataformatet: PDF for dokumenter, PNG/JPEG/WebP for bilder.',
+          'Beskjær eventuelt til et område av tegningen og slå på monokrom utdata for rene linjeutskrifter.',
+          'Klikk <strong>Print</strong> — filen lastes ned til datamaskinen din.',
+        ],
+        links: [
+          { label: 'Print-kommando', slug: 'commands/print' },
+          { label: 'Page manager', slug: 'commands/page-manager' },
+        ],
+      },
+      {
+        title: 'Sikkerhetskopier og administrer lagrede tegninger',
+        intro: 'Tegninger lever i nettleserlagringen din — private, offline og dine å administrere.',
+        steps: [
+          'Åpne <strong>Files</strong>-panelet for å se hver tegning lagret i denne nettleseren; gjenopprett eller slett en av dem.',
+          'Før du tømmer nettleserdata eller bytter maskin, eksporter alt som er viktig — <code>.json</code> beholder full nøyaktighet, <code>.dxf</code> maksimerer kompatibiliteten.',
+          'For å tilbakestille appen fullstendig, skriv <code>wipestorage</code> og bekreft med <code>YES</code> — dette sletter permanent alle lokalt lagrede tegninger.',
+        ],
+        links: [
+          { label: 'Files-panel', slug: 'commands/files' },
+          { label: 'Export', slug: 'commands/export' },
+          { label: 'Wipe storage', slug: 'commands/wipestorage' },
+        ],
+      },
+      {
+        title: 'Legg til en egendefinert skrift',
+        intro: 'Last opp din egen .ttf-fil og bruk den i Text- og Multileader-etiketter — skriften forblir lagret i nettleseren din for fremtidige tegninger.',
+        steps: [
+          'Skriv <code>FontManager</code> i terminalen for å åpne dialogen direkte — eller, hvis du allerede har teksteditoren åpen, klikk på <strong>Font Manager</strong>-knappen i verktøylinjen dens.',
+          'Klikk <strong>Add Font</strong> i dialogens bunntekst og velg en <code>.ttf</code>-fil — kun TrueType-skrifter støttes.',
+          'Filnavnet blir skriftens navn i <strong>User</strong>-gruppen (opplasting av <code>MyFont.ttf</code> legger til en skrift kalt <code>MyFont</code>).',
+          'For å bruke skriften, plasser en ny tekstetikett (<code>text</code>-kommandoen) eller dobbeltklikk en eksisterende Text eller Multileader for å åpne teksteditoren.',
+          'Velg den nye skriften fra listen for å bruke den — med en tekstmarkering overstyrer den kun de tegnene, uten markering setter den hele etiketten.',
+        ],
+        links: [
+          { label: 'Font Manager', slug: 'commands/font-manager' },
+          { label: 'Tekstredigering', slug: 'interface/text-editor' },
+          { label: 'Text-kommando', slug: 'commands/text' },
+        ],
+      },
+      {
+        title: 'Fest og juster presist',
+        intro: 'Kombiner Grid & Snap, Vector Pins og Align-kommandoen for å posisjonere ny geometri nøyaktig — uten å skrive inn koordinater for hånd.',
+        steps: [
+          'Slå på <strong>Grid</strong> og <strong>Snap</strong> i kontrollinjen for å låse markøren til et regelmessig rutenett — avstanden tilpasser seg mens du zoomer, og eksisterende geometri-snap (endepunkt, midtpunkt, skjæringspunkt) har fortsatt prioritet over rutenettet.',
+          'Hold markøren over et hvilket som helst snap-punkt i et halvt sekund for å feste det med <strong>Vector Pins</strong> (på som standard) — pinnen projiserer stiplede horisontale og vertikale referanselinjer, slik at du kan klikke et punkt som deler nøyaktig X- eller Y-koordinat, uten å tegne en hjelpelinje.',
+          'Fest to forskjellige punkter for å feste deg til skjæringspunktet deres — dette plasserer et punkt nøyaktig ved (X fra én pinne, Y fra den andre), og fungerer sammen med vinkelsporing også.',
+          'For å omplassere en eksisterende form til referansepunkter i stedet for å tegne ny geometri, marker den og kjør <code>align</code> — klikk et kildepunkt og deretter et målpunkt for å flytte den, eller legg til et andre par for også å rotere (og eventuelt skalere) den på plass.',
+          'Trykk <strong>Escape</strong> når som helst for å fjerne pinner eller avbryte justeringen og starte på nytt.',
+        ],
+        links: [
+          { label: 'Grid & Snap', slug: 'interface/grid-snap' },
+          { label: 'Vector Pins', slug: 'interface/vector-pins' },
+          { label: 'Align', slug: 'commands/align' },
+        ],
+      },
+    ],
+  },
 };
