@@ -2507,4 +2507,176 @@ export const privacyContent: Record<string, PrivacyContent> = {
       },
     ],
   },
+
+  da: {
+    title: 'Privatlivspolitik — KulmanLab',
+    desc: 'Sådan håndterer KulmanLab dine data: tegninger forbliver på din enhed, ingen konti. Google Analytics til anonyme brugsmålinger; reklamer i appen via Google AdSense.',
+    heading: 'Privatlivspolitik',
+    updated: 'Sidst opdateret: 14. juli 2026',
+    summaryHeading: 'Den korte version',
+    summary: [
+      'Dine tegninger gemmes i din browser og forlader aldrig din enhed. Alt dit arbejde tilhører dig.',
+      'Der er ingen konti, ingen tilmelding og ingen e-mail. Vi ved ikke, hvem du er.',
+      'Vi bruger Google Analytics til at tælle besøg og forstå, hvilke funktioner der bruges. Det ser aldrig dit tegneindhold.',
+      'Appen er gratis og finansieret af reklamer (Google AdSense). Dine tegninger bruges aldrig til reklame, og vi sælger aldrig dine data.',
+    ],
+    sections: [
+      {
+        h: 'Dine tegninger forbliver på din enhed',
+        blocks: [
+          { t: 'p', html: 'Alt du tegner i KulmanLab CAD gemmes i din browsers lokale lagring (IndexedDB) på din egen enhed. Tegninger uploades, overføres eller gemmes aldrig på nogen server. Efter den første indlæsning fungerer appen fuldt ud offline — ingen server er involveret i at åbne, redigere eller gemme dine filer.' },
+          { t: 'p', html: 'Fordi dine filer kun findes i din browser, har du fuld kontrol over dem. Du kan slette individuelle tegninger fra <a href="/da/docs/commands/files/">Files-panelet</a>, slette alt på én gang med <a href="/da/docs/commands/wipestorage/">wipestorage</a>-kommandoen, eller rydde webstedsdataene i dine browserindstillinger. Vi kan ikke tilgå, gendanne eller slette dine filer for dig — vi har dem aldrig.' },
+        ],
+      },
+      {
+        h: 'Ingen konti, ingen personoplysninger',
+        blocks: [
+          { t: 'p', html: 'KulmanLab har ingen login, ingen registrering og ingen indsamling af e-mail. Vi indsamler ikke dit navn, din e-mailadresse eller anden information, der identificerer dig personligt, og vi har intet at sælge eller dele.' },
+        ],
+      },
+      {
+        h: 'Analyse',
+        blocks: [
+          { t: 'p', html: 'Denne hjemmeside (kulmanlab.com) og appen (app.kulmanlab.com) bruger <strong>Google Analytics 4</strong> til at indsamle anonyme brugsmålinger. Dette fortæller os ting som, hvor mange der besøger, hvilke sider de læser, hvilket land de er i (omtrentligt, udledt fra IP-adressen — Google Analytics 4 gemmer ikke IP-adresser), og hvilken browser og enhedstype de bruger.' },
+          { t: 'p', html: 'På hjemmesiden registrerer vi også nogle få anonyme interaktionshændelser:' },
+          { t: 'ul', items: [
+            'klik på "Launch App" og lignende knapper,',
+            'klik på udgående links (linkets destinationsadresse),',
+            'hvor langt ned på en side du scroller, og det grænsefladesprog du bruger.',
+          ] },
+          { t: 'p', html: 'Intet af dette inkluderer dit tegneindhold, filnavne eller noget, du opretter i appen. Analysedata behandles af Google under <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Googles privatlivspolitik</a>.' },
+        ],
+      },
+      {
+        h: 'Reklame',
+        blocks: [
+          { t: 'p', html: 'Appen (app.kulmanlab.com) er gratis at bruge og finansieres af reklamer leveret gennem <strong>Google AdSense</strong>. Denne hjemmeside (kulmanlab.com) viser ikke reklamer.' },
+          { t: 'p', html: 'Tredjepartsleverandører, inklusive Google, bruger cookies til at vise reklamer baseret på dine tidligere besøg på denne eller andre hjemmesider. Googles brug af reklamecookies gør det muligt for den og dens partnere at vise dig reklamer baseret på dine besøg i appen og/eller andre hjemmesider på internettet. Reklamer vælges af Google — de ser aldrig dit tegneindhold, filnavne eller noget, du opretter i appen.' },
+          { t: 'p', html: 'Du kan fravælge personaliseret reklame i Googles <a href="https://adssettings.google.com" target="_blank" rel="noopener">Annonceindstillinger</a>, eller fravælge tredjeparts reklamecookies mere bredt på <a href="https://www.aboutads.info/choices" target="_blank" rel="noopener">aboutads.info</a> (eller <a href="https://www.youronlinechoices.eu" target="_blank" rel="noopener">youronlinechoices.eu</a> i Europa). Hvordan Google bruger data fra hjemmesider, der viser dens reklamer, er beskrevet på <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">policies.google.com/technologies/partner-sites</a>.' },
+        ],
+      },
+      {
+        h: 'Cookies og lokal lagring',
+        blocks: [
+          { t: 'p', html: 'Der bruges to typer cookies. Google Analytics sætter <code>_ga</code> og <code>_ga_*</code> på både hjemmesiden og appen — de indeholder en tilfældig identifikator, der skelner browsere fra hinanden, så gentagne besøg ikke tælles som nye besøgende, udløber efter op til to år, og kan ikke bruges til at identificere dig personligt. I appen sætter Google AdSense og dets reklamepartnere yderligere reklamecookies for at vise og måle reklamer, som beskrevet i Reklame-afsnittet ovenfor. Der er ingen sociale medie-cookies, og hjemmesiden selv sætter ingen reklamecookies.' },
+          { t: 'p', html: 'Derudover husker hjemmesiden din sprogpræference, og appen gemmer dine tegninger og fortryd-historik i browserens lokale lagring. Disse data forlader aldrig din enhed.' },
+        ],
+      },
+      {
+        h: 'Tredjepartstjenester',
+        blocks: [
+          { t: 'p', html: 'Udover Google Analytics og Google AdSense er KulmanLab afhængig af to infrastrukturtjenester:' },
+          { t: 'ul', items: [
+            '<strong>Google Fonts</strong> — skrifttypen Inter indlæses fra Googles servere. Din browser sender en standard webforespørgsel (inklusive din IP-adresse) til Google for at hente skrifttypefilerne.',
+            '<strong>Firebase Hosting (Google)</strong> — leverer denne hjemmeside og appen. Ligesom enhver webserver behandler den standard forespørgselslogfiler (IP-adresse, forespurgt URL, brugeragent) for at levere siderne.',
+          ] },
+        ],
+      },
+      {
+        h: 'Dine valg',
+        blocks: [
+          { t: 'p', html: 'Hvis du foretrækker ikke at blive talt med i analyse, kan du blokere Google Analytics-cookies i din browser, bruge en indholdsblokering, eller installere <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Google Analytics-fravælgelsestilføjelsen</a>. Hjemmesiden og appen fungerer nøjagtigt det samme uden analyse.' },
+          { t: 'p', html: 'For reklame kan du slå annoncepersonalisering fra i <a href="https://adssettings.google.com" target="_blank" rel="noopener">Google Ads-indstillinger</a> — du vil stadig se reklamer i appen, men de vil ikke være baseret på dine interesser eller browserhistorik.' },
+        ],
+      },
+      {
+        h: 'Ændringer til denne politik',
+        blocks: [
+          { t: 'p', html: 'Hvis vores datapraksisser ændres — for eksempel hvis en ny tredjepartstjeneste tilføjes — vil denne side blive opdateret, og datoen øverst revideret.' },
+        ],
+      },
+      {
+        h: 'Kontakt',
+        blocks: [
+          { t: 'p', html: 'Spørgsmål om privatliv? Åbn en issue på <a href="https://github.com/volodymyr4509/kulmanlab/issues" target="_blank" rel="noopener">GitHub</a> eller spørg i <a href="https://www.reddit.com/r/kulmanlab/" target="_blank" rel="noopener">Reddit-fællesskabet</a>.' },
+        ],
+      },
+    ],
+  },
+
+  fi: {
+    title: 'Tietosuojakäytäntö — KulmanLab',
+    desc: 'Miten KulmanLab käsittelee tietojasi: piirustukset pysyvät laitteellasi, ei tilejä. Google Analytics anonyymiin käyttötilastointiin; mainoksia sovelluksessa Google AdSensen kautta.',
+    heading: 'Tietosuojakäytäntö',
+    updated: 'Viimeksi päivitetty: 14. heinäkuuta 2026',
+    summaryHeading: 'Lyhyt versio',
+    summary: [
+      'Piirustuksesi tallennetaan selaimeesi eivätkä ne koskaan poistu laitteeltasi. Kaikki työsi kuuluu sinulle.',
+      'Tilejä, rekisteröitymistä tai sähköpostia ei ole. Emme tiedä, kuka olet.',
+      'Käytämme Google Analyticsia laskeaksemme vierailuja ja ymmärtääksemme mitä ominaisuuksia käytetään. Se ei koskaan näe piirustussisältöäsi.',
+      'Sovellus on ilmainen ja rahoitetaan mainoksilla (Google AdSense). Piirustuksiasi ei koskaan käytetä mainontaan, emmekä koskaan myy tietojasi.',
+    ],
+    sections: [
+      {
+        h: 'Piirustuksesi pysyvät laitteellasi',
+        blocks: [
+          { t: 'p', html: 'Kaikki KulmanLab CAD:issa piirtämäsi tallennetaan selaimesi paikalliseen tallennustilaan (IndexedDB) omalle laitteellesi. Piirustuksia ei koskaan ladata, siirretä tai tallenneta millekään palvelimelle. Ensimmäisen latauksen jälkeen sovellus toimii täysin offline-tilassa — mikään palvelin ei ole mukana tiedostojesi avaamisessa, muokkaamisessa tai tallentamisessa.' },
+          { t: 'p', html: 'Koska tiedostosi ovat olemassa vain selaimessasi, olet täysin niiden hallinnassa. Voit poistaa yksittäisiä piirustuksia <a href="/fi/docs/commands/files/">Files-paneelista</a>, poistaa kaiken kerralla <a href="/fi/docs/commands/wipestorage/">wipestorage</a>-komennolla, tai tyhjentää sivuston tiedot selaimesi asetuksista. Emme voi käyttää, palauttaa tai poistaa tiedostojasi puolestasi — emme koskaan saa niitä.' },
+        ],
+      },
+      {
+        h: 'Ei tilejä, ei henkilötietoja',
+        blocks: [
+          { t: 'p', html: 'KulmanLabissa ei ole kirjautumista, rekisteröitymistä eikä sähköpostin keräämistä. Emme kerää nimeäsi, sähköpostiosoitettasi tai muita tietoja, jotka tunnistavat sinut henkilökohtaisesti, eikä meillä ole mitään myytävää tai jaettavaa.' },
+        ],
+      },
+      {
+        h: 'Analytiikka',
+        blocks: [
+          { t: 'p', html: 'Tämä verkkosivusto (kulmanlab.com) ja sovellus (app.kulmanlab.com) käyttävät <strong>Google Analytics 4</strong> -palvelua anonyymien käyttötilastojen keräämiseen. Tämä kertoo meille asioita kuten kuinka moni vierailee, mitä sivuja he lukevat, missä maassa he ovat (arvio, johdettu IP-osoitteesta — Google Analytics 4 ei tallenna IP-osoitteita), ja mitä selainta ja laitetyyppiä he käyttävät.' },
+          { t: 'p', html: 'Verkkosivustolla tallennamme myös muutamia anonyymejä vuorovaikutustapahtumia:' },
+          { t: 'ul', items: [
+            'klikkaukset "Launch App"- ja vastaaviin painikkeisiin,',
+            'klikkaukset ulkoisiin linkkeihin (linkin kohdeosoite),',
+            'kuinka pitkälle vierität sivua, ja käyttöliittymän kieli jota käytät.',
+          ] },
+          { t: 'p', html: 'Mikään tästä ei sisällä piirustussisältöäsi, tiedostonimiä tai mitään, mitä luot sovelluksessa. Analytiikkatiedot käsittelee Google <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Googlen tietosuojakäytännön</a> mukaisesti.' },
+        ],
+      },
+      {
+        h: 'Mainonta',
+        blocks: [
+          { t: 'p', html: 'Sovellus (app.kulmanlab.com) on ilmainen käyttää ja rahoitetaan <strong>Google AdSensen</strong> kautta tarjottavilla mainoksilla. Tämä verkkosivusto (kulmanlab.com) ei näytä mainoksia.' },
+          { t: 'p', html: 'Kolmannen osapuolen toimittajat, mukaan lukien Google, käyttävät evästeitä mainosten tarjoamiseen aiempien vierailujesi perusteella tällä tai muilla verkkosivustoilla. Googlen mainosevästeiden käyttö mahdollistaa sen ja sen kumppaneiden näyttää sinulle mainoksia sovellusvierailujesi ja/tai muiden internet-sivustojen perusteella. Mainokset valitsee Google — he eivät koskaan näe piirustussisältöäsi, tiedostonimiäsi tai mitään mitä luot sovelluksessa.' },
+          { t: 'p', html: 'Voit kieltäytyä personoidusta mainonnasta Googlen <a href="https://adssettings.google.com" target="_blank" rel="noopener">mainosasetuksissa</a>, tai kieltäytyä kolmannen osapuolen mainosevästeistä laajemmin osoitteessa <a href="https://www.aboutads.info/choices" target="_blank" rel="noopener">aboutads.info</a> (tai <a href="https://www.youronlinechoices.eu" target="_blank" rel="noopener">youronlinechoices.eu</a> Euroopassa). Miten Google käyttää tietoja sivustoilta, jotka näyttävät sen mainoksia, kuvataan osoitteessa <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">policies.google.com/technologies/partner-sites</a>.' },
+        ],
+      },
+      {
+        h: 'Evästeet ja paikallinen tallennustila',
+        blocks: [
+          { t: 'p', html: 'Kahta evästetyyppiä käytetään. Google Analytics asettaa <code>_ga</code>- ja <code>_ga_*</code>-evästeet sekä verkkosivustolle että sovellukselle — ne sisältävät satunnaisen tunnisteen, joka erottaa selaimet toisistaan niin, ettei toistuvia vierailuja lasketa uusiksi kävijöiksi, vanhenevat enintään kahden vuoden kuluttua, eikä niitä voida käyttää henkilökohtaiseen tunnistamiseesi. Sovelluksessa Google AdSense ja sen mainoskumppanit asettavat lisäksi mainosevästeitä mainosten tarjoamiseksi ja mittaamiseksi, kuten yllä olevassa Mainonta-osiossa kuvataan. Sosiaalisen median evästeitä ei ole, eikä verkkosivusto itse aseta mainosevästeitä.' },
+          { t: 'p', html: 'Lisäksi verkkosivusto muistaa kieliasetuksesi, ja sovellus tallentaa piirustuksesi ja kumoushistoriasi selaimen paikalliseen tallennustilaan. Nämä tiedot eivät koskaan poistu laitteeltasi.' },
+        ],
+      },
+      {
+        h: 'Kolmannen osapuolen palvelut',
+        blocks: [
+          { t: 'p', html: 'Google Analyticsin ja Google AdSensen lisäksi KulmanLab käyttää kahta infrastruktuuripalvelua:' },
+          { t: 'ul', items: [
+            '<strong>Google Fonts</strong> — Inter-fontti ladataan Googlen palvelimilta. Selaimesi lähettää standardin verkkopyynnön (mukaan lukien IP-osoitteesi) Googlelle noutaakseen fonttitiedostot.',
+            '<strong>Firebase Hosting (Google)</strong> — tarjoaa tämän verkkosivuston ja sovelluksen. Kuten mikä tahansa verkkopalvelin, se käsittelee standardeja pyyntölokeja (IP-osoite, pyydetty URL, käyttäjäagentti) sivujen toimittamiseksi.',
+          ] },
+        ],
+      },
+      {
+        h: 'Valintasi',
+        blocks: [
+          { t: 'p', html: 'Jos et halua tulla laskettua analytiikassa, voit estää Google Analytics -evästeet selaimessasi, käyttää sisällönestäjää, tai asentaa <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Google Analyticsin kieltäytymislisäosan</a>. Verkkosivusto ja sovellus toimivat täsmälleen samalla tavalla ilman analytiikkaa.' },
+          { t: 'p', html: 'Mainonnan osalta voit kytkeä pois mainosten personoinnin <a href="https://adssettings.google.com" target="_blank" rel="noopener">Google Ads -asetuksissa</a> — näet edelleen mainoksia sovelluksessa, mutta ne eivät perustu kiinnostuksen kohteisiisi tai selaushistoriaasi.' },
+        ],
+      },
+      {
+        h: 'Muutokset tähän käytäntöön',
+        blocks: [
+          { t: 'p', html: 'Jos tietokäytäntömme muuttuvat — esimerkiksi jos uusi kolmannen osapuolen palvelu lisätään — tämä sivu päivitetään ja yläreunan päivämäärä tarkistetaan.' },
+        ],
+      },
+      {
+        h: 'Yhteystiedot',
+        blocks: [
+          { t: 'p', html: 'Kysymyksiä tietosuojasta? Avaa issue <a href="https://github.com/volodymyr4509/kulmanlab/issues" target="_blank" rel="noopener">GitHubissa</a> tai kysy <a href="https://www.reddit.com/r/kulmanlab/" target="_blank" rel="noopener">Reddit-yhteisössä</a>.' },
+        ],
+      },
+    ],
+  },
 };

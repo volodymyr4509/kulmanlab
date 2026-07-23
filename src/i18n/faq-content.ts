@@ -1329,4 +1329,96 @@ export const faqContent: Record<string, FaqSection[]> = {
       ],
     },
   ],
+
+  da: [
+    {
+      headingKey: 'faq.section.start',
+      items: [
+        { q: 'Er KulmanLab virkelig gratis?', a: 'Ja — helt gratis. Intet abonnement, intet kreditkort, ingen skjult plan. Hele funktionssættet er tilgængeligt for alle uden begrænsninger.' },
+        { q: 'Skal jeg oprette en konto?', a: 'Nej. Der er ingen login, ingen tilmelding, og ingen e-mail kræves. Åbn appen og begynd at tegne med det samme.' },
+        { q: 'Hvilke browsere understøttes?', a: 'Enhver moderne desktop-browser — Chrome, Firefox, Safari og Edge fungerer alle. KulmanLab er kun til desktop; mobil og tablet understøttes ikke i øjeblikket.' },
+        { q: 'Fungerer det offline?', a: 'Ja. Efter den første indlæsning er appen cachet og kører helt uden internetforbindelse. Dine tegninger gemmes lokalt, så intet kræver en server.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.files',
+      items: [
+        { q: 'Hvor gemmes mine tegninger?', a: 'I din browsers IndexedDB — på din egen enhed. Intet uploades nogensinde til en server. Hver browser på hver enhed har sin egen uafhængige lagring.' },
+        { q: 'Hvad sker der, hvis jeg rydder mine browserdata?', a: 'Dine gemte tegninger vil gå tabt. Eksportér altid en JSON-kopi af alt vigtigt, før du rydder browserlagring.' },
+        { q: 'Kan jeg åbne .dwg-filer?', a: 'KulmanLab understøtter DXF (Drawing Exchange Format), ikke det proprietære DWG-format. De fleste desktop CAD-applikationer kan eksportere DXF, så eksportér fra din kildeapp først.' },
+        { q: 'Hvilke eksportformater er tilgængelige?', a: 'DXF og JSON via Export — DXF til rundtur med andre CAD-værktøjer, JSON til gemning med fuld nøjagtighed (inklusive mål og ledere) inden for KulmanLab. Print eksporterer separat PNG-, JPEG-, WebP- eller PDF-billeder, med valgfri områdebeskæring og monokrom-knap.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.features',
+      items: [
+        { q: 'Har den en kommandoterminal?', a: 'Ja. Skriv kommandoer direkte — LINE, CIRCLE, MOVE, TRIM og 50+ andre. Terminalen understøtter historik (piletaster), autofuldførelse (Tab) og eksakt numerisk input.' },
+        { q: 'Er der lagunderstøttelse?', a: 'Fuld lagadministration: opret, omdøb, frys, lås og isolér lag. Sæt farve, linetype og lineweight pr. lag. Alle lagdata bevares i DXF-eksport.' },
+        { q: 'Hvilke måltyper er tilgængelige?', a: 'Lineære, justerede, radius-, diameter-, vinkel- og fortsættelsesmål. Alle gemt som standard DXF DIMENSION-entiteter kompatible med andre DXF-kompatible CAD-værktøjer.' },
+        { q: 'Kan jeg redigere geometri med greb?', a: 'Ja. Markér en hvilken som helst entitet for at afsløre grebhåndtag ved nøglepunkter — endepunkter, midtpunkter, centre, bueender. Træk for at omforme direkte på lærredet, eller indtast en værdi mens du trækker for eksakt placering.' },
+        { q: 'Understøttes samarbejde i realtid?', a: 'Ikke i øjeblikket. KulmanLab er et enkeltbrugerværktøj, og tegninger forbliver lokale. Sky-synkronisering og samarbejde er uden for det aktuelle omfang.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.compat',
+      items: [
+        { q: 'Er KulmanLab DXF-filer kompatible med anden CAD-software?', a: 'Ja. KulmanLab læser og skriver AC1032 DXF — en bredt understøttet version. Filer åbnes korrekt i LibreCAD, QCAD, BricsCAD, FreeCAD og ethvert andet DXF-kompatibelt værktøj.' },
+        { q: 'Hvad er forskellen mellem DXF og DWG?', a: 'DXF er et åbent, tekstbaseret udvekslingsformat designet til interoperabilitet. DWG er et proprietært binærformat. KulmanLab bruger DXF, som kan læses af stort set ethvert CAD-værktøj.' },
+        { q: 'Kan KulmanLab erstatte min desktop CAD-software?', a: 'Til 2D-tegning — ja. KulmanLab har en fuld kommandoterminal, lag, snapping, mål, grebredigering og DXF-kompatibilitet. Den understøtter ikke 3D, blokke/xrefs eller parametriske begrænsninger.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.privacy',
+      items: [
+        { q: 'Indsamler KulmanLab mine tegnedata?', a: 'Nej. Dine tegninger forbliver i din browser og sendes aldrig nogen steder. KulmanLab bruger Google Analytics til anonyme brugsmålinger (sidevisninger, sessionsantal) — intet tegneindhold er involveret.' },
+        { q: 'Bruges cookies?', a: 'Cookies bruges til Google Analytics, som indsamler anonyme brugsmålinger (sidevisninger, sessionsantal).' },
+      ],
+    },
+  ],
+
+  fi: [
+    {
+      headingKey: 'faq.section.start',
+      items: [
+        { q: 'Onko KulmanLab todella ilmainen?', a: 'Kyllä — täysin ilmainen. Ei tilausta, ei luottokorttia, ei piilotettua suunnitelmaa. Koko ominaisuusvalikoima on kaikkien käytettävissä ilman rajoituksia.' },
+        { q: 'Tarvitseeko minun luoda tili?', a: 'Ei. Kirjautumista, rekisteröitymistä tai sähköpostia ei tarvita. Avaa sovellus ja ala piirtää heti.' },
+        { q: 'Mitä selaimia tuetaan?', a: 'Mikä tahansa nykyaikainen työpöytäselain — Chrome, Firefox, Safari ja Edge toimivat kaikki. KulmanLab on vain työpöytäkäyttöön; mobiili ja tabletti eivät ole tällä hetkellä tuettuja.' },
+        { q: 'Toimiiko se offline-tilassa?', a: 'Kyllä. Ensimmäisen latauksen jälkeen sovellus on välimuistissa ja toimii täysin ilman internetyhteyttä. Piirustuksesi tallennetaan paikallisesti, joten mikään ei vaadi palvelinta.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.files',
+      items: [
+        { q: 'Mihin piirustukseni tallennetaan?', a: 'Selaimesi IndexedDB:hen — omalle laitteellesi. Mitään ei koskaan ladata palvelimelle. Jokaisella selaimella jokaisella laitteella on oma itsenäinen tallennustila.' },
+        { q: 'Mitä tapahtuu, jos tyhjennän selaimeni tiedot?', a: 'Tallennetut piirustuksesi menetetään. Vie aina JSON-kopio kaikesta tärkeästä ennen selaimen tallennustilan tyhjentämistä.' },
+        { q: 'Voinko avata .dwg-tiedostoja?', a: 'KulmanLab tukee DXF-muotoa (Drawing Exchange Format), ei omistettua DWG-muotoa. Useimmat työpöytä-CAD-sovellukset voivat viedä DXF-tiedostoja, joten vie ensin lähdesovelluksestasi.' },
+        { q: 'Mitä vientimuotoja on käytettävissä?', a: 'DXF ja JSON Export-toiminnon kautta — DXF yhteensopivuutta varten muiden CAD-työkalujen kanssa, JSON täydellisen tarkkuuden tallennuksiin (mukaan lukien mitat ja johtimet) KulmanLabissa. Print vie erikseen PNG-, JPEG-, WebP- tai PDF-kuvia, valinnaisella alueen rajauksella ja mustavalkoiskytkimellä.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.features',
+      items: [
+        { q: 'Onko siinä komentoterminaali?', a: 'Kyllä. Kirjoita komentoja suoraan — LINE, CIRCLE, MOVE, TRIM ja 50+ muuta. Terminaali tukee historiaa (nuolinäppäimet), automaattitäydennystä (Tab) ja tarkkaa numeerista syöttöä.' },
+        { q: 'Onko tasotukea?', a: 'Täysi tasojen hallinta: luo, nimeä uudelleen, jäädytä, lukitse ja eristä tasoja. Aseta väri, linetyyppi ja viivanpaksuus tasokohtaisesti. Kaikki tasotiedot säilyvät DXF-viennissä.' },
+        { q: 'Mitä mittatyyppejä on käytettävissä?', a: 'Lineaariset, kohdistetut, säde-, halkaisija-, kulma- ja jatkomitat. Kaikki tallennettuna standardeina DXF DIMENSION -entiteetteinä, jotka ovat yhteensopivia muiden DXF-yhteensopivien CAD-työkalujen kanssa.' },
+        { q: 'Voinko muokata geometriaa kahvoilla?', a: 'Kyllä. Valitse mikä tahansa entiteetti nähdäksesi kahvat avainpisteissä — päätepisteet, keskipisteet, keskukset, kaaren päät. Vedä muotoillaksesi suoraan piirtoalueella, tai kirjoita arvo vetäessäsi tarkkaa sijoittelua varten.' },
+        { q: 'Tuetaanko reaaliaikaista yhteistyötä?', a: 'Ei tällä hetkellä. KulmanLab on yhden käyttäjän työkalu, ja piirustukset pysyvät paikallisina. Pilvisynkronointi ja yhteistyö ovat nykyisen laajuuden ulkopuolella.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.compat',
+      items: [
+        { q: 'Ovatko KulmanLabin DXF-tiedostot yhteensopivia muiden CAD-ohjelmistojen kanssa?', a: 'Kyllä. KulmanLab lukee ja kirjoittaa AC1032 DXF -muotoa — laajasti tuettu versio. Tiedostot avautuvat oikein LibreCADissa, QCADissa, BricsCADissa, FreeCADissa ja muissa DXF-yhteensopivissa työkaluissa.' },
+        { q: 'Mikä on ero DXF:n ja DWG:n välillä?', a: 'DXF on avoin, tekstipohjainen vaihtomuoto suunniteltu yhteentoimivuuteen. DWG on omistettu binäärimuoto. KulmanLab käyttää DXF:ää, jota lähes jokainen CAD-työkalu voi lukea.' },
+        { q: 'Voiko KulmanLab korvata työpöytä-CAD-ohjelmistoni?', a: '2D-suunnittelussa — kyllä. KulmanLabissa on täysi komentoterminaali, tasot, tarttuminen, mitat, kahvamuokkaus ja DXF-yhteensopivuus. Se ei tue 3D:tä, lohkoja/xrefejä tai parametrisia rajoitteita.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.privacy',
+      items: [
+        { q: 'Kerääkö KulmanLab piirustustietojani?', a: 'Ei. Piirustuksesi pysyvät selaimessasi eikä niitä koskaan lähetetä mihinkään. KulmanLab käyttää Google Analyticsia anonyymeihin käyttötilastoihin (sivunäyttöjä, istuntomääriä) — mitään piirustussisältöä ei ole mukana.' },
+        { q: 'Käytetäänkö evästeitä?', a: 'Evästeitä käytetään Google Analyticsia varten, joka kerää anonyymejä käyttötilastoja (sivunäyttöjä, istuntomääriä).' },
+      ],
+    },
+  ],
 };

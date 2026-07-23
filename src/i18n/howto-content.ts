@@ -5148,4 +5148,358 @@ export const howtoContent: Record<string, HowToContent> = {
       },
     ],
   },
+
+  da: {
+    title: 'Sådan Bruger du KulmanLab — Guider til Almindelige CAD-opgaver',
+    desc: 'Trin-for-trin-guider til KulmanLab CAD: åbn DXF-filer, tegn med eksakte dimensioner, brug lag, tilføj mål, forbered filer til laserskæring, print og sikkerhedskopiér dine tegninger.',
+    heading: 'Sådan gør du',
+    subtitle: 'Trin-for-trin-guider til de mest almindelige opgaver i KulmanLab CAD.',
+    docsLabel: 'Dokumentation:',
+    outroTitle: 'Leder du efter en specifik kommando?',
+    outroHtml: '<a href="/da/docs/">Kommandoreferencen</a> dokumenterer alle 50+ kommandoer, og <a href="/da/faq/">FAQ</a>-siden dækker lagring, formater og kompatibilitet.',
+    guides: [
+      {
+        title: 'Åbn en DXF-fil',
+        intro: 'KulmanLab læser DXF — udvekslingsformatet ethvert CAD-værktøj kan producere. Filer åbnes direkte fra din disk og forlader aldrig din enhed.',
+        steps: [
+          'Åbn <a href="https://app.kulmanlab.com">app.kulmanlab.com</a>.',
+          'Klik på <strong>Import</strong>-knappen i File-panelet, eller skriv <code>import</code> i terminalen.',
+          'Vælg en <code>.dxf</code>-fil (eller KulmanLab <code>.json</code>) fra din computer.',
+          'Tegningen indlæses på lærredet og gemmes automatisk i din browserlagring, så den stadig er der næste gang.',
+        ],
+        links: [
+          { label: 'Import-kommando', slug: 'commands/import' },
+          { label: 'Panel for nylige filer', slug: 'commands/files' },
+        ],
+      },
+      {
+        title: 'Tegn med eksakte dimensioner',
+        intro: 'Hver tegnekommando accepterer indtastet input, så du aldrig behøver at gætte en længde eller koordinat.',
+        steps: [
+          'Start en kommando — klik <strong>Line</strong> eller skriv <code>line</code> og tryk <strong>Enter</strong>.',
+          'Skriv et startpunkt som <code>x,y</code> (for eksempel <code>0,0</code>) og tryk <strong>Enter</strong>.',
+          'Flyt markøren i den ønskede retning, skriv derefter en længde (for eksempel <code>250</code>) og tryk <strong>Enter</strong> — segmentet tegnes nøjagtigt så langt.',
+          'Slå vinkellås til i kontrollinjen (eller hold det konfigurerede interval) for at holde segmenter i eksakte vinkler som 30°, 45° eller 90°.',
+        ],
+        links: [
+          { label: 'Line-kommando', slug: 'commands/line' },
+          { label: 'Gitter og snap', slug: 'interface/grid-snap' },
+        ],
+      },
+      {
+        title: 'Organisér en tegning med lag',
+        intro: 'Lag holder hjælpelinjer, geometri og annotationer adskilt — og de overlever DXF-eksport.',
+        steps: [
+          'Åbn <strong>Layers</strong>-panelet i værktøjslinjen og opret et lag for hver type indhold (omrids, mål, noter …).',
+          'Sæt farve, linetype og lineweight pr. lag, så entiteter får fornuftige standardværdier.',
+          'Gør et lag aktuelt med <code>layer-make-current</code>, før du tegner, eller flyt markerede entiteter med <code>layer-match</code>.',
+          'Brug <code>layer-isolate</code> til at skjule alt undtagen det lag, du arbejder på, og <code>layer-unfreeze-all</code> til at hente det hele tilbage.',
+        ],
+        links: [
+          { label: 'Layer isolate', slug: 'commands/layer-isolate' },
+          { label: 'Linetype', slug: 'interface/linetype' },
+          { label: 'Lineweight', slug: 'interface/lineweight' },
+        ],
+      },
+      {
+        title: 'Tilføj mål',
+        intro: 'Mål er ægte DXF DIMENSION-entiteter, så de overlever en rundtur til ethvert andet CAD-værktøj.',
+        steps: [
+          'Skriv <code>dim-linear</code> (horisontalt/vertikalt) eller <code>dim-aligned</code> (parallelt med den målte kant) i terminalen.',
+          'Vælg de to punkter, du vil måle, placér derefter mållinjen med et tredje klik.',
+          'Kæd en række målinger med <code>dim-continue</code> — hvert nye mål starter, hvor det forrige sluttede.',
+          'For cirkler og buer, brug <code>dim-radius</code>, <code>dim-diameter</code> eller <code>dim-angular</code>.',
+          'Dobbeltklik en hvilken som helst mål-etiket for at redigere teksten.',
+        ],
+        links: [
+          { label: 'Lineært mål', slug: 'commands/dim-linear' },
+          { label: 'Fortsæt mål', slug: 'commands/dim-continue' },
+          { label: 'Tekstredigering', slug: 'interface/text-editor' },
+        ],
+      },
+      {
+        title: 'Mål afstand, vinkel og areal',
+        intro: 'Hurtige målinger uden at oprette nogen geometri — resultater bliver på skærmen, indtil du trykker Escape.',
+        steps: [
+          'Skriv <code>distance</code> og vælg to punkter for at læse en længde.',
+          'Skriv <code>angle</code> og vælg to linjer (eller tre punkter) for at læse vinklen mellem dem.',
+          'Skriv <code>area</code> og klik tre eller flere punkter, tryk derefter <strong>Enter</strong> — det omsluttede areal og omkreds vises.',
+        ],
+        links: [
+          { label: 'Distance', slug: 'commands/distance' },
+          { label: 'Angle', slug: 'commands/angle' },
+          { label: 'Area', slug: 'commands/area' },
+        ],
+      },
+      {
+        title: 'Forbered en fil til laserskæring eller CNC',
+        intro: 'Arbejdsgangen KulmanLab oprindeligt blev bygget til: tjek en fil, ryd den op, send den til maskinen.',
+        steps: [
+          'Importér DXF-filen og gennemgå den — <code>fit</code> zoomer hele tegningen ind i visning.',
+          'Slet alt, maskinen ikke skal skære: hjælpelinjer, noter, mål. <code>layer-isolate</code> hjælper med at finde afvigende elementer.',
+          'Ryd op i geometrien: <code>trim</code> overhængende ender, luk mellemrum, og tjek størrelser med <code>distance</code>.',
+          'Eksportér som DXF og indlæs den i din maskinsoftware. Skærebaner overlever nøjagtigt som tegnet — KulmanLab skriver ren AC1032 DXF.',
+        ],
+        links: [
+          { label: 'Trim', slug: 'commands/trim' },
+          { label: 'Fit-visning', slug: 'commands/fit' },
+          { label: 'Export', slug: 'commands/export' },
+        ],
+      },
+      {
+        title: 'Opsæt et papirlayout med viewports',
+        intro: 'Layouts er papirrum-ark — sammensæt én eller flere skalerede visninger af din model på en side, klar til print.',
+        steps: [
+          'Klik en <strong>layout-fane</strong> nederst på skærmen for at skifte fra modelrum til papirrum. <strong>+</strong>-knappen i fanelinjen tilføjer et nyt layout.',
+          '<strong>Højreklik en layout-fane</strong> for at omdøbe eller slette den, eller for at åbne <strong>Page Manager</strong> — der sætter du papirformatet (A4, A3, Letter …), orienteringen, og skalaen tegneenheder-per-mm.',
+          'Skriv <code>viewport-rectangle</code> og klik to modsatte hjørner for at placere en viewport — et vindue der viser din model på papiret.',
+          'Klik en viewport for at markere den: træk kanterne eller hjørnerne for at ændre størrelse, træk centergrebet for at flytte den, og vælg en eksakt skala (f.eks. <code>1:50</code>) fra skalavælgeren i kontrollinjen.',
+          'Rul inden i en viewport for at zoome modelvisningen, midterklik-træk for at panorere den. Når det ser rigtigt ud, <strong>højreklik viewporten</strong> og vælg <strong>Lock</strong> for at beskytte den mod utilsigtede ændringer.',
+          'Har du brug for den samme visning to gange? <code>viewport-copy</code> duplikerer en viewport med dens skala og modelvisning bevaret.',
+        ],
+        links: [
+          { label: 'Page manager', slug: 'commands/page-manager' },
+          { label: 'Viewport rectangle', slug: 'commands/viewport-rectangle' },
+          { label: 'Viewport copy', slug: 'commands/viewport-copy' },
+        ],
+      },
+      {
+        title: 'Print eller gem som PDF / PNG',
+        intro: 'Print manager gengiver din tegning til et printklart billede, med levende forhåndsvisning.',
+        steps: [
+          'Skriv <code>print</code> eller klik på Print-knappen i File-panelet.',
+          'Vælg outputformatet: PDF til dokumenter, PNG/JPEG/WebP til billeder.',
+          'Beskær eventuelt til et område af tegningen og slå monokrom output til for rene linjeudskrifter.',
+          'Klik <strong>Print</strong> — filen downloades til din computer.',
+        ],
+        links: [
+          { label: 'Print-kommando', slug: 'commands/print' },
+          { label: 'Page manager', slug: 'commands/page-manager' },
+        ],
+      },
+      {
+        title: 'Sikkerhedskopiér og administrér gemte tegninger',
+        intro: 'Tegninger lever i din browserlagring — private, offline og dine at administrere.',
+        steps: [
+          'Åbn <strong>Files</strong>-panelet for at se hver tegning gemt i denne browser; gendan eller slet en af dem.',
+          'Før du rydder browserdata eller skifter maskine, eksportér alt vigtigt — <code>.json</code> bevarer fuld nøjagtighed, <code>.dxf</code> maksimerer kompatibiliteten.',
+          'For at nulstille appen fuldstændigt, skriv <code>wipestorage</code> og bekræft med <code>YES</code> — dette sletter permanent alle lokalt gemte tegninger.',
+        ],
+        links: [
+          { label: 'Files-panel', slug: 'commands/files' },
+          { label: 'Export', slug: 'commands/export' },
+          { label: 'Wipe storage', slug: 'commands/wipestorage' },
+        ],
+      },
+      {
+        title: 'Tilføj en brugerdefineret skrifttype',
+        intro: 'Upload din egen .ttf-fil og brug den i Text- og Multileader-etiketter — skrifttypen forbliver gemt i din browser til fremtidige tegninger.',
+        steps: [
+          'Skriv <code>FontManager</code> i terminalen for at åbne dialogen direkte — eller, hvis du allerede har teksteditoren åben, klik på <strong>Font Manager</strong>-knappen i dens værktøjslinje.',
+          'Klik <strong>Add Font</strong> i dialogens fodtekst og vælg en <code>.ttf</code>-fil — kun TrueType-skrifttyper understøttes.',
+          'Filnavnet bliver skrifttypens navn i <strong>User</strong>-gruppen (upload af <code>MyFont.ttf</code> tilføjer en skrifttype kaldet <code>MyFont</code>).',
+          'For at anvende skrifttypen, placér en ny tekstetiket (<code>text</code>-kommandoen) eller dobbeltklik en eksisterende Text eller Multileader for at åbne teksteditoren.',
+          'Vælg den nye skrifttype fra listen for at anvende den — med en tekstmarkering overstyrer den kun de tegn, uden markering sætter den hele etiketten.',
+        ],
+        links: [
+          { label: 'Font Manager', slug: 'commands/font-manager' },
+          { label: 'Tekstredigering', slug: 'interface/text-editor' },
+          { label: 'Text-kommando', slug: 'commands/text' },
+        ],
+      },
+      {
+        title: 'Snap og justér præcist',
+        intro: 'Kombinér Grid & Snap, Vector Pins og Align-kommandoen for at positionere ny geometri nøjagtigt — uden at skrive koordinater i hånden.',
+        steps: [
+          'Slå <strong>Grid</strong> og <strong>Snap</strong> til i kontrollinjen for at låse markøren til et regelmæssigt gitter — afstanden tilpasser sig, mens du zoomer, og eksisterende geometri-snap (endepunkt, midtpunkt, skæringspunkt) har stadig prioritet over gitteret.',
+          'Hold markøren over et hvilket som helst snap-punkt i et halvt sekund for at fastgøre det med <strong>Vector Pins</strong> (til som standard) — pinden projicerer stiplede horisontale og vertikale referencelinjer, så du kan klikke et punkt der deler nøjagtig X- eller Y-koordinat, uden at tegne en hjælpelinje.',
+          'Fastgør to forskellige punkter for at snappe til deres skæringspunkt — dette placerer et punkt nøjagtigt ved (X fra én pin, Y fra den anden), og fungerer sammen med vinkelsporing også.',
+          'For at genplacere en eksisterende form til referencepunkter i stedet for at tegne ny geometri, markér den og kør <code>align</code> — klik et kildepunkt og derefter et målpunkt for at flytte den, eller tilføj et andet par for også at rotere (og eventuelt skalere) den på plads.',
+          'Tryk <strong>Escape</strong> når som helst for at fjerne pins eller annullere justeringen og starte forfra.',
+        ],
+        links: [
+          { label: 'Grid & Snap', slug: 'interface/grid-snap' },
+          { label: 'Vector Pins', slug: 'interface/vector-pins' },
+          { label: 'Align', slug: 'commands/align' },
+        ],
+      },
+    ],
+  },
+
+  fi: {
+    title: 'Näin Käytät KulmanLabia — Oppaita Yleisiin CAD-tehtäviin',
+    desc: 'Vaiheittaiset oppaat KulmanLab CAD:iin: avaa DXF-tiedostoja, piirrä tarkoilla mitoilla, käytä tasoja, lisää mittoja, valmistele laserleikkaustiedostoja, tulosta ja varmuuskopioi piirustuksesi.',
+    heading: 'Ohjeet',
+    subtitle: 'Vaiheittaiset oppaat yleisimpiin tehtäviin KulmanLab CAD:issa.',
+    docsLabel: 'Dokumentaatio:',
+    outroTitle: 'Etsitkö tiettyä komentoa?',
+    outroHtml: '<a href="/fi/docs/">Komentoreferenssi</a> dokumentoi kaikki 50+ komentoa, ja <a href="/fi/faq/">UKK</a>-sivu kattaa tallennuksen, muodot ja yhteensopivuuden.',
+    guides: [
+      {
+        title: 'Avaa DXF-tiedosto',
+        intro: 'KulmanLab lukee DXF:ää — vaihtomuotoa, jota jokainen CAD-työkalu voi tuottaa. Tiedostot avautuvat suoraan levyltäsi eivätkä koskaan poistu laitteeltasi.',
+        steps: [
+          'Avaa <a href="https://app.kulmanlab.com">app.kulmanlab.com</a>.',
+          'Napsauta <strong>Import</strong>-painiketta File-paneelissa, tai kirjoita <code>import</code> terminaaliin.',
+          'Valitse <code>.dxf</code>-tiedosto (tai KulmanLab <code>.json</code>) tietokoneeltasi.',
+          'Piirustus latautuu piirtoalueelle ja tallentuu automaattisesti selaimesi tallennustilaan, joten se on siellä myös seuraavalla kerralla.',
+        ],
+        links: [
+          { label: 'Import-komento', slug: 'commands/import' },
+          { label: 'Viimeisimpien tiedostojen paneeli', slug: 'commands/files' },
+        ],
+      },
+      {
+        title: 'Piirrä tarkoilla mitoilla',
+        intro: 'Jokainen piirtokomento hyväksyy kirjoitetun syötteen, joten sinun ei koskaan tarvitse arvioida pituutta tai koordinaattia silmämääräisesti.',
+        steps: [
+          'Aloita komento — napsauta <strong>Line</strong> tai kirjoita <code>line</code> ja paina <strong>Enter</strong>.',
+          'Kirjoita alkupiste muodossa <code>x,y</code> (esimerkiksi <code>0,0</code>) ja paina <strong>Enter</strong>.',
+          'Siirrä kohdistinta haluamaasi suuntaan, kirjoita sitten pituus (esimerkiksi <code>250</code>) ja paina <strong>Enter</strong> — segmentti piirretään tarkalleen niin pitkäksi.',
+          'Kytke kulmalukitus päälle kontrollipalkissa (tai pidä määritettyä lisäystä) pitääksesi segmentit tarkoissa kulmissa kuten 30°, 45° tai 90°.',
+        ],
+        links: [
+          { label: 'Line-komento', slug: 'commands/line' },
+          { label: 'Ruudukko ja tarttuminen', slug: 'interface/grid-snap' },
+        ],
+      },
+      {
+        title: 'Järjestä piirustus tasoilla',
+        intro: 'Tasot pitävät apuviivat, geometrian ja merkinnät erillään — ja ne säilyvät DXF-viennissä.',
+        steps: [
+          'Avaa <strong>Layers</strong>-paneeli työkalurivillä ja luo taso jokaiselle sisältötyypille (ääriviiva, mitat, muistiinpanot…).',
+          'Aseta väri, linetyyppi ja viivanpaksuus tasokohtaisesti, jotta entiteetit saavat järkevät oletusarvot.',
+          'Tee tasosta nykyinen <code>layer-make-current</code>-komennolla ennen piirtämistä, tai siirrä valitut entiteetit <code>layer-match</code>-komennolla.',
+          'Käytä <code>layer-isolate</code>-komentoa piilottaaksesi kaiken paitsi työstämäsi tason, ja <code>layer-unfreeze-all</code>-komentoa tuodaksesi kaiken takaisin.',
+        ],
+        links: [
+          { label: 'Layer isolate', slug: 'commands/layer-isolate' },
+          { label: 'Linetype', slug: 'interface/linetype' },
+          { label: 'Lineweight', slug: 'interface/lineweight' },
+        ],
+      },
+      {
+        title: 'Lisää mittoja',
+        intro: 'Mitat ovat todellisia DXF DIMENSION -entiteettejä, joten ne säilyvät edestakaisessa matkassa mihin tahansa muuhun CAD-työkaluun.',
+        steps: [
+          'Kirjoita <code>dim-linear</code> (vaaka-/pystysuora) tai <code>dim-aligned</code> (samansuuntainen mitatun reunan kanssa) terminaaliin.',
+          'Valitse kaksi pistettä, jotka haluat mitata, sijoita sitten mittaviiva kolmannella napsautuksella.',
+          'Ketjuta rivi mittauksia <code>dim-continue</code>-komennolla — jokainen uusi mitta alkaa siitä, mihin edellinen päättyi.',
+          'Ympyröille ja kaarille käytä <code>dim-radius</code>-, <code>dim-diameter</code>- tai <code>dim-angular</code>-komentoa.',
+          'Kaksoisnapsauta mitä tahansa mittamerkintää muokataksesi sen tekstiä.',
+        ],
+        links: [
+          { label: 'Lineaarinen mitta', slug: 'commands/dim-linear' },
+          { label: 'Jatka mittaa', slug: 'commands/dim-continue' },
+          { label: 'Tekstieditori', slug: 'interface/text-editor' },
+        ],
+      },
+      {
+        title: 'Mittaa etäisyys, kulma ja ala',
+        intro: 'Nopeita mittauksia luomatta geometriaa — tulokset pysyvät näytöllä kunnes painat Escape.',
+        steps: [
+          'Kirjoita <code>distance</code> ja valitse kaksi pistettä lukeaksesi pituuden.',
+          'Kirjoita <code>angle</code> ja valitse kaksi viivaa (tai kolme pistettä) lukeaksesi niiden välisen kulman.',
+          'Kirjoita <code>area</code> ja napsauta kolmea tai useampaa pistettä, paina sitten <strong>Enter</strong> — sisäalue ja piiri näytetään.',
+        ],
+        links: [
+          { label: 'Distance', slug: 'commands/distance' },
+          { label: 'Angle', slug: 'commands/angle' },
+          { label: 'Area', slug: 'commands/area' },
+        ],
+      },
+      {
+        title: 'Valmistele tiedosto laserleikkausta tai CNC:tä varten',
+        intro: 'Työnkulku, jota varten KulmanLab alun perin rakennettiin: tarkista tiedosto, siisti se, lähetä koneelle.',
+        steps: [
+          'Tuo DXF ja tarkista se — <code>fit</code> zoomaa koko piirustuksen näkyviin.',
+          'Poista kaikki, mitä koneen ei pitäisi leikata: apuviivat, muistiinpanot, mitat. <code>layer-isolate</code> auttaa löytämään harhailevat kohteet.',
+          'Siisti geometria: <code>trim</code> roikkuvat päät, sulje aukot, ja tarkista koot <code>distance</code>-komennolla.',
+          'Vie DXF-muodossa ja lataa se koneohjelmistoosi. Leikkauspolut säilyvät tarkalleen piirrettyinä — KulmanLab kirjoittaa tavallista AC1032 DXF:ää.',
+        ],
+        links: [
+          { label: 'Trim', slug: 'commands/trim' },
+          { label: 'Fit-näkymä', slug: 'commands/fit' },
+          { label: 'Export', slug: 'commands/export' },
+        ],
+      },
+      {
+        title: 'Aseta paperiasettelu näkymäikkunoilla',
+        intro: 'Asettelut ovat paperitilan arkkeja — kokoa yksi tai useampi skaalattu näkymä mallistasi sivulle, valmiina tulostukseen.',
+        steps: [
+          'Napsauta <strong>asettelun välilehteä</strong> näytön alareunassa vaihtaaksesi mallitilasta paperitilaan. <strong>+</strong>-painike välilehtipalkissa lisää uuden asettelun.',
+          '<strong>Napsauta hiiren oikealla painikkeella asettelun välilehteä</strong> nimetäksesi sen uudelleen tai poistaaksesi sen, tai avataksesi <strong>Page Managerin</strong> — siellä asetat paperimuodon (A4, A3, Letter…), suunnan ja piirustusyksiköt-per-mm-mittakaavan.',
+          'Kirjoita <code>viewport-rectangle</code> ja napsauta kahta vastakkaista kulmaa sijoittaaksesi näkymäikkunan — ikkunan, joka näyttää mallisi paperilla.',
+          'Napsauta näkymäikkunaa valitaksesi sen: vedä reunoja tai kulmia muuttaaksesi kokoa, vedä keskipistekahvaa siirtääksesi sitä, ja valitse tarkka mittakaava (esim. <code>1:50</code>) mittakaavavalitsimesta kontrollipalkissa.',
+          'Vieritä näkymäikkunan sisällä zoomataksesi mallinäkymää, keskiklikkaa-vedä panoroidaksesi sitä. Kun se näyttää oikealta, <strong>napsauta hiiren oikealla painikkeella näkymäikkunaa</strong> ja valitse <strong>Lock</strong> suojataksesi sen vahingossa tapahtuvilta muutoksilta.',
+          'Tarvitsetko saman näkymän kahdesti? <code>viewport-copy</code> monistaa näkymäikkunan säilyttäen sen mittakaavan ja mallinäkymän.',
+        ],
+        links: [
+          { label: 'Page manager', slug: 'commands/page-manager' },
+          { label: 'Viewport rectangle', slug: 'commands/viewport-rectangle' },
+          { label: 'Viewport copy', slug: 'commands/viewport-copy' },
+        ],
+      },
+      {
+        title: 'Tulosta tai tallenna PDF- / PNG-muodossa',
+        intro: 'Print manager renderöi piirustuksesi tulostusvalmiiksi kuvaksi, elävällä esikatselulla.',
+        steps: [
+          'Kirjoita <code>print</code> tai napsauta Print-painiketta File-paneelissa.',
+          'Valitse tulostemuoto: PDF asiakirjoille, PNG/JPEG/WebP kuville.',
+          'Rajaa valinnaisesti piirustuksen alueeseen ja kytke mustavalkoinen tuloste päälle puhtaita viivatulosteita varten.',
+          'Napsauta <strong>Print</strong> — tiedosto latautuu tietokoneellesi.',
+        ],
+        links: [
+          { label: 'Print-komento', slug: 'commands/print' },
+          { label: 'Page manager', slug: 'commands/page-manager' },
+        ],
+      },
+      {
+        title: 'Varmuuskopioi ja hallitse tallennettuja piirustuksia',
+        intro: 'Piirustukset elävät selaimesi tallennustilassa — yksityisinä, offline-tilassa ja sinun hallittavanasi.',
+        steps: [
+          'Avaa <strong>Files</strong>-paneeli nähdäksesi jokaisen tähän selaimeen tallennetun piirustuksen; palauta tai poista mikä tahansa niistä.',
+          'Ennen selaimen tietojen tyhjentämistä tai koneen vaihtamista, vie kaikki tärkeä — <code>.json</code> säilyttää täyden tarkkuuden, <code>.dxf</code> maksimoi yhteensopivuuden.',
+          'Nollataksesi sovelluksen kokonaan, kirjoita <code>wipestorage</code> ja vahvista <code>YES</code>:llä — tämä poistaa pysyvästi kaikki paikallisesti tallennetut piirustukset.',
+        ],
+        links: [
+          { label: 'Files-paneeli', slug: 'commands/files' },
+          { label: 'Export', slug: 'commands/export' },
+          { label: 'Wipe storage', slug: 'commands/wipestorage' },
+        ],
+      },
+      {
+        title: 'Lisää oma fontti',
+        intro: 'Lataa oma .ttf-tiedostosi ja käytä sitä Text- ja Multileader-merkinnöissä — fontti pysyy tallennettuna selaimeesi tulevia piirustuksia varten.',
+        steps: [
+          'Kirjoita <code>FontManager</code> terminaaliin avataksesi valintaikkunan suoraan — tai, jos sinulla on jo tekstieditori auki, napsauta <strong>Font Manager</strong>-painiketta sen työkalurivillä.',
+          'Napsauta <strong>Add Font</strong> valintaikkunan alatunnisteessa ja valitse <code>.ttf</code>-tiedosto — vain TrueType-fontit tuettu.',
+          'Tiedostonimestä tulee fontin nimi <strong>User</strong>-ryhmässä (<code>MyFont.ttf</code>:n lataaminen lisää fontin nimeltä <code>MyFont</code>).',
+          'Käyttääksesi fonttia, sijoita uusi tekstimerkintä (<code>text</code>-komento) tai kaksoisnapsauta olemassa olevaa Text- tai Multileader-entiteettiä avataksesi tekstieditorin.',
+          'Valitse uusi fontti listasta käyttääksesi sitä — tekstivalinnalla se ohittaa vain kyseiset merkit, ilman valintaa se asettaa koko merkinnän.',
+        ],
+        links: [
+          { label: 'Font Manager', slug: 'commands/font-manager' },
+          { label: 'Tekstieditori', slug: 'interface/text-editor' },
+          { label: 'Text-komento', slug: 'commands/text' },
+        ],
+      },
+      {
+        title: 'Tartu ja kohdista tarkasti',
+        intro: 'Yhdistä Grid & Snap, Vector Pins ja Align-komento sijoittaaksesi uutta geometriaa tarkasti — kirjoittamatta koordinaatteja käsin.',
+        steps: [
+          'Kytke <strong>Grid</strong> ja <strong>Snap</strong> päälle kontrollipalkissa lukitaksesi kohdistimen säännölliseen ruudukkoon — väli mukautuu zoomatessasi, ja olemassa oleva geometria-tarttuminen (päätepiste, keskipiste, leikkauspiste) on edelleen ensisijainen ruudukkoon nähden.',
+          'Pidä kohdistinta minkä tahansa tarttumapisteen päällä puoli sekuntia kiinnittääksesi sen <strong>Vector Pins</strong>-toiminnolla (päällä oletuksena) — kiinnitys projisoi katkoviivaisia vaaka- ja pystysuoria viitelinjoja, jotta voit napsauttaa pistettä, joka jakaa tarkalleen saman X- tai Y-koordinaatin, piirtämättä apuviivaa.',
+          'Kiinnitä kaksi eri pistettä tarttuaksesi niiden leikkauspisteeseen — tämä sijoittaa pisteen tarkalleen kohtaan (X yhdestä kiinnityksestä, Y toisesta), ja toimii myös yhdessä kulmanseurannan kanssa.',
+          'Sijoittaaksesi olemassa olevan muodon uudelleen referenssipisteisiin uuden geometrian piirtämisen sijaan, valitse se ja aja <code>align</code> — napsauta lähdepistettä ja sitten kohdepistettä siirtääksesi sitä, tai lisää toinen pari myös kiertääksesi (ja valinnaisesti skaalataksesi) sen paikalleen.',
+          'Paina <strong>Escape</strong> milloin tahansa poistaaksesi kiinnitykset tai peruuttaaksesi kohdistuksen ja aloittaaksesi uudelleen.',
+        ],
+        links: [
+          { label: 'Grid & Snap', slug: 'interface/grid-snap' },
+          { label: 'Vector Pins', slug: 'interface/vector-pins' },
+          { label: 'Align', slug: 'commands/align' },
+        ],
+      },
+    ],
+  },
 };

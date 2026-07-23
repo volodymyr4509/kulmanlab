@@ -1168,4 +1168,84 @@ export const aboutContent: Record<string, AboutContent> = {
       },
     ],
   },
+
+  da: {
+    title: 'Om KulmanLab — historien bag den gratis browser-CAD',
+    desc: 'KulmanLab er et enmandsprojekt: en bygningsingeniør der blev backend-udvikler og bygger den hurtige, gratis 2D-CAD han altid ønskede sig. Ingen konti, ingen uploads, ingen servere.',
+    heading: 'Om KulmanLab',
+    subtitle: 'Et enmandsprojekt, bygget den langsomme vej.',
+    sections: [
+      {
+        ps: [
+          'Hej, jeg er Volodymyr, og jeg bor i Ukraine. Jeg er bygningsingeniør af uddannelse — jeg brugte år ved tegnebrættet og i desktop CAD-software, før jeg skiftede karriere til backend-softwareudvikling. Ingeniørkløen forsvandt dog aldrig helt. Den førte mig til sidst ned i kaninhullet af CNC-maskiner, og til at bygge min egen CO₂-laserskærer fra bunden.',
+          'Det er derfra KulmanLab kommer: jeg havde konstant brug for en hurtig måde at åbne en DXF-fil på, rydde den op, justere et par linjer, og sende den til maskinen — uden at starte tungt CAD-software eller tilmelde mig endnu en skytjeneste. Så jeg begyndte at bygge mit eget værktøj. Det var i 2023; det har været et aften- og weekendprojekt lige siden.',
+        ],
+      },
+      {
+        h: 'Navnet',
+        ps: [
+          'En <em>kulman</em> er, hvad den klassiske tegnemaskine — Kuhlmann-tegnebordet — kaldes i den del af verden, jeg kommer fra. Generationer af ingeniører lærte at tegne på ét. KulmanLab er mit forsøg på at bevare den ånd i browseren.',
+        ],
+      },
+      {
+        h: 'Hvad jeg mener et CAD-værktøj bør være',
+        ps: [
+          'Gratis, øjeblikkeligt og privat. KulmanLab har ingen konti, ingen uploads, og ingen server bag sig — dine tegninger behandles og gemmes helt på din egen enhed, og appen fortsætter med at fungere offline. Intet at installere, intet at abonnere på, intet at overdrage. Detaljerne findes i <a href="/da/privacy/">privatlivspolitikken</a>, som er kort, fordi der genuint er lidt at fortælle.',
+          'Det er bevidst et fokuseret værktøj: hurtig 2D-tegning med en kommandoterminal, lag, mål og ærlig DXF-import/eksport — ikke en erstatning for en fuld desktop CAD-suite. Hvis du skærer ting på CNC- eller lasermaskiner, eller har brug for hurtige tekniske skitser til en laboratorierapport, blev det bygget med dig i tankerne.',
+        ],
+      },
+      {
+        h: 'Under motorhjelmen',
+        ps: [
+          'KulmanLab er skrevet i Angular oven på HTML5 Canvas, og håndterer komfortabelt tegninger med 100.000+ objekter. Den desidert sværeste del har været selve DXF-formatet — at fortolke det er let, at skrive filer som enhver CAD-editor vil acceptere er et minefelt af reverse-engineerede splines og group codes.',
+        ],
+      },
+      {
+        h: 'Sig hej',
+        ps: [
+          'Fandt du en fejl, mangler du en funktion, eller vil du bare vise, hvad du har lavet? Åbn en issue på <a href="https://github.com/volodymyr4509/kulmanlab" target="_blank" rel="noopener">GitHub</a>, deltag i <a href="https://www.reddit.com/r/kulmanlab/" target="_blank" rel="noopener">r/kulmanlab</a>, eller skriv til mig på <a href="mailto:kulmanlab@gmail.com">kulmanlab@gmail.com</a>. Jeg læser alt.',
+        ],
+      },
+    ],
+  },
+
+  fi: {
+    title: 'Tietoa KulmanLabista — tarina ilmaisen selain-CAD:in takana',
+    desc: 'KulmanLab on yhden hengen projekti: rakennusinsinööri, josta tuli backend-kehittäjä, rakentamassa nopeaa, ilmaista 2D-CAD:ia jota hän aina halusi. Ei tilejä, ei latauksia, ei palvelimia.',
+    heading: 'Tietoa KulmanLabista',
+    subtitle: 'Yhden hengen projekti, rakennettu hitaasti.',
+    sections: [
+      {
+        ps: [
+          'Hei, olen Volodymyr, ja asun Ukrainassa. Olen koulutukseltani rakennusinsinööri — vietin vuosia piirustuslaudan ääressä ja työpöytä-CAD-ohjelmistojen parissa ennen kuin vaihdoin uraa backend-ohjelmistokehitykseen. Insinöörikutina ei kuitenkaan koskaan hävinnyt. Se vei minut lopulta CNC-koneiden kaninkoloon, ja rakentamaan oman CO₂-laserleikkurini alusta asti.',
+          'Siitä KulmanLab syntyi: tarvitsin jatkuvasti nopean tavan avata DXF-tiedosto, siistiä se, säätää muutamia viivoja, ja lähettää se koneelle — käynnistämättä raskasta CAD-ohjelmistoa tai rekisteröitymättä vielä yhteen pilvipalveluun. Joten aloin rakentaa omaa työkaluani. Se oli vuonna 2023; siitä lähtien se on ollut ilta- ja viikonloppuprojekti.',
+        ],
+      },
+      {
+        h: 'Nimi',
+        ps: [
+          '<em>Kulman</em> on nimi, jota klassinen piirustuskone — Kuhlmann-piirustuspöytä — kutsutaan siinä osassa maailmaa, josta olen kotoisin. Sukupolvet insinöörejä oppivat piirtämään sellaisella. KulmanLab on yritykseni säilyttää tämä henki selaimessa.',
+        ],
+      },
+      {
+        h: 'Mitä uskon CAD-työkalun tulisi olla',
+        ps: [
+          'Ilmainen, välitön ja yksityinen. KulmanLabissa ei ole tilejä, latauksia, eikä palvelinta sen takana — piirustuksesi käsitellään ja tallennetaan kokonaan omalle laitteellesi, ja sovellus jatkaa toimimista offline-tilassa. Ei mitään asennettavaa, ei mitään tilattavaa, ei mitään luovutettavaa. Yksityiskohdat löytyvät <a href="/fi/privacy/">tietosuojakäytännöstä</a>, joka on lyhyt koska kerrottavaa on aidosti vähän.',
+          'Se on tarkoituksella keskittynyt työkalu: nopea 2D-suunnittelu komentoterminaalilla, tasoilla, mitoilla ja rehellisellä DXF-tuonnilla/-viennillä — ei korvike täydelle työpöytä-CAD-sarjalle. Jos leikkaat asioita CNC- tai laserkoneilla, tai tarvitset nopeita teknisiä luonnoksia laboratorioraporttiin, se rakennettiin ajatellen sinua.',
+        ],
+      },
+      {
+        h: 'Konepellin alla',
+        ps: [
+          'KulmanLab on kirjoitettu Angularilla HTML5 Canvasin päälle, ja käsittelee mukavasti piirustuksia joissa on yli 100 000 objektia. Ylivoimaisesti vaikein osa on ollut itse DXF-muoto — sen jäsentäminen on helppoa, mutta tiedostojen kirjoittaminen, jotka jokainen CAD-editori hyväksyy, on miinakenttä käänteismallinnettuja splinejä ja group codeja.',
+        ],
+      },
+      {
+        h: 'Sano hei',
+        ps: [
+          'Löysitkö bugin, puuttuuko ominaisuus, vai haluatko vain näyttää mitä olet tehnyt? Avaa issue <a href="https://github.com/volodymyr4509/kulmanlab" target="_blank" rel="noopener">GitHubissa</a>, liity mukaan <a href="https://www.reddit.com/r/kulmanlab/" target="_blank" rel="noopener">r/kulmanlab</a>-yhteisöön, tai kirjoita minulle osoitteeseen <a href="mailto:kulmanlab@gmail.com">kulmanlab@gmail.com</a>. Luen kaiken.',
+        ],
+      },
+    ],
+  },
 };
