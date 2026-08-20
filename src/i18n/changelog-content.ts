@@ -1314,6 +1314,7 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
       ],
     },
     {
+      title: "Copier/coller dans l'éditeur de texte, barre de retour et pointes de flèche adaptées au thème",
       highlights: [
         'Éditeur de texte : Ctrl/Cmd+C, Ctrl/Cmd+X et Ctrl/Cmd+V copient, coupent et collent désormais le texte sélectionné',
         'Le texte collé adopte toujours le formatage déjà présent au niveau du curseur plutôt que de conserver celui qu\'il avait lors de la copie ; le mode rich conserve les sauts de ligne, le mode simple (étiquettes de cote) les supprime',
@@ -6964,7 +6965,7 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
       ],
     },
     {
-      title: 'একাধিক লেআউট',
+      title: "লেআউট মোড ও ভিউপোর্ট সম্পাদনা",
       highlights: [
         'লেআউট স্পেসে ভিউপোর্ট সিলেক্ট, সরান এবং গ্রিপ-এডিট করুন',
         'একটি নির্বাচিত ভিউপোর্টের ভেতরে স্বাধীনভাবে মডেল কনটেন্ট স্ক্রল এবং প্যান করুন',
@@ -6979,7 +6980,7 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
       ],
     },
     {
-      title: 'কমান্ড টার্মিনাল',
+      title: "টুলবার পুনর্নকশা ও লেয়ার কমান্ড",
       highlights: [
         'মেইন টুলবারে লেয়ার প্যানেল দুই-সারির লেআউট এবং বড় আইকন সহ সরানো হয়েছে',
         'টিল (#4A8580) অ্যাপের অ্যাকসেন্ট রঙ হিসেবে পরিচয় করানো হয়েছে',
@@ -6994,7 +6995,7 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
       ],
     },
     {
-      title: 'লেয়ার',
+      title: "Match Properties, কালার পিকার ও প্রপার্টিজ প্যানেল",
       highlights: [
         'Match Properties কমান্ড: এন্টিটিগুলোর মধ্যে রঙ, লেয়ার, লাইনটাইপ এবং লাইনওয়েট কপি করুন, এরিয়া সিলেকশন সমর্থন করে',
         'টুলবারে Properties প্যানেল যোগ করা হয়েছে এন্টিটি বিস্তারিত দেখাচ্ছে',
@@ -7008,7 +7009,7 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
       ],
     },
     {
-      title: 'DXF এক্সপোর্ট',
+      title: "কৌণিক মাত্রা কমান্ড",
       highlights: [
         'DimAngular কমান্ড: দুটি লাইনের মধ্যে বা আর্ক ও বৃত্তে কোণ পরিমাপ করুন',
         'অ্যাঙ্গুলার মাত্রা গ্রিপ: আর্ক-এন্ডপয়েন্ট গ্রিপের জন্য রেডিয়াল/ট্যানজেন্শিয়াল স্ন্যাপ মোড',
@@ -7020,7 +7021,7 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
       ],
     },
     {
-      title: 'মাত্রা এবং লিডার',
+      title: "ডাইমেনশন গ্রিপ, এক্সটেনশন লাইন ও তীরমুখ পিকার",
       highlights: [
         'সব মাত্রা এন্টিটির জন্য গ্রিপ এডিটিং: টিপ, অ্যারোহেড এবং টেক্সট পজিশন',
         'DXF স্পেক অনুযায়ী এক্সটেনশন লাইন অফসেট (DIMEXO) এবং এক্সটেনশন (DIMEXE) রেন্ডার হয়',
@@ -7031,7 +7032,7 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
       ],
     },
     {
-      title: 'লেআউট এবং ভিউপোর্ট',
+      title: "কমান্ড টার্মিনাল ও লাইন চেইনিং",
       highlights: [
         'সম্পূর্ণ কমান্ড টার্মিনাল: হিস্ট্রি লগ, অ্যারো কি দিয়ে কমান্ড রিকল, ফ্লোটিং লেআউট',
         'Line কমান্ড এখন ক্রমাগত এবং চেইনযোগ্য — প্রতিটি সেগমেন্ট পরবর্তী স্টার্ট পয়েন্ট ফিড করে',
@@ -7044,7 +7045,7 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
       ],
     },
     {
-      title: 'গ্রিপ এডিটিং',
+      title: "মাল্টিলিডার কমান্ড (MLEADER)",
       highlights: [
         'MLEADER কমান্ড: অ্যারোহেড, ডগলেগ এবং টেক্সট ব্লক সহ মাল্টিলিডার আঁকুন',
         'MLEADER-এর অ্যারোহেড, আর্ম ভার্টেক্স এবং ডগলেগ গ্রিপের জন্য অ্যাঙ্গেল লকিং',
@@ -7057,7 +7058,7 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
       ],
     },
     {
-      title: 'এডিট টুলস',
+      title: "কমান্ড টার্মিনাল (প্রিভিউ) ও UI উন্নতি",
       highlights: [
         'হিস্ট্রি এবং সাজেশন সহ সম্পূর্ণ কমান্ড টার্মিনালের প্রাথমিক সংস্করণ',
         'সংখ্যাসূচক ইনপুট ফেজের জন্য টার্মিনালে ব্লিংকিং কার্সার যোগ করা হয়েছে',
@@ -7068,27 +7069,7 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
       ],
     },
     {
-      title: 'DXF ইম্পোর্ট',
-      highlights: [
-        'Angular 19 → 20 → 21-এ আপগ্রেড করা হয়েছে ব্লক কন্ট্রোল ফ্লো সিনট্যাক্স সহ',
-        'সম্পূর্ণ কমান্ড রেফারেন্স ডকুমেন্টেশন সাইট লঞ্চ হয়েছে',
-        'ক্যানভাসে অ্যাডাপ্টিভ CAD গ্রিড যোগ করা হয়েছে',
-        'টুলবারে হিস্ট্রি প্যানেল যোগ করা হয়েছে (আনডু / হিস্ট্রি / রিডু)',
-        'হেল্প প্যানেলে Documentation বাটন যোগ করা হয়েছে',
-      ],
-    },
-    {
-      title: 'ড্রয়িং টুলস',
-      highlights: [
-        'Angular 19 → 20 → 21-এ আপগ্রেড করা হয়েছে ব্লক কন্ট্রোল ফ্লো সিনট্যাক্স সহ',
-        'সম্পূর্ণ কমান্ড রেফারেন্স ডকুমেন্টেশন সাইট লঞ্চ হয়েছে',
-        'ক্যানভাসে অ্যাডাপ্টিভ CAD গ্রিড যোগ করা হয়েছে',
-        'টুলবারে হিস্ট্রি প্যানেল যোগ করা হয়েছে (আনডু / হিস্ট্রি / রিডু)',
-        'হেল্প প্যানেলে Documentation বাটন যোগ করা হয়েছে',
-      ],
-    },
-    {
-      title: 'লঞ্চ',
+      title: "Angular আপগ্রেড, ডক্স সাইট ও অ্যাডাপটিভ গ্রিড",
       highlights: [
         'Angular 19 → 20 → 21-এ আপগ্রেড করা হয়েছে ব্লক কন্ট্রোল ফ্লো সিনট্যাক্স সহ',
         'সম্পূর্ণ কমান্ড রেফারেন্স ডকুমেন্টেশন সাইট লঞ্চ হয়েছে',
@@ -7353,7 +7334,7 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
       ],
     },
     {
-      title: 'Mipangilio mingi',
+      title: "Hali ya layout na uhariri wa viewport",
       highlights: [
         'Chagua, hamisha na hariri-grip maeneo ya maoni katika nafasi ya mpangilio',
         'Sogeza na piga mbizi maudhui ya modeli ndani ya eneo la maoni lililochaguliwa kwa uhuru',
@@ -7368,7 +7349,7 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
       ],
     },
     {
-      title: 'Terminal ya amri',
+      title: "Ubunifu upya wa upau wa zana na amri za tabaka",
       highlights: [
         'Paneli ya tabaka imehamiswa kwenye upau wa zana mkuu na mpangilio wa safu mbili na aikoni kubwa zaidi',
         'Samawati (#4A8580) imeanzishwa kama rangi ya msisitizo wa programu',
@@ -7383,7 +7364,7 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
       ],
     },
     {
-      title: 'Tabaka',
+      title: "Match Properties, kiteua rangi na paneli ya Mali",
       highlights: [
         'Amri ya Match Properties: nakili rangi, tabaka, aina ya mstari na uzito wa mstari kati ya vitu, inaauni uchaguzi wa eneo',
         'Paneli ya Mali imeongezwa kwenye upau wa zana ikonyesha maelezo ya kitu',
@@ -7397,7 +7378,7 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
       ],
     },
     {
-      title: 'Uhamishaji wa DXF',
+      title: "Amri ya kipimo cha pembe",
       highlights: [
         'Amri ya DimAngular: pima pembe kati ya mistari miwili au kwenye arcs na miduara',
         'Vishiko vya vipimo vya pembe: hali za snap za radial/tangential kwa vishiko vya pointi za mwisho za arc',
@@ -7409,7 +7390,7 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
       ],
     },
     {
-      title: 'Vipimo na viongozi',
+      title: "Vishiko vya vipimo, mistari ya upanuzi na kiteua kichwa cha mshale",
       highlights: [
         'Uhariri wa grip kwa vitu vyote vya vipimo: ncha, vichwa vya mishale na nafasi ya maandishi',
         'Kimbiza cha mstari wa upanuzi (DIMEXO) na upanuzi (DIMEXE) vinavyopangwa kulingana na vipimo vya DXF',
@@ -7420,7 +7401,7 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
       ],
     },
     {
-      title: 'Mipangilio na maeneo ya maoni',
+      title: "Terminal ya amri na kuunganisha mistari",
       highlights: [
         'Terminal kamili ya amri: kumbukumbu ya historia, kurudisha amri kwa vitufe vya mshale, mpangilio wa kuelea',
         'Amri ya Line sasa inaendelea na inaweza kushikamana — kila sehemu hulisha pointi ya mwanzo inayofuata',
@@ -7433,7 +7414,7 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
       ],
     },
     {
-      title: 'Uhariri wa grip',
+      title: "Amri ya multileader (MLEADER)",
       highlights: [
         'Amri ya MLEADER: chora kiongozi wa wingi chenye kichwa cha mshale, mkondo na bloku ya maandishi',
         'Kufunga kwa pembe kwa vishiko vya kichwa cha mshale, kona ya mkono na mkondo wa MLEADER',
@@ -7446,7 +7427,7 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
       ],
     },
     {
-      title: 'Zana za kuhariri',
+      title: "Terminal ya amri (onyesho la awali) na maboresho ya UI",
       highlights: [
         'Toleo la mapema la terminal kamili ya amri yenye historia na mapendekezo',
         'Kishale kinachopepesa kimeongezwa kwenye terminal kwa awamu za uingizaji wa nambari',
@@ -7457,27 +7438,7 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
       ],
     },
     {
-      title: 'Uagizaji wa DXF',
-      highlights: [
-        'Uboreshaji kutoka Angular 19 → 20 → 21 na sintaksia ya mtiririko wa kudhibiti wa vitalu',
-        'Tovuti kamili ya nyaraka za rejea za amri ilizinduliwa',
-        'Gridi ya CAD inayobadilika iliongezwa kwenye turubai',
-        'Paneli ya historia iliongezwa kwenye upau wa zana (Kutofanya / Historia / Kutofanya tena)',
-        'Kitufe cha Nyaraka kiliongezwa kwenye paneli ya usaidizi',
-      ],
-    },
-    {
-      title: 'Zana za kuchora',
-      highlights: [
-        'Uboreshaji kutoka Angular 19 → 20 → 21 na sintaksia ya mtiririko wa kudhibiti wa vitalu',
-        'Tovuti kamili ya nyaraka za rejea za amri ilizinduliwa',
-        'Gridi ya CAD inayobadilika iliongezwa kwenye turubai',
-        'Paneli ya historia iliongezwa kwenye upau wa zana (Kutofanya / Historia / Kutofanya tena)',
-        'Kitufe cha Nyaraka kiliongezwa kwenye paneli ya usaidizi',
-      ],
-    },
-    {
-      title: 'Uzinduzi',
+      title: "Uboreshaji wa Angular, tovuti ya nyaraka na gridi inayobadilika",
       highlights: [
         'Uboreshaji kutoka Angular 19 → 20 → 21 na sintaksia ya mtiririko wa kudhibiti wa vitalu',
         'Tovuti kamili ya nyaraka za rejea za amri ilizinduliwa',
@@ -8778,7 +8739,7 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
       ],
     },
     {
-      title: 'Angular dimension command',
+      title: "Command na angular dimension",
       highlights: [
         'DimAngular command: sukatin ang mga anggulo sa pagitan ng dalawang linya o sa mga arc at circle',
         'Angular dimension grip: radial/tangential na snap mode para sa arc endpoint handle',
@@ -8814,7 +8775,7 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
       ],
     },
     {
-      title: 'Multileader command (MLEADER)',
+      title: "Command na multileader (MLEADER)",
       highlights: [
         'MLEADER command: gumuhit ng multileader na may arrowhead, knee joint, at text block',
         'Angle locking para sa arrowhead, arm vertex, at knee joint handle ng multileader',

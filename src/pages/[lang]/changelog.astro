@@ -15,11 +15,20 @@ const { lang } = Astro.params as { lang: Lang };
 const t = translations[lang];
 
 const localized = releaseTranslations[lang] ?? releaseTranslations['en'];
-const releases = baseReleases.map((r, i) => ({
-  ...r,
-  title: localized[i]?.title ?? r.title,
-  highlights: localized[i]?.highlights ?? r.highlights,
-}));
+
+const isFix = (s: string) => s.toLowerCase().startsWith('fix') || s.toLowerCase().startsWith('revert');
+
+// A translated fix doesn't start with "fix" ("Behoben:", "修复：", "Corrigé :"), so
+// read the flag off the English source whenever the two lists line up 1:1.
+const releases = baseReleases.map((r, i) => {
+  const items = localized[i]?.highlights ?? r.highlights;
+  const aligned = items.length === r.highlights.length;
+  return {
+    ...r,
+    title: localized[i]?.title ?? r.title,
+    highlights: items.map((text, j) => ({ text, fix: isFix(aligned ? r.highlights[j] : text) })),
+  };
+});
 ---
 
 <Layout
@@ -66,15 +75,12 @@ const releases = baseReleases.map((r, i) => ({
 
             <!-- Changes -->
             <ul class="space-y-2">
-              {r.highlights.map((item) => {
-                const isFeature = !item.toLowerCase().startsWith('fix') && !item.toLowerCase().startsWith('revert');
-                return (
-                  <li class="flex items-start gap-3 text-sm text-slate-300 leading-relaxed">
-                    <span class={`mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full ${isFeature ? 'bg-brand' : 'bg-slate-500'}`}></span>
-                    {item}
-                  </li>
-                );
-              })}
+              {r.highlights.map((item) => (
+                <li class="flex items-start gap-3 text-sm text-slate-300 leading-relaxed">
+                  <span class={`mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full ${item.fix ? 'bg-slate-500' : 'bg-brand'}`}></span>
+                  {item.text}
+                </li>
+              ))}
             </ul>
           </article>
         ))}
