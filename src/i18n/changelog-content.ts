@@ -7,6 +7,21 @@ export type Release = {
 
 export const releases: Release[] = [
   {
+    version: "2026.08.19.23a9785",
+    date: "August 19, 2026",
+    title: "Fillet for arcs & polylines; Export Manager redesign",
+    highlights: [
+      "Fillet now works on Arc and Polyline segments, not just Line — pick two and the corner rounds in place.",
+      "Filleting two separate polylines, or a polyline and a loose Line/Arc, now merges them into a single polyline.",
+      "New: Rectangle gains a Dimensions option — type D, enter a width and height, and it remembers them next time.",
+      "Export Manager redesigned as side-by-side JSON and DXF columns, each listing the entity types it carries.",
+      "Font+, Hatch+, Leader+ and Leader- are now FontAdd, HatchAdd, LeaderAdd and LeaderRemove; Lwpolyline is now Polyline.",
+      "New LayerManager command; Import, Font Manager, Hatch Manager and Page Setup now run as real commands.",
+      "Fixed: DXF export wrote color, linetype and lineweight out of position, and dropped an explicit hairline lineweight.",
+      "Fixed: Fillet no longer rounds an already-tangent polyline corner or sweeps the long way around an arc.",
+    ],
+  },
+  {
     version: "2026.08.16.ae2fea1",
     date: "August 16, 2026",
     title: "Polyline: Arc segments & Explode; Print Manager fixes and Blueprint style",
@@ -424,6 +439,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   en: releases.map(r => ({ title: r.title, highlights: r.highlights })),
   de: [
     {
+      title: "Fillet für Bögen & Polylines; Export Manager neu gestaltet",
+      highlights: [
+        "Fillet funktioniert jetzt auf Arc- und Polyline-Segmenten, nicht nur auf Line — zwei picken, und die Ecke wird verrundet.",
+        "Das Verrunden zweier getrennter Polylines oder einer Polyline mit einer losen Line/Arc führt sie jetzt zu einer einzigen Polyline zusammen.",
+        "Neu: Rectangle erhält eine Dimensions-Option — D tippen, Breite und Höhe eingeben; die Werte werden für das nächste Mal gemerkt.",
+        "Export Manager neu gestaltet als nebeneinanderliegende JSON- und DXF-Spalten, die jeweils die enthaltenen Entitätstypen auflisten.",
+        "Font+, Hatch+, Leader+ und Leader- heißen jetzt FontAdd, HatchAdd, LeaderAdd und LeaderRemove; Lwpolyline heißt jetzt Polyline.",
+        "Neuer LayerManager-Befehl; Import, Font Manager, Hatch Manager und Page Setup laufen jetzt als echte Befehle.",
+        "Behoben: Der DXF-Export schrieb Farbe, Linientyp und Linienstärke an falscher Position und verwarf eine explizite Haarlinienstärke.",
+        "Behoben: Fillet verrundet keine bereits tangentiale Polyline-Ecke mehr und schlägt nicht mehr den langen Weg um einen Bogen.",
+      ],
+    },
+    {
       title: "Polyline: Bogensegmente & Explode; Druckmanager-Korrekturen und Blueprint-Stil",
       highlights: [
         "Neu: Polyline erhält eine Arc-Option zum Setzen von Bogensegmenten beim Zeichnen (standardmäßig tangential fortgesetzt) — Trim, Extend, Offset, Chamfer und die Schnittpunkterkennung sind jetzt alle bogenfähig, sodass das Bearbeiten einer Polyline mit Bogensegmenten genauso funktioniert wie bei geraden Segmenten.",
@@ -779,6 +807,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   es: [
+    {
+      title: "Fillet para arcos y polilíneas; rediseño de Export Manager",
+      highlights: [
+        "Fillet ahora funciona en segmentos Arc y Polyline, no solo Line — elige dos y la esquina se redondea in situ.",
+        "Redondear dos polilíneas distintas, o una polilínea y una Line/Arc suelta, ahora las fusiona en una sola polilínea.",
+        "Nuevo: Rectangle incorpora una opción Dimensions — pulsa D, introduce ancho y alto, y los recuerda la próxima vez.",
+        "Export Manager rediseñado con columnas JSON y DXF en paralelo, cada una listando los tipos de entidad que incluye.",
+        "Font+, Hatch+, Leader+ y Leader- ahora son FontAdd, HatchAdd, LeaderAdd y LeaderRemove; Lwpolyline ahora es Polyline.",
+        "Nuevo comando LayerManager; Import, Font Manager, Hatch Manager y Page Setup ahora se ejecutan como comandos reales.",
+        "Corregido: la exportación DXF escribía color, tipo de línea y grosor fuera de posición, y descartaba un grosor hairline explícito.",
+        "Corregido: Fillet ya no redondea una esquina de polilínea ya tangente ni recorre el lado largo de un arco.",
+      ],
+    },
     {
       title: "Polyline: segmentos de arco y Explode; correcciones del gestor de impresión y estilo Blueprint",
       highlights: [
@@ -1136,6 +1177,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   fr: [
     {
+      title: "Fillet pour arcs et polylignes ; refonte d'Export Manager",
+      highlights: [
+        "Fillet fonctionne désormais sur les segments Arc et Polyline, pas seulement Line — sélectionnez-en deux et l'angle est arrondi sur place.",
+        "Arrondir deux polylignes distinctes, ou une polyligne et une Line/Arc isolée, les fusionne désormais en une seule polyligne.",
+        "Nouveau : Rectangle reçoit une option Dimensions — tapez D, saisissez largeur et hauteur ; les valeurs sont mémorisées.",
+        "Export Manager repensé en colonnes JSON et DXF côte à côte, chacune listant les types d'entités qu'elle contient.",
+        "Font+, Hatch+, Leader+ et Leader- deviennent FontAdd, HatchAdd, LeaderAdd et LeaderRemove ; Lwpolyline devient Polyline.",
+        "Nouvelle commande LayerManager ; Import, Font Manager, Hatch Manager et Page Setup s'exécutent comme de vraies commandes.",
+        "Corrigé : l'export DXF écrivait la couleur, le type et l'épaisseur de ligne au mauvais endroit, et ignorait une épaisseur hairline explicite.",
+        "Corrigé : Fillet n'arrondit plus un angle de polyligne déjà tangent et ne contourne plus un arc par le long chemin.",
+      ],
+    },
+    {
       title: "Polyline : segments d'arc & Explode ; corrections du gestionnaire d'impression et style Blueprint",
       highlights: [
         "Nouveau : Polyline reçoit une option Arc pour placer des segments d'arc pendant le tracé (continuation tangentielle par défaut) — Trim, Extend, Offset, Chamfer et la détection d'intersections gèrent désormais les arcs, si bien qu'éditer une polyligne avec des segments d'arc fonctionne comme avec des segments droits.",
@@ -1490,6 +1544,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   it: [
+    {
+      title: "Fillet per archi e polilinee; Export Manager ridisegnato",
+      highlights: [
+        "Fillet ora funziona su segmenti Arc e Polyline, non solo Line — scegline due e l'angolo viene raccordato sul posto.",
+        "Raccordare due polilinee separate, o una polilinea e una Line/Arc isolata, ora le unisce in un'unica polilinea.",
+        "Nuovo: Rectangle guadagna un'opzione Dimensions — premi D, inserisci larghezza e altezza, e li ricorda la volta successiva.",
+        "Export Manager ridisegnato con colonne JSON e DXF affiancate, ciascuna elenca i tipi di entità che trasporta.",
+        "Font+, Hatch+, Leader+ e Leader- ora sono FontAdd, HatchAdd, LeaderAdd e LeaderRemove; Lwpolyline ora è Polyline.",
+        "Nuovo comando LayerManager; Import, Font Manager, Hatch Manager e Page Setup ora funzionano come veri comandi.",
+        "Corretto: l'esportazione DXF scriveva colore, tipo di linea e spessore in posizione errata e scartava uno spessore hairline esplicito.",
+        "Corretto: Fillet non raccorda più un angolo di polilinea già tangente né percorre il lato lungo di un arco.",
+      ],
+    },
     {
       title: "Polyline: segmenti ad arco & Explode; correzioni del gestore di stampa e stile Blueprint",
       highlights: [
@@ -1847,6 +1914,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   pt: [
     {
+      title: "Fillet para arcos e polilinhas; Export Manager redesenhado",
+      highlights: [
+        "Fillet agora funciona em segmentos Arc e Polyline, não apenas Line — escolha dois e o canto é arredondado no lugar.",
+        "Arredondar duas polilinhas separadas, ou uma polilinha e uma Line/Arc solta, agora as funde numa única polilinha.",
+        "Novo: Rectangle ganha uma opção Dimensions — digite D, informe largura e altura, e ele as memoriza para a próxima vez.",
+        "Export Manager redesenhado em colunas JSON e DXF lado a lado, cada uma listando os tipos de entidade que carrega.",
+        "Font+, Hatch+, Leader+ e Leader- agora são FontAdd, HatchAdd, LeaderAdd e LeaderRemove; Lwpolyline agora é Polyline.",
+        "Novo comando LayerManager; Import, Font Manager, Hatch Manager e Page Setup agora funcionam como comandos reais.",
+        "Corrigido: a exportação DXF escrevia cor, tipo e espessura de linha fora de posição e descartava uma espessura hairline explícita.",
+        "Corrigido: Fillet não arredonda mais um canto de polilinha já tangente nem percorre o lado longo de um arco.",
+      ],
+    },
+    {
       title: "Polyline: segmentos de arco & Explode; correções do gerenciador de impressão e estilo Blueprint",
       highlights: [
         "Novo: Polyline ganha uma opção Arc para colocar segmentos de arco ao desenhar (continuação tangente por padrão) — Trim, Extend, Offset, Chamfer e a detecção de interseções agora reconhecem arcos, então editar uma polilinha com segmentos de arco funciona igual a uma reta.",
@@ -2202,6 +2282,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   uk: [
+    {
+      title: "Fillet для дуг і поліліній; оновлений Export Manager",
+      highlights: [
+        "Fillet тепер працює із сегментами Arc і Polyline, а не лише Line — виберіть два, і кут заокруглиться на місці.",
+        "Заокруглення двох окремих поліліній або полілінії та окремої Line/Arc тепер об'єднує їх в одну полілінію.",
+        "Нове: Rectangle отримує опцію Dimensions — натисніть D, введіть ширину й висоту, і вони запам'ятаються на наступний раз.",
+        "Export Manager оновлено: колонки JSON і DXF поруч, кожна перелічує типи об'єктів, які містить.",
+        "Font+, Hatch+, Leader+ і Leader- тепер FontAdd, HatchAdd, LeaderAdd і LeaderRemove; Lwpolyline тепер Polyline.",
+        "Нова команда LayerManager; Import, Font Manager, Hatch Manager і Page Setup тепер працюють як справжні команди.",
+        "Виправлено: експорт DXF записував колір, тип і товщину лінії не на тому місці та відкидав явну товщину hairline.",
+        "Виправлено: Fillet більше не заокруглює вже дотичний кут полілінії й не обходить дугу довгим шляхом.",
+      ],
+    },
     {
       title: "Polyline: дугові сегменти та Explode; виправлення менеджера друку та стиль Blueprint",
       highlights: [
@@ -2559,6 +2652,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   tr: [
     {
+      title: "Yaylar ve polyline'lar için Fillet; yenilenen Export Manager",
+      highlights: [
+        "Fillet artık yalnızca Line değil, Arc ve Polyline segmentlerinde de çalışıyor — ikisini seçin, köşe yerinde yuvarlansın.",
+        "İki ayrı polyline'ı ya da bir polyline ile bağımsız bir Line/Arc'ı yuvarlamak artık onları tek bir polyline'da birleştiriyor.",
+        "Yeni: Rectangle bir Dimensions seçeneği kazandı — D yazın, genişlik ve yükseklik girin; değerler bir sonraki sefere hatırlanır.",
+        "Export Manager yan yana JSON ve DXF sütunları olarak yeniden tasarlandı; her biri taşıdığı varlık türlerini listeliyor.",
+        "Font+, Hatch+, Leader+ ve Leader- artık FontAdd, HatchAdd, LeaderAdd ve LeaderRemove; Lwpolyline artık Polyline.",
+        "Yeni LayerManager komutu; Import, Font Manager, Hatch Manager ve Page Setup artık gerçek komut olarak çalışıyor.",
+        "Düzeltildi: DXF dışa aktarımı renk, çizgi tipi ve kalınlığı yanlış konuma yazıyor ve açık hairline kalınlığını atıyordu.",
+        "Düzeltildi: Fillet artık zaten teğet olan bir polyline köşesini yuvarlamıyor ve bir yayın uzun tarafını dolaşmıyor.",
+      ],
+    },
+    {
       title: "Polyline: Yay segmentleri & Explode; Print Manager düzeltmeleri ve Blueprint stili",
       highlights: [
         "Yeni: Polyline, çizim sırasında yay segmentleri yerleştirmek için bir Arc seçeneği kazanıyor (varsayılan olarak teğetsel devam) — Trim, Extend, Offset, Chamfer ve kesişim tespiti artık yay farkında, böylece yay segmentli bir polyline'ı düzenlemek düz segmentli biriyle aynı şekilde çalışıyor.",
@@ -2914,6 +3020,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   zh: [
+    {
+      title: "圆弧与多段线的 Fillet；Export Manager 重新设计",
+      highlights: [
+        "Fillet 现在支持 Arc 和 Polyline 线段，不再局限于 Line — 选取两段即可原地倒圆角。",
+        "对两条独立多段线，或一条多段线与一个独立 Line/Arc 倒圆角，现在会合并为单条多段线。",
+        "新增：Rectangle 获得 Dimensions 选项 — 输入 D，再输入宽度和高度，下次会记住这些值。",
+        "Export Manager 重新设计为并排的 JSON 与 DXF 两栏，各自列出所包含的实体类型。",
+        "Font+、Hatch+、Leader+ 和 Leader- 现更名为 FontAdd、HatchAdd、LeaderAdd 和 LeaderRemove；Lwpolyline 现称 Polyline。",
+        "新增 LayerManager 命令；Import、Font Manager、Hatch Manager 和 Page Setup 现在作为真正的命令运行。",
+        "修复：DXF 导出把颜色、线型和线宽写在了错误位置，并丢弃了显式的 hairline 线宽。",
+        "修复：Fillet 不再对已相切的多段线角点倒圆角，也不再绕圆弧的长边。",
+      ],
+    },
     {
       title: "Polyline：圆弧线段与 Explode；打印管理器修复与 Blueprint 样式",
       highlights: [
@@ -3271,6 +3390,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   hi: [
     {
+      title: "आर्क और पॉलीलाइन के लिए Fillet; Export Manager का नया डिज़ाइन",
+      highlights: [
+        "Fillet अब केवल Line नहीं, Arc और Polyline सेगमेंट पर भी काम करता है — दो चुनें और कोना वहीं गोल हो जाता है।",
+        "दो अलग पॉलीलाइन, या एक पॉलीलाइन और एक अलग Line/Arc को गोल करने पर अब वे एक ही पॉलीलाइन में मिल जाती हैं।",
+        "नया: Rectangle को Dimensions विकल्प मिला — D टाइप करें, चौड़ाई और ऊँचाई भरें; अगली बार ये याद रहते हैं।",
+        "Export Manager को अगल-बगल JSON और DXF कॉलम के रूप में नया रूप दिया गया, हर एक अपने एंटिटी प्रकार सूचीबद्ध करता है।",
+        "Font+, Hatch+, Leader+ और Leader- अब FontAdd, HatchAdd, LeaderAdd और LeaderRemove हैं; Lwpolyline अब Polyline है।",
+        "नया LayerManager कमांड; Import, Font Manager, Hatch Manager और Page Setup अब असली कमांड के रूप में चलते हैं।",
+        "ठीक किया गया: DXF निर्यात रंग, लाइनटाइप और लाइनवेट को गलत जगह लिखता था और स्पष्ट hairline लाइनवेट छोड़ देता था।",
+        "ठीक किया गया: Fillet अब पहले से स्पर्शरेखीय पॉलीलाइन कोने को गोल नहीं करता और न ही आर्क का लंबा रास्ता लेता है।",
+      ],
+    },
+    {
       title: "Polyline: आर्क सेगमेंट और Explode; प्रिंट मैनेजर सुधार और Blueprint स्टाइल",
       highlights: [
         "नया: Polyline को ड्राइंग के दौरान आर्क सेगमेंट रखने के लिए Arc विकल्प मिलता है (डिफ़ॉल्ट रूप से टैंजेंट-कंटिन्यूएशन) — Trim, Extend, Offset, Chamfer, और इंटरसेक्शन डिटेक्शन अब सभी आर्क-अवेयर हैं, इसलिए आर्क सेगमेंट वाली पॉलीलाइन को एडिट करना सीधी पॉलीलाइन जैसा ही काम करता है।",
@@ -3626,6 +3758,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   ar: [
+    {
+      title: "Fillet للأقواس والخطوط المتعددة؛ إعادة تصميم Export Manager",
+      highlights: [
+        "يعمل Fillet الآن على مقاطع Arc وPolyline وليس Line فقط — اختر مقطعين ويُستدار الركن في مكانه.",
+        "تدوير خطين متعددين منفصلين، أو خط متعدد مع Line/Arc مستقل، يدمجهما الآن في خط متعدد واحد.",
+        "جديد: يكتسب Rectangle خيار Dimensions — اكتب D وأدخل العرض والارتفاع، ويتذكرهما في المرة التالية.",
+        "أُعيد تصميم Export Manager بعمودين متجاورين لـ JSON وDXF، يسرد كل منهما أنواع الكيانات التي يحملها.",
+        "أصبحت Font+ وHatch+ وLeader+ وLeader- الآن FontAdd وHatchAdd وLeaderAdd وLeaderRemove؛ وLwpolyline أصبحت Polyline.",
+        "أمر LayerManager جديد؛ وتعمل الآن أزرار Import وFont Manager وHatch Manager وPage Setup كأوامر حقيقية.",
+        "تم الإصلاح: كان تصدير DXF يكتب اللون ونوع الخط وسماكته في موضع خاطئ ويهمل سماكة hairline الصريحة.",
+        "تم الإصلاح: لم يعد Fillet يدوّر ركن خط متعدد مماسًا بالفعل ولا يسلك الطريق الطويل حول القوس.",
+      ],
+    },
     {
       title: "Polyline: مقاطع Arc وأمر Explode؛ إصلاحات مدير الطباعة ونمط Blueprint",
       highlights: [
@@ -3983,6 +4128,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   id: [
     {
+      title: "Fillet untuk arc dan polyline; Export Manager didesain ulang",
+      highlights: [
+        "Fillet kini bekerja pada segmen Arc dan Polyline, bukan hanya Line — pilih dua dan sudutnya dibulatkan di tempat.",
+        "Membulatkan dua polyline terpisah, atau polyline dengan Line/Arc lepas, kini menggabungkannya menjadi satu polyline.",
+        "Baru: Rectangle mendapat opsi Dimensions — ketik D, masukkan lebar dan tinggi, dan nilainya diingat lain kali.",
+        "Export Manager didesain ulang sebagai kolom JSON dan DXF berdampingan, masing-masing memuat tipe entitas yang dibawanya.",
+        "Font+, Hatch+, Leader+ dan Leader- kini menjadi FontAdd, HatchAdd, LeaderAdd dan LeaderRemove; Lwpolyline kini Polyline.",
+        "Perintah LayerManager baru; Import, Font Manager, Hatch Manager dan Page Setup kini berjalan sebagai perintah sungguhan.",
+        "Diperbaiki: ekspor DXF menulis warna, linetype, dan lineweight di posisi salah serta membuang lineweight hairline eksplisit.",
+        "Diperbaiki: Fillet tidak lagi membulatkan sudut polyline yang sudah tangen atau memutar jalur panjang mengelilingi arc.",
+      ],
+    },
+    {
       title: "Polyline: segmen Arc & Explode; perbaikan manajer cetak dan gaya Blueprint",
       highlights: [
         "Baru: Polyline mendapat opsi Arc untuk menempatkan segmen busur saat menggambar (kelanjutan tangen secara default) — Trim, Extend, Offset, Chamfer, dan deteksi perpotongan kini semua sadar-busur, sehingga mengedit polyline dengan segmen busur bekerja sama seperti segmen lurus.",
@@ -4338,6 +4496,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   ja: [
+    {
+      title: "円弧とポリラインのFillet、Export Managerの刷新",
+      highlights: [
+        "FilletがLineだけでなくArcとPolylineのセグメントにも対応 — 2つ選ぶだけで角がその場で丸くなります。",
+        "別々の2本のポリライン、またはポリラインと独立したLine/Arcをフィレットすると、1本のポリラインに結合されます。",
+        "新機能：RectangleにDimensionsオプションを追加 — Dを入力して幅と高さを指定でき、次回も記憶されます。",
+        "Export ManagerをJSONとDXFの左右2列に刷新し、それぞれが扱うエンティティの種類を一覧表示します。",
+        "Font+、Hatch+、Leader+、Leader-はFontAdd、HatchAdd、LeaderAdd、LeaderRemoveに、LwpolylineはPolylineになりました。",
+        "新しいLayerManagerコマンドを追加。Import、Font Manager、Hatch Manager、Page Setupも本物のコマンドとして動作します。",
+        "修正：DXF書き出しで色・線種・線の太さが誤った位置に書かれ、明示的なhairlineの太さが失われていました。",
+        "修正：Filletがすでに接しているポリラインの角を丸めたり、円弧の長い側を回ったりしなくなりました。",
+      ],
+    },
     {
       title: "Polyline：円弧セグメントとExplode；印刷マネージャーの修正とBlueprintスタイル",
       highlights: [
@@ -4695,6 +4866,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   pl: [
     {
+      title: "Fillet dla łuków i polilinii; przeprojektowany Export Manager",
+      highlights: [
+        "Fillet działa teraz na segmentach Arc i Polyline, nie tylko Line — wskaż dwa, a narożnik zostanie zaokrąglony w miejscu.",
+        "Zaokrąglenie dwóch osobnych polilinii albo polilinii i luźnej Line/Arc łączy je teraz w jedną polilinię.",
+        "Nowość: Rectangle zyskuje opcję Dimensions — wpisz D, podaj szerokość i wysokość; wartości zostaną zapamiętane.",
+        "Export Manager przeprojektowany na sąsiadujące kolumny JSON i DXF, każda z listą typów obiektów, które przenosi.",
+        "Font+, Hatch+, Leader+ i Leader- to teraz FontAdd, HatchAdd, LeaderAdd i LeaderRemove; Lwpolyline to teraz Polyline.",
+        "Nowe polecenie LayerManager; Import, Font Manager, Hatch Manager i Page Setup działają teraz jako prawdziwe polecenia.",
+        "Naprawiono: eksport DXF zapisywał kolor, typ i grubość linii w złym miejscu i pomijał jawną grubość hairline.",
+        "Naprawiono: Fillet nie zaokrągla już stycznego narożnika polilinii ani nie obchodzi łuku dłuższą drogą.",
+      ],
+    },
+    {
       title: "Polyline: segmenty łuku i Explode; poprawki menedżera druku i styl Blueprint",
       highlights: [
         "Nowość: Polyline zyskuje opcję Arc do umieszczania segmentów łuku podczas rysowania (domyślnie kontynuacja styczna) — Trim, Extend, Offset, Chamfer i wykrywanie przecięć rozpoznają teraz łuki, więc edycja polilinii z segmentami łuku działa tak samo jak z prostymi.",
@@ -5050,6 +5234,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   ko: [
+    {
+      title: "호와 폴리라인용 Fillet, Export Manager 재설계",
+      highlights: [
+        "Fillet이 Line뿐 아니라 Arc와 Polyline 세그먼트에서도 작동합니다 — 두 개를 선택하면 모서리가 그 자리에서 둥글게 됩니다.",
+        "서로 다른 두 폴리라인, 또는 폴리라인과 독립 Line/Arc를 필렛하면 이제 하나의 폴리라인으로 병합됩니다.",
+        "신규: Rectangle에 Dimensions 옵션 추가 — D를 입력하고 너비와 높이를 지정하면 다음에도 기억됩니다.",
+        "Export Manager를 JSON과 DXF 두 열로 나란히 재설계했으며, 각 열은 담고 있는 엔티티 유형을 나열합니다.",
+        "Font+, Hatch+, Leader+, Leader-가 FontAdd, HatchAdd, LeaderAdd, LeaderRemove로, Lwpolyline은 Polyline으로 바뀌었습니다.",
+        "새 LayerManager 명령 추가; Import, Font Manager, Hatch Manager, Page Setup도 이제 실제 명령으로 실행됩니다.",
+        "수정됨: DXF 내보내기가 색상, 선종류, 선가중치를 잘못된 위치에 기록하고 명시적 hairline 선가중치를 누락했습니다.",
+        "수정됨: Fillet이 이미 접하는 폴리라인 모서리를 둥글게 하거나 호의 먼 쪽으로 도는 문제를 해결했습니다.",
+      ],
+    },
     {
       title: "Polyline: 호(Arc) 세그먼트 & Explode; 인쇄 관리자 수정 및 Blueprint 스타일",
       highlights: [
@@ -5407,6 +5604,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   vi: [
     {
+      title: "Fillet cho cung tròn và polyline; Export Manager thiết kế lại",
+      highlights: [
+        "Fillet nay hoạt động trên đoạn Arc và Polyline, không chỉ Line — chọn hai đoạn và góc được bo ngay tại chỗ.",
+        "Bo góc hai polyline riêng biệt, hoặc một polyline với Line/Arc rời, nay hợp chúng thành một polyline duy nhất.",
+        "Mới: Rectangle có thêm tùy chọn Dimensions — gõ D, nhập chiều rộng và chiều cao; giá trị được nhớ cho lần sau.",
+        "Export Manager được thiết kế lại thành hai cột JSON và DXF cạnh nhau, mỗi cột liệt kê các loại đối tượng nó mang.",
+        "Font+, Hatch+, Leader+ và Leader- nay là FontAdd, HatchAdd, LeaderAdd và LeaderRemove; Lwpolyline nay là Polyline.",
+        "Lệnh LayerManager mới; Import, Font Manager, Hatch Manager và Page Setup nay chạy như lệnh thực thụ.",
+        "Đã sửa: xuất DXF ghi màu, kiểu nét và bề dày nét sai vị trí, đồng thời bỏ qua bề dày hairline được chỉ định rõ.",
+        "Đã sửa: Fillet không còn bo một góc polyline vốn đã tiếp tuyến, cũng không đi vòng đường dài quanh cung tròn.",
+      ],
+    },
+    {
       title: "Polyline: đoạn cung & Explode; sửa lỗi trình quản lý in và kiểu Blueprint",
       highlights: [
         "Mới: Polyline có tùy chọn Arc để đặt các đoạn cung khi vẽ (mặc định tiếp tục theo tiếp tuyến) — Trim, Extend, Offset, Chamfer và phát hiện giao điểm giờ đều nhận biết cung, nên chỉnh sửa một polyline có đoạn cung hoạt động giống như với đoạn thẳng.",
@@ -5762,6 +5972,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   th: [
+    {
+      title: "Fillet สำหรับส่วนโค้งและ polyline; ออกแบบ Export Manager ใหม่",
+      highlights: [
+        "Fillet ใช้ได้กับเซกเมนต์ Arc และ Polyline แล้ว ไม่ใช่แค่ Line — เลือกสองเส้นแล้วมุมจะถูกลบมุมโค้งทันที",
+        "การลบมุมโค้งระหว่างสอง polyline หรือ polyline กับ Line/Arc อิสระ จะรวมเป็น polyline เดียวแล้ว",
+        "ใหม่: Rectangle เพิ่มตัวเลือก Dimensions — พิมพ์ D ใส่ความกว้างและความสูง และค่าจะถูกจำไว้ครั้งถัดไป",
+        "ออกแบบ Export Manager ใหม่เป็นคอลัมน์ JSON และ DXF คู่กัน แต่ละคอลัมน์ระบุชนิดเอนทิตีที่รองรับ",
+        "Font+, Hatch+, Leader+ และ Leader- เปลี่ยนเป็น FontAdd, HatchAdd, LeaderAdd และ LeaderRemove; Lwpolyline เป็น Polyline",
+        "คำสั่ง LayerManager ใหม่; Import, Font Manager, Hatch Manager และ Page Setup ทำงานเป็นคำสั่งจริงแล้ว",
+        "แก้ไขแล้ว: การส่งออก DXF เขียนสี ชนิดเส้น และความหนาเส้นผิดตำแหน่ง และตัดความหนา hairline ที่ระบุไว้ทิ้ง",
+        "แก้ไขแล้ว: Fillet ไม่ลบมุมโค้งที่สัมผัสกันอยู่แล้ว และไม่อ้อมด้านยาวของส่วนโค้งอีกต่อไป",
+      ],
+    },
     {
       title: "Polyline: ส่วนโค้ง & Explode; แก้ไขตัวจัดการการพิมพ์และสไตล์ Blueprint",
       highlights: [
@@ -6119,6 +6342,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   ms: [
     {
+      title: "Fillet untuk lengkok dan polyline; Export Manager direka semula",
+      highlights: [
+        "Fillet kini berfungsi pada segmen Arc dan Polyline, bukan hanya Line — pilih dua dan sudutnya dibundarkan di situ.",
+        "Membundarkan dua polyline berasingan, atau polyline dengan Line/Arc bebas, kini menggabungkannya jadi satu polyline.",
+        "Baharu: Rectangle mendapat pilihan Dimensions — taip D, masukkan lebar dan tinggi; nilainya diingat kali berikutnya.",
+        "Export Manager direka semula sebagai lajur JSON dan DXF bersebelahan, setiap satu menyenaraikan jenis entiti yang dibawa.",
+        "Font+, Hatch+, Leader+ dan Leader- kini FontAdd, HatchAdd, LeaderAdd dan LeaderRemove; Lwpolyline kini Polyline.",
+        "Perintah LayerManager baharu; Import, Font Manager, Hatch Manager dan Page Setup kini berjalan sebagai perintah sebenar.",
+        "Dibaiki: eksport DXF menulis warna, jenis garis dan berat garis pada kedudukan salah serta membuang berat hairline eksplisit.",
+        "Dibaiki: Fillet tidak lagi membundarkan sudut polyline yang sudah tangen atau mengelilingi lengkok ikut jalan panjang.",
+      ],
+    },
+    {
       title: "Polyline: segmen Arc & Explode; pembaikan pengurus cetak dan gaya Blueprint",
       highlights: [
         "Baharu: Polyline mendapat pilihan Arc untuk meletakkan segmen lengkok semasa melukis (sambungan tangen secara lalai) — Trim, Extend, Offset, Chamfer, dan pengesanan persilangan kini semuanya sedar-lengkok, jadi menyunting polyline dengan segmen lengkok berfungsi sama seperti segmen lurus.",
@@ -6474,6 +6710,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   bn: [
+    {
+      title: "আর্ক ও পলিলাইনের জন্য Fillet; Export Manager-এর নতুন নকশা",
+      highlights: [
+        "Fillet এখন শুধু Line নয়, Arc ও Polyline সেগমেন্টেও কাজ করে — দুটি বেছে নিন, কোণটি সেখানেই গোল হবে।",
+        "দুটি আলাদা পলিলাইন, বা একটি পলিলাইন ও একটি আলগা Line/Arc গোল করলে এখন সেগুলি একটি পলিলাইনে মিশে যায়।",
+        "নতুন: Rectangle-এ Dimensions বিকল্প যোগ হয়েছে — D টাইপ করে প্রস্থ ও উচ্চতা দিন; পরেরবার মান মনে রাখা হয়।",
+        "Export Manager পাশাপাশি JSON ও DXF কলাম হিসেবে নতুন করে সাজানো হয়েছে, প্রতিটি তার এনটিটি ধরন তালিকাভুক্ত করে।",
+        "Font+, Hatch+, Leader+ ও Leader- এখন FontAdd, HatchAdd, LeaderAdd ও LeaderRemove; Lwpolyline এখন Polyline।",
+        "নতুন LayerManager কমান্ড; Import, Font Manager, Hatch Manager ও Page Setup এখন প্রকৃত কমান্ড হিসেবে চলে।",
+        "সমাধান করা হয়েছে: DXF রপ্তানি রং, লাইনটাইপ ও লাইনওয়েট ভুল জায়গায় লিখত এবং স্পষ্ট hairline লাইনওয়েট বাদ দিত।",
+        "সমাধান করা হয়েছে: Fillet আর আগে থেকেই স্পর্শক পলিলাইন কোণ গোল করে না, আর্কের লম্বা পথও ঘোরে না।",
+      ],
+    },
     {
       title: "Polyline: আর্ক সেগমেন্ট ও Explode; প্রিন্ট ম্যানেজার সংশোধন এবং Blueprint স্টাইল",
       highlights: [
@@ -6850,6 +7099,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   sw: [
+    {
+      title: "Fillet kwa arc na polyline; Export Manager imeundwa upya",
+      highlights: [
+        "Fillet sasa inafanya kazi kwenye sehemu za Arc na Polyline, si Line pekee — chagua mbili na pembe inazungushwa papo hapo.",
+        "Kuzungusha polyline mbili tofauti, au polyline na Line/Arc huru, sasa kunaziunganisha kuwa polyline moja.",
+        "Mpya: Rectangle imepata chaguo la Dimensions — andika D, weka upana na urefu; thamani hukumbukwa wakati ujao.",
+        "Export Manager imeundwa upya kama safu za JSON na DXF pembeni, kila moja ikiorodhesha aina za entiti inazobeba.",
+        "Font+, Hatch+, Leader+ na Leader- sasa ni FontAdd, HatchAdd, LeaderAdd na LeaderRemove; Lwpolyline sasa ni Polyline.",
+        "Amri mpya ya LayerManager; Import, Font Manager, Hatch Manager na Page Setup sasa hufanya kazi kama amri halisi.",
+        "Imerekebishwa: usafirishaji wa DXF uliandika rangi, aina ya mstari na uzito mahali pasipo sahihi na kuacha uzito hairline.",
+        "Imerekebishwa: Fillet haizungushi tena pembe ya polyline iliyo tayari tangent wala kuzunguka arc kwa njia ndefu.",
+      ],
+    },
     {
       title: "Polyline: sehemu za Arc na Explode; masahihisho ya kidhibiti cha uchapishaji na mtindo wa Blueprint",
       highlights: [
@@ -7228,6 +7490,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
 
   ur: [
     {
+      title: "آرکس اور پولی لائنز کے لیے Fillet؛ Export Manager کی نئی ساخت",
+      highlights: [
+        "Fillet اب صرف Line نہیں بلکہ Arc اور Polyline سیگمنٹس پر بھی کام کرتا ہے — دو منتخب کریں اور کونا وہیں گول ہو جائے گا۔",
+        "دو الگ پولی لائنز، یا ایک پولی لائن اور آزاد Line/Arc کو گول کرنے پر اب وہ ایک ہی پولی لائن میں ضم ہو جاتی ہیں۔",
+        "نیا: Rectangle کو Dimensions آپشن ملا — D ٹائپ کریں، چوڑائی اور اونچائی درج کریں؛ اقدار اگلی بار یاد رہیں گی۔",
+        "Export Manager کو ساتھ ساتھ JSON اور DXF کالمز کے طور پر نئے سرے سے ڈیزائن کیا گیا، ہر ایک اپنی اینٹٹی اقسام درج کرتا ہے۔",
+        "Font+، Hatch+، Leader+ اور Leader- اب FontAdd، HatchAdd، LeaderAdd اور LeaderRemove ہیں؛ Lwpolyline اب Polyline ہے۔",
+        "نیا LayerManager کمانڈ؛ Import، Font Manager، Hatch Manager اور Page Setup اب حقیقی کمانڈ کے طور پر چلتے ہیں۔",
+        "درست کیا گیا: DXF ایکسپورٹ رنگ، لائن ٹائپ اور لائن ویٹ کو غلط جگہ لکھتا اور واضح hairline لائن ویٹ چھوڑ دیتا تھا۔",
+        "درست کیا گیا: Fillet اب پہلے سے مماسی پولی لائن کونے کو گول نہیں کرتا اور نہ آرک کا لمبا راستہ لیتا ہے۔",
+      ],
+    },
+    {
       title: "Polyline: Arc سیگمنٹس اور Explode؛ پرنٹ مینیجر کی اصلاحات اور Blueprint اسٹائل",
       highlights: [
         "نیا: Polyline کو ڈرائنگ کے دوران آرک سیگمنٹس رکھنے کے لیے Arc آپشن ملتا ہے (ڈیفالٹ پر tangent-continuation) — Trim، Extend، Offset، Chamfer، اور انٹرسیکشن ڈیٹیکشن اب سب آرک سے واقف ہیں، اس لیے آرک سیگمنٹس والی پولی لائن میں ترمیم بالکل سیدھی پولی لائن کی طرح کام کرتی ہے۔",
@@ -7342,6 +7617,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
 
   el: [
     {
+      title: "Fillet για τόξα και πολυγραμμές· ανασχεδιασμένος Export Manager",
+      highlights: [
+        "Το Fillet λειτουργεί πλέον σε τμήματα Arc και Polyline, όχι μόνο Line — επιλέξτε δύο και η γωνία στρογγυλεύει επιτόπου.",
+        "Η στρογγύλευση δύο ξεχωριστών πολυγραμμών, ή μιας πολυγραμμής με μεμονωμένη Line/Arc, τις ενώνει πλέον σε μία.",
+        "Νέο: Το Rectangle αποκτά επιλογή Dimensions — πληκτρολογήστε D, δώστε πλάτος και ύψος· οι τιμές απομνημονεύονται.",
+        "Ο Export Manager ανασχεδιάστηκε σε παράλληλες στήλες JSON και DXF, καθεμία με τους τύπους οντοτήτων που μεταφέρει.",
+        "Τα Font+, Hatch+, Leader+ και Leader- είναι πλέον FontAdd, HatchAdd, LeaderAdd και LeaderRemove· το Lwpolyline έγινε Polyline.",
+        "Νέα εντολή LayerManager· τα Import, Font Manager, Hatch Manager και Page Setup εκτελούνται πλέον ως κανονικές εντολές.",
+        "Διορθώθηκε: η εξαγωγή DXF έγραφε χρώμα, τύπο και πάχος γραμμής σε λάθος θέση και απέρριπτε ρητό πάχος hairline.",
+        "Διορθώθηκε: το Fillet δεν στρογγυλεύει πια ήδη εφαπτομενική γωνία πολυγραμμής ούτε ακολουθεί τη μεγάλη διαδρομή του τόξου.",
+      ],
+    },
+    {
       title: "Polyline: τμήματα τόξου & Explode· διορθώσεις διαχειριστή εκτύπωσης και στυλ Blueprint",
       highlights: [
         "Νέο: Το Polyline αποκτά μια επιλογή Arc για τοποθέτηση τμημάτων τόξου κατά τη σχεδίαση (συνέχιση εφαπτόμενης από προεπιλογή) — τα Trim, Extend, Offset, Chamfer και η ανίχνευση τομών αναγνωρίζουν πλέον τόξα, οπότε η επεξεργασία μιας πολυγραμμής με τμήματα τόξου λειτουργεί όπως και με ευθύγραμμα τμήματα.",
@@ -7454,6 +7742,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     { title: 'Αναβάθμιση Angular, τεκμηρίωση & προσαρμοστικό πλέγμα', highlights: ['Αναβάθμιση Angular 19 → 20 → 21', 'Πλήρης ιστότοπος τεκμηρίωσης εντολών', 'Προσαρμοστικό πλέγμα CAD', 'Πίνακας ιστορικού (Αναίρεση / Ιστορικό / Επανάληψη)'] },
   ],
   pa: [
+    {
+      title: "ਆਰਕ ਤੇ ਪੌਲੀਲਾਈਨ ਲਈ Fillet; Export Manager ਦਾ ਨਵਾਂ ਡਿਜ਼ਾਈਨ",
+      highlights: [
+        "Fillet ਹੁਣ ਸਿਰਫ਼ Line ਨਹੀਂ, Arc ਅਤੇ Polyline ਸੈਗਮੈਂਟਾਂ 'ਤੇ ਵੀ ਕੰਮ ਕਰਦਾ ਹੈ — ਦੋ ਚੁਣੋ ਤੇ ਕੋਨਾ ਉੱਥੇ ਹੀ ਗੋਲ ਹੋ ਜਾਂਦਾ ਹੈ।",
+        "ਦੋ ਵੱਖਰੀਆਂ ਪੌਲੀਲਾਈਨਾਂ, ਜਾਂ ਇੱਕ ਪੌਲੀਲਾਈਨ ਤੇ ਵੱਖਰੀ Line/Arc ਨੂੰ ਗੋਲ ਕਰਨ 'ਤੇ ਹੁਣ ਇਹ ਇੱਕੋ ਪੌਲੀਲਾਈਨ ਬਣ ਜਾਂਦੀਆਂ ਹਨ।",
+        "ਨਵਾਂ: Rectangle ਨੂੰ Dimensions ਵਿਕਲਪ ਮਿਲਿਆ — D ਟਾਈਪ ਕਰੋ, ਚੌੜਾਈ ਤੇ ਉਚਾਈ ਭਰੋ; ਅਗਲੀ ਵਾਰ ਇਹ ਯਾਦ ਰਹਿੰਦੇ ਹਨ।",
+        "Export Manager ਨੂੰ ਨਾਲ-ਨਾਲ JSON ਤੇ DXF ਕਾਲਮਾਂ ਵਜੋਂ ਨਵਾਂ ਰੂਪ ਦਿੱਤਾ, ਹਰੇਕ ਆਪਣੀਆਂ ਐਂਟਿਟੀ ਕਿਸਮਾਂ ਦੱਸਦਾ ਹੈ।",
+        "Font+, Hatch+, Leader+ ਤੇ Leader- ਹੁਣ FontAdd, HatchAdd, LeaderAdd ਤੇ LeaderRemove ਹਨ; Lwpolyline ਹੁਣ Polyline ਹੈ।",
+        "ਨਵਾਂ LayerManager ਕਮਾਂਡ; Import, Font Manager, Hatch Manager ਤੇ Page Setup ਹੁਣ ਅਸਲੀ ਕਮਾਂਡ ਵਜੋਂ ਚੱਲਦੇ ਹਨ।",
+        "ਠੀਕ ਕੀਤਾ ਗਿਆ: DXF ਨਿਰਯਾਤ ਰੰਗ, ਲਾਈਨਟਾਈਪ ਤੇ ਲਾਈਨਵੇਟ ਗਲਤ ਥਾਂ ਲਿਖਦਾ ਸੀ ਅਤੇ ਸਪਸ਼ਟ hairline ਲਾਈਨਵੇਟ ਛੱਡ ਦਿੰਦਾ ਸੀ।",
+        "ਠੀਕ ਕੀਤਾ ਗਿਆ: Fillet ਹੁਣ ਪਹਿਲਾਂ ਤੋਂ ਸਪਰਸ਼ ਪੌਲੀਲਾਈਨ ਕੋਨੇ ਨੂੰ ਗੋਲ ਨਹੀਂ ਕਰਦਾ ਨਾ ਹੀ ਆਰਕ ਦਾ ਲੰਮਾ ਰਾਹ ਲੈਂਦਾ ਹੈ।",
+      ],
+    },
     {
       title: "Polyline: Arc ਸੈਗਮੈਂਟਸ ਅਤੇ Explode; ਪ੍ਰਿੰਟ ਮੈਨੇਜਰ ਸੁਧਾਰ ਅਤੇ Blueprint ਸਟਾਈਲ",
       highlights: [
@@ -7811,6 +8112,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   sv: [
     {
+      title: "Fillet för bågar och polylinjer; omgjord Export Manager",
+      highlights: [
+        "Fillet fungerar nu på Arc- och Polyline-segment, inte bara Line — välj två så rundas hörnet på plats.",
+        "Att runda två separata polylinjer, eller en polylinje och en fristående Line/Arc, slår nu ihop dem till en polylinje.",
+        "Nytt: Rectangle får ett Dimensions-alternativ — skriv D, ange bredd och höjd; värdena kommer ihåg till nästa gång.",
+        "Export Manager omgjord med JSON- och DXF-kolumner sida vid sida, var och en listar de entitetstyper den bär.",
+        "Font+, Hatch+, Leader+ och Leader- heter nu FontAdd, HatchAdd, LeaderAdd och LeaderRemove; Lwpolyline heter nu Polyline.",
+        "Nytt LayerManager-kommando; Import, Font Manager, Hatch Manager och Page Setup körs nu som riktiga kommandon.",
+        "Fixat: DXF-export skrev färg, linjetyp och linjebredd på fel position och tappade en uttrycklig hairline-bredd.",
+        "Fixat: Fillet rundar inte längre ett redan tangerande polylinjehörn och tar inte den långa vägen runt en båge.",
+      ],
+    },
+    {
       title: "Polyline: bågsegment & Explode; korrigeringar för Utskriftshanteraren och Blueprint-stil",
       highlights: [
         "Nytt: Polyline får ett Arc-alternativ för att placera bågsegment medan du ritar (tangentfortsättning som standard) — Trim, Extend, Offset, Chamfer och skärningsdetektering är nu alla bågmedvetna, så att redigera en polyline med bågsegment fungerar likadant som med raka segment.",
@@ -8166,6 +8480,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   tl: [
+    {
+      title: "Fillet para sa arc at polyline; bagong disenyo ng Export Manager",
+      highlights: [
+        "Gumagana na ang Fillet sa mga segment na Arc at Polyline, hindi lang Line — pumili ng dalawa at bibilugan ang sulok.",
+        "Ang pag-fillet ng dalawang magkahiwalay na polyline, o polyline at hiwalay na Line/Arc, ay pinagsasama na sa isang polyline.",
+        "Bago: May Dimensions na opsyon ang Rectangle — i-type ang D, ilagay ang lapad at taas; naaalala ito sa susunod.",
+        "Binago ang disenyo ng Export Manager bilang magkatabing hanay ng JSON at DXF, bawat isa'y naglilista ng mga uri ng entity.",
+        "Ang Font+, Hatch+, Leader+ at Leader- ay FontAdd, HatchAdd, LeaderAdd at LeaderRemove na; Polyline na ang Lwpolyline.",
+        "Bagong LayerManager na command; tumatakbo na bilang tunay na command ang Import, Font Manager, Hatch Manager at Page Setup.",
+        "Naayos na: mali ang posisyon ng kulay, linetype at lineweight sa DXF export, at nawawala ang tahasang hairline na lineweight.",
+        "Naayos na: hindi na bibilugan ng Fillet ang sulok ng polyline na tangent na, ni iikot sa mahabang bahagi ng arc.",
+      ],
+    },
     {
       title: "Polyline: Arc segments & Explode; ayos sa Print Manager at Blueprint na style",
       highlights: [
@@ -8524,6 +8851,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
 
   nl: [
     {
+      title: "Fillet voor bogen en polylijnen; vernieuwde Export Manager",
+      highlights: [
+        "Fillet werkt nu op Arc- en Polyline-segmenten, niet alleen Line — kies er twee en de hoek wordt ter plekke afgerond.",
+        "Twee losse polylijnen afronden, of een polylijn met een losse Line/Arc, voegt ze nu samen tot één polylijn.",
+        "Nieuw: Rectangle krijgt een Dimensions-optie — typ D, voer breedte en hoogte in; de waarden worden onthouden.",
+        "Export Manager vernieuwd met JSON- en DXF-kolommen naast elkaar, elk met de entiteitstypen die ze meenemen.",
+        "Font+, Hatch+, Leader+ en Leader- heten nu FontAdd, HatchAdd, LeaderAdd en LeaderRemove; Lwpolyline heet nu Polyline.",
+        "Nieuw LayerManager-commando; Import, Font Manager, Hatch Manager en Page Setup draaien nu als echte commando's.",
+        "Opgelost: DXF-export schreef kleur, lijntype en lijndikte op de verkeerde plek en liet een expliciete hairline-dikte vallen.",
+        "Opgelost: Fillet rondt een al rakende polylijnhoek niet meer af en neemt niet meer de lange weg om een boog.",
+      ],
+    },
+    {
       title: "Polyline: boogsegmenten & Explode; correcties printmanager en Blueprint-stijl",
       highlights: [
         "Nieuw: Polyline krijgt een Arc-optie om boogsegmenten te plaatsen tijdens het tekenen (standaard tangentiële voortzetting) — Trim, Extend, Offset, Chamfer en intersectiedetectie zijn nu allemaal boogbewust, zodat het bewerken van een polyline met boogsegmenten hetzelfde werkt als met rechte segmenten.",
@@ -8880,6 +9220,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
 
   he: [
+    {
+      title: "Fillet לקשתות ולפוליליינים; עיצוב מחדש של Export Manager",
+      highlights: [
+        "Fillet פועל כעת גם על מקטעי Arc ו-Polyline, לא רק Line — בחרו שניים והפינה תעוגל במקום.",
+        "עיגול שני פוליליינים נפרדים, או פוליליין ו-Line/Arc בודדים, מאחד אותם כעת לפוליליין יחיד.",
+        "חדש: Rectangle מקבל אפשרות Dimensions — הקלידו D, הזינו רוחב וגובה; הערכים נשמרים לפעם הבאה.",
+        "Export Manager עוצב מחדש כשתי עמודות JSON ו-DXF זו לצד זו, כל אחת מפרטת את סוגי הישויות שהיא נושאת.",
+        "Font+, Hatch+, Leader+ ו-Leader- הם כעת FontAdd, HatchAdd, LeaderAdd ו-LeaderRemove; ו-Lwpolyline הוא כעת Polyline.",
+        "פקודת LayerManager חדשה; Import, Font Manager, Hatch Manager ו-Page Setup פועלים כעת כפקודות אמיתיות.",
+        "תוקן: ייצוא DXF כתב צבע, סוג קו ועובי קו במיקום שגוי והשמיט עובי hairline מפורש.",
+        "תוקן: Fillet כבר לא מעגל פינת פוליליין משיקה ולא עוקף קשת בדרך הארוכה.",
+      ],
+    },
     {
       title: "Polyline: קטעי קשת ו-Explode; תיקוני מנהל ההדפסה וסגנון Blueprint",
       highlights: [
@@ -9238,6 +9591,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
 
   ha: [
     {
+      title: "Fillet don baka da polyline; sabon tsarin Export Manager",
+      highlights: [
+        "Fillet yanzu yana aiki a kan sassan Arc da Polyline, ba Line kaɗai ba — zaɓi biyu sai kusurwa ta zagaye a wurin.",
+        "Zagaye polyline biyu daban, ko polyline da Line/Arc mai zaman kansa, yanzu yana haɗa su zuwa polyline guda.",
+        "Sabo: Rectangle ya sami zaɓin Dimensions — rubuta D, shigar da faɗi da tsayi; ana tuna su a lokaci na gaba.",
+        "An sake tsara Export Manager a matsayin ginshiƙan JSON da DXF gefe da gefe, kowanne yana lissafa nau'ikan abubuwan da yake ɗauka.",
+        "Font+, Hatch+, Leader+ da Leader- yanzu su ne FontAdd, HatchAdd, LeaderAdd da LeaderRemove; Lwpolyline yanzu Polyline ne.",
+        "Sabon umarnin LayerManager; Import, Font Manager, Hatch Manager da Page Setup yanzu suna gudana a matsayin umarni na gaske.",
+        "An gyara: fitar da DXF yana rubuta launi, nau'in layi da kauri a wuri mara kyau kuma yana watsi da kaurin hairline.",
+        "An gyara: Fillet ba ya sake zagaye kusurwar polyline da ta riga ta yi tangent ba, kuma ba ya bin dogon hanyar baka.",
+      ],
+    },
+    {
       title: "Polyline: sassan Arc & Explode; gyare-gyaren manajan bugawa da salon Blueprint",
       highlights: [
         "Sabo: Polyline yanzu tana da zaɓin Arc don sanya sassan baka yayin zana (tangent-continuation ta tsoho) — Trim, Extend, Offset, Chamfer, da gano mahaɗa duk yanzu suna sanin baka, don haka gyara polyline mai sassan baka yana aiki daidai da layin madaidaici.",
@@ -9594,6 +9960,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
 
   no: [
+    {
+      title: "Fillet for buer og polylinjer; omarbeidet Export Manager",
+      highlights: [
+        "Fillet virker nå på Arc- og Polyline-segmenter, ikke bare Line — velg to, så avrundes hjørnet på stedet.",
+        "Å avrunde to separate polylinjer, eller en polylinje og en løs Line/Arc, slår dem nå sammen til én polylinje.",
+        "Nytt: Rectangle får et Dimensions-alternativ — skriv D, oppgi bredde og høyde; verdiene huskes til neste gang.",
+        "Export Manager omarbeidet med JSON- og DXF-kolonner side om side, hver med entitetstypene den tar med.",
+        "Font+, Hatch+, Leader+ og Leader- heter nå FontAdd, HatchAdd, LeaderAdd og LeaderRemove; Lwpolyline heter nå Polyline.",
+        "Ny LayerManager-kommando; Import, Font Manager, Hatch Manager og Page Setup kjører nå som ekte kommandoer.",
+        "Fikset: DXF-eksport skrev farge, linjetype og linjebredde på feil plass og forkastet en eksplisitt hairline-bredde.",
+        "Fikset: Fillet avrunder ikke lenger et allerede tangerende polylinjehjørne og tar ikke den lange veien rundt en bue.",
+      ],
+    },
     {
       title: "Polyline: buesegmenter & Explode; korrigeringer for Print Manager og Blueprint-stil",
       highlights: [
@@ -9952,6 +10331,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
 
   da: [
     {
+      title: "Fillet til buer og polylinjer; nydesignet Export Manager",
+      highlights: [
+        "Fillet virker nu på Arc- og Polyline-segmenter, ikke kun Line — vælg to, og hjørnet afrundes på stedet.",
+        "At afrunde to separate polylinjer, eller en polylinje og en løs Line/Arc, samler dem nu til én polylinje.",
+        "Nyt: Rectangle får en Dimensions-mulighed — skriv D, angiv bredde og højde; værdierne huskes til næste gang.",
+        "Export Manager nydesignet med JSON- og DXF-kolonner side om side, hver med de entitetstyper den indeholder.",
+        "Font+, Hatch+, Leader+ og Leader- hedder nu FontAdd, HatchAdd, LeaderAdd og LeaderRemove; Lwpolyline hedder nu Polyline.",
+        "Ny LayerManager-kommando; Import, Font Manager, Hatch Manager og Page Setup kører nu som rigtige kommandoer.",
+        "Rettet: DXF-eksport skrev farve, linjetype og linjetykkelse på forkert plads og udelod en eksplicit hairline-tykkelse.",
+        "Rettet: Fillet afrunder ikke længere et allerede tangerende polylinjehjørne og tager ikke den lange vej rundt om en bue.",
+      ],
+    },
+    {
       title: "Polyline: buesegmenter & Explode; rettelser til Print Manager og Blueprint-stil",
       highlights: [
         "Nyt: Polyline får en Arc-mulighed til at placere buesegmenter, mens du tegner (tangentfortsættelse som standard) — Trim, Extend, Offset, Chamfer og skæringsdetektion er nu alle buebevidste, så redigering af en polylinje med buesegmenter fungerer på samme måde som med lige segmenter.",
@@ -10308,6 +10700,19 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
 
   fi: [
+    {
+      title: "Fillet kaarille ja polylineille; uudistettu Export Manager",
+      highlights: [
+        "Fillet toimii nyt Arc- ja Polyline-segmenteillä, ei vain Line-viivoilla — valitse kaksi, ja kulma pyöristyy paikalleen.",
+        "Kahden erillisen polylinen, tai polylinen ja irrallisen Line/Arc-objektin pyöristys yhdistää ne nyt yhdeksi polylineksi.",
+        "Uutta: Rectangle saa Dimensions-valinnan — kirjoita D, anna leveys ja korkeus; arvot muistetaan seuraavalla kerralla.",
+        "Export Manager uudistettu rinnakkaisiksi JSON- ja DXF-sarakkeiksi, joissa kummassakin luetellaan sisältyvät objektityypit.",
+        "Font+, Hatch+, Leader+ ja Leader- ovat nyt FontAdd, HatchAdd, LeaderAdd ja LeaderRemove; Lwpolyline on nyt Polyline.",
+        "Uusi LayerManager-komento; Import, Font Manager, Hatch Manager ja Page Setup toimivat nyt oikeina komentoina.",
+        "Korjattu: DXF-vienti kirjoitti värin, viivatyypin ja viivanleveyden väärään kohtaan ja hylkäsi nimenomaisen hairline-leveyden.",
+        "Korjattu: Fillet ei enää pyöristä jo tangenttista polylinen kulmaa eikä kierrä kaarta pitkää kautta.",
+      ],
+    },
     {
       title: "Polyline: kaarisegmentit & Explode; Print Managerin korjaukset ja Blueprint-tyyli",
       highlights: [
