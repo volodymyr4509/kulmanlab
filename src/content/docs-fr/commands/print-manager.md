@@ -1,6 +1,6 @@
 ---
 title: Gestionnaire d'impression — Exporter le dessin en PNG, JPEG, WebP ou PDF
-description: La commande print ouvre le Gestionnaire d'impression — une fenêtre d'export dédiée avec un aperçu en temps réel qui correspond exactement au fichier exporté, un réglage Qualité/DPI, un sélecteur de format, un style d'impression Default/Monochrome/Blueprint et une sélection de zone optionnelle. Prend en charge PNG, JPEG, WebP et PDF.
+description: La commande PrintManager ouvre le Gestionnaire d'impression — une fenêtre d'export dédiée avec un aperçu en temps réel qui correspond exactement au fichier exporté, un réglage Qualité/DPI, un sélecteur de format, un style d'impression Default/Monochrome/Blueprint et une sélection de zone optionnelle. Prend en charge PNG, JPEG, WebP et PDF.
 keywords: [exporter PNG CAO, exporter PDF CAO, imprimer dessin CAO, gestionnaire impression, qualité d'impression DPI, export niveaux de gris, style d'impression blueprint, export kulmanlab]
 group: file
 order: 4
@@ -8,11 +8,11 @@ order: 4
 
 # Gestionnaire d'impression
 
-La commande `print` ouvre le **Gestionnaire d'impression** — une fenêtre d'export dédiée avec un canevas d'aperçu en temps réel, un sélecteur de format (PNG / JPEG / WebP / PDF), un sélecteur de Style (Default / Monochrome / Blueprint) et un recadrage de zone optionnel. Rien n'est envoyé à une imprimante physique ; le résultat est téléchargé comme fichier.
+La commande `PrintManager` ouvre le **Gestionnaire d'impression** — une fenêtre d'export dédiée avec un canevas d'aperçu en temps réel, un sélecteur de format (PNG / JPEG / WebP / PDF), un sélecteur de Style (Default / Monochrome / Blueprint) et un recadrage de zone optionnel. Rien n'est envoyé à une imprimante physique ; le résultat est téléchargé comme fichier.
 
 ## Ouvrir le Gestionnaire d'impression
 
-Cliquez sur le bouton **Print** dans la barre d'outils ou tapez `print` dans le terminal. Le Gestionnaire d'impression s'ouvre immédiatement en affichant un aperçu du viewport actuel.
+Cliquez sur le bouton **Print** dans la barre d'outils ou tapez `PrintManager` dans le terminal. Le Gestionnaire d'impression s'ouvre immédiatement en affichant un aperçu du viewport actuel.
 
 L'aperçu est rendu exactement via le même chemin de code, à exactement la même résolution en pixels, que le fichier que vous finirez par exporter — changer la Qualité, le Style ou la zone d'export re-rend immédiatement l'aperçu, donc ce que vous voyez est ce qui est téléchargé, pas une approximation.
 

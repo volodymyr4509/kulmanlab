@@ -1,6 +1,6 @@
 ---
 title: Print Manager — I-export ang Drawing bilang PNG, JPEG, WebP, o PDF
-description: Binubuksan ng print command ang Print Manager — isang dedikadong export window na may live preview na eksaktong tumutugma sa na-export na file, isang setting ng Quality/DPI, format selector, isang Default/Monochrome/Blueprint na print style, at opsyonal na area selection. Sinusuportahan ang PNG, JPEG, WebP, at PDF.
+description: Binubuksan ng PrintManager command ang Print Manager — isang dedikadong export window na may live preview na eksaktong tumutugma sa na-export na file, isang setting ng Quality/DPI, format selector, isang Default/Monochrome/Blueprint na print style, at opsyonal na area selection. Sinusuportahan ang PNG, JPEG, WebP, at PDF.
 keywords: [CAD export PNG, CAD export PDF, i-print ang CAD drawing, print manager, print quality DPI, monochrome export, blueprint print style, kulmanlab export]
 group: file
 order: 4
@@ -8,11 +8,11 @@ order: 4
 
 # Print Manager
 
-Binubuksan ng `print` command ang **Print Manager** — isang dedikadong export window na may live preview canvas, format selector (PNG / JPEG / WebP / PDF), isang Style selector (Default / Monochrome / Blueprint), at opsyonal na area crop. Walang ipinapadala sa physical printer; ang output ay ida-download bilang isang file.
+Binubuksan ng `PrintManager` command ang **Print Manager** — isang dedikadong export window na may live preview canvas, format selector (PNG / JPEG / WebP / PDF), isang Style selector (Default / Monochrome / Blueprint), at opsyonal na area crop. Walang ipinapadala sa physical printer; ang output ay ida-download bilang isang file.
 
 ## Pagbukas ng Print Manager
 
-I-click ang **Print** toolbar button o i-type ang `print` sa terminal. Agad na magbubukas ang Print Manager na nagpapakita ng preview ng kasalukuyang viewport.
+I-click ang **Print** toolbar button o i-type ang `PrintManager` sa terminal. Agad na magbubukas ang Print Manager na nagpapakita ng preview ng kasalukuyang viewport.
 
 Ang preview ay nire-render sa eksaktong parehong code path, sa eksaktong parehong pixel resolution, gaya ng file na sa huli ay i-e-export mo — ang pagbabago ng Quality, Style, o export area ay agad na nagre-render ulit ng preview, kaya ang nakikita mo ay ang mismong ida-download, hindi lang tantiya nito.
 

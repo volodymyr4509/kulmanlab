@@ -1,6 +1,6 @@
 ---
 title: Druck-Manager — Zeichnung als PNG, JPEG, WebP oder PDF exportieren
-description: Der Befehl print öffnet den Druck-Manager — ein dediziertes Exportfenster mit einer Live-Vorschau, die exakt dem exportierten Bild entspricht, einer Qualität/DPI-Einstellung, Formatselektor, einem Default/Monochrome/Blueprint-Druckstil und optionaler Bereichsauswahl. Unterstützt PNG, JPEG, WebP und PDF.
+description: Der Befehl PrintManager öffnet den Druck-Manager — ein dediziertes Exportfenster mit einer Live-Vorschau, die exakt dem exportierten Bild entspricht, einer Qualität/DPI-Einstellung, Formatselektor, einem Default/Monochrome/Blueprint-Druckstil und optionaler Bereichsauswahl. Unterstützt PNG, JPEG, WebP und PDF.
 keywords: [CAD PNG exportieren, CAD PDF exportieren, CAD-Zeichnung drucken, Druck-Manager, Druckqualität DPI, Monochrom-Export, Blueprint-Druckstil, kulmanlab exportieren]
 group: file
 order: 4
@@ -8,11 +8,11 @@ order: 4
 
 # Druck-Manager
 
-Der Befehl `print` öffnet den **Druck-Manager** — ein dediziertes Exportfenster mit einer Live-Vorschau-Zeichenfläche, Formatselektor (PNG / JPEG / WebP / PDF), einem Stil-Selektor (Default / Monochrome / Blueprint) und optionalem Bereichszuschnitt. Es wird nichts an einen physischen Drucker gesendet; die Ausgabe wird als Datei heruntergeladen.
+Der Befehl `PrintManager` öffnet den **Druck-Manager** — ein dediziertes Exportfenster mit einer Live-Vorschau-Zeichenfläche, Formatselektor (PNG / JPEG / WebP / PDF), einem Stil-Selektor (Default / Monochrome / Blueprint) und optionalem Bereichszuschnitt. Es wird nichts an einen physischen Drucker gesendet; die Ausgabe wird als Datei heruntergeladen.
 
 ## Den Druck-Manager öffnen
 
-Klicken Sie auf die Schaltfläche **Print** in der Symbolleiste oder geben Sie `print` im Terminal ein. Der Druck-Manager öffnet sich sofort mit einer Vorschau des aktuellen Ansichtsfensters.
+Klicken Sie auf die Schaltfläche **Print** in der Symbolleiste oder geben Sie `PrintManager` im Terminal ein. Der Druck-Manager öffnet sich sofort mit einer Vorschau des aktuellen Ansichtsfensters.
 
 Die Vorschau wird über exakt denselben Code-Pfad, in exakt derselben Pixelauflösung gerendert wie die Datei, die Sie letztlich exportieren — eine Änderung von Qualität, Stil oder Exportbereich rendert die Vorschau sofort neu, sodass das, was Sie sehen, genau dem entspricht, was heruntergeladen wird, keine Annäherung.
 

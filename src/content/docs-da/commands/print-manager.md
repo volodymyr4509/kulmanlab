@@ -1,6 +1,6 @@
 ---
 title: Print Manager — Eksportér som PNG, JPEG, WebP eller PDF
-description: Print-kommandoen åbner Print Manager — et dedikeret eksportvindue med en live forhåndsvisning der matcher den eksporterede fil nøjagtigt, en Kvalitet/DPI-indstilling, formatvælger, en Default/Monochrome/Blueprint-printstil og valgfri områdemarkering. Understøtter PNG, JPEG, WebP og PDF.
+description: PrintManager-kommandoen åbner Print Manager — et dedikeret eksportvindue med en live forhåndsvisning der matcher den eksporterede fil nøjagtigt, en Kvalitet/DPI-indstilling, formatvælger, en Default/Monochrome/Blueprint-printstil og valgfri områdemarkering. Understøtter PNG, JPEG, WebP og PDF.
 keywords: [CAD eksportér PNG, CAD eksportér PDF, print CAD-tegning, print manager, printkvalitet DPI, monokrom eksport, blueprint printstil, kulmanlab eksport]
 group: file
 order: 4
@@ -8,11 +8,11 @@ order: 4
 
 # Print Manager
 
-Kommandoen `print` åbner **Print Manager** — et dedikeret eksportvindue med et levende forhåndsvisningslærred, formatvælger (PNG / JPEG / WebP / PDF), en Style-vælger (Default / Monochrome / Blueprint) og valgfri områdebeskæring. Intet sendes til en fysisk printer — output downloades som en fil.
+Kommandoen `PrintManager` åbner **Print Manager** — et dedikeret eksportvindue med et levende forhåndsvisningslærred, formatvælger (PNG / JPEG / WebP / PDF), en Style-vælger (Default / Monochrome / Blueprint) og valgfri områdebeskæring. Intet sendes til en fysisk printer — output downloades som en fil.
 
 ## Åbne Print Manager
 
-Klik på **Print**-knappen i værktøjslinjen eller skriv `print` i terminalen. Print Manager åbnes straks og viser en forhåndsvisning af den aktuelle viewport.
+Klik på **Print**-knappen i værktøjslinjen eller skriv `PrintManager` i terminalen. Print Manager åbnes straks og viser en forhåndsvisning af den aktuelle viewport.
 
 Forhåndsvisningen renderes gennem nøjagtig samme kodesti, i nøjagtig samme pixelopløsning, som den fil du til sidst eksporterer — ændring af Quality, Style eller eksportområdet genrenderer forhåndsvisningen med det samme, så det du ser, er det der downloades, ikke en tilnærmelse.
 

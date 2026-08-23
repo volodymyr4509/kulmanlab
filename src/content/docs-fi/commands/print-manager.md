@@ -1,6 +1,6 @@
 ---
 title: Print Manager — Vie PNG-, JPEG-, WebP- tai PDF-muodossa
-description: print-komento avaa Print Managerin — omistetun vientinäkymän elävällä esikatselulla, joka vastaa tarkalleen vietävää tiedostoa, Laatu/DPI-asetuksella, muotovalitsimella, Default/Monochrome/Blueprint-tulostustyylillä ja valinnaisella aluevalinnalla. Tukee PNG-, JPEG-, WebP- ja PDF-muotoja.
+description: PrintManager-komento avaa Print Managerin — omistetun vientinäkymän elävällä esikatselulla, joka vastaa tarkalleen vietävää tiedostoa, Laatu/DPI-asetuksella, muotovalitsimella, Default/Monochrome/Blueprint-tulostustyylillä ja valinnaisella aluevalinnalla. Tukee PNG-, JPEG-, WebP- ja PDF-muotoja.
 keywords: [CAD vie PNG, CAD vie PDF, tulosta CAD-piirustus, print manager, tulostuslaatu DPI, mustavalkoinen vienti, blueprint-tulostustyyli, kulmanlab vienti]
 group: file
 order: 4
@@ -8,11 +8,11 @@ order: 4
 
 # Print Manager
 
-Komento `print` avaa **Print Managerin** — omistetun vientinäkymän elävällä esikatselupiirtoalueella, muotovalitsimella (PNG / JPEG / WebP / PDF), tyylivalitsimella (Default / Monochrome / Blueprint) ja valinnaisella alueen rajauksella. Mitään ei lähetetä fyysiselle tulostimelle — tulos ladataan tiedostona.
+Komento `PrintManager` avaa **Print Managerin** — omistetun vientinäkymän elävällä esikatselupiirtoalueella, muotovalitsimella (PNG / JPEG / WebP / PDF), tyylivalitsimella (Default / Monochrome / Blueprint) ja valinnaisella alueen rajauksella. Mitään ei lähetetä fyysiselle tulostimelle — tulos ladataan tiedostona.
 
 ## Print Managerin avaaminen
 
-Napsauta **Print**-painiketta työkalurivillä tai kirjoita `print` terminaaliin. Print Manager avautuu välittömästi näyttäen esikatselun nykyisestä näkymäikkunasta.
+Napsauta **Print**-painiketta työkalurivillä tai kirjoita `PrintManager` terminaaliin. Print Manager avautuu välittömästi näyttäen esikatselun nykyisestä näkymäikkunasta.
 
 Esikatselu renderöidään täsmälleen samaa koodipolkua pitkin, täsmälleen samalla pikseliresoluutiolla, kuin lopulta vietävä tiedosto — Quality-, Style- tai vientialueen muuttaminen renderöi esikatselun heti uudelleen, joten se mitä näet, on se mikä ladataan, ei likiarvo siitä.
 

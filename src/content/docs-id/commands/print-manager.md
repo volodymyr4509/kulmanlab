@@ -1,6 +1,6 @@
 ---
 title: Print Manager — Mengekspor Gambar sebagai PNG, JPEG, WebP, atau PDF
-description: Perintah print membuka Print Manager — jendela ekspor khusus dengan pratinjau langsung yang sama persis dengan file yang diekspor, pengaturan Kualitas/DPI, pemilih format, gaya cetak Default/Monochrome/Blueprint, dan seleksi area opsional. Mendukung PNG, JPEG, WebP, dan PDF.
+description: Perintah PrintManager membuka Print Manager — jendela ekspor khusus dengan pratinjau langsung yang sama persis dengan file yang diekspor, pengaturan Kualitas/DPI, pemilih format, gaya cetak Default/Monochrome/Blueprint, dan seleksi area opsional. Mendukung PNG, JPEG, WebP, dan PDF.
 keywords: [CAD ekspor PNG, CAD ekspor PDF, cetak gambar CAD, print manager, kualitas cetak DPI, ekspor monokrom, gaya cetak blueprint, kulmanlab ekspor]
 group: file
 order: 4
@@ -8,11 +8,11 @@ order: 4
 
 # Print Manager
 
-Perintah `print` membuka **Print Manager** — jendela ekspor khusus dengan kanvas pratinjau langsung, pemilih format (PNG / JPEG / WebP / PDF), pemilih Style (Default / Monochrome / Blueprint), dan pemotongan area opsional. Tidak ada yang dikirim ke printer fisik; output diunduh sebagai file.
+Perintah `PrintManager` membuka **Print Manager** — jendela ekspor khusus dengan kanvas pratinjau langsung, pemilih format (PNG / JPEG / WebP / PDF), pemilih Style (Default / Monochrome / Blueprint), dan pemotongan area opsional. Tidak ada yang dikirim ke printer fisik; output diunduh sebagai file.
 
 ## Membuka Print Manager
 
-Klik tombol toolbar **Print** atau ketik `print` di terminal. Print Manager langsung terbuka menampilkan pratinjau viewport saat ini.
+Klik tombol toolbar **Print** atau ketik `PrintManager` di terminal. Print Manager langsung terbuka menampilkan pratinjau viewport saat ini.
 
 Pratinjau dirender melalui jalur kode yang persis sama, pada resolusi piksel yang persis sama, seperti file yang akhirnya Anda ekspor — mengubah Quality, Style, atau area ekspor langsung merender ulang pratinjau, jadi apa yang Anda lihat adalah apa yang diunduh, bukan perkiraannya.
 

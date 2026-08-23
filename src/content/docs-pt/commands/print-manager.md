@@ -1,6 +1,6 @@
 ---
 title: Print Manager — Exportar o Desenho como PNG, JPEG, WebP ou PDF
-description: O comando print abre o Print Manager — uma janela de exportação dedicada com prévia ao vivo que corresponde exatamente ao arquivo exportado, uma configuração de Qualidade/DPI, seletor de formato, um estilo de impressão Default/Monochrome/Blueprint e seleção de área opcional. Suporta PNG, JPEG, WebP e PDF.
+description: O comando PrintManager abre o Print Manager — uma janela de exportação dedicada com prévia ao vivo que corresponde exatamente ao arquivo exportado, uma configuração de Qualidade/DPI, seletor de formato, um estilo de impressão Default/Monochrome/Blueprint e seleção de área opcional. Suporta PNG, JPEG, WebP e PDF.
 keywords: [CAD exportar PNG, CAD exportar PDF, imprimir desenho CAD, print manager, qualidade de impressão DPI, exportar monocromático, estilo de impressão blueprint, kulmanlab export]
 group: file
 order: 4
@@ -8,11 +8,11 @@ order: 4
 
 # Print Manager
 
-O comando `print` abre o **Print Manager** — uma janela de exportação dedicada com canvas de prévia ao vivo, seletor de formato (PNG / JPEG / WebP / PDF), um seletor de Style (Default / Monochrome / Blueprint) e recorte de área opcional. Nada é enviado a uma impressora física; a saída é baixada como um arquivo.
+O comando `PrintManager` abre o **Print Manager** — uma janela de exportação dedicada com canvas de prévia ao vivo, seletor de formato (PNG / JPEG / WebP / PDF), um seletor de Style (Default / Monochrome / Blueprint) e recorte de área opcional. Nada é enviado a uma impressora física; a saída é baixada como um arquivo.
 
 ## Abrindo o Print Manager
 
-Clique no botão **Print** na barra de ferramentas ou digite `print` no terminal. O Print Manager abre imediatamente mostrando uma prévia do viewport atual.
+Clique no botão **Print** na barra de ferramentas ou digite `PrintManager` no terminal. O Print Manager abre imediatamente mostrando uma prévia do viewport atual.
 
 A prévia é renderizada exatamente pelo mesmo caminho de código, na mesma resolução de pixels exata, do arquivo que você acabará exportando — alterar Quality, Style ou a área de exportação renderiza a prévia novamente de imediato, então o que você vê é o que é baixado, não uma aproximação disso.
 

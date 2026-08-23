@@ -1,6 +1,6 @@
 ---
 title: Print Manager — Export the Drawing as PNG, JPEG, WebP, or PDF
-description: The Print command opens the Print Manager — a dedicated export window with a live preview that exactly matches the exported file, a Quality/DPI setting, format selector, a Default/Monochrome/Blueprint print style, and optional area crop. Supports PNG, JPEG, WebP, and PDF.
+description: The PrintManager command opens the Print Manager — a dedicated export window with a live preview that exactly matches the exported file, a Quality/DPI setting, format selector, a Default/Monochrome/Blueprint print style, and optional area crop. Supports PNG, JPEG, WebP, and PDF.
 keywords: [CAD export PNG, CAD export PDF, print CAD drawing, print manager, print quality DPI, monochrome export, blueprint print style, kulmanlab export]
 group: file
 order: 4
@@ -8,11 +8,11 @@ order: 4
 
 # Print Manager
 
-The `print` command opens the **Print Manager** — a dedicated export window with a live preview canvas, format selector (PNG / JPEG / WebP / PDF), a print Style selector (Default / Monochrome / Blueprint), and optional area crop. Nothing is sent to a physical printer; the output is downloaded as a file.
+The `PrintManager` command opens the **Print Manager** — a dedicated export window with a live preview canvas, format selector (PNG / JPEG / WebP / PDF), a print Style selector (Default / Monochrome / Blueprint), and optional area crop. Nothing is sent to a physical printer; the output is downloaded as a file.
 
 ## Opening the Print Manager
 
-Click the **Print** toolbar button or type `print` in the terminal. The Print Manager opens immediately showing a preview of the current viewport.
+Click the **Print** toolbar button or type `PrintManager` in the terminal. The Print Manager opens immediately showing a preview of the current viewport.
 
 The preview is rendered through the exact same code path, at the exact same pixel resolution, as the file you eventually export — changing Quality, Style, or the export area all re-render the preview immediately, so what you see is what downloads, not an approximation of it.
 

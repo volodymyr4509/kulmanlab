@@ -1,6 +1,6 @@
 ---
 title: Print Manager — ייצוא השרטוט כ-PNG, JPEG, WebP או PDF
-description: פקודת print פותחת את Print Manager — חלון ייצוא ייעודי עם תצוגה מקדימה חיה התואמת בדיוק לקובץ המיוצא, הגדרת איכות/DPI, בורר פורמט, סגנון הדפסה Default/Monochrome/Blueprint ובחירת אזור אופציונלית. תומכת ב-PNG, JPEG, WebP ו-PDF.
+description: פקודת PrintManager פותחת את Print Manager — חלון ייצוא ייעודי עם תצוגה מקדימה חיה התואמת בדיוק לקובץ המיוצא, הגדרת איכות/DPI, בורר פורמט, סגנון הדפסה Default/Monochrome/Blueprint ובחירת אזור אופציונלית. תומכת ב-PNG, JPEG, WebP ו-PDF.
 keywords: [ייצוא PNG CAD, ייצוא PDF CAD, הדפסת שרטוט CAD, מנהל הדפסה, איכות הדפסה DPI, ייצוא שחור-לבן, סגנון הדפסה blueprint, ייצוא kulmanlab]
 group: file
 order: 4
@@ -8,11 +8,11 @@ order: 4
 
 # Print Manager
 
-הפקודה `print` פותחת את **Print Manager** — חלון ייצוא ייעודי עם קנבס תצוגה מקדימה חי, בורר פורמט (PNG / JPEG / WebP / PDF), בורר Style (Default / Monochrome / Blueprint) וחיתוך אזור אופציונלי. שום דבר לא נשלח למדפסת פיזית; הפלט מורד כקובץ.
+הפקודה `PrintManager` פותחת את **Print Manager** — חלון ייצוא ייעודי עם קנבס תצוגה מקדימה חי, בורר פורמט (PNG / JPEG / WebP / PDF), בורר Style (Default / Monochrome / Blueprint) וחיתוך אזור אופציונלי. שום דבר לא נשלח למדפסת פיזית; הפלט מורד כקובץ.
 
 ## פתיחת Print Manager
 
-לחצו על כפתור סרגל הכלים **Print** או הקלידו `print` במסוף. Print Manager נפתח מיידית ומציג תצוגה מקדימה של חלון התצוגה הנוכחי.
+לחצו על כפתור סרגל הכלים **Print** או הקלידו `PrintManager` במסוף. Print Manager נפתח מיידית ומציג תצוגה מקדימה של חלון התצוגה הנוכחי.
 
 התצוגה המקדימה מעובדת בדיוק באותו נתיב קוד, ובדיוק באותה רזולוציית פיקסלים, כמו הקובץ שתייצאו בסופו של דבר — שינוי Quality, Style, או אזור הייצוא מעבד מחדש את התצוגה המקדימה מיד, כך שמה שאתם רואים הוא מה שיורד, לא קירוב שלו.
 

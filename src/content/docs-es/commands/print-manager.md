@@ -1,6 +1,6 @@
 ---
 title: Administrador de Impresión — Exportar el dibujo como PNG, JPEG, WebP o PDF
-description: El comando print abre el Administrador de Impresión — una ventana de exportación dedicada con una vista previa en vivo que coincide exactamente con el archivo exportado, un ajuste de Calidad/DPI, selector de formato, un estilo de impresión Default/Monochrome/Blueprint y selección opcional de área. Admite PNG, JPEG, WebP y PDF.
+description: El comando PrintManager abre el Administrador de Impresión — una ventana de exportación dedicada con una vista previa en vivo que coincide exactamente con el archivo exportado, un ajuste de Calidad/DPI, selector de formato, un estilo de impresión Default/Monochrome/Blueprint y selección opcional de área. Admite PNG, JPEG, WebP y PDF.
 keywords: [exportar PNG CAD, exportar PDF CAD, imprimir dibujo CAD, administrador de impresión, calidad de impresión DPI, exportar en escala de grises, estilo de impresión blueprint, exportar kulmanlab]
 group: file
 order: 4
@@ -8,11 +8,11 @@ order: 4
 
 # Administrador de Impresión
 
-El comando `print` abre el **Administrador de Impresión** — una ventana de exportación dedicada con un lienzo de vista previa en tiempo real, selector de formato (PNG / JPEG / WebP / PDF), un selector de Estilo (Default / Monochrome / Blueprint) y recorte opcional de área. Nada se envía a una impresora física; el resultado se descarga como archivo.
+El comando `PrintManager` abre el **Administrador de Impresión** — una ventana de exportación dedicada con un lienzo de vista previa en tiempo real, selector de formato (PNG / JPEG / WebP / PDF), un selector de Estilo (Default / Monochrome / Blueprint) y recorte opcional de área. Nada se envía a una impresora física; el resultado se descarga como archivo.
 
 ## Abrir el Administrador de Impresión
 
-Haz clic en el botón **Print** de la barra de herramientas o escribe `print` en el terminal. El Administrador de Impresión se abre de inmediato mostrando una vista previa del viewport actual.
+Haz clic en el botón **Print** de la barra de herramientas o escribe `PrintManager` en el terminal. El Administrador de Impresión se abre de inmediato mostrando una vista previa del viewport actual.
 
 La vista previa se renderiza mediante exactamente la misma ruta de código, a exactamente la misma resolución en píxeles, que el archivo que finalmente exportarás — cambiar la Calidad, el Estilo o el área de exportación vuelve a renderizar la vista previa de inmediato, así que lo que ves es lo que se descarga, no una aproximación.
 

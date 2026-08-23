@@ -1,6 +1,6 @@
 ---
 title: "Print Manager — Safirisha Mchoro kama PNG, JPEG, WebP, au PDF"
-description: "Amri ya print inafungua Print Manager — dirisha la maalum la kusafirisha na hakiki ya moja kwa moja inayolingana kabisa na faili itakayosafirishwa, mpangilio wa Quality/DPI, kichaguo cha muundo, mtindo wa kuchapisha wa Default/Monochrome/Blueprint, na uchaguzi wa eneo maalum. Inasaidia PNG, JPEG, WebP, na PDF."
+description: "Amri ya PrintManager inafungua Print Manager — dirisha la maalum la kusafirisha na hakiki ya moja kwa moja inayolingana kabisa na faili itakayosafirishwa, mpangilio wa Quality/DPI, kichaguo cha muundo, mtindo wa kuchapisha wa Default/Monochrome/Blueprint, na uchaguzi wa eneo maalum. Inasaidia PNG, JPEG, WebP, na PDF."
 keywords: [CAD export PNG, CAD export PDF, print CAD drawing, print manager, ubora wa kuchapisha DPI, monochrome export, mtindo wa kuchapisha blueprint, kulmanlab export]
 group: file
 order: 4
@@ -8,11 +8,11 @@ order: 4
 
 # Print Manager
 
-Amri ya `print` inafungua **Print Manager** — dirisha la maalum la kusafirisha lenye kanvasi ya hakiki ya moja kwa moja, kichaguo cha muundo (PNG / JPEG / WebP / PDF), kichaguo cha Style (Default / Monochrome / Blueprint), na upunguzaji wa eneo la hiari. Hakuna kinachopelekwa kwa printa halisi; matokeo hupakuliwa kama faili.
+Amri ya `PrintManager` inafungua **Print Manager** — dirisha la maalum la kusafirisha lenye kanvasi ya hakiki ya moja kwa moja, kichaguo cha muundo (PNG / JPEG / WebP / PDF), kichaguo cha Style (Default / Monochrome / Blueprint), na upunguzaji wa eneo la hiari. Hakuna kinachopelekwa kwa printa halisi; matokeo hupakuliwa kama faili.
 
 ## Kufungua Print Manager
 
-Bonyeza kitufe cha **Print** kwenye upau wa zana au andika `print` kwenye terminal. Print Manager hufunguka mara moja ukionyesha hakiki ya muonekano wa sasa.
+Bonyeza kitufe cha **Print** kwenye upau wa zana au andika `PrintManager` kwenye terminal. Print Manager hufunguka mara moja ukionyesha hakiki ya muonekano wa sasa.
 
 Hakiki hutolewa kupitia njia ile ile ya code, kwa azimio lile lile la pikseli, kama faili utakayosafirisha mwishoni — kubadilisha Quality, Style, au eneo la kusafirisha hurenderi upya hakiki papo hapo, hivyo unachokiona ndicho kinachopakuliwa, si makadirio yake.
 

@@ -1,6 +1,6 @@
 ---
 title: Print Manager — 在 KulmanLab CAD 中将图形导出为 PNG、JPEG、WebP 或 PDF
-description: print 命令打开打印管理器 — 带有与导出文件完全一致的实时预览、质量/DPI 设置、格式选择器、Default/Monochrome/Blueprint 打印样式和可选区域选择的专用导出窗口。支持 PNG、JPEG、WebP 和 PDF。
+description: PrintManager 命令打开打印管理器 — 带有与导出文件完全一致的实时预览、质量/DPI 设置、格式选择器、Default/Monochrome/Blueprint 打印样式和可选区域选择的专用导出窗口。支持 PNG、JPEG、WebP 和 PDF。
 keywords: [CAD 导出 PNG, CAD 导出 PDF, 打印 CAD 图形, 打印管理器, 打印质量 DPI, 单色导出, blueprint 打印样式, kulmanlab 导出, kulmanlab]
 group: file
 order: 4
@@ -8,11 +8,11 @@ order: 4
 
 # Print Manager
 
-`print`(打印)命令打开**打印管理器** — 带实时预览画布、格式选择器(PNG / JPEG / WebP / PDF)、样式选择器(Default / Monochrome / Blueprint)和可选区域裁剪的专用导出窗口。不会向物理打印机发送任何内容;输出以文件形式下载。
+`PrintManager`(打印)命令打开**打印管理器** — 带实时预览画布、格式选择器(PNG / JPEG / WebP / PDF)、样式选择器(Default / Monochrome / Blueprint)和可选区域裁剪的专用导出窗口。不会向物理打印机发送任何内容;输出以文件形式下载。
 
 ## 打开打印管理器
 
-单击工具栏中的**Print**按钮,或在命令行中输入 `print`。打印管理器立即打开,显示当前视口的预览。
+单击工具栏中的**Print**按钮,或在命令行中输入 `PrintManager`。打印管理器立即打开,显示当前视口的预览。
 
 预览通过与最终导出的文件完全相同的代码路径、完全相同的像素分辨率进行渲染 —— 更改 Quality、Style 或导出区域会立即重新渲染预览,因此你看到的就是将要下载的内容,而不是它的近似值。
 

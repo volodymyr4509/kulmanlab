@@ -1,6 +1,6 @@
 ---
 title: Print Manager — KulmanLab CAD에서 도면을 PNG, JPEG, WebP 또는 PDF로 내보내기
-description: print 명령어는 인쇄 관리자를 엽니다 — 내보낸 파일과 정확히 일치하는 실시간 미리보기, 품질/DPI 설정, 형식 선택기, Default/Monochrome/Blueprint 인쇄 스타일, 선택적 영역 선택이 있는 전용 내보내기 창입니다. PNG, JPEG, WebP, PDF를 지원합니다.
+description: PrintManager 명령어는 인쇄 관리자를 엽니다 — 내보낸 파일과 정확히 일치하는 실시간 미리보기, 품질/DPI 설정, 형식 선택기, Default/Monochrome/Blueprint 인쇄 스타일, 선택적 영역 선택이 있는 전용 내보내기 창입니다. PNG, JPEG, WebP, PDF를 지원합니다.
 keywords: [CAD PNG 내보내기, CAD PDF 내보내기, CAD 도면 인쇄, 인쇄 관리자, 인쇄 품질 DPI, 단색 내보내기, 블루프린트 인쇄 스타일, kulmanlab 내보내기, 도면 이미지 저장, CAD 스크린샷]
 group: file
 order: 4
@@ -8,11 +8,11 @@ order: 4
 
 # Print Manager
 
-`print` 명령어는 **인쇄 관리자**를 엽니다 — 실시간 미리보기 캔버스, 형식 선택기(PNG / JPEG / WebP / PDF), 스타일 선택기(Default / Monochrome / Blueprint), 선택적 영역 자르기가 있는 전용 내보내기 창입니다. 실제 프린터로는 아무것도 전송되지 않습니다; 출력은 파일로 다운로드됩니다.
+`PrintManager` 명령어는 **인쇄 관리자**를 엽니다 — 실시간 미리보기 캔버스, 형식 선택기(PNG / JPEG / WebP / PDF), 스타일 선택기(Default / Monochrome / Blueprint), 선택적 영역 자르기가 있는 전용 내보내기 창입니다. 실제 프린터로는 아무것도 전송되지 않습니다; 출력은 파일로 다운로드됩니다.
 
 ## 인쇄 관리자 여는 방법
 
-**Print** 도구 모음 버튼을 클릭하거나 터미널에 `print`를 입력합니다. 인쇄 관리자가 현재 뷰포트의 미리보기를 보여주며 즉시 열립니다.
+**Print** 도구 모음 버튼을 클릭하거나 터미널에 `PrintManager`를 입력합니다. 인쇄 관리자가 현재 뷰포트의 미리보기를 보여주며 즉시 열립니다.
 
 미리보기는 최종적으로 내보낼 파일과 정확히 동일한 코드 경로를 거쳐, 정확히 동일한 픽셀 해상도로 렌더링됩니다 — Quality, Style, 또는 내보내기 영역을 변경하면 미리보기가 즉시 다시 렌더링되므로, 보이는 것이 근사치가 아니라 실제로 다운로드되는 것 그 자체입니다.
 

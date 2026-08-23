@@ -1,6 +1,6 @@
 ---
 title: Print Manager — Fitar da Zanen a matsayin PNG, JPEG, WebP, ko PDF
-description: Umarnin print yana buɗe Print Manager — taga na fitarwa na musamman tare da preview mai rai wanda ya dace daidai da fayil ɗin da za a fitar, saitin Quality/DPI, mai zaɓen tsari, salon bugawa Default/Monochrome/Blueprint, da zaɓen yanki na zaɓi. Yana goyon bayan PNG, JPEG, WebP, da PDF.
+description: Umarnin PrintManager yana buɗe Print Manager — taga na fitarwa na musamman tare da preview mai rai wanda ya dace daidai da fayil ɗin da za a fitar, saitin Quality/DPI, mai zaɓen tsari, salon bugawa Default/Monochrome/Blueprint, da zaɓen yanki na zaɓi. Yana goyon bayan PNG, JPEG, WebP, da PDF.
 keywords: [fitar da PNG CAD, fitar da PDF CAD, buga zane CAD, print manager, ingancin bugawa DPI, fitar da monochrome, salon bugawa blueprint, fitar da kulmanlab]
 group: file
 order: 4
@@ -8,11 +8,11 @@ order: 4
 
 # Print Manager
 
-Umarnin `print` yana buɗe **Print Manager** — taga na fitarwa na musamman tare da canvas na preview mai rai, mai zaɓen tsari (PNG / JPEG / WebP / PDF), mai zaɓen Style (Default / Monochrome / Blueprint), da yankewar yanki na zaɓi. Babu abin da ake aikawa zuwa firinta na jiki; ana sauke fitarwar a matsayin fayil.
+Umarnin `PrintManager` yana buɗe **Print Manager** — taga na fitarwa na musamman tare da canvas na preview mai rai, mai zaɓen tsari (PNG / JPEG / WebP / PDF), mai zaɓen Style (Default / Monochrome / Blueprint), da yankewar yanki na zaɓi. Babu abin da ake aikawa zuwa firinta na jiki; ana sauke fitarwar a matsayin fayil.
 
 ## Buɗe Print Manager
 
-Danna maɓallin kayan aiki na **Print** ko rubuta `print` a tashar umarni. Print Manager yana buɗewa nan take yana nuna preview na viewport na yanzu.
+Danna maɓallin kayan aiki na **Print** ko rubuta `PrintManager` a tashar umarni. Print Manager yana buɗewa nan take yana nuna preview na viewport na yanzu.
 
 Ana bayar da preview ta hanyar hanyar code guda ɗaya daidai, a daidai girman pixel guda, kamar fayil ɗin da za ka fitar a ƙarshe — canza Quality, Style, ko yankin fitarwa yana sake bayar da preview nan take, don haka abin da kake gani shi ne abin da ake sauka, ba kusanci ba ne.
 

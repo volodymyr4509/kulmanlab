@@ -1,6 +1,6 @@
 ---
 title: Menedżer druku — Eksportowanie rysunku jako PNG, JPEG, WebP lub PDF
-description: Polecenie print otwiera Menedżera druku — dedykowane okno eksportu z podglądem na żywo, który dokładnie odpowiada eksportowanemu plikowi, ustawieniem Jakości/DPI, selektorem formatu, stylem druku Default/Monochrome/Blueprint i opcjonalnym zaznaczaniem obszaru. Obsługuje PNG, JPEG, WebP i PDF.
+description: Polecenie PrintManager otwiera Menedżera druku — dedykowane okno eksportu z podglądem na żywo, który dokładnie odpowiada eksportowanemu plikowi, ustawieniem Jakości/DPI, selektorem formatu, stylem druku Default/Monochrome/Blueprint i opcjonalnym zaznaczaniem obszaru. Obsługuje PNG, JPEG, WebP i PDF.
 keywords: [eksport PNG CAD, eksport PDF CAD, drukowanie rysunku CAD, menedżer druku, jakość druku DPI, monochromatyczny eksport, styl druku blueprint, kulmanlab eksport]
 group: file
 order: 4
@@ -8,11 +8,11 @@ order: 4
 
 # Menedżer druku
 
-Polecenie `print` otwiera **Menedżera druku** — dedykowane okno eksportu z podglądem na żywo, selektorem formatu (PNG / JPEG / WebP / PDF), selektorem Style (Default / Monochrome / Blueprint) i opcjonalnym przycięciem obszaru. Nic nie jest wysyłane do fizycznej drukarki; wyjście jest pobierane jako plik.
+Polecenie `PrintManager` otwiera **Menedżera druku** — dedykowane okno eksportu z podglądem na żywo, selektorem formatu (PNG / JPEG / WebP / PDF), selektorem Style (Default / Monochrome / Blueprint) i opcjonalnym przycięciem obszaru. Nic nie jest wysyłane do fizycznej drukarki; wyjście jest pobierane jako plik.
 
 ## Otwieranie Menedżera druku
 
-Kliknij przycisk **Drukuj** na pasku narzędzi lub wpisz `print` w terminalu. Menedżer druku otwiera się natychmiast, pokazując podgląd bieżącego widoku.
+Kliknij przycisk **Drukuj** na pasku narzędzi lub wpisz `PrintManager` w terminalu. Menedżer druku otwiera się natychmiast, pokazując podgląd bieżącego widoku.
 
 Podgląd jest renderowany dokładnie tą samą ścieżką kodu, w dokładnie tej samej rozdzielczości pikseli, co plik, który ostatecznie wyeksportujesz — zmiana Quality, Style lub obszaru eksportu natychmiast ponownie renderuje podgląd, więc to, co widzisz, jest tym, co zostaje pobrane, a nie przybliżeniem tego.
 

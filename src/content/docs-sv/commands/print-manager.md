@@ -1,6 +1,6 @@
 ---
 title: Print Manager — Exportera ritningen som PNG, JPEG, WebP eller PDF
-description: Print-kommandot öppnar Print Manager — ett dedikerat exportfönster med en direktuppdaterad förhandsgranskning som exakt matchar den exporterade filen, en Kvalitet/DPI-inställning, formatväljare, en Default/Monochrome/Blueprint-utskriftsstil och valfri områdesmarkering. Stöder PNG, JPEG, WebP och PDF.
+description: PrintManager-kommandot öppnar Print Manager — ett dedikerat exportfönster med en direktuppdaterad förhandsgranskning som exakt matchar den exporterade filen, en Kvalitet/DPI-inställning, formatväljare, en Default/Monochrome/Blueprint-utskriftsstil och valfri områdesmarkering. Stöder PNG, JPEG, WebP och PDF.
 keywords: [CAD exportera PNG, CAD exportera PDF, skriv ut CAD-ritning, print manager, utskriftskvalitet DPI, monokrom export, blueprint utskriftsstil, kulmanlab export]
 group: file
 order: 4
@@ -8,11 +8,11 @@ order: 4
 
 # Print Manager
 
-`print`-kommandot öppnar **Print Manager** — ett dedikerat exportfönster med en direktuppdaterad förhandsgranskningsyta, formatväljare (PNG / JPEG / WebP / PDF), en Style-väljare (Default / Monochrome / Blueprint) och valfri områdesbeskärning. Ingenting skickas till en fysisk skrivare — resultatet laddas ner som en fil.
+`PrintManager`-kommandot öppnar **Print Manager** — ett dedikerat exportfönster med en direktuppdaterad förhandsgranskningsyta, formatväljare (PNG / JPEG / WebP / PDF), en Style-väljare (Default / Monochrome / Blueprint) och valfri områdesbeskärning. Ingenting skickas till en fysisk skrivare — resultatet laddas ner som en fil.
 
 ## Öppna Print Manager
 
-Klicka på verktygsfältsknappen **Print** eller skriv `print` i terminalen. Print Manager öppnas omedelbart och visar en förhandsgranskning av den aktuella vyporten.
+Klicka på verktygsfältsknappen **Print** eller skriv `PrintManager` i terminalen. Print Manager öppnas omedelbart och visar en förhandsgranskning av den aktuella vyporten.
 
 Förhandsgranskningen renderas via exakt samma kodväg, i exakt samma pixelupplösning, som filen du så småningom exporterar — att ändra Quality, Style eller exportområdet renderar om förhandsgranskningen direkt, så det du ser är det som laddas ner, inte en approximation av det.
 
