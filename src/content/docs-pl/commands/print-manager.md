@@ -12,7 +12,7 @@ Polecenie `PrintManager` otwiera **Menedżera druku** — dedykowane okno ekspor
 
 ## Otwieranie Menedżera druku
 
-Kliknij przycisk **Drukuj** na pasku narzędzi lub wpisz `PrintManager` w terminalu. Menedżer druku otwiera się natychmiast, pokazując podgląd bieżącego widoku.
+Kliknij przycisk **Print** na pasku narzędzi lub wpisz `PrintManager` w terminalu. Menedżer druku otwiera się natychmiast, pokazując podgląd bieżącego widoku.
 
 Podgląd jest renderowany dokładnie tą samą ścieżką kodu, w dokładnie tej samej rozdzielczości pikseli, co plik, który ostatecznie wyeksportujesz — zmiana Quality, Style lub obszaru eksportu natychmiast ponownie renderuje podgląd, więc to, co widzisz, jest tym, co zostaje pobrane, a nie przybliżeniem tego.
 
