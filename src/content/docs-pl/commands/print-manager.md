@@ -26,7 +26,7 @@ Okno ma dwa panele:
 
 | Kontrolka | Opis |
 |----------|------|
-| **Zmień obszar** | Przytnij do niestandardowego prostokąta na płótnie (patrz poniżej) — faktycznie przycina eksportowany obraz, także w układzie z przestrzenią papieru, a nie tylko podgląd na ekranie |
+| **Change Area** | Przytnij do niestandardowego prostokąta na płótnie (patrz poniżej) — faktycznie przycina eksportowany obraz, także w układzie z przestrzenią papieru, a nie tylko podgląd na ekranie |
 | Lista rozwijana **Quality** | Ustawia rozdzielczość eksportu (patrz poniżej) |
 | Lista rozwijana **Style** | Default, Monochrome lub Blueprint — patrz *Style druku* poniżej. Domyślnie Monochrome dla czystego wyjścia druku |
 | Lista rozwijana **Format** | PNG, JPEG, WebP lub PDF |
@@ -63,7 +63,7 @@ Zmiana Jakości natychmiast ponownie renderuje podgląd, dzięki czemu widzisz r
 
 Domyślnie podgląd pokazuje prostokąt ograniczający wszystkie obiekty w przestrzeni modelu — ten sam zasięg, do którego przybliża [Fit](../fit/) — lub cały arkusz w układzie. Aby wyeksportować konkretny obszar:
 
-1. Kliknij **Zmień obszar** — Menedżer druku chowa się, a płótno staje się interaktywne.
+1. Kliknij **Change Area** — Menedżer druku chowa się, a płótno staje się interaktywne.
 2. **Kliknij pierwszy narożnik** prostokąta eksportu.
 3. **Kliknij przeciwny narożnik** — Menedżer druku ponownie otwiera się z zaznaczonym obszarem w podglądzie.
 

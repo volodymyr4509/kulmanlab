@@ -26,7 +26,7 @@ A janela tem dois painéis:
 
 | Controle | Descrição |
 |----------|-----------|
-| **Mudar Área** | Recorte para um retângulo personalizado no canvas (veja abaixo) — recorta de fato a imagem exportada, inclusive em um layout com espaço de papel, não só a prévia na tela |
+| **Change Area** | Recorte para um retângulo personalizado no canvas (veja abaixo) — recorta de fato a imagem exportada, inclusive em um layout com espaço de papel, não só a prévia na tela |
 | Menu suspenso **Quality** | Define a resolução de exportação (veja abaixo) |
 | Menu suspenso **Style** | Default, Monochrome ou Blueprint — veja *Estilos de impressão* abaixo. Monochrome por padrão para uma saída de impressão limpa |
 | **Formato** (menu suspenso) | PNG, JPEG, WebP ou PDF |
@@ -63,7 +63,7 @@ Alterar a Qualidade renderiza novamente a visualização imediatamente, para que
 
 Por padrão a prévia mostra a caixa delimitadora de todas as entidades no espaço Modelo — a mesma extensão para a qual [Fit](../fit/) dá zoom — ou a folha inteira num layout. Para exportar uma região específica:
 
-1. Clique em **Mudar Área** — o Print Manager se oculta e o canvas torna-se interativo.
+1. Clique em **Change Area** — o Print Manager se oculta e o canvas torna-se interativo.
 2. **Clique no primeiro canto** do retângulo de exportação.
 3. **Clique no canto oposto** — o Print Manager reabre com a área selecionada na prévia.
 
