@@ -3,7 +3,7 @@ title: "Export Manager — Sauke Zane a matsayin DXF ko JSON"
 description: "Export Manager yana sauke zanen na yanzu a matsayin fayil na DXF ko JSON (na asali). Kowane tsari yana lissafa ainihin nau'ikan entities da yake ɗauka, kusa da juna, domin ka gani kafin sauke abin da DXF ke barin — a yanzu Hatches, Dimensions, Leaders, da Text."
 keywords: [fitar da DXF, fitar da fayil na CAD, sauke DXF ta burauza, adana DXF ta kan layi, fitar da JSON CAD, fitarwar KulmanLab, sauke fayil na CAD, fitar da DXF, adana zane a fayil, sauke DXF]
 group: file
-order: 5
+order: 6
 ---
 
 # Export Manager

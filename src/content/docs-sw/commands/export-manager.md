@@ -3,7 +3,7 @@ title: Export Manager — Pakua Michoro kama DXF au JSON
 description: Export Manager inapakua mchoro wa sasa kama faili ya DXF au JSON (asili). Kila muundo unaorodhesha kwa usahihi ni aina zipi za entiti unazobeba, kando kando, ili uone kabla ya kupakua kile DXF kinachoacha — kwa sasa hatches, dimensions, leaders, na text.
 keywords: [hamisha DXF, hamisha faili ya CAD, pakua DXF kivinjari, hifadhi DXF mtandaoni, hamisha JSON CAD, uhamishaji wa KulmanLab, pakua faili ya CAD, uhamishaji wa DXF, hifadhi mchoro kwenye faili, upakuaji wa DXF]
 group: file
-order: 5
+order: 6
 ---
 
 # Export Manager

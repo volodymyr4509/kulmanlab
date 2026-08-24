@@ -3,7 +3,7 @@ title: "Export Manager — ڈرائنگز کو DXF یا JSON کے طور پر ڈ
 description: "Export Manager موجودہ ڈرائنگ کو DXF یا JSON (نیٹو) فائل کے طور پر ڈاؤن لوڈ کرتا ہے۔ ہر فارمیٹ بالکل بتاتا ہے کہ وہ کون سی اینٹیٹی اقسام ساتھ لے کر جاتا ہے، ساتھ ساتھ، تاکہ آپ ڈاؤن لوڈ کرنے سے پہلے دیکھ سکیں کہ DXF کیا چھوڑ دیتا ہے — فی الحال Hatches، Dimensions، Leaders، اور Text۔"
 keywords: [CAD DXF ایکسپورٹ, CAD فائل ایکسپورٹ, براؤزر میں DXF ڈاؤن لوڈ, DXF آن لائن سیو, JSON CAD ایکسپورٹ, KulmanLab ایکسپورٹ, CAD فائل ڈاؤن لوڈ, DXF ایکسپورٹ, ڈرائنگ کو فائل میں سیو کریں, DXF ڈاؤن لوڈ]
 group: file
-order: 5
+order: 6
 ---
 
 # Export Manager

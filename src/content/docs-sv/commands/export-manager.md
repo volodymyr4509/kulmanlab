@@ -3,7 +3,7 @@ title: Export Manager — Ladda ner ritningar som DXF eller JSON
 description: Export Manager laddar ner den aktuella ritningen som en DXF- eller JSON-fil (nativ). Varje format listar exakt vilka entitetstyper det innehåller, sida vid sida, så att du kan se innan du laddar ner vad DXF utelämnar — för närvarande hatchmönster, mått, ledare och text.
 keywords: [exportera DXF, exportera CAD-fil, ladda ner DXF webbläsare, spara DXF online, exportera JSON CAD, KulmanLab export, ladda ner CAD-fil, DXF-export, spara ritning som fil, DXF-nedladdning]
 group: file
-order: 5
+order: 6
 ---
 
 # Export Manager

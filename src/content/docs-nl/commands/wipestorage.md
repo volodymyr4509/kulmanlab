@@ -3,7 +3,7 @@ title: Wipe Storage-commando — Wis alle browsergegevens (KulmanLab CAD)
 description: Het wipestorage-commando verwijdert permanent alle bestanden, lagen, lijntypen en de geschiedenis van ongedaan maken die in de browser zijn opgeslagen. Vereist het typen van YES ter bevestiging. Gebruik dit bij het resetten van een beschadigde of overvolle lokale database.
 keywords: [CAD opslag wissen, browsergegevens wissen CAD, CAD-app resetten, lokale bestanden verwijderen CAD, kulmanlab wipestorage]
 group: file
-order: 6
+order: 7
 ---
 
 # Wipe Storage

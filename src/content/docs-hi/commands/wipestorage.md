@@ -3,7 +3,7 @@ title: Wipe Storage कमांड — सभी ब्राउज़र ड�
 description: wipestorage कमांड ब्राउज़र में सेव सभी फ़ाइलें, लेयर, लाइनटाइप, और अनडू इतिहास स्थायी रूप से हटाती है। पुष्टि के लिए YES टाइप करना आवश्यक है। दूषित या भरे हुए लोकल डेटाबेस को रीसेट करते समय उपयोग करें।
 keywords: [CAD स्टोरेज वाइप, ब्राउज़र डेटा साफ़ करें CAD, CAD ऐप रीसेट, लोकल फ़ाइलें हटाएं CAD, kulmanlab wipestorage]
 group: file
-order: 6
+order: 7
 ---
 
 # Wipe Storage

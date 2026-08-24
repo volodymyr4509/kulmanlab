@@ -3,7 +3,7 @@ title: Export Manager — Baixar Desenhos como DXF ou JSON
 description: O Export Manager baixa o desenho atual como um arquivo DXF ou JSON (nativo). Cada formato lista exatamente quais tipos de entidade ele carrega, lado a lado, para que você veja antes de baixar o que o DXF deixa de fora — atualmente hachuras, cotas, líderes e texto.
 keywords: [exportar DXF, exportar arquivo CAD, baixar DXF navegador, salvar DXF online, exportar JSON CAD, exportação KulmanLab, baixar arquivo CAD, exportação DXF, salvar desenho em arquivo, download DXF]
 group: file
-order: 5
+order: 6
 ---
 
 # Export Manager

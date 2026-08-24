@@ -3,7 +3,7 @@ title: Comando Wipe Storage — Limpar Todos os Dados do Navegador
 description: O comando wipestorage exclui permanentemente todos os arquivos, camadas, tipos de linha e o histórico de undo salvos no navegador. Requer digitar YES para confirmar. Use ao redefinir um banco de dados local corrompido ou sobrecarregado.
 keywords: [CAD wipe storage, limpar dados navegador CAD, redefinir aplicativo CAD, excluir arquivos locais CAD, kulmanlab wipestorage]
 group: file
-order: 6
+order: 7
 ---
 
 # Wipe Storage

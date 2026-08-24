@@ -3,7 +3,7 @@ title: Export-Manager — Zeichnungen als DXF oder JSON herunterladen
 description: Der Export-Manager lädt die aktuelle Zeichnung als DXF- oder JSON-Datei (nativ) herunter. Jedes Format listet genau auf, welche Elementtypen es nebeneinander enthält, sodass Sie vor dem Herunterladen sehen, was DXF auslässt — derzeit Hatches, Bemaßungen, Hinweislinien und Text.
 keywords: [DXF exportieren, CAD-Datei exportieren, DXF im Browser herunterladen, DXF online speichern, JSON-CAD exportieren, KulmanLab Export, CAD-Datei herunterladen, DXF-Export, Zeichnung in Datei speichern, DXF-Download]
 group: file
-order: 5
+order: 6
 ---
 
 # Export-Manager

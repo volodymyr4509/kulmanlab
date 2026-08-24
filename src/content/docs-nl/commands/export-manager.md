@@ -3,7 +3,7 @@ title: Export Manager — Tekeningen downloaden als DXF of JSON
 description: De Export Manager downloadt de huidige tekening als een DXF- of JSON-bestand (native). Elk formaat toont precies welke entiteitstypen het bevat, naast elkaar, zodat u vóór het downloaden ziet wat DXF weglaat — momenteel hatches, maatvoeringen, leiders en tekst.
 keywords: [DXF exporteren, CAD-bestand exporteren, DXF downloaden in browser, DXF online opslaan, JSON CAD exporteren, KulmanLab export, CAD-bestand downloaden, DXF-export, tekening opslaan als bestand, DXF-download]
 group: file
-order: 5
+order: 6
 ---
 
 # Export Manager

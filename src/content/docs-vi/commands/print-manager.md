@@ -61,7 +61,7 @@ Thay đổi Quality sẽ kết xuất lại bản xem trước ngay lập tức,
 
 ## Chọn vùng xuất tùy chỉnh
 
-Mặc định, bản xem trước hiển thị chính xác những gì hiển thị trên canvas khi bạn mở Print Manager. Để xuất một vùng cụ thể:
+Theo mặc định, bản xem trước hiển thị hộp bao của tất cả đối tượng trong không gian Model — cùng phạm vi mà [Fit](../fit/) thu phóng tới — hoặc toàn bộ khổ giấy trên một layout. Để xuất một vùng cụ thể:
 
 1. Nhấp **Change Area** — Print Manager ẩn và canvas trở nên tương tác.
 2. **Nhấp góc đầu tiên** của hình chữ nhật xuất.
@@ -70,6 +70,8 @@ Mặc định, bản xem trước hiển thị chính xác những gì hiển th
 Nhấn `Escape` trong quá trình chọn vùng để hủy và khôi phục vùng trước đó.
 
 Canvas xem trước tự động thay đổi kích thước để khớp với **tỷ lệ khung hình chính xác** của vùng đã chọn, vì vậy bản xem trước chính xác đến từng pixel.
+
+Vùng đã chọn được ghi nhớ riêng cho không gian Model và cho từng layout cho đến khi bạn tải lại trang — xem [ChangePrintArea](../change-print-area/).
 
 ## Định dạng xuất
 

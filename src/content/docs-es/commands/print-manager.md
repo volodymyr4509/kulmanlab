@@ -61,7 +61,7 @@ Cambiar la Calidad vuelve a renderizar la vista previa de inmediato, para que ve
 
 ## Seleccionar un área de exportación personalizada
 
-De forma predeterminada, la vista previa muestra exactamente lo que era visible en el lienzo cuando abriste el Administrador de Impresión. Para exportar una región específica:
+Por defecto la vista previa muestra el cuadro delimitador de todas las entidades del espacio Modelo — la misma extensión a la que hace zoom [Fit](../fit/) — o la hoja completa en una presentación. Para exportar una región concreta:
 
 1. Haz clic en **Change Area** — el Administrador de Impresión se oculta y el lienzo se vuelve interactivo.
 2. **Haz clic en la primera esquina** del rectángulo de exportación.
@@ -70,6 +70,8 @@ De forma predeterminada, la vista previa muestra exactamente lo que era visible 
 Presiona `Escape` durante la selección de área para cancelar y restaurar el área anterior.
 
 El lienzo de vista previa se redimensiona dinámicamente para coincidir con la **relación de aspecto exacta** del área seleccionada, por lo que la vista previa es precisa a nivel de píxel.
+
+El área elegida se recuerda por separado para el espacio Modelo y para cada presentación hasta que recargues la página — consulta [ChangePrintArea](../change-print-area/).
 
 ## Formatos de exportación
 

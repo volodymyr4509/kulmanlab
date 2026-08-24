@@ -3,7 +3,7 @@ title: Export Manager — Lataa piirustuksia DXF- tai JSON-muodossa
 description: Export Manager lataa nykyisen piirustuksen DXF- tai JSON-tiedostona (natiivi). Kumpikin muoto listaa tarkasti, mitä entiteettityyppejä se sisältää, rinnakkain, jotta näet ennen latausta, mitä DXF jättää pois — tällä hetkellä hatchit, mitat, viitejohtimet ja tekstin.
 keywords: [vie DXF, vie CAD-tiedosto, lataa DXF selaimessa, tallenna DXF verkossa, vie JSON CAD, KulmanLab vienti, lataa CAD-tiedosto, DXF-vienti, tallenna piirustus tiedostoon, DXF-lataus]
 group: file
-order: 5
+order: 6
 ---
 
 # Export Manager

@@ -3,7 +3,7 @@ title: Wipe Storage — Share Dukkan Bayanan Burauza a KulmanLab CAD
 description: Umarnin wipestorage yana share dukkan fayiloli, layers, nauʼukan layi, da tarihin undo da aka ajiye a burauza na dindindin. Yana bukatar rubuta YES don tabbatarwa. Yi amfani idan kana sake saita bayanan gida da suka lalace ko cika.
 keywords: [wanke ajiya CAD, share bayanan burauza CAD, sake saita manhajar CAD, share fayiloli na gida CAD, kulmanlab wipestorage]
 group: file
-order: 6
+order: 7
 ---
 
 # Wipe Storage

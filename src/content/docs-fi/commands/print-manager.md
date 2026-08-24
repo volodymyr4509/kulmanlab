@@ -61,7 +61,7 @@ Quality-asetuksen muuttaminen renderöi esikatselun heti uudelleen, joten näet 
 
 ## Mukautetun vientialueen valitseminen
 
-Oletuksena esikatselu näyttää tarkalleen sen, mikä oli näkyvissä piirtoalueella, kun avasit Print Managerin. Viedäksesi tietyn alueen:
+Oletuksena esikatselu näyttää mallitilan kaikkien objektien rajaavan suorakulmion — saman laajuuden, johon [Fit](../fit/) zoomaa — tai asettelussa koko arkin. Tietyn alueen viemiseksi:
 
 1. Napsauta **Change Area** — Print Manager piiloutuu ja piirtoalue muuttuu interaktiiviseksi.
 2. **Napsauta vientisuorakulmion ensimmäistä kulmaa**.
@@ -70,6 +70,8 @@ Oletuksena esikatselu näyttää tarkalleen sen, mikä oli näkyvissä piirtoalu
 Paina `Escape` alueen valinnan aikana peruuttaaksesi ja palauttaaksesi edellisen alueen.
 
 Esikatselupiirtoalue muuttaa kokoaan dynaamisesti vastaamaan valitun alueen **tarkkaa kuvasuhdetta**, joten esikatselu on pikselintarkka.
+
+Valittu alue muistetaan erikseen mallitilalle ja jokaiselle asettelulle, kunnes lataat sivun uudelleen — katso [ChangePrintArea](../change-print-area/).
 
 ## Vientimuodot
 

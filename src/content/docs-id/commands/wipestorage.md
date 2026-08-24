@@ -3,7 +3,7 @@ title: Perintah Wipe Storage — Menghapus Semua Data Browser
 description: Perintah wipestorage secara permanen menghapus semua file, layer, tipe garis, dan riwayat undo yang tersimpan di browser. Memerlukan pengetikan YES untuk konfirmasi. Gunakan saat mengatur ulang database lokal yang rusak atau penuh.
 keywords: [CAD wipe storage, hapus data browser CAD, reset aplikasi CAD, hapus file lokal CAD, kulmanlab wipestorage]
 group: file
-order: 6
+order: 7
 ---
 
 # Wipe Storage

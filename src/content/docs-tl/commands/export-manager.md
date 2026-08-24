@@ -3,7 +3,7 @@ title: Export Manager — I-download ang mga Drawing bilang DXF o JSON
 description: Ini-download ng Export Manager ang kasalukuyang drawing bilang DXF o JSON (native) na file. Nakalista sa bawat format nang eksakto kung anong mga entity type ang dala nito, magkatabi, para makita mo bago mag-download kung ano ang tinatanggal ng DXF — sa ngayon ay Hatches, Dimensions, Leaders, at Text.
 keywords: [export DXF, export CAD file, i-download ang DXF sa browser, i-save ang DXF online, export JSON CAD, KulmanLab export, i-download ang CAD file, DXF export, i-save ang drawing sa file, DXF download]
 group: file
-order: 5
+order: 6
 ---
 
 # Export Manager

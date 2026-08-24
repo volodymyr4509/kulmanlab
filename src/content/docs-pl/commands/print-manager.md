@@ -61,7 +61,7 @@ Zmiana Jakości natychmiast ponownie renderuje podgląd, dzięki czemu widzisz r
 
 ## Wybieranie niestandardowego obszaru eksportu
 
-Domyślnie podgląd pokazuje dokładnie to, co było widoczne na płótnie podczas otwierania Menedżera druku. Aby wyeksportować określony region:
+Domyślnie podgląd pokazuje prostokąt ograniczający wszystkie obiekty w przestrzeni modelu — ten sam zasięg, do którego przybliża [Fit](../fit/) — lub cały arkusz w układzie. Aby wyeksportować konkretny obszar:
 
 1. Kliknij **Zmień obszar** — Menedżer druku chowa się, a płótno staje się interaktywne.
 2. **Kliknij pierwszy narożnik** prostokąta eksportu.
@@ -70,6 +70,8 @@ Domyślnie podgląd pokazuje dokładnie to, co było widoczne na płótnie podcz
 Naciśnij `Escape` podczas zaznaczania obszaru, aby anulować i przywrócić poprzedni obszar.
 
 Podgląd dynamicznie zmienia rozmiar, aby dopasować się do **dokładnego współczynnika kształtu** zaznaczonego obszaru, więc podgląd jest dokładny co do piksela.
+
+Wybrany obszar jest zapamiętywany osobno dla przestrzeni modelu i dla każdego układu do czasu przeładowania strony — zobacz [ChangePrintArea](../change-print-area/).
 
 ## Formaty eksportu
 

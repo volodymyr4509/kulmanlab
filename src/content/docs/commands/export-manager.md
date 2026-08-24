@@ -3,7 +3,7 @@ title: Export Manager — Download Drawings as DXF or JSON in KulmanLab CAD
 description: The Export Manager downloads the current drawing as a DXF or JSON (native) file. Each format lists exactly which entity types it carries, side by side, so you can see before downloading what DXF leaves out — currently hatches, dimensions, leaders, and text.
 keywords: [export DXF, export CAD file, download DXF browser, save DXF online, export JSON CAD, KulmanLab export, CAD file download, DXF export, save drawing to file, DXF download]
 group: file
-order: 5
+order: 6
 ---
 
 # Export Manager

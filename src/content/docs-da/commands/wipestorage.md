@@ -3,7 +3,7 @@ title: Wipe Storage-kommando — Ryd Alle Browserdata i KulmanLab CAD
 description: wipestorage-kommandoen sletter permanent alle filer, lag, linetyper og fortryd-historik gemt i browseren. Kræver at du skriver YES for at bekræfte. Brug når du vil nulstille en korrupt eller overfyldt lokal database.
 keywords: [CAD ryd lagring, ryd browserdata CAD, nulstil CAD-app, slet lokale filer CAD, kulmanlab wipestorage]
 group: file
-order: 6
+order: 7
 ---
 
 # Wipe Storage

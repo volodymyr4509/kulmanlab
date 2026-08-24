@@ -61,7 +61,7 @@ Changer la Qualité re-rend immédiatement l'aperçu, afin que vous voyiez la ne
 
 ## Sélectionner une zone d'export personnalisée
 
-Par défaut, l'aperçu montre exactement ce qui était visible sur le canevas quand vous avez ouvert le Gestionnaire d'impression. Pour exporter une région spécifique :
+Par défaut, l'aperçu montre le rectangle englobant de toutes les entités de l'espace objet — l'étendue sur laquelle [Fit](../fit/) zoome — ou la feuille entière sur une présentation. Pour exporter une région précise :
 
 1. Cliquez sur **Change Area** — le Gestionnaire d'impression se cache et le canevas devient interactif.
 2. **Cliquez sur le premier coin** du rectangle d'export.
@@ -70,6 +70,8 @@ Par défaut, l'aperçu montre exactement ce qui était visible sur le canevas qu
 Appuyez sur `Échap` pendant la sélection de zone pour annuler et restaurer la zone précédente.
 
 Le canevas d'aperçu se redimensionne dynamiquement pour correspondre au **rapport d'aspect exact** de la zone sélectionnée, de sorte que l'aperçu est précis au pixel près.
+
+La zone choisie est mémorisée séparément pour l'espace objet et pour chaque présentation jusqu'au rechargement de la page — voir [ChangePrintArea](../change-print-area/).
 
 ## Formats d'export
 

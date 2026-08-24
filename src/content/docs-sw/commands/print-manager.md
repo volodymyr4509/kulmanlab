@@ -61,7 +61,7 @@ Kubadilisha Quality hurenderi upya hakiki mara moja, hivyo unaona ukali halisi (
 
 ## Kuchagua eneo maalum la kusafirisha
 
-Kwa chaguo-msingi hakiki inaonyesha hasa kilichoonekana kwenye kanvasi ulipofungua Print Manager. Kusafirisha eneo maalum:
+Kwa chaguo-msingi hakiki huonyesha kisanduku kinachozunguka entiti zote katika nafasi ya Model — kiwango kile kile ambacho [Fit](../fit/) hukuza — au karatasi nzima kwenye mpangilio. Ili kuhamisha eneo mahususi:
 
 1. Bonyeza **Change Area** — Print Manager inajificha na kanvasi inakuwa ya mwingiliano.
 2. **Bonyeza kona ya kwanza** ya mstatili wa kusafirisha.
@@ -70,6 +70,8 @@ Kwa chaguo-msingi hakiki inaonyesha hasa kilichoonekana kwenye kanvasi ulipofung
 Bonyeza `Escape` wakati wa uchaguzi wa eneo kufuta na kurejesha eneo la awali.
 
 Kanvasi ya hakiki inabadilisha ukubwa wake kwa nguvu kulingana na **uwiano sahihi wa upande** wa eneo lililochaguliwa, hivyo hakiki ni sahihi kwa pikseli.
+
+Eneo lililochaguliwa hukumbukwa kivyake kwa nafasi ya Model na kwa kila mpangilio hadi upakie ukurasa upya — angalia [ChangePrintArea](../change-print-area/).
 
 ## Muundo wa kusafirisha
 

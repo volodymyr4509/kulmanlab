@@ -3,7 +3,7 @@ title: Export Manager — הורדת שרטוטים כ-DXF או JSON
 description: Export Manager מוריד את השרטוט הנוכחי כקובץ DXF או JSON (מקורי). כל פורמט מפרט בדיוק אילו סוגי ישויות הוא נושא, זה לצד זה, כך שתוכלו לראות לפני ההורדה מה DXF משמיט — כרגע hatches, מידות, מובילים וטקסט.
 keywords: [ייצוא DXF, ייצוא קובץ CAD, הורדת DXF בדפדפן, שמירת DXF מקוונת, ייצוא JSON CAD, ייצוא KulmanLab, הורדת קובץ CAD, ייצוא DXF, שמירת שרטוט לקובץ, הורדת DXF]
 group: file
-order: 5
+order: 6
 ---
 
 # Export Manager

@@ -61,7 +61,7 @@ Cambiare la Qualità ri-renderizza immediatamente l'anteprima, così vedi la nit
 
 ## Selezione di un'area di esportazione personalizzata
 
-Per impostazione predefinita l'anteprima mostra esattamente ciò che era visibile sul canvas quando hai aperto il Print Manager. Per esportare una regione specifica:
+Per impostazione predefinita l'anteprima mostra il riquadro di delimitazione di tutte le entità nello spazio Modello — la stessa estensione a cui fa zoom [Fit](../fit/) — o l'intero foglio in un layout. Per esportare una regione specifica:
 
 1. Clicca **Change Area** — il Print Manager si nasconde e il canvas diventa interattivo.
 2. **Clicca il primo angolo** del rettangolo di esportazione.
@@ -70,6 +70,8 @@ Per impostazione predefinita l'anteprima mostra esattamente ciò che era visibil
 Premi `Esc` durante la selezione dell'area per annullare e ripristinare l'area precedente.
 
 Il canvas di anteprima si ridimensiona dinamicamente per corrispondere al **rapporto d'aspetto esatto** dell'area selezionata, in modo che l'anteprima sia accurata al pixel.
+
+L'area scelta viene ricordata separatamente per lo spazio Modello e per ogni layout fino al ricaricamento della pagina — vedi [ChangePrintArea](../change-print-area/).
 
 ## Formati di esportazione
 

@@ -3,7 +3,7 @@ title: Gestionnaire d'exportation — Télécharger des Dessins en DXF ou JSON
 description: Le Gestionnaire d'exportation télécharge le dessin actuel sous forme de fichier DXF ou JSON (natif). Chaque format liste exactement quels types d'entités il transporte, côte à côte, afin que vous voyiez avant de télécharger ce que DXF laisse de côté — actuellement les hachures, cotes, leaders et texte.
 keywords: [exporter DXF, exporter fichier CAO, télécharger DXF navigateur, enregistrer DXF en ligne, exporter JSON CAO, export KulmanLab, télécharger fichier CAO, export DXF, enregistrer dessin en fichier, téléchargement DXF]
 group: file
-order: 5
+order: 6
 ---
 
 # Gestionnaire d'exportation

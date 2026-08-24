@@ -3,7 +3,7 @@ title: Export Manager — Last ned tegninger som DXF eller JSON
 description: Export Manager laster ned den gjeldende tegningen som en DXF- eller JSON-fil (innebygd). Hvert format viser nøyaktig hvilke entitetstyper det inneholder, side om side, slik at du kan se før nedlasting hva DXF utelater — for øyeblikket hatcher, mål, ledelinjer og tekst.
 keywords: [eksporter DXF, eksporter CAD-fil, last ned DXF nettleser, lagre DXF online, eksporter JSON CAD, KulmanLab eksport, last ned CAD-fil, DXF-eksport, lagre tegning som fil, DXF-nedlasting]
 group: file
-order: 5
+order: 6
 ---
 
 # Export Manager

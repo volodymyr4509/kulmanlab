@@ -3,7 +3,7 @@ title: "Export Manager — ਡਰਾਇੰਗ ਨੂੰ DXF ਜਾਂ JSON ਵ�
 description: "Export Manager ਮੌਜੂਦਾ ਡਰਾਇੰਗ ਨੂੰ DXF ਜਾਂ JSON (ਨੇਟਿਵ) ਫਾਈਲ ਵਜੋਂ ਡਾਊਨਲੋਡ ਕਰਦਾ ਹੈ। ਹਰ ਫਾਰਮੈਟ ਬਿਲਕੁਲ ਦੱਸਦਾ ਹੈ ਕਿ ਇਹ ਕਿਹੜੀਆਂ ਐਂਟਿਟੀ ਕਿਸਮਾਂ ਲੈ ਕੇ ਜਾਂਦਾ ਹੈ, ਨਾਲ-ਨਾਲ, ਤਾਂ ਜੋ ਤੁਸੀਂ ਡਾਊਨਲੋਡ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਵੇਖ ਸਕੋ ਕਿ DXF ਕੀ ਛੱਡਦਾ ਹੈ — ਵਰਤਮਾਨ ਵਿੱਚ Hatches, Dimensions, Leaders, ਅਤੇ Text।"
 keywords: [CAD DXF ਐਕਸਪੋਰਟ, CAD ਫਾਈਲ ਐਕਸਪੋਰਟ, ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ DXF ਡਾਊਨਲੋਡ, DXF ਆਨਲਾਈਨ ਸੇਵ, JSON CAD ਐਕਸਪੋਰਟ, KulmanLab ਐਕਸਪੋਰਟ, CAD ਫਾਈਲ ਡਾਊਨਲੋਡ, DXF ਐਕਸਪੋਰਟ, ਡਰਾਇੰਗ ਨੂੰ ਫਾਈਲ ਵਿੱਚ ਸੇਵ ਕਰੋ, DXF ਡਾਊਨਲੋਡ]
 group: file
-order: 5
+order: 6
 ---
 
 # Export Manager

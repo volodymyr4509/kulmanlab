@@ -61,7 +61,7 @@ Canza Quality yana sake bayarwa da preview nan take, don haka kake ganin tsabta 
 
 ## Zaɓen yankin fitarwa na musamman
 
-Ta tsoho preview yana nuna daidai abin da ke bayyana a kan canvas lokacin da ka buɗe Print Manager. Don fitar da yanki na musamman:
+Ta tsohuwa preview yana nuna akwatin da ya kewaye dukkan abubuwa a sararin Model — girman guda da [Fit](../fit/) ke kusantowa — ko duk takardar a kan shimfida. Don fitar da wani yanki takamaimai:
 
 1. Danna **Change Area** — Print Manager yana ɓoyewa kuma canvas yana zama mai hulɗa.
 2. **Danna kusurwa ta farko** na murabbaʼin fitarwa.
@@ -70,6 +70,8 @@ Ta tsoho preview yana nuna daidai abin da ke bayyana a kan canvas lokacin da ka 
 Danna `Escape` yayin zaɓen yanki don soke da mayar da yankin da ya gabata.
 
 Canvas na preview yana sake girma kai tsaye don ya dace da **adadin girma madaidaici** na yankin da aka zaɓa, don haka preview yana daidaici ga pixel.
+
+Ana tuna yankin da aka zaɓa daban ga sararin Model da kowane shimfida har sai ka sake loda shafin — duba [ChangePrintArea](../change-print-area/).
 
 ## Tsarin fitarwa
 

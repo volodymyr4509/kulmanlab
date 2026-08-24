@@ -61,7 +61,7 @@ Menukar Kualiti serta-merta memberikan pratonton semula, jadi anda dapat melihat
 
 ## Memilih kawasan eksport tersuai
 
-Secara lalai pratonton menunjukkan tepat apa yang kelihatan pada kanvas apabila anda membuka Pengurus Cetak. Untuk mengeksport kawasan tertentu:
+Secara lalai pratonton menunjukkan kotak sempadan semua entiti dalam ruang Model — julat sama yang dizum oleh [Fit](../fit/) — atau keseluruhan helaian pada susun atur. Untuk mengeksport kawasan tertentu:
 
 1. Klik **Change Area** — Pengurus Cetak disembunyikan dan kanvas menjadi interaktif.
 2. **Klik sudut pertama** segi empat tepat eksport.
@@ -70,6 +70,8 @@ Secara lalai pratonton menunjukkan tepat apa yang kelihatan pada kanvas apabila 
 Tekan `Escape` semasa pemilihan kawasan untuk membatalkan dan memulihkan kawasan sebelumnya.
 
 Kanvas pratonton mengubah saiz secara dinamik agar sepadan dengan **nisbah aspek tepat** kawasan yang dipilih, supaya pratonton adalah tepat piksel.
+
+Kawasan yang dipilih diingati secara berasingan bagi ruang Model dan setiap susun atur sehingga anda memuat semula halaman — lihat [ChangePrintArea](../change-print-area/).
 
 ## Format eksport
 

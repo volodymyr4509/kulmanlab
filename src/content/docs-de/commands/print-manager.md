@@ -61,7 +61,7 @@ Eine Änderung der Qualität rendert die Vorschau sofort neu, sodass Sie die tat
 
 ## Benutzerdefinierten Exportbereich auswählen
 
-Standardmäßig zeigt die Vorschau genau das, was beim Öffnen des Druck-Managers auf der Zeichenfläche sichtbar war. Um eine bestimmte Region zu exportieren:
+Standardmäßig zeigt die Vorschau den Begrenzungsrahmen aller Objekte im Modellbereich — dieselbe Ausdehnung, auf die [Fit](../fit/) zoomt — oder das gesamte Blatt bei einem Layout. Um einen bestimmten Bereich zu exportieren:
 
 1. Klicken Sie auf **Change Area** — der Druck-Manager wird ausgeblendet und die Zeichenfläche wird interaktiv.
 2. **Klicken Sie auf die erste Ecke** des Exportrechtecks.
@@ -70,6 +70,8 @@ Standardmäßig zeigt die Vorschau genau das, was beim Öffnen des Druck-Manager
 Drücken Sie `Escape` während der Bereichsauswahl, um abzubrechen und den vorherigen Bereich wiederherzustellen.
 
 Die Vorschau-Zeichenfläche passt ihre Größe dynamisch an das **genaue Seitenverhältnis** des ausgewählten Bereichs an, sodass die Vorschau pixelgenau ist.
+
+Der gewählte Bereich wird bis zum Neuladen der Seite getrennt für den Modellbereich und für jedes Layout gemerkt — siehe [ChangePrintArea](../change-print-area/).
 
 ## Exportformate
 

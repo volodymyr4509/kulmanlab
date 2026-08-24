@@ -3,7 +3,7 @@ title: Wipe Storage — Tyhjennä Kaikki Selaimen Tiedot KulmanLab CAD:issa
 description: wipestorage-komento poistaa pysyvästi kaikki selaimeen tallennetut tiedostot, tasot, linetyypit ja kumoushistorian. Vaatii YES-tekstin kirjoittamista vahvistukseksi. Käytä nollataksesi vioittuneen tai ylitäyden paikallisen tietokannan.
 keywords: [CAD tyhjennä tallennustila, tyhjennä selaimen tiedot CAD, nollaa CAD-sovellus, poista paikalliset tiedostot CAD, kulmanlab wipestorage]
 group: file
-order: 6
+order: 7
 ---
 
 # Wipe Storage

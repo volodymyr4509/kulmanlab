@@ -61,7 +61,7 @@ Alterar a Qualidade renderiza novamente a visualização imediatamente, para que
 
 ## Selecionando uma área de exportação personalizada
 
-Por padrão a prévia mostra exatamente o que estava visível no canvas quando você abriu o Print Manager. Para exportar uma região específica:
+Por padrão a prévia mostra a caixa delimitadora de todas as entidades no espaço Modelo — a mesma extensão para a qual [Fit](../fit/) dá zoom — ou a folha inteira num layout. Para exportar uma região específica:
 
 1. Clique em **Mudar Área** — o Print Manager se oculta e o canvas torna-se interativo.
 2. **Clique no primeiro canto** do retângulo de exportação.
@@ -70,6 +70,8 @@ Por padrão a prévia mostra exatamente o que estava visível no canvas quando v
 Pressione `Escape` durante a seleção de área para cancelar e restaurar a área anterior.
 
 O canvas de prévia redimensiona dinamicamente para corresponder à **proporção exata** da área selecionada, de modo que a prévia é precisa ao pixel.
+
+A área escolhida é lembrada separadamente para o espaço Modelo e para cada layout até você recarregar a página — veja [ChangePrintArea](../change-print-area/).
 
 ## Formatos de exportação
 

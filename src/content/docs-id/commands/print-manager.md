@@ -61,7 +61,7 @@ Mengubah Kualitas langsung merender ulang pratinjau, sehingga Anda melihat ketaj
 
 ## Memilih area ekspor kustom
 
-Secara default pratinjau menampilkan persis apa yang terlihat di kanvas saat Anda membuka Print Manager. Untuk mengekspor wilayah tertentu:
+Secara bawaan pratinjau menampilkan kotak pembatas semua entitas di ruang Model — rentang yang sama seperti yang dizoom [Fit](../fit/) — atau seluruh lembar pada sebuah layout. Untuk mengekspor wilayah tertentu:
 
 1. Klik **Change Area** — Print Manager tersembunyi dan kanvas menjadi interaktif.
 2. **Klik sudut pertama** dari persegi panjang ekspor.
@@ -70,6 +70,8 @@ Secara default pratinjau menampilkan persis apa yang terlihat di kanvas saat And
 Tekan `Escape` selama seleksi area untuk membatalkan dan memulihkan area sebelumnya.
 
 Kanvas pratinjau diubah ukurannya secara dinamis untuk cocok dengan **rasio aspek tepat** dari area yang dipilih, sehingga pratinjau akurat secara piksel.
+
+Area yang dipilih diingat secara terpisah untuk ruang Model dan setiap layout hingga Anda memuat ulang halaman — lihat [ChangePrintArea](../change-print-area/).
 
 ## Format ekspor
 

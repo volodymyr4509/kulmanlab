@@ -61,7 +61,7 @@ Ang pagbabago ng Quality ay agad na nagre-render ulit ng preview, kaya makikita 
 
 ## Pagpili ng custom na export area
 
-Bilang default, ipinapakita ng preview ang eksaktong nakikita sa canvas noong binuksan mo ang Print Manager. Para mag-export ng specific na rehiyon:
+Bilang default, ipinapakita ng preview ang bounding box ng lahat ng entity sa Model space — ang parehong saklaw na sini-zoom ng [Fit](../fit/) — o ang buong sheet sa isang layout. Upang mag-export ng partikular na rehiyon:
 
 1. I-click ang **Change Area** — nagtatago ang Print Manager at nagiging interactive ang canvas.
 2. **I-click ang unang sulok** ng export rectangle.
@@ -70,6 +70,8 @@ Bilang default, ipinapakita ng preview ang eksaktong nakikita sa canvas noong bi
 Pindutin ang `Escape` habang nasa area selection para kanselahin at ibalik ang naunang area.
 
 Dynamic na nag-a-adjust ng size ang preview canvas para tumugma sa **eksaktong aspect ratio** ng napiling area, kaya pixel-accurate ang preview.
+
+Ang piniling area ay hiwalay na naaalala para sa Model space at para sa bawat layout hanggang mag-reload ka ng pahina — tingnan ang [ChangePrintArea](../change-print-area/).
 
 ## Mga format ng export
 

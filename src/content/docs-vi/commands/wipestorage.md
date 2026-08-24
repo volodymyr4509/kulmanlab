@@ -2,7 +2,7 @@
 title: Lệnh Wipe Storage — Xóa Tất Cả Dữ Liệu Trình Duyệt
 description: Lệnh wipestorage xóa vĩnh viễn tất cả tệp, lớp, kiểu đường và lịch sử hoàn tác được lưu trong trình duyệt. Yêu cầu gõ YES để xác nhận. Dùng khi đặt lại cơ sở dữ liệu cục bộ bị hỏng hoặc quá đầy.
 group: file
-order: 6
+order: 7
 ---
 
 # Wipe Storage

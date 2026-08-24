@@ -3,7 +3,7 @@ title: Wipe Storage — ניקוי כל נתוני הדפדפן ב-KulmanLab CAD
 description: פקודת wipestorage מוחקת לצמיתות את כל הקבצים, השכבות, סוגי הקו וההיסטוריה השמורים בדפדפן. דורשת הקלדת YES לאישור. השתמשו כאשר מאפסים מסד נתונים מקומי פגום או מלא מדי.
 keywords: [ניקוי אחסון CAD, ניקוי נתוני דפדפן CAD, איפוס אפליקציית CAD, מחיקת קבצים מקומיים CAD, kulmanlab wipestorage]
 group: file
-order: 6
+order: 7
 ---
 
 # Wipe Storage

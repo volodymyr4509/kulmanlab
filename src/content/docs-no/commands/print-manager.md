@@ -61,7 +61,7 @@ Høyere Quality gir et større, skarpere bilde i samme fysiske størrelse — li
 
 ## Velge et egendefinert eksportområde
 
-Som standard viser forhåndsvisningen nøyaktig det som var synlig på lerretet da du åpnet Print Manager. For å eksportere et spesifikt område:
+Som standard viser forhåndsvisningen det omsluttende rektangelet for alle objekter i modellrommet — samme utstrekning som [Fit](../fit/) zoomer til — eller hele arket i en layout. For å eksportere et bestemt område:
 
 1. Klikk **Change Area** — Print Manager skjules og lerretet blir interaktivt.
 2. **Klikk det første hjørnet** av eksportrektangelet.
@@ -70,6 +70,8 @@ Som standard viser forhåndsvisningen nøyaktig det som var synlig på lerretet 
 Trykk `Escape` under områdevalg for å avbryte og gjenopprette det forrige området.
 
 Forhåndsvisningslerretet endrer størrelse dynamisk for å samsvare med det **eksakte størrelsesforholdet** til det valgte området, slik at forhåndsvisningen er pikselnøyaktig.
+
+Det valgte området huskes separat for modellrommet og for hver layout til du laster siden på nytt — se [ChangePrintArea](../change-print-area/).
 
 ## Eksportformater
 

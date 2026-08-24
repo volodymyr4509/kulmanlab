@@ -3,7 +3,7 @@ title: "Export Manager — ड्रॉइंग को DXF या JSON के �
 description: "Export Manager वर्तमान ड्रॉइंग को DXF या JSON (नेटिव) फ़ाइल के रूप में डाउनलोड करता है। हर फ़ॉर्मेट बिल्कुल बताता है कि वह कौन-से एंटिटी टाइप ले जाता है, साथ-साथ, ताकि डाउनलोड करने से पहले आप देख सकें कि DXF क्या छोड़ देता है — फ़िलहाल Hatches, Dimensions, Leaders, और Text।"
 keywords: [CAD DXF निर्यात, CAD फ़ाइल निर्यात, ब्राउज़र में DXF डाउनलोड, DXF ऑनलाइन सेव, JSON CAD निर्यात, KulmanLab निर्यात, CAD फ़ाइल डाउनलोड, DXF निर्यात, ड्रॉइंग को फ़ाइल में सेव करें, DXF डाउनलोड]
 group: file
-order: 5
+order: 6
 ---
 
 # Export Manager

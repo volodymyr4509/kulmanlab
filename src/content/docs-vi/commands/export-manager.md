@@ -3,7 +3,7 @@ title: Export Manager — Tải xuống Bản vẽ dưới dạng DXF hoặc JSO
 description: Export Manager tải xuống bản vẽ hiện tại dưới dạng tệp DXF hoặc JSON (gốc). Mỗi định dạng liệt kê chính xác những loại thực thể nào nó mang theo, cạnh nhau, để bạn thấy trước khi tải xuống những gì DXF bỏ qua — hiện tại là hatch, kích thước, đường dẫn và văn bản.
 keywords: [xuất DXF, xuất tệp CAD, tải DXF trình duyệt, lưu DXF trực tuyến, xuất JSON CAD, xuất KulmanLab, tải tệp CAD, xuất DXF, lưu bản vẽ vào tệp, tải DXF]
 group: file
-order: 5
+order: 6
 ---
 
 # Export Manager

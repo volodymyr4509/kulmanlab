@@ -61,7 +61,7 @@ Att ändra Quality renderar om förhandsgranskningen omedelbart, så du ser den 
 
 ## Välja ett anpassat exportområde
 
-Som standard visar förhandsgranskningen exakt det som var synligt på ritytan när du öppnade Print Manager. För att exportera ett specifikt område:
+Som standard visar förhandsgranskningen den omslutande rektangeln för alla objekt i modellrymden — samma utsträckning som [Fit](../fit/) zoomar till — eller hela arket i en layout. För att exportera ett visst område:
 
 1. Klicka på **Change Area** — Print Manager döljs och ritytan blir interaktiv.
 2. **Klicka på det första hörnet** av exportrektangeln.
@@ -70,6 +70,8 @@ Som standard visar förhandsgranskningen exakt det som var synligt på ritytan n
 Tryck `Escape` under områdesmarkering för att avbryta och återställa det föregående området.
 
 Förhandsgranskningsytan ändrar storlek dynamiskt för att matcha det valda områdets **exakta bildförhållande**, så förhandsgranskningen är pixelexakt.
+
+Det valda området kommer ihåg separat för modellrymden och för varje layout tills du laddar om sidan — se [ChangePrintArea](../change-print-area/).
 
 ## Exportformat
 

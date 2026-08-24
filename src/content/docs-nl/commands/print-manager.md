@@ -61,7 +61,7 @@ Het wijzigen van Quality rendert de voorvertoning direct opnieuw, zodat u de wer
 
 ## Een aangepast exportgebied selecteren
 
-Standaard toont de preview precies wat zichtbaar was op het canvas toen u de Print Manager opende. Om een specifiek gebied te exporteren:
+Standaard toont de preview de omhullende rechthoek van alle entiteiten in de modelruimte — dezelfde uitgestrektheid waarop [Fit](../fit/) inzoomt — of het hele vel op een lay-out. Om een specifiek gebied te exporteren:
 
 1. Klik op **Change Area** — de Print Manager wordt verborgen en het canvas wordt interactief.
 2. **Klik de eerste hoek** van de exportrechthoek aan.
@@ -70,6 +70,8 @@ Standaard toont de preview precies wat zichtbaar was op het canvas toen u de Pri
 Druk tijdens gebiedsselectie op `Escape` om te annuleren en het vorige gebied te herstellen.
 
 De preview-canvas past dynamisch van grootte aan om de **exacte beeldverhouding** van het geselecteerde gebied te volgen, zodat de preview pixel-nauwkeurig is.
+
+Het gekozen gebied wordt apart onthouden voor de modelruimte en voor elke lay-out totdat je de pagina herlaadt — zie [ChangePrintArea](../change-print-area/).
 
 ## Exportformaten
 

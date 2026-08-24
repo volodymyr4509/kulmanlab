@@ -3,7 +3,7 @@ title: Export Manager — 将图形下载为 DXF 或 JSON
 description: Export Manager 将当前图形下载为 DXF 或 JSON（原生）文件。每种格式并排精确列出它携带哪些图元类型，让你在下载前就能看到 DXF 遗漏了什么——目前是 hatch、标注、引线和文字。
 keywords: [CAD DXF 导出, CAD 文件导出, 浏览器下载 DXF, 在线保存 DXF, JSON CAD 导出, KulmanLab 导出, 下载 CAD 文件, DXF 导出, 将图形保存为文件, DXF 下载]
 group: file
-order: 5
+order: 6
 ---
 
 # Export Manager

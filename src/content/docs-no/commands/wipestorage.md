@@ -3,7 +3,7 @@ title: Wipe Storage-kommando — Tøm All Nettleserdata i KulmanLab CAD
 description: wipestorage-kommandoen sletter permanent alle filer, lag, linetyper og angre-historikk lagret i nettleseren. Krever at du skriver YES for å bekrefte. Bruk når du vil tilbakestille en korrupt eller overfylt lokal database.
 keywords: [CAD tøm lagring, tøm nettleserdata CAD, tilbakestill CAD-app, slett lokale filer CAD, kulmanlab wipestorage]
 group: file
-order: 6
+order: 7
 ---
 
 # Wipe Storage

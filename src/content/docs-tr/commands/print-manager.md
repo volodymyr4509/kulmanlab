@@ -61,7 +61,7 @@ Kaliteyi değiştirmek önizlemeyi hemen yeniden render eder, böylece dışa ak
 
 ## İsteğe Bağlı Dışa Aktarma Alanı Seçimi
 
-Varsayılan olarak önizleme, Print Manager açıldığında tuvalde görünenin tam olarak aynısını gösterir. Belirli bir alanı dışa aktarmak için:
+Varsayılan olarak önizleme, Model uzayındaki tüm varlıkların sınırlayıcı kutusunu — [Fit](../fit/) komutunun yakınlaştırdığı aynı kapsamı — ya da bir düzende sayfanın tamamını gösterir. Belirli bir bölgeyi dışa aktarmak için:
 
 1. **Change Area**'ya tıklayın — Print Manager gizlenir ve tuval etkileşimli hale gelir.
 2. Dışa aktarma dikdörtgeninin **birinci köşesini tıklayın**.
@@ -70,6 +70,8 @@ Varsayılan olarak önizleme, Print Manager açıldığında tuvalde görünenin
 Alan seçimini iptal etmek ve önceki alana dönmek için `Escape` tuşuna basın.
 
 Önizleme tuvali seçilen alanın **tam en-boy oranına** göre dinamik olarak yeniden boyutlandırılır, bu nedenle önizleme piksel düzeyinde doğrudur.
+
+Seçilen alan, sayfayı yeniden yükleyene kadar Model uzayı ve her düzen için ayrı ayrı hatırlanır — bkz. [ChangePrintArea](../change-print-area/).
 
 ## Dışa Aktarma Formatları
 

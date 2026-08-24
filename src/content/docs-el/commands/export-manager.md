@@ -3,7 +3,7 @@ title: Export Manager — Εξαγωγή Σχεδίων ως DXF ή JSON
 description: Ο Export Manager εξάγει το τρέχον σχέδιο ως αρχείο DXF ή JSON (εγγενές). Κάθε μορφή απαριθμεί ακριβώς ποιους τύπους οντοτήτων μεταφέρει, δίπλα-δίπλα, ώστε να βλέπετε πριν την εξαγωγή τι παραλείπει το DXF — προς το παρόν hatches, διαστάσεις, οδηγούς και κείμενο.
 keywords: [εξαγωγή DXF, εξαγωγή αρχείου CAD, λήψη DXF browser, αποθήκευση DXF online, εξαγωγή JSON CAD, εξαγωγή KulmanLab, λήψη αρχείου CAD, εξαγωγή DXF, αποθήκευση σχεδίου σε αρχείο, λήψη DXF]
 group: file
-order: 5
+order: 6
 ---
 
 # Export Manager

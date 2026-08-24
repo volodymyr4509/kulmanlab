@@ -61,15 +61,19 @@ Changing Quality re-renders the preview immediately, so you see the actual sharp
 
 ## Selecting a custom export area
 
-By default the preview shows exactly what was visible on the canvas when you opened Print Manager. To export a specific region:
+By default the preview shows the bounding box of every entity in Model space — the same extent [Fit](../fit/) zooms to — or the full sheet on a layout. To export a specific region:
 
-1. Click **Change Area** — the Print Manager hides and the canvas becomes interactive.
-2. **Click the first corner** of the export rectangle.
+1. Click **Change Area**, or type [`ChangePrintArea`](../change-print-area/) in the terminal — the Print Manager hides and the canvas becomes interactive.
+2. **Click the first corner**, or type `X,Y` and press **Enter** for an exact coordinate.
 3. **Click the opposite corner** — the Print Manager reopens with the selected area in the preview.
+
+Corners snap to grips and intersections like any other point pick, so you can crop to drawn geometry rather than by eye.
 
 Press `Escape` during area selection to cancel and restore the previous area.
 
 The preview canvas resizes dynamically to match the **exact aspect ratio** of the selected area, so the preview is pixel-accurate.
+
+The chosen area is remembered separately for Model space and for each layout until you reload the page — see [ChangePrintArea](../change-print-area/).
 
 ## Export formats
 
