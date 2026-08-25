@@ -98,6 +98,8 @@ Patterns come from a shared library managed by **Hatch Manager**: built-in defau
 | **Delete** | All entities | Remove selected objects from the drawing. |
 | **Explode** | Polyline | Break a polyline into its individual Line and Arc entities, one per segment, in place. |
 | **Match Properties** | All entities | Copy color, layer, linetype, and lineweight from one entity to others. |
+| **ClipboardCopy** | All entities | Write the selection to the system clipboard as JSON, together with the layers and linetypes it references. |
+| **ClipboardPaste** | All entities | Read entities back from the system clipboard and place them at a picked point — works across drawings and browser tabs. Missing layers/linetypes are added by name; existing ones are left alone. |
 
 ---
 
@@ -241,6 +243,8 @@ Drawings are stored locally in your browser using **IndexedDB**. Nothing is sent
 | `Ctrl+Z` / `Cmd+Z` | Undo |
 | `Ctrl+Shift+Z` / `Cmd+Shift+Z` | Redo |
 | `Ctrl+A` / `Cmd+A` | Select all |
+| `Ctrl+C` / `Cmd+C` | Copy selection to the system clipboard (ClipboardCopy) |
+| `Ctrl+V` / `Cmd+V` | Paste entities from the system clipboard (ClipboardPaste) |
 | `Delete` / `Backspace` | Delete selected entities |
 | `Escape` | Cancel active command or close dialog |
 | `Scroll wheel` | Zoom in / out |

@@ -283,6 +283,7 @@ It is designed for engineers, architects, and technical illustrators who need a 
 - Print manager: PDF and PNG/WebP export with a Draft/Normal/Presentation/Max Quality (DPI) setting; preview renders through the exact same path as the export, so what you see is what downloads
 - DXF import and export (compatible with LibreCAD, QCAD, BricsCAD, FreeCAD)
 - Match Properties command (copy color, layer, linetype, lineweight)
+- ClipboardCopy / ClipboardPaste (Ctrl+C / Ctrl+V) — copy entities to the system clipboard as JSON and paste them into another drawing or another browser tab; referenced layers and linetypes travel with them
 - Properties panel showing entity details
 - Undo/redo with full history
 - Adaptive CAD grid with snap-to-grid

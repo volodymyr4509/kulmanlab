@@ -827,6 +827,91 @@ Circles are saved as `CIRCLE` entities in the DXF file. Center coordinates, radi
 
 ---
 
+# ClipboardCopy
+
+The `ClipboardCopy` command writes the selected entities to your **system clipboard** as JSON text. Because it uses the real clipboard rather than an in-memory buffer, the copied geometry survives outside the drawing: paste it into a different file, a second browser tab, or a window you open later with [ClipboardPaste](./clipboard-paste). This is the difference from [Copy](./copy): Copy duplicates entities inside the current drawing in one gesture, while ClipboardCopy puts them somewhere they can be retrieved from a different drawing entirely.
+
+## Two ways to start
+
+**Pre-select, then copy**: select entities, press `Ctrl+C` (`Cmd+C` on macOS) or type `ClipboardCopy` — the entities are written to the clipboard immediately and the command exits.
+
+**Activate, then select**: press `Ctrl+C` with an empty selection, the prompt reads "pick objects to copy — Enter or Space to confirm", select objects by click or area drag, then press Enter or Space to copy and exit. Pressing Enter or Space with nothing selected simply ends the command without touching the clipboard.
+
+## What gets copied
+
+| Part | Purpose |
+|------|---------|
+| Entities | The full serialized form of every selected entity |
+| Reference point | The lower-left corner of the selection's combined bounds — what ClipboardPaste anchors to the cursor |
+| Layers | Only the layers the copied entities actually reference, by name |
+| Linetypes | Only the linetypes the copied entities actually reference, by name |
+
+Only referenced table entries travel with the copy, not the whole source drawing's layer and linetype tables. Hatch patterns are not bundled and don't need to be: a drawing's pattern table is the built-in default set, and any uploaded `.pat` files live in a per-user store already shared across tabs, so a pasted hatch resolves its own pattern.
+
+## Confirmation
+
+On success the terminal reports the count, e.g. `3 entities copied to clipboard`. If the browser refuses clipboard access, the terminal shows "Copy failed: clipboard access denied" and nothing is written — a browser permission decision, not a drawing error. Click once on the canvas to give the page focus and try again.
+
+Because the payload is ordinary JSON text, anything else copied afterwards replaces it.
+
+## Keyboard reference
+
+| Key | Action |
+|-----|--------|
+| `Ctrl+C` / `Cmd+C` | Activate ClipboardCopy |
+| `Enter` / `Space` | Copy the current selection, or exit if nothing is selected |
+| `Escape` | Cancel without copying |
+
+## Supported entities
+
+ClipboardCopy works on every entity type, serialized with the same mechanism the native `.json` export uses, so nothing is dropped on the way out.
+
+---
+
+# ClipboardPaste
+
+The `ClipboardPaste` command reads entities that [ClipboardCopy](./clipboard-copy) wrote to the **system clipboard** and places them in the current drawing at a point you pick. Because the clipboard is the real system one, the source can be a different drawing, a different browser tab, or a session from earlier in the day.
+
+## How to paste
+
+1. Press `Ctrl+V` (`Cmd+V` on macOS), or type `ClipboardPaste` in the terminal.
+2. The prompt reads "reading clipboard…" while the browser hands over the clipboard text.
+3. Once loaded the prompt changes to "pick insertion point" and a preview follows the cursor.
+4. **Click** to place the entities. They are added to the drawing and left selected.
+
+The preview is anchored by the copy's reference point — the lower-left corner of the original selection's combined bounds — so the relative arrangement of the copied entities is preserved exactly.
+
+## What happens on paste
+
+| Step | Behaviour |
+|------|-----------|
+| New identities | Every pasted entity is given a fresh id, so pasting twice yields two independent sets |
+| Translation | Entities are offset by cursor − reference point |
+| Layer merge | Any referenced layer the destination drawing lacks is added by name |
+| Linetype merge | Any referenced linetype the destination drawing lacks is added by name |
+| Selection | The previous selection is cleared and the pasted entities become the selection |
+
+Missing table entries are added; existing ones are left alone. If the clipboard carries a layer named `WALLS` in red and the destination already has a `WALLS` layer in blue, the destination's definition wins and the pasted entities join it. Nothing in the destination drawing is redefined by a paste.
+
+## When the clipboard has nothing to paste
+
+ClipboardPaste only accepts payloads that ClipboardCopy produced. Anything else — plain text, a URL, an image, JSON from another application — is rejected with "Clipboard has no copied entities". If the browser refuses clipboard access entirely, the message is "Clipboard access denied". Both end the command without changing the drawing.
+
+## Keyboard reference
+
+| Key | Action |
+|-----|--------|
+| `Ctrl+V` / `Cmd+V` | Activate ClipboardPaste |
+| `Escape` | Cancel — the entities are discarded and nothing is added |
+
+Escaping during the read phase is safe: if the clipboard resolves after the user has already cancelled or started another command, the late result is discarded rather than interrupting whatever is active by then.
+
+## Copying between tabs
+
+Open the source drawing, select geometry, press `Ctrl+C`; switch to the other tab or open a second tab on a different file; press `Ctrl+V` and click an insertion point. Both tabs are the same origin and share the system clipboard, so nothing is uploaded and no server is involved — the payload is JSON text on your own clipboard the entire time.
+
+---
+
 # Copy
 
 The `copy` command creates translated duplicates of selected entities and places them offset from a base point to a destination — the originals stay exactly where they are. This is the one key difference from [Move](./move): Copy adds new entities to the drawing; Move relocates existing ones.
