@@ -1,0 +1,42 @@
+---
+import { getCollection, render } from 'astro:content';
+import BlogLayout from '../../layouts/BlogLayout.astro';
+import type { Lang } from '../../i18n/translations';
+import { readingMinutes, splitId } from '../../utils/blog';
+
+export async function getStaticPaths() {
+  const entries = (await getCollection('blog')).filter(e => !e.data.draft);
+  // Which languages a given slug exists in drives both hreflang and the
+  // language selector, so it is resolved once here from the files themselves.
+  const langsBySlug = new Map<string, Lang[]>();
+  for (const e of entries) {
+    const { lang, slug } = splitId(e.id);
+    langsBySlug.set(slug, [...(langsBySlug.get(slug) ?? []), lang]);
+  }
+  return entries
+    .filter(e => splitId(e.id).lang === 'en')
+    .map(entry => {
+      const { slug } = splitId(entry.id);
+      return { params: { slug }, props: { entry, slug, translatedLangs: langsBySlug.get(slug) ?? ['en'] } };
+    });
+}
+
+const { entry, slug, translatedLangs } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<BlogLayout
+  lang="en"
+  slug={slug}
+  title={entry.data.title}
+  description={entry.data.description}
+  keywords={entry.data.keywords}
+  date={entry.data.date}
+  updated={entry.data.updated}
+  author={entry.data.author}
+  tag={entry.data.tag}
+  minutes={readingMinutes(entry.body ?? '', 'en')}
+  translatedLangs={translatedLangs}
+>
+  <Content />
+</BlogLayout>

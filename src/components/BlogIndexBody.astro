@@ -1,0 +1,54 @@
+---
+import { getCollection } from 'astro:content';
+import type { Lang } from '../i18n/translations';
+import { translations } from '../i18n/translations';
+import { formatDate, isoDate, postUrl, readingMinutes, splitId } from '../utils/blog';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = translations[lang] ?? translations['en'];
+
+const posts = (await getCollection('blog'))
+  .filter(e => !e.data.draft && splitId(e.id).lang === lang)
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .map(e => ({
+    ...e.data,
+    href: postUrl(lang, splitId(e.id).slug),
+    minutes: readingMinutes(e.body ?? '', lang),
+  }));
+---
+
+<main class="mx-auto max-w-3xl px-6 py-16">
+
+  <div class="mb-14">
+    <h1 class="mb-3 text-4xl font-bold text-slate-50">{t['blog.heading']}</h1>
+    <p class="text-lg text-slate-400">{t['blog.subtitle']}</p>
+  </div>
+
+  {posts.length === 0 ? (
+    <p class="text-slate-500">{t['blog.empty']}</p>
+  ) : (
+    <div class="space-y-5">
+      {posts.map(p => (
+        <article class="rounded-xl border border-slate-800 bg-slate-800/20 transition-colors hover:border-slate-700">
+          <a href={p.href} class="block px-6 py-6">
+            <div class="mb-3 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-slate-500">
+              {p.tag && (
+                <span class="rounded-full border border-brand/20 bg-brand/10 px-2.5 py-0.5 font-medium text-brand">{p.tag}</span>
+              )}
+              <time datetime={isoDate(p.date)}>{formatDate(p.date, lang)}</time>
+              <span class="text-slate-700">·</span>
+              <span>{p.minutes} {t['blog.minread']}</span>
+            </div>
+            <h2 class="mb-2 text-xl font-bold leading-snug text-slate-50">{p.title}</h2>
+            <p class="text-sm leading-relaxed text-slate-400">{p.description}</p>
+            <span class="mt-4 inline-block text-sm font-medium text-brand">{t['blog.readmore']} &rarr;</span>
+          </a>
+        </article>
+      ))}
+    </div>
+  )}
+
+</main>

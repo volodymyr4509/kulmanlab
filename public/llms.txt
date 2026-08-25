@@ -8,6 +8,7 @@
 - Landing page: https://kulmanlab.com
 - Docs: https://kulmanlab.com/docs/
 - Changelog: https://kulmanlab.com/changelog/
+- Blog: https://kulmanlab.com/blog/ (English only)
 - FAQ: https://kulmanlab.com/faq/
 - About: https://kulmanlab.com/about/
 - Privacy: https://kulmanlab.com/privacy/

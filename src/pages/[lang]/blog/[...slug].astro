@@ -1,0 +1,45 @@
+---
+import { getCollection, render } from 'astro:content';
+import BlogLayout from '../../../layouts/BlogLayout.astro';
+import type { Lang } from '../../../i18n/translations';
+import { readingMinutes, splitId } from '../../../utils/blog';
+
+export async function getStaticPaths() {
+  const entries = (await getCollection('blog')).filter(e => !e.data.draft);
+  const langsBySlug = new Map<string, Lang[]>();
+  for (const e of entries) {
+    const { lang, slug } = splitId(e.id);
+    langsBySlug.set(slug, [...(langsBySlug.get(slug) ?? []), lang]);
+  }
+  // Only translations that exist get a page — an untranslated post simply has
+  // no URL in that locale, and its blog index doesn't list it.
+  return entries
+    .filter(e => splitId(e.id).lang !== 'en')
+    .map(entry => {
+      const { lang, slug } = splitId(entry.id);
+      return {
+        params: { lang, slug },
+        props: { entry, lang, slug, translatedLangs: langsBySlug.get(slug) ?? [lang] },
+      };
+    });
+}
+
+const { entry, lang, slug, translatedLangs } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<BlogLayout
+  lang={lang}
+  slug={slug}
+  title={entry.data.title}
+  description={entry.data.description}
+  keywords={entry.data.keywords}
+  date={entry.data.date}
+  updated={entry.data.updated}
+  author={entry.data.author}
+  tag={entry.data.tag}
+  minutes={readingMinutes(entry.body ?? '', lang)}
+  translatedLangs={translatedLangs}
+>
+  <Content />
+</BlogLayout>

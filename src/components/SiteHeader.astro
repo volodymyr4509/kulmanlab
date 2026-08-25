@@ -4,11 +4,13 @@ import { translations, type Lang } from '../i18n/translations';
 import { localeUrl } from '../i18n/utils';
 
 interface Props {
-  active?: 'docs' | 'changelog' | 'howto' | 'faq';
+  active?: 'docs' | 'blog' | 'changelog' | 'howto' | 'faq';
   lang?: Lang;
   docsSlug?: string;
+  blogSlug?: string;
+  blogLangs?: Lang[];
 }
-const { active, lang = 'en', docsSlug } = Astro.props;
+const { active, lang = 'en', docsSlug, blogSlug, blogLangs } = Astro.props;
 const t = translations[lang];
 
 const APP_URL = 'https://app.kulmanlab.com';
@@ -20,6 +22,7 @@ const faqUrl = localeUrl(lang, 'faq');
 const changelogUrl = localeUrl(lang, 'changelog');
 const howtoUrl = localeUrl(lang, 'how-to');
 const docsUrl = lang === 'en' ? '/docs/' : `/${lang}/docs/`;
+const blogUrl = localeUrl(lang, 'blog');
 
 const link = (page: string) =>
   active === page
@@ -44,10 +47,17 @@ const mobileLink = (page: string) =>
     <!-- Desktop nav -->
     <div class="hidden md:flex items-center gap-6">
       <a href={docsUrl} data-locale="docs" class={link('docs')}><span data-i18n="nav.docs">{t['nav.docs']}</span></a>
+      <a href={blogUrl} data-locale="blog" class={link('blog')}><span data-i18n="nav.blog">{t['nav.blog']}</span></a>
       <a href={changelogUrl} data-locale="changelog" class={link('changelog')}><span data-i18n="nav.changelog">{t['nav.changelog']}</span></a>
       <a href={howtoUrl} data-locale="how-to" class={link('howto')}><span data-i18n="nav.howto">{t['nav.howto']}</span></a>
       <a href={faqUrl} data-locale="faq" class={link('faq')}><span data-i18n="nav.faq">{t['nav.faq']}</span></a>
-      <LanguageSelector lang={lang} page={active === 'faq' ? 'faq' : active === 'changelog' ? 'changelog' : 'home'} docsSlug={active === 'docs' ? docsSlug : undefined} />
+      <LanguageSelector
+        lang={lang}
+        page={active === 'faq' ? 'faq' : active === 'changelog' ? 'changelog' : active === 'blog' ? 'blog' : 'home'}
+        docsSlug={active === 'docs' ? docsSlug : undefined}
+        blogSlug={blogSlug}
+        blogLangs={blogLangs}
+      />
       <div class="flex items-center gap-3">
         <a href={GITHUB_URL} target="_blank" rel="noopener" aria-label="GitHub" class="text-slate-500 hover:text-slate-200 transition-colors">
           <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -96,6 +106,7 @@ const mobileLink = (page: string) =>
   <div id="mobile-nav" class="hidden border-t border-slate-800 md:hidden">
     <div class="mx-auto max-w-6xl px-4 py-3 flex flex-col gap-1">
       <a href={docsUrl} data-locale="docs" class={mobileLink('docs')}><span data-i18n="nav.docs">{t['nav.docs']}</span></a>
+      <a href={blogUrl} data-locale="blog" class={mobileLink('blog')}><span data-i18n="nav.blog">{t['nav.blog']}</span></a>
       <a href={changelogUrl} data-locale="changelog" class={mobileLink('changelog')}><span data-i18n="nav.changelog">{t['nav.changelog']}</span></a>
       <a href={howtoUrl} data-locale="how-to" class={mobileLink('howto')}><span data-i18n="nav.howto">{t['nav.howto']}</span></a>
       <a href={faqUrl} data-locale="faq" class={mobileLink('faq')}><span data-i18n="nav.faq">{t['nav.faq']}</span></a>

@@ -1,0 +1,28 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import BlogIndexBody from '../../components/BlogIndexBody.astro';
+import type { Lang } from '../../i18n/translations';
+import { translations } from '../../i18n/translations';
+import { buildAlternates } from '../../i18n/utils';
+
+const lang: Lang = 'en';
+const t = translations[lang];
+---
+
+<Layout
+  title={t['blog.title']}
+  description={t['blog.desc']}
+  canonical="https://kulmanlab.com/blog/"
+  lang={lang}
+  alternates={buildAlternates('blog')}
+>
+
+  <SiteHeader active="blog" lang={lang} />
+
+  <BlogIndexBody lang={lang} />
+
+  <SiteFooter lang={lang} />
+
+</Layout>

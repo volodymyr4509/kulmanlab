@@ -1,0 +1,34 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import SiteHeader from '../../../components/SiteHeader.astro';
+import SiteFooter from '../../../components/SiteFooter.astro';
+import BlogIndexBody from '../../../components/BlogIndexBody.astro';
+import type { Lang } from '../../../i18n/translations';
+import { translations } from '../../../i18n/translations';
+import { LANGS_NO_EN, buildAlternates } from '../../../i18n/utils';
+
+// Every locale gets a blog index even before any post is translated into it,
+// so the language selector always has somewhere to land.
+export function getStaticPaths() {
+  return LANGS_NO_EN.map(lang => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params as { lang: Lang };
+const t = translations[lang];
+---
+
+<Layout
+  title={t['blog.title']}
+  description={t['blog.desc']}
+  canonical={`https://kulmanlab.com/${lang}/blog/`}
+  lang={lang}
+  alternates={buildAlternates('blog')}
+>
+
+  <SiteHeader active="blog" lang={lang} />
+
+  <BlogIndexBody lang={lang} />
+
+  <SiteFooter lang={lang} />
+
+</Layout>

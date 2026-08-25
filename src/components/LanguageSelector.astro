@@ -4,10 +4,12 @@ import type { Lang } from '../i18n/translations';
 
 interface Props {
   lang?: Lang;
-  page?: 'home' | 'faq' | 'changelog';
+  page?: 'home' | 'faq' | 'changelog' | 'blog';
   docsSlug?: string;
+  blogSlug?: string;
+  blogLangs?: Lang[];
 }
-const { lang: currentLang = 'en', page = 'home', docsSlug } = Astro.props;
+const { lang: currentLang = 'en', page = 'home', docsSlug, blogSlug, blogLangs = [] } = Astro.props;
 
 const byCode = Object.fromEntries(languages.map(l => [l.code, l]));
 
@@ -16,6 +18,12 @@ function hrefFor(code: string): string {
   if (docsSlug !== undefined) {
     return docsSlug ? `${prefix}/docs/${docsSlug}/` : `${prefix}/docs/` || '/docs/';
   }
+  // A post not yet translated into the target locale falls back to that
+  // locale's blog index rather than linking a URL that was never generated.
+  if (blogSlug !== undefined) {
+    return blogLangs.includes(code as Lang) ? `${prefix}/blog/${blogSlug}/` : `${prefix}/blog/`;
+  }
+  if (page === 'blog') return `${prefix}/blog/`;
   if (page === 'faq') return `${prefix}/faq/` || '/faq/';
   if (page === 'changelog') return `${prefix}/changelog/` || '/changelog/';
   return prefix ? `${prefix}/` : '/';
@@ -28,7 +36,14 @@ const groups: { label: string; codes: string[] }[] = [
 ];
 ---
 
-<div class="relative" id="lang-wrapper" data-current-lang={currentLang} data-page={page}>
+<div
+  class="relative"
+  id="lang-wrapper"
+  data-current-lang={currentLang}
+  data-page={page}
+  data-blog-slug={blogSlug}
+  data-blog-langs={blogLangs.join(',')}
+>
   <button
     id="lang-toggle"
     aria-label="Select language"
@@ -86,10 +101,19 @@ const groups: { label: string; codes: string[] }[] = [
   const currentLang = (wrapper?.dataset.currentLang ?? 'en') as Lang;
   const page = wrapper?.dataset.page ?? 'home';
 
+  const barePath = () => window.location.pathname.replace(/^\/[a-z]{2}(?=\/|$)/, '') || '/';
+  const blogSlug = wrapper?.dataset.blogSlug ?? '';
+  const blogLangs = (wrapper?.dataset.blogLangs ?? '').split(',').filter(Boolean);
+
   function langToUrl(lang: Lang): string {
-    const path = window.location.pathname;
-    // Strip leading /{locale} prefix (e.g. /de, /es) to get the bare path
-    const bare = path.replace(/^\/[a-z]{2}(?=\/|$)/, '') || '/';
+    const bare = barePath();
+    // Blog posts follow the locale only where a translation exists; otherwise
+    // the locale's blog index is the nearest page that was actually built.
+    if (bare.startsWith('/blog')) {
+      const prefix = lang === 'en' ? '' : `/${lang}`;
+      if (blogSlug && blogLangs.includes(lang)) return `${prefix}/blog/${blogSlug}/`;
+      return `${prefix}/blog/`;
+    }
     // Docs, privacy, about, and how-to pages stay on the equivalent locale path
     if (bare.startsWith('/docs') || bare.startsWith('/privacy') || bare.startsWith('/about') || bare.startsWith('/how-to')) {
       return lang === 'en' ? bare : `/${lang}${bare}`;
@@ -160,7 +184,10 @@ const groups: { label: string; codes: string[] }[] = [
   if (currentLang === 'en') {
     const saved = localStorage.getItem(LS_KEY) as Lang | null;
     if (saved && saved !== 'en' && saved in translations) {
-      const target = langToUrl(saved);
+      // A post with no translation in the saved locale stays put — bouncing to
+      // that locale's blog index would discard the article they landed on.
+      const untranslatedPost = !!blogSlug && !blogLangs.includes(saved);
+      const target = untranslatedPost ? window.location.pathname : langToUrl(saved);
       if (target !== window.location.pathname) {
         window.location.replace(target);
       }

@@ -1,0 +1,126 @@
+---
+import Layout from './Layout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import type { Lang } from '../i18n/translations';
+import { translations } from '../i18n/translations';
+import { blogAlternates, formatDate, isoDate, postCanonical, blogIndexUrl } from '../utils/blog';
+
+interface Props {
+  lang: Lang;
+  slug: string;
+  title: string;
+  description: string;
+  keywords?: string[];
+  date: Date;
+  updated?: Date;
+  author: string;
+  tag?: string;
+  minutes: number;
+  translatedLangs: Lang[];
+}
+
+const { lang, slug, title, description, keywords = [], date, updated, author, tag, minutes, translatedLangs } = Astro.props;
+const t = translations[lang] ?? translations['en'];
+const canonical = postCanonical(lang, slug);
+const homeUrl = lang === 'en' ? '/' : `/${lang}/`;
+const APP_URL = 'https://app.kulmanlab.com';
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: title,
+    description,
+    datePublished: isoDate(date),
+    dateModified: isoDate(updated ?? date),
+    inLanguage: lang,
+    author: { '@type': 'Organization', name: author, url: 'https://kulmanlab.com' },
+    publisher: {
+      '@type': 'Organization',
+      name: 'KulmanLab',
+      logo: { '@type': 'ImageObject', url: 'https://kulmanlab.com/logo.svg' },
+    },
+    image: 'https://kulmanlab.com/og.png',
+    mainEntityOfPage: { '@type': 'WebPage', '@id': canonical },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: t['blog.home'], item: `https://kulmanlab.com${homeUrl}` },
+      { '@type': 'ListItem', position: 2, name: t['blog.heading'], item: `https://kulmanlab.com${blogIndexUrl(lang)}` },
+      { '@type': 'ListItem', position: 3, name: title, item: canonical },
+    ],
+  },
+];
+---
+
+<Layout
+  title={`${title} — KulmanLab`}
+  description={description}
+  canonical={canonical}
+  keywords={keywords.length ? keywords.join(', ') : undefined}
+  lang={lang}
+  ogType="article"
+  alternates={blogAlternates(slug, translatedLangs)}
+  jsonLd={jsonLd}
+>
+
+  <SiteHeader active="blog" lang={lang} blogSlug={slug} blogLangs={translatedLangs} />
+
+  <main class="mx-auto max-w-3xl px-6 py-16">
+
+    <nav class="mb-8 flex items-center gap-2 text-sm text-slate-500" aria-label="Breadcrumb">
+      <a href={homeUrl} class="hover:text-slate-300 transition-colors">{t['blog.home']}</a>
+      <span class="text-slate-700">/</span>
+      <a href={blogIndexUrl(lang)} class="hover:text-slate-300 transition-colors">{t['blog.heading']}</a>
+    </nav>
+
+    <header class="mb-10 border-b border-slate-800 pb-8">
+      {tag && (
+        <span class="mb-4 inline-block rounded-full border border-brand/20 bg-brand/10 px-3 py-1 text-xs font-medium text-brand">
+          {tag}
+        </span>
+      )}
+      <h1 class="mb-4 text-4xl font-bold leading-tight text-slate-50">{title}</h1>
+      <p class="mb-5 text-lg leading-relaxed text-slate-400">{description}</p>
+      <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-slate-500">
+        <span>{author}</span>
+        <span class="text-slate-700">·</span>
+        <time datetime={isoDate(date)}>{formatDate(date, lang)}</time>
+        <span class="text-slate-700">·</span>
+        <span>{minutes} {t['blog.minread']}</span>
+        {updated && (
+          <>
+            <span class="text-slate-700">·</span>
+            <span>{t['blog.updated']} {formatDate(updated, lang)}</span>
+          </>
+        )}
+      </div>
+    </header>
+
+    <article class="prose">
+      <slot />
+    </article>
+
+    <div class="mt-16 rounded-xl border border-slate-800 bg-slate-800/20 px-6 py-8 text-center">
+      <p class="mb-2 font-medium text-slate-200">{t['blog.cta.title']}</p>
+      <p class="mx-auto mb-6 max-w-md text-sm leading-relaxed text-slate-500">{t['blog.cta.body']}</p>
+      <a
+        href={APP_URL}
+        data-ga-event="launch_app"
+        data-ga-source="blog_post"
+        class="inline-block rounded-lg bg-brand px-5 py-2.5 text-sm font-medium text-white hover:bg-brand-light transition-colors"
+      >{t['nav.launch']}</a>
+    </div>
+
+    <div class="mt-10">
+      <a href={blogIndexUrl(lang)} class="text-sm text-slate-500 hover:text-slate-300 transition-colors">&larr; {t['blog.allposts']}</a>
+    </div>
+
+  </main>
+
+  <SiteFooter lang={lang} />
+
+</Layout>
