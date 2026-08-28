@@ -3,7 +3,7 @@ title: בורר סוג קו בסרגל הכלים — שליטה בתבניות 
 description: בורר סוג הקו בסרגל הכלים של KulmanLab CAD מגדיר את תבנית הקו המקווקו המוחלת על כל הישויות המשורטטות מחדש. תומך בכל סוגי הקו הנטענים מקובץ ה-DXF הנוכחי בתוספת אפשרויות ByLayer, ByBlock ו-Continuous המובנות.
 keywords: [סוג קו CAD, תבנית מקווקו, קו מקווקו, סוג קו DXF, סוג קו ByLayer, kulmanlab]
 group: interface
-order: 3
+order: 4
 ---
 
 # Linetype

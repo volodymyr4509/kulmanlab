@@ -3,7 +3,7 @@ title: Selection Filter — Narrow a Multi-Selection by Property
 description: When many entities are selected, a filter icon in the property panel header opens a popup with live checklists for Type, Layer, Color, Lineweight, and Linetype, built from what's actually in the selection, so a large mixed pick can be narrowed before bulk-editing.
 keywords: [selection filter, filter selection CAD, faceted filter, narrow selection, bulk edit CAD, property panel filter, kulmanlab]
 group: interface
-order: 6
+order: 7
 ---
 
 # Selection Filter

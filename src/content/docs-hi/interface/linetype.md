@@ -3,7 +3,7 @@ title: लाइनटाइप टूलबार पिकर — डैश �
 description: KulmanLab CAD टूलबार में लाइनटाइप पिकर सभी नए बनाए गए ऑब्जेक्ट पर लागू डैश पैटर्न सेट करता है। वर्तमान DXF फ़ाइल से लोड सभी लाइनटाइप और ByLayer, ByBlock, Continuous विकल्प समर्थित हैं।
 keywords: [CAD लाइनटाइप, डैश पैटर्न, डैश लाइन, DXF लाइनटाइप, ByLayer लाइनटाइप, kulmanlab]
 group: interface
-order: 3
+order: 4
 ---
 
 # लाइनटाइप

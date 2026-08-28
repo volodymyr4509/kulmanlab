@@ -3,7 +3,7 @@ title: Lijndikte-werkbalkkiezer — Lijnbreedte beheren in KulmanLab CAD
 description: De lijndiktekiezer in de werkbalk van KulmanLab CAD stelt de lijnbreedte in die wordt toegepast op alle nieuw getekende entiteiten. Ondersteunt standaard DXF-lijndiktewaarden van 0,00 mm tot 2,11 mm, plus de modi ByLayer en Standaard.
 keywords: [CAD lijndikte, lijnbreedte, streekbreedte, DXF lijndikte, ByLayer lijndikte, kulmanlab]
 group: interface
-order: 4
+order: 5
 ---
 
 # Lijndikte

@@ -3,7 +3,7 @@ title: Teksteditor — Rich- en simple-modus in KulmanLab CAD
 description: De teksteditor van KulmanLab CAD heeft twee modi — rich (opmaak per teken, meerdere regels, automatisch afbreken voor Text en Multileader) en simple (uniforme stijl, één regel voor maatvoeringsentiteiten). Een mode chip in de kopregel toont welke modus actief is.
 keywords: [CAD teksteditor, MTEXT, vet cursief CAD, tekstopmaak CAD, meerregelige tekst CAD, automatisch afbreken CAD, rich teksteditor, simple teksteditor, maatvoeringstekst editor, aangepast lettertype CAD, ttf uploaden CAD, kulmanlab]
 group: interface
-order: 5
+order: 6
 ---
 
 # Teksteditor

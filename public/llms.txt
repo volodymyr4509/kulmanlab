@@ -287,6 +287,7 @@ It is designed for engineers, architects, and technical illustrators who need a 
 - Properties panel showing entity details
 - Undo/redo with full history
 - Adaptive CAD grid with snap-to-grid
+- Vector pins with distance tracking: pin a snap point, lock a direction with angle tracking, then type an exact length (the Dist toggle) — places even the first point of a shape at a precise distance from an existing point
 - Themes: dark mode by default, teal (#4A8580) accent
 
 ## Workflow

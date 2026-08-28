@@ -3,7 +3,7 @@ title: Pemilih Linetype di Toolbar — Mengontrol Pola Garis Putus-Putus
 description: Pemilih tipe garis di toolbar KulmanLab CAD mengatur pola garis putus-putus yang diterapkan ke semua entitas yang baru digambar. Mendukung semua tipe garis yang dimuat dari file DXF saat ini ditambah opsi bawaan ByLayer, ByBlock, dan Continuous.
 keywords: [CAD tipe garis, pola garis putus, garis putus-putus, DXF tipe garis, ByLayer tipe garis, kulmanlab]
 group: interface
-order: 3
+order: 4
 ---
 
 # Linetype

@@ -3,7 +3,7 @@ title: "Linetype ٹول بار پِکر — KulmanLab CAD میں ڈیش پیٹر
 description: "KulmanLab CAD ٹول بار میں linetype پِکر تمام نئی بنائی جانے والی اشیاء پر لاگو ڈیش پیٹرن سیٹ کرتا ہے۔ موجودہ DXF فائل سے لوڈ تمام لائن ٹائپس کے ساتھ ساتھ بلٹ ان ByLayer، ByBlock، اور Continuous آپشنز سپورٹ کرتا ہے۔"
 keywords: [CAD linetype, ڈیش پیٹرن, ڈیش لائن, DXF linetype, ByLayer linetype, kulmanlab]
 group: interface
-order: 3
+order: 4
 ---
 
 # Linetype

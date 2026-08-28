@@ -3,7 +3,7 @@ title: "ตัวเลือก Lineweight บนแถบเครื่อง
 description: "ตัวเลือก lineweight ในแถบเครื่องมือ KulmanLab CAD ตั้งความกว้างเส้นที่ใช้กับวัตถุที่วาดใหม่ทั้งหมด รองรับค่า lineweight DXF มาตรฐานตั้งแต่ 0.00 มม. ถึง 2.11 มม. รวมถึงโหมด ByLayer และ Default"
 keywords: [CAD lineweight, ความกว้างเส้น, DXF lineweight, ByLayer lineweight, kulmanlab]
 group: interface
-order: 4
+order: 5
 ---
 
 # Lineweight

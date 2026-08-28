@@ -3,7 +3,7 @@ title: עורך טקסט — מצבי rich ו-simple ב-KulmanLab CAD
 description: לעורך הטקסט של KulmanLab CAD יש שני מצבים — rich (עיצוב לפי תו, מרובה-שורות, גלישת מילים עבור Text ו-Multileader) ו-simple (סגנון אחיד, שורה בודדת עבור ישויות מידות). תג מצב בכותרת מציג איזה מצב פעיל.
 keywords: [עורך טקסט CAD, MTEXT, מודגש נטוי CAD, עיצוב טקסט CAD, טקסט מרובה שורות CAD, גלישת מילים CAD, עורך טקסט עשיר, עורך טקסט פשוט, עורך טקסט מידות, גופן מותאם אישית CAD, העלאת ttf CAD, kulmanlab]
 group: interface
-order: 5
+order: 6
 ---
 
 # Text Editor

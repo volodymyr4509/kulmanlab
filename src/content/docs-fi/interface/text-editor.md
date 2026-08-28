@@ -3,7 +3,7 @@ title: Tekstieditori — Rikas ja Yksinkertainen Tila KulmanLab CAD:issa
 description: KulmanLab CAD -tekstieditorissa on kaksi tilaa — rikas (merkkikohtainen muotoilu, monirivinen, tekstin rivitys Text- ja Multileader-entiteeteille) ja yksinkertainen (yhtenäinen tyyli, yksirivinen mitta-entiteeteille). Tilamerkki otsikossa näyttää, kumpi tila on aktiivinen.
 keywords: [CAD tekstieditori, MTEXT, lihavointi kursivointi CAD, tekstin muotoilu CAD, monirivinen teksti CAD, tekstin rivitys CAD, rikas tekstieditori, yksinkertainen tekstieditori, mitan tekstieditori, oma fontti CAD, lataa ttf CAD, kulmanlab]
 group: interface
-order: 5
+order: 6
 ---
 
 # Tekstieditori

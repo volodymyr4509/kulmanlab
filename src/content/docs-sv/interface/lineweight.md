@@ -3,7 +3,7 @@ title: Väljare för linjevikt i verktygsfältet — Kontrollera streckbredd
 description: Linjeviktsväljaren i KulmanLab CAD-verktygsfältet ställer in streckbredden som tillämpas på alla nyritade entiteter. Stöder standardvärden för DXF-linjevikt från 0,00 mm till 2,11 mm samt lägena ByLayer och Default.
 keywords: [CAD-linjevikt, streckbredd, linjebredd, DXF-linjevikt, ByLayer-linjevikt, kulmanlab]
 group: interface
-order: 4
+order: 5
 ---
 
 # Lineweight

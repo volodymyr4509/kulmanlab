@@ -3,7 +3,7 @@ title: テキストエディター — KulmanLab CAD のリッチモードとシ
 description: KulmanLab CAD のテキストエディターには 2 つのモードがあります — リッチ（文字ごとのフォーマット、複数行、Text と Multileader 向けのワードラップ）とシンプル（統一スタイル、寸法エンティティ向けの単一行）。ヘッダーのモードチップがアクティブなモードを表示します。
 keywords: [CAD テキストエディター, MTEXT, 太字 斜体 CAD, テキストフォーマット CAD, 複数行テキスト CAD, ワードラップ CAD, リッチテキストエディター, シンプルテキストエディター, 寸法テキストエディター, カスタムフォント CAD, TTF アップロード CAD, kulmanlab]
 group: interface
-order: 5
+order: 6
 ---
 
 # テキストエディター

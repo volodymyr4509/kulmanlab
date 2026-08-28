@@ -3,7 +3,7 @@ title: लाइनवेट टूलबार पिकर — स्ट्र
 description: KulmanLab CAD टूलबार में लाइनवेट पिकर सभी नए बनाए गए ऑब्जेक्ट पर लागू स्ट्रोक चौड़ाई सेट करता है। 0.00 mm से 2.11 mm तक मानक DXF लाइनवेट मूल्य और ByLayer और Default मोड समर्थित हैं।
 keywords: [CAD लाइनवेट, स्ट्रोक चौड़ाई, लाइन चौड़ाई, DXF लाइनवेट, ByLayer लाइनवेट, kulmanlab]
 group: interface
-order: 4
+order: 5
 ---
 
 # लाइनवेट

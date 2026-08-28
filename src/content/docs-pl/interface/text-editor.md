@@ -3,7 +3,7 @@ title: Edytor tekstu — Tryby Rich i Simple w KulmanLab CAD
 description: Edytor tekstu KulmanLab CAD ma dwa tryby — rich (formatowanie poszczególnych znaków, wieloliniowy, zawijanie tekstu dla Text i Multileader) i simple (jednolity styl, jednowierszowy dla elementów wymiarowych). Chip trybu w nagłówku pokazuje, który tryb jest aktywny.
 keywords: [edytor tekstu CAD, MTEXT, pogrubiony kursywa CAD, formatowanie tekstu CAD, wieloliniowy tekst CAD, zawijanie tekstu CAD, rich edytor tekstu, simple edytor tekstu, edytor tekstu wymiaru, niestandardowa czcionka CAD, przesyłanie TTF CAD, kulmanlab]
 group: interface
-order: 5
+order: 6
 ---
 
 # Edytor tekstu

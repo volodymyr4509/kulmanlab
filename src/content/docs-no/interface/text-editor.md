@@ -3,7 +3,7 @@ title: Tekstredigering — Rik og Enkel Modus i KulmanLab CAD
 description: KulmanLab CAD-tekstredigereren har to moduser — rik (per-tegn formatering, flerlinje, tekstbryting for Text og Multileader) og enkel (ensartet stil, én linje for målentiteter). En modus-chip i toppfeltet viser hvilken modus som er aktiv.
 keywords: [CAD tekstredigering, MTEXT, fet kursiv CAD, tekstformatering CAD, flerlinjetekst CAD, tekstbryting CAD, rik teksteditor, enkel teksteditor, mål-teksteditor, egendefinert skrift CAD, last opp ttf CAD, kulmanlab]
 group: interface
-order: 5
+order: 6
 ---
 
 # Tekstredigering

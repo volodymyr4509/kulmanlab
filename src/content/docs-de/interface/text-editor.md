@@ -3,7 +3,7 @@ title: Texteditor — Rich- und Simple-Modus in KulmanLab CAD
 description: Der KulmanLab CAD-Texteditor hat zwei Modi — rich (zeichenweise Formatierung, mehrzeilig, Zeilenumbruch für Text und Multileader) und simple (einheitlicher Stil, einzeilig für Bemaßungselemente). Ein mode chip in der Kopfzeile zeigt den aktiven Modus an.
 keywords: [CAD Texteditor, MTEXT, Fett Kursiv CAD, Textformatierung CAD, mehrzeiliger Text CAD, Zeilenumbruch CAD, rich Texteditor, simple Texteditor, Bemaßungstexteditor, eigene Schriftart CAD, TTF hochladen CAD, kulmanlab]
 group: interface
-order: 5
+order: 6
 ---
 
 # Texteditor

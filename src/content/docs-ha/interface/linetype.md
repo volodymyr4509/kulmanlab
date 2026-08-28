@@ -3,7 +3,7 @@ title: Mai Zaɓen Nauʼin Layi — Sarrafa Tsarin Dash a KulmanLab CAD
 description: Mai zaɓen nauʼin layi a kayan aikin KulmanLab CAD yana saita tsarin dash da ake amfani da shi ga dukkan abubuwan da aka zana sabo. Yana goyon bayan dukkan nauʼukan layi da aka loda daga fayil ɗin DXF na yanzu tare da zaɓuɓɓukan ByLayer, ByBlock, da Continuous da aka gina.
 keywords: [nauʼin layi CAD, tsarin dash, layi mai dash, nauʼin layi na DXF, nauʼin layi ByLayer, kulmanlab]
 group: interface
-order: 3
+order: 4
 ---
 
 # Linetype

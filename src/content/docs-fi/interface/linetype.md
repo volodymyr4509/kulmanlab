@@ -3,7 +3,7 @@ title: Linetype-valitsin — Hallitse Viivakuvioita KulmanLab CAD:issa
 description: KulmanLab CAD -työkalurivin linetype-valitsin asettaa viivakuvion, jota käytetään kaikkiin uusiin piirrettyihin entiteetteihin. Tukee kaikkia nykyisestä DXF-tiedostosta ladattuja linetyyppejä sekä sisäänrakennettuja vaihtoehtoja ByLayer, ByBlock ja Continuous.
 keywords: [CAD linetype, viivakuvio, katkoviiva, DXF linetype, ByLayer linetype, kulmanlab]
 group: interface
-order: 3
+order: 4
 ---
 
 # Linetype

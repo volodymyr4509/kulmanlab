@@ -3,7 +3,7 @@ title: Επιλογέας Lineweight Γραμμής Εργαλείων — Έλ�
 description: Ο επιλογέας lineweight στη γραμμή εργαλείων KulmanLab CAD ορίζει το πλάτος γραμμής που εφαρμόζεται σε όλες τις νέες οντότητες που σχεδιάζονται. Υποστηρίζει τυπικές τιμές lineweight DXF από 0.00 mm έως 2.11 mm καθώς και λειτουργίες ByLayer και Default.
 keywords: [CAD lineweight, πλάτος γραμμής, πλάτος stroke, DXF lineweight, ByLayer lineweight, kulmanlab]
 group: interface
-order: 4
+order: 5
 ---
 
 # Lineweight

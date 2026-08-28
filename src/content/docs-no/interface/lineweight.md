@@ -3,7 +3,7 @@ title: Lineweight-velger — Styr Strekbredde i KulmanLab CAD
 description: Lineweight-velgeren i KulmanLab CAD-verktøylinjen setter strekbredden som brukes på alle nytegnede entiteter. Støtter standard DXF lineweight-verdier fra 0,00 mm til 2,11 mm pluss ByLayer- og Default-modus.
 keywords: [CAD lineweight, strekbredde, linjebredde, DXF lineweight, ByLayer lineweight, kulmanlab]
 group: interface
-order: 4
+order: 5
 ---
 
 # Lineweight

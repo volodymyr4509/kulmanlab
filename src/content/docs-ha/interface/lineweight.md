@@ -3,7 +3,7 @@ title: Mai Zaɓen Nauyin Layi — Sarrafa Fadin Bugu a KulmanLab CAD
 description: Mai zaɓen nauyin layi a kayan aikin KulmanLab CAD yana saita fadin bugu da ake amfani da shi ga dukkan abubuwan da aka zana sabo. Yana goyon bayan ƙima na yau da kullum na nauyin layi na DXF daga 0.00 mm zuwa 2.11 mm tare da yanayin ByLayer da Default.
 keywords: [nauyin layi CAD, fadin bugu, fadin layi, nauyin layi na DXF, nauyin layi ByLayer, kulmanlab]
 group: interface
-order: 4
+order: 5
 ---
 
 # Lineweight

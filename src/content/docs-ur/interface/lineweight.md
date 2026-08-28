@@ -3,7 +3,7 @@ title: "Lineweight ٹول بار پِکر — اسٹروک چوڑائی کنٹر
 description: "KulmanLab CAD ٹول بار میں lineweight پِکر تمام نئی بنائی جانے والی اشیاء پر لاگو اسٹروک چوڑائی سیٹ کرتا ہے۔ 0.00 mm سے 2.11 mm تک معیاری DXF lineweight قدریں اور ByLayer اور Default موڈز سپورٹ کرتا ہے۔"
 keywords: [CAD lineweight, اسٹروک چوڑائی, لائن چوڑائی, DXF lineweight, ByLayer lineweight, kulmanlab]
 group: interface
-order: 4
+order: 5
 ---
 
 # Lineweight

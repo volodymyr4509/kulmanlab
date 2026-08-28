@@ -3,7 +3,7 @@ title: "Linetype Toolbar Picker — Control Dash Patterns in KulmanLab CAD"
 description: "Kichaguo cha aina ya mstari kwenye upau wa zana wa KulmanLab CAD huweka mfumo wa deshi unaotumiwa kwa vipande vyote vipya unavyochora. Inasaidia aina zote za mstari zilizopakiwa kutoka faili ya DXF ya sasa pamoja na chaguo za ByLayer, ByBlock, na Continuous zilizojengwa ndani."
 keywords: [CAD linetype, dash pattern, dashed line, DXF linetype, ByLayer linetype, kulmanlab]
 group: interface
-order: 3
+order: 4
 ---
 
 # Linetype

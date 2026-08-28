@@ -3,7 +3,7 @@ title: Linetype-vælger — Styr Stregmønstre i KulmanLab CAD
 description: Linetype-vælgeren i KulmanLab CAD-værktøjslinjen sætter stregmønsteret der anvendes på alle nytegnede entiteter. Understøtter alle linetyper indlæst fra den aktuelle DXF-fil plus de indbyggede muligheder ByLayer, ByBlock og Continuous.
 keywords: [CAD linetype, stregmønster, stiplet linje, DXF linetype, ByLayer linetype, kulmanlab]
 group: interface
-order: 3
+order: 4
 ---
 
 # Linetype

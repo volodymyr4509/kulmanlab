@@ -3,7 +3,7 @@ title: "Text Editor — Rich และ Simple Modes ใน KulmanLab CAD"
 description: "โปรแกรมแก้ไขข้อความ KulmanLab CAD มีสองโหมด — rich (การจัดรูปแบบต่อตัวอักษร หลายบรรทัด word-wrap สำหรับ Text และ Multileader) และ simple (สไตล์รวม บรรทัดเดียวสำหรับ dimension entities) chip โหมดในส่วนหัวแสดงโหมดที่ใช้งาน"
 keywords: [CAD text editor, MTEXT, ตัวหนาตัวเอียง CAD, การจัดรูปแบบข้อความ CAD, ข้อความหลายบรรทัด CAD, word wrap CAD, rich text editor, simple text editor, dimension text editor, ฟอนต์กำหนดเอง CAD, อัปโหลด ttf CAD, kulmanlab]
 group: interface
-order: 5
+order: 6
 ---
 
 # Text Editor

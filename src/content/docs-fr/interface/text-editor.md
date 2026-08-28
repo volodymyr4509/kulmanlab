@@ -3,7 +3,7 @@ title: Éditeur de Texte — Modes Rich et Simple dans KulmanLab CAD
 description: L'éditeur de texte de KulmanLab CAD a deux modes — rich (formatage par caractère, multiligne, retour à la ligne pour Text et Multileader) et simple (style uniforme, une ligne pour les entités de cote). Un mode chip dans l'en-tête indique le mode actif.
 keywords: [éditeur texte CAO, MTEXT, gras italique CAO, formatage texte CAO, texte multiligne CAO, retour ligne CAO, éditeur texte rich, éditeur texte simple, éditeur texte cote, police personnalisée CAO, téléverser ttf CAO, kulmanlab]
 group: interface
-order: 5
+order: 6
 ---
 
 # Éditeur de Texte

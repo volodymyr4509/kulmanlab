@@ -156,6 +156,11 @@ KulmanLab provides object snapping and angle lock to ensure accurate geometry pl
 - Backspace corrects the last digit
 - Enter confirms the value
 
+**Distance tracking from pins** (the **Dist** toggle, on by default):
+- Lets the most recent vector pin act as the anchor that angle tracking measures from, so a typed length places a point at an exact distance and angle from an existing point
+- Works even for the *first* point of a shape, which otherwise has nothing to measure from
+- Needs Pins on and ANGL set to an angle step; Dist and Pins are coupled so Dist is never active while Pins is off
+
 Snap points on frozen layers are automatically skipped.
 
 ---

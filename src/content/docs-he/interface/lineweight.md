@@ -3,7 +3,7 @@ title: בורר עובי קו בסרגל הכלים — שליטה ברוחב ה
 description: בורר עובי הקו בסרגל הכלים של KulmanLab CAD מגדיר את רוחב הקו המוחל על כל הישויות המשורטטות מחדש. תומך בערכי עובי קו תקניים של DXF מ-0.00 מ"מ עד 2.11 מ"מ בתוספת מצבי ByLayer ו-Default.
 keywords: [עובי קו CAD, רוחב קו, רוחב שרטוט, עובי קו DXF, עובי קו ByLayer, kulmanlab]
 group: interface
-order: 4
+order: 5
 ---
 
 # Lineweight

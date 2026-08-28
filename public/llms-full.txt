@@ -4455,3 +4455,67 @@ Checking values in a facet narrows the selection to entities matching all checke
 
 - [Match Properties](./match-properties) — copy properties from one entity to others, once narrowed down
 - [LayerIsolate](./layer-isolate) — a layer-wide alternative when isolating by layer alone, independent of the current selection
+
+---
+
+# Distance Tracking
+
+Distance Tracking lets you place a point by typing an exact length instead of clicking. It is controlled by the **Dist** toggle in the control bar, next to Pins and ANGL, and is on by default with the setting persisting across sessions.
+
+What it adds is narrow but useful: it lets the most recent vector pin act as the anchor that angle tracking measures from. Without it a command can only measure from a point it has already collected itself, which means the first point of a shape has nothing to measure from at all.
+
+## The three toggles work together
+
+| Toggle | Role |
+|--------|------|
+| Pins | Supplies the reference point — hover a snap point for 500 ms to pin it |
+| ANGL | Supplies the angle; distance entry only becomes available once the cursor is angle-locked, so ANGL must be set to a step (10°, 20°, 30°, 45°, 90°) rather than Off |
+| Dist | Allows the pin to be used as the anchor rather than only the command's own point |
+
+With Pins and Dist on but ANGL set to Off, nothing happens: there is no locked direction to measure a length along.
+
+## How Pins and Dist are coupled
+
+Distance tracking is meaningless with pins switched off, so the two toggles are kept in step: turning Pins on turns Dist on; turning Pins off turns Dist off; turning Dist on turns Pins on if it wasn't already; turning Dist off leaves Pins on. Dist can never be active while Pins is inactive, but pin tracking can be kept for alignment while distance tracking is switched off.
+
+## Placing a point at an exact distance
+
+1. Turn on Pins and Dist, and set ANGL to an angle step.
+2. Start a command that asks for a point.
+3. Pin a reference point: hover an existing snap point until the marker turns into a filled square.
+4. Move the cursor away from the pin at roughly the angle you want; when it comes close to one of the ANGL steps the direction locks and a tracking indicator appears from the pin.
+5. Type the length and press Enter or Space. The point is placed exactly that far from the pin, along the locked angle.
+
+While locked the terminal prompt reads `pick start point or enter length: [ ]` and the typed value appears in the brackets.
+
+## Why the first point matters
+
+To start a line exactly 250 units right of an existing corner: start Line, pin the corner, move right until the direction locks at 0°, type `250`, press Enter. Without Dist the Line command has collected no points yet, so there is nothing for a typed length to be measured from — you could only click approximately or draw a construction line and delete it afterwards.
+
+For the second and later points the command already has its own anchor (the previous point) and that is used first; the pin is consulted as an alternative only when your own anchor is not locked, so pinning something does not hijack a lock you already have.
+
+## Typing freezes the lock
+
+Once digits start arriving the anchor stops changing. Whichever point was locked when the first digit landed stays the anchor until the value is committed or cleared — moving the mouse mid-entry will not silently swap the measurement to a different pin or to the command's own point.
+
+## Keyboard reference
+
+| Key | Action |
+|-----|--------|
+| `0`–`9`, `.` | Append to the length |
+| `-` | Negative length — reverses direction along the locked angle (first character only) |
+| `Backspace` | Delete the last character |
+| `Enter` / `Space` | Place the point at the typed length |
+| `Escape` | Cancel the command; the lock and typed value are cleared |
+
+Typing a length is optional — with the direction locked you can still click, and the point is projected onto the locked angle.
+
+## Where it works
+
+Every command that asks you to pick points: Line, Polyline, Arc, Circle, Ellipse, Rectangle, SplineCv, SplineFit, Leader, Area, Move, Copy and ViewportCopy.
+
+## Related
+
+- [Vector Pins](./vector-pins) — pinning points and tracking along their reference lines
+- [Grid & Snap](./grid-snap) — the other precision aids in the control bar
+- [Distance](./distance) — measuring an existing distance rather than typing a new one

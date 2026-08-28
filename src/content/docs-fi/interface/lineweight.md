@@ -3,7 +3,7 @@ title: Lineweight-valitsin — Hallitse Viivanpaksuutta KulmanLab CAD:issa
 description: KulmanLab CAD -työkalurivin lineweight-valitsin asettaa viivanpaksuuden, jota käytetään kaikkiin uusiin piirrettyihin entiteetteihin. Tukee DXF-standardin lineweight-arvoja välillä 0,00 mm - 2,11 mm sekä ByLayer- ja Default-tiloja.
 keywords: [CAD lineweight, viivanpaksuus, linjan leveys, DXF lineweight, ByLayer lineweight, kulmanlab]
 group: interface
-order: 4
+order: 5
 ---
 
 # Lineweight

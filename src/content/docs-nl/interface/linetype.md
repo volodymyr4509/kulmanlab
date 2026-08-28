@@ -3,7 +3,7 @@ title: Lijntype-werkbalkkiezer — Streeppatronen beheren in KulmanLab CAD
 description: De lijntypekiezer in de werkbalk van KulmanLab CAD stelt het streeppatroon in dat wordt toegepast op alle nieuw getekende entiteiten. Ondersteunt alle lijntypen die zijn geladen uit het huidige DXF-bestand, plus de ingebouwde opties ByLayer, ByBlock en Continuous.
 keywords: [CAD lijntype, streeppatroon, gestreepte lijn, DXF lijntype, ByLayer lijntype, kulmanlab]
 group: interface
-order: 3
+order: 4
 ---
 
 # Lijntype

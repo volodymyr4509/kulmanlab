@@ -3,7 +3,7 @@ title: Sélecteur de Type de Ligne — Contrôler les Motifs de Tirets
 description: Le sélecteur de type de ligne dans la barre d'outils de KulmanLab CAD définit le motif de tirets appliqué à toutes les nouvelles entités dessinées. Prend en charge tous les types de ligne chargés depuis le fichier DXF actuel plus les options intégrées ParCalque, ParBloc et Continu.
 keywords: [type de ligne CAO, motif tirets, ligne pointillée, type ligne DXF, type ligne ParCalque, kulmanlab]
 group: interface
-order: 3
+order: 4
 ---
 
 # Linetype

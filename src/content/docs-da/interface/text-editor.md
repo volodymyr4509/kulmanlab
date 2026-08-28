@@ -3,7 +3,7 @@ title: Tekstredigering — Rig og Simpel Tilstand i KulmanLab CAD
 description: KulmanLab CAD-teksteditoren har to tilstande — rig (per-tegn formatering, flerlinje, tekstombrydning for Text og Multileader) og simpel (ensartet stil, én linje for mål-entiteter). En tilstands-chip i toppen viser hvilken tilstand der er aktiv.
 keywords: [CAD tekstredigering, MTEXT, fed kursiv CAD, tekstformatering CAD, flerlinjetekst CAD, tekstombrydning CAD, rig teksteditor, simpel teksteditor, mål-teksteditor, brugerdefineret skrifttype CAD, upload ttf CAD, kulmanlab]
 group: interface
-order: 5
+order: 6
 ---
 
 # Tekstredigering

@@ -3,7 +3,7 @@ title: Naʼurar Gyaran Rubutu — Yanayin Rich da Simple a KulmanLab CAD
 description: Naʼurar gyaran rubutu ta KulmanLab CAD tana da yanayi biyu — rich (tsari ga kowane harafi, layi da yawa, nade-kalma ga Text da Multileader) da simple (salo iri ɗaya, layi guda ɗaya ga abubuwan girma-girma). Chip na yanayi a kanun yana nuna wace yanayi mai aiki.
 keywords: [naʼurar gyaran rubutu CAD, MTEXT, mai-nauyi karkatacce CAD, tsarin rubutu CAD, rubutu mai layi da yawa CAD, nade-kalma CAD, naʼurar gyaran rubutu rich, naʼurar gyaran rubutu simple, naʼurar gyaran girma-girma, font na musamman CAD, loda ttf CAD, kulmanlab]
 group: interface
-order: 5
+order: 6
 ---
 
 # Text Editor

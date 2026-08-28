@@ -3,7 +3,7 @@ title: Text Editor — Mode Kaya dan Sederhana di KulmanLab CAD
 description: Editor teks KulmanLab CAD memiliki dua mode — kaya (pemformatan per karakter, multi-baris, bungkus kata untuk Text dan Multileader) dan sederhana (gaya seragam, satu baris untuk entitas dimensi). Chip mode di header menunjukkan mode mana yang aktif.
 keywords: [CAD editor teks, MTEXT, tebal miring CAD, pemformatan teks CAD, teks multi-baris CAD, bungkus kata CAD, editor teks kaya, editor teks sederhana, editor teks dimensi, font kustom CAD, unggah ttf CAD, kulmanlab]
 group: interface
-order: 5
+order: 6
 ---
 
 # Text Editor
