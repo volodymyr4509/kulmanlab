@@ -1,0 +1,19 @@
+# Docs pages that were renamed. The old URLs are still indexed and still take
+# search traffic -- /docs/commands/export/ alone drew 494 impressions in three
+# months -- and without these they resolve to the homepage with a 200.
+# Both slash forms are listed: Pages only auto-appends the slash when the
+# target exists, which is exactly what these URLs lack.
+
+/docs/commands/export         /docs/commands/export-manager/   301
+/docs/commands/export/        /docs/commands/export-manager/   301
+/docs/commands/files          /docs/commands/file-manager/     301
+/docs/commands/files/         /docs/commands/file-manager/     301
+/docs/commands/print          /docs/commands/print-manager/    301
+/docs/commands/print/         /docs/commands/print-manager/    301
+
+/:lang/docs/commands/export   /:lang/docs/commands/export-manager/  301
+/:lang/docs/commands/export/  /:lang/docs/commands/export-manager/  301
+/:lang/docs/commands/files    /:lang/docs/commands/file-manager/    301
+/:lang/docs/commands/files/   /:lang/docs/commands/file-manager/    301
+/:lang/docs/commands/print    /:lang/docs/commands/print-manager/   301
+/:lang/docs/commands/print/   /:lang/docs/commands/print-manager/   301
