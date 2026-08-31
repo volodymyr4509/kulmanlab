@@ -7,6 +7,7 @@ import ConsentBanner from '../components/ConsentBanner.astro';
 import type { Lang } from '../i18n/translations';
 import { translations } from '../i18n/translations';
 import { getCollection } from 'astro:content';
+import { LANGS_NO_EN } from '../i18n/utils';
 
 interface Props {
   title: string;
@@ -19,6 +20,8 @@ interface Props {
 const { title, description = '', keywords = [], entrySlug = '', lang = 'en' } = Astro.props;
 const base = lang === 'en' ? '/docs' : `/${lang}/docs`;
 const canonical = `https://kulmanlab.com${base}${entrySlug ? '/' + entrySlug : ''}/`;
+// Same page in every language, for the hreflang cluster below.
+const docsTail = `/docs${entrySlug ? '/' + entrySlug : ''}/`;
 const currentPath = Astro.url.pathname.replace(/\/$/, '');
 
 // Section/group titles are centralized in src/i18n/translations.ts
@@ -181,32 +184,11 @@ const sidebar = [
     <meta name="twitter:description" content={description} />
 
     <link rel="canonical" href={canonical} />
-    <link rel="alternate" hreflang="x-default" href={`https://kulmanlab.com/docs${entrySlug ? '/' + entrySlug : ''}/`} />
-    <link rel="alternate" hreflang="en" href={`https://kulmanlab.com/docs${entrySlug ? '/' + entrySlug : ''}/`} />
-    <link rel="alternate" hreflang="de" href={`https://kulmanlab.com/de/docs${entrySlug ? '/' + entrySlug : ''}/`} />
-    <link rel="alternate" hreflang="es" href={`https://kulmanlab.com/es/docs${entrySlug ? '/' + entrySlug : ''}/`} />
-    <link rel="alternate" hreflang="fr" href={`https://kulmanlab.com/fr/docs${entrySlug ? '/' + entrySlug : ''}/`} />
-    <link rel="alternate" hreflang="it" href={`https://kulmanlab.com/it/docs${entrySlug ? '/' + entrySlug : ''}/`} />
-    <link rel="alternate" hreflang="pt" href={`https://kulmanlab.com/pt/docs${entrySlug ? '/' + entrySlug : ''}/`} />
-    <link rel="alternate" hreflang="uk" href={`https://kulmanlab.com/uk/docs${entrySlug ? '/' + entrySlug : ''}/`} />
-    <link rel="alternate" hreflang="tr" href={`https://kulmanlab.com/tr/docs${entrySlug ? '/' + entrySlug : ''}/`} />
-    <link rel="alternate" hreflang="zh" href={`https://kulmanlab.com/zh/docs${entrySlug ? '/' + entrySlug : ''}/`} />
-    <link rel="alternate" hreflang="hi" href={`https://kulmanlab.com/hi/docs${entrySlug ? '/' + entrySlug : ''}/`} />
-    <link rel="alternate" hreflang="ar" href={`https://kulmanlab.com/ar/docs${entrySlug ? '/' + entrySlug : ''}/`} />
-    <link rel="alternate" hreflang="id" href={`https://kulmanlab.com/id/docs${entrySlug ? '/' + entrySlug : ''}/`} />
-    <link rel="alternate" hreflang="ja" href={`https://kulmanlab.com/ja/docs${entrySlug ? '/' + entrySlug : ''}/`} />
-    <link rel="alternate" hreflang="pl" href={`https://kulmanlab.com/pl/docs${entrySlug ? '/' + entrySlug : ''}/`} />
-    <link rel="alternate" hreflang="ko" href={`https://kulmanlab.com/ko/docs${entrySlug ? '/' + entrySlug : ''}/`} />
-    <link rel="alternate" hreflang="vi" href={`https://kulmanlab.com/vi/docs${entrySlug ? '/' + entrySlug : ''}/`} />
-    <link rel="alternate" hreflang="th" href={`https://kulmanlab.com/th/docs${entrySlug ? '/' + entrySlug : ''}/`} />
-    <link rel="alternate" hreflang="ms" href={`https://kulmanlab.com/ms/docs${entrySlug ? '/' + entrySlug : ''}/`} />
-    <link rel="alternate" hreflang="bn" href={`https://kulmanlab.com/bn/docs${entrySlug ? '/' + entrySlug : ''}/`} />
-    <link rel="alternate" hreflang="sw" href={`https://kulmanlab.com/sw/docs${entrySlug ? '/' + entrySlug : ''}/`} />
-    <link rel="alternate" hreflang="ur" href={`https://kulmanlab.com/ur/docs${entrySlug ? '/' + entrySlug : ''}/`} />
-    <link rel="alternate" hreflang="el" href={`https://kulmanlab.com/el/docs${entrySlug ? '/' + entrySlug : ''}/`} />
-    <link rel="alternate" hreflang="pa" href={`https://kulmanlab.com/pa/docs${entrySlug ? '/' + entrySlug : ''}/`} />
-    <link rel="alternate" hreflang="sv" href={`https://kulmanlab.com/sv/docs${entrySlug ? '/' + entrySlug : ''}/`} />
-    <link rel="alternate" hreflang="tl" href={`https://kulmanlab.com/tl/docs${entrySlug ? '/' + entrySlug : ''}/`} />
+    <link rel="alternate" hreflang="x-default" href={`https://kulmanlab.com${docsTail}`} />
+    <link rel="alternate" hreflang="en" href={`https://kulmanlab.com${docsTail}`} />
+    {LANGS_NO_EN.map((l) => (
+      <link rel="alternate" hreflang={l} href={`https://kulmanlab.com/${l}${docsTail}`} />
+    ))}
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 
