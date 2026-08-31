@@ -4,8 +4,8 @@ import SiteHeader from '../components/SiteHeader.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 import type { Lang } from '../i18n/translations';
 
-// Firebase serves this one file for every missing path, in every locale, so it
-// stays English rather than pretending to follow the URL's language prefix.
+// Cloudflare Pages serves this one file for every missing path, in every
+// locale, so it stays English rather than pretending to follow the URL prefix.
 const lang: Lang = 'en';
 
 const links = [

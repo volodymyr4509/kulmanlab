@@ -368,13 +368,10 @@ npm run build      # production build → dist/
 npm run preview    # preview the production build locally
 ```
 
-### Deploy to Firebase
+### Deploy
 
-Always build before deploying — Firebase serves whatever is in `dist/`:
-
-```bash
-npm run build && firebase deploy --only hosting
-```
+Hosted on Cloudflare Pages, connected to this repository: it runs `npm run build`
+and publishes `dist/`.
 
 Docs are part of the same Astro site under `src/content/docs/` and are served at `/docs`.
 
