@@ -1,0 +1,62 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import type { Lang } from '../i18n/translations';
+
+// Firebase serves this one file for every missing path, in every locale, so it
+// stays English rather than pretending to follow the URL's language prefix.
+const lang: Lang = 'en';
+
+const links = [
+  { href: '/', label: 'Home', desc: 'What KulmanLab is and what it draws.' },
+  { href: '/docs/', label: 'Documentation', desc: 'Every command, tool and panel.' },
+  { href: '/how-to/', label: 'How-to guides', desc: 'Walkthroughs for common drawing tasks.' },
+  { href: '/blog/', label: 'Blog', desc: 'Comparisons and writing about CAD.' },
+  { href: '/faq/', label: 'FAQ', desc: 'Short answers to common questions.' },
+];
+---
+
+<Layout
+  title="Page Not Found — KulmanLab"
+  description="That page doesn't exist. Jump to the KulmanLab CAD documentation, guides, or open the editor."
+  lang={lang}
+  noindex
+>
+
+  <SiteHeader lang={lang} />
+
+  <main class="mx-auto max-w-3xl px-6 py-16">
+
+    <p class="mb-3 font-mono text-sm tracking-widest text-[#4A8580]">404</p>
+    <h1 class="mb-3 text-4xl font-bold text-slate-50">This page doesn't exist</h1>
+    <p class="mb-10 text-lg text-slate-400">
+      The link may be out of date, or the address mistyped. Here's where to go instead.
+    </p>
+
+    <ul class="mb-10 space-y-1">
+      {links.map(l => (
+        <li>
+          <a
+            href={l.href}
+            class="block rounded-lg px-4 py-3 -mx-4 transition-colors hover:bg-slate-800/60"
+          >
+            <span class="font-semibold text-[#4A8580]">{l.label}</span>
+            <span class="block text-sm text-slate-400">{l.desc}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+
+    <a
+      href="https://app.kulmanlab.com"
+      class="inline-block rounded-lg bg-[#4A8580] px-5 py-3 font-semibold text-slate-50 transition-opacity hover:opacity-90"
+    >
+      Open the editor
+    </a>
+
+  </main>
+
+  <SiteFooter lang={lang} />
+
+</Layout>
