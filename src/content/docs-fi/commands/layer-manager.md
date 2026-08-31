@@ -1,14 +1,14 @@
 ---
 title: LayerManager — Hallitse Kaikkia Tasoja Yhdessä Taulukossa
-description: LayerManager-komento avaa taulukon piirustuksen kaikista tasoista, jonka avulla voit lisätä tasoja ja muokata suoraan kunkin tason jäädytystä, lukitusta, tulostusta, väriä, viivanpaksuutta ja viivatyyppiä.
-keywords: [layer manager, CAD tasotaulukko, hallitse tasoja CAD, lisää taso CAD, jäädytä lukitse tulosta taso, kulmanlab tasojen hallinta]
+description: LayerManager-komento avaa taulukon piirustuksen kaikista tasoista, jossa voit lisätä tasoja, poistaa käyttämättömiä ja muokata kunkin tason jäädytystä, lukitusta, tulostusta, väriä, viivanpaksuutta ja viivatyyppiä suoraan rivillä.
+keywords: [tasonhallinta, CAD tasotaulukko, tasojen hallinta CAD, tason lisääminen CAD, tason poistaminen CAD, käyttämättömän tason poisto, jäädytä lukitse tulosta taso, kulmanlab tasonhallinta]
 group: layer
 order: 1
 ---
 
 # LayerManager
 
-Komento `LayerManager` avaa taulukon, jossa luetellaan piirustuksen kaikki tasot ja jonka **Freeze** (jäädytys), **Lock** (lukitus), **Plot** (tulostus), **väri**, **viivanpaksuus** ja **viivatyyppi** ovat muokattavissa suoraan rivillä. Se on keskeinen paikka uusien tasojen lisäämiseen ja olemassa olevien tasojen käyttäytymisen säätämiseen — muut tasokomennot ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) tekevät kukin yhden kohdennetun asian avaamatta sitä.
+`LayerManager`-komento avaa taulukon, jossa on lueteltuna piirustuksen jokainen taso, ja jossa **Freeze**-, **Lock**-, **Plot**-, **väri**-, **viivanpaksuus**- ja **viivatyyppi**-asetuksia voi muokata suoraan rivillä. Se on keskeinen paikka lisätä tasoja, poistaa käyttämättömiä ja säätää olemassa olevien käyttäytymistä — muut tasokomennot ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) tekevät kukin yhden rajatun asian avaamatta sitä.
 
 ## Layer Managerin avaaminen
 
@@ -28,6 +28,7 @@ Valintaikkuna avautuu kelluvana paneelina; mitään ei tarvitse valita etukätee
 | Color | Tason ACI-väri — napsauta väriruutua avataksesi värivalitsimen |
 | Lineweight | Tason viivanpaksuus — napsauta chipiä avataksesi viivanpaksuusvalitsimen |
 | Linetype | Tason viivakuvio — napsauta chipiä avataksesi viivatyyppivalitsimen |
+| ✕ | Poistaa tason, kun mikään ei käytä sitä — katso [Tason poistaminen](#tason-poistaminen) |
 
 Freezen, Lockin tai Plotin vaihtaminen vaikuttaa välittömästi — erillistä tallennusvaihetta ei ole. Entiteetit, joiden väri, viivanpaksuus tai viivatyyppi on asetettu arvoon **ByLayer** (oletusarvo), noudattavat tässä asetettua; entiteetit, joilla on oma eksplisiittinen ohitus, eivät muutu.
 
@@ -40,9 +41,35 @@ Tason nimet voivat sisältää kirjaimia, numeroita, välilyöntejä sekä merkk
 
 Uudet tasot alkavat **jäädyttämättöminä, lukitsemattomina, tulostettavina**, värillä 7 (valkoinen/musta), viivanpaksuudella Default ja viivatyypillä Continuous — samat oletusarvot, jotka [Import](../import/) antaa tasolle `0` tyhjässä piirustuksessa.
 
-## Mitä tässä ei voi tehdä
+## Tason poistaminen
 
-Poistopainiketta ei ole — tasoja ei koskaan poisteta luomisen jälkeen, ne voi vain jäädyttää tai jättää käyttämättä. Taulukko ei myöskään näytä, mikä taso on *nykyinen*; se asetetaan tasopaneelin pudotusvalikosta tai [LayerMakeCurrent](../layer-make-current/)-komennolla, ei tästä valintaikkunasta.
+Jokainen rivi päättyy **✕**-painikkeeseen, joka poistaa tason piirustuksesta. Poisto tapahtuu heti — vahvistusvaihetta ei ole — mutta sitä tarjotaan vain tasoille, joista mikään ei riipu:
+
+| Tilanne | Painikkeen tila |
+|---------|-----------------|
+| Taso on tyhjä | Käytössä — *Delete layer* |
+| Taso on määritetty vähintään yhdelle objektille | Poissa käytöstä — *Cannot delete: assigned to at least one entity* |
+| Taso `0` | Ei painiketta lainkaan |
+
+**"Käytössä" koskee koko piirustusta**, ei vain sitä mitä katsot. Asettelussa (paperitilassa) sijaitseva objekti lasketaan täsmälleen samoin kuin mallitilan objekti, joten taso voi näyttää näytöllä tyhjältä ja silti kieltäytyä poistumasta. Jäädytetyt tasot eivät ole poikkeus: jäädyttäminen piilottaa objektit mutta ei pura niiden määritystä, joten objekteja sisältävä jäädytetty taso pysyy poistokelvottomana.
+
+Tasoa `0` ei voi koskaan poistaa. Se on varataso, joka jokaisella piirustuksella taatusti on, joten painiketta ei piirretä sille lainkaan sen sijaan että se näytettäisiin poissa käytöstä.
+
+### ”…is now in use and can't be deleted”
+
+Toisinaan ✕ näyttää käytettävissä olevalta, mutta napsautus torjutaan paneelin yläreunan palkilla:
+
+```
+"WALLS" is now in use and can't be deleted
+```
+
+Tämä ei ole ristiriita. Sen selvittäminen, mitkä tasot ovat käytössä, edellyttää piirustuksen jokaisen objektin läpikäymistä, joten tulos välimuistitetaan ja rakennetaan uudelleen vain objektien määrän muuttuessa — halpaa satojen objektien kohdalla, ei satojen tuhansien. Olemassa olevan objektin siirtäminen tasolle ei muuta tuota määrää, joten rivin poissa-käytöstä-tila voi olla hetken vanhentunut. Napsautus tarkistaa asian alusta ennen kuin mitään poistetaan — siksi torjunta tapahtuu napsautushetkellä eikä niin, että taso katoaisi vaikka johonkin jäisi vielä viittaus siihen.
+
+Sulje palkki sen omalla **✕**-painikkeella. Taso jää koskemattomaksi.
+
+## Mitä täällä ei voi tehdä
+
+Taulukko ei osoita, mikä taso on *nykyinen*; se asetetaan tasopaneelin pudotusvalikosta tai [LayerMakeCurrent](../layer-make-current/)-komennolla, ei tästä valintaikkunasta. Myös tasojen nimet lyödään lukkoon luontihetkellä — tason voi poistaa ja luoda uudelleen, mutta ei nimetä uudelleen.
 
 ## Näppäinreferenssi
 

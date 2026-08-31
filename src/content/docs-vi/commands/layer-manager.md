@@ -1,13 +1,13 @@
 ---
 title: LayerManager — Quản Lý Tất Cả Lớp trong Một Bảng
-description: Lệnh LayerManager mở một bảng liệt kê tất cả lớp trong bản vẽ, cho phép bạn thêm lớp và chỉnh sửa trực tiếp cho từng lớp trạng thái đóng băng, khóa, in, màu sắc, độ dày đường và kiểu đường.
+description: Lệnh LayerManager mở một bảng liệt kê mọi lớp trong bản vẽ, cho phép thêm lớp, xóa những lớp không dùng đến và chỉnh ngay tại chỗ chế độ đóng băng, khóa, in, màu, bề dày nét và kiểu nét của từng lớp.
 group: layer
 order: 1
 ---
 
 # LayerManager
 
-Lệnh `LayerManager` mở một bảng liệt kê tất cả lớp trong bản vẽ, với các cài đặt **Freeze** (đóng băng), **Lock** (khóa), **Plot** (in), **Màu sắc**, **Độ dày đường** và **Kiểu đường** có thể chỉnh sửa trực tiếp trong hàng. Đây là nơi trung tâm để thêm lớp mới và điều chỉnh cách các lớp hiện có hoạt động — các lệnh lớp khác ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) mỗi lệnh thực hiện một việc cụ thể mà không cần mở bảng này.
+Lệnh `LayerManager` mở một bảng liệt kê mọi lớp trong bản vẽ, với các thiết lập **Freeze**, **Lock**, **Plot**, **Màu**, **Bề dày nét** và **Kiểu nét** chỉnh được ngay trong hàng. Đây là nơi trung tâm để thêm lớp, xóa những lớp không dùng đến và điều chỉnh cách các lớp hiện có hoạt động — những lệnh lớp còn lại ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) mỗi lệnh làm đúng một việc mà không cần mở nó.
 
 ## Mở Layer Manager
 
@@ -27,6 +27,7 @@ Hộp thoại mở dưới dạng bảng nổi; không cần chọn gì trước
 | Color | Màu ACI của lớp — nhấp vào mẫu màu để mở bộ chọn màu |
 | Lineweight | Độ dày đường của lớp — nhấp vào chip để mở bộ chọn độ dày |
 | Linetype | Kiểu nét đứt của lớp — nhấp vào chip để mở bộ chọn kiểu đường |
+| ✕ | Xóa lớp khi không có gì đang dùng đến nó — xem [Xóa một lớp](#xóa-một-lớp) |
 
 Bật/tắt Freeze, Lock hoặc Plot có hiệu lực ngay lập tức — không có bước lưu riêng. Các thực thể được đặt thành **ByLayer** cho màu sắc, độ dày đường hoặc kiểu đường (giá trị mặc định) sẽ theo những gì bạn đặt ở đây; các thực thể có ghi đè riêng của chúng không bị ảnh hưởng.
 
@@ -39,9 +40,35 @@ Tên lớp có thể chứa chữ cái, số, khoảng trắng và `_`, `-`, `$`
 
 Lớp mới bắt đầu ở trạng thái **không đóng băng, không khóa, có thể in**, với màu 7 (trắng/đen), độ dày đường Default và kiểu đường Continuous — cùng các giá trị mặc định mà [Import](../import/) gán cho lớp `0` trong một bản vẽ trống.
 
-## Những gì bạn không thể làm ở đây
+## Xóa một lớp
 
-Không có nút xóa — lớp không bao giờ bị xóa sau khi tạo, chỉ có thể đóng băng hoặc để không dùng. Bảng cũng không cho biết lớp nào là lớp *hiện tại*; điều đó được đặt qua menu thả xuống trên bảng lớp hoặc bằng [LayerMakeCurrent](../layer-make-current/), không phải từ hộp thoại này.
+Mỗi hàng kết thúc bằng nút **✕** để gỡ lớp khỏi bản vẽ. Việc xóa diễn ra ngay lập tức — không có bước xác nhận — nhưng chỉ được cung cấp cho những lớp mà không gì phụ thuộc vào:
+
+| Tình huống | Trạng thái nút |
+|------------|----------------|
+| Lớp trống | Bật — *Delete layer* |
+| Lớp được gán cho ít nhất một đối tượng | Tắt — *Cannot delete: assigned to at least one entity* |
+| Lớp `0` | Không có nút nào cả |
+
+**"Đang dùng" tính trên toàn bộ bản vẽ**, không chỉ phần bạn đang nhìn. Một đối tượng nằm trên bố cục (không gian giấy) được tính hệt như một đối tượng trong không gian mô hình, nên một lớp có thể trông trống trên màn hình mà vẫn từ chối bị xóa. Lớp bị đóng băng cũng không khác: đóng băng chỉ ẩn đối tượng chứ không gỡ bỏ việc gán, vì vậy một lớp đóng băng đang chứa đối tượng vẫn không xóa được.
+
+Lớp `0` không bao giờ xóa được. Đó là lớp dự phòng mà mọi bản vẽ chắc chắn có, nên nút thậm chí không được vẽ ra cho nó thay vì hiển thị dạng bị tắt.
+
+### "…is now in use and can't be deleted"
+
+Thỉnh thoảng dấu ✕ trông như dùng được nhưng cú nhấp bị từ chối bằng một dải thông báo ở đầu bảng:
+
+```
+"WALLS" is now in use and can't be deleted
+```
+
+Đây không phải mâu thuẫn. Việc xác định lớp nào đang được dùng đòi hỏi duyệt qua mọi đối tượng trong bản vẽ, nên kết quả được lưu đệm và chỉ dựng lại khi số lượng đối tượng thay đổi — rẻ với hàng trăm đối tượng, không rẻ với hàng trăm nghìn. Chuyển một đối tượng sẵn có sang lớp khác không làm số lượng thay đổi, nên trạng thái tắt của hàng có thể lỗi thời trong chốc lát. Cú nhấp sẽ kiểm tra lại từ đầu trước khi xóa bất cứ thứ gì, và đó là lý do việc từ chối xảy ra ngay lúc nhấp thay vì để lớp biến mất khi vẫn còn thứ tham chiếu đến nó.
+
+Đóng dải thông báo bằng dấu **✕** của chính nó. Lớp vẫn nguyên vẹn.
+
+## Những gì không làm được ở đây
+
+Bảng không cho biết lớp nào đang là lớp *hiện hành*; điều đó được đặt từ danh sách thả xuống của bảng lớp hoặc bằng [LayerMakeCurrent](../layer-make-current/), chứ không phải từ hộp thoại này. Tên lớp cũng cố định ngay khi tạo — một lớp có thể bị xóa rồi tạo lại, nhưng không thể đổi tên.
 
 ## Tham khảo phím tắt
 

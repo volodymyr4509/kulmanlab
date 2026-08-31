@@ -35,7 +35,7 @@ KulmanLab is a web-based CAD editor built for engineers, designers, drafters, an
 - Hatch fills with a built-in pattern library (ANSI31 and other standard patterns) plus custom `.pat` file upload via Hatch Manager
 - Complete dimensioning suite: linear, aligned, radius, diameter, angular, continue
 - Multileader annotations with customizable arrowheads
-- Layer management: freeze, lock, isolate, color, linetype, lineweight
+- Layer management: freeze, lock, isolate, delete unused, color, linetype, lineweight
 - DXF import and export (AC1032 format)
 - Grip editing — drag geometry directly on canvas
 - Object snapping: endpoint, intersection, perpendicular, angle lock
@@ -138,6 +138,9 @@ Every drawing entity belongs to a layer. KulmanLab provides full layer managemen
 - Isolate a single layer (freeze all others)
 - Unfreeze all layers at once
 - Copy an entity's layer assignment to other entities via Match Properties
+- Delete an unused layer from LayerManager — refused for layer `0` and for any layer still assigned to an entity, in model space or on a layout
+
+Layer names are fixed at creation. A layer can be deleted and recreated, but not renamed.
 
 ---
 

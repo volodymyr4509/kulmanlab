@@ -1,14 +1,14 @@
 ---
 title: LayerManager — Beheer Alle Lagen in Eén Tabel
-description: Het LayerManager-commando opent een tabel met alle lagen van de tekening, waarmee u lagen kunt toevoegen en voor elke laag rechtstreeks bevriezing, vergrendeling, plot, kleur, lijndikte en lijntype kunt bewerken.
-keywords: [layer manager, laagtabel CAD, lagen beheren CAD, laag toevoegen CAD, bevriezen vergrendelen plotten laag, kulmanlab laagbeheer]
+description: De opdracht LayerManager opent een tabel met alle lagen in de tekening, waarin je lagen kunt toevoegen, ongebruikte kunt verwijderen en per laag bevriezing, vergrendeling, plotten, kleur, lijndikte en lijntype ter plekke kunt bewerken.
+keywords: [lagenbeheer, CAD lagentabel, lagen beheren CAD, laag toevoegen CAD, laag verwijderen CAD, ongebruikte laag verwijderen, bevriezen vergrendelen plotten laag, kulmanlab lagenbeheer]
 group: layer
 order: 1
 ---
 
 # LayerManager
 
-Het `LayerManager`-commando opent een tabel met alle lagen van de tekening, waarbij **Freeze** (bevriezen), **Lock** (vergrendelen), **Plot**, **Kleur**, **Lijndikte** en **Lijntype** rechtstreeks in de rij bewerkbaar zijn. Het is de centrale plek om nieuwe lagen toe te voegen en het gedrag van bestaande lagen aan te passen — de overige laagcommando's ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) doen elk één gerichte taak zonder dit dialoogvenster te openen.
+De opdracht `LayerManager` opent een tabel met alle lagen in de tekening, waarbij **Freeze**, **Lock**, **Plot**, **Kleur**, **Lijndikte** en **Lijntype** rechtstreeks in de rij te bewerken zijn. Het is de centrale plek om lagen toe te voegen, ongebruikte te verwijderen en het gedrag van bestaande aan te passen — de andere laagopdrachten ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) doen elk één gerichte taak zonder hem te openen.
 
 ## De Layer Manager openen
 
@@ -28,6 +28,7 @@ Het dialoogvenster opent als een zwevend paneel; er hoeft vooraf niets geselecte
 | Color | De ACI-kleur van de laag — klik op het kleurvlak om de kleurkiezer te openen |
 | Lineweight | De lijndikte van de laag — klik op de chip om de lijndiktekiezer te openen |
 | Linetype | Het streepjespatroon van de laag — klik op de chip om de lijntypekiezer te openen |
+| ✕ | Verwijdert de laag wanneer niets haar gebruikt — zie [Een laag verwijderen](#een-laag-verwijderen) |
 
 Freeze, Lock of Plot omschakelen heeft direct effect — er is geen aparte opslagstap. Entiteiten die voor kleur, lijndikte of lijntype op **ByLayer** staan (de standaardinstelling) nemen over wat u hier instelt; entiteiten met een eigen expliciete overschrijving worden niet beïnvloed.
 
@@ -40,9 +41,35 @@ Laagnamen mogen letters, cijfers, spaties en `_`, `-`, `$` bevatten. Een lege na
 
 Nieuwe lagen starten **ontdooid, ontgrendeld, plotbaar**, met kleur 7 (wit/zwart), lijndikte Default en lijntype Continuous — dezelfde standaardwaarden die [Import](../import/) toekent aan laag `0` in een lege tekening.
 
-## Wat u hier niet kunt doen
+## Een laag verwijderen
 
-Er is geen verwijderknop — lagen worden nooit verwijderd nadat ze zijn aangemaakt, alleen bevroren of ongebruikt gelaten. De tabel geeft ook niet aan welke laag de *huidige* is; dat wordt ingesteld via de vervolgkeuzelijst in het lagenpaneel of via [LayerMakeCurrent](../layer-make-current/), niet vanuit dit dialoogvenster.
+Elke rij eindigt met een **✕**-knop die de laag uit de tekening haalt. Verwijderen gebeurt meteen — er is geen bevestigingsstap — maar wordt alleen aangeboden voor lagen waarvan niets afhangt:
+
+| Situatie | Toestand van de knop |
+|----------|----------------------|
+| De laag is leeg | Actief — *Delete layer* |
+| De laag is aan minstens één entiteit toegewezen | Uitgeschakeld — *Cannot delete: assigned to at least one entity* |
+| Laag `0` | Helemaal geen knop |
+
+**"In gebruik" geldt voor de hele tekening**, niet alleen voor wat je op dat moment ziet. Een entiteit op een layout (papierruimte) telt precies zo zwaar als een in modelruimte, dus een laag kan op het scherm leeg lijken en zich toch niet laten verwijderen. Bevroren lagen vormen geen uitzondering: bevriezen verbergt entiteiten maar heft hun toewijzing niet op, dus een bevroren laag met entiteiten blijft onverwijderbaar.
+
+Laag `0` kan nooit verwijderd worden. Het is de terugvallaag die elke tekening gegarandeerd heeft, dus de knop wordt er helemaal niet voor getekend in plaats van uitgeschakeld getoond.
+
+### "…is now in use and can't be deleted"
+
+Af en toe lijkt de ✕ beschikbaar maar wordt de klik geweigerd met een balk boven in het paneel:
+
+```
+"WALLS" is now in use and can't be deleted
+```
+
+Dat is geen tegenspraak. Uitzoeken welke lagen in gebruik zijn betekent elke entiteit in de tekening langslopen, dus het resultaat wordt gecachet en alleen herbouwd wanneer het aantal entiteiten verandert — goedkoop bij honderden entiteiten, niet bij honderdduizenden. Een bestaande entiteit naar een laag verplaatsen verandert dat aantal niet, dus de uitgeschakelde toestand van de rij kan even achterlopen. De klik controleert alles opnieuw voordat er iets verdwijnt, en daarom komt de weigering op het moment van klikken in plaats van dat de laag verdwijnt terwijl er nog iets naar verwijst.
+
+Sluit de balk met haar eigen **✕**. De laag blijft ongemoeid.
+
+## Wat hier niet kan
+
+De tabel geeft niet aan welke laag *actueel* is; dat stel je in via de keuzelijst van het lagenpaneel of met [LayerMakeCurrent](../layer-make-current/), niet vanuit dit venster. Laagnamen liggen bovendien vast bij het aanmaken — een laag kan verwijderd en opnieuw gemaakt worden, maar niet hernoemd.
 
 ## Toetsenbordreferentie
 

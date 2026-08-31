@@ -1,14 +1,14 @@
 ---
 title: LayerManager — Urus Semua Lapisan dalam Satu Jadual
-description: Arahan LayerManager membuka jadual semua lapisan dalam lukisan, membolehkan anda menambah lapisan dan mengedit terus status beku, kunci, plot, warna, ketebalan garis, dan jenis garis untuk setiap lapisan.
-keywords: [layer manager, jadual lapisan CAD, urus lapisan CAD, tambah lapisan CAD, beku kunci plot lapisan, pengurusan lapisan kulmanlab]
+description: Perintah LayerManager membuka jadual semua lapisan dalam lukisan, membolehkan anda menambah lapisan, memadam yang tidak digunakan, serta menyunting terus dalam barisnya tetapan beku, kunci, cetak, warna, ketebalan garisan dan jenis garisan bagi setiap satu.
+keywords: [pengurus lapisan, jadual lapisan CAD, urus lapisan CAD, tambah lapisan CAD, padam lapisan CAD, buang lapisan tidak digunakan, bekukan kunci cetak lapisan, pengurusan lapisan kulmanlab]
 group: layer
 order: 1
 ---
 
 # LayerManager
 
-Arahan `LayerManager` membuka jadual yang menyenaraikan semua lapisan dalam lukisan, dengan tetapan **Freeze** (beku), **Lock** (kunci), **Plot**, **Warna**, **Ketebalan garis**, dan **Jenis garis** yang boleh disunting terus dalam baris. Ia adalah tempat utama untuk menambah lapisan baharu dan menyesuaikan cara lapisan sedia ada berfungsi — arahan lapisan lain ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) masing-masing melakukan satu tugas tertumpu tanpa membukanya.
+Perintah `LayerManager` membuka jadual yang menyenaraikan setiap lapisan dalam lukisan, dengan tetapan **Freeze**, **Lock**, **Plot**, **Warna**, **Ketebalan garisan** dan **Jenis garisan** boleh disunting terus di dalam barisnya. Ia tempat utama untuk menambah lapisan, memadam yang tidak digunakan dan melaraskan kelakuan lapisan sedia ada — perintah lapisan yang lain ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) masing-masing melakukan satu perkara tanpa membukanya.
 
 ## Membuka Layer Manager
 
@@ -28,6 +28,7 @@ Dialog dibuka sebagai panel terapung; tiada apa yang perlu dipilih terlebih dahu
 | Color | Warna ACI lapisan — klik contoh untuk membuka pemilih warna |
 | Lineweight | Ketebalan garis lapisan — klik chip untuk membuka pemilih ketebalan |
 | Linetype | Corak garis putus lapisan — klik chip untuk membuka pemilih jenis garis |
+| ✕ | Memadam lapisan apabila tiada apa-apa menggunakannya — lihat [Memadam lapisan](#memadam-lapisan) |
 
 Menogol Freeze, Lock, atau Plot berkuat kuasa serta-merta — tiada langkah simpan berasingan. Entiti yang ditetapkan kepada **ByLayer** untuk warna, ketebalan garis, atau jenis garis (nilai lalai) mengikut apa yang anda tetapkan di sini; entiti dengan pengatasan eksplisit mereka sendiri tidak terjejas.
 
@@ -40,9 +41,35 @@ Nama lapisan boleh mengandungi huruf, nombor, ruang, dan `_`, `-`, `$`. Nama yan
 
 Lapisan baharu bermula sebagai **tidak dibekukan, tidak dikunci, boleh diplot**, dengan warna 7 (putih/hitam), ketebalan garis Default, dan jenis garis Continuous — nilai lalai yang sama yang [Import](../import/) berikan kepada lapisan `0` dalam lukisan kosong.
 
-## Apa yang anda tidak boleh lakukan di sini
+## Memadam lapisan
 
-Tiada butang padam — lapisan tidak pernah dibuang selepas dicipta, hanya boleh dibekukan atau dibiarkan tidak digunakan. Jadual juga tidak menunjukkan lapisan mana yang *semasa*; itu ditetapkan melalui menu lungsur pada panel lapisan atau melalui [LayerMakeCurrent](../layer-make-current/), bukan daripada dialog ini.
+Setiap baris berakhir dengan butang **✕** yang mengeluarkan lapisan daripada lukisan. Pemadaman berlaku serta-merta — tiada langkah pengesahan — tetapi hanya ditawarkan bagi lapisan yang tiada apa-apa bergantung padanya:
+
+| Keadaan | Keadaan butang |
+|---------|----------------|
+| Lapisan kosong | Aktif — *Delete layer* |
+| Lapisan diberikan kepada sekurang-kurangnya satu entiti | Dilumpuhkan — *Cannot delete: assigned to at least one entity* |
+| Lapisan `0` | Tiada butang langsung |
+
+**"Sedang digunakan" merangkumi keseluruhan lukisan**, bukan hanya apa yang sedang anda lihat. Entiti yang berada pada susun atur (ruang kertas) dikira sama seperti entiti dalam ruang model, jadi sesuatu lapisan boleh kelihatan kosong pada skrin namun tetap enggan dipadam. Lapisan yang dibekukan tidak berbeza: pembekuan menyembunyikan entiti tetapi tidak menarik balik penetapannya, jadi lapisan beku yang memuatkan entiti kekal tidak boleh dipadam.
+
+Lapisan `0` tidak boleh dipadam sama sekali. Ia lapisan sandaran yang pasti dimiliki setiap lukisan, jadi butangnya langsung tidak dilukis, bukannya dipaparkan dalam keadaan dilumpuhkan.
+
+### "…is now in use and can't be deleted"
+
+Ada kalanya ✕ kelihatan tersedia tetapi klik ditolak dengan sepanduk di bahagian atas panel:
+
+```
+"WALLS" is now in use and can't be deleted
+```
+
+Ini bukan percanggahan. Untuk mengetahui lapisan mana yang sedang digunakan, setiap entiti dalam lukisan perlu diperiksa, jadi hasilnya disimpan dalam cache dan hanya dibina semula apabila bilangan entiti berubah — murah pada ratusan entiti, tidak pada ratusan ribu. Memindahkan entiti sedia ada ke sesuatu lapisan tidak mengubah bilangan itu, jadi keadaan dilumpuhkan pada baris boleh ketinggalan seketika. Klik akan memeriksa semula dari awal sebelum memadam apa-apa, dan itulah sebabnya penolakan berlaku ketika diklik, bukannya lapisan hilang sedangkan sesuatu masih merujuknya.
+
+Tutup sepanduk dengan **✕** miliknya sendiri. Lapisan kekal tidak tersentuh.
+
+## Apa yang tidak boleh dilakukan di sini
+
+Jadual tidak menunjukkan lapisan mana yang *semasa*; itu ditetapkan daripada senarai juntai bawah panel lapisan atau dengan [LayerMakeCurrent](../layer-make-current/), bukan daripada dialog ini. Nama lapisan juga ditetapkan semasa penciptaan — sesuatu lapisan boleh dipadam dan dicipta semula, tetapi tidak boleh dinamakan semula.
 
 ## Rujukan papan kekunci
 

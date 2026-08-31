@@ -274,7 +274,7 @@ It is designed for engineers, architects, and technical illustrators who need a 
 - Selection filter: narrow a large multi-selection by Type, Layer, Color, Lineweight, or Linetype before bulk-editing, via a filter icon in the property panel
 - Hatch fills any closed boundary with a pattern (ANSI31 and other standard patterns built in); Hatch Manager browses the pattern library and lets you upload your own .pat files, which shadow built-in patterns of the same name
 - Array Grid repeats a selection in rows and columns with typed spacing — no point-picking
-- Layer management with color, linetype, and lineweight per layer
+- Layer management with color, linetype, and lineweight per layer; LayerManager deletes unused layers, refusing any layer still assigned to an entity in model space or on a layout
 - Grip editing on all entity types (lines, arcs, polylines, dimensions, text, viewports)
 - Snapping: endpoint, midpoint, center, intersection, perpendicular, tangent, nearest, grid
 - Angle tracking with configurable increments (10°, 15°, 20°, 30°, 45°, 90°)
@@ -326,7 +326,7 @@ DXF and JSON via Export Manager — DXF for round-tripping with other CAD tools,
 Yes. Type commands directly — LINE, CIRCLE, MOVE, TRIM, and 50+ others. The terminal supports history (arrow keys), autocomplete (Tab), and exact numeric input.
 
 **Is there layer support?**
-Full layer management: create, rename, freeze, lock, and isolate layers. Set color, linetype, and lineweight per layer. All layer data is preserved in DXF export.
+Full layer management: create, delete, freeze, lock, and isolate layers. Set color, linetype, and lineweight per layer. Layer names are fixed at creation — a layer can be deleted and recreated, but not renamed — and only layers nothing is assigned to can be deleted. All layer data is preserved in DXF export.
 
 **What dimension types are available?**
 Linear, aligned, radius, diameter, angular, and continue dimensions. All stored as standard DXF DIMENSION entities compatible with other DXF-capable CAD tools.
