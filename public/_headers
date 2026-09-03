@@ -1,0 +1,12 @@
+# Astro fingerprints these filenames, so a changed file is always a new URL and
+# the old one can never go stale. Safe to cache for a year.
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Not fingerprinted — demo.gif keeps its name when it is re-encoded, so this is
+# a week rather than a year.
+/images/*
+  Cache-Control: public, max-age=604800
+
+/logo.svg
+  Cache-Control: public, max-age=604800

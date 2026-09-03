@@ -94,7 +94,10 @@ const groups: { label: string; codes: string[] }[] = [
 </div>
 
 <script>
-  import { translations, type Lang } from '../i18n/translations';
+  // Only the language codes are needed at runtime, and this import is erased,
+  // so the 300KB string table never reaches the browser.
+  import type { Lang } from '../i18n/translations';
+  import { LANGS_NO_EN } from '../i18n/utils';
 
   const LS_KEY = 'kl-lang';
   const wrapper = document.getElementById('lang-wrapper');
@@ -121,30 +124,6 @@ const groups: { label: string; codes: string[] }[] = [
     // Standard locale pages (home, faq, changelog)
     const suffix = page === 'home' ? '/' : `/${page}/`;
     return lang === 'en' ? suffix : `/${lang}${suffix}`;
-  }
-
-  function applyLang(lang: Lang) {
-    const t = translations[lang];
-    if (!t) return;
-    document.querySelectorAll<HTMLElement>('[data-i18n]').forEach(el => {
-      const key = el.dataset.i18n!;
-      if (t[key] !== undefined) el.textContent = t[key];
-    });
-    const label = document.getElementById('lang-label');
-    if (label) label.textContent = lang.toUpperCase();
-    document.querySelectorAll<HTMLElement>('.lang-option').forEach(btn => {
-      const check = btn.querySelector<SVGElement>('[data-check]');
-      if (!check) return;
-      if (btn.dataset.lang === lang) check.classList.remove('hidden');
-      else check.classList.add('hidden');
-    });
-    // Update locale-aware nav links
-    document.querySelectorAll<HTMLAnchorElement>('[data-locale]').forEach(el => {
-      const p = el.dataset.locale as string;
-      const suffix = p === 'home' ? '/' : `/${p}/`;
-      el.href = lang === 'en' ? suffix : `/${lang}${suffix}`;
-    });
-    document.documentElement.lang = lang;
   }
 
   // Toggle dropdown
@@ -180,21 +159,18 @@ const groups: { label: string; codes: string[] }[] = [
 
   // On English pages: an explicit saved preference redirects to the localized
   // page (e.g. arriving at /privacy/ with uk selected → /uk/privacy/). Browser
-  // language alone (no saved choice) only soft-swaps the data-i18n labels.
+  // language alone does nothing — rewriting labels after load re-wrapped the H1
+  // and reflowed the nav, and every locale already has a fully translated page
+  // that hreflang points search engines at.
   if (currentLang === 'en') {
     const saved = localStorage.getItem(LS_KEY) as Lang | null;
-    if (saved && saved !== 'en' && saved in translations) {
+    if (saved && saved !== 'en' && (LANGS_NO_EN as readonly string[]).includes(saved)) {
       // A post with no translation in the saved locale stays put — bouncing to
       // that locale's blog index would discard the article they landed on.
       const untranslatedPost = !!blogSlug && !blogLangs.includes(saved);
       const target = untranslatedPost ? window.location.pathname : langToUrl(saved);
       if (target !== window.location.pathname) {
         window.location.replace(target);
-      }
-    } else if (!saved) {
-      const browser = navigator.language.slice(0, 2) as Lang;
-      if (browser !== 'en' && browser in translations) {
-        applyLang(browser);
       }
     }
   } else {
