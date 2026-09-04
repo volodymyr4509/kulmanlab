@@ -1,6 +1,6 @@
 ---
 title: Export Manager — Pobierz Rysunki jako DXF lub JSON
-description: Export Manager pobiera bieżący rysunek jako plik DXF lub JSON (natywny). Każdy format dokładnie wymienia, jakie typy elementów przenosi, obok siebie, dzięki czemu przed pobraniem widać, co pomija DXF — obecnie hatch, wymiary, odnośniki i tekst.
+description: Pobierz bieżący rysunek jako DXF lub JSON. Oba niosą każdy typ obiektu — geometrię, tekst, wymiary, odnośniki i kreskowania — wraz z warstwami i rodzajami linii.
 keywords: [eksport DXF, eksport pliku CAD, pobierz DXF przeglądarka, zapisz DXF online, eksport JSON CAD, eksport KulmanLab, pobierz plik CAD, eksport DXF, zapisz rysunek do pliku, pobieranie DXF]
 group: file
 order: 6
@@ -13,7 +13,7 @@ Polecenie `exportmanager` pobiera bieżący rysunek do systemu plików. Dostępn
 ## Jak eksportować
 
 1. Kliknij przycisk **Export** na pasku narzędzi (ikona pobierania) w panelu plików lub wpisz `exportmanager` w terminalu.
-2. Otwiera się okno **Export Manager**, pokazujące karty JSON i DXF obok siebie, każda z listą tego, co jest eksportowane (a dla DXF — co jest pomijane).
+2. Otwiera się okno **Export Manager**, pokazujące karty JSON i DXF obok siebie, każda z listą tego, co jest eksportowane.
 3. Kliknij kartę, aby wybrać format — **JSON** lub **DXF**.
 4. Kliknij przycisk **Export \<FORMAT\>**. Plik zostanie automatycznie pobrany do domyślnego folderu pobierania.
 
@@ -24,7 +24,7 @@ Naciśnij `Escape`, aby zamknąć okno bez eksportowania.
 | Format | Rozszerzenie | Najlepsze do | Ograniczenia |
 |--------|-------------|--------------|--------------|
 | **JSON** *(natywny)* | `.json` | Zapisywanie pracy do ponownego otwarcia w KulmanLab CAD | Niekompatybilny z innymi narzędziami CAD |
-| **DXF** | `.dxf` | Udostępnianie w FreeCAD, LibreCAD itp. | Hatch, wymiary, odnośniki i tekst nie są eksportowane |
+| **DXF** | `.dxf` | Udostępnianie w FreeCAD, LibreCAD itp. | Ile przetrwa, zależy od programu odbierającego |
 
 **Kiedy używać JSON:** zawsze, gdy chcesz zapisać pełną kopię swojej pracy. JSON to natywny format KulmanLab, który dokładnie zachowuje każdy element — w tym wymiary, odnośniki, hatch i wszystkie dane warstw.
 
@@ -45,12 +45,18 @@ Uwzględniony jest każdy typ elementu:
 
 ### Eksport DXF
 
-Uwzględnione są tylko elementy geometryczne:
+Uwzględniony jest każdy typ elementu:
 
 - Lines, Circles, Arcs, Ellipses, Polylines (eksportowane jako `LWPOLYLINE`), Splines
+- Text
+- Wymiary (liniowy, wyrównany, ciągły, promień, średnica)
+- Leaders (multileadery)
+- Hatches, wraz z ich wzorem, skalą, kątem i punktem początkowym
 - Layers i Linetypes
 
-**Nieeksportowane do DXF:** hatch, wymiary, leadery i tekst. Wymiary i leadery używają struktur danych specyficznych dla KulmanLab, których nie można wiernie przedstawić w standardowym DXF; hatch w ogóle nie jest jeszcze eksportowany do DXF, mimo że jest z niego importowany; eksport tekstu również nie jest jeszcze zaimplementowany. Jeśli twój rysunek zawiera którykolwiek z tych elementów, użyj JSON lub [Menedżera druku](../print-manager/), aby je zachować.
+Plik jest zapisywany jako DXF AC1032, więc rysunek wyeksportowany z KulmanLab otwiera się w innych narzędziach obsługujących DXF z nienaruszonymi opisami, a nie dociera jako naga geometria.
+
+To, co następnie zrobi z nim każdy program odbierający, wciąż bywa różne — obsługa DXF różni się między narzędziami, a starsze może pominąć obiekty, które nowsze odczytuje. Jeśli rysunek musi wyglądać identycznie wszędzie, [Menedżera druku](../print-manager/) uchwyci go zamiast tego jako PDF lub obraz.
 
 ## Nazwa eksportowanego pliku
 
@@ -63,7 +69,7 @@ Pobrany plik otrzymuje nazwę na podstawie bieżącego pliku rysunku (np. `mypla
 | Wyjście | Plik źródłowy wektorowy (.dxf / .json) | Obraz rastrowy (.png / .jpeg / .webp / .pdf) |
 | Edytowalny w innych narzędziach | Tak (DXF) | Nie |
 | Zachowuje layers i linetypes | Tak | Nie (renderowane płasko) |
-| Przechwytuje wymiary i leadery | Tylko JSON | Tak |
+| Przechwytuje wymiary i leadery | Tak | Tak |
 
 Użyj **Export Manager**, gdy potrzebujesz edytowalnego pliku. Użyj [Menedżera druku](../print-manager/), gdy potrzebujesz wizualnego zrzutu.
 

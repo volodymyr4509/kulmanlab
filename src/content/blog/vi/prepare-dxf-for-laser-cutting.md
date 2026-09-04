@@ -53,12 +53,12 @@ Có hai cách xử lý:
 
 Nếu dung sai quan trọng, hãy cắt thử một mẫu trước khi dùng hẳn vật liệu.
 
-## Những gì không sống sót qua bước xuất DXF
+## Cần kiểm tra gì ở bước xuất DXF
 
 Đáng biết trước khi bạn trông cậy vào nó:
 
-- **Chữ không được xuất sang DXF.** Nếu bạn định khắc chữ thì chữ sẽ không có trong file. Hãy chuyển chữ thành đường bao bằng công cụ khác, hoặc dùng xưởng chấp nhận SVG cho lớp khắc.
-- **Mặt cắt gạch và kích thước cũng không được xuất.** Với một file cắt thì đó đúng là điều mong muốn — nhưng đừng cho rằng vùng gạch sẽ thành mảng khắc, vì nó không hề có trong file.
+- **Giờ phần chú giải cũng được xuất — hãy tự dọn nó đi.** Chữ, kích thước, đường dẫn chú thích và mặt cắt gạch đều đi vào tệp DXF xuất ra. Với một lần bàn giao thông thường thì đó đúng là điều bạn muốn, nhưng với tệp cắt, điều đó nghĩa là bất cứ thứ gì bạn để lại trong bản vẽ sẽ thực sự nằm trong tệp. Bước xuất không còn lặng lẽ lược bỏ giúp bạn nữa, nên hãy xóa đi, hoặc giữ chúng trên các lớp mà bạn sẽ bỏ trước khi xuất.
+- **Chữ ra dưới dạng `MTEXT`, không giống hình học khắc được.** Phần chữ được xuất kèm định dạng, nhưng khá nhiều phần mềm máy muốn đường bao thay vì chữ sống trên lớp khắc. Hãy kiểm tra phần mềm của bạn chấp nhận gì trước khi tính chuyện khắc chữ dựa vào đó.
 - **Tham chiếu block không được nhập vào.** Bản vẽ dựng từ các ký hiệu block lặp lại sẽ vào thiếu, nên hãy đối chiếu số lượng chi tiết với bản gốc.
 
 Còn spline thì *có* được xuất. Một số phần mềm máy xử lý spline kém và thích đa tuyến hơn — nếu máy bạn như vậy, hãy vẽ lại các đường cong thành đa tuyến hoặc cung tròn.

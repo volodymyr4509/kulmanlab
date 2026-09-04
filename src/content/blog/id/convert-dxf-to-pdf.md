@@ -22,7 +22,7 @@ Ketika Anda hanya butuh sesuatu yang terbaca untuk dikirim:
 
 Selesai. Pratinjau dirender melalui jalur kode dan resolusi yang persis sama dengan file yang diekspor, jadi yang Anda lihat itulah yang Anda dapat, bukan perkiraannya.
 
-Satu hal yang layak diketahui: tidak seperti ekspor DXF, **PDF mempertahankan semua yang ada di layar** — dimensi, teks, arsiran, leader. Kalau gambar Anda beranotasi, PDF-lah format yang membawa anotasi itu serta.
+Satu hal yang layak diketahui: **PDF mempertahankan semua yang ada di layar** — dimensi, teks, arsiran, leader — tertata persis seperti digambar. Ekspor DXF juga membawa semua itu, jadi pilihan di antara keduanya bukan soal apa yang bertahan. Soalnya apa yang dibutuhkan penerima: PDF kalau ia hanya perlu membaca atau mencetaknya, DXF kalau ia harus menyuntingnya.
 
 ## Cara yang benar: mengonversi pada skala persis
 

@@ -113,13 +113,13 @@ Vårt eget verktøy, så les dette avsnittet med det i bakhodet. KulmanLab er en
 - Hele 2D-verktøykassen: linjer, polylinjer med buesegmenter, sirkler, buer, ellipser, splines, skravering med et `.pat`-mønsterbibliotek og komplett målsetting (lineær, tilpasset, radius, diameter, vinkel, fortsatt).
 - Lag med frysing, låsing, isolering, farge, linjetype og linjetykkelse; objektfeste; håndtaksredigering med nøyaktig innskrevet forskyvning.
 - Papirromoppsett med visningsvinduer og sideoppsett, deretter utskrift eller eksport til PDF/PNG — inkludert utskriftsstilene monokrom og blåkopi.
+- En fullstendig DXF-rundtur: tekst, mål, henvisninger og skravering overlever alle eksporten, ikke bare den bare geometrien, så en påtegnet tegning kan gå tilbake til den som sendte den.
 - Filene forlater aldri maskinen din, noe som betyr noe hvis tegningene dine er underlagt taushetsplikt. Etter første lasting fungerer det uten nett.
 
 **Svakheter:**
 
 - **Kun 2D.** Ingen 3D-modellering, og ingen er planlagt.
 - **DXF, ikke DWG.** Hvis samarbeidspartnerne dine sender DWG, trenger du noe annet for å konvertere først.
-- **DXF-eksporten er ufullstendig.** Geometri, lag og egenskaper går fram og tilbake rent, men skraveringer, mål, henvisningslinjer og tekst skrives ennå ikke til den eksporterte DXF-filen — det egne JSON-formatet bevarer dem, og JSON åpnes bare i KulmanLab.
 - **Kun skrivebordsnettlesere,** og tegningene lever i den nettleserens lokale lagring — sletter du nettleserdata forsvinner de, så eksporter alt du vil beholde.
 
 **Best for:** Å raskt åpne, merke opp og eksportere en DXF; små 2D-tegneoppdrag; CNC, laserskjæring og produksjon; å tegne på en låst maskin der du ikke kan installere programvare. Erstatter ikke en produksjonstegningspakke i et stort koordinert prosjekt.

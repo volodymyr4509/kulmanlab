@@ -22,7 +22,7 @@ Kun tarvitset vain jotain luettavaa lähetettäväksi:
 
 Siinä kaikki. Esikatselu piirretään samaa koodipolkua pitkin ja samalla tarkkuudella kuin vietävä tiedosto, joten näkemäsi on lopputulos eikä arvio siitä.
 
-Yksi asia kannattaa tietää: toisin kuin DXF-viennissä, **PDF säilyttää kaiken ruudulla näkyvän** — mitat, tekstit, rasteroinnit, osoitusviivat. Jos piirustuksessa on merkintöjä, PDF on muoto, joka vie ne mukanaan.
+Yksi asia kannattaa tietää: **PDF säilyttää kaiken ruudulla näkyvän** — mitat, tekstit, rasteroinnit, osoitusviivat — täsmälleen siinä asettelussa kuin ne on piirretty. Myös DXF-vienti vie kaiken tämän mukanaan, joten valinta niiden välillä ei koske sitä, mikä säilyy. Se koskee sitä, mitä vastaanottaja tarvitsee: PDF, jos hänen pitää vain lukea tai tulostaa se, DXF, jos hänen pitää muokata sitä.
 
 ## Oikea tie: muunna tarkassa mittakaavassa
 

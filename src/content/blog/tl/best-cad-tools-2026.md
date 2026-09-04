@@ -113,13 +113,13 @@ Amin mismong kasangkapan ito, kaya basahin ang bahaging ito nang nasa isip iyon.
 - Ang buong 2D toolkit: linya, polyline na may arc segment, bilog, arko, ellipse, spline, hatch na may `.pat` pattern library, at ang kumpletong hanay ng dimensyon (linear, aligned, radius, diameter, angular, continue).
 - Layer na may freeze, lock, isolate, kulay, linetype, at lineweight; object snapping; grip editing na may eksaktong itinatype na paglipat.
 - Mga layout sa paper space na may viewport at page setup, saka i-print o i-export sa PDF/PNG — kasama ang monochrome at blueprint na estilo ng pag-print.
+- Buong balikang biyahe ng DXF: hindi lang hubad na heometriya — ang teksto, sukat, leader at hatch ay nakakaligtas lahat sa pag-export, kaya maibabalik ang isang guhit na may anotasyon sa nagpadala nito.
 - Hindi kailanman umaalis sa makina mo ang mga file, mahalaga ito kung nasa ilalim ng NDA ang iyong mga guhit. Pagkatapos ng unang pag-load, gumagana ito nang offline.
 
 **Kahinaan:**
 
 - **2D lamang.** Walang 3D modeling, at wala ring binabalak.
 - **DXF, hindi DWG.** Kung DWG ang ipinapadala ng mga katrabaho mo, kailangan mo muna ng ibang bagay para i-convert ito.
-- **Hindi pa kumpleto ang DXF export.** Malinis na nagbabalikan ang geometry, layer, at katangian, ngunit hindi pa naisusulat sa ini-export na DXF ang hatch, dimensyon, leader, at teksto — pinapanatili ang mga ito ng katutubong JSON na format, at sa KulmanLab lamang bumubukas ang JSON.
 - **Desktop browser lamang,** at nasa lokal na imbakan ng browser na iyon ang mga guhit — nabubura ang mga ito kapag nilinis mo ang datos ng browser, kaya i-export ang anumang gusto mong itago.
 
 **Pinakamainam para sa:** Mabilis na pagbukas, pagmarka, at pag-export ng DXF; maliliit na gawaing 2D drafting; gawaing CNC, laser cutting, at pabrikasyon; pagguhit sa nakakandadong makina kung saan hindi ka makapag-install ng software. Hindi kapalit ng produksiyong drafting suite sa malaki at magkakaugnay na proyekto.

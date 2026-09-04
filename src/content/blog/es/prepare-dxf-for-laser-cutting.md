@@ -53,12 +53,12 @@ Dos formas de manejarlo:
 
 Si la tolerancia importa, corta una pieza de prueba antes de comprometer material.
 
-## Qué no sobrevive a la exportación DXF
+## Qué comprobar en la exportación a DXF
 
 Conviene saberlo antes de confiar en ello:
 
-- **El texto no se exporta a DXF.** Si pensabas grabar letras, no estarán en el archivo. Convierte el texto en contornos con otra herramienta, o usa un servicio que acepte SVG para la capa de grabado.
-- **Los sombreados y las cotas tampoco se exportan.** Para un archivo de corte eso es justo lo que quieres, pero no supongas que una región sombreada se convertirá en un relleno grabado: no estará en el archivo en absoluto.
+- **Ahora la anotación se exporta: retírala tú.** El texto, las cotas, las directrices y los sombreados entran todos en el DXF exportado. Para una entrega normal es justo lo que quieres, pero en un archivo de corte significa que todo lo que dejaste en el plano estará realmente en el archivo. La exportación ya no lo quita en silencio por ti, así que bórralo o mantenlo en capas que elimines antes de exportar.
+- **El texto sale como `MTEXT`, que no es lo mismo que geometría grabable.** Las letras se exportan con su formato intacto, pero mucho software de máquina quiere contornos en lugar de texto vivo en la capa de grabado. Comprueba qué acepta el tuyo antes de planificar un grabado sobre eso.
 - **Las referencias a bloques no se importan.** Un dibujo construido con símbolos de bloque repetidos llega incompleto, así que comprueba el recuento de piezas contra el original.
 
 Las splines *sí* se exportan. Algunos programas de máquina las manejan mal y prefieren polilíneas; si el tuyo es de esos, redibuja las curvas como polilíneas o arcos.

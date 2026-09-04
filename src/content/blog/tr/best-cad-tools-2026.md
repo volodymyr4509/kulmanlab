@@ -113,13 +113,13 @@ Bu bizim kendi aracımız, dolayısıyla bu bölümü bunu akılda tutarak okuyu
 - Tam 2B takım çantası: çizgiler, yay parçalı çoklu çizgiler, çemberler, yaylar, elipsler, eğriler, `.pat` desen kütüphaneli taramalar ve eksiksiz ölçülendirme seti (doğrusal, hizalı, yarıçap, çap, açısal, sürekli).
 - Dondurma, kilitleme, yalıtma, renk, çizgi tipi ve çizgi kalınlığıyla katmanlar; nesne yakalama; klavyeden girilen tam ötelemeyle tutamak düzenleme.
 - Görünüm pencereli ve sayfa ayarlı kâğıt alanı yerleşimleri, ardından yazdırma veya PDF/PNG dışa aktarma — tek renk ve mavi kopya baskı stilleri dahil.
+- Eksiksiz bir DXF gidiş dönüşü: yalnızca çıplak geometri değil, metin, ölçüler, kılavuz çizgileri ve taramalar da dışa aktarımdan sağ çıkar; böylece açıklamalı bir çizim, onu gönderene geri gidebilir.
 - Dosyalar makinenizden hiç çıkmaz; çizimleriniz gizlilik sözleşmesi kapsamındaysa bu önemlidir. İlk yüklemeden sonra çevrimdışı çalışır.
 
 **Zayıf yanları:**
 
 - **Yalnızca 2B.** Hiçbir 3B modelleme yok ve planlanmıyor da.
 - **DXF, DWG değil.** Birlikte çalıştığınız kişiler DWG gönderiyorsa, önce dönüştürmek için başka bir şeye ihtiyacınız olacak.
-- **DXF dışa aktarma eksik.** Geometri, katmanlar ve özellikler temiz biçimde gidip geliyor ama taramalar, ölçüler, kılavuz çizgileri ve metin henüz dışa aktarılan DXF'e yazılmıyor — yerel JSON biçimi bunları koruyor ve JSON yalnızca KulmanLab'de açılıyor.
 - **Yalnızca masaüstü tarayıcılar** ve çizimler o tarayıcının yerel deposunda yaşıyor — tarayıcı verilerinizi temizlemek onları siler, bu yüzden saklamak istediğiniz her şeyi dışa aktarın.
 
 **En uygun olduğu yer:** Bir DXF'i hızlıca açmak, işaretlemek ve dışa aktarmak; küçük 2B çizim işleri; CNC, lazer kesim ve imalat işleri; yazılım kuramadığınız kısıtlı bir makinede çizim yapmak. Büyük ve koordineli bir projede üretim çizim paketinin yerini tutmaz.

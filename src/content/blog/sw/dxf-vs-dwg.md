@@ -75,7 +75,7 @@ Unapoomba, inafaa kutaja toleo. **DXF R12 ndiyo salama zaidi** — ni ya kale sa
 
 Ukiwa na `.dwg`, hii haitaifungua. Ukiwa na `.dxf`, unaweza kuifungua katika kichupo cha kivinjari bila kusakinisha chochote: [app.kulmanlab.com](https://app.kulmanlab.com).
 
-Inachoandika kurudi ni jiometri pamoja na maandishi — mistari, miduara, tao, duaradufu, mistari mingi, splines na maandishi, sambamba na tabaka na aina za mstari. Uwekaji mistari wa kujaza, vipimo na mistari ya uelekezi kwa sasa haviingii kwenye DXF inayohamishwa.
+Inachoandika kurudi ni mchoro mzima — mistari, miduara, tao, duaradufu, mistari mingi, splines, maandishi pamoja na mpangilio wake, vipimo, mistari ya uelekezi na uwekaji mistari wa kujaza, sambamba na tabaka na aina za mstari. Faili inayofunguliwa hapa kisha kuhamishwa tena hutoka na maelezo yake, si ikiwa imepunguzwa kuwa jiometri tu.
 
 ---
 

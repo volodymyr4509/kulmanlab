@@ -1,6 +1,6 @@
 ---
 title: Export Manager — Ladda ner ritningar som DXF eller JSON
-description: Export Manager laddar ner den aktuella ritningen som en DXF- eller JSON-fil (nativ). Varje format listar exakt vilka entitetstyper det innehåller, sida vid sida, så att du kan se innan du laddar ner vad DXF utelämnar — för närvarande hatchmönster, mått, ledare och text.
+description: Ladda ned ritningen som DXF eller JSON. Båda bär varje objekttyp — geometri, text, mått, hänvisningar, skrafferingar — tillsammans med lager och linjetyper.
 keywords: [exportera DXF, exportera CAD-fil, ladda ner DXF webbläsare, spara DXF online, exportera JSON CAD, KulmanLab export, ladda ner CAD-fil, DXF-export, spara ritning som fil, DXF-nedladdning]
 group: file
 order: 6
@@ -13,7 +13,7 @@ Kommandot `exportmanager` laddar ner den aktuella ritningen till ditt filsystem.
 ## Så exporterar du
 
 1. Klicka på verktygsfältsknappen **Export** (nedladdningsikon) i filpanelen, eller skriv `exportmanager` i terminalen.
-2. Popup-fönstret **Export Manager** öppnas och visar JSON- och DXF-korten sida vid sida, vart och ett med en lista över vad som exporteras (och för DXF, vad som utelämnas).
+2. Popup-fönstret **Export Manager** öppnas och visar JSON- och DXF-korten sida vid sida, vart och ett med en lista över vad som exporteras.
 3. Klicka på ett kort för att välja format — **JSON** eller **DXF**.
 4. Klicka på knappen **Export \<FORMAT\>**. Filen laddas automatiskt ner till din standardmapp för nedladdningar.
 
@@ -24,7 +24,7 @@ Tryck på `Escape` för att stänga popup-fönstret utan att exportera.
 | Format | Filändelse | Bäst för | Begränsningar |
 |--------|------------|----------|----------------|
 | **JSON** *(nativ)* | `.json` | Spara arbete för att öppna igen i KulmanLab CAD | Inte kompatibelt med andra CAD-verktyg |
-| **DXF** | `.dxf` | Delning med FreeCAD, LibreCAD, osv. | Hatchmönster, mått, ledare och text exporteras inte |
+| **DXF** | `.dxf` | Delning med FreeCAD, LibreCAD, osv. | Hur mycket som överlever beror på det mottagande programmet |
 
 **När du ska använda JSON:** när du vill spara en fullständig kopia av ditt arbete. JSON är KulmanLabs nativa format och bevarar varje entitet exakt — inklusive mått, ledare, hatchmönster och all lagerdata.
 
@@ -45,12 +45,18 @@ Varje entitetstyp ingår:
 
 ### DXF-export
 
-Endast geometrientiteter ingår:
+Varje entitetstyp ingår:
 
 - Lines, Circles, Arcs, Ellipses, Polylines (exporterade som `LWPOLYLINE`), Splines
+- Text
+- Mått (linjär, justerad, fortsatt, radie, diameter)
+- Leaders (multiledare)
+- Hatches, inklusive deras mönster, skala, vinkel och ursprung
 - Layers och Linetypes
 
-**Exporteras inte till DXF:** hatchmönster, mått, leaders och text. Mått och leaders använder KulmanLab-specifika datastrukturer som inte kan representeras troget i standard-DXF; hatchmönster exporteras inte alls till DXF ännu, även om de importeras därifrån; textexport är inte heller implementerat ännu. Om din ritning har något av detta, använd JSON eller [Print Manager](../print-manager/) för att fånga dem.
+Filen skrivs som AC1032-DXF, så en ritning som exporterats från KulmanLab öppnas med sina anteckningar i behåll i andra DXF-kunniga verktyg i stället för att komma fram som ren geometri.
+
+Vad varje mottagande program sedan gör med den varierar fortfarande — DXF-stödet skiljer sig mellan verktyg, och ett äldre kan förbise objekt som ett nyare läser. Måste en ritning se likadan ut överallt fångar [Print Manager](../print-manager/) den i stället som PDF eller bild.
 
 ## Namn på exporterad fil
 
@@ -63,7 +69,7 @@ Den nedladdade filen namnges efter den aktuella ritningsfilen (t.ex. `myplan.jso
 | Utdata | Vektorkällfil (.dxf / .json) | Rasterbild (.png / .jpeg / .webp / .pdf) |
 | Redigerbar i andra verktyg | Ja (DXF) | Nej |
 | Bevarar layers & linetypes | Ja | Nej (renderas platt) |
-| Fångar mått & leaders | Endast JSON | Ja |
+| Fångar mått & leaders | Ja | Ja |
 
 Använd **Export Manager** när du behöver en redigerbar fil. Använd [Print Manager](../print-manager/) när du behöver en visuell ögonblicksbild.
 

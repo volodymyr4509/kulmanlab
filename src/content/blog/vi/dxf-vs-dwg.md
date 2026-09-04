@@ -75,7 +75,7 @@ Khi hỏi xin, nên nêu rõ phiên bản. **DXF R12 là an toàn nhất** — r
 
 Nếu bạn có `.dwg`, công cụ này sẽ không mở được. Nếu là `.dxf`, bạn mở ngay trong một tab trình duyệt mà chẳng phải cài gì: [app.kulmanlab.com](https://app.kulmanlab.com).
 
-Thứ nó ghi ra là hình học kèm chữ — đường thẳng, đường tròn, cung, elip, đa tuyến, spline và chữ, cùng với lớp và kiểu đường. Mặt cắt gạch, kích thước và đường dẫn chú thích hiện chưa đi vào tệp DXF xuất ra.
+Thứ nó ghi ra là toàn bộ bản vẽ — đường thẳng, đường tròn, cung, elip, đa tuyến, spline, chữ kèm định dạng, kích thước, đường dẫn chú thích và mặt cắt gạch, cùng với lớp và kiểu đường. Tệp mở ở đây rồi xuất lại sẽ ra đi cùng phần chú giải của nó, chứ không bị lược về hình học trơ trọi.
 
 ---
 

@@ -22,7 +22,7 @@ Unapohitaji tu kitu kinachosomeka ili kutuma:
 
 Ndiyo hivyo. Onyesho la awali huchorwa kupitia njia ileile ya msimbo na kwa ubora uleule wa faili inayohamishwa, hivyo unachokiona ndicho utakachopata, si makadirio yake.
 
-Jambo moja linafaa kujulikana: tofauti na uhamishaji wa DXF, **PDF huhifadhi kila kitu kilichoko skrini** — vipimo, maandishi, uwekaji mistari, mistari ya uelekezi. Kama mchoro wako una maelezo, PDF ndiyo muundo unaobeba maelezo hayo.
+Jambo moja linafaa kujulikana: **PDF huhifadhi kila kitu kilichoko skrini** — vipimo, maandishi, uwekaji mistari, mistari ya uelekezi — vikiwa vimepangwa hasa kama vilivyochorwa. Uhamishaji wa DXF nao hubeba yote hayo, kwa hiyo chaguo kati yao si juu ya kinachosalia. Ni juu ya anachohitaji anayepokea: PDF kama atasoma au kuchapisha tu, DXF kama atahariri.
 
 ## Njia sahihi: kubadilisha kwa kipimo kamili
 

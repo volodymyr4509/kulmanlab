@@ -22,7 +22,7 @@ Cuando solo necesitas algo legible para enviar por correo:
 
 Ya está. La vista previa se renderiza por el mismo camino de código y a la misma resolución que el archivo exportado, así que lo que ves es lo que obtienes, no una aproximación.
 
-Un detalle que conviene saber: a diferencia de la exportación a DXF, **el PDF conserva todo lo que hay en pantalla**: cotas, texto, sombreados, directrices. Si tu plano está anotado, el PDF es el formato que se lleva la anotación.
+Un detalle que conviene saber: **el PDF conserva todo lo que hay en pantalla** —cotas, texto, sombreados, directrices— dispuesto exactamente como lo dibujaste. La exportación a DXF también lo lleva todo, así que la elección entre ambos no va de qué sobrevive. Va de qué necesita quien lo recibe: PDF si solo tiene que leerlo o imprimirlo, DXF si tiene que editarlo.
 
 ## La vía correcta: convertir a una escala exacta
 

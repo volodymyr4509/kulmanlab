@@ -33,13 +33,14 @@ Dari sana Anda bisa menggeser dan memperbesar tampilan, menyalakan dan mematikan
 
 **Yang dibaca dari sebuah DXF:** garis, lingkaran, busur, elips, polyline, spline, teks, dimensi, multileader, dan arsiran, ditambah tabel layer dan tipe garis dari file tersebut.
 
+**Yang ditulis balik:** daftar yang sama. Sunting gambar lalu ekspor, dan geometri, teks beserta formatnya, dimensi, leader, serta arsiran semuanya kembali masuk ke DXF, lengkap dengan tabel layer dan tipe garis — jadi berkasnya menempuh perjalanan pulang pergi tanpa kehilangan anotasinya.
+
 **Di mana kekurangannya — baca ini sebelum mengandalkannya:**
 
 - **Hanya 2D.** DXF yang berisi solid atau mesh 3D adalah file yang keliru untuk alat ini.
 - **Tanpa blok.** Referensi blok (`INSERT`) tidak diurai, sehingga gambar yang disusun dari simbol blok berulang akan masuk tidak lengkap.
 - **DXF, bukan DWG.** Lihat bagian DWG di bawah.
 - **Hanya browser desktop** — Chrome, Firefox, Safari, dan Edge. Tidak ada versi seluler.
-- **Ekspor DXF hanya memuat geometri.** Jika Anda menyunting lalu mengekspor kembali ke DXF, arsiran, dimensi, leader, dan teks akan tertinggal. Ekspor ke format JSON bawaan bila semuanya harus tersimpan, atau ke PDF bila Anda hanya ingin membagikannya.
 
 Jika salah satu poin itu menentukan bagi Anda, salah satu alat desktop di bawah akan lebih cocok.
 

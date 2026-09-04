@@ -33,13 +33,14 @@ Kuanzia hapo unaweza kusogeza na kukuza, kuwasha na kuzima tabaka, kupima umbali
 
 **Kinachosomwa kutoka kwenye DXF:** mistari, miduara, tao, duaradufu, mistari mingi, splines, maandishi, vipimo, mistari ya uelekezi yenye vichwa vingi, na uwekaji mistari wa kujaza; pamoja na jedwali za tabaka na aina za mstari za faili hiyo.
 
+**Inachoandika kurudi:** orodha ile ile. Hariri mchoro kisha uhamishe, na jiometri, maandishi pamoja na mpangilio wake, vipimo, mistari ya uelekezi na uwekaji mistari wa kujaza vyote hurudi ndani ya DXF, pamoja na majedwali ya tabaka na aina za mstari yakiwa salama — hivyo faili hukamilisha safari ya kwenda na kurudi bila kupoteza maelezo yake.
+
 **Mapungufu yake — soma haya kabla ya kuitegemea:**
 
 - **2D pekee.** DXF yenye vitu vigumu vya 3D au nyavu ni faili isiyofaa kwa zana hii.
 - **Hakuna vitalu.** Marejeo ya vitalu (`INSERT`) hayachambuliwi, kwa hiyo mchoro uliojengwa kwa alama za vitalu zinazorudiwa utaingia ukiwa haujakamilika.
 - **DXF, si DWG.** Angalia sehemu ya DWG hapa chini.
 - **Vivinjari vya kompyuta pekee** — Chrome, Firefox, Safari na Edge. Hakuna toleo la simu.
-- **Uhamishaji wa DXF hubeba jiometri pekee.** Ukihariri kisha ukahamisha tena kwenda DXF, uwekaji mistari wa kujaza, vipimo, mistari ya uelekezi na maandishi huachwa nje. Hamisha kwenda muundo asilia wa JSON kama kila kitu kinapaswa kubaki, au kwenda PDF kama unataka tu kushiriki.
 
 Kama lolote kati ya hayo ni kizuizi cha maamuzi kwako, mojawapo ya zana za kompyuta hapa chini itakuhudumia vizuri zaidi.
 

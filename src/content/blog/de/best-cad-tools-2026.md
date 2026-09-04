@@ -113,13 +113,13 @@ Unser eigenes Werkzeug — lesen Sie diesen Abschnitt mit diesem Wissen. KulmanL
 - Der vollständige 2D-Werkzeugkasten: Linien, Polylinien mit Bogensegmenten, Kreise, Bögen, Ellipsen, Splines, Schraffuren mit einer `.pat`-Musterbibliothek und die komplette Bemaßung (linear, ausgerichtet, Radius, Durchmesser, Winkel, fortlaufend).
 - Layer mit Einfrieren, Sperren, Isolieren, Farbe, Linientyp und Linienstärke; Objektfang; Griffbearbeitung mit getippter exakter Verschiebung.
 - Papierbereich-Layouts mit Ansichtsfenstern und Seiteneinrichtung, dann Druck oder Export nach PDF/PNG — einschließlich der Druckstile Monochrom und Blaupause.
+- Ein vollständiger DXF-Rundweg: Text, Bemaßungen, Leader und Schraffuren überstehen den Export allesamt, nicht nur die nackte Geometrie — eine beschriftete Zeichnung kann also an den zurückgehen, der sie geschickt hat.
 - Dateien verlassen Ihren Rechner nie, was zählt, wenn Ihre Zeichnungen unter NDA stehen. Nach dem ersten Laden funktioniert es offline.
 
 **Schwächen:**
 
 - **Nur 2D.** Keine 3D-Modellierung, und es ist auch keine geplant.
 - **DXF, nicht DWG.** Wenn Ihre Projektpartner DWG schicken, brauchen Sie zuerst etwas anderes zum Umwandeln.
-- **Der DXF-Export ist unvollständig.** Geometrie, Layer und Eigenschaften gehen sauber hin und zurück, aber Schraffuren, Bemaßungen, Führungslinien und Text werden noch nicht in den DXF-Export geschrieben — das native JSON-Format bewahrt sie, und JSON öffnet sich nur in KulmanLab.
 - **Nur Desktop-Browser,** und die Zeichnungen liegen im lokalen Speicher dieses Browsers — wenn Sie Ihre Browserdaten löschen, sind sie weg; exportieren Sie also alles, was Sie behalten wollen.
 
 **Am besten geeignet für:** Eine DXF schnell öffnen, kommentieren und exportieren; kleine 2D-Konstruktionsaufgaben; CNC-, Laserschneid- und Fertigungsarbeiten; Konstruieren auf einem gesperrten Rechner, auf dem Sie nichts installieren dürfen. Kein Ersatz für eine Produktions-Konstruktionssuite in einem großen koordinierten Projekt.

@@ -22,7 +22,7 @@ Idan kawai kana buƙatar wani abu da za a iya karantawa domin aikawa:
 
 Kenan. Ana nuna samfurin ta hanyar lambar shirye-shirye guda ɗaya kuma a wannan matakin ƙuduri da fayil ɗin da za a fitar, don haka abin da ka gani shi ne abin da za ka samu, ba kimantawarsa ba.
 
-Akwai abu ɗaya da ya cancanci sani: sabanin fitarwa zuwa DXF, **PDF yana riƙe da duk abin da ke kan allo** — ma'auni, rubutu, lallausan zane, layukan nuni. Idan zanenka yana da bayanai, PDF shi ne tsarin da ke ɗauke da su tare.
+Akwai abu ɗaya da ya cancanci sani: **PDF yana riƙe da duk abin da ke kan allo** — ma'auni, rubutu, lallausan zane, layukan nuni — daidai yadda aka shirya su. Fitarwa zuwa DXF ma tana ɗaukar duk waɗannan, don haka zaɓi tsakanin su ba game da abin da ke rayuwa ba ne. Game da abin da mai karɓa yake bukata ne: PDF idan zai karanta ko buga shi kawai, DXF idan zai gyara shi.
 
 ## Hanya madaidaiciya: juyawa a ma'auni takamaimai
 

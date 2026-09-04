@@ -113,13 +113,13 @@ Ini alat kami sendiri, jadi bacalah bahagian ini dengan mengingati hal itu. Kulm
 - Kotak alat 2D yang lengkap: garisan, poligaris dengan segmen lengkok, bulatan, lengkok, elips, splin, arsiran dengan pustaka corak `.pat`, dan set pendimensian penuh (linear, sejajar, jejari, diameter, sudut, berterusan).
 - Lapisan dengan bekukan, kunci, asingkan, warna, jenis garisan dan ketebalan garisan; snap objek; suntingan cengkam dengan sesaran tepat yang ditaip.
 - Susun atur ruang kertas dengan viewport dan tetapan halaman, kemudian cetak atau eksport ke PDF/PNG — termasuk gaya cetakan monokrom dan cetak biru.
+- Perjalanan pergi balik DXF yang lengkap: teks, dimensi, penunjuk dan lorekan semuanya kekal melepasi eksport, bukan sekadar geometri kosong, jadi lukisan beranotasi boleh dihantar semula kepada penghantarnya.
 - Fail tidak pernah meninggalkan mesin anda, yang penting jika lukisan anda tertakluk kepada perjanjian kerahsiaan. Selepas muatan pertama ia berfungsi luar talian.
 
 **Kelemahan:**
 
 - **2D sahaja.** Tiada pemodelan 3D, dan tiada yang dirancang.
 - **DXF, bukan DWG.** Jika rakan kerja anda menghantar DWG, anda memerlukan sesuatu yang lain untuk menukarnya dahulu.
-- **Eksport DXF belum lengkap.** Geometri, lapisan dan sifat berulang-alik dengan bersih, tetapi arsiran, dimensi, garis penunjuk dan teks belum ditulis ke DXF yang dieksport — format JSON asli menyimpannya, dan JSON hanya boleh dibuka dalam KulmanLab.
 - **Pelayar desktop sahaja,** dan lukisan berada dalam storan setempat pelayar itu — membersihkan data pelayar akan memadamkannya, jadi eksport apa sahaja yang ingin anda simpan.
 
 **Paling sesuai untuk:** Membuka, menanda dan mengeksport DXF dengan pantas; kerja lukisan 2D berskala kecil; kerja CNC, pemotongan laser dan fabrikasi; melukis pada mesin terkunci yang tidak membenarkan pemasangan perisian. Bukan pengganti suite lukisan pengeluaran dalam projek besar yang diselaraskan.

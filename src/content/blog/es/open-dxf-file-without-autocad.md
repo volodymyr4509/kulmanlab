@@ -33,13 +33,14 @@ A partir de ahí puedes desplazarte y hacer zoom, activar y desactivar capas, me
 
 **Qué lee de un DXF:** líneas, círculos, arcos, elipses, polilíneas, splines, texto, cotas, directrices múltiples y sombreados, además de las tablas de capas y tipos de línea del archivo.
 
+**Lo que escribe de vuelta:** la misma lista. Edita un plano y expórtalo, y la geometría, el texto con su formato, las cotas, las directrices y los sombreados vuelven todos al DXF, con las tablas de capas y tipos de línea intactas: el archivo hace el viaje de ida y vuelta sin perder su anotación.
+
 **Dónde se queda corto — léelo antes de confiar en ello:**
 
 - **Solo 2D.** Un DXF con sólidos o mallas 3D es el archivo equivocado para esta herramienta.
 - **Sin bloques.** Las referencias a bloques (`INSERT`) no se procesan, así que un dibujo construido con símbolos de bloque repetidos llegará incompleto.
 - **DXF, no DWG.** Consulta la sección sobre DWG más abajo.
 - **Solo navegadores de escritorio** — Chrome, Firefox, Safari y Edge. No hay versión móvil.
-- **La exportación a DXF es solo geometría.** Si editas y vuelves a exportar a DXF, se quedan fuera los sombreados, las cotas, las directrices y el texto. Exporta al formato JSON nativo si necesitas conservarlo todo, o a PDF si solo quieres compartirlo.
 
 Si alguno de esos puntos es determinante para ti, una de las herramientas de escritorio de abajo te servirá mejor.
 

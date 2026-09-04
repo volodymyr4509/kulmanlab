@@ -75,7 +75,7 @@ Ang [KulmanLab](https://kulmanlab.com/tl/) ay nagbabasa ng **DXF, hindi DWG**, a
 
 Kung `.dwg` ang hawak mo, hindi ito bubuksan nito. Kung `.dxf`, mabubuksan mo sa isang tab ng browser nang walang ini-install: [app.kulmanlab.com](https://app.kulmanlab.com).
 
-Ang isinusulat nitong pabalik ay heometriya kasama ang teksto — mga linya, bilog, arko, elipse, polyline, spline at teksto, kasama ang mga layer at uri ng linya. Ang hatch, sukat, at leader ay sa ngayon ay hindi pumapasok sa na-export na DXF.
+Ang isinusulat nitong pabalik ay ang buong guhit — mga linya, bilog, arko, elipse, polyline, spline, teksto kasama ang pormat nito, sukat, leader at hatch, kasama ang mga layer at uri ng linya. Ang file na binuksan dito at muling ini-export ay lumalabas na dala ang mga anotasyon nito, hindi hinubaran pabalik sa purong heometriya.
 
 ---
 

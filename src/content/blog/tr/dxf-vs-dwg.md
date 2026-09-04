@@ -75,7 +75,7 @@ Sormak seçenek değilse dönüştürücüler var. Tartılacak iki şey: sadakat
 
 Elinizde `.dwg` varsa bu onu açmaz. `.dxf` varsa, hiçbir şey kurmadan bir tarayıcı sekmesinde açabilirsiniz: [app.kulmanlab.com](https://app.kulmanlab.com).
 
-Geri yazdığı şey geometri ve metindir — çizgiler, daireler, yaylar, elipsler, çoklu çizgiler, spline'lar ve metin; ayrıca katmanlar ve çizgi tipleri. Taramalar, ölçüler ve kılavuz çizgileri şu an dışa aktarılan DXF'e girmiyor.
+Geri yazdığı şey çizimin tamamıdır — çizgiler, daireler, yaylar, elipsler, çoklu çizgiler, spline'lar, biçimlendirmesiyle birlikte metin, ölçüler, kılavuz çizgileri ve taramalar; ayrıca katmanlar ve çizgi tipleri. Burada açılıp yeniden dışa aktarılan bir dosya, açıklamalarıyla birlikte çıkar; salt geometriye indirgenmez.
 
 ---
 

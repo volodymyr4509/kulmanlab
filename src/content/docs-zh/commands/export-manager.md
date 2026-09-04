@@ -1,6 +1,6 @@
 ---
 title: Export Manager — 将图形下载为 DXF 或 JSON
-description: Export Manager 将当前图形下载为 DXF 或 JSON（原生）文件。每种格式并排精确列出它携带哪些图元类型，让你在下载前就能看到 DXF 遗漏了什么——目前是 hatch、标注、引线和文字。
+description: 将当前图纸下载为 DXF 或 JSON。两种格式都承载所有实体类型——几何、文字、标注、引线和填充——连同图层和线型。
 keywords: [CAD DXF 导出, CAD 文件导出, 浏览器下载 DXF, 在线保存 DXF, JSON CAD 导出, KulmanLab 导出, 下载 CAD 文件, DXF 导出, 将图形保存为文件, DXF 下载]
 group: file
 order: 6
@@ -13,7 +13,7 @@ order: 6
 ## 如何导出
 
 1. 点击文件面板中工具栏的 **Export** 按钮（下载图标），或在命令行中输入 `exportmanager`。
-2. **Export Manager** 弹窗打开，并排显示 JSON 和 DXF 卡片，每张卡片列出导出内容（对于 DXF，还列出遗漏内容）。
+2. **Export Manager** 弹窗打开，并排显示 JSON 和 DXF 卡片，每张卡片列出导出内容。
 3. 点击一张卡片选择格式——**JSON** 或 **DXF**。
 4. 点击 **Export \<FORMAT\>** 按钮。文件会自动下载到你的默认下载文件夹。
 
@@ -24,7 +24,7 @@ order: 6
 | 格式 | 扩展名 | 最适合 | 限制 |
 |------|--------|--------|------|
 | **JSON**（原生） | `.json` | 保存工作以便在 KulmanLab CAD 中重新打开 | 与其他 CAD 工具不兼容 |
-| **DXF** | `.dxf` | 与 FreeCAD、LibreCAD 等共享 | Hatch、标注、引线和文字不会被导出 |
+| **DXF** | `.dxf` | 与 FreeCAD、LibreCAD 等共享 | 能保留多少取决于接收端的软件 |
 
 **何时使用 JSON：** 只要你想保存一份完整的工作副本。JSON 是 KulmanLab 的原生格式，能精确保留每一个图元——包括标注、引线、hatch 以及所有图层数据。
 
@@ -45,12 +45,18 @@ order: 6
 
 ### DXF 导出
 
-仅包含几何图元：
+包含每种图元类型：
 
 - Lines、Circles、Arcs、Ellipses、Polylines（导出为 `LWPOLYLINE`）、Splines
+- Text
+- 标注（线性、对齐、连续、半径、直径）
+- Leaders（多重引线）
+- Hatches，包括其图案、比例、角度和原点
 - Layers 和 Linetypes
 
-**不导出到 DXF：** hatch、标注、引线和文字。标注和引线使用 KulmanLab 特有的数据结构，无法在标准 DXF 中忠实表示；hatch 目前完全不导出到 DXF，尽管可以从 DXF 导入；文字导出也尚未实现。如果你的图形包含这些内容中的任何一种，请使用 JSON 或[打印管理器](../print-manager/)来保留它们。
+文件按 AC1032 版 DXF 写出，因此从 KulmanLab 导出的图纸在其他支持 DXF 的工具中打开时注释仍在，而不是只剩光秃秃的几何。
+
+至于每个接收端软件拿到之后怎么处理，仍然各不相同——各家对 DXF 的支持程度有别，较旧的版本可能忽略较新版本能读的实体。如果图纸必须在任何地方看起来完全一致，改用 [打印管理器](../print-manager/) 把它存成 PDF 或图片。
 
 ## 导出的文件名
 
@@ -63,7 +69,7 @@ order: 6
 | 输出 | 矢量源文件（.dxf / .json） | 位图图像（.png / .jpeg / .webp / .pdf） |
 | 可在其他工具中编辑 | 是（DXF） | 否 |
 | 保留 layers 和 linetypes | 是 | 否（渲染为平面） |
-| 捕获标注和引线 | 仅 JSON | 是 |
+| 捕获标注和引线 | 是 | 是 |
 
 需要可编辑文件时使用 **Export Manager**。需要可视化快照时使用[打印管理器](../print-manager/)。
 

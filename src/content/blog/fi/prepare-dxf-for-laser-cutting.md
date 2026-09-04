@@ -53,12 +53,12 @@ Kaksi tapaa käsitellä tämä:
 
 Jos toleranssilla on merkitystä, leikkaa koekappale ennen kuin sidot materiaalia.
 
-## Mikä ei selviä DXF-viennistä
+## Mitä DXF-viennistä kannattaa tarkistaa
 
 Hyvä tietää ennen kuin luotat siihen:
 
-- **Tekstiä ei viedä DXF:ään.** Jos suunnittelit kaiverrettua tekstiä, sitä ei ole tiedostossa. Muunna teksti ääriviivoiksi toisessa ohjelmassa tai käytä palvelua, joka hyväksyy SVG:n kaiverrustasolle.
-- **Rasterointeja ja mittoja ei myöskään viedä.** Leikkaustiedostolle se on juuri toivottavaa — mutta älä oleta, että rasteroidusta alueesta tulee kaiverrettu täyttö, sillä sitä ei ole tiedostossa lainkaan.
+- **Merkinnät viedään nyt mukana — siivoa ne itse.** Teksti, mitat, osoitusviivat ja rasteroinnit menevät kaikki vietyyn DXF-tiedostoon. Tavallisessa luovutuksessa juuri tätä haluat, mutta leikkaustiedostossa se tarkoittaa, että kaikki piirustukseen jättämäsi on todella tiedostossa. Vienti ei enää poista sitä puolestasi huomaamatta, joten poista se itse tai pidä se tasoilla, jotka poistat ennen vientiä.
+- **Teksti tulee ulos `MTEXT`-muodossa, eikä se ole sama asia kuin kaiverrettava geometria.** Kirjaimet viedään muotoiluineen, mutta moni konesovellus haluaa kaiverrustasolle ääriviivat elävän tekstin sijaan. Tarkista, mitä omasi hyväksyy, ennen kuin suunnittelet kaiverrusta sen varaan.
 - **Lohkoviittauksia ei tuoda.** Toistuvista lohkosymboleista rakennettu piirustus tulee sisään vaillinaisena, joten tarkista osamäärä alkuperäistä vasten.
 
 Splinit sen sijaan *viedään*. Jotkin koneohjelmistot käsittelevät niitä huonosti ja suosivat murtoviivoja — jos omasi on sellainen, piirrä käyrät uudelleen murtoviivoina tai kaarina.

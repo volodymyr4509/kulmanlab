@@ -22,7 +22,7 @@ Khi bạn chỉ cần một thứ đọc được để gửi đi:
 
 Vậy thôi. Khung xem trước được vẽ qua đúng cùng một đường mã và cùng độ phân giải với file xuất ra, nên thứ bạn nhìn thấy chính là thứ bạn nhận được, chứ không phải một phiên bản gần đúng.
 
-Có một điều đáng biết: khác với việc xuất DXF, **file PDF giữ lại mọi thứ đang hiển thị trên màn hình** — kích thước, chữ, mặt cắt gạch, đường dẫn chú thích. Nếu bản vẽ của bạn có ghi chú, PDF chính là định dạng mang theo được phần ghi chú ấy.
+Có một điều đáng biết: **file PDF giữ lại mọi thứ đang hiển thị trên màn hình** — kích thước, chữ, mặt cắt gạch, đường dẫn chú thích — bố trí đúng như đã vẽ. Việc xuất DXF cũng mang theo tất cả những thứ đó, nên lựa chọn giữa hai bên không nằm ở chỗ cái gì còn lại. Nó nằm ở chỗ người nhận cần gì: PDF nếu họ chỉ phải đọc hoặc in, DXF nếu họ phải chỉnh sửa.
 
 ## Cách đúng: chuyển đổi theo tỷ lệ chính xác
 

@@ -1,6 +1,6 @@
 ---
 title: Export Manager — Çizimleri DXF veya JSON Olarak İndirin
-description: Export Manager, geçerli çizimi DXF veya JSON (yerel) dosya olarak indirir. Her format, hangi varlık türlerini taşıdığını yan yana tam olarak listeler, böylece indirmeden önce DXF'nin neyi dışarıda bıraktığını görürsünüz — şu anda hatch'ler, ölçüler, yön çizgileri ve metin.
+description: Çizimi DXF veya JSON olarak indirin. İkisi de her varlığı — geometri, metin, ölçüler, kılavuz çizgileri, taramalar — katman ve çizgi tipleriyle taşır.
 keywords: [DXF dışa aktar, CAD dosyası dışa aktar, tarayıcıda DXF indir, DXF online kaydet, JSON CAD dışa aktar, KulmanLab dışa aktarma, CAD dosyası indir, DXF dışa aktarma, çizimi dosyaya kaydet, DXF indirme]
 group: file
 order: 6
@@ -13,7 +13,7 @@ order: 6
 ## Nasıl dışa aktarılır
 
 1. Dosya panelinde araç çubuğundaki **Export** düğmesine (indirme simgesi) tıklayın veya terminale `exportmanager` yazın.
-2. **Export Manager** açılır penceresi, JSON ve DXF kartlarını yan yana göstererek açılır; her biri neyin dışa aktarıldığını (ve DXF için neyin dışarıda bırakıldığını) listeler.
+2. **Export Manager** açılır penceresi, JSON ve DXF kartlarını yan yana göstererek açılır; her biri neyin dışa aktarıldığını listeler.
 3. Formatı seçmek için bir karta tıklayın — **JSON** veya **DXF**.
 4. **Export \<FORMAT\>** düğmesine tıklayın. Dosya otomatik olarak varsayılan indirilenler klasörünüze indirilir.
 
@@ -24,7 +24,7 @@ Dışa aktarmadan açılır pencereyi kapatmak için `Escape` tuşuna basın.
 | Format | Uzantı | En iyi kullanım | Sınırlamalar |
 |--------|--------|------------------|---------------|
 | **JSON** *(yerel)* | `.json` | KulmanLab CAD'de yeniden açmak için çalışmayı kaydetme | Diğer CAD araçlarıyla uyumlu değil |
-| **DXF** | `.dxf` | FreeCAD, LibreCAD vb. ile paylaşma | Hatch'ler, ölçüler, yön çizgileri ve metin dışa aktarılmaz |
+| **DXF** | `.dxf` | FreeCAD, LibreCAD vb. ile paylaşma | Ne kadarının korunacağı, açan uygulamaya bağlıdır |
 
 **JSON ne zaman kullanılır:** çalışmanızın tam bir kopyasını kaydetmek istediğinizde her zaman. JSON, KulmanLab'ın yerel formatıdır ve ölçüler, yön çizgileri, hatch'ler ve tüm katman verileri dahil her varlığı tam olarak korur.
 
@@ -45,12 +45,18 @@ Her varlık türü dahildir:
 
 ### DXF dışa aktarma
 
-Yalnızca geometri varlıkları dahildir:
+Her varlık türü dahildir:
 
 - Lines, Circles, Arcs, Ellipses, Polylines (`LWPOLYLINE` olarak dışa aktarılır), Splines
+- Text
+- Ölçüler (linear, aligned, continued, radius, diameter)
+- Leaders (multileader'lar)
+- Hatches, deseni, ölçeği, açısı ve başlangıç noktasıyla birlikte
 - Layers ve Linetypes
 
-**DXF'ye dışa aktarılmaz:** hatch'ler, ölçüler, leader'lar ve metin. Ölçüler ve leader'lar, standart DXF'de sadakatle temsil edilemeyen KulmanLab'a özgü veri yapıları kullanır; hatch'ler DXF'den içe aktarılabilse de henüz DXF'ye hiç dışa aktarılmaz; metin dışa aktarma da henüz uygulanmamıştır. Çiziminizde bunlardan herhangi biri varsa, onları yakalamak için JSON veya [Print Manager](../print-manager/) kullanın.
+Dosya AC1032 DXF olarak yazılır; böylece KulmanLab'dan dışa aktarılan bir çizim, çıplak geometri olarak varmak yerine DXF okuyabilen diğer araçlarda açıklamaları yerinde açılır.
+
+Alıcı uygulamanın bununla ne yapacağı yine de değişir — DXF desteği araçtan araca farklıdır ve eski bir sürüm, yeni bir sürümün okuduğu varlıkları yok sayabilir. Bir çizimin her yerde birebir aynı görünmesi gerekiyorsa, [Print Manager](../print-manager/) onu bunun yerine PDF veya görüntü olarak yakalar.
 
 ## Dışa aktarılan dosyanın adı
 
@@ -63,7 +69,7 @@ Yalnızca geometri varlıkları dahildir:
 | Çıktı | Vektör kaynak dosyası (.dxf / .json) | Raster görüntü (.png / .jpeg / .webp / .pdf) |
 | Diğer araçlarda düzenlenebilir | Evet (DXF) | Hayır |
 | Layer'ları ve linetype'ları korur | Evet | Hayır (düz olarak render edilir) |
-| Ölçüleri ve leader'ları yakalar | Yalnızca JSON | Evet |
+| Ölçüleri ve leader'ları yakalar | Evet | Evet |
 
 Düzenlenebilir bir dosyaya ihtiyacınız olduğunda **Export Manager**'ı kullanın. Görsel bir anlık görüntüye ihtiyacınız olduğunda [Print Manager](../print-manager/)'ı kullanın.
 

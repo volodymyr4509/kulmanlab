@@ -75,7 +75,7 @@ Quand vous en réclamez un, précisez une version. **Le DXF R12 est le plus sûr
 
 Si vous avez un `.dwg`, cet outil ne l'ouvrira pas. Si vous avez un `.dxf`, vous pouvez l'ouvrir dans un onglet de navigateur sans rien installer : [app.kulmanlab.com](https://app.kulmanlab.com).
 
-Ce qu'il réécrit, c'est de la géométrie plus du texte — lignes, cercles, arcs, ellipses, polylignes, splines et texte, avec les calques et les types de ligne. Les hachures, cotations et lignes de repère n'arrivent pour l'instant pas dans le DXF exporté.
+Ce qu'il réécrit, c'est le dessin entier — lignes, cercles, arcs, ellipses, polylignes, splines, texte avec sa mise en forme, cotations, lignes de repère et hachures, avec les calques et les types de ligne. Un fichier ouvert ici puis réexporté repart avec ses annotations, sans être ramené à de la géométrie nue.
 
 ---
 

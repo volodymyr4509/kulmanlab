@@ -75,7 +75,7 @@ Sa'ad da kake nema, yana da kyau ka faɗi nau'i. **DXF R12 ya fi aminci** — ts
 
 Idan kana da `.dwg`, wannan ba zai buɗe shi ba. Idan kana da `.dxf`, za ka buɗe shi a shafin burauza ba tare da sanya komai ba: [app.kulmanlab.com](https://app.kulmanlab.com).
 
-Abin da yake sake rubutawa siffofi ne tare da rubutu — layuka, da'ira, bakuna, ellipses, layuka masu yawa, splines da rubutu, tare da sassa da nau'ikan layi. Lallausan zane, ma'auni da layukan nuni a halin yanzu ba sa shiga cikin DXF ɗin da ake fitarwa.
+Abin da yake sake rubutawa shi ne zanen gaba ɗaya — layuka, da'ira, bakuna, ellipses, layuka masu yawa, splines, rubutu tare da tsarinsa, ma'auni, layukan nuni da lallausan zane, tare da sassa da nau'ikan layi. Fayil da aka buɗe a nan aka sake fitarwa yana fita da bayanan bayaninsa, ba a tsige shi zuwa siffofi kawai ba.
 
 ---
 

@@ -22,7 +22,7 @@ Als je alleen iets leesbaars nodig hebt om te versturen:
 
 Dat is alles. De voorbeeldweergave wordt via hetzelfde codepad en op dezelfde resolutie gerenderd als het geëxporteerde bestand, dus wat je ziet is wat je krijgt en geen benadering.
 
-Eén ding is het waard te weten: anders dan bij DXF-export **behoudt de PDF alles wat op het scherm staat** — maatvoering, tekst, arceringen, leaders. Is je tekening voorzien van annotatie, dan is PDF het formaat dat die annotatie meeneemt.
+Eén ding is het waard te weten: **de PDF behoudt alles wat op het scherm staat** — maatvoering, tekst, arceringen, leaders — precies zo opgemaakt als getekend. De DXF-export neemt dat allemaal ook mee, dus de keuze ertussen gaat niet over wat overleeft. Ze gaat over wat de ontvanger nodig heeft: PDF als die het alleen hoeft te lezen of printen, DXF als die het moet bewerken.
 
 ## De juiste route: omzetten op een exacte schaal
 

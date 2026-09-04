@@ -113,13 +113,13 @@ Our own tool, so read this section with that in mind. KulmanLab is a free 2D CAD
 - The full 2D toolkit: lines, polylines with arc segments, circles, arcs, ellipses, splines, hatches with a `.pat` pattern library, and the complete dimension suite (linear, aligned, radius, diameter, angular, continue).
 - Layers with freeze, lock, isolate, colour, linetype, and lineweight; object snapping; grip editing with typed exact displacement.
 - Paper-space layouts with viewports and page setup, then print or export to PDF/PNG — including monochrome and blueprint print styles.
+- A complete DXF round trip: text, dimensions, leaders and hatches all survive export, not just the bare geometry, so an annotated drawing can go back out to whoever sent it.
 - Files never leave your machine, which matters if your drawings are under NDA. After the first load it works offline.
 
 **Weaknesses:**
 
 - **2D only.** No 3D modelling, and none is planned.
 - **DXF, not DWG.** If your collaborators send DWG, you'll need something else to convert it first.
-- **DXF export is incomplete.** Geometry, layers, and properties round-trip cleanly, but hatches, dimensions, leaders, and text are not written to exported DXF yet — the native JSON format preserves those, and JSON only opens in KulmanLab.
 - **Desktop browsers only,** and drawings live in that browser's local storage — clearing your browser data deletes them, so export anything you want to keep.
 
 **Best for:** Opening, marking up, and exporting a DXF quickly; small 2D drafting jobs; CNC, laser-cutting and fabrication work; drafting on a locked-down machine where you can't install software. Not a replacement for a production drafting suite on a large coordinated project.

@@ -22,7 +22,7 @@ Apabila anda cuma perlukan sesuatu yang boleh dibaca untuk dihantar:
 
 Itu sahaja. Pratonton dipaparkan melalui laluan kod dan resolusi yang sama persis dengan fail yang dieksport, jadi apa yang anda lihat itulah yang anda dapat, bukan anggarannya.
 
-Satu perkara berbaloi diketahui: tidak seperti eksport DXF, **PDF mengekalkan segala yang ada pada skrin** — dimensi, teks, lorekan, penunjuk. Jika lukisan anda beranotasi, PDF ialah format yang membawa anotasi itu bersamanya.
+Satu perkara berbaloi diketahui: **PDF mengekalkan segala yang ada pada skrin** — dimensi, teks, lorekan, penunjuk — tersusun betul-betul seperti dilukis. Eksport DXF turut membawa kesemuanya, jadi pilihan antara keduanya bukan tentang apa yang kekal. Ia tentang apa yang diperlukan penerima: PDF jika dia hanya perlu membaca atau mencetaknya, DXF jika dia perlu menyuntingnya.
 
 ## Jalan yang betul: menukar pada skala tepat
 

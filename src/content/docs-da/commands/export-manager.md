@@ -1,6 +1,6 @@
 ---
 title: Export Manager — Download tegninger som DXF eller JSON
-description: Export Manager downloader den aktuelle tegning som en DXF- eller JSON-fil (indbygget). Hvert format viser præcis hvilke entitetstyper det indeholder, side om side, så du kan se før download, hvad DXF udelader — i øjeblikket hatches, mål, ledelinjer og tekst.
+description: Hent den aktuelle tegning som DXF eller JSON. Begge bærer alle elementtyper — geometri, tekst, mål, henvisninger og skraveringer — sammen med lag og linjetyper.
 keywords: [eksportér DXF, eksportér CAD-fil, download DXF i browser, gem DXF online, eksportér JSON CAD, KulmanLab eksport, download CAD-fil, DXF-eksport, gem tegning som fil, DXF-download]
 group: file
 order: 6
@@ -13,7 +13,7 @@ Kommandoen `exportmanager` downloader den aktuelle tegning til dit filsystem. To
 ## Sådan eksporterer du
 
 1. Klik på værktøjslinjeknappen **Export** (downloadikon) i filpanelet, eller skriv `exportmanager` i terminalen.
-2. Popup'en **Export Manager** åbnes og viser JSON- og DXF-kortene side om side, hver med en liste over hvad der eksporteres (og for DXF, hvad der udelades).
+2. Popup'en **Export Manager** åbnes og viser JSON- og DXF-kortene side om side, hver med en liste over hvad der eksporteres.
 3. Klik på et kort for at vælge format — **JSON** eller **DXF**.
 4. Klik på knappen **Export \<FORMAT\>**. Filen downloades automatisk til din standardmappe for downloads.
 
@@ -24,7 +24,7 @@ Tryk på `Escape` for at lukke popup'en uden at eksportere.
 | Format | Filtype | Bedst til | Begrænsninger |
 |--------|---------|-----------|----------------|
 | **JSON** *(indbygget)* | `.json` | At gemme arbejde til genåbning i KulmanLab CAD | Ikke kompatibel med andre CAD-værktøjer |
-| **DXF** | `.dxf` | Deling med FreeCAD, LibreCAD osv. | Hatches, mål, ledelinjer og tekst eksporteres ikke |
+| **DXF** | `.dxf` | Deling med FreeCAD, LibreCAD osv. | Hvor meget der overlever, afhænger af modtagerprogrammet |
 
 **Hvornår skal du bruge JSON:** når som helst du vil gemme en komplet kopi af dit arbejde. JSON er KulmanLabs indbyggede format og bevarer hver entitet præcist — inklusive mål, ledelinjer, hatches og alle lagdata.
 
@@ -45,12 +45,18 @@ Alle entitetstyper er inkluderet:
 
 ### DXF-eksport
 
-Kun geometrientiteter er inkluderet:
+Alle entitetstyper er inkluderet:
 
 - Lines, Circles, Arcs, Ellipses, Polylines (eksporteret som `LWPOLYLINE`), Splines
+- Text
+- Mål (lineær, justeret, fortsat, radius, diameter)
+- Leaders (multiledelinjer)
+- Hatches, inklusive deres mønster, skalering, vinkel og origin
 - Layers og Linetypes
 
-**Eksporteres ikke til DXF:** hatches, mål, ledelinjer og tekst. Mål og ledelinjer bruger KulmanLab-specifikke datastrukturer, der ikke kan repræsenteres troværdigt i standard-DXF; hatches eksporteres slet ikke til DXF endnu, selvom de importeres derfra; teksteksport er heller ikke implementeret endnu. Hvis din tegning har nogen af disse, brug JSON eller [Print Manager](../print-manager/) til at fange dem.
+Filen skrives som AC1032 DXF, så en tegning eksporteret fra KulmanLab åbner med sine påtegninger i behold i andre DXF-kyndige værktøjer i stedet for at ankomme som ren geometri.
+
+Hvad hvert modtagende program så gør med den, varierer stadig — DXF-understøttelse er forskellig fra værktøj til værktøj, og et ældre kan ignorere elementer, som et nyere læser. Skal en tegning se identisk ud alle steder, fanger [Print Manager](../print-manager/) den i stedet som PDF eller billede.
 
 ## Navn på den eksporterede fil
 
@@ -63,7 +69,7 @@ Den downloadede fil får navn efter den aktuelle tegningsfil (f.eks. `myplan.jso
 | Output | Vektor-kildefil (.dxf / .json) | Rasterbillede (.png / .jpeg / .webp / .pdf) |
 | Redigerbar i andre værktøjer | Ja (DXF) | Nej |
 | Bevarer layers & linetypes | Ja | Nej (rendret fladt) |
-| Fanger mål & ledelinjer | Kun JSON | Ja |
+| Fanger mål & ledelinjer | Ja | Ja |
 
 Brug **Export Manager**, når du har brug for en redigerbar fil. Brug [Print Manager](../print-manager/), når du har brug for et visuelt øjebliksbillede.
 

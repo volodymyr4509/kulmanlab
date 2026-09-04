@@ -1,6 +1,6 @@
 ---
 title: Export Manager — Unduh Gambar sebagai DXF atau JSON
-description: Export Manager mengunduh gambar saat ini sebagai file DXF atau JSON (native). Setiap format mencantumkan persis jenis entitas apa yang dibawanya, berdampingan, sehingga Anda dapat melihat sebelum mengunduh apa yang dilewatkan DXF — saat ini hatch, dimensi, leader, dan teks.
+description: Unduh gambar saat ini sebagai DXF atau JSON. Keduanya membawa setiap tipe entitas — geometri, teks, dimensi, leader, dan arsiran — berikut layer dan tipe garis.
 keywords: [ekspor DXF, ekspor file CAD, unduh DXF browser, simpan DXF online, ekspor JSON CAD, ekspor KulmanLab, unduh file CAD, ekspor DXF, simpan gambar ke file, unduh DXF]
 group: file
 order: 6
@@ -13,7 +13,7 @@ Perintah `exportmanager` mengunduh gambar saat ini ke sistem file Anda. Ada dua 
 ## Cara mengekspor
 
 1. Klik tombol toolbar **Export** (ikon unduh) di panel file, atau ketik `exportmanager` di terminal.
-2. Popup **Export Manager** terbuka menampilkan kartu JSON dan DXF berdampingan, masing-masing mencantumkan apa yang diekspor (dan, untuk DXF, apa yang dilewatkan).
+2. Popup **Export Manager** terbuka menampilkan kartu JSON dan DXF berdampingan, masing-masing mencantumkan apa yang diekspor.
 3. Klik kartu untuk memilih format — **JSON** atau **DXF**.
 4. Klik tombol **Export \<FORMAT\>**. File akan diunduh secara otomatis ke folder unduhan default Anda.
 
@@ -24,7 +24,7 @@ Tekan `Escape` untuk menutup popup tanpa mengekspor.
 | Format | Ekstensi | Terbaik untuk | Batasan |
 |--------|----------|---------------|---------|
 | **JSON** *(native)* | `.json` | Menyimpan pekerjaan untuk dibuka kembali di KulmanLab CAD | Tidak kompatibel dengan alat CAD lain |
-| **DXF** | `.dxf` | Berbagi dengan FreeCAD, LibreCAD, dll. | Hatch, dimensi, leader, dan teks tidak diekspor |
+| **DXF** | `.dxf` | Berbagi dengan FreeCAD, LibreCAD, dll. | Seberapa banyak yang bertahan tergantung aplikasi penerima |
 
 **Kapan menggunakan JSON:** kapan pun Anda ingin menyimpan salinan lengkap dari pekerjaan Anda. JSON adalah format native KulmanLab dan menyimpan setiap entitas secara persis — termasuk dimensi, leader, hatch, dan semua data layer.
 
@@ -45,12 +45,18 @@ Setiap jenis entitas disertakan:
 
 ### Ekspor DXF
 
-Hanya entitas geometri yang disertakan:
+Setiap jenis entitas disertakan:
 
 - Lines, Circles, Arcs, Ellipses, Polylines (diekspor sebagai `LWPOLYLINE`), Splines
+- Text
+- Dimensi (linear, aligned, continued, radius, diameter)
+- Leaders (multileaders)
+- Hatches, termasuk pola, skala, sudut, dan titik asalnya
 - Layers dan Linetypes
 
-**Tidak diekspor ke DXF:** hatch, dimensi, leader, dan teks. Dimensi dan leader menggunakan struktur data khusus KulmanLab yang tidak dapat direpresentasikan secara akurat dalam DXF standar; hatch belum diekspor ke DXF sama sekali, meskipun diimpor darinya; ekspor teks juga belum diimplementasikan. Jika gambar Anda memiliki salah satu dari ini, gunakan JSON atau [Print Manager](../print-manager/) untuk menangkapnya.
+Berkas ditulis sebagai DXF AC1032, jadi gambar yang diekspor dari KulmanLab terbuka dengan anotasinya utuh di perkakas lain yang mendukung DXF, bukan tiba sebagai geometri telanjang.
+
+Apa yang kemudian dilakukan tiap aplikasi penerima terhadapnya tetap berbeda-beda — dukungan DXF tidak sama antar perkakas, dan yang lebih lama bisa mengabaikan entitas yang dibaca yang lebih baru. Kalau sebuah gambar harus tampak identik di mana pun, [Print Manager](../print-manager/) justru menangkapnya sebagai PDF atau gambar.
 
 ## Nama file yang diekspor
 
@@ -63,7 +69,7 @@ File yang diunduh dinamai sesuai file gambar saat ini (misalnya `myplan.json`). 
 | Output | File sumber vektor (.dxf / .json) | Gambar raster (.png / .jpeg / .webp / .pdf) |
 | Dapat diedit di alat lain | Ya (DXF) | Tidak |
 | Mempertahankan layers & linetypes | Ya | Tidak (dirender datar) |
-| Menangkap dimensi & leader | Hanya JSON | Ya |
+| Menangkap dimensi & leader | Ya | Ya |
 
 Gunakan **Export Manager** ketika Anda memerlukan file yang dapat diedit. Gunakan [Print Manager](../print-manager/) ketika Anda memerlukan snapshot visual.
 

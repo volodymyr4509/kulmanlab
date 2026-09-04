@@ -53,12 +53,12 @@ Hanyoyi biyu na magance hakan:
 
 Idan daidaito yana da muhimmanci, ka yanka gwajin guda kafin ka ba da kaya.
 
-## Abin da ba ya tsira daga fitar da DXF
+## Abin da za a duba game da fitarwa zuwa DXF
 
 Ya kamata a sani kafin ka dogara da shi:
 
-- **Ba a fitar da rubutu zuwa DXF.** Idan ka shirya zana haruffa, ba za su kasance a cikin fayil ba. Ka juya rubutu zuwa zayyana a wata manhaja, ko ka yi amfani da mai aikin da ke karɓar SVG don sashen zana.
-- **Lallausan zane da ma'auni ma ba a fitar da su.** Ga fayil ɗin yanka wannan shi ne abin da ake so — amma kada ka ɗauka cewa wurin da aka yi masa lallausan zane zai zama cikakken zane, domin ba zai kasance a cikin fayil ɗin ko kaɗan ba.
+- **Yanzu bayanai suna fita su ma — ka cire su da kanka.** Rubutu, ma'auni, layukan nuni da lallausan zane duk suna shiga cikin DXF ɗin da aka fitar. Ga mika aiki na yau da kullum wannan shi ne abin da kake so, amma ga fayil ɗin yankewa yana nufin duk abin da ka bari a zane zai kasance a fayil ɗin da gaske. Fitarwa ba ta sake cire shi maka a shiru, don haka ka goge shi, ko ka ajiye shi a sassan da za ka cire kafin fitarwa.
+- **Rubutu yana fita a matsayin `MTEXT`, wanda ba daidai yake da siffofin da za a iya sassaƙa ba.** Haruffa suna fita tare da tsarinsu, amma yawancin manhajojin inji suna son zanen waje maimakon rubutu mai rai a kan sashen sassaƙa. Ka duba abin da naka yake karɓa kafin ka tsara sassaƙa a kansa.
 - **Ba a shigo da nassoshin block ba.** Zanen da aka gina daga alamun block da ake maimaitawa yana shigowa bai cika ba, don haka ka duba adadin kaya idan aka kwatanta da na asali.
 
 Splines kuwa *ana fitar da su*. Wasu manhajojin inji ba sa sarrafa su sosai kuma sun fi son layuka masu yawa — idan naka haka ne, ka sake zana lanƙwasa a matsayin layuka masu yawa ko bakuna.

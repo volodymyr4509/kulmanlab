@@ -33,13 +33,14 @@ Da lì puoi spostarti e zoomare, accendere e spegnere i layer, misurare distanze
 
 **Cosa legge da un DXF:** linee, cerchi, archi, ellissi, polilinee, spline, testo, quote, direttrici multiple e campiture, oltre alle tabelle di layer e tipi di linea del file.
 
+**Che cosa riscrive:** lo stesso elenco. Modifica un disegno ed esportalo, e geometria, testo con la sua formattazione, quote, direttrici e campiture tornano tutte nel DXF, con le tabelle di layer e tipi di linea intatte: il file compie il viaggio di andata e ritorno senza perdere l'annotazione.
+
 **Dove si ferma — leggilo prima di farci affidamento:**
 
 - **Solo 2D.** Un DXF che contiene solidi o mesh 3D è il file sbagliato per questo strumento.
 - **Niente blocchi.** I riferimenti a blocco (`INSERT`) non vengono elaborati, quindi un disegno costruito con simboli a blocco ripetuti arriverà incompleto.
 - **DXF, non DWG.** Vedi la sezione DWG più avanti.
 - **Solo browser desktop** — Chrome, Firefox, Safari ed Edge. Non esiste una versione mobile.
-- **L'esportazione DXF contiene solo geometria.** Se modifichi e riesporti in DXF, restano fuori campiture, quote, direttrici e testo. Esporta nel formato nativo JSON se devi conservare tutto, o in PDF se ti basta condividere.
 
 Se uno di questi punti è determinante, uno dei programmi desktop qui sotto ti servirà meglio.
 

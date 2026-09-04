@@ -33,13 +33,14 @@ Vous pouvez ensuite vous déplacer et zoomer, afficher ou masquer des calques, m
 
 **Ce qu'il lit dans un DXF :** lignes, cercles, arcs, ellipses, polylignes, splines, texte, cotations, lignes de repère multiples et hachures, ainsi que les tables de calques et de types de ligne du fichier.
 
+**Ce qu'il réécrit :** la même liste. Modifiez un dessin puis exportez-le, et la géométrie, le texte avec sa mise en forme, les cotations, les lignes de repère et les hachures repartent toutes dans le DXF, tables de calques et de types de ligne intactes — le fichier fait donc l'aller-retour sans perdre son annotation.
+
 **Ses limites — à lire avant de vous y fier :**
 
 - **2D uniquement.** Un DXF contenant des solides ou des maillages 3D n'est pas le bon fichier pour cet outil.
 - **Pas de blocs.** Les références de bloc (`INSERT`) ne sont pas analysées : un dessin construit à partir de symboles de bloc répétés arrivera incomplet.
 - **DXF, pas DWG.** Voir la section DWG plus bas.
 - **Navigateurs de bureau uniquement** — Chrome, Firefox, Safari et Edge. Il n'existe pas de version mobile.
-- **L'export DXF ne contient que la géométrie.** Si vous modifiez puis réexportez en DXF, les hachures, cotations, lignes de repère et textes sont omis. Exportez plutôt au format JSON natif pour tout conserver, ou en PDF si vous voulez seulement partager.
 
 Si l'un de ces points est rédhibitoire, l'un des logiciels de bureau ci-dessous vous servira mieux.
 

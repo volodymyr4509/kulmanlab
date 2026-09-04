@@ -22,7 +22,7 @@ Wenn Sie nur etwas Lesbares zum Verschicken brauchen:
 
 Das war's. Die Vorschau wird über denselben Code-Pfad und in derselben Auflösung gerendert wie die exportierte Datei — Sie sehen also das Ergebnis und keine Annäherung daran.
 
-Ein Punkt lohnt sich zu wissen: Anders als beim DXF-Export **behält das PDF alles, was auf dem Bildschirm steht** — Bemaßungen, Text, Schraffuren, Leader. Bei einer beschrifteten Zeichnung ist PDF das Format, das die Beschriftung mitnimmt.
+Ein Punkt lohnt sich zu wissen: **das PDF behält alles, was auf dem Bildschirm steht** — Bemaßungen, Text, Schraffuren, Leader — genau so angeordnet wie gezeichnet. Der DXF-Export nimmt all das ebenfalls mit, die Wahl zwischen beiden ist also keine Frage dessen, was überlebt. Sie ist eine Frage dessen, was der Empfänger braucht: PDF, wenn er es nur lesen oder drucken muss, DXF, wenn er es bearbeiten soll.
 
 ## Der richtige Weg: im exakten Maßstab umwandeln
 

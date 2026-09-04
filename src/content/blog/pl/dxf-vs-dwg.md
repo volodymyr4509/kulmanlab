@@ -75,7 +75,7 @@ Prosząc, warto wskazać wersję. **DXF R12 jest najbezpieczniejszy** — jest w
 
 Jeśli masz `.dwg`, to tego nie otworzy. Jeśli masz `.dxf`, otworzysz go w karcie przeglądarki bez instalowania czegokolwiek: [app.kulmanlab.com](https://app.kulmanlab.com).
 
-To, co zapisuje z powrotem, to geometria plus tekst — linie, okręgi, łuki, elipsy, polilinie, splajny i tekst, wraz z warstwami i rodzajami linii. Kreskowania, wymiary i odnośniki na razie nie trafiają do eksportowanego DXF.
+To, co zapisuje z powrotem, to cały rysunek — linie, okręgi, łuki, elipsy, polilinie, splajny, tekst wraz z formatowaniem, wymiary, odnośniki i kreskowania, wraz z warstwami i rodzajami linii. Plik otwarty tutaj i wyeksportowany ponownie wychodzi z opisami, a nie okrojony do samej geometrii.
 
 ---
 

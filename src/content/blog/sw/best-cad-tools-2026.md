@@ -113,13 +113,13 @@ Ni zana yetu wenyewe, hivyo soma sehemu hii ukiwa na hilo akilini. KulmanLab ni 
 - Seti kamili ya zana za 2D: mistari, mistari-mingi yenye vipande vya tao, miduara, matao, duaradufu, mikunjo ya spline, vivuli vyenye maktaba ya michoro ya `.pat`, na seti kamili ya vipimo (mstari, ulinganifu, nusukipenyo, kipenyo, pembe, mfululizo).
 - Tabaka zenye kugandisha, kufunga, kutenga, rangi, aina ya mstari na unene wa mstari; unasaji wa vitu; uhariri kwa vishikizo na uhamishaji kamili ulioandikwa.
 - Mipangilio ya nafasi ya karatasi yenye madirisha ya kuonyesha na mipangilio ya ukurasa, kisha kuchapa au kuhamisha kwenda PDF/PNG — pamoja na mitindo ya kuchapa ya rangi moja na ya buluu ya ramani.
+- Safari kamili ya DXF ya kwenda na kurudi: maandishi, vipimo, mistari ya uelekezi na uwekaji mistari wa kujaza vyote hunusurika uhamishaji, si jiometri tupu tu, hivyo mchoro wenye maelezo waweza kurudishwa kwa aliyeutuma.
 - Mafaili hayaondoki kamwe kwenye kompyuta yako, jambo linalo maana kama michoro yako iko chini ya mkataba wa siri. Baada ya kupakia mara ya kwanza, inafanya kazi bila mtandao.
 
 **Udhaifu:**
 
 - **2D pekee.** Hakuna uundaji wa 3D, wala haujapangwa.
 - **DXF, si DWG.** Kama wenzako wanatuma DWG, utahitaji kitu kingine cha kubadilisha kwanza.
-- **Uhamishaji wa DXF haujakamilika.** Jiometri, tabaka na sifa vinapita na kurudi vizuri, lakini vivuli, vipimo, mistari ya kuelekeza na maandishi bado havijaandikwa kwenye DXF inayohamishwa — muundo asilia wa JSON unavihifadhi, na JSON hufunguka kwenye KulmanLab pekee.
 - **Vivinjari vya kompyuta pekee,** na michoro ipo kwenye hifadhi ya ndani ya kivinjari hicho — kufuta data ya kivinjari kunaifuta, hivyo hamisha chochote unachotaka kuhifadhi.
 
 **Inafaa zaidi kwa:** Kufungua, kuweka alama na kuhamisha faili ya DXF kwa haraka; kazi ndogo za uchoraji wa 2D; kazi za CNC, ukataji wa leza na utengenezaji; kuchora kwenye kompyuta iliyofungwa ambapo huwezi kusakinisha programu. Haichukui nafasi ya kifurushi cha uchoraji wa uzalishaji katika mradi mkubwa wenye uratibu wa pande nyingi.

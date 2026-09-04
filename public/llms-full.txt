@@ -1641,11 +1641,11 @@ The **Export** command downloads the current drawing to your file system. Two fo
 | Format | Extension | Best for | Limitations |
 |--------|-----------|----------|-------------|
 | **JSON** *(native)* | `.json` | Saving work to reopen in KulmanLab CAD | Not compatible with other CAD tools |
-| **DXF** | `.dxf` | Sharing with AutoCAD, FreeCAD, LibreCAD, etc. | Dimensions and leaders are not exported |
+| **DXF** | `.dxf` | Sharing with AutoCAD, FreeCAD, LibreCAD, etc. | How much survives depends on the receiving application |
 
-**When to use JSON:** anytime you want to save a complete copy of your work. JSON is KulmanLab's native format and preserves every entity exactly — including dimensions, leaders, and all layer data.
+**When to use JSON:** anytime you want to save a complete copy of your work. JSON is KulmanLab's native format and preserves every entity exactly — including dimensions, leaders, hatches, and all layer data.
 
-**When to use DXF:** when you need to hand off the drawing to someone using another CAD application. The exported file uses AutoCAD 2010 DXF format and can be opened in most DXF-compatible tools.
+**When to use DXF:** when you need to hand off the drawing to someone using another CAD application. The exported file uses AC1032 DXF format and can be opened in most DXF-compatible tools.
 
 ## What is exported per format
 
@@ -1656,17 +1656,21 @@ All entity types are included:
 - Lines, circles, arcs, ellipses, polylines, splines, text
 - Dimensions (linear, aligned, continued, radius, diameter)
 - Multileaders
-- [Hatch](./hatch) — the only format that preserves hatches at all
+- [Hatch](./hatch), with pattern, scale, angle, and origin
 - Layer definitions and linetype tables
 
 ### DXF export
 
-Geometry-only entities are included:
+All entity types are included:
 
-- Lines, circles, arcs, ellipses, polylines (exported as `LWPOLYLINE`), splines, text
+- Lines, circles, arcs, ellipses, polylines (exported as `LWPOLYLINE`), splines
+- Text, written as `MTEXT` with its per-run formatting — font, height, bold, italic, underline, strikethrough
+- Dimensions (linear, aligned, continued, radius, diameter, angular), as standard `DIMENSION` entities
+- Multileaders, as `MULTILEADER`
+- [Hatch](./hatch), with pattern, scale, angle, and origin
 - Layer definitions and linetype tables
 
-**Not included in DXF:** dimension entities, multileaders, and [hatches](./hatch). Dimensions and multileaders use KulmanLab-specific data structures that cannot be represented faithfully in standard DXF; hatch export isn't implemented yet. If your drawing has annotations or fills, use JSON, or [Print](./print) to capture them visually.
+A drawing exported from KulmanLab therefore arrives with its annotation intact rather than as bare geometry. What each receiving application makes of it still varies — DXF support differs between tools, and an older one may ignore entities a newer one reads. If a drawing has to look identical everywhere, use [Print](./print) to capture it as a PDF or image instead.
 
 ## Exported file name
 

@@ -53,12 +53,12 @@ Dalawang paraan para harapin ito:
 
 Kung mahalaga ang tolerance, pumutol ng isang piraso ng pagsubok bago mo italaga ang materyal.
 
-## Ano ang hindi nakakaligtas sa DXF export
+## Ano ang dapat suriin sa pag-export ng DXF
 
 Sulit malaman bago ka umasa rito:
 
-- **Hindi ine-export ang teksto sa DXF.** Kung nagplano kang mag-ukit ng titik, wala iyon sa file. I-convert ang teksto sa kontorno gamit ang ibang kasangkapan, o gumamit ng serbisyong tumatanggap ng SVG para sa layer ng pag-ukit.
-- **Hindi rin ine-export ang hatch at mga sukat.** Para sa file ng pagputol iyon mismo ang gusto — pero huwag ipagpalagay na ang hatch na rehiyon ay magiging inukit na punan, dahil wala talaga iyon sa file.
+- **Nae-export na ngayon ang anotasyon — kaya kayo mismo ang maglinis.** Ang teksto, sukat, leader at hatch ay pumapasok lahat sa na-export na DXF. Para sa karaniwang pagpasa iyan mismo ang gusto mo, pero sa isang cut file ibig sabihin ay talagang mapupunta sa file ang anumang iniwan mo sa guhit. Hindi na ito tahimik na inaalis ng export para sa iyo, kaya burahin mo, o itago sa mga layer na tatanggalin mo bago mag-export.
+- **Lumalabas ang teksto bilang `MTEXT`, at hindi iyon katumbas ng heometriyang puwedeng iukit.** Na-e-export ang letra kasama ang pormat nito, pero maraming software ng makina ang gustong outline sa halip na buhay na teksto sa layer ng ukit. Tingnan kung ano ang tinatanggap ng sa iyo bago magplano ng ukit dito.
 - **Hindi ini-import ang block references.** Ang guhit na binuo mula sa paulit-ulit na block symbols ay papasok nang kulang, kaya ihambing ang bilang ng piyesa sa orihinal.
 
 Ang mga spline naman ay *ine-export*. May ilang software ng makina na hindi maganda ang pagtrato rito at mas gusto ang polyline — kung ganoon ang sa iyo, iguhit muli ang mga kurba bilang polyline o arko.

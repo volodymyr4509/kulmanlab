@@ -22,7 +22,7 @@ Gdy potrzebujesz tylko czegoś czytelnego do wysłania:
 
 I tyle. Podgląd jest renderowany tą samą ścieżką kodu i w tej samej rozdzielczości co eksportowany plik, więc to, co widzisz, jest tym, co dostaniesz, a nie przybliżeniem.
 
-Jedna rzecz warta wiedzy: w odróżnieniu od eksportu do DXF, **PDF zachowuje wszystko, co jest na ekranie** — wymiary, tekst, kreskowania, odnośniki. Jeśli rysunek jest opisany, to właśnie PDF zabiera opisy ze sobą.
+Jedna rzecz warta wiedzy: **PDF zachowuje wszystko, co jest na ekranie** — wymiary, tekst, kreskowania, odnośniki — rozmieszczone dokładnie tak, jak narysowano. Eksport do DXF również zabiera to wszystko, więc wybór między nimi nie dotyczy tego, co przetrwa. Dotyczy tego, czego potrzebuje odbiorca: PDF, jeśli ma tylko przeczytać lub wydrukować, DXF, jeśli ma edytować.
 
 ## Właściwa droga: konwersja w dokładnej skali
 

@@ -113,13 +113,13 @@ C'est notre propre outil, lisez donc cette section en le gardant à l'esprit. Ku
 - La panoplie 2D complète : lignes, polylignes avec segments d'arc, cercles, arcs, ellipses, splines, hachures avec une bibliothèque de motifs `.pat`, et l'ensemble des cotations (linéaire, alignée, rayon, diamètre, angulaire, continue).
 - Calques avec gel, verrouillage, isolation, couleur, type et épaisseur de ligne ; accrochage aux objets ; édition par poignées avec déplacement exact saisi au clavier.
 - Présentations en espace papier avec fenêtres et mise en page, puis impression ou export en PDF/PNG — y compris les styles d'impression monochrome et bleu de plan.
+- Un aller-retour DXF complet : le texte, les cotations, les lignes de repère et les hachures survivent tous à l'export, pas seulement la géométrie nue, si bien qu'un dessin annoté peut repartir vers celui qui l'a envoyé.
 - Les fichiers ne quittent jamais votre machine, ce qui compte si vos dessins sont sous NDA. Après le premier chargement, l'outil fonctionne hors ligne.
 
 **Faiblesses :**
 
 - **2D uniquement.** Pas de modélisation 3D, et aucune n'est prévue.
 - **DXF, pas DWG.** Si vos interlocuteurs envoient du DWG, il vous faudra autre chose pour le convertir d'abord.
-- **L'export DXF est incomplet.** La géométrie, les calques et les propriétés font l'aller-retour proprement, mais les hachures, les cotes, les lignes de repère et le texte ne sont pas encore écrits dans le DXF exporté — le format JSON natif les conserve, et le JSON ne s'ouvre que dans KulmanLab.
 - **Navigateurs de bureau uniquement,** et les dessins vivent dans le stockage local de ce navigateur — effacer les données du navigateur les supprime, exportez donc tout ce que vous voulez garder.
 
 **Idéal pour :** Ouvrir, annoter et exporter un DXF rapidement ; les petits travaux de dessin 2D ; l'usinage CNC, la découpe laser et la fabrication ; dessiner sur un poste verrouillé où vous ne pouvez rien installer. Ne remplace pas une suite de dessin de production sur un grand projet coordonné.

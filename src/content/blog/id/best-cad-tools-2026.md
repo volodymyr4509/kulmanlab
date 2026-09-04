@@ -113,13 +113,13 @@ Ini alat kami sendiri, jadi bacalah bagian ini dengan mengingat hal itu. KulmanL
 - Perangkat 2D lengkap: garis, polyline dengan segmen busur, lingkaran, busur, elips, spline, arsiran dengan pustaka pola `.pat`, dan rangkaian dimensi lengkap (linear, sejajar, radius, diameter, sudut, berkelanjutan).
 - Layer dengan bekukan, kunci, isolasi, warna, jenis garis, dan tebal garis; snap objek; penyuntingan grip dengan perpindahan tepat yang diketik.
 - Tata letak ruang kertas dengan viewport dan pengaturan halaman, lalu cetak atau ekspor ke PDF/PNG — termasuk gaya cetak monokrom dan cetak biru.
+- Perjalanan pulang pergi DXF yang utuh: teks, dimensi, leader, dan arsiran semuanya selamat melewati ekspor, bukan cuma geometri telanjang, jadi gambar beranotasi bisa dikirim balik ke pengirimnya.
 - Berkas tidak pernah meninggalkan mesin Anda, yang penting jika gambar Anda terikat perjanjian kerahasiaan. Setelah pemuatan pertama, ia bekerja luring.
 
 **Kekurangan:**
 
 - **Hanya 2D.** Tidak ada pemodelan 3D, dan tidak direncanakan.
 - **DXF, bukan DWG.** Jika rekan kerja Anda mengirim DWG, Anda butuh alat lain untuk mengonversinya lebih dulu.
-- **Ekspor DXF belum lengkap.** Geometri, layer, dan properti bolak-balik dengan bersih, tetapi arsiran, dimensi, garis penunjuk, dan teks belum ditulis ke DXF hasil ekspor — format JSON bawaan menyimpannya, dan JSON hanya bisa dibuka di KulmanLab.
 - **Hanya browser desktop,** dan gambar tersimpan di penyimpanan lokal browser tersebut — menghapus data browser akan menghapusnya, jadi ekspor apa pun yang ingin Anda simpan.
 
 **Paling cocok untuk:** Membuka, menandai, dan mengekspor DXF dengan cepat; pekerjaan penggambaran 2D berskala kecil; pekerjaan CNC, potong laser, dan fabrikasi; menggambar di mesin terkunci yang tidak memperbolehkan pemasangan perangkat lunak. Bukan pengganti paket penggambaran produksi pada proyek besar yang terkoordinasi.

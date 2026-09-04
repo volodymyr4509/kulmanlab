@@ -53,12 +53,12 @@ Dua cara menanganinya:
 
 Jika toleransi penting, potong satu bahagian ujian sebelum melaburkan bahan.
 
-## Apa yang tidak terselamat daripada eksport DXF
+## Apa yang perlu disemak pada eksport DXF
 
 Berbaloi diketahui sebelum anda bergantung padanya:
 
-- **Teks tidak dieksport ke DXF.** Jika anda merancang tulisan berukir, ia tidak akan berada dalam fail. Tukarkan teks kepada kontur dalam alat lain, atau gunakan perkhidmatan yang menerima SVG untuk lapisan ukiran.
-- **Lorekan dan dimensi juga tidak dieksport.** Bagi fail potongan itulah yang dikehendaki — tetapi jangan anggap kawasan berlorek akan menjadi isian berukir, kerana ia langsung tiada dalam fail.
+- **Anotasi kini turut dieksport — bersihkan sendiri.** Teks, dimensi, penunjuk dan lorekan semuanya masuk ke dalam DXF yang dieksport. Untuk penyerahan biasa itulah yang anda mahu, tetapi bagi fail potong ia bermakna apa sahaja yang anda tinggalkan dalam lukisan benar-benar akan ada dalam fail. Eksport tidak lagi membuangnya diam-diam untuk anda, jadi padamkannya, atau simpan pada lapisan yang anda buang sebelum mengeksport.
+- **Teks keluar sebagai `MTEXT`, dan itu bukan geometri yang boleh diukir.** Huruf dieksport dengan formatnya utuh, tetapi banyak perisian mesin mahukan garis luar dan bukan teks hidup pada lapisan ukiran. Semak apa yang diterima perisian anda sebelum merancang ukiran berdasarkannya.
 - **Rujukan blok tidak diimport.** Lukisan yang dibina daripada simbol blok berulang masuk dalam keadaan tidak lengkap, jadi semak bilangan bahagian dengan yang asal.
 
 Splin pula *memang* dieksport. Sesetengah perisian mesin mengendalikannya dengan lemah dan lebih gemarkan poligaris — jika begitu keadaannya, lukis semula lengkung sebagai poligaris atau lengkok.

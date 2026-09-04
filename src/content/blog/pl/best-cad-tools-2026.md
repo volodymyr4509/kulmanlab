@@ -113,13 +113,13 @@ To nasze własne narzędzie, więc czytaj ten fragment z tą świadomością. Ku
 - Pełny zestaw 2D: linie, polilinie z segmentami łukowymi, okręgi, łuki, elipsy, splajny, kreskowania z biblioteką wzorów `.pat` oraz komplet wymiarów (liniowy, wyrównany, promień, średnica, kątowy, ciągły).
 - Warstwy z zamrażaniem, blokowaniem, izolowaniem, kolorem, rodzajem i grubością linii; przyciąganie do obiektów; edycja uchwytami z dokładnym wpisywanym przesunięciem.
 - Układy w przestrzeni papieru z rzutniami i ustawieniami strony, a potem druk lub eksport do PDF/PNG — łącznie ze stylami druku monochromatycznym i „niebieski nadruk".
+- Pełna podróż DXF w obie strony: tekst, wymiary, odnośniki i kreskowania przechodzą przez eksport w całości, nie tylko naga geometria, więc opisany rysunek może wrócić do tego, kto go przysłał.
 - Pliki nigdy nie opuszczają twojej maszyny, co ma znaczenie, jeśli twoje rysunki są objęte NDA. Po pierwszym wczytaniu działa offline.
 
 **Słabe strony:**
 
 - **Tylko 2D.** Żadnego modelowania 3D i żadne nie jest planowane.
 - **DXF, nie DWG.** Jeśli twoi współpracownicy wysyłają DWG, najpierw potrzebujesz czegoś innego do konwersji.
-- **Eksport DXF jest niepełny.** Geometria, warstwy i właściwości przechodzą tam i z powrotem czysto, ale kreskowania, wymiary, odnośniki i tekst nie są jeszcze zapisywane do eksportowanego DXF — natywny format JSON je zachowuje, a JSON otwiera się tylko w KulmanLab.
 - **Tylko przeglądarki desktopowe,** a rysunki żyją w pamięci lokalnej tej przeglądarki — wyczyszczenie danych przeglądarki je usuwa, więc eksportuj wszystko, co chcesz zachować.
 
 **Najlepszy dla:** Szybkiego otwarcia, oznaczenia i wyeksportowania DXF; małych zadań kreślarskich 2D; pracy przy CNC, cięciu laserowym i produkcji; kreślenia na zablokowanej maszynie, gdzie nie możesz nic zainstalować. Nie zastąpi produkcyjnego pakietu kreślarskiego w dużym skoordynowanym projekcie.

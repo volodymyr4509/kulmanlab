@@ -75,7 +75,7 @@ Cuando lo pidas, conviene indicar una versión. **DXF R12 es lo más seguro**: e
 
 Si tienes un `.dwg`, esto no lo abrirá. Si tienes un `.dxf`, puedes abrirlo en una pestaña del navegador sin instalar nada: [app.kulmanlab.com](https://app.kulmanlab.com).
 
-Lo que escribe de vuelta es geometría más texto: líneas, círculos, arcos, elipses, polilíneas, splines y texto, junto con capas y tipos de línea. Los sombreados, las cotas y las directrices no llegan por ahora al DXF exportado.
+Lo que escribe de vuelta es el dibujo completo: líneas, círculos, arcos, elipses, polilíneas, splines, texto con su formato, cotas, directrices y sombreados, junto con capas y tipos de línea. Un archivo abierto aquí y exportado de nuevo sale con sus anotaciones, sin quedar reducido a pura geometría.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Export-Manager — Zeichnungen als DXF oder JSON herunterladen
-description: Der Export-Manager lädt die aktuelle Zeichnung als DXF- oder JSON-Datei (nativ) herunter. Jedes Format listet genau auf, welche Elementtypen es nebeneinander enthält, sodass Sie vor dem Herunterladen sehen, was DXF auslässt — derzeit Hatches, Bemaßungen, Hinweislinien und Text.
+description: Die aktuelle Zeichnung als DXF oder JSON herunterladen. Beide tragen jeden Elementtyp — Geometrie, Text, Bemaßungen, Leader, Schraffuren — samt Layern und Linientypen.
 keywords: [DXF exportieren, CAD-Datei exportieren, DXF im Browser herunterladen, DXF online speichern, JSON-CAD exportieren, KulmanLab Export, CAD-Datei herunterladen, DXF-Export, Zeichnung in Datei speichern, DXF-Download]
 group: file
 order: 6
@@ -13,7 +13,7 @@ Der Befehl `exportmanager` lädt die aktuelle Zeichnung auf Ihr Dateisystem heru
 ## So exportieren Sie
 
 1. Klicken Sie auf die Schaltfläche **Export** in der Symbolleiste (Download-Symbol) im Dateibereich, oder geben Sie `exportmanager` im Terminal ein.
-2. Das Popup **Export-Manager** öffnet sich und zeigt die JSON- und DXF-Karten nebeneinander, jede mit einer Auflistung dessen, was exportiert wird (und bei DXF, was ausgelassen wird).
+2. Das Popup **Export-Manager** öffnet sich und zeigt die JSON- und DXF-Karten nebeneinander, jede mit einer Auflistung dessen, was exportiert wird.
 3. Klicken Sie auf eine Karte, um das Format auszuwählen — **JSON** oder **DXF**.
 4. Klicken Sie auf die Schaltfläche **Export \<FORMAT\>**. Die Datei wird automatisch in Ihren Standard-Download-Ordner heruntergeladen.
 
@@ -24,7 +24,7 @@ Drücken Sie `Escape`, um das Popup ohne Export zu schließen.
 | Format | Erweiterung | Geeignet für | Einschränkungen |
 |--------|-------------|--------------|-----------------|
 | **JSON** *(nativ)* | `.json` | Arbeit speichern, um sie in KulmanLab CAD wieder zu öffnen | Nicht kompatibel mit anderen CAD-Werkzeugen |
-| **DXF** | `.dxf` | Weitergabe an FreeCAD, LibreCAD usw. | Hatches, Bemaßungen, Hinweislinien und Text werden nicht exportiert |
+| **DXF** | `.dxf` | Weitergabe an FreeCAD, LibreCAD usw. | Wie viel erhalten bleibt, hängt vom empfangenden Programm ab |
 
 **Wann JSON verwenden:** immer wenn Sie eine vollständige Kopie Ihrer Arbeit speichern möchten. JSON ist das native Format von KulmanLab und bewahrt jedes Element genau — einschließlich Bemaßungen, Hinweislinien, Hatches und aller Ebenendaten.
 
@@ -45,12 +45,18 @@ Jeder Elementtyp ist enthalten:
 
 ### DXF-Export
 
-Nur Geometrieelemente sind enthalten:
+Jeder Elementtyp ist enthalten:
 
 - Lines, Circles, Arcs, Ellipses, Polylines (als `LWPOLYLINE` exportiert), Splines
+- Text
+- Bemaßungen (linear, ausgerichtet, fortgesetzt, Radius, Durchmesser)
+- Leaders (Mehrfach-Hinweislinien)
+- Hatches, einschließlich Muster, Skalierung, Winkel und Ursprung
 - Layers und Linetypes
 
-**Nicht nach DXF exportiert:** Hatches, Bemaßungen, Leaders und Text. Bemaßungen und Leaders verwenden KulmanLab-spezifische Datenstrukturen, die im Standard-DXF nicht zuverlässig dargestellt werden können; Hatches werden derzeit überhaupt nicht nach DXF exportiert, obwohl sie daraus importiert werden; auch der Text-Export ist noch nicht implementiert. Wenn Ihre Zeichnung eines davon enthält, verwenden Sie JSON oder den [Druck-Manager](../print-manager/), um es zu erfassen.
+Die Datei wird als AC1032-DXF geschrieben, sodass eine aus KulmanLab exportierte Zeichnung in anderen DXF-fähigen Werkzeugen mit intakter Beschriftung öffnet, statt als nackte Geometrie anzukommen.
+
+Was das empfangende Programm dann daraus macht, ist weiterhin unterschiedlich — die DXF-Unterstützung fällt je nach Werkzeug anders aus, und ein älteres ignoriert womöglich Elemente, die ein neueres liest. Muss eine Zeichnung überall identisch aussehen, hält [Druck-Manager](../print-manager/) sie stattdessen als PDF oder Bild fest.
 
 ## Name der exportierten Datei
 
@@ -63,7 +69,7 @@ Die heruntergeladene Datei wird nach der aktuellen Zeichnungsdatei benannt (z. B
 | Ausgabe | Vektorquelldatei (.dxf / .json) | Rasterbild (.png / .jpeg / .webp / .pdf) |
 | In anderen Werkzeugen bearbeitbar | Ja (DXF) | Nein |
 | Bewahrt Layers & Linetypes | Ja | Nein (gerendert flach) |
-| Erfasst Bemaßungen & Leaders | Nur JSON | Ja |
+| Erfasst Bemaßungen & Leaders | Ja | Ja |
 
 Verwenden Sie **Export-Manager**, wenn Sie eine bearbeitbare Datei benötigen. Verwenden Sie den [Druck-Manager](../print-manager/), wenn Sie einen visuellen Schnappschuss benötigen.
 

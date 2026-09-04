@@ -53,12 +53,12 @@ Två sätt att hantera det:
 
 Om toleransen spelar roll: skär en provbit innan du binder upp material.
 
-## Vad som inte överlever DXF-exporten
+## Vad du bör kontrollera vid DXF-export
 
 Värt att veta innan du förlitar dig på det:
 
-- **Text exporteras inte till DXF.** Hade du tänkt dig graverad text finns den inte i filen. Konvertera texten till konturer i ett annat program, eller använd en tjänst som tar emot SVG för gravyrlagret.
-- **Skrafferingar och mått exporteras inte heller.** För en skärfil är det precis vad man vill ha — men utgå inte från att ett skrafferat område blir en graverad yta, för det finns inte i filen alls.
+- **Anteckningar exporteras nu — rensa bort dem själv.** Text, mått, hänvisningar och skrafferingar hamnar alla i den exporterade DXF-filen. Vid en vanlig överlämning är det precis vad du vill ha, men i en skärfil betyder det att allt du lämnade kvar i ritningen faktiskt ligger i filen. Exporten plockar inte längre bort det tyst åt dig, så radera det, eller håll det på lager som du tar bort före exporten.
+- **Text hamnar som `MTEXT`, vilket inte är samma sak som graverbar geometri.** Bokstäverna exporteras med formateringen i behåll, men en hel del maskinprogram vill ha konturer i stället för levande text på ett graveringslager. Kontrollera vad ditt accepterar innan du planerar gravyr utifrån det.
 - **Blockreferenser importeras inte.** En ritning uppbyggd av upprepade blocksymboler kommer in ofullständig, så stäm av antalet detaljer mot originalet.
 
 Splines *exporteras* däremot. Vissa maskinprogram hanterar dem dåligt och föredrar polylinjer — är ditt ett sådant, rita om kurvorna som polylinjer eller bågar.

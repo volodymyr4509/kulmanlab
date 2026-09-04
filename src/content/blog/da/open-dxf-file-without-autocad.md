@@ -33,13 +33,14 @@ Derfra kan du panorere og zoome, slå lag til og fra, måle afstande og vinkler,
 
 **Hvad den læser fra en DXF:** linjer, cirkler, buer, ellipser, polylinjer, splines, tekst, mål, multihenvisninger og skraveringer, plus filens lag- og linjetypetabeller.
 
+**Hvad den skriver tilbage:** den samme liste. Redigér en tegning og eksportér den, og geometrien, teksten med sin formatering, målene, henvisningerne og skraveringerne ryger alle tilbage i DXF-filen, med lag- og linjetypetabellerne i behold — så filen klarer turen frem og tilbage uden at miste sine påtegninger.
+
 **Hvor den kommer til kort — læs dette, før du regner med den:**
 
 - **Kun 2D.** En DXF med 3D-solider eller masker er den forkerte fil til dette værktøj.
 - **Ingen blokke.** Blokreferencer (`INSERT`) behandles ikke, så en tegning bygget af gentagne bloksymboler kommer ind ufuldstændig.
 - **DXF, ikke DWG.** Se afsnittet om DWG nedenfor.
 - **Kun browsere på computer** — Chrome, Firefox, Safari og Edge. Der findes ingen mobilversion.
-- **DXF-eksport indeholder kun geometri.** Redigerer du og eksporterer tilbage til DXF, udelades skraveringer, mål, henvisninger og tekst. Eksportér til det indbyggede JSON-format, hvis alt skal bevares, eller til PDF, hvis du bare skal dele.
 
 Er noget af det afgørende for dig, er du bedre tjent med et af værktøjerne til computeren nedenfor.
 

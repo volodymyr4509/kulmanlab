@@ -22,7 +22,7 @@ Quando ti serve solo qualcosa di leggibile da spedire:
 
 Fatto. L'anteprima è renderizzata dallo stesso percorso di codice e alla stessa risoluzione del file esportato, quindi quello che vedi è quello che ottieni, non un'approssimazione.
 
-Una cosa vale la pena saperla: a differenza dell'esportazione DXF, **il PDF conserva tutto ciò che è a schermo** — quote, testo, campiture, direttrici. Se il disegno è annotato, il PDF è il formato che si porta dietro l'annotazione.
+Una cosa vale la pena saperla: **il PDF conserva tutto ciò che è a schermo** — quote, testo, campiture, direttrici — disposto esattamente come disegnato. Anche l'esportazione DXF porta con sé tutto questo, quindi la scelta tra i due non riguarda cosa sopravvive. Riguarda cosa serve a chi lo riceve: PDF se deve solo leggerlo o stamparlo, DXF se deve modificarlo.
 
 ## La via giusta: convertire a una scala esatta
 

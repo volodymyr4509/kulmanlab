@@ -75,7 +75,7 @@ Quando ne richiedi uno, conviene indicare una versione. **Il DXF R12 è il più 
 
 Se hai un `.dwg`, questo non lo aprirà. Se hai un `.dxf`, puoi aprirlo in una scheda del browser senza installare niente: [app.kulmanlab.com](https://app.kulmanlab.com).
 
-Quello che riscrive è geometria più testo: linee, cerchi, archi, ellissi, polilinee, spline e testo, insieme a layer e tipi di linea. Campiture, quote e direttrici al momento non finiscono nel DXF esportato.
+Quello che riscrive è l'intero disegno: linee, cerchi, archi, ellissi, polilinee, spline, testo con la sua formattazione, quote, direttrici e campiture, insieme a layer e tipi di linea. Un file aperto qui ed esportato di nuovo esce con le sue annotazioni, non ridotto a sola geometria.
 
 ---
 

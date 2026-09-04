@@ -75,7 +75,7 @@ Als je erom vraagt, is het nuttig een versie te noemen. **DXF R12 is het veiligs
 
 Heb je een `.dwg`, dan opent dit hem niet. Heb je een `.dxf`, dan open je hem in een browsertabblad zonder iets te installeren: [app.kulmanlab.com](https://app.kulmanlab.com).
 
-Wat het terugschrijft is geometrie plus tekst — lijnen, cirkels, bogen, ellipsen, polylijnen, splines en tekst, samen met lagen en lijntypen. Arceringen, maatvoering en leaders belanden voorlopig niet in de geëxporteerde DXF.
+Wat het terugschrijft is de hele tekening — lijnen, cirkels, bogen, ellipsen, polylijnen, splines, tekst met opmaak, maatvoering, leaders en arceringen, samen met lagen en lijntypen. Een bestand dat hier wordt geopend en opnieuw geëxporteerd, vertrekt met zijn annotaties en niet teruggebracht tot kale geometrie.
 
 ---
 

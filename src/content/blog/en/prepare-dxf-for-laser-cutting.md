@@ -53,12 +53,12 @@ Two ways to handle it:
 
 If tolerance matters, cut one test piece before committing material.
 
-## What does not survive DXF export
+## What to check about DXF export
 
 Worth knowing before you rely on it:
 
-- **Text is not exported to DXF.** If you were planning engraved lettering, it won't be in the file. Convert lettering to outlines in another tool, or use a service that accepts SVG for the engrave layer.
-- **Hatches and dimensions are not exported either.** For a cut file this is what you want — but don't assume a hatched region will become an engraved fill, because it won't be in the file at all.
+- **Annotation exports now — so clear it out yourself.** Text, dimensions, leaders and hatches all go into the exported DXF. That is what you want for a general handoff, but for a cut file it means anything you left in the drawing really will be in the file. The export no longer quietly strips it for you, so delete it, or keep it on layers you remove before exporting.
+- **Text lands as `MTEXT`, which is not the same as engravable geometry.** Lettering exports with its formatting intact, but plenty of machine software wants outlines rather than live text on an engrave layer. Check what yours accepts before planning engraved lettering around it.
 - **Block references don't import.** A drawing built from repeated block symbols arrives incomplete, so check part counts against the original.
 
 Splines *do* export. Some machine software handles them poorly and prefers polylines — if yours does, redraw curves as polylines or arcs.

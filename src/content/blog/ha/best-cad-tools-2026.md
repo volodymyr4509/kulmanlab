@@ -113,13 +113,13 @@ Kayan aikinmu ne, don haka karanta wannan sashe da tuna hakan. KulmanLab editan 
 - Cikakken kayan aikin 2D: layuka, layuka masu yawa da sassan baka, da'ira, baka, ellipse, spline, cika tare da ɗakin karatu na alamu na `.pat`, da cikakken saitin ma'auni (madaidaici, mai jeri, radius, diamita, kusurwa, ci gaba).
 - Matakai masu daskarewa, kullewa, keɓewa, launi, nau'in layi da kaurin layi; manne wa abubuwa; gyara ta hannaye tare da matsawa daidai da aka rubuta.
 - Tsare-tsaren sararin takarda tare da tagogin kallo da saitin shafi, sannan bugawa ko fitarwa zuwa PDF/PNG — har da salon bugawa na launi ɗaya da na shuɗin zane.
+- Cikakkiyar tafiya ta DXF zuwa da dawowa: rubutu, ma'auni, layukan nuni da lallausan zane duk suna tsira daga fitarwa, ba siffofi kawai ba, don haka zanen da ke da bayanai zai iya komawa ga wanda ya aiko da shi.
 - Fayiloli ba sa barin kwamfutarka ko kaɗan, wanda hakan yana da muhimmanci idan zane-zanenka na ƙarƙashin yarjejeniyar sirri ne. Bayan ɗaukar farko yana aiki ba tare da intanet ba.
 
 **Rauni:**
 
 - **2D kaɗai.** Babu gina 3D ko kaɗan, kuma ba a shirya yin sa ba.
 - **DXF, ba DWG ba.** Idan abokan aikinka suna aika DWG, za ka buƙaci wani abu dabam don juya shi da farko.
-- **Fitar da DXF bai cika ba.** Siffofi, matakai da halaye suna tafiya da dawowa cikin tsafta, amma cika, ma'auni, layukan nuni da rubutu har yanzu ba a rubuta su cikin DXF ɗin da aka fitar ba — tsarin JSON na asali yana adana su, kuma JSON yana buɗewa a KulmanLab kaɗai.
 - **Burauzoji na kwamfuta kaɗai,** kuma zane-zane suna zaune a ma'ajiyar cikin gida ta wannan burauzar — share bayanan burauza yana goge su, don haka fitar da duk abin da kake son adanawa.
 
 **Ya fi dacewa ga:** Buɗe, yin alama, da fitar da DXF cikin sauri; ƙananan ayyukan zane na 2D; ayyukan CNC, yankan laser da ƙera; zane a kwamfuta kulle inda ba za ka iya shigar da manhaja ba. Ba ta maye gurbin kunshin zane na samarwa a babban aiki mai haɗin kai da yawa.

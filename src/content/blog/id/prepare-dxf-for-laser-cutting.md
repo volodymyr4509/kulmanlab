@@ -53,12 +53,12 @@ Ada dua cara menanganinya:
 
 Kalau toleransi itu penting, potong satu benda uji sebelum mengorbankan material.
 
-## Apa yang tidak selamat saat ekspor DXF
+## Yang perlu dicek pada ekspor DXF
 
 Perlu diketahui sebelum Anda mengandalkannya:
 
-- **Teks tidak diekspor ke DXF.** Jika Anda merencanakan huruf terukir, huruf itu tidak akan ada di file. Ubah teks menjadi kontur di perangkat lain, atau pakai jasa yang menerima SVG untuk layer ukir.
-- **Arsiran dan dimensi juga tidak diekspor.** Untuk file potong itu justru yang diinginkan — tetapi jangan menganggap area berarsir akan menjadi isian ukiran, karena ia sama sekali tidak ada di file.
+- **Anotasi kini ikut terekspor — bersihkan sendiri.** Teks, dimensi, leader, dan arsiran semuanya masuk ke DXF hasil ekspor. Untuk serah terima biasa itu justru yang Anda mau, tapi untuk berkas potong artinya apa pun yang Anda tinggalkan di gambar benar-benar ada di berkas. Ekspor tidak lagi diam-diam membuangkannya untuk Anda, jadi hapuslah, atau simpan di layer yang Anda buang sebelum mengekspor.
+- **Teks keluar sebagai `MTEXT`, dan itu bukan geometri yang bisa digravir.** Huruf terekspor lengkap dengan formatnya, tapi banyak perangkat lunak mesin menginginkan outline alih-alih teks hidup di layer engrave. Cek dulu apa yang diterima milik Anda sebelum merencanakan gravir di atasnya.
 - **Referensi blok tidak diimpor.** Gambar yang disusun dari simbol blok berulang masuk dalam keadaan tidak lengkap, jadi cocokkan jumlah komponen dengan aslinya.
 
 Spline *memang* diekspor. Sebagian perangkat lunak mesin menanganinya dengan buruk dan lebih menyukai polyline — kalau punya Anda begitu, gambar ulang kurvanya sebagai polyline atau busur.

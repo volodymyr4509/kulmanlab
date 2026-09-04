@@ -75,7 +75,7 @@ Når du ber om en, er det verdt å nevne en versjon. **DXF R12 er tryggest** —
 
 Har du en `.dwg`, åpner ikke dette den. Har du en `.dxf`, åpner du den i en nettleserfane uten å installere noe: [app.kulmanlab.com](https://app.kulmanlab.com).
 
-Det som skrives tilbake er geometri pluss tekst — linjer, sirkler, buer, ellipser, polylinjer, splines og tekst, sammen med lag og linjetyper. Skravering, mål og henvisninger havner foreløpig ikke i den eksporterte DXF-filen.
+Det som skrives tilbake er hele tegningen — linjer, sirkler, buer, ellipser, polylinjer, splines, tekst med formateringen sin, mål, henvisninger og skravering, sammen med lag og linjetyper. En fil som åpnes her og eksporteres på nytt, forlater programmet med påtegningene sine, ikke redusert til ren geometri.
 
 ---
 

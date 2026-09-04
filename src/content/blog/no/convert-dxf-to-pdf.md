@@ -22,7 +22,7 @@ Når du bare trenger noe lesbart å sende:
 
 Det var det. Forhåndsvisningen tegnes gjennom nøyaktig samme kodevei og i samme oppløsning som den eksporterte filen, så det du ser er det du får, ikke en tilnærming.
 
-Én ting er verdt å vite: i motsetning til DXF-eksport **beholder PDF-en alt som står på skjermen** — mål, tekst, skravering, henvisninger. Er tegningen påført tekst, er PDF formatet som tar den med seg.
+Én ting er verdt å vite: **PDF-en beholder alt som står på skjermen** — mål, tekst, skravering, henvisninger — satt opp nøyaktig som tegnet. DXF-eksporten tar også alt dette med seg, så valget mellom dem handler ikke om hva som overlever. Det handler om hva mottakeren trenger: PDF hvis den bare skal leses eller skrives ut, DXF hvis den skal redigeres.
 
 ## Den riktige veien: konvertere i eksakt målestokk
 

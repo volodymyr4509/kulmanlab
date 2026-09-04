@@ -113,13 +113,13 @@ Vårt eget verktyg, så läs det här avsnittet med det i åtanke. KulmanLab är
 - Hela 2D-verktygslådan: linjer, polylinjer med bågsegment, cirklar, bågar, ellipser, splines, skraffering med ett `.pat`-mönsterbibliotek och den kompletta måttsättningen (linjär, riktad, radie, diameter, vinkel, fortsatt).
 - Lager med frysning, låsning, isolering, färg, linjetyp och linjebredd; objektfästen; handtagsredigering med exakt inskriven förflyttning.
 - Layouter i pappersrymd med vyfönster och sidinställning, sedan utskrift eller export till PDF/PNG — inklusive utskriftsstilarna monokrom och blåkopia.
+- En komplett DXF-tur och retur: text, mått, hänvisningar och skrafferingar överlever alla exporten, inte bara den nakna geometrin, så en ritning med anteckningar kan gå tillbaka till den som skickade den.
 - Filerna lämnar aldrig din maskin, vilket spelar roll om dina ritningar omfattas av sekretessavtal. Efter första laddningen fungerar det offline.
 
 **Svagheter:**
 
 - **Endast 2D.** Ingen 3D-modellering, och ingen är planerad.
 - **DXF, inte DWG.** Om dina samarbetspartner skickar DWG behöver du något annat för att konvertera först.
-- **DXF-exporten är ofullständig.** Geometri, lager och egenskaper går fram och tillbaka utan problem, men skrafferingar, mått, hänvisningslinjer och text skrivs ännu inte till den exporterade DXF-filen — det egna JSON-formatet bevarar dem, och JSON öppnas bara i KulmanLab.
 - **Endast skrivbordswebbläsare,** och ritningarna lever i den webbläsarens lokala lagring — rensar du webbläsardata försvinner de, så exportera allt du vill behålla.
 
 **Bäst för:** Att snabbt öppna, markera upp och exportera en DXF; små 2D-ritningsjobb; CNC, laserskärning och tillverkning; att rita på en låst maskin där du inte kan installera programvara. Ersätter inte en produktionsritningssvit i ett stort samordnat projekt.

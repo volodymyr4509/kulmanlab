@@ -33,13 +33,14 @@ From there you can pan and zoom, toggle layers, measure distances and angles, ed
 
 **What it reads from a DXF:** lines, circles, arcs, ellipses, polylines, splines, text, dimensions, multileaders, and hatches, plus the file's layer and linetype tables.
 
+**What it writes back:** the same list. Edit a drawing and export it, and the geometry, text with its formatting, dimensions, leaders and hatches all go back into the DXF, with the layer and linetype tables intact — so a file makes the round trip without losing its annotation.
+
 **Where it falls short — read this before relying on it:**
 
 - **2D only.** A DXF containing 3D solids or meshes is the wrong file for this tool.
 - **No blocks.** Block references (`INSERT`) are not parsed, so a drawing built from repeated block symbols will come in incomplete.
 - **DXF, not DWG.** See the DWG section below.
 - **Desktop browsers only** — Chrome, Firefox, Safari, and Edge. There is no mobile version.
-- **DXF export is geometry-only.** If you edit and export back to DXF, hatches, dimensions, leaders, and text are left out. Export to the native JSON format instead if you need to keep everything, or to PDF if you just need to share it.
 
 If any of those are dealbreakers, one of the desktop tools below will serve you better.
 

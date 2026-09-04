@@ -53,12 +53,12 @@ Twee manieren om ermee om te gaan:
 
 Is tolerantie belangrijk, snij dan een proefstuk voordat je materiaal vastlegt.
 
-## Wat de DXF-export niet overleeft
+## Wat je bij DXF-export moet controleren
 
 Goed om te weten voordat je erop vertrouwt:
 
-- **Tekst wordt niet naar DXF geëxporteerd.** Had je gegraveerde letters in gedachten, dan zitten ze niet in het bestand. Zet tekst in een ander programma om naar contouren, of gebruik een dienst die SVG accepteert voor de graveerlaag.
-- **Arceringen en maatvoering worden evenmin geëxporteerd.** Voor een snijbestand is dat precies goed — maar ga er niet van uit dat een gearceerd gebied een gegraveerde vulling wordt, want het staat helemaal niet in het bestand.
+- **Annotatie wordt nu wél geëxporteerd — ruim haar zelf op.** Tekst, maatvoering, leaders en arceringen gaan allemaal mee de geëxporteerde DXF in. Voor een gewone overdracht is dat precies wat je wilt, maar voor een snijbestand betekent het dat alles wat je in de tekening liet staan er echt in zit. De export haalt het niet langer stilletjes voor je weg, dus verwijder het, of houd het op lagen die je vóór het exporteren weghaalt.
+- **Tekst komt eruit als `MTEXT`, en dat is niet hetzelfde als graveerbare geometrie.** Het letterwerk wordt met opmaak en al geëxporteerd, maar heel wat machinesoftware wil contouren in plaats van levende tekst op een graveerlaag. Ga na wat de jouwe accepteert voordat je daar een gravure op baseert.
 - **Blockverwijzingen worden niet geïmporteerd.** Een tekening die uit herhaalde blocksymbolen is opgebouwd komt onvolledig binnen, dus controleer het aantal onderdelen tegen het origineel.
 
 Splines *worden* wel geëxporteerd. Sommige machinesoftware gaat er slecht mee om en werkt liever met polylijnen — is dat bij jou zo, teken de krommen dan opnieuw als polylijnen of bogen.

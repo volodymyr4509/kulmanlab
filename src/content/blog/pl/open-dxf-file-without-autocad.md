@@ -33,13 +33,14 @@ Dalej możesz przesuwać widok i przybliżać, włączać i wyłączać warstwy,
 
 **Co odczytuje z DXF:** linie, okręgi, łuki, elipsy, polilinie, splajny, tekst, wymiary, odnośniki wielokrotne i kreskowania, a do tego tablice warstw i rodzajów linii z pliku.
 
+**Co zapisuje z powrotem:** tę samą listę. Zmodyfikuj rysunek i wyeksportuj go, a geometria, tekst wraz z formatowaniem, wymiary, odnośniki i kreskowania wracają w całości do DXF, wraz z nienaruszonymi tabelami warstw i rodzajów linii — plik odbywa więc podróż w obie strony, nie tracąc opisów.
+
 **Gdzie ma braki — przeczytaj, zanim na tym polegniesz:**
 
 - **Tylko 2D.** DXF zawierający bryły lub siatki 3D to zły plik dla tego narzędzia.
 - **Brak bloków.** Odwołania do bloków (`INSERT`) nie są przetwarzane, więc rysunek zbudowany z powtarzalnych symboli blokowych wczyta się niekompletny.
 - **DXF, nie DWG.** Zobacz sekcję o DWG poniżej.
 - **Tylko przeglądarki desktopowe** — Chrome, Firefox, Safari i Edge. Wersji mobilnej nie ma.
-- **Eksport do DXF zawiera samą geometrię.** Jeśli edytujesz i wyeksportujesz z powrotem do DXF, poza plikiem zostaną kreskowania, wymiary, odnośniki i tekst. Wyeksportuj do natywnego formatu JSON, jeśli chcesz zachować wszystko, albo do PDF, jeśli chodzi tylko o udostępnienie.
 
 Jeśli któryś z tych punktów jest dla ciebie rozstrzygający, lepiej posłuży ci jedno z poniższych narzędzi desktopowych.
 

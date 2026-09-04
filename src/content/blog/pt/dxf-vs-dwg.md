@@ -75,7 +75,7 @@ O [KulmanLab](https://kulmanlab.com/pt/) lê **DXF, não DWG**, e vale dizer por
 
 Se você tem um `.dwg`, isto não vai abri-lo. Se você tem um `.dxf`, dá para abrir numa aba do navegador sem instalar nada: [app.kulmanlab.com](https://app.kulmanlab.com).
 
-O que ele escreve de volta é geometria mais texto: linhas, círculos, arcos, elipses, polilinhas, splines e texto, junto com camadas e tipos de linha. Hachuras, cotas e diretrizes por enquanto não entram no DXF exportado.
+O que ele escreve de volta é o desenho inteiro: linhas, círculos, arcos, elipses, polilinhas, splines, texto com sua formatação, cotas, diretrizes e hachuras, junto com camadas e tipos de linha. Um desenho aberto aqui e exportado de novo sai com suas anotações, e não reduzido a geometria pura.
 
 ---
 

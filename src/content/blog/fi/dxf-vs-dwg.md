@@ -75,7 +75,7 @@ Kun pyydät, kannattaa mainita versio. **DXF R12 on turvallisin** — ikivanha, 
 
 Jos sinulla on `.dwg`, tämä ei avaa sitä. Jos sinulla on `.dxf`, avaat sen selaimen välilehdessä ilman asennuksia: [app.kulmanlab.com](https://app.kulmanlab.com).
 
-Ulos se kirjoittaa geometriaa ja tekstiä — viivat, ympyrät, kaaret, ellipsit, murtoviivat, splinit ja tekstit sekä tasot ja viivatyypit. Rasteroinnit, mitat ja osoitusviivat eivät tällä hetkellä päädy vietyyn DXF-tiedostoon.
+Ulos se kirjoittaa koko piirustuksen — viivat, ympyrät, kaaret, ellipsit, murtoviivat, splinit, tekstin muotoiluineen, mitat, osoitusviivat ja rasteroinnit sekä tasot ja viivatyypit. Täällä avattu ja uudelleen viety tiedosto lähtee merkintöineen, ei pelkäksi geometriaksi riisuttuna.
 
 ---
 

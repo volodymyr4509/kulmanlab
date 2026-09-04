@@ -75,7 +75,7 @@ When you do request one, it's worth naming a version. **DXF R12 is the safest** 
 
 If you have a `.dwg`, this won't open it. If you have a `.dxf`, you can open it in a browser tab with nothing to install: [app.kulmanlab.com](https://app.kulmanlab.com).
 
-What it writes back out is geometry plus text — lines, circles, arcs, ellipses, polylines, splines and text, along with layers and linetypes. Hatches, dimensions and leaders don't currently make it into the exported DXF.
+What it writes back out is the whole drawing — lines, circles, arcs, ellipses, polylines, splines, text with its formatting, dimensions, leaders and hatches, along with layers and linetypes. A file opened here and exported again leaves with its annotation, not stripped back to bare geometry.
 
 ---
 

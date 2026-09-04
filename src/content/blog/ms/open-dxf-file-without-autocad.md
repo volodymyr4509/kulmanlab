@@ -33,13 +33,14 @@ Dari situ anda boleh mengalih dan mengezum, menghidup dan mematikan lapisan, men
 
 **Apa yang dibaca daripada DXF:** garis, bulatan, lengkok, elips, poligaris, splin, teks, dimensi, penunjuk berbilang dan lorekan, di samping jadual lapisan dan jenis garis fail tersebut.
 
+**Apa yang ditulis semula:** senarai yang sama. Sunting lukisan lalu eksport, dan geometri, teks berserta formatnya, dimensi, penunjuk serta lorekan semuanya kembali ke dalam DXF, dengan jadual lapisan dan jenis garis utuh — jadi fail itu menyelesaikan perjalanan pergi balik tanpa kehilangan anotasinya.
+
 **Di mana kelemahannya — baca ini sebelum bergantung padanya:**
 
 - **2D sahaja.** DXF yang mengandungi pepejal atau jejaring 3D ialah fail yang salah untuk alat ini.
 - **Tiada blok.** Rujukan blok (`INSERT`) tidak dihurai, jadi lukisan yang dibina daripada simbol blok berulang akan masuk secara tidak lengkap.
 - **DXF, bukan DWG.** Lihat bahagian DWG di bawah.
 - **Pelayar desktop sahaja** — Chrome, Firefox, Safari dan Edge. Tiada versi mudah alih.
-- **Eksport DXF membawa geometri sahaja.** Jika anda menyunting dan mengeksport semula ke DXF, lorekan, dimensi, penunjuk dan teks akan tertinggal. Eksport ke format JSON asli jika semuanya perlu dikekalkan, atau ke PDF jika anda hanya mahu berkongsi.
 
 Jika mana-mana perkara itu penentu bagi anda, salah satu alat desktop di bawah akan lebih sesuai.
 

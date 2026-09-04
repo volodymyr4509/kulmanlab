@@ -320,7 +320,7 @@ Your saved drawings will be lost. Always export a JSON copy of anything importan
 KulmanLab supports DXF (Drawing Exchange Format), not the proprietary DWG format. Most desktop CAD applications can export DXF, so export from your source app first.
 
 **Which export formats are available?**
-DXF and JSON via Export Manager — DXF for round-tripping with other CAD tools, JSON for full-fidelity saves (including dimensions and leaders) within KulmanLab. Print Manager separately exports PNG, JPEG, WebP, or PDF images, with an optional area crop and monochrome toggle.
+DXF and JSON via Export Manager. Both carry every entity type — geometry, text with its formatting, dimensions, leaders and hatches, plus layers and linetypes — so DXF is for round-tripping with other CAD tools and JSON for saves that reopen exactly in KulmanLab. Print Manager separately exports PNG, JPEG, WebP, or PDF images, with an optional area crop and monochrome toggle.
 
 **Does it have a command terminal?**
 Yes. Type commands directly — LINE, CIRCLE, MOVE, TRIM, and 50+ others. The terminal supports history (arrow keys), autocomplete (Tab), and exact numeric input.

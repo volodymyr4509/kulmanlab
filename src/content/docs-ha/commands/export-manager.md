@@ -1,6 +1,6 @@
 ---
 title: "Export Manager — Sauke Zane a matsayin DXF ko JSON"
-description: "Export Manager yana sauke zanen na yanzu a matsayin fayil na DXF ko JSON (na asali). Kowane tsari yana lissafa ainihin nau'ikan entities da yake ɗauka, kusa da juna, domin ka gani kafin sauke abin da DXF ke barin — a yanzu Hatches, Dimensions, Leaders, da Text."
+description: Sauke zane a matsayin DXF ko JSON. Duk biyu suna ɗauke da kowane abu — siffofi, rubutu, ma'auni, layukan nuni, lallausan zane — tare da sassa da nau'ikan layi.
 keywords: [fitar da DXF, fitar da fayil na CAD, sauke DXF ta burauza, adana DXF ta kan layi, fitar da JSON CAD, fitarwar KulmanLab, sauke fayil na CAD, fitar da DXF, adana zane a fayil, sauke DXF]
 group: file
 order: 6
@@ -13,7 +13,7 @@ Umarnin `exportmanager` yana sauke zanen na yanzu zuwa tsarin fayil ɗinka. Akwa
 ## Yadda ake fitarwa
 
 1. Danna maɓallin **Export** na kayan aiki (aikon sauke) a cikin panel na fayil, ko rubuta `exportmanager` a tashar umarni.
-2. Popup ɗin **Export Manager** yana buɗewa yana nuna katunan JSON da DXF kusa da juna, kowanne yana lissafa abin da ake fitarwa (kuma, ga DXF, abin da ake barin).
+2. Popup ɗin **Export Manager** yana buɗewa yana nuna katunan JSON da DXF kusa da juna, kowanne yana lissafa abin da ake fitarwa.
 3. Danna kati don zaɓar tsari — **JSON** ko **DXF**.
 4. Danna maɓallin **Export \<FORMAT\>**. Ana sauke fayil ɗin kai tsaye zuwa babban fayil na saukewa naka.
 
@@ -24,7 +24,7 @@ Danna `Escape` don rufe popup ɗin ba tare da fitarwa ba.
 | Tsari | Ƙari | Mafi kyau don | Iyakoki |
 |-------|------|----------------|---------|
 | **JSON** *(na asali)* | `.json` | Ajiye aiki don sake buɗewa a KulmanLab CAD | Ba ya dacewa da sauran kayan aikin CAD |
-| **DXF** | `.dxf` | Raba tare da FreeCAD, LibreCAD, da sauransu | Hatches, Dimensions, Leaders, da Text ba a fitar dasu ba |
+| **DXF** | `.dxf` | Raba tare da FreeCAD, LibreCAD, da sauransu | Nawa ke tsira ya dogara ga manhajar da ta karɓa |
 
 **Yaushe za a yi amfani da JSON:** duk lokacin da kake son ajiye cikakkiyar kwafin aikinka. JSON shine tsarin asali na KulmanLab kuma yana dawwamar da kowace entity daidai — ciki har da Dimensions, Leaders, Hatches, da duk bayanan Layer.
 
@@ -45,12 +45,18 @@ Kowane nau'in entity yana ciki:
 
 ### Fitar da DXF
 
-Kawai entities na geometry ne ake ciki:
+Kowane nau'in entity yana ciki:
 
 - Lines, Circles, Arcs, Ellipses, Polylines (ana fitar dasu a matsayin `LWPOLYLINE`), Splines
+- Text
+- Dimensions (madaidaici, daidaitacce, ci gaba, radius, diameter)
+- Leaders (multileaders)
+- Hatches, ciki har da pattern, scale, angle, da origin nasu
 - Layers da Linetypes
 
-**Ba a fitar zuwa DXF ba:** Hatches, Dimensions, Leaders, da Text. Dimensions da Leaders suna amfani da tsarin bayanai na musamman na KulmanLab wanda ba za a iya wakilta daidai a cikin DXF na yau da kullum ba; ba a fitar da Hatches zuwa DXF ko kaɗan ba tukuna, ko da yake ana shigo dasu daga can; fitar da Text ma ba a aiwatar dashi ba tukuna. Idan zanenka yana da ɗayan waɗannan, yi amfani da JSON ko [Print Manager](../print-manager/) don kama su.
+Ana rubuta fayil ɗin a matsayin DXF na AC1032, don haka zanen da aka fitar daga KulmanLab yana buɗewa a wasu kayan aikin da ke goyon bayan DXF tare da bayanansa cikakke, ba a matsayin siffofi kawai ba.
+
+Abin da kowace manhajar da ta karɓa za ta yi da shi kuma ya bambanta — goyon bayan DXF ya sha bamban tsakanin kayan aiki, kuma tsohuwar na iya ƙyale abubuwan da sabuwar take karantawa. Idan dole zane ya zama iri ɗaya a ko'ina, [Print Manager](../print-manager/) yana ɗaukarsa a matsayin PDF ko hoto maimakon haka.
 
 ## Sunan fayil ɗin da aka fitar
 
@@ -63,7 +69,7 @@ Ana sanya wa fayil ɗin da aka sauke suna bisa fayil ɗin zane na yanzu (misali 
 | Fitarwa | Fayil na tushen vector (.dxf / .json) | Hoton raster (.png / .jpeg / .webp / .pdf) |
 | Ana iya gyara a wasu kayan aiki | Eh (DXF) | A'a |
 | Yana dawwamar da Layers & Linetypes | Eh | A'a (an rendar shi lebur) |
-| Yana kama Dimensions & Leaders | JSON kawai | Eh |
+| Yana kama Dimensions & Leaders | Eh | Eh |
 
 Yi amfani da **Export Manager** lokacin da kake buƙatar fayil da za a iya gyarawa. Yi amfani da [Print Manager](../print-manager/) lokacin da kake buƙatar hoton gani.
 

@@ -33,13 +33,14 @@ Mula roon maaari kang mag-pan at mag-zoom, buksan at isara ang mga layer, sumuka
 
 **Ang binabasa nito mula sa isang DXF:** mga linya, bilog, arko, elipse, polyline, spline, teksto, sukat, multileader, at hatch, kasama ang mga talaan ng layer at uri ng linya ng file.
 
+**Ang isinusulat nitong pabalik:** ang parehong listahan. I-edit ang isang guhit at i-export ito, at ang heometriya, ang teksto kasama ang pormat nito, ang mga sukat, ang mga leader at ang hatch ay babalik lahat sa DXF, buo ang mga talaan ng layer at uri ng linya — kaya nakakabalik-balik ang file nang hindi nawawala ang anotasyon nito.
+
 **Kung saan ito kulang — basahin ito bago ka umasa rito:**
 
 - **2D lamang.** Ang DXF na naglalaman ng 3D solids o mesh ay maling file para sa kasangkapang ito.
 - **Walang blocks.** Hindi binabasa ang block references (`INSERT`), kaya ang guhit na binuo mula sa paulit-ulit na block symbols ay papasok nang kulang.
 - **DXF, hindi DWG.** Tingnan ang bahagi tungkol sa DWG sa ibaba.
 - **Mga desktop browser lamang** — Chrome, Firefox, Safari at Edge. Walang bersyon para sa mobile.
-- **Ang pag-export sa DXF ay heometriya lamang.** Kung mag-e-edit ka at mag-e-export pabalik sa DXF, maiiwan ang hatch, sukat, leader, at teksto. Mag-export sa katutubong pormat na JSON kung kailangang mapanatili ang lahat, o sa PDF kung ibabahagi mo lang.
 
 Kung alinman sa mga iyon ang mapagpasya para sa iyo, mas mabuting pagsilbihan ka ng isa sa mga desktop na kasangkapan sa ibaba.
 

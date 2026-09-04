@@ -113,13 +113,13 @@ Niente da scaricare, niente da licenziare per macchina, e lo stesso strumento su
 - L'intero corredo 2D: linee, polilinee con segmenti d'arco, cerchi, archi, ellissi, spline, campiture con una libreria di pattern `.pat` e la serie completa di quote (lineare, allineata, raggio, diametro, angolare, continua).
 - Layer con congelamento, blocco, isolamento, colore, tipo e spessore di linea; snap agli oggetti; modifica tramite grip con spostamento esatto digitato.
 - Layout in spazio carta con finestre e impostazione pagina, poi stampa o esportazione in PDF/PNG — inclusi gli stili di stampa monocromatico e blueprint.
+- Un giro DXF completo di andata e ritorno: testo, quote, direttrici e campiture sopravvivono tutti all'esportazione, non solo la geometria nuda, così un disegno annotato può tornare a chi l'ha mandato.
 - I file non lasciano mai la tua macchina, il che conta se i disegni sono sotto NDA. Dopo il primo caricamento funziona offline.
 
 **Punti deboli:**
 
 - **Solo 2D.** Nessuna modellazione 3D, e non è prevista.
 - **DXF, non DWG.** Se i tuoi interlocutori mandano DWG, ti servirà prima qualcos'altro per convertirlo.
-- **L'esportazione DXF è incompleta.** Geometria, layer e proprietà fanno andata e ritorno senza problemi, ma campiture, quote, direttrici e testo non vengono ancora scritti nel DXF esportato — il formato JSON nativo li conserva, e il JSON si apre solo in KulmanLab.
 - **Solo browser desktop,** e i disegni vivono nella memoria locale di quel browser — cancellare i dati del browser li elimina, quindi esporta tutto ciò che vuoi conservare.
 
 **Ideale per:** Aprire, annotare ed esportare un DXF rapidamente; piccoli lavori di disegno 2D; CNC, taglio laser e fabbricazione; disegnare su una macchina bloccata dove non puoi installare software. Non sostituisce una suite di disegno di produzione in un grande progetto coordinato.

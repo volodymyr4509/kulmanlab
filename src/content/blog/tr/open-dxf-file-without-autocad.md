@@ -33,13 +33,14 @@ Oradan kaydırma ve yakınlaştırma yapabilir, katmanları açıp kapatabilir, 
 
 **Bir DXF'ten okuduğu şeyler:** çizgiler, daireler, yaylar, elipsler, çoklu çizgiler, spline'lar, metin, ölçüler, çoklu kılavuz çizgileri ve taramalar; ayrıca dosyanın katman ve çizgi tipi tabloları.
 
+**Geri yazdığı şey:** aynı liste. Bir çizimi düzenleyip dışa aktarın; geometri, biçimlendirmesiyle birlikte metin, ölçüler, kılavuz çizgileri ve taramalar hepsi DXF'e geri döner, katman ve çizgi tipi tabloları da bozulmadan kalır — yani dosya, açıklamalarını yitirmeden gidiş dönüşü tamamlar.
+
 **Nerede yetersiz kaldığı — güvenmeden önce okuyun:**
 
 - **Yalnızca 2B.** 3B katı cisimler veya kafesler içeren bir DXF, bu araç için yanlış dosyadır.
 - **Blok yok.** Blok referansları (`INSERT`) işlenmez; tekrar eden blok sembollerinden kurulmuş bir çizim eksik gelir.
 - **DXF, DWG değil.** Aşağıdaki DWG bölümüne bakın.
 - **Yalnızca masaüstü tarayıcılar** — Chrome, Firefox, Safari ve Edge. Mobil sürüm yok.
-- **DXF dışa aktarımı yalnızca geometridir.** Düzenleyip yeniden DXF'e aktarırsanız taramalar, ölçüler, kılavuz çizgileri ve metin dışarıda kalır. Her şeyi korumanız gerekiyorsa yerel JSON biçimine, yalnızca paylaşacaksanız PDF'e aktarın.
 
 Bunlardan biri sizin için belirleyiciyse, aşağıdaki masaüstü araçlarından biri işinizi daha iyi görecektir.
 

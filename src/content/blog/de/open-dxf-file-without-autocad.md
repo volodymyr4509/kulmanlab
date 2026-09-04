@@ -33,13 +33,14 @@ Von dort aus können Sie verschieben und zoomen, Layer ein- und ausblenden, Abst
 
 **Was aus einer DXF gelesen wird:** Linien, Kreise, Bögen, Ellipsen, Polylinien, Splines, Text, Bemaßungen, Multileader und Schraffuren, dazu die Layer- und Linientyptabellen der Datei.
 
+**Was zurückgeschrieben wird:** dieselbe Liste. Bearbeiten Sie eine Zeichnung und exportieren Sie sie, dann gehen Geometrie, Text samt Formatierung, Bemaßungen, Leader und Schraffuren allesamt wieder in die DXF, mitsamt intakten Layer- und Linientyptabellen — die Datei übersteht den Hin- und Rückweg also, ohne ihre Beschriftung zu verlieren.
+
 **Wo es an Grenzen stößt — lesen Sie das, bevor Sie sich darauf verlassen:**
 
 - **Nur 2D.** Eine DXF mit 3D-Volumenkörpern oder Netzen ist für dieses Werkzeug die falsche Datei.
 - **Keine Blöcke.** Blockreferenzen (`INSERT`) werden nicht ausgewertet; eine aus wiederkehrenden Blocksymbolen aufgebaute Zeichnung kommt daher unvollständig an.
 - **DXF, nicht DWG.** Siehe den DWG-Abschnitt weiter unten.
 - **Nur Desktop-Browser** — Chrome, Firefox, Safari und Edge. Eine mobile Version gibt es nicht.
-- **Der DXF-Export enthält nur Geometrie.** Wenn Sie bearbeiten und wieder als DXF exportieren, fehlen Schraffuren, Bemaßungen, Leader und Text. Exportieren Sie stattdessen in das native JSON-Format, wenn alles erhalten bleiben soll, oder als PDF, wenn Sie nur weitergeben möchten.
 
 Falls einer dieser Punkte ein Ausschlusskriterium ist, sind Sie mit einem der Desktop-Programme unten besser bedient.
 

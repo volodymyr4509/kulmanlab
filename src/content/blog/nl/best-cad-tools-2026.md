@@ -113,13 +113,13 @@ Onze eigen tool, dus lees dit onderdeel met dat in gedachten. KulmanLab is een g
 - De volledige 2D-gereedschapskist: lijnen, polylijnen met boogsegmenten, cirkels, bogen, ellipsen, splines, arceringen met een `.pat`-patroonbibliotheek en de complete bematingsset (lineair, uitgelijnd, straal, diameter, hoek, doorlopend).
 - Lagen met bevriezen, vergrendelen, isoleren, kleur, lijntype en lijndikte; objectsnapping; grip-bewerking met exacte getypte verplaatsing.
 - Papierruimte-layouts met viewports en pagina-instelling, en daarna afdrukken of exporteren naar PDF/PNG — inclusief de afdrukstijlen monochroom en blauwdruk.
+- Een volledige DXF-rondgang: tekst, maatvoering, leaders en arceringen overleven allemaal de export, niet alleen de kale geometrie, zodat een geannoteerde tekening terug kan naar wie haar stuurde.
 - Bestanden verlaten je machine nooit, wat telt als je tekeningen onder NDA vallen. Na de eerste keer laden werkt het offline.
 
 **Zwakke punten:**
 
 - **Alleen 2D.** Geen 3D-modellering, en er is er ook geen gepland.
 - **DXF, geen DWG.** Als je samenwerkingspartners DWG sturen, heb je eerst iets anders nodig om het om te zetten.
-- **De DXF-export is onvolledig.** Geometrie, lagen en eigenschappen gaan schoon heen en weer, maar arceringen, maatvoering, verwijslijnen en tekst worden nog niet naar de geëxporteerde DXF geschreven — het eigen JSON-formaat behoudt ze wel, en JSON opent alleen in KulmanLab.
 - **Alleen desktopbrowsers,** en tekeningen leven in de lokale opslag van die browser — je browsergegevens wissen verwijdert ze, dus exporteer alles wat je wilt bewaren.
 
 **Het meest geschikt voor:** Snel een DXF openen, van aantekeningen voorzien en exporteren; kleine 2D-tekenklussen; CNC, lasersnijden en fabricage; tekenen op een dichtgetimmerde machine waar je niets kunt installeren. Geen vervanging voor een productietekensuite in een groot gecoördineerd project.

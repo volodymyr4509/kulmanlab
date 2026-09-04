@@ -113,13 +113,13 @@ Es nuestra propia herramienta, así que lee esta sección teniéndolo en cuenta.
 - El kit 2D completo: líneas, polilíneas con segmentos de arco, círculos, arcos, elipses, splines, sombreados con una biblioteca de patrones `.pat` y el juego completo de acotación (lineal, alineada, radio, diámetro, angular, continua).
 - Capas con inutilizar, bloquear, aislar, color, tipo de línea y grosor de línea; referencia a objetos; edición con pinzamientos y desplazamiento exacto escrito.
 - Presentaciones en espacio papel con ventanas gráficas y configuración de página, y después impresión o exportación a PDF/PNG — incluidos los estilos de impresión monocromo y plano azul.
+- Un ida y vuelta DXF completo: el texto, las cotas, las directrices y los sombreados sobreviven todos a la exportación, no solo la geometría desnuda, así que un plano anotado puede volver a quien lo envió.
 - Los archivos nunca salen de tu máquina, lo que importa si tus dibujos están bajo NDA. Tras la primera carga funciona sin conexión.
 
 **Debilidades:**
 
 - **Solo 2D.** Sin modelado 3D, y no está previsto.
 - **DXF, no DWG.** Si tus colaboradores envían DWG, necesitarás otra cosa para convertirlo primero.
-- **La exportación DXF está incompleta.** La geometría, las capas y las propiedades van y vuelven sin problema, pero los sombreados, las cotas, las directrices y el texto todavía no se escriben en el DXF exportado — el formato JSON nativo sí los conserva, y el JSON solo se abre en KulmanLab.
 - **Solo navegadores de escritorio,** y los dibujos viven en el almacenamiento local de ese navegador — si borras los datos del navegador desaparecen, así que exporta todo lo que quieras conservar.
 
 **Ideal para:** Abrir, anotar y exportar un DXF rápidamente; trabajos pequeños de dibujo 2D; CNC, corte láser y fabricación; dibujar en un equipo restringido donde no puedes instalar software. No sustituye a una suite de dibujo de producción en un proyecto grande y coordinado.

@@ -53,12 +53,12 @@ Duas formas de lidar com isso:
 
 Se a tolerância importa, corte uma peça de teste antes de comprometer o material.
 
-## O que não sobrevive à exportação DXF
+## O que verificar na exportação em DXF
 
 Vale saber antes de contar com isso:
 
-- **Texto não é exportado para DXF.** Se você planejava letras gravadas, elas não estarão no arquivo. Converta o texto em contornos em outra ferramenta, ou use um serviço que aceite SVG para a camada de gravação.
-- **Hachuras e cotas também não são exportadas.** Para um arquivo de corte é exatamente o que se quer — mas não presuma que uma região hachurada virará um preenchimento gravado, porque ela não estará no arquivo de jeito nenhum.
+- **Agora a anotação é exportada — limpe você mesmo.** Texto, cotas, diretrizes e hachuras entram todos no DXF exportado. Para uma entrega comum é exatamente o que se quer, mas num arquivo de corte significa que tudo que você deixou no desenho estará mesmo no arquivo. A exportação não tira mais isso silenciosamente por você, então apague, ou mantenha em camadas que você remove antes de exportar.
+- **O texto sai como `MTEXT`, o que não é o mesmo que geometria gravável.** As letras são exportadas com a formatação intacta, mas muitos softwares de máquina querem contornos em vez de texto vivo numa camada de gravação. Verifique o que o seu aceita antes de planejar gravação em cima disso.
 - **Referências de bloco não são importadas.** Um desenho montado com símbolos de bloco repetidos chega incompleto, então confira a contagem de peças contra o original.
 
 Splines *são* exportadas. Alguns softwares de máquina lidam mal com elas e preferem polilinhas — se for o seu caso, redesenhe as curvas como polilinhas ou arcos.

@@ -53,12 +53,12 @@ Bunu ele almanın iki yolu var:
 
 Tolerans önemliyse malzemeyi bağlamadan önce bir deneme parçası kesin.
 
-## DXF dışa aktarımından sağ çıkmayanlar
+## DXF dışa aktarımında nelere bakmalı
 
 Buna güvenmeden önce bilmekte fayda var:
 
-- **Metin DXF'e aktarılmaz.** Kazınmış yazı planlıyorsanız dosyada olmayacak. Yazıyı başka bir programda konturlara dönüştürün ya da kazıma katmanı için SVG kabul eden bir firma kullanın.
-- **Taramalar ve ölçüler de aktarılmaz.** Bir kesim dosyası için istenen tam olarak budur — ama taranmış bir bölgenin kazınmış dolgu olacağını varsaymayın, çünkü dosyada hiç bulunmayacak.
+- **Açıklamalar artık dışa aktarılıyor — temizliği kendiniz yapın.** Metin, ölçüler, kılavuz çizgileri ve taramalar hepsi dışa aktarılan DXF'e girer. Sıradan bir teslimde istediğiniz tam da budur, ama kesim dosyasında bu, çizimde bıraktığınız her şeyin gerçekten dosyada olacağı anlamına gelir. Dışa aktarım artık bunu sizin yerinize sessizce ayıklamıyor; o yüzden silin ya da dışa aktarmadan önce kaldıracağınız katmanlarda tutun.
+- **Metin `MTEXT` olarak çıkar ve bu, kazınabilir geometriyle aynı şey değildir.** Yazılar biçimlendirmesiyle birlikte aktarılır, ama pek çok makine yazılımı kazıma katmanında canlı metin yerine dış hat ister. Kazımayı buna göre planlamadan önce sizinkinin neyi kabul ettiğini kontrol edin.
 - **Blok referansları içe aktarılmaz.** Tekrar eden blok sembollerinden kurulmuş bir çizim eksik gelir; parça sayısını orijinaliyle karşılaştırın.
 
 Spline'lar *aktarılır*. Bazı makine yazılımları bunları iyi işlemez ve çoklu çizgileri tercih eder — sizinki öyleyse eğrileri çoklu çizgi ya da yay olarak yeniden çizin.

@@ -22,7 +22,7 @@ Kapag kailangan mo lang ng bagay na nababasa para maipadala:
 
 Ayun na. Ang preview ay iginuguhit sa parehong daanan ng code at parehong resolusyon ng file na ie-export, kaya ang nakikita mo ay siyang makukuha mo, hindi tantiya lamang.
 
-May isang bagay na sulit malaman: hindi tulad ng pag-export sa DXF, **iniingatan ng PDF ang lahat ng nasa screen** — mga sukat, teksto, hatch, leader. Kung may anotasyon ang guhit mo, PDF ang pormat na nagdadala ng anotasyong iyon.
+May isang bagay na sulit malaman: **iniingatan ng PDF ang lahat ng nasa screen** — mga sukat, teksto, hatch, leader — nakaayos nang eksakto gaya ng pagkakaguhit. Dala rin ng pag-export sa DXF ang lahat ng iyon, kaya ang pagpili sa dalawa ay hindi tungkol sa kung ano ang matitira. Tungkol ito sa kailangan ng tatanggap: PDF kung babasahin o ipi-print lang, DXF kung kailangang i-edit.
 
 ## Ang tamang paraan: mag-convert sa eksaktong eskala
 

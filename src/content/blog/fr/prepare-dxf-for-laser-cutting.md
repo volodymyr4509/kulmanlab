@@ -53,12 +53,12 @@ Deux façons de gérer cela :
 
 Si la tolérance compte, découpez une pièce d'essai avant d'engager la matière.
 
-## Ce qui ne survit pas à l'export DXF
+## Ce qu'il faut vérifier à l'export DXF
 
 À savoir avant de compter dessus :
 
-- **Le texte n'est pas exporté en DXF.** Si vous comptiez sur un lettrage gravé, il ne sera pas dans le fichier. Vectorisez le texte en contours dans un autre logiciel, ou utilisez un service acceptant le SVG pour le calque de gravure.
-- **Les hachures et les cotations ne sont pas exportées non plus.** Pour un fichier de découpe c'est ce que l'on veut — mais ne supposez pas qu'une zone hachurée deviendra un remplissage gravé : elle ne sera pas du tout dans le fichier.
+- **L'annotation s'exporte désormais — retirez-la vous-même.** Le texte, les cotations, les lignes de repère et les hachures entrent tous dans le DXF exporté. Pour une remise ordinaire c'est exactement ce que vous voulez, mais pour un fichier de découpe cela signifie que tout ce que vous avez laissé dans le dessin s'y trouvera réellement. L'export ne le retire plus discrètement à votre place : supprimez-le, ou gardez-le sur des calques que vous enlevez avant d'exporter.
+- **Le texte sort en `MTEXT`, ce qui n'est pas de la géométrie gravable.** Le lettrage est exporté avec sa mise en forme, mais bien des logiciels machine attendent des contours plutôt que du texte vivant sur un calque de gravure. Vérifiez ce qu'accepte le vôtre avant de bâtir une gravure là-dessus.
 - **Les références de bloc ne sont pas importées.** Un dessin construit à partir de symboles de bloc répétés arrive incomplet ; vérifiez le nombre de pièces par rapport à l'original.
 
 Les splines, elles, *sont* exportées. Certains logiciels de machine les gèrent mal et préfèrent les polylignes — si c'est le cas du vôtre, redessinez les courbes en polylignes ou en arcs.

@@ -113,13 +113,13 @@ Không có gì để tải, không cần bản quyền theo máy, và vẫn là 
 - Bộ công cụ 2D đầy đủ: đường thẳng, đa tuyến có đoạn cung, đường tròn, cung, elip, spline, mặt cắt với thư viện mẫu `.pat`, và trọn bộ ghi kích thước (thẳng, song song, bán kính, đường kính, góc, nối tiếp).
 - Lớp với đóng băng, khóa, cô lập, màu, kiểu nét và bề dày nét; bắt điểm đối tượng; chỉnh bằng điểm nắm với khoảng dời chính xác nhập từ bàn phím.
 - Bố cục không gian giấy với khung nhìn và thiết lập trang, rồi in hoặc xuất PDF/PNG — gồm cả kiểu in đơn sắc và bản vẽ xanh.
+- Một vòng DXF trọn vẹn: không chỉ hình học trơ, mà chữ, kích thước, đường dẫn chú thích và mặt cắt gạch đều sống sót qua bước xuất, nên bản vẽ có chú giải có thể quay lại với người đã gửi nó.
 - Tệp không bao giờ rời khỏi máy bạn, điều này quan trọng nếu bản vẽ của bạn thuộc diện bảo mật. Sau lần tải đầu tiên, nó hoạt động ngoại tuyến.
 
 **Điểm yếu:**
 
 - **Chỉ 2D.** Không có dựng hình 3D, và cũng không có kế hoạch làm.
 - **DXF, không phải DWG.** Nếu đối tác gửi DWG, bạn cần một công cụ khác để chuyển đổi trước.
-- **Xuất DXF chưa đầy đủ.** Hình học, lớp và thuộc tính đi về sạch sẽ, nhưng mặt cắt, kích thước, đường dẫn chú thích và văn bản hiện chưa được ghi vào tệp DXF xuất ra — định dạng JSON riêng giữ lại tất cả những thứ đó, và JSON chỉ mở được trong KulmanLab.
 - **Chỉ trình duyệt máy tính,** và bản vẽ nằm trong bộ nhớ cục bộ của trình duyệt đó — xóa dữ liệu trình duyệt là mất, nên hãy xuất ra mọi thứ bạn muốn giữ.
 
 **Phù hợp nhất với:** Mở, đánh dấu và xuất một tệp DXF thật nhanh; các công việc vẽ 2D quy mô nhỏ; công việc CNC, cắt laser và gia công; vẽ trên máy bị khóa quyền cài phần mềm. Không thay thế được bộ phần mềm triển khai bản vẽ sản xuất trong một dự án lớn có nhiều bên phối hợp.

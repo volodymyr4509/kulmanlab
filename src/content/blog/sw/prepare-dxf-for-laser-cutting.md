@@ -53,12 +53,12 @@ Kuna njia mbili za kushughulikia hili:
 
 Kama uvumilivu wa kipimo ni muhimu, kata kipande cha majaribio kabla ya kutumia nyenzo halisi.
 
-## Kisichonusurika katika uhamishaji wa DXF
+## Cha kuangalia katika uhamishaji wa DXF
 
 Inafaa kujua kabla ya kukitegemea:
 
-- **Maandishi hayahamishwi kwenda DXF.** Kama ulipanga herufi za kuchonga, hazitakuwa kwenye faili. Geuza maandishi kuwa mizingo katika zana nyingine, au tumia huduma inayokubali SVG kwa tabaka la kuchonga.
-- **Uwekaji mistari na vipimo navyo havihamishwi.** Kwa faili ya kukata hilo ndilo hasa unalotaka — lakini usidhani eneo lenye mistari litakuwa ujazo uliochongwa, kwa sababu halitakuwa kwenye faili kabisa.
+- **Sasa maelezo nayo huhamishwa — yaondoe mwenyewe.** Maandishi, vipimo, mistari ya uelekezi na uwekaji mistari wa kujaza vyote huingia kwenye DXF iliyohamishwa. Kwa ukabidhi wa kawaida ndicho unachotaka, lakini kwa faili ya kukata inamaanisha chochote ulichoacha kwenye mchoro kitakuwamo kweli. Uhamishaji hauviondoi tena kimyakimya kwa niaba yako, kwa hiyo vifute, au viweke kwenye tabaka utakayoondoa kabla ya kuhamisha.
+- **Maandishi hutoka kama `MTEXT`, ambayo si sawa na jiometri inayoweza kuchongwa.** Herufi huhamishwa zikiwa na mpangilio wake, lakini programu nyingi za mashine hutaka mistari ya nje badala ya maandishi hai kwenye tabaka la kuchonga. Angalia programu yako inakubali nini kabla ya kupanga uchongaji juu yake.
 - **Marejeo ya vitalu hayaingizwi.** Mchoro uliojengwa kwa alama za vitalu zinazorudiwa huingia bila kukamilika, kwa hiyo linganisha idadi ya vipande na asili.
 
 Splines *huhamishwa*. Baadhi ya programu za mashine hazizishughulikii vizuri na hupendelea mistari mingi — kama yako ni hivyo, chora upya mikunjo kama mistari mingi au tao.

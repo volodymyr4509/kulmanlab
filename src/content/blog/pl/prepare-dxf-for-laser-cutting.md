@@ -53,12 +53,12 @@ Są dwa sposoby:
 
 Jeśli tolerancja ma znaczenie, wytnij próbkę, zanim przeznaczysz materiał.
 
-## Czego nie przetrwa eksport do DXF
+## Co sprawdzić przy eksporcie do DXF
 
 Warto wiedzieć, zanim na tym polegniesz:
 
-- **Tekst nie jest eksportowany do DXF.** Jeśli planowałeś grawerowany napis, nie znajdzie się w pliku. Zamień tekst na obrysy w innym programie albo skorzystaj z usługi przyjmującej SVG na warstwę grawerowania.
-- **Kreskowania i wymiary również nie są eksportowane.** Dla pliku do cięcia to właśnie jest pożądane — ale nie zakładaj, że kreskowany obszar stanie się grawerowanym wypełnieniem, bo w pliku go w ogóle nie będzie.
+- **Opisy są teraz eksportowane — usuń je sam.** Tekst, wymiary, odnośniki i kreskowania trafiają w całości do wyeksportowanego DXF. Przy zwykłym przekazaniu właśnie o to chodzi, ale w pliku do cięcia oznacza to, że wszystko, co zostawiłeś na rysunku, naprawdę w nim będzie. Eksport nie usuwa tego już po cichu za ciebie, więc skasuj to albo trzymaj na warstwach, które usuniesz przed eksportem.
+- **Tekst wychodzi jako `MTEXT`, a to nie to samo co geometria do grawerowania.** Napisy eksportują się wraz z formatowaniem, ale sporo oprogramowania maszynowego oczekuje na warstwie grawerowania konturów, nie żywego tekstu. Sprawdź, co przyjmuje twoje, zanim zaplanujesz na tym grawer.
 - **Odwołania do bloków nie są importowane.** Rysunek zbudowany z powtarzalnych symboli blokowych przychodzi niekompletny, więc porównaj liczbę detali z oryginałem.
 
 Splajny *są* eksportowane. Niektóre programy maszynowe radzą sobie z nimi słabo i wolą polilinie — jeśli tak jest u ciebie, przerysuj krzywe jako polilinie albo łuki.

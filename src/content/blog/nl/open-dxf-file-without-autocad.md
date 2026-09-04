@@ -33,13 +33,14 @@ Vanaf daar kun je pannen en zoomen, lagen aan- en uitzetten, afstanden en hoeken
 
 **Wat het uit een DXF leest:** lijnen, cirkels, bogen, ellipsen, polylijnen, splines, tekst, maatvoering, multileaders en arceringen, plus de lagen- en lijntypetabellen van het bestand.
 
+**Wat het terugschrijft:** dezelfde lijst. Bewerk een tekening en exporteer haar, en de geometrie, de tekst met opmaak, de maatvoering, de leaders en de arceringen gaan allemaal terug de DXF in, met de lagen- en lijntypetabellen intact — het bestand maakt de heen- en terugreis dus zonder zijn annotatie te verliezen.
+
 **Waar het tekortschiet — lees dit voordat je erop vertrouwt:**
 
 - **Alleen 2D.** Een DXF met 3D-solids of meshes is het verkeerde bestand voor deze tool.
 - **Geen blocks.** Blockverwijzingen (`INSERT`) worden niet verwerkt, dus een tekening die uit herhaalde blocksymbolen is opgebouwd komt onvolledig binnen.
 - **DXF, geen DWG.** Zie het DWG-onderdeel hieronder.
 - **Alleen desktopbrowsers** — Chrome, Firefox, Safari en Edge. Er is geen mobiele versie.
-- **DXF-export bevat alleen geometrie.** Als je bewerkt en terugexporteert naar DXF, blijven arceringen, maatvoering, leaders en tekst achterwege. Exporteer naar het eigen JSON-formaat als je alles wilt behouden, of naar PDF als je alleen wilt delen.
 
 Als een van die punten voor jou doorslaggevend is, ben je beter af met een van de desktoptools hieronder.
 

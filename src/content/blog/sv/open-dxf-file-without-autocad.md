@@ -33,13 +33,14 @@ Därifrån kan du panorera och zooma, tända och släcka lager, mäta avstånd o
 
 **Vad som läses från en DXF:** linjer, cirklar, bågar, ellipser, polylinjer, splines, text, mått, multihänvisningar och skrafferingar, plus filens lager- och linjetypstabeller.
 
+**Vad den skriver tillbaka:** samma lista. Redigera en ritning och exportera den, så hamnar geometrin, texten med sin formatering, måtten, hänvisningarna och skrafferingarna alla tillbaka i DXF-filen, med lager- och linjetypstabellerna intakta — filen klarar alltså resan fram och tillbaka utan att tappa sina anteckningar.
+
 **Var det brister — läs detta innan du förlitar dig på det:**
 
 - **Endast 2D.** En DXF som innehåller 3D-solider eller mesher är fel fil för det här verktyget.
 - **Inga block.** Blockreferenser (`INSERT`) tolkas inte, så en ritning uppbyggd av upprepade blocksymboler kommer in ofullständig.
 - **DXF, inte DWG.** Se DWG-avsnittet nedan.
 - **Endast skrivbordswebbläsare** — Chrome, Firefox, Safari och Edge. Det finns ingen mobilversion.
-- **DXF-exporten innehåller bara geometri.** Om du redigerar och exporterar tillbaka till DXF utelämnas skrafferingar, mått, hänvisningar och text. Exportera till det egna JSON-formatet om allt ska bevaras, eller till PDF om du bara ska dela.
 
 Om något av detta är avgörande för dig är du bättre betjänt av ett av skrivbordsverktygen nedan.
 

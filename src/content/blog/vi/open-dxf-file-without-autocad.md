@@ -33,13 +33,14 @@ Từ đó bạn có thể di chuyển và phóng to thu nhỏ, bật tắt lớp
 
 **Những gì đọc được từ DXF:** đường thẳng, đường tròn, cung tròn, elip, đa tuyến, spline, chữ, kích thước, đường dẫn chú thích nhiều nhánh và mặt cắt tô, cùng với bảng lớp và bảng kiểu đường của file.
 
+**Thứ nó ghi ra:** vẫn danh sách ấy. Chỉnh sửa bản vẽ rồi xuất ra, và hình học, chữ kèm định dạng, kích thước, đường dẫn chú thích cùng mặt cắt gạch đều quay trở lại tệp DXF, kèm bảng lớp và kiểu đường còn nguyên — nghĩa là tệp đi và về mà không mất phần chú giải.
+
 **Chỗ còn thiếu — hãy đọc trước khi trông cậy vào nó:**
 
 - **Chỉ 2D.** File DXF chứa khối đặc hoặc lưới 3D là file không phù hợp với công cụ này.
 - **Không hỗ trợ block.** Tham chiếu block (`INSERT`) không được phân tích, nên bản vẽ dựng từ các ký hiệu block lặp lại sẽ vào thiếu.
 - **DXF, không phải DWG.** Xem phần DWG bên dưới.
 - **Chỉ trình duyệt trên máy tính** — Chrome, Firefox, Safari và Edge. Không có bản cho di động.
-- **Xuất DXF chỉ mang theo hình học.** Nếu bạn chỉnh sửa rồi xuất ngược ra DXF, phần tô mặt cắt, kích thước, đường dẫn chú thích và chữ sẽ bị bỏ lại. Hãy xuất sang định dạng JSON gốc nếu cần giữ đủ mọi thứ, hoặc sang PDF nếu chỉ để chia sẻ.
 
 Nếu bất kỳ điểm nào trong số đó là yếu tố quyết định với bạn, một trong các phần mềm máy tính bên dưới sẽ phục vụ bạn tốt hơn.
 

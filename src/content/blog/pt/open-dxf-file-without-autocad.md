@@ -33,13 +33,14 @@ Dali você pode deslocar e dar zoom, ligar e desligar camadas, medir distâncias
 
 **O que ele lê de um DXF:** linhas, círculos, arcos, elipses, polilinhas, splines, texto, cotas, diretrizes múltiplas e hachuras, além das tabelas de camadas e tipos de linha do arquivo.
 
+**O que ele escreve de volta:** a mesma lista. Edite um desenho e exporte-o, e a geometria, o texto com sua formatação, as cotas, as diretrizes e as hachuras voltam todas para o DXF, com as tabelas de camadas e tipos de linha intactas — ou seja, o arquivo faz a ida e volta sem perder a anotação.
+
 **Onde ele fica devendo — leia antes de contar com isso:**
 
 - **Somente 2D.** Um DXF com sólidos ou malhas 3D é o arquivo errado para esta ferramenta.
 - **Sem blocos.** Referências de bloco (`INSERT`) não são processadas, então um desenho montado com símbolos de bloco repetidos chegará incompleto.
 - **DXF, não DWG.** Veja a seção sobre DWG mais abaixo.
 - **Apenas navegadores de desktop** — Chrome, Firefox, Safari e Edge. Não existe versão para celular.
-- **A exportação para DXF é só geometria.** Se você editar e exportar de volta para DXF, ficam de fora hachuras, cotas, diretrizes e texto. Exporte para o formato nativo JSON se precisar manter tudo, ou para PDF se só quiser compartilhar.
 
 Se algum desses pontos for impeditivo, uma das ferramentas de desktop abaixo vai lhe servir melhor.
 

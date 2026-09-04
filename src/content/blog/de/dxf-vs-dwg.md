@@ -75,7 +75,7 @@ Wenn Sie eine anfordern, nennen Sie am besten eine Version. **DXF R12 ist am sic
 
 Haben Sie eine `.dwg`, öffnet dies sie nicht. Haben Sie eine `.dxf`, öffnen Sie sie in einem Browser-Tab, ohne etwas zu installieren: [app.kulmanlab.com](https://app.kulmanlab.com).
 
-Zurückgeschrieben wird Geometrie samt Text — Linien, Kreise, Bögen, Ellipsen, Polylinien, Splines und Text, dazu Layer und Linientypen. Schraffuren, Bemaßungen und Leader gelangen derzeit nicht in die exportierte DXF.
+Zurückgeschrieben wird die ganze Zeichnung — Linien, Kreise, Bögen, Ellipsen, Polylinien, Splines, Text samt Formatierung, Bemaßungen, Leader und Schraffuren, dazu Layer und Linientypen. Eine hier geöffnete und wieder exportierte Datei verlässt das Programm mit ihren Beschriftungen, nicht auf reine Geometrie reduziert.
 
 ---
 

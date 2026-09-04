@@ -22,7 +22,7 @@ Yalnızca gönderilecek okunur bir şey gerektiğinde:
 
 Bu kadar. Önizleme, dışa aktarılan dosyayla tam olarak aynı kod yolundan ve aynı çözünürlükte işlenir; yani gördüğünüz şey, ona yaklaşık bir şey değil, tam olarak elde edeceğiniz şeydir.
 
-Bilmeye değer bir nokta: DXF dışa aktarımının aksine **PDF ekrandaki her şeyi korur** — ölçüler, metin, taramalar, kılavuz çizgileri. Çiziminiz notlandırılmışsa notları taşıyan biçim PDF'tir.
+Bilmeye değer bir nokta: **PDF ekrandaki her şeyi korur** — ölçüler, metin, taramalar, kılavuz çizgileri — tam çizildiği düzeniyle. DXF dışa aktarımı da bunların hepsini taşır; dolayısıyla ikisi arasındaki seçim neyin hayatta kaldığıyla ilgili değildir. Alıcının neye ihtiyacı olduğuyla ilgilidir: yalnızca okuyacak ya da yazdıracaksa PDF, düzenleyecekse DXF.
 
 ## Doğru yol: tam ölçekte dönüştürmek
 

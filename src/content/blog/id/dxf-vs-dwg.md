@@ -75,7 +75,7 @@ Saat meminta, sebaiknya sebutkan versinya. **DXF R12 paling aman** — sangat tu
 
 Kalau file Anda `.dwg`, ini tidak akan membukanya. Kalau `.dxf`, Anda bisa membukanya di tab browser tanpa memasang apa pun: [app.kulmanlab.com](https://app.kulmanlab.com).
 
-Yang ditulis balik adalah geometri beserta teks — garis, lingkaran, busur, elips, polyline, spline, dan teks, berikut layer dan tipe garis. Arsiran, dimensi, dan leader untuk sementara tidak masuk ke DXF yang diekspor.
+Yang ditulis balik adalah keseluruhan gambar — garis, lingkaran, busur, elips, polyline, spline, teks beserta formatnya, dimensi, leader, dan arsiran, berikut layer dan tipe garis. Berkas yang dibuka di sini lalu diekspor kembali keluar dengan anotasinya, bukan tersisa geometri saja.
 
 ---
 

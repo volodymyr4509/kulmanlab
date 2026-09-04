@@ -113,13 +113,13 @@ Oma työkalumme, joten lue tämä osio se mielessä. KulmanLab on ilmainen 2D-CA
 - Koko 2D-työkalupakki: viivat, kaarisegmentein varustetut murtoviivat, ympyrät, kaaret, ellipsit, splinit, rasteroinnit `.pat`-kuviokirjastolla ja täysi mitoitusvalikoima (lineaarinen, kohdistettu, säde, halkaisija, kulma, jatkuva).
 - Tasot jäädytyksellä, lukituksella, eristyksellä, värillä, viivatyypillä ja viivanpaksuudella; kohdetartunta; kahvamuokkaus tarkalla näppäillyllä siirtymällä.
 - Paperitilan asettelut näyttöikkunoineen ja sivuasetuksineen, ja siitä tulostus tai vienti PDF/PNG-muotoon — mukaan lukien yksivärinen ja sinikopiotyylinen tulostus.
+- Täysi DXF-edestakaismatka: teksti, mitat, osoitusviivat ja rasteroinnit selviävät kaikki viennistä, eivät vain paljas geometria, joten merkinnöillä varustettu piirustus voi palata lähettäjälleen.
 - Tiedostot eivät koskaan poistu koneeltasi, millä on merkitystä jos piirustuksesi ovat salassapitosopimuksen alaisia. Ensimmäisen latauksen jälkeen se toimii verkotta.
 
 **Heikkoudet:**
 
 - **Vain 2D.** Ei lainkaan 3D-mallinnusta, eikä sellaista ole suunnitteilla.
 - **DXF, ei DWG.** Jos yhteistyökumppanisi lähettävät DWG:tä, tarvitset ensin jotain muuta muuntamiseen.
-- **DXF-vienti on puutteellinen.** Geometria, tasot ja ominaisuudet kulkevat edestakaisin siististi, mutta rasterointeja, mittoja, viitenuolia ja tekstiä ei vielä kirjoiteta vietyyn DXF-tiedostoon — natiivi JSON-muoto säilyttää ne, ja JSON aukeaa vain KulmanLabissa.
 - **Vain työpöytäselaimet,** ja piirustukset elävät kyseisen selaimen paikallisessa tallennustilassa — selaintietojen tyhjentäminen poistaa ne, joten vie talteen kaikki minkä haluat säilyttää.
 
 **Sopii parhaiten:** DXF:n nopeaan avaamiseen, merkintöjen tekemiseen ja vientiin; pieniin 2D-piirustustöihin; CNC-, laserleikkaus- ja valmistustyöhön; piirtämiseen lukitulla koneella jolle et voi asentaa ohjelmistoja. Ei korvaa tuotantopiirustuspakettia suuressa koordinoidussa projektissa.

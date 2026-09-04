@@ -75,7 +75,7 @@ Ketika meminta, elok sebut versinya. **DXF R12 paling selamat** — sangat lama,
 
 Jika anda ada `.dwg`, ini tidak akan membukanya. Jika anda ada `.dxf`, anda boleh membukanya dalam tab pelayar tanpa memasang apa-apa: [app.kulmanlab.com](https://app.kulmanlab.com).
 
-Apa yang ditulis semula ialah geometri berserta teks — garis, bulatan, lengkok, elips, poligaris, splin dan teks, bersama lapisan dan jenis garis. Lorekan, dimensi dan penunjuk buat masa ini tidak sampai ke dalam DXF yang dieksport.
+Apa yang ditulis semula ialah keseluruhan lukisan — garis, bulatan, lengkok, elips, poligaris, splin, teks berserta formatnya, dimensi, penunjuk dan lorekan, bersama lapisan dan jenis garis. Fail yang dibuka di sini lalu dieksport semula keluar dengan anotasinya, bukan tinggal geometri semata.
 
 ---
 

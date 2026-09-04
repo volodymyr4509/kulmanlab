@@ -22,7 +22,7 @@ When you only need something readable to email or attach:
 
 That's it. The preview panel renders through the same code path and at the same resolution as the exported file, so what you see is what you get rather than an approximation.
 
-One thing worth knowing: unlike DXF export, **the PDF keeps everything on screen** — dimensions, text, hatching, leaders. If your drawing is annotated, PDF is the format that carries the annotation.
+One thing worth knowing: **the PDF keeps everything on screen** — dimensions, text, hatching, leaders — laid out exactly as drawn. DXF export carries all of that too, so the choice between them isn't about what survives. It's about what the recipient needs: PDF if they only have to read or print it, DXF if they have to edit it.
 
 ## The right way: convert at an exact scale
 

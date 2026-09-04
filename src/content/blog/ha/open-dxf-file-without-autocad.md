@@ -33,13 +33,14 @@ Daga nan kana iya motsawa da girmama kallo, kunna sassa da kashe su, auna nisa d
 
 **Abin da yake karantawa daga DXF:** layuka, da'ira, bakuna, ellipses, layuka masu yawa, splines, rubutu, ma'auni, layukan nuni masu kai da yawa, da yin lallausan zane; haka kuma teburan sassa da nau'ikan layi na fayil ɗin.
 
+**Abin da yake sake rubutawa:** jerin nan guda. Ka gyara zane ka fitar da shi, sai siffofi, rubutu tare da tsarinsa, ma'auni, layukan nuni da lallausan zane duk su koma cikin DXF, tare da teburan sassa da nau'ikan layi cikakke — don haka fayil ɗin yana kammala tafiya zuwa da dawowa ba tare da rasa bayanansa ba.
+
 **Inda bai kai ba — karanta wannan kafin ka dogara da shi:**
 
 - **2D kaɗai.** Fayil ɗin DXF mai ɗauke da abubuwa masu girma uku ba shi ne fayil ɗin da ya dace da wannan kayan aiki ba.
 - **Babu blocks.** Ba a nazarin nassoshin block (`INSERT`), don haka zanen da aka gina daga alamun block da ake maimaitawa zai shigo bai cika ba.
 - **DXF, ba DWG ba.** Duba sashen DWG a ƙasa.
 - **Burauzar kwamfuta kaɗai** — Chrome, Firefox, Safari da Edge. Babu sigar wayar hannu.
-- **Fitar da DXF yana ɗauke da siffofi kaɗai.** Idan ka gyara sannan ka sake fitarwa zuwa DXF, za a bar lallausan zane, ma'auni, layukan nuni da rubutu. Ka fitar zuwa tsarin JSON na asali idan komai ya kamata ya kasance, ko kuma zuwa PDF idan kawai kana son rabawa.
 
 Idan ɗaya daga cikin waɗannan yana da matuƙar muhimmanci a gare ka, ɗaya daga cikin kayan aikin kwamfuta da ke ƙasa zai fi maka amfani.
 

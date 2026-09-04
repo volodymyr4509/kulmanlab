@@ -22,7 +22,7 @@ När du bara behöver något läsbart att skicka:
 
 Det var allt. Förhandsvisningen renderas via samma kodväg och i samma upplösning som den exporterade filen, så det du ser är det du får, inte en ungefärlighet.
 
-En sak värd att veta: till skillnad från DXF-export **behåller PDF:en allt som syns på skärmen** — mått, text, skrafferingar, hänvisningar. Är ritningen försedd med text är PDF formatet som tar med sig den.
+En sak värd att veta: **PDF:en behåller allt som syns på skärmen** — mått, text, skrafferingar, hänvisningar — placerat exakt som det ritats. DXF-exporten tar också med sig allt detta, så valet mellan dem handlar inte om vad som överlever. Det handlar om vad mottagaren behöver: PDF om den bara ska läsas eller skrivas ut, DXF om den ska redigeras.
 
 ## Den rätta vägen: konvertera i exakt skala
 

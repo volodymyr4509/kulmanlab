@@ -53,12 +53,12 @@ Due modi di gestirlo:
 
 Se la tolleranza conta, taglia un pezzo di prova prima di impegnare il materiale.
 
-## Cosa non sopravvive all'esportazione DXF
+## Che cosa controllare nell'esportazione DXF
 
 Utile saperlo prima di farci affidamento:
 
-- **Il testo non viene esportato in DXF.** Se contavi su scritte incise, non saranno nel file. Converti il testo in contorni con un altro programma, oppure usa un servizio che accetti SVG per il layer di incisione.
-- **Neanche campiture e quote vengono esportate.** Per un file di taglio è proprio quello che serve, ma non dare per scontato che una regione campita diventi un riempimento inciso: non sarà nel file per niente.
+- **Ora l'annotazione viene esportata: toglila tu.** Testo, quote, direttrici e campiture entrano tutti nel DXF esportato. Per una consegna generica è esattamente ciò che vuoi, ma per un file di taglio significa che tutto quello che hai lasciato nel disegno sarà davvero nel file. L'esportazione non lo toglie più in silenzio al posto tuo: cancellalo, o tienilo su layer che rimuovi prima di esportare.
+- **Il testo esce come `MTEXT`, che non è geometria incidibile.** Le scritte vengono esportate con la loro formattazione, ma parecchi software macchina vogliono contorni anziché testo vivo su un layer di incisione. Controlla che cosa accetta il tuo prima di pianificarci sopra un'incisione.
 - **I riferimenti a blocchi non vengono importati.** Un disegno costruito con simboli a blocco ripetuti arriva incompleto, quindi confronta il conteggio dei pezzi con l'originale.
 
 Le spline *vengono* esportate. Alcuni software macchina le gestiscono male e preferiscono le polilinee: se è il tuo caso, ridisegna le curve come polilinee o archi.

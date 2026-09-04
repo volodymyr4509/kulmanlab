@@ -53,12 +53,12 @@ To måder at håndtere det på:
 
 Betyder tolerancen noget, så skær et prøvestykke, før du binder materiale op.
 
-## Hvad der ikke overlever DXF-eksporten
+## Hvad du bør tjekke ved DXF-eksport
 
 Værd at vide, før du regner med det:
 
-- **Tekst eksporteres ikke til DXF.** Havde du planlagt graveret tekst, er den ikke i filen. Konvertér teksten til konturer i et andet program, eller brug en tjeneste, der tager imod SVG til graveringslaget.
-- **Skraveringer og mål eksporteres heller ikke.** Til en skærefil er det netop det, man vil have — men gå ikke ud fra, at et skraveret område bliver til en graveret flade, for det er slet ikke i filen.
+- **Påtegninger eksporteres nu — så ryd selv op.** Tekst, mål, henvisninger og skraveringer ryger alle med i den eksporterede DXF. Det er netop det, du vil have ved en almindelig aflevering, men i en skærefil betyder det, at alt, du lod blive i tegningen, faktisk er i filen. Eksporten fjerner det ikke længere stille og roligt for dig, så slet det, eller hold det på lag, du fjerner inden eksport.
+- **Tekst havner som `MTEXT`, hvilket ikke er det samme som graverbar geometri.** Bogstaverne eksporteres med formateringen i behold, men en hel del maskinsoftware vil have konturer frem for levende tekst på et graveringslag. Tjek, hvad din accepterer, før du planlægger gravering ud fra det.
 - **Blokreferencer importeres ikke.** En tegning bygget af gentagne bloksymboler kommer ind ufuldstændig, så hold antallet af dele op mod originalen.
 
 Splines *bliver* eksporteret. Nogle maskinprogrammer håndterer dem dårligt og foretrækker polylinjer — er dit sådan et, så tegn kurverne om som polylinjer eller buer.

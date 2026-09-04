@@ -22,7 +22,7 @@ Quand il vous faut seulement quelque chose de lisible à envoyer :
 
 C'est tout. L'aperçu est rendu par le même chemin de code et à la même résolution que le fichier exporté : ce que vous voyez est ce que vous obtenez, pas une approximation.
 
-Un point utile à connaître : contrairement à l'export DXF, **le PDF conserve tout ce qui est à l'écran** — cotations, texte, hachures, lignes de repère. Si votre dessin est annoté, le PDF est le format qui emporte l'annotation.
+Un point utile à connaître : **le PDF conserve tout ce qui est à l'écran** — cotations, texte, hachures, lignes de repère — disposé exactement comme dessiné. L'export DXF emporte tout cela aussi ; le choix entre les deux ne porte donc pas sur ce qui survit, mais sur ce dont le destinataire a besoin : PDF s'il doit seulement le lire ou l'imprimer, DXF s'il doit le modifier.
 
 ## La bonne voie : convertir à une échelle exacte
 

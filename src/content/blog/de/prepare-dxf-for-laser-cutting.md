@@ -53,12 +53,12 @@ Zwei Wege damit umzugehen:
 
 Wenn es auf Toleranz ankommt, schneiden Sie ein Probestück, bevor Sie Material festlegen.
 
-## Was den DXF-Export nicht übersteht
+## Was Sie beim DXF-Export prüfen sollten
 
 Wissenswert, bevor Sie sich darauf verlassen:
 
-- **Text wird nicht nach DXF exportiert.** Falls Sie gravierte Beschriftung geplant hatten: Sie ist nicht in der Datei. Wandeln Sie Schrift in einem anderen Programm in Umrisse um, oder nutzen Sie einen Dienst, der für den Gravur-Layer SVG akzeptiert.
-- **Schraffuren und Bemaßungen werden ebenfalls nicht exportiert.** Für eine Schnittdatei ist genau das erwünscht — nehmen Sie aber nicht an, dass aus einem schraffierten Bereich eine gravierte Fläche wird, denn er ist überhaupt nicht in der Datei.
+- **Beschriftung wird jetzt mitexportiert — räumen Sie sie selbst weg.** Text, Bemaßungen, Leader und Schraffuren gehen allesamt in die exportierte DXF. Für eine normale Übergabe ist das genau richtig, für eine Schnittdatei heißt es aber: Was Sie in der Zeichnung gelassen haben, steht auch wirklich in der Datei. Der Export entfernt es nicht mehr stillschweigend für Sie — löschen Sie es also, oder halten Sie es auf Layern, die Sie vor dem Export entfernen.
+- **Text landet als `MTEXT`, und das ist nicht dasselbe wie gravierbare Geometrie.** Die Beschriftung wird mit ihrer Formatierung exportiert, doch viele Maschinenprogramme wollen auf einem Gravurlayer Konturen statt lebendigem Text. Prüfen Sie, was Ihres annimmt, bevor Sie eine Gravur darauf aufbauen.
 - **Blockreferenzen werden nicht importiert.** Eine aus wiederkehrenden Blocksymbolen aufgebaute Zeichnung kommt unvollständig an; prüfen Sie die Teilezahl gegen das Original.
 
 Splines *werden* exportiert. Manche Maschinensoftware kommt schlecht damit zurecht und bevorzugt Polylinien — trifft das auf Ihre zu, zeichnen Sie Kurven als Polylinien oder Bögen nach.

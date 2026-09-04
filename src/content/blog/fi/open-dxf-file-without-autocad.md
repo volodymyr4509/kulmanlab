@@ -33,13 +33,14 @@ Sieltä voit panoroida ja zoomata, sytyttää ja sammuttaa tasoja, mitata etäis
 
 **Mitä se lukee DXF-tiedostosta:** viivat, ympyrät, kaaret, ellipsit, murtoviivat, splinit, tekstit, mitat, moniosoitusviivat ja rasteroinnit sekä tiedoston taso- ja viivatyyppitaulut.
 
+**Mitä se kirjoittaa takaisin:** saman listan. Muokkaa piirustusta ja vie se, niin geometria, teksti muotoiluineen, mitat, osoitusviivat ja rasteroinnit palaavat kaikki DXF-tiedostoon, taso- ja viivatyyppitaulukot ehjinä — tiedosto siis selviää edestakaisesta matkasta merkintöjään menettämättä.
+
 **Missä se jää vajaaksi — lue tämä ennen kuin luotat siihen:**
 
 - **Vain 2D.** DXF, jossa on 3D-kappaleita tai verkkoja, on väärä tiedosto tälle työkalulle.
 - **Ei lohkoja.** Lohkoviittauksia (`INSERT`) ei jäsennetä, joten toistuvista lohkosymboleista rakennettu piirustus tulee sisään vaillinaisena.
 - **DXF, ei DWG.** Katso alla oleva DWG-osio.
 - **Vain työpöytäselaimet** — Chrome, Firefox, Safari ja Edge. Mobiiliversiota ei ole.
-- **DXF-vienti sisältää vain geometrian.** Jos muokkaat ja viet takaisin DXF-muotoon, rasteroinnit, mitat, osoitusviivat ja tekstit jäävät pois. Vie omaan JSON-muotoon, jos kaiken on säilyttävä, tai PDF-muotoon, jos haluat vain jakaa.
 
 Jos jokin näistä on sinulle ratkaiseva este, jokin alla olevista työpöytätyökaluista palvelee sinua paremmin.
 

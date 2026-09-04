@@ -113,13 +113,13 @@ Nada para baixar, nada para licenciar por máquina, e a mesma ferramenta em qual
 - O conjunto 2D completo: linhas, polilinhas com segmentos de arco, círculos, arcos, elipses, splines, hachuras com uma biblioteca de padrões `.pat` e a suíte completa de cotas (linear, alinhada, raio, diâmetro, angular, contínua).
 - Camadas com congelar, bloquear, isolar, cor, tipo e espessura de linha; snap a objetos; edição por grips com deslocamento exato digitado.
 - Layouts em espaço papel com viewports e configuração de página, e depois impressão ou exportação para PDF/PNG — incluindo os estilos de impressão monocromático e planta azul.
+- Uma ida e volta completa em DXF: texto, cotas, diretrizes e hachuras sobrevivem todos à exportação, não apenas a geometria nua, de modo que um desenho anotado pode voltar para quem o enviou.
 - Os arquivos nunca saem da sua máquina, o que importa se seus desenhos estão sob NDA. Depois do primeiro carregamento funciona offline.
 
 **Pontos fracos:**
 
 - **Só 2D.** Nenhuma modelagem 3D, e nenhuma está planejada.
 - **DXF, não DWG.** Se seus parceiros mandam DWG, você vai precisar de outra coisa para converter antes.
-- **A exportação DXF está incompleta.** Geometria, camadas e propriedades vão e voltam sem problema, mas hachuras, cotas, chamadas e texto ainda não são gravados no DXF exportado — o formato JSON nativo preserva tudo isso, e o JSON só abre no KulmanLab.
 - **Só navegadores de desktop,** e os desenhos ficam no armazenamento local desse navegador — limpar os dados do navegador apaga tudo, então exporte o que você quiser guardar.
 
 **Ideal para:** Abrir, marcar e exportar um DXF rapidamente; trabalhos pequenos de desenho 2D; CNC, corte a laser e fabricação; desenhar em uma máquina travada onde você não pode instalar software. Não substitui uma suíte de desenho de produção em um projeto grande e coordenado.
