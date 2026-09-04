@@ -105,7 +105,7 @@ Hatchar **importeras** från `HATCH`-entiteter: KulmanLab läser konturgeometrin
 
 Splinbegränsade slingor skrivna av andra applikationer (DXF-gränskanttyp 4) läses ännu inte.
 
-Hatchar exporteras för närvarande inte till DXF — använd `.json`-formatet från [Export Manager](../export-manager/) för att bevara en hatch när du sparar en ritning som innehåller en; `.dxf`-formatet utelämnar den.
+Skrafferingar **exporteras** till DXF som `HATCH`-objekt. Gränsslingorna följer med mönsternamnet (gruppkod 2), flaggan för heltäckande fyllning (70) och den här skrafferingens egen vinkel och skala (52/41) — och till skillnad från importvägen skrivs även mönstrets upplösta linjedefinitioner in i filen (78, med 53/43/44/45/46/79/49). Asymmetrin är avsiktlig: KulmanLab kan slå upp ett namn i sitt eget bibliotek, men programmet som tar emot filen har kanske inte det mönstret, så linjerna följer med.
 
 ## Relaterade kommandon
 

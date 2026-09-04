@@ -105,7 +105,7 @@ Hatch **huingizwa** kutoka kwa viumbe vya `HATCH`: KulmanLab husoma jiometri ya 
 
 Vitanzi vilivyofungwa na spline vilivyoandikwa na programu nyingine (aina ya ukingo wa mpaka wa DXF 4) bado havisomwi.
 
-Hatch kwa sasa hazi**export**wi kwenda DXF — tumia muundo wa `.json` wa [Export Manager](../export-manager/) kuhifadhi hatch unapohifadhi mchoro unaoijumuisha; muundo wa `.dxf` unaiacha nje.
+Uwekaji mistari wa kujaza **huhamishwa** kwenda DXF kama vitu vya `HATCH`. Mizunguko ya mpaka hutoka pamoja na jina la muundo (msimbo wa kikundi 2), bendera ya ujazo kamili (70), na pembe na kipimo cha uwekaji huo wenyewe (52/41) — na tofauti na njia ya kuingiza, fasili za mistari ya muundo zilizotatuliwa pia huandikwa ndani (78, pamoja na 53/43/44/45/46/79/49). Tofauti hiyo ni ya makusudi: KulmanLab huweza kutafuta jina katika maktaba yake mwenyewe, lakini programu inayopokea faili huenda isiwe na muundo huo, hivyo mistari husafiri nayo.
 
 ## Amri Zinazohusiana
 

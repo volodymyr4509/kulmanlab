@@ -57,7 +57,7 @@ Tolerans önemliyse malzemeyi bağlamadan önce bir deneme parçası kesin.
 
 Buna güvenmeden önce bilmekte fayda var:
 
-- **Açıklamalar artık dışa aktarılıyor — temizliği kendiniz yapın.** Metin, ölçüler, kılavuz çizgileri ve taramalar hepsi dışa aktarılan DXF'e girer. Sıradan bir teslimde istediğiniz tam da budur, ama kesim dosyasında bu, çizimde bıraktığınız her şeyin gerçekten dosyada olacağı anlamına gelir. Dışa aktarım artık bunu sizin yerinize sessizce ayıklamıyor; o yüzden silin ya da dışa aktarmadan önce kaldıracağınız katmanlarda tutun.
+- **Açıklamaları silmek yerine işaretini kaldırın.** Metin, ölçüler, kılavuz çizgileri ve taramalar artık hepsi dışa aktarılıyor; dolayısıyla çizimde bıraktığınız her şey dosyaya girer. Silmeniz gerekmez: Export Manager her varlık türünü kendi onay kutusuyla listeler, böylece Text, ölçü satırları, Leaders ve Hatches işaretlerini kaldırdığınızda yalnızca kesim geometrisi içeren bir DXF elde edersiniz, çizimin kendisi ise el değmeden kalır.
 - **Metin `MTEXT` olarak çıkar ve bu, kazınabilir geometriyle aynı şey değildir.** Yazılar biçimlendirmesiyle birlikte aktarılır, ama pek çok makine yazılımı kazıma katmanında canlı metin yerine dış hat ister. Kazımayı buna göre planlamadan önce sizinkinin neyi kabul ettiğini kontrol edin.
 - **Blok referansları içe aktarılmaz.** Tekrar eden blok sembollerinden kurulmuş bir çizim eksik gelir; parça sayısını orijinaliyle karşılaştırın.
 

@@ -105,7 +105,7 @@ Ana **shigo da** hatches daga abubuwan `HATCH`: KulmanLab yana karanta geometry 
 
 Har yanzu ba a karanta lups na spline da wasu applications suka rubuta ba (DXF boundary edge type 4).
 
-Hatches a halin yanzu ba a **fitar** da su zuwa DXF ba — yi amfani da tsarin `.json` na [Export Manager](../export-manager/) don rike hatch lokacin da kake ajiye zane wanda ke kunshe da shi; tsarin `.dxf` yana bar shi.
+Ana **fitar da** lallausan zane zuwa DXF a matsayin abubuwan `HATCH`. Zoben iyaka suna fita tare da sunan tsari (lambar rukuni 2), alamar cikawa (70) da kusurwa da ma'aunin wannan lallausan zanen (52/41) — kuma sabanin hanyar shigarwa, ana kuma rubuta ma'anonin layukan tsarin da aka warware a ciki (78, tare da 53/43/44/45/46/79/49). An yi wannan bambanci da gangan: KulmanLab yana iya samun suna daga ɗakin karatunsa, amma aikace-aikacen da ke karɓar fayil ɗin ƙila ba shi da wannan tsarin, don haka layukan suna tafiya tare.
 
 ## Umarnin da suka shafi wannan
 

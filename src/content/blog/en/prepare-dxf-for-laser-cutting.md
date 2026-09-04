@@ -57,7 +57,7 @@ If tolerance matters, cut one test piece before committing material.
 
 Worth knowing before you rely on it:
 
-- **Annotation exports now — so clear it out yourself.** Text, dimensions, leaders and hatches all go into the exported DXF. That is what you want for a general handoff, but for a cut file it means anything you left in the drawing really will be in the file. The export no longer quietly strips it for you, so delete it, or keep it on layers you remove before exporting.
+- **Untick annotation rather than deleting it.** Text, dimensions, leaders and hatches all export now, so anything left in the drawing lands in the file. You don't have to delete it: the Export Manager lists every entity type with its own checkbox, so unticking Text, the dimension rows, Leaders and Hatches gives you a DXF of cut geometry and nothing else, with the drawing itself untouched.
 - **Text lands as `MTEXT`, which is not the same as engravable geometry.** Lettering exports with its formatting intact, but plenty of machine software wants outlines rather than live text on an engrave layer. Check what yours accepts before planning engraved lettering around it.
 - **Block references don't import.** A drawing built from repeated block symbols arrives incomplete, so check part counts against the original.
 

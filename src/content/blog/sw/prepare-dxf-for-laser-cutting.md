@@ -57,7 +57,7 @@ Kama uvumilivu wa kipimo ni muhimu, kata kipande cha majaribio kabla ya kutumia 
 
 Inafaa kujua kabla ya kukitegemea:
 
-- **Sasa maelezo nayo huhamishwa — yaondoe mwenyewe.** Maandishi, vipimo, mistari ya uelekezi na uwekaji mistari wa kujaza vyote huingia kwenye DXF iliyohamishwa. Kwa ukabidhi wa kawaida ndicho unachotaka, lakini kwa faili ya kukata inamaanisha chochote ulichoacha kwenye mchoro kitakuwamo kweli. Uhamishaji hauviondoi tena kimyakimya kwa niaba yako, kwa hiyo vifute, au viweke kwenye tabaka utakayoondoa kabla ya kuhamisha.
+- **Ondoa alama kwenye maelezo badala ya kuyafuta.** Maandishi, vipimo, mistari ya uelekezi na uwekaji mistari sasa vyote huhamishwa, hivyo chochote ulichoacha kwenye mchoro huingia kwenye faili. Si lazima ufute: Export Manager huorodhesha kila aina ya kitu na kisanduku chake, hivyo kuondoa alama za Text, safu za vipimo, Leaders na Hatches hukupa DXF yenye jiometri ya kukata pekee, huku mchoro wenyewe ukibaki salama.
 - **Maandishi hutoka kama `MTEXT`, ambayo si sawa na jiometri inayoweza kuchongwa.** Herufi huhamishwa zikiwa na mpangilio wake, lakini programu nyingi za mashine hutaka mistari ya nje badala ya maandishi hai kwenye tabaka la kuchonga. Angalia programu yako inakubali nini kabla ya kupanga uchongaji juu yake.
 - **Marejeo ya vitalu hayaingizwi.** Mchoro uliojengwa kwa alama za vitalu zinazorudiwa huingia bila kukamilika, kwa hiyo linganisha idadi ya vipande na asili.
 

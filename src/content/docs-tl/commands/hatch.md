@@ -105,7 +105,7 @@ Ang mga hatch ay **na-i-import** mula sa `HATCH` entities: binabasa ng KulmanLab
 
 Ang mga loop na naka-bound ng spline na isinulat ng ibang applications (DXF boundary edge type 4) ay hindi pa nababasa.
 
-Ang mga hatch sa kasalukuyan ay hindi **na-e-export** sa DXF — gamitin ang `.json` format ng [Export Manager](../export-manager/) para mapanatili ang isang hatch kapag nagse-save ng drawing na may kasama nito; inaalis ito ng `.dxf` format.
+Ang hatch ay **nae-export** sa DXF bilang mga entity na `HATCH`. Lumalabas ang mga loop ng hangganan kasama ang pangalan ng pattern (group code 2), ang solid-fill flag (70), at ang sariling anggulo at eskala ng hatch na iyon (52/41) — at hindi tulad ng landas ng pag-import, isinusulat din sa loob ang nalutas nang mga depinisyon ng linya ng pattern (78, kasama ang 53/43/44/45/46/79/49). Sinadya ang di-pagkakatugmang ito: kayang hanapin ng KulmanLab ang pangalan sa sarili nitong aklatan, ngunit maaaring wala sa tumatanggap na aplikasyon ang pattern na iyon, kaya sumasama ang mga linya.
 
 ## Mga Kaugnay na Command
 

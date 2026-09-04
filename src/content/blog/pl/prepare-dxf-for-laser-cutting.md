@@ -57,7 +57,7 @@ Jeśli tolerancja ma znaczenie, wytnij próbkę, zanim przeznaczysz materiał.
 
 Warto wiedzieć, zanim na tym polegniesz:
 
-- **Opisy są teraz eksportowane — usuń je sam.** Tekst, wymiary, odnośniki i kreskowania trafiają w całości do wyeksportowanego DXF. Przy zwykłym przekazaniu właśnie o to chodzi, ale w pliku do cięcia oznacza to, że wszystko, co zostawiłeś na rysunku, naprawdę w nim będzie. Eksport nie usuwa tego już po cichu za ciebie, więc skasuj to albo trzymaj na warstwach, które usuniesz przed eksportem.
+- **Odznacz opisy, zamiast je kasować.** Tekst, wymiary, odnośniki i kreskowania są teraz eksportowane, więc wszystko, co zostawisz na rysunku, trafi do pliku. Nie musisz tego kasować: Export Manager wymienia każdy typ obiektu z własnym polem wyboru, więc odznaczenie Text, wierszy wymiarów, Leaders i Hatches daje DXF z samą geometrią cięcia, a sam rysunek pozostaje nietknięty.
 - **Tekst wychodzi jako `MTEXT`, a to nie to samo co geometria do grawerowania.** Napisy eksportują się wraz z formatowaniem, ale sporo oprogramowania maszynowego oczekuje na warstwie grawerowania konturów, nie żywego tekstu. Sprawdź, co przyjmuje twoje, zanim zaplanujesz na tym grawer.
 - **Odwołania do bloków nie są importowane.** Rysunek zbudowany z powtarzalnych symboli blokowych przychodzi niekompletny, więc porównaj liczbę detali z oryginałem.
 

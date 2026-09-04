@@ -105,7 +105,7 @@ Hatches worden **geïmporteerd** vanuit `HATCH`-entiteiten: KulmanLab leest de r
 
 Splinebegrensde lussen die door andere toepassingen zijn geschreven (DXF-randtype 4) worden nog niet gelezen.
 
-Hatches worden momenteel niet **geëxporteerd** naar DXF — gebruik het `.json`-formaat van [Export Manager](../export-manager/) om een hatch te behouden bij het opslaan van een tekening die er een bevat; het `.dxf`-formaat laat deze weg.
+Arceringen worden als `HATCH`-entiteiten naar DXF **geëxporteerd**. De randlussen gaan mee met de patroonnaam (groepscode 2), de vlakvullingsvlag (70) en de eigen hoek en schaal van die arcering (52/41) — en anders dan bij het importeren worden ook de opgeloste patroonlijnen in het bestand geschreven (78, met 53/43/44/45/46/79/49). Die asymmetrie is bewust: KulmanLab kan een naam in zijn eigen bibliotheek opzoeken, maar de toepassing die het bestand ontvangt heeft dat patroon misschien niet, dus reizen de lijnen mee.
 
 ## Gerelateerde commando's
 

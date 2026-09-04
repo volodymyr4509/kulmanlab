@@ -57,7 +57,7 @@ Jika toleransi penting, potong satu bahagian ujian sebelum melaburkan bahan.
 
 Berbaloi diketahui sebelum anda bergantung padanya:
 
-- **Anotasi kini turut dieksport — bersihkan sendiri.** Teks, dimensi, penunjuk dan lorekan semuanya masuk ke dalam DXF yang dieksport. Untuk penyerahan biasa itulah yang anda mahu, tetapi bagi fail potong ia bermakna apa sahaja yang anda tinggalkan dalam lukisan benar-benar akan ada dalam fail. Eksport tidak lagi membuangnya diam-diam untuk anda, jadi padamkannya, atau simpan pada lapisan yang anda buang sebelum mengeksport.
+- **Nyahtanda anotasi, jangan padamkannya.** Teks, dimensi, penunjuk dan lorekan kini semuanya dieksport, jadi apa sahaja yang anda tinggalkan dalam lukisan akan masuk ke dalam fail. Tidak perlu memadamnya: Export Manager menyenaraikan setiap jenis entiti dengan kotak tandanya sendiri, jadi menyahtanda Text, baris dimensi, Leaders dan Hatches memberi anda DXF yang mengandungi geometri potong sahaja, sementara lukisan itu sendiri tidak disentuh.
 - **Teks keluar sebagai `MTEXT`, dan itu bukan geometri yang boleh diukir.** Huruf dieksport dengan formatnya utuh, tetapi banyak perisian mesin mahukan garis luar dan bukan teks hidup pada lapisan ukiran. Semak apa yang diterima perisian anda sebelum merancang ukiran berdasarkannya.
 - **Rujukan blok tidak diimport.** Lukisan yang dibina daripada simbol blok berulang masuk dalam keadaan tidak lengkap, jadi semak bilangan bahagian dengan yang asal.
 

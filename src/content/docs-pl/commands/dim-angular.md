@@ -48,7 +48,7 @@ Linie równoległe nie mogą tworzyć wymiaru kąta; polecenie ignoruje drugie k
 - Łuk wymiaru zawsze rysowany jest po tej stronie wierzchołka, gdzie go umieszczasz — przesuń kursor przez wierzchołek, aby przełączyć na kąt uzupełniający.
 - Zmierzony kąt wyświetlany jest w stopniach i aktualizuje się na żywo podczas przesuwania kursora w fazie umieszczania.
 - Wynikowa adnotacja jest pełnym elementem `DimensionAngular` przechowywana na bieżącej warstwie. Właściwości wyglądu (rozmiar strzałki, wysokość tekstu, długość linii przedłużenia) można dostosować w panelu Właściwości.
-- Wymiary kąta są uwzględniane w eksporcie JSON, ale nie są obsługiwane przez eksporter DXF.
+- Wymiary kątowe eksportują się zarówno do JSON, jak i do DXF, a w DXF zapisywane są jako standardowe obiekty `DIMENSION`.
 
 ## Edytowanie etykiety — tryb simple
 

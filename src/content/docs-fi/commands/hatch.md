@@ -105,7 +105,7 @@ Hatchit **tuodaan** `HATCH`-entiteeteistä: KulmanLab lukee rajageometrian sekä
 
 Muiden sovellusten kirjoittamia spline-rajattuja silmukoita (DXF-rajareunatyyppi 4) ei vielä lueta.
 
-Hatchit eivät tällä hetkellä **vie** DXF:ään — käytä [Export Manager](../export-manager/)in `.json`-muotoa säilyttääksesi hatchin tallentaessasi sen sisältävää piirustusta; `.dxf`-muoto jättää sen pois.
+Rasteroinnit **viedään** DXF:ään `HATCH`-objekteina. Reunasilmukat lähtevät mukanaan kuvion nimi (ryhmäkoodi 2), täytelippu (70) sekä tämän rasteroinnin oma kulma ja mittakaava (52/41) — ja toisin kuin tuonnissa, myös kuvion ratkaistut viivamääritykset kirjoitetaan tiedostoon (78, mukana 53/43/44/45/46/79/49). Epäsymmetria on tarkoituksellinen: KulmanLab osaa etsiä nimen omasta kirjastostaan, mutta tiedoston vastaanottavalla sovelluksella ei ehkä ole kyseistä kuviota, joten viivat matkaavat mukana.
 
 ## Liittyvät komennot
 

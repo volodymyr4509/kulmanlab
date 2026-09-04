@@ -105,7 +105,7 @@ Los hatch se **importan** desde entidades `HATCH`: KulmanLab lee la geometría d
 
 Los bucles delimitados por spline escritos por otras aplicaciones (tipo de arista de contorno DXF 4) todavía no se leen.
 
-Los hatch actualmente no se **exportan** a DXF — usa el formato `.json` de [Export Manager](../export-manager/) para conservar un hatch al guardar un dibujo que lo incluya; el formato `.dxf` lo omite.
+Los sombreados se **exportan** a DXF como entidades `HATCH`. Los bucles del contorno salen junto al nombre del patrón (código de grupo 2), la marca de relleno sólido (70) y el ángulo y la escala de ese sombreado (52/41), y, a diferencia de la importación, también se escriben en línea las definiciones de línea ya resueltas del patrón (78, con 53/43/44/45/46/79/49). La asimetría es deliberada: KulmanLab puede resolver un nombre contra su propia biblioteca, pero la aplicación que recibe el archivo quizá no tenga ese patrón, así que las líneas viajan con él.
 
 ## Comandos relacionados
 

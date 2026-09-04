@@ -105,7 +105,7 @@ Hatch są **importowane** z elementów `HATCH`: KulmanLab odczytuje geometrię k
 
 Pętle ograniczone splajnem, zapisane przez inne aplikacje (typ krawędzi konturu DXF 4), nie są jeszcze odczytywane.
 
-Hatch obecnie nie są **eksportowane** do DXF — użyj formatu `.json` z [Export Manager](../export-manager/), aby zachować hatch podczas zapisywania rysunku, który go zawiera; format `.dxf` go pomija.
+Kreskowania **eksportują się** do DXF jako obiekty `HATCH`. Pętle granicy wychodzą wraz z nazwą wzoru (kod grupy 2), flagą wypełnienia pełnego (70) oraz własnym kątem i skalą tego kreskowania (52/41) — a w odróżnieniu od ścieżki importu zapisywane są też rozwiązane definicje linii wzoru (78, z 53/43/44/45/46/79/49). Ta asymetria jest zamierzona: KulmanLab potrafi odnaleźć nazwę we własnej bibliotece, ale aplikacja odbierająca plik może tego wzoru nie mieć, więc linie podróżują razem z nim.
 
 ## Powiązane polecenia
 

@@ -48,7 +48,7 @@ Les lignes parallèles ne peuvent pas former une cote angulaire ; la commande ig
 - L'arc de cote est toujours dessiné du côté du sommet où vous le placez — déplacez le curseur de l'autre côté du sommet pour passer à l'angle supplémentaire.
 - L'angle mesuré s'affiche en degrés et se met à jour en direct pendant que vous déplacez le curseur lors du placement.
 - L'annotation résultante est une entité `DimensionAngular` complète stockée dans le calque courant. Ses propriétés d'apparence (taille de flèche, hauteur de texte, longueur de ligne d'extension) peuvent être ajustées dans le panneau Propriétés.
-- Les cotes angulaires sont incluses dans l'export JSON mais ne sont pas compatibles avec l'exporteur DXF.
+- Les cotes angulaires s'exportent en JSON comme en DXF, et sont écrites en DXF sous forme d'entités `DIMENSION` standard.
 
 ## Modifier le libellé — simple mode
 

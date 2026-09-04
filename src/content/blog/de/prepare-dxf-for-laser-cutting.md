@@ -57,7 +57,7 @@ Wenn es auf Toleranz ankommt, schneiden Sie ein Probestück, bevor Sie Material 
 
 Wissenswert, bevor Sie sich darauf verlassen:
 
-- **Beschriftung wird jetzt mitexportiert — räumen Sie sie selbst weg.** Text, Bemaßungen, Leader und Schraffuren gehen allesamt in die exportierte DXF. Für eine normale Übergabe ist das genau richtig, für eine Schnittdatei heißt es aber: Was Sie in der Zeichnung gelassen haben, steht auch wirklich in der Datei. Der Export entfernt es nicht mehr stillschweigend für Sie — löschen Sie es also, oder halten Sie es auf Layern, die Sie vor dem Export entfernen.
+- **Wählen Sie Beschriftung ab, statt sie zu löschen.** Text, Bemaßungen, Leader und Schraffuren werden jetzt alle exportiert, alles in der Zeichnung Verbliebene landet also in der Datei. Löschen müssen Sie es nicht: Der Export-Manager listet jeden Elementtyp mit eigenem Kontrollkästchen, und wenn Sie Text, die Bemaßungszeilen, Leaders und Hatches abwählen, bekommen Sie eine DXF mit Schnittgeometrie und sonst nichts — die Zeichnung selbst bleibt unangetastet.
 - **Text landet als `MTEXT`, und das ist nicht dasselbe wie gravierbare Geometrie.** Die Beschriftung wird mit ihrer Formatierung exportiert, doch viele Maschinenprogramme wollen auf einem Gravurlayer Konturen statt lebendigem Text. Prüfen Sie, was Ihres annimmt, bevor Sie eine Gravur darauf aufbauen.
 - **Blockreferenzen werden nicht importiert.** Eine aus wiederkehrenden Blocksymbolen aufgebaute Zeichnung kommt unvollständig an; prüfen Sie die Teilezahl gegen das Original.
 

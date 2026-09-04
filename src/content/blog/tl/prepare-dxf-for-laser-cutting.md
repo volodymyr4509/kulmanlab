@@ -57,7 +57,7 @@ Kung mahalaga ang tolerance, pumutol ng isang piraso ng pagsubok bago mo italaga
 
 Sulit malaman bago ka umasa rito:
 
-- **Nae-export na ngayon ang anotasyon — kaya kayo mismo ang maglinis.** Ang teksto, sukat, leader at hatch ay pumapasok lahat sa na-export na DXF. Para sa karaniwang pagpasa iyan mismo ang gusto mo, pero sa isang cut file ibig sabihin ay talagang mapupunta sa file ang anumang iniwan mo sa guhit. Hindi na ito tahimik na inaalis ng export para sa iyo, kaya burahin mo, o itago sa mga layer na tatanggalin mo bago mag-export.
+- **Alisan ng tsek ang anotasyon sa halip na burahin ito.** Nae-export na ngayon ang teksto, sukat, leader at hatch, kaya anumang naiwan sa guhit ay napupunta sa file. Hindi kailangang burahin: nakalista sa Export Manager ang bawat uri ng entity na may sariling checkbox, kaya ang pag-alis ng tsek sa Text, sa mga hanay ng sukat, sa Leaders at sa Hatches ay nagbibigay ng DXF na puro heometriya ng putol, habang hindi nagagalaw ang guhit mismo.
 - **Lumalabas ang teksto bilang `MTEXT`, at hindi iyon katumbas ng heometriyang puwedeng iukit.** Na-e-export ang letra kasama ang pormat nito, pero maraming software ng makina ang gustong outline sa halip na buhay na teksto sa layer ng ukit. Tingnan kung ano ang tinatanggap ng sa iyo bago magplano ng ukit dito.
 - **Hindi ini-import ang block references.** Ang guhit na binuo mula sa paulit-ulit na block symbols ay papasok nang kulang, kaya ihambing ang bilang ng piyesa sa orihinal.
 

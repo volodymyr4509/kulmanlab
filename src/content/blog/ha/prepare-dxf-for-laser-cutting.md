@@ -57,7 +57,7 @@ Idan daidaito yana da muhimmanci, ka yanka gwajin guda kafin ka ba da kaya.
 
 Ya kamata a sani kafin ka dogara da shi:
 
-- **Yanzu bayanai suna fita su ma — ka cire su da kanka.** Rubutu, ma'auni, layukan nuni da lallausan zane duk suna shiga cikin DXF ɗin da aka fitar. Ga mika aiki na yau da kullum wannan shi ne abin da kake so, amma ga fayil ɗin yankewa yana nufin duk abin da ka bari a zane zai kasance a fayil ɗin da gaske. Fitarwa ba ta sake cire shi maka a shiru, don haka ka goge shi, ko ka ajiye shi a sassan da za ka cire kafin fitarwa.
+- **Cire alamar bayanai maimakon share su.** Rubutu, ma'auni, layukan nuni da lallausan zane duk ana fitar da su yanzu, don haka duk abin da ka bari a zanen zai shiga fayil ɗin. Ba sai ka share ba: Export Manager yana lissafa kowane nau'in abu da akwatin zaɓinsa, don haka cire alamar Text, layukan ma'auni, Leaders da Hatches yana ba ka DXF mai siffofin yankewa kaɗai, zanen kansa kuwa bai canja ba.
 - **Rubutu yana fita a matsayin `MTEXT`, wanda ba daidai yake da siffofin da za a iya sassaƙa ba.** Haruffa suna fita tare da tsarinsu, amma yawancin manhajojin inji suna son zanen waje maimakon rubutu mai rai a kan sashen sassaƙa. Ka duba abin da naka yake karɓa kafin ka tsara sassaƙa a kansa.
 - **Ba a shigo da nassoshin block ba.** Zanen da aka gina daga alamun block da ake maimaitawa yana shigowa bai cika ba, don haka ka duba adadin kaya idan aka kwatanta da na asali.
 

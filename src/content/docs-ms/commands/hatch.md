@@ -105,7 +105,7 @@ Hatch **diimport** daripada entiti `HATCH`: KulmanLab membaca geometri sempadan 
 
 Gelung bersempadan spline yang ditulis oleh aplikasi lain (jenis tepi sempadan DXF 4) belum dibaca lagi.
 
-Hatch pada masa ini tidak **dieksport** ke DXF — gunakan format `.json` daripada [Export Manager](../export-manager/) untuk mengekalkan hatch semasa menyimpan lukisan yang mengandungi satu; format `.dxf` mengetepikannya.
+Lorekan **dieksport** ke DXF sebagai entiti `HATCH`. Gelung sempadan keluar bersama nama corak (kod kumpulan 2), bendera isian padat (70), serta sudut dan skala lorekan itu sendiri (52/41) — dan berbeza daripada laluan import, takrif garis corak yang telah dileraikan turut ditulis di dalamnya (78, dengan 53/43/44/45/46/79/49). Ketaksamaan itu disengajakan: KulmanLab boleh mencari nama dalam pustakanya sendiri, tetapi aplikasi yang menerima fail itu mungkin tidak mempunyai corak tersebut, jadi garisnya ikut bersama.
 
 ## Arahan Berkaitan
 

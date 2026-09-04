@@ -105,7 +105,7 @@ Les hatchs sont **importés** depuis des entités `HATCH` : KulmanLab lit la gé
 
 Les boucles délimitées par des splines écrites par d'autres applications (type de bord de contour DXF 4) ne sont pas encore lues.
 
-Les hatchs ne s'**exportent** pas actuellement en DXF — utilisez le format `.json` d'[Export Manager](../export-manager/) pour conserver un hatch lors de l'enregistrement d'un dessin qui en comporte un ; le format `.dxf` l'omet.
+Les hachures s'**exportent** en DXF sous forme d'entités `HATCH`. Les boucles de contour partent avec le nom du motif (code de groupe 2), l'indicateur de remplissage plein (70) ainsi que l'angle et l'échelle propres à cette hachure (52/41) — et, contrairement au chemin d'import, les définitions de lignes résolues du motif sont également écrites en ligne (78, avec 53/43/44/45/46/79/49). L'asymétrie est voulue : KulmanLab sait résoudre un nom dans sa propre bibliothèque, mais l'application qui reçoit le fichier n'a peut-être pas ce motif, donc les lignes voyagent avec lui.
 
 ## Commandes associées
 

@@ -57,7 +57,7 @@ Is tolerantie belangrijk, snij dan een proefstuk voordat je materiaal vastlegt.
 
 Goed om te weten voordat je erop vertrouwt:
 
-- **Annotatie wordt nu wél geëxporteerd — ruim haar zelf op.** Tekst, maatvoering, leaders en arceringen gaan allemaal mee de geëxporteerde DXF in. Voor een gewone overdracht is dat precies wat je wilt, maar voor een snijbestand betekent het dat alles wat je in de tekening liet staan er echt in zit. De export haalt het niet langer stilletjes voor je weg, dus verwijder het, of houd het op lagen die je vóór het exporteren weghaalt.
+- **Vink annotatie uit in plaats van haar te verwijderen.** Tekst, maatvoering, leaders en arceringen worden nu allemaal geëxporteerd, dus alles wat je in de tekening laat staan komt in het bestand terecht. Verwijderen hoeft niet: de Export Manager toont elk entiteitstype met een eigen vinkje, dus door Text, de maatvoeringsrijen, Leaders en Hatches uit te vinken krijg je een DXF met alleen snijgeometrie, terwijl de tekening zelf ongemoeid blijft.
 - **Tekst komt eruit als `MTEXT`, en dat is niet hetzelfde als graveerbare geometrie.** Het letterwerk wordt met opmaak en al geëxporteerd, maar heel wat machinesoftware wil contouren in plaats van levende tekst op een graveerlaag. Ga na wat de jouwe accepteert voordat je daar een gravure op baseert.
 - **Blockverwijzingen worden niet geïmporteerd.** Een tekening die uit herhaalde blocksymbolen is opgebouwd komt onvolledig binnen, dus controleer het aantal onderdelen tegen het origineel.
 

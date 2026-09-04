@@ -48,7 +48,7 @@ Yhdensuuntaiset viivat eivät voi muodostaa kulmamittaa; komento ohittaa toisen 
 - Mittakaari piirretään aina sillä puolella kärkeä, johon sen sijoitat — siirrä kohdistin kärjen yli vaihtaaksesi täydennyskulmaan.
 - Mitattu kulma näytetään asteina ja päivittyy elävästi liikuttaessasi kohdistinta sijoituksen aikana.
 - Tuloksena oleva merkintä on täysi `DimensionAngular`-entiteetti, joka tallennetaan nykyiselle tasolle. Sen ulkoasuominaisuuksia (nuolen koko, tekstin korkeus, apuviivan pituus) voidaan säätää Properties-paneelissa.
-- Kulmamitat sisältyvät JSON-vientiin, mutta DXF-viejä ei tue niitä.
+- Kulmamitat viedään sekä JSON- että DXF-muotoon, ja DXF:ssä ne kirjoitetaan tavallisina `DIMENSION`-objekteina.
 
 ## Merkinnän muokkaaminen — yksinkertainen tila
 

@@ -105,7 +105,7 @@ Hatch-Elemente werden aus `HATCH`-Elementen **importiert**: KulmanLab liest die 
 
 Splinebegrenzte Schleifen, die von anderen Anwendungen geschrieben wurden (DXF-Randkantentyp 4), werden noch nicht gelesen.
 
-Hatch-Elemente werden derzeit **nicht** nach DXF exportiert — verwenden Sie das `.json`-Format von [Export Manager](../export-manager/), um einen Hatch beim Speichern einer Zeichnung zu erhalten, die einen enthält; das `.dxf`-Format lässt ihn weg.
+Schraffuren werden als `HATCH`-Elemente nach DXF **exportiert**. Die Randschleifen gehen zusammen mit dem Musternamen (Gruppencode 2), dem Vollflächen-Flag (70) sowie Winkel und Maßstab dieser Schraffur (52/41) hinaus — und anders als beim Import werden auch die aufgelösten Musterlinien inline geschrieben (78, mit 53/43/44/45/46/79/49). Die Asymmetrie ist Absicht: KulmanLab kann einen Namen in der eigenen Bibliothek auflösen, die empfangende Anwendung hat dieses Muster aber vielleicht nicht — also reisen die Linien mit.
 
 ## Verwandte Befehle
 

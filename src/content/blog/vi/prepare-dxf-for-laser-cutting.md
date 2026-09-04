@@ -57,7 +57,7 @@ Nếu dung sai quan trọng, hãy cắt thử một mẫu trước khi dùng h�
 
 Đáng biết trước khi bạn trông cậy vào nó:
 
-- **Giờ phần chú giải cũng được xuất — hãy tự dọn nó đi.** Chữ, kích thước, đường dẫn chú thích và mặt cắt gạch đều đi vào tệp DXF xuất ra. Với một lần bàn giao thông thường thì đó đúng là điều bạn muốn, nhưng với tệp cắt, điều đó nghĩa là bất cứ thứ gì bạn để lại trong bản vẽ sẽ thực sự nằm trong tệp. Bước xuất không còn lặng lẽ lược bỏ giúp bạn nữa, nên hãy xóa đi, hoặc giữ chúng trên các lớp mà bạn sẽ bỏ trước khi xuất.
+- **Bỏ tích phần chú giải thay vì xóa nó.** Chữ, kích thước, đường dẫn chú thích và mặt cắt gạch giờ đều được xuất, nên bất cứ thứ gì bạn để lại trong bản vẽ đều vào tệp. Không cần xóa: Export Manager liệt kê từng loại đối tượng kèm ô tích riêng, nên bỏ tích Text, các hàng kích thước, Leaders và Hatches sẽ cho bạn một tệp DXF chỉ có hình học cắt, còn bản vẽ vẫn nguyên vẹn.
 - **Chữ ra dưới dạng `MTEXT`, không giống hình học khắc được.** Phần chữ được xuất kèm định dạng, nhưng khá nhiều phần mềm máy muốn đường bao thay vì chữ sống trên lớp khắc. Hãy kiểm tra phần mềm của bạn chấp nhận gì trước khi tính chuyện khắc chữ dựa vào đó.
 - **Tham chiếu block không được nhập vào.** Bản vẽ dựng từ các ký hiệu block lặp lại sẽ vào thiếu, nên hãy đối chiếu số lượng chi tiết với bản gốc.
 

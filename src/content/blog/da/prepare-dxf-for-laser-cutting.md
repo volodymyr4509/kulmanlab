@@ -57,7 +57,7 @@ Betyder tolerancen noget, så skær et prøvestykke, før du binder materiale op
 
 Værd at vide, før du regner med det:
 
-- **Påtegninger eksporteres nu — så ryd selv op.** Tekst, mål, henvisninger og skraveringer ryger alle med i den eksporterede DXF. Det er netop det, du vil have ved en almindelig aflevering, men i en skærefil betyder det, at alt, du lod blive i tegningen, faktisk er i filen. Eksporten fjerner det ikke længere stille og roligt for dig, så slet det, eller hold det på lag, du fjerner inden eksport.
+- **Fjern fluebenet ved påtegninger i stedet for at slette dem.** Tekst, mål, henvisninger og skraveringer eksporteres nu alle, så alt, du efterlader i tegningen, havner i filen. Du behøver ikke slette det: Export Manager viser hver elementtype med sit eget afkrydsningsfelt, så når du fjerner fluebenet ved Text, målrækkerne, Leaders og Hatches, får du en DXF med skæregeometri og intet andet — og selve tegningen røres ikke.
 - **Tekst havner som `MTEXT`, hvilket ikke er det samme som graverbar geometri.** Bogstaverne eksporteres med formateringen i behold, men en hel del maskinsoftware vil have konturer frem for levende tekst på et graveringslag. Tjek, hvad din accepterer, før du planlægger gravering ud fra det.
 - **Blokreferencer importeres ikke.** En tegning bygget af gentagne bloksymboler kommer ind ufuldstændig, så hold antallet af dele op mod originalen.
 

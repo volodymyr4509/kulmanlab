@@ -57,7 +57,7 @@ Si la tolerancia importa, corta una pieza de prueba antes de comprometer materia
 
 Conviene saberlo antes de confiar en ello:
 
-- **Ahora la anotación se exporta: retírala tú.** El texto, las cotas, las directrices y los sombreados entran todos en el DXF exportado. Para una entrega normal es justo lo que quieres, pero en un archivo de corte significa que todo lo que dejaste en el plano estará realmente en el archivo. La exportación ya no lo quita en silencio por ti, así que bórralo o mantenlo en capas que elimines antes de exportar.
+- **Desmarca la anotación en vez de borrarla.** Texto, cotas, directrices y sombreados se exportan ahora, así que todo lo que dejes en el dibujo acaba en el archivo. No hace falta borrarlo: el Export Manager lista cada tipo de entidad con su propia casilla, así que desmarcar Text, las filas de cotas, Leaders y Hatches te da un DXF con geometría de corte y nada más, dejando el dibujo intacto.
 - **El texto sale como `MTEXT`, que no es lo mismo que geometría grabable.** Las letras se exportan con su formato intacto, pero mucho software de máquina quiere contornos en lugar de texto vivo en la capa de grabado. Comprueba qué acepta el tuyo antes de planificar un grabado sobre eso.
 - **Las referencias a bloques no se importan.** Un dibujo construido con símbolos de bloque repetidos llega incompleto, así que comprueba el recuento de piezas contra el original.
 

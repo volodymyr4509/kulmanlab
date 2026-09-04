@@ -48,7 +48,7 @@ Parallelle linjer kan ikke danne et vinkelmål; kommandoen ignorerer det andre k
 - Målbuen tegnes alltid på siden av toppunktet der du plasserer den — flytt markøren over toppunktet for å bytte til tilleggsvinkelen.
 - Den målte vinkelen vises i grader og oppdateres live mens du beveger markøren under plassering.
 - Den resulterende annotasjonen er en fullstendig `DimensionAngular`-entitet lagret på gjeldende lag. Utseendeegenskapene (pilstørrelse, teksthøyde, hjelpelinjelengde) kan justeres i Properties-panelet.
-- Vinkelmål inkluderes i JSON-eksport, men støttes ikke av DXF-eksportøren.
+- Vinkelmål eksporteres til både JSON og DXF, og skrives i DXF som vanlige `DIMENSION`-objekter.
 
 ## Redigere etiketten — enkel modus
 

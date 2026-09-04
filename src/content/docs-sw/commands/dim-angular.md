@@ -48,7 +48,7 @@ Mistari inayofanana haiwezi kuunda kipimo cha pembe; amri inazaliwa bonyezo la p
 - Mviringo wa kipimo daima huchorwa upande wa kilele ambapo unakuweka — sogeza mshale kwenye kilele ili kugeuza kwenda pembe inayosaidia.
 - Pembe iliyopimwa inaonyeshwa kwa digrii na inasasishwa moja kwa moja unapasogeza mshale wakati wa uwekaji.
 - Maelezo yanayotokana ni kipengele kamili cha `DimensionAngular` kilichohifadhiwa kwenye safu ya sasa. Sifa zake za mwonekano (ukubwa wa mshale, urefu wa maandishi, urefu wa mstari wa upanuzi) zinaweza kurekebishwa kwenye paneli ya Sifa.
-- Vipimo vya pembe vimejumuishwa katika usafirishaji wa JSON lakini havisaidiwi na kisafirishaji cha DXF.
+- Vipimo vya pembe huhamishwa kwenda JSON na DXF vyote viwili, na katika DXF huandikwa kama vitu vya kawaida vya `DIMENSION`.
 
 ## Kuhariri lebo — hali rahisi
 

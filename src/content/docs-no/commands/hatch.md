@@ -105,7 +105,7 @@ Hatcher **importeres** fra `HATCH`-entiteter: KulmanLab leser grensegeometrien s
 
 Splinebegrensede løkker skrevet av andre applikasjoner (DXF-grensekanttype 4) leses ennå ikke.
 
-Hatcher eksporteres for øyeblikket ikke til DXF — bruk `.json`-formatet fra [Export Manager](../export-manager/) for å bevare en hatch når du lagrer en tegning som inneholder én; `.dxf`-formatet utelater den.
+Skravering **eksporteres** til DXF som `HATCH`-objekter. Grenseløkkene går ut sammen med mønsternavnet (gruppekode 2), fyllflagget (70) og denne skraveringens egen vinkel og skala (52/41) — og i motsetning til importveien skrives også mønsterets oppløste linjedefinisjoner inn i filen (78, med 53/43/44/45/46/79/49). Asymmetrien er tilsiktet: KulmanLab kan slå opp et navn i sitt eget bibliotek, men programmet som mottar filen har kanskje ikke det mønsteret, så linjene reiser med.
 
 ## Relaterte kommandoer
 

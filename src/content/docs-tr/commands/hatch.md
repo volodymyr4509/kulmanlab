@@ -105,7 +105,7 @@ Hatch'ler `HATCH` nesnelerinden **içe aktarılır**: KulmanLab, sınır geometr
 
 Diğer uygulamalar tarafından yazılan spline sınırlı döngüler (DXF sınır kenar türü 4) henüz okunmuyor.
 
-Hatch'ler şu anda DXF'ye **dışa aktarılmıyor** — bir hatch içeren bir çizimi kaydederken onu korumak için [Export Manager](../export-manager/)'un `.json` formatını kullanın; `.dxf` formatı onu atlar.
+Taramalar DXF'e `HATCH` varlıkları olarak **aktarılır**. Sınır döngüleri, desen adı (grup kodu 2), dolu doldurma bayrağı (70) ve o taramanın kendi açısı ile ölçeği (52/41) ile birlikte dışarı çıkar — ve içe aktarma yolundan farklı olarak, desenin çözümlenmiş çizgi tanımları da dosyaya yazılır (78, 53/43/44/45/46/79/49 ile). Bu asimetri bilinçlidir: KulmanLab bir adı kendi kütüphanesinde çözebilir, ancak dosyayı alan uygulamada o desen bulunmayabilir, bu yüzden çizgiler onunla birlikte yolculuk eder.
 
 ## İlgili Komutlar
 

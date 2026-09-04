@@ -48,7 +48,7 @@ Parallelle lijnen kunnen geen hoekmaatvoering vormen; het commando negeert de tw
 - De maatvoeringsboog wordt altijd getekend aan de kant van het hoekpunt waar u deze plaatst — beweeg de cursor over het hoekpunt om naar de aanvullende hoek te wisselen.
 - De gemeten hoek wordt in graden getoond en wordt live bijgewerkt terwijl u de cursor tijdens het plaatsen beweegt.
 - De resulterende annotatie is een volledige `DimensionAngular`-entiteit die op de huidige laag wordt opgeslagen. De weergave-eigenschappen (pijlgrootte, teksthoogte, hulplijnlengte) kunnen worden aangepast in het Eigenschappenpaneel.
-- Hoekmaatvoeringen worden opgenomen in JSON-export maar worden niet ondersteund door de DXF-exporter.
+- Hoekmaten worden zowel naar JSON als naar DXF geëxporteerd, en in DXF geschreven als gewone `DIMENSION`-entiteiten.
 
 ## Het label bewerken — simple-modus
 

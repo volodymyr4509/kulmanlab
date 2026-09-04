@@ -48,7 +48,7 @@ Layi masu daidaici ba za su iya samar da girma-girma na angular ba; umarnin yana
 - Bakan girma-girma koyaushe ana zana shi a gefen kusurwar da ka sanya shi — motsa mai nuni ta cikin kusurwar don juyawa zuwa kusurwar mai ƙari.
 - Ana nuna kusurwar da aka auna a digiri kuma tana sabuntawa a lokaci na rai yayin da kake motsa mai nuni a lokacin sanyawa.
 - Bayanin da aka samu abin `DimensionAngular` ne cikakke da aka ajiye a layer na yanzu. Ana iya daidaita abubuwan bayyanarsa (girman kibiya, tsayin rubutu, tsawon layin extension) a panel na Properties.
-- Ana haɗa girma-girma na angular a fitarwar JSON amma ba a goyon bayan su ta hanyar mai fitar da DXF.
+- Ana fitar da ma'aunin kusurwa zuwa JSON da DXF duka, kuma a DXF ana rubuta su a matsayin abubuwan `DIMENSION` na yau da kullun.
 
 ## Gyara alamar — simple mode
 

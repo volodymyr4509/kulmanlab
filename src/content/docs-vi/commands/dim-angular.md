@@ -47,7 +47,7 @@ Các đường song song không thể tạo kích thước góc.
 - Cung kích thước luôn được vẽ ở phía đỉnh nơi bạn đặt nó — di chuyển con trỏ qua đỉnh để chuyển sang góc bù.
 - Góc đo hiển thị bằng độ và cập nhật trực tiếp khi bạn di chuyển con trỏ.
 - Kết quả là thực thể `DimensionAngular` đầy đủ được lưu trên lớp hiện tại.
-- Kích thước góc được bao gồm trong xuất JSON nhưng không được hỗ trợ bởi bộ xuất DXF.
+- Kích thước góc được xuất sang cả JSON lẫn DXF, và trong DXF được ghi dưới dạng đối tượng `DIMENSION` chuẩn.
 
 ## Chỉnh sửa nhãn — chế độ đơn giản
 

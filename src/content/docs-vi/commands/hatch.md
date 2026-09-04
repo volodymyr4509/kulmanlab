@@ -105,7 +105,7 @@ Hatch được **nhập** từ các thực thể `HATCH`: KulmanLab đọc hình
 
 Các vòng bị giới hạn bởi spline được viết bởi các ứng dụng khác (loại cạnh viền DXF 4) chưa được đọc.
 
-Hatch hiện không **xuất** sang DXF — dùng định dạng `.json` của [Export Manager](../export-manager/) để giữ lại một hatch khi lưu bản vẽ có chứa nó; định dạng `.dxf` sẽ bỏ qua nó.
+Mặt cắt gạch được **xuất** sang DXF dưới dạng đối tượng `HATCH`. Các vòng biên đi ra kèm tên mẫu (mã nhóm 2), cờ tô đặc (70) cùng góc và tỷ lệ của chính mặt cắt đó (52/41) — và khác với đường nhập, các định nghĩa đường của mẫu đã được phân giải cũng được ghi vào trong tệp (78, cùng 53/43/44/45/46/79/49). Sự bất đối xứng này là có chủ ý: KulmanLab có thể tra tên trong thư viện của mình, nhưng ứng dụng nhận tệp có thể không có mẫu đó, nên các đường đi kèm theo.
 
 ## Các Lệnh Liên Quan
 

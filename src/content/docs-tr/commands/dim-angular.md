@@ -48,7 +48,7 @@ Paralel çizgiler açısal ölçü oluşturamaz; çizgiler kesişmiyorsa komut i
 - Ölçü yayı her zaman yerleştirdiğiniz köşenin tarafında çizilir — imleci köşe üzerinden geçirerek tamamlayıcı açıya geçin.
 - Ölçülen açı derece cinsinden gösterilir ve yerleştirme sırasında imleci hareket ettirdikçe canlı olarak güncellenir.
 - Elde edilen ek açıklama, mevcut katmanda saklanan tam bir `DimensionAngular` nesnesidir. Görünüm özellikleri (ok boyutu, metin yüksekliği, uzatma çizgisi uzunluğu) Özellikler panelinden ayarlanabilir.
-- Açısal ölçüler JSON dışa aktarımına dahil edilir ancak DXF dışa aktarıcı tarafından desteklenmez.
+- Açısal ölçüler hem JSON'a hem DXF'e aktarılır ve DXF'te standart `DIMENSION` varlıkları olarak yazılır.
 
 ## Etiketi Düzenleme — simple mode
 

@@ -57,7 +57,7 @@ Betyr toleransen noe, skjær et prøvestykke før du binder opp materiale.
 
 Verdt å vite før du stoler på det:
 
-- **Påtegninger eksporteres nå — rydd dem bort selv.** Tekst, mål, henvisninger og skravering havner alle i den eksporterte DXF-filen. Ved en vanlig overlevering er det nettopp det du vil ha, men i en skjærefil betyr det at alt du lot bli igjen i tegningen faktisk ligger i filen. Eksporten fjerner det ikke lenger stille for deg, så slett det, eller hold det på lag du fjerner før eksport.
+- **Fjern haken ved påtegninger i stedet for å slette dem.** Tekst, mål, henvisninger og skravering eksporteres nå alle, så alt du lar bli igjen i tegningen havner i filen. Du trenger ikke slette det: Export Manager lister hver elementtype med sin egen avkryssingsboks, så når du fjerner haken ved Text, målradene, Leaders og Hatches, får du en DXF med skjæregeometri og ingenting annet — og selve tegningen røres ikke.
 - **Tekst havner som `MTEXT`, som ikke er det samme som graverbar geometri.** Bokstavene eksporteres med formateringen i behold, men mye maskinprogramvare vil ha konturer framfor levende tekst på et graveringslag. Sjekk hva din godtar før du planlegger gravering ut fra det.
 - **Blokkreferanser importeres ikke.** En tegning bygget av gjentatte blokksymboler kommer inn ufullstendig, så sjekk antall deler mot originalen.
 

@@ -48,7 +48,7 @@ Las líneas paralelas no pueden formar una cota angular; el comando ignora el se
 - El arco de cota siempre se dibuja en el lado del vértice donde lo colocas — mueve el cursor al otro lado del vértice para cambiar al ángulo suplementario.
 - El ángulo medido se muestra en grados y se actualiza en vivo mientras mueves el cursor durante la colocación.
 - La anotación resultante es una entidad `DimensionAngular` completa almacenada en la capa actual. Sus propiedades de apariencia (tamaño de flecha, altura de texto, longitud de línea de extensión) se pueden ajustar en el panel de Propiedades.
-- Las cotas angulares se incluyen en la exportación JSON pero no son compatibles con el exportador de DXF.
+- Las cotas angulares se exportan tanto a JSON como a DXF, y en DXF se escriben como entidades `DIMENSION` estándar.
 
 ## Editar la etiqueta — simple mode
 

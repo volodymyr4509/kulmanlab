@@ -105,7 +105,7 @@ Hatches **import** from `HATCH` entities: KulmanLab reads the boundary geometry 
 
 Spline-bounded loops written by other applications (DXF boundary edge type 4) are not yet read.
 
-Hatches do not currently **export** to DXF — use [Export Manager](../export-manager/)'s `.json` format to keep a hatch when saving a drawing that includes one; the `.dxf` format leaves it out.
+Hatches **export** to DXF as `HATCH` entities. The boundary loops go out with the pattern name (group code 2), the solid-fill flag (70), and this hatch's own angle and scale (52/41) — and, unlike the import path, the pattern's resolved line definitions are written inline as well (78, with 53/43/44/45/46/79/49). The asymmetry is deliberate: KulmanLab can resolve a name against its own library, but the application receiving the file may not have that pattern, so the lines travel with it.
 
 ## Related commands
 

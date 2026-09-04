@@ -57,7 +57,7 @@ Kalau toleransi itu penting, potong satu benda uji sebelum mengorbankan material
 
 Perlu diketahui sebelum Anda mengandalkannya:
 
-- **Anotasi kini ikut terekspor — bersihkan sendiri.** Teks, dimensi, leader, dan arsiran semuanya masuk ke DXF hasil ekspor. Untuk serah terima biasa itu justru yang Anda mau, tapi untuk berkas potong artinya apa pun yang Anda tinggalkan di gambar benar-benar ada di berkas. Ekspor tidak lagi diam-diam membuangkannya untuk Anda, jadi hapuslah, atau simpan di layer yang Anda buang sebelum mengekspor.
+- **Hilangkan centang anotasi, jangan dihapus.** Teks, dimensi, leader, dan arsiran kini semuanya diekspor, jadi apa pun yang Anda tinggalkan di gambar akan masuk ke berkas. Tidak perlu menghapusnya: Export Manager mencantumkan tiap tipe entitas dengan kotak centangnya sendiri, jadi menghilangkan centang Text, baris dimensi, Leaders, dan Hatches memberi Anda DXF berisi geometri potong saja, sementara gambarnya sendiri tidak tersentuh.
 - **Teks keluar sebagai `MTEXT`, dan itu bukan geometri yang bisa digravir.** Huruf terekspor lengkap dengan formatnya, tapi banyak perangkat lunak mesin menginginkan outline alih-alih teks hidup di layer engrave. Cek dulu apa yang diterima milik Anda sebelum merencanakan gravir di atasnya.
 - **Referensi blok tidak diimpor.** Gambar yang disusun dari simbol blok berulang masuk dalam keadaan tidak lengkap, jadi cocokkan jumlah komponen dengan aslinya.
 

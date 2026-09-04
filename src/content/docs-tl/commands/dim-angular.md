@@ -48,7 +48,7 @@ Hindi puwedeng bumuo ng angular dimension ang parallel na mga linya; hindi pinap
 - Palaging iginuguhit ang dimension arc sa panig ng vertex kung saan mo ito inilagay — igalaw ang cursor patawid ng vertex para lumipat sa supplementary angle.
 - Ipinapakita ang sinukat na angle sa degrees at nagra-update nang live habang gumagalaw ang cursor sa paglalagay.
 - Ang resultang annotation ay isang kumpletong `DimensionAngular` entity na nakatago sa kasalukuyang layer. Ang mga appearance properties nito (arrow size, text height, extension line length) ay puwedeng i-adjust sa Properties panel.
-- Kasama ang angular dimensions sa JSON export pero hindi ito suportado ng DXF exporter.
+- Ang mga angular na sukat ay nae-export sa JSON at DXF, at sa DXF ay isinusulat bilang karaniwang `DIMENSION` entity.
 
 ## Pag-edit ng Label — simple mode
 

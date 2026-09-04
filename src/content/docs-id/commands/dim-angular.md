@@ -48,7 +48,7 @@ Garis paralel tidak dapat membentuk dimensi sudut; perintah mengabaikan klik ked
 - Busur dimensi selalu digambar di sisi vertex tempat Anda menempatkannya — gerakkan kursor melintasi vertex untuk beralih ke sudut suplemen.
 - Sudut yang diukur ditampilkan dalam derajat dan diperbarui secara langsung saat Anda menggerakkan kursor selama penempatan.
 - Anotasi yang dihasilkan adalah entitas `DimensionAngular` penuh yang disimpan pada layer saat ini. Properti tampilannya (ukuran panah, tinggi teks, panjang garis ekstensi) dapat disesuaikan di panel Properti.
-- Dimensi sudut disertakan dalam ekspor JSON tetapi tidak didukung oleh eksporter DXF.
+- Dimensi sudut diekspor ke JSON maupun DXF, dan di DXF ditulis sebagai entitas `DIMENSION` standar.
 
 ## Mengedit label — mode sederhana
 

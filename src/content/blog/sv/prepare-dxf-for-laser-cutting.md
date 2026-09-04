@@ -57,7 +57,7 @@ Om toleransen spelar roll: skär en provbit innan du binder upp material.
 
 Värt att veta innan du förlitar dig på det:
 
-- **Anteckningar exporteras nu — rensa bort dem själv.** Text, mått, hänvisningar och skrafferingar hamnar alla i den exporterade DXF-filen. Vid en vanlig överlämning är det precis vad du vill ha, men i en skärfil betyder det att allt du lämnade kvar i ritningen faktiskt ligger i filen. Exporten plockar inte längre bort det tyst åt dig, så radera det, eller håll det på lager som du tar bort före exporten.
+- **Bocka ur anteckningar i stället för att radera dem.** Text, mått, hänvisningar och skrafferingar exporteras nu allihop, så allt du lämnar kvar i ritningen hamnar i filen. Du behöver inte radera det: Export Manager listar varje objekttyp med en egen kryssruta, så genom att bocka ur Text, måttraderna, Leaders och Hatches får du en DXF med enbart skärgeometri, medan själva ritningen lämnas orörd.
 - **Text hamnar som `MTEXT`, vilket inte är samma sak som graverbar geometri.** Bokstäverna exporteras med formateringen i behåll, men en hel del maskinprogram vill ha konturer i stället för levande text på ett graveringslager. Kontrollera vad ditt accepterar innan du planerar gravyr utifrån det.
 - **Blockreferenser importeras inte.** En ritning uppbyggd av upprepade blocksymboler kommer in ofullständig, så stäm av antalet detaljer mot originalet.
 

@@ -48,7 +48,7 @@ Parallel lines cannot form an angular dimension; the command ignores the second 
 - The dimension arc is always drawn on the side of the vertex where you place it — move the cursor across the vertex to flip to the supplementary angle.
 - The measured angle is shown in degrees and updates live as you move the cursor during placement.
 - The resulting annotation is a full `DimensionAngular` entity stored on the current layer. Its appearance properties (arrow size, text height, extension line length) can be adjusted in the Properties panel.
-- Angular dimensions are included in JSON export but are not supported by the DXF exporter.
+- Angular dimensions export to both JSON and DXF, written in DXF as standard `DIMENSION` entities.
 
 ## Editing the label — simple mode
 

@@ -105,7 +105,7 @@ Gli hatch vengono **importati** da entità `HATCH`: KulmanLab legge la geometria
 
 Gli anelli delimitati da spline scritti da altre applicazioni (tipo di bordo contorno DXF 4) non vengono ancora letti.
 
-Gli hatch attualmente non vengono **esportati** in DXF — usa il formato `.json` di [Export Manager](../export-manager/) per conservare un hatch quando salvi un disegno che lo include; il formato `.dxf` lo omette.
+Le campiture si **esportano** in DXF come entità `HATCH`. I contorni escono insieme al nome del motivo (codice di gruppo 2), al flag di riempimento pieno (70) e all'angolo e alla scala di quella campitura (52/41) — e, a differenza del percorso di importazione, vengono scritte inline anche le definizioni di linea risolte del motivo (78, con 53/43/44/45/46/79/49). L'asimmetria è voluta: KulmanLab sa risolvere un nome nella propria libreria, ma l'applicazione che riceve il file potrebbe non avere quel motivo, quindi le linee viaggiano con esso.
 
 ## Comandi correlati
 

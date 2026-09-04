@@ -57,7 +57,7 @@ Se la tolleranza conta, taglia un pezzo di prova prima di impegnare il materiale
 
 Utile saperlo prima di farci affidamento:
 
-- **Ora l'annotazione viene esportata: toglila tu.** Testo, quote, direttrici e campiture entrano tutti nel DXF esportato. Per una consegna generica è esattamente ciò che vuoi, ma per un file di taglio significa che tutto quello che hai lasciato nel disegno sarà davvero nel file. L'esportazione non lo toglie più in silenzio al posto tuo: cancellalo, o tienilo su layer che rimuovi prima di esportare.
+- **Togli la spunta all'annotazione invece di cancellarla.** Testo, quote, direttrici e campiture ora si esportano tutte, quindi qualunque cosa lasci nel disegno finisce nel file. Non serve cancellarla: l'Export Manager elenca ogni tipo di entità con la propria casella, così togliendo la spunta a Text, alle righe delle quote, a Leaders e a Hatches ottieni un DXF con la sola geometria di taglio, lasciando il disegno intatto.
 - **Il testo esce come `MTEXT`, che non è geometria incidibile.** Le scritte vengono esportate con la loro formattazione, ma parecchi software macchina vogliono contorni anziché testo vivo su un layer di incisione. Controlla che cosa accetta il tuo prima di pianificarci sopra un'incisione.
 - **I riferimenti a blocchi non vengono importati.** Un disegno costruito con simboli a blocco ripetuti arriva incompleto, quindi confronta il conteggio dei pezzi con l'originale.
 

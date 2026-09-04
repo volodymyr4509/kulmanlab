@@ -105,7 +105,7 @@ Hatches **importeres** fra `HATCH`-entiteter: KulmanLab læser grænsegeometrien
 
 Spline-afgrænsede løkker skrevet af andre applikationer (DXF-grænsekant-type 4) læses endnu ikke.
 
-Hatches **eksporteres** i øjeblikket ikke til DXF — brug `.json`-formatet fra [Export Manager](../export-manager/) for at bevare en hatch, når du gemmer en tegning, der indeholder én; `.dxf`-formatet udelader den.
+Skraveringer **eksporteres** til DXF som `HATCH`-elementer. Grænseløkkerne følger med mønsternavnet (gruppekode 2), fyldfladeflaget (70) og denne skraverings egen vinkel og skala (52/41) — og modsat importvejen skrives mønstrets opløste linjedefinitioner også inline (78, med 53/43/44/45/46/79/49). Asymmetrien er tilsigtet: KulmanLab kan slå et navn op i sit eget bibliotek, men den modtagende applikation har måske ikke det mønster, så linjerne rejser med.
 
 ## Relaterede kommandoer
 

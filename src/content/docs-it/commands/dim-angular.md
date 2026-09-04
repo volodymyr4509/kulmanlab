@@ -48,7 +48,7 @@ Le linee parallele non possono formare una quota angolare; il comando ignora il 
 - L'arco di quota viene sempre tracciato sul lato del vertice dove lo posizioni — sposta il cursore attraverso il vertice per passare all'angolo supplementare.
 - L'angolo misurato viene mostrato in gradi e si aggiorna in tempo reale mentre sposti il cursore durante il posizionamento.
 - L'annotazione risultante è un'entità `DimensionAngular` completa memorizzata sul layer corrente. Le proprietà di aspetto (dimensione freccia, altezza testo, lunghezza linea di estensione) possono essere regolate nel pannello Proprietà.
-- Le quote angolari sono incluse nell'esportazione JSON ma non sono supportate dall'esportatore DXF.
+- Le quote angolari si esportano sia in JSON sia in DXF, e in DXF vengono scritte come normali entità `DIMENSION`.
 
 ## Modifica dell'etichetta — simple mode
 

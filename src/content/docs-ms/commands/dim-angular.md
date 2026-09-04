@@ -48,7 +48,7 @@ Garis selari tidak boleh membentuk dimensi sudut; arahan mengabaikan klik kedua 
 - Lengkok dimensi sentiasa dilukis di sisi bucu di mana anda meletakkannya — gerakkan kursor merentasi bucu untuk beralih ke sudut tambahan.
 - Sudut yang diukur ditunjukkan dalam darjah dan dikemas kini secara langsung semasa anda menggerakkan kursor semasa peletakan.
 - Anotasi yang dihasilkan adalah entiti `DimensionAngular` penuh yang disimpan pada lapisan semasa. Sifat penampilannya (saiz anak panah, ketinggian teks, panjang garis sambungan) boleh dilaraskan dalam panel Sifat.
-- Dimensi sudut disertakan dalam eksport JSON tetapi tidak disokong oleh pengeksport DXF.
+- Dimensi sudut dieksport ke JSON dan DXF, dan dalam DXF ditulis sebagai entiti `DIMENSION` biasa.
 
 ## Mengedit label — mod mudah
 

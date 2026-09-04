@@ -48,7 +48,7 @@ Parallele Linien können keine Winkelbemaßung bilden; der Befehl ignoriert den 
 - Der Bemaßungsbogen wird immer auf der Seite des Scheitelpunkts gezeichnet, auf der Sie ihn platzieren — bewegen Sie den Mauszeiger über den Scheitelpunkt, um zum Ergänzungswinkel zu wechseln.
 - Der gemessene Winkel wird in Grad angezeigt und aktualisiert sich live, während Sie den Mauszeiger während der Platzierung bewegen.
 - Die resultierende Annotation ist ein vollständiges `DimensionAngular`-Element, das auf der aktuellen Ebene gespeichert wird. Seine Darstellungseigenschaften (Pfeilgröße, Texthöhe, Maßhilfslinienlänge) können im Eigenschaften-Panel angepasst werden.
-- Winkelbemaßungen sind im JSON-Export enthalten, werden aber vom DXF-Exporter nicht unterstützt.
+- Winkelbemaßungen werden sowohl nach JSON als auch nach DXF exportiert, in DXF als normale `DIMENSION`-Elemente.
 
 ## Beschriftung bearbeiten — simple mode
 

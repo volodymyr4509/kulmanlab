@@ -105,7 +105,7 @@ Hatch **diimpor** dari entitas `HATCH`: KulmanLab membaca geometri batas beserta
 
 Loop yang dibatasi spline yang ditulis oleh aplikasi lain (tipe tepi batas DXF 4) belum dibaca.
 
-Hatch saat ini tidak **diekspor** ke DXF — gunakan format `.json` dari [Export Manager](../export-manager/) untuk mempertahankan hatch saat menyimpan gambar yang menyertakannya; format `.dxf` menghilangkannya.
+Arsiran **diekspor** ke DXF sebagai entitas `HATCH`. Loop batasnya keluar bersama nama pola (kode grup 2), penanda isian padat (70), serta sudut dan skala arsiran itu sendiri (52/41) — dan berbeda dengan jalur impor, definisi garis pola yang sudah diuraikan juga ditulis di dalamnya (78, dengan 53/43/44/45/46/79/49). Ketimpangan itu disengaja: KulmanLab bisa menelusuri nama di pustakanya sendiri, tetapi aplikasi yang menerima berkas mungkin tidak punya pola tersebut, jadi garis-garisnya ikut serta.
 
 ## Perintah Terkait
 

@@ -105,7 +105,7 @@ Os hatches são **importados** de entidades `HATCH`: o KulmanLab lê a geometria
 
 Laços delimitados por spline escritos por outras aplicações (tipo de borda de contorno DXF 4) ainda não são lidos.
 
-Os hatches atualmente não são **exportados** para DXF — use o formato `.json` do [Export Manager](../export-manager/) para preservar um hatch ao salvar um desenho que o inclua; o formato `.dxf` o omite.
+As hachuras são **exportadas** para DXF como entidades `HATCH`. Os laços do contorno saem junto com o nome do padrão (código de grupo 2), o sinalizador de preenchimento sólido (70) e o ângulo e a escala daquela hachura (52/41) — e, ao contrário do caminho de importação, as definições de linha já resolvidas do padrão também são escritas no arquivo (78, com 53/43/44/45/46/79/49). A assimetria é proposital: o KulmanLab consegue resolver um nome na sua própria biblioteca, mas o aplicativo que recebe o arquivo pode não ter aquele padrão, então as linhas viajam junto.
 
 ## Comandos relacionados
 
