@@ -1,6 +1,6 @@
 ---
 title: エクスポートマネージャー — 図面をDXFまたはJSONとしてダウンロード
-description: 現在の図面をDXFまたはJSONとしてダウンロードします。どちらもすべての要素型——図形、文字、寸法、引出線、ハッチング——をレイヤと線種とともに運びます。
+description: 現在の図面をDXFまたはJSONとしてダウンロードし、要素型ごとに何を入れるか選べます。どちらも図形、文字、寸法、引出線、ハッチングをレイヤ・線種とともに運びます。
 keywords: [CAD DXF エクスポート, CAD ファイルエクスポート, ブラウザでDXFダウンロード, DXFオンライン保存, JSON CADエクスポート, KulmanLabエクスポート, CADファイルダウンロード, DXFエクスポート, 図面をファイルに保存, DXFダウンロード]
 group: file
 order: 6
@@ -8,16 +8,33 @@ order: 6
 
 # エクスポートマネージャー
 
-`exportmanager` コマンドは現在の図面をファイルシステムにダウンロードします。2つのフォーマットが並んだカードとして利用可能です — 他のCADツールとの互換性のための**DXF**と、KulmanLab CAD内での完全な忠実度での保存のための**JSON**です。各カードは、そのフォーマットが正確にどのエンティティタイプを保持するかを一覧表示します。
+`exportmanager` コマンドは現在の図面をファイルシステムへ書き出します。二つの形式が並びます——他のCADツールとの互換性のための **DXF** と、KulmanLab CAD内で完全に保存するための **JSON**——そして、それぞれにファイルへ入れるものの一覧があります。
 
 ## エクスポート方法
 
 1. ファイルパネルのツールバーにある**Export**ボタン（ダウンロードアイコン）をクリックするか、ターミナルに `exportmanager` と入力します。
-2. **エクスポートマネージャー**のポップアップが開き、JSONとDXFのカードが並んで表示され、それぞれ何がエクスポートされるかを一覧表示します。
-3. カードをクリックしてフォーマットを選択します — **JSON** または **DXF**。
-4. **Export \<FORMAT\>** ボタンをクリックします。ファイルはデフォルトのダウンロードフォルダに自動的にダウンロードされます。
+2. **Export Manager** のポップアップが **JSON** と **DXF** の2列で開き、各列に図面の要素型がチェックボックスと個数つきで並びます。
+3. 外したいもののチェックを外します。初期状態ではすべて入っています。
+4. **Export JSON** または **Export DXF** をクリックします。ファイルが既定のダウンロードフォルダに保存され、ポップアップが閉じます。
 
 エクスポートせずにポップアップを閉じるには `Escape` を押します。
+
+## 書き出す内容を選ぶ
+
+両方の列に同じ要素型が並び、それぞれに図面内の個数が付きます。
+
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+
+ポップアップを開いた時点ではすべてチェックされているので、そのまま書き出せば図面全体が得られます。チェックを外した型は、そのファイルからだけ外れます。
+
+- **2つの列は独立しています。**DXF側でHatchesのチェックを外しても **Export JSON** の結果は変わりません。形式ごとに選択を保持します。
+- **持っていない型は淡色表示です。**個数が `0` の行はチェックできないため、この一覧は図面の簡易な棚卸しにもなります。
+- **個数はその時点のものです。**ポップアップを開いたときに取得され、背後で図面が変わっても更新されません。閉じて開き直すと更新されます。
+- **削除は起きません。**チェックを外しても影響するのは書き出されるファイルだけで、図面そのものはそのままです。
+
+**Linear Dimensions** は直線・平行・連続の寸法をまとめたものです。3つの異なるコマンドが作る同一の要素型で、半径・直径・角度はそれぞれ独立した行を持ちます。
+
+切断用ファイルにするには、Text、4つの寸法行、Leaders、Hatchesのチェックを外して **Export DXF** を押します——[レーザーカット用にDXFを整える](/ja/blog/prepare-dxf-for-laser-cutting/)を参照してください。
 
 ## フォーマットの選択
 
@@ -38,7 +55,7 @@ order: 6
 
 - Lines、Circles、Arcs、Ellipses、Polylines、Splines
 - Text
-- 寸法（linear、aligned、continued、radius、diameter）
+- 寸法（linear、aligned、continued、radius、diameter、角度）
 - Leaders（マルチリーダー）
 - Hatches（パターン、スケール、角度、原点を含む）
 - LayersとLinetypes
@@ -49,7 +66,7 @@ order: 6
 
 - Lines、Circles、Arcs、Ellipses、Polylines（`LWPOLYLINE`としてエクスポート）、Splines
 - Text
-- 寸法（linear、aligned、continued、radius、diameter）
+- 寸法（linear、aligned、continued、radius、diameter、角度）
 - Leaders（マルチリーダー）
 - Hatches（パターン、スケール、角度、原点を含む）
 - LayersとLinetypes
@@ -60,7 +77,7 @@ order: 6
 
 ## エクスポートされるファイル名
 
-ダウンロードされるファイルは、現在の図面ファイルにちなんで名付けられます（例：`myplan.json`）。拡張子は選択したフォーマットに合わせて変わります。
+ダウンロードされるファイルは、現在の図面ファイルにちなんで名付けられます（例：`myplan.json`）。拡張子は選択したフォーマットに合わせて変わります。 一度も名前を付けていない図面は `drawing.dxf` または `drawing.json` として書き出されます。
 
 ## エクスポートマネージャーと印刷マネージャーの違い
 

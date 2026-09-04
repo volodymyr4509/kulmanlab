@@ -1,6 +1,6 @@
 ---
 title: Export Manager — Download Drawings as DXF or JSON in KulmanLab CAD
-description: Download the current drawing as DXF or JSON. Both carry every entity type — geometry, text, dimensions, leaders and hatches — along with layers and linetypes.
+description: Download the current drawing as DXF or JSON, ticking per entity type what goes in. Both carry geometry, text, dimensions, leaders and hatches, plus layers and linetypes.
 keywords: [export DXF, export CAD file, download DXF browser, save DXF online, export JSON CAD, KulmanLab export, CAD file download, DXF export, save drawing to file, DXF download]
 group: file
 order: 6
@@ -8,16 +8,35 @@ order: 6
 
 # Export Manager
 
-The `exportmanager` command downloads the current drawing to your file system. Two formats are available, shown as side-by-side cards: **DXF** for compatibility with other CAD tools and **JSON** for full-fidelity saves within KulmanLab CAD — each card lists exactly which entity types that format carries.
+The `exportmanager` command downloads the current drawing to your file system. Two formats sit side by side — **DXF** for compatibility with other CAD tools and **JSON** for full-fidelity saves within KulmanLab CAD — and each has its own checklist of what to put in the file.
 
 ## How to export
 
 1. Click the **Export** toolbar button (download icon) in the File panel, or type `exportmanager` in the terminal.
-2. The **Export Manager** popup opens showing the JSON and DXF cards side by side, each listing what it exports.
-3. Click a card to select the format — **JSON** or **DXF**.
-4. Click the **Export \<FORMAT\>** button. The file downloads to your default downloads folder automatically.
+2. The **Export Manager** popup opens with two columns, **JSON** and **DXF**, each listing the drawing's entity types with a checkbox and a count.
+3. Untick anything you want left out. Everything starts ticked.
+4. Click **Export JSON** or **Export DXF**. The file downloads to your default downloads folder and the popup closes.
 
 Press `Escape` to close the popup without exporting.
+
+## Choosing what to export
+
+Both columns list the same entity types, each with a count of how many are in the drawing:
+
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+
+Everything is ticked when the popup opens, so exporting straight away gives you the whole drawing. Untick a type to leave it out of that one file.
+
+Four things worth knowing:
+
+- **The two columns are independent.** Unticking Hatches under DXF has no effect on what **Export JSON** produces. Each format keeps its own selection.
+- **A type you don't have is greyed out.** A row whose count is `0` can't be ticked, so the list doubles as a quick inventory of what the drawing actually contains.
+- **The counts are a snapshot.** They are taken when the popup opens and don't update if the drawing changes behind it. Close and reopen to refresh them.
+- **Nothing is deleted.** Unticking shapes the exported file only — the drawing itself is untouched.
+
+**Linear Dimensions** covers linear, aligned, and continued dimensions: they are one entity type created by three different commands. Radius, diameter, and angular dimensions each get their own row.
+
+This is what makes a cut file straightforward. Untick Text, the four dimension rows, Leaders, and Hatches, and **Export DXF** gives you cut geometry and nothing else — see [preparing a DXF for laser cutting](/blog/prepare-dxf-for-laser-cutting/).
 
 ## Choosing a format
 
@@ -38,7 +57,7 @@ Every entity type is included:
 
 - Lines, circles, arcs, ellipses, polylines, splines
 - Text
-- Dimensions (linear, aligned, continued, radius, diameter)
+- Dimensions (linear, aligned, continued, radius, diameter, angular)
 - Leaders (multileaders)
 - Hatches, including their pattern, scale, angle, and origin
 - Layers and linetypes
@@ -60,7 +79,7 @@ What each receiving application then does with it still varies — DXF support d
 
 ## Exported file name
 
-The downloaded file is named after the current drawing file (e.g. `myplan.json`). The extension changes to match the chosen format.
+The downloaded file is named after the current drawing file (e.g. `myplan.json`), with the extension changed to match the chosen format. A drawing that has never been named exports as `drawing.dxf` or `drawing.json`.
 
 ## Difference between Export Manager and Print Manager
 

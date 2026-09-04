@@ -1,6 +1,6 @@
 ---
 title: Export Manager — Scaricare Disegni come DXF o JSON
-description: Scarica il disegno corrente come DXF o JSON. Entrambi portano ogni tipo di entità — geometria, testo, quote, direttrici e campiture — insieme a layer e tipi di linea.
+description: Scarica il disegno come DXF o JSON, spuntando per tipo di entità che cosa ci finisce. Entrambi portano geometria, testo, quote, direttrici e campiture.
 keywords: [esporta DXF, esporta file CAD, scarica DXF browser, salva DXF online, esporta JSON CAD, esportazione KulmanLab, scarica file CAD, esportazione DXF, salva disegno su file, download DXF]
 group: file
 order: 6
@@ -8,16 +8,33 @@ order: 6
 
 # Export Manager
 
-Il comando `exportmanager` scarica il disegno corrente sul tuo file system. Sono disponibili due formati, mostrati come schede affiancate: **DXF** per la compatibilità con altri strumenti CAD e **JSON** per salvataggi a piena fedeltà all'interno di KulmanLab CAD — ogni scheda elenca esattamente quali tipi di entità trasporta quel formato.
+Il comando `exportmanager` scarica il disegno corrente sul tuo file system. Due formati affiancati — **DXF** per la compatibilità con altri strumenti CAD e **JSON** per salvataggi a fedeltà piena dentro KulmanLab CAD — e ciascuno ha la propria lista di che cosa mettere nel file.
 
 ## Come esportare
 
 1. Clicca sul pulsante **Export** della barra degli strumenti (icona di download) nel pannello file, oppure digita `exportmanager` nel terminale.
-2. Si apre il popup **Export Manager**, che mostra le schede JSON e DXF affiancate, ciascuna con l'elenco di cosa viene esportato.
-3. Clicca su una scheda per selezionare il formato — **JSON** o **DXF**.
-4. Clicca sul pulsante **Export \<FORMAT\>**. Il file viene scaricato automaticamente nella cartella download predefinita.
+2. La finestra **Export Manager** si apre su due colonne, **JSON** e **DXF**, ognuna con i tipi di entità del disegno, una casella e un conteggio.
+3. Deseleziona ciò che vuoi lasciare fuori. All'inizio è tutto selezionato.
+4. Clicca **Export JSON** o **Export DXF**. Il file scende nella cartella dei download e la finestra si chiude.
 
 Premi `Esc` per chiudere il popup senza esportare.
+
+## Scegliere che cosa esportare
+
+Entrambe le colonne elencano gli stessi tipi di entità, ciascuno con quanti ce ne sono nel disegno:
+
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+
+All'apertura è tutto spuntato, quindi esportare subito ti dà il disegno intero. Togli la spunta a un tipo per lasciarlo fuori da quel singolo file.
+
+- **Le due colonne sono indipendenti.** Togliere la spunta a Hatches sotto DXF non cambia ciò che produce **Export JSON**: ogni formato conserva la propria selezione.
+- **Ciò che non hai è in grigio.** Una riga con conteggio `0` non è spuntabile, così l'elenco funge anche da inventario rapido del disegno.
+- **I conteggi sono un'istantanea.** Sono presi all'apertura e non si aggiornano se il disegno cambia dietro. Chiudi e riapri per rinfrescarli.
+- **Non viene cancellato nulla.** Togliere la spunta modella solo il file esportato; il disegno resta intatto.
+
+**Linear Dimensions** copre quote lineari, allineate e continue: un unico tipo di entità creato da tre comandi diversi. Raggio, diametro e angolo hanno ciascuno la propria riga.
+
+Per un file di taglio, togli la spunta a Text, alle quattro righe delle quote, a Leaders e a Hatches e clicca **Export DXF** — vedi [preparare un DXF per il taglio laser](/it/blog/prepare-dxf-for-laser-cutting/).
 
 ## Scegliere un formato
 
@@ -38,7 +55,7 @@ Ogni tipo di entità è incluso:
 
 - Lines, Circles, Arcs, Ellipses, Polylines, Splines
 - Text
-- Quote (lineare, allineata, continuata, raggio, diametro)
+- Quote (lineare, allineata, continuata, raggio, diametro, angolo)
 - Leaders (multileader)
 - Hatches, incluso il loro motivo, scala, angolo e origine
 - Layers e Linetypes
@@ -49,7 +66,7 @@ Ogni tipo di entità è incluso:
 
 - Lines, Circles, Arcs, Ellipses, Polylines (esportate come `LWPOLYLINE`), Splines
 - Text
-- Quote (lineare, allineata, continuata, raggio, diametro)
+- Quote (lineare, allineata, continuata, raggio, diametro, angolo)
 - Leaders (multileader)
 - Hatches, incluso il loro motivo, scala, angolo e origine
 - Layers e Linetypes
@@ -60,7 +77,7 @@ Che cosa ne faccia poi ciascuna applicazione ricevente continua a variare: il su
 
 ## Nome del file esportato
 
-Il file scaricato prende il nome dal file di disegno corrente (es. `myplan.json`). L'estensione cambia in base al formato scelto.
+Il file scaricato prende il nome dal file di disegno corrente (es. `myplan.json`). L'estensione cambia in base al formato scelto. Un disegno mai nominato viene esportato come `drawing.dxf` o `drawing.json`.
 
 ## Differenza tra Export Manager e Print Manager
 

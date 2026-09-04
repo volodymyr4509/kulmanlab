@@ -1,6 +1,6 @@
 ---
 title: Export Manager — Pobierz Rysunki jako DXF lub JSON
-description: Pobierz bieżący rysunek jako DXF lub JSON. Oba niosą każdy typ obiektu — geometrię, tekst, wymiary, odnośniki i kreskowania — wraz z warstwami i rodzajami linii.
+description: Pobierz rysunek jako DXF lub JSON, zaznaczając wedle typu obiektu, co ma się w nim znaleźć. Oba niosą geometrię, tekst, wymiary, odnośniki i kreskowania.
 keywords: [eksport DXF, eksport pliku CAD, pobierz DXF przeglądarka, zapisz DXF online, eksport JSON CAD, eksport KulmanLab, pobierz plik CAD, eksport DXF, zapisz rysunek do pliku, pobieranie DXF]
 group: file
 order: 6
@@ -8,16 +8,33 @@ order: 6
 
 # Export Manager
 
-Polecenie `exportmanager` pobiera bieżący rysunek do systemu plików. Dostępne są dwa formaty, pokazane jako karty obok siebie: **DXF** dla zgodności z innymi narzędziami CAD i **JSON** dla zapisu z pełną wiernością wewnątrz KulmanLab CAD — każda karta dokładnie wymienia, jakie typy elementów przenosi dany format.
+Polecenie `exportmanager` pobiera bieżący rysunek do twojego systemu plików. Dwa formaty stoją obok siebie — **DXF** dla zgodności z innymi narzędziami CAD i **JSON** dla wiernych zapisów wewnątrz KulmanLab CAD — a każdy ma własną listę tego, co trafia do pliku.
 
 ## Jak eksportować
 
 1. Kliknij przycisk **Export** na pasku narzędzi (ikona pobierania) w panelu plików lub wpisz `exportmanager` w terminalu.
-2. Otwiera się okno **Export Manager**, pokazujące karty JSON i DXF obok siebie, każda z listą tego, co jest eksportowane.
-3. Kliknij kartę, aby wybrać format — **JSON** lub **DXF**.
-4. Kliknij przycisk **Export \<FORMAT\>**. Plik zostanie automatycznie pobrany do domyślnego folderu pobierania.
+2. Okno **Export Manager** otwiera się w dwóch kolumnach, **JSON** i **DXF**, z których każda wymienia typy obiektów rysunku wraz z polem wyboru i liczbą.
+3. Odznacz to, co chcesz pominąć. Na starcie zaznaczone jest wszystko.
+4. Kliknij **Export JSON** lub **Export DXF**. Plik trafia do domyślnego folderu pobierania, a okno się zamyka.
 
 Naciśnij `Escape`, aby zamknąć okno bez eksportowania.
+
+## Wybór tego, co zostanie wyeksportowane
+
+Obie kolumny wymieniają te same typy obiektów, każdy z liczbą wystąpień na rysunku:
+
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+
+Przy otwarciu wszystko jest zaznaczone, więc natychmiastowy eksport daje cały rysunek. Odznacz typ, aby pominąć go w tym jednym pliku.
+
+- **Kolumny są niezależne.** Odznaczenie Hatches po stronie DXF nie zmienia tego, co tworzy **Export JSON** — każdy format trzyma własny wybór.
+- **Czego nie masz, jest wyszarzone.** Wiersza z liczbą `0` nie da się zaznaczyć, więc lista działa też jako szybka inwentaryzacja rysunku.
+- **Liczby to migawka.** Powstają przy otwarciu okna i nie aktualizują się, gdy rysunek zmienia się w tle. Zamknij i otwórz ponownie, aby je odświeżyć.
+- **Nic nie jest usuwane.** Odznaczanie kształtuje wyłącznie plik wynikowy; sam rysunek pozostaje nietknięty.
+
+**Linear Dimensions** obejmuje wymiary liniowe, wyrównane i ciągłe: jeden typ obiektu tworzony przez trzy różne polecenia. Promień, średnica i kąt mają własne wiersze.
+
+Aby zrobić plik do cięcia, odznacz Text, cztery wiersze wymiarów, Leaders i Hatches, po czym kliknij **Export DXF** — zobacz [przygotowanie DXF do cięcia laserem](/pl/blog/prepare-dxf-for-laser-cutting/).
 
 ## Wybór formatu
 
@@ -38,7 +55,7 @@ Uwzględniony jest każdy typ elementu:
 
 - Lines, Circles, Arcs, Ellipses, Polylines, Splines
 - Text
-- Wymiary (liniowy, wyrównany, ciągły, promień, średnica)
+- Wymiary (liniowy, wyrównany, ciągły, promień, średnica, kąt)
 - Leaders (multileadery)
 - Hatches, wraz z ich wzorem, skalą, kątem i punktem początkowym
 - Layers i Linetypes
@@ -49,7 +66,7 @@ Uwzględniony jest każdy typ elementu:
 
 - Lines, Circles, Arcs, Ellipses, Polylines (eksportowane jako `LWPOLYLINE`), Splines
 - Text
-- Wymiary (liniowy, wyrównany, ciągły, promień, średnica)
+- Wymiary (liniowy, wyrównany, ciągły, promień, średnica, kąt)
 - Leaders (multileadery)
 - Hatches, wraz z ich wzorem, skalą, kątem i punktem początkowym
 - Layers i Linetypes
@@ -60,7 +77,7 @@ To, co następnie zrobi z nim każdy program odbierający, wciąż bywa różne 
 
 ## Nazwa eksportowanego pliku
 
-Pobrany plik otrzymuje nazwę na podstawie bieżącego pliku rysunku (np. `myplan.json`). Rozszerzenie zmienia się zgodnie z wybranym formatem.
+Pobrany plik otrzymuje nazwę na podstawie bieżącego pliku rysunku (np. `myplan.json`). Rozszerzenie zmienia się zgodnie z wybranym formatem. Rysunek, któremu nigdy nie nadano nazwy, eksportuje się jako `drawing.dxf` lub `drawing.json`.
 
 ## Różnica między Export Manager a Menedżerem druku
 

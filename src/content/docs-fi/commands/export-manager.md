@@ -1,6 +1,6 @@
 ---
 title: Export Manager — Lataa piirustuksia DXF- tai JSON-muodossa
-description: Lataa piirustus DXF- tai JSON-muodossa. Molemmat kantavat kaikki objektityypit — geometrian, tekstin, mitat, osoitusviivat, rasteroinnit — sekä tasot ja viivatyypit.
+description: Lataa piirustus DXF- tai JSON-muodossa ja valitse objektityypeittäin, mitä mukaan tulee. Molemmat kantavat geometrian, tekstin, mitat, osoitusviivat ja rasteroinnit.
 keywords: [vie DXF, vie CAD-tiedosto, lataa DXF selaimessa, tallenna DXF verkossa, vie JSON CAD, KulmanLab vienti, lataa CAD-tiedosto, DXF-vienti, tallenna piirustus tiedostoon, DXF-lataus]
 group: file
 order: 6
@@ -8,16 +8,33 @@ order: 6
 
 # Export Manager
 
-Komento `exportmanager` lataa nykyisen piirustuksen tiedostojärjestelmääsi. Käytettävissä on kaksi muotoa, näytettynä rinnakkaisina kortteina: **DXF** yhteensopivuutta varten muiden CAD-työkalujen kanssa ja **JSON** täysin uskollista tallennusta varten KulmanLab CAD:n sisällä — kumpikin kortti listaa tarkasti, mitä entiteettityyppejä kyseinen muoto sisältää.
+Komento `exportmanager` lataa nykyisen piirustuksen tiedostojärjestelmääsi. Kaksi muotoa vierekkäin — **DXF** yhteensopivuuteen muiden CAD-työkalujen kanssa ja **JSON** täysin tarkkoihin tallennuksiin KulmanLab CAD:n sisällä — ja kummallakin on oma tarkistuslistansa siitä, mitä tiedostoon pannaan.
 
 ## Näin viet
 
 1. Napsauta työkalurivin **Export**-painiketta (latauskuvake) tiedostopaneelissa, tai kirjoita `exportmanager` terminaaliin.
-2. **Export Manager** -ponnahdusikkuna avautuu näyttäen JSON- ja DXF-kortit rinnakkain, kumpikin listaten mitä viedään.
-3. Napsauta korttia valitaksesi muodon — **JSON** tai **DXF**.
-4. Napsauta **Export \<FORMAT\>** -painiketta. Tiedosto ladataan automaattisesti oletuslatauskansioosi.
+2. **Export Manager** -ikkuna avautuu kahtena sarakkeena, **JSON** ja **DXF**, joissa kummassakin luetellaan piirustuksen objektityypit valintaruudun ja lukumäärän kera.
+3. Poista rasti siltä, minkä haluat jättää pois. Aluksi kaikki on rastitettu.
+4. Napsauta **Export JSON** tai **Export DXF**. Tiedosto latautuu oletuskansioosi ja ikkuna sulkeutuu.
 
 Paina `Escape` sulkeaksesi ponnahdusikkunan viemättä mitään.
+
+## Vietävän sisällön valinta
+
+Molemmat sarakkeet luettelevat samat objektityypit, kunkin kohdalla lukumäärä piirustuksessa:
+
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+
+Ikkunan avautuessa kaikki on rastitettu, joten heti vieminen antaa koko piirustuksen. Poista rasti tyypiltä, niin se jää pois juuri siitä tiedostosta.
+
+- **Sarakkeet ovat toisistaan riippumattomat.** Hatches-rastin poisto DXF:n puolelta ei muuta sitä, mitä **Export JSON** tuottaa — kummallakin muodolla on oma valintansa.
+- **Tyyppi jota sinulla ei ole, näkyy himmennettynä.** Riviä jonka lukumäärä on `0` ei voi rastittaa, joten lista toimii samalla piirustuksen pikainventaariona.
+- **Lukumäärät ovat tilannekuva.** Ne otetaan ikkunan avautuessa eivätkä päivity, jos piirustus muuttuu taustalla. Päivitä sulkemalla ja avaamalla uudelleen.
+- **Mitään ei poisteta.** Rastin poisto muovaa vain vietyä tiedostoa; itse piirustukseen ei kosketa.
+
+**Linear Dimensions** kattaa lineaariset, kohdistetut ja jatketut mitat: yksi objektityyppi, jonka kolme eri komentoa luo. Säteellä, halkaisijalla ja kulmalla on kullakin oma rivinsä.
+
+Leikkaustiedostoa varten poista rastit kohdista Text, neljä mittariviä, Leaders ja Hatches ja napsauta **Export DXF** — katso [DXF:n valmistelu laserleikkaukseen](/fi/blog/prepare-dxf-for-laser-cutting/).
 
 ## Muodon valitseminen
 
@@ -38,7 +55,7 @@ Jokainen entiteettityyppi sisältyy:
 
 - Lines, Circles, Arcs, Ellipses, Polylines, Splines
 - Text
-- Mitat (lineaarinen, kohdistettu, jatkettu, säde, halkaisija)
+- Mitat (lineaarinen, kohdistettu, jatkettu, säde, halkaisija, kulma)
 - Leaders (multileaderit)
 - Hatchit, mukaan lukien niiden kuvio, mittakaava, kulma ja origo
 - Layers ja Linetypes
@@ -49,7 +66,7 @@ Jokainen entiteettityyppi sisältyy:
 
 - Lines, Circles, Arcs, Ellipses, Polylines (viety muodossa `LWPOLYLINE`), Splines
 - Text
-- Mitat (lineaarinen, kohdistettu, jatkettu, säde, halkaisija)
+- Mitat (lineaarinen, kohdistettu, jatkettu, säde, halkaisija, kulma)
 - Leaders (multileaderit)
 - Hatchit, mukaan lukien niiden kuvio, mittakaava, kulma ja origo
 - Layers ja Linetypes
@@ -60,7 +77,7 @@ Se, mitä kukin vastaanottava sovellus sillä sitten tekee, vaihtelee yhä — D
 
 ## Viedyn tiedoston nimi
 
-Ladattu tiedosto nimetään nykyisen piirustustiedoston mukaan (esim. `myplan.json`). Tiedostopääte muuttuu valitun muodon mukaan.
+Ladattu tiedosto nimetään nykyisen piirustustiedoston mukaan (esim. `myplan.json`). Tiedostopääte muuttuu valitun muodon mukaan. Piirustus jota ei ole koskaan nimetty viedään nimellä `drawing.dxf` tai `drawing.json`.
 
 ## Ero Export Managerin ja Print Managerin välillä
 

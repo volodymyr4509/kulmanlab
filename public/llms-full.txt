@@ -1627,14 +1627,33 @@ Explode can be undone in one step with [Undo](./undo), like any other edit.
 
 # Export
 
-The **Export** command downloads the current drawing to your file system. Two formats are available: **DXF** for compatibility with other CAD tools and **JSON** for full-fidelity saves within KulmanLab CAD.
+The **Export** command downloads the current drawing to your file system. Two formats sit side by side: **DXF** for compatibility with other CAD tools and **JSON** for full-fidelity saves within KulmanLab CAD. Each has its own checklist of what to put in the file.
 
 ## How to export
 
 1. Click the **Export** toolbar button (download icon) in the File panel.
-2. The **Export Manager** popup opens.
-3. Click a format card to select the format — **JSON** or **DXF**.
-4. Click the **Export** button. The file downloads to your default downloads folder automatically.
+2. The **Export Manager** popup opens with two columns, **JSON** and **DXF**, each listing the drawing's entity types with a checkbox and a count.
+3. Untick anything you want left out. Everything starts ticked.
+4. Click **Export JSON** or **Export DXF**. The file downloads to your default downloads folder and the popup closes.
+
+Press `Escape` to close the popup without exporting.
+
+## Choosing what to export
+
+Both columns list the same entity types, each with a count of how many are in the drawing:
+
+Lines, Circles, Arcs, Ellipses, Polylines, Splines, Text, Radius Dimensions, Diameter Dimensions, Angular Dimensions, Linear Dimensions, Leaders, Hatches
+
+Everything is ticked when the popup opens, so exporting straight away gives you the whole drawing. Untick a type to leave it out of that one file.
+
+- **The two columns are independent.** Unticking Hatches under DXF has no effect on what **Export JSON** produces — each format keeps its own selection.
+- **A type you don't have is greyed out.** A row whose count is `0` cannot be ticked, so the list doubles as an inventory of the drawing.
+- **The counts are a snapshot.** They are taken when the popup opens and do not update if the drawing changes behind it. Close and reopen to refresh.
+- **Nothing is deleted.** Unticking shapes the exported file only; the drawing itself is untouched.
+
+**Linear Dimensions** covers linear, aligned, and continued dimensions — one entity type created by three different commands. Radius, diameter, and angular dimensions each get their own row.
+
+To produce a cut file for laser cutting or CNC, untick Text, the four dimension rows, Leaders, and Hatches, then **Export DXF**.
 
 ## Choosing a format
 

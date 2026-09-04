@@ -1,6 +1,6 @@
 ---
 title: Export Manager — Tekeningen downloaden als DXF of JSON
-description: Download de huidige tekening als DXF of JSON. Beide dragen elk entiteitstype — geometrie, tekst, maatvoering, leaders en arceringen — samen met lagen en lijntypen.
+description: Download de tekening als DXF of JSON en vink per entiteitstype aan wat meegaat. Beide dragen geometrie, tekst, maatvoering, leaders en arceringen.
 keywords: [DXF exporteren, CAD-bestand exporteren, DXF downloaden in browser, DXF online opslaan, JSON CAD exporteren, KulmanLab export, CAD-bestand downloaden, DXF-export, tekening opslaan als bestand, DXF-download]
 group: file
 order: 6
@@ -8,16 +8,33 @@ order: 6
 
 # Export Manager
 
-Het `exportmanager`-commando downloadt de huidige tekening naar uw bestandssysteem. Er zijn twee formaten beschikbaar, weergegeven als kaarten naast elkaar: **DXF** voor compatibiliteit met andere CAD-tools en **JSON** voor opslag met volledige getrouwheid binnen KulmanLab CAD — elke kaart toont precies welke entiteitstypen dat formaat bevat.
+Het commando `exportmanager` downloadt de huidige tekening naar je bestandssysteem. Twee formaten staan naast elkaar — **DXF** voor compatibiliteit met andere CAD-gereedschappen en **JSON** voor volledig getrouwe opslag binnen KulmanLab CAD — en elk heeft zijn eigen lijstje van wat er in het bestand komt.
 
 ## Zo exporteert u
 
 1. Klik op de **Export**-werkbalkknop (downloadpictogram) in het bestandspaneel, of typ `exportmanager` in de terminal.
-2. De pop-up **Export Manager** opent en toont de JSON- en DXF-kaarten naast elkaar, elk met een overzicht van wat wordt geëxporteerd.
-3. Klik op een kaart om het formaat te selecteren — **JSON** of **DXF**.
-4. Klik op de knop **Export \<FORMAT\>**. Het bestand wordt automatisch gedownload naar uw standaard downloadmap.
+2. De pop-up **Export Manager** opent met twee kolommen, **JSON** en **DXF**, die elk de entiteitstypen van de tekening tonen met een vinkje en een aantal.
+3. Vink uit wat je wilt weglaten. Alles staat om te beginnen aan.
+4. Klik **Export JSON** of **Export DXF**. Het bestand komt in je standaard downloadmap en de pop-up sluit.
 
 Druk op `Escape` om de pop-up te sluiten zonder te exporteren.
+
+## Kiezen wat er geëxporteerd wordt
+
+Beide kolommen tonen dezelfde entiteitstypen, elk met het aantal ervan in de tekening:
+
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+
+Bij het openen staat alles aangevinkt, dus meteen exporteren geeft je de hele tekening. Vink een type uit om het alleen uit dát bestand te houden.
+
+- **De twee kolommen staan los van elkaar.** Hatches uitvinken onder DXF verandert niets aan wat **Export JSON** oplevert — elk formaat houdt zijn eigen selectie.
+- **Wat je niet hebt, is grijs.** Een rij met aantal `0` kun je niet aanvinken, waardoor de lijst meteen een snelle inventaris van de tekening is.
+- **De aantallen zijn een momentopname.** Ze worden bij het openen genomen en lopen niet mee als de tekening erachter verandert. Sluiten en heropenen ververst ze.
+- **Er wordt niets verwijderd.** Uitvinken vormt alleen het geëxporteerde bestand; de tekening zelf blijft ongemoeid.
+
+**Linear Dimensions** dekt lineaire, uitgelijnde en doorlopende maatvoering: één entiteitstype dat door drie verschillende commando's wordt gemaakt. Straal, diameter en hoek hebben elk hun eigen rij.
+
+Voor een snijbestand vink je Text, de vier maatvoeringsrijen, Leaders en Hatches uit en klik je **Export DXF** — zie [een DXF voorbereiden voor lasersnijden](/nl/blog/prepare-dxf-for-laser-cutting/).
 
 ## Een formaat kiezen
 
@@ -38,7 +55,7 @@ Elk entiteitstype is inbegrepen:
 
 - Lines, Circles, Arcs, Ellipses, Polylines, Splines
 - Text
-- Maatvoeringen (linear, aligned, continued, radius, diameter)
+- Maatvoeringen (linear, aligned, continued, radius, diameter, hoek)
 - Leaders (multileaders)
 - Hatches, inclusief hun patroon, schaal, hoek en oorsprong
 - Layers en Linetypes
@@ -49,7 +66,7 @@ Elk entiteitstype is inbegrepen:
 
 - Lines, Circles, Arcs, Ellipses, Polylines (geëxporteerd als `LWPOLYLINE`), Splines
 - Text
-- Maatvoeringen (linear, aligned, continued, radius, diameter)
+- Maatvoeringen (linear, aligned, continued, radius, diameter, hoek)
 - Leaders (multileaders)
 - Hatches, inclusief hun patroon, schaal, hoek en oorsprong
 - Layers en Linetypes
@@ -60,7 +77,7 @@ Wat elk ontvangend programma er vervolgens mee doet, verschilt nog steeds — DX
 
 ## Naam van het geëxporteerde bestand
 
-Het gedownloade bestand krijgt de naam van het huidige tekeningbestand (bijv. `myplan.json`). De extensie verandert overeenkomstig het gekozen formaat.
+Het gedownloade bestand krijgt de naam van het huidige tekeningbestand (bijv. `myplan.json`). De extensie verandert overeenkomstig het gekozen formaat. Een tekening die nooit een naam kreeg, wordt geëxporteerd als `drawing.dxf` of `drawing.json`.
 
 ## Verschil tussen Export Manager en Print Manager
 

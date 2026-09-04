@@ -1,6 +1,6 @@
 ---
 title: Export Manager — Last ned tegninger som DXF eller JSON
-description: Last ned den gjeldende tegningen som DXF eller JSON. Begge bærer alle elementtyper — geometri, tekst, mål, henvisninger og skravering — sammen med lag og linjetyper.
+description: Last ned tegningen som DXF eller JSON, og kryss av per elementtype for hva som blir med. Begge bærer geometri, tekst, mål, henvisninger og skravering.
 keywords: [eksporter DXF, eksporter CAD-fil, last ned DXF nettleser, lagre DXF online, eksporter JSON CAD, KulmanLab eksport, last ned CAD-fil, DXF-eksport, lagre tegning som fil, DXF-nedlasting]
 group: file
 order: 6
@@ -8,16 +8,33 @@ order: 6
 
 # Export Manager
 
-Kommandoen `exportmanager` laster ned den gjeldende tegningen til filsystemet ditt. To formater er tilgjengelige, vist som kort side om side: **DXF** for kompatibilitet med andre CAD-verktøy og **JSON** for lagring med full nøyaktighet i KulmanLab CAD — hvert kort viser nøyaktig hvilke entitetstyper det formatet inneholder.
+Kommandoen `exportmanager` laster den gjeldende tegningen ned til filsystemet ditt. To formater står side om side — **DXF** for kompatibilitet med andre CAD-verktøy og **JSON** for helt tro lagringer inne i KulmanLab CAD — og hvert har sin egen sjekkliste over hva som skal i filen.
 
 ## Slik eksporterer du
 
 1. Klikk på verktøylinjeknappen **Export** (nedlastingsikon) i filpanelet, eller skriv `exportmanager` i terminalen.
-2. Popup-vinduet **Export Manager** åpnes og viser JSON- og DXF-kortene side om side, hvert med en liste over hva som eksporteres.
-3. Klikk på et kort for å velge format — **JSON** eller **DXF**.
-4. Klikk på knappen **Export \<FORMAT\>**. Filen lastes automatisk ned til standard nedlastingsmappe.
+2. Popup-vinduet **Export Manager** åpnes med to kolonner, **JSON** og **DXF**, som hver lister tegningens elementtyper med avkryssingsboks og antall.
+3. Fjern haken ved det du vil utelate. Alt er avkrysset til å begynne med.
+4. Klikk **Export JSON** eller **Export DXF**. Filen lastes ned til standardmappen din, og vinduet lukkes.
 
 Trykk `Escape` for å lukke popup-vinduet uten å eksportere.
+
+## Velge hva som eksporteres
+
+Begge kolonner lister de samme elementtypene, hver med antallet i tegningen:
+
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+
+Alt er avkrysset når vinduet åpnes, så eksporterer du med én gang, får du hele tegningen. Fjern haken ved en type for å holde den utenfor akkurat den filen.
+
+- **De to kolonnene er uavhengige.** Å fjerne haken ved Hatches under DXF endrer ikke hva **Export JSON** lager — hvert format beholder sitt eget valg.
+- **En type du ikke har, er nedtonet.** En rad med antall `0` kan ikke krysses av, så lista fungerer også som en rask opptelling av tegningen.
+- **Tallene er et øyeblikksbilde.** De tas når vinduet åpnes, og oppdateres ikke om tegningen endrer seg bak. Lukk og åpne på nytt for å friske dem opp.
+- **Ingenting slettes.** Avkryssingen former bare den eksporterte filen; selve tegningen røres ikke.
+
+**Linear Dimensions** dekker lineære, tilpassede og fortsatte mål: én elementtype laget av tre ulike kommandoer. Radius, diameter og vinkel har hver sin rad.
+
+For en skjærefil fjerner du haken ved Text, de fire målradene, Leaders og Hatches og klikker **Export DXF** — se [å forberede en DXF for laserskjæring](/no/blog/prepare-dxf-for-laser-cutting/).
 
 ## Velge et format
 
@@ -38,7 +55,7 @@ Alle entitetstyper er inkludert:
 
 - Lines, Circles, Arcs, Ellipses, Polylines, Splines
 - Text
-- Mål (lineær, justert, fortsatt, radius, diameter)
+- Mål (lineær, justert, fortsatt, radius, diameter, vinkel)
 - Leaders (multi-ledelinjer)
 - Hatches, inkludert mønster, skalering, vinkel og origo
 - Layers og Linetypes
@@ -49,7 +66,7 @@ Alle entitetstyper er inkludert:
 
 - Lines, Circles, Arcs, Ellipses, Polylines (eksportert som `LWPOLYLINE`), Splines
 - Text
-- Mål (lineær, justert, fortsatt, radius, diameter)
+- Mål (lineær, justert, fortsatt, radius, diameter, vinkel)
 - Leaders (multi-ledelinjer)
 - Hatches, inkludert mønster, skalering, vinkel og origo
 - Layers og Linetypes
@@ -60,7 +77,7 @@ Hva hvert mottakerprogram så gjør med den, varierer fortsatt — DXF-støtten 
 
 ## Navn på eksportert fil
 
-Den nedlastede filen får navn etter gjeldende tegningsfil (f.eks. `myplan.json`). Filtypen endres for å matche det valgte formatet.
+Den nedlastede filen får navn etter gjeldende tegningsfil (f.eks. `myplan.json`). Filtypen endres for å matche det valgte formatet. En tegning som aldri har fått navn, eksporteres som `drawing.dxf` eller `drawing.json`.
 
 ## Forskjell mellom Export Manager og Print Manager
 

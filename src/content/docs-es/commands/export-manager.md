@@ -1,6 +1,6 @@
 ---
 title: Administrador de Exportación — Descargar Dibujos como DXF o JSON
-description: Descarga el dibujo como DXF o JSON. Ambos llevan cada tipo de entidad — geometría, texto, cotas, directrices, sombreados — junto con capas y tipos de línea.
+description: Descarga el dibujo como DXF o JSON, marcando por tipo de entidad qué entra. Ambos llevan geometría, texto, cotas, directrices y sombreados, más capas y tipos de línea.
 keywords: [exportar DXF, exportar archivo CAD, descargar DXF navegador, guardar DXF online, exportar JSON CAD, exportar KulmanLab, descargar archivo CAD, exportar DXF, guardar dibujo en archivo, descargar DXF]
 group: file
 order: 6
@@ -8,16 +8,33 @@ order: 6
 
 # Administrador de Exportación
 
-El comando `exportmanager` descarga el dibujo actual a tu sistema de archivos. Hay dos formatos disponibles, mostrados como tarjetas una junto a la otra: **DXF** para compatibilidad con otras herramientas CAD y **JSON** para guardados de fidelidad completa dentro de KulmanLab CAD — cada tarjeta lista exactamente qué tipos de entidad transporta ese formato.
+El comando `exportmanager` descarga el dibujo actual a tu sistema de archivos. Dos formatos conviven lado a lado — **DXF** para compatibilidad con otras herramientas CAD y **JSON** para guardados de fidelidad completa dentro de KulmanLab CAD — y cada uno tiene su propia lista de qué poner en el archivo.
 
 ## Cómo exportar
 
 1. Haz clic en el botón **Export** de la barra de herramientas (icono de descarga) en el panel de archivos, o escribe `exportmanager` en el terminal.
-2. Se abre la ventana emergente **Administrador de Exportación**, mostrando las tarjetas JSON y DXF una junto a la otra, cada una listando qué se exporta.
-3. Haz clic en una tarjeta para seleccionar el formato — **JSON** o **DXF**.
-4. Haz clic en el botón **Export \<FORMAT\>**. El archivo se descarga automáticamente a tu carpeta de descargas predeterminada.
+2. La ventana **Export Manager** se abre con dos columnas, **JSON** y **DXF**, cada una listando los tipos de entidad del dibujo con una casilla y un recuento.
+3. Desmarca lo que quieras dejar fuera. Todo empieza marcado.
+4. Pulsa **Export JSON** o **Export DXF**. El archivo se descarga a tu carpeta de descargas y la ventana se cierra.
 
 Presiona `Escape` para cerrar la ventana emergente sin exportar.
+
+## Elegir qué se exporta
+
+Ambas columnas listan los mismos tipos de entidad, cada uno con cuántos hay en el dibujo:
+
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+
+Todo está marcado al abrir la ventana, así que exportar de inmediato te da el dibujo entero. Desmarca un tipo para dejarlo fuera de ese archivo concreto.
+
+- **Las dos columnas son independientes.** Desmarcar Hatches en DXF no cambia lo que produce **Export JSON**: cada formato guarda su propia selección.
+- **Lo que no tienes aparece atenuado.** Una fila con recuento `0` no se puede marcar, así que la lista sirve además de inventario rápido del dibujo.
+- **Los recuentos son una instantánea.** Se toman al abrir la ventana y no se actualizan si el dibujo cambia por detrás. Cierra y vuelve a abrir para refrescarlos.
+- **No se borra nada.** Desmarcar solo da forma al archivo exportado; el dibujo queda intacto.
+
+**Linear Dimensions** abarca cotas lineales, alineadas y continuadas: un mismo tipo de entidad creado por tres comandos distintos. Radio, diámetro y ángulo tienen cada uno su fila.
+
+Para un archivo de corte, desmarca Text, las cuatro filas de cotas, Leaders y Hatches y pulsa **Export DXF**; consulta [preparar un DXF para corte láser](/es/blog/prepare-dxf-for-laser-cutting/).
 
 ## Elegir un formato
 
@@ -38,7 +55,7 @@ Se incluye cada tipo de entidad:
 
 - Lines, Circles, Arcs, Ellipses, Polylines, Splines
 - Text
-- Cotas (lineal, alineada, continuada, radio, diámetro)
+- Cotas (lineal, alineada, continuada, radio, diámetro, ángulo)
 - Leaders (multileaders)
 - Hatches, incluyendo su patrón, escala, ángulo y origen
 - Layers y Linetypes
@@ -49,7 +66,7 @@ Se incluye cada tipo de entidad:
 
 - Lines, Circles, Arcs, Ellipses, Polylines (exportadas como `LWPOLYLINE`), Splines
 - Text
-- Cotas (lineal, alineada, continuada, radio, diámetro)
+- Cotas (lineal, alineada, continuada, radio, diámetro, ángulo)
 - Leaders (multileaders)
 - Hatches, incluyendo su patrón, escala, ángulo y origen
 - Layers y Linetypes
@@ -60,7 +77,7 @@ Lo que cada aplicación receptora haga después con él sigue variando: el sopor
 
 ## Nombre del archivo exportado
 
-El archivo descargado se nombra según el archivo de dibujo actual (p. ej. `myplan.json`). La extensión cambia para coincidir con el formato elegido.
+El archivo descargado se nombra según el archivo de dibujo actual (p. ej. `myplan.json`). La extensión cambia para coincidir con el formato elegido. Un dibujo que nunca se ha nombrado se exporta como `drawing.dxf` o `drawing.json`.
 
 ## Diferencia entre el Administrador de Exportación y el Administrador de Impresión
 

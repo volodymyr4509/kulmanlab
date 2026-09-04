@@ -1,6 +1,6 @@
 ---
 title: Export-Manager — Zeichnungen als DXF oder JSON herunterladen
-description: Die aktuelle Zeichnung als DXF oder JSON herunterladen. Beide tragen jeden Elementtyp — Geometrie, Text, Bemaßungen, Leader, Schraffuren — samt Layern und Linientypen.
+description: Die Zeichnung als DXF oder JSON laden, je Elementtyp ankreuzen, was hineinkommt. Beide tragen Geometrie, Text, Bemaßungen, Leader, Schraffuren, Layer und Linientypen.
 keywords: [DXF exportieren, CAD-Datei exportieren, DXF im Browser herunterladen, DXF online speichern, JSON-CAD exportieren, KulmanLab Export, CAD-Datei herunterladen, DXF-Export, Zeichnung in Datei speichern, DXF-Download]
 group: file
 order: 6
@@ -8,16 +8,33 @@ order: 6
 
 # Export-Manager
 
-Der Befehl `exportmanager` lädt die aktuelle Zeichnung auf Ihr Dateisystem herunter. Zwei Formate stehen als nebeneinanderliegende Karten zur Verfügung: **DXF** für die Kompatibilität mit anderen CAD-Werkzeugen und **JSON** für verlustfreie Speicherung innerhalb von KulmanLab CAD — jede Karte listet genau auf, welche Elementtypen dieses Format enthält.
+Der Befehl `exportmanager` lädt die aktuelle Zeichnung auf Ihr Dateisystem herunter. Zwei Formate stehen nebeneinander — **DXF** für die Kompatibilität mit anderen CAD-Werkzeugen und **JSON** für verlustfreie Sicherungen innerhalb von KulmanLab CAD — und jedes hat seine eigene Checkliste dessen, was in die Datei kommt.
 
 ## So exportieren Sie
 
 1. Klicken Sie auf die Schaltfläche **Export** in der Symbolleiste (Download-Symbol) im Dateibereich, oder geben Sie `exportmanager` im Terminal ein.
-2. Das Popup **Export-Manager** öffnet sich und zeigt die JSON- und DXF-Karten nebeneinander, jede mit einer Auflistung dessen, was exportiert wird.
-3. Klicken Sie auf eine Karte, um das Format auszuwählen — **JSON** oder **DXF**.
-4. Klicken Sie auf die Schaltfläche **Export \<FORMAT\>**. Die Datei wird automatisch in Ihren Standard-Download-Ordner heruntergeladen.
+2. Das Popup **Export Manager** öffnet sich mit zwei Spalten, **JSON** und **DXF**, die jeweils die Elementtypen der Zeichnung mit Kontrollkästchen und Anzahl auflisten.
+3. Haken Sie ab, was weggelassen werden soll. Anfangs ist alles angehakt.
+4. Klicken Sie auf **Export JSON** oder **Export DXF**. Die Datei landet in Ihrem Standard-Download-Ordner und das Popup schließt sich.
 
 Drücken Sie `Escape`, um das Popup ohne Export zu schließen.
+
+## Auswählen, was exportiert wird
+
+Beide Spalten listen dieselben Elementtypen auf, jeweils mit der Anzahl in der Zeichnung:
+
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+
+Beim Öffnen ist alles angehakt, ein sofortiger Export liefert also die ganze Zeichnung. Nehmen Sie den Haken weg, um einen Typ aus genau dieser Datei herauszuhalten.
+
+- **Die beiden Spalten sind unabhängig.** Hatches unter DXF abzuwählen ändert nichts daran, was **Export JSON** erzeugt — jedes Format behält seine eigene Auswahl.
+- **Was Sie nicht haben, ist ausgegraut.** Eine Zeile mit der Anzahl `0` lässt sich nicht anhaken, die Liste ist damit zugleich eine schnelle Bestandsaufnahme der Zeichnung.
+- **Die Zahlen sind eine Momentaufnahme.** Sie entstehen beim Öffnen und aktualisieren sich nicht, wenn sich die Zeichnung dahinter ändert. Zum Auffrischen schließen und erneut öffnen.
+- **Es wird nichts gelöscht.** Das Abwählen formt nur die exportierte Datei; die Zeichnung selbst bleibt unangetastet.
+
+**Linear Dimensions** umfasst lineare, ausgerichtete und fortgesetzte Bemaßungen: ein Elementtyp, erzeugt von drei verschiedenen Befehlen. Radius, Durchmesser und Winkel haben je eine eigene Zeile.
+
+Für eine Schnittdatei nehmen Sie die Haken bei Text, den vier Bemaßungszeilen, Leaders und Hatches weg und klicken **Export DXF** — siehe [eine DXF fürs Laserschneiden vorbereiten](/de/blog/prepare-dxf-for-laser-cutting/).
 
 ## Format auswählen
 
@@ -38,7 +55,7 @@ Jeder Elementtyp ist enthalten:
 
 - Lines, Circles, Arcs, Ellipses, Polylines, Splines
 - Text
-- Bemaßungen (linear, ausgerichtet, fortgesetzt, Radius, Durchmesser)
+- Bemaßungen (linear, ausgerichtet, fortgesetzt, Radius, Durchmesser, Winkel)
 - Leaders (Mehrfach-Hinweislinien)
 - Hatches, einschließlich Muster, Skalierung, Winkel und Ursprung
 - Layers und Linetypes
@@ -49,7 +66,7 @@ Jeder Elementtyp ist enthalten:
 
 - Lines, Circles, Arcs, Ellipses, Polylines (als `LWPOLYLINE` exportiert), Splines
 - Text
-- Bemaßungen (linear, ausgerichtet, fortgesetzt, Radius, Durchmesser)
+- Bemaßungen (linear, ausgerichtet, fortgesetzt, Radius, Durchmesser, Winkel)
 - Leaders (Mehrfach-Hinweislinien)
 - Hatches, einschließlich Muster, Skalierung, Winkel und Ursprung
 - Layers und Linetypes
@@ -60,7 +77,7 @@ Was das empfangende Programm dann daraus macht, ist weiterhin unterschiedlich �
 
 ## Name der exportierten Datei
 
-Die heruntergeladene Datei wird nach der aktuellen Zeichnungsdatei benannt (z. B. `myplan.json`). Die Erweiterung ändert sich entsprechend dem gewählten Format.
+Die heruntergeladene Datei wird nach der aktuellen Zeichnungsdatei benannt (z. B. `myplan.json`). Die Erweiterung ändert sich entsprechend dem gewählten Format. Eine nie benannte Zeichnung wird als `drawing.dxf` oder `drawing.json` exportiert.
 
 ## Unterschied zwischen Export-Manager und Druck-Manager
 

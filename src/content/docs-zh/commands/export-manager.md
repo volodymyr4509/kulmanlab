@@ -1,6 +1,6 @@
 ---
 title: Export Manager — 将图形下载为 DXF 或 JSON
-description: 将当前图纸下载为 DXF 或 JSON。两种格式都承载所有实体类型——几何、文字、标注、引线和填充——连同图层和线型。
+description: 将图纸下载为 DXF 或 JSON，按实体类型勾选哪些内容进入文件。两种格式都承载几何、文字、标注、引线和填充，连同图层和线型。
 keywords: [CAD DXF 导出, CAD 文件导出, 浏览器下载 DXF, 在线保存 DXF, JSON CAD 导出, KulmanLab 导出, 下载 CAD 文件, DXF 导出, 将图形保存为文件, DXF 下载]
 group: file
 order: 6
@@ -8,16 +8,33 @@ order: 6
 
 # Export Manager
 
-`exportmanager` 命令将当前图形下载到你的文件系统。有两种格式可用，以并排卡片形式展示：**DXF** 用于与其他 CAD 工具兼容，**JSON** 用于在 KulmanLab CAD 内进行完全保真的保存——每张卡片都精确列出该格式携带哪些图元类型。
+`exportmanager` 命令把当前图纸下载到你的文件系统。两种格式并排排列——用于与其他 CAD 工具兼容的 **DXF**，以及用于在 KulmanLab CAD 内完整保存的 **JSON**——每种都有自己的清单，决定放什么进文件。
 
 ## 如何导出
 
 1. 点击文件面板中工具栏的 **Export** 按钮（下载图标），或在命令行中输入 `exportmanager`。
-2. **Export Manager** 弹窗打开，并排显示 JSON 和 DXF 卡片，每张卡片列出导出内容。
-3. 点击一张卡片选择格式——**JSON** 或 **DXF**。
-4. 点击 **Export \<FORMAT\>** 按钮。文件会自动下载到你的默认下载文件夹。
+2. **Export Manager** 弹窗以两列打开，**JSON** 和 **DXF**，每列列出图纸中的实体类型，附带复选框和数量。
+3. 取消勾选你想排除的内容。初始状态下全部勾选。
+4. 点击 **Export JSON** 或 **Export DXF**。文件下载到你的默认下载文件夹，弹窗随即关闭。
 
 按 `Escape` 可关闭弹窗而不导出。
+
+## 选择导出内容
+
+两列列出相同的实体类型，每一项都带有图纸中的数量：
+
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+
+弹窗打开时全部处于勾选状态，因此直接导出就能得到整张图纸。取消某一类型的勾选，它就只会从这一个文件中排除。
+
+- **两列彼此独立。**在 DXF 一侧取消勾选 Hatches，不会改变 **Export JSON** 的产出——每种格式各自保留自己的选择。
+- **你没有的类型会变灰。**数量为 `0` 的行无法勾选，因此这份清单同时也是图纸内容的快速盘点。
+- **数量是一次快照。**它在弹窗打开时统计，图纸在背后发生变化也不会更新。关闭后重新打开即可刷新。
+- **不会删除任何东西。**取消勾选只塑造导出的文件，图纸本身原封不动。
+
+**Linear Dimensions** 涵盖线性、对齐和连续标注：同一种实体类型，由三条不同的命令创建。半径、直径和角度各占一行。
+
+要做切割文件，取消勾选 Text、四行标注、Leaders 和 Hatches，然后点击 **Export DXF**——参见[为激光切割准备 DXF](/zh/blog/prepare-dxf-for-laser-cutting/)。
 
 ## 选择格式
 
@@ -38,7 +55,7 @@ order: 6
 
 - Lines、Circles、Arcs、Ellipses、Polylines、Splines
 - Text
-- 标注（线性、对齐、连续、半径、直径）
+- 标注（线性、对齐、连续、半径、直径、角度）
 - Leaders（多重引线）
 - Hatches，包括其图案、比例、角度和原点
 - Layers 和 Linetypes
@@ -49,7 +66,7 @@ order: 6
 
 - Lines、Circles、Arcs、Ellipses、Polylines（导出为 `LWPOLYLINE`）、Splines
 - Text
-- 标注（线性、对齐、连续、半径、直径）
+- 标注（线性、对齐、连续、半径、直径、角度）
 - Leaders（多重引线）
 - Hatches，包括其图案、比例、角度和原点
 - Layers 和 Linetypes
@@ -60,7 +77,7 @@ order: 6
 
 ## 导出的文件名
 
-下载的文件以当前图形文件命名（例如 `myplan.json`）。扩展名会根据所选格式而改变。
+下载的文件以当前图形文件命名（例如 `myplan.json`）。扩展名会根据所选格式而改变。 从未命名过的图纸会以 `drawing.dxf` 或 `drawing.json` 导出。
 
 ## Export Manager 与打印管理器的区别
 

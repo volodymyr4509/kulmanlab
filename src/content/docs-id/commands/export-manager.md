@@ -1,6 +1,6 @@
 ---
 title: Export Manager — Unduh Gambar sebagai DXF atau JSON
-description: Unduh gambar saat ini sebagai DXF atau JSON. Keduanya membawa setiap tipe entitas — geometri, teks, dimensi, leader, dan arsiran — berikut layer dan tipe garis.
+description: Unduh gambar sebagai DXF atau JSON, mencentang per tipe entitas apa yang ikut. Keduanya membawa geometri, teks, dimensi, leader, dan arsiran, plus layer.
 keywords: [ekspor DXF, ekspor file CAD, unduh DXF browser, simpan DXF online, ekspor JSON CAD, ekspor KulmanLab, unduh file CAD, ekspor DXF, simpan gambar ke file, unduh DXF]
 group: file
 order: 6
@@ -8,16 +8,33 @@ order: 6
 
 # Export Manager
 
-Perintah `exportmanager` mengunduh gambar saat ini ke sistem file Anda. Ada dua format yang tersedia, ditampilkan sebagai kartu berdampingan: **DXF** untuk kompatibilitas dengan alat CAD lain dan **JSON** untuk penyimpanan fidelitas penuh di dalam KulmanLab CAD — setiap kartu mencantumkan persis jenis entitas apa yang dibawa format tersebut.
+Perintah `exportmanager` mengunduh gambar saat ini ke sistem berkas Anda. Dua format berdampingan — **DXF** untuk kompatibilitas dengan perkakas CAD lain dan **JSON** untuk simpanan berfidelitas penuh di dalam KulmanLab CAD — dan masing-masing punya daftar centangnya sendiri tentang apa yang masuk ke berkas.
 
 ## Cara mengekspor
 
 1. Klik tombol toolbar **Export** (ikon unduh) di panel file, atau ketik `exportmanager` di terminal.
-2. Popup **Export Manager** terbuka menampilkan kartu JSON dan DXF berdampingan, masing-masing mencantumkan apa yang diekspor.
-3. Klik kartu untuk memilih format — **JSON** atau **DXF**.
-4. Klik tombol **Export \<FORMAT\>**. File akan diunduh secara otomatis ke folder unduhan default Anda.
+2. Popup **Export Manager** terbuka dengan dua kolom, **JSON** dan **DXF**, masing-masing mencantumkan tipe entitas gambar dengan kotak centang dan jumlah.
+3. Hilangkan centang pada yang ingin Anda tinggalkan. Semuanya tercentang di awal.
+4. Klik **Export JSON** atau **Export DXF**. Berkas terunduh ke folder unduhan bawaan dan popup tertutup.
 
 Tekan `Escape` untuk menutup popup tanpa mengekspor.
+
+## Memilih apa yang diekspor
+
+Kedua kolom mencantumkan tipe entitas yang sama, masing-masing dengan jumlahnya di gambar:
+
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+
+Semua tercentang saat popup terbuka, jadi mengekspor langsung memberi Anda seluruh gambar. Hilangkan centang sebuah tipe untuk mengeluarkannya dari berkas itu saja.
+
+- **Kedua kolom saling bebas.** Menghilangkan centang Hatches di DXF tidak mengubah apa yang dihasilkan **Export JSON** — tiap format menyimpan pilihannya sendiri.
+- **Tipe yang tidak Anda punya tampil redup.** Baris dengan jumlah `0` tidak bisa dicentang, jadi daftarnya sekaligus menjadi inventaris cepat isi gambar.
+- **Jumlahnya adalah cuplikan.** Diambil saat popup terbuka dan tidak diperbarui bila gambar berubah di belakangnya. Tutup dan buka lagi untuk menyegarkan.
+- **Tidak ada yang dihapus.** Menghilangkan centang hanya membentuk berkas hasil ekspor; gambarnya sendiri tidak tersentuh.
+
+**Linear Dimensions** mencakup dimensi linear, sejajar, dan berlanjut: satu tipe entitas yang dibuat oleh tiga perintah berbeda. Radius, diameter, dan sudut masing-masing punya barisnya sendiri.
+
+Untuk berkas potong, hilangkan centang Text, keempat baris dimensi, Leaders, dan Hatches lalu klik **Export DXF** — lihat [menyiapkan DXF untuk pemotongan laser](/id/blog/prepare-dxf-for-laser-cutting/).
 
 ## Memilih format
 
@@ -38,7 +55,7 @@ Setiap jenis entitas disertakan:
 
 - Lines, Circles, Arcs, Ellipses, Polylines, Splines
 - Text
-- Dimensi (linear, aligned, continued, radius, diameter)
+- Dimensi (linear, aligned, continued, radius, diameter, sudut)
 - Leaders (multileaders)
 - Hatches, termasuk pola, skala, sudut, dan titik asalnya
 - Layers dan Linetypes
@@ -49,7 +66,7 @@ Setiap jenis entitas disertakan:
 
 - Lines, Circles, Arcs, Ellipses, Polylines (diekspor sebagai `LWPOLYLINE`), Splines
 - Text
-- Dimensi (linear, aligned, continued, radius, diameter)
+- Dimensi (linear, aligned, continued, radius, diameter, sudut)
 - Leaders (multileaders)
 - Hatches, termasuk pola, skala, sudut, dan titik asalnya
 - Layers dan Linetypes
@@ -60,7 +77,7 @@ Apa yang kemudian dilakukan tiap aplikasi penerima terhadapnya tetap berbeda-bed
 
 ## Nama file yang diekspor
 
-File yang diunduh dinamai sesuai file gambar saat ini (misalnya `myplan.json`). Ekstensi berubah sesuai format yang dipilih.
+File yang diunduh dinamai sesuai file gambar saat ini (misalnya `myplan.json`). Ekstensi berubah sesuai format yang dipilih. Gambar yang belum pernah dinamai diekspor sebagai `drawing.dxf` atau `drawing.json`.
 
 ## Perbedaan antara Export Manager dan Print Manager
 

@@ -1,6 +1,6 @@
 ---
 title: Export Manager — Çizimleri DXF veya JSON Olarak İndirin
-description: Çizimi DXF veya JSON olarak indirin. İkisi de her varlığı — geometri, metin, ölçüler, kılavuz çizgileri, taramalar — katman ve çizgi tipleriyle taşır.
+description: Çizimi DXF veya JSON olarak indirin, varlık türü bazında neyin gireceğini işaretleyerek. İkisi de geometri, metin, ölçüler, kılavuz çizgileri ve taramaları taşır.
 keywords: [DXF dışa aktar, CAD dosyası dışa aktar, tarayıcıda DXF indir, DXF online kaydet, JSON CAD dışa aktar, KulmanLab dışa aktarma, CAD dosyası indir, DXF dışa aktarma, çizimi dosyaya kaydet, DXF indirme]
 group: file
 order: 6
@@ -8,16 +8,33 @@ order: 6
 
 # Export Manager
 
-`exportmanager` komutu, geçerli çizimi dosya sisteminize indirir. Yan yana kartlar olarak gösterilen iki format mevcuttur: diğer CAD araçlarıyla uyumluluk için **DXF** ve KulmanLab CAD içinde tam sadakatle kaydetmek için **JSON** — her kart, o formatın hangi varlık türlerini taşıdığını tam olarak listeler.
+`exportmanager` komutu geçerli çizimi dosya sisteminize indirir. İki biçim yan yana durur — diğer CAD araçlarıyla uyum için **DXF** ve KulmanLab CAD içinde tam sadakatli kayıtlar için **JSON** — ve her birinin dosyaya neyin konacağına dair kendi listesi vardır.
 
 ## Nasıl dışa aktarılır
 
 1. Dosya panelinde araç çubuğundaki **Export** düğmesine (indirme simgesi) tıklayın veya terminale `exportmanager` yazın.
-2. **Export Manager** açılır penceresi, JSON ve DXF kartlarını yan yana göstererek açılır; her biri neyin dışa aktarıldığını listeler.
-3. Formatı seçmek için bir karta tıklayın — **JSON** veya **DXF**.
-4. **Export \<FORMAT\>** düğmesine tıklayın. Dosya otomatik olarak varsayılan indirilenler klasörünüze indirilir.
+2. **Export Manager** penceresi iki sütunla açılır, **JSON** ve **DXF**; her biri çizimin varlık türlerini bir onay kutusu ve sayıyla listeler.
+3. Dışarıda bırakmak istediklerinizin işaretini kaldırın. Başlangıçta hepsi işaretlidir.
+4. **Export JSON** ya da **Export DXF** düğmesine tıklayın. Dosya varsayılan indirme klasörünüze iner ve pencere kapanır.
 
 Dışa aktarmadan açılır pencereyi kapatmak için `Escape` tuşuna basın.
+
+## Neyin dışa aktarılacağını seçme
+
+İki sütun da aynı varlık türlerini listeler, her birinin yanında çizimdeki adediyle:
+
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+
+Pencere açıldığında hepsi işaretlidir, dolayısıyla hemen dışa aktarmak size çizimin tamamını verir. Bir türün işaretini kaldırırsanız yalnızca o dosyanın dışında kalır.
+
+- **İki sütun birbirinden bağımsızdır.** DXF tarafında Hatches işaretini kaldırmak **Export JSON** çıktısını değiştirmez; her biçim kendi seçimini tutar.
+- **Sahip olmadığınız tür soluk görünür.** Adedi `0` olan satır işaretlenemez, böylece liste aynı zamanda çizimin hızlı bir dökümü olur.
+- **Sayılar anlık bir görüntüdür.** Pencere açıldığında alınır ve arkada çizim değişirse güncellenmez. Yenilemek için kapatıp yeniden açın.
+- **Hiçbir şey silinmez.** İşaretin kaldırılması yalnızca dışa aktarılan dosyayı biçimlendirir; çizimin kendisine dokunulmaz.
+
+**Linear Dimensions**, doğrusal, hizalanmış ve sürdürülmüş ölçüleri kapsar: üç farklı komutun ürettiği tek bir varlık türü. Yarıçap, çap ve açı ise ayrı satırlara sahiptir.
+
+Kesim dosyası için Text, dört ölçü satırı, Leaders ve Hatches işaretlerini kaldırıp **Export DXF** düğmesine basın — bkz. [lazer kesim için DXF hazırlama](/tr/blog/prepare-dxf-for-laser-cutting/).
 
 ## Format seçimi
 
@@ -38,7 +55,7 @@ Her varlık türü dahildir:
 
 - Lines, Circles, Arcs, Ellipses, Polylines, Splines
 - Text
-- Ölçüler (linear, aligned, continued, radius, diameter)
+- Ölçüler (linear, aligned, continued, radius, diameter, açı)
 - Leaders (multileader'lar)
 - Hatches, deseni, ölçeği, açısı ve başlangıç noktasıyla birlikte
 - Layers ve Linetypes
@@ -49,7 +66,7 @@ Her varlık türü dahildir:
 
 - Lines, Circles, Arcs, Ellipses, Polylines (`LWPOLYLINE` olarak dışa aktarılır), Splines
 - Text
-- Ölçüler (linear, aligned, continued, radius, diameter)
+- Ölçüler (linear, aligned, continued, radius, diameter, açı)
 - Leaders (multileader'lar)
 - Hatches, deseni, ölçeği, açısı ve başlangıç noktasıyla birlikte
 - Layers ve Linetypes
@@ -60,7 +77,7 @@ Alıcı uygulamanın bununla ne yapacağı yine de değişir — DXF desteği ar
 
 ## Dışa aktarılan dosyanın adı
 
-İndirilen dosya, geçerli çizim dosyasının adını alır (örn. `myplan.json`). Uzantı, seçilen formata uyacak şekilde değişir.
+İndirilen dosya, geçerli çizim dosyasının adını alır (örn. `myplan.json`). Uzantı, seçilen formata uyacak şekilde değişir. Hiç adlandırılmamış bir çizim `drawing.dxf` veya `drawing.json` olarak dışa aktarılır.
 
 ## Export Manager ile Print Manager Arasındaki Fark
 
