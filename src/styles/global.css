@@ -1,10 +1,13 @@
 @import "tailwindcss";
 
+/* No webfont: --font-sans is left at Tailwind's default, which resolves to the
+   reader's own UI face (SF Pro, Segoe UI, Roboto) with emoji fallbacks. Text
+   paints on the first frame, and the ten locales whose scripts no Latin webfont
+   covers are no worse off than the rest. */
 @theme {
   --color-brand: #4A8580;
   --color-brand-light: #5fa39d;
   --color-brand-dark: #376360;
-  --font-sans: 'Inter', system-ui, sans-serif;
 }
 
 /* Docs prose styles */

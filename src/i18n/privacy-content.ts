@@ -71,9 +71,8 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Third-party services',
         blocks: [
-          { t: 'p', html: 'Besides Google Analytics and Google AdSense, KulmanLab relies on two infrastructure services:' },
+          { t: 'p', html: 'Besides Google Analytics and Google AdSense, KulmanLab relies on one infrastructure service:' },
           { t: 'ul', items: [
-            "<strong>Google Fonts</strong> — the Inter font is loaded from Google's servers. Your browser sends a standard web request (including your IP address) to Google to fetch the font files.",
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — serves this website and the app. Like any web server, it processes standard request logs (IP address, requested URL, user agent) to deliver the pages.',
           ] },
         ],
@@ -157,9 +156,8 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'שירותי צד שלישי',
         blocks: [
-          { t: 'p', html: 'מלבד Google Analytics ו-Google AdSense, KulmanLab מסתמך על שני שירותי תשתית:' },
+          { t: 'p', html: 'מלבד Google Analytics ו-Google AdSense, KulmanLab מסתמך על שירות תשתית אחד:' },
           { t: 'ul', items: [
-            '<strong>Google Fonts</strong> — הגופן Inter נטען משרתי Google. הדפדפן שלכם שולח בקשת אינטרנט סטנדרטית (כולל כתובת ה-IP שלכם) ל-Google כדי לאחזר את קובצי הגופן.',
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — מגיש אתר זה ואת האפליקציה. כמו כל שרת אינטרנט, הוא מעבד יומני בקשה סטנדרטיים (כתובת IP, כתובת URL מבוקשת, סוכן משתמש) כדי לספק את העמודים.',
           ] },
         ],
@@ -243,9 +241,8 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Dienste von Drittanbietern',
         blocks: [
-          { t: 'p', html: 'Neben Google Analytics und Google AdSense nutzt KulmanLab zwei Infrastrukturdienste:' },
+          { t: 'p', html: 'Neben Google Analytics und Google AdSense nutzt KulmanLab einen Infrastrukturdienst:' },
           { t: 'ul', items: [
-            '<strong>Google Fonts</strong> — die Schriftart Inter wird von Google-Servern geladen. Ihr Browser sendet eine Standard-Webanfrage (einschließlich Ihrer IP-Adresse) an Google, um die Schriftdateien abzurufen.',
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — liefert diese Website und die App aus. Wie jeder Webserver verarbeitet es Standard-Anfrageprotokolle (IP-Adresse, angeforderte URL, User-Agent), um die Seiten bereitzustellen.',
           ] },
         ],
@@ -329,9 +326,8 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Servicios de terceros',
         blocks: [
-          { t: 'p', html: 'Además de Google Analytics y Google AdSense, KulmanLab depende de dos servicios de infraestructura:' },
+          { t: 'p', html: 'Además de Google Analytics y Google AdSense, KulmanLab depende de un servicio de infraestructura:' },
           { t: 'ul', items: [
-            '<strong>Google Fonts</strong> — la fuente Inter se carga desde los servidores de Google. Tu navegador envía una solicitud web estándar (incluida tu dirección IP) a Google para obtener los archivos de la fuente.',
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — sirve este sitio web y la app. Como cualquier servidor web, procesa registros de solicitudes estándar (dirección IP, URL solicitada, agente de usuario) para entregar las páginas.',
           ] },
         ],
@@ -415,9 +411,8 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Services tiers',
         blocks: [
-          { t: 'p', html: 'Outre Google Analytics et Google AdSense, KulmanLab repose sur deux services d\'infrastructure :' },
+          { t: 'p', html: 'Outre Google Analytics et Google AdSense, KulmanLab repose sur un service d\'infrastructure :' },
           { t: 'ul', items: [
-            "<strong>Google Fonts</strong> — la police Inter est chargée depuis les serveurs de Google. Votre navigateur envoie une requête web standard (incluant votre adresse IP) à Google pour récupérer les fichiers de police.",
             "<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — héberge ce site web et l'app. Comme tout serveur web, il traite des journaux de requêtes standard (adresse IP, URL demandée, user agent) pour livrer les pages.",
           ] },
         ],
@@ -501,9 +496,8 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Servizi di terze parti',
         blocks: [
-          { t: 'p', html: 'Oltre a Google Analytics e Google AdSense, KulmanLab si affida a due servizi infrastrutturali:' },
+          { t: 'p', html: 'Oltre a Google Analytics e Google AdSense, KulmanLab si affida a un servizio infrastrutturale:' },
           { t: 'ul', items: [
-            '<strong>Google Fonts</strong> — il font Inter viene caricato dai server di Google. Il tuo browser invia una richiesta web standard (incluso il tuo indirizzo IP) a Google per scaricare i file del font.',
             "<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — serve questo sito web e l'app. Come ogni server web, elabora i log standard delle richieste (indirizzo IP, URL richiesto, user agent) per consegnare le pagine.",
           ] },
         ],
@@ -587,9 +581,8 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Serviços de terceiros',
         blocks: [
-          { t: 'p', html: 'Além do Google Analytics e do Google AdSense, o KulmanLab depende de dois serviços de infraestrutura:' },
+          { t: 'p', html: 'Além do Google Analytics e do Google AdSense, o KulmanLab depende de um serviço de infraestrutura:' },
           { t: 'ul', items: [
-            '<strong>Google Fonts</strong> — a fonte Inter é carregada dos servidores do Google. Seu navegador envia uma solicitação web padrão (incluindo seu endereço IP) ao Google para buscar os arquivos da fonte.',
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — serve este site e o app. Como qualquer servidor web, processa logs de solicitação padrão (endereço IP, URL solicitada, user agent) para entregar as páginas.',
           ] },
         ],
@@ -673,9 +666,8 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Сторонні сервіси',
         blocks: [
-          { t: 'p', html: 'Окрім Google Analytics і Google AdSense, KulmanLab використовує два інфраструктурні сервіси:' },
+          { t: 'p', html: 'Окрім Google Analytics і Google AdSense, KulmanLab використовує один інфраструктурний сервіс:' },
           { t: 'ul', items: [
-            '<strong>Google Fonts</strong> — шрифт Inter завантажується із серверів Google. Ваш браузер надсилає стандартний вебзапит (включно з вашою IP-адресою) до Google, щоб отримати файли шрифту.',
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — обслуговує цей сайт і застосунок. Як будь-який вебсервер, він обробляє стандартні журнали запитів (IP-адреса, запитана URL-адреса, user agent), щоб доставляти сторінки.',
           ] },
         ],
@@ -759,9 +751,8 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Üçüncü taraf hizmetler',
         blocks: [
-          { t: 'p', html: 'Google Analytics ve Google AdSense dışında KulmanLab iki altyapı hizmetine dayanır:' },
+          { t: 'p', html: 'Google Analytics ve Google AdSense dışında KulmanLab tek bir altyapı hizmetine dayanır:' },
           { t: 'ul', items: [
-            '<strong>Google Fonts</strong> — Inter yazı tipi Google sunucularından yüklenir. Tarayıcınız, yazı tipi dosyalarını almak için Google\'a standart bir web isteği (IP adresiniz dahil) gönderir.',
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — bu web sitesini ve uygulamayı sunar. Her web sunucusu gibi, sayfaları iletmek için standart istek günlüklerini (IP adresi, istenen URL, user agent) işler.',
           ] },
         ],
@@ -845,9 +836,8 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: '第三方服务',
         blocks: [
-          { t: 'p', html: '除 Google Analytics 和 Google AdSense 外，KulmanLab 依赖两项基础设施服务：' },
+          { t: 'p', html: '除 Google Analytics 和 Google AdSense 外，KulmanLab 依赖一项基础设施服务：' },
           { t: 'ul', items: [
-            '<strong>Google Fonts</strong> —— Inter 字体从 Google 服务器加载。您的浏览器会向 Google 发送标准网络请求（包含您的 IP 地址）以获取字体文件。',
             '<strong>Cloudflare Pages（Cloudflare, Inc.）</strong> —— 托管本网站和应用。与任何 Web 服务器一样，它会处理标准请求日志（IP 地址、请求的 URL、User-Agent）以传送页面。',
           ] },
         ],
@@ -931,9 +921,8 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'तृतीय-पक्ष सेवाएँ',
         blocks: [
-          { t: 'p', html: 'Google Analytics और Google AdSense के अलावा, KulmanLab दो इन्फ्रास्ट्रक्चर सेवाओं पर निर्भर है:' },
+          { t: 'p', html: 'Google Analytics और Google AdSense के अलावा, KulmanLab एक इन्फ्रास्ट्रक्चर सेवा पर निर्भर है:' },
           { t: 'ul', items: [
-            '<strong>Google Fonts</strong> — Inter फ़ॉन्ट Google के सर्वरों से लोड होता है। फ़ॉन्ट फ़ाइलें लाने के लिए आपका ब्राउज़र Google को एक मानक वेब अनुरोध (आपके IP पते सहित) भेजता है।',
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — यह वेबसाइट और ऐप परोसता है। किसी भी वेब सर्वर की तरह, पेज पहुँचाने के लिए यह मानक अनुरोध लॉग (IP पता, अनुरोधित URL, यूज़र एजेंट) संसाधित करता है।',
           ] },
         ],
@@ -1017,9 +1006,8 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'خدمات الجهات الخارجية',
         blocks: [
-          { t: 'p', html: 'إلى جانب Google Analytics وGoogle AdSense، يعتمد KulmanLab على خدمتي بنية تحتية:' },
+          { t: 'p', html: 'إلى جانب Google Analytics وGoogle AdSense، يعتمد KulmanLab على خدمة بنية تحتية واحدة:' },
           { t: 'ul', items: [
-            '<strong>Google Fonts</strong> — يُحمَّل خط Inter من خوادم Google. يرسل متصفحك طلب ويب قياسيًا (يتضمن عنوان IP الخاص بك) إلى Google لجلب ملفات الخط.',
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — يقدّم هذا الموقع والتطبيق. ومثل أي خادم ويب، يعالج سجلات الطلبات القياسية (عنوان IP، وعنوان URL المطلوب، ووكيل المستخدم) لتسليم الصفحات.',
           ] },
         ],
@@ -1103,9 +1091,8 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Layanan pihak ketiga',
         blocks: [
-          { t: 'p', html: 'Selain Google Analytics dan Google AdSense, KulmanLab mengandalkan dua layanan infrastruktur:' },
+          { t: 'p', html: 'Selain Google Analytics dan Google AdSense, KulmanLab mengandalkan satu layanan infrastruktur:' },
           { t: 'ul', items: [
-            '<strong>Google Fonts</strong> — font Inter dimuat dari server Google. Browser Anda mengirim permintaan web standar (termasuk alamat IP Anda) ke Google untuk mengambil file font.',
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — menyajikan situs web ini dan aplikasi. Seperti server web mana pun, ia memproses log permintaan standar (alamat IP, URL yang diminta, user agent) untuk mengirimkan halaman.',
           ] },
         ],
@@ -1189,9 +1176,8 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: '第三者サービス',
         blocks: [
-          { t: 'p', html: 'Google Analytics と Google AdSense のほかに、KulmanLab は2つのインフラサービスを利用しています：' },
+          { t: 'p', html: 'Google Analytics と Google AdSense のほかに、KulmanLab は1つのインフラサービスを利用しています：' },
           { t: 'ul', items: [
-            '<strong>Google Fonts</strong> — Inter フォントは Google のサーバーから読み込まれます。フォントファイルの取得のため、ブラウザは Google に標準的なウェブリクエスト（IP アドレスを含む）を送信します。',
             '<strong>Cloudflare Pages（Cloudflare, Inc.）</strong> — 当サイトとアプリを配信しています。他のウェブサーバーと同様、ページ配信のために標準的なリクエストログ（IP アドレス、リクエスト URL、ユーザーエージェント）を処理します。',
           ] },
         ],
@@ -1275,9 +1261,8 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Usługi zewnętrzne',
         blocks: [
-          { t: 'p', html: 'Poza Google Analytics i Google AdSense KulmanLab korzysta z dwóch usług infrastrukturalnych:' },
+          { t: 'p', html: 'Poza Google Analytics i Google AdSense KulmanLab korzysta z jednej usługi infrastrukturalnej:' },
           { t: 'ul', items: [
-            '<strong>Google Fonts</strong> — czcionka Inter jest ładowana z serwerów Google. Twoja przeglądarka wysyła do Google standardowe żądanie sieciowe (zawierające Twój adres IP), aby pobrać pliki czcionki.',
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — serwuje tę witrynę i aplikację. Jak każdy serwer WWW przetwarza standardowe dzienniki żądań (adres IP, żądany URL, user agent), aby dostarczać strony.',
           ] },
         ],
@@ -1361,9 +1346,8 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: '제3자 서비스',
         blocks: [
-          { t: 'p', html: 'Google Analytics와 Google AdSense 외에 KulmanLab은 두 가지 인프라 서비스를 사용합니다:' },
+          { t: 'p', html: 'Google Analytics와 Google AdSense 외에 KulmanLab은 한 가지 인프라 서비스를 사용합니다:' },
           { t: 'ul', items: [
-            '<strong>Google Fonts</strong> — Inter 글꼴은 Google 서버에서 로드됩니다. 글꼴 파일을 가져오기 위해 브라우저가 Google에 표준 웹 요청(IP 주소 포함)을 보냅니다.',
             '<strong>Cloudflare Pages(Cloudflare, Inc.)</strong> — 이 웹사이트와 앱을 제공합니다. 다른 웹 서버와 마찬가지로 페이지 전송을 위해 표준 요청 로그(IP 주소, 요청 URL, 사용자 에이전트)를 처리합니다.',
           ] },
         ],
@@ -1447,9 +1431,8 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Dịch vụ bên thứ ba',
         blocks: [
-          { t: 'p', html: 'Ngoài Google Analytics và Google AdSense, KulmanLab dựa vào hai dịch vụ hạ tầng:' },
+          { t: 'p', html: 'Ngoài Google Analytics và Google AdSense, KulmanLab dựa vào một dịch vụ hạ tầng:' },
           { t: 'ul', items: [
-            '<strong>Google Fonts</strong> — phông chữ Inter được tải từ máy chủ của Google. Trình duyệt của bạn gửi một yêu cầu web tiêu chuẩn (bao gồm địa chỉ IP của bạn) đến Google để lấy các tệp phông chữ.',
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — phục vụ trang web này và ứng dụng. Như mọi máy chủ web, nó xử lý nhật ký yêu cầu tiêu chuẩn (địa chỉ IP, URL được yêu cầu, user agent) để phân phối trang.',
           ] },
         ],
@@ -1533,9 +1516,8 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'บริการของบุคคลที่สาม',
         blocks: [
-          { t: 'p', html: 'นอกจาก Google Analytics และ Google AdSense แล้ว KulmanLab ยังพึ่งพาบริการโครงสร้างพื้นฐานสองอย่าง:' },
+          { t: 'p', html: 'นอกจาก Google Analytics และ Google AdSense แล้ว KulmanLab ยังพึ่งพาบริการโครงสร้างพื้นฐานหนึ่งอย่าง:' },
           { t: 'ul', items: [
-            '<strong>Google Fonts</strong> — ฟอนต์ Inter โหลดจากเซิร์ฟเวอร์ของ Google เบราว์เซอร์ของคุณส่งคำขอเว็บมาตรฐาน (รวมถึงที่อยู่ IP ของคุณ) ไปยัง Google เพื่อดึงไฟล์ฟอนต์',
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — ให้บริการเว็บไซต์นี้และแอป เช่นเดียวกับเว็บเซิร์ฟเวอร์ทั่วไป มันประมวลผลบันทึกคำขอมาตรฐาน (ที่อยู่ IP, URL ที่ขอ, user agent) เพื่อส่งมอบหน้าเว็บ',
           ] },
         ],
@@ -1619,9 +1601,8 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Perkhidmatan pihak ketiga',
         blocks: [
-          { t: 'p', html: 'Selain Google Analytics dan Google AdSense, KulmanLab bergantung pada dua perkhidmatan infrastruktur:' },
+          { t: 'p', html: 'Selain Google Analytics dan Google AdSense, KulmanLab bergantung pada satu perkhidmatan infrastruktur:' },
           { t: 'ul', items: [
-            '<strong>Google Fonts</strong> — fon Inter dimuatkan daripada pelayan Google. Pelayar anda menghantar permintaan web standard (termasuk alamat IP anda) kepada Google untuk mendapatkan fail fon.',
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — menyajikan laman web ini dan aplikasi. Seperti mana-mana pelayan web, ia memproses log permintaan standard (alamat IP, URL yang diminta, ejen pengguna) untuk menghantar halaman.',
           ] },
         ],
@@ -1705,9 +1686,8 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'তৃতীয় পক্ষের পরিষেবা',
         blocks: [
-          { t: 'p', html: 'Google Analytics ও Google AdSense ছাড়াও KulmanLab দুটি অবকাঠামো পরিষেবার উপর নির্ভর করে:' },
+          { t: 'p', html: 'Google Analytics ও Google AdSense ছাড়াও KulmanLab একটি অবকাঠামো পরিষেবার উপর নির্ভর করে:' },
           { t: 'ul', items: [
-            '<strong>Google Fonts</strong> — Inter ফন্ট Google-এর সার্ভার থেকে লোড হয়। ফন্ট ফাইল আনতে আপনার ব্রাউজার Google-কে একটি প্রমিত ওয়েব অনুরোধ (আপনার IP ঠিকানাসহ) পাঠায়।',
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — এই ওয়েবসাইট ও অ্যাপ পরিবেশন করে। যেকোনো ওয়েব সার্ভারের মতো, পৃষ্ঠা পৌঁছে দিতে এটি প্রমিত অনুরোধ লগ (IP ঠিকানা, অনুরোধকৃত URL, ইউজার এজেন্ট) প্রক্রিয়া করে।',
           ] },
         ],
@@ -1791,9 +1771,8 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Huduma za wahusika wengine',
         blocks: [
-          { t: 'p', html: 'Mbali na Google Analytics na Google AdSense, KulmanLab hutegemea huduma mbili za miundombinu:' },
+          { t: 'p', html: 'Mbali na Google Analytics na Google AdSense, KulmanLab hutegemea huduma moja ya miundombinu:' },
           { t: 'ul', items: [
-            '<strong>Google Fonts</strong> — fonti ya Inter hupakiwa kutoka kwa seva za Google. Kivinjari chako hutuma ombi la kawaida la wavuti (likijumuisha anwani yako ya IP) kwa Google ili kupata faili za fonti.',
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — huhudumia tovuti hii na programu. Kama seva yoyote ya wavuti, huchakata kumbukumbu za maombi za kawaida (anwani ya IP, URL iliyoombwa, user agent) ili kuwasilisha kurasa.',
           ] },
         ],
@@ -1877,9 +1856,8 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'فریق ثالث کی خدمات',
         blocks: [
-          { t: 'p', html: 'Google Analytics اور Google AdSense کے علاوہ KulmanLab دو بنیادی ڈھانچے کی خدمات پر انحصار کرتا ہے:' },
+          { t: 'p', html: 'Google Analytics اور Google AdSense کے علاوہ KulmanLab ایک بنیادی ڈھانچے کی خدمت پر انحصار کرتا ہے:' },
           { t: 'ul', items: [
-            '<strong>Google Fonts</strong> — Inter فونٹ Google کے سرورز سے لوڈ ہوتا ہے۔ فونٹ فائلیں حاصل کرنے کے لیے آپ کا براؤزر Google کو ایک معیاری ویب درخواست (آپ کے IP پتے سمیت) بھیجتا ہے۔',
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — یہ ویب سائٹ اور ایپ فراہم کرتا ہے۔ کسی بھی ویب سرور کی طرح، صفحات پہنچانے کے لیے یہ معیاری درخواستی لاگز (IP پتا، درخواست کردہ URL، یوزر ایجنٹ) پروسیس کرتا ہے۔',
           ] },
         ],
@@ -1963,9 +1941,8 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Υπηρεσίες τρίτων',
         blocks: [
-          { t: 'p', html: 'Εκτός από τα Google Analytics και Google AdSense, το KulmanLab βασίζεται σε δύο υπηρεσίες υποδομής:' },
+          { t: 'p', html: 'Εκτός από τα Google Analytics και Google AdSense, το KulmanLab βασίζεται σε μία υπηρεσία υποδομής:' },
           { t: 'ul', items: [
-            '<strong>Google Fonts</strong> — η γραμματοσειρά Inter φορτώνεται από τους διακομιστές της Google. Ο περιηγητής σας στέλνει ένα τυπικό αίτημα ιστού (που περιλαμβάνει τη διεύθυνση IP σας) στην Google για να λάβει τα αρχεία της γραμματοσειράς.',
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — εξυπηρετεί αυτόν τον ιστότοπο και την εφαρμογή. Όπως κάθε διακομιστής ιστού, επεξεργάζεται τυπικά αρχεία καταγραφής αιτημάτων (διεύθυνση IP, ζητούμενο URL, user agent) για την παράδοση των σελίδων.',
           ] },
         ],
@@ -2049,9 +2026,8 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'ਤੀਜੀ-ਧਿਰ ਦੀਆਂ ਸੇਵਾਵਾਂ',
         blocks: [
-          { t: 'p', html: 'Google Analytics ਅਤੇ Google AdSense ਤੋਂ ਇਲਾਵਾ, KulmanLab ਦੋ ਬੁਨਿਆਦੀ ਢਾਂਚਾ ਸੇਵਾਵਾਂ ਤੇ ਨਿਰਭਰ ਹੈ:' },
+          { t: 'p', html: 'Google Analytics ਅਤੇ Google AdSense ਤੋਂ ਇਲਾਵਾ, KulmanLab ਇੱਕ ਬੁਨਿਆਦੀ ਢਾਂਚਾ ਸੇਵਾ ਤੇ ਨਿਰਭਰ ਹੈ:' },
           { t: 'ul', items: [
-            '<strong>Google Fonts</strong> — Inter ਫੌਂਟ Google ਦੇ ਸਰਵਰਾਂ ਤੋਂ ਲੋਡ ਹੁੰਦਾ ਹੈ। ਫੌਂਟ ਫਾਈਲਾਂ ਲੈਣ ਲਈ ਤੁਹਾਡਾ ਬ੍ਰਾਊਜ਼ਰ Google ਨੂੰ ਇੱਕ ਮਿਆਰੀ ਵੈੱਬ ਬੇਨਤੀ (ਤੁਹਾਡੇ IP ਪਤੇ ਸਮੇਤ) ਭੇਜਦਾ ਹੈ।',
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — ਇਹ ਵੈੱਬਸਾਈਟ ਅਤੇ ਐਪ ਪਰੋਸਦਾ ਹੈ। ਕਿਸੇ ਵੀ ਵੈੱਬ ਸਰਵਰ ਵਾਂਗ, ਪੰਨੇ ਪਹੁੰਚਾਉਣ ਲਈ ਇਹ ਮਿਆਰੀ ਬੇਨਤੀ ਲੌਗ (IP ਪਤਾ, ਬੇਨਤੀ ਕੀਤਾ URL, ਯੂਜ਼ਰ ਏਜੰਟ) ਪ੍ਰੋਸੈਸ ਕਰਦਾ ਹੈ।',
           ] },
         ],
@@ -2135,9 +2111,8 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Tredjepartstjänster',
         blocks: [
-          { t: 'p', html: 'Förutom Google Analytics och Google AdSense förlitar sig KulmanLab på två infrastrukturtjänster:' },
+          { t: 'p', html: 'Förutom Google Analytics och Google AdSense förlitar sig KulmanLab på en infrastrukturtjänst:' },
           { t: 'ul', items: [
-            '<strong>Google Fonts</strong> — typsnittet Inter läses in från Googles servrar. Din webbläsare skickar en vanlig webbförfrågan (som innehåller din IP-adress) till Google för att hämta typsnittsfilerna.',
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — levererar den här webbplatsen och appen. Som alla webbservrar behandlar den standardloggar för förfrågningar (IP-adress, begärd URL, user agent) för att leverera sidorna.',
           ] },
         ],
@@ -2221,9 +2196,8 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Mga serbisyo ng third party',
         blocks: [
-          { t: 'p', html: 'Bukod sa Google Analytics at Google AdSense, umaasa ang KulmanLab sa dalawang serbisyo ng imprastraktura:' },
+          { t: 'p', html: 'Bukod sa Google Analytics at Google AdSense, umaasa ang KulmanLab sa isang serbisyo ng imprastraktura:' },
           { t: 'ul', items: [
-            '<strong>Google Fonts</strong> — ang font na Inter ay niloload mula sa mga server ng Google. Nagpapadala ang iyong browser ng karaniwang web request (kasama ang iyong IP address) sa Google para kunin ang mga file ng font.',
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — naghahatid ng website na ito at ng app. Tulad ng anumang web server, pinoproseso nito ang mga karaniwang log ng request (IP address, hiniling na URL, user agent) para maihatid ang mga pahina.',
           ] },
         ],
@@ -2307,9 +2281,8 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Diensten van derden',
         blocks: [
-          { t: 'p', html: 'Naast Google Analytics en Google AdSense vertrouwt KulmanLab op twee infrastructuurdiensten:' },
+          { t: 'p', html: 'Naast Google Analytics en Google AdSense vertrouwt KulmanLab op één infrastructuurdienst:' },
           { t: 'ul', items: [
-            "<strong>Google Fonts</strong> — het lettertype Inter wordt geladen vanaf de servers van Google. Uw browser stuurt een standaard webverzoek (inclusief uw IP-adres) naar Google om de lettertypebestanden op te halen.",
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — levert deze website en de app. Zoals elke webserver verwerkt het standaard verzoeklogs (IP-adres, opgevraagde URL, user agent) om de pagina\'s te leveren.',
           ] },
         ],
@@ -2393,9 +2366,8 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Ayyukan kamfanoni na waje',
         blocks: [
-          { t: 'p', html: 'Baya ga Google Analytics da Google AdSense, KulmanLab tana dogara da ayyuka biyu na tsari:' },
+          { t: 'p', html: 'Baya ga Google Analytics da Google AdSense, KulmanLab tana dogara da aiki ɗaya na tsari:' },
           { t: 'ul', items: [
-            "<strong>Google Fonts</strong> — ana loda font ɗin Inter daga uwayen garken Google. Burauzarka tana aika buƙata ta yau da kullum (haɗe da adireshin IP naka) zuwa Google don samun fayilolin font.",
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — yana bayar da wannan shafin da manhajar. Kamar kowane uwar garken yanar gizo, yana sarrafa rikodin buƙatun yau da kullum (adireshin IP, URL da aka buƙata, user agent) don isar da shafuka.',
           ] },
         ],
@@ -2479,9 +2451,8 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Tredjepartstjenester',
         blocks: [
-          { t: 'p', html: 'Utover Google Analytics og Google AdSense er KulmanLab avhengig av to infrastrukturtjenester:' },
+          { t: 'p', html: 'Utover Google Analytics og Google AdSense er KulmanLab avhengig av én infrastrukturtjeneste:' },
           { t: 'ul', items: [
-            '<strong>Google Fonts</strong> — skriften Inter lastes fra Googles servere. Nettleseren din sender en standard webforespørsel (inkludert IP-adressen din) til Google for å hente skriftfilene.',
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — leverer dette nettstedet og appen. Som enhver webserver behandler den standard forespørselslogger (IP-adresse, forespurt URL, brukeragent) for å levere sidene.',
           ] },
         ],
@@ -2565,9 +2536,8 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Tredjepartstjenester',
         blocks: [
-          { t: 'p', html: 'Udover Google Analytics og Google AdSense er KulmanLab afhængig af to infrastrukturtjenester:' },
+          { t: 'p', html: 'Udover Google Analytics og Google AdSense er KulmanLab afhængig af én infrastrukturtjeneste:' },
           { t: 'ul', items: [
-            '<strong>Google Fonts</strong> — skrifttypen Inter indlæses fra Googles servere. Din browser sender en standard webforespørgsel (inklusive din IP-adresse) til Google for at hente skrifttypefilerne.',
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — leverer denne hjemmeside og appen. Ligesom enhver webserver behandler den standard forespørgselslogfiler (IP-adresse, forespurgt URL, brugeragent) for at levere siderne.',
           ] },
         ],
@@ -2651,9 +2621,8 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Kolmannen osapuolen palvelut',
         blocks: [
-          { t: 'p', html: 'Google Analyticsin ja Google AdSensen lisäksi KulmanLab käyttää kahta infrastruktuuripalvelua:' },
+          { t: 'p', html: 'Google Analyticsin ja Google AdSensen lisäksi KulmanLab käyttää yhtä infrastruktuuripalvelua:' },
           { t: 'ul', items: [
-            '<strong>Google Fonts</strong> — Inter-fontti ladataan Googlen palvelimilta. Selaimesi lähettää standardin verkkopyynnön (mukaan lukien IP-osoitteesi) Googlelle noutaakseen fonttitiedostot.',
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — tarjoaa tämän verkkosivuston ja sovelluksen. Kuten mikä tahansa verkkopalvelin, se käsittelee standardeja pyyntölokeja (IP-osoite, pyydetty URL, käyttäjäagentti) sivujen toimittamiseksi.',
           ] },
         ],
