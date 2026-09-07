@@ -7,6 +7,38 @@ export type Release = {
 
 export const releases: Release[] = [
   {
+    version: "2026.09.07.dd8ce99",
+    date: "September 7, 2026",
+    title: "Everything exports to DXF; Export Manager picks what goes in",
+    highlights: [
+      "DXF export is no longer geometry-only. Text, dimensions, leaders and hatches all go into the file now, so an annotated drawing arrives annotated instead of stripped back to bare lines.",
+      "Text exports as MTEXT and keeps its per-run formatting — font, height, bold, italic, underline and strikethrough.",
+      "Dimensions export as standard DIMENSION entities: linear, aligned, continued, radius, diameter and angular.",
+      "Leaders export as MULTILEADER, with the landing segment and text attachment written where other tools expect to find them.",
+      "Hatches export as HATCH, carrying the pattern name, scale, angle and origin. The resolved pattern lines go inline as well, so a tool that has never heard of your pattern still draws it correctly.",
+      "Export Manager rebuilt as a single list: every entity type in the drawing with its count beside it and an Include checkbox, plus a select-all. Untick Text, the dimension rows, Leaders and Hatches and what downloads is cut geometry and nothing else.",
+      "New: KulmanLab can be installed from the browser as an app.",
+      "Fixed: exports that other tools refused to open at all — exponential floats, a bad Defpoints plot flag and an empty arrowhead block. A single malformed entity no longer aborts the whole export either.",
+      "Fixed: a long list of round-trip bugs — dimension text height, position and font overrides, angular measured angle and arrow styles, and ellipses and hatches being rejected when their axis ratio came out above 1.",
+    ],
+  },
+  {
+    version: "2026.08.31.e1747c7",
+    date: "August 31, 2026",
+    title: "Type an exact distance from a pin, in every command",
+    highlights: [
+      "New: direct distance entry. Lock the direction from a pin, type the distance, and the point lands exactly there — no dragging and no arithmetic.",
+      "It now covers essentially every command that asks for a point: Line, Polyline, Arc, Circle, Ellipse, Rectangle, both Spline modes, Area, Distance, Angle, Move, Copy, Rotate, Scale, Mirror, Align, Text, every dimension, Leader and ChangePrintArea.",
+      "Grip editing came along too — grab a grip, lock the direction, and type the exact displacement.",
+      "The Pins dropdown is now a plain Dist toggle beside it, and the ANGL and Pins arrows flip when their menus open.",
+      "New: copy and paste entities between browser tabs.",
+      "New: unused layers can be deleted.",
+      "New: the properties panel can auto-hide to the edge and slide back when you reach for it.",
+      "Fixed: layout paper sizing — viewport scale is normalised to millimetres per model unit, plot rotation is honoured, an unconfigured layout defaults to landscape, and a layout with no viewport gets one synthesized.",
+      "Fixed: hairline and default-weight lines printed too thick at lower DPI, and Print Manager silently dropped an entity that was perfectly axis-aligned.",
+    ],
+  },
+  {
     version: "2026.08.19.23a9785",
     date: "August 19, 2026",
     title: "Fillet for arcs & polylines; Export Manager redesign",
@@ -439,6 +471,34 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   en: releases.map(r => ({ title: r.title, highlights: r.highlights })),
   de: [
     {
+      title: "Alles wird zu DXF exportiert; Export-Manager wählt was reingeht",
+      highlights: [
+        "Alles wird zu DXF exportiert. Text, Bemaßungen, Führungslinien und Schraffuren gehen jetzt in die Datei, sodass eine kommentierte Zeichnung kommentiert ankommt, statt auf nackte Linien reduziert zu werden.",
+        "Text wird als MTEXT exportiert und behält Formatierung pro Durchlauf — Schriftart, Höhe, Fett, Kursiv, Unterstrich und Durchstrich.",
+        "Bemaßungen werden als Standard-DIMENSION-Entities exportiert: linear, ausgerichtet, fortgesetzt, Radius, Durchmesser und Winkel.",
+        "Führungslinien werden als MULTILEADER exportiert mit Landesegment und Textanknüpfung wo andere Werkzeuge sie erwarten.",
+        "Schraffuren werden als HATCH exportiert mit Mustername, Skalierung, Winkel und Ursprung. Die aufgelösten Musterlinien gehen auch inline, sodass ein Werkzeug das dein Muster nicht kennt es trotzdem korrekt zeichnet.",
+        "Export-Manager als einzelne Liste umgebaut: jeden Entity-Typ in der Zeichnung mit Anzahl daneben und Include-Kontrollkästchen, plus Alles auswählen. Deaktiviere Text, Bemaßungszeilen, Führungslinien und Schraffuren und der Download ist reine Geometrie.",
+        "Neu: KulmanLab kann vom Browser als App installiert werden.",
+        "Behoben: Exporte die andere Werkzeuge überhaupt nicht öffnen wollten — Exponential-Floats, falsches Defpoints-Plot-Flag und leerer Pfeilblock. Eine einzelne fehlgeformte Entity bricht den ganzen Export nicht mehr ab.",
+        "Behoben: eine lange Liste von Hin- und Rückwärts-Fehlern — Bemaßungstexthöhe, Position und Schriftuberschreibungen, gemessener Winkel und Pfeilstile, und Ellipsen und Schraffuren, die abgelehnt wurden, wenn ihr Achsenverhältnis 1 überschritt.",
+      ],
+    },
+    {
+      title: "Geben Sie eine genaue Entfernung von einem Pin in jedem Befehl ein",
+      highlights: [
+        "Neu: direkte Abstandseingabe. Sperren Sie die Richtung von einem Pin, geben Sie die Entfernung ein, und der Punkt landet genau dort — kein Ziehen und keine Arithmetik.",
+        "Es deckt jetzt im Grunde jeden Befehl ab der um einen Punkt fragt: Line, Polyline, Arc, Circle, Ellipse, Rectangle, beide Spline-Modi, Area, Distance, Angle, Move, Copy, Rotate, Scale, Mirror, Align, Text, jede Bemaßung, Führungslinie und ChangePrintArea.",
+        "Grip-Bearbeitung kam auch mit — fasse einen Griff, sperren Sie die Richtung und geben Sie die genaue Verschiebung ein.",
+        "Die Pins-Dropdown ist jetzt ein einfacher Dist-Schalter daneben, und ANGL- und Pins-Pfeile wechseln wenn ihre Menüs öffnen.",
+        "Neu: Kopieren und Einfügen von Entities zwischen Browser-Registern.",
+        "Neu: Unbenutzte Layer können gelöscht werden.",
+        "Neu: Das Eigenschaftenpanel kann sich automatisch zum Rand verstecken und zurückschieben wenn Sie danach greifen.",
+        "Behoben: Layout-Papiergröße — Viewport-Skala ist auf Millimeter pro Modelleinheit normalisiert, Plotrotation wird beachtet, ein nicht konfiguriertes Layout standardmäßig auf Querformat und ein Layout ohne Viewport erhält eines synthetisiert.",
+        "Behoben: Haarlinienleitern und Leitungen mit Standardgewicht werden bei niedrigerer DPI zu dick gedruckt, und Print Manager hat stillschweigend eine Entität gelöscht, die perfekt achsenausgerichtet war.",
+      ],
+    },
+    {
       title: "Fillet für Bögen & Polylines; Export Manager neu gestaltet",
       highlights: [
         "Fillet funktioniert jetzt auf Arc- und Polyline-Segmenten, nicht nur auf Line — zwei picken, und die Ecke wird verrundet.",
@@ -807,6 +867,34 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   es: [
+    {
+      title: "Todo se exporta a DXF; El Gestor de Exportación elige qué va",
+      highlights: [
+        "La exportación DXF ya no es solo geometría. Texto, cotas, líderes y tramas van ahora al archivo, por lo que un dibujo anotado llega anotado en lugar de reducirse a líneas desnudas.",
+        "El texto se exporta como MTEXT y mantiene el formato por ejecución — fuente, altura, negrita, cursiva, subrayado y tachado.",
+        "Las cotas se exportan como entidades DIMENSION estándar: lineal, alineada, continua, radio, diámetro y angular.",
+        "Los líderes se exportan como MULTILEADER con segmento de aterrizaje y anclaje de texto donde otras herramientas los esperan.",
+        "Las tramas se exportan como HATCH con nombre de patrón, escala, ángulo y origen. Las líneas de patrón resueltas también van en línea, por lo que una herramienta que nunca oyó de tu patrón lo dibuja correctamente.",
+        "Gestor de Exportación reconstruido como una sola lista: cada tipo de entidad en el dibujo con su recuento y una casilla Incluir, más seleccionar todo. Desactiva Texto, filas de cotas, Líderes y Tramas y lo que se descarga es geometría pura.",
+        "Nuevo: KulmanLab se puede instalar desde el navegador como una aplicación.",
+        "Corregido: exportaciones que otras herramientas se negaban a abrir — flotantes exponenciales, bandera Defpoints plot mala y bloque de punta vacío. Una entidad malformada no aborta más toda la exportación.",
+        "Corregido: una larga lista de errores de ida y vuelta — altura del texto de cota, posición y sustituciones de fuente, ángulo medido y estilos de flecha, y elipses y tramas rechazadas cuando su relación de eje superaba 1.",
+      ],
+    },
+    {
+      title: "Escribe una distancia exacta desde un alfiler en cada comando",
+      highlights: [
+        "Nuevo: entrada de distancia directa. Bloquea la dirección desde un alfiler, escribe la distancia y el punto aterriza exactamente allí — sin arrastrar ni aritmética.",
+        "Ahora cubre esencialmente cada comando que pide un punto: Line, Polyline, Arc, Circle, Ellipse, Rectangle, ambos modos Spline, Area, Distance, Angle, Move, Copy, Rotate, Scale, Mirror, Align, Text, cada cota, líder y ChangePrintArea.",
+        "La edición de puntos de agarre también vino — agarra un punto de agarre, bloquea la dirección y escribe el desplazamiento exacto.",
+        "La lista desplegable Pines es ahora un simple alterador Dist al lado y las flechas ANGL y Pines se voltean cuando sus menús se abren.",
+        "Nuevo: copiar y pegar entidades entre pestañas del navegador.",
+        "Nuevo: se pueden eliminar capas no utilizadas.",
+        "Nuevo: el panel de propiedades puede ocultarse automáticamente al borde y deslizarse cuando lo alcances.",
+        "Corregido: tamaño de papel de diseño — la escala del viewport se normaliza a milímetros por unidad de modelo, se respeta la rotación de trama, un diseño sin configurar por defecto al apaisado y un diseño sin viewport obtiene uno sintetizado.",
+        "Corregido: las líneas finas y de peso predeterminado se imprimían demasiado gruesas a DPI más bajo, y el Gestor de impresión eliminaba silenciosamente una entidad perfectamente alineada con el eje.",
+      ],
+    },
     {
       title: "Fillet para arcos y polilíneas; rediseño de Export Manager",
       highlights: [
@@ -1177,6 +1265,34 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   fr: [
     {
+      title: "Tout s'exporte en DXF ; le Gestionnaire d'export choisit ce qui rentre",
+      highlights: [
+        "L'export DXF n'est plus seulement de la géométrie. Le texte, les cotes, les lignes de repère et les hachures vont maintenant dans le fichier, donc un dessin annoté arrive annoté au lieu d'être réduit à de simples lignes.",
+        "Le texte s'exporte en MTEXT et conserve le formatage par passage — police, hauteur, gras, italique, soulignement et barré.",
+        "Les cotes s'exportent en tant qu'entités DIMENSION standard : linéaire, alignée, continue, rayon, diamètre et angulaire.",
+        "Les lignes de repère s'exportent en MULTILEADER avec le segment de débarquement et la liaison du texte où les autres outils les attendent.",
+        "Les hachures s'exportent en HATCH avec nom de motif, échelle, angle et origine. Les lignes de motif résolues vont aussi en ligne, donc un outil qui n'a jamais entendu parler de ton motif le dessine correctement.",
+        "Gestionnaire d'export reconstruit en une seule liste : chaque type d'entité dans le dessin avec son comptage et une case à cocher Inclure, plus sélectionner tout. Décochez Texte, lignes de cotes, Lignes de repère et Hachures et ce qui se télécharge est de la géométrie pure.",
+        "Nouveau : KulmanLab peut être installé depuis le navigateur en tant qu'application.",
+        "Corrigé : les exports que les autres outils refusaient d'ouvrir — flottants exponentiels, mauvais flag de tracé Defpoints et bloc de flèche vide. Une seule entité mal formée n'avorte plus tout l'export.",
+        "Corrigé : une longue liste de bugs d'aller-retour — hauteur du texte de cote, position et substitutions de police, angle mesuré et styles de flèche, et ellipses et hachures rejetées quand leur rapport d'axes dépassait 1.",
+      ],
+    },
+    {
+      title: "Saisissez une distance exacte à partir d'une épingle dans chaque commande",
+      highlights: [
+        "Nouveau : saisie de distance directe. Verrouillez la direction depuis une épingle, saisissez la distance et le point atterrit exactement là — pas de traînage ni de calcul.",
+        "Il couvre maintenant essentiellement chaque commande qui demande un point : Line, Polyline, Arc, Circle, Ellipse, Rectangle, les deux modes Spline, Area, Distance, Angle, Move, Copy, Rotate, Scale, Mirror, Align, Text, chaque cote, ligne de repère et ChangePrintArea.",
+        "L'édition des poignées venait aussi — saisissez une poignée, verrouillez la direction et saisissez le décalage exact.",
+        "La liste déroulante Épingles est maintenant un simple basculeur Dist à côté et les flèches ANGL et Épingles s'inversent quand leurs menus s'ouvrent.",
+        "Nouveau : copier et coller des entités entre les onglets du navigateur.",
+        "Nouveau : les calques inutilisés peuvent être supprimés.",
+        "Nouveau : le panneau des propriétés peut se cacher automatiquement vers le bord et glisser quand vous le touchez.",
+        "Corrigé : taille du papier de mise en page — l'échelle de la fenêtre d'affichage est normalisée en millimètres par unité de modèle, la rotation du tracé est respectée, une mise en page non configurée est définie par défaut en paysage et une mise en page sans fenêtre d'affichage en reçoit une synthétisée.",
+        "Corrigé : les lignes fines et de poids par défaut s'imprimaient trop épaisses à DPI plus bas, et le Gestionnaire d'impression supprimait silencieusement une entité parfaitement alignée sur l'axe.",
+      ],
+    },
+    {
       title: "Fillet pour arcs et polylignes ; refonte d'Export Manager",
       highlights: [
         "Fillet fonctionne désormais sur les segments Arc et Polyline, pas seulement Line — sélectionnez-en deux et l'angle est arrondi sur place.",
@@ -1545,6 +1661,34 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   it: [
+    {
+      title: "Tutto viene esportato in DXF; Gestione Esportazione sceglie cosa entra",
+      highlights: [
+        "L'esportazione DXF non è più solo geometria. Testo, quote, leader e tratteggi ora entrano nel file, quindi un disegno annotato arriva annotato invece di essere ridotto a linee nude.",
+        "Il testo viene esportato come MTEXT e conserva la formattazione per esecuzione — carattere, altezza, grassetto, corsivo, sottolineatura e barrato.",
+        "Le quote vengono esportate come entità DIMENSION standard: lineare, allineato, continuo, raggio, diametro e angolare.",
+        "I leader vengono esportati come MULTILEADER con segmento di atterraggio e ancoraggio testo dove altri strumenti se li aspettano.",
+        "I tratteggi vengono esportati come HATCH con nome motivo, scala, angolo e origine. Le linee motivo risolte vanno anche inline, quindi uno strumento che non ha mai sentito parlare del tuo motivo lo disegna correttamente.",
+        "Gestione Esportazione ricostruita come unico elenco: ogni tipo di entità nel disegno con il suo conteggio e una casella di controllo Includi, più seleziona tutto. Deseleziona Testo, righe quote, Leader e Tratteggi e quello che scarichi è geometria pura.",
+        "Nuovo: KulmanLab può essere installato dal browser come app.",
+        "Corretto: esportazioni che altri strumenti rifiutavano di aprire — float esponenziali, flag plot Defpoints scadente e blocco freccia vuoto. Una singola entità malformata non interrompe più l'intera esportazione.",
+        "Corretto: una lunga lista di bug di andata e ritorno — altezza del testo di quota, posizione e sostituzioni del carattere, angolo misurato e stili di freccia, ed ellissi e tratteggi rifiutati quando il loro rapporto degli assi superava 1.",
+      ],
+    },
+    {
+      title: "Digita una distanza esatta da un perno in ogni comando",
+      highlights: [
+        "Nuovo: immissione distanza diretta. Blocca direzione da un perno, digita distanza e il punto atterra esattamente lì — nessun trascinamento e nessuna aritmetica.",
+        "Copre ora essenzialmente ogni comando che chiede un punto: Line, Polyline, Arc, Circle, Ellipse, Rectangle, entrambe le modalità Spline, Area, Distance, Angle, Move, Copy, Rotate, Scale, Mirror, Align, Text, ogni quota, leader e ChangePrintArea.",
+        "Anche la modifica dei grip è venuta — afferra un grip, blocca la direzione e digita lo spostamento esatto.",
+        "L'elenco a discesa Perni è ora un semplice interruttore Dist accanto e le frecce ANGL e Perni si capovolgono quando i loro menu si aprono.",
+        "Nuovo: copia e incolla entità tra le schede del browser.",
+        "Nuovo: i livelli inutilizzati possono essere eliminati.",
+        "Nuovo: il pannello proprietà può nascondersi automaticamente al bordo e scorrere quando lo raggiungi.",
+        "Corretto: dimensione carta layout — scala viewport normalizzata a millimetri per unità modello, rotazione trama onorata, layout non configurato predefinito a orizzontale e layout senza viewport ne ottiene uno sintetizzato.",
+        "Corretto: le linee sottili e di peso predefinito venivano stampate troppo spesse a DPI più bassi, e Gestione stampa scartava silenziosamente un'entità perfettamente allineata all'asse.",
+      ],
+    },
     {
       title: "Fillet per archi e polilinee; Export Manager ridisegnato",
       highlights: [
@@ -1915,6 +2059,34 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   pt: [
     {
+      title: "Tudo exporta para DXF; Gerenciador de exportação escolhe o que entra",
+      highlights: [
+        "A exportação DXF não é mais apenas geometria. Texto, dimensões, líderes e hachuras agora vão para o arquivo, portanto um desenho anotado chega anotado em vez de ser reduzido a linhas nuas.",
+        "O texto é exportado como MTEXT e mantém a formatação por execução — fonte, altura, negrito, itálico, sublinhado e tachado.",
+        "As dimensões são exportadas como entidades DIMENSION padrão: linear, alinhado, contínuo, raio, diâmetro e angular.",
+        "Os líderes são exportados como MULTILEADER, com segmento de aterrissagem e anexo de texto escritos onde outras ferramentas esperam encontrá-los.",
+        "As hachuras são exportadas como HATCH, carregando nome do padrão, escala, ângulo e origem. As linhas de padrão resolvidas também vão embutidas, então uma ferramenta que nunca ouviu falar do seu padrão ainda o desenha corretamente.",
+        "Gerenciador de exportação reconstruído como uma única lista: cada tipo de entidade no desenho com sua contagem ao lado e caixa de seleção Incluir, mais selecionar tudo. Desmarque Texto, linhas de dimensões, Líderes e Hachuras e o que faz download é apenas geometria cortada.",
+        "Novo: KulmanLab pode ser instalado a partir do navegador como um aplicativo.",
+        "Corrigido: exportações que outras ferramentas se recusaram a abrir — flutuadores exponenciais, sinalizador de plotagem Defpoints ruim e bloco de ponta de seta vazio. Uma única entidade malformada não cancela mais a exportação inteira.",
+        "Corrigido: uma longa lista de bugs de ida e volta — altura do texto de cota, posição e substituições de fonte, ângulo medido e estilos de seta, e elipses e hachuras rejeitadas quando sua proporção de eixo excedia 1.",
+      ],
+    },
+    {
+      title: "Digite uma distância exata de um pino em cada comando",
+      highlights: [
+        "Novo: entrada de distância direta. Bloqueie a direção de um pino, digite a distância e o ponto pousa exatamente lá — sem arrasto e sem aritmética.",
+        "Agora cobre essencialmente cada comando que pede um ponto: Linha, Polilinha, Arco, Círculo, Elipse, Retângulo, ambos os modos Spline, Área, Distância, Ângulo, Mover, Copiar, Girar, Escala, Espelho, Alinhar, Texto, cada dimensão, Líder e Alterar área de impressão.",
+        "A edição de alça também chegou — pegue uma alça, bloqueie a direção e digite o deslocamento exato.",
+        "A lista suspensa Pinos agora é um simples alternador Dist ao lado, e as setas ANGL e Pinos viram quando seus menus abrem.",
+        "Novo: copiar e colar entidades entre abas do navegador.",
+        "Novo: camadas não utilizadas podem ser excluídas.",
+        "Novo: o painel de propriedades pode se ocultar automaticamente na borda e voltar quando você o alcança.",
+        "Corrigido: tamanho do papel de layout — escala do visor normalizada para milímetros por unidade de modelo, rotação do traço honrada, layout não configurado padrão paisagem, e layout sem visor obtém um sintetizado.",
+        "Corrigido: linhas finas e de peso padrão eram impressas muito espessas em DPI mais baixo, e o Gerenciador de impressão descartava silenciosamente uma entidade perfeitamente alinhada ao eixo.",
+      ],
+    },
+    {
       title: "Fillet para arcos e polilinhas; Export Manager redesenhado",
       highlights: [
         "Fillet agora funciona em segmentos Arc e Polyline, não apenas Line — escolha dois e o canto é arredondado no lugar.",
@@ -2283,6 +2455,34 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   uk: [
+    {
+      title: "Все експортується в DXF; Менеджер експорту обирає, що входить",
+      highlights: [
+        "Експорт DXF більше не лише геометрія. Текст, розміри, лідери та штрихування тепер йдуть у файл, тому анотований малюнок приходить анотований замість скорочення до голих ліній.",
+        "Текст експортується як MTEXT та зберігає форматування на кожне виконання — шрифт, висоту, жирність, курсив, підкреслення та закреслення.",
+        "Розміри експортуються як стандартні сутності DIMENSION: лінійні, вирівняні, безперервні, радіус, діаметр та кутові.",
+        "Лідери експортуються як MULTILEADER з сегментом приземлення та закріпленням тексту, написаними там, де інші інструменти очікують їх знайти.",
+        "Штрихування експортується як HATCH з назвою шаблону, масштабом, кутом та походженням. Вирішені лінії шаблону також йдуть вбудовані, тому інструмент, який ніколи не чув про ваш шаблон, все ще малює його правильно.",
+        "Менеджер експорту перебудований як один список: кожен тип сутності в малюнку з його кількістю поруч і прапорець Включити, плюс вибрати все. Зніміть позначення з Текст, рядків розмірів, Лідерів та Штрихування, і те, що завантажується, — це лише обрізана геометрія.",
+        "Нове: KulmanLab можна встановити з браузера як програму.",
+        "Виправлено: експорти, які інші інструменти відмовилися відкривати — експоненціальні плаваючи, погана позначка Defpoints і порожній блок голівки стрілки. Одна деформована сутність більше не скасовує весь експорт.",
+        "Виправлено: довгий список помилок туди-й-назад — висота тексту розміру, позиція та заміни шрифту, вимірюваний кут та стилі стрілок, а також еліпси та штрихування, які відхилялися, коли співвідношення їх осей перевищувало 1.",
+      ],
+    },
+    {
+      title: "Введіть точну відстань від булавки в кожній команді",
+      highlights: [
+        "Нове: пряме введення відстані. Заблокуйте напрямок від булавки, введіть відстань і точка приземляється прямо там — без перетягування і без арифметики.",
+        "Це по суті охоплює кожну команду, яка запитує точку: Лінія, Полілінія, Дуга, Коло, Еліпс, Прямокутник, обидва режими Spline, Область, Відстань, Кут, Переміщення, Копіювання, Обертання, Масштабування, Дзеркало, Вирівнювання, Текст, кожен розмір, Лідер та Змінити область друку.",
+        "Редагування захоплення також прийшло — схопіть захоплення, заблокуйте напрямок і введіть точне зміщення.",
+        "Розкривний список Булавок тепер простий перемикач Dist поруч з ним, а стрілки ANGL та Булавок перевертаються, коли відкриваються їх меню.",
+        "Нове: копіювання та вставка сутностей між вкладками браузера.",
+        "Нове: невикористані шари можна видалити.",
+        "Нове: панель властивостей може автоматично сховатися до краю і повернутися, коли ви до неї доторкнетесь.",
+        "Виправлено: розмір паперу макета — масштаб видового вікна нормалізований до мм на одиницю моделі, враховується обертання ділянки, немаркований макет — стандартна альбомна орієнтація, а макет без видового вікна отримує синтезований.",
+        "Виправлено: волоскові лінії та лінії стандартної ваги надруковані занадто товсто при нижчому DPI, а Менеджер друку мовчки опустив об'єкт, який був ідеально вирівняний до осі.",
+      ],
+    },
     {
       title: "Fillet для дуг і поліліній; оновлений Export Manager",
       highlights: [
@@ -2653,6 +2853,34 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   tr: [
     {
+      title: "Herşey DXF'ye aktarılır; Dışa Aktarma Yöneticisi neyin dahil olduğunu seçer",
+      highlights: [
+        "DXF dışa aktarması artık sadece geometri değildir. Metin, boyutlar, liderler ve taramalar artık dosyaya gider, bu nedenle açıklamalı bir çizim, çıplak çizgilere indirgenmek yerine açıklamalı olarak gelir.",
+        "Metin MTEXT olarak dışa aktarılır ve çalıştırma başına biçimlendirmeyi korur — yazı tipi, yükseklik, kalın, italik, alt çizgi ve üstü çizili.",
+        "Boyutlar standart DIMENSION varlıkları olarak dışa aktarılır: doğrusal, hizalı, devam, yarıçap, çap ve açısal.",
+        "Liderler MULTILEADER olarak dışa aktarılır, iniş segmenti ve metin eki diğer araçların bulmasını beklediği yere yazılır.",
+        "Taramalar HATCH olarak dışa aktarılır, desen adı, ölçek, açı ve orijini taşır. Çözülen desen çizgileri de satır içi olarak gider, bu nedenle desen hakkında hiç duymamış bir araç yine de doğru şekilde çizer.",
+        "Dışa Aktarma Yöneticisi tek bir liste olarak yeniden oluşturuldu: çizimde her varlık türü yanında sayısı ve Dahil Et onay kutusu, artı hepsini seç. Metin, boyut satırları, Liderler ve Taramalar işaretini kaldırın ve indirilen şey yalnızca kesilmiş geometridir.",
+        "Yeni: KulmanLab tarayıcıdan uygulama olarak yüklenebilir.",
+        "Düzeltildi: diğer araçların açmayı reddettiği dışa aktarmalar — üstel kayan sayılar, kötü Defpoints çizim bayrağı ve boş ok başı bloğu. Tek bir bozuk varlık artık tüm dışa aktarmayı iptal etmez.",
+        "Düzeltildi: uzun bir gidiş-dönüş hata listesi — boyut metni yüksekliği, konum ve yazı tipi geçersiz kılmaları, ölçülen açı ve ok stilleri, ve eksen oranı 1'i aştığında reddedilen elipsler ve taramalar.",
+      ],
+    },
+    {
+      title: "Her komutta bir pimindan tam mesafe yazın",
+      highlights: [
+        "Yeni: doğrudan mesafe girişi. Pimden yönü kilitle, mesafeyi yazın ve nokta tam oraya iner — sürükleme yok ve aritmetik yok.",
+        "Artık esasen bir nokta isteyen her komutu kapsar: Satır, Poliçizgi, Yay, Daire, Elips, Dikdörtgen, her iki Spline modu, Alan, Mesafe, Açı, Taşı, Kopyala, Döndür, Ölçekle, Ayna, Hizala, Metin, her boyut, Lider ve Baskı Alanını Değiştir.",
+        "Tutma aç düzenleme de geldi — bir tutmacağı tut, yönü kilitle ve tam yer değiştirmeyi yazın.",
+        "Pim açılır kutusu şimdi yanında basit bir Dist açılır düğmesi ve ANGL ve Pim okları menüleri açıldığında ters çevrilir.",
+        "Yeni: tarayıcı sekmeleri arasında varlıkları kopyalayın ve yapıştırın.",
+        "Yeni: kullanılmayan katmanlar silinebilir.",
+        "Yeni: özellikler paneli otomatik olarak kenara gizlenebilir ve buna ulaştığınızda geri kaydırılabilir.",
+        "Düzeltildi: düzen kağıdı boyutu — görünüş alanı ölçeği milimetre başına model birimine normalleştirildi, çizim döndürme saygı duyuldu, yapılandırılmamış düzen varsayılan yatay, ve görünüş alanı olmayan düzen sentezlenmiş bir tane alır.",
+        "Düzeltildi: ince çizgiler ve varsayılan ağırlıktaki çizgiler daha düşük DPI'de çok kalın yazdırılıyordu ve Yazdırma Yöneticisi mükemmel şekilde eksene hizalanmış bir varlığı sessizce siliyordu.",
+      ],
+    },
+    {
       title: "Yaylar ve polyline'lar için Fillet; yenilenen Export Manager",
       highlights: [
         "Fillet artık yalnızca Line değil, Arc ve Polyline segmentlerinde de çalışıyor — ikisini seçin, köşe yerinde yuvarlansın.",
@@ -3021,6 +3249,34 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   zh: [
+    {
+      title: "所有内容都导出为 DXF；导出管理器选择进入的内容",
+      highlights: [
+        "DXF 导出不再仅仅是几何图形。文本、尺寸、引线和填充现在进入文件，因此带注释的绘图以注释形式到达，而不是缩减为空行。",
+        "文本导出为 MTEXT 并保持每次运行的格式 — 字体、高度、粗体、斜体、下划线和删除线。",
+        "尺寸导出为标准 DIMENSION 实体：线性、对齐、连续、半径、直径和角度。",
+        "引线导出为 MULTILEADER，着陆段和文本附件写入其他工具期望找到它们的地方。",
+        "填充导出为 HATCH，带有图案名称、比例、角度和原点。解析的图案线也内联，因此从未听说过您的图案的工具仍然可以正确绘制。",
+        "导出管理器重建为单个列表：绘图中每种实体类型及其旁边的计数和\"包含\"复选框，加上全选。取消选中\"文本\"、维度行、\"引线\"和\"填充\"，下载的内容仅是切割的几何图形。",
+        "新增：KulmanLab 可从浏览器作为应用程序安装。",
+        "已修复：其他工具拒绝打开的导出 — 指数浮点数、错误的 Defpoints 绘图标志和空箭头块。单个畸形实体不再使整个导出失败。",
+        "已修复：一长串往返错误——尺寸文本高度、位置和字体覆盖、测量角度和箭头样式，以及当轴比超过1时椭圆和填充被拒绝的问题。",
+      ],
+    },
+    {
+      title: "在每个命令中从引脚输入精确距离",
+      highlights: [
+        "新增：直接距离输入。从引脚锁定方向，输入距离，点就降落在那里 — 无拖动，无算术。",
+        "现在基本上涵盖了每个要求点的命令：线、多线、圆弧、圆、椭圆、矩形、两种样条模式、面积、距离、角度、移动、复制、旋转、缩放、镜像、对齐、文本、每个尺寸、引线和更改打印区域。",
+        "手柄编辑也随之而来 — 抓住手柄、锁定方向并输入精确位移。",
+        "引脚下拉菜单现在是其旁边的简单距离切换，ANGL 和引脚箭头在菜单打开时翻转。",
+        "新增：在浏览器标签页之间复制和粘贴实体。",
+        "新增：可以删除未使用的图层。",
+        "新增：属性面板可自动隐藏到边缘，当您接近时向后滑动。",
+        "已修复：布局纸张大小 — 视口比例标准化为每个模型单位毫米，绘图旋转受尊重、未配置布局默认横向，无视口的布局获得合成的。",
+        "已修复：细线和默认粗细线在较低DPI下打印过粗，打印管理器会静默丢弃一个完全轴对齐的实体。",
+      ],
+    },
     {
       title: "圆弧与多段线的 Fillet；Export Manager 重新设计",
       highlights: [
@@ -3391,6 +3647,34 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   hi: [
     {
+      title: "सब कुछ DXF में निर्यात होता है; निर्यात प्रबंधक चुनता है कि क्या जाता है",
+      highlights: [
+        "DXF निर्यात अब केवल ज्यामिति नहीं है। पाठ, आयाम, नेता और हैच अब फ़ाइल में जाते हैं, इसलिए एक विज्ञापित ड्राइंग विज्ञापित आती है नंगी लाइनों तक नहीं।",
+        "पाठ MTEXT के रूप में निर्यात किया जाता है और प्रति-रन स्वरूपण बनाए रखता है — फ़ॉन्ट, ऊंचाई, बोल्ड, इटैलिक, अंडरलाइन और स्ट्राइकथ्रू।",
+        "आयाम मानक DIMENSION संस्थाओं के रूप में निर्यात किए जाते हैं: रैखिक, संरेखित, निरंतर, त्रिज्या, व्यास और कोणीय।",
+        "नेताओं को MULTILEADER के रूप में निर्यात किया जाता है जहां लैंडिंग सेगमेंट और पाठ संलग्न होते हैं जहां अन्य उपकरण उन्हें उम्मीद करते हैं।",
+        "हैच HATCH के रूप में निर्यात किए जाते हैं पैटर्न नाम, पैमाने, कोण और मूल के साथ। हल किए गए पैटर्न लाइनें भी इनलाइन जाती हैं, इसलिए एक उपकरण जो आपके पैटर्न के बारे में कभी नहीं सुना है वह इसे सही तरीके से आकर्षित करता है।",
+        "निर्यात प्रबंधक एकल सूची के रूप में पुनर्निर्मित: ड्राइंग में प्रत्येक संस्था प्रकार उसकी गिनती और एक शामिल करें चेकबॉक्स, साथ ही सब कुछ चुनें। पाठ, आयाम पंक्तियों, नेताओं और हैच को अनचेक करें और क्या डाउनलोड किया जाता है वह शुद्ध ज्यामिति है।",
+        "नया: KulmanLab को ब्राउज़र से एक ऐप के रूप में स्थापित किया जा सकता है।",
+        "तय: निर्यात जो अन्य उपकरणों ने खोलने से इनकार किया — घातीय तैरता, खराब Defpoints प्लॉट झंडा और खाली तीर ब्लॉक। एक एकल विकृत संस्था अब पूरे निर्यात को रोकता नहीं है।",
+        "तय: राउंड-ट्रिप बग्स की एक लंबी सूची — आयाम टेक्स्ट की ऊंचाई, स्थिति और फ़ॉन्ट ओवरराइड, कोणीय मापा गया कोण और तीर शैलियाँ, और दीर्घवृत्त और हैच जब उनका अक्ष अनुपात 1 से अधिक हो जाता था तो अस्वीकृत कर दिए जाते थे।",
+      ],
+    },
+    {
+      title: "हर कमांड में पिन से एक सटीक दूरी टाइप करें",
+      highlights: [
+        "नया: प्रत्यक्ष दूरी प्रविष्टि। पिन से दिशा लॉक करें, दूरी टाइप करें और बिंदु वास्तव में वहां उतरता है — कोई ड्रैगिंग और कोई अंकगणित नहीं।",
+        "यह अब अनिवार्य रूप से हर कमांड को कवर करता है जो एक बिंदु मांगता है: Line, Polyline, Arc, Circle, Ellipse, Rectangle, दोनों Spline मोड, Area, Distance, Angle, Move, Copy, Rotate, Scale, Mirror, Align, Text, हर आयाम, नेता और ChangePrintArea।",
+        "ग्रिप संपादन भी आया — एक ग्रिप को पकड़ो, दिशा लॉक करो और सटीक विस्थापन टाइप करो।",
+        "Pins ड्रॉपडाउन अब इसके बगल में एक सादा Dist टॉगल है और ANGL और Pins तीर अपने मेनू खोलने पर फ्लिप करते हैं।",
+        "नया: ब्राउज़र टैब के बीच संस्थाओं को कॉपी और पेस्ट करें।",
+        "नया: अप्रयुक्त परतों को हटाया जा सकता है।",
+        "नया: गुण पैनल स्वचालित रूप से किनारे पर छिप सकता है और जब आप इसे पकड़ते हैं तो वापस स्लाइड करता है।",
+        "तय: लेआउट कागज आकार — दृश्य पैमाने को प्रति मॉडल यूनिट मिलीमीटर में सामान्य किया जाता है, प्लॉट रोटेशन सम्मानित होता है, एक अनंतरित लेआउट परिदृश्य को चूक करता है और एक दृश्य के बिना लेआउट एक संश्लेषित प्राप्त करता है।",
+        "तय: हेयरलाइन और डिफ़ॉल्ट-वेट लाइनें कम DPI पर बहुत मोटी प्रिंट होती थीं, और प्रिंट मैनेजर चुपचाप एक ऐसी इकाई को हटा देता था जो पूरी तरह अक्ष-संरेखित थी।",
+      ],
+    },
+    {
       title: "आर्क और पॉलीलाइन के लिए Fillet; Export Manager का नया डिज़ाइन",
       highlights: [
         "Fillet अब केवल Line नहीं, Arc और Polyline सेगमेंट पर भी काम करता है — दो चुनें और कोना वहीं गोल हो जाता है।",
@@ -3759,6 +4043,34 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   ar: [
+    {
+      title: "كل شيء يُصدَّر إلى DXF؛ مدير التصدير يختار ما يدخل",
+      highlights: [
+        "تصدير DXF لم يعد هندسيًا فقط. النص والأبعاد والمؤشرات والتظليل تذهب الآن إلى الملف، لذا تصل الرسوميات المشروحة مشروحة بدلاً من أن تُختزل إلى خطوط مجردة.",
+        "يتم تصدير النص كـ MTEXT مع الحفاظ على التنسيق لكل تمرير — الخط والارتفاع والغامق والمائل والشطب والتسطير.",
+        "تُصدَّر الأبعاد كـ DIMENSION entities قياسية: خطي، محاذى، متسلسل، نصف قطر، قطر وزاوي.",
+        "تُصدَّر المؤشرات كـ MULTILEADER مع مقطع الهبوط وملحق النص حيث تتوقعها الأدوات الأخرى.",
+        "يُصدَّر التظليل كـ HATCH مع اسم النمط والمقياس والزاوية والأصل. تذهب خطوط النمط المحللة أيضًا inline، لذا تُرسم أي أداة النمط بشكل صحيح حتى لو لم تعرفه.",
+        "أعيد بناء مدير التصدير كقائمة واحدة: كل نوع entity في الرسم مع العدد والخانة Include وتحديد الكل. قم بإلغاء تحديد النص وصفوف الأبعاد والمؤشرات والتظليل والتنزيل هو geometry فقط.",
+        "جديد: يمكن تثبيت KulmanLab من المتصفح كتطبيق.",
+        "مُصلَح: التصدير الذي رفضت الأدوات فتحه — الطفو الأسي وعلم Defpoints السيء وكتلة الأسهم الفارغة. entity واحدة ملوثة لا تحبط التصدير بأكمله.",
+        "تم الإصلاح: قائمة طويلة من الأخطاء ذهابًا وعودة — ارتفاع نص البُعد، الموضع وتجاوزات الخط، الزاوية المقاسة وأنماط السهم، والقطوع الناقصة والتظليل المرفوضة عندما تجاوزت نسبة محورها 1.",
+      ],
+    },
+    {
+      title: "اكتب مسافة دقيقة من دبوس، في كل أمر",
+      highlights: [
+        "جديد: إدخال المسافة المباشرة. قفل الاتجاه من دبوس واكتب المسافة والنقطة تصل بالضبط هناك — بدون سحب أو حساب.",
+        "يغطي الآن أساسًا كل أمر يطلب نقطة: Line وPolyline وArc وCircle وEllipse وRectangle وكلا أسلوبي Spline وArea وDistance وAngle وMove وCopy وRotate وScale وMirror وAlign وText وكل dimension وleader وChangePrintArea.",
+        "جاء معها تحرير المقابض — امسك grip وقفل الاتجاه واكتب الإزاحة الدقيقة.",
+        "قائمة Pins الآن toggle Dist عادي بجانبه، وأسهم ANGL والـ Pins تقلب عند فتح القوائم.",
+        "جديد: نسخ ولصق entities بين علامات متصفح.",
+        "جديد: يمكن حذف الطبقات غير المستخدمة.",
+        "جديد: يمكن إخفاء لوحة الخصائص تلقائيًا إلى الحافة والعودة عند الوصول إليها.",
+        "مُصلَح: حجم ورقة التخطيط — مقياس viewport معياري بـ ملليمتر لكل وحدة نموذج، دوران القطعة مُحترم، والتخطيط غير المكون يفترض landscape والتخطيط بدون viewport ينتج واحد.",
+        "تم الإصلاح: كانت الخطوط الرفيعة وخطوط الوزن الافتراضي تُطبع بشكل سميك جدًا عند دقة أقل، وكان مدير الطباعة يحذف بصمت كيانًا كان متوافقًا تمامًا مع المحور.",
+      ],
+    },
     {
       title: "Fillet للأقواس والخطوط المتعددة؛ إعادة تصميم Export Manager",
       highlights: [
@@ -4129,6 +4441,34 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   id: [
     {
+      title: "Semuanya diekspor ke DXF; Manajer Ekspor memilih apa yang masuk",
+      highlights: [
+        "Ekspor DXF tidak lagi hanya geometri. Teks, dimensi, pemimpin dan arsir sekarang masuk ke file, sehingga gambar beranotasi tiba beranotasi alih-alih dikurangi menjadi garis polos.",
+        "Teks diekspor sebagai MTEXT dan mempertahankan pemformatan per-jalankan — font, tinggi, tebal, miring, garis bawah dan coret.",
+        "Dimensi diekspor sebagai entitas DIMENSION standar: linier, selaras, lanjutan, jari-jari, diameter dan sudut.",
+        "Pemimpin diekspor sebagai MULTILEADER dengan segmen pendaratan dan lampiran teks di mana alat lain mengharapkannya.",
+        "Arsir diekspor sebagai HATCH dengan nama pola, skala, sudut dan asal. Garis pola yang diselesaikan juga masuk secara inline, sehingga alat yang tidak pernah mendengar pola Anda menggambarnya dengan benar.",
+        "Manajer Ekspor dibangun kembali sebagai daftar tunggal: setiap jenis entitas dalam gambar dengan jumlahnya dan kotak centang Sertakan, ditambah pilih semua. Batalkan Teks, baris dimensi, Pemimpin dan Arsir dan apa yang diunduh adalah geometri murni.",
+        "Baru: KulmanLab dapat diinstal dari browser sebagai aplikasi.",
+        "Diperbaiki: ekspor yang alat lain menolak untuk membuka — float eksponensial, bendera plot Defpoints buruk dan blok panah kosong. Satu entitas cacat tidak lagi menghentikan seluruh ekspor.",
+        "Diperbaiki: daftar panjang bug bolak-balik — tinggi teks dimensi, posisi dan penggantian font, sudut yang diukur dan gaya panah, serta elips dan arsir yang ditolak ketika rasio sumbunya melebihi 1.",
+      ],
+    },
+    {
+      title: "Ketik jarak tepat dari pin di setiap perintah",
+      highlights: [
+        "Baru: entri jarak langsung. Kunci arah dari pin, ketik jarak dan titik mendarat persis di sana — tidak ada penyeretan dan tidak ada aritmatika.",
+        "Sekarang mencakup pada dasarnya setiap perintah yang meminta titik: Line, Polyline, Arc, Circle, Ellipse, Rectangle, kedua mode Spline, Area, Distance, Angle, Move, Copy, Rotate, Scale, Mirror, Align, Text, setiap dimensi, pemimpin dan ChangePrintArea.",
+        "Pengeditan grip juga datang — pegang grip, kunci arah dan ketik perpindahan yang tepat.",
+        "Dropdown Pins sekarang toggle Dist biasa di sampingnya dan panah ANGL dan Pins membalik saat menu mereka dibuka.",
+        "Baru: salin dan tempel entitas antar tab browser.",
+        "Baru: lapisan yang tidak digunakan dapat dihapus.",
+        "Baru: panel properti dapat disembunyikan secara otomatis ke tepi dan meluncur kembali saat Anda mencapainya.",
+        "Diperbaiki: ukuran kertas tata letak — skala viewport dinormalisasi ke milimeter per unit model, rotasi plot dihormati, tata letak yang belum dikonfigurasi default ke lanskap dan tata letak tanpa viewport mendapatkan yang disintesis.",
+        "Diperbaiki: garis rambut dan garis bobot default dicetak terlalu tebal pada DPI yang lebih rendah, dan Manajer Cetak secara diam-diam menghapus entitas yang sejajar sumbu secara sempurna.",
+      ],
+    },
+    {
       title: "Fillet untuk arc dan polyline; Export Manager didesain ulang",
       highlights: [
         "Fillet kini bekerja pada segmen Arc dan Polyline, bukan hanya Line — pilih dua dan sudutnya dibulatkan di tempat.",
@@ -4497,6 +4837,34 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   ja: [
+    {
+      title: "すべてDXFにエクスポートされます。エクスポートマネージャーが何を含めるかを選択します",
+      highlights: [
+        "DXFエクスポートはもはやジオメトリのみではありません。テキスト、寸法、リーダー、ハッチがファイルに入るようになったため、注釈付きの図面は注釈付きで到着し、裸の線に削減されません。",
+        "テキストはMTEXTとしてエクスポートされ、実行ごとの書式設定を保持します—フォント、高さ、太字、斜体、下線、打ち消し線。",
+        "寸法は標準DIMENSIONエンティティとしてエクスポートされます。線形、配置、継続、半径、直径、角度。",
+        "リーダーはMULTILEADERとしてエクスポートされ、ランディングセグメントとテキストアタッチメントが他のツールが予想する場所に配置されます。",
+        "ハッチはHATCHとしてエクスポートされ、パターン名、スケール、角度、原点を含みます。解決されたパターン線もインラインで含まれるため、パターンを聞いたことがないツールでも正しく描画されます。",
+        "エクスポートマネージャーは単一のリストとして再構築されました。図面内のすべてのエンティティタイプとそのカウント、含める確認チェックボックス、およびすべてを選択。テキスト、寸法行、リーダー、ハッチのチェックを外すと、ダウンロードされるのは純粋なジオメトリです。",
+        "新規: KulmanLabはブラウザからアプリとしてインストールできます。",
+        "修正: 他のツールが開くのを拒否したエクスポート—指数浮動小数点、不正なDefpointsプロットフラグ、空の矢印ブロック。単一の不正な形式のエンティティがエクスポート全体を中止しなくなります。",
+        "修正: 往復バグの長いリスト — 寸法テキストの高さ、位置とフォントの上書き、測定角度と矢印スタイル、軸比が1を超えたときに拒否された楕円とハッチ。",
+      ],
+    },
+    {
+      title: "すべてのコマンドでピンから正確な距離を入力します",
+      highlights: [
+        "新規: 直接距離入力。ピンから方向をロックして距離を入力すると、ポイントはそこに正確に着地します—ドラッグも計算もありません。",
+        "これで、本質的にすべてのポイントを要求するコマンドをカバーしています。Line、Polyline、Arc、Circle、Ellipse、Rectangle、両方のSplineモード、Area、Distance、Angle、Move、Copy、Rotate、Scale、Mirror、Align、Text、すべての寸法、リーダー、ChangePrintArea。",
+        "グリップ編集も付属—グリップを握り、方向をロックして正確な変位を入力します。",
+        "Pinsドロップダウンは横にある単純なDistトグルになり、ANGLとPinsの矢印はメニューが開くと反転します。",
+        "新規: ブラウザタブ間でエンティティをコピーして貼り付けます。",
+        "新規: 未使用のレイヤーは削除できます。",
+        "新規: プロパティパネルは自動的に端に隠れ、触れるとスライドして戻ります。",
+        "修正: レイアウト用紙サイズ—ビューポートスケールはモデル単位あたりミリメートルに正規化されます。プロット回転が尊重されます。未構成のレイアウトは横向きにデフォルトされます。ビューポートのないレイアウトは合成されたものを取得します。",
+        "修正: ヘアラインおよびデフォルトウェイトの線が低いDPIで太すぎて印刷される問題、および印刷マネージャーが完全に軸に揃ったエンティティを静かに削除する問題。",
+      ],
+    },
     {
       title: "円弧とポリラインのFillet、Export Managerの刷新",
       highlights: [
@@ -4867,6 +5235,34 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   pl: [
     {
+      title: "Wszystko eksportuje się do DXF; Menedżer eksportu wybiera co wejdzie",
+      highlights: [
+        "Eksport DXF nie jest już tylko geometrią. Tekst, wymiary, linie odniesienia i kreskowania trafiają teraz do pliku, więc rysunek z adnotacjami przychodzi z adnotacjami zamiast być redukowany do nagich linii.",
+        "Tekst eksportuje się jako MTEXT i zachowuje formatowanie na każde uruchomienie — czcionkę, wysokość, pogrubienie, kursywę, podkreślenie i przekreślenie.",
+        "Wymiary eksportuje się jako standardowe obiekty DIMENSION: liniowy, wyrównany, ciągły, promień, średnica i kątowy.",
+        "Linie odniesienia eksportuje się jako MULTILEADER z segmentem lądowania i załącznikiem tekstu napisanym w miejscu, gdzie inne narzędzia się ich spodziewają.",
+        "Kreskowania eksportuje się jako HATCH z nazwą wzoru, skalą, kątem i pochodzeniem. Rozwiązane linie wzoru również trafiają w linię, więc narzędzie, które nigdy nie słyszało o Twoim wzorze, nadal rysuje je poprawnie.",
+        "Menedżer eksportu przebudowany jako jedna lista: każdy typ obiektu w rysunku z jego liczbą obok i polem wyboru Uwzględnij, plus wybierz wszystko. Odznacz Tekst, wiersze wymiarów, Linie odniesienia i Kreskowania, a to, co się pobiera, to tylko wycinana geometria.",
+        "Nowe: KulmanLab można zainstalować z przeglądarki jako aplikację.",
+        "Naprawiono: eksporty które inne narzędzia odmówiły otworzyć — zmiennoprzecinkowe wykładnikami, zła flagę wykresu Defpoints i pusty blok grotu strzałki. Jeden zniekształcony obiekt nie anuluje już całego eksportu.",
+        "Naprawiono: długa lista błędów tam i z powrotem — wysokość tekstu wymiaru, pozycja i nadpisania czcionki, zmierzony kąt i style strzałek oraz elipsy i kreskowania odrzucane, gdy ich współczynnik osi przekraczał 1.",
+      ],
+    },
+    {
+      title: "Wpisz dokładny dystans od szpilki w każdym poleceniu",
+      highlights: [
+        "Nowe: bezpośrednie wpisywanie dystansu. Zablokuj kierunek od szpilki, wpisz dystans i punkt ląduje dokładnie tam — bez przeciągania i bez arytmetyki.",
+        "Obejmuje teraz zasadniczo każde polecenie, które prosi o punkt: Linia, Polilinia, Łuk, Okrąg, Elipsa, Prostokąt, oba tryby Spline, Obszar, Dystans, Kąt, Przesuń, Kopiuj, Obróć, Skaluj, Lustro, Wyrównaj, Tekst, każdy wymiar, Linia odniesienia i Zmień obszar druku.",
+        "Edycja uchwytu również przyszła — chwycić uchwyt, zablokować kierunek i wpisać dokładne przesunięcie.",
+        "Lista rozwijana Szpilki to teraz zwykły przełącznik Dist obok niego, a strzałki ANGL i Szpilki przerzucają się, gdy ich menu się otwierają.",
+        "Nowe: kopiuj i wklej obiekty między kartami przeglądarki.",
+        "Nowe: nieużywane warstwy można usunąć.",
+        "Nowe: panel właściwości może automatycznie się ukryć na krawędzi i wrócić, gdy się do niego zbliżysz.",
+        "Naprawiono: rozmiar papieru projektu — skala widoku znormalizowana do milimetrów na jednostkę modelu, obrót wykresu uwzględniony, projekt niekonfigurowany domyślnie poziomo, i projekt bez widoku otrzymuje syntetyzowany.",
+        "Naprawiono: linie włosowe i linie o domyślnej wadze drukowały się za grubo przy niższym DPI, a Menedżer wydruku po cichu usuwał obiekt, który był idealnie wyrównany do osi.",
+      ],
+    },
+    {
       title: "Fillet dla łuków i polilinii; przeprojektowany Export Manager",
       highlights: [
         "Fillet działa teraz na segmentach Arc i Polyline, nie tylko Line — wskaż dwa, a narożnik zostanie zaokrąglony w miejscu.",
@@ -5235,6 +5631,34 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   ko: [
+    {
+      title: "모든 것이 DXF로 내보내집니다. 내보내기 관리자가 포함할 항목을 선택합니다",
+      highlights: [
+        "DXF 내보내기는 더 이상 기하학만이 아닙니다. 텍스트, 치수, 리더 및 해치가 이제 파일로 들어가므로 주석이 달린 도면은 주석이 달린 상태로 도착하며 나선 라인으로 축소되지 않습니다.",
+        "텍스트는 MTEXT로 내보내지고 실행별 서식을 유지합니다—글꼴, 높이, 굵게, 기울임꼴, 밑줄 및 취소선.",
+        "치수는 표준 DIMENSION 엔터티로 내보내집니다. 선형, 정렬, 연속, 반지름, 지름 및 각도.",
+        "리더는 MULTILEADER로 내보내지며 다른 도구가 예상하는 위치에 랜딩 세그먼트 및 텍스트 첨부 파일이 있습니다.",
+        "해치는 HATCH로 내보내지며 패턴 이름, 크기, 각도 및 원점을 포함합니다. 해결된 패턴 라인도 인라인으로 들어가므로 패턴을 들은 적이 없는 도구도 올바르게 그립니다.",
+        "내보내기 관리자는 단일 목록으로 다시 구축되었습니다. 도면의 모든 엔터티 유형과 해당 개수 및 포함 확인란, 모두 선택. 텍스트, 치수 행, 리더 및 해치의 선택을 취소하면 다운로드되는 것은 순수 기하학입니다.",
+        "신규: KulmanLab을 브라우저에서 앱으로 설치할 수 있습니다.",
+        "수정: 다른 도구가 열기를 거부한 내보내기—지수 부동 소수점, 잘못된 Defpoints 플롯 플래그 및 빈 화살표 블록. 단일 잘못된 형식의 엔터티가 더 이상 전체 내보내기를 중단하지 않습니다.",
+        "수정: 왕복 버그의 긴 목록 — 치수 텍스트 높이, 위치 및 글꼴 재정의, 측정된 각도 및 화살표 스타일, 그리고 축 비율이 1을 초과할 때 거부된 타원 및 해치.",
+      ],
+    },
+    {
+      title: "모든 명령에서 핀의 정확한 거리를 입력합니다",
+      highlights: [
+        "신규: 직접 거리 입력. 핀에서 방향을 잠그고 거리를 입력하면 점이 정확히 그곳에 착지합니다—드래그도 산술도 없습니다.",
+        "이제 본질적으로 점을 요청하는 모든 명령을 다룹니다. Line, Polyline, Arc, Circle, Ellipse, Rectangle, 두 Spline 모드, Area, Distance, Angle, Move, Copy, Rotate, Scale, Mirror, Align, Text, 모든 치수, 리더 및 ChangePrintArea.",
+        "그립 편집도 함께 제공—그립을 잡고 방향을 잠그고 정확한 변위를 입력합니다.",
+        "Pins 드롭다운은 이제 옆에 있는 간단한 Dist 토글이고 ANGL 및 Pins 화살표는 메뉴가 열릴 때 뒤집힙니다.",
+        "신규: 브라우저 탭 간에 엔터티를 복사하여 붙여넣습니다.",
+        "신규: 사용하지 않는 레이어를 삭제할 수 있습니다.",
+        "신규: 속성 패널이 자동으로 가장자리로 숨겨질 수 있고 도달할 때 다시 밀어넣습니다.",
+        "수정: 레이아웃 용지 크기—뷰포트 스케일이 모델 단위당 밀리미터로 정규화되고, 플롯 회전이 적용되며, 구성되지 않은 레이아웃은 기본적으로 가로 방향이고, 뷰포트가 없는 레이아웃은 합성된 것을 받습니다.",
+        "수정: 헤어라인 및 기본 가중치 선이 낮은 DPI에서 너무 두껍게 인섄되고, 프린트 관리자가 완벽하게 축에 정렬된 엔터티를 조용히 삭제하던 문제.",
+      ],
+    },
     {
       title: "호와 폴리라인용 Fillet, Export Manager 재설계",
       highlights: [
@@ -5605,6 +6029,34 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   vi: [
     {
+      title: "Tất cả xuất khẩu sang DXF; Trình quản lý xuất khẩu chọn những gì đi vào",
+      highlights: [
+        "Xuất DXF không còn chỉ là hình học. Văn bản, kích thước, lãnh đạo và gạch chéo giờ đây đi vào tệp, vì vậy bản vẽ có chú thích đến với chú thích thay vì bị giảm xuống còn những đường trần.",
+        "Văn bản được xuất thành MTEXT và duy trì định dạng cho mỗi lần chạy — phông chữ, chiều cao, in đậm, in nghiêng, gạch chân và gạch ngang.",
+        "Kích thước được xuất dưới dạng các thực thể DIMENSION tiêu chuẩn: tuyến tính, căn chỉnh, tiếp tục, bán kính, đường kính và góc.",
+        "Lãnh đạo được xuất dưới dạng MULTILEADER, với đoạn hạ cánh và tệp đính kèm văn bản được viết nơi các công cụ khác dự kiến sẽ tìm thấy chúng.",
+        "Gạch chéo được xuất thành HATCH, mang tên mẫu, tỷ lệ, góc và gốc. Các đường mẫu đã giải quyết cũng đi nội tuyến, do đó một công cụ chưa bao giờ nghe về mẫu của bạn vẫn vẽ nó một cách chính xác.",
+        "Trình quản lý xuất khẩu được xây dựng lại dưới dạng một danh sách duy nhất: mỗi loại thực thể trong bản vẽ với số lượng của nó ở bên cạnh và hộp kiểm Bao gồm, cộng với chọn tất cả. Bỏ chọn Văn bản, hàng kích thước, Lãnh đạo và Gạch chéo và những gì được tải xuống chỉ là hình học cắt.",
+        "Mới: KulmanLab có thể được cài đặt từ trình duyệt dưới dạng ứng dụng.",
+        "Đã sửa: xuất khẩu mà các công cụ khác từ chối mở — số dấu phẩy động số mũ, cờ âm mưu Defpoints tệ và khối đầu mũi tên trống. Một thực thể bị biến dạng không còn hủy toàn bộ xuất khẩu.",
+        "Đã sửa: một danh sách dài các lỗi khứ hồi — chiều cao văn bản kích thước, vị trí và ghi đè phông chữ, góc đo được và kiểu mũi tên, và hình elip và gạch chéo bị từ chối khi tỷ lệ trục của chúng vượt quá 1.",
+      ],
+    },
+    {
+      title: "Nhập khoảng cách chính xác từ pin trong mọi lệnh",
+      highlights: [
+        "Mới: nhập khoảng cách trực tiếp. Khóa hướng từ pin, nhập khoảng cách và điểm hạ cánh chính xác ở đó — không kéo và không tính toán.",
+        "Nó bây giờ về cơ bản bao quát mọi lệnh yêu cầu một điểm: Đường, Đa tuyến, Cung, Vòng tròn, Hình elip, Hình chữ nhật, cả hai chế độ Spline, Khu vực, Khoảng cách, Góc, Di chuyển, Sao chép, Xoay, Tỷ lệ, Gương, Căn chỉnh, Văn bản, mọi kích thước, Lãnh đạo và Thay đổi khu vực in.",
+        "Chỉnh sửa tay cầm cũng đã đến — nắm lấy tay cầm, khóa hướng và nhập chuyển vị chính xác.",
+        "Bảng thả xuống Pins bây giờ là bộ chuyển đổi Dist đơn giản ở bên cạnh nó, và các mũi tên ANGL và Pins lật khi menu của chúng mở.",
+        "Mới: sao chép và dán các thực thể giữa các tab trình duyệt.",
+        "Mới: các lớp chưa sử dụng có thể bị xóa.",
+        "Mới: bảng thuộc tính có thể tự động ẩn vào cạnh và trượt lại khi bạn tiếp cận nó.",
+        "Đã sửa: kích thước giấy bố cục — tỷ lệ cổng xem bình thường hóa thành milimét trên mỗi đơn vị mô hình, quay vòng đầy đủ, bố cục không được cấu hình mặc định ngang, và bố cục không có cổng xem được một bố cục được tổng hợp.",
+        "Đã sửa: các đường tóc và đường có độ dày mặc định được in quá dày ở DPI thấp hơn, và Trình quản lý in âm thầm loại bỏ một thực thể hoàn toàn thẳng theo trục.",
+      ],
+    },
+    {
       title: "Fillet cho cung tròn và polyline; Export Manager thiết kế lại",
       highlights: [
         "Fillet nay hoạt động trên đoạn Arc và Polyline, không chỉ Line — chọn hai đoạn và góc được bo ngay tại chỗ.",
@@ -5973,6 +6425,34 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   th: [
+    {
+      title: "ทุกอย่างส่งออกเป็น DXF; ตัวจัดการการส่งออกเลือกว่าอะไรจะเข้ามา",
+      highlights: [
+        "การส่งออก DXF ไม่ใช่เพียงแค่เรขาคณิต ข้อความ มิติ เส้นนำ และการแรเงา ขณะนี้เข้าไปในไฟล์ ดังนั้นภาพวาดที่มีหมายเหตุ จึงมาพร้อมกับหมายเหตุแทนที่จะลดลงเหลือเพียงเส้นเปล่า",
+        "ข้อความจะส่งออกเป็น MTEXT และรักษาการจัดรูปแบบต่อการรัน — ฟอนต์ ความสูง ตัวหนา ตัวเอียง ขีดเส้นใต้ และขีดฆ่า",
+        "มิติจะส่งออกเป็นหน่วย DIMENSION มาตรฐาน: เชิงเส้น จัดแนว ต่อเนื่อง รัศมี เส้นผ่านศูนย์กลาง และเชิงมุม",
+        "เส้นนำจะส่งออกเป็น MULTILEADER โดยมีส่วนลงจอดและการแนบข้อความเขียนไว้ตรงที่เครื่องมืออื่น ๆ คาดหวังว่าจะพบ",
+        "การแรเงาจะส่งออกเป็น HATCH ที่มีชื่อลวดลาย มาตราส่วน มุมและต้นกำเนิด เส้นลวดลายที่แก้ไขแล้วก็เข้าไปแบบอินไลน์ด้วย ดังนั้นเครื่องมือที่ไม่เคยได้ยินเกี่ยวกับลวดลายของคุณ ก็ยังวาดมันได้อย่างถูกต้อง",
+        "ตัวจัดการการส่งออกสร้างใหม่เป็นรายการเดียว: ประเภทเอนทิตีแต่ละประเภทในภาพวาดพร้อมจำนวนข้าง ๆ และช่องทำเครื่องหมาย รวม รวมถึงเลือกทั้งหมด ยกเลิกเครื่องหมาย ข้อความ แถวมิติ เส้นนำ และการแรเงา และสิ่งที่ดาวน์โหลดจะเป็นเรขาคณิตการตัดเท่านั้น",
+        "ใหม่: KulmanLab สามารถติดตั้งจากเบราว์เซอร์เป็นแอป",
+        "ตรวจสอบแล้ว: การส่งออกที่เครื่องมืออื่น ๆ ปฏิเสธที่จะเปิด — ลอยแบบเอกโพเนนเชียล ธงพล็อต Defpoints ที่ไม่ดี และบล็อกหัวลูกศรว่าง เอนทิตีที่บิดเบือนตัวเดียวจะไม่ยกเลิกการส่งออกทั้งหมดอีกต่อไป",
+        "แก้ไขแล้ว: รายการข้อบกพร่องไปกลับที่ยาว — ความสูงข้อความมิติ ตำแหน่งและการแทนที่ฟอนต์ มุมที่วัดได้และสไตล์ลูกศร และวงรีและการแรเงาที่ถูกปฏิเสธเมื่ออัตราส่วนแกนเกิน 1",
+      ],
+    },
+    {
+      title: "พิมพ์ระยะทางที่แน่นอนจากหมุด ในทุกคำสั่ง",
+      highlights: [
+        "ใหม่: ป้อนระยะทางโดยตรง ล็อกทิศทางจากหมุด พิมพ์ระยะทาง แล้วจุดจะลงจอดตรงนั้น — ไม่มีการลาก และไม่มีเลขคณิต",
+        "ขณะนี้ครอบคลุมคำสั่งทั้งหมดที่ขอคะแนนโดยพื้นฐาน: เส้น เส้นประ ส่วนโค้ง วงกลม วงรี สี่เหลี่ยม โหมด Spline ทั้งสอง พื้นที่ ระยะทาง มุม ย้าย คัดลอก หมุน ปรับขนาด กระจก จัดแนว ข้อความ มิติทุกประเภท เส้นนำ และเปลี่ยนพื้นที่พิมพ์",
+        "การแก้ไขด้ามจับก็มาด้วย — จับด้ามจับ ล็อกทิศทาง และพิมพ์การกระจัดที่แน่นอน",
+        "รายการแบบเลื่อนลง Pins ขณะนี้เป็นตัวเลื่อน Dist แบบธรรมดาข้างๆ และลูกศร ANGL และ Pins พลิกเมื่อเมนูของพวกมันเปิดขึ้น",
+        "ใหม่: คัดลอกและวางเอนทิตีระหว่างแท็บเบราว์เซอร์",
+        "ใหม่: ชั้นที่ไม่ได้ใช้สามารถลบได้",
+        "ใหม่: บานหน้าต่างคุณสมบัติสามารถซ่อนอยู่ด้านข้างโดยอัตโนมัติ และเลื่อนกลับเมื่อคุณเข้าถึง",
+        "ตรวจสอบแล้ว: ขนาดกระดาษเค้าโครง — มาตราส่วนวิวพอร์ตปกติเป็นมิลลิเมตรต่อหน่วยแบบจำลอง การหมุนแปลงเคารพ เค้าโครงที่ไม่ได้กำหนดค่ามุมมองแนวนอนเริ่มต้น และเค้าโครงโดยไม่มีวิวพอร์ตจะได้รับสิ่งหนึ่งที่สังเคราะห์",
+        "ตรวจสอบแล้ว: เส้นผมและเส้นน้ำหนักเริ่มต้นพิมพ์หนาเกินไปที่ DPI ต่ำกว่า และตัวจัดการพิมพ์เงียบ ๆ ทิ้งเอนทิตีที่มีการจัดแนวแกนอย่างสมบูรณ์",
+      ],
+    },
     {
       title: "Fillet สำหรับส่วนโค้งและ polyline; ออกแบบ Export Manager ใหม่",
       highlights: [
@@ -6343,6 +6823,34 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   ms: [
     {
+      title: "Semuanya diekspor ke DXF; Pengurus Ekspor memilih apa yang masuk",
+      highlights: [
+        "Ekspor DXF bukan lagi geometri sahaja. Teks, dimensi, pemimpin dan corak sekarang masuk ke fail, jadi lukisan dengan anotasi tiba dengan anotasi dan bukan dikurangkan menjadi garis telanjang.",
+        "Teks dieksport sebagai MTEXT dan mengekalkan pemformatan per-jalankan — fon, ketinggian, tebal, condong, garis bawah dan garis putar.",
+        "Dimensi dieksport sebagai entiti DIMENSION piawai: linier, selaras, berterusan, jejari, diameter dan sudut.",
+        "Pemimpin dieksport sebagai MULTILEADER dengan segmen pendaratan dan pelekatan teks di mana alat lain mengharapkannya.",
+        "Corak dieksport sebagai HATCH dengan nama corak, skala, sudut dan asal. Garis corak yang diselesaikan juga masuk secara dalam talian, jadi alat yang tidak pernah mendengar tentang corak anda melukisnya dengan betul.",
+        "Pengurus Ekspor dibina semula sebagai senarai tunggal: setiap jenis entiti dalam lukisan dengan bilangannya dan kotak semakan Sertakan, ditambah pilih semua. Nyahpilih Teks, baris dimensi, Pemimpin dan Corak dan apa yang dimuat turun adalah geometri tulen.",
+        "Baharu: KulmanLab boleh dipasang dari penyemak imbas sebagai aplikasi.",
+        "Telah diperbaiki: eksport yang alat lain enggan buka — terapung eksponen, bendera plot Defpoints buruk dan blok anak panah kosong. Satu entiti yang cacat tidak lagi menghentikan keseluruhan ekspor.",
+        "Telah diperbaiki: senarai panjang pepijat pergi-balik — ketinggian teks dimensi, kedudukan dan penggantian fon, sudut yang diukur dan gaya anak panah, serta elips dan corak yang ditolak apabila nisbah paksinya melebihi 1.",
+      ],
+    },
+    {
+      title: "Taipkan jarak tepat dari pin, dalam setiap perintah",
+      highlights: [
+        "Baharu: kemasukan jarak langsung. Kunci arah dari pin, taipkan jarak dan titik mendarat betul-betul di sana — tiada seret dan tiada aritmetik.",
+        "Ia sekarang meliputi pada asasnya setiap perintah yang meminta titik: Line, Polyline, Arc, Circle, Ellipse, Rectangle, kedua-dua mod Spline, Area, Distance, Angle, Move, Copy, Rotate, Scale, Mirror, Align, Text, setiap dimensi, pemimpin dan ChangePrintArea.",
+        "Penyuntingan grip datang juga — pegang grip, kunci arah dan taipkan anjakan yang tepat.",
+        "Senarai jatuh Pins kini toggle Dist biasa di sisinya dan anak panah ANGL dan Pins terbalik apabila menu mereka dibuka.",
+        "Baharu: salin dan tampal entiti antara tab penyemak imbas.",
+        "Baharu: lapisan yang tidak digunakan boleh dipadamkan.",
+        "Baharu: panel sifat boleh disembunyikan secara automatik ke tepi dan slaid kembali apabila anda mencapainya.",
+        "Telah diperbaiki: saiz kertas susun atur — skala tinjauan dinormalkan ke milimeter bagi setiap unit model, putaran plot dihormati, susun atur yang tidak dikonfigurasikan lalai ke landskap dan susun atur tanpa tinjauan mendapat satu yang disintesis.",
+        "Telah diperbaiki: garisan rambut dan garisan berat lalai dicetak terlalu tebal pada DPI yang lebih rendah, dan Pengurus Cetak secara senyap membuang entiti yang sejajar paksi dengan sempurna.",
+      ],
+    },
+    {
       title: "Fillet untuk lengkok dan polyline; Export Manager direka semula",
       highlights: [
         "Fillet kini berfungsi pada segmen Arc dan Polyline, bukan hanya Line — pilih dua dan sudutnya dibundarkan di situ.",
@@ -6712,6 +7220,34 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   bn: [
     {
+      title: "সবকিছু DXF তে রপ্তানি করা যায়; রপ্তানি পরিচালক কী অন্তর্ভুক্ত করবে তা বাছাই করে",
+      highlights: [
+        "DXF রপ্তানি আর শুধুমাত্র জ্যামিতি নয়। পাঠ্য, মাত্রা, নেতা এবং হ্যাচ এখন ফাইলে যায়, তাই একটি মন্তব্য করা অঙ্কন মন্তব্য করা হয়ে আসে নগ্ন লাইনে হ্রাস না করে।",
+        "পাঠ্য MTEXT হিসাবে রপ্তানি করা হয় এবং প্রতি-রান ফরম্যাটিং বজায় রাখে — ফন্ট, উচ্চতা, সাহসী, ইতালিক, আন্ডারলাইন এবং স্ট্রাইকথ্রু।",
+        "মাত্রা মান DIMENSION সত্ত্বা হিসাবে রপ্তানি করা হয়: রৈখিক, সারিবদ্ধ, অব্যাহত, ব্যাসার্ধ, ব্যাস এবং কোণ।",
+        "নেতা MULTILEADER হিসাবে রপ্তানি করা হয়, ল্যান্ডিং সেগমেন্ট এবং পাঠ্য সংযুক্তি যেখানে অন্যান্য সরঞ্জাম তাদের প্রত্যাশা করে।",
+        "হ্যাচ HATCH হিসাবে রপ্তানি করা হয়, প্যাটার্ন নাম, স্কেল, কোণ এবং উত্স বহন করে। সমাধান করা প্যাটার্ন লাইন ইনলাইন যায়, তাই একটি সরঞ্জাম যা আপনার প্যাটার্ন সম্পর্কে কখনও শোনেনি তা সঠিকভাবে আঁকে।",
+        "রপ্তানি পরিচালক একটি একক তালিকা হিসাবে পুনর্নির্মাণ করা হয়েছে: অঙ্কনে প্রতিটি সত্ত্বা প্রকার এর পাশে সংখ্যা এবং একটি Include চেকবক্স, প্লাস সব নির্বাচন করুন। পাঠ্য, মাত্রা সারি, নেতা এবং হ্যাচ অনির্ধারণ করুন এবং যা ডাউনলোড হয় তা শুধু জ্যামিতি।",
+        "নতুন: KulmanLab ব্রাউজার থেকে একটি অ্যাপ হিসাবে ইনস্টল করা যায়।",
+        "স্থির: রপ্তানি যা অন্যান্য সরঞ্জাম খোলতে অস্বীকার করেছিল — সূচক ফ্লট, খারাপ Defpoints প্লট ফ্ল্যাগ এবং খালি তীরচিহ্ন ব্লক। একটি একক বিকৃত সত্ত্বা আর সম্পূর্ণ রপ্তানি বাতিল করে না।",
+        "স্থির: রাউন্ড-ট্রিপ বাগের একটি দীর্ঘ তালিকা — মাত্রা পাঠ্যের উচ্চতা, অবস্থান এবং ফন্ট ওভাররাইড, পরিমাপ করা কোণ এবং তীর শৈলী, এবং উপবৃত্ত এবং হ্যাচ যা তাদের অক্ষ অনুপাত ১ অতিক্রম করলে প্রত্যাখ্যাত হয়েছিল।",
+      ],
+    },
+    {
+      title: "একটি পিন থেকে একটি সঠিক দূরত্ব টাইপ করুন, প্রতিটি কমান্ডে",
+      highlights: [
+        "নতুন: সরাসরি দূরত্ব প্রবেশ। একটি পিন থেকে দিক লক করুন, দূরত্ব টাইপ করুন এবং পয়েন্ট ঠিক সেখানে অবতরণ করে — কোন টানা এবং কোন গাণিতিক নেই।",
+        "এটি এখন সারাংশে প্রতিটি কমান্ড যা একটি পয়েন্ট জিজ্ঞাসা করে তা কভার করে: Line, Polyline, Arc, Circle, Ellipse, Rectangle, উভয় Spline মোড, Area, Distance, Angle, Move, Copy, Rotate, Scale, Mirror, Align, Text, প্রতিটি dimension, leader এবং ChangePrintArea।",
+        "গ্রিপ সম্পাদনা খুব এসেছিল — একটি গ্রিপ আঁকড়ে ধরুন, দিক লক করুন এবং সঠিক স্থানচ্যুতি টাইপ করুন।",
+        "Pins ড্রপডাউন এখন এর পাশে একটি সাধারণ Dist টগল এবং ANGL এবং Pins তীর তাদের মেনু খোলার সময় ফ্লিপ।",
+        "নতুন: ব্রাউজার ট্যাব জুড়ে সত্ত্বা অনুলিপি এবং পেস্ট করুন।",
+        "নতুন: অব্যবহৃত স্তর মুছে ফেলা যায়।",
+        "নতুন: বৈশিষ্ট্য প্যানেল স্বয়ংক্রিয়ভাবে প্রান্তে লুকানো যেতে পারে এবং আপনি যখন এটির কাছে পৌঁছান তখন স্লাইড করুন।",
+        "স্থির: লেআউট কাগজ আকার — viewport স্কেল মিলিমিটার প্রতি মডেল ইউনিটে সামঞ্জস্যপূর্ণ, প্লট রোটেশন সম্মানিত হয়, একটি অনির্ধারণ করা লেআউট ল্যান্ডস্কেপে ডিফল্ট করে এবং কোন viewport সহ একটি লেআউট একটি সংশ্লেষিত পায়।",
+        "স্থির: হেয়ারলাইন এবং ডিফল্ট-ওজন লাইনগুলি কম DPI-এ খুব মোটা প্রিন্ট হত, এবং প্রিন্ট ম্যানেজার নিঃশব্দে একটি সত্তা বাদ দিত যা সম্পূর্ণরূপে অক্ষ-সংযুক্ত ছিল।",
+      ],
+    },
+    {
       title: "আর্ক ও পলিলাইনের জন্য Fillet; Export Manager-এর নতুন নকশা",
       highlights: [
         "Fillet এখন শুধু Line নয়, Arc ও Polyline সেগমেন্টেও কাজ করে — দুটি বেছে নিন, কোণটি সেখানেই গোল হবে।",
@@ -7080,6 +7616,34 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   sw: [
+    {
+      title: "Kila kinahariri kwa DXF; Meneja wa Kuhamisha Anapili Nini Kinaingia",
+      highlights: [
+        "Kuhariri DXF si ndio tu jiometri. Maandishi, mipango, viongezi na hatching sasa huenda kwa faili, kwa hivyo kuchora kwa maelezo kinakuja kwa maelezo badala ya kupunguzwa kwa mistari tu.",
+        "Maandishi huhaririwa kama MTEXT na kudumisha umbizo kwa kila kukimbia — fonti, urefu, ujinga, kiteleza, mstari na kupitia.",
+        "Mipango huhaririwa kama vyombo vya kawaida vya DIMENSION: linear, kuweka, kuendelea, radius, kipenyo na angular.",
+        "Viongezi huhaririwa kama MULTILEADER, kwa sehemu ya kutua na kiambatisho cha maandishi kimeandikwa ambapo zana nyingine zinatarajia kuzipata.",
+        "Hatching huhaririwa kama HATCH, kubeba jina la muundo, kiwango, pembe na asili. Mistari ya muundo iliyotatuliwa pia huenda ndani, kwa hivyo zana ambayo haijasikia kuhusu muundo wako bado inachora kwa usahihi.",
+        "Meneja wa Kuhamisha iliyojengwa upya kama orodha moja: aina ya kila kike katika kuchora na hesabu yake kando na kisanduku cha Kuletwa, pamoja na kuchagua yote. Taka Maandishi, safu za mipango, Viongezi na Hatching na kinachopakuliwa ni jiometri iliyokatwa tu.",
+        "Mpya: KulmanLab inaweza kufungua kutoka kwa kivinjari kama programu.",
+        "Iliyotengeneza: kuhamisha ambazo zana nyingine zilikataa kufungua kabisa — mechemela ya kieleza, bendera mbaya ya mkutano wa Defpoints na bloku tupu la vichwa vya mshale. Kile kike kimoja kilichoharibika hakuna tena kukataza kuhamisha kote.",
+        "Imerekebishwa: orodha ndefu ya hitilafu za kurudi — urefu wa maandishi ya kipimo, nafasi na ubadilishaji wa fonti, pembe iliyopimwa na mitindo ya mshale, na duaradufu na hechi zilizokataliwa wakati uwiano wa mhimili wao ulizidi 1.",
+      ],
+    },
+    {
+      title: "Andika umbali kamili kutoka kwa pin katika kila amri",
+      highlights: [
+        "Mpya: inyongeza moja kwa moja. Funga mwelekeo kutoka kwa pin, andika umbali na kumeza kunezesha mahali hapo — hakuna kusukuma na hakuna hesabu.",
+        "Sasa inashughulikia takriban kila amri inayouliza kwa kumeza: Mstari, Polyline, Safu, Mduara, Duaradufu, Mstatili, mitindo yote miwili ya Spline, Eneo, Umbali, Pembe, Hama, Nakili, Zunguka, Kiwango, Macho, Weka, Maandishi, kila mipango, Mwongozo na Badilisha Eneo la Chapisha.",
+        "Kuhariri kwa mkono kua pia — kamata mkono, funga mwelekeo na andika uhamisho kamili.",
+        "Kucheza kwa Pin sasa ni njia rahisi ya Umbali kando yake, na mishale ya ANGL na Pin inageuka wakati menyu yao inafungua.",
+        "Mpya: nakili na bandika vyombo kati ya vichupo vya kivinjari.",
+        "Mpya: tabaka lisilotumiwa linaweza kufutwa.",
+        "Mpya: paneli ya sifa linaweza kujihifadhi otomatiki kwa ukingo na kurudi nyuma wakati unakamatia.",
+        "Iliyotengeneza: saizi ya karatasi ya muundo — kiwango cha viewport kukamatia kwa millimeta kwa kila kitengo cha muundo, mzunguko wa mkutano ukatatuliwa, muundo usiotengenezwa chaguo-msingi mandhari, na muundo wenye uso unapata mmoja wa kutunga.",
+        "Imerekebishwa: mistari myembamba na mistari ya uzito chaguo-msingi ilichapishwa nene sana kwa DPI ya chini, na Msimamizi wa Uchapishaji aliondoa kimya kimya huluki iliyokuwa sawa kabisa na mhimili.",
+      ],
+    },
     {
       title: "Fillet kwa arc na polyline; Export Manager imeundwa upya",
       highlights: [
@@ -7451,6 +8015,34 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
 
   ur: [
     {
+      title: "سب کچھ DXF میں ایکسپورٹ کریں؛ ایکسپورٹ منیجر چنتا ہے کہ کیا اندر آتا ہے",
+      highlights: [
+        "DXF ایکسپورٹ اب صرف جیومیٹری نہیں ہے۔ ٹیکسٹ، طول و عرض، لیڈرز اور ہیچنگ اب فائل میں جاتے ہیں، تاکہ ایک نشاندہی شدہ ڈرائنگ نشاندہی کے ساتھ آتی ہے بجائے اس کے برہنہ لائنوں میں کم ہوں۔",
+        "متن MTEXT کے طور پر ایکسپورٹ کیا جاتا ہے اور ہر رن کے لیے فارمیٹنگ برقرار رہتی ہے — فونٹ، اونچائی، بولڈ، اطالوی، زیر لائن اور اسٹرائک تھرو۔",
+        "طول و عرض معیاری DIMENSION اکائیوں کے طور پر برآمد کیے جاتے ہیں: لکیری، سمیٹی، جاری، رداس، قطر اور زاویہ۔",
+        "لیڈرز MULTILEADER کے طور پر برآمد کیے جاتے ہیں، اترنے والے حصے اور متن کی منسلک شدہ جگہوں پر لکھی گئی جہاں دوسری ٹولز انہیں تلاش کرنے کی توقع کرتے ہیں۔",
+        "ہیچنگ HATCH کے طور پر برآمد کیے جاتے ہیں، پیٹرن کا نام، پیمانہ، زاویہ اور اصل لے کر۔ حل شدہ نمونہ لائنیں بھی انلائن جاتی ہیں، تاکہ ایک ٹول جو آپ کے نمونہ کے بارے میں کبھی نہیں سنا ہے پھر بھی اسے درست طریقے سے کھینچتا ہے۔",
+        "ایکسپورٹ منیجر ایک واحد فہرست کے طور پر دوبارہ تیار کیا گیا: ڈرائنگ میں ہر ہستی کی قسم جس کے ساتھ اس کی تعداد ہے اور ایک شامل کریں چیک باکس، نیز تمام منتخب کریں۔ متن، طول و عرض کی صفیں، لیڈرز اور ہیچنگ کو غیر چیک کریں اور جو ڈاؤن لوڈ ہوتا ہے وہ صرف کٹی ہوئی جیومیٹری ہے۔",
+        "نیا: KulmanLab کو براؤزر سے ایک ایپ کے طور پر انسٹال کیا جا سکتا ہے۔",
+        "طے شدہ: برآمدات جو دوسری ٹولز نے کھولنے سے انکار کر دیے — کفایت شدہ تیرتے، ایک برا Defpoints پلاٹ پرچم اور ایک خالی تیر سر بلاک۔ ایک واحد خراب ہستی اب پوری برآمد کو منسوخ نہیں کرتی۔",
+        "طے شدہ: راؤنڈ ٹرپ خرابیوں کی ایک طویل فہرست — طول و عرض کے متن کی اونچائی، پوزیشن اور فونٹ کی اووررائیڈز، ناپا گیا زاویہ اور تیر کے انداز، اور بیضوی اور ہیچنگ جب ان کا محوری تناسب 1 سے تجاوز کر جاتا تھا تو مسترد کر دیے جاتے تھے۔",
+      ],
+    },
+    {
+      title: "ہر کمانڈ میں پن سے بالکل فاصلہ ٹائپ کریں",
+      highlights: [
+        "نیا: براہ راست فاصلہ کی داخلہ۔ پن سے سمت بند کریں، فاصلہ ٹائپ کریں اور نقطہ بالکل وہاں اترتا ہے — کوئی ڈریگنگ نہیں اور کوئی ریاضی نہیں۔",
+        "یہ بنیادی طور پر ہر کمانڈ کو کور کرتا ہے جو ایک نقطہ مانگتا ہے: لائن، پالیلائن، آرک، حلقہ، بیضوی، مستطیل، دونوں Spline کے طریقے، علاقہ، فاصلہ، زاویہ، منتقل، کاپی، گھومائیں، پیمانہ، شیشہ، منطبق، ٹیکسٹ، ہر طول و عرض، لیڈر اور پرنٹ علاقہ بدلیں۔",
+        "گریپ ترمیم بھی آیا — ایک گرپ پکڑیں، سمت بند کریں اور بالکل نقل داخل کریں۔",
+        "Pins ڈراپ ڈاؤن اب اس کے ساتھ ایک سادہ Dist ٹوگل ہے، اور ANGL اور Pins تیر جب ان کے مینو کھولتے ہیں۔",
+        "نیا: براؤزر ٹیبز میں ہستیوں کو کاپی اور پیسٹ کریں۔",
+        "نیا: غیر استعمال شدہ پرتیں حذف کی جا سکتی ہیں۔",
+        "نیا: خصوصیات کے پینل کو خودکار طور پر کنارے تک چھپایا جا سکتا ہے اور جب آپ اس تک پہنچتے ہیں تو واپس سلائڈ کریں۔",
+        "طے شدہ: لے آؤٹ کاغذ کے سائز — دیکھنے کی جگہ کے پیمانہ کو ملی میٹر فی ماڈل یونٹ میں معمول بنایا جاتا ہے، پلاٹ کی گردش کا احترام کیا جاتا ہے، ترتیب نہ دی گئی لے آؤٹ ڈیفالٹ منظر نامہ، اور دیکھنے کی جگہ کے بغیر لے آؤٹ ایک ترتیب شدہ حاصل کرتا ہے۔",
+        "طے شدہ: بال لائنیں اور ڈیفالٹ وزن لائنیں کم DPI پر بہت موٹی پرنٹ کی گئیں، اور پرنٹ منیجر خاموشی سے ایک ہستی کو ختم کر دیا جو بالکل محور سے منطبق تھا۔",
+      ],
+    },
+    {
       title: "آرکس اور پولی لائنز کے لیے Fillet؛ Export Manager کی نئی ساخت",
       highlights: [
         "Fillet اب صرف Line نہیں بلکہ Arc اور Polyline سیگمنٹس پر بھی کام کرتا ہے — دو منتخب کریں اور کونا وہیں گول ہو جائے گا۔",
@@ -7578,6 +8170,34 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
 
   el: [
     {
+      title: "Όλα εξάγονται σε DXF· ο Διαχειριστής Εξαγωγής επιλέγει τι μπαίνει",
+      highlights: [
+        "Η εξαγωγή DXF δεν είναι πλέον μόνο γεωμετρία. Το κείμενο, οι διαστάσεις, οι οδηγοί και τα διαγράμματα πηγαίνουν τώρα στο αρχείο, ώστε ένα σχολιασμένο σχέδιο να φτάσει σχολιασμένο αντί να περιοριστεί σε γυμνές γραμμές.",
+        "Το κείμενο εξάγεται ως MTEXT και διατηρεί τη μορφοποίηση ανά εκτέλεση — γραμματοσειρά, ύψος, έντονα, πλάγια, υπογράμμιση και διακριτή γραμμή.",
+        "Οι διαστάσεις εξάγονται ως τυπικές DIMENSION οντότητες: γραμμική, ευθυγραμμισμένη, συνεχιζόμενη, ακτίνα, διάμετρος και γωνιακή.",
+        "Οι οδηγοί εξάγονται ως MULTILEADER με τμήμα προσγείωσης και σύνδεσμο κειμένου όπου τα άλλα εργαλεία τα περιμένουν.",
+        "Τα διαγράμματα εξάγονται ως HATCH με όνομα μοτίβου, κλίμακα, γωνία και προέλευση. Οι επιλυμένες γραμμές μοτίβου πηγαίνουν επίσης ενσωματωμένες, ώστε ένα εργαλείο που δεν άκουσε ποτέ για το μοτίβο σας να το σχεδιάζει σωστά.",
+        "Διαχειριστής εξαγωγής ανακατασκευάστηκε ως ενιαίο κατάλογο: κάθε τύπος οντότητας στο σχέδιο με τον αριθμό του και ένα πλαίσιο ελέγχου Συμπερίληψης, συν επιλογή όλων. Αποεπιλέξτε Κείμενο, σειρές διαστάσεων, Οδηγοί και Διαγράμματα και ό,τι κατεβαίνει είναι καθαρή γεωμετρία.",
+        "Νέο: Το KulmanLab μπορεί να εγκατασταθεί από τον περιηγητή ως εφαρμογή.",
+        "Διορθώθηκε: εξαγωγή που άλλα εργαλεία αρνήθηκαν να ανοίξουν — εκθετικά floats, κακή σημαία Defpoints plot και κενό μπλοκ βέλους. Μια μόνο κακοσχηματισμένη οντότητα δεν ματαιώνει πλέον ολόκληρη την εξαγωγή.",
+        "Διορθώθηκε: μια μεγάλη λίστα σφαλμάτων μετ' επιστροφής — ύψος κειμένου διάστασης, θέση και παρακάμψεις γραμματοσειράς, μετρημένη γωνία και στυλ βέλους, και έλλειψεις και διαγραμμίσεις που απορρίπτονταν όταν η αναλογία άξονά τους ξεπερνούσε το 1.",
+      ],
+    },
+    {
+      title: "Πληκτρολογήστε μια ακριβή απόσταση από ένα καρφί, σε κάθε εντολή",
+      highlights: [
+        "Νέο: απευθείας εισαγωγή απόστασης. Κλειδώστε την κατεύθυνση από ένα καρφί, πληκτρολογήστε την απόσταση και το σημείο προσγειώνεται ακριβώς εκεί — χωρίς σύρσιμο και χωρίς αριθμητική.",
+        "Καλύπτει τώρα ουσιαστικά κάθε εντολή που ζητά ένα σημείο: Line, Polyline, Arc, Circle, Ellipse, Rectangle, και οι δύο λειτουργίες Spline, Area, Distance, Angle, Move, Copy, Rotate, Scale, Mirror, Align, Text, κάθε διάσταση, οδηγό και ChangePrintArea.",
+        "Η επεξεργασία λαβής ήρθε επίσης — πιάστε μια λαβή, κλειδώστε την κατεύθυνση και πληκτρολογήστε την ακριβή μετατόπιση.",
+        "Η αναπτυσσόμενη λίστα Pins είναι τώρα ένας απλός διακόπτης Dist δίπλα του και τα βέλη ANGL και Pins αναστρέφονται όταν ανοίγουν τα μενού τους.",
+        "Νέο: αντιγράψτε και επικολλήστε οντότητες μεταξύ καρτελών του περιηγητή.",
+        "Νέο: τα αχρησιμοποίητα στρώματα μπορούν να διαγραφούν.",
+        "Νέο: το παράθυρο ιδιοτήτων μπορεί να κρυφτεί αυτόματα στην άκρη και να γλιτώσει όταν φτάσετε γι' αυτό.",
+        "Διορθώθηκε: μέγεθος χαρτιού διάταξης — η κλίμακα viewport κανονικοποιείται σε χιλιοστά ανά μονάδα μοντέλου, η περιστροφή σχεδίασης τιμάται, μια δεν διαμορφωμένη διάταξη προεπιλέγει τοπίο και μια διάταξη χωρίς viewport λαμβάνει μια συντεθειμένη.",
+        "Διορθώθηκε: οι λεπτές γραμμές και οι γραμμές προεπιλεγμένου βάρους τυπώνονταν πολύ χοντρές σε χαμηλότερο DPI, και ο Διαχειριστής Εκτύπωσης έσβηνε σιωπηλά μια οντότητα που ήταν τέλεια ευθυγραμμισμένη με τον άξονα.",
+      ],
+    },
+    {
       title: "Fillet για τόξα και πολυγραμμές· ανασχεδιασμένος Export Manager",
       highlights: [
         "Το Fillet λειτουργεί πλέον σε τμήματα Arc και Polyline, όχι μόνο Line — επιλέξτε δύο και η γωνία στρογγυλεύει επιτόπου.",
@@ -7703,6 +8323,34 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     { title: 'Αναβάθμιση Angular, τεκμηρίωση & προσαρμοστικό πλέγμα', highlights: ['Αναβάθμιση Angular 19 → 20 → 21', 'Πλήρης ιστότοπος τεκμηρίωσης εντολών', 'Προσαρμοστικό πλέγμα CAD', 'Πίνακας ιστορικού (Αναίρεση / Ιστορικό / Επανάληψη)'] },
   ],
   pa: [
+    {
+      title: "ਸਭ ਕੁਝ DXF ਵਿੱਚ ਨਿਰਯਾਤ ਕੀਤਾ ਜਾਂਦਾ ਹੈ; ਨਿਰਯਾਤ ਪ੍ਰਬੰਧਕ ਚੁਣਦਾ ਹੈ ਕੀ ਜਾਂਦਾ ਹੈ",
+      highlights: [
+        "DXF ਨਿਰਯਾਤ ਹੁਣ ਸਿਰਫ ਜਿਓਮੈਟਰੀ ਨਹੀਂ ਹੈ। ਲਿਖਤ, ਮਾਪ, ਲੀਡਰ ਅਤੇ ਹੈਚ ਹੁਣ ਫਾਈਲ ਵਿੱਚ ਜਾਂਦੇ ਹਨ, ਇਸਲਈ ਇੱਕ ਵਿਆਖਿਆਤ ਡਰਾਇੰਗ ਵਿਆਖਿਆ ਵਾਲੇ ਦੇ ਨਾਲ ਆਉਂਦੀ ਹੈ ਨਾ ਕਿ ਨੰਗੀਆਂ ਲਾਈਨਾਂ ਤੱਕ ਘਟਿਆ ਜਾਂਦਾ ਹੈ।",
+        "ਲਿਖਤ MTEXT ਦੇ ਰੂਪ ਵਿੱਚ ਨਿਰਯਾਤ ਕੀਤੀ ਜਾਂਦੀ ਹੈ ਅਤੇ ਪ੍ਰਤੀ-ਰਨ ਫਾਰਮੈਟਿੰਗ ਨੂੰ ਬਣਾਏ ਰੱਖਦੀ ਹੈ — ਫੌਂਟ, ਉਚਾਈ, ਬੋਲਡ, ਇਟੈਲਿਕ, ਅੰਡਰਲਾਈਨ ਅਤੇ ਸਟ੍ਰਾਈਕਥ੍ਰੂ।",
+        "ਮਾਪ ਮਾਨਕ DIMENSION ਸੰਸਥਾਵਾਂ ਦੇ ਰੂਪ ਵਿੱਚ ਨਿਰਯਾਤ ਕੀਤੇ ਜਾਂਦੇ ਹਨ: ਲਕੀਰੀ, ਸੰਰੇਖਿਤ, ਜਾਰੀ, ਰੇਡੀਅਸ, ਵਿਆਸ ਅਤੇ ਕੋਣੀ।",
+        "ਲੀਡਰ MULTILEADER ਦੇ ਰੂਪ ਵਿੱਚ ਨਿਰਯਾਤ ਕੀਤੇ ਜਾਂਦੇ ਹਨ ਜਿੱਥੇ ਲੈਂਡਿੰਗ ਸੈਗਮੈਂਟ ਅਤੇ ਲਿਖਤ ਨਾਲ ਜੋੜ ਹਨ।",
+        "ਹੈਚ HATCH ਦੇ ਰੂਪ ਵਿੱਚ ਨਿਰਯਾਤ ਕੀਤੇ ਜਾਂਦੇ ਹਨ ਪੈਟਰਨ ਨਾਮ, ਸਕੇਲ, ਕੋਣ ਅਤੇ ਮੂਲ ਨਾਲ। ਹੱਲ ਕੀਤੀਆਂ ਪੈਟਰਨ ਲਾਈਨਾਂ ਸਮੇਤ ਇਨ-ਲਾਈਨ ਜਾਂਦੀਆਂ ਹਨ, ਇਸਲਈ ਇੱਕ ਟੂਲ ਜੋ ਤੁਹਾਡੇ ਪੈਟਰਨ ਬਾਰੇ ਕਦੇ ਨਹੀਂ ਸੁਣਿਆ ਇਸਨੂੰ ਸਹੀ ਢੰਗ ਨਾਲ ਖਿੱਚਦਾ ਹੈ।",
+        "ਨਿਰਯਾਤ ਪ੍ਰਬੰਧਕ ਇੱਕ ਸਿੰਗਲ ਸੂਚੀ ਦੇ ਰੂਪ ਵਿੱਚ ਮੁੜ ਨਿਰਮਾਣ ਕੀਤਾ ਗਿਆ: ਡਰਾਇੰਗ ਵਿੱਚ ਹਰੇਕ ਸੰਸਥਾ ਸਮੂਹ ਇਸਦੀ ਗਿਣਤੀ ਨਾਲ ਅਤੇ ਸ਼ਾਮਲ ਚੈਕ ਬਾਕਸ, ਬਨਾਮ ਸਾਰੇ ਚੁਣੋ। ਲਿਖਤ, ਮਾਪ ਕਤਾਰਾਂ, ਲੀਡਰ ਅਤੇ ਹੈਚ ਨੂੰ ਅਨ-ਚੈਕ ਕਰੋ ਅਤੇ ਜੋ ਡਾਊਨਲੋਡ ਹੁੰਦਾ ਹੈ ਵੋ ਖਾਲਸ ਜਿਓਮੈਟਰੀ ਹੈ।",
+        "ਨਵਾਂ: KulmanLab ਨੂੰ ਬ੍ਰਾਊਜ਼ਰ ਤੋਂ ਇੱਕ ਐਪ ਦੇ ਰੂਪ ਵਿੱਚ ਇੰਸਟਾਲ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ।",
+        "ਸਥਿਰ: ਨਿਰਯਾਤ ਜੋ ਹੋਰ ਟੂਲ ਖੋਲ਼ਣ ਤੋਂ ਮਨਜ਼ੂਰੀ ਦਿਆ — ਘਾਤਾਂਕ ਤੈਰਾਕ, ਖਰਾਬ Defpoints ਬ੍ਰਾੱਪ ਝੰਡਾ ਅਤੇ ਖਾਲੀ ਤੀਰ ਬਲਾਕ। ਇੱਕ ਸਿੰਗਲ ਖਰਾਬ ਸੰਸਥਾ ਹੁਣ ਪੂਰੀ ਨਿਰਯਾਤ ਨੂੰ ਬੰਦ ਨਹੀਂ ਕਰਦਾ।",
+        "ਸਥਿਰ: ਗੇੜੇ ਦੀਆਂ ਗਲਤੀਆਂ ਦੀ ਇੱਕ ਲੰਬੀ ਸੂਚੀ — ਮਾਪ ਟੈਕਸਟ ਦੀ ਉਚਾਈ, ਸਥਿਤੀ ਅਤੇ ਫੌਂਟ ਓਵਰਰਾਈਡ, ਮਾਪਿਆ ਗਿਆ ਕੋਣ ਅਤੇ ਤੀਰ ਸਟਾਈਲ, ਅਤੇ ਅੰਡਾਕਾਰ ਅਤੇ ਹੈਚ ਜੋ ਉਦੋਂ ਰੱਦ ਕੀਤੇ ਗਏ ਜਦੋਂ ਉਨ੍ਹਾਂ ਦਾ ਧੁਰਾ ਅਨੁਪਾਤ 1 ਤੋਂ ਵੱਧ ਗਿਆ।",
+      ],
+    },
+    {
+      title: "ਹਰੇਕ ਆਦੇਸ਼ ਵਿੱਚ ਪਿਨ ਤੋਂ ਇੱਕ ਸਹੀ ਦੂਰੀ ਟਾਈਪ ਕਰੋ",
+      highlights: [
+        "ਨਵਾਂ: ਸਿੱਧੀ ਦੂਰੀ ਪ੍ਰਵੇਸ਼। ਪਿਨ ਤੋਂ ਦਿਸ਼ਾ ਲਾਕ ਕਰੋ, ਦੂਰੀ ਟਾਈਪ ਕਰੋ ਅਤੇ ਬਿੰਦੂ ਬਿਲਕੁਲ ਉੱਥੇ ਭੂਮਿ ਕਰਦਾ ਹੈ — ਕੋਈ ਟ੍ਰੇਨ ਅਤੇ ਕੋਈ ਅੰਕਗਣਨਾ ਨਹੀਂ।",
+        "ਇਹ ਹੁਣ ਜ਼ਰੂਰੀ ਤੌਰ 'ਤੇ ਹਰੇਕ ਆਦੇਸ਼ ਨੂੰ ਕਵਰ ਕਰਦਾ ਹੈ ਜੋ ਇੱਕ ਬਿੰਦੂ ਮੰਗਦਾ ਹੈ: Line, Polyline, Arc, Circle, Ellipse, Rectangle, ਦੋਵੇਂ Spline ਮੋਡ, Area, Distance, Angle, Move, Copy, Rotate, Scale, Mirror, Align, Text, ਹਰੇਕ ਮਾਪ, ਲੀਡਰ ਅਤੇ ChangePrintArea।",
+        "ਗ੍ਰਿਪ ਸੰਪਾਦਨ ਵੀ ਆਇਆ — ਇੱਕ ਗ੍ਰਿਪ ਤੋਂ ਫੜੋ, ਦਿਸ਼ਾ ਲਾਕ ਕਰੋ ਅਤੇ ਸਹੀ ਵਿਸਥਾਪਨ ਟਾਈਪ ਕਰੋ।",
+        "Pins ਡ੍ਰਾਪ-ਡਾਉਨ ਹੁਣ ਇਸਦੇ ਅੱਗੇ ਇੱਕ ਸਾਧਾਰਨ Dist ਟਾਗਲ ਹੈ ਅਤੇ ANGL ਅਤੇ Pins ਤੀਰ ਜਦੋਂ ਉਨ੍ਹਾਂ ਦੇ ਮੇਨੂ ਖੁੱਲ ਜਾਂਦੇ ਹਨ ਫਲਿਪ ਹੋਣ ਅਤੇ ਛੂਟ ਪੈ ਜਾਣ।",
+        "ਨਵਾਂ: ਬ੍ਰਾਊਜ਼ਰ ਟੈਬ ਦੇ ਵਿਚਕਾਰ ਸੰਸਥਾਵਾਂ ਨੂੰ ਕਾਪੀ ਅਤੇ ਲੌਂਚ ਕਰੋ।",
+        "ਨਵਾਂ: ਬੈਕ ਪ੍ਰੋਟੀਨ ਨੂੰ ਮਿਟਾਇਆ ਜਾ ਸਕਦਾ ਹੈ।",
+        "ਨਵਾਂ: ਵਿਸ਼ੇਸ਼ਤਾ ਪੈਨਲ ਆਪਣੇ ਆਪ ਨੂੰ ਕਿਨਾਰੇ ਤੱਕ ਲੁਕਾ ਸਕਦਾ ਹੈ ਅਤੇ ਜਦੋਂ ਤੁਸੀਂ ਇਸ ਨੂੰ ਪਹੁੰਚ ਸਕਦੇ ਹੋ ਤਾਂ ਸਲਾਇਡ ਕਰੋ।",
+        "ਸਥਿਰ: ਲੇਆਉਟ ਕਾਗਜ ਦਾ ਆਕਾਰ — viewport ਸਕੇਲ ਮਾਡਲ ਪ੍ਰਤੀ ਯੂਨਿਟ ਮਿਲੀਮੀਟਰ ਵਿੱਚ ਸਧਾਰਣ ਕੀਤਾ, ਸਾਜ਼ੋ ਮੁੜ ਪ੍ਰਕਾਸ਼ਮਾਨ, ਇੱਕ ਹੀ ਮੁਆਵਜ਼ਾ ਲੇਅ-ਅਲ ਪ੍ਰਾਲੰਬ ਗਰਾਉਂਸ ਅਤੇ ਇੱਕ ਲੇਆਉਟ viewport ਬਗੈਰ ਇੱਕ synthesized ਪ੍ਰਾਪਤ ਕਰਦਾ ਹੈ।",
+        "ਸਥਿਰ: ਪਤਲੀਆਂ ਲਾਈਨਾਂ ਅਤੇ ਡਿਫਾਲਟ-ਵਜ਼ਨ ਲਾਈਨਾਂ ਘੱਟ DPI 'ਤੇ ਬਹੁਤ ਮੋਟੀਆਂ ਪ੍ਰਿੰਟ ਹੁੰਦੀਆਂ ਸਨ, ਅਤੇ ਪ੍ਰਿੰਟ ਮੈਨੇਜਰ ਚੁੱਪਚਾਪ ਇੱਕ ਇਕਾਈ ਨੂੰ ਹਟਾ ਦਿੰਦਾ ਸੀ ਜੋ ਪੂਰੀ ਤਰ੍ਹਾਂ ਧੁਰਾ-ਅਲਾਈਨਡ ਸੀ।",
+      ],
+    },
     {
       title: "ਆਰਕ ਤੇ ਪੌਲੀਲਾਈਨ ਲਈ Fillet; Export Manager ਦਾ ਨਵਾਂ ਡਿਜ਼ਾਈਨ",
       highlights: [
@@ -8073,6 +8721,34 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
   sv: [
     {
+      title: "Allt exporteras till DXF; Exporthanteraren väljer vad som ska med",
+      highlights: [
+        "DXF-export är inte längre bara geometri. Text, dimensioner, ledare och skraveringar går nu in i filen, så en kommenterad ritning kommer kommenterad istället för att reduceras till bara linjer.",
+        "Text exporteras som MTEXT och behåller formatering per körning — typsnitt, höjd, fetstil, kursiv, understreck och genomstruken.",
+        "Dimensioner exporteras som standard DIMENSION-entiteter: linjär, justerad, fortsatt, radie, diameter och vinklad.",
+        "Ledare exporteras som MULTILEADER, med landningssegment och textbilaga skriven där andra verktyg förväntar sig att hitta dem.",
+        "Skraveringar exporteras som HATCH, med mönsternamn, skala, vinkel och ursprung. De lösta mönsterlinjerna går också inbäddade, så ett verktyg som aldrig hört talas om ditt mönster ritar det ändå korrekt.",
+        "Exporthanteraren ombyggd som en enda lista: varje entitetstyp i ritningen med sitt antal vid sidan av och en Inkludera-kryssruta, plus välj alla. Avmarkera Text, dimensionsrader, Ledare och Skraveringar och det som laddas ner är bara skuren geometri.",
+        "Nytt: KulmanLab kan installeras från webbläsaren som en app.",
+        "Åtgärdat: exporter som andra verktyg vägrade att öppna — exponentiella flyttal, ett dåligt Defpoints-plotflagga och ett tomt pilspettsblock. En enda felaktig entitet annullerar inte längre hela exporten.",
+        "Åtgärdat: en lång lista med tur-och-retur-buggar — dimensionstexthöjd, position och typsnittsöverskrivningar, uppmätt vinkel och pilstilar, samt ellipser och skraveringar som avvisades när deras axelförhållande översteg 1.",
+      ],
+    },
+    {
+      title: "Skriv ett exakt avstånd från en stift i varje kommando",
+      highlights: [
+        "Nytt: direkt avståndsöppning. Lås riktningen från en stift, skriv avståndet och punkten landar precis där — ingen dragning och ingen aritmetik.",
+        "Det täcker nu i huvudsak alla kommandon som ber om en punkt: Linje, Polylinje, Båge, Cirkel, Ellips, Rektangel, båda Spline-lägen, Area, Avstånd, Vinkel, Flytta, Kopiera, Rotera, Skala, Spegla, Justera, Text, varje dimension, Ledare och Ändra utskriftsarea.",
+        "Handtagsredigering följde också med — ta tag i ett handtag, lås riktningen och skriv den exakta förskjutningen.",
+        "Stiften-listrutan är nu en enkel Dist-växel bredvid den, och ANGL- och Stiften-pilarna vänds när deras menyer öppnas.",
+        "Nytt: kopiera och klistra in entiteter mellan webbläsarflikar.",
+        "Nytt: oanvända lager kan raderas.",
+        "Nytt: egenskapspanelen kan automatiskt gömma sig till kanten och glida tillbaka när du når den.",
+        "Åtgärdat: layoutpappersstorlek — visningsportförhållande normaliserat till millimeter per modellenhet, ritrotation respekterad, okonfigurerad layout standardlandskap, och layout utan visningsport får en syntetiserad.",
+        "Åtgärdat: hårlinjer och linjer med standardvikt skrevs ut för tjockt vid lägre DPI, och Utskriftshanteraren tog tyst bort en entitet som var perfekt axeljusterad.",
+      ],
+    },
+    {
       title: "Fillet för bågar och polylinjer; omgjord Export Manager",
       highlights: [
         "Fillet fungerar nu på Arc- och Polyline-segment, inte bara Line — välj två så rundas hörnet på plats.",
@@ -8441,6 +9117,34 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
   tl: [
+    {
+      title: "Lahat ay nag-export sa DXF; Ang Export Manager ay pumipili kung ano ang pumasok",
+      highlights: [
+        "Ang DXF export ay hindi na geometry lamang. Ang text, dimensyon, mga lider at hatching ay napupunta na sa file, kaya ang isang anotadong pagguhit ay dumadating na may anotasyon sa halip na mabawasan sa mga hubad na linya.",
+        "Ang teksto ay ine-export bilang MTEXT at pinapanatili ang pag-format bawat run — font, taas, bold, italic, underline at strikethrough.",
+        "Ang mga dimensyon ay ine-export bilang standard na mga entity ng DIMENSION: linear, aligned, continued, radius, diameter at angular.",
+        "Ang mga lider ay ine-export bilang MULTILEADER, na may segment ng paglapag at pag-attach ng teksto na isinulat kung saan inaasahan ng ibang mga tool na hanapin ang mga ito.",
+        "Ang mga hatching ay ine-export bilang HATCH, na nagdadala ng pangalan ng pattern, scale, angle at origin. Ang nalutas na mga linya ng pattern ay napupunta rin sa inline, kaya ang isang tool na hindi pa kailanman narinig tungkol sa iyong pattern ay patuloy na iguhit ito nang tama.",
+        "Ang Export Manager ay muling itinayo bilang isang listahan: bawat uri ng entity sa pagguhit na may bilang sa tabi at isang Kasama checkbox, plus piliin lahat. Alisin ang markahan mula sa Text, mga row ng dimensyon, Mga lider at Hatching at kung ano ang dina-download ay kumusot na geometry lamang.",
+        "Bago: Ang KulmanLab ay maaaring i-install mula sa browser bilang isang app.",
+        "Naayos: mga pag-export na nilaban ng ibang mga tool na buksan — exponential floats, isang masamang Defpoints plot flag at isang blangkong arrowhead block. Isang distorted entity ay hindi na nakakabatala sa buong export.",
+        "Naayos: mahabang listahan ng mga bug na pabalik-balik — taas ng teksto ng dimensyon, posisyon at pag-override ng font, sinukat na anggulo at estilo ng arrow, at mga ellipse at hatching na tinanggihan noong ang ratio ng axis nito ay lumampas sa 1.",
+      ],
+    },
+    {
+      title: "Magtype ng eksaktong distansya mula sa pin sa bawat utos",
+      highlights: [
+        "Bago: direktang pagpasok ng distansya. I-lock ang direksyon mula sa pin, i-type ang distansya at ang punto ay umabot doon — walang pag-drag at walang arithmetic.",
+        "Ito ay sumasaklaw sa kahalagahan sa bawat utos na humihingi ng isang punto: Line, Polyline, Arc, Circle, Ellipse, Rectangle, parehong Spline modes, Area, Distance, Angle, Move, Copy, Rotate, Scale, Mirror, Align, Text, bawat dimensyon, Lider at Baguhin ang Print Area.",
+        "Ang pagpapapabuti ng hawakan ay dumating din — kumuha ng hawakan, i-lock ang direksyon at i-type ang eksaktong displacement.",
+        "Ang Pins dropdown ay isang simpleng Dist toggle sa tabi nito, at ang ANGL at Pins arrows ay umiikot kapag ang kanilang mga menu ay bumubukas.",
+        "Bago: kopyahin at i-paste ang mga entity sa pagitan ng mga tab ng browser.",
+        "Bago: ang mga hindi ginagamit na layer ay maaaring alisin.",
+        "Bago: ang properties panel ay maaaring awtomatikong nagtago sa gilid at magsalita pabalik kapag aabot mo ito.",
+        "Naayos: antas ng papel ng layout — viewport scale normalized sa millimeters bawat yunit ng model, plot rotation honored, unconfigured layout default landscape, at layout walang viewport ay nakakakuha ng isang synthesized.",
+        "Naayos: ang mga hairline at default-weight na linya ay naiprinta nang masyadong makapal sa mas mababang DPI, at tahimik na tinanggal ng Print Manager ang isang entity na perpektong axis-aligned.",
+      ],
+    },
     {
       title: "Fillet para sa arc at polyline; bagong disenyo ng Export Manager",
       highlights: [
@@ -8812,6 +9516,34 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
 
   nl: [
     {
+      title: "Alles wordt naar DXF geëxporteerd; Export Manager kiest wat erin gaat",
+      highlights: [
+        "DXF-export is niet langer alleen meetkunde. Tekst, afmetingen, leidlijnen en arcering gaan nu in het bestand, dus een geannoteerde tekening komt geannoteerd aan in plaats van te worden teruggebracht tot blote lijnen.",
+        "Tekst wordt als MTEXT geëxporteerd en behoudt opmaak per uitvoering — lettertype, hoogte, vet, cursief, onderstreping en doorhaling.",
+        "Afmetingen worden als standaard DIMENSION-entiteiten geëxporteerd: lineair, uitgelijnd, voortgezet, straal, diameter en hoekig.",
+        "Leidlijnen worden als MULTILEADER geëxporteerd met landsegment en tekstkoppeling waar andere gereedschappen ze verwachten.",
+        "Arcering wordt als HATCH geëxporteerd met paternnaam, schaal, hoek en oorsprong. De opgeloste patroonlijnen gaan ook inline, dus een gereedschap dat nog nooit van uw patroon heeft gehoord, tekent het correct.",
+        "Export Manager opnieuw opgebouwd als enkele lijst: elk entiteittype in de tekening met het aantal en een selectievakje Opnemen, plus alles selecteren. Schakel Tekst, afmetingsrijen, Leidlijnen en Arcering uit en wat wordt gedownload is pure meetkunde.",
+        "Nieuw: KulmanLab kan vanuit de browser als app worden geïnstalleerd.",
+        "Opgelost: exports die andere gereedschappen weigerden te openen — exponentiële drijvende punten, slechte Defpoints-plotvlag en leeg pijlblok. Een enkele misvormde entiteit beëindigt de gehele export niet langer.",
+        "Opgelost: een lange lijst met retourfouten — hoogte van afmetingstekst, positie en lettertype-overschrijvingen, gemeten hoek en pijlstijlen, en ellipsen en arceringen die werden afgewezen wanneer hun asverhouding boven 1 uitkwam.",
+      ],
+    },
+    {
+      title: "Typ een exacte afstand van een speld in elk commando",
+      highlights: [
+        "Nieuw: rechtstreeks afstandsinvoer. Vergrendel de richting vanaf een speld, typ de afstand en het punt landt precies daar — geen slepen en geen rekenen.",
+        "Het dekt nu in feite elk commando af dat een punt vraagt: Line, Polyline, Arc, Circle, Ellipse, Rectangle, beide Spline-modi, Area, Distance, Angle, Move, Copy, Rotate, Scale, Mirror, Align, Text, elke afmeting, leidlijn en ChangePrintArea.",
+        "Greepbewerking kwam ook mee — grijp een greep, vergrendel de richting en typ de exacte verschuiving.",
+        "De Spelden-vervolgkeuzelijst is nu een eenvoudige Dist-schakelaar ernaast en de ANGL- en Spelden-pijlen schakelen om wanneer hun menu's openen.",
+        "Nieuw: entiteiten kopiëren en plakken tussen browsertabbladen.",
+        "Nieuw: ongebruikte lagen kunnen worden verwijderd.",
+        "Nieuw: het eigenschaftenvenster kan automatisch naar de rand verbergen en terugglijden wanneer u het bereikt.",
+        "Opgelost: grootte van lay-outpapier — viewportschaal is genormaliseerd naar millimeters per modellenheid, plotrotatie wordt nageleefd, een niet-geconfigureerde indeling staat standaard op liggend en een indeling zonder viewport krijgt een gesynthetiseerde.",
+        "Opgelost: haarlijnen en lijnen met standaardgewicht werden te dik afgedrukt bij een lagere DPI, en Afdrukbeheer verwijderde stilletjes een entiteit die perfect as-uitgelijnd was.",
+      ],
+    },
+    {
       title: "Fillet voor bogen en polylijnen; vernieuwde Export Manager",
       highlights: [
         "Fillet werkt nu op Arc- en Polyline-segmenten, niet alleen Line — kies er twee en de hoek wordt ter plekke afgerond.",
@@ -9181,6 +9913,34 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
 
   he: [
+    {
+      title: "הכל מיוצא ל-DXF; מנהל הייצוא בוחר מה נכנס",
+      highlights: [
+        "ייצוא DXF כבר לא רק גיאומטריה. טקסט, מידות, קווי הנחיה והצללות הולכות עכשיו לקובץ, כך שציור מעולי מוסברת מגיע מעולה במקום להיות מורד לקווים חשופים.",
+        "הטקסט מיוצא כ-MTEXT ושומר על עיצוב לכל ריצה — גופן, גובה, מודגש, נטוי, קו תחתון וחציית.",
+        "מידות מיוצאות כ-DIMENSION ישויות סטנדרטיות: ליניארי, מיושר, רציף, רדיוס, קוטר וזווית.",
+        "קווי הנחיה מיוצאים כ-MULTILEADER עם קטע נחיתה ועגינת טקסט איפה שכלים אחרים מצפים להם.",
+        "הצללות מיוצאות כ-HATCH עם שם דפוס, קנה מידה, זווית ומקור. שורות הדפוס שנפתרו הולכות גם לאינליין, כך שכלי שמעולם לא שמע על הדפוס שלך מצייר אותו כראוי.",
+        "מנהל הייצוא בנוי מחדש כרשימה אחת: כל סוג ישות בציור עם הספירה שלה וקופסת בדיקה לכללה, בתוספת בחר הכל. בטל את הבחירה בטקסט, שורות מידות, קווי הנחיה והצללות ומה שמתבצע הוא גיאומטריה טהורה.",
+        "חדש: ניתן להתקין את KulmanLab מהדפדפן כאפליקציה.",
+        "תוקן: ייצוא שכלים אחרים סירבו לפתוח — צפים אקספוננציאליים, דגל Defpoints plot רע וחסום חץ ריק. ישות אחת ממורמת לא מבטלת עוד את כל הייצוא.",
+        "תוקן: רשימה ארוכה של באגים הלוך ושוב — גובה טקסט המידה, מיקום ועקיפות גופן, זווית נמדדת וסגנונות חץ, ואליפסות והצללות שנדחו כאשר יחס הצירים שלהן חרג מ-1.",
+      ],
+    },
+    {
+      title: "הקלד מרחק מדויק מסיכה בכל פקודה",
+      highlights: [
+        "חדש: הזנת מרחק ישיר. נעל כיוון מסיכה, הקלד את המרחק והנקודה נוחתת בדיוק שם — ללא גרירה וללא חשבון.",
+        "הוא כעת מכסה בעצם כל פקודה המבקשת נקודה: Line, Polyline, Arc, Circle, Ellipse, Rectangle, שני מצבי Spline, Area, Distance, Angle, Move, Copy, Rotate, Scale, Mirror, Align, Text, כל מימד, הנחיה ו-ChangePrintArea.",
+        "עריכת אחיזה באה גם כן — תפוס אחיזה, נעל כיוון והקלד את ההעתקה המדויקת.",
+        "רשימה הנפתחת Pins היא כעת טוגל Dist פשוט לידו וחצים ANGL ו-Pins הפוכים כאשר התפריטים שלהם נפתחים.",
+        "חדש: העתק והדבק ישויות בין כרטיסיות דפדפן.",
+        "חדש: ניתן למחוק שכבות שלא בשימוש.",
+        "חדש: לוח המאפיינים יכול להסתתר באופן אוטומטי לקצה ולשקע בחזרה כשאתה משיג אותו.",
+        "תוקן: גודל נייר פריסה — קנה מידה נוף מנורמל למ\"מ ליחידת מודל, סיבוב חלקה נשמר, פריסה לא מוגדרת משמש כברירת מחדל לנוף וקטגוריה ללא נוף מקבלת חדש סינתטי.",
+        "תוקן: קווי שיער וקווי משקל ברירת מחדל הודפסו עבים מדי ב-DPI נמוך יותר, ומנהל ההדפסה מחק בשקט ישות שהיתה מיושרת בצורה מושלמת לציר.",
+      ],
+    },
     {
       title: "Fillet לקשתות ולפוליליינים; עיצוב מחדש של Export Manager",
       highlights: [
@@ -9552,6 +10312,34 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
 
   ha: [
     {
+      title: "Duk abubuwa suna kasua zuwa DXF; Gudanar Kasua yana zabar abin da zai shiga",
+      highlights: [
+        "Kasua DXF ba lallai ba ne kawai geometry. Rubutu, ma'auni, jagora da hejoje suna shiga cikin fayil a yanzu, don haka zane da sano zai zo da sano maimakon rage zuwa layin tsaro.",
+        "Rubutu yana kasua azaman MTEXT kuma ya riƙe sakamako da doka — font, tsayi, jajajje, italik, gida da yanke.",
+        "Ma'auni yana kasua azaman standard DIMENSION entities: layi, daidaita, ci gaba, radius, diamita kuma angular.",
+        "Jagora yana kasua azaman MULTILEADER tare da yanke-saurin kashi kuma damre rubutu inda sauran kayan aiki suke gida.",
+        "Hejoje yana kasua azaman HATCH tare da suna alkyabbar, sikeli, kwana kuma asali. Kuma reshen alkyabbar layi suna shiga a jiyya, don haka kayan aiki wanda ba ya taɓa ji wa alkyabbarka yana zana shi daidai.",
+        "Gudanar Kasua wanda aka gina saboda jeri gida: kowane nau'in entity a zane tare da lissafi kuma akwatin Haɗa, kuma zaɓa duk. Cire alamar Rubutu, jeri ma'auni, Jagora kuma Hejoje kuma abin da aka saki jiya ne geometry kawai.",
+        "Sabon: KulmanLab za a iya shigarwa daga browser azaman aikace.",
+        "Gyara: kasuwa wanda sauran kayan aiki ba su yarda da fifi — exponensial floats, mummunan Defpoints plot flag kuma empty arrowhead block. Canja gida entity ba ta kaifa kasua gida ba.",
+        "Gyara: dogon jerin kwaruruwa na komawa-da-zuwa — tsayin rubutu na ma'auni, matsayi kuma sokewar font, kwana da aka auna kuma salon kibiya, kuma ellipses da hejoje da aka ki lokacin da ratio na axis ta wuce 1.",
+      ],
+    },
+    {
+      title: "Rubutu ainihi nisa daga jeeza, a kowane umarnin",
+      highlights: [
+        "Sabon: jere saurin rubutu da saurin. Danna jagora daga jeeza, rubutu nisan kuma jiya ya ci gaba ainihin wurin - ba tulle ba kuma ba lissafi ba.",
+        "Ya rubutu a yanzu kusan kowane umurnin da ya tambaya jiya: Line, Polyline, Arc, Circle, Ellipse, Rectangle, dukan Spline sigar, Area, Distance, Angle, Move, Copy, Rotate, Scale, Mirror, Align, Text, kowane ma'auni, jagora kuma ChangePrintArea.",
+        "Jiyar muhaɗar ta zo kuma - ɗiba grip, danna jagora kuma rubutu saurin saurin ainihi.",
+        "Jeeza bugun shine yanzu saurin jere Dist gida kuma ANGL kuma Jeeza kibiya flip lokacin da ke buɗe menyu.",
+        "Sabon: ko'i kuma paste entity tsakanin browser tabs.",
+        "Sabon: jeri da ba sa amfani za a iya goge.",
+        "Sabon: properties panel za ya iya rufe atomatik zuwa gida kuma kimga baya lokacin da ke rufe shi.",
+        "Gyara: layout takarda girma - viewport sikeli normal zuwa millimeters bisa model unit, plot rotation la'akari, ba saiti ba layout default zuwa landscape kuma layout ba viewport ba ya sami synthesis.",
+        "Gyara: layukan gashi da layukan nauyi na default an buga su da kauri sosai a DPI kasa, kuma Manajan Buga ya share shiru entity wanda ya kasance daidai da axis.",
+      ],
+    },
+    {
       title: "Fillet don baka da polyline; sabon tsarin Export Manager",
       highlights: [
         "Fillet yanzu yana aiki a kan sassan Arc da Polyline, ba Line kaɗai ba — zaɓi biyu sai kusurwa ta zagaye a wurin.",
@@ -9921,6 +10709,34 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
 
   no: [
+    {
+      title: "Alt eksporteres til DXF; Eksportbehandler velger hva som skal inn",
+      highlights: [
+        "DXF-eksport er ikke lenger bare geometri. Tekst, dimensjoner, ledere og skraveringar går nå inn i filen, så en kommentert tegning ankommer kommentert i stedet for å bli redusert til bare linjer.",
+        "Tekst eksporteres som MTEXT og beholder formatering per kjøring — skrifttype, høyde, fett, kursiv, understrek og gjennomstreket.",
+        "Dimensjoner eksporteres som standard DIMENSION-enheter: lineær, justert, fortsatt, radius, diameter og vinklet.",
+        "Ledere eksporteres som MULTILEADER med landingssegment og teksttilknytning der andre verktøy forventer dem.",
+        "Skraveringar eksporteres som HATCH med mønsternavn, skala, vinkel og opprinnelse. De oppløste mønsterlinjene går også inline, slik at et verktøy som aldri har hørt om mønsteret ditt tegner det riktig.",
+        "Eksportbehandler ombygget som en enkelt liste: hver enhettype i tegningen med sitt antall og en Inkluder-avkryssingsboks, pluss velg alle. Fjern merket fra Tekst, dimensjonsrader, Ledere og Skraveringar og det som lastes ned er ren geometri.",
+        "Nytt: KulmanLab kan installeres fra nettleseren som en app.",
+        "Fikset: eksporter som andre verktøy nektet å åpne — eksponentielle flytere, dårlig Defpoints plot-flagg og tomt piltlokk. En enkelt feilformet enhet avbryter ikke lenger hele eksporten.",
+        "Fikset: en lang liste med tur-retur-feil — dimensjonstekst høyde, posisjon og skriftoverstyringer, målt vinkel og pilstiler, og ellipser og skraveringer som ble avvist når akseforholdet deres overskred 1.",
+      ],
+    },
+    {
+      title: "Skriv en nøyaktig avstand fra en stift i hver kommando",
+      highlights: [
+        "Nytt: direkte avstands inngang. Lås retningen fra en stift, skriv avstanden og punktet lander nøyaktig der — ingen dra og ingen regnestykker.",
+        "Det dekker nå i utgangspunktet hver kommando som ber om et punkt: Line, Polyline, Arc, Circle, Ellipse, Rectangle, begge Spline-modier, Area, Distance, Angle, Move, Copy, Rotate, Scale, Mirror, Align, Text, hver dimensjon, leder og ChangePrintArea.",
+        "Gripperedigering kom også med — ta tak i en grep, lås retningen og skriv den nøyaktige forskyvningen.",
+        "Stift-rullelisten er nå en enkel Dist-bryter ved siden av den, og ANGL- og Stift-piler flipper når menyene deres åpnes.",
+        "Nytt: kopier og lim inn enheter mellom nettleserfaner.",
+        "Nytt: ubrukte lag kan slettes.",
+        "Nytt: egenskapspanelet kan automatisk gjemmes til kanten og glide tilbake når du når det.",
+        "Fikset: layout papirstørrelse — viewport-skala normalisert til millimeter per modellenheten, plotrotasjon ære, et ikke-konfigurert oppsett standard til landskapet og et oppsett uten viewport får en syntetisert.",
+        "Fikset: hårstreklinjer og linjer med standardvekt ble skrevet ut for tykt ved lavere DPI, og Utskriftsbehandler slettet stille en enhet som var perfekt akse-justert.",
+      ],
+    },
     {
       title: "Fillet for buer og polylinjer; omarbeidet Export Manager",
       highlights: [
@@ -10292,6 +11108,34 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
 
   da: [
     {
+      title: "Alt eksporteres til DXF; Eksportmanager vælger hvad der kommer med",
+      highlights: [
+        "DXF-eksport er ikke længere kun geometri. Tekst, dimensioner, ledetråde og skraveringer går nu ind i filen, så en kommenteret tegning ankommer kommenteret i stedet for at blive reduceret til bare linjer.",
+        "Tekst eksporteres som MTEXT og bevarer formatering pr. kørslet — skrifttype, højde, fed, kursiv, understregning og gennemstreg.",
+        "Dimensioner eksporteres som standard DIMENSION-enheder: lineær, justeret, fortsat, radius, diameter og vinklet.",
+        "Ledetråde eksporteres som MULTILEADER med landingssegment og teksttilslutning hvor andre værktøjer forventer dem.",
+        "Skraveringer eksporteres som HATCH med mønstetnavn, skala, vinkel og oprindelse. De opløste mønstertlinjer går også inline, så et værktøj der aldrig har hørt om dit mønster tegner det korrekt.",
+        "Eksportmanager genopbygget som en enkelt liste: hver enhedstype i tegningen med dens antal og en Inkluderet-afkrydsning, plus vælg alle. Fjern markeringen fra Tekst, dimensionsrækker, Ledetråde og Skraveringer og hvad der hentes er ren geometri.",
+        "Nyt: KulmanLab kan installeres fra browseren som en app.",
+        "Fixet: eksporter som andre værktøjer nægtede at åbne — eksponentielle flydere, dårligt Defpoints plot-flag og tomt pilblok. En enkelt misdannet enhed afbryder ikke længere hele eksporten.",
+        "Fixet: en lang liste over tur-retur-fejl — dimensionstekst højde, position og skrifttypeoverskrivninger, målt vinkel og pilestile, og ellipser og skraveringer, der blev afvist, når deres akseforhold oversteg 1.",
+      ],
+    },
+    {
+      title: "Skriv en nøjagtig afstand fra en pin i hver kommando",
+      highlights: [
+        "Nyt: direkte afstandsinput. Låse retningen fra en pin, skriv afstanden, og punktet lander præcist der — ingen træk og ingen regning.",
+        "Det dækker nu stort set hver kommando der beder om et punkt: Line, Polyline, Arc, Circle, Ellipse, Rectangle, begge Spline-tilstande, Area, Distance, Angle, Move, Copy, Rotate, Scale, Mirror, Align, Text, hver dimension, ledetråd og ChangePrintArea.",
+        "Grip-redigering kom også med — grib et greb, lås retningen og skriv den nøjagtige forskydning.",
+        "Pins-rullelisten er nu et almindeligt Dist-skifte ved siden af det, og ANGL- og Pins-pile vender om når deres menuer åbnes.",
+        "Nyt: kopier og indsæt enheder mellem browserfaner.",
+        "Nyt: ubrugte lag kan slettes.",
+        "Nyt: egenskabspanelet kan automatisk skjule sig til kanten og glide tilbage når du når efter det.",
+        "Fixet: layoutpapirstørrelse — viewport-skala normaliseres til millimeter pr. modelenhed, plotrotation honoreres, et ikke-konfigureret layout svarer til landscape, og et layout uden viewport får en syntetiseret.",
+        "Fixet: hårlinjer og linjer med standardvægt blev printet for tykke ved lavere DPI, og Udskriftshåndtering fjernede stille en enhed, der var perfekt akse-justeret.",
+      ],
+    },
+    {
       title: "Fillet til buer og polylinjer; nydesignet Export Manager",
       highlights: [
         "Fillet virker nu på Arc- og Polyline-segmenter, ikke kun Line — vælg to, og hjørnet afrundes på stedet.",
@@ -10661,6 +11505,34 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
   ],
 
   fi: [
+    {
+      title: "Kaikki viedään DXF:ään; Vientihallinta valitsee mitä menee",
+      highlights: [
+        "DXF-vienti ei ole enää pelkkää geometriaa. Teksti, mitat, apuviivat ja varjostukset menevät nyt tiedostoon, joten merkitty piirustus saapuu merkittynä sen sijaan että se pienennetään pelkiksi viivoiksi.",
+        "Teksti viedään MTEXT-muodossa ja säilyttää muotoilun suorituksittain — fontti, korkeus, lihavointi, kursivointi, alleviivaus ja yliviivaus.",
+        "Mitat viedään vakio DIMENSION-entiteetteina: lineaarinen, linjassa, jatkuva, säde, halkaisija ja kulmainen.",
+        "Apuviivat viedään MULTILEADER-muodossa laskeutumissegmentti ja tekstiliitäntä siihen missä muut työkalut ne odottavat.",
+        "Varjostukset viedään HATCH-muodossa kuviolla, mittakaavalla, kulmalla ja alkuperällä. Ratkaistut kuvioviivat menevät myös sisäisesti, joten työkalu joka ei ole koskaan kuullut kuviostasi piirtää sen oikein.",
+        "Vientihallinta uudelleenrakennettu yhtenä luettelona: jokainen entiteetin tyyppi piirustuksessa laskentoineen ja Sisällytä-valintaruutu, plus valitse kaikki. Poista merkintä Tekstistä, mitariveistä, Apuviivoista ja Varjostuksista ja mitä ladataan on puhdasta geometriaa.",
+        "Uutta: KulmanLab voidaan asentaa selaimesta sovelluksena.",
+        "Korjattu: vienti joita muut työkalut kieltäytyivät avaamasta — eksponentiaaliset kelluvat luvut, huono Defpoints-piirtolippu ja tyhjä nuolilohko. Yksittäinen väärin muotoiltu entiteetti ei enää keskeytä koko vientiä.",
+        "Korjattu: pitkä lista edestakaisia virheitä — mitan tekstin korkeus, sijainti ja fontin ohitukset, mitattu kulma ja nuolityylit, sekä ellipsit ja varjostukset, jotka hylättiin, kun niiden akselisuhde ylitti 1.",
+      ],
+    },
+    {
+      title: "Kirjoita tarkka etäisyys pinnista jokaiseen komentoon",
+      highlights: [
+        "Uutta: suora etäisyyden syöttö. Lukitse suunta pinnista, kirjoita etäisyys ja piste laskeutuu tarkalleen sinne — ei vetämistä eikä laskentaa.",
+        "Se kattaa nyt oleellisesti jokaisen komennon joka pyytää pistettä: Line, Polyline, Arc, Circle, Ellipse, Rectangle, molemmat Spline-tilat, Area, Distance, Angle, Move, Copy, Rotate, Scale, Mirror, Align, Text, jokainen mitta, apuviiva ja ChangePrintArea.",
+        "Kahvan muokkaus tuli myös mukaan — tartu kahvaan, lukitse suunta ja kirjoita tarkka siirtymä.",
+        "Pinni-alasvetolista on nyt yksinkertainen Dist-kytkin sen vieressä ja ANGL ja Pinni-nuolet kääntyvät kun niiden valikot avautuvat.",
+        "Uutta: kopioi ja liitä entiteetit selainten välillä.",
+        "Uutta: käyttämättömiä kerroksia voidaan poistaa.",
+        "Uutta: ominaisuuspaneeli voi piiloutua automaattisesti reunaan ja liukua takaisin kun tavoitat sitä.",
+        "Korjattu: asettelun paperikoko — näkymän mittakaava normalisoitu millimetreiksi malliyksiköä kohden, piirtorotaatio kunnioitettu, määrittämätön asettelu oletuksena vaaka-asennossa ja asettelu ilman näkymää saa syntetisoidun.",
+        "Korjattu: hiusviivat ja oletuspainoiset viivat tulostuivat liian paksuina alemmalla DPI:llä, ja Tulostuksenhallinta poisti hiljaa kohteen, joka oli täysin akselinmukainen.",
+      ],
+    },
     {
       title: "Fillet kaarille ja polylineille; uudistettu Export Manager",
       highlights: [
