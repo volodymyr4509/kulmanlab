@@ -255,11 +255,13 @@ KulmanLab is a free, browser-based 2D CAD editor. No installation, no account, n
 - Grip editing on all entity types — drag endpoints, midpoints, arc ends, dimension text
 - Snapping: endpoint, midpoint, center, intersection, perpendicular, tangent, nearest, grid
 - Angle tracking with configurable increments (10°, 15°, 20°, 30°, 45°, 90°)
-- Vector pins: hover a snap point to pin it and track along its reference lines
+- Vector pins with distance tracking: pin a snap point, lock a direction, then type an exact length — places a point at a precise distance with no dragging, rolled out to nearly every command that asks for a point
 - Layout / paper space with multiple layouts and viewport editing
 - Print manager: PDF and PNG/WebP export with DPI control
 - On-canvas text editing (MTEXT) with Bold, Italic, per-character font and size
 - Font Manager: browse built-in and Google Fonts, or upload custom .ttf files
+- DXF export carries geometry, text (MTEXT), dimensions, leaders, and hatches, each with its own per-entity-type checklist
+- Installable from the browser as a PWA
 - Undo/redo history
 - Adaptive CAD grid with snap-to-grid
 
@@ -283,7 +285,7 @@ In your browser's IndexedDB on your own device. Nothing is uploaded to a server.
 Saved drawings are lost. Export a DXF copy of anything important before clearing browser storage.
 
 **Which export formats are available?**
-DXF and JSON via Export — DXF for round-tripping with other CAD tools (dimensions, multileaders, and hatches are not included), JSON for full-fidelity saves within KulmanLab. Print separately exports PDF and PNG/WebP for print-ready output.
+DXF and JSON via Export Manager — both carry every entity type (geometry, text with formatting, dimensions, leaders, hatches, layers, linetypes), each with its own checklist of entity types so either export can leave types out without affecting the other. DXF is for round-tripping with other CAD tools, JSON for full-fidelity saves within KulmanLab. Print separately exports PDF and PNG/WebP for print-ready output.
 
 **Are KulmanLab DXF files compatible with other software?**
 Yes. AC1032 DXF opens correctly in LibreCAD, QCAD, BricsCAD, FreeCAD, and any DXF-capable tool.

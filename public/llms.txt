@@ -281,7 +281,8 @@ It is designed for engineers, architects, and technical illustrators who need a 
 - Layout / paper space with multiple layouts and viewport editing
 - ISO 5455 scale selector for viewports
 - Print manager: PDF and PNG/WebP export with a Draft/Normal/Presentation/Max Quality (DPI) setting; preview renders through the exact same path as the export, so what you see is what downloads
-- DXF import and export (compatible with LibreCAD, QCAD, BricsCAD, FreeCAD)
+- DXF import and export — geometry, text (MTEXT), dimensions, leaders, and hatches all round-trip, compatible with LibreCAD, QCAD, BricsCAD, FreeCAD
+- Installable from the browser as a PWA — works like a native app, no app store needed
 - Match Properties command (copy color, layer, linetype, lineweight)
 - ClipboardCopy / ClipboardPaste (Ctrl+C / Ctrl+V) — copy entities to the system clipboard as JSON and paste them into another drawing or another browser tab; referenced layers and linetypes travel with them
 - Properties panel showing entity details
@@ -354,17 +355,14 @@ Cookies are used for Google Analytics, which collects anonymous usage metrics (p
 
 ## Recent releases
 
-**June 2026 — New website, landing page, docs & FAQ**
-Brand-new landing page at kulmanlab.com with screenshot carousel, feature grid, comparison table, and workflow overview. Command reference docs at kulmanlab.com/docs. FAQ page. This changelog. llms.txt and llms-full.txt for AI assistants.
+**September 2026 — Everything exports to DXF; Export Manager picks what goes in**
+DXF export is no longer geometry-only — text, dimensions, leaders, and hatches all round-trip now, each carrying its own formatting, pattern, or attachment data. Export Manager rebuilt as a single checklist of every entity type in the drawing with its count, so any type can be left out of an export without touching the others. The app can now be installed from the browser as a PWA. A long list of DXF round-trip and malformed-entity bugs fixed along the way.
 
-**June 2026 — Text editor polish & web fonts**
-Text mirror adjusts rotation and attachment point for readability. Web fonts in the text editor font picker. Cursor height matches text size. Strikethrough in text toolbar. Per-row line height and per-character text height/font (MTEXT). MTEXT frame sizing and live resize grip. Text editing creates a single undo entry on close.
+**August 2026 — Type an exact distance from a pin, in every command**
+Direct distance entry: lock a direction from a pinned point, type the distance, and the point lands exactly there — no dragging, no arithmetic. Rolled out to essentially every command that asks for a point (Line, Polyline, Arc, Circle, Ellipse, Rectangle, Splines, Move, Copy, Rotate, Scale, Mirror, Align, Text, every dimension, Leader, and more), plus grip editing. Cross-tab clipboard copy/paste, layer deletion for unused layers, and an auto-hiding properties panel also shipped.
 
-**June 2026 — On-canvas text editing**
-Edit text directly on the canvas with a blinking caret. Text selection with Shift+Arrow, click, click-drag. I-beam cursor while text editor is active. Bold/Italic toolbar with cursor-aware active state. MTEXT wrap frame with four resize grips.
-
-**June 2026 — Angle tracking, snap-to-grid & MTEXT**
-Configurable angle tracking (10°–90°) with arc indicator. Snap-to-grid toggle with dot grid at intersections. Grid dots on layout paper space. Custom scale input for viewport dropdown. Multi-line MTEXT parsing and rendering. Adaptive coordinate display precision.
+**August 2026 — Fillet for arcs & polylines; Export Manager redesign**
+Fillet now works on Arc and Polyline segments, not just Line. Filleting two polylines (or a polyline and a loose line/arc) merges them into one. Rectangle gains a Dimensions option for typed width/height. Export Manager redesigned with side-by-side JSON and DXF columns.
 
 ## Comparison with alternatives
 
