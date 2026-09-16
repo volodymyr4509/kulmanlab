@@ -1,0 +1,34 @@
+---
+import { languages } from '../i18n/translations';
+
+const nonEnglishCodes = languages.map(l => l.code).filter(c => c !== 'en');
+---
+
+{/* First visit, English page, no saved preference yet: replace with the
+    browser's own language before anything paints, so there's a redirect
+    rather than a flash of English content. Once a language is picked (here
+    or in the header switcher), that choice is remembered and this never runs
+    again for this visitor. Blog posts are excluded — only some are
+    translated, and yanking a reader off the one article they searched for
+    and landed on is worse than leaving it in English. Placed as early in
+    <head> as possible so a blocking redirect wins the race against paint. */}
+<script is:inline define:vars={{ langCodes: nonEnglishCodes }}>
+  (function () {
+    if (document.documentElement.lang !== 'en') return;
+    var path = location.pathname;
+    if (path.indexOf('/blog') === 0) return;
+    try {
+      if (localStorage.getItem('kl-lang')) return;
+    } catch (e) { return; }
+
+    var aliases = { nb: 'no', nn: 'no', iw: 'he', in: 'id', fil: 'tl' };
+    var prefs = (navigator.languages && navigator.languages.length) ? navigator.languages : [navigator.language || ''];
+    var match = null;
+    for (var i = 0; i < prefs.length; i++) {
+      var base = (prefs[i] || '').split('-')[0].toLowerCase();
+      base = aliases[base] || base;
+      if (langCodes.indexOf(base) !== -1) { match = base; break; }
+    }
+    if (match) location.replace('/' + match + path);
+  })();
+</script>
