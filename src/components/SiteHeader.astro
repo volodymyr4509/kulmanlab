@@ -13,7 +13,8 @@ interface Props {
 const { active, lang = 'en', docsSlug, blogSlug, blogLangs } = Astro.props;
 const t = translations[lang];
 
-const APP_URL = 'https://app.kulmanlab.com';
+// Carries the language the visitor is reading in, so the app opens in it too.
+const APP_URL = `https://app.kulmanlab.com/?lang=${lang}`;
 const GITHUB_URL = 'https://github.com/volodymyr4509/kulmanlab';
 const REDDIT_URL = 'https://www.reddit.com/r/kulmanlab/';
 

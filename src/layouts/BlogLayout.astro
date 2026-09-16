@@ -24,7 +24,8 @@ const { lang, slug, title, description, keywords = [], date, updated, author, ta
 const t = translations[lang] ?? translations['en'];
 const canonical = postCanonical(lang, slug);
 const homeUrl = lang === 'en' ? '/' : `/${lang}/`;
-const APP_URL = 'https://app.kulmanlab.com';
+// Carries the language the visitor is reading in, so the app opens in it too.
+const APP_URL = `https://app.kulmanlab.com/?lang=${lang}`;
 
 const jsonLd = [
   {
