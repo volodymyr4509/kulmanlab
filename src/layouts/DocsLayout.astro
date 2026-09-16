@@ -1,9 +1,7 @@
 ---
-import '../styles/global.css';
+import Layout from './Layout.astro';
 import SiteHeader from '../components/SiteHeader.astro';
 import SiteFooter from '../components/SiteFooter.astro';
-import Analytics from '../components/Analytics.astro';
-import ConsentBanner from '../components/ConsentBanner.astro';
 import type { Lang } from '../i18n/translations';
 import { translations } from '../i18n/translations';
 import { getCollection } from 'astro:content';
@@ -20,8 +18,13 @@ interface Props {
 const { title, description = '', keywords = [], entrySlug = '', lang = 'en' } = Astro.props;
 const base = lang === 'en' ? '/docs' : `/${lang}/docs`;
 const canonical = `https://kulmanlab.com${base}${entrySlug ? '/' + entrySlug : ''}/`;
-// Same page in every language, for the hreflang cluster below.
+// Same page in every language, for the hreflang cluster passed to Layout.
 const docsTail = `/docs${entrySlug ? '/' + entrySlug : ''}/`;
+const alternates = [
+  { hreflang: 'x-default', href: `https://kulmanlab.com${docsTail}` },
+  { hreflang: 'en', href: `https://kulmanlab.com${docsTail}` },
+  ...LANGS_NO_EN.map(l => ({ hreflang: l, href: `https://kulmanlab.com/${l}${docsTail}` })),
+];
 const currentPath = Astro.url.pathname.replace(/\/$/, '');
 
 // Section/group titles are centralized in src/i18n/translations.ts
@@ -166,62 +169,15 @@ const sidebar = [
 ];
 ---
 
-<!doctype html>
-<html lang={lang} dir={lang === 'ar' || lang === 'ur' || lang === 'he' ? 'rtl' : 'ltr'}>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content={description} />
-    {keywords.length > 0 && <meta name="keywords" content={keywords.join(', ')} />}
-
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content={canonical} />
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
-    <meta property="og:image" content="https://kulmanlab.com/og.png" />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content={title} />
-    <meta name="twitter:description" content={description} />
-
-    <link rel="canonical" href={canonical} />
-    <link rel="alternate" hreflang="x-default" href={`https://kulmanlab.com${docsTail}`} />
-    <link rel="alternate" hreflang="en" href={`https://kulmanlab.com${docsTail}`} />
-    {LANGS_NO_EN.map((l) => (
-      <link rel="alternate" hreflang={l} href={`https://kulmanlab.com/${l}${docsTail}`} />
-    ))}
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-
-    {/* No webfont link by design — see the note in Layout.astro. */}
-
-    <!-- Google Analytics (Consent Mode v2: denied until the user accepts via the consent banner) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-24RLZ955SW"></script>
-    <script is:inline>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('consent', 'default', {
-        ad_storage: 'granted',
-        ad_user_data: 'granted',
-        ad_personalization: 'granted',
-        analytics_storage: 'granted',
-      });
-      // Opt-in regions (EEA + UK + CH): denied until the user accepts. Google resolves the region from IP.
-      gtag('consent', 'default', {
-        ad_storage: 'denied',
-        ad_user_data: 'denied',
-        ad_personalization: 'denied',
-        analytics_storage: 'denied',
-        region: ['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'],
-        wait_for_update: 500,
-      });
-      gtag('js', new Date());
-      gtag('config', 'G-24RLZ955SW');
-    </script>
-
-    <title>{title}</title>
-  </head>
-  <body class="bg-slate-900 text-slate-50 antialiased font-sans">
+<Layout
+  title={title}
+  description={description}
+  canonical={canonical}
+  keywords={keywords.length > 0 ? keywords.join(', ') : undefined}
+  lang={lang}
+  ogType="article"
+  alternates={alternates}
+>
 
     <SiteHeader active="docs" lang={lang} docsSlug={entrySlug} />
 
@@ -301,8 +257,5 @@ const sidebar = [
     </div>
 
     <SiteFooter lang={lang} />
-    <ConsentBanner lang={lang} />
-    <Analytics />
 
-  </body>
-</html>
+</Layout>
