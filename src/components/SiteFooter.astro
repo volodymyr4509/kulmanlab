@@ -20,8 +20,8 @@ const aboutUrl = localeUrl(lang, 'about');
     <div class="flex flex-wrap gap-x-3 gap-y-2 justify-center">
       {languages.map(l => (
         l.code === lang
-          ? <span class="text-xs text-slate-400 flex items-center gap-1"><span>{l.flag}</span>{l.code.toUpperCase()}</span>
-          : <a href={l.code === 'en' ? '/' : `/${l.code}/`} class="text-xs text-slate-600 hover:text-slate-400 transition-colors flex items-center gap-1"><span>{l.flag}</span>{l.code.toUpperCase()}</a>
+          ? <span class="text-xs text-slate-400">{l.code.toUpperCase()}</span>
+          : <a href={l.code === 'en' ? '/' : `/${l.code}/`} class="text-xs text-slate-600 hover:text-slate-400 transition-colors">{l.code.toUpperCase()}</a>
       ))}
     </div>
   </div>
