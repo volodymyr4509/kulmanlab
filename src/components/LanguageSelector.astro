@@ -65,7 +65,7 @@ function hrefFor(code: string): string {
         data-lang={lang.code}
         class="lang-option flex w-full items-center gap-2.5 px-3 py-1.5 text-sm text-slate-300 hover:bg-slate-800 hover:text-slate-50 transition-colors"
       >
-        <span class="whitespace-nowrap">{lang.label}</span>
+        <span class="whitespace-nowrap">{lang.label}<span class="ml-1.5 text-xs tracking-wide text-slate-500">{lang.code.toUpperCase()}</span></span>
         <svg data-check class={`ml-auto flex-shrink-0 h-3.5 w-3.5 text-brand ${lang.code === currentLang ? '' : 'hidden'}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
           <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
         </svg>
