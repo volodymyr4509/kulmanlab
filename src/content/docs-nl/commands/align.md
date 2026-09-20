@@ -8,14 +8,14 @@ order: 6
 
 # Align
 
-Het commando `align` verplaatst geselecteerde entiteiten met een of twee paren bron-/doelpunten. Met één paar gedraagt het zich precies als [Move](../move/) (alleen verplaatsen). Met twee paren draait het de selectie ook zodat de richting bron-naar-bron overeenkomt met de richting doel-naar-doel, en kan het optioneel schalen zodat de lengte van het bronsegment overeenkomt met de lengte van het doelsegment — verplaatsen, draaien en schalen in één enkele bewerking.
+Het commando `Uitlijnen` verplaatst geselecteerde entiteiten met een of twee paren bron-/doelpunten. Met één paar gedraagt het zich precies als [Move](../move/) (alleen verplaatsen). Met twee paren draait het de selectie ook zodat de richting bron-naar-bron overeenkomt met de richting doel-naar-doel, en kan het optioneel schalen zodat de lengte van het bronsegment overeenkomt met de lengte van het doelsegment — verplaatsen, draaien en schalen in één enkele bewerking.
 
 ## Twee manieren om te starten
 
 **Eerst selecteren, dan uitlijnen** — selecteer eerst entiteiten en activeer daarna:
 
 1. Selecteer een of meer entiteiten op het canvas.
-2. Typ `align` in de terminal of klik op de werkbalkknop **Align**.
+2. Typ `Uitlijnen` in de terminal of klik op de werkbalkknop **Align**.
 3. **Klik op het eerste bronpunt (S1)**, klik daarna op het **eerste doelpunt (D1)**.
 4. **Klik op het tweede bronpunt (S2)**, of druk op **Enter** of **Space** om nu direct een uitlijning toe te passen die alleen verplaatst.
 5. **Klik op het tweede doelpunt (D2)**.
@@ -23,7 +23,7 @@ Het commando `align` verplaatst geselecteerde entiteiten met een of twee paren b
 
 **Eerst activeren, dan selecteren** — start het commando zonder dat er iets geselecteerd is:
 
-1. Typ `align` of klik op de werkbalkknop.
+1. Typ `Uitlijnen` of klik op de werkbalkknop.
 2. **Selecteer objecten** — klik om afzonderlijke entiteiten aan/uit te zetten, of sleep om per gebied te selecteren.
 3. Druk op **Enter** of **Spatie** om de selectie te bevestigen.
 4. Ga verder met S1 → D1 → S2 → D2 → schaalprompt zoals hierboven.
@@ -97,4 +97,4 @@ De uitgelijnde entiteiten blijven geselecteerd op hun nieuwe positie, en het com
 
 ## Ondersteunde entiteiten
 
-Align werkt op elk entiteittype dat door Move, Rotate en Scale wordt ondersteund — dezelfde bewerkingen `translate`, `rotate` en `scale` die deze commando's gebruiken, worden achtereenvolgens toegepast, dus niets wordt uitgesloten.
+Align werkt op elk entiteittype dat door Move, Rotate en Scale wordt ondersteund — dezelfde bewerkingen `translate`, `Roteren` en `Schalen` die deze commando's gebruiken, worden achtereenvolgens toegepast, dus niets wordt uitgesloten.

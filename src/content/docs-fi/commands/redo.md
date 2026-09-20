@@ -8,11 +8,11 @@ order: 14
 
 # Redo
 
-Komento `redo` liikkuu eteenpäin kumoushistoriassa, soveltaen uudelleen toimintoja, jotka [Undo](../undo/) on peruuttanut. Redo on käytettävissä vain, kun olet astunut taaksepäin Undo-komennolla etkä ole vielä tehnyt uutta muutosta.
+Komento `TeeUudelleen` liikkuu eteenpäin kumoushistoriassa, soveltaen uudelleen toimintoja, jotka [Undo](../undo/) on peruuttanut. Redo on käytettävissä vain, kun olet astunut taaksepäin Undo-komennolla etkä ole vielä tehnyt uutta muutosta.
 
 ## Näin teet uudelleen
 
-- Kirjoita `redo` terminaaliin, tai
+- Kirjoita `TeeUudelleen` terminaaliin, tai
 - Napsauta **Redo**-painiketta työkalurivillä.
 
 Jokainen kutsu soveltaa uudelleen yhden aiemmin kumotun toiminnon. Kutsu sitä toistuvasti liikkuaksesi eteenpäin kaikkien käytettävissä olevien redo-merkintöjen läpi.

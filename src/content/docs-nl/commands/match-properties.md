@@ -8,17 +8,17 @@ order: 1
 
 # Match Properties
 
-Het `MatchProperties`-commando kopieert **visuele en laageigenschappen** van een bronentiteit naar een of meer doelentiteiten. Alleen eigenschappen die worden gedeeld tussen het bron- en doeltype worden overgedragen — geometrie wordt nooit gewijzigd.
+Het `EigenschappenKopiëren`-commando kopieert **visuele en laageigenschappen** van een bronentiteit naar een of meer doelentiteiten. Alleen eigenschappen die worden gedeeld tussen het bron- en doeltype worden overgedragen — geometrie wordt nooit gewijzigd.
 
 ## Activeren
 
-Klik op de **Match Properties**-werkbalkknop (verfrollericoon) in het Style-paneel, of typ `MatchProperties` in de terminal.
+Klik op de **Match Properties**-werkbalkknop (verfrollericoon) in het Style-paneel, of typ `EigenschappenKopiëren` in de terminal.
 
 ## Werkwijze
 
 **Eerst activeren, dan bron kiezen:**
 
-1. Typ `MatchProperties` of klik op de werkbalkknop zonder iets voorgeselecteerd.
+1. Typ `EigenschappenKopiëren` of klik op de werkbalkknop zonder iets voorgeselecteerd.
 2. **Klik op de bronentiteit** — die waarvan u de eigenschappen wilt kopiëren.
 3. **Klik op elke doelentiteit** om de broneigenschappen toe te passen. U kunt meerdere entiteiten één voor één aanklikken.
 4. Om op een groep tegelijk toe te passen, **sleept u een selectievak** over de doelen.
@@ -27,7 +27,7 @@ Klik op de **Match Properties**-werkbalkknop (verfrollericoon) in het Style-pane
 **Eerst bron voorselecteren, dan activeren:**
 
 1. Klik op één entiteit om deze te selecteren.
-2. Activeer `MatchProperties`. De geselecteerde entiteit wordt automatisch als bron gebruikt.
+2. Activeer `EigenschappenKopiëren`. De geselecteerde entiteit wordt automatisch als bron gebruikt.
 3. Klik op doelentiteiten of sleep-selecteer, druk daarna op **Enter** of **Escape** om te voltooien.
 
 ## Welke eigenschappen worden gekopieerd

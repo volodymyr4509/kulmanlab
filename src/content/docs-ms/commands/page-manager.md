@@ -8,11 +8,11 @@ order: 3
 
 # PageManager
 
-Arahan `PageManager` membuka dialog tetapan halaman untuk susun atur aktif, membolehkan anda menukar format kertas, orientasi, dan skala antara unit lukisan dan milimeter.
+Arahan `PengurusHalaman` membuka dialog tetapan halaman untuk susun atur aktif, membolehkan anda menukar format kertas, orientasi, dan skala antara unit lukisan dan milimeter.
 
 ## Membuka Pengurus Halaman
 
-- Taip `PageManager` dalam terminal, **atau**
+- Taip `PengurusHalaman` dalam terminal, **atau**
 - Klik kanan tab susun atur di bahagian bawah dan pilih **Page Manager**.
 
 ## Tetapan

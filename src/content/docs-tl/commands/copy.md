@@ -8,20 +8,20 @@ order: 2
 
 # Copy
 
-Gumagawa ang `copy` command ng mga na-translate na duplicate ng napiling entity at inilalagay ang mga ito nang naka-offset mula sa base point patungo sa isang destination — nananatili ang mga orihinal nang eksakto kung saan sila naroroon. Ito ang pangunahing pagkakaiba mula sa [Move](../move/): idinaragdag ng Copy ang bagong entity sa drawing; inililipat ng Move ang mga umiiral na.
+Gumagawa ang `Kopyahin` command ng mga na-translate na duplicate ng napiling entity at inilalagay ang mga ito nang naka-offset mula sa base point patungo sa isang destination — nananatili ang mga orihinal nang eksakto kung saan sila naroroon. Ito ang pangunahing pagkakaiba mula sa [Move](../move/): idinaragdag ng Copy ang bagong entity sa drawing; inililipat ng Move ang mga umiiral na.
 
 ## Dalawang paraan para magsimula
 
 **Pre-select, tapos copy** — piliin muna ang mga entity, pagkatapos i-activate:
 
 1. Piliin ang isa o higit pang entity sa canvas.
-2. I-type ang `copy` sa terminal o i-click ang **Copy** button sa toolbar.
+2. I-type ang `Kopyahin` sa terminal o i-click ang **Copy** button sa toolbar.
 3. **I-click ang base point**, o i-type ang `X,Y` at pindutin ang **Enter** para sa eksaktong coordinate.
 4. **I-click ang destination** — lalabas ang mga duplicate sa base→destination offset. Gumagana rin dito ang coordinate input.
 
 **Activate, tapos select** — simulan ang command nang walang naka-select:
 
-1. I-type ang `copy` o i-click ang toolbar button.
+1. I-type ang `Kopyahin` o i-click ang toolbar button.
 2. **Piliin ang mga object** — mag-click para i-toggle ang bawat entity, o mag-drag para pumili ayon sa area.
 3. Pindutin ang **Enter** o **Space** para kumpirmahin ang seleksyon.
 4. **I-click ang base point**, tapos **i-click ang destination** (available ang coordinate entry sa parehong hakbang).

@@ -8,11 +8,11 @@ order: 3
 
 # File Manager
 
-`FileManager`-kommandot öppnar ett **miniatyrrutnät** över alla ritningar som har sparats i webbläsarens lokala lagring, sorterat efter när var och en senast sparades. Använd det för att återöppna en tidigare ritning, byta namn på den, eller ta bort den.
+`Filhanterare`-kommandot öppnar ett **miniatyrrutnät** över alla ritningar som har sparats i webbläsarens lokala lagring, sorterat efter när var och en senast sparades. Använd det för att återöppna en tidigare ritning, byta namn på den, eller ta bort den.
 
 ## Öppna File Manager
 
-- Skriv `FileManager` i terminalen, **eller**
+- Skriv `Filhanterare` i terminalen, **eller**
 - Klicka på verktygsfältsknappen **File Manager** (historikikon) i File-panelen högst upp på skärmen.
 
 Panelen öppnas på vänster sida av ritytan och stängs automatiskt så snart du startar ett annat kommando eller [importerar](../import/) en fil — så den aldrig ligger kvar över en ritning den ännu inte listar. Den öppnas igen med en ny lista varje gång.

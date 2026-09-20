@@ -8,7 +8,7 @@ order: 1
 
 # Leader
 
-`leader` komutu, dört adımda çoklu gösterge ek açıklaması çizer: bir özelliğe dokunan ok ucu, dirseğe bükülen gösterge çizgisi, metin çıpası ve yazılan etiket. Tüm ek açıklama komutları arasında, Leader, yanıp sönen imleç önizlemesiyle etkileşimli metin girişi aşaması içeren tek komuttur.
+`Kılavuz` komutu, dört adımda çoklu gösterge ek açıklaması çizer: bir özelliğe dokunan ok ucu, dirseğe bükülen gösterge çizgisi, metin çıpası ve yazılan etiket. Tüm ek açıklama komutları arasında, Leader, yanıp sönen imleç önizlemesiyle etkileşimli metin girişi aşaması içeren tek komuttur.
 
 ## Çoklu Göstergenin Anatomisi
 
@@ -27,7 +27,7 @@ order: 1
 
 ## Gösterge Çizimi
 
-1. Terminale `leader` yazın veya araç çubuğundaki **Leader** düğmesine tıklayın.
+1. Terminale `Kılavuz` yazın veya araç çubuğundaki **Leader** düğmesine tıklayın.
 2. **Ok ucunu tıklayın** veya tam koordinat için `X,Y` yazıp **Enter** tuşuna basın.
 3. **Dirseği tıklayın** — göstergadaki bükülme noktası. Açı 45° artışlara kilitlenir; kesin yerleştirme için bir uzunluk yazıp **Enter** tuşuna basın. Ya da mutlak koordinat girmek için `X,Y` yazın.
 4. **Metin konumunu tıklayın** — etiketin çıpalanacağı yer. Aynı seçenekler geçerlidir: tıklayın, açı kilidi + uzunluk veya `X,Y`.

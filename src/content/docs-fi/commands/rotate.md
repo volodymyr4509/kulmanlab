@@ -8,20 +8,20 @@ order: 3
 
 # Rotate
 
-Komento `rotate` kiertää valittuja entiteettejä perustepisteen ympäri. Määrität kiertokulman joko kirjoittamalla numeron asteina tai napsauttamalla — kulma lasketaan perustepisteen ja napsautuskohdan välisestä suunnasta.
+Komento `Kierrä` kiertää valittuja entiteettejä perustepisteen ympäri. Määrität kiertokulman joko kirjoittamalla numeron asteina tai napsauttamalla — kulma lasketaan perustepisteen ja napsautuskohdan välisestä suunnasta.
 
 ## Kaksi tapaa aloittaa
 
 **Valitse ensin, kierrä sitten** — valitse entiteetit ensin, aktivoi sitten:
 
 1. Valitse yksi tai useampi entiteetti piirtoalueella.
-2. Kirjoita `rotate` terminaaliin tai napsauta **Rotate**-painiketta työkalurivillä.
+2. Kirjoita `Kierrä` terminaaliin tai napsauta **Rotate**-painiketta työkalurivillä.
 3. **Napsauta perustepistettä** — kierron keskus. Tai kirjoita `X,Y` ja paina **Enter** tarkkaa koordinaattia varten.
 4. **Kirjoita kulma ja paina Enter**, tai **napsauta** asettaaksesi kulman kohdistimen suunnasta.
 
 **Aktivoi, valitse sitten** — aloita komento ilman mitään valittuna:
 
-1. Kirjoita `rotate` tai napsauta työkalurivin painiketta.
+1. Kirjoita `Kierrä` tai napsauta työkalurivin painiketta.
 2. **Valitse objektit** — napsauta vaihtaaksesi, tai vedä valitaksesi alueen mukaan.
 3. Paina **Enter** tai **Space** vahvistaaksesi valinnan.
 4. **Napsauta perustepistettä** (koordinaattien syöttö käytettävissä), aseta sitten kulma.

@@ -8,11 +8,11 @@ order: 13
 
 # Undo
 
-Arahan `undo` membalikkan perubahan terakhir pada lukisan — satu langkah setiap invokasi. Setiap penambahan, pemadaman, atau edit entiti direkodkan sebagai entri sejarah berasingan. Undo melangkah ke belakang melalui entri-entri ini dalam urutan terbalik.
+Arahan `BatalTindakan` membalikkan perubahan terakhir pada lukisan — satu langkah setiap invokasi. Setiap penambahan, pemadaman, atau edit entiti direkodkan sebagai entri sejarah berasingan. Undo melangkah ke belakang melalui entri-entri ini dalam urutan terbalik.
 
 ## Cara membatalkan
 
-- Taip `undo` dalam terminal, atau
+- Taip `BatalTindakan` dalam terminal, atau
 - Klik butang bar alat **Undo**.
 
 Setiap invokasi membalikkan satu tindakan yang direkodkan. Invoke berulang kali untuk melangkah lebih jauh ke belakang.

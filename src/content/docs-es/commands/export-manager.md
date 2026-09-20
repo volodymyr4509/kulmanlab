@@ -8,11 +8,11 @@ order: 6
 
 # Administrador de Exportación
 
-El comando `exportmanager` descarga el dibujo actual a tu sistema de archivos. Dos formatos conviven lado a lado — **DXF** para compatibilidad con otras herramientas CAD y **JSON** para guardados de fidelidad completa dentro de KulmanLab CAD — y cada uno tiene su propia lista de qué poner en el archivo.
+El comando `GestorDeExportación` descarga el dibujo actual a tu sistema de archivos. Dos formatos conviven lado a lado — **DXF** para compatibilidad con otras herramientas CAD y **JSON** para guardados de fidelidad completa dentro de KulmanLab CAD — y cada uno tiene su propia lista de qué poner en el archivo.
 
 ## Cómo exportar
 
-1. Haz clic en el botón **Export** de la barra de herramientas (icono de descarga) en el panel de archivos, o escribe `exportmanager` en el terminal.
+1. Haz clic en el botón **Export** de la barra de herramientas (icono de descarga) en el panel de archivos, o escribe `GestorDeExportación` en el terminal.
 2. La ventana **Export Manager** se abre con dos columnas, **JSON** y **DXF**, cada una listando los tipos de entidad del dibujo con una casilla y un recuento.
 3. Desmarca lo que quieras dejar fuera. Todo empieza marcado.
 4. Pulsa **Export JSON** o **Export DXF**. El archivo se descarga a tu carpeta de descargas y la ventana se cierra.

@@ -8,11 +8,11 @@ order: 3
 
 # Rectangle
 
-Kommandoen `rectangle` tegner et akse-justert rektangel definert av to motsatte hjørneklikk. Resultatet lagres som en **lukket `LWPOLYLINE`** med fire hjørner — ett ved hvert hjørne. Det finnes ingen dedikert rektangel-entitetstype: etter opprettelse oppfører formen seg akkurat som en hvilken som helst annen [Polyline](../polyline/), og hver polylinje-redigering gjelder for den.
+Kommandoen `Rektangel` tegner et akse-justert rektangel definert av to motsatte hjørneklikk. Resultatet lagres som en **lukket `LWPOLYLINE`** med fire hjørner — ett ved hvert hjørne. Det finnes ingen dedikert rektangel-entitetstype: etter opprettelse oppfører formen seg akkurat som en hvilken som helst annen [Polyline](../polyline/), og hver polylinje-redigering gjelder for den.
 
 ## Tegne et rektangel
 
-1. Skriv `rectangle` i terminalen eller klikk på **Rectangle**-knappen i verktøylinjen.
+1. Skriv `Rektangel` i terminalen eller klikk på **Rectangle**-knappen i verktøylinjen.
 2. **Klikk det første hjørnet**, eller skriv `X,Y` og trykk **Enter** for en eksakt koordinat.
 3. **Klikk det motsatte hjørnet** — rektangelet plasseres umiddelbart og kommandoen avsluttes. Koordinatinntasting fungerer også her. Eller trykk `D` i stedet for å skrive inn en eksakt bredde og høyde — se [Målinntasting](#målinntasting) nedenfor.
 

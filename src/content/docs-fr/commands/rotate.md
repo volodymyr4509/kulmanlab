@@ -8,20 +8,20 @@ order: 3
 
 # Rotate
 
-La commande `rotate` fait pivoter les entités sélectionnées autour d'un point de base. Vous spécifiez l'angle de rotation soit en tapant un nombre en degrés, soit en cliquant — l'angle est calculé à partir de la direction entre le point de base et la position du clic.
+La commande `Rotation` fait pivoter les entités sélectionnées autour d'un point de base. Vous spécifiez l'angle de rotation soit en tapant un nombre en degrés, soit en cliquant — l'angle est calculé à partir de la direction entre le point de base et la position du clic.
 
 ## Deux façons de démarrer
 
 **Pré-sélectionner, puis faire pivoter** — sélectionnez d'abord les entités, puis activez :
 
 1. Sélectionnez une ou plusieurs entités sur le canevas.
-2. Tapez `rotate` dans le terminal ou cliquez sur le bouton **Rotate** de la barre d'outils.
+2. Tapez `Rotation` dans le terminal ou cliquez sur le bouton **Rotate** de la barre d'outils.
 3. **Cliquez sur le point de base** — le centre de rotation. Ou tapez `X,Y` et appuyez sur **Entrée** pour une coordonnée exacte.
 4. **Tapez un angle et appuyez sur Entrée**, ou **cliquez** pour définir l'angle depuis la direction du curseur.
 
 **Activer, puis sélectionner** — démarrez la commande sans rien de sélectionné :
 
-1. Tapez `rotate` ou cliquez sur le bouton de la barre d'outils.
+1. Tapez `Rotation` ou cliquez sur le bouton de la barre d'outils.
 2. **Sélectionnez les objets** — cliquez pour basculer, ou faites glisser pour sélectionner par zone.
 3. Appuyez sur **Entrée** ou **Espace** pour confirmer la sélection.
 4. **Cliquez sur le point de base** (la saisie de coordonnées est disponible), puis définissez l'angle.

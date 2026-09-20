@@ -12,7 +12,7 @@ Opent het Help-paneel in de app met een overzicht van alle toetsenbordsnelkoppel
 
 ## Gebruik
 
-Klik op de werkbalkknop **Help** of typ `help` in de terminal. Het Help-paneel opent onmiddellijk en het commando sluit af.
+Klik op de werkbalkknop **Help** of typ `Help` in de terminal. Het Help-paneel opent onmiddellijk en het commando sluit af.
 
 ## Wat staat er in het Help-paneel
 

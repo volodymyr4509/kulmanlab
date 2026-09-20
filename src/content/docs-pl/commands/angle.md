@@ -8,7 +8,7 @@ order: 2
 
 # Angle
 
-Polecenie `angle` mierzy kąt wewnętrzny w wierzchołku utworzonym przez dwa odcinki linii przechodzące przez trzy kliknięte punkty. Wynik — zawsze między 0° a 180° — wyświetlany jest w terminalu z dokładnością do 4 miejsc po przecinku. Jest to jedno z trzech poleceń pomiarowych — [Distance](../distance/) mierzy długość prostoliniową, a [Area](../area/) mierzy pole powierzchni i obwód wielokąta.
+Polecenie `Kąt` mierzy kąt wewnętrzny w wierzchołku utworzonym przez dwa odcinki linii przechodzące przez trzy kliknięte punkty. Wynik — zawsze między 0° a 180° — wyświetlany jest w terminalu z dokładnością do 4 miejsc po przecinku. Jest to jedno z trzech poleceń pomiarowych — [Distance](../distance/) mierzy długość prostoliniową, a [Area](../area/) mierzy pole powierzchni i obwód wielokąta.
 
 ## Anatomia pomiaru kąta
 
@@ -30,7 +30,7 @@ Polecenie `angle` mierzy kąt wewnętrzny w wierzchołku utworzonym przez dwa od
 
 ## Mierzenie kąta
 
-1. Wpisz `angle` w terminalu lub kliknij przycisk **Kąt** na pasku narzędzi.
+1. Wpisz `Kąt` w terminalu lub kliknij przycisk **Kąt** na pasku narzędzi.
 2. **Kliknij pierwszy punkt** — jeden koniec kąta. Lub wpisz `X,Y` i naciśnij **Enter** dla dokładnej współrzędnej.
 3. **Kliknij wierzchołek** — narożnik, w którym spotykają się oba ramiona. Tutaj również działa wprowadzanie współrzędnych.
 4. **Kliknij trzeci punkt** — drugi koniec kąta. Umieszczenie tego punktu wyświetla wynik.

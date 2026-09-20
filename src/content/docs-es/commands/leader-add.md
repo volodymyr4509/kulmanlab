@@ -8,11 +8,11 @@ order: 2
 
 # LeaderAdd
 
-El comando `LeaderAdd` añade un nuevo brazo de punta de flecha a una multireferencia existente. El nuevo brazo apunta desde el quiebre existente de la referencia hacia una nueva punta de flecha que haces clic. Todo el estilo — posición del quiebre, texto, tipo de punta de flecha y tamaño — se hereda de la referencia seleccionada.
+El comando `AñadirBrazoDirectriz` añade un nuevo brazo de punta de flecha a una multireferencia existente. El nuevo brazo apunta desde el quiebre existente de la referencia hacia una nueva punta de flecha que haces clic. Todo el estilo — posición del quiebre, texto, tipo de punta de flecha y tamaño — se hereda de la referencia seleccionada.
 
 ## Añadir un brazo
 
-1. Escribe `LeaderAdd` en el terminal.
+1. Escribe `AñadirBrazoDirectriz` en el terminal.
 2. **Haz clic en una multireferencia existente** para seleccionarla.
 3. **Haz clic en la nueva punta de flecha**, o escribe `X,Y` y presiona **Enter** para una coordenada exacta. Una línea de vista previa se muestra desde el cursor hasta el quiebre de la referencia.
 

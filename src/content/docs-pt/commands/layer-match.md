@@ -8,20 +8,20 @@ order: 3
 
 # LayerMatch
 
-O comando `LayerMatch` reatribui a camada das entidades selecionadas para corresponder à camada de uma entidade fonte que você clica. É a maneira mais rápida de mover um grupo de objetos para a camada correta sem abrir o [Gerenciador de Camadas](../layer-manager/).
+O comando `IgualarCamada` reatribui a camada das entidades selecionadas para corresponder à camada de uma entidade fonte que você clica. É a maneira mais rápida de mover um grupo de objetos para a camada correta sem abrir o [Gerenciador de Camadas](../layer-manager/).
 
 ## Fluxo de trabalho
 
 **Pré-selecionar, depois corresponder**:
 
 1. Selecione as entidades cuja camada deseja alterar.
-2. Digite `LayerMatch` ou clique no botão **Layer Match** na barra de ferramentas (ícone de pincel).
+2. Digite `IgualarCamada` ou clique no botão **Layer Match** na barra de ferramentas (ícone de pincel).
 3. **Clique no objeto fonte** — aquele cuja camada deseja copiar.
 4. Todas as entidades selecionadas movem imediatamente para a camada do objeto fonte.
 
 **Ativar, depois selecionar**:
 
-1. Digite `LayerMatch` ou clique no botão da barra de ferramentas sem nada selecionado.
+1. Digite `IgualarCamada` ou clique no botão da barra de ferramentas sem nada selecionado.
 2. **Selecione as entidades alvo** — clique para alternar entidades individuais ou arraste para selecionar por área.
 3. Pressione **Enter** ou **Espaço** para confirmar a seleção.
 4. **Clique no objeto fonte** — sua camada é aplicada a todos os alvos.

@@ -8,13 +8,13 @@ order: 9
 
 # Extend
 
-La commande `extend` prolonge le point final le plus proche d'une [Line](../line/), [Arc](../arc/), [Ellipse](../ellipse/) ou Polyline ouverte survolée jusqu'à l'intersection la plus proche qu'elle formerait avec une autre entité du dessin. Survolez près du point final que vous souhaitez prolonger — un aperçu montre l'entité prolongée — puis cliquez pour appliquer.
+La commande `Prolonger` prolonge le point final le plus proche d'une [Line](../line/), [Arc](../arc/), [Ellipse](../ellipse/) ou Polyline ouverte survolée jusqu'à l'intersection la plus proche qu'elle formerait avec une autre entité du dessin. Survolez près du point final que vous souhaitez prolonger — un aperçu montre l'entité prolongée — puis cliquez pour appliquer.
 
 Seules les entités ayant un véritable point final peuvent être prolongées. Un [Circle](../circle/) et une Ellipse complète (360°) sont toujours des formes fermées sans point final, elles ne peuvent donc jamais être prolongées — de même pour une Polyline fermée ou un Rectangle. Une Ellipse partielle (un arc elliptique) et un Arc ont bien des points finaux et se prolongent de la même façon qu'une Line.
 
 ## Prolonger une entité
 
-1. Tapez `extend` dans le terminal ou cliquez sur le bouton **Extend** de la barre d'outils.
+1. Tapez `Prolonger` dans le terminal ou cliquez sur le bouton **Extend** de la barre d'outils.
 2. **Survolez près d'une extrémité** de l'entité que vous souhaitez prolonger — l'aperçu la montre prolongée jusqu'à la limite la plus proche dans cette direction.
 3. **Cliquez** pour appliquer le prolongement.
 

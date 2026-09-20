@@ -8,13 +8,13 @@ order: 2
 
 # Polyline
 
-Der Befehl `polyline` zeichnet einen verbundenen Pfad aus beliebig vielen geraden oder Bogensegmenten, der als eine einzige `LWPOLYLINE`-Entität gespeichert wird. Da der gesamte Pfad ein Objekt ist, wählt das Auswählen alle Segmente gleichzeitig aus — verschieben, drehen oder skalieren Sie die gesamte Form in einem einzigen Vorgang. Dies ist der wesentliche Unterschied zu verketteten [Linien](../line/), wo jedes Segment eine unabhängige Entität ist.
+Der Befehl `Polylinie` zeichnet einen verbundenen Pfad aus beliebig vielen geraden oder Bogensegmenten, der als eine einzige `LWPOLYLINE`-Entität gespeichert wird. Da der gesamte Pfad ein Objekt ist, wählt das Auswählen alle Segmente gleichzeitig aus — verschieben, drehen oder skalieren Sie die gesamte Form in einem einzigen Vorgang. Dies ist der wesentliche Unterschied zu verketteten [Linien](../line/), wo jedes Segment eine unabhängige Entität ist.
 
 Polylinien können auch **geschlossen** werden: Der Befehl [Rectangle](../rectangle/) verwendet dieselbe `LWPOLYLINE`-Entität mit einem gesetzten Schließen-Flag.
 
 ## Eine Polylinie zeichnen
 
-1. Geben Sie `polyline` im Terminal ein oder klicken Sie auf die Schaltfläche **Polyline** in der Symbolleiste.
+1. Geben Sie `Polylinie` im Terminal ein oder klicken Sie auf die Schaltfläche **Polyline** in der Symbolleiste.
 2. **Klicken Sie auf den ersten Punkt** oder geben Sie `X,Y` ein und drücken Sie **Enter** für eine genaue Koordinate.
 3. **Klicken Sie auf jeden weiteren Punkt** — jeder Klick fügt ein Segment hinzu. Koordinateneingabe funktioniert bei jedem Schritt.
 4. Drücken Sie **Enter** oder **Space** zum Beenden (erfordert mindestens 2 platzierte Punkte).

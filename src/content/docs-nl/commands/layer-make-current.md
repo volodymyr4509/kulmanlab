@@ -8,11 +8,11 @@ order: 2
 
 # LayerMakeCurrent
 
-Het `LayerMakeCurrent`-commando stelt de **huidige tekenlaag** in op de laag waartoe de aangeklikte entiteit behoort. Nieuwe entiteiten worden vervolgens automatisch op die laag getekend.
+Het `LaagHuidigMaken`-commando stelt de **huidige tekenlaag** in op de laag waartoe de aangeklikte entiteit behoort. Nieuwe entiteiten worden vervolgens automatisch op die laag getekend.
 
 ## Gebruik
 
-1. Typ `LayerMakeCurrent` in de terminal of klik op de werkbalkknop **Make Current** (pipeticoon).
+1. Typ `LaagHuidigMaken` in de terminal of klik op de werkbalkknop **Make Current** (pipeticoon).
 2. **Klik op een entiteit** op het canvas.
 3. De huidige laag wordt bijgewerkt naar de laag van die entiteit. Het commando sluit onmiddellijk af.
 

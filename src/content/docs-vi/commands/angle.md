@@ -8,7 +8,7 @@ order: 2
 
 # Angle
 
-Lệnh `angle` đo góc nội tại tại đỉnh được tạo bởi hai đoạn thẳng qua ba điểm bấm. Kết quả — luôn nằm trong khoảng 0° đến 180° — được hiển thị trong terminal với 4 chữ số thập phân. Đây là một trong ba lệnh đo lường — [Distance](../distance/) đo độ dài đường thẳng, và [Area](../area/) đo diện tích và chu vi của một đa giác.
+Lệnh `Góc` đo góc nội tại tại đỉnh được tạo bởi hai đoạn thẳng qua ba điểm bấm. Kết quả — luôn nằm trong khoảng 0° đến 180° — được hiển thị trong terminal với 4 chữ số thập phân. Đây là một trong ba lệnh đo lường — [Distance](../distance/) đo độ dài đường thẳng, và [Area](../area/) đo diện tích và chu vi của một đa giác.
 
 ## Cấu Trúc Phép Đo Góc
 
@@ -30,7 +30,7 @@ Lệnh `angle` đo góc nội tại tại đỉnh được tạo bởi hai đo�
 
 ## Đo Góc
 
-1. Nhập `angle` trong terminal hoặc bấm nút **Angle** trên thanh công cụ.
+1. Nhập `Góc` trong terminal hoặc bấm nút **Angle** trên thanh công cụ.
 2. **Bấm điểm đầu tiên** — một đầu của góc. Hoặc nhập `X,Y` và nhấn **Enter** cho tọa độ chính xác.
 3. **Bấm đỉnh** — góc nơi hai cánh gặp nhau. Nhập tọa độ cũng được.
 4. **Bấm điểm thứ ba** — đầu cánh thứ hai. Nhập tọa độ cũng được. Đặt điểm này in kết quả.

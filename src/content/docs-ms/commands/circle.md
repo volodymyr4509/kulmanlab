@@ -8,11 +8,11 @@ order: 4
 
 # Circle
 
-Arahan `circle` melukis bulatan yang ditakrifkan oleh titik pusat dan jejari. Selepas pusat diklik, anda boleh menetapkan jejari sama ada dengan mengklik titik kedua pada kanvas atau dengan menaip nombor tepat — kedua-dua pilihan aktif pada masa yang sama.
+Arahan `Bulatan` melukis bulatan yang ditakrifkan oleh titik pusat dan jejari. Selepas pusat diklik, anda boleh menetapkan jejari sama ada dengan mengklik titik kedua pada kanvas atau dengan menaip nombor tepat — kedua-dua pilihan aktif pada masa yang sama.
 
 ## Melukis bulatan
 
-1. Taip `circle` dalam terminal atau klik butang bar alat **Circle**.
+1. Taip `Bulatan` dalam terminal atau klik butang bar alat **Circle**.
 2. **Klik titik pusat**, atau taip `X,Y` dan tekan **Enter** untuk koordinat tepat.
 3. Tetapkan jejari — sama ada:
    - **Klik mana-mana titik** pada kanvas — jarak dari pusat menjadi jejari, atau

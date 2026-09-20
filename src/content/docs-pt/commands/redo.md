@@ -8,11 +8,11 @@ order: 14
 
 # Redo
 
-O comando `redo` avança pelo histórico de desfazer, reaplicando ações revertidas por [Undo](../undo/). Redo só está disponível quando você voltou com Undo e ainda não fez uma nova alteração.
+O comando `Refazer` avança pelo histórico de desfazer, reaplicando ações revertidas por [Undo](../undo/). Redo só está disponível quando você voltou com Undo e ainda não fez uma nova alteração.
 
 ## Como executar redo
 
-- Digite `redo` no terminal, ou
+- Digite `Refazer` no terminal, ou
 - Clique no botão **Redo** na barra de ferramentas.
 
 Cada invocação reaaplica uma ação previamente desfeita. Invoque repetidamente para avançar por todas as entradas de redo disponíveis.

@@ -8,20 +8,20 @@ order: 3
 
 # LayerMatch
 
-Polecenie `LayerMatch` przypisuje warstwę zaznaczonych elementów tak, aby odpowiadała warstwie klikniętego elementu źródłowego. Jest to najszybszy sposób na przeniesienie grupy obiektów na właściwą warstwę bez otwierania [Menedżera warstw](../layer-manager/).
+Polecenie `WarstwaJakWeWzorcu` przypisuje warstwę zaznaczonych elementów tak, aby odpowiadała warstwie klikniętego elementu źródłowego. Jest to najszybszy sposób na przeniesienie grupy obiektów na właściwą warstwę bez otwierania [Menedżera warstw](../layer-manager/).
 
 ## Przepływ pracy
 
 **Wstępne zaznaczenie, a następnie dopasowanie**:
 
 1. Zaznacz elementy, których warstwę chcesz zmienić.
-2. Wpisz `LayerMatch` lub kliknij przycisk **Dopasuj warstwę** na pasku narzędzi (ikona pędzla).
+2. Wpisz `WarstwaJakWeWzorcu` lub kliknij przycisk **Dopasuj warstwę** na pasku narzędzi (ikona pędzla).
 3. **Kliknij obiekt źródłowy** — ten, którego warstwę chcesz skopiować.
 4. Wszystkie zaznaczone elementy natychmiast przechodzą na warstwę obiektu źródłowego.
 
 **Aktywuj, a następnie zaznacz**:
 
-1. Wpisz `LayerMatch` lub kliknij przycisk paska narzędzi bez niczego zaznaczonego.
+1. Wpisz `WarstwaJakWeWzorcu` lub kliknij przycisk paska narzędzi bez niczego zaznaczonego.
 2. **Wybierz elementy docelowe** — kliknij, aby przełączać poszczególne elementy, lub przeciągnij, aby zaznaczyć obszarem.
 3. Naciśnij **Enter** lub **Spację**, aby potwierdzić zaznaczenie.
 4. **Kliknij obiekt źródłowy** — jego warstwa jest stosowana do wszystkich elementów docelowych.

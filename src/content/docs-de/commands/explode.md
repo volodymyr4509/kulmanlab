@@ -8,7 +8,7 @@ order: 16
 
 # Explode
 
-Der `explode`-Befehl zerlegt eine [Polyline](../polyline/) in ihre einzelnen [Line](../line/)- und [Arc](../arc/)-Elemente — eines pro Segment, genau dort, wo die Eckpunkte der Polyline lagen. Die Teile ersetzen die Polyline an Ort und Stelle und behalten deren Linienstärke, Farbe, Layer und Linientyp.
+Der `Zerlegen`-Befehl zerlegt eine [Polyline](../polyline/) in ihre einzelnen [Line](../line/)- und [Arc](../arc/)-Elemente — eines pro Segment, genau dort, wo die Eckpunkte der Polyline lagen. Die Teile ersetzen die Polyline an Ort und Stelle und behalten deren Linienstärke, Farbe, Layer und Linientyp.
 
 Explode funktioniert nur mit **Polyline**-Elementen.
 
@@ -19,13 +19,13 @@ Zwei Wege, dasselbe Muster wie bei [Delete](../delete/):
 **Vorauswahl, dann explodieren** — der schnellste Weg:
 
 1. Eine oder mehrere Polylinien auf der Zeichenfläche auswählen.
-2. `explode` im Terminal eingeben oder auf die Schaltfläche **Explode** im Edit-Panel klicken.
+2. `Zerlegen` im Terminal eingeben oder auf die Schaltfläche **Explode** im Edit-Panel klicken.
 
 Die ausgewählten Polylinien werden sofort explodiert — kein separater Bestätigungsschritt, da bereits etwas ausgewählt ist.
 
 **Aktivieren, dann auswählen**:
 
-1. `explode` eingeben oder auf die Symbolleisten-Schaltfläche klicken (ohne Auswahl).
+1. `Zerlegen` eingeben oder auf die Symbolleisten-Schaltfläche klicken (ohne Auswahl).
 2. **Polylinien auswählen** — klicken zum Umschalten oder ziehen zur Flächenauswahl.
 3. **Enter** oder **Space** drücken, um die ausgewählten Polylinien zu bestätigen und zu explodieren.
 

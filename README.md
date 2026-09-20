@@ -261,7 +261,7 @@ Drawings are stored locally in your browser using **IndexedDB**. Nothing is sent
 
 ### Command Terminal
 
-Type command names directly into the terminal at the bottom of the screen. Suggestions match letters anywhere in a command's name, not just the start, ranked by match quality and then by how often you actually use each command — the list is mouse-clickable, scrolls to keep the selected suggestion in view while cycling with **Tab**, and highlights just the matched letters in place.
+Type command names directly into the terminal at the bottom of the screen. Command names follow the selected app language. Most translations accept a fully localized command name; Hindi, Bengali, Punjabi, Thai, Chinese, Japanese, and Korean keep the English command as the typeable prefix and show the localized label beside it. Suggestions match letters anywhere in the displayed name, not just the start, ranked by match quality and then by how often you actually use each command — the list is mouse-clickable, scrolls to keep the selected suggestion in view while cycling with **Tab**, and highlights just the matched letters in place. Command input is case-insensitive and Latin command names can also be typed without accents.
 
 | Command | Alias |
 |---------|-------|

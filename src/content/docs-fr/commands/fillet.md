@@ -8,13 +8,13 @@ order: 11
 
 # Fillet
 
-La commande `fillet` arrondit un angle entre deux segments [Line](../line/), [Arc](../arc/) ou [Polyline](../polyline/) en insérant un arc tangent d'un rayon donné, en raccordant (ou en fusionnant) les entités choisies jusqu'à ce point.
+La commande `Raccord` arrondit un angle entre deux segments [Line](../line/), [Arc](../arc/) ou [Polyline](../polyline/) en insérant un arc tangent d'un rayon donné, en raccordant (ou en fusionnant) les entités choisies jusqu'à ce point.
 
 Fillet fonctionne avec les entités **Line, Arc et Polyline** — y compris les segments droits ou d'arc d'une polyligne.
 
 ## Utiliser fillet
 
-1. Tapez `fillet` dans le terminal ou cliquez sur le bouton **Fillet** de la barre d'outils.
+1. Tapez `Raccord` dans le terminal ou cliquez sur le bouton **Fillet** de la barre d'outils.
 2. **Tapez le rayon du congé** et appuyez sur **Entrée**.
 3. **Cliquez sur la première ligne, arc ou segment de polyligne** — la portion sur laquelle vous cliquez détermine quel côté de l'intersection est conservé.
 4. **Survolez la deuxième entité** — un aperçu d'arc en pointillés montre le congé résultant. Déplacez le curseur vers le côté que vous souhaitez conserver.

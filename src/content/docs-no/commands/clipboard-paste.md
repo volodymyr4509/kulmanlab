@@ -8,11 +8,11 @@ order: 18
 
 # ClipboardPaste
 
-Kommandoen `ClipboardPaste` leser enhetene som [ClipboardCopy](../clipboard-copy/) skrev til **systemets utklippstavle**, og plasserer dem i den gjeldende tegningen på et punkt du velger. Fordi utklippstavlen er systemets ekte, kan kilden være en annen tegning, en annen nettleserfane eller en økt fra tidligere på dagen.
+Kommandoen `LimInnFraUtklippstavle` leser enhetene som [ClipboardCopy](../clipboard-copy/) skrev til **systemets utklippstavle**, og plasserer dem i den gjeldende tegningen på et punkt du velger. Fordi utklippstavlen er systemets ekte, kan kilden være en annen tegning, en annen nettleserfane eller en økt fra tidligere på dagen.
 
 ## Slik limer du inn
 
-1. Trykk `Ctrl+V` (`Cmd+V` på macOS), eller skriv `ClipboardPaste` i terminalen.
+1. Trykk `Ctrl+V` (`Cmd+V` på macOS), eller skriv `LimInnFraUtklippstavle` i terminalen.
 2. Ledeteksten viser **reading clipboard…** mens nettleseren overleverer utklippsteksten.
 3. Når den er lastet, endres ledeteksten til **pick insertion point**, og en forhåndsvisning av geometrien følger markøren.
 4. **Klikk** for å plassere enhetene. De legges til i tegningen og forblir valgt.

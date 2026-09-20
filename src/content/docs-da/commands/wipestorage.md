@@ -8,7 +8,7 @@ order: 7
 
 # Wipe Storage
 
-Kommandoen `wipestorage` sletter permanent **alle data gemt i browseren** for KulmanLab CAD — hver gemte fil, lag- og linetype-tabel, og fortryd-historik. Siden genindlæses automatisk bagefter.
+Kommandoen `RydLager` sletter permanent **alle data gemt i browseren** for KulmanLab CAD — hver gemte fil, lag- og linetype-tabel, og fortryd-historik. Siden genindlæses automatisk bagefter.
 
 :::danger Irreversibelt
 Denne handling kan ikke fortrydes. Alle filer gemt i browseren slettes. Eksportér alle tegninger, du vil beholde, som `.json`- eller `.dxf`-filer, før du kører denne kommando.
@@ -22,7 +22,7 @@ Denne handling kan ikke fortrydes. Alle filer gemt i browseren slettes. Eksport�
 
 ## Sådan kører du den
 
-1. Skriv `wipestorage` i terminalen og tryk **Enter**.
+1. Skriv `RydLager` i terminalen og tryk **Enter**.
 2. Terminalen spørger: *Wipe all browser local storage? Type YES to confirm*
 3. Skriv `YES` (uanset bogstavstørrelse) og tryk **Enter**.
 

@@ -8,12 +8,12 @@ order: 1
 
 # ViewportRectangle
 
-O comando `ViewportRectangle` cria uma nova viewport no layout papel ativo selecionando dois cantos opostos. Disponível apenas no espaço de layout.
+O comando `JanelaRetangular` cria uma nova viewport no layout papel ativo selecionando dois cantos opostos. Disponível apenas no espaço de layout.
 
 ## Criando uma viewport
 
 1. Mude para um layout papel usando a aba na parte inferior da tela.
-2. Digite `ViewportRectangle` no terminal ou clique no botão **Viewport Rectangle** na barra de ferramentas.
+2. Digite `JanelaRetangular` no terminal ou clique no botão **Viewport Rectangle** na barra de ferramentas.
 3. **Clique no primeiro canto**, ou digite `X,Y` e pressione **Enter** para uma coordenada exata.
 4. **Clique no canto oposto** — a viewport é posicionada imediatamente. A entrada de coordenadas também funciona aqui.
 

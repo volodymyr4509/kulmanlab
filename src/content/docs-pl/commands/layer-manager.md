@@ -8,11 +8,11 @@ order: 1
 
 # LayerManager
 
-Polecenie `LayerManager` otwiera tabelę z wszystkimi warstwami rysunku, w której ustawienia **Freeze**, **Lock**, **Plot**, **Kolor**, **Grubość linii** i **Rodzaj linii** edytuje się bezpośrednio w wierszu. To centralne miejsce, by dodawać warstwy, usuwać nieużywane i regulować zachowanie istniejących — pozostałe polecenia warstw ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) robią po jednej konkretnej rzeczy, nie otwierając go.
+Polecenie `MenedżerWarstw` otwiera tabelę z wszystkimi warstwami rysunku, w której ustawienia **Freeze**, **Lock**, **Plot**, **Kolor**, **Grubość linii** i **Rodzaj linii** edytuje się bezpośrednio w wierszu. To centralne miejsce, by dodawać warstwy, usuwać nieużywane i regulować zachowanie istniejących — pozostałe polecenia warstw ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) robią po jednej konkretnej rzeczy, nie otwierając go.
 
 ## Otwieranie Menedżera warstw
 
-- Wpisz `LayerManager` w terminalu, **lub**
+- Wpisz `MenedżerWarstw` w terminalu, **lub**
 - Kliknij przycisk **Layer Manager** na panelu warstw.
 
 Okno dialogowe otwiera się jako pływający panel; nie trzeba niczego wcześniej zaznaczać.

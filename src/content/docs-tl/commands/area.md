@@ -8,7 +8,7 @@ order: 3
 
 # Area
 
-Sinusukat ng `area` command ang saklaw na area at perimeter ng isang polygon na tinutukoy ng tatlo o higit pang na-click na punto, at ini-print ang parehong resulta sa terminal hanggang 4 decimal places. Ito ang ikatlong measurement command, kasama ng [Distance](../distance/) (straight-line na haba) at [Angle](../angle/) (interior angle sa isang vertex).
+Sinusukat ng `Lawak` command ang saklaw na area at perimeter ng isang polygon na tinutukoy ng tatlo o higit pang na-click na punto, at ini-print ang parehong resulta sa terminal hanggang 4 decimal places. Ito ang ikatlong measurement command, kasama ng [Distance](../distance/) (straight-line na haba) at [Angle](../angle/) (interior angle sa isang vertex).
 
 ## Anatomiya ng Area Measurement
 
@@ -30,7 +30,7 @@ Sinusukat ng `area` command ang saklaw na area at perimeter ng isang polygon na 
 
 ## Pagsukat ng Area
 
-1. I-type ang `area` sa terminal o i-click ang **Area** button sa toolbar (nasa ibabang row ng Measure panel).
+1. I-type ang `Lawak` sa terminal o i-click ang **Area** button sa toolbar (nasa ibabang row ng Measure panel).
 2. **I-click ang unang punto**, o i-type ang `X,Y` at pindutin ang **Enter** para sa eksaktong coordinate.
 3. **I-click ang bawat karagdagang vertex** ayon sa pagkakasunod-sunod sa paligid ng hugis. Gumagana ang coordinate entry sa bawat hakbang.
 4. Kapag nailagay na ang hindi bababa sa **3 punto**, pindutin ang **Enter** o **Space** (walang nakabinbing coordinate o distance entry) para isara ang polygon at kalkulahin ang resulta.
@@ -93,5 +93,5 @@ Sa halip na mag-click, i-type ang eksaktong posisyon para sa anumang vertex:
 - Kinakalkula ang area gamit ang shoelace formula at palaging iniuulat bilang positibong value, anuman ang pagkakasunod-sunod ng click.
 - Ang mga self-intersecting na polygon (mga edge na nagkakrus-krus) ay nagbibigay pa rin ng numerical na resulta, ngunit maaaring hindi tumugma ang value sa visually enclosed na lugar — panatilihin ang non-crossing na pagkakasunod-sunod ng click para sa makabuluhang area.
 - Ipinapakita lamang ang mga resulta sa **terminal at bilang pansamantalang highlight sa canvas** — walang permanenteng idinadagdag sa drawing.
-- Hindi tulad ng Distance at Angle, hindi **kumakadena** ang Area nang awtomatiko sa bagong sukatan — pagkatapos itago ang resulta, patakbuhin ulit ang `area` para sumukat ng ibang polygon.
+- Hindi tulad ng Distance at Angle, hindi **kumakadena** ang Area nang awtomatiko sa bagong sukatan — pagkatapos itago ang resulta, patakbuhin ulit ang `Lawak` para sumukat ng ibang polygon.
 - Palaging 4 decimal places ang precision para sa parehong area at perimeter, sa parehong units gaya ng drawing coordinates (walang unit conversion).

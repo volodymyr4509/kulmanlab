@@ -8,11 +8,11 @@ order: 6
 
 # Ellipse
 
-Perintah `ellipse` menggambar elips menggunakan tiga klik: titik pusat, titik akhir semi-sumbu pertama (utama) pada sudut mana saja, dan panjang semi-sumbu kedua (minor). Kedua sumbu selalu tegak lurus satu sama lain — arah sumbu kedua diturunkan secara otomatis dari yang pertama.
+Perintah `Elips` menggambar elips menggunakan tiga klik: titik pusat, titik akhir semi-sumbu pertama (utama) pada sudut mana saja, dan panjang semi-sumbu kedua (minor). Kedua sumbu selalu tegak lurus satu sama lain — arah sumbu kedua diturunkan secara otomatis dari yang pertama.
 
 ## Menggambar elips
 
-1. Ketik `ellipse` di terminal atau klik tombol toolbar **Ellipse**.
+1. Ketik `Elips` di terminal atau klik tombol toolbar **Ellipse**.
 2. **Klik titik pusat**, atau ketik `X,Y` dan tekan **Enter** untuk koordinat tepat.
 3. **Klik titik akhir sumbu pertama** — menetapkan arah dan panjang semi-sumbu pertama. Entri koordinat juga berfungsi di sini.
 4. **Atur panjang sumbu kedua** — gerakkan kursor tegak lurus ke sumbu pertama, lalu klik atau ketik panjang.

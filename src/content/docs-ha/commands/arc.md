@@ -8,11 +8,11 @@ order: 5
 
 # Arc
 
-Umarnin `arc` yana zana baka mai zagaye ta tabo uku da ka danna. Ana lissafa bakan a matsayin circumcircle na musamman wanda ya wuce ta dukkan tabo uku — babu bukatar bayyana tsakiya ko radius kai tsaye. Bakan yana gudana daga dannawa ta farko zuwa dannawa ta uku, yana wucewa ta ta biyu.
+Umarnin `Baka` yana zana baka mai zagaye ta tabo uku da ka danna. Ana lissafa bakan a matsayin circumcircle na musamman wanda ya wuce ta dukkan tabo uku — babu bukatar bayyana tsakiya ko radius kai tsaye. Bakan yana gudana daga dannawa ta farko zuwa dannawa ta uku, yana wucewa ta ta biyu.
 
 ## Zana baka
 
-1. Rubuta `arc` a tashar umarni ko danna maɓallin kayan aiki na **Arc**.
+1. Rubuta `Baka` a tashar umarni ko danna maɓallin kayan aiki na **Arc**.
 2. **Danna tabo na farko** — ƙarshe ɗaya na bakan. Ko rubuta `X,Y` ka danna **Enter** don daidaitawa madaidaiciya.
 3. **Danna tabo na biyu** — tabon da bakan dole ne ya wuce ta ciki (yana sarrafa curvature da shugabanci). Shigar da daidaitawa yana aiki a nan ma.
 4. **Danna tabo na uku** — ƙarshen dayan na bakan. Ana sanya bakan kuma umarnin yana fita. Shigar da daidaitawa yana aiki a nan ma.

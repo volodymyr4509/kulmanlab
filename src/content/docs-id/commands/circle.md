@@ -8,11 +8,11 @@ order: 4
 
 # Circle
 
-Perintah `circle` menggambar lingkaran yang ditentukan oleh titik pusat dan radius. Setelah pusat diklik, Anda dapat mengatur radius dengan mengklik titik kedua di kanvas atau mengetik angka tepat — kedua opsi tersedia secara bersamaan.
+Perintah `Lingkaran` menggambar lingkaran yang ditentukan oleh titik pusat dan radius. Setelah pusat diklik, Anda dapat mengatur radius dengan mengklik titik kedua di kanvas atau mengetik angka tepat — kedua opsi tersedia secara bersamaan.
 
 ## Menggambar lingkaran
 
-1. Ketik `circle` di terminal atau klik tombol toolbar **Circle**.
+1. Ketik `Lingkaran` di terminal atau klik tombol toolbar **Circle**.
 2. **Klik titik pusat**, atau ketik `X,Y` dan tekan **Enter** untuk koordinat tepat.
 3. Atur radius — baik dengan:
    - **Mengklik titik mana saja** di kanvas — jarak dari pusat menjadi radius, atau

@@ -8,11 +8,11 @@ order: 8
 
 # Spline CV
 
-Il comando `splinecv` disegna una **B-spline cubica** posizionando vertici di controllo (CV). La curva risultante è attratta verso ogni CV ma non passa attraverso di essi — tranne che nel primo e nell'ultimo vertice, dove i **nodi bloccati** ancorano la curva esattamente. Questo offre un controllo intuitivo della forma: trascina un vertice per spingere la curva verso di esso senza forzarla a toccare ogni punto.
+Il comando `SplineVertici` disegna una **B-spline cubica** posizionando vertici di controllo (CV). La curva risultante è attratta verso ogni CV ma non passa attraverso di essi — tranne che nel primo e nell'ultimo vertice, dove i **nodi bloccati** ancorano la curva esattamente. Questo offre un controllo intuitivo della forma: trascina un vertice per spingere la curva verso di esso senza forzarla a toccare ogni punto.
 
 ## Disegnare una spline per vertici di controllo
 
-1. Digita `splinecv` nel terminale o clicca il pulsante **Spline CV** nella barra degli strumenti.
+1. Digita `SplineVertici` nel terminale o clicca il pulsante **Spline CV** nella barra degli strumenti.
 2. **Clicca per posizionare i vertici di controllo** — ogni clic aggiunge un vertice. Oppure digita `X,Y` e premi **Invio** per una coordinata esatta.
 3. Premi **Invio** o **Spazio** per terminare (almeno 2 vertici richiesti).
 

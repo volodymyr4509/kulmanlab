@@ -8,13 +8,13 @@ order: 0
 
 # Text
 
-Amri ya `text` huweka lebo ya maandishi ya mistari mingi. Baada ya kubonyeza nafasi kwenye kanvasi, kihariri cha popup hufunguka katika hali **tajiri** — unaweza kuandika maudhui, kutumia herufi nzito/italiki/mstari wa chini/kupigwa mstari kwa kila herufi, kubadilisha fonti na urefu, na kuingiza mapumziko ya mstari. Bonyeza **Escape** kuthibitisha na kufunga kihariri.
+Amri ya `Maandishi` huweka lebo ya maandishi ya mistari mingi. Baada ya kubonyeza nafasi kwenye kanvasi, kihariri cha popup hufunguka katika hali **tajiri** — unaweza kuandika maudhui, kutumia herufi nzito/italiki/mstari wa chini/kupigwa mstari kwa kila herufi, kubadilisha fonti na urefu, na kuingiza mapumziko ya mstari. Bonyeza **Escape** kuthibitisha na kufunga kihariri.
 
 Angalia ukurasa wa [Text Editor](../../interface/text-editor/) kwa marejeo kamili ya kihariri, ikijumuisha ulinganisho wa hali **tajiri** na **rahisi**.
 
 ## Kuweka lebo ya maandishi
 
-1. Andika `text` kwenye terminal au bonyeza kitufe cha **Text** kwenye upau wa zana.
+1. Andika `Maandishi` kwenye terminal au bonyeza kitufe cha **Text** kwenye upau wa zana.
 2. **Bonyeza nafasi ya nanga** kwenye kanvasi. Au andika `X,Y` na ubonyeze **Enter** kwa kuratibu sahihi.
 3. **Popup ya kihariri cha maandishi** hufunguka juu ya lebo mpya. Andika maudhui yako.
 4. Bonyeza **Escape** kuthibitisha lebo na kufunga kihariri.

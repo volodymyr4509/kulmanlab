@@ -7,11 +7,11 @@ order: 4
 
 # Fit
 
-Lệnh `fit` tính hộp bao của tất cả thực thể trong bản vẽ và điều chỉnh cả mức phóng to và vị trí di chuyển để mọi thực thể hiển thị với một khoảng lề nhỏ. Đây là cách nhanh nhất để khôi phục khung nhìn bị mất hoặc định hướng sau khi nhập tệp DXF.
+Lệnh `VừaKhung` tính hộp bao của tất cả thực thể trong bản vẽ và điều chỉnh cả mức phóng to và vị trí di chuyển để mọi thực thể hiển thị với một khoảng lề nhỏ. Đây là cách nhanh nhất để khôi phục khung nhìn bị mất hoặc định hướng sau khi nhập tệp DXF.
 
 ## Vừa khung nhìn
 
-Nhấp nút **Fit** trên thanh công cụ hoặc gõ `fit` trong terminal. Khung nhìn điều chỉnh ngay lập tức và lệnh kết thúc — không cần tương tác.
+Nhấp nút **Fit** trên thanh công cụ hoặc gõ `VừaKhung` trong terminal. Khung nhìn điều chỉnh ngay lập tức và lệnh kết thúc — không cần tương tác.
 
 **Nhấp đúp nút chuột giữa** kích hoạt cùng thao tác Fit bất kỳ lúc nào mà không cần kích hoạt lệnh.
 

@@ -8,11 +8,11 @@ order: 4
 
 # LayerUnfreezeAll
 
-Umarnin `LayerUnfreezeAll` yana wanke tutar daskarewa a **kowace layer** a zanen nan take. Babu bukatar zaɓi ko tabbatarwa — yana gudana kuma yana ƙarewa a mataki ɗaya.
+Umarnin `NarkarDukaMatakai` yana wanke tutar daskarewa a **kowace layer** a zanen nan take. Babu bukatar zaɓi ko tabbatarwa — yana gudana kuma yana ƙarewa a mataki ɗaya.
 
 ## Amfani
 
-Rubuta `LayerUnfreezeAll` a tashar umarni ko danna maɓallin kayan aiki na **Unfreeze All** (alamar rana). Dukkan layers masu daskarewa suna bayyana nan take.
+Rubuta `NarkarDukaMatakai` a tashar umarni ko danna maɓallin kayan aiki na **Unfreeze All** (alamar rana). Dukkan layers masu daskarewa suna bayyana nan take.
 
 ## Yaushe za a yi amfani
 

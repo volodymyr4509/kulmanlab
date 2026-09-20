@@ -8,17 +8,17 @@ order: 1
 
 # Match Properties
 
-Der Befehl `MatchProperties` kopiert **visuelle Eigenschaften und Layer-Eigenschaften** von einer Quellentität auf eine oder mehrere Zielentitäten. Nur Eigenschaften, die zwischen dem Quell- und Zielentitätstyp geteilt werden, werden übertragen — die Geometrie wird nie verändert.
+Der Befehl `EigenschaftenÜbertragen` kopiert **visuelle Eigenschaften und Layer-Eigenschaften** von einer Quellentität auf eine oder mehrere Zielentitäten. Nur Eigenschaften, die zwischen dem Quell- und Zielentitätstyp geteilt werden, werden übertragen — die Geometrie wird nie verändert.
 
 ## So aktivieren Sie den Befehl
 
-Klicken Sie auf die Schaltfläche **Match Properties** in der Symbolleiste (Farbrolle-Symbol) im Stil-Panel oder geben Sie `MatchProperties` im Terminal ein.
+Klicken Sie auf die Schaltfläche **Match Properties** in der Symbolleiste (Farbrolle-Symbol) im Stil-Panel oder geben Sie `EigenschaftenÜbertragen` im Terminal ein.
 
 ## Arbeitsablauf
 
 **Zuerst aktivieren, dann Quelle auswählen:**
 
-1. Geben Sie `MatchProperties` ein oder klicken Sie auf die Schaltfläche in der Symbolleiste, ohne vorher etwas ausgewählt zu haben.
+1. Geben Sie `EigenschaftenÜbertragen` ein oder klicken Sie auf die Schaltfläche in der Symbolleiste, ohne vorher etwas ausgewählt zu haben.
 2. **Klicken Sie auf die Quellentität** — diejenige, deren Eigenschaften Sie kopieren möchten.
 3. **Klicken Sie auf jede Zielentität**, um die Quelleigenschaften anzuwenden. Sie können mehrere Entitäten nacheinander anklicken.
 4. Um die Eigenschaften auf eine Gruppe gleichzeitig anzuwenden, **ziehen Sie einen Auswahlrahmen** über die Ziele.
@@ -27,7 +27,7 @@ Klicken Sie auf die Schaltfläche **Match Properties** in der Symbolleiste (Farb
 **Zuerst Quelle auswählen, dann aktivieren:**
 
 1. Klicken Sie auf eine einzelne Entität, um sie auszuwählen.
-2. Aktivieren Sie `MatchProperties`. Die ausgewählte Entität wird automatisch als Quelle verwendet.
+2. Aktivieren Sie `EigenschaftenÜbertragen`. Die ausgewählte Entität wird automatisch als Quelle verwendet.
 3. Klicken Sie auf Zielentitäten oder ziehen Sie eine Auswahl, dann **Enter** oder **Escape** zum Beenden.
 
 ## Welche Eigenschaften werden kopiert

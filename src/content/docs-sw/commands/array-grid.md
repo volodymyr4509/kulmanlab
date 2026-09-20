@@ -8,14 +8,14 @@ order: 15
 
 # Array Grid
 
-Amri ya `ArrayGrid` huunda gridi ya mstatili ya nakala kutoka kwa vipengele vilivyochaguliwa — ingiza idadi ya safu mlalo, idadi ya safu wima, na nafasi kati yao, yote yakiandikwa kwenye terminal. Uchaguzi wa asili unachukua kiini cha safu mlalo 0, safu wima 0; kila kiini kingine ni nakala iliyohamishwa.
+Amri ya `MpangilioGridi` huunda gridi ya mstatili ya nakala kutoka kwa vipengele vilivyochaguliwa — ingiza idadi ya safu mlalo, idadi ya safu wima, na nafasi kati yao, yote yakiandikwa kwenye terminal. Uchaguzi wa asili unachukua kiini cha safu mlalo 0, safu wima 0; kila kiini kingine ni nakala iliyohamishwa.
 
 ## Njia mbili za kuanza
 
 **Chagua kwanza, kisha array** — chagua vipengele kwanza, kisha amilisha:
 
 1. Chagua kipengele kimoja au zaidi kwenye kanvasi.
-2. Andika `arraygrid` kwenye terminal (`arr` pekee inatosha — haina utata) au bonyeza kitufe cha upau wa zana cha **Array Grid**.
+2. Andika `MpangilioGridi` kwenye terminal (`arr` pekee inatosha — haina utata) au bonyeza kitufe cha upau wa zana cha **Array Grid**.
 3. Andika idadi ya **safu mlalo** na ubonyeze **Enter**.
 4. Andika idadi ya **safu wima** na ubonyeze **Enter**.
 5. Andika **nafasi kati ya safu mlalo** na ubonyeze **Enter**.
@@ -23,7 +23,7 @@ Amri ya `ArrayGrid` huunda gridi ya mstatili ya nakala kutoka kwa vipengele vili
 
 **Amilisha, kisha chagua** — anza amri bila kitu chochote kilichochaguliwa:
 
-1. Andika `arraygrid` au bonyeza kitufe cha upau wa zana.
+1. Andika `MpangilioGridi` au bonyeza kitufe cha upau wa zana.
 2. **Chagua vitu** — bonyeza kubadilisha vipengele mmoja mmoja, au buruta kuchagua kwa eneo.
 3. Bonyeza **Enter** au **Space** kuthibitisha uchaguzi.
 4. Endelea na safu mlalo → safu wima → nafasi ya safu mlalo → nafasi ya safu wima kama hapo juu.

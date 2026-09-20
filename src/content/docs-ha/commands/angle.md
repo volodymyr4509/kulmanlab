@@ -8,7 +8,7 @@ order: 2
 
 # Angle
 
-Umarnin `angle` yana auna kusurwar ciki a wata kusurwa da aka kafa daga sassa biyu na layi ta cikin tabo uku da aka danna. Sakamako — koyaushe tsakanin 0° da 180° — ana nuna shi a tashar umarni har zuwa lambobi 4 bayan digit. Yana ɗaya daga cikin umarnin awo guda uku — [Distance](../distance/) yana auna tsawon layi madaidaici, kuma [Area](../area/) yana auna fili da kewaye na polygon da aka rufe.
+Umarnin `Kusurwa` yana auna kusurwar ciki a wata kusurwa da aka kafa daga sassa biyu na layi ta cikin tabo uku da aka danna. Sakamako — koyaushe tsakanin 0° da 180° — ana nuna shi a tashar umarni har zuwa lambobi 4 bayan digit. Yana ɗaya daga cikin umarnin awo guda uku — [Distance](../distance/) yana auna tsawon layi madaidaici, kuma [Area](../area/) yana auna fili da kewaye na polygon da aka rufe.
 
 ## Yanayin auna kusurwa
 
@@ -30,7 +30,7 @@ Umarnin `angle` yana auna kusurwar ciki a wata kusurwa da aka kafa daga sassa bi
 
 ## Auna kusurwa
 
-1. Rubuta `angle` a tashar umarni ko danna maɓallin kayan aiki na **Angle**.
+1. Rubuta `Kusurwa` a tashar umarni ko danna maɓallin kayan aiki na **Angle**.
 2. **Danna tabo na farko** — ƙarshen radiyo ɗaya na kusurwar. Ko rubuta `X,Y` ka danna **Enter** don daidaitawa madaidaiciya.
 3. **Danna kusurwar** — kusurwar da radiyoyin biyu suke haɗuwa a kai. Shigar da daidaitawa yana aiki a nan ma.
 4. **Danna tabo na uku** — ƙarshen radiyo na biyu. Shigar da daidaitawa yana aiki a nan ma. Sanya wannan tabon yana buga sakamakon.

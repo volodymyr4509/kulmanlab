@@ -8,11 +8,11 @@ order: 6
 
 # Ellipse
 
-Der `ellipse`-Befehl zeichnet eine Ellipse mit drei Klicks: einem Mittelpunkt, dem Endpunkt der ersten (Haupt-) Halbachse in beliebigem Winkel und der Länge der zweiten (Neben-) Halbachse. Die beiden Achsen stehen immer senkrecht aufeinander — die Richtung der zweiten Achse wird automatisch aus der ersten abgeleitet.
+Der `Ellipse`-Befehl zeichnet eine Ellipse mit drei Klicks: einem Mittelpunkt, dem Endpunkt der ersten (Haupt-) Halbachse in beliebigem Winkel und der Länge der zweiten (Neben-) Halbachse. Die beiden Achsen stehen immer senkrecht aufeinander — die Richtung der zweiten Achse wird automatisch aus der ersten abgeleitet.
 
 ## Eine Ellipse zeichnen
 
-1. Geben Sie `ellipse` im Terminal ein oder klicken Sie auf die Schaltfläche **Ellipse** in der Symbolleiste.
+1. Geben Sie `Ellipse` im Terminal ein oder klicken Sie auf die Schaltfläche **Ellipse** in der Symbolleiste.
 2. **Mittelpunkt klicken**, oder geben Sie `X,Y` ein und drücken Sie **Enter** für eine genaue Koordinate.
 3. **Ersten Achsenendpunkt klicken** — legt sowohl die Richtung als auch die Länge der ersten Halbachse fest. Koordinateneingabe funktioniert hier ebenfalls.
 4. **Zweite Achsenlänge festlegen** — Mauszeiger senkrecht zur ersten Achse bewegen, dann klicken oder eine Länge eingeben.

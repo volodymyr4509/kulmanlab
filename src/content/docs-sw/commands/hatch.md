@@ -8,11 +8,11 @@ order: 7
 
 # Hatch
 
-Amri ya `hatch` hujaza eneo linalozunguka nukta iliyobofya kwa muundo. Mpaka haujachorwa kwanza — unatokana na kilichopo tayari kwenye turubai, hivyo [Line](../line/) nne tofauti zinazokutana ncha kwa ncha huzunguka eneo sawa kabisa na [Polyline](../polyline/) iliyofungwa inavyofanya, na umbo lolote lililofungwa ndani hugeuka kuwa kisiwa ambacho ujazaji hukiacha bila kuguswa.
+Amri ya `Ujazaji` hujaza eneo linalozunguka nukta iliyobofya kwa muundo. Mpaka haujachorwa kwanza — unatokana na kilichopo tayari kwenye turubai, hivyo [Line](../line/) nne tofauti zinazokutana ncha kwa ncha huzunguka eneo sawa kabisa na [Polyline](../polyline/) iliyofungwa inavyofanya, na umbo lolote lililofungwa ndani hugeuka kuwa kisiwa ambacho ujazaji hukiacha bila kuguswa.
 
 ## Kujaza Eneo
 
-1. Andika `hatch` kwenye terminal au bofya kitufe cha **Hatch** kwenye upau wa zana (aikoni ya sampuli).
+1. Andika `Ujazaji` kwenye terminal au bofya kitufe cha **Hatch** kwenye upau wa zana (aikoni ya sampuli).
 2. **Bofya nukta** ndani ya eneo unalotaka kujaza.
 3. Amri inabaki hai, hivyo endelea kubofya kujaza maeneo zaidi — kila bofyo huunda kiumbe chake cha `Hatch`.
 4. Bonyeza **Enter**, **Space**, au **Escape** ukimaliza.
@@ -69,7 +69,7 @@ Kila hatch mpya huanza ikiwa imejazwa kwa `ANSI31` (au muundo wowote ambao hatch
 1. Chagua hatch iliyopo na fungua uwanja wake wa **Pattern** kwenye paneli ya sifa — hii hufungua kichaguzi cha muundo, gridi ya sampuli zenye majina zilizopangwa kulingana na chanzo cha kila muundo.
 2. Bofya muundo kuutumia — ujazaji husasishwa mara moja.
 
-Uchaguzi huo pia huwa chaguo-msingi kwa hatch ya *ijayo* utakayounda kwa amri ya `hatch`, kwa njia ile ile ambavyo kuchagua tabaka au rangi hubebwa mbele. Hivyo kuweka hatch kwenye maeneo mapya kadhaa kwa muundo fulani: jaza eneo moja, weka muundo wake mara moja, kisha endelea kuweka hatch — kila ujazaji baada ya hapo huanza tayari ukiwa na muundo huo umetumika.
+Uchaguzi huo pia huwa chaguo-msingi kwa hatch ya *ijayo* utakayounda kwa amri ya `Ujazaji`, kwa njia ile ile ambavyo kuchagua tabaka au rangi hubebwa mbele. Hivyo kuweka hatch kwenye maeneo mapya kadhaa kwa muundo fulani: jaza eneo moja, weka muundo wake mara moja, kisha endelea kuweka hatch — kila ujazaji baada ya hapo huanza tayari ukiwa na muundo huo umetumika.
 
 Angalia [Hatch Manager](../hatch-manager/) kupakia faili zako mwenyewe za muundo za `.pat` na kuvinjari maktaba nzima.
 

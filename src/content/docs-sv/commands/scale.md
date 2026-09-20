@@ -8,20 +8,20 @@ order: 5
 
 # Scale
 
-`scale`-kommandot skalar om valda entiteter jämnt kring en basspunkt. Alla avstånd från basspunkten multipliceras med skalfaktorn — en faktor på `2` fördubblar alla mått, `0.5` halverar dem. Faktorn matas alltid in genom att skriva; det går inte att klicka sig till en skala.
+`Skala`-kommandot skalar om valda entiteter jämnt kring en basspunkt. Alla avstånd från basspunkten multipliceras med skalfaktorn — en faktor på `2` fördubblar alla mått, `0.5` halverar dem. Faktorn matas alltid in genom att skriva; det går inte att klicka sig till en skala.
 
 ## Två sätt att starta
 
 **Förval, sedan skalning** — välj entiteter först, aktivera sedan:
 
 1. Välj en eller flera entiteter på ritytan.
-2. Skriv `scale` i terminalen eller klicka på **Scale**-knappen i verktygsfältet.
+2. Skriv `Skala` i terminalen eller klicka på **Scale**-knappen i verktygsfältet.
 3. **Klicka på basspunkten** — den fasta punkten som inte flyttas under skalningen. Eller skriv `X,Y` och tryck **Enter** för en exakt koordinat.
 4. **Skriv skalfaktorn** och tryck **Enter**.
 
 **Aktivera, välj sedan** — starta kommandot utan att något är valt:
 
-1. Skriv `scale` eller klicka på verktygsfältsknappen.
+1. Skriv `Skala` eller klicka på verktygsfältsknappen.
 2. **Välj objekt** — klicka för att växla, eller dra för att välja med ett område.
 3. Tryck **Enter** eller **Space** för att bekräfta valet.
 4. **Klicka på basspunkten** (koordinatinmatning tillgänglig), skriv sedan faktorn.

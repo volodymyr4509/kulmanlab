@@ -8,7 +8,7 @@ order: 3
 
 # Area
 
-Amri ya `area` hupima eneo lililofungwa na mzunguko wa poligoni inayofafanuliwa na pointi tatu au zaidi zilizobonyezwa, na kuchapisha matokeo yote mawili kwenye terminal hadi tarakimu 4 za desimali. Ni amri ya tatu ya kipimo, pamoja na [Distance](../distance/) (urefu wa mstari mnyoofu) na [Angle](../angle/) (pembe ya ndani kwenye kilele).
+Amri ya `Eneo` hupima eneo lililofungwa na mzunguko wa poligoni inayofafanuliwa na pointi tatu au zaidi zilizobonyezwa, na kuchapisha matokeo yote mawili kwenye terminal hadi tarakimu 4 za desimali. Ni amri ya tatu ya kipimo, pamoja na [Distance](../distance/) (urefu wa mstari mnyoofu) na [Angle](../angle/) (pembe ya ndani kwenye kilele).
 
 ## Muundo wa kipimo cha eneo
 
@@ -30,7 +30,7 @@ Amri ya `area` hupima eneo lililofungwa na mzunguko wa poligoni inayofafanuliwa 
 
 ## Kupima eneo
 
-1. Andika `area` kwenye terminal au bonyeza kitufe cha **Area** kwenye upau wa zana (mstari wa chini wa paneli ya Measure).
+1. Andika `Eneo` kwenye terminal au bonyeza kitufe cha **Area** kwenye upau wa zana (mstari wa chini wa paneli ya Measure).
 2. **Bonyeza pointi ya kwanza**, au andika `X,Y` na ubonyeze **Enter** kwa uratibu sahihi.
 3. **Bonyeza kila kipeo cha ziada** kwa mfuatano kuzunguka umbo. Uingizaji wa uratibu unafanya kazi kwenye kila hatua.
 4. Baada ya kuweka angalau **pointi 3**, bonyeza **Enter** au **Space** (bila uingizaji wa uratibu au umbali unaosubiri) ili kufunga poligoni na kuhesabu matokeo.
@@ -93,5 +93,5 @@ Badala ya kubonyeza, andika nafasi sahihi kwa kipeo chochote:
 - Eneo huhesabiwa kwa fomula ya shoelace na daima huripotiwa kama thamani chanya, bila kujali mfuatano wa mibonyezo.
 - Poligoni zinazokatiza zenyewe (kingo zinazovuka) bado huzalisha matokeo ya nambari, lakini thamani huenda isilingane na eneo lililofungwa kwa macho — dumisha mfuatano wa mibonyezo usiokatiza kwa eneo lenye maana.
 - Matokeo yanaonyeshwa kwenye **terminal na kama uangaziaji wa muda kwenye turubai pekee** — hakuna kinachoongezwa kwa kudumu kwenye mchoro.
-- Tofauti na Distance na Angle, Area **haiunganishi** kiotomatiki kipimo kipya — baada ya kuondoa matokeo, endesha `area` tena ili kupima poligoni nyingine.
+- Tofauti na Distance na Angle, Area **haiunganishi** kiotomatiki kipimo kipya — baada ya kuondoa matokeo, endesha `Eneo` tena ili kupima poligoni nyingine.
 - Usahihi daima ni tarakimu 4 za desimali kwa eneo na mzunguko, kwa vitengo sawa na uratibu wa mchoro (hakuna ubadilishaji wa vitengo).

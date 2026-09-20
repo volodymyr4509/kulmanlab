@@ -8,11 +8,11 @@ order: 2
 
 # LeaderAdd
 
-La commande `LeaderAdd` ajoute un nouveau bras de pointe de flèche à un multirépère existant. Le nouveau bras pointe depuis la brisure existante du répère vers une nouvelle pointe de flèche sur laquelle vous cliquez. Tout le style — position de la brisure, texte, type de pointe de flèche et taille — est hérité du répère sélectionné.
+La commande `AjouterBrasRepère` ajoute un nouveau bras de pointe de flèche à un multirépère existant. Le nouveau bras pointe depuis la brisure existante du répère vers une nouvelle pointe de flèche sur laquelle vous cliquez. Tout le style — position de la brisure, texte, type de pointe de flèche et taille — est hérité du répère sélectionné.
 
 ## Ajouter un bras
 
-1. Tapez `LeaderAdd` dans le terminal.
+1. Tapez `AjouterBrasRepère` dans le terminal.
 2. **Cliquez sur un multirépère existant** pour le sélectionner.
 3. **Cliquez sur la nouvelle pointe de flèche**, ou tapez `X,Y` et appuyez sur **Entrée** pour une coordonnée exacte. Une ligne d'aperçu s'affiche du curseur jusqu'à la brisure du répère.
 

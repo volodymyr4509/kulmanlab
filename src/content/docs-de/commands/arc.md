@@ -8,11 +8,11 @@ order: 5
 
 # Arc
 
-Der `arc`-Befehl zeichnet einen Kreisbogen durch drei von Ihnen geklickte Punkte. Der Bogen wird als eindeutiger Umkreis berechnet, der alle drei Punkte passiert — Mittelpunkt oder Radius müssen nicht direkt angegeben werden. Der Bogen verläuft vom ersten Klick bis zum dritten Klick, wobei er durch den zweiten Klick geht.
+Der `Bogen`-Befehl zeichnet einen Kreisbogen durch drei von Ihnen geklickte Punkte. Der Bogen wird als eindeutiger Umkreis berechnet, der alle drei Punkte passiert — Mittelpunkt oder Radius müssen nicht direkt angegeben werden. Der Bogen verläuft vom ersten Klick bis zum dritten Klick, wobei er durch den zweiten Klick geht.
 
 ## Einen Bogen zeichnen
 
-1. Geben Sie `arc` im Terminal ein oder klicken Sie auf die Schaltfläche **Arc** in der Symbolleiste.
+1. Geben Sie `Bogen` im Terminal ein oder klicken Sie auf die Schaltfläche **Arc** in der Symbolleiste.
 2. **Ersten Punkt klicken** — ein Ende des Bogens. Oder geben Sie `X,Y` ein und drücken Sie **Enter** für eine genaue Koordinate.
 3. **Zweiten Punkt klicken** — ein Punkt, durch den der Bogen verlaufen muss (steuert Krümmung und Richtung). Koordinateneingabe funktioniert hier ebenfalls.
 4. **Dritten Punkt klicken** — das andere Ende des Bogens. Der Bogen wird platziert und der Befehl endet. Koordinateneingabe funktioniert hier ebenfalls.

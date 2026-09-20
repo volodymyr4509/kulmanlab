@@ -8,20 +8,20 @@ order: 1
 
 # Move
 
-Il comando `move` trasla le entità selezionate da un punto base a un punto di destinazione. Lo spostamento applicato a ogni entità selezionata è il vettore da base a destinazione. Dopo lo spostamento tutte le entità rimangono selezionate nella nuova posizione, pronte per ulteriori modifiche.
+Il comando `Sposta` trasla le entità selezionate da un punto base a un punto di destinazione. Lo spostamento applicato a ogni entità selezionata è il vettore da base a destinazione. Dopo lo spostamento tutte le entità rimangono selezionate nella nuova posizione, pronte per ulteriori modifiche.
 
 ## Due modi per iniziare
 
 **Preseleziona, poi sposta** — seleziona le entità prima, poi attiva:
 
 1. Seleziona una o più entità sul canvas.
-2. Digita `move` nel terminale o clicca il pulsante **Move** nella barra degli strumenti.
+2. Digita `Sposta` nel terminale o clicca il pulsante **Move** nella barra degli strumenti.
 3. **Clicca il punto base**, oppure digita `X,Y` e premi **Invio** per una coordinata esatta.
 4. **Clicca la destinazione** — tutte le entità selezionate si spostano del vettore base→destinazione. Anche qui è disponibile l'inserimento coordinate.
 
 **Attiva, poi seleziona** — avvia il comando senza nulla selezionato:
 
-1. Digita `move` o clicca il pulsante della barra degli strumenti.
+1. Digita `Sposta` o clicca il pulsante della barra degli strumenti.
 2. **Seleziona gli oggetti** — clicca per alternare singole entità, o trascina per selezionare per area.
 3. Premi **Invio** o **Spazio** per confermare la selezione.
 4. **Clicca il punto base**, poi **clicca la destinazione** (inserimento coordinate disponibile in entrambi i passi).

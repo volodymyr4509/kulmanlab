@@ -12,7 +12,7 @@ Yana buɗe panel na taimako a cikin manhaja tare da taƙaitawar dukkan gajerun h
 
 ## Yadda za a yi amfani
 
-Danna maɓallin kayan aiki na **Help** ko rubuta `help` a tashar umarni. Panel na taimako yana buɗewa nan take kuma umarnin yana fita.
+Danna maɓallin kayan aiki na **Help** ko rubuta `Taimako` a tashar umarni. Panel na taimako yana buɗewa nan take kuma umarnin yana fita.
 
 ## Abin da ke cikin panel na taimako
 

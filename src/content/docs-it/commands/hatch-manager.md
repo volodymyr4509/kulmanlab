@@ -8,11 +8,11 @@ order: 4
 
 # Hatch Manager
 
-Il comando `HatchManager` apre una finestra di dialogo per sfogliare i motivi hatch con anteprima dal vivo dei campioni, e per caricare i tuoi file di motivi `.pat` da usare con [Hatch](../hatch/).
+Il comando `GestoreTratteggi` apre una finestra di dialogo per sfogliare i motivi hatch con anteprima dal vivo dei campioni, e per caricare i tuoi file di motivi `.pat` da usare con [Hatch](../hatch/).
 
 ## Aprire Hatch Manager
 
-Digita `HatchManager` nel terminale. Questo è separato dal selettore di motivi che si apre quando clicchi sul chip **Pattern** di un hatch — il selettore sceglie un motivo per un singolo hatch, Hatch Manager è dove aggiungi o rimuovi file `.pat`.
+Digita `GestoreTratteggi` nel terminale. Questo è separato dal selettore di motivi che si apre quando clicchi sul chip **Pattern** di un hatch — il selettore sceglie un motivo per un singolo hatch, Hatch Manager è dove aggiungi o rimuovi file `.pat`.
 
 ## Gruppi di motivi
 

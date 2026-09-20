@@ -8,7 +8,7 @@ order: 12
 
 # Chamfer
 
-Lệnh `chamfer` vát góc thẳng chéo giữa hai thực thể [Line](../line/) hoặc [Polyline](../polyline/). Bạn chỉ định khoảng cắt lùi dọc theo mỗi thực thể (d1 và d2), và lệnh cắt bớt cả hai thực thể đến những điểm đó rồi chèn một đường kết nối giữa chúng.
+Lệnh `VátCạnh` vát góc thẳng chéo giữa hai thực thể [Line](../line/) hoặc [Polyline](../polyline/). Bạn chỉ định khoảng cắt lùi dọc theo mỗi thực thể (d1 và d2), và lệnh cắt bớt cả hai thực thể đến những điểm đó rồi chèn một đường kết nối giữa chúng.
 
 Sử dụng khoảng cách bằng nhau tạo ra đường cắt 45° đối xứng; khoảng cách khác nhau tạo ra vát góc không đối xứng.
 
@@ -16,7 +16,7 @@ Chamfer hoạt động trên các thực thể **Line và Polyline**.
 
 ## Sử Dụng Chamfer
 
-1. Nhập `chamfer` trong terminal hoặc bấm nút **Chamfer** trên thanh công cụ.
+1. Nhập `VátCạnh` trong terminal hoặc bấm nút **Chamfer** trên thanh công cụ.
 2. **Nhập khoảng cách chamfer đầu tiên** (d1 — khoảng cách dọc theo thực thể đầu tiên) và nhấn **Enter**.
 3. **Nhập khoảng cách chamfer thứ hai** (d2 — khoảng cách dọc theo thực thể thứ hai) và nhấn **Enter**.
 4. **Bấm thực thể đầu tiên** — phần bạn bấm quyết định bên nào của giao điểm được giữ lại.

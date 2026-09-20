@@ -8,11 +8,11 @@ order: 1
 
 # LayerManager
 
-Binubuksan ng utos na `LayerManager` ang isang talahanayang naglilista ng bawat layer sa guhit, kung saan ang **Freeze**, **Lock**, **Plot**, **Kulay**, **Lineweight** at **Linetype** ay direktang nae-edit sa loob ng hilera. Ito ang sentrong lugar upang magdagdag ng layer, magbura ng hindi ginagamit, at ayusin kung paano kumikilos ang mga umiiral — ang ibang utos sa layer ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) ay tig-iisang tiyak na gawain ang ginagampanan nang hindi ito binubuksan.
+Binubuksan ng utos na `TagapamahalaNgLayer` ang isang talahanayang naglilista ng bawat layer sa guhit, kung saan ang **Freeze**, **Lock**, **Plot**, **Kulay**, **Lineweight** at **Linetype** ay direktang nae-edit sa loob ng hilera. Ito ang sentrong lugar upang magdagdag ng layer, magbura ng hindi ginagamit, at ayusin kung paano kumikilos ang mga umiiral — ang ibang utos sa layer ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) ay tig-iisang tiyak na gawain ang ginagampanan nang hindi ito binubuksan.
 
 ## Pagbukas ng Layer Manager
 
-- I-type ang `LayerManager` sa terminal, **o**
+- I-type ang `TagapamahalaNgLayer` sa terminal, **o**
 - I-click ang **Layer Manager** button sa layer panel.
 
 Bubukas ang dialog bilang lumulutang na panel; walang kailangang piliin muna.

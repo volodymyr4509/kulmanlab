@@ -8,7 +8,7 @@ order: 1
 
 # Leader
 
-Arahan `leader` melukis anotasi pelbagai pemimpin dalam empat langkah: kepala anak panah yang menyentuh ciri, garis pemimpin yang membengkok pada dogleg, sauh teks, dan label bertaip. Daripada semua arahan anotasi, Leader adalah satu-satunya yang termasuk fasa input teks interaktif dengan pratonton kursor berkelip.
+Arahan `Penunjuk` melukis anotasi pelbagai pemimpin dalam empat langkah: kepala anak panah yang menyentuh ciri, garis pemimpin yang membengkok pada dogleg, sauh teks, dan label bertaip. Daripada semua arahan anotasi, Leader adalah satu-satunya yang termasuk fasa input teks interaktif dengan pratonton kursor berkelip.
 
 ## Anatomi pelbagai pemimpin
 
@@ -27,7 +27,7 @@ Arahan `leader` melukis anotasi pelbagai pemimpin dalam empat langkah: kepala an
 
 ## Melukis pemimpin
 
-1. Taip `leader` dalam terminal atau klik butang bar alat **Leader**.
+1. Taip `Penunjuk` dalam terminal atau klik butang bar alat **Leader**.
 2. **Klik hujung kepala anak panah**, atau taip `X,Y` dan tekan **Enter** untuk koordinat tepat.
 3. **Klik dogleg** — bengkok dalam pemimpin. Sudut dikunci ke gandaan 45°; taip panjang dan tekan **Enter** untuk peletakan tepat. Atau taip `X,Y` untuk memasukkan koordinat mutlak.
 4. **Klik kedudukan teks** — di mana label berlabuh. Pilihan yang sama terpakai: klik, kunci sudut + panjang, atau `X,Y`.

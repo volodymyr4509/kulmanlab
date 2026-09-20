@@ -8,7 +8,7 @@ order: 16
 
 # Explode
 
-Perintah `explode` memecah [Polyline](../polyline/) menjadi entitas [Line](../line/) dan [Arc](../arc/) individualnya — satu per segmen, tepat di tempat titik-titik sudut polyline itu sendiri berada. Bagian-bagian ini menggantikan polyline di tempat dan mempertahankan ketebalan garis, warna, layer, dan jenis garisnya.
+Perintah `Uraikan` memecah [Polyline](../polyline/) menjadi entitas [Line](../line/) dan [Arc](../arc/) individualnya — satu per segmen, tepat di tempat titik-titik sudut polyline itu sendiri berada. Bagian-bagian ini menggantikan polyline di tempat dan mempertahankan ketebalan garis, warna, layer, dan jenis garisnya.
 
 Explode hanya bekerja pada entitas **Polyline**.
 
@@ -19,13 +19,13 @@ Dua cara untuk menjalankannya, pola yang sama seperti [Delete](../delete/):
 **Pilih dulu, lalu explode** — jalan tercepat:
 
 1. Pilih satu atau lebih polyline di kanvas.
-2. Ketik `explode` di terminal, atau klik tombol **Explode** di panel Edit.
+2. Ketik `Uraikan` di terminal, atau klik tombol **Explode** di panel Edit.
 
 Polyline yang dipilih langsung di-explode — tanpa langkah konfirmasi terpisah, karena sesuatu sudah dipilih.
 
 **Aktifkan, lalu pilih**:
 
-1. Ketik `explode` atau klik tombol toolbar tanpa ada yang dipilih.
+1. Ketik `Uraikan` atau klik tombol toolbar tanpa ada yang dipilih.
 2. **Pilih polyline** — klik untuk toggle, atau seret untuk memilih berdasarkan area.
 3. Tekan **Enter** atau **Spasi** untuk mengonfirmasi dan meng-explode polyline yang dipilih.
 

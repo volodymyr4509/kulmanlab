@@ -8,20 +8,20 @@ order: 7
 
 # Delete
 
-Komento `delete` poistaa valitut entiteetit piirustuksesta. Poistot tallennetaan [Undo](../undo/)-historiaan ja voidaan peruuttaa jopa 20 askelta. Erillistä "vahvista poisto" -valintaikkunaa ei ole — vahvistus on yksi näppäimen painallus.
+Komento `Poista` poistaa valitut entiteetit piirustuksesta. Poistot tallennetaan [Undo](../undo/)-historiaan ja voidaan peruuttaa jopa 20 askelta. Erillistä "vahvista poisto" -valintaikkunaa ei ole — vahvistus on yksi näppäimen painallus.
 
 ## Kaksi tapaa poistaa
 
 **Valitse ensin, poista sitten** — nopein tapa:
 
 1. Valitse yksi tai useampi entiteetti piirtoalueella.
-2. Kirjoita `delete` terminaaliin, napsauta **Delete**-painiketta työkalurivillä, **tai paina suoraan `Delete`-näppäintä**.
+2. Kirjoita `Poista` terminaaliin, napsauta **Delete**-painiketta työkalurivillä, **tai paina suoraan `Delete`-näppäintä**.
 
 Entiteetit poistetaan välittömästi — ei ylimääräistä vahvistusvaihetta.
 
 **Aktivoi, valitse sitten**:
 
-1. Kirjoita `delete` tai napsauta työkalurivin painiketta (ilman mitään valittuna).
+1. Kirjoita `Poista` tai napsauta työkalurivin painiketta (ilman mitään valittuna).
 2. **Valitse objektit** — napsauta vaihtaaksesi, tai vedä valitaksesi alueen mukaan.
 3. Paina **Enter**, **Space** tai **Delete** vahvistaaksesi ja poistaaksesi valitut entiteetit.
 
@@ -44,7 +44,7 @@ Napsauta entiteettiä → paina Delete-näppäintä → valmis
 
 ## Poistettujen entiteettien palauttaminen
 
-Poistot voidaan kumota [Undo](../undo/)-komennolla (kirjoita `undo` tai käytä työkalurivin painiketta). Jopa **20 askelta** voidaan peruuttaa tiedostoa kohden, ja historia säilyy sivun uudelleenlatausten yli. Jos olet ylittänyt 20 poistoa tallentamatta, aiempia poistoja ei voida palauttaa.
+Poistot voidaan kumota [Undo](../undo/)-komennolla (kirjoita `Kumoa` tai käytä työkalurivin painiketta). Jopa **20 askelta** voidaan peruuttaa tiedostoa kohden, ja historia säilyy sivun uudelleenlatausten yli. Jos olet ylittänyt 20 poistoa tallentamatta, aiempia poistoja ei voida palauttaa.
 
 ## Tuetut entiteetit
 

@@ -8,11 +8,11 @@ order: 1
 
 # LayerManager
 
-O comando `LayerManager` abre uma tabela listando todas as camadas do desenho, com as configurações de **Freeze**, **Lock**, **Plot**, **Cor**, **Espessura de linha** e **Tipo de linha** editáveis diretamente na linha. É o lugar central para adicionar camadas, excluir as não utilizadas e ajustar como as existentes se comportam — os demais comandos de camada ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) fazem cada um uma coisa específica sem abri-lo.
+O comando `GerenciadorCamadas` abre uma tabela listando todas as camadas do desenho, com as configurações de **Freeze**, **Lock**, **Plot**, **Cor**, **Espessura de linha** e **Tipo de linha** editáveis diretamente na linha. É o lugar central para adicionar camadas, excluir as não utilizadas e ajustar como as existentes se comportam — os demais comandos de camada ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) fazem cada um uma coisa específica sem abri-lo.
 
 ## Abrindo o Gerenciador de Camadas
 
-- Digite `LayerManager` no terminal, **ou**
+- Digite `GerenciadorCamadas` no terminal, **ou**
 - Clique no botão **Layer Manager** no painel de camadas.
 
 O diálogo abre como um painel flutuante; nada precisa estar selecionado antes.

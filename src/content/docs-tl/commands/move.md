@@ -8,20 +8,20 @@ order: 1
 
 # Move
 
-Ginagalaw ng `move` command ang mga napiling entity mula sa isang base point patungo sa isang destination point. Ang displacement na ilalapat sa bawat napiling entity ay ang vector mula base papuntang destination. Pagkatapos ng move, nananatiling naka-select ang lahat ng entity sa bago nilang posisyon, handa na para sa karagdagang pag-edit.
+Ginagalaw ng `Ilipat` command ang mga napiling entity mula sa isang base point patungo sa isang destination point. Ang displacement na ilalapat sa bawat napiling entity ay ang vector mula base papuntang destination. Pagkatapos ng move, nananatiling naka-select ang lahat ng entity sa bago nilang posisyon, handa na para sa karagdagang pag-edit.
 
 ## Dalawang paraan para magsimula
 
 **Pre-select, tapos move** — piliin muna ang mga entity, pagkatapos i-activate:
 
 1. Piliin ang isa o higit pang entity sa canvas.
-2. I-type ang `move` sa terminal o i-click ang **Move** button sa toolbar.
+2. I-type ang `Ilipat` sa terminal o i-click ang **Move** button sa toolbar.
 3. **I-click ang base point**, o i-type ang `X,Y` at pindutin ang **Enter** para sa eksaktong coordinate.
 4. **I-click ang destination** — lilipat ang lahat ng napiling entity ayon sa base→destination vector. Gumagana rin dito ang coordinate input.
 
 **Activate, tapos select** — simulan ang command nang walang naka-select:
 
-1. I-type ang `move` o i-click ang toolbar button.
+1. I-type ang `Ilipat` o i-click ang toolbar button.
 2. **Piliin ang mga object** — mag-click para i-toggle ang bawat entity, o mag-drag para pumili ayon sa area.
 3. Pindutin ang **Enter** o **Space** para kumpirmahin ang seleksyon.
 4. **I-click ang base point**, tapos **i-click ang destination** (available ang coordinate entry sa parehong hakbang).

@@ -8,14 +8,14 @@ order: 6
 
 # Align
 
-La commande `align` repositionne les entités sélectionnées à l'aide d'une ou deux paires de points source/destination. Avec une paire, elle se comporte exactement comme [Move](../move/) (translation seule). Avec deux paires, elle fait aussi pivoter la sélection pour que la direction source-à-source corresponde à la direction destination-à-destination, et peut éventuellement la redimensionner pour que la longueur du segment source corresponde à celle du segment destination — translation, rotation et mise à l'échelle en une seule opération.
+La commande `Aligner` repositionne les entités sélectionnées à l'aide d'une ou deux paires de points source/destination. Avec une paire, elle se comporte exactement comme [Move](../move/) (translation seule). Avec deux paires, elle fait aussi pivoter la sélection pour que la direction source-à-source corresponde à la direction destination-à-destination, et peut éventuellement la redimensionner pour que la longueur du segment source corresponde à celle du segment destination — translation, rotation et mise à l'échelle en une seule opération.
 
 ## Deux façons de démarrer
 
 **Pré-sélectionner, puis aligner** — sélectionnez d'abord les entités, puis activez :
 
 1. Sélectionnez une ou plusieurs entités sur le canevas.
-2. Tapez `align` dans le terminal ou cliquez sur le bouton **Align** de la barre d'outils.
+2. Tapez `Aligner` dans le terminal ou cliquez sur le bouton **Align** de la barre d'outils.
 3. **Cliquez sur le premier point source (S1)**, puis **sur le premier point destination (D1)**.
 4. **Cliquez sur le second point source (S2)**, ou appuyez sur **Entrée** ou **Espace** pour appliquer dès maintenant un alignement de translation seule.
 5. **Cliquez sur le second point destination (D2)**.
@@ -23,7 +23,7 @@ La commande `align` repositionne les entités sélectionnées à l'aide d'une ou
 
 **Activer, puis sélectionner** — démarrez la commande sans rien de sélectionné :
 
-1. Tapez `align` ou cliquez sur le bouton de la barre d'outils.
+1. Tapez `Aligner` ou cliquez sur le bouton de la barre d'outils.
 2. **Sélectionnez les objets** — cliquez pour basculer les entités individuelles, ou faites glisser pour sélectionner par zone.
 3. Appuyez sur **Entrée** ou **Espace** pour confirmer la sélection.
 4. Continuez avec S1 → D1 → S2 → D2 → invite de mise à l'échelle comme ci-dessus.
@@ -97,4 +97,4 @@ Les entités alignées restent sélectionnées à leur nouvelle position, et la 
 
 ## Entités supportées
 
-Align fonctionne sur tous les types d'entités supportés par Move, Rotate et Scale — les mêmes opérations `translate`, `rotate` et `scale` utilisées par ces commandes sont appliquées en séquence, donc aucune n'est exclue.
+Align fonctionne sur tous les types d'entités supportés par Move, Rotate et Scale — les mêmes opérations `translate`, `Rotation` et `Échelle` utilisées par ces commandes sont appliquées en séquence, donc aucune n'est exclue.

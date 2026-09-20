@@ -8,11 +8,11 @@ order: 2
 
 # LeaderAdd
 
-Kommandoen `LeaderAdd` legger til en ny pilspissarm på en eksisterende multileader. Den nye armen peker fra lederens eksisterende dogleg til en ny pilspiss du klikker. All styling — dogleg-posisjon, tekst, pilspisstype og størrelse — arves fra den valgte lederen.
+Kommandoen `HenvisningLeggTil` legger til en ny pilspissarm på en eksisterende multileader. Den nye armen peker fra lederens eksisterende dogleg til en ny pilspiss du klikker. All styling — dogleg-posisjon, tekst, pilspisstype og størrelse — arves fra den valgte lederen.
 
 ## Legge til en arm
 
-1. Skriv `LeaderAdd` i terminalen.
+1. Skriv `HenvisningLeggTil` i terminalen.
 2. **Klikk en eksisterende multileader** for å velge den.
 3. **Klikk den nye pilspissen**, eller skriv `X,Y` og trykk **Enter** for en eksakt koordinat. En forhåndsvisningslinje vises fra markøren til lederens dogleg.
 

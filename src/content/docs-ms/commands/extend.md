@@ -8,13 +8,13 @@ order: 9
 
 # Extend
 
-Arahan `extend` meregangkan titik akhir terdekat [Line](../line/), [Arc](../arc/), [Ellipse](../ellipse/) atau Polyline terbuka yang dituding ke persimpangan terdekat yang akan dibentuknya dengan entiti lain dalam lukisan. Tuding berhampiran titik akhir yang ingin dipanjangkan — pratonton menunjukkan entiti yang dipanjangkan — kemudian klik untuk menggunakannya.
+Arahan `Panjangkan` meregangkan titik akhir terdekat [Line](../line/), [Arc](../arc/), [Ellipse](../ellipse/) atau Polyline terbuka yang dituding ke persimpangan terdekat yang akan dibentuknya dengan entiti lain dalam lukisan. Tuding berhampiran titik akhir yang ingin dipanjangkan — pratonton menunjukkan entiti yang dipanjangkan — kemudian klik untuk menggunakannya.
 
 Hanya entiti dengan titik akhir sebenar boleh dipanjangkan. [Circle](../circle/) dan Ellipse penuh (360°) sentiasa berbentuk tertutup tanpa titik akhir, jadi tidak boleh dipanjangkan sama sekali — begitu juga Polyline tertutup atau Rectangle. Ellipse separa (lengkok elips) dan Arc mempunyai titik akhir dan dipanjangkan dengan cara yang sama seperti Line.
 
 ## Memanjangkan entiti
 
-1. Taip `extend` dalam terminal atau klik butang bar alat **Extend**.
+1. Taip `Panjangkan` dalam terminal atau klik butang bar alat **Extend**.
 2. **Tuding berhampiran satu hujung** entiti yang ingin dipanjangkan — pratonton menunjukkannya dilanjutkan ke sempadan terdekat dalam arah tersebut.
 3. **Klik** untuk menggunakan pemanjangan.
 

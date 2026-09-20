@@ -8,11 +8,11 @@ order: 8
 
 # Trim
 
-`trim` komutu, iki komşu kesişim noktası arasında kalan [Line](../line/), [Arc](../arc/), [Circle](../circle/), [Ellipse](../ellipse/) veya [Polyline](../polyline/) kısmını kaldırarak nesneyi bir veya daha fazla kalan parçaya böler. Kesilecek segment imleç konumuna göre belirlenir — kaldırılmasını istediğiniz kısmın üzerine gelin ve kırpmak için tıklayın.
+`Buda` komutu, iki komşu kesişim noktası arasında kalan [Line](../line/), [Arc](../arc/), [Circle](../circle/), [Ellipse](../ellipse/) veya [Polyline](../polyline/) kısmını kaldırarak nesneyi bir veya daha fazla kalan parçaya böler. Kesilecek segment imleç konumuna göre belirlenir — kaldırılmasını istediğiniz kısmın üzerine gelin ve kırpmak için tıklayın.
 
 ## Bir nesneyi kırpma
 
-1. Terminale `trim` yazın veya araç çubuğundaki **Trim** düğmesine tıklayın.
+1. Terminale `Buda` yazın veya araç çubuğundaki **Trim** düğmesine tıklayın.
 2. Kaldırmak istediğiniz **segmentin üzerine gelin** — önizleme tam olarak kesilecek kısmı vurgular.
 3. O segmenti kaldırmak için **tıklayın**.
 

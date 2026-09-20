@@ -8,7 +8,7 @@ order: 1
 
 # Distance
 
-Amri ya `distance` hupima umbali wa mstari mnyoofu (Euclidean) kati ya pointi mbili zilizobonyezwa na kuchapisha matokeo kwenye terminal hadi tarakimu 4 za desimali. Ni moja ya amri tatu za kipimo — [Angle](../angle/) hupima ufunguzi wa pembe kwenye kilele, na [Area](../area/) hupima eneo na mzunguko wa poligoni iliyofungwa.
+Amri ya `Umbali` hupima umbali wa mstari mnyoofu (Euclidean) kati ya pointi mbili zilizobonyezwa na kuchapisha matokeo kwenye terminal hadi tarakimu 4 za desimali. Ni moja ya amri tatu za kipimo — [Angle](../angle/) hupima ufunguzi wa pembe kwenye kilele, na [Area](../area/) hupima eneo na mzunguko wa poligoni iliyofungwa.
 
 ## Muundo wa kipimo cha umbali
 
@@ -26,7 +26,7 @@ Amri ya `distance` hupima umbali wa mstari mnyoofu (Euclidean) kati ya pointi mb
 
 ## Kupima umbali
 
-1. Andika `distance` kwenye terminal au bonyeza kitufe cha **Distance** kwenye upau wa zana.
+1. Andika `Umbali` kwenye terminal au bonyeza kitufe cha **Distance** kwenye upau wa zana.
 2. **Bonyeza pointi ya kwanza**, au andika `X,Y` na ubonyeze **Enter** kwa uratibu sahihi.
 3. **Bonyeza pointi ya pili** — umbali uliопimwa unaonekana kwenye terminal. Uingizaji wa uratibu unafanya kazi hapa pia.
 4. **Bonyeza tena** (hiari) kuanza kipimo kipya. Amri inabaki hai.

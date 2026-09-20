@@ -8,11 +8,11 @@ order: 5
 
 # HatchAdd
 
-Perintah `HatchAdd` membuka pemilih berkas sistem untuk mengunggah berkas pola arsiran `.pat`, tanpa membuka dialog [Hatch Manager](../hatch-manager/) lebih dulu. Ini unggahan yang sama dengan yang dipicu tombol **Add .pat File** di Hatch Manager — HatchAdd hanyalah jalan langsung ke sana dari terminal.
+Perintah `ArsirTambah` membuka pemilih berkas sistem untuk mengunggah berkas pola arsiran `.pat`, tanpa membuka dialog [Hatch Manager](../hatch-manager/) lebih dulu. Ini unggahan yang sama dengan yang dipicu tombol **Add .pat File** di Hatch Manager — HatchAdd hanyalah jalan langsung ke sana dari terminal.
 
 ## Mengunggah berkas pola
 
-1. Ketik `HatchAdd` di terminal, atau klik **Add .pat File** di bagian bawah dialog [Hatch Manager](../hatch-manager/).
+1. Ketik `ArsirTambah` di terminal, atau klik **Add .pat File** di bagian bawah dialog [Hatch Manager](../hatch-manager/).
 2. Pilih berkas `.pat` di pemilih sistem. Hanya format pola arsiran standar yang diterima.
 
 Perintah selesai begitu pemilih berkas terbuka — tidak ada prompt, klik, atau masukan terminal lagi. Pola-pola terdaftar dan muncul di grup **User** begitu berkas dipilih.

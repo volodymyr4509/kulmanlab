@@ -8,11 +8,11 @@ order: 5
 
 # Arc
 
-`arc`-kommandot ritar en cirkelbåge genom tre punkter du klickar på. Bågen beräknas som den unika circumcirkeln som går genom alla tre punkterna — inget behov av att ange centrum eller radie direkt. Bågen går från det första klicket till det tredje klicket, via det andra.
+`Båge`-kommandot ritar en cirkelbåge genom tre punkter du klickar på. Bågen beräknas som den unika circumcirkeln som går genom alla tre punkterna — inget behov av att ange centrum eller radie direkt. Bågen går från det första klicket till det tredje klicket, via det andra.
 
 ## Rita en båge
 
-1. Skriv `arc` i terminalen eller klicka på **Arc**-knappen i verktygsfältet.
+1. Skriv `Båge` i terminalen eller klicka på **Arc**-knappen i verktygsfältet.
 2. **Klicka på den första punkten** — en ände av bågen. Eller skriv `X,Y` och tryck **Enter** för en exakt koordinat.
 3. **Klicka på den andra punkten** — en punkt som bågen måste passera genom (styr krökning och riktning). Koordinatinmatning fungerar även här.
 4. **Klicka på den tredje punkten** — den andra änden av bågen. Bågen placeras och kommandot avslutas. Koordinatinmatning fungerar även här.

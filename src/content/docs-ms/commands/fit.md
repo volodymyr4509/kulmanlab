@@ -8,11 +8,11 @@ order: 4
 
 # Fit
 
-Arahan `fit` mengira kotak sempadan semua entiti dalam lukisan dan melaraskan paras zum dan kedudukan pan supaya setiap entiti kelihatan dengan margin kecil. Ia adalah cara terpantas untuk memulihkan pandangan yang hilang atau mengorientasi diri selepas mengimport fail DXF.
+Arahan `Muatkan` mengira kotak sempadan semua entiti dalam lukisan dan melaraskan paras zum dan kedudukan pan supaya setiap entiti kelihatan dengan margin kecil. Ia adalah cara terpantas untuk memulihkan pandangan yang hilang atau mengorientasi diri selepas mengimport fail DXF.
 
 ## Memuatkan pandangan
 
-Klik butang bar alat **Fit** atau taip `fit` dalam terminal. Pandangan menyesuaikan serta-merta dan arahan keluar — tiada interaksi diperlukan.
+Klik butang bar alat **Fit** atau taip `Muatkan` dalam terminal. Pandangan menyesuaikan serta-merta dan arahan keluar — tiada interaksi diperlukan.
 
 **Klik dua kali butang tetikus tengah** mencetuskan operasi Fit yang sama pada bila-bila masa tanpa mengaktifkan mana-mana arahan — pintasan terpantas untuk menetapkan semula pandangan yang hilang di pertengahan lukisan.
 

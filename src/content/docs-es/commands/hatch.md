@@ -8,11 +8,11 @@ order: 7
 
 # Hatch
 
-El comando `hatch` rellena la región que rodea a un punto pulsado con un patrón. El contorno no se dibuja primero — proviene de lo que ya está en el lienzo, así que cuatro [Lines](../line/) separadas que se unen extremo con extremo encierran una región exactamente como lo hace una [Polyline](../polyline/) cerrada, y cualquier forma cerrada dentro se convierte en una isla que el relleno deja intacta.
+El comando `Sombreado` rellena la región que rodea a un punto pulsado con un patrón. El contorno no se dibuja primero — proviene de lo que ya está en el lienzo, así que cuatro [Lines](../line/) separadas que se unen extremo con extremo encierran una región exactamente como lo hace una [Polyline](../polyline/) cerrada, y cualquier forma cerrada dentro se convierte en una isla que el relleno deja intacta.
 
 ## Rellenar un área
 
-1. Escribe `hatch` en la terminal o haz clic en el botón **Hatch** de la barra de herramientas (el icono de muestra).
+1. Escribe `Sombreado` en la terminal o haz clic en el botón **Hatch** de la barra de herramientas (el icono de muestra).
 2. **Haz clic en un punto** dentro de la región que quieres rellenar.
 3. El comando permanece activo, así que sigue haciendo clic para rellenar más áreas — cada clic crea su propia entidad `Hatch`.
 4. Pulsa **Enter**, **Space** o **Escape** cuando termines.
@@ -69,7 +69,7 @@ Cada hatch nuevo empieza relleno con `ANSI31` (o el patrón que usó el *último
 1. Selecciona un hatch existente y abre su campo **Pattern** en el panel de propiedades — esto abre el selector de patrones, una cuadrícula de muestras con nombre agrupadas según su procedencia.
 2. Haz clic en un patrón para aplicarlo — el relleno se actualiza al instante.
 
-Esa selección también se convierte en la predeterminada para el *siguiente* hatch que crees con el comando `hatch`, de la misma forma en que elegir una capa o un color se traslada. Así que para aplicar hatch a varias áreas nuevas con un patrón concreto: rellena un área, ajusta su patrón una vez, y sigue aplicando hatch — cada relleno posterior empieza ya con ese patrón aplicado.
+Esa selección también se convierte en la predeterminada para el *siguiente* hatch que crees con el comando `Sombreado`, de la misma forma en que elegir una capa o un color se traslada. Así que para aplicar hatch a varias áreas nuevas con un patrón concreto: rellena un área, ajusta su patrón una vez, y sigue aplicando hatch — cada relleno posterior empieza ya con ese patrón aplicado.
 
 Consulta [Hatch Manager](../hatch-manager/) para subir tus propios archivos de patrón `.pat` y explorar la biblioteca completa.
 

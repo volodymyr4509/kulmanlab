@@ -7,11 +7,11 @@ order: 2
 
 # LeaderAdd
 
-Lệnh `LeaderAdd` thêm một cánh tay mũi tên mới vào một đường dẫn đa hiện có. Cánh tay mới chỉ từ đoạn gấp khúc hiện có của đường dẫn đến đầu mũi tên mới bạn nhấp. Tất cả kiểu dáng đều được kế thừa từ đường dẫn đã chọn.
+Lệnh `ThêmNhánhChúThích` thêm một cánh tay mũi tên mới vào một đường dẫn đa hiện có. Cánh tay mới chỉ từ đoạn gấp khúc hiện có của đường dẫn đến đầu mũi tên mới bạn nhấp. Tất cả kiểu dáng đều được kế thừa từ đường dẫn đã chọn.
 
 ## Thêm cánh tay
 
-1. Gõ `LeaderAdd` trong terminal.
+1. Gõ `ThêmNhánhChúThích` trong terminal.
 2. **Nhấp một đường dẫn đa hiện có** để chọn nó.
 3. **Nhấp đầu mũi tên mới**, hoặc gõ `X,Y` rồi nhấn **Enter** để nhập tọa độ chính xác. Đường xem trước hiển thị từ con trỏ đến đoạn gấp khúc của đường dẫn.
 

@@ -8,13 +8,13 @@ order: 10
 
 # Offset
 
-Gumagawa ang `offset` command ng parallel copy ng isang entity sa fixed na perpendicular distance. I-type mo ang distansya nang isang beses, pagkatapos ay mag-click ng mga entity at pumili ng side — nananatiling handa ang command sa parehong distansya kaya puwede kang mag-offset ng maraming object sa isang session.
+Gumagawa ang `Iagwat` command ng parallel copy ng isang entity sa fixed na perpendicular distance. I-type mo ang distansya nang isang beses, pagkatapos ay mag-click ng mga entity at pumili ng side — nananatiling handa ang command sa parehong distansya kaya puwede kang mag-offset ng maraming object sa isang session.
 
 Supported na entity types: **Line, Circle, Arc, Ellipse, Polyline** (kasama ang Rectangles).
 
 ## Paggamit ng Offset
 
-1. I-type ang `offset` sa terminal o i-click ang **Offset** button sa toolbar.
+1. I-type ang `Iagwat` sa terminal o i-click ang **Offset** button sa toolbar.
 2. **I-type ang offset distance** at pindutin ang **Enter** o **Space**.
 3. **I-click ang entity** na i-o-offset — kung hindi supported ang entity type, may lalabas na error message at puwede kang mag-click ng ibang entity.
 4. **Igalaw ang cursor** papunta sa side kung saan dapat lumabas ang copy — sinusundan ito ng live preview.

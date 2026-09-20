@@ -8,7 +8,7 @@ order: 2
 
 # Angle
 
-Komento `angle` mittaa sisäkulman kärkipisteessä, jonka muodostavat kaksi viivasegmenttiä kolmen napsautetun pisteen kautta. Tulos — aina 0° ja 180° välillä — näytetään terminaalissa 4 desimaalin tarkkuudella. Se on yksi kolmesta mittauskomennosta — [Distance](../distance/) mittaa suoran viivan pituuden, ja [Area](../area/) mittaa monikulmion sisäalueen ja piirin.
+Komento `Kulma` mittaa sisäkulman kärkipisteessä, jonka muodostavat kaksi viivasegmenttiä kolmen napsautetun pisteen kautta. Tulos — aina 0° ja 180° välillä — näytetään terminaalissa 4 desimaalin tarkkuudella. Se on yksi kolmesta mittauskomennosta — [Distance](../distance/) mittaa suoran viivan pituuden, ja [Area](../area/) mittaa monikulmion sisäalueen ja piirin.
 
 ## Kulman mittauksen anatomia
 
@@ -30,7 +30,7 @@ Komento `angle` mittaa sisäkulman kärkipisteessä, jonka muodostavat kaksi vii
 
 ## Kulman mittaaminen
 
-1. Kirjoita `angle` terminaaliin tai napsauta **Angle**-painiketta työkalurivillä.
+1. Kirjoita `Kulma` terminaaliin tai napsauta **Angle**-painiketta työkalurivillä.
 2. **Napsauta ensimmäistä pistettä** — kulman toinen käsivarren pää. Tai kirjoita `X,Y` ja paina **Enter** tarkkaa koordinaattia varten.
 3. **Napsauta kärkipistettä** — kulma, jossa kaksi käsivartta kohtaavat. Koordinaattien syöttö toimii myös täällä.
 4. **Napsauta kolmatta pistettä** — toinen käsivarren pää. Koordinaattien syöttö toimii myös täällä. Tämän pisteen sijoittaminen tulostaa tuloksen.

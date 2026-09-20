@@ -8,14 +8,14 @@ order: 15
 
 # Array Grid
 
-Il comando `ArrayGrid` crea una griglia rettangolare di copie dalle entità selezionate — inserisci il numero di righe, il numero di colonne e la spaziatura tra loro, tutto digitato nel terminale. La selezione originale occupa la cella riga 0, colonna 0; ogni altra cella è una copia traslata.
+Il comando `SerieRettangolare` crea una griglia rettangolare di copie dalle entità selezionate — inserisci il numero di righe, il numero di colonne e la spaziatura tra loro, tutto digitato nel terminale. La selezione originale occupa la cella riga 0, colonna 0; ogni altra cella è una copia traslata.
 
 ## Due modi per iniziare
 
 **Pre-seleziona, poi array** — seleziona prima le entità, poi attiva:
 
 1. Seleziona una o più entità sul canvas.
-2. Digita `arraygrid` nel terminale (basta `arr` — è univoco) o clicca il pulsante **Array Grid** nella barra degli strumenti.
+2. Digita `SerieRettangolare` nel terminale (basta `arr` — è univoco) o clicca il pulsante **Array Grid** nella barra degli strumenti.
 3. Digita il numero di **righe** e premi **Invio**.
 4. Digita il numero di **colonne** e premi **Invio**.
 5. Digita la **spaziatura tra le righe** e premi **Invio**.
@@ -23,7 +23,7 @@ Il comando `ArrayGrid` crea una griglia rettangolare di copie dalle entità sele
 
 **Attiva, poi seleziona** — avvia il comando senza nulla selezionato:
 
-1. Digita `arraygrid` o clicca il pulsante nella barra degli strumenti.
+1. Digita `SerieRettangolare` o clicca il pulsante nella barra degli strumenti.
 2. **Seleziona gli oggetti** — clicca per attivare/disattivare singole entità, o trascina per selezionare per area.
 3. Premi **Invio** o **Spazio** per confermare la selezione.
 4. Continua con righe → colonne → spaziatura righe → spaziatura colonne come sopra.

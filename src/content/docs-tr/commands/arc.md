@@ -8,11 +8,11 @@ order: 5
 
 # Arc
 
-`arc` komutu, üç tıklanan nokta üzerinden dairesel yay çizer. Yay, üç noktadan da geçen benzersiz çevrel daire olarak hesaplanır — merkez veya yarıçap doğrudan belirtilmez. Yay, ikinci noktadan geçerek birinci tıklamadan üçüncüye gider.
+`Yay` komutu, üç tıklanan nokta üzerinden dairesel yay çizer. Yay, üç noktadan da geçen benzersiz çevrel daire olarak hesaplanır — merkez veya yarıçap doğrudan belirtilmez. Yay, ikinci noktadan geçerek birinci tıklamadan üçüncüye gider.
 
 ## Yay Çizimi
 
-1. Terminale `arc` yazın veya araç çubuğundaki **Arc** düğmesine basın.
+1. Terminale `Yay` yazın veya araç çubuğundaki **Arc** düğmesine basın.
 2. **Birinci noktayı tıklayın** — yayın bir ucu. Ya da kesin koordinat için `X,Y` yazıp **Enter** tuşuna basın.
 3. **İkinci noktayı tıklayın** — yayın geçmesi gereken nokta (eğimi ve yönü kontrol eder). Burada koordinat girişi de çalışır.
 4. **Üçüncü noktayı tıklayın** — yayın diğer ucu. Yay yerleştirilir ve komut tamamlanır. Burada koordinat girişi de çalışır.

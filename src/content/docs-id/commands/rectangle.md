@@ -8,11 +8,11 @@ order: 3
 
 # Rectangle
 
-Perintah `rectangle` menggambar persegi panjang sejajar sumbu yang ditentukan oleh dua klik sudut yang berlawanan. Hasilnya disimpan sebagai **`LWPOLYLINE` tertutup** dengan empat vertex — satu di setiap sudut. Tidak ada tipe entitas persegi panjang khusus: setelah dibuat, bentuk berperilaku persis seperti [Polyline](../polyline/) lainnya dan setiap edit polyline berlaku padanya.
+Perintah `PersegiPanjang` menggambar persegi panjang sejajar sumbu yang ditentukan oleh dua klik sudut yang berlawanan. Hasilnya disimpan sebagai **`LWPOLYLINE` tertutup** dengan empat vertex — satu di setiap sudut. Tidak ada tipe entitas persegi panjang khusus: setelah dibuat, bentuk berperilaku persis seperti [Polyline](../polyline/) lainnya dan setiap edit polyline berlaku padanya.
 
 ## Menggambar persegi panjang
 
-1. Ketik `rectangle` di terminal atau klik tombol toolbar **Rectangle**.
+1. Ketik `PersegiPanjang` di terminal atau klik tombol toolbar **Rectangle**.
 2. **Klik sudut pertama**, atau ketik `X,Y` dan tekan **Enter** untuk koordinat tepat.
 3. **Klik sudut yang berlawanan** — persegi panjang ditempatkan seketika dan perintah keluar. Entri koordinat juga berfungsi di sini. Atau tekan `D` untuk mengetik lebar dan tinggi yang tepat — lihat [Entri Dimensi](#entri-dimensi) di bawah.
 

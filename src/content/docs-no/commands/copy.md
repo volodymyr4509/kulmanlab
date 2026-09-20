@@ -8,20 +8,20 @@ order: 2
 
 # Copy
 
-Kommandoen `copy` oppretter flyttede duplikater av markerte entiteter og plasserer dem forskjøvet fra et basispunkt til et mål — originalene blir liggende akkurat der de er. Dette er den ene sentrale forskjellen fra [Move](../move/): Copy legger til nye entiteter i tegningen; Move flytter eksisterende.
+Kommandoen `Kopier` oppretter flyttede duplikater av markerte entiteter og plasserer dem forskjøvet fra et basispunkt til et mål — originalene blir liggende akkurat der de er. Dette er den ene sentrale forskjellen fra [Move](../move/): Copy legger til nye entiteter i tegningen; Move flytter eksisterende.
 
 ## To måter å starte på
 
 **Marker først, deretter kopier** — marker entiteter først, aktiver deretter:
 
 1. Marker én eller flere entiteter på lerretet.
-2. Skriv `copy` i terminalen eller klikk på **Copy**-knappen i verktøylinjen.
+2. Skriv `Kopier` i terminalen eller klikk på **Copy**-knappen i verktøylinjen.
 3. **Klikk basispunktet**, eller skriv `X,Y` og trykk **Enter** for en eksakt koordinat.
 4. **Klikk målet** — duplikater vises ved forskyvningen fra basispunkt til mål. Koordinatinntasting fungerer også her.
 
 **Aktiver, marker deretter** — start kommandoen uten noe markert:
 
-1. Skriv `copy` eller klikk på verktøylinjeknappen.
+1. Skriv `Kopier` eller klikk på verktøylinjeknappen.
 2. **Marker objekter** — klikk for å slå enkeltentiteter av/på, eller dra for å markere etter område.
 3. Trykk **Enter** eller **Space** for å bekrefte markeringen.
 4. **Klikk basispunktet**, deretter **klikk målet** (koordinatinntasting tilgjengelig i begge steg).

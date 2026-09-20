@@ -8,14 +8,14 @@ order: 15
 
 # Array Grid
 
-Perintah `ArrayGrid` membuat kisi persegi panjang berisi salinan dari entitas yang dipilih — masukkan jumlah baris, jumlah kolom, dan jarak antara keduanya, semua diketik di terminal. Seleksi asli menempati sel baris 0, kolom 0; setiap sel lainnya adalah salinan yang diterjemahkan.
+Perintah `LarikKotak` membuat kisi persegi panjang berisi salinan dari entitas yang dipilih — masukkan jumlah baris, jumlah kolom, dan jarak antara keduanya, semua diketik di terminal. Seleksi asli menempati sel baris 0, kolom 0; setiap sel lainnya adalah salinan yang diterjemahkan.
 
 ## Dua cara memulai
 
 **Pra-pilih, lalu array** — pilih entitas terlebih dahulu, kemudian aktifkan:
 
 1. Pilih satu atau lebih entitas di kanvas.
-2. Ketik `arraygrid` di terminal (`arr` saja sudah cukup — tidak ambigu) atau klik tombol toolbar **Array Grid**.
+2. Ketik `LarikKotak` di terminal (`arr` saja sudah cukup — tidak ambigu) atau klik tombol toolbar **Array Grid**.
 3. Ketik jumlah **baris** dan tekan **Enter**.
 4. Ketik jumlah **kolom** dan tekan **Enter**.
 5. Ketik **jarak antar baris** dan tekan **Enter**.
@@ -23,7 +23,7 @@ Perintah `ArrayGrid` membuat kisi persegi panjang berisi salinan dari entitas ya
 
 **Aktifkan, lalu pilih** — mulai perintah tanpa ada yang dipilih:
 
-1. Ketik `arraygrid` atau klik tombol toolbar.
+1. Ketik `LarikKotak` atau klik tombol toolbar.
 2. **Pilih objek** — klik untuk mengalihkan entitas individual, atau seret untuk memilih berdasarkan area.
 3. Tekan **Enter** atau **Space** untuk mengonfirmasi seleksi.
 4. Lanjutkan dengan baris → kolom → jarak baris → jarak kolom seperti di atas.

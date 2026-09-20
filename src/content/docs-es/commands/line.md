@@ -8,11 +8,11 @@ order: 1
 
 # Line
 
-El comando `line` dibuja segmentos de línea recta individuales almacenados como entidades `LINE` separadas en el modelo DXF. Después de cada segmento el comando permanece activo y reutiliza el punto final como nuevo punto de inicio, para que puedas construir trayectorias conectadas un segmento a la vez. A diferencia de una [Polyline](../polyline/), las líneas encadenadas permanecen como entidades independientes — cada una puede recortarse, extenderse o eliminarse sin afectar a sus vecinas.
+El comando `Línea` dibuja segmentos de línea recta individuales almacenados como entidades `LINE` separadas en el modelo DXF. Después de cada segmento el comando permanece activo y reutiliza el punto final como nuevo punto de inicio, para que puedas construir trayectorias conectadas un segmento a la vez. A diferencia de una [Polyline](../polyline/), las líneas encadenadas permanecen como entidades independientes — cada una puede recortarse, extenderse o eliminarse sin afectar a sus vecinas.
 
 ## Dibujar líneas
 
-1. Escribe `line` en el terminal o haz clic en el botón **Line** de la barra de herramientas.
+1. Escribe `Línea` en el terminal o haz clic en el botón **Line** de la barra de herramientas.
 2. **Haz clic en el punto de inicio**, o escribe `X,Y` y presiona **Enter** para una coordenada exacta.
 3. **Haz clic en el punto final** — el segmento se coloca y el punto final se convierte en el nuevo punto de inicio. La entrada de coordenadas también funciona aquí.
 4. Sigue haciendo clic (o escribiendo) para encadenar más segmentos.

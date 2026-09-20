@@ -8,13 +8,13 @@ order: 2
 
 # ViewportCopy
 
-El comando `ViewportCopy` copia una ventana gráfica a una nueva posición, preservando su escala y centro del modelo. Solo disponible en el espacio de diseño.
+El comando `CopiarVentana` copia una ventana gráfica a una nueva posición, preservando su escala y centro del modelo. Solo disponible en el espacio de diseño.
 
 ## Copiar una ventana gráfica
 
 1. Cambia a una pestaña de diseño de papel.
 2. Opcionalmente haz clic en una ventana gráfica para preseleccionarla.
-3. Escribe `ViewportCopy` en el terminal o haz clic en el botón de la barra de herramientas **Viewport Copy**.
+3. Escribe `CopiarVentana` en el terminal o haz clic en el botón de la barra de herramientas **Viewport Copy**.
 4. Si no se preseleccionó ninguna ventana gráfica, **haz clic en la ventana gráfica** a copiar.
 5. **Haz clic en el punto base** — la referencia para el desplazamiento. O escribe `X,Y` y pulsa **Enter** para una coordenada exacta.
 6. **Haz clic en el destino** — la ventana gráfica se coloca en el desplazamiento base→destino. O usa entrada de coordenadas / bloqueo de ángulo.

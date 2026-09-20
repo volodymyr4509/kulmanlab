@@ -8,11 +8,11 @@ order: 4
 
 # Fit
 
-Il comando `fit` calcola il riquadro di delimitazione di tutte le entità nel disegno e regola sia il livello di zoom che la posizione di pan in modo che ogni entità sia visibile con un piccolo margine. È il modo più veloce per recuperare una vista persa o orientarsi dopo aver importato un file DXF.
+Il comando `Adatta` calcola il riquadro di delimitazione di tutte le entità nel disegno e regola sia il livello di zoom che la posizione di pan in modo che ogni entità sia visibile con un piccolo margine. È il modo più veloce per recuperare una vista persa o orientarsi dopo aver importato un file DXF.
 
 ## Adattare la vista
 
-Clicca il pulsante **Fit** nella barra degli strumenti o digita `fit` nel terminale. La vista si regola immediatamente e il comando termina — non è richiesta nessuna interazione.
+Clicca il pulsante **Fit** nella barra degli strumenti o digita `Adatta` nel terminale. La vista si regola immediatamente e il comando termina — non è richiesta nessuna interazione.
 
 **Il doppio clic con il tasto centrale del mouse** attiva la stessa operazione Fit in qualsiasi momento senza attivare alcun comando — il modo più veloce per ripristinare una vista persa durante il disegno.
 

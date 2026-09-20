@@ -8,11 +8,11 @@ order: 8
 
 # Trim
 
-Het `trim`-commando verwijdert het deel van een [Line](../line/), [Arc](../arc/), [Circle](../circle/), [Ellipse](../ellipse/) of [Polyline](../polyline/) dat tussen twee aangrenzende snijpunten ligt, waardoor de entiteit in één of meer overblijvende delen wordt gesplitst. Het te snijden segment wordt bepaald door de cursorpositie — beweeg over het deel dat u wilt verwijderen en klik om het te snijden.
+Het `Inkorten`-commando verwijdert het deel van een [Line](../line/), [Arc](../arc/), [Circle](../circle/), [Ellipse](../ellipse/) of [Polyline](../polyline/) dat tussen twee aangrenzende snijpunten ligt, waardoor de entiteit in één of meer overblijvende delen wordt gesplitst. Het te snijden segment wordt bepaald door de cursorpositie — beweeg over het deel dat u wilt verwijderen en klik om het te snijden.
 
 ## Een entiteit snijden
 
-1. Typ `trim` in de terminal of klik op de **Trim**-werkbalkknop.
+1. Typ `Inkorten` in de terminal of klik op de **Trim**-werkbalkknop.
 2. **Beweeg over het segment** dat u wilt verwijderen — een preview markeert precies het deel dat wordt gesneden.
 3. **Klik** om dat segment te verwijderen.
 

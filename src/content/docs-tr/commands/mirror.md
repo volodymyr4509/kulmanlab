@@ -8,20 +8,20 @@ order: 4
 
 # Mirror
 
-`mirror` komutu, seçili nesnelerin iki nokta tarafından tanımlanan eksen boyunca ayna görüntülerini oluşturur. Orijinaller **her zaman korunur** — [Move](../move/) veya [Rotate](../rotate/) komutlarının aksine, Mirror mevcut nesneleri değiştirmez; yalnızca yenilerini ekler.
+`Aynala` komutu, seçili nesnelerin iki nokta tarafından tanımlanan eksen boyunca ayna görüntülerini oluşturur. Orijinaller **her zaman korunur** — [Move](../move/) veya [Rotate](../rotate/) komutlarının aksine, Mirror mevcut nesneleri değiştirmez; yalnızca yenilerini ekler.
 
 ## İki Başlatma Yöntemi
 
 **Önce seç, sonra aynala** — nesneleri seçin, ardından etkinleştirin:
 
 1. Tuvalde bir veya daha fazla nesne seçin.
-2. Terminale `mirror` yazın veya araç çubuğundaki **Mirror** düğmesine basın.
+2. Terminale `Aynala` yazın veya araç çubuğundaki **Mirror** düğmesine basın.
 3. **Ayna ekseninin birinci noktasını tıklayın** veya kesin koordinat için `X,Y` yazıp **Enter** tuşuna basın.
 4. **İkinci noktayı tıklayın** — ayna kopyalar yerleştirilir ve komut tamamlanır. Burada koordinat girişi de çalışır.
 
 **Etkinleştir, sonra seç** — seçim olmadan komutu başlatın:
 
-1. `mirror` yazın veya araç çubuğu düğmesine basın.
+1. `Aynala` yazın veya araç çubuğu düğmesine basın.
 2. **Nesneleri seçin** — değiştirmek için tıklayın veya kutu seçimi için sürükleyin.
 3. Seçimi onaylamak için **Enter** veya **Boşluk** tuşuna basın.
 4. **Birinci noktayı tıklayın**, ardından **ayna ekseninin ikinci noktasını tıklayın** (her iki adımda koordinat girişi kullanılabilir).

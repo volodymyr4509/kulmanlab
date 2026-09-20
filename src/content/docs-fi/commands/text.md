@@ -8,13 +8,13 @@ order: 0
 
 # Text
 
-Komento `text` sijoittaa monirivisen tekstimerkinnän. Kun napsautat sijaintia piirtoalueella, ponnahdusikkunan editori avautuu **rikkaassa** tilassa — voit kirjoittaa sisältöä, soveltaa lihavointia/kursivointia/yliviivausta merkkikohtaisesti, vaihtaa fontteja ja korkeuksia, ja lisätä rivinvaihtoja. Paina **Escape** vahvistaaksesi ja sulkeaksesi editorin.
+Komento `Teksti` sijoittaa monirivisen tekstimerkinnän. Kun napsautat sijaintia piirtoalueella, ponnahdusikkunan editori avautuu **rikkaassa** tilassa — voit kirjoittaa sisältöä, soveltaa lihavointia/kursivointia/yliviivausta merkkikohtaisesti, vaihtaa fontteja ja korkeuksia, ja lisätä rivinvaihtoja. Paina **Escape** vahvistaaksesi ja sulkeaksesi editorin.
 
 Katso [Tekstieditori](../../interface/text-editor/)-sivu täydellistä editorin referenssiä varten, mukaan lukien vertailu **rikkaan** ja **yksinkertaisen** tilan välillä.
 
 ## Tekstimerkinnän sijoittaminen
 
-1. Kirjoita `text` terminaaliin tai napsauta **Text**-painiketta työkalurivillä.
+1. Kirjoita `Teksti` terminaaliin tai napsauta **Text**-painiketta työkalurivillä.
 2. **Napsauta ankkurin sijaintia** piirtoalueella. Tai kirjoita `X,Y` ja paina **Enter** tarkkaa koordinaattia varten.
 3. **Tekstieditorin ponnahdusikkuna** avautuu uuden merkinnän yläpuolelle. Kirjoita sisältösi.
 4. Paina **Escape** vahvistaaksesi merkinnän ja sulkeaksesi editorin.

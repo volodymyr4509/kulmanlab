@@ -7,7 +7,7 @@ order: 7
 
 # Wipe Storage
 
-Lệnh `wipestorage` xóa vĩnh viễn **tất cả dữ liệu được lưu trong trình duyệt** cho KulmanLab CAD — mọi tệp đã lưu, bảng lớp và kiểu đường, và lịch sử hoàn tác. Trang tự động tải lại sau đó.
+Lệnh `XóaBộNhớ` xóa vĩnh viễn **tất cả dữ liệu được lưu trong trình duyệt** cho KulmanLab CAD — mọi tệp đã lưu, bảng lớp và kiểu đường, và lịch sử hoàn tác. Trang tự động tải lại sau đó.
 
 :::danger Không thể hoàn tác
 Hành động này không thể hoàn tác. Tất cả tệp được lưu trong trình duyệt bị xóa. Xuất bất kỳ bản vẽ nào bạn muốn giữ dưới dạng tệp `.json` hoặc `.dxf` trước khi chạy lệnh này.
@@ -21,7 +21,7 @@ Hành động này không thể hoàn tác. Tất cả tệp được lưu trong
 
 ## Cách chạy
 
-1. Gõ `wipestorage` trong terminal và nhấn **Enter**.
+1. Gõ `XóaBộNhớ` trong terminal và nhấn **Enter**.
 2. Terminal nhắc: *Wipe all browser local storage? Type YES to confirm*
 3. Gõ `YES` (bất kỳ chữ hoa nào) và nhấn **Enter**.
 

@@ -8,12 +8,12 @@ order: 1
 
 # ViewportRectangle
 
-Gumagawa ang `ViewportRectangle` command ng bagong viewport sa aktibong paper layout sa pamamagitan ng pagpili ng dalawang magkasalungat na sulok. Available lang sa layout space.
+Gumagawa ang `ParihabangViewport` command ng bagong viewport sa aktibong paper layout sa pamamagitan ng pagpili ng dalawang magkasalungat na sulok. Available lang sa layout space.
 
 ## Paggawa ng Viewport
 
 1. Lumipat sa paper layout gamit ang tab sa ibaba ng screen.
-2. I-type ang `ViewportRectangle` sa terminal o i-click ang **Viewport Rectangle** toolbar button.
+2. I-type ang `ParihabangViewport` sa terminal o i-click ang **Viewport Rectangle** toolbar button.
 3. **I-click ang unang sulok**, o i-type ang `X,Y` at pindutin ang **Enter** para sa eksaktong coordinate.
 4. **I-click ang kasalungat na sulok** — agad na malalagay ang viewport. Gumagana rin dito ang coordinate entry.
 

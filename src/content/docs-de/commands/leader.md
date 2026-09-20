@@ -8,7 +8,7 @@ order: 1
 
 # Leader
 
-Der Befehl `leader` zeichnet eine Mehrfachführungslinien-Anmerkung in vier Schritten: eine Pfeilspitze, die ein Merkmal berührt, eine Führungslinie, die sich an einem Knickpunkt biegt, einen Textanker und eine getippte Beschriftung. Von allen Anmerkungsbefehlen ist Leader der einzige mit einer interaktiven Texteingabephase mit blinkender Cursor-Vorschau.
+Der Befehl `Führungslinie` zeichnet eine Mehrfachführungslinien-Anmerkung in vier Schritten: eine Pfeilspitze, die ein Merkmal berührt, eine Führungslinie, die sich an einem Knickpunkt biegt, einen Textanker und eine getippte Beschriftung. Von allen Anmerkungsbefehlen ist Leader der einzige mit einer interaktiven Texteingabephase mit blinkender Cursor-Vorschau.
 
 ## Aufbau einer Mehrfachführungslinie
 
@@ -27,7 +27,7 @@ Der Befehl `leader` zeichnet eine Mehrfachführungslinien-Anmerkung in vier Schr
 
 ## Eine Führungslinie zeichnen
 
-1. Geben Sie `leader` im Terminal ein oder klicken Sie auf die Schaltfläche **Leader** in der Symbolleiste.
+1. Geben Sie `Führungslinie` im Terminal ein oder klicken Sie auf die Schaltfläche **Leader** in der Symbolleiste.
 2. **Klicken Sie auf die Pfeilspitze** oder geben Sie `X,Y` ein und drücken Sie **Enter** für eine genaue Koordinate.
 3. **Klicken Sie auf den Knickpunkt** — den Bogen in der Führungslinie. Der Winkel rastet in 45°-Schritten ein; geben Sie eine Länge ein und drücken Sie **Enter** für präzise Platzierung. Oder geben Sie `X,Y` für eine absolute Koordinate ein.
 4. **Klicken Sie auf die Textposition** — wo die Beschriftung verankert wird. Dieselben Optionen gelten: klicken, Winkelsperre + Länge oder `X,Y`.

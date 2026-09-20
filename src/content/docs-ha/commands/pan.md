@@ -8,11 +8,11 @@ order: 1
 
 # Pan
 
-Umarnin `pan` yana shiga yanayin ja-zuwa-scroll mai dorewa — danna ka ja a ko'ina a kan canvas don motsa kallon. Matakin zoom ba ya canzawa. Yanayin Pan yana ci gaba da zama a aiki har sai ka danna `Escape`, don haka za ka iya ja sau da yawa a kunnawa ɗaya.
+Umarnin `Gungura` yana shiga yanayin ja-zuwa-scroll mai dorewa — danna ka ja a ko'ina a kan canvas don motsa kallon. Matakin zoom ba ya canzawa. Yanayin Pan yana ci gaba da zama a aiki har sai ka danna `Escape`, don haka za ka iya ja sau da yawa a kunnawa ɗaya.
 
 ## Motsa kallon
 
-1. Rubuta `pan` a tashar umarni ko danna maɓallin kayan aiki na **Pan**.
+1. Rubuta `Gungura` a tashar umarni ko danna maɓallin kayan aiki na **Pan**.
 2. **Danna ka ja** a ko'ina a kan canvas don motsa kallon.
 3. Sake shi ka sake ja duk sau da ake bukata.
 4. Danna `Escape` don fita daga yanayin pan.

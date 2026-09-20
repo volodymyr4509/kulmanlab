@@ -8,11 +8,11 @@ order: 2
 
 # Zoom In
 
-Pinaparami ng `zoomin` command ang kasalukuyang zoom level nang **1.5×** at agad na magsasara, naka-center sa midpoint ng viewport. Ito ang toolbar equivalent ng isang scroll-wheel tick na naka-zoom papunta sa center ng screen sa halip na sa cursor.
+Pinaparami ng `Ilapit` command ang kasalukuyang zoom level nang **1.5×** at agad na magsasara, naka-center sa midpoint ng viewport. Ito ang toolbar equivalent ng isang scroll-wheel tick na naka-zoom papunta sa center ng screen sa halip na sa cursor.
 
 ## Pag-zoom In
 
-I-click ang **Zoom In** button sa toolbar o i-type ang `zoomin` sa terminal. Agad na naa-apply ang zoom at magsasara ang command — walang kailangang i-click sa canvas.
+I-click ang **Zoom In** button sa toolbar o i-type ang `Ilapit` sa terminal. Agad na naa-apply ang zoom at magsasara ang command — walang kailangang i-click sa canvas.
 
 ## Paano Gumagana ang 1.5× Step
 

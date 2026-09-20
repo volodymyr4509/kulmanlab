@@ -8,14 +8,14 @@ order: 6
 
 # Align
 
-El comando `align` reposiciona las entidades seleccionadas usando uno o dos pares de puntos origen/destino. Con un par se comporta exactamente como [Move](../move/) (solo traslación). Con dos pares también rota la selección para que la dirección origen-a-origen coincida con la dirección destino-a-destino, y opcionalmente puede escalarla para que la longitud del segmento origen coincida con la del segmento destino — traslación, rotación y escala en una sola operación.
+El comando `Alinear` reposiciona las entidades seleccionadas usando uno o dos pares de puntos origen/destino. Con un par se comporta exactamente como [Move](../move/) (solo traslación). Con dos pares también rota la selección para que la dirección origen-a-origen coincida con la dirección destino-a-destino, y opcionalmente puede escalarla para que la longitud del segmento origen coincida con la del segmento destino — traslación, rotación y escala en una sola operación.
 
 ## Dos formas de iniciarlo
 
 **Pre-seleccionar y luego alinear** — selecciona las entidades primero y luego activa:
 
 1. Selecciona una o más entidades en el lienzo.
-2. Escribe `align` en el terminal o haz clic en el botón **Align** de la barra de herramientas.
+2. Escribe `Alinear` en el terminal o haz clic en el botón **Align** de la barra de herramientas.
 3. **Haz clic en el primer punto origen (S1)**, luego **en el primer punto destino (D1)**.
 4. **Haz clic en el segundo punto origen (S2)**, o presiona **Enter** o **Space** para aplicar ya una alineación de solo traslación.
 5. **Haz clic en el segundo punto destino (D2)**.
@@ -23,7 +23,7 @@ El comando `align` reposiciona las entidades seleccionadas usando uno o dos pare
 
 **Activar y luego seleccionar** — inicia el comando sin nada seleccionado:
 
-1. Escribe `align` o haz clic en el botón de la barra de herramientas.
+1. Escribe `Alinear` o haz clic en el botón de la barra de herramientas.
 2. **Selecciona objetos** — haz clic para alternar entidades individuales, o arrastra para seleccionar por área.
 3. Presiona **Enter** o **Space** para confirmar la selección.
 4. Continúa con S1 → D1 → S2 → D2 → pregunta de escala como arriba.
@@ -97,4 +97,4 @@ Las entidades alineadas permanecen seleccionadas en su nueva posición, y el com
 
 ## Entidades admitidas
 
-Align funciona con todo tipo de entidad admitida por Move, Rotate y Scale — se aplican en secuencia las mismas operaciones `translate`, `rotate` y `scale` que usan esos comandos, por lo que ninguna queda excluida.
+Align funciona con todo tipo de entidad admitida por Move, Rotate y Scale — se aplican en secuencia las mismas operaciones `translate`, `Girar` y `Escalar` que usan esos comandos, por lo que ninguna queda excluida.

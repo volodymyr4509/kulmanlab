@@ -8,11 +8,11 @@ order: 4
 
 # Circle
 
-Lệnh `circle` vẽ hình tròn được xác định bởi điểm tâm và bán kính. Sau khi tâm được bấm, bạn có thể đặt bán kính bằng cách bấm điểm thứ hai trên canvas hoặc nhập số chính xác — cả hai tùy chọn đều hoạt động đồng thời.
+Lệnh `HìnhTròn` vẽ hình tròn được xác định bởi điểm tâm và bán kính. Sau khi tâm được bấm, bạn có thể đặt bán kính bằng cách bấm điểm thứ hai trên canvas hoặc nhập số chính xác — cả hai tùy chọn đều hoạt động đồng thời.
 
 ## Vẽ Hình Tròn
 
-1. Nhập `circle` trong terminal hoặc bấm nút **Circle** trên thanh công cụ.
+1. Nhập `HìnhTròn` trong terminal hoặc bấm nút **Circle** trên thanh công cụ.
 2. **Bấm điểm tâm**, hoặc nhập `X,Y` và nhấn **Enter** cho tọa độ chính xác.
 3. Đặt bán kính — bằng cách:
    - **Bấm bất kỳ điểm** nào trên canvas — khoảng cách từ tâm trở thành bán kính, hoặc

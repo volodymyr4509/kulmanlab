@@ -8,11 +8,11 @@ order: 3
 
 # PageManager
 
-`PageManager`-kommandot öppnar dialogrutan för sidinställningar för det aktiva layoutet, där du kan ändra pappersformatet, orienteringen och skalan mellan ritningsenheter och millimeter.
+`Sidhanterare`-kommandot öppnar dialogrutan för sidinställningar för det aktiva layoutet, där du kan ändra pappersformatet, orienteringen och skalan mellan ritningsenheter och millimeter.
 
 ## Öppna Page Manager
 
-- Skriv `PageManager` i terminalen, **eller**
+- Skriv `Sidhanterare` i terminalen, **eller**
 - Högerklicka på en layoutflik längst ner och välj **Page Manager**.
 
 ## Inställningar

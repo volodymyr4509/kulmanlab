@@ -8,7 +8,7 @@ order: 1
 
 # Leader
 
-Komento `leader` piirtää multileader-merkinnän neljässä vaiheessa: nuolenkärki, joka koskettaa ominaisuutta, johdinlinja, joka taittuu doglegistä, tekstiankkuri ja kirjoitettu merkintä. Kaikista merkintäkomennoista Leader on ainoa, joka sisältää interaktiivisen tekstinsyöttövaiheen vilkkuvalla kohdistimen esikatselulla.
+Komento `Viitenuoli` piirtää multileader-merkinnän neljässä vaiheessa: nuolenkärki, joka koskettaa ominaisuutta, johdinlinja, joka taittuu doglegistä, tekstiankkuri ja kirjoitettu merkintä. Kaikista merkintäkomennoista Leader on ainoa, joka sisältää interaktiivisen tekstinsyöttövaiheen vilkkuvalla kohdistimen esikatselulla.
 
 ## Multileaderin anatomia
 
@@ -27,7 +27,7 @@ Komento `leader` piirtää multileader-merkinnän neljässä vaiheessa: nuolenk�
 
 ## Johtimen piirtäminen
 
-1. Kirjoita `leader` terminaaliin tai napsauta **Leader**-painiketta työkalurivillä.
+1. Kirjoita `Viitenuoli` terminaaliin tai napsauta **Leader**-painiketta työkalurivillä.
 2. **Napsauta nuolenkärkeä**, tai kirjoita `X,Y` ja paina **Enter** tarkkaa koordinaattia varten.
 3. **Napsauta doglegiä** — johdinlinjan taite. Kulma lukittuu 45°:n lisäyksiin; kirjoita pituus ja paina **Enter** tarkkaa sijoittelua varten. Tai kirjoita `X,Y` syöttääksesi absoluuttisen koordinaatin.
 4. **Napsauta tekstin sijaintia** — missä merkintä ankkuroituu. Samat vaihtoehdot pätevät: napsauta, kulmalukitus + pituus, tai `X,Y`.

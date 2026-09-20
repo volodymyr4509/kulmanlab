@@ -8,12 +8,12 @@ order: 1
 
 # ViewportRectangle
 
-Het `ViewportRectangle`-commando maakt een nieuwe viewport in de actieve papierlayout door twee tegenoverliggende hoeken te kiezen. Alleen beschikbaar in layoutruimte.
+Het `VensterRechthoek`-commando maakt een nieuwe viewport in de actieve papierlayout door twee tegenoverliggende hoeken te kiezen. Alleen beschikbaar in layoutruimte.
 
 ## Een viewport maken
 
 1. Schakel over naar een papierlayout via het tabblad onderaan het scherm.
-2. Typ `ViewportRectangle` in de terminal of klik op de werkbalkknop **Viewport Rectangle**.
+2. Typ `VensterRechthoek` in de terminal of klik op de werkbalkknop **Viewport Rectangle**.
 3. **Klik op de eerste hoek**, of typ `X,Y` en druk op **Enter** voor een exacte coördinaat.
 4. **Klik op de tegenoverliggende hoek** — de viewport wordt onmiddellijk geplaatst. Coördinateninvoer werkt hier ook.
 

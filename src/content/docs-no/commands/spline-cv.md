@@ -8,11 +8,11 @@ order: 8
 
 # Spline CV
 
-Kommandoen `splinecv` tegner en **kubisk B-spline** ved å plassere kontrollpunkter (CV-er). Den resulterende kurven trekkes mot hvert CV, men går ikke gjennom dem — unntatt ved det aller første og siste punktet, der **klemte knuter** forankrer kurven nøyaktig. Dette gir deg intuitiv formkontroll: dra et punkt for å skyve kurven mot det uten å tvinge den til å berøre hvert punkt.
+Kommandoen `SplineKontrollpunkter` tegner en **kubisk B-spline** ved å plassere kontrollpunkter (CV-er). Den resulterende kurven trekkes mot hvert CV, men går ikke gjennom dem — unntatt ved det aller første og siste punktet, der **klemte knuter** forankrer kurven nøyaktig. Dette gir deg intuitiv formkontroll: dra et punkt for å skyve kurven mot det uten å tvinge den til å berøre hvert punkt.
 
 ## Tegne en spline med kontrollpunkter
 
-1. Skriv `splinecv` i terminalen eller klikk på **Spline CV**-knappen i verktøylinjen.
+1. Skriv `SplineKontrollpunkter` i terminalen eller klikk på **Spline CV**-knappen i verktøylinjen.
 2. **Klikk for å plassere kontrollpunkter** — hvert klikk legger til et punkt. Eller skriv `X,Y` og trykk **Enter** for en eksakt koordinat.
 3. Trykk **Enter** eller **Space** for å avslutte (minst 2 punkter kreves).
 

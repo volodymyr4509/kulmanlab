@@ -8,11 +8,11 @@ order: 4
 
 # Circle
 
-Het commando `circle` tekent een cirkel bepaald door een middelpunt en een radius. Nadat het middelpunt is geklikt, kunt u de radius instellen door een tweede punt op het canvas te klikken of door een exact getal te typen — beide opties zijn tegelijk beschikbaar.
+Het commando `Cirkel` tekent een cirkel bepaald door een middelpunt en een radius. Nadat het middelpunt is geklikt, kunt u de radius instellen door een tweede punt op het canvas te klikken of door een exact getal te typen — beide opties zijn tegelijk beschikbaar.
 
 ## Een cirkel tekenen
 
-1. Typ `circle` in de terminal of klik op de werkbalkknop **Circle**.
+1. Typ `Cirkel` in de terminal of klik op de werkbalkknop **Circle**.
 2. **Klik op het middelpunt**, of typ `X,Y` en druk op **Enter** voor een exacte coördinaat.
 3. Stel de radius in — kies een van beide:
    - **Klik op een willekeurig punt** op het canvas — de afstand vanaf het middelpunt wordt de radius, of

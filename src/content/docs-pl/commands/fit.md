@@ -8,11 +8,11 @@ order: 4
 
 # Fit
 
-Polecenie `fit` oblicza prostokąt ograniczający wszystkich elementów w rysunku i dostosowuje zarówno poziom powiększenia, jak i pozycję panoramowania, aby każdy element był widoczny z niewielkim marginesem. Jest to najszybszy sposób na odzyskanie utraconego widoku lub zorientowanie się po zaimportowaniu pliku DXF.
+Polecenie `Wyśrodkuj` oblicza prostokąt ograniczający wszystkich elementów w rysunku i dostosowuje zarówno poziom powiększenia, jak i pozycję panoramowania, aby każdy element był widoczny z niewielkim marginesem. Jest to najszybszy sposób na odzyskanie utraconego widoku lub zorientowanie się po zaimportowaniu pliku DXF.
 
 ## Dopasowywanie widoku
 
-Kliknij przycisk **Dopasuj** na pasku narzędzi lub wpisz `fit` w terminalu. Widok dostosowuje się natychmiast i polecenie kończy się — żadna interakcja nie jest wymagana.
+Kliknij przycisk **Dopasuj** na pasku narzędzi lub wpisz `Wyśrodkuj` w terminalu. Widok dostosowuje się natychmiast i polecenie kończy się — żadna interakcja nie jest wymagana.
 
 **Dwukrotne kliknięcie środkowym przyciskiem myszy** wyzwala tę samą operację Dopasuj w dowolnym momencie bez aktywowania żadnego polecenia — najszybszy skrót do resetowania utraconego widoku w trakcie rysowania.
 

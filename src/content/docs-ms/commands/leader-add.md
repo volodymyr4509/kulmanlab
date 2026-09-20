@@ -8,11 +8,11 @@ order: 2
 
 # LeaderAdd
 
-Arahan `LeaderAdd` menambah lengan kepala anak panah baharu pada pelbagai pemimpin sedia ada. Lengan baharu menunjuk dari dogleg pemimpin sedia ada ke hujung kepala anak panah baharu yang anda klik. Semua gaya — kedudukan dogleg, teks, jenis kepala anak panah, dan saiz — diwarisi dari pemimpin yang dipilih.
+Arahan `PenunjukTambah` menambah lengan kepala anak panah baharu pada pelbagai pemimpin sedia ada. Lengan baharu menunjuk dari dogleg pemimpin sedia ada ke hujung kepala anak panah baharu yang anda klik. Semua gaya — kedudukan dogleg, teks, jenis kepala anak panah, dan saiz — diwarisi dari pemimpin yang dipilih.
 
 ## Menambah lengan
 
-1. Taip `LeaderAdd` dalam terminal.
+1. Taip `PenunjukTambah` dalam terminal.
 2. **Klik pelbagai pemimpin sedia ada** untuk memilihnya.
 3. **Klik hujung kepala anak panah baharu**, atau taip `X,Y` dan tekan **Enter** untuk koordinat tepat. Garis pratonton menunjukkan dari kursor ke dogleg pemimpin.
 

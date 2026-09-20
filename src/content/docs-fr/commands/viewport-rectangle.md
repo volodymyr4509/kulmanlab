@@ -8,12 +8,12 @@ order: 1
 
 # ViewportRectangle
 
-La commande `ViewportRectangle` crée une nouvelle fenêtre dans la mise en page papier active en sélectionnant deux coins opposés. Disponible uniquement dans l'espace de mise en page.
+La commande `FenêtreRectangulaire` crée une nouvelle fenêtre dans la mise en page papier active en sélectionnant deux coins opposés. Disponible uniquement dans l'espace de mise en page.
 
 ## Créer une fenêtre
 
 1. Passez à une mise en page papier en utilisant l'onglet en bas de l'écran.
-2. Tapez `ViewportRectangle` dans le terminal ou cliquez sur le bouton **Viewport Rectangle** dans la barre d'outils.
+2. Tapez `FenêtreRectangulaire` dans le terminal ou cliquez sur le bouton **Viewport Rectangle** dans la barre d'outils.
 3. **Cliquez sur le premier coin**, ou tapez `X,Y` et appuyez sur **Entrée** pour une coordonnée exacte.
 4. **Cliquez sur le coin opposé** — la fenêtre est placée immédiatement. La saisie de coordonnées fonctionne aussi ici.
 

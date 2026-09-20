@@ -8,13 +8,13 @@ order: 10
 
 # Offset
 
-Komento `offset` luo rinnakkaisen kopion entiteetistä kiinteällä kohtisuoralla etäisyydellä. Kirjoitat etäisyyden kerran, napsautat sitten entiteettejä ja valitset sivun — komento pysyy valmiina samalla etäisyydellä, jotta voit siirtää useita objekteja yhdessä istunnossa.
+Komento `Siirtymä` luo rinnakkaisen kopion entiteetistä kiinteällä kohtisuoralla etäisyydellä. Kirjoitat etäisyyden kerran, napsautat sitten entiteettejä ja valitset sivun — komento pysyy valmiina samalla etäisyydellä, jotta voit siirtää useita objekteja yhdessä istunnossa.
 
 Tuetut entiteettityypit: **Line, Circle, Arc, Ellipse, Polyline** (mukaan lukien Rectangles).
 
 ## Offsetin käyttäminen
 
-1. Kirjoita `offset` terminaaliin tai napsauta **Offset**-painiketta työkalurivillä.
+1. Kirjoita `Siirtymä` terminaaliin tai napsauta **Offset**-painiketta työkalurivillä.
 2. **Kirjoita offset-etäisyys** ja paina **Enter** tai **Space**.
 3. **Napsauta entiteettiä** siirtääksesi — jos entiteetti ei ole tuettu tyyppi, virheilmoitus ilmestyy ja voit napsauttaa toista entiteettiä.
 4. **Siirrä kohdistinta** puolelle, jolla kopion pitäisi näkyä — elävä esikatselu seuraa mukana.

@@ -8,11 +8,11 @@ order: 9
 
 # Spline Fit
 
-Ginuguhit ng `splinefit` command ang cubic spline na dumadaan sa bawat punto na iyong ni-click — isang interpolating curve. Hindi tulad ng [Spline CV](../spline-cv/), kung saan naaakit lamang ang curve papunta sa control vertices, dito ay pinipilit ang curve na tumama sa bawat na-click na coordinate nang eksakto. Sa loob, nag-a-fit ang editor ng control vertices para makamit ito, at nakaimbak ang mga CV na iyon kasama ng fit points sa DXF file.
+Ginuguhit ng `SplinePunto` command ang cubic spline na dumadaan sa bawat punto na iyong ni-click — isang interpolating curve. Hindi tulad ng [Spline CV](../spline-cv/), kung saan naaakit lamang ang curve papunta sa control vertices, dito ay pinipilit ang curve na tumama sa bawat na-click na coordinate nang eksakto. Sa loob, nag-a-fit ang editor ng control vertices para makamit ito, at nakaimbak ang mga CV na iyon kasama ng fit points sa DXF file.
 
 ## Pagguhit ng Spline sa Pamamagitan ng Fit Points
 
-1. I-type ang `splinefit` sa terminal o i-click ang **Spline Fit** button sa toolbar.
+1. I-type ang `SplinePunto` sa terminal o i-click ang **Spline Fit** button sa toolbar.
 2. **Mag-click para maglagay ng fit points** — dadaan ang curve sa bawat isa. O i-type ang `X,Y` at pindutin ang **Enter** para sa eksaktong coordinate.
 3. Pindutin ang **Enter** o **Space** para tapusin (kailangan ng hindi bababa sa 2 punto).
 

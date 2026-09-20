@@ -8,11 +8,11 @@ order: 5
 
 # HatchAdd
 
-Il comando `HatchAdd` apre il selettore file del sistema per caricare un file di motivi di campitura `.pat`, senza aprire prima la finestra [Hatch Manager](../hatch-manager/). È lo stesso caricamento che avvia il pulsante **Add .pat File** dell'Hatch Manager: HatchAdd è solo una via diretta dal terminale.
+Il comando `AggiungiTratteggio` apre il selettore file del sistema per caricare un file di motivi di campitura `.pat`, senza aprire prima la finestra [Hatch Manager](../hatch-manager/). È lo stesso caricamento che avvia il pulsante **Add .pat File** dell'Hatch Manager: HatchAdd è solo una via diretta dal terminale.
 
 ## Caricare un file di motivi
 
-1. Digita `HatchAdd` nel terminale, oppure fai clic su **Add .pat File** in fondo alla finestra [Hatch Manager](../hatch-manager/).
+1. Digita `AggiungiTratteggio` nel terminale, oppure fai clic su **Add .pat File** in fondo alla finestra [Hatch Manager](../hatch-manager/).
 2. Scegli un file `.pat` nel selettore di sistema. È accettato solo il formato standard dei motivi di campitura.
 
 Il comando termina appena si apre il selettore file: non seguono altre richieste, clic o input da terminale. I motivi vengono registrati e compaiono nel gruppo **User** non appena il file è scelto.

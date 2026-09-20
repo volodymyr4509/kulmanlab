@@ -8,11 +8,11 @@ order: 6
 
 # Ellipse
 
-El comando `ellipse` dibuja una elipse usando tres clics: un punto central, el extremo del primer semieje (mayor) en cualquier ángulo, y la longitud del segundo semieje (menor). Los dos ejes son siempre perpendiculares entre sí — la dirección del segundo eje se deriva automáticamente del primero.
+El comando `Elipse` dibuja una elipse usando tres clics: un punto central, el extremo del primer semieje (mayor) en cualquier ángulo, y la longitud del segundo semieje (menor). Los dos ejes son siempre perpendiculares entre sí — la dirección del segundo eje se deriva automáticamente del primero.
 
 ## Dibujar una elipse
 
-1. Escribe `ellipse` en el terminal o haz clic en el botón **Ellipse** de la barra de herramientas.
+1. Escribe `Elipse` en el terminal o haz clic en el botón **Ellipse** de la barra de herramientas.
 2. **Haz clic en el punto central**, o escribe `X,Y` y presiona **Enter** para una coordenada exacta.
 3. **Haz clic en el extremo del primer eje** — establece tanto la dirección como la longitud del primer semieje. La entrada de coordenadas también funciona aquí.
 4. **Establece la longitud del segundo eje** — mueve el cursor perpendicular al primer eje, luego haz clic o escribe una longitud.

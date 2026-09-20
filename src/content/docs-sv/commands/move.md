@@ -8,20 +8,20 @@ order: 1
 
 # Move
 
-`move`-kommandot flyttar valda entiteter från en basspunkt till en destinationspunkt. Förskjutningen som appliceras på varje vald entitet är vektorn från bas till destination. Efter flytten förblir alla entiteter valda på sin nya position, redo för fortsatt redigering.
+`Flytta`-kommandot flyttar valda entiteter från en basspunkt till en destinationspunkt. Förskjutningen som appliceras på varje vald entitet är vektorn från bas till destination. Efter flytten förblir alla entiteter valda på sin nya position, redo för fortsatt redigering.
 
 ## Två sätt att starta
 
 **Förval, sedan flytt** — välj entiteter först, aktivera sedan:
 
 1. Välj en eller flera entiteter på ritytan.
-2. Skriv `move` i terminalen eller klicka på **Move**-knappen i verktygsfältet.
+2. Skriv `Flytta` i terminalen eller klicka på **Move**-knappen i verktygsfältet.
 3. **Klicka på basspunkten**, eller skriv `X,Y` och tryck **Enter** för en exakt koordinat.
 4. **Klicka på destinationen** — alla valda entiteter förskjuts längs bas→destination-vektorn. Koordinatinmatning fungerar även här.
 
 **Aktivera, välj sedan** — starta kommandot utan att något är valt:
 
-1. Skriv `move` eller klicka på verktygsfältsknappen.
+1. Skriv `Flytta` eller klicka på verktygsfältsknappen.
 2. **Välj objekt** — klicka för att växla enskilda entiteter, eller dra för att välja med ett område.
 3. Tryck **Enter** eller **Space** för att bekräfta valet.
 4. **Klicka på basspunkten**, klicka sedan på **destinationen** (koordinatinmatning tillgänglig i båda stegen).

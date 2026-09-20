@@ -8,11 +8,11 @@ order: 8
 
 # Trim
 
-`trim`-kommandot tar bort den del av en [Line](../line/), [Arc](../arc/), [Circle](../circle/), [Ellipse](../ellipse/) eller [Polyline](../polyline/) som ligger mellan två intilliggande skärningspunkter, och delar entiteten i en eller flera kvarvarande delar. Vilket segment som klipps bestäms av markörens position — håll markören över den del du vill ta bort och klicka för att klippa den.
+`Trimma`-kommandot tar bort den del av en [Line](../line/), [Arc](../arc/), [Circle](../circle/), [Ellipse](../ellipse/) eller [Polyline](../polyline/) som ligger mellan två intilliggande skärningspunkter, och delar entiteten i en eller flera kvarvarande delar. Vilket segment som klipps bestäms av markörens position — håll markören över den del du vill ta bort och klicka för att klippa den.
 
 ## Klippa en entitet
 
-1. Skriv `trim` i terminalen eller klicka på **Trim**-knappen i verktygsfältet.
+1. Skriv `Trimma` i terminalen eller klicka på **Trim**-knappen i verktygsfältet.
 2. **Håll markören över segmentet** du vill ta bort — en förhandsvisning markerar exakt den del som kommer klippas.
 3. **Klicka** för att ta bort det segmentet.
 

@@ -8,14 +8,14 @@ order: 15
 
 # Array Grid
 
-Lệnh `ArrayGrid` tạo một lưới hình chữ nhật gồm các bản sao từ đối tượng được chọn — nhập số hàng, số cột, và khoảng cách giữa chúng, tất cả được nhập trong terminal. Lựa chọn ban đầu chiếm ô hàng 0, cột 0; mỗi ô khác là một bản sao đã dịch chuyển.
+Lệnh `MảngChữNhật` tạo một lưới hình chữ nhật gồm các bản sao từ đối tượng được chọn — nhập số hàng, số cột, và khoảng cách giữa chúng, tất cả được nhập trong terminal. Lựa chọn ban đầu chiếm ô hàng 0, cột 0; mỗi ô khác là một bản sao đã dịch chuyển.
 
 ## Hai Cách Bắt Đầu
 
 **Chọn trước, rồi array** — chọn đối tượng trước, sau đó kích hoạt:
 
 1. Chọn một hoặc nhiều đối tượng trên canvas.
-2. Nhập `arraygrid` trong terminal (chỉ cần `arr` là đủ — không mơ hồ) hoặc bấm nút **Array Grid** trên thanh công cụ.
+2. Nhập `MảngChữNhật` trong terminal (chỉ cần `arr` là đủ — không mơ hồ) hoặc bấm nút **Array Grid** trên thanh công cụ.
 3. Nhập số **hàng** và nhấn **Enter**.
 4. Nhập số **cột** và nhấn **Enter**.
 5. Nhập **khoảng cách giữa các hàng** và nhấn **Enter**.
@@ -23,7 +23,7 @@ Lệnh `ArrayGrid` tạo một lưới hình chữ nhật gồm các bản sao t
 
 **Kích hoạt, rồi chọn** — bắt đầu lệnh khi không có gì được chọn:
 
-1. Nhập `arraygrid` hoặc bấm nút thanh công cụ.
+1. Nhập `MảngChữNhật` hoặc bấm nút thanh công cụ.
 2. **Chọn đối tượng** — bấm để chuyển đổi từng đối tượng, hoặc kéo để chọn theo vùng.
 3. Nhấn **Enter** hoặc **Space** để xác nhận chọn.
 4. Tiếp tục với hàng → cột → khoảng cách hàng → khoảng cách cột như trên.

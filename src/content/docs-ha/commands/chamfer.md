@@ -8,7 +8,7 @@ order: 12
 
 # Chamfer
 
-Umarnin `chamfer` yana yanke kusurwa madaidaiciyar diagonal tsakanin abubuwan [Line](../line/) ko [Polyline](../polyline/) guda biyu. Ka bayyana yaya nisa za a yanke a kan kowane abu (d1 da d2), kuma umarnin yana yanke abubuwan biyu zuwa waɗannan tabo kuma yana sanya layin haɗi tsakaninsu.
+Umarnin `Sassaƙa` yana yanke kusurwa madaidaiciyar diagonal tsakanin abubuwan [Line](../line/) ko [Polyline](../polyline/) guda biyu. Ka bayyana yaya nisa za a yanke a kan kowane abu (d1 da d2), kuma umarnin yana yanke abubuwan biyu zuwa waɗannan tabo kuma yana sanya layin haɗi tsakaninsu.
 
 Yin amfani da nisa iri ɗaya yana samar da yankewar 45° mai daidaici; nisa daban-daban suna samar da bevel mara daidaici.
 
@@ -16,7 +16,7 @@ Chamfer yana aiki akan abubuwan **Line da Polyline**.
 
 ## Amfani da chamfer
 
-1. Rubuta `chamfer` a tashar umarni ko danna maɓallin kayan aiki na **Chamfer**.
+1. Rubuta `Sassaƙa` a tashar umarni ko danna maɓallin kayan aiki na **Chamfer**.
 2. **Rubuta nisan chamfer na farko** (d1 — nisa a kan abu na farko) ka danna **Enter**.
 3. **Rubuta nisan chamfer na biyu** (d2 — nisa a kan abu na biyu) ka danna **Enter**.
 4. **Danna abu na farko** — sashen da ka danna yana bayyana wane gefen kowace mahaɗa ake ci gaba da shi.

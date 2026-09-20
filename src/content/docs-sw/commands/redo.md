@@ -8,11 +8,11 @@ order: 14
 
 # Redo
 
-Amri ya `redo` husogea mbele kupitia historia ya kufuta, ikirejesha vitendo vilivyogeuzwa na [Undo](../undo/). Redo inapatikana tu wakati umesogea nyuma na Undo na bado hujafanya mabadiliko mapya.
+Amri ya `Rudia` husogea mbele kupitia historia ya kufuta, ikirejesha vitendo vilivyogeuzwa na [Undo](../undo/). Redo inapatikana tu wakati umesogea nyuma na Undo na bado hujafanya mabadiliko mapya.
 
 ## Jinsi ya redo
 
-- Andika `redo` kwenye terminal, au
+- Andika `Rudia` kwenye terminal, au
 - Bonyeza kitufe cha **Redo** kwenye upau wa zana.
 
 Kila mwito unarejesha kitendo kimoja kilichofutwa hapo awali. Iita mara kwa mara kusogea mbele kupitia maingizo yote ya redo yanayopatikana.

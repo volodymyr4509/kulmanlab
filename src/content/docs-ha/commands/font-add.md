@@ -8,11 +8,11 @@ order: 3
 
 # FontAdd
 
-Umarnin `FontAdd` yana buɗe mai zaɓen fayil na tsarin don loda font na `.ttf` na musamman, ba tare da fara buɗe akwatin tattaunawa na [Font Manager](../font-manager/) ba. Wannan shine loda iri ɗaya wanda maɓallin **Add Font** a Font Manager ke kunnawa — FontAdd hanya kai tsaye ce kawai zuwa can daga tashar umarni.
+Umarnin `ƘaraFont` yana buɗe mai zaɓen fayil na tsarin don loda font na `.ttf` na musamman, ba tare da fara buɗe akwatin tattaunawa na [Font Manager](../font-manager/) ba. Wannan shine loda iri ɗaya wanda maɓallin **Add Font** a Font Manager ke kunnawa — FontAdd hanya kai tsaye ce kawai zuwa can daga tashar umarni.
 
 ## Loda font
 
-1. Rubuta `FontAdd` a tashar umarni, ko danna **Add Font** a ƙasan akwatin tattaunawa na [Font Manager](../font-manager/).
+1. Rubuta `ƘaraFont` a tashar umarni, ko danna **Add Font** a ƙasan akwatin tattaunawa na [Font Manager](../font-manager/).
 2. Zaɓi fayil na `.ttf` a mai zaɓen tsarin. Fonts na TrueType kaɗai ake goyon baya — `.otf` da `.woff`/`.woff2` ba a goyon baya.
 
 Umarni yana ƙarewa nan take mai zaɓen fayil ya buɗe — babu wata dannawa ko shigarwa a tashar umarni bayan haka. Ana rijistar font kuma yana bayyana a ƙungiyar **User** nan take an zaɓi fayil.

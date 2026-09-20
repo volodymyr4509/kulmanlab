@@ -8,7 +8,7 @@ order: 3
 
 # Area
 
-Il comando `area` misura l'area racchiusa e il perimetro di un poligono definito da tre o più punti cliccati, e stampa entrambi i risultati nel terminale con 4 decimali. È il terzo comando di misurazione, insieme a [Distance](../distance/) (lunghezza in linea retta) e [Angle](../angle/) (angolo interno in un vertice).
+Il comando `Area` misura l'area racchiusa e il perimetro di un poligono definito da tre o più punti cliccati, e stampa entrambi i risultati nel terminale con 4 decimali. È il terzo comando di misurazione, insieme a [Distance](../distance/) (lunghezza in linea retta) e [Angle](../angle/) (angolo interno in un vertice).
 
 ## Anatomia di una misurazione di area
 
@@ -30,7 +30,7 @@ Il comando `area` misura l'area racchiusa e il perimetro di un poligono definito
 
 ## Misurare un'area
 
-1. Digita `area` nel terminale o clicca il pulsante **Area** nella barra degli strumenti (riga inferiore del pannello Measure).
+1. Digita `Area` nel terminale o clicca il pulsante **Area** nella barra degli strumenti (riga inferiore del pannello Measure).
 2. **Clicca il primo punto**, oppure digita `X,Y` e premi **Invio** per una coordinata esatta.
 3. **Clicca ogni vertice aggiuntivo** in ordine intorno alla forma. L'inserimento di coordinate funziona a ogni passo.
 4. Una volta posizionati almeno **3 punti**, premi **Invio** o **Spazio** (senza un inserimento di coordinata o distanza in sospeso) per chiudere il poligono e calcolare il risultato.
@@ -93,5 +93,5 @@ Invece di cliccare, digita una posizione esatta per qualsiasi vertice:
 - L'area viene calcolata con la formula di Gauss (shoelace) ed è sempre riportata come valore positivo, indipendentemente dall'ordine dei clic.
 - I poligoni auto-intersecanti (lati che si incrociano) producono comunque un risultato numerico, ma il valore potrebbe non corrispondere alla regione visivamente racchiusa — mantieni un ordine di clic senza incroci per un'area significativa.
 - I risultati vengono mostrati solo nel **terminale e come evidenziazione temporanea sul canvas** — nulla viene aggiunto permanentemente al disegno.
-- A differenza di Distance e Angle, Area **non** concatena automaticamente una nuova misurazione — dopo aver nascosto il risultato, esegui di nuovo `area` per misurare un altro poligono.
+- A differenza di Distance e Angle, Area **non** concatena automaticamente una nuova misurazione — dopo aver nascosto il risultato, esegui di nuovo `Area` per misurare un altro poligono.
 - La precisione è sempre di 4 decimali sia per l'area che per il perimetro, nelle stesse unità delle coordinate del disegno (nessuna conversione di unità).

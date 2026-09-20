@@ -8,7 +8,7 @@ order: 1
 
 # Leader
 
-Kommandoen `leader` tegner en multileader-annotation i fire trin: en pilespids der rører et element, en lederlinje der bøjer ved en dogleg, et tekstanker og en indtastet etiket. Af alle annotationskommandoerne er Leader den eneste, der inkluderer en interaktiv tekstinput-fase med en blinkende markørforhåndsvisning.
+Kommandoen `Henvisning` tegner en multileader-annotation i fire trin: en pilespids der rører et element, en lederlinje der bøjer ved en dogleg, et tekstanker og en indtastet etiket. Af alle annotationskommandoerne er Leader den eneste, der inkluderer en interaktiv tekstinput-fase med en blinkende markørforhåndsvisning.
 
 ## Anatomien af en multileader
 
@@ -27,7 +27,7 @@ Kommandoen `leader` tegner en multileader-annotation i fire trin: en pilespids d
 
 ## Tegne en leder
 
-1. Skriv `leader` i terminalen eller klik på **Leader**-knappen i værktøjslinjen.
+1. Skriv `Henvisning` i terminalen eller klik på **Leader**-knappen i værktøjslinjen.
 2. **Klik pilespidsen**, eller skriv `X,Y` og tryk **Enter** for en eksakt koordinat.
 3. **Klik doglegen** — bøjningen i lederlinjen. Vinklen låser til 45°-intervaller; skriv en længde og tryk **Enter** for præcis placering. Eller skriv `X,Y` for at angive en absolut koordinat.
 4. **Klik tekstpositionen** — hvor etiketten forankres. Samme muligheder gælder: klik, vinkellås + længde, eller `X,Y`.

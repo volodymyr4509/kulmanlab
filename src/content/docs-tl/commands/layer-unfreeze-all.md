@@ -8,11 +8,11 @@ order: 5
 
 # LayerUnfreezeAll
 
-Nililinis ng `LayerUnfreezeAll` command ang frozen flag sa **bawat layer** sa drawing nang instant. Walang kailangang selection o confirmation — tumatakbo at natatapos ito nang isang hakbang lang.
+Nililinis ng `TunawinLahatLayer` command ang frozen flag sa **bawat layer** sa drawing nang instant. Walang kailangang selection o confirmation — tumatakbo at natatapos ito nang isang hakbang lang.
 
 ## Paggamit
 
-I-type ang `LayerUnfreezeAll` sa terminal o i-click ang **Unfreeze All** toolbar button (sun icon). Agad na magiging visible ang lahat ng frozen layers.
+I-type ang `TunawinLahatLayer` sa terminal o i-click ang **Unfreeze All** toolbar button (sun icon). Agad na magiging visible ang lahat ng frozen layers.
 
 ## Kailan Gagamitin
 

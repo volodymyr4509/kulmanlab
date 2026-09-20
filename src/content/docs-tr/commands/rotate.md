@@ -8,20 +8,20 @@ order: 3
 
 # Rotate
 
-`rotate` komutu, seçili nesneleri temel nokta etrafında döndürür. Dönüş açısını ya derece cinsinden bir sayı girerek ya da tıklamayla belirtirsiniz — açı, temel nokta ile tıklama arasındaki yönden hesaplanır.
+`Döndür` komutu, seçili nesneleri temel nokta etrafında döndürür. Dönüş açısını ya derece cinsinden bir sayı girerek ya da tıklamayla belirtirsiniz — açı, temel nokta ile tıklama arasındaki yönden hesaplanır.
 
 ## İki Başlatma Yöntemi
 
 **Önce seç, sonra döndür** — nesneleri seçin, ardından etkinleştirin:
 
 1. Tuvalde bir veya daha fazla nesne seçin.
-2. Terminale `rotate` yazın veya araç çubuğundaki **Rotate** düğmesine basın.
+2. Terminale `Döndür` yazın veya araç çubuğundaki **Rotate** düğmesine basın.
 3. **Temel noktayı tıklayın** — dönme merkezi. Ya da kesin koordinat için `X,Y` yazıp **Enter** tuşuna basın.
 4. **Açıyı girin ve Enter tuşuna basın** veya açıyı imleç yönüyle belirlemek için **tıklayın**.
 
 **Etkinleştir, sonra seç** — seçim olmadan komutu başlatın:
 
-1. `rotate` yazın veya araç çubuğu düğmesine basın.
+1. `Döndür` yazın veya araç çubuğu düğmesine basın.
 2. **Nesneleri seçin** — tıklayın veya sürükleyin.
 3. Seçimi onaylamak için **Enter** veya **Boşluk** tuşuna basın.
 4. **Temel noktayı tıklayın** (koordinat girişi kullanılabilir), ardından açıyı belirtin.

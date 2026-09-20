@@ -8,11 +8,11 @@ order: 2
 
 # LayerMakeCurrent
 
-Komento `LayerMakeCurrent` asettaa **nykyisen piirustustason** vastaamaan tasoa, johon napsautettu entiteetti kuuluu. Uudet entiteetit piirretään sitten automaattisesti kyseiselle tasolle.
+Komento `AsetaTasoNykyiseksi` asettaa **nykyisen piirustustason** vastaamaan tasoa, johon napsautettu entiteetti kuuluu. Uudet entiteetit piirretään sitten automaattisesti kyseiselle tasolle.
 
 ## Käyttö
 
-1. Kirjoita `LayerMakeCurrent` terminaaliin tai napsauta **Make Current**-painiketta työkalurivillä (pipettikuvake).
+1. Kirjoita `AsetaTasoNykyiseksi` terminaaliin tai napsauta **Make Current**-painiketta työkalurivillä (pipettikuvake).
 2. **Napsauta mitä tahansa entiteettiä** piirtoalueella.
 3. Nykyinen taso päivittyy vastaamaan kyseisen entiteetin tasoa. Komento päättyy välittömästi.
 

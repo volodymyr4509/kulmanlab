@@ -8,13 +8,13 @@ order: 11
 
 # Fillet
 
-Amri ya `fillet` inapinda pembe kati ya sehemu mbili za [Line](../line/), [Arc](../arc/) au [Polyline](../polyline/) kwa kuingiza upinde wa tangent wa radi fulani, na kupunguza (au kuunganisha) vipengele vilivyochaguliwa hadi sehemu hiyo.
+Amri ya `Viringisha` inapinda pembe kati ya sehemu mbili za [Line](../line/), [Arc](../arc/) au [Polyline](../polyline/) kwa kuingiza upinde wa tangent wa radi fulani, na kupunguza (au kuunganisha) vipengele vilivyochaguliwa hadi sehemu hiyo.
 
 Fillet inafanya kazi kwenye vipengele vya **Line, Arc, na Polyline** — ikiwa ni pamoja na sehemu za moja kwa moja au za mviringo za polyline yenyewe.
 
 ## Kutumia fillet
 
-1. Andika `fillet` kwenye terminal au bonyeza kitufe cha **Fillet** kwenye upau wa zana.
+1. Andika `Viringisha` kwenye terminal au bonyeza kitufe cha **Fillet** kwenye upau wa zana.
 2. **Andika radi ya fillet** na ubonyeze **Enter**.
 3. **Bonyeza mstari wa kwanza, upinde, au sehemu ya polyline** — sehemu unayobonyeza inaamua upande gani wa makutano yoyote unaoachwa.
 4. **Hover juu ya kipengele cha pili** — onyesho la upinde wa nukta linaonyesha fillet itakayotokea. Sogeza kishale upande unaotaka kuacha.

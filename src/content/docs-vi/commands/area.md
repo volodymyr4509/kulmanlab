@@ -8,7 +8,7 @@ order: 3
 
 # Area
 
-Lệnh `area` đo diện tích khép kín và chu vi của một đa giác được xác định bởi ba điểm bấm trở lên, và in cả hai kết quả trong terminal với 4 chữ số thập phân. Đây là lệnh đo lường thứ ba, cùng với [Distance](../distance/) (độ dài đường thẳng) và [Angle](../angle/) (góc nội tại tại một đỉnh).
+Lệnh `DiệnTích` đo diện tích khép kín và chu vi của một đa giác được xác định bởi ba điểm bấm trở lên, và in cả hai kết quả trong terminal với 4 chữ số thập phân. Đây là lệnh đo lường thứ ba, cùng với [Distance](../distance/) (độ dài đường thẳng) và [Angle](../angle/) (góc nội tại tại một đỉnh).
 
 ## Cấu Trúc Phép Đo Diện Tích
 
@@ -30,7 +30,7 @@ Lệnh `area` đo diện tích khép kín và chu vi của một đa giác đư�
 
 ## Đo Diện Tích
 
-1. Nhập `area` trong terminal hoặc bấm nút **Area** trên thanh công cụ (hàng dưới của bảng Measure).
+1. Nhập `DiệnTích` trong terminal hoặc bấm nút **Area** trên thanh công cụ (hàng dưới của bảng Measure).
 2. **Bấm điểm đầu tiên**, hoặc nhập `X,Y` và nhấn **Enter** để nhập tọa độ chính xác.
 3. **Bấm từng đỉnh bổ sung** theo thứ tự quanh hình dạng. Nhập tọa độ hoạt động ở mỗi bước.
 4. Sau khi đặt ít nhất **3 điểm**, nhấn **Enter** hoặc **Space** (không có tọa độ hoặc khoảng cách đang chờ nhập) để khép kín đa giác và tính kết quả.
@@ -93,5 +93,5 @@ Thay vì bấm, nhập vị trí chính xác cho bất kỳ đỉnh nào:
 - Diện tích được tính bằng công thức shoelace và luôn được báo cáo dưới dạng giá trị dương, bất kể thứ tự bấm.
 - Các đa giác tự cắt (các cạnh giao nhau) vẫn tạo ra kết quả số, nhưng giá trị có thể không khớp với khu vực được khép kín về mặt hình ảnh — hãy giữ thứ tự bấm không giao nhau để có diện tích có ý nghĩa.
 - Kết quả chỉ được hiển thị trong **terminal và dưới dạng làm nổi bật tạm thời trên canvas** — không có gì được thêm vĩnh viễn vào bản vẽ.
-- Không giống như Distance và Angle, Area **không** tự động nối tiếp sang phép đo mới — sau khi ẩn kết quả, hãy chạy lại `area` để đo một đa giác khác.
+- Không giống như Distance và Angle, Area **không** tự động nối tiếp sang phép đo mới — sau khi ẩn kết quả, hãy chạy lại `DiệnTích` để đo một đa giác khác.
 - Độ chính xác luôn là 4 chữ số thập phân cho cả diện tích và chu vi, theo cùng đơn vị với tọa độ bản vẽ (không có chuyển đổi đơn vị).

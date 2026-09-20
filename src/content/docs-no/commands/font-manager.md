@@ -8,11 +8,11 @@ order: 2
 
 # Font Manager
 
-Kommandoen `FontManager` åpner en dialog for å bla gjennom og velge skrifttyper, og for å laste opp dine egne `.ttf`-filer til bruk i [Text](../text/)- og [Multileader](../leader/)-entiteter.
+Kommandoen `Skriftbehandler` åpner en dialog for å bla gjennom og velge skrifttyper, og for å laste opp dine egne `.ttf`-filer til bruk i [Text](../text/)- og [Multileader](../leader/)-entiteter.
 
 ## Åpne Font Manager
 
-- Skriv `FontManager` i terminalen, **eller**
+- Skriv `Skriftbehandler` i terminalen, **eller**
 - Klikk på **Font Manager**-knappen i verktøylinjen til [teksteditoren](../../interface/text-editor/).
 
 ## Skriftgrupper
@@ -28,7 +28,7 @@ Klikk en hvilken som helst skrift i listen for å forhåndsvise den til høyre �
 
 ## Laste opp en egendefinert skrift
 
-1. Klikk **Add Font** i dialogens bunntekst (eller skriv [`FontAdd`](../font-add/) i terminalen for å åpne filvelgeren direkte).
+1. Klikk **Add Font** i dialogens bunntekst (eller skriv [`SkriftLeggTil`](../font-add/) i terminalen for å åpne filvelgeren direkte).
 2. Velg en `.ttf`-fil. Kun TrueType-skrifter støttes — `.otf` og `.woff`/`.woff2` støttes ikke.
 3. Filnavnet (uten filtypen) blir skriftens navn i **User**-gruppen. For eksempel legger opplasting av `MyFont.ttf` til en skrift kalt `MyFont`.
 

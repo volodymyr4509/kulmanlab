@@ -8,11 +8,11 @@ order: 5
 
 # Arc
 
-Amri ya `arc` inachora upinde wa mduara kupitia pointi tatu unazobonyeza. Upinde unakokotolewa kama circumcircle ya kipekee inayopita pointi zote tatu — hakuna haja ya kubainisha kituo au radi moja kwa moja. Upinde unaendesha kutoka klik ya kwanza hadi klik ya tatu, ukipita kwenye ya pili.
+Amri ya `Tao` inachora upinde wa mduara kupitia pointi tatu unazobonyeza. Upinde unakokotolewa kama circumcircle ya kipekee inayopita pointi zote tatu — hakuna haja ya kubainisha kituo au radi moja kwa moja. Upinde unaendesha kutoka klik ya kwanza hadi klik ya tatu, ukipita kwenye ya pili.
 
 ## Kuchora upinde
 
-1. Andika `arc` kwenye terminal au bonyeza kitufe cha upau wa zana cha **Arc**.
+1. Andika `Tao` kwenye terminal au bonyeza kitufe cha upau wa zana cha **Arc**.
 2. **Bonyeza pointi ya kwanza** — mwisho mmoja wa upinde. Au andika `X,Y` na ubonyeze **Enter** kwa kuratibu halisi.
 3. **Bonyeza pointi ya pili** — pointi ambayo upinde lazima upite (inadhibiti mkondo na mwelekeo). Uingizaji wa kuratibu unafanya kazi hapa pia.
 4. **Bonyeza pointi ya tatu** — mwisho mwingine wa upinde. Upinde uwekwa na amri inaondoka. Uingizaji wa kuratibu unafanya kazi hapa pia.

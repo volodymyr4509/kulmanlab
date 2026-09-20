@@ -8,11 +8,11 @@ order: 1
 
 # Line
 
-Kommandoen `line` tegner enkeltstående lige linjesegmenter gemt som separate `LINE`-entiteter i DXF-modellen. Efter hvert segment forbliver kommandoen aktiv og genbruger endepunktet som et nyt startpunkt, så du kan bygge sammenhængende baner ét segment ad gangen. I modsætning til en [Polyline](../polyline/) forbliver kædede linjer uafhængige entiteter — hver kan trimmes, forlænges eller slettes uden at påvirke naboerne.
+Kommandoen `Linje` tegner enkeltstående lige linjesegmenter gemt som separate `LINE`-entiteter i DXF-modellen. Efter hvert segment forbliver kommandoen aktiv og genbruger endepunktet som et nyt startpunkt, så du kan bygge sammenhængende baner ét segment ad gangen. I modsætning til en [Polyline](../polyline/) forbliver kædede linjer uafhængige entiteter — hver kan trimmes, forlænges eller slettes uden at påvirke naboerne.
 
 ## Tegne linjer
 
-1. Skriv `line` i terminalen eller klik på **Line**-knappen i værktøjslinjen.
+1. Skriv `Linje` i terminalen eller klik på **Line**-knappen i værktøjslinjen.
 2. **Klik startpunktet**, eller skriv `X,Y` og tryk **Enter** for en eksakt koordinat.
 3. **Klik slutpunktet** — segmentet placeres, og endepunktet bliver det næste startpunkt. Koordinatindtastning fungerer også her.
 4. Fortsæt med at klikke (eller skrive) for at kæde flere segmenter.

@@ -8,20 +8,20 @@ order: 2
 
 # Copy
 
-`copy` komutu, seçili nesnelerin öteleme kopyalarını oluşturur ve bunları temel noktadan hedef noktaya olan kaymaya göre yerleştirir — orijinaller tam olarak yerlerinde kalır. Bu [Move](../move/) komutundan temel farktır: Copy çizime yeni nesneler ekler; Move mevcut nesneleri taşır.
+`Kopyala` komutu, seçili nesnelerin öteleme kopyalarını oluşturur ve bunları temel noktadan hedef noktaya olan kaymaya göre yerleştirir — orijinaller tam olarak yerlerinde kalır. Bu [Move](../move/) komutundan temel farktır: Copy çizime yeni nesneler ekler; Move mevcut nesneleri taşır.
 
 ## İki Başlatma Yöntemi
 
 **Önce seç, sonra kopyala** — nesneleri seçin, ardından etkinleştirin:
 
 1. Tuvalde bir veya daha fazla nesne seçin.
-2. Terminale `copy` yazın veya araç çubuğundaki **Copy** düğmesine basın.
+2. Terminale `Kopyala` yazın veya araç çubuğundaki **Copy** düğmesine basın.
 3. **Temel noktayı tıklayın** veya kesin koordinat için `X,Y` yazıp **Enter** tuşuna basın.
 4. **Hedef noktayı tıklayın** — kopyalar temel→hedef kaymasıyla görünür. Koordinat girişi burada da çalışır.
 
 **Etkinleştir, sonra seç** — seçim olmadan komutu başlatın:
 
-1. `copy` yazın veya araç çubuğu düğmesine basın.
+1. `Kopyala` yazın veya araç çubuğu düğmesine basın.
 2. **Nesneleri seçin** — tek tek nesneleri değiştirmek için tıklayın veya kutu seçimi için sürükleyin.
 3. Seçimi onaylamak için **Enter** veya **Boşluk** tuşuna basın.
 4. **Temel noktayı tıklayın**, ardından **hedef noktayı tıklayın** (her iki adımda koordinat girişi kullanılabilir).

@@ -8,11 +8,11 @@ order: 5
 
 # HatchAdd
 
-Der Befehl `HatchAdd` öffnet die Dateiauswahl des Systems zum Hochladen einer `.pat`-Schraffurmusterdatei, ohne zuvor den [Hatch Manager](../hatch-manager/)-Dialog zu öffnen. Es ist derselbe Upload, den die Schaltfläche **Add .pat File** im Hatch Manager auslöst — HatchAdd ist nur ein direkter Weg dorthin über das Terminal.
+Der Befehl `SchraffurHinzufügen` öffnet die Dateiauswahl des Systems zum Hochladen einer `.pat`-Schraffurmusterdatei, ohne zuvor den [Hatch Manager](../hatch-manager/)-Dialog zu öffnen. Es ist derselbe Upload, den die Schaltfläche **Add .pat File** im Hatch Manager auslöst — HatchAdd ist nur ein direkter Weg dorthin über das Terminal.
 
 ## Eine Musterdatei hochladen
 
-1. Geben Sie `HatchAdd` im Terminal ein, oder klicken Sie im Fußbereich des [Hatch-Manager](../hatch-manager/)-Dialogs auf **Add .pat File**.
+1. Geben Sie `SchraffurHinzufügen` im Terminal ein, oder klicken Sie im Fußbereich des [Hatch-Manager](../hatch-manager/)-Dialogs auf **Add .pat File**.
 2. Wählen Sie eine `.pat`-Datei in der Systemauswahl. Akzeptiert wird nur das Standardformat für Schraffurmuster.
 
 Der Befehl endet, sobald die Dateiauswahl geöffnet wird — es folgt kein weiterer Klick oder Terminal-Eingabe. Die Muster werden registriert und erscheinen in der Gruppe **User**, sobald die Datei ausgewählt wurde.

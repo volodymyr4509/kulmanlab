@@ -8,11 +8,11 @@ order: 3
 
 # Rectangle
 
-`rectangle`-kommandot ritar en axelparallell rektangel definierad av två klick i motstående hörn. Resultatet sparas som en **sluten `LWPOLYLINE`** med fyra hörnpunkter — en i varje hörn. Det finns ingen egen entitetstyp för rektanglar: efter skapandet beter sig formen precis som vilken annan [Polyline](../polyline/) som helst, och varje polylinjeredigering gäller för den.
+`Rektangel`-kommandot ritar en axelparallell rektangel definierad av två klick i motstående hörn. Resultatet sparas som en **sluten `LWPOLYLINE`** med fyra hörnpunkter — en i varje hörn. Det finns ingen egen entitetstyp för rektanglar: efter skapandet beter sig formen precis som vilken annan [Polyline](../polyline/) som helst, och varje polylinjeredigering gäller för den.
 
 ## Rita en rektangel
 
-1. Skriv `rectangle` i terminalen eller klicka på **Rectangle**-knappen i verktygsfältet.
+1. Skriv `Rektangel` i terminalen eller klicka på **Rectangle**-knappen i verktygsfältet.
 2. **Klicka på det första hörnet**, eller skriv `X,Y` och tryck **Enter** för en exakt koordinat.
 3. **Klicka på det motstående hörnet** — rektangeln placeras omedelbart och kommandot avslutas. Koordinatinmatning fungerar även här. Eller tryck på `D` istället för att skriva in en exakt bredd och höjd — se [Måttinmatning](#måttinmatning) nedan.
 

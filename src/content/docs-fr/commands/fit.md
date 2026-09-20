@@ -8,11 +8,11 @@ order: 4
 
 # Fit
 
-La commande `fit` calcule le cadre de délimitation de toutes les entités du dessin et ajuste à la fois le niveau de zoom et la position de déplacement pour que toutes les entités soient visibles avec une petite marge. C'est la façon la plus rapide de retrouver une vue perdue ou de s'orienter après avoir importé un fichier DXF.
+La commande `Cadrer` calcule le cadre de délimitation de toutes les entités du dessin et ajuste à la fois le niveau de zoom et la position de déplacement pour que toutes les entités soient visibles avec une petite marge. C'est la façon la plus rapide de retrouver une vue perdue ou de s'orienter après avoir importé un fichier DXF.
 
 ## Ajuster la vue
 
-Cliquez sur le bouton **Fit** dans la barre d'outils ou tapez `fit` dans le terminal. La vue s'ajuste immédiatement et la commande se termine — aucune interaction n'est requise.
+Cliquez sur le bouton **Fit** dans la barre d'outils ou tapez `Cadrer` dans le terminal. La vue s'ajuste immédiatement et la commande se termine — aucune interaction n'est requise.
 
 **Double-cliquer avec le bouton central de la souris** active la même opération Fit à tout moment sans activer de commande — le raccourci le plus rapide pour retrouver une vue perdue au milieu d'un dessin.
 

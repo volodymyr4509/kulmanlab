@@ -7,11 +7,11 @@ order: 14
 
 # Redo
 
-Lệnh `redo` tiến về phía trước trong lịch sử hoàn tác, áp dụng lại các hành động đã bị đảo ngược bởi [Undo](../undo/). Redo chỉ khả dụng khi bạn đã lùi lại bằng Undo và chưa thực hiện thay đổi mới.
+Lệnh `LàmLại` tiến về phía trước trong lịch sử hoàn tác, áp dụng lại các hành động đã bị đảo ngược bởi [Undo](../undo/). Redo chỉ khả dụng khi bạn đã lùi lại bằng Undo và chưa thực hiện thay đổi mới.
 
 ## Cách làm lại
 
-- Gõ `redo` trong terminal, hoặc
+- Gõ `LàmLại` trong terminal, hoặc
 - Nhấp nút **Redo** trên thanh công cụ.
 
 Mỗi lần gọi áp dụng lại một hành động đã bị hoàn tác trước đó. Gọi nhiều lần để tiến về phía trước qua tất cả các mục làm lại có sẵn.

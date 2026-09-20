@@ -8,7 +8,7 @@ order: 2
 
 # Angle
 
-Perintah `angle` mengukur sudut interior pada vertex yang dibentuk oleh dua segmen garis melalui tiga titik yang diklik. Hasilnya — selalu antara 0° dan 180° — ditampilkan di terminal hingga 4 desimal. Ini adalah salah satu dari tiga perintah pengukuran — [Distance](../distance/) mengukur panjang garis lurus, dan [Area](../area/) mengukur luas serta keliling poligon tertutup.
+Perintah `Sudut` mengukur sudut interior pada vertex yang dibentuk oleh dua segmen garis melalui tiga titik yang diklik. Hasilnya — selalu antara 0° dan 180° — ditampilkan di terminal hingga 4 desimal. Ini adalah salah satu dari tiga perintah pengukuran — [Distance](../distance/) mengukur panjang garis lurus, dan [Area](../area/) mengukur luas serta keliling poligon tertutup.
 
 ## Anatomi pengukuran sudut
 
@@ -30,7 +30,7 @@ Perintah `angle` mengukur sudut interior pada vertex yang dibentuk oleh dua segm
 
 ## Mengukur sudut
 
-1. Ketik `angle` di terminal atau klik tombol toolbar **Angle**.
+1. Ketik `Sudut` di terminal atau klik tombol toolbar **Angle**.
 2. **Klik titik pertama** — salah satu ujung lengan sudut. Atau ketik `X,Y` dan tekan **Enter** untuk koordinat tepat.
 3. **Klik vertex** — sudut di mana dua lengan bertemu. Entri koordinat juga berfungsi di sini.
 4. **Klik titik ketiga** — ujung lengan kedua. Entri koordinat juga berfungsi di sini. Menempatkan titik ini mencetak hasilnya.

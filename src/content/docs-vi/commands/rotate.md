@@ -7,20 +7,20 @@ order: 3
 
 # Rotate
 
-Lệnh `rotate` xoay các thực thể đã chọn quanh điểm cơ sở. Bạn chỉ định góc xoay bằng cách gõ số độ hoặc bằng cách nhấp — góc được tính từ hướng giữa điểm cơ sở và vị trí nhấp.
+Lệnh `Xoay` xoay các thực thể đã chọn quanh điểm cơ sở. Bạn chỉ định góc xoay bằng cách gõ số độ hoặc bằng cách nhấp — góc được tính từ hướng giữa điểm cơ sở và vị trí nhấp.
 
 ## Hai cách bắt đầu
 
 **Chọn trước, sau đó xoay** — chọn thực thể trước, rồi kích hoạt:
 
 1. Chọn một hoặc nhiều thực thể trên canvas.
-2. Gõ `rotate` trong terminal hoặc nhấp nút **Rotate** trên thanh công cụ.
+2. Gõ `Xoay` trong terminal hoặc nhấp nút **Rotate** trên thanh công cụ.
 3. **Nhấp điểm cơ sở** — tâm xoay. Hoặc gõ `X,Y` rồi nhấn **Enter**.
 4. **Gõ góc và nhấn Enter**, hoặc **nhấp** để đặt góc theo hướng con trỏ.
 
 **Kích hoạt, sau đó chọn** — bắt đầu lệnh khi không có gì được chọn:
 
-1. Gõ `rotate` hoặc nhấp nút thanh công cụ.
+1. Gõ `Xoay` hoặc nhấp nút thanh công cụ.
 2. **Chọn đối tượng** — nhấp để bật/tắt, hoặc kéo để chọn theo vùng.
 3. Nhấn **Enter** hoặc **Space** để xác nhận lựa chọn.
 4. **Nhấp điểm cơ sở**, sau đó đặt góc.

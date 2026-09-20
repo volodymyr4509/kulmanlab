@@ -8,13 +8,13 @@ order: 2
 
 # Polyline
 
-La commande `polyline` trace un chemin connecté de n'importe quel nombre de segments droits ou d'arc, tous stockés comme une seule entité `LWPOLYLINE`. Parce que tout le chemin est un seul objet, le sélectionner sélectionne chaque segment à la fois — déplacez, faites pivoter ou mettez à l'échelle toute la forme en une seule opération. C'est la distinction clé avec les [Lines](../line/) enchaînées, où chaque segment est une entité indépendante.
+La commande `Polyligne` trace un chemin connecté de n'importe quel nombre de segments droits ou d'arc, tous stockés comme une seule entité `LWPOLYLINE`. Parce que tout le chemin est un seul objet, le sélectionner sélectionne chaque segment à la fois — déplacez, faites pivoter ou mettez à l'échelle toute la forme en une seule opération. C'est la distinction clé avec les [Lines](../line/) enchaînées, où chaque segment est une entité indépendante.
 
 Les polylignes peuvent également être **fermées** : la commande [Rectangle](../rectangle/) utilise la même entité `LWPOLYLINE` avec un indicateur de fermeture défini.
 
 ## Tracer une polyligne
 
-1. Tapez `polyline` dans le terminal ou cliquez sur le bouton **Polyline** de la barre d'outils.
+1. Tapez `Polyligne` dans le terminal ou cliquez sur le bouton **Polyline** de la barre d'outils.
 2. **Cliquez sur le premier point**, ou tapez `X,Y` et appuyez sur **Entrée** pour une coordonnée exacte.
 3. **Cliquez sur chaque point suivant** — chaque clic ajoute un segment. La saisie de coordonnées fonctionne à chaque étape.
 4. Appuyez sur **Entrée** ou **Espace** pour terminer (nécessite au moins 2 points placés).

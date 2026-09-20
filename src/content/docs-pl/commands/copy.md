@@ -8,20 +8,20 @@ order: 2
 
 # Copy
 
-Polecenie `copy` tworzy przetłumaczone duplikaty zaznaczonych elementów i umieszcza je z przesunięciem od punktu bazowego do punktu docelowego — oryginały pozostają dokładnie tam, gdzie są. To jedna kluczowa różnica od [Move](../move/): Kopiuj dodaje nowe elementy do rysunku; Move relokuje istniejące.
+Polecenie `Kopiuj` tworzy przetłumaczone duplikaty zaznaczonych elementów i umieszcza je z przesunięciem od punktu bazowego do punktu docelowego — oryginały pozostają dokładnie tam, gdzie są. To jedna kluczowa różnica od [Move](../move/): Kopiuj dodaje nowe elementy do rysunku; Move relokuje istniejące.
 
 ## Dwa sposoby uruchamiania
 
 **Wstępne zaznaczenie, a następnie kopiowanie** — najpierw zaznacz elementy, a następnie aktywuj:
 
 1. Zaznacz jeden lub więcej elementów na płótnie.
-2. Wpisz `copy` w terminalu lub kliknij przycisk **Kopiuj** na pasku narzędzi.
+2. Wpisz `Kopiuj` w terminalu lub kliknij przycisk **Kopiuj** na pasku narzędzi.
 3. **Kliknij punkt bazowy** lub wpisz `X,Y` i naciśnij **Enter** dla dokładnej współrzędnej.
 4. **Kliknij cel** — duplikaty pojawiają się przy przesunięciu baza→cel. Tutaj również działa wprowadzanie współrzędnych.
 
 **Aktywuj, a następnie zaznacz** — uruchom polecenie bez zaznaczonego niczego:
 
-1. Wpisz `copy` lub kliknij przycisk paska narzędzi.
+1. Wpisz `Kopiuj` lub kliknij przycisk paska narzędzi.
 2. **Zaznacz obiekty** — kliknij, aby przełączać poszczególne elementy, lub przeciągnij, aby zaznaczyć obszarem.
 3. Naciśnij **Enter** lub **Spację**, aby potwierdzić zaznaczenie.
 4. **Kliknij punkt bazowy**, a następnie **kliknij cel** (wprowadzanie współrzędnych dostępne na obu krokach).

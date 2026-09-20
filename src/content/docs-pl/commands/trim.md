@@ -8,11 +8,11 @@ order: 8
 
 # Trim
 
-Polecenie `trim` usuwa część [Line](../line/), [Arc](../arc/), [Circle](../circle/), [Ellipse](../ellipse/) lub [Polyline](../polyline/) leżącą między dwoma sąsiednimi punktami przecięcia, dzieląc element na jedną lub więcej pozostałych części. Segment do wycięcia jest określany przez pozycję kursora — najedź kursorem na część, którą chcesz usunąć, i kliknij, aby ją przyciąć.
+Polecenie `Utnij` usuwa część [Line](../line/), [Arc](../arc/), [Circle](../circle/), [Ellipse](../ellipse/) lub [Polyline](../polyline/) leżącą między dwoma sąsiednimi punktami przecięcia, dzieląc element na jedną lub więcej pozostałych części. Segment do wycięcia jest określany przez pozycję kursora — najedź kursorem na część, którą chcesz usunąć, i kliknij, aby ją przyciąć.
 
 ## Przycinanie elementu
 
-1. Wpisz `trim` w terminalu lub kliknij przycisk **Przytnij** na pasku narzędzi.
+1. Wpisz `Utnij` w terminalu lub kliknij przycisk **Przytnij** na pasku narzędzi.
 2. **Najedź kursorem na segment**, który chcesz usunąć — podgląd dokładnie podświetla część, która zostanie wycięta.
 3. **Kliknij**, aby usunąć ten segment.
 

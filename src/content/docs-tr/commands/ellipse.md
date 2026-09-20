@@ -8,11 +8,11 @@ order: 6
 
 # Ellipse
 
-`ellipse` komutu, üç tıklamayla elips çizer: bir merkez noktası, birinci (ana) yarı eksenin herhangi bir açıdaki ucu ve ikinci (yardımcı) yarı eksenin uzunluğu. İki eksen her zaman birbirine diktir — ikinci eksen yönü birinciden otomatik olarak türetilir.
+`Elips` komutu, üç tıklamayla elips çizer: bir merkez noktası, birinci (ana) yarı eksenin herhangi bir açıdaki ucu ve ikinci (yardımcı) yarı eksenin uzunluğu. İki eksen her zaman birbirine diktir — ikinci eksen yönü birinciden otomatik olarak türetilir.
 
 ## Elips Çizimi
 
-1. Terminale `ellipse` yazın veya araç çubuğundaki **Ellipse** düğmesine tıklayın.
+1. Terminale `Elips` yazın veya araç çubuğundaki **Ellipse** düğmesine tıklayın.
 2. **Merkez noktasını tıklayın** veya tam koordinat için `X,Y` yazıp **Enter** tuşuna basın.
 3. **Birinci eksen ucunu tıklayın** — birinci yarı eksenin hem yönünü hem de uzunluğunu belirler. Koordinat girişi burada da çalışır.
 4. **İkinci eksen uzunluğunu ayarlayın** — imleci birinci eksene dik olarak hareket ettirin, ardından tıklayın veya uzunluk yazın.

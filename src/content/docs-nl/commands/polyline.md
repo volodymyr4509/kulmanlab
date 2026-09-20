@@ -8,13 +8,13 @@ order: 2
 
 # Polyline
 
-Het `polyline`-commando tekent een verbonden pad van een willekeurig aantal rechte of boogsegmenten, allemaal opgeslagen als één `LWPOLYLINE`-entiteit. Omdat het hele pad één object is, selecteert u met één klik elk segment tegelijk — verplaats, draai of schaal de hele vorm in één bewerking. Dit is het belangrijkste verschil met aaneengeschakelde [Lines](../line/), waarbij elk segment een onafhankelijke entiteit is.
+Het `Polylijn`-commando tekent een verbonden pad van een willekeurig aantal rechte of boogsegmenten, allemaal opgeslagen als één `LWPOLYLINE`-entiteit. Omdat het hele pad één object is, selecteert u met één klik elk segment tegelijk — verplaats, draai of schaal de hele vorm in één bewerking. Dit is het belangrijkste verschil met aaneengeschakelde [Lines](../line/), waarbij elk segment een onafhankelijke entiteit is.
 
 Polylijnen kunnen ook **gesloten** zijn: het [Rectangle](../rectangle/)-commando gebruikt dezelfde `LWPOLYLINE`-entiteit met een ingestelde sluitvlag.
 
 ## Een polylijn tekenen
 
-1. Typ `polyline` in de terminal of klik op de **Polyline**-werkbalkknop.
+1. Typ `Polylijn` in de terminal of klik op de **Polyline**-werkbalkknop.
 2. **Klik op het eerste punt**, of typ `X,Y` en druk op **Enter** voor een exact coördinaat.
 3. **Klik op elk volgend punt** — elke klik voegt een segment toe. Coördinaatinvoer werkt bij elke stap.
 4. Druk op **Enter** of **Spatie** om te voltooien (vereist minstens 2 geplaatste punten).

@@ -8,20 +8,20 @@ order: 1
 
 # Move
 
-Het `move`-commando verplaatst geselecteerde entiteiten van een basispunt naar een bestemmingspunt. De verschuiving die op elke geselecteerde entiteit wordt toegepast, is de vector van basis naar bestemming. Na de verplaatsing blijven alle entiteiten geselecteerd op hun nieuwe positie, klaar voor verdere bewerkingen.
+Het `Verplaatsen`-commando verplaatst geselecteerde entiteiten van een basispunt naar een bestemmingspunt. De verschuiving die op elke geselecteerde entiteit wordt toegepast, is de vector van basis naar bestemming. Na de verplaatsing blijven alle entiteiten geselecteerd op hun nieuwe positie, klaar voor verdere bewerkingen.
 
 ## Twee manieren om te starten
 
 **Eerst voorselecteren, dan verplaatsen** — selecteer eerst entiteiten en activeer daarna:
 
 1. Selecteer een of meer entiteiten op het canvas.
-2. Typ `move` in de terminal of klik op de **Move**-werkbalkknop.
+2. Typ `Verplaatsen` in de terminal of klik op de **Move**-werkbalkknop.
 3. **Klik op het basispunt**, of typ `X,Y` en druk op **Enter** voor een exact coördinaat.
 4. **Klik op de bestemming** — alle geselecteerde entiteiten verschuiven met de vector basis→bestemming. Coördinaatinvoer werkt hier ook.
 
 **Eerst activeren, dan selecteren** — start het commando zonder voorselectie:
 
-1. Typ `move` of klik op de werkbalkknop.
+1. Typ `Verplaatsen` of klik op de werkbalkknop.
 2. **Selecteer objecten** — klik om individuele entiteiten te schakelen, of sleep om per gebied te selecteren.
 3. Druk op **Enter** of **Spatie** om de selectie te bevestigen.
 4. **Klik op het basispunt**, klik daarna op **de bestemming** (coördinaatinvoer beschikbaar bij beide stappen).

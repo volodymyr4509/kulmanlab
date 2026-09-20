@@ -8,7 +8,7 @@ order: 16
 
 # Explode
 
-`explode` komutu bir [Polyline](../polyline/)'ı kendi [Line](../line/) ve [Arc](../arc/) nesnelerine ayırır — segment başına bir tane, tam olarak polyline'ın kendi köşe noktalarının bulunduğu yerde. Parçalar polyline'ın yerini alır ve onun çizgi kalınlığını, rengini, katmanını ve çizgi tipini korur.
+`Patlat` komutu bir [Polyline](../polyline/)'ı kendi [Line](../line/) ve [Arc](../arc/) nesnelerine ayırır — segment başına bir tane, tam olarak polyline'ın kendi köşe noktalarının bulunduğu yerde. Parçalar polyline'ın yerini alır ve onun çizgi kalınlığını, rengini, katmanını ve çizgi tipini korur.
 
 Explode yalnızca **Polyline** nesneleriyle çalışır.
 
@@ -19,13 +19,13 @@ Explode yalnızca **Polyline** nesneleriyle çalışır.
 **Önce seç, sonra patlat** — en hızlı yol:
 
 1. Tuval üzerinde bir veya daha fazla polyline seçin.
-2. Terminale `explode` yazın veya Edit panelindeki **Explode** düğmesine tıklayın.
+2. Terminale `Patlat` yazın veya Edit panelindeki **Explode** düğmesine tıklayın.
 
 Seçili polyline'lar anında patlatılır — zaten bir şey seçili olduğundan ayrı bir onay adımı yoktur.
 
 **Etkinleştir, sonra seç**:
 
-1. Hiçbir şey seçili değilken `explode` yazın veya araç çubuğu düğmesine tıklayın.
+1. Hiçbir şey seçili değilken `Patlat` yazın veya araç çubuğu düğmesine tıklayın.
 2. **Polyline'ları seçin** — açmak/kapatmak için tıklayın veya alan seçmek için sürükleyin.
 3. Seçili polyline'ları onaylamak ve patlatmak için **Enter** veya **Boşluk** tuşuna basın.
 

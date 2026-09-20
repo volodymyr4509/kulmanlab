@@ -8,12 +8,12 @@ order: 1
 
 # ViewportRectangle
 
-Il comando `ViewportRectangle` crea una nuova finestra di visualizzazione nel layout carta attivo selezionando due angoli opposti. Disponibile solo nello spazio layout.
+Il comando `FinestraRettangolare` crea una nuova finestra di visualizzazione nel layout carta attivo selezionando due angoli opposti. Disponibile solo nello spazio layout.
 
 ## Creare una finestra di visualizzazione
 
 1. Passa a un layout carta usando la scheda in basso nella schermata.
-2. Digita `ViewportRectangle` nel terminale o clicca il pulsante **Viewport Rectangle** nella barra degli strumenti.
+2. Digita `FinestraRettangolare` nel terminale o clicca il pulsante **Viewport Rectangle** nella barra degli strumenti.
 3. **Clicca il primo angolo**, oppure digita `X,Y` e premi **Invio** per una coordinata esatta.
 4. **Clicca l'angolo opposto** — la finestra di visualizzazione viene posizionata immediatamente. Anche qui è disponibile l'inserimento coordinate.
 

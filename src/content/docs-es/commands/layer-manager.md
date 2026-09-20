@@ -8,11 +8,11 @@ order: 1
 
 # LayerManager
 
-El comando `LayerManager` abre una tabla que lista todas las capas del dibujo, con sus ajustes de **Freeze**, **Lock**, **Plot**, **Color**, **Grosor de línea** y **Tipo de línea** editables directamente en la fila. Es el lugar central para añadir capas, eliminar las que no se usan y ajustar cómo se comportan las existentes — los demás comandos de capa ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) hacen cada uno una sola cosa concreta sin abrirlo.
+El comando `GestorDeCapas` abre una tabla que lista todas las capas del dibujo, con sus ajustes de **Freeze**, **Lock**, **Plot**, **Color**, **Grosor de línea** y **Tipo de línea** editables directamente en la fila. Es el lugar central para añadir capas, eliminar las que no se usan y ajustar cómo se comportan las existentes — los demás comandos de capa ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) hacen cada uno una sola cosa concreta sin abrirlo.
 
 ## Abrir el Administrador de Capas
 
-- Escribe `LayerManager` en el terminal, **o**
+- Escribe `GestorDeCapas` en el terminal, **o**
 - Haz clic en el botón **Layer Manager** del panel de capas.
 
 El diálogo se abre como un panel flotante; no es necesario seleccionar nada antes.

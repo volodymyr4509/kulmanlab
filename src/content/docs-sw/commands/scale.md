@@ -8,20 +8,20 @@ order: 5
 
 # Scale
 
-Amri ya `scale` hubadilisha ukubwa wa vipande vilivyochaguliwa kwa usawa karibu na nukta ya msingi. Umbali wote kutoka kwa nukta ya msingi huzidishwa na kiwango cha pima — kiwango cha `2` hukuza vipimo vyote mara mbili, `0.5` hupunguza nusu. Kiwango daima huingizwa kwa kuandika; hakuna kubonyeza-kuweka-kiwango.
+Amri ya `BadiliUkubwa` hubadilisha ukubwa wa vipande vilivyochaguliwa kwa usawa karibu na nukta ya msingi. Umbali wote kutoka kwa nukta ya msingi huzidishwa na kiwango cha pima — kiwango cha `2` hukuza vipimo vyote mara mbili, `0.5` hupunguza nusu. Kiwango daima huingizwa kwa kuandika; hakuna kubonyeza-kuweka-kiwango.
 
 ## Njia mbili za kuanza
 
 **Chagua kwanza, kisha pima** — chagua vipande kwanza, kisha washa:
 
 1. Chagua kipande kimoja au zaidi kwenye kanvasi.
-2. Andika `scale` kwenye terminal au bonyeza kitufe cha **Scale** kwenye upau wa zana.
+2. Andika `BadiliUkubwa` kwenye terminal au bonyeza kitufe cha **Scale** kwenye upau wa zana.
 3. **Bonyeza nukta ya msingi** — nukta iliyowekwa isiyosogea wakati wa kupima. Au andika `X,Y` na ubonyeze **Enter** kwa kuratibu sahihi.
 4. **Andika kiwango cha pima** na ubonyeze **Enter**.
 
 **Washa kwanza, kisha chagua** — anza amri bila chochote kilichochaguliwa:
 
-1. Andika `scale` au bonyeza kitufe cha upau wa zana.
+1. Andika `BadiliUkubwa` au bonyeza kitufe cha upau wa zana.
 2. **Chagua vitu** — bonyeza kubadilisha, au buruta kuchagua kwa eneo.
 3. Bonyeza **Enter** au **Space** kuthibitisha uchaguzi.
 4. **Bonyeza nukta ya msingi** (uingizaji wa kuratibu unapatikana), kisha andika kiwango.

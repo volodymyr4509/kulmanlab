@@ -8,11 +8,11 @@ order: 1
 
 # Line
 
-`line` komutu, DXF modelinde ayrı `LINE` nesneleri olarak saklanan ayrı düz çizgi segmentleri çizer. Her segmentten sonra komut aktif kalır ve uç noktayı yeni başlangıç noktası olarak yeniden kullanır, böylece bir seferde bir segment oluşturarak bağlantılı yollar oluşturabilirsiniz. [Polyline](../polyline/) komutunun aksine, zincirlenen çizgiler bağımsız nesneler olarak kalır — her biri komşularını etkilemeden kırpılabilir, uzatılabilir veya silinebilir.
+`Çizgi` komutu, DXF modelinde ayrı `LINE` nesneleri olarak saklanan ayrı düz çizgi segmentleri çizer. Her segmentten sonra komut aktif kalır ve uç noktayı yeni başlangıç noktası olarak yeniden kullanır, böylece bir seferde bir segment oluşturarak bağlantılı yollar oluşturabilirsiniz. [Polyline](../polyline/) komutunun aksine, zincirlenen çizgiler bağımsız nesneler olarak kalır — her biri komşularını etkilemeden kırpılabilir, uzatılabilir veya silinebilir.
 
 ## Çizgi Çizimi
 
-1. Terminale `line` yazın veya araç çubuğundaki **Line** düğmesine basın.
+1. Terminale `Çizgi` yazın veya araç çubuğundaki **Line** düğmesine basın.
 2. **Başlangıç noktasını tıklayın** veya kesin koordinat için `X,Y` yazıp **Enter** tuşuna basın.
 3. **Bitiş noktasını tıklayın** — segment yerleştirilir ve bitiş noktası bir sonraki başlangıç olur. Burada koordinat girişi de çalışır.
 4. Daha fazla segment zincirlemek için tıklamaya (veya yazmaya) devam edin.

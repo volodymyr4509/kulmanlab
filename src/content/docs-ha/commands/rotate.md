@@ -8,20 +8,20 @@ order: 3
 
 # Rotate
 
-Umarnin `rotate` yana juya abubuwan da aka zaɓa a kewayen tabon tushe. Ka bayyana kusurwar juyawa ko dai ta rubuta lamba a digiri ko ta danna — ana lissafa kusurwar daga shugabanci tsakanin tabon tushe da matsayin dannawa.
+Umarnin `Juya` yana juya abubuwan da aka zaɓa a kewayen tabon tushe. Ka bayyana kusurwar juyawa ko dai ta rubuta lamba a digiri ko ta danna — ana lissafa kusurwar daga shugabanci tsakanin tabon tushe da matsayin dannawa.
 
 ## Hanyoyi biyu na farawa
 
 **Zaɓi tukuna, sannan juya** — zaɓi abubuwa tukuna, sannan kunna:
 
 1. Zaɓi wani abu ɗaya ko fiye a kan canvas.
-2. Rubuta `rotate` a tashar umarni ko danna maɓallin kayan aiki na **Rotate**.
+2. Rubuta `Juya` a tashar umarni ko danna maɓallin kayan aiki na **Rotate**.
 3. **Danna tabon tushe** — tsakiyar juyawa. Ko rubuta `X,Y` ka danna **Enter** don daidaitawa madaidaiciya.
 4. **Rubuta kusurwa ka danna Enter**, ko **danna** don saita kusurwar daga shugabancin mai nuni.
 
 **Kunna, sannan zaɓi** — fara umarnin ba tare da zaɓi ba:
 
-1. Rubuta `rotate` ko danna maɓallin kayan aiki.
+1. Rubuta `Juya` ko danna maɓallin kayan aiki.
 2. **Zaɓi abubuwa** — danna don canza zaɓi, ko ja don zaɓi ta yanki.
 3. Danna **Enter** ko **Space** don tabbatar da zaɓi.
 4. **Danna tabon tushe** (shigar da daidaitawa ana samu), sannan saita kusurwar.

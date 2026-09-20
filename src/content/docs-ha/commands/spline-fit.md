@@ -8,11 +8,11 @@ order: 9
 
 # Spline Fit
 
-Umarnin `splinefit` yana zana spline mai cubic wanda ke wucewa ta kowace tabo da ka danna — curve mai interpolate. Ba kamar [Spline CV](../spline-cv/) ba, inda ake jawo curve kawai zuwa control vertices, a nan an tilasta curve ya kai kowace daidaitawa da aka danna daidai. A ciki editan yana daidaita control vertices don cimma wannan, kuma ana ajiye waɗannan CVs tare da fit points a fayil ɗin DXF.
+Umarnin `SplineMaki` yana zana spline mai cubic wanda ke wucewa ta kowace tabo da ka danna — curve mai interpolate. Ba kamar [Spline CV](../spline-cv/) ba, inda ake jawo curve kawai zuwa control vertices, a nan an tilasta curve ya kai kowace daidaitawa da aka danna daidai. A ciki editan yana daidaita control vertices don cimma wannan, kuma ana ajiye waɗannan CVs tare da fit points a fayil ɗin DXF.
 
 ## Zana spline ta fit points
 
-1. Rubuta `splinefit` a tashar umarni ko danna maɓallin kayan aiki na **Spline Fit**.
+1. Rubuta `SplineMaki` a tashar umarni ko danna maɓallin kayan aiki na **Spline Fit**.
 2. **Danna don sanya fit points** — curve zai wuce ta kowanne. Ko rubuta `X,Y` ka danna **Enter** don daidaitawa madaidaiciya.
 3. Danna **Enter** ko **Space** don kammalawa (ana bukatar aƙalla tabo 2).
 

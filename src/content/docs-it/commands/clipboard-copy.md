@@ -8,7 +8,7 @@ order: 17
 
 # ClipboardCopy
 
-Il comando `ClipboardCopy` scrive le entità selezionate negli **appunti di sistema** come testo JSON. Poiché usa gli appunti reali e non un buffer interno, la geometria copiata sopravvive fuori dal disegno: incollala in un altro file, in una seconda scheda del browser o in una finestra che aprirai più tardi con [ClipboardPaste](../clipboard-paste/).
+Il comando `CopiaNegliAppunti` scrive le entità selezionate negli **appunti di sistema** come testo JSON. Poiché usa gli appunti reali e non un buffer interno, la geometria copiata sopravvive fuori dal disegno: incollala in un altro file, in una seconda scheda del browser o in una finestra che aprirai più tardi con [ClipboardPaste](../clipboard-paste/).
 
 È questa la differenza rispetto a [Copy](../copy/): Copy duplica le entità all'interno del disegno corrente in un solo gesto, mentre ClipboardCopy le mette in un posto da cui possono essere recuperate da un disegno del tutto diverso.
 
@@ -17,12 +17,12 @@ Il comando `ClipboardCopy` scrive le entità selezionate negli **appunti di sist
 **Preselezionare, poi copiare** — la via rapida:
 
 1. Seleziona una o più entità sull'area di disegno.
-2. Premi `Ctrl+C` (`Cmd+C` su macOS), oppure digita `ClipboardCopy` nel terminale.
+2. Premi `Ctrl+C` (`Cmd+C` su macOS), oppure digita `CopiaNegliAppunti` nel terminale.
 3. Le entità vengono scritte subito negli appunti e il comando termina.
 
 **Attivare, poi selezionare** — partire senza nulla selezionato:
 
-1. Premi `Ctrl+C` o digita `ClipboardCopy` con la selezione vuota.
+1. Premi `Ctrl+C` o digita `CopiaNegliAppunti` con la selezione vuota.
 2. Il prompt indica **pick objects to copy — Enter or Space to confirm**.
 3. **Seleziona gli oggetti** — clicca per attivare/disattivare singole entità, oppure trascina per selezionare per area.
 4. Premi **Enter** o **Space** per copiare la selezione e uscire.

@@ -8,11 +8,11 @@ order: 9
 
 # Dimension Angular
 
-Polecenie `DimensionAngular` umieszcza **adnotację kąta** — łukową adnotację na rysunku. Mierzy i opisuje kąt między dwiema liniami, zakres łuku lub sektor okręgu.
+Polecenie `WymiarKątowy` umieszcza **adnotację kąta** — łukową adnotację na rysunku. Mierzy i opisuje kąt między dwiema liniami, zakres łuku lub sektor okręgu.
 
 ## Jak aktywować
 
-Kliknij przycisk **Wymiar kąta** na pasku narzędzi w panelu Opisy lub wpisz `DimensionAngular` w terminalu.
+Kliknij przycisk **Wymiar kąta** na pasku narzędzi w panelu Opisy lub wpisz `WymiarKątowy` w terminalu.
 
 ## Trzy tryby wejścia
 
@@ -47,7 +47,7 @@ Linie równoległe nie mogą tworzyć wymiaru kąta; polecenie ignoruje drugie k
 
 - Łuk wymiaru zawsze rysowany jest po tej stronie wierzchołka, gdzie go umieszczasz — przesuń kursor przez wierzchołek, aby przełączyć na kąt uzupełniający.
 - Zmierzony kąt wyświetlany jest w stopniach i aktualizuje się na żywo podczas przesuwania kursora w fazie umieszczania.
-- Wynikowa adnotacja jest pełnym elementem `DimensionAngular` przechowywana na bieżącej warstwie. Właściwości wyglądu (rozmiar strzałki, wysokość tekstu, długość linii przedłużenia) można dostosować w panelu Właściwości.
+- Wynikowa adnotacja jest pełnym elementem `WymiarKątowy` przechowywana na bieżącej warstwie. Właściwości wyglądu (rozmiar strzałki, wysokość tekstu, długość linii przedłużenia) można dostosować w panelu Właściwości.
 - Wymiary kątowe eksportują się zarówno do JSON, jak i do DXF, a w DXF zapisywane są jako standardowe obiekty `DIMENSION`.
 
 ## Edytowanie etykiety — tryb simple

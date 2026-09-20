@@ -8,11 +8,11 @@ order: 2
 
 # LayerMakeCurrent
 
-Der Befehl `LayerMakeCurrent` setzt den **aktuellen Zeichnungslayer** auf den Layer, zu dem die angeklickte Entität gehört. Neue Entitäten werden dann automatisch auf diesem Layer gezeichnet.
+Der Befehl `LayerAktuellSetzen` setzt den **aktuellen Zeichnungslayer** auf den Layer, zu dem die angeklickte Entität gehört. Neue Entitäten werden dann automatisch auf diesem Layer gezeichnet.
 
 ## Verwendung
 
-1. Geben Sie `LayerMakeCurrent` im Terminal ein oder klicken Sie auf die Schaltfläche **Make Current** in der Symbolleiste (Pipetten-Symbol).
+1. Geben Sie `LayerAktuellSetzen` im Terminal ein oder klicken Sie auf die Schaltfläche **Make Current** in der Symbolleiste (Pipetten-Symbol).
 2. **Klicken Sie auf eine beliebige Entität** auf der Zeichenfläche.
 3. Der aktuelle Layer wird auf den Layer dieser Entität aktualisiert. Der Befehl endet sofort.
 

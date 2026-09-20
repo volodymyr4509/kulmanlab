@@ -8,11 +8,11 @@ order: 4
 
 # Fit
 
-Het `fit`-commando berekent de bounding box van alle entiteiten in de tekening en past zowel het zoomniveau als de panpositie aan zodat elke entiteit zichtbaar is met een kleine marge. Het is de snelste manier om een verloren beeld te herstellen of uzelf te oriënteren na het importeren van een DXF-bestand.
+Het `Passend`-commando berekent de bounding box van alle entiteiten in de tekening en past zowel het zoomniveau als de panpositie aan zodat elke entiteit zichtbaar is met een kleine marge. Het is de snelste manier om een verloren beeld te herstellen of uzelf te oriënteren na het importeren van een DXF-bestand.
 
 ## Het beeld passend maken
 
-Klik op de werkbalkknop **Fit** of typ `fit` in de terminal. Het beeld past zich onmiddellijk aan en het commando sluit af — geen interactie vereist.
+Klik op de werkbalkknop **Fit** of typ `Passend` in de terminal. Het beeld past zich onmiddellijk aan en het commando sluit af — geen interactie vereist.
 
 **Dubbelklik op de middelste muisknop** activeert dezelfde Fit-bewerking op elk moment zonder een commando te starten — de snelste manier om een verloren beeld tijdens het tekenen te herstellen.
 

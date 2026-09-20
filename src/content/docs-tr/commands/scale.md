@@ -8,20 +8,20 @@ order: 5
 
 # Scale
 
-`scale` komutu, seçili nesneleri temel noktaya göre eşit şekilde büyütür veya küçültür — temel noktadan olan tüm mesafeler aynı faktörle çarpılır. Temel nokta yerinde kalır; diğer her şey orantılı olarak hareket eder ve yeniden boyutlandırılır.
+`Ölçekle` komutu, seçili nesneleri temel noktaya göre eşit şekilde büyütür veya küçültür — temel noktadan olan tüm mesafeler aynı faktörle çarpılır. Temel nokta yerinde kalır; diğer her şey orantılı olarak hareket eder ve yeniden boyutlandırılır.
 
 ## İki Başlatma Yöntemi
 
 **Önce seç, sonra ölçekle** — nesneleri seçin, ardından etkinleştirin:
 
 1. Tuvalde bir veya daha fazla nesne seçin.
-2. Terminale `scale` yazın veya araç çubuğundaki **Scale** düğmesine basın.
+2. Terminale `Ölçekle` yazın veya araç çubuğundaki **Scale** düğmesine basın.
 3. **Temel noktayı tıklayın** veya kesin koordinat için `X,Y` yazıp **Enter** tuşuna basın.
 4. **Faktörü girin ve Enter tuşuna basın** veya faktörü tabandan uzaklıkla belirlemek için **tıklayın**.
 
 **Etkinleştir, sonra seç** — seçim olmadan komutu başlatın:
 
-1. `scale` yazın veya araç çubuğu düğmesine basın.
+1. `Ölçekle` yazın veya araç çubuğu düğmesine basın.
 2. **Nesneleri seçin** — tıklayın veya sürükleyin.
 3. Seçimi onaylamak için **Enter** veya **Boşluk** tuşuna basın.
 4. **Temel noktayı tıklayın** (koordinat girişi kullanılabilir), ardından faktörü belirtin.

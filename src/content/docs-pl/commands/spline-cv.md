@@ -8,11 +8,11 @@ order: 8
 
 # Spline CV
 
-Polecenie `splinecv` rysuje **sześcienny B-splajn** przez umieszczanie wierzchołków kontrolnych (CV). Wynikowa krzywa jest przyciągana do każdego CV, ale przez nie nie przechodzi — z wyjątkiem pierwszego i ostatniego wierzchołka, gdzie **zaciśnięte węzły** zakotwiczają krzywą dokładnie. Daje to intuicyjną kontrolę kształtu: pociągnij wierzchołek, aby pchnąć krzywą w jego kierunku, bez zmuszania jej do dotknięcia każdego punktu.
+Polecenie `SplajnWierzchołki` rysuje **sześcienny B-splajn** przez umieszczanie wierzchołków kontrolnych (CV). Wynikowa krzywa jest przyciągana do każdego CV, ale przez nie nie przechodzi — z wyjątkiem pierwszego i ostatniego wierzchołka, gdzie **zaciśnięte węzły** zakotwiczają krzywą dokładnie. Daje to intuicyjną kontrolę kształtu: pociągnij wierzchołek, aby pchnąć krzywą w jego kierunku, bez zmuszania jej do dotknięcia każdego punktu.
 
 ## Rysowanie splajnu przez wierzchołki kontrolne
 
-1. Wpisz `splinecv` w terminalu lub kliknij przycisk **Splajn CV** na pasku narzędzi.
+1. Wpisz `SplajnWierzchołki` w terminalu lub kliknij przycisk **Splajn CV** na pasku narzędzi.
 2. **Kliknij, aby umieścić wierzchołki kontrolne** — każde kliknięcie dodaje wierzchołek. Lub wpisz `X,Y` i naciśnij **Enter** dla dokładnej współrzędnej.
 3. Naciśnij **Enter** lub **Spację**, aby zakończyć (wymagane co najmniej 2 wierzchołki).
 

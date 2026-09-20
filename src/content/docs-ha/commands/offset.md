@@ -8,13 +8,13 @@ order: 10
 
 # Offset
 
-Umarnin `offset` yana ƙirƙirar kwafi mai daidaici na abu a nisa ta hankalta kwaɓe. Ka rubuta nisan sau ɗaya, sannan ka danna abubuwa ka zaɓi gefe — umarnin yana ci gaba da zama a shirye a nisan iri ɗaya don ka iya yin offset ga abubuwa masu yawa a zaman ɗaya.
+Umarnin `Tazara` yana ƙirƙirar kwafi mai daidaici na abu a nisa ta hankalta kwaɓe. Ka rubuta nisan sau ɗaya, sannan ka danna abubuwa ka zaɓi gefe — umarnin yana ci gaba da zama a shirye a nisan iri ɗaya don ka iya yin offset ga abubuwa masu yawa a zaman ɗaya.
 
 Nauʼukan abu da ake goyon baya: **Line, Circle, Arc, Ellipse, Polyline** (ciki har da Rectangles).
 
 ## Amfani da offset
 
-1. Rubuta `offset` a tashar umarni ko danna maɓallin kayan aiki na **Offset**.
+1. Rubuta `Tazara` a tashar umarni ko danna maɓallin kayan aiki na **Offset**.
 2. **Rubuta nisan offset** ka danna **Enter** ko **Space**.
 3. **Danna abu** don yin offset — idan abin ba nauʼin da ake goyon baya ba ne, saƙon kuskure yana bayyana kuma za ka iya danna wani abu daban.
 4. **Motsa mai nuni** zuwa gefen da kwafin ya kamata ya bayyana — preview mai rai yana bi.

@@ -8,11 +8,11 @@ order: 2
 
 # LeaderAdd
 
-`LeaderAdd` komutu, mevcut çok segmentli göstergeye yeni bir ok kolu ekler. Yeni kol, mevcut göstergenin geçiş bölgesinden tıkladığınız yeni ok ucuna uzanır. Tüm stil — geçiş bölgesi konumu, metin, ok tipi ve boyut — seçilen göstergeden devralınır.
+`KılavuzKoluEkle` komutu, mevcut çok segmentli göstergeye yeni bir ok kolu ekler. Yeni kol, mevcut göstergenin geçiş bölgesinden tıkladığınız yeni ok ucuna uzanır. Tüm stil — geçiş bölgesi konumu, metin, ok tipi ve boyut — seçilen göstergeden devralınır.
 
 ## Kol Ekleme
 
-1. Terminale `LeaderAdd` yazın.
+1. Terminale `KılavuzKoluEkle` yazın.
 2. Seçmek için **mevcut çok segmentli göstergeye tıklayın**.
 3. **Yeni ok ucunu tıklayın** veya kesin koordinat için `X,Y` yazıp **Enter** tuşuna basın. Önizleme çizgisi imleçten göstergenin geçiş bölgesine uzanır.
 

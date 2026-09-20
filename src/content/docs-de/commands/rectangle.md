@@ -8,11 +8,11 @@ order: 3
 
 # Rectangle
 
-Der `rectangle`-Befehl zeichnet ein achsenparalleles Rechteck, das durch zwei gegenüberliegende Eckenklicks definiert wird. Das Ergebnis wird als **geschlossene `LWPOLYLINE`** mit vier Eckpunkten gespeichert — je einem an jeder Ecke. Es gibt keinen dedizierten Rechteck-Entitätstyp: Nach der Erstellung verhält sich die Form genau wie jede andere [Polylinie](../polyline/), und alle Polylinie-Bearbeitungsbefehle sind anwendbar.
+Der `Rechteck`-Befehl zeichnet ein achsenparalleles Rechteck, das durch zwei gegenüberliegende Eckenklicks definiert wird. Das Ergebnis wird als **geschlossene `LWPOLYLINE`** mit vier Eckpunkten gespeichert — je einem an jeder Ecke. Es gibt keinen dedizierten Rechteck-Entitätstyp: Nach der Erstellung verhält sich die Form genau wie jede andere [Polylinie](../polyline/), und alle Polylinie-Bearbeitungsbefehle sind anwendbar.
 
 ## Ein Rechteck zeichnen
 
-1. Geben Sie `rectangle` im Terminal ein oder klicken Sie auf die **Rectangle**-Schaltfläche in der Werkzeugleiste.
+1. Geben Sie `Rechteck` im Terminal ein oder klicken Sie auf die **Rectangle**-Schaltfläche in der Werkzeugleiste.
 2. **Klicken Sie die erste Ecke** an, oder geben Sie `X,Y` ein und drücken Sie **Enter** für eine exakte Koordinate.
 3. **Klicken Sie die gegenüberliegende Ecke** an — das Rechteck wird sofort platziert und der Befehl beendet. Koordinateneingabe funktioniert hier ebenfalls. Oder drücken Sie stattdessen `D`, um eine exakte Breite und Höhe einzugeben — siehe [Maßeingabe](#maßeingabe) unten.
 

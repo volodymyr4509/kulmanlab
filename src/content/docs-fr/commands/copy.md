@@ -8,20 +8,20 @@ order: 2
 
 # Copy
 
-La commande `copy` crée des duplicatas traduits des entités sélectionnées et les place décalées d'un point de base vers une destination — les originaux restent exactement là où ils sont. C'est la différence essentielle avec [Move](../move/) : Copy ajoute de nouvelles entités au dessin ; Move déplace les entités existantes.
+La commande `Copier` crée des duplicatas traduits des entités sélectionnées et les place décalées d'un point de base vers une destination — les originaux restent exactement là où ils sont. C'est la différence essentielle avec [Move](../move/) : Copy ajoute de nouvelles entités au dessin ; Move déplace les entités existantes.
 
 ## Deux façons de démarrer
 
 **Pré-sélectionner, puis copier** — sélectionnez d'abord les entités, puis activez :
 
 1. Sélectionnez une ou plusieurs entités sur le canevas.
-2. Tapez `copy` dans le terminal ou cliquez sur le bouton **Copy** de la barre d'outils.
+2. Tapez `Copier` dans le terminal ou cliquez sur le bouton **Copy** de la barre d'outils.
 3. **Cliquez sur le point de base**, ou tapez `X,Y` et appuyez sur **Entrée** pour une coordonnée exacte.
 4. **Cliquez sur la destination** — les duplicatas apparaissent avec le décalage base→destination. La saisie de coordonnées fonctionne ici aussi.
 
 **Activer, puis sélectionner** — démarrez la commande sans rien de sélectionné :
 
-1. Tapez `copy` ou cliquez sur le bouton de la barre d'outils.
+1. Tapez `Copier` ou cliquez sur le bouton de la barre d'outils.
 2. **Sélectionnez les objets** — cliquez pour basculer les entités individuelles, ou faites glisser pour sélectionner par zone.
 3. Appuyez sur **Entrée** ou **Espace** pour confirmer la sélection.
 4. **Cliquez sur le point de base**, puis **cliquez sur la destination** (la saisie de coordonnées est disponible aux deux étapes).

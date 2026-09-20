@@ -8,11 +8,11 @@ order: 6
 
 # Export Manager
 
-Umarnin `exportmanager` yana sauke zanen yanzu zuwa tsarin fayilolinka. Tsari biyu suna gefe da gefe — **DXF** don daidaituwa da sauran kayan aikin CAD da **JSON** don ajiya cikakke a cikin KulmanLab CAD — kuma kowanne yana da nasa jerin abin da za a sa cikin fayil.
+Umarnin `SarrafaFitarwa` yana sauke zanen yanzu zuwa tsarin fayilolinka. Tsari biyu suna gefe da gefe — **DXF** don daidaituwa da sauran kayan aikin CAD da **JSON** don ajiya cikakke a cikin KulmanLab CAD — kuma kowanne yana da nasa jerin abin da za a sa cikin fayil.
 
 ## Yadda ake fitarwa
 
-1. Danna maɓallin **Export** na kayan aiki (aikon sauke) a cikin panel na fayil, ko rubuta `exportmanager` a tashar umarni.
+1. Danna maɓallin **Export** na kayan aiki (aikon sauke) a cikin panel na fayil, ko rubuta `SarrafaFitarwa` a tashar umarni.
 2. Taga **Export Manager** tana buɗewa da ginshiƙai biyu, **JSON** da **DXF**, kowanne yana lissafa nau'ikan abubuwan zanen tare da akwatin zaɓi da adadi.
 3. Cire alamar daga abin da ba ka so. Tun farko duk suna da alama.
 4. Danna **Export JSON** ko **Export DXF**. Fayil ɗin yana saukowa cikin babban fayil ɗin saukewa kuma taga tana rufewa.

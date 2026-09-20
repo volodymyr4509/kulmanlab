@@ -8,20 +8,20 @@ order: 3
 
 # LayerMatch
 
-El comando `LayerMatch` reasigna la capa de las entidades seleccionadas para que coincida con la capa de una entidad fuente en la que haces clic. Es la forma más rápida de mover un grupo de objetos a la capa correcta sin abrir el [Administrador de Capas](../layer-manager/).
+El comando `IgualarCapa` reasigna la capa de las entidades seleccionadas para que coincida con la capa de una entidad fuente en la que haces clic. Es la forma más rápida de mover un grupo de objetos a la capa correcta sin abrir el [Administrador de Capas](../layer-manager/).
 
 ## Flujo de trabajo
 
 **Pre-seleccionar y luego igualar**:
 
 1. Selecciona las entidades cuya capa quieres cambiar.
-2. Escribe `LayerMatch` o haz clic en el botón **Layer Match** de la barra de herramientas (icono de pintura).
+2. Escribe `IgualarCapa` o haz clic en el botón **Layer Match** de la barra de herramientas (icono de pintura).
 3. **Haz clic en el objeto fuente** — aquel cuya capa quieres copiar.
 4. Todas las entidades seleccionadas se mueven a la capa del objeto fuente de inmediato.
 
 **Activar y luego seleccionar**:
 
-1. Escribe `LayerMatch` o haz clic en el botón de la barra de herramientas sin nada seleccionado.
+1. Escribe `IgualarCapa` o haz clic en el botón de la barra de herramientas sin nada seleccionado.
 2. **Elige los objetos de destino** — haz clic para alternar entidades individuales o arrastra para seleccionar por área.
 3. Presiona **Enter** o **Space** para confirmar la selección.
 4. **Haz clic en el objeto fuente** — su capa se aplica a todos los destinos.

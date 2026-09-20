@@ -8,11 +8,11 @@ order: 14
 
 # Redo
 
-Il comando `redo` avanza nella cronologia degli annullamenti, riapplicando le azioni invertite da [Undo](../undo/). Redo è disponibile solo quando hai fatto un passo indietro con Undo e non hai ancora effettuato una nuova modifica.
+Il comando `Ripeti` avanza nella cronologia degli annullamenti, riapplicando le azioni invertite da [Undo](../undo/). Redo è disponibile solo quando hai fatto un passo indietro con Undo e non hai ancora effettuato una nuova modifica.
 
 ## Come eseguire il redo
 
-- Digita `redo` nel terminale, oppure
+- Digita `Ripeti` nel terminale, oppure
 - Clicca il pulsante **Redo** nella barra degli strumenti.
 
 Ogni invocazione riapplica un'azione precedentemente annullata. Invocalo ripetutamente per avanzare attraverso tutte le voci di redo disponibili.

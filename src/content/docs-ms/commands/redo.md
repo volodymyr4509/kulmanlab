@@ -8,11 +8,11 @@ order: 14
 
 # Redo
 
-Arahan `redo` melangkah ke hadapan melalui sejarah batal, menggunakan semula tindakan yang telah dibalikkan oleh [Undo](../undo/). Redo hanya tersedia apabila anda telah melangkah ke belakang dengan Undo dan belum membuat perubahan baharu.
+Arahan `UlangTindakan` melangkah ke hadapan melalui sejarah batal, menggunakan semula tindakan yang telah dibalikkan oleh [Undo](../undo/). Redo hanya tersedia apabila anda telah melangkah ke belakang dengan Undo dan belum membuat perubahan baharu.
 
 ## Cara buat semula
 
-- Taip `redo` dalam terminal, atau
+- Taip `UlangTindakan` dalam terminal, atau
 - Klik butang bar alat **Redo**.
 
 Setiap invokasi menggunakan semula satu tindakan yang sebelumnya dibatalkan. Invoke berulang kali untuk melangkah ke hadapan melalui semua entri redo yang tersedia.

@@ -7,20 +7,20 @@ order: 1
 
 # Move
 
-Lệnh `move` dịch chuyển các thực thể đã chọn từ điểm cơ sở đến điểm đích. Vector dịch chuyển từ cơ sở đến đích được áp dụng cho mọi thực thể đã chọn. Sau khi di chuyển, tất cả thực thể vẫn được chọn tại vị trí mới.
+Lệnh `DiChuyển` dịch chuyển các thực thể đã chọn từ điểm cơ sở đến điểm đích. Vector dịch chuyển từ cơ sở đến đích được áp dụng cho mọi thực thể đã chọn. Sau khi di chuyển, tất cả thực thể vẫn được chọn tại vị trí mới.
 
 ## Hai cách bắt đầu
 
 **Chọn trước, sau đó di chuyển** — chọn thực thể trước, rồi kích hoạt:
 
 1. Chọn một hoặc nhiều thực thể trên canvas.
-2. Gõ `move` trong terminal hoặc nhấp nút **Move** trên thanh công cụ.
+2. Gõ `DiChuyển` trong terminal hoặc nhấp nút **Move** trên thanh công cụ.
 3. **Nhấp điểm cơ sở**, hoặc gõ `X,Y` rồi nhấn **Enter** để nhập tọa độ chính xác.
 4. **Nhấp điểm đích** — tất cả thực thể đã chọn dịch chuyển theo vector cơ sở→đích.
 
 **Kích hoạt, sau đó chọn** — bắt đầu lệnh khi không có gì được chọn:
 
-1. Gõ `move` hoặc nhấp nút thanh công cụ.
+1. Gõ `DiChuyển` hoặc nhấp nút thanh công cụ.
 2. **Chọn đối tượng** — nhấp để bật/tắt thực thể, hoặc kéo để chọn theo vùng.
 3. Nhấn **Enter** hoặc **Space** để xác nhận lựa chọn.
 4. **Nhấp điểm cơ sở**, sau đó **nhấp điểm đích**.

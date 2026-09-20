@@ -8,13 +8,13 @@ order: 2
 
 # Polyline
 
-Kommandoen `polyline` tegner en forbundet bane med et hvilket som helst antal lige eller buesegmenter, alle gemt som én enkelt `LWPOLYLINE`-entitet. Fordi hele banen er ét objekt, markerer det at vælge den alle segmenter på én gang — flyt, rotér eller skalér hele formen i én operation. Dette er den centrale forskel fra kædede [Lines](../line/), hvor hvert segment er en uafhængig entitet.
+Kommandoen `Polylinje` tegner en forbundet bane med et hvilket som helst antal lige eller buesegmenter, alle gemt som én enkelt `LWPOLYLINE`-entitet. Fordi hele banen er ét objekt, markerer det at vælge den alle segmenter på én gang — flyt, rotér eller skalér hele formen i én operation. Dette er den centrale forskel fra kædede [Lines](../line/), hvor hvert segment er en uafhængig entitet.
 
 Polylinjer kan også være **lukkede**: [Rectangle](../rectangle/)-kommandoen bruger den samme `LWPOLYLINE`-entitet med et close-flag sat.
 
 ## Tegne en polylinje
 
-1. Skriv `polyline` i terminalen eller klik på **Polyline**-knappen i værktøjslinjen.
+1. Skriv `Polylinje` i terminalen eller klik på **Polyline**-knappen i værktøjslinjen.
 2. **Klik det første punkt**, eller skriv `X,Y` og tryk **Enter** for en eksakt koordinat.
 3. **Klik hvert efterfølgende punkt** — hvert klik tilføjer et segment. Koordinatindtastning fungerer ved hvert trin.
 4. Tryk **Enter** eller **Space** for at afslutte (kræver mindst 2 placerede punkter).

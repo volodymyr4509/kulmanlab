@@ -8,11 +8,11 @@ order: 18
 
 # ClipboardPaste
 
-`ClipboardPaste` komutu, [ClipboardCopy](../clipboard-copy/) komutunun **sistem panosuna** yazdığı nesneleri okur ve geçerli çizimde sizin seçtiğiniz bir noktaya yerleştirir. Pano gerçek sistem panosu olduğu için kaynak başka bir çizim, başka bir tarayıcı sekmesi veya günün erken saatlerinden kalma bir oturum olabilir.
+`PanodanYapıştır` komutu, [ClipboardCopy](../clipboard-copy/) komutunun **sistem panosuna** yazdığı nesneleri okur ve geçerli çizimde sizin seçtiğiniz bir noktaya yerleştirir. Pano gerçek sistem panosu olduğu için kaynak başka bir çizim, başka bir tarayıcı sekmesi veya günün erken saatlerinden kalma bir oturum olabilir.
 
 ## Nasıl yapıştırılır
 
-1. `Ctrl+V` (macOS'ta `Cmd+V`) tuşlarına basın ya da terminale `ClipboardPaste` yazın.
+1. `Ctrl+V` (macOS'ta `Cmd+V`) tuşlarına basın ya da terminale `PanodanYapıştır` yazın.
 2. Tarayıcı pano metnini aktarırken istem **reading clipboard…** şeklinde görünür.
 3. Yükleme bitince istem **pick insertion point** olur ve yapıştırılacak geometrinin önizlemesi imleci izler.
 4. Nesneleri yerleştirmek için **tıklayın**. Çizime eklenirler ve seçili kalırlar.

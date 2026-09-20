@@ -8,7 +8,7 @@ order: 7
 
 # Wipe Storage
 
-Arahan `wipestorage` memadamkan secara kekal **semua data yang disimpan dalam pelayar** untuk KulmanLab CAD — setiap fail yang disimpan, jadual lapisan dan linetype, dan sejarah batal. Halaman dimuat semula secara automatik selepas itu.
+Arahan `PadamStoran` memadamkan secara kekal **semua data yang disimpan dalam pelayar** untuk KulmanLab CAD — setiap fail yang disimpan, jadual lapisan dan linetype, dan sejarah batal. Halaman dimuat semula secara automatik selepas itu.
 
 :::danger Tidak Boleh Dibatalkan
 Tindakan ini tidak boleh dibatalkan. Semua fail yang disimpan dalam pelayar dipadam. Eksport mana-mana lukisan yang ingin anda simpan sebagai fail `.json` atau `.dxf` sebelum menjalankan arahan ini.
@@ -22,7 +22,7 @@ Tindakan ini tidak boleh dibatalkan. Semua fail yang disimpan dalam pelayar dipa
 
 ## Cara menjalankannya
 
-1. Taip `wipestorage` dalam terminal dan tekan **Enter**.
+1. Taip `PadamStoran` dalam terminal dan tekan **Enter**.
 2. Terminal memberi gesaan: *Wipe all browser local storage? Type YES to confirm*
 3. Taip `YES` (mana-mana huruf besar) dan tekan **Enter**.
 

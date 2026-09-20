@@ -8,7 +8,7 @@ order: 16
 
 # Explode
 
-`explode`-kommandoen deler en [Polyline](../polyline/) opp i dens individuelle [Line](../line/)- og [Arc](../arc/)-entiteter — én per segment, nøyaktig der polylinjens egne hjørnepunkter lå. Delene erstatter polylinjen på stedet og beholder linjetykkelsen, fargen, laget og linjetypen dens.
+`Oppløs`-kommandoen deler en [Polyline](../polyline/) opp i dens individuelle [Line](../line/)- og [Arc](../arc/)-entiteter — én per segment, nøyaktig der polylinjens egne hjørnepunkter lå. Delene erstatter polylinjen på stedet og beholder linjetykkelsen, fargen, laget og linjetypen dens.
 
 Explode fungerer bare på **Polyline**-entiteter.
 
@@ -19,13 +19,13 @@ To måter å kjøre det på, samme mønster som [Delete](../delete/):
 **Velg først, deretter eksploder** — den raskeste veien:
 
 1. Velg én eller flere polylinjer på lerretet.
-2. Skriv `explode` i terminalen, eller klikk på knappen **Explode** i Edit-panelet.
+2. Skriv `Oppløs` i terminalen, eller klikk på knappen **Explode** i Edit-panelet.
 
 De valgte polylinjene eksploderes umiddelbart — ingen egen bekreftelse, siden noe allerede er valgt.
 
 **Aktiver, deretter velg**:
 
-1. Skriv `explode` eller klikk på verktøylinjeknappen uten at noe er valgt.
+1. Skriv `Oppløs` eller klikk på verktøylinjeknappen uten at noe er valgt.
 2. **Velg polylinjer** — klikk for å veksle, eller dra for å velge etter område.
 3. Trykk **Enter** eller **Mellomrom** for å bekrefte og eksplodere de valgte polylinjene.
 

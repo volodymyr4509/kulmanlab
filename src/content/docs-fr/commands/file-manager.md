@@ -8,11 +8,11 @@ order: 3
 
 # File Manager
 
-La commande `FileManager` ouvre une **grille de miniatures** de tous les dessins qui ont été sauvegardés dans le stockage local de votre navigateur, triée par date de dernière sauvegarde. Utilisez-la pour rouvrir un dessin précédent, le renommer, ou le supprimer.
+La commande `GestionnaireFichiers` ouvre une **grille de miniatures** de tous les dessins qui ont été sauvegardés dans le stockage local de votre navigateur, triée par date de dernière sauvegarde. Utilisez-la pour rouvrir un dessin précédent, le renommer, ou le supprimer.
 
 ## Ouvrir le File Manager
 
-- Tapez `FileManager` dans le terminal, **ou**
+- Tapez `GestionnaireFichiers` dans le terminal, **ou**
 - Cliquez sur le bouton **File Manager** de la barre d'outils (icône historique) dans le panneau Fichier en haut de l'écran.
 
 Le panneau s'ouvre sur le côté gauche du canevas, et se ferme automatiquement dès que vous démarrez une autre commande ou [importez](../import/) un fichier — il ne reste ainsi jamais affiché au-dessus d'un dessin qu'il ne liste pas encore. Il se rouvre avec une liste à jour à chaque fois.

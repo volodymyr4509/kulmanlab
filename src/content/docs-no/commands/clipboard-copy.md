@@ -8,7 +8,7 @@ order: 17
 
 # ClipboardCopy
 
-Kommandoen `ClipboardCopy` skriver de valgte enhetene til **systemets utklippstavle** som JSON-tekst. Fordi den bruker den ekte utklippstavlen og ikke en buffer i minnet, overlever den kopierte geometrien utenfor tegningen: lim den inn i en annen fil, en annen nettleserfane eller et vindu du åpner senere med [ClipboardPaste](../clipboard-paste/).
+Kommandoen `KopierTilUtklippstavle` skriver de valgte enhetene til **systemets utklippstavle** som JSON-tekst. Fordi den bruker den ekte utklippstavlen og ikke en buffer i minnet, overlever den kopierte geometrien utenfor tegningen: lim den inn i en annen fil, en annen nettleserfane eller et vindu du åpner senere med [ClipboardPaste](../clipboard-paste/).
 
 Det er forskjellen fra [Copy](../copy/): Copy dupliserer enheter inne i den gjeldende tegningen i én bevegelse, mens ClipboardCopy legger dem et sted der de kan hentes fra en helt annen tegning.
 
@@ -17,12 +17,12 @@ Det er forskjellen fra [Copy](../copy/): Copy dupliserer enheter inne i den gjel
 **Velg først, kopier så** — den raske veien:
 
 1. Velg én eller flere enheter på tegneflaten.
-2. Trykk `Ctrl+C` (`Cmd+C` på macOS), eller skriv `ClipboardCopy` i terminalen.
+2. Trykk `Ctrl+C` (`Cmd+C` på macOS), eller skriv `KopierTilUtklippstavle` i terminalen.
 3. Enhetene skrives til utklippstavlen med én gang, og kommandoen avsluttes.
 
 **Aktiver først, velg så** — start uten noe valgt:
 
-1. Trykk `Ctrl+C` eller skriv `ClipboardCopy` med tomt utvalg.
+1. Trykk `Ctrl+C` eller skriv `KopierTilUtklippstavle` med tomt utvalg.
 2. Ledeteksten viser **pick objects to copy — Enter or Space to confirm**.
 3. **Velg objekter** — klikk for å ta enkeltenheter inn i eller ut av utvalget, eller dra for å velge etter område.
 4. Trykk **Enter** eller **Space** for å kopiere utvalget og avslutte.

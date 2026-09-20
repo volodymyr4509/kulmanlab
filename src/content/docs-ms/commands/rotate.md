@@ -8,20 +8,20 @@ order: 3
 
 # Rotate
 
-Arahan `rotate` memutar entiti yang dipilih di sekitar titik asas. Anda menentukan sudut putaran sama ada dengan menaip nombor dalam darjah atau dengan mengklik — sudut dikira dari arah antara titik asas dan kedudukan klik.
+Arahan `Putar` memutar entiti yang dipilih di sekitar titik asas. Anda menentukan sudut putaran sama ada dengan menaip nombor dalam darjah atau dengan mengklik — sudut dikira dari arah antara titik asas dan kedudukan klik.
 
 ## Dua cara untuk memulakan
 
 **Pra-pilih, kemudian putar** — pilih entiti dahulu, kemudian aktifkan:
 
 1. Pilih satu atau lebih entiti pada kanvas.
-2. Taip `rotate` dalam terminal atau klik butang bar alat **Rotate**.
+2. Taip `Putar` dalam terminal atau klik butang bar alat **Rotate**.
 3. **Klik titik asas** — pusat putaran. Atau taip `X,Y` dan tekan **Enter** untuk koordinat tepat.
 4. **Taip sudut dan tekan Enter**, atau **klik** untuk menetapkan sudut dari arah kursor.
 
 **Aktifkan, kemudian pilih** — mulakan arahan tanpa apa-apa yang dipilih:
 
-1. Taip `rotate` atau klik butang bar alat.
+1. Taip `Putar` atau klik butang bar alat.
 2. **Pilih objek** — klik untuk togel, atau seret untuk memilih mengikut kawasan.
 3. Tekan **Enter** atau **Space** untuk mengesahkan pemilihan.
 4. **Klik titik asas** (kemasukan koordinat tersedia), kemudian tetapkan sudut.

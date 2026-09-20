@@ -12,7 +12,7 @@ Otwiera wbudowany panel pomocy z podsumowaniem wszystkich skrótów klawiaturowy
 
 ## Jak używać
 
-Kliknij przycisk **Help** na pasku narzędzi lub wpisz `help` w terminalu. Panel pomocy otwiera się natychmiast i polecenie kończy się.
+Kliknij przycisk **Help** na pasku narzędzi lub wpisz `Pomoc` w terminalu. Panel pomocy otwiera się natychmiast i polecenie kończy się.
 
 ## Co zawiera panel pomocy
 

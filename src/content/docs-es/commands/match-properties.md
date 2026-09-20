@@ -8,17 +8,17 @@ order: 1
 
 # Match Properties
 
-El comando `MatchProperties` copia **propiedades visuales y de capa** de una entidad fuente a una o más entidades de destino. Solo se transfieren las propiedades que son compartidas entre los tipos de entidad fuente y destino — la geometría nunca se cambia.
+El comando `IgualarPropiedades` copia **propiedades visuales y de capa** de una entidad fuente a una o más entidades de destino. Solo se transfieren las propiedades que son compartidas entre los tipos de entidad fuente y destino — la geometría nunca se cambia.
 
 ## Cómo activarlo
 
-Haz clic en el botón **Match Properties** de la barra de herramientas (icono de rodillo de pintura) en el panel Style, o escribe `MatchProperties` en el terminal.
+Haz clic en el botón **Match Properties** de la barra de herramientas (icono de rodillo de pintura) en el panel Style, o escribe `IgualarPropiedades` en el terminal.
 
 ## Flujo de trabajo
 
 **Activar primero, luego seleccionar la fuente:**
 
-1. Escribe `MatchProperties` o haz clic en el botón de la barra de herramientas sin nada preseleccionado.
+1. Escribe `IgualarPropiedades` o haz clic en el botón de la barra de herramientas sin nada preseleccionado.
 2. **Haz clic en la entidad fuente** — aquella cuyas propiedades quieres copiar.
 3. **Haz clic en cada entidad de destino** para aplicar las propiedades de la fuente. Puedes hacer clic en múltiples entidades una a una.
 4. Para aplicar a un grupo a la vez, **arrastra un cuadro de selección** sobre los destinos.
@@ -27,7 +27,7 @@ Haz clic en el botón **Match Properties** de la barra de herramientas (icono de
 **Pre-seleccionar la fuente y luego activar:**
 
 1. Haz clic en una sola entidad para seleccionarla.
-2. Activa `MatchProperties`. La entidad seleccionada se usa automáticamente como fuente.
+2. Activa `IgualarPropiedades`. La entidad seleccionada se usa automáticamente como fuente.
 3. Haz clic en las entidades de destino o arrastra para seleccionar, luego **Enter** o **Escape** para terminar.
 
 ## Qué propiedades se copian

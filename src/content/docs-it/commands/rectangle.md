@@ -8,11 +8,11 @@ order: 3
 
 # Rectangle
 
-Il comando `rectangle` disegna un rettangolo allineato agli assi definito da due clic su angoli opposti. Il risultato è memorizzato come una **`LWPOLYLINE` chiusa** con quattro vertici — uno per ogni angolo. Non esiste un tipo di entità rettangolo dedicato: dopo la creazione la forma si comporta esattamente come qualsiasi altra [Polilinea](../polyline/) e ogni modifica alle polilinee si applica ad essa.
+Il comando `Rettangolo` disegna un rettangolo allineato agli assi definito da due clic su angoli opposti. Il risultato è memorizzato come una **`LWPOLYLINE` chiusa** con quattro vertici — uno per ogni angolo. Non esiste un tipo di entità rettangolo dedicato: dopo la creazione la forma si comporta esattamente come qualsiasi altra [Polilinea](../polyline/) e ogni modifica alle polilinee si applica ad essa.
 
 ## Disegnare un rettangolo
 
-1. Digita `rectangle` nel terminale o clicca il pulsante **Rectangle** nella barra degli strumenti.
+1. Digita `Rettangolo` nel terminale o clicca il pulsante **Rectangle** nella barra degli strumenti.
 2. **Clicca il primo angolo**, oppure digita `X,Y` e premi **Invio** per una coordinata esatta.
 3. **Clicca l'angolo opposto** — il rettangolo viene posizionato istantaneamente e il comando termina. Anche qui è disponibile l'inserimento coordinate. Oppure premi `D` per digitare invece larghezza e altezza esatte — vedi [Inserimento dimensioni](#inserimento-dimensioni) più sotto.
 

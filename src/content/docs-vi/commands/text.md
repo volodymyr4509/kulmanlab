@@ -7,13 +7,13 @@ order: 0
 
 # Text
 
-Lệnh `text` đặt nhãn văn bản nhiều dòng. Sau khi bạn nhấp vị trí trên canvas, trình soạn thảo popup mở ở chế độ **phong phú** — bạn có thể gõ nội dung, áp dụng in đậm/in nghiêng/gạch chân/gạch ngang theo từng ký tự, thay đổi phông chữ và chiều cao, và chèn ngắt dòng. Nhấn **Escape** để xác nhận và đóng trình soạn thảo.
+Lệnh `VănBản` đặt nhãn văn bản nhiều dòng. Sau khi bạn nhấp vị trí trên canvas, trình soạn thảo popup mở ở chế độ **phong phú** — bạn có thể gõ nội dung, áp dụng in đậm/in nghiêng/gạch chân/gạch ngang theo từng ký tự, thay đổi phông chữ và chiều cao, và chèn ngắt dòng. Nhấn **Escape** để xác nhận và đóng trình soạn thảo.
 
 Xem trang [Trình Soạn Thảo Văn Bản](../../interface/text-editor/) để tham khảo đầy đủ trình soạn thảo, bao gồm so sánh chế độ **phong phú** và **đơn giản**.
 
 ## Đặt nhãn văn bản
 
-1. Gõ `text` trong terminal hoặc nhấp nút **Text** trên thanh công cụ.
+1. Gõ `VănBản` trong terminal hoặc nhấp nút **Text** trên thanh công cụ.
 2. **Nhấp vị trí neo** trên canvas. Hoặc gõ `X,Y` rồi nhấn **Enter** để nhập tọa độ chính xác.
 3. **Trình soạn thảo văn bản popup** mở phía trên nhãn mới. Gõ nội dung của bạn.
 4. Nhấn **Escape** để xác nhận nhãn và đóng trình soạn thảo.

@@ -8,11 +8,11 @@ order: 4
 
 # Fit
 
-Umarnin `fit` yana lissafa akwatin dubawa na dukkan abubuwa a zanen kuma yana daidaita duka matakin zoom da matsayin pan don kowace abu ta bayyana da ɗan gefe. Shine hanya mafi sauri don dawo da kallo da ya ɓace ko daidaita kanka bayan shigo da fayil na DXF.
+Umarnin `NunaDuka` yana lissafa akwatin dubawa na dukkan abubuwa a zanen kuma yana daidaita duka matakin zoom da matsayin pan don kowace abu ta bayyana da ɗan gefe. Shine hanya mafi sauri don dawo da kallo da ya ɓace ko daidaita kanka bayan shigo da fayil na DXF.
 
 ## Daidaita kallon
 
-Danna maɓallin kayan aiki na **Fit** ko rubuta `fit` a tashar umarni. Kallon yana daidaita kansa nan take kuma umarnin yana fita — babu bukatar hulɗa.
+Danna maɓallin kayan aiki na **Fit** ko rubuta `NunaDuka` a tashar umarni. Kallon yana daidaita kansa nan take kuma umarnin yana fita — babu bukatar hulɗa.
 
 **Danna sau biyu na maɓallin tsakiya na linzamin kwamfuta** yana kunna aikin Fit iri ɗaya a kowane lokaci ba tare da kunna wani umarni ba — gajeriyar hanya mafi sauri don sake saita kallo da ya ɓace a tsakiyar zane.
 

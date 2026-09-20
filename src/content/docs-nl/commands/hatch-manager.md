@@ -8,11 +8,11 @@ order: 4
 
 # Hatch Manager
 
-Het commando `HatchManager` opent een dialoogvenster om hatch-patronen te doorbladeren met een live swatch-voorbeeld, en om uw eigen `.pat`-patroonbestanden te uploaden voor gebruik met [Hatch](../hatch/).
+Het commando `Arceringbeheer` opent een dialoogvenster om hatch-patronen te doorbladeren met een live swatch-voorbeeld, en om uw eigen `.pat`-patroonbestanden te uploaden voor gebruik met [Hatch](../hatch/).
 
 ## De Hatch Manager openen
 
-Typ `HatchManager` in de terminal. Dit is gescheiden van de patroonkiezer die opent wanneer u op de **Pattern**-chip van een hatch klikt — de kiezer kiest een patroon voor één hatch, de Hatch Manager is waar u `.pat`-bestanden toevoegt of verwijdert.
+Typ `Arceringbeheer` in de terminal. Dit is gescheiden van de patroonkiezer die opent wanneer u op de **Pattern**-chip van een hatch klikt — de kiezer kiest een patroon voor één hatch, de Hatch Manager is waar u `.pat`-bestanden toevoegt of verwijdert.
 
 ## Patroongroepen
 

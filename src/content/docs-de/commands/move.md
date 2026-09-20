@@ -8,20 +8,20 @@ order: 1
 
 # Move
 
-Der Befehl `move` verschiebt ausgewählte Entitäten von einem Basispunkt zu einem Zielpunkt. Die auf jede ausgewählte Entität angewendete Verschiebung ist der Vektor von Basis zu Ziel. Nach dem Verschieben bleiben alle Entitäten an ihrer neuen Position ausgewählt und sind bereit für weitere Bearbeitungen.
+Der Befehl `Verschieben` verschiebt ausgewählte Entitäten von einem Basispunkt zu einem Zielpunkt. Die auf jede ausgewählte Entität angewendete Verschiebung ist der Vektor von Basis zu Ziel. Nach dem Verschieben bleiben alle Entitäten an ihrer neuen Position ausgewählt und sind bereit für weitere Bearbeitungen.
 
 ## Zwei Möglichkeiten zum Starten
 
 **Zuerst auswählen, dann verschieben** — wählen Sie zuerst Entitäten aus und aktivieren Sie dann den Befehl:
 
 1. Wählen Sie eine oder mehrere Entitäten auf der Zeichenfläche aus.
-2. Geben Sie `move` im Terminal ein oder klicken Sie auf die Schaltfläche **Move** in der Symbolleiste.
+2. Geben Sie `Verschieben` im Terminal ein oder klicken Sie auf die Schaltfläche **Move** in der Symbolleiste.
 3. **Klicken Sie auf den Basispunkt** oder geben Sie `X,Y` ein und drücken Sie **Enter** für eine genaue Koordinate.
 4. **Klicken Sie auf das Ziel** — alle ausgewählten Entitäten verschieben sich um den Basis→Ziel-Vektor. Koordinateneingabe funktioniert hier ebenfalls.
 
 **Aktivieren, dann auswählen** — Befehl ohne Auswahl starten:
 
-1. Geben Sie `move` ein oder klicken Sie auf die Schaltfläche in der Symbolleiste.
+1. Geben Sie `Verschieben` ein oder klicken Sie auf die Schaltfläche in der Symbolleiste.
 2. **Objekte auswählen** — klicken zum Umschalten einzelner Entitäten oder ziehen zur Flächenauswahl.
 3. Drücken Sie **Enter** oder **Space** zur Bestätigung der Auswahl.
 4. **Klicken Sie auf den Basispunkt**, dann **klicken Sie auf das Ziel** (Koordinateneingabe bei beiden Schritten verfügbar).

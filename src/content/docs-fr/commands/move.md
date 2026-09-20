@@ -8,20 +8,20 @@ order: 1
 
 # Move
 
-La commande `move` translate les entités sélectionnées d'un point de base vers un point de destination. Le déplacement appliqué à chaque entité sélectionnée est le vecteur du point de base vers la destination. Après le déplacement, toutes les entités restent sélectionnées à leur nouvelle position, prêtes pour d'autres modifications.
+La commande `Déplacer` translate les entités sélectionnées d'un point de base vers un point de destination. Le déplacement appliqué à chaque entité sélectionnée est le vecteur du point de base vers la destination. Après le déplacement, toutes les entités restent sélectionnées à leur nouvelle position, prêtes pour d'autres modifications.
 
 ## Deux façons de démarrer
 
 **Pré-sélectionner, puis déplacer** — sélectionnez d'abord les entités, puis activez :
 
 1. Sélectionnez une ou plusieurs entités sur le canevas.
-2. Tapez `move` dans le terminal ou cliquez sur le bouton **Move** de la barre d'outils.
+2. Tapez `Déplacer` dans le terminal ou cliquez sur le bouton **Move** de la barre d'outils.
 3. **Cliquez sur le point de base**, ou tapez `X,Y` et appuyez sur **Entrée** pour une coordonnée exacte.
 4. **Cliquez sur la destination** — toutes les entités sélectionnées se déplacent selon le vecteur base→destination. La saisie de coordonnées fonctionne ici aussi.
 
 **Activer, puis sélectionner** — démarrez la commande sans rien de sélectionné :
 
-1. Tapez `move` ou cliquez sur le bouton de la barre d'outils.
+1. Tapez `Déplacer` ou cliquez sur le bouton de la barre d'outils.
 2. **Sélectionnez les objets** — cliquez pour basculer les entités individuelles, ou faites glisser pour sélectionner par zone.
 3. Appuyez sur **Entrée** ou **Espace** pour confirmer la sélection.
 4. **Cliquez sur le point de base**, puis **cliquez sur la destination** (la saisie de coordonnées est disponible aux deux étapes).

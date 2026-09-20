@@ -8,11 +8,11 @@ order: 1
 
 # LayerManager
 
-La commande `LayerManager` ouvre un tableau listant tous les calques du dessin, avec leurs réglages **Freeze**, **Lock**, **Plot**, **Couleur**, **Épaisseur de ligne** et **Type de ligne** modifiables directement dans la ligne. C'est l'endroit central pour ajouter des calques, supprimer ceux qui ne servent pas et ajuster le comportement des existants — les autres commandes de calque ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) font chacune une seule chose précise sans l'ouvrir.
+La commande `GestionnaireCalques` ouvre un tableau listant tous les calques du dessin, avec leurs réglages **Freeze**, **Lock**, **Plot**, **Couleur**, **Épaisseur de ligne** et **Type de ligne** modifiables directement dans la ligne. C'est l'endroit central pour ajouter des calques, supprimer ceux qui ne servent pas et ajuster le comportement des existants — les autres commandes de calque ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) font chacune une seule chose précise sans l'ouvrir.
 
 ## Ouvrir le Gestionnaire de Calques
 
-- Tapez `LayerManager` dans le terminal, **ou**
+- Tapez `GestionnaireCalques` dans le terminal, **ou**
 - Cliquez sur le bouton **Layer Manager** dans le panneau des calques.
 
 La boîte de dialogue s'ouvre comme un panneau flottant ; rien n'a besoin d'être sélectionné au préalable.

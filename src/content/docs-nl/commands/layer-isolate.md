@@ -8,19 +8,19 @@ order: 4
 
 # LayerIsolate
 
-Het `LayerIsolate`-commando bevriest elke laag **behalve** die van de geselecteerde objecten. Gebruik het om snel te focussen op specifieke geometrie zonder iets permanent te verbergen of verwijderen — ontdooi met [LayerUnfreezeAll](../layer-unfreeze-all/) wanneer u klaar bent.
+Het `LaagIsoleren`-commando bevriest elke laag **behalve** die van de geselecteerde objecten. Gebruik het om snel te focussen op specifieke geometrie zonder iets permanent te verbergen of verwijderen — ontdooi met [LayerUnfreezeAll](../layer-unfreeze-all/) wanneer u klaar bent.
 
 ## Twee manieren om te starten
 
 **Eerst selecteren, dan isoleren** — selecteer eerst entiteiten en activeer dan:
 
 1. Selecteer een of meer entiteiten op het canvas.
-2. Typ `LayerIsolate` in de terminal of klik op de werkbalkknop **Layer Isolate**.
+2. Typ `LaagIsoleren` in de terminal of klik op de werkbalkknop **Layer Isolate**.
 3. De lagen van de geselecteerde entiteiten blijven zichtbaar; alle andere worden onmiddellijk bevroren.
 
 **Eerst activeren, dan selecteren**:
 
-1. Typ `LayerIsolate` of klik op de werkbalkknop.
+1. Typ `LaagIsoleren` of klik op de werkbalkknop.
 2. **Kies objecten** — klik op individuele entiteiten of sleep om per gebied te selecteren.
 3. Druk op **Enter** of **Spatie** om te bevestigen — isolatie wordt toegepast.
 

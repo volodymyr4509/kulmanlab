@@ -8,20 +8,20 @@ order: 7
 
 # Delete
 
-Arahan `delete` membuang entiti yang dipilih daripada lukisan. Pemadaman direkodkan dalam sejarah [Undo](../undo/) dan boleh diterbalikkan dengan sehingga 20 langkah. Tiada dialog "sahkan padam" yang berasingan — pengesahan adalah satu tekanan kekunci sahaja.
+Arahan `Padam` membuang entiti yang dipilih daripada lukisan. Pemadaman direkodkan dalam sejarah [Undo](../undo/) dan boleh diterbalikkan dengan sehingga 20 langkah. Tiada dialog "sahkan padam" yang berasingan — pengesahan adalah satu tekanan kekunci sahaja.
 
 ## Dua cara untuk memadam
 
 **Pra-pilih, kemudian padam** — laluan terpantas:
 
 1. Pilih satu atau lebih entiti pada kanvas.
-2. Taip `delete` dalam terminal, klik butang bar alat **Delete**, **atau terus tekan kekunci `Delete`**.
+2. Taip `Padam` dalam terminal, klik butang bar alat **Delete**, **atau terus tekan kekunci `Delete`**.
 
 Entiti dibuang serta-merta — tiada langkah pengesahan tambahan.
 
 **Aktifkan, kemudian pilih**:
 
-1. Taip `delete` atau klik butang bar alat (tanpa apa-apa yang dipilih).
+1. Taip `Padam` atau klik butang bar alat (tanpa apa-apa yang dipilih).
 2. **Pilih objek** — klik untuk togel, atau seret untuk memilih mengikut kawasan.
 3. Tekan **Enter**, **Space**, atau **Delete** untuk mengesahkan dan membuang entiti yang dipilih.
 
@@ -44,7 +44,7 @@ Klik entiti → tekan kekunci Delete → selesai
 
 ## Memulihkan entiti yang dipadam
 
-Pemadaman boleh dibatalkan dengan arahan [Undo](../undo/) (taip `undo` atau gunakan butang bar alat). Sehingga **20 langkah** boleh diterbalikkan setiap fail, dan sejarah berterusan merentasi muat semula halaman. Jika anda telah melebihi 20 pemadaman tanpa menyimpan, pemadaman lebih awal tidak dapat dipulihkan.
+Pemadaman boleh dibatalkan dengan arahan [Undo](../undo/) (taip `BatalTindakan` atau gunakan butang bar alat). Sehingga **20 langkah** boleh diterbalikkan setiap fail, dan sejarah berterusan merentasi muat semula halaman. Jika anda telah melebihi 20 pemadaman tanpa menyimpan, pemadaman lebih awal tidak dapat dipulihkan.
 
 ## Entiti yang disokong
 

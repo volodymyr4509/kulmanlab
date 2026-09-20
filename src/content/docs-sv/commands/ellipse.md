@@ -8,11 +8,11 @@ order: 6
 
 # Ellipse
 
-`ellipse`-kommandot ritar en ellips med tre klick: en centrumpunkt, ändpunkten på den första (stora) halvaxeln i valfri vinkel, och längden på den andra (lilla) halvaxeln. De två axlarna är alltid vinkelräta mot varandra — den andra axelns riktning härleds automatiskt från den första.
+`Ellips`-kommandot ritar en ellips med tre klick: en centrumpunkt, ändpunkten på den första (stora) halvaxeln i valfri vinkel, och längden på den andra (lilla) halvaxeln. De två axlarna är alltid vinkelräta mot varandra — den andra axelns riktning härleds automatiskt från den första.
 
 ## Rita en ellips
 
-1. Skriv `ellipse` i terminalen eller klicka på **Ellipse**-knappen i verktygsfältet.
+1. Skriv `Ellips` i terminalen eller klicka på **Ellipse**-knappen i verktygsfältet.
 2. **Klicka på centrumpunkten**, eller skriv `X,Y` och tryck **Enter** för en exakt koordinat.
 3. **Klicka på den första axelns ändpunkt** — anger både riktning och längd för den första halvaxeln. Koordinatinmatning fungerar även här.
 4. **Ange den andra axelns längd** — flytta markören vinkelrätt mot den första axeln och klicka eller skriv en längd.

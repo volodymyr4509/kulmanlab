@@ -8,11 +8,11 @@ order: 1
 
 # Pan
 
-Amri ya `pan` huingia hali ya kudumu ya kusogeza kwa kuburuta — bonyeza na uburutu mahali popote kwenye turubai kubadilisha mwonekano. Kiwango cha kukuza haibadiliki. Hali ya Pan inabaki hai hadi ubonyeze `Escape`, hivyo unaweza kuburuta mara nyingi katika uanzishaji mmoja.
+Amri ya `Sogeza` huingia hali ya kudumu ya kusogeza kwa kuburuta — bonyeza na uburutu mahali popote kwenye turubai kubadilisha mwonekano. Kiwango cha kukuza haibadiliki. Hali ya Pan inabaki hai hadi ubonyeze `Escape`, hivyo unaweza kuburuta mara nyingi katika uanzishaji mmoja.
 
 ## Kusogeza mwonekano
 
-1. Andika `pan` kwenye terminal au bonyeza kitufe cha **Pan** kwenye upau wa zana.
+1. Andika `Sogeza` kwenye terminal au bonyeza kitufe cha **Pan** kwenye upau wa zana.
 2. **Bonyeza na uburutu** mahali popote kwenye turubai kubadilisha mwonekano.
 3. Acha na uburutu tena mara nyingi kadri unavyohitaji.
 4. Bonyeza `Escape` kutoka hali ya pan.

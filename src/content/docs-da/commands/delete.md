@@ -8,20 +8,20 @@ order: 7
 
 # Delete
 
-Kommandoen `delete` fjerner markerede entiteter fra tegningen. Slettelser registreres i [Undo](../undo/)-historikken og kan fortrydes op til 20 trin. Der er ingen separat "bekræft sletning"-dialog — bekræftelse er ét enkelt tastetryk.
+Kommandoen `Slet` fjerner markerede entiteter fra tegningen. Slettelser registreres i [Undo](../undo/)-historikken og kan fortrydes op til 20 trin. Der er ingen separat "bekræft sletning"-dialog — bekræftelse er ét enkelt tastetryk.
 
 ## To måder at slette på
 
 **Markér først, slet derefter** — den hurtigste vej:
 
 1. Markér én eller flere entiteter på lærredet.
-2. Skriv `delete` i terminalen, klik på **Delete**-knappen i værktøjslinjen, **eller tryk direkte på `Delete`-tasten**.
+2. Skriv `Slet` i terminalen, klik på **Delete**-knappen i værktøjslinjen, **eller tryk direkte på `Delete`-tasten**.
 
 Entiteter fjernes øjeblikkeligt — intet ekstra bekræftelsestrin.
 
 **Aktivér, markér derefter**:
 
-1. Skriv `delete` eller klik på værktøjslinjeknappen (med intet markeret).
+1. Skriv `Slet` eller klik på værktøjslinjeknappen (med intet markeret).
 2. **Markér objekter** — klik for at slå til/fra, eller træk for at markere efter område.
 3. Tryk **Enter**, **Space** eller **Delete** for at bekræfte og fjerne de markerede entiteter.
 
@@ -44,7 +44,7 @@ Klik entitet → tryk Delete-tasten → færdig
 
 ## Gendanne slettede entiteter
 
-Slettelser kan fortrydes med [Undo](../undo/)-kommandoen (skriv `undo` eller brug værktøjslinjeknappen). Op til **20 trin** kan fortrydes pr. fil, og historikken bevares på tværs af sideindlæsninger. Hvis du har overskredet 20 slettelser uden at gemme, kan tidligere slettelser ikke gendannes.
+Slettelser kan fortrydes med [Undo](../undo/)-kommandoen (skriv `FortrydHandling` eller brug værktøjslinjeknappen). Op til **20 trin** kan fortrydes pr. fil, og historikken bevares på tværs af sideindlæsninger. Hvis du har overskredet 20 slettelser uden at gemme, kan tidligere slettelser ikke gendannes.
 
 ## Understøttede entiteter
 

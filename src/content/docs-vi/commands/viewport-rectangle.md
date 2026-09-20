@@ -7,12 +7,12 @@ order: 1
 
 # ViewportRectangle
 
-Lệnh `ViewportRectangle` tạo một khung nhìn mới trong bố cục giấy đang hoạt động bằng cách chọn hai góc đối diện. Chỉ khả dụng trong không gian bố cục.
+Lệnh `KhungNhìnChữNhật` tạo một khung nhìn mới trong bố cục giấy đang hoạt động bằng cách chọn hai góc đối diện. Chỉ khả dụng trong không gian bố cục.
 
 ## Tạo khung nhìn
 
 1. Chuyển sang bố cục giấy bằng tab ở dưới cùng của màn hình.
-2. Gõ `ViewportRectangle` trong terminal hoặc nhấp nút **Viewport Rectangle** trên thanh công cụ.
+2. Gõ `KhungNhìnChữNhật` trong terminal hoặc nhấp nút **Viewport Rectangle** trên thanh công cụ.
 3. **Nhấp góc đầu tiên**, hoặc gõ `X,Y` rồi nhấn **Enter** để nhập tọa độ chính xác.
 4. **Nhấp góc đối diện** — khung nhìn được đặt ngay lập tức.
 

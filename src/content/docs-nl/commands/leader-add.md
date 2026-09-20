@@ -8,11 +8,11 @@ order: 2
 
 # LeaderAdd
 
-Het `LeaderAdd`-commando voegt een nieuwe pijlpuntarm toe aan een bestaande multileader. De nieuwe arm loopt van de bestaande dogleg van de leader naar een nieuwe pijlpunt-tip die u aanklikt. Alle opmaak — dogleg-positie, tekst, pijlpunttype en grootte — wordt overgenomen van de geselecteerde leader.
+Het `VerwijsarmToevoegen`-commando voegt een nieuwe pijlpuntarm toe aan een bestaande multileader. De nieuwe arm loopt van de bestaande dogleg van de leader naar een nieuwe pijlpunt-tip die u aanklikt. Alle opmaak — dogleg-positie, tekst, pijlpunttype en grootte — wordt overgenomen van de geselecteerde leader.
 
 ## Een arm toevoegen
 
-1. Typ `LeaderAdd` in de terminal.
+1. Typ `VerwijsarmToevoegen` in de terminal.
 2. **Klik op een bestaande multileader** om deze te selecteren.
 3. **Klik de nieuwe pijlpunt-tip**, of typ `X,Y` en druk op **Enter** voor een exacte coördinaat. Een previewlijn loopt van de cursor naar de dogleg van de leader.
 

@@ -8,13 +8,13 @@ order: 9
 
 # Extend
 
-Il comando `extend` allunga il punto finale più vicino di una [Line](../line/), [Arc](../arc/), [Ellipse](../ellipse/) o Polyline aperta su cui si passa il cursore fino alla prima intersezione che formerebbe con un'altra entità nel disegno. Passa il cursore vicino al punto finale che vuoi estendere — un'anteprima mostra l'entità estesa — poi clicca per applicare.
+Il comando `Estendi` allunga il punto finale più vicino di una [Line](../line/), [Arc](../arc/), [Ellipse](../ellipse/) o Polyline aperta su cui si passa il cursore fino alla prima intersezione che formerebbe con un'altra entità nel disegno. Passa il cursore vicino al punto finale che vuoi estendere — un'anteprima mostra l'entità estesa — poi clicca per applicare.
 
 Solo le entità con un punto finale reale possono essere estese. Un [Circle](../circle/) e un'Ellipse completa (360°) sono sempre forme chiuse senza punto finale, quindi non possono mai essere estese — lo stesso vale per una Polyline chiusa o un Rectangle. Un'Ellipse parziale (un arco ellittico) e un Arc hanno invece punti finali e si estendono come una Line.
 
 ## Estendere un'entità
 
-1. Digita `extend` nel terminale o clicca il pulsante **Extend** nella barra degli strumenti.
+1. Digita `Estendi` nel terminale o clicca il pulsante **Extend** nella barra degli strumenti.
 2. **Passa il cursore vicino a un'estremità** dell'entità che vuoi estendere — l'anteprima la mostra estesa fino al limite più vicino in quella direzione.
 3. **Clicca** per applicare l'estensione.
 

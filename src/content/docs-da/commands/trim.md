@@ -8,11 +8,11 @@ order: 8
 
 # Trim
 
-Kommandoen `trim` fjerner den del af en [Line](../line/), [Arc](../arc/), [Circle](../circle/), [Ellipse](../ellipse/) eller [Polyline](../polyline/), der ligger mellem to tilstødende skæringspunkter, og deler entiteten i én eller flere resterende dele. Segmentet der skal skæres, bestemmes af markørpositionen — hold markøren over den del, du vil fjerne, og klik for at trimme den.
+Kommandoen `Beskær` fjerner den del af en [Line](../line/), [Arc](../arc/), [Circle](../circle/), [Ellipse](../ellipse/) eller [Polyline](../polyline/), der ligger mellem to tilstødende skæringspunkter, og deler entiteten i én eller flere resterende dele. Segmentet der skal skæres, bestemmes af markørpositionen — hold markøren over den del, du vil fjerne, og klik for at trimme den.
 
 ## Trimme en entitet
 
-1. Skriv `trim` i terminalen eller klik på **Trim**-knappen i værktøjslinjen.
+1. Skriv `Beskær` i terminalen eller klik på **Trim**-knappen i værktøjslinjen.
 2. **Hold markøren over segmentet**, du vil fjerne — en forhåndsvisning fremhæver nøjagtigt den del, der vil blive skåret.
 3. **Klik** for at fjerne det segment.
 

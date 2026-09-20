@@ -8,7 +8,7 @@ order: 1
 
 # Leader
 
-Het `leader`-commando tekent een multileader-annotatie in vier stappen: een pijlpunt die een kenmerk raakt, een leaderlijn die knikt bij een dogleg, een tekstanker en een getypt label. Van alle annotatiecommando's is Leader de enige met een interactieve tekstinvoerfase met een knipperende cursorpreview.
+Het `Verwijslijn`-commando tekent een multileader-annotatie in vier stappen: een pijlpunt die een kenmerk raakt, een leaderlijn die knikt bij een dogleg, een tekstanker en een getypt label. Van alle annotatiecommando's is Leader de enige met een interactieve tekstinvoerfase met een knipperende cursorpreview.
 
 ## Anatomie van een multileader
 
@@ -27,7 +27,7 @@ Het `leader`-commando tekent een multileader-annotatie in vier stappen: een pijl
 
 ## Een leader tekenen
 
-1. Typ `leader` in de terminal of klik op de werkbalkknop **Leader**.
+1. Typ `Verwijslijn` in de terminal of klik op de werkbalkknop **Leader**.
 2. **Klik de pijlpunt-tip**, of typ `X,Y` en druk op **Enter** voor een exacte coördinaat.
 3. **Klik de dogleg** — de knik in de leader. De hoek vergrendelt op stappen van 45°; typ een lengte en druk op **Enter** voor precieze plaatsing. Of typ `X,Y` om een absolute coördinaat in te voeren.
 4. **Klik de tekstpositie** — waar het label verankert. Dezelfde opties gelden: klikken, hoekvergrendeling + lengte, of `X,Y`.

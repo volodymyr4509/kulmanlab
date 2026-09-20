@@ -8,11 +8,11 @@ order: 3
 
 # Rectangle
 
-El comando `rectangle` dibuja un rectángulo con ejes alineados definido por dos clics en esquinas opuestas. El resultado se almacena como una **`LWPOLYLINE` cerrada** con cuatro vértices — uno en cada esquina. No existe un tipo de entidad rectángulo dedicado: tras su creación, la forma se comporta exactamente como cualquier otra [Polyline](../polyline/) y todos los comandos de edición de polilíneas se aplican a ella.
+El comando `Rectángulo` dibuja un rectángulo con ejes alineados definido por dos clics en esquinas opuestas. El resultado se almacena como una **`LWPOLYLINE` cerrada** con cuatro vértices — uno en cada esquina. No existe un tipo de entidad rectángulo dedicado: tras su creación, la forma se comporta exactamente como cualquier otra [Polyline](../polyline/) y todos los comandos de edición de polilíneas se aplican a ella.
 
 ## Dibujar un rectángulo
 
-1. Escribe `rectangle` en el terminal o haz clic en el botón de la barra de herramientas **Rectangle**.
+1. Escribe `Rectángulo` en el terminal o haz clic en el botón de la barra de herramientas **Rectangle**.
 2. **Haz clic en la primera esquina**, o escribe `X,Y` y pulsa **Enter** para una coordenada exacta.
 3. **Haz clic en la esquina opuesta** — el rectángulo se coloca instantáneamente y el comando termina. La entrada de coordenadas también funciona aquí. O presiona `D` en su lugar para escribir un ancho y alto exactos — consulta [Entrada de dimensiones](#entrada-de-dimensiones) más abajo.
 

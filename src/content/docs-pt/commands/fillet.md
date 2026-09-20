@@ -8,13 +8,13 @@ order: 11
 
 # Fillet
 
-O comando `fillet` arredonda um canto entre dois segmentos [Line](../line/), [Arc](../arc/) ou [Polyline](../polyline/) inserindo um arco tangente de um dado raio, aparando (ou fundindo) as entidades escolhidas até esse ponto.
+O comando `Concordar` arredonda um canto entre dois segmentos [Line](../line/), [Arc](../arc/) ou [Polyline](../polyline/) inserindo um arco tangente de um dado raio, aparando (ou fundindo) as entidades escolhidas até esse ponto.
 
 O Fillet funciona com entidades **Line, Arc e Polyline** — incluindo os segmentos retos ou de arco de uma polilinha.
 
 ## Usar fillet
 
-1. Digite `fillet` no terminal ou clique no botão **Fillet** na barra de ferramentas.
+1. Digite `Concordar` no terminal ou clique no botão **Fillet** na barra de ferramentas.
 2. **Digite o raio do filete** e pressione **Enter**.
 3. **Clique na primeira linha, arco ou segmento de polilinha** — a porção que você clica determina qual lado de qualquer interseção é mantido.
 4. **Passe o cursor sobre a segunda entidade** — uma pré-visualização de arco tracejado mostra o filete resultante. Mova o cursor para o lado que deseja manter.

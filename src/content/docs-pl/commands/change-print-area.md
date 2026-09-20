@@ -8,11 +8,11 @@ order: 5
 
 # ChangePrintArea
 
-Polecenie `ChangePrintArea` ustawia prostokątny obszar eksportowany przez [Menedżera druku](../print-manager/). Działa na pustej kanwie przy ukrytym Menedżerze druku i przyjmuje dwa przeciwległe narożniki — te same dwa kliknięcia co [Rectangle](../rectangle/), więc wpisywane współrzędne i przyciąganie działają dokładnie tak samo.
+Polecenie `ZmieńObszarWydruku` ustawia prostokątny obszar eksportowany przez [Menedżera druku](../print-manager/). Działa na pustej kanwie przy ukrytym Menedżerze druku i przyjmuje dwa przeciwległe narożniki — te same dwa kliknięcia co [Rectangle](../rectangle/), więc wpisywane współrzędne i przyciąganie działają dokładnie tak samo.
 
 ## Wybór obszaru
 
-1. Wpisz `ChangePrintArea` w terminalu lub kliknij **Change Area** na pasku bocznym Menedżera druku. Menedżer druku ukrywa się, a kanwa staje się interaktywna.
+1. Wpisz `ZmieńObszarWydruku` w terminalu lub kliknij **Change Area** na pasku bocznym Menedżera druku. Menedżer druku ukrywa się, a kanwa staje się interaktywna.
 2. **Kliknij pierwszy narożnik** lub wpisz `X,Y` i naciśnij **Enter**, aby podać dokładną współrzędną.
 3. **Kliknij przeciwległy narożnik** lub ponownie wpisz `X,Y`.
 

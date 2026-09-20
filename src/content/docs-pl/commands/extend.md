@@ -8,13 +8,13 @@ order: 9
 
 # Extend
 
-Polecenie `extend` rozciąga najbliższy punkt końcowy wskazywanej [Line](../line/), [Arc](../arc/), [Ellipse](../ellipse/) lub otwartej [Polyline](../polyline/) do najbliższego przecięcia, które tworzyłaby z innym elementem w rysunku. Najedź kursorem blisko punktu końcowego, który chcesz przedłużyć — podgląd pokazuje przedłużony element — a następnie kliknij, aby zastosować.
+Polecenie `Wydłuż` rozciąga najbliższy punkt końcowy wskazywanej [Line](../line/), [Arc](../arc/), [Ellipse](../ellipse/) lub otwartej [Polyline](../polyline/) do najbliższego przecięcia, które tworzyłaby z innym elementem w rysunku. Najedź kursorem blisko punktu końcowego, który chcesz przedłużyć — podgląd pokazuje przedłużony element — a następnie kliknij, aby zastosować.
 
 Tylko elementy z rzeczywistym punktem końcowym mogą być przedłużane. [Circle](../circle/) i pełna (360°) Ellipse są zawsze kształtami zamkniętymi bez punktu końcowego, więc nigdy nie można ich przedłużyć — to samo dotyczy zamkniętej Polyline lub Rectangle. Częściowa Ellipse (łuk eliptyczny) i Arc mają punkty końcowe i są przedłużane tak samo jak Line.
 
 ## Przedłużanie elementu
 
-1. Wpisz `extend` w terminalu lub kliknij przycisk **Przedłuż** na pasku narzędzi.
+1. Wpisz `Wydłuż` w terminalu lub kliknij przycisk **Przedłuż** na pasku narzędzi.
 2. **Najedź kursorem blisko jednego końca** elementu, który chcesz przedłużyć — podgląd pokazuje go przedłużonego do najbliższej granicy w tym kierunku.
 3. **Kliknij**, aby zastosować przedłużenie.
 

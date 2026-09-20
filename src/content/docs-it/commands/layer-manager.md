@@ -8,11 +8,11 @@ order: 1
 
 # LayerManager
 
-Il comando `LayerManager` apre una tabella che elenca tutti i layer del disegno, con le impostazioni **Freeze**, **Lock**, **Plot**, **Colore**, **Spessore linea** e **Tipo di linea** modificabili direttamente nella riga. È il luogo centrale per aggiungere layer, eliminare quelli inutilizzati e regolare il comportamento di quelli esistenti — gli altri comandi di layer ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) fanno ciascuno una cosa sola senza aprirlo.
+Il comando `GestoreLayer` apre una tabella che elenca tutti i layer del disegno, con le impostazioni **Freeze**, **Lock**, **Plot**, **Colore**, **Spessore linea** e **Tipo di linea** modificabili direttamente nella riga. È il luogo centrale per aggiungere layer, eliminare quelli inutilizzati e regolare il comportamento di quelli esistenti — gli altri comandi di layer ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) fanno ciascuno una cosa sola senza aprirlo.
 
 ## Aprire il Gestore Livelli
 
-- Digita `LayerManager` nel terminale, **oppure**
+- Digita `GestoreLayer` nel terminale, **oppure**
 - Clicca il pulsante **Layer Manager** nel pannello dei livelli.
 
 La finestra di dialogo si apre come pannello fluttuante; non serve selezionare nulla prima.

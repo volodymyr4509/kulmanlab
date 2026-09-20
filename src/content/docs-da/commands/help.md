@@ -12,7 +12,7 @@ order: 2
 
 ## Sådan bruger du den
 
-Klik på **Help**-knappen i værktøjslinjen eller skriv `help` i terminalen. Hjælpepanelet åbnes straks, og kommandoen afsluttes.
+Klik på **Help**-knappen i værktøjslinjen eller skriv `Hjælp` i terminalen. Hjælpepanelet åbnes straks, og kommandoen afsluttes.
 
 ## Hvad der er i hjælpepanelet
 

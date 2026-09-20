@@ -8,13 +8,13 @@ order: 11
 
 # Fillet
 
-Perintah `fillet` membulatkan sudut antara dua segmen [Line](../line/), [Arc](../arc/), atau [Polyline](../polyline/) dengan menyisipkan busur tangen berradius tertentu, memotong (atau menggabungkan) entitas yang dipilih kembali ke titik tersebut.
+Perintah `Fillet` membulatkan sudut antara dua segmen [Line](../line/), [Arc](../arc/), atau [Polyline](../polyline/) dengan menyisipkan busur tangen berradius tertentu, memotong (atau menggabungkan) entitas yang dipilih kembali ke titik tersebut.
 
 Fillet bekerja pada entitas **Line, Arc, dan Polyline** — termasuk segmen lurus atau busur milik polyline itu sendiri.
 
 ## Menggunakan fillet
 
-1. Ketik `fillet` di terminal atau klik tombol toolbar **Fillet**.
+1. Ketik `Fillet` di terminal atau klik tombol toolbar **Fillet**.
 2. **Ketik radius fillet** dan tekan **Enter**.
 3. **Klik garis, busur, atau segmen polyline pertama** — bagian yang Anda klik menentukan sisi mana dari perpotongan mana pun yang dipertahankan.
 4. **Arahkan kursor ke entitas kedua** — pratinjau busur putus-putus menampilkan hasil fillet. Gerakkan kursor ke sisi yang ingin Anda pertahankan.

@@ -8,11 +8,11 @@ order: 2
 
 # Font Manager
 
-Komento `FontManager` avaa valintaikkunan fonttien selaamiseen ja valintaan, sekä omien `.ttf`-tiedostojesi lataamiseen käytettäväksi [Text](../text/)- ja [Multileader](../leader/)-entiteeteissä.
+Komento `Fonttienhallinta` avaa valintaikkunan fonttien selaamiseen ja valintaan, sekä omien `.ttf`-tiedostojesi lataamiseen käytettäväksi [Text](../text/)- ja [Multileader](../leader/)-entiteeteissä.
 
 ## Font Managerin avaaminen
 
-- Kirjoita `FontManager` terminaaliin, **tai**
+- Kirjoita `Fonttienhallinta` terminaaliin, **tai**
 - Napsauta **Font Manager**-painiketta [tekstieditorin](../../interface/text-editor/) työkalurivillä.
 
 ## Fonttiryhmät
@@ -28,7 +28,7 @@ Napsauta mitä tahansa fonttia listassa esikatsellaksesi sitä oikealla — nimi
 
 ## Oman fontin lataaminen
 
-1. Napsauta **Add Font** valintaikkunan alatunnisteessa (tai kirjoita [`FontAdd`](../font-add/) terminaaliin avataksesi tiedostovalitsimen suoraan).
+1. Napsauta **Add Font** valintaikkunan alatunnisteessa (tai kirjoita [`LisääFontti`](../font-add/) terminaaliin avataksesi tiedostovalitsimen suoraan).
 2. Valitse `.ttf`-tiedosto. Vain TrueType-fontit tuetaan — `.otf` ja `.woff`/`.woff2` eivät tuettu.
 3. Tiedostonimestä (ilman tiedostopäätettä) tulee fontin nimi **User**-ryhmässä. Esimerkiksi `MyFont.ttf`:n lataaminen lisää fontin nimeltä `MyFont`.
 

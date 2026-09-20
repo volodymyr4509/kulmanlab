@@ -8,11 +8,11 @@ order: 14
 
 # Redo
 
-Kommandoen `redo` beveger seg fremover gjennom angre-historikken, og bruker på nytt handlinger som ble reversert av [Undo](../undo/). Redo er kun tilgjengelig når du har gått tilbake med Undo og ennå ikke har gjort en ny endring.
+Kommandoen `GjørOm` beveger seg fremover gjennom angre-historikken, og bruker på nytt handlinger som ble reversert av [Undo](../undo/). Redo er kun tilgjengelig når du har gått tilbake med Undo og ennå ikke har gjort en ny endring.
 
 ## Slik gjør du om
 
-- Skriv `redo` i terminalen, eller
+- Skriv `GjørOm` i terminalen, eller
 - Klikk på **Redo**-knappen i verktøylinjen.
 
 Hver kalling bruker på nytt én tidligere angret handling. Kall den gjentatte ganger for å bevege deg fremover gjennom alle tilgjengelige redo-oppføringer.

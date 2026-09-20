@@ -8,11 +8,11 @@ order: 5
 
 # ChangePrintArea
 
-Het `ChangePrintArea`-commando bepaalt het rechthoekige gebied dat [Print Manager](../print-manager/) exporteert. Het draait op het lege canvas terwijl Print Manager verborgen is en neemt twee tegenoverliggende hoeken — dezelfde twee klikken als [Rectangle](../rectangle/), zodat getypte coördinaten en snapping zich precies zo gedragen.
+Het `AfdrukgebiedWijzigen`-commando bepaalt het rechthoekige gebied dat [Print Manager](../print-manager/) exporteert. Het draait op het lege canvas terwijl Print Manager verborgen is en neemt twee tegenoverliggende hoeken — dezelfde twee klikken als [Rectangle](../rectangle/), zodat getypte coördinaten en snapping zich precies zo gedragen.
 
 ## Een gebied selecteren
 
-1. Typ `ChangePrintArea` in de terminal, of klik op **Change Area** in de zijbalk van Print Manager. Print Manager verbergt zich en het canvas wordt interactief.
+1. Typ `AfdrukgebiedWijzigen` in de terminal, of klik op **Change Area** in de zijbalk van Print Manager. Print Manager verbergt zich en het canvas wordt interactief.
 2. **Klik op de eerste hoek**, of typ `X,Y` en druk op **Enter** voor een exacte coördinaat.
 3. **Klik op de tegenoverliggende hoek**, of typ opnieuw `X,Y`.
 

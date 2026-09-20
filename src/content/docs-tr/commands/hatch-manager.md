@@ -8,11 +8,11 @@ order: 4
 
 # Hatch Manager
 
-`HatchManager` komutu, canlı örnek önizlemesiyle hatch desenlerine göz atmak ve [Hatch](../hatch/) ile kullanmak üzere kendi `.pat` desen dosyalarınızı yüklemek için bir iletişim kutusu açar.
+`TaramaYöneticisi` komutu, canlı örnek önizlemesiyle hatch desenlerine göz atmak ve [Hatch](../hatch/) ile kullanmak üzere kendi `.pat` desen dosyalarınızı yüklemek için bir iletişim kutusu açar.
 
 ## Hatch Manager'ı Açma
 
-Terminale `HatchManager` yazın. Bu, bir hatch'in **Pattern** çipine tıkladığınızda açılan desen seçiciden ayrıdır — seçici tek bir hatch için desen seçer, Hatch Manager ise `.pat` dosyaları eklediğiniz veya kaldırdığınız yerdir.
+Terminale `TaramaYöneticisi` yazın. Bu, bir hatch'in **Pattern** çipine tıkladığınızda açılan desen seçiciden ayrıdır — seçici tek bir hatch için desen seçer, Hatch Manager ise `.pat` dosyaları eklediğiniz veya kaldırdığınız yerdir.
 
 ## Desen Grupları
 

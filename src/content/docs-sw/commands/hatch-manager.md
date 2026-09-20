@@ -8,11 +8,11 @@ order: 4
 
 # Hatch Manager
 
-Amri ya `HatchManager` hufungua kisanduku cha mazungumzo cha kuvinjari muundo za hatch kwa muhtasari wa sampuli wa moja kwa moja, na kupakia faili zako mwenyewe za muundo za `.pat` kutumika na [Hatch](../hatch/).
+Amri ya `KidhibitiMiundo` hufungua kisanduku cha mazungumzo cha kuvinjari muundo za hatch kwa muhtasari wa sampuli wa moja kwa moja, na kupakia faili zako mwenyewe za muundo za `.pat` kutumika na [Hatch](../hatch/).
 
 ## Kufungua Hatch Manager
 
-Andika `HatchManager` kwenye terminal. Hii ni tofauti na kichaguzi cha muundo kinachofunguka unapobofya chip ya **Pattern** ya hatch — kichaguzi huchagua muundo kwa hatch moja, Hatch Manager ni mahali unapoongeza au kuondoa faili za `.pat`.
+Andika `KidhibitiMiundo` kwenye terminal. Hii ni tofauti na kichaguzi cha muundo kinachofunguka unapobofya chip ya **Pattern** ya hatch — kichaguzi huchagua muundo kwa hatch moja, Hatch Manager ni mahali unapoongeza au kuondoa faili za `.pat`.
 
 ## Vikundi vya Muundo
 

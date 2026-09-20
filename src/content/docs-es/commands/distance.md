@@ -8,7 +8,7 @@ order: 1
 
 # Distance
 
-El comando `distance` mide la distancia en línea recta (euclidiana) entre dos puntos seleccionados e imprime el resultado en el terminal con 4 decimales. Es uno de los tres comandos de medición — [Angle](../angle/) mide la apertura angular en un vértice, y [Area](../area/) mide el área encerrada y el perímetro de un polígono.
+El comando `Distancia` mide la distancia en línea recta (euclidiana) entre dos puntos seleccionados e imprime el resultado en el terminal con 4 decimales. Es uno de los tres comandos de medición — [Angle](../angle/) mide la apertura angular en un vértice, y [Area](../area/) mide el área encerrada y el perímetro de un polígono.
 
 ## Anatomía de una medición de distancia
 
@@ -26,7 +26,7 @@ El comando `distance` mide la distancia en línea recta (euclidiana) entre dos p
 
 ## Medir una distancia
 
-1. Escribe `distance` en el terminal o haz clic en el botón **Distance** de la barra de herramientas.
+1. Escribe `Distancia` en el terminal o haz clic en el botón **Distance** de la barra de herramientas.
 2. **Haz clic en el primer punto**, o escribe `X,Y` y presiona **Enter** para una coordenada exacta.
 3. **Haz clic en el segundo punto** — la distancia medida aparece en el terminal. La entrada de coordenadas también funciona aquí.
 4. **Haz clic de nuevo** (opcional) para iniciar una nueva medición. El comando permanece activo.

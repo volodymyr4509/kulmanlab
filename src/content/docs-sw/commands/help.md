@@ -12,7 +12,7 @@ Inafungua jopo la msaada ndani ya programu lenye muhtasari wa njia zote za mkato
 
 ## Jinsi ya kutumia
 
-Bonyeza kitufe cha **Help** kwenye upau wa zana au andika `help` kwenye terminal. Jopo la msaada linafunguka mara moja na amri inatoka.
+Bonyeza kitufe cha **Help** kwenye upau wa zana au andika `Msaada` kwenye terminal. Jopo la msaada linafunguka mara moja na amri inatoka.
 
 ## Yaliyomo kwenye jopo la msaada
 

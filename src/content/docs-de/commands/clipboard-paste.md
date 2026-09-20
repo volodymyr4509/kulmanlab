@@ -8,11 +8,11 @@ order: 18
 
 # ClipboardPaste
 
-Der `ClipboardPaste`-Befehl liest Elemente, die [ClipboardCopy](../clipboard-copy/) in die **Systemzwischenablage** geschrieben hat, und platziert sie an einem von Ihnen gewählten Punkt in der aktuellen Zeichnung. Da es die echte Systemzwischenablage ist, kann die Quelle eine andere Zeichnung, ein anderer Browser-Tab oder eine Sitzung von früher am Tag sein.
+Der `AusZwischenablageEinfügen`-Befehl liest Elemente, die [ClipboardCopy](../clipboard-copy/) in die **Systemzwischenablage** geschrieben hat, und platziert sie an einem von Ihnen gewählten Punkt in der aktuellen Zeichnung. Da es die echte Systemzwischenablage ist, kann die Quelle eine andere Zeichnung, ein anderer Browser-Tab oder eine Sitzung von früher am Tag sein.
 
 ## So wird eingefügt
 
-1. `Strg+V` drücken (`Cmd+V` unter macOS) oder `ClipboardPaste` im Terminal eingeben.
+1. `Strg+V` drücken (`Cmd+V` unter macOS) oder `AusZwischenablageEinfügen` im Terminal eingeben.
 2. Die Eingabeaufforderung lautet **reading clipboard…**, während der Browser den Zwischenablage-Text übergibt.
 3. Nach dem Laden wechselt sie zu **pick insertion point**, und eine Vorschau der eingefügten Geometrie folgt Ihrem Mauszeiger.
 4. **Klicken**, um die Elemente zu platzieren. Sie werden der Zeichnung hinzugefügt und bleiben ausgewählt.

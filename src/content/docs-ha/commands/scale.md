@@ -8,20 +8,20 @@ order: 5
 
 # Scale
 
-Umarnin `scale` yana canza girman abubuwan da aka zaɓa iri ɗaya a kewayen tabon tushe. Ana ninka dukkan nisa daga tabon tushe da abin girma — abin `2` yana ninka dukkan girma-girma sau biyu, `0.5` yana rabe su. Ana koyaushe shigar da abin ta rubutu; babu danna-don-saita-girma.
+Umarnin `Sikeli` yana canza girman abubuwan da aka zaɓa iri ɗaya a kewayen tabon tushe. Ana ninka dukkan nisa daga tabon tushe da abin girma — abin `2` yana ninka dukkan girma-girma sau biyu, `0.5` yana rabe su. Ana koyaushe shigar da abin ta rubutu; babu danna-don-saita-girma.
 
 ## Hanyoyi biyu na farawa
 
 **Zaɓi tukuna, sannan canza girma** — zaɓi abubuwa tukuna, sannan kunna:
 
 1. Zaɓi wani abu ɗaya ko fiye a kan canvas.
-2. Rubuta `scale` a tashar umarni ko danna maɓallin kayan aiki na **Scale**.
+2. Rubuta `Sikeli` a tashar umarni ko danna maɓallin kayan aiki na **Scale**.
 3. **Danna tabon tushe** — tabon tsayayye da ba ya motsawa yayin canza girma. Ko rubuta `X,Y` ka danna **Enter** don daidaitawa madaidaiciya.
 4. **Rubuta abin girma** ka danna **Enter**.
 
 **Kunna, sannan zaɓi** — fara umarnin ba tare da zaɓi ba:
 
-1. Rubuta `scale` ko danna maɓallin kayan aiki.
+1. Rubuta `Sikeli` ko danna maɓallin kayan aiki.
 2. **Zaɓi abubuwa** — danna don canza zaɓi, ko ja don zaɓi ta yanki.
 3. Danna **Enter** ko **Space** don tabbatar da zaɓi.
 4. **Danna tabon tushe** (shigar da daidaitawa ana samu), sannan rubuta abin.

@@ -8,13 +8,13 @@ order: 10
 
 # Offset
 
-O comando `offset` cria uma cópia paralela de uma entidade a uma distância perpendicular fixa. Você digita a distância uma vez, depois clica nas entidades e escolhe um lado — o comando permanece pronto na mesma distância para que você possa deslocar múltiplos objetos em uma sessão.
+O comando `Deslocar` cria uma cópia paralela de uma entidade a uma distância perpendicular fixa. Você digita a distância uma vez, depois clica nas entidades e escolhe um lado — o comando permanece pronto na mesma distância para que você possa deslocar múltiplos objetos em uma sessão.
 
 Tipos de entidade suportados: **Linha, Círculo, Arco, Elipse, Polilinha** (incluindo Retângulos).
 
 ## Usando offset
 
-1. Digite `offset` no terminal ou clique no botão **Offset** na barra de ferramentas.
+1. Digite `Deslocar` no terminal ou clique no botão **Offset** na barra de ferramentas.
 2. **Digite a distância de offset** e pressione **Enter** ou **Espaço**.
 3. **Clique em uma entidade** para deslocar — se a entidade não é um tipo suportado, uma mensagem de erro aparece e você pode clicar em uma entidade diferente.
 4. **Mova o cursor** para o lado onde a cópia deve aparecer — uma prévia ao vivo segue.

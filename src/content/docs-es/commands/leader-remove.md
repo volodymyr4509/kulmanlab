@@ -8,11 +8,11 @@ order: 3
 
 # LeaderRemove
 
-El comando `LeaderRemove` elimina un brazo de punta de flecha de una multireferencia existente. La etiqueta de texto, el quiebre y todos los brazos restantes se conservan — solo se elimina el brazo seleccionado. Una multireferencia con un solo brazo no puede tener su brazo eliminado.
+El comando `QuitarBrazoDirectriz` elimina un brazo de punta de flecha de una multireferencia existente. La etiqueta de texto, el quiebre y todos los brazos restantes se conservan — solo se elimina el brazo seleccionado. Una multireferencia con un solo brazo no puede tener su brazo eliminado.
 
 ## Eliminar un brazo
 
-1. Escribe `LeaderRemove` en el terminal.
+1. Escribe `QuitarBrazoDirectriz` en el terminal.
 2. **Haz clic en una multireferencia** que tenga dos o más brazos. Si la referencia en la que hiciste clic tiene solo un brazo, el terminal muestra un error y espera una selección válida.
 3. **Mueve el cursor cerca del brazo** que deseas eliminar — el brazo más cercano se resalta con un marcador.
 4. **Haz clic** para eliminar ese brazo.

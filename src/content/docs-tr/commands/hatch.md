@@ -8,11 +8,11 @@ order: 7
 
 # Hatch
 
-`hatch` komutu, tıklanan bir noktayı çevreleyen bölgeyi bir desenle doldurur. Sınır önce çizilmez — zaten tuval üzerinde olandan gelir, bu yüzden uç uca birleşen dört ayrı [Line](../line/) bir bölgeyi tıpkı kapalı bir [Polyline](../polyline/) gibi çevreler ve içindeki kapalı herhangi bir şekil, doldurmanın dokunmadan bıraktığı bir ada haline gelir.
+`Tarama` komutu, tıklanan bir noktayı çevreleyen bölgeyi bir desenle doldurur. Sınır önce çizilmez — zaten tuval üzerinde olandan gelir, bu yüzden uç uca birleşen dört ayrı [Line](../line/) bir bölgeyi tıpkı kapalı bir [Polyline](../polyline/) gibi çevreler ve içindeki kapalı herhangi bir şekil, doldurmanın dokunmadan bıraktığı bir ada haline gelir.
 
 ## Bir Alanı Doldurma
 
-1. Terminale `hatch` yazın veya araç çubuğundaki **Hatch** düğmesine (örnek simgesi) tıklayın.
+1. Terminale `Tarama` yazın veya araç çubuğundaki **Hatch** düğmesine (örnek simgesi) tıklayın.
 2. Doldurmak istediğiniz bölgenin içinde **bir noktaya tıklayın**.
 3. Komut etkin kalır, bu yüzden daha fazla alanı doldurmak için tıklamaya devam edin — her tıklama kendi `Hatch` nesnesini oluşturur.
 4. İşiniz bittiğinde **Enter**, **Boşluk** veya **Escape** tuşuna basın.
@@ -69,7 +69,7 @@ Her yeni hatch, `ANSI31` ile dolu olarak başlar (veya *son* düzenlediğiniz ha
 1. Mevcut bir hatch seçin ve özellikler panelinde **Pattern** alanını açın — bu, her desenin nereden geldiğine göre gruplandırılmış adlı örneklerden oluşan bir ızgara olan desen seçiciyi açar.
 2. Uygulamak için bir desene tıklayın — dolgu anında güncellenir.
 
-Bu seçim aynı zamanda `hatch` komutuyla oluşturduğunuz *bir sonraki* hatch için de varsayılan haline gelir, tıpkı bir katman veya rengin seçilmesinin ileriye taşınması gibi. Bu yüzden belirli bir desenle birkaç yeni alanı hatch'lemek için: bir alanı doldurun, desenini bir kez ayarlayın, ardından hatch'lemeye devam edin — bundan sonraki her dolgu, o desen zaten uygulanmış olarak başlar.
+Bu seçim aynı zamanda `Tarama` komutuyla oluşturduğunuz *bir sonraki* hatch için de varsayılan haline gelir, tıpkı bir katman veya rengin seçilmesinin ileriye taşınması gibi. Bu yüzden belirli bir desenle birkaç yeni alanı hatch'lemek için: bir alanı doldurun, desenini bir kez ayarlayın, ardından hatch'lemeye devam edin — bundan sonraki her dolgu, o desen zaten uygulanmış olarak başlar.
 
 Kendi `.pat` desen dosyalarınızı yüklemek ve tüm kitaplığa göz atmak için [Hatch Manager](../hatch-manager/)'a bakın.
 

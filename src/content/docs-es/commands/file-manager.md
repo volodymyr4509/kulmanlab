@@ -8,11 +8,11 @@ order: 3
 
 # File Manager
 
-El comando `FileManager` abre una **cuadrícula de miniaturas** de cada dibujo que se ha guardado en el almacenamiento local de tu navegador, ordenada por la última vez que se guardó cada uno. Úsalo para reabrir un dibujo anterior, renombrarlo o eliminarlo.
+El comando `GestorDeArchivos` abre una **cuadrícula de miniaturas** de cada dibujo que se ha guardado en el almacenamiento local de tu navegador, ordenada por la última vez que se guardó cada uno. Úsalo para reabrir un dibujo anterior, renombrarlo o eliminarlo.
 
 ## Cómo abrir el File Manager
 
-- Escribe `FileManager` en el terminal, **o**
+- Escribe `GestorDeArchivos` en el terminal, **o**
 - Haz clic en el botón **File Manager** de la barra de herramientas (icono de historial) en el panel de Archivo en la parte superior de la pantalla.
 
 El panel se abre en el lado izquierdo del lienzo y se cierra automáticamente en cuanto inicias otro comando o [importas](../import/) un archivo — así nunca permanece sobre un dibujo que todavía no incluye en su lista. Se vuelve a abrir con una lista actualizada cada vez.

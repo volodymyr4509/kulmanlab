@@ -8,11 +8,11 @@ order: 3
 
 # FontAdd
 
-Arahan `FontAdd` membuka pemilih fail sistem untuk memuat naik fon `.ttf` kustom, tanpa membuka dialog [Font Manager](../font-manager/) terlebih dahulu. Ini adalah muat naik yang sama dengan yang dicetuskan oleh butang **Add Font** dalam Font Manager — FontAdd hanyalah laluan terus ke sana dari terminal.
+Arahan `FonTambah` membuka pemilih fail sistem untuk memuat naik fon `.ttf` kustom, tanpa membuka dialog [Font Manager](../font-manager/) terlebih dahulu. Ini adalah muat naik yang sama dengan yang dicetuskan oleh butang **Add Font** dalam Font Manager — FontAdd hanyalah laluan terus ke sana dari terminal.
 
 ## Memuat naik fon
 
-1. Taip `FontAdd` dalam terminal, atau klik **Add Font** pada footer dialog [Font Manager](../font-manager/).
+1. Taip `FonTambah` dalam terminal, atau klik **Add Font** pada footer dialog [Font Manager](../font-manager/).
 2. Pilih fail `.ttf` dalam pemilih sistem. Hanya fon TrueType disokong — `.otf` dan `.woff`/`.woff2` tidak disokong.
 
 Arahan selesai sebaik sahaja pemilih fail dibuka — tiada klik atau input terminal lanjut selepas itu. Fon didaftarkan dan muncul dalam kumpulan **User** sebaik sahaja fail dipilih.

@@ -8,14 +8,14 @@ order: 15
 
 # Array Grid
 
-Kommandoen `ArrayGrid` laver et gitter af kopier fra de markerede entiteter — angiv antallet af rækker, antallet af kolonner og afstanden mellem dem, alt skrevet i terminalen. Den oprindelige markering optager række-0, kolonne-0-cellen; hver anden celle er en flyttet kopi.
+Kommandoen `Gittermønster` laver et gitter af kopier fra de markerede entiteter — angiv antallet af rækker, antallet af kolonner og afstanden mellem dem, alt skrevet i terminalen. Den oprindelige markering optager række-0, kolonne-0-cellen; hver anden celle er en flyttet kopi.
 
 ## To måder at starte på
 
 **Markér først, opret derefter array** — markér entiteter først, aktivér derefter:
 
 1. Markér én eller flere entiteter på lærredet.
-2. Skriv `arraygrid` i terminalen (så lidt som `arr` er nok — det er entydigt) eller klik på **Array Grid**-knappen i værktøjslinjen.
+2. Skriv `Gittermønster` i terminalen (så lidt som `arr` er nok — det er entydigt) eller klik på **Array Grid**-knappen i værktøjslinjen.
 3. Skriv antallet af **rækker** og tryk **Enter**.
 4. Skriv antallet af **kolonner** og tryk **Enter**.
 5. Skriv **afstanden mellem rækker** og tryk **Enter**.
@@ -23,7 +23,7 @@ Kommandoen `ArrayGrid` laver et gitter af kopier fra de markerede entiteter — 
 
 **Aktivér, markér derefter** — start kommandoen uden noget markeret:
 
-1. Skriv `arraygrid` eller klik på værktøjslinjeknappen.
+1. Skriv `Gittermønster` eller klik på værktøjslinjeknappen.
 2. **Markér objekter** — klik for at slå enkeltentiteter til/fra, eller træk for at markere efter område.
 3. Tryk **Enter** eller **Space** for at bekræfte markeringen.
 4. Fortsæt med rækker → kolonner → rækkeafstand → kolonneafstand som ovenfor.

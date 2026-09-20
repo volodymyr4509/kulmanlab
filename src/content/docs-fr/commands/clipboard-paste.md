@@ -8,11 +8,11 @@ order: 18
 
 # ClipboardPaste
 
-La commande `ClipboardPaste` lit les entités que [ClipboardCopy](../clipboard-copy/) a écrites dans le **presse-papiers système** et les place dans le dessin courant à un point que vous choisissez. Comme il s'agit du vrai presse-papiers système, la source peut être un autre dessin, un autre onglet du navigateur ou une session ouverte plus tôt dans la journée.
+La commande `CollerPressePapiers` lit les entités que [ClipboardCopy](../clipboard-copy/) a écrites dans le **presse-papiers système** et les place dans le dessin courant à un point que vous choisissez. Comme il s'agit du vrai presse-papiers système, la source peut être un autre dessin, un autre onglet du navigateur ou une session ouverte plus tôt dans la journée.
 
 ## Comment coller
 
-1. Appuyez sur `Ctrl+V` (`Cmd+V` sur macOS), ou tapez `ClipboardPaste` dans le terminal.
+1. Appuyez sur `Ctrl+V` (`Cmd+V` sur macOS), ou tapez `CollerPressePapiers` dans le terminal.
 2. L'invite affiche **reading clipboard…** pendant que le navigateur transmet le texte du presse-papiers.
 3. Une fois chargée, l'invite devient **pick insertion point** et un aperçu de la géométrie suit votre curseur.
 4. **Cliquez** pour placer les entités. Elles sont ajoutées au dessin et restent sélectionnées.

@@ -8,11 +8,11 @@ order: 6
 
 # Export Manager
 
-Dina-download ng utos na `exportmanager` ang kasalukuyang guhit sa iyong file system. Magkatabi ang dalawang pormat — **DXF** para sa pagkakatugma sa ibang kasangkapang CAD at **JSON** para sa buong-katapatang pag-save sa loob ng KulmanLab CAD — at may sariling checklist ang bawat isa kung ano ang ilalagay sa file.
+Dina-download ng utos na `TagapamahalaNgExport` ang kasalukuyang guhit sa iyong file system. Magkatabi ang dalawang pormat — **DXF** para sa pagkakatugma sa ibang kasangkapang CAD at **JSON** para sa buong-katapatang pag-save sa loob ng KulmanLab CAD — at may sariling checklist ang bawat isa kung ano ang ilalagay sa file.
 
 ## Paano mag-export
 
-1. I-click ang **Export** toolbar button (download icon) sa File panel, o i-type ang `exportmanager` sa terminal.
+1. I-click ang **Export** toolbar button (download icon) sa File panel, o i-type ang `TagapamahalaNgExport` sa terminal.
 2. Bumubukas ang popup na **Export Manager** nang may dalawang hanay, **JSON** at **DXF**, bawat isa'y nakalista ang mga uri ng entity sa guhit kasama ang checkbox at bilang.
 3. Alisin ang tsek sa gusto mong iwanan. Nakatsek ang lahat sa simula.
 4. I-click ang **Export JSON** o **Export DXF**. Bumababa ang file sa iyong default na downloads folder at nagsasara ang popup.

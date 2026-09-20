@@ -8,13 +8,13 @@ order: 2
 
 # Polyline
 
-Polecenie `polyline` rysuje połączoną ścieżkę z dowolnej liczby prostych lub łukowych segmentów, wszystkie przechowywane jako jeden element `LWPOLYLINE`. Ponieważ cała ścieżka jest jednym obiektem, zaznaczenie jej zaznacza każdy segment jednocześnie — przesuń, obróć lub skaluj cały kształt w jednej operacji. To kluczowe rozróżnienie od połączonych [Line](../line/), gdzie każdy segment jest niezależnym elementem.
+Polecenie `Polilinia` rysuje połączoną ścieżkę z dowolnej liczby prostych lub łukowych segmentów, wszystkie przechowywane jako jeden element `LWPOLYLINE`. Ponieważ cała ścieżka jest jednym obiektem, zaznaczenie jej zaznacza każdy segment jednocześnie — przesuń, obróć lub skaluj cały kształt w jednej operacji. To kluczowe rozróżnienie od połączonych [Line](../line/), gdzie każdy segment jest niezależnym elementem.
 
 Polilinie mogą być również **zamknięte**: polecenie [Rectangle](../rectangle/) używa tego samego elementu `LWPOLYLINE` z ustawioną flagą zamknięcia.
 
 ## Rysowanie polilinii
 
-1. Wpisz `polyline` w terminalu lub kliknij przycisk **Polilinia** na pasku narzędzi.
+1. Wpisz `Polilinia` w terminalu lub kliknij przycisk **Polilinia** na pasku narzędzi.
 2. **Kliknij pierwszy punkt** lub wpisz `X,Y` i naciśnij **Enter** dla dokładnej współrzędnej.
 3. **Kliknij każdy kolejny punkt** — każde kliknięcie dodaje segment. Wprowadzanie współrzędnych działa na każdym kroku.
 4. Naciśnij **Enter** lub **Spację**, aby zakończyć (wymagane co najmniej 2 umieszczone punkty).

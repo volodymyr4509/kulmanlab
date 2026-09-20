@@ -8,20 +8,20 @@ order: 2
 
 # Copy
 
-Arahan `copy` mencipta duplikat entiti yang dipilih dan meletakkannya diimbangi dari titik asas ke destinasi — asal kekal tepat di mana ia berada. Ini adalah satu perbezaan utama dari [Move](../move/): Copy menambah entiti baru ke lukisan; Move memindahkan yang sedia ada.
+Arahan `Salin` mencipta duplikat entiti yang dipilih dan meletakkannya diimbangi dari titik asas ke destinasi — asal kekal tepat di mana ia berada. Ini adalah satu perbezaan utama dari [Move](../move/): Copy menambah entiti baru ke lukisan; Move memindahkan yang sedia ada.
 
 ## Dua cara untuk memulakan
 
 **Pra-pilih, kemudian salin** — pilih entiti dahulu, kemudian aktifkan:
 
 1. Pilih satu atau lebih entiti pada kanvas.
-2. Taip `copy` dalam terminal atau klik butang bar alat **Copy**.
+2. Taip `Salin` dalam terminal atau klik butang bar alat **Copy**.
 3. **Klik titik asas**, atau taip `X,Y` dan tekan **Enter** untuk koordinat tepat.
 4. **Klik destinasi** — duplikat muncul pada offset asas→destinasi. Kemasukan koordinat juga berfungsi di sini.
 
 **Aktifkan, kemudian pilih** — mulakan arahan tanpa apa-apa yang dipilih:
 
-1. Taip `copy` atau klik butang bar alat.
+1. Taip `Salin` atau klik butang bar alat.
 2. **Pilih objek** — klik untuk togel entiti individu, atau seret untuk memilih mengikut kawasan.
 3. Tekan **Enter** atau **Space** untuk mengesahkan pemilihan.
 4. **Klik titik asas**, kemudian **klik destinasi** (kemasukan koordinat tersedia di kedua-dua langkah).

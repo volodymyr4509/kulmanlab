@@ -8,11 +8,11 @@ order: 1
 
 # Pan
 
-Kommandoen `pan` går inn i en vedvarende dra-for-å-panorere-modus — klikk og dra hvor som helst på lerretet for å forskyve visningen. Zoomnivået endres ikke. Pan-modus forblir aktiv til du trykker `Escape`, slik at du kan dra flere ganger i én aktivering.
+Kommandoen `Panorer` går inn i en vedvarende dra-for-å-panorere-modus — klikk og dra hvor som helst på lerretet for å forskyve visningen. Zoomnivået endres ikke. Pan-modus forblir aktiv til du trykker `Escape`, slik at du kan dra flere ganger i én aktivering.
 
 ## Panorere visningen
 
-1. Skriv `pan` i terminalen eller klikk på **Pan**-knappen i verktøylinjen.
+1. Skriv `Panorer` i terminalen eller klikk på **Pan**-knappen i verktøylinjen.
 2. **Klikk og dra** hvor som helst på lerretet for å forskyve visningen.
 3. Slipp og dra igjen så mange ganger som nødvendig.
 4. Trykk `Escape` for å avslutte pan-modus.

@@ -12,7 +12,7 @@ Avaa sovelluksen sisäisen ohjepaneelin, joka sisältää yhteenvedon kaikista p
 
 ## Käyttäminen
 
-Napsauta **Help**-painiketta työkalurivillä tai kirjoita `help` terminaaliin. Ohjepaneeli avautuu välittömästi ja komento päättyy.
+Napsauta **Help**-painiketta työkalurivillä tai kirjoita `Ohje` terminaaliin. Ohjepaneeli avautuu välittömästi ja komento päättyy.
 
 ## Mitä ohjepaneeli sisältää
 

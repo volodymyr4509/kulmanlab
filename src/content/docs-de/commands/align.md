@@ -8,14 +8,14 @@ order: 6
 
 # Align
 
-Der Befehl `align` positioniert ausgewählte Entitäten mit ein oder zwei Quell-/Zielpunktpaaren neu. Mit einem Punktpaar verhält er sich genau wie [Move](../move/) (nur Verschieben). Mit zwei Punktpaaren dreht er die Auswahl zusätzlich so, dass die Quelle-zu-Quelle-Richtung mit der Ziel-zu-Ziel-Richtung übereinstimmt, und kann optional so skalieren, dass die Quellstrecke der Zielstrecke entspricht — Verschieben, Drehen und Skalieren in einem einzigen Vorgang.
+Der Befehl `Ausrichten` positioniert ausgewählte Entitäten mit ein oder zwei Quell-/Zielpunktpaaren neu. Mit einem Punktpaar verhält er sich genau wie [Move](../move/) (nur Verschieben). Mit zwei Punktpaaren dreht er die Auswahl zusätzlich so, dass die Quelle-zu-Quelle-Richtung mit der Ziel-zu-Ziel-Richtung übereinstimmt, und kann optional so skalieren, dass die Quellstrecke der Zielstrecke entspricht — Verschieben, Drehen und Skalieren in einem einzigen Vorgang.
 
 ## Zwei Möglichkeiten zum Starten
 
 **Zuerst auswählen, dann ausrichten** — wählen Sie zuerst Entitäten aus und aktivieren Sie dann den Befehl:
 
 1. Wählen Sie eine oder mehrere Entitäten auf der Zeichenfläche aus.
-2. Geben Sie `align` im Terminal ein oder klicken Sie auf die Schaltfläche **Align** in der Symbolleiste.
+2. Geben Sie `Ausrichten` im Terminal ein oder klicken Sie auf die Schaltfläche **Align** in der Symbolleiste.
 3. **Klicken Sie auf den ersten Quellpunkt (S1)**, dann **auf den ersten Zielpunkt (D1)**.
 4. **Klicken Sie auf den zweiten Quellpunkt (S2)**, oder drücken Sie **Enter** oder **Space**, um jetzt eine reine Verschiebung anzuwenden.
 5. **Klicken Sie auf den zweiten Zielpunkt (D2)**.
@@ -23,7 +23,7 @@ Der Befehl `align` positioniert ausgewählte Entitäten mit ein oder zwei Quell-
 
 **Aktivieren, dann auswählen** — Befehl ohne Auswahl starten:
 
-1. Geben Sie `align` ein oder klicken Sie auf die Schaltfläche in der Symbolleiste.
+1. Geben Sie `Ausrichten` ein oder klicken Sie auf die Schaltfläche in der Symbolleiste.
 2. **Objekte auswählen** — klicken zum Umschalten einzelner Entitäten oder ziehen zur Flächenauswahl.
 3. Drücken Sie **Enter** oder **Space** zur Bestätigung der Auswahl.
 4. Fahren Sie fort mit S1 → D1 → S2 → D2 → Skalierungsabfrage wie oben.
@@ -97,4 +97,4 @@ Die ausgerichteten Entitäten bleiben an ihrer neuen Position ausgewählt, und d
 
 ## Unterstützte Entitäten
 
-align funktioniert mit jedem Entitätstyp, der von Move, Rotate und Scale unterstützt wird — dieselben `translate`-, `rotate`- und `scale`-Operationen dieser Befehle werden nacheinander angewendet, sodass keine ausgeschlossen sind.
+align funktioniert mit jedem Entitätstyp, der von Move, Rotate und Scale unterstützt wird — dieselben `translate`-, `Drehen`- und `Skalieren`-Operationen dieser Befehle werden nacheinander angewendet, sodass keine ausgeschlossen sind.

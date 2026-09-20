@@ -7,11 +7,11 @@ order: 3
 
 # Zoom Out
 
-Lệnh `zoomout` chia mức phóng to hiện tại cho **1.5×** (tương đương nhân với ~0.667) và thoát ngay lập tức, được căn giữa theo giữa khung nhìn. Đây là nghịch đảo của [Zoom In](../zoom-in/).
+Lệnh `ThuNhỏ` chia mức phóng to hiện tại cho **1.5×** (tương đương nhân với ~0.667) và thoát ngay lập tức, được căn giữa theo giữa khung nhìn. Đây là nghịch đảo của [Zoom In](../zoom-in/).
 
 ## Thu nhỏ
 
-Nhấp nút **Zoom Out** trên thanh công cụ hoặc gõ `zoomout` trong terminal. Phóng to được áp dụng ngay lập tức và lệnh thoát — không cần nhấp trên canvas.
+Nhấp nút **Zoom Out** trên thanh công cụ hoặc gõ `ThuNhỏ` trong terminal. Phóng to được áp dụng ngay lập tức và lệnh thoát — không cần nhấp trên canvas.
 
 ## Cách bước 1.5× hoạt động
 

@@ -8,11 +8,11 @@ order: 5
 
 # ChangePrintArea
 
-`ChangePrintArea`-komento määrittää suorakulmaisen alueen, jonka [Print Manager](../print-manager/) vie. Se toimii tyhjällä piirtoalueella Print Managerin ollessa piilotettuna ja ottaa kaksi vastakkaista kulmaa — samat kaksi napsautusta kuin [Rectangle](../rectangle/), joten kirjoitetut koordinaatit ja tarttuminen toimivat täsmälleen samoin.
+`MuutaTulostusaluetta`-komento määrittää suorakulmaisen alueen, jonka [Print Manager](../print-manager/) vie. Se toimii tyhjällä piirtoalueella Print Managerin ollessa piilotettuna ja ottaa kaksi vastakkaista kulmaa — samat kaksi napsautusta kuin [Rectangle](../rectangle/), joten kirjoitetut koordinaatit ja tarttuminen toimivat täsmälleen samoin.
 
 ## Alueen valinta
 
-1. Kirjoita `ChangePrintArea` terminaaliin tai napsauta **Change Area** Print Managerin sivupalkissa. Print Manager piiloutuu ja piirtoalue muuttuu vuorovaikutteiseksi.
+1. Kirjoita `MuutaTulostusaluetta` terminaaliin tai napsauta **Change Area** Print Managerin sivupalkissa. Print Manager piiloutuu ja piirtoalue muuttuu vuorovaikutteiseksi.
 2. **Napsauta ensimmäistä kulmaa** tai kirjoita `X,Y` ja paina **Enter** tarkkaa koordinaattia varten.
 3. **Napsauta vastakkaista kulmaa** tai kirjoita `X,Y` uudelleen.
 

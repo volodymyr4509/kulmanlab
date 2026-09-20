@@ -8,20 +8,20 @@ order: 1
 
 # Move
 
-Perintah `move` menerjemahkan entitas yang dipilih dari titik dasar ke titik tujuan. Perpindahan yang diterapkan ke setiap entitas yang dipilih adalah vektor dari dasar ke tujuan. Setelah dipindah, semua entitas tetap dipilih di posisi barunya, siap untuk diedit lebih lanjut.
+Perintah `Pindah` menerjemahkan entitas yang dipilih dari titik dasar ke titik tujuan. Perpindahan yang diterapkan ke setiap entitas yang dipilih adalah vektor dari dasar ke tujuan. Setelah dipindah, semua entitas tetap dipilih di posisi barunya, siap untuk diedit lebih lanjut.
 
 ## Dua cara memulai
 
 **Pra-pilih, lalu pindah** — pilih entitas terlebih dahulu, kemudian aktifkan:
 
 1. Pilih satu atau lebih entitas di kanvas.
-2. Ketik `move` di terminal atau klik tombol toolbar **Move**.
+2. Ketik `Pindah` di terminal atau klik tombol toolbar **Move**.
 3. **Klik titik dasar**, atau ketik `X,Y` dan tekan **Enter** untuk koordinat tepat.
 4. **Klik tujuan** — semua entitas yang dipilih bergeser berdasarkan vektor dasar→tujuan. Entri koordinat juga berfungsi di sini.
 
 **Aktifkan, lalu pilih** — mulai perintah tanpa ada yang dipilih:
 
-1. Ketik `move` atau klik tombol toolbar.
+1. Ketik `Pindah` atau klik tombol toolbar.
 2. **Pilih objek** — klik untuk mengalihkan entitas individual, atau seret untuk memilih berdasarkan area.
 3. Tekan **Enter** atau **Space** untuk mengonfirmasi seleksi.
 4. **Klik titik dasar**, kemudian **klik tujuan** (entri koordinat tersedia di kedua langkah).

@@ -8,11 +8,11 @@ order: 8
 
 # Trim
 
-Der `trim`-Befehl entfernt den Abschnitt einer [Line](../line/), eines [Arc](../arc/), [Circle](../circle/), einer [Ellipse](../ellipse/) oder [Polyline](../polyline/), der zwischen zwei benachbarten Schnittpunkten liegt, und teilt die Entität in ein oder mehrere verbleibende Teile. Das zu schneidende Segment wird durch die Cursorposition bestimmt — fahren Sie mit dem Cursor über den Teil, den Sie entfernen möchten, und klicken Sie zum Kürzen.
+Der `Stutzen`-Befehl entfernt den Abschnitt einer [Line](../line/), eines [Arc](../arc/), [Circle](../circle/), einer [Ellipse](../ellipse/) oder [Polyline](../polyline/), der zwischen zwei benachbarten Schnittpunkten liegt, und teilt die Entität in ein oder mehrere verbleibende Teile. Das zu schneidende Segment wird durch die Cursorposition bestimmt — fahren Sie mit dem Cursor über den Teil, den Sie entfernen möchten, und klicken Sie zum Kürzen.
 
 ## Eine Entität kürzen
 
-1. Geben Sie `trim` im Terminal ein oder klicken Sie auf die **Trim**-Schaltfläche in der Werkzeugleiste.
+1. Geben Sie `Stutzen` im Terminal ein oder klicken Sie auf die **Trim**-Schaltfläche in der Werkzeugleiste.
 2. **Fahren Sie mit dem Cursor über das Segment**, das Sie entfernen möchten — eine Vorschau hebt genau den Abschnitt hervor, der geschnitten wird.
 3. **Klicken Sie**, um dieses Segment zu entfernen.
 

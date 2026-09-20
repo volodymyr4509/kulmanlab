@@ -8,19 +8,19 @@ order: 4
 
 # LayerIsolate
 
-Il comando `LayerIsolate` congela ogni layer **tranne** quelli appartenenti agli oggetti selezionati. Usalo per concentrarti rapidamente su geometria specifica senza nascondere o eliminare nulla in modo permanente — scongela con [LayerUnfreezeAll](../layer-unfreeze-all/) quando hai finito.
+Il comando `IsolaLayer` congela ogni layer **tranne** quelli appartenenti agli oggetti selezionati. Usalo per concentrarti rapidamente su geometria specifica senza nascondere o eliminare nulla in modo permanente — scongela con [LayerUnfreezeAll](../layer-unfreeze-all/) quando hai finito.
 
 ## Due modi per iniziare
 
 **Pre-seleziona, poi isola** — seleziona le entità prima, poi attiva:
 
 1. Seleziona una o più entità sul canvas.
-2. Digita `LayerIsolate` nel terminale o clicca il pulsante **Layer Isolate** nella barra degli strumenti.
+2. Digita `IsolaLayer` nel terminale o clicca il pulsante **Layer Isolate** nella barra degli strumenti.
 3. I layer delle entità selezionate rimangono visibili; tutti gli altri vengono congelati immediatamente.
 
 **Attiva, poi seleziona**:
 
-1. Digita `LayerIsolate` o clicca il pulsante nella barra degli strumenti.
+1. Digita `IsolaLayer` o clicca il pulsante nella barra degli strumenti.
 2. **Seleziona gli oggetti** — clicca singole entità o trascina per selezionare per area.
 3. Premi **Invio** o **Spazio** per confermare — l'isolamento viene applicato.
 

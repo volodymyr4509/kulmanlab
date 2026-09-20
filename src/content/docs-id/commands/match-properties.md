@@ -8,17 +8,17 @@ order: 1
 
 # Match Properties
 
-Perintah `MatchProperties` menyalin **properti visual dan layer** dari entitas sumber ke satu atau lebih entitas target. Hanya properti yang dibagikan antara tipe entitas sumber dan target yang ditransfer — geometri tidak pernah diubah.
+Perintah `SalinProperti` menyalin **properti visual dan layer** dari entitas sumber ke satu atau lebih entitas target. Hanya properti yang dibagikan antara tipe entitas sumber dan target yang ditransfer — geometri tidak pernah diubah.
 
 ## Cara mengaktifkan
 
-Klik tombol toolbar **Match Properties** (ikon roller cat) di panel Style, atau ketik `MatchProperties` di terminal.
+Klik tombol toolbar **Match Properties** (ikon roller cat) di panel Style, atau ketik `SalinProperti` di terminal.
 
 ## Alur kerja
 
 **Aktifkan terlebih dahulu, kemudian pilih sumber:**
 
-1. Ketik `MatchProperties` atau klik tombol toolbar tanpa ada yang dipilih sebelumnya.
+1. Ketik `SalinProperti` atau klik tombol toolbar tanpa ada yang dipilih sebelumnya.
 2. **Klik entitas sumber** — yang propertinya ingin Anda salin.
 3. **Klik setiap entitas target** untuk menerapkan properti sumber. Anda dapat mengklik beberapa entitas satu per satu.
 4. Untuk menerapkan ke grup sekaligus, **seret kotak seleksi** di atas target.
@@ -27,7 +27,7 @@ Klik tombol toolbar **Match Properties** (ikon roller cat) di panel Style, atau 
 **Pra-pilih sumber, kemudian aktifkan:**
 
 1. Klik satu entitas untuk memilihnya.
-2. Aktifkan `MatchProperties`. Entitas yang dipilih digunakan sebagai sumber secara otomatis.
+2. Aktifkan `SalinProperti`. Entitas yang dipilih digunakan sebagai sumber secara otomatis.
 3. Klik entitas target atau seret-pilih, kemudian **Enter** atau **Escape** untuk selesai.
 
 ## Properti apa yang disalin

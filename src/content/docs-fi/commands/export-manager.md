@@ -8,11 +8,11 @@ order: 6
 
 # Export Manager
 
-Komento `exportmanager` lataa nykyisen piirustuksen tiedostojärjestelmääsi. Kaksi muotoa vierekkäin — **DXF** yhteensopivuuteen muiden CAD-työkalujen kanssa ja **JSON** täysin tarkkoihin tallennuksiin KulmanLab CAD:n sisällä — ja kummallakin on oma tarkistuslistansa siitä, mitä tiedostoon pannaan.
+Komento `Vienninhallinta` lataa nykyisen piirustuksen tiedostojärjestelmääsi. Kaksi muotoa vierekkäin — **DXF** yhteensopivuuteen muiden CAD-työkalujen kanssa ja **JSON** täysin tarkkoihin tallennuksiin KulmanLab CAD:n sisällä — ja kummallakin on oma tarkistuslistansa siitä, mitä tiedostoon pannaan.
 
 ## Näin viet
 
-1. Napsauta työkalurivin **Export**-painiketta (latauskuvake) tiedostopaneelissa, tai kirjoita `exportmanager` terminaaliin.
+1. Napsauta työkalurivin **Export**-painiketta (latauskuvake) tiedostopaneelissa, tai kirjoita `Vienninhallinta` terminaaliin.
 2. **Export Manager** -ikkuna avautuu kahtena sarakkeena, **JSON** ja **DXF**, joissa kummassakin luetellaan piirustuksen objektityypit valintaruudun ja lukumäärän kera.
 3. Poista rasti siltä, minkä haluat jättää pois. Aluksi kaikki on rastitettu.
 4. Napsauta **Export JSON** tai **Export DXF**. Tiedosto latautuu oletuskansioosi ja ikkuna sulkeutuu.

@@ -8,13 +8,13 @@ order: 9
 
 # Extend
 
-Komento `extend` jatkaa lähintä päätepistettä [Line](../line/)-, [Arc](../arc/)-, [Ellipse](../ellipse/)- tai avoimelle [Polyline](../polyline/)-entiteetille, jonka päällä pidät kohdistinta, lähimpään leikkauspisteeseen, jonka se muodostaisi toisen piirustuksen entiteetin kanssa. Pidä kohdistinta lähellä sitä päätä, jota haluat jatkaa — esikatselu näyttää jatketun entiteetin — napsauta sitten soveltaaksesi.
+Komento `Jatka` jatkaa lähintä päätepistettä [Line](../line/)-, [Arc](../arc/)-, [Ellipse](../ellipse/)- tai avoimelle [Polyline](../polyline/)-entiteetille, jonka päällä pidät kohdistinta, lähimpään leikkauspisteeseen, jonka se muodostaisi toisen piirustuksen entiteetin kanssa. Pidä kohdistinta lähellä sitä päätä, jota haluat jatkaa — esikatselu näyttää jatketun entiteetin — napsauta sitten soveltaaksesi.
 
 Vain entiteettejä, joilla on todellinen päätepiste, voidaan jatkaa. [Circle](../circle/) ja täydellinen (360°) Ellipse ovat aina suljettuja muotoja ilman päätepistettä, joten niitä ei voi koskaan jatkaa — sama koskee suljettua Polyline-entiteettiä tai Rectanglea. Osittaisella Ellipse-entiteetillä (elliptinen kaari) ja Arc-entiteetillä on päätepisteet, ja niitä jatketaan samalla tavalla kuin Line-entiteettiä.
 
 ## Entiteetin jatkaminen
 
-1. Kirjoita `extend` terminaaliin tai napsauta **Extend**-painiketta työkalurivillä.
+1. Kirjoita `Jatka` terminaaliin tai napsauta **Extend**-painiketta työkalurivillä.
 2. **Pidä kohdistinta lähellä jatkettavan entiteetin toista päätä** — esikatselu näyttää sen jatkettuna lähimpään rajaan kyseisessä suunnassa.
 3. **Napsauta** soveltaaksesi jatkeen.
 

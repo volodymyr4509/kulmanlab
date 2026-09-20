@@ -8,11 +8,11 @@ order: 4
 
 # Print Manager
 
-Amri ya `PrintManager` inafungua **Print Manager** — dirisha la maalum la kusafirisha lenye kanvasi ya hakiki ya moja kwa moja, kichaguo cha muundo (PNG / JPEG / WebP / PDF), kichaguo cha Style (Default / Monochrome / Blueprint), na upunguzaji wa eneo la hiari. Hakuna kinachopelekwa kwa printa halisi; matokeo hupakuliwa kama faili.
+Amri ya `KidhibitiUchapishaji` inafungua **Print Manager** — dirisha la maalum la kusafirisha lenye kanvasi ya hakiki ya moja kwa moja, kichaguo cha muundo (PNG / JPEG / WebP / PDF), kichaguo cha Style (Default / Monochrome / Blueprint), na upunguzaji wa eneo la hiari. Hakuna kinachopelekwa kwa printa halisi; matokeo hupakuliwa kama faili.
 
 ## Kufungua Print Manager
 
-Bonyeza kitufe cha **Print** kwenye upau wa zana au andika `PrintManager` kwenye terminal. Print Manager hufunguka mara moja ukionyesha hakiki ya muonekano wa sasa.
+Bonyeza kitufe cha **Print** kwenye upau wa zana au andika `KidhibitiUchapishaji` kwenye terminal. Print Manager hufunguka mara moja ukionyesha hakiki ya muonekano wa sasa.
 
 Hakiki hutolewa kupitia njia ile ile ya code, kwa azimio lile lile la pikseli, kama faili utakayosafirisha mwishoni — kubadilisha Quality, Style, au eneo la kusafirisha hurenderi upya hakiki papo hapo, hivyo unachokiona ndicho kinachopakuliwa, si makadirio yake.
 

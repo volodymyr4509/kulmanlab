@@ -8,11 +8,11 @@ order: 6
 
 # Export Manager
 
-Het commando `exportmanager` downloadt de huidige tekening naar je bestandssysteem. Twee formaten staan naast elkaar — **DXF** voor compatibiliteit met andere CAD-gereedschappen en **JSON** voor volledig getrouwe opslag binnen KulmanLab CAD — en elk heeft zijn eigen lijstje van wat er in het bestand komt.
+Het commando `Exportbeheer` downloadt de huidige tekening naar je bestandssysteem. Twee formaten staan naast elkaar — **DXF** voor compatibiliteit met andere CAD-gereedschappen en **JSON** voor volledig getrouwe opslag binnen KulmanLab CAD — en elk heeft zijn eigen lijstje van wat er in het bestand komt.
 
 ## Zo exporteert u
 
-1. Klik op de **Export**-werkbalkknop (downloadpictogram) in het bestandspaneel, of typ `exportmanager` in de terminal.
+1. Klik op de **Export**-werkbalkknop (downloadpictogram) in het bestandspaneel, of typ `Exportbeheer` in de terminal.
 2. De pop-up **Export Manager** opent met twee kolommen, **JSON** en **DXF**, die elk de entiteitstypen van de tekening tonen met een vinkje en een aantal.
 3. Vink uit wat je wilt weglaten. Alles staat om te beginnen aan.
 4. Klik **Export JSON** of **Export DXF**. Het bestand komt in je standaard downloadmap en de pop-up sluit.

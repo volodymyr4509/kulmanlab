@@ -8,11 +8,11 @@ order: 18
 
 # ClipboardPaste
 
-Perintah `ClipboardPaste` membaca entiti yang ditulis oleh [ClipboardCopy](../clipboard-copy/) ke **papan keratan sistem** dan meletakkannya dalam lukisan semasa pada titik yang anda pilih. Kerana papan keratannya ialah papan keratan sistem yang sebenar, sumbernya boleh jadi lukisan lain, tab pelayar lain, atau sesi dari awal hari.
+Perintah `TampalDariPapanKeratan` membaca entiti yang ditulis oleh [ClipboardCopy](../clipboard-copy/) ke **papan keratan sistem** dan meletakkannya dalam lukisan semasa pada titik yang anda pilih. Kerana papan keratannya ialah papan keratan sistem yang sebenar, sumbernya boleh jadi lukisan lain, tab pelayar lain, atau sesi dari awal hari.
 
 ## Cara menampal
 
-1. Tekan `Ctrl+V` (`Cmd+V` pada macOS), atau taip `ClipboardPaste` dalam terminal.
+1. Tekan `Ctrl+V` (`Cmd+V` pada macOS), atau taip `TampalDariPapanKeratan` dalam terminal.
 2. Gesaan memaparkan **reading clipboard…** sementara pelayar menyerahkan teks papan keratan.
 3. Setelah dimuatkan, gesaan bertukar kepada **pick insertion point** dan pratonton geometri mengikut kursor anda.
 4. **Klik** untuk meletakkan entiti. Ia ditambah ke lukisan dan kekal dipilih.

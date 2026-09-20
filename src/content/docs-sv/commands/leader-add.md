@@ -8,11 +8,11 @@ order: 2
 
 # LeaderAdd
 
-`LeaderAdd`-kommandot lägger till en ny pilspetsarm på en befintlig multileader. Den nya armen pekar från leaderns befintliga dogleg-punkt till en ny pilspets du klickar på. All styling — dogleg-position, text, pilspetstyp och storlek — ärvs från den valda leadern.
+`LäggTillHänvisningsarm`-kommandot lägger till en ny pilspetsarm på en befintlig multileader. Den nya armen pekar från leaderns befintliga dogleg-punkt till en ny pilspets du klickar på. All styling — dogleg-position, text, pilspetstyp och storlek — ärvs från den valda leadern.
 
 ## Lägga till en arm
 
-1. Skriv `LeaderAdd` i terminalen.
+1. Skriv `LäggTillHänvisningsarm` i terminalen.
 2. **Klicka på en befintlig multileader** för att markera den.
 3. **Klicka på den nya pilspetsen**, eller skriv `X,Y` och tryck **Enter** för en exakt koordinat. En förhandsvisningslinje visas från markören till leaderns dogleg-punkt.
 

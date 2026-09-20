@@ -8,11 +8,11 @@ order: 1
 
 # LayerManager
 
-Umarnin `LayerManager` yana buɗe tebur da ke lissafa kowane yadudduka a cikin zane, tare da saitunan **Freeze**, **Lock**, **Plot**, **Launi**, **Kaurin layi** da **Nau'in layi** waɗanda ake gyarawa kai tsaye a cikin layin. Shi ne babbar wurin ƙara yadudduka, share waɗanda ba a amfani da su, da daidaita halayen waɗanda suke nan — sauran umarnin yadudduka ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) kowanne yana yin abu ɗaya kaɗai ba tare da buɗe shi ba.
+Umarnin `SarrafaMatakai` yana buɗe tebur da ke lissafa kowane yadudduka a cikin zane, tare da saitunan **Freeze**, **Lock**, **Plot**, **Launi**, **Kaurin layi** da **Nau'in layi** waɗanda ake gyarawa kai tsaye a cikin layin. Shi ne babbar wurin ƙara yadudduka, share waɗanda ba a amfani da su, da daidaita halayen waɗanda suke nan — sauran umarnin yadudduka ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) kowanne yana yin abu ɗaya kaɗai ba tare da buɗe shi ba.
 
 ## Buɗe Layer Manager
 
-- Rubuta `LayerManager` a tasha, **ko**
+- Rubuta `SarrafaMatakai` a tasha, **ko**
 - Danna maɓallin **Layer Manager** a cikin panel ɗin layer.
 
 Akwatin yana buɗewa a matsayin panel mai iyo; ba a buƙatar zaɓar komai tukuna.

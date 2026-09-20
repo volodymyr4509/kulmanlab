@@ -8,11 +8,11 @@ order: 2
 
 # Font Manager
 
-Il comando `FontManager` apre una finestra di dialogo per sfogliare e selezionare i font, e per caricare i tuoi file `.ttf` personalizzati da usare nelle entità [Text](../text/) e [Multileader](../leader/).
+Il comando `GestoreFont` apre una finestra di dialogo per sfogliare e selezionare i font, e per caricare i tuoi file `.ttf` personalizzati da usare nelle entità [Text](../text/) e [Multileader](../leader/).
 
 ## Aprire il Font Manager
 
-- Digita `FontManager` nel terminale, **oppure**
+- Digita `GestoreFont` nel terminale, **oppure**
 - Clicca il pulsante **Font Manager** nella barra degli strumenti dell'[editor di testo](../../interface/text-editor/).
 
 ## Gruppi di font
@@ -28,7 +28,7 @@ Clicca su un font qualsiasi nell'elenco per visualizzarne l'anteprima a destra �
 
 ## Caricare un font personalizzato
 
-1. Clicca **Add Font** in fondo alla finestra di dialogo (oppure digita [`FontAdd`](../font-add/) nel terminale per aprire direttamente il selettore file).
+1. Clicca **Add Font** in fondo alla finestra di dialogo (oppure digita [`AggiungiFont`](../font-add/) nel terminale per aprire direttamente il selettore file).
 2. Scegli un file `.ttf`. Sono supportati solo i font TrueType — `.otf` e `.woff`/`.woff2` non lo sono.
 3. Il nome del file (senza estensione) diventa il nome del font nel gruppo **User**. Ad esempio, caricando `MyFont.ttf` viene aggiunto un font chiamato `MyFont`.
 

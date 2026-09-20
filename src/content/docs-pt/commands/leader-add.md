@@ -8,11 +8,11 @@ order: 2
 
 # LeaderAdd
 
-O comando `LeaderAdd` adiciona um novo braço com ponta de seta a um multileader existente. O novo braço parte do dogleg existente do leader até uma nova ponta de seta que você clica. Todo o estilo — posição do dogleg, texto, tipo de seta e tamanho — é herdado do leader selecionado.
+O comando `AdicionarBraçoChamada` adiciona um novo braço com ponta de seta a um multileader existente. O novo braço parte do dogleg existente do leader até uma nova ponta de seta que você clica. Todo o estilo — posição do dogleg, texto, tipo de seta e tamanho — é herdado do leader selecionado.
 
 ## Adicionando um braço
 
-1. Digite `LeaderAdd` no terminal.
+1. Digite `AdicionarBraçoChamada` no terminal.
 2. **Clique em um multileader existente** para selecioná-lo.
 3. **Clique na nova ponta da seta**, ou digite `X,Y` e pressione **Enter** para uma coordenada exata. Uma linha de prévia é exibida do cursor ao dogleg do leader.
 

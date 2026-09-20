@@ -8,11 +8,11 @@ order: 3
 
 # Zoom Out
 
-La commande `zoomout` divise le niveau de zoom actuel par **1,5×** (équivalent à multiplier par ~0,667) et se termine immédiatement, centré sur le point médian du viewport. C'est l'inverse de [Zoom In](../zoom-in/).
+La commande `ZoomArrière` divise le niveau de zoom actuel par **1,5×** (équivalent à multiplier par ~0,667) et se termine immédiatement, centré sur le point médian du viewport. C'est l'inverse de [Zoom In](../zoom-in/).
 
 ## Zoomer en arrière
 
-Cliquez sur le bouton **Zoom Out** dans la barre d'outils ou tapez `zoomout` dans le terminal. Le zoom est appliqué instantanément et la commande se termine — aucun clic sur le canevas n'est requis.
+Cliquez sur le bouton **Zoom Out** dans la barre d'outils ou tapez `ZoomArrière` dans le terminal. Le zoom est appliqué instantanément et la commande se termine — aucun clic sur le canevas n'est requis.
 
 ## Comment fonctionne le pas de 1,5×
 

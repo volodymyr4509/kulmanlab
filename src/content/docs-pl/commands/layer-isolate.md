@@ -8,19 +8,19 @@ order: 4
 
 # LayerIsolate
 
-Polecenie `LayerIsolate` zamraża każdą warstwę **oprócz** tych należących do zaznaczonych obiektów. Użyj go, aby szybko skupić się na konkretnej geometrii bez trwałego ukrywania lub usuwania czegokolwiek — odmroź za pomocą [LayerUnfreezeAll](../layer-unfreeze-all/) po zakończeniu.
+Polecenie `WarstwaIzoluj` zamraża każdą warstwę **oprócz** tych należących do zaznaczonych obiektów. Użyj go, aby szybko skupić się na konkretnej geometrii bez trwałego ukrywania lub usuwania czegokolwiek — odmroź za pomocą [LayerUnfreezeAll](../layer-unfreeze-all/) po zakończeniu.
 
 ## Dwa sposoby uruchamiania
 
 **Wstępne zaznaczenie, a następnie izolacja** — najpierw zaznacz elementy, a następnie aktywuj:
 
 1. Zaznacz jeden lub więcej elementów na płótnie.
-2. Wpisz `LayerIsolate` w terminalu lub kliknij przycisk **Izoluj warstwę** na pasku narzędzi.
+2. Wpisz `WarstwaIzoluj` w terminalu lub kliknij przycisk **Izoluj warstwę** na pasku narzędzi.
 3. Warstwy zaznaczonych elementów pozostają widoczne; wszystkie pozostałe są natychmiast zamrażane.
 
 **Aktywuj, a następnie zaznacz**:
 
-1. Wpisz `LayerIsolate` lub kliknij przycisk paska narzędzi.
+1. Wpisz `WarstwaIzoluj` lub kliknij przycisk paska narzędzi.
 2. **Wybierz obiekty** — kliknij poszczególne elementy lub przeciągnij, aby zaznaczyć obszarem.
 3. Naciśnij **Enter** lub **Spację**, aby potwierdzić — izolacja jest stosowana.
 

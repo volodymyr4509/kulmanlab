@@ -8,11 +8,11 @@ order: 5
 
 # LayerUnfreezeAll
 
-Polecenie `LayerUnfreezeAll` natychmiast usuwa flagę zamrożenia na **każdej warstwie** w rysunku. Żadne zaznaczenie ani potwierdzenie nie jest potrzebne — uruchamia się i kończy w jednym kroku.
+Polecenie `WarstwaOdmroźWszystkie` natychmiast usuwa flagę zamrożenia na **każdej warstwie** w rysunku. Żadne zaznaczenie ani potwierdzenie nie jest potrzebne — uruchamia się i kończy w jednym kroku.
 
 ## Użytkowanie
 
-Wpisz `LayerUnfreezeAll` w terminalu lub kliknij przycisk **Odmroź wszystkie** na pasku narzędzi (ikona słońca). Wszystkie zamrożone warstwy natychmiast stają się widoczne.
+Wpisz `WarstwaOdmroźWszystkie` w terminalu lub kliknij przycisk **Odmroź wszystkie** na pasku narzędzi (ikona słońca). Wszystkie zamrożone warstwy natychmiast stają się widoczne.
 
 ## Kiedy używać
 

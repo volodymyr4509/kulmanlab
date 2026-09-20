@@ -8,11 +8,11 @@ order: 3
 
 # Zoom Out
 
-Het `zoomout`-commando deelt het huidige zoomniveau door **1,5×** (gelijk aan vermenigvuldigen met ~0,667) en sluit direct af, gecentreerd op het middelpunt van de viewport. Het is het omgekeerde van [Zoom In](../zoom-in/).
+Het `Uitzoomen`-commando deelt het huidige zoomniveau door **1,5×** (gelijk aan vermenigvuldigen met ~0,667) en sluit direct af, gecentreerd op het middelpunt van de viewport. Het is het omgekeerde van [Zoom In](../zoom-in/).
 
 ## Uitzoomen
 
-Klik op de werkbalkknop **Zoom Out** of typ `zoomout` in de terminal. De zoom wordt direct toegepast en het commando sluit af — er is geen klik op het canvas vereist.
+Klik op de werkbalkknop **Zoom Out** of typ `Uitzoomen` in de terminal. De zoom wordt direct toegepast en het commando sluit af — er is geen klik op het canvas vereist.
 
 ## Hoe de stap van 1,5× werkt
 

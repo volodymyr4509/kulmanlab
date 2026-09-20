@@ -8,14 +8,14 @@ order: 15
 
 # Array Grid
 
-`ArrayGrid`-kommandot skapar ett rektangulärt rutnät av kopior från valda entiteter — ange antalet rader, antalet kolumner och avståndet mellan dem, allt skrivs i terminalen. Det ursprungliga urvalet upptar cellen rad 0, kolumn 0; varje annan cell är en flyttad kopia.
+`Rutmönster`-kommandot skapar ett rektangulärt rutnät av kopior från valda entiteter — ange antalet rader, antalet kolumner och avståndet mellan dem, allt skrivs i terminalen. Det ursprungliga urvalet upptar cellen rad 0, kolumn 0; varje annan cell är en flyttad kopia.
 
 ## Två sätt att starta
 
 **Förval, sedan array** — välj entiteter först, aktivera sedan:
 
 1. Välj en eller flera entiteter på ritytan.
-2. Skriv `arraygrid` i terminalen (`arr` räcker — otvetydigt) eller klicka på verktygsfältsknappen **Array Grid**.
+2. Skriv `Rutmönster` i terminalen (`arr` räcker — otvetydigt) eller klicka på verktygsfältsknappen **Array Grid**.
 3. Skriv antalet **rader** och tryck **Enter**.
 4. Skriv antalet **kolumner** och tryck **Enter**.
 5. Skriv **avståndet mellan raderna** och tryck **Enter**.
@@ -23,7 +23,7 @@ order: 15
 
 **Aktivera, välj sedan** — starta kommandot utan att något är valt:
 
-1. Skriv `arraygrid` eller klicka på verktygsfältsknappen.
+1. Skriv `Rutmönster` eller klicka på verktygsfältsknappen.
 2. **Välj objekt** — klicka för att växla enskilda entiteter, eller dra för att välja med ett område.
 3. Tryck **Enter** eller **Space** för att bekräfta valet.
 4. Fortsätt med rader → kolumner → radavstånd → kolumnavstånd som ovan.

@@ -8,11 +8,11 @@ order: 3
 
 # Zoom Out
 
-Amri ya `zoomout` hugawanya kiwango cha sasa cha zoom kwa **1.5×** (sawa na kuzidisha kwa ~0.667) na kutoka mara moja, imewekwa katikati ya katikati ya mwonekano. Ni kinyume cha [Zoom In](../zoom-in/).
+Amri ya `Punguza` hugawanya kiwango cha sasa cha zoom kwa **1.5×** (sawa na kuzidisha kwa ~0.667) na kutoka mara moja, imewekwa katikati ya katikati ya mwonekano. Ni kinyume cha [Zoom In](../zoom-in/).
 
 ## Kupunguza zoom
 
-Bonyeza kitufe cha **Zoom Out** kwenye upau wa zana au andika `zoomout` kwenye terminal. Zoom inatumika mara moja na amri hutoka — hakuna kubonyeza kwenye kanvasi kunahitajika.
+Bonyeza kitufe cha **Zoom Out** kwenye upau wa zana au andika `Punguza` kwenye terminal. Zoom inatumika mara moja na amri hutoka — hakuna kubonyeza kwenye kanvasi kunahitajika.
 
 ## Jinsi hatua ya 1.5× inavyofanya kazi
 

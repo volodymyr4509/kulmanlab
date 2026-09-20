@@ -8,11 +8,11 @@ order: 1
 
 # Pan
 
-Der Befehl `pan` aktiviert einen dauerhaften Ziehen-zum-Scrollen-Modus — klicken und ziehen Sie auf der Zeichenfläche, um die Ansicht zu verschieben. Die Zoomstufe bleibt unverändert. Der Pan-Modus bleibt aktiv, bis Sie `Escape` drücken, sodass Sie bei einer Aktivierung mehrmals ziehen können.
+Der Befehl `Schwenken` aktiviert einen dauerhaften Ziehen-zum-Scrollen-Modus — klicken und ziehen Sie auf der Zeichenfläche, um die Ansicht zu verschieben. Die Zoomstufe bleibt unverändert. Der Pan-Modus bleibt aktiv, bis Sie `Escape` drücken, sodass Sie bei einer Aktivierung mehrmals ziehen können.
 
 ## Die Ansicht verschieben
 
-1. Geben Sie `pan` im Terminal ein oder klicken Sie auf die Schaltfläche **Pan** in der Symbolleiste.
+1. Geben Sie `Schwenken` im Terminal ein oder klicken Sie auf die Schaltfläche **Pan** in der Symbolleiste.
 2. **Klicken und ziehen** Sie auf der Zeichenfläche, um die Ansicht zu verschieben.
 3. Loslassen und bei Bedarf erneut ziehen.
 4. Drücken Sie `Escape`, um den Pan-Modus zu beenden.

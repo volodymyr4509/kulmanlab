@@ -7,11 +7,11 @@ order: 2
 
 # Polyline
 
-Lệnh `polyline` vẽ một đường dẫn liên kết gồm bất kỳ số lượng đoạn thẳng hoặc đoạn cung nào, tất cả được lưu dưới dạng một thực thể `LWPOLYLINE` duy nhất. Vì toàn bộ đường dẫn là một đối tượng, chọn nó sẽ chọn mọi đoạn cùng lúc — di chuyển, xoay hoặc chia tỉ lệ toàn bộ hình dạng trong một thao tác. Đây là điểm khác biệt chính so với [Line](../line/) nối tiếp, nơi mỗi đoạn là thực thể độc lập.
+Lệnh `ĐaTuyến` vẽ một đường dẫn liên kết gồm bất kỳ số lượng đoạn thẳng hoặc đoạn cung nào, tất cả được lưu dưới dạng một thực thể `LWPOLYLINE` duy nhất. Vì toàn bộ đường dẫn là một đối tượng, chọn nó sẽ chọn mọi đoạn cùng lúc — di chuyển, xoay hoặc chia tỉ lệ toàn bộ hình dạng trong một thao tác. Đây là điểm khác biệt chính so với [Line](../line/) nối tiếp, nơi mỗi đoạn là thực thể độc lập.
 
 ## Vẽ đường đa đoạn
 
-1. Gõ `polyline` trong terminal hoặc nhấp nút **Polyline** trên thanh công cụ.
+1. Gõ `ĐaTuyến` trong terminal hoặc nhấp nút **Polyline** trên thanh công cụ.
 2. **Nhấp điểm đầu tiên**, hoặc gõ `X,Y` rồi nhấn **Enter**.
 3. **Nhấp từng điểm tiếp theo** — mỗi lần nhấp thêm một đoạn. Có thể nhập tọa độ ở mỗi bước.
 4. Nhấn **Enter** hoặc **Space** để kết thúc (yêu cầu ít nhất 2 điểm đã đặt).

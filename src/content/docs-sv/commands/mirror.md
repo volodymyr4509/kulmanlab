@@ -8,20 +8,20 @@ order: 4
 
 # Mirror
 
-`mirror`-kommandot skapar speglade kopior av valda entiteter, reflekterade över en tvåpunktsaxel. Originalen **behålls alltid** — till skillnad från [Move](../move/) eller [Rotate](../rotate/) ändrar Mirror aldrig befintliga entiteter; den lägger bara till nya.
+`Spegla`-kommandot skapar speglade kopior av valda entiteter, reflekterade över en tvåpunktsaxel. Originalen **behålls alltid** — till skillnad från [Move](../move/) eller [Rotate](../rotate/) ändrar Mirror aldrig befintliga entiteter; den lägger bara till nya.
 
 ## Två sätt att starta
 
 **Förval, sedan spegling** — välj entiteter först, aktivera sedan:
 
 1. Välj en eller flera entiteter på ritytan.
-2. Skriv `mirror` i terminalen eller klicka på **Mirror**-knappen i verktygsfältet.
+2. Skriv `Spegla` i terminalen eller klicka på **Mirror**-knappen i verktygsfältet.
 3. **Klicka på den första punkten** på spegelaxeln, eller skriv `X,Y` och tryck **Enter** för en exakt koordinat.
 4. **Klicka på den andra punkten** — speglade kopior placeras och kommandot avslutas. Koordinatinmatning fungerar även här.
 
 **Aktivera, välj sedan** — starta kommandot utan att något är valt:
 
-1. Skriv `mirror` eller klicka på verktygsfältsknappen.
+1. Skriv `Spegla` eller klicka på verktygsfältsknappen.
 2. **Välj objekt** — klicka för att växla, eller dra för att välja med ett område.
 3. Tryck **Enter** eller **Space** för att bekräfta valet.
 4. **Klicka på den första punkten**, klicka sedan på **den andra punkten** på spegelaxeln (koordinatinmatning tillgänglig i båda stegen).

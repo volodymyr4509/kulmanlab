@@ -8,11 +8,11 @@ order: 2
 
 # LayerMakeCurrent
 
-Perintah `LayerMakeCurrent` mengatur **layer gambar saat ini** ke layer mana pun yang dimiliki oleh entitas yang diklik. Entitas baru kemudian akan digambar pada layer tersebut secara otomatis.
+Perintah `LapisanJadikanAktif` mengatur **layer gambar saat ini** ke layer mana pun yang dimiliki oleh entitas yang diklik. Entitas baru kemudian akan digambar pada layer tersebut secara otomatis.
 
 ## Penggunaan
 
-1. Ketik `LayerMakeCurrent` di terminal atau klik tombol toolbar **Make Current** (ikon penetes mata).
+1. Ketik `LapisanJadikanAktif` di terminal atau klik tombol toolbar **Make Current** (ikon penetes mata).
 2. **Klik entitas mana saja** di kanvas.
 3. Layer saat ini diperbarui agar sesuai dengan layer entitas tersebut. Perintah selesai segera.
 

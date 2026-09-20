@@ -8,20 +8,20 @@ order: 7
 
 # Delete
 
-`delete` komutu, seçili nesneleri çizimden kaldırır. Silme işlemleri [Geri Al](../undo/) geçmişine kaydedilir ve en fazla 20 adım geri alınabilir. Ayrı bir "silmeyi onayla" iletişim kutusu yoktur — onay tek bir tuş basışıdır.
+`Sil` komutu, seçili nesneleri çizimden kaldırır. Silme işlemleri [Geri Al](../undo/) geçmişine kaydedilir ve en fazla 20 adım geri alınabilir. Ayrı bir "silmeyi onayla" iletişim kutusu yoktur — onay tek bir tuş basışıdır.
 
 ## İki Silme Yöntemi
 
 **Önce seç, sonra sil** — en hızlı yol:
 
 1. Tuvalde bir veya daha fazla nesne seçin.
-2. Terminale `delete` yazın, **Delete** araç çubuğu düğmesine tıklayın **veya doğrudan `Delete` tuşuna basın**.
+2. Terminale `Sil` yazın, **Delete** araç çubuğu düğmesine tıklayın **veya doğrudan `Delete` tuşuna basın**.
 
 Nesneler anında kaldırılır — ek onay adımı yoktur.
 
 **Etkinleştir, sonra seç**:
 
-1. Hiçbir şey seçili değilken `delete` yazın veya araç çubuğu düğmesine tıklayın.
+1. Hiçbir şey seçili değilken `Sil` yazın veya araç çubuğu düğmesine tıklayın.
 2. **Nesneleri seçin** — tıklayarak seçimi değiştirin veya alan seçimi için sürükleyin.
 3. Seçili nesneleri onaylamak ve kaldırmak için **Enter**, **Boşluk** veya **Delete** tuşuna basın.
 
@@ -44,7 +44,7 @@ Nesneyi tıkla → Delete tuşuna bas → tamamlandı
 
 ## Silinen Nesneleri Kurtarma
 
-Silme işlemleri [Geri Al](../undo/) komutuyla geri alınabilir (terminale `undo` yazın veya araç çubuğu düğmesini kullanın). Dosya başına en fazla **20 adım** geri alınabilir ve geçmiş sayfa yeniden yüklemelerinde de korunur. Kaydetmeden 20'den fazla silme yaptıysanız, önceki silmeler kurtarılamaz.
+Silme işlemleri [Geri Al](../undo/) komutuyla geri alınabilir (terminale `GeriAl` yazın veya araç çubuğu düğmesini kullanın). Dosya başına en fazla **20 adım** geri alınabilir ve geçmiş sayfa yeniden yüklemelerinde de korunur. Kaydetmeden 20'den fazla silme yaptıysanız, önceki silmeler kurtarılamaz.
 
 ## Desteklenen Nesneler
 

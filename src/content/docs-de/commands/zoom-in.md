@@ -8,11 +8,11 @@ order: 2
 
 # Zoom In
 
-Der `zoomin`-Befehl multipliziert die aktuelle Zoomstufe mit **1,5×** und beendet sich sofort, zentriert auf den Viewport-Mittelpunkt. Er ist das Werkzeugleisten-Äquivalent eines Scrollrad-Ticks, der zur Bildschirmmitte hin gezoomt wird, anstatt zum Cursor.
+Der `Vergrößern`-Befehl multipliziert die aktuelle Zoomstufe mit **1,5×** und beendet sich sofort, zentriert auf den Viewport-Mittelpunkt. Er ist das Werkzeugleisten-Äquivalent eines Scrollrad-Ticks, der zur Bildschirmmitte hin gezoomt wird, anstatt zum Cursor.
 
 ## Heranzoomen
 
-Klicken Sie auf die **Zoom In**-Schaltfläche in der Werkzeugleiste oder geben Sie `zoomin` im Terminal ein. Der Zoom wird sofort angewendet und der Befehl beendet — kein Klicken auf die Zeichenfläche erforderlich.
+Klicken Sie auf die **Zoom In**-Schaltfläche in der Werkzeugleiste oder geben Sie `Vergrößern` im Terminal ein. Der Zoom wird sofort angewendet und der Befehl beendet — kein Klicken auf die Zeichenfläche erforderlich.
 
 ## Wie der 1,5×-Schritt funktioniert
 

@@ -8,11 +8,11 @@ order: 4
 
 # Circle
 
-Ginuguhit ng `circle` command ang circle na naitatakda ng center point at radius. Pagkatapos i-click ang center, puwede mong itakda ang radius sa pamamagitan ng pag-click ng pangalawang punto sa canvas o pag-type ng eksaktong numero — parehong option ay live nang sabay.
+Ginuguhit ng `Bilog` command ang circle na naitatakda ng center point at radius. Pagkatapos i-click ang center, puwede mong itakda ang radius sa pamamagitan ng pag-click ng pangalawang punto sa canvas o pag-type ng eksaktong numero — parehong option ay live nang sabay.
 
 ## Pagguhit ng Circle
 
-1. I-type ang `circle` sa terminal o i-click ang **Circle** button sa toolbar.
+1. I-type ang `Bilog` sa terminal o i-click ang **Circle** button sa toolbar.
 2. **I-click ang center point**, o i-type ang `X,Y` at pindutin ang **Enter** para sa eksaktong coordinate.
 3. Itakda ang radius — alinman sa:
    - **I-click ang anumang punto** sa canvas — ang distansya mula sa center ang magiging radius, o

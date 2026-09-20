@@ -8,11 +8,11 @@ order: 5
 
 # HatchAdd
 
-Het commando `HatchAdd` opent de bestandskiezer van het systeem om een `.pat`-arceringspatroonbestand te uploaden, zonder eerst het dialoogvenster [Hatch Manager](../hatch-manager/) te openen. Het is dezelfde upload die de knop **Add .pat File** in de Hatch Manager start — HatchAdd is er alleen een directe route naartoe vanaf de terminal.
+Het commando `ArceringToevoegen` opent de bestandskiezer van het systeem om een `.pat`-arceringspatroonbestand te uploaden, zonder eerst het dialoogvenster [Hatch Manager](../hatch-manager/) te openen. Het is dezelfde upload die de knop **Add .pat File** in de Hatch Manager start — HatchAdd is er alleen een directe route naartoe vanaf de terminal.
 
 ## Een patroonbestand uploaden
 
-1. Typ `HatchAdd` in de terminal, of klik op **Add .pat File** onderin het dialoogvenster [Hatch Manager](../hatch-manager/).
+1. Typ `ArceringToevoegen` in de terminal, of klik op **Add .pat File** onderin het dialoogvenster [Hatch Manager](../hatch-manager/).
 2. Kies een `.pat`-bestand in de systeemkiezer. Alleen het standaardformaat voor arceringspatronen wordt geaccepteerd.
 
 Het commando eindigt zodra de bestandskiezer opent — er volgt geen prompt, klik of terminalinvoer meer. De patronen worden geregistreerd en verschijnen in de groep **User** zodra het bestand is gekozen.

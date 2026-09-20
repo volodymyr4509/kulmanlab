@@ -8,11 +8,11 @@ order: 3
 
 # LeaderRemove
 
-Der Befehl `LeaderRemove` entfernt einen Pfeilspitzen-Arm von einer vorhandenen Mehrfachführungslinie. Die Textbeschriftung, der Knickpunkt und alle verbleibenden Arme bleiben erhalten — nur der ausgewählte Arm wird gelöscht. Eine Mehrfachführungslinie mit nur einem Arm kann dessen Arm nicht entfernen.
+Der Befehl `FührungsarmEntfernen` entfernt einen Pfeilspitzen-Arm von einer vorhandenen Mehrfachführungslinie. Die Textbeschriftung, der Knickpunkt und alle verbleibenden Arme bleiben erhalten — nur der ausgewählte Arm wird gelöscht. Eine Mehrfachführungslinie mit nur einem Arm kann dessen Arm nicht entfernen.
 
 ## Einen Arm entfernen
 
-1. Geben Sie `LeaderRemove` im Terminal ein.
+1. Geben Sie `FührungsarmEntfernen` im Terminal ein.
 2. **Klicken Sie auf eine Mehrfachführungslinie** mit zwei oder mehr Armen. Hat die angeklickte Führungslinie nur einen Arm, zeigt das Terminal eine Fehlermeldung an und wartet auf eine gültige Auswahl.
 3. **Bewegen Sie den Cursor in die Nähe des Arms**, den Sie entfernen möchten — der nächstgelegene Arm wird mit einer Markierung hervorgehoben.
 4. **Klicken**, um diesen Arm zu entfernen.

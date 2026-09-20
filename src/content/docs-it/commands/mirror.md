@@ -8,20 +8,20 @@ order: 4
 
 # Mirror
 
-Il comando `mirror` crea copie riflesse delle entità selezionate rispetto a un asse in due punti. Gli originali vengono **sempre conservati** — a differenza di [Move](../move/) o [Rotate](../rotate/), Mirror non modifica mai le entità esistenti; aggiunge solo nuove entità.
+Il comando `Specchio` crea copie riflesse delle entità selezionate rispetto a un asse in due punti. Gli originali vengono **sempre conservati** — a differenza di [Move](../move/) o [Rotate](../rotate/), Mirror non modifica mai le entità esistenti; aggiunge solo nuove entità.
 
 ## Due modi per iniziare
 
 **Preseleziona, poi rifletti** — seleziona le entità prima, poi attiva:
 
 1. Seleziona una o più entità sul canvas.
-2. Digita `mirror` nel terminale o clicca il pulsante **Mirror** nella barra degli strumenti.
+2. Digita `Specchio` nel terminale o clicca il pulsante **Mirror** nella barra degli strumenti.
 3. **Clicca il primo punto** dell'asse speculare, oppure digita `X,Y` e premi **Invio** per una coordinata esatta.
 4. **Clicca il secondo punto** — le copie riflesse vengono posizionate e il comando termina. Anche qui è disponibile l'inserimento coordinate.
 
 **Attiva, poi seleziona** — avvia il comando senza nulla selezionato:
 
-1. Digita `mirror` o clicca il pulsante della barra degli strumenti.
+1. Digita `Specchio` o clicca il pulsante della barra degli strumenti.
 2. **Seleziona gli oggetti** — clicca per alternare, o trascina per selezionare per area.
 3. Premi **Invio** o **Spazio** per confermare la selezione.
 4. **Clicca il primo punto**, poi **clicca il secondo punto** dell'asse speculare (inserimento coordinate disponibile in entrambi i passi).

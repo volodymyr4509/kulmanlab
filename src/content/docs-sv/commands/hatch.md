@@ -8,11 +8,11 @@ order: 7
 
 # Hatch
 
-Kommandot `hatch` fyller området runt en klickad punkt med ett mönster. Konturen ritas inte i förväg — den kommer från det som redan finns på ritytan, så fyra separata [Lines](../line/) som möts ände mot ände omsluter ett område precis som en sluten [Polyline](../polyline/) gör, och varje sluten form däri blir en ö som fyllningen lämnar orörd.
+Kommandot `Skraffering` fyller området runt en klickad punkt med ett mönster. Konturen ritas inte i förväg — den kommer från det som redan finns på ritytan, så fyra separata [Lines](../line/) som möts ände mot ände omsluter ett område precis som en sluten [Polyline](../polyline/) gör, och varje sluten form däri blir en ö som fyllningen lämnar orörd.
 
 ## Fylla ett område
 
-1. Skriv `hatch` i terminalen eller klicka på verktygsfältsknappen **Hatch** (mönsterikonen).
+1. Skriv `Skraffering` i terminalen eller klicka på verktygsfältsknappen **Hatch** (mönsterikonen).
 2. **Klicka på en punkt** inuti det område du vill fylla.
 3. Kommandot förblir aktivt, så fortsätt klicka för att fylla fler områden — varje klick skapar sin egen `Hatch`-entitet.
 4. Tryck på **Enter**, **Space** eller **Escape** när du är klar.
@@ -69,7 +69,7 @@ Varje ny hatch börjar fylld med `ANSI31` (eller vilket mönster den *senast* re
 1. Välj en befintlig hatch och öppna dess **Pattern**-fält i egenskapspanelen — detta öppnar mönsterväljaren, ett rutnät av namngivna swatcher grupperade efter varifrån varje mönster kommer.
 2. Klicka på ett mönster för att tillämpa det — fyllningen uppdateras omedelbart.
 
-Det valet blir också standard för nästa hatch du skapar med `hatch`-kommandot, på samma sätt som att välja ett lager eller en färg förs vidare. Så för att hatcha flera nya områden med ett visst mönster: fyll ett område, ställ in dess mönster en gång, och fortsätt hatcha — varje fyllning efter det börjar redan med det mönstret tillämpat.
+Det valet blir också standard för nästa hatch du skapar med `Skraffering`-kommandot, på samma sätt som att välja ett lager eller en färg förs vidare. Så för att hatcha flera nya områden med ett visst mönster: fyll ett område, ställ in dess mönster en gång, och fortsätt hatcha — varje fyllning efter det börjar redan med det mönstret tillämpat.
 
 Se [Hatch Manager](../hatch-manager/) för att ladda upp dina egna `.pat`-mönsterfiler och bläddra i hela biblioteket.
 

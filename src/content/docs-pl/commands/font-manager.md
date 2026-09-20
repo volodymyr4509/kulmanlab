@@ -8,11 +8,11 @@ order: 2
 
 # Font Manager
 
-Polecenie `FontManager` otwiera okno dialogowe do przeglądania i wybierania czcionek oraz przesyłania własnych plików `.ttf` do użycia w elementach [Text](../text/) i [Multileader](../leader/).
+Polecenie `MenedżerCzcionek` otwiera okno dialogowe do przeglądania i wybierania czcionek oraz przesyłania własnych plików `.ttf` do użycia w elementach [Text](../text/) i [Multileader](../leader/).
 
 ## Otwieranie Font Manager
 
-- Wpisz `FontManager` w terminalu, **lub**
+- Wpisz `MenedżerCzcionek` w terminalu, **lub**
 - Kliknij przycisk **Font Manager** na pasku narzędzi [edytora tekstu](../../interface/text-editor/).
 
 ## Grupy czcionek
@@ -28,7 +28,7 @@ Kliknij dowolną czcionkę na liście, aby zobaczyć jej podgląd po prawej stro
 
 ## Przesyłanie niestandardowej czcionki
 
-1. Kliknij **Add Font** w stopce okna dialogowego (lub wpisz [`FontAdd`](../font-add/) w terminalu, aby bezpośrednio otworzyć okno wyboru pliku).
+1. Kliknij **Add Font** w stopce okna dialogowego (lub wpisz [`CzcionkaDodaj`](../font-add/) w terminalu, aby bezpośrednio otworzyć okno wyboru pliku).
 2. Wybierz plik `.ttf`. Obsługiwane są tylko czcionki TrueType — `.otf` oraz `.woff`/`.woff2` nie są obsługiwane.
 3. Nazwa pliku (bez rozszerzenia) staje się nazwą czcionki w grupie **User**. Na przykład przesłanie `MyFont.ttf` dodaje czcionkę o nazwie `MyFont`.
 

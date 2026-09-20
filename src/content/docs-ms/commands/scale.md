@@ -8,20 +8,20 @@ order: 5
 
 # Scale
 
-Arahan `scale` mengubah saiz entiti yang dipilih secara seragam di sekitar titik asas. Semua jarak dari titik asas didarab dengan faktor skala — faktor `2` menggandakan semua dimensi, `0.5` mengecilakannya separuh. Faktor sentiasa dimasukkan dengan menaip; tiada klik-untuk-tetapkan-skala.
+Arahan `Skala` mengubah saiz entiti yang dipilih secara seragam di sekitar titik asas. Semua jarak dari titik asas didarab dengan faktor skala — faktor `2` menggandakan semua dimensi, `0.5` mengecilakannya separuh. Faktor sentiasa dimasukkan dengan menaip; tiada klik-untuk-tetapkan-skala.
 
 ## Dua cara untuk memulakan
 
 **Pra-pilih, kemudian skala** — pilih entiti dahulu, kemudian aktifkan:
 
 1. Pilih satu atau lebih entiti pada kanvas.
-2. Taip `scale` dalam terminal atau klik butang bar alat **Scale**.
+2. Taip `Skala` dalam terminal atau klik butang bar alat **Scale**.
 3. **Klik titik asas** — titik tetap yang tidak bergerak semasa penskalaan. Atau taip `X,Y` dan tekan **Enter** untuk koordinat tepat.
 4. **Taip faktor skala** dan tekan **Enter**.
 
 **Aktifkan, kemudian pilih** — mulakan arahan tanpa apa-apa yang dipilih:
 
-1. Taip `scale` atau klik butang bar alat.
+1. Taip `Skala` atau klik butang bar alat.
 2. **Pilih objek** — klik untuk togel, atau seret untuk memilih mengikut kawasan.
 3. Tekan **Enter** atau **Space** untuk mengesahkan pemilihan.
 4. **Klik titik asas** (kemasukan koordinat tersedia), kemudian taip faktor.

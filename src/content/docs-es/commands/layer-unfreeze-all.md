@@ -8,11 +8,11 @@ order: 5
 
 # LayerUnfreezeAll
 
-El comando `LayerUnfreezeAll` elimina el indicador de congelación en **todas las capas** del dibujo al instante. No se necesita selección ni confirmación — se ejecuta y finaliza en un solo paso.
+El comando `DescongelarTodasLasCapas` elimina el indicador de congelación en **todas las capas** del dibujo al instante. No se necesita selección ni confirmación — se ejecuta y finaliza en un solo paso.
 
 ## Uso
 
-Escribe `LayerUnfreezeAll` en el terminal o haz clic en el botón **Unfreeze All** de la barra de herramientas (icono de sol). Todas las capas congeladas se vuelven visibles de inmediato.
+Escribe `DescongelarTodasLasCapas` en el terminal o haz clic en el botón **Unfreeze All** de la barra de herramientas (icono de sol). Todas las capas congeladas se vuelven visibles de inmediato.
 
 ## Cuándo usarlo
 

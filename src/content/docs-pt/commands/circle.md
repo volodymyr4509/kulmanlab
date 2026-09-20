@@ -8,11 +8,11 @@ order: 4
 
 # Circle
 
-O comando `circle` desenha um círculo definido por um ponto central e um raio. Após o centro ser clicado você pode definir o raio clicando num segundo ponto no canvas ou digitando um número exato — ambas as opções estão disponíveis simultaneamente.
+O comando `Círculo` desenha um círculo definido por um ponto central e um raio. Após o centro ser clicado você pode definir o raio clicando num segundo ponto no canvas ou digitando um número exato — ambas as opções estão disponíveis simultaneamente.
 
 ## Desenhar um círculo
 
-1. Digite `circle` no terminal ou clique no botão **Circle** na barra de ferramentas.
+1. Digite `Círculo` no terminal ou clique no botão **Circle** na barra de ferramentas.
 2. **Clique no ponto central**, ou digite `X,Y` e pressione **Enter** para uma coordenada exata.
 3. Defina o raio — escolha entre:
    - **Clique em qualquer ponto** no canvas — a distância do centro torna-se o raio, ou

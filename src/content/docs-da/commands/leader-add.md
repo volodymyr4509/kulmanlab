@@ -8,11 +8,11 @@ order: 2
 
 # LeaderAdd
 
-Kommandoen `LeaderAdd` tilføjer en ny pilespidsarm på en eksisterende multileader. Den nye arm peger fra lederens eksisterende dogleg til en ny pilespids, du klikker. Al styling — dogleg-position, tekst, pilespidstype og størrelse — arves fra den valgte leder.
+Kommandoen `HenvisningTilføj` tilføjer en ny pilespidsarm på en eksisterende multileader. Den nye arm peger fra lederens eksisterende dogleg til en ny pilespids, du klikker. Al styling — dogleg-position, tekst, pilespidstype og størrelse — arves fra den valgte leder.
 
 ## Tilføje en arm
 
-1. Skriv `LeaderAdd` i terminalen.
+1. Skriv `HenvisningTilføj` i terminalen.
 2. **Klik en eksisterende multileader** for at vælge den.
 3. **Klik den nye pilespids**, eller skriv `X,Y` og tryk **Enter** for en eksakt koordinat. En forhåndsvisningslinje vises fra markøren til lederens dogleg.
 

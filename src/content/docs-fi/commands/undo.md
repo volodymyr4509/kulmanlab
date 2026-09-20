@@ -8,11 +8,11 @@ order: 13
 
 # Undo
 
-Komento `undo` peruuttaa viimeisimmän piirustuksen muutoksen — yksi askel per kutsu. Jokainen entiteettien lisäys, poisto tai muokkaus tallennetaan erillisenä historiamerkintänä. Undo askeltaa taaksepäin näiden merkintöjen läpi käänteisessä järjestyksessä.
+Komento `Kumoa` peruuttaa viimeisimmän piirustuksen muutoksen — yksi askel per kutsu. Jokainen entiteettien lisäys, poisto tai muokkaus tallennetaan erillisenä historiamerkintänä. Undo askeltaa taaksepäin näiden merkintöjen läpi käänteisessä järjestyksessä.
 
 ## Näin kumoat
 
-- Kirjoita `undo` terminaaliin, tai
+- Kirjoita `Kumoa` terminaaliin, tai
 - Napsauta **Undo**-painiketta työkalurivillä.
 
 Jokainen kutsu peruuttaa yhden tallennetun toiminnon. Kutsu sitä toistuvasti askeltaaksesi kauemmas taaksepäin.

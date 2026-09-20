@@ -8,13 +8,13 @@ order: 2
 
 # Polyline
 
-`polyline` komutu, tek bir `LWPOLYLINE` nesnesi olarak saklanan herhangi sayıda düz veya yay segmentinden oluşan bağlantılı yol çizer. Tüm yol tek bir nesne olduğundan, seçmek her segmenti aynı anda seçer — tüm şekli tek bir işlemle taşıyın, döndürün veya ölçeklendirin. Bu, her segmentin bağımsız nesne olduğu zincirleme [Lines](../line/) komutundan temel farktır.
+`ÇokluÇizgi` komutu, tek bir `LWPOLYLINE` nesnesi olarak saklanan herhangi sayıda düz veya yay segmentinden oluşan bağlantılı yol çizer. Tüm yol tek bir nesne olduğundan, seçmek her segmenti aynı anda seçer — tüm şekli tek bir işlemle taşıyın, döndürün veya ölçeklendirin. Bu, her segmentin bağımsız nesne olduğu zincirleme [Lines](../line/) komutundan temel farktır.
 
 Çoklu çizgiler ayrıca **kapatılabilir**: [Rectangle](../rectangle/) komutu kapatma bayrağı ayarlanmış aynı `LWPOLYLINE` nesnesini kullanır.
 
 ## Çoklu Çizgi Çizimi
 
-1. Terminale `polyline` yazın veya araç çubuğundaki **Polyline** düğmesine basın.
+1. Terminale `ÇokluÇizgi` yazın veya araç çubuğundaki **Polyline** düğmesine basın.
 2. **Birinci noktayı tıklayın** veya kesin koordinat için `X,Y` yazıp **Enter** tuşuna basın.
 3. **Her sonraki noktayı tıklayın** — her tıklama bir segment ekler. Her adımda koordinat girişi çalışır.
 4. Tamamlamak için **Enter** veya **Boşluk** tuşuna basın (en az 2 yerleştirilen nokta gerekir).

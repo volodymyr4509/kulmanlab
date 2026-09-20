@@ -7,11 +7,11 @@ order: 6
 
 # Ellipse
 
-Lệnh `ellipse` vẽ một hình elip sử dụng ba lần nhấp: điểm tâm, điểm cuối của bán trục đầu tiên (lớn) theo bất kỳ góc nào, và độ dài của bán trục thứ hai (nhỏ). Hai trục luôn vuông góc với nhau — hướng trục thứ hai được tự động suy ra từ trục đầu tiên.
+Lệnh `HìnhElip` vẽ một hình elip sử dụng ba lần nhấp: điểm tâm, điểm cuối của bán trục đầu tiên (lớn) theo bất kỳ góc nào, và độ dài của bán trục thứ hai (nhỏ). Hai trục luôn vuông góc với nhau — hướng trục thứ hai được tự động suy ra từ trục đầu tiên.
 
 ## Vẽ hình elip
 
-1. Gõ `ellipse` trong terminal hoặc nhấp nút **Ellipse** trên thanh công cụ.
+1. Gõ `HìnhElip` trong terminal hoặc nhấp nút **Ellipse** trên thanh công cụ.
 2. **Nhấp điểm tâm**, hoặc gõ `X,Y` rồi nhấn **Enter** để nhập tọa độ chính xác.
 3. **Nhấp điểm cuối trục đầu tiên** — đặt cả hướng và độ dài của bán trục đầu tiên.
 4. **Đặt độ dài trục thứ hai** — di chuyển con trỏ vuông góc với trục đầu tiên, sau đó nhấp hoặc gõ độ dài.

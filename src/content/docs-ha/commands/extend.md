@@ -8,13 +8,13 @@ order: 9
 
 # Extend
 
-Umarnin `extend` yana tsawaita ƙarshen da ya fi kusa na [Line](../line/), [Arc](../arc/), [Ellipse](../ellipse/), ko Polyline mai buɗewa da aka riƙe mai nuni a kansa zuwa mahaɗar da ta fi kusa da za ta yi da wani abu a zanen. Riƙe mai nuni kusa da ƙarshen da kake son tsawaitawa — preview yana nuna abin da aka tsawaita — sannan danna don aiwatarwa.
+Umarnin `Tsawaita` yana tsawaita ƙarshen da ya fi kusa na [Line](../line/), [Arc](../arc/), [Ellipse](../ellipse/), ko Polyline mai buɗewa da aka riƙe mai nuni a kansa zuwa mahaɗar da ta fi kusa da za ta yi da wani abu a zanen. Riƙe mai nuni kusa da ƙarshen da kake son tsawaitawa — preview yana nuna abin da aka tsawaita — sannan danna don aiwatarwa.
 
 Abubuwan da ke da ainihin ƙarshe kaɗai ake iya tsawaitawa. [Circle](../circle/) da cikakken (360°) Ellipse koyaushe siffofi ne rufaffu ba tare da ƙarshe ba, don haka ba za a taɓa tsawaita su ba — haka nan ga Polyline rufaffiya ko Rectangle. Ellipse na sashi (baka mai lanƙwasa) da Arc suna da ƙarshe kuma ana tsawaita su a hanya ɗaya da Line.
 
 ## Tsawaita abu
 
-1. Rubuta `extend` a tashar umarni ko danna maɓallin kayan aiki na **Extend**.
+1. Rubuta `Tsawaita` a tashar umarni ko danna maɓallin kayan aiki na **Extend**.
 2. **Riƙe mai nuni kusa da wani ƙarshen** abin da kake son tsawaitawa — preview yana nuna an tsawaita zuwa iyaka mafi kusa a wannan shugabancin.
 3. **Danna** don aiwatar da tsawaitarwar.
 

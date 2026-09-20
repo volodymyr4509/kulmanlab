@@ -8,11 +8,11 @@ order: 3
 
 # Rectangle
 
-`rectangle` komutu, iki karşıt köşe tıklamasıyla tanımlanan eksenlere paralel dikdörtgen çizer. Sonuç, dört köşede birer köşe noktası olan **kapalı `LWPOLYLINE`** olarak saklanır. Ayrılmış bir dikdörtgen nesne türü yoktur: oluşturulduktan sonra şekil, diğer [Çoklu Çizgi](../polyline/) gibi tam olarak davranır ve her çoklu çizgi düzenlemesi ona uygulanır.
+`Dikdörtgen` komutu, iki karşıt köşe tıklamasıyla tanımlanan eksenlere paralel dikdörtgen çizer. Sonuç, dört köşede birer köşe noktası olan **kapalı `LWPOLYLINE`** olarak saklanır. Ayrılmış bir dikdörtgen nesne türü yoktur: oluşturulduktan sonra şekil, diğer [Çoklu Çizgi](../polyline/) gibi tam olarak davranır ve her çoklu çizgi düzenlemesi ona uygulanır.
 
 ## Dikdörtgen Çizimi
 
-1. Terminale `rectangle` yazın veya araç çubuğundaki **Rectangle** düğmesine tıklayın.
+1. Terminale `Dikdörtgen` yazın veya araç çubuğundaki **Rectangle** düğmesine tıklayın.
 2. **Birinci köşeyi tıklayın** veya tam koordinat için `X,Y` yazıp **Enter** tuşuna basın.
 3. **Karşıt köşeyi tıklayın** — dikdörtgen anında yerleştirilir ve komut çıkar. Koordinat girişi burada da çalışır. Ya da tam bir genişlik ve yükseklik girmek için bunun yerine `D` tuşuna basın — aşağıdaki [Ölçü Girişi](#ölçü-girişi) bölümüne bakın.
 

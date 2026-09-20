@@ -8,7 +8,7 @@ order: 17
 
 # ClipboardCopy
 
-Lệnh `ClipboardCopy` ghi các đối tượng đã chọn vào **bộ nhớ tạm hệ thống** của bạn dưới dạng văn bản JSON. Vì dùng bộ nhớ tạm thật chứ không phải vùng đệm trong bộ nhớ, hình học đã sao chép vẫn tồn tại bên ngoài bản vẽ: hãy dán nó vào tệp khác, một thẻ trình duyệt thứ hai, hoặc một cửa sổ bạn mở sau đó bằng [ClipboardPaste](../clipboard-paste/).
+Lệnh `SaoChépVàoBộNhớTạm` ghi các đối tượng đã chọn vào **bộ nhớ tạm hệ thống** của bạn dưới dạng văn bản JSON. Vì dùng bộ nhớ tạm thật chứ không phải vùng đệm trong bộ nhớ, hình học đã sao chép vẫn tồn tại bên ngoài bản vẽ: hãy dán nó vào tệp khác, một thẻ trình duyệt thứ hai, hoặc một cửa sổ bạn mở sau đó bằng [ClipboardPaste](../clipboard-paste/).
 
 Đây chính là điểm khác với [Copy](../copy/): Copy nhân bản đối tượng ngay trong bản vẽ hiện tại chỉ bằng một thao tác, còn ClipboardCopy đặt chúng ở nơi có thể lấy lại từ một bản vẽ hoàn toàn khác.
 
@@ -17,12 +17,12 @@ Lệnh `ClipboardCopy` ghi các đối tượng đã chọn vào **bộ nhớ t�
 **Chọn trước rồi sao chép** — cách nhanh:
 
 1. Chọn một hoặc nhiều đối tượng trên vùng vẽ.
-2. Nhấn `Ctrl+C` (`Cmd+C` trên macOS), hoặc gõ `ClipboardCopy` trong dòng lệnh.
+2. Nhấn `Ctrl+C` (`Cmd+C` trên macOS), hoặc gõ `SaoChépVàoBộNhớTạm` trong dòng lệnh.
 3. Các đối tượng được ghi ngay vào bộ nhớ tạm và lệnh kết thúc.
 
 **Kích hoạt rồi chọn** — bắt đầu khi chưa chọn gì:
 
-1. Nhấn `Ctrl+C` hoặc gõ `ClipboardCopy` khi vùng chọn trống.
+1. Nhấn `Ctrl+C` hoặc gõ `SaoChépVàoBộNhớTạm` khi vùng chọn trống.
 2. Dòng nhắc hiển thị **pick objects to copy — Enter or Space to confirm**.
 3. **Chọn đối tượng** — nhấp để thêm hoặc bớt từng đối tượng, hoặc kéo để chọn theo vùng.
 4. Nhấn **Enter** hoặc **Space** để sao chép vùng chọn và thoát.

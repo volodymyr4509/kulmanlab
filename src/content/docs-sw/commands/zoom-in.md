@@ -8,11 +8,11 @@ order: 2
 
 # Zoom In
 
-Amri ya `zoomin` huzidisha kiwango cha sasa cha zoom kwa **1.5×** na kutoka mara moja, imewekwa katikati ya katikati ya mwonekano. Ni sawa na kishale kimoja cha gurudumu la skrolini kilichopanuka kuelekea katikati ya skrini badala ya kishale.
+Amri ya `Kuza` huzidisha kiwango cha sasa cha zoom kwa **1.5×** na kutoka mara moja, imewekwa katikati ya katikati ya mwonekano. Ni sawa na kishale kimoja cha gurudumu la skrolini kilichopanuka kuelekea katikati ya skrini badala ya kishale.
 
 ## Kupanua
 
-Bonyeza kitufe cha **Zoom In** kwenye upau wa zana au andika `zoomin` kwenye terminal. Zoom inatumika mara moja na amri hutoka — hakuna kubonyeza kwenye kanvasi kunahitajika.
+Bonyeza kitufe cha **Zoom In** kwenye upau wa zana au andika `Kuza` kwenye terminal. Zoom inatumika mara moja na amri hutoka — hakuna kubonyeza kwenye kanvasi kunahitajika.
 
 ## Jinsi hatua ya 1.5× inavyofanya kazi
 

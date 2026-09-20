@@ -8,11 +8,11 @@ order: 4
 
 # Print Manager
 
-Het `PrintManager`-commando opent de **Print Manager** — een apart exportvenster met een live preview-canvas, formaatkeuze (PNG / JPEG / WebP / PDF), een Style-keuze (Default / Monochrome / Blueprint) en optionele gebiedsbijsnijding. Er wordt niets naar een fysieke printer gestuurd; de uitvoer wordt gedownload als bestand.
+Het `Afdrukbeheer`-commando opent de **Print Manager** — een apart exportvenster met een live preview-canvas, formaatkeuze (PNG / JPEG / WebP / PDF), een Style-keuze (Default / Monochrome / Blueprint) en optionele gebiedsbijsnijding. Er wordt niets naar een fysieke printer gestuurd; de uitvoer wordt gedownload als bestand.
 
 ## De Print Manager openen
 
-Klik op de **Print**-werkbalkknop of typ `PrintManager` in de terminal. De Print Manager opent direct met een preview van de huidige viewport.
+Klik op de **Print**-werkbalkknop of typ `Afdrukbeheer` in de terminal. De Print Manager opent direct met een preview van de huidige viewport.
 
 De preview wordt gerenderd via exact hetzelfde codepad, op exact dezelfde pixelresolutie, als het bestand dat u uiteindelijk exporteert — het wijzigen van Quality, Style of het exportgebied rendert de preview direct opnieuw, dus wat u ziet is wat wordt gedownload, geen benadering ervan.
 

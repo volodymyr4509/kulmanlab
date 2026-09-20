@@ -8,13 +8,13 @@ order: 10
 
 # Offset
 
-Perintah `offset` membuat salinan paralel dari entitas pada jarak tegak lurus yang tetap. Anda mengetik jarak sekali, kemudian mengklik entitas dan memilih sisi — perintah tetap siap pada jarak yang sama sehingga Anda dapat membuat offset beberapa objek dalam satu sesi.
+Perintah `Offset` membuat salinan paralel dari entitas pada jarak tegak lurus yang tetap. Anda mengetik jarak sekali, kemudian mengklik entitas dan memilih sisi — perintah tetap siap pada jarak yang sama sehingga Anda dapat membuat offset beberapa objek dalam satu sesi.
 
 Tipe entitas yang didukung: **Line, Circle, Arc, Ellipse, Polyline** (termasuk Rectangle).
 
 ## Menggunakan offset
 
-1. Ketik `offset` di terminal atau klik tombol toolbar **Offset**.
+1. Ketik `Offset` di terminal atau klik tombol toolbar **Offset**.
 2. **Ketik jarak offset** dan tekan **Enter** atau **Space**.
 3. **Klik entitas** yang akan di-offset — jika entitasnya bukan tipe yang didukung, pesan error muncul dan Anda dapat mengklik entitas lain.
 4. **Gerakkan kursor** ke sisi di mana salinan harus muncul — pratinjau langsung mengikuti.

@@ -8,11 +8,11 @@ order: 13
 
 # Undo
 
-El comando `undo` revierte el último cambio en el dibujo — un paso por invocación. Cada adición, eliminación o edición de entidades se registra como una entrada de historial separada. Undo retrocede por estas entradas en orden inverso.
+El comando `Deshacer` revierte el último cambio en el dibujo — un paso por invocación. Cada adición, eliminación o edición de entidades se registra como una entrada de historial separada. Undo retrocede por estas entradas en orden inverso.
 
 ## Cómo deshacer
 
-- Escribe `undo` en el terminal, o
+- Escribe `Deshacer` en el terminal, o
 - Haz clic en el botón de la barra de herramientas **Undo**.
 
 Cada invocación revierte una acción registrada. Invócalo repetidamente para retroceder más.

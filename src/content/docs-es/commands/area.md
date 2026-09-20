@@ -8,7 +8,7 @@ order: 3
 
 # Area
 
-El comando `area` mide el área encerrada y el perímetro de un polígono definido por tres o más puntos seleccionados, e imprime ambos resultados en el terminal con 4 decimales. Es el tercer comando de medición, junto con [Distance](../distance/) (longitud en línea recta) y [Angle](../angle/) (ángulo interior en un vértice).
+El comando `Área` mide el área encerrada y el perímetro de un polígono definido por tres o más puntos seleccionados, e imprime ambos resultados en el terminal con 4 decimales. Es el tercer comando de medición, junto con [Distance](../distance/) (longitud en línea recta) y [Angle](../angle/) (ángulo interior en un vértice).
 
 ## Anatomía de una medición de área
 
@@ -30,7 +30,7 @@ El comando `area` mide el área encerrada y el perímetro de un polígono defini
 
 ## Medir un área
 
-1. Escribe `area` en el terminal o haz clic en el botón **Area** de la barra de herramientas (fila inferior del panel Measure).
+1. Escribe `Área` en el terminal o haz clic en el botón **Area** de la barra de herramientas (fila inferior del panel Measure).
 2. **Haz clic en el primer punto**, o escribe `X,Y` y presiona **Enter** para una coordenada exacta.
 3. **Haz clic en cada vértice adicional** en orden alrededor de la forma. La entrada de coordenadas funciona en cada paso.
 4. Una vez colocados al menos **3 puntos**, presiona **Enter** o **Space** (sin una entrada de coordenada o distancia pendiente) para cerrar el polígono y calcular el resultado.
@@ -93,5 +93,5 @@ En lugar de hacer clic, escribe una posición exacta para cualquier vértice:
 - El área se calcula con la [fórmula del área de Gauss](https://es.wikipedia.org/wiki/F%C3%B3rmula_del_%C3%A1rea_de_Gauss) y siempre se reporta como un valor positivo, independientemente del orden de los clics.
 - Los polígonos autointersecantes (aristas que se cruzan) siguen produciendo un resultado numérico, pero el valor puede no coincidir con la región visualmente encerrada — mantén un orden de clics sin cruces para un área con significado.
 - Los resultados se muestran solo en el **terminal y como un resaltado temporal en el lienzo** — no se agrega nada permanente al dibujo.
-- A diferencia de Distance y Angle, Area **no** encadena automáticamente una nueva medición — después de descartar el resultado, ejecuta `area` de nuevo para medir otro polígono.
+- A diferencia de Distance y Angle, Area **no** encadena automáticamente una nueva medición — después de descartar el resultado, ejecuta `Área` de nuevo para medir otro polígono.
 - La precisión es siempre de 4 decimales tanto para el área como para el perímetro, en las mismas unidades que las coordenadas del dibujo (sin conversión de unidades).

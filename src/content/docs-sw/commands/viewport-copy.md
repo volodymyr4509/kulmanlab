@@ -8,13 +8,13 @@ order: 2
 
 # ViewportCopy
 
-Amri ya `ViewportCopy` huiga mwonekano kwenye nafasi mpya, ukihifadhi kiwango chake na kitovu cha mfano. Inapatikana tu katika nafasi ya mpangilio (layout space).
+Amri ya `NakiliDirisha` huiga mwonekano kwenye nafasi mpya, ukihifadhi kiwango chake na kitovu cha mfano. Inapatikana tu katika nafasi ya mpangilio (layout space).
 
 ## Kuiga mwonekano
 
 1. Badilisha kwenye kichupo cha mpangilio wa karatasi.
 2. Kwa hiari bonyeza mwonekano kuuchagua wanza.
-3. Andika `ViewportCopy` kwenye terminal au bonyeza kitufe cha **Viewport Copy** kwenye upau wa zana.
+3. Andika `NakiliDirisha` kwenye terminal au bonyeza kitufe cha **Viewport Copy** kwenye upau wa zana.
 4. Kama hakuna mwonekano uliochaguliwa kabla, **bonyeza mwonekano** wa kuiga.
 5. **Bonyeza nukta ya msingi** — marejeleo ya msogeo. Au andika `X,Y` na ubonyeze **Enter** kwa kuratibu sahihi.
 6. **Bonyeza mahali pa marudio** — mwonekano huwekwa kwa msogeo wa msingi→marudio. Au tumia uingizaji wa kuratibu / kufunga pembe.

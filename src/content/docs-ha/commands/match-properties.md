@@ -8,17 +8,17 @@ order: 1
 
 # Match Properties
 
-Umarnin `MatchProperties` yana kwafin **abubuwan gani da layer** daga abu na tushe zuwa abu ɗaya ko fiye na manufa. Kawai abubuwan da ake raba tsakanin nauʼukan abu na tushe da manufa ana canja su — geometry ba ta taɓa canzawa ba.
+Umarnin `KwafaHalaye` yana kwafin **abubuwan gani da layer** daga abu na tushe zuwa abu ɗaya ko fiye na manufa. Kawai abubuwan da ake raba tsakanin nauʼukan abu na tushe da manufa ana canja su — geometry ba ta taɓa canzawa ba.
 
 ## Yadda ake kunnawa
 
-Danna maɓallin kayan aiki na **Match Properties** (alamar rolar fenti) a panel na Style, ko rubuta `MatchProperties` a tashar umarni.
+Danna maɓallin kayan aiki na **Match Properties** (alamar rolar fenti) a panel na Style, ko rubuta `KwafaHalaye` a tashar umarni.
 
 ## Tsarin aiki
 
 **Kunna tukuna, sannan zaɓi tushe:**
 
-1. Rubuta `MatchProperties` ko danna maɓallin kayan aiki ba tare da zaɓi mai riga ba.
+1. Rubuta `KwafaHalaye` ko danna maɓallin kayan aiki ba tare da zaɓi mai riga ba.
 2. **Danna abin tushe** — wanda kake son kwafin abubuwansa.
 3. **Danna kowane abin manufa** don yin amfani da abubuwan tushe. Za ka iya danna abubuwa masu yawa ɗaya bayan wani.
 4. Don yin amfani da ƙungiya lokaci ɗaya, **ja akwatin zaɓi** a kan manufofin.
@@ -27,7 +27,7 @@ Danna maɓallin kayan aiki na **Match Properties** (alamar rolar fenti) a panel 
 **Zaɓi tushe tukuna, sannan kunna:**
 
 1. Danna abu ɗaya don zaɓen shi.
-2. Kunna `MatchProperties`. Ana amfani da abin da aka zaɓa a matsayin tushe kai tsaye.
+2. Kunna `KwafaHalaye`. Ana amfani da abin da aka zaɓa a matsayin tushe kai tsaye.
 3. Danna abubuwan manufa ko ja-zaɓi, sannan **Enter** ko **Escape** don kammalawa.
 
 ## Wace abubuwa ake kwafi

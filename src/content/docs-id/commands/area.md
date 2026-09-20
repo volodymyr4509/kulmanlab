@@ -8,7 +8,7 @@ order: 3
 
 # Area
 
-Perintah `area` mengukur luas yang tertutup dan keliling poligon yang ditentukan oleh tiga titik yang diklik atau lebih, dan mencetak kedua hasil di terminal hingga 4 desimal. Ini adalah perintah pengukuran ketiga, bersama [Distance](../distance/) (panjang garis lurus) dan [Angle](../angle/) (sudut interior pada vertex).
+Perintah `Luas` mengukur luas yang tertutup dan keliling poligon yang ditentukan oleh tiga titik yang diklik atau lebih, dan mencetak kedua hasil di terminal hingga 4 desimal. Ini adalah perintah pengukuran ketiga, bersama [Distance](../distance/) (panjang garis lurus) dan [Angle](../angle/) (sudut interior pada vertex).
 
 ## Anatomi pengukuran luas
 
@@ -30,7 +30,7 @@ Perintah `area` mengukur luas yang tertutup dan keliling poligon yang ditentukan
 
 ## Mengukur luas
 
-1. Ketik `area` di terminal atau klik tombol toolbar **Area** (baris bawah panel Measure).
+1. Ketik `Luas` di terminal atau klik tombol toolbar **Area** (baris bawah panel Measure).
 2. **Klik titik pertama**, atau ketik `X,Y` dan tekan **Enter** untuk koordinat tepat.
 3. **Klik setiap vertex tambahan** secara berurutan mengelilingi bentuk. Entri koordinat berfungsi di setiap langkah.
 4. Setelah setidaknya **3 titik** ditempatkan, tekan **Enter** atau **Space** (tanpa entri koordinat atau jarak yang tertunda) untuk menutup poligon dan menghitung hasilnya.
@@ -93,5 +93,5 @@ Alih-alih mengklik, ketik posisi tepat untuk vertex mana pun:
 - Luas dihitung dengan rumus shoelace dan selalu dilaporkan sebagai nilai positif, terlepas dari urutan klik.
 - Poligon yang berpotongan sendiri (sisi yang saling silang) tetap menghasilkan hasil numerik, tetapi nilainya mungkin tidak sesuai dengan wilayah yang tertutup secara visual — pertahankan urutan klik tanpa persilangan untuk luas yang bermakna.
 - Hasil hanya ditampilkan di **terminal dan sebagai sorotan sementara di kanvas** — tidak ada yang ditambahkan secara permanen ke gambar.
-- Berbeda dengan Distance dan Angle, Area **tidak** secara otomatis merantai ke pengukuran baru — setelah menghilangkan hasil, jalankan `area` lagi untuk mengukur poligon lain.
+- Berbeda dengan Distance dan Angle, Area **tidak** secara otomatis merantai ke pengukuran baru — setelah menghilangkan hasil, jalankan `Luas` lagi untuk mengukur poligon lain.
 - Presisi selalu 4 desimal untuk luas maupun keliling, dalam satuan yang sama dengan koordinat gambar (tidak ada konversi satuan).

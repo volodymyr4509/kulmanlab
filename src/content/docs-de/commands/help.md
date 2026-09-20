@@ -12,7 +12,7 @@ order: 2
 
 ## So verwenden Sie es
 
-Klicken Sie auf die Schaltfläche **Help** in der Symbolleiste oder geben Sie `help` im Terminal ein. Das Hilfe-Panel öffnet sich sofort und der Befehl endet.
+Klicken Sie auf die Schaltfläche **Help** in der Symbolleiste oder geben Sie `Hilfe` im Terminal ein. Das Hilfe-Panel öffnet sich sofort und der Befehl endet.
 
 ## Inhalt des Hilfe-Panels
 

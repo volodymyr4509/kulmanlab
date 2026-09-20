@@ -8,13 +8,13 @@ order: 9
 
 # Extend
 
-`extend` komutu, üzerine gelinen bir [Line](../line/), [Arc](../arc/), [Ellipse](../ellipse/) veya açık [Polyline](../polyline/)'ın en yakın ucunu, çizimdeki başka bir nesneyle oluşturacağı en yakın kesişime kadar uzatır. Uzatmak istediğiniz ucun yakınına gelin — bir önizleme uzatılmış nesneyi gösterir — ardından uygulamak için tıklayın.
+`Uzat` komutu, üzerine gelinen bir [Line](../line/), [Arc](../arc/), [Ellipse](../ellipse/) veya açık [Polyline](../polyline/)'ın en yakın ucunu, çizimdeki başka bir nesneyle oluşturacağı en yakın kesişime kadar uzatır. Uzatmak istediğiniz ucun yakınına gelin — bir önizleme uzatılmış nesneyi gösterir — ardından uygulamak için tıklayın.
 
 Yalnızca gerçek bir ucu olan nesneler uzatılabilir. Bir [Circle](../circle/) ve tam (360°) bir Ellipse her zaman ucu olmayan kapalı şekillerdir, bu yüzden asla uzatılamazlar — kapalı bir Polyline veya Rectangle için de aynı geçerlidir. Kısmi bir Ellipse (eliptik bir yay) ve bir Arc'ın uçları vardır ve tıpkı bir Line gibi uzatılırlar.
 
 ## Bir nesneyi uzatma
 
-1. Terminale `extend` yazın veya araç çubuğundaki **Extend** düğmesine tıklayın.
+1. Terminale `Uzat` yazın veya araç çubuğundaki **Extend** düğmesine tıklayın.
 2. Uzatmak istediğiniz nesnenin **bir ucunun yakınına gelin** — önizleme, o yöndeki en yakın sınıra kadar uzatılmış halini gösterir.
 3. Uzatmayı uygulamak için **tıklayın**.
 

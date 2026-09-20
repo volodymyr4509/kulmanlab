@@ -8,11 +8,11 @@ order: 1
 
 # LayerManager
 
-De opdracht `LayerManager` opent een tabel met alle lagen in de tekening, waarbij **Freeze**, **Lock**, **Plot**, **Kleur**, **Lijndikte** en **Lijntype** rechtstreeks in de rij te bewerken zijn. Het is de centrale plek om lagen toe te voegen, ongebruikte te verwijderen en het gedrag van bestaande aan te passen — de andere laagopdrachten ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) doen elk één gerichte taak zonder hem te openen.
+De opdracht `Laagbeheer` opent een tabel met alle lagen in de tekening, waarbij **Freeze**, **Lock**, **Plot**, **Kleur**, **Lijndikte** en **Lijntype** rechtstreeks in de rij te bewerken zijn. Het is de centrale plek om lagen toe te voegen, ongebruikte te verwijderen en het gedrag van bestaande aan te passen — de andere laagopdrachten ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) doen elk één gerichte taak zonder hem te openen.
 
 ## De Layer Manager openen
 
-- Typ `LayerManager` in de terminal, **of**
+- Typ `Laagbeheer` in de terminal, **of**
 - Klik op de knop **Layer Manager** in het lagenpaneel.
 
 Het dialoogvenster opent als een zwevend paneel; er hoeft vooraf niets geselecteerd te zijn.

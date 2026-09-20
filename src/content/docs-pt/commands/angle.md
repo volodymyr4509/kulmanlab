@@ -8,7 +8,7 @@ order: 2
 
 # Angle
 
-O comando `angle` mede o ângulo interior num vértice formado por dois segmentos de reta através de três pontos clicados. O resultado — sempre entre 0° e 180° — é apresentado no terminal com 4 casas decimais. É um dos três comandos de medição — [Distance](../distance/) mede comprimentos em linha reta, e [Area](../area/) mede a área delimitada e o perímetro de um polígono.
+O comando `Ângulo` mede o ângulo interior num vértice formado por dois segmentos de reta através de três pontos clicados. O resultado — sempre entre 0° e 180° — é apresentado no terminal com 4 casas decimais. É um dos três comandos de medição — [Distance](../distance/) mede comprimentos em linha reta, e [Area](../area/) mede a área delimitada e o perímetro de um polígono.
 
 ## Anatomia de uma medição de ângulo
 
@@ -30,7 +30,7 @@ O comando `angle` mede o ângulo interior num vértice formado por dois segmento
 
 ## Medir um ângulo
 
-1. Digite `angle` no terminal ou clique no botão **Angle** na barra de ferramentas.
+1. Digite `Ângulo` no terminal ou clique no botão **Angle** na barra de ferramentas.
 2. **Clique no primeiro ponto** — uma extremidade do ângulo. Ou digite `X,Y` e pressione **Enter** para uma coordenada exata.
 3. **Clique no vértice** — o canto onde os dois braços se encontram. A entrada de coordenadas também funciona aqui.
 4. **Clique no terceiro ponto** — a segunda extremidade do braço. A entrada de coordenadas também funciona aqui. Ao colocar este ponto o resultado é impresso.

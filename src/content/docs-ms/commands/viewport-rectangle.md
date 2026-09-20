@@ -8,12 +8,12 @@ order: 1
 
 # ViewportRectangle
 
-Arahan `ViewportRectangle` mencipta viewport baharu dalam susun atur kertas aktif dengan memilih dua sudut bertentangan. Hanya tersedia dalam ruang susun atur.
+Arahan `ViewportSegiEmpat` mencipta viewport baharu dalam susun atur kertas aktif dengan memilih dua sudut bertentangan. Hanya tersedia dalam ruang susun atur.
 
 ## Mencipta viewport
 
 1. Tukar ke susun atur kertas menggunakan tab di bahagian bawah skrin.
-2. Taip `ViewportRectangle` dalam terminal atau klik butang bar alat **Viewport Rectangle**.
+2. Taip `ViewportSegiEmpat` dalam terminal atau klik butang bar alat **Viewport Rectangle**.
 3. **Klik sudut pertama**, atau taip `X,Y` dan tekan **Enter** untuk koordinat tepat.
 4. **Klik sudut bertentangan** — viewport diletakkan serta-merta. Kemasukan koordinat juga berfungsi di sini.
 

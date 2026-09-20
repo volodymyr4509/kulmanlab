@@ -8,11 +8,11 @@ order: 3
 
 # File Manager
 
-Het commando `FileManager` opent een **miniaturenraster** van elke tekening die is opgeslagen in de lokale opslag van uw browser, gesorteerd op het tijdstip waarop elke tekening voor het laatst is opgeslagen. Gebruik het om een eerdere tekening opnieuw te openen, te hernoemen of te verwijderen.
+Het commando `Bestandsbeheer` opent een **miniaturenraster** van elke tekening die is opgeslagen in de lokale opslag van uw browser, gesorteerd op het tijdstip waarop elke tekening voor het laatst is opgeslagen. Gebruik het om een eerdere tekening opnieuw te openen, te hernoemen of te verwijderen.
 
 ## De File Manager openen
 
-- Typ `FileManager` in de terminal, **of**
+- Typ `Bestandsbeheer` in de terminal, **of**
 - Klik op de werkbalkknop **File Manager** (geschiedenisicoon) in het Bestand-paneel bovenaan het scherm.
 
 Het paneel opent aan de linkerkant van het canvas en sluit automatisch zodra u een ander commando start of een bestand [importeert](../import/) — zodat het nooit blijft hangen boven een tekening die het nog niet vermeldt. Het gaat elke keer weer open met een actuele lijst.

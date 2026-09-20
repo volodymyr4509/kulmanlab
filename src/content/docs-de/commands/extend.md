@@ -8,13 +8,13 @@ order: 9
 
 # Extend
 
-Der `extend`-Befehl dehnt den nächsten Endpunkt einer gehoverten [Line](../line/), eines [Arc](../arc/), einer [Ellipse](../ellipse/) oder einer offenen [Polyline](../polyline/) bis zum nächsten Schnittpunkt, den sie mit einem anderen Element in der Zeichnung bilden würde. Hovern Sie nahe dem Endpunkt, den Sie verlängern möchten — eine Vorschau zeigt das verlängerte Element — dann klicken Sie, um anzuwenden.
+Der `Dehnen`-Befehl dehnt den nächsten Endpunkt einer gehoverten [Line](../line/), eines [Arc](../arc/), einer [Ellipse](../ellipse/) oder einer offenen [Polyline](../polyline/) bis zum nächsten Schnittpunkt, den sie mit einem anderen Element in der Zeichnung bilden würde. Hovern Sie nahe dem Endpunkt, den Sie verlängern möchten — eine Vorschau zeigt das verlängerte Element — dann klicken Sie, um anzuwenden.
 
 Nur Elemente mit einem tatsächlichen Endpunkt können verlängert werden. Ein [Circle](../circle/) und eine vollständige (360°) Ellipse sind immer geschlossene Formen ohne Endpunkt, daher können sie nie verlängert werden — dasselbe gilt für eine geschlossene Polyline oder ein Rectangle. Eine teilweise Ellipse (ein elliptischer Bogen) und ein Arc haben Endpunkte und werden genauso verlängert wie eine Line.
 
 ## Ein Element verlängern
 
-1. Geben Sie `extend` im Terminal ein oder klicken Sie auf die Schaltfläche **Extend** in der Symbolleiste.
+1. Geben Sie `Dehnen` im Terminal ein oder klicken Sie auf die Schaltfläche **Extend** in der Symbolleiste.
 2. **Hovern Sie nahe einem Ende** des Elements, das Sie verlängern möchten — die Vorschau zeigt es bis zur nächsten Begrenzung in dieser Richtung verlängert.
 3. **Klicken**, um die Verlängerung anzuwenden.
 

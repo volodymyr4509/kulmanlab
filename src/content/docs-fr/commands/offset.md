@@ -8,13 +8,13 @@ order: 10
 
 # Offset
 
-La commande `offset` crée une copie parallèle d'une entité à une distance perpendiculaire fixe. Vous tapez la distance une fois, puis cliquez sur les entités et choisissez un côté — la commande reste prête à la même distance pour que vous puissiez faire un offset sur plusieurs objets en une seule session.
+La commande `Décaler` crée une copie parallèle d'une entité à une distance perpendiculaire fixe. Vous tapez la distance une fois, puis cliquez sur les entités et choisissez un côté — la commande reste prête à la même distance pour que vous puissiez faire un offset sur plusieurs objets en une seule session.
 
 Types d'entités supportés : **Line, Circle, Arc, Ellipse, Polyline** (y compris les Rectangles).
 
 ## Utiliser offset
 
-1. Tapez `offset` dans le terminal ou cliquez sur le bouton **Offset** de la barre d'outils.
+1. Tapez `Décaler` dans le terminal ou cliquez sur le bouton **Offset** de la barre d'outils.
 2. **Tapez la distance d'offset** et appuyez sur **Entrée** ou **Espace**.
 3. **Cliquez sur une entité** à décaler — si l'entité n'est pas d'un type supporté, un message d'erreur apparaît et vous pouvez cliquer sur une autre entité.
 4. **Déplacez le curseur** vers le côté où la copie doit apparaître — un aperçu en direct suit.

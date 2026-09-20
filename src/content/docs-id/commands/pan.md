@@ -8,11 +8,11 @@ order: 1
 
 # Pan
 
-Perintah `pan` memasuki mode seret-untuk-gulir yang persisten — klik dan seret di mana saja pada kanvas untuk menggeser tampilan. Tingkat zoom tidak berubah. Mode Pan tetap aktif sampai Anda menekan `Escape`, sehingga Anda dapat menyeret beberapa kali dalam satu aktivasi.
+Perintah `Geser` memasuki mode seret-untuk-gulir yang persisten — klik dan seret di mana saja pada kanvas untuk menggeser tampilan. Tingkat zoom tidak berubah. Mode Pan tetap aktif sampai Anda menekan `Escape`, sehingga Anda dapat menyeret beberapa kali dalam satu aktivasi.
 
 ## Menggeser tampilan
 
-1. Ketik `pan` di terminal atau klik tombol toolbar **Pan**.
+1. Ketik `Geser` di terminal atau klik tombol toolbar **Pan**.
 2. **Klik dan seret** di mana saja pada kanvas untuk menggeser tampilan.
 3. Lepaskan dan seret lagi sebanyak yang diperlukan.
 4. Tekan `Escape` untuk keluar dari mode pan.

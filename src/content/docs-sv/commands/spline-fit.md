@@ -8,11 +8,11 @@ order: 9
 
 # Spline Fit
 
-`splinefit`-kommandot ritar en kubisk spline som passerar genom varje punkt du klickar på — en interpolerande kurva. Till skillnad från [Spline CV](../spline-cv/), där kurvan bara dras mot styrpunkter, tvingas kurvan här att träffa varje klickad koordinat exakt. Internt beräknar redigeraren styrpunkter för att åstadkomma detta, och dessa styrpunkter lagras tillsammans med fitpunkterna i DXF-filen.
+`SplinePunkter`-kommandot ritar en kubisk spline som passerar genom varje punkt du klickar på — en interpolerande kurva. Till skillnad från [Spline CV](../spline-cv/), där kurvan bara dras mot styrpunkter, tvingas kurvan här att träffa varje klickad koordinat exakt. Internt beräknar redigeraren styrpunkter för att åstadkomma detta, och dessa styrpunkter lagras tillsammans med fitpunkterna i DXF-filen.
 
 ## Rita en spline genom fitpunkter
 
-1. Skriv `splinefit` i terminalen eller klicka på **Spline Fit**-knappen i verktygsfältet.
+1. Skriv `SplinePunkter` i terminalen eller klicka på **Spline Fit**-knappen i verktygsfältet.
 2. **Klicka för att placera fitpunkter** — kurvan kommer att passera genom var och en. Eller skriv `X,Y` och tryck **Enter** för en exakt koordinat.
 3. Tryck på **Enter** eller **Space** för att avsluta (minst 2 punkter krävs).
 

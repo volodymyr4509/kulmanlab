@@ -8,11 +8,11 @@ order: 3
 
 # PageManager
 
-Der Befehl `PageManager` öffnet den Seiten-Einstellungsdialog für das aktive Layout und ermöglicht Ihnen, das Papierformat, die Ausrichtung und den Maßstab zwischen Zeichnungseinheiten und Millimetern zu ändern.
+Der Befehl `Seitenmanager` öffnet den Seiten-Einstellungsdialog für das aktive Layout und ermöglicht Ihnen, das Papierformat, die Ausrichtung und den Maßstab zwischen Zeichnungseinheiten und Millimetern zu ändern.
 
 ## Den Seitenmanager öffnen
 
-- Geben Sie `PageManager` im Terminal ein, **oder**
+- Geben Sie `Seitenmanager` im Terminal ein, **oder**
 - Klicken Sie mit der rechten Maustaste auf einen Layout-Tab unten und wählen Sie **Page Manager**.
 
 ## Einstellungen

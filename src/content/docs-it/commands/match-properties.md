@@ -8,17 +8,17 @@ order: 1
 
 # Match Properties
 
-Il comando `MatchProperties` copia **proprietà visive e di livello** da un'entità sorgente a una o più entità di destinazione. Vengono trasferite solo le proprietà condivise tra i tipi di entità sorgente e destinazione — la geometria non viene mai modificata.
+Il comando `CopiaProprietà` copia **proprietà visive e di livello** da un'entità sorgente a una o più entità di destinazione. Vengono trasferite solo le proprietà condivise tra i tipi di entità sorgente e destinazione — la geometria non viene mai modificata.
 
 ## Come attivarlo
 
-Clicca il pulsante **Match Properties** nella barra degli strumenti (icona rullo di vernice) nel pannello Stile, oppure digita `MatchProperties` nel terminale.
+Clicca il pulsante **Match Properties** nella barra degli strumenti (icona rullo di vernice) nel pannello Stile, oppure digita `CopiaProprietà` nel terminale.
 
 ## Flusso di lavoro
 
 **Attiva prima, poi seleziona la sorgente:**
 
-1. Digita `MatchProperties` o clicca il pulsante della barra degli strumenti senza nulla preselezionato.
+1. Digita `CopiaProprietà` o clicca il pulsante della barra degli strumenti senza nulla preselezionato.
 2. **Clicca l'entità sorgente** — quella le cui proprietà vuoi copiare.
 3. **Clicca ogni entità di destinazione** per applicare le proprietà sorgente. Puoi cliccare più entità una alla volta.
 4. Per applicare a un gruppo contemporaneamente, **trascina un riquadro di selezione** sulle destinazioni.
@@ -27,7 +27,7 @@ Clicca il pulsante **Match Properties** nella barra degli strumenti (icona rullo
 **Preseleziona la sorgente, poi attiva:**
 
 1. Clicca una singola entità per selezionarla.
-2. Attiva `MatchProperties`. L'entità selezionata viene usata come sorgente automaticamente.
+2. Attiva `CopiaProprietà`. L'entità selezionata viene usata come sorgente automaticamente.
 3. Clicca le entità di destinazione o trascina per selezionare, poi **Invio** o **Esc** per terminare.
 
 ## Quali proprietà vengono copiate

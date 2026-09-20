@@ -8,11 +8,11 @@ order: 4
 
 # Fit
 
-Komento `fit` laskee kaikkien piirustuksen entiteettien rajauslaatikon ja säätää sekä zoomtason että panorointiasennon niin, että jokainen entiteetti on näkyvissä pienellä marginaalilla. Se on nopein tapa palauttaa kadonnut näkymä tai suunnistautua DXF-tiedoston tuonnin jälkeen.
+Komento `Sovita` laskee kaikkien piirustuksen entiteettien rajauslaatikon ja säätää sekä zoomtason että panorointiasennon niin, että jokainen entiteetti on näkyvissä pienellä marginaalilla. Se on nopein tapa palauttaa kadonnut näkymä tai suunnistautua DXF-tiedoston tuonnin jälkeen.
 
 ## Näkymän sovittaminen
 
-Napsauta **Fit**-painiketta työkalurivillä tai kirjoita `fit` terminaaliin. Näkymä säätyy välittömästi ja komento päättyy — vuorovaikutusta ei tarvita.
+Napsauta **Fit**-painiketta työkalurivillä tai kirjoita `Sovita` terminaaliin. Näkymä säätyy välittömästi ja komento päättyy — vuorovaikutusta ei tarvita.
 
 **Keskimmäisen hiiripainikkeen kaksoisnapsautus** laukaisee saman Fit-toiminnon milloin tahansa aktivoimatta mitään komentoa — nopein pikakomento kadonneen näkymän nollaamiseksi kesken piirtämisen.
 

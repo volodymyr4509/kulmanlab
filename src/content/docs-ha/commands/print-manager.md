@@ -8,11 +8,11 @@ order: 4
 
 # Print Manager
 
-Umarnin `PrintManager` yana buɗe **Print Manager** — taga na fitarwa na musamman tare da canvas na preview mai rai, mai zaɓen tsari (PNG / JPEG / WebP / PDF), mai zaɓen Style (Default / Monochrome / Blueprint), da yankewar yanki na zaɓi. Babu abin da ake aikawa zuwa firinta na jiki; ana sauke fitarwar a matsayin fayil.
+Umarnin `SarrafaBugawa` yana buɗe **Print Manager** — taga na fitarwa na musamman tare da canvas na preview mai rai, mai zaɓen tsari (PNG / JPEG / WebP / PDF), mai zaɓen Style (Default / Monochrome / Blueprint), da yankewar yanki na zaɓi. Babu abin da ake aikawa zuwa firinta na jiki; ana sauke fitarwar a matsayin fayil.
 
 ## Buɗe Print Manager
 
-Danna maɓallin kayan aiki na **Print** ko rubuta `PrintManager` a tashar umarni. Print Manager yana buɗewa nan take yana nuna preview na viewport na yanzu.
+Danna maɓallin kayan aiki na **Print** ko rubuta `SarrafaBugawa` a tashar umarni. Print Manager yana buɗewa nan take yana nuna preview na viewport na yanzu.
 
 Ana bayar da preview ta hanyar hanyar code guda ɗaya daidai, a daidai girman pixel guda, kamar fayil ɗin da za ka fitar a ƙarshe — canza Quality, Style, ko yankin fitarwa yana sake bayar da preview nan take, don haka abin da kake gani shi ne abin da ake sauka, ba kusanci ba ne.
 

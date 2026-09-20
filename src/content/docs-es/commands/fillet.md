@@ -8,13 +8,13 @@ order: 11
 
 # Fillet
 
-El comando `fillet` redondea una esquina entre dos segmentos [Line](../line/), [Arc](../arc/) o [Polyline](../polyline/) insertando un arco tangente de un radio dado, recortando (o fusionando) las entidades elegidas hasta ese punto.
+El comando `Empalme` redondea una esquina entre dos segmentos [Line](../line/), [Arc](../arc/) o [Polyline](../polyline/) insertando un arco tangente de un radio dado, recortando (o fusionando) las entidades elegidas hasta ese punto.
 
 Fillet funciona con entidades **Line, Arc y Polyline** — incluyendo los segmentos rectos o de arco de una polilínea.
 
 ## Usar fillet
 
-1. Escribe `fillet` en el terminal o haz clic en el botón **Fillet** de la barra de herramientas.
+1. Escribe `Empalme` en el terminal o haz clic en el botón **Fillet** de la barra de herramientas.
 2. **Escribe el radio del filete** y presiona **Enter**.
 3. **Haz clic en la primera línea, arco o segmento de polilínea** — la parte donde haces clic determina qué lado de cualquier intersección se mantiene.
 4. **Pasa el cursor sobre la segunda entidad** — una vista previa de arco discontinuo muestra el filete resultante. Mueve el cursor hacia el lado que quieres mantener.

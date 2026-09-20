@@ -8,7 +8,7 @@ order: 1
 
 # Leader
 
-Amri ya `leader` inachora maelezo ya multileader katika hatua nne: mshale unaogusa kipengele, mstari wa kiongozi unaopinda kwenye dogleg, nanga ya maandishi, na lebo iliyoandikwa. Kati ya amri zote za maelezo, Leader ndiyo pekee inayojumuisha awamu ya kuingiza maandishi ya mwingiliano yenye mwanga wa mshale unaokimbia.
+Amri ya `Kiashiria` inachora maelezo ya multileader katika hatua nne: mshale unaogusa kipengele, mstari wa kiongozi unaopinda kwenye dogleg, nanga ya maandishi, na lebo iliyoandikwa. Kati ya amri zote za maelezo, Leader ndiyo pekee inayojumuisha awamu ya kuingiza maandishi ya mwingiliano yenye mwanga wa mshale unaokimbia.
 
 ## Muundo wa multileader
 
@@ -27,7 +27,7 @@ Amri ya `leader` inachora maelezo ya multileader katika hatua nne: mshale unaogu
 
 ## Kuchora kiongozi
 
-1. Andika `leader` kwenye terminal au bonyeza kitufe cha **Leader** kwenye upau wa zana.
+1. Andika `Kiashiria` kwenye terminal au bonyeza kitufe cha **Leader** kwenye upau wa zana.
 2. **Bonyeza ncha ya mshale**, au andika `X,Y` na bonyeza **Enter** kwa kuratibu sahihi.
 3. **Bonyeza dogleg** — mpindo katika kiongozi. Pembe inafungwa kwa vipande vya 45°; andika urefu na bonyeza **Enter** kwa uwekaji sahihi. Au andika `X,Y` kuingiza kuratibu kamili.
 4. **Bonyeza nafasi ya maandishi** — mahali ambapo lebo inashikamana. Chaguzi sawa zinatumika: bonyeza, kufunga pembe + urefu, au `X,Y`.

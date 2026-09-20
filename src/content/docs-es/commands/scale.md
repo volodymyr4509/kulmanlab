@@ -8,20 +8,20 @@ order: 5
 
 # Scale
 
-El comando `scale` redimensiona las entidades seleccionadas uniformemente alrededor de un punto base. Todas las distancias desde el punto base se multiplican por el factor de escala — un factor de `2` duplica todas las dimensiones, `0.5` las reduce a la mitad. El factor siempre se introduce escribiéndolo; no hay escala por clic.
+El comando `Escalar` redimensiona las entidades seleccionadas uniformemente alrededor de un punto base. Todas las distancias desde el punto base se multiplican por el factor de escala — un factor de `2` duplica todas las dimensiones, `0.5` las reduce a la mitad. El factor siempre se introduce escribiéndolo; no hay escala por clic.
 
 ## Dos formas de empezar
 
 **Preseleccionar y luego escalar** — selecciona las entidades primero y luego activa:
 
 1. Selecciona una o más entidades en el lienzo.
-2. Escribe `scale` en el terminal o haz clic en el botón de la barra de herramientas **Scale**.
+2. Escribe `Escalar` en el terminal o haz clic en el botón de la barra de herramientas **Scale**.
 3. **Haz clic en el punto base** — el punto fijo que no se mueve durante el escalado. O escribe `X,Y` y pulsa **Enter** para una coordenada exacta.
 4. **Escribe el factor de escala** y pulsa **Enter**.
 
 **Activar y luego seleccionar** — inicia el comando sin nada seleccionado:
 
-1. Escribe `scale` o haz clic en el botón de la barra de herramientas.
+1. Escribe `Escalar` o haz clic en el botón de la barra de herramientas.
 2. **Selecciona objetos** — haz clic para alternar, o arrastra para seleccionar por área.
 3. Pulsa **Enter** o **Space** para confirmar la selección.
 4. **Haz clic en el punto base** (entrada de coordenadas disponible) y luego escribe el factor.

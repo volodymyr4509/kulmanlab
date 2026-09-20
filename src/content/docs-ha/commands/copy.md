@@ -8,20 +8,20 @@ order: 2
 
 # Copy
 
-Umarnin `copy` yana ƙirƙirar kwafi masu motsawa na abubuwan da aka zaɓa kuma yana sanya su a nisa daga tabon tushe zuwa manufa — na asali suna ci gaba da zama daidai inda suke. Wannan shine babban bambanci ɗaya daga [Move](../move/): Copy yana ƙara sabbin abubuwa zuwa zanen; Move yana sake matsayin waɗanda ke akwai.
+Umarnin `Kwafa` yana ƙirƙirar kwafi masu motsawa na abubuwan da aka zaɓa kuma yana sanya su a nisa daga tabon tushe zuwa manufa — na asali suna ci gaba da zama daidai inda suke. Wannan shine babban bambanci ɗaya daga [Move](../move/): Copy yana ƙara sabbin abubuwa zuwa zanen; Move yana sake matsayin waɗanda ke akwai.
 
 ## Hanyoyi biyu na farawa
 
 **Zaɓi tukuna, sannan kwafi** — zaɓi abubuwa tukuna, sannan kunna:
 
 1. Zaɓi wani abu ɗaya ko fiye a kan canvas.
-2. Rubuta `copy` a tashar umarni ko danna maɓallin kayan aiki na **Copy**.
+2. Rubuta `Kwafa` a tashar umarni ko danna maɓallin kayan aiki na **Copy**.
 3. **Danna tabon tushe**, ko rubuta `X,Y` ka danna **Enter** don daidaitawa madaidaiciya.
 4. **Danna manufa** — kwafi suna bayyana a nisan tushe→manufa. Shigar da daidaitawa yana aiki a nan ma.
 
 **Kunna, sannan zaɓi** — fara umarnin ba tare da zaɓi ba:
 
-1. Rubuta `copy` ko danna maɓallin kayan aiki.
+1. Rubuta `Kwafa` ko danna maɓallin kayan aiki.
 2. **Zaɓi abubuwa** — danna don canza zaɓi na kowane abu, ko ja don zaɓi ta yanki.
 3. Danna **Enter** ko **Space** don tabbatar da zaɓi.
 4. **Danna tabon tushe**, sannan **danna manufa** (shigar da daidaitawa ana samu a matakan biyu).

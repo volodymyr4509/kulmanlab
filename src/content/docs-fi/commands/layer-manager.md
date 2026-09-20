@@ -8,11 +8,11 @@ order: 1
 
 # LayerManager
 
-`LayerManager`-komento avaa taulukon, jossa on lueteltuna piirustuksen jokainen taso, ja jossa **Freeze**-, **Lock**-, **Plot**-, **väri**-, **viivanpaksuus**- ja **viivatyyppi**-asetuksia voi muokata suoraan rivillä. Se on keskeinen paikka lisätä tasoja, poistaa käyttämättömiä ja säätää olemassa olevien käyttäytymistä — muut tasokomennot ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) tekevät kukin yhden rajatun asian avaamatta sitä.
+`Tasojenhallinta`-komento avaa taulukon, jossa on lueteltuna piirustuksen jokainen taso, ja jossa **Freeze**-, **Lock**-, **Plot**-, **väri**-, **viivanpaksuus**- ja **viivatyyppi**-asetuksia voi muokata suoraan rivillä. Se on keskeinen paikka lisätä tasoja, poistaa käyttämättömiä ja säätää olemassa olevien käyttäytymistä — muut tasokomennot ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) tekevät kukin yhden rajatun asian avaamatta sitä.
 
 ## Layer Managerin avaaminen
 
-- Kirjoita `LayerManager` terminaaliin, **tai**
+- Kirjoita `Tasojenhallinta` terminaaliin, **tai**
 - Napsauta **Layer Manager**-painiketta tasopaneelissa.
 
 Valintaikkuna avautuu kelluvana paneelina; mitään ei tarvitse valita etukäteen.

@@ -8,11 +8,11 @@ order: 2
 
 # Zoom In
 
-Il comando `zoomin` moltiplica il livello di zoom corrente per **1,5×** ed esce immediatamente, centrato sul centro della finestra. È l'equivalente nella barra degli strumenti di un tick della rotella del mouse zoomato verso il centro dello schermo anziché verso il cursore.
+Il comando `Ingrandisci` moltiplica il livello di zoom corrente per **1,5×** ed esce immediatamente, centrato sul centro della finestra. È l'equivalente nella barra degli strumenti di un tick della rotella del mouse zoomato verso il centro dello schermo anziché verso il cursore.
 
 ## Eseguire lo zoom avanti
 
-Clicca il pulsante **Zoom In** nella barra degli strumenti o digita `zoomin` nel terminale. Lo zoom viene applicato istantaneamente e il comando esce — nessun clic sul canvas richiesto.
+Clicca il pulsante **Zoom In** nella barra degli strumenti o digita `Ingrandisci` nel terminale. Lo zoom viene applicato istantaneamente e il comando esce — nessun clic sul canvas richiesto.
 
 ## Come funziona il passo da 1,5×
 

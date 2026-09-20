@@ -8,11 +8,11 @@ order: 7
 
 # Hatch
 
-Kommandoen `hatch` fyller området rundt et klikket punkt med et mønster. Grensen tegnes ikke først — den kommer fra det som allerede er på lerretet, så fire separate [Lines](../line/) som møtes ende til ende, omslutter et område akkurat som en lukket [Polyline](../polyline/) gjør, og enhver lukket form inni blir en øy som fyllingen lar være.
+Kommandoen `Skravering` fyller området rundt et klikket punkt med et mønster. Grensen tegnes ikke først — den kommer fra det som allerede er på lerretet, så fire separate [Lines](../line/) som møtes ende til ende, omslutter et område akkurat som en lukket [Polyline](../polyline/) gjør, og enhver lukket form inni blir en øy som fyllingen lar være.
 
 ## Fylle et område
 
-1. Skriv `hatch` i terminalen, eller klikk på verktøylinjeknappen **Hatch** (mønsterikonet).
+1. Skriv `Skravering` i terminalen, eller klikk på verktøylinjeknappen **Hatch** (mønsterikonet).
 2. **Klikk på et punkt** inne i området du vil fylle.
 3. Kommandoen forblir aktiv, så fortsett å klikke for å fylle flere områder — hvert klikk lager sin egen `Hatch`-entitet.
 4. Trykk **Enter**, **Space** eller **Escape** når du er ferdig.
@@ -69,7 +69,7 @@ Hver nye hatch starter fylt med `ANSI31` (eller hvilket mønster den *sist* redi
 1. Velg en eksisterende hatch og åpne **Pattern**-feltet i egenskapspanelet — dette åpner mønstervelgeren, et rutenett av navngitte swatcher gruppert etter hvor hvert mønster kom fra.
 2. Klikk på et mønster for å bruke det — fyllingen oppdateres umiddelbart.
 
-Dette valget blir også standarden for den *neste* hatchen du lager med `hatch`-kommandoen, på samme måte som å velge et lag eller en farge føres videre. Så for å hatche flere nye områder med et bestemt mønster: fyll ett område, sett mønsteret én gang, og fortsett å hatche — hver fylling deretter starter allerede med det mønsteret brukt.
+Dette valget blir også standarden for den *neste* hatchen du lager med `Skravering`-kommandoen, på samme måte som å velge et lag eller en farge føres videre. Så for å hatche flere nye områder med et bestemt mønster: fyll ett område, sett mønsteret én gang, og fortsett å hatche — hver fylling deretter starter allerede med det mønsteret brukt.
 
 Se [Hatch Manager](../hatch-manager/) for å laste opp dine egne `.pat`-mønsterfiler og bla gjennom hele biblioteket.
 

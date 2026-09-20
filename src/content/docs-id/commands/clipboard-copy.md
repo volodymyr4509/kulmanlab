@@ -8,7 +8,7 @@ order: 17
 
 # ClipboardCopy
 
-Perintah `ClipboardCopy` menulis entitas terpilih ke **papan klip sistem** Anda sebagai teks JSON. Karena memakai papan klip yang sebenarnya dan bukan penyangga di memori, geometri yang disalin bertahan di luar gambar: tempelkan ke berkas lain, tab peramban kedua, atau jendela yang Anda buka kemudian dengan [ClipboardPaste](../clipboard-paste/).
+Perintah `SalinKePapanKlip` menulis entitas terpilih ke **papan klip sistem** Anda sebagai teks JSON. Karena memakai papan klip yang sebenarnya dan bukan penyangga di memori, geometri yang disalin bertahan di luar gambar: tempelkan ke berkas lain, tab peramban kedua, atau jendela yang Anda buka kemudian dengan [ClipboardPaste](../clipboard-paste/).
 
 Inilah bedanya dengan [Copy](../copy/): Copy menggandakan entitas di dalam gambar yang sedang aktif dalam satu gerakan, sedangkan ClipboardCopy meletakkannya di tempat yang bisa diambil kembali dari gambar yang sama sekali berbeda.
 
@@ -17,12 +17,12 @@ Inilah bedanya dengan [Copy](../copy/): Copy menggandakan entitas di dalam gamba
 **Pilih dulu, lalu salin** — jalur cepat:
 
 1. Pilih satu atau beberapa entitas di kanvas.
-2. Tekan `Ctrl+C` (`Cmd+C` di macOS), atau ketik `ClipboardCopy` di terminal.
+2. Tekan `Ctrl+C` (`Cmd+C` di macOS), atau ketik `SalinKePapanKlip` di terminal.
 3. Entitas langsung ditulis ke papan klip dan perintah selesai.
 
 **Aktifkan dulu, lalu pilih** — memulai tanpa ada yang terpilih:
 
-1. Tekan `Ctrl+C` atau ketik `ClipboardCopy` saat pilihan kosong.
+1. Tekan `Ctrl+C` atau ketik `SalinKePapanKlip` saat pilihan kosong.
 2. Prompt menampilkan **pick objects to copy — Enter or Space to confirm**.
 3. **Pilih objek** — klik untuk memasukkan atau mengeluarkan entitas satu per satu, atau seret untuk memilih berdasarkan area.
 4. Tekan **Enter** atau **Space** untuk menyalin pilihan dan keluar.

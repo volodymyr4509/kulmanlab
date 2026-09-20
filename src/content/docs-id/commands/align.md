@@ -8,14 +8,14 @@ order: 6
 
 # Align
 
-Perintah `align` memposisikan ulang entitas yang dipilih menggunakan satu atau dua pasang titik sumber/tujuan. Dengan satu pasang, perintah ini berperilaku persis seperti [Move](../move/) (translasi saja). Dengan dua pasang, perintah ini juga memutar seleksi sehingga arah sumber-ke-sumber cocok dengan arah tujuan-ke-tujuan, dan secara opsional dapat menskalakannya sehingga panjang segmen sumber cocok dengan panjang segmen tujuan — translasi, rotasi, dan penskalaan dalam satu operasi.
+Perintah `Sejajarkan` memposisikan ulang entitas yang dipilih menggunakan satu atau dua pasang titik sumber/tujuan. Dengan satu pasang, perintah ini berperilaku persis seperti [Move](../move/) (translasi saja). Dengan dua pasang, perintah ini juga memutar seleksi sehingga arah sumber-ke-sumber cocok dengan arah tujuan-ke-tujuan, dan secara opsional dapat menskalakannya sehingga panjang segmen sumber cocok dengan panjang segmen tujuan — translasi, rotasi, dan penskalaan dalam satu operasi.
 
 ## Dua cara memulai
 
 **Pra-pilih, lalu ratakan** — pilih entitas terlebih dahulu, kemudian aktifkan:
 
 1. Pilih satu atau lebih entitas di kanvas.
-2. Ketik `align` di terminal atau klik tombol toolbar **Align**.
+2. Ketik `Sejajarkan` di terminal atau klik tombol toolbar **Align**.
 3. **Klik titik sumber pertama (S1)**, lalu **klik titik tujuan pertama (D1)**.
 4. **Klik titik sumber kedua (S2)**, atau tekan **Enter** atau **Space** untuk langsung menerapkan perataan translasi saja.
 5. **Klik titik tujuan kedua (D2)**.
@@ -23,7 +23,7 @@ Perintah `align` memposisikan ulang entitas yang dipilih menggunakan satu atau d
 
 **Aktifkan, lalu pilih** — mulai perintah tanpa ada yang dipilih:
 
-1. Ketik `align` atau klik tombol toolbar.
+1. Ketik `Sejajarkan` atau klik tombol toolbar.
 2. **Pilih objek** — klik untuk mengalihkan entitas individual, atau seret untuk memilih berdasarkan area.
 3. Tekan **Enter** atau **Space** untuk mengonfirmasi seleksi.
 4. Lanjutkan dengan S1 → D1 → S2 → D2 → prompt penskalaan seperti di atas.
@@ -97,4 +97,4 @@ Entitas yang diratakan tetap dipilih di posisi barunya, dan perintah berakhir se
 
 ## Entitas yang didukung
 
-Align bekerja pada setiap tipe entitas yang didukung oleh Move, Rotate, dan Scale — operasi `translate`, `rotate`, dan `scale` yang sama yang digunakan perintah-perintah tersebut diterapkan secara berurutan, sehingga tidak ada yang dikecualikan.
+Align bekerja pada setiap tipe entitas yang didukung oleh Move, Rotate, dan Scale — operasi `translate`, `Putar`, dan `Skala` yang sama yang digunakan perintah-perintah tersebut diterapkan secara berurutan, sehingga tidak ada yang dikecualikan.

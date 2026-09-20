@@ -8,11 +8,11 @@ order: 5
 
 # Arc
 
-Kommandoen `arc` tegner en sirkelbue gjennom tre punkter du klikker. Buen beregnes som den unike omskrevne sirkelen som går gjennom alle tre punktene — ikke nødvendig å angi et senter eller en radius direkte. Buen går fra det første klikket til det tredje klikket, gjennom det andre.
+Kommandoen `Bue` tegner en sirkelbue gjennom tre punkter du klikker. Buen beregnes som den unike omskrevne sirkelen som går gjennom alle tre punktene — ikke nødvendig å angi et senter eller en radius direkte. Buen går fra det første klikket til det tredje klikket, gjennom det andre.
 
 ## Tegne en bue
 
-1. Skriv `arc` i terminalen eller klikk på **Arc**-knappen i verktøylinjen.
+1. Skriv `Bue` i terminalen eller klikk på **Arc**-knappen i verktøylinjen.
 2. **Klikk det første punktet** — den ene enden av buen. Eller skriv `X,Y` og trykk **Enter** for en eksakt koordinat.
 3. **Klikk det andre punktet** — et punkt buen må gå gjennom (styrer krumning og retning). Koordinatinntasting fungerer også her.
 4. **Klikk det tredje punktet** — den andre enden av buen. Buen plasseres og kommandoen avsluttes. Koordinatinntasting fungerer også her.

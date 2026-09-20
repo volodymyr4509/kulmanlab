@@ -8,20 +8,20 @@ order: 3
 
 # Rotate
 
-Het `rotate`-commando roteert geselecteerde entiteiten rond een basispunt. U geeft de rotatiehoek op door een getal in graden te typen of door te klikken — de hoek wordt berekend uit de richting tussen het basispunt en de klikpositie.
+Het `Roteren`-commando roteert geselecteerde entiteiten rond een basispunt. U geeft de rotatiehoek op door een getal in graden te typen of door te klikken — de hoek wordt berekend uit de richting tussen het basispunt en de klikpositie.
 
 ## Twee manieren om te starten
 
 **Eerst selecteren, dan roteren** — selecteer eerst entiteiten en activeer daarna het commando:
 
 1. Selecteer een of meer entiteiten op het canvas.
-2. Typ `rotate` in de terminal of klik op de **Rotate**-werkbalkknop.
+2. Typ `Roteren` in de terminal of klik op de **Rotate**-werkbalkknop.
 3. **Klik het basispunt** aan — het rotatiecentrum. Of typ `X,Y` en druk op **Enter** voor een exacte coördinaat.
 4. **Typ een hoek en druk op Enter**, of **klik** om de hoek in te stellen op basis van de cursorrichting.
 
 **Eerst activeren, dan selecteren** — start het commando zonder selectie:
 
-1. Typ `rotate` of klik op de werkbalkknop.
+1. Typ `Roteren` of klik op de werkbalkknop.
 2. **Selecteer objecten** — klik om te schakelen, of sleep om per gebied te selecteren.
 3. Druk op **Enter** of **Space** om de selectie te bevestigen.
 4. **Klik het basispunt** aan (coördinaatinvoer beschikbaar) en stel vervolgens de hoek in.

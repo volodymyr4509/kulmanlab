@@ -8,11 +8,11 @@ order: 5
 
 # HatchAdd
 
-Umarnin `HatchAdd` yana buɗe mai zaɓar fayil na tsarin don loda fayil ɗin tsarin lallausan zane na `.pat`, ba tare da fara buɗe tattaunawar [Hatch Manager](../hatch-manager/) ba. Wannan shi ne lodin da maɓallin **Add .pat File** na Hatch Manager ke haddasawa — HatchAdd hanya ce kai tsaye zuwa gare shi daga tasha.
+Umarnin `ƘaraSalo` yana buɗe mai zaɓar fayil na tsarin don loda fayil ɗin tsarin lallausan zane na `.pat`, ba tare da fara buɗe tattaunawar [Hatch Manager](../hatch-manager/) ba. Wannan shi ne lodin da maɓallin **Add .pat File** na Hatch Manager ke haddasawa — HatchAdd hanya ce kai tsaye zuwa gare shi daga tasha.
 
 ## Loda fayil ɗin tsari
 
-1. Rubuta `HatchAdd` a tasha, ko danna **Add .pat File** a ƙasan tattaunawar [Hatch Manager](../hatch-manager/).
+1. Rubuta `ƘaraSalo` a tasha, ko danna **Add .pat File** a ƙasan tattaunawar [Hatch Manager](../hatch-manager/).
 2. Zaɓi fayil ɗin `.pat` a cikin mai zaɓar tsarin. Tsarin lallausan zane na yau da kullun kaɗai ake karɓa.
 
 Umarnin yana ƙarewa da zarar mai zaɓar fayil ya buɗe — babu wani tambaya, danna ko shigar da tasha bayan haka. Ana yin rijistar tsarin kuma suna bayyana a rukunin **User** da zarar an zaɓi fayil ɗin.

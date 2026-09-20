@@ -8,11 +8,11 @@ order: 3
 
 # FontAdd
 
-Kommandot `FontAdd` öppnar systemets filväljare för att ladda upp ett anpassat `.ttf`-typsnitt, utan att först öppna dialogrutan [Font Manager](../font-manager/). Det är samma uppladdning som knappen **Add Font** i Font Manager utlöser — FontAdd är bara en direkt väg dit från terminalen.
+Kommandot `LäggTillTeckensnitt` öppnar systemets filväljare för att ladda upp ett anpassat `.ttf`-typsnitt, utan att först öppna dialogrutan [Font Manager](../font-manager/). Det är samma uppladdning som knappen **Add Font** i Font Manager utlöser — FontAdd är bara en direkt väg dit från terminalen.
 
 ## Ladda upp ett typsnitt
 
-1. Skriv `FontAdd` i terminalen, eller klicka på **Add Font** i sidfoten på dialogrutan [Font Manager](../font-manager/).
+1. Skriv `LäggTillTeckensnitt` i terminalen, eller klicka på **Add Font** i sidfoten på dialogrutan [Font Manager](../font-manager/).
 2. Välj en `.ttf`-fil i systemets filväljare. Endast TrueType-typsnitt stöds — `.otf` och `.woff`/`.woff2` stöds inte.
 
 Kommandot avslutas så snart filväljaren öppnas — det följs inte av något ytterligare klick eller terminalinmatning. Typsnittet registreras och visas i gruppen **User** så snart filen har valts.

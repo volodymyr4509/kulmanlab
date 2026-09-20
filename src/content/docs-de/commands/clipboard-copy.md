@@ -8,7 +8,7 @@ order: 17
 
 # ClipboardCopy
 
-Der `ClipboardCopy`-Befehl schreibt die ausgewählten Elemente als JSON-Text in Ihre **Systemzwischenablage**. Da er die echte Zwischenablage verwendet und keinen internen Puffer, überlebt die kopierte Geometrie außerhalb der Zeichnung: Fügen Sie sie mit [ClipboardPaste](../clipboard-paste/) in eine andere Datei, einen zweiten Browser-Tab oder ein später geöffnetes Fenster ein.
+Der `InZwischenablageKopieren`-Befehl schreibt die ausgewählten Elemente als JSON-Text in Ihre **Systemzwischenablage**. Da er die echte Zwischenablage verwendet und keinen internen Puffer, überlebt die kopierte Geometrie außerhalb der Zeichnung: Fügen Sie sie mit [ClipboardPaste](../clipboard-paste/) in eine andere Datei, einen zweiten Browser-Tab oder ein später geöffnetes Fenster ein.
 
 Das ist der Unterschied zu [Copy](../copy/): Copy dupliziert Elemente in einem Zug innerhalb der aktuellen Zeichnung, während ClipboardCopy sie an einen Ort legt, von dem aus sie in einer völlig anderen Zeichnung abgerufen werden können.
 
@@ -17,12 +17,12 @@ Das ist der Unterschied zu [Copy](../copy/): Copy dupliziert Elemente in einem Z
 **Vorauswahl, dann kopieren** — der schnelle Weg:
 
 1. Ein oder mehrere Elemente auf der Zeichenfläche auswählen.
-2. `Strg+C` drücken (`Cmd+C` unter macOS) oder `ClipboardCopy` im Terminal eingeben.
+2. `Strg+C` drücken (`Cmd+C` unter macOS) oder `InZwischenablageKopieren` im Terminal eingeben.
 3. Die Elemente werden sofort in die Zwischenablage geschrieben und der Befehl endet.
 
 **Aktivieren, dann auswählen** — ohne Auswahl starten:
 
-1. `Strg+C` drücken oder `ClipboardCopy` bei leerer Auswahl eingeben.
+1. `Strg+C` drücken oder `InZwischenablageKopieren` bei leerer Auswahl eingeben.
 2. Die Eingabeaufforderung lautet **pick objects to copy — Enter or Space to confirm**.
 3. **Objekte auswählen** — klicken Sie zum Ein-/Ausschalten einzelner Elemente oder ziehen Sie zur Flächenauswahl.
 4. **Enter** oder **Space** drücken, um die Auswahl zu kopieren und zu beenden.

@@ -8,11 +8,11 @@ order: 4
 
 # Fit
 
-Amri ya `fit` huhesabu sanduku la mpaka wa viumbe vyote katika mchoro na kurekebisha kiwango cha kukuza na nafasi ya kusongesha ili kila kiumbe kionekane kwa ukingo mdogo. Ni njia ya haraka zaidi ya kupata upya mtazamo uliopotea au kujiorientisha baada ya kuingiza faili ya DXF.
+Amri ya `OnyeshaYote` huhesabu sanduku la mpaka wa viumbe vyote katika mchoro na kurekebisha kiwango cha kukuza na nafasi ya kusongesha ili kila kiumbe kionekane kwa ukingo mdogo. Ni njia ya haraka zaidi ya kupata upya mtazamo uliopotea au kujiorientisha baada ya kuingiza faili ya DXF.
 
 ## Kurekebisha mtazamo
 
-Bonyeza kitufe cha **Fit** kwenye upau wa zana au andika `fit` kwenye terminal. Mtazamo unabadilika mara moja na amri inatoka — hakuna mwingiliano unaohitajika.
+Bonyeza kitufe cha **Fit** kwenye upau wa zana au andika `OnyeshaYote` kwenye terminal. Mtazamo unabadilika mara moja na amri inatoka — hakuna mwingiliano unaohitajika.
 
 **Kubonyeza mara mbili kitufe cha kati cha kipanya** huanzisha operesheni ile ile ya Fit wakati wowote bila kuanzisha amri yoyote — njia ya haraka zaidi ya kuweka upya mtazamo uliopotea wakati wa kuchora.
 

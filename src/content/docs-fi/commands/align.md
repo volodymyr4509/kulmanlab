@@ -8,14 +8,14 @@ order: 6
 
 # Align
 
-Komento `align` sijoittaa valitut entiteetit uudelleen käyttäen yhtä tai kahta lähde-/kohdepistettä. Yhdellä parilla se toimii täsmälleen kuten [Move](../move/) (vain siirto). Kahdella parilla se myös kiertää valintaa niin, että lähteestä-lähteeseen-suunta vastaa kohteesta-kohteeseen-suuntaa, ja voi valinnaisesti skaalata sitä niin, että lähdesegmentin pituus vastaa kohdesegmentin pituutta — siirto, kierto ja skaalaus yhdessä toiminnossa.
+Komento `Tasaa` sijoittaa valitut entiteetit uudelleen käyttäen yhtä tai kahta lähde-/kohdepistettä. Yhdellä parilla se toimii täsmälleen kuten [Move](../move/) (vain siirto). Kahdella parilla se myös kiertää valintaa niin, että lähteestä-lähteeseen-suunta vastaa kohteesta-kohteeseen-suuntaa, ja voi valinnaisesti skaalata sitä niin, että lähdesegmentin pituus vastaa kohdesegmentin pituutta — siirto, kierto ja skaalaus yhdessä toiminnossa.
 
 ## Kaksi tapaa aloittaa
 
 **Valitse ensin, kohdista sitten** — valitse entiteetit ensin, aktivoi sitten:
 
 1. Valitse yksi tai useampi entiteetti piirtoalueella.
-2. Kirjoita `align` terminaaliin tai napsauta **Align**-painiketta työkalurivillä.
+2. Kirjoita `Tasaa` terminaaliin tai napsauta **Align**-painiketta työkalurivillä.
 3. **Napsauta ensimmäistä lähdepistettä (S1)**, napsauta sitten **ensimmäistä kohdepistettä (D1)**.
 4. **Napsauta toista lähdepistettä (S2)**, tai paina **Enter** tai **Space** käyttääksesi vain siirtoa nyt.
 5. **Napsauta toista kohdepistettä (D2)**.
@@ -23,7 +23,7 @@ Komento `align` sijoittaa valitut entiteetit uudelleen käyttäen yhtä tai kaht
 
 **Aktivoi, valitse sitten** — aloita komento ilman mitään valittuna:
 
-1. Kirjoita `align` tai napsauta työkalurivin painiketta.
+1. Kirjoita `Tasaa` tai napsauta työkalurivin painiketta.
 2. **Valitse objektit** — napsauta vaihtaaksesi yksittäisiä entiteettejä, tai vedä valitaksesi alueen mukaan.
 3. Paina **Enter** tai **Space** vahvistaaksesi valinnan.
 4. Jatka S1 → D1 → S2 → D2 → skaalauskysymys kuten yllä.
@@ -97,4 +97,4 @@ Kohdistetut entiteetit pysyvät valittuina uudessa sijainnissaan, ja komento pä
 
 ## Tuetut entiteetit
 
-Align toimii kaikilla entiteettityypeillä, joita Move, Rotate ja Scale tukevat — samat toiminnot `translate`, `rotate` ja `scale`, joita nämä komennot käyttävät, sovelletaan järjestyksessä, joten mitään ei jätetä pois.
+Align toimii kaikilla entiteettityypeillä, joita Move, Rotate ja Scale tukevat — samat toiminnot `translate`, `Kierrä` ja `Skaalaa`, joita nämä komennot käyttävät, sovelletaan järjestyksessä, joten mitään ei jätetä pois.

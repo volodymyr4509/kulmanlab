@@ -8,11 +8,11 @@ order: 2
 
 # LeaderAdd
 
-Nagdaragdag ang `LeaderAdd` command ng bagong arrowhead arm sa umiiral na multileader. Ang bagong arm ay itinuturo mula sa umiiral na dogleg ng leader papunta sa bagong arrowhead tip na iyong kli-click. Lahat ng styling — posisyon ng dogleg, text, arrowhead type, at size — ay minamana mula sa napiling leader.
+Nagdaragdag ang `MagdagdagBrasoPanuro` command ng bagong arrowhead arm sa umiiral na multileader. Ang bagong arm ay itinuturo mula sa umiiral na dogleg ng leader papunta sa bagong arrowhead tip na iyong kli-click. Lahat ng styling — posisyon ng dogleg, text, arrowhead type, at size — ay minamana mula sa napiling leader.
 
 ## Pagdagdag ng Arm
 
-1. I-type ang `LeaderAdd` sa terminal.
+1. I-type ang `MagdagdagBrasoPanuro` sa terminal.
 2. **I-click ang umiiral na multileader** para piliin ito.
 3. **I-click ang bagong arrowhead tip**, o i-type ang `X,Y` at pindutin ang **Enter** para sa eksaktong coordinate. May preview line na nagpapakita mula sa cursor papunta sa dogleg ng leader.
 

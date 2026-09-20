@@ -7,11 +7,11 @@ order: 2
 
 # Zoom In
 
-Lệnh `zoomin` nhân mức phóng to hiện tại lên **1.5×** và thoát ngay lập tức, được căn giữa theo giữa khung nhìn. Đây là tương đương thanh công cụ của một nhấp bánh xe cuộn hướng về giữa màn hình thay vì con trỏ.
+Lệnh `PhóngTo` nhân mức phóng to hiện tại lên **1.5×** và thoát ngay lập tức, được căn giữa theo giữa khung nhìn. Đây là tương đương thanh công cụ của một nhấp bánh xe cuộn hướng về giữa màn hình thay vì con trỏ.
 
 ## Phóng to
 
-Nhấp nút **Zoom In** trên thanh công cụ hoặc gõ `zoomin` trong terminal. Phóng to được áp dụng ngay lập tức và lệnh thoát — không cần nhấp trên canvas.
+Nhấp nút **Zoom In** trên thanh công cụ hoặc gõ `PhóngTo` trong terminal. Phóng to được áp dụng ngay lập tức và lệnh thoát — không cần nhấp trên canvas.
 
 ## Cách bước 1.5× hoạt động
 

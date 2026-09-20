@@ -8,11 +8,11 @@ order: 3
 
 # Zoom Out
 
-Umarnin `zoomout` yana rabe matakin zoom na yanzu da **1.5×** (daidai da ninka da ~0.667) kuma yana fita nan take, an ma tsakiya a tsakiyar viewport. Wannan shine adawar [Zoom In](../zoom-in/).
+Umarnin `Nisanta` yana rabe matakin zoom na yanzu da **1.5×** (daidai da ninka da ~0.667) kuma yana fita nan take, an ma tsakiya a tsakiyar viewport. Wannan shine adawar [Zoom In](../zoom-in/).
 
 ## Rage girman kallon
 
-Danna maɓallin kayan aiki na **Zoom Out** ko rubuta `zoomout` a tashar umarni. Ana amfani da zoom nan take kuma umarnin yana fita — ba a bukatar dannawa a kan canvas.
+Danna maɓallin kayan aiki na **Zoom Out** ko rubuta `Nisanta` a tashar umarni. Ana amfani da zoom nan take kuma umarnin yana fita — ba a bukatar dannawa a kan canvas.
 
 ## Yadda mataki na 1.5× ke aiki
 

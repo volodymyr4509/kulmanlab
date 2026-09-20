@@ -8,11 +8,11 @@ order: 5
 
 # HatchAdd
 
-Perintah `HatchAdd` membuka pemilih fail sistem untuk memuat naik fail corak lorekan `.pat`, tanpa membuka dialog [Hatch Manager](../hatch-manager/) dahulu. Ia muat naik yang sama seperti yang dicetuskan butang **Add .pat File** dalam Hatch Manager — HatchAdd cuma jalan terus ke situ dari terminal.
+Perintah `LorekTambah` membuka pemilih fail sistem untuk memuat naik fail corak lorekan `.pat`, tanpa membuka dialog [Hatch Manager](../hatch-manager/) dahulu. Ia muat naik yang sama seperti yang dicetuskan butang **Add .pat File** dalam Hatch Manager — HatchAdd cuma jalan terus ke situ dari terminal.
 
 ## Memuat naik fail corak
 
-1. Taip `HatchAdd` dalam terminal, atau klik **Add .pat File** di bahagian bawah dialog [Hatch Manager](../hatch-manager/).
+1. Taip `LorekTambah` dalam terminal, atau klik **Add .pat File** di bahagian bawah dialog [Hatch Manager](../hatch-manager/).
 2. Pilih fail `.pat` dalam pemilih sistem. Hanya format corak lorekan piawai diterima.
 
 Perintah tamat sebaik sahaja pemilih fail terbuka — tiada gesaan, klik atau input terminal selepas itu. Corak didaftarkan dan muncul dalam kumpulan **User** sebaik fail dipilih.

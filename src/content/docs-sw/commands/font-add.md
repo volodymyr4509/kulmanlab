@@ -8,11 +8,11 @@ order: 3
 
 # FontAdd
 
-Amri ya `FontAdd` hufungua kichagua faili cha mfumo ili kupakia fonti maalum ya `.ttf`, bila kufungua kwanza mazungumzo ya [Font Manager](../font-manager/). Ni upakiaji uleule ambao kitufe cha **Add Font** katika Font Manager huanzisha — FontAdd ni njia ya moja kwa moja tu ya kufika huko kutoka terminal.
+Amri ya `OngezaFonti` hufungua kichagua faili cha mfumo ili kupakia fonti maalum ya `.ttf`, bila kufungua kwanza mazungumzo ya [Font Manager](../font-manager/). Ni upakiaji uleule ambao kitufe cha **Add Font** katika Font Manager huanzisha — FontAdd ni njia ya moja kwa moja tu ya kufika huko kutoka terminal.
 
 ## Kupakia fonti
 
-1. Andika `FontAdd` kwenye terminal, au bonyeza **Add Font** chini ya mazungumzo ya [Font Manager](../font-manager/).
+1. Andika `OngezaFonti` kwenye terminal, au bonyeza **Add Font** chini ya mazungumzo ya [Font Manager](../font-manager/).
 2. Chagua faili ya `.ttf` kwenye kichagua cha mfumo. Fonti za TrueType pekee ndizo zinazotumika — `.otf` na `.woff`/`.woff2` hazitumiki.
 
 Amri inamalizika mara tu kichagua faili kinapofunguka — hakuna bonyeza au uingizaji wa terminal unaofuata. Fonti inasajiliwa na kuonekana kwenye kikundi cha **User** mara tu faili inapochaguliwa.

@@ -7,11 +7,11 @@ order: 3
 
 # FontAdd
 
-Lệnh `FontAdd` mở hộp thoại chọn tệp của hệ thống để tải lên phông chữ `.ttf` tùy chỉnh, mà không cần mở hộp thoại [Font Manager](../font-manager/) trước. Đây chính là thao tác tải lên mà nút **Add Font** trong Font Manager kích hoạt — FontAdd chỉ là một lối đi trực tiếp đến đó từ terminal.
+Lệnh `ThêmPhôngChữ` mở hộp thoại chọn tệp của hệ thống để tải lên phông chữ `.ttf` tùy chỉnh, mà không cần mở hộp thoại [Font Manager](../font-manager/) trước. Đây chính là thao tác tải lên mà nút **Add Font** trong Font Manager kích hoạt — FontAdd chỉ là một lối đi trực tiếp đến đó từ terminal.
 
 ## Tải lên phông chữ
 
-1. Gõ `FontAdd` trong terminal, hoặc nhấp **Add Font** ở cuối hộp thoại [Font Manager](../font-manager/).
+1. Gõ `ThêmPhôngChữ` trong terminal, hoặc nhấp **Add Font** ở cuối hộp thoại [Font Manager](../font-manager/).
 2. Chọn một tệp `.ttf` trong hộp thoại chọn tệp của hệ thống. Chỉ hỗ trợ phông chữ TrueType — `.otf` và `.woff`/`.woff2` không được hỗ trợ.
 
 Lệnh kết thúc ngay khi hộp thoại chọn tệp mở ra — không có thao tác nhấp chuột hay nhập terminal nào tiếp theo. Phông chữ được đăng ký và xuất hiện trong nhóm **User** ngay khi tệp được chọn.

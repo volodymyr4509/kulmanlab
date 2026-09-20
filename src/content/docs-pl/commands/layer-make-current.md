@@ -8,11 +8,11 @@ order: 2
 
 # LayerMakeCurrent
 
-Polecenie `LayerMakeCurrent` ustawia **bieżącą warstwę rysunkową** na warstwę, do której należy kliknięty element. Nowe elementy będą następnie rysowane automatycznie na tej warstwie.
+Polecenie `WarstwaUstawBieżącą` ustawia **bieżącą warstwę rysunkową** na warstwę, do której należy kliknięty element. Nowe elementy będą następnie rysowane automatycznie na tej warstwie.
 
 ## Użytkowanie
 
-1. Wpisz `LayerMakeCurrent` w terminalu lub kliknij przycisk **Ustaw bieżącą** na pasku narzędzi (ikona pipety).
+1. Wpisz `WarstwaUstawBieżącą` w terminalu lub kliknij przycisk **Ustaw bieżącą** na pasku narzędzi (ikona pipety).
 2. **Kliknij dowolny element** na płótnie.
 3. Bieżąca warstwa jest aktualizowana, aby odpowiadać warstwie tego elementu. Polecenie kończy się natychmiast.
 

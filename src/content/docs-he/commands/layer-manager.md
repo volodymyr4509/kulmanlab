@@ -8,11 +8,11 @@ order: 1
 
 # LayerManager
 
-הפקודה `LayerManager` פותחת טבלה המונה כל שכבה בשרטוט, כשההגדרות **Freeze**, **Lock**, **Plot**, **צבע**, **עובי קו** ו-**סוג קו** ניתנות לעריכה ישירות בשורה. זהו המקום המרכזי להוסיף שכבות, למחוק שכבות שאינן בשימוש ולכוונן את התנהגות הקיימות — יתר פקודות השכבות ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) עושות כל אחת דבר אחד ממוקד בלי לפתוח אותה.
+הפקודה `מנהלשכבות` פותחת טבלה המונה כל שכבה בשרטוט, כשההגדרות **Freeze**, **Lock**, **Plot**, **צבע**, **עובי קו** ו-**סוג קו** ניתנות לעריכה ישירות בשורה. זהו המקום המרכזי להוסיף שכבות, למחוק שכבות שאינן בשימוש ולכוונן את התנהגות הקיימות — יתר פקודות השכבות ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) עושות כל אחת דבר אחד ממוקד בלי לפתוח אותה.
 
 ## פתיחת Layer Manager
 
-- הקלידו `LayerManager` במסוף, **או**
+- הקלידו `מנהלשכבות` במסוף, **או**
 - לחצו על כפתור **Layer Manager** בפאנל השכבות.
 
 הדיאלוג נפתח כפאנל צף; לא צריך לבחור דבר מראש.

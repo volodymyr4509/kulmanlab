@@ -8,11 +8,11 @@ order: 6
 
 # Ellipse
 
-Umarnin `ellipse` yana zana ellipse ta amfani da dannawa uku: tabon tsakiya, ƙarshen semi-axis na farko (babba) a kowace kusurwa, da tsawon semi-axis na biyu (ƙarami). Axes biyun koyaushe suna ta hankalta da juna — ana samun shugabancin axis na biyu kai tsaye daga na farko.
+Umarnin `Elifis` yana zana ellipse ta amfani da dannawa uku: tabon tsakiya, ƙarshen semi-axis na farko (babba) a kowace kusurwa, da tsawon semi-axis na biyu (ƙarami). Axes biyun koyaushe suna ta hankalta da juna — ana samun shugabancin axis na biyu kai tsaye daga na farko.
 
 ## Zana ellipse
 
-1. Rubuta `ellipse` a tashar umarni ko danna maɓallin kayan aiki na **Ellipse**.
+1. Rubuta `Elifis` a tashar umarni ko danna maɓallin kayan aiki na **Ellipse**.
 2. **Danna tabon tsakiya**, ko rubuta `X,Y` ka danna **Enter** don daidaitawa madaidaiciya.
 3. **Danna ƙarshen axis na farko** — yana saita duka shugabanci da tsawon semi-axis na farko. Shigar da daidaitawa yana aiki a nan ma.
 4. **Saita tsawon axis na biyu** — motsa mai nuni ta hankalta a kan axis na farko, sannan danna ko rubuta tsawo.

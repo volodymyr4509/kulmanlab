@@ -8,14 +8,14 @@ order: 15
 
 # Array Grid
 
-La commande `ArrayGrid` crée une grille rectangulaire de copies à partir des entités sélectionnées — saisissez le nombre de lignes, le nombre de colonnes et l'espacement entre elles, le tout tapé dans le terminal. La sélection d'origine occupe la cellule ligne 0, colonne 0 ; chaque autre cellule est une copie translatée.
+La commande `RéseauRectangulaire` crée une grille rectangulaire de copies à partir des entités sélectionnées — saisissez le nombre de lignes, le nombre de colonnes et l'espacement entre elles, le tout tapé dans le terminal. La sélection d'origine occupe la cellule ligne 0, colonne 0 ; chaque autre cellule est une copie translatée.
 
 ## Deux façons de démarrer
 
 **Pré-sélectionner, puis array** — sélectionnez d'abord les entités, puis activez :
 
 1. Sélectionnez une ou plusieurs entités sur le canevas.
-2. Tapez `arraygrid` dans le terminal (`arr` suffit — c'est sans ambiguïté) ou cliquez sur le bouton **Array Grid** de la barre d'outils.
+2. Tapez `RéseauRectangulaire` dans le terminal (`arr` suffit — c'est sans ambiguïté) ou cliquez sur le bouton **Array Grid** de la barre d'outils.
 3. Tapez le nombre de **lignes** et appuyez sur **Entrée**.
 4. Tapez le nombre de **colonnes** et appuyez sur **Entrée**.
 5. Tapez l'**espacement entre les lignes** et appuyez sur **Entrée**.
@@ -23,7 +23,7 @@ La commande `ArrayGrid` crée une grille rectangulaire de copies à partir des e
 
 **Activer, puis sélectionner** — démarrez la commande sans rien de sélectionné :
 
-1. Tapez `arraygrid` ou cliquez sur le bouton de la barre d'outils.
+1. Tapez `RéseauRectangulaire` ou cliquez sur le bouton de la barre d'outils.
 2. **Sélectionnez les objets** — cliquez pour basculer les entités individuelles, ou faites glisser pour sélectionner par zone.
 3. Appuyez sur **Entrée** ou **Espace** pour confirmer la sélection.
 4. Continuez avec lignes → colonnes → espacement des lignes → espacement des colonnes comme ci-dessus.

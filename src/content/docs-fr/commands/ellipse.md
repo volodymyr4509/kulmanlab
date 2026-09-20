@@ -8,11 +8,11 @@ order: 6
 
 # Ellipse
 
-La commande `ellipse` trace une ellipse en trois clics : un point central, l'extrémité du premier (grand) demi-axe à n'importe quel angle, et la longueur du second (petit) demi-axe. Les deux axes sont toujours perpendiculaires entre eux — la direction du second axe est dérivée automatiquement du premier.
+La commande `Ellipse` trace une ellipse en trois clics : un point central, l'extrémité du premier (grand) demi-axe à n'importe quel angle, et la longueur du second (petit) demi-axe. Les deux axes sont toujours perpendiculaires entre eux — la direction du second axe est dérivée automatiquement du premier.
 
 ## Tracer une ellipse
 
-1. Tapez `ellipse` dans le terminal ou cliquez sur le bouton **Ellipse** de la barre d'outils.
+1. Tapez `Ellipse` dans le terminal ou cliquez sur le bouton **Ellipse** de la barre d'outils.
 2. **Cliquez sur le point central**, ou tapez `X,Y` et appuyez sur **Entrée** pour une coordonnée exacte.
 3. **Cliquez sur l'extrémité du premier axe** — définit à la fois la direction et la longueur du premier demi-axe. La saisie de coordonnées fonctionne ici aussi.
 4. **Définissez la longueur du second axe** — déplacez le curseur perpendiculairement au premier axe, puis cliquez ou tapez une longueur.

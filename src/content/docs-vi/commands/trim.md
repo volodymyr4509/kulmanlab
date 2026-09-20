@@ -8,11 +8,11 @@ order: 8
 
 # Trim
 
-Lệnh `trim` xóa phần của [Line](../line/), [Arc](../arc/), [Circle](../circle/), [Ellipse](../ellipse/) hoặc [Polyline](../polyline/) nằm giữa hai điểm giao nhau liền kề, chia thực thể thành một hoặc nhiều phần còn lại. Đoạn cần cắt được xác định bởi vị trí con trỏ — di chuyển qua phần bạn muốn xóa và nhấp để cắt.
+Lệnh `CắtXén` xóa phần của [Line](../line/), [Arc](../arc/), [Circle](../circle/), [Ellipse](../ellipse/) hoặc [Polyline](../polyline/) nằm giữa hai điểm giao nhau liền kề, chia thực thể thành một hoặc nhiều phần còn lại. Đoạn cần cắt được xác định bởi vị trí con trỏ — di chuyển qua phần bạn muốn xóa và nhấp để cắt.
 
 ## Cắt một thực thể
 
-1. Gõ `trim` trong terminal hoặc nhấp nút **Trim** trên thanh công cụ.
+1. Gõ `CắtXén` trong terminal hoặc nhấp nút **Trim** trên thanh công cụ.
 2. **Di chuyển con trỏ qua đoạn** bạn muốn xóa — bản xem trước tô sáng chính xác phần sẽ bị cắt.
 3. **Nhấp** để xóa đoạn đó.
 

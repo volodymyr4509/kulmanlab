@@ -8,11 +8,11 @@ order: 5
 
 # LayerUnfreezeAll
 
-Arahan `LayerUnfreezeAll` mengosongkan bendera beku pada **setiap lapisan** dalam lukisan serta-merta. Tiada pemilihan atau pengesahan diperlukan — ia berjalan dan selesai dalam satu langkah.
+Arahan `LapisanNyahbekuSemua` mengosongkan bendera beku pada **setiap lapisan** dalam lukisan serta-merta. Tiada pemilihan atau pengesahan diperlukan — ia berjalan dan selesai dalam satu langkah.
 
 ## Penggunaan
 
-Taip `LayerUnfreezeAll` dalam terminal atau klik butang bar alat **Unfreeze All** (ikon matahari). Semua lapisan yang dibekukan menjadi kelihatan serta-merta.
+Taip `LapisanNyahbekuSemua` dalam terminal atau klik butang bar alat **Unfreeze All** (ikon matahari). Semua lapisan yang dibekukan menjadi kelihatan serta-merta.
 
 ## Bila digunakan
 

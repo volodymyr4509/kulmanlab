@@ -8,11 +8,11 @@ order: 7
 
 # Hatch
 
-Lệnh `hatch` tô đầy vùng bao quanh một điểm đã nhấp bằng một mẫu. Đường viền không được vẽ trước — nó xuất phát từ những gì đã có sẵn trên canvas, vì vậy bốn [Line](../line/) riêng biệt gặp nhau đầu-cuối sẽ bao quanh một vùng giống hệt như một [Polyline](../polyline/) khép kín, và bất kỳ hình khép kín nào bên trong sẽ trở thành một đảo mà phần tô không chạm đến.
+Lệnh `MặtCắt` tô đầy vùng bao quanh một điểm đã nhấp bằng một mẫu. Đường viền không được vẽ trước — nó xuất phát từ những gì đã có sẵn trên canvas, vì vậy bốn [Line](../line/) riêng biệt gặp nhau đầu-cuối sẽ bao quanh một vùng giống hệt như một [Polyline](../polyline/) khép kín, và bất kỳ hình khép kín nào bên trong sẽ trở thành một đảo mà phần tô không chạm đến.
 
 ## Tô Đầy Một Vùng
 
-1. Gõ `hatch` trong terminal hoặc nhấp nút **Hatch** trên thanh công cụ (biểu tượng mẫu vải).
+1. Gõ `MặtCắt` trong terminal hoặc nhấp nút **Hatch** trên thanh công cụ (biểu tượng mẫu vải).
 2. **Nhấp một điểm** bên trong vùng bạn muốn tô đầy.
 3. Lệnh vẫn hoạt động, vì vậy tiếp tục nhấp để tô thêm các vùng khác — mỗi lần nhấp tạo ra thực thể `Hatch` riêng của nó.
 4. Nhấn **Enter**, **Space**, hoặc **Escape** khi hoàn tất.
@@ -69,7 +69,7 @@ Mỗi hatch mới bắt đầu được tô bằng `ANSI31` (hoặc bất kỳ m
 1. Chọn một hatch đã có và mở trường **Pattern** của nó trong bảng thuộc tính — thao tác này mở bộ chọn mẫu, một lưới các mẫu vải có tên được nhóm theo nguồn gốc của từng mẫu.
 2. Nhấp vào một mẫu để áp dụng nó — phần tô cập nhật ngay lập tức.
 
-Lựa chọn đó cũng trở thành mặc định cho hatch *tiếp theo* bạn tạo bằng lệnh `hatch`, theo cách tương tự như việc chọn lớp hoặc màu được mang theo. Vì vậy để hatch nhiều vùng mới bằng một mẫu cụ thể: tô đầy một vùng, đặt mẫu của nó một lần, sau đó tiếp tục hatch — mỗi lần tô sau đó đã bắt đầu với mẫu đó được áp dụng sẵn.
+Lựa chọn đó cũng trở thành mặc định cho hatch *tiếp theo* bạn tạo bằng lệnh `MặtCắt`, theo cách tương tự như việc chọn lớp hoặc màu được mang theo. Vì vậy để hatch nhiều vùng mới bằng một mẫu cụ thể: tô đầy một vùng, đặt mẫu của nó một lần, sau đó tiếp tục hatch — mỗi lần tô sau đó đã bắt đầu với mẫu đó được áp dụng sẵn.
 
 Xem [Hatch Manager](../hatch-manager/) để tải lên các tệp mẫu `.pat` của riêng bạn và duyệt toàn bộ thư viện.
 

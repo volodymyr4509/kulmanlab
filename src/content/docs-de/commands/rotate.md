@@ -8,20 +8,20 @@ order: 3
 
 # Rotate
 
-Der `rotate`-Befehl dreht ausgewählte Entitäten um einen Basispunkt. Sie legen den Drehwinkel entweder durch Eingabe einer Gradzahl oder per Klick fest — der Winkel wird aus der Richtung zwischen Basispunkt und Klickposition berechnet.
+Der `Drehen`-Befehl dreht ausgewählte Entitäten um einen Basispunkt. Sie legen den Drehwinkel entweder durch Eingabe einer Gradzahl oder per Klick fest — der Winkel wird aus der Richtung zwischen Basispunkt und Klickposition berechnet.
 
 ## Zwei Startmöglichkeiten
 
 **Zuerst auswählen, dann drehen** — wählen Sie zuerst Entitäten aus, dann aktivieren Sie den Befehl:
 
 1. Wählen Sie eine oder mehrere Entitäten auf der Zeichenfläche aus.
-2. Geben Sie `rotate` im Terminal ein oder klicken Sie auf die **Rotate**-Schaltfläche in der Werkzeugleiste.
+2. Geben Sie `Drehen` im Terminal ein oder klicken Sie auf die **Rotate**-Schaltfläche in der Werkzeugleiste.
 3. **Klicken Sie den Basispunkt** — den Drehmittelpunkt. Oder geben Sie `X,Y` ein und drücken Sie **Enter** für eine exakte Koordinate.
 4. **Geben Sie einen Winkel ein und drücken Sie Enter**, oder **klicken Sie**, um den Winkel aus der Cursorrichtung festzulegen.
 
 **Zuerst aktivieren, dann auswählen** — starten Sie den Befehl ohne Auswahl:
 
-1. Geben Sie `rotate` ein oder klicken Sie auf die Werkzeugleistenschaltfläche.
+1. Geben Sie `Drehen` ein oder klicken Sie auf die Werkzeugleistenschaltfläche.
 2. **Objekte auswählen** — einzeln anklicken oder per Bereich ziehen.
 3. Drücken Sie **Enter** oder **Space**, um die Auswahl zu bestätigen.
 4. **Klicken Sie den Basispunkt** (Koordinateneingabe verfügbar), dann legen Sie den Winkel fest.

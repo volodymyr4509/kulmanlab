@@ -8,20 +8,20 @@ order: 1
 
 # Move
 
-Arahan `move` menterjemahkan entiti yang dipilih dari titik asas ke titik destinasi. Anjakan yang digunakan ke setiap entiti yang dipilih adalah vektor dari asas ke destinasi. Selepas pindah, semua entiti kekal dipilih di kedudukan baru, sedia untuk edit selanjutnya.
+Arahan `Alih` menterjemahkan entiti yang dipilih dari titik asas ke titik destinasi. Anjakan yang digunakan ke setiap entiti yang dipilih adalah vektor dari asas ke destinasi. Selepas pindah, semua entiti kekal dipilih di kedudukan baru, sedia untuk edit selanjutnya.
 
 ## Dua cara untuk memulakan
 
 **Pra-pilih, kemudian pindah** — pilih entiti dahulu, kemudian aktifkan:
 
 1. Pilih satu atau lebih entiti pada kanvas.
-2. Taip `move` dalam terminal atau klik butang bar alat **Move**.
+2. Taip `Alih` dalam terminal atau klik butang bar alat **Move**.
 3. **Klik titik asas**, atau taip `X,Y` dan tekan **Enter** untuk koordinat tepat.
 4. **Klik destinasi** — semua entiti yang dipilih bergeser mengikut vektor asas→destinasi. Kemasukan koordinat juga berfungsi di sini.
 
 **Aktifkan, kemudian pilih** — mulakan arahan tanpa apa-apa yang dipilih:
 
-1. Taip `move` atau klik butang bar alat.
+1. Taip `Alih` atau klik butang bar alat.
 2. **Pilih objek** — klik untuk togel entiti individu, atau seret untuk memilih mengikut kawasan.
 3. Tekan **Enter** atau **Space** untuk mengesahkan pemilihan.
 4. **Klik titik asas**, kemudian **klik destinasi** (kemasukan koordinat tersedia di kedua-dua langkah).

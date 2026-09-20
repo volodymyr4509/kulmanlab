@@ -8,14 +8,14 @@ order: 15
 
 # Array Grid
 
-Umarnin `ArrayGrid` yana ƙirƙirar grid mai kusurwa huɗu na kwafi daga abubuwan da aka zaɓa — shigar da adadin layuka, adadin ginshiƙai, da tazara tsakaninsu, duk ana rubuta su a tashar umarni. Zaɓin asali yana zama a cikin sel layi 0, ginshiƙi 0; kowane sel dabam kwafi ne mai motsawa.
+Umarnin `JerinGrid` yana ƙirƙirar grid mai kusurwa huɗu na kwafi daga abubuwan da aka zaɓa — shigar da adadin layuka, adadin ginshiƙai, da tazara tsakaninsu, duk ana rubuta su a tashar umarni. Zaɓin asali yana zama a cikin sel layi 0, ginshiƙi 0; kowane sel dabam kwafi ne mai motsawa.
 
 ## Hanyoyi biyu na farawa
 
 **Zaɓi tukuna, sannan array** — zaɓi abubuwa tukuna, sannan kunna:
 
 1. Zaɓi wani abu ɗaya ko fiye a kan canvas.
-2. Rubuta `arraygrid` a tashar umarni (`arr` kaɗai ya isa — babu shakku) ko danna maɓallin kayan aiki na **Array Grid**.
+2. Rubuta `JerinGrid` a tashar umarni (`arr` kaɗai ya isa — babu shakku) ko danna maɓallin kayan aiki na **Array Grid**.
 3. Rubuta adadin **layuka** ka danna **Enter**.
 4. Rubuta adadin **ginshiƙai** ka danna **Enter**.
 5. Rubuta **tazara tsakanin layuka** ka danna **Enter**.
@@ -23,7 +23,7 @@ Umarnin `ArrayGrid` yana ƙirƙirar grid mai kusurwa huɗu na kwafi daga abubuwa
 
 **Kunna, sannan zaɓi** — fara umarnin ba tare da zaɓi ba:
 
-1. Rubuta `arraygrid` ko danna maɓallin kayan aiki.
+1. Rubuta `JerinGrid` ko danna maɓallin kayan aiki.
 2. **Zaɓi abubuwa** — danna don canza zaɓi na kowane abu, ko ja don zaɓi ta yanki.
 3. Danna **Enter** ko **Space** don tabbatar da zaɓi.
 4. Ci gaba da layuka → ginshiƙai → tazarar layi → tazarar ginshiƙi kamar yadda ke sama.

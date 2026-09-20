@@ -8,20 +8,20 @@ order: 3
 
 # LayerMatch
 
-Komento `LayerMatch` kohdistaa valittujen entiteettien tason uudelleen vastaamaan napsauttamasi lähde-entiteetin tasoa. Se on nopein tapa siirtää objektiryhmä oikealle tasolle avaamatta [Layer Manageria](../layer-manager/).
+Komento `TasoKutenLähde` kohdistaa valittujen entiteettien tason uudelleen vastaamaan napsauttamasi lähde-entiteetin tasoa. Se on nopein tapa siirtää objektiryhmä oikealle tasolle avaamatta [Layer Manageria](../layer-manager/).
 
 ## Työnkulku
 
 **Valitse ensin, kohdista sitten**:
 
 1. Valitse entiteetit, joiden tasoa haluat muuttaa.
-2. Kirjoita `LayerMatch` tai napsauta **Layer Match**-painiketta työkalurivillä (maalikuvake).
+2. Kirjoita `TasoKutenLähde` tai napsauta **Layer Match**-painiketta työkalurivillä (maalikuvake).
 3. **Napsauta lähdeobjektia** — sitä, jonka tason haluat kopioida.
 4. Kaikki valitut entiteetit siirtyvät välittömästi lähdeobjektin tasolle.
 
 **Aktivoi, valitse sitten**:
 
-1. Kirjoita `LayerMatch` tai napsauta työkalurivin painiketta ilman mitään valittuna.
+1. Kirjoita `TasoKutenLähde` tai napsauta työkalurivin painiketta ilman mitään valittuna.
 2. **Valitse kohdeobjektit** — napsauta vaihtaaksesi yksittäisiä entiteettejä tai vedä valitaksesi alueen mukaan.
 3. Paina **Enter** tai **Space** vahvistaaksesi valinnan.
 4. **Napsauta lähdeobjektia** — sen taso sovelletaan kaikkiin kohteisiin.

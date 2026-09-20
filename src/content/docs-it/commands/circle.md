@@ -8,11 +8,11 @@ order: 4
 
 # Circle
 
-Il comando `circle` disegna un cerchio definito da un punto centrale e un raggio. Dopo aver cliccato il centro puoi impostare il raggio cliccando un secondo punto sul canvas o digitando un numero esatto — entrambe le opzioni sono attive contemporaneamente.
+Il comando `Cerchio` disegna un cerchio definito da un punto centrale e un raggio. Dopo aver cliccato il centro puoi impostare il raggio cliccando un secondo punto sul canvas o digitando un numero esatto — entrambe le opzioni sono attive contemporaneamente.
 
 ## Disegnare un cerchio
 
-1. Digita `circle` nel terminale o clicca il pulsante **Circle** nella barra degli strumenti.
+1. Digita `Cerchio` nel terminale o clicca il pulsante **Circle** nella barra degli strumenti.
 2. **Clicca il punto centrale**, oppure digita `X,Y` e premi **Invio** per una coordinata esatta.
 3. Imposta il raggio — scegli tra:
    - **Clicca qualsiasi punto** sul canvas — la distanza dal centro diventa il raggio, oppure

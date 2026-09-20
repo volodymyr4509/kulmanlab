@@ -8,11 +8,11 @@ order: 5
 
 # HatchAdd
 
-Amri ya `HatchAdd` hufungua kichagua faili cha mfumo ili kupakia faili ya mifumo ya kujaza ya `.pat`, bila kufungua kwanza kidirisha cha [Hatch Manager](../hatch-manager/). Ni upakiaji uleule ambao kitufe cha **Add .pat File** kwenye Hatch Manager huanzisha — HatchAdd ni njia ya moja kwa moja kuelekea huko kutoka terminali.
+Amri ya `OngezaMuundo` hufungua kichagua faili cha mfumo ili kupakia faili ya mifumo ya kujaza ya `.pat`, bila kufungua kwanza kidirisha cha [Hatch Manager](../hatch-manager/). Ni upakiaji uleule ambao kitufe cha **Add .pat File** kwenye Hatch Manager huanzisha — HatchAdd ni njia ya moja kwa moja kuelekea huko kutoka terminali.
 
 ## Kupakia faili ya mifumo
 
-1. Andika `HatchAdd` kwenye terminali, au bofya **Add .pat File** chini ya kidirisha cha [Hatch Manager](../hatch-manager/).
+1. Andika `OngezaMuundo` kwenye terminali, au bofya **Add .pat File** chini ya kidirisha cha [Hatch Manager](../hatch-manager/).
 2. Chagua faili ya `.pat` kwenye kichagua cha mfumo. Muundo wa kawaida wa mifumo ya kujaza pekee ndio unaokubaliwa.
 
 Amri hukamilika mara tu kichagua faili kinapofunguka — hakuna dodoso, mbofyo wala ingizo lingine la terminali. Mifumo husajiliwa na kuonekana katika kundi la **User** mara tu faili inapochaguliwa.

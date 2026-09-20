@@ -8,20 +8,20 @@ order: 1
 
 # Move
 
-Kommandoen `move` flytter markerte entiteter fra et basispunkt til et målpunkt. Forskyvningen som brukes på hver markerte entitet er vektoren fra basis til mål. Etter flyttingen forblir alle entiteter markert på sin nye posisjon, klare for videre redigering.
+Kommandoen `Flytt` flytter markerte entiteter fra et basispunkt til et målpunkt. Forskyvningen som brukes på hver markerte entitet er vektoren fra basis til mål. Etter flyttingen forblir alle entiteter markert på sin nye posisjon, klare for videre redigering.
 
 ## To måter å starte på
 
 **Marker først, deretter flytt** — marker entiteter først, aktiver deretter:
 
 1. Marker én eller flere entiteter på lerretet.
-2. Skriv `move` i terminalen eller klikk på **Move**-knappen i verktøylinjen.
+2. Skriv `Flytt` i terminalen eller klikk på **Move**-knappen i verktøylinjen.
 3. **Klikk basispunktet**, eller skriv `X,Y` og trykk **Enter** for en eksakt koordinat.
 4. **Klikk målet** — alle markerte entiteter forskyves med vektoren basis→mål. Koordinatinntasting fungerer også her.
 
 **Aktiver, marker deretter** — start kommandoen uten noe markert:
 
-1. Skriv `move` eller klikk på verktøylinjeknappen.
+1. Skriv `Flytt` eller klikk på verktøylinjeknappen.
 2. **Marker objekter** — klikk for å slå enkeltentiteter av/på, eller dra for å markere etter område.
 3. Trykk **Enter** eller **Space** for å bekrefte markeringen.
 4. **Klikk basispunktet**, deretter **klikk målet** (koordinatinntasting tilgjengelig i begge steg).

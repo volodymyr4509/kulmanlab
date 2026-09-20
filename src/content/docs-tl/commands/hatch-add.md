@@ -8,11 +8,11 @@ order: 5
 
 # HatchAdd
 
-Binubuksan ng utos na `HatchAdd` ang file picker ng system para mag-upload ng `.pat` hatch pattern file, nang hindi muna binubuksan ang dialog na [Hatch Manager](../hatch-manager/). Ito ang parehong upload na pinapatakbo ng button na **Add .pat File** sa Hatch Manager — tuwirang daan lang dito ang HatchAdd mula sa terminal.
+Binubuksan ng utos na `MagdagdagPadron` ang file picker ng system para mag-upload ng `.pat` hatch pattern file, nang hindi muna binubuksan ang dialog na [Hatch Manager](../hatch-manager/). Ito ang parehong upload na pinapatakbo ng button na **Add .pat File** sa Hatch Manager — tuwirang daan lang dito ang HatchAdd mula sa terminal.
 
 ## Pag-upload ng pattern file
 
-1. I-type ang `HatchAdd` sa terminal, o i-click ang **Add .pat File** sa ibaba ng dialog na [Hatch Manager](../hatch-manager/).
+1. I-type ang `MagdagdagPadron` sa terminal, o i-click ang **Add .pat File** sa ibaba ng dialog na [Hatch Manager](../hatch-manager/).
 2. Pumili ng `.pat` file sa system picker. Ang karaniwang pormat ng hatch pattern lamang ang tinatanggap.
 
 Natatapos ang utos sa oras na bumukas ang file picker — wala nang karagdagang tanong, click o terminal input. Nakarehistro ang mga pattern at lumilitaw sa grupong **User** sa oras na mapili ang file.

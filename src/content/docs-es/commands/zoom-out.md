@@ -8,11 +8,11 @@ order: 3
 
 # Zoom Out
 
-El comando `zoomout` divide el nivel de zoom actual por **1,5×** (equivalente a multiplicar por ~0,667) y sale inmediatamente, centrado en el punto medio de la ventana gráfica. Es el inverso de [Zoom In](../zoom-in/).
+El comando `Alejar` divide el nivel de zoom actual por **1,5×** (equivalente a multiplicar por ~0,667) y sale inmediatamente, centrado en el punto medio de la ventana gráfica. Es el inverso de [Zoom In](../zoom-in/).
 
 ## Hacer zoom de alejamiento
 
-Haz clic en el botón de la barra de herramientas **Zoom Out** o escribe `zoomout` en el terminal. El zoom se aplica instantáneamente y el comando sale — no se requiere clic en el lienzo.
+Haz clic en el botón de la barra de herramientas **Zoom Out** o escribe `Alejar` en el terminal. El zoom se aplica instantáneamente y el comando sale — no se requiere clic en el lienzo.
 
 ## Cómo funciona el paso de 1,5×
 

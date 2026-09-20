@@ -8,13 +8,13 @@ order: 2
 
 # Polyline
 
-O comando `polyline` desenha um caminho conectado de qualquer número de segmentos retos ou de arco, todos armazenados como uma única entidade `LWPOLYLINE`. Como o caminho inteiro é um único objeto, selecioná-lo seleciona cada segmento de uma vez — mova, gire ou escale toda a forma em uma única operação. Esta é a distinção fundamental das [Linhas](../line/) encadeadas, onde cada segmento é uma entidade independente.
+O comando `Polilinha` desenha um caminho conectado de qualquer número de segmentos retos ou de arco, todos armazenados como uma única entidade `LWPOLYLINE`. Como o caminho inteiro é um único objeto, selecioná-lo seleciona cada segmento de uma vez — mova, gire ou escale toda a forma em uma única operação. Esta é a distinção fundamental das [Linhas](../line/) encadeadas, onde cada segmento é uma entidade independente.
 
 Polilinhas também podem ser **fechadas**: o comando [Retângulo](../rectangle/) usa a mesma entidade `LWPOLYLINE` com um flag de fechamento definido.
 
 ## Desenhando uma polilinha
 
-1. Digite `polyline` no terminal ou clique no botão **Polyline** na barra de ferramentas.
+1. Digite `Polilinha` no terminal ou clique no botão **Polyline** na barra de ferramentas.
 2. **Clique no primeiro ponto**, ou digite `X,Y` e pressione **Enter** para uma coordenada exata.
 3. **Clique em cada ponto subsequente** — cada clique adiciona um segmento. A entrada de coordenadas funciona em cada etapa.
 4. Pressione **Enter** ou **Espaço** para terminar (requer pelo menos 2 pontos posicionados).

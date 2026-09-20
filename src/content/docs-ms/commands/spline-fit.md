@@ -8,11 +8,11 @@ order: 9
 
 # Spline Fit
 
-Arahan `splinefit` melukis spline kubik yang melalui setiap titik yang anda klik — kelengkungan interpolasi. Tidak seperti [Spline CV](../spline-cv/), di mana kelengkungan hanya tertarik ke arah bucu kawalan, di sini kelengkungan dipaksa untuk menyentuh setiap koordinat yang diklik dengan tepat. Secara dalaman editor memasang bucu kawalan untuk mencapai ini, dan CV tersebut disimpan bersama titik fit dalam fail DXF.
+Arahan `SplineTitik` melukis spline kubik yang melalui setiap titik yang anda klik — kelengkungan interpolasi. Tidak seperti [Spline CV](../spline-cv/), di mana kelengkungan hanya tertarik ke arah bucu kawalan, di sini kelengkungan dipaksa untuk menyentuh setiap koordinat yang diklik dengan tepat. Secara dalaman editor memasang bucu kawalan untuk mencapai ini, dan CV tersebut disimpan bersama titik fit dalam fail DXF.
 
 ## Melukis spline melalui titik fit
 
-1. Taip `splinefit` dalam terminal atau klik butang bar alat **Spline Fit**.
+1. Taip `SplineTitik` dalam terminal atau klik butang bar alat **Spline Fit**.
 2. **Klik untuk meletakkan titik fit** — kelengkungan akan melalui setiap satunya. Atau taip `X,Y` dan tekan **Enter** untuk koordinat tepat.
 3. Tekan **Enter** atau **Space** untuk selesai (sekurang-kurangnya 2 titik diperlukan).
 

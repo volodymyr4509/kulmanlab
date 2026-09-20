@@ -8,13 +8,13 @@ order: 0
 
 # Text
 
-`text`-kommandot placerar en flerradig textetikett. Efter att du har klickat på en position på ritytan öppnas en popup-redigerare i **rich**-läge — du kan skriva innehåll, tillämpa fetstil/kursiv/understruken/genomstruken per tecken, ändra typsnitt och höjder samt infoga radbrytningar. Tryck på **Escape** för att bekräfta och stänga redigeraren.
+`Text`-kommandot placerar en flerradig textetikett. Efter att du har klickat på en position på ritytan öppnas en popup-redigerare i **rich**-läge — du kan skriva innehåll, tillämpa fetstil/kursiv/understruken/genomstruken per tecken, ändra typsnitt och höjder samt infoga radbrytningar. Tryck på **Escape** för att bekräfta och stänga redigeraren.
 
 Se sidan [Texteditor](../../interface/text-editor/) för den fullständiga editorreferensen, inklusive en jämförelse av **rich**- och **simple**-lägena.
 
 ## Placera en textetikett
 
-1. Skriv `text` i terminalen eller klicka på **Text**-knappen i verktygsfältet.
+1. Skriv `Text` i terminalen eller klicka på **Text**-knappen i verktygsfältet.
 2. **Klicka på ankarpositionen** på ritytan. Eller skriv `X,Y` och tryck **Enter** för en exakt koordinat.
 3. **Textredigerarens popup** öppnas ovanför den nya etiketten. Skriv ditt innehåll.
 4. Tryck på **Escape** för att bekräfta etiketten och stänga redigeraren.

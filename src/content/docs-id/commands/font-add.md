@@ -8,11 +8,11 @@ order: 3
 
 # FontAdd
 
-Perintah `FontAdd` membuka pemilih file sistem untuk mengunggah font `.ttf` kustom, tanpa membuka dialog [Font Manager](../font-manager/) terlebih dahulu. Ini adalah unggahan yang sama dengan yang dipicu tombol **Add Font** di Font Manager — FontAdd hanyalah jalan langsung ke sana dari terminal.
+Perintah `FontTambah` membuka pemilih file sistem untuk mengunggah font `.ttf` kustom, tanpa membuka dialog [Font Manager](../font-manager/) terlebih dahulu. Ini adalah unggahan yang sama dengan yang dipicu tombol **Add Font** di Font Manager — FontAdd hanyalah jalan langsung ke sana dari terminal.
 
 ## Mengunggah font
 
-1. Ketik `FontAdd` di terminal, atau klik **Add Font** di footer dialog [Font Manager](../font-manager/).
+1. Ketik `FontTambah` di terminal, atau klik **Add Font** di footer dialog [Font Manager](../font-manager/).
 2. Pilih file `.ttf` di pemilih sistem. Hanya font TrueType yang didukung — `.otf` dan `.woff`/`.woff2` tidak didukung.
 
 Perintah selesai segera setelah pemilih file terbuka — tidak ada klik atau input terminal lebih lanjut. Font terdaftar dan muncul di grup **User** segera setelah file dipilih.

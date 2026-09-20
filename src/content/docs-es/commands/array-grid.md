@@ -8,14 +8,14 @@ order: 15
 
 # Array Grid
 
-El comando `ArrayGrid` crea una cuadrícula rectangular de copias a partir de las entidades seleccionadas — introduce el número de filas, el número de columnas y el espaciado entre ellas, todo escrito en el terminal. La selección original ocupa la celda fila 0, columna 0; cada otra celda es una copia trasladada.
+El comando `MatrizRectangular` crea una cuadrícula rectangular de copias a partir de las entidades seleccionadas — introduce el número de filas, el número de columnas y el espaciado entre ellas, todo escrito en el terminal. La selección original ocupa la celda fila 0, columna 0; cada otra celda es una copia trasladada.
 
 ## Dos formas de iniciar
 
 **Preseleccionar, luego array** — selecciona primero las entidades, luego activa:
 
 1. Selecciona una o más entidades en el lienzo.
-2. Escribe `arraygrid` en el terminal (basta con `arr` — es inequívoco) o haz clic en el botón **Array Grid** de la barra de herramientas.
+2. Escribe `MatrizRectangular` en el terminal (basta con `arr` — es inequívoco) o haz clic en el botón **Array Grid** de la barra de herramientas.
 3. Escribe el número de **filas** y presiona **Enter**.
 4. Escribe el número de **columnas** y presiona **Enter**.
 5. Escribe el **espaciado entre filas** y presiona **Enter**.
@@ -23,7 +23,7 @@ El comando `ArrayGrid` crea una cuadrícula rectangular de copias a partir de la
 
 **Activar, luego seleccionar** — inicia el comando sin nada seleccionado:
 
-1. Escribe `arraygrid` o haz clic en el botón de la barra de herramientas.
+1. Escribe `MatrizRectangular` o haz clic en el botón de la barra de herramientas.
 2. **Selecciona objetos** — haz clic para alternar entidades individuales, o arrastra para seleccionar por área.
 3. Presiona **Enter** o **Space** para confirmar la selección.
 4. Continúa con filas → columnas → espaciado de filas → espaciado de columnas como arriba.

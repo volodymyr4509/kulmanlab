@@ -8,11 +8,11 @@ order: 2
 
 # LayerMakeCurrent
 
-El comando `LayerMakeCurrent` establece la **capa de dibujo actual** a la capa a la que pertenece la entidad en la que se hace clic. Las nuevas entidades se dibujarán automáticamente en esa capa.
+El comando `HacerCapaActual` establece la **capa de dibujo actual** a la capa a la que pertenece la entidad en la que se hace clic. Las nuevas entidades se dibujarán automáticamente en esa capa.
 
 ## Uso
 
-1. Escribe `LayerMakeCurrent` en el terminal o haz clic en el botón **Make Current** de la barra de herramientas (icono de cuentagotas).
+1. Escribe `HacerCapaActual` en el terminal o haz clic en el botón **Make Current** de la barra de herramientas (icono de cuentagotas).
 2. **Haz clic en cualquier entidad** del lienzo.
 3. La capa actual se actualiza para coincidir con la capa de esa entidad. El comando finaliza de inmediato.
 

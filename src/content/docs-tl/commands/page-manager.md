@@ -8,11 +8,11 @@ order: 3
 
 # PageManager
 
-Binubuksan ng `PageManager` command ang page settings dialog para sa aktibong layout, na nagpapahintulot sa iyong baguhin ang paper format, orientation, at ang scale sa pagitan ng drawing units at millimetres.
+Binubuksan ng `TagapamahalaNgPahina` command ang page settings dialog para sa aktibong layout, na nagpapahintulot sa iyong baguhin ang paper format, orientation, at ang scale sa pagitan ng drawing units at millimetres.
 
 ## Pagbukas ng Page Manager
 
-- I-type ang `PageManager` sa terminal, **o**
+- I-type ang `TagapamahalaNgPahina` sa terminal, **o**
 - I-right-click ang layout tab sa ibaba at piliin ang **Page Manager**.
 
 ## Mga Setting

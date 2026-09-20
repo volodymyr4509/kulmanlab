@@ -8,11 +8,11 @@ order: 5
 
 # HatchAdd
 
-`HatchAdd` komutu, önce [Hatch Manager](../hatch-manager/) penceresini açmadan bir `.pat` tarama deseni dosyası yüklemek için sistemin dosya seçicisini açar. Hatch Manager'daki **Add .pat File** düğmesinin tetiklediği yüklemenin aynısıdır — HatchAdd yalnızca terminalden oraya giden doğrudan bir yoldur.
+`TaramaEkle` komutu, önce [Hatch Manager](../hatch-manager/) penceresini açmadan bir `.pat` tarama deseni dosyası yüklemek için sistemin dosya seçicisini açar. Hatch Manager'daki **Add .pat File** düğmesinin tetiklediği yüklemenin aynısıdır — HatchAdd yalnızca terminalden oraya giden doğrudan bir yoldur.
 
 ## Desen dosyası yükleme
 
-1. Terminale `HatchAdd` yazın veya [Hatch Manager](../hatch-manager/) penceresinin altındaki **Add .pat File** düğmesine tıklayın.
+1. Terminale `TaramaEkle` yazın veya [Hatch Manager](../hatch-manager/) penceresinin altındaki **Add .pat File** düğmesine tıklayın.
 2. Sistem seçicisinde bir `.pat` dosyası seçin. Yalnızca standart tarama deseni biçimi kabul edilir.
 
 Komut, dosya seçici açılır açılmaz sona erer — ardından başka istem, tıklama veya terminal girişi gelmez. Dosya seçilir seçilmez desenler kaydedilir ve **User** grubunda görünür.

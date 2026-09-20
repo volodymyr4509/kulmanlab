@@ -8,11 +8,11 @@ order: 4
 
 # Fit
 
-Kinakalkula ng `fit` command ang bounding box ng lahat ng entity sa drawing at ina-adjust ang zoom level at pan position para makita ang bawat entity nang may maliit na margin. Ito ang pinakamabilis na paraan para mabawi ang nawalang view o mag-orient pagkatapos mag-import ng DXF file.
+Kinakalkula ng `Ibagay` command ang bounding box ng lahat ng entity sa drawing at ina-adjust ang zoom level at pan position para makita ang bawat entity nang may maliit na margin. Ito ang pinakamabilis na paraan para mabawi ang nawalang view o mag-orient pagkatapos mag-import ng DXF file.
 
 ## Pag-fit ng View
 
-I-click ang **Fit** button sa toolbar o i-type ang `fit` sa terminal. Agad na ina-adjust ang view at magsasara ang command — walang kailangang interaction.
+I-click ang **Fit** button sa toolbar o i-type ang `Ibagay` sa terminal. Agad na ina-adjust ang view at magsasara ang command — walang kailangang interaction.
 
 **I-double-click ang middle mouse button** para i-trigger ang parehong Fit operation anumang oras nang hindi kailangang i-activate ang anumang command — ang pinakamabilis na shortcut para i-reset ang nawalang view habang gumagawa.
 

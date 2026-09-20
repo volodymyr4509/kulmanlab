@@ -8,7 +8,7 @@ order: 16
 
 # Explode
 
-Lệnh `explode` tách một [Polyline](../polyline/) thành các thực thể [Line](../line/) và [Arc](../arc/) riêng lẻ — mỗi đoạn một thực thể, đúng tại vị trí các đỉnh của polyline. Các mảnh thay thế polyline tại chỗ và giữ nguyên độ dày nét, màu sắc, lớp và kiểu đường của nó.
+Lệnh `PhânRã` tách một [Polyline](../polyline/) thành các thực thể [Line](../line/) và [Arc](../arc/) riêng lẻ — mỗi đoạn một thực thể, đúng tại vị trí các đỉnh của polyline. Các mảnh thay thế polyline tại chỗ và giữ nguyên độ dày nét, màu sắc, lớp và kiểu đường của nó.
 
 Explode chỉ hoạt động trên các thực thể **Polyline**.
 
@@ -19,13 +19,13 @@ Hai cách để chạy lệnh này, cùng mẫu với [Delete](../delete/):
 **Chọn trước, rồi explode** — cách nhanh nhất:
 
 1. Chọn một hoặc nhiều polyline trên canvas.
-2. Gõ `explode` trong terminal, hoặc nhấp nút **Explode** trong bảng Edit.
+2. Gõ `PhânRã` trong terminal, hoặc nhấp nút **Explode** trong bảng Edit.
 
 Các polyline đã chọn được tách ngay lập tức — không có bước xác nhận riêng, vì đã có thứ được chọn sẵn.
 
 **Kích hoạt, rồi chọn**:
 
-1. Gõ `explode` hoặc nhấp nút thanh công cụ khi chưa chọn gì.
+1. Gõ `PhânRã` hoặc nhấp nút thanh công cụ khi chưa chọn gì.
 2. **Chọn các polyline** — nhấp để bật/tắt, hoặc kéo để chọn theo vùng.
 3. Nhấn **Enter** hoặc **Phím cách** để xác nhận và tách các polyline đã chọn.
 

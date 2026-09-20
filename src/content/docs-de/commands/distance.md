@@ -8,7 +8,7 @@ order: 1
 
 # Distance
 
-Der `distance`-Befehl misst den geradlinigen (euklidischen) Abstand zwischen zwei geklickten Punkten und gibt das Ergebnis im Terminal auf 4 Dezimalstellen aus. Es ist einer von drei Messbefehlen — [Angle](../angle/) misst die Winkelöffnung an einem Scheitelpunkt, und [Area](../area/) misst die eingeschlossene Fläche und den Umfang eines Polygons.
+Der `Abstand`-Befehl misst den geradlinigen (euklidischen) Abstand zwischen zwei geklickten Punkten und gibt das Ergebnis im Terminal auf 4 Dezimalstellen aus. Es ist einer von drei Messbefehlen — [Angle](../angle/) misst die Winkelöffnung an einem Scheitelpunkt, und [Area](../area/) misst die eingeschlossene Fläche und den Umfang eines Polygons.
 
 ## Aufbau einer Abstandsmessung
 
@@ -26,7 +26,7 @@ Der `distance`-Befehl misst den geradlinigen (euklidischen) Abstand zwischen zwe
 
 ## Einen Abstand messen
 
-1. Geben Sie `distance` im Terminal ein oder klicken Sie auf die Schaltfläche **Distance** in der Symbolleiste.
+1. Geben Sie `Abstand` im Terminal ein oder klicken Sie auf die Schaltfläche **Distance** in der Symbolleiste.
 2. **Ersten Punkt klicken**, oder geben Sie `X,Y` ein und drücken Sie **Enter** für eine genaue Koordinate.
 3. **Zweiten Punkt klicken** — der gemessene Abstand erscheint im Terminal. Koordinateneingabe funktioniert hier ebenfalls.
 4. **Erneut klicken** (optional), um eine neue Messung zu starten. Der Befehl bleibt aktiv.

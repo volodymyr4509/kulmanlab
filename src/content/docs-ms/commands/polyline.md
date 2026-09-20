@@ -8,13 +8,13 @@ order: 2
 
 # Polyline
 
-Arahan `polyline` melukis laluan bersambung sebarang bilangan segmen lurus atau lengkok, semua disimpan sebagai satu entiti `LWPOLYLINE`. Kerana keseluruhan laluan adalah satu objek, memilihnya memilih setiap segmen sekaligus — gerakkan, putar, atau skala keseluruhan bentuk dalam satu operasi. Ini adalah perbezaan utama dari [Lines](../line/) yang dirantai, di mana setiap segmen adalah entiti bebas.
+Arahan `Polyline` melukis laluan bersambung sebarang bilangan segmen lurus atau lengkok, semua disimpan sebagai satu entiti `LWPOLYLINE`. Kerana keseluruhan laluan adalah satu objek, memilihnya memilih setiap segmen sekaligus — gerakkan, putar, atau skala keseluruhan bentuk dalam satu operasi. Ini adalah perbezaan utama dari [Lines](../line/) yang dirantai, di mana setiap segmen adalah entiti bebas.
 
 Poliline juga boleh **ditutup**: arahan [Rectangle](../rectangle/) menggunakan entiti `LWPOLYLINE` yang sama dengan bendera tutup ditetapkan.
 
 ## Melukis poliline
 
-1. Taip `polyline` dalam terminal atau klik butang bar alat **Polyline**.
+1. Taip `Polyline` dalam terminal atau klik butang bar alat **Polyline**.
 2. **Klik titik pertama**, atau taip `X,Y` dan tekan **Enter** untuk koordinat tepat.
 3. **Klik setiap titik seterusnya** — setiap klik menambah segmen. Kemasukan koordinat berfungsi di setiap langkah.
 4. Tekan **Enter** atau **Space** untuk selesai (memerlukan sekurang-kurangnya 2 titik diletakkan).

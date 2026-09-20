@@ -8,13 +8,13 @@ order: 2
 
 # Polyline
 
-Umarnin `polyline` yana zana hanya mai haɗuwa na kowace adadin sassa madaidaici ko baka, dukkansu an ajiye su a matsayin abin `LWPOLYLINE` ɗaya. Domin dukkan hanyar abu ɗaya ne, zaɓen ta yana zaɓen kowace sashi lokaci ɗaya — motsa, juya, ko canza girman dukkan sifar a aiki ɗaya. Wannan shine babban bambanci daga layukan da aka sarƙa ([Lines](../line/)), inda kowace sashi abu ne mai zaman kansa.
+Umarnin `Polilayi` yana zana hanya mai haɗuwa na kowace adadin sassa madaidaici ko baka, dukkansu an ajiye su a matsayin abin `LWPOLYLINE` ɗaya. Domin dukkan hanyar abu ɗaya ne, zaɓen ta yana zaɓen kowace sashi lokaci ɗaya — motsa, juya, ko canza girman dukkan sifar a aiki ɗaya. Wannan shine babban bambanci daga layukan da aka sarƙa ([Lines](../line/)), inda kowace sashi abu ne mai zaman kansa.
 
 Polylines suma za su iya kasancewa **an rufe**: umarnin [Rectangle](../rectangle/) yana amfani da abin `LWPOLYLINE` iri ɗaya tare da tutar rufewa an saita ta.
 
 ## Zana polyline
 
-1. Rubuta `polyline` a tashar umarni ko danna maɓallin kayan aiki na **Polyline**.
+1. Rubuta `Polilayi` a tashar umarni ko danna maɓallin kayan aiki na **Polyline**.
 2. **Danna tabo na farko**, ko rubuta `X,Y` ka danna **Enter** don daidaitawa madaidaiciya.
 3. **Danna kowace tabo mai biyowa** — kowace dannawa yana ƙara sashi. Shigar da daidaitawa yana aiki a kowane mataki.
 4. Danna **Enter** ko **Space** don kammalawa (yana bukatar aƙalla tabo 2 an sanya su).

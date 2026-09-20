@@ -8,11 +8,11 @@ order: 3
 
 # FontAdd
 
-Komento `FontAdd` avaa järjestelmän tiedostovalitsimen oman `.ttf`-fontin lataamiseksi avaamatta ensin [Font Manager](../font-manager/) -valintaikkunaa. Se on sama lataus, jonka Font Managerin **Add Font** -painike käynnistää — FontAdd on vain suora reitti sinne terminaalista.
+Komento `LisääFontti` avaa järjestelmän tiedostovalitsimen oman `.ttf`-fontin lataamiseksi avaamatta ensin [Font Manager](../font-manager/) -valintaikkunaa. Se on sama lataus, jonka Font Managerin **Add Font** -painike käynnistää — FontAdd on vain suora reitti sinne terminaalista.
 
 ## Fontin lataaminen
 
-1. Kirjoita `FontAdd` terminaaliin tai napsauta **Add Font** [Font Manager](../font-manager/) -valintaikkunan alatunnisteessa.
+1. Kirjoita `LisääFontti` terminaaliin tai napsauta **Add Font** [Font Manager](../font-manager/) -valintaikkunan alatunnisteessa.
 2. Valitse `.ttf`-tiedosto järjestelmän valitsimesta. Vain TrueType-fontit tuetaan — `.otf` ja `.woff`/`.woff2` eivät ole tuettuja.
 
 Komento päättyy heti kun tiedostovalitsin avautuu — sen jälkeen ei tarvita napsautusta eikä terminaalisyötettä. Fontti rekisteröityy ja ilmestyy **User**-ryhmään heti kun tiedosto on valittu.

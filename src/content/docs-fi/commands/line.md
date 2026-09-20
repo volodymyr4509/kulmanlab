@@ -8,11 +8,11 @@ order: 1
 
 # Line
 
-Komento `line` piirtää yksittäisiä suoria viivasegmenttejä, jotka tallennetaan erillisinä `LINE`-entiteetteinä DXF-mallissa. Jokaisen segmentin jälkeen komento pysyy aktiivisena ja käyttää päätepistettä uudelleen uutena alkupisteenä, jotta voit rakentaa yhtenäisiä polkuja yksi segmentti kerrallaan. Toisin kuin [Polyline](../polyline/), ketjutetut viivat pysyvät itsenäisinä entiteetteinä — kutakin voidaan leikata, jatkaa tai poistaa vaikuttamatta naapureihin.
+Komento `Viiva` piirtää yksittäisiä suoria viivasegmenttejä, jotka tallennetaan erillisinä `LINE`-entiteetteinä DXF-mallissa. Jokaisen segmentin jälkeen komento pysyy aktiivisena ja käyttää päätepistettä uudelleen uutena alkupisteenä, jotta voit rakentaa yhtenäisiä polkuja yksi segmentti kerrallaan. Toisin kuin [Polyline](../polyline/), ketjutetut viivat pysyvät itsenäisinä entiteetteinä — kutakin voidaan leikata, jatkaa tai poistaa vaikuttamatta naapureihin.
 
 ## Viivojen piirtäminen
 
-1. Kirjoita `line` terminaaliin tai napsauta **Line**-painiketta työkalurivillä.
+1. Kirjoita `Viiva` terminaaliin tai napsauta **Line**-painiketta työkalurivillä.
 2. **Napsauta alkupistettä**, tai kirjoita `X,Y` ja paina **Enter** tarkkaa koordinaattia varten.
 3. **Napsauta loppupistettä** — segmentti sijoitetaan ja päätepisteestä tulee seuraava alkupiste. Koordinaattien syöttö toimii myös täällä.
 4. Jatka napsauttamista (tai kirjoittamista) ketjuttaaksesi lisää segmenttejä.

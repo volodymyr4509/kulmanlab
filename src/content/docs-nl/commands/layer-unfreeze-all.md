@@ -8,11 +8,11 @@ order: 5
 
 # LayerUnfreezeAll
 
-Het `LayerUnfreezeAll`-commando wist de bevriezingsvlag op **elke laag** in de tekening onmiddellijk. Geen selectie of bevestiging nodig — het wordt in één stap uitgevoerd en afgerond.
+Het `AlleLagenOntdooien`-commando wist de bevriezingsvlag op **elke laag** in de tekening onmiddellijk. Geen selectie of bevestiging nodig — het wordt in één stap uitgevoerd en afgerond.
 
 ## Gebruik
 
-Typ `LayerUnfreezeAll` in de terminal of klik op de werkbalkknop **Unfreeze All** (zonicoon). Alle bevroren lagen worden onmiddellijk zichtbaar.
+Typ `AlleLagenOntdooien` in de terminal of klik op de werkbalkknop **Unfreeze All** (zonicoon). Alle bevroren lagen worden onmiddellijk zichtbaar.
 
 ## Wanneer te gebruiken
 

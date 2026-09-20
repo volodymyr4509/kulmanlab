@@ -8,20 +8,20 @@ order: 4
 
 # Mirror
 
-Arahan `mirror` mencipta salinan entiti yang dipilih yang dicerminkan merentasi paksi dua titik. Asal **sentiasa disimpan** — tidak seperti [Move](../move/) atau [Rotate](../rotate/), Mirror tidak pernah mengubah suai entiti sedia ada; ia hanya menambah yang baharu.
+Arahan `Cermin` mencipta salinan entiti yang dipilih yang dicerminkan merentasi paksi dua titik. Asal **sentiasa disimpan** — tidak seperti [Move](../move/) atau [Rotate](../rotate/), Mirror tidak pernah mengubah suai entiti sedia ada; ia hanya menambah yang baharu.
 
 ## Dua cara untuk memulakan
 
 **Pra-pilih, kemudian cermin** — pilih entiti dahulu, kemudian aktifkan:
 
 1. Pilih satu atau lebih entiti pada kanvas.
-2. Taip `mirror` dalam terminal atau klik butang bar alat **Mirror**.
+2. Taip `Cermin` dalam terminal atau klik butang bar alat **Mirror**.
 3. **Klik titik pertama** paksi cermin, atau taip `X,Y` dan tekan **Enter** untuk koordinat tepat.
 4. **Klik titik kedua** — salinan yang dicerminkan diletakkan dan arahan keluar. Kemasukan koordinat juga berfungsi di sini.
 
 **Aktifkan, kemudian pilih** — mulakan arahan tanpa apa-apa yang dipilih:
 
-1. Taip `mirror` atau klik butang bar alat.
+1. Taip `Cermin` atau klik butang bar alat.
 2. **Pilih objek** — klik untuk togel, atau seret untuk memilih mengikut kawasan.
 3. Tekan **Enter** atau **Space** untuk mengesahkan pemilihan.
 4. **Klik titik pertama**, kemudian **klik titik kedua** paksi cermin (kemasukan koordinat tersedia di kedua-dua langkah).

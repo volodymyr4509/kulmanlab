@@ -8,11 +8,11 @@ order: 9
 
 # Spline Fit
 
-Amri ya `splinefit` inachora spline ya cubic inayopita kwenye kila nukta unayobonyeza — mkunjo wa ulingano. Tofauti na [Spline CV](../spline-cv/), ambapo mkunjo tu huvutwa kuelekea ncha za udhibiti, hapa mkunjo unalazimishwa kugusa kila kuratibu iliyobonyezwa hasa. Ndani kihariri hufanya ulingano wa ncha za udhibiti kufikia hili, na CVs hizo huhifadhiwa pamoja na nukta za ulingano katika faili ya DXF.
+Amri ya `SplineNukta` inachora spline ya cubic inayopita kwenye kila nukta unayobonyeza — mkunjo wa ulingano. Tofauti na [Spline CV](../spline-cv/), ambapo mkunjo tu huvutwa kuelekea ncha za udhibiti, hapa mkunjo unalazimishwa kugusa kila kuratibu iliyobonyezwa hasa. Ndani kihariri hufanya ulingano wa ncha za udhibiti kufikia hili, na CVs hizo huhifadhiwa pamoja na nukta za ulingano katika faili ya DXF.
 
 ## Kuchora spline kupitia nukta za ulingano
 
-1. Andika `splinefit` kwenye terminal au bonyeza kitufe cha **Spline Fit** kwenye upau wa zana.
+1. Andika `SplineNukta` kwenye terminal au bonyeza kitufe cha **Spline Fit** kwenye upau wa zana.
 2. **Bonyeza kuweka nukta za ulingano** — mkunjo utapita kwenye kila moja. Au andika `X,Y` na ubonyeze **Enter** kwa kuratibu sahihi.
 3. Bonyeza **Enter** au **Space** kumaliza (inahitaji angalau nukta 2).
 

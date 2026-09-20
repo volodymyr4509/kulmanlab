@@ -8,7 +8,7 @@ order: 7
 
 # Wipe Storage
 
-Der `wipestorage`-Befehl löscht dauerhaft **alle im Browser gespeicherten Daten** für KulmanLab CAD — jede gespeicherte Datei, Layer- und Linientyptabelle sowie den Undo-Verlauf. Die Seite wird danach automatisch neu geladen.
+Der `SpeicherLeeren`-Befehl löscht dauerhaft **alle im Browser gespeicherten Daten** für KulmanLab CAD — jede gespeicherte Datei, Layer- und Linientyptabelle sowie den Undo-Verlauf. Die Seite wird danach automatisch neu geladen.
 
 :::danger Unwiderruflich
 Diese Aktion kann nicht rückgängig gemacht werden. Alle im Browser gespeicherten Dateien werden gelöscht. Exportieren Sie alle Zeichnungen, die Sie behalten möchten, als `.json`- oder `.dxf`-Dateien, bevor Sie diesen Befehl ausführen.
@@ -22,7 +22,7 @@ Diese Aktion kann nicht rückgängig gemacht werden. Alle im Browser gespeichert
 
 ## So führen Sie es aus
 
-1. Geben Sie `wipestorage` im Terminal ein und drücken Sie **Enter**.
+1. Geben Sie `SpeicherLeeren` im Terminal ein und drücken Sie **Enter**.
 2. Das Terminal fordert auf: *Gesamten lokalen Browser-Speicher löschen? Geben Sie YES zur Bestätigung ein*
 3. Geben Sie `YES` (beliebige Groß-/Kleinschreibung) ein und drücken Sie **Enter**.
 

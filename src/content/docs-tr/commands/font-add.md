@@ -8,11 +8,11 @@ order: 3
 
 # FontAdd
 
-`FontAdd` komutu, önce [Font Manager](../font-manager/) iletişim kutusunu açmadan özel bir `.ttf` yazı tipi yüklemek için sistemin dosya seçicisini açar. Bu, Font Manager'daki **Add Font** düğmesinin tetiklediği yüklemenin aynısıdır — FontAdd sadece terminalden oraya doğrudan bir yoldur.
+`YazıTipiEkle` komutu, önce [Font Manager](../font-manager/) iletişim kutusunu açmadan özel bir `.ttf` yazı tipi yüklemek için sistemin dosya seçicisini açar. Bu, Font Manager'daki **Add Font** düğmesinin tetiklediği yüklemenin aynısıdır — FontAdd sadece terminalden oraya doğrudan bir yoldur.
 
 ## Yazı tipi yükleme
 
-1. Terminale `FontAdd` yazın veya [Font Manager](../font-manager/) iletişim kutusunun altındaki **Add Font**'a tıklayın.
+1. Terminale `YazıTipiEkle` yazın veya [Font Manager](../font-manager/) iletişim kutusunun altındaki **Add Font**'a tıklayın.
 2. Sistem seçicisinde bir `.ttf` dosyası seçin. Yalnızca TrueType yazı tipleri desteklenir — `.otf` ve `.woff`/`.woff2` desteklenmez.
 
 Dosya seçici açılır açılmaz komut tamamlanır — ardından başka bir tıklama veya terminal girişi gelmez. Dosya seçilir seçilmez yazı tipi kaydedilir ve **User** grubunda görünür.

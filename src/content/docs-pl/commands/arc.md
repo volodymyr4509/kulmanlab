@@ -8,11 +8,11 @@ order: 5
 
 # Arc
 
-Polecenie `arc` rysuje łuk kołowy przez trzy kliknięte punkty. Łuk obliczany jest jako jedyny okrąg opisany przechodzący przez wszystkie trzy punkty — nie trzeba bezpośrednio podawać środka ani promienia. Łuk biegnie od pierwszego kliknięcia do trzeciego, przechodząc przez drugie.
+Polecenie `Łuk` rysuje łuk kołowy przez trzy kliknięte punkty. Łuk obliczany jest jako jedyny okrąg opisany przechodzący przez wszystkie trzy punkty — nie trzeba bezpośrednio podawać środka ani promienia. Łuk biegnie od pierwszego kliknięcia do trzeciego, przechodząc przez drugie.
 
 ## Rysowanie łuku
 
-1. Wpisz `arc` w terminalu lub kliknij przycisk **Łuk** na pasku narzędzi.
+1. Wpisz `Łuk` w terminalu lub kliknij przycisk **Łuk** na pasku narzędzi.
 2. **Kliknij pierwszy punkt** — jeden koniec łuku. Lub wpisz `X,Y` i naciśnij **Enter** dla dokładnej współrzędnej.
 3. **Kliknij drugi punkt** — punkt, przez który łuk musi przechodzić (kontroluje krzywiznę i kierunek). Tutaj również działa wprowadzanie współrzędnych.
 4. **Kliknij trzeci punkt** — drugi koniec łuku. Łuk zostaje umieszczony i polecenie kończy się. Tutaj również działa wprowadzanie współrzędnych.

@@ -8,11 +8,11 @@ order: 8
 
 # Spline CV
 
-`splinecv` komutu, kontrol noktaları (CV'ler) yerleştirerek **kübik B-spline** çizer. Elde edilen eğri her CV'ye doğru çekilir ancak onlardan geçmez — **sıkıştırılmış düğümlerin** eğriyi tam olarak sabitlediği çok birinci ve son köşe hariç. Bu, sezgisel şekil kontrolü sağlar: eğriyi ona dokundurma zorunda kalmadan bir bölgeye doğru itmek için köşeyi çekin.
+`SplineKontrolNoktaları` komutu, kontrol noktaları (CV'ler) yerleştirerek **kübik B-spline** çizer. Elde edilen eğri her CV'ye doğru çekilir ancak onlardan geçmez — **sıkıştırılmış düğümlerin** eğriyi tam olarak sabitlediği çok birinci ve son köşe hariç. Bu, sezgisel şekil kontrolü sağlar: eğriyi ona dokundurma zorunda kalmadan bir bölgeye doğru itmek için köşeyi çekin.
 
 ## Kontrol Noktalarıyla Spline Çizimi
 
-1. Terminale `splinecv` yazın veya araç çubuğundaki **Spline CV** düğmesine tıklayın.
+1. Terminale `SplineKontrolNoktaları` yazın veya araç çubuğundaki **Spline CV** düğmesine tıklayın.
 2. **Kontrol noktaları yerleştirmek için tıklayın** — her tıklama bir köşe ekler. Ya da tam koordinat için `X,Y` yazıp **Enter** tuşuna basın.
 3. Bitirmek için **Enter** veya **Boşluk** tuşuna basın (en az 2 köşe gereklidir).
 

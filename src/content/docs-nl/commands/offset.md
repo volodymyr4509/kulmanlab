@@ -8,13 +8,13 @@ order: 10
 
 # Offset
 
-Het `offset`-commando maakt een parallelle kopie van een entiteit op een vaste loodrechte afstand. U typt de afstand eenmaal, klikt daarna op entiteiten en kiest een zijde — het commando blijft klaarstaan op dezelfde afstand, zodat u meerdere objecten in één sessie kunt offsetten.
+Het `Offset`-commando maakt een parallelle kopie van een entiteit op een vaste loodrechte afstand. U typt de afstand eenmaal, klikt daarna op entiteiten en kiest een zijde — het commando blijft klaarstaan op dezelfde afstand, zodat u meerdere objecten in één sessie kunt offsetten.
 
 Ondersteunde entiteitstypen: **Line, Circle, Arc, Ellipse, Polyline** (inclusief Rectangles).
 
 ## Offset gebruiken
 
-1. Typ `offset` in de terminal of klik op de **Offset**-werkbalkknop.
+1. Typ `Offset` in de terminal of klik op de **Offset**-werkbalkknop.
 2. **Typ de offsetafstand** en druk op **Enter** of **Spatie**.
 3. **Klik op een entiteit** om te offsetten — als de entiteit geen ondersteund type is, verschijnt een foutmelding en kunt u een andere entiteit aanklikken.
 4. **Beweeg de cursor** naar de zijde waar de kopie moet verschijnen — een live preview volgt.

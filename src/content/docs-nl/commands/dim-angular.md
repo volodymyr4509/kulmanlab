@@ -8,11 +8,11 @@ order: 9
 
 # Dimension Angular
 
-Het `DimensionAngular`-commando plaatst een **hoekmaatvoerings**boogannotatie op de tekening. Het meet en labelt de hoek tussen twee lijnen, de spanning van een boog, of een sector van een cirkel.
+Het `MaatHoek`-commando plaatst een **hoekmaatvoerings**boogannotatie op de tekening. Het meet en labelt de hoek tussen twee lijnen, de spanning van een boog, of een sector van een cirkel.
 
 ## Activeren
 
-Klik op de **Dimension Angular**-werkbalkknop in het Markering-paneel, of typ `DimensionAngular` in de terminal.
+Klik op de **Dimension Angular**-werkbalkknop in het Markering-paneel, of typ `MaatHoek` in de terminal.
 
 ## Drie invoermodi
 
@@ -47,7 +47,7 @@ Parallelle lijnen kunnen geen hoekmaatvoering vormen; het commando negeert de tw
 
 - De maatvoeringsboog wordt altijd getekend aan de kant van het hoekpunt waar u deze plaatst — beweeg de cursor over het hoekpunt om naar de aanvullende hoek te wisselen.
 - De gemeten hoek wordt in graden getoond en wordt live bijgewerkt terwijl u de cursor tijdens het plaatsen beweegt.
-- De resulterende annotatie is een volledige `DimensionAngular`-entiteit die op de huidige laag wordt opgeslagen. De weergave-eigenschappen (pijlgrootte, teksthoogte, hulplijnlengte) kunnen worden aangepast in het Eigenschappenpaneel.
+- De resulterende annotatie is een volledige `MaatHoek`-entiteit die op de huidige laag wordt opgeslagen. De weergave-eigenschappen (pijlgrootte, teksthoogte, hulplijnlengte) kunnen worden aangepast in het Eigenschappenpaneel.
 - Hoekmaten worden zowel naar JSON als naar DXF geëxporteerd, en in DXF geschreven als gewone `DIMENSION`-entiteiten.
 
 ## Het label bewerken — simple-modus

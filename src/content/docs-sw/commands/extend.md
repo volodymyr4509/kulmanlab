@@ -8,13 +8,13 @@ order: 9
 
 # Extend
 
-Amri ya `extend` hunyoosha mwisho wa karibu wa [Line](../line/), [Arc](../arc/), [Ellipse](../ellipse/) au Polyline iliyo wazi iliyoegemewa hadi makutano ya karibu zaidi ambayo yangeundwa na kipande kingine katika mchoro. Egemea karibu na mwisho unaotaka kunyoosha — hakikisho linaonyesha kipande kilichonyooshwa — kisha bonyeza kutekeleza.
+Amri ya `Refusha` hunyoosha mwisho wa karibu wa [Line](../line/), [Arc](../arc/), [Ellipse](../ellipse/) au Polyline iliyo wazi iliyoegemewa hadi makutano ya karibu zaidi ambayo yangeundwa na kipande kingine katika mchoro. Egemea karibu na mwisho unaotaka kunyoosha — hakikisho linaonyesha kipande kilichonyooshwa — kisha bonyeza kutekeleza.
 
 Ni vipande vyenye mwisho halisi tu vinavyoweza kunyooshwa. [Circle](../circle/) na Ellipse kamili (360°) daima ni maumbo yaliyofungwa bila mwisho, hivyo haviwezi kunyooshwa kamwe — vivyo hivyo kwa Polyline iliyofungwa au Rectangle. Ellipse ya sehemu (upinde wa duaradufu) na Arc vina miisho na vinanyooshwa kwa njia sawa na Line.
 
 ## Kunyoosha kipande
 
-1. Andika `extend` kwenye terminal au bonyeza kitufe cha **Extend** kwenye upau wa zana.
+1. Andika `Refusha` kwenye terminal au bonyeza kitufe cha **Extend** kwenye upau wa zana.
 2. **Egemea karibu na mwisho mmoja** wa kipande unachotaka kunyoosha — hakikisho linakionyesha kikiwa kimenyooshwa hadi mpaka wa karibu zaidi katika mwelekeo huo.
 3. **Bonyeza** kutekeleza upanuzi.
 

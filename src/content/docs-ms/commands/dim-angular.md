@@ -8,11 +8,11 @@ order: 9
 
 # Dimension Angular
 
-Arahan `DimensionAngular` meletakkan anotasi lengkok **dimensi sudut** pada lukisan. Ia mengukur dan melabel sudut antara dua garis, rentang lengkok, atau sektor bulatan.
+Arahan `DimensiSudut` meletakkan anotasi lengkok **dimensi sudut** pada lukisan. Ia mengukur dan melabel sudut antara dua garis, rentang lengkok, atau sektor bulatan.
 
 ## Cara mengaktifkan
 
-Klik butang bar alat **Dimension Angular** dalam panel Markup, atau taip `DimensionAngular` dalam terminal.
+Klik butang bar alat **Dimension Angular** dalam panel Markup, atau taip `DimensiSudut` dalam terminal.
 
 ## Tiga mod input
 
@@ -47,7 +47,7 @@ Garis selari tidak boleh membentuk dimensi sudut; arahan mengabaikan klik kedua 
 
 - Lengkok dimensi sentiasa dilukis di sisi bucu di mana anda meletakkannya — gerakkan kursor merentasi bucu untuk beralih ke sudut tambahan.
 - Sudut yang diukur ditunjukkan dalam darjah dan dikemas kini secara langsung semasa anda menggerakkan kursor semasa peletakan.
-- Anotasi yang dihasilkan adalah entiti `DimensionAngular` penuh yang disimpan pada lapisan semasa. Sifat penampilannya (saiz anak panah, ketinggian teks, panjang garis sambungan) boleh dilaraskan dalam panel Sifat.
+- Anotasi yang dihasilkan adalah entiti `DimensiSudut` penuh yang disimpan pada lapisan semasa. Sifat penampilannya (saiz anak panah, ketinggian teks, panjang garis sambungan) boleh dilaraskan dalam panel Sifat.
 - Dimensi sudut dieksport ke JSON dan DXF, dan dalam DXF ditulis sebagai entiti `DIMENSION` biasa.
 
 ## Mengedit label — mod mudah

@@ -8,17 +8,17 @@ order: 1
 
 # Match Properties
 
-Kinokopya ng `MatchProperties` command ang **visual at layer properties** mula sa source entity patungo sa isa o higit pang target entities. Ang mga properties lang na shared sa pagitan ng source at target entity types ang ini-transfer — hindi kailanman binabago ang geometry.
+Kinokopya ng `ItugmaKatangian` command ang **visual at layer properties** mula sa source entity patungo sa isa o higit pang target entities. Ang mga properties lang na shared sa pagitan ng source at target entity types ang ini-transfer — hindi kailanman binabago ang geometry.
 
 ## Paano i-activate
 
-I-click ang **Match Properties** toolbar button (paint roller icon) sa Style panel, o i-type ang `MatchProperties` sa terminal.
+I-click ang **Match Properties** toolbar button (paint roller icon) sa Style panel, o i-type ang `ItugmaKatangian` sa terminal.
 
 ## Workflow
 
 **I-activate muna, pagkatapos piliin ang source:**
 
-1. I-type ang `MatchProperties` o i-click ang toolbar button nang walang naka-pre-select.
+1. I-type ang `ItugmaKatangian` o i-click ang toolbar button nang walang naka-pre-select.
 2. **I-click ang source entity** — ang entity na ang properties nito ang gusto mong kopyahin.
 3. **I-click ang bawat target entity** para i-apply ang source properties. Puwede kang mag-click ng maraming entity nang paisa-isa.
 4. Para i-apply sa isang grupo nang sabay-sabay, **mag-drag ng selection box** sa mga target.
@@ -27,7 +27,7 @@ I-click ang **Match Properties** toolbar button (paint roller icon) sa Style pan
 **Pre-select muna ang source, pagkatapos i-activate:**
 
 1. I-click ang isang entity para piliin ito.
-2. I-activate ang `MatchProperties`. Awtomatikong gagamitin ang napiling entity bilang source.
+2. I-activate ang `ItugmaKatangian`. Awtomatikong gagamitin ang napiling entity bilang source.
 3. I-click ang mga target entity o mag-drag-select, pagkatapos ay pindutin ang **Enter** o **Escape** para tapusin.
 
 ## Anong mga properties ang kinokopya

@@ -8,11 +8,11 @@ order: 2
 
 # Zoom In
 
-Komento `zoomin` kertoo nykyisen zoomtason **1,5x:llä** ja päättyy välittömästi, keskitettynä näkymäikkunan keskipisteeseen. Se on työkalurivin vastine yhdelle rullan rastille zoomattuna näytön keskustaa kohti kohdistimen sijaan.
+Komento `Lähennä` kertoo nykyisen zoomtason **1,5x:llä** ja päättyy välittömästi, keskitettynä näkymäikkunan keskipisteeseen. Se on työkalurivin vastine yhdelle rullan rastille zoomattuna näytön keskustaa kohti kohdistimen sijaan.
 
 ## Zoomaaminen sisään
 
-Napsauta **Zoom In**-painiketta työkalurivillä tai kirjoita `zoomin` terminaaliin. Zoom sovelletaan välittömästi ja komento päättyy — piirtoalueen napsautusta ei tarvita.
+Napsauta **Zoom In**-painiketta työkalurivillä tai kirjoita `Lähennä` terminaaliin. Zoom sovelletaan välittömästi ja komento päättyy — piirtoalueen napsautusta ei tarvita.
 
 ## Miten 1,5x-askel toimii
 

@@ -8,11 +8,11 @@ order: 7
 
 # Hatch
 
-Der Befehl `hatch` füllt den Bereich um einen angeklickten Punkt mit einem Muster. Die Randkontur wird nicht vorher gezeichnet — sie ergibt sich aus dem, was bereits auf der Zeichenfläche vorhanden ist, sodass vier separate [Lines](../line/), die Ende an Ende zusammentreffen, einen Bereich genauso umschließen wie eine geschlossene [Polyline](../polyline/), und jede geschlossene Form darin wird zu einer Insel, die die Füllung unangetastet lässt.
+Der Befehl `Schraffur` füllt den Bereich um einen angeklickten Punkt mit einem Muster. Die Randkontur wird nicht vorher gezeichnet — sie ergibt sich aus dem, was bereits auf der Zeichenfläche vorhanden ist, sodass vier separate [Lines](../line/), die Ende an Ende zusammentreffen, einen Bereich genauso umschließen wie eine geschlossene [Polyline](../polyline/), und jede geschlossene Form darin wird zu einer Insel, die die Füllung unangetastet lässt.
 
 ## Eine Fläche füllen
 
-1. Geben Sie `hatch` im Terminal ein oder klicken Sie auf die Werkzeugleisten-Schaltfläche **Hatch** (das Muster-Symbol).
+1. Geben Sie `Schraffur` im Terminal ein oder klicken Sie auf die Werkzeugleisten-Schaltfläche **Hatch** (das Muster-Symbol).
 2. **Klicken Sie auf einen Punkt** innerhalb der Fläche, die Sie füllen möchten.
 3. Der Befehl bleibt aktiv, sodass Sie weiterklicken können, um weitere Flächen zu füllen — jeder Klick erzeugt sein eigenes `Hatch`-Element.
 4. Drücken Sie **Enter**, **Space** oder **Escape**, wenn Sie fertig sind.
@@ -69,7 +69,7 @@ Jeder neue Hatch startet gefüllt mit `ANSI31` (oder dem Muster, das der *zuletz
 1. Wählen Sie einen vorhandenen Hatch aus und öffnen Sie dessen Feld **Pattern** im Eigenschaftenfenster — dies öffnet die Musterauswahl, ein Raster benannter Muster-Vorschauen, gruppiert danach, woher jedes Muster stammt.
 2. Klicken Sie auf ein Muster, um es anzuwenden — die Füllung wird sofort aktualisiert.
 
-Diese Auswahl wird auch zur Vorgabe für den *nächsten* Hatch, den Sie mit dem Befehl `hatch` erstellen, genauso wie die Wahl eines Layers oder einer Farbe übernommen wird. Um also mehrere neue Flächen mit einem bestimmten Muster zu schraffieren: eine Fläche füllen, ihr Muster einmal festlegen, dann weiter schraffieren — jede Füllung danach beginnt bereits mit diesem angewendeten Muster.
+Diese Auswahl wird auch zur Vorgabe für den *nächsten* Hatch, den Sie mit dem Befehl `Schraffur` erstellen, genauso wie die Wahl eines Layers oder einer Farbe übernommen wird. Um also mehrere neue Flächen mit einem bestimmten Muster zu schraffieren: eine Fläche füllen, ihr Muster einmal festlegen, dann weiter schraffieren — jede Füllung danach beginnt bereits mit diesem angewendeten Muster.
 
 Siehe [Hatch Manager](../hatch-manager/) zum Hochladen eigener `.pat`-Musterdateien und zum Durchsuchen der vollständigen Bibliothek.
 

@@ -8,11 +8,11 @@ order: 6
 
 # Ellipse
 
-Kommandoen `ellipse` tegner en ellipse med tre klik: et centerpunkt, endepunktet for den første (store) halvakse i en hvilken som helst vinkel, og længden af den anden (lille) halvakse. De to akser er altid vinkelrette på hinanden — retningen af den anden akse udledes automatisk fra den første.
+Kommandoen `Ellipse` tegner en ellipse med tre klik: et centerpunkt, endepunktet for den første (store) halvakse i en hvilken som helst vinkel, og længden af den anden (lille) halvakse. De to akser er altid vinkelrette på hinanden — retningen af den anden akse udledes automatisk fra den første.
 
 ## Tegne en ellipse
 
-1. Skriv `ellipse` i terminalen eller klik på **Ellipse**-knappen i værktøjslinjen.
+1. Skriv `Ellipse` i terminalen eller klik på **Ellipse**-knappen i værktøjslinjen.
 2. **Klik centerpunktet**, eller skriv `X,Y` og tryk **Enter** for en eksakt koordinat.
 3. **Klik endepunktet for den første akse** — sætter både retningen og længden af den første halvakse. Koordinatindtastning fungerer også her.
 4. **Sæt længden af den anden akse** — flyt markøren vinkelret på den første akse, klik derefter eller skriv en længde.

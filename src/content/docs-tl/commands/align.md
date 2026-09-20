@@ -8,14 +8,14 @@ order: 6
 
 # Align
 
-Muling pinopositio ng `align` command ang mga napiling entity gamit ang isa o dalawang pares ng source/destination point. Kapag isang pares lang, kumikilos ito nang eksaktong tulad ng [Move](../move/) (translate lang). Kapag dalawang pares, ini-rotate rin nito ang seleksyon para tumugma ang direksyon ng source-papuntang-source sa direksyon ng destination-papuntang-destination, at maaari itong i-scale nang opsyonal para tumugma ang haba ng source segment sa haba ng destination segment — translate, rotate, at scale sa iisang operasyon.
+Muling pinopositio ng `Ihanay` command ang mga napiling entity gamit ang isa o dalawang pares ng source/destination point. Kapag isang pares lang, kumikilos ito nang eksaktong tulad ng [Move](../move/) (translate lang). Kapag dalawang pares, ini-rotate rin nito ang seleksyon para tumugma ang direksyon ng source-papuntang-source sa direksyon ng destination-papuntang-destination, at maaari itong i-scale nang opsyonal para tumugma ang haba ng source segment sa haba ng destination segment — translate, rotate, at scale sa iisang operasyon.
 
 ## Dalawang paraan para magsimula
 
 **Pre-select, tapos i-align** — piliin muna ang mga entity, pagkatapos i-activate:
 
 1. Piliin ang isa o higit pang entity sa canvas.
-2. I-type ang `align` sa terminal o i-click ang **Align** button sa toolbar.
+2. I-type ang `Ihanay` sa terminal o i-click ang **Align** button sa toolbar.
 3. **I-click ang unang source point (S1)**, tapos **i-click ang unang destination point (D1)**.
 4. **I-click ang ikalawang source point (S2)**, o pindutin ang **Enter** o **Space** para agad na ilapat ang isang translate-only na alignment.
 5. **I-click ang ikalawang destination point (D2)**.
@@ -23,7 +23,7 @@ Muling pinopositio ng `align` command ang mga napiling entity gamit ang isa o da
 
 **Activate, tapos select** — simulan ang command nang walang naka-select:
 
-1. I-type ang `align` o i-click ang toolbar button.
+1. I-type ang `Ihanay` o i-click ang toolbar button.
 2. **Piliin ang mga object** — mag-click para i-toggle ang bawat entity, o mag-drag para pumili ayon sa area.
 3. Pindutin ang **Enter** o **Space** para kumpirmahin ang seleksyon.
 4. Ituloy sa S1 → D1 → S2 → D2 → scale prompt gaya ng nasa itaas.
@@ -97,4 +97,4 @@ Nananatiling naka-select ang mga na-align na entity sa bago nilang posisyon, at 
 
 ## Mga suportadong entity
 
-Gumagana ang Align sa bawat entity type na sinusuportahan ng Move, Rotate, at Scale — ang parehong `translate`, `rotate`, at `scale` na operasyon na ginagamit ng mga command na iyon ay inilalapat nang sunud-sunod, kaya wala mang hindi kasama.
+Gumagana ang Align sa bawat entity type na sinusuportahan ng Move, Rotate, at Scale — ang parehong `translate`, `Iikot`, at `Iskala` na operasyon na ginagamit ng mga command na iyon ay inilalapat nang sunud-sunod, kaya wala mang hindi kasama.

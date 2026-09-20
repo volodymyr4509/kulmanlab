@@ -8,20 +8,20 @@ order: 4
 
 # Mirror
 
-La commande `mirror` crée des copies symétriques des entités sélectionnées réfléchies par rapport à un axe défini par deux points. Les originaux sont **toujours conservés** — contrairement à [Move](../move/) ou [Rotate](../rotate/), Mirror ne modifie jamais les entités existantes ; elle en ajoute seulement de nouvelles.
+La commande `Miroir` crée des copies symétriques des entités sélectionnées réfléchies par rapport à un axe défini par deux points. Les originaux sont **toujours conservés** — contrairement à [Move](../move/) ou [Rotate](../rotate/), Mirror ne modifie jamais les entités existantes ; elle en ajoute seulement de nouvelles.
 
 ## Deux façons de démarrer
 
 **Pré-sélectionner, puis symétriser** — sélectionnez d'abord les entités, puis activez :
 
 1. Sélectionnez une ou plusieurs entités sur le canevas.
-2. Tapez `mirror` dans le terminal ou cliquez sur le bouton **Mirror** de la barre d'outils.
+2. Tapez `Miroir` dans le terminal ou cliquez sur le bouton **Mirror** de la barre d'outils.
 3. **Cliquez sur le premier point** de l'axe de symétrie, ou tapez `X,Y` et appuyez sur **Entrée** pour une coordonnée exacte.
 4. **Cliquez sur le deuxième point** — les copies symétriques sont placées et la commande se termine. La saisie de coordonnées fonctionne ici aussi.
 
 **Activer, puis sélectionner** — démarrez la commande sans rien de sélectionné :
 
-1. Tapez `mirror` ou cliquez sur le bouton de la barre d'outils.
+1. Tapez `Miroir` ou cliquez sur le bouton de la barre d'outils.
 2. **Sélectionnez les objets** — cliquez pour basculer, ou faites glisser pour sélectionner par zone.
 3. Appuyez sur **Entrée** ou **Espace** pour confirmer la sélection.
 4. **Cliquez sur le premier point**, puis **cliquez sur le deuxième point** de l'axe de symétrie (la saisie de coordonnées est disponible aux deux étapes).

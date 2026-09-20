@@ -8,11 +8,11 @@ order: 4
 
 # Hatch Manager
 
-Ang `HatchManager` command ay nagbubukas ng dialog para mag-browse ng hatch patterns na may live swatch preview, at para mag-upload ng sarili mong `.pat` pattern files na gagamitin sa [Hatch](../hatch/).
+Ang `TagapamahalaNgPadron` command ay nagbubukas ng dialog para mag-browse ng hatch patterns na may live swatch preview, at para mag-upload ng sarili mong `.pat` pattern files na gagamitin sa [Hatch](../hatch/).
 
 ## Pagbukas ng Hatch Manager
 
-I-type ang `HatchManager` sa terminal. Hiwalay ito sa pattern picker na bumubukas kapag na-click mo ang **Pattern** chip ng isang hatch — pinipili ng picker ang pattern para sa isang hatch, ang Hatch Manager ay kung saan mo idinaragdag o inaalis ang mga `.pat` file.
+I-type ang `TagapamahalaNgPadron` sa terminal. Hiwalay ito sa pattern picker na bumubukas kapag na-click mo ang **Pattern** chip ng isang hatch — pinipili ng picker ang pattern para sa isang hatch, ang Hatch Manager ay kung saan mo idinaragdag o inaalis ang mga `.pat` file.
 
 ## Mga Grupo ng Pattern
 

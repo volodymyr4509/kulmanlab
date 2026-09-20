@@ -8,17 +8,17 @@ order: 1
 
 # Match Properties
 
-Kommandoen `MatchProperties` kopierer **visuelle og lagrelaterede egenskaber** fra en kildeentitet til én eller flere målentiteter. Kun egenskaber der deles mellem kilde- og måltypen overføres — geometri ændres aldrig.
+Kommandoen `KopierEgenskaber` kopierer **visuelle og lagrelaterede egenskaber** fra en kildeentitet til én eller flere målentiteter. Kun egenskaber der deles mellem kilde- og måltypen overføres — geometri ændres aldrig.
 
 ## Sådan aktiverer du den
 
-Klik på **Match Properties**-knappen (malerulleikon) i Style-panelet, eller skriv `MatchProperties` i terminalen.
+Klik på **Match Properties**-knappen (malerulleikon) i Style-panelet, eller skriv `KopierEgenskaber` i terminalen.
 
 ## Arbejdsgang
 
 **Aktivér først, vælg derefter kilde:**
 
-1. Skriv `MatchProperties` eller klik på værktøjslinjeknappen med intet forhåndsmarkeret.
+1. Skriv `KopierEgenskaber` eller klik på værktøjslinjeknappen med intet forhåndsmarkeret.
 2. **Klik kildeentiteten** — den hvis egenskaber du vil kopiere.
 3. **Klik hver målentitet** for at anvende kildeegenskaberne. Du kan klikke flere entiteter én ad gangen.
 4. For at anvende på en gruppe på én gang, **træk en markeringsboks** over målene.
@@ -27,7 +27,7 @@ Klik på **Match Properties**-knappen (malerulleikon) i Style-panelet, eller skr
 **Markér kilden først, aktivér derefter:**
 
 1. Klik én enkelt entitet for at markere den.
-2. Aktivér `MatchProperties`. Den markerede entitet bruges automatisk som kilde.
+2. Aktivér `KopierEgenskaber`. Den markerede entitet bruges automatisk som kilde.
 3. Klik målentiteter eller træk-markér, derefter **Enter** eller **Escape** for at afslutte.
 
 ## Hvilke egenskaber der kopieres

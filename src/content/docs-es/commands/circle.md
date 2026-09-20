@@ -8,11 +8,11 @@ order: 4
 
 # Circle
 
-El comando `circle` dibuja un círculo definido por un punto central y un radio. Después de hacer clic en el centro, puedes establecer el radio haciendo clic en un segundo punto en el lienzo o escribiendo un número exacto — ambas opciones están disponibles al mismo tiempo.
+El comando `Círculo` dibuja un círculo definido por un punto central y un radio. Después de hacer clic en el centro, puedes establecer el radio haciendo clic en un segundo punto en el lienzo o escribiendo un número exacto — ambas opciones están disponibles al mismo tiempo.
 
 ## Dibujar un círculo
 
-1. Escribe `circle` en el terminal o haz clic en el botón **Circle** de la barra de herramientas.
+1. Escribe `Círculo` en el terminal o haz clic en el botón **Circle** de la barra de herramientas.
 2. **Haz clic en el punto central**, o escribe `X,Y` y presiona **Enter** para una coordenada exacta.
 3. Establece el radio — ya sea:
    - **Haz clic en cualquier punto** del lienzo — la distancia desde el centro se convierte en el radio, o

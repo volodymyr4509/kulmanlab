@@ -8,11 +8,11 @@ order: 4
 
 # Fit
 
-Perintah `fit` menghitung kotak pembatas semua entitas dalam gambar dan menyesuaikan tingkat zoom dan posisi pan sehingga setiap entitas terlihat dengan margin kecil. Ini adalah cara tercepat untuk memulihkan tampilan yang hilang atau mengorientasikan diri setelah mengimpor file DXF.
+Perintah `Paskan` menghitung kotak pembatas semua entitas dalam gambar dan menyesuaikan tingkat zoom dan posisi pan sehingga setiap entitas terlihat dengan margin kecil. Ini adalah cara tercepat untuk memulihkan tampilan yang hilang atau mengorientasikan diri setelah mengimpor file DXF.
 
 ## Menyesuaikan tampilan
 
-Klik tombol toolbar **Fit** atau ketik `fit` di terminal. Tampilan menyesuaikan segera dan perintah keluar — tidak diperlukan interaksi.
+Klik tombol toolbar **Fit** atau ketik `Paskan` di terminal. Tampilan menyesuaikan segera dan perintah keluar — tidak diperlukan interaksi.
 
 **Klik ganda tombol mouse tengah** memicu operasi Fit yang sama kapan saja tanpa mengaktifkan perintah apa pun — pintasan tercepat untuk mengatur ulang tampilan yang hilang di tengah menggambar.
 

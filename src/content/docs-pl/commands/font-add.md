@@ -8,11 +8,11 @@ order: 3
 
 # FontAdd
 
-Polecenie `FontAdd` otwiera systemowe okno wyboru pliku, aby przesłać własną czcionkę `.ttf`, bez wcześniejszego otwierania okna dialogowego [Font Manager](../font-manager/). To ten sam mechanizm przesyłania, który uruchamia przycisk **Add Font** w Font Manager — FontAdd to po prostu bezpośrednia droga do niego z terminala.
+Polecenie `CzcionkaDodaj` otwiera systemowe okno wyboru pliku, aby przesłać własną czcionkę `.ttf`, bez wcześniejszego otwierania okna dialogowego [Font Manager](../font-manager/). To ten sam mechanizm przesyłania, który uruchamia przycisk **Add Font** w Font Manager — FontAdd to po prostu bezpośrednia droga do niego z terminala.
 
 ## Przesyłanie czcionki
 
-1. Wpisz `FontAdd` w terminalu lub kliknij **Add Font** w stopce okna dialogowego [Font Manager](../font-manager/).
+1. Wpisz `CzcionkaDodaj` w terminalu lub kliknij **Add Font** w stopce okna dialogowego [Font Manager](../font-manager/).
 2. Wybierz plik `.ttf` w systemowym oknie wyboru. Obsługiwane są tylko czcionki TrueType — `.otf` oraz `.woff`/`.woff2` nie są obsługiwane.
 
 Polecenie kończy się, gdy tylko otworzy się okno wyboru pliku — nie ma dalszego kliknięcia ani wpisywania w terminalu. Czcionka zostaje zarejestrowana i pojawia się w grupie **User** zaraz po wybraniu pliku.

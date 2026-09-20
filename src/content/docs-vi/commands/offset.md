@@ -7,13 +7,13 @@ order: 10
 
 # Offset
 
-Lệnh `offset` tạo bản sao song song của một thực thể ở khoảng cách vuông góc cố định. Bạn gõ khoảng cách một lần, sau đó nhấp thực thể và chọn một bên — lệnh vẫn sẵn sàng theo cùng khoảng cách để bạn có thể offset nhiều đối tượng trong một phiên.
+Lệnh `SongSong` tạo bản sao song song của một thực thể ở khoảng cách vuông góc cố định. Bạn gõ khoảng cách một lần, sau đó nhấp thực thể và chọn một bên — lệnh vẫn sẵn sàng theo cùng khoảng cách để bạn có thể offset nhiều đối tượng trong một phiên.
 
 Các loại thực thể được hỗ trợ: **Đường thẳng, Hình tròn, Cung, Hình elip, Đường đa đoạn** (bao gồm Hình chữ nhật).
 
 ## Sử dụng offset
 
-1. Gõ `offset` trong terminal hoặc nhấp nút **Offset** trên thanh công cụ.
+1. Gõ `SongSong` trong terminal hoặc nhấp nút **Offset** trên thanh công cụ.
 2. **Gõ khoảng cách offset** và nhấn **Enter** hoặc **Space**.
 3. **Nhấp thực thể** để offset.
 4. **Di chuyển con trỏ** sang phía nơi bản sao xuất hiện — bản xem trước trực tiếp theo dõi.

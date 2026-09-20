@@ -8,11 +8,11 @@ order: 3
 
 # File Manager
 
-Il comando `FileManager` apre una **griglia di miniature** di ogni disegno che è stato salvato nell'archivio locale del tuo browser, ordinata in base a quando ciascuno è stato salvato l'ultima volta. Usala per riaprire un disegno precedente, rinominarlo o eliminarlo.
+Il comando `GestoreFile` apre una **griglia di miniature** di ogni disegno che è stato salvato nell'archivio locale del tuo browser, ordinata in base a quando ciascuno è stato salvato l'ultima volta. Usala per riaprire un disegno precedente, rinominarlo o eliminarlo.
 
 ## Come aprire il File Manager
 
-- Digita `FileManager` nel terminale, **oppure**
+- Digita `GestoreFile` nel terminale, **oppure**
 - Clicca il pulsante **File Manager** nella barra degli strumenti (icona cronologia) nel pannello File in cima allo schermo.
 
 Il pannello si apre sul lato sinistro del canvas e si chiude automaticamente non appena avvii un altro comando o [Importa](../import/) un file — così non resta mai aperto sopra un disegno che ancora non elenca. Si riapre con un elenco aggiornato ogni volta.

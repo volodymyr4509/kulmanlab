@@ -8,11 +8,11 @@ order: 1
 
 # Line
 
-Umarnin `line` yana zana sassan layi madaidaici ɗaya-ɗaya, waɗanda ake ajiye su a matsayin abubuwan `LINE` daban a model na DXF. Bayan kowane sashi umarnin yana ci gaba da zama a aiki kuma yana sake amfani da ƙarshen a matsayin sabon tabon farawa, don haka za ka iya gina hanyoyi masu haɗuwa sashi ɗaya bayan wani. Ba kamar [Polyline](../polyline/) ba, layukan da aka sarƙa suna ci gaba da zama abubuwa masu zaman kansu — kowanne ana iya yanke shi, tsawaita shi, ko share shi ba tare da shafar makwaftansa ba.
+Umarnin `Layi` yana zana sassan layi madaidaici ɗaya-ɗaya, waɗanda ake ajiye su a matsayin abubuwan `LINE` daban a model na DXF. Bayan kowane sashi umarnin yana ci gaba da zama a aiki kuma yana sake amfani da ƙarshen a matsayin sabon tabon farawa, don haka za ka iya gina hanyoyi masu haɗuwa sashi ɗaya bayan wani. Ba kamar [Polyline](../polyline/) ba, layukan da aka sarƙa suna ci gaba da zama abubuwa masu zaman kansu — kowanne ana iya yanke shi, tsawaita shi, ko share shi ba tare da shafar makwaftansa ba.
 
 ## Zana layuka
 
-1. Rubuta `line` a tashar umarni ko danna maɓallin kayan aiki na **Line**.
+1. Rubuta `Layi` a tashar umarni ko danna maɓallin kayan aiki na **Line**.
 2. **Danna tabon farawa**, ko rubuta `X,Y` ka danna **Enter** don daidaitawa madaidaiciya.
 3. **Danna tabon ƙarshe** — ana sanya sashen kuma ƙarshen ya zama sabon tabon farawa. Shigar da daidaitawa yana aiki a nan ma.
 4. Ci gaba da dannawa (ko rubutu) don sarƙa ƙarin sassa.

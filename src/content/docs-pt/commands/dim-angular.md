@@ -8,11 +8,11 @@ order: 9
 
 # Dimension Angular
 
-O comando `DimensionAngular` posiciona uma **cota angular** em arco no desenho. Ele mede e etiqueta o ângulo entre duas linhas, a extensão de um arco, ou um setor de um círculo.
+O comando `CotaAngular` posiciona uma **cota angular** em arco no desenho. Ele mede e etiqueta o ângulo entre duas linhas, a extensão de um arco, ou um setor de um círculo.
 
 ## Como ativar
 
-Clique no botão **Dimension Angular** na barra de ferramentas no painel de Anotação, ou digite `DimensionAngular` no terminal.
+Clique no botão **Dimension Angular** na barra de ferramentas no painel de Anotação, ou digite `CotaAngular` no terminal.
 
 ## Três modos de entrada
 
@@ -47,7 +47,7 @@ Linhas paralelas não podem formar uma cota angular; o comando ignora o segundo 
 
 - O arco de cota é sempre desenhado no lado do vértice onde você o posiciona — mova o cursor pelo vértice para alternar para o ângulo suplementar.
 - O ângulo medido é exibido em graus e atualiza ao vivo enquanto você move o cursor durante o posicionamento.
-- A anotação resultante é uma entidade `DimensionAngular` completa armazenada na camada atual. As propriedades de aparência (tamanho da seta, altura do texto, comprimento da linha de extensão) podem ser ajustadas no painel Propriedades.
+- A anotação resultante é uma entidade `CotaAngular` completa armazenada na camada atual. As propriedades de aparência (tamanho da seta, altura do texto, comprimento da linha de extensão) podem ser ajustadas no painel Propriedades.
 - As cotas angulares são exportadas tanto para JSON quanto para DXF, e no DXF são escritas como entidades `DIMENSION` padrão.
 
 ## Editar a etiqueta — simple mode

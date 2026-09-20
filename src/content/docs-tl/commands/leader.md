@@ -8,7 +8,7 @@ order: 1
 
 # Leader
 
-Ginuguhit ng `leader` command ang multileader annotation sa apat na hakbang: isang arrowhead na tumatama sa isang feature, isang leader line na yumuyuko sa isang dogleg, isang text anchor, at isang na-type na label. Sa lahat ng annotation command, ang Leader lamang ang may kasamang interactive text-input phase na may blinking cursor preview.
+Ginuguhit ng `Panuro` command ang multileader annotation sa apat na hakbang: isang arrowhead na tumatama sa isang feature, isang leader line na yumuyuko sa isang dogleg, isang text anchor, at isang na-type na label. Sa lahat ng annotation command, ang Leader lamang ang may kasamang interactive text-input phase na may blinking cursor preview.
 
 ## Anatomiya ng Multileader
 
@@ -27,7 +27,7 @@ Ginuguhit ng `leader` command ang multileader annotation sa apat na hakbang: isa
 
 ## Pagguhit ng Leader
 
-1. I-type ang `leader` sa terminal o i-click ang **Leader** button sa toolbar.
+1. I-type ang `Panuro` sa terminal o i-click ang **Leader** button sa toolbar.
 2. **I-click ang arrowhead tip**, o i-type ang `X,Y` at pindutin ang **Enter** para sa eksaktong coordinate.
 3. **I-click ang dogleg** — ang yuko sa leader. Naka-lock ang angle sa 45° increments; mag-type ng haba at pindutin ang **Enter** para sa eksaktong paglalagay. O i-type ang `X,Y` para maglagay ng absolute coordinate.
 4. **I-click ang text position** — kung saan nagja-jangkla ang label. Pareho ang mga opsyon: click, angle-lock + haba, o `X,Y`.

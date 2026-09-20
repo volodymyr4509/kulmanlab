@@ -8,11 +8,11 @@ order: 1
 
 # Pan
 
-Arahan `pan` memasuki mod seret-untuk-tatal yang berterusan — klik dan seret di mana-mana pada kanvas untuk menggeser pandangan. Paras zum tidak berubah. Mod Pan kekal aktif sehingga anda menekan `Escape`, jadi anda boleh menyeret beberapa kali dalam satu pengaktifan.
+Arahan `Geser` memasuki mod seret-untuk-tatal yang berterusan — klik dan seret di mana-mana pada kanvas untuk menggeser pandangan. Paras zum tidak berubah. Mod Pan kekal aktif sehingga anda menekan `Escape`, jadi anda boleh menyeret beberapa kali dalam satu pengaktifan.
 
 ## Menggerakkan pandangan
 
-1. Taip `pan` dalam terminal atau klik butang bar alat **Pan**.
+1. Taip `Geser` dalam terminal atau klik butang bar alat **Pan**.
 2. **Klik dan seret** di mana-mana pada kanvas untuk menggeser pandangan.
 3. Lepaskan dan seret lagi sebanyak yang diperlukan.
 4. Tekan `Escape` untuk keluar dari mod pan.

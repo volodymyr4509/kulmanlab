@@ -8,7 +8,7 @@ order: 7
 
 # Wipe Storage
 
-Permanenteng binubura ng `wipestorage` command ang **lahat ng data na naka-store sa browser** para sa KulmanLab CAD — bawat saved file, layer at linetype table, at undo history. Awtomatikong nag-re-reload ang page pagkatapos nito.
+Permanenteng binubura ng `BurahinImbakan` command ang **lahat ng data na naka-store sa browser** para sa KulmanLab CAD — bawat saved file, layer at linetype table, at undo history. Awtomatikong nag-re-reload ang page pagkatapos nito.
 
 :::danger Hindi na maibabalik
 Hindi na maaaring bawiin ang aksyong ito. Tinatanggal ang lahat ng file na naka-store sa browser. I-export muna ang anumang drawing na gusto mong panatilihin bilang `.json` o `.dxf` files bago patakbuhin ang command na ito.
@@ -22,7 +22,7 @@ Hindi na maaaring bawiin ang aksyong ito. Tinatanggal ang lahat ng file na naka-
 
 ## Paano ito patakbuhin
 
-1. I-type ang `wipestorage` sa terminal at pindutin ang **Enter**.
+1. I-type ang `BurahinImbakan` sa terminal at pindutin ang **Enter**.
 2. Ipoprompt ng terminal: *Wipe all browser local storage? Type YES to confirm*
 3. I-type ang `YES` (anumang capitalisation) at pindutin ang **Enter**.
 

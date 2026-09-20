@@ -8,7 +8,7 @@ order: 12
 
 # Chamfer
 
-Perintah `chamfer` memotong sudut diagonal lurus antara dua entitas [Line](../line/) atau [Polyline](../polyline/). Anda menentukan seberapa jauh ke belakang untuk memotong sepanjang setiap entitas (d1 dan d2), dan perintah memotong kedua entitas ke titik-titik tersebut dan menyisipkan garis penghubung di antara keduanya.
+Perintah `Chamfer` memotong sudut diagonal lurus antara dua entitas [Line](../line/) atau [Polyline](../polyline/). Anda menentukan seberapa jauh ke belakang untuk memotong sepanjang setiap entitas (d1 dan d2), dan perintah memotong kedua entitas ke titik-titik tersebut dan menyisipkan garis penghubung di antara keduanya.
 
 Menggunakan jarak yang sama menghasilkan potongan 45° simetris; jarak yang berbeda menghasilkan bevel asimetris.
 
@@ -16,7 +16,7 @@ Chamfer bekerja pada entitas **Line dan Polyline**.
 
 ## Menggunakan chamfer
 
-1. Ketik `chamfer` di terminal atau klik tombol toolbar **Chamfer**.
+1. Ketik `Chamfer` di terminal atau klik tombol toolbar **Chamfer**.
 2. **Ketik jarak chamfer pertama** (d1 — jarak sepanjang entitas pertama) dan tekan **Enter**.
 3. **Ketik jarak chamfer kedua** (d2 — jarak sepanjang entitas kedua) dan tekan **Enter**.
 4. **Klik entitas pertama** — bagian yang Anda klik menentukan sisi mana dari perpotongan mana pun yang dipertahankan.

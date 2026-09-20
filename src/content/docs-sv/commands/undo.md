@@ -8,11 +8,11 @@ order: 13
 
 # Undo
 
-`undo`-kommandot ångrar den senaste ändringen av ritningen — ett steg per anrop. Varje tillägg, borttagning eller redigering av entiteter registreras som en separat historikpost. Undo stegar tillbaka genom dessa poster i omvänd ordning.
+`Ångra`-kommandot ångrar den senaste ändringen av ritningen — ett steg per anrop. Varje tillägg, borttagning eller redigering av entiteter registreras som en separat historikpost. Undo stegar tillbaka genom dessa poster i omvänd ordning.
 
 ## Så ångrar du
 
-- Skriv `undo` i terminalen, eller
+- Skriv `Ångra` i terminalen, eller
 - Klicka på **Undo**-knappen i verktygsfältet.
 
 Varje anrop ångrar en registrerad åtgärd. Anropa det upprepade gånger för att stega längre tillbaka.

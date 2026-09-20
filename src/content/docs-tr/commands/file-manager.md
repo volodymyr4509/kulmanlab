@@ -8,11 +8,11 @@ order: 3
 
 # File Manager
 
-`FileManager` komutu, tarayıcınızın yerel deposuna kaydedilmiş her çizimin **küçük resim ızgarasını**, en son kaydedilme sırasına göre açar. Önceki bir çizimi yeniden açmak, yeniden adlandırmak veya silmek için bunu kullanın.
+`DosyaYöneticisi` komutu, tarayıcınızın yerel deposuna kaydedilmiş her çizimin **küçük resim ızgarasını**, en son kaydedilme sırasına göre açar. Önceki bir çizimi yeniden açmak, yeniden adlandırmak veya silmek için bunu kullanın.
 
 ## File Manager'ı Açma
 
-- Terminale `FileManager` yazın, **veya**
+- Terminale `DosyaYöneticisi` yazın, **veya**
 - Ekranın üstündeki Dosya panelindeki **File Manager** araç çubuğu düğmesine (geçmiş simgesi) tıklayın.
 
 Panel tuvalin sol tarafında açılır ve başka bir komut başlatır başlatmaz ya da bir dosya [içe aktarır](../import/) aktarmaz otomatik olarak kapanır — böylece henüz listelemediği bir çizimin üzerinde asla asılı kalmaz. Her seferinde güncel bir listeyle yeniden açılır.

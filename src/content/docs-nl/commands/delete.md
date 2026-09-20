@@ -8,20 +8,20 @@ order: 7
 
 # Delete
 
-Het commando `delete` verwijdert geselecteerde entiteiten uit de tekening. Verwijderingen worden vastgelegd in de [Undo](../undo/)-geschiedenis en kunnen tot 20 stappen worden teruggedraaid. Er is geen apart bevestigingsvenster voor "verwijderen bevestigen" — bevestiging is één toetsdruk.
+Het commando `Wissen` verwijdert geselecteerde entiteiten uit de tekening. Verwijderingen worden vastgelegd in de [Undo](../undo/)-geschiedenis en kunnen tot 20 stappen worden teruggedraaid. Er is geen apart bevestigingsvenster voor "verwijderen bevestigen" — bevestiging is één toetsdruk.
 
 ## Twee manieren om te verwijderen
 
 **Eerst selecteren, dan verwijderen** — de snelste route:
 
 1. Selecteer een of meer entiteiten op het canvas.
-2. Typ `delete` in de terminal, klik op de werkbalkknop **Delete**, **of druk direct op de `Delete`-toets**.
+2. Typ `Wissen` in de terminal, klik op de werkbalkknop **Delete**, **of druk direct op de `Delete`-toets**.
 
 Entiteiten worden direct verwijderd — geen extra bevestigingsstap.
 
 **Eerst activeren, dan selecteren**:
 
-1. Typ `delete` of klik op de werkbalkknop (zonder dat er iets geselecteerd is).
+1. Typ `Wissen` of klik op de werkbalkknop (zonder dat er iets geselecteerd is).
 2. **Selecteer objecten** — klik om aan/uit te zetten, of sleep om per gebied te selecteren.
 3. Druk op **Enter**, **Spatie** of **Delete** om te bevestigen en de geselecteerde entiteiten te verwijderen.
 
@@ -44,7 +44,7 @@ Klik op entiteit → druk op Delete-toets → klaar
 
 ## Verwijderde entiteiten herstellen
 
-Verwijderingen kunnen ongedaan worden gemaakt met het commando [Undo](../undo/) (typ `undo` of gebruik de werkbalkknop). Tot **20 stappen** kunnen per bestand worden teruggedraaid, en de geschiedenis blijft behouden na het herladen van de pagina. Als u meer dan 20 verwijderingen heeft uitgevoerd zonder op te slaan, kunnen eerdere verwijderingen niet meer worden hersteld.
+Verwijderingen kunnen ongedaan worden gemaakt met het commando [Undo](../undo/) (typ `OngedaanMaken` of gebruik de werkbalkknop). Tot **20 stappen** kunnen per bestand worden teruggedraaid, en de geschiedenis blijft behouden na het herladen van de pagina. Als u meer dan 20 verwijderingen heeft uitgevoerd zonder op te slaan, kunnen eerdere verwijderingen niet meer worden hersteld.
 
 ## Ondersteunde entiteiten
 

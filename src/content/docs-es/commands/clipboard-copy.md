@@ -8,7 +8,7 @@ order: 17
 
 # ClipboardCopy
 
-El comando `ClipboardCopy` escribe las entidades seleccionadas en el **portapapeles del sistema** como texto JSON. Como utiliza el portapapeles real y no un búfer interno, la geometría copiada sobrevive fuera del dibujo: péguela en otro archivo, en una segunda pestaña del navegador o en una ventana que abra más tarde con [ClipboardPaste](../clipboard-paste/).
+El comando `CopiarAlPortapapeles` escribe las entidades seleccionadas en el **portapapeles del sistema** como texto JSON. Como utiliza el portapapeles real y no un búfer interno, la geometría copiada sobrevive fuera del dibujo: péguela en otro archivo, en una segunda pestaña del navegador o en una ventana que abra más tarde con [ClipboardPaste](../clipboard-paste/).
 
 Esta es la diferencia con [Copy](../copy/): Copy duplica entidades dentro del dibujo actual en un solo gesto, mientras que ClipboardCopy las deja en un sitio del que pueden recuperarse desde un dibujo completamente distinto.
 
@@ -17,12 +17,12 @@ Esta es la diferencia con [Copy](../copy/): Copy duplica entidades dentro del di
 **Preseleccionar y copiar** — la vía rápida:
 
 1. Seleccione una o más entidades en el lienzo.
-2. Pulse `Ctrl+C` (`Cmd+C` en macOS), o escriba `ClipboardCopy` en la terminal.
+2. Pulse `Ctrl+C` (`Cmd+C` en macOS), o escriba `CopiarAlPortapapeles` en la terminal.
 3. Las entidades se escriben en el portapapeles de inmediato y el comando termina.
 
 **Activar y luego seleccionar** — empezar sin nada seleccionado:
 
-1. Pulse `Ctrl+C` o escriba `ClipboardCopy` con la selección vacía.
+1. Pulse `Ctrl+C` o escriba `CopiarAlPortapapeles` con la selección vacía.
 2. El indicador muestra **pick objects to copy — Enter or Space to confirm**.
 3. **Seleccione objetos** — haga clic para alternar entidades individuales, o arrastre para seleccionar por área.
 4. Pulse **Enter** o **Space** para copiar la selección y salir.

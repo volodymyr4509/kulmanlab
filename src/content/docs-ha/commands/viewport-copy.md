@@ -8,13 +8,13 @@ order: 2
 
 # ViewportCopy
 
-Umarnin `ViewportCopy` yana kwafin viewport zuwa sabon matsayi, yana kiyaye girmarsa da tsakiyar model. Ana samuwa ne kawai a layout space.
+Umarnin `KwafaTagarKallo` yana kwafin viewport zuwa sabon matsayi, yana kiyaye girmarsa da tsakiyar model. Ana samuwa ne kawai a layout space.
 
 ## Kwafin viewport
 
 1. Sauya zuwa lasifikar layout na takarda.
 2. Idan kana so, danna viewport don zaɓen ta tukuna.
-3. Rubuta `ViewportCopy` a tashar umarni ko danna maɓallin kayan aiki na **Viewport Copy**.
+3. Rubuta `KwafaTagarKallo` a tashar umarni ko danna maɓallin kayan aiki na **Viewport Copy**.
 4. Idan ba a zaɓi viewport tukuna ba, **danna viewport** don kwafi.
 5. **Danna tabon tushe** — ma'anar don motsi. Ko rubuta `X,Y` ka danna **Enter** don daidaitawa madaidaiciya.
 6. **Danna manufa** — ana sanya viewport a nisan tushe→manufa. Ko yi amfani da shigar da daidaitawa / kulle-kusurwa.

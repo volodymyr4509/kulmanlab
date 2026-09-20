@@ -8,11 +8,11 @@ order: 13
 
 # Undo
 
-Binabaligtad ng `undo` command ang huling pagbabago sa drawing — isang hakbang kada invocation. Bawat pagdaragdag, pagtanggal, o pag-edit ng entity ay itinatala bilang hiwalay na history entry. Umaatras ang Undo sa mga entry na ito sa reverse order.
+Binabaligtad ng `Bawiin` command ang huling pagbabago sa drawing — isang hakbang kada invocation. Bawat pagdaragdag, pagtanggal, o pag-edit ng entity ay itinatala bilang hiwalay na history entry. Umaatras ang Undo sa mga entry na ito sa reverse order.
 
 ## Paano Mag-undo
 
-- I-type ang `undo` sa terminal, o
+- I-type ang `Bawiin` sa terminal, o
 - I-click ang **Undo** button sa toolbar.
 
 Bawat invocation ay bumabaligtad ng isang itinalang aksyon. Ulitin ito para umatras pa nang mas malayo.

@@ -8,11 +8,11 @@ order: 2
 
 # LeaderAdd
 
-Perintah `LeaderAdd` menambahkan lengan kepala panah baru ke multileader yang ada. Lengan baru menunjuk dari dogleg leader yang ada ke ujung kepala panah baru yang Anda klik. Semua gaya — posisi dogleg, teks, tipe kepala panah, dan ukuran — diwarisi dari leader yang dipilih.
+Perintah `PenunjukTambah` menambahkan lengan kepala panah baru ke multileader yang ada. Lengan baru menunjuk dari dogleg leader yang ada ke ujung kepala panah baru yang Anda klik. Semua gaya — posisi dogleg, teks, tipe kepala panah, dan ukuran — diwarisi dari leader yang dipilih.
 
 ## Menambahkan lengan
 
-1. Ketik `LeaderAdd` di terminal.
+1. Ketik `PenunjukTambah` di terminal.
 2. **Klik multileader yang ada** untuk memilihnya.
 3. **Klik ujung kepala panah baru**, atau ketik `X,Y` dan tekan **Enter** untuk koordinat tepat. Garis pratinjau ditampilkan dari kursor ke dogleg leader.
 

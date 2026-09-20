@@ -8,7 +8,7 @@ order: 17
 
 # ClipboardCopy
 
-Amri ya `ClipboardCopy` huandika vitu vilivyochaguliwa kwenye **ubao wa kunakili wa mfumo** wako kama maandishi ya JSON. Kwa sababu inatumia ubao halisi wa kunakili badala ya hifadhi ya muda ndani ya kumbukumbu, jiometri iliyonakiliwa hubaki hai nje ya mchoro: ibandike kwenye faili lingine, kichupo cha pili cha kivinjari, au dirisha utakalofungua baadaye kwa [ClipboardPaste](../clipboard-paste/).
+Amri ya `NakiliKwenyeUbao` huandika vitu vilivyochaguliwa kwenye **ubao wa kunakili wa mfumo** wako kama maandishi ya JSON. Kwa sababu inatumia ubao halisi wa kunakili badala ya hifadhi ya muda ndani ya kumbukumbu, jiometri iliyonakiliwa hubaki hai nje ya mchoro: ibandike kwenye faili lingine, kichupo cha pili cha kivinjari, au dirisha utakalofungua baadaye kwa [ClipboardPaste](../clipboard-paste/).
 
 Hii ndiyo tofauti na [Copy](../copy/): Copy hunakili vitu ndani ya mchoro wa sasa kwa hatua moja, wakati ClipboardCopy huviweka mahali ambapo vinaweza kuchukuliwa kutoka kwenye mchoro tofauti kabisa.
 
@@ -17,12 +17,12 @@ Hii ndiyo tofauti na [Copy](../copy/): Copy hunakili vitu ndani ya mchoro wa sas
 **Chagua kwanza, kisha nakili** — njia ya haraka:
 
 1. Chagua kitu kimoja au zaidi kwenye eneo la kuchora.
-2. Bonyeza `Ctrl+C` (`Cmd+C` kwenye macOS), au andika `ClipboardCopy` kwenye terminali.
+2. Bonyeza `Ctrl+C` (`Cmd+C` kwenye macOS), au andika `NakiliKwenyeUbao` kwenye terminali.
 3. Vitu huandikwa kwenye ubao wa kunakili mara moja na amri huisha.
 
 **Anzisha kwanza, kisha chagua** — kuanza bila kuchagua chochote:
 
-1. Bonyeza `Ctrl+C` au andika `ClipboardCopy` wakati hakuna kilichochaguliwa.
+1. Bonyeza `Ctrl+C` au andika `NakiliKwenyeUbao` wakati hakuna kilichochaguliwa.
 2. Kidokezo huonyesha **pick objects to copy — Enter or Space to confirm**.
 3. **Chagua vitu** — bofya kuweka au kuondoa vitu mmoja mmoja kwenye uteuzi, au buruta kuchagua kwa eneo.
 4. Bonyeza **Enter** au **Space** kunakili uteuzi na kutoka.

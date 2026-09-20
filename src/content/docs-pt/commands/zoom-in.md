@@ -8,11 +8,11 @@ order: 2
 
 # Zoom In
 
-O comando `zoomin` multiplica o nível de zoom atual por **1,5×** e sai imediatamente, centralizado no ponto médio da viewport. É o equivalente na barra de ferramentas de um tick da roda do mouse ampliando em direção ao centro da tela em vez do cursor.
+O comando `Ampliar` multiplica o nível de zoom atual por **1,5×** e sai imediatamente, centralizado no ponto médio da viewport. É o equivalente na barra de ferramentas de um tick da roda do mouse ampliando em direção ao centro da tela em vez do cursor.
 
 ## Ampliando
 
-Clique no botão **Zoom In** na barra de ferramentas ou digite `zoomin` no terminal. O zoom é aplicado instantaneamente e o comando sai — nenhum clique no canvas é necessário.
+Clique no botão **Zoom In** na barra de ferramentas ou digite `Ampliar` no terminal. O zoom é aplicado instantaneamente e o comando sai — nenhum clique no canvas é necessário.
 
 ## Como o passo de 1,5× funciona
 

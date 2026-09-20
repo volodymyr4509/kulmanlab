@@ -8,7 +8,7 @@ order: 1
 
 # Distance
 
-Umarnin `distance` yana auna nisan layi madaidaici (Euclidean) tsakanin tabo biyu da aka danna kuma yana buga sakamako a tashar umarni har zuwa lambobi 4 bayan digit. Yana ɗaya daga cikin umarnin awo guda uku — [Angle](../angle/) yana auna buɗewar kusurwa a wata kusurwa, kuma [Area](../area/) yana auna fili da kewaye na polygon da aka rufe.
+Umarnin `Nisa` yana auna nisan layi madaidaici (Euclidean) tsakanin tabo biyu da aka danna kuma yana buga sakamako a tashar umarni har zuwa lambobi 4 bayan digit. Yana ɗaya daga cikin umarnin awo guda uku — [Angle](../angle/) yana auna buɗewar kusurwa a wata kusurwa, kuma [Area](../area/) yana auna fili da kewaye na polygon da aka rufe.
 
 ## Yanayin auna nisa
 
@@ -26,7 +26,7 @@ Umarnin `distance` yana auna nisan layi madaidaici (Euclidean) tsakanin tabo biy
 
 ## Auna nisa
 
-1. Rubuta `distance` a tashar umarni ko danna maɓallin kayan aiki na **Distance**.
+1. Rubuta `Nisa` a tashar umarni ko danna maɓallin kayan aiki na **Distance**.
 2. **Danna tabo na farko**, ko rubuta `X,Y` ka danna **Enter** don daidaitawa madaidaiciya.
 3. **Danna tabo na biyu** — nisan da aka aunata yana bayyana a tashar umarni. Shigar da daidaitawa yana aiki a nan ma.
 4. **Danna sake** (na zaɓi) don fara sabon awo. Umarnin yana ci gaba da zama a aiki.

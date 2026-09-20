@@ -8,11 +8,11 @@ order: 9
 
 # Dimension Angular
 
-Umarnin `DimensionAngular` yana sanya bayanin **girma-girma na angular** a kan zanen a matsayin baka. Yana auna kuma yana tsara alama kusurwar tsakanin layi biyu, zangon baka, ko sector na da'ira.
+Umarnin `MaauninKusurwa` yana sanya bayanin **girma-girma na angular** a kan zanen a matsayin baka. Yana auna kuma yana tsara alama kusurwar tsakanin layi biyu, zangon baka, ko sector na da'ira.
 
 ## Yadda ake kunnawa
 
-Danna maɓallin kayan aiki na **Dimension Angular** a panel na Markup, ko rubuta `DimensionAngular` a tashar umarni.
+Danna maɓallin kayan aiki na **Dimension Angular** a panel na Markup, ko rubuta `MaauninKusurwa` a tashar umarni.
 
 ## Yanayi uku na shigarwa
 
@@ -47,7 +47,7 @@ Layi masu daidaici ba za su iya samar da girma-girma na angular ba; umarnin yana
 
 - Bakan girma-girma koyaushe ana zana shi a gefen kusurwar da ka sanya shi — motsa mai nuni ta cikin kusurwar don juyawa zuwa kusurwar mai ƙari.
 - Ana nuna kusurwar da aka auna a digiri kuma tana sabuntawa a lokaci na rai yayin da kake motsa mai nuni a lokacin sanyawa.
-- Bayanin da aka samu abin `DimensionAngular` ne cikakke da aka ajiye a layer na yanzu. Ana iya daidaita abubuwan bayyanarsa (girman kibiya, tsayin rubutu, tsawon layin extension) a panel na Properties.
+- Bayanin da aka samu abin `MaauninKusurwa` ne cikakke da aka ajiye a layer na yanzu. Ana iya daidaita abubuwan bayyanarsa (girman kibiya, tsayin rubutu, tsawon layin extension) a panel na Properties.
 - Ana fitar da ma'aunin kusurwa zuwa JSON da DXF duka, kuma a DXF ana rubuta su a matsayin abubuwan `DIMENSION` na yau da kullun.
 
 ## Gyara alamar — simple mode

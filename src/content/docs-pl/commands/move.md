@@ -8,20 +8,20 @@ order: 1
 
 # Move
 
-Polecenie `move` transluje zaznaczone elementy od punktu bazowego do punktu docelowego. Przesunięcie stosowane do każdego zaznaczonego elementu to wektor od bazy do celu. Po przesunięciu wszystkie elementy pozostają zaznaczone w nowej pozycji, gotowe do dalszych edycji.
+Polecenie `Przesuń` transluje zaznaczone elementy od punktu bazowego do punktu docelowego. Przesunięcie stosowane do każdego zaznaczonego elementu to wektor od bazy do celu. Po przesunięciu wszystkie elementy pozostają zaznaczone w nowej pozycji, gotowe do dalszych edycji.
 
 ## Dwa sposoby uruchamiania
 
 **Wstępne zaznaczenie, a następnie przesunięcie** — najpierw zaznacz elementy, a następnie aktywuj:
 
 1. Zaznacz jeden lub więcej elementów na płótnie.
-2. Wpisz `move` w terminalu lub kliknij przycisk **Przesuń** na pasku narzędzi.
+2. Wpisz `Przesuń` w terminalu lub kliknij przycisk **Przesuń** na pasku narzędzi.
 3. **Kliknij punkt bazowy** lub wpisz `X,Y` i naciśnij **Enter** dla dokładnej współrzędnej.
 4. **Kliknij cel** — wszystkie zaznaczone elementy przesuwają się o wektor baza→cel. Tutaj również działa wprowadzanie współrzędnych.
 
 **Aktywuj, a następnie zaznacz** — uruchom polecenie bez zaznaczonego niczego:
 
-1. Wpisz `move` lub kliknij przycisk paska narzędzi.
+1. Wpisz `Przesuń` lub kliknij przycisk paska narzędzi.
 2. **Zaznacz obiekty** — kliknij, aby przełączać poszczególne elementy, lub przeciągnij, aby zaznaczyć obszarem.
 3. Naciśnij **Enter** lub **Spację**, aby potwierdzić zaznaczenie.
 4. **Kliknij punkt bazowy**, następnie **kliknij cel** (wprowadzanie współrzędnych dostępne na obu krokach).

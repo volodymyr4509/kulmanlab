@@ -8,11 +8,11 @@ order: 9
 
 # Spline Fit
 
-`splinefit` komutu, tıkladığınız her noktadan geçen kübik spline çizer — interpolasyon eğrisi. Eğrinin yalnızca kontrol noktalarına doğru çekildiği [Spline CV](../spline-cv/)'nin aksine, burada eğri tıklanan her koordinata tam olarak ulaşmak zorundadır. Dahili olarak düzenleyici bunu sağlamak için kontrol noktaları uydurur ve bu CV'ler DXF dosyasında uyum noktalarının yanında saklanır.
+`SplineNoktalar` komutu, tıkladığınız her noktadan geçen kübik spline çizer — interpolasyon eğrisi. Eğrinin yalnızca kontrol noktalarına doğru çekildiği [Spline CV](../spline-cv/)'nin aksine, burada eğri tıklanan her koordinata tam olarak ulaşmak zorundadır. Dahili olarak düzenleyici bunu sağlamak için kontrol noktaları uydurur ve bu CV'ler DXF dosyasında uyum noktalarının yanında saklanır.
 
 ## Uyum Noktalarıyla Spline Çizimi
 
-1. Terminale `splinefit` yazın veya araç çubuğundaki **Spline Fit** düğmesine tıklayın.
+1. Terminale `SplineNoktalar` yazın veya araç çubuğundaki **Spline Fit** düğmesine tıklayın.
 2. **Uyum noktaları yerleştirmek için tıklayın** — eğri her birinden geçecek. Ya da tam koordinat için `X,Y` yazıp **Enter** tuşuna basın.
 3. Bitirmek için **Enter** veya **Boşluk** tuşuna basın (en az 2 nokta gereklidir).
 

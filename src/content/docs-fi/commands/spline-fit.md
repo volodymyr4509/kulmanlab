@@ -8,11 +8,11 @@ order: 9
 
 # Spline Fit
 
-Komento `splinefit` piirtää kuutiollisen splinen, joka kulkee jokaisen napsauttamasi pisteen kautta — interpoloivan käyrän. Toisin kuin [Spline CV](../spline-cv/), jossa käyrä vain vetäytyy kohti ohjauspisteitä, tässä käyrä pakotetaan osumaan jokaiseen napsautettuun koordinaattiin tarkasti. Sisäisesti editori sovittaa ohjauspisteitä tämän saavuttamiseksi, ja nämä CV:t tallennetaan sovituspisteiden ohella DXF-tiedostossa.
+Komento `SpliniPisteet` piirtää kuutiollisen splinen, joka kulkee jokaisen napsauttamasi pisteen kautta — interpoloivan käyrän. Toisin kuin [Spline CV](../spline-cv/), jossa käyrä vain vetäytyy kohti ohjauspisteitä, tässä käyrä pakotetaan osumaan jokaiseen napsautettuun koordinaattiin tarkasti. Sisäisesti editori sovittaa ohjauspisteitä tämän saavuttamiseksi, ja nämä CV:t tallennetaan sovituspisteiden ohella DXF-tiedostossa.
 
 ## Splinen piirtäminen sovituspisteiden kautta
 
-1. Kirjoita `splinefit` terminaaliin tai napsauta **Spline Fit**-painiketta työkalurivillä.
+1. Kirjoita `SpliniPisteet` terminaaliin tai napsauta **Spline Fit**-painiketta työkalurivillä.
 2. **Napsauta sijoittaaksesi sovituspisteitä** — käyrä kulkee jokaisen kautta. Tai kirjoita `X,Y` ja paina **Enter** tarkkaa koordinaattia varten.
 3. Paina **Enter** tai **Space** viimeistelläksesi (vähintään 2 pistettä vaaditaan).
 

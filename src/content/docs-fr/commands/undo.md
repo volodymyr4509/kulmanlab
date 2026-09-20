@@ -8,11 +8,11 @@ order: 13
 
 # Undo
 
-La commande `undo` inverse la dernière modification apportée au dessin — une étape par invocation. Chaque ajout, suppression ou modification d'entités est enregistré comme une entrée d'historique distincte. Undo recule dans ces entrées dans l'ordre inverse.
+La commande `Annuler` inverse la dernière modification apportée au dessin — une étape par invocation. Chaque ajout, suppression ou modification d'entités est enregistré comme une entrée d'historique distincte. Undo recule dans ces entrées dans l'ordre inverse.
 
 ## Comment annuler
 
-- Tapez `undo` dans le terminal, ou
+- Tapez `Annuler` dans le terminal, ou
 - Cliquez sur le bouton **Undo** de la barre d'outils.
 
 Chaque invocation inverse une action enregistrée. Invoquez-la à plusieurs reprises pour reculer davantage.

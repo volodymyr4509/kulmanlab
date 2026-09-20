@@ -8,7 +8,7 @@ order: 3
 
 # Area
 
-Arahan `area` mengukur luas tertutup dan perimeter poligon yang ditakrifkan oleh tiga titik yang diklik atau lebih, dan mencetak kedua-dua hasil dalam terminal kepada 4 titik perpuluhan. Ia adalah arahan pengukuran ketiga, bersama [Distance](../distance/) (panjang garis lurus) dan [Angle](../angle/) (sudut dalam di bucu).
+Arahan `Luas` mengukur luas tertutup dan perimeter poligon yang ditakrifkan oleh tiga titik yang diklik atau lebih, dan mencetak kedua-dua hasil dalam terminal kepada 4 titik perpuluhan. Ia adalah arahan pengukuran ketiga, bersama [Distance](../distance/) (panjang garis lurus) dan [Angle](../angle/) (sudut dalam di bucu).
 
 ## Anatomi pengukuran luas
 
@@ -30,7 +30,7 @@ Arahan `area` mengukur luas tertutup dan perimeter poligon yang ditakrifkan oleh
 
 ## Mengukur luas
 
-1. Taip `area` dalam terminal atau klik butang bar alat **Area** (baris bawah panel Measure).
+1. Taip `Luas` dalam terminal atau klik butang bar alat **Area** (baris bawah panel Measure).
 2. **Klik titik pertama**, atau taip `X,Y` dan tekan **Enter** untuk koordinat tepat.
 3. **Klik setiap bucu tambahan** mengikut urutan sekeliling bentuk. Kemasukan koordinat berfungsi pada setiap langkah.
 4. Setelah sekurang-kurangnya **3 titik** diletakkan, tekan **Enter** atau **Space** (tanpa kemasukan koordinat atau jarak yang tertangguh) untuk menutup poligon dan mengira hasilnya.
@@ -93,5 +93,5 @@ Daripada mengklik, taip kedudukan tepat untuk mana-mana bucu:
 - Luas dikira menggunakan formula shoelace dan sentiasa dilaporkan sebagai nilai positif, tanpa mengira urutan klik.
 - Poligon yang bersilang sendiri (tepi yang bersilang) masih menghasilkan hasil berangka, tetapi nilainya mungkin tidak sepadan dengan kawasan yang tertutup secara visual — kekalkan urutan klik yang tidak bersilang untuk luas yang bermakna.
 - Hasil hanya dipaparkan dalam **terminal dan sebagai penonjolan sementara pada kanvas** — tiada apa yang ditambah secara kekal pada lukisan.
-- Berbeza dengan Distance dan Angle, Area **tidak** merantai secara automatik ke pengukuran baharu — selepas menyingkirkan hasil, jalankan `area` semula untuk mengukur poligon lain.
+- Berbeza dengan Distance dan Angle, Area **tidak** merantai secara automatik ke pengukuran baharu — selepas menyingkirkan hasil, jalankan `Luas` semula untuk mengukur poligon lain.
 - Ketepatan sentiasa 4 titik perpuluhan untuk kedua-dua luas dan perimeter, dalam unit yang sama seperti koordinat lukisan (tiada penukaran unit).

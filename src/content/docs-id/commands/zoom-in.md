@@ -8,11 +8,11 @@ order: 2
 
 # Zoom In
 
-Perintah `zoomin` mengalikan tingkat zoom saat ini sebesar **1.5×** dan langsung keluar, dipusatkan pada titik tengah viewport. Ini adalah setara toolbar dari satu ketikan roda gulir yang di-zoom ke arah pusat layar, bukan kursor.
+Perintah `Perbesar` mengalikan tingkat zoom saat ini sebesar **1.5×** dan langsung keluar, dipusatkan pada titik tengah viewport. Ini adalah setara toolbar dari satu ketikan roda gulir yang di-zoom ke arah pusat layar, bukan kursor.
 
 ## Memperbesar
 
-Klik tombol toolbar **Zoom In** atau ketik `zoomin` di terminal. Zoom diterapkan seketika dan perintah keluar — tidak diperlukan klik pada kanvas.
+Klik tombol toolbar **Zoom In** atau ketik `Perbesar` di terminal. Zoom diterapkan seketika dan perintah keluar — tidak diperlukan klik pada kanvas.
 
 ## Cara langkah 1.5× bekerja
 

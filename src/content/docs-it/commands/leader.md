@@ -8,7 +8,7 @@ order: 1
 
 # Leader
 
-Il comando `leader` disegna un'annotazione multileader in quattro passaggi: una freccia che tocca un elemento, una linea guida che si piega al dogleg, un'ancora del testo e un'etichetta digitata. Di tutti i comandi di annotazione, Leader è l'unico che include una fase interattiva di inserimento testo con anteprima del cursore lampeggiante.
+Il comando `Direttrice` disegna un'annotazione multileader in quattro passaggi: una freccia che tocca un elemento, una linea guida che si piega al dogleg, un'ancora del testo e un'etichetta digitata. Di tutti i comandi di annotazione, Leader è l'unico che include una fase interattiva di inserimento testo con anteprima del cursore lampeggiante.
 
 ## Anatomia di un multileader
 
@@ -27,7 +27,7 @@ Il comando `leader` disegna un'annotazione multileader in quattro passaggi: una 
 
 ## Disegnare un leader
 
-1. Digita `leader` nel terminale o clicca il pulsante **Leader** nella barra degli strumenti.
+1. Digita `Direttrice` nel terminale o clicca il pulsante **Leader** nella barra degli strumenti.
 2. **Clicca la punta della freccia**, oppure digita `X,Y` e premi **Invio** per una coordinata esatta.
 3. **Clicca il dogleg** — la piega nel leader. L'angolo si blocca a incrementi di 45°; digita una lunghezza e premi **Invio** per il posizionamento preciso. Oppure digita `X,Y` per una coordinata assoluta.
 4. **Clicca la posizione del testo** — dove si ancora l'etichetta. Valgono le stesse opzioni: clic, blocco angolo + lunghezza, o `X,Y`.

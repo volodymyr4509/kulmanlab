@@ -8,13 +8,13 @@ order: 0
 
 # Text
 
-`text` komutu, çok satırlı metin etiketi yerleştirir. Tuvalde bir konum tıkladıktan sonra **rich** modda bir açılır düzenleyici açılır — içerik yazabilir, karakter başına kalın/italik/altı çizili/üstü çizili uygulayabilir, yazı tiplerini ve yükseklikleri değiştirebilir ve satır sonları ekleyebilirsiniz. Düzenleyiciyi kaydetmek ve kapatmak için **Escape** tuşuna basın.
+`Metin` komutu, çok satırlı metin etiketi yerleştirir. Tuvalde bir konum tıkladıktan sonra **rich** modda bir açılır düzenleyici açılır — içerik yazabilir, karakter başına kalın/italik/altı çizili/üstü çizili uygulayabilir, yazı tiplerini ve yükseklikleri değiştirebilir ve satır sonları ekleyebilirsiniz. Düzenleyiciyi kaydetmek ve kapatmak için **Escape** tuşuna basın.
 
 **rich** ve **simple** modların karşılaştırması dahil tam düzenleyici referansı için [Metin Düzenleyici](../../interface/text-editor/) sayfasına bakın.
 
 ## Metin Etiketi Yerleştirme
 
-1. Terminale `text` yazın veya araç çubuğundaki **Text** düğmesine tıklayın.
+1. Terminale `Metin` yazın veya araç çubuğundaki **Text** düğmesine tıklayın.
 2. Tuvalde **çıpa konumunu tıklayın**. Ya da tam koordinat için `X,Y` yazıp **Enter** tuşuna basın.
 3. Yeni etiketin üzerinde **metin düzenleyici açılır penceresi** açılır. İçeriğinizi yazın.
 4. Etiketi kaydetmek ve düzenleyiciyi kapatmak için **Escape** tuşuna basın.

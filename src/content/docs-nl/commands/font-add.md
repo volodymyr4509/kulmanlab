@@ -8,11 +8,11 @@ order: 3
 
 # FontAdd
 
-Het `FontAdd`-commando opent de bestandskiezer van het systeem om een eigen `.ttf`-lettertype te uploaden, zonder eerst het [Font Manager](../font-manager/)-dialoogvenster te openen. Het is dezelfde upload die de knop **Add Font** in Font Manager activeert — FontAdd is gewoon een directe weg daarheen vanuit de terminal.
+Het `LettertypeToevoegen`-commando opent de bestandskiezer van het systeem om een eigen `.ttf`-lettertype te uploaden, zonder eerst het [Font Manager](../font-manager/)-dialoogvenster te openen. Het is dezelfde upload die de knop **Add Font** in Font Manager activeert — FontAdd is gewoon een directe weg daarheen vanuit de terminal.
 
 ## Een lettertype uploaden
 
-1. Typ `FontAdd` in de terminal, of klik op **Add Font** onderaan het [Font Manager](../font-manager/)-dialoogvenster.
+1. Typ `LettertypeToevoegen` in de terminal, of klik op **Add Font** onderaan het [Font Manager](../font-manager/)-dialoogvenster.
 2. Kies een `.ttf`-bestand in de systeemkiezer. Alleen TrueType-lettertypen worden ondersteund — `.otf` en `.woff`/`.woff2` niet.
 
 Het commando is voltooid zodra de bestandskiezer opent — er volgt geen verdere klik of terminalinvoer. Het lettertype wordt geregistreerd en verschijnt in de groep **User** zodra het bestand is gekozen.

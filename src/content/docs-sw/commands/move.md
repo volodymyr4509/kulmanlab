@@ -8,20 +8,20 @@ order: 1
 
 # Move
 
-Amri ya `move` hutafsiri vipengele vilivyochaguliwa kutoka nafasi moja hadi nyingine kwa kufafanua nukta ya msingi na nukta ya lengwa. Tofauti na [Copy](../copy/), Move huondoa vipengele kutoka nafasi yake ya asili — hakuna nakala inayoundwa.
+Amri ya `Hamisha` hutafsiri vipengele vilivyochaguliwa kutoka nafasi moja hadi nyingine kwa kufafanua nukta ya msingi na nukta ya lengwa. Tofauti na [Copy](../copy/), Move huondoa vipengele kutoka nafasi yake ya asili — hakuna nakala inayoundwa.
 
 ## Njia mbili za kuanza
 
 **Chagua kwanza, kisha hamisha** — chagua vipengele kwanza, kisha anzisha:
 
 1. Chagua vipengele moja au zaidi kwenye turubai.
-2. Andika `move` kwenye terminal au bonyeza kitufe cha **Move** kwenye upau wa zana.
+2. Andika `Hamisha` kwenye terminal au bonyeza kitufe cha **Move** kwenye upau wa zana.
 3. **Bonyeza nukta ya msingi**, au andika `X,Y` na ubonyeze **Enter** kwa kuratibu sahihi.
 4. **Bonyeza nukta ya lengwa** — vipengele vinahamia na amri inatoka. Uingizaji wa kuratibu unafanya kazi hapa pia.
 
 **Anzisha, kisha chagua** — anza amri bila chochote kilichochaguliwa:
 
-1. Andika `move` au bonyeza kitufe cha upau wa zana.
+1. Andika `Hamisha` au bonyeza kitufe cha upau wa zana.
 2. **Chagua vitu** — bonyeza kubadilisha, au buruta kuchagua kwa eneo.
 3. Bonyeza **Enter** au **Space** kuthibitisha uchaguzi.
 4. **Bonyeza nukta ya msingi**, kisha **bonyeza nukta ya lengwa** (uingizaji wa kuratibu unapatikana katika hatua zote mbili).

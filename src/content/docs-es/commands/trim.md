@@ -8,11 +8,11 @@ order: 8
 
 # Trim
 
-El comando `trim` elimina la porción de una [Line](../line/), [Arc](../arc/), [Circle](../circle/), [Ellipse](../ellipse/) o [Polyline](../polyline/) que se encuentra entre dos puntos de intersección adyacentes, dividiendo la entidad en una o más partes restantes. El segmento a cortar se determina por la posición del cursor — pasa el cursor sobre la parte que deseas eliminar y haz clic para recortarla.
+El comando `Recortar` elimina la porción de una [Line](../line/), [Arc](../arc/), [Circle](../circle/), [Ellipse](../ellipse/) o [Polyline](../polyline/) que se encuentra entre dos puntos de intersección adyacentes, dividiendo la entidad en una o más partes restantes. El segmento a cortar se determina por la posición del cursor — pasa el cursor sobre la parte que deseas eliminar y haz clic para recortarla.
 
 ## Recortar una entidad
 
-1. Escribe `trim` en el terminal o haz clic en el botón de la barra de herramientas **Trim**.
+1. Escribe `Recortar` en el terminal o haz clic en el botón de la barra de herramientas **Trim**.
 2. **Pasa el cursor sobre el segmento** que deseas eliminar — una vista previa resalta exactamente la porción que se cortará.
 3. **Haz clic** para eliminar ese segmento.
 

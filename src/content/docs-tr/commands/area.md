@@ -8,7 +8,7 @@ order: 3
 
 # Area
 
-`area` komutu, üç veya daha fazla tıklanan noktayla tanımlanan bir çokgenin kapladığı alanı ve çevresini ölçer ve her iki sonucu da terminalde 4 ondalık basamak hassasiyetle yazdırır. Bu, [Distance](../distance/) (düz çizgi uzunluğu) ve [Angle](../angle/) (köşedeki iç açı) ile birlikte üçüncü ölçüm komutudur.
+`Alan` komutu, üç veya daha fazla tıklanan noktayla tanımlanan bir çokgenin kapladığı alanı ve çevresini ölçer ve her iki sonucu da terminalde 4 ondalık basamak hassasiyetle yazdırır. Bu, [Distance](../distance/) (düz çizgi uzunluğu) ve [Angle](../angle/) (köşedeki iç açı) ile birlikte üçüncü ölçüm komutudur.
 
 ## Alan Ölçümünün Anatomisi
 
@@ -30,7 +30,7 @@ order: 3
 
 ## Alan Ölçme
 
-1. Terminale `area` yazın veya araç çubuğundaki **Area** düğmesine (Measure panelinin alt satırı) tıklayın.
+1. Terminale `Alan` yazın veya araç çubuğundaki **Area** düğmesine (Measure panelinin alt satırı) tıklayın.
 2. **Birinci noktayı tıklayın** veya tam koordinat için `X,Y` yazıp **Enter** tuşuna basın.
 3. Şeklin etrafında sırayla **her ek köşe noktasını** tıklayın. Koordinat girişi her adımda çalışır.
 4. En az **3 nokta** yerleştirildikten sonra, çokgeni kapatıp sonucu hesaplamak için **Enter** veya **Boşluk** tuşuna basın (bekleyen bir koordinat veya uzunluk girişi olmadan).
@@ -93,5 +93,5 @@ Tıklamak yerine herhangi bir köşe noktası için tam konumu yazın:
 - Alan, [ayakkabı bağı (shoelace) formülü](https://tr.wikipedia.org/wiki/Ayakkab%C4%B1_ba%C4%9F%C4%B1_form%C3%BCl%C3%BC) ile hesaplanır ve tıklama sırasından bağımsız olarak her zaman pozitif bir değer olarak bildirilir.
 - Kendini kesen çokgenler (kesişen kenarlar) yine de sayısal bir sonuç üretir, ancak değer görsel olarak kaplanan bölgeyle eşleşmeyebilir — anlamlı bir alan için kesişmeyen bir tıklama sırası koruyun.
 - Sonuçlar yalnızca **terminalde ve tuval üzerinde geçici bir vurgu olarak** gösterilir — çizime kalıcı hiçbir şey eklenmez.
-- Distance ve Angle'ın aksine, Area yeni bir ölçümü otomatik olarak **zincirlemez** — sonucu kapattıktan sonra başka bir çokgen ölçmek için `area` komutunu tekrar çalıştırın.
+- Distance ve Angle'ın aksine, Area yeni bir ölçümü otomatik olarak **zincirlemez** — sonucu kapattıktan sonra başka bir çokgen ölçmek için `Alan` komutunu tekrar çalıştırın.
 - Hassasiyet, hem alan hem de çevre için her zaman 4 ondalık basamaktır, çizim koordinatlarıyla aynı birimde (birim dönüşümü yoktur).

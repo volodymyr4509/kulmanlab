@@ -8,7 +8,7 @@ order: 16
 
 # Explode
 
-Polecenie `explode` rozbija [polilinię](../polyline/) na osobne elementy [Line](../line/) i [Arc](../arc/) — po jednym na segment, dokładnie tam, gdzie znajdowały się własne wierzchołki polilinii. Fragmenty zastępują polilinię w tym samym miejscu i zachowują jej grubość linii, kolor, warstwę i typ linii.
+Polecenie `Rozbij` rozbija [polilinię](../polyline/) na osobne elementy [Line](../line/) i [Arc](../arc/) — po jednym na segment, dokładnie tam, gdzie znajdowały się własne wierzchołki polilinii. Fragmenty zastępują polilinię w tym samym miejscu i zachowują jej grubość linii, kolor, warstwę i typ linii.
 
 Explode działa tylko na elementach **Polyline**.
 
@@ -19,13 +19,13 @@ Dwa sposoby uruchomienia, ten sam wzorzec co [Delete](../delete/):
 **Najpierw zaznacz, potem rozbij** — najszybsza ścieżka:
 
 1. Zaznacz jedną lub więcej polilinii na płótnie.
-2. Wpisz `explode` w terminalu lub kliknij przycisk **Explode** w panelu Edit.
+2. Wpisz `Rozbij` w terminalu lub kliknij przycisk **Explode** w panelu Edit.
 
 Zaznaczone polilinie są natychmiast rozbijane — bez osobnego kroku potwierdzenia, ponieważ coś jest już zaznaczone.
 
 **Aktywuj, potem zaznacz**:
 
-1. Wpisz `explode` lub kliknij przycisk paska narzędzi, gdy nic nie jest zaznaczone.
+1. Wpisz `Rozbij` lub kliknij przycisk paska narzędzi, gdy nic nie jest zaznaczone.
 2. **Zaznacz polilinie** — kliknij, aby przełączyć, lub przeciągnij, aby zaznaczyć obszar.
 3. Naciśnij **Enter** lub **Spację**, aby potwierdzić i rozbić zaznaczone polilinie.
 

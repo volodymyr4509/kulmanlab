@@ -8,11 +8,11 @@ order: 7
 
 # Wipe Storage
 
-`wipestorage` komutu, tarayıcının yerel deposundaki tüm çizimleri ve kaydedilen verileri siler. İşlem **geri alınamaz** — kullanmadan önce önemli çizimleri [Export Manager](../export-manager/) ile kaydedin.
+`DepolamayıTemizle` komutu, tarayıcının yerel deposundaki tüm çizimleri ve kaydedilen verileri siler. İşlem **geri alınamaz** — kullanmadan önce önemli çizimleri [Export Manager](../export-manager/) ile kaydedin.
 
 ## Depoyu Temizleme
 
-1. Terminale `wipestorage` yazın veya **Wipe Storage** düğmesine basın.
+1. Terminale `DepolamayıTemizle` yazın veya **Wipe Storage** düğmesine basın.
 2. Görüntülenen iletişim kutusunda onaylayın — tüm çizimler silinir ve yeni boş çizim başlatılır.
 
 ## Ne Zaman Kullanılır

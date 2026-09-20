@@ -8,11 +8,11 @@ order: 1
 
 # Line
 
-Ginuguhit ng `line` command ang mga indibidwal na straight line segment, na naka-save bilang hiwalay na `LINE` entities sa DXF model. Nananatiling aktibo ang command pagkatapos ng bawat segment at ginagamit muli ang endpoint bilang bagong starting point, kaya puwede kang gumawa ng magkakadugtong na path nang isang segment sa isang pagkakataon. Hindi tulad ng [Polyline](../polyline/), nananatiling hiwalay na entity ang mga kinadenang linya — puwedeng i-trim, i-extend, o tanggalin ang bawat isa nang hindi naaapektuhan ang mga kalapit nito.
+Ginuguhit ng `Linya` command ang mga indibidwal na straight line segment, na naka-save bilang hiwalay na `LINE` entities sa DXF model. Nananatiling aktibo ang command pagkatapos ng bawat segment at ginagamit muli ang endpoint bilang bagong starting point, kaya puwede kang gumawa ng magkakadugtong na path nang isang segment sa isang pagkakataon. Hindi tulad ng [Polyline](../polyline/), nananatiling hiwalay na entity ang mga kinadenang linya — puwedeng i-trim, i-extend, o tanggalin ang bawat isa nang hindi naaapektuhan ang mga kalapit nito.
 
 ## Pagguhit ng Isang Linya
 
-1. I-type ang `line` sa terminal o i-click ang **Line** button sa toolbar.
+1. I-type ang `Linya` sa terminal o i-click ang **Line** button sa toolbar.
 2. **I-click ang starting point**, o i-type ang `X,Y` at pindutin ang **Enter** para sa eksaktong coordinate.
 3. **I-click ang endpoint** — mailalagay ang segment at ang endpoint ang magiging susunod na starting point. Gumagana rin dito ang coordinate input.
 4. Patuloy na mag-click (o mag-type) para magkadena ng mas maraming segment.

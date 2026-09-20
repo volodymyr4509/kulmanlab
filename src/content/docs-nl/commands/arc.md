@@ -8,11 +8,11 @@ order: 5
 
 # Arc
 
-Het commando `arc` tekent een cirkelboog door drie punten die u klikt. De boog wordt berekend als de unieke omgeschreven cirkel (circumcircle) die door alle drie de punten gaat — er hoeft geen middelpunt of radius direct te worden opgegeven. De boog loopt van de eerste klik naar de derde klik, via de tweede.
+Het commando `Boog` tekent een cirkelboog door drie punten die u klikt. De boog wordt berekend als de unieke omgeschreven cirkel (circumcircle) die door alle drie de punten gaat — er hoeft geen middelpunt of radius direct te worden opgegeven. De boog loopt van de eerste klik naar de derde klik, via de tweede.
 
 ## Een boog tekenen
 
-1. Typ `arc` in de terminal of klik op de werkbalkknop **Arc**.
+1. Typ `Boog` in de terminal of klik op de werkbalkknop **Arc**.
 2. **Klik op het eerste punt** — een uiteinde van de boog. Of typ `X,Y` en druk op **Enter** voor een exacte coördinaat.
 3. **Klik op het tweede punt** — een punt waar de boog doorheen moet gaan (bepaalt kromming en richting). Coördinaatinvoer werkt hier ook.
 4. **Klik op het derde punt** — het andere uiteinde van de boog. De boog wordt geplaatst en het commando sluit af. Coördinaatinvoer werkt hier ook.

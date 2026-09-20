@@ -8,20 +8,20 @@ order: 3
 
 # Rotate
 
-`rotate`-kommandot roterar valda entiteter kring en basspunkt. Du anger rotationsvinkeln antingen genom att skriva ett tal i grader eller genom att klicka — vinkeln beräknas utifrån riktningen mellan basspunkten och klickpositionen.
+`Rotera`-kommandot roterar valda entiteter kring en basspunkt. Du anger rotationsvinkeln antingen genom att skriva ett tal i grader eller genom att klicka — vinkeln beräknas utifrån riktningen mellan basspunkten och klickpositionen.
 
 ## Två sätt att starta
 
 **Förval, sedan rotation** — välj entiteter först, aktivera sedan:
 
 1. Välj en eller flera entiteter på ritytan.
-2. Skriv `rotate` i terminalen eller klicka på **Rotate**-knappen i verktygsfältet.
+2. Skriv `Rotera` i terminalen eller klicka på **Rotate**-knappen i verktygsfältet.
 3. **Klicka på basspunkten** — rotationscentrum. Eller skriv `X,Y` och tryck **Enter** för en exakt koordinat.
 4. **Skriv en vinkel och tryck Enter**, eller **klicka** för att ställa in vinkeln utifrån markörens riktning.
 
 **Aktivera, välj sedan** — starta kommandot utan att något är valt:
 
-1. Skriv `rotate` eller klicka på verktygsfältsknappen.
+1. Skriv `Rotera` eller klicka på verktygsfältsknappen.
 2. **Välj objekt** — klicka för att växla, eller dra för att välja med ett område.
 3. Tryck **Enter** eller **Space** för att bekräfta valet.
 4. **Klicka på basspunkten** (koordinatinmatning tillgänglig), ställ sedan in vinkeln.

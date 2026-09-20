@@ -8,13 +8,13 @@ order: 9
 
 # Extend
 
-Lệnh `extend` kéo dài điểm cuối gần nhất của một [Line](../line/), [Arc](../arc/), [Ellipse](../ellipse/) hoặc Polyline mở đang di chuyển qua đến giao điểm gần nhất mà nó sẽ tạo ra với thực thể khác trong bản vẽ. Di chuyển con trỏ gần điểm cuối muốn kéo dài — bản xem trước hiển thị thực thể được kéo dài — sau đó nhấp để áp dụng.
+Lệnh `KéoDài` kéo dài điểm cuối gần nhất của một [Line](../line/), [Arc](../arc/), [Ellipse](../ellipse/) hoặc Polyline mở đang di chuyển qua đến giao điểm gần nhất mà nó sẽ tạo ra với thực thể khác trong bản vẽ. Di chuyển con trỏ gần điểm cuối muốn kéo dài — bản xem trước hiển thị thực thể được kéo dài — sau đó nhấp để áp dụng.
 
 Chỉ những thực thể có điểm cuối thực sự mới có thể được kéo dài. Một [Circle](../circle/) và một Ellipse đầy đủ (360°) luôn là hình khép kín không có điểm cuối, nên không bao giờ có thể kéo dài — tương tự với Polyline đóng hoặc Rectangle. Một Ellipse một phần (cung elip) và một Arc có điểm cuối và được kéo dài theo cách giống như Line.
 
 ## Kéo dài một thực thể
 
-1. Gõ `extend` trong terminal hoặc nhấp nút **Extend** trên thanh công cụ.
+1. Gõ `KéoDài` trong terminal hoặc nhấp nút **Extend** trên thanh công cụ.
 2. **Di chuyển con trỏ gần một đầu** của thực thể muốn kéo dài — bản xem trước hiển thị nó được kéo dài đến ranh giới gần nhất theo hướng đó.
 3. **Nhấp** để áp dụng việc kéo dài.
 

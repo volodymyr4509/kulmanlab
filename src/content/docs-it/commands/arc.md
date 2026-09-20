@@ -8,11 +8,11 @@ order: 5
 
 # Arc
 
-Il comando `arc` disegna un arco circolare attraverso tre punti cliccati. L'arco viene calcolato come la circonferenza unica che passa per tutti e tre i punti — non è necessario specificare direttamente centro o raggio. L'arco va dal primo clic al terzo clic, passando per il secondo.
+Il comando `Arco` disegna un arco circolare attraverso tre punti cliccati. L'arco viene calcolato come la circonferenza unica che passa per tutti e tre i punti — non è necessario specificare direttamente centro o raggio. L'arco va dal primo clic al terzo clic, passando per il secondo.
 
 ## Disegnare un arco
 
-1. Digita `arc` nel terminale o clicca il pulsante **Arc** nella barra degli strumenti.
+1. Digita `Arco` nel terminale o clicca il pulsante **Arc** nella barra degli strumenti.
 2. **Clicca il primo punto** — un'estremità dell'arco. Oppure digita `X,Y` e premi **Invio** per una coordinata esatta.
 3. **Clicca il secondo punto** — un punto per cui l'arco deve passare (controlla curvatura e direzione). L'inserimento di coordinate funziona anche qui.
 4. **Clicca il terzo punto** — l'altra estremità dell'arco. L'arco viene posizionato e il comando termina. L'inserimento di coordinate funziona anche qui.

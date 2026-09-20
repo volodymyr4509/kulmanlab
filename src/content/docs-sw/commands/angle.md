@@ -8,7 +8,7 @@ order: 2
 
 # Angle
 
-Amri ya `angle` inapima pembe ya ndani kwenye kilele inayoundwa na sehemu mbili za mstari kupitia pointi tatu zilizopigiwa klik. Matokeo — daima kati ya 0° na 180° — yanaonyeshwa kwenye terminal kwa nafasi 4 za desimali. Ni moja ya amri tatu za kupima — [Distance](../distance/) inapima urefu wa mstari mnyoofu, na [Area](../area/) inapima eneo na mzunguko wa poligoni iliyofungwa.
+Amri ya `Pembe` inapima pembe ya ndani kwenye kilele inayoundwa na sehemu mbili za mstari kupitia pointi tatu zilizopigiwa klik. Matokeo — daima kati ya 0° na 180° — yanaonyeshwa kwenye terminal kwa nafasi 4 za desimali. Ni moja ya amri tatu za kupima — [Distance](../distance/) inapima urefu wa mstari mnyoofu, na [Area](../area/) inapima eneo na mzunguko wa poligoni iliyofungwa.
 
 ## Muundo wa kipimo cha pembe
 
@@ -30,7 +30,7 @@ Amri ya `angle` inapima pembe ya ndani kwenye kilele inayoundwa na sehemu mbili 
 
 ## Kupima pembe
 
-1. Andika `angle` kwenye terminal au bonyeza kitufe cha upau wa zana cha **Angle**.
+1. Andika `Pembe` kwenye terminal au bonyeza kitufe cha upau wa zana cha **Angle**.
 2. **Bonyeza pointi ya kwanza** — mwisho wa mkono mmoja wa pembe. Au andika `X,Y` na ubonyeze **Enter** kwa kuratibu halisi.
 3. **Bonyeza kilele** — kona ambapo mikono miwili inakutana. Uingizaji wa kuratibu unafanya kazi hapa pia.
 4. **Bonyeza pointi ya tatu** — mwisho wa mkono wa pili. Uingizaji wa kuratibu unafanya kazi hapa pia. Kuweka pointi hii kunachapisha matokeo.

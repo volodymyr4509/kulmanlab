@@ -8,11 +8,11 @@ order: 8
 
 # Spline CV
 
-`splinecv`-kommandot ritar en **kubisk B-spline** genom att placera styrpunkter (CV:er). Den resulterande kurvan dras mot varje styrpunkt men passerar inte genom dem — utom vid allra första och sista styrpunkten, där **låsta knutar** förankrar kurvan exakt. Detta ger dig intuitiv formkontroll: dra en styrpunkt för att trycka kurvan mot den utan att tvinga den att röra varje punkt.
+`SplineKontrollpunkter`-kommandot ritar en **kubisk B-spline** genom att placera styrpunkter (CV:er). Den resulterande kurvan dras mot varje styrpunkt men passerar inte genom dem — utom vid allra första och sista styrpunkten, där **låsta knutar** förankrar kurvan exakt. Detta ger dig intuitiv formkontroll: dra en styrpunkt för att trycka kurvan mot den utan att tvinga den att röra varje punkt.
 
 ## Rita en spline med styrpunkter
 
-1. Skriv `splinecv` i terminalen eller klicka på **Spline CV**-knappen i verktygsfältet.
+1. Skriv `SplineKontrollpunkter` i terminalen eller klicka på **Spline CV**-knappen i verktygsfältet.
 2. **Klicka för att placera styrpunkter** — varje klick lägger till en styrpunkt. Eller skriv `X,Y` och tryck **Enter** för en exakt koordinat.
 3. Tryck på **Enter** eller **Space** för att avsluta (minst 2 styrpunkter krävs).
 

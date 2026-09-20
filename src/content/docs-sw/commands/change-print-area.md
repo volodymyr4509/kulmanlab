@@ -8,11 +8,11 @@ order: 5
 
 # ChangePrintArea
 
-Amri ya `ChangePrintArea` huweka eneo la mstatili ambalo [Print Manager](../print-manager/) huhamisha. Hufanya kazi kwenye turubai tupu huku Print Manager ikiwa imefichwa, na huchukua pembe mbili zinazokabiliana — mibofyo miwili ile ile ya [Rectangle](../rectangle/), hivyo viwianishi vilivyoandikwa na kunasa hufanya kazi vivyo hivyo.
+Amri ya `BadiliEneoLaKuchapisha` huweka eneo la mstatili ambalo [Print Manager](../print-manager/) huhamisha. Hufanya kazi kwenye turubai tupu huku Print Manager ikiwa imefichwa, na huchukua pembe mbili zinazokabiliana — mibofyo miwili ile ile ya [Rectangle](../rectangle/), hivyo viwianishi vilivyoandikwa na kunasa hufanya kazi vivyo hivyo.
 
 ## Kuchagua eneo
 
-1. Andika `ChangePrintArea` kwenye terminal, au bofya **Change Area** kwenye upau wa kando wa Print Manager. Print Manager hujificha na turubai huwa shirikishi.
+1. Andika `BadiliEneoLaKuchapisha` kwenye terminal, au bofya **Change Area** kwenye upau wa kando wa Print Manager. Print Manager hujificha na turubai huwa shirikishi.
 2. **Bofya pembe ya kwanza**, au andika `X,Y` kisha bonyeza **Enter** kwa kiwianishi kamili.
 3. **Bofya pembe inayokabiliana**, au andika `X,Y` tena.
 

@@ -8,7 +8,7 @@ order: 1
 
 # Distance
 
-Perintah `distance` mengukur jarak garis lurus (Euclidean) antara dua titik yang diklik dan mencetak hasilnya di terminal hingga 4 desimal. Ini adalah salah satu dari tiga perintah pengukuran — [Angle](../angle/) mengukur bukaan sudut pada vertex, dan [Area](../area/) mengukur luas serta keliling poligon tertutup.
+Perintah `Jarak` mengukur jarak garis lurus (Euclidean) antara dua titik yang diklik dan mencetak hasilnya di terminal hingga 4 desimal. Ini adalah salah satu dari tiga perintah pengukuran — [Angle](../angle/) mengukur bukaan sudut pada vertex, dan [Area](../area/) mengukur luas serta keliling poligon tertutup.
 
 ## Anatomi pengukuran jarak
 
@@ -26,7 +26,7 @@ Perintah `distance` mengukur jarak garis lurus (Euclidean) antara dua titik yang
 
 ## Mengukur jarak
 
-1. Ketik `distance` di terminal atau klik tombol toolbar **Distance**.
+1. Ketik `Jarak` di terminal atau klik tombol toolbar **Distance**.
 2. **Klik titik pertama**, atau ketik `X,Y` dan tekan **Enter** untuk koordinat tepat.
 3. **Klik titik kedua** — jarak yang diukur muncul di terminal. Entri koordinat juga berfungsi di sini.
 4. **Klik lagi** (opsional) untuk memulai pengukuran baru. Perintah tetap aktif.

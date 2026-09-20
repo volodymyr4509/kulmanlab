@@ -8,13 +8,13 @@ order: 11
 
 # Fillet
 
-Polecenie `fillet` zaokrągla narożnik między dwoma segmentami [Line](../line/), [Arc](../arc/) lub [Polyline](../polyline/), wstawiając łuk styczny o podanym promieniu i przycinając (lub łącząc) wybrane elementy do tego punktu.
+Polecenie `Zaokrąglij` zaokrągla narożnik między dwoma segmentami [Line](../line/), [Arc](../arc/) lub [Polyline](../polyline/), wstawiając łuk styczny o podanym promieniu i przycinając (lub łącząc) wybrane elementy do tego punktu.
 
 Zaokrąglenie działa na elementach **Linia, Łuk i Polilinia** — w tym na prostych i łukowych segmentach polilinii.
 
 ## Używanie zaokrąglenia
 
-1. Wpisz `fillet` w terminalu lub kliknij przycisk **Fillet** na pasku narzędzi.
+1. Wpisz `Zaokrąglij` w terminalu lub kliknij przycisk **Fillet** na pasku narzędzi.
 2. **Wpisz promień zaokrąglenia** i naciśnij **Enter**.
 3. **Kliknij pierwszą linię, łuk lub segment polilinii** — kliknięta część określa, która strona ewentualnego przecięcia zostaje zachowana.
 4. **Najedź kursorem na drugi element** — przerywany podgląd łuku pokazuje wynikowe zaokrąglenie. Przesuń kursor na stronę, którą chcesz zachować.

@@ -12,7 +12,7 @@ Abre el panel de ayuda integrado con un resumen de todos los atajos de teclado, 
 
 ## Cómo usar
 
-Haz clic en el botón **Help** de la barra de herramientas o escribe `help` en el terminal. El panel de ayuda se abre inmediatamente y el comando termina.
+Haz clic en el botón **Help** de la barra de herramientas o escribe `Ayuda` en el terminal. El panel de ayuda se abre inmediatamente y el comando termina.
 
 ## Qué hay en el panel de ayuda
 

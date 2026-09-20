@@ -8,11 +8,11 @@ order: 3
 
 # File Manager
 
-O comando `FileManager` abre uma **grade de miniaturas** de todos os desenhos que foram salvos no armazenamento local do seu navegador, ordenada por quando cada um foi salvo por último. Use-o para reabrir um desenho anterior, renomeá-lo, ou excluí-lo.
+O comando `GerenciadorArquivos` abre uma **grade de miniaturas** de todos os desenhos que foram salvos no armazenamento local do seu navegador, ordenada por quando cada um foi salvo por último. Use-o para reabrir um desenho anterior, renomeá-lo, ou excluí-lo.
 
 ## Abrindo o File Manager
 
-- Digite `FileManager` no terminal, **ou**
+- Digite `GerenciadorArquivos` no terminal, **ou**
 - Clique no botão **File Manager** na barra de ferramentas (ícone de histórico) no painel Arquivo no topo da tela.
 
 O painel se abre no lado esquerdo do canvas, e se fecha automaticamente assim que você inicia outro comando ou [importa](../import/) um arquivo — assim, ele nunca permanece aberto sobre um desenho que ainda não está listado nele. Ele reabre com uma lista atualizada a cada vez.

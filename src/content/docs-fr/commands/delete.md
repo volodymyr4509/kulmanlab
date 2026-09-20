@@ -8,20 +8,20 @@ order: 7
 
 # Delete
 
-La commande `delete` supprime les entités sélectionnées du dessin. Les suppressions sont enregistrées dans l'historique [Undo](../undo/) et peuvent être annulées avec jusqu'à 20 étapes. Il n'y a pas de dialogue séparé de confirmation — la confirmation est une simple pression de touche.
+La commande `Effacer` supprime les entités sélectionnées du dessin. Les suppressions sont enregistrées dans l'historique [Undo](../undo/) et peuvent être annulées avec jusqu'à 20 étapes. Il n'y a pas de dialogue séparé de confirmation — la confirmation est une simple pression de touche.
 
 ## Deux façons de supprimer
 
 **Pré-sélectionner, puis supprimer** — le chemin le plus rapide :
 
 1. Sélectionnez une ou plusieurs entités sur le canevas.
-2. Tapez `delete` dans le terminal, cliquez sur le bouton **Delete** de la barre d'outils, **ou appuyez directement sur la touche `Suppr`**.
+2. Tapez `Effacer` dans le terminal, cliquez sur le bouton **Delete** de la barre d'outils, **ou appuyez directement sur la touche `Suppr`**.
 
 Les entités sont supprimées instantanément — aucune étape de confirmation supplémentaire.
 
 **Activer, puis sélectionner** :
 
-1. Tapez `delete` ou cliquez sur le bouton de la barre d'outils (sans rien de sélectionné).
+1. Tapez `Effacer` ou cliquez sur le bouton de la barre d'outils (sans rien de sélectionné).
 2. **Sélectionnez les objets** — cliquez pour basculer, ou faites glisser pour sélectionner par zone.
 3. Appuyez sur **Entrée**, **Espace**, ou **Suppr** pour confirmer et supprimer les entités sélectionnées.
 
@@ -44,7 +44,7 @@ Cliquer sur l'entité → appuyer sur Suppr → terminé
 
 ## Récupérer les entités supprimées
 
-Les suppressions sont annulables avec la commande [Undo](../undo/) (tapez `undo` ou utilisez le bouton de la barre d'outils). Jusqu'à **20 étapes** peuvent être annulées par fichier, et l'historique persiste entre les rechargements de page. Si vous avez dépassé 20 suppressions sans sauvegarder, les suppressions antérieures ne peuvent pas être récupérées.
+Les suppressions sont annulables avec la commande [Undo](../undo/) (tapez `Annuler` ou utilisez le bouton de la barre d'outils). Jusqu'à **20 étapes** peuvent être annulées par fichier, et l'historique persiste entre les rechargements de page. Si vous avez dépassé 20 suppressions sans sauvegarder, les suppressions antérieures ne peuvent pas être récupérées.
 
 ## Entités supportées
 

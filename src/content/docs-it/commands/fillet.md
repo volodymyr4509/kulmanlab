@@ -8,13 +8,13 @@ order: 11
 
 # Fillet
 
-Il comando `fillet` arrotonda un angolo tra due segmenti [Line](../line/), [Arc](../arc/) o [Polyline](../polyline/) inserendo un arco tangente di un dato raggio, tagliando (o unendo) le entità scelte fino a quel punto.
+Il comando `Raccorda` arrotonda un angolo tra due segmenti [Line](../line/), [Arc](../arc/) o [Polyline](../polyline/) inserendo un arco tangente di un dato raggio, tagliando (o unendo) le entità scelte fino a quel punto.
 
 Fillet funziona con entità **Line, Arc e Polyline** — inclusi i segmenti dritti o ad arco di una polilinea.
 
 ## Usare fillet
 
-1. Digita `fillet` nel terminale o clicca il pulsante **Fillet** nella barra degli strumenti.
+1. Digita `Raccorda` nel terminale o clicca il pulsante **Fillet** nella barra degli strumenti.
 2. **Digita il raggio di raccordo** e premi **Invio**.
 3. **Clicca la prima linea, arco o segmento di polilinea** — la porzione che clicchi determina quale lato dell'intersezione viene mantenuto.
 4. **Passa il cursore sulla seconda entità** — un'anteprima ad arco tratteggiata mostra il raccordo risultante. Sposta il cursore sul lato che vuoi mantenere.

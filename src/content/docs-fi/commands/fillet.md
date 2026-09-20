@@ -8,13 +8,13 @@ order: 11
 
 # Fillet
 
-Komento `fillet` pyöristää kulman kahden [Line](../line/)-, [Arc](../arc/)- tai [Polyline](../polyline/)-segmentin välillä lisäämällä tangenttikaaren, jolla on annettu säde, ja leikkaa (tai yhdistää) valitut entiteetit takaisin tähän pisteeseen.
+Komento `Pyöristä` pyöristää kulman kahden [Line](../line/)-, [Arc](../arc/)- tai [Polyline](../polyline/)-segmentin välillä lisäämällä tangenttikaaren, jolla on annettu säde, ja leikkaa (tai yhdistää) valitut entiteetit takaisin tähän pisteeseen.
 
 Fillet toimii **Line-, Arc- ja Polyline**-entiteeteillä — mukaan lukien polylinen omat suorat ja kaarisegmentit.
 
 ## Filletin käyttäminen
 
-1. Kirjoita `fillet` terminaaliin tai napsauta **Fillet**-painiketta työkalurivillä.
+1. Kirjoita `Pyöristä` terminaaliin tai napsauta **Fillet**-painiketta työkalurivillä.
 2. **Kirjoita fillet-säde** ja paina **Enter**.
 3. **Napsauta ensimmäistä viivaa, kaarta tai polylinen segmenttiä** — napsauttamasi osa määrää, kumpi puoli mahdollisesta leikkauspisteestä säilytetään.
 4. **Pidä kohdistin toisen entiteetin päällä** — katkoviivainen kaaren esikatselu näyttää tuloksena olevan filletin. Siirrä kohdistin puolelle, jonka haluat säilyttää.

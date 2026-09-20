@@ -7,11 +7,11 @@ order: 3
 
 # PageManager
 
-Lệnh `PageManager` mở hộp thoại cài đặt trang cho bố cục đang hoạt động, cho phép bạn thay đổi định dạng giấy, hướng và tỉ lệ giữa đơn vị bản vẽ và milimét.
+Lệnh `QuảnLýTrang` mở hộp thoại cài đặt trang cho bố cục đang hoạt động, cho phép bạn thay đổi định dạng giấy, hướng và tỉ lệ giữa đơn vị bản vẽ và milimét.
 
 ## Mở Page Manager
 
-- Gõ `PageManager` trong terminal, **hoặc**
+- Gõ `QuảnLýTrang` trong terminal, **hoặc**
 - Nhấp chuột phải vào tab bố cục ở dưới cùng và chọn **Page Manager**.
 
 ## Cài đặt

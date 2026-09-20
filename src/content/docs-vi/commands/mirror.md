@@ -7,20 +7,20 @@ order: 4
 
 # Mirror
 
-Lệnh `mirror` tạo các bản sao được phản chiếu của các thực thể đã chọn qua trục hai điểm. Các bản gốc **luôn được giữ lại** — không giống như [Move](../move/) hay [Rotate](../rotate/), Mirror không bao giờ sửa đổi thực thể hiện có; nó chỉ thêm thực thể mới.
+Lệnh `ĐốiXứng` tạo các bản sao được phản chiếu của các thực thể đã chọn qua trục hai điểm. Các bản gốc **luôn được giữ lại** — không giống như [Move](../move/) hay [Rotate](../rotate/), Mirror không bao giờ sửa đổi thực thể hiện có; nó chỉ thêm thực thể mới.
 
 ## Hai cách bắt đầu
 
 **Chọn trước, sau đó đối xứng** — chọn thực thể trước, rồi kích hoạt:
 
 1. Chọn một hoặc nhiều thực thể trên canvas.
-2. Gõ `mirror` trong terminal hoặc nhấp nút **Mirror** trên thanh công cụ.
+2. Gõ `ĐốiXứng` trong terminal hoặc nhấp nút **Mirror** trên thanh công cụ.
 3. **Nhấp điểm đầu tiên** của trục gương, hoặc gõ `X,Y` rồi nhấn **Enter**.
 4. **Nhấp điểm thứ hai** — các bản sao được phản chiếu được đặt và lệnh kết thúc.
 
 **Kích hoạt, sau đó chọn** — bắt đầu lệnh khi không có gì được chọn:
 
-1. Gõ `mirror` hoặc nhấp nút thanh công cụ.
+1. Gõ `ĐốiXứng` hoặc nhấp nút thanh công cụ.
 2. **Chọn đối tượng** — nhấp để bật/tắt, hoặc kéo để chọn theo vùng.
 3. Nhấn **Enter** hoặc **Space** để xác nhận lựa chọn.
 4. **Nhấp điểm đầu tiên**, sau đó **nhấp điểm thứ hai** của trục gương.

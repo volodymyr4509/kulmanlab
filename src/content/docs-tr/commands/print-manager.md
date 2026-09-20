@@ -8,11 +8,11 @@ order: 4
 
 # Print Manager
 
-`PrintManager` komutu, önizleme, format seçimi (PNG / JPEG / WebP / PDF), bir Style seçici (Default / Monochrome / Blueprint) ve isteğe bağlı alan kırpmasıyla özel dışa aktarma penceresi olan **Print Manager**'ı açar. Fiziksel yazıcıya hiçbir şey gönderilmez — sonuç dosya olarak indirilir.
+`YazdırmaYöneticisi` komutu, önizleme, format seçimi (PNG / JPEG / WebP / PDF), bir Style seçici (Default / Monochrome / Blueprint) ve isteğe bağlı alan kırpmasıyla özel dışa aktarma penceresi olan **Print Manager**'ı açar. Fiziksel yazıcıya hiçbir şey gönderilmez — sonuç dosya olarak indirilir.
 
 ## Print Manager'ı Açma
 
-Araç çubuğundaki **Print** düğmesine basın veya terminale `PrintManager` yazın. Print Manager hemen açılır ve geçerli görünümün önizlemesini gösterir.
+Araç çubuğundaki **Print** düğmesine basın veya terminale `YazdırmaYöneticisi` yazın. Print Manager hemen açılır ve geçerli görünümün önizlemesini gösterir.
 
 Önizleme, sonunda dışa aktaracağınız dosyayla tamamen aynı kod yolundan, tamamen aynı piksel çözünürlüğünde render edilir — Quality, Style veya dışa aktarma alanını değiştirmek önizlemeyi hemen yeniden render eder, böylece gördüğünüz şey yaklaşık bir tahmin değil, indirilecek olanın ta kendisidir.
 

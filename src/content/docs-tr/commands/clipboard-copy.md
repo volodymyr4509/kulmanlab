@@ -8,7 +8,7 @@ order: 17
 
 # ClipboardCopy
 
-`ClipboardCopy` komutu seçili nesneleri **sistem panonuza** JSON metni olarak yazar. Bellekteki bir arabellek yerine gerçek panoyu kullandığı için kopyalanan geometri çizimin dışında da yaşamaya devam eder: [ClipboardPaste](../clipboard-paste/) ile onu başka bir dosyaya, ikinci bir tarayıcı sekmesine veya daha sonra açacağınız bir pencereye yapıştırın.
+`PanoyaKopyala` komutu seçili nesneleri **sistem panonuza** JSON metni olarak yazar. Bellekteki bir arabellek yerine gerçek panoyu kullandığı için kopyalanan geometri çizimin dışında da yaşamaya devam eder: [ClipboardPaste](../clipboard-paste/) ile onu başka bir dosyaya, ikinci bir tarayıcı sekmesine veya daha sonra açacağınız bir pencereye yapıştırın.
 
 [Copy](../copy/) ile farkı budur: Copy nesneleri tek hamlede geçerli çizimin içinde çoğaltır, ClipboardCopy ise onları tamamen başka bir çizimden geri alınabilecekleri bir yere koyar.
 
@@ -17,12 +17,12 @@ order: 17
 **Önce seç, sonra kopyala** — hızlı yol:
 
 1. Tuval üzerinde bir veya daha fazla nesne seçin.
-2. `Ctrl+C` (macOS'ta `Cmd+C`) tuşlarına basın ya da terminale `ClipboardCopy` yazın.
+2. `Ctrl+C` (macOS'ta `Cmd+C`) tuşlarına basın ya da terminale `PanoyaKopyala` yazın.
 3. Nesneler hemen panoya yazılır ve komut sona erer.
 
 **Önce çalıştır, sonra seç** — hiçbir şey seçili değilken başlamak:
 
-1. Seçim boşken `Ctrl+C` tuşlarına basın veya `ClipboardCopy` yazın.
+1. Seçim boşken `Ctrl+C` tuşlarına basın veya `PanoyaKopyala` yazın.
 2. İstem **pick objects to copy — Enter or Space to confirm** şeklinde görünür.
 3. **Nesneleri seçin** — tek tek nesneleri seçime almak veya çıkarmak için tıklayın, alanla seçmek için sürükleyin.
 4. Seçimi kopyalayıp çıkmak için **Enter** veya **Space** tuşuna basın.

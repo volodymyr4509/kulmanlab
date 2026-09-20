@@ -8,11 +8,11 @@ order: 5
 
 # HatchAdd
 
-Polecenie `HatchAdd` otwiera systemowe okno wyboru plików, by wgrać plik wzorów kreskowania `.pat`, bez otwierania najpierw okna [Hatch Manager](../hatch-manager/). To ta sama operacja, którą uruchamia przycisk **Add .pat File** w Hatch Managerze — HatchAdd jest tylko drogą na skróty z terminala.
+Polecenie `KreskowanieDodaj` otwiera systemowe okno wyboru plików, by wgrać plik wzorów kreskowania `.pat`, bez otwierania najpierw okna [Hatch Manager](../hatch-manager/). To ta sama operacja, którą uruchamia przycisk **Add .pat File** w Hatch Managerze — HatchAdd jest tylko drogą na skróty z terminala.
 
 ## Wgrywanie pliku wzorów
 
-1. Wpisz `HatchAdd` w terminalu albo kliknij **Add .pat File** na dole okna [Hatch Manager](../hatch-manager/).
+1. Wpisz `KreskowanieDodaj` w terminalu albo kliknij **Add .pat File** na dole okna [Hatch Manager](../hatch-manager/).
 2. Wybierz plik `.pat` w oknie systemowym. Przyjmowany jest wyłącznie standardowy format wzorów kreskowania.
 
 Polecenie kończy się z chwilą otwarcia okna wyboru plików — nie ma dalszych pytań, kliknięć ani wpisywania w terminalu. Wzory zostają zarejestrowane i pojawiają się w grupie **User**, gdy tylko wybierzesz plik.

@@ -8,11 +8,11 @@ order: 2
 
 # LayerMakeCurrent
 
-`LayerMakeCurrent`-kommandot ställer in **det aktuella ritningslagret** till vilket lager den klickade entiteten än tillhör. Nya entiteter ritas därefter automatiskt på det lagret.
+`GörLagerAktuellt`-kommandot ställer in **det aktuella ritningslagret** till vilket lager den klickade entiteten än tillhör. Nya entiteter ritas därefter automatiskt på det lagret.
 
 ## Användning
 
-1. Skriv `LayerMakeCurrent` i terminalen eller klicka på verktygsfältsknappen **Make Current** (pipettikon).
+1. Skriv `GörLagerAktuellt` i terminalen eller klicka på verktygsfältsknappen **Make Current** (pipettikon).
 2. **Klicka på valfri entitet** på ritytan.
 3. Det aktuella lagret uppdateras så att det matchar den entitetens lager. Kommandot avslutas omedelbart.
 

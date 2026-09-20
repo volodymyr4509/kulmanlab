@@ -8,20 +8,20 @@ order: 3
 
 # Rotate
 
-Perintah `rotate` memutar entitas yang dipilih di sekitar titik dasar. Anda menentukan sudut rotasi dengan mengetik angka dalam derajat atau dengan mengklik — sudutnya dihitung dari arah antara titik dasar dan posisi klik.
+Perintah `Putar` memutar entitas yang dipilih di sekitar titik dasar. Anda menentukan sudut rotasi dengan mengetik angka dalam derajat atau dengan mengklik — sudutnya dihitung dari arah antara titik dasar dan posisi klik.
 
 ## Dua cara memulai
 
 **Pra-pilih, lalu putar** — pilih entitas terlebih dahulu, kemudian aktifkan:
 
 1. Pilih satu atau lebih entitas di kanvas.
-2. Ketik `rotate` di terminal atau klik tombol toolbar **Rotate**.
+2. Ketik `Putar` di terminal atau klik tombol toolbar **Rotate**.
 3. **Klik titik dasar** — pusat rotasi. Atau ketik `X,Y` dan tekan **Enter** untuk koordinat tepat.
 4. **Ketik sudut dan tekan Enter**, atau **klik** untuk menetapkan sudut dari arah kursor.
 
 **Aktifkan, lalu pilih** — mulai perintah tanpa ada yang dipilih:
 
-1. Ketik `rotate` atau klik tombol toolbar.
+1. Ketik `Putar` atau klik tombol toolbar.
 2. **Pilih objek** — klik untuk mengalihkan, atau seret untuk memilih berdasarkan area.
 3. Tekan **Enter** atau **Space** untuk mengonfirmasi seleksi.
 4. **Klik titik dasar** (entri koordinat tersedia), kemudian atur sudutnya.

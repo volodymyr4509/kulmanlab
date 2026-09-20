@@ -8,13 +8,13 @@ order: 10
 
 # Offset
 
-Arahan `offset` mencipta salinan selari entiti pada jarak tegak lurus tetap. Anda menaip jarak sekali, kemudian klik entiti dan pilih sisi — arahan kekal sedia pada jarak yang sama supaya anda boleh mengimbangi berbilang objek dalam satu sesi.
+Arahan `Offset` mencipta salinan selari entiti pada jarak tegak lurus tetap. Anda menaip jarak sekali, kemudian klik entiti dan pilih sisi — arahan kekal sedia pada jarak yang sama supaya anda boleh mengimbangi berbilang objek dalam satu sesi.
 
 Jenis entiti yang disokong: **Line, Circle, Arc, Ellipse, Polyline** (termasuk Rectangle).
 
 ## Menggunakan offset
 
-1. Taip `offset` dalam terminal atau klik butang bar alat **Offset**.
+1. Taip `Offset` dalam terminal atau klik butang bar alat **Offset**.
 2. **Taip jarak offset** dan tekan **Enter** atau **Space**.
 3. **Klik entiti** untuk diimbangi — jika entiti bukan jenis yang disokong, mesej ralat muncul dan anda boleh mengklik entiti berbeza.
 4. **Gerakkan kursor** ke sisi di mana salinan harus muncul — pratonton langsung mengikuti.

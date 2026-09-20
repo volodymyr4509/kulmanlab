@@ -8,11 +8,11 @@ order: 1
 
 # LayerManager
 
-Perintah `LayerManager` membuka tabel yang mendaftar setiap layer dalam gambar, dengan pengaturan **Freeze**, **Lock**, **Plot**, **Warna**, **Ketebalan garis**, dan **Tipe garis** yang bisa disunting langsung di barisnya. Ini tempat utama untuk menambah layer, menghapus yang tidak terpakai, dan menyesuaikan perilaku layer yang sudah ada — perintah layer lainnya ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) masing-masing mengerjakan satu hal tanpa membukanya.
+Perintah `ManajerLapisan` membuka tabel yang mendaftar setiap layer dalam gambar, dengan pengaturan **Freeze**, **Lock**, **Plot**, **Warna**, **Ketebalan garis**, dan **Tipe garis** yang bisa disunting langsung di barisnya. Ini tempat utama untuk menambah layer, menghapus yang tidak terpakai, dan menyesuaikan perilaku layer yang sudah ada — perintah layer lainnya ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) masing-masing mengerjakan satu hal tanpa membukanya.
 
 ## Membuka Layer Manager
 
-- Ketik `LayerManager` di terminal, **atau**
+- Ketik `ManajerLapisan` di terminal, **atau**
 - Klik tombol **Layer Manager** di panel layer.
 
 Dialog terbuka sebagai panel mengambang; tidak ada yang perlu dipilih terlebih dahulu.

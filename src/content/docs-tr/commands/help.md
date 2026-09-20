@@ -8,7 +8,7 @@ order: 2
 
 # Help
 
-`help` komutu, yerleşik klavye kısayolları referansını ve belge bağlantılarını görüntüler. Araç çubuğundaki **Help** düğmesine basın veya terminale `help` yazın.
+`Yardım` komutu, yerleşik klavye kısayolları referansını ve belge bağlantılarını görüntüler. Araç çubuğundaki **Help** düğmesine basın veya terminale `Yardım` yazın.
 
 ## Klavye Kısayolları — Gezinme
 

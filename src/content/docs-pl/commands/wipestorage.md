@@ -8,7 +8,7 @@ order: 7
 
 # Wipe Storage
 
-Polecenie `wipestorage` trwale usuwa **wszystkie dane przechowywane w przeglądarce** dla KulmanLab CAD — każdy zapisany plik, tabele warstw i typów linii oraz historię cofnij. Strona automatycznie przeładowuje się po wykonaniu.
+Polecenie `WyczyśćPamięć` trwale usuwa **wszystkie dane przechowywane w przeglądarce** dla KulmanLab CAD — każdy zapisany plik, tabele warstw i typów linii oraz historię cofnij. Strona automatycznie przeładowuje się po wykonaniu.
 
 :::danger Nieodwracalne
 Ta akcja nie może zostać cofnięta. Wszystkie pliki przechowywane w przeglądarce zostaną usunięte. Przed uruchomieniem tego polecenia wyeksportuj rysunki, które chcesz zachować, jako pliki `.json` lub `.dxf`.
@@ -22,7 +22,7 @@ Ta akcja nie może zostać cofnięta. Wszystkie pliki przechowywane w przegląda
 
 ## Jak uruchomić
 
-1. Wpisz `wipestorage` w terminalu i naciśnij **Enter**.
+1. Wpisz `WyczyśćPamięć` w terminalu i naciśnij **Enter**.
 2. Terminal pyta: *Wyczyścić całą lokalną pamięć przeglądarki? Wpisz YES, aby potwierdzić*
 3. Wpisz `YES` (dowolna wielkość liter) i naciśnij **Enter**.
 

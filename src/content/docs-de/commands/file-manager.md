@@ -8,11 +8,11 @@ order: 3
 
 # File Manager
 
-Der Befehl `FileManager` öffnet ein **Miniaturraster** aller Zeichnungen, die im lokalen Speicher Ihres Browsers gespeichert wurden, sortiert nach dem Zeitpunkt der letzten Speicherung. Verwenden Sie ihn, um eine frühere Zeichnung erneut zu öffnen, umzubenennen oder zu löschen.
+Der Befehl `Dateimanager` öffnet ein **Miniaturraster** aller Zeichnungen, die im lokalen Speicher Ihres Browsers gespeichert wurden, sortiert nach dem Zeitpunkt der letzten Speicherung. Verwenden Sie ihn, um eine frühere Zeichnung erneut zu öffnen, umzubenennen oder zu löschen.
 
 ## Den File Manager öffnen
 
-- Geben Sie `FileManager` im Terminal ein, **oder**
+- Geben Sie `Dateimanager` im Terminal ein, **oder**
 - Klicken Sie auf die Schaltfläche **File Manager** (Verlaufssymbol) in der Symbolleiste im Datei-Panel oben auf dem Bildschirm.
 
 Das Panel öffnet sich auf der linken Seite der Zeichenfläche und schließt sich automatisch, sobald Sie einen anderen Befehl starten oder eine Datei [importieren](../import/) — sodass es nie über einer Zeichnung stehen bleibt, die es noch nicht auflistet. Es öffnet sich jedes Mal mit einer aktuellen Liste erneut.

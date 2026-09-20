@@ -8,11 +8,11 @@ order: 3
 
 # File Manager
 
-Lệnh `FileManager` mở một **lưới hình thu nhỏ** của mọi bản vẽ đã được lưu vào bộ nhớ cục bộ của trình duyệt, sắp xếp theo thời điểm lưu gần nhất. Dùng nó để mở lại một bản vẽ trước đó, đổi tên, hoặc xóa nó.
+Lệnh `QuảnLýTệp` mở một **lưới hình thu nhỏ** của mọi bản vẽ đã được lưu vào bộ nhớ cục bộ của trình duyệt, sắp xếp theo thời điểm lưu gần nhất. Dùng nó để mở lại một bản vẽ trước đó, đổi tên, hoặc xóa nó.
 
 ## Mở File Manager
 
-- Nhập `FileManager` trong terminal, **hoặc**
+- Nhập `QuảnLýTệp` trong terminal, **hoặc**
 - Nhấp nút **File Manager** trên thanh công cụ (biểu tượng lịch sử) trong bảng File ở đầu màn hình.
 
 Bảng mở ở phía bên trái canvas, và tự động đóng ngay khi bạn bắt đầu một lệnh khác hoặc [nhập](../import/) một tệp — vì vậy nó không bao giờ còn đọng lại trên một bản vẽ mà nó chưa liệt kê. Nó mở lại với danh sách mới mỗi lần.

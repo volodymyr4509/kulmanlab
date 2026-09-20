@@ -8,11 +8,11 @@ order: 3
 
 # Zoom Out
 
-Hinahati ng `zoomout` command ang kasalukuyang zoom level nang **1.5×** (katumbas ng pagpaparami nang ~0.667) at agad na magsasara, naka-center sa midpoint ng viewport. Ito ang kabaligtaran ng [Zoom In](../zoom-in/).
+Hinahati ng `Ilayo` command ang kasalukuyang zoom level nang **1.5×** (katumbas ng pagpaparami nang ~0.667) at agad na magsasara, naka-center sa midpoint ng viewport. Ito ang kabaligtaran ng [Zoom In](../zoom-in/).
 
 ## Pag-zoom Out
 
-I-click ang **Zoom Out** button sa toolbar o i-type ang `zoomout` sa terminal. Agad na naa-apply ang zoom at magsasara ang command — walang kailangang i-click sa canvas.
+I-click ang **Zoom Out** button sa toolbar o i-type ang `Ilayo` sa terminal. Agad na naa-apply ang zoom at magsasara ang command — walang kailangang i-click sa canvas.
 
 ## Paano Gumagana ang 1.5× Step
 

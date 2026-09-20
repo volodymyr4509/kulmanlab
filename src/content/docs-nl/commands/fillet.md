@@ -8,13 +8,13 @@ order: 11
 
 # Fillet
 
-Het `fillet`-commando rondt een hoek tussen twee [Line](../line/)-, [Arc](../arc/)- of [Polyline](../polyline/)-segmenten af door een raakboog van een gegeven straal in te voegen, waarbij de gekozen entiteiten tot dat punt worden bijgesneden (of samengevoegd).
+Het `Afronden`-commando rondt een hoek tussen twee [Line](../line/)-, [Arc](../arc/)- of [Polyline](../polyline/)-segmenten af door een raakboog van een gegeven straal in te voegen, waarbij de gekozen entiteiten tot dat punt worden bijgesneden (of samengevoegd).
 
 Fillet werkt op **Line-, Arc- en Polyline**-entiteiten — inclusief de rechte of boogsegmenten van een polylijn.
 
 ## Fillet gebruiken
 
-1. Typ `fillet` in de terminal of klik op de **Fillet**-werkbalkknop.
+1. Typ `Afronden` in de terminal of klik op de **Fillet**-werkbalkknop.
 2. **Typ de fillet-straal** en druk op **Enter**.
 3. **Klik op de eerste lijn, boog of polylijnsegment** — het deel waarop u klikt, bepaalt welke kant van een eventueel snijpunt wordt behouden.
 4. **Beweeg over de tweede entiteit** — een gestreepte boogpreview toont de resulterende fillet. Beweeg de cursor naar de kant die u wilt behouden.

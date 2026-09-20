@@ -8,11 +8,11 @@ order: 5
 
 # LayerUnfreezeAll
 
-Komento `LayerUnfreezeAll` poistaa jäädytyslipun **jokaiselta tasolta** piirustuksessa välittömästi. Valintaa tai vahvistusta ei tarvita — se ajetaan ja päättyy yhdessä vaiheessa.
+Komento `SulataKaikkiTasot` poistaa jäädytyslipun **jokaiselta tasolta** piirustuksessa välittömästi. Valintaa tai vahvistusta ei tarvita — se ajetaan ja päättyy yhdessä vaiheessa.
 
 ## Käyttö
 
-Kirjoita `LayerUnfreezeAll` terminaaliin tai napsauta **Unfreeze All**-painiketta työkalurivillä (aurinkokuvake). Kaikki jäädytetyt tasot muuttuvat näkyviksi välittömästi.
+Kirjoita `SulataKaikkiTasot` terminaaliin tai napsauta **Unfreeze All**-painiketta työkalurivillä (aurinkokuvake). Kaikki jäädytetyt tasot muuttuvat näkyviksi välittömästi.
 
 ## Milloin käyttää
 

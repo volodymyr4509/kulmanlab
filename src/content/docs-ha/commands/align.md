@@ -8,14 +8,14 @@ order: 6
 
 # Align
 
-Umarnin `align` yana sake matsayin abubuwan da aka zaɓa ta amfani da nauʼi ɗaya ko biyu na tabon tushe/manufa. Da nauʼi ɗaya yana aiki daidai kamar [Move](../move/) (motsawa kaɗai). Da nauʼi biyu kuma yana juya zaɓi don shugabancin tushe-zuwa-tushe ya dace da shugabancin manufa-zuwa-manufa, kuma zai iya, idan aka zaɓa, canza girma don tsawon sashen tushe ya dace da tsawon sashen manufa — motsawa, juyawa, da canza girma a aiki guda ɗaya.
+Umarnin `Daidaita` yana sake matsayin abubuwan da aka zaɓa ta amfani da nauʼi ɗaya ko biyu na tabon tushe/manufa. Da nauʼi ɗaya yana aiki daidai kamar [Move](../move/) (motsawa kaɗai). Da nauʼi biyu kuma yana juya zaɓi don shugabancin tushe-zuwa-tushe ya dace da shugabancin manufa-zuwa-manufa, kuma zai iya, idan aka zaɓa, canza girma don tsawon sashen tushe ya dace da tsawon sashen manufa — motsawa, juyawa, da canza girma a aiki guda ɗaya.
 
 ## Hanyoyi biyu na farawa
 
 **Zaɓi tukuna, sannan daidaita** — zaɓi abubuwa tukuna, sannan kunna:
 
 1. Zaɓi wani abu ɗaya ko fiye a kan canvas.
-2. Rubuta `align` a tashar umarni ko danna maɓallin kayan aiki na **Align**.
+2. Rubuta `Daidaita` a tashar umarni ko danna maɓallin kayan aiki na **Align**.
 3. **Danna tabon tushe na farko (S1)**, sannan **danna tabon manufa na farko (D1)**.
 4. **Danna tabon tushe na biyu (S2)**, ko danna **Enter** ko **Space** don yin daidaitawa ta motsawa-kaɗai yanzu.
 5. **Danna tabon manufa na biyu (D2)**.
@@ -23,7 +23,7 @@ Umarnin `align` yana sake matsayin abubuwan da aka zaɓa ta amfani da nauʼi ɗa
 
 **Kunna, sannan zaɓi** — fara umarnin ba tare da zaɓi ba:
 
-1. Rubuta `align` ko danna maɓallin kayan aiki.
+1. Rubuta `Daidaita` ko danna maɓallin kayan aiki.
 2. **Zaɓi abubuwa** — danna don canza zaɓi na kowane abu, ko ja don zaɓi ta yanki.
 3. Danna **Enter** ko **Space** don tabbatar da zaɓi.
 4. Ci gaba da S1 → D1 → S2 → D2 → tambayar canza girma kamar yadda aka bayyana a sama.
@@ -97,4 +97,4 @@ Abubuwan da aka daidaita suna ci gaba da zama zaɓaɓɓu a sabon matsayinsu, kum
 
 ## Abubuwan da ake goyon baya
 
-Align yana aiki akan kowane nauʼin abu da Move, Rotate, da Scale ke goyon baya — ana amfani da ayyukan `translate`, `rotate`, da `scale` iri ɗaya waɗanda waɗannan umarni ke amfani da su, an aiwatar dasu a jere, don haka babu wanda aka bar shi.
+Align yana aiki akan kowane nauʼin abu da Move, Rotate, da Scale ke goyon baya — ana amfani da ayyukan `translate`, `Juya`, da `Sikeli` iri ɗaya waɗanda waɗannan umarni ke amfani da su, an aiwatar dasu a jere, don haka babu wanda aka bar shi.

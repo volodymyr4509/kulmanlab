@@ -7,20 +7,20 @@ order: 5
 
 # Scale
 
-Lệnh `scale` thay đổi kích thước các thực thể đã chọn đồng đều quanh điểm cơ sở. Tất cả khoảng cách từ điểm cơ sở được nhân với hệ số tỉ lệ — hệ số `2` tăng gấp đôi tất cả kích thước, `0.5` giảm một nửa chúng. Hệ số luôn được nhập bằng cách gõ; không có tính năng nhấp để đặt tỉ lệ.
+Lệnh `ThuPhóng` thay đổi kích thước các thực thể đã chọn đồng đều quanh điểm cơ sở. Tất cả khoảng cách từ điểm cơ sở được nhân với hệ số tỉ lệ — hệ số `2` tăng gấp đôi tất cả kích thước, `0.5` giảm một nửa chúng. Hệ số luôn được nhập bằng cách gõ; không có tính năng nhấp để đặt tỉ lệ.
 
 ## Hai cách bắt đầu
 
 **Chọn trước, sau đó chia tỉ lệ** — chọn thực thể trước, rồi kích hoạt:
 
 1. Chọn một hoặc nhiều thực thể trên canvas.
-2. Gõ `scale` trong terminal hoặc nhấp nút **Scale** trên thanh công cụ.
+2. Gõ `ThuPhóng` trong terminal hoặc nhấp nút **Scale** trên thanh công cụ.
 3. **Nhấp điểm cơ sở** — điểm cố định không di chuyển trong quá trình chia tỉ lệ.
 4. **Gõ hệ số tỉ lệ** và nhấn **Enter**.
 
 **Kích hoạt, sau đó chọn** — bắt đầu lệnh khi không có gì được chọn:
 
-1. Gõ `scale` hoặc nhấp nút thanh công cụ.
+1. Gõ `ThuPhóng` hoặc nhấp nút thanh công cụ.
 2. **Chọn đối tượng** — nhấp để bật/tắt, hoặc kéo để chọn theo vùng.
 3. Nhấn **Enter** hoặc **Space** để xác nhận lựa chọn.
 4. **Nhấp điểm cơ sở**, sau đó gõ hệ số.

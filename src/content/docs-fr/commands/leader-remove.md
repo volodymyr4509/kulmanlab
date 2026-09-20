@@ -8,11 +8,11 @@ order: 3
 
 # LeaderRemove
 
-La commande `LeaderRemove` supprime un bras de pointe de flèche d'un multirépère existant. Le libellé de texte, la brisure et tous les bras restants sont conservés — seul le bras sélectionné est supprimé. Un multirépère avec un seul bras ne peut pas avoir son bras supprimé.
+La commande `SupprimerBrasRepère` supprime un bras de pointe de flèche d'un multirépère existant. Le libellé de texte, la brisure et tous les bras restants sont conservés — seul le bras sélectionné est supprimé. Un multirépère avec un seul bras ne peut pas avoir son bras supprimé.
 
 ## Supprimer un bras
 
-1. Tapez `LeaderRemove` dans le terminal.
+1. Tapez `SupprimerBrasRepère` dans le terminal.
 2. **Cliquez sur un multirépère** qui a deux bras ou plus. Si le répère sur lequel vous avez cliqué n'a qu'un seul bras, le terminal affiche une erreur et attend une sélection valide.
 3. **Déplacez le curseur près du bras** que vous souhaitez supprimer — le bras le plus proche est mis en évidence avec un marqueur.
 4. **Cliquez** pour supprimer ce bras.

@@ -8,7 +8,7 @@ order: 2
 
 # Angle
 
-`angle` komutu, üç tıklanan nokta aracılığıyla iki çizgi parçasının oluşturduğu köşedeki iç açıyı ölçer. Sonuç — her zaman 0° ile 180° arasında — terminalde 4 ondalık basamak hassasiyetle gösterilir. Bu komut üç ölçüm komutundan biridir; [Distance](../distance/) düz çizgi uzunluğunu ölçer, [Area](../area/) ise bir çokgenin alanını ve çevresini ölçer.
+`Açı` komutu, üç tıklanan nokta aracılığıyla iki çizgi parçasının oluşturduğu köşedeki iç açıyı ölçer. Sonuç — her zaman 0° ile 180° arasında — terminalde 4 ondalık basamak hassasiyetle gösterilir. Bu komut üç ölçüm komutundan biridir; [Distance](../distance/) düz çizgi uzunluğunu ölçer, [Area](../area/) ise bir çokgenin alanını ve çevresini ölçer.
 
 ## Açı Ölçümünün Anatomisi
 
@@ -30,7 +30,7 @@ order: 2
 
 ## Açı Ölçme
 
-1. Terminale `angle` yazın veya araç çubuğundaki **Angle** düğmesine tıklayın.
+1. Terminale `Açı` yazın veya araç çubuğundaki **Angle** düğmesine tıklayın.
 2. **Birinci noktayı tıklayın** — açının bir kol ucunu seçin. Ya da tam koordinat için `X,Y` yazıp **Enter** tuşuna basın.
 3. **Köşeyi tıklayın** — iki kolun birleştiği köşe noktasını seçin. Koordinat girişi burada da çalışır.
 4. **Üçüncü noktayı tıklayın** — ikinci kol ucunu seçin. Bu noktayı yerleştirmek sonucu yazdırır. Koordinat girişi burada da çalışır.

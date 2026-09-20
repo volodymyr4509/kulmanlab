@@ -8,13 +8,13 @@ order: 0
 
 # Text
 
-Der `text`-Befehl platziert eine mehrzeilige Textbeschriftung. Nachdem Sie eine Position auf der Zeichenfläche angeklickt haben, öffnet sich ein Popup-Editor im **rich** mode — Sie können Inhalt eingeben, Fett/Kursiv/Unterstrichen/Durchgestrichen zeichenweise anwenden, Schriftarten und -höhen ändern und Zeilenumbrüche einfügen. Drücken Sie **Escape**, um zu bestätigen und den Editor zu schließen.
+Der `Text`-Befehl platziert eine mehrzeilige Textbeschriftung. Nachdem Sie eine Position auf der Zeichenfläche angeklickt haben, öffnet sich ein Popup-Editor im **rich** mode — Sie können Inhalt eingeben, Fett/Kursiv/Unterstrichen/Durchgestrichen zeichenweise anwenden, Schriftarten und -höhen ändern und Zeilenumbrüche einfügen. Drücken Sie **Escape**, um zu bestätigen und den Editor zu schließen.
 
 Auf der Seite [Texteditor](../../interface/text-editor/) finden Sie die vollständige Editor-Referenz, einschließlich eines Vergleichs von **rich** und **simple** mode.
 
 ## Eine Textbeschriftung platzieren
 
-1. Geben Sie `text` im Terminal ein oder klicken Sie auf die **Text**-Schaltfläche in der Werkzeugleiste.
+1. Geben Sie `Text` im Terminal ein oder klicken Sie auf die **Text**-Schaltfläche in der Werkzeugleiste.
 2. **Klicken Sie die Ankerposition** auf der Zeichenfläche. Oder geben Sie `X,Y` ein und drücken Sie **Enter** für eine exakte Koordinate.
 3. Das **Texteditor-Popup** öffnet sich über der neuen Beschriftung. Geben Sie Ihren Inhalt ein.
 4. Drücken Sie **Escape**, um die Beschriftung zu bestätigen und den Editor zu schließen.

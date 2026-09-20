@@ -8,19 +8,19 @@ order: 4
 
 # LayerIsolate
 
-Komento `LayerIsolate` jäädyttää jokaisen tason **paitsi** ne, jotka kuuluvat valituille objekteille. Käytä sitä keskittyäksesi nopeasti tiettyyn geometriaan piilottamatta tai poistamatta mitään pysyvästi — poista jäädytys [LayerUnfreezeAll](../layer-unfreeze-all/)-komennolla kun olet valmis.
+Komento `EristäTaso` jäädyttää jokaisen tason **paitsi** ne, jotka kuuluvat valituille objekteille. Käytä sitä keskittyäksesi nopeasti tiettyyn geometriaan piilottamatta tai poistamatta mitään pysyvästi — poista jäädytys [LayerUnfreezeAll](../layer-unfreeze-all/)-komennolla kun olet valmis.
 
 ## Kaksi tapaa aloittaa
 
 **Valitse ensin, eristä sitten** — valitse entiteetit ensin, aktivoi sitten:
 
 1. Valitse yksi tai useampi entiteetti piirtoalueella.
-2. Kirjoita `LayerIsolate` terminaaliin tai napsauta **Layer Isolate**-painiketta työkalurivillä.
+2. Kirjoita `EristäTaso` terminaaliin tai napsauta **Layer Isolate**-painiketta työkalurivillä.
 3. Valittujen entiteettien tasot pysyvät näkyvinä; kaikki muut jäädytetään välittömästi.
 
 **Aktivoi, valitse sitten**:
 
-1. Kirjoita `LayerIsolate` tai napsauta työkalurivin painiketta.
+1. Kirjoita `EristäTaso` tai napsauta työkalurivin painiketta.
 2. **Valitse objektit** — napsauta yksittäisiä entiteettejä tai vedä valitaksesi alueen mukaan.
 3. Paina **Enter** tai **Space** vahvistaaksesi — eristys sovelletaan.
 

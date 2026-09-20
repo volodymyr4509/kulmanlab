@@ -8,7 +8,7 @@ order: 17
 
 # ClipboardCopy
 
-`ClipboardCopy`-komento kirjoittaa valitut objektit **järjestelmän leikepöydälle** JSON-tekstinä. Koska se käyttää oikeaa leikepöytää eikä muistissa olevaa puskuria, kopioitu geometria säilyy piirustuksen ulkopuolella: liitä se toiseen tiedostoon, toiseen selaimen välilehteen tai myöhemmin avaamaasi ikkunaan komennolla [ClipboardPaste](../clipboard-paste/).
+`KopioiLeikepöydälle`-komento kirjoittaa valitut objektit **järjestelmän leikepöydälle** JSON-tekstinä. Koska se käyttää oikeaa leikepöytää eikä muistissa olevaa puskuria, kopioitu geometria säilyy piirustuksen ulkopuolella: liitä se toiseen tiedostoon, toiseen selaimen välilehteen tai myöhemmin avaamaasi ikkunaan komennolla [ClipboardPaste](../clipboard-paste/).
 
 Tässä on ero [Copy](../copy/)-komentoon: Copy monistaa objektit nykyisen piirustuksen sisällä yhdellä liikkeellä, kun taas ClipboardCopy vie ne paikkaan, josta ne voi noutaa aivan toisesta piirustuksesta.
 
@@ -17,12 +17,12 @@ Tässä on ero [Copy](../copy/)-komentoon: Copy monistaa objektit nykyisen piiru
 **Valitse ensin, kopioi sitten** — nopea reitti:
 
 1. Valitse yksi tai useampi objekti piirtoalueelta.
-2. Paina `Ctrl+C` (macOS:ssä `Cmd+C`) tai kirjoita `ClipboardCopy` päätteeseen.
+2. Paina `Ctrl+C` (macOS:ssä `Cmd+C`) tai kirjoita `KopioiLeikepöydälle` päätteeseen.
 3. Objektit kirjoitetaan leikepöydälle heti, ja komento päättyy.
 
 **Käynnistä ensin, valitse sitten** — aloitus ilman valintaa:
 
-1. Paina `Ctrl+C` tai kirjoita `ClipboardCopy` valinnan ollessa tyhjä.
+1. Paina `Ctrl+C` tai kirjoita `KopioiLeikepöydälle` valinnan ollessa tyhjä.
 2. Kehote näyttää **pick objects to copy — Enter or Space to confirm**.
 3. **Valitse objektit** — napsauta ottaaksesi yksittäisiä objekteja valintaan tai pois siitä, tai vedä valitaksesi alueella.
 4. Paina **Enter** tai **Space** kopioidaksesi valinnan ja poistuaksesi.

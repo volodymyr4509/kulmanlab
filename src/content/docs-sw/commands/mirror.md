@@ -8,20 +8,20 @@ order: 4
 
 # Mirror
 
-Amri ya `mirror` huunda nakala zilizoakisiwa za vipengele vilivyochaguliwa zilizoonekana kwenye mhimili wa nukta mbili. Asili **daima huhifadhiwa** — tofauti na [Move](../move/) au [Rotate](../rotate/), Mirror haibadilishi vipengele vilivyopo kamwe; inaongeza tu vipya.
+Amri ya `Akisi` huunda nakala zilizoakisiwa za vipengele vilivyochaguliwa zilizoonekana kwenye mhimili wa nukta mbili. Asili **daima huhifadhiwa** — tofauti na [Move](../move/) au [Rotate](../rotate/), Mirror haibadilishi vipengele vilivyopo kamwe; inaongeza tu vipya.
 
 ## Njia mbili za kuanza
 
 **Chagua kwanza, kisha onyesha kioo** — chagua vipengele kwanza, kisha anzisha:
 
 1. Chagua vipengele moja au zaidi kwenye turubai.
-2. Andika `mirror` kwenye terminal au bonyeza kitufe cha **Mirror** kwenye upau wa zana.
+2. Andika `Akisi` kwenye terminal au bonyeza kitufe cha **Mirror** kwenye upau wa zana.
 3. **Bonyeza nukta ya kwanza** ya mhimili wa kioo, au andika `X,Y` na ubonyeze **Enter** kwa kuratibu sahihi.
 4. **Bonyeza nukta ya pili** — nakala zilizoakisiwa zimewekwa na amri inatoka. Uingizaji wa kuratibu unafanya kazi hapa pia.
 
 **Anzisha, kisha chagua** — anza amri bila chochote kilichochaguliwa:
 
-1. Andika `mirror` au bonyeza kitufe cha upau wa zana.
+1. Andika `Akisi` au bonyeza kitufe cha upau wa zana.
 2. **Chagua vitu** — bonyeza kubadilisha, au buruta kuchagua kwa eneo.
 3. Bonyeza **Enter** au **Space** kuthibitisha uchaguzi.
 4. **Bonyeza nukta ya kwanza**, kisha **bonyeza nukta ya pili** ya mhimili wa kioo (uingizaji wa kuratibu unapatikana katika hatua zote mbili).

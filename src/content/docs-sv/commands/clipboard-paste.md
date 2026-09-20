@@ -8,11 +8,11 @@ order: 18
 
 # ClipboardPaste
 
-Kommandot `ClipboardPaste` läser de entiteter som [ClipboardCopy](../clipboard-copy/) skrev till **systemets urklipp** och placerar dem i den aktuella ritningen på en punkt du väljer. Eftersom urklippet är systemets riktiga kan källan vara en annan ritning, en annan webbläsarflik eller en session från tidigare på dagen.
+Kommandot `KlistraInFrånUrklipp` läser de entiteter som [ClipboardCopy](../clipboard-copy/) skrev till **systemets urklipp** och placerar dem i den aktuella ritningen på en punkt du väljer. Eftersom urklippet är systemets riktiga kan källan vara en annan ritning, en annan webbläsarflik eller en session från tidigare på dagen.
 
 ## Så klistrar du in
 
-1. Tryck `Ctrl+V` (`Cmd+V` på macOS), eller skriv `ClipboardPaste` i terminalen.
+1. Tryck `Ctrl+V` (`Cmd+V` på macOS), eller skriv `KlistraInFrånUrklipp` i terminalen.
 2. Prompten visar **reading clipboard…** medan webbläsaren lämnar över urklippstexten.
 3. När den har lästs in ändras prompten till **pick insertion point** och en förhandsvisning av geometrin följer markören.
 4. **Klicka** för att placera entiteterna. De läggs till i ritningen och förblir markerade.

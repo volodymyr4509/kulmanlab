@@ -8,11 +8,11 @@ order: 4
 
 # Circle
 
-Kommandoen `circle` tegner en cirkel defineret af et centerpunkt og en radius. Efter at centrum er klikket, kan du sætte radius enten ved at klikke et andet punkt på lærredet eller ved at indtaste et eksakt tal — begge muligheder er aktive samtidig.
+Kommandoen `Cirkel` tegner en cirkel defineret af et centerpunkt og en radius. Efter at centrum er klikket, kan du sætte radius enten ved at klikke et andet punkt på lærredet eller ved at indtaste et eksakt tal — begge muligheder er aktive samtidig.
 
 ## Tegne en cirkel
 
-1. Skriv `circle` i terminalen eller klik på **Circle**-knappen i værktøjslinjen.
+1. Skriv `Cirkel` i terminalen eller klik på **Circle**-knappen i værktøjslinjen.
 2. **Klik centerpunktet**, eller skriv `X,Y` og tryk **Enter** for en eksakt koordinat.
 3. Sæt radius — enten:
    - **Klik et hvilket som helst punkt** på lærredet — afstanden fra centrum bliver radius, eller

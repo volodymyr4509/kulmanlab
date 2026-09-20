@@ -8,11 +8,11 @@ order: 6
 
 # Ellipse
 
-Ginuguhit ng `ellipse` command ang ellipse gamit ang tatlong click: center point, endpoint ng una (major) na semi-axis sa anumang angle, at haba ng ikalawang (minor) na semi-axis. Palaging perpendicular sa isa't isa ang dalawang axis — awtomatikong kinukuha ang direksyon ng ikalawang axis mula sa una.
+Ginuguhit ng `Elipse` command ang ellipse gamit ang tatlong click: center point, endpoint ng una (major) na semi-axis sa anumang angle, at haba ng ikalawang (minor) na semi-axis. Palaging perpendicular sa isa't isa ang dalawang axis — awtomatikong kinukuha ang direksyon ng ikalawang axis mula sa una.
 
 ## Pagguhit ng Ellipse
 
-1. I-type ang `ellipse` sa terminal o i-click ang **Ellipse** button sa toolbar.
+1. I-type ang `Elipse` sa terminal o i-click ang **Ellipse** button sa toolbar.
 2. **I-click ang center point**, o i-type ang `X,Y` at pindutin ang **Enter** para sa eksaktong coordinate.
 3. **I-click ang endpoint ng unang axis** — itinatakda ang direksyon at haba ng unang semi-axis. Gumagana rin dito ang coordinate entry.
 4. **Itakda ang haba ng ikalawang axis** — ilipat ang cursor nang perpendicular sa unang axis, pagkatapos ay i-click o i-type ang haba.

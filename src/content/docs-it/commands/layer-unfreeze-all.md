@@ -8,11 +8,11 @@ order: 5
 
 # LayerUnfreezeAll
 
-Il comando `LayerUnfreezeAll` rimuove il flag di congelamento da **ogni livello** del disegno istantaneamente. Non è richiesta nessuna selezione né conferma — il comando viene eseguito e termina in un unico passaggio.
+Il comando `ScongelaTuttiLayer` rimuove il flag di congelamento da **ogni livello** del disegno istantaneamente. Non è richiesta nessuna selezione né conferma — il comando viene eseguito e termina in un unico passaggio.
 
 ## Utilizzo
 
-Digita `LayerUnfreezeAll` nel terminale oppure clicca il pulsante **Unfreeze All** nella barra degli strumenti (icona sole). Tutti i livelli congelati diventano immediatamente visibili.
+Digita `ScongelaTuttiLayer` nel terminale oppure clicca il pulsante **Unfreeze All** nella barra degli strumenti (icona sole). Tutti i livelli congelati diventano immediatamente visibili.
 
 ## Quando usarlo
 

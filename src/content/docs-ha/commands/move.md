@@ -8,20 +8,20 @@ order: 1
 
 # Move
 
-Umarnin `move` yana motsa abubuwan da aka zaɓa daga tabon tushe zuwa tabon manufa. Motsi da aka yi amfani da shi ga kowane abu da aka zaɓa shine vector daga tushe zuwa manufa. Bayan motsi dukkan abubuwa suna ci gaba da zama zaɓaɓɓu a sabon matsayinsu, a shirye don ƙarin gyare-gyare.
+Umarnin `Matsar` yana motsa abubuwan da aka zaɓa daga tabon tushe zuwa tabon manufa. Motsi da aka yi amfani da shi ga kowane abu da aka zaɓa shine vector daga tushe zuwa manufa. Bayan motsi dukkan abubuwa suna ci gaba da zama zaɓaɓɓu a sabon matsayinsu, a shirye don ƙarin gyare-gyare.
 
 ## Hanyoyi biyu na farawa
 
 **Zaɓi tukuna, sannan motsa** — zaɓi abubuwa tukuna, sannan kunna:
 
 1. Zaɓi wani abu ɗaya ko fiye a kan canvas.
-2. Rubuta `move` a tashar umarni ko danna maɓallin kayan aiki na **Move**.
+2. Rubuta `Matsar` a tashar umarni ko danna maɓallin kayan aiki na **Move**.
 3. **Danna tabon tushe**, ko rubuta `X,Y` ka danna **Enter** don daidaitawa madaidaiciya.
 4. **Danna manufa** — dukkan abubuwan da aka zaɓa suna motsawa da vector na tushe→manufa. Shigar da daidaitawa yana aiki a nan ma.
 
 **Kunna, sannan zaɓi** — fara umarnin ba tare da zaɓi ba:
 
-1. Rubuta `move` ko danna maɓallin kayan aiki.
+1. Rubuta `Matsar` ko danna maɓallin kayan aiki.
 2. **Zaɓi abubuwa** — danna don canza zaɓi na abubuwa daban-daban, ko ja don zaɓi ta yanki.
 3. Danna **Enter** ko **Space** don tabbatar da zaɓi.
 4. **Danna tabon tushe**, sannan **danna manufa** (shigar da daidaitawa ana samu a matakan biyu).

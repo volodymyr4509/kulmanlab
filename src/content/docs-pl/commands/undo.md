@@ -8,11 +8,11 @@ order: 13
 
 # Undo
 
-Polecenie `undo` odwraca ostatnią zmianę w rysunku — jeden krok na wywołanie. Każde dodanie, usunięcie lub edycja elementów jest zapisywana jako oddzielny wpis historii. Cofnij cofa te wpisy w odwrotnej kolejności.
+Polecenie `CofnijAkcję` odwraca ostatnią zmianę w rysunku — jeden krok na wywołanie. Każde dodanie, usunięcie lub edycja elementów jest zapisywana jako oddzielny wpis historii. Cofnij cofa te wpisy w odwrotnej kolejności.
 
 ## Jak cofnąć
 
-- Wpisz `undo` w terminalu, lub
+- Wpisz `CofnijAkcję` w terminalu, lub
 - Kliknij przycisk **Cofnij** na pasku narzędzi.
 
 Każde wywołanie odwraca jedną zarejestrowaną akcję. Wywołuj wielokrotnie, aby cofnąć się dalej.

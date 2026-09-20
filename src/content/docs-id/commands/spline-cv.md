@@ -8,11 +8,11 @@ order: 8
 
 # Spline CV
 
-Perintah `splinecv` menggambar **B-spline kubik** dengan menempatkan control vertex (CV). Kurva yang dihasilkan tertarik ke arah setiap CV tetapi tidak melewatinya — kecuali di vertex pertama dan terakhir, di mana **knot yang dijepit** menjangkarkan kurva tepat. Ini memberikan kontrol bentuk yang intuitif: tarik vertex untuk mendorong kurva ke arahnya tanpa memaksanya menyentuh setiap titik.
+Perintah `SplineKontrol` menggambar **B-spline kubik** dengan menempatkan control vertex (CV). Kurva yang dihasilkan tertarik ke arah setiap CV tetapi tidak melewatinya — kecuali di vertex pertama dan terakhir, di mana **knot yang dijepit** menjangkarkan kurva tepat. Ini memberikan kontrol bentuk yang intuitif: tarik vertex untuk mendorong kurva ke arahnya tanpa memaksanya menyentuh setiap titik.
 
 ## Menggambar spline dengan control vertex
 
-1. Ketik `splinecv` di terminal atau klik tombol toolbar **Spline CV**.
+1. Ketik `SplineKontrol` di terminal atau klik tombol toolbar **Spline CV**.
 2. **Klik untuk menempatkan control vertex** — setiap klik menambah vertex. Atau ketik `X,Y` dan tekan **Enter** untuk koordinat tepat.
 3. Tekan **Enter** atau **Space** untuk selesai (setidaknya 2 vertex diperlukan).
 

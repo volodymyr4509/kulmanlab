@@ -8,11 +8,11 @@ order: 1
 
 # LayerMakeCurrent
 
-Umarnin `LayerMakeCurrent` yana saita **layer na zane na yanzu** zuwa duk wace layer da abin da aka danna ke ciki. Sabbin abubuwa za a zana su a wannan layer kai tsaye bayan haka.
+Umarnin `MaidaMatakinYanzu` yana saita **layer na zane na yanzu** zuwa duk wace layer da abin da aka danna ke ciki. Sabbin abubuwa za a zana su a wannan layer kai tsaye bayan haka.
 
 ## Amfani
 
-1. Rubuta `LayerMakeCurrent` a tashar umarni ko danna maɓallin kayan aiki na **Make Current** (alamar eyedropper).
+1. Rubuta `MaidaMatakinYanzu` a tashar umarni ko danna maɓallin kayan aiki na **Make Current** (alamar eyedropper).
 2. **Danna kowane abu** a kan canvas.
 3. Ana sabunta layer na yanzu don ya dace da layer na wannan abu. Umarnin yana ƙarewa nan take.
 

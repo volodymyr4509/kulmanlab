@@ -8,14 +8,14 @@ order: 6
 
 # Align
 
-Amri ya `align` huweka upya vipengele vilivyochaguliwa kwa kutumia jozi moja au mbili za pointi za chanzo/marudio. Kwa jozi moja, hufanya kazi sawa na [Move](../move/) (kuhamisha tu). Kwa jozi mbili, pia huzungusha uteuzi ili mwelekeo wa chanzo-hadi-chanzo ulingane na mwelekeo wa marudio-hadi-marudio, na inaweza kwa hiari kuupima ili urefu wa sehemu ya chanzo ulingane na urefu wa sehemu ya marudio — kuhamisha, kuzungusha, na kupima katika operesheni moja.
+Amri ya `Panga` huweka upya vipengele vilivyochaguliwa kwa kutumia jozi moja au mbili za pointi za chanzo/marudio. Kwa jozi moja, hufanya kazi sawa na [Move](../move/) (kuhamisha tu). Kwa jozi mbili, pia huzungusha uteuzi ili mwelekeo wa chanzo-hadi-chanzo ulingane na mwelekeo wa marudio-hadi-marudio, na inaweza kwa hiari kuupima ili urefu wa sehemu ya chanzo ulingane na urefu wa sehemu ya marudio — kuhamisha, kuzungusha, na kupima katika operesheni moja.
 
 ## Njia mbili za kuanza
 
 **Chagua kwanza, kisha patanisha** — chagua vipengele kwanza, kisha anzisha:
 
 1. Chagua vipengele moja au zaidi kwenye turubai.
-2. Andika `align` kwenye terminal au bonyeza kitufe cha **Align** kwenye upau wa zana.
+2. Andika `Panga` kwenye terminal au bonyeza kitufe cha **Align** kwenye upau wa zana.
 3. **Bonyeza pointi ya kwanza ya chanzo (S1)**, kisha **bonyeza pointi ya kwanza ya marudio (D1)**.
 4. **Bonyeza pointi ya pili ya chanzo (S2)**, au bonyeza **Enter** au **Space** kutumia upatanisho wa kuhamisha tu sasa hivi.
 5. **Bonyeza pointi ya pili ya marudio (D2)**.
@@ -23,7 +23,7 @@ Amri ya `align` huweka upya vipengele vilivyochaguliwa kwa kutumia jozi moja au 
 
 **Anzisha, kisha chagua** — anza amri bila chochote kilichochaguliwa:
 
-1. Andika `align` au bonyeza kitufe cha upau wa zana.
+1. Andika `Panga` au bonyeza kitufe cha upau wa zana.
 2. **Chagua vitu** — bonyeza kubadilisha vipengele mmoja mmoja, au buruta kuchagua kwa eneo.
 3. Bonyeza **Enter** au **Space** kuthibitisha uchaguzi.
 4. Endelea na S1 → D1 → S2 → D2 → swali la kupima kama hapo juu.
@@ -97,4 +97,4 @@ Vipengele vilivyopatanishwa vinabaki vikichaguliwa katika nafasi yake mpya, na a
 
 ## Vipengele vinavyosaidiwa
 
-Align hufanya kazi kwenye kila aina ya kipengele kinachosaidiwa na Move, Rotate, na Scale — shughuli zile zile za `translate`, `rotate`, na `scale` zinazotumiwa na amri hizo zinatumika kwa mfuatano, hivyo hakuna kinachoachwa nje.
+Align hufanya kazi kwenye kila aina ya kipengele kinachosaidiwa na Move, Rotate, na Scale — shughuli zile zile za `translate`, `Zungusha`, na `BadiliUkubwa` zinazotumiwa na amri hizo zinatumika kwa mfuatano, hivyo hakuna kinachoachwa nje.

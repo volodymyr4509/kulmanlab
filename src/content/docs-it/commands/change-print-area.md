@@ -8,11 +8,11 @@ order: 5
 
 # ChangePrintArea
 
-Il comando `ChangePrintArea` definisce la regione rettangolare che [Print Manager](../print-manager/) esporta. Viene eseguito sulla tela con Print Manager nascosto e prende due angoli opposti — gli stessi due clic di [Rectangle](../rectangle/), quindi coordinate digitate e snap si comportano esattamente come lì.
+Il comando `CambiaAreaStampa` definisce la regione rettangolare che [Print Manager](../print-manager/) esporta. Viene eseguito sulla tela con Print Manager nascosto e prende due angoli opposti — gli stessi due clic di [Rectangle](../rectangle/), quindi coordinate digitate e snap si comportano esattamente come lì.
 
 ## Selezionare un'area
 
-1. Digita `ChangePrintArea` nel terminale, oppure fai clic su **Change Area** nella barra laterale di Print Manager. Print Manager si nasconde e la tela diventa interattiva.
+1. Digita `CambiaAreaStampa` nel terminale, oppure fai clic su **Change Area** nella barra laterale di Print Manager. Print Manager si nasconde e la tela diventa interattiva.
 2. **Fai clic sul primo angolo**, oppure digita `X,Y` e premi **Invio** per una coordinata esatta.
 3. **Fai clic sull'angolo opposto**, oppure digita di nuovo `X,Y`.
 

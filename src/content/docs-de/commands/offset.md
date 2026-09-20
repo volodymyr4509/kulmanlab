@@ -8,13 +8,13 @@ order: 10
 
 # Offset
 
-Der Befehl `offset` erstellt eine parallele Kopie einer Entität in einem festen senkrechten Abstand. Sie geben den Abstand einmal ein und klicken dann Entitäten an und wählen eine Seite — der Befehl bleibt auf demselben Abstand bereit, sodass Sie in einer Sitzung mehrere Objekte versetzen können.
+Der Befehl `Versetzen` erstellt eine parallele Kopie einer Entität in einem festen senkrechten Abstand. Sie geben den Abstand einmal ein und klicken dann Entitäten an und wählen eine Seite — der Befehl bleibt auf demselben Abstand bereit, sodass Sie in einer Sitzung mehrere Objekte versetzen können.
 
 Unterstützte Entitätstypen: **Linie, Kreis, Bogen, Ellipse, Polylinie** (einschließlich Rechtecke).
 
 ## Offset verwenden
 
-1. Geben Sie `offset` im Terminal ein oder klicken Sie auf die Schaltfläche **Offset** in der Symbolleiste.
+1. Geben Sie `Versetzen` im Terminal ein oder klicken Sie auf die Schaltfläche **Offset** in der Symbolleiste.
 2. **Geben Sie den Versatzabstand ein** und drücken Sie **Enter** oder **Space**.
 3. **Klicken Sie auf eine Entität** zum Versetzen — wenn die Entität kein unterstützter Typ ist, erscheint eine Fehlermeldung und Sie können eine andere Entität anklicken.
 4. **Bewegen Sie den Cursor** auf die Seite, wo die Kopie erscheinen soll — eine Live-Vorschau folgt.

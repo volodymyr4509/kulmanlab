@@ -8,11 +8,11 @@ order: 8
 
 # Spline CV
 
-Umarnin `splinecv` yana zana **B-spline mai cubic** ta sanya control vertices (CVs). Ana jawo curve da aka samu zuwa kowace CV amma ba ta wucewa ta cikinsu ba — sai a vertex na farko da na ƙarshe, inda **clamped knots** ke kwaɓe curve daidai. Wannan yana ba ka iko na yanayin sifa mai fahimta: ja vertex don tura curve zuwa gare ta ba tare da tilasta ta taɓa kowace tabo ba.
+Umarnin `SplineMakinSarrafawa` yana zana **B-spline mai cubic** ta sanya control vertices (CVs). Ana jawo curve da aka samu zuwa kowace CV amma ba ta wucewa ta cikinsu ba — sai a vertex na farko da na ƙarshe, inda **clamped knots** ke kwaɓe curve daidai. Wannan yana ba ka iko na yanayin sifa mai fahimta: ja vertex don tura curve zuwa gare ta ba tare da tilasta ta taɓa kowace tabo ba.
 
 ## Zana spline ta control vertices
 
-1. Rubuta `splinecv` a tashar umarni ko danna maɓallin kayan aiki na **Spline CV**.
+1. Rubuta `SplineMakinSarrafawa` a tashar umarni ko danna maɓallin kayan aiki na **Spline CV**.
 2. **Danna don sanya control vertices** — kowace dannawa yana ƙara vertex. Ko rubuta `X,Y` ka danna **Enter** don daidaitawa madaidaiciya.
 3. Danna **Enter** ko **Space** don kammalawa (ana bukatar aƙalla vertices 2).
 

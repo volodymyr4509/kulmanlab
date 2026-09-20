@@ -8,11 +8,11 @@ order: 1
 
 # LayerManager
 
-Amri ya `LayerManager` hufungua jedwali linaloorodhesha kila tabaka la mchoro, likiwa na mipangilio ya **Freeze**, **Lock**, **Plot**, **Rangi**, **Unene wa mstari** na **Aina ya mstari** inayoharirika moja kwa moja ndani ya safu. Ni mahali pakuu pa kuongeza tabaka, kufuta zisizotumika na kurekebisha tabia ya zilizopo — amri nyingine za tabaka ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) kila moja hufanya jambo moja mahususi bila kulifungua.
+Amri ya `KidhibitiMatabaka` hufungua jedwali linaloorodhesha kila tabaka la mchoro, likiwa na mipangilio ya **Freeze**, **Lock**, **Plot**, **Rangi**, **Unene wa mstari** na **Aina ya mstari** inayoharirika moja kwa moja ndani ya safu. Ni mahali pakuu pa kuongeza tabaka, kufuta zisizotumika na kurekebisha tabia ya zilizopo — amri nyingine za tabaka ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) kila moja hufanya jambo moja mahususi bila kulifungua.
 
 ## Kufungua Layer Manager
 
-- Andika `LayerManager` kwenye terminal, **au**
+- Andika `KidhibitiMatabaka` kwenye terminal, **au**
 - Bofya kitufe cha **Layer Manager** kwenye paneli ya safu.
 
 Kidirisha hufunguka kama paneli inayoelea; hakuna kinachohitaji kuchaguliwa kwanza.

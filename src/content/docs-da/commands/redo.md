@@ -8,11 +8,11 @@ order: 14
 
 # Redo
 
-Kommandoen `redo` bevæger sig fremad gennem fortryd-historikken og genanvender handlinger, der blev reverseret af [Undo](../undo/). Redo er kun tilgængelig, når du har trådt tilbage med Undo og endnu ikke har foretaget en ny ændring.
+Kommandoen `GentagHandling` bevæger sig fremad gennem fortryd-historikken og genanvender handlinger, der blev reverseret af [Undo](../undo/). Redo er kun tilgængelig, når du har trådt tilbage med Undo og endnu ikke har foretaget en ny ændring.
 
 ## Sådan gør du om
 
-- Skriv `redo` i terminalen, eller
+- Skriv `GentagHandling` i terminalen, eller
 - Klik på **Redo**-knappen i værktøjslinjen.
 
 Hver kaldelse genanvender én tidligere fortrudt handling. Kald den gentagne gange for at bevæge dig fremad gennem alle tilgængelige gør om-poster.

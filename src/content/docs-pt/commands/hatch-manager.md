@@ -8,11 +8,11 @@ order: 4
 
 # Hatch Manager
 
-O comando `HatchManager` abre uma caixa de diálogo para navegar por padrões de hatch com pré-visualização de amostra ao vivo, e para enviar seus próprios arquivos de padrão `.pat` para usar com [Hatch](../hatch/).
+O comando `GerenciadorHachuras` abre uma caixa de diálogo para navegar por padrões de hatch com pré-visualização de amostra ao vivo, e para enviar seus próprios arquivos de padrão `.pat` para usar com [Hatch](../hatch/).
 
 ## Abrindo o Hatch Manager
 
-Digite `HatchManager` no terminal. Isso é separado do seletor de padrões que abre quando você clica no chip **Pattern** de um hatch — o seletor escolhe um padrão para um hatch, o Hatch Manager é onde você adiciona ou remove arquivos `.pat`.
+Digite `GerenciadorHachuras` no terminal. Isso é separado do seletor de padrões que abre quando você clica no chip **Pattern** de um hatch — o seletor escolhe um padrão para um hatch, o Hatch Manager é onde você adiciona ou remove arquivos `.pat`.
 
 ## Grupos de padrões
 

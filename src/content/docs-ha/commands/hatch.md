@@ -8,11 +8,11 @@ order: 7
 
 # Hatch
 
-Umarnin `hatch` yana cika yankin da ke kewaye da wurin da aka danna da pattern. Ba a fara zana iyaka ba — tana zuwa daga abin da aka riga aka zana a kan canvas, don haka [Line](../line/) huɗu daban-daban da suka hadu karshe da karshe suna kewaye da yanki daidai kamar yadda [Polyline](../polyline/) da aka rufe take yi, kuma duk wani siffa da aka rufe a ciki yankin ya zama tsibiri wanda cikawar ba ta taɓa shi.
+Umarnin `Cikawa` yana cika yankin da ke kewaye da wurin da aka danna da pattern. Ba a fara zana iyaka ba — tana zuwa daga abin da aka riga aka zana a kan canvas, don haka [Line](../line/) huɗu daban-daban da suka hadu karshe da karshe suna kewaye da yanki daidai kamar yadda [Polyline](../polyline/) da aka rufe take yi, kuma duk wani siffa da aka rufe a ciki yankin ya zama tsibiri wanda cikawar ba ta taɓa shi.
 
 ## Cika Wani Yanki
 
-1. Rubuta `hatch` a cikin terminal ko danna maballin **Hatch** a kan toolbar (alamar swatch).
+1. Rubuta `Cikawa` a cikin terminal ko danna maballin **Hatch** a kan toolbar (alamar swatch).
 2. **Danna wuri** a cikin yankin da kake son cikawa.
 3. Umarnin ya kasance a aiki, don haka ci gaba da dannawa don cika wasu yankuna — kowace dannawa tana ƙirƙirar `Hatch` abu nata.
 4. Danna **Enter**, **Space**, ko **Escape** idan ka gama.
@@ -69,7 +69,7 @@ Kowane sabon hatch yana farawa an cika shi da `ANSI31` (ko wani pattern da hatch
 1. Zabi hatch da ke akwai kuma bude filin **Pattern** a cikin panel na properties — wannan yana bude mai zaben pattern, tebur na swatches masu suna wadanda aka rukuna bisa inda kowane pattern ya fito.
 2. Danna wani pattern don amfani da shi — cikawar tana sabuntawa nan take.
 
-Wannan zaben kuma ya zama tsoho ga hatch na *gaba* da za ka kirkira da umarnin `hatch`, hanya daya da zaben layer ko launi yake wucewa gaba. Don haka don hatch yankuna da yawa sabbin da wani pattern na musamman: cika yanki daya, saita pattern dinsa sau daya, sannan ci gaba da yin hatch — kowace cikawa bayan haka tana farawa da wannan pattern an riga an yi amfani da shi.
+Wannan zaben kuma ya zama tsoho ga hatch na *gaba* da za ka kirkira da umarnin `Cikawa`, hanya daya da zaben layer ko launi yake wucewa gaba. Don haka don hatch yankuna da yawa sabbin da wani pattern na musamman: cika yanki daya, saita pattern dinsa sau daya, sannan ci gaba da yin hatch — kowace cikawa bayan haka tana farawa da wannan pattern an riga an yi amfani da shi.
 
 Duba [Hatch Manager](../hatch-manager/) don loda fayilolin pattern na `.pat` naka da kuma bincika dukkan laburare.
 

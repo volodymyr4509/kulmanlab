@@ -12,7 +12,7 @@ Binubuksan ang in-app help panel na may buod ng lahat ng keyboard shortcuts, nav
 
 ## Paano gamitin
 
-I-click ang **Help** toolbar button o i-type ang `help` sa terminal. Agad na magbubukas ang help panel at magsasara ang command.
+I-click ang **Help** toolbar button o i-type ang `Tulong` sa terminal. Agad na magbubukas ang help panel at magsasara ang command.
 
 ## Ano ang laman ng help panel
 

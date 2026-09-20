@@ -8,13 +8,13 @@ order: 9
 
 # Extend
 
-O comando `extend` estica o ponto final mais próximo de uma [Line](../line/), [Arc](../arc/), [Ellipse](../ellipse/) ou Polyline aberta sob hover até a primeira interseção que formaria com outra entidade no desenho. Passe o cursor próximo ao ponto final que deseja estender — uma pré-visualização mostra a entidade estendida — depois clique para aplicar.
+O comando `Estender` estica o ponto final mais próximo de uma [Line](../line/), [Arc](../arc/), [Ellipse](../ellipse/) ou Polyline aberta sob hover até a primeira interseção que formaria com outra entidade no desenho. Passe o cursor próximo ao ponto final que deseja estender — uma pré-visualização mostra a entidade estendida — depois clique para aplicar.
 
 Apenas entidades com um ponto final real podem ser estendidas. Um [Circle](../circle/) e uma Ellipse completa (360°) são sempre formas fechadas sem ponto final, então nunca podem ser estendidas — o mesmo vale para uma Polyline fechada ou um Retângulo. Uma Ellipse parcial (um arco elíptico) e um Arc têm pontos finais e se estendem da mesma forma que uma Line.
 
 ## Estendendo uma entidade
 
-1. Digite `extend` no terminal ou clique no botão **Extend** na barra de ferramentas.
+1. Digite `Estender` no terminal ou clique no botão **Extend** na barra de ferramentas.
 2. **Passe o cursor próximo a uma extremidade** da entidade que deseja estender — a pré-visualização a mostra estendida até o limite mais próximo nessa direção.
 3. **Clique** para aplicar a extensão.
 

@@ -8,11 +8,11 @@ order: 1
 
 # LayerManager
 
-Kommandoen `LayerManager` åpner en tabell som viser hvert lag i tegningen, med innstillingene **Freeze**, **Lock**, **Plot**, **Farge**, **Linjebredde** og **Linjetype** redigerbare rett i raden. Det er det sentrale stedet for å legge til lag, slette ubrukte og justere hvordan eksisterende oppfører seg — de øvrige lagkommandoene ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) gjør hver sin avgrensede ting uten å åpne den.
+Kommandoen `Lagbehandler` åpner en tabell som viser hvert lag i tegningen, med innstillingene **Freeze**, **Lock**, **Plot**, **Farge**, **Linjebredde** og **Linjetype** redigerbare rett i raden. Det er det sentrale stedet for å legge til lag, slette ubrukte og justere hvordan eksisterende oppfører seg — de øvrige lagkommandoene ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) gjør hver sin avgrensede ting uten å åpne den.
 
 ## Åpne Layer Manager
 
-- Skriv `LayerManager` i terminalen, **eller**
+- Skriv `Lagbehandler` i terminalen, **eller**
 - Klikk på **Layer Manager**-knappen i lagpanelet.
 
 Dialogen åpnes som et flytende panel; ingenting trenger å være markert på forhånd.

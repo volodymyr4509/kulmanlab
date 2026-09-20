@@ -8,13 +8,13 @@ order: 2
 
 # Polyline
 
-El comando `polyline` dibuja una trayectoria conectada de cualquier número de segmentos rectos o de arco, todos almacenados como una sola entidad `LWPOLYLINE`. Dado que toda la trayectoria es un objeto, seleccionarla selecciona todos los segmentos a la vez — mueve, rota o escala toda la forma en una sola operación. Esta es la distinción clave frente a las [Lines](../line/) encadenadas, donde cada segmento es una entidad independiente.
+El comando `Polilínea` dibuja una trayectoria conectada de cualquier número de segmentos rectos o de arco, todos almacenados como una sola entidad `LWPOLYLINE`. Dado que toda la trayectoria es un objeto, seleccionarla selecciona todos los segmentos a la vez — mueve, rota o escala toda la forma en una sola operación. Esta es la distinción clave frente a las [Lines](../line/) encadenadas, donde cada segmento es una entidad independiente.
 
 Las polilíneas también pueden ser **cerradas**: el comando [Rectangle](../rectangle/) usa la misma entidad `LWPOLYLINE` con el indicador de cierre establecido.
 
 ## Dibujar una polilínea
 
-1. Escribe `polyline` en el terminal o haz clic en el botón **Polyline** de la barra de herramientas.
+1. Escribe `Polilínea` en el terminal o haz clic en el botón **Polyline** de la barra de herramientas.
 2. **Haz clic en el primer punto**, o escribe `X,Y` y presiona **Enter** para una coordenada exacta.
 3. **Haz clic en cada punto siguiente** — cada clic añade un segmento. La entrada de coordenadas funciona en cada paso.
 4. Presiona **Enter** o **Space** para terminar (requiere al menos 2 puntos colocados).

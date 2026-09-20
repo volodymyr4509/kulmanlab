@@ -8,13 +8,13 @@ order: 2
 
 # Polyline
 
-Komento `polyline` piirtää yhdistetyn polun, jossa on mikä tahansa määrä suoria tai kaarisegmenttejä, kaikki tallennettuna yhtenä `LWPOLYLINE`-entiteettinä. Koska koko polku on yksi objekti, sen valitseminen valitsee kaikki segmentit kerralla — siirrä, kierrä tai skaalaa koko muoto yhdessä toiminnossa. Tämä on keskeinen ero ketjutettuihin [Lines](../line/), joissa jokainen segmentti on itsenäinen entiteetti.
+Komento `Moniviiva` piirtää yhdistetyn polun, jossa on mikä tahansa määrä suoria tai kaarisegmenttejä, kaikki tallennettuna yhtenä `LWPOLYLINE`-entiteettinä. Koska koko polku on yksi objekti, sen valitseminen valitsee kaikki segmentit kerralla — siirrä, kierrä tai skaalaa koko muoto yhdessä toiminnossa. Tämä on keskeinen ero ketjutettuihin [Lines](../line/), joissa jokainen segmentti on itsenäinen entiteetti.
 
 Polylinjat voivat olla myös **suljettuja**: [Rectangle](../rectangle/)-komento käyttää samaa `LWPOLYLINE`-entiteettiä close-lipulla asetettuna.
 
 ## Polylinjan piirtäminen
 
-1. Kirjoita `polyline` terminaaliin tai napsauta **Polyline**-painiketta työkalurivillä.
+1. Kirjoita `Moniviiva` terminaaliin tai napsauta **Polyline**-painiketta työkalurivillä.
 2. **Napsauta ensimmäistä pistettä**, tai kirjoita `X,Y` ja paina **Enter** tarkkaa koordinaattia varten.
 3. **Napsauta jokaista seuraavaa pistettä** — jokainen napsautus lisää segmentin. Koordinaattien syöttö toimii jokaisessa vaiheessa.
 4. Paina **Enter** tai **Space** viimeistelläksesi (vaatii vähintään 2 sijoitettua pistettä).

@@ -8,13 +8,13 @@ order: 9
 
 # Extend
 
-Het commando `extend` verlengt het dichtstbijzijnde eindpunt van een aangewezen [Line](../line/), [Arc](../arc/), [Ellipse](../ellipse/) of open [Polyline](../polyline/) tot het dichtstbijzijnde snijpunt dat deze zou vormen met een andere entiteit in de tekening. Beweeg de cursor bij het eindpunt dat u wilt verlengen — een preview toont de verlengde entiteit — klik dan om toe te passen.
+Het commando `Verlengen` verlengt het dichtstbijzijnde eindpunt van een aangewezen [Line](../line/), [Arc](../arc/), [Ellipse](../ellipse/) of open [Polyline](../polyline/) tot het dichtstbijzijnde snijpunt dat deze zou vormen met een andere entiteit in de tekening. Beweeg de cursor bij het eindpunt dat u wilt verlengen — een preview toont de verlengde entiteit — klik dan om toe te passen.
 
 Alleen entiteiten met een echt eindpunt kunnen worden verlengd. Een [Circle](../circle/) en een volledige (360°) Ellipse zijn altijd gesloten vormen zonder eindpunt, dus die kunnen nooit worden verlengd — hetzelfde geldt voor een gesloten Polyline of Rectangle. Een gedeeltelijke Ellipse (een elliptische boog) en een Arc hebben wel eindpunten en worden op dezelfde manier verlengd als een Line.
 
 ## Een entiteit verlengen
 
-1. Typ `extend` in de terminal of klik op de werkbalkknop **Extend**.
+1. Typ `Verlengen` in de terminal of klik op de werkbalkknop **Extend**.
 2. **Beweeg de cursor bij een uiteinde** van de entiteit die u wilt verlengen — de preview toont deze verlengd tot de dichtstbijzijnde rand in die richting.
 3. **Klik** om de verlenging toe te passen.
 

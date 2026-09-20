@@ -8,7 +8,7 @@ order: 3
 
 # Area
 
-O comando `area` mede a área delimitada e o perímetro de um polígono definido por três ou mais pontos clicados, e imprime ambos os resultados no terminal com 4 casas decimais. É o terceiro comando de medição, ao lado de [Distance](../distance/) (comprimento em linha reta) e [Angle](../angle/) (ângulo interior num vértice).
+O comando `Área` mede a área delimitada e o perímetro de um polígono definido por três ou mais pontos clicados, e imprime ambos os resultados no terminal com 4 casas decimais. É o terceiro comando de medição, ao lado de [Distance](../distance/) (comprimento em linha reta) e [Angle](../angle/) (ângulo interior num vértice).
 
 ## Anatomia de uma medição de área
 
@@ -30,7 +30,7 @@ O comando `area` mede a área delimitada e o perímetro de um polígono definido
 
 ## Medir uma área
 
-1. Digite `area` no terminal ou clique no botão **Area** na barra de ferramentas (linha inferior do painel Measure).
+1. Digite `Área` no terminal ou clique no botão **Area** na barra de ferramentas (linha inferior do painel Measure).
 2. **Clique no primeiro ponto**, ou digite `X,Y` e pressione **Enter** para uma coordenada exata.
 3. **Clique em cada vértice adicional** por ordem à volta da forma. A entrada de coordenadas funciona em cada passo.
 4. Assim que pelo menos **3 pontos** estiverem colocados, pressione **Enter** ou **Espaço** (sem uma entrada de coordenada ou distância pendente) para fechar o polígono e calcular o resultado.
@@ -93,5 +93,5 @@ Em vez de clicar, digite uma posição exata para qualquer vértice:
 - A área é calculada com a fórmula do sapateiro (shoelace) e é sempre apresentada como um valor positivo, independentemente da ordem dos cliques.
 - Polígonos autointersectantes (arestas que se cruzam) ainda produzem um resultado numérico, mas o valor pode não corresponder à região visualmente delimitada — mantenha uma ordem de cliques sem cruzamentos para uma área significativa.
 - Os resultados são exibidos apenas no **terminal e como um destaque temporário no canvas** — nada é adicionado ao desenho de forma permanente.
-- Ao contrário de Distance e Angle, Area **não** encadeia automaticamente uma nova medição — depois de dispensar o resultado, execute `area` novamente para medir outro polígono.
+- Ao contrário de Distance e Angle, Area **não** encadeia automaticamente uma nova medição — depois de dispensar o resultado, execute `Área` novamente para medir outro polígono.
 - A precisão é sempre de 4 casas decimais tanto para a área como para o perímetro, nas mesmas unidades das coordenadas do desenho (sem conversão de unidades).

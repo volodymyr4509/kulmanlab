@@ -8,11 +8,11 @@ order: 3
 
 # LeaderRemove
 
-O comando `LeaderRemove` remove um braço com seta de um multileader existente. A etiqueta de texto, o dogleg e todos os braços restantes são preservados — apenas o braço selecionado é excluído. Um multileader com apenas um braço não pode ter seu braço removido.
+O comando `RemoverBraçoChamada` remove um braço com seta de um multileader existente. A etiqueta de texto, o dogleg e todos os braços restantes são preservados — apenas o braço selecionado é excluído. Um multileader com apenas um braço não pode ter seu braço removido.
 
 ## Removendo um braço
 
-1. Digite `LeaderRemove` no terminal.
+1. Digite `RemoverBraçoChamada` no terminal.
 2. **Clique em um multileader** com dois ou mais braços. Se o leader clicado tiver apenas um braço, o terminal mostra um erro e aguarda uma seleção válida.
 3. **Mova o cursor próximo ao braço** que deseja remover — o braço mais próximo é destacado com um marcador.
 4. **Clique** para remover esse braço.

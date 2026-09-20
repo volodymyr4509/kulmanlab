@@ -8,13 +8,13 @@ order: 2
 
 # ViewportCopy
 
-O comando `ViewportCopy` copia uma viewport para uma nova posição, preservando sua escala e centro do modelo. Disponível apenas no espaço de layout.
+O comando `CopiarJanela` copia uma viewport para uma nova posição, preservando sua escala e centro do modelo. Disponível apenas no espaço de layout.
 
 ## Copiando uma viewport
 
 1. Mude para uma aba de layout papel.
 2. Opcionalmente clique em uma viewport para pré-selecioná-la.
-3. Digite `ViewportCopy` no terminal ou clique no botão **Viewport Copy** na barra de ferramentas.
+3. Digite `CopiarJanela` no terminal ou clique no botão **Viewport Copy** na barra de ferramentas.
 4. Se nenhuma viewport foi pré-selecionada, **clique na viewport** a copiar.
 5. **Clique no ponto base** — a referência para o deslocamento. Ou digite `X,Y` e pressione **Enter** para uma coordenada exata.
 6. **Clique no destino** — a viewport é posicionada no offset base→destino. Ou use entrada de coordenadas / travamento de ângulo.

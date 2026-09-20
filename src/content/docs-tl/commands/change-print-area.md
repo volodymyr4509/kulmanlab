@@ -8,11 +8,11 @@ order: 5
 
 # ChangePrintArea
 
-Itinatakda ng `ChangePrintArea` command ang rektanggulong rehiyon na ine-export ng [Print Manager](../print-manager/). Tumatakbo ito sa hubad na canvas habang nakatago ang Print Manager at kumukuha ng dalawang magkabilang sulok — ang parehong dalawang click ng [Rectangle](../rectangle/), kaya pareho ang kilos ng tinipang koordinado at snapping.
+Itinatakda ng `BaguhinLugarNgPrint` command ang rektanggulong rehiyon na ine-export ng [Print Manager](../print-manager/). Tumatakbo ito sa hubad na canvas habang nakatago ang Print Manager at kumukuha ng dalawang magkabilang sulok — ang parehong dalawang click ng [Rectangle](../rectangle/), kaya pareho ang kilos ng tinipang koordinado at snapping.
 
 ## Pagpili ng area
 
-1. I-type ang `ChangePrintArea` sa terminal, o i-click ang **Change Area** sa sidebar ng Print Manager. Magtatago ang Print Manager at magiging interactive ang canvas.
+1. I-type ang `BaguhinLugarNgPrint` sa terminal, o i-click ang **Change Area** sa sidebar ng Print Manager. Magtatago ang Print Manager at magiging interactive ang canvas.
 2. **I-click ang unang sulok**, o i-type ang `X,Y` at pindutin ang **Enter** para sa eksaktong koordinado.
 3. **I-click ang kabilang sulok**, o i-type muli ang `X,Y`.
 

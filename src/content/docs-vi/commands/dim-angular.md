@@ -7,11 +7,11 @@ order: 9
 
 # Dimension Angular
 
-Lệnh `DimensionAngular` đặt một **chú thích kích thước góc** dạng cung lên bản vẽ. Nó đo và ghi nhãn góc giữa hai đường thẳng, khoảng của một cung, hoặc một phần của hình tròn.
+Lệnh `KíchThướcGóc` đặt một **chú thích kích thước góc** dạng cung lên bản vẽ. Nó đo và ghi nhãn góc giữa hai đường thẳng, khoảng của một cung, hoặc một phần của hình tròn.
 
 ## Cách kích hoạt
 
-Nhấp nút **Dimension Angular** trên thanh công cụ trong bảng Markup, hoặc gõ `DimensionAngular` trong terminal.
+Nhấp nút **Dimension Angular** trên thanh công cụ trong bảng Markup, hoặc gõ `KíchThướcGóc` trong terminal.
 
 ## Ba chế độ nhập
 
@@ -46,7 +46,7 @@ Các đường song song không thể tạo kích thước góc.
 
 - Cung kích thước luôn được vẽ ở phía đỉnh nơi bạn đặt nó — di chuyển con trỏ qua đỉnh để chuyển sang góc bù.
 - Góc đo hiển thị bằng độ và cập nhật trực tiếp khi bạn di chuyển con trỏ.
-- Kết quả là thực thể `DimensionAngular` đầy đủ được lưu trên lớp hiện tại.
+- Kết quả là thực thể `KíchThướcGóc` đầy đủ được lưu trên lớp hiện tại.
 - Kích thước góc được xuất sang cả JSON lẫn DXF, và trong DXF được ghi dưới dạng đối tượng `DIMENSION` chuẩn.
 
 ## Chỉnh sửa nhãn — chế độ đơn giản

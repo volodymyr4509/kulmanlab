@@ -8,11 +8,11 @@ order: 3
 
 # LeaderRemove
 
-Kommandoen `LeaderRemove` fjerner én pilspissarm fra en eksisterende multileader. Tekstetiketten, doglegen og alle gjenværende armer bevares — kun den valgte armen slettes. En multileader med kun én arm kan ikke få armen sin fjernet.
+Kommandoen `HenvisningFjern` fjerner én pilspissarm fra en eksisterende multileader. Tekstetiketten, doglegen og alle gjenværende armer bevares — kun den valgte armen slettes. En multileader med kun én arm kan ikke få armen sin fjernet.
 
 ## Fjerne en arm
 
-1. Skriv `LeaderRemove` i terminalen.
+1. Skriv `HenvisningFjern` i terminalen.
 2. **Klikk en multileader** som har to eller flere armer. Hvis den klikkede lederen kun har én arm, viser terminalen en feilmelding og venter på en gyldig markering.
 3. **Flytt markøren nær armen** du vil fjerne — den nærmeste armen uthevet med en markør.
 4. **Klikk** for å fjerne den armen.

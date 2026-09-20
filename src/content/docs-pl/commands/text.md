@@ -8,13 +8,13 @@ order: 0
 
 # Text
 
-Polecenie `text` umieszcza wieloliniową etykietę tekstową. Po kliknięciu pozycji na płótnie otwiera się okno podręczne edytora w trybie **rich** — możesz wpisywać treść, stosować pogrubienie/kursywę/podkreślenie/przekreślenie dla poszczególnych znaków, zmieniać czcionki i wysokości oraz wstawiać podziały wierszy. Naciśnij **Escape**, aby zatwierdzić i zamknąć edytor.
+Polecenie `Tekst` umieszcza wieloliniową etykietę tekstową. Po kliknięciu pozycji na płótnie otwiera się okno podręczne edytora w trybie **rich** — możesz wpisywać treść, stosować pogrubienie/kursywę/podkreślenie/przekreślenie dla poszczególnych znaków, zmieniać czcionki i wysokości oraz wstawiać podziały wierszy. Naciśnij **Escape**, aby zatwierdzić i zamknąć edytor.
 
 Zobacz stronę [Edytor tekstu](../../interface/text-editor/), aby uzyskać pełną dokumentację edytora, w tym porównanie trybów **rich** i **simple**.
 
 ## Umieszczanie etykiety tekstowej
 
-1. Wpisz `text` w terminalu lub kliknij przycisk **Tekst** na pasku narzędzi.
+1. Wpisz `Tekst` w terminalu lub kliknij przycisk **Tekst** na pasku narzędzi.
 2. **Kliknij pozycję kotwicy** na płótnie. Lub wpisz `X,Y` i naciśnij **Enter** dla dokładnej współrzędnej.
 3. Otwiera się **okno podręczne edytora tekstu** nad nową etykietą. Wpisz swoją treść.
 4. Naciśnij **Escape**, aby zatwierdzić etykietę i zamknąć edytor.

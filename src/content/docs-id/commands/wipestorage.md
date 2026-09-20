@@ -8,7 +8,7 @@ order: 7
 
 # Wipe Storage
 
-Perintah `wipestorage` secara permanen menghapus **semua data yang tersimpan di browser** untuk KulmanLab CAD — setiap file yang tersimpan, tabel layer dan tipe garis, dan riwayat undo. Halaman dimuat ulang secara otomatis setelahnya.
+Perintah `HapusPenyimpanan` secara permanen menghapus **semua data yang tersimpan di browser** untuk KulmanLab CAD — setiap file yang tersimpan, tabel layer dan tipe garis, dan riwayat undo. Halaman dimuat ulang secara otomatis setelahnya.
 
 :::danger Tidak Dapat Dibatalkan
 Tindakan ini tidak dapat dibatalkan. Semua file yang tersimpan di browser dihapus. Ekspor gambar yang ingin Anda pertahankan sebagai file `.json` atau `.dxf` sebelum menjalankan perintah ini.
@@ -22,7 +22,7 @@ Tindakan ini tidak dapat dibatalkan. Semua file yang tersimpan di browser dihapu
 
 ## Cara menjalankannya
 
-1. Ketik `wipestorage` di terminal dan tekan **Enter**.
+1. Ketik `HapusPenyimpanan` di terminal dan tekan **Enter**.
 2. Terminal meminta: *Wipe all browser local storage? Type YES to confirm*
 3. Ketik `YES` (kapitalisasi mana pun) dan tekan **Enter**.
 

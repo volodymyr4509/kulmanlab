@@ -8,11 +8,11 @@ order: 6
 
 # Export Manager
 
-Perintah `exportmanager` mengunduh gambar saat ini ke sistem berkas Anda. Dua format berdampingan — **DXF** untuk kompatibilitas dengan perkakas CAD lain dan **JSON** untuk simpanan berfidelitas penuh di dalam KulmanLab CAD — dan masing-masing punya daftar centangnya sendiri tentang apa yang masuk ke berkas.
+Perintah `ManajerEkspor` mengunduh gambar saat ini ke sistem berkas Anda. Dua format berdampingan — **DXF** untuk kompatibilitas dengan perkakas CAD lain dan **JSON** untuk simpanan berfidelitas penuh di dalam KulmanLab CAD — dan masing-masing punya daftar centangnya sendiri tentang apa yang masuk ke berkas.
 
 ## Cara mengekspor
 
-1. Klik tombol toolbar **Export** (ikon unduh) di panel file, atau ketik `exportmanager` di terminal.
+1. Klik tombol toolbar **Export** (ikon unduh) di panel file, atau ketik `ManajerEkspor` di terminal.
 2. Popup **Export Manager** terbuka dengan dua kolom, **JSON** dan **DXF**, masing-masing mencantumkan tipe entitas gambar dengan kotak centang dan jumlah.
 3. Hilangkan centang pada yang ingin Anda tinggalkan. Semuanya tercentang di awal.
 4. Klik **Export JSON** atau **Export DXF**. Berkas terunduh ke folder unduhan bawaan dan popup tertutup.

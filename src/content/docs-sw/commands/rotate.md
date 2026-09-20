@@ -8,20 +8,20 @@ order: 3
 
 # Rotate
 
-Amri ya `rotate` huzungusha vipande vilivyochaguliwa karibu na nukta ya msingi. Unabainisha pembe ya kuzungusha ama kwa kuandika nambari katika digrii au kwa kubonyeza — pembe huhesabiwa kutoka kwa mwelekeo kati ya nukta ya msingi na nafasi ya bonyeza.
+Amri ya `Zungusha` huzungusha vipande vilivyochaguliwa karibu na nukta ya msingi. Unabainisha pembe ya kuzungusha ama kwa kuandika nambari katika digrii au kwa kubonyeza — pembe huhesabiwa kutoka kwa mwelekeo kati ya nukta ya msingi na nafasi ya bonyeza.
 
 ## Njia mbili za kuanza
 
 **Chagua kwanza, kisha zungusha** — chagua vipande kwanza, kisha washa:
 
 1. Chagua kipande kimoja au zaidi kwenye kanvasi.
-2. Andika `rotate` kwenye terminal au bonyeza kitufe cha **Rotate** kwenye upau wa zana.
+2. Andika `Zungusha` kwenye terminal au bonyeza kitufe cha **Rotate** kwenye upau wa zana.
 3. **Bonyeza nukta ya msingi** — katikati ya kuzungusha. Au andika `X,Y` na ubonyeze **Enter** kwa kuratibu sahihi.
 4. **Andika pembe na ubonyeze Enter**, au **bonyeza** kuweka pembe kutoka kwa mwelekeo wa kishale.
 
 **Washa kwanza, kisha chagua** — anza amri bila chochote kilichochaguliwa:
 
-1. Andika `rotate` au bonyeza kitufe cha upau wa zana.
+1. Andika `Zungusha` au bonyeza kitufe cha upau wa zana.
 2. **Chagua vitu** — bonyeza kubadilisha, au buruta kuchagua kwa eneo.
 3. Bonyeza **Enter** au **Space** kuthibitisha uchaguzi.
 4. **Bonyeza nukta ya msingi** (uingizaji wa kuratibu unapatikana), kisha weka pembe.

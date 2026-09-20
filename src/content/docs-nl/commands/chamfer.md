@@ -8,7 +8,7 @@ order: 12
 
 # Chamfer
 
-Het commando `chamfer` snijdt een rechte diagonale hoek tussen twee [Line](../line/)- of [Polyline](../polyline/)-entiteiten. U geeft op hoever er langs elke entiteit teruggesneden moet worden (d1 en d2), en het commando trimt beide entiteiten tot die punten en voegt daartussen een verbindende lijn in.
+Het commando `Afschuinen` snijdt een rechte diagonale hoek tussen twee [Line](../line/)- of [Polyline](../polyline/)-entiteiten. U geeft op hoever er langs elke entiteit teruggesneden moet worden (d1 en d2), en het commando trimt beide entiteiten tot die punten en voegt daartussen een verbindende lijn in.
 
 Het gebruik van gelijke afstanden levert een symmetrische snede van 45° op; verschillende afstanden leveren een asymmetrische afschuining op.
 
@@ -16,7 +16,7 @@ Chamfer werkt op **Line- en Polyline**-entiteiten.
 
 ## Chamfer gebruiken
 
-1. Typ `chamfer` in de terminal of klik op de werkbalkknop **Chamfer**.
+1. Typ `Afschuinen` in de terminal of klik op de werkbalkknop **Chamfer**.
 2. **Typ de eerste chamferafstand** (d1 — afstand langs de eerste entiteit) en druk op **Enter**.
 3. **Typ de tweede chamferafstand** (d2 — afstand langs de tweede entiteit) en druk op **Enter**.
 4. **Klik op de eerste entiteit** — het deel waarop u klikt, bepaalt welke kant van een eventuele kruising behouden blijft.

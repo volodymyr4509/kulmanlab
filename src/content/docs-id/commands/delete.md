@@ -8,20 +8,20 @@ order: 7
 
 # Delete
 
-Perintah `delete` menghapus entitas yang dipilih dari gambar. Penghapusan dicatat dalam riwayat [Undo](../undo/) dan dapat dibalik hingga 20 langkah. Tidak ada dialog "konfirmasi hapus" terpisah — konfirmasi adalah satu kali penekanan tombol.
+Perintah `Hapus` menghapus entitas yang dipilih dari gambar. Penghapusan dicatat dalam riwayat [Undo](../undo/) dan dapat dibalik hingga 20 langkah. Tidak ada dialog "konfirmasi hapus" terpisah — konfirmasi adalah satu kali penekanan tombol.
 
 ## Dua cara menghapus
 
 **Pra-pilih, lalu hapus** — jalur tercepat:
 
 1. Pilih satu atau lebih entitas di kanvas.
-2. Ketik `delete` di terminal, klik tombol toolbar **Delete**, **atau tekan tombol `Delete`** secara langsung.
+2. Ketik `Hapus` di terminal, klik tombol toolbar **Delete**, **atau tekan tombol `Delete`** secara langsung.
 
 Entitas langsung dihapus — tidak ada langkah konfirmasi tambahan.
 
 **Aktifkan, lalu pilih**:
 
-1. Ketik `delete` atau klik tombol toolbar (tanpa ada yang dipilih).
+1. Ketik `Hapus` atau klik tombol toolbar (tanpa ada yang dipilih).
 2. **Pilih objek** — klik untuk mengalihkan, atau seret untuk memilih berdasarkan area.
 3. Tekan **Enter**, **Space**, atau **Delete** untuk mengonfirmasi dan menghapus entitas yang dipilih.
 
@@ -44,7 +44,7 @@ Klik entitas → tekan tombol Delete → selesai
 
 ## Memulihkan entitas yang dihapus
 
-Penghapusan dapat dibatalkan dengan perintah [Undo](../undo/) (ketik `undo` atau gunakan tombol toolbar). Hingga **20 langkah** dapat dibalik per file, dan riwayat bertahan setelah halaman dimuat ulang. Jika Anda telah melebihi 20 penghapusan tanpa menyimpan, penghapusan sebelumnya tidak dapat dipulihkan.
+Penghapusan dapat dibatalkan dengan perintah [Undo](../undo/) (ketik `BatalkanAksi` atau gunakan tombol toolbar). Hingga **20 langkah** dapat dibalik per file, dan riwayat bertahan setelah halaman dimuat ulang. Jika Anda telah melebihi 20 penghapusan tanpa menyimpan, penghapusan sebelumnya tidak dapat dipulihkan.
 
 ## Entitas yang didukung
 

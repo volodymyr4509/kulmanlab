@@ -7,11 +7,11 @@ order: 1
 
 # Line
 
-Lệnh `line` vẽ các đoạn đường thẳng riêng lẻ được lưu dưới dạng thực thể `LINE` riêng biệt trong mô hình DXF. Sau mỗi đoạn, lệnh vẫn hoạt động và tái sử dụng điểm cuối làm điểm bắt đầu mới, vì vậy bạn có thể xây dựng các đường nối tiếp từng đoạn một. Không giống như [Polyline](../polyline/), các đường thẳng nối tiếp vẫn là thực thể độc lập — mỗi cái có thể được cắt, kéo dài hoặc xóa mà không ảnh hưởng đến các đường lân cận.
+Lệnh `ĐườngThẳng` vẽ các đoạn đường thẳng riêng lẻ được lưu dưới dạng thực thể `LINE` riêng biệt trong mô hình DXF. Sau mỗi đoạn, lệnh vẫn hoạt động và tái sử dụng điểm cuối làm điểm bắt đầu mới, vì vậy bạn có thể xây dựng các đường nối tiếp từng đoạn một. Không giống như [Polyline](../polyline/), các đường thẳng nối tiếp vẫn là thực thể độc lập — mỗi cái có thể được cắt, kéo dài hoặc xóa mà không ảnh hưởng đến các đường lân cận.
 
 ## Vẽ đường thẳng
 
-1. Gõ `line` trong terminal hoặc nhấp nút **Line** trên thanh công cụ.
+1. Gõ `ĐườngThẳng` trong terminal hoặc nhấp nút **Line** trên thanh công cụ.
 2. **Nhấp điểm bắt đầu**, hoặc gõ `X,Y` rồi nhấn **Enter** để nhập tọa độ chính xác.
 3. **Nhấp điểm cuối** — đoạn được đặt và điểm cuối trở thành điểm bắt đầu mới. Có thể nhập tọa độ tương tự.
 4. Tiếp tục nhấp (hoặc gõ) để nối thêm đoạn.

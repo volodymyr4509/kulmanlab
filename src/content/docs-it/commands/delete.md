@@ -8,20 +8,20 @@ order: 7
 
 # Delete
 
-Il comando `delete` rimuove le entità selezionate dal disegno. Le eliminazioni vengono registrate nella cronologia [Undo](../undo/) e possono essere annullate fino a 20 passaggi. Non esiste una finestra di dialogo separata "conferma eliminazione" — la conferma è una singola pressione di tasto.
+Il comando `Cancella` rimuove le entità selezionate dal disegno. Le eliminazioni vengono registrate nella cronologia [Undo](../undo/) e possono essere annullate fino a 20 passaggi. Non esiste una finestra di dialogo separata "conferma eliminazione" — la conferma è una singola pressione di tasto.
 
 ## Due modi per eliminare
 
 **Pre-seleziona, poi elimina** — il percorso più veloce:
 
 1. Seleziona una o più entità sul canvas.
-2. Digita `delete` nel terminale, clicca il pulsante **Delete** nella barra degli strumenti, **oppure premi il tasto `Canc`** direttamente.
+2. Digita `Cancella` nel terminale, clicca il pulsante **Delete** nella barra degli strumenti, **oppure premi il tasto `Canc`** direttamente.
 
 Le entità vengono rimosse immediatamente — nessun passaggio di conferma aggiuntivo.
 
 **Attiva, poi seleziona**:
 
-1. Digita `delete` o clicca il pulsante nella barra degli strumenti (senza nulla selezionato).
+1. Digita `Cancella` o clicca il pulsante nella barra degli strumenti (senza nulla selezionato).
 2. **Seleziona gli oggetti** — clicca per attivare/disattivare, o trascina per selezionare per area.
 3. Premi **Invio**, **Spazio**, o **Canc** per confermare e rimuovere le entità selezionate.
 
@@ -44,7 +44,7 @@ Clicca entità → premi Canc → fatto
 
 ## Recupero delle entità eliminate
 
-Le eliminazioni sono annullabili con il comando [Undo](../undo/) (digita `undo` o usa il pulsante nella barra degli strumenti). È possibile annullare fino a **20 passaggi** per file, e la cronologia persiste tra i ricaricamenti della pagina. Se hai superato 20 eliminazioni senza salvare, le eliminazioni precedenti non possono essere recuperate.
+Le eliminazioni sono annullabili con il comando [Undo](../undo/) (digita `Annulla` o usa il pulsante nella barra degli strumenti). È possibile annullare fino a **20 passaggi** per file, e la cronologia persiste tra i ricaricamenti della pagina. Se hai superato 20 eliminazioni senza salvare, le eliminazioni precedenti non possono essere recuperate.
 
 ## Entità supportate
 

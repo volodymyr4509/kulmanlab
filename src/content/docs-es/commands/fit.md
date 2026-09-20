@@ -8,11 +8,11 @@ order: 4
 
 # Fit
 
-El comando `fit` calcula el cuadro delimitador de todas las entidades del dibujo y ajusta tanto el nivel de zoom como la posición de desplazamiento para que todas las entidades sean visibles con un pequeño margen. Es la forma más rápida de recuperar una vista perdida u orientarse después de importar un archivo DXF.
+El comando `Ajustar` calcula el cuadro delimitador de todas las entidades del dibujo y ajusta tanto el nivel de zoom como la posición de desplazamiento para que todas las entidades sean visibles con un pequeño margen. Es la forma más rápida de recuperar una vista perdida u orientarse después de importar un archivo DXF.
 
 ## Ajustar la vista
 
-Haz clic en el botón **Fit** de la barra de herramientas o escribe `fit` en el terminal. La vista se ajusta inmediatamente y el comando termina — no se requiere interacción.
+Haz clic en el botón **Fit** de la barra de herramientas o escribe `Ajustar` en el terminal. La vista se ajusta inmediatamente y el comando termina — no se requiere interacción.
 
 **Hacer doble clic con el botón central del ratón** activa la misma operación Fit en cualquier momento sin activar ningún comando — el atajo más rápido para restablecer una vista perdida a mitad de un dibujo.
 

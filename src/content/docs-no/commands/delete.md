@@ -8,20 +8,20 @@ order: 7
 
 # Delete
 
-Kommandoen `delete` fjerner markerte entiteter fra tegningen. Slettinger registreres i [Undo](../undo/)-historikken og kan angres i opptil 20 steg. Det finnes ingen egen "bekreft sletting"-dialog — bekreftelse er ett enkelt tastetrykk.
+Kommandoen `Slett` fjerner markerte entiteter fra tegningen. Slettinger registreres i [Undo](../undo/)-historikken og kan angres i opptil 20 steg. Det finnes ingen egen "bekreft sletting"-dialog — bekreftelse er ett enkelt tastetrykk.
 
 ## To måter å slette på
 
 **Marker først, deretter slett** — den raskeste veien:
 
 1. Marker én eller flere entiteter på lerretet.
-2. Skriv `delete` i terminalen, klikk på **Delete**-knappen i verktøylinjen, **eller trykk `Delete`-tasten** direkte.
+2. Skriv `Slett` i terminalen, klikk på **Delete**-knappen i verktøylinjen, **eller trykk `Delete`-tasten** direkte.
 
 Entiteter fjernes øyeblikkelig — ikke noe ekstra bekreftelsessteg.
 
 **Aktiver, marker deretter**:
 
-1. Skriv `delete` eller klikk på verktøylinjeknappen (uten noe markert).
+1. Skriv `Slett` eller klikk på verktøylinjeknappen (uten noe markert).
 2. **Marker objekter** — klikk for å slå av/på, eller dra for å markere etter område.
 3. Trykk **Enter**, **Space** eller **Delete** for å bekrefte og fjerne de markerte entitetene.
 
@@ -44,7 +44,7 @@ Klikk entitet → trykk Delete-tasten → ferdig
 
 ## Gjenopprette slettede entiteter
 
-Slettinger kan angres med [Undo](../undo/)-kommandoen (skriv `undo` eller bruk verktøylinjeknappen). Opptil **20 steg** kan angres per fil, og historikken lagres på tvers av sideinnlastinger. Hvis du har overskredet 20 slettinger uten å lagre, kan tidligere slettinger ikke gjenopprettes.
+Slettinger kan angres med [Undo](../undo/)-kommandoen (skriv `Angre` eller bruk verktøylinjeknappen). Opptil **20 steg** kan angres per fil, og historikken lagres på tvers av sideinnlastinger. Hvis du har overskredet 20 slettinger uten å lagre, kan tidligere slettinger ikke gjenopprettes.
 
 ## Støttede entiteter
 

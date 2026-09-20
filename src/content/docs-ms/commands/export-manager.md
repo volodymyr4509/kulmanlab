@@ -8,11 +8,11 @@ order: 6
 
 # Export Manager
 
-Perintah `exportmanager` memuat turun lukisan semasa ke sistem fail anda. Dua format bersebelahan — **DXF** untuk keserasian dengan alat CAD lain dan **JSON** untuk simpanan penuh dalam KulmanLab CAD — dan setiap satu ada senarai semaknya sendiri tentang apa yang dimasukkan ke dalam fail.
+Perintah `PengurusEksport` memuat turun lukisan semasa ke sistem fail anda. Dua format bersebelahan — **DXF** untuk keserasian dengan alat CAD lain dan **JSON** untuk simpanan penuh dalam KulmanLab CAD — dan setiap satu ada senarai semaknya sendiri tentang apa yang dimasukkan ke dalam fail.
 
 ## Cara mengeksport
 
-1. Klik butang bar alat **Export** (ikon muat turun) dalam panel fail, atau taip `exportmanager` dalam terminal.
+1. Klik butang bar alat **Export** (ikon muat turun) dalam panel fail, atau taip `PengurusEksport` dalam terminal.
 2. Tetingkap **Export Manager** terbuka dengan dua lajur, **JSON** dan **DXF**, setiap satu menyenaraikan jenis entiti lukisan dengan kotak tanda dan kiraan.
 3. Nyahtanda apa yang anda mahu tinggalkan. Semuanya bertanda pada mulanya.
 4. Klik **Export JSON** atau **Export DXF**. Fail dimuat turun ke folder muat turun lalai anda dan tetingkap ditutup.

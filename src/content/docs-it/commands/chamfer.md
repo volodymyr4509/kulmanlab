@@ -8,7 +8,7 @@ order: 12
 
 # Chamfer
 
-Il comando `chamfer` taglia un angolo diagonale retto tra due entità [Line](../line/) o [Polyline](../polyline/). Si specifica quanto tagliare lungo ciascuna entità (d1 e d2), e il comando taglia entrambe le entità a quei punti e inserisce una linea di collegamento tra loro.
+Il comando `Cima` taglia un angolo diagonale retto tra due entità [Line](../line/) o [Polyline](../polyline/). Si specifica quanto tagliare lungo ciascuna entità (d1 e d2), e il comando taglia entrambe le entità a quei punti e inserisce una linea di collegamento tra loro.
 
 L'uso di distanze uguali produce un taglio simmetrico a 45°; distanze diverse producono uno smusso asimmetrico.
 
@@ -16,7 +16,7 @@ Chamfer funziona su entità **Line e Polyline**.
 
 ## Usare chamfer
 
-1. Digita `chamfer` nel terminale o clicca il pulsante **Chamfer** nella barra degli strumenti.
+1. Digita `Cima` nel terminale o clicca il pulsante **Chamfer** nella barra degli strumenti.
 2. **Digita la prima distanza di smusso** (d1 — distanza lungo la prima entità) e premi **Invio**.
 3. **Digita la seconda distanza di smusso** (d2 — distanza lungo la seconda entità) e premi **Invio**.
 4. **Clicca la prima entità** — la porzione che clicchi determina quale lato dell'intersezione viene mantenuto.

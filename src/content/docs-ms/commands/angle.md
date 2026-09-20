@@ -8,7 +8,7 @@ order: 2
 
 # Angle
 
-Arahan `angle` mengukur sudut dalam di bucu yang dibentuk oleh dua segmen garis melalui tiga titik yang diklik. Hasilnya — sentiasa antara 0° dan 180° — dipaparkan dalam terminal kepada 4 titik perpuluhan. Ia adalah salah satu daripada tiga arahan pengukuran — [Distance](../distance/) mengukur panjang garis lurus, dan [Area](../area/) mengukur luas dan perimeter poligon tertutup.
+Arahan `Sudut` mengukur sudut dalam di bucu yang dibentuk oleh dua segmen garis melalui tiga titik yang diklik. Hasilnya — sentiasa antara 0° dan 180° — dipaparkan dalam terminal kepada 4 titik perpuluhan. Ia adalah salah satu daripada tiga arahan pengukuran — [Distance](../distance/) mengukur panjang garis lurus, dan [Area](../area/) mengukur luas dan perimeter poligon tertutup.
 
 ## Anatomi pengukuran sudut
 
@@ -30,7 +30,7 @@ Arahan `angle` mengukur sudut dalam di bucu yang dibentuk oleh dua segmen garis 
 
 ## Mengukur sudut
 
-1. Taip `angle` dalam terminal atau klik butang bar alat **Angle**.
+1. Taip `Sudut` dalam terminal atau klik butang bar alat **Angle**.
 2. **Klik titik pertama** — satu hujung lengan sudut. Atau taip `X,Y` dan tekan **Enter** untuk koordinat tepat.
 3. **Klik bucu** — sudut di mana dua lengan bertemu. Kemasukan koordinat juga berfungsi di sini.
 4. **Klik titik ketiga** — hujung lengan kedua. Kemasukan koordinat juga berfungsi di sini. Meletakkan titik ini mencetak hasilnya.

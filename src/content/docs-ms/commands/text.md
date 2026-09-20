@@ -8,13 +8,13 @@ order: 0
 
 # Text
 
-Arahan `text` meletakkan label teks berbilang baris. Selepas anda mengklik kedudukan pada kanvas, editor popup terbuka dalam mod **kaya** — anda boleh menaip kandungan, menggunakan tebal/italik/garis bawah/strikethrough setiap aksara, menukar fon dan ketinggian, dan memasukkan pemecahan baris. Tekan **Escape** untuk komit dan tutup editor.
+Arahan `Teks` meletakkan label teks berbilang baris. Selepas anda mengklik kedudukan pada kanvas, editor popup terbuka dalam mod **kaya** — anda boleh menaip kandungan, menggunakan tebal/italik/garis bawah/strikethrough setiap aksara, menukar fon dan ketinggian, dan memasukkan pemecahan baris. Tekan **Escape** untuk komit dan tutup editor.
 
 Lihat halaman [Text Editor](../../interface/text-editor/) untuk rujukan editor penuh, termasuk perbandingan mod **kaya** dan **mudah**.
 
 ## Meletakkan label teks
 
-1. Taip `text` dalam terminal atau klik butang bar alat **Text**.
+1. Taip `Teks` dalam terminal atau klik butang bar alat **Text**.
 2. **Klik kedudukan sauh** pada kanvas. Atau taip `X,Y` dan tekan **Enter** untuk koordinat tepat.
 3. **Popup editor teks** terbuka di atas label baharu. Taip kandungan anda.
 4. Tekan **Escape** untuk komit label dan tutup editor.

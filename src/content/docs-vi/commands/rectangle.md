@@ -7,11 +7,11 @@ order: 3
 
 # Rectangle
 
-Lệnh `rectangle` vẽ một hình chữ nhật căn chỉnh trục được xác định bởi hai lần nhấp góc đối diện. Kết quả được lưu dưới dạng **`LWPOLYLINE` đóng** với bốn đỉnh — một ở mỗi góc. Không có loại thực thể hình chữ nhật riêng biệt: sau khi tạo, hình dạng hoạt động chính xác như bất kỳ [Polyline](../polyline/) nào khác và mọi lệnh chỉnh sửa đường đa đoạn đều áp dụng cho nó.
+Lệnh `HìnhChữNhật` vẽ một hình chữ nhật căn chỉnh trục được xác định bởi hai lần nhấp góc đối diện. Kết quả được lưu dưới dạng **`LWPOLYLINE` đóng** với bốn đỉnh — một ở mỗi góc. Không có loại thực thể hình chữ nhật riêng biệt: sau khi tạo, hình dạng hoạt động chính xác như bất kỳ [Polyline](../polyline/) nào khác và mọi lệnh chỉnh sửa đường đa đoạn đều áp dụng cho nó.
 
 ## Vẽ hình chữ nhật
 
-1. Gõ `rectangle` trong terminal hoặc nhấp nút **Rectangle** trên thanh công cụ.
+1. Gõ `HìnhChữNhật` trong terminal hoặc nhấp nút **Rectangle** trên thanh công cụ.
 2. **Nhấp góc đầu tiên**, hoặc gõ `X,Y` rồi nhấn **Enter** để nhập tọa độ chính xác.
 3. **Nhấp góc đối diện** — hình chữ nhật được đặt ngay lập tức và lệnh kết thúc. Hoặc nhấn `D` để thay vào đó nhập chiều rộng và chiều cao chính xác — xem [Nhập kích thước](#nhập-kích-thước) bên dưới.
 

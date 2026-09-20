@@ -8,20 +8,20 @@ order: 2
 
 # Copy
 
-El comando `copy` crea duplicados trasladados de las entidades seleccionadas y los coloca desplazados desde un punto base hasta un destino — los originales permanecen exactamente donde están. Esta es la diferencia clave con [Move](../move/): Copy agrega nuevas entidades al dibujo; Move reubica las existentes.
+El comando `Copiar` crea duplicados trasladados de las entidades seleccionadas y los coloca desplazados desde un punto base hasta un destino — los originales permanecen exactamente donde están. Esta es la diferencia clave con [Move](../move/): Copy agrega nuevas entidades al dibujo; Move reubica las existentes.
 
 ## Dos formas de iniciar
 
 **Preseleccionar, luego copiar** — selecciona primero las entidades, luego activa:
 
 1. Selecciona una o más entidades en el lienzo.
-2. Escribe `copy` en el terminal o haz clic en el botón **Copy** de la barra de herramientas.
+2. Escribe `Copiar` en el terminal o haz clic en el botón **Copy** de la barra de herramientas.
 3. **Haz clic en el punto base**, o escribe `X,Y` y presiona **Enter** para una coordenada exacta.
 4. **Haz clic en el destino** — los duplicados aparecen en el desplazamiento base→destino. La entrada de coordenadas también funciona aquí.
 
 **Activar, luego seleccionar** — inicia el comando sin nada seleccionado:
 
-1. Escribe `copy` o haz clic en el botón de la barra de herramientas.
+1. Escribe `Copiar` o haz clic en el botón de la barra de herramientas.
 2. **Selecciona objetos** — haz clic para alternar entidades individuales, o arrastra para seleccionar por área.
 3. Presiona **Enter** o **Space** para confirmar la selección.
 4. **Haz clic en el punto base**, luego **haz clic en el destino** (la entrada de coordenadas está disponible en ambos pasos).

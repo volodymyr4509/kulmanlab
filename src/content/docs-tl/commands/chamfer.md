@@ -8,7 +8,7 @@ order: 12
 
 # Chamfer
 
-Pumuputol ang `chamfer` command ng straight diagonal na sulok sa pagitan ng dalawang [Line](../line/) o [Polyline](../polyline/) entities. Itinatakda mo kung gaano kalayo ang puputulin pabalik sa bawat entity (d1 at d2), at trinim ng command ang pareho hanggang sa mga puntong iyon at isinisingit ang connecting line sa pagitan nila.
+Pumuputol ang `Tapyasin` command ng straight diagonal na sulok sa pagitan ng dalawang [Line](../line/) o [Polyline](../polyline/) entities. Itinatakda mo kung gaano kalayo ang puputulin pabalik sa bawat entity (d1 at d2), at trinim ng command ang pareho hanggang sa mga puntong iyon at isinisingit ang connecting line sa pagitan nila.
 
 Ang paggamit ng pantay na distansya ay gumagawa ng symmetric na 45° cut; ang magkaibang distansya ay gumagawa ng asymmetric na bevel.
 
@@ -16,7 +16,7 @@ Gumagana ang Chamfer sa **Line at Polyline** entities.
 
 ## Paggamit ng Chamfer
 
-1. I-type ang `chamfer` sa terminal o i-click ang **Chamfer** button sa toolbar.
+1. I-type ang `Tapyasin` sa terminal o i-click ang **Chamfer** button sa toolbar.
 2. **I-type ang unang chamfer distance** (d1 — distansya sa unang entity) at pindutin ang **Enter**.
 3. **I-type ang ikalawang chamfer distance** (d2 — distansya sa ikalawang entity) at pindutin ang **Enter**.
 4. **I-click ang unang entity** — ang bahaging kinlik-an mo ang nagtatakda kung aling side ng intersection ang mapapanatili.

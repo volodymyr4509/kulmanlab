@@ -8,11 +8,11 @@ order: 5
 
 # ChangePrintArea
 
-Perintah `ChangePrintArea` menetapkan kawasan segi empat tepat yang dieksport oleh [Print Manager](../print-manager/). Ia berjalan pada kanvas kosong dengan Print Manager tersembunyi dan menerima dua sudut bertentangan — dua klik yang sama seperti [Rectangle](../rectangle/), jadi koordinat yang ditaip dan snap berkelakuan sama.
+Perintah `UbahKawasanCetak` menetapkan kawasan segi empat tepat yang dieksport oleh [Print Manager](../print-manager/). Ia berjalan pada kanvas kosong dengan Print Manager tersembunyi dan menerima dua sudut bertentangan — dua klik yang sama seperti [Rectangle](../rectangle/), jadi koordinat yang ditaip dan snap berkelakuan sama.
 
 ## Memilih kawasan
 
-1. Taip `ChangePrintArea` dalam terminal, atau klik **Change Area** pada bar sisi Print Manager. Print Manager tersembunyi dan kanvas menjadi interaktif.
+1. Taip `UbahKawasanCetak` dalam terminal, atau klik **Change Area** pada bar sisi Print Manager. Print Manager tersembunyi dan kanvas menjadi interaktif.
 2. **Klik sudut pertama**, atau taip `X,Y` dan tekan **Enter** untuk koordinat tepat.
 3. **Klik sudut bertentangan**, atau taip `X,Y` sekali lagi.
 

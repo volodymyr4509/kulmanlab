@@ -8,11 +8,11 @@ order: 5
 
 # Arc
 
-Lệnh `arc` vẽ cung tròn qua ba điểm bạn bấm. Cung được tính toán là circumcircle duy nhất đi qua cả ba điểm — không cần chỉ định tâm hay bán kính trực tiếp. Cung chạy từ lần bấm đầu tiên đến lần bấm thứ ba, đi qua điểm thứ hai.
+Lệnh `CungTròn` vẽ cung tròn qua ba điểm bạn bấm. Cung được tính toán là circumcircle duy nhất đi qua cả ba điểm — không cần chỉ định tâm hay bán kính trực tiếp. Cung chạy từ lần bấm đầu tiên đến lần bấm thứ ba, đi qua điểm thứ hai.
 
 ## Vẽ Cung
 
-1. Nhập `arc` trong terminal hoặc bấm nút **Arc** trên thanh công cụ.
+1. Nhập `CungTròn` trong terminal hoặc bấm nút **Arc** trên thanh công cụ.
 2. **Bấm điểm đầu tiên** — một đầu của cung. Hoặc nhập `X,Y` và nhấn **Enter** cho tọa độ chính xác.
 3. **Bấm điểm thứ hai** — điểm mà cung phải đi qua (kiểm soát độ cong và hướng). Nhập tọa độ cũng được.
 4. **Bấm điểm thứ ba** — đầu kia của cung. Cung được đặt và lệnh kết thúc. Nhập tọa độ cũng được.

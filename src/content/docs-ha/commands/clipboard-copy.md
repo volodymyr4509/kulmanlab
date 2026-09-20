@@ -8,7 +8,7 @@ order: 17
 
 # ClipboardCopy
 
-Umarnin `ClipboardCopy` yana rubuta abubuwan da aka zaɓa a kan **allon kwafe na tsarinka** a matsayin rubutun JSON. Tunda yana amfani da allon kwafe na gaske ba wani ma'ajiyar wucin gadi ba, siffofin da aka kwafe suna rayuwa a wajen zanen: manna su a wani fayil, shafin burauza na biyu, ko taga da za ka buɗe daga baya ta amfani da [ClipboardPaste](../clipboard-paste/).
+Umarnin `KwafaZuwaAllo` yana rubuta abubuwan da aka zaɓa a kan **allon kwafe na tsarinka** a matsayin rubutun JSON. Tunda yana amfani da allon kwafe na gaske ba wani ma'ajiyar wucin gadi ba, siffofin da aka kwafe suna rayuwa a wajen zanen: manna su a wani fayil, shafin burauza na biyu, ko taga da za ka buɗe daga baya ta amfani da [ClipboardPaste](../clipboard-paste/).
 
 Wannan ita ce bambancin da [Copy](../copy/): Copy yana ninka abubuwa a cikin zanen da ake kai a mataki ɗaya, yayin da ClipboardCopy ke ajiye su inda za a iya ɗauko su daga wani zane dabam gaba ɗaya.
 
@@ -17,12 +17,12 @@ Wannan ita ce bambancin da [Copy](../copy/): Copy yana ninka abubuwa a cikin zan
 **Zaɓa da farko, sannan ka kwafe** — hanya mai sauri:
 
 1. Zaɓi abu ɗaya ko fiye a kan filin zane.
-2. Danna `Ctrl+C` (`Cmd+C` a macOS), ko ka rubuta `ClipboardCopy` a tashar umarni.
+2. Danna `Ctrl+C` (`Cmd+C` a macOS), ko ka rubuta `KwafaZuwaAllo` a tashar umarni.
 3. Ana rubuta abubuwan a allon kwafe nan take kuma umarnin ya ƙare.
 
 **Kunna da farko, sannan ka zaɓa** — farawa ba tare da an zaɓi komai ba:
 
-1. Danna `Ctrl+C` ko ka rubuta `ClipboardCopy` yayin da babu abin da aka zaɓa.
+1. Danna `Ctrl+C` ko ka rubuta `KwafaZuwaAllo` yayin da babu abin da aka zaɓa.
 2. Umarnin yana nuna **pick objects to copy — Enter or Space to confirm**.
 3. **Zaɓi abubuwa** — danna don shigar da abu ɗaya cikin zaɓi ko fitar da shi, ko ja don zaɓa ta yanki.
 4. Danna **Enter** ko **Space** don kwafe zaɓin sannan ka fita.

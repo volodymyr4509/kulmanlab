@@ -8,11 +8,11 @@ order: 18
 
 # ClipboardPaste
 
-Perintah `ClipboardPaste` membaca entitas yang ditulis [ClipboardCopy](../clipboard-copy/) ke **papan klip sistem** dan menempatkannya di gambar yang sedang aktif pada titik yang Anda pilih. Karena papan klipnya adalah papan klip sistem yang sebenarnya, sumbernya bisa berupa gambar lain, tab peramban lain, atau sesi dari beberapa jam sebelumnya.
+Perintah `TempelDariPapanKlip` membaca entitas yang ditulis [ClipboardCopy](../clipboard-copy/) ke **papan klip sistem** dan menempatkannya di gambar yang sedang aktif pada titik yang Anda pilih. Karena papan klipnya adalah papan klip sistem yang sebenarnya, sumbernya bisa berupa gambar lain, tab peramban lain, atau sesi dari beberapa jam sebelumnya.
 
 ## Cara menempel
 
-1. Tekan `Ctrl+V` (`Cmd+V` di macOS), atau ketik `ClipboardPaste` di terminal.
+1. Tekan `Ctrl+V` (`Cmd+V` di macOS), atau ketik `TempelDariPapanKlip` di terminal.
 2. Prompt menampilkan **reading clipboard…** selagi peramban menyerahkan teks papan klip.
 3. Setelah dimuat, prompt berubah menjadi **pick insertion point** dan pratinjau geometri mengikuti kursor Anda.
 4. **Klik** untuk menempatkan entitas. Entitas ditambahkan ke gambar dan tetap terpilih.

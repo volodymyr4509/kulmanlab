@@ -8,7 +8,7 @@ order: 12
 
 # Chamfer
 
-O comando `chamfer` corta um canto diagonal reto entre duas entidades [Line](../line/) ou [Polyline](../polyline/). Você especifica quanto cortar ao longo de cada entidade (d1 e d2), e o comando corta ambas as entidades nesses pontos e insere uma linha de ligação entre elas.
+O comando `Chanfrar` corta um canto diagonal reto entre duas entidades [Line](../line/) ou [Polyline](../polyline/). Você especifica quanto cortar ao longo de cada entidade (d1 e d2), e o comando corta ambas as entidades nesses pontos e insere uma linha de ligação entre elas.
 
 Usar distâncias iguais produz um corte simétrico a 45°; distâncias diferentes produzem um chanfro assimétrico.
 
@@ -16,7 +16,7 @@ O Chamfer funciona em entidades **Line e Polyline**.
 
 ## Usar chamfer
 
-1. Digite `chamfer` no terminal ou clique no botão **Chamfer** na barra de ferramentas.
+1. Digite `Chanfrar` no terminal ou clique no botão **Chamfer** na barra de ferramentas.
 2. **Digite a primeira distância de chanfro** (d1 — distância ao longo da primeira entidade) e pressione **Enter**.
 3. **Digite a segunda distância de chanfro** (d2 — distância ao longo da segunda entidade) e pressione **Enter**.
 4. **Clique na primeira entidade** — a porção que você clica determina qual lado de qualquer interseção é mantido.

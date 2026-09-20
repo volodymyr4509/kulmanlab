@@ -8,11 +8,11 @@ order: 9
 
 # Spline Fit
 
-Polecenie `splinefit` rysuje sześcienny splajn przechodzący przez każdy kliknięty punkt — krzywą interpolującą. W odróżnieniu od [Spline CV](../spline-cv/), gdzie krzywa jest tylko przyciągana do wierzchołków kontrolnych, tutaj krzywa jest zmuszana do trafienia w każdą klikniętą współrzędną dokładnie. Wewnętrznie edytor dopasowuje wierzchołki kontrolne, aby to osiągnąć, a te CV są przechowywane obok punktów dopasowania w pliku DXF.
+Polecenie `SplajnPunkty` rysuje sześcienny splajn przechodzący przez każdy kliknięty punkt — krzywą interpolującą. W odróżnieniu od [Spline CV](../spline-cv/), gdzie krzywa jest tylko przyciągana do wierzchołków kontrolnych, tutaj krzywa jest zmuszana do trafienia w każdą klikniętą współrzędną dokładnie. Wewnętrznie edytor dopasowuje wierzchołki kontrolne, aby to osiągnąć, a te CV są przechowywane obok punktów dopasowania w pliku DXF.
 
 ## Rysowanie splajnu przez punkty dopasowania
 
-1. Wpisz `splinefit` w terminalu lub kliknij przycisk **Splajn Fit** na pasku narzędzi.
+1. Wpisz `SplajnPunkty` w terminalu lub kliknij przycisk **Splajn Fit** na pasku narzędzi.
 2. **Kliknij, aby umieścić punkty dopasowania** — krzywa będzie przez każdy przechodzić. Lub wpisz `X,Y` i naciśnij **Enter** dla dokładnej współrzędnej.
 3. Naciśnij **Enter** lub **Spację**, aby zakończyć (wymagane co najmniej 2 punkty).
 

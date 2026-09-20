@@ -8,11 +8,11 @@ order: 3
 
 # LeaderRemove
 
-Komento `LeaderRemove` poistaa yhden nuolenkärkihaaran olemassa olevasta multileaderista. Tekstimerkintä, dogleg ja kaikki jäljellä olevat haarat säilyvät — vain valittu haara poistetaan. Multileaderista, jossa on vain yksi haara, ei voida poistaa sen haaraa.
+Komento `PoistaViitenuolenHaara` poistaa yhden nuolenkärkihaaran olemassa olevasta multileaderista. Tekstimerkintä, dogleg ja kaikki jäljellä olevat haarat säilyvät — vain valittu haara poistetaan. Multileaderista, jossa on vain yksi haara, ei voida poistaa sen haaraa.
 
 ## Haaran poistaminen
 
-1. Kirjoita `LeaderRemove` terminaaliin.
+1. Kirjoita `PoistaViitenuolenHaara` terminaaliin.
 2. **Napsauta multileaderia**, jossa on kaksi tai useampi haara. Jos napsautetulla johtimella on vain yksi haara, terminaali näyttää virheen ja odottaa kelvollista valintaa.
 3. **Siirrä kohdistin lähelle haaraa**, jonka haluat poistaa — lähin haara korostuu merkillä.
 4. **Napsauta** poistaaksesi kyseisen haaran.

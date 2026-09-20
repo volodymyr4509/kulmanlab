@@ -7,11 +7,11 @@ order: 13
 
 # Undo
 
-Lệnh `undo` đảo ngược thay đổi cuối cùng trong bản vẽ — một bước mỗi lần gọi. Mỗi lần thêm, xóa hoặc chỉnh sửa thực thể được ghi lại là một mục lịch sử riêng biệt. Undo lùi lại qua các mục này theo thứ tự ngược lại.
+Lệnh `HoànTác` đảo ngược thay đổi cuối cùng trong bản vẽ — một bước mỗi lần gọi. Mỗi lần thêm, xóa hoặc chỉnh sửa thực thể được ghi lại là một mục lịch sử riêng biệt. Undo lùi lại qua các mục này theo thứ tự ngược lại.
 
 ## Cách hoàn tác
 
-- Gõ `undo` trong terminal, hoặc
+- Gõ `HoànTác` trong terminal, hoặc
 - Nhấp nút **Undo** trên thanh công cụ.
 
 Mỗi lần gọi đảo ngược một hành động đã ghi. Gọi nhiều lần để lùi xa hơn.

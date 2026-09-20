@@ -8,11 +8,11 @@ order: 5
 
 # Arc
 
-Ginuguhit ng `arc` command ang circular arc sa pamamagitan ng tatlong punto na iyong ni-click. Kinakalkula ang arc bilang natatanging circumcircle na dumadaan sa lahat ng tatlong punto — hindi na kailangang direktang magtakda ng center o radius. Ang arc ay tumatakbo mula sa unang click papunta sa ikatlong click, dumadaan sa ikalawa.
+Ginuguhit ng `Arko` command ang circular arc sa pamamagitan ng tatlong punto na iyong ni-click. Kinakalkula ang arc bilang natatanging circumcircle na dumadaan sa lahat ng tatlong punto — hindi na kailangang direktang magtakda ng center o radius. Ang arc ay tumatakbo mula sa unang click papunta sa ikatlong click, dumadaan sa ikalawa.
 
 ## Pagguhit ng Arc
 
-1. I-type ang `arc` sa terminal o i-click ang **Arc** button sa toolbar.
+1. I-type ang `Arko` sa terminal o i-click ang **Arc** button sa toolbar.
 2. **I-click ang unang punto** — isang dulo ng arc. O i-type ang `X,Y` at pindutin ang **Enter** para sa eksaktong coordinate.
 3. **I-click ang pangalawang punto** — isang punto na dapat dumaanan ng arc (kumokontrol sa curvature at direksyon). Gumagana rin dito ang coordinate entry.
 4. **I-click ang ikatlong punto** — ang kabilang dulo ng arc. Mailalagay ang arc at magsasara ang command. Gumagana rin dito ang coordinate entry.

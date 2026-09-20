@@ -8,11 +8,11 @@ order: 6
 
 # Ellipse
 
-Amri ya `ellipse` huchora duaradufu kwa kutumia mibonyezo mitatu: pointi ya kituo, mwisho wa nusu-mhimili wa kwanza (mkubwa) kwa pembe yoyote, na urefu wa nusu-mhimili wa pili (mdogo). Mihimili miwili daima iko perpendicular kwa kila mmoja — mwelekeo wa mhimili wa pili hupatikana kiotomatiki kutoka wa kwanza.
+Amri ya `Duaradufu` huchora duaradufu kwa kutumia mibonyezo mitatu: pointi ya kituo, mwisho wa nusu-mhimili wa kwanza (mkubwa) kwa pembe yoyote, na urefu wa nusu-mhimili wa pili (mdogo). Mihimili miwili daima iko perpendicular kwa kila mmoja — mwelekeo wa mhimili wa pili hupatikana kiotomatiki kutoka wa kwanza.
 
 ## Kuchora duaradufu
 
-1. Andika `ellipse` kwenye terminal au bonyeza kitufe cha **Ellipse** kwenye upau wa zana.
+1. Andika `Duaradufu` kwenye terminal au bonyeza kitufe cha **Ellipse** kwenye upau wa zana.
 2. **Bonyeza pointi ya kituo**, au andika `X,Y` na ubonyeze **Enter** kwa uratibu sahihi.
 3. **Bonyeza mwisho wa mhimili wa kwanza** — huweka mwelekeo na urefu wa nusu-mhimili wa kwanza. Uingizaji wa uratibu unafanya kazi hapa pia.
 4. **Weka urefu wa mhimili wa pili** — sogeza kishale perpendicular kwa mhimili wa kwanza, kisha bonyeza au andika urefu.

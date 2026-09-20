@@ -8,11 +8,11 @@ order: 2
 
 # Zoom In
 
-El comando `zoomin` multiplica el nivel de zoom actual por **1,5×** y sale inmediatamente, centrado en el punto medio de la ventana gráfica. Es el equivalente en la barra de herramientas de un tick de rueda del ratón con zoom hacia el centro de la pantalla en lugar de hacia el cursor.
+El comando `Acercar` multiplica el nivel de zoom actual por **1,5×** y sale inmediatamente, centrado en el punto medio de la ventana gráfica. Es el equivalente en la barra de herramientas de un tick de rueda del ratón con zoom hacia el centro de la pantalla en lugar de hacia el cursor.
 
 ## Hacer zoom de acercamiento
 
-Haz clic en el botón de la barra de herramientas **Zoom In** o escribe `zoomin` en el terminal. El zoom se aplica instantáneamente y el comando sale — no se requiere clic en el lienzo.
+Haz clic en el botón de la barra de herramientas **Zoom In** o escribe `Acercar` en el terminal. El zoom se aplica instantáneamente y el comando sale — no se requiere clic en el lienzo.
 
 ## Cómo funciona el paso de 1,5×
 

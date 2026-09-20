@@ -8,11 +8,11 @@ order: 1
 
 # Pan
 
-Komento `pan` siirtyy pysyvään vedä-vierittääksesi-tilaan — napsauta ja vedä missä tahansa piirtoalueella siirtääksesi näkymää. Zoomtaso pysyy muuttumattomana. Pan-tila pysyy aktiivisena, kunnes painat `Escape`, joten voit vetää useita kertoja yhden aktivoinnin aikana.
+Komento `Panoroi` siirtyy pysyvään vedä-vierittääksesi-tilaan — napsauta ja vedä missä tahansa piirtoalueella siirtääksesi näkymää. Zoomtaso pysyy muuttumattomana. Pan-tila pysyy aktiivisena, kunnes painat `Escape`, joten voit vetää useita kertoja yhden aktivoinnin aikana.
 
 ## Näkymän panorointi
 
-1. Kirjoita `pan` terminaaliin tai napsauta **Pan**-painiketta työkalurivillä.
+1. Kirjoita `Panoroi` terminaaliin tai napsauta **Pan**-painiketta työkalurivillä.
 2. **Napsauta ja vedä** missä tahansa piirtoalueella siirtääksesi näkymää.
 3. Vapauta ja vedä uudelleen niin monta kertaa kuin tarvitset.
 4. Paina `Escape` poistuaksesi pan-tilasta.

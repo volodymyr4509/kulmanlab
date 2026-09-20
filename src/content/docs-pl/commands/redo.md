@@ -8,11 +8,11 @@ order: 14
 
 # Redo
 
-Polecenie `redo` przesuwa się do przodu przez historię cofnięć, ponownie stosując akcje odwrócone przez [Undo](../undo/). Ponów jest dostępne tylko gdy cofnąłeś się z Cofnij i nie wykonałeś jeszcze nowej zmiany.
+Polecenie `PonówAkcję` przesuwa się do przodu przez historię cofnięć, ponownie stosując akcje odwrócone przez [Undo](../undo/). Ponów jest dostępne tylko gdy cofnąłeś się z Cofnij i nie wykonałeś jeszcze nowej zmiany.
 
 ## Jak ponowić
 
-- Wpisz `redo` w terminalu, lub
+- Wpisz `PonówAkcję` w terminalu, lub
 - Kliknij przycisk **Ponów** na pasku narzędzi.
 
 Każde wywołanie ponownie stosuje jedną wcześniej cofniętą akcję. Wywołuj wielokrotnie, aby przejść do przodu przez wszystkie dostępne wpisy ponów.

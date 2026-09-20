@@ -8,11 +8,11 @@ order: 5
 
 # LayerUnfreezeAll
 
-Kommandoen `LayerUnfreezeAll` fjerner det frosne flagget på **hvert lag** i tegningen umiddelbart. Ingen markering eller bekreftelse nødvendig — den kjører og fullføres i ett steg.
+Kommandoen `LagTinAlle` fjerner det frosne flagget på **hvert lag** i tegningen umiddelbart. Ingen markering eller bekreftelse nødvendig — den kjører og fullføres i ett steg.
 
 ## Bruk
 
-Skriv `LayerUnfreezeAll` i terminalen eller klikk på **Unfreeze All**-knappen i verktøylinjen (solikon). Alle frosne lag blir synlige umiddelbart.
+Skriv `LagTinAlle` i terminalen eller klikk på **Unfreeze All**-knappen i verktøylinjen (solikon). Alle frosne lag blir synlige umiddelbart.
 
 ## Når du bør bruke den
 

@@ -8,11 +8,11 @@ order: 2
 
 # LayerMakeCurrent
 
-La commande `LayerMakeCurrent` définit le **calque de dessin courant** pour correspondre au calque auquel appartient l'entité sur laquelle vous cliquez. Les nouvelles entités seront automatiquement dessinées sur ce calque.
+La commande `DéfinirCalqueCourant` définit le **calque de dessin courant** pour correspondre au calque auquel appartient l'entité sur laquelle vous cliquez. Les nouvelles entités seront automatiquement dessinées sur ce calque.
 
 ## Utilisation
 
-1. Tapez `LayerMakeCurrent` dans le terminal ou cliquez sur le bouton **Make Current** de la barre d'outils (icône pipette).
+1. Tapez `DéfinirCalqueCourant` dans le terminal ou cliquez sur le bouton **Make Current** de la barre d'outils (icône pipette).
 2. **Cliquez sur n'importe quelle entité** sur le canevas.
 3. Le calque courant est mis à jour pour correspondre au calque de cette entité. La commande se termine immédiatement.
 

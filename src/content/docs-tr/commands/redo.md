@@ -8,11 +8,11 @@ order: 14
 
 # Redo
 
-`redo` komutu, [Undo](../undo/) tarafından tersine çevrilen işlemleri yeniden uygulayarak geri alma geçmişinde ileri gider. Redo yalnızca Undo ile geri adım attığınızda ve henüz yeni bir değişiklik yapmadığınızda kullanılabilir.
+`Yinele` komutu, [Undo](../undo/) tarafından tersine çevrilen işlemleri yeniden uygulayarak geri alma geçmişinde ileri gider. Redo yalnızca Undo ile geri adım attığınızda ve henüz yeni bir değişiklik yapmadığınızda kullanılabilir.
 
 ## Nasıl Yinelenir
 
-- Terminale `redo` yazın, veya
+- Terminale `Yinele` yazın, veya
 - **Redo** araç çubuğu düğmesine tıklayın.
 
 Her çağrı, daha önce geri alınan bir işlemi yeniden uygular. Mevcut tüm redo girişlerinde ileri adım atmak için tekrar tekrar çağırın.

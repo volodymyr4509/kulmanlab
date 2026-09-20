@@ -8,20 +8,20 @@ order: 5
 
 # Scale
 
-Het `scale`-commando schaalt geselecteerde entiteiten uniform rond een basispunt. Alle afstanden vanaf het basispunt worden vermenigvuldigd met de schaalfactor — een factor van `2` verdubbelt alle afmetingen, `0.5` halveert ze. De factor wordt altijd getypt; er is geen klik-om-te-schalen.
+Het `Schalen`-commando schaalt geselecteerde entiteiten uniform rond een basispunt. Alle afstanden vanaf het basispunt worden vermenigvuldigd met de schaalfactor — een factor van `2` verdubbelt alle afmetingen, `0.5` halveert ze. De factor wordt altijd getypt; er is geen klik-om-te-schalen.
 
 ## Twee manieren om te starten
 
 **Eerst selecteren, dan schalen** — selecteer eerst entiteiten en activeer daarna het commando:
 
 1. Selecteer een of meer entiteiten op het canvas.
-2. Typ `scale` in de terminal of klik op de **Scale**-werkbalkknop.
+2. Typ `Schalen` in de terminal of klik op de **Scale**-werkbalkknop.
 3. **Klik het basispunt** aan — het vaste punt dat niet beweegt tijdens het schalen. Of typ `X,Y` en druk op **Enter** voor een exacte coördinaat.
 4. **Typ de schaalfactor** en druk op **Enter**.
 
 **Eerst activeren, dan selecteren** — start het commando zonder selectie:
 
-1. Typ `scale` of klik op de werkbalkknop.
+1. Typ `Schalen` of klik op de werkbalkknop.
 2. **Selecteer objecten** — klik om te schakelen, of sleep om per gebied te selecteren.
 3. Druk op **Enter** of **Space** om de selectie te bevestigen.
 4. **Klik het basispunt** aan (coördinaatinvoer beschikbaar) en typ vervolgens de factor.

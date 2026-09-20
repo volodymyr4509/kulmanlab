@@ -8,11 +8,11 @@ order: 13
 
 # Undo
 
-O comando `undo` reverte a última alteração no desenho — uma etapa por invocação. Cada adição, exclusão ou edição de entidades é registrada como uma entrada de histórico separada. Undo volta por essas entradas em ordem inversa.
+O comando `Desfazer` reverte a última alteração no desenho — uma etapa por invocação. Cada adição, exclusão ou edição de entidades é registrada como uma entrada de histórico separada. Undo volta por essas entradas em ordem inversa.
 
 ## Como executar undo
 
-- Digite `undo` no terminal, ou
+- Digite `Desfazer` no terminal, ou
 - Clique no botão **Undo** na barra de ferramentas.
 
 Cada invocação reverte uma ação registrada. Invoque repetidamente para voltar mais longe.

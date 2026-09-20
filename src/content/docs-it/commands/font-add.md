@@ -8,11 +8,11 @@ order: 3
 
 # FontAdd
 
-Il comando `FontAdd` apre il selettore file del sistema per caricare un font `.ttf` personalizzato, senza prima aprire la finestra di dialogo [Font Manager](../font-manager/). È lo stesso caricamento attivato dal pulsante **Add Font** del Font Manager — FontAdd è solo un modo diretto per raggiungerlo dal terminale.
+Il comando `AggiungiFont` apre il selettore file del sistema per caricare un font `.ttf` personalizzato, senza prima aprire la finestra di dialogo [Font Manager](../font-manager/). È lo stesso caricamento attivato dal pulsante **Add Font** del Font Manager — FontAdd è solo un modo diretto per raggiungerlo dal terminale.
 
 ## Caricare un font
 
-1. Digita `FontAdd` nel terminale, oppure clicca **Add Font** in fondo alla finestra di dialogo [Font Manager](../font-manager/).
+1. Digita `AggiungiFont` nel terminale, oppure clicca **Add Font** in fondo alla finestra di dialogo [Font Manager](../font-manager/).
 2. Scegli un file `.ttf` nel selettore di sistema. Sono supportati solo i font TrueType — `.otf` e `.woff`/`.woff2` non lo sono.
 
 Il comando termina non appena si apre il selettore file — non segue nessun altro clic o input da terminale. Il font viene registrato e compare nel gruppo **User** non appena il file viene scelto.

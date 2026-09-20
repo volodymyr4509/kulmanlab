@@ -8,11 +8,11 @@ order: 3
 
 # PageManager
 
-Polecenie `PageManager` otwiera okno dialogowe ustawień strony dla aktywnego układu, pozwalając zmienić format papieru, orientację i skalę między jednostkami rysunkowymi a milimetrami.
+Polecenie `MenedżerStron` otwiera okno dialogowe ustawień strony dla aktywnego układu, pozwalając zmienić format papieru, orientację i skalę między jednostkami rysunkowymi a milimetrami.
 
 ## Otwieranie Menedżera stron
 
-- Wpisz `PageManager` w terminalu, **lub**
+- Wpisz `MenedżerStron` w terminalu, **lub**
 - Kliknij prawym przyciskiem myszy na zakładkę układu na dole i wybierz **Menedżer stron**.
 
 ## Ustawienia

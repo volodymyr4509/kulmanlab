@@ -8,11 +8,11 @@ order: 4
 
 # Hatch Manager
 
-`HatchManager`-kommandoen åbner en dialog til at gennemse hatch-mønstre med en live swatch-forhåndsvisning, og til at uploade dine egne `.pat`-mønsterfiler til brug med [Hatch](../hatch/).
+`Skraveringsstyring`-kommandoen åbner en dialog til at gennemse hatch-mønstre med en live swatch-forhåndsvisning, og til at uploade dine egne `.pat`-mønsterfiler til brug med [Hatch](../hatch/).
 
 ## Åbne Hatch Manager
 
-Skriv `HatchManager` i terminalen. Dette er adskilt fra mønstervælgeren, der åbner, når du klikker på en hatchs **Pattern**-chip — vælgeren vælger et mønster til én hatch, Hatch Manager er hvor du tilføjer eller fjerner `.pat`-filer.
+Skriv `Skraveringsstyring` i terminalen. Dette er adskilt fra mønstervælgeren, der åbner, når du klikker på en hatchs **Pattern**-chip — vælgeren vælger et mønster til én hatch, Hatch Manager er hvor du tilføjer eller fjerner `.pat`-filer.
 
 ## Mønstergrupper
 

@@ -8,11 +8,11 @@ order: 3
 
 # Zoom Out
 
-Kommandoen `zoomout` dividerer gjeldende zoomnivå med **1,5×** (tilsvarer å multiplisere med ~0,667) og avslutter umiddelbart, sentrert på viewportens midtpunkt. Det er det motsatte av [Zoom In](../zoom-in/).
+Kommandoen `ZoomUt` dividerer gjeldende zoomnivå med **1,5×** (tilsvarer å multiplisere med ~0,667) og avslutter umiddelbart, sentrert på viewportens midtpunkt. Det er det motsatte av [Zoom In](../zoom-in/).
 
 ## Zoome ut
 
-Klikk på **Zoom Out**-knappen i verktøylinjen eller skriv `zoomout` i terminalen. Zoomen brukes umiddelbart, og kommandoen avsluttes — ikke noe klikk på lerretet nødvendig.
+Klikk på **Zoom Out**-knappen i verktøylinjen eller skriv `ZoomUt` i terminalen. Zoomen brukes umiddelbart, og kommandoen avsluttes — ikke noe klikk på lerretet nødvendig.
 
 ## Hvordan 1,5×-steget fungerer
 

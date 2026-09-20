@@ -8,11 +8,11 @@ order: 9
 
 # Spline Fit
 
-Perintah `splinefit` menggambar spline kubik yang melewati setiap titik yang Anda klik — kurva interpolasi. Tidak seperti [Spline CV](../spline-cv/), di mana kurva hanya tertarik ke arah control vertex, di sini kurva dipaksa untuk mengenai setiap koordinat yang diklik tepat. Secara internal editor menyesuaikan control vertex untuk mencapai ini, dan CV tersebut disimpan bersama titik fit dalam file DXF.
+Perintah `SplineTitik` menggambar spline kubik yang melewati setiap titik yang Anda klik — kurva interpolasi. Tidak seperti [Spline CV](../spline-cv/), di mana kurva hanya tertarik ke arah control vertex, di sini kurva dipaksa untuk mengenai setiap koordinat yang diklik tepat. Secara internal editor menyesuaikan control vertex untuk mencapai ini, dan CV tersebut disimpan bersama titik fit dalam file DXF.
 
 ## Menggambar spline melalui titik fit
 
-1. Ketik `splinefit` di terminal atau klik tombol toolbar **Spline Fit**.
+1. Ketik `SplineTitik` di terminal atau klik tombol toolbar **Spline Fit**.
 2. **Klik untuk menempatkan titik fit** — kurva akan melewati setiap titik. Atau ketik `X,Y` dan tekan **Enter** untuk koordinat tepat.
 3. Tekan **Enter** atau **Space** untuk selesai (setidaknya 2 titik diperlukan).
 

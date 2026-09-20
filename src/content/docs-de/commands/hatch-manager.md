@@ -8,11 +8,11 @@ order: 4
 
 # Hatch Manager
 
-Der Befehl `HatchManager` öffnet einen Dialog zum Durchsuchen von Hatch-Mustern mit einer Live-Vorschau und zum Hochladen eigener `.pat`-Musterdateien zur Verwendung mit [Hatch](../hatch/).
+Der Befehl `Schraffurmanager` öffnet einen Dialog zum Durchsuchen von Hatch-Mustern mit einer Live-Vorschau und zum Hochladen eigener `.pat`-Musterdateien zur Verwendung mit [Hatch](../hatch/).
 
 ## Den Hatch Manager öffnen
 
-Geben Sie `HatchManager` im Terminal ein. Dies ist getrennt von der Musterauswahl, die sich öffnet, wenn Sie auf den **Pattern**-Chip eines Hatch klicken — die Auswahl wählt ein Muster für einen einzelnen Hatch, der Hatch Manager ist, wo Sie `.pat`-Dateien hinzufügen oder entfernen.
+Geben Sie `Schraffurmanager` im Terminal ein. Dies ist getrennt von der Musterauswahl, die sich öffnet, wenn Sie auf den **Pattern**-Chip eines Hatch klicken — die Auswahl wählt ein Muster für einen einzelnen Hatch, der Hatch Manager ist, wo Sie `.pat`-Dateien hinzufügen oder entfernen.
 
 ## Mustergruppen
 

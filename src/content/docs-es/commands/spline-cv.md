@@ -8,11 +8,11 @@ order: 8
 
 # Spline CV
 
-El comando `splinecv` dibuja una **B-spline cúbica** colocando vértices de control (CVs). La curva resultante es atraída hacia cada CV pero no pasa por ellos — excepto en el primer y último vértice, donde los **nudos fijados** anclan la curva exactamente. Esto proporciona un control intuitivo de la forma: acerca un vértice para empujar la curva hacia él sin obligarla a tocar cada punto.
+El comando `SplineVértices` dibuja una **B-spline cúbica** colocando vértices de control (CVs). La curva resultante es atraída hacia cada CV pero no pasa por ellos — excepto en el primer y último vértice, donde los **nudos fijados** anclan la curva exactamente. Esto proporciona un control intuitivo de la forma: acerca un vértice para empujar la curva hacia él sin obligarla a tocar cada punto.
 
 ## Dibujar una spline por vértices de control
 
-1. Escribe `splinecv` en el terminal o haz clic en el botón de la barra de herramientas **Spline CV**.
+1. Escribe `SplineVértices` en el terminal o haz clic en el botón de la barra de herramientas **Spline CV**.
 2. **Haz clic para colocar vértices de control** — cada clic añade un vértice. O escribe `X,Y` y pulsa **Enter** para una coordenada exacta.
 3. Pulsa **Enter** o **Space** para terminar (se requieren al menos 2 vértices).
 

@@ -8,11 +8,11 @@ order: 1
 
 # Line
 
-Amri ya `line` inachora sehemu za mstari mzito zinazohifadhiwa kama vipande tofauti vya `LINE` katika mfano wa DXF. Baada ya kila sehemu amri inabaki hai na kutumia tena nukta ya mwisho kama nukta mpya ya kuanzia, hivyo unaweza kujenga njia zilizounganishwa sehemu moja kwa wakati mmoja. Tofauti na [Polyline](../polyline/), mistari iliyounganishwa hubaki kama vipande huru — kila kimoja kinaweza kukatwa, kupanuliwa, au kufutwa bila kuathiri jirani zake.
+Amri ya `Mstari` inachora sehemu za mstari mzito zinazohifadhiwa kama vipande tofauti vya `LINE` katika mfano wa DXF. Baada ya kila sehemu amri inabaki hai na kutumia tena nukta ya mwisho kama nukta mpya ya kuanzia, hivyo unaweza kujenga njia zilizounganishwa sehemu moja kwa wakati mmoja. Tofauti na [Polyline](../polyline/), mistari iliyounganishwa hubaki kama vipande huru — kila kimoja kinaweza kukatwa, kupanuliwa, au kufutwa bila kuathiri jirani zake.
 
 ## Kuchora mistari
 
-1. Andika `line` kwenye terminal au bonyeza kitufe cha **Line** kwenye upau wa zana.
+1. Andika `Mstari` kwenye terminal au bonyeza kitufe cha **Line** kwenye upau wa zana.
 2. **Bonyeza nukta ya kuanzia**, au andika `X,Y` na ubonyeze **Enter** kwa kuratibu sahihi.
 3. **Bonyeza nukta ya mwisho** — sehemu imewekwa na nukta ya mwisho inakuwa nukta ya kuanzia inayofuata. Uingizaji wa kuratibu unafanya kazi hapa pia.
 4. Endelea kubonyeza (au kuandika) kuunganisha sehemu zaidi.

@@ -8,11 +8,11 @@ order: 14
 
 # Redo
 
-Perintah `redo` maju melalui riwayat undo, menerapkan ulang aksi yang dibalik oleh [Undo](../undo/). Redo hanya tersedia ketika Anda telah mundur dengan Undo dan belum membuat perubahan baru.
+Perintah `UlangiAksi` maju melalui riwayat undo, menerapkan ulang aksi yang dibalik oleh [Undo](../undo/). Redo hanya tersedia ketika Anda telah mundur dengan Undo dan belum membuat perubahan baru.
 
 ## Cara menerapkan ulang
 
-- Ketik `redo` di terminal, atau
+- Ketik `UlangiAksi` di terminal, atau
 - Klik tombol toolbar **Redo**.
 
 Setiap pemanggilan menerapkan ulang satu aksi yang sebelumnya dibatalkan. Panggil berulang kali untuk maju melalui semua entri redo yang tersedia.

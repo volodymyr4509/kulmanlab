@@ -8,11 +8,11 @@ order: 9
 
 # Dimension Angular
 
-`DimensionAngular` komutu, çizime **açısal ölçü** yay ek açıklaması yerleştirir. İki çizgi arasındaki açıyı, bir yayın kapsamını veya bir dairenin sektörünü ölçer ve etiketler.
+`ÖlçüAçı` komutu, çizime **açısal ölçü** yay ek açıklaması yerleştirir. İki çizgi arasındaki açıyı, bir yayın kapsamını veya bir dairenin sektörünü ölçer ve etiketler.
 
 ## Nasıl Etkinleştirilir
 
-İşaretleme panelindeki **Dimension Angular** araç çubuğu düğmesine tıklayın veya terminale `DimensionAngular` yazın.
+İşaretleme panelindeki **Dimension Angular** araç çubuğu düğmesine tıklayın veya terminale `ÖlçüAçı` yazın.
 
 ## Üç Giriş Modu
 
@@ -47,7 +47,7 @@ Paralel çizgiler açısal ölçü oluşturamaz; çizgiler kesişmiyorsa komut i
 
 - Ölçü yayı her zaman yerleştirdiğiniz köşenin tarafında çizilir — imleci köşe üzerinden geçirerek tamamlayıcı açıya geçin.
 - Ölçülen açı derece cinsinden gösterilir ve yerleştirme sırasında imleci hareket ettirdikçe canlı olarak güncellenir.
-- Elde edilen ek açıklama, mevcut katmanda saklanan tam bir `DimensionAngular` nesnesidir. Görünüm özellikleri (ok boyutu, metin yüksekliği, uzatma çizgisi uzunluğu) Özellikler panelinden ayarlanabilir.
+- Elde edilen ek açıklama, mevcut katmanda saklanan tam bir `ÖlçüAçı` nesnesidir. Görünüm özellikleri (ok boyutu, metin yüksekliği, uzatma çizgisi uzunluğu) Özellikler panelinden ayarlanabilir.
 - Açısal ölçüler hem JSON'a hem DXF'e aktarılır ve DXF'te standart `DIMENSION` varlıkları olarak yazılır.
 
 ## Etiketi Düzenleme — simple mode

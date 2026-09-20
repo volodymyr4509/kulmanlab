@@ -8,11 +8,11 @@ order: 2
 
 # Font Manager
 
-Der Befehl `FontManager` öffnet einen Dialog zum Durchsuchen und Auswählen von Schriftarten sowie zum Hochladen eigener `.ttf`-Dateien zur Verwendung in [Text](../text/)- und [Multileader](../leader/)-Entitäten.
+Der Befehl `Schriftartenmanager` öffnet einen Dialog zum Durchsuchen und Auswählen von Schriftarten sowie zum Hochladen eigener `.ttf`-Dateien zur Verwendung in [Text](../text/)- und [Multileader](../leader/)-Entitäten.
 
 ## Den Font Manager öffnen
 
-- Geben Sie `FontManager` im Terminal ein, **oder**
+- Geben Sie `Schriftartenmanager` im Terminal ein, **oder**
 - Klicken Sie auf die Schaltfläche **Font Manager** in der Symbolleiste des [Texteditors](../../interface/text-editor/).
 
 ## Schriftartgruppen
@@ -28,7 +28,7 @@ Klicken Sie auf eine beliebige Schriftart in der Liste, um sie rechts in der Vor
 
 ## Eigene Schriftart hochladen
 
-1. Klicken Sie im Fußbereich des Dialogs auf **Add Font** (oder geben Sie [`FontAdd`](../font-add/) im Terminal ein, um die Dateiauswahl direkt zu öffnen).
+1. Klicken Sie im Fußbereich des Dialogs auf **Add Font** (oder geben Sie [`SchriftartHinzufügen`](../font-add/) im Terminal ein, um die Dateiauswahl direkt zu öffnen).
 2. Wählen Sie eine `.ttf`-Datei aus. Es werden nur TrueType-Schriftarten unterstützt — `.otf` sowie `.woff`/`.woff2` nicht.
 3. Der Dateiname (ohne Erweiterung) wird zum Namen der Schriftart in der Gruppe **User**. Wenn Sie beispielsweise `MyFont.ttf` hochladen, wird eine Schriftart namens `MyFont` hinzugefügt.
 

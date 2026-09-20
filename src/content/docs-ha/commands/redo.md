@@ -8,11 +8,11 @@ order: 14
 
 # Redo
 
-Umarnin `redo` yana motsawa gaba ta cikin tarihin undo, yana sake yin ayyukan da aka juya da [Undo](../undo/). Redo yana samuwa ne kawai idan ka koma baya da Undo kuma ba ka yi wani sabon canji ba tukuna.
+Umarnin `Maimaita` yana motsawa gaba ta cikin tarihin undo, yana sake yin ayyukan da aka juya da [Undo](../undo/). Redo yana samuwa ne kawai idan ka koma baya da Undo kuma ba ka yi wani sabon canji ba tukuna.
 
 ## Yadda za a yi redo
 
-- Rubuta `redo` a tashar umarni, ko
+- Rubuta `Maimaita` a tashar umarni, ko
 - Danna maɓallin kayan aiki na **Redo**.
 
 Kowace kunnawa yana sake yin aiki ɗaya da aka soke a baya. Kunna shi sau da yawa don matsawa gaba ta cikin dukkan shigarwar redo da ke akwai.

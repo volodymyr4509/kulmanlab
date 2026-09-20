@@ -8,11 +8,11 @@ order: 1
 
 # LayerManager
 
-Perintah `LayerManager` membuka jadual yang menyenaraikan setiap lapisan dalam lukisan, dengan tetapan **Freeze**, **Lock**, **Plot**, **Warna**, **Ketebalan garisan** dan **Jenis garisan** boleh disunting terus di dalam barisnya. Ia tempat utama untuk menambah lapisan, memadam yang tidak digunakan dan melaraskan kelakuan lapisan sedia ada — perintah lapisan yang lain ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) masing-masing melakukan satu perkara tanpa membukanya.
+Perintah `PengurusLapisan` membuka jadual yang menyenaraikan setiap lapisan dalam lukisan, dengan tetapan **Freeze**, **Lock**, **Plot**, **Warna**, **Ketebalan garisan** dan **Jenis garisan** boleh disunting terus di dalam barisnya. Ia tempat utama untuk menambah lapisan, memadam yang tidak digunakan dan melaraskan kelakuan lapisan sedia ada — perintah lapisan yang lain ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) masing-masing melakukan satu perkara tanpa membukanya.
 
 ## Membuka Layer Manager
 
-- Taip `LayerManager` dalam terminal, **atau**
+- Taip `PengurusLapisan` dalam terminal, **atau**
 - Klik butang **Layer Manager** pada panel lapisan.
 
 Dialog dibuka sebagai panel terapung; tiada apa yang perlu dipilih terlebih dahulu.

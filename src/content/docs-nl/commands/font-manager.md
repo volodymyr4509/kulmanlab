@@ -8,11 +8,11 @@ order: 2
 
 # Font Manager
 
-Het `FontManager`-commando opent een dialoogvenster voor het bladeren en selecteren van lettertypen, en voor het uploaden van eigen `.ttf`-bestanden voor gebruik in [Text](../text/)- en [Multileader](../leader/)-entiteiten.
+Het `Lettertypebeheer`-commando opent een dialoogvenster voor het bladeren en selecteren van lettertypen, en voor het uploaden van eigen `.ttf`-bestanden voor gebruik in [Text](../text/)- en [Multileader](../leader/)-entiteiten.
 
 ## Font Manager openen
 
-- Typ `FontManager` in de terminal, **of**
+- Typ `Lettertypebeheer` in de terminal, **of**
 - Klik op de knop **Font Manager** in de werkbalk van de [teksteditor](../../interface/text-editor/).
 
 ## Lettertypegroepen
@@ -28,7 +28,7 @@ Klik op een lettertype in de lijst om het rechts te bekijken — naam, alfabetvo
 
 ## Een aangepast lettertype uploaden
 
-1. Klik op **Add Font** onderaan het dialoogvenster (of typ [`FontAdd`](../font-add/) in de terminal om de bestandskiezer direct te openen).
+1. Klik op **Add Font** onderaan het dialoogvenster (of typ [`LettertypeToevoegen`](../font-add/) in de terminal om de bestandskiezer direct te openen).
 2. Kies een `.ttf`-bestand. Alleen TrueType-lettertypen worden ondersteund — `.otf` en `.woff`/`.woff2` niet.
 3. De bestandsnaam (zonder extensie) wordt de naam van het lettertype in de groep **User**. Als u bijvoorbeeld `MyFont.ttf` uploadt, wordt een lettertype met de naam `MyFont` toegevoegd.
 

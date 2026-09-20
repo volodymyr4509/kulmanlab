@@ -8,11 +8,11 @@ order: 5
 
 # HatchAdd
 
-El comando `HatchAdd` abre el selector de archivos del sistema para subir un archivo de patrones de sombreado `.pat`, sin abrir antes el diálogo [Hatch Manager](../hatch-manager/). Es la misma subida que dispara el botón **Add .pat File** del Hatch Manager: HatchAdd solo es una vía directa desde la terminal.
+El comando `AñadirSombreado` abre el selector de archivos del sistema para subir un archivo de patrones de sombreado `.pat`, sin abrir antes el diálogo [Hatch Manager](../hatch-manager/). Es la misma subida que dispara el botón **Add .pat File** del Hatch Manager: HatchAdd solo es una vía directa desde la terminal.
 
 ## Subir un archivo de patrones
 
-1. Escribe `HatchAdd` en la terminal, o pulsa **Add .pat File** en el pie del diálogo [Hatch Manager](../hatch-manager/).
+1. Escribe `AñadirSombreado` en la terminal, o pulsa **Add .pat File** en el pie del diálogo [Hatch Manager](../hatch-manager/).
 2. Elige un archivo `.pat` en el selector del sistema. Solo se acepta el formato estándar de patrones de sombreado.
 
 El comando termina en cuanto se abre el selector de archivos: no hay más indicaciones, clics ni entrada en la terminal. Los patrones quedan registrados y aparecen en el grupo **User** en cuanto se selecciona el archivo.

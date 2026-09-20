@@ -8,11 +8,11 @@ order: 3
 
 # File Manager
 
-Komento `FileManager` avaa **pienoiskuvaruudukon** jokaisesta piirustuksesta, joka on tallennettu selaimesi paikalliseen tallennustilaan, järjestettynä viimeisimmän tallennusajan mukaan. Käytä sitä avataksesi aiemman piirustuksen uudelleen, nimeämään sen uudelleen, tai poistamaan sen.
+Komento `Tiedostonhallinta` avaa **pienoiskuvaruudukon** jokaisesta piirustuksesta, joka on tallennettu selaimesi paikalliseen tallennustilaan, järjestettynä viimeisimmän tallennusajan mukaan. Käytä sitä avataksesi aiemman piirustuksen uudelleen, nimeämään sen uudelleen, tai poistamaan sen.
 
 ## File Managerin avaaminen
 
-- Kirjoita `FileManager` terminaaliin, **tai**
+- Kirjoita `Tiedostonhallinta` terminaaliin, **tai**
 - Napsauta **File Manager** -työkalurivin painiketta (historiakuvake) File-paneelissa näytön yläosassa.
 
 Paneeli avautuu piirtoalueen vasemmalle puolelle ja sulkeutuu automaattisesti heti kun aloitat toisen komennon tai [tuot](../import/) tiedoston — joten se ei koskaan jää roikkumaan piirustuksen päälle, jota se ei vielä listaa. Se avautuu joka kerta tuoreella listalla.

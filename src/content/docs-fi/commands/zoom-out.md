@@ -8,11 +8,11 @@ order: 3
 
 # Zoom Out
 
-Komento `zoomout` jakaa nykyisen zoomtason **1,5x:llä** (vastaa kertomista ~0,667:llä) ja päättyy välittömästi, keskitettynä näkymäikkunan keskipisteeseen. Se on [Zoom In](../zoom-in/)-komennon käänteinen toiminto.
+Komento `Loitonna` jakaa nykyisen zoomtason **1,5x:llä** (vastaa kertomista ~0,667:llä) ja päättyy välittömästi, keskitettynä näkymäikkunan keskipisteeseen. Se on [Zoom In](../zoom-in/)-komennon käänteinen toiminto.
 
 ## Zoomaaminen ulos
 
-Napsauta **Zoom Out**-painiketta työkalurivillä tai kirjoita `zoomout` terminaaliin. Zoom sovelletaan välittömästi ja komento päättyy — piirtoalueen napsautusta ei tarvita.
+Napsauta **Zoom Out**-painiketta työkalurivillä tai kirjoita `Loitonna` terminaaliin. Zoom sovelletaan välittömästi ja komento päättyy — piirtoalueen napsautusta ei tarvita.
 
 ## Miten 1,5x-askel toimii
 

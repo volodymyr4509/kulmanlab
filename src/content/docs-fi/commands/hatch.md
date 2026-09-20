@@ -8,11 +8,11 @@ order: 7
 
 # Hatch
 
-`hatch`-komento täyttää klikatun pisteen ympäröivän alueen kuviolla. Rajaa ei piirretä ensin — se muodostuu siitä, mitä piirtoalueella jo on, joten neljä erillistä [Linea](../line/), jotka kohtaavat päästä päähän, ympäröivät alueen aivan kuten suljettu [Polyline](../polyline/) tekee, ja mikä tahansa suljettu muoto sisällä muuttuu saareksi, jonka täyttö jättää koskematta.
+`Viivoitus`-komento täyttää klikatun pisteen ympäröivän alueen kuviolla. Rajaa ei piirretä ensin — se muodostuu siitä, mitä piirtoalueella jo on, joten neljä erillistä [Linea](../line/), jotka kohtaavat päästä päähän, ympäröivät alueen aivan kuten suljettu [Polyline](../polyline/) tekee, ja mikä tahansa suljettu muoto sisällä muuttuu saareksi, jonka täyttö jättää koskematta.
 
 ## Alueen täyttäminen
 
-1. Kirjoita `hatch` päätteeseen tai napsauta työkalurivin **Hatch**-painiketta (kuvion kuvake).
+1. Kirjoita `Viivoitus` päätteeseen tai napsauta työkalurivin **Hatch**-painiketta (kuvion kuvake).
 2. **Napsauta pistettä** täytettävän alueen sisällä.
 3. Komento pysyy aktiivisena, joten jatka napsautusta täyttääksesi lisää alueita — jokainen napsautus luo oman `Hatch`-entiteettinsä.
 4. Paina **Enter**, **Space** tai **Escape**, kun olet valmis.
@@ -69,7 +69,7 @@ Jokainen uusi hatch alkaa täytettynä `ANSI31`-kuviolla (tai millä kuviolla ta
 1. Valitse olemassa oleva hatch ja avaa sen **Pattern**-kenttä ominaisuuspaneelissa — tämä avaa kuvionvalitsimen, ruudukon nimettyjä näytteitä ryhmiteltynä sen mukaan, mistä kukin kuvio on peräisin.
 2. Napsauta kuviota ottaaksesi sen käyttöön — täyttö päivittyy heti.
 
-Tästä valinnasta tulee myös oletus *seuraavalle* hatchille, jonka luot `hatch`-komennolla, samalla tavalla kuin tason tai värin valinta siirtyy eteenpäin. Joten täyttääksesi useita uusia alueita tietyllä kuviolla: täytä yksi alue, aseta sen kuvio kerran, ja jatka hatchaamista — jokainen sen jälkeinen täyttö alkaa jo kyseisellä kuviolla käytössä.
+Tästä valinnasta tulee myös oletus *seuraavalle* hatchille, jonka luot `Viivoitus`-komennolla, samalla tavalla kuin tason tai värin valinta siirtyy eteenpäin. Joten täyttääksesi useita uusia alueita tietyllä kuviolla: täytä yksi alue, aseta sen kuvio kerran, ja jatka hatchaamista — jokainen sen jälkeinen täyttö alkaa jo kyseisellä kuviolla käytössä.
 
 Katso [Hatch Manager](../hatch-manager/) ladataksesi omia `.pat`-kuviotiedostojasi ja selataksesi koko kirjastoa.
 

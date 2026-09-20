@@ -8,14 +8,14 @@ order: 15
 
 # Array Grid
 
-Arahan `ArrayGrid` mencipta grid segi empat tepat salinan daripada entiti yang dipilih — masukkan bilangan baris, bilangan lajur, dan jarak antara keduanya, semuanya ditaip dalam terminal. Pemilihan asal menduduki sel baris 0, lajur 0; setiap sel lain adalah salinan yang dianjakkan.
+Arahan `LarikGrid` mencipta grid segi empat tepat salinan daripada entiti yang dipilih — masukkan bilangan baris, bilangan lajur, dan jarak antara keduanya, semuanya ditaip dalam terminal. Pemilihan asal menduduki sel baris 0, lajur 0; setiap sel lain adalah salinan yang dianjakkan.
 
 ## Dua cara untuk memulakan
 
 **Pra-pilih, kemudian array** — pilih entiti dahulu, kemudian aktifkan:
 
 1. Pilih satu atau lebih entiti pada kanvas.
-2. Taip `arraygrid` dalam terminal (`arr` sahaja sudah memadai — tidak jelas) atau klik butang bar alat **Array Grid**.
+2. Taip `LarikGrid` dalam terminal (`arr` sahaja sudah memadai — tidak jelas) atau klik butang bar alat **Array Grid**.
 3. Taip bilangan **baris** dan tekan **Enter**.
 4. Taip bilangan **lajur** dan tekan **Enter**.
 5. Taip **jarak antara baris** dan tekan **Enter**.
@@ -23,7 +23,7 @@ Arahan `ArrayGrid` mencipta grid segi empat tepat salinan daripada entiti yang d
 
 **Aktifkan, kemudian pilih** — mulakan arahan tanpa apa-apa yang dipilih:
 
-1. Taip `arraygrid` atau klik butang bar alat.
+1. Taip `LarikGrid` atau klik butang bar alat.
 2. **Pilih objek** — klik untuk togel entiti individu, atau seret untuk memilih mengikut kawasan.
 3. Tekan **Enter** atau **Space** untuk mengesahkan pemilihan.
 4. Teruskan dengan baris → lajur → jarak baris → jarak lajur seperti di atas.

@@ -8,11 +8,11 @@ order: 6
 
 # Export Manager
 
-Polecenie `exportmanager` pobiera bieżący rysunek do twojego systemu plików. Dwa formaty stoją obok siebie — **DXF** dla zgodności z innymi narzędziami CAD i **JSON** dla wiernych zapisów wewnątrz KulmanLab CAD — a każdy ma własną listę tego, co trafia do pliku.
+Polecenie `MenedżerEksportu` pobiera bieżący rysunek do twojego systemu plików. Dwa formaty stoją obok siebie — **DXF** dla zgodności z innymi narzędziami CAD i **JSON** dla wiernych zapisów wewnątrz KulmanLab CAD — a każdy ma własną listę tego, co trafia do pliku.
 
 ## Jak eksportować
 
-1. Kliknij przycisk **Export** na pasku narzędzi (ikona pobierania) w panelu plików lub wpisz `exportmanager` w terminalu.
+1. Kliknij przycisk **Export** na pasku narzędzi (ikona pobierania) w panelu plików lub wpisz `MenedżerEksportu` w terminalu.
 2. Okno **Export Manager** otwiera się w dwóch kolumnach, **JSON** i **DXF**, z których każda wymienia typy obiektów rysunku wraz z polem wyboru i liczbą.
 3. Odznacz to, co chcesz pominąć. Na starcie zaznaczone jest wszystko.
 4. Kliknij **Export JSON** lub **Export DXF**. Plik trafia do domyślnego folderu pobierania, a okno się zamyka.

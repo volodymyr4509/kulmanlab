@@ -8,11 +8,11 @@ order: 1
 
 # Line
 
-Het `line`-commando tekent losse rechte lijnsegmenten, opgeslagen als afzonderlijke `LINE`-entiteiten in het DXF-model. Na elk segment blijft het commando actief en hergebruikt het eindpunt als nieuw startpunt, zodat u stap voor stap verbonden paden kunt bouwen. In tegenstelling tot een [Polyline](../polyline/) blijven aaneengeschakelde lijnen onafhankelijke entiteiten — elk kan worden bijgesneden, verlengd of verwijderd zonder de buren te beïnvloeden.
+Het `Lijn`-commando tekent losse rechte lijnsegmenten, opgeslagen als afzonderlijke `LINE`-entiteiten in het DXF-model. Na elk segment blijft het commando actief en hergebruikt het eindpunt als nieuw startpunt, zodat u stap voor stap verbonden paden kunt bouwen. In tegenstelling tot een [Polyline](../polyline/) blijven aaneengeschakelde lijnen onafhankelijke entiteiten — elk kan worden bijgesneden, verlengd of verwijderd zonder de buren te beïnvloeden.
 
 ## Lijnen tekenen
 
-1. Typ `line` in de terminal of klik op de **Line**-werkbalkknop.
+1. Typ `Lijn` in de terminal of klik op de **Line**-werkbalkknop.
 2. **Klik op het startpunt**, of typ `X,Y` en druk op **Enter** voor een exact coördinaat.
 3. **Klik op het eindpunt** — het segment wordt geplaatst en het eindpunt wordt het volgende startpunt. Coördinaatinvoer werkt hier ook.
 4. Blijf klikken (of typen) om meer segmenten aaneen te schakelen.

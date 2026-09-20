@@ -8,11 +8,11 @@ order: 3
 
 # Rectangle
 
-Polecenie `rectangle` rysuje prostokąt wyrównany do osi, zdefiniowany przez dwa kliknięcia przeciwnych narożników. Wynik jest przechowywany jako **zamknięty element `LWPOLYLINE`** z czterema wierzchołkami — po jednym w każdym narożniku. Nie ma dedykowanego typu elementu prostokąt: po utworzeniu kształt zachowuje się dokładnie jak każda inna [Polyline](../polyline/) i każda edycja polilinii ma do niego zastosowanie.
+Polecenie `Prostokąt` rysuje prostokąt wyrównany do osi, zdefiniowany przez dwa kliknięcia przeciwnych narożników. Wynik jest przechowywany jako **zamknięty element `LWPOLYLINE`** z czterema wierzchołkami — po jednym w każdym narożniku. Nie ma dedykowanego typu elementu prostokąt: po utworzeniu kształt zachowuje się dokładnie jak każda inna [Polyline](../polyline/) i każda edycja polilinii ma do niego zastosowanie.
 
 ## Rysowanie prostokąta
 
-1. Wpisz `rectangle` w terminalu lub kliknij przycisk **Prostokąt** na pasku narzędzi.
+1. Wpisz `Prostokąt` w terminalu lub kliknij przycisk **Prostokąt** na pasku narzędzi.
 2. **Kliknij pierwszy narożnik** lub wpisz `X,Y` i naciśnij **Enter** dla dokładnej współrzędnej.
 3. **Kliknij przeciwny narożnik** — prostokąt jest natychmiast umieszczany i polecenie kończy się. Tutaj również działa wprowadzanie współrzędnych. Możesz też nacisnąć `D`, aby wpisać dokładną szerokość i wysokość — zobacz [Wprowadzanie wymiarów](#wprowadzanie-wymiarów) poniżej.
 

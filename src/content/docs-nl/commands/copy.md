@@ -8,20 +8,20 @@ order: 2
 
 # Copy
 
-Het commando `copy` maakt verplaatste duplicaten van geselecteerde entiteiten en plaatst deze verschoven van een basispunt naar een bestemming — de originelen blijven precies waar ze zijn. Dit is het belangrijkste verschil met [Move](../move/): Copy voegt nieuwe entiteiten toe aan de tekening; Move verplaatst bestaande entiteiten.
+Het commando `Kopiëren` maakt verplaatste duplicaten van geselecteerde entiteiten en plaatst deze verschoven van een basispunt naar een bestemming — de originelen blijven precies waar ze zijn. Dit is het belangrijkste verschil met [Move](../move/): Copy voegt nieuwe entiteiten toe aan de tekening; Move verplaatst bestaande entiteiten.
 
 ## Twee manieren om te starten
 
 **Eerst selecteren, dan kopiëren** — selecteer eerst entiteiten en activeer daarna:
 
 1. Selecteer een of meer entiteiten op het canvas.
-2. Typ `copy` in de terminal of klik op de werkbalkknop **Copy**.
+2. Typ `Kopiëren` in de terminal of klik op de werkbalkknop **Copy**.
 3. **Klik op het basispunt**, of typ `X,Y` en druk op **Enter** voor een exacte coördinaat.
 4. **Klik op de bestemming** — duplicaten verschijnen op de verschuiving basispunt→bestemming. Coördinaatinvoer werkt hier ook.
 
 **Eerst activeren, dan selecteren** — start het commando zonder dat er iets geselecteerd is:
 
-1. Typ `copy` of klik op de werkbalkknop.
+1. Typ `Kopiëren` of klik op de werkbalkknop.
 2. **Selecteer objecten** — klik om afzonderlijke entiteiten aan/uit te zetten, of sleep om per gebied te selecteren.
 3. Druk op **Enter** of **Spatie** om de selectie te bevestigen.
 4. **Klik op het basispunt**, klik daarna op de **bestemming** (coördinaatinvoer beschikbaar bij beide stappen).

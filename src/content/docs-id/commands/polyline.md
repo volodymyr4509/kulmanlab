@@ -8,13 +8,13 @@ order: 2
 
 # Polyline
 
-Perintah `polyline` menggambar jalur terhubung dengan sejumlah segmen lurus atau busur, semua disimpan sebagai satu entitas `LWPOLYLINE`. Karena seluruh jalur adalah satu objek, memilihnya memilih setiap segmen sekaligus — pindahkan, putar, atau skalakan seluruh bentuk dalam satu operasi. Ini adalah perbedaan utama dari [Line](../line/) yang dirantai, di mana setiap segmen adalah entitas independen.
+Perintah `Polyline` menggambar jalur terhubung dengan sejumlah segmen lurus atau busur, semua disimpan sebagai satu entitas `LWPOLYLINE`. Karena seluruh jalur adalah satu objek, memilihnya memilih setiap segmen sekaligus — pindahkan, putar, atau skalakan seluruh bentuk dalam satu operasi. Ini adalah perbedaan utama dari [Line](../line/) yang dirantai, di mana setiap segmen adalah entitas independen.
 
 Polyline juga bisa **ditutup**: perintah [Rectangle](../rectangle/) menggunakan entitas `LWPOLYLINE` yang sama dengan flag close yang diatur.
 
 ## Menggambar polyline
 
-1. Ketik `polyline` di terminal atau klik tombol toolbar **Polyline**.
+1. Ketik `Polyline` di terminal atau klik tombol toolbar **Polyline**.
 2. **Klik titik pertama**, atau ketik `X,Y` dan tekan **Enter** untuk koordinat tepat.
 3. **Klik setiap titik berikutnya** — setiap klik menambah segmen. Entri koordinat bekerja di setiap langkah.
 4. Tekan **Enter** atau **Space** untuk selesai (membutuhkan setidaknya 2 titik yang ditempatkan).

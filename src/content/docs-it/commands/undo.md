@@ -8,11 +8,11 @@ order: 13
 
 # Undo
 
-Il comando `undo` inverte l'ultima modifica al disegno — uno step per invocazione. Ogni aggiunta, eliminazione o modifica di entità viene registrata come una voce separata nella cronologia. Undo torna indietro attraverso queste voci in ordine inverso.
+Il comando `Annulla` inverte l'ultima modifica al disegno — uno step per invocazione. Ogni aggiunta, eliminazione o modifica di entità viene registrata come una voce separata nella cronologia. Undo torna indietro attraverso queste voci in ordine inverso.
 
 ## Come eseguire l'undo
 
-- Digita `undo` nel terminale, oppure
+- Digita `Annulla` nel terminale, oppure
 - Clicca il pulsante **Undo** nella barra degli strumenti.
 
 Ogni invocazione inverte un'azione registrata. Invocalo ripetutamente per tornare ulteriormente indietro.

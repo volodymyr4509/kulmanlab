@@ -8,13 +8,13 @@ order: 11
 
 # Fillet
 
-`fillet` komutu, iki [Çizgi](../line/), [Yay](../arc/) veya [Çoklu Çizgi](../polyline/) segmenti arasındaki köşeyi, verilen yarıçapta bir teğet yay ekleyerek yuvarlar ve seçilen nesneleri bu noktaya kadar kırpar (veya birleştirir).
+`Yuvarla` komutu, iki [Çizgi](../line/), [Yay](../arc/) veya [Çoklu Çizgi](../polyline/) segmenti arasındaki köşeyi, verilen yarıçapta bir teğet yay ekleyerek yuvarlar ve seçilen nesneleri bu noktaya kadar kırpar (veya birleştirir).
 
 Fillet, **Çizgi, Yay ve Çoklu Çizgi** nesneleri üzerinde çalışır — bir çoklu çizginin kendi düz veya yay segmentleri dahil.
 
 ## Fillet Nasıl Kullanılır
 
-1. Terminale `fillet` yazın veya araç çubuğundaki **Fillet** düğmesine basın.
+1. Terminale `Yuvarla` yazın veya araç çubuğundaki **Fillet** düğmesine basın.
 2. **Fillet yarıçapını girin** ve **Enter** tuşuna basın.
 3. **Birinci çizgi, yay veya çoklu çizgi segmentini tıklayın** — tıkladığınız kısım, herhangi bir kesişimin hangi tarafının korunacağını belirler.
 4. **İkinci nesnenin üzerine gelin** — kesik çizgili yay önizlemesi ortaya çıkacak filleti gösterir. İmleci korumak istediğiniz tarafa doğru hareket ettirin.

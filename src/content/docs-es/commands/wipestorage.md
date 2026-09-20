@@ -8,7 +8,7 @@ order: 7
 
 # Wipe Storage
 
-El comando `wipestorage` elimina permanentemente **todos los datos almacenados en el navegador** para KulmanLab CAD — cada archivo guardado, tabla de capas y tipos de línea, e historial de deshacer. La página se recarga automáticamente después.
+El comando `BorrarAlmacenamiento` elimina permanentemente **todos los datos almacenados en el navegador** para KulmanLab CAD — cada archivo guardado, tabla de capas y tipos de línea, e historial de deshacer. La página se recarga automáticamente después.
 
 :::danger Irreversible
 Esta acción no se puede deshacer. Todos los archivos almacenados en el navegador se eliminan. Exporta cualquier dibujo que quieras conservar como archivos `.json` o `.dxf` antes de ejecutar este comando.
@@ -22,7 +22,7 @@ Esta acción no se puede deshacer. Todos los archivos almacenados en el navegado
 
 ## Cómo ejecutarlo
 
-1. Escribe `wipestorage` en el terminal y pulsa **Enter**.
+1. Escribe `BorrarAlmacenamiento` en el terminal y pulsa **Enter**.
 2. El terminal pregunta: *¿Borrar todo el almacenamiento local del navegador? Escribe YES para confirmar*
 3. Escribe `YES` (cualquier capitalización) y pulsa **Enter**.
 

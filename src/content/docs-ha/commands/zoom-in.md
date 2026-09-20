@@ -8,11 +8,11 @@ order: 2
 
 # Zoom In
 
-Umarnin `zoomin` yana ninka matakin zoom na yanzu da **1.5×** kuma yana fita nan take, an ma tsakiya a tsakiyar viewport. Wannan shine kamancin kayan aiki na tik ɗaya na gilashin gilma da aka zoom zuwa tsakiyar allo maimakon mai nuni.
+Umarnin `Kusanta` yana ninka matakin zoom na yanzu da **1.5×** kuma yana fita nan take, an ma tsakiya a tsakiyar viewport. Wannan shine kamancin kayan aiki na tik ɗaya na gilashin gilma da aka zoom zuwa tsakiyar allo maimakon mai nuni.
 
 ## Ƙara girman kallon
 
-Danna maɓallin kayan aiki na **Zoom In** ko rubuta `zoomin` a tashar umarni. Ana amfani da zoom nan take kuma umarnin yana fita — ba a bukatar dannawa a kan canvas.
+Danna maɓallin kayan aiki na **Zoom In** ko rubuta `Kusanta` a tashar umarni. Ana amfani da zoom nan take kuma umarnin yana fita — ba a bukatar dannawa a kan canvas.
 
 ## Yadda mataki na 1.5× ke aiki
 

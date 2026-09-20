@@ -8,11 +8,11 @@ order: 2
 
 # Zoom In
 
-Kommandoen `zoomin` multiplicerer det aktuelle zoomniveau med **1,5×** og afslutter med det samme, centreret på viewportens midtpunkt. Det er værktøjslinje-modstykket til ét rullehjulshak zoomet mod skærmens centrum i stedet for markøren.
+Kommandoen `ZoomInd` multiplicerer det aktuelle zoomniveau med **1,5×** og afslutter med det samme, centreret på viewportens midtpunkt. Det er værktøjslinje-modstykket til ét rullehjulshak zoomet mod skærmens centrum i stedet for markøren.
 
 ## Zoome ind
 
-Klik på **Zoom In**-knappen i værktøjslinjen eller skriv `zoomin` i terminalen. Zoomen anvendes øjeblikkeligt, og kommandoen afsluttes — intet klik på lærredet nødvendigt.
+Klik på **Zoom In**-knappen i værktøjslinjen eller skriv `ZoomInd` i terminalen. Zoomen anvendes øjeblikkeligt, og kommandoen afsluttes — intet klik på lærredet nødvendigt.
 
 ## Hvordan 1,5×-trinnet fungerer
 

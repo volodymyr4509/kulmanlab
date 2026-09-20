@@ -8,7 +8,7 @@ order: 12
 
 # Chamfer
 
-Amri ya `chamfer` inakata kona ya diagonal ya moja kwa moja kati ya vipengele viwili vya [Line](../line/) au [Polyline](../polyline/). Unabainisha umbali wa kukata nyuma kando ya kila kipengele (d1 na d2), na amri inakata vipengele vyote viwili hadi pointi hizo na kuingiza mstari wa kuunganisha kati yao.
+Amri ya `Chonga` inakata kona ya diagonal ya moja kwa moja kati ya vipengele viwili vya [Line](../line/) au [Polyline](../polyline/). Unabainisha umbali wa kukata nyuma kando ya kila kipengele (d1 na d2), na amri inakata vipengele vyote viwili hadi pointi hizo na kuingiza mstari wa kuunganisha kati yao.
 
 Kutumia umbali sawasawa kunazalisha mkato wa 45° ulio sawasawa; umbali tofauti unazalisha bevel isiyo sawasawa.
 
@@ -16,7 +16,7 @@ Chamfer inafanya kazi kwenye vipengele vya **Line na Polyline**.
 
 ## Kutumia chamfer
 
-1. Andika `chamfer` kwenye terminal au bonyeza kitufe cha upau wa zana cha **Chamfer**.
+1. Andika `Chonga` kwenye terminal au bonyeza kitufe cha upau wa zana cha **Chamfer**.
 2. **Andika umbali wa kwanza wa chamfer** (d1 — umbali kando ya kipengele cha kwanza) na ubonyeze **Enter**.
 3. **Andika umbali wa pili wa chamfer** (d2 — umbali kando ya kipengele cha pili) na ubonyeze **Enter**.
 4. **Bonyeza kipengele cha kwanza** — sehemu unayobonyeza inaamua upande gani wa makutano yoyote unaobakilishwa.

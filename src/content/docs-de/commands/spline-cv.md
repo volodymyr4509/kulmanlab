@@ -8,11 +8,11 @@ order: 8
 
 # Spline CV
 
-Der `splinecv`-Befehl zeichnet einen **kubischen B-Spline** durch Platzieren von Kontrollpunkten (CVs). Die resultierende Kurve wird zu jedem CV hingezogen, verläuft aber nicht durch sie — ausgenommen beim allerersten und letzten Eckpunkt, wo **eingespannte Knoten** die Kurve exakt verankern. Dies gibt Ihnen intuitive Formkontrolle: Ziehen Sie einen Punkt, um die Kurve dorthin zu schieben, ohne sie zu zwingen, jeden Punkt zu berühren.
+Der `SplineKontrollpunkte`-Befehl zeichnet einen **kubischen B-Spline** durch Platzieren von Kontrollpunkten (CVs). Die resultierende Kurve wird zu jedem CV hingezogen, verläuft aber nicht durch sie — ausgenommen beim allerersten und letzten Eckpunkt, wo **eingespannte Knoten** die Kurve exakt verankern. Dies gibt Ihnen intuitive Formkontrolle: Ziehen Sie einen Punkt, um die Kurve dorthin zu schieben, ohne sie zu zwingen, jeden Punkt zu berühren.
 
 ## Einen Spline durch Kontrollpunkte zeichnen
 
-1. Geben Sie `splinecv` im Terminal ein oder klicken Sie auf die **Spline CV**-Schaltfläche in der Werkzeugleiste.
+1. Geben Sie `SplineKontrollpunkte` im Terminal ein oder klicken Sie auf die **Spline CV**-Schaltfläche in der Werkzeugleiste.
 2. **Klicken Sie zum Platzieren von Kontrollpunkten** — jeder Klick fügt einen Punkt hinzu. Oder geben Sie `X,Y` ein und drücken Sie **Enter** für eine exakte Koordinate.
 3. Drücken Sie **Enter** oder **Space** zum Fertigstellen (mindestens 2 Punkte erforderlich).
 

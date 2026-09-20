@@ -8,13 +8,13 @@ order: 0
 
 # Text
 
-Umarnin `text` yana sanya alamar rubutu mai layi da yawa. Bayan ka danna matsayi a kan canvas, naʼurar gyaran popup tana buɗewa a **rich** mode — za ka iya rubuta abin ciki, yi amfani da mai-nauyi/karkatacce/kan-tsallake ga kowane harafi, canza fonts da tsayi, da sanya karyewar layi. Danna **Escape** don tabbatarwa ka rufe naʼurar.
+Umarnin `Rubutu` yana sanya alamar rubutu mai layi da yawa. Bayan ka danna matsayi a kan canvas, naʼurar gyaran popup tana buɗewa a **rich** mode — za ka iya rubuta abin ciki, yi amfani da mai-nauyi/karkatacce/kan-tsallake ga kowane harafi, canza fonts da tsayi, da sanya karyewar layi. Danna **Escape** don tabbatarwa ka rufe naʼurar.
 
 Duba shafin [Naʼurar Gyaran Rubutu](../../interface/text-editor/) don cikakken bayanin editan, ciki har da kwatance na yanayin **rich** da **simple**.
 
 ## Sanya alamar rubutu
 
-1. Rubuta `text` a tashar umarni ko danna maɓallin kayan aiki na **Text**.
+1. Rubuta `Rubutu` a tashar umarni ko danna maɓallin kayan aiki na **Text**.
 2. **Danna matsayin anchor** a kan canvas. Ko rubuta `X,Y` ka danna **Enter** don daidaitawa madaidaiciya.
 3. **Popup na naʼurar gyaran rubutu** yana buɗewa a saman sabuwar alama. Rubuta abin cikinka.
 4. Danna **Escape** don tabbatar da alamar ka rufe naʼurar.

@@ -8,17 +8,17 @@ order: 1
 
 # Match Properties
 
-La commande `MatchProperties` copie les **propriétés visuelles et de calque** d'une entité source vers une ou plusieurs entités cibles. Seules les propriétés partagées entre les types d'entité source et cible sont transférées — la géométrie n'est jamais modifiée.
+La commande `CopierPropriétés` copie les **propriétés visuelles et de calque** d'une entité source vers une ou plusieurs entités cibles. Seules les propriétés partagées entre les types d'entité source et cible sont transférées — la géométrie n'est jamais modifiée.
 
 ## Comment l'activer
 
-Cliquez sur le bouton **Match Properties** dans la barre d'outils (icône rouleau de peinture) dans le panneau Style, ou tapez `MatchProperties` dans le terminal.
+Cliquez sur le bouton **Match Properties** dans la barre d'outils (icône rouleau de peinture) dans le panneau Style, ou tapez `CopierPropriétés` dans le terminal.
 
 ## Flux de travail
 
 **Activer d'abord, puis sélectionner la source :**
 
-1. Tapez `MatchProperties` ou cliquez sur le bouton de la barre d'outils sans rien de pré-sélectionné.
+1. Tapez `CopierPropriétés` ou cliquez sur le bouton de la barre d'outils sans rien de pré-sélectionné.
 2. **Cliquez sur l'entité source** — celle dont vous souhaitez copier les propriétés.
 3. **Cliquez sur chaque entité cible** pour appliquer les propriétés de la source. Vous pouvez cliquer sur plusieurs entités une par une.
 4. Pour appliquer à un groupe à la fois, **faites glisser un cadre de sélection** sur les cibles.
@@ -27,7 +27,7 @@ Cliquez sur le bouton **Match Properties** dans la barre d'outils (icône roulea
 **Pré-sélectionner la source puis activer :**
 
 1. Cliquez sur une seule entité pour la sélectionner.
-2. Activez `MatchProperties`. L'entité sélectionnée est automatiquement utilisée comme source.
+2. Activez `CopierPropriétés`. L'entité sélectionnée est automatiquement utilisée comme source.
 3. Cliquez sur les entités cibles ou faites glisser pour sélectionner, puis **Entrée** ou **Échap** pour terminer.
 
 ## Quelles propriétés sont copiées

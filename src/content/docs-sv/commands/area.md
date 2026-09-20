@@ -8,7 +8,7 @@ order: 3
 
 # Area
 
-`area`-kommandot mäter den inneslutna arean och omkretsen av en polygon definierad av tre eller fler klickade punkter, och skriver ut båda resultaten i terminalen med 4 decimalers precision. Det är det tredje mätkommandot, tillsammans med [Distance](../distance/) (rak längd) och [Angle](../angle/) (inre vinkel vid en vertex).
+`Area`-kommandot mäter den inneslutna arean och omkretsen av en polygon definierad av tre eller fler klickade punkter, och skriver ut båda resultaten i terminalen med 4 decimalers precision. Det är det tredje mätkommandot, tillsammans med [Distance](../distance/) (rak längd) och [Angle](../angle/) (inre vinkel vid en vertex).
 
 ## Anatomi av en areamätning
 
@@ -30,7 +30,7 @@ order: 3
 
 ## Mäta en area
 
-1. Skriv `area` i terminalen eller klicka på **Area**-knappen i verktygsfältet (nedre raden i Measure-panelen).
+1. Skriv `Area` i terminalen eller klicka på **Area**-knappen i verktygsfältet (nedre raden i Measure-panelen).
 2. **Klicka på första punkten**, eller skriv `X,Y` och tryck **Enter** för en exakt koordinat.
 3. **Klicka på varje ytterligare hörn** i ordning runt formen. Koordinatinmatning fungerar i varje steg.
 4. När minst **3 punkter** har placerats, tryck **Enter** eller **Space** (utan väntande koordinat- eller avståndsinmatning) för att stänga polygonen och beräkna resultatet.
@@ -93,5 +93,5 @@ Istället för att klicka kan du skriva en exakt position för valfritt hörn:
 - Arean beräknas med shoelace-formeln och redovisas alltid som ett positivt värde, oavsett klickordning.
 - Självkorsande polygoner (kanter som korsar varandra) ger fortfarande ett numeriskt resultat, men värdet kanske inte motsvarar det visuellt inneslutna området — behåll en icke-korsande klickordning för en meningsfull area.
 - Resultat visas endast i **terminalen och som en tillfällig markering på ritytan** — inget läggs till permanent i ritningen.
-- Till skillnad från Distance och Angle kedjar Area **inte** automatiskt en ny mätning — efter att resultatet avfärdats, kör `area` igen för att mäta en annan polygon.
+- Till skillnad från Distance och Angle kedjar Area **inte** automatiskt en ny mätning — efter att resultatet avfärdats, kör `Area` igen för att mäta en annan polygon.
 - Precisionen är alltid 4 decimaler för både area och omkrets, i samma enheter som ritningens koordinater (ingen enhetskonvertering).

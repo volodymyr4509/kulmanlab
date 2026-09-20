@@ -8,13 +8,13 @@ order: 0
 
 # Text
 
-Het `text`-commando plaatst een meerregelig tekstlabel. Nadat u een positie op het canvas heeft aangeklikt, opent een pop-up editor in **rijke** modus — u kunt inhoud typen, per teken vet/cursief/onderstrepen/doorhalen toepassen, lettertypen en hoogtes wijzigen, en regelafbrekingen invoegen. Druk op **Escape** om te bevestigen en de editor te sluiten.
+Het `Tekst`-commando plaatst een meerregelig tekstlabel. Nadat u een positie op het canvas heeft aangeklikt, opent een pop-up editor in **rijke** modus — u kunt inhoud typen, per teken vet/cursief/onderstrepen/doorhalen toepassen, lettertypen en hoogtes wijzigen, en regelafbrekingen invoegen. Druk op **Escape** om te bevestigen en de editor te sluiten.
 
 Zie de [Text Editor](../../interface/text-editor/)-pagina voor de volledige editorreferentie, inclusief een vergelijking van de modi **rijk** en **eenvoudig**.
 
 ## Een tekstlabel plaatsen
 
-1. Typ `text` in de terminal of klik op de **Text**-werkbalkknop.
+1. Typ `Tekst` in de terminal of klik op de **Text**-werkbalkknop.
 2. **Klik de ankerpositie** aan op het canvas. Of typ `X,Y` en druk op **Enter** voor een exacte coördinaat.
 3. De **tekst-editor pop-up** opent boven het nieuwe label. Typ uw inhoud.
 4. Druk op **Escape** om het label te bevestigen en de editor te sluiten.

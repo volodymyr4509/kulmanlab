@@ -8,11 +8,11 @@ order: 4
 
 # Hatch Manager
 
-La commande `HatchManager` ouvre une boîte de dialogue pour parcourir les motifs de hachures avec un aperçu d'échantillon en direct, et pour téléverser vos propres fichiers de motifs `.pat` à utiliser avec [Hatch](../hatch/).
+La commande `GestionnaireHachures` ouvre une boîte de dialogue pour parcourir les motifs de hachures avec un aperçu d'échantillon en direct, et pour téléverser vos propres fichiers de motifs `.pat` à utiliser avec [Hatch](../hatch/).
 
 ## Ouvrir le Hatch Manager
 
-Tapez `HatchManager` dans le terminal. Ceci est distinct du sélecteur de motifs qui s'ouvre lorsque vous cliquez sur la puce **Pattern** d'un hatch — le sélecteur choisit un motif pour un seul hatch, le Hatch Manager est l'endroit où vous ajoutez ou supprimez des fichiers `.pat`.
+Tapez `GestionnaireHachures` dans le terminal. Ceci est distinct du sélecteur de motifs qui s'ouvre lorsque vous cliquez sur la puce **Pattern** d'un hatch — le sélecteur choisit un motif pour un seul hatch, le Hatch Manager est l'endroit où vous ajoutez ou supprimez des fichiers `.pat`.
 
 ## Groupes de motifs
 

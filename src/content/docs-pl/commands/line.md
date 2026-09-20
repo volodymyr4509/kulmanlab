@@ -8,11 +8,11 @@ order: 1
 
 # Line
 
-Polecenie `line` rysuje pojedyncze prostoliniowe odcinki przechowywane jako oddzielne elementy `LINE` w modelu DXF. Po każdym segmencie polecenie pozostaje aktywne i ponownie używa punktu końcowego jako nowego punktu startowego, dzięki czemu można budować połączone ścieżki jeden segment na raz. W odróżnieniu od [Polyline](../polyline/), połączone linie pozostają niezależnymi elementami — każdą z nich można przyciąć, przedłużyć lub usunąć bez wpływu na sąsiednie.
+Polecenie `Linia` rysuje pojedyncze prostoliniowe odcinki przechowywane jako oddzielne elementy `LINE` w modelu DXF. Po każdym segmencie polecenie pozostaje aktywne i ponownie używa punktu końcowego jako nowego punktu startowego, dzięki czemu można budować połączone ścieżki jeden segment na raz. W odróżnieniu od [Polyline](../polyline/), połączone linie pozostają niezależnymi elementami — każdą z nich można przyciąć, przedłużyć lub usunąć bez wpływu na sąsiednie.
 
 ## Rysowanie linii
 
-1. Wpisz `line` w terminalu lub kliknij przycisk **Linia** na pasku narzędzi.
+1. Wpisz `Linia` w terminalu lub kliknij przycisk **Linia** na pasku narzędzi.
 2. **Kliknij punkt startowy** lub wpisz `X,Y` i naciśnij **Enter** dla dokładnej współrzędnej.
 3. **Kliknij punkt końcowy** — segment jest umieszczany, a punkt końcowy staje się następnym punktem startowym. Tutaj również działa wprowadzanie współrzędnych.
 4. Kontynuuj klikanie (lub wpisywanie), aby łączyć więcej segmentów.

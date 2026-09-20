@@ -8,11 +8,11 @@ order: 18
 
 # ClipboardPaste
 
-Amri ya `ClipboardPaste` husoma vitu ambavyo [ClipboardCopy](../clipboard-copy/) iliandika kwenye **ubao wa kunakili wa mfumo** na kuviweka kwenye mchoro wa sasa mahali unapochagua. Kwa kuwa ubao wa kunakili ni ule halisi wa mfumo, chanzo kinaweza kuwa mchoro mwingine, kichupo kingine cha kivinjari, au kipindi cha mapema siku hiyo.
+Amri ya `BandikaKutokaUbao` husoma vitu ambavyo [ClipboardCopy](../clipboard-copy/) iliandika kwenye **ubao wa kunakili wa mfumo** na kuviweka kwenye mchoro wa sasa mahali unapochagua. Kwa kuwa ubao wa kunakili ni ule halisi wa mfumo, chanzo kinaweza kuwa mchoro mwingine, kichupo kingine cha kivinjari, au kipindi cha mapema siku hiyo.
 
 ## Jinsi ya kubandika
 
-1. Bonyeza `Ctrl+V` (`Cmd+V` kwenye macOS), au andika `ClipboardPaste` kwenye terminali.
+1. Bonyeza `Ctrl+V` (`Cmd+V` kwenye macOS), au andika `BandikaKutokaUbao` kwenye terminali.
 2. Kidokezo huonyesha **reading clipboard…** wakati kivinjari kinakabidhi maandishi ya ubao wa kunakili.
 3. Baada ya kupakiwa, kidokezo hubadilika kuwa **pick insertion point** na muhtasari wa jiometri hufuata kishale chako.
 4. **Bofya** kuweka vitu. Vinaongezwa kwenye mchoro na kubaki vimechaguliwa.

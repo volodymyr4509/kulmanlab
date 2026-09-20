@@ -8,11 +8,11 @@ order: 9
 
 # Dimension Angular
 
-Perintah `DimensionAngular` menempatkan anotasi **dimensi sudut** busur pada gambar. Perintah ini mengukur dan memberi label pada sudut antara dua garis, rentang busur, atau sektor lingkaran.
+Perintah `DimensiSudut` menempatkan anotasi **dimensi sudut** busur pada gambar. Perintah ini mengukur dan memberi label pada sudut antara dua garis, rentang busur, atau sektor lingkaran.
 
 ## Cara mengaktifkan
 
-Klik tombol toolbar **Dimension Angular** di panel Markup, atau ketik `DimensionAngular` di terminal.
+Klik tombol toolbar **Dimension Angular** di panel Markup, atau ketik `DimensiSudut` di terminal.
 
 ## Tiga mode input
 
@@ -47,7 +47,7 @@ Garis paralel tidak dapat membentuk dimensi sudut; perintah mengabaikan klik ked
 
 - Busur dimensi selalu digambar di sisi vertex tempat Anda menempatkannya — gerakkan kursor melintasi vertex untuk beralih ke sudut suplemen.
 - Sudut yang diukur ditampilkan dalam derajat dan diperbarui secara langsung saat Anda menggerakkan kursor selama penempatan.
-- Anotasi yang dihasilkan adalah entitas `DimensionAngular` penuh yang disimpan pada layer saat ini. Properti tampilannya (ukuran panah, tinggi teks, panjang garis ekstensi) dapat disesuaikan di panel Properti.
+- Anotasi yang dihasilkan adalah entitas `DimensiSudut` penuh yang disimpan pada layer saat ini. Properti tampilannya (ukuran panah, tinggi teks, panjang garis ekstensi) dapat disesuaikan di panel Properti.
 - Dimensi sudut diekspor ke JSON maupun DXF, dan di DXF ditulis sebagai entitas `DIMENSION` standar.
 
 ## Mengedit label — mode sederhana

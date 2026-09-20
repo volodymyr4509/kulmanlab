@@ -8,11 +8,11 @@ order: 9
 
 # Dimension Angular
 
-La commande `DimensionAngular` place une annotation de **cote angulaire** en arc sur le dessin. Elle mesure et étiquète l'angle entre deux lignes, l'étendue d'un arc ou le secteur d'un cercle.
+La commande `CoteAngulaire` place une annotation de **cote angulaire** en arc sur le dessin. Elle mesure et étiquète l'angle entre deux lignes, l'étendue d'un arc ou le secteur d'un cercle.
 
 ## Comment activer
 
-Cliquez sur le bouton **Dimension Angular** dans la barre d'outils du panneau Annotations, ou tapez `DimensionAngular` dans le terminal.
+Cliquez sur le bouton **Dimension Angular** dans la barre d'outils du panneau Annotations, ou tapez `CoteAngulaire` dans le terminal.
 
 ## Trois modes de saisie
 
@@ -47,7 +47,7 @@ Les lignes parallèles ne peuvent pas former une cote angulaire ; la commande ig
 
 - L'arc de cote est toujours dessiné du côté du sommet où vous le placez — déplacez le curseur de l'autre côté du sommet pour passer à l'angle supplémentaire.
 - L'angle mesuré s'affiche en degrés et se met à jour en direct pendant que vous déplacez le curseur lors du placement.
-- L'annotation résultante est une entité `DimensionAngular` complète stockée dans le calque courant. Ses propriétés d'apparence (taille de flèche, hauteur de texte, longueur de ligne d'extension) peuvent être ajustées dans le panneau Propriétés.
+- L'annotation résultante est une entité `CoteAngulaire` complète stockée dans le calque courant. Ses propriétés d'apparence (taille de flèche, hauteur de texte, longueur de ligne d'extension) peuvent être ajustées dans le panneau Propriétés.
 - Les cotes angulaires s'exportent en JSON comme en DXF, et sont écrites en DXF sous forme d'entités `DIMENSION` standard.
 
 ## Modifier le libellé — simple mode

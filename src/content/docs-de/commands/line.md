@@ -8,11 +8,11 @@ order: 1
 
 # Line
 
-Der Befehl `line` zeichnet einzelne gerade Liniensegmente, die als separate `LINE`-Entitäten im DXF-Modell gespeichert werden. Nach jedem Segment bleibt der Befehl aktiv und verwendet den Endpunkt als neuen Startpunkt, sodass Sie verknüpfte Pfade Segment für Segment aufbauen können. Im Gegensatz zu einer [Polylinie](../polyline/) bleiben verkettete Linien unabhängige Entitäten — jede kann getrimmt, verlängert oder gelöscht werden, ohne ihre Nachbarn zu beeinflussen.
+Der Befehl `Linie` zeichnet einzelne gerade Liniensegmente, die als separate `LINE`-Entitäten im DXF-Modell gespeichert werden. Nach jedem Segment bleibt der Befehl aktiv und verwendet den Endpunkt als neuen Startpunkt, sodass Sie verknüpfte Pfade Segment für Segment aufbauen können. Im Gegensatz zu einer [Polylinie](../polyline/) bleiben verkettete Linien unabhängige Entitäten — jede kann getrimmt, verlängert oder gelöscht werden, ohne ihre Nachbarn zu beeinflussen.
 
 ## Linien zeichnen
 
-1. Geben Sie `line` im Terminal ein oder klicken Sie auf die Schaltfläche **Line** in der Symbolleiste.
+1. Geben Sie `Linie` im Terminal ein oder klicken Sie auf die Schaltfläche **Line** in der Symbolleiste.
 2. **Klicken Sie auf den Startpunkt** oder geben Sie `X,Y` ein und drücken Sie **Enter** für eine genaue Koordinate.
 3. **Klicken Sie auf den Endpunkt** — das Segment wird platziert und der Endpunkt wird zum nächsten Startpunkt. Koordinateneingabe funktioniert hier ebenfalls.
 4. Klicken (oder tippen) Sie weiter, um weitere Segmente zu verketten.

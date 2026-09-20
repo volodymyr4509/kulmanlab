@@ -8,11 +8,11 @@ order: 3
 
 # FontAdd
 
-Kommandoen `FontAdd` åbner systemets filvælger til at uploade en brugerdefineret `.ttf`-skrifttype, uden først at åbne dialogen [Font Manager](../font-manager/). Det er den samme upload, som knappen **Add Font** i Font Manager udløser — FontAdd er bare en direkte vej dertil fra terminalen.
+Kommandoen `SkrifttypeTilføj` åbner systemets filvælger til at uploade en brugerdefineret `.ttf`-skrifttype, uden først at åbne dialogen [Font Manager](../font-manager/). Det er den samme upload, som knappen **Add Font** i Font Manager udløser — FontAdd er bare en direkte vej dertil fra terminalen.
 
 ## Uploade en skrifttype
 
-1. Skriv `FontAdd` i terminalen, eller klik **Add Font** i bunden af dialogen [Font Manager](../font-manager/).
+1. Skriv `SkrifttypeTilføj` i terminalen, eller klik **Add Font** i bunden af dialogen [Font Manager](../font-manager/).
 2. Vælg en `.ttf`-fil i systemets filvælger. Kun TrueType-skrifttyper understøttes — `.otf` og `.woff`/`.woff2` understøttes ikke.
 
 Kommandoen afsluttes, så snart filvælgeren åbner — der følger ikke yderligere klik eller terminalinput. Skrifttypen registreres og vises i **User**-gruppen, så snart filen er valgt.

@@ -8,18 +8,18 @@ order: 7
 
 # Delete
 
-Amri ya `delete` huondoa vipengele vilivyochaguliwa kutoka kwenye mchoro. Ufutaji unaweza kutendulewa na [Undo](../undo/). Ikiwa vipengele vilichaguliwa kabla ya kuamilisha amri, vinafutwa mara moja bila hatua yoyote ya ziada.
+Amri ya `Futa` huondoa vipengele vilivyochaguliwa kutoka kwenye mchoro. Ufutaji unaweza kutendulewa na [Undo](../undo/). Ikiwa vipengele vilichaguliwa kabla ya kuamilisha amri, vinafutwa mara moja bila hatua yoyote ya ziada.
 
 ## Njia mbili za kufuta
 
 ### Chagua kwanza, kisha futa
 
 1. **Chagua vipengele** kwenye skrini kwa kubonyeza au kuburuta sanduku la uchaguzi.
-2. **Andika `delete`** kwenye terminal, bonyeza kitufe cha **Delete** kwenye upau wa zana, au bonyeza kitufe cha **Delete** kwenye kibodi. Vipengele vilivyochaguliwa vinafutwa mara moja.
+2. **Andika `Futa`** kwenye terminal, bonyeza kitufe cha **Delete** kwenye upau wa zana, au bonyeza kitufe cha **Delete** kwenye kibodi. Vipengele vilivyochaguliwa vinafutwa mara moja.
 
 ### Amilisha, kisha chagua
 
-1. **Andika `delete`** au bonyeza kitufe cha **Delete** kwenye upau wa zana (bila uchaguzi wowote wa awali).
+1. **Andika `Futa`** au bonyeza kitufe cha **Delete** kwenye upau wa zana (bila uchaguzi wowote wa awali).
 2. **Chagua vipengele** unavyotaka kufuta.
 3. **Bonyeza Enter** au **Space** kuthibitisha — vipengele vilivyochaguliwa vinafutwa.
 
@@ -48,7 +48,7 @@ Huhitaji kufungua amri kupitia terminal au upau wa zana kwanza.
 
 Ufutaji hauna wa kudumu katika kikao cha sasa. Tumia [Undo](../undo/) kurejesha vipengele vilivyofutwa:
 
-- Andika `undo` kwenye terminal, au
+- Andika `Tendua` kwenye terminal, au
 - Bonyeza mkato wa kibodi wa Undo (`Ctrl+Z` kwenye Windows/Linux, `Cmd+Z` kwenye macOS).
 
 [Redo](../redo/) inaweza kutumika kufuta tena baada ya kutendua iwapo umeamua kubadilisha mawazo yako.

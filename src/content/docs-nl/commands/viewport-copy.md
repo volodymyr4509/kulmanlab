@@ -8,13 +8,13 @@ order: 2
 
 # ViewportCopy
 
-Het `ViewportCopy`-commando kopieert een viewport naar een nieuwe positie, met behoud van de schaal en het middelpunt van het model. Alleen beschikbaar in layoutruimte.
+Het `VensterKopiëren`-commando kopieert een viewport naar een nieuwe positie, met behoud van de schaal en het middelpunt van het model. Alleen beschikbaar in layoutruimte.
 
 ## Een viewport kopiëren
 
 1. Schakel over naar een papierlayout-tabblad.
 2. Klik eventueel op een viewport om deze vooraf te selecteren.
-3. Typ `ViewportCopy` in de terminal of klik op de werkbalkknop **Viewport Copy**.
+3. Typ `VensterKopiëren` in de terminal of klik op de werkbalkknop **Viewport Copy**.
 4. Als er geen viewport vooraf is geselecteerd, **klik op de viewport** die u wilt kopiëren.
 5. **Klik op het basispunt** — de referentie voor de verplaatsing. Of typ `X,Y` en druk op **Enter** voor een exacte coördinaat.
 6. **Klik op de bestemming** — de viewport wordt geplaatst op de verschuiving basispunt→bestemming. Of gebruik coördinateninvoer / hoekvergrendeling.

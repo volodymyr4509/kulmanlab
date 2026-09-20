@@ -8,11 +8,11 @@ order: 3
 
 # LeaderRemove
 
-Amri ya `LeaderRemove` inaondoa mkono mmoja wa mshale kutoka kwa multileader iliyopo. Lebo ya maandishi, dogleg, na mikono yote iliyobaki inalindwa — mkono uliochaguliwa tu ndio unafutwa. Multileader yenye mkono mmoja tu haiwezi kuondolewa mkono wake.
+Amri ya `OndoaMkonoKiashiria` inaondoa mkono mmoja wa mshale kutoka kwa multileader iliyopo. Lebo ya maandishi, dogleg, na mikono yote iliyobaki inalindwa — mkono uliochaguliwa tu ndio unafutwa. Multileader yenye mkono mmoja tu haiwezi kuondolewa mkono wake.
 
 ## Kuondoa mkono
 
-1. Andika `LeaderRemove` kwenye terminal.
+1. Andika `OndoaMkonoKiashiria` kwenye terminal.
 2. **Bonyeza multileader** yenye mikono miwili au zaidi. Ikiwa kiongozi kilichobonyezwa kina mkono mmoja tu, terminal inaonyesha kosa na kusubiri uteuzi sahihi.
 3. **Sogeza mshale karibu na mkono** unaotaka kuondoa — mkono wa karibu zaidi unawakwa na alama.
 4. **Bonyeza** kuondoa mkono huo.

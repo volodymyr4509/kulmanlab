@@ -8,11 +8,11 @@ order: 8
 
 # Trim
 
-Umarnin `trim` yana cire sashen [Line](../line/), [Arc](../arc/), [Circle](../circle/), [Ellipse](../ellipse/) ko [Polyline](../polyline/) wanda ke tsakanin tabon mahaɗa biyu makwabta, yana rabe abu zuwa sashi ɗaya ko fiye da suka rage. Ana tantance sashen da za a yanke ta matsayin mai nuni — riƙe a kan sashen da kake son cirewa ka danna don yanke ta.
+Umarnin `Yanke` yana cire sashen [Line](../line/), [Arc](../arc/), [Circle](../circle/), [Ellipse](../ellipse/) ko [Polyline](../polyline/) wanda ke tsakanin tabon mahaɗa biyu makwabta, yana rabe abu zuwa sashi ɗaya ko fiye da suka rage. Ana tantance sashen da za a yanke ta matsayin mai nuni — riƙe a kan sashen da kake son cirewa ka danna don yanke ta.
 
 ## Yanke abu
 
-1. Rubuta `trim` a tashar umarni ko danna maɓallin kayan aiki na **Trim**.
+1. Rubuta `Yanke` a tashar umarni ko danna maɓallin kayan aiki na **Trim**.
 2. **Riƙe a kan sashen** da kake son cirewa — preview yana haskaka daidai sashen da za a yanke.
 3. **Danna** don cire wannan sashi.
 

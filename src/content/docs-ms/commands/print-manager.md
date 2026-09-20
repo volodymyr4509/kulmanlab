@@ -8,11 +8,11 @@ order: 4
 
 # Pengurus Cetak
 
-Arahan `PrintManager` membuka **Pengurus Cetak** — tetingkap eksport khusus dengan kanvas pratonton langsung, pemilih format (PNG / JPEG / WebP / PDF), pemilih Style (Default / Monochrome / Blueprint), dan pemangkasan kawasan pilihan. Tiada apa-apa yang dihantar ke pencetak fizikal; output dimuat turun sebagai fail.
+Arahan `PengurusCetak` membuka **Pengurus Cetak** — tetingkap eksport khusus dengan kanvas pratonton langsung, pemilih format (PNG / JPEG / WebP / PDF), pemilih Style (Default / Monochrome / Blueprint), dan pemangkasan kawasan pilihan. Tiada apa-apa yang dihantar ke pencetak fizikal; output dimuat turun sebagai fail.
 
 ## Membuka Pengurus Cetak
 
-Klik butang bar alat **Print** atau taip `PrintManager` dalam terminal. Pengurus Cetak terbuka serta-merta menunjukkan pratonton viewport semasa.
+Klik butang bar alat **Print** atau taip `PengurusCetak` dalam terminal. Pengurus Cetak terbuka serta-merta menunjukkan pratonton viewport semasa.
 
 Pratonton dipaparkan melalui laluan kod yang tepat sama, pada resolusi piksel yang tepat sama, seperti fail yang akhirnya anda eksport — menukar Quality, Style, atau kawasan eksport serta-merta memaparkan semula pratonton, jadi apa yang anda lihat adalah apa yang dimuat turun, bukan anggarannya.
 

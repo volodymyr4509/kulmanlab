@@ -8,13 +8,13 @@ order: 2
 
 # Polyline
 
-Ginuguhit ng `polyline` command ang magkakadugtong na path ng anumang bilang ng straight o arc segment, na lahat naka-save bilang iisang `LWPOLYLINE` entity. Dahil iisang object ang buong path, ang pagpili dito ay pumipili sa lahat ng segment nang sabay — ilipat, i-rotate, o i-scale ang buong hugis sa iisang operation. Ito ang pangunahing pagkakaiba mula sa kinadenang [Lines](../line/), kung saan independiyenteng entity ang bawat segment.
+Ginuguhit ng `Polilinya` command ang magkakadugtong na path ng anumang bilang ng straight o arc segment, na lahat naka-save bilang iisang `LWPOLYLINE` entity. Dahil iisang object ang buong path, ang pagpili dito ay pumipili sa lahat ng segment nang sabay — ilipat, i-rotate, o i-scale ang buong hugis sa iisang operation. Ito ang pangunahing pagkakaiba mula sa kinadenang [Lines](../line/), kung saan independiyenteng entity ang bawat segment.
 
 Puwede ring maging **closed** ang mga polyline: ginagamit ng [Rectangle](../rectangle/) command ang parehong `LWPOLYLINE` entity na may naka-set na close flag.
 
 ## Pagguhit ng Polyline
 
-1. I-type ang `polyline` sa terminal o i-click ang **Polyline** button sa toolbar.
+1. I-type ang `Polilinya` sa terminal o i-click ang **Polyline** button sa toolbar.
 2. **I-click ang unang punto**, o i-type ang `X,Y` at pindutin ang **Enter** para sa eksaktong coordinate.
 3. **I-click ang bawat susunod na punto** — bawat click ay nagdaragdag ng segment. Gumagana ang coordinate entry sa bawat hakbang.
 4. Pindutin ang **Enter** o **Space** para tapusin (nangangailangan ng hindi bababa sa 2 punto na nailagay na).

@@ -8,11 +8,11 @@ order: 1
 
 # Line
 
-Il comando `line` disegna singoli segmenti di linea retta memorizzati come entità `LINE` separate nel modello DXF. Dopo ogni segmento il comando rimane attivo e riutilizza l'endpoint come nuovo punto di partenza, così puoi costruire percorsi connessi un segmento alla volta. A differenza di una [Polilinea](../polyline/), le linee concatenate rimangono entità indipendenti — ciascuna può essere tagliata, estesa o eliminata senza influenzare le vicine.
+Il comando `Linea` disegna singoli segmenti di linea retta memorizzati come entità `LINE` separate nel modello DXF. Dopo ogni segmento il comando rimane attivo e riutilizza l'endpoint come nuovo punto di partenza, così puoi costruire percorsi connessi un segmento alla volta. A differenza di una [Polilinea](../polyline/), le linee concatenate rimangono entità indipendenti — ciascuna può essere tagliata, estesa o eliminata senza influenzare le vicine.
 
 ## Disegnare linee
 
-1. Digita `line` nel terminale o clicca il pulsante **Line** nella barra degli strumenti.
+1. Digita `Linea` nel terminale o clicca il pulsante **Line** nella barra degli strumenti.
 2. **Clicca il punto di partenza**, oppure digita `X,Y` e premi **Invio** per una coordinata esatta.
 3. **Clicca il punto finale** — il segmento viene posizionato e l'endpoint diventa il prossimo punto di partenza. Anche qui è disponibile l'inserimento coordinate.
 4. Continua a cliccare (o digitare) per concatenare più segmenti.

@@ -8,7 +8,7 @@ order: 12
 
 # Chamfer
 
-`chamfer` komutu, iki [Çizgi](../line/) veya [Çoklu Çizgi](../polyline/) nesnesi arasında düz köşegen bir pah keser. Her nesne boyunca ne kadar geri kesileceğini (d1 ve d2) belirtirsiniz; komut her iki nesneyi de bu noktalara kadar kırpar ve aralarına birleştirici bir çizgi ekler.
+`Pahla` komutu, iki [Çizgi](../line/) veya [Çoklu Çizgi](../polyline/) nesnesi arasında düz köşegen bir pah keser. Her nesne boyunca ne kadar geri kesileceğini (d1 ve d2) belirtirsiniz; komut her iki nesneyi de bu noktalara kadar kırpar ve aralarına birleştirici bir çizgi ekler.
 
 Eşit mesafeler kullanmak simetrik 45° pah üretir; farklı mesafeler asimetrik bir pah oluşturur.
 
@@ -16,7 +16,7 @@ Chamfer, **Çizgi ve Çoklu Çizgi** nesneleri üzerinde çalışır.
 
 ## Chamfer Nasıl Kullanılır
 
-1. Terminale `chamfer` yazın veya araç çubuğundaki **Chamfer** düğmesine tıklayın.
+1. Terminale `Pahla` yazın veya araç çubuğundaki **Chamfer** düğmesine tıklayın.
 2. **Birinci pah mesafesini girin** (d1 — birinci nesne boyunca mesafe) ve **Enter** tuşuna basın.
 3. **İkinci pah mesafesini girin** (d2 — ikinci nesne boyunca mesafe) ve **Enter** tuşuna basın.
 4. **Birinci nesneyi tıklayın** — tıkladığınız kısım, herhangi bir kesişimin hangi tarafının korunduğunu belirler.

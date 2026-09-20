@@ -8,13 +8,13 @@ order: 11
 
 # Fillet
 
-Kommandoen `fillet` avrunder et hjørne mellom to [Line](../line/)-, [Arc](../arc/)- eller [Polyline](../polyline/)-segmenter ved å sette inn en tangentbue med en gitt radius, og trimmer (eller slår sammen) de valgte entitetene til det punktet.
+Kommandoen `Avrund` avrunder et hjørne mellom to [Line](../line/)-, [Arc](../arc/)- eller [Polyline](../polyline/)-segmenter ved å sette inn en tangentbue med en gitt radius, og trimmer (eller slår sammen) de valgte entitetene til det punktet.
 
 Fillet fungerer på **Line-, Arc- og Polyline**-entiteter — inkludert en polylinjes egne rette eller buesegmenter.
 
 ## Bruke fillet
 
-1. Skriv `fillet` i terminalen eller klikk på **Fillet**-knappen i verktøylinjen.
+1. Skriv `Avrund` i terminalen eller klikk på **Fillet**-knappen i verktøylinjen.
 2. **Skriv inn fillet-radiusen** og trykk **Enter**.
 3. **Klikk den første linjen, buen eller polylinjesegmentet** — delen du klikker avgjør hvilken side av et eventuelt skjæringspunkt som beholdes.
 4. **Hold markøren over den andre entiteten** — en stiplet bue-forhåndsvisning viser den resulterende fileten. Flytt markøren til siden du vil beholde.

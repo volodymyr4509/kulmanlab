@@ -8,11 +8,11 @@ order: 4
 
 # Hatch Manager
 
-Kommandot `HatchManager` öppnar en dialogruta för att bläddra bland hatch-mönster med en live swatch-förhandsvisning, och för att ladda upp dina egna `.pat`-mönsterfiler att använda med [Hatch](../hatch/).
+Kommandot `Skrafferingshanterare` öppnar en dialogruta för att bläddra bland hatch-mönster med en live swatch-förhandsvisning, och för att ladda upp dina egna `.pat`-mönsterfiler att använda med [Hatch](../hatch/).
 
 ## Öppna Hatch Manager
 
-Skriv `HatchManager` i terminalen. Detta är skilt från mönsterväljaren som öppnas när du klickar på **Pattern**-chippet på en hatch — väljaren väljer ett mönster för en hatch, Hatch Manager är där du lägger till eller tar bort `.pat`-filer.
+Skriv `Skrafferingshanterare` i terminalen. Detta är skilt från mönsterväljaren som öppnas när du klickar på **Pattern**-chippet på en hatch — väljaren väljer ett mönster för en hatch, Hatch Manager är där du lägger till eller tar bort `.pat`-filer.
 
 ## Mönstergrupper
 

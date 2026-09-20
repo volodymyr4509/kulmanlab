@@ -8,20 +8,20 @@ order: 4
 
 # Mirror
 
-El comando `mirror` crea copias reflejadas de las entidades seleccionadas a través de un eje de dos puntos. Los originales **siempre se conservan** — a diferencia de [Move](../move/) o [Rotate](../rotate/), Mirror nunca modifica las entidades existentes; solo añade nuevas.
+El comando `Simetría` crea copias reflejadas de las entidades seleccionadas a través de un eje de dos puntos. Los originales **siempre se conservan** — a diferencia de [Move](../move/) o [Rotate](../rotate/), Mirror nunca modifica las entidades existentes; solo añade nuevas.
 
 ## Dos formas de iniciarlo
 
 **Pre-seleccionar y luego reflejar** — selecciona las entidades primero y luego activa:
 
 1. Selecciona una o más entidades en el lienzo.
-2. Escribe `mirror` en el terminal o haz clic en el botón **Mirror** de la barra de herramientas.
+2. Escribe `Simetría` en el terminal o haz clic en el botón **Mirror** de la barra de herramientas.
 3. **Haz clic en el primer punto** del eje de espejo, o escribe `X,Y` y presiona **Enter** para una coordenada exacta.
 4. **Haz clic en el segundo punto** — las copias reflejadas se colocan y el comando termina. La entrada de coordenadas también funciona aquí.
 
 **Activar y luego seleccionar** — inicia el comando sin nada seleccionado:
 
-1. Escribe `mirror` o haz clic en el botón de la barra de herramientas.
+1. Escribe `Simetría` o haz clic en el botón de la barra de herramientas.
 2. **Selecciona objetos** — haz clic para alternar, o arrastra para seleccionar por área.
 3. Presiona **Enter** o **Space** para confirmar la selección.
 4. **Haz clic en el primer punto**, luego **haz clic en el segundo punto** del eje de espejo (la entrada de coordenadas está disponible en ambos pasos).

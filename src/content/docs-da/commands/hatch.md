@@ -8,11 +8,11 @@ order: 7
 
 # Hatch
 
-`hatch`-kommandoen udfylder området omkring et klikket punkt med et mønster. Grænsen tegnes ikke først — den kommer fra det, der allerede er på lærredet, så fire separate [linjer](../line/), der mødes ende til ende, omslutter et område nøjagtigt som en lukket [polylinje](../polyline/) gør, og enhver lukket form indeni området bliver til en ø, som udfyldningen lader være.
+`Skravering`-kommandoen udfylder området omkring et klikket punkt med et mønster. Grænsen tegnes ikke først — den kommer fra det, der allerede er på lærredet, så fire separate [linjer](../line/), der mødes ende til ende, omslutter et område nøjagtigt som en lukket [polylinje](../polyline/) gør, og enhver lukket form indeni området bliver til en ø, som udfyldningen lader være.
 
 ## Udfylde et område
 
-1. Skriv `hatch` i terminalen, eller klik på **Hatch**-værktøjslinjeknappen (mønster-ikonet).
+1. Skriv `Skravering` i terminalen, eller klik på **Hatch**-værktøjslinjeknappen (mønster-ikonet).
 2. **Klik på et punkt** inde i det område, du vil udfylde.
 3. Kommandoen forbliver aktiv, så bliv ved med at klikke for at udfylde flere områder — hvert klik opretter sin egen `Hatch`-entitet.
 4. Tryk **Enter**, **Space** eller **Escape**, når du er færdig.
@@ -69,7 +69,7 @@ Hver ny hatch starter udfyldt med `ANSI31` (eller hvilket mønster den *sidste* 
 1. Vælg en eksisterende hatch, og åbn dens **Pattern**-felt i egenskabspanelet — dette åbner mønstervælgeren, et gitter af navngivne swatches grupperet efter, hvor hvert mønster kom fra.
 2. Klik på et mønster for at anvende det — udfyldningen opdateres straks.
 
-Det valg bliver også standard for den *næste* hatch, du opretter med `hatch`-kommandoen, på samme måde som at vælge et lag eller en farve føres videre. Så for at hatche flere nye områder med et bestemt mønster: udfyld ét område, sæt dets mønster én gang, og bliv ved med at hatche — hver udfyldning derefter starter med det mønster allerede anvendt.
+Det valg bliver også standard for den *næste* hatch, du opretter med `Skravering`-kommandoen, på samme måde som at vælge et lag eller en farve føres videre. Så for at hatche flere nye områder med et bestemt mønster: udfyld ét område, sæt dets mønster én gang, og bliv ved med at hatche — hver udfyldning derefter starter med det mønster allerede anvendt.
 
 Se [Hatch Manager](../hatch-manager/) for at uploade dine egne `.pat`-mønsterfiler og gennemse hele biblioteket.
 

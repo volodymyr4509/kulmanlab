@@ -8,11 +8,11 @@ order: 9
 
 # Dimension Angular
 
-Komento `DimensionAngular` sijoittaa **kulmamitan** kaarimerkinnän piirustukseen. Se mittaa ja merkitsee kulman kahden viivan välillä, kaaren kulmavälin, tai ympyrän sektorin.
+Komento `MittaKulma` sijoittaa **kulmamitan** kaarimerkinnän piirustukseen. Se mittaa ja merkitsee kulman kahden viivan välillä, kaaren kulmavälin, tai ympyrän sektorin.
 
 ## Aktivointi
 
-Napsauta **Dimension Angular**-painiketta työkalurivillä Markup-paneelissa, tai kirjoita `DimensionAngular` terminaaliin.
+Napsauta **Dimension Angular**-painiketta työkalurivillä Markup-paneelissa, tai kirjoita `MittaKulma` terminaaliin.
 
 ## Kolme syöttötilaa
 
@@ -47,7 +47,7 @@ Yhdensuuntaiset viivat eivät voi muodostaa kulmamittaa; komento ohittaa toisen 
 
 - Mittakaari piirretään aina sillä puolella kärkeä, johon sen sijoitat — siirrä kohdistin kärjen yli vaihtaaksesi täydennyskulmaan.
 - Mitattu kulma näytetään asteina ja päivittyy elävästi liikuttaessasi kohdistinta sijoituksen aikana.
-- Tuloksena oleva merkintä on täysi `DimensionAngular`-entiteetti, joka tallennetaan nykyiselle tasolle. Sen ulkoasuominaisuuksia (nuolen koko, tekstin korkeus, apuviivan pituus) voidaan säätää Properties-paneelissa.
+- Tuloksena oleva merkintä on täysi `MittaKulma`-entiteetti, joka tallennetaan nykyiselle tasolle. Sen ulkoasuominaisuuksia (nuolen koko, tekstin korkeus, apuviivan pituus) voidaan säätää Properties-paneelissa.
 - Kulmamitat viedään sekä JSON- että DXF-muotoon, ja DXF:ssä ne kirjoitetaan tavallisina `DIMENSION`-objekteina.
 
 ## Merkinnän muokkaaminen — yksinkertainen tila

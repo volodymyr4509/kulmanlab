@@ -8,20 +8,20 @@ order: 2
 
 # Copy
 
-Der `copy`-Befehl erstellt verschobene Duplikate ausgewählter Elemente und platziert sie mit einem Versatz vom Basispunkt zum Ziel — die Originale bleiben genau an ihrer Stelle. Dies ist der wesentliche Unterschied zu [Move](../move/): Copy fügt der Zeichnung neue Elemente hinzu; Move verschiebt vorhandene.
+Der `Kopieren`-Befehl erstellt verschobene Duplikate ausgewählter Elemente und platziert sie mit einem Versatz vom Basispunkt zum Ziel — die Originale bleiben genau an ihrer Stelle. Dies ist der wesentliche Unterschied zu [Move](../move/): Copy fügt der Zeichnung neue Elemente hinzu; Move verschiebt vorhandene.
 
 ## Zwei Arten zu starten
 
 **Vorauswahl, dann kopieren** — zuerst Elemente auswählen, dann aktivieren:
 
 1. Ein oder mehrere Elemente auf der Zeichenfläche auswählen.
-2. `copy` im Terminal eingeben oder auf die Schaltfläche **Copy** in der Symbolleiste klicken.
+2. `Kopieren` im Terminal eingeben oder auf die Schaltfläche **Copy** in der Symbolleiste klicken.
 3. **Basispunkt klicken**, oder geben Sie `X,Y` ein und drücken Sie **Enter** für eine genaue Koordinate.
 4. **Ziel klicken** — Duplikate erscheinen am Basis→Ziel-Versatz. Koordinateneingabe funktioniert hier ebenfalls.
 
 **Aktivieren, dann auswählen** — Befehl ohne Auswahl starten:
 
-1. `copy` eingeben oder auf die Symbolleisten-Schaltfläche klicken.
+1. `Kopieren` eingeben oder auf die Symbolleisten-Schaltfläche klicken.
 2. **Objekte auswählen** — klicken Sie zum Ein-/Ausschalten einzelner Elemente oder ziehen Sie zur Flächenauswahl.
 3. **Enter** oder **Space** drücken, um die Auswahl zu bestätigen.
 4. **Basispunkt klicken**, dann **Ziel klicken** (Koordinateneingabe bei beiden Schritten verfügbar).

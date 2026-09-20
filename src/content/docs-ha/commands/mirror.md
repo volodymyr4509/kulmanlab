@@ -8,20 +8,20 @@ order: 4
 
 # Mirror
 
-Umarnin `mirror` yana ƙirƙirar kwafi masu madubi na abubuwan da aka zaɓa waɗanda aka madubantar a kan axis mai tabo biyu. Ana koyaushe **riƙe na asali** — ba kamar [Move](../move/) ko [Rotate](../rotate/) ba, Mirror ba ya taɓa gyara abubuwan da ke akwai; yana ƙara sababbi kaɗai.
+Umarnin `Madubi` yana ƙirƙirar kwafi masu madubi na abubuwan da aka zaɓa waɗanda aka madubantar a kan axis mai tabo biyu. Ana koyaushe **riƙe na asali** — ba kamar [Move](../move/) ko [Rotate](../rotate/) ba, Mirror ba ya taɓa gyara abubuwan da ke akwai; yana ƙara sababbi kaɗai.
 
 ## Hanyoyi biyu na farawa
 
 **Zaɓi tukuna, sannan yi madubi** — zaɓi abubuwa tukuna, sannan kunna:
 
 1. Zaɓi wani abu ɗaya ko fiye a kan canvas.
-2. Rubuta `mirror` a tashar umarni ko danna maɓallin kayan aiki na **Mirror**.
+2. Rubuta `Madubi` a tashar umarni ko danna maɓallin kayan aiki na **Mirror**.
 3. **Danna tabo na farko** na axis na madubi, ko rubuta `X,Y` ka danna **Enter** don daidaitawa madaidaiciya.
 4. **Danna tabo na biyu** — ana sanya kwafi masu madubi kuma umarnin yana fita. Shigar da daidaitawa yana aiki a nan ma.
 
 **Kunna, sannan zaɓi** — fara umarnin ba tare da zaɓi ba:
 
-1. Rubuta `mirror` ko danna maɓallin kayan aiki.
+1. Rubuta `Madubi` ko danna maɓallin kayan aiki.
 2. **Zaɓi abubuwa** — danna don canza zaɓi, ko ja don zaɓi ta yanki.
 3. Danna **Enter** ko **Space** don tabbatar da zaɓi.
 4. **Danna tabo na farko**, sannan **danna tabo na biyu** na axis na madubi (shigar da daidaitawa ana samu a matakan biyu).

@@ -11,7 +11,7 @@ Mở bảng trợ giúp trong ứng dụng với tóm tắt tất cả các phí
 
 ## Cách sử dụng
 
-Nhấp nút **Help** trên thanh công cụ hoặc gõ `help` trong terminal. Bảng trợ giúp mở ngay lập tức và lệnh kết thúc.
+Nhấp nút **Help** trên thanh công cụ hoặc gõ `TrợGiúp` trong terminal. Bảng trợ giúp mở ngay lập tức và lệnh kết thúc.
 
 ## Nội dung bảng trợ giúp
 

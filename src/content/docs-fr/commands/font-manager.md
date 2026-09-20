@@ -8,11 +8,11 @@ order: 2
 
 # Font Manager
 
-La commande `FontManager` ouvre un dialogue pour parcourir et sélectionner des polices, et pour téléverser vos propres fichiers `.ttf` à utiliser dans les entités [Text](../text/) et [Multileader](../leader/).
+La commande `GestionnairePolices` ouvre un dialogue pour parcourir et sélectionner des polices, et pour téléverser vos propres fichiers `.ttf` à utiliser dans les entités [Text](../text/) et [Multileader](../leader/).
 
 ## Ouvrir le Font Manager
 
-- Tapez `FontManager` dans le terminal, **ou**
+- Tapez `GestionnairePolices` dans le terminal, **ou**
 - Cliquez sur le bouton **Font Manager** dans la barre d'outils de l'[éditeur de texte](../../interface/text-editor/).
 
 ## Groupes de polices
@@ -28,7 +28,7 @@ Cliquez sur n'importe quelle police de la liste pour afficher son aperçu à dro
 
 ## Téléverser une police personnalisée
 
-1. Cliquez sur **Add Font** en bas du dialogue (ou tapez [`FontAdd`](../font-add/) dans le terminal pour ouvrir directement le sélecteur de fichiers).
+1. Cliquez sur **Add Font** en bas du dialogue (ou tapez [`AjouterPolice`](../font-add/) dans le terminal pour ouvrir directement le sélecteur de fichiers).
 2. Choisissez un fichier `.ttf`. Seules les polices TrueType sont prises en charge — `.otf` et `.woff`/`.woff2` ne le sont pas.
 3. Le nom du fichier (sans l'extension) devient le nom de la police dans le groupe **User**. Par exemple, téléverser `MyFont.ttf` ajoute une police nommée `MyFont`.
 

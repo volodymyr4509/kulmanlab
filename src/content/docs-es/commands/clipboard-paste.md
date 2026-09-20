@@ -8,11 +8,11 @@ order: 18
 
 # ClipboardPaste
 
-El comando `ClipboardPaste` lee las entidades que [ClipboardCopy](../clipboard-copy/) escribió en el **portapapeles del sistema** y las coloca en el dibujo actual en un punto que usted elige. Como el portapapeles es el real del sistema, el origen puede ser otro dibujo, otra pestaña del navegador o una sesión de antes ese mismo día.
+El comando `PegarDelPortapapeles` lee las entidades que [ClipboardCopy](../clipboard-copy/) escribió en el **portapapeles del sistema** y las coloca en el dibujo actual en un punto que usted elige. Como el portapapeles es el real del sistema, el origen puede ser otro dibujo, otra pestaña del navegador o una sesión de antes ese mismo día.
 
 ## Cómo pegar
 
-1. Pulse `Ctrl+V` (`Cmd+V` en macOS), o escriba `ClipboardPaste` en la terminal.
+1. Pulse `Ctrl+V` (`Cmd+V` en macOS), o escriba `PegarDelPortapapeles` en la terminal.
 2. El indicador muestra **reading clipboard…** mientras el navegador entrega el texto del portapapeles.
 3. Una vez cargado, el indicador cambia a **pick insertion point** y una vista previa de la geometría sigue al cursor.
 4. **Haga clic** para colocar las entidades. Se añaden al dibujo y quedan seleccionadas.

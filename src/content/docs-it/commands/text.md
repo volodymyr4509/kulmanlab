@@ -8,13 +8,13 @@ order: 0
 
 # Text
 
-Il comando `text` posiziona un'etichetta di testo multi-riga. Dopo aver cliccato una posizione sul canvas, si apre un editor popup in **rich** mode — puoi digitare il contenuto, applicare grassetto/corsivo/sottolineato/barrato per carattere, cambiare font e altezze, e inserire interruzioni di riga. Premi **Esc** per confermare e chiudere l'editor.
+Il comando `Testo` posiziona un'etichetta di testo multi-riga. Dopo aver cliccato una posizione sul canvas, si apre un editor popup in **rich** mode — puoi digitare il contenuto, applicare grassetto/corsivo/sottolineato/barrato per carattere, cambiare font e altezze, e inserire interruzioni di riga. Premi **Esc** per confermare e chiudere l'editor.
 
 Vedi la pagina [Editor di Testo](../../interface/text-editor/) per il riferimento completo dell'editor, incluso un confronto tra le modalità **rich** e **simple**.
 
 ## Posizionare un'etichetta di testo
 
-1. Digita `text` nel terminale o clicca il pulsante **Text** nella barra degli strumenti.
+1. Digita `Testo` nel terminale o clicca il pulsante **Text** nella barra degli strumenti.
 2. **Clicca la posizione di ancoraggio** sul canvas. Oppure digita `X,Y` e premi **Invio** per una coordinata esatta.
 3. Si apre il **popup dell'editor di testo** sopra la nuova etichetta. Digita il contenuto.
 4. Premi **Esc** per confermare l'etichetta e chiudere l'editor.

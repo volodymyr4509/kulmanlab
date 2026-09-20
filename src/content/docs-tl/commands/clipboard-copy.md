@@ -8,7 +8,7 @@ order: 17
 
 # ClipboardCopy
 
-Isinusulat ng utos na `ClipboardCopy` ang mga piniling entity sa **clipboard ng iyong sistema** bilang tekstong JSON. Dahil totoong clipboard ang ginagamit nito at hindi buffer sa memorya, nakaliligtas ang kinopyang geometry sa labas ng guhit: i-paste ito sa ibang file, sa pangalawang tab ng browser, o sa bintanang bubuksan mo mamaya gamit ang [ClipboardPaste](../clipboard-paste/).
+Isinusulat ng utos na `KopyaSaClipboard` ang mga piniling entity sa **clipboard ng iyong sistema** bilang tekstong JSON. Dahil totoong clipboard ang ginagamit nito at hindi buffer sa memorya, nakaliligtas ang kinopyang geometry sa labas ng guhit: i-paste ito sa ibang file, sa pangalawang tab ng browser, o sa bintanang bubuksan mo mamaya gamit ang [ClipboardPaste](../clipboard-paste/).
 
 Ito ang pagkakaiba nito sa [Copy](../copy/): dinodoble ng Copy ang mga entity sa loob ng kasalukuyang guhit sa isang kilos, samantalang inilalagay sila ng ClipboardCopy sa isang lugar na maaabot mula sa isang ganap na ibang guhit.
 
@@ -17,12 +17,12 @@ Ito ang pagkakaiba nito sa [Copy](../copy/): dinodoble ng Copy ang mga entity sa
 **Pumili muna, saka kopyahin** — ang mabilis na daan:
 
 1. Pumili ng isa o higit pang entity sa canvas.
-2. Pindutin ang `Ctrl+C` (`Cmd+C` sa macOS), o i-type ang `ClipboardCopy` sa terminal.
+2. Pindutin ang `Ctrl+C` (`Cmd+C` sa macOS), o i-type ang `KopyaSaClipboard` sa terminal.
 3. Agad na naisusulat ang mga entity sa clipboard at natatapos ang utos.
 
 **Buhayin muna, saka pumili** — magsimula nang walang piniling anuman:
 
-1. Pindutin ang `Ctrl+C` o i-type ang `ClipboardCopy` habang walang pinili.
+1. Pindutin ang `Ctrl+C` o i-type ang `KopyaSaClipboard` habang walang pinili.
 2. Ipinapakita ng prompt ang **pick objects to copy — Enter or Space to confirm**.
 3. **Pumili ng mga bagay** — mag-click upang isali o alisin ang bawat entity sa pinili, o mag-drag upang pumili ayon sa lugar.
 4. Pindutin ang **Enter** o **Space** upang kopyahin ang pinili at lumabas.

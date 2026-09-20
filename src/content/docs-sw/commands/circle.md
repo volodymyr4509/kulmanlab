@@ -8,11 +8,11 @@ order: 4
 
 # Circle
 
-Amri ya `circle` inachora duara kwa kubainisha kituo na radi. Kwanza unabonyeza au kuandika kituo, kisha unabonyeza au kuandika radi — baada ya hatua hiyo, duara linawekwa na amri inamaliza.
+Amri ya `Duara` inachora duara kwa kubainisha kituo na radi. Kwanza unabonyeza au kuandika kituo, kisha unabonyeza au kuandika radi — baada ya hatua hiyo, duara linawekwa na amri inamaliza.
 
 ## Kuchora duara
 
-1. Andika `circle` kwenye terminal au bonyeza kitufe cha upau wa zana cha **Circle**.
+1. Andika `Duara` kwenye terminal au bonyeza kitufe cha upau wa zana cha **Circle**.
 2. **Bonyeza kituo** — mahali ambapo duara litazunguka. Au andika `X,Y` na ubonyeze **Enter** kwa kuratibu halisi.
 3. **Bonyeza pointi ya radi** au **andika thamani ya radi** na ubonyeze **Enter**. Duara linawekwa mara moja.
 

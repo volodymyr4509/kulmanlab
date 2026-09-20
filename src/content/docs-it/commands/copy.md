@@ -8,20 +8,20 @@ order: 2
 
 # Copy
 
-Il comando `copy` crea duplicati traslati delle entità selezionate e li posiziona sfalsati da un punto base a una destinazione — gli originali restano esattamente dove sono. Questa è la differenza fondamentale rispetto a [Move](../move/): Copy aggiunge nuove entità al disegno; Move riposiziona quelle esistenti.
+Il comando `Copia` crea duplicati traslati delle entità selezionate e li posiziona sfalsati da un punto base a una destinazione — gli originali restano esattamente dove sono. Questa è la differenza fondamentale rispetto a [Move](../move/): Copy aggiunge nuove entità al disegno; Move riposiziona quelle esistenti.
 
 ## Due modi per iniziare
 
 **Pre-seleziona, poi copia** — seleziona prima le entità, poi attiva:
 
 1. Seleziona una o più entità sul canvas.
-2. Digita `copy` nel terminale o clicca il pulsante **Copy** nella barra degli strumenti.
+2. Digita `Copia` nel terminale o clicca il pulsante **Copy** nella barra degli strumenti.
 3. **Clicca il punto base**, oppure digita `X,Y` e premi **Invio** per una coordinata esatta.
 4. **Clicca la destinazione** — i duplicati appaiono allo sfasamento base→destinazione. L'inserimento di coordinate funziona anche qui.
 
 **Attiva, poi seleziona** — avvia il comando senza nulla selezionato:
 
-1. Digita `copy` o clicca il pulsante nella barra degli strumenti.
+1. Digita `Copia` o clicca il pulsante nella barra degli strumenti.
 2. **Seleziona gli oggetti** — clicca per attivare/disattivare singole entità, o trascina per selezionare per area.
 3. Premi **Invio** o **Spazio** per confermare la selezione.
 4. **Clicca il punto base**, poi **clicca la destinazione** (inserimento coordinate disponibile in entrambi i passi).

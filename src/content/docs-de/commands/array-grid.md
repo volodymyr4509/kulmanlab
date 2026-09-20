@@ -8,14 +8,14 @@ order: 15
 
 # Array Grid
 
-Der `ArrayGrid`-Befehl erstellt ein rechteckiges Raster aus Kopien der ausgewählten Elemente — geben Sie die Anzahl der Zeilen, die Anzahl der Spalten und den Abstand dazwischen ein, alles am Terminal getippt. Die ursprüngliche Auswahl belegt die Zelle Zeile 0, Spalte 0; jede andere Zelle ist eine verschobene Kopie.
+Der `RechteckigeAnordnung`-Befehl erstellt ein rechteckiges Raster aus Kopien der ausgewählten Elemente — geben Sie die Anzahl der Zeilen, die Anzahl der Spalten und den Abstand dazwischen ein, alles am Terminal getippt. Die ursprüngliche Auswahl belegt die Zelle Zeile 0, Spalte 0; jede andere Zelle ist eine verschobene Kopie.
 
 ## Zwei Arten zu starten
 
 **Vorauswahl, dann array** — zuerst Elemente auswählen, dann aktivieren:
 
 1. Ein oder mehrere Elemente auf der Zeichenfläche auswählen.
-2. `arraygrid` im Terminal eingeben (schon `arr` genügt — eindeutig) oder auf die Schaltfläche **Array Grid** in der Symbolleiste klicken.
+2. `RechteckigeAnordnung` im Terminal eingeben (schon `arr` genügt — eindeutig) oder auf die Schaltfläche **Array Grid** in der Symbolleiste klicken.
 3. Die Anzahl der **Zeilen** eingeben und **Enter** drücken.
 4. Die Anzahl der **Spalten** eingeben und **Enter** drücken.
 5. Den **Abstand zwischen Zeilen** eingeben und **Enter** drücken.
@@ -23,7 +23,7 @@ Der `ArrayGrid`-Befehl erstellt ein rechteckiges Raster aus Kopien der ausgewäh
 
 **Aktivieren, dann auswählen** — Befehl ohne Auswahl starten:
 
-1. `arraygrid` eingeben oder auf die Symbolleisten-Schaltfläche klicken.
+1. `RechteckigeAnordnung` eingeben oder auf die Symbolleisten-Schaltfläche klicken.
 2. **Objekte auswählen** — klicken Sie zum Ein-/Ausschalten einzelner Elemente oder ziehen Sie zur Flächenauswahl.
 3. **Enter** oder **Space** drücken, um die Auswahl zu bestätigen.
 4. Weiter mit Zeilen → Spalten → Zeilenabstand → Spaltenabstand wie oben.

@@ -8,11 +8,11 @@ order: 4
 
 # Fit
 
-Der `fit`-Befehl berechnet das Begrenzungsrechteck aller Elemente in der Zeichnung und passt sowohl Zoomstufe als auch Verschiebungsposition so an, dass jedes Element mit einem kleinen Rand sichtbar ist. Es ist der schnellste Weg, eine verlorene Ansicht wiederzufinden oder sich nach dem Importieren einer DXF-Datei zu orientieren.
+Der `Einpassen`-Befehl berechnet das Begrenzungsrechteck aller Elemente in der Zeichnung und passt sowohl Zoomstufe als auch Verschiebungsposition so an, dass jedes Element mit einem kleinen Rand sichtbar ist. Es ist der schnellste Weg, eine verlorene Ansicht wiederzufinden oder sich nach dem Importieren einer DXF-Datei zu orientieren.
 
 ## Die Ansicht einpassen
 
-Klicken Sie auf die Schaltfläche **Fit** in der Symbolleiste oder geben Sie `fit` im Terminal ein. Die Ansicht passt sich sofort an und der Befehl endet — keine Interaktion erforderlich.
+Klicken Sie auf die Schaltfläche **Fit** in der Symbolleiste oder geben Sie `Einpassen` im Terminal ein. Die Ansicht passt sich sofort an und der Befehl endet — keine Interaktion erforderlich.
 
 **Doppelklick auf die mittlere Maustaste** löst denselben Fit-Vorgang jederzeit aus, ohne einen Befehl zu aktivieren — die schnellste Tastenkombination, um eine verlorene Ansicht beim Zeichnen zurückzusetzen.
 

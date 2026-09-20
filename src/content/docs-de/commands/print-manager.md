@@ -8,11 +8,11 @@ order: 4
 
 # Druck-Manager
 
-Der Befehl `PrintManager` öffnet den **Druck-Manager** — ein dediziertes Exportfenster mit einer Live-Vorschau-Zeichenfläche, Formatselektor (PNG / JPEG / WebP / PDF), einem Stil-Selektor (Default / Monochrome / Blueprint) und optionalem Bereichszuschnitt. Es wird nichts an einen physischen Drucker gesendet; die Ausgabe wird als Datei heruntergeladen.
+Der Befehl `Druckmanager` öffnet den **Druck-Manager** — ein dediziertes Exportfenster mit einer Live-Vorschau-Zeichenfläche, Formatselektor (PNG / JPEG / WebP / PDF), einem Stil-Selektor (Default / Monochrome / Blueprint) und optionalem Bereichszuschnitt. Es wird nichts an einen physischen Drucker gesendet; die Ausgabe wird als Datei heruntergeladen.
 
 ## Den Druck-Manager öffnen
 
-Klicken Sie auf die Schaltfläche **Print** in der Symbolleiste oder geben Sie `PrintManager` im Terminal ein. Der Druck-Manager öffnet sich sofort mit einer Vorschau des aktuellen Ansichtsfensters.
+Klicken Sie auf die Schaltfläche **Print** in der Symbolleiste oder geben Sie `Druckmanager` im Terminal ein. Der Druck-Manager öffnet sich sofort mit einer Vorschau des aktuellen Ansichtsfensters.
 
 Die Vorschau wird über exakt denselben Code-Pfad, in exakt derselben Pixelauflösung gerendert wie die Datei, die Sie letztlich exportieren — eine Änderung von Qualität, Stil oder Exportbereich rendert die Vorschau sofort neu, sodass das, was Sie sehen, genau dem entspricht, was heruntergeladen wird, keine Annäherung.
 

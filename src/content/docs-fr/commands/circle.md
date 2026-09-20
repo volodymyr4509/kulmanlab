@@ -8,11 +8,11 @@ order: 4
 
 # Circle
 
-La commande `circle` trace un cercle défini par un point central et un rayon. Après avoir cliqué sur le centre, vous pouvez définir le rayon soit en cliquant sur un deuxième point du canevas, soit en tapant un nombre exact — les deux options sont disponibles simultanément.
+La commande `Cercle` trace un cercle défini par un point central et un rayon. Après avoir cliqué sur le centre, vous pouvez définir le rayon soit en cliquant sur un deuxième point du canevas, soit en tapant un nombre exact — les deux options sont disponibles simultanément.
 
 ## Tracer un cercle
 
-1. Tapez `circle` dans le terminal ou cliquez sur le bouton **Circle** de la barre d'outils.
+1. Tapez `Cercle` dans le terminal ou cliquez sur le bouton **Circle** de la barre d'outils.
 2. **Cliquez sur le point central**, ou tapez `X,Y` et appuyez sur **Entrée** pour une coordonnée exacte.
 3. Définissez le rayon — soit :
    - **Cliquez sur n'importe quel point** du canevas — la distance depuis le centre devient le rayon, ou

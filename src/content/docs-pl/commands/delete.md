@@ -8,20 +8,20 @@ order: 7
 
 # Delete
 
-Polecenie `delete` usuwa zaznaczone elementy z rysunku. Usunięcia są zapisywane w historii [Undo](../undo/) i można je odwrócić w maksymalnie 20 krokach. Nie ma oddzielnego okna dialogowego „potwierdź usunięcie" — potwierdzenie to pojedyncze naciśnięcie klawisza.
+Polecenie `Usuń` usuwa zaznaczone elementy z rysunku. Usunięcia są zapisywane w historii [Undo](../undo/) i można je odwrócić w maksymalnie 20 krokach. Nie ma oddzielnego okna dialogowego „potwierdź usunięcie" — potwierdzenie to pojedyncze naciśnięcie klawisza.
 
 ## Dwa sposoby usuwania
 
 **Wstępne zaznaczenie, a następnie usunięcie** — najszybsza ścieżka:
 
 1. Zaznacz jeden lub więcej elementów na płótnie.
-2. Wpisz `delete` w terminalu, kliknij przycisk **Usuń** na pasku narzędzi **lub naciśnij klawisz `Delete`** bezpośrednio.
+2. Wpisz `Usuń` w terminalu, kliknij przycisk **Usuń** na pasku narzędzi **lub naciśnij klawisz `Delete`** bezpośrednio.
 
 Elementy są usuwane natychmiast — bez dodatkowego kroku potwierdzenia.
 
 **Aktywuj, a następnie zaznacz**:
 
-1. Wpisz `delete` lub kliknij przycisk paska narzędzi (bez zaznaczonego niczego).
+1. Wpisz `Usuń` lub kliknij przycisk paska narzędzi (bez zaznaczonego niczego).
 2. **Zaznacz obiekty** — kliknij, aby przełączać, lub przeciągnij, aby zaznaczyć obszarem.
 3. Naciśnij **Enter**, **Spację** lub **Delete**, aby potwierdzić i usunąć zaznaczone elementy.
 
@@ -44,7 +44,7 @@ Kliknij element → naciśnij Delete → gotowe
 
 ## Odzyskiwanie usuniętych elementów
 
-Usunięcia można cofnąć poleceniem [Undo](../undo/) (wpisz `undo` lub użyj przycisku paska narzędzi). Można odwrócić maksymalnie **20 kroków** na plik, a historia jest zachowywana po ponownym załadowaniu strony. Jeśli przekroczono 20 usunięć bez zapisania, wcześniejszych usunięć nie można odzyskać.
+Usunięcia można cofnąć poleceniem [Undo](../undo/) (wpisz `CofnijAkcję` lub użyj przycisku paska narzędzi). Można odwrócić maksymalnie **20 kroków** na plik, a historia jest zachowywana po ponownym załadowaniu strony. Jeśli przekroczono 20 usunięć bez zapisania, wcześniejszych usunięć nie można odzyskać.
 
 ## Obsługiwane elementy
 

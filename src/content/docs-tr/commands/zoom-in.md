@@ -8,11 +8,11 @@ order: 2
 
 # Zoom In
 
-`zoomin` komutu, mevcut yakınlaştırma seviyesini **1,5× ile çarpar** ve görünüm penceresi orta noktasına ortalanarak hemen çıkar. Ekran merkezine doğru yakınlaştıran bir kaydırma tekerleği tikine denk araç çubuğu eşdeğeridir.
+`Yakınlaştır` komutu, mevcut yakınlaştırma seviyesini **1,5× ile çarpar** ve görünüm penceresi orta noktasına ortalanarak hemen çıkar. Ekran merkezine doğru yakınlaştıran bir kaydırma tekerleği tikine denk araç çubuğu eşdeğeridir.
 
 ## Yakınlaştırma
 
-Araç çubuğundaki **Zoom In** düğmesine tıklayın veya terminale `zoomin` yazın. Yakınlaştırma anında uygulanır ve komut çıkar — tuvalde tıklama gerekmez.
+Araç çubuğundaki **Zoom In** düğmesine tıklayın veya terminale `Yakınlaştır` yazın. Yakınlaştırma anında uygulanır ve komut çıkar — tuvalde tıklama gerekmez.
 
 ## 1,5× Adımın Nasıl Çalıştığı
 

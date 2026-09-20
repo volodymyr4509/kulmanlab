@@ -8,7 +8,7 @@ order: 17
 
 # ClipboardCopy
 
-Polecenie `ClipboardCopy` zapisuje zaznaczone obiekty w twoim **schowku systemowym** jako tekst JSON. Ponieważ korzysta z prawdziwego schowka, a nie z bufora w pamięci, skopiowana geometria przetrwa poza rysunkiem: wklej ją do innego pliku, do drugiej karty przeglądarki albo do okna otwartego później, poleceniem [ClipboardPaste](../clipboard-paste/).
+Polecenie `KopiujDoSchowka` zapisuje zaznaczone obiekty w twoim **schowku systemowym** jako tekst JSON. Ponieważ korzysta z prawdziwego schowka, a nie z bufora w pamięci, skopiowana geometria przetrwa poza rysunkiem: wklej ją do innego pliku, do drugiej karty przeglądarki albo do okna otwartego później, poleceniem [ClipboardPaste](../clipboard-paste/).
 
 To właśnie różnica względem [Copy](../copy/): Copy powiela obiekty wewnątrz bieżącego rysunku jednym ruchem, natomiast ClipboardCopy odkłada je tam, skąd można je pobrać w zupełnie innym rysunku.
 
@@ -17,12 +17,12 @@ To właśnie różnica względem [Copy](../copy/): Copy powiela obiekty wewnątr
 **Najpierw zaznacz, potem kopiuj** — droga szybka:
 
 1. Zaznacz jeden lub więcej obiektów na obszarze rysowania.
-2. Naciśnij `Ctrl+C` (`Cmd+C` na macOS) albo wpisz `ClipboardCopy` w terminalu.
+2. Naciśnij `Ctrl+C` (`Cmd+C` na macOS) albo wpisz `KopiujDoSchowka` w terminalu.
 3. Obiekty trafiają do schowka natychmiast, a polecenie kończy działanie.
 
 **Uruchom, potem zaznacz** — start bez zaznaczenia:
 
-1. Naciśnij `Ctrl+C` albo wpisz `ClipboardCopy` przy pustym zaznaczeniu.
+1. Naciśnij `Ctrl+C` albo wpisz `KopiujDoSchowka` przy pustym zaznaczeniu.
 2. Monit pokazuje **pick objects to copy — Enter or Space to confirm**.
 3. **Zaznacz obiekty** — klikaj, aby dodawać i usuwać pojedyncze obiekty, albo przeciągnij, by zaznaczyć obszarem.
 4. Naciśnij **Enter** lub **Space**, aby skopiować zaznaczenie i zakończyć.

@@ -8,11 +8,11 @@ order: 3
 
 # LeaderRemove
 
-`LeaderRemove`-kommandot tar bort en pilspetsarm från en befintlig multileader. Textetiketten, dogleg-punkten och alla återstående armar bevaras — endast den valda armen tas bort. En multileader med endast en arm kan inte få sin arm borttagen.
+`TaBortHänvisningsarm`-kommandot tar bort en pilspetsarm från en befintlig multileader. Textetiketten, dogleg-punkten och alla återstående armar bevaras — endast den valda armen tas bort. En multileader med endast en arm kan inte få sin arm borttagen.
 
 ## Ta bort en arm
 
-1. Skriv `LeaderRemove` i terminalen.
+1. Skriv `TaBortHänvisningsarm` i terminalen.
 2. **Klicka på en multileader** som har två eller fler armar. Om den klickade leadern bara har en arm visar terminalen ett felmeddelande och väntar på ett giltigt val.
 3. **Flytta markören nära armen** du vill ta bort — den närmaste armen markeras med en indikator.
 4. **Klicka** för att ta bort den armen.

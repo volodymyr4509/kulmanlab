@@ -8,11 +8,11 @@ order: 3
 
 # PageManager
 
-Il comando `PageManager` apre la finestra di dialogo delle impostazioni di pagina per il layout attivo, permettendoti di modificare il formato carta, l'orientamento e la scala tra le unità di disegno e i millimetri.
+Il comando `GestorePagine` apre la finestra di dialogo delle impostazioni di pagina per il layout attivo, permettendoti di modificare il formato carta, l'orientamento e la scala tra le unità di disegno e i millimetri.
 
 ## Aprire il Page Manager
 
-- Digita `PageManager` nel terminale, **oppure**
+- Digita `GestorePagine` nel terminale, **oppure**
 - Fai clic destro su una scheda layout in basso e scegli **Page Manager**.
 
 ## Impostazioni

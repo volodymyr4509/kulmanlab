@@ -8,13 +8,13 @@ order: 2
 
 # ViewportCopy
 
-Polecenie `ViewportCopy` kopiuje okno widoku na nową pozycję, zachowując jego skalę i środek modelu. Dostępne tylko w przestrzeni układu.
+Polecenie `RzutniaKopiuj` kopiuje okno widoku na nową pozycję, zachowując jego skalę i środek modelu. Dostępne tylko w przestrzeni układu.
 
 ## Kopiowanie okna widoku
 
 1. Przełącz się na zakładkę układu papieru.
 2. Opcjonalnie kliknij okno widoku, aby wstępnie je zaznaczyć.
-3. Wpisz `ViewportCopy` w terminalu lub kliknij przycisk **Kopiuj widok** na pasku narzędzi.
+3. Wpisz `RzutniaKopiuj` w terminalu lub kliknij przycisk **Kopiuj widok** na pasku narzędzi.
 4. Jeśli nie zaznaczono wstępnie okna widoku, **kliknij okno widoku** do skopiowania.
 5. **Kliknij punkt bazowy** — punkt odniesienia dla przemieszczenia. Lub wpisz `X,Y` i naciśnij **Enter** dla dokładnej współrzędnej.
 6. **Kliknij cel** — okno widoku jest umieszczane przy przesunięciu baza→cel. Lub użyj wprowadzania współrzędnych / blokowania kąta.

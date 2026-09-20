@@ -8,11 +8,11 @@ order: 5
 
 # LayerUnfreezeAll
 
-Der Befehl `LayerUnfreezeAll` entfernt das Eingefroren-Flag von **allen Layern** der Zeichnung sofort. Keine Auswahl oder Bestätigung erforderlich — er wird ausgeführt und endet in einem Schritt.
+Der Befehl `AlleLayerTauen` entfernt das Eingefroren-Flag von **allen Layern** der Zeichnung sofort. Keine Auswahl oder Bestätigung erforderlich — er wird ausgeführt und endet in einem Schritt.
 
 ## Verwendung
 
-Geben Sie `LayerUnfreezeAll` im Terminal ein oder klicken Sie auf die Schaltfläche **Unfreeze All** in der Symbolleiste (Sonnen-Symbol). Alle eingefrorenen Layer werden sofort sichtbar.
+Geben Sie `AlleLayerTauen` im Terminal ein oder klicken Sie auf die Schaltfläche **Unfreeze All** in der Symbolleiste (Sonnen-Symbol). Alle eingefrorenen Layer werden sofort sichtbar.
 
 ## Wann zu verwenden
 

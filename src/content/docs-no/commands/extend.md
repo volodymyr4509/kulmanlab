@@ -8,13 +8,13 @@ order: 9
 
 # Extend
 
-Kommandoen `extend` forlenger det nærmeste endepunktet til en [Line](../line/), [Arc](../arc/), [Ellipse](../ellipse/) eller åpen [Polyline](../polyline/) du holder markøren over, til det nærmeste skjæringspunktet den ville danne med en annen entitet i tegningen. Hold markøren nær endepunktet du vil forlenge — en forhåndsvisning viser den forlengede entiteten — klikk deretter for å bruke den.
+Kommandoen `Forleng` forlenger det nærmeste endepunktet til en [Line](../line/), [Arc](../arc/), [Ellipse](../ellipse/) eller åpen [Polyline](../polyline/) du holder markøren over, til det nærmeste skjæringspunktet den ville danne med en annen entitet i tegningen. Hold markøren nær endepunktet du vil forlenge — en forhåndsvisning viser den forlengede entiteten — klikk deretter for å bruke den.
 
 Bare entiteter med et virkelig endepunkt kan forlenges. En [Circle](../circle/) og en fullstendig (360°) Ellipse er alltid lukkede former uten endepunkt, så de kan aldri forlenges — det samme gjelder en lukket Polyline eller Rectangle. En delvis Ellipse (en elliptisk bue) og en Arc har endepunkter og forlenges på samme måte som en Line.
 
 ## Forlenge en entitet
 
-1. Skriv `extend` i terminalen eller klikk på **Extend**-knappen i verktøylinjen.
+1. Skriv `Forleng` i terminalen eller klikk på **Extend**-knappen i verktøylinjen.
 2. **Hold markøren nær den ene enden** av entiteten du vil forlenge — forhåndsvisningen viser den forlenget til nærmeste grense i den retningen.
 3. **Klikk** for å bruke forlengelsen.
 

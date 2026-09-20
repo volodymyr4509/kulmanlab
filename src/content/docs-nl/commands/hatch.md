@@ -8,11 +8,11 @@ order: 7
 
 # Hatch
 
-Het commando `hatch` vult het gebied rond een aangeklikt punt met een patroon. De rand wordt niet eerst getekend — die komt voort uit wat al op het canvas staat, dus vier afzonderlijke [Lines](../line/) die kop-staart aan elkaar aansluiten, omsluiten een gebied precies zoals een gesloten [Polyline](../polyline/) dat doet, en elke gesloten vorm daarbinnen wordt een eiland dat de vulling met rust laat.
+Het commando `Arcering` vult het gebied rond een aangeklikt punt met een patroon. De rand wordt niet eerst getekend — die komt voort uit wat al op het canvas staat, dus vier afzonderlijke [Lines](../line/) die kop-staart aan elkaar aansluiten, omsluiten een gebied precies zoals een gesloten [Polyline](../polyline/) dat doet, en elke gesloten vorm daarbinnen wordt een eiland dat de vulling met rust laat.
 
 ## Een gebied vullen
 
-1. Typ `hatch` in de terminal of klik op de werkbalkknop **Hatch** (het swatch-pictogram).
+1. Typ `Arcering` in de terminal of klik op de werkbalkknop **Hatch** (het swatch-pictogram).
 2. **Klik op een punt** binnen het gebied dat u wilt vullen.
 3. Het commando blijft actief, dus blijf klikken om meer gebieden te vullen — elke klik maakt een eigen `Hatch`-entiteit aan.
 4. Druk op **Enter**, **Space** of **Escape** wanneer u klaar bent.
@@ -69,7 +69,7 @@ Elke nieuwe hatch begint gevuld met `ANSI31` (of welk patroon de *laatst* bewerk
 1. Selecteer een bestaande hatch en open het veld **Pattern** ervan in het eigenschappenpaneel — dit opent de patroonkiezer, een raster van benoemde swatches gegroepeerd naar waar elk patroon vandaan komt.
 2. Klik op een patroon om het toe te passen — de vulling wordt onmiddellijk bijgewerkt.
 
-Die keuze wordt ook de standaard voor de *volgende* hatch die u maakt met het commando `hatch`, op dezelfde manier waarop het kiezen van een laag of kleur wordt doorgevoerd. Om dus meerdere nieuwe gebieden met een bepaald patroon te hatchen: vul één gebied, stel het patroon één keer in, en blijf hatchen — elke daaropvolgende vulling begint al met dat patroon toegepast.
+Die keuze wordt ook de standaard voor de *volgende* hatch die u maakt met het commando `Arcering`, op dezelfde manier waarop het kiezen van een laag of kleur wordt doorgevoerd. Om dus meerdere nieuwe gebieden met een bepaald patroon te hatchen: vul één gebied, stel het patroon één keer in, en blijf hatchen — elke daaropvolgende vulling begint al met dat patroon toegepast.
 
 Zie [Hatch Manager](../hatch-manager/) om uw eigen `.pat`-patroonbestanden te uploaden en de volledige bibliotheek te doorzoeken.
 

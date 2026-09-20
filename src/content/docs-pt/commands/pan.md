@@ -8,11 +8,11 @@ order: 1
 
 # Pan
 
-O comando `pan` entra em um modo de arrastar persistente — clique e arraste em qualquer lugar no canvas para deslocar a vista. O nível de zoom permanece inalterado. O modo Pan permanece ativo até você pressionar `Escape`, então você pode arrastar várias vezes em uma única ativação.
+O comando `Panorâmica` entra em um modo de arrastar persistente — clique e arraste em qualquer lugar no canvas para deslocar a vista. O nível de zoom permanece inalterado. O modo Pan permanece ativo até você pressionar `Escape`, então você pode arrastar várias vezes em uma única ativação.
 
 ## Deslocando a vista
 
-1. Digite `pan` no terminal ou clique no botão **Pan** na barra de ferramentas.
+1. Digite `Panorâmica` no terminal ou clique no botão **Pan** na barra de ferramentas.
 2. **Clique e arraste** em qualquer lugar no canvas para deslocar a vista.
 3. Solte e arraste novamente quantas vezes for necessário.
 4. Pressione `Escape` para sair do modo pan.

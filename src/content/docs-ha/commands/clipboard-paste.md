@@ -8,11 +8,11 @@ order: 18
 
 # ClipboardPaste
 
-Umarnin `ClipboardPaste` yana karanta abubuwan da [ClipboardCopy](../clipboard-copy/) ya rubuta a **allon kwafe na tsarin** sannan ya ajiye su a cikin zanen da ake kai a wurin da ka zaɓa. Tunda allon kwafen shi ne na gaske na tsarin, tushen na iya zama wani zane, wani shafin burauza, ko wani zama daga farkon rana.
+Umarnin `LiƙaDagaAllo` yana karanta abubuwan da [ClipboardCopy](../clipboard-copy/) ya rubuta a **allon kwafe na tsarin** sannan ya ajiye su a cikin zanen da ake kai a wurin da ka zaɓa. Tunda allon kwafen shi ne na gaske na tsarin, tushen na iya zama wani zane, wani shafin burauza, ko wani zama daga farkon rana.
 
 ## Yadda ake mannawa
 
-1. Danna `Ctrl+V` (`Cmd+V` a macOS), ko ka rubuta `ClipboardPaste` a tashar umarni.
+1. Danna `Ctrl+V` (`Cmd+V` a macOS), ko ka rubuta `LiƙaDagaAllo` a tashar umarni.
 2. Umarnin yana nuna **reading clipboard…** yayin da burauza ke miƙa rubutun allon kwafe.
 3. Bayan an ɗora shi, umarnin yana canjawa zuwa **pick insertion point** kuma samfurin siffofin yana bin alamar linzaminka.
 4. **Danna** don ajiye abubuwan. Ana ƙara su cikin zanen kuma sun kasance a zaɓe.

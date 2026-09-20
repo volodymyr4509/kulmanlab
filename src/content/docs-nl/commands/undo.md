@@ -8,11 +8,11 @@ order: 13
 
 # Undo
 
-Het `undo`-commando draait de laatste wijziging aan de tekening terug — één stap per aanroep. Elke toevoeging, verwijdering of bewerking van entiteiten wordt vastgelegd als een apart geschiedenisitem. Undo stapt in omgekeerde volgorde terug door deze items.
+Het `OngedaanMaken`-commando draait de laatste wijziging aan de tekening terug — één stap per aanroep. Elke toevoeging, verwijdering of bewerking van entiteiten wordt vastgelegd als een apart geschiedenisitem. Undo stapt in omgekeerde volgorde terug door deze items.
 
 ## Hoe u ongedaan maakt
 
-- Typ `undo` in de terminal, of
+- Typ `OngedaanMaken` in de terminal, of
 - Klik op de **Undo**-werkbalkknop.
 
 Elke aanroep draait één vastgelegde actie terug. Roep het herhaaldelijk aan om verder terug te stappen.

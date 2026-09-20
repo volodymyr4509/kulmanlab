@@ -8,11 +8,11 @@ order: 8
 
 # Trim
 
-Tinatanggal ng `trim` command ang bahagi ng [Line](../line/), [Arc](../arc/), [Circle](../circle/), [Ellipse](../ellipse/), o [Polyline](../polyline/) na nasa pagitan ng dalawang magkatabing intersection point, hinahati ang entity sa isa o higit pang natitirang bahagi. Ang segment na puputulin ay tinutukoy ng posisyon ng cursor — mag-hover sa bahaging gusto mong tanggalin at mag-click para i-trim ito.
+Tinatanggal ng `Putulin` command ang bahagi ng [Line](../line/), [Arc](../arc/), [Circle](../circle/), [Ellipse](../ellipse/), o [Polyline](../polyline/) na nasa pagitan ng dalawang magkatabing intersection point, hinahati ang entity sa isa o higit pang natitirang bahagi. Ang segment na puputulin ay tinutukoy ng posisyon ng cursor — mag-hover sa bahaging gusto mong tanggalin at mag-click para i-trim ito.
 
 ## Pag-trim ng isang entity
 
-1. I-type ang `trim` sa terminal o i-click ang **Trim** button sa toolbar.
+1. I-type ang `Putulin` sa terminal o i-click ang **Trim** button sa toolbar.
 2. **Mag-hover sa segment** na gusto mong tanggalin — hinihighlight ng preview nang eksakto ang bahaging puputulin.
 3. **Mag-click** para tanggalin ang segment na iyon.
 

@@ -8,13 +8,13 @@ order: 9
 
 # Extend
 
-El comando `extend` estira el extremo más cercano de una [Line](../line/), [Arc](../arc/), [Ellipse](../ellipse/) o Polyline abierta sobre la que se pasa el cursor hasta la intersección más próxima que formaría con otra entidad del dibujo. Pasa el cursor cerca del extremo que quieres extender — una vista previa muestra la entidad extendida — luego haz clic para aplicar.
+El comando `Alargar` estira el extremo más cercano de una [Line](../line/), [Arc](../arc/), [Ellipse](../ellipse/) o Polyline abierta sobre la que se pasa el cursor hasta la intersección más próxima que formaría con otra entidad del dibujo. Pasa el cursor cerca del extremo que quieres extender — una vista previa muestra la entidad extendida — luego haz clic para aplicar.
 
 Solo las entidades con un extremo real pueden extenderse. Un [Circle](../circle/) y una Ellipse completa (360°) son siempre formas cerradas sin extremo, así que nunca pueden extenderse — lo mismo ocurre con una Polyline cerrada o un Rectangle. Una Ellipse parcial (un arco elíptico) y un Arc sí tienen extremos y se extienden igual que una Line.
 
 ## Extender una entidad
 
-1. Escribe `extend` en el terminal o haz clic en el botón **Extend** de la barra de herramientas.
+1. Escribe `Alargar` en el terminal o haz clic en el botón **Extend** de la barra de herramientas.
 2. **Pasa el cursor cerca de un extremo** de la entidad que quieres extender — la vista previa la muestra extendida hasta el límite más cercano en esa dirección.
 3. **Haz clic** para aplicar la extensión.
 

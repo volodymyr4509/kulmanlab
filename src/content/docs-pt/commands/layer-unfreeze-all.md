@@ -8,11 +8,11 @@ order: 5
 
 # LayerUnfreezeAll
 
-O comando `LayerUnfreezeAll` remove o flag de congelamento de **cada camada** do desenho instantaneamente. Não é necessária nenhuma seleção ou confirmação — o comando é executado e termina em um único passo.
+O comando `DescongelarTodasCamadas` remove o flag de congelamento de **cada camada** do desenho instantaneamente. Não é necessária nenhuma seleção ou confirmação — o comando é executado e termina em um único passo.
 
 ## Uso
 
-Digite `LayerUnfreezeAll` no terminal ou clique no botão **Unfreeze All** na barra de ferramentas (ícone de sol). Todas as camadas congeladas ficam visíveis imediatamente.
+Digite `DescongelarTodasCamadas` no terminal ou clique no botão **Unfreeze All** na barra de ferramentas (ícone de sol). Todas as camadas congeladas ficam visíveis imediatamente.
 
 ## Quando usar
 

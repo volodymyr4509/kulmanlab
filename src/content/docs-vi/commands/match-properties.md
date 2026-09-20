@@ -7,17 +7,17 @@ order: 1
 
 # Match Properties
 
-Lệnh `MatchProperties` sao chép **thuộc tính trực quan và lớp** từ thực thể nguồn sang một hoặc nhiều thực thể mục tiêu. Chỉ các thuộc tính được chia sẻ giữa loại thực thể nguồn và mục tiêu mới được chuyển — hình học không bao giờ bị thay đổi.
+Lệnh `SaoChépThuộcTính` sao chép **thuộc tính trực quan và lớp** từ thực thể nguồn sang một hoặc nhiều thực thể mục tiêu. Chỉ các thuộc tính được chia sẻ giữa loại thực thể nguồn và mục tiêu mới được chuyển — hình học không bao giờ bị thay đổi.
 
 ## Cách kích hoạt
 
-Nhấp nút **Match Properties** trên thanh công cụ (biểu tượng con lăn sơn) trong bảng Style, hoặc gõ `MatchProperties` trong terminal.
+Nhấp nút **Match Properties** trên thanh công cụ (biểu tượng con lăn sơn) trong bảng Style, hoặc gõ `SaoChépThuộcTính` trong terminal.
 
 ## Quy trình làm việc
 
 **Kích hoạt trước, sau đó chọn nguồn:**
 
-1. Gõ `MatchProperties` hoặc nhấp nút thanh công cụ khi không có gì được chọn trước.
+1. Gõ `SaoChépThuộcTính` hoặc nhấp nút thanh công cụ khi không có gì được chọn trước.
 2. **Nhấp thực thể nguồn** — thực thể có thuộc tính bạn muốn sao chép.
 3. **Nhấp từng thực thể mục tiêu** để áp dụng thuộc tính nguồn.
 4. Nhấn **Enter** hoặc **Escape** để kết thúc.
@@ -25,7 +25,7 @@ Nhấp nút **Match Properties** trên thanh công cụ (biểu tượng con lă
 **Chọn nguồn trước, sau đó kích hoạt:**
 
 1. Nhấp một thực thể để chọn nó.
-2. Kích hoạt `MatchProperties`. Thực thể đã chọn được dùng làm nguồn tự động.
+2. Kích hoạt `SaoChépThuộcTính`. Thực thể đã chọn được dùng làm nguồn tự động.
 3. Nhấp thực thể mục tiêu hoặc chọn kéo, sau đó **Enter** hoặc **Escape** để kết thúc.
 
 ## Thuộc tính được sao chép

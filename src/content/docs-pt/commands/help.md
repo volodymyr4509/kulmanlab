@@ -12,7 +12,7 @@ Abre o painel de ajuda in-app com um resumo de todos os atalhos de teclado, dica
 
 ## Como usar
 
-Clique no botão **Help** na barra de ferramentas ou digite `help` no terminal. O painel de ajuda abre imediatamente e o comando termina.
+Clique no botão **Help** na barra de ferramentas ou digite `Ajuda` no terminal. O painel de ajuda abre imediatamente e o comando termina.
 
 ## O que há no painel de ajuda
 

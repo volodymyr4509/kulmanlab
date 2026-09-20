@@ -8,7 +8,7 @@ order: 1
 
 # Leader
 
-Umarnin `leader` yana zana bayanin multileader a matakai huɗu: kibiya wanda ke taɓa fasali, layin leader wanda ke lanƙwasawa a dogleg, tabon rubutu, da alamar rubutu da aka rubuta. Daga dukkan umarnin bayani, Leader shine kaɗai wanda ke ƙunshe da mataki na shigar da rubutu mai hulɗa tare da preview na mai nuni mai walƙiya.
+Umarnin `LayinNuni` yana zana bayanin multileader a matakai huɗu: kibiya wanda ke taɓa fasali, layin leader wanda ke lanƙwasawa a dogleg, tabon rubutu, da alamar rubutu da aka rubuta. Daga dukkan umarnin bayani, Leader shine kaɗai wanda ke ƙunshe da mataki na shigar da rubutu mai hulɗa tare da preview na mai nuni mai walƙiya.
 
 ## Yanayin multileader
 
@@ -27,7 +27,7 @@ Umarnin `leader` yana zana bayanin multileader a matakai huɗu: kibiya wanda ke 
 
 ## Zana leader
 
-1. Rubuta `leader` a tashar umarni ko danna maɓallin kayan aiki na **Leader**.
+1. Rubuta `LayinNuni` a tashar umarni ko danna maɓallin kayan aiki na **Leader**.
 2. **Danna ƙarshen kibiya**, ko rubuta `X,Y` ka danna **Enter** don daidaitawa madaidaiciya.
 3. **Danna dogleg** — lanƙwasar a leader. Kusurwa tana kulle zuwa matakan 45°; rubuta tsawo ka danna **Enter** don sanya wuri madaidaici. Ko rubuta `X,Y` don shigar da daidaitawa cikakke.
 4. **Danna matsayin rubutu** — inda alamar take kwaɓewa. Zaɓuɓɓuka iri ɗaya suna aiki: danna, kulle-kusurwa + tsawo, ko `X,Y`.

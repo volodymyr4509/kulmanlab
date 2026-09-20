@@ -8,7 +8,7 @@ order: 1
 
 # Distance
 
-Het `distance`-commando meet de rechte-lijn- (Euclidische) afstand tussen twee aangeklikte punten en toont het resultaat in de terminal tot 4 decimalen. Het is een van drie meetcommando's — [Angle](../angle/) meet de hoekopening bij een hoekpunt, en [Area](../area/) meet de omsloten oppervlakte en omtrek van een veelhoek.
+Het `Afstand`-commando meet de rechte-lijn- (Euclidische) afstand tussen twee aangeklikte punten en toont het resultaat in de terminal tot 4 decimalen. Het is een van drie meetcommando's — [Angle](../angle/) meet de hoekopening bij een hoekpunt, en [Area](../area/) meet de omsloten oppervlakte en omtrek van een veelhoek.
 
 ## Anatomie van een afstandsmeting
 
@@ -26,7 +26,7 @@ Het `distance`-commando meet de rechte-lijn- (Euclidische) afstand tussen twee a
 
 ## Een afstand meten
 
-1. Typ `distance` in de terminal of klik op de **Distance**-werkbalkknop.
+1. Typ `Afstand` in de terminal of klik op de **Distance**-werkbalkknop.
 2. **Klik op het eerste punt**, of typ `X,Y` en druk op **Enter** voor een exact coördinaat.
 3. **Klik op het tweede punt** — de gemeten afstand verschijnt in de terminal. Coördinaatinvoer werkt hier ook.
 4. **Klik opnieuw** (optioneel) om een nieuwe meting te starten. Het commando blijft actief.

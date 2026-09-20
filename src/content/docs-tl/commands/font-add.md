@@ -8,11 +8,11 @@ order: 3
 
 # FontAdd
 
-Binubuksan ng `FontAdd` command ang file picker ng system para mag-upload ng custom `.ttf` font, nang hindi muna binubuksan ang [Font Manager](../font-manager/) dialog. Ito ang parehong upload na ini-trigger ng **Add Font** button sa Font Manager — ang FontAdd ay direktang daan lang papunta doon mula sa terminal.
+Binubuksan ng `MagdagdagFont` command ang file picker ng system para mag-upload ng custom `.ttf` font, nang hindi muna binubuksan ang [Font Manager](../font-manager/) dialog. Ito ang parehong upload na ini-trigger ng **Add Font** button sa Font Manager — ang FontAdd ay direktang daan lang papunta doon mula sa terminal.
 
 ## Pag-upload ng font
 
-1. I-type ang `FontAdd` sa terminal, o i-click ang **Add Font** sa footer ng [Font Manager](../font-manager/) dialog.
+1. I-type ang `MagdagdagFont` sa terminal, o i-click ang **Add Font** sa footer ng [Font Manager](../font-manager/) dialog.
 2. Pumili ng `.ttf` file sa file picker ng system. TrueType fonts lang ang suportado — hindi suportado ang `.otf` at `.woff`/`.woff2`.
 
 Natatapos ang command sa sandaling mabuksan ang file picker — walang susunod na click o terminal input. Naka-register ang font at lalabas sa grupong **User** sa sandaling mapili ang file.

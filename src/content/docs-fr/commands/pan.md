@@ -8,11 +8,11 @@ order: 1
 
 # Pan
 
-La commande `pan` entre dans un mode de glisser persistant pour déplacer la vue — cliquez et faites glisser n'importe où sur le canevas pour déplacer la vue. Le niveau de zoom ne change pas. Le mode Pan reste actif jusqu'à ce que vous appuyiez sur `Échap`, vous pouvez donc glisser plusieurs fois en une seule activation.
+La commande `Panoramique` entre dans un mode de glisser persistant pour déplacer la vue — cliquez et faites glisser n'importe où sur le canevas pour déplacer la vue. Le niveau de zoom ne change pas. Le mode Pan reste actif jusqu'à ce que vous appuyiez sur `Échap`, vous pouvez donc glisser plusieurs fois en une seule activation.
 
 ## Déplacer la vue
 
-1. Tapez `pan` dans le terminal ou cliquez sur le bouton **Pan** dans la barre d'outils.
+1. Tapez `Panoramique` dans le terminal ou cliquez sur le bouton **Pan** dans la barre d'outils.
 2. **Cliquez et faites glisser** n'importe où sur le canevas pour déplacer la vue.
 3. Relâchez et faites glisser à nouveau autant de fois que nécessaire.
 4. Appuyez sur `Échap` pour quitter le mode Pan.

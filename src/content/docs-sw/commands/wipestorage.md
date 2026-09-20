@@ -8,7 +8,7 @@ order: 7
 
 # Wipe Storage
 
-Amri ya `wipestorage` hufuta kwa kudumu **data yote iliyohifadhiwa kwenye kivinjari** kwa KulmanLab CAD — kila faili iliyohifadhiwa, jedwali la safu na aina ya mstari, na historia ya kufuta. Ukurasa hupakia upya kiotomatiki baadaye.
+Amri ya `FutaHifadhi` hufuta kwa kudumu **data yote iliyohifadhiwa kwenye kivinjari** kwa KulmanLab CAD — kila faili iliyohifadhiwa, jedwali la safu na aina ya mstari, na historia ya kufuta. Ukurasa hupakia upya kiotomatiki baadaye.
 
 :::danger Haiwezi Kugeuzwa
 Kitendo hiki hakiwezi kufutwa. Faili zote zilizohifadhiwa kwenye kivinjari zinafutwa. Safirisha michoro unayotaka kuhifadhi kama faili za `.json` au `.dxf` kabla ya kuendesha amri hii.
@@ -22,7 +22,7 @@ Kitendo hiki hakiwezi kufutwa. Faili zote zilizohifadhiwa kwenye kivinjari zinaf
 
 ## Jinsi ya kuiendesha
 
-1. Andika `wipestorage` kwenye terminal na ubonyeze **Enter**.
+1. Andika `FutaHifadhi` kwenye terminal na ubonyeze **Enter**.
 2. Terminal inatoa kidokezo: *Futa uhifadhi wote wa ndani wa kivinjari? Andika YES kuthibitisha*
 3. Andika `YES` (herufi yoyote ya uandishi) na ubonyeze **Enter**.
 

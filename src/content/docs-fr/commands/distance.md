@@ -8,7 +8,7 @@ order: 1
 
 # Distance
 
-La commande `distance` mesure la distance en ligne droite (euclidienne) entre deux points sélectionnés et affiche le résultat dans le terminal avec 4 décimales. C'est l'une des trois commandes de mesure — [Angle](../angle/) mesure l'ouverture angulaire à un sommet, et [Area](../area/) mesure l'aire délimitée et le périmètre d'un polygone.
+La commande `Distance` mesure la distance en ligne droite (euclidienne) entre deux points sélectionnés et affiche le résultat dans le terminal avec 4 décimales. C'est l'une des trois commandes de mesure — [Angle](../angle/) mesure l'ouverture angulaire à un sommet, et [Area](../area/) mesure l'aire délimitée et le périmètre d'un polygone.
 
 ## Anatomie d'une mesure de distance
 
@@ -26,7 +26,7 @@ La commande `distance` mesure la distance en ligne droite (euclidienne) entre de
 
 ## Mesurer une distance
 
-1. Tapez `distance` dans le terminal ou cliquez sur le bouton **Distance** dans la barre d'outils.
+1. Tapez `Distance` dans le terminal ou cliquez sur le bouton **Distance** dans la barre d'outils.
 2. **Cliquez sur le premier point**, ou tapez `X,Y` et appuyez sur **Entrée** pour une coordonnée exacte.
 3. **Cliquez sur le deuxième point** — la distance mesurée apparaît dans le terminal. La saisie de coordonnées fonctionne aussi ici.
 4. **Cliquez à nouveau** (optionnel) pour démarrer une nouvelle mesure. La commande reste active.

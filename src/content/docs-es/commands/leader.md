@@ -8,7 +8,7 @@ order: 1
 
 # Leader
 
-El comando `leader` dibuja una anotación multireferencia en cuatro pasos: una punta de flecha que toca una característica, una línea de referencia que se dobla en un quiebre, un ancla de texto y una etiqueta escrita. De todos los comandos de anotación, Leader es el único que incluye una fase interactiva de entrada de texto con una vista previa de cursor parpadeante.
+El comando `Directriz` dibuja una anotación multireferencia en cuatro pasos: una punta de flecha que toca una característica, una línea de referencia que se dobla en un quiebre, un ancla de texto y una etiqueta escrita. De todos los comandos de anotación, Leader es el único que incluye una fase interactiva de entrada de texto con una vista previa de cursor parpadeante.
 
 ## Anatomía de una multireferencia
 
@@ -27,7 +27,7 @@ El comando `leader` dibuja una anotación multireferencia en cuatro pasos: una p
 
 ## Dibujar una referencia
 
-1. Escribe `leader` en el terminal o haz clic en el botón **Leader** de la barra de herramientas.
+1. Escribe `Directriz` en el terminal o haz clic en el botón **Leader** de la barra de herramientas.
 2. **Haz clic en la punta de flecha**, o escribe `X,Y` y presiona **Enter** para una coordenada exacta.
 3. **Haz clic en el quiebre** — el doblez en la referencia. El ángulo se bloquea en incrementos de 45°; escribe una longitud y presiona **Enter** para una colocación precisa. O escribe `X,Y` para introducir una coordenada absoluta.
 4. **Haz clic en la posición del texto** — donde se ancla la etiqueta. Se aplican las mismas opciones: clic, bloqueo de ángulo + longitud, o `X,Y`.

@@ -8,11 +8,11 @@ order: 5
 
 # Arc
 
-La commande `arc` trace un arc circulaire à travers trois points que vous cliquez. L'arc est calculé comme le cercle circonscrit unique passant par les trois points — pas besoin de spécifier un centre ou un rayon directement. L'arc va du premier clic au troisième, en passant par le deuxième.
+La commande `Arc` trace un arc circulaire à travers trois points que vous cliquez. L'arc est calculé comme le cercle circonscrit unique passant par les trois points — pas besoin de spécifier un centre ou un rayon directement. L'arc va du premier clic au troisième, en passant par le deuxième.
 
 ## Tracer un arc
 
-1. Tapez `arc` dans le terminal ou cliquez sur le bouton **Arc** de la barre d'outils.
+1. Tapez `Arc` dans le terminal ou cliquez sur le bouton **Arc** de la barre d'outils.
 2. **Cliquez sur le premier point** — une extrémité de l'arc. Ou tapez `X,Y` et appuyez sur **Entrée** pour une coordonnée exacte.
 3. **Cliquez sur le deuxième point** — un point par lequel l'arc doit passer (contrôle la courbure et la direction). La saisie de coordonnées fonctionne également ici.
 4. **Cliquez sur le troisième point** — l'autre extrémité de l'arc. L'arc est placé et la commande se termine. La saisie de coordonnées fonctionne également ici.

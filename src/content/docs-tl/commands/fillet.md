@@ -8,13 +8,13 @@ order: 11
 
 # Fillet
 
-Ini-round ng `fillet` command ang sulok sa pagitan ng dalawang [Line](../line/), [Arc](../arc/), o [Polyline](../polyline/) segment sa pamamagitan ng pagsingit ng tangent arc na may nakatakdang radius, na tinitrim (o pinagsasama) ang mga napiling entity pabalik hanggang sa puntong iyon.
+Ini-round ng `Bilugin` command ang sulok sa pagitan ng dalawang [Line](../line/), [Arc](../arc/), o [Polyline](../polyline/) segment sa pamamagitan ng pagsingit ng tangent arc na may nakatakdang radius, na tinitrim (o pinagsasama) ang mga napiling entity pabalik hanggang sa puntong iyon.
 
 Gumagana ang Fillet sa **Line, Arc, at Polyline** entities — kasama na ang mga straight o arc segment ng polyline mismo.
 
 ## Paggamit ng Fillet
 
-1. I-type ang `fillet` sa terminal o i-click ang **Fillet** button sa toolbar.
+1. I-type ang `Bilugin` sa terminal o i-click ang **Fillet** button sa toolbar.
 2. **I-type ang fillet radius** at pindutin ang **Enter**.
 3. **I-click ang unang linya, arc, o polyline segment** — ang bahaging kinlik-an mo ang nagtatakda kung aling side ng intersection ang mapapanatili.
 4. **I-hover sa ikalawang entity** — may dashed arc preview na nagpapakita ng resultang fillet. Igalaw ang cursor papunta sa side na gusto mong panatilihin.

@@ -8,17 +8,17 @@ order: 1
 
 # Match Properties
 
-Komento `MatchProperties` kopioi **visuaaliset ja tasoon liittyvät ominaisuudet** lähde-entiteetistä yhteen tai useampaan kohde-entiteettiin. Vain ominaisuudet, jotka jaetaan lähde- ja kohde-entiteettityyppien välillä, siirretään — geometriaa ei koskaan muuteta.
+Komento `KopioiOminaisuudet` kopioi **visuaaliset ja tasoon liittyvät ominaisuudet** lähde-entiteetistä yhteen tai useampaan kohde-entiteettiin. Vain ominaisuudet, jotka jaetaan lähde- ja kohde-entiteettityyppien välillä, siirretään — geometriaa ei koskaan muuteta.
 
 ## Aktivointi
 
-Napsauta **Match Properties**-painiketta (maalitelakuvake) Style-paneelissa, tai kirjoita `MatchProperties` terminaaliin.
+Napsauta **Match Properties**-painiketta (maalitelakuvake) Style-paneelissa, tai kirjoita `KopioiOminaisuudet` terminaaliin.
 
 ## Työnkulku
 
 **Aktivoi ensin, valitse sitten lähde:**
 
-1. Kirjoita `MatchProperties` tai napsauta työkalurivin painiketta ilman mitään esivalittuna.
+1. Kirjoita `KopioiOminaisuudet` tai napsauta työkalurivin painiketta ilman mitään esivalittuna.
 2. **Napsauta lähde-entiteettiä** — sitä, jonka ominaisuudet haluat kopioida.
 3. **Napsauta jokaista kohde-entiteettiä** soveltaaksesi lähteen ominaisuudet. Voit napsauttaa useita entiteettejä yksi kerrallaan.
 4. Soveltaaksesi ryhmään kerralla, **vedä valintalaatikko** kohteiden yli.
@@ -27,7 +27,7 @@ Napsauta **Match Properties**-painiketta (maalitelakuvake) Style-paneelissa, tai
 **Valitse lähde ensin, aktivoi sitten:**
 
 1. Napsauta yhtä entiteettiä valitaksesi sen.
-2. Aktivoi `MatchProperties`. Valittua entiteettiä käytetään automaattisesti lähteenä.
+2. Aktivoi `KopioiOminaisuudet`. Valittua entiteettiä käytetään automaattisesti lähteenä.
 3. Napsauta kohde-entiteettejä tai vedä valitaksesi, sitten **Enter** tai **Escape** viimeistelläksesi.
 
 ## Mitkä ominaisuudet kopioidaan

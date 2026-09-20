@@ -8,12 +8,12 @@ order: 1
 
 # ViewportRectangle
 
-Kommandoen `ViewportRectangle` opretter en ny viewport i det aktive papirlayout ved at klikke to modsatte hjørner. Kun tilgængelig i layout-rummet.
+Kommandoen `VisningsvindueRektangel` opretter en ny viewport i det aktive papirlayout ved at klikke to modsatte hjørner. Kun tilgængelig i layout-rummet.
 
 ## Oprette en viewport
 
 1. Skift til et papirlayout ved hjælp af fanen nederst på skærmen.
-2. Skriv `ViewportRectangle` i terminalen eller klik på **Viewport Rectangle**-knappen i værktøjslinjen.
+2. Skriv `VisningsvindueRektangel` i terminalen eller klik på **Viewport Rectangle**-knappen i værktøjslinjen.
 3. **Klik det første hjørne**, eller skriv `X,Y` og tryk **Enter** for en eksakt koordinat.
 4. **Klik det modsatte hjørne** — viewporten placeres med det samme. Koordinatindtastning fungerer også her.
 

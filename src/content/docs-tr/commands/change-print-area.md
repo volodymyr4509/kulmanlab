@@ -8,11 +8,11 @@ order: 5
 
 # ChangePrintArea
 
-`ChangePrintArea` komutu, [Print Manager](../print-manager/)'ın dışa aktardığı dikdörtgen bölgeyi belirler. Print Manager gizliyken boş tuvalde çalışır ve iki karşıt köşe alır — [Rectangle](../rectangle/) ile aynı iki tıklama, dolayısıyla yazılan koordinatlar ve yakalama orada olduğu gibi davranır.
+`YazdırmaAlanınıDeğiştir` komutu, [Print Manager](../print-manager/)'ın dışa aktardığı dikdörtgen bölgeyi belirler. Print Manager gizliyken boş tuvalde çalışır ve iki karşıt köşe alır — [Rectangle](../rectangle/) ile aynı iki tıklama, dolayısıyla yazılan koordinatlar ve yakalama orada olduğu gibi davranır.
 
 ## Alan seçme
 
-1. Terminale `ChangePrintArea` yazın veya Print Manager kenar çubuğundaki **Change Area** düğmesine tıklayın. Print Manager gizlenir ve tuval etkileşimli hale gelir.
+1. Terminale `YazdırmaAlanınıDeğiştir` yazın veya Print Manager kenar çubuğundaki **Change Area** düğmesine tıklayın. Print Manager gizlenir ve tuval etkileşimli hale gelir.
 2. **İlk köşeye tıklayın** veya tam koordinat için `X,Y` yazıp **Enter**'a basın.
 3. **Karşıt köşeye tıklayın** veya yeniden `X,Y` yazın.
 

@@ -8,11 +8,11 @@ order: 9
 
 # Spline Fit
 
-Kommandoen `splinefit` tegner en kubisk spline som går gjennom hvert punkt du klikker — en interpolerende kurve. I motsetning til [Spline CV](../spline-cv/), der kurven kun trekkes mot kontrollpunkter, tvinges kurven her til å treffe hver klikkede koordinat nøyaktig. Internt tilpasser editoren kontrollpunkter for å oppnå dette, og disse CV-ene lagres sammen med tilpasningspunktene i DXF-filen.
+Kommandoen `SplinePunkter` tegner en kubisk spline som går gjennom hvert punkt du klikker — en interpolerende kurve. I motsetning til [Spline CV](../spline-cv/), der kurven kun trekkes mot kontrollpunkter, tvinges kurven her til å treffe hver klikkede koordinat nøyaktig. Internt tilpasser editoren kontrollpunkter for å oppnå dette, og disse CV-ene lagres sammen med tilpasningspunktene i DXF-filen.
 
 ## Tegne en spline gjennom tilpasningspunkter
 
-1. Skriv `splinefit` i terminalen eller klikk på **Spline Fit**-knappen i verktøylinjen.
+1. Skriv `SplinePunkter` i terminalen eller klikk på **Spline Fit**-knappen i verktøylinjen.
 2. **Klikk for å plassere tilpasningspunkter** — kurven vil gå gjennom hvert av dem. Eller skriv `X,Y` og trykk **Enter** for en eksakt koordinat.
 3. Trykk **Enter** eller **Space** for å avslutte (minst 2 punkter kreves).
 

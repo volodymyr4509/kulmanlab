@@ -8,7 +8,7 @@ order: 12
 
 # Chamfer
 
-Der `chamfer`-Befehl schneidet eine gerade diagonale Ecke zwischen zwei [Line](../line/)- oder [Polyline](../polyline/)-Elementen. Sie geben an, wie weit zurück entlang jedes Elements geschnitten werden soll (d1 und d2), und der Befehl kürzt beide Elemente auf diese Punkte zurück und fügt eine verbindende Linie zwischen ihnen ein.
+Der `Fasen`-Befehl schneidet eine gerade diagonale Ecke zwischen zwei [Line](../line/)- oder [Polyline](../polyline/)-Elementen. Sie geben an, wie weit zurück entlang jedes Elements geschnitten werden soll (d1 und d2), und der Befehl kürzt beide Elemente auf diese Punkte zurück und fügt eine verbindende Linie zwischen ihnen ein.
 
 Gleiche Abstände erzeugen einen symmetrischen 45°-Schnitt; unterschiedliche Abstände erzeugen eine asymmetrische Fase.
 
@@ -16,7 +16,7 @@ Chamfer funktioniert mit **Line- und Polyline**-Elementen.
 
 ## Chamfer verwenden
 
-1. Geben Sie `chamfer` im Terminal ein oder klicken Sie auf die Schaltfläche **Chamfer** in der Symbolleiste.
+1. Geben Sie `Fasen` im Terminal ein oder klicken Sie auf die Schaltfläche **Chamfer** in der Symbolleiste.
 2. **Ersten Chamfer-Abstand eingeben** (d1 — Abstand entlang des ersten Elements) und **Enter** drücken.
 3. **Zweiten Chamfer-Abstand eingeben** (d2 — Abstand entlang des zweiten Elements) und **Enter** drücken.
 4. **Erstes Element klicken** — der geklickte Bereich bestimmt, welche Seite einer Schnittlinie behalten wird.

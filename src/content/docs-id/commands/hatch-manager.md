@@ -8,11 +8,11 @@ order: 4
 
 # Hatch Manager
 
-Perintah `HatchManager` membuka dialog untuk menjelajahi pola hatch dengan pratinjau swatch langsung, dan untuk mengunggah file pola `.pat` Anda sendiri untuk digunakan dengan [Hatch](../hatch/).
+Perintah `ManajerArsir` membuka dialog untuk menjelajahi pola hatch dengan pratinjau swatch langsung, dan untuk mengunggah file pola `.pat` Anda sendiri untuk digunakan dengan [Hatch](../hatch/).
 
 ## Membuka Hatch Manager
 
-Ketik `HatchManager` di terminal. Ini terpisah dari pemilih pola yang terbuka saat Anda mengklik chip **Pattern** pada hatch — pemilih memilih pola untuk satu hatch, Hatch Manager adalah tempat Anda menambah atau menghapus file `.pat`.
+Ketik `ManajerArsir` di terminal. Ini terpisah dari pemilih pola yang terbuka saat Anda mengklik chip **Pattern** pada hatch — pemilih memilih pola untuk satu hatch, Hatch Manager adalah tempat Anda menambah atau menghapus file `.pat`.
 
 ## Grup Pola
 

@@ -8,14 +8,14 @@ order: 15
 
 # Array Grid
 
-Het commando `ArrayGrid` maakt een rechthoekig raster van kopieën van geselecteerde entiteiten — voer het aantal rijen, het aantal kolommen en de tussenruimte in, allemaal getypt in de terminal. De oorspronkelijke selectie bezet de cel rij 0, kolom 0; elke andere cel is een verplaatste kopie.
+Het commando `RechthoekigeReeks` maakt een rechthoekig raster van kopieën van geselecteerde entiteiten — voer het aantal rijen, het aantal kolommen en de tussenruimte in, allemaal getypt in de terminal. De oorspronkelijke selectie bezet de cel rij 0, kolom 0; elke andere cel is een verplaatste kopie.
 
 ## Twee manieren om te starten
 
 **Eerst selecteren, dan array** — selecteer eerst entiteiten en activeer daarna:
 
 1. Selecteer een of meer entiteiten op het canvas.
-2. Typ `arraygrid` in de terminal (`arr` is al genoeg — ondubbelzinnig) of klik op de werkbalkknop **Array Grid**.
+2. Typ `RechthoekigeReeks` in de terminal (`arr` is al genoeg — ondubbelzinnig) of klik op de werkbalkknop **Array Grid**.
 3. Typ het aantal **rijen** en druk op **Enter**.
 4. Typ het aantal **kolommen** en druk op **Enter**.
 5. Typ de **tussenruimte tussen rijen** en druk op **Enter**.
@@ -23,7 +23,7 @@ Het commando `ArrayGrid` maakt een rechthoekig raster van kopieën van geselecte
 
 **Eerst activeren, dan selecteren** — start het commando zonder dat er iets geselecteerd is:
 
-1. Typ `arraygrid` of klik op de werkbalkknop.
+1. Typ `RechthoekigeReeks` of klik op de werkbalkknop.
 2. **Selecteer objecten** — klik om afzonderlijke entiteiten aan/uit te zetten, of sleep om per gebied te selecteren.
 3. Druk op **Enter** of **Spatie** om de selectie te bevestigen.
 4. Ga verder met rijen → kolommen → rijafstand → kolomafstand zoals hierboven.

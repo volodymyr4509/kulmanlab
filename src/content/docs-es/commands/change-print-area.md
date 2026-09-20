@@ -8,11 +8,11 @@ order: 5
 
 # ChangePrintArea
 
-El comando `ChangePrintArea` fija la región rectangular que exporta el [Administrador de Impresión](../print-manager/). Se ejecuta sobre el lienzo con el Administrador de Impresión oculto y toma dos esquinas opuestas — los mismos dos clics que [Rectangle](../rectangle/), así que las coordenadas escritas y el ajuste funcionan igual que allí.
+El comando `CambiarÁreaImpresión` fija la región rectangular que exporta el [Administrador de Impresión](../print-manager/). Se ejecuta sobre el lienzo con el Administrador de Impresión oculto y toma dos esquinas opuestas — los mismos dos clics que [Rectangle](../rectangle/), así que las coordenadas escritas y el ajuste funcionan igual que allí.
 
 ## Seleccionar un área
 
-1. Escribe `ChangePrintArea` en el terminal, o haz clic en **Change Area** en la barra lateral del Administrador de Impresión. El Administrador se oculta y el lienzo se vuelve interactivo.
+1. Escribe `CambiarÁreaImpresión` en el terminal, o haz clic en **Change Area** en la barra lateral del Administrador de Impresión. El Administrador se oculta y el lienzo se vuelve interactivo.
 2. **Haz clic en la primera esquina**, o escribe `X,Y` y pulsa **Enter** para una coordenada exacta.
 3. **Haz clic en la esquina opuesta**, o vuelve a escribir `X,Y`.
 

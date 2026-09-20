@@ -8,7 +8,7 @@ order: 1
 
 # Distance
 
-Sinusukat ng `distance` command ang straight-line (Euclidean) distance sa pagitan ng dalawang na-click na punto at ini-print ang resulta sa terminal hanggang 4 decimal places. Isa ito sa tatlong measurement command — sinusukat ng [Angle](../angle/) ang angular opening sa isang vertex, at sinusukat ng [Area](../area/) ang saklaw na area at perimeter ng isang polygon.
+Sinusukat ng `Distansya` command ang straight-line (Euclidean) distance sa pagitan ng dalawang na-click na punto at ini-print ang resulta sa terminal hanggang 4 decimal places. Isa ito sa tatlong measurement command — sinusukat ng [Angle](../angle/) ang angular opening sa isang vertex, at sinusukat ng [Area](../area/) ang saklaw na area at perimeter ng isang polygon.
 
 ## Anatomiya ng Distance Measurement
 
@@ -26,7 +26,7 @@ Sinusukat ng `distance` command ang straight-line (Euclidean) distance sa pagita
 
 ## Pagsukat ng Distansya
 
-1. I-type ang `distance` sa terminal o i-click ang **Distance** button sa toolbar.
+1. I-type ang `Distansya` sa terminal o i-click ang **Distance** button sa toolbar.
 2. **I-click ang unang punto**, o i-type ang `X,Y` at pindutin ang **Enter** para sa eksaktong coordinate.
 3. **I-click ang ikalawang punto** — lalabas sa terminal ang nasukat na distansya. Gumagana rin dito ang coordinate entry.
 4. **I-click ulit** (opsyonal) para simulan ang bagong sukatan. Nananatiling aktibo ang command.

@@ -8,7 +8,7 @@ order: 2
 
 # Angle
 
-Der `angle`-Befehl misst den Innenwinkel an einem Scheitelpunkt, der durch zwei Liniensegmente durch drei geklickte Punkte gebildet wird. Das Ergebnis — immer zwischen 0° und 180° — wird im Terminal auf 4 Dezimalstellen angezeigt. Es ist einer von drei Messbefehlen — [Distance](../distance/) misst die geradlinige Länge, und [Area](../area/) misst die eingeschlossene Fläche und den Umfang eines Polygons.
+Der `Winkel`-Befehl misst den Innenwinkel an einem Scheitelpunkt, der durch zwei Liniensegmente durch drei geklickte Punkte gebildet wird. Das Ergebnis — immer zwischen 0° und 180° — wird im Terminal auf 4 Dezimalstellen angezeigt. Es ist einer von drei Messbefehlen — [Distance](../distance/) misst die geradlinige Länge, und [Area](../area/) misst die eingeschlossene Fläche und den Umfang eines Polygons.
 
 ## Aufbau einer Winkelmessung
 
@@ -30,7 +30,7 @@ Der `angle`-Befehl misst den Innenwinkel an einem Scheitelpunkt, der durch zwei 
 
 ## Einen Winkel messen
 
-1. Geben Sie `angle` im Terminal ein oder klicken Sie auf die Schaltfläche **Angle** in der Symbolleiste.
+1. Geben Sie `Winkel` im Terminal ein oder klicken Sie auf die Schaltfläche **Angle** in der Symbolleiste.
 2. **Ersten Punkt klicken** — ein Armende des Winkels. Oder geben Sie `X,Y` ein und drücken Sie **Enter** für eine genaue Koordinate.
 3. **Scheitelpunkt klicken** — die Ecke, an der sich die beiden Arme treffen. Koordinateneingabe funktioniert hier ebenfalls.
 4. **Dritten Punkt klicken** — das zweite Armende. Koordinateneingabe funktioniert hier ebenfalls. Das Platzieren dieses Punktes gibt das Ergebnis aus.

@@ -8,11 +8,11 @@ order: 5
 
 # ChangePrintArea
 
-Lệnh `ChangePrintArea` đặt vùng hình chữ nhật mà [Print Manager](../print-manager/) xuất ra. Lệnh chạy trên canvas trống khi Print Manager đang ẩn và nhận hai góc đối diện — cùng hai lần nhấp như [Rectangle](../rectangle/), nên tọa độ nhập và bắt điểm hoạt động y hệt.
+Lệnh `ĐổiVùngIn` đặt vùng hình chữ nhật mà [Print Manager](../print-manager/) xuất ra. Lệnh chạy trên canvas trống khi Print Manager đang ẩn và nhận hai góc đối diện — cùng hai lần nhấp như [Rectangle](../rectangle/), nên tọa độ nhập và bắt điểm hoạt động y hệt.
 
 ## Chọn một vùng
 
-1. Gõ `ChangePrintArea` trong terminal, hoặc nhấp **Change Area** ở thanh bên của Print Manager. Print Manager ẩn đi và canvas trở nên tương tác được.
+1. Gõ `ĐổiVùngIn` trong terminal, hoặc nhấp **Change Area** ở thanh bên của Print Manager. Print Manager ẩn đi và canvas trở nên tương tác được.
 2. **Nhấp góc thứ nhất**, hoặc gõ `X,Y` rồi nhấn **Enter** để có tọa độ chính xác.
 3. **Nhấp góc đối diện**, hoặc gõ `X,Y` lần nữa.
 

@@ -8,7 +8,7 @@ order: 16
 
 # Explode
 
-O comando `explode` decompõe uma [Polilinha](../polyline/) em suas entidades [Linha](../line/) e [Arco](../arc/) individuais — uma por segmento, exatamente onde estavam os vértices da polilinha. As partes substituem a polilinha no lugar e mantêm sua espessura de linha, cor, camada e tipo de linha.
+O comando `Explodir` decompõe uma [Polilinha](../polyline/) em suas entidades [Linha](../line/) e [Arco](../arc/) individuais — uma por segmento, exatamente onde estavam os vértices da polilinha. As partes substituem a polilinha no lugar e mantêm sua espessura de linha, cor, camada e tipo de linha.
 
 Explode funciona apenas com entidades **Polilinha**.
 
@@ -19,13 +19,13 @@ Duas formas de executá-lo, o mesmo padrão de [Delete](../delete/):
 **Selecione primeiro, depois explode** — o caminho mais rápido:
 
 1. Selecione uma ou mais polilinhas no canvas.
-2. Digite `explode` no terminal, ou clique no botão **Explode** no painel Edit.
+2. Digite `Explodir` no terminal, ou clique no botão **Explode** no painel Edit.
 
 As polilinhas selecionadas são explodidas instantaneamente — sem etapa de confirmação separada, já que algo já está selecionado.
 
 **Ative, depois selecione**:
 
-1. Digite `explode` ou clique no botão da barra de ferramentas sem nada selecionado.
+1. Digite `Explodir` ou clique no botão da barra de ferramentas sem nada selecionado.
 2. **Selecione polilinhas** — clique para alternar, ou arraste para selecionar por área.
 3. Pressione **Enter** ou **Espaço** para confirmar e explodir as polilinhas selecionadas.
 

@@ -8,7 +8,7 @@ order: 3
 
 # Area
 
-Umarnin `area` yana auna fili da kewaye na polygon da aka bayyana ta tabo uku ko fiye da aka danna, kuma yana buga sakamako biyu a tashar umarni har zuwa lambobi 4 bayan digit. Shine umarnin awo na uku, tare da [Distance](../distance/) (tsawon layi madaidaici) da [Angle](../angle/) (kusurwar ciki a wata kusurwa).
+Umarnin `Fili` yana auna fili da kewaye na polygon da aka bayyana ta tabo uku ko fiye da aka danna, kuma yana buga sakamako biyu a tashar umarni har zuwa lambobi 4 bayan digit. Shine umarnin awo na uku, tare da [Distance](../distance/) (tsawon layi madaidaici) da [Angle](../angle/) (kusurwar ciki a wata kusurwa).
 
 ## Yanayin auna fili
 
@@ -30,7 +30,7 @@ Umarnin `area` yana auna fili da kewaye na polygon da aka bayyana ta tabo uku ko
 
 ## Auna fili
 
-1. Rubuta `area` a tashar umarni ko danna maɓallin kayan aiki na **Area** (jere na ƙasa na panel na Measure).
+1. Rubuta `Fili` a tashar umarni ko danna maɓallin kayan aiki na **Area** (jere na ƙasa na panel na Measure).
 2. **Danna tabo na farko**, ko rubuta `X,Y` ka danna **Enter** don daidaitawa madaidaiciya.
 3. **Danna kowace vertex ƙari** a tsari a kewayen sifar. Shigar da daidaitawa yana aiki a kowane mataki.
 4. Da zarar an sanya aƙalla **tabo 3**, danna **Enter** ko **Space** (ba tare da wata shigarwar daidaitawa ko nisa da ke jira ba) don rufe polygon ka lissafa sakamakon.
@@ -93,5 +93,5 @@ Maimakon dannawa, rubuta madaidaicin matsayi ga kowace vertex:
 - Ana lissafa fili da [shoelace formula](https://en.wikipedia.org/wiki/Shoelace_formula) kuma koyaushe ana bayar da rahoto a matsayin ƙima mai kyau, ba tare da la'akari da tsarin dannawa ba.
 - Polygons masu haɗuwa da kansu (gefuna da suke haɗuwa) har yanzu suna samar da sakamako na lamba, amma ƙimar ba za ta iya dacewa da yankin da aka gani ba — ka riƙe tsarin dannawa mai rashin haɗuwa don fili mai ma'ana.
 - Ana nuna sakamako a **tashar umarni da kuma a matsayin alama na wucin gadi a kan canvas kaɗai** — babu abin da aka ƙara zuwa zanen a matsayin abu na dindindin.
-- Ba kamar Distance da Angle ba, Area **ba** ta sarƙa zuwa sabon awo kai tsaye — bayan ka kawar da sakamakon, sake gudanar da `area` don auna wani polygon.
+- Ba kamar Distance da Angle ba, Area **ba** ta sarƙa zuwa sabon awo kai tsaye — bayan ka kawar da sakamakon, sake gudanar da `Fili` don auna wani polygon.
 - Daidaito koyaushe lambobi 4 ne bayan digit ga fili da kewaye duka, a irin unit ɗin da kanana coordinates na zane (babu canjin unit).

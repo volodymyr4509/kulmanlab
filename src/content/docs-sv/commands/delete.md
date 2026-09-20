@@ -8,20 +8,20 @@ order: 7
 
 # Delete
 
-`delete`-kommandot tar bort valda entiteter från ritningen. Borttagningar registreras i [Undo](../undo/)-historiken och kan återställas upp till 20 steg. Det finns ingen separat "bekräfta borttagning"-dialog — bekräftelsen sker med ett enda tangenttryck.
+`Radera`-kommandot tar bort valda entiteter från ritningen. Borttagningar registreras i [Undo](../undo/)-historiken och kan återställas upp till 20 steg. Det finns ingen separat "bekräfta borttagning"-dialog — bekräftelsen sker med ett enda tangenttryck.
 
 ## Två sätt att ta bort
 
 **Förval, sedan borttagning** — den snabbaste vägen:
 
 1. Välj en eller flera entiteter på ritytan.
-2. Skriv `delete` i terminalen, klicka på **Delete**-knappen i verktygsfältet, **eller tryck direkt på `Delete`-tangenten**.
+2. Skriv `Radera` i terminalen, klicka på **Delete**-knappen i verktygsfältet, **eller tryck direkt på `Delete`-tangenten**.
 
 Entiteter tas bort omedelbart — inget ytterligare bekräftelsesteg.
 
 **Aktivera, välj sedan**:
 
-1. Skriv `delete` eller klicka på verktygsfältsknappen (utan att något är valt).
+1. Skriv `Radera` eller klicka på verktygsfältsknappen (utan att något är valt).
 2. **Välj objekt** — klicka för att växla, eller dra för att välja med ett område.
 3. Tryck **Enter**, **Space** eller **Delete** för att bekräfta och ta bort de valda entiteterna.
 
@@ -44,7 +44,7 @@ Klicka på entitet → tryck på Delete-tangenten → klart
 
 ## Återställa borttagna entiteter
 
-Borttagningar kan ångras med [Undo](../undo/)-kommandot (skriv `undo` eller använd knappen i verktygsfältet). Upp till **20 steg** kan återställas per fil, och historiken bevaras mellan sidladdningar. Om du har överskridit 20 borttagningar utan att spara kan tidigare borttagningar inte återställas.
+Borttagningar kan ångras med [Undo](../undo/)-kommandot (skriv `Ångra` eller använd knappen i verktygsfältet). Upp till **20 steg** kan återställas per fil, och historiken bevaras mellan sidladdningar. Om du har överskridit 20 borttagningar utan att spara kan tidigare borttagningar inte återställas.
 
 ## Entiteter som stöds
 

@@ -8,11 +8,11 @@ order: 8
 
 # Trim
 
-La commande `trim` supprime la portion d'une [Line](../line/), d'un [Arc](../arc/), [Circle](../circle/), d'une [Ellipse](../ellipse/) ou [Polyline](../polyline/) qui se trouve entre deux points d'intersection adjacents, divisant l'entité en une ou plusieurs parties restantes. Le segment à couper est déterminé par la position du curseur — survolez la partie que vous voulez supprimer et cliquez pour la raccorder.
+La commande `Ajuster` supprime la portion d'une [Line](../line/), d'un [Arc](../arc/), [Circle](../circle/), d'une [Ellipse](../ellipse/) ou [Polyline](../polyline/) qui se trouve entre deux points d'intersection adjacents, divisant l'entité en une ou plusieurs parties restantes. Le segment à couper est déterminé par la position du curseur — survolez la partie que vous voulez supprimer et cliquez pour la raccorder.
 
 ## Raccorder une entité
 
-1. Tapez `trim` dans le terminal ou cliquez sur le bouton **Trim** de la barre d'outils.
+1. Tapez `Ajuster` dans le terminal ou cliquez sur le bouton **Trim** de la barre d'outils.
 2. **Survolez le segment** que vous souhaitez supprimer — un aperçu met en surbrillance exactement la portion qui sera coupée.
 3. **Cliquez** pour supprimer ce segment.
 

@@ -8,11 +8,11 @@ order: 2
 
 # Font Manager
 
-Arahan `FontManager` membuka dialog untuk melayari dan memilih fon, serta untuk memuat naik fail `.ttf` anda sendiri untuk digunakan pada entiti [Text](../text/) dan [Multileader](../leader/).
+Arahan `PengurusFon` membuka dialog untuk melayari dan memilih fon, serta untuk memuat naik fail `.ttf` anda sendiri untuk digunakan pada entiti [Text](../text/) dan [Multileader](../leader/).
 
 ## Membuka Font Manager
 
-- Taip `FontManager` dalam terminal, **atau**
+- Taip `PengurusFon` dalam terminal, **atau**
 - Klik butang **Font Manager** pada bar alat [text editor](../../interface/text-editor/).
 
 ## Kumpulan fon
@@ -28,7 +28,7 @@ Klik mana-mana fon dalam senarai untuk pratonton di sebelah kanan — nama, samp
 
 ## Memuat naik fon kustom
 
-1. Klik **Add Font** pada footer dialog (atau taip [`FontAdd`](../font-add/) dalam terminal untuk membuka pemilih fail secara terus).
+1. Klik **Add Font** pada footer dialog (atau taip [`FonTambah`](../font-add/) dalam terminal untuk membuka pemilih fail secara terus).
 2. Pilih fail `.ttf`. Hanya fon TrueType disokong — `.otf` dan `.woff`/`.woff2` tidak disokong.
 3. Nama fail (tanpa sambungan) menjadi nama fon dalam kumpulan **User**. Sebagai contoh, memuat naik `MyFont.ttf` menambah fon bernama `MyFont`.
 

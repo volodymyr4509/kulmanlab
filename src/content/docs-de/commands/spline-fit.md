@@ -8,11 +8,11 @@ order: 9
 
 # Spline Fit
 
-Der `splinefit`-Befehl zeichnet einen kubischen Spline, der durch jeden von Ihnen geklickten Punkt verläuft — eine interpolierende Kurve. Im Gegensatz zu [Spline CV](../spline-cv/), wo die Kurve nur zu Kontrollpunkten hingezogen wird, wird die Kurve hier gezwungen, jede geklickte Koordinate exakt zu treffen. Intern berechnet der Editor Kontrollpunkte, um dies zu erreichen, und diese CVs werden zusammen mit den Fit-Punkten in der DXF-Datei gespeichert.
+Der `SplinePunkte`-Befehl zeichnet einen kubischen Spline, der durch jeden von Ihnen geklickten Punkt verläuft — eine interpolierende Kurve. Im Gegensatz zu [Spline CV](../spline-cv/), wo die Kurve nur zu Kontrollpunkten hingezogen wird, wird die Kurve hier gezwungen, jede geklickte Koordinate exakt zu treffen. Intern berechnet der Editor Kontrollpunkte, um dies zu erreichen, und diese CVs werden zusammen mit den Fit-Punkten in der DXF-Datei gespeichert.
 
 ## Einen Spline durch Fit-Punkte zeichnen
 
-1. Geben Sie `splinefit` im Terminal ein oder klicken Sie auf die **Spline Fit**-Schaltfläche in der Werkzeugleiste.
+1. Geben Sie `SplinePunkte` im Terminal ein oder klicken Sie auf die **Spline Fit**-Schaltfläche in der Werkzeugleiste.
 2. **Klicken Sie zum Platzieren von Fit-Punkten** — die Kurve wird durch jeden verlaufen. Oder geben Sie `X,Y` ein und drücken Sie **Enter** für eine exakte Koordinate.
 3. Drücken Sie **Enter** oder **Space** zum Fertigstellen (mindestens 2 Punkte erforderlich).
 

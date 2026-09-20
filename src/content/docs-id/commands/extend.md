@@ -8,13 +8,13 @@ order: 9
 
 # Extend
 
-Perintah `extend` meregangkan titik akhir terdekat dari [Line](../line/), [Arc](../arc/), [Ellipse](../ellipse/), atau Polyline terbuka yang di-hover ke perpotongan terdekat yang akan terbentuk dengan entitas lain dalam gambar. Arahkan kursor dekat titik akhir yang ingin diperpanjang — pratinjau menampilkan entitas yang diperpanjang — kemudian klik untuk menerapkannya.
+Perintah `Perpanjang` meregangkan titik akhir terdekat dari [Line](../line/), [Arc](../arc/), [Ellipse](../ellipse/), atau Polyline terbuka yang di-hover ke perpotongan terdekat yang akan terbentuk dengan entitas lain dalam gambar. Arahkan kursor dekat titik akhir yang ingin diperpanjang — pratinjau menampilkan entitas yang diperpanjang — kemudian klik untuk menerapkannya.
 
 Hanya entitas dengan titik akhir sebenarnya yang dapat diperpanjang. [Circle](../circle/) dan Ellipse penuh (360°) selalu berupa bentuk tertutup tanpa titik akhir, sehingga tidak pernah bisa diperpanjang — begitu juga Polyline tertutup atau Rectangle. Ellipse parsial (busur elips) dan Arc memiliki titik akhir dan diperpanjang dengan cara yang sama seperti Line.
 
 ## Memperpanjang entitas
 
-1. Ketik `extend` di terminal atau klik tombol toolbar **Extend**.
+1. Ketik `Perpanjang` di terminal atau klik tombol toolbar **Extend**.
 2. **Arahkan kursor dekat salah satu ujung** entitas yang ingin diperpanjang — pratinjau menampilkannya diperpanjang ke batas terdekat dalam arah tersebut.
 3. **Klik** untuk menerapkan perpanjangan.
 

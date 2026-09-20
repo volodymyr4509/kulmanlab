@@ -8,11 +8,11 @@ order: 3
 
 # PageManager
 
-El comando `PageManager` abre el diálogo de configuración de página para el diseño activo, permitiéndote cambiar el formato del papel, la orientación y la escala entre unidades de dibujo y milímetros.
+El comando `GestorDePáginas` abre el diálogo de configuración de página para el diseño activo, permitiéndote cambiar el formato del papel, la orientación y la escala entre unidades de dibujo y milímetros.
 
 ## Abrir el Administrador de Páginas
 
-- Escribe `PageManager` en el terminal, **o**
+- Escribe `GestorDePáginas` en el terminal, **o**
 - Haz clic derecho en una pestaña de diseño en la parte inferior y elige **Page Manager**.
 
 ## Configuración

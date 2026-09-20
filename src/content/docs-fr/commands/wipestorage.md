@@ -8,7 +8,7 @@ order: 7
 
 # Wipe Storage
 
-La commande `wipestorage` supprime définitivement **toutes les données stockées dans le navigateur** pour KulmanLab CAD — chaque fichier sauvegardé, table de calques et types de ligne, et historique d'annulation. La page se recharge automatiquement après.
+La commande `ViderStockage` supprime définitivement **toutes les données stockées dans le navigateur** pour KulmanLab CAD — chaque fichier sauvegardé, table de calques et types de ligne, et historique d'annulation. La page se recharge automatiquement après.
 
 :::danger Irréversible
 Cette action ne peut pas être annulée. Tous les fichiers stockés dans le navigateur sont supprimés. Exportez tous les dessins que vous souhaitez conserver en fichiers `.json` ou `.dxf` avant d'exécuter cette commande.
@@ -22,7 +22,7 @@ Cette action ne peut pas être annulée. Tous les fichiers stockés dans le navi
 
 ## Comment l'exécuter
 
-1. Tapez `wipestorage` dans le terminal et appuyez sur **Entrée**.
+1. Tapez `ViderStockage` dans le terminal et appuyez sur **Entrée**.
 2. Le terminal demande : *Effacer tout le stockage local du navigateur ? Tapez YES pour confirmer*
 3. Tapez `YES` (quelle que soit la casse) et appuyez sur **Entrée**.
 

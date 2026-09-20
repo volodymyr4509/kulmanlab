@@ -8,11 +8,11 @@ order: 2
 
 # LayerMakeCurrent
 
-O comando `LayerMakeCurrent` define a **camada de desenho atual** para a camada à qual a entidade clicada pertence. As novas entidades serão então desenhadas automaticamente nessa camada.
+O comando `TornarCamadaAtual` define a **camada de desenho atual** para a camada à qual a entidade clicada pertence. As novas entidades serão então desenhadas automaticamente nessa camada.
 
 ## Uso
 
-1. Digite `LayerMakeCurrent` no terminal ou clique no botão **Make Current** na barra de ferramentas (ícone de conta-gotas).
+1. Digite `TornarCamadaAtual` no terminal ou clique no botão **Make Current** na barra de ferramentas (ícone de conta-gotas).
 2. **Clique em qualquer entidade** no canvas.
 3. A camada atual é atualizada para corresponder à camada dessa entidade. O comando termina imediatamente.
 

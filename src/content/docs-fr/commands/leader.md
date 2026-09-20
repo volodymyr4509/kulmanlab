@@ -8,7 +8,7 @@ order: 1
 
 # Leader
 
-La commande `leader` dessine une annotation multirépère en quatre étapes : une pointe de flèche touchant une entité, une ligne de répère coudée au niveau d'une brisure, une ancre de texte et un libellé saisi. De toutes les commandes d'annotation, Leader est la seule qui inclut une phase de saisie de texte interactive avec un curseur clignotant.
+La commande `LigneRepère` dessine une annotation multirépère en quatre étapes : une pointe de flèche touchant une entité, une ligne de répère coudée au niveau d'une brisure, une ancre de texte et un libellé saisi. De toutes les commandes d'annotation, Leader est la seule qui inclut une phase de saisie de texte interactive avec un curseur clignotant.
 
 ## Anatomie d'un multirépère
 
@@ -27,7 +27,7 @@ La commande `leader` dessine une annotation multirépère en quatre étapes : un
 
 ## Dessiner un répère
 
-1. Tapez `leader` dans le terminal ou cliquez sur **Leader** dans la barre d'outils.
+1. Tapez `LigneRepère` dans le terminal ou cliquez sur **Leader** dans la barre d'outils.
 2. **Cliquez sur la pointe de flèche**, ou tapez `X,Y` et appuyez sur **Entrée** pour une coordonnée exacte.
 3. **Cliquez sur la brisure** — le coude dans le répère. L'angle se verrouille par incréments de 45° ; tapez une longueur et appuyez sur **Entrée** pour un placement précis. Ou tapez `X,Y` pour une coordonnée absolue.
 4. **Cliquez sur la position du texte** — où le libellé sera ancré. Mêmes options : clic, verrouillage d'angle + longueur, ou `X,Y`.

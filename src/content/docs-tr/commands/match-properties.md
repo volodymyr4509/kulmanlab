@@ -8,17 +8,17 @@ order: 1
 
 # Match Properties
 
-`MatchProperties` komutu, **görsel ve katman özelliklerini** kaynak nesneden bir veya daha fazla hedef nesneye kopyalar. Yalnızca kaynak ve hedef nesne türleri arasında paylaşılan özellikler aktarılır — geometri hiçbir zaman değiştirilmez.
+`ÖzellikleriEşleştir` komutu, **görsel ve katman özelliklerini** kaynak nesneden bir veya daha fazla hedef nesneye kopyalar. Yalnızca kaynak ve hedef nesne türleri arasında paylaşılan özellikler aktarılır — geometri hiçbir zaman değiştirilmez.
 
 ## Nasıl Etkinleştirilir
 
-Stil panelindeki **Match Properties** araç çubuğu düğmesine (boya rulosu simgesi) tıklayın veya terminale `MatchProperties` yazın.
+Stil panelindeki **Match Properties** araç çubuğu düğmesine (boya rulosu simgesi) tıklayın veya terminale `ÖzellikleriEşleştir` yazın.
 
 ## İş Akışı
 
 **Önce etkinleştir, sonra kaynak seç:**
 
-1. Hiçbir şey önceden seçilmemişken `MatchProperties` yazın veya araç çubuğu düğmesine tıklayın.
+1. Hiçbir şey önceden seçilmemişken `ÖzellikleriEşleştir` yazın veya araç çubuğu düğmesine tıklayın.
 2. **Kaynak nesneyi tıklayın** — özelliklerini kopyalamak istediğiniz nesne.
 3. Kaynak özelliklerini uygulamak için **her hedef nesneyi tıklayın**. Nesneleri teker teker tıklayabilirsiniz.
 4. Aynı anda bir gruba uygulamak için hedeflerin üzerine **seçim çerçevesi sürükleyin**.
@@ -27,7 +27,7 @@ Stil panelindeki **Match Properties** araç çubuğu düğmesine (boya rulosu si
 **Kaynağı önceden seç, sonra etkinleştir:**
 
 1. Tek bir nesneyi seçmek için tıklayın.
-2. `MatchProperties`'i etkinleştirin. Seçilen nesne otomatik olarak kaynak olarak kullanılır.
+2. `ÖzellikleriEşleştir`'i etkinleştirin. Seçilen nesne otomatik olarak kaynak olarak kullanılır.
 3. Hedef nesneleri tıklayın veya sürükleyerek seçin, ardından bitirmek için **Enter** veya **Escape** tuşuna basın.
 
 ## Hangi Özellikler Kopyalanır

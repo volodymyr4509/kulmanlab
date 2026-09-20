@@ -8,13 +8,13 @@ order: 11
 
 # Fillet
 
-Lệnh `fillet` bo tròn góc giữa hai đoạn [Line](../line/), [Arc](../arc/) hoặc [Polyline](../polyline/) bằng cách chèn một cung tiếp tuyến có bán kính cho trước, cắt ngắn (hoặc hợp nhất) các thực thể được chọn đến điểm đó.
+Lệnh `BoTròn` bo tròn góc giữa hai đoạn [Line](../line/), [Arc](../arc/) hoặc [Polyline](../polyline/) bằng cách chèn một cung tiếp tuyến có bán kính cho trước, cắt ngắn (hoặc hợp nhất) các thực thể được chọn đến điểm đó.
 
 Fillet hoạt động trên các thực thể **Line, Arc và Polyline** — bao gồm cả đoạn thẳng hoặc đoạn cung của chính một polyline.
 
 ## Sử dụng Fillet
 
-1. Gõ `fillet` trong terminal hoặc nhấp nút **Fillet** trên thanh công cụ.
+1. Gõ `BoTròn` trong terminal hoặc nhấp nút **Fillet** trên thanh công cụ.
 2. **Gõ bán kính bo góc** và nhấn **Enter**.
 3. **Nhấp vào đường thẳng, cung hoặc đoạn polyline đầu tiên** — phần bạn nhấp xác định mặt nào của giao điểm được giữ lại.
 4. **Di chuyển con trỏ qua thực thể thứ hai** — bản xem trước cung nét đứt hiển thị kết quả bo góc. Di chuyển con trỏ sang phía muốn giữ lại.

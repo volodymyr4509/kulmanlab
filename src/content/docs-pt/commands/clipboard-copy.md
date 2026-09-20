@@ -8,7 +8,7 @@ order: 17
 
 # ClipboardCopy
 
-O comando `ClipboardCopy` grava as entidades selecionadas na sua **área de transferência do sistema** como texto JSON. Como usa a área de transferência real e não um buffer interno, a geometria copiada sobrevive fora do desenho: cole-a em outro arquivo, numa segunda aba do navegador ou numa janela que você abrir mais tarde com [ClipboardPaste](../clipboard-paste/).
+O comando `CopiarÁreaTransferência` grava as entidades selecionadas na sua **área de transferência do sistema** como texto JSON. Como usa a área de transferência real e não um buffer interno, a geometria copiada sobrevive fora do desenho: cole-a em outro arquivo, numa segunda aba do navegador ou numa janela que você abrir mais tarde com [ClipboardPaste](../clipboard-paste/).
 
 É essa a diferença em relação a [Copy](../copy/): o Copy duplica entidades dentro do desenho atual num único gesto, enquanto o ClipboardCopy as deixa num lugar de onde podem ser recuperadas a partir de um desenho totalmente diferente.
 
@@ -17,12 +17,12 @@ O comando `ClipboardCopy` grava as entidades selecionadas na sua **área de tran
 **Pré-selecionar e copiar** — o caminho rápido:
 
 1. Selecione uma ou mais entidades na área de desenho.
-2. Pressione `Ctrl+C` (`Cmd+C` no macOS), ou digite `ClipboardCopy` no terminal.
+2. Pressione `Ctrl+C` (`Cmd+C` no macOS), ou digite `CopiarÁreaTransferência` no terminal.
 3. As entidades são gravadas na área de transferência imediatamente e o comando encerra.
 
 **Ativar e depois selecionar** — começar sem nada selecionado:
 
-1. Pressione `Ctrl+C` ou digite `ClipboardCopy` com a seleção vazia.
+1. Pressione `Ctrl+C` ou digite `CopiarÁreaTransferência` com a seleção vazia.
 2. O prompt mostra **pick objects to copy — Enter or Space to confirm**.
 3. **Selecione os objetos** — clique para alternar entidades individuais, ou arraste para selecionar por área.
 4. Pressione **Enter** ou **Space** para copiar a seleção e sair.

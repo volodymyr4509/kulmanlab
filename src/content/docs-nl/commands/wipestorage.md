@@ -8,7 +8,7 @@ order: 7
 
 # Wipe Storage
 
-Het `wipestorage`-commando verwijdert permanent **alle gegevens die in de browser zijn opgeslagen** voor KulmanLab CAD — elk opgeslagen bestand, elke laag- en lijntypetabel, en de geschiedenis van ongedaan maken. De pagina wordt daarna automatisch opnieuw geladen.
+Het `OpslagWissen`-commando verwijdert permanent **alle gegevens die in de browser zijn opgeslagen** voor KulmanLab CAD — elk opgeslagen bestand, elke laag- en lijntypetabel, en de geschiedenis van ongedaan maken. De pagina wordt daarna automatisch opnieuw geladen.
 
 :::danger Onomkeerbaar
 Deze actie kan niet ongedaan worden gemaakt. Alle bestanden die in de browser zijn opgeslagen, worden verwijderd. Exporteer tekeningen die u wilt behouden als `.json`- of `.dxf`-bestanden voordat u dit commando uitvoert.
@@ -22,7 +22,7 @@ Deze actie kan niet ongedaan worden gemaakt. Alle bestanden die in de browser zi
 
 ## Zo voert u het uit
 
-1. Typ `wipestorage` in de terminal en druk op **Enter**.
+1. Typ `OpslagWissen` in de terminal en druk op **Enter**.
 2. De terminal vraagt: *Alle lokale browseropslag wissen? Typ YES om te bevestigen*
 3. Typ `YES` (elke schrijfwijze qua hoofdletters) en druk op **Enter**.
 

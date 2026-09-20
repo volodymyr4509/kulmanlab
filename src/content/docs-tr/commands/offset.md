@@ -8,13 +8,13 @@ order: 10
 
 # Offset
 
-`offset` komutu, sabit dik mesafede bir nesnenin paralel kopyasını oluşturur. Mesafeyi bir kez yazarsınız, ardından nesneleri tıklayıp taraf seçersiniz — komut, birden fazla nesneyi tek seferinde ofsete almanızı sağlamak için aynı mesafede hazır bekler.
+`Ötele` komutu, sabit dik mesafede bir nesnenin paralel kopyasını oluşturur. Mesafeyi bir kez yazarsınız, ardından nesneleri tıklayıp taraf seçersiniz — komut, birden fazla nesneyi tek seferinde ofsete almanızı sağlamak için aynı mesafede hazır bekler.
 
 Desteklenen nesne türleri: **Çizgi, Daire, Yay, Elips, Çoklu Çizgi** (Dikdörtgenler dahil).
 
 ## Offset Kullanımı
 
-1. Terminale `offset` yazın veya araç çubuğundaki **Offset** düğmesine tıklayın.
+1. Terminale `Ötele` yazın veya araç çubuğundaki **Offset** düğmesine tıklayın.
 2. **Ofset mesafesini yazın** ve **Enter** veya **Boşluk** tuşuna basın.
 3. Ofset alınacak **nesneyi tıklayın** — nesne desteklenen bir tür değilse hata mesajı görünür ve farklı bir nesne tıklayabilirsiniz.
 4. **İmleci** kopyanın görünmesi gereken tarafa hareket ettirin — canlı önizleme eşlik eder.

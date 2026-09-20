@@ -8,7 +8,7 @@ order: 1
 
 # Leader
 
-Perintah `leader` menggambar anotasi multileader dalam empat langkah: kepala panah yang menyentuh fitur, garis leader yang membelok pada dogleg, jangkar teks, dan label yang diketik. Dari semua perintah anotasi, Leader adalah satu-satunya yang menyertakan fase input teks interaktif dengan pratinjau kursor berkedip.
+Perintah `Penunjuk` menggambar anotasi multileader dalam empat langkah: kepala panah yang menyentuh fitur, garis leader yang membelok pada dogleg, jangkar teks, dan label yang diketik. Dari semua perintah anotasi, Leader adalah satu-satunya yang menyertakan fase input teks interaktif dengan pratinjau kursor berkedip.
 
 ## Anatomi multileader
 
@@ -27,7 +27,7 @@ Perintah `leader` menggambar anotasi multileader dalam empat langkah: kepala pan
 
 ## Menggambar leader
 
-1. Ketik `leader` di terminal atau klik tombol toolbar **Leader**.
+1. Ketik `Penunjuk` di terminal atau klik tombol toolbar **Leader**.
 2. **Klik ujung kepala panah**, atau ketik `X,Y` dan tekan **Enter** untuk koordinat tepat.
 3. **Klik dogleg** — tikungan di leader. Sudut terkunci ke kelipatan 45°; ketik panjang dan tekan **Enter** untuk penempatan tepat. Atau ketik `X,Y` untuk memasukkan koordinat absolut.
 4. **Klik posisi teks** — tempat label dijangkarkan. Opsi yang sama berlaku: klik, kunci sudut + panjang, atau `X,Y`.

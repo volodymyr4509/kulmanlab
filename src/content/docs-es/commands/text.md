@@ -8,13 +8,13 @@ order: 0
 
 # Text
 
-El comando `text` coloca una etiqueta de texto multilínea. Tras hacer clic en una posición del lienzo, se abre un editor emergente en **rich** mode — puedes escribir contenido, aplicar negrita/cursiva/subrayado/tachado por carácter, cambiar fuentes y alturas, e insertar saltos de línea. Pulsa **Escape** para confirmar y cerrar el editor.
+El comando `Texto` coloca una etiqueta de texto multilínea. Tras hacer clic en una posición del lienzo, se abre un editor emergente en **rich** mode — puedes escribir contenido, aplicar negrita/cursiva/subrayado/tachado por carácter, cambiar fuentes y alturas, e insertar saltos de línea. Pulsa **Escape** para confirmar y cerrar el editor.
 
 Consulta la página del [Editor de Texto](../../interface/text-editor/) para la referencia completa del editor, incluyendo una comparación de los modos **rich** y **simple**.
 
 ## Colocar una etiqueta de texto
 
-1. Escribe `text` en el terminal o haz clic en el botón de la barra de herramientas **Text**.
+1. Escribe `Texto` en el terminal o haz clic en el botón de la barra de herramientas **Text**.
 2. **Haz clic en la posición de anclaje** en el lienzo. O escribe `X,Y` y pulsa **Enter** para una coordenada exacta.
 3. El **editor de texto emergente** se abre sobre la nueva etiqueta. Escribe tu contenido.
 4. Pulsa **Escape** para confirmar la etiqueta y cerrar el editor.

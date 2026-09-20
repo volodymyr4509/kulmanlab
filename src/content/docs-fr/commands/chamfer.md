@@ -8,7 +8,7 @@ order: 12
 
 # Chamfer
 
-La commande `chamfer` coupe un angle diagonal droit entre deux entités [Line](../line/) ou [Polyline](../polyline/). Vous spécifiez la distance de recul le long de chaque entité (d1 et d2), et la commande raccorde les deux entités jusqu'à ces points et insère une ligne de raccordement entre elles.
+La commande `Chanfrein` coupe un angle diagonal droit entre deux entités [Line](../line/) ou [Polyline](../polyline/). Vous spécifiez la distance de recul le long de chaque entité (d1 et d2), et la commande raccorde les deux entités jusqu'à ces points et insère une ligne de raccordement entre elles.
 
 Des distances égales produisent une coupe symétrique à 45° ; des distances différentes produisent un biseau asymétrique.
 
@@ -16,7 +16,7 @@ Chamfer fonctionne sur les entités **Line et Polyline**.
 
 ## Utiliser chamfer
 
-1. Tapez `chamfer` dans le terminal ou cliquez sur le bouton **Chamfer** de la barre d'outils.
+1. Tapez `Chanfrein` dans le terminal ou cliquez sur le bouton **Chamfer** de la barre d'outils.
 2. **Tapez la première distance de chanfrein** (d1 — distance le long de la première entité) et appuyez sur **Entrée**.
 3. **Tapez la deuxième distance de chanfrein** (d2 — distance le long de la deuxième entité) et appuyez sur **Entrée**.
 4. **Cliquez sur la première entité** — la portion sur laquelle vous cliquez détermine quel côté de l'intersection est conservé.

@@ -8,13 +8,13 @@ order: 2
 
 # Polyline
 
-`polyline`-kommandot ritar en sammankopplad bana med valfritt antal raka eller bågsegment, alla lagrade som en enda `LWPOLYLINE`-entitet. Eftersom hela banan är ett objekt markerar en markering alla segment samtidigt — flytta, rotera eller skala hela formen i en enda operation. Detta är den viktigaste skillnaden från kedjade [Lines](../line/), där varje segment är en fristående entitet.
+`Polylinje`-kommandot ritar en sammankopplad bana med valfritt antal raka eller bågsegment, alla lagrade som en enda `LWPOLYLINE`-entitet. Eftersom hela banan är ett objekt markerar en markering alla segment samtidigt — flytta, rotera eller skala hela formen i en enda operation. Detta är den viktigaste skillnaden från kedjade [Lines](../line/), där varje segment är en fristående entitet.
 
 Polylinjer kan också vara **slutna**: [Rectangle](../rectangle/)-kommandot använder samma `LWPOLYLINE`-entitet med en close-flagga inställd.
 
 ## Rita en polyline
 
-1. Skriv `polyline` i terminalen eller klicka på **Polyline**-knappen i verktygsfältet.
+1. Skriv `Polylinje` i terminalen eller klicka på **Polyline**-knappen i verktygsfältet.
 2. **Klicka på den första punkten**, eller skriv `X,Y` och tryck **Enter** för en exakt koordinat.
 3. **Klicka på varje efterföljande punkt** — varje klick lägger till ett segment. Koordinatinmatning fungerar vid varje steg.
 4. Tryck **Enter** eller **Space** för att avsluta (kräver minst 2 placerade punkter).

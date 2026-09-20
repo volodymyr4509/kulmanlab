@@ -8,11 +8,11 @@ order: 5
 
 # HatchAdd
 
-O comando `HatchAdd` abre o seletor de arquivos do sistema para enviar um arquivo de padrões de hachura `.pat`, sem abrir antes a caixa de diálogo [Hatch Manager](../hatch-manager/). É o mesmo envio que o botão **Add .pat File** do Hatch Manager dispara — HatchAdd é apenas um caminho direto até ele pelo terminal.
+O comando `AdicionarHachura` abre o seletor de arquivos do sistema para enviar um arquivo de padrões de hachura `.pat`, sem abrir antes a caixa de diálogo [Hatch Manager](../hatch-manager/). É o mesmo envio que o botão **Add .pat File** do Hatch Manager dispara — HatchAdd é apenas um caminho direto até ele pelo terminal.
 
 ## Enviar um arquivo de padrões
 
-1. Digite `HatchAdd` no terminal, ou clique em **Add .pat File** no rodapé da caixa de diálogo [Hatch Manager](../hatch-manager/).
+1. Digite `AdicionarHachura` no terminal, ou clique em **Add .pat File** no rodapé da caixa de diálogo [Hatch Manager](../hatch-manager/).
 2. Escolha um arquivo `.pat` no seletor do sistema. Só o formato padrão de padrões de hachura é aceito.
 
 O comando termina assim que o seletor de arquivos abre — não há mais nenhuma pergunta, clique ou entrada no terminal. Os padrões são registrados e aparecem no grupo **User** assim que o arquivo é escolhido.

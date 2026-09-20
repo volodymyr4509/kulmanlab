@@ -8,13 +8,13 @@ order: 11
 
 # Fillet
 
-Umarnin `fillet` yana zagaya kusurwa tsakanin sassa biyu na [Line](../line/), [Arc](../arc/) ko [Polyline](../polyline/) ta sanya baka mai taɓawa na radius da aka bayar, sannan yana yanke (ko haɗa) abubuwan da aka zaɓa zuwa wannan tabo.
+Umarnin `Zagaye` yana zagaya kusurwa tsakanin sassa biyu na [Line](../line/), [Arc](../arc/) ko [Polyline](../polyline/) ta sanya baka mai taɓawa na radius da aka bayar, sannan yana yanke (ko haɗa) abubuwan da aka zaɓa zuwa wannan tabo.
 
 Fillet yana aiki akan abubuwan **Line, Arc, da Polyline** — har da sassa madaidaita ko na baka na polyline da kanta.
 
 ## Amfani da fillet
 
-1. Rubuta `fillet` a tashar umarni ko danna maɓallin kayan aiki na **Fillet**.
+1. Rubuta `Zagaye` a tashar umarni ko danna maɓallin kayan aiki na **Fillet**.
 2. **Rubuta radius ɗin fillet** ka danna **Enter**.
 3. **Danna layi na farko, baka, ko sashin polyline** — sashen da ka danna yana bayyana wace gefen kowace mahaɗa ake ci gaba da shi.
 4. **Riƙe mai nuni a kan abu na biyu** — preview na baka mai ɗigo-ɗigo yana nuna fillet ɗin da za a samu. Motsa mai nuni zuwa gefen da kake son ci gaba da shi.

@@ -8,20 +8,20 @@ order: 5
 
 # Scale
 
-Komento `scale` muuttaa valittujen entiteettien kokoa yhtenäisesti perustepisteen ympäri. Kaikki etäisyydet perustepisteestä kerrotaan skaalauskertoimella — kerroin `2` kaksinkertaistaa kaikki mitat, `0.5` puolittaa ne. Kerroin syötetään aina kirjoittamalla; napsauta-asettaaksesi-skaalan -toimintoa ei ole.
+Komento `Skaalaa` muuttaa valittujen entiteettien kokoa yhtenäisesti perustepisteen ympäri. Kaikki etäisyydet perustepisteestä kerrotaan skaalauskertoimella — kerroin `2` kaksinkertaistaa kaikki mitat, `0.5` puolittaa ne. Kerroin syötetään aina kirjoittamalla; napsauta-asettaaksesi-skaalan -toimintoa ei ole.
 
 ## Kaksi tapaa aloittaa
 
 **Valitse ensin, skaalaa sitten** — valitse entiteetit ensin, aktivoi sitten:
 
 1. Valitse yksi tai useampi entiteetti piirtoalueella.
-2. Kirjoita `scale` terminaaliin tai napsauta **Scale**-painiketta työkalurivillä.
+2. Kirjoita `Skaalaa` terminaaliin tai napsauta **Scale**-painiketta työkalurivillä.
 3. **Napsauta perustepistettä** — kiinteä piste, joka ei liiku skaalauksen aikana. Tai kirjoita `X,Y` ja paina **Enter** tarkkaa koordinaattia varten.
 4. **Kirjoita skaalauskerroin** ja paina **Enter**.
 
 **Aktivoi, valitse sitten** — aloita komento ilman mitään valittuna:
 
-1. Kirjoita `scale` tai napsauta työkalurivin painiketta.
+1. Kirjoita `Skaalaa` tai napsauta työkalurivin painiketta.
 2. **Valitse objektit** — napsauta vaihtaaksesi, tai vedä valitaksesi alueen mukaan.
 3. Paina **Enter** tai **Space** vahvistaaksesi valinnan.
 4. **Napsauta perustepistettä** (koordinaattien syöttö käytettävissä), kirjoita sitten kerroin.

@@ -8,11 +8,11 @@ order: 1
 
 # Line
 
-`line`-kommandot ritar enskilda raka linjesegment som sparas som separata `LINE`-entiteter i DXF-modellen. Kommandot förblir aktivt efter varje segment och återanvänder slutpunkten som ny startpunkt, så du kan skapa en sammankopplad väg ett segment i taget. Till skillnad från [Polyline](../polyline/) förblir kedjade linjer fristående entiteter — var och en kan klippas, förlängas eller tas bort utan att påverka grannarna.
+`Linje`-kommandot ritar enskilda raka linjesegment som sparas som separata `LINE`-entiteter i DXF-modellen. Kommandot förblir aktivt efter varje segment och återanvänder slutpunkten som ny startpunkt, så du kan skapa en sammankopplad väg ett segment i taget. Till skillnad från [Polyline](../polyline/) förblir kedjade linjer fristående entiteter — var och en kan klippas, förlängas eller tas bort utan att påverka grannarna.
 
 ## Rita en linje
 
-1. Skriv `line` i terminalen eller klicka på **Line**-knappen i verktygsfältet.
+1. Skriv `Linje` i terminalen eller klicka på **Line**-knappen i verktygsfältet.
 2. **Klicka på startpunkten**, eller skriv `X,Y` och tryck **Enter** för en exakt koordinat.
 3. **Klicka på slutpunkten** — segmentet placeras och slutpunkten blir nästa startpunkt. Koordinatinmatning fungerar även här.
 4. Fortsätt klicka (eller skriva) för att kedja fler segment.

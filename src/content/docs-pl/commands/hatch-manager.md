@@ -8,11 +8,11 @@ order: 4
 
 # Hatch Manager
 
-Polecenie `HatchManager` otwiera okno dialogowe do przeglądania wzorów hatch z podglądem próbki na żywo oraz do przesyłania własnych plików wzorów `.pat` do użycia z [Hatch](../hatch/).
+Polecenie `MenedżerKreskowań` otwiera okno dialogowe do przeglądania wzorów hatch z podglądem próbki na żywo oraz do przesyłania własnych plików wzorów `.pat` do użycia z [Hatch](../hatch/).
 
 ## Otwieranie Hatch Manager
 
-Wpisz `HatchManager` w terminalu. Jest to oddzielne od selektora wzorów, który otwiera się po kliknięciu chipa **Pattern** hatch — selektor wybiera wzór dla jednego hatch, Hatch Manager to miejsce, w którym dodajesz lub usuwasz pliki `.pat`.
+Wpisz `MenedżerKreskowań` w terminalu. Jest to oddzielne od selektora wzorów, który otwiera się po kliknięciu chipa **Pattern** hatch — selektor wybiera wzór dla jednego hatch, Hatch Manager to miejsce, w którym dodajesz lub usuwasz pliki `.pat`.
 
 ## Grupy wzorów
 

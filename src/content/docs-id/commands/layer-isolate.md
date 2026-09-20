@@ -8,19 +8,19 @@ order: 4
 
 # LayerIsolate
 
-Perintah `LayerIsolate` membekukan setiap layer **kecuali** yang dimiliki oleh objek yang dipilih. Gunakan untuk fokus dengan cepat pada geometri tertentu tanpa menyembunyikan atau menghapus apa pun secara permanen — cairkan dengan [LayerUnfreezeAll](../layer-unfreeze-all/) setelah selesai.
+Perintah `LapisanIsolasi` membekukan setiap layer **kecuali** yang dimiliki oleh objek yang dipilih. Gunakan untuk fokus dengan cepat pada geometri tertentu tanpa menyembunyikan atau menghapus apa pun secara permanen — cairkan dengan [LayerUnfreezeAll](../layer-unfreeze-all/) setelah selesai.
 
 ## Dua cara memulai
 
 **Pra-pilih, lalu isolasi** — pilih entitas terlebih dahulu, kemudian aktifkan:
 
 1. Pilih satu atau lebih entitas di kanvas.
-2. Ketik `LayerIsolate` di terminal atau klik tombol toolbar **Layer Isolate**.
+2. Ketik `LapisanIsolasi` di terminal atau klik tombol toolbar **Layer Isolate**.
 3. Layer dari entitas yang dipilih tetap terlihat; semua layer lainnya langsung dibekukan.
 
 **Aktifkan, lalu pilih**:
 
-1. Ketik `LayerIsolate` atau klik tombol toolbar.
+1. Ketik `LapisanIsolasi` atau klik tombol toolbar.
 2. **Pilih objek** — klik entitas individual atau seret untuk memilih berdasarkan area.
 3. Tekan **Enter** atau **Space** untuk mengonfirmasi — isolasi diterapkan.
 

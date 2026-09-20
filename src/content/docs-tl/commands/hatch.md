@@ -8,11 +8,11 @@ order: 7
 
 # Hatch
 
-Pinupuno ng `hatch` command ang region na nakapaligid sa isang na-click na punto ng isang pattern. Hindi muna ginuguhit ang boundary — nanggagaling ito sa kung ano na ang nasa canvas, kaya apat na hiwalay na [Line](../line/) na nagkikita sa dulo-hanggang-dulo ay pumapalibot sa isang region eksaktong tulad ng ginagawa ng saradong [Polyline](../polyline/), at anumang saradong hugis sa loob ay nagiging isla na hindi hinihipo ng fill.
+Pinupuno ng `Pagpupuno` command ang region na nakapaligid sa isang na-click na punto ng isang pattern. Hindi muna ginuguhit ang boundary — nanggagaling ito sa kung ano na ang nasa canvas, kaya apat na hiwalay na [Line](../line/) na nagkikita sa dulo-hanggang-dulo ay pumapalibot sa isang region eksaktong tulad ng ginagawa ng saradong [Polyline](../polyline/), at anumang saradong hugis sa loob ay nagiging isla na hindi hinihipo ng fill.
 
 ## Pagpuno ng Isang Area
 
-1. I-type ang `hatch` sa terminal o i-click ang **Hatch** toolbar button (ang swatch icon).
+1. I-type ang `Pagpupuno` sa terminal o i-click ang **Hatch** toolbar button (ang swatch icon).
 2. **I-click ang isang punto** sa loob ng region na gusto mong punan.
 3. Nananatiling aktibo ang command, kaya patuloy na mag-click para punan ang mas maraming area — bawat click ay gumagawa ng sariling `Hatch` entity nito.
 4. Pindutin ang **Enter**, **Space**, o **Escape** kapag tapos na.
@@ -69,7 +69,7 @@ Ang bawat bagong hatch ay nagsisimulang napuno ng `ANSI31` (o kung anong pattern
 1. Piliin ang isang existing hatch at buksan ang **Pattern** field nito sa properties panel — bubuksan nito ang pattern picker, isang grid ng mga pinangalanang swatch na naka-grupo ayon sa pinagmulan ng bawat pattern.
 2. I-click ang isang pattern para i-apply ito — agad na ina-update ang fill.
 
-Ang pagpiling iyon ay nagiging default din para sa *susunod* na hatch na gagawin mo gamit ang `hatch` command, sa parehong paraan na nagpapatuloy ang pagpili ng layer o kulay. Kaya para mag-hatch ng ilang bagong area gamit ang isang partikular na pattern: punan ang isang area, itakda ang pattern nito nang isang beses, pagkatapos ay patuloy na mag-hatch — nagsisimula na ang bawat fill pagkatapos noon nang naka-apply na ang pattern na iyon.
+Ang pagpiling iyon ay nagiging default din para sa *susunod* na hatch na gagawin mo gamit ang `Pagpupuno` command, sa parehong paraan na nagpapatuloy ang pagpili ng layer o kulay. Kaya para mag-hatch ng ilang bagong area gamit ang isang partikular na pattern: punan ang isang area, itakda ang pattern nito nang isang beses, pagkatapos ay patuloy na mag-hatch — nagsisimula na ang bawat fill pagkatapos noon nang naka-apply na ang pattern na iyon.
 
 Tingnan ang [Hatch Manager](../hatch-manager/) para mag-upload ng sarili mong `.pat` pattern files at mag-browse sa buong library.
 

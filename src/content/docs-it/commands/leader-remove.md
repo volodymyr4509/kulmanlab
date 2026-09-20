@@ -8,11 +8,11 @@ order: 3
 
 # LeaderRemove
 
-Il comando `LeaderRemove` rimuove un braccio con freccia da un multileader esistente. L'etichetta di testo, il dogleg e tutti i bracci rimanenti vengono conservati — viene eliminato solo il braccio selezionato. Un multileader con un solo braccio non può avere il suo braccio rimosso.
+Il comando `RimuoviBraccioDirettrice` rimuove un braccio con freccia da un multileader esistente. L'etichetta di testo, il dogleg e tutti i bracci rimanenti vengono conservati — viene eliminato solo il braccio selezionato. Un multileader con un solo braccio non può avere il suo braccio rimosso.
 
 ## Rimozione di un braccio
 
-1. Digita `LeaderRemove` nel terminale.
+1. Digita `RimuoviBraccioDirettrice` nel terminale.
 2. **Clicca un multileader** con due o più bracci. Se il leader cliccato ha un solo braccio, il terminale mostra un errore e attende una selezione valida.
 3. **Sposta il cursore vicino al braccio** che vuoi rimuovere — il braccio più vicino viene evidenziato con un indicatore.
 4. **Clicca** per rimuovere quel braccio.

@@ -8,20 +8,20 @@ order: 5
 
 # Scale
 
-La commande `scale` redimensionne les entités sélectionnées uniformément autour d'un point de base. Toutes les distances depuis le point de base sont multipliées par le facteur d'échelle — un facteur de `2` double toutes les dimensions, `0.5` les divise par deux. Le facteur est toujours saisi en tapant ; il n'y a pas de mise à l'échelle par clic.
+La commande `Échelle` redimensionne les entités sélectionnées uniformément autour d'un point de base. Toutes les distances depuis le point de base sont multipliées par le facteur d'échelle — un facteur de `2` double toutes les dimensions, `0.5` les divise par deux. Le facteur est toujours saisi en tapant ; il n'y a pas de mise à l'échelle par clic.
 
 ## Deux façons de démarrer
 
 **Pré-sélectionner, puis mettre à l'échelle** — sélectionnez d'abord les entités, puis activez :
 
 1. Sélectionnez une ou plusieurs entités sur le canevas.
-2. Tapez `scale` dans le terminal ou cliquez sur le bouton **Scale** de la barre d'outils.
+2. Tapez `Échelle` dans le terminal ou cliquez sur le bouton **Scale** de la barre d'outils.
 3. **Cliquez sur le point de base** — le point fixe qui ne bouge pas pendant la mise à l'échelle. Ou tapez `X,Y` et appuyez sur **Entrée** pour une coordonnée exacte.
 4. **Tapez le facteur d'échelle** et appuyez sur **Entrée**.
 
 **Activer, puis sélectionner** — démarrez la commande sans rien de sélectionné :
 
-1. Tapez `scale` ou cliquez sur le bouton de la barre d'outils.
+1. Tapez `Échelle` ou cliquez sur le bouton de la barre d'outils.
 2. **Sélectionnez les objets** — cliquez pour basculer, ou faites glisser pour sélectionner par zone.
 3. Appuyez sur **Entrée** ou **Espace** pour confirmer la sélection.
 4. **Cliquez sur le point de base** (la saisie de coordonnées est disponible), puis tapez le facteur.

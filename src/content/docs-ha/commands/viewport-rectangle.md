@@ -8,12 +8,12 @@ order: 1
 
 # ViewportRectangle
 
-Umarnin `ViewportRectangle` yana ƙirƙirar sabon viewport a layout na takarda mai aiki ta zaɓen kusurwoyi biyu masu adawa. Ana samuwa ne kawai a layout space.
+Umarnin `TagarKalloMustatili` yana ƙirƙirar sabon viewport a layout na takarda mai aiki ta zaɓen kusurwoyi biyu masu adawa. Ana samuwa ne kawai a layout space.
 
 ## Ƙirƙirar viewport
 
 1. Sauya zuwa layout na takarda ta amfani da lasifikar a ƙasan allo.
-2. Rubuta `ViewportRectangle` a tashar umarni ko danna maɓallin kayan aiki na **Viewport Rectangle**.
+2. Rubuta `TagarKalloMustatili` a tashar umarni ko danna maɓallin kayan aiki na **Viewport Rectangle**.
 3. **Danna kusurwa ta farko**, ko rubuta `X,Y` ka danna **Enter** don daidaitawa madaidaiciya.
 4. **Danna kusurwa mai adawa** — ana sanya viewport nan take. Shigar da daidaitawa yana aiki a nan ma.
 

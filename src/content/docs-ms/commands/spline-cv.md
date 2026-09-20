@@ -8,11 +8,11 @@ order: 8
 
 # Spline CV
 
-Arahan `splinecv` melukis **B-spline kubik** dengan meletakkan bucu kawalan (CV). Kelengkungan yang dihasilkan tertarik ke arah setiap CV tetapi tidak melaluinya — kecuali di bucu pertama dan terakhir, di mana **simpul yang dijepit** menambat kelengkungan dengan tepat. Ini memberikan kawalan bentuk yang intuitif: tarik bucu untuk menolak kelengkungan ke arahnya tanpa memaksanya menyentuh setiap titik.
+Arahan `SplineKawalan` melukis **B-spline kubik** dengan meletakkan bucu kawalan (CV). Kelengkungan yang dihasilkan tertarik ke arah setiap CV tetapi tidak melaluinya — kecuali di bucu pertama dan terakhir, di mana **simpul yang dijepit** menambat kelengkungan dengan tepat. Ini memberikan kawalan bentuk yang intuitif: tarik bucu untuk menolak kelengkungan ke arahnya tanpa memaksanya menyentuh setiap titik.
 
 ## Melukis spline mengikut bucu kawalan
 
-1. Taip `splinecv` dalam terminal atau klik butang bar alat **Spline CV**.
+1. Taip `SplineKawalan` dalam terminal atau klik butang bar alat **Spline CV**.
 2. **Klik untuk meletakkan bucu kawalan** — setiap klik menambah bucu. Atau taip `X,Y` dan tekan **Enter** untuk koordinat tepat.
 3. Tekan **Enter** atau **Space** untuk selesai (sekurang-kurangnya 2 bucu diperlukan).
 

@@ -8,11 +8,11 @@ order: 8
 
 # Spline CV
 
-Ginuguhit ng `splinecv` command ang **cubic B-spline** sa paglalagay ng control vertices (CVs). Naaakit ang resultang curve papunta sa bawat CV ngunit hindi ito dumadaan dito — maliban sa mismong una at huling vertex, kung saan itinatakda ng **clamped knots** ang curve nang eksakto. Nagbibigay ito ng intuitive na kontrol sa hugis: hilahin ang isang vertex para itulak ang curve papunta rito nang hindi ito pinipilit na humipo sa bawat punto.
+Ginuguhit ng `SplineVertex` command ang **cubic B-spline** sa paglalagay ng control vertices (CVs). Naaakit ang resultang curve papunta sa bawat CV ngunit hindi ito dumadaan dito — maliban sa mismong una at huling vertex, kung saan itinatakda ng **clamped knots** ang curve nang eksakto. Nagbibigay ito ng intuitive na kontrol sa hugis: hilahin ang isang vertex para itulak ang curve papunta rito nang hindi ito pinipilit na humipo sa bawat punto.
 
 ## Pagguhit ng Spline gamit ang Control Vertices
 
-1. I-type ang `splinecv` sa terminal o i-click ang **Spline CV** button sa toolbar.
+1. I-type ang `SplineVertex` sa terminal o i-click ang **Spline CV** button sa toolbar.
 2. **Mag-click para maglagay ng control vertices** — bawat click ay nagdaragdag ng vertex. O i-type ang `X,Y` at pindutin ang **Enter** para sa eksaktong coordinate.
 3. Pindutin ang **Enter** o **Space** para tapusin (kailangan ng hindi bababa sa 2 vertex).
 

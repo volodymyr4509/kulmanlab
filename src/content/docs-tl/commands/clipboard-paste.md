@@ -8,11 +8,11 @@ order: 18
 
 # ClipboardPaste
 
-Binabasa ng utos na `ClipboardPaste` ang mga entity na isinulat ng [ClipboardCopy](../clipboard-copy/) sa **clipboard ng sistema** at inilalagay ang mga ito sa kasalukuyang guhit sa puntong pipiliin mo. Dahil tunay na clipboard ng sistema ito, maaaring ibang guhit ang pinagmulan, ibang tab ng browser, o isang sesyon mula sa mas maaga sa araw na iyon.
+Binabasa ng utos na `IdikitMulaClipboard` ang mga entity na isinulat ng [ClipboardCopy](../clipboard-copy/) sa **clipboard ng sistema** at inilalagay ang mga ito sa kasalukuyang guhit sa puntong pipiliin mo. Dahil tunay na clipboard ng sistema ito, maaaring ibang guhit ang pinagmulan, ibang tab ng browser, o isang sesyon mula sa mas maaga sa araw na iyon.
 
 ## Paano mag-paste
 
-1. Pindutin ang `Ctrl+V` (`Cmd+V` sa macOS), o i-type ang `ClipboardPaste` sa terminal.
+1. Pindutin ang `Ctrl+V` (`Cmd+V` sa macOS), o i-type ang `IdikitMulaClipboard` sa terminal.
 2. Ipinapakita ng prompt ang **reading clipboard…** habang ipinapasa ng browser ang tekstong nasa clipboard.
 3. Kapag naiload na, nagiging **pick insertion point** ang prompt at sumusunod sa cursor ang preview ng geometry.
 4. **Mag-click** upang ilagay ang mga entity. Naidaragdag sila sa guhit at nananatiling pinili.

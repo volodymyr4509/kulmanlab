@@ -8,11 +8,11 @@ order: 3
 
 # PageManager
 
-La commande `PageManager` ouvre le dialogue de configuration de page pour la mise en page active, vous permettant de changer le format du papier, l'orientation et l'échelle entre les unités de dessin et les millimètres.
+La commande `GestionnairePages` ouvre le dialogue de configuration de page pour la mise en page active, vous permettant de changer le format du papier, l'orientation et l'échelle entre les unités de dessin et les millimètres.
 
 ## Ouvrir le Gestionnaire de Pages
 
-- Tapez `PageManager` dans le terminal, **ou**
+- Tapez `GestionnairePages` dans le terminal, **ou**
 - Cliquez droit sur un onglet de mise en page en bas et choisissez **Page Manager**.
 
 ## Paramètres

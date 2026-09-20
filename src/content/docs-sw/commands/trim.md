@@ -8,11 +8,11 @@ order: 8
 
 # Trim
 
-Amri ya `trim` huondoa sehemu ya [Line](../line/), [Arc](../arc/), [Circle](../circle/), [Ellipse](../ellipse/) au [Polyline](../polyline/) inayolala kati ya nukta mbili za karibu za makutano, ikigawanya kipande katika sehemu moja au zaidi zilizobaki. Sehemu ya kukata inatambuliwa na nafasi ya kishale — elea juu ya sehemu unayotaka kuondoa na ubonyeze kukata.
+Amri ya `Kata` huondoa sehemu ya [Line](../line/), [Arc](../arc/), [Circle](../circle/), [Ellipse](../ellipse/) au [Polyline](../polyline/) inayolala kati ya nukta mbili za karibu za makutano, ikigawanya kipande katika sehemu moja au zaidi zilizobaki. Sehemu ya kukata inatambuliwa na nafasi ya kishale — elea juu ya sehemu unayotaka kuondoa na ubonyeze kukata.
 
 ## Kukata kipande
 
-1. Andika `trim` kwenye terminal au bonyeza kitufe cha **Trim** kwenye upau wa zana.
+1. Andika `Kata` kwenye terminal au bonyeza kitufe cha **Trim** kwenye upau wa zana.
 2. **Elea juu ya sehemu** unayotaka kuondoa — hakiki inaonyesha hasa sehemu itakayokatwa.
 3. **Bonyeza** kuondoa sehemu hiyo.
 

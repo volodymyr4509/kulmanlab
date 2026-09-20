@@ -12,7 +12,7 @@ Membuka panel bantuan dalam aplikasi dengan ringkasan semua pintasan keyboard, t
 
 ## Cara menggunakan
 
-Klik tombol toolbar **Help** atau ketik `help` di terminal. Panel bantuan langsung terbuka dan perintah keluar.
+Klik tombol toolbar **Help** atau ketik `Bantuan` di terminal. Panel bantuan langsung terbuka dan perintah keluar.
 
 ## Apa yang ada di panel bantuan
 

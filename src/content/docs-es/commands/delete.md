@@ -8,20 +8,20 @@ order: 7
 
 # Delete
 
-El comando `delete` elimina las entidades seleccionadas del dibujo. Las eliminaciones se registran en el historial de [Undo](../undo/) y pueden revertirse con hasta 20 pasos. No hay diálogo separado de "confirmar eliminación" — la confirmación es una sola pulsación de tecla.
+El comando `Borrar` elimina las entidades seleccionadas del dibujo. Las eliminaciones se registran en el historial de [Undo](../undo/) y pueden revertirse con hasta 20 pasos. No hay diálogo separado de "confirmar eliminación" — la confirmación es una sola pulsación de tecla.
 
 ## Dos formas de eliminar
 
 **Preseleccionar, luego eliminar** — la ruta más rápida:
 
 1. Selecciona una o más entidades en el lienzo.
-2. Escribe `delete` en el terminal, haz clic en el botón **Delete** de la barra de herramientas, **o presiona la tecla `Delete`** directamente.
+2. Escribe `Borrar` en el terminal, haz clic en el botón **Delete** de la barra de herramientas, **o presiona la tecla `Delete`** directamente.
 
 Las entidades se eliminan instantáneamente — sin paso adicional de confirmación.
 
 **Activar, luego seleccionar**:
 
-1. Escribe `delete` o haz clic en el botón de la barra de herramientas (sin nada seleccionado).
+1. Escribe `Borrar` o haz clic en el botón de la barra de herramientas (sin nada seleccionado).
 2. **Selecciona objetos** — haz clic para alternar, o arrastra para seleccionar por área.
 3. Presiona **Enter**, **Space** o **Delete** para confirmar y eliminar las entidades seleccionadas.
 
@@ -44,7 +44,7 @@ Haz clic en la entidad → presiona la tecla Delete → listo
 
 ## Recuperar entidades eliminadas
 
-Las eliminaciones son deshaciblcs con el comando [Undo](../undo/) (escribe `undo` o usa el botón de la barra de herramientas). Se pueden revertir hasta **20 pasos** por archivo, y el historial persiste entre recargas de página. Si has superado 20 eliminaciones sin guardar, las eliminaciones anteriores no se pueden recuperar.
+Las eliminaciones son deshaciblcs con el comando [Undo](../undo/) (escribe `Deshacer` o usa el botón de la barra de herramientas). Se pueden revertir hasta **20 pasos** por archivo, y el historial persiste entre recargas de página. Si has superado 20 eliminaciones sin guardar, las eliminaciones anteriores no se pueden recuperar.
 
 ## Entidades compatibles
 

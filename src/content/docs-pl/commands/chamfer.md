@@ -8,7 +8,7 @@ order: 12
 
 # Chamfer
 
-Polecenie `chamfer` ścina prosty ukośny narożnik między dwoma elementami [Line](../line/) lub [Polyline](../polyline/). Podajesz odległość cofnięcia wzdłuż każdego elementu (d1 i d2), a polecenie przycina oba elementy do tych punktów i wstawia łączącą linię między nimi.
+Polecenie `Sfazuj` ścina prosty ukośny narożnik między dwoma elementami [Line](../line/) lub [Polyline](../polyline/). Podajesz odległość cofnięcia wzdłuż każdego elementu (d1 i d2), a polecenie przycina oba elementy do tych punktów i wstawia łączącą linię między nimi.
 
 Użycie równych odległości daje symetryczne cięcie pod kątem 45°; różne odległości dają niesymetryczne fazowanie.
 
@@ -16,7 +16,7 @@ Fazowanie działa na elementach **Linia i Polilinia**.
 
 ## Używanie fazowania
 
-1. Wpisz `chamfer` w terminalu lub kliknij przycisk **Fazowanie** na pasku narzędzi.
+1. Wpisz `Sfazuj` w terminalu lub kliknij przycisk **Fazowanie** na pasku narzędzi.
 2. **Wpisz pierwszą odległość fazowania** (d1 — odległość wzdłuż pierwszego elementu) i naciśnij **Enter**.
 3. **Wpisz drugą odległość fazowania** (d2 — odległość wzdłuż drugiego elementu) i naciśnij **Enter**.
 4. **Kliknij pierwszy element** — kliknięta część określa, która strona ewentualnego przecięcia zostaje zachowana.

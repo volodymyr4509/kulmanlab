@@ -8,11 +8,11 @@ order: 14
 
 # Redo
 
-El comando `redo` avanza por el historial de deshacer, reaplicando acciones que fueron revertidas por [Undo](../undo/). Redo solo está disponible cuando has retrocedido con Undo y aún no has realizado un nuevo cambio.
+El comando `Rehacer` avanza por el historial de deshacer, reaplicando acciones que fueron revertidas por [Undo](../undo/). Redo solo está disponible cuando has retrocedido con Undo y aún no has realizado un nuevo cambio.
 
 ## Cómo rehacer
 
-- Escribe `redo` en el terminal, o
+- Escribe `Rehacer` en el terminal, o
 - Haz clic en el botón de la barra de herramientas **Redo**.
 
 Cada invocación reaaplica una acción deshecha previamente. Invócalo repetidamente para avanzar por todas las entradas de redo disponibles.

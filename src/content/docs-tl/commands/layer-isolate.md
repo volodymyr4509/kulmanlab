@@ -8,19 +8,19 @@ order: 4
 
 # LayerIsolate
 
-Nagfe-freeze ang `LayerIsolate` command sa bawat layer **maliban** sa mga kabilang sa napiling objects. Gamitin ito para mabilis na makapag-focus sa specific na geometry nang hindi itinatago o tinatanggal nang permanente ang iba — i-unfreeze gamit ang [LayerUnfreezeAll](../layer-unfreeze-all/) kapag tapos na.
+Nagfe-freeze ang `IhiwalayLayer` command sa bawat layer **maliban** sa mga kabilang sa napiling objects. Gamitin ito para mabilis na makapag-focus sa specific na geometry nang hindi itinatago o tinatanggal nang permanente ang iba — i-unfreeze gamit ang [LayerUnfreezeAll](../layer-unfreeze-all/) kapag tapos na.
 
 ## Dalawang Paraan Para Simulan
 
 **Mag-pre-select muna, pagkatapos i-isolate** — piliin muna ang entities, saka i-activate:
 
 1. Piliin ang isa o higit pang entities sa canvas.
-2. I-type ang `LayerIsolate` sa terminal o i-click ang **Layer Isolate** toolbar button.
+2. I-type ang `IhiwalayLayer` sa terminal o i-click ang **Layer Isolate** toolbar button.
 3. Mananatiling visible ang mga layer ng napiling entities; agad na fi-freeze ang lahat ng iba.
 
 **I-activate muna, pagkatapos pumili**:
 
-1. I-type ang `LayerIsolate` o i-click ang toolbar button.
+1. I-type ang `IhiwalayLayer` o i-click ang toolbar button.
 2. **Pumili ng objects** — mag-click sa individual entities o mag-drag para pumili ayon sa area.
 3. Pindutin ang **Enter** o **Space** para kumpirmahin — ilalapat ang isolation.
 

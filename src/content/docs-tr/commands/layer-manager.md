@@ -8,11 +8,11 @@ order: 1
 
 # LayerManager
 
-`LayerManager` komutu, çizimdeki her katmanı listeleyen ve **Freeze**, **Lock**, **Plot**, **Renk**, **Çizgi kalınlığı** ile **Çizgi tipi** ayarlarının doğrudan satır içinde düzenlenebildiği bir tablo açar. Katman eklemek, kullanılmayanları silmek ve mevcutların davranışını ayarlamak için merkezi yerdir — diğer katman komutları ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) bunu açmadan tek bir odaklı işi yapar.
+`KatmanYöneticisi` komutu, çizimdeki her katmanı listeleyen ve **Freeze**, **Lock**, **Plot**, **Renk**, **Çizgi kalınlığı** ile **Çizgi tipi** ayarlarının doğrudan satır içinde düzenlenebildiği bir tablo açar. Katman eklemek, kullanılmayanları silmek ve mevcutların davranışını ayarlamak için merkezi yerdir — diğer katman komutları ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) bunu açmadan tek bir odaklı işi yapar.
 
 ## Layer Manager'ı Açma
 
-- Terminale `LayerManager` yazın, **veya**
+- Terminale `KatmanYöneticisi` yazın, **veya**
 - Katman panelindeki **Layer Manager** düğmesine tıklayın.
 
 İletişim kutusu yüzen bir panel olarak açılır; önceden hiçbir şey seçili olması gerekmez.

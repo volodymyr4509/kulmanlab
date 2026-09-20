@@ -8,11 +8,11 @@ order: 5
 
 # HatchAdd
 
-Lệnh `HatchAdd` mở hộp chọn tệp của hệ thống để tải lên tệp mẫu mặt cắt `.pat`, mà không cần mở hộp thoại [Hatch Manager](../hatch-manager/) trước. Đây chính là thao tác tải lên mà nút **Add .pat File** trong Hatch Manager kích hoạt — HatchAdd chỉ là lối đi thẳng tới đó từ terminal.
+Lệnh `ThêmMẫuTô` mở hộp chọn tệp của hệ thống để tải lên tệp mẫu mặt cắt `.pat`, mà không cần mở hộp thoại [Hatch Manager](../hatch-manager/) trước. Đây chính là thao tác tải lên mà nút **Add .pat File** trong Hatch Manager kích hoạt — HatchAdd chỉ là lối đi thẳng tới đó từ terminal.
 
 ## Tải lên một tệp mẫu
 
-1. Gõ `HatchAdd` trong terminal, hoặc bấm **Add .pat File** ở cuối hộp thoại [Hatch Manager](../hatch-manager/).
+1. Gõ `ThêmMẫuTô` trong terminal, hoặc bấm **Add .pat File** ở cuối hộp thoại [Hatch Manager](../hatch-manager/).
 2. Chọn một tệp `.pat` trong hộp chọn của hệ thống. Chỉ chấp nhận định dạng mẫu mặt cắt tiêu chuẩn.
 
 Lệnh kết thúc ngay khi hộp chọn tệp mở ra — không còn nhắc nhở, cú bấm hay nhập liệu nào ở terminal nữa. Các mẫu được đăng ký và xuất hiện trong nhóm **User** ngay khi tệp được chọn.

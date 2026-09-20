@@ -8,11 +8,11 @@ order: 3
 
 # Rectangle
 
-Het `rectangle`-commando tekent een aslijn-uitgelijnde rechthoek, gedefinieerd door twee tegenoverliggende hoekklikken. Het resultaat wordt opgeslagen als een **gesloten `LWPOLYLINE`** met vier hoekpunten — één op elke hoek. Er bestaat geen apart entiteitstype voor rechthoeken: na aanmaak gedraagt de vorm zich precies als elke andere [Polyline](../polyline/) en elke polylijn-bewerking is erop van toepassing.
+Het `Rechthoek`-commando tekent een aslijn-uitgelijnde rechthoek, gedefinieerd door twee tegenoverliggende hoekklikken. Het resultaat wordt opgeslagen als een **gesloten `LWPOLYLINE`** met vier hoekpunten — één op elke hoek. Er bestaat geen apart entiteitstype voor rechthoeken: na aanmaak gedraagt de vorm zich precies als elke andere [Polyline](../polyline/) en elke polylijn-bewerking is erop van toepassing.
 
 ## Een rechthoek tekenen
 
-1. Typ `rectangle` in de terminal of klik op de **Rectangle**-werkbalkknop.
+1. Typ `Rechthoek` in de terminal of klik op de **Rectangle**-werkbalkknop.
 2. **Klik de eerste hoek** aan, of typ `X,Y` en druk op **Enter** voor een exacte coördinaat.
 3. **Klik de tegenoverliggende hoek** aan — de rechthoek wordt direct geplaatst en het commando sluit af. Coördinaatinvoer werkt hier ook. Of druk in plaats daarvan op `D` om een exacte breedte en hoogte te typen — zie [Afmetingeninvoer](#afmetingeninvoer) hieronder.
 

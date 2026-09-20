@@ -8,11 +8,11 @@ order: 3
 
 # Rectangle
 
-Umarnin `rectangle` yana zana murabbaʼi mai daidaici da axis wanda aka bayyana da dannawa biyu na kusurwoyi masu adawa. Ana ajiye sakamako a matsayin **`LWPOLYLINE` mai rufe** tare da vertices huɗu — ɗaya a kowace kusurwa. Babu wani nauʼin abu na rectangle na musamman: bayan ƙirƙira sifar tana aiki daidai kamar kowace [Polyline](../polyline/) daban kuma kowace gyaran polyline yana aiki a kanta.
+Umarnin `Mustatili` yana zana murabbaʼi mai daidaici da axis wanda aka bayyana da dannawa biyu na kusurwoyi masu adawa. Ana ajiye sakamako a matsayin **`LWPOLYLINE` mai rufe** tare da vertices huɗu — ɗaya a kowace kusurwa. Babu wani nauʼin abu na rectangle na musamman: bayan ƙirƙira sifar tana aiki daidai kamar kowace [Polyline](../polyline/) daban kuma kowace gyaran polyline yana aiki a kanta.
 
 ## Zana murabbaʼi
 
-1. Rubuta `rectangle` a tashar umarni ko danna maɓallin kayan aiki na **Rectangle**.
+1. Rubuta `Mustatili` a tashar umarni ko danna maɓallin kayan aiki na **Rectangle**.
 2. **Danna kusurwa ta farko**, ko rubuta `X,Y` ka danna **Enter** don daidaitawa madaidaiciya.
 3. **Danna kusurwa mai adawa** — ana sanya murabbaʼi nan take kuma umarnin yana fita. Shigar da daidaitawa yana aiki a nan ma. Don faɗi/tsayi madaidaici, duba [Dimension entry](#dimension-entry) a ƙasa.
 

@@ -8,11 +8,11 @@ order: 5
 
 # LayerUnfreezeAll
 
-`LayerUnfreezeAll`-kommandot rensar den frysta flaggan på **alla lager** i ritningen omedelbart. Ingen markering eller bekräftelse behövs — det körs och avslutas i ett steg.
+`TinaAllaLager`-kommandot rensar den frysta flaggan på **alla lager** i ritningen omedelbart. Ingen markering eller bekräftelse behövs — det körs och avslutas i ett steg.
 
 ## Användning
 
-Skriv `LayerUnfreezeAll` i terminalen eller klicka på verktygsfältsknappen **Unfreeze All** (solikon). Alla frysta lager blir omedelbart synliga.
+Skriv `TinaAllaLager` i terminalen eller klicka på verktygsfältsknappen **Unfreeze All** (solikon). Alla frysta lager blir omedelbart synliga.
 
 ## När det används
 

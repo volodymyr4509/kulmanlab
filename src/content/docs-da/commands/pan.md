@@ -8,11 +8,11 @@ order: 1
 
 # Pan
 
-Kommandoen `pan` går ind i en vedvarende træk-for-at-panorere-tilstand — klik og træk hvor som helst på lærredet for at forskyde visningen. Zoomniveauet ændres ikke. Pan-tilstand forbliver aktiv, indtil du trykker `Escape`, så du kan trække flere gange i én aktivering.
+Kommandoen `Panorer` går ind i en vedvarende træk-for-at-panorere-tilstand — klik og træk hvor som helst på lærredet for at forskyde visningen. Zoomniveauet ændres ikke. Pan-tilstand forbliver aktiv, indtil du trykker `Escape`, så du kan trække flere gange i én aktivering.
 
 ## Panorere visningen
 
-1. Skriv `pan` i terminalen eller klik på **Pan**-knappen i værktøjslinjen.
+1. Skriv `Panorer` i terminalen eller klik på **Pan**-knappen i værktøjslinjen.
 2. **Klik og træk** hvor som helst på lærredet for at forskyde visningen.
 3. Slip og træk igen så mange gange som nødvendigt.
 4. Tryk `Escape` for at afslutte pan-tilstand.

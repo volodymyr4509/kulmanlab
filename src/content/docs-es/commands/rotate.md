@@ -8,20 +8,20 @@ order: 3
 
 # Rotate
 
-El comando `rotate` rota las entidades seleccionadas alrededor de un punto base. El ángulo de rotación se especifica escribiendo un número en grados o haciendo clic — el ángulo se calcula a partir de la dirección entre el punto base y la posición del clic.
+El comando `Girar` rota las entidades seleccionadas alrededor de un punto base. El ángulo de rotación se especifica escribiendo un número en grados o haciendo clic — el ángulo se calcula a partir de la dirección entre el punto base y la posición del clic.
 
 ## Dos formas de empezar
 
 **Preseleccionar y luego rotar** — selecciona las entidades primero y luego activa:
 
 1. Selecciona una o más entidades en el lienzo.
-2. Escribe `rotate` en el terminal o haz clic en el botón de la barra de herramientas **Rotate**.
+2. Escribe `Girar` en el terminal o haz clic en el botón de la barra de herramientas **Rotate**.
 3. **Haz clic en el punto base** — el centro de rotación. O escribe `X,Y` y pulsa **Enter** para una coordenada exacta.
 4. **Escribe un ángulo y pulsa Enter**, o **haz clic** para establecer el ángulo desde la dirección del cursor.
 
 **Activar y luego seleccionar** — inicia el comando sin nada seleccionado:
 
-1. Escribe `rotate` o haz clic en el botón de la barra de herramientas.
+1. Escribe `Girar` o haz clic en el botón de la barra de herramientas.
 2. **Selecciona objetos** — haz clic para alternar, o arrastra para seleccionar por área.
 3. Pulsa **Enter** o **Space** para confirmar la selección.
 4. **Haz clic en el punto base** (entrada de coordenadas disponible) y luego establece el ángulo.

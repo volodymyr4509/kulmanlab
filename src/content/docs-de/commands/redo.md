@@ -8,11 +8,11 @@ order: 14
 
 # Redo
 
-Der `redo`-Befehl bewegt sich vorwärts durch den Undo-Verlauf und stellt Aktionen wieder her, die durch [Undo](../undo/) rückgängig gemacht wurden. Redo ist nur verfügbar, wenn Sie mit Undo zurückgegangen sind und noch keine neue Änderung vorgenommen haben.
+Der `Wiederholen`-Befehl bewegt sich vorwärts durch den Undo-Verlauf und stellt Aktionen wieder her, die durch [Undo](../undo/) rückgängig gemacht wurden. Redo ist nur verfügbar, wenn Sie mit Undo zurückgegangen sind und noch keine neue Änderung vorgenommen haben.
 
 ## So verwenden Sie Redo
 
-- Geben Sie `redo` im Terminal ein, oder
+- Geben Sie `Wiederholen` im Terminal ein, oder
 - Klicken Sie auf die **Redo**-Schaltfläche in der Werkzeugleiste.
 
 Jede Ausführung stellt eine zuvor rückgängig gemachte Aktion wieder her. Führen Sie den Befehl wiederholt aus, um schrittweise durch alle verfügbaren Redo-Einträge vorwärts zu gehen.

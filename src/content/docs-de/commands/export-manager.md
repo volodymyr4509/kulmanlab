@@ -8,11 +8,11 @@ order: 6
 
 # Export-Manager
 
-Der Befehl `exportmanager` lädt die aktuelle Zeichnung auf Ihr Dateisystem herunter. Zwei Formate stehen nebeneinander — **DXF** für die Kompatibilität mit anderen CAD-Werkzeugen und **JSON** für verlustfreie Sicherungen innerhalb von KulmanLab CAD — und jedes hat seine eigene Checkliste dessen, was in die Datei kommt.
+Der Befehl `Exportmanager` lädt die aktuelle Zeichnung auf Ihr Dateisystem herunter. Zwei Formate stehen nebeneinander — **DXF** für die Kompatibilität mit anderen CAD-Werkzeugen und **JSON** für verlustfreie Sicherungen innerhalb von KulmanLab CAD — und jedes hat seine eigene Checkliste dessen, was in die Datei kommt.
 
 ## So exportieren Sie
 
-1. Klicken Sie auf die Schaltfläche **Export** in der Symbolleiste (Download-Symbol) im Dateibereich, oder geben Sie `exportmanager` im Terminal ein.
+1. Klicken Sie auf die Schaltfläche **Export** in der Symbolleiste (Download-Symbol) im Dateibereich, oder geben Sie `Exportmanager` im Terminal ein.
 2. Das Popup **Export Manager** öffnet sich mit zwei Spalten, **JSON** und **DXF**, die jeweils die Elementtypen der Zeichnung mit Kontrollkästchen und Anzahl auflisten.
 3. Haken Sie ab, was weggelassen werden soll. Anfangs ist alles angehakt.
 4. Klicken Sie auf **Export JSON** oder **Export DXF**. Die Datei landet in Ihrem Standard-Download-Ordner und das Popup schließt sich.

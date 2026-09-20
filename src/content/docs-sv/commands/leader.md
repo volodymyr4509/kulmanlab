@@ -8,7 +8,7 @@ order: 1
 
 # Leader
 
-`leader`-kommandot ritar en multileader-annotation i fyra steg: en pilspets som berör en detalj, en leader-linje som böjer vid en dogleg, ett textankare och en inskriven etikett. Av alla annotationskommandon är Leader det enda som inkluderar en interaktiv textinmatningsfas med en blinkande markörförhandsvisning.
+`Hänvisning`-kommandot ritar en multileader-annotation i fyra steg: en pilspets som berör en detalj, en leader-linje som böjer vid en dogleg, ett textankare och en inskriven etikett. Av alla annotationskommandon är Leader det enda som inkluderar en interaktiv textinmatningsfas med en blinkande markörförhandsvisning.
 
 ## Anatomin hos en multileader
 
@@ -27,7 +27,7 @@ order: 1
 
 ## Rita en leader
 
-1. Skriv `leader` i terminalen eller klicka på **Leader**-knappen i verktygsfältet.
+1. Skriv `Hänvisning` i terminalen eller klicka på **Leader**-knappen i verktygsfältet.
 2. **Klicka på pilspetsen**, eller skriv `X,Y` och tryck **Enter** för en exakt koordinat.
 3. **Klicka på dogleg-punkten** — böjen i leadern. Vinkeln låses i 45°-steg; skriv en längd och tryck **Enter** för exakt placering. Eller skriv `X,Y` för att ange en absolut koordinat.
 4. **Klicka på textpositionen** — där etiketten ankras. Samma alternativ gäller: klicka, vinkellås + längd, eller `X,Y`.

@@ -8,11 +8,11 @@ order: 18
 
 # ClipboardPaste
 
-Polecenie `ClipboardPaste` odczytuje obiekty, które [ClipboardCopy](../clipboard-copy/) zapisało w **schowku systemowym**, i umieszcza je w bieżącym rysunku we wskazanym przez ciebie punkcie. Ponieważ schowek jest prawdziwym schowkiem systemu, źródłem może być inny rysunek, inna karta przeglądarki albo sesja z wcześniejszych godzin.
+Polecenie `WklejZeSchowka` odczytuje obiekty, które [ClipboardCopy](../clipboard-copy/) zapisało w **schowku systemowym**, i umieszcza je w bieżącym rysunku we wskazanym przez ciebie punkcie. Ponieważ schowek jest prawdziwym schowkiem systemu, źródłem może być inny rysunek, inna karta przeglądarki albo sesja z wcześniejszych godzin.
 
 ## Jak wkleić
 
-1. Naciśnij `Ctrl+V` (`Cmd+V` na macOS) albo wpisz `ClipboardPaste` w terminalu.
+1. Naciśnij `Ctrl+V` (`Cmd+V` na macOS) albo wpisz `WklejZeSchowka` w terminalu.
 2. Monit pokazuje **reading clipboard…**, gdy przeglądarka przekazuje tekst ze schowka.
 3. Po wczytaniu monit zmienia się na **pick insertion point**, a podgląd geometrii podąża za kursorem.
 4. **Kliknij**, aby umieścić obiekty. Zostaną dodane do rysunku i pozostaną zaznaczone.

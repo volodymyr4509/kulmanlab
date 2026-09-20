@@ -8,12 +8,12 @@ order: 1
 
 # Pan
 
-`pan` komutu, çizim görünümünü kaydırır (ölçeklendirmeden). Çizim geometrisi değişmez — yalnızca bakış açısı hareket eder.
+`Kaydır` komutu, çizim görünümünü kaydırır (ölçeklendirmeden). Çizim geometrisi değişmez — yalnızca bakış açısı hareket eder.
 
 ## Pan'ı Başlatma
 
 **Komut modu Pan**:
-1. `pan` yazın veya araç çubuğundaki **Pan** düğmesine basın.
+1. `Kaydır` yazın veya araç çubuğundaki **Pan** düğmesine basın.
 2. Herhangi bir yönde **tıklayıp sürükleyin**.
 3. Pan modundan çıkmak için **Escape** tuşuna basın.
 

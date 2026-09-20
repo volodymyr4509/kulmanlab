@@ -8,19 +8,19 @@ order: 4
 
 # LayerIsolate
 
-Kommandoen `LayerIsolate` fryser hvert lag **unntatt** de som tilhører de markerte objektene. Bruk den til raskt å fokusere på spesifikk geometri uten å skjule eller slette noe permanent — fjern frysingen med [LayerUnfreezeAll](../layer-unfreeze-all/) når du er ferdig.
+Kommandoen `LagIsoler` fryser hvert lag **unntatt** de som tilhører de markerte objektene. Bruk den til raskt å fokusere på spesifikk geometri uten å skjule eller slette noe permanent — fjern frysingen med [LayerUnfreezeAll](../layer-unfreeze-all/) når du er ferdig.
 
 ## To måter å starte på
 
 **Marker først, deretter isoler** — marker entiteter først, aktiver deretter:
 
 1. Marker én eller flere entiteter på lerretet.
-2. Skriv `LayerIsolate` i terminalen eller klikk på **Layer Isolate**-knappen i verktøylinjen.
+2. Skriv `LagIsoler` i terminalen eller klikk på **Layer Isolate**-knappen i verktøylinjen.
 3. Lagene til de markerte entitetene forblir synlige; alle andre fryses umiddelbart.
 
 **Aktiver, marker deretter**:
 
-1. Skriv `LayerIsolate` eller klikk på verktøylinjeknappen.
+1. Skriv `LagIsoler` eller klikk på verktøylinjeknappen.
 2. **Velg objekter** — klikk enkeltentiteter eller dra for å markere etter område.
 3. Trykk **Enter** eller **Space** for å bekrefte — isolering brukes.
 

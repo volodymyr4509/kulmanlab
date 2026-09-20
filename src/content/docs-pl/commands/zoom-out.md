@@ -8,11 +8,11 @@ order: 3
 
 # Zoom Out
 
-Polecenie `zoomout` dzieli bieżący poziom powiększenia przez **1,5×** (odpowiednik mnożenia przez ~0,667) i natychmiast kończy się, wyśrodkowane na środku widoku. Jest to odwrotność polecenia [Zoom In](../zoom-in/).
+Polecenie `Pomniejsz` dzieli bieżący poziom powiększenia przez **1,5×** (odpowiednik mnożenia przez ~0,667) i natychmiast kończy się, wyśrodkowane na środku widoku. Jest to odwrotność polecenia [Zoom In](../zoom-in/).
 
 ## Pomniejszanie
 
-Kliknij przycisk **Pomniejsz** na pasku narzędzi lub wpisz `zoomout` w terminalu. Powiększenie jest stosowane natychmiast i polecenie kończy się — żadne kliknięcie na płótnie nie jest wymagane.
+Kliknij przycisk **Pomniejsz** na pasku narzędzi lub wpisz `Pomniejsz` w terminalu. Powiększenie jest stosowane natychmiast i polecenie kończy się — żadne kliknięcie na płótnie nie jest wymagane.
 
 ## Jak działa krok 1,5×
 

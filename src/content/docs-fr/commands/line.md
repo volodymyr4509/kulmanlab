@@ -8,11 +8,11 @@ order: 1
 
 # Line
 
-La commande `line` trace des segments de droite individuels stockés comme entités `LINE` séparées dans le modèle DXF. Après chaque segment, la commande reste active et réutilise le point final comme nouveau point de départ, vous permettant de construire des chemins connectés un segment à la fois. Contrairement à une [Polyligne](../polyline/), les lignes enchaînées restent des entités indépendantes — chacune peut être raccordée, prolongée ou supprimée sans affecter ses voisines.
+La commande `Ligne` trace des segments de droite individuels stockés comme entités `LINE` séparées dans le modèle DXF. Après chaque segment, la commande reste active et réutilise le point final comme nouveau point de départ, vous permettant de construire des chemins connectés un segment à la fois. Contrairement à une [Polyligne](../polyline/), les lignes enchaînées restent des entités indépendantes — chacune peut être raccordée, prolongée ou supprimée sans affecter ses voisines.
 
 ## Tracer des lignes
 
-1. Tapez `line` dans le terminal ou cliquez sur le bouton **Line** de la barre d'outils.
+1. Tapez `Ligne` dans le terminal ou cliquez sur le bouton **Line** de la barre d'outils.
 2. **Cliquez sur le point de départ**, ou tapez `X,Y` et appuyez sur **Entrée** pour une coordonnée exacte.
 3. **Cliquez sur le point final** — le segment est placé et le point final devient le nouveau point de départ. La saisie de coordonnées fonctionne également ici.
 4. Continuez à cliquer (ou à taper) pour enchaîner d'autres segments.

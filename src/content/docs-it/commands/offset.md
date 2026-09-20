@@ -8,13 +8,13 @@ order: 10
 
 # Offset
 
-Il comando `offset` crea una copia parallela di un'entità a una distanza perpendicolare fissa. Digiti la distanza una volta, poi clicchi le entità e scegli un lato — il comando rimane pronto alla stessa distanza per consentirti di scostare più oggetti in una sola sessione.
+Il comando `Offset` crea una copia parallela di un'entità a una distanza perpendicolare fissa. Digiti la distanza una volta, poi clicchi le entità e scegli un lato — il comando rimane pronto alla stessa distanza per consentirti di scostare più oggetti in una sola sessione.
 
 Tipi di entità supportati: **Linea, Cerchio, Arco, Ellisse, Polilinea** (inclusi i Rettangoli).
 
 ## Utilizzo dell'offset
 
-1. Digita `offset` nel terminale o clicca il pulsante **Offset** nella barra degli strumenti.
+1. Digita `Offset` nel terminale o clicca il pulsante **Offset** nella barra degli strumenti.
 2. **Digita la distanza di offset** e premi **Invio** o **Spazio**.
 3. **Clicca un'entità** da scostare — se l'entità non è di un tipo supportato, appare un messaggio di errore e puoi cliccare un'entità diversa.
 4. **Sposta il cursore** sul lato dove deve apparire la copia — un'anteprima live segue.

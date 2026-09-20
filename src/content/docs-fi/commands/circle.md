@@ -8,11 +8,11 @@ order: 4
 
 # Circle
 
-Komento `circle` piirtää ympyrän, jonka määrittelee keskipiste ja säde. Kun keskipiste on napsautettu, voit asettaa säteen joko napsauttamalla toista pistettä piirtoalueella tai kirjoittamalla tarkan luvun — molemmat vaihtoehdot ovat käytössä samanaikaisesti.
+Komento `Ympyrä` piirtää ympyrän, jonka määrittelee keskipiste ja säde. Kun keskipiste on napsautettu, voit asettaa säteen joko napsauttamalla toista pistettä piirtoalueella tai kirjoittamalla tarkan luvun — molemmat vaihtoehdot ovat käytössä samanaikaisesti.
 
 ## Ympyrän piirtäminen
 
-1. Kirjoita `circle` terminaaliin tai napsauta **Circle**-painiketta työkalurivillä.
+1. Kirjoita `Ympyrä` terminaaliin tai napsauta **Circle**-painiketta työkalurivillä.
 2. **Napsauta keskipistettä**, tai kirjoita `X,Y` ja paina **Enter** tarkkaa koordinaattia varten.
 3. Aseta säde — joko:
    - **Napsauta mitä tahansa pistettä** piirtoalueella — etäisyydestä keskipisteestä tulee säde, tai

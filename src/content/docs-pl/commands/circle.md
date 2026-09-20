@@ -8,11 +8,11 @@ order: 4
 
 # Circle
 
-Polecenie `circle` rysuje okrąg zdefiniowany przez punkt środkowy i promień. Po kliknięciu środka możesz ustawić promień przez kliknięcie drugiego punktu na płótnie lub przez wpisanie dokładnej liczby — obie opcje są dostępne jednocześnie.
+Polecenie `Okrąg` rysuje okrąg zdefiniowany przez punkt środkowy i promień. Po kliknięciu środka możesz ustawić promień przez kliknięcie drugiego punktu na płótnie lub przez wpisanie dokładnej liczby — obie opcje są dostępne jednocześnie.
 
 ## Rysowanie okręgu
 
-1. Wpisz `circle` w terminalu lub kliknij przycisk **Okrąg** na pasku narzędzi.
+1. Wpisz `Okrąg` w terminalu lub kliknij przycisk **Okrąg** na pasku narzędzi.
 2. **Kliknij punkt środkowy** lub wpisz `X,Y` i naciśnij **Enter** dla dokładnej współrzędnej.
 3. Ustaw promień — albo:
    - **Kliknij dowolny punkt** na płótnie — odległość od środka staje się promieniem, albo

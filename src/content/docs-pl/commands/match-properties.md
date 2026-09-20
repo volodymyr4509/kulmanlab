@@ -8,17 +8,17 @@ order: 1
 
 # Match Properties
 
-Polecenie `MatchProperties` kopiuje **właściwości wizualne i warstwy** z elementu źródłowego na jeden lub więcej elementów docelowych. Przenoszone są tylko właściwości wspólne dla typów elementów źródłowego i docelowego — geometria nigdy nie jest zmieniana.
+Polecenie `KopiujWłaściwości` kopiuje **właściwości wizualne i warstwy** z elementu źródłowego na jeden lub więcej elementów docelowych. Przenoszone są tylko właściwości wspólne dla typów elementów źródłowego i docelowego — geometria nigdy nie jest zmieniana.
 
 ## Jak aktywować
 
-Kliknij przycisk **Match Properties** na pasku narzędzi (ikona wałka malarskiego) w panelu Styl lub wpisz `MatchProperties` w terminalu.
+Kliknij przycisk **Match Properties** na pasku narzędzi (ikona wałka malarskiego) w panelu Styl lub wpisz `KopiujWłaściwości` w terminalu.
 
 ## Przepływ pracy
 
 **Aktywuj najpierw, następnie wybierz źródło:**
 
-1. Wpisz `MatchProperties` lub kliknij przycisk paska narzędzi bez wstępnego zaznaczenia.
+1. Wpisz `KopiujWłaściwości` lub kliknij przycisk paska narzędzi bez wstępnego zaznaczenia.
 2. **Kliknij element źródłowy** — ten, którego właściwości chcesz skopiować.
 3. **Kliknij każdy element docelowy**, aby zastosować właściwości źródłowe. Możesz klikać wiele elementów jeden po drugim.
 4. Aby jednocześnie zastosować do grupy, **przeciągnij ramkę zaznaczenia** nad elementami docelowymi.
@@ -27,7 +27,7 @@ Kliknij przycisk **Match Properties** na pasku narzędzi (ikona wałka malarskie
 **Wstępne zaznaczenie źródła, następnie aktywuj:**
 
 1. Kliknij pojedynczy element, aby go zaznaczyć.
-2. Aktywuj `MatchProperties`. Zaznaczony element jest automatycznie używany jako źródło.
+2. Aktywuj `KopiujWłaściwości`. Zaznaczony element jest automatycznie używany jako źródło.
 3. Kliknij elementy docelowe lub zaznacz przeciąganiem, następnie **Enter** lub **Escape**, aby zakończyć.
 
 ## Jakie właściwości są kopiowane

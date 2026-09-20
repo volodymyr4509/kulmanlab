@@ -8,19 +8,19 @@ order: 4
 
 # LayerIsolate
 
-`LayerIsolate`-kommandot fryser alla lager **utom** de som tillhör de markerade objekten. Använd det för att snabbt fokusera på specifik geometri utan att dölja eller ta bort något permanent — frys upp med [LayerUnfreezeAll](../layer-unfreeze-all/) när du är klar.
+`IsoleraLager`-kommandot fryser alla lager **utom** de som tillhör de markerade objekten. Använd det för att snabbt fokusera på specifik geometri utan att dölja eller ta bort något permanent — frys upp med [LayerUnfreezeAll](../layer-unfreeze-all/) när du är klar.
 
 ## Två sätt att starta
 
 **Förval, sedan isolera** — markera entiteter först, aktivera sedan:
 
 1. Markera en eller flera entiteter på ritytan.
-2. Skriv `LayerIsolate` i terminalen eller klicka på verktygsfältsknappen **Layer Isolate**.
+2. Skriv `IsoleraLager` i terminalen eller klicka på verktygsfältsknappen **Layer Isolate**.
 3. Lagren för de markerade entiteterna förblir synliga; alla andra fryses omedelbart.
 
 **Aktivera, markera sedan**:
 
-1. Skriv `LayerIsolate` eller klicka på verktygsfältsknappen.
+1. Skriv `IsoleraLager` eller klicka på verktygsfältsknappen.
 2. **Välj objekt** — klicka på enskilda entiteter eller dra för att markera efter område.
 3. Tryck **Enter** eller **Space** för att bekräfta — isoleringen tillämpas.
 

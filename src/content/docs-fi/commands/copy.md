@@ -8,20 +8,20 @@ order: 2
 
 # Copy
 
-Komento `copy` luo siirrettyjä kaksoiskappaleita valituista entiteeteistä ja sijoittaa ne perustepisteestä kohteeseen siirrettynä — alkuperäiset pysyvät täsmälleen paikoillaan. Tämä on ainoa keskeinen ero [Move](../move/)-komentoon: Copy lisää uusia entiteettejä piirustukseen; Move siirtää olemassa olevia.
+Komento `Kopioi` luo siirrettyjä kaksoiskappaleita valituista entiteeteistä ja sijoittaa ne perustepisteestä kohteeseen siirrettynä — alkuperäiset pysyvät täsmälleen paikoillaan. Tämä on ainoa keskeinen ero [Move](../move/)-komentoon: Copy lisää uusia entiteettejä piirustukseen; Move siirtää olemassa olevia.
 
 ## Kaksi tapaa aloittaa
 
 **Valitse ensin, kopioi sitten** — valitse entiteetit ensin, aktivoi sitten:
 
 1. Valitse yksi tai useampi entiteetti piirtoalueella.
-2. Kirjoita `copy` terminaaliin tai napsauta **Copy**-painiketta työkalurivillä.
+2. Kirjoita `Kopioi` terminaaliin tai napsauta **Copy**-painiketta työkalurivillä.
 3. **Napsauta perustepistettä**, tai kirjoita `X,Y` ja paina **Enter** tarkkaa koordinaattia varten.
 4. **Napsauta kohdetta** — kaksoiskappaleet ilmestyvät perustepiste→kohde-siirtymällä. Koordinaattien syöttö toimii myös täällä.
 
 **Aktivoi, valitse sitten** — aloita komento ilman mitään valittuna:
 
-1. Kirjoita `copy` tai napsauta työkalurivin painiketta.
+1. Kirjoita `Kopioi` tai napsauta työkalurivin painiketta.
 2. **Valitse objektit** — napsauta vaihtaaksesi yksittäisiä entiteettejä, tai vedä valitaksesi alueen mukaan.
 3. Paina **Enter** tai **Space** vahvistaaksesi valinnan.
 4. **Napsauta perustepistettä**, napsauta sitten **kohdetta** (koordinaattien syöttö käytettävissä molemmissa vaiheissa).

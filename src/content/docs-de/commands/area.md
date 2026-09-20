@@ -8,7 +8,7 @@ order: 3
 
 # Area
 
-Der `area`-Befehl misst die eingeschlossene Fläche und den Umfang eines Polygons aus drei oder mehr geklickten Punkten und gibt beide Ergebnisse im Terminal auf 4 Dezimalstellen aus. Es ist der dritte Messbefehl neben [Distance](../distance/) (geradlinige Länge) und [Angle](../angle/) (Innenwinkel an einem Scheitelpunkt).
+Der `Fläche`-Befehl misst die eingeschlossene Fläche und den Umfang eines Polygons aus drei oder mehr geklickten Punkten und gibt beide Ergebnisse im Terminal auf 4 Dezimalstellen aus. Es ist der dritte Messbefehl neben [Distance](../distance/) (geradlinige Länge) und [Angle](../angle/) (Innenwinkel an einem Scheitelpunkt).
 
 ## Aufbau einer Flächenmessung
 
@@ -30,7 +30,7 @@ Der `area`-Befehl misst die eingeschlossene Fläche und den Umfang eines Polygon
 
 ## Eine Fläche messen
 
-1. Geben Sie `area` im Terminal ein oder klicken Sie auf die Schaltfläche **Area** in der Symbolleiste (untere Reihe des Messen-Panels).
+1. Geben Sie `Fläche` im Terminal ein oder klicken Sie auf die Schaltfläche **Area** in der Symbolleiste (untere Reihe des Messen-Panels).
 2. **Ersten Punkt klicken**, oder geben Sie `X,Y` ein und drücken Sie **Enter** für eine genaue Koordinate.
 3. **Jeden weiteren Eckpunkt** der Reihe nach entlang der Form klicken. Koordinateneingabe funktioniert bei jedem Schritt.
 4. Sobald mindestens **3 Punkte** platziert sind, drücken Sie **Enter** oder **Space** (ohne ausstehende Koordinaten- oder Längeneingabe), um das Polygon zu schließen und das Ergebnis zu berechnen.
@@ -93,5 +93,5 @@ Anstatt zu klicken, eine genaue Position für jeden Eckpunkt eingeben:
 - Die Fläche wird mit der [Gauß'schen Trapezformel](https://de.wikipedia.org/wiki/Gau%C3%9Fsche_Trapezformel) berechnet und immer als positiver Wert ausgegeben, unabhängig von der Klickreihenfolge.
 - Selbstüberschneidende Polygone (sich kreuzende Kanten) liefern weiterhin ein numerisches Ergebnis, das aber möglicherweise nicht der visuell eingeschlossenen Region entspricht — für ein aussagekräftiges Ergebnis Kanten nicht kreuzen lassen.
 - Ergebnisse werden **nur im Terminal und als vorübergehende Hervorhebung auf der Zeichenfläche** angezeigt — der Zeichnung wird kein dauerhaftes Element hinzugefügt.
-- Anders als Distance und Angle verkettet sich Area **nicht** automatisch zu einer neuen Messung — nach dem Ausblenden des Ergebnisses `area` erneut aufrufen, um ein weiteres Polygon zu messen.
+- Anders als Distance und Angle verkettet sich Area **nicht** automatisch zu einer neuen Messung — nach dem Ausblenden des Ergebnisses `Fläche` erneut aufrufen, um ein weiteres Polygon zu messen.
 - Die Genauigkeit beträgt immer 4 Dezimalstellen für Fläche und Umfang, in denselben Einheiten wie die Zeichnungskoordinaten (keine Einheitenumrechnung).

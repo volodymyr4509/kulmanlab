@@ -7,11 +7,11 @@ order: 1
 
 # LayerManager
 
-Lệnh `LayerManager` mở một bảng liệt kê mọi lớp trong bản vẽ, với các thiết lập **Freeze**, **Lock**, **Plot**, **Màu**, **Bề dày nét** và **Kiểu nét** chỉnh được ngay trong hàng. Đây là nơi trung tâm để thêm lớp, xóa những lớp không dùng đến và điều chỉnh cách các lớp hiện có hoạt động — những lệnh lớp còn lại ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) mỗi lệnh làm đúng một việc mà không cần mở nó.
+Lệnh `QuảnLýLớp` mở một bảng liệt kê mọi lớp trong bản vẽ, với các thiết lập **Freeze**, **Lock**, **Plot**, **Màu**, **Bề dày nét** và **Kiểu nét** chỉnh được ngay trong hàng. Đây là nơi trung tâm để thêm lớp, xóa những lớp không dùng đến và điều chỉnh cách các lớp hiện có hoạt động — những lệnh lớp còn lại ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) mỗi lệnh làm đúng một việc mà không cần mở nó.
 
 ## Mở Layer Manager
 
-- Gõ `LayerManager` trong terminal, **hoặc**
+- Gõ `QuảnLýLớp` trong terminal, **hoặc**
 - Nhấp nút **Layer Manager** trên bảng lớp.
 
 Hộp thoại mở dưới dạng bảng nổi; không cần chọn gì trước.

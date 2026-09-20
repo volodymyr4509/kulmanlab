@@ -8,11 +8,11 @@ order: 4
 
 # Print Manager
 
-Komento `PrintManager` avaa **Print Managerin** — omistetun vientinäkymän elävällä esikatselupiirtoalueella, muotovalitsimella (PNG / JPEG / WebP / PDF), tyylivalitsimella (Default / Monochrome / Blueprint) ja valinnaisella alueen rajauksella. Mitään ei lähetetä fyysiselle tulostimelle — tulos ladataan tiedostona.
+Komento `Tulostuksenhallinta` avaa **Print Managerin** — omistetun vientinäkymän elävällä esikatselupiirtoalueella, muotovalitsimella (PNG / JPEG / WebP / PDF), tyylivalitsimella (Default / Monochrome / Blueprint) ja valinnaisella alueen rajauksella. Mitään ei lähetetä fyysiselle tulostimelle — tulos ladataan tiedostona.
 
 ## Print Managerin avaaminen
 
-Napsauta **Print**-painiketta työkalurivillä tai kirjoita `PrintManager` terminaaliin. Print Manager avautuu välittömästi näyttäen esikatselun nykyisestä näkymäikkunasta.
+Napsauta **Print**-painiketta työkalurivillä tai kirjoita `Tulostuksenhallinta` terminaaliin. Print Manager avautuu välittömästi näyttäen esikatselun nykyisestä näkymäikkunasta.
 
 Esikatselu renderöidään täsmälleen samaa koodipolkua pitkin, täsmälleen samalla pikseliresoluutiolla, kuin lopulta vietävä tiedosto — Quality-, Style- tai vientialueen muuttaminen renderöi esikatselun heti uudelleen, joten se mitä näet, on se mikä ladataan, ei likiarvo siitä.
 

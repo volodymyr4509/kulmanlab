@@ -8,11 +8,11 @@ order: 5
 
 # ChangePrintArea
 
-La commande `ChangePrintArea` définit la région rectangulaire exportée par le [Gestionnaire d'impression](../print-manager/). Elle s'exécute sur le canevas nu, Gestionnaire masqué, et prend deux coins opposés — les deux mêmes clics que [Rectangle](../rectangle/), si bien que les coordonnées saisies et l'accrochage se comportent exactement comme là-bas.
+La commande `ModifierZoneImpression` définit la région rectangulaire exportée par le [Gestionnaire d'impression](../print-manager/). Elle s'exécute sur le canevas nu, Gestionnaire masqué, et prend deux coins opposés — les deux mêmes clics que [Rectangle](../rectangle/), si bien que les coordonnées saisies et l'accrochage se comportent exactement comme là-bas.
 
 ## Sélectionner une zone
 
-1. Tapez `ChangePrintArea` dans le terminal, ou cliquez sur **Change Area** dans la barre latérale du Gestionnaire d'impression. Le Gestionnaire se masque et le canevas devient interactif.
+1. Tapez `ModifierZoneImpression` dans le terminal, ou cliquez sur **Change Area** dans la barre latérale du Gestionnaire d'impression. Le Gestionnaire se masque et le canevas devient interactif.
 2. **Cliquez sur le premier coin**, ou tapez `X,Y` puis **Entrée** pour une coordonnée exacte.
 3. **Cliquez sur le coin opposé**, ou tapez de nouveau `X,Y`.
 

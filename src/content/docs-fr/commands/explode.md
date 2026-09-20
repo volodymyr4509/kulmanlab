@@ -8,7 +8,7 @@ order: 16
 
 # Explode
 
-La commande `explode` décompose une [Polyligne](../polyline/) en ses entités [Ligne](../line/) et [Arc](../arc/) individuelles — une par segment, exactement là où se trouvaient les sommets de la polyligne. Les morceaux remplacent la polyligne sur place et conservent son épaisseur de trait, sa couleur, son calque et son type de ligne.
+La commande `Décomposer` décompose une [Polyligne](../polyline/) en ses entités [Ligne](../line/) et [Arc](../arc/) individuelles — une par segment, exactement là où se trouvaient les sommets de la polyligne. Les morceaux remplacent la polyligne sur place et conservent son épaisseur de trait, sa couleur, son calque et son type de ligne.
 
 Explode fonctionne uniquement avec les entités **Polyligne**.
 
@@ -19,13 +19,13 @@ Deux façons de l'exécuter, le même schéma que [Delete](../delete/) :
 **Sélectionner d'abord, puis exploser** — le chemin le plus rapide :
 
 1. Sélectionnez une ou plusieurs polylignes sur le canevas.
-2. Tapez `explode` dans le terminal, ou cliquez sur le bouton **Explode** dans le panneau Edit.
+2. Tapez `Décomposer` dans le terminal, ou cliquez sur le bouton **Explode** dans le panneau Edit.
 
 Les polylignes sélectionnées sont explosées instantanément — pas d'étape de confirmation séparée, puisque quelque chose est déjà sélectionné.
 
 **Activer, puis sélectionner** :
 
-1. Tapez `explode` ou cliquez sur le bouton de la barre d'outils sans rien sélectionné.
+1. Tapez `Décomposer` ou cliquez sur le bouton de la barre d'outils sans rien sélectionné.
 2. **Sélectionnez des polylignes** — cliquez pour basculer, ou faites glisser pour sélectionner une zone.
 3. Appuyez sur **Entrée** ou **Espace** pour confirmer et exploser les polylignes sélectionnées.
 

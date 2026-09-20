@@ -8,11 +8,11 @@ order: 3
 
 # LeaderRemove
 
-Het `LeaderRemove`-commando verwijdert één pijlarm van een bestaande multileader. Het tekstlabel, de knik en alle overige armen blijven behouden — alleen de geselecteerde arm wordt verwijderd. Van een multileader met slechts één arm kan de arm niet worden verwijderd.
+Het `VerwijsarmVerwijderen`-commando verwijdert één pijlarm van een bestaande multileader. Het tekstlabel, de knik en alle overige armen blijven behouden — alleen de geselecteerde arm wordt verwijderd. Van een multileader met slechts één arm kan de arm niet worden verwijderd.
 
 ## Een arm verwijderen
 
-1. Typ `LeaderRemove` in de terminal.
+1. Typ `VerwijsarmVerwijderen` in de terminal.
 2. **Klik op een multileader** die twee of meer armen heeft. Als de aangeklikte leader slechts één arm heeft, toont de terminal een foutmelding en wacht op een geldige selectie.
 3. **Beweeg de cursor naar de arm** die u wilt verwijderen — de dichtstbijzijnde arm wordt gemarkeerd met een marker.
 4. **Klik** om die arm te verwijderen.

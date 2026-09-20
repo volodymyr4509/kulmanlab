@@ -8,11 +8,11 @@ order: 4
 
 # Menedżer druku
 
-Polecenie `PrintManager` otwiera **Menedżera druku** — dedykowane okno eksportu z podglądem na żywo, selektorem formatu (PNG / JPEG / WebP / PDF), selektorem Style (Default / Monochrome / Blueprint) i opcjonalnym przycięciem obszaru. Nic nie jest wysyłane do fizycznej drukarki; wyjście jest pobierane jako plik.
+Polecenie `MenedżerWydruku` otwiera **Menedżera druku** — dedykowane okno eksportu z podglądem na żywo, selektorem formatu (PNG / JPEG / WebP / PDF), selektorem Style (Default / Monochrome / Blueprint) i opcjonalnym przycięciem obszaru. Nic nie jest wysyłane do fizycznej drukarki; wyjście jest pobierane jako plik.
 
 ## Otwieranie Menedżera druku
 
-Kliknij przycisk **Print** na pasku narzędzi lub wpisz `PrintManager` w terminalu. Menedżer druku otwiera się natychmiast, pokazując podgląd bieżącego widoku.
+Kliknij przycisk **Print** na pasku narzędzi lub wpisz `MenedżerWydruku` w terminalu. Menedżer druku otwiera się natychmiast, pokazując podgląd bieżącego widoku.
 
 Podgląd jest renderowany dokładnie tą samą ścieżką kodu, w dokładnie tej samej rozdzielczości pikseli, co plik, który ostatecznie wyeksportujesz — zmiana Quality, Style lub obszaru eksportu natychmiast ponownie renderuje podgląd, więc to, co widzisz, jest tym, co zostaje pobrane, a nie przybliżeniem tego.
 

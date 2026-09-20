@@ -8,11 +8,11 @@ order: 4
 
 # Print Manager
 
-Lệnh `PrintManager` mở **Print Manager** — cửa sổ xuất chuyên dụng với canvas xem trước trực tiếp, bộ chọn định dạng (PNG / JPEG / WebP / PDF), bộ chọn Style (Default / Monochrome / Blueprint) và cắt vùng tùy chọn. Không có gì được gửi đến máy in vật lý; đầu ra được tải xuống dưới dạng tệp.
+Lệnh `QuảnLýIn` mở **Print Manager** — cửa sổ xuất chuyên dụng với canvas xem trước trực tiếp, bộ chọn định dạng (PNG / JPEG / WebP / PDF), bộ chọn Style (Default / Monochrome / Blueprint) và cắt vùng tùy chọn. Không có gì được gửi đến máy in vật lý; đầu ra được tải xuống dưới dạng tệp.
 
 ## Mở Print Manager
 
-Nhấp nút **Print** trên thanh công cụ hoặc gõ `PrintManager` trong terminal. Print Manager mở ngay lập tức hiển thị bản xem trước của khung nhìn hiện tại.
+Nhấp nút **Print** trên thanh công cụ hoặc gõ `QuảnLýIn` trong terminal. Print Manager mở ngay lập tức hiển thị bản xem trước của khung nhìn hiện tại.
 
 Bản xem trước được kết xuất qua chính xác cùng một đường dẫn mã, ở chính xác cùng độ phân giải pixel, như tệp mà cuối cùng bạn sẽ xuất — thay đổi Quality, Style, hoặc vùng xuất sẽ kết xuất lại bản xem trước ngay lập tức, vì vậy những gì bạn thấy chính là những gì được tải xuống, không phải một ước lượng gần đúng.
 

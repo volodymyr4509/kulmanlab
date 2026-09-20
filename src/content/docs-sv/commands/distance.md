@@ -8,7 +8,7 @@ order: 1
 
 # Distance
 
-`distance`-kommandot mäter det raka (euklidiska) avståndet mellan två klickade punkter och skriver ut resultatet i terminalen med 4 decimalers precision. Det är ett av tre mätkommandon — [Angle](../angle/) mäter vinkelöppningen vid en vertex, och [Area](../area/) mäter arean och omkretsen av en polygon.
+`Avstånd`-kommandot mäter det raka (euklidiska) avståndet mellan två klickade punkter och skriver ut resultatet i terminalen med 4 decimalers precision. Det är ett av tre mätkommandon — [Angle](../angle/) mäter vinkelöppningen vid en vertex, och [Area](../area/) mäter arean och omkretsen av en polygon.
 
 ## Anatomi av en avståndsmätning
 
@@ -26,7 +26,7 @@ order: 1
 
 ## Mäta ett avstånd
 
-1. Skriv `distance` i terminalen eller klicka på **Distance**-knappen i verktygsfältet.
+1. Skriv `Avstånd` i terminalen eller klicka på **Distance**-knappen i verktygsfältet.
 2. **Klicka på första punkten**, eller skriv `X,Y` och tryck **Enter** för en exakt koordinat.
 3. **Klicka på andra punkten** — det uppmätta avståndet visas i terminalen. Koordinatinmatning fungerar även här.
 4. **Klicka igen** (valfritt) för att starta en ny mätning. Kommandot förblir aktivt.

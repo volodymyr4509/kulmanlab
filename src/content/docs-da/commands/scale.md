@@ -8,20 +8,20 @@ order: 5
 
 # Scale
 
-Kommandoen `scale` ændrer størrelsen på markerede entiteter ensartet omkring et basispunkt. Alle afstande fra basispunktet multipliceres med skaleringsfaktoren — en faktor på `2` fordobler alle dimensioner, `0.5` halverer dem. Faktoren indtastes altid med tastaturet; der findes ingen klik-for-at-sætte-skala.
+Kommandoen `Skaler` ændrer størrelsen på markerede entiteter ensartet omkring et basispunkt. Alle afstande fra basispunktet multipliceres med skaleringsfaktoren — en faktor på `2` fordobler alle dimensioner, `0.5` halverer dem. Faktoren indtastes altid med tastaturet; der findes ingen klik-for-at-sætte-skala.
 
 ## To måder at starte på
 
 **Markér først, skalér derefter** — markér entiteter først, aktivér derefter:
 
 1. Markér én eller flere entiteter på lærredet.
-2. Skriv `scale` i terminalen eller klik på **Scale**-knappen i værktøjslinjen.
+2. Skriv `Skaler` i terminalen eller klik på **Scale**-knappen i værktøjslinjen.
 3. **Klik basispunktet** — det faste punkt der ikke bevæger sig under skalering. Eller skriv `X,Y` og tryk **Enter** for en eksakt koordinat.
 4. **Skriv skaleringsfaktoren** og tryk **Enter**.
 
 **Aktivér, markér derefter** — start kommandoen uden noget markeret:
 
-1. Skriv `scale` eller klik på værktøjslinjeknappen.
+1. Skriv `Skaler` eller klik på værktøjslinjeknappen.
 2. **Markér objekter** — klik for at slå til/fra, eller træk for at markere efter område.
 3. Tryk **Enter** eller **Space** for at bekræfte markeringen.
 4. **Klik basispunktet** (koordinatindtastning tilgængelig), skriv derefter faktoren.

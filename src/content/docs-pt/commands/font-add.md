@@ -8,11 +8,11 @@ order: 3
 
 # FontAdd
 
-O comando `FontAdd` abre o seletor de arquivos do sistema para enviar uma fonte `.ttf` personalizada, sem abrir antes a caixa de diálogo [Font Manager](../font-manager/). É o mesmo envio que o botão **Add Font** do Font Manager aciona — o FontAdd é apenas um caminho direto para ele a partir do terminal.
+O comando `AdicionarFonte` abre o seletor de arquivos do sistema para enviar uma fonte `.ttf` personalizada, sem abrir antes a caixa de diálogo [Font Manager](../font-manager/). É o mesmo envio que o botão **Add Font** do Font Manager aciona — o FontAdd é apenas um caminho direto para ele a partir do terminal.
 
 ## Enviar uma fonte
 
-1. Digite `FontAdd` no terminal, ou clique em **Add Font** no rodapé da caixa de diálogo [Font Manager](../font-manager/).
+1. Digite `AdicionarFonte` no terminal, ou clique em **Add Font** no rodapé da caixa de diálogo [Font Manager](../font-manager/).
 2. Escolha um arquivo `.ttf` no seletor do sistema. Apenas fontes TrueType são suportadas — `.otf` e `.woff`/`.woff2` não são.
 
 O comando termina assim que o seletor de arquivos é aberto — não há mais nenhum clique ou entrada de terminal. A fonte é registrada e aparece no grupo **User** assim que o arquivo é escolhido.

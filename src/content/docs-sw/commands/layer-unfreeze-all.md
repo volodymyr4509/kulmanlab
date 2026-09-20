@@ -8,11 +8,11 @@ order: 4
 
 # LayerUnfreezeAll
 
-Amri ya `LayerUnfreezeAll` inafuta alama ya kuganda kwenye **kila safu** katika mchoro mara moja. Hakuna haja ya uteuzi au uthibitisho — inafanya kazi na kumaliza kwa hatua moja.
+Amri ya `YeyushaMatabakaYote` inafuta alama ya kuganda kwenye **kila safu** katika mchoro mara moja. Hakuna haja ya uteuzi au uthibitisho — inafanya kazi na kumaliza kwa hatua moja.
 
 ## Matumizi
 
-Andika `LayerUnfreezeAll` kwenye terminal au bonyeza kitufe cha **Unfreeze All** kwenye upau wa zana (ikoni ya jua). Safu zote zilizogandwa zinaonekana mara moja.
+Andika `YeyushaMatabakaYote` kwenye terminal au bonyeza kitufe cha **Unfreeze All** kwenye upau wa zana (ikoni ya jua). Safu zote zilizogandwa zinaonekana mara moja.
 
 ## Wakati wa kutumia
 

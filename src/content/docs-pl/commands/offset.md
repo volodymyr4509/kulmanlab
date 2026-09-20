@@ -8,13 +8,13 @@ order: 10
 
 # Offset
 
-Polecenie `offset` tworzy równoległą kopię elementu w stałej prostopadłej odległości. Wpisujesz odległość raz, następnie klikasz elementy i wybierasz stronę — polecenie pozostaje gotowe przy tej samej odległości, dzięki czemu możesz odsuwać wiele obiektów w jednej sesji.
+Polecenie `Odsuń` tworzy równoległą kopię elementu w stałej prostopadłej odległości. Wpisujesz odległość raz, następnie klikasz elementy i wybierasz stronę — polecenie pozostaje gotowe przy tej samej odległości, dzięki czemu możesz odsuwać wiele obiektów w jednej sesji.
 
 Obsługiwane typy elementów: **Linia, Okrąg, Łuk, Elipsa, Polilinia** (w tym Prostokąty).
 
 ## Używanie odsunięcia
 
-1. Wpisz `offset` w terminalu lub kliknij przycisk **Odsunięcie** na pasku narzędzi.
+1. Wpisz `Odsuń` w terminalu lub kliknij przycisk **Odsunięcie** na pasku narzędzi.
 2. **Wpisz odległość odsunięcia** i naciśnij **Enter** lub **Spację**.
 3. **Kliknij element** do odsunięcia — jeśli element nie jest obsługiwanego typu, pojawia się komunikat o błędzie i możesz kliknąć inny element.
 4. **Przesuń kursor** na stronę, gdzie powinna pojawić się kopia — podgląd na żywo podąża.

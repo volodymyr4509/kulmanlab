@@ -8,7 +8,7 @@ order: 1
 
 # Leader
 
-Polecenie `leader` rysuje adnotację linii wielokierunkowej w czterech krokach: grot dotykający cechy, linia prowadząca zginająca się w doglegs, kotwica tekstu i wpisana etykieta. Ze wszystkich poleceń adnotacji, Linia prowadząca jest jedynym, które zawiera interaktywną fazę wprowadzania tekstu z podglądem migającego kursora.
+Polecenie `Odnośnik` rysuje adnotację linii wielokierunkowej w czterech krokach: grot dotykający cechy, linia prowadząca zginająca się w doglegs, kotwica tekstu i wpisana etykieta. Ze wszystkich poleceń adnotacji, Linia prowadząca jest jedynym, które zawiera interaktywną fazę wprowadzania tekstu z podglądem migającego kursora.
 
 ## Anatomia linii wielokierunkowej
 
@@ -27,7 +27,7 @@ Polecenie `leader` rysuje adnotację linii wielokierunkowej w czterech krokach: 
 
 ## Rysowanie linii prowadzącej
 
-1. Wpisz `leader` w terminalu lub kliknij przycisk **Linia prowadząca** na pasku narzędzi.
+1. Wpisz `Odnośnik` w terminalu lub kliknij przycisk **Linia prowadząca** na pasku narzędzi.
 2. **Kliknij grot strzałki** lub wpisz `X,Y` i naciśnij **Enter** dla dokładnej współrzędnej.
 3. **Kliknij dogleg** — zgięcie w linii prowadzącej. Kąt blokuje do przyrostów 45°; wpisz długość i naciśnij **Enter** dla precyzyjnego umieszczenia. Lub wpisz `X,Y`, aby wprowadzić absolutną współrzędną.
 4. **Kliknij pozycję tekstu** — gdzie etykieta jest zakotwiczona. Te same opcje mają zastosowanie: kliknięcie, blokowanie kąta + długość lub `X,Y`.

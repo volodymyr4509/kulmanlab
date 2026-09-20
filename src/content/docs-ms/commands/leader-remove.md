@@ -8,11 +8,11 @@ order: 3
 
 # LeaderRemove
 
-Arahan `LeaderRemove` membuang satu lengan kepala anak panah daripada pelbagai pemimpin sedia ada. Label teks, dogleg, dan semua lengan yang tinggal dipelihara — hanya lengan yang dipilih dipadam. Pelbagai pemimpin dengan hanya satu lengan tidak boleh dibuang lengannya.
+Arahan `PenunjukBuang` membuang satu lengan kepala anak panah daripada pelbagai pemimpin sedia ada. Label teks, dogleg, dan semua lengan yang tinggal dipelihara — hanya lengan yang dipilih dipadam. Pelbagai pemimpin dengan hanya satu lengan tidak boleh dibuang lengannya.
 
 ## Membuang lengan
 
-1. Taip `LeaderRemove` dalam terminal.
+1. Taip `PenunjukBuang` dalam terminal.
 2. **Klik pelbagai pemimpin** yang mempunyai dua atau lebih lengan. Jika pemimpin yang diklik hanya mempunyai satu lengan, terminal menunjukkan ralat dan menunggu pemilihan yang sah.
 3. **Gerakkan kursor berhampiran lengan** yang ingin dibuang — lengan yang paling hampir diserlahkan dengan penanda.
 4. **Klik** untuk membuang lengan tersebut.

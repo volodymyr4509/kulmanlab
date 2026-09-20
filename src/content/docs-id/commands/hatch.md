@@ -8,11 +8,11 @@ order: 7
 
 # Hatch
 
-Perintah `hatch` mengisi wilayah yang mengelilingi titik yang diklik dengan pola. Batas tidak digambar terlebih dahulu — batas berasal dari apa yang sudah ada di kanvas, sehingga empat [Line](../line/) terpisah yang bertemu ujung ke ujung mengelilingi wilayah persis seperti [Polyline](../polyline/) tertutup, dan bentuk tertutup apa pun di dalamnya menjadi pulau yang dibiarkan oleh isian.
+Perintah `Arsir` mengisi wilayah yang mengelilingi titik yang diklik dengan pola. Batas tidak digambar terlebih dahulu — batas berasal dari apa yang sudah ada di kanvas, sehingga empat [Line](../line/) terpisah yang bertemu ujung ke ujung mengelilingi wilayah persis seperti [Polyline](../polyline/) tertutup, dan bentuk tertutup apa pun di dalamnya menjadi pulau yang dibiarkan oleh isian.
 
 ## Mengisi Area
 
-1. Ketik `hatch` di terminal atau klik tombol toolbar **Hatch** (ikon swatch).
+1. Ketik `Arsir` di terminal atau klik tombol toolbar **Hatch** (ikon swatch).
 2. **Klik sebuah titik** di dalam wilayah yang ingin Anda isi.
 3. Perintah tetap aktif, jadi teruslah mengklik untuk mengisi lebih banyak area — setiap klik membuat entitas `Hatch` sendiri.
 4. Tekan **Enter**, **Space**, atau **Escape** ketika selesai.
@@ -69,7 +69,7 @@ Setiap hatch baru dimulai terisi dengan `ANSI31` (atau pola apa pun yang digunak
 1. Pilih hatch yang ada dan buka bidang **Pattern**-nya di panel properti — ini membuka pemilih pola, kisi swatch bernama yang dikelompokkan berdasarkan asal setiap pola.
 2. Klik pola untuk menerapkannya — isian diperbarui seketika.
 
-Pilihan itu juga menjadi default untuk hatch *berikutnya* yang Anda buat dengan perintah `hatch`, dengan cara yang sama seperti memilih layer atau warna terbawa. Jadi untuk meng-hatch beberapa area baru dengan pola tertentu: isi satu area, atur polanya sekali, lalu terus meng-hatch — setiap isian setelahnya sudah dimulai dengan pola tersebut diterapkan.
+Pilihan itu juga menjadi default untuk hatch *berikutnya* yang Anda buat dengan perintah `Arsir`, dengan cara yang sama seperti memilih layer atau warna terbawa. Jadi untuk meng-hatch beberapa area baru dengan pola tertentu: isi satu area, atur polanya sekali, lalu terus meng-hatch — setiap isian setelahnya sudah dimulai dengan pola tersebut diterapkan.
 
 Lihat [Hatch Manager](../hatch-manager/) untuk mengunggah file pola `.pat` Anda sendiri dan menjelajahi seluruh pustaka.
 

@@ -8,11 +8,11 @@ order: 4
 
 # Circle
 
-`circle`-kommandot ritar en cirkel definierad av en centrumpunkt och en radie. Efter att centrum har klickats kan du ange radien antingen genom att klicka på en andra punkt på ritytan eller genom att skriva ett exakt tal — båda alternativen är aktiva samtidigt.
+`Cirkel`-kommandot ritar en cirkel definierad av en centrumpunkt och en radie. Efter att centrum har klickats kan du ange radien antingen genom att klicka på en andra punkt på ritytan eller genom att skriva ett exakt tal — båda alternativen är aktiva samtidigt.
 
 ## Rita en cirkel
 
-1. Skriv `circle` i terminalen eller klicka på **Circle**-knappen i verktygsfältet.
+1. Skriv `Cirkel` i terminalen eller klicka på **Circle**-knappen i verktygsfältet.
 2. **Klicka på centrumpunkten**, eller skriv `X,Y` och tryck **Enter** för en exakt koordinat.
 3. Ange radien — antingen:
    - **Klicka på valfri punkt** på ritytan — avståndet från centrum blir radien, eller

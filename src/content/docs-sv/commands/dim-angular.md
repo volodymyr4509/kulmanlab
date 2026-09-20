@@ -8,11 +8,11 @@ order: 9
 
 # Dimension Angular
 
-`DimensionAngular`-kommandot placerar en **vinkelmått**-bågannotation på ritningen. Det mäter och märker vinkeln mellan två linjer, spannet av en båge eller en sektor av en cirkel.
+`MåttVinkel`-kommandot placerar en **vinkelmått**-bågannotation på ritningen. Det mäter och märker vinkeln mellan två linjer, spannet av en båge eller en sektor av en cirkel.
 
 ## Hur man aktiverar
 
-Klicka på **Dimension Angular**-knappen i verktygsfältet i Markup-panelen, eller skriv `DimensionAngular` i terminalen.
+Klicka på **Dimension Angular**-knappen i verktygsfältet i Markup-panelen, eller skriv `MåttVinkel` i terminalen.
 
 ## Tre inmatningslägen
 
@@ -47,7 +47,7 @@ Parallella linjer kan inte bilda ett vinkelmått; kommandot ignorerar det andra 
 
 - Måttbågen ritas alltid på den sida av hörnpunkten där du placerar den — flytta markören över hörnpunkten för att växla till den supplementära vinkeln.
 - Den uppmätta vinkeln visas i grader och uppdateras live medan du flyttar markören under placeringen.
-- Den resulterande annotationen är en fullständig `DimensionAngular`-entitet lagrad på det aktuella lagret. Dess utseendeegenskaper (pilstorlek, texthöjd, hjälplinjelängd) kan justeras i Properties-panelen.
+- Den resulterande annotationen är en fullständig `MåttVinkel`-entitet lagrad på det aktuella lagret. Dess utseendeegenskaper (pilstorlek, texthöjd, hjälplinjelängd) kan justeras i Properties-panelen.
 - Vinkelmått exporteras till både JSON och DXF, och skrivs i DXF som vanliga `DIMENSION`-objekt.
 
 ## Redigera etiketten — enkelt läge

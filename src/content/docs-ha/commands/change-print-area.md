@@ -8,11 +8,11 @@ order: 5
 
 # ChangePrintArea
 
-Umarnin `ChangePrintArea` yana saita yankin murabba'i da [Print Manager](../print-manager/) ke fitarwa. Yana aiki a kan zane yayin da Print Manager ke ɓoye, kuma yana karɓar kusurwoyi biyu masu fuskantar juna — dannawa biyu iri ɗaya da [Rectangle](../rectangle/), don haka rubuta madaidaita da kama suna aiki daidai.
+Umarnin `CanjaFilinBugawa` yana saita yankin murabba'i da [Print Manager](../print-manager/) ke fitarwa. Yana aiki a kan zane yayin da Print Manager ke ɓoye, kuma yana karɓar kusurwoyi biyu masu fuskantar juna — dannawa biyu iri ɗaya da [Rectangle](../rectangle/), don haka rubuta madaidaita da kama suna aiki daidai.
 
 ## Zaɓar yanki
 
-1. Rubuta `ChangePrintArea` a tasha, ko danna **Change Area** a mashigin gefen Print Manager. Print Manager zai ɓoye kuma zanen zai zama mai amsawa.
+1. Rubuta `CanjaFilinBugawa` a tasha, ko danna **Change Area** a mashigin gefen Print Manager. Print Manager zai ɓoye kuma zanen zai zama mai amsawa.
 2. **Danna kusurwa ta farko**, ko rubuta `X,Y` sannan ka danna **Enter** don madaidaicin wuri.
 3. **Danna kusurwar da ke fuskantar ta**, ko sake rubuta `X,Y`.
 

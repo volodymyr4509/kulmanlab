@@ -8,13 +8,13 @@ order: 10
 
 # Offset
 
-Amri ya `offset` huunda nakala sambamba ya kipengele kwa umbali wa perpendicular uliowekwa. Unaandika umbali mara moja, kisha ubonyeze vipengele na kuchagua upande — amri inabaki tayari kwa umbali uleule ili uweze kuoffset vipengele vingi katika kikao kimoja.
+Amri ya `Sambamba` huunda nakala sambamba ya kipengele kwa umbali wa perpendicular uliowekwa. Unaandika umbali mara moja, kisha ubonyeze vipengele na kuchagua upande — amri inabaki tayari kwa umbali uleule ili uweze kuoffset vipengele vingi katika kikao kimoja.
 
 Aina za vipengele zinazosaidiwa: **Line, Circle, Arc, Ellipse, Polyline** (pamoja na Rectangles).
 
 ## Kutumia offset
 
-1. Andika `offset` kwenye terminal au bonyeza kitufe cha **Offset** kwenye upau wa zana.
+1. Andika `Sambamba` kwenye terminal au bonyeza kitufe cha **Offset** kwenye upau wa zana.
 2. **Andika umbali wa offset** na ubonyeze **Enter** au **Space**.
 3. **Bonyeza kipengele** cha kuoffset — kama kipengele si aina inayosaidiwa, ujumbe wa hitilafu unaonekana na unaweza kubonyeza kipengele tofauti.
 4. **Sogeza kishale** kuelekea upande ambapo nakala inapaswa kuonekana — hakiki ya moja kwa moja inafuata.

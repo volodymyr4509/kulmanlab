@@ -8,11 +8,11 @@ order: 4
 
 # Hatch Manager
 
-Arahan `HatchManager` membuka dialog untuk menyemak imbas corak hatch dengan pratonton swatch langsung, dan untuk memuat naik fail corak `.pat` anda sendiri untuk digunakan dengan [Hatch](../hatch/).
+Arahan `PengurusLorek` membuka dialog untuk menyemak imbas corak hatch dengan pratonton swatch langsung, dan untuk memuat naik fail corak `.pat` anda sendiri untuk digunakan dengan [Hatch](../hatch/).
 
 ## Membuka Hatch Manager
 
-Taip `HatchManager` dalam terminal. Ini berasingan daripada pemilih corak yang terbuka apabila anda klik cip **Pattern** hatch — pemilih memilih corak untuk satu hatch, Hatch Manager ialah tempat anda menambah atau membuang fail `.pat`.
+Taip `PengurusLorek` dalam terminal. Ini berasingan daripada pemilih corak yang terbuka apabila anda klik cip **Pattern** hatch — pemilih memilih corak untuk satu hatch, Hatch Manager ialah tempat anda menambah atau membuang fail `.pat`.
 
 ## Kumpulan Corak
 

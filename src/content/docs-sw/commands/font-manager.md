@@ -8,11 +8,11 @@ order: 2
 
 # Font Manager
 
-Amri ya `FontManager` hufungua mazungumzo ya kuvinjari na kuchagua fonti, na kwa kupakia faili zako mwenyewe za `.ttf` kwa matumizi katika vipengele vya [Text](../text/) na [Multileader](../leader/).
+Amri ya `KidhibitiFonti` hufungua mazungumzo ya kuvinjari na kuchagua fonti, na kwa kupakia faili zako mwenyewe za `.ttf` kwa matumizi katika vipengele vya [Text](../text/) na [Multileader](../leader/).
 
 ## Kufungua Font Manager
 
-- Andika `FontManager` kwenye terminal, **au**
+- Andika `KidhibitiFonti` kwenye terminal, **au**
 - Bonyeza kitufe cha **Font Manager** kwenye upau wa zana wa [text editor](../../interface/text-editor/).
 
 ## Vikundi vya fonti
@@ -28,7 +28,7 @@ Bonyeza fonti yoyote kwenye orodha ili kuiona kwa hakiki upande wa kulia — jin
 
 ## Kupakia fonti maalum
 
-1. Bonyeza **Add Font** chini ya mazungumzo (au andika [`FontAdd`](../font-add/) kwenye terminal ili kufungua kichagua faili moja kwa moja).
+1. Bonyeza **Add Font** chini ya mazungumzo (au andika [`OngezaFonti`](../font-add/) kwenye terminal ili kufungua kichagua faili moja kwa moja).
 2. Chagua faili ya `.ttf`. Fonti za TrueType pekee ndizo zinazotumika — `.otf` na `.woff`/`.woff2` hazitumiki.
 3. Jina la faili (bila kiambishi) linakuwa jina la fonti kwenye kikundi cha **User**. Kwa mfano, kupakia `MyFont.ttf` huongeza fonti iitwayo `MyFont`.
 

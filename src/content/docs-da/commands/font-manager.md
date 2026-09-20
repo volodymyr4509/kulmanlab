@@ -8,11 +8,11 @@ order: 2
 
 # Font Manager
 
-Kommandoen `FontManager` åbner en dialog til at gennemse og vælge skrifttyper, og til at uploade dine egne `.ttf`-filer til brug i [Text](../text/)- og [Multileader](../leader/)-entiteter.
+Kommandoen `Skrifttypestyring` åbner en dialog til at gennemse og vælge skrifttyper, og til at uploade dine egne `.ttf`-filer til brug i [Text](../text/)- og [Multileader](../leader/)-entiteter.
 
 ## Åbne Font Manager
 
-- Skriv `FontManager` i terminalen, **eller**
+- Skriv `Skrifttypestyring` i terminalen, **eller**
 - Klik på **Font Manager**-knappen i værktøjslinjen i [teksteditoren](../../interface/text-editor/).
 
 ## Skrifttypegrupper
@@ -28,7 +28,7 @@ Klik en hvilken som helst skrifttype i listen for at forhåndsvise den til højr
 
 ## Uploade en brugerdefineret skrifttype
 
-1. Klik **Add Font** i dialogens fodtekst (eller skriv [`FontAdd`](../font-add/) i terminalen for at åbne filvælgeren direkte).
+1. Klik **Add Font** i dialogens fodtekst (eller skriv [`SkrifttypeTilføj`](../font-add/) i terminalen for at åbne filvælgeren direkte).
 2. Vælg en `.ttf`-fil. Kun TrueType-skrifttyper understøttes — `.otf` og `.woff`/`.woff2` understøttes ikke.
 3. Filnavnet (uden filtypen) bliver skrifttypens navn i **User**-gruppen. For eksempel tilføjer upload af `MyFont.ttf` en skrifttype ved navn `MyFont`.
 

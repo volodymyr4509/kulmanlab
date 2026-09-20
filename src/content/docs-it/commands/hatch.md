@@ -8,11 +8,11 @@ order: 7
 
 # Hatch
 
-Il comando `hatch` riempie la regione che circonda un punto cliccato con un motivo. Il contorno non viene disegnato prima — deriva da ciò che è già presente sulla lavagna, quindi quattro [Line](../line/) separate che si incontrano estremità con estremità racchiudono una regione esattamente come fa una [Polyline](../polyline/) chiusa, e qualsiasi forma chiusa al suo interno diventa un'isola che il riempimento lascia intatta.
+Il comando `Tratteggio` riempie la regione che circonda un punto cliccato con un motivo. Il contorno non viene disegnato prima — deriva da ciò che è già presente sulla lavagna, quindi quattro [Line](../line/) separate che si incontrano estremità con estremità racchiudono una regione esattamente come fa una [Polyline](../polyline/) chiusa, e qualsiasi forma chiusa al suo interno diventa un'isola che il riempimento lascia intatta.
 
 ## Riempire un'area
 
-1. Digita `hatch` nel terminale o clicca sul pulsante **Hatch** della barra degli strumenti (l'icona del campione).
+1. Digita `Tratteggio` nel terminale o clicca sul pulsante **Hatch** della barra degli strumenti (l'icona del campione).
 2. **Clicca su un punto** all'interno della regione che vuoi riempire.
 3. Il comando rimane attivo, quindi continua a cliccare per riempire altre aree — ogni clic crea una propria entità `Hatch`.
 4. Premi **Invio**, **Spazio** o **Escape** quando hai finito.
@@ -69,7 +69,7 @@ Ogni nuovo hatch inizia riempito con `ANSI31` (o qualsiasi motivo usato dall'*ul
 1. Seleziona un hatch esistente e apri il suo campo **Pattern** nel pannello proprietà — questo apre il selettore di motivi, una griglia di campioni con nome raggruppati in base alla provenienza di ciascun motivo.
 2. Clicca su un motivo per applicarlo — il riempimento si aggiorna immediatamente.
 
-Quella selezione diventa anche il predefinito per il *prossimo* hatch che crei con il comando `hatch`, allo stesso modo in cui scegliere un layer o un colore si trasferisce in avanti. Quindi per applicare l'hatch a diverse nuove aree con un motivo particolare: riempi un'area, imposta il suo motivo una volta, poi continua a fare hatch — ogni riempimento successivo inizia già con quel motivo applicato.
+Quella selezione diventa anche il predefinito per il *prossimo* hatch che crei con il comando `Tratteggio`, allo stesso modo in cui scegliere un layer o un colore si trasferisce in avanti. Quindi per applicare l'hatch a diverse nuove aree con un motivo particolare: riempi un'area, imposta il suo motivo una volta, poi continua a fare hatch — ogni riempimento successivo inizia già con quel motivo applicato.
 
 Vedi [Hatch Manager](../hatch-manager/) per caricare i tuoi file di motivi `.pat` e sfogliare la libreria completa.
 

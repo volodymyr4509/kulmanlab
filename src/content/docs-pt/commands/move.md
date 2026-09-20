@@ -8,20 +8,20 @@ order: 1
 
 # Move
 
-O comando `move` translada as entidades selecionadas de um ponto base para um ponto de destino. O deslocamento aplicado a cada entidade selecionada é o vetor de base para destino. Após o movimento todas as entidades permanecem selecionadas na nova posição, prontas para edições adicionais.
+O comando `Mover` translada as entidades selecionadas de um ponto base para um ponto de destino. O deslocamento aplicado a cada entidade selecionada é o vetor de base para destino. Após o movimento todas as entidades permanecem selecionadas na nova posição, prontas para edições adicionais.
 
 ## Duas formas de iniciar
 
 **Pré-selecionar, depois mover** — selecione entidades primeiro, depois ative:
 
 1. Selecione uma ou mais entidades no canvas.
-2. Digite `move` no terminal ou clique no botão **Move** na barra de ferramentas.
+2. Digite `Mover` no terminal ou clique no botão **Move** na barra de ferramentas.
 3. **Clique no ponto base**, ou digite `X,Y` e pressione **Enter** para uma coordenada exata.
 4. **Clique no destino** — todas as entidades selecionadas deslocam pelo vetor base→destino. A entrada de coordenadas também funciona aqui.
 
 **Ativar, depois selecionar** — inicie o comando sem nada selecionado:
 
-1. Digite `move` ou clique no botão da barra de ferramentas.
+1. Digite `Mover` ou clique no botão da barra de ferramentas.
 2. **Selecione os objetos** — clique para alternar entidades individuais, ou arraste para selecionar por área.
 3. Pressione **Enter** ou **Espaço** para confirmar a seleção.
 4. **Clique no ponto base**, depois **clique no destino** (entrada de coordenadas disponível em ambas as etapas).

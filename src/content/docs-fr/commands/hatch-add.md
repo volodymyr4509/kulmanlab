@@ -8,11 +8,11 @@ order: 5
 
 # HatchAdd
 
-La commande `HatchAdd` ouvre le sélecteur de fichiers du système pour téléverser un fichier de motifs de hachure `.pat`, sans ouvrir d'abord la boîte de dialogue [Hatch Manager](../hatch-manager/). C'est le même téléversement que déclenche le bouton **Add .pat File** du Hatch Manager — HatchAdd n'est qu'un chemin direct depuis le terminal.
+La commande `AjouterHachure` ouvre le sélecteur de fichiers du système pour téléverser un fichier de motifs de hachure `.pat`, sans ouvrir d'abord la boîte de dialogue [Hatch Manager](../hatch-manager/). C'est le même téléversement que déclenche le bouton **Add .pat File** du Hatch Manager — HatchAdd n'est qu'un chemin direct depuis le terminal.
 
 ## Téléverser un fichier de motifs
 
-1. Saisissez `HatchAdd` dans le terminal, ou cliquez sur **Add .pat File** en bas de la boîte de dialogue [Hatch Manager](../hatch-manager/).
+1. Saisissez `AjouterHachure` dans le terminal, ou cliquez sur **Add .pat File** en bas de la boîte de dialogue [Hatch Manager](../hatch-manager/).
 2. Choisissez un fichier `.pat` dans le sélecteur système. Seul le format standard de motifs de hachure est accepté.
 
 La commande se termine dès l'ouverture du sélecteur de fichiers — aucune autre invite, aucun clic ni saisie au terminal. Les motifs sont enregistrés et apparaissent dans le groupe **User** dès que le fichier est choisi.

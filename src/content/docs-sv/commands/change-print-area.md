@@ -8,11 +8,11 @@ order: 5
 
 # ChangePrintArea
 
-Kommandot `ChangePrintArea` anger det rektangulära området som [Print Manager](../print-manager/) exporterar. Det körs på den tomma ritytan med Print Manager dold och tar två motstående hörn — samma två klick som [Rectangle](../rectangle/), så inskrivna koordinater och snapp fungerar precis likadant.
+Kommandot `ÄndraUtskriftsområde` anger det rektangulära området som [Print Manager](../print-manager/) exporterar. Det körs på den tomma ritytan med Print Manager dold och tar två motstående hörn — samma två klick som [Rectangle](../rectangle/), så inskrivna koordinater och snapp fungerar precis likadant.
 
 ## Välja ett område
 
-1. Skriv `ChangePrintArea` i terminalen, eller klicka på **Change Area** i Print Managers sidopanel. Print Manager döljs och ritytan blir interaktiv.
+1. Skriv `ÄndraUtskriftsområde` i terminalen, eller klicka på **Change Area** i Print Managers sidopanel. Print Manager döljs och ritytan blir interaktiv.
 2. **Klicka på det första hörnet**, eller skriv `X,Y` och tryck **Enter** för en exakt koordinat.
 3. **Klicka på det motstående hörnet**, eller skriv `X,Y` igen.
 

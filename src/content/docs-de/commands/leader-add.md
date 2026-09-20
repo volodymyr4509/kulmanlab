@@ -8,11 +8,11 @@ order: 2
 
 # LeaderAdd
 
-Der Befehl `LeaderAdd` fügt einer vorhandenen Mehrfachführungslinie einen neuen Pfeilspitzen-Arm hinzu. Der neue Arm zeigt vom vorhandenen Knickpunkt der Führungslinie zu einer neuen Pfeilspitze, die Sie anklicken. Alle Stileigenschaften — Knickposition, Text, Pfeilspitzentyp und Größe — werden von der ausgewählten Führungslinie übernommen.
+Der Befehl `FührungsarmHinzufügen` fügt einer vorhandenen Mehrfachführungslinie einen neuen Pfeilspitzen-Arm hinzu. Der neue Arm zeigt vom vorhandenen Knickpunkt der Führungslinie zu einer neuen Pfeilspitze, die Sie anklicken. Alle Stileigenschaften — Knickposition, Text, Pfeilspitzentyp und Größe — werden von der ausgewählten Führungslinie übernommen.
 
 ## Einen Arm hinzufügen
 
-1. Geben Sie `LeaderAdd` im Terminal ein.
+1. Geben Sie `FührungsarmHinzufügen` im Terminal ein.
 2. **Klicken Sie auf eine vorhandene Mehrfachführungslinie**, um sie auszuwählen.
 3. **Klicken Sie auf die neue Pfeilspitze** oder geben Sie `X,Y` ein und drücken Sie **Enter** für eine genaue Koordinate. Eine Vorschaulinie zeigt vom Cursor zum Knickpunkt der Führungslinie.
 

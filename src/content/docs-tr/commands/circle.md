@@ -8,11 +8,11 @@ order: 4
 
 # Circle
 
-`circle` komutu, merkez nokta ve yarıçapla tanımlanmış daire çizer. Merkezi tıkladıktan sonra yarıçapı ya tuvalde ikinci bir noktayı tıklayarak ya da kesin bir sayı girerek ayarlayabilirsiniz — her iki seçenek de aynı anda kullanılabilir.
+`Daire` komutu, merkez nokta ve yarıçapla tanımlanmış daire çizer. Merkezi tıkladıktan sonra yarıçapı ya tuvalde ikinci bir noktayı tıklayarak ya da kesin bir sayı girerek ayarlayabilirsiniz — her iki seçenek de aynı anda kullanılabilir.
 
 ## Daire Çizimi
 
-1. Terminale `circle` yazın veya araç çubuğundaki **Circle** düğmesine basın.
+1. Terminale `Daire` yazın veya araç çubuğundaki **Circle** düğmesine basın.
 2. **Merkez noktasını tıklayın** veya kesin koordinat için `X,Y` yazıp **Enter** tuşuna basın.
 3. Yarıçapı ayarlayın — ya:
    - Tuvalde **herhangi bir noktayı tıklayın** — merkezden olan mesafe yarıçap olur, ya da

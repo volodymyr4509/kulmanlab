@@ -8,20 +8,20 @@ order: 3
 
 # LayerMatch
 
-`LayerMatch`-kommandot omtilldelar lagret för markerade entiteter så att det matchar lagret för en källentitet du klickar på. Det är det snabbaste sättet att flytta en grupp objekt till rätt lager utan att öppna [Layer Manager](../layer-manager/).
+`SättLagerSomKällans`-kommandot omtilldelar lagret för markerade entiteter så att det matchar lagret för en källentitet du klickar på. Det är det snabbaste sättet att flytta en grupp objekt till rätt lager utan att öppna [Layer Manager](../layer-manager/).
 
 ## Arbetsflöde
 
 **Förval, sedan matchning**:
 
 1. Markera de entiteter vars lager du vill ändra.
-2. Skriv `LayerMatch` eller klicka på verktygsfältsknappen **Layer Match** (penselikon).
+2. Skriv `SättLagerSomKällans` eller klicka på verktygsfältsknappen **Layer Match** (penselikon).
 3. **Klicka på källobjektet** — det vars lager du vill kopiera.
 4. Alla markerade entiteter flyttas omedelbart till källobjektets lager.
 
 **Aktivera, markera sedan**:
 
-1. Skriv `LayerMatch` eller klicka på verktygsfältsknappen utan att något är markerat.
+1. Skriv `SättLagerSomKällans` eller klicka på verktygsfältsknappen utan att något är markerat.
 2. **Välj målobjekt** — klicka för att växla enskilda entiteter, eller dra för att markera efter område.
 3. Tryck **Enter** eller **Space** för att bekräfta markeringen.
 4. **Klicka på källobjektet** — dess lager appliceras på alla mål.

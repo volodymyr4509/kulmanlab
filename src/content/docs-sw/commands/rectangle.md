@@ -8,11 +8,11 @@ order: 3
 
 # Rectangle
 
-Amri ya `rectangle` inachora mstatili ulioratibiwa na mhimili uliofafanuliwa na mibonyezo miwili ya kona zilizo kinyume. Matokeo huhifadhiwa kama **`LWPOLYLINE` iliyofungwa** yenye ncha nne — moja katika kila kona. Hakuna aina maalum ya kipande cha mstatili: baada ya kuunda umbo hufanya kazi hasa kama [Polyline](../polyline/) nyingine yoyote na kila uhariri wa polyline unatumika kwake.
+Amri ya `Mstatili` inachora mstatili ulioratibiwa na mhimili uliofafanuliwa na mibonyezo miwili ya kona zilizo kinyume. Matokeo huhifadhiwa kama **`LWPOLYLINE` iliyofungwa** yenye ncha nne — moja katika kila kona. Hakuna aina maalum ya kipande cha mstatili: baada ya kuunda umbo hufanya kazi hasa kama [Polyline](../polyline/) nyingine yoyote na kila uhariri wa polyline unatumika kwake.
 
 ## Kuchora mstatili
 
-1. Andika `rectangle` kwenye terminal au bonyeza kitufe cha **Rectangle** kwenye upau wa zana.
+1. Andika `Mstatili` kwenye terminal au bonyeza kitufe cha **Rectangle** kwenye upau wa zana.
 2. **Bonyeza kona ya kwanza**, au andika `X,Y` na ubonyeze **Enter** kwa kuratibu sahihi.
 3. **Bonyeza kona iliyo kinyume** — mstatili huwekwa mara moja na amri hutoka. Uingizaji wa kuratibu unafanya kazi hapa pia. Kwa upana/urefu sahihi, angalia [Dimension entry](#dimension-entry) hapa chini.
 

@@ -8,11 +8,11 @@ order: 6
 
 # Export Manager
 
-Kommandoen `exportmanager` laster den gjeldende tegningen ned til filsystemet ditt. To formater står side om side — **DXF** for kompatibilitet med andre CAD-verktøy og **JSON** for helt tro lagringer inne i KulmanLab CAD — og hvert har sin egen sjekkliste over hva som skal i filen.
+Kommandoen `Eksportbehandler` laster den gjeldende tegningen ned til filsystemet ditt. To formater står side om side — **DXF** for kompatibilitet med andre CAD-verktøy og **JSON** for helt tro lagringer inne i KulmanLab CAD — og hvert har sin egen sjekkliste over hva som skal i filen.
 
 ## Slik eksporterer du
 
-1. Klikk på verktøylinjeknappen **Export** (nedlastingsikon) i filpanelet, eller skriv `exportmanager` i terminalen.
+1. Klikk på verktøylinjeknappen **Export** (nedlastingsikon) i filpanelet, eller skriv `Eksportbehandler` i terminalen.
 2. Popup-vinduet **Export Manager** åpnes med to kolonner, **JSON** og **DXF**, som hver lister tegningens elementtyper med avkryssingsboks og antall.
 3. Fjern haken ved det du vil utelate. Alt er avkrysset til å begynne med.
 4. Klikk **Export JSON** eller **Export DXF**. Filen lastes ned til standardmappen din, og vinduet lukkes.

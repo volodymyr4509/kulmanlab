@@ -8,20 +8,20 @@ order: 3
 
 # Rotate
 
-Il comando `rotate` ruota le entità selezionate attorno a un punto base. Specifica l'angolo di rotazione digitando un numero in gradi o cliccando — l'angolo viene calcolato dalla direzione tra il punto base e la posizione del clic.
+Il comando `Ruota` ruota le entità selezionate attorno a un punto base. Specifica l'angolo di rotazione digitando un numero in gradi o cliccando — l'angolo viene calcolato dalla direzione tra il punto base e la posizione del clic.
 
 ## Due modi per iniziare
 
 **Preseleziona, poi ruota** — seleziona le entità prima, poi attiva:
 
 1. Seleziona una o più entità sul canvas.
-2. Digita `rotate` nel terminale o clicca il pulsante **Rotate** nella barra degli strumenti.
+2. Digita `Ruota` nel terminale o clicca il pulsante **Rotate** nella barra degli strumenti.
 3. **Clicca il punto base** — il centro di rotazione. Oppure digita `X,Y` e premi **Invio** per una coordinata esatta.
 4. **Digita un angolo e premi Invio**, oppure **clicca** per impostare l'angolo dalla direzione del cursore.
 
 **Attiva, poi seleziona** — avvia il comando senza nulla selezionato:
 
-1. Digita `rotate` o clicca il pulsante della barra degli strumenti.
+1. Digita `Ruota` o clicca il pulsante della barra degli strumenti.
 2. **Seleziona gli oggetti** — clicca per alternare, o trascina per selezionare per area.
 3. Premi **Invio** o **Spazio** per confermare la selezione.
 4. **Clicca il punto base** (inserimento coordinate disponibile), poi imposta l'angolo.

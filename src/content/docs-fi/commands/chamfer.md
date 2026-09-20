@@ -8,7 +8,7 @@ order: 12
 
 # Chamfer
 
-Komento `chamfer` leikkaa suoran diagonaalisen kulman kahden [Line](../line/)- tai [Polyline](../polyline/)-entiteetin välille. Määrität, kuinka pitkälle taaksepäin kutakin entiteettiä pitkin leikataan (d1 ja d2), ja komento leikkaa molemmat entiteetit näihin pisteisiin ja lisää yhdistävän viivan niiden välille.
+Komento `Viistä` leikkaa suoran diagonaalisen kulman kahden [Line](../line/)- tai [Polyline](../polyline/)-entiteetin välille. Määrität, kuinka pitkälle taaksepäin kutakin entiteettiä pitkin leikataan (d1 ja d2), ja komento leikkaa molemmat entiteetit näihin pisteisiin ja lisää yhdistävän viivan niiden välille.
 
 Yhtäläisten etäisyyksien käyttö tuottaa symmetrisen 45°:n leikkauksen; erilaiset etäisyydet tuottavat epäsymmetrisen viisteen.
 
@@ -16,7 +16,7 @@ Chamfer toimii **Line- ja Polyline**-entiteeteillä.
 
 ## Chamferin käyttäminen
 
-1. Kirjoita `chamfer` terminaaliin tai napsauta **Chamfer**-painiketta työkalurivillä.
+1. Kirjoita `Viistä` terminaaliin tai napsauta **Chamfer**-painiketta työkalurivillä.
 2. **Kirjoita ensimmäinen chamfer-etäisyys** (d1 — etäisyys ensimmäistä entiteettiä pitkin) ja paina **Enter**.
 3. **Kirjoita toinen chamfer-etäisyys** (d2 — etäisyys toista entiteettiä pitkin) ja paina **Enter**.
 4. **Napsauta ensimmäistä entiteettiä** — napsauttamasi osa määrää, kumpi puoli mahdollisesta leikkauspisteestä säilytetään.

@@ -8,11 +8,11 @@ order: 4
 
 # Print Manager
 
-`PrintManager`-kommandot öppnar **Print Manager** — ett dedikerat exportfönster med en direktuppdaterad förhandsgranskningsyta, formatväljare (PNG / JPEG / WebP / PDF), en Style-väljare (Default / Monochrome / Blueprint) och valfri områdesbeskärning. Ingenting skickas till en fysisk skrivare — resultatet laddas ner som en fil.
+`Utskriftshanterare`-kommandot öppnar **Print Manager** — ett dedikerat exportfönster med en direktuppdaterad förhandsgranskningsyta, formatväljare (PNG / JPEG / WebP / PDF), en Style-väljare (Default / Monochrome / Blueprint) och valfri områdesbeskärning. Ingenting skickas till en fysisk skrivare — resultatet laddas ner som en fil.
 
 ## Öppna Print Manager
 
-Klicka på verktygsfältsknappen **Print** eller skriv `PrintManager` i terminalen. Print Manager öppnas omedelbart och visar en förhandsgranskning av den aktuella vyporten.
+Klicka på verktygsfältsknappen **Print** eller skriv `Utskriftshanterare` i terminalen. Print Manager öppnas omedelbart och visar en förhandsgranskning av den aktuella vyporten.
 
 Förhandsgranskningen renderas via exakt samma kodväg, i exakt samma pixelupplösning, som filen du så småningom exporterar — att ändra Quality, Style eller exportområdet renderar om förhandsgranskningen direkt, så det du ser är det som laddas ner, inte en approximation av det.
 

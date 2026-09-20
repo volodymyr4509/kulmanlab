@@ -8,20 +8,20 @@ order: 2
 
 # Copy
 
-Perintah `copy` membuat duplikat yang diterjemahkan dari entitas yang dipilih dan menempatkannya diimbangi dari titik dasar ke tujuan — aslinya tetap persis di tempatnya. Ini adalah satu perbedaan utama dari [Move](../move/): Copy menambahkan entitas baru ke gambar; Move memindahkan entitas yang sudah ada.
+Perintah `Salin` membuat duplikat yang diterjemahkan dari entitas yang dipilih dan menempatkannya diimbangi dari titik dasar ke tujuan — aslinya tetap persis di tempatnya. Ini adalah satu perbedaan utama dari [Move](../move/): Copy menambahkan entitas baru ke gambar; Move memindahkan entitas yang sudah ada.
 
 ## Dua cara memulai
 
 **Pra-pilih, lalu salin** — pilih entitas terlebih dahulu, kemudian aktifkan:
 
 1. Pilih satu atau lebih entitas di kanvas.
-2. Ketik `copy` di terminal atau klik tombol toolbar **Copy**.
+2. Ketik `Salin` di terminal atau klik tombol toolbar **Copy**.
 3. **Klik titik dasar**, atau ketik `X,Y` dan tekan **Enter** untuk koordinat tepat.
 4. **Klik tujuan** — duplikat muncul pada offset dasar→tujuan. Entri koordinat juga berfungsi di sini.
 
 **Aktifkan, lalu pilih** — mulai perintah tanpa ada yang dipilih:
 
-1. Ketik `copy` atau klik tombol toolbar.
+1. Ketik `Salin` atau klik tombol toolbar.
 2. **Pilih objek** — klik untuk mengalihkan entitas individual, atau seret untuk memilih berdasarkan area.
 3. Tekan **Enter** atau **Space** untuk mengonfirmasi seleksi.
 4. **Klik titik dasar**, kemudian **klik tujuan** (entri koordinat tersedia di kedua langkah).

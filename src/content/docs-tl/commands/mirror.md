@@ -8,20 +8,20 @@ order: 4
 
 # Mirror
 
-Gumagawa ang `mirror` command ng mga na-mirror na kopya ng napiling entity, na na-reflect sa kabila ng isang two-point axis. **Palaging napapanatili** ang mga orihinal — hindi tulad ng [Move](../move/) o [Rotate](../rotate/), hindi kailanman binabago ng Mirror ang mga umiiral na entity; nagdaragdag lang ito ng mga bago.
+Gumagawa ang `Isalamin` command ng mga na-mirror na kopya ng napiling entity, na na-reflect sa kabila ng isang two-point axis. **Palaging napapanatili** ang mga orihinal — hindi tulad ng [Move](../move/) o [Rotate](../rotate/), hindi kailanman binabago ng Mirror ang mga umiiral na entity; nagdaragdag lang ito ng mga bago.
 
 ## Dalawang paraan para magsimula
 
 **Pre-select, tapos mirror** — piliin muna ang mga entity, pagkatapos i-activate:
 
 1. Piliin ang isa o higit pang entity sa canvas.
-2. I-type ang `mirror` sa terminal o i-click ang **Mirror** button sa toolbar.
+2. I-type ang `Isalamin` sa terminal o i-click ang **Mirror** button sa toolbar.
 3. **I-click ang unang punto** ng mirror axis, o i-type ang `X,Y` at pindutin ang **Enter** para sa eksaktong coordinate.
 4. **I-click ang ikalawang punto** — ilalagay ang mga na-mirror na kopya at lumalabas ang command. Gumagana rin dito ang coordinate input.
 
 **Activate, tapos select** — simulan ang command nang walang naka-select:
 
-1. I-type ang `mirror` o i-click ang toolbar button.
+1. I-type ang `Isalamin` o i-click ang toolbar button.
 2. **Piliin ang mga object** — mag-click para i-toggle, o mag-drag para pumili ayon sa area.
 3. Pindutin ang **Enter** o **Space** para kumpirmahin ang seleksyon.
 4. **I-click ang unang punto**, tapos **i-click ang ikalawang punto** ng mirror axis (available ang coordinate entry sa parehong hakbang).

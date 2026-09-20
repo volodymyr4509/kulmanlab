@@ -8,12 +8,12 @@ order: 1
 
 # ViewportRectangle
 
-El comando `ViewportRectangle` crea una nueva ventana gráfica en el diseño de papel activo seleccionando dos esquinas opuestas. Solo disponible en el espacio de diseño.
+El comando `VentanaRectangular` crea una nueva ventana gráfica en el diseño de papel activo seleccionando dos esquinas opuestas. Solo disponible en el espacio de diseño.
 
 ## Crear una ventana gráfica
 
 1. Cambia a un diseño de papel usando la pestaña en la parte inferior de la pantalla.
-2. Escribe `ViewportRectangle` en el terminal o haz clic en el botón de la barra de herramientas **Viewport Rectangle**.
+2. Escribe `VentanaRectangular` en el terminal o haz clic en el botón de la barra de herramientas **Viewport Rectangle**.
 3. **Haz clic en la primera esquina**, o escribe `X,Y` y pulsa **Enter** para una coordenada exacta.
 4. **Haz clic en la esquina opuesta** — la ventana gráfica se coloca inmediatamente. La entrada de coordenadas también funciona aquí.
 

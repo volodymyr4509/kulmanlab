@@ -8,20 +8,20 @@ order: 2
 
 # Copy
 
-`copy`-kommandot skapar flyttade dubbletter av valda entiteter och placerar dem förskjutna från en basspunkt till en destination — originalen ligger kvar precis där de är. Detta är den enda viktiga skillnaden mot [Move](../move/): Copy lägger till nya entiteter i ritningen; Move flyttar befintliga.
+`Kopiera`-kommandot skapar flyttade dubbletter av valda entiteter och placerar dem förskjutna från en basspunkt till en destination — originalen ligger kvar precis där de är. Detta är den enda viktiga skillnaden mot [Move](../move/): Copy lägger till nya entiteter i ritningen; Move flyttar befintliga.
 
 ## Två sätt att starta
 
 **Förval, sedan kopiering** — välj entiteter först, aktivera sedan:
 
 1. Välj en eller flera entiteter på ritytan.
-2. Skriv `copy` i terminalen eller klicka på **Copy**-knappen i verktygsfältet.
+2. Skriv `Kopiera` i terminalen eller klicka på **Copy**-knappen i verktygsfältet.
 3. **Klicka på basspunkten**, eller skriv `X,Y` och tryck **Enter** för en exakt koordinat.
 4. **Klicka på destinationen** — dubbletter visas vid bas→destination-förskjutningen. Koordinatinmatning fungerar även här.
 
 **Aktivera, välj sedan** — starta kommandot utan att något är valt:
 
-1. Skriv `copy` eller klicka på verktygsfältsknappen.
+1. Skriv `Kopiera` eller klicka på verktygsfältsknappen.
 2. **Välj objekt** — klicka för att växla enskilda entiteter, eller dra för att välja med ett område.
 3. Tryck **Enter** eller **Space** för att bekräfta valet.
 4. **Klicka på basspunkten**, klicka sedan på **destinationen** (koordinatinmatning tillgänglig i båda stegen).

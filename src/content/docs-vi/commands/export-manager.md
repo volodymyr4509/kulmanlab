@@ -8,11 +8,11 @@ order: 6
 
 # Export Manager
 
-Lệnh `exportmanager` tải bản vẽ hiện tại xuống hệ thống tệp của bạn. Hai định dạng đứng cạnh nhau — **DXF** để tương thích với các công cụ CAD khác và **JSON** để lưu trọn vẹn bên trong KulmanLab CAD — mỗi bên có danh sách riêng về những gì sẽ đưa vào tệp.
+Lệnh `QuảnLýXuất` tải bản vẽ hiện tại xuống hệ thống tệp của bạn. Hai định dạng đứng cạnh nhau — **DXF** để tương thích với các công cụ CAD khác và **JSON** để lưu trọn vẹn bên trong KulmanLab CAD — mỗi bên có danh sách riêng về những gì sẽ đưa vào tệp.
 
 ## Cách xuất
 
-1. Nhấp nút **Export** trên thanh công cụ (biểu tượng tải xuống) trong bảng tệp, hoặc gõ `exportmanager` trong terminal.
+1. Nhấp nút **Export** trên thanh công cụ (biểu tượng tải xuống) trong bảng tệp, hoặc gõ `QuảnLýXuất` trong terminal.
 2. Cửa sổ **Export Manager** mở ra với hai cột, **JSON** và **DXF**, mỗi cột liệt kê các loại đối tượng của bản vẽ kèm ô tích và số lượng.
 3. Bỏ tích những gì bạn muốn để ra ngoài. Ban đầu mọi thứ đều được tích.
 4. Bấm **Export JSON** hoặc **Export DXF**. Tệp tải về thư mục tải xuống mặc định và cửa sổ đóng lại.

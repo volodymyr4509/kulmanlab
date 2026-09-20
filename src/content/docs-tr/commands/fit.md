@@ -8,7 +8,7 @@ order: 4
 
 # Fit
 
-`fit` komutu, tüm nesnelerin sınırlayıcı kutusunu hesaplar ve tüm çizimin pencerede görünür olması için görünüm ölçeğini ve konumunu ayarlar.
+`Sığdır` komutu, tüm nesnelerin sınırlayıcı kutusunu hesaplar ve tüm çizimin pencerede görünür olması için görünüm ölçeğini ve konumunu ayarlar.
 
 ## Nasıl Çalıştırılır
 

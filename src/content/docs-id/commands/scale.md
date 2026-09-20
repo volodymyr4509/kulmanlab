@@ -8,20 +8,20 @@ order: 5
 
 # Scale
 
-Perintah `scale` mengubah ukuran entitas yang dipilih secara seragam di sekitar titik dasar. Semua jarak dari titik dasar dikalikan dengan faktor skala — faktor `2` menggandakan semua dimensi, `0.5` membagi duanya. Faktor selalu dimasukkan dengan mengetik; tidak ada klik-untuk-mengatur-skala.
+Perintah `Skala` mengubah ukuran entitas yang dipilih secara seragam di sekitar titik dasar. Semua jarak dari titik dasar dikalikan dengan faktor skala — faktor `2` menggandakan semua dimensi, `0.5` membagi duanya. Faktor selalu dimasukkan dengan mengetik; tidak ada klik-untuk-mengatur-skala.
 
 ## Dua cara memulai
 
 **Pra-pilih, lalu skalakan** — pilih entitas terlebih dahulu, kemudian aktifkan:
 
 1. Pilih satu atau lebih entitas di kanvas.
-2. Ketik `scale` di terminal atau klik tombol toolbar **Scale**.
+2. Ketik `Skala` di terminal atau klik tombol toolbar **Scale**.
 3. **Klik titik dasar** — titik tetap yang tidak bergerak selama penskalaan. Atau ketik `X,Y` dan tekan **Enter** untuk koordinat tepat.
 4. **Ketik faktor skala** dan tekan **Enter**.
 
 **Aktifkan, lalu pilih** — mulai perintah tanpa ada yang dipilih:
 
-1. Ketik `scale` atau klik tombol toolbar.
+1. Ketik `Skala` atau klik tombol toolbar.
 2. **Pilih objek** — klik untuk mengalihkan, atau seret untuk memilih berdasarkan area.
 3. Tekan **Enter** atau **Space** untuk mengonfirmasi seleksi.
 4. **Klik titik dasar** (entri koordinat tersedia), kemudian ketik faktornya.

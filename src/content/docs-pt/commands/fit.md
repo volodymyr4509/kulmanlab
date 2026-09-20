@@ -8,11 +8,11 @@ order: 4
 
 # Fit
 
-O comando `fit` calcula o retângulo delimitador de todas as entidades no desenho e ajusta tanto o nível de zoom quanto a posição de pan para que cada entidade seja visível com uma pequena margem. É a maneira mais rápida de recuperar uma vista perdida ou se orientar após importar um arquivo DXF.
+O comando `Ajustar` calcula o retângulo delimitador de todas as entidades no desenho e ajusta tanto o nível de zoom quanto a posição de pan para que cada entidade seja visível com uma pequena margem. É a maneira mais rápida de recuperar uma vista perdida ou se orientar após importar um arquivo DXF.
 
 ## Ajustar a vista
 
-Clique no botão **Fit** na barra de ferramentas ou digite `fit` no terminal. A vista se ajusta imediatamente e o comando termina — nenhuma interação é necessária.
+Clique no botão **Fit** na barra de ferramentas ou digite `Ajustar` no terminal. A vista se ajusta imediatamente e o comando termina — nenhuma interação é necessária.
 
 **Clique duplo no botão central do mouse** aciona a mesma operação Fit a qualquer momento sem ativar nenhum comando — o atalho mais rápido para redefinir uma vista perdida no meio do desenho.
 

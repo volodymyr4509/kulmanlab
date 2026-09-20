@@ -8,11 +8,11 @@ order: 3
 
 # PageManager
 
-Amri ya `PageManager` hufungua mazungumzo ya mipangilio ya ukurasa kwa mpangilio unaotumika, ikikuruhusu kubadilisha muundo wa karatasi, mwelekeo, na kiwango kati ya vitengo vya mchoro na milimita.
+Amri ya `KidhibitiKurasa` hufungua mazungumzo ya mipangilio ya ukurasa kwa mpangilio unaotumika, ikikuruhusu kubadilisha muundo wa karatasi, mwelekeo, na kiwango kati ya vitengo vya mchoro na milimita.
 
 ## Kufungua Kidhibiti cha Ukurasa
 
-- Andika `PageManager` kwenye terminal, **au**
+- Andika `KidhibitiKurasa` kwenye terminal, **au**
 - Bonyeza kulia kichupo cha mpangilio chini na uchague **Page Manager**.
 
 ## Mipangilio

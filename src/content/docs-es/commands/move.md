@@ -8,20 +8,20 @@ order: 1
 
 # Move
 
-El comando `move` traslada las entidades seleccionadas desde un punto base hasta un punto de destino. El desplazamiento aplicado a cada entidad seleccionada es el vector desde la base hasta el destino. Después del movimiento, todas las entidades permanecen seleccionadas en su nueva posición, listas para seguir editando.
+El comando `Desplazar` traslada las entidades seleccionadas desde un punto base hasta un punto de destino. El desplazamiento aplicado a cada entidad seleccionada es el vector desde la base hasta el destino. Después del movimiento, todas las entidades permanecen seleccionadas en su nueva posición, listas para seguir editando.
 
 ## Dos formas de iniciarlo
 
 **Pre-seleccionar y luego mover** — selecciona las entidades primero y luego activa:
 
 1. Selecciona una o más entidades en el lienzo.
-2. Escribe `move` en el terminal o haz clic en el botón **Move** de la barra de herramientas.
+2. Escribe `Desplazar` en el terminal o haz clic en el botón **Move** de la barra de herramientas.
 3. **Haz clic en el punto base**, o escribe `X,Y` y presiona **Enter** para una coordenada exacta.
 4. **Haz clic en el destino** — todas las entidades seleccionadas se desplazan por el vector base→destino. La entrada de coordenadas también funciona aquí.
 
 **Activar y luego seleccionar** — inicia el comando sin nada seleccionado:
 
-1. Escribe `move` o haz clic en el botón de la barra de herramientas.
+1. Escribe `Desplazar` o haz clic en el botón de la barra de herramientas.
 2. **Selecciona objetos** — haz clic para alternar entidades individuales, o arrastra para seleccionar por área.
 3. Presiona **Enter** o **Space** para confirmar la selección.
 4. **Haz clic en el punto base**, luego **haz clic en el destino** (la entrada de coordenadas está disponible en ambos pasos).

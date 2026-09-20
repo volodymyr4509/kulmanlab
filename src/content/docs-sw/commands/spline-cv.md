@@ -8,11 +8,11 @@ order: 8
 
 # Spline CV
 
-Amri ya `splinecv` inachora **B-spline ya cubic** kwa kuweka ncha za udhibiti (CVs). Mkunjo unaotokana huvutiwa kuelekea kila CV lakini haupiti kwao — isipokuwa katika ncha ya kwanza kabisa na ya mwisho, ambapo **vifundo vilivyofungwa** hushikilia mkunjo hasa. Hii hukupa udhibiti wa angavu wa umbo: vuta ncha kusukuma mkunjo kuelekea bila kulazimisha kugusa kila nukta.
+Amri ya `SplineVipeo` inachora **B-spline ya cubic** kwa kuweka ncha za udhibiti (CVs). Mkunjo unaotokana huvutiwa kuelekea kila CV lakini haupiti kwao — isipokuwa katika ncha ya kwanza kabisa na ya mwisho, ambapo **vifundo vilivyofungwa** hushikilia mkunjo hasa. Hii hukupa udhibiti wa angavu wa umbo: vuta ncha kusukuma mkunjo kuelekea bila kulazimisha kugusa kila nukta.
 
 ## Kuchora spline kwa ncha za udhibiti
 
-1. Andika `splinecv` kwenye terminal au bonyeza kitufe cha **Spline CV** kwenye upau wa zana.
+1. Andika `SplineVipeo` kwenye terminal au bonyeza kitufe cha **Spline CV** kwenye upau wa zana.
 2. **Bonyeza kuweka ncha za udhibiti** — kila bonyeza inaongeza ncha. Au andika `X,Y` na ubonyeze **Enter** kwa kuratibu sahihi.
 3. Bonyeza **Enter** au **Space** kumaliza (inahitaji angalau ncha 2).
 

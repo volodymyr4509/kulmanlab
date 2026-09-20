@@ -8,11 +8,11 @@ order: 18
 
 # ClipboardPaste
 
-Il comando `ClipboardPaste` legge le entità che [ClipboardCopy](../clipboard-copy/) ha scritto negli **appunti di sistema** e le colloca nel disegno corrente in un punto che scegli tu. Poiché gli appunti sono quelli veri di sistema, l'origine può essere un altro disegno, un'altra scheda del browser o una sessione di qualche ora prima.
+Il comando `IncollaDagliAppunti` legge le entità che [ClipboardCopy](../clipboard-copy/) ha scritto negli **appunti di sistema** e le colloca nel disegno corrente in un punto che scegli tu. Poiché gli appunti sono quelli veri di sistema, l'origine può essere un altro disegno, un'altra scheda del browser o una sessione di qualche ora prima.
 
 ## Come incollare
 
-1. Premi `Ctrl+V` (`Cmd+V` su macOS), oppure digita `ClipboardPaste` nel terminale.
+1. Premi `Ctrl+V` (`Cmd+V` su macOS), oppure digita `IncollaDagliAppunti` nel terminale.
 2. Il prompt indica **reading clipboard…** mentre il browser consegna il testo degli appunti.
 3. Una volta caricato, il prompt diventa **pick insertion point** e un'anteprima della geometria segue il cursore.
 4. **Clicca** per posizionare le entità. Vengono aggiunte al disegno e restano selezionate.

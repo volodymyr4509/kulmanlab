@@ -8,20 +8,20 @@ order: 5
 
 # Scale
 
-Il comando `scale` ridimensiona le entità selezionate uniformemente attorno a un punto base. Tutte le distanze dal punto base vengono moltiplicate per il fattore di scala — un fattore di `2` raddoppia tutte le dimensioni, `0.5` le dimezza. Il fattore viene sempre inserito digitandolo; non esiste clic-per-impostare-scala.
+Il comando `Scala` ridimensiona le entità selezionate uniformemente attorno a un punto base. Tutte le distanze dal punto base vengono moltiplicate per il fattore di scala — un fattore di `2` raddoppia tutte le dimensioni, `0.5` le dimezza. Il fattore viene sempre inserito digitandolo; non esiste clic-per-impostare-scala.
 
 ## Due modi per iniziare
 
 **Preseleziona, poi scala** — seleziona le entità prima, poi attiva:
 
 1. Seleziona una o più entità sul canvas.
-2. Digita `scale` nel terminale o clicca il pulsante **Scale** nella barra degli strumenti.
+2. Digita `Scala` nel terminale o clicca il pulsante **Scale** nella barra degli strumenti.
 3. **Clicca il punto base** — il punto fisso che non si sposta durante la scalatura. Oppure digita `X,Y` e premi **Invio** per una coordinata esatta.
 4. **Digita il fattore di scala** e premi **Invio**.
 
 **Attiva, poi seleziona** — avvia il comando senza nulla selezionato:
 
-1. Digita `scale` o clicca il pulsante della barra degli strumenti.
+1. Digita `Scala` o clicca il pulsante della barra degli strumenti.
 2. **Seleziona gli oggetti** — clicca per alternare, o trascina per selezionare per area.
 3. Premi **Invio** o **Spazio** per confermare la selezione.
 4. **Clicca il punto base** (inserimento coordinate disponibile), poi digita il fattore.

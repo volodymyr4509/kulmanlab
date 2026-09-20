@@ -8,11 +8,11 @@ order: 3
 
 # Rectangle
 
-Ginuguhit ng `rectangle` command ang axis-aligned na rectangle na naitatakda ng dalawang click sa magkasalungat na sulok. Nakatago ang resulta bilang **closed `LWPOLYLINE`** na may apat na vertex — isa sa bawat sulok. Walang dedikadong rectangle entity type: pagkatapos magawa, kumikilos ang hugis nang eksaktong tulad ng ibang [Polyline](../polyline/) at applicable dito ang bawat polyline edit.
+Ginuguhit ng `Parihaba` command ang axis-aligned na rectangle na naitatakda ng dalawang click sa magkasalungat na sulok. Nakatago ang resulta bilang **closed `LWPOLYLINE`** na may apat na vertex — isa sa bawat sulok. Walang dedikadong rectangle entity type: pagkatapos magawa, kumikilos ang hugis nang eksaktong tulad ng ibang [Polyline](../polyline/) at applicable dito ang bawat polyline edit.
 
 ## Pagguhit ng Rectangle
 
-1. I-type ang `rectangle` sa terminal o i-click ang **Rectangle** button sa toolbar.
+1. I-type ang `Parihaba` sa terminal o i-click ang **Rectangle** button sa toolbar.
 2. **I-click ang unang sulok**, o i-type ang `X,Y` at pindutin ang **Enter** para sa eksaktong coordinate.
 3. **I-click ang kasalungat na sulok** — mailalagay agad ang rectangle at magsasara ang command. Gumagana rin dito ang coordinate entry. O pindutin ang `D` sa halip para mag-type ng eksaktong width at height — tingnan ang [Dimension Entry](#dimension-entry) sa ibaba.
 

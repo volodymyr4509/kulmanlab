@@ -8,13 +8,13 @@ order: 2
 
 # ViewportCopy
 
-Der `ViewportCopy`-Befehl kopiert einen Viewport an eine neue Position und bewahrt dabei seinen Maßstab und Modellmittelpunkt. Nur im Layout-Raum verfügbar.
+Der `AnsichtsfensterKopieren`-Befehl kopiert einen Viewport an eine neue Position und bewahrt dabei seinen Maßstab und Modellmittelpunkt. Nur im Layout-Raum verfügbar.
 
 ## Einen Viewport kopieren
 
 1. Wechseln Sie zu einem Papier-Layout-Tab.
 2. Klicken Sie optional auf einen Viewport, um ihn vorher auszuwählen.
-3. Geben Sie `ViewportCopy` im Terminal ein oder klicken Sie auf die **Viewport Copy**-Schaltfläche in der Werkzeugleiste.
+3. Geben Sie `AnsichtsfensterKopieren` im Terminal ein oder klicken Sie auf die **Viewport Copy**-Schaltfläche in der Werkzeugleiste.
 4. Wenn kein Viewport vorausgewählt war, **klicken Sie den zu kopierenden Viewport** an.
 5. **Klicken Sie den Basispunkt** — die Referenz für den Versatz. Oder geben Sie `X,Y` ein und drücken Sie **Enter** für eine exakte Koordinate.
 6. **Klicken Sie das Ziel** — der Viewport wird am Basis→Ziel-Versatz platziert. Oder verwenden Sie Koordinateneingabe / Winkelsperre.

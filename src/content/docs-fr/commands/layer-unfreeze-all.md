@@ -8,11 +8,11 @@ order: 5
 
 # LayerUnfreezeAll
 
-La commande `LayerUnfreezeAll` supprime l'indicateur de gel sur **tous les calques** du dessin instantanément. Aucune sélection ni confirmation n'est nécessaire — elle s'exécute et se termine en une seule étape.
+La commande `LibérerTousCalques` supprime l'indicateur de gel sur **tous les calques** du dessin instantanément. Aucune sélection ni confirmation n'est nécessaire — elle s'exécute et se termine en une seule étape.
 
 ## Utilisation
 
-Tapez `LayerUnfreezeAll` dans le terminal ou cliquez sur le bouton **Unfreeze All** de la barre d'outils (icône soleil). Tous les calques gelés deviennent visibles immédiatement.
+Tapez `LibérerTousCalques` dans le terminal ou cliquez sur le bouton **Unfreeze All** de la barre d'outils (icône soleil). Tous les calques gelés deviennent visibles immédiatement.
 
 ## Quand l'utiliser
 

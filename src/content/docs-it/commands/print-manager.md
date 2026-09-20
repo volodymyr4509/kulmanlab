@@ -8,11 +8,11 @@ order: 4
 
 # Print Manager
 
-Il comando `PrintManager` apre il **Print Manager** — una finestra di esportazione dedicata con canvas di anteprima live, selettore di formato (PNG / JPEG / WebP / PDF), un selettore di Stile di stampa (Default / Monochrome / Blueprint) e ritaglio area opzionale. Nulla viene inviato a una stampante fisica; l'output viene scaricato come file.
+Il comando `GestoreStampa` apre il **Print Manager** — una finestra di esportazione dedicata con canvas di anteprima live, selettore di formato (PNG / JPEG / WebP / PDF), un selettore di Stile di stampa (Default / Monochrome / Blueprint) e ritaglio area opzionale. Nulla viene inviato a una stampante fisica; l'output viene scaricato come file.
 
 ## Aprire il Print Manager
 
-Clicca il pulsante **Print** nella barra degli strumenti o digita `PrintManager` nel terminale. Il Print Manager si apre immediatamente mostrando un'anteprima del viewport corrente.
+Clicca il pulsante **Print** nella barra degli strumenti o digita `GestoreStampa` nel terminale. Il Print Manager si apre immediatamente mostrando un'anteprima del viewport corrente.
 
 L'anteprima viene renderizzata attraverso esattamente lo stesso percorso di codice, alla stessa identica risoluzione in pixel, del file che alla fine esporterai — cambiare Qualità, Stile o l'area di esportazione ri-renderizza subito l'anteprima, quindi ciò che vedi è ciò che viene scaricato, non un'approssimazione.
 

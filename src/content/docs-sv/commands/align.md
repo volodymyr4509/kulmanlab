@@ -8,14 +8,14 @@ order: 6
 
 # Align
 
-`align`-kommandot placerar om valda entiteter med hjälp av ett eller två käll-/målpunktpar. Med ett par beter det sig precis som [Move](../move/) (endast förflyttning). Med två par roteras även valet så att riktningen källa-till-källa matchar riktningen mål-till-mål, och det kan valfritt skalas så att källsegmentets längd matchar målsegmentets längd — förflyttning, rotation och skalning i en enda operation.
+`Justera`-kommandot placerar om valda entiteter med hjälp av ett eller två käll-/målpunktpar. Med ett par beter det sig precis som [Move](../move/) (endast förflyttning). Med två par roteras även valet så att riktningen källa-till-källa matchar riktningen mål-till-mål, och det kan valfritt skalas så att källsegmentets längd matchar målsegmentets längd — förflyttning, rotation och skalning i en enda operation.
 
 ## Två sätt att starta
 
 **Förval, sedan justera** — välj entiteter först, aktivera sedan:
 
 1. Välj en eller flera entiteter på ritytan.
-2. Skriv `align` i terminalen eller klicka på **Align**-knappen i verktygsfältet.
+2. Skriv `Justera` i terminalen eller klicka på **Align**-knappen i verktygsfältet.
 3. **Klicka på den första källpunkten (S1)**, klicka sedan på **den första målpunkten (D1)**.
 4. **Klicka på den andra källpunkten (S2)**, eller tryck **Enter** eller **Space** för att direkt tillämpa en justering med enbart förflyttning.
 5. **Klicka på den andra målpunkten (D2)**.
@@ -23,7 +23,7 @@ order: 6
 
 **Aktivera, välj sedan** — starta kommandot utan att något är valt:
 
-1. Skriv `align` eller klicka på verktygsfältsknappen.
+1. Skriv `Justera` eller klicka på verktygsfältsknappen.
 2. **Välj objekt** — klicka för att växla enskilda entiteter, eller dra för att välja med ett område.
 3. Tryck **Enter** eller **Space** för att bekräfta valet.
 4. Fortsätt med S1 → D1 → S2 → D2 → skalningsfråga som ovan.
@@ -97,4 +97,4 @@ De justerade entiteterna förblir valda på sin nya position, och kommandot avsl
 
 ## Entiteter som stöds
 
-Align fungerar på alla entitetstyper som stöds av Move, Rotate och Scale — samma `translate`-, `rotate`- och `scale`-operationer som dessa kommandon använder tillämpas i följd, så inga är undantagna.
+Align fungerar på alla entitetstyper som stöds av Move, Rotate och Scale — samma `translate`-, `Rotera`- och `Skala`-operationer som dessa kommandon använder tillämpas i följd, så inga är undantagna.

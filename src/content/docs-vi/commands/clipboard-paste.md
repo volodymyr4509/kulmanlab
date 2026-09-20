@@ -8,11 +8,11 @@ order: 18
 
 # ClipboardPaste
 
-Lệnh `ClipboardPaste` đọc các đối tượng mà [ClipboardCopy](../clipboard-copy/) đã ghi vào **bộ nhớ tạm hệ thống** và đặt chúng vào bản vẽ hiện tại tại điểm bạn chọn. Vì đây là bộ nhớ tạm thật của hệ thống, nguồn có thể là một bản vẽ khác, một thẻ trình duyệt khác, hoặc một phiên làm việc từ đầu ngày.
+Lệnh `DánTừBộNhớTạm` đọc các đối tượng mà [ClipboardCopy](../clipboard-copy/) đã ghi vào **bộ nhớ tạm hệ thống** và đặt chúng vào bản vẽ hiện tại tại điểm bạn chọn. Vì đây là bộ nhớ tạm thật của hệ thống, nguồn có thể là một bản vẽ khác, một thẻ trình duyệt khác, hoặc một phiên làm việc từ đầu ngày.
 
 ## Cách dán
 
-1. Nhấn `Ctrl+V` (`Cmd+V` trên macOS), hoặc gõ `ClipboardPaste` trong dòng lệnh.
+1. Nhấn `Ctrl+V` (`Cmd+V` trên macOS), hoặc gõ `DánTừBộNhớTạm` trong dòng lệnh.
 2. Dòng nhắc hiển thị **reading clipboard…** trong lúc trình duyệt bàn giao văn bản từ bộ nhớ tạm.
 3. Khi đã tải xong, dòng nhắc chuyển thành **pick insertion point** và bản xem trước của hình học đi theo con trỏ.
 4. **Nhấp** để đặt các đối tượng. Chúng được thêm vào bản vẽ và vẫn ở trạng thái được chọn.

@@ -8,11 +8,11 @@ order: 13
 
 # Undo
 
-`undo` komutu, çizimde yapılan son değişikliği tersine çevirir — çağrı başına bir adım. Nesnelerin her eklenmesi, silinmesi veya düzenlenmesi ayrı bir geçmiş girişi olarak kaydedilir. Undo, bu girişlerde ters sırayla geri adım atar.
+`GeriAl` komutu, çizimde yapılan son değişikliği tersine çevirir — çağrı başına bir adım. Nesnelerin her eklenmesi, silinmesi veya düzenlenmesi ayrı bir geçmiş girişi olarak kaydedilir. Undo, bu girişlerde ters sırayla geri adım atar.
 
 ## Nasıl Geri Alınır
 
-- Terminale `undo` yazın, veya
+- Terminale `GeriAl` yazın, veya
 - **Undo** araç çubuğu düğmesine tıklayın.
 
 Her çağrı, kayıtlı bir işlemi tersine çevirir. Daha geri gitmek için tekrar tekrar çağırın.

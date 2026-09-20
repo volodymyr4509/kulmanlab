@@ -8,12 +8,12 @@ order: 1
 
 # ViewportRectangle
 
-Komento `ViewportRectangle` luo uuden näkymäikkunan aktiiviseen paperiasetteluun napsauttamalla kaksi vastakkaista kulmaa. Käytettävissä vain asettelutilassa.
+Komento `NäkymäikkunaSuorakulmio` luo uuden näkymäikkunan aktiiviseen paperiasetteluun napsauttamalla kaksi vastakkaista kulmaa. Käytettävissä vain asettelutilassa.
 
 ## Näkymäikkunan luominen
 
 1. Vaihda paperiasetteluun näytön alareunan välilehden avulla.
-2. Kirjoita `ViewportRectangle` terminaaliin tai napsauta **Viewport Rectangle**-painiketta työkalurivillä.
+2. Kirjoita `NäkymäikkunaSuorakulmio` terminaaliin tai napsauta **Viewport Rectangle**-painiketta työkalurivillä.
 3. **Napsauta ensimmäistä kulmaa**, tai kirjoita `X,Y` ja paina **Enter** tarkkaa koordinaattia varten.
 4. **Napsauta vastakkaista kulmaa** — näkymäikkuna sijoitetaan välittömästi. Koordinaattien syöttö toimii myös täällä.
 

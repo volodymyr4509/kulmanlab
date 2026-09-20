@@ -8,20 +8,20 @@ order: 5
 
 # Scale
 
-Ini-resize ng `scale` command ang napiling entity nang uniform paikot sa isang base point. Ang lahat ng distansya mula sa base point ay pinaparami ng scale factor — dinodoble ng factor na `2` ang lahat ng dimensyon, at hinahati sa kalahati ng `0.5`. Palaging in-e-enter ang factor sa pamamagitan ng pag-type; walang click-to-set-scale.
+Ini-resize ng `Iskala` command ang napiling entity nang uniform paikot sa isang base point. Ang lahat ng distansya mula sa base point ay pinaparami ng scale factor — dinodoble ng factor na `2` ang lahat ng dimensyon, at hinahati sa kalahati ng `0.5`. Palaging in-e-enter ang factor sa pamamagitan ng pag-type; walang click-to-set-scale.
 
 ## Dalawang paraan para magsimula
 
 **Pre-select, tapos scale** — piliin muna ang mga entity, pagkatapos i-activate:
 
 1. Piliin ang isa o higit pang entity sa canvas.
-2. I-type ang `scale` sa terminal o i-click ang **Scale** button sa toolbar.
+2. I-type ang `Iskala` sa terminal o i-click ang **Scale** button sa toolbar.
 3. **I-click ang base point** — ang nakapirming punto na hindi gumagalaw habang nag-s-scale. O i-type ang `X,Y` at pindutin ang **Enter** para sa eksaktong coordinate.
 4. **I-type ang scale factor** at pindutin ang **Enter**.
 
 **Activate, tapos select** — simulan ang command nang walang naka-select:
 
-1. I-type ang `scale` o i-click ang toolbar button.
+1. I-type ang `Iskala` o i-click ang toolbar button.
 2. **Piliin ang mga object** — mag-click para i-toggle, o mag-drag para pumili ayon sa area.
 3. Pindutin ang **Enter** o **Space** para kumpirmahin ang seleksyon.
 4. **I-click ang base point** (available ang coordinate entry), tapos i-type ang factor.

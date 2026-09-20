@@ -8,13 +8,13 @@ order: 10
 
 # Offset
 
-Kommandoen `offset` oppretter en parallell kopi av en entitet i en fast vinkelrett avstand. Du skriver inn avstanden én gang, klikker deretter entiteter og velger en side — kommandoen forblir klar med samme avstand, slik at du kan forskyve flere objekter i én økt.
+Kommandoen `Forskyv` oppretter en parallell kopi av en entitet i en fast vinkelrett avstand. Du skriver inn avstanden én gang, klikker deretter entiteter og velger en side — kommandoen forblir klar med samme avstand, slik at du kan forskyve flere objekter i én økt.
 
 Støttede entitetstyper: **Line, Circle, Arc, Ellipse, Polyline** (inkludert Rectangles).
 
 ## Bruke offset
 
-1. Skriv `offset` i terminalen eller klikk på **Offset**-knappen i verktøylinjen.
+1. Skriv `Forskyv` i terminalen eller klikk på **Offset**-knappen i verktøylinjen.
 2. **Skriv inn offset-avstanden** og trykk **Enter** eller **Space**.
 3. **Klikk en entitet** for å forskyve — hvis entiteten ikke er en støttet type, vises en feilmelding, og du kan klikke en annen entitet.
 4. **Flytt markøren** til siden der kopien skal vises — en levende forhåndsvisning følger med.

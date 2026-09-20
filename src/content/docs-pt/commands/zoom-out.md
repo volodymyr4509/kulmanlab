@@ -8,11 +8,11 @@ order: 3
 
 # Zoom Out
 
-O comando `zoomout` divide o nível de zoom atual por **1,5×** (equivalente a multiplicar por ~0,667) e sai imediatamente, centralizado no ponto médio da viewport. É o inverso de [Zoom In](../zoom-in/).
+O comando `Reduzir` divide o nível de zoom atual por **1,5×** (equivalente a multiplicar por ~0,667) e sai imediatamente, centralizado no ponto médio da viewport. É o inverso de [Zoom In](../zoom-in/).
 
 ## Reduzindo o zoom
 
-Clique no botão **Zoom Out** na barra de ferramentas ou digite `zoomout` no terminal. O zoom é aplicado instantaneamente e o comando sai — nenhum clique no canvas é necessário.
+Clique no botão **Zoom Out** na barra de ferramentas ou digite `Reduzir` no terminal. O zoom é aplicado instantaneamente e o comando sai — nenhum clique no canvas é necessário.
 
 ## Como o passo de 1,5× funciona
 

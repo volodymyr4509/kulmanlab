@@ -8,11 +8,11 @@ order: 6
 
 # Ellipse
 
-Het commando `ellipse` tekent een ellips met drie klikken: een middelpunt, het eindpunt van de eerste (lange) halve as onder een willekeurige hoek, en de lengte van de tweede (korte) halve as. De twee assen staan altijd loodrecht op elkaar — de richting van de tweede as wordt automatisch afgeleid van de eerste.
+Het commando `Ellips` tekent een ellips met drie klikken: een middelpunt, het eindpunt van de eerste (lange) halve as onder een willekeurige hoek, en de lengte van de tweede (korte) halve as. De twee assen staan altijd loodrecht op elkaar — de richting van de tweede as wordt automatisch afgeleid van de eerste.
 
 ## Een ellips tekenen
 
-1. Typ `ellipse` in de terminal of klik op de werkbalkknop **Ellipse**.
+1. Typ `Ellips` in de terminal of klik op de werkbalkknop **Ellipse**.
 2. **Klik op het middelpunt**, of typ `X,Y` en druk op **Enter** voor een exacte coördinaat.
 3. **Klik op het eindpunt van de eerste as** — bepaalt zowel de richting als de lengte van de eerste halve as. Coördinaatinvoer werkt hier ook.
 4. **Stel de lengte van de tweede as in** — beweeg de cursor loodrecht op de eerste as, klik dan of typ een lengte.

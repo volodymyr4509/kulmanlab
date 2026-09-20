@@ -8,11 +8,11 @@ order: 3
 
 # Rectangle
 
-O comando `rectangle` desenha um retângulo alinhado aos eixos definido por dois cliques em cantos opostos. O resultado é armazenado como uma **`LWPOLYLINE` fechada** com quatro vértices — um em cada canto. Não existe um tipo de entidade retângulo dedicado: após a criação a forma se comporta exatamente como qualquer outra [Polilinha](../polyline/) e cada edição de polilinha se aplica a ela.
+O comando `Retângulo` desenha um retângulo alinhado aos eixos definido por dois cliques em cantos opostos. O resultado é armazenado como uma **`LWPOLYLINE` fechada** com quatro vértices — um em cada canto. Não existe um tipo de entidade retângulo dedicado: após a criação a forma se comporta exatamente como qualquer outra [Polilinha](../polyline/) e cada edição de polilinha se aplica a ela.
 
 ## Desenhando um retângulo
 
-1. Digite `rectangle` no terminal ou clique no botão **Rectangle** na barra de ferramentas.
+1. Digite `Retângulo` no terminal ou clique no botão **Rectangle** na barra de ferramentas.
 2. **Clique no primeiro canto**, ou digite `X,Y` e pressione **Enter** para uma coordenada exata.
 3. **Clique no canto oposto** — o retângulo é posicionado instantaneamente e o comando encerra. A entrada de coordenadas também funciona aqui. Ou pressione `D` para digitar uma largura e altura exatas — veja [Entrada de dimensões](#entrada-de-dimensões) abaixo.
 

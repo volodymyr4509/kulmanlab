@@ -8,11 +8,11 @@ order: 2
 
 # Font Manager
 
-Perintah `FontManager` membuka dialog untuk menjelajahi dan memilih font, serta untuk mengunggah file `.ttf` Anda sendiri untuk digunakan pada entitas [Text](../text/) dan [Multileader](../leader/).
+Perintah `ManajerFont` membuka dialog untuk menjelajahi dan memilih font, serta untuk mengunggah file `.ttf` Anda sendiri untuk digunakan pada entitas [Text](../text/) dan [Multileader](../leader/).
 
 ## Membuka Font Manager
 
-- Ketik `FontManager` di terminal, **atau**
+- Ketik `ManajerFont` di terminal, **atau**
 - Klik tombol **Font Manager** di toolbar [text editor](../../interface/text-editor/).
 
 ## Grup font
@@ -28,7 +28,7 @@ Klik font mana pun dalam daftar untuk melihat pratinjaunya di sebelah kanan — 
 
 ## Mengunggah font kustom
 
-1. Klik **Add Font** di footer dialog (atau ketik [`FontAdd`](../font-add/) di terminal untuk langsung membuka pemilih file).
+1. Klik **Add Font** di footer dialog (atau ketik [`FontTambah`](../font-add/) di terminal untuk langsung membuka pemilih file).
 2. Pilih file `.ttf`. Hanya font TrueType yang didukung — `.otf` dan `.woff`/`.woff2` tidak didukung.
 3. Nama file (tanpa ekstensi) menjadi nama font di grup **User**. Misalnya, mengunggah `MyFont.ttf` menambahkan font bernama `MyFont`.
 

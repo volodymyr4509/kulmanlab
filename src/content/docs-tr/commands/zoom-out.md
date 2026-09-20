@@ -8,11 +8,11 @@ order: 3
 
 # Zoom Out
 
-`zoomout` komutu, mevcut yakınlaştırma seviyesini **1,5× böler** (~0,667 ile çarpmaya eşdeğer) ve görünüm penceresi orta noktasına ortalanarak hemen çıkar. [Zoom In](../zoom-in/)'in tersidir.
+`Uzaklaştır` komutu, mevcut yakınlaştırma seviyesini **1,5× böler** (~0,667 ile çarpmaya eşdeğer) ve görünüm penceresi orta noktasına ortalanarak hemen çıkar. [Zoom In](../zoom-in/)'in tersidir.
 
 ## Uzaklaştırma
 
-Araç çubuğundaki **Zoom Out** düğmesine tıklayın veya terminale `zoomout` yazın. Yakınlaştırma anında uygulanır ve komut çıkar — tuvalde tıklama gerekmez.
+Araç çubuğundaki **Zoom Out** düğmesine tıklayın veya terminale `Uzaklaştır` yazın. Yakınlaştırma anında uygulanır ve komut çıkar — tuvalde tıklama gerekmez.
 
 ## 1,5× Adımın Nasıl Çalıştığı
 

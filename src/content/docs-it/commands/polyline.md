@@ -8,13 +8,13 @@ order: 2
 
 # Polyline
 
-Il comando `polyline` disegna un percorso connesso di un numero qualsiasi di segmenti retti o ad arco, tutti memorizzati come una singola entità `LWPOLYLINE`. Poiché l'intero percorso è un unico oggetto, selezionarlo seleziona ogni segmento contemporaneamente — sposta, ruota o scala l'intera forma in un'unica operazione. Questa è la distinzione chiave dalle [Linee](../line/) concatenate, dove ogni segmento è un'entità indipendente.
+Il comando `Polilinea` disegna un percorso connesso di un numero qualsiasi di segmenti retti o ad arco, tutti memorizzati come una singola entità `LWPOLYLINE`. Poiché l'intero percorso è un unico oggetto, selezionarlo seleziona ogni segmento contemporaneamente — sposta, ruota o scala l'intera forma in un'unica operazione. Questa è la distinzione chiave dalle [Linee](../line/) concatenate, dove ogni segmento è un'entità indipendente.
 
 Le polilinee possono anche essere **chiuse**: il comando [Rettangolo](../rectangle/) usa la stessa entità `LWPOLYLINE` con un flag di chiusura impostato.
 
 ## Disegnare una polilinea
 
-1. Digita `polyline` nel terminale o clicca il pulsante **Polyline** nella barra degli strumenti.
+1. Digita `Polilinea` nel terminale o clicca il pulsante **Polyline** nella barra degli strumenti.
 2. **Clicca il primo punto**, oppure digita `X,Y` e premi **Invio** per una coordinata esatta.
 3. **Clicca ogni punto successivo** — ogni clic aggiunge un segmento. L'inserimento coordinate funziona ad ogni passo.
 4. Premi **Invio** o **Spazio** per terminare (richiede almeno 2 punti posizionati).

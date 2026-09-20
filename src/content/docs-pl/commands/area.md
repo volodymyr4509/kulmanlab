@@ -8,7 +8,7 @@ order: 3
 
 # Area
 
-Polecenie `area` mierzy pole powierzchni i obwód wielokąta wyznaczonego przez trzy lub więcej klikniętych punktów i drukuje oba wyniki w terminalu z dokładnością do 4 miejsc po przecinku. Jest to trzecie polecenie pomiarowe, obok [Distance](../distance/) (długość prostoliniowa) i [Angle](../angle/) (kąt wewnętrzny w wierzchołku).
+Polecenie `Pole` mierzy pole powierzchni i obwód wielokąta wyznaczonego przez trzy lub więcej klikniętych punktów i drukuje oba wyniki w terminalu z dokładnością do 4 miejsc po przecinku. Jest to trzecie polecenie pomiarowe, obok [Distance](../distance/) (długość prostoliniowa) i [Angle](../angle/) (kąt wewnętrzny w wierzchołku).
 
 ## Anatomia pomiaru pola powierzchni
 
@@ -30,7 +30,7 @@ Polecenie `area` mierzy pole powierzchni i obwód wielokąta wyznaczonego przez 
 
 ## Mierzenie pola powierzchni
 
-1. Wpisz `area` w terminalu lub kliknij przycisk **Area** na pasku narzędzi (dolny rząd panelu Measure).
+1. Wpisz `Pole` w terminalu lub kliknij przycisk **Area** na pasku narzędzi (dolny rząd panelu Measure).
 2. **Kliknij pierwszy punkt** lub wpisz `X,Y` i naciśnij **Enter** dla dokładnej współrzędnej.
 3. **Kliknij każdy dodatkowy wierzchołek** kolejno wokół kształtu. Wprowadzanie współrzędnych działa na każdym kroku.
 4. Po umieszczeniu co najmniej **3 punktów** naciśnij **Enter** lub **Spację** (bez oczekującego wprowadzania współrzędnej lub odległości), aby zamknąć wielokąt i obliczyć wynik.
@@ -93,5 +93,5 @@ Zamiast klikać, wpisz dokładną pozycję dla dowolnego wierzchołka:
 - Pole powierzchni obliczane jest wzorem Gaussa (shoelace formula) i zawsze podawane jako wartość dodatnia, niezależnie od kolejności kliknięć.
 - Wielokąty samoprzecinające się (krawędzie, które się krzyżują) nadal dają wynik liczbowy, ale wartość może nie odpowiadać wizualnie zamkniętemu obszarowi — zachowaj nieprzecinającą się kolejność kliknięć, aby uzyskać sensowne pole powierzchni.
 - Wyniki wyświetlane są wyłącznie w **terminalu i jako tymczasowe podświetlenie na płótnie** — nic nie jest dodawane na stałe do rysunku.
-- W przeciwieństwie do Distance i Angle, Area **nie** łączy automatycznie nowego pomiaru — po ukryciu wyniku uruchom `area` ponownie, aby zmierzyć kolejny wielokąt.
+- W przeciwieństwie do Distance i Angle, Area **nie** łączy automatycznie nowego pomiaru — po ukryciu wyniku uruchom `Pole` ponownie, aby zmierzyć kolejny wielokąt.
 - Dokładność wynosi zawsze 4 miejsca po przecinku zarówno dla pola powierzchni, jak i obwodu, w tych samych jednostkach co współrzędne rysunku (bez konwersji jednostek).

@@ -8,20 +8,20 @@ order: 2
 
 # Copy
 
-Lệnh `copy` tạo các bản sao dịch chuyển của các đối tượng được chọn và đặt chúng offset từ điểm cơ sở đến điểm đích — các bản gốc vẫn ở đúng vị trí. Đây là sự khác biệt chính với [Move](../move/): Copy thêm thực thể mới vào bản vẽ; Move di chuyển thực thể hiện có.
+Lệnh `SaoChép` tạo các bản sao dịch chuyển của các đối tượng được chọn và đặt chúng offset từ điểm cơ sở đến điểm đích — các bản gốc vẫn ở đúng vị trí. Đây là sự khác biệt chính với [Move](../move/): Copy thêm thực thể mới vào bản vẽ; Move di chuyển thực thể hiện có.
 
 ## Hai Cách Bắt Đầu
 
 **Chọn trước, rồi sao chép** — chọn đối tượng trước, sau đó kích hoạt:
 
 1. Chọn một hoặc nhiều đối tượng trên canvas.
-2. Nhập `copy` trong terminal hoặc bấm nút **Copy** trên thanh công cụ.
+2. Nhập `SaoChép` trong terminal hoặc bấm nút **Copy** trên thanh công cụ.
 3. **Bấm điểm cơ sở**, hoặc nhập `X,Y` và nhấn **Enter** cho tọa độ chính xác.
 4. **Bấm điểm đích** — bản sao xuất hiện tại offset cơ sở→đích. Nhập tọa độ cũng được.
 
 **Kích hoạt, rồi chọn** — bắt đầu lệnh khi không có gì được chọn:
 
-1. Nhập `copy` hoặc bấm nút thanh công cụ.
+1. Nhập `SaoChép` hoặc bấm nút thanh công cụ.
 2. **Chọn đối tượng** — bấm để chuyển đổi từng đối tượng, hoặc kéo để chọn theo vùng.
 3. Nhấn **Enter** hoặc **Space** để xác nhận chọn.
 4. **Bấm điểm cơ sở**, rồi **bấm điểm đích** (nhập tọa độ có sẵn ở cả hai bước).

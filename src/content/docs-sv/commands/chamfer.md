@@ -8,7 +8,7 @@ order: 12
 
 # Chamfer
 
-`chamfer`-kommandot skär ett rakt diagonalt hörn mellan två [Line](../line/)- eller [Polyline](../polyline/)-entiteter. Du anger hur långt tillbaka som ska skäras längs varje entitet (d1 och d2), och kommandot klipper tillbaka båda entiteterna till dessa punkter och infogar en förbindande linje mellan dem.
+`Fasa`-kommandot skär ett rakt diagonalt hörn mellan två [Line](../line/)- eller [Polyline](../polyline/)-entiteter. Du anger hur långt tillbaka som ska skäras längs varje entitet (d1 och d2), och kommandot klipper tillbaka båda entiteterna till dessa punkter och infogar en förbindande linje mellan dem.
 
 Att använda lika avstånd ger ett symmetriskt 45°-snitt; olika avstånd ger en asymmetrisk fasning.
 
@@ -16,7 +16,7 @@ Chamfer fungerar på **Line- och Polyline**-entiteter.
 
 ## Använda chamfer
 
-1. Skriv `chamfer` i terminalen eller klicka på **Chamfer**-knappen i verktygsfältet.
+1. Skriv `Fasa` i terminalen eller klicka på **Chamfer**-knappen i verktygsfältet.
 2. **Skriv in det första chamferavståndet** (d1 — avstånd längs den första entiteten) och tryck på **Enter**.
 3. **Skriv in det andra chamferavståndet** (d2 — avstånd längs den andra entiteten) och tryck på **Enter**.
 4. **Klicka på den första entiteten** — den del du klickar på avgör vilken sida av en eventuell skärning som behålls.

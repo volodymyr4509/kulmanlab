@@ -8,11 +8,11 @@ order: 3
 
 # LeaderRemove
 
-Umarnin `LeaderRemove` yana cire hannu na kibiya ɗaya daga multileader da ke akwai. Ana kiyaye alamar rubutu, dogleg, da dukkan hannayen da suka rage — hannun da aka zaɓa kaɗai ake share shi. Ba za a iya cire hannu daga multileader mai hannu ɗaya kawai ba.
+Umarnin `CireHannuNuni` yana cire hannu na kibiya ɗaya daga multileader da ke akwai. Ana kiyaye alamar rubutu, dogleg, da dukkan hannayen da suka rage — hannun da aka zaɓa kaɗai ake share shi. Ba za a iya cire hannu daga multileader mai hannu ɗaya kawai ba.
 
 ## Cire hannu
 
-1. Rubuta `LeaderRemove` a tashar umarni.
+1. Rubuta `CireHannuNuni` a tashar umarni.
 2. **Danna multileader** wanda yake da hannaye biyu ko fiye. Idan leader ɗin da aka danna yana da hannu ɗaya kaɗai, tashar umarni tana nuna kuskure kuma tana jira zaɓi mai inganci.
 3. **Motsa mai nuni kusa da hannun** da kake son cirewa — hannu mafi kusa an haskaka shi da alama.
 4. **Danna** don cire wannan hannun.

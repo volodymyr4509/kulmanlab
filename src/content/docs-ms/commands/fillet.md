@@ -8,13 +8,13 @@ order: 11
 
 # Fillet
 
-Arahan `fillet` membundarkan sudut antara dua segmen [Line](../line/), [Arc](../arc/) atau [Polyline](../polyline/) dengan memasukkan lengkok tangen berjejari tertentu, memotong (atau menggabungkan) entiti yang dipilih kembali ke titik tersebut.
+Arahan `Fillet` membundarkan sudut antara dua segmen [Line](../line/), [Arc](../arc/) atau [Polyline](../polyline/) dengan memasukkan lengkok tangen berjejari tertentu, memotong (atau menggabungkan) entiti yang dipilih kembali ke titik tersebut.
 
 Fillet berfungsi pada entiti **Line, Arc dan Polyline** — termasuk segmen lurus atau lengkok milik poliline itu sendiri.
 
 ## Menggunakan fillet
 
-1. Taip `fillet` dalam terminal atau klik butang bar alat **Fillet**.
+1. Taip `Fillet` dalam terminal atau klik butang bar alat **Fillet**.
 2. **Taip jejari fillet** dan tekan **Enter**.
 3. **Klik garis, lengkok atau segmen poliline pertama** — bahagian yang anda klik menentukan sisi mana persimpangan yang dikekalkan.
 4. **Tuding ke entiti kedua** — pratonton lengkok bertitik-titik menunjukkan fillet yang akan dihasilkan. Gerakkan kursor ke sisi yang ingin anda kekalkan.

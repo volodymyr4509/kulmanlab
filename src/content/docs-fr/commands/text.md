@@ -8,13 +8,13 @@ order: 0
 
 # Text
 
-La commande `text` place un label de texte multi-ligne. Après avoir cliqué sur une position du canevas, un éditeur popup s'ouvre en **rich** mode — vous pouvez taper du contenu, appliquer gras/italique/souligné/barré par caractère, changer les polices et hauteurs, et insérer des sauts de ligne. Appuyez sur **Échap** pour valider et fermer l'éditeur.
+La commande `Texte` place un label de texte multi-ligne. Après avoir cliqué sur une position du canevas, un éditeur popup s'ouvre en **rich** mode — vous pouvez taper du contenu, appliquer gras/italique/souligné/barré par caractère, changer les polices et hauteurs, et insérer des sauts de ligne. Appuyez sur **Échap** pour valider et fermer l'éditeur.
 
 Consultez la page [Éditeur de texte](../../interface/text-editor/) pour la référence complète de l'éditeur, incluant une comparaison des modes **rich** et **simple**.
 
 ## Placer un label de texte
 
-1. Tapez `text` dans le terminal ou cliquez sur le bouton **Text** de la barre d'outils.
+1. Tapez `Texte` dans le terminal ou cliquez sur le bouton **Text** de la barre d'outils.
 2. **Cliquez sur la position d'ancrage** du canevas. Ou tapez `X,Y` et appuyez sur **Entrée** pour une coordonnée exacte.
 3. L'**éditeur de texte popup** s'ouvre au-dessus du nouveau label. Tapez votre contenu.
 4. Appuyez sur **Échap** pour valider le label et fermer l'éditeur.

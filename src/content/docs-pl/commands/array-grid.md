@@ -8,14 +8,14 @@ order: 15
 
 # Array Grid
 
-Polecenie `ArrayGrid` tworzy prostokątną siatkę kopii z zaznaczonych elementów — wprowadź liczbę wierszy, liczbę kolumn i odstęp między nimi, wszystko wpisywane w terminalu. Oryginalne zaznaczenie zajmuje komórkę wiersz 0, kolumna 0; każda inna komórka jest przetłumaczoną kopią.
+Polecenie `SzykProstokątny` tworzy prostokątną siatkę kopii z zaznaczonych elementów — wprowadź liczbę wierszy, liczbę kolumn i odstęp między nimi, wszystko wpisywane w terminalu. Oryginalne zaznaczenie zajmuje komórkę wiersz 0, kolumna 0; każda inna komórka jest przetłumaczoną kopią.
 
 ## Dwa sposoby uruchamiania
 
 **Wstępne zaznaczenie, a następnie array** — najpierw zaznacz elementy, a następnie aktywuj:
 
 1. Zaznacz jeden lub więcej elementów na płótnie.
-2. Wpisz `arraygrid` w terminalu (wystarczy `arr` — jest jednoznaczne) lub kliknij przycisk **Array Grid** na pasku narzędzi.
+2. Wpisz `SzykProstokątny` w terminalu (wystarczy `arr` — jest jednoznaczne) lub kliknij przycisk **Array Grid** na pasku narzędzi.
 3. Wpisz liczbę **wierszy** i naciśnij **Enter**.
 4. Wpisz liczbę **kolumn** i naciśnij **Enter**.
 5. Wpisz **odstęp między wierszami** i naciśnij **Enter**.
@@ -23,7 +23,7 @@ Polecenie `ArrayGrid` tworzy prostokątną siatkę kopii z zaznaczonych element�
 
 **Aktywuj, a następnie zaznacz** — uruchom polecenie bez zaznaczonego niczego:
 
-1. Wpisz `arraygrid` lub kliknij przycisk paska narzędzi.
+1. Wpisz `SzykProstokątny` lub kliknij przycisk paska narzędzi.
 2. **Zaznacz obiekty** — kliknij, aby przełączać poszczególne elementy, lub przeciągnij, aby zaznaczyć obszarem.
 3. Naciśnij **Enter** lub **Spację**, aby potwierdzić zaznaczenie.
 4. Kontynuuj wiersze → kolumny → odstęp wierszy → odstęp kolumn jak powyżej.

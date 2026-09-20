@@ -8,11 +8,11 @@ order: 2
 
 # Zoom In
 
-La commande `zoomin` multiplie le niveau de zoom actuel par **1,5×** et se termine immédiatement, centré sur le point médian du viewport. C'est l'équivalent dans la barre d'outils d'un cran de molette de souris avec zoom vers le centre de l'écran plutôt que vers le curseur.
+La commande `ZoomAvant` multiplie le niveau de zoom actuel par **1,5×** et se termine immédiatement, centré sur le point médian du viewport. C'est l'équivalent dans la barre d'outils d'un cran de molette de souris avec zoom vers le centre de l'écran plutôt que vers le curseur.
 
 ## Zoomer en avant
 
-Cliquez sur le bouton **Zoom In** dans la barre d'outils ou tapez `zoomin` dans le terminal. Le zoom est appliqué instantanément et la commande se termine — aucun clic sur le canevas n'est requis.
+Cliquez sur le bouton **Zoom In** dans la barre d'outils ou tapez `ZoomAvant` dans le terminal. Le zoom est appliqué instantanément et la commande se termine — aucun clic sur le canevas n'est requis.
 
 ## Comment fonctionne le pas de 1,5×
 

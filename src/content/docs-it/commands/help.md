@@ -12,7 +12,7 @@ Apre il pannello di aiuto in-app con un riepilogo di tutte le scorciatoie da tas
 
 ## Come usarlo
 
-Clicca il pulsante **Help** nella barra degli strumenti o digita `help` nel terminale. Il pannello di aiuto si apre immediatamente e il comando termina.
+Clicca il pulsante **Help** nella barra degli strumenti o digita `Aiuto` nel terminale. Il pannello di aiuto si apre immediatamente e il comando termina.
 
 ## Cosa c'è nel pannello di aiuto
 

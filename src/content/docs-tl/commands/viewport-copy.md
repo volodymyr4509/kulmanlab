@@ -8,13 +8,13 @@ order: 2
 
 # ViewportCopy
 
-Kinokopya ng `ViewportCopy` command ang isang viewport sa bagong posisyon, habang pinapanatili ang scale at model center nito. Available lang sa layout space.
+Kinokopya ng `KopyahinViewport` command ang isang viewport sa bagong posisyon, habang pinapanatili ang scale at model center nito. Available lang sa layout space.
 
 ## Pagkopya ng Viewport
 
 1. Lumipat sa paper layout tab.
 2. Opsyonal na i-click ang isang viewport para i-pre-select ito.
-3. I-type ang `ViewportCopy` sa terminal o i-click ang **Viewport Copy** toolbar button.
+3. I-type ang `KopyahinViewport` sa terminal o i-click ang **Viewport Copy** toolbar button.
 4. Kung walang na-pre-select na viewport, **i-click ang viewport** na kokopyahin.
 5. **I-click ang base point** — ang reference para sa displacement. O i-type ang `X,Y` at pindutin ang **Enter** para sa eksaktong coordinate.
 6. **I-click ang destination** — malalagay ang viewport sa base→destination offset. O gamitin ang coordinate entry / angle lock.

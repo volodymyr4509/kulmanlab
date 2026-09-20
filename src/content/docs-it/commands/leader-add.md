@@ -8,11 +8,11 @@ order: 2
 
 # LeaderAdd
 
-Il comando `LeaderAdd` aggiunge un nuovo braccio con punta di freccia a un multileader esistente. Il nuovo braccio parte dal dogleg esistente del leader fino a una nuova punta di freccia che clicchi. Tutto lo stile — posizione del dogleg, testo, tipo di freccia e dimensione — viene ereditato dal leader selezionato.
+Il comando `AggiungiBraccioDirettrice` aggiunge un nuovo braccio con punta di freccia a un multileader esistente. Il nuovo braccio parte dal dogleg esistente del leader fino a una nuova punta di freccia che clicchi. Tutto lo stile — posizione del dogleg, testo, tipo di freccia e dimensione — viene ereditato dal leader selezionato.
 
 ## Aggiungere un braccio
 
-1. Digita `LeaderAdd` nel terminale.
+1. Digita `AggiungiBraccioDirettrice` nel terminale.
 2. **Clicca un multileader esistente** per selezionarlo.
 3. **Clicca la nuova punta della freccia**, oppure digita `X,Y` e premi **Invio** per una coordinata esatta. Una linea di anteprima mostra dal cursore al dogleg del leader.
 

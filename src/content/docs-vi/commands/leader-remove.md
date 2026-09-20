@@ -7,11 +7,11 @@ order: 3
 
 # LeaderRemove
 
-Lệnh `LeaderRemove` xóa một cánh tay mũi tên khỏi một đường dẫn đa hiện có. Nhãn văn bản, đoạn gấp khúc và tất cả cánh tay còn lại được bảo toàn — chỉ cánh tay được chọn bị xóa. Đường dẫn đa chỉ có một cánh tay không thể xóa cánh tay đó.
+Lệnh `XóaNhánhChúThích` xóa một cánh tay mũi tên khỏi một đường dẫn đa hiện có. Nhãn văn bản, đoạn gấp khúc và tất cả cánh tay còn lại được bảo toàn — chỉ cánh tay được chọn bị xóa. Đường dẫn đa chỉ có một cánh tay không thể xóa cánh tay đó.
 
 ## Xóa cánh tay
 
-1. Gõ `LeaderRemove` trong terminal.
+1. Gõ `XóaNhánhChúThích` trong terminal.
 2. **Nhấp một đường dẫn đa** có từ hai cánh tay trở lên. Nếu đường dẫn chỉ có một cánh tay, terminal hiển thị lỗi và chờ lựa chọn hợp lệ.
 3. **Di chuyển con trỏ gần cánh tay** muốn xóa — cánh tay gần nhất được tô sáng bằng dấu hiệu.
 4. **Nhấp** để xóa cánh tay đó.

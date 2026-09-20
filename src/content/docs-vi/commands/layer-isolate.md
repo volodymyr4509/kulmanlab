@@ -7,19 +7,19 @@ order: 4
 
 # LayerIsolate
 
-Lệnh `LayerIsolate` đóng băng mọi lớp **trừ** những lớp thuộc về các đối tượng đã chọn. Dùng nó để tập trung nhanh vào hình học cụ thể mà không ẩn hoặc xóa bất cứ thứ gì vĩnh viễn — bỏ đóng băng bằng [LayerUnfreezeAll](../layer-unfreeze-all/) khi xong.
+Lệnh `CôLậpLớp` đóng băng mọi lớp **trừ** những lớp thuộc về các đối tượng đã chọn. Dùng nó để tập trung nhanh vào hình học cụ thể mà không ẩn hoặc xóa bất cứ thứ gì vĩnh viễn — bỏ đóng băng bằng [LayerUnfreezeAll](../layer-unfreeze-all/) khi xong.
 
 ## Hai cách bắt đầu
 
 **Chọn trước, sau đó cô lập** — chọn thực thể trước, rồi kích hoạt:
 
 1. Chọn một hoặc nhiều thực thể trên canvas.
-2. Gõ `LayerIsolate` trong terminal hoặc nhấp nút **Layer Isolate** trên thanh công cụ.
+2. Gõ `CôLậpLớp` trong terminal hoặc nhấp nút **Layer Isolate** trên thanh công cụ.
 3. Các lớp của thực thể đã chọn vẫn hiển thị; tất cả lớp khác bị đóng băng ngay lập tức.
 
 **Kích hoạt, sau đó chọn**:
 
-1. Gõ `LayerIsolate` hoặc nhấp nút thanh công cụ.
+1. Gõ `CôLậpLớp` hoặc nhấp nút thanh công cụ.
 2. **Chọn đối tượng** — nhấp từng thực thể hoặc kéo để chọn theo vùng.
 3. Nhấn **Enter** hoặc **Space** để xác nhận — cô lập được áp dụng.
 

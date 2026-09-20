@@ -8,13 +8,13 @@ order: 2
 
 # ViewportCopy
 
-La commande `ViewportCopy` copie une fenêtre vers une nouvelle position, en préservant son échelle et le centre du modèle. Disponible uniquement dans l'espace de mise en page.
+La commande `CopierFenêtre` copie une fenêtre vers une nouvelle position, en préservant son échelle et le centre du modèle. Disponible uniquement dans l'espace de mise en page.
 
 ## Copier une fenêtre
 
 1. Passez à un onglet de mise en page papier.
 2. Optionnellement, cliquez sur une fenêtre pour la pré-sélectionner.
-3. Tapez `ViewportCopy` dans le terminal ou cliquez sur le bouton **Viewport Copy** dans la barre d'outils.
+3. Tapez `CopierFenêtre` dans le terminal ou cliquez sur le bouton **Viewport Copy** dans la barre d'outils.
 4. Si aucune fenêtre n'a été pré-sélectionnée, **cliquez sur la fenêtre** à copier.
 5. **Cliquez sur le point de base** — la référence pour le décalage. Ou tapez `X,Y` et appuyez sur **Entrée** pour une coordonnée exacte.
 6. **Cliquez sur la destination** — la fenêtre est placée au décalage base→destination. Ou utilisez la saisie de coordonnées / verrouillage d'angle.

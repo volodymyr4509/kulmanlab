@@ -8,20 +8,20 @@ order: 4
 
 # Mirror
 
-Kommandoen `mirror` opretter spejlvendte kopier af markerede entiteter reflekteret over en topunktsakse. Originalerne **bevares altid** — i modsætning til [Move](../move/) eller [Rotate](../rotate/) ændrer Mirror aldrig eksisterende entiteter; den tilføjer kun nye.
+Kommandoen `Spejl` opretter spejlvendte kopier af markerede entiteter reflekteret over en topunktsakse. Originalerne **bevares altid** — i modsætning til [Move](../move/) eller [Rotate](../rotate/) ændrer Mirror aldrig eksisterende entiteter; den tilføjer kun nye.
 
 ## To måder at starte på
 
 **Markér først, spejlvend derefter** — markér entiteter først, aktivér derefter:
 
 1. Markér én eller flere entiteter på lærredet.
-2. Skriv `mirror` i terminalen eller klik på **Mirror**-knappen i værktøjslinjen.
+2. Skriv `Spejl` i terminalen eller klik på **Mirror**-knappen i værktøjslinjen.
 3. **Klik det første punkt** på spejlaksen, eller skriv `X,Y` og tryk **Enter** for en eksakt koordinat.
 4. **Klik det andet punkt** — spejlvendte kopier placeres, og kommandoen afsluttes. Koordinatindtastning fungerer også her.
 
 **Aktivér, markér derefter** — start kommandoen uden noget markeret:
 
-1. Skriv `mirror` eller klik på værktøjslinjeknappen.
+1. Skriv `Spejl` eller klik på værktøjslinjeknappen.
 2. **Markér objekter** — klik for at slå til/fra, eller træk for at markere efter område.
 3. Tryk **Enter** eller **Space** for at bekræfte markeringen.
 4. **Klik det første punkt**, klik derefter **det andet punkt** på spejlaksen (koordinatindtastning tilgængelig ved begge trin).

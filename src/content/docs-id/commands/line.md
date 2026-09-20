@@ -8,11 +8,11 @@ order: 1
 
 # Line
 
-Perintah `line` menggambar segmen garis lurus individual yang disimpan sebagai entitas `LINE` terpisah dalam model DXF. Setelah setiap segmen, perintah tetap aktif dan menggunakan titik akhir sebagai titik awal baru, sehingga Anda dapat membangun jalur yang terhubung satu segmen per waktu. Tidak seperti [Polyline](../polyline/), garis yang dirangkai tetap menjadi entitas independen — masing-masing dapat dipotong, diperpanjang, atau dihapus tanpa memengaruhi tetangganya.
+Perintah `Garis` menggambar segmen garis lurus individual yang disimpan sebagai entitas `LINE` terpisah dalam model DXF. Setelah setiap segmen, perintah tetap aktif dan menggunakan titik akhir sebagai titik awal baru, sehingga Anda dapat membangun jalur yang terhubung satu segmen per waktu. Tidak seperti [Polyline](../polyline/), garis yang dirangkai tetap menjadi entitas independen — masing-masing dapat dipotong, diperpanjang, atau dihapus tanpa memengaruhi tetangganya.
 
 ## Menggambar garis
 
-1. Ketik `line` di terminal atau klik tombol toolbar **Line**.
+1. Ketik `Garis` di terminal atau klik tombol toolbar **Line**.
 2. **Klik titik awal**, atau ketik `X,Y` dan tekan **Enter** untuk koordinat tepat.
 3. **Klik titik akhir** — segmen ditempatkan dan titik akhir menjadi titik awal berikutnya. Entri koordinat juga berfungsi di sini.
 4. Terus klik (atau ketik) untuk merangkai lebih banyak segmen.

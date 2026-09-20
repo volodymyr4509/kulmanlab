@@ -8,11 +8,11 @@ order: 2
 
 # LayerMakeCurrent
 
-Arahan `LayerMakeCurrent` menetapkan **lapisan lukisan semasa** kepada lapisan mana yang dimiliki entiti yang diklik. Entiti baharu kemudiannya akan dilukis pada lapisan tersebut secara automatik.
+Arahan `LapisanJadikanSemasa` menetapkan **lapisan lukisan semasa** kepada lapisan mana yang dimiliki entiti yang diklik. Entiti baharu kemudiannya akan dilukis pada lapisan tersebut secara automatik.
 
 ## Penggunaan
 
-1. Taip `LayerMakeCurrent` dalam terminal atau klik butang bar alat **Make Current** (ikon penitis mata).
+1. Taip `LapisanJadikanSemasa` dalam terminal atau klik butang bar alat **Make Current** (ikon penitis mata).
 2. **Klik mana-mana entiti** pada kanvas.
 3. Lapisan semasa dikemas kini untuk sepadan dengan lapisan entiti tersebut. Arahan selesai serta-merta.
 

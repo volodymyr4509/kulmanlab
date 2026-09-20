@@ -8,17 +8,17 @@ order: 1
 
 # Match Properties
 
-Arahan `MatchProperties` menyalin **sifat visual dan lapisan** dari entiti sumber ke satu atau lebih entiti sasaran. Hanya sifat yang dikongsi antara jenis entiti sumber dan sasaran yang dipindahkan — geometri tidak pernah berubah.
+Arahan `SalinSifat` menyalin **sifat visual dan lapisan** dari entiti sumber ke satu atau lebih entiti sasaran. Hanya sifat yang dikongsi antara jenis entiti sumber dan sasaran yang dipindahkan — geometri tidak pernah berubah.
 
 ## Cara mengaktifkan
 
-Klik butang bar alat **Match Properties** (ikon penggelek cat) dalam panel Gaya, atau taip `MatchProperties` dalam terminal.
+Klik butang bar alat **Match Properties** (ikon penggelek cat) dalam panel Gaya, atau taip `SalinSifat` dalam terminal.
 
 ## Aliran kerja
 
 **Aktifkan dahulu, kemudian pilih sumber:**
 
-1. Taip `MatchProperties` atau klik butang bar alat tanpa apa-apa yang dipra-pilih.
+1. Taip `SalinSifat` atau klik butang bar alat tanpa apa-apa yang dipra-pilih.
 2. **Klik entiti sumber** — yang sifatnya ingin anda salin.
 3. **Klik setiap entiti sasaran** untuk menggunakan sifat sumber. Anda boleh mengklik berbilang entiti satu demi satu.
 4. Untuk menggunakan pada kumpulan sekaligus, **seret kotak pemilihan** ke atas sasaran.
@@ -27,7 +27,7 @@ Klik butang bar alat **Match Properties** (ikon penggelek cat) dalam panel Gaya,
 **Pra-pilih sumber, kemudian aktifkan:**
 
 1. Klik satu entiti untuk memilihnya.
-2. Aktifkan `MatchProperties`. Entiti yang dipilih digunakan sebagai sumber secara automatik.
+2. Aktifkan `SalinSifat`. Entiti yang dipilih digunakan sebagai sumber secara automatik.
 3. Klik entiti sasaran atau pilih-seret, kemudian **Enter** atau **Escape** untuk selesai.
 
 ## Sifat yang disalin

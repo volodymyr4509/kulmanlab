@@ -8,7 +8,7 @@ order: 2
 
 # Angle
 
-`angle`-kommandot mäter den inre vinkeln vid en vertex som bildas av två linjesegment genom tre klickade punkter. Resultatet — alltid mellan 0° och 180° — visas i terminalen med 4 decimaler. Det är ett av tre mätkommandon — [Distance](../distance/) mäter rak linjelängd, och [Area](../area/) mäter arean och omkretsen av en polygon.
+`Vinkel`-kommandot mäter den inre vinkeln vid en vertex som bildas av två linjesegment genom tre klickade punkter. Resultatet — alltid mellan 0° och 180° — visas i terminalen med 4 decimaler. Det är ett av tre mätkommandon — [Distance](../distance/) mäter rak linjelängd, och [Area](../area/) mäter arean och omkretsen av en polygon.
 
 ## Anatomin hos en vinkelmätning
 
@@ -30,7 +30,7 @@ order: 2
 
 ## Mäta en vinkel
 
-1. Skriv `angle` i terminalen eller klicka på **Angle**-knappen i verktygsfältet.
+1. Skriv `Vinkel` i terminalen eller klicka på **Angle**-knappen i verktygsfältet.
 2. **Klicka på den första punkten** — ena armänden av vinkeln. Eller skriv `X,Y` och tryck på **Enter** för en exakt koordinat.
 3. **Klicka på vertexen** — hörnet där de två armarna möts. Koordinatinmatning fungerar även här.
 4. **Klicka på den tredje punkten** — den andra armänden. Koordinatinmatning fungerar även här. Att placera denna punkt skriver ut resultatet.

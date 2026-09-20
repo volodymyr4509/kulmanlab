@@ -8,11 +8,11 @@ order: 13
 
 # Undo
 
-Der `undo`-Befehl macht die letzte Änderung an der Zeichnung rückgängig — einen Schritt pro Ausführung. Jedes Hinzufügen, Löschen oder Bearbeiten von Entitäten wird als separater Verlaufseintrag aufgezeichnet. Undo geht durch diese Einträge in umgekehrter Reihenfolge zurück.
+Der `Rückgängig`-Befehl macht die letzte Änderung an der Zeichnung rückgängig — einen Schritt pro Ausführung. Jedes Hinzufügen, Löschen oder Bearbeiten von Entitäten wird als separater Verlaufseintrag aufgezeichnet. Undo geht durch diese Einträge in umgekehrter Reihenfolge zurück.
 
 ## So verwenden Sie Undo
 
-- Geben Sie `undo` im Terminal ein, oder
+- Geben Sie `Rückgängig` im Terminal ein, oder
 - Klicken Sie auf die **Undo**-Schaltfläche in der Werkzeugleiste.
 
 Jede Ausführung macht eine aufgezeichnete Aktion rückgängig. Führen Sie den Befehl wiederholt aus, um weiter zurückzugehen.

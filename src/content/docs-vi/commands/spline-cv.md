@@ -7,11 +7,11 @@ order: 8
 
 # Spline CV
 
-Lệnh `splinecv` vẽ một **B-spline bậc ba** bằng cách đặt các điểm kiểm soát (CV). Đường cong kết quả bị hút về phía mỗi CV nhưng không đi qua chúng — ngoại trừ ở điểm đầu và điểm cuối, nơi **nút kẹp chặt** neo đường cong chính xác. Điều này cung cấp cho bạn kiểm soát hình dạng trực quan.
+Lệnh `SplineĐiểmĐiềuKhiển` vẽ một **B-spline bậc ba** bằng cách đặt các điểm kiểm soát (CV). Đường cong kết quả bị hút về phía mỗi CV nhưng không đi qua chúng — ngoại trừ ở điểm đầu và điểm cuối, nơi **nút kẹp chặt** neo đường cong chính xác. Điều này cung cấp cho bạn kiểm soát hình dạng trực quan.
 
 ## Vẽ spline bằng điểm kiểm soát
 
-1. Gõ `splinecv` trong terminal hoặc nhấp nút **Spline CV** trên thanh công cụ.
+1. Gõ `SplineĐiểmĐiềuKhiển` trong terminal hoặc nhấp nút **Spline CV** trên thanh công cụ.
 2. **Nhấp để đặt điểm kiểm soát** — mỗi lần nhấp thêm một điểm.
 3. Nhấn **Enter** hoặc **Space** để kết thúc (yêu cầu ít nhất 2 điểm).
 

@@ -8,20 +8,20 @@ order: 1
 
 # Move
 
-`move` komutu, seçili nesneleri temel noktadan hedef noktaya taşır. Her seçili nesneye uygulanan kayma, temel noktadan hedef noktaya olan vektördür. Taşıma sonrasında tüm nesneler yeni konumda seçili kalır ve daha fazla düzenlemeye hazır olur.
+`Taşı` komutu, seçili nesneleri temel noktadan hedef noktaya taşır. Her seçili nesneye uygulanan kayma, temel noktadan hedef noktaya olan vektördür. Taşıma sonrasında tüm nesneler yeni konumda seçili kalır ve daha fazla düzenlemeye hazır olur.
 
 ## İki Başlatma Yöntemi
 
 **Önce seç, sonra taşı** — nesneleri seçin, ardından etkinleştirin:
 
 1. Tuvalde bir veya daha fazla nesne seçin.
-2. Terminale `move` yazın veya araç çubuğundaki **Move** düğmesine basın.
+2. Terminale `Taşı` yazın veya araç çubuğundaki **Move** düğmesine basın.
 3. **Temel noktayı tıklayın** veya kesin koordinat için `X,Y` yazıp **Enter** tuşuna basın.
 4. **Hedef noktayı tıklayın** — tüm seçili nesneler temel→hedef vektörüne göre kayar. Burada koordinat girişi de çalışır.
 
 **Etkinleştir, sonra seç** — seçim olmadan komutu başlatın:
 
-1. `move` yazın veya araç çubuğu düğmesine basın.
+1. `Taşı` yazın veya araç çubuğu düğmesine basın.
 2. **Nesneleri seçin** — tek tek nesneleri değiştirmek için tıklayın veya kutu seçimi için sürükleyin.
 3. Seçimi onaylamak için **Enter** veya **Boşluk** tuşuna basın.
 4. **Temel noktayı tıklayın**, ardından **hedef noktayı tıklayın** (her iki adımda koordinat girişi kullanılabilir).

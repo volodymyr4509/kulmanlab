@@ -8,11 +8,11 @@ order: 3
 
 # LeaderRemove
 
-Perintah `LeaderRemove` menghapus satu lengan kepala panah dari multileader yang ada. Label teks, dogleg, dan semua lengan yang tersisa dipertahankan — hanya lengan yang dipilih yang dihapus. Multileader dengan hanya satu lengan tidak dapat dihapus lengannya.
+Perintah `PenunjukHapus` menghapus satu lengan kepala panah dari multileader yang ada. Label teks, dogleg, dan semua lengan yang tersisa dipertahankan — hanya lengan yang dipilih yang dihapus. Multileader dengan hanya satu lengan tidak dapat dihapus lengannya.
 
 ## Menghapus lengan
 
-1. Ketik `LeaderRemove` di terminal.
+1. Ketik `PenunjukHapus` di terminal.
 2. **Klik multileader** yang memiliki dua atau lebih lengan. Jika leader yang diklik hanya memiliki satu lengan, terminal menampilkan error dan menunggu seleksi yang valid.
 3. **Gerakkan kursor dekat lengan** yang ingin dihapus — lengan terdekat disorot dengan penanda.
 4. **Klik** untuk menghapus lengan tersebut.

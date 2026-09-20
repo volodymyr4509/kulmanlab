@@ -8,11 +8,11 @@ order: 4
 
 # Hatch Manager
 
-Umarnin `HatchManager` yana bude akwatin tattaunawa don bincika pattern na hatch tare da preview na swatch kai tsaye, da kuma loda fayilolin pattern na `.pat` naka don amfani da su tare da [Hatch](../hatch/).
+Umarnin `SarrafaSalo` yana bude akwatin tattaunawa don bincika pattern na hatch tare da preview na swatch kai tsaye, da kuma loda fayilolin pattern na `.pat` naka don amfani da su tare da [Hatch](../hatch/).
 
 ## Buɗe Hatch Manager
 
-Rubuta `HatchManager` a cikin terminal. Wannan ya bambanta da mai zaben pattern da ke bude idan ka danna chip na **Pattern** na hatch — mai zaben yana zaben pattern don hatch daya, Hatch Manager shine inda kake kara ko cire fayilolin `.pat`.
+Rubuta `SarrafaSalo` a cikin terminal. Wannan ya bambanta da mai zaben pattern da ke bude idan ka danna chip na **Pattern** na hatch — mai zaben yana zaben pattern don hatch daya, Hatch Manager shine inda kake kara ko cire fayilolin `.pat`.
 
 ## Rukunin Pattern
 

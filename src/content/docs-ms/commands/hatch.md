@@ -8,11 +8,11 @@ order: 7
 
 # Hatch
 
-Arahan `hatch` mengisi rantau yang mengelilingi titik yang diklik dengan corak. Sempadan tidak dilukis dahulu — ia berasal daripada apa yang sudah ada pada kanvas, jadi empat [Line](../line/) berasingan yang bertemu hujung ke hujung mengelilingi rantau tepat seperti [Polyline](../polyline/) tertutup, dan sebarang bentuk tertutup di dalamnya menjadi pulau yang tidak disentuh oleh isian.
+Arahan `Lorek` mengisi rantau yang mengelilingi titik yang diklik dengan corak. Sempadan tidak dilukis dahulu — ia berasal daripada apa yang sudah ada pada kanvas, jadi empat [Line](../line/) berasingan yang bertemu hujung ke hujung mengelilingi rantau tepat seperti [Polyline](../polyline/) tertutup, dan sebarang bentuk tertutup di dalamnya menjadi pulau yang tidak disentuh oleh isian.
 
 ## Mengisi Kawasan
 
-1. Taip `hatch` dalam terminal atau klik butang **Hatch** pada bar alat (ikon swatch).
+1. Taip `Lorek` dalam terminal atau klik butang **Hatch** pada bar alat (ikon swatch).
 2. **Klik satu titik** di dalam rantau yang anda ingin isi.
 3. Arahan kekal aktif, jadi teruskan mengklik untuk mengisi lebih banyak kawasan — setiap klik mencipta entiti `Hatch` tersendiri.
 4. Tekan **Enter**, **Space**, atau **Escape** apabila selesai.
@@ -69,7 +69,7 @@ Setiap hatch baharu bermula diisi dengan `ANSI31` (atau corak apa sahaja yang di
 1. Pilih hatch sedia ada dan buka medan **Pattern**-nya dalam panel sifat — ini membuka pemilih corak, grid swatch bernama yang dikumpulkan mengikut asal setiap corak.
 2. Klik corak untuk menggunakannya — isian dikemas kini serta-merta.
 
-Pilihan itu juga menjadi lalai untuk hatch *seterusnya* yang anda cipta dengan arahan `hatch`, dengan cara yang sama seperti memilih lapisan atau warna dibawa ke hadapan. Jadi untuk hatch beberapa kawasan baharu dengan corak tertentu: isi satu kawasan, tetapkan coraknya sekali, kemudian teruskan hatch — setiap isian selepas itu bermula dengan corak tersebut sudah digunakan.
+Pilihan itu juga menjadi lalai untuk hatch *seterusnya* yang anda cipta dengan arahan `Lorek`, dengan cara yang sama seperti memilih lapisan atau warna dibawa ke hadapan. Jadi untuk hatch beberapa kawasan baharu dengan corak tertentu: isi satu kawasan, tetapkan coraknya sekali, kemudian teruskan hatch — setiap isian selepas itu bermula dengan corak tersebut sudah digunakan.
 
 Lihat [Hatch Manager](../hatch-manager/) untuk memuat naik fail corak `.pat` anda sendiri dan menyemak imbas keseluruhan pustaka.
 

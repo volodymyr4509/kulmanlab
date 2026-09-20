@@ -8,11 +8,11 @@ order: 3
 
 # PageManager
 
-Het `PageManager`-commando opent het dialoogvenster voor pagina-instellingen van de actieve layout, waarmee u het papierformaat, de oriëntatie en de schaal tussen tekeneenheden en millimeters kunt wijzigen.
+Het `Paginabeheer`-commando opent het dialoogvenster voor pagina-instellingen van de actieve layout, waarmee u het papierformaat, de oriëntatie en de schaal tussen tekeneenheden en millimeters kunt wijzigen.
 
 ## De Page Manager openen
 
-- Typ `PageManager` in de terminal, **of**
+- Typ `Paginabeheer` in de terminal, **of**
 - Klik met de rechtermuisknop op een layouttab onderaan en kies **Page Manager**.
 
 ## Instellingen

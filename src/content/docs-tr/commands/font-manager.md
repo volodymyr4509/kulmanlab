@@ -8,11 +8,11 @@ order: 2
 
 # Font Manager
 
-`FontManager` komutu, [Text](../text/) ve [Multileader](../leader/) nesnelerinde kullanmak üzere yazı tiplerine göz atıp seçmek ve kendi `.ttf` dosyalarınızı yüklemek için bir iletişim kutusu açar.
+`YazıTipiYöneticisi` komutu, [Text](../text/) ve [Multileader](../leader/) nesnelerinde kullanmak üzere yazı tiplerine göz atıp seçmek ve kendi `.ttf` dosyalarınızı yüklemek için bir iletişim kutusu açar.
 
 ## Font Manager'ı Açma
 
-- Terminale `FontManager` yazın, **veya**
+- Terminale `YazıTipiYöneticisi` yazın, **veya**
 - [Metin düzenleyici](../../interface/text-editor/) araç çubuğundaki **Font Manager** düğmesine tıklayın.
 
 ## Yazı Tipi Grupları
@@ -28,7 +28,7 @@ order: 2
 
 ## Özel Yazı Tipi Yükleme
 
-1. İletişim kutusunun altındaki **Add Font** düğmesine tıklayın (veya dosya seçiciyi doğrudan açmak için terminale [`FontAdd`](../font-add/) yazın).
+1. İletişim kutusunun altındaki **Add Font** düğmesine tıklayın (veya dosya seçiciyi doğrudan açmak için terminale [`YazıTipiEkle`](../font-add/) yazın).
 2. Bir `.ttf` dosyası seçin. Yalnızca TrueType yazı tipleri desteklenir — `.otf` ve `.woff`/`.woff2` desteklenmez.
 3. Dosya adı (uzantısı olmadan) **User** grubunda yazı tipinin adı olur. Örneğin, `MyFont.ttf` dosyasını yüklemek `MyFont` adlı bir yazı tipi ekler.
 

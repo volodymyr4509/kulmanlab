@@ -8,11 +8,11 @@ order: 3
 
 # Zoom Out
 
-Der `zoomout`-Befehl teilt die aktuelle Zoomstufe durch **1,5×** (entspricht einer Multiplikation mit ~0,667) und beendet sich sofort, zentriert auf den Viewport-Mittelpunkt. Er ist das Gegenteil von [Zoom In](../zoom-in/).
+Der `Verkleinern`-Befehl teilt die aktuelle Zoomstufe durch **1,5×** (entspricht einer Multiplikation mit ~0,667) und beendet sich sofort, zentriert auf den Viewport-Mittelpunkt. Er ist das Gegenteil von [Zoom In](../zoom-in/).
 
 ## Herauszoomen
 
-Klicken Sie auf die **Zoom Out**-Schaltfläche in der Werkzeugleiste oder geben Sie `zoomout` im Terminal ein. Der Zoom wird sofort angewendet und der Befehl beendet — kein Klicken auf die Zeichenfläche erforderlich.
+Klicken Sie auf die **Zoom Out**-Schaltfläche in der Werkzeugleiste oder geben Sie `Verkleinern` im Terminal ein. Der Zoom wird sofort angewendet und der Befehl beendet — kein Klicken auf die Zeichenfläche erforderlich.
 
 ## Wie der 1,5×-Schritt funktioniert
 

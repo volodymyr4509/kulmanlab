@@ -8,11 +8,11 @@ order: 8
 
 # Spline CV
 
-Komento `splinecv` piirtää **kuutiollisen B-splinen** sijoittamalla ohjauspisteitä (CV:t). Tuloksena oleva käyrä vetäytyy kohti kutakin CV:tä, mutta ei kulje niiden kautta — paitsi aivan ensimmäisessä ja viimeisessä kärjessä, joissa **kiinnitetyt solmut** ankkuroivat käyrän tarkasti. Tämä antaa intuitiivisen muotokontrollin: vedä kärkeä työntääksesi käyrää sitä kohti pakottamatta sitä koskettamaan jokaista pistettä.
+Komento `SpliniOhjauspisteet` piirtää **kuutiollisen B-splinen** sijoittamalla ohjauspisteitä (CV:t). Tuloksena oleva käyrä vetäytyy kohti kutakin CV:tä, mutta ei kulje niiden kautta — paitsi aivan ensimmäisessä ja viimeisessä kärjessä, joissa **kiinnitetyt solmut** ankkuroivat käyrän tarkasti. Tämä antaa intuitiivisen muotokontrollin: vedä kärkeä työntääksesi käyrää sitä kohti pakottamatta sitä koskettamaan jokaista pistettä.
 
 ## Splinen piirtäminen ohjauspisteillä
 
-1. Kirjoita `splinecv` terminaaliin tai napsauta **Spline CV**-painiketta työkalurivillä.
+1. Kirjoita `SpliniOhjauspisteet` terminaaliin tai napsauta **Spline CV**-painiketta työkalurivillä.
 2. **Napsauta sijoittaaksesi ohjauspisteitä** — jokainen napsautus lisää kärjen. Tai kirjoita `X,Y` ja paina **Enter** tarkkaa koordinaattia varten.
 3. Paina **Enter** tai **Space** viimeistelläksesi (vähintään 2 kärkeä vaaditaan).
 

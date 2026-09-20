@@ -8,17 +8,17 @@ order: 1
 
 # Match Properties
 
-Amri ya `MatchProperties` hunakili **sifa za kuona na safu** kutoka kwa kipengele cha chanzo hadi vipengele moja au zaidi vya lengwa. Sifa pekee zinazoshirikiwa kati ya aina za vipengele vya chanzo na lengwa huhamishiwa — jiometri haibadiliki kamwe.
+Amri ya `NakiliSifa` hunakili **sifa za kuona na safu** kutoka kwa kipengele cha chanzo hadi vipengele moja au zaidi vya lengwa. Sifa pekee zinazoshirikiwa kati ya aina za vipengele vya chanzo na lengwa huhamishiwa — jiometri haibadiliki kamwe.
 
 ## Jinsi ya kuanzisha
 
-Bonyeza kitufe cha upau wa zana cha **Match Properties** (aikoni ya rolari ya rangi) kwenye paneli ya Mtindo, au andika `MatchProperties` kwenye terminal.
+Bonyeza kitufe cha upau wa zana cha **Match Properties** (aikoni ya rolari ya rangi) kwenye paneli ya Mtindo, au andika `NakiliSifa` kwenye terminal.
 
 ## Mtiririko wa kazi
 
 **Anzisha kwanza, kisha chagua chanzo:**
 
-1. Andika `MatchProperties` au bonyeza kitufe cha upau wa zana bila chochote kilichochaguliwa awali.
+1. Andika `NakiliSifa` au bonyeza kitufe cha upau wa zana bila chochote kilichochaguliwa awali.
 2. **Bonyeza kipengele cha chanzo** — kile ambacho sifa zake unataka kunakili.
 3. **Bonyeza kila kipengele cha lengwa** kutumia sifa za chanzo. Unaweza kubonyeza vipengele vingi moja baada ya jingine.
 4. Kutumia kwa kikundi kimoja kwa wakati mmoja, **buruta sanduku la uteuzi** juu ya vitu vya lengwa.
@@ -27,7 +27,7 @@ Bonyeza kitufe cha upau wa zana cha **Match Properties** (aikoni ya rolari ya ra
 **Chagua chanzo kwanza, kisha anzisha:**
 
 1. Bonyeza kipengele kimoja kukichagua.
-2. Anzisha `MatchProperties`. Kipengele kilichochaguliwa kinatumika kama chanzo kiotomatiki.
+2. Anzisha `NakiliSifa`. Kipengele kilichochaguliwa kinatumika kama chanzo kiotomatiki.
 3. Bonyeza vipengele vya lengwa au chagua kwa kuburuta, kisha **Enter** au **Escape** kumaliza.
 
 ## Sifa zinazonakiliwa

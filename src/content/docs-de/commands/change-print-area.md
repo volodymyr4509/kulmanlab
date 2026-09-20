@@ -8,11 +8,11 @@ order: 5
 
 # ChangePrintArea
 
-Der Befehl `ChangePrintArea` legt den rechteckigen Bereich fest, den der [Druck-Manager](../print-manager/) exportiert. Er läuft auf der leeren Zeichenfläche bei ausgeblendetem Druck-Manager und nimmt zwei gegenüberliegende Ecken entgegen — dieselben zwei Klicks wie [Rectangle](../rectangle/), sodass getippte Koordinaten und Fangen sich genau so verhalten wie dort.
+Der Befehl `DruckbereichÄndern` legt den rechteckigen Bereich fest, den der [Druck-Manager](../print-manager/) exportiert. Er läuft auf der leeren Zeichenfläche bei ausgeblendetem Druck-Manager und nimmt zwei gegenüberliegende Ecken entgegen — dieselben zwei Klicks wie [Rectangle](../rectangle/), sodass getippte Koordinaten und Fangen sich genau so verhalten wie dort.
 
 ## Einen Bereich auswählen
 
-1. Geben Sie `ChangePrintArea` im Terminal ein oder klicken Sie in der Seitenleiste des Druck-Managers auf **Change Area**. Der Druck-Manager wird ausgeblendet und die Zeichenfläche wird interaktiv.
+1. Geben Sie `DruckbereichÄndern` im Terminal ein oder klicken Sie in der Seitenleiste des Druck-Managers auf **Change Area**. Der Druck-Manager wird ausgeblendet und die Zeichenfläche wird interaktiv.
 2. **Klicken Sie auf die erste Ecke** oder geben Sie `X,Y` ein und drücken Sie **Enter** für eine exakte Koordinate.
 3. **Klicken Sie auf die gegenüberliegende Ecke** oder geben Sie erneut `X,Y` ein.
 

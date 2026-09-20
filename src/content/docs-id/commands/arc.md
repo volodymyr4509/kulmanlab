@@ -8,11 +8,11 @@ order: 5
 
 # Arc
 
-Perintah `arc` menggambar busur melingkar melalui tiga titik yang Anda klik. Busur dihitung sebagai lingkaran luar unik yang melewati ketiga titik — tidak perlu menentukan pusat atau radius secara langsung. Busur berjalan dari klik pertama ke klik ketiga, melewati yang kedua.
+Perintah `Busur` menggambar busur melingkar melalui tiga titik yang Anda klik. Busur dihitung sebagai lingkaran luar unik yang melewati ketiga titik — tidak perlu menentukan pusat atau radius secara langsung. Busur berjalan dari klik pertama ke klik ketiga, melewati yang kedua.
 
 ## Menggambar busur
 
-1. Ketik `arc` di terminal atau klik tombol toolbar **Arc**.
+1. Ketik `Busur` di terminal atau klik tombol toolbar **Arc**.
 2. **Klik titik pertama** — salah satu ujung busur. Atau ketik `X,Y` dan tekan **Enter** untuk koordinat tepat.
 3. **Klik titik kedua** — titik yang harus dilewati busur (mengontrol kelengkungan dan arah). Entri koordinat juga berfungsi di sini.
 4. **Klik titik ketiga** — ujung lain busur. Busur ditempatkan dan perintah keluar. Entri koordinat juga berfungsi di sini.

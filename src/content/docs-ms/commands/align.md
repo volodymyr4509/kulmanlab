@@ -8,14 +8,14 @@ order: 6
 
 # Align
 
-Arahan `align` meletakkan semula entiti yang dipilih menggunakan satu atau dua pasang titik sumber/destinasi. Dengan satu pasang, ia berkelakuan sama seperti [Move](../move/) (pergerakan sahaja). Dengan dua pasang, ia turut memutar pemilihan supaya arah sumber-ke-sumber sepadan dengan arah destinasi-ke-destinasi, dan boleh secara pilihan menskalakannya supaya panjang segmen sumber sepadan dengan panjang segmen destinasi — pergerakan, putaran, dan skala dalam satu operasi.
+Arahan `Jajarkan` meletakkan semula entiti yang dipilih menggunakan satu atau dua pasang titik sumber/destinasi. Dengan satu pasang, ia berkelakuan sama seperti [Move](../move/) (pergerakan sahaja). Dengan dua pasang, ia turut memutar pemilihan supaya arah sumber-ke-sumber sepadan dengan arah destinasi-ke-destinasi, dan boleh secara pilihan menskalakannya supaya panjang segmen sumber sepadan dengan panjang segmen destinasi — pergerakan, putaran, dan skala dalam satu operasi.
 
 ## Dua cara untuk memulakan
 
 **Pra-pilih, kemudian jajarkan** — pilih entiti dahulu, kemudian aktifkan:
 
 1. Pilih satu atau lebih entiti pada kanvas.
-2. Taip `align` dalam terminal atau klik butang bar alat **Align**.
+2. Taip `Jajarkan` dalam terminal atau klik butang bar alat **Align**.
 3. **Klik titik sumber pertama (S1)**, kemudian **klik titik destinasi pertama (D1)**.
 4. **Klik titik sumber kedua (S2)**, atau tekan **Enter** atau **Space** untuk terus menggunakan penjajaran pergerakan sahaja.
 5. **Klik titik destinasi kedua (D2)**.
@@ -23,7 +23,7 @@ Arahan `align` meletakkan semula entiti yang dipilih menggunakan satu atau dua p
 
 **Aktifkan, kemudian pilih** — mulakan arahan tanpa apa-apa yang dipilih:
 
-1. Taip `align` atau klik butang bar alat.
+1. Taip `Jajarkan` atau klik butang bar alat.
 2. **Pilih objek** — klik untuk togel entiti individu, atau seret untuk memilih mengikut kawasan.
 3. Tekan **Enter** atau **Space** untuk mengesahkan pemilihan.
 4. Teruskan dengan S1 → D1 → S2 → D2 → gesaan skala seperti di atas.
@@ -97,4 +97,4 @@ Entiti yang dijajarkan kekal dipilih di kedudukan baru, dan arahan berakhir seca
 
 ## Entiti yang disokong
 
-Align berfungsi pada setiap jenis entiti yang disokong oleh Move, Rotate, dan Scale — operasi `translate`, `rotate`, dan `scale` yang sama yang digunakan arahan-arahan tersebut digunakan secara berurutan, jadi tiada yang dikecualikan.
+Align berfungsi pada setiap jenis entiti yang disokong oleh Move, Rotate, dan Scale — operasi `translate`, `Putar`, dan `Skala` yang sama yang digunakan arahan-arahan tersebut digunakan secara berurutan, jadi tiada yang dikecualikan.

@@ -8,11 +8,11 @@ order: 4
 
 # Print Manager
 
-Binubuksan ng `PrintManager` command ang **Print Manager** — isang dedikadong export window na may live preview canvas, format selector (PNG / JPEG / WebP / PDF), isang Style selector (Default / Monochrome / Blueprint), at opsyonal na area crop. Walang ipinapadala sa physical printer; ang output ay ida-download bilang isang file.
+Binubuksan ng `TagapamahalaNgPrint` command ang **Print Manager** — isang dedikadong export window na may live preview canvas, format selector (PNG / JPEG / WebP / PDF), isang Style selector (Default / Monochrome / Blueprint), at opsyonal na area crop. Walang ipinapadala sa physical printer; ang output ay ida-download bilang isang file.
 
 ## Pagbukas ng Print Manager
 
-I-click ang **Print** toolbar button o i-type ang `PrintManager` sa terminal. Agad na magbubukas ang Print Manager na nagpapakita ng preview ng kasalukuyang viewport.
+I-click ang **Print** toolbar button o i-type ang `TagapamahalaNgPrint` sa terminal. Agad na magbubukas ang Print Manager na nagpapakita ng preview ng kasalukuyang viewport.
 
 Ang preview ay nire-render sa eksaktong parehong code path, sa eksaktong parehong pixel resolution, gaya ng file na sa huli ay i-e-export mo — ang pagbabago ng Quality, Style, o export area ay agad na nagre-render ulit ng preview, kaya ang nakikita mo ay ang mismong ida-download, hindi lang tantiya nito.
 

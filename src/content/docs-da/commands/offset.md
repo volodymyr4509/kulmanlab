@@ -8,13 +8,13 @@ order: 10
 
 # Offset
 
-Kommandoen `offset` opretter en parallel kopi af en entitet i en fast vinkelret afstand. Du indtaster afstanden én gang, klikker derefter entiteter og vælger en side — kommandoen forbliver klar med samme afstand, så du kan forskyde flere objekter i én session.
+Kommandoen `Forskyd` opretter en parallel kopi af en entitet i en fast vinkelret afstand. Du indtaster afstanden én gang, klikker derefter entiteter og vælger en side — kommandoen forbliver klar med samme afstand, så du kan forskyde flere objekter i én session.
 
 Understøttede entitetstyper: **Line, Circle, Arc, Ellipse, Polyline** (inklusive Rectangles).
 
 ## Bruge offset
 
-1. Skriv `offset` i terminalen eller klik på **Offset**-knappen i værktøjslinjen.
+1. Skriv `Forskyd` i terminalen eller klik på **Offset**-knappen i værktøjslinjen.
 2. **Indtast offset-afstanden** og tryk **Enter** eller **Space**.
 3. **Klik en entitet** for at forskyde — hvis entiteten ikke er en understøttet type, vises en fejlmeddelelse, og du kan klikke en anden entitet.
 4. **Flyt markøren** til den side, hvor kopien skal vises — en levende forhåndsvisning følger med.

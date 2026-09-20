@@ -8,7 +8,7 @@ order: 7
 
 # Wipe Storage
 
-Komento `wipestorage` poistaa pysyvästi **kaikki KulmanLab CAD:in selaimeen tallentamat tiedot** — jokaisen tallennetun tiedoston, taso- ja linetype-taulukon, sekä kumoushistorian. Sivu latautuu automaattisesti uudelleen tämän jälkeen.
+Komento `TyhjennäTallennustila` poistaa pysyvästi **kaikki KulmanLab CAD:in selaimeen tallentamat tiedot** — jokaisen tallennetun tiedoston, taso- ja linetype-taulukon, sekä kumoushistorian. Sivu latautuu automaattisesti uudelleen tämän jälkeen.
 
 :::danger Peruuttamaton
 Tätä toimintoa ei voi kumota. Kaikki selaimeen tallennetut tiedostot poistetaan. Vie kaikki säilytettävät piirustukset `.json`- tai `.dxf`-tiedostoina ennen tämän komennon ajamista.
@@ -22,7 +22,7 @@ Tätä toimintoa ei voi kumota. Kaikki selaimeen tallennetut tiedostot poistetaa
 
 ## Näin ajat sen
 
-1. Kirjoita `wipestorage` terminaaliin ja paina **Enter**.
+1. Kirjoita `TyhjennäTallennustila` terminaaliin ja paina **Enter**.
 2. Terminaali kysyy: *Wipe all browser local storage? Type YES to confirm*
 3. Kirjoita `YES` (mikä tahansa kirjainkoko) ja paina **Enter**.
 

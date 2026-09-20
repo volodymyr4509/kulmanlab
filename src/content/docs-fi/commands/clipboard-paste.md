@@ -8,11 +8,11 @@ order: 18
 
 # ClipboardPaste
 
-`ClipboardPaste`-komento lukee objektit, jotka [ClipboardCopy](../clipboard-copy/) kirjoitti **järjestelmän leikepöydälle**, ja sijoittaa ne nykyiseen piirustukseen valitsemaasi pisteeseen. Koska leikepöytä on järjestelmän oikea leikepöytä, lähde voi olla toinen piirustus, toinen selaimen välilehti tai aiemmin samana päivänä avattu istunto.
+`LiitäLeikepöydältä`-komento lukee objektit, jotka [ClipboardCopy](../clipboard-copy/) kirjoitti **järjestelmän leikepöydälle**, ja sijoittaa ne nykyiseen piirustukseen valitsemaasi pisteeseen. Koska leikepöytä on järjestelmän oikea leikepöytä, lähde voi olla toinen piirustus, toinen selaimen välilehti tai aiemmin samana päivänä avattu istunto.
 
 ## Näin liität
 
-1. Paina `Ctrl+V` (macOS:ssä `Cmd+V`) tai kirjoita `ClipboardPaste` päätteeseen.
+1. Paina `Ctrl+V` (macOS:ssä `Cmd+V`) tai kirjoita `LiitäLeikepöydältä` päätteeseen.
 2. Kehote näyttää **reading clipboard…**, kun selain luovuttaa leikepöydän tekstin.
 3. Latauksen jälkeen kehote vaihtuu muotoon **pick insertion point**, ja geometrian esikatselu seuraa osoitinta.
 4. **Napsauta** sijoittaaksesi objektit. Ne lisätään piirustukseen ja jäävät valituiksi.

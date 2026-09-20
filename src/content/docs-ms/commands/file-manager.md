@@ -8,11 +8,11 @@ order: 3
 
 # File Manager
 
-Arahan `FileManager` membuka **grid thumbnail** bagi setiap lukisan yang telah disimpan ke storan tempatan pelayar anda, disusun mengikut masa ia terakhir disimpan. Gunakannya untuk membuka semula lukisan sebelumnya, menamakannya semula, atau memadamkannya.
+Arahan `PengurusFail` membuka **grid thumbnail** bagi setiap lukisan yang telah disimpan ke storan tempatan pelayar anda, disusun mengikut masa ia terakhir disimpan. Gunakannya untuk membuka semula lukisan sebelumnya, menamakannya semula, atau memadamkannya.
 
 ## Membuka File Manager
 
-- Taip `FileManager` dalam terminal, **atau**
+- Taip `PengurusFail` dalam terminal, **atau**
 - Klik butang bar alat **File Manager** (ikon sejarah) dalam panel Fail di bahagian atas skrin.
 
 Panel terbuka di sebelah kiri kanvas, dan tertutup secara automatik sebaik sahaja anda memulakan arahan lain atau [mengimport](../import/) sesuatu fail — jadi ia tidak pernah berlengah-lengah di atas lukisan yang belum lagi disenaraikannya. Ia dibuka semula dengan senarai terkini setiap kali.

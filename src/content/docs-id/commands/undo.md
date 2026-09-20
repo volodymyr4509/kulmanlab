@@ -8,11 +8,11 @@ order: 13
 
 # Undo
 
-Perintah `undo` membalik perubahan terakhir pada gambar — satu langkah per pemanggilan. Setiap penambahan, penghapusan, atau pengeditan entitas dicatat sebagai entri riwayat terpisah. Undo mundur melalui entri-entri ini dalam urutan terbalik.
+Perintah `BatalkanAksi` membalik perubahan terakhir pada gambar — satu langkah per pemanggilan. Setiap penambahan, penghapusan, atau pengeditan entitas dicatat sebagai entri riwayat terpisah. Undo mundur melalui entri-entri ini dalam urutan terbalik.
 
 ## Cara membatalkan
 
-- Ketik `undo` di terminal, atau
+- Ketik `BatalkanAksi` di terminal, atau
 - Klik tombol toolbar **Undo**.
 
 Setiap pemanggilan membalik satu aksi yang dicatat. Panggil berulang kali untuk mundur lebih jauh.

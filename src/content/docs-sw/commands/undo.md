@@ -8,11 +8,11 @@ order: 13
 
 # Undo
 
-Amri ya `undo` hubatilisha mabadiliko ya mwisho kwenye mchoro — hatua moja kwa kila mwito. Kila ongezeko, ufutaji, au uhariri wa vipande hurekodiwa kama ingizo tofauti la historia. Undo husogea nyuma kupitia maingizo haya kwa mpangilio wa nyuma.
+Amri ya `Tendua` hubatilisha mabadiliko ya mwisho kwenye mchoro — hatua moja kwa kila mwito. Kila ongezeko, ufutaji, au uhariri wa vipande hurekodiwa kama ingizo tofauti la historia. Undo husogea nyuma kupitia maingizo haya kwa mpangilio wa nyuma.
 
 ## Jinsi ya kufuta
 
-- Andika `undo` kwenye terminal, au
+- Andika `Tendua` kwenye terminal, au
 - Bonyeza kitufe cha **Undo** kwenye upau wa zana.
 
 Kila mwito hubatilisha kitendo kimoja kilichorekodiwa. Iita mara kwa mara kusogea nyuma zaidi.

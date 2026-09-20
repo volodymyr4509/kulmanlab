@@ -8,11 +8,11 @@ order: 18
 
 # ClipboardPaste
 
-De opdracht `ClipboardPaste` leest de entiteiten die [ClipboardCopy](../clipboard-copy/) naar het **systeemklembord** heeft geschreven en plaatst ze in de huidige tekening op een punt dat jij kiest. Omdat het klembord het echte systeemklembord is, kan de bron een andere tekening zijn, een ander browsertabblad of een sessie van eerder op de dag.
+De opdracht `PlakkenUitKlembord` leest de entiteiten die [ClipboardCopy](../clipboard-copy/) naar het **systeemklembord** heeft geschreven en plaatst ze in de huidige tekening op een punt dat jij kiest. Omdat het klembord het echte systeemklembord is, kan de bron een andere tekening zijn, een ander browsertabblad of een sessie van eerder op de dag.
 
 ## Hoe je plakt
 
-1. Druk op `Ctrl+V` (`Cmd+V` op macOS), of typ `ClipboardPaste` in de terminal.
+1. Druk op `Ctrl+V` (`Cmd+V` op macOS), of typ `PlakkenUitKlembord` in de terminal.
 2. De prompt toont **reading clipboard…** terwijl de browser de klembordtekst overdraagt.
 3. Zodra die geladen is verandert de prompt in **pick insertion point** en volgt een voorbeeld van de geometrie je cursor.
 4. **Klik** om de entiteiten te plaatsen. Ze worden aan de tekening toegevoegd en blijven geselecteerd.

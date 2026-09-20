@@ -8,11 +8,11 @@ order: 3
 
 # PageManager
 
-Komento `PageManager` avaa sivuasetusten valintaikkunan aktiiviselle asettelulle, jonka avulla voit muuttaa paperimuotoa, suuntaa ja mittakaavaa piirustusyksiköiden ja millimetrien välillä.
+Komento `Sivujenhallinta` avaa sivuasetusten valintaikkunan aktiiviselle asettelulle, jonka avulla voit muuttaa paperimuotoa, suuntaa ja mittakaavaa piirustusyksiköiden ja millimetrien välillä.
 
 ## Page Managerin avaaminen
 
-- Kirjoita `PageManager` terminaaliin, **tai**
+- Kirjoita `Sivujenhallinta` terminaaliin, **tai**
 - Napsauta hiiren oikealla painikkeella asettelun välilehteä alareunassa ja valitse **Page Manager**.
 
 ## Asetukset

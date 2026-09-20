@@ -8,20 +8,20 @@ order: 3
 
 # LayerMatch
 
-Kommandoen `LayerMatch` tildeler laget til markerte entiteter på nytt til å samsvare med laget til en kildeentitet du klikker. Det er den raskeste måten å flytte en gruppe objekter til riktig lag på uten å åpne [Layer Manager](../layer-manager/).
+Kommandoen `LagSomKilde` tildeler laget til markerte entiteter på nytt til å samsvare med laget til en kildeentitet du klikker. Det er den raskeste måten å flytte en gruppe objekter til riktig lag på uten å åpne [Layer Manager](../layer-manager/).
 
 ## Arbeidsflyt
 
 **Marker først, deretter match**:
 
 1. Marker entitetene hvis lag du vil endre.
-2. Skriv `LayerMatch` eller klikk på **Layer Match**-knappen i verktøylinjen (malerkosteikon).
+2. Skriv `LagSomKilde` eller klikk på **Layer Match**-knappen i verktøylinjen (malerkosteikon).
 3. **Klikk kildeobjektet** — det hvis lag du vil kopiere.
 4. Alle markerte entiteter flyttes umiddelbart til kildeobjektets lag.
 
 **Aktiver, marker deretter**:
 
-1. Skriv `LayerMatch` eller klikk på verktøylinjeknappen uten noe markert.
+1. Skriv `LagSomKilde` eller klikk på verktøylinjeknappen uten noe markert.
 2. **Velg målobjekter** — klikk for å slå enkeltentiteter av/på eller dra for å markere etter område.
 3. Trykk **Enter** eller **Space** for å bekrefte markeringen.
 4. **Klikk kildeobjektet** — laget dets brukes på alle mål.

@@ -8,11 +8,11 @@ order: 5
 
 # LayerUnfreezeAll
 
-Perintah `LayerUnfreezeAll` menghapus flag beku pada **setiap layer** dalam gambar secara instan. Tidak diperlukan seleksi atau konfirmasi — perintah berjalan dan selesai dalam satu langkah.
+Perintah `LapisanCairkanSemua` menghapus flag beku pada **setiap layer** dalam gambar secara instan. Tidak diperlukan seleksi atau konfirmasi — perintah berjalan dan selesai dalam satu langkah.
 
 ## Penggunaan
 
-Ketik `LayerUnfreezeAll` di terminal atau klik tombol toolbar **Unfreeze All** (ikon matahari). Semua layer yang beku langsung menjadi terlihat.
+Ketik `LapisanCairkanSemua` di terminal atau klik tombol toolbar **Unfreeze All** (ikon matahari). Semua layer yang beku langsung menjadi terlihat.
 
 ## Kapan digunakan
 

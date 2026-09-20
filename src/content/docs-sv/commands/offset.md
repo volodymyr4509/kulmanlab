@@ -8,13 +8,13 @@ order: 10
 
 # Offset
 
-`offset`-kommandot skapar en parallell kopia av en entitet på ett fast vinkelrätt avstånd. Du skriver in avståndet en gång, klickar sedan på entiteter och väljer en sida — kommandot förblir redo med samma avstånd så att du kan offseta flera objekt under en session.
+`Förskjut`-kommandot skapar en parallell kopia av en entitet på ett fast vinkelrätt avstånd. Du skriver in avståndet en gång, klickar sedan på entiteter och väljer en sida — kommandot förblir redo med samma avstånd så att du kan offseta flera objekt under en session.
 
 Entitetstyper som stöds: **Line, Circle, Arc, Ellipse, Polyline** (inklusive rektanglar).
 
 ## Använda offset
 
-1. Skriv `offset` i terminalen eller klicka på **Offset**-knappen i verktygsfältet.
+1. Skriv `Förskjut` i terminalen eller klicka på **Offset**-knappen i verktygsfältet.
 2. **Skriv in offsetavståndet** och tryck på **Enter** eller **Space**.
 3. **Klicka på en entitet** att offseta — om entiteten inte är en typ som stöds visas ett felmeddelande och du kan klicka på en annan entitet.
 4. **Flytta markören** till den sida där kopian ska visas — en live-förhandsgranskning följer med.

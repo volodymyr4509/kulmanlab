@@ -8,20 +8,20 @@ order: 4
 
 # Mirror
 
-Komento `mirror` luo peilattuja kopioita valituista entiteeteistä heijastettuna kahden pisteen akselin yli. Alkuperäiset **säilytetään aina** — toisin kuin [Move](../move/) tai [Rotate](../rotate/), Mirror ei koskaan muuta olemassa olevia entiteettejä; se vain lisää uusia.
+Komento `Peilaa` luo peilattuja kopioita valituista entiteeteistä heijastettuna kahden pisteen akselin yli. Alkuperäiset **säilytetään aina** — toisin kuin [Move](../move/) tai [Rotate](../rotate/), Mirror ei koskaan muuta olemassa olevia entiteettejä; se vain lisää uusia.
 
 ## Kaksi tapaa aloittaa
 
 **Valitse ensin, peilaa sitten** — valitse entiteetit ensin, aktivoi sitten:
 
 1. Valitse yksi tai useampi entiteetti piirtoalueella.
-2. Kirjoita `mirror` terminaaliin tai napsauta **Mirror**-painiketta työkalurivillä.
+2. Kirjoita `Peilaa` terminaaliin tai napsauta **Mirror**-painiketta työkalurivillä.
 3. **Napsauta peiliakselin ensimmäistä pistettä**, tai kirjoita `X,Y` ja paina **Enter** tarkkaa koordinaattia varten.
 4. **Napsauta toista pistettä** — peilatut kopiot sijoitetaan ja komento päättyy. Koordinaattien syöttö toimii myös täällä.
 
 **Aktivoi, valitse sitten** — aloita komento ilman mitään valittuna:
 
-1. Kirjoita `mirror` tai napsauta työkalurivin painiketta.
+1. Kirjoita `Peilaa` tai napsauta työkalurivin painiketta.
 2. **Valitse objektit** — napsauta vaihtaaksesi, tai vedä valitaksesi alueen mukaan.
 3. Paina **Enter** tai **Space** vahvistaaksesi valinnan.
 4. **Napsauta ensimmäistä pistettä**, napsauta sitten **toista pistettä** peiliakselille (koordinaattien syöttö käytettävissä molemmissa vaiheissa).

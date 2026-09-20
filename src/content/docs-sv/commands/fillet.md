@@ -8,13 +8,13 @@ order: 11
 
 # Fillet
 
-`fillet`-kommandot rundar ett hörn mellan två [Line](../line/)-, [Arc](../arc/)- eller [Polyline](../polyline/)-segment genom att infoga en tangentiell båge med en given radie, och klipper tillbaka (eller slår ihop) de valda entiteterna till den punkten.
+`Avrunda`-kommandot rundar ett hörn mellan två [Line](../line/)-, [Arc](../arc/)- eller [Polyline](../polyline/)-segment genom att infoga en tangentiell båge med en given radie, och klipper tillbaka (eller slår ihop) de valda entiteterna till den punkten.
 
 Fillet fungerar på **Line-, Arc- och Polyline**-entiteter — inklusive en polylinjes egna raka eller bågsegment.
 
 ## Använda fillet
 
-1. Skriv `fillet` i terminalen eller klicka på **Fillet**-knappen i verktygsfältet.
+1. Skriv `Avrunda` i terminalen eller klicka på **Fillet**-knappen i verktygsfältet.
 2. **Skriv in fillet-radien** och tryck på **Enter**.
 3. **Klicka på den första linjen, bågen eller polylinjesegmentet** — den del du klickar på avgör vilken sida av en eventuell skärning som behålls.
 4. **Hovra över den andra entiteten** — en streckad bågförhandsgranskning visar den resulterande filleten. Flytta markören till den sida du vill behålla.

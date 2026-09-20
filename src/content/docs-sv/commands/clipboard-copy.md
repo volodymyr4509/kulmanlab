@@ -8,7 +8,7 @@ order: 17
 
 # ClipboardCopy
 
-Kommandot `ClipboardCopy` skriver de markerade entiteterna till ditt **systemurklipp** som JSON-text. Eftersom det använder det riktiga urklippet och inte en buffert i minnet överlever den kopierade geometrin utanför ritningen: klistra in den i en annan fil, en andra webbläsarflik eller ett fönster du öppnar senare med [ClipboardPaste](../clipboard-paste/).
+Kommandot `KopieraTillUrklipp` skriver de markerade entiteterna till ditt **systemurklipp** som JSON-text. Eftersom det använder det riktiga urklippet och inte en buffert i minnet överlever den kopierade geometrin utanför ritningen: klistra in den i en annan fil, en andra webbläsarflik eller ett fönster du öppnar senare med [ClipboardPaste](../clipboard-paste/).
 
 Det är skillnaden mot [Copy](../copy/): Copy duplicerar entiteter inuti den aktuella ritningen i ett enda grepp, medan ClipboardCopy lägger dem någonstans där de kan hämtas från en helt annan ritning.
 
@@ -17,12 +17,12 @@ Det är skillnaden mot [Copy](../copy/): Copy duplicerar entiteter inuti den akt
 **Markera först, kopiera sedan** — den snabba vägen:
 
 1. Markera en eller flera entiteter på arbetsytan.
-2. Tryck `Ctrl+C` (`Cmd+C` på macOS), eller skriv `ClipboardCopy` i terminalen.
+2. Tryck `Ctrl+C` (`Cmd+C` på macOS), eller skriv `KopieraTillUrklipp` i terminalen.
 3. Entiteterna skrivs till urklippet direkt och kommandot avslutas.
 
 **Aktivera först, markera sedan** — börja utan markering:
 
-1. Tryck `Ctrl+C` eller skriv `ClipboardCopy` med tom markering.
+1. Tryck `Ctrl+C` eller skriv `KopieraTillUrklipp` med tom markering.
 2. Prompten visar **pick objects to copy — Enter or Space to confirm**.
 3. **Markera objekt** — klicka för att växla enskilda entiteter in i eller ut ur markeringen, eller dra för att markera efter område.
 4. Tryck **Enter** eller **Space** för att kopiera markeringen och avsluta.

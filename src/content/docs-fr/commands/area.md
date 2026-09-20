@@ -8,7 +8,7 @@ order: 3
 
 # Area
 
-La commande `area` mesure l'aire délimitée et le périmètre d'un polygone défini par trois points sélectionnés ou plus, et affiche les deux résultats dans le terminal avec 4 décimales. C'est la troisième commande de mesure, aux côtés de [Distance](../distance/) (longueur en ligne droite) et [Angle](../angle/) (angle intérieur à un sommet).
+La commande `Aire` mesure l'aire délimitée et le périmètre d'un polygone défini par trois points sélectionnés ou plus, et affiche les deux résultats dans le terminal avec 4 décimales. C'est la troisième commande de mesure, aux côtés de [Distance](../distance/) (longueur en ligne droite) et [Angle](../angle/) (angle intérieur à un sommet).
 
 ## Anatomie d'une mesure d'aire
 
@@ -30,7 +30,7 @@ La commande `area` mesure l'aire délimitée et le périmètre d'un polygone dé
 
 ## Mesurer une aire
 
-1. Tapez `area` dans le terminal ou cliquez sur le bouton **Area** de la barre d'outils (rangée du bas du panneau Measure).
+1. Tapez `Aire` dans le terminal ou cliquez sur le bouton **Area** de la barre d'outils (rangée du bas du panneau Measure).
 2. **Cliquez sur le premier point**, ou tapez `X,Y` et appuyez sur **Entrée** pour une coordonnée exacte.
 3. **Cliquez sur chaque sommet supplémentaire** dans l'ordre autour de la forme. La saisie de coordonnées fonctionne à chaque étape.
 4. Une fois au moins **3 points** placés, appuyez sur **Entrée** ou **Espace** (sans saisie de coordonnée ou de distance en attente) pour fermer le polygone et calculer le résultat.
@@ -93,5 +93,5 @@ Au lieu de cliquer, tapez une position exacte pour n'importe quel sommet :
 - L'aire est calculée avec la [formule du lacet](https://fr.wikipedia.org/wiki/Formule_du_lacet) et est toujours indiquée comme une valeur positive, quel que soit l'ordre des clics.
 - Les polygones auto-intersectants (arêtes qui se croisent) produisent tout de même un résultat numérique, mais la valeur peut ne pas correspondre à la région visuellement délimitée — évitez les croisements pour une aire significative.
 - Les résultats sont affichés uniquement dans le **terminal et comme surlignage temporaire sur le canevas** — rien n'est ajouté au dessin de façon permanente.
-- Contrairement à Distance et Angle, Area n'enchaîne **pas** automatiquement une nouvelle mesure — une fois le résultat masqué, relancez `area` pour mesurer un autre polygone.
+- Contrairement à Distance et Angle, Area n'enchaîne **pas** automatiquement une nouvelle mesure — une fois le résultat masqué, relancez `Aire` pour mesurer un autre polygone.
 - La précision est toujours de 4 décimales pour l'aire et le périmètre, dans les mêmes unités que les coordonnées du dessin (sans conversion d'unités).

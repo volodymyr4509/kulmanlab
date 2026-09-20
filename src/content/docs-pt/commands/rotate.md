@@ -8,20 +8,20 @@ order: 3
 
 # Rotate
 
-O comando `rotate` gira as entidades selecionadas em torno de um ponto base. Você especifica o ângulo de rotação digitando um número em graus ou clicando — o ângulo é calculado a partir da direção entre o ponto base e a posição do clique.
+O comando `Rotacionar` gira as entidades selecionadas em torno de um ponto base. Você especifica o ângulo de rotação digitando um número em graus ou clicando — o ângulo é calculado a partir da direção entre o ponto base e a posição do clique.
 
 ## Duas formas de iniciar
 
 **Pré-selecionar, depois girar** — selecione entidades primeiro, depois ative:
 
 1. Selecione uma ou mais entidades no canvas.
-2. Digite `rotate` no terminal ou clique no botão **Rotate** na barra de ferramentas.
+2. Digite `Rotacionar` no terminal ou clique no botão **Rotate** na barra de ferramentas.
 3. **Clique no ponto base** — o centro de rotação. Ou digite `X,Y` e pressione **Enter** para uma coordenada exata.
 4. **Digite um ângulo e pressione Enter**, ou **clique** para definir o ângulo pela direção do cursor.
 
 **Ativar, depois selecionar** — inicie o comando sem nada selecionado:
 
-1. Digite `rotate` ou clique no botão da barra de ferramentas.
+1. Digite `Rotacionar` ou clique no botão da barra de ferramentas.
 2. **Selecione os objetos** — clique para alternar, ou arraste para selecionar por área.
 3. Pressione **Enter** ou **Espaço** para confirmar a seleção.
 4. **Clique no ponto base** (entrada de coordenadas disponível), depois defina o ângulo.

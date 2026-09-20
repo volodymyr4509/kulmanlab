@@ -8,11 +8,11 @@ order: 1
 
 # Pan
 
-Het `pan`-commando activeert een aanhoudende sleep-om-te-scrollen modus — klik en sleep overal op het canvas om het beeld te verschuiven. Het zoomniveau blijft ongewijzigd. De Pan-modus blijft actief totdat u op `Escape` drukt, zodat u meerdere keren kunt slepen binnen één activering.
+Het `Pannen`-commando activeert een aanhoudende sleep-om-te-scrollen modus — klik en sleep overal op het canvas om het beeld te verschuiven. Het zoomniveau blijft ongewijzigd. De Pan-modus blijft actief totdat u op `Escape` drukt, zodat u meerdere keren kunt slepen binnen één activering.
 
 ## Het beeld verschuiven
 
-1. Typ `pan` in de terminal of klik op de **Pan**-werkbalkknop.
+1. Typ `Pannen` in de terminal of klik op de **Pan**-werkbalkknop.
 2. **Klik en sleep** overal op het canvas om het beeld te verschuiven.
 3. Laat los en sleep zo vaak als nodig opnieuw.
 4. Druk op `Escape` om de pan-modus te verlaten.

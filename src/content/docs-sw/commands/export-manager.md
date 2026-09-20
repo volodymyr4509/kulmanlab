@@ -8,11 +8,11 @@ order: 6
 
 # Export Manager
 
-Amri `exportmanager` hupakua mchoro wa sasa kwenye mfumo wako wa faili. Miundo miwili iko kando kwa kando — **DXF** kwa uoanifu na zana nyingine za CAD na **JSON** kwa kuhifadhi kamili ndani ya KulmanLab CAD — na kila mmoja una orodha yake ya kitakachowekwa kwenye faili.
+Amri `KidhibitiUhamishaji` hupakua mchoro wa sasa kwenye mfumo wako wa faili. Miundo miwili iko kando kwa kando — **DXF** kwa uoanifu na zana nyingine za CAD na **JSON** kwa kuhifadhi kamili ndani ya KulmanLab CAD — na kila mmoja una orodha yake ya kitakachowekwa kwenye faili.
 
 ## Jinsi ya kuhamisha
 
-1. Bonyeza kitufe cha **Export** kwenye upau wa zana (aikoni ya kupakua) katika paneli ya faili, au andika `exportmanager` kwenye terminal.
+1. Bonyeza kitufe cha **Export** kwenye upau wa zana (aikoni ya kupakua) katika paneli ya faili, au andika `KidhibitiUhamishaji` kwenye terminal.
 2. Dirisha la **Export Manager** hufunguka likiwa na safu mbili, **JSON** na **DXF**, kila moja ikiorodhesha aina za vitu vya mchoro pamoja na kisanduku cha kutia alama na idadi.
 3. Ondoa alama kwa kile unachotaka kuacha. Mwanzoni vyote vina alama.
 4. Bofya **Export JSON** au **Export DXF**. Faili hupakuliwa kwenye folda yako ya kawaida na dirisha hufungwa.

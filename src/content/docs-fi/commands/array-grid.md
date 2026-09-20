@@ -8,14 +8,14 @@ order: 15
 
 # Array Grid
 
-Komento `ArrayGrid` luo suorakulmaisen ruudukon kopioita valituista entiteeteistä — syötä rivien määrä, sarakkeiden määrä ja niiden välinen etäisyys, kaikki kirjoitettuna terminaaliin. Alkuperäinen valinta täyttää rivin 0, sarakkeen 0 solun; jokainen muu solu on siirretty kopio.
+Komento `SuorakulmainenSarja` luo suorakulmaisen ruudukon kopioita valituista entiteeteistä — syötä rivien määrä, sarakkeiden määrä ja niiden välinen etäisyys, kaikki kirjoitettuna terminaaliin. Alkuperäinen valinta täyttää rivin 0, sarakkeen 0 solun; jokainen muu solu on siirretty kopio.
 
 ## Kaksi tapaa aloittaa
 
 **Valitse ensin, luo array sitten** — valitse entiteetit ensin, aktivoi sitten:
 
 1. Valitse yksi tai useampi entiteetti piirtoalueella.
-2. Kirjoita `arraygrid` terminaaliin (jopa `arr` riittää — se on yksiselitteinen) tai napsauta **Array Grid**-painiketta työkalurivillä.
+2. Kirjoita `SuorakulmainenSarja` terminaaliin (jopa `arr` riittää — se on yksiselitteinen) tai napsauta **Array Grid**-painiketta työkalurivillä.
 3. Kirjoita **rivien** määrä ja paina **Enter**.
 4. Kirjoita **sarakkeiden** määrä ja paina **Enter**.
 5. Kirjoita **rivien välinen etäisyys** ja paina **Enter**.
@@ -23,7 +23,7 @@ Komento `ArrayGrid` luo suorakulmaisen ruudukon kopioita valituista entiteeteist
 
 **Aktivoi, valitse sitten** — aloita komento ilman mitään valittuna:
 
-1. Kirjoita `arraygrid` tai napsauta työkalurivin painiketta.
+1. Kirjoita `SuorakulmainenSarja` tai napsauta työkalurivin painiketta.
 2. **Valitse objektit** — napsauta vaihtaaksesi yksittäisiä entiteettejä, tai vedä valitaksesi alueen mukaan.
 3. Paina **Enter** tai **Space** vahvistaaksesi valinnan.
 4. Jatka rivit → sarakkeet → rivien väli → sarakkeiden väli kuten yllä.

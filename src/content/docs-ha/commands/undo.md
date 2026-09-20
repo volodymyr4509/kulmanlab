@@ -8,11 +8,11 @@ order: 13
 
 # Undo
 
-Umarnin `undo` yana juya canjin ƙarshe zuwa zanen — mataki ɗaya ga kowace kunnawa. Ana rikoda kowace ƙarawa, sharewa, ko gyara na abubuwa a matsayin shigarwa ta tarihi daban. Undo tana matakai baya ta cikin waɗannan shigarwar a tsari mai juyawa.
+Umarnin `Soke` yana juya canjin ƙarshe zuwa zanen — mataki ɗaya ga kowace kunnawa. Ana rikoda kowace ƙarawa, sharewa, ko gyara na abubuwa a matsayin shigarwa ta tarihi daban. Undo tana matakai baya ta cikin waɗannan shigarwar a tsari mai juyawa.
 
 ## Yadda za a yi undo
 
-- Rubuta `undo` a tashar umarni, ko
+- Rubuta `Soke` a tashar umarni, ko
 - Danna maɓallin kayan aiki na **Undo**.
 
 Kowace kunnawa yana juya aiki ɗaya da aka rikoda. Kunna shi sau da yawa don matsawa baya ƙari.

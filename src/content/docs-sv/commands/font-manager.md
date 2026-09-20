@@ -8,11 +8,11 @@ order: 2
 
 # Font Manager
 
-`FontManager`-kommandot öppnar en dialogruta för att bläddra bland och välja typsnitt, samt för att ladda upp dina egna `.ttf`-filer för användning i [Text](../text/)- och [Multileader](../leader/)-entiteter.
+`Teckensnittshanterare`-kommandot öppnar en dialogruta för att bläddra bland och välja typsnitt, samt för att ladda upp dina egna `.ttf`-filer för användning i [Text](../text/)- och [Multileader](../leader/)-entiteter.
 
 ## Öppna Font Manager
 
-- Skriv `FontManager` i terminalen, **eller**
+- Skriv `Teckensnittshanterare` i terminalen, **eller**
 - Klicka på knappen **Font Manager** i verktygsfältet för [texteditorn](../../interface/text-editor/).
 
 ## Typsnittsgrupper
@@ -28,7 +28,7 @@ Klicka på valfritt typsnitt i listan för att förhandsgranska det till höger 
 
 ## Ladda upp ett anpassat typsnitt
 
-1. Klicka på **Add Font** i dialogrutans sidfot (eller skriv [`FontAdd`](../font-add/) i terminalen för att öppna filväljaren direkt).
+1. Klicka på **Add Font** i dialogrutans sidfot (eller skriv [`LäggTillTeckensnitt`](../font-add/) i terminalen för att öppna filväljaren direkt).
 2. Välj en `.ttf`-fil. Endast TrueType-typsnitt stöds — `.otf` och `.woff`/`.woff2` stöds inte.
 3. Filnamnet (utan filändelsen) blir typsnittets namn i gruppen **User**. Att till exempel ladda upp `MyFont.ttf` lägger till ett typsnitt med namnet `MyFont`.
 

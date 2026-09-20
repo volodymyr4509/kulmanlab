@@ -8,11 +8,11 @@ order: 13
 
 # Undo
 
-Kommandoen `undo` reverserer den siste endringen i tegningen — ett steg per kalling. Hver tilføyelse, sletting eller redigering av entiteter registreres som en egen historikkoppføring. Undo går bakover gjennom disse oppføringene i omvendt rekkefølge.
+Kommandoen `Angre` reverserer den siste endringen i tegningen — ett steg per kalling. Hver tilføyelse, sletting eller redigering av entiteter registreres som en egen historikkoppføring. Undo går bakover gjennom disse oppføringene i omvendt rekkefølge.
 
 ## Slik angrer du
 
-- Skriv `undo` i terminalen, eller
+- Skriv `Angre` i terminalen, eller
 - Klikk på **Undo**-knappen i verktøylinjen.
 
 Hver kalling reverserer én registrert handling. Kall den gjentatte ganger for å gå lenger tilbake.

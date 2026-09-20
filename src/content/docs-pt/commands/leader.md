@@ -8,7 +8,7 @@ order: 1
 
 # Leader
 
-O comando `leader` desenha uma anotação multileader em quatro etapas: uma seta que toca um elemento, uma linha guia que se dobra no dogleg, uma âncora de texto e uma etiqueta digitada. De todos os comandos de anotação, Leader é o único que inclui uma fase interativa de entrada de texto com prévia do cursor piscante.
+O comando `Chamada` desenha uma anotação multileader em quatro etapas: uma seta que toca um elemento, uma linha guia que se dobra no dogleg, uma âncora de texto e uma etiqueta digitada. De todos os comandos de anotação, Leader é o único que inclui uma fase interativa de entrada de texto com prévia do cursor piscante.
 
 ## Anatomia de um multileader
 
@@ -27,7 +27,7 @@ O comando `leader` desenha uma anotação multileader em quatro etapas: uma seta
 
 ## Desenhando um leader
 
-1. Digite `leader` no terminal ou clique no botão **Leader** na barra de ferramentas.
+1. Digite `Chamada` no terminal ou clique no botão **Leader** na barra de ferramentas.
 2. **Clique na ponta da seta**, ou digite `X,Y` e pressione **Enter** para uma coordenada exata.
 3. **Clique no dogleg** — a dobra no leader. O ângulo trava em incrementos de 45°; digite um comprimento e pressione **Enter** para posicionamento preciso. Ou digite `X,Y` para uma coordenada absoluta.
 4. **Clique na posição do texto** — onde a etiqueta é ancorada. As mesmas opções se aplicam: clique, travamento de ângulo + comprimento, ou `X,Y`.

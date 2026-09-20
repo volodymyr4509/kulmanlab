@@ -8,11 +8,11 @@ order: 14
 
 # Redo
 
-`redo`-kommandot flyttar framåt genom ångrahistoriken och återställer åtgärder som ångrades av [Undo](../undo/). Redo är endast tillgängligt när du har stegat tillbaka med Undo och ännu inte har gjort någon ny ändring.
+`GörOm`-kommandot flyttar framåt genom ångrahistoriken och återställer åtgärder som ångrades av [Undo](../undo/). Redo är endast tillgängligt när du har stegat tillbaka med Undo och ännu inte har gjort någon ny ändring.
 
 ## Så gör du redo
 
-- Skriv `redo` i terminalen, eller
+- Skriv `GörOm` i terminalen, eller
 - Klicka på **Redo**-knappen i verktygsfältet.
 
 Varje anrop återställer en tidigare ångrad åtgärd. Anropa det upprepade gånger för att stega framåt genom alla tillgängliga redo-poster.

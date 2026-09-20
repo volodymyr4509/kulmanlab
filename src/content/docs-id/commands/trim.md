@@ -8,11 +8,11 @@ order: 8
 
 # Trim
 
-Perintah `trim` menghapus bagian dari [Line](../line/), [Arc](../arc/), [Circle](../circle/), [Ellipse](../ellipse/), atau [Polyline](../polyline/) yang terletak di antara dua titik perpotongan yang berdekatan, membagi entitas menjadi satu atau lebih bagian yang tersisa. Segmen yang akan dipotong ditentukan oleh posisi kursor — arahkan kursor ke bagian yang ingin dihapus dan klik untuk memotongnya.
+Perintah `Pangkas` menghapus bagian dari [Line](../line/), [Arc](../arc/), [Circle](../circle/), [Ellipse](../ellipse/), atau [Polyline](../polyline/) yang terletak di antara dua titik perpotongan yang berdekatan, membagi entitas menjadi satu atau lebih bagian yang tersisa. Segmen yang akan dipotong ditentukan oleh posisi kursor — arahkan kursor ke bagian yang ingin dihapus dan klik untuk memotongnya.
 
 ## Memotong entitas
 
-1. Ketik `trim` di terminal atau klik tombol toolbar **Trim**.
+1. Ketik `Pangkas` di terminal atau klik tombol toolbar **Trim**.
 2. **Arahkan kursor ke segmen** yang ingin dihapus — pratinjau menyorot tepat bagian yang akan dipotong.
 3. **Klik** untuk menghapus segmen tersebut.
 

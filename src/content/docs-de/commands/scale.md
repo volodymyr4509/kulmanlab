@@ -8,20 +8,20 @@ order: 5
 
 # Scale
 
-Der `scale`-Befehl skaliert ausgewählte Entitäten gleichmäßig um einen Basispunkt. Alle Abstände vom Basispunkt werden mit dem Skalierungsfaktor multipliziert — ein Faktor von `2` verdoppelt alle Abmessungen, `0.5` halbiert sie. Der Faktor wird immer durch Tastatureingabe festgelegt; es gibt kein Klicken zum Festlegen der Skalierung.
+Der `Skalieren`-Befehl skaliert ausgewählte Entitäten gleichmäßig um einen Basispunkt. Alle Abstände vom Basispunkt werden mit dem Skalierungsfaktor multipliziert — ein Faktor von `2` verdoppelt alle Abmessungen, `0.5` halbiert sie. Der Faktor wird immer durch Tastatureingabe festgelegt; es gibt kein Klicken zum Festlegen der Skalierung.
 
 ## Zwei Startmöglichkeiten
 
 **Zuerst auswählen, dann skalieren** — wählen Sie zuerst Entitäten aus, dann aktivieren Sie den Befehl:
 
 1. Wählen Sie eine oder mehrere Entitäten auf der Zeichenfläche aus.
-2. Geben Sie `scale` im Terminal ein oder klicken Sie auf die **Scale**-Schaltfläche in der Werkzeugleiste.
+2. Geben Sie `Skalieren` im Terminal ein oder klicken Sie auf die **Scale**-Schaltfläche in der Werkzeugleiste.
 3. **Klicken Sie den Basispunkt** — den festen Punkt, der sich während der Skalierung nicht bewegt. Oder geben Sie `X,Y` ein und drücken Sie **Enter** für eine exakte Koordinate.
 4. **Geben Sie den Skalierungsfaktor ein** und drücken Sie **Enter**.
 
 **Zuerst aktivieren, dann auswählen** — starten Sie den Befehl ohne Auswahl:
 
-1. Geben Sie `scale` ein oder klicken Sie auf die Werkzeugleistenschaltfläche.
+1. Geben Sie `Skalieren` ein oder klicken Sie auf die Werkzeugleistenschaltfläche.
 2. **Objekte auswählen** — einzeln anklicken oder per Bereich ziehen.
 3. Drücken Sie **Enter** oder **Space**, um die Auswahl zu bestätigen.
 4. **Klicken Sie den Basispunkt** (Koordinateneingabe verfügbar), dann geben Sie den Faktor ein.

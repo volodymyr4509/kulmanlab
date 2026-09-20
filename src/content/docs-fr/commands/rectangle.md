@@ -8,11 +8,11 @@ order: 3
 
 # Rectangle
 
-La commande `rectangle` trace un rectangle aligné sur les axes défini par deux clics sur des coins opposés. Le résultat est stocké comme une **`LWPOLYLINE` fermée** à quatre sommets — un à chaque coin. Il n'existe pas de type d'entité rectangle dédié : après création, la forme se comporte exactement comme toute autre [Polyligne](../polyline/) et chaque commande d'édition de polyligne s'y applique.
+La commande `Rectangle` trace un rectangle aligné sur les axes défini par deux clics sur des coins opposés. Le résultat est stocké comme une **`LWPOLYLINE` fermée** à quatre sommets — un à chaque coin. Il n'existe pas de type d'entité rectangle dédié : après création, la forme se comporte exactement comme toute autre [Polyligne](../polyline/) et chaque commande d'édition de polyligne s'y applique.
 
 ## Tracer un rectangle
 
-1. Tapez `rectangle` dans le terminal ou cliquez sur le bouton **Rectangle** de la barre d'outils.
+1. Tapez `Rectangle` dans le terminal ou cliquez sur le bouton **Rectangle** de la barre d'outils.
 2. **Cliquez sur le premier coin**, ou tapez `X,Y` et appuyez sur **Entrée** pour une coordonnée exacte.
 3. **Cliquez sur le coin opposé** — le rectangle est placé instantanément et la commande se termine. La saisie de coordonnées fonctionne ici aussi. Ou appuyez plutôt sur `D` pour saisir une largeur et une hauteur exactes — voir [Saisie des dimensions](#saisie-des-dimensions) ci-dessous.
 

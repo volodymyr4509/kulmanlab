@@ -8,13 +8,13 @@ order: 10
 
 # Offset
 
-El comando `offset` crea una copia paralela de una entidad a una distancia perpendicular fija. Escribe la distancia una vez, luego haz clic en las entidades y elige un lado — el comando permanece listo a la misma distancia para que puedas desplazar múltiples objetos en una sola sesión.
+El comando `Desfase` crea una copia paralela de una entidad a una distancia perpendicular fija. Escribe la distancia una vez, luego haz clic en las entidades y elige un lado — el comando permanece listo a la misma distancia para que puedas desplazar múltiples objetos en una sola sesión.
 
 Tipos de entidad admitidos: **Line, Circle, Arc, Ellipse, Polyline** (incluidos los rectángulos).
 
 ## Usar offset
 
-1. Escribe `offset` en el terminal o haz clic en el botón **Offset** de la barra de herramientas.
+1. Escribe `Desfase` en el terminal o haz clic en el botón **Offset** de la barra de herramientas.
 2. **Escribe la distancia de desplazamiento** y presiona **Enter** o **Space**.
 3. **Haz clic en una entidad** para desplazar — si la entidad no es de un tipo admitido, aparece un mensaje de error y puedes hacer clic en una entidad diferente.
 4. **Mueve el cursor** al lado donde debe aparecer la copia — una vista previa en tiempo real la sigue.

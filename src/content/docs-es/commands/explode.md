@@ -8,7 +8,7 @@ order: 16
 
 # Explode
 
-El comando `explode` descompone una [Polilínea](../polyline/) en sus entidades [Línea](../line/) y [Arco](../arc/) individuales — una por segmento, exactamente donde estaban los propios vértices de la polilínea. Las piezas reemplazan a la polilínea en su lugar y conservan su grosor de línea, color, capa y tipo de línea.
+El comando `Descomponer` descompone una [Polilínea](../polyline/) en sus entidades [Línea](../line/) y [Arco](../arc/) individuales — una por segmento, exactamente donde estaban los propios vértices de la polilínea. Las piezas reemplazan a la polilínea en su lugar y conservan su grosor de línea, color, capa y tipo de línea.
 
 Explode funciona solo con entidades **Polilínea**.
 
@@ -19,13 +19,13 @@ Dos formas de ejecutarlo, el mismo patrón que [Delete](../delete/):
 **Selecciona primero, luego explota** — el camino más rápido:
 
 1. Selecciona una o más polilíneas en el lienzo.
-2. Escribe `explode` en el terminal, o haz clic en el botón **Explode** del panel Edit.
+2. Escribe `Descomponer` en el terminal, o haz clic en el botón **Explode** del panel Edit.
 
 Las polilíneas seleccionadas se explotan al instante — sin paso de confirmación separado, ya que algo ya está seleccionado.
 
 **Activa, luego selecciona**:
 
-1. Escribe `explode` o haz clic en el botón de la barra de herramientas sin nada seleccionado.
+1. Escribe `Descomponer` o haz clic en el botón de la barra de herramientas sin nada seleccionado.
 2. **Selecciona polilíneas** — clic para alternar, o arrastra para seleccionar por área.
 3. Presiona **Enter** o **Espacio** para confirmar y explotar las polilíneas seleccionadas.
 

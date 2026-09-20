@@ -8,20 +8,20 @@ order: 4
 
 # Mirror
 
-Perintah `mirror` membuat salinan yang dicerminkan dari entitas yang dipilih, dipantulkan melintasi sumbu dua titik. Aslinya **selalu dipertahankan** — tidak seperti [Move](../move/) atau [Rotate](../rotate/), Mirror tidak pernah memodifikasi entitas yang sudah ada; hanya menambahkan yang baru.
+Perintah `Cermin` membuat salinan yang dicerminkan dari entitas yang dipilih, dipantulkan melintasi sumbu dua titik. Aslinya **selalu dipertahankan** — tidak seperti [Move](../move/) atau [Rotate](../rotate/), Mirror tidak pernah memodifikasi entitas yang sudah ada; hanya menambahkan yang baru.
 
 ## Dua cara memulai
 
 **Pra-pilih, lalu cermin** — pilih entitas terlebih dahulu, kemudian aktifkan:
 
 1. Pilih satu atau lebih entitas di kanvas.
-2. Ketik `mirror` di terminal atau klik tombol toolbar **Mirror**.
+2. Ketik `Cermin` di terminal atau klik tombol toolbar **Mirror**.
 3. **Klik titik pertama** dari sumbu cermin, atau ketik `X,Y` dan tekan **Enter** untuk koordinat tepat.
 4. **Klik titik kedua** — salinan yang dicerminkan ditempatkan dan perintah keluar. Entri koordinat juga berfungsi di sini.
 
 **Aktifkan, lalu pilih** — mulai perintah tanpa ada yang dipilih:
 
-1. Ketik `mirror` atau klik tombol toolbar.
+1. Ketik `Cermin` atau klik tombol toolbar.
 2. **Pilih objek** — klik untuk mengalihkan, atau seret untuk memilih berdasarkan area.
 3. Tekan **Enter** atau **Space** untuk mengonfirmasi seleksi.
 4. **Klik titik pertama**, kemudian **klik titik kedua** dari sumbu cermin (entri koordinat tersedia di kedua langkah).

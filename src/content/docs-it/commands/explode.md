@@ -8,7 +8,7 @@ order: 16
 
 # Explode
 
-Il comando `explode` scompone una [Polilinea](../polyline/) nelle sue entità [Linea](../line/) e [Arco](../arc/) individuali — una per segmento, esattamente dove si trovavano i vertici della polilinea. I pezzi sostituiscono la polilinea sul posto e mantengono il suo spessore linea, colore, layer e tipo di linea.
+Il comando `Esplodi` scompone una [Polilinea](../polyline/) nelle sue entità [Linea](../line/) e [Arco](../arc/) individuali — una per segmento, esattamente dove si trovavano i vertici della polilinea. I pezzi sostituiscono la polilinea sul posto e mantengono il suo spessore linea, colore, layer e tipo di linea.
 
 Explode funziona solo con entità **Polilinea**.
 
@@ -19,13 +19,13 @@ Due modi per eseguirlo, lo stesso schema di [Delete](../delete/):
 **Seleziona prima, poi esplodi** — il percorso più veloce:
 
 1. Seleziona una o più polilinee sul canvas.
-2. Digita `explode` nel terminale, oppure clicca sul pulsante **Explode** nel pannello Edit.
+2. Digita `Esplodi` nel terminale, oppure clicca sul pulsante **Explode** nel pannello Edit.
 
 Le polilinee selezionate vengono esplose istantaneamente — nessun passaggio di conferma separato, poiché qualcosa è già selezionato.
 
 **Attiva, poi seleziona**:
 
-1. Digita `explode` o clicca sul pulsante della barra degli strumenti senza nulla selezionato.
+1. Digita `Esplodi` o clicca sul pulsante della barra degli strumenti senza nulla selezionato.
 2. **Seleziona polilinee** — clicca per attivare/disattivare, oppure trascina per selezionare un'area.
 3. Premi **Invio** o **Spazio** per confermare ed esplodere le polilinee selezionate.
 

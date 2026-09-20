@@ -8,11 +8,11 @@ order: 3
 
 # LeaderRemove
 
-`LeaderRemove` komutu, mevcut çok segmentli göstergeden bir ok kolunu kaldırır. Metin etiketi, geçiş bölgesi ve diğer tüm koller korunur — yalnızca seçilen kol kaldırılır. Tek kollu çok segmentli göstergenin bu kolu kaldırılamaz.
+`KılavuzKolunuSil` komutu, mevcut çok segmentli göstergeden bir ok kolunu kaldırır. Metin etiketi, geçiş bölgesi ve diğer tüm koller korunur — yalnızca seçilen kol kaldırılır. Tek kollu çok segmentli göstergenin bu kolu kaldırılamaz.
 
 ## Kol Kaldırma
 
-1. Terminale `LeaderRemove` yazın.
+1. Terminale `KılavuzKolunuSil` yazın.
 2. İki veya daha fazla kollu **çok segmentli göstergeye tıklayın**. Tıklanan göstergenin yalnızca bir kolu varsa, terminal hata gösterir ve doğru seçimi bekler.
 3. **İmleci kaldırmak istediğiniz kola yaklaştırın** — en yakın kol işaretleyiciyle vurgulanır.
 4. **Tıklayın** ve o kolu kaldırın.

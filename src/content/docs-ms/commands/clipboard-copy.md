@@ -8,7 +8,7 @@ order: 17
 
 # ClipboardCopy
 
-Perintah `ClipboardCopy` menulis entiti terpilih ke **papan keratan sistem** anda sebagai teks JSON. Kerana ia menggunakan papan keratan sebenar dan bukan penimbal dalam ingatan, geometri yang disalin terus wujud di luar lukisan: tampalkannya ke fail lain, tab pelayar kedua, atau tetingkap yang anda buka kemudian dengan [ClipboardPaste](../clipboard-paste/).
+Perintah `SalinKePapanKeratan` menulis entiti terpilih ke **papan keratan sistem** anda sebagai teks JSON. Kerana ia menggunakan papan keratan sebenar dan bukan penimbal dalam ingatan, geometri yang disalin terus wujud di luar lukisan: tampalkannya ke fail lain, tab pelayar kedua, atau tetingkap yang anda buka kemudian dengan [ClipboardPaste](../clipboard-paste/).
 
 Inilah bezanya dengan [Copy](../copy/): Copy menggandakan entiti di dalam lukisan semasa dengan satu gerakan, manakala ClipboardCopy meletakkannya di tempat yang boleh diambil semula daripada lukisan yang sama sekali berlainan.
 
@@ -17,12 +17,12 @@ Inilah bezanya dengan [Copy](../copy/): Copy menggandakan entiti di dalam lukisa
 **Pilih dahulu, kemudian salin** — laluan pantas:
 
 1. Pilih satu atau lebih entiti pada kanvas.
-2. Tekan `Ctrl+C` (`Cmd+C` pada macOS), atau taip `ClipboardCopy` dalam terminal.
+2. Tekan `Ctrl+C` (`Cmd+C` pada macOS), atau taip `SalinKePapanKeratan` dalam terminal.
 3. Entiti terus ditulis ke papan keratan dan perintah tamat.
 
 **Aktifkan dahulu, kemudian pilih** — bermula tanpa apa-apa yang dipilih:
 
-1. Tekan `Ctrl+C` atau taip `ClipboardCopy` semasa pilihan kosong.
+1. Tekan `Ctrl+C` atau taip `SalinKePapanKeratan` semasa pilihan kosong.
 2. Gesaan memaparkan **pick objects to copy — Enter or Space to confirm**.
 3. **Pilih objek** — klik untuk memasukkan atau mengeluarkan entiti satu per satu, atau seret untuk memilih mengikut kawasan.
 4. Tekan **Enter** atau **Space** untuk menyalin pilihan dan keluar.

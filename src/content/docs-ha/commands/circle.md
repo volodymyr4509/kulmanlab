@@ -8,11 +8,11 @@ order: 4
 
 # Circle
 
-Umarnin `circle` yana zana da'ira wanda aka bayyana ta tabon tsakiya da radius. Bayan an danna tsakiya za ka iya saita radius ko dai ta danna tabo na biyu a kan canvas ko ta rubuta lamba madaidaiciya — dukkan zaɓuɓɓukan biyu suna aiki a lokaci guda.
+Umarnin `Dawafi` yana zana da'ira wanda aka bayyana ta tabon tsakiya da radius. Bayan an danna tsakiya za ka iya saita radius ko dai ta danna tabo na biyu a kan canvas ko ta rubuta lamba madaidaiciya — dukkan zaɓuɓɓukan biyu suna aiki a lokaci guda.
 
 ## Zana da'ira
 
-1. Rubuta `circle` a tashar umarni ko danna maɓallin kayan aiki na **Circle**.
+1. Rubuta `Dawafi` a tashar umarni ko danna maɓallin kayan aiki na **Circle**.
 2. **Danna tabon tsakiya**, ko rubuta `X,Y` ka danna **Enter** don daidaitawa madaidaiciya.
 3. Saita radius — ko dai:
    - **Danna kowane tabo** a kan canvas — nisan daga tsakiya ya zama radius, ko

@@ -8,11 +8,11 @@ order: 2
 
 # Zoom In
 
-Polecenie `zoomin` mnoży bieżący poziom powiększenia o **1,5×** i natychmiast kończy się, wyśrodkowane na środku widoku. Jest to odpowiednik paska narzędzi jednego kliknięcia kółkiem myszy w kierunku środka ekranu, a nie kursora.
+Polecenie `Powiększ` mnoży bieżący poziom powiększenia o **1,5×** i natychmiast kończy się, wyśrodkowane na środku widoku. Jest to odpowiednik paska narzędzi jednego kliknięcia kółkiem myszy w kierunku środka ekranu, a nie kursora.
 
 ## Powiększanie
 
-Kliknij przycisk **Powiększ** na pasku narzędzi lub wpisz `zoomin` w terminalu. Powiększenie jest stosowane natychmiast i polecenie kończy się — żadne kliknięcie na płótnie nie jest wymagane.
+Kliknij przycisk **Powiększ** na pasku narzędzi lub wpisz `Powiększ` w terminalu. Powiększenie jest stosowane natychmiast i polecenie kończy się — żadne kliknięcie na płótnie nie jest wymagane.
 
 ## Jak działa krok 1,5×
 

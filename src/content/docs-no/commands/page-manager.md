@@ -8,11 +8,11 @@ order: 3
 
 # PageManager
 
-Kommandoen `PageManager` åpner sideinnstillingsdialogen for det aktive layoutet, slik at du kan endre papirformatet, orienteringen og skalaen mellom tegneenheter og millimeter.
+Kommandoen `Sidebehandler` åpner sideinnstillingsdialogen for det aktive layoutet, slik at du kan endre papirformatet, orienteringen og skalaen mellom tegneenheter og millimeter.
 
 ## Åpne Page Manager
 
-- Skriv `PageManager` i terminalen, **eller**
+- Skriv `Sidebehandler` i terminalen, **eller**
 - Høyreklikk en layout-fane nederst og velg **Page Manager**.
 
 ## Innstillinger

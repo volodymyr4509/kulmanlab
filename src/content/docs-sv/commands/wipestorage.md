@@ -8,7 +8,7 @@ order: 7
 
 # Wipe Storage
 
-`wipestorage`-kommandot raderar permanent **all data som lagras i webbläsaren** för KulmanLab CAD — varje sparad fil, lager- och linjetypstabell samt ångrahistorik. Sidan laddas om automatiskt efteråt.
+`RensaLagring`-kommandot raderar permanent **all data som lagras i webbläsaren** för KulmanLab CAD — varje sparad fil, lager- och linjetypstabell samt ångrahistorik. Sidan laddas om automatiskt efteråt.
 
 :::danger Oåterkalleligt
 Denna åtgärd kan inte ångras. Alla filer som lagras i webbläsaren raderas. Exportera alla ritningar du vill behålla som `.json`- eller `.dxf`-filer innan du kör detta kommando.
@@ -22,7 +22,7 @@ Denna åtgärd kan inte ångras. Alla filer som lagras i webbläsaren raderas. E
 
 ## Så här kör du det
 
-1. Skriv `wipestorage` i terminalen och tryck på **Enter**.
+1. Skriv `RensaLagring` i terminalen och tryck på **Enter**.
 2. Terminalen frågar: *Wipe all browser local storage? Type YES to confirm*
 3. Skriv `YES` (valfri versalisering) och tryck på **Enter**.
 

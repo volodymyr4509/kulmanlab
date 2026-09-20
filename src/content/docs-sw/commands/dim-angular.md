@@ -8,11 +8,11 @@ order: 9
 
 # Dimension Angular
 
-Amri ya `DimensionAngular` huweka maelezo ya **kipimo cha pembe** cha mviringo kwenye mchoro. Inapima na kuandika pembe kati ya mistari miwili, upana wa mviringo, au sekta ya duara.
+Amri ya `KipimoPembe` huweka maelezo ya **kipimo cha pembe** cha mviringo kwenye mchoro. Inapima na kuandika pembe kati ya mistari miwili, upana wa mviringo, au sekta ya duara.
 
 ## Jinsi ya kuamsha
 
-Bonyeza kitufe cha **Dimension Angular** kwenye upau wa zana wa Markup, au andika `DimensionAngular` kwenye terminal.
+Bonyeza kitufe cha **Dimension Angular** kwenye upau wa zana wa Markup, au andika `KipimoPembe` kwenye terminal.
 
 ## Hali tatu za uingizaji
 
@@ -47,7 +47,7 @@ Mistari inayofanana haiwezi kuunda kipimo cha pembe; amri inazaliwa bonyezo la p
 
 - Mviringo wa kipimo daima huchorwa upande wa kilele ambapo unakuweka — sogeza mshale kwenye kilele ili kugeuza kwenda pembe inayosaidia.
 - Pembe iliyopimwa inaonyeshwa kwa digrii na inasasishwa moja kwa moja unapasogeza mshale wakati wa uwekaji.
-- Maelezo yanayotokana ni kipengele kamili cha `DimensionAngular` kilichohifadhiwa kwenye safu ya sasa. Sifa zake za mwonekano (ukubwa wa mshale, urefu wa maandishi, urefu wa mstari wa upanuzi) zinaweza kurekebishwa kwenye paneli ya Sifa.
+- Maelezo yanayotokana ni kipengele kamili cha `KipimoPembe` kilichohifadhiwa kwenye safu ya sasa. Sifa zake za mwonekano (ukubwa wa mshale, urefu wa maandishi, urefu wa mstari wa upanuzi) zinaweza kurekebishwa kwenye paneli ya Sifa.
 - Vipimo vya pembe huhamishwa kwenda JSON na DXF vyote viwili, na katika DXF huandikwa kama vitu vya kawaida vya `DIMENSION`.
 
 ## Kuhariri lebo — hali rahisi

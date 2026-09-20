@@ -8,12 +8,12 @@ order: 1
 
 # ViewportRectangle
 
-Der `ViewportRectangle`-Befehl erstellt einen neuen Viewport im aktiven Papier-Layout durch Auswahl zweier gegenüberliegender Ecken. Nur im Layout-Raum verfügbar.
+Der `AnsichtsfensterRechteck`-Befehl erstellt einen neuen Viewport im aktiven Papier-Layout durch Auswahl zweier gegenüberliegender Ecken. Nur im Layout-Raum verfügbar.
 
 ## Einen Viewport erstellen
 
 1. Wechseln Sie über den Tab am unteren Bildschirmrand zu einem Papier-Layout.
-2. Geben Sie `ViewportRectangle` im Terminal ein oder klicken Sie auf die **Viewport Rectangle**-Schaltfläche in der Werkzeugleiste.
+2. Geben Sie `AnsichtsfensterRechteck` im Terminal ein oder klicken Sie auf die **Viewport Rectangle**-Schaltfläche in der Werkzeugleiste.
 3. **Klicken Sie die erste Ecke** an, oder geben Sie `X,Y` ein und drücken Sie **Enter** für eine exakte Koordinate.
 4. **Klicken Sie die gegenüberliegende Ecke** — der Viewport wird sofort platziert. Koordinateneingabe funktioniert hier ebenfalls.
 

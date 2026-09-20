@@ -8,17 +8,17 @@ order: 1
 
 # Match Properties
 
-O comando `MatchProperties` copia **propriedades visuais e de camada** de uma entidade de origem para uma ou mais entidades de destino. Apenas propriedades compartilhadas entre os tipos de entidade de origem e destino são transferidas — a geometria nunca é alterada.
+O comando `CopiarPropriedades` copia **propriedades visuais e de camada** de uma entidade de origem para uma ou mais entidades de destino. Apenas propriedades compartilhadas entre os tipos de entidade de origem e destino são transferidas — a geometria nunca é alterada.
 
 ## Como ativar
 
-Clique no botão **Match Properties** na barra de ferramentas (ícone de rolo de pintura) no painel Estilo, ou digite `MatchProperties` no terminal.
+Clique no botão **Match Properties** na barra de ferramentas (ícone de rolo de pintura) no painel Estilo, ou digite `CopiarPropriedades` no terminal.
 
 ## Fluxo de trabalho
 
 **Ative primeiro, depois selecione a origem:**
 
-1. Digite `MatchProperties` ou clique no botão da barra de ferramentas sem nada pré-selecionado.
+1. Digite `CopiarPropriedades` ou clique no botão da barra de ferramentas sem nada pré-selecionado.
 2. **Clique na entidade de origem** — aquela cujas propriedades você deseja copiar.
 3. **Clique em cada entidade de destino** para aplicar as propriedades de origem. Você pode clicar em várias entidades uma por uma.
 4. Para aplicar a um grupo de uma vez, **arraste uma caixa de seleção** sobre os destinos.
@@ -27,7 +27,7 @@ Clique no botão **Match Properties** na barra de ferramentas (ícone de rolo de
 **Pré-selecione a origem, depois ative:**
 
 1. Clique em uma única entidade para selecioná-la.
-2. Ative `MatchProperties`. A entidade selecionada é usada como origem automaticamente.
+2. Ative `CopiarPropriedades`. A entidade selecionada é usada como origem automaticamente.
 3. Clique nas entidades de destino ou arraste para selecionar, depois **Enter** ou **Escape** para terminar.
 
 ## Quais propriedades são copiadas

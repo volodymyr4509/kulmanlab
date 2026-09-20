@@ -8,7 +8,7 @@ order: 12
 
 # Chamfer
 
-El comando `chamfer` corta una esquina diagonal recta entre dos entidades [Line](../line/) o [Polyline](../polyline/). Especificas cuánto recortar a lo largo de cada entidad (d1 y d2), y el comando recorta ambas entidades hasta esos puntos e inserta una línea de conexión entre ellas.
+El comando `Chaflán` corta una esquina diagonal recta entre dos entidades [Line](../line/) o [Polyline](../polyline/). Especificas cuánto recortar a lo largo de cada entidad (d1 y d2), y el comando recorta ambas entidades hasta esos puntos e inserta una línea de conexión entre ellas.
 
 Usar distancias iguales produce un corte simétrico de 45°; distancias diferentes producen un bisel asimétrico.
 
@@ -16,7 +16,7 @@ Chamfer funciona con entidades **Line y Polyline**.
 
 ## Usar chamfer
 
-1. Escribe `chamfer` en el terminal o haz clic en el botón **Chamfer** de la barra de herramientas.
+1. Escribe `Chaflán` en el terminal o haz clic en el botón **Chamfer** de la barra de herramientas.
 2. **Escribe la primera distancia de chamfer** (d1 — distancia a lo largo de la primera entidad) y presiona **Enter**.
 3. **Escribe la segunda distancia de chamfer** (d2 — distancia a lo largo de la segunda entidad) y presiona **Enter**.
 4. **Haz clic en la primera entidad** — la parte donde haces clic determina qué lado de cualquier intersección se mantiene.

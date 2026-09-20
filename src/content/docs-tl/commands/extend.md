@@ -8,13 +8,13 @@ order: 9
 
 # Extend
 
-Ini-stretch ng `extend` command ang pinakamalapit na endpoint ng isang [Line](../line/), [Arc](../arc/), [Ellipse](../ellipse/), o bukas na [Polyline](../polyline/) na ho-hover papunta sa pinakamalapit na intersection na maaari nitong mabuo sa ibang entity sa drawing. I-hover malapit sa endpoint na gusto mong i-extend — may preview na magpapakita ng extended entity — pagkatapos ay i-click para i-apply.
+Ini-stretch ng `Pahabain` command ang pinakamalapit na endpoint ng isang [Line](../line/), [Arc](../arc/), [Ellipse](../ellipse/), o bukas na [Polyline](../polyline/) na ho-hover papunta sa pinakamalapit na intersection na maaari nitong mabuo sa ibang entity sa drawing. I-hover malapit sa endpoint na gusto mong i-extend — may preview na magpapakita ng extended entity — pagkatapos ay i-click para i-apply.
 
 Mga entity lang na may tunay na endpoint ang puwedeng i-extend. Ang isang [Circle](../circle/) at kumpletong (360°) Ellipse ay laging saradong hugis na walang endpoint, kaya hindi kailanman puwedeng i-extend — gayundin sa saradong Polyline o Rectangle. Ang bahagyang Ellipse (isang elliptical arc) at isang Arc ay may mga endpoint at ine-extend sa parehong paraan tulad ng Line.
 
 ## Pag-extend ng isang entity
 
-1. I-type ang `extend` sa terminal o i-click ang **Extend** button sa toolbar.
+1. I-type ang `Pahabain` sa terminal o i-click ang **Extend** button sa toolbar.
 2. **I-hover malapit sa isang dulo** ng entity na gusto mong i-extend — ipapakita ng preview itong na-extend papunta sa pinakamalapit na boundary sa direksyong iyon.
 3. **I-click** para i-apply ang extension.
 

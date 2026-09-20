@@ -8,11 +8,11 @@ order: 3
 
 # Zoom Out
 
-Il comando `zoomout` divide il livello di zoom corrente per **1,5×** (equivalente a moltiplicare per ~0,667) ed esce immediatamente, centrato sul centro della finestra. È l'inverso di [Zoom In](../zoom-in/).
+Il comando `Riduci` divide il livello di zoom corrente per **1,5×** (equivalente a moltiplicare per ~0,667) ed esce immediatamente, centrato sul centro della finestra. È l'inverso di [Zoom In](../zoom-in/).
 
 ## Eseguire lo zoom indietro
 
-Clicca il pulsante **Zoom Out** nella barra degli strumenti o digita `zoomout` nel terminale. Lo zoom viene applicato istantaneamente e il comando esce — nessun clic sul canvas richiesto.
+Clicca il pulsante **Zoom Out** nella barra degli strumenti o digita `Riduci` nel terminale. Lo zoom viene applicato istantaneamente e il comando esce — nessun clic sul canvas richiesto.
 
 ## Come funziona il passo da 1,5×
 

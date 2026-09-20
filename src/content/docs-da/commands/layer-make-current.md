@@ -8,11 +8,11 @@ order: 2
 
 # LayerMakeCurrent
 
-Kommandoen `LayerMakeCurrent` sætter det **aktuelle tegnelag** til, hvilket lag den klikkede entitet end tilhører. Nye entiteter vil derefter blive tegnet på det lag automatisk.
+Kommandoen `LagGørAktuelt` sætter det **aktuelle tegnelag** til, hvilket lag den klikkede entitet end tilhører. Nye entiteter vil derefter blive tegnet på det lag automatisk.
 
 ## Brug
 
-1. Skriv `LayerMakeCurrent` i terminalen eller klik på **Make Current**-knappen i værktøjslinjen (pipetteikon).
+1. Skriv `LagGørAktuelt` i terminalen eller klik på **Make Current**-knappen i værktøjslinjen (pipetteikon).
 2. **Klik en hvilken som helst entitet** på lærredet.
 3. Det aktuelle lag opdateres til at matche den entitets lag. Kommandoen afsluttes straks.
 

@@ -8,7 +8,7 @@ order: 16
 
 # Explode
 
-Amri ya `explode` inavunja [Polyline](../polyline/) kuwa vipengele vyake vya [Line](../line/) na [Arc](../arc/) binafsi — kimoja kwa kila sehemu, hasa mahali ambapo vipeo vya polyline vyenyewe vilikuwa. Vipande hivyo vinachukua nafasi ya polyline pale pale na kudumisha unene wa mstari, rangi, tabaka, na aina ya mstari wake.
+Amri ya `Vunja` inavunja [Polyline](../polyline/) kuwa vipengele vyake vya [Line](../line/) na [Arc](../arc/) binafsi — kimoja kwa kila sehemu, hasa mahali ambapo vipeo vya polyline vyenyewe vilikuwa. Vipande hivyo vinachukua nafasi ya polyline pale pale na kudumisha unene wa mstari, rangi, tabaka, na aina ya mstari wake.
 
 Explode inafanya kazi tu na vipengele vya **Polyline**.
 
@@ -19,13 +19,13 @@ Njia mbili za kuiendesha, muundo uleule kama [Delete](../delete/):
 **Chagua kwanza, kisha explode** — njia ya haraka zaidi:
 
 1. Chagua polyline moja au zaidi kwenye kanvasi.
-2. Andika `explode` kwenye terminal, au bonyeza kitufe cha **Explode** kwenye paneli ya Edit.
+2. Andika `Vunja` kwenye terminal, au bonyeza kitufe cha **Explode** kwenye paneli ya Edit.
 
 Polyline zilizochaguliwa zinavunjwa papo hapo — hakuna hatua ya uthibitisho tofauti, kwa sababu kitu tayari kimechaguliwa.
 
 **Washa amri, kisha chagua**:
 
-1. Andika `explode` au bonyeza kitufe cha upau wa zana bila kitu kilichochaguliwa.
+1. Andika `Vunja` au bonyeza kitufe cha upau wa zana bila kitu kilichochaguliwa.
 2. **Chagua polyline** — bonyeza ili kubadilisha, au buruta ili kuchagua kwa eneo.
 3. Bonyeza **Enter** au **Nafasi** ili kuthibitisha na kuvunja polyline zilizochaguliwa.
 

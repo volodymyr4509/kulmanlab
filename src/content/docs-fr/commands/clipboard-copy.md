@@ -8,7 +8,7 @@ order: 17
 
 # ClipboardCopy
 
-La commande `ClipboardCopy` écrit les entités sélectionnées dans votre **presse-papiers système** sous forme de texte JSON. Comme elle utilise le véritable presse-papiers et non un tampon interne, la géométrie copiée survit en dehors du dessin : collez-la dans un autre fichier, un deuxième onglet du navigateur ou une fenêtre ouverte plus tard avec [ClipboardPaste](../clipboard-paste/).
+La commande `CopierPressePapiers` écrit les entités sélectionnées dans votre **presse-papiers système** sous forme de texte JSON. Comme elle utilise le véritable presse-papiers et non un tampon interne, la géométrie copiée survit en dehors du dessin : collez-la dans un autre fichier, un deuxième onglet du navigateur ou une fenêtre ouverte plus tard avec [ClipboardPaste](../clipboard-paste/).
 
 C'est la différence avec [Copy](../copy/) : Copy duplique des entités à l'intérieur du dessin courant en un seul geste, tandis que ClipboardCopy les dépose quelque part où elles pourront être récupérées depuis un dessin entièrement différent.
 
@@ -17,12 +17,12 @@ C'est la différence avec [Copy](../copy/) : Copy duplique des entités à l'int
 **Présélectionner, puis copier** — la voie rapide :
 
 1. Sélectionnez une ou plusieurs entités sur le canevas.
-2. Appuyez sur `Ctrl+C` (`Cmd+C` sur macOS), ou tapez `ClipboardCopy` dans le terminal.
+2. Appuyez sur `Ctrl+C` (`Cmd+C` sur macOS), ou tapez `CopierPressePapiers` dans le terminal.
 3. Les entités sont écrites immédiatement dans le presse-papiers et la commande se termine.
 
 **Activer, puis sélectionner** — démarrer sans rien de sélectionné :
 
-1. Appuyez sur `Ctrl+C` ou tapez `ClipboardCopy` avec une sélection vide.
+1. Appuyez sur `Ctrl+C` ou tapez `CopierPressePapiers` avec une sélection vide.
 2. L'invite affiche **pick objects to copy — Enter or Space to confirm**.
 3. **Sélectionnez des objets** — cliquez pour basculer des entités individuelles, ou faites glisser pour sélectionner par zone.
 4. Appuyez sur **Enter** ou **Espace** pour copier la sélection et quitter.

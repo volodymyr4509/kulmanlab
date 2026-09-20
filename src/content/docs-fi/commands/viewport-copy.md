@@ -8,13 +8,13 @@ order: 2
 
 # ViewportCopy
 
-Komento `ViewportCopy` kopioi näkymäikkunan uuteen sijaintiin, säilyttäen sen mittakaavan ja mallikeskuksen. Käytettävissä vain asettelutilassa.
+Komento `KopioiNäkymäikkuna` kopioi näkymäikkunan uuteen sijaintiin, säilyttäen sen mittakaavan ja mallikeskuksen. Käytettävissä vain asettelutilassa.
 
 ## Näkymäikkunan kopioiminen
 
 1. Vaihda paperiasettelun välilehteen.
 2. Napsauta valinnaisesti näkymäikkunaa esivalitaksesi sen.
-3. Kirjoita `ViewportCopy` terminaaliin tai napsauta **Viewport Copy**-painiketta työkalurivillä.
+3. Kirjoita `KopioiNäkymäikkuna` terminaaliin tai napsauta **Viewport Copy**-painiketta työkalurivillä.
 4. Jos näkymäikkunaa ei esivalittu, **napsauta kopioitavaa näkymäikkunaa**.
 5. **Napsauta perustepistettä** — siirtymän referenssi. Tai kirjoita `X,Y` ja paina **Enter** tarkkaa koordinaattia varten.
 6. **Napsauta kohdetta** — näkymäikkuna sijoitetaan perusta→kohde-siirtymälle. Tai käytä koordinaattien syöttöä / kulmalukitusta.

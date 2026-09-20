@@ -8,11 +8,11 @@ order: 3
 
 # Rectangle
 
-Komento `rectangle` piirtää akseleihin kohdistetun suorakulmion, jonka määrittelee kaksi vastakkaista kulmanapsautusta. Tulos tallennetaan **suljettuna `LWPOLYLINE`**-entiteettinä, jossa on neljä kärkeä — yksi jokaisessa kulmassa. Ei ole omistettua suorakulmion entiteettityyppiä: luomisen jälkeen muoto käyttäytyy täsmälleen kuten mikä tahansa muu [Polyline](../polyline/), ja jokainen polylinjan muokkaus koskee sitä.
+Komento `Suorakulmio` piirtää akseleihin kohdistetun suorakulmion, jonka määrittelee kaksi vastakkaista kulmanapsautusta. Tulos tallennetaan **suljettuna `LWPOLYLINE`**-entiteettinä, jossa on neljä kärkeä — yksi jokaisessa kulmassa. Ei ole omistettua suorakulmion entiteettityyppiä: luomisen jälkeen muoto käyttäytyy täsmälleen kuten mikä tahansa muu [Polyline](../polyline/), ja jokainen polylinjan muokkaus koskee sitä.
 
 ## Suorakulmion piirtäminen
 
-1. Kirjoita `rectangle` terminaaliin tai napsauta **Rectangle**-painiketta työkalurivillä.
+1. Kirjoita `Suorakulmio` terminaaliin tai napsauta **Rectangle**-painiketta työkalurivillä.
 2. **Napsauta ensimmäistä kulmaa**, tai kirjoita `X,Y` ja paina **Enter** tarkkaa koordinaattia varten.
 3. **Napsauta vastakkaista kulmaa** — suorakulmio sijoitetaan välittömästi ja komento päättyy. Koordinaattien syöttö toimii myös täällä. Tai paina sen sijaan `D` kirjoittaaksesi tarkan leveyden ja korkeuden — katso [Mittojen syöttö](#mittojen-syöttö) alla.
 

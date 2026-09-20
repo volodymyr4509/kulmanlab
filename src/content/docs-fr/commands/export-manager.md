@@ -8,11 +8,11 @@ order: 6
 
 # Gestionnaire d'exportation
 
-La commande `exportmanager` télécharge le dessin courant sur votre système de fichiers. Deux formats côte à côte — **DXF** pour la compatibilité avec les autres outils CAO et **JSON** pour des sauvegardes fidèles au sein de KulmanLab CAD — chacun avec sa propre liste de ce qu'il faut mettre dans le fichier.
+La commande `GestionnaireExport` télécharge le dessin courant sur votre système de fichiers. Deux formats côte à côte — **DXF** pour la compatibilité avec les autres outils CAO et **JSON** pour des sauvegardes fidèles au sein de KulmanLab CAD — chacun avec sa propre liste de ce qu'il faut mettre dans le fichier.
 
 ## Comment exporter
 
-1. Cliquez sur le bouton **Export** de la barre d'outils (icône de téléchargement) dans le panneau fichier, ou tapez `exportmanager` dans le terminal.
+1. Cliquez sur le bouton **Export** de la barre d'outils (icône de téléchargement) dans le panneau fichier, ou tapez `GestionnaireExport` dans le terminal.
 2. La fenêtre **Export Manager** s'ouvre sur deux colonnes, **JSON** et **DXF**, chacune listant les types d'entités du dessin avec une case à cocher et un décompte.
 3. Décochez ce que vous voulez laisser de côté. Tout est coché au départ.
 4. Cliquez sur **Export JSON** ou **Export DXF**. Le fichier arrive dans votre dossier de téléchargements et la fenêtre se ferme.

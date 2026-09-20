@@ -8,11 +8,11 @@ order: 6
 
 # Ellipse
 
-O comando `ellipse` desenha uma elipse usando três cliques: um ponto central, o ponto final do primeiro semieixo (maior) em qualquer ângulo, e o comprimento do segundo semieixo (menor). Os dois eixos são sempre perpendiculares entre si — a direção do segundo eixo é derivada automaticamente do primeiro.
+O comando `Elipse` desenha uma elipse usando três cliques: um ponto central, o ponto final do primeiro semieixo (maior) em qualquer ângulo, e o comprimento do segundo semieixo (menor). Os dois eixos são sempre perpendiculares entre si — a direção do segundo eixo é derivada automaticamente do primeiro.
 
 ## Desenhar uma elipse
 
-1. Digite `ellipse` no terminal ou clique no botão **Ellipse** na barra de ferramentas.
+1. Digite `Elipse` no terminal ou clique no botão **Ellipse** na barra de ferramentas.
 2. **Clique no ponto central**, ou digite `X,Y` e pressione **Enter** para uma coordenada exata.
 3. **Clique no ponto final do primeiro eixo** — define tanto a direção quanto o comprimento do primeiro semieixo. A entrada de coordenadas também funciona aqui.
 4. **Defina o comprimento do segundo eixo** — mova o cursor perpendicularmente ao primeiro eixo, depois clique ou digite um comprimento.

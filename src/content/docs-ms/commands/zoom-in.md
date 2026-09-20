@@ -8,11 +8,11 @@ order: 2
 
 # Zoom In
 
-Arahan `zoomin` mendarab paras zum semasa sebanyak **1.5×** dan keluar serta-merta, berpusat pada titik tengah viewport. Ia adalah setara bar alat satu tick roda tatal yang dizum ke arah pusat skrin dan bukannya kursor.
+Arahan `Besarkan` mendarab paras zum semasa sebanyak **1.5×** dan keluar serta-merta, berpusat pada titik tengah viewport. Ia adalah setara bar alat satu tick roda tatal yang dizum ke arah pusat skrin dan bukannya kursor.
 
 ## Zum masuk
 
-Klik butang bar alat **Zoom In** atau taip `zoomin` dalam terminal. Zum digunakan serta-merta dan arahan keluar — tiada klik pada kanvas diperlukan.
+Klik butang bar alat **Zoom In** atau taip `Besarkan` dalam terminal. Zum digunakan serta-merta dan arahan keluar — tiada klik pada kanvas diperlukan.
 
 ## Bagaimana langkah 1.5× berfungsi
 

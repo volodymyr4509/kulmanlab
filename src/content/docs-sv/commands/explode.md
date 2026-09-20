@@ -8,7 +8,7 @@ order: 16
 
 # Explode
 
-`explode`-kommandot delar upp en [Polyline](../polyline/) i dess enskilda [Line](../line/)- och [Arc](../arc/)-entiteter — en per segment, exakt där polylinjens egna hörnpunkter låg. Delarna ersätter polylinjen på plats och behåller dess linjetjocklek, färg, lager och linjetyp.
+`DelaUpp`-kommandot delar upp en [Polyline](../polyline/) i dess enskilda [Line](../line/)- och [Arc](../arc/)-entiteter — en per segment, exakt där polylinjens egna hörnpunkter låg. Delarna ersätter polylinjen på plats och behåller dess linjetjocklek, färg, lager och linjetyp.
 
 Explode fungerar endast på **Polyline**-entiteter.
 
@@ -19,13 +19,13 @@ Två sätt att köra det, samma mönster som [Delete](../delete/):
 **Markera först, sedan explodera** — den snabbaste vägen:
 
 1. Markera en eller flera polylinjer på ritytan.
-2. Skriv `explode` i terminalen, eller klicka på knappen **Explode** i Edit-panelen.
+2. Skriv `DelaUpp` i terminalen, eller klicka på knappen **Explode** i Edit-panelen.
 
 De markerade polylinjerna exploderas omedelbart — inget separat bekräftelsesteg, eftersom något redan är markerat.
 
 **Aktivera, sedan markera**:
 
-1. Skriv `explode` eller klicka på verktygsfältsknappen utan att något är markerat.
+1. Skriv `DelaUpp` eller klicka på verktygsfältsknappen utan att något är markerat.
 2. **Markera polylinjer** — klicka för att växla, eller dra för att markera efter område.
 3. Tryck på **Enter** eller **Mellanslag** för att bekräfta och explodera de markerade polylinjerna.
 

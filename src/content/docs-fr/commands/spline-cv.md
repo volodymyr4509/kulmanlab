@@ -8,11 +8,11 @@ order: 8
 
 # Spline CV
 
-La commande `splinecv` trace une **B-spline cubique** en plaçant des sommets de contrôle (SC). La courbe résultante est attirée vers chaque SC mais ne les traverse pas — sauf au premier et au dernier sommet, où les **nœuds serrés** ancrent la courbe exactement. Cela vous donne un contrôle de forme intuitif : tirez un sommet pour pousser la courbe vers lui sans la forcer à toucher chaque point.
+La commande `SplineSommets` trace une **B-spline cubique** en plaçant des sommets de contrôle (SC). La courbe résultante est attirée vers chaque SC mais ne les traverse pas — sauf au premier et au dernier sommet, où les **nœuds serrés** ancrent la courbe exactement. Cela vous donne un contrôle de forme intuitif : tirez un sommet pour pousser la courbe vers lui sans la forcer à toucher chaque point.
 
 ## Tracer une spline par sommets de contrôle
 
-1. Tapez `splinecv` dans le terminal ou cliquez sur le bouton **Spline CV** de la barre d'outils.
+1. Tapez `SplineSommets` dans le terminal ou cliquez sur le bouton **Spline CV** de la barre d'outils.
 2. **Cliquez pour placer des sommets de contrôle** — chaque clic ajoute un sommet. Ou tapez `X,Y` et appuyez sur **Entrée** pour une coordonnée exacte.
 3. Appuyez sur **Entrée** ou **Espace** pour terminer (au moins 2 sommets requis).
 

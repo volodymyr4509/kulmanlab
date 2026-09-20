@@ -8,20 +8,20 @@ order: 1
 
 # Move
 
-Komento `move` siirtää valitut entiteetit perustepisteestä kohdepisteeseen. Jokaiseen valittuun entiteettiin sovellettava siirtymä on vektori perustasta kohteeseen. Siirron jälkeen kaikki entiteetit pysyvät valittuina uudessa sijainnissaan, valmiina lisämuokkauksiin.
+Komento `Siirrä` siirtää valitut entiteetit perustepisteestä kohdepisteeseen. Jokaiseen valittuun entiteettiin sovellettava siirtymä on vektori perustasta kohteeseen. Siirron jälkeen kaikki entiteetit pysyvät valittuina uudessa sijainnissaan, valmiina lisämuokkauksiin.
 
 ## Kaksi tapaa aloittaa
 
 **Valitse ensin, siirrä sitten** — valitse entiteetit ensin, aktivoi sitten:
 
 1. Valitse yksi tai useampi entiteetti piirtoalueella.
-2. Kirjoita `move` terminaaliin tai napsauta **Move**-painiketta työkalurivillä.
+2. Kirjoita `Siirrä` terminaaliin tai napsauta **Move**-painiketta työkalurivillä.
 3. **Napsauta perustepistettä**, tai kirjoita `X,Y` ja paina **Enter** tarkkaa koordinaattia varten.
 4. **Napsauta kohdetta** — kaikki valitut entiteetit siirtyvät perusta→kohde-vektorilla. Koordinaattien syöttö toimii myös täällä.
 
 **Aktivoi, valitse sitten** — aloita komento ilman mitään valittuna:
 
-1. Kirjoita `move` tai napsauta työkalurivin painiketta.
+1. Kirjoita `Siirrä` tai napsauta työkalurivin painiketta.
 2. **Valitse objektit** — napsauta vaihtaaksesi yksittäisiä entiteettejä, tai vedä valitaksesi alueen mukaan.
 3. Paina **Enter** tai **Space** vahvistaaksesi valinnan.
 4. **Napsauta perustepistettä**, napsauta sitten **kohdetta** (koordinaattien syöttö käytettävissä molemmissa vaiheissa).

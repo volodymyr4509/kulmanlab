@@ -8,14 +8,14 @@ order: 6
 
 # Align
 
-Lệnh `align` định vị lại các thực thể đã chọn bằng một hoặc hai cặp điểm nguồn/đích. Với một cặp, lệnh hoạt động giống hệt [Move](../move/) (chỉ dịch chuyển). Với hai cặp, lệnh còn xoay vùng chọn sao cho hướng nguồn-đến-nguồn khớp với hướng đích-đến-đích, và có thể tùy chọn thu phóng để chiều dài đoạn nguồn khớp với chiều dài đoạn đích — dịch chuyển, xoay và thu phóng trong một thao tác duy nhất.
+Lệnh `CănChỉnh` định vị lại các thực thể đã chọn bằng một hoặc hai cặp điểm nguồn/đích. Với một cặp, lệnh hoạt động giống hệt [Move](../move/) (chỉ dịch chuyển). Với hai cặp, lệnh còn xoay vùng chọn sao cho hướng nguồn-đến-nguồn khớp với hướng đích-đến-đích, và có thể tùy chọn thu phóng để chiều dài đoạn nguồn khớp với chiều dài đoạn đích — dịch chuyển, xoay và thu phóng trong một thao tác duy nhất.
 
 ## Hai Cách Bắt Đầu
 
 **Chọn trước, rồi căn chỉnh** — chọn thực thể trước, sau đó kích hoạt:
 
 1. Chọn một hoặc nhiều thực thể trên canvas.
-2. Gõ `align` trong terminal hoặc nhấp nút **Align** trên thanh công cụ.
+2. Gõ `CănChỉnh` trong terminal hoặc nhấp nút **Align** trên thanh công cụ.
 3. **Nhấp điểm nguồn thứ nhất (S1)**, rồi **nhấp điểm đích thứ nhất (D1)**.
 4. **Nhấp điểm nguồn thứ hai (S2)**, hoặc nhấn **Enter** hoặc **Space** để áp dụng ngay một căn chỉnh chỉ dịch chuyển.
 5. **Nhấp điểm đích thứ hai (D2)**.
@@ -23,7 +23,7 @@ Lệnh `align` định vị lại các thực thể đã chọn bằng một ho�
 
 **Kích hoạt, rồi chọn** — bắt đầu lệnh khi không có gì được chọn:
 
-1. Gõ `align` hoặc nhấp nút thanh công cụ.
+1. Gõ `CănChỉnh` hoặc nhấp nút thanh công cụ.
 2. **Chọn đối tượng** — nhấp để bật/tắt thực thể riêng lẻ, hoặc kéo để chọn theo vùng.
 3. Nhấn **Enter** hoặc **Space** để xác nhận lựa chọn.
 4. Tiếp tục với S1 → D1 → S2 → D2 → câu hỏi thu phóng như trên.
@@ -97,4 +97,4 @@ Các thực thể đã căn chỉnh vẫn được chọn tại vị trí mới,
 
 ## Thực Thể Được Hỗ Trợ
 
-Align hoạt động trên mọi loại thực thể mà Move, Rotate và Scale hỗ trợ — các thao tác `translate`, `rotate` và `scale` giống hệt mà các lệnh đó sử dụng được áp dụng tuần tự, vì vậy không loại nào bị loại trừ.
+Align hoạt động trên mọi loại thực thể mà Move, Rotate và Scale hỗ trợ — các thao tác `translate`, `Xoay` và `ThuPhóng` giống hệt mà các lệnh đó sử dụng được áp dụng tuần tự, vì vậy không loại nào bị loại trừ.

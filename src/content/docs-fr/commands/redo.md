@@ -8,11 +8,11 @@ order: 14
 
 # Redo
 
-La commande `redo` avance dans l'historique des annulations, rétablissant les actions qui ont été inversées par [Undo](../undo/). Redo n'est disponible que quand vous avez reculé avec Undo et n'avez pas encore fait un nouveau changement.
+La commande `Rétablir` avance dans l'historique des annulations, rétablissant les actions qui ont été inversées par [Undo](../undo/). Redo n'est disponible que quand vous avez reculé avec Undo et n'avez pas encore fait un nouveau changement.
 
 ## Comment rétablir
 
-- Tapez `redo` dans le terminal, ou
+- Tapez `Rétablir` dans le terminal, ou
 - Cliquez sur le bouton **Redo** de la barre d'outils.
 
 Chaque invocation rétablit une action précédemment annulée. Invoquez-la à plusieurs reprises pour avancer dans toutes les entrées de rétablissement disponibles.

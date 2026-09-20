@@ -8,11 +8,11 @@ order: 5
 
 # HatchAdd
 
-Kommandoen `HatchAdd` åbner systemets filvælger til upload af en `.pat`-skraveringsfil, uden først at åbne dialogen [Hatch Manager](../hatch-manager/). Det er den samme upload, som knappen **Add .pat File** i Hatch Manager udløser — HatchAdd er blot en direkte vej dertil fra terminalen.
+Kommandoen `SkraveringTilføj` åbner systemets filvælger til upload af en `.pat`-skraveringsfil, uden først at åbne dialogen [Hatch Manager](../hatch-manager/). Det er den samme upload, som knappen **Add .pat File** i Hatch Manager udløser — HatchAdd er blot en direkte vej dertil fra terminalen.
 
 ## Upload en mønsterfil
 
-1. Skriv `HatchAdd` i terminalen, eller klik **Add .pat File** i bunden af dialogen [Hatch Manager](../hatch-manager/).
+1. Skriv `SkraveringTilføj` i terminalen, eller klik **Add .pat File** i bunden af dialogen [Hatch Manager](../hatch-manager/).
 2. Vælg en `.pat`-fil i systemvælgeren. Kun standardformatet for skraveringsmønstre accepteres.
 
 Kommandoen slutter, så snart filvælgeren åbner — der følger ingen yderligere prompt, klik eller terminalinput. Mønstrene registreres og vises i gruppen **User**, så snart filen er valgt.

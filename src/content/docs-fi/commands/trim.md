@@ -8,11 +8,11 @@ order: 8
 
 # Trim
 
-Komento `trim` poistaa sen osan [Line](../line/)-, [Arc](../arc/)-, [Circle](../circle/)-, [Ellipse](../ellipse/)- tai [Polyline](../polyline/)-entiteetistä, joka sijaitsee kahden vierekkäisen leikkauspisteen välillä, jakaen entiteetin yhteen tai useampaan jäljelle jäävään osaan. Leikattava segmentti määräytyy kohdistimen sijainnin mukaan — pidä kohdistinta poistettavan osan päällä ja napsauta leikataksesi sen.
+Komento `Leikkaa` poistaa sen osan [Line](../line/)-, [Arc](../arc/)-, [Circle](../circle/)-, [Ellipse](../ellipse/)- tai [Polyline](../polyline/)-entiteetistä, joka sijaitsee kahden vierekkäisen leikkauspisteen välillä, jakaen entiteetin yhteen tai useampaan jäljelle jäävään osaan. Leikattava segmentti määräytyy kohdistimen sijainnin mukaan — pidä kohdistinta poistettavan osan päällä ja napsauta leikataksesi sen.
 
 ## Entiteetin leikkaaminen
 
-1. Kirjoita `trim` terminaaliin tai napsauta **Trim**-painiketta työkalurivillä.
+1. Kirjoita `Leikkaa` terminaaliin tai napsauta **Trim**-painiketta työkalurivillä.
 2. **Pidä kohdistinta poistettavan segmentin päällä** — esikatselu korostaa tarkalleen osan, joka leikataan.
 3. **Napsauta** poistaaksesi kyseisen segmentin.
 

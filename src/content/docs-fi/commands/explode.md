@@ -8,7 +8,7 @@ order: 16
 
 # Explode
 
-`explode`-komento pilkkoo [Polylinen](../polyline/) sen yksittäisiin [Line](../line/)- ja [Arc](../arc/)-entiteetteihin — yksi per segmentti, täsmälleen siinä missä polylinen omat kärkipisteet olivat. Palat korvaavat polylinen paikallaan ja säilyttävät sen viivanpaksuuden, värin, tason ja viivatyypin.
+`Hajota`-komento pilkkoo [Polylinen](../polyline/) sen yksittäisiin [Line](../line/)- ja [Arc](../arc/)-entiteetteihin — yksi per segmentti, täsmälleen siinä missä polylinen omat kärkipisteet olivat. Palat korvaavat polylinen paikallaan ja säilyttävät sen viivanpaksuuden, värin, tason ja viivatyypin.
 
 Explode toimii vain **Polyline**-entiteeteille.
 
@@ -19,13 +19,13 @@ Kaksi tapaa suorittaa se, sama kaava kuin [Delete](../delete/):ssä:
 **Valitse ensin, sitten pilko** — nopein reitti:
 
 1. Valitse yksi tai useampi polyline piirtoalueelta.
-2. Kirjoita `explode` terminaaliin, tai napsauta **Explode**-painiketta Edit-paneelissa.
+2. Kirjoita `Hajota` terminaaliin, tai napsauta **Explode**-painiketta Edit-paneelissa.
 
 Valitut polylinet pilkotaan välittömästi — ei erillistä vahvistusvaihetta, koska jotain on jo valittuna.
 
 **Aktivoi, valitse sitten**:
 
-1. Kirjoita `explode` tai napsauta työkalurivin painiketta ilman mitään valittuna.
+1. Kirjoita `Hajota` tai napsauta työkalurivin painiketta ilman mitään valittuna.
 2. **Valitse polylinet** — napsauta vaihtaaksesi, tai vedä valitaksesi alueen mukaan.
 3. Paina **Enter** tai **Välilyönti** vahvistaaksesi ja pilkkoaksesi valitut polylinet.
 

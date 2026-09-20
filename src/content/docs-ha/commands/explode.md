@@ -8,7 +8,7 @@ order: 16
 
 # Explode
 
-Umarnin `explode` yana rarraba [Polyline](../polyline/) zuwa abubuwan [Line](../line/) da [Arc](../arc/) daban-daban nata — ɗaya ga kowane sashi, daidai inda kusurwoyin polyline da kansa suke. Guntuwan suna maye gurbin polyline a wurinta kuma suna riƙe da kaurin layi, launi, Layer, da linetype nata.
+Umarnin `Wargaza` yana rarraba [Polyline](../polyline/) zuwa abubuwan [Line](../line/) da [Arc](../arc/) daban-daban nata — ɗaya ga kowane sashi, daidai inda kusurwoyin polyline da kansa suke. Guntuwan suna maye gurbin polyline a wurinta kuma suna riƙe da kaurin layi, launi, Layer, da linetype nata.
 
 Explode tana aiki kawai da abubuwan **Polyline**.
 
@@ -19,13 +19,13 @@ Hanyoyi biyu don gudanar da ita, tsari iri ɗaya da [Delete](../delete/):
 **Zaɓi da farko, sannan explode** — hanya mafi sauri:
 
 1. Zaɓi polyline ɗaya ko fiye a kan canvas.
-2. Rubuta `explode` a tashar umarni, ko danna maɓallin **Explode** a panel na Edit.
+2. Rubuta `Wargaza` a tashar umarni, ko danna maɓallin **Explode** a panel na Edit.
 
 Ana fashe polyline ɗin da aka zaɓa nan take — babu wani mataki na tabbatarwa daban, tunda an riga an zaɓi wani abu.
 
 **Kunna umarnin, sannan zaɓi**:
 
-1. Rubuta `explode` ko danna maɓallin kayan aiki ba tare da zaɓin komai ba.
+1. Rubuta `Wargaza` ko danna maɓallin kayan aiki ba tare da zaɓin komai ba.
 2. **Zaɓi polylines** — danna don sauyawa, ko ja don zaɓar yanki.
 3. Danna **Enter** ko **Space** don tabbatarwa da fashe polylines da aka zaɓa.
 

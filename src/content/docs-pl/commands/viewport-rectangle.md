@@ -8,12 +8,12 @@ order: 1
 
 # ViewportRectangle
 
-Polecenie `ViewportRectangle` tworzy nowe okno widoku w aktywnym układzie papieru przez wyznaczenie dwóch przeciwnych narożników. Dostępne tylko w przestrzeni układu.
+Polecenie `RzutniaProstokąt` tworzy nowe okno widoku w aktywnym układzie papieru przez wyznaczenie dwóch przeciwnych narożników. Dostępne tylko w przestrzeni układu.
 
 ## Tworzenie okna widoku
 
 1. Przełącz się na układ papieru za pomocą zakładki na dole ekranu.
-2. Wpisz `ViewportRectangle` w terminalu lub kliknij przycisk **Prostokąt widoku** na pasku narzędzi.
+2. Wpisz `RzutniaProstokąt` w terminalu lub kliknij przycisk **Prostokąt widoku** na pasku narzędzi.
 3. **Kliknij pierwszy narożnik** lub wpisz `X,Y` i naciśnij **Enter** dla dokładnej współrzędnej.
 4. **Kliknij przeciwny narożnik** — okno widoku jest natychmiast umieszczane. Tutaj również działa wprowadzanie współrzędnych.
 

@@ -8,11 +8,11 @@ order: 5
 
 # Arc
 
-Arahan `arc` melukis lengkok bulatan melalui tiga titik yang anda klik. Lengkok dikira sebagai circumcircle unik yang melalui ketiga-tiga titik — tidak perlu menentukan pusat atau jejari secara langsung. Lengkok berjalan dari klik pertama ke klik ketiga, melalui yang kedua.
+Arahan `Busur` melukis lengkok bulatan melalui tiga titik yang anda klik. Lengkok dikira sebagai circumcircle unik yang melalui ketiga-tiga titik — tidak perlu menentukan pusat atau jejari secara langsung. Lengkok berjalan dari klik pertama ke klik ketiga, melalui yang kedua.
 
 ## Melukis lengkok
 
-1. Taip `arc` dalam terminal atau klik butang bar alat **Arc**.
+1. Taip `Busur` dalam terminal atau klik butang bar alat **Arc**.
 2. **Klik titik pertama** — satu hujung lengkok. Atau taip `X,Y` dan tekan **Enter** untuk koordinat tepat.
 3. **Klik titik kedua** — titik yang mesti dilalui lengkok (mengawal kelengkungan dan arah). Kemasukan koordinat juga berfungsi di sini.
 4. **Klik titik ketiga** — hujung lain lengkok. Lengkok diletakkan dan arahan keluar. Kemasukan koordinat juga berfungsi di sini.

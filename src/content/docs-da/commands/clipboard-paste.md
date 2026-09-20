@@ -8,11 +8,11 @@ order: 18
 
 # ClipboardPaste
 
-Kommandoen `ClipboardPaste` læser de entiteter, som [ClipboardCopy](../clipboard-copy/) skrev til **systemets udklipsholder**, og placerer dem i den aktuelle tegning på et punkt, du vælger. Fordi udklipsholderen er systemets rigtige, kan kilden være en anden tegning, en anden browserfane eller en session fra tidligere på dagen.
+Kommandoen `IndsætFraUdklipsholder` læser de entiteter, som [ClipboardCopy](../clipboard-copy/) skrev til **systemets udklipsholder**, og placerer dem i den aktuelle tegning på et punkt, du vælger. Fordi udklipsholderen er systemets rigtige, kan kilden være en anden tegning, en anden browserfane eller en session fra tidligere på dagen.
 
 ## Sådan indsætter du
 
-1. Tryk `Ctrl+V` (`Cmd+V` på macOS), eller skriv `ClipboardPaste` i terminalen.
+1. Tryk `Ctrl+V` (`Cmd+V` på macOS), eller skriv `IndsætFraUdklipsholder` i terminalen.
 2. Prompten viser **reading clipboard…**, mens browseren overdrager udklipsteksten.
 3. Når den er indlæst, skifter prompten til **pick insertion point**, og en forhåndsvisning af geometrien følger markøren.
 4. **Klik** for at placere entiteterne. De føjes til tegningen og forbliver markerede.

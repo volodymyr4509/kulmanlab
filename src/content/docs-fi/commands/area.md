@@ -8,7 +8,7 @@ order: 3
 
 # Area
 
-Komento `area` mittaa kolmen tai useamman napsautetun pisteen määrittelemän monikulmion sisäalueen ja piirin, ja tulostaa molemmat tulokset terminaaliin 4 desimaalin tarkkuudella. Se on kolmas mittauskomento, [Distance](../distance/)- (suoran viivan pituus) ja [Angle](../angle/)-komentojen (sisäkulma kärkipisteessä) rinnalla.
+Komento `PintaAla` mittaa kolmen tai useamman napsautetun pisteen määrittelemän monikulmion sisäalueen ja piirin, ja tulostaa molemmat tulokset terminaaliin 4 desimaalin tarkkuudella. Se on kolmas mittauskomento, [Distance](../distance/)- (suoran viivan pituus) ja [Angle](../angle/)-komentojen (sisäkulma kärkipisteessä) rinnalla.
 
 ## Alan mittauksen anatomia
 
@@ -30,7 +30,7 @@ Komento `area` mittaa kolmen tai useamman napsautetun pisteen määrittelemän m
 
 ## Alan mittaaminen
 
-1. Kirjoita `area` terminaaliin tai napsauta **Area**-painiketta työkalurivillä (Measure-paneelin alarivi).
+1. Kirjoita `PintaAla` terminaaliin tai napsauta **Area**-painiketta työkalurivillä (Measure-paneelin alarivi).
 2. **Napsauta ensimmäistä pistettä**, tai kirjoita `X,Y` ja paina **Enter** tarkkaa koordinaattia varten.
 3. **Napsauta jokaista lisäkärkeä** järjestyksessä muodon ympäri. Koordinaattien syöttö toimii jokaisessa vaiheessa.
 4. Kun vähintään **3 pistettä** on sijoitettu, paina **Enter** tai **Space** (ilman odottavaa koordinaatti- tai etäisyyssyötettä) sulkeaksesi monikulmion ja laskeaksesi tuloksen.
@@ -93,5 +93,5 @@ Napsauttamisen sijaan voit kirjoittaa tarkan sijainnin mille tahansa kärjelle:
 - Ala lasketaan [shoelace-kaavalla](https://en.wikipedia.org/wiki/Shoelace_formula) ja ilmoitetaan aina positiivisena arvona napsautusjärjestyksestä riippumatta.
 - Itseään leikkaavat monikulmiot (toisiaan leikkaavat reunat) tuottavat silti numeerisen tuloksen, mutta arvo ei välttämättä vastaa visuaalisesti suljettua aluetta — pidä napsautusjärjestys ei-leikkaavana merkityksellistä alaa varten.
 - Tulokset näytetään **vain terminaalissa ja väliaikaisena korostuksena piirtoalueella** — mitään ei lisätä piirustukseen pysyvänä entiteettinä.
-- Toisin kuin Distance ja Angle, Area **ei** ketjutu automaattisesti uuteen mittaukseen — hylättyäsi tuloksen, aja `area` uudelleen mitataksesi toisen monikulmion.
+- Toisin kuin Distance ja Angle, Area **ei** ketjutu automaattisesti uuteen mittaukseen — hylättyäsi tuloksen, aja `PintaAla` uudelleen mitataksesi toisen monikulmion.
 - Tarkkuus on aina 4 desimaalia sekä alalle että piirille, samoissa yksiköissä kuin piirustuksen koordinaatit (ei yksikkömuunnosta).

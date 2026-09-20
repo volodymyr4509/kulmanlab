@@ -8,11 +8,11 @@ order: 3
 
 # Rectangle
 
-Arahan `rectangle` melukis segi empat tepat sejajar paksi yang ditakrifkan oleh dua klik sudut bertentangan. Hasilnya disimpan sebagai **`LWPOLYLINE` tertutup** dengan empat bucu — satu di setiap sudut. Tiada jenis entiti segi empat tepat khusus: selepas dicipta, bentuk berkelakuan persis seperti mana-mana [Polyline](../polyline/) lain dan setiap edit poliline terpakai padanya.
+Arahan `SegiEmpatTepat` melukis segi empat tepat sejajar paksi yang ditakrifkan oleh dua klik sudut bertentangan. Hasilnya disimpan sebagai **`LWPOLYLINE` tertutup** dengan empat bucu — satu di setiap sudut. Tiada jenis entiti segi empat tepat khusus: selepas dicipta, bentuk berkelakuan persis seperti mana-mana [Polyline](../polyline/) lain dan setiap edit poliline terpakai padanya.
 
 ## Melukis segi empat tepat
 
-1. Taip `rectangle` dalam terminal atau klik butang bar alat **Rectangle**.
+1. Taip `SegiEmpatTepat` dalam terminal atau klik butang bar alat **Rectangle**.
 2. **Klik sudut pertama**, atau taip `X,Y` dan tekan **Enter** untuk koordinat tepat.
 3. **Klik sudut bertentangan** — segi empat tepat diletakkan serta-merta dan arahan keluar. Kemasukan koordinat juga berfungsi di sini. Atau tekan `D` sebaliknya untuk menaip lebar dan tinggi yang tepat — lihat [Kemasukan Dimensi](#kemasukan-dimensi) di bawah.
 

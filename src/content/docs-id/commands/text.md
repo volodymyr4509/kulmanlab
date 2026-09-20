@@ -8,13 +8,13 @@ order: 0
 
 # Text
 
-Perintah `text` menempatkan label teks multi-baris. Setelah Anda mengklik posisi di kanvas, editor popup terbuka dalam mode **kaya** — Anda dapat mengetik konten, menerapkan tebal/miring/garis bawah/coret per karakter, mengubah font dan tinggi, dan menyisipkan jeda baris. Tekan **Escape** untuk mengonfirmasi dan menutup editor.
+Perintah `Teks` menempatkan label teks multi-baris. Setelah Anda mengklik posisi di kanvas, editor popup terbuka dalam mode **kaya** — Anda dapat mengetik konten, menerapkan tebal/miring/garis bawah/coret per karakter, mengubah font dan tinggi, dan menyisipkan jeda baris. Tekan **Escape** untuk mengonfirmasi dan menutup editor.
 
 Lihat halaman [Text Editor](../../interface/text-editor/) untuk referensi editor lengkap, termasuk perbandingan mode **kaya** dan **sederhana**.
 
 ## Menempatkan label teks
 
-1. Ketik `text` di terminal atau klik tombol toolbar **Text**.
+1. Ketik `Teks` di terminal atau klik tombol toolbar **Text**.
 2. **Klik posisi jangkar** di kanvas. Atau ketik `X,Y` dan tekan **Enter** untuk koordinat tepat.
 3. **Editor popup teks** terbuka di atas label baru. Ketik konten Anda.
 4. Tekan **Escape** untuk mengonfirmasi label dan menutup editor.

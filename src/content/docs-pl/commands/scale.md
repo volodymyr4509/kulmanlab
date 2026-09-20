@@ -8,20 +8,20 @@ order: 5
 
 # Scale
 
-Polecenie `scale` równomiernie zmienia rozmiar zaznaczonych elementów wokół punktu bazowego. Wszystkie odległości od punktu bazowego są mnożone przez współczynnik skali — współczynnik `2` podwaja wszystkie wymiary, `0.5` je połowi. Współczynnik jest zawsze wprowadzany przez wpisanie; nie ma kliknięcia-aby-ustawić-skalę.
+Polecenie `Skaluj` równomiernie zmienia rozmiar zaznaczonych elementów wokół punktu bazowego. Wszystkie odległości od punktu bazowego są mnożone przez współczynnik skali — współczynnik `2` podwaja wszystkie wymiary, `0.5` je połowi. Współczynnik jest zawsze wprowadzany przez wpisanie; nie ma kliknięcia-aby-ustawić-skalę.
 
 ## Dwa sposoby uruchamiania
 
 **Wstępne zaznaczenie, a następnie skalowanie** — najpierw zaznacz elementy, a następnie aktywuj:
 
 1. Zaznacz jeden lub więcej elementów na płótnie.
-2. Wpisz `scale` w terminalu lub kliknij przycisk **Skaluj** na pasku narzędzi.
+2. Wpisz `Skaluj` w terminalu lub kliknij przycisk **Skaluj** na pasku narzędzi.
 3. **Kliknij punkt bazowy** — stały punkt, który nie porusza się podczas skalowania. Lub wpisz `X,Y` i naciśnij **Enter** dla dokładnej współrzędnej.
 4. **Wpisz współczynnik skali** i naciśnij **Enter**.
 
 **Aktywuj, a następnie zaznacz** — uruchom polecenie bez zaznaczonego niczego:
 
-1. Wpisz `scale` lub kliknij przycisk paska narzędzi.
+1. Wpisz `Skaluj` lub kliknij przycisk paska narzędzi.
 2. **Zaznacz obiekty** — kliknij, aby przełączać, lub przeciągnij, aby zaznaczyć obszarem.
 3. Naciśnij **Enter** lub **Spację**, aby potwierdzić zaznaczenie.
 4. **Kliknij punkt bazowy** (dostępne wprowadzanie współrzędnych), następnie wpisz współczynnik.

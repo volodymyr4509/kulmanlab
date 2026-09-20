@@ -8,11 +8,11 @@ order: 2
 
 # Zoom In
 
-`zoomin`-kommandot multiplicerar den aktuella zoomnivån med **1,5×** och avslutas omedelbart, centrerat på vyportens mittpunkt. Det är verktygsfältets motsvarighet till ett klick på scrollhjulet, fast zoomat mot skärmens centrum istället för markören.
+`ZoomaIn`-kommandot multiplicerar den aktuella zoomnivån med **1,5×** och avslutas omedelbart, centrerat på vyportens mittpunkt. Det är verktygsfältets motsvarighet till ett klick på scrollhjulet, fast zoomat mot skärmens centrum istället för markören.
 
 ## Zooma in
 
-Klicka på **Zoom In**-knappen i verktygsfältet eller skriv `zoomin` i terminalen. Zoomen appliceras omedelbart och kommandot avslutas — inget klick på ritytan krävs.
+Klicka på **Zoom In**-knappen i verktygsfältet eller skriv `ZoomaIn` i terminalen. Zoomen appliceras omedelbart och kommandot avslutas — inget klick på ritytan krävs.
 
 ## Så fungerar 1,5×-steget
 

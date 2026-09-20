@@ -8,11 +8,11 @@ order: 1
 
 # Pan
 
-Pumapasok ang `pan` command sa isang persistent na drag-to-scroll mode — i-click at i-drag ang kahit saan sa canvas para ilipat ang view. Hindi nagbabago ang zoom level. Nananatiling aktibo ang Pan mode hanggang pindutin mo ang `Escape`, kaya puwede kang mag-drag nang paulit-ulit sa isang activation.
+Pumapasok ang `Igalaw` command sa isang persistent na drag-to-scroll mode — i-click at i-drag ang kahit saan sa canvas para ilipat ang view. Hindi nagbabago ang zoom level. Nananatiling aktibo ang Pan mode hanggang pindutin mo ang `Escape`, kaya puwede kang mag-drag nang paulit-ulit sa isang activation.
 
 ## Pag-pan sa View
 
-1. I-type ang `pan` sa terminal o i-click ang **Pan** button sa toolbar.
+1. I-type ang `Igalaw` sa terminal o i-click ang **Pan** button sa toolbar.
 2. **I-click at i-drag** ang kahit saan sa canvas para ilipat ang view.
 3. Bitawan at i-drag ulit kung ilang beses mang kailangan.
 4. Pindutin ang `Escape` para lumabas sa pan mode.

@@ -8,11 +8,11 @@ order: 3
 
 # File Manager
 
-Polecenie `FileManager` otwiera **siatkę miniatur** każdego rysunku zapisanego w lokalnej pamięci przeglądarki, uporządkowaną według czasu ostatniego zapisu. Użyj go, aby ponownie otworzyć poprzedni rysunek, zmienić jego nazwę lub go usunąć.
+Polecenie `MenedżerPlików` otwiera **siatkę miniatur** każdego rysunku zapisanego w lokalnej pamięci przeglądarki, uporządkowaną według czasu ostatniego zapisu. Użyj go, aby ponownie otworzyć poprzedni rysunek, zmienić jego nazwę lub go usunąć.
 
 ## Otwieranie File Manager
 
-- Wpisz `FileManager` w terminalu, **lub**
+- Wpisz `MenedżerPlików` w terminalu, **lub**
 - Kliknij przycisk paska narzędzi **File Manager** (ikona historii) w panelu plików u góry ekranu.
 
 Panel otwiera się po lewej stronie płótna i zamyka się automatycznie, gdy tylko uruchomisz inne polecenie lub [zaimportujesz](../import/) plik — dzięki czemu nigdy nie pozostaje nad rysunkiem, którego jeszcze nie ma na liście. Za każdym razem otwiera się na nowo z odświeżoną listą.

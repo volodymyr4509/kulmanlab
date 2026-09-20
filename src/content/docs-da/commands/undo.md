@@ -8,11 +8,11 @@ order: 13
 
 # Undo
 
-Kommandoen `undo` reverserer den seneste ændring i tegningen — ét trin pr. kaldelse. Hver tilføjelse, sletning eller redigering af entiteter registreres som en separat historikpost. Undo går tilbage gennem disse poster i omvendt rækkefølge.
+Kommandoen `FortrydHandling` reverserer den seneste ændring i tegningen — ét trin pr. kaldelse. Hver tilføjelse, sletning eller redigering af entiteter registreres som en separat historikpost. Undo går tilbage gennem disse poster i omvendt rækkefølge.
 
 ## Sådan fortryder du
 
-- Skriv `undo` i terminalen, eller
+- Skriv `FortrydHandling` i terminalen, eller
 - Klik på **Undo**-knappen i værktøjslinjen.
 
 Hver kaldelse reverserer én registreret handling. Kald den gentagne gange for at gå længere tilbage.

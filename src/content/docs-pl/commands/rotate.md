@@ -8,20 +8,20 @@ order: 3
 
 # Rotate
 
-Polecenie `rotate` obraca zaznaczone elementy wokół punktu bazowego. Kąt obrotu podajesz przez wpisanie liczby w stopniach lub przez kliknięcie — kąt jest obliczany z kierunku między punktem bazowym a pozycją kliknięcia.
+Polecenie `Obróć` obraca zaznaczone elementy wokół punktu bazowego. Kąt obrotu podajesz przez wpisanie liczby w stopniach lub przez kliknięcie — kąt jest obliczany z kierunku między punktem bazowym a pozycją kliknięcia.
 
 ## Dwa sposoby uruchamiania
 
 **Wstępne zaznaczenie, a następnie obrót** — najpierw zaznacz elementy, a następnie aktywuj:
 
 1. Zaznacz jeden lub więcej elementów na płótnie.
-2. Wpisz `rotate` w terminalu lub kliknij przycisk **Obróć** na pasku narzędzi.
+2. Wpisz `Obróć` w terminalu lub kliknij przycisk **Obróć** na pasku narzędzi.
 3. **Kliknij punkt bazowy** — środek obrotu. Lub wpisz `X,Y` i naciśnij **Enter** dla dokładnej współrzędnej.
 4. **Wpisz kąt i naciśnij Enter** lub **kliknij**, aby ustawić kąt z kierunku kursora.
 
 **Aktywuj, a następnie zaznacz** — uruchom polecenie bez zaznaczonego niczego:
 
-1. Wpisz `rotate` lub kliknij przycisk paska narzędzi.
+1. Wpisz `Obróć` lub kliknij przycisk paska narzędzi.
 2. **Zaznacz obiekty** — kliknij, aby przełączać, lub przeciągnij, aby zaznaczyć obszarem.
 3. Naciśnij **Enter** lub **Spację**, aby potwierdzić zaznaczenie.
 4. **Kliknij punkt bazowy** (dostępne wprowadzanie współrzędnych), następnie ustaw kąt.

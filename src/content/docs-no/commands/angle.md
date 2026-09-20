@@ -8,7 +8,7 @@ order: 2
 
 # Angle
 
-Kommandoen `angle` måler innvendig vinkel ved et toppunkt dannet av to linjesegmenter gjennom tre klikkede punkter. Resultatet — alltid mellom 0° og 180° — vises i terminalen med 4 desimaler. Det er én av tre målekommandoer — [Distance](../distance/) måler rett linjelengde, og [Area](../area/) måler omsluttet areal og omkrets for en polygon.
+Kommandoen `Vinkel` måler innvendig vinkel ved et toppunkt dannet av to linjesegmenter gjennom tre klikkede punkter. Resultatet — alltid mellom 0° og 180° — vises i terminalen med 4 desimaler. Det er én av tre målekommandoer — [Distance](../distance/) måler rett linjelengde, og [Area](../area/) måler omsluttet areal og omkrets for en polygon.
 
 ## Anatomien til en vinkelmåling
 
@@ -30,7 +30,7 @@ Kommandoen `angle` måler innvendig vinkel ved et toppunkt dannet av to linjeseg
 
 ## Måle en vinkel
 
-1. Skriv `angle` i terminalen eller klikk på **Angle**-knappen i verktøylinjen.
+1. Skriv `Vinkel` i terminalen eller klikk på **Angle**-knappen i verktøylinjen.
 2. **Klikk det første punktet** — den ene armenden av vinkelen. Eller skriv `X,Y` og trykk **Enter** for en eksakt koordinat.
 3. **Klikk toppunktet** — hjørnet der de to armene møtes. Koordinatinntasting fungerer også her.
 4. **Klikk det tredje punktet** — den andre armenden. Koordinatinntasting fungerer også her. Å plassere dette punktet skriver ut resultatet.

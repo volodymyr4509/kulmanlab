@@ -8,11 +8,11 @@ order: 4
 
 # Circle
 
-Der `circle`-Befehl zeichnet einen Kreis, der durch einen Mittelpunkt und einen Radius definiert wird. Nachdem der Mittelpunkt geklickt wurde, können Sie den Radius entweder durch Klicken eines zweiten Punktes auf der Zeichenfläche oder durch Eingabe einer genauen Zahl festlegen — beide Optionen sind gleichzeitig verfügbar.
+Der `Kreis`-Befehl zeichnet einen Kreis, der durch einen Mittelpunkt und einen Radius definiert wird. Nachdem der Mittelpunkt geklickt wurde, können Sie den Radius entweder durch Klicken eines zweiten Punktes auf der Zeichenfläche oder durch Eingabe einer genauen Zahl festlegen — beide Optionen sind gleichzeitig verfügbar.
 
 ## Einen Kreis zeichnen
 
-1. Geben Sie `circle` im Terminal ein oder klicken Sie auf die Schaltfläche **Circle** in der Symbolleiste.
+1. Geben Sie `Kreis` im Terminal ein oder klicken Sie auf die Schaltfläche **Circle** in der Symbolleiste.
 2. **Mittelpunkt klicken**, oder geben Sie `X,Y` ein und drücken Sie **Enter** für eine genaue Koordinate.
 3. Radius festlegen — entweder:
    - **Beliebigen Punkt klicken** auf der Zeichenfläche — der Abstand vom Mittelpunkt wird zum Radius, oder

@@ -8,12 +8,12 @@ order: 1
 
 # ViewportRectangle
 
-Amri ya `ViewportRectangle` huunda mwonekano mpya katika mpangilio wa karatasi unaofaa kwa kuchagua kona mbili zilizo kinyume. Inapatikana tu katika nafasi ya mpangilio (layout space).
+Amri ya `DirishaMstatili` huunda mwonekano mpya katika mpangilio wa karatasi unaofaa kwa kuchagua kona mbili zilizo kinyume. Inapatikana tu katika nafasi ya mpangilio (layout space).
 
 ## Kuunda mwonekano
 
 1. Badilisha kwenye mpangilio wa karatasi ukitumia kichupo chini ya skrini.
-2. Andika `ViewportRectangle` kwenye terminal au bonyeza kitufe cha **Viewport Rectangle** kwenye upau wa zana.
+2. Andika `DirishaMstatili` kwenye terminal au bonyeza kitufe cha **Viewport Rectangle** kwenye upau wa zana.
 3. **Bonyeza kona ya kwanza**, au andika `X,Y` na ubonyeze **Enter** kwa kuratibu sahihi.
 4. **Bonyeza kona iliyo kinyume** — mwonekano huwekwa mara moja. Uingizaji wa kuratibu unafanya kazi hapa pia.
 

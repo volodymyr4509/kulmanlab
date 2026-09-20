@@ -8,20 +8,20 @@ order: 3
 
 # Rotate
 
-Inii-rotate ng `rotate` command ang napiling entity paikot sa isang base point. Itinatakda mo ang rotation angle sa pamamagitan ng pag-type ng numero sa degrees o sa pamamagitan ng pag-click — kinakalkula ang angle mula sa direksyon sa pagitan ng base point at ng posisyon ng click.
+Inii-rotate ng `Iikot` command ang napiling entity paikot sa isang base point. Itinatakda mo ang rotation angle sa pamamagitan ng pag-type ng numero sa degrees o sa pamamagitan ng pag-click — kinakalkula ang angle mula sa direksyon sa pagitan ng base point at ng posisyon ng click.
 
 ## Dalawang paraan para magsimula
 
 **Pre-select, tapos rotate** — piliin muna ang mga entity, pagkatapos i-activate:
 
 1. Piliin ang isa o higit pang entity sa canvas.
-2. I-type ang `rotate` sa terminal o i-click ang **Rotate** button sa toolbar.
+2. I-type ang `Iikot` sa terminal o i-click ang **Rotate** button sa toolbar.
 3. **I-click ang base point** — ang sentro ng rotation. O i-type ang `X,Y` at pindutin ang **Enter** para sa eksaktong coordinate.
 4. **Mag-type ng angle at pindutin ang Enter**, o **mag-click** para itakda ang angle mula sa direksyon ng cursor.
 
 **Activate, tapos select** — simulan ang command nang walang naka-select:
 
-1. I-type ang `rotate` o i-click ang toolbar button.
+1. I-type ang `Iikot` o i-click ang toolbar button.
 2. **Piliin ang mga object** — mag-click para i-toggle, o mag-drag para pumili ayon sa area.
 3. Pindutin ang **Enter** o **Space** para kumpirmahin ang seleksyon.
 4. **I-click ang base point** (available ang coordinate entry), tapos itakda ang angle.

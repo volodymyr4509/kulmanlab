@@ -8,13 +8,13 @@ order: 11
 
 # Fillet
 
-Der `fillet`-Befehl rundet eine Ecke zwischen zwei [Line](../line/)-, [Arc](../arc/)- oder [Polyline](../polyline/)-Segmenten ab, indem er einen Tangentenbogen des angegebenen Radius einfügt und die gewählten Elemente bis zu diesem Punkt zurückschneidet (oder zusammenführt).
+Der `Abrunden`-Befehl rundet eine Ecke zwischen zwei [Line](../line/)-, [Arc](../arc/)- oder [Polyline](../polyline/)-Segmenten ab, indem er einen Tangentenbogen des angegebenen Radius einfügt und die gewählten Elemente bis zu diesem Punkt zurückschneidet (oder zusammenführt).
 
 Fillet funktioniert mit **Line-, Arc- und Polyline**-Elementen — einschließlich der geraden und Bogensegmente einer Polylinie.
 
 ## Fillet verwenden
 
-1. Geben Sie `fillet` im Terminal ein oder klicken Sie auf die Schaltfläche **Fillet** in der Symbolleiste.
+1. Geben Sie `Abrunden` im Terminal ein oder klicken Sie auf die Schaltfläche **Fillet** in der Symbolleiste.
 2. **Fillet-Radius eingeben** und **Enter** drücken.
 3. **Erste Linie, Bogen oder Polylinien-Segment klicken** — der geklickte Bereich bestimmt, welche Seite eines Schnittpunkts behalten wird.
 4. **Über das zweite Element hovern** — eine gestrichelte Bogenvorschau zeigt das resultierende Fillet. Bewegen Sie den Mauszeiger auf die Seite, die Sie behalten möchten.

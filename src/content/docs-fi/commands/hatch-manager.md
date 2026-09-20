@@ -8,11 +8,11 @@ order: 4
 
 # Hatch Manager
 
-`HatchManager`-komento avaa valintaikkunan hatch-kuvioiden selaamiseen suoralla näyteesikatselulla, ja omien `.pat`-kuviotiedostojen lataamiseen [Hatch](../hatch/)-komennon kanssa käytettäväksi.
+`Viivoitustenhallinta`-komento avaa valintaikkunan hatch-kuvioiden selaamiseen suoralla näyteesikatselulla, ja omien `.pat`-kuviotiedostojen lataamiseen [Hatch](../hatch/)-komennon kanssa käytettäväksi.
 
 ## Hatch Managerin avaaminen
 
-Kirjoita `HatchManager` päätteeseen. Tämä on eri asia kuin kuvionvalitsin, joka avautuu, kun napsautat hatchin **Pattern**-sirua — valitsin valitsee kuvion yhdelle hatchille, Hatch Manager on paikka, jossa lisäät tai poistat `.pat`-tiedostoja.
+Kirjoita `Viivoitustenhallinta` päätteeseen. Tämä on eri asia kuin kuvionvalitsin, joka avautuu, kun napsautat hatchin **Pattern**-sirua — valitsin valitsee kuvion yhdelle hatchille, Hatch Manager on paikka, jossa lisäät tai poistat `.pat`-tiedostoja.
 
 ## Kuvioryhmät
 

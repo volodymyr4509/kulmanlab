@@ -8,20 +8,20 @@ order: 4
 
 # Mirror
 
-Het `mirror`-commando maakt gespiegelde kopieën van geselecteerde entiteiten, gereflecteerd over een tweepuntsas. De originelen blijven **altijd behouden** — in tegenstelling tot [Move](../move/) of [Rotate](../rotate/) wijzigt Mirror nooit bestaande entiteiten; het voegt alleen nieuwe toe.
+Het `Spiegelen`-commando maakt gespiegelde kopieën van geselecteerde entiteiten, gereflecteerd over een tweepuntsas. De originelen blijven **altijd behouden** — in tegenstelling tot [Move](../move/) of [Rotate](../rotate/) wijzigt Mirror nooit bestaande entiteiten; het voegt alleen nieuwe toe.
 
 ## Twee manieren om te starten
 
 **Eerst voorselecteren, dan spiegelen** — selecteer eerst entiteiten en activeer daarna:
 
 1. Selecteer een of meer entiteiten op het canvas.
-2. Typ `mirror` in de terminal of klik op de **Mirror**-werkbalkknop.
+2. Typ `Spiegelen` in de terminal of klik op de **Mirror**-werkbalkknop.
 3. **Klik op het eerste punt** van de spiegelas, of typ `X,Y` en druk op **Enter** voor een exact coördinaat.
 4. **Klik op het tweede punt** — de gespiegelde kopieën worden geplaatst en het commando sluit af. Coördinaatinvoer werkt hier ook.
 
 **Eerst activeren, dan selecteren** — start het commando zonder voorselectie:
 
-1. Typ `mirror` of klik op de werkbalkknop.
+1. Typ `Spiegelen` of klik op de werkbalkknop.
 2. **Selecteer objecten** — klik om te schakelen, of sleep om per gebied te selecteren.
 3. Druk op **Enter** of **Spatie** om de selectie te bevestigen.
 4. **Klik op het eerste punt**, klik daarna op **het tweede punt** van de spiegelas (coördinaatinvoer beschikbaar bij beide stappen).

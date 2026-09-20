@@ -8,14 +8,14 @@ order: 15
 
 # Array Grid
 
-Gumagawa ang `ArrayGrid` command ng rectangular grid ng mga kopya mula sa mga napiling entity — ilagay ang bilang ng row, bilang ng column, at ang espasyo sa pagitan nila, lahat ay ini-type sa terminal. Ang orihinal na seleksyon ay sumasakop sa cell na row 0, column 0; ang bawat ibang cell ay isang na-translate na kopya.
+Gumagawa ang `GridNaHanay` command ng rectangular grid ng mga kopya mula sa mga napiling entity — ilagay ang bilang ng row, bilang ng column, at ang espasyo sa pagitan nila, lahat ay ini-type sa terminal. Ang orihinal na seleksyon ay sumasakop sa cell na row 0, column 0; ang bawat ibang cell ay isang na-translate na kopya.
 
 ## Dalawang paraan para magsimula
 
 **Pre-select, tapos array** — piliin muna ang mga entity, pagkatapos i-activate:
 
 1. Piliin ang isa o higit pang entity sa canvas.
-2. I-type ang `arraygrid` sa terminal (sapat na ang `arr` — walang kalabuan) o i-click ang **Array Grid** button sa toolbar.
+2. I-type ang `GridNaHanay` sa terminal (sapat na ang `arr` — walang kalabuan) o i-click ang **Array Grid** button sa toolbar.
 3. I-type ang bilang ng **row** at pindutin ang **Enter**.
 4. I-type ang bilang ng **column** at pindutin ang **Enter**.
 5. I-type ang **espasyo sa pagitan ng mga row** at pindutin ang **Enter**.
@@ -23,7 +23,7 @@ Gumagawa ang `ArrayGrid` command ng rectangular grid ng mga kopya mula sa mga na
 
 **Activate, tapos select** — simulan ang command nang walang naka-select:
 
-1. I-type ang `arraygrid` o i-click ang toolbar button.
+1. I-type ang `GridNaHanay` o i-click ang toolbar button.
 2. **Piliin ang mga object** — mag-click para i-toggle ang bawat entity, o mag-drag para pumili ayon sa area.
 3. Pindutin ang **Enter** o **Space** para kumpirmahin ang seleksyon.
 4. Ituloy ang row → column → espasyo ng row → espasyo ng column tulad ng nasa itaas.

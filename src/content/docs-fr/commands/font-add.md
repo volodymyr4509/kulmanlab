@@ -8,11 +8,11 @@ order: 3
 
 # FontAdd
 
-La commande `FontAdd` ouvre le sélecteur de fichiers du système pour téléverser une police `.ttf` personnalisée, sans ouvrir d'abord le dialogue [Font Manager](../font-manager/). C'est le même téléversement que déclenche le bouton **Add Font** du Font Manager — FontAdd n'est qu'un raccourci direct depuis le terminal.
+La commande `AjouterPolice` ouvre le sélecteur de fichiers du système pour téléverser une police `.ttf` personnalisée, sans ouvrir d'abord le dialogue [Font Manager](../font-manager/). C'est le même téléversement que déclenche le bouton **Add Font** du Font Manager — FontAdd n'est qu'un raccourci direct depuis le terminal.
 
 ## Téléverser une police
 
-1. Tapez `FontAdd` dans le terminal, ou cliquez sur **Add Font** en bas du dialogue [Font Manager](../font-manager/).
+1. Tapez `AjouterPolice` dans le terminal, ou cliquez sur **Add Font** en bas du dialogue [Font Manager](../font-manager/).
 2. Choisissez un fichier `.ttf` dans le sélecteur système. Seules les polices TrueType sont prises en charge — `.otf` et `.woff`/`.woff2` ne le sont pas.
 
 La commande se termine dès que le sélecteur de fichiers s'ouvre — il n'y a ni clic ni saisie terminal supplémentaire. La police est enregistrée et apparaît dans le groupe **User** dès que le fichier est choisi.

@@ -8,7 +8,7 @@ order: 12
 
 # Chamfer
 
-Kommandoen `chamfer` skærer et lige diagonalt hjørne mellem to [Line](../line/)- eller [Polyline](../polyline/)-entiteter. Du angiver, hvor langt tilbage der skal skæres langs hver entitet (d1 og d2), og kommandoen trimmer begge entiteter til disse punkter og indsætter en forbindelseslinje mellem dem.
+Kommandoen `Affas` skærer et lige diagonalt hjørne mellem to [Line](../line/)- eller [Polyline](../polyline/)-entiteter. Du angiver, hvor langt tilbage der skal skæres langs hver entitet (d1 og d2), og kommandoen trimmer begge entiteter til disse punkter og indsætter en forbindelseslinje mellem dem.
 
 At bruge lige afstande giver et symmetrisk 45°-snit; forskellige afstande giver en asymmetrisk fasning.
 
@@ -16,7 +16,7 @@ Chamfer fungerer på **Line- og Polyline**-entiteter.
 
 ## Bruge chamfer
 
-1. Skriv `chamfer` i terminalen eller klik på **Chamfer**-knappen i værktøjslinjen.
+1. Skriv `Affas` i terminalen eller klik på **Chamfer**-knappen i værktøjslinjen.
 2. **Indtast den første chamfer-afstand** (d1 — afstand langs den første entitet) og tryk **Enter**.
 3. **Indtast den anden chamfer-afstand** (d2 — afstand langs den anden entitet) og tryk **Enter**.
 4. **Klik den første entitet** — den del du klikker afgør, hvilken side af et eventuelt skæringspunkt der bevares.

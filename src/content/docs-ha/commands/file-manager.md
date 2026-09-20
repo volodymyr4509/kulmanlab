@@ -8,11 +8,11 @@ order: 3
 
 # File Manager
 
-Umarnin `FileManager` yana buɗe **grid na ƙananan hoto** na kowane zane da aka ajiye a ajiyar gida ta burauzarka, an tsara su bisa lokacin da aka ajiye kowanne na ƙarshe. Yi amfani da shi don sake buɗe zane na baya, sake masa suna, ko share shi.
+Umarnin `SarrafaFayiloli` yana buɗe **grid na ƙananan hoto** na kowane zane da aka ajiye a ajiyar gida ta burauzarka, an tsara su bisa lokacin da aka ajiye kowanne na ƙarshe. Yi amfani da shi don sake buɗe zane na baya, sake masa suna, ko share shi.
 
 ## Buɗe File Manager
 
-- Rubuta `FileManager` a tashar umarni, **ko kuma**
+- Rubuta `SarrafaFayiloli` a tashar umarni, **ko kuma**
 - Danna maɓallin kayan aiki na **File Manager** (alamar tarihi) a panel na File a saman allo.
 
 Panel yana buɗewa a gefen hagu na canvas, kuma yana rufewa kai tsaye da zaran ka fara wani umarni ko ka [shigo da](../import/) wani fayil — don haka bai taɓa dakata a kan zanen da bai riga ya lissafa ba. Yana sake buɗewa da sabon jeri a kowane lokaci.

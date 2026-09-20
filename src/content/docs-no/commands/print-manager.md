@@ -8,11 +8,11 @@ order: 4
 
 # Print Manager
 
-Kommandoen `PrintManager` åpner **Print Manager** — et dedikert eksportvindu med et levende forhåndsvisningslerret, formatvelger (PNG / JPEG / WebP / PDF), en Style-velger (Default / Monochrome / Blueprint) og valgfri områdebeskjæring. Ingenting sendes til en fysisk skriver — utdataen lastes ned som en fil.
+Kommandoen `Utskriftsbehandler` åpner **Print Manager** — et dedikert eksportvindu med et levende forhåndsvisningslerret, formatvelger (PNG / JPEG / WebP / PDF), en Style-velger (Default / Monochrome / Blueprint) og valgfri områdebeskjæring. Ingenting sendes til en fysisk skriver — utdataen lastes ned som en fil.
 
 ## Åpne Print Manager
 
-Klikk på **Print**-knappen i verktøylinjen eller skriv `PrintManager` i terminalen. Print Manager åpnes umiddelbart og viser en forhåndsvisning av gjeldende viewport.
+Klikk på **Print**-knappen i verktøylinjen eller skriv `Utskriftsbehandler` i terminalen. Print Manager åpnes umiddelbart og viser en forhåndsvisning av gjeldende viewport.
 
 Forhåndsvisningen rendres gjennom nøyaktig samme kodesti, i nøyaktig samme pikseloppløsning, som filen du til slutt eksporterer — å endre Quality, Style eller eksportområdet rendrer forhåndsvisningen umiddelbart på nytt, slik at det du ser, er det som lastes ned, ikke en tilnærming.
 

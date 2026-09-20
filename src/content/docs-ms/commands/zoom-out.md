@@ -8,11 +8,11 @@ order: 3
 
 # Zoom Out
 
-Arahan `zoomout` membahagi paras zum semasa dengan **1.5×** (bersamaan dengan mendarab dengan ~0.667) dan keluar serta-merta, berpusat pada titik tengah viewport. Ia adalah songsangan [Zoom In](../zoom-in/).
+Arahan `Kecilkan` membahagi paras zum semasa dengan **1.5×** (bersamaan dengan mendarab dengan ~0.667) dan keluar serta-merta, berpusat pada titik tengah viewport. Ia adalah songsangan [Zoom In](../zoom-in/).
 
 ## Zum keluar
 
-Klik butang bar alat **Zoom Out** atau taip `zoomout` dalam terminal. Zum digunakan serta-merta dan arahan keluar — tiada klik pada kanvas diperlukan.
+Klik butang bar alat **Zoom Out** atau taip `Kecilkan` dalam terminal. Zum digunakan serta-merta dan arahan keluar — tiada klik pada kanvas diperlukan.
 
 ## Bagaimana langkah 1.5× berfungsi
 

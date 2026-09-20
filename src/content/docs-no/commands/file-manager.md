@@ -8,11 +8,11 @@ order: 3
 
 # File Manager
 
-Kommandoen `FileManager` åpner et **miniatyrrutenett** over alle tegninger som er lagret i nettleserens lokale lagring, sortert etter når hver av dem sist ble lagret. Bruk det til å åpne en tidligere tegning på nytt, omdøpe den eller slette den.
+Kommandoen `Filbehandler` åpner et **miniatyrrutenett** over alle tegninger som er lagret i nettleserens lokale lagring, sortert etter når hver av dem sist ble lagret. Bruk det til å åpne en tidligere tegning på nytt, omdøpe den eller slette den.
 
 ## Åpne File Manager
 
-- Skriv `FileManager` i terminalen, **eller**
+- Skriv `Filbehandler` i terminalen, **eller**
 - Klikk på verktøylinjeknappen **File Manager** (historikkikon) i File-panelet øverst på skjermen.
 
 Panelet åpnes på venstre side av lerretet, og lukkes automatisk så snart du starter en annen kommando eller [importerer](../import/) en fil — slik at det aldri blir liggende over en tegning det ikke har med i listen ennå. Det åpnes igjen med en fersk liste hver gang.

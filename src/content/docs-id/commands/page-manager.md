@@ -8,11 +8,11 @@ order: 3
 
 # PageManager
 
-Perintah `PageManager` membuka dialog pengaturan halaman untuk layout aktif, memungkinkan Anda mengubah format kertas, orientasi, dan skala antara satuan gambar dan milimeter.
+Perintah `ManajerHalaman` membuka dialog pengaturan halaman untuk layout aktif, memungkinkan Anda mengubah format kertas, orientasi, dan skala antara satuan gambar dan milimeter.
 
 ## Membuka Page Manager
 
-- Ketik `PageManager` di terminal, **atau**
+- Ketik `ManajerHalaman` di terminal, **atau**
 - Klik kanan tab layout di bagian bawah dan pilih **Page Manager**.
 
 ## Pengaturan

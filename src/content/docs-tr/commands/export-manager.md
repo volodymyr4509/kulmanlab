@@ -8,11 +8,11 @@ order: 6
 
 # Export Manager
 
-`exportmanager` komutu geçerli çizimi dosya sisteminize indirir. İki biçim yan yana durur — diğer CAD araçlarıyla uyum için **DXF** ve KulmanLab CAD içinde tam sadakatli kayıtlar için **JSON** — ve her birinin dosyaya neyin konacağına dair kendi listesi vardır.
+`DışaAktarmaYöneticisi` komutu geçerli çizimi dosya sisteminize indirir. İki biçim yan yana durur — diğer CAD araçlarıyla uyum için **DXF** ve KulmanLab CAD içinde tam sadakatli kayıtlar için **JSON** — ve her birinin dosyaya neyin konacağına dair kendi listesi vardır.
 
 ## Nasıl dışa aktarılır
 
-1. Dosya panelinde araç çubuğundaki **Export** düğmesine (indirme simgesi) tıklayın veya terminale `exportmanager` yazın.
+1. Dosya panelinde araç çubuğundaki **Export** düğmesine (indirme simgesi) tıklayın veya terminale `DışaAktarmaYöneticisi` yazın.
 2. **Export Manager** penceresi iki sütunla açılır, **JSON** ve **DXF**; her biri çizimin varlık türlerini bir onay kutusu ve sayıyla listeler.
 3. Dışarıda bırakmak istediklerinizin işaretini kaldırın. Başlangıçta hepsi işaretlidir.
 4. **Export JSON** ya da **Export DXF** düğmesine tıklayın. Dosya varsayılan indirme klasörünüze iner ve pencere kapanır.

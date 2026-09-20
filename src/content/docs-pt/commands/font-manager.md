@@ -8,11 +8,11 @@ order: 2
 
 # Font Manager
 
-O comando `FontManager` abre uma caixa de diálogo para navegar e selecionar fontes, e para enviar seus próprios arquivos `.ttf` para uso em entidades [Text](../text/) e [Multileader](../leader/).
+O comando `GerenciadorFontes` abre uma caixa de diálogo para navegar e selecionar fontes, e para enviar seus próprios arquivos `.ttf` para uso em entidades [Text](../text/) e [Multileader](../leader/).
 
 ## Abrir o Font Manager
 
-- Digite `FontManager` no terminal, **ou**
+- Digite `GerenciadorFontes` no terminal, **ou**
 - Clique no botão **Font Manager** na barra de ferramentas do [editor de texto](../../interface/text-editor/).
 
 ## Grupos de fontes
@@ -28,7 +28,7 @@ Clique em qualquer fonte da lista para pré-visualizá-la à direita — nome, a
 
 ## Enviar uma fonte personalizada
 
-1. Clique em **Add Font** no rodapé da caixa de diálogo (ou digite [`FontAdd`](../font-add/) no terminal para abrir o seletor de arquivos diretamente).
+1. Clique em **Add Font** no rodapé da caixa de diálogo (ou digite [`AdicionarFonte`](../font-add/) no terminal para abrir o seletor de arquivos diretamente).
 2. Escolha um arquivo `.ttf`. Apenas fontes TrueType são suportadas — `.otf` e `.woff`/`.woff2` não são.
 3. O nome do arquivo (sem a extensão) se torna o nome da fonte no grupo **User**. Por exemplo, enviar `MyFont.ttf` adiciona uma fonte chamada `MyFont`.
 

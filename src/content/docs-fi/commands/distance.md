@@ -8,7 +8,7 @@ order: 1
 
 # Distance
 
-Komento `distance` mittaa suoran (euklidisen) etäisyyden kahden napsautetun pisteen välillä ja tulostaa tuloksen terminaaliin 4 desimaalin tarkkuudella. Se on yksi kolmesta mittauskomennosta — [Angle](../angle/) mittaa kulman avautumisen kärkipisteessä, ja [Area](../area/) mittaa monikulmion sisäalueen ja piirin.
+Komento `Etäisyys` mittaa suoran (euklidisen) etäisyyden kahden napsautetun pisteen välillä ja tulostaa tuloksen terminaaliin 4 desimaalin tarkkuudella. Se on yksi kolmesta mittauskomennosta — [Angle](../angle/) mittaa kulman avautumisen kärkipisteessä, ja [Area](../area/) mittaa monikulmion sisäalueen ja piirin.
 
 ## Etäisyyden mittauksen anatomia
 
@@ -26,7 +26,7 @@ Komento `distance` mittaa suoran (euklidisen) etäisyyden kahden napsautetun pis
 
 ## Etäisyyden mittaaminen
 
-1. Kirjoita `distance` terminaaliin tai napsauta **Distance**-painiketta työkalurivillä.
+1. Kirjoita `Etäisyys` terminaaliin tai napsauta **Distance**-painiketta työkalurivillä.
 2. **Napsauta ensimmäistä pistettä**, tai kirjoita `X,Y` ja paina **Enter** tarkkaa koordinaattia varten.
 3. **Napsauta toista pistettä** — mitattu etäisyys ilmestyy terminaaliin. Koordinaattien syöttö toimii myös täällä.
 4. **Napsauta uudelleen** (valinnaista) aloittaaksesi uuden mittauksen. Komento pysyy aktiivisena.

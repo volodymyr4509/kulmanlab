@@ -8,20 +8,20 @@ order: 4
 
 # Mirror
 
-Polecenie `mirror` tworzy odbite kopie zaznaczonych elementów odbitych przez dwupunktową oś. Oryginały są **zawsze zachowywane** — w odróżnieniu od [Move](../move/) lub [Rotate](../rotate/), Odbij nigdy nie modyfikuje istniejących elementów; dodaje tylko nowe.
+Polecenie `Odbij` tworzy odbite kopie zaznaczonych elementów odbitych przez dwupunktową oś. Oryginały są **zawsze zachowywane** — w odróżnieniu od [Move](../move/) lub [Rotate](../rotate/), Odbij nigdy nie modyfikuje istniejących elementów; dodaje tylko nowe.
 
 ## Dwa sposoby uruchamiania
 
 **Wstępne zaznaczenie, a następnie odbicie** — najpierw zaznacz elementy, a następnie aktywuj:
 
 1. Zaznacz jeden lub więcej elementów na płótnie.
-2. Wpisz `mirror` w terminalu lub kliknij przycisk **Odbij** na pasku narzędzi.
+2. Wpisz `Odbij` w terminalu lub kliknij przycisk **Odbij** na pasku narzędzi.
 3. **Kliknij pierwszy punkt** osi odbicia lub wpisz `X,Y` i naciśnij **Enter** dla dokładnej współrzędnej.
 4. **Kliknij drugi punkt** — odbite kopie są umieszczane i polecenie kończy się. Tutaj również działa wprowadzanie współrzędnych.
 
 **Aktywuj, a następnie zaznacz** — uruchom polecenie bez zaznaczonego niczego:
 
-1. Wpisz `mirror` lub kliknij przycisk paska narzędzi.
+1. Wpisz `Odbij` lub kliknij przycisk paska narzędzi.
 2. **Zaznacz obiekty** — kliknij, aby przełączać, lub przeciągnij, aby zaznaczyć obszarem.
 3. Naciśnij **Enter** lub **Spację**, aby potwierdzić zaznaczenie.
 4. **Kliknij pierwszy punkt**, następnie **kliknij drugi punkt** osi odbicia (wprowadzanie współrzędnych dostępne na obu krokach).

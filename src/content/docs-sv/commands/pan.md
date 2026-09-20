@@ -8,11 +8,11 @@ order: 1
 
 # Pan
 
-`pan`-kommandot aktiverar ett bestående dra-för-att-scrolla-läge — klicka och dra var som helst på ritytan för att förskjuta vyn. Zoomnivån ändras inte. Pan-läget förblir aktivt tills du trycker **Escape**, så du kan dra flera gånger under en och samma aktivering.
+`Panorera`-kommandot aktiverar ett bestående dra-för-att-scrolla-läge — klicka och dra var som helst på ritytan för att förskjuta vyn. Zoomnivån ändras inte. Pan-läget förblir aktivt tills du trycker **Escape**, så du kan dra flera gånger under en och samma aktivering.
 
 ## Panorera vyn
 
-1. Skriv `pan` i terminalen eller klicka på **Pan**-knappen i verktygsfältet.
+1. Skriv `Panorera` i terminalen eller klicka på **Pan**-knappen i verktygsfältet.
 2. **Klicka och dra** var som helst på ritytan för att förskjuta vyn.
 3. Släpp och dra igen så många gånger som behövs.
 4. Tryck **Escape** för att avsluta pan-läget.

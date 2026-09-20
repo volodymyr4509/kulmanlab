@@ -8,7 +8,7 @@ order: 1
 
 # Distance
 
-`distance` komutu, iki tıklanan nokta arasındaki düz çizgi (Öklid) mesafesini ölçer ve sonucu terminalde 4 ondalık basamak hassasiyetle yazdırır. Bu komut üç ölçüm komutundan biridir — [Angle](../angle/) köşedeki açısal açılımı ölçer, [Area](../area/) ise bir çokgenin alanını ve çevresini ölçer.
+`Mesafe` komutu, iki tıklanan nokta arasındaki düz çizgi (Öklid) mesafesini ölçer ve sonucu terminalde 4 ondalık basamak hassasiyetle yazdırır. Bu komut üç ölçüm komutundan biridir — [Angle](../angle/) köşedeki açısal açılımı ölçer, [Area](../area/) ise bir çokgenin alanını ve çevresini ölçer.
 
 ## Mesafe Ölçümünün Anatomisi
 
@@ -26,7 +26,7 @@ order: 1
 
 ## Mesafe Ölçme
 
-1. Terminale `distance` yazın veya araç çubuğundaki **Distance** düğmesine tıklayın.
+1. Terminale `Mesafe` yazın veya araç çubuğundaki **Distance** düğmesine tıklayın.
 2. **Birinci noktayı tıklayın** veya tam koordinat için `X,Y` yazıp **Enter** tuşuna basın.
 3. **İkinci noktayı tıklayın** — ölçülen mesafe terminalde görünür. Koordinat girişi burada da çalışır.
 4. **Tekrar tıklayın** (isteğe bağlı) yeni bir ölçüm başlatmak için. Komut aktif kalır.

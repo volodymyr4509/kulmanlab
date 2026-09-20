@@ -8,20 +8,20 @@ order: 7
 
 # Delete
 
-O comando `delete` remove as entidades selecionadas do desenho. As exclusões são registradas no histórico de [Undo](../undo/) e podem ser revertidas com até 20 passos. Não há uma caixa de diálogo separada de "confirmar exclusão" — a confirmação é um único pressionamento de tecla.
+O comando `Apagar` remove as entidades selecionadas do desenho. As exclusões são registradas no histórico de [Undo](../undo/) e podem ser revertidas com até 20 passos. Não há uma caixa de diálogo separada de "confirmar exclusão" — a confirmação é um único pressionamento de tecla.
 
 ## Duas formas de excluir
 
 **Pré-selecionar, depois excluir** — o caminho mais rápido:
 
 1. Selecione uma ou mais entidades no canvas.
-2. Digite `delete` no terminal, clique no botão **Delete** na barra de ferramentas, **ou pressione a tecla `Delete`** diretamente.
+2. Digite `Apagar` no terminal, clique no botão **Delete** na barra de ferramentas, **ou pressione a tecla `Delete`** diretamente.
 
 As entidades são removidas instantaneamente — sem etapa de confirmação adicional.
 
 **Ativar, depois selecionar**:
 
-1. Digite `delete` ou clique no botão da barra de ferramentas (sem nada selecionado).
+1. Digite `Apagar` ou clique no botão da barra de ferramentas (sem nada selecionado).
 2. **Selecione os objetos** — clique para alternar, ou arraste para selecionar por área.
 3. Pressione **Enter**, **Espaço**, ou **Delete** para confirmar e remover as entidades selecionadas.
 
@@ -44,7 +44,7 @@ Clique na entidade → pressione Delete → pronto
 
 ## Recuperar entidades excluídas
 
-As exclusões são desfazíveis com o comando [Undo](../undo/) (digite `undo` ou use o botão da barra de ferramentas). Até **20 passos** podem ser revertidos por arquivo, e o histórico persiste entre recarregamentos de página. Se você excedeu 20 exclusões sem salvar, exclusões anteriores não podem ser recuperadas.
+As exclusões são desfazíveis com o comando [Undo](../undo/) (digite `Desfazer` ou use o botão da barra de ferramentas). Até **20 passos** podem ser revertidos por arquivo, e o histórico persiste entre recarregamentos de página. Se você excedeu 20 exclusões sem salvar, exclusões anteriores não podem ser recuperadas.
 
 ## Entidades suportadas
 

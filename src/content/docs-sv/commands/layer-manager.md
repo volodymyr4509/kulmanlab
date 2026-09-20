@@ -8,11 +8,11 @@ order: 1
 
 # LayerManager
 
-Kommandot `LayerManager` öppnar en tabell som listar varje lager i ritningen, med inställningarna **Freeze**, **Lock**, **Plot**, **Färg**, **Linjebredd** och **Linjetyp** redigerbara direkt i raden. Det är den centrala platsen för att lägga till lager, ta bort oanvända och justera hur befintliga beter sig — de övriga lagerkommandona ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) gör var och en en enda avgränsad sak utan att öppna den.
+Kommandot `Lagerhanterare` öppnar en tabell som listar varje lager i ritningen, med inställningarna **Freeze**, **Lock**, **Plot**, **Färg**, **Linjebredd** och **Linjetyp** redigerbara direkt i raden. Det är den centrala platsen för att lägga till lager, ta bort oanvända och justera hur befintliga beter sig — de övriga lagerkommandona ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) gör var och en en enda avgränsad sak utan att öppna den.
 
 ## Öppna Layer Manager
 
-- Skriv `LayerManager` i terminalen, **eller**
+- Skriv `Lagerhanterare` i terminalen, **eller**
 - Klicka på knappen **Layer Manager** i lagerpanelen.
 
 Dialogrutan öppnas som en flytande panel; inget behöver vara markerat i förväg.

@@ -8,11 +8,11 @@ order: 1
 
 # Line
 
-Arahan `line` melukis segmen garis lurus individu yang disimpan sebagai entiti `LINE` berasingan dalam model DXF. Selepas setiap segmen, arahan kekal aktif dan menggunakan semula titik akhir sebagai titik mula baharu, jadi anda boleh membina laluan yang disambungkan satu segmen pada satu masa. Tidak seperti [Polyline](../polyline/), garis yang dirantai kekal sebagai entiti bebas — setiap satunya boleh dipotong, dipanjangkan, atau dipadam tanpa menjejaskan jirannya.
+Arahan `Garis` melukis segmen garis lurus individu yang disimpan sebagai entiti `LINE` berasingan dalam model DXF. Selepas setiap segmen, arahan kekal aktif dan menggunakan semula titik akhir sebagai titik mula baharu, jadi anda boleh membina laluan yang disambungkan satu segmen pada satu masa. Tidak seperti [Polyline](../polyline/), garis yang dirantai kekal sebagai entiti bebas — setiap satunya boleh dipotong, dipanjangkan, atau dipadam tanpa menjejaskan jirannya.
 
 ## Melukis garis
 
-1. Taip `line` dalam terminal atau klik butang bar alat **Line**.
+1. Taip `Garis` dalam terminal atau klik butang bar alat **Line**.
 2. **Klik titik mula**, atau taip `X,Y` dan tekan **Enter** untuk koordinat tepat.
 3. **Klik titik akhir** — segmen diletakkan dan titik akhir menjadi titik mula seterusnya. Kemasukan koordinat juga berfungsi di sini.
 4. Terus klik (atau taip) untuk merantai lebih banyak segmen.

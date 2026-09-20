@@ -8,11 +8,11 @@ order: 4
 
 # Fit
 
-Kommandoen `fit` beregner afgrænsningsboksen for alle entiteter i tegningen og justerer både zoomniveau og panoreringsposition, så hver entitet er synlig med en lille margin. Det er den hurtigste måde at genskabe en tabt visning på, eller orientere dig efter at have importeret en DXF-fil.
+Kommandoen `Tilpas` beregner afgrænsningsboksen for alle entiteter i tegningen og justerer både zoomniveau og panoreringsposition, så hver entitet er synlig med en lille margin. Det er den hurtigste måde at genskabe en tabt visning på, eller orientere dig efter at have importeret en DXF-fil.
 
 ## Tilpasse visningen
 
-Klik på **Fit**-knappen i værktøjslinjen eller skriv `fit` i terminalen. Visningen justeres straks, og kommandoen afsluttes — ingen interaktion nødvendig.
+Klik på **Fit**-knappen i værktøjslinjen eller skriv `Tilpas` i terminalen. Visningen justeres straks, og kommandoen afsluttes — ingen interaktion nødvendig.
 
 **Dobbeltklik på midterste museknap** udløser den samme Fit-operation når som helst uden at aktivere nogen kommando — den hurtigste genvej til at nulstille en tabt visning midt i tegningen.
 

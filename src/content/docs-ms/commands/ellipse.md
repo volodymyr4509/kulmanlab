@@ -8,11 +8,11 @@ order: 6
 
 # Ellipse
 
-Arahan `ellipse` melukis elips menggunakan tiga klik: titik pusat, titik akhir semi-paksi pertama (major) pada mana-mana sudut, dan panjang semi-paksi kedua (minor). Kedua-dua paksi sentiasa berserenjang antara satu sama lain — arah paksi kedua diperoleh secara automatik dari yang pertama.
+Arahan `Elips` melukis elips menggunakan tiga klik: titik pusat, titik akhir semi-paksi pertama (major) pada mana-mana sudut, dan panjang semi-paksi kedua (minor). Kedua-dua paksi sentiasa berserenjang antara satu sama lain — arah paksi kedua diperoleh secara automatik dari yang pertama.
 
 ## Melukis elips
 
-1. Taip `ellipse` dalam terminal atau klik butang bar alat **Ellipse**.
+1. Taip `Elips` dalam terminal atau klik butang bar alat **Ellipse**.
 2. **Klik titik pusat**, atau taip `X,Y` dan tekan **Enter** untuk koordinat tepat.
 3. **Klik titik akhir paksi pertama** — menetapkan arah dan panjang semi-paksi pertama. Kemasukan koordinat juga berfungsi di sini.
 4. **Tetapkan panjang paksi kedua** — gerakkan kursor serenjang dengan paksi pertama, kemudian klik atau taip panjang.

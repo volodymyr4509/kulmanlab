@@ -8,20 +8,20 @@ order: 4
 
 # Mirror
 
-O comando `mirror` cria cópias espelhadas das entidades selecionadas refletidas em relação a um eixo de dois pontos. Os originais são **sempre mantidos** — diferentemente de [Move](../move/) ou [Rotate](../rotate/), Mirror nunca modifica as entidades existentes; apenas adiciona novas.
+O comando `Espelhar` cria cópias espelhadas das entidades selecionadas refletidas em relação a um eixo de dois pontos. Os originais são **sempre mantidos** — diferentemente de [Move](../move/) ou [Rotate](../rotate/), Mirror nunca modifica as entidades existentes; apenas adiciona novas.
 
 ## Duas formas de iniciar
 
 **Pré-selecionar, depois espelhar** — selecione entidades primeiro, depois ative:
 
 1. Selecione uma ou mais entidades no canvas.
-2. Digite `mirror` no terminal ou clique no botão **Mirror** na barra de ferramentas.
+2. Digite `Espelhar` no terminal ou clique no botão **Mirror** na barra de ferramentas.
 3. **Clique no primeiro ponto** do eixo de espelhamento, ou digite `X,Y` e pressione **Enter** para uma coordenada exata.
 4. **Clique no segundo ponto** — as cópias espelhadas são posicionadas e o comando encerra. A entrada de coordenadas também funciona aqui.
 
 **Ativar, depois selecionar** — inicie o comando sem nada selecionado:
 
-1. Digite `mirror` ou clique no botão da barra de ferramentas.
+1. Digite `Espelhar` ou clique no botão da barra de ferramentas.
 2. **Selecione os objetos** — clique para alternar, ou arraste para selecionar por área.
 3. Pressione **Enter** ou **Espaço** para confirmar a seleção.
 4. **Clique no primeiro ponto**, depois **clique no segundo ponto** do eixo de espelhamento (entrada de coordenadas disponível em ambas as etapas).

@@ -8,11 +8,11 @@ order: 5
 
 # Arc
 
-Komento `arc` piirtää ympyrän kaaren kolmen napsauttamasi pisteen kautta. Kaari lasketaan ainutlaatuisena kaikkien kolmen pisteen kautta kulkevana ympäri piirtävänä ympyränä — keskipistettä tai sädettä ei tarvitse määrittää suoraan. Kaari kulkee ensimmäisestä napsautuksesta kolmanteen napsautukseen, toisen kautta.
+Komento `Kaari` piirtää ympyrän kaaren kolmen napsauttamasi pisteen kautta. Kaari lasketaan ainutlaatuisena kaikkien kolmen pisteen kautta kulkevana ympäri piirtävänä ympyränä — keskipistettä tai sädettä ei tarvitse määrittää suoraan. Kaari kulkee ensimmäisestä napsautuksesta kolmanteen napsautukseen, toisen kautta.
 
 ## Kaaren piirtäminen
 
-1. Kirjoita `arc` terminaaliin tai napsauta **Arc**-painiketta työkalurivillä.
+1. Kirjoita `Kaari` terminaaliin tai napsauta **Arc**-painiketta työkalurivillä.
 2. **Napsauta ensimmäistä pistettä** — kaaren toinen pää. Tai kirjoita `X,Y` ja paina **Enter** tarkkaa koordinaattia varten.
 3. **Napsauta toista pistettä** — piste, jonka kautta kaaren on kuljettava (ohjaa kaarevuutta ja suuntaa). Koordinaattien syöttö toimii myös täällä.
 4. **Napsauta kolmatta pistettä** — kaaren toinen pää. Kaari sijoitetaan ja komento päättyy. Koordinaattien syöttö toimii myös täällä.

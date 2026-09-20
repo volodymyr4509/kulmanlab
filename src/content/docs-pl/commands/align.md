@@ -8,14 +8,14 @@ order: 6
 
 # Align
 
-Polecenie `align` zmienia położenie zaznaczonych elementów za pomocą jednej lub dwóch par punktów źródłowych/docelowych. Z jedną parą zachowuje się dokładnie jak [Move](../move/) (tylko przesunięcie). Z dwiema parami obraca też zaznaczenie tak, aby kierunek źródło-do-źródła odpowiadał kierunkowi cel-do-celu, i może opcjonalnie przeskalować je tak, aby długość odcinka źródłowego odpowiadała długości odcinka docelowego — przesunięcie, obrót i skalowanie w jednej operacji.
+Polecenie `Wyrównaj` zmienia położenie zaznaczonych elementów za pomocą jednej lub dwóch par punktów źródłowych/docelowych. Z jedną parą zachowuje się dokładnie jak [Move](../move/) (tylko przesunięcie). Z dwiema parami obraca też zaznaczenie tak, aby kierunek źródło-do-źródła odpowiadał kierunkowi cel-do-celu, i może opcjonalnie przeskalować je tak, aby długość odcinka źródłowego odpowiadała długości odcinka docelowego — przesunięcie, obrót i skalowanie w jednej operacji.
 
 ## Dwa sposoby uruchamiania
 
 **Wstępne zaznaczenie, a następnie wyrównanie** — najpierw zaznacz elementy, a następnie aktywuj:
 
 1. Zaznacz jeden lub więcej elementów na płótnie.
-2. Wpisz `align` w terminalu lub kliknij przycisk **Align** na pasku narzędzi.
+2. Wpisz `Wyrównaj` w terminalu lub kliknij przycisk **Align** na pasku narzędzi.
 3. **Kliknij pierwszy punkt źródłowy (S1)**, następnie **pierwszy punkt docelowy (D1)**.
 4. **Kliknij drugi punkt źródłowy (S2)** lub naciśnij **Enter** lub **Spację**, aby od razu zastosować wyrównanie z samym przesunięciem.
 5. **Kliknij drugi punkt docelowy (D2)**.
@@ -23,7 +23,7 @@ Polecenie `align` zmienia położenie zaznaczonych elementów za pomocą jednej 
 
 **Aktywuj, a następnie zaznacz** — uruchom polecenie bez zaznaczonego niczego:
 
-1. Wpisz `align` lub kliknij przycisk paska narzędzi.
+1. Wpisz `Wyrównaj` lub kliknij przycisk paska narzędzi.
 2. **Zaznacz obiekty** — kliknij, aby przełączać poszczególne elementy, lub przeciągnij, aby zaznaczyć obszarem.
 3. Naciśnij **Enter** lub **Spację**, aby potwierdzić zaznaczenie.
 4. Kontynuuj S1 → D1 → S2 → D2 → pytanie o skalowanie jak powyżej.
@@ -97,4 +97,4 @@ Wyrównane elementy pozostają zaznaczone w nowej pozycji, a polecenie kończy s
 
 ## Obsługiwane elementy
 
-Align działa na każdym typie elementu obsługiwanym przez Move, Rotate i Scale — te same operacje `translate`, `rotate` i `scale`, których używają te polecenia, są stosowane po kolei, więc żaden nie jest wykluczony.
+Align działa na każdym typie elementu obsługiwanym przez Move, Rotate i Scale — te same operacje `translate`, `Obróć` i `Skaluj`, których używają te polecenia, są stosowane po kolei, więc żaden nie jest wykluczony.

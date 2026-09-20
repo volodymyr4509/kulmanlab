@@ -8,11 +8,11 @@ order: 9
 
 # Spline Fit
 
-La commande `splinefit` trace une spline cubique passant par chaque point que vous cliquez — une courbe interpolante. Contrairement à [Spline CV](../spline-cv/), où la courbe est seulement attirée vers les sommets de contrôle, ici la courbe est forcée de toucher chaque coordonnée cliquée exactement. En interne, l'éditeur ajuste des sommets de contrôle pour y parvenir, et ces SC sont stockés avec les points d'interpolation dans le fichier DXF.
+La commande `SplinePoints` trace une spline cubique passant par chaque point que vous cliquez — une courbe interpolante. Contrairement à [Spline CV](../spline-cv/), où la courbe est seulement attirée vers les sommets de contrôle, ici la courbe est forcée de toucher chaque coordonnée cliquée exactement. En interne, l'éditeur ajuste des sommets de contrôle pour y parvenir, et ces SC sont stockés avec les points d'interpolation dans le fichier DXF.
 
 ## Tracer une spline par points d'interpolation
 
-1. Tapez `splinefit` dans le terminal ou cliquez sur le bouton **Spline Fit** de la barre d'outils.
+1. Tapez `SplinePoints` dans le terminal ou cliquez sur le bouton **Spline Fit** de la barre d'outils.
 2. **Cliquez pour placer des points d'interpolation** — la courbe passera par chacun. Ou tapez `X,Y` et appuyez sur **Entrée** pour une coordonnée exacte.
 3. Appuyez sur **Entrée** ou **Espace** pour terminer (au moins 2 points requis).
 

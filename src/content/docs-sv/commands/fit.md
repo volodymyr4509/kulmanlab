@@ -8,11 +8,11 @@ order: 4
 
 # Fit
 
-`fit`-kommandot beräknar avgränsningsrutan för alla entiteter i ritningen och justerar både zoomnivå och panoreringsposition så att alla entiteter blir synliga med en liten marginal. Det är det snabbaste sättet att återfå en förlorad vy eller orientera dig efter att ha importerat en DXF-fil.
+`Anpassa`-kommandot beräknar avgränsningsrutan för alla entiteter i ritningen och justerar både zoomnivå och panoreringsposition så att alla entiteter blir synliga med en liten marginal. Det är det snabbaste sättet att återfå en förlorad vy eller orientera dig efter att ha importerat en DXF-fil.
 
 ## Anpassa vyn
 
-Klicka på **Fit**-knappen i verktygsfältet eller skriv `fit` i terminalen. Vyn justeras omedelbart och kommandot avslutas — ingen interaktion krävs.
+Klicka på **Fit**-knappen i verktygsfältet eller skriv `Anpassa` i terminalen. Vyn justeras omedelbart och kommandot avslutas — ingen interaktion krävs.
 
 **Dubbelklick med mittenmusknappen** utlöser samma Fit-operation när som helst utan att aktivera något kommando — den snabbaste genvägen för att återställa en förlorad vy mitt i ritandet.
 

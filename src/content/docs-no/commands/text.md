@@ -8,13 +8,13 @@ order: 0
 
 # Text
 
-Kommandoen `text` plasserer en flerlinjes tekstetikett. Etter at du klikker en posisjon på lerretet, åpnes en popup-editor i **rik** modus — du kan skrive innhold, bruke fet/kursiv/gjennomstreking per tegn, endre skrifter og høyder, og sette inn linjeskift. Trykk **Escape** for å bekrefte og lukke editoren.
+Kommandoen `Tekst` plasserer en flerlinjes tekstetikett. Etter at du klikker en posisjon på lerretet, åpnes en popup-editor i **rik** modus — du kan skrive innhold, bruke fet/kursiv/gjennomstreking per tegn, endre skrifter og høyder, og sette inn linjeskift. Trykk **Escape** for å bekrefte og lukke editoren.
 
 Se [Tekstredigering](../../interface/text-editor/)-siden for den fullstendige editorreferansen, inkludert en sammenligning av **rik** og **enkel** modus.
 
 ## Plassere en tekstetikett
 
-1. Skriv `text` i terminalen eller klikk på **Text**-knappen i verktøylinjen.
+1. Skriv `Tekst` i terminalen eller klikk på **Text**-knappen i verktøylinjen.
 2. **Klikk ankerposisjonen** på lerretet. Eller skriv `X,Y` og trykk **Enter** for en eksakt koordinat.
 3. **Teksteditor-popupen** åpnes over den nye etiketten. Skriv innholdet ditt.
 4. Trykk **Escape** for å bekrefte etiketten og lukke editoren.

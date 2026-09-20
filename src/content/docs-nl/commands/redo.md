@@ -8,11 +8,11 @@ order: 14
 
 # Redo
 
-Het `redo`-commando gaat voorwaarts door de undo-geschiedenis en past acties opnieuw toe die door [Undo](../undo/) waren teruggedraaid. Redo is alleen beschikbaar wanneer u een stap terug heeft gezet met Undo en nog geen nieuwe wijziging heeft aangebracht.
+Het `OpnieuwUitvoeren`-commando gaat voorwaarts door de undo-geschiedenis en past acties opnieuw toe die door [Undo](../undo/) waren teruggedraaid. Redo is alleen beschikbaar wanneer u een stap terug heeft gezet met Undo en nog geen nieuwe wijziging heeft aangebracht.
 
 ## Hoe u opnieuw toepast
 
-- Typ `redo` in de terminal, of
+- Typ `OpnieuwUitvoeren` in de terminal, of
 - Klik op de **Redo**-werkbalkknop.
 
 Elke aanroep past één eerder ongedaan gemaakte actie opnieuw toe. Roep het herhaaldelijk aan om voorwaarts te stappen door alle beschikbare redo-items.

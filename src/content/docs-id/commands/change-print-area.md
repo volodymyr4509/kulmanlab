@@ -8,11 +8,11 @@ order: 5
 
 # ChangePrintArea
 
-Perintah `ChangePrintArea` menetapkan wilayah persegi panjang yang diekspor [Print Manager](../print-manager/). Perintah ini berjalan di kanvas kosong dengan Print Manager tersembunyi dan menerima dua sudut berseberangan — dua klik yang sama seperti [Rectangle](../rectangle/), sehingga koordinat yang diketik dan snap berperilaku persis sama.
+Perintah `UbahAreaCetak` menetapkan wilayah persegi panjang yang diekspor [Print Manager](../print-manager/). Perintah ini berjalan di kanvas kosong dengan Print Manager tersembunyi dan menerima dua sudut berseberangan — dua klik yang sama seperti [Rectangle](../rectangle/), sehingga koordinat yang diketik dan snap berperilaku persis sama.
 
 ## Memilih area
 
-1. Ketik `ChangePrintArea` di terminal, atau klik **Change Area** di bilah sisi Print Manager. Print Manager tersembunyi dan kanvas menjadi interaktif.
+1. Ketik `UbahAreaCetak` di terminal, atau klik **Change Area** di bilah sisi Print Manager. Print Manager tersembunyi dan kanvas menjadi interaktif.
 2. **Klik sudut pertama**, atau ketik `X,Y` lalu tekan **Enter** untuk koordinat yang tepat.
 3. **Klik sudut yang berseberangan**, atau ketik `X,Y` lagi.
 

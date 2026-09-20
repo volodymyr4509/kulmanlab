@@ -8,11 +8,11 @@ order: 9
 
 # Dimension Angular
 
-Kommandoen `DimensionAngular` placerer en **vinkelmål**-bueannotation på tegningen. Den måler og mærker vinklen mellem to linjer, spændet af en bue, eller en sektor af en cirkel.
+Kommandoen `MålVinkel` placerer en **vinkelmål**-bueannotation på tegningen. Den måler og mærker vinklen mellem to linjer, spændet af en bue, eller en sektor af en cirkel.
 
 ## Sådan aktiverer du den
 
-Klik på **Dimension Angular**-knappen i værktøjslinjen i Markup-panelet, eller skriv `DimensionAngular` i terminalen.
+Klik på **Dimension Angular**-knappen i værktøjslinjen i Markup-panelet, eller skriv `MålVinkel` i terminalen.
 
 ## Tre inputtilstande
 
@@ -47,7 +47,7 @@ Parallelle linjer kan ikke danne et vinkelmål; kommandoen ignorerer det andet k
 
 - Målbuen tegnes altid på siden af toppunktet, hvor du placerer den — flyt markøren over toppunktet for at skifte til supplementvinklen.
 - Den målte vinkel vises i grader og opdateres live, mens du bevæger markøren under placering.
-- Den resulterende annotation er en fuld `DimensionAngular`-entitet gemt på det aktuelle lag. Dens udseendeegenskaber (pilstørrelse, teksthøjde, hjælpelinjelængde) kan justeres i Properties-panelet.
+- Den resulterende annotation er en fuld `MålVinkel`-entitet gemt på det aktuelle lag. Dens udseendeegenskaber (pilstørrelse, teksthøjde, hjælpelinjelængde) kan justeres i Properties-panelet.
 - Vinkelmål eksporteres til både JSON og DXF og skrives i DXF som almindelige `DIMENSION`-elementer.
 
 ## Redigere etiketten — simpel tilstand

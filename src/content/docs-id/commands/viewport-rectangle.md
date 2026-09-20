@@ -8,12 +8,12 @@ order: 1
 
 # ViewportRectangle
 
-Perintah `ViewportRectangle` membuat viewport baru di layout kertas aktif dengan memilih dua sudut yang berlawanan. Hanya tersedia di layout space.
+Perintah `ViewportPersegi` membuat viewport baru di layout kertas aktif dengan memilih dua sudut yang berlawanan. Hanya tersedia di layout space.
 
 ## Membuat viewport
 
 1. Beralih ke layout kertas menggunakan tab di bagian bawah layar.
-2. Ketik `ViewportRectangle` di terminal atau klik tombol toolbar **Viewport Rectangle**.
+2. Ketik `ViewportPersegi` di terminal atau klik tombol toolbar **Viewport Rectangle**.
 3. **Klik sudut pertama**, atau ketik `X,Y` dan tekan **Enter** untuk koordinat tepat.
 4. **Klik sudut yang berlawanan** — viewport ditempatkan segera. Entri koordinat juga berfungsi di sini.
 

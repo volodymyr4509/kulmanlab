@@ -7,13 +7,13 @@ order: 2
 
 # ViewportCopy
 
-Lệnh `ViewportCopy` sao chép một khung nhìn đến vị trí mới, bảo toàn tỉ lệ và tâm mô hình của nó. Chỉ khả dụng trong không gian bố cục.
+Lệnh `SaoChépKhungNhìn` sao chép một khung nhìn đến vị trí mới, bảo toàn tỉ lệ và tâm mô hình của nó. Chỉ khả dụng trong không gian bố cục.
 
 ## Sao chép khung nhìn
 
 1. Chuyển sang tab bố cục giấy.
 2. Tùy chọn nhấp khung nhìn để chọn trước.
-3. Gõ `ViewportCopy` trong terminal hoặc nhấp nút **Viewport Copy** trên thanh công cụ.
+3. Gõ `SaoChépKhungNhìn` trong terminal hoặc nhấp nút **Viewport Copy** trên thanh công cụ.
 4. Nếu không có khung nhìn nào được chọn trước, **nhấp khung nhìn** cần sao chép.
 5. **Nhấp điểm cơ sở** — tham chiếu cho dịch chuyển. Hoặc gõ `X,Y` rồi nhấn **Enter**.
 6. **Nhấp điểm đích** — khung nhìn được đặt tại khoảng lệch cơ sở→đích. Hoặc dùng nhập tọa độ / khóa góc.

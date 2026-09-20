@@ -8,11 +8,11 @@ order: 6
 
 # Ellipse
 
-Il comando `ellipse` disegna un'ellisse usando tre clic: un punto centrale, il punto finale del primo semiasse (maggiore) in qualsiasi angolazione, e la lunghezza del secondo semiasse (minore). I due assi sono sempre perpendicolari l'uno all'altro — la direzione del secondo asse viene derivata automaticamente dal primo.
+Il comando `Ellisse` disegna un'ellisse usando tre clic: un punto centrale, il punto finale del primo semiasse (maggiore) in qualsiasi angolazione, e la lunghezza del secondo semiasse (minore). I due assi sono sempre perpendicolari l'uno all'altro — la direzione del secondo asse viene derivata automaticamente dal primo.
 
 ## Disegnare un'ellisse
 
-1. Digita `ellipse` nel terminale o clicca il pulsante **Ellipse** nella barra degli strumenti.
+1. Digita `Ellisse` nel terminale o clicca il pulsante **Ellipse** nella barra degli strumenti.
 2. **Clicca il punto centrale**, oppure digita `X,Y` e premi **Invio** per una coordinata esatta.
 3. **Clicca il punto finale del primo asse** — imposta sia la direzione che la lunghezza del primo semiasse. L'inserimento di coordinate funziona anche qui.
 4. **Imposta la lunghezza del secondo asse** — sposta il cursore perpendicolare al primo asse, poi clicca o digita una lunghezza.

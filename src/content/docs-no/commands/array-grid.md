@@ -8,14 +8,14 @@ order: 15
 
 # Array Grid
 
-Kommandoen `ArrayGrid` lager et rutenett av kopier fra de markerte entitetene — angi antall rader, antall kolonner og avstanden mellom dem, alt skrevet inn i terminalen. Den opprinnelige markeringen opptar rad-0, kolonne-0-cellen; hver annen celle er en flyttet kopi.
+Kommandoen `Rutemønster` lager et rutenett av kopier fra de markerte entitetene — angi antall rader, antall kolonner og avstanden mellom dem, alt skrevet inn i terminalen. Den opprinnelige markeringen opptar rad-0, kolonne-0-cellen; hver annen celle er en flyttet kopi.
 
 ## To måter å starte på
 
 **Marker først, deretter lag array** — marker entiteter først, aktiver deretter:
 
 1. Marker én eller flere entiteter på lerretet.
-2. Skriv `arraygrid` i terminalen (så lite som `arr` er nok — det er entydig) eller klikk på **Array Grid**-knappen i verktøylinjen.
+2. Skriv `Rutemønster` i terminalen (så lite som `arr` er nok — det er entydig) eller klikk på **Array Grid**-knappen i verktøylinjen.
 3. Skriv antall **rader** og trykk **Enter**.
 4. Skriv antall **kolonner** og trykk **Enter**.
 5. Skriv **avstanden mellom rader** og trykk **Enter**.
@@ -23,7 +23,7 @@ Kommandoen `ArrayGrid` lager et rutenett av kopier fra de markerte entitetene �
 
 **Aktiver, marker deretter** — start kommandoen uten noe markert:
 
-1. Skriv `arraygrid` eller klikk på verktøylinjeknappen.
+1. Skriv `Rutemønster` eller klikk på verktøylinjeknappen.
 2. **Marker objekter** — klikk for å slå enkeltentiteter av/på, eller dra for å markere etter område.
 3. Trykk **Enter** eller **Space** for å bekrefte markeringen.
 4. Fortsett med rader → kolonner → radavstand → kolonneavstand som over.

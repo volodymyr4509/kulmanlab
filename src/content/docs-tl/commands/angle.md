@@ -8,7 +8,7 @@ order: 2
 
 # Angle
 
-Sinusukat ng `angle` command ang interior angle sa isang vertex na nabuo ng dalawang line segment sa pamamagitan ng tatlong na-click na punto. Ang resulta — laging nasa pagitan ng 0° at 180° — ay ipinapakita sa terminal hanggang 4 decimal places. Isa ito sa tatlong measurement commands — sinusukat ng [Distance](../distance/) ang straight-line length, at sinusukat ng [Area](../area/) ang saklaw na area at perimeter ng isang polygon.
+Sinusukat ng `Anggulo` command ang interior angle sa isang vertex na nabuo ng dalawang line segment sa pamamagitan ng tatlong na-click na punto. Ang resulta — laging nasa pagitan ng 0° at 180° — ay ipinapakita sa terminal hanggang 4 decimal places. Isa ito sa tatlong measurement commands — sinusukat ng [Distance](../distance/) ang straight-line length, at sinusukat ng [Area](../area/) ang saklaw na area at perimeter ng isang polygon.
 
 ## Anatomya ng Angle Measurement
 
@@ -30,7 +30,7 @@ Sinusukat ng `angle` command ang interior angle sa isang vertex na nabuo ng dala
 
 ## Pagsukat ng Angle
 
-1. I-type ang `angle` sa terminal o i-click ang **Angle** button sa toolbar.
+1. I-type ang `Anggulo` sa terminal o i-click ang **Angle** button sa toolbar.
 2. **I-click ang first point** — isang dulo ng bisig ng angle. O i-type ang `X,Y` at pindutin ang **Enter** para sa eksaktong coordinate.
 3. **I-click ang vertex** — ang sulok kung saan nagtatagpo ang dalawang bisig. Gumagana rin dito ang coordinate entry.
 4. **I-click ang third point** — ang ikalawang dulo ng bisig. Gumagana rin dito ang coordinate entry. Ang paglalagay ng puntong ito ang naglilimbag ng resulta.

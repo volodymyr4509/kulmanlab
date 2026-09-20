@@ -8,11 +8,11 @@ order: 1
 
 # Pan
 
-Il comando `pan` entra in una modalità di trascinamento persistente — clicca e trascina ovunque sul canvas per spostare la vista. Il livello di zoom rimane invariato. La modalità Pan rimane attiva finché non premi `Esc`, quindi puoi trascinare più volte in un'unica attivazione.
+Il comando `Panoramica` entra in una modalità di trascinamento persistente — clicca e trascina ovunque sul canvas per spostare la vista. Il livello di zoom rimane invariato. La modalità Pan rimane attiva finché non premi `Esc`, quindi puoi trascinare più volte in un'unica attivazione.
 
 ## Spostare la vista
 
-1. Digita `pan` nel terminale o clicca il pulsante **Pan** nella barra degli strumenti.
+1. Digita `Panoramica` nel terminale o clicca il pulsante **Pan** nella barra degli strumenti.
 2. **Clicca e trascina** ovunque sul canvas per spostare la vista.
 3. Rilascia e trascina di nuovo tutte le volte necessarie.
 4. Premi `Esc` per uscire dalla modalità pan.

@@ -8,11 +8,11 @@ order: 9
 
 # Dimension Angular
 
-Der `DimensionAngular`-Befehl platziert eine **Winkelbemaßungs-**Bogenannotation auf der Zeichnung. Er misst und beschriftet den Winkel zwischen zwei Linien, die Spanne eines Bogens oder einen Sektor eines Kreises.
+Der `Winkelbemaßung`-Befehl platziert eine **Winkelbemaßungs-**Bogenannotation auf der Zeichnung. Er misst und beschriftet den Winkel zwischen zwei Linien, die Spanne eines Bogens oder einen Sektor eines Kreises.
 
 ## So aktivieren Sie den Befehl
 
-Klicken Sie auf die Schaltfläche **Dimension Angular** in der Symbolleiste im Beschriftungsbereich oder geben Sie `DimensionAngular` im Terminal ein.
+Klicken Sie auf die Schaltfläche **Dimension Angular** in der Symbolleiste im Beschriftungsbereich oder geben Sie `Winkelbemaßung` im Terminal ein.
 
 ## Drei Eingabemodi
 
@@ -47,7 +47,7 @@ Parallele Linien können keine Winkelbemaßung bilden; der Befehl ignoriert den 
 
 - Der Bemaßungsbogen wird immer auf der Seite des Scheitelpunkts gezeichnet, auf der Sie ihn platzieren — bewegen Sie den Mauszeiger über den Scheitelpunkt, um zum Ergänzungswinkel zu wechseln.
 - Der gemessene Winkel wird in Grad angezeigt und aktualisiert sich live, während Sie den Mauszeiger während der Platzierung bewegen.
-- Die resultierende Annotation ist ein vollständiges `DimensionAngular`-Element, das auf der aktuellen Ebene gespeichert wird. Seine Darstellungseigenschaften (Pfeilgröße, Texthöhe, Maßhilfslinienlänge) können im Eigenschaften-Panel angepasst werden.
+- Die resultierende Annotation ist ein vollständiges `Winkelbemaßung`-Element, das auf der aktuellen Ebene gespeichert wird. Seine Darstellungseigenschaften (Pfeilgröße, Texthöhe, Maßhilfslinienlänge) können im Eigenschaften-Panel angepasst werden.
 - Winkelbemaßungen werden sowohl nach JSON als auch nach DXF exportiert, in DXF als normale `DIMENSION`-Elemente.
 
 ## Beschriftung bearbeiten — simple mode

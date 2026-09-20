@@ -8,14 +8,14 @@ order: 6
 
 # Align
 
-Kommandoen `align` omplasserer markerte entiteter ved hjelp av ett eller to par kilde-/målpunkter. Med ett par oppfører den seg akkurat som [Move](../move/) (kun flytting). Med to par roterer den også markeringen slik at retningen fra kilde til kilde samsvarer med retningen fra mål til mål, og kan valgfritt skalere den slik at kildesegmentets lengde samsvarer med målsegmentets lengde — flytting, rotasjon og skalering i én operasjon.
+Kommandoen `Juster` omplasserer markerte entiteter ved hjelp av ett eller to par kilde-/målpunkter. Med ett par oppfører den seg akkurat som [Move](../move/) (kun flytting). Med to par roterer den også markeringen slik at retningen fra kilde til kilde samsvarer med retningen fra mål til mål, og kan valgfritt skalere den slik at kildesegmentets lengde samsvarer med målsegmentets lengde — flytting, rotasjon og skalering i én operasjon.
 
 ## To måter å starte på
 
 **Marker først, deretter juster** — marker entiteter først, aktiver deretter:
 
 1. Marker én eller flere entiteter på lerretet.
-2. Skriv `align` i terminalen eller klikk på **Align**-knappen i verktøylinjen.
+2. Skriv `Juster` i terminalen eller klikk på **Align**-knappen i verktøylinjen.
 3. **Klikk det første kildepunktet (S1)**, deretter **klikk det første målpunktet (D1)**.
 4. **Klikk det andre kildepunktet (S2)**, eller trykk **Enter** eller **Space** for å bruke kun flytting nå.
 5. **Klikk det andre målpunktet (D2)**.
@@ -23,7 +23,7 @@ Kommandoen `align` omplasserer markerte entiteter ved hjelp av ett eller to par 
 
 **Aktiver, marker deretter** — start kommandoen uten noe markert:
 
-1. Skriv `align` eller klikk på verktøylinjeknappen.
+1. Skriv `Juster` eller klikk på verktøylinjeknappen.
 2. **Marker objekter** — klikk for å slå enkeltentiteter av/på, eller dra for å markere etter område.
 3. Trykk **Enter** eller **Space** for å bekrefte markeringen.
 4. Fortsett med S1 → D1 → S2 → D2 → skaleringsspørsmål som over.
@@ -97,4 +97,4 @@ De justerte entitetene forblir markert på sin nye posisjon, og kommandoen avslu
 
 ## Støttede entiteter
 
-Align fungerer på alle entitetstyper som støttes av Move, Rotate og Scale — de samme operasjonene `translate`, `rotate` og `scale` som disse kommandoene bruker, blir brukt i rekkefølge, så ingenting er utelatt.
+Align fungerer på alle entitetstyper som støttes av Move, Rotate og Scale — de samme operasjonene `translate`, `Roter` og `Skaler` som disse kommandoene bruker, blir brukt i rekkefølge, så ingenting er utelatt.

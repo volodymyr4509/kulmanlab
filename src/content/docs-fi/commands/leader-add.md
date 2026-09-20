@@ -8,11 +8,11 @@ order: 2
 
 # LeaderAdd
 
-Komento `LeaderAdd` lisää uuden nuolenkärkihaaran olemassa olevaan multileaderiin. Uusi haara osoittaa johtimen olemassa olevasta doglegista uuteen nuolenkärkeen, jonka napsautat. Kaikki tyyli — doglegin sijainti, teksti, nuolenkärjen tyyppi ja koko — periytyy valitusta johtimesta.
+Komento `LisääViitenuolenHaara` lisää uuden nuolenkärkihaaran olemassa olevaan multileaderiin. Uusi haara osoittaa johtimen olemassa olevasta doglegista uuteen nuolenkärkeen, jonka napsautat. Kaikki tyyli — doglegin sijainti, teksti, nuolenkärjen tyyppi ja koko — periytyy valitusta johtimesta.
 
 ## Haaran lisääminen
 
-1. Kirjoita `LeaderAdd` terminaaliin.
+1. Kirjoita `LisääViitenuolenHaara` terminaaliin.
 2. **Napsauta olemassa olevaa multileaderia** valitaksesi sen.
 3. **Napsauta uutta nuolenkärkeä**, tai kirjoita `X,Y` ja paina **Enter** tarkkaa koordinaattia varten. Esikatseluviiva näkyy kohdistimesta johtimen doglegiin.
 

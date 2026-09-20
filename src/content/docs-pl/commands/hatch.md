@@ -8,11 +8,11 @@ order: 7
 
 # Hatch
 
-Polecenie `hatch` wypełnia obszar otaczający kliknięty punkt wzorem. Kontur nie jest rysowany najpierw — powstaje z tego, co już znajduje się na płótnie, więc cztery osobne [Line](../line/), które spotykają się końcami, otaczają obszar dokładnie tak, jak robi to zamknięta [Polyline](../polyline/), a każdy zamknięty kształt w środku staje się wyspą, której wypełnienie nie dotyka.
+Polecenie `Kreskowanie` wypełnia obszar otaczający kliknięty punkt wzorem. Kontur nie jest rysowany najpierw — powstaje z tego, co już znajduje się na płótnie, więc cztery osobne [Line](../line/), które spotykają się końcami, otaczają obszar dokładnie tak, jak robi to zamknięta [Polyline](../polyline/), a każdy zamknięty kształt w środku staje się wyspą, której wypełnienie nie dotyka.
 
 ## Wypełnianie obszaru
 
-1. Wpisz `hatch` w terminalu lub kliknij przycisk paska narzędzi **Hatch** (ikona próbki).
+1. Wpisz `Kreskowanie` w terminalu lub kliknij przycisk paska narzędzi **Hatch** (ikona próbki).
 2. **Kliknij punkt** wewnątrz obszaru, który chcesz wypełnić.
 3. Polecenie pozostaje aktywne, więc kontynuuj klikanie, aby wypełnić więcej obszarów — każde kliknięcie tworzy własny element `Hatch`.
 4. Naciśnij **Enter**, **Spację** lub **Escape**, gdy skończysz.
@@ -69,7 +69,7 @@ Każdy nowy hatch zaczyna się wypełniony wzorem `ANSI31` (lub jakimkolwiek wzo
 1. Wybierz istniejący hatch i otwórz jego pole **Pattern** w panelu właściwości — otwiera to selektor wzorów, siatkę nazwanych próbek pogrupowanych według pochodzenia każdego wzoru.
 2. Kliknij wzór, aby go zastosować — wypełnienie aktualizuje się natychmiast.
 
-Ten wybór staje się również domyślny dla *następnego* hatch, który utworzysz poleceniem `hatch`, w ten sam sposób, w jaki wybór warstwy lub koloru jest przenoszony dalej. Aby więc pokryć hatchem kilka nowych obszarów określonym wzorem: wypełnij jeden obszar, ustaw jego wzór raz, a następnie kontynuuj hatchowanie — każde kolejne wypełnienie zaczyna się już z zastosowanym tym wzorem.
+Ten wybór staje się również domyślny dla *następnego* hatch, który utworzysz poleceniem `Kreskowanie`, w ten sam sposób, w jaki wybór warstwy lub koloru jest przenoszony dalej. Aby więc pokryć hatchem kilka nowych obszarów określonym wzorem: wypełnij jeden obszar, ustaw jego wzór raz, a następnie kontynuuj hatchowanie — każde kolejne wypełnienie zaczyna się już z zastosowanym tym wzorem.
 
 Zobacz [Hatch Manager](../hatch-manager/), aby przesłać własne pliki wzorów `.pat` i przeglądać całą bibliotekę.
 

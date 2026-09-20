@@ -8,7 +8,7 @@ order: 1
 
 # Distance
 
-Polecenie `distance` mierzy odległość prostoliniową (euklidesową) między dwoma klikniętymi punktami i drukuje wynik w terminalu z dokładnością do 4 miejsc po przecinku. Jest to jedno z trzech poleceń pomiarowych — [Angle](../angle/) mierzy kąt otwierający w wierzchołku, a [Area](../area/) mierzy pole powierzchni i obwód wielokąta.
+Polecenie `Odległość` mierzy odległość prostoliniową (euklidesową) między dwoma klikniętymi punktami i drukuje wynik w terminalu z dokładnością do 4 miejsc po przecinku. Jest to jedno z trzech poleceń pomiarowych — [Angle](../angle/) mierzy kąt otwierający w wierzchołku, a [Area](../area/) mierzy pole powierzchni i obwód wielokąta.
 
 ## Anatomia pomiaru odległości
 
@@ -26,7 +26,7 @@ Polecenie `distance` mierzy odległość prostoliniową (euklidesową) między d
 
 ## Mierzenie odległości
 
-1. Wpisz `distance` w terminalu lub kliknij przycisk **Odległość** na pasku narzędzi.
+1. Wpisz `Odległość` w terminalu lub kliknij przycisk **Odległość** na pasku narzędzi.
 2. **Kliknij pierwszy punkt** lub wpisz `X,Y` i naciśnij **Enter** dla dokładnej współrzędnej.
 3. **Kliknij drugi punkt** — zmierzona odległość pojawia się w terminalu. Tutaj również działa wprowadzanie współrzędnych.
 4. **Kliknij ponownie** (opcjonalnie), aby rozpocząć nowy pomiar. Polecenie pozostaje aktywne.

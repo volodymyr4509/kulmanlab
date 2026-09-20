@@ -8,14 +8,14 @@ order: 15
 
 # Array Grid
 
-`ArrayGrid` komutu, seçili nesnelerden dikdörtgen bir kopya ızgarası oluşturur — satır sayısını, sütun sayısını ve aralarındaki boşluğu girin, hepsi terminale yazılır. Orijinal seçim satır 0, sütun 0 hücresini kaplar; diğer her hücre ötelenmiş bir kopyadır.
+`DikdörtgenDizi` komutu, seçili nesnelerden dikdörtgen bir kopya ızgarası oluşturur — satır sayısını, sütun sayısını ve aralarındaki boşluğu girin, hepsi terminale yazılır. Orijinal seçim satır 0, sütun 0 hücresini kaplar; diğer her hücre ötelenmiş bir kopyadır.
 
 ## İki Başlatma Yöntemi
 
 **Önce seç, sonra array** — nesneleri seçin, ardından etkinleştirin:
 
 1. Tuvalde bir veya daha fazla nesne seçin.
-2. Terminale `arraygrid` yazın (`arr` yeterli — belirsizlik yok) veya araç çubuğundaki **Array Grid** düğmesine basın.
+2. Terminale `DikdörtgenDizi` yazın (`arr` yeterli — belirsizlik yok) veya araç çubuğundaki **Array Grid** düğmesine basın.
 3. **Satır** sayısını yazın ve **Enter** tuşuna basın.
 4. **Sütun** sayısını yazın ve **Enter** tuşuna basın.
 5. **Satırlar arası boşluğu** yazın ve **Enter** tuşuna basın.
@@ -23,7 +23,7 @@ order: 15
 
 **Etkinleştir, sonra seç** — seçim olmadan komutu başlatın:
 
-1. `arraygrid` yazın veya araç çubuğu düğmesine basın.
+1. `DikdörtgenDizi` yazın veya araç çubuğu düğmesine basın.
 2. **Nesneleri seçin** — tek tek nesneleri değiştirmek için tıklayın veya kutu seçimi için sürükleyin.
 3. Seçimi onaylamak için **Enter** veya **Boşluk** tuşuna basın.
 4. Yukarıdaki gibi satırlar → sütunlar → satır boşluğu → sütun boşluğu ile devam edin.

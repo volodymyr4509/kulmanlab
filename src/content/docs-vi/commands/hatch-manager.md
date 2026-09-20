@@ -8,11 +8,11 @@ order: 4
 
 # Hatch Manager
 
-Lệnh `HatchManager` mở hộp thoại để duyệt các mẫu hatch với bản xem trước mẫu vải trực tiếp, và để tải lên các tệp mẫu `.pat` của riêng bạn dùng với [Hatch](../hatch/).
+Lệnh `QuảnLýMẫuTô` mở hộp thoại để duyệt các mẫu hatch với bản xem trước mẫu vải trực tiếp, và để tải lên các tệp mẫu `.pat` của riêng bạn dùng với [Hatch](../hatch/).
 
 ## Mở Hatch Manager
 
-Gõ `HatchManager` trong terminal. Đây là chức năng tách biệt với bộ chọn mẫu mở ra khi bạn nhấp vào chip **Pattern** của một hatch — bộ chọn chọn một mẫu cho một hatch, Hatch Manager là nơi bạn thêm hoặc xóa các tệp `.pat`.
+Gõ `QuảnLýMẫuTô` trong terminal. Đây là chức năng tách biệt với bộ chọn mẫu mở ra khi bạn nhấp vào chip **Pattern** của một hatch — bộ chọn chọn một mẫu cho một hatch, Hatch Manager là nơi bạn thêm hoặc xóa các tệp `.pat`.
 
 ## Các Nhóm Mẫu
 

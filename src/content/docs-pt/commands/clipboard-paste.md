@@ -8,11 +8,11 @@ order: 18
 
 # ClipboardPaste
 
-O comando `ClipboardPaste` lê as entidades que o [ClipboardCopy](../clipboard-copy/) gravou na **área de transferência do sistema** e as posiciona no desenho atual num ponto que você escolhe. Como a área de transferência é a real do sistema, a origem pode ser outro desenho, outra aba do navegador ou uma sessão de mais cedo no dia.
+O comando `ColarÁreaTransferência` lê as entidades que o [ClipboardCopy](../clipboard-copy/) gravou na **área de transferência do sistema** e as posiciona no desenho atual num ponto que você escolhe. Como a área de transferência é a real do sistema, a origem pode ser outro desenho, outra aba do navegador ou uma sessão de mais cedo no dia.
 
 ## Como colar
 
-1. Pressione `Ctrl+V` (`Cmd+V` no macOS), ou digite `ClipboardPaste` no terminal.
+1. Pressione `Ctrl+V` (`Cmd+V` no macOS), ou digite `ColarÁreaTransferência` no terminal.
 2. O prompt mostra **reading clipboard…** enquanto o navegador entrega o texto da área de transferência.
 3. Depois de carregado, o prompt muda para **pick insertion point** e uma prévia da geometria segue o cursor.
 4. **Clique** para posicionar as entidades. Elas são adicionadas ao desenho e ficam selecionadas.

@@ -8,13 +8,13 @@ order: 2
 
 # ViewportCopy
 
-Il comando `ViewportCopy` copia una finestra di visualizzazione in una nuova posizione, preservando la sua scala e il centro del modello. Disponibile solo nello spazio layout.
+Il comando `CopiaFinestra` copia una finestra di visualizzazione in una nuova posizione, preservando la sua scala e il centro del modello. Disponibile solo nello spazio layout.
 
 ## Copiare una finestra di visualizzazione
 
 1. Passa a una scheda di layout carta.
 2. Facoltativamente clicca una finestra di visualizzazione per preselezionarla.
-3. Digita `ViewportCopy` nel terminale o clicca il pulsante **Viewport Copy** nella barra degli strumenti.
+3. Digita `CopiaFinestra` nel terminale o clicca il pulsante **Viewport Copy** nella barra degli strumenti.
 4. Se nessuna finestra di visualizzazione era preselezionata, **clicca la finestra di visualizzazione** da copiare.
 5. **Clicca il punto base** — il riferimento per lo spostamento. Oppure digita `X,Y` e premi **Invio** per una coordinata esatta.
 6. **Clicca la destinazione** — la finestra di visualizzazione viene posizionata all'offset base→destinazione. Oppure usa l'inserimento coordinate / blocco angolo.

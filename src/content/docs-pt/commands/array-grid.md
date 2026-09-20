@@ -8,14 +8,14 @@ order: 15
 
 # Array Grid
 
-O comando `ArrayGrid` cria uma grade retangular de cópias a partir das entidades selecionadas — digite o número de linhas, o número de colunas e o espaçamento entre elas, tudo digitado no terminal. A seleção original ocupa a célula linha 0, coluna 0; cada outra célula é uma cópia transladada.
+O comando `MatrizRetangular` cria uma grade retangular de cópias a partir das entidades selecionadas — digite o número de linhas, o número de colunas e o espaçamento entre elas, tudo digitado no terminal. A seleção original ocupa a célula linha 0, coluna 0; cada outra célula é uma cópia transladada.
 
 ## Duas formas de começar
 
 **Pré-selecionar, depois array** — selecione as entidades primeiro, depois ative:
 
 1. Selecione uma ou mais entidades no canvas.
-2. Digite `arraygrid` no terminal (`arr` já é suficiente — é inequívoco) ou clique no botão **Array Grid** na barra de ferramentas.
+2. Digite `MatrizRetangular` no terminal (`arr` já é suficiente — é inequívoco) ou clique no botão **Array Grid** na barra de ferramentas.
 3. Digite o número de **linhas** e pressione **Enter**.
 4. Digite o número de **colunas** e pressione **Enter**.
 5. Digite o **espaçamento entre linhas** e pressione **Enter**.
@@ -23,7 +23,7 @@ O comando `ArrayGrid` cria uma grade retangular de cópias a partir das entidade
 
 **Ativar, depois selecionar** — inicie o comando sem nada selecionado:
 
-1. Digite `arraygrid` ou clique no botão da barra de ferramentas.
+1. Digite `MatrizRetangular` ou clique no botão da barra de ferramentas.
 2. **Selecione os objetos** — clique para alternar entidades individuais, ou arraste para selecionar por área.
 3. Pressione **Enter** ou **Espaço** para confirmar a seleção.
 4. Continue com linhas → colunas → espaçamento de linhas → espaçamento de colunas como acima.

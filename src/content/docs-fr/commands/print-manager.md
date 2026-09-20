@@ -8,11 +8,11 @@ order: 4
 
 # Gestionnaire d'impression
 
-La commande `PrintManager` ouvre le **Gestionnaire d'impression** — une fenêtre d'export dédiée avec un canevas d'aperçu en temps réel, un sélecteur de format (PNG / JPEG / WebP / PDF), un sélecteur de Style (Default / Monochrome / Blueprint) et un recadrage de zone optionnel. Rien n'est envoyé à une imprimante physique ; le résultat est téléchargé comme fichier.
+La commande `GestionnaireImpression` ouvre le **Gestionnaire d'impression** — une fenêtre d'export dédiée avec un canevas d'aperçu en temps réel, un sélecteur de format (PNG / JPEG / WebP / PDF), un sélecteur de Style (Default / Monochrome / Blueprint) et un recadrage de zone optionnel. Rien n'est envoyé à une imprimante physique ; le résultat est téléchargé comme fichier.
 
 ## Ouvrir le Gestionnaire d'impression
 
-Cliquez sur le bouton **Print** dans la barre d'outils ou tapez `PrintManager` dans le terminal. Le Gestionnaire d'impression s'ouvre immédiatement en affichant un aperçu du viewport actuel.
+Cliquez sur le bouton **Print** dans la barre d'outils ou tapez `GestionnaireImpression` dans le terminal. Le Gestionnaire d'impression s'ouvre immédiatement en affichant un aperçu du viewport actuel.
 
 L'aperçu est rendu exactement via le même chemin de code, à exactement la même résolution en pixels, que le fichier que vous finirez par exporter — changer la Qualité, le Style ou la zone d'export re-rend immédiatement l'aperçu, donc ce que vous voyez est ce qui est téléchargé, pas une approximation.
 

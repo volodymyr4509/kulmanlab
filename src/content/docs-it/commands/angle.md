@@ -8,7 +8,7 @@ order: 2
 
 # Angle
 
-Il comando `angle` misura l'angolo interno in un vertice formato da due segmenti attraverso tre punti cliccati. Il risultato — sempre compreso tra 0° e 180° — viene visualizzato nel terminale con 4 decimali. È uno dei tre comandi di misurazione — [Distance](../distance/) misura la lunghezza in linea retta, e [Area](../area/) misura l'area racchiusa e il perimetro di un poligono.
+Il comando `Angolo` misura l'angolo interno in un vertice formato da due segmenti attraverso tre punti cliccati. Il risultato — sempre compreso tra 0° e 180° — viene visualizzato nel terminale con 4 decimali. È uno dei tre comandi di misurazione — [Distance](../distance/) misura la lunghezza in linea retta, e [Area](../area/) misura l'area racchiusa e il perimetro di un poligono.
 
 ## Anatomia di una misurazione angolare
 
@@ -30,7 +30,7 @@ Il comando `angle` misura l'angolo interno in un vertice formato da due segmenti
 
 ## Misurare un angolo
 
-1. Digita `angle` nel terminale o clicca il pulsante **Angle** nella barra degli strumenti.
+1. Digita `Angolo` nel terminale o clicca il pulsante **Angle** nella barra degli strumenti.
 2. **Clicca il primo punto** — un'estremità del braccio dell'angolo. Oppure digita `X,Y` e premi **Invio** per una coordinata esatta.
 3. **Clicca il vertice** — il punto in cui si incontrano i due bracci. L'inserimento di coordinate funziona anche qui.
 4. **Clicca il terzo punto** — la seconda estremità del braccio. L'inserimento di coordinate funziona anche qui. Il posizionamento di questo punto stampa il risultato.

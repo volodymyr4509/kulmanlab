@@ -8,7 +8,7 @@ order: 7
 
 # Wipe Storage
 
-Il comando `wipestorage` elimina permanentemente **tutti i dati salvati nel browser** per KulmanLab CAD — ogni file salvato, tabella livelli e tipi di linea, e la cronologia di undo. La pagina si ricarica automaticamente dopo.
+Il comando `SvuotaArchivio` elimina permanentemente **tutti i dati salvati nel browser** per KulmanLab CAD — ogni file salvato, tabella livelli e tipi di linea, e la cronologia di undo. La pagina si ricarica automaticamente dopo.
 
 :::danger Irreversibile
 Questa azione non può essere annullata. Tutti i file salvati nel browser vengono eliminati. Esporta i disegni che vuoi conservare come file `.json` o `.dxf` prima di eseguire questo comando.
@@ -22,7 +22,7 @@ Questa azione non può essere annullata. Tutti i file salvati nel browser vengon
 
 ## Come eseguirlo
 
-1. Digita `wipestorage` nel terminale e premi **Invio**.
+1. Digita `SvuotaArchivio` nel terminale e premi **Invio**.
 2. Il terminale mostra: *Vuoi cancellare tutto il local storage del browser? Digita YES per confermare*
 3. Digita `YES` (qualsiasi capitalizzazione) e premi **Invio**.
 

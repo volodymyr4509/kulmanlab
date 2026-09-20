@@ -8,11 +8,11 @@ order: 5
 
 # HatchAdd
 
-Kommandot `HatchAdd` öppnar systemets filväljare för att ladda upp en `.pat`-skrafferingsfil, utan att först öppna dialogen [Hatch Manager](../hatch-manager/). Det är samma uppladdning som knappen **Add .pat File** i Hatch Manager utlöser — HatchAdd är bara en direkt väg dit från terminalen.
+Kommandot `LäggTillSkraffering` öppnar systemets filväljare för att ladda upp en `.pat`-skrafferingsfil, utan att först öppna dialogen [Hatch Manager](../hatch-manager/). Det är samma uppladdning som knappen **Add .pat File** i Hatch Manager utlöser — HatchAdd är bara en direkt väg dit från terminalen.
 
 ## Ladda upp en mönsterfil
 
-1. Skriv `HatchAdd` i terminalen, eller klicka på **Add .pat File** längst ned i dialogen [Hatch Manager](../hatch-manager/).
+1. Skriv `LäggTillSkraffering` i terminalen, eller klicka på **Add .pat File** längst ned i dialogen [Hatch Manager](../hatch-manager/).
 2. Välj en `.pat`-fil i systemväljaren. Endast standardformatet för skrafferingsmönster godtas.
 
 Kommandot avslutas så snart filväljaren öppnas — ingen ytterligare fråga, klick eller terminalinmatning följer. Mönstren registreras och dyker upp i gruppen **User** så snart filen har valts.

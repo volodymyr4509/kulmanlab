@@ -8,7 +8,7 @@ order: 3
 
 # Area
 
-Kommandoen `area` måler omsluttet areal og omkrets av en polygon definert av tre eller flere klikkede punkter, og skriver ut begge resultatene i terminalen med 4 desimaler. Det er den tredje målekommandoen, ved siden av [Distance](../distance/) (rett linjelengde) og [Angle](../angle/) (innvendig vinkel ved et toppunkt).
+Kommandoen `Areal` måler omsluttet areal og omkrets av en polygon definert av tre eller flere klikkede punkter, og skriver ut begge resultatene i terminalen med 4 desimaler. Det er den tredje målekommandoen, ved siden av [Distance](../distance/) (rett linjelengde) og [Angle](../angle/) (innvendig vinkel ved et toppunkt).
 
 ## Anatomien til en arealmåling
 
@@ -30,7 +30,7 @@ Kommandoen `area` måler omsluttet areal og omkrets av en polygon definert av tr
 
 ## Måle et areal
 
-1. Skriv `area` i terminalen eller klikk på **Area**-knappen i verktøylinjen (nederste rad i Measure-panelet).
+1. Skriv `Areal` i terminalen eller klikk på **Area**-knappen i verktøylinjen (nederste rad i Measure-panelet).
 2. **Klikk det første punktet**, eller skriv `X,Y` og trykk **Enter** for en eksakt koordinat.
 3. **Klikk hvert ekstra hjørne** i rekkefølge rundt formen. Koordinatinntasting fungerer i hvert steg.
 4. Når minst **3 punkter** er plassert, trykk **Enter** eller **Space** (uten ventende koordinat- eller avstandsinntasting) for å lukke polygonen og beregne resultatet.
@@ -93,5 +93,5 @@ I stedet for å klikke kan du skrive inn en eksakt posisjon for et hvilket som h
 - Arealet beregnes med [kileformelen](https://en.wikipedia.org/wiki/Shoelace_formula) og rapporteres alltid som en positiv verdi, uansett klikkerekkefølge.
 - Selvkryssende polygoner (kanter som krysser hverandre) gir fortsatt et numerisk resultat, men verdien samsvarer kanskje ikke med det visuelt omsluttede området — hold klikkerekkefølgen ikke-kryssende for et meningsfullt areal.
 - Resultater vises **kun i terminalen og som en midlertidig utheving på lerretet** — ingenting legges til i tegningen som en permanent entitet.
-- I motsetning til Distance og Angle kjeder Area **ikke** automatisk til en ny måling — etter at du fjerner resultatet, kjør `area` igjen for å måle en annen polygon.
+- I motsetning til Distance og Angle kjeder Area **ikke** automatisk til en ny måling — etter at du fjerner resultatet, kjør `Areal` igjen for å måle en annen polygon.
 - Presisjonen er alltid 4 desimaler for både areal og omkrets, i samme enheter som tegningens koordinater (ingen enhetskonvertering).

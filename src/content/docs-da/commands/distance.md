@@ -8,7 +8,7 @@ order: 1
 
 # Distance
 
-Kommandoen `distance` måler den rette (euklidiske) afstand mellem to klikkede punkter og udskriver resultatet i terminalen med 4 decimaler. Det er én af tre målekommandoer — [Angle](../angle/) måler vinkelåbningen ved et toppunkt, og [Area](../area/) måler det omsluttede areal og omkredsen af en polygon.
+Kommandoen `Afstand` måler den rette (euklidiske) afstand mellem to klikkede punkter og udskriver resultatet i terminalen med 4 decimaler. Det er én af tre målekommandoer — [Angle](../angle/) måler vinkelåbningen ved et toppunkt, og [Area](../area/) måler det omsluttede areal og omkredsen af en polygon.
 
 ## Anatomien af en afstandsmåling
 
@@ -26,7 +26,7 @@ Kommandoen `distance` måler den rette (euklidiske) afstand mellem to klikkede p
 
 ## Måle en afstand
 
-1. Skriv `distance` i terminalen eller klik på **Distance**-knappen i værktøjslinjen.
+1. Skriv `Afstand` i terminalen eller klik på **Distance**-knappen i værktøjslinjen.
 2. **Klik det første punkt**, eller skriv `X,Y` og tryk **Enter** for en eksakt koordinat.
 3. **Klik det andet punkt** — den målte afstand vises i terminalen. Koordinatindtastning fungerer også her.
 4. **Klik igen** (valgfrit) for at starte en ny måling. Kommandoen forbliver aktiv.

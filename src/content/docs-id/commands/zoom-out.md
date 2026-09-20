@@ -8,11 +8,11 @@ order: 3
 
 # Zoom Out
 
-Perintah `zoomout` membagi tingkat zoom saat ini sebesar **1.5×** (setara dengan mengalikan dengan ~0.667) dan langsung keluar, dipusatkan pada titik tengah viewport. Ini adalah kebalikan dari [Zoom In](../zoom-in/).
+Perintah `Perkecil` membagi tingkat zoom saat ini sebesar **1.5×** (setara dengan mengalikan dengan ~0.667) dan langsung keluar, dipusatkan pada titik tengah viewport. Ini adalah kebalikan dari [Zoom In](../zoom-in/).
 
 ## Memperkecil
 
-Klik tombol toolbar **Zoom Out** atau ketik `zoomout` di terminal. Zoom diterapkan seketika dan perintah keluar — tidak diperlukan klik pada kanvas.
+Klik tombol toolbar **Zoom Out** atau ketik `Perkecil` di terminal. Zoom diterapkan seketika dan perintah keluar — tidak diperlukan klik pada kanvas.
 
 ## Cara langkah 1.5× bekerja
 

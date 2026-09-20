@@ -12,7 +12,7 @@ Ouvre le panneau d'aide intégré avec un résumé de tous les raccourcis clavie
 
 ## Comment utiliser
 
-Cliquez sur le bouton **Help** dans la barre d'outils ou tapez `help` dans le terminal. Le panneau d'aide s'ouvre immédiatement et la commande se termine.
+Cliquez sur le bouton **Help** dans la barre d'outils ou tapez `Aide` dans le terminal. Le panneau d'aide s'ouvre immédiatement et la commande se termine.
 
 ## Ce que contient le panneau d'aide
 

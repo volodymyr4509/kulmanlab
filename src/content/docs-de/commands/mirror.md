@@ -8,20 +8,20 @@ order: 4
 
 # Mirror
 
-Der Befehl `mirror` erstellt gespiegelte Kopien ausgewählter Entitäten, die über eine Zwei-Punkt-Achse reflektiert werden. Die Originale bleiben **immer erhalten** — im Gegensatz zu [Move](../move/) oder [Rotate](../rotate/) verändert mirror keine vorhandenen Entitäten; es werden nur neue hinzugefügt.
+Der Befehl `Spiegeln` erstellt gespiegelte Kopien ausgewählter Entitäten, die über eine Zwei-Punkt-Achse reflektiert werden. Die Originale bleiben **immer erhalten** — im Gegensatz zu [Move](../move/) oder [Rotate](../rotate/) verändert mirror keine vorhandenen Entitäten; es werden nur neue hinzugefügt.
 
 ## Zwei Möglichkeiten zum Starten
 
 **Zuerst auswählen, dann spiegeln** — wählen Sie zuerst Entitäten aus und aktivieren Sie dann den Befehl:
 
 1. Wählen Sie eine oder mehrere Entitäten auf der Zeichenfläche aus.
-2. Geben Sie `mirror` im Terminal ein oder klicken Sie auf die Schaltfläche **Mirror** in der Symbolleiste.
+2. Geben Sie `Spiegeln` im Terminal ein oder klicken Sie auf die Schaltfläche **Mirror** in der Symbolleiste.
 3. **Klicken Sie auf den ersten Punkt** der Spiegelachse oder geben Sie `X,Y` ein und drücken Sie **Enter** für eine genaue Koordinate.
 4. **Klicken Sie auf den zweiten Punkt** — gespiegelte Kopien werden platziert und der Befehl endet. Koordinateneingabe funktioniert hier ebenfalls.
 
 **Aktivieren, dann auswählen** — Befehl ohne Auswahl starten:
 
-1. Geben Sie `mirror` ein oder klicken Sie auf die Schaltfläche in der Symbolleiste.
+1. Geben Sie `Spiegeln` ein oder klicken Sie auf die Schaltfläche in der Symbolleiste.
 2. **Objekte auswählen** — klicken zum Umschalten oder ziehen zur Flächenauswahl.
 3. Drücken Sie **Enter** oder **Space** zur Bestätigung der Auswahl.
 4. **Klicken Sie auf den ersten Punkt**, dann **klicken Sie auf den zweiten Punkt** der Spiegelachse (Koordinateneingabe bei beiden Schritten verfügbar).

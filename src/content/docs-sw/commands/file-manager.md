@@ -8,11 +8,11 @@ order: 3
 
 # File Manager
 
-Amri ya `FileManager` inafungua **gridi ya thumbnail** ya kila mchoro uliohifadhiwa kwenye hifadhi ya ndani ya kivinjari chako, iliyopangwa kulingana na wakati kila mmoja ulipohifadhiwa mwisho. Itumie kufungua upya mchoro uliopita, kubadilisha jina lake, au kuufuta.
+Amri ya `KidhibitiFaili` inafungua **gridi ya thumbnail** ya kila mchoro uliohifadhiwa kwenye hifadhi ya ndani ya kivinjari chako, iliyopangwa kulingana na wakati kila mmoja ulipohifadhiwa mwisho. Itumie kufungua upya mchoro uliopita, kubadilisha jina lake, au kuufuta.
 
 ## Kufungua File Manager
 
-- Andika `FileManager` kwenye terminal, **au**
+- Andika `KidhibitiFaili` kwenye terminal, **au**
 - Bonyeza kitufe cha upau wa zana **File Manager** (ikoni ya historia) katika jopo la Faili juu ya skrini.
 
 Jopo linafunguka upande wa kushoto wa turubai, na linafungwa kiotomatiki mara tu unapoanza amri nyingine au [kuingiza](../import/) faili — hivyo halibaki juu ya mchoro ambao bado haujaorodhesha. Linafunguka tena na orodha mpya kila wakati.

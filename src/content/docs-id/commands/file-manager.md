@@ -8,11 +8,11 @@ order: 3
 
 # File Manager
 
-Perintah `FileManager` membuka **grid thumbnail** dari setiap gambar yang telah disimpan ke penyimpanan lokal browser Anda, diurutkan berdasarkan waktu terakhir disimpan. Gunakan untuk membuka kembali gambar sebelumnya, mengganti namanya, atau menghapusnya.
+Perintah `ManajerBerkas` membuka **grid thumbnail** dari setiap gambar yang telah disimpan ke penyimpanan lokal browser Anda, diurutkan berdasarkan waktu terakhir disimpan. Gunakan untuk membuka kembali gambar sebelumnya, mengganti namanya, atau menghapusnya.
 
 ## Membuka File Manager
 
-- Ketik `FileManager` di terminal, **atau**
+- Ketik `ManajerBerkas` di terminal, **atau**
 - Klik tombol toolbar **File Manager** (ikon riwayat) di panel File di bagian atas layar.
 
 Panel terbuka di sisi kiri kanvas, dan tertutup secara otomatis segera setelah Anda memulai perintah lain atau [Impor](../import/) file — sehingga panel tidak pernah tertinggal di atas gambar yang belum didaftarkannya. Panel ini terbuka kembali dengan daftar yang baru setiap kali.

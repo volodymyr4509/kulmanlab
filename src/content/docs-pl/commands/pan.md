@@ -8,11 +8,11 @@ order: 1
 
 # Pan
 
-Polecenie `pan` wchodzi w tryb stałego przeciągania-przewijania — kliknij i przeciągnij w dowolnym miejscu na płótnie, aby przesunąć widok. Poziom powiększenia nie zmienia się. Tryb panoramowania pozostaje aktywny dopóki nie naciśniesz `Escape`, dzięki czemu możesz przeciągać wielokrotnie w jednej aktywacji.
+Polecenie `Przesuwanie` wchodzi w tryb stałego przeciągania-przewijania — kliknij i przeciągnij w dowolnym miejscu na płótnie, aby przesunąć widok. Poziom powiększenia nie zmienia się. Tryb panoramowania pozostaje aktywny dopóki nie naciśniesz `Escape`, dzięki czemu możesz przeciągać wielokrotnie w jednej aktywacji.
 
 ## Panoramowanie widoku
 
-1. Wpisz `pan` w terminalu lub kliknij przycisk **Panoramuj** na pasku narzędzi.
+1. Wpisz `Przesuwanie` w terminalu lub kliknij przycisk **Panoramuj** na pasku narzędzi.
 2. **Kliknij i przeciągnij** w dowolnym miejscu na płótnie, aby przesunąć widok.
 3. Zwolnij i przeciągnij ponownie tyle razy ile potrzebujesz.
 4. Naciśnij `Escape`, aby wyjść z trybu panoramowania.

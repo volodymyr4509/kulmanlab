@@ -8,14 +8,14 @@ order: 6
 
 # Align
 
-`align` komutu, bir veya iki kaynak/hedef nokta çifti kullanarak seçili nesneleri yeniden konumlandırır. Tek çiftle tam olarak [Move](../move/) gibi davranır (yalnızca taşıma). İki çiftle, seçimi kaynaktan-kaynağa yönü hedeften-hedefe yönüyle eşleşecek şekilde de döndürür ve isteğe bağlı olarak kaynak segment uzunluğu hedef segment uzunluğuyla eşleşecek şekilde ölçekleyebilir — taşıma, döndürme ve ölçekleme tek bir işlemde.
+`Hizala` komutu, bir veya iki kaynak/hedef nokta çifti kullanarak seçili nesneleri yeniden konumlandırır. Tek çiftle tam olarak [Move](../move/) gibi davranır (yalnızca taşıma). İki çiftle, seçimi kaynaktan-kaynağa yönü hedeften-hedefe yönüyle eşleşecek şekilde de döndürür ve isteğe bağlı olarak kaynak segment uzunluğu hedef segment uzunluğuyla eşleşecek şekilde ölçekleyebilir — taşıma, döndürme ve ölçekleme tek bir işlemde.
 
 ## İki Başlatma Yöntemi
 
 **Önce seç, sonra hizala** — nesneleri seçin, ardından etkinleştirin:
 
 1. Tuvalde bir veya daha fazla nesne seçin.
-2. Terminale `align` yazın veya araç çubuğundaki **Align** düğmesine basın.
+2. Terminale `Hizala` yazın veya araç çubuğundaki **Align** düğmesine basın.
 3. **İlk kaynak noktayı (S1) tıklayın**, ardından **ilk hedef noktayı (D1) tıklayın**.
 4. **İkinci kaynak noktayı (S2) tıklayın**, veya hemen yalnızca taşıma içeren bir hizalama uygulamak için **Enter** veya **Boşluk** tuşuna basın.
 5. **İkinci hedef noktayı (D2) tıklayın**.
@@ -23,7 +23,7 @@ order: 6
 
 **Etkinleştir, sonra seç** — seçim olmadan komutu başlatın:
 
-1. `align` yazın veya araç çubuğu düğmesine basın.
+1. `Hizala` yazın veya araç çubuğu düğmesine basın.
 2. **Nesneleri seçin** — tek tek nesneleri değiştirmek için tıklayın veya kutu seçimi için sürükleyin.
 3. Seçimi onaylamak için **Enter** veya **Boşluk** tuşuna basın.
 4. Yukarıdaki gibi S1 → D1 → S2 → D2 → ölçekleme istemiyle devam edin.
@@ -97,4 +97,4 @@ Hizalanan nesneler yeni konumlarında seçili kalır ve komut otomatik olarak so
 
 ## Desteklenen Nesneler
 
-Align, Move, Rotate ve Scale tarafından desteklenen tüm nesne türleriyle çalışır — bu komutların kullandığı aynı `translate`, `rotate` ve `scale` işlemleri sırayla uygulanır, bu nedenle hiçbiri hariç tutulmaz.
+Align, Move, Rotate ve Scale tarafından desteklenen tüm nesne türleriyle çalışır — bu komutların kullandığı aynı `translate`, `Döndür` ve `Ölçekle` işlemleri sırayla uygulanır, bu nedenle hiçbiri hariç tutulmaz.

@@ -8,13 +8,13 @@ order: 2
 
 # ViewportCopy
 
-Perintah `ViewportCopy` menyalin viewport ke posisi baru, mempertahankan skala dan pusat modelnya. Hanya tersedia di layout space.
+Perintah `ViewportSalin` menyalin viewport ke posisi baru, mempertahankan skala dan pusat modelnya. Hanya tersedia di layout space.
 
 ## Menyalin viewport
 
 1. Beralih ke tab layout kertas.
 2. Secara opsional klik viewport untuk memilihnya terlebih dahulu.
-3. Ketik `ViewportCopy` di terminal atau klik tombol toolbar **Viewport Copy**.
+3. Ketik `ViewportSalin` di terminal atau klik tombol toolbar **Viewport Copy**.
 4. Jika tidak ada viewport yang dipilih sebelumnya, **klik viewport** yang akan disalin.
 5. **Klik titik dasar** — referensi untuk perpindahan. Atau ketik `X,Y` dan tekan **Enter** untuk koordinat tepat.
 6. **Klik tujuan** — viewport ditempatkan pada offset dasar→tujuan. Atau gunakan entri koordinat / kunci sudut.

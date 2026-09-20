@@ -8,7 +8,7 @@ order: 16
 
 # Explode
 
-Het `explode`-commando splitst een [Polyline](../polyline/) op in de afzonderlijke [Line](../line/)- en [Arc](../arc/)-entiteiten — één per segment, precies waar de eigen hoekpunten van de polylijn lagen. De stukken vervangen de polylijn ter plekke en behouden de lijndikte, kleur, laag en lijntype ervan.
+Het `Opsplitsen`-commando splitst een [Polyline](../polyline/) op in de afzonderlijke [Line](../line/)- en [Arc](../arc/)-entiteiten — één per segment, precies waar de eigen hoekpunten van de polylijn lagen. De stukken vervangen de polylijn ter plekke en behouden de lijndikte, kleur, laag en lijntype ervan.
 
 Explode werkt alleen op **Polyline**-entiteiten.
 
@@ -19,13 +19,13 @@ Twee manieren om het uit te voeren, hetzelfde patroon als [Delete](../delete/):
 **Eerst selecteren, dan exploderen** — de snelste weg:
 
 1. Selecteer één of meer polylijnen op het canvas.
-2. Typ `explode` in de terminal, of klik op de knop **Explode** in het Edit-paneel.
+2. Typ `Opsplitsen` in de terminal, of klik op de knop **Explode** in het Edit-paneel.
 
 De geselecteerde polylijnen worden direct geëxplodeerd — geen aparte bevestigingsstap, omdat er al iets geselecteerd is.
 
 **Activeren, dan selecteren**:
 
-1. Typ `explode` of klik op de werkbalkknop zonder dat er iets is geselecteerd.
+1. Typ `Opsplitsen` of klik op de werkbalkknop zonder dat er iets is geselecteerd.
 2. **Selecteer polylijnen** — klik om te schakelen, of sleep om op gebied te selecteren.
 3. Druk op **Enter** of **Spatie** om de geselecteerde polylijnen te bevestigen en te exploderen.
 

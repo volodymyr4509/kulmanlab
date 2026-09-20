@@ -8,11 +8,11 @@ order: 1
 
 # Pan
 
-El comando `pan` entra en un modo persistente de arrastre para desplazar la vista — haz clic y arrastra en cualquier parte del lienzo para desplazar la vista. El nivel de zoom no cambia. El modo Pan permanece activo hasta que presionas `Escape`, por lo que puedes arrastrar múltiples veces en una sola activación.
+El comando `Encuadre` entra en un modo persistente de arrastre para desplazar la vista — haz clic y arrastra en cualquier parte del lienzo para desplazar la vista. El nivel de zoom no cambia. El modo Pan permanece activo hasta que presionas `Escape`, por lo que puedes arrastrar múltiples veces en una sola activación.
 
 ## Desplazar la vista
 
-1. Escribe `pan` en el terminal o haz clic en el botón **Pan** de la barra de herramientas.
+1. Escribe `Encuadre` en el terminal o haz clic en el botón **Pan** de la barra de herramientas.
 2. **Haz clic y arrastra** en cualquier parte del lienzo para desplazar la vista.
 3. Suelta y arrastra de nuevo tantas veces como sea necesario.
 4. Presiona `Escape` para salir del modo Pan.

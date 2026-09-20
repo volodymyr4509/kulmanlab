@@ -8,11 +8,11 @@ order: 3
 
 # File Manager
 
-Binubuksan ng `FileManager` command ang isang **thumbnail grid** ng bawat drawing na na-save sa local storage ng iyong browser, nakaayos ayon sa huling pagkaka-save ng bawat isa. Gamitin ito para buksan muli ang isang naunang drawing, palitan ang pangalan nito, o burahin ito.
+Binubuksan ng `TagapamahalaNgFile` command ang isang **thumbnail grid** ng bawat drawing na na-save sa local storage ng iyong browser, nakaayos ayon sa huling pagkaka-save ng bawat isa. Gamitin ito para buksan muli ang isang naunang drawing, palitan ang pangalan nito, o burahin ito.
 
 ## Pagbukas ng File Manager
 
-- I-type ang `FileManager` sa terminal, **o**
+- I-type ang `TagapamahalaNgFile` sa terminal, **o**
 - I-click ang **File Manager** toolbar button (history icon) sa File panel sa tuktok ng screen.
 
 Nagbubukas ang panel sa kaliwang bahagi ng canvas, at awtomatikong nagsasara sa sandaling magsimula ka ng ibang command o mag-[import](../import/) ng file — kaya hindi ito kailanman naiiwan sa ibabaw ng drawing na hindi pa nito nakalista. Muli itong nagbubukas nang may bagong listahan sa bawat pagkakataon.

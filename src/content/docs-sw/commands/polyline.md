@@ -8,13 +8,13 @@ order: 2
 
 # Polyline
 
-Amri ya `polyline` inachora njia iliyounganishwa ya idadi yoyote ya sehemu za mstari au mviringo, zote zikihifadhiwa kama kipande kimoja cha `LWPOLYLINE`. Kwa sababu njia nzima ni kitu kimoja, kuichagua kunachagua kila sehemu mara moja — hamisha, zungusha, au pima umbo zima katika operesheni moja. Hii ndiyo tofauti kuu kutoka kwa [Lines](../line/) zilizounganishwa, ambapo kila sehemu ni kipande huru.
+Amri ya `Polilaini` inachora njia iliyounganishwa ya idadi yoyote ya sehemu za mstari au mviringo, zote zikihifadhiwa kama kipande kimoja cha `LWPOLYLINE`. Kwa sababu njia nzima ni kitu kimoja, kuichagua kunachagua kila sehemu mara moja — hamisha, zungusha, au pima umbo zima katika operesheni moja. Hii ndiyo tofauti kuu kutoka kwa [Lines](../line/) zilizounganishwa, ambapo kila sehemu ni kipande huru.
 
 Polylines pia zinaweza **kufungwa**: amri ya [Rectangle](../rectangle/) inatumia kipande hicho hicho cha `LWPOLYLINE` na alama ya kufunga iliyowekwa.
 
 ## Kuchora polyline
 
-1. Andika `polyline` kwenye terminal au bonyeza kitufe cha **Polyline** kwenye upau wa zana.
+1. Andika `Polilaini` kwenye terminal au bonyeza kitufe cha **Polyline** kwenye upau wa zana.
 2. **Bonyeza nukta ya kwanza**, au andika `X,Y` na ubonyeze **Enter** kwa kuratibu sahihi.
 3. **Bonyeza kila nukta inayofuata** — kila bonyeza inaongeza sehemu. Uingizaji wa kuratibu unafanya kazi katika kila hatua.
 4. Bonyeza **Enter** au **Space** kumaliza (inahitaji angalau nukta 2 zilizowekwa).

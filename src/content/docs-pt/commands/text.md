@@ -8,13 +8,13 @@ order: 0
 
 # Text
 
-O comando `text` coloca uma etiqueta de texto multi-linha. Após clicar em uma posição no canvas, um editor popup abre em **rich** mode — você pode digitar conteúdo, aplicar negrito/itálico/sublinhado/tachado por caractere, alterar fontes e alturas, e inserir quebras de linha. Pressione **Escape** para confirmar e fechar o editor.
+O comando `Texto` coloca uma etiqueta de texto multi-linha. Após clicar em uma posição no canvas, um editor popup abre em **rich** mode — você pode digitar conteúdo, aplicar negrito/itálico/sublinhado/tachado por caractere, alterar fontes e alturas, e inserir quebras de linha. Pressione **Escape** para confirmar e fechar o editor.
 
 Veja a página [Editor de Texto](../../interface/text-editor/) para a referência completa do editor, incluindo uma comparação dos modos **rich** e **simple**.
 
 ## Colocando uma etiqueta de texto
 
-1. Digite `text` no terminal ou clique no botão **Text** na barra de ferramentas.
+1. Digite `Texto` no terminal ou clique no botão **Text** na barra de ferramentas.
 2. **Clique na posição de ancoragem** no canvas. Ou digite `X,Y` e pressione **Enter** para uma coordenada exata.
 3. O **popup do editor de texto** abre acima da nova etiqueta. Digite o conteúdo.
 4. Pressione **Escape** para confirmar a etiqueta e fechar o editor.

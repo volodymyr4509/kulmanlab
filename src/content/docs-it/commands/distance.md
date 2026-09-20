@@ -8,7 +8,7 @@ order: 1
 
 # Distance
 
-Il comando `distance` misura la distanza in linea retta (euclidea) tra due punti cliccati e stampa il risultato nel terminale con 4 decimali. È uno dei tre comandi di misurazione — [Angle](../angle/) misura l'apertura angolare in un vertice, e [Area](../area/) misura l'area racchiusa e il perimetro di un poligono.
+Il comando `Distanza` misura la distanza in linea retta (euclidea) tra due punti cliccati e stampa il risultato nel terminale con 4 decimali. È uno dei tre comandi di misurazione — [Angle](../angle/) misura l'apertura angolare in un vertice, e [Area](../area/) misura l'area racchiusa e il perimetro di un poligono.
 
 ## Anatomia di una misurazione di distanza
 
@@ -26,7 +26,7 @@ Il comando `distance` misura la distanza in linea retta (euclidea) tra due punti
 
 ## Misurare una distanza
 
-1. Digita `distance` nel terminale o clicca il pulsante **Distance** nella barra degli strumenti.
+1. Digita `Distanza` nel terminale o clicca il pulsante **Distance** nella barra degli strumenti.
 2. **Clicca il primo punto**, oppure digita `X,Y` e premi **Invio** per una coordinata esatta.
 3. **Clicca il secondo punto** — la distanza misurata appare nel terminale. L'inserimento di coordinate funziona anche qui.
 4. **Clicca di nuovo** (opzionale) per avviare una nuova misurazione. Il comando rimane attivo.

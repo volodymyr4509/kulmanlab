@@ -8,11 +8,11 @@ order: 2
 
 # LeaderAdd
 
-Polecenie `LeaderAdd` dodaje nowe ramię z grotem do istniejącej linii wielokierunkowej. Nowe ramię wskazuje od istniejącego doglegs linii prowadzącej do nowego grota, który klikasz. Całe formatowanie — pozycja doglegs, tekst, typ grota i rozmiar — jest dziedziczone z wybranej linii prowadzącej.
+Polecenie `OdnośnikDodaj` dodaje nowe ramię z grotem do istniejącej linii wielokierunkowej. Nowe ramię wskazuje od istniejącego doglegs linii prowadzącej do nowego grota, który klikasz. Całe formatowanie — pozycja doglegs, tekst, typ grota i rozmiar — jest dziedziczone z wybranej linii prowadzącej.
 
 ## Dodawanie ramienia
 
-1. Wpisz `LeaderAdd` w terminalu.
+1. Wpisz `OdnośnikDodaj` w terminalu.
 2. **Kliknij istniejącą linię wielokierunkową**, aby ją zaznaczyć.
 3. **Kliknij nowy grot strzałki** lub wpisz `X,Y` i naciśnij **Enter** dla dokładnej współrzędnej. Linia podglądu pokazuje od kursora do doglegs linii prowadzącej.
 

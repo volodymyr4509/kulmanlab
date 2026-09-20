@@ -8,11 +8,11 @@ order: 2
 
 # LayerMakeCurrent
 
-Il comando `LayerMakeCurrent` imposta il **layer di disegno corrente** sul layer a cui appartiene l'entità cliccata. Le nuove entità verranno poi disegnate automaticamente su quel layer.
+Il comando `RendiLayerCorrente` imposta il **layer di disegno corrente** sul layer a cui appartiene l'entità cliccata. Le nuove entità verranno poi disegnate automaticamente su quel layer.
 
 ## Utilizzo
 
-1. Digita `LayerMakeCurrent` nel terminale o clicca il pulsante **Make Current** nella barra degli strumenti (icona contagocce).
+1. Digita `RendiLayerCorrente` nel terminale o clicca il pulsante **Make Current** nella barra degli strumenti (icona contagocce).
 2. **Clicca qualsiasi entità** sul canvas.
 3. Il layer corrente viene aggiornato in modo che corrisponda al layer di quella entità. Il comando termina immediatamente.
 

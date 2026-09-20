@@ -8,11 +8,11 @@ order: 5
 
 # HatchAdd
 
-Komento `HatchAdd` avaa järjestelmän tiedostovalitsimen `.pat`-rasterointikuviotiedoston lataamiseen avaamatta ensin [Hatch Manager](../hatch-manager/) -valintaikkunaa. Kyseessä on sama lataus, jonka Hatch Managerin **Add .pat File** -painike käynnistää — HatchAdd on vain suora reitti sinne terminaalista.
+Komento `LisääViivoitus` avaa järjestelmän tiedostovalitsimen `.pat`-rasterointikuviotiedoston lataamiseen avaamatta ensin [Hatch Manager](../hatch-manager/) -valintaikkunaa. Kyseessä on sama lataus, jonka Hatch Managerin **Add .pat File** -painike käynnistää — HatchAdd on vain suora reitti sinne terminaalista.
 
 ## Kuviotiedoston lataaminen
 
-1. Kirjoita `HatchAdd` terminaaliin tai napsauta **Add .pat File** [Hatch Manager](../hatch-manager/) -valintaikkunan alalaidassa.
+1. Kirjoita `LisääViivoitus` terminaaliin tai napsauta **Add .pat File** [Hatch Manager](../hatch-manager/) -valintaikkunan alalaidassa.
 2. Valitse `.pat`-tiedosto järjestelmän valitsimessa. Vain vakiomuotoinen rasterointikuviotiedosto kelpaa.
 
 Komento päättyy heti kun tiedostovalitsin avautuu — enempää kehotetta, napsautusta tai terminaalisyötettä ei tule. Kuviot rekisteröityvät ja ilmestyvät **User**-ryhmään heti kun tiedosto on valittu.

@@ -7,7 +7,7 @@ order: 1
 
 # Leader
 
-Lệnh `leader` vẽ chú thích đa đường dẫn bốn bước: một mũi tên chạm vào đặc điểm, một đường dẫn gấp khúc ở đoạn gấp khúc, neo văn bản và nhãn đã gõ. Trong tất cả lệnh chú thích, Leader là lệnh duy nhất bao gồm giai đoạn nhập văn bản tương tác với bản xem trước con trỏ nhấp nháy.
+Lệnh `ĐườngChúThích` vẽ chú thích đa đường dẫn bốn bước: một mũi tên chạm vào đặc điểm, một đường dẫn gấp khúc ở đoạn gấp khúc, neo văn bản và nhãn đã gõ. Trong tất cả lệnh chú thích, Leader là lệnh duy nhất bao gồm giai đoạn nhập văn bản tương tác với bản xem trước con trỏ nhấp nháy.
 
 ## Cấu trúc đường dẫn đa
 
@@ -17,7 +17,7 @@ Lệnh `leader` vẽ chú thích đa đường dẫn bốn bước: một mũi t
 
 ## Vẽ đường dẫn
 
-1. Gõ `leader` trong terminal hoặc nhấp nút **Leader** trên thanh công cụ.
+1. Gõ `ĐườngChúThích` trong terminal hoặc nhấp nút **Leader** trên thanh công cụ.
 2. **Nhấp đầu mũi tên**, hoặc gõ `X,Y` rồi nhấn **Enter**.
 3. **Nhấp đoạn gấp khúc** — chỗ gấp trong đường dẫn. Khóa góc đến các gia số 45°.
 4. **Nhấp vị trí văn bản** — nơi nhãn neo.

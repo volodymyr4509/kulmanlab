@@ -8,11 +8,11 @@ order: 14
 
 # Redo
 
-Sumusulong ang `redo` command sa undo history, na inilalapat muli ang mga aksyong binaligtad ng [Undo](../undo/). Available lang ang Redo kapag umatras ka gamit ang Undo at wala ka pang ginawang bagong pagbabago.
+Sumusulong ang `MulingGawin` command sa undo history, na inilalapat muli ang mga aksyong binaligtad ng [Undo](../undo/). Available lang ang Redo kapag umatras ka gamit ang Undo at wala ka pang ginawang bagong pagbabago.
 
 ## Paano Mag-redo
 
-- I-type ang `redo` sa terminal, o
+- I-type ang `MulingGawin` sa terminal, o
 - I-click ang **Redo** button sa toolbar.
 
 Bawat invocation ay ina-apply muli ang isang dating na-undo na aksyon. Ulitin ito para sumulong sa lahat ng available na redo entries.

@@ -8,11 +8,11 @@ order: 3
 
 # PageManager
 
-Umarnin `PageManager` yana buɗe akwatin tattaunawa na saitunan shafi ga layout mai aiki, yana barka ka canza tsarin takarda, shugabanci, da girma tsakanin unit na zane da millimita.
+Umarnin `SarrafaShafuka` yana buɗe akwatin tattaunawa na saitunan shafi ga layout mai aiki, yana barka ka canza tsarin takarda, shugabanci, da girma tsakanin unit na zane da millimita.
 
 ## Buɗe Page Manager
 
-- Rubuta `PageManager` a tashar umarni, **ko**
+- Rubuta `SarrafaShafuka` a tashar umarni, **ko**
 - Danna dama a lasifikar layout a ƙasa ka zaɓi **Page Manager**.
 
 ## Saitunan

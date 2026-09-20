@@ -8,11 +8,11 @@ order: 4
 
 # Hatch Manager
 
-El comando `HatchManager` abre un diálogo para explorar patrones de hatch con vista previa en vivo, y para subir tus propios archivos de patrón `.pat` para usar con [Hatch](../hatch/).
+El comando `GestorDeSombreados` abre un diálogo para explorar patrones de hatch con vista previa en vivo, y para subir tus propios archivos de patrón `.pat` para usar con [Hatch](../hatch/).
 
 ## Abrir el Hatch Manager
 
-Escribe `HatchManager` en la terminal. Esto es independiente del selector de patrones que se abre al hacer clic en el chip **Pattern** de un hatch — el selector elige un patrón para un hatch concreto, el Hatch Manager es donde añades o quitas archivos `.pat`.
+Escribe `GestorDeSombreados` en la terminal. Esto es independiente del selector de patrones que se abre al hacer clic en el chip **Pattern** de un hatch — el selector elige un patrón para un hatch concreto, el Hatch Manager es donde añades o quitas archivos `.pat`.
 
 ## Grupos de patrones
 

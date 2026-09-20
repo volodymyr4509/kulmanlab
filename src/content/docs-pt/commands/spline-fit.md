@@ -8,11 +8,11 @@ order: 9
 
 # Spline Fit
 
-O comando `splinefit` desenha uma spline cúbica que passa por cada ponto clicado — uma curva interpoladora. Diferentemente de [Spline CV](../spline-cv/), onde a curva é apenas atraída pelos vértices de controle, aqui a curva é forçada a tocar cada coordenada clicada exatamente. Internamente o editor ajusta vértices de controle para conseguir isso, e esses CVs são armazenados junto com os pontos de ajuste no arquivo DXF.
+O comando `SplinePontos` desenha uma spline cúbica que passa por cada ponto clicado — uma curva interpoladora. Diferentemente de [Spline CV](../spline-cv/), onde a curva é apenas atraída pelos vértices de controle, aqui a curva é forçada a tocar cada coordenada clicada exatamente. Internamente o editor ajusta vértices de controle para conseguir isso, e esses CVs são armazenados junto com os pontos de ajuste no arquivo DXF.
 
 ## Desenhando uma spline por pontos de ajuste
 
-1. Digite `splinefit` no terminal ou clique no botão **Spline Fit** na barra de ferramentas.
+1. Digite `SplinePontos` no terminal ou clique no botão **Spline Fit** na barra de ferramentas.
 2. **Clique para posicionar pontos de ajuste** — a curva passará por cada um. Ou digite `X,Y` e pressione **Enter** para uma coordenada exata.
 3. Pressione **Enter** ou **Espaço** para terminar (mínimo 2 pontos necessários).
 

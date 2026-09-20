@@ -8,7 +8,7 @@ order: 17
 
 # ClipboardCopy
 
-Kommandoen `ClipboardCopy` skriver de markerede entiteter til din **systemudklipsholder** som JSON-tekst. Fordi den bruger den rigtige udklipsholder og ikke en buffer i hukommelsen, overlever den kopierede geometri uden for tegningen: indsæt den i en anden fil, en anden browserfane eller et vindue, du åbner senere, med [ClipboardPaste](../clipboard-paste/).
+Kommandoen `KopierTilUdklipsholder` skriver de markerede entiteter til din **systemudklipsholder** som JSON-tekst. Fordi den bruger den rigtige udklipsholder og ikke en buffer i hukommelsen, overlever den kopierede geometri uden for tegningen: indsæt den i en anden fil, en anden browserfane eller et vindue, du åbner senere, med [ClipboardPaste](../clipboard-paste/).
 
 Det er forskellen fra [Copy](../copy/): Copy duplikerer entiteter inde i den aktuelle tegning i én bevægelse, mens ClipboardCopy lægger dem et sted, hvor de kan hentes fra en helt anden tegning.
 
@@ -17,12 +17,12 @@ Det er forskellen fra [Copy](../copy/): Copy duplikerer entiteter inde i den akt
 **Markér først, kopiér så** — den hurtige vej:
 
 1. Markér en eller flere entiteter på tegnefladen.
-2. Tryk `Ctrl+C` (`Cmd+C` på macOS), eller skriv `ClipboardCopy` i terminalen.
+2. Tryk `Ctrl+C` (`Cmd+C` på macOS), eller skriv `KopierTilUdklipsholder` i terminalen.
 3. Entiteterne skrives til udklipsholderen med det samme, og kommandoen slutter.
 
 **Aktivér først, markér så** — begynd uden markering:
 
-1. Tryk `Ctrl+C` eller skriv `ClipboardCopy` med tom markering.
+1. Tryk `Ctrl+C` eller skriv `KopierTilUdklipsholder` med tom markering.
 2. Prompten viser **pick objects to copy — Enter or Space to confirm**.
 3. **Markér objekter** — klik for at tage enkelte entiteter ind i eller ud af markeringen, eller træk for at markere efter område.
 4. Tryk **Enter** eller **Space** for at kopiere markeringen og afslutte.

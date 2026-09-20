@@ -7,11 +7,11 @@ order: 1
 
 # Distance
 
-Lệnh `distance` đo khoảng cách đường thẳng (Euclid) giữa hai điểm nhấp và in kết quả trong terminal đến 4 chữ số thập phân. Đây là một trong ba lệnh đo lường — [Angle](../angle/) đo góc mở tại một đỉnh, và [Area](../area/) đo diện tích và chu vi của một đa giác.
+Lệnh `KhoảngCách` đo khoảng cách đường thẳng (Euclid) giữa hai điểm nhấp và in kết quả trong terminal đến 4 chữ số thập phân. Đây là một trong ba lệnh đo lường — [Angle](../angle/) đo góc mở tại một đỉnh, và [Area](../area/) đo diện tích và chu vi của một đa giác.
 
 ## Đo khoảng cách
 
-1. Gõ `distance` trong terminal hoặc nhấp nút **Distance** trên thanh công cụ.
+1. Gõ `KhoảngCách` trong terminal hoặc nhấp nút **Distance** trên thanh công cụ.
 2. **Nhấp điểm đầu tiên**, hoặc gõ `X,Y` rồi nhấn **Enter** để nhập tọa độ chính xác.
 3. **Nhấp điểm thứ hai** — khoảng cách đo được xuất hiện trong terminal. Có thể nhập tọa độ tương tự.
 4. **Nhấp lại** (tùy chọn) để bắt đầu đo mới. Lệnh vẫn hoạt động.

@@ -8,11 +8,11 @@ order: 6
 
 # Ellipse
 
-Polecenie `ellipse` rysuje elipsę za pomocą trzech kliknięć: punkt środkowy, punkt końcowy pierwszej (głównej) półosi pod dowolnym kątem i długość drugiej (pobocznej) półosi. Obie osie są zawsze do siebie prostopadłe — kierunek drugiej osi jest wyprowadzany automatycznie z pierwszej.
+Polecenie `Elipsa` rysuje elipsę za pomocą trzech kliknięć: punkt środkowy, punkt końcowy pierwszej (głównej) półosi pod dowolnym kątem i długość drugiej (pobocznej) półosi. Obie osie są zawsze do siebie prostopadłe — kierunek drugiej osi jest wyprowadzany automatycznie z pierwszej.
 
 ## Rysowanie elipsy
 
-1. Wpisz `ellipse` w terminalu lub kliknij przycisk **Elipsa** na pasku narzędzi.
+1. Wpisz `Elipsa` w terminalu lub kliknij przycisk **Elipsa** na pasku narzędzi.
 2. **Kliknij punkt środkowy** lub wpisz `X,Y` i naciśnij **Enter** dla dokładnej współrzędnej.
 3. **Kliknij punkt końcowy pierwszej osi** — ustawia zarówno kierunek, jak i długość pierwszej półosi. Tutaj również działa wprowadzanie współrzędnych.
 4. **Ustaw długość drugiej osi** — przesuń kursor prostopadle do pierwszej osi, a następnie kliknij lub wpisz długość.

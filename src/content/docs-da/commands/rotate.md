@@ -8,20 +8,20 @@ order: 3
 
 # Rotate
 
-Kommandoen `rotate` roterer markerede entiteter omkring et basispunkt. Du angiver rotationsvinklen enten ved at indtaste et tal i grader eller ved at klikke — vinklen beregnes ud fra retningen mellem basispunktet og klikpositionen.
+Kommandoen `Roter` roterer markerede entiteter omkring et basispunkt. Du angiver rotationsvinklen enten ved at indtaste et tal i grader eller ved at klikke — vinklen beregnes ud fra retningen mellem basispunktet og klikpositionen.
 
 ## To måder at starte på
 
 **Markér først, rotér derefter** — markér entiteter først, aktivér derefter:
 
 1. Markér én eller flere entiteter på lærredet.
-2. Skriv `rotate` i terminalen eller klik på **Rotate**-knappen i værktøjslinjen.
+2. Skriv `Roter` i terminalen eller klik på **Rotate**-knappen i værktøjslinjen.
 3. **Klik basispunktet** — rotationscentrum. Eller skriv `X,Y` og tryk **Enter** for en eksakt koordinat.
 4. **Skriv en vinkel og tryk Enter**, eller **klik** for at sætte vinklen ud fra markørretningen.
 
 **Aktivér, markér derefter** — start kommandoen uden noget markeret:
 
-1. Skriv `rotate` eller klik på værktøjslinjeknappen.
+1. Skriv `Roter` eller klik på værktøjslinjeknappen.
 2. **Markér objekter** — klik for at slå til/fra, eller træk for at markere efter område.
 3. Tryk **Enter** eller **Space** for at bekræfte markeringen.
 4. **Klik basispunktet** (koordinatindtastning tilgængelig), sæt derefter vinklen.

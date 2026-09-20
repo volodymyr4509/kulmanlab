@@ -8,11 +8,11 @@ order: 4
 
 # Print Manager
 
-Perintah `PrintManager` membuka **Print Manager** — jendela ekspor khusus dengan kanvas pratinjau langsung, pemilih format (PNG / JPEG / WebP / PDF), pemilih Style (Default / Monochrome / Blueprint), dan pemotongan area opsional. Tidak ada yang dikirim ke printer fisik; output diunduh sebagai file.
+Perintah `ManajerCetak` membuka **Print Manager** — jendela ekspor khusus dengan kanvas pratinjau langsung, pemilih format (PNG / JPEG / WebP / PDF), pemilih Style (Default / Monochrome / Blueprint), dan pemotongan area opsional. Tidak ada yang dikirim ke printer fisik; output diunduh sebagai file.
 
 ## Membuka Print Manager
 
-Klik tombol toolbar **Print** atau ketik `PrintManager` di terminal. Print Manager langsung terbuka menampilkan pratinjau viewport saat ini.
+Klik tombol toolbar **Print** atau ketik `ManajerCetak` di terminal. Print Manager langsung terbuka menampilkan pratinjau viewport saat ini.
 
 Pratinjau dirender melalui jalur kode yang persis sama, pada resolusi piksel yang persis sama, seperti file yang akhirnya Anda ekspor — mengubah Quality, Style, atau area ekspor langsung merender ulang pratinjau, jadi apa yang Anda lihat adalah apa yang diunduh, bukan perkiraannya.
 

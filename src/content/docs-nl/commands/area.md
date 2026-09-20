@@ -8,7 +8,7 @@ order: 3
 
 # Area
 
-Het commando `area` meet de omsloten oppervlakte en omtrek van een polygoon bepaald door drie of meer geklikte punten, en drukt beide resultaten af in de terminal met 4 decimalen. Het is het derde meetcommando, naast [Distance](../distance/) (lengte van een rechte lijn) en [Angle](../angle/) (binnenhoek bij een hoekpunt).
+Het commando `Oppervlakte` meet de omsloten oppervlakte en omtrek van een polygoon bepaald door drie of meer geklikte punten, en drukt beide resultaten af in de terminal met 4 decimalen. Het is het derde meetcommando, naast [Distance](../distance/) (lengte van een rechte lijn) en [Angle](../angle/) (binnenhoek bij een hoekpunt).
 
 ## Anatomie van een oppervlaktemeting
 
@@ -30,7 +30,7 @@ Het commando `area` meet de omsloten oppervlakte en omtrek van een polygoon bepa
 
 ## Een oppervlakte meten
 
-1. Typ `area` in de terminal of klik op de werkbalkknop **Area** (onderste rij van het paneel Measure).
+1. Typ `Oppervlakte` in de terminal of klik op de werkbalkknop **Area** (onderste rij van het paneel Measure).
 2. **Klik op het eerste punt**, of typ `X,Y` en druk op **Enter** voor een exacte coördinaat.
 3. **Klik op elk extra hoekpunt** in volgorde rond de vorm. Coördinaatinvoer werkt bij elke stap.
 4. Zodra ten minste **3 punten** zijn geplaatst, drukt u op **Enter** of **Space** (zonder openstaande coördinaat- of afstandsinvoer) om de polygoon te sluiten en het resultaat te berekenen.
@@ -93,5 +93,5 @@ In plaats van klikken kunt u een exacte positie typen voor elk hoekpunt:
 - De oppervlakte wordt berekend met de [schoenveterformule](https://en.wikipedia.org/wiki/Shoelace_formula) en wordt altijd als een positieve waarde weergegeven, ongeacht de klikvolgorde.
 - Zelfoverlappende polygonen (randen die elkaar kruisen) leveren nog steeds een numeriek resultaat op, maar de waarde komt mogelijk niet overeen met het visueel omsloten gebied — houd de klikvolgorde niet-kruisend voor een betekenisvolle oppervlakte.
 - Resultaten worden alleen weergegeven in de **terminal en als tijdelijke markering op het canvas** — er wordt niets als permanente entiteit aan de tekening toegevoegd.
-- In tegenstelling tot Distance en Angle koppelt Area **niet** automatisch aan een nieuwe meting — nadat u het resultaat weghaalt, voert u `area` opnieuw uit om een andere polygoon te meten.
+- In tegenstelling tot Distance en Angle koppelt Area **niet** automatisch aan een nieuwe meting — nadat u het resultaat weghaalt, voert u `Oppervlakte` opnieuw uit om een andere polygoon te meten.
 - De precisie is altijd 4 decimalen voor zowel oppervlakte als omtrek, in dezelfde eenheden als de tekencoördinaten (geen eenheidsconversie).

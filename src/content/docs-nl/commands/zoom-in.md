@@ -8,11 +8,11 @@ order: 2
 
 # Zoom In
 
-Het `zoomin`-commando vermenigvuldigt het huidige zoomniveau met **1,5×** en sluit direct af, gecentreerd op het middelpunt van de viewport. Het is het werkbalkequivalent van één scrollwielklik die naar het midden van het scherm zoomt in plaats van naar de cursor.
+Het `Inzoomen`-commando vermenigvuldigt het huidige zoomniveau met **1,5×** en sluit direct af, gecentreerd op het middelpunt van de viewport. Het is het werkbalkequivalent van één scrollwielklik die naar het midden van het scherm zoomt in plaats van naar de cursor.
 
 ## Inzoomen
 
-Klik op de werkbalkknop **Zoom In** of typ `zoomin` in de terminal. De zoom wordt direct toegepast en het commando sluit af — er is geen klik op het canvas vereist.
+Klik op de werkbalkknop **Zoom In** of typ `Inzoomen` in de terminal. De zoom wordt direct toegepast en het commando sluit af — er is geen klik op het canvas vereist.
 
 ## Hoe de stap van 1,5× werkt
 

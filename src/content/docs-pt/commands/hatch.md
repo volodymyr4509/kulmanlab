@@ -8,11 +8,11 @@ order: 7
 
 # Hatch
 
-O comando `hatch` preenche a região que envolve um ponto clicado com um padrão. O contorno não é desenhado primeiro — ele vem do que já está na tela, então quatro [Lines](../line/) separadas que se encontram ponta a ponta envolvem uma região exatamente como uma [Polyline](../polyline/) fechada faz, e qualquer forma fechada dentro se torna uma ilha que o preenchimento deixa intacta.
+O comando `Hachura` preenche a região que envolve um ponto clicado com um padrão. O contorno não é desenhado primeiro — ele vem do que já está na tela, então quatro [Lines](../line/) separadas que se encontram ponta a ponta envolvem uma região exatamente como uma [Polyline](../polyline/) fechada faz, e qualquer forma fechada dentro se torna uma ilha que o preenchimento deixa intacta.
 
 ## Preenchendo uma área
 
-1. Digite `hatch` no terminal ou clique no botão **Hatch** da barra de ferramentas (o ícone de amostra).
+1. Digite `Hachura` no terminal ou clique no botão **Hatch** da barra de ferramentas (o ícone de amostra).
 2. **Clique em um ponto** dentro da região que deseja preencher.
 3. O comando permanece ativo, então continue clicando para preencher mais áreas — cada clique cria sua própria entidade `Hatch`.
 4. Pressione **Enter**, **Espaço** ou **Escape** quando terminar.
@@ -69,7 +69,7 @@ Todo novo hatch começa preenchido com `ANSI31` (ou qualquer padrão que o *últ
 1. Selecione um hatch existente e abra seu campo **Pattern** no painel de propriedades — isso abre o seletor de padrões, uma grade de amostras nomeadas agrupadas por origem de cada padrão.
 2. Clique em um padrão para aplicá-lo — o preenchimento é atualizado instantaneamente.
 
-Essa seleção também se torna o padrão para o *próximo* hatch que você criar com o comando `hatch`, da mesma forma que escolher uma camada ou cor é transferido adiante. Então, para aplicar hatch em várias áreas novas com um padrão específico: preencha uma área, defina seu padrão uma vez, depois continue aplicando hatch — cada preenchimento depois já começa com esse padrão aplicado.
+Essa seleção também se torna o padrão para o *próximo* hatch que você criar com o comando `Hachura`, da mesma forma que escolher uma camada ou cor é transferido adiante. Então, para aplicar hatch em várias áreas novas com um padrão específico: preencha uma área, defina seu padrão uma vez, depois continue aplicando hatch — cada preenchimento depois já começa com esse padrão aplicado.
 
 Veja [Hatch Manager](../hatch-manager/) para enviar seus próprios arquivos de padrão `.pat` e navegar pela biblioteca completa.
 

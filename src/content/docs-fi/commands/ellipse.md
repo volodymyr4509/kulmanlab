@@ -8,11 +8,11 @@ order: 6
 
 # Ellipse
 
-Komento `ellipse` piirtää ellipsin käyttäen kolmea napsautusta: keskipisteen, ensimmäisen (suuremman) puoliakselin päätepisteen missä tahansa kulmassa, ja toisen (pienemmän) puoliakselin pituuden. Kaksi akselia ovat aina kohtisuorassa toisiinsa nähden — toisen akselin suunta johdetaan automaattisesti ensimmäisestä.
+Komento `Ellipsi` piirtää ellipsin käyttäen kolmea napsautusta: keskipisteen, ensimmäisen (suuremman) puoliakselin päätepisteen missä tahansa kulmassa, ja toisen (pienemmän) puoliakselin pituuden. Kaksi akselia ovat aina kohtisuorassa toisiinsa nähden — toisen akselin suunta johdetaan automaattisesti ensimmäisestä.
 
 ## Ellipsin piirtäminen
 
-1. Kirjoita `ellipse` terminaaliin tai napsauta **Ellipse**-painiketta työkalurivillä.
+1. Kirjoita `Ellipsi` terminaaliin tai napsauta **Ellipse**-painiketta työkalurivillä.
 2. **Napsauta keskipistettä**, tai kirjoita `X,Y` ja paina **Enter** tarkkaa koordinaattia varten.
 3. **Napsauta ensimmäisen akselin päätepistettä** — asettaa sekä suunnan että pituuden ensimmäiselle puoliakselille. Koordinaattien syöttö toimii myös täällä.
 4. **Aseta toisen akselin pituus** — siirrä kohdistinta kohtisuoraan ensimmäiseen akseliin nähden, napsauta sitten tai kirjoita pituus.

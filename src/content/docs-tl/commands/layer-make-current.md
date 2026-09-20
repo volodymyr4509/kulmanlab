@@ -8,11 +8,11 @@ order: 2
 
 # LayerMakeCurrent
 
-Ise-set ng `LayerMakeCurrent` command ang **current drawing layer** sa kung anumang layer ang kinabibilangan ng na-click na entity. Awtomatikong maguguhit ang mga bagong entity sa layer na iyon.
+Ise-set ng `GawingKasalukuyangLayer` command ang **current drawing layer** sa kung anumang layer ang kinabibilangan ng na-click na entity. Awtomatikong maguguhit ang mga bagong entity sa layer na iyon.
 
 ## Paggamit
 
-1. I-type ang `LayerMakeCurrent` sa terminal o i-click ang **Make Current** toolbar button (eyedropper icon).
+1. I-type ang `GawingKasalukuyangLayer` sa terminal o i-click ang **Make Current** toolbar button (eyedropper icon).
 2. **I-click ang kahit anong entity** sa canvas.
 3. Napapdate ang current layer para tumugma sa layer ng entity na iyon. Agad na natatapos ang command.
 

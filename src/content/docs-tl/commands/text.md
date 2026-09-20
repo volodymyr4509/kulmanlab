@@ -8,13 +8,13 @@ order: 0
 
 # Text
 
-Inilalagay ng `text` command ang multi-line na text label. Pagkatapos mong i-click ang posisyon sa canvas, magbubukas ang popup editor sa **rich** mode — puwede kang mag-type ng content, mag-apply ng bold/italic/underline/strikethrough per character, magpalit ng fonts at heights, at magsingit ng line breaks. Pindutin ang **Escape** para i-commit at isara ang editor.
+Inilalagay ng `Teksto` command ang multi-line na text label. Pagkatapos mong i-click ang posisyon sa canvas, magbubukas ang popup editor sa **rich** mode — puwede kang mag-type ng content, mag-apply ng bold/italic/underline/strikethrough per character, magpalit ng fonts at heights, at magsingit ng line breaks. Pindutin ang **Escape** para i-commit at isara ang editor.
 
 Tingnan ang pahina ng [Text Editor](../../interface/text-editor/) para sa kumpletong editor reference, kasama ang paghahambing ng **rich** at **simple** mode.
 
 ## Paglalagay ng Text Label
 
-1. I-type ang `text` sa terminal o i-click ang **Text** button sa toolbar.
+1. I-type ang `Teksto` sa terminal o i-click ang **Text** button sa toolbar.
 2. **I-click ang anchor position** sa canvas. O i-type ang `X,Y` at pindutin ang **Enter** para sa eksaktong coordinate.
 3. Magbubukas ang **text editor popup** sa itaas ng bagong label. I-type ang iyong content.
 4. Pindutin ang **Escape** para i-commit ang label at isara ang editor.

@@ -7,11 +7,11 @@ order: 9
 
 # Spline Fit
 
-Lệnh `splinefit` vẽ spline bậc ba đi qua mọi điểm bạn nhấp — đường cong nội suy. Không giống như [Spline CV](../spline-cv/), nơi đường cong chỉ bị hút về phía các điểm kiểm soát, ở đây đường cong bị buộc phải chạm vào từng tọa độ đã nhấp chính xác.
+Lệnh `SplineĐiểmQua` vẽ spline bậc ba đi qua mọi điểm bạn nhấp — đường cong nội suy. Không giống như [Spline CV](../spline-cv/), nơi đường cong chỉ bị hút về phía các điểm kiểm soát, ở đây đường cong bị buộc phải chạm vào từng tọa độ đã nhấp chính xác.
 
 ## Vẽ spline qua điểm khớp
 
-1. Gõ `splinefit` trong terminal hoặc nhấp nút **Spline Fit** trên thanh công cụ.
+1. Gõ `SplineĐiểmQua` trong terminal hoặc nhấp nút **Spline Fit** trên thanh công cụ.
 2. **Nhấp để đặt điểm khớp** — đường cong sẽ đi qua mỗi điểm.
 3. Nhấn **Enter** hoặc **Space** để kết thúc (yêu cầu ít nhất 2 điểm).
 

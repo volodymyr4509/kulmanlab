@@ -8,20 +8,20 @@ order: 2
 
 # Copy
 
-Amri ya `copy` huunda nakala za vipengele vilivyochaguliwa katika nafasi mpya iliyobainishwa na vekta ya msingi-hadi-lengwa. Vipengele vya asili vinabaki bila kubadilika mahali pake.
+Amri ya `Nakili` huunda nakala za vipengele vilivyochaguliwa katika nafasi mpya iliyobainishwa na vekta ya msingi-hadi-lengwa. Vipengele vya asili vinabaki bila kubadilika mahali pake.
 
 ## Njia mbili za kuanza
 
 ### Chagua kwanza, kisha nakili
 
 1. **Chagua vipengele** kwenye skrini kwa kubonyeza au kuburuta sanduku la uchaguzi.
-2. **Andika `copy`** kwenye terminal au bonyeza kitufe cha **Copy** — uchaguzi unabaki.
+2. **Andika `Nakili`** kwenye terminal au bonyeza kitufe cha **Copy** — uchaguzi unabaki.
 3. **Bonyeza pointi ya msingi** — sehemu ya kumbukumbu unayoshika.
 4. **Bonyeza pointi ya lengwa** — mahali ambapo pointi ya msingi itahamia. Nakala zinawekwa na amri inamaliza.
 
 ### Amilisha, kisha chagua
 
-1. **Andika `copy`** au bonyeza kitufe cha **Copy**.
+1. **Andika `Nakili`** au bonyeza kitufe cha **Copy**.
 2. **Chagua vipengele** na ubonyeze **Enter** au **Space** kuthibitisha uchaguzi.
 3. **Bonyeza pointi ya msingi**.
 4. **Bonyeza pointi ya lengwa**. Nakala zinawekwa na amri inamaliza.

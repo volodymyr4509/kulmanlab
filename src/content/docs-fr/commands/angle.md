@@ -8,7 +8,7 @@ order: 2
 
 # Angle
 
-La commande `angle` mesure l'angle intérieur à un sommet formé par deux segments de ligne à travers trois points sélectionnés. Le résultat — toujours entre 0° et 180° — s'affiche dans le terminal avec 4 décimales. C'est l'une des trois commandes de mesure — [Distance](../distance/) mesure la longueur en ligne droite, et [Area](../area/) mesure l'aire délimitée et le périmètre d'un polygone.
+La commande `Angle` mesure l'angle intérieur à un sommet formé par deux segments de ligne à travers trois points sélectionnés. Le résultat — toujours entre 0° et 180° — s'affiche dans le terminal avec 4 décimales. C'est l'une des trois commandes de mesure — [Distance](../distance/) mesure la longueur en ligne droite, et [Area](../area/) mesure l'aire délimitée et le périmètre d'un polygone.
 
 ## Anatomie d'une mesure d'angle
 
@@ -30,7 +30,7 @@ La commande `angle` mesure l'angle intérieur à un sommet formé par deux segme
 
 ## Mesurer un angle
 
-1. Tapez `angle` dans le terminal ou cliquez sur le bouton **Angle** dans la barre d'outils.
+1. Tapez `Angle` dans le terminal ou cliquez sur le bouton **Angle** dans la barre d'outils.
 2. **Cliquez sur le premier point** — une extrémité de l'angle. Ou tapez `X,Y` et appuyez sur **Entrée** pour une coordonnée exacte.
 3. **Cliquez sur le sommet** — le coin où les deux bras se rejoignent. La saisie de coordonnées fonctionne aussi ici.
 4. **Cliquez sur le troisième point** — la deuxième extrémité de l'angle. La saisie de coordonnées fonctionne aussi ici. Placer ce point affiche le résultat.

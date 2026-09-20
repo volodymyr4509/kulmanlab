@@ -7,11 +7,11 @@ order: 1
 
 # Pan
 
-Lệnh `pan` vào chế độ kéo để cuộn liên tục — nhấp và kéo bất kỳ đâu trên canvas để dịch chuyển khung nhìn. Mức phóng to không đổi. Chế độ Pan vẫn hoạt động cho đến khi bạn nhấn `Escape`.
+Lệnh `DờiKhungNhìn` vào chế độ kéo để cuộn liên tục — nhấp và kéo bất kỳ đâu trên canvas để dịch chuyển khung nhìn. Mức phóng to không đổi. Chế độ Pan vẫn hoạt động cho đến khi bạn nhấn `Escape`.
 
 ## Di chuyển màn hình
 
-1. Gõ `pan` trong terminal hoặc nhấp nút **Pan** trên thanh công cụ.
+1. Gõ `DờiKhungNhìn` trong terminal hoặc nhấp nút **Pan** trên thanh công cụ.
 2. **Nhấp và kéo** bất kỳ đâu trên canvas để dịch chuyển khung nhìn.
 3. Nhả và kéo lại nhiều lần nếu cần.
 4. Nhấn `Escape` để thoát chế độ pan.

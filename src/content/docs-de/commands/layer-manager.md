@@ -8,11 +8,11 @@ order: 1
 
 # LayerManager
 
-Der Befehl `LayerManager` öffnet eine Tabelle mit allen Layern der Zeichnung, in der **Freeze**, **Lock**, **Plot**, **Farbe**, **Linienstärke** und **Linientyp** direkt in der jeweiligen Zeile bearbeitet werden können. Es ist die zentrale Stelle, um Layer hinzuzufügen, ungenutzte zu löschen und das Verhalten bestehender Layer anzupassen — die übrigen Layer-Befehle ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) erledigen jeweils eine einzelne Aufgabe, ohne ihn zu öffnen.
+Der Befehl `Layermanager` öffnet eine Tabelle mit allen Layern der Zeichnung, in der **Freeze**, **Lock**, **Plot**, **Farbe**, **Linienstärke** und **Linientyp** direkt in der jeweiligen Zeile bearbeitet werden können. Es ist die zentrale Stelle, um Layer hinzuzufügen, ungenutzte zu löschen und das Verhalten bestehender Layer anzupassen — die übrigen Layer-Befehle ([LayerMakeCurrent](../layer-make-current/), [LayerMatch](../layer-match/), [LayerIsolate](../layer-isolate/), [LayerUnfreezeAll](../layer-unfreeze-all/)) erledigen jeweils eine einzelne Aufgabe, ohne ihn zu öffnen.
 
 ## Den Layer Manager öffnen
 
-- Geben Sie `LayerManager` im Terminal ein, **oder**
+- Geben Sie `Layermanager` im Terminal ein, **oder**
 - Klicken Sie auf die Schaltfläche **Layer Manager** im Layer-Panel.
 
 Der Dialog öffnet sich als schwebendes Panel; vorher muss nichts ausgewählt werden.
