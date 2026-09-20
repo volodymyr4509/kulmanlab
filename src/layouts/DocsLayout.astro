@@ -4,6 +4,7 @@ import SiteHeader from '../components/SiteHeader.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 import type { Lang } from '../i18n/translations';
 import { translations } from '../i18n/translations';
+import { commandNames } from '../i18n/command-names.ts';
 import { getCollection } from 'astro:content';
 import { LANGS_NO_EN } from '../i18n/utils';
 
@@ -27,13 +28,9 @@ const alternates = [
 ];
 const currentPath = Astro.url.pathname.replace(/\/$/, '');
 
-// Section/group titles are centralized in src/i18n/translations.ts
-// (docsNav.* keys) alongside the rest of the site's copy. Every nav *item*
-// label (commands and interface pages alike -- Move, Align, LayerIsolate,
-// Grid & Snap, Selection Filter, ...) is deliberately kept in English for
-// every language: command names mirror the literal tokens typed into the
-// in-app terminal, and interface page names follow the same convention for
-// consistency, even though the docs content and page titles are translated.
+// Section/group titles are centralized in src/i18n/translations.ts.
+// Command labels come from the same commandNames values used by the CAD app;
+// interface-page labels continue to use their page titles or the overrides below.
 const t = translations[lang] ?? translations['en'];
 const s = {
   overview: t['docsNav.overview'],
@@ -50,10 +47,7 @@ const s = {
   iface: t['docsNav.iface'],
 };
 
-// Command names are deliberately kept in English for every language — they
-// mirror the literal tokens typed into the in-app terminal, which the docs
-// content itself never translates either (see docsNav comment above).
-const commandLabels: Record<string, string> = {
+const commandKeys: Record<string, string> = {
   'commands/help': 'Help',
   'commands/line': 'Line',
   'commands/polyline': 'Polyline',
@@ -119,6 +113,9 @@ const commandLabels: Record<string, string> = {
   'commands/change-print-area': 'ChangePrintArea',
   'commands/export-manager': 'ExportManager',
   'commands/wipestorage': 'WipeStorage',
+};
+
+const interfaceLabels: Record<string, string> = {
   'interface/vector-pins': 'Vector Pins',
   'interface/distance-tracking': 'Distance Tracking',
   'interface/selection-filter': 'Selection Filter',
@@ -130,7 +127,9 @@ const commandLabels: Record<string, string> = {
 
 function labelFor(id: string, title: string): string {
   if (id === 'index') return s.ref;
-  return commandLabels[id] ?? title;
+  const commandKey = commandKeys[id];
+  if (commandKey) return commandNames[lang][commandKey] ?? commandNames.en[commandKey] ?? title;
+  return interfaceLabels[id] ?? title;
 }
 
 // Sidebar grouping/ordering is data-driven from each page's `group` and
