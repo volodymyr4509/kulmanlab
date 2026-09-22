@@ -48,7 +48,7 @@ export const translations: Record<Lang, T> = {
     'nav.howto': 'How to',
     'nav.launch': 'Launch App',
     'hero.badge': 'Free · No sign-up required',
-    'hero.h1.line1': 'Free 2D CAD & DXF Editor',
+    'hero.h1.line1': 'Free Online CAD & DXF Editor',
     'hero.h1.line2': 'in your browser',
     'hero.desc': 'Open DXF files, draw geometry, add dimensions, and export PDF — without installing a single thing. A free alternative to desktop CAD that runs in any modern browser.',
     'hero.cta.app': 'Launch App',
