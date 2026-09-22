@@ -95,7 +95,7 @@ Tervetuloa **KulmanLab CAD**:in komentoreferenssiin. [KulmanLab CAD](https://kul
 | [Angle](./commands/angle/) | Mittaa kulma kolmen pisteen välillä |
 | [Area](./commands/area/) | Mittaa monikulmion ala ja piiri |
 
-## Tyyli
+## Viiva
 
 | Komento | Mitä se tekee |
 |---------|-------------|

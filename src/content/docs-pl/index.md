@@ -95,7 +95,7 @@ Witaj w dokumentacji poleceń **KulmanLab CAD**. [KulmanLab CAD](https://kulmanl
 | [Angle](./commands/angle/) | Mierzy kąt między trzema punktami |
 | [Area](./commands/area/) | Mierzy pole powierzchni i obwód wielokąta |
 
-## Styl
+## Obrys
 
 | Polecenie | Co robi |
 |-----------|---------|

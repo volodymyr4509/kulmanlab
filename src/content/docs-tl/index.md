@@ -95,7 +95,7 @@ Maligayang pagdating sa command reference ng **KulmanLab CAD**. Ang [KulmanLab C
 | [Angle](./commands/angle/) | Sukatin ang angle sa pagitan ng tatlong punto |
 | [Area](./commands/area/) | Sukatin ang area at perimeter ng isang polygon |
 
-## Estilo
+## Guhit
 
 | Command | Ano ang ginagawa nito |
 |---------|-------------|

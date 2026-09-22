@@ -12,7 +12,7 @@ Kommandoen `KopierEgenskaper` kopierer **visuelle og lagrelaterte egenskaper** f
 
 ## Slik aktiverer du den
 
-Klikk på **Match Properties**-knappen (malerulleikon) i Style-panelet, eller skriv `KopierEgenskaper` i terminalen.
+Klikk på **Match Properties**-knappen (malerulleikon) i Strek-panelet, eller skriv `KopierEgenskaper` i terminalen.
 
 ## Arbeidsflyt
 

@@ -12,7 +12,7 @@ order: 1
 
 ## 활성화 방법
 
-스타일 패널의 **Match Properties** 도구 모음 버튼(페인트 롤러 아이콘)을 클릭하거나, 터미널에 `MatchProperties`를 입력합니다.
+획 패널의 **Match Properties** 도구 모음 버튼(페인트 롤러 아이콘)을 클릭하거나, 터미널에 `MatchProperties`를 입력합니다.
 
 ## 워크플로우
 

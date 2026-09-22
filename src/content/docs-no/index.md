@@ -95,7 +95,7 @@ Velkommen til **KulmanLab CAD**s kommandoreferanse. [KulmanLab CAD](https://kulm
 | [Angle](./commands/angle/) | Mål vinkelen mellom tre punkter |
 | [Area](./commands/area/) | Mål arealet og omkretsen av en polygon |
 
-## Stil
+## Strek
 
 | Kommando | Hva den gjør |
 |---------|-------------|

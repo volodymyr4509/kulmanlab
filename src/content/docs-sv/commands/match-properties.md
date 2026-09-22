@@ -12,7 +12,7 @@ order: 1
 
 ## Så här aktiverar du kommandot
 
-Klicka på verktygsfältsknappen **Match Properties** (ikon med målarrulle) i Style-panelen, eller skriv `KopieraEgenskaper` i terminalen.
+Klicka på verktygsfältsknappen **Match Properties** (ikon med målarrulle) i Linje-panelen, eller skriv `KopieraEgenskaper` i terminalen.
 
 ## Arbetsflöde
 

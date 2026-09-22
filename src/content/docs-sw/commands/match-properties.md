@@ -12,7 +12,7 @@ Amri ya `NakiliSifa` hunakili **sifa za kuona na safu** kutoka kwa kipengele cha
 
 ## Jinsi ya kuanzisha
 
-Bonyeza kitufe cha upau wa zana cha **Match Properties** (aikoni ya rolari ya rangi) kwenye paneli ya Mtindo, au andika `NakiliSifa` kwenye terminal.
+Bonyeza kitufe cha upau wa zana cha **Match Properties** (aikoni ya rolari ya rangi) kwenye paneli ya Mstari, au andika `NakiliSifa` kwenye terminal.
 
 ## Mtiririko wa kazi
 

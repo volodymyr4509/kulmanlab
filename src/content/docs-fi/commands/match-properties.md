@@ -12,7 +12,7 @@ Komento `KopioiOminaisuudet` kopioi **visuaaliset ja tasoon liittyvät ominaisuu
 
 ## Aktivointi
 
-Napsauta **Match Properties**-painiketta (maalitelakuvake) Style-paneelissa, tai kirjoita `KopioiOminaisuudet` terminaaliin.
+Napsauta **Match Properties**-painiketta (maalitelakuvake) Viiva-paneelissa, tai kirjoita `KopioiOminaisuudet` terminaaliin.
 
 ## Työnkulku
 

@@ -12,7 +12,7 @@ La commande `CopierPropriétés` copie les **propriétés visuelles et de calque
 
 ## Comment l'activer
 
-Cliquez sur le bouton **Match Properties** dans la barre d'outils (icône rouleau de peinture) dans le panneau Style, ou tapez `CopierPropriétés` dans le terminal.
+Cliquez sur le bouton **Match Properties** dans la barre d'outils (icône rouleau de peinture) dans le panneau Contour, ou tapez `CopierPropriétés` dans le terminal.
 
 ## Flux de travail
 

@@ -95,7 +95,7 @@ Bienvenido a la referencia de comandos de **KulmanLab CAD**. [KulmanLab CAD](htt
 | [Angle](./commands/angle/) | Mide el ángulo entre tres puntos |
 | [Area](./commands/area/) | Mide el área y el perímetro de un polígono |
 
-## Estilo
+## Trazo
 
 | Comando | Qué hace |
 |---------|----------|

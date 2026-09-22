@@ -95,7 +95,7 @@ Willkommen bei der **KulmanLab CAD** Befehlsreferenz. [KulmanLab CAD](https://ku
 | [Angle](./commands/angle/) | Winkel zwischen drei Punkten messen |
 | [Area](./commands/area/) | Fläche und Umfang eines Polygons messen |
 
-## Stil
+## Kontur
 
 | Befehl | Funktion |
 |--------|----------|

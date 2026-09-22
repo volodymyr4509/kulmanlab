@@ -12,7 +12,7 @@ Umarnin `KwafaHalaye` yana kwafin **abubuwan gani da layer** daga abu na tushe z
 
 ## Yadda ake kunnawa
 
-Danna maɓallin kayan aiki na **Match Properties** (alamar rolar fenti) a panel na Style, ko rubuta `KwafaHalaye` a tashar umarni.
+Danna maɓallin kayan aiki na **Match Properties** (alamar rolar fenti) a panel na Layi, ko rubuta `KwafaHalaye` a tashar umarni.
 
 ## Tsarin aiki
 

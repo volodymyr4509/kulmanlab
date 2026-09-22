@@ -12,7 +12,7 @@ Der Befehl `EigenschaftenÜbertragen` kopiert **visuelle Eigenschaften und Layer
 
 ## So aktivieren Sie den Befehl
 
-Klicken Sie auf die Schaltfläche **Match Properties** in der Symbolleiste (Farbrolle-Symbol) im Stil-Panel oder geben Sie `EigenschaftenÜbertragen` im Terminal ein.
+Klicken Sie auf die Schaltfläche **Match Properties** in der Symbolleiste (Farbrolle-Symbol) im Kontur-Panel oder geben Sie `EigenschaftenÜbertragen` im Terminal ein.
 
 ## Arbeitsablauf
 

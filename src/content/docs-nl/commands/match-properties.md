@@ -12,7 +12,7 @@ Het `EigenschappenKopiëren`-commando kopieert **visuele en laageigenschappen** 
 
 ## Activeren
 
-Klik op de **Match Properties**-werkbalkknop (verfrollericoon) in het Style-paneel, of typ `EigenschappenKopiëren` in de terminal.
+Klik op de **Match Properties**-werkbalkknop (verfrollericoon) in het Lijn-paneel, of typ `EigenschappenKopiëren` in de terminal.
 
 ## Werkwijze
 

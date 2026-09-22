@@ -12,7 +12,7 @@ Arahan `SalinSifat` menyalin **sifat visual dan lapisan** dari entiti sumber ke 
 
 ## Cara mengaktifkan
 
-Klik butang bar alat **Match Properties** (ikon penggelek cat) dalam panel Gaya, atau taip `SalinSifat` dalam terminal.
+Klik butang bar alat **Match Properties** (ikon penggelek cat) dalam panel Garisan, atau taip `SalinSifat` dalam terminal.
 
 ## Aliran kerja
 

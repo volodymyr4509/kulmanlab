@@ -94,7 +94,7 @@ Barka da zuwa jerin umarni na **KulmanLab CAD**. [KulmanLab CAD](https://kulmanl
 | [Angle](./commands/angle/) | Auna kusurwa tsakanin tabo uku |
 | [Area](./commands/area/) | Auna fili da kewaye na polygon |
 
-## Salo
+## Layi
 
 | Umarni | Abin da yake yi |
 |---------|-------------|

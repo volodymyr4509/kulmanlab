@@ -12,7 +12,7 @@ Perintah `SalinProperti` menyalin **properti visual dan layer** dari entitas sum
 
 ## Cara mengaktifkan
 
-Klik tombol toolbar **Match Properties** (ikon roller cat) di panel Style, atau ketik `SalinProperti` di terminal.
+Klik tombol toolbar **Match Properties** (ikon roller cat) di panel Garis, atau ketik `SalinProperti` di terminal.
 
 ## Alur kerja
 

@@ -12,7 +12,7 @@ Il comando `CopiaProprietà` copia **proprietà visive e di livello** da un'enti
 
 ## Come attivarlo
 
-Clicca il pulsante **Match Properties** nella barra degli strumenti (icona rullo di vernice) nel pannello Stile, oppure digita `CopiaProprietà` nel terminale.
+Clicca il pulsante **Match Properties** nella barra degli strumenti (icona rullo di vernice) nel pannello Traccia, oppure digita `CopiaProprietà` nel terminale.
 
 ## Flusso di lavoro
 

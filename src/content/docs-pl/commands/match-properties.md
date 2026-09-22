@@ -12,7 +12,7 @@ Polecenie `KopiujWłaściwości` kopiuje **właściwości wizualne i warstwy** z
 
 ## Jak aktywować
 
-Kliknij przycisk **Match Properties** na pasku narzędzi (ikona wałka malarskiego) w panelu Styl lub wpisz `KopiujWłaściwości` w terminalu.
+Kliknij przycisk **Match Properties** na pasku narzędzi (ikona wałka malarskiego) w panelu Obrys lub wpisz `KopiujWłaściwości` w terminalu.
 
 ## Przepływ pracy
 

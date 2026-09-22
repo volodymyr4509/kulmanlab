@@ -12,7 +12,7 @@ Kinokopya ng `ItugmaKatangian` command ang **visual at layer properties** mula s
 
 ## Paano i-activate
 
-I-click ang **Match Properties** toolbar button (paint roller icon) sa Style panel, o i-type ang `ItugmaKatangian` sa terminal.
+I-click ang **Match Properties** toolbar button (paint roller icon) sa Guhit panel, o i-type ang `ItugmaKatangian` sa terminal.
 
 ## Workflow
 

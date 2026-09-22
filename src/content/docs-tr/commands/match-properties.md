@@ -12,7 +12,7 @@ order: 1
 
 ## Nasıl Etkinleştirilir
 
-Stil panelindeki **Match Properties** araç çubuğu düğmesine (boya rulosu simgesi) tıklayın veya terminale `ÖzellikleriEşleştir` yazın.
+Kontur panelindeki **Match Properties** araç çubuğu düğmesine (boya rulosu simgesi) tıklayın veya terminale `ÖzellikleriEşleştir` yazın.
 
 ## İş Akışı
 

@@ -94,7 +94,7 @@ Karibu kwenye marejeo ya amri za **KulmanLab CAD**. [KulmanLab CAD](https://kulm
 | [Angle](./commands/angle/) | Pima pembe kati ya pointi tatu |
 | [Area](./commands/area/) | Pima eneo na mzunguko wa poligoni |
 
-## Mtindo
+## Mstari
 
 | Amri | Inachofanya |
 |------|------------|

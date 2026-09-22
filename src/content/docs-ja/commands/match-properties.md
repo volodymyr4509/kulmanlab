@@ -12,7 +12,7 @@ order: 1
 
 ## 起動方法
 
-Style パネルの **Match Properties** ツールバーボタン（ペイントローラーアイコン）をクリックするか、ターミナルに `MatchProperties` と入力します。
+線パネルの **Match Properties** ツールバーボタン（ペイントローラーアイコン）をクリックするか、ターミナルに `MatchProperties` と入力します。
 
 ## ワークフロー
 

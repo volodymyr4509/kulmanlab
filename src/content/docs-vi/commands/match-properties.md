@@ -11,7 +11,7 @@ Lệnh `SaoChépThuộcTính` sao chép **thuộc tính trực quan và lớp** 
 
 ## Cách kích hoạt
 
-Nhấp nút **Match Properties** trên thanh công cụ (biểu tượng con lăn sơn) trong bảng Style, hoặc gõ `SaoChépThuộcTính` trong terminal.
+Nhấp nút **Match Properties** trên thanh công cụ (biểu tượng con lăn sơn) trong bảng Nét, hoặc gõ `SaoChépThuộcTính` trong terminal.
 
 ## Quy trình làm việc
 

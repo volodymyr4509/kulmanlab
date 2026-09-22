@@ -95,7 +95,7 @@ Selamat datang di referensi perintah **KulmanLab CAD**. [KulmanLab CAD](https://
 | [Angle](./commands/angle/) | Mengukur sudut antara tiga titik |
 | [Area](./commands/area/) | Mengukur luas dan keliling poligon |
 
-## Gaya
+## Garis
 
 | Perintah | Fungsi |
 |---------|-------------|

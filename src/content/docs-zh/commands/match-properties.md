@@ -12,7 +12,7 @@ order: 1
 
 ## 激活方式
 
-在样式面板中单击工具栏中的**Match Properties**按钮（滚筒图标），或在命令行中输入 `MatchProperties`。
+在描边面板中单击工具栏中的**Match Properties**按钮（滚筒图标），或在命令行中输入 `MatchProperties`。
 
 ## 工作流程
 

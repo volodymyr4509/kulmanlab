@@ -12,7 +12,7 @@ El comando `IgualarPropiedades` copia **propiedades visuales y de capa** de una 
 
 ## Cómo activarlo
 
-Haz clic en el botón **Match Properties** de la barra de herramientas (icono de rodillo de pintura) en el panel Style, o escribe `IgualarPropiedades` en el terminal.
+Haz clic en el botón **Match Properties** de la barra de herramientas (icono de rodillo de pintura) en el panel Trazo, o escribe `IgualarPropiedades` en el terminal.
 
 ## Flujo de trabajo
 

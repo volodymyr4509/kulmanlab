@@ -12,7 +12,7 @@ The `MatchProperties` command copies **visual and layer properties** from a sour
 
 ## How to activate
 
-Click the **Match Properties** toolbar button (paint roller icon) in the Style panel, or type `MatchProperties` in the terminal.
+Click the **Match Properties** toolbar button (paint roller icon) in the Stroke panel, or type `MatchProperties` in the terminal.
 
 ## Workflow
 

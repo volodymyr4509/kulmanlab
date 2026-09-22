@@ -95,7 +95,7 @@ order: 1
 | [Angle](./commands/angle/) | Üç nokta arasındaki açıyı ölçer |
 | [Area](./commands/area/) | Bir çokgenin alanını ve çevresini ölçer |
 
-## Stil
+## Kontur
 
 | Komut | Ne yapar |
 |-------|----------|

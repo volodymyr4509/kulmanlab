@@ -95,7 +95,7 @@ Välkommen till **KulmanLab CAD**-kommandoreferensen. [KulmanLab CAD](https://ku
 | [Angle](./commands/angle/) | Mät vinkeln mellan tre punkter |
 | [Area](./commands/area/) | Mät area och omkrets för en polygon |
 
-## Stil
+## Linje
 
 | Kommando | Vad det gör |
 |---------|-------------|

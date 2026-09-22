@@ -12,7 +12,7 @@ O comando `CopiarPropriedades` copia **propriedades visuais e de camada** de uma
 
 ## Como ativar
 
-Clique no botão **Match Properties** na barra de ferramentas (ícone de rolo de pintura) no painel Estilo, ou digite `CopiarPropriedades` no terminal.
+Clique no botão **Match Properties** na barra de ferramentas (ícone de rolo de pintura) no painel Traço, ou digite `CopiarPropriedades` no terminal.
 
 ## Fluxo de trabalho
 
