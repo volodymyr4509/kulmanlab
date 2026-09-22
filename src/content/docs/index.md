@@ -1,6 +1,6 @@
 ---
 title: KulmanLab CAD — Command Reference
-description: KulmanLab CAD command reference — complete guide to every drawing, edit, markup, layer, measure, and file command in KulmanLab CAD.
+description: KulmanLab CAD command reference — complete guide to every drawing, edit, annotation, layer, measure, and file command in KulmanLab CAD.
 keywords: [KulmanLab, KulmanLab CAD, CAD commands, free browser CAD, DXF editor online, drawing commands, kulmanlab commands]
 group: overview
 order: 1
@@ -46,7 +46,7 @@ Welcome to the **KulmanLab CAD** command reference. [KulmanLab CAD](https://kulm
 | [Redo](./commands/redo/) | Redo the last undone action |
 | [Array Grid](./commands/array-grid/) | Repeat entities in a rectangular grid of rows and columns |
 
-## Markup
+## Annotate
 
 | Command | What it does |
 |---------|-------------|

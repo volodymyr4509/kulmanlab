@@ -1,6 +1,6 @@
 ---
 title: "KulmanLab CAD — Marejeo ya Amri"
-description: "Marejeo ya amri za KulmanLab CAD — mwongozo kamili wa kila amri ya kuchora, kuhariri, kuweka alama, safu, kupima, na faili katika KulmanLab CAD."
+description: "Marejeo ya amri za KulmanLab CAD — mwongozo kamili wa kila amri ya kuchora, kuhariri, kuweka maelezo, safu, kupima, na faili katika KulmanLab CAD."
 keywords: [KulmanLab, KulmanLab CAD, amri za CAD, CAD ya kivinjari bila malipo, mhariri wa DXF mtandaoni, amri za kuchora, amri za kulmanlab]
 group: overview
 order: 1
@@ -46,7 +46,7 @@ Karibu kwenye marejeo ya amri za **KulmanLab CAD**. [KulmanLab CAD](https://kulm
 | [Redo](./commands/redo/) | Rudia hatua ya mwisho iliyotendulewa |
 | [Array Grid](./commands/array-grid/) | Rudia vipengele katika gridi ya mstatili ya safu mlalo na safu wima |
 
-## Alama
+## Maelezo
 
 | Amri | Inachofanya |
 |------|------------|

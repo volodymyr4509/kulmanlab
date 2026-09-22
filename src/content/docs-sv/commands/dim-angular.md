@@ -12,7 +12,7 @@ order: 9
 
 ## Hur man aktiverar
 
-Klicka på **Dimension Angular**-knappen i verktygsfältet i Markup-panelen, eller skriv `MåttVinkel` i terminalen.
+Klicka på **Dimension Angular**-knappen i verktygsfältet i Anteckningar-panelen, eller skriv `MåttVinkel` i terminalen.
 
 ## Tre inmatningslägen
 

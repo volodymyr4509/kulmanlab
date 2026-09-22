@@ -12,7 +12,7 @@ order: 9
 
 ## কীভাবে সক্রিয় করবেন
 
-Markup প্যানেলে **Dimension Angular** টুলবার বোতামে ক্লিক করুন, বা টার্মিনালে `DimensionAngular` টাইপ করুন।
+টীকা প্যানেলে **Dimension Angular** টুলবার বোতামে ক্লিক করুন, বা টার্মিনালে `DimensionAngular` টাইপ করুন।
 
 ## তিনটি ইনপুট মোড
 

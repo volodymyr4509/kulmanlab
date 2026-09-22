@@ -12,7 +12,7 @@ Naglalagay ang `SukatAnggulo` command ng **angular dimension** arc annotation sa
 
 ## Paano I-activate
 
-I-click ang **Dimension Angular** button sa toolbar sa Markup panel, o i-type ang `SukatAnggulo` sa terminal.
+I-click ang **Dimension Angular** button sa toolbar sa Anotasyon panel, o i-type ang `SukatAnggulo` sa terminal.
 
 ## Tatlong Input Mode
 

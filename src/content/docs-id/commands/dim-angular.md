@@ -12,7 +12,7 @@ Perintah `DimensiSudut` menempatkan anotasi **dimensi sudut** busur pada gambar.
 
 ## Cara mengaktifkan
 
-Klik tombol toolbar **Dimension Angular** di panel Markup, atau ketik `DimensiSudut` di terminal.
+Klik tombol toolbar **Dimension Angular** di panel Anotasi, atau ketik `DimensiSudut` di terminal.
 
 ## Tiga mode input
 

@@ -12,7 +12,7 @@ order: 9
 
 ## 起動方法
 
-マークアップパネルの **Dimension Angular** ツールバーボタンをクリックするか、ターミナルに `DimensionAngular` と入力します。
+注釈パネルの **Dimension Angular** ツールバーボタンをクリックするか、ターミナルに `DimensionAngular` と入力します。
 
 ## 3 つの入力モード
 

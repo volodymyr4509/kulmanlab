@@ -12,7 +12,7 @@ Komento `MittaKulma` sijoittaa **kulmamitan** kaarimerkinnän piirustukseen. Se 
 
 ## Aktivointi
 
-Napsauta **Dimension Angular**-painiketta työkalurivillä Markup-paneelissa, tai kirjoita `MittaKulma` terminaaliin.
+Napsauta **Dimension Angular**-painiketta työkalurivillä Merkinnät-paneelissa, tai kirjoita `MittaKulma` terminaaliin.
 
 ## Kolme syöttötilaa
 

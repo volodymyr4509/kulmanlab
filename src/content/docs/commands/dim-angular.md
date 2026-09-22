@@ -12,7 +12,7 @@ The `DimensionAngular` command places an **angular dimension** arc annotation on
 
 ## How to activate
 
-Click the **Dimension Angular** toolbar button in the Markup panel, or type `DimensionAngular` in the terminal.
+Click the **Dimension Angular** toolbar button in the Annotate panel, or type `DimensionAngular` in the terminal.
 
 ## Three input modes
 

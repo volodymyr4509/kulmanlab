@@ -12,7 +12,7 @@ Kommandoen `MålVinkel` placerer en **vinkelmål**-bueannotation på tegningen. 
 
 ## Sådan aktiverer du den
 
-Klik på **Dimension Angular**-knappen i værktøjslinjen i Markup-panelet, eller skriv `MålVinkel` i terminalen.
+Klik på **Dimension Angular**-knappen i værktøjslinjen i Påskrift-panelet, eller skriv `MålVinkel` i terminalen.
 
 ## Tre inputtilstande
 

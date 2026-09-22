@@ -12,7 +12,7 @@ order: 9
 
 ## सक्रिय कैसे करें
 
-Markup पैनल में **Dimension Angular** टूलबार बटन पर क्लिक करें, या टर्मिनल में `DimensionAngular` टाइप करें।
+एनोटेशन पैनल में **Dimension Angular** टूलबार बटन पर क्लिक करें, या टर्मिनल में `DimensionAngular` टाइप करें।
 
 ## तीन इनपुट मोड
 

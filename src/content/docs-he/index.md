@@ -1,6 +1,6 @@
 ---
 title: KulmanLab CAD — מדריך פקודות
-description: מדריך הפקודות של KulmanLab CAD — מדריך מלא לכל פקודות השרטוט, העריכה, הסימון, השכבות, המדידה והקבצים ב-KulmanLab CAD.
+description: מדריך הפקודות של KulmanLab CAD — מדריך מלא לכל פקודות השרטוט, העריכה, ההערות, השכבות, המדידה והקבצים ב-KulmanLab CAD.
 keywords: [KulmanLab, KulmanLab CAD, פקודות CAD, CAD חינמי בדפדפן, עורך DXF מקוון, פקודות שרטוט, פקודות kulmanlab]
 group: overview
 order: 1
@@ -46,7 +46,7 @@ order: 1
 | [Redo](./commands/redo/) | ביצוע חוזר של הפעולה האחרונה שבוטלה |
 | [Array Grid](./commands/array-grid/) | חזרה על ישויות ברשת מלבנית של שורות ועמודות |
 
-## סימון
+## הערות
 
 | פקודה | מה היא עושה |
 |---------|-------------|

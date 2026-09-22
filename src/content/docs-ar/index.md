@@ -1,6 +1,6 @@
 ---
 title: KulmanLab CAD — مرجع الأوامر
-description: مرجع أوامر KulmanLab CAD — دليل شامل لكل أوامر الرسم والتحرير والتوصيف والطبقات والقياس والملفات في KulmanLab CAD.
+description: مرجع أوامر KulmanLab CAD — دليل شامل لكل أوامر الرسم والتحرير والتعليقات والطبقات والقياس والملفات في KulmanLab CAD.
 keywords: [KulmanLab, KulmanLab CAD, أوامر CAD, برنامج CAD مجاني في المتصفح, محرر DXF عبر الإنترنت, أوامر الرسم, kulmanlab]
 group: overview
 order: 1
@@ -46,7 +46,7 @@ order: 1
 | [Redo](./commands/redo/) | إعادة الإجراء الأخير الذي تم التراجع عنه |
 | [Array Grid](./commands/array-grid/) | تكرار العناصر في شبكة مستطيلة من الصفوف والأعمدة |
 
-## التوصيف
+## التعليقات
 
 | الأمر | ما يفعله |
 |-------|----------|

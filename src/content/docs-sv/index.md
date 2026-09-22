@@ -1,6 +1,6 @@
 ---
 title: KulmanLab CAD — Kommandoreferens
-description: KulmanLab CAD kommandoreferens — fullständig guide till varje rit-, redigerings-, markerings-, lager-, mät- och filkommando i KulmanLab CAD.
+description: KulmanLab CAD kommandoreferens — fullständig guide till varje rit-, redigerings-, anteckningar-, lager-, mät- och filkommando i KulmanLab CAD.
 keywords: [KulmanLab, KulmanLab CAD, CAD-kommandon, gratis webbläsar-CAD, DXF-redigerare online, ritkommandon, kulmanlab-kommandon]
 group: overview
 order: 1
@@ -46,7 +46,7 @@ Välkommen till **KulmanLab CAD**-kommandoreferensen. [KulmanLab CAD](https://ku
 | [Redo](./commands/redo/) | Gör om den senast ångrade åtgärden |
 | [Array Grid](./commands/array-grid/) | Upprepa entiteter i ett rektangulärt rutnät av rader och kolumner |
 
-## Markering
+## Anteckningar
 
 | Kommando | Vad det gör |
 |---------|-------------|

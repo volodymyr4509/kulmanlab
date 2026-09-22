@@ -1,6 +1,6 @@
 ---
 title: KulmanLab CAD — ਕਮਾਂਡ ਸੰਦਰਭ
-description: KulmanLab CAD ਕਮਾਂਡ ਸੰਦਰਭ — KulmanLab CAD ਵਿੱਚ ਹਰ ਡਰਾਇੰਗ, ਸੰਪਾਦਨ, ਮਾਰਕਅੱਪ, ਲੇਅਰ, ਮਾਪ ਅਤੇ ਫ਼ਾਈਲ ਕਮਾਂਡ ਲਈ ਪੂਰੀ ਗਾਈਡ।
+description: KulmanLab CAD ਕਮਾਂਡ ਸੰਦਰਭ — KulmanLab CAD ਵਿੱਚ ਹਰ ਡਰਾਇੰਗ, ਸੰਪਾਦਨ, ਟਿੱਪਣੀਆਂ, ਲੇਅਰ, ਮਾਪ ਅਤੇ ਫ਼ਾਈਲ ਕਮਾਂਡ ਲਈ ਪੂਰੀ ਗਾਈਡ।
 keywords: [KulmanLab, KulmanLab CAD, CAD ਕਮਾਂਡ, ਮੁਫ਼ਤ ਬ੍ਰਾਊਜ਼ਰ CAD, DXF ਐਡੀਟਰ ਔਨਲਾਈਨ, ਡਰਾਇੰਗ ਕਮਾਂਡ, kulmanlab]
 group: overview
 order: 1
@@ -45,7 +45,7 @@ order: 1
 | [Undo](./commands/undo/) | ਆਖਰੀ ਕਾਰਵਾਈ ਅਣਕੀਤੀ ਕਰੋ |
 | [Redo](./commands/redo/) | ਆਖਰੀ ਅਣਕੀਤੀ ਕਾਰਵਾਈ ਦੁਬਾਰਾ ਕਰੋ |
 
-## ਮਾਰਕਅੱਪ
+## ਟਿੱਪਣੀਆਂ
 
 | ਕਮਾਂਡ | ਇਹ ਕੀ ਕਰਦੀ ਹੈ |
 |---------|-------------|

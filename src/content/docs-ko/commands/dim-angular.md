@@ -12,7 +12,7 @@ order: 9
 
 ## 활성화 방법
 
-마크업 패널의 **Dimension Angular** 도구 모음 버튼을 클릭하거나, 터미널에 `DimensionAngular`를 입력합니다.
+주석 패널의 **Dimension Angular** 도구 모음 버튼을 클릭하거나, 터미널에 `DimensionAngular`를 입력합니다.
 
 ## 세 가지 입력 모드
 

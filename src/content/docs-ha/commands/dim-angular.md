@@ -12,7 +12,7 @@ Umarnin `MaauninKusurwa` yana sanya bayanin **girma-girma na angular** a kan zan
 
 ## Yadda ake kunnawa
 
-Danna maɓallin kayan aiki na **Dimension Angular** a panel na Markup, ko rubuta `MaauninKusurwa` a tashar umarni.
+Danna maɓallin kayan aiki na **Dimension Angular** a panel na Bayani, ko rubuta `MaauninKusurwa` a tashar umarni.
 
 ## Yanayi uku na shigarwa
 

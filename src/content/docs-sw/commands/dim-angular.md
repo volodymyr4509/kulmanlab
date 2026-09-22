@@ -12,7 +12,7 @@ Amri ya `KipimoPembe` huweka maelezo ya **kipimo cha pembe** cha mviringo kwenye
 
 ## Jinsi ya kuamsha
 
-Bonyeza kitufe cha **Dimension Angular** kwenye upau wa zana wa Markup, au andika `KipimoPembe` kwenye terminal.
+Bonyeza kitufe cha **Dimension Angular** kwenye upau wa zana wa Maelezo, au andika `KipimoPembe` kwenye terminal.
 
 ## Hali tatu za uingizaji
 

@@ -12,7 +12,7 @@ order: 9
 
 ## ਸਰਗਰਮ ਕਰਨਾ
 
-Markup ਪੈਨਲ ਵਿੱਚ **Dimension Angular** ਟੂਲਬਾਰ ਬਟਨ 'ਤੇ ਕਲਿੱਕ ਕਰੋ, ਜਾਂ ਟਰਮੀਨਲ ਵਿੱਚ `DimensionAngular` ਟਾਈਪ ਕਰੋ।
+ਟਿੱਪਣੀਆਂ ਪੈਨਲ ਵਿੱਚ **Dimension Angular** ਟੂਲਬਾਰ ਬਟਨ 'ਤੇ ਕਲਿੱਕ ਕਰੋ, ਜਾਂ ਟਰਮੀਨਲ ਵਿੱਚ `DimensionAngular` ਟਾਈਪ ਕਰੋ।
 
 ## ਤਿੰਨ ਇਨਪੁੱਟ ਮੋਡ
 

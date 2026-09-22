@@ -1,6 +1,6 @@
 ---
 title: KulmanLab CAD — Jerin Umarni
-description: Jerin umarni na KulmanLab CAD — cikakken jagora ga kowane umarnin zane, gyara, alama, layer, awo, da fayil a KulmanLab CAD.
+description: Jerin umarni na KulmanLab CAD — cikakken jagora ga kowane umarnin zane, gyara, bayani, layer, awo, da fayil a KulmanLab CAD.
 keywords: [KulmanLab, KulmanLab CAD, umarnin CAD, CAD kyauta ta burauza, editan DXF ta kan layi, umarnin zane, umarnin kulmanlab]
 group: overview
 order: 1
@@ -46,7 +46,7 @@ Barka da zuwa jerin umarni na **KulmanLab CAD**. [KulmanLab CAD](https://kulmanl
 | [Redo](./commands/redo/) | Sake yin aikin ƙarshe da aka soke |
 | [Array Grid](./commands/array-grid/) | Maimaita abubuwa a cikin grid mai kusurwa huɗu na layuka da ginshiƙai |
 
-## Alama
+## Bayani
 
 | Umarni | Abin da yake yi |
 |---------|-------------|

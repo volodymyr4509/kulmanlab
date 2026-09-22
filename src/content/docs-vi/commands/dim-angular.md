@@ -11,7 +11,7 @@ Lệnh `KíchThướcGóc` đặt một **chú thích kích thước góc** dạ
 
 ## Cách kích hoạt
 
-Nhấp nút **Dimension Angular** trên thanh công cụ trong bảng Markup, hoặc gõ `KíchThướcGóc` trong terminal.
+Nhấp nút **Dimension Angular** trên thanh công cụ trong bảng Chú thích, hoặc gõ `KíchThướcGóc` trong terminal.
 
 ## Ba chế độ nhập
 

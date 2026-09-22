@@ -1,6 +1,6 @@
 ---
 title: KulmanLab CAD — Sanggunian ng mga Command
-description: Sanggunian ng mga command sa KulmanLab CAD — kumpletong gabay sa bawat command para sa pagguhit, pag-edit, markup, layer, pagsukat, at file sa KulmanLab CAD.
+description: Sanggunian ng mga command sa KulmanLab CAD — kumpletong gabay sa bawat command para sa pagguhit, pag-edit, anotasyon, layer, pagsukat, at file sa KulmanLab CAD.
 keywords: [KulmanLab, KulmanLab CAD, mga command sa CAD, libreng CAD sa browser, DXF editor online, mga command sa pagguhit, kulmanlab commands]
 group: overview
 order: 1
@@ -46,7 +46,7 @@ Maligayang pagdating sa command reference ng **KulmanLab CAD**. Ang [KulmanLab C
 | [Redo](./commands/redo/) | I-redo ang huling na-undo na aksyon |
 | [Array Grid](./commands/array-grid/) | Ulitin ang mga entity sa isang rectangular grid ng row at column |
 
-## Markup
+## Anotasyon
 
 | Command | Ano ang ginagawa nito |
 |---------|-------------|

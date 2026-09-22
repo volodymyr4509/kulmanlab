@@ -1,6 +1,6 @@
 ---
 title: KulmanLab CAD — कमांड संदर्भ
-description: KulmanLab CAD कमांड संदर्भ — KulmanLab CAD में हर ड्राइंग, संपादन, मार्कअप, लेयर, माप और फ़ाइल कमांड के लिए पूर्ण गाइड।
+description: KulmanLab CAD कमांड संदर्भ — KulmanLab CAD में हर ड्राइंग, संपादन, एनोटेशन, लेयर, माप और फ़ाइल कमांड के लिए पूर्ण गाइड।
 keywords: [KulmanLab, KulmanLab CAD, CAD कमांड, मुफ़्त ब्राउज़र CAD, DXF एडिटर ऑनलाइन, ड्राइंग कमांड, kulmanlab]
 group: overview
 order: 1
@@ -46,7 +46,7 @@ order: 1
 | [Redo](./commands/redo/) | पिछली अनडू की गई क्रिया को रीडू करें |
 | [Array Grid](./commands/array-grid/) | ऑब्जेक्ट को पंक्तियों और स्तंभों के आयताकार ग्रिड में दोहराएं |
 
-## मार्कअप
+## एनोटेशन
 
 | कमांड | क्या करती है |
 |---------|-------------|

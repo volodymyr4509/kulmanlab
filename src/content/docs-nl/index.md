@@ -1,6 +1,6 @@
 ---
 title: KulmanLab CAD — Opdrachtreferentie
-description: KulmanLab CAD-opdrachtreferentie — volledige gids voor elk teken-, bewerk-, markerings-, laag-, meet- en bestandscommando in KulmanLab CAD.
+description: KulmanLab CAD-opdrachtreferentie — volledige gids voor elk teken-, bewerk-, annotatie-, laag-, meet- en bestandscommando in KulmanLab CAD.
 keywords: [KulmanLab, KulmanLab CAD, CAD commando's, gratis browser CAD, DXF editor online, tekencommando's, kulmanlab commando's]
 group: overview
 order: 1
@@ -46,7 +46,7 @@ Welkom bij de **KulmanLab CAD**-opdrachtreferentie. [KulmanLab CAD](https://kulm
 | [Redo](./commands/redo/) | Herhaal de laatst ongedaan gemaakte actie |
 | [Array Grid](./commands/array-grid/) | Herhaal entiteiten in een rechthoekig raster van rijen en kolommen |
 
-## Markering
+## Annotatie
 
 | Commando | Wat het doet |
 |---------|-------------|

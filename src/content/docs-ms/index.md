@@ -1,6 +1,6 @@
 ---
 title: KulmanLab CAD — Rujukan Arahan
-description: Rujukan arahan KulmanLab CAD — panduan lengkap untuk setiap arahan lukisan, edit, markup, lapisan, ukuran, dan fail dalam KulmanLab CAD.
+description: Rujukan arahan KulmanLab CAD — panduan lengkap untuk setiap arahan lukisan, edit, anotasi, lapisan, ukuran, dan fail dalam KulmanLab CAD.
 keywords: [KulmanLab, KulmanLab CAD, arahan CAD, CAD pelayar percuma, editor DXF dalam talian, arahan lukisan, arahan kulmanlab]
 group: overview
 order: 1
@@ -46,7 +46,7 @@ Selamat datang ke rujukan arahan **KulmanLab CAD**. [KulmanLab CAD](https://kulm
 | [Redo](./commands/redo/) | Buat semula tindakan yang dibatalkan |
 | [Array Grid](./commands/array-grid/) | Ulang entiti dalam grid segi empat tepat baris dan lajur |
 
-## Markup
+## Anotasi
 
 | Arahan | Fungsinya |
 |--------|-----------|

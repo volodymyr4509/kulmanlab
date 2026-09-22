@@ -12,7 +12,7 @@ Het `MaatHoek`-commando plaatst een **hoekmaatvoerings**boogannotatie op de teke
 
 ## Activeren
 
-Klik op de **Dimension Angular**-werkbalkknop in het Markering-paneel, of typ `MaatHoek` in de terminal.
+Klik op de **Dimension Angular**-werkbalkknop in het Annotatie-paneel, of typ `MaatHoek` in de terminal.
 
 ## Drie invoermodi
 

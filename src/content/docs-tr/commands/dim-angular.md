@@ -12,7 +12,7 @@ order: 9
 
 ## Nasıl Etkinleştirilir
 
-İşaretleme panelindeki **Dimension Angular** araç çubuğu düğmesine tıklayın veya terminale `ÖlçüAçı` yazın.
+Açıklama panelindeki **Dimension Angular** araç çubuğu düğmesine tıklayın veya terminale `ÖlçüAçı` yazın.
 
 ## Üç Giriş Modu
 

@@ -12,7 +12,7 @@ order: 9
 
 ## 激活方式
 
-在标注面板中单击**Dimension Angular** 工具栏按钮，或在命令行中输入 `DimensionAngular`。
+在注释面板中单击**Dimension Angular** 工具栏按钮，或在命令行中输入 `DimensionAngular`。
 
 ## 三种输入模式
 

@@ -1,6 +1,6 @@
 ---
 title: KulmanLab CAD — Kommandoreference
-description: KulmanLab CAD kommandoreference — komplet guide til hver tegne-, rediger-, markup-, lag-, mål- og filkommando i KulmanLab CAD.
+description: KulmanLab CAD kommandoreference — komplet guide til hver tegne-, rediger-, påskrift-, lag-, mål- og filkommando i KulmanLab CAD.
 keywords: [KulmanLab, KulmanLab CAD, CAD-kommandoer, gratis browser-CAD, DXF-editor online, tegnekommandoer, kulmanlab-kommandoer]
 group: overview
 order: 1
@@ -46,7 +46,7 @@ Velkommen til **KulmanLab CAD**s kommandoreference. [KulmanLab CAD](https://kulm
 | [Undo](./commands/undo/) | Fortryd seneste handling |
 | [Redo](./commands/redo/) | Gentag seneste fortrudte handling |
 
-## Markup
+## Påskrift
 
 | Kommando | Hvad den gør |
 |---------|-------------|

@@ -12,7 +12,7 @@ Arahan `DimensiSudut` meletakkan anotasi lengkok **dimensi sudut** pada lukisan.
 
 ## Cara mengaktifkan
 
-Klik butang bar alat **Dimension Angular** dalam panel Markup, atau taip `DimensiSudut` dalam terminal.
+Klik butang bar alat **Dimension Angular** dalam panel Anotasi, atau taip `DimensiSudut` dalam terminal.
 
 ## Tiga mod input
 

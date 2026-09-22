@@ -1,6 +1,6 @@
 ---
 title: KulmanLab CAD — 명령어 참고서
-description: KulmanLab CAD 명령어 참고서 — 도면 그리기, 편집, 마크업, 레이어, 측정, 파일 명령어를 포함한 KulmanLab CAD의 모든 명령어에 대한 완전한 가이드.
+description: KulmanLab CAD 명령어 참고서 — 도면 그리기, 편집, 주석, 레이어, 측정, 파일 명령어를 포함한 KulmanLab CAD의 모든 명령어에 대한 완전한 가이드.
 keywords: [KulmanLab, KulmanLab CAD, CAD 명령어, 무료 브라우저 CAD, DXF 온라인 편집기, 도면 명령어, kulmanlab 명령어]
 group: overview
 order: 1
@@ -46,7 +46,7 @@ order: 1
 | [Redo](./commands/redo/) | 마지막으로 취소한 작업 다시 실행 |
 | [Array Grid](./commands/array-grid/) | 객체를 행과 열로 이루어진 직사각형 그리드로 반복 |
 
-## 마크업
+## 주석
 
 | 명령어 | 기능 |
 |--------|------|

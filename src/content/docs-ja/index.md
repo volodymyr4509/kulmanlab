@@ -1,6 +1,6 @@
 ---
 title: KulmanLab CAD — コマンドリファレンス
-description: KulmanLab CAD コマンドリファレンス — 図形描画・編集・マークアップ・レイヤー・計測・ファイル操作のすべてのコマンドを網羅したガイド。
+description: KulmanLab CAD コマンドリファレンス — 図形描画・編集・注釈・レイヤー・計測・ファイル操作のすべてのコマンドを網羅したガイド。
 keywords: [KulmanLab, KulmanLab CAD, CADコマンド, 無料ブラウザCAD, DXFエディタ オンライン, 描画コマンド, kulmanlab コマンド]
 group: overview
 order: 1
@@ -46,7 +46,7 @@ order: 1
 | [Redo](./commands/redo/) | 取り消した操作をやり直す |
 | [Array Grid](./commands/array-grid/) | 選択エンティティを行と列の長方形グリッドに複製する |
 
-## マークアップ
+## 注釈
 
 | コマンド | 機能 |
 |---------|------|
