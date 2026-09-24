@@ -103,6 +103,7 @@ Welcome to the **KulmanLab CAD** command reference. [KulmanLab CAD](https://kulm
 | [Font Manager](./commands/font-manager/) | Browse, select, and upload custom TTF fonts |
 | [FontAdd](./commands/font-add/) | Upload a custom TTF font directly from the terminal |
 | [Hatch Manager](./commands/hatch-manager/) | Browse the hatch pattern library and upload .pat files |
+| [TextStyle](./commands/text-style/) | Create and manage named text styles — font, height, bold, italic |
 
 ## File
 
