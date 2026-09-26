@@ -1,0 +1,32 @@
+---
+title: Umarnin SalonRubutu — Sarrafa salon rubutu
+description: Ƙirƙiri salon rubutun CAD mai font, tsayi, kauri, karkata, tazarar layuka, daidaitawa da firam.
+keywords: [salon rubutun CAD, font na CAD, firam ɗin rubutu, daidaita rubutu, salon DXF, kulmanlab]
+group: style
+order: 6
+---
+
+# TextStyle
+
+Umarnin `SalonRubutu` yana buɗe mai sarrafa salo. Ƙirƙiri salo masu suna, gyara tsoffin ƙimominsu kuma zaɓi salon *yanzu*. Kowane sabon [Rubutu](../text/) yana kwafin saitunan salon yanzu lokacin ƙirƙirarsa.
+
+## Amfani da mai sarrafa salo
+
+Rubuta `SalonRubutu` ko danna **Salon rubutu** a panel ɗin bayani. ✓ yana nuna salon yanzu; danna layi sau biyu don mai da salon nan salon yanzu.
+
+| Fili | Aiki |
+|---|---|
+| Suna | Suna na musamman; ba za a iya sauya sunan `Standard` ba |
+| Font / Tsayi | Nau'in rubutu da tsayayyen tsayi; `0` = ana saita ta kowane rubutu |
+| Mai kauri / Mai karkata | Tsarawa masu aiki dabam-dabam |
+| Tazarar layuka | Sarari tsakanin layukan rubutu |
+| Daidaitawa a kwance | Hagu, tsakiya, dama ko cika faɗi |
+| Firam | Firam mai kusurwa huɗu kewaye da sabon rubutu |
+
+**Sabo** yana kwafin salon da aka zaɓa. **Share** ba zai cire `Standard` ko salon yanzu ba. **Saita a matsayin na yanzu** yana shafar rubutun da za a ƙirƙira daga baya kawai; rubutun da yake akwai ba ya canzawa. Suna mara komai, maimaitacce ko wanda DXF bai yarda da shi ba yana kashe **To**. Salon bayani da aka shigo da su suna ɓoye, amma ana adana bayanansu.
+
+## Ajiyewa da DXF
+
+**To** yana ajiye canje-canje; **Rufe** ko `Escape` yana watsar da su. Yi amfani da `↑` da `↓` don matsawa a jeri. Suna, fayilolin font, tsayi, kauri, karkata da tutar bayani suna cikin salon DXF. Firam, tazarar layuka da daidaitawa tsoffin ƙimomi ne na kowane rubutu a KulmanLab, ba filayen teburin STYLE na DXF ba.
+
+Duba kuma [Text](../text/), [FontManager](../font-manager/) da [MatchProperties](../match-properties/).
