@@ -1,6 +1,6 @@
 ---
 title: Leader — Maelezo ya Multileader yenye Mshale na Maandishi
-description: "Amri ya Leader inachora maelezo ya multileader katika awamu nne: ncha ya mshale, kiwiko cha dogleg, nafasi ya maandishi, na lebo iliyoandikwa. Mwelekeo wa maandishi unabadilishwa moja kwa moja kulingana na nafasi ya dogleg. Uagizaji tu katika DXF — viongozi haviandikwi wakati wa kuhifadhi."
+description: "Amri ya Leader huchora multileader yenye kichwa cha mshale, kiwiko na maandishi. Viashiria vipya hutumia MtindoWaKiongozi wa sasa na huhifadhiwa katika DXF."
 keywords: [CAD leader command, multileader annotation, leader CAD, arrow label annotation, dogleg leader, text direction CAD, kulmanlab]
 group: markup
 order: 1
@@ -110,6 +110,6 @@ Angalia [Text Editor — hali tajiri](../../interface/text-editor/#rich-mode) kw
 - Ili kuongeza mkono wa mshale wa ziada kwenye kiongozi kilichopo: [LeaderAdd](../leader-add/)
 - Ili kuondoa mkono kutoka kwa kiongozi chenye mikono miwili au zaidi: [LeaderRemove](../leader-remove/)
 
-## DXF — uagizaji tu
+## Uoanifu wa DXF
 
-**Viongozi ni wa uagizaji tu.** Vitu vya `MLEADER` kutoka kwa faili za DXF vinasomwa na kuonyeshwa kwa usahihi, lakini viongozi vilivyochorwa katika mhariri **haviandikwi** unapohifadhi faili ya DXF. Tumia viongozi kwa maelezo ya kuona; epuka kutegemea kwa mtiririko wa kazi wa kwenda na kurudi.
+KulmanLab husoma na kuandika vitu vya `MLEADER` pamoja na rekodi zake za `MLEADERSTYLE` zenye majina. Vichwa vya mishale, mikono, jiometria ya kutua, maandishi, kiambatisho, mzunguko, fremu na mtindo husika huhifadhiwa inapowezeshwa na DXF. Simamia chaguo-msingi za viashiria vipya kwa [LeaderStyle](../leader-style/).

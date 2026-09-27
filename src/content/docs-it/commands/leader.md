@@ -1,6 +1,6 @@
 ---
 title: Leader — Disegnare Annotazioni Multileader con Freccia e Testo
-description: "Il comando Leader disegna un'annotazione multileader in quattro fasi: punta della freccia, gomito dogleg, posizione del testo ed etichetta digitata. La direzione del testo si regola automaticamente in base alla posizione del dogleg. Solo importazione in DXF — i leader non vengono scritti al salvataggio."
+description: "Il comando Leader disegna un multileader con punta, gomito e testo. Le nuove direttrici usano lo StileGuida corrente e vengono salvate in DXF."
 keywords: [CAD comando leader, annotazione multileader, leader CAD, annotazione con freccia, dogleg leader, direzione testo CAD, kulmanlab]
 group: markup
 order: 1
@@ -110,6 +110,6 @@ Vedi [Editor di Testo — rich mode](../../interface/text-editor/#rich-mode) per
 - Per aggiungere un braccio con freccia extra a un leader esistente: [LeaderAdd](../leader-add/)
 - Per rimuovere un braccio da un leader con due o più: [LeaderRemove](../leader-remove/)
 
-## DXF — solo importazione
+## Compatibilità DXF
 
-**I leader sono solo importazione.** Le entità `MLEADER` dai file DXF vengono lette e visualizzate correttamente, ma i leader disegnati nell'editor **non vengono scritti** quando si salva un file DXF. Usa i leader per l'annotazione visiva; evita di fare affidamento su di essi per flussi di lavoro di andata e ritorno.
+KulmanLab legge e scrive entità `MLEADER` e i relativi record `MLEADERSTYLE` con nome. Punta, bracci, geometria dell’approdo, testo, aggancio, rotazione, cornice e stile associato sono conservati dove DXF li supporta. Gestisci i valori predefiniti delle nuove direttrici con [LeaderStyle](../leader-style/).

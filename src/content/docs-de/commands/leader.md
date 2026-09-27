@@ -1,6 +1,6 @@
 ---
 title: Leader — Mehrfachführungslinie mit Pfeilspitze und Text zeichnen
-description: "Der Befehl leader zeichnet eine vierphasige Mehrfachführungslinien-Anmerkung: Pfeilspitze, Knickpunkt, Textposition und getippte Beschriftung. Die Textausrichtung passt sich automatisch basierend auf der Knickposition an. Nur Import in DXF — Führungslinien werden beim Speichern nicht geschrieben."
+description: "Der Befehl Leader zeichnet eine Mehrfachführungslinie mit Pfeilspitze, Knick und Text. Neue Führungslinien verwenden den aktuellen Führungsstil und werden in DXF gespeichert."
 keywords: [CAD leader Befehl, Mehrfachführungslinie Anmerkung, Führungslinie CAD, Pfeil Beschriftung Anmerkung, Knick Führungslinie, Textausrichtung CAD, kulmanlab]
 group: markup
 order: 1
@@ -110,6 +110,6 @@ Siehe [Texteditor — rich mode](../../interface/text-editor/#rich-mode) für di
 - Um einer vorhandenen Führungslinie einen zusätzlichen Pfeilspitzen-Arm hinzuzufügen: [LeaderAdd](../leader-add/)
 - Um einen Arm von einer Führungslinie mit zwei oder mehr Armen zu entfernen: [LeaderRemove](../leader-remove/)
 
-## DXF — nur Import
+## DXF-Kompatibilität
 
-**Führungslinien sind nur importierbar.** `MLEADER`-Entitäten aus DXF-Dateien werden korrekt gelesen und angezeigt, aber im Editor gezeichnete Führungslinien werden beim Speichern einer DXF-Datei **nicht geschrieben**. Verwenden Sie Führungslinien für visuelle Anmerkungen; verlassen Sie sich nicht auf sie für Arbeitsabläufe, die auf gegenseitige Kompatibilität angewiesen sind.
+KulmanLab liest und schreibt `MLEADER`-Entitäten und ihre benannten `MLEADERSTYLE`-Datensätze. Pfeilspitzen, Arme, Anlandungsgeometrie, Text, Anbindung, Drehung, Rahmen und zugehöriger Stil bleiben erhalten, soweit DXF sie unterstützt. Die Vorgaben für neue Führungslinien verwalten Sie mit [LeaderStyle](../leader-style/).

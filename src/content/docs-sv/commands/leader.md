@@ -1,6 +1,6 @@
 ---
 title: Leader — Rita Multileader-annotationer med pilspets och text
-description: "Leader-kommandot ritar en fyrfasig multileader-annotation: pilspets, dogleg-armbåge, textposition och inskriven etikett. Textriktningen justeras automatiskt baserat på dogleg-positionen. Endast import i DXF — leaders skrivs inte vid sparande."
+description: "Leader-kommandot ritar en multileader med pilspets, knä och text. Nya hänvisningar använder aktuell Ledarstil och sparas i DXF."
 keywords: [CAD leader-kommando, multileader-annotation, leader CAD, pil-etikett-annotation, dogleg leader, textriktning CAD, kulmanlab]
 group: markup
 order: 1
@@ -110,6 +110,6 @@ Se [Textredigerare — rikt läge](../../interface/text-editor/#rich-mode) för 
 - För att lägga till en extra pilspetsarm på en befintlig leader: [LeaderAdd](../leader-add/)
 - För att ta bort en arm från en leader som har två eller fler: [LeaderRemove](../leader-remove/)
 
-## DXF — endast import
+## DXF-kompatibilitet
 
-**Leaders är endast för import.** `MLEADER`-entiteter från DXF-filer läses in och visas korrekt, men leaders ritade i redigeraren **skrivs inte** vid sparande av en DXF-fil. Använd leaders för visuell annotation; undvik att förlita dig på dem för rundturs-arbetsflöden.
+KulmanLab läser och skriver `MLEADER`-entiteter och deras namngivna `MLEADERSTYLE`-poster. Pilspetsar, armar, ansatsgeometri, text, fäste, rotation, ram och tillhörande stil bevaras där DXF stöder dem. Hantera standardvärden för nya hänvisningar med [LeaderStyle](../leader-style/).

@@ -1,6 +1,6 @@
 ---
 title: Leader — Piirrä Multileader-merkintöjä Nuolella ja Tekstillä
-description: "Leader-komento piirtää nelivaiheisen multileader-merkinnän: nuolenkärki, dogleg-kulma, tekstin sijainti ja kirjoitettu merkintä. Tekstin suunta säätyy automaattisesti doglegin sijainnin mukaan. Vain tuonti DXF:ssä — johtimia ei kirjoiteta tallennettaessa."
+description: "Leader-komento piirtää multileaderin, jossa on nuolenkärki, taite ja teksti. Uudet viitenuolet käyttävät nykyistä OsoitinTyyliä ja tallentuvat DXF-muotoon."
 keywords: [CAD leader-komento, multileader-merkintä, leader CAD, nuoli-etikettimerkintä, dogleg-johdin, tekstin suunta CAD, kulmanlab]
 group: markup
 order: 1
@@ -110,6 +110,6 @@ Katso [Tekstieditori — rikas tila](../../interface/text-editor/#rich-mode) tä
 - Lisätäksesi ylimääräisen nuolenkärkihaaran olemassa olevaan johtimeen: [LeaderAdd](../leader-add/)
 - Poistaaksesi haaran johtimesta, jossa on kaksi tai useampi: [LeaderRemove](../leader-remove/)
 
-## DXF — vain tuonti
+## DXF-yhteensopivuus
 
-**Johtimet ovat vain tuontia varten.** DXF-tiedostojen `MLEADER`-entiteetit luetaan ja näytetään oikein, mutta editorissa piirrettyjä johtimia **ei kirjoiteta** DXF-tiedostoa tallennettaessa. Käytä johtimia visuaaliseen merkintään; älä luota niihin edestakaisen matkan työnkuluissa.
+KulmanLab lukee ja kirjoittaa `MLEADER`-entiteettejä ja niiden nimettyjä `MLEADERSTYLE`-tietueita. Nuolenkärjet, haarat, hyllyn geometria, teksti, kiinnitys, kierto, kehys ja liitetty tyyli säilyvät DXF-tuen mukaisesti. Hallitse uusien viitenuolten oletusarvoja [LeaderStyle](../leader-style/)-toiminnolla.

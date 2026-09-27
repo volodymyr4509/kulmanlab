@@ -1,6 +1,6 @@
 ---
 title: Leader — Draw Multileader Annotations with Arrowhead and Text
-description: "The Leader command draws a four-phase multileader annotation: arrowhead tip, dogleg elbow, text position, and typed label. Text direction adjusts automatically based on dogleg position. Import-only in DXF — leaders are not written on save."
+description: "The Leader command draws a multileader annotation with an arrowhead, dogleg, and rich-text label. New leaders use the current LeaderStyle and round-trip through DXF."
 keywords: [CAD leader command, multileader annotation, leader CAD, arrow label annotation, dogleg leader, text direction CAD, kulmanlab]
 group: markup
 order: 1
@@ -109,7 +109,8 @@ See [Text Editor — rich mode](../../interface/text-editor/#rich-mode) for the 
 
 - To add an extra arrowhead arm to an existing leader: [LeaderAdd](../leader-add/)
 - To remove an arm from a leader that has two or more: [LeaderRemove](../leader-remove/)
+- To choose arrowhead, landing, attachment, and text defaults for new leaders: [LeaderStyle](../leader-style/)
 
-## DXF — import only
+## DXF compatibility
 
-**Leaders are import-only.** `MLEADER` entities from DXF files are read and displayed correctly, but leaders drawn in the editor are **not written** when saving a DXF file. Use leaders for visual annotation; avoid relying on them for round-trip workflows.
+KulmanLab reads and writes `MLEADER` entities and their named `MLEADERSTYLE` records. Arrowheads, arms, landing geometry, text content and formatting, attachment, rotation, frame, and the associated style are preserved where supported by DXF.

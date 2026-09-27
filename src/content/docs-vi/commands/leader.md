@@ -1,6 +1,6 @@
 ---
 title: Lệnh Leader — Vẽ Chú Thích Đa Đường Dẫn với Mũi Tên và Văn Bản
-description: "Lệnh Leader vẽ chú thích đa đường dẫn bốn giai đoạn: đầu mũi tên, đoạn gấp khúc, vị trí văn bản và nhãn đã gõ. Hướng văn bản tự động điều chỉnh theo vị trí đoạn gấp khúc. Chỉ nhập trong DXF — các đường dẫn không được ghi khi lưu."
+description: "Lệnh Leader vẽ đa đường dẫn có đầu mũi tên, đoạn gấp và văn bản. Đường dẫn mới dùng KiểuĐườngDẫn hiện tại và được lưu vào DXF."
 group: markup
 order: 1
 ---
@@ -68,6 +68,6 @@ Xem [Trình Soạn Thảo Văn Bản — chế độ phong phú](../../interface
 |------|-----------|
 | `Escape` | Hủy và đặt lại về bước 2 |
 
-## DXF — chỉ nhập
+## Tương thích DXF
 
-**Đường dẫn chỉ được nhập.** Thực thể `MLEADER` từ tệp DXF được đọc và hiển thị đúng, nhưng các đường dẫn được vẽ trong trình soạn thảo **không được ghi** khi lưu tệp DXF. Dùng đường dẫn cho chú thích trực quan.
+KulmanLab đọc và ghi thực thể `MLEADER` cùng bản ghi `MLEADERSTYLE` có tên. Đầu mũi tên, nhánh, hình học đoạn ngang, văn bản, điểm gắn, góc xoay, khung và kiểu liên kết được giữ lại khi DXF hỗ trợ. Quản lý giá trị mặc định cho đường dẫn mới bằng [LeaderStyle](../leader-style/).

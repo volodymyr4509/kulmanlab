@@ -1,6 +1,6 @@
 ---
 title: Leader — Zana Bayanin Multileader tare da Kibiya da Rubutu
-description: "Umarnin Leader yana zana bayanin multileader a matakai huɗu: ƙarshen kibiya, gwiwar dogleg, matsayin rubutu, da alamar rubutu da aka rubuta. Shugabancin rubutu yana daidaita kansa kai tsaye bisa matsayin dogleg. Ana shigo da shi kawai a DXF — ba a rubuta leaders a ajiyewa."
+description: "Umarnin Leader yana zana multileader mai kan kibiya, gwiwa da rubutu. Sabbin jagorori suna amfani da SalonJagora na yanzu kuma ana adana su a DXF."
 keywords: [umarnin leader CAD, bayanin multileader, leader CAD, bayanin alamar kibiya, dogleg leader, shugabancin rubutu CAD, kulmanlab]
 group: markup
 order: 1
@@ -110,6 +110,6 @@ Duba [Naʼurar Gyaran Rubutu — rich mode](../../interface/text-editor/#rich-mo
 - Don ƙara ƙarin hannu na kibiya zuwa leader da ke akwai: [LeaderAdd](../leader-add/)
 - Don cire hannu daga leader wanda yake da biyu ko fiye: [LeaderRemove](../leader-remove/)
 
-## DXF — shigo da shi kawai
+## Dacewar DXF
 
-**Leaders ana shigo da su kawai.** Ana karanta abubuwan `MLEADER` daga fayilolin DXF ana nuna su daidai, amma leaders da aka zana a editan **ba a rubuta su** ba yayin ajiye fayil na DXF. Yi amfani da leaders don bayani na hoto; ka guji dogaro da su ga tsarin aiki na juyawa.
+KulmanLab yana karantawa da rubuta abubuwan `MLEADER` da bayanan `MLEADERSTYLE` masu suna. Ana adana kawunan kibiyoyi, hannaye, jiometrin sauka, rubutu, maƙalawa, juyawa, firam da salon da aka haɗa inda DXF ke tallafa musu. Sarrafa tsoffin ƙimomin sabbin jagorori da [LeaderStyle](../leader-style/).

@@ -1,6 +1,6 @@
 ---
 title: Comando Leader — Desenhar Anotações Multileader com Seta e Texto
-description: "O comando Leader desenha uma anotação multileader em quatro etapas: ponta da seta, cotovelo dogleg, posição do texto e etiqueta digitada. A direção do texto ajusta automaticamente com base na posição do dogleg. Somente importação em DXF — leaders não são gravados ao salvar."
+description: "O comando Leader desenha uma chamada múltipla com ponta, cotovelo e texto. Novas chamadas usam o EstiloGuia atual e são gravadas em DXF."
 keywords: [CAD comando leader, anotação multileader, leader CAD, anotação com seta, dogleg leader, direção texto CAD, kulmanlab]
 group: markup
 order: 1
@@ -110,6 +110,6 @@ Consulte [Editor de Texto — rich mode](../../interface/text-editor/#rich-mode)
 - Para adicionar um braço com seta extra a um leader existente: [LeaderAdd](../leader-add/)
 - Para remover um braço de um leader com dois ou mais: [LeaderRemove](../leader-remove/)
 
-## DXF — somente importação
+## Compatibilidade com DXF
 
-**Leaders são somente importação.** Entidades `MLEADER` de arquivos DXF são lidas e exibidas corretamente, mas leaders desenhados no editor **não são gravados** ao salvar um arquivo DXF. Use leaders para anotação visual; evite depender deles para fluxos de trabalho de ida e volta.
+O KulmanLab lê e grava entidades `MLEADER` e seus registros `MLEADERSTYLE` nomeados. Pontas, braços, geometria do patamar, texto, fixação, rotação, moldura e estilo associado são preservados quando o DXF oferece suporte. Gerencie os padrões de novas chamadas com [LeaderStyle](../leader-style/).

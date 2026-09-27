@@ -1,6 +1,6 @@
 ---
 title: Leader Komutu — Ok Ucu ve Metinli Çoklu Gösterge Çizgileri Çiz
-description: "Leader komutu, dört aşamalı çoklu gösterge ek açıklaması çizer: ok ucu, dirsek, metin konumu ve yazılan etiket. Metin yönü, dirsek konumuna göre otomatik ayarlanır. DXF'de yalnızca içe aktarım — göstergeler kaydedilmez."
+description: "Leader komutu ok ucu, dirsek ve metinden oluşan çoklu gösterge çizer. Yeni göstergeler geçerli LiderStili değerlerini kullanır ve DXF'ye kaydedilir."
 keywords: [CAD leader komutu, çoklu gösterge ek açıklaması, gösterge CAD, ok etiket ek açıklaması, dirsekli gösterge, metin yönü CAD, kulmanlab]
 group: markup
 order: 1
@@ -110,6 +110,6 @@ Tam referans için [Metin Düzenleyici — rich mode](../../interface/text-edito
 - Mevcut göstergeye ekstra ok kolu eklemek için: [LeaderAdd](../leader-add/)
 - İki veya daha fazla kolu olan göstergeden kol kaldırmak için: [LeaderRemove](../leader-remove/)
 
-## DXF — yalnızca içe aktarım
+## DXF uyumluluğu
 
-**Göstergeler yalnızca içe aktarım içindir.** DXF dosyalarındaki `MLEADER` nesneleri doğru şekilde okunur ve görüntülenir, ancak düzenleyicide çizilen göstergeler DXF dosyası kaydedilirken **yazılmaz**. Görsel ek açıklama için göstergeler kullanın; round-trip iş akışları için bunlara güvenmeyin.
+KulmanLab `MLEADER` nesnelerini ve adlandırılmış `MLEADERSTYLE` kayıtlarını okur ve yazar. Ok uçları, kollar, yatay bölüm geometrisi, metin, bağlantı, dönüş, çerçeve ve ilişkili stil DXF tarafından desteklendiği ölçüde korunur. Yeni göstergelerin varsayılanlarını [LeaderStyle](../leader-style/) ile yönetin.

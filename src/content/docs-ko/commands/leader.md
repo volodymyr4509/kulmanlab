@@ -1,6 +1,6 @@
 ---
 title: Leader 명령어 — KulmanLab CAD에서 화살표와 텍스트가 있는 다중 지시선 주석 그리기
-description: "Leader 명령어는 네 단계로 다중 지시선 주석을 그립니다: 화살표 끝, 꺾임 팔꿈치, 텍스트 위치, 입력한 레이블. 텍스트 방향은 꺾임 위치에 따라 자동으로 조정됩니다. DXF에서는 가져오기만 지원됩니다 — 지시선은 저장 시 기록되지 않습니다."
+description: "Leader 명령은 화살촉, 꺾임, 문자가 있는 다중 지시선을 그립니다. 새 지시선은 현재 LeaderStyle을 사용하며 DXF에 저장됩니다."
 keywords: [CAD Leader 명령어, 다중 지시선 주석, 지시선 CAD, 화살표 레이블 주석, 꺾임 지시선, 텍스트 방향 CAD, kulmanlab]
 group: markup
 order: 1
@@ -110,6 +110,6 @@ order: 1
 - 기존 지시선에 추가 화살표 팔을 추가하려면: [LeaderAdd](../leader-add/)
 - 두 개 이상의 팔이 있는 지시선에서 팔을 제거하려면: [LeaderRemove](../leader-remove/)
 
-## DXF — 가져오기 전용
+## DXF 호환성
 
-**지시선은 가져오기 전용입니다.** DXF 파일의 `MLEADER` 객체는 올바르게 읽혀 표시되지만, 편집기에서 그린 지시선은 DXF 파일을 저장할 때 **기록되지 않습니다**. 시각적 주석에 지시선을 사용하세요; 왕복 워크플로우에 의존하지 마세요.
+KulmanLab은 `MLEADER` 객체와 이름이 있는 `MLEADERSTYLE` 레코드를 읽고 씁니다. DXF가 지원하는 화살촉, 팔, 연결부 형상, 문자, 부착 위치, 회전, 프레임, 연결된 스타일이 보존됩니다. 새 지시선의 기본값은 [LeaderStyle](../leader-style/)에서 관리합니다.

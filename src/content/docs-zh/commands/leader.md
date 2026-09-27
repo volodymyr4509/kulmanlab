@@ -1,6 +1,6 @@
 ---
 title: Leader命令 — 在 KulmanLab CAD 中绘制带箭头和文字的多重引线注释
-description: "多重引线命令通过四个阶段绘制多重引线注释：箭头尖端、折点肘部、文字位置和输入标签。文字方向根据折点位置自动调整。DXF 中仅支持导入 — 引线在保存时不写入。"
+description: "Leader 命令绘制包含箭头、折点和文字的多重引线。新引线使用当前 LeaderStyle，并可保存到 DXF。"
 keywords: [CAD Leader 命令, 多重引线注释, 引线 CAD, 箭头标签注释, 折点引线, 文字方向 CAD, kulmanlab]
 group: markup
 order: 1
@@ -110,6 +110,6 @@ order: 1
 - 要为已有引线添加额外的箭头臂：[LeaderAdd](../leader-add/)
 - 要从拥有两条或以上引线臂的引线中删除一条：[LeaderRemove](../leader-remove/)
 
-## DXF — 仅支持导入
+## DXF 兼容性
 
-**多重引线仅支持导入。** DXF 文件中的 `MLEADER` 图元可以正确读取和显示，但在编辑器中绘制的引线**在保存 DXF 文件时不写入**。将引线用于可视注释；避免在往返工作流中依赖它们。
+KulmanLab 可读写 `MLEADER` 图元及其命名的 `MLEADERSTYLE` 记录。DXF 支持的箭头、引线臂、基线几何、文字、附着方式、旋转、边框和关联样式均会保留。使用 [LeaderStyle](../leader-style/) 管理新引线的默认值。

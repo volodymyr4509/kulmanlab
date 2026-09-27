@@ -1,6 +1,6 @@
 ---
 title: Leader — Multileader Annotations na may Arrowhead at Text
-description: "Ginuguhit ng Leader command ang apat na phase na multileader annotation: arrowhead tip, dogleg elbow, text position, at na-type na label. Awtomatikong nag-a-adjust ang text direction base sa posisyon ng dogleg. Import-only sa DXF — hindi isinusulat ang mga leader kapag nag-save."
+description: "Ginuguhit ng Leader command ang multileader na may ulo ng palaso, liko at teksto. Ginagamit ng mga bagong panuro ang kasalukuyang EstiloNgLeader at sine-save sa DXF."
 keywords: [CAD leader command, multileader annotation, leader CAD, arrow label annotation, dogleg leader, text direction CAD, kulmanlab]
 group: markup
 order: 1
@@ -110,6 +110,6 @@ Tingnan ang [Text Editor — rich mode](../../interface/text-editor/#rich-mode) 
 - Para magdagdag ng extra arrowhead arm sa umiiral na leader: [LeaderAdd](../leader-add/)
 - Para tanggalin ang isang arm mula sa leader na may dalawa o higit pang arm: [LeaderRemove](../leader-remove/)
 
-## DXF — Import Only
+## Pagiging tugma sa DXF
 
-**Import-only ang mga leader.** Nababasa at naipapakita nang tama ang mga `MLEADER` entities mula sa DXF files, pero **hindi isinusulat** ang mga leader na iginuhit sa editor kapag nag-save ng DXF file. Gamitin ang mga leader para sa visual annotation; iwasan ang pag-asa sa kanila para sa round-trip workflows.
+Binabasa at isinusulat ng KulmanLab ang mga `MLEADER` entity at ang mga pinangalanang `MLEADERSTYLE` record. Napapanatili ang ulo ng palaso, mga braso, landing geometry, teksto, kabit, pag-ikot, kuwadro at kaugnay na estilo kapag sinusuportahan ng DXF. Pamahalaan ang default ng bagong panuro sa [LeaderStyle](../leader-style/).

@@ -1,6 +1,6 @@
 ---
 title: Leader — Tegn Multileader-annotationer med Pilespids og Tekst
-description: "Leader-kommandoen tegner en fire-fase multileader-annotation: pilespids, dogleg-vinkel, tekstposition og indtastet etiket. Tekstretningen justeres automatisk baseret på dogleg-position. Kun import i DXF — ledere skrives ikke ved gemning."
+description: "Leader-kommandoen tegner en multileader med pilespids, knæk og tekst. Nye henvisninger bruger den aktuelle Ledelinjestil og gemmes i DXF."
 keywords: [CAD leader-kommando, multileader-annotation, leader CAD, pil-etiket-annotation, dogleg-leder, tekstretning CAD, kulmanlab]
 group: markup
 order: 1
@@ -110,6 +110,6 @@ Se [Tekstredigering — rig tilstand](../../interface/text-editor/#rich-mode) fo
 - For at tilføje en ekstra pilespidsarm på en eksisterende leder: [LeaderAdd](../leader-add/)
 - For at fjerne en arm fra en leder der har to eller flere: [LeaderRemove](../leader-remove/)
 
-## DXF — kun import
+## DXF-kompatibilitet
 
-**Ledere er kun import.** `MLEADER`-entiteter fra DXF-filer læses og vises korrekt, men ledere tegnet i editoren **skrives ikke**, når du gemmer en DXF-fil. Brug ledere til visuel annotation; undgå at stole på dem til rundtur-arbejdsgange.
+KulmanLab læser og skriver `MLEADER`-entiteter og deres navngivne `MLEADERSTYLE`-poster. Pilespidser, arme, afsatsgeometri, tekst, fastgørelse, rotation, ramme og tilknyttet stil bevares, hvor DXF understøtter dem. Administrer standardværdier for nye henvisninger med [LeaderStyle](../leader-style/).

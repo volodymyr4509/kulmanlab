@@ -1,6 +1,6 @@
 ---
 title: Leader — Multileader-annotaties Tekenen met Pijlpunt en Tekst
-description: "Het Leader-commando tekent een multileader-annotatie in vier fasen: pijlpunt-tip, dogleg-knik, tekstpositie en getypt label. De tekstrichting past zich automatisch aan op basis van de dogleg-positie. Alleen import in DXF — leaders worden niet opgeslagen."
+description: "De opdracht Leader tekent een multileader met pijlpunt, knik en tekst. Nieuwe verwijslijnen gebruiken de huidige Aanwijsstijl en worden in DXF opgeslagen."
 keywords: [CAD leader commando, multileader annotatie, leader CAD, pijl label annotatie, dogleg leader, tekstrichting CAD, kulmanlab]
 group: markup
 order: 1
@@ -110,6 +110,6 @@ Zie [Teksteditor — rijke modus](../../interface/text-editor/#rich-mode) voor d
 - Om een extra pijlpuntarm toe te voegen aan een bestaande leader: [LeaderAdd](../leader-add/)
 - Om een arm te verwijderen van een leader met twee of meer: [LeaderRemove](../leader-remove/)
 
-## DXF — alleen import
+## DXF-compatibiliteit
 
-**Leaders zijn alleen-import.** `MLEADER`-entiteiten uit DXF-bestanden worden correct gelezen en weergegeven, maar leaders die in de editor zijn getekend worden **niet opgeslagen** bij het opslaan van een DXF-bestand. Gebruik leaders voor visuele annotatie; vertrouw er niet op voor heen-en-weer-workflows.
+KulmanLab leest en schrijft `MLEADER`-entiteiten en hun benoemde `MLEADERSTYLE`-records. Pijlpunten, armen, aanlandingsgeometrie, tekst, bevestiging, rotatie, kader en gekoppelde stijl blijven behouden waar DXF ze ondersteunt. Beheer de standaardwaarden voor nieuwe verwijslijnen met [LeaderStyle](../leader-style/).

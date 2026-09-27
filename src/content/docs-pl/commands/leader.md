@@ -1,6 +1,6 @@
 ---
 title: Leader — Adnotacja linii wielokierunkowej z grotem i tekstem
-description: "Polecenie Leader rysuje czterofazową adnotację linii wielokierunkowej: grot strzałki, dogleg, pozycja tekstu i wpisana etykieta. Kierunek tekstu dostosowuje się automatycznie na podstawie pozycji doglegs. Tylko import w DXF — linie prowadzące nie są zapisywane przy zapisywaniu."
+description: "Polecenie Leader rysuje wieloodnośnik z grotem, załamaniem i tekstem. Nowe odnośniki używają bieżącego StylOdniesienia i są zapisywane w DXF."
 keywords: [polecenie linii prowadzącej CAD, adnotacja linii wielokierunkowej, linia prowadząca CAD, adnotacja ze strzałką i etykietą, dogleg linii prowadzącej, kierunek tekstu CAD, kulmanlab]
 group: markup
 order: 1
@@ -110,6 +110,6 @@ Zobacz [Edytor tekstu — tryb rich](../../interface/text-editor/#rich-mode) w c
 - Aby dodać dodatkowe ramię z grotem do istniejącej linii prowadzącej: [LeaderAdd](../leader-add/)
 - Aby usunąć ramię z linii prowadzącej mającej dwa lub więcej: [LeaderRemove](../leader-remove/)
 
-## DXF — tylko import
+## Zgodność z DXF
 
-**Linie prowadzące są tylko do importu.** Elementy `MLEADER` z plików DXF są poprawnie odczytywane i wyświetlane, ale linie prowadzące narysowane w edytorze **nie są zapisywane** przy zapisywaniu pliku DXF. Używaj linii prowadzących do wizualnej adnotacji; unikaj polegania na nich w przepływach pracy z pełnym zapisem i odczytem.
+KulmanLab odczytuje i zapisuje elementy `MLEADER` oraz ich nazwane rekordy `MLEADERSTYLE`. Groty, ramiona, geometria półki, tekst, przyleganie, obrót, ramka i powiązany styl są zachowywane tam, gdzie obsługuje je DXF. Wartości domyślne nowych odnośników ustawisz w [LeaderStyle](../leader-style/).

@@ -1,6 +1,6 @@
 ---
 title: leader — Dibujar anotaciones multireferencia con flecha y texto
-description: "El comando leader dibuja una anotación multireferencia en cuatro fases: punta de flecha, codo de quiebre, posición del texto y etiqueta escrita. La dirección del texto se ajusta automáticamente según la posición del quiebre. Solo importación en DXF — las referencias no se escriben al guardar."
+description: "El comando Leader dibuja una multireferencia con punta, quiebre y texto. Las nuevas referencias usan el EstiloGuía actual y se guardan en DXF."
 keywords: [comando leader CAD, anotación multireferencia, referencia CAD, anotación con etiqueta y flecha, referencia con quiebre, dirección de texto CAD, kulmanlab]
 group: markup
 order: 1
@@ -110,6 +110,6 @@ Consulta [Editor de Texto — rich mode](../../interface/text-editor/#rich-mode)
 - Para añadir un brazo de punta de flecha extra a una referencia existente: [LeaderAdd](../leader-add/)
 - Para eliminar un brazo de una referencia que tiene dos o más: [LeaderRemove](../leader-remove/)
 
-## DXF — solo importación
+## Compatibilidad con DXF
 
-**Las referencias son solo de importación.** Las entidades `MLEADER` de los archivos DXF se leen y muestran correctamente, pero las referencias dibujadas en el editor **no se escriben** al guardar un archivo DXF. Usa las referencias para anotaciones visuales; evita depender de ellas para flujos de trabajo de ida y vuelta.
+KulmanLab lee y escribe entidades `MLEADER` y sus registros `MLEADERSTYLE` con nombre. Se conservan puntas, brazos, geometría del rellano, texto, anclaje, rotación, marco y estilo asociado cuando DXF los admite. Gestiona los valores predeterminados de nuevas referencias con [LeaderStyle](../leader-style/).

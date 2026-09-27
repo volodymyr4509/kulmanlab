@@ -1,6 +1,6 @@
 ---
 title: "Leader — Anotasi Multileader dengan Kepala Anak Panah dan Teks"
-description: "Arahan Leader melukis anotasi pelbagai pemimpin empat fasa: hujung kepala anak panah, siku dogleg, kedudukan teks, dan label bertaip. Arah teks menyesuaikan secara automatik berdasarkan kedudukan dogleg. Import sahaja dalam DXF — pemimpin tidak ditulis semasa menyimpan."
+description: "Perintah Leader melukis multileader dengan mata anak panah, siku dan teks. Penunjuk baharu menggunakan GayaPetunjuk semasa dan disimpan dalam DXF."
 keywords: [arahan pemimpin CAD, anotasi pelbagai pemimpin, pemimpin CAD, anotasi label anak panah, dogleg pemimpin, arah teks CAD, kulmanlab]
 group: markup
 order: 1
@@ -110,6 +110,6 @@ Lihat [Text Editor — mod kaya](../../interface/text-editor/#rich-mode) untuk r
 - Untuk menambah lengan kepala anak panah tambahan pada pemimpin sedia ada: [LeaderAdd](../leader-add/)
 - Untuk membuang lengan dari pemimpin yang mempunyai dua atau lebih: [LeaderRemove](../leader-remove/)
 
-## DXF — import sahaja
+## Keserasian DXF
 
-**Pemimpin adalah import sahaja.** Entiti `MLEADER` dari fail DXF dibaca dan dipaparkan dengan betul, tetapi pemimpin yang dilukis dalam editor **tidak ditulis** semasa menyimpan fail DXF. Gunakan pemimpin untuk anotasi visual; elakkan bergantung padanya untuk aliran kerja pusingan penuh.
+KulmanLab membaca dan menulis entiti `MLEADER` serta rekod `MLEADERSTYLE` bernama. Mata anak panah, lengan, geometri pendaratan, teks, lekatan, putaran, bingkai dan gaya berkaitan dikekalkan apabila disokong DXF. Urus nilai lalai penunjuk baharu melalui [LeaderStyle](../leader-style/).

@@ -1,6 +1,6 @@
 ---
 title: Leader — Annotation multirépère avec flèche et texte
-description: "La commande Leader dessine une annotation multirépère en quatre phases : pointe de flèche, coude de brisure, position du texte et libellé saisi. La direction du texte s'ajuste automatiquement selon la position du coude. Importation DXF uniquement — les répères ne sont pas écrits lors de l'enregistrement."
+description: "La commande Leader dessine un multirepère avec pointe, coude et texte. Les nouveaux repères utilisent le StyleRepère courant et sont enregistrés en DXF."
 keywords: [commande leader CAO, annotation multirépère, répère CAO, annotation flèche texte, répère avec coude, direction texte CAO, kulmanlab]
 group: markup
 order: 1
@@ -110,6 +110,6 @@ Voir [Éditeur de texte — rich mode](../../interface/text-editor/#rich-mode) p
 - Pour ajouter un bras de pointe de flèche supplémentaire à un répère existant : [LeaderAdd](../leader-add/)
 - Pour supprimer un bras d'un répère qui en a deux ou plus : [LeaderRemove](../leader-remove/)
 
-## DXF — importation uniquement
+## Compatibilité DXF
 
-**Les répères sont en lecture seule.** Les entités `MLEADER` des fichiers DXF sont lues et affichées correctement, mais les répères dessinés dans l'éditeur **ne sont pas écrits** lors de l'enregistrement d'un fichier DXF. Utilisez les répères pour les annotations visuelles ; évitez de vous en remettre à eux pour les flux de travail aller-retour.
+KulmanLab lit et écrit les entités `MLEADER` et leurs enregistrements `MLEADERSTYLE` nommés. Pointes, branches, géométrie du palier, texte, attache, rotation, cadre et style associé sont conservés lorsque DXF les prend en charge. Gérez les valeurs par défaut des nouveaux repères avec [LeaderStyle](../leader-style/).
