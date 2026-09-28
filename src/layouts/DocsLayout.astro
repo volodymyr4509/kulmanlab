@@ -30,7 +30,7 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '');
 
 // Section/group titles are centralized in src/i18n/translations.ts.
 // Command labels come from the same commandNames values used by the CAD app;
-// interface-page labels continue to use their page titles or the overrides below.
+// interface-page labels come from the site's locale table below.
 const t = translations[lang] ?? translations['en'];
 const s = {
   overview: t['docsNav.overview'],
@@ -118,13 +118,13 @@ const commandKeys: Record<string, string> = {
 };
 
 const interfaceLabels: Record<string, string> = {
-  'interface/vector-pins': 'Vector Pins',
-  'interface/distance-tracking': 'Distance Tracking',
-  'interface/selection-filter': 'Selection Filter',
-  'interface/grid-snap': 'Grid & Snap',
-  'interface/linetype': 'Linetype',
-  'interface/lineweight': 'Lineweight',
-  'interface/text-editor': 'Text Editor',
+  'interface/vector-pins': t['docsNav.vectorPins'] ?? translations.en['docsNav.vectorPins'],
+  'interface/distance-tracking': t['docsNav.distanceTracking'] ?? translations.en['docsNav.distanceTracking'],
+  'interface/selection-filter': t['docsNav.selectionFilter'] ?? translations.en['docsNav.selectionFilter'],
+  'interface/grid-snap': t['docsNav.gridSnap'] ?? translations.en['docsNav.gridSnap'],
+  'interface/linetype': t['docsNav.linetype'] ?? translations.en['docsNav.linetype'],
+  'interface/lineweight': t['docsNav.lineweight'] ?? translations.en['docsNav.lineweight'],
+  'interface/text-editor': t['docsNav.textEditor'] ?? translations.en['docsNav.textEditor'],
 };
 
 function labelFor(id: string, title: string): string {
