@@ -95,7 +95,7 @@ order: 1
 | [Angle](./commands/angle/) | 测量三点构成的角度 |
 | [Area](./commands/area/) | 测量多边形的面积和周长 |
 
-## 描边
+## 样式
 
 | 命令 | 功能 |
 |---------|-------------|
@@ -103,6 +103,8 @@ order: 1
 | [Font Manager](./commands/font-manager/) | 浏览、选择字体，并上传自定义 TTF 字体 |
 | [FontAdd](./commands/font-add/) | 直接从命令行上传自定义 TTF 字体 |
 | [Hatch Manager](./commands/hatch-manager/) | 浏览 hatch 图案库并上传 .pat 文件 |
+| [TextStyle 文字样式](./commands/text-style/) | 为新文字创建和管理命名文字样式 |
+| [LeaderStyle 引线样式](./commands/leader-style/) | 创建和管理命名多重引线样式 |
 
 ## 文件
 

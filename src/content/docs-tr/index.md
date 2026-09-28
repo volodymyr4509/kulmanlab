@@ -95,7 +95,7 @@ order: 1
 | [Angle](./commands/angle/) | Üç nokta arasındaki açıyı ölçer |
 | [Area](./commands/area/) | Bir çokgenin alanını ve çevresini ölçer |
 
-## Kontur
+## Stiller
 
 | Komut | Ne yapar |
 |-------|----------|
@@ -103,6 +103,8 @@ order: 1
 | [Font Manager](./commands/font-manager/) | Yazı tiplerine göz atın, seçin ve özel TTF dosyaları yükleyin |
 | [FontAdd](./commands/font-add/) | Terminalden doğrudan özel bir TTF yazı tipi yükleyin |
 | [Hatch Manager](./commands/hatch-manager/) | Hatch desen kitaplığına göz atın ve .pat dosyaları yükleyin |
+| [MetinStili](./commands/text-style/) | Yeni metin için adlandırılmış metin stilleri oluşturun ve yönetin |
+| [LiderStili](./commands/leader-style/) | Adlandırılmış çoklu lider stilleri oluşturun ve yönetin |
 
 ## Dosya
 

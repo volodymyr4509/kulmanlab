@@ -68,7 +68,7 @@ All edits are made on copies. **OK** applies renames, additions, deletions, prop
 
 ## DXF compatibility
 
-KulmanLab imports and exports `MLEADERSTYLE` records. Name, arrowhead, arrow size, landing gap, text height, text attachment, frame, and the annotative flag round-trip as named-style fields. Text rotation, font, bold, and italic are KulmanLab leader-style defaults rather than fields currently written on the DXF `MLEADERSTYLE` record; leaders created from the style still carry those values on their own entity data where DXF supports them.
+KulmanLab imports and exports `MLEADERSTYLE` records. Name, arrowhead, arrow size, landing gap, text height, text attachment, frame, and the annotative flag round-trip as named-style fields. On export, group `342` points to the TextStyle whose font, bold, italic, and height match the LeaderStyle, falling back to `Standard` when no style matches. This DXF reference does not make the in-app quick fill a live link. The one Text Attachment setting is written to both the left and right attachment fields so it remains correct when a leader changes sides in AutoCAD.
 
 ## Related commands
 

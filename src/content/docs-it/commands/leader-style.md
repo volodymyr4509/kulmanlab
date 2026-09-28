@@ -29,6 +29,6 @@ Digita `StileGuida` o fai clic su **Stile linea di richiamo** nel pannello annot
 
 ## Salvataggio e DXF
 
-**OK** applica tutte le modifiche; **Chiudi** o `Escape` le annulla. KulmanLab legge e scrive record `MLEADERSTYLE`. Nome, punta e dimensione freccia, distanza approdo, altezza, aggancio, cornice e indicatore annotativo sono salvati come campi dello stile. Rotazione, carattere, grassetto e corsivo sono valori predefiniti di KulmanLab copiati sulla direttrice alla creazione.
+KulmanLab importa ed esporta record `MLEADERSTYLE`. Nome, punta e dimensione della freccia, distanza, altezza, attacco, cornice e flag annotativo vengono conservati come campi dello stile. In esportazione, il gruppo `342` punta allo StileTesto con font, grassetto, corsivo e altezza corrispondenti; senza corrispondenza usa `Standard`. Questo riferimento DXF non rende dinamica la copia una tantum nell’app. L’unico valore di attacco viene scritto nei campi DXF sinistro e destro.
 
 Vedi anche [Leader](../leader/), [LeaderAdd](../leader-add/) e [LeaderRemove](../leader-remove/).

@@ -29,6 +29,6 @@ Typ `Aanwijsstijl` of klik op **Aanwijslijnstijl** in het annotatiepaneel. ✓ m
 
 ## Opslaan en DXF
 
-**OK** past alle wijzigingen toe; **Sluiten** of `Escape` verwerpt ze. KulmanLab leest en schrijft `MLEADERSTYLE`-records. Naam, pijlpunt en grootte, afstand, hoogte, bevestiging, kader en annotatieve vlag worden als stijlvelden opgeslagen. Rotatie, lettertype, vet en cursief zijn KulmanLab-standaardwaarden die bij het maken naar de verwijslijn worden gekopieerd.
+KulmanLab importeert en exporteert `MLEADERSTYLE`-records. Naam, pijlpunt en -grootte, tussenruimte, teksthoogte, tekstaanhechting, kader en annotatieve vlag blijven als stijlvelden behouden. Bij export wijst groep `342` naar de Tekststijl waarvan lettertype, vet, cursief en hoogte overeenkomen; zonder overeenkomst wordt `Standard` gebruikt. Deze DXF-verwijzing maakt de eenmalige kopie in de app niet tot een live koppeling. De ene aanhechtingswaarde wordt naar zowel het linker- als rechter-DXF-veld geschreven.
 
 Zie ook [Leader](../leader/), [LeaderAdd](../leader-add/) en [LeaderRemove](../leader-remove/).

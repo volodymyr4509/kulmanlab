@@ -95,7 +95,7 @@ Welcome to the **KulmanLab CAD** command reference. [KulmanLab CAD](https://kulm
 | [Angle](./commands/angle/) | Measure the angle between three points |
 | [Area](./commands/area/) | Measure the area and perimeter of a polygon |
 
-## Stroke
+## Styles
 
 | Command | What it does |
 |---------|-------------|
@@ -103,7 +103,8 @@ Welcome to the **KulmanLab CAD** command reference. [KulmanLab CAD](https://kulm
 | [Font Manager](./commands/font-manager/) | Browse, select, and upload custom TTF fonts |
 | [FontAdd](./commands/font-add/) | Upload a custom TTF font directly from the terminal |
 | [Hatch Manager](./commands/hatch-manager/) | Browse the hatch pattern library and upload .pat files |
-| [TextStyle](./commands/text-style/) | Create and manage named text styles — font, height, bold, italic |
+| [TextStyle](./commands/text-style/) | Create and manage named text styles for new Text |
+| [LeaderStyle](./commands/leader-style/) | Create and manage named multileader styles |
 
 ## File
 

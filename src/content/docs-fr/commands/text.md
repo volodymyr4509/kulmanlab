@@ -19,7 +19,7 @@ Consultez la page [Éditeur de texte](../../interface/text-editor/) pour la réf
 3. L'**éditeur de texte popup** s'ouvre au-dessus du nouveau label. Tapez votre contenu.
 4. Appuyez sur **Échap** pour valider le label et fermer l'éditeur.
 
-La hauteur par défaut est de **12 unités de dessin**.
+Un nouveau texte copie la police, la hauteur, le gras, l’italique, l’interligne, l’alignement horizontal et le cadre du [StyleTexte](../text-style/) courant. Le style intégré `Standard` utilise une hauteur de **1 unité de dessin** et un alignement à gauche.
 
 ## Modifier un label existant
 
@@ -101,7 +101,7 @@ Quand un label de texte est sélectionné, le panneau des propriétés affiche :
 | Propriété | Signification |
 |-----------|---------------|
 | Position X / Position Y | Coordonnées du point d'ancrage |
-| Height | Hauteur de texte de base en unités de dessin (par défaut : **12**) |
+| Hauteur | Hauteur de base en unités de dessin, copiée depuis le StyleTexte courant à la création |
 | Rotation Degree | Rotation dans le sens antihoraire en degrés |
 
 **Propriétés**
@@ -113,6 +113,8 @@ Quand un label de texte est sélectionné, le panneau des propriétés affiche :
 
 Le texte n'a pas de propriétés Linetype, Linetype Scale, ni Thickness.
 
+La section **Propriétés** contient aussi l’alignement horizontal, la largeur de référence, l’interligne et le cadre.
+
 ## DXF — entité MTEXT
 
-Les labels de texte sont stockés comme entités **MTEXT** dans le fichier DXF. Le gras et l'italique sont encodés via un code de commutation de police en ligne (`\f`) ; le souligné utilise `\L`/`\l` ; le barré utilise `\K`/`\k`. Ce formatage survit à un cycle DXF complet et est lisible par LibreCAD, FreeCAD et d'autres applications compatibles DXF. Les substitutions de police par caractère sont préservées à l'export — les substitutions de hauteur par caractère ne le sont pas ; seule la hauteur de base du label est écrite.
+Les libellés sont stockés sous forme d’entités **MTEXT**. Gras et italique utilisent `\f`, le soulignement `\L`/`\l`, le barré `\K`/`\k` et les hauteurs par caractère `\H`. Largeur de référence, interligne, alignement de paragraphe, rotation et attache sont également conservés. Le cadre est exporté avec l’indicateur MTEXT et une échelle de bord compatible AutoCAD. Voir [StyleTexte](../text-style/) et [Gestionnaire de polices](../font-manager/).

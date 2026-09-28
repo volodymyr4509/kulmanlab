@@ -19,7 +19,7 @@ Auf der Seite [Texteditor](../../interface/text-editor/) finden Sie die vollstä
 3. Das **Texteditor-Popup** öffnet sich über der neuen Beschriftung. Geben Sie Ihren Inhalt ein.
 4. Drücken Sie **Escape**, um die Beschriftung zu bestätigen und den Editor zu schließen.
 
-Die Standardhöhe beträgt **12 Zeichnungseinheiten**.
+Neuer Text übernimmt Schrift, Höhe, Fett, Kursiv, Zeilenabstand, horizontale Ausrichtung und Rahmen aus dem aktuellen [Textstil](../text-style/). Der integrierte Stil `Standard` verwendet eine Höhe von **1 Zeichnungseinheit** und Linksausrichtung.
 
 ## Eine vorhandene Beschriftung bearbeiten
 
@@ -101,7 +101,7 @@ Wenn eine Textbeschriftung ausgewählt ist, zeigt das Eigenschaftenpanel:
 | Eigenschaft | Bedeutung |
 |-------------|-----------|
 | Position X / Position Y | Ankerpunktkoordinaten |
-| Höhe | Basistexthöhe in Zeichnungseinheiten (Standard: **12**) |
+| Höhe | Grundhöhe des Textes in Zeichnungseinheiten; wird beim Erstellen aus dem aktuellen Textstil übernommen |
 | Rotationsgrad | Gegen-Uhrzeigersinn-Rotation in Grad |
 
 **Eigenschaften**
@@ -113,6 +113,8 @@ Wenn eine Textbeschriftung ausgewählt ist, zeigt das Eigenschaftenpanel:
 
 Text hat keine Linientyp-, Linientyp-Skalierungs- oder Stärke-Eigenschaften.
 
+Unter **Eigenschaften** stehen außerdem horizontale Ausrichtung, Referenzbreite, Zeilenabstand und Rahmen zur Verfügung.
+
 ## DXF — MTEXT-Entität
 
-Textbeschriftungen werden als **MTEXT**-Entitäten in der DXF-Datei gespeichert. Fett und Kursiv werden über einen Inline-Schriftartwechsel-Code (`\f`) kodiert; Unterstrichen verwendet `\L`/`\l`; Durchgestrichen verwendet `\K`/`\k`. Diese Formatierung übersteht einen vollständigen DXF-Durchlauf und ist von LibreCAD, FreeCAD und anderen DXF-kompatiblen Anwendungen lesbar. Zeichenweise Schriftart-Überschreibungen bleiben beim Export erhalten — zeichenweise Höhen-Überschreibungen nicht; nur die Basishöhe der Beschriftung wird geschrieben.
+Textbeschriftungen werden als **MTEXT** gespeichert. Fett und Kursiv verwenden `\f`, Unterstreichen `\L`/`\l`, Durchstreichen `\K`/`\k` und zeichenweise Höhen `\H`. Referenzbreite, Zeilenabstand, Absatzausrichtung, Drehung und Anheftung werden ebenfalls rundgeführt. Ein Textrahmen wird mit dem MTEXT-Rahmenflag und einem AutoCAD-kompatiblen Randmaßstab exportiert. Siehe auch [Textstil](../text-style/) und [Schriftartenmanager](../font-manager/).

@@ -16,12 +16,14 @@ Rubuta `SalonRubutu` ko danna **Salon rubutu** a panel ɗin bayani. ✓ yana nun
 
 | Fili | Aiki |
 |---|---|
-| Suna | Suna na musamman; ba za a iya sauya sunan `Standard` ba |
-| Font / Tsayi | Nau'in rubutu da tsayayyen tsayi; `0` = ana saita ta kowane rubutu |
+| Sauya suna | Yi amfani da alamar fensir kusa da suna don gyara shi a jeri; ba za a sauya sunan `Standard` ba. |
+| Font / Tsayi | Nau’in rubutu da tsayi tabbatacce na dole. Sifili ko ƙima mara kyau tana zama `1`; mai sarrafa yana karɓar ƙima fiye da `0` kawai. |
 | Mai kauri / Mai karkata | Tsarawa masu aiki dabam-dabam |
 | Tazarar layuka | Sarari tsakanin layukan rubutu |
 | Daidaitawa a kwance | Hagu, tsakiya, dama ko cika faɗi |
 | Firam | Firam mai kusurwa huɗu kewaye da sabon rubutu |
+
+Samfotin yana amfani da mai zana irin na kanvas kuma yana nuna layi biyu. Font, tsayi, kauri, karkata, firam, tazarar layi da daidaitawa suna sabuntawa nan take; ƙimar tana nuna zuƙowa don dacewa. Sabbin salailai suna daidaita **hagu** ta asali.
 
 **Sabo** yana kwafin salon da aka zaɓa. **Share** ba zai cire `Standard` ko salon yanzu ba. **Saita a matsayin na yanzu** yana shafar rubutun da za a ƙirƙira daga baya kawai; rubutun da yake akwai ba ya canzawa. Suna mara komai, maimaitacce ko wanda DXF bai yarda da shi ba yana kashe **To**. Salon bayani da aka shigo da su suna ɓoye, amma ana adana bayanansu.
 

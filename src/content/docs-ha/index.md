@@ -94,7 +94,7 @@ Barka da zuwa jerin umarni na **KulmanLab CAD**. [KulmanLab CAD](https://kulmanl
 | [Angle](./commands/angle/) | Auna kusurwa tsakanin tabo uku |
 | [Area](./commands/area/) | Auna fili da kewaye na polygon |
 
-## Layi
+## Salailai
 
 | Umarni | Abin da yake yi |
 |---------|-------------|
@@ -102,6 +102,8 @@ Barka da zuwa jerin umarni na **KulmanLab CAD**. [KulmanLab CAD](https://kulmanl
 | [Font Manager](./commands/font-manager/) | Bincika, zaɓi, da loda fonts na TTF na musamman |
 | [FontAdd](./commands/font-add/) | Loda font na TTF na musamman kai tsaye daga tashar umarni |
 | [Hatch Manager](./commands/hatch-manager/) | Bincika laburaren pattern na hatch kuma loda fayilolin .pat |
+| [SalonRubutu](./commands/text-style/) | Ƙirƙira da sarrafa salailan rubutu masu suna don sabon rubutu |
+| [SalonJagora](./commands/leader-style/) | Ƙirƙira da sarrafa salailan multileader masu suna |
 
 ## Fayil
 

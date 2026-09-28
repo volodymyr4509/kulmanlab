@@ -142,4 +142,4 @@ Quebras de linha duras e formatação por caractere são armazenadas usando o fo
 
 ## Compatibilidade DXF
 
-Entidades de texto são armazenadas como **MTEXT** em arquivos DXF. Negrito e itálico são codificados usando um código de troca de fonte inline (`\f`); sublinhado usa `\L`/`\l`; tachado usa `\K`/`\k`. Essa formatação sobrevive a um round-trip DXF completo e é legível pelo LibreCAD, FreeCAD e outras aplicações compatíveis com DXF. Substituições de fonte por caractere são preservadas na exportação — substituições de altura por caractere não são; apenas a altura base da entidade é gravada.
+Os rótulos são gravados como entidades **MTEXT**. Negrito e itálico usam `\f`, sublinhado `\L`/`\l`, tachado `\K`/`\k` e alturas por caractere usam `\H`. Largura de referência, espaçamento, alinhamento de parágrafo, rotação e fixação também são preservados. A moldura é exportada com o sinalizador MTEXT e escala de borda compatível com AutoCAD. Veja [EstiloTexto](../text-style/) e [FontManager](../font-manager/).

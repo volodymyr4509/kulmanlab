@@ -29,6 +29,6 @@ order: 7
 
 ## 保存和 DXF
 
-**确定**应用全部更改；**关闭**或 `Escape` 放弃更改。KulmanLab 可读写 `MLEADERSTYLE` 记录。名称、箭头及其大小、基线间距、文字高度、附着方式、边框和注释性标志作为样式字段保存。旋转、字体、粗体和斜体是 KulmanLab 默认值，在创建引线时复制到实体。
+KulmanLab 可导入和导出 `MLEADERSTYLE` 记录。名称、箭头、箭头大小、基线间隙、文字高度、文字附着、边框和注释性标志会作为样式字段往返保留。导出时，组码 `342` 指向字体、粗体、斜体和高度与引线样式匹配的文字样式；没有匹配项时使用 `Standard`。此 DXF 引用不会把应用内的一次性填充变为实时链接。唯一的文字附着值会同时写入 DXF 的左右字段。
 
 另请参阅 [Leader](../leader/)、[LeaderAdd](../leader-add/) 和 [LeaderRemove](../leader-remove/)。

@@ -19,7 +19,7 @@ Katso [Tekstieditori](../../interface/text-editor/)-sivu täydellistä editorin 
 3. **Tekstieditorin ponnahdusikkuna** avautuu uuden merkinnän yläpuolelle. Kirjoita sisältösi.
 4. Paina **Escape** vahvistaaksesi merkinnän ja sulkeaksesi editorin.
 
-Oletuskorkeus on **12 piirustusyksikköä**.
+Uusi teksti kopioi fontin, korkeuden, lihavoinnin, kursivoinnin, rivivälin, vaakatasausen ja kehyksen nykyisestä [Tekstityylistä](../text-style/). Sisäinen `Standard` käyttää korkeutta **1 piirustusyksikkö** ja vasenta tasausta.
 
 ## Olemassa olevan merkinnän muokkaaminen
 
@@ -101,7 +101,7 @@ Kun tekstimerkintä on valittu, ominaisuuspaneeli näyttää:
 | Ominaisuus | Merkitys |
 |----------|---------|
 | Position X / Position Y | Ankkuripisteen koordinaatit |
-| Height | Perustekstin korkeus piirustusyksikköinä (oletus: **12**) |
+| Height | Peruskorkeus piirustusyksikköinä, kopioitu nykyisestä Tekstityylistä luotaessa |
 | Rotation Degree | Kierto vastapäivään asteina |
 
 **Ominaisuudet**
@@ -113,6 +113,8 @@ Kun tekstimerkintä on valittu, ominaisuuspaneeli näyttää:
 
 Text-entiteetillä ei ole Linetype-, Linetype Scale- tai Thickness-ominaisuuksia.
 
+**Ominaisuudet** sisältää myös vaakatasausen, viiteleveyden, rivivälin ja kehyksen.
+
 ## DXF — MTEXT-entiteetti
 
-Tekstimerkinnät tallennetaan **MTEXT**-entiteetteinä DXF-tiedostossa. Lihavointi ja kursivointi koodataan käyttäen merkkejä `\L`, `\K`, `\O` ja sisäänrakennettuja fonttivaihtoja (`\f`). Merkkikohtainen korkeus koodataan muodossa `\H`. Kaikki muotoilu säilyy viennissä ja on luettavissa LibreCADissa, FreeCADissa ja muissa DXF-yhteensopivissa sovelluksissa.
+Tekstit tallennetaan **MTEXT**-entiteetteinä. Lihavointi ja kursivointi käyttävät `\f`, alleviivaus `\L`/`\l`, yliviivaus `\K`/`\k` ja merkkikohtainen korkeus `\H`. Myös viiteleveys, riviväli, kappaleen tasaus, kierto ja kiinnitys säilyvät. Kehys viedään MTEXT-kehyslipulla ja AutoCAD-yhteensopivalla reunaskaalalla. Katso [Tekstityyli](../text-style/) ja [Fontinhallinta](../font-manager/).

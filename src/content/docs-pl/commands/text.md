@@ -19,7 +19,7 @@ Zobacz stronę [Edytor tekstu](../../interface/text-editor/), aby uzyskać pełn
 3. Otwiera się **okno podręczne edytora tekstu** nad nową etykietą. Wpisz swoją treść.
 4. Naciśnij **Escape**, aby zatwierdzić etykietę i zamknąć edytor.
 
-Domyślna wysokość wynosi **12 jednostek rysunkowych**.
+Nowy tekst kopiuje czcionkę, wysokość, pogrubienie, kursywę, interlinię, wyrównanie poziome i ramkę z bieżącego [StyluTekstu](../text-style/). Wbudowany styl `Standard` używa wysokości **1 jednostki rysunku** i wyrównania do lewej.
 
 ## Edytowanie istniejącej etykiety
 
@@ -101,7 +101,7 @@ Gdy etykieta tekstowa jest zaznaczona, panel właściwości pokazuje:
 | Właściwość | Znaczenie |
 |------------|-----------|
 | Pozycja X / Pozycja Y | Współrzędne punktu kotwicy |
-| Wysokość | Podstawowa wysokość tekstu w jednostkach rysunkowych (domyślna: **12**) |
+| Wysokość | Bazowa wysokość w jednostkach rysunku, kopiowana z bieżącego StyluTekstu podczas tworzenia |
 | Stopnie obrotu | Obrót przeciwnie do ruchu wskazówek zegara w stopniach |
 
 **Właściwości**
@@ -113,6 +113,8 @@ Gdy etykieta tekstowa jest zaznaczona, panel właściwości pokazuje:
 
 Tekst nie ma właściwości Typ linii, Skala typu linii ani Grubość.
 
+Sekcja **Właściwości** zawiera także wyrównanie poziome, szerokość odniesienia, interlinię i ramkę.
+
 ## DXF — element MTEXT
 
-Etykiety tekstowe są przechowywane jako elementy **MTEXT** w plikach DXF. Pogrubienie i kursywa są kodowane za pomocą wbudowanego kodu przełącznika czcionki (`\f`); podkreślenie używa `\L`/`\l`; przekreślenie używa `\K`/`\k`. To formatowanie przetrwa pełny cykl DXF i jest czytelne przez LibreCAD, FreeCAD i inne aplikacje zgodne z DXF. Nadpisania czcionki dla poszczególnych znaków są zachowywane przy eksporcie — nadpisania wysokości dla poszczególnych znaków nie są; zapisywana jest tylko podstawowa wysokość etykiety.
+Etykiety są zapisywane jako encje **MTEXT**. Pogrubienie i kursywa używają `\f`, podkreślenie `\L`/`\l`, przekreślenie `\K`/`\k`, a wysokości znaków `\H`. Zachowywane są również szerokość odniesienia, interlinia, wyrównanie akapitu, obrót i punkt zaczepienia. Ramka jest eksportowana z flagą MTEXT i skalą obramowania zgodną z AutoCAD. Zobacz [StylTekstu](../text-style/) i [Menedżer czcionek](../font-manager/).

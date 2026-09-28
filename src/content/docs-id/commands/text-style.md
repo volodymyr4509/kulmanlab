@@ -16,12 +16,14 @@ Ketik `GayaTeks` atau klik **Gaya teks** pada panel anotasi. Tanda ✓ menunjukk
 
 | Bidang | Fungsi |
 |---|---|
-| Nama | Nama unik; `Standard` tidak dapat diganti |
-| Font / Tinggi | Jenis huruf dan tinggi tetap; `0` = ditentukan per teks |
+| Ganti nama | Gunakan pensil di samping nama untuk mengeditnya di daftar; `Standard` tidak dapat diganti namanya. |
+| Font / Tinggi | Jenis huruf dan tinggi positif wajib. Nilai nol atau negatif menjadi `1`; pengelola hanya menerima nilai di atas `0`. |
 | Tebal / Miring | Pemformatan yang dapat diaktifkan secara terpisah |
 | Spasi Baris | Jarak antarbaris |
 | Perataan Horizontal | Kiri, tengah, kanan, atau rata kiri-kanan |
 | Bingkai | Bingkai persegi panjang untuk teks baru |
+
+Pratinjau memakai perender yang sama dengan kanvas dan menampilkan dua baris. Font, tinggi, tebal, miring, bingkai, jarak baris, dan perataan langsung diperbarui; angka menunjukkan zoom penyesuaian. Gaya baru memakai perataan **kiri** secara default.
 
 **Baru** menggandakan gaya terpilih. **Hapus** tidak dapat menghapus `Standard` atau gaya aktif. **Jadikan aktif** hanya memengaruhi teks yang dibuat setelahnya; teks lama tidak berubah. Nama kosong, duplikat, atau tidak valid untuk DXF membuat **OK** tetap nonaktif. Gaya anotatif hasil impor disembunyikan, tetapi datanya tetap dipertahankan.
 

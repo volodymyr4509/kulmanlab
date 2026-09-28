@@ -29,6 +29,6 @@ Andika `MtindoWaKiongozi` au ubofye **Mtindo wa Kiongozi** kwenye paneli ya ufaf
 
 ## Kuhifadhi na DXF
 
-**Sawa** hutumia mabadiliko yote; **Funga** au `Escape` huyatupilia mbali. KulmanLab husoma na kuandika rekodi za `MLEADERSTYLE`. Jina, kichwa na ukubwa wa mshale, nafasi, urefu, kiambatisho, fremu na alama ya ufafanuzi huhifadhiwa kama sehemu za mtindo. Mzunguko, fonti, uzito na mlalo ni chaguo-msingi za KulmanLab zinazonakiliwa kwenye kiashiria kinapoundwa.
+KulmanLab huingiza na kusafirisha rekodi za `MLEADERSTYLE`. Jina, kichwa na ukubwa wa mshale, pengo la kutua, urefu, kiambatisho cha maandishi, fremu na alama ya ufafanuzi huhifadhiwa kama sehemu za mtindo. Wakati wa kusafirisha, kundi `342` huelekeza kwenye MtindoWaMaandishi wenye fonti, uzito, mlalo na urefu unaolingana; bila ulinganifu hutumia `Standard`. Marejeo haya ya DXF hayafanyi nakala ya mara moja kuwa kiungo hai. Thamani moja ya kiambatisho huandikwa kwenye sehemu za DXF za kushoto na kulia.
 
 Pia tazama [Leader](../leader/), [LeaderAdd](../leader-add/) na [LeaderRemove](../leader-remove/).

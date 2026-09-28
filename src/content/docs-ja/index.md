@@ -95,7 +95,7 @@ order: 1
 | [Angle](./commands/angle/) | 3 点間の角度を計測する |
 | [Area](./commands/area/) | 多角形の面積と周長を計測する |
 
-## 線
+## スタイル
 
 | コマンド | 機能 |
 |---------|------|
@@ -103,6 +103,8 @@ order: 1
 | [Font Manager](./commands/font-manager/) | フォントを閲覧・選択し、カスタム TTF フォントをアップロードする |
 | [FontAdd](./commands/font-add/) | カスタム TTF フォントをターミナルから直接アップロードする |
 | [Hatch Manager](./commands/hatch-manager/) | hatch パターンライブラリを閲覧し、.pat ファイルをアップロードする |
+| [TextStyle 文字スタイル](./commands/text-style/) | 新しい文字用の名前付き文字スタイルを作成・管理 |
+| [LeaderStyle 引き出し線スタイル](./commands/leader-style/) | 名前付きマルチ引出線スタイルを作成・管理 |
 
 ## ファイル
 

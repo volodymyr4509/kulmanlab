@@ -95,7 +95,7 @@ Selamat datang ke rujukan arahan **KulmanLab CAD**. [KulmanLab CAD](https://kulm
 | [Angle](./commands/angle/) | Ukur sudut antara tiga titik |
 | [Area](./commands/area/) | Ukur luas dan perimeter poligon |
 
-## Garisan
+## Gaya
 
 | Arahan | Fungsinya |
 |--------|-----------|
@@ -103,6 +103,8 @@ Selamat datang ke rujukan arahan **KulmanLab CAD**. [KulmanLab CAD](https://kulm
 | [Font Manager](./commands/font-manager/) | Semak imbas, pilih, dan muat naik fon TTF tersuai |
 | [FontAdd](./commands/font-add/) | Muat naik fon TTF kustom terus dari terminal |
 | [Hatch Manager](./commands/hatch-manager/) | Semak imbas pustaka corak hatch dan muat naik fail .pat |
+| [GayaTeks](./commands/text-style/) | Cipta dan urus gaya teks bernama untuk teks baharu |
+| [GayaPetunjuk](./commands/leader-style/) | Cipta dan urus gaya multileader bernama |
 
 ## Fail
 

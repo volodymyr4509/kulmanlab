@@ -19,7 +19,7 @@ Lihat halaman [Text Editor](../../interface/text-editor/) untuk rujukan editor p
 3. **Popup editor teks** terbuka di atas label baharu. Taip kandungan anda.
 4. Tekan **Escape** untuk komit label dan tutup editor.
 
-Ketinggian lalai adalah **12 unit lukisan**.
+Teks baharu menyalin fon, tinggi, tebal, condong, jarak baris, penjajaran mendatar dan bingkai daripada [GayaTeks](../text-style/) semasa. Gaya terbina dalam `Standard` menggunakan tinggi **1 unit lukisan** dan penjajaran kiri.
 
 ## Mengedit label sedia ada
 
@@ -101,7 +101,7 @@ Apabila label teks dipilih, panel sifat menunjukkan:
 | Sifat | Maksud |
 |-------|--------|
 | Position X / Position Y | Koordinat titik sauh |
-| Height | Ketinggian teks asas dalam unit lukisan (lalai: **12**) |
+| Height | Tinggi asas dalam unit lukisan, disalin daripada GayaTeks semasa ketika dicipta |
 | Rotation Degree | Putaran lawan arah jam dalam darjah |
 
 **Sifat**
@@ -113,6 +113,8 @@ Apabila label teks dipilih, panel sifat menunjukkan:
 
 Teks tidak mempunyai sifat Linetype, Linetype Scale, atau Thickness.
 
+Bahagian **Sifat** turut memaparkan penjajaran mendatar, lebar rujukan, jarak baris dan bingkai.
+
 ## DXF — entiti MTEXT
 
-Label teks disimpan sebagai entiti **MTEXT** dalam fail DXF. Tebal dan italik dikodkan melalui kod suis fon inline (`\f`); garis bawah menggunakan `\L`/`\l`; strikethrough menggunakan `\K`/`\k`. Pemformatan ini bertahan sepanjang pusingan DXF penuh dan boleh dibaca oleh LibreCAD, FreeCAD, dan aplikasi serasi DXF lain. Pengatasan fon setiap aksara dipelihara semasa eksport — pengatasan ketinggian setiap aksara tidak; hanya ketinggian asas label ditulis.
+Label disimpan sebagai entiti **MTEXT**. Tebal dan condong menggunakan `\f`, garis bawah `\L`/`\l`, coret `\K`/`\k`, dan tinggi setiap aksara menggunakan `\H`. Lebar rujukan, jarak baris, penjajaran perenggan, putaran dan lampiran turut dikekalkan. Bingkai dieksport dengan bendera bingkai MTEXT dan skala sempadan yang serasi dengan AutoCAD. Lihat [GayaTeks](../text-style/) dan [Pengurus Fon](../font-manager/).

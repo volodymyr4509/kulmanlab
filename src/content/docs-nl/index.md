@@ -95,7 +95,7 @@ Welkom bij de **KulmanLab CAD**-opdrachtreferentie. [KulmanLab CAD](https://kulm
 | [Angle](./commands/angle/) | Meet de hoek tussen drie punten |
 | [Area](./commands/area/) | Meet de oppervlakte en omtrek van een veelhoek |
 
-## Lijn
+## Stijlen
 
 | Commando | Wat het doet |
 |---------|-------------|
@@ -103,6 +103,8 @@ Welkom bij de **KulmanLab CAD**-opdrachtreferentie. [KulmanLab CAD](https://kulm
 | [Font Manager](./commands/font-manager/) | Blader door, selecteer en upload aangepaste TTF-lettertypen |
 | [FontAdd](./commands/font-add/) | Upload een aangepast TTF-lettertype rechtstreeks vanuit de terminal |
 | [Hatch Manager](./commands/hatch-manager/) | Blader door de hatch-patroonbibliotheek en upload .pat-bestanden |
+| [Tekststijl](./commands/text-style/) | Benoemde tekststijlen voor nieuwe tekst maken en beheren |
+| [Aanwijsstijl](./commands/leader-style/) | Benoemde multileaderstijlen maken en beheren |
 
 ## Bestand
 

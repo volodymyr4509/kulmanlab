@@ -19,7 +19,7 @@ Consulta la página del [Editor de Texto](../../interface/text-editor/) para la 
 3. El **editor de texto emergente** se abre sobre la nueva etiqueta. Escribe tu contenido.
 4. Pulsa **Escape** para confirmar la etiqueta y cerrar el editor.
 
-La altura predeterminada es de **12 unidades de dibujo**.
+El texto nuevo copia fuente, altura, negrita, cursiva, interlineado, alineación horizontal y marco del [EstiloTexto](../text-style/) actual. El estilo integrado `Standard` usa una altura de **1 unidad de dibujo** y alineación izquierda.
 
 ## Editar una etiqueta existente
 
@@ -101,7 +101,7 @@ Cuando una etiqueta de texto está seleccionada, el panel de propiedades muestra
 | Propiedad | Significado |
 |-----------|-------------|
 | Position X / Position Y | Coordenadas del punto de anclaje |
-| Height | Altura base del texto en unidades de dibujo (predeterminado: **12**) |
+| Altura | Altura base en unidades de dibujo, copiada del EstiloTexto actual al crear el texto |
 | Rotation Degree | Rotación antihoraria en grados |
 
 **Propiedades**
@@ -113,6 +113,8 @@ Cuando una etiqueta de texto está seleccionada, el panel de propiedades muestra
 
 Text no tiene propiedades Linetype, Linetype Scale ni Thickness.
 
+La sección **Propiedades** también incluye alineación horizontal, anchura de referencia, interlineado y marco.
+
 ## DXF — entidad MTEXT
 
-Las etiquetas de texto se almacenan como entidades **MTEXT** en el archivo DXF. La negrita y la cursiva se codifican mediante un código de conmutador de fuente en línea (`\f`); el subrayado usa `\L`/`\l`; el tachado usa `\K`/`\k`. Este formato sobrevive a un ciclo completo de DXF y es legible por LibreCAD, FreeCAD y otras aplicaciones compatibles con DXF. Las anulaciones de fuente por carácter se conservan al exportar — las anulaciones de altura por carácter no; solo se escribe la altura base de la etiqueta.
+Las etiquetas se guardan como entidades **MTEXT**. Negrita y cursiva usan `\f`, subrayado `\L`/`\l`, tachado `\K`/`\k` y las alturas por carácter usan `\H`. También se conservan la anchura de referencia, el interlineado, la alineación de párrafo, la rotación y el punto de enlace. El marco se exporta con el indicador de marco MTEXT y una escala de borde compatible con AutoCAD. Consulte [EstiloTexto](../text-style/) y [Administrador de fuentes](../font-manager/).

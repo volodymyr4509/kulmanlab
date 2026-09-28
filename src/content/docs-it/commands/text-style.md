@@ -21,15 +21,15 @@ Gli stili visibili sono elencati a sinistra e le proprietà dello stile selezion
 
 | Campo | Funzione |
 |-------|----------|
-| Nome | Nome univoco. `Standard` non può essere rinominato. |
+| Rinomina | Usa la matita accanto al nome per modificarlo nell’elenco; `Standard` non può essere rinominato. |
 | Carattere | Tipo di carattere dall'elenco del [Gestore caratteri](../font-manager/). |
-| Altezza | Altezza fissa; `0` significa **Impostata per testo**. |
+| Altezza | Altezza positiva obbligatoria. I valori zero o negativi diventano `1`; il gestore accetta solo valori maggiori di `0`. |
 | Grassetto / Corsivo | Attiva separatamente ciascun formato. |
 | Interlinea | Moltiplicatore dello spazio tra le righe. |
 | Allineamento orizzontale | Predefinito: sinistra, centro, destra o giustificato. |
 | Cornice | Disegna una cornice rettangolare attorno al nuovo testo. |
 
-L'anteprima mostra carattere, peso e inclinazione. Cornice, interlinea e allineamento si applicano al testo creato in seguito. I nomi vuoti, duplicati o non validi per DXF vengono rifiutati e **OK** resta disabilitato.
+L’anteprima disegna un pangramma su due righe con lo stesso renderer dell’area di disegno. Font, altezza, grassetto, corsivo, cornice, interlinea e allineamento si aggiornano subito; l’indicatore mostra lo zoom di adattamento. I nuovi stili sono allineati **a sinistra** per impostazione predefinita.
 
 Gli stili annotativi importati da DXF sono attualmente nascosti perché la scala annotativa non è ancora visualizzata. I relativi record vengono conservati.
 

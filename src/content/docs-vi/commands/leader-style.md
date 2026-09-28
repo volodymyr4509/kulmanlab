@@ -29,6 +29,6 @@ Nhập `KiểuĐườngDẫn` hoặc bấm **Kiểu đường dẫn** trong bả
 
 ## Lưu và DXF
 
-**OK** áp dụng mọi thay đổi; **Đóng** hoặc `Escape` hủy chúng. KulmanLab đọc và ghi bản ghi `MLEADERSTYLE`. Tên, đầu và cỡ mũi tên, khoảng hở, chiều cao, điểm gắn, khung và cờ chú thích được lưu dưới dạng trường của kiểu. Góc xoay, phông, đậm và nghiêng là giá trị mặc định của KulmanLab được sao chép vào đường dẫn khi tạo.
+KulmanLab nhập và xuất bản ghi `MLEADERSTYLE`. Tên, đầu và cỡ mũi tên, khoảng hở, chiều cao, đính kèm văn bản, khung và cờ chú thích được bảo toàn như các trường của kiểu. Khi xuất, nhóm `342` trỏ đến KiểuChữ có phông, đậm, nghiêng và chiều cao khớp; nếu không khớp thì dùng `Standard`. Tham chiếu DXF này không biến thao tác sao chép một lần trong ứng dụng thành liên kết trực tiếp. Một giá trị đính kèm được ghi vào cả trường DXF trái và phải.
 
 Xem thêm [Leader](../leader/), [LeaderAdd](../leader-add/) và [LeaderRemove](../leader-remove/).

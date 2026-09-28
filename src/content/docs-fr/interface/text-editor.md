@@ -142,4 +142,4 @@ Les sauts de ligne durs et le formatage par caractère sont stockés en utilisan
 
 ## Compatibilité DXF
 
-Les entités de texte sont stockées comme **MTEXT** dans les fichiers DXF. Le gras et l'italique sont encodés via un code de commutation de police en ligne (`\f`) ; le souligné utilise `\L`/`\l` ; le barré utilise `\K`/`\k`. Ce formatage survit à un cycle DXF complet et est lisible par LibreCAD, FreeCAD et autres applications compatibles DXF. Les substitutions de police par caractère sont préservées à l'export — les substitutions de hauteur par caractère ne le sont pas ; seule la hauteur de base de l'entité est écrite.
+Les libellés sont stockés sous forme d’entités **MTEXT**. Gras et italique utilisent `\f`, le soulignement `\L`/`\l`, le barré `\K`/`\k` et les hauteurs par caractère `\H`. Largeur de référence, interligne, alignement de paragraphe, rotation et attache sont également conservés. Le cadre est exporté avec l’indicateur MTEXT et une échelle de bord compatible AutoCAD. Voir [StyleTexte](../text-style/) et [Gestionnaire de polices](../font-manager/).

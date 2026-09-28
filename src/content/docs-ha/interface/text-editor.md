@@ -142,4 +142,4 @@ Ana ajiye karyewar layi kashi da tsari ga kowane harafi ta amfani da tsarin MTEX
 
 ## Dacewa da DXF
 
-Ana ajiye alamun rubutu a matsayin **MTEXT** a fayilolin DXF. Ana kodada mai-nauyi da karkatacce ta hanyar lambar sauya font a ciki (`\f`); layin ƙasa yana amfani da `\L`/`\l`; kan-tsallake yana amfani da `\K`/`\k`. Wannan tsari yana wanzuwa cikakken juyawar DXF kuma ana iya karanta shi ta LibreCAD, FreeCAD, da wasu manhajoji masu dacewa da DXF. Ana kiyaye canjin font ga kowane harafi a fitarwa — ba a kiyaye canjin tsayi ga kowane harafi ba; tsayin asali na abin ne kawai ake rubutawa.
+Ana adana lakabin rubutu a matsayin abubuwan **MTEXT**. Kauri da karkata suna amfani da `\f`, layin ƙasa `\L`/`\l`, layin tsakiya `\K`/`\k`, kuma tsayin kowace alama yana amfani da `\H`. Faɗin tunani, tazarar layi, daidaitawar sakin layi, juyawa da haɗawa ma suna nan. Ana fitar da firam da alamar firam ta MTEXT da ma’aunin iyaka mai dacewa da AutoCAD. Duba [SalonRubutu](../text-style/) da [Mai sarrafa font](../font-manager/).

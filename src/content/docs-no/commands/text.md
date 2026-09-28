@@ -19,7 +19,7 @@ Se [Tekstredigering](../../interface/text-editor/)-siden for den fullstendige ed
 3. **Teksteditor-popupen** åpnes over den nye etiketten. Skriv innholdet ditt.
 4. Trykk **Escape** for å bekrefte etiketten og lukke editoren.
 
-Standardhøyden er **12 tegneenheter**.
+Ny tekst kopierer skrifttype, høyde, fet, kursiv, linjeavstand, vannrett justering og ramme fra gjeldende [Tekststil](../text-style/). Den innebygde stilen `Standard` bruker høyde **1 tegneenhet** og venstrejustering.
 
 ## Redigere en eksisterende etikett
 
@@ -101,7 +101,7 @@ Når en tekstetikett er markert, viser egenskapspanelet:
 | Egenskap | Betydning |
 |----------|---------|
 | Position X / Position Y | Koordinater for ankerpunktet |
-| Height | Grunnleggende teksthøyde i tegneenheter (standard: **12**) |
+| Height | Grunnhøyde i tegneenheter, kopiert fra gjeldende Tekststil ved oppretting |
 | Rotation Degree | Rotasjon mot klokken i grader |
 
 **Egenskaper**
@@ -113,6 +113,8 @@ Når en tekstetikett er markert, viser egenskapspanelet:
 
 Text har ikke Linetype-, Linetype Scale- eller Thickness-egenskaper.
 
+Under **Egenskaper** vises også vannrett justering, referansebredde, linjeavstand og ramme.
+
 ## DXF — MTEXT-entitet
 
-Tekstetiketter lagres som **MTEXT**-entiteter i DXF-filen. Fet og kursiv kodes med `\L`, `\K`, `\O` og innebygde skriftbytter (`\f`). Per-tegn høyde kodes som `\H`. All formatering overlever en fullstendig DXF-rundtur og kan leses av LibreCAD, FreeCAD og andre DXF-kompatible applikasjoner.
+Tekstetiketter lagres som **MTEXT**. Fet og kursiv bruker `\f`, understreking `\L`/`\l`, gjennomstreking `\K`/`\k` og tegnvise høyder `\H`. Referansebredde, linjeavstand, avsnittsjustering, rotasjon og tilknytning bevares også. Ramme eksporteres med MTEXT-rammeflagget og en AutoCAD-kompatibel kantskala. Se [Tekststil](../text-style/) og [Skriftbehandling](../font-manager/).

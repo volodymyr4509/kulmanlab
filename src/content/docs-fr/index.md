@@ -95,7 +95,7 @@ Bienvenue dans la référence des commandes **KulmanLab CAD**. [KulmanLab CAD](h
 | [Angle](./commands/angle/) | Mesure l'angle entre trois points |
 | [Area](./commands/area/) | Mesure l'aire et le périmètre d'un polygone |
 
-## Contour
+## Styles
 
 | Commande | Ce qu'elle fait |
 |----------|----------------|
@@ -103,6 +103,8 @@ Bienvenue dans la référence des commandes **KulmanLab CAD**. [KulmanLab CAD](h
 | [Font Manager](./commands/font-manager/) | Parcourez, sélectionnez et téléversez des polices TTF personnalisées |
 | [FontAdd](./commands/font-add/) | Téléversez une police TTF personnalisée directement depuis le terminal |
 | [Hatch Manager](./commands/hatch-manager/) | Parcourez la bibliothèque de motifs de hachures et téléversez des fichiers .pat |
+| [StyleTexte](./commands/text-style/) | Créer et gérer des styles de texte nommés pour les nouveaux textes |
+| [StyleRepère](./commands/leader-style/) | Créer et gérer des styles de lignes de repère multiples |
 
 ## Fichier
 

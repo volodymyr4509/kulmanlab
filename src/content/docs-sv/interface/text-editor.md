@@ -142,4 +142,4 @@ Hårda radbrytningar och formatering per tecken lagras med MTEXT-formatet och ö
 
 ## DXF-kompatibilitet
 
-Textentiteter lagras som **MTEXT** i DXF-filer. Fet och kursiv stil kodas via en infogad typsnittsväxlingskod (`\f`); understruken använder `\L`/`\l`; genomstruken använder `\K`/`\k`. Denna formatering överlever en fullständig DXF-rundtur och är läsbar av LibreCAD, FreeCAD och andra DXF-kompatibla applikationer. Åsidosättningar av typsnitt per tecken bevaras vid export — åsidosättningar av höjd per tecken gör det inte; endast entitetens grundhöjd skrivs.
+Textetiketter lagras som **MTEXT**. Fetstil och kursiv använder `\f`, understrykning `\L`/`\l`, genomstrykning `\K`/`\k` och teckenvisa höjder `\H`. Referensbredd, radavstånd, styckejustering, rotation och fästpunkt bevaras också. Ram exporteras med MTEXT-ramflaggan och en AutoCAD-kompatibel kantskala. Se [Textstil](../text-style/) och [Teckensnittshanteraren](../font-manager/).

@@ -95,7 +95,7 @@ Velkommen til **KulmanLab CAD**s kommandoreferanse. [KulmanLab CAD](https://kulm
 | [Angle](./commands/angle/) | Mål vinkelen mellom tre punkter |
 | [Area](./commands/area/) | Mål arealet og omkretsen av en polygon |
 
-## Strek
+## Stiler
 
 | Kommando | Hva den gjør |
 |---------|-------------|
@@ -103,6 +103,8 @@ Velkommen til **KulmanLab CAD**s kommandoreferanse. [KulmanLab CAD](https://kulm
 | [Font Manager](./commands/font-manager/) | Bla gjennom, velg og last opp egne TTF-skrifttyper |
 | [FontAdd](./commands/font-add/) | Last opp en egendefinert TTF-skrift direkte fra terminalen |
 | [Hatch Manager](./commands/hatch-manager/) | Bla gjennom hatch-mønsterbiblioteket og last opp .pat-filer |
+| [Tekststil](./commands/text-style/) | Opprett og administrer navngitte tekststiler for ny tekst |
+| [Ledelinjestil](./commands/leader-style/) | Opprett og administrer navngitte multilederstiler |
 
 ## Fil
 

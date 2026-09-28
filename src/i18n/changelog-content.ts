@@ -5,7 +5,291 @@ export type Release = {
   highlights: string[];
 };
 
+const latestReleaseTranslations: Record<string, { title: string; highlights: string[] }> = {
+  de: {
+    title: 'Benannte Text- und Führungslinienstile mit besserer AutoCAD-DXF-Kompatibilität',
+    highlights: [
+      'Neue Textstil- und Führungslinienstil-Manager erstellen, duplizieren, benennen um, löschen und zeigen benannte Stile in einer Vorschau; außerdem wählen sie den aktuellen Stil für neue Beschriftungen.',
+      'Textstile enthalten jetzt Schrift, positive Höhe, Fett, Kursiv, Zeilenabstand, horizontale Ausrichtung und Rahmen; neuer Text kopiert den aktuellen Stil ohne dauerhafte Verknüpfung.',
+      'MLEADERSTYLE wird jetzt mit passenden Textstil-Referenzen importiert und exportiert; die Textanbindung wird für Führungslinien auf beiden Seiten konsistent geschrieben.',
+      'Der AutoCAD-Export von MTEXT-Rahmen wurde korrigiert; beide Stildialoge erhielten echte Renderer-Vorschauen, direkte Umbenennung, Anpassungszoom und einen sicheren Umgang mit annotativen Stilen.',
+    ],
+  },
+  es: {
+    title: 'Estilos de texto y directriz con nombre y mejor compatibilidad DXF con AutoCAD',
+    highlights: [
+      'Los nuevos administradores EstiloTexto y EstiloGuía permiten crear, duplicar, cambiar, eliminar, previsualizar y elegir el estilo actual para las anotaciones nuevas.',
+      'Los estilos de texto incluyen fuente, altura positiva, negrita, cursiva, interlineado, alineación horizontal y marco; el texto nuevo copia el estilo actual sin mantener un vínculo activo.',
+      'MLEADERSTYLE ahora se importa y exporta con referencias al estilo de texto coincidente, y el enlace de texto se escribe de forma coherente para directrices a ambos lados.',
+      'Corregida la exportación de marcos MTEXT para AutoCAD y mejorados ambos diálogos con vistas previas del renderizador real, cambio de nombre directo, zoom de ajuste y manejo seguro de estilos anotativos.',
+    ],
+  },
+  fr: {
+    title: 'Styles de texte et de repère nommés, avec une meilleure compatibilité DXF AutoCAD',
+    highlights: [
+      'Les nouveaux gestionnaires StyleTexte et StyleRepère permettent de créer, dupliquer, renommer, supprimer et prévisualiser les styles nommés, puis de choisir le style courant des nouvelles annotations.',
+      'Les styles de texte comprennent désormais police, hauteur positive, gras, italique, interligne, alignement horizontal et cadre ; le nouveau texte copie le style courant sans liaison dynamique.',
+      'MLEADERSTYLE est maintenant importé et exporté avec la référence au style de texte correspondant, et l’attache du texte est écrite de façon cohérente pour les repères des deux côtés.',
+      'Correction de l’export des cadres MTEXT vers AutoCAD et amélioration des deux boîtes de dialogue avec aperçu réel, renommage direct, zoom d’ajustement et gestion sûre des styles annotatifs.',
+    ],
+  },
+  it: {
+    title: 'Stili di testo e guida con nome e migliore compatibilità DXF con AutoCAD',
+    highlights: [
+      'I nuovi gestori StileTesto e StileGuida consentono di creare, duplicare, rinominare, eliminare, vedere in anteprima e scegliere lo stile corrente per le nuove annotazioni.',
+      'Gli stili di testo includono font, altezza positiva, grassetto, corsivo, interlinea, allineamento orizzontale e cornice; il nuovo testo copia lo stile corrente senza mantenere un collegamento attivo.',
+      'MLEADERSTYLE ora viene importato ed esportato con riferimenti allo stile di testo corrispondente e l’attacco del testo viene scritto in modo coerente per le guide su entrambi i lati.',
+      'Corretta l’esportazione dei riquadri MTEXT verso AutoCAD e migliorate entrambe le finestre con anteprime del renderer reale, rinomina diretta, zoom di adattamento e gestione sicura degli stili annotativi.',
+    ],
+  },
+  pt: {
+    title: 'Estilos nomeados de texto e chamada, com melhor compatibilidade DXF no AutoCAD',
+    highlights: [
+      'Os novos gerenciadores EstiloTexto e EstiloGuia criam, duplicam, renomeiam, excluem, visualizam e selecionam o estilo atual para novas anotações.',
+      'Estilos de texto agora incluem fonte, altura positiva, negrito, itálico, espaçamento, alinhamento horizontal e moldura; o novo texto copia o estilo atual sem vínculo permanente.',
+      'MLEADERSTYLE agora é importado e exportado com referências ao estilo de texto correspondente, e a fixação é gravada de forma consistente para chamadas em ambos os lados.',
+      'Corrigida a exportação de molduras MTEXT para AutoCAD e aprimorados os dois diálogos com visualização real, renomeação direta, zoom de ajuste e tratamento seguro de estilos anotativos.',
+    ],
+  },
+  uk: {
+    title: 'Іменовані стилі тексту й виносок та краща сумісність DXF з AutoCAD',
+    highlights: [
+      'Нові менеджери СтильТексту і СтильВиноски створюють, дублюють, перейменовують, видаляють і попередньо показують іменовані стилі та вибирають поточний стиль нових анотацій.',
+      'Стилі тексту тепер містять шрифт, додатну висоту, жирність, курсив, міжрядковий інтервал, горизонтальне вирівнювання й рамку; новий текст копіює поточний стиль без постійного зв’язку.',
+      'MLEADERSTYLE тепер імпортується й експортується з посиланням на відповідний стиль тексту, а прив’язка записується однаково для виносок з обох боків.',
+      'Виправлено експорт рамок MTEXT для AutoCAD і вдосконалено обидва діалоги: справжній попередній перегляд, перейменування у списку, масштаб вписування та безпечна обробка анотативних стилів.',
+    ],
+  },
+  tr: {
+    title: 'Adlandırılmış metin ve lider stilleriyle daha güçlü AutoCAD DXF uyumluluğu',
+    highlights: [
+      'Yeni MetinStili ve LiderStili yöneticileri adlandırılmış stilleri oluşturur, çoğaltır, yeniden adlandırır, siler, önizler ve yeni açıklamalar için geçerli stili seçer.',
+      'Metin stilleri artık yazı tipi, pozitif yükseklik, kalın, italik, satır aralığı, yatay hizalama ve çerçeve içeriyor; yeni metin geçerli stili canlı bağlantı olmadan kopyalıyor.',
+      'MLEADERSTYLE artık eşleşen metin stili başvurularıyla içe ve dışa aktarılıyor; metin eki her iki taraftaki liderler için tutarlı yazılıyor.',
+      'AutoCAD MTEXT çerçeve dışa aktarımı düzeltildi; iki stil penceresi gerçek önizleme, listede yeniden adlandırma, sığdırma yakınlaştırması ve güvenli açıklayıcı stil işlemleriyle geliştirildi.',
+    ],
+  },
+  zh: {
+    title: '命名文字和引线样式，以及更强的 AutoCAD DXF 兼容性',
+    highlights: [
+      '新的文字样式和引线样式管理器可创建、复制、重命名、删除和预览命名样式，并为新注释选择当前样式。',
+      '文字样式现在包含字体、正数高度、粗体、斜体、行距、水平对齐和边框；新文字会复制当前样式，但不会保持实时链接。',
+      'MLEADERSTYLE 现在会使用匹配的文字样式引用进行导入和导出，并为左右两侧的引线一致写入文字附着值。',
+      '修复了 AutoCAD MTEXT 边框导出；两个样式对话框增加真实渲染预览、列表内重命名、适配缩放和更安全的注释性样式处理。',
+    ],
+  },
+  hi: {
+    title: 'नामित पाठ और लीडर शैलियाँ, बेहतर AutoCAD DXF संगतता के साथ',
+    highlights: [
+      'नए पाठ शैली और लीडर शैली प्रबंधक नामित शैलियाँ बनाते, कॉपी करते, नाम बदलते, मिटाते और उनका पूर्वावलोकन करते हैं तथा नई टिप्पणियों के लिए वर्तमान शैली चुनते हैं।',
+      'पाठ शैलियों में अब फ़ॉन्ट, धनात्मक ऊँचाई, बोल्ड, इटैलिक, पंक्ति-अंतर, क्षैतिज संरेखण और फ़्रेम शामिल हैं; नया टेक्स्ट सक्रिय लिंक रखे बिना वर्तमान शैली कॉपी करता है।',
+      'MLEADERSTYLE अब मेल खाती पाठ-शैली संदर्भों के साथ आयात और निर्यात होता है तथा दोनों ओर के लीडर के लिए टेक्स्ट अटैचमेंट समान रूप से लिखा जाता है।',
+      'AutoCAD MTEXT फ़्रेम निर्यात ठीक किया गया और दोनों शैली विंडो को वास्तविक पूर्वावलोकन, सूची में नाम बदलने, फ़िट ज़ूम और एनोटेटिव शैलियों के सुरक्षित प्रबंधन से सुधारा गया।',
+    ],
+  },
+  ar: {
+    title: 'أنماط نص وخطوط رائدة مسماة مع توافق DXF أفضل مع AutoCAD',
+    highlights: [
+      'يتيح مديرا نمط النص ونمط الخط الرائد الجديدان إنشاء الأنماط المسماة ونسخها وإعادة تسميتها وحذفها ومعاينتها واختيار النمط الحالي للتعليقات الجديدة.',
+      'تشمل أنماط النص الآن الخط والارتفاع الموجب والعريض والمائل وتباعد الأسطر والمحاذاة الأفقية والإطار؛ وينسخ النص الجديد النمط الحالي من دون ارتباط حي.',
+      'يُستورد MLEADERSTYLE ويُصدّر الآن مع مراجع نمط النص المطابقة، وتُكتب قيمة ارتباط النص بصورة متسقة للخطوط الرائدة على الجانبين.',
+      'أُصلح تصدير إطار MTEXT إلى AutoCAD، وحُسّنت نافذتا الأنماط بمعاينة فعلية وإعادة تسمية داخل القائمة وتكبير ملائم ومعالجة آمنة للأنماط التوضيحية.',
+    ],
+  },
+  id: {
+    title: 'Gaya teks dan leader bernama dengan kompatibilitas DXF AutoCAD yang lebih baik',
+    highlights: [
+      'Pengelola GayaTeks dan GayaPetunjuk baru dapat membuat, menggandakan, mengganti nama, menghapus, mempratinjau, dan memilih gaya aktif untuk anotasi baru.',
+      'Gaya teks kini mencakup font, tinggi positif, tebal, miring, jarak baris, perataan horizontal, dan bingkai; teks baru menyalin gaya aktif tanpa tautan langsung.',
+      'MLEADERSTYLE kini diimpor dan diekspor dengan referensi gaya teks yang cocok, dan lampiran teks ditulis konsisten untuk leader di kedua sisi.',
+      'Ekspor bingkai MTEXT ke AutoCAD diperbaiki dan kedua dialog gaya dipoles dengan pratinjau renderer asli, ganti nama langsung, zoom penyesuaian, dan penanganan gaya anotatif yang aman.',
+    ],
+  },
+  ja: {
+    title: '名前付き文字・引出線スタイルと AutoCAD DXF 互換性の向上',
+    highlights: [
+      '新しい文字スタイル／引出線スタイル管理で、名前付きスタイルの作成、複製、名前変更、削除、プレビュー、および新規注釈の現在スタイル選択ができます。',
+      '文字スタイルにフォント、正の高さ、太字、斜体、行間、水平配置、枠が加わり、新しい文字はライブリンクを残さず現在のスタイルをコピーします。',
+      'MLEADERSTYLE は一致する文字スタイル参照とともに読み書きされ、左右どちらの引出線でも文字アタッチが一貫して書き込まれます。',
+      'AutoCAD 向け MTEXT 枠の書き出しを修正し、両スタイル画面に実レンダラーのプレビュー、一覧内の名前変更、フィット倍率、異尺度対応スタイルの安全な処理を追加しました。',
+    ],
+  },
+  pl: {
+    title: 'Nazwane style tekstu i odnośników oraz lepsza zgodność DXF z AutoCAD',
+    highlights: [
+      'Nowe menedżery StylTekstu i StylOdniesienia tworzą, powielają, zmieniają nazwy, usuwają i podglądają style oraz wybierają styl bieżący dla nowych opisów.',
+      'Style tekstu obejmują teraz czcionkę, dodatnią wysokość, pogrubienie, kursywę, interlinię, wyrównanie poziome i ramkę; nowy tekst kopiuje styl bieżący bez aktywnego połączenia.',
+      'MLEADERSTYLE jest teraz importowany i eksportowany z odwołaniem do pasującego stylu tekstu, a zaczepienie jest zapisywane spójnie dla odnośników po obu stronach.',
+      'Naprawiono eksport ramek MTEXT do AutoCAD oraz ulepszono oba okna stylów o rzeczywisty podgląd, zmianę nazwy na liście, skalę dopasowania i bezpieczną obsługę stylów opisowych.',
+    ],
+  },
+  ko: {
+    title: '명명된 텍스트·지시선 스타일과 향상된 AutoCAD DXF 호환성',
+    highlights: [
+      '새 텍스트 스타일 및 지시선 스타일 관리자는 명명된 스타일을 만들고, 복제하고, 이름을 바꾸고, 삭제하고, 미리 보며 새 주석의 현재 스타일을 선택합니다.',
+      '텍스트 스타일에 글꼴, 양수 높이, 굵게, 기울임꼴, 줄 간격, 가로 정렬 및 프레임이 포함되며 새 텍스트는 실시간 연결 없이 현재 스타일을 복사합니다.',
+      'MLEADERSTYLE을 일치하는 텍스트 스타일 참조와 함께 가져오고 내보내며 양쪽 지시선의 텍스트 부착 값을 일관되게 기록합니다.',
+      'AutoCAD MTEXT 프레임 내보내기를 수정하고 두 스타일 창에 실제 렌더러 미리보기, 목록 내 이름 바꾸기, 맞춤 확대/축소 및 안전한 주석 스타일 처리를 추가했습니다.',
+    ],
+  },
+  vi: {
+    title: 'Kiểu chữ và đường dẫn có tên, cùng khả năng tương thích DXF AutoCAD tốt hơn',
+    highlights: [
+      'Trình quản lý KiểuChữ và KiểuĐườngDẫn mới cho phép tạo, nhân bản, đổi tên, xóa, xem trước và chọn kiểu hiện hành cho chú thích mới.',
+      'Kiểu chữ nay gồm phông, chiều cao dương, đậm, nghiêng, giãn dòng, căn ngang và khung; văn bản mới sao chép kiểu hiện hành nhưng không giữ liên kết trực tiếp.',
+      'MLEADERSTYLE nay được nhập và xuất cùng tham chiếu kiểu chữ khớp, còn giá trị đính kèm được ghi nhất quán cho đường dẫn ở cả hai phía.',
+      'Đã sửa xuất khung MTEXT sang AutoCAD và cải thiện cả hai hộp thoại bằng xem trước thực, đổi tên trong danh sách, thu phóng vừa khung và xử lý an toàn kiểu chú thích.',
+    ],
+  },
+  th: {
+    title: 'สไตล์ข้อความและเส้นชี้แบบมีชื่อ พร้อมความเข้ากันได้กับ AutoCAD DXF ที่ดีขึ้น',
+    highlights: [
+      'ตัวจัดการรูปแบบข้อความและรูปแบบเส้นชี้ใหม่สร้าง ทำสำเนา เปลี่ยนชื่อ ลบ แสดงตัวอย่าง และเลือกสไตล์ปัจจุบันสำหรับคำอธิบายประกอบใหม่ได้',
+      'สไตล์ข้อความมีฟอนต์ ความสูงบวก ตัวหนา ตัวเอียง ระยะบรรทัด การจัดแนวนอน และกรอบ ข้อความใหม่คัดลอกสไตล์ปัจจุบันโดยไม่ผูกแบบสด',
+      'MLEADERSTYLE นำเข้าและส่งออกพร้อมการอ้างอิงสไตล์ข้อความที่ตรงกัน และเขียนค่าจุดยึดข้อความอย่างสม่ำเสมอสำหรับเส้นชี้ทั้งสองด้าน',
+      'แก้ไขการส่งออกกรอบ MTEXT ไปยัง AutoCAD และปรับปรุงหน้าต่างสไตล์ทั้งสองด้วยตัวอย่างจริง การเปลี่ยนชื่อในรายการ ซูมพอดี และการจัดการสไตล์คำอธิบายประกอบอย่างปลอดภัย',
+    ],
+  },
+  ms: {
+    title: 'Gaya teks dan penunjuk bernama dengan keserasian DXF AutoCAD yang lebih baik',
+    highlights: [
+      'Pengurus GayaTeks dan GayaPetunjuk baharu boleh mencipta, menduplikasi, menamakan semula, memadam, pratonton dan memilih gaya semasa untuk anotasi baharu.',
+      'Gaya teks kini merangkumi fon, tinggi positif, tebal, condong, jarak baris, penjajaran mendatar dan bingkai; teks baharu menyalin gaya semasa tanpa pautan langsung.',
+      'MLEADERSTYLE kini diimport dan dieksport dengan rujukan gaya teks yang sepadan, dan lampiran teks ditulis secara konsisten untuk penunjuk di kedua-dua sisi.',
+      'Eksport bingkai MTEXT ke AutoCAD diperbaiki dan kedua-dua dialog gaya diperkemas dengan pratonton sebenar, penamaan semula dalam senarai, zum muat dan pengendalian gaya anotatif yang selamat.',
+    ],
+  },
+  bn: {
+    title: 'নামযুক্ত টেক্সট ও লিডার স্টাইল এবং উন্নত AutoCAD DXF সামঞ্জস্য',
+    highlights: [
+      'নতুন টেক্সট স্টাইল ও লিডার স্টাইল ম্যানেজার নামযুক্ত স্টাইল তৈরি, নকল, নাম পরিবর্তন, মুছে ফেলা, প্রিভিউ এবং নতুন অ্যানোটেশনের বর্তমান স্টাইল নির্বাচন করতে পারে।',
+      'টেক্সট স্টাইলে এখন ফন্ট, ধনাত্মক উচ্চতা, বোল্ড, ইটালিক, লাইন ব্যবধান, অনুভূমিক সারিবদ্ধতা ও ফ্রেম রয়েছে; নতুন টেক্সট লাইভ লিংক ছাড়াই বর্তমান স্টাইল কপি করে।',
+      'MLEADERSTYLE এখন মিল থাকা টেক্সট স্টাইল রেফারেন্সসহ আমদানি ও রপ্তানি হয় এবং উভয় পাশের লিডারের জন্য সংযুক্তি একইভাবে লেখা হয়।',
+      'AutoCAD MTEXT ফ্রেম রপ্তানি ঠিক করা হয়েছে এবং উভয় স্টাইল উইন্ডোতে বাস্তব প্রিভিউ, তালিকায় নাম পরিবর্তন, ফিট জুম ও অ্যানোটেটিভ স্টাইলের নিরাপদ ব্যবস্থাপনা যোগ হয়েছে।',
+    ],
+  },
+  sw: {
+    title: 'Mitindo yenye majina ya maandishi na viongozi, pamoja na uoanifu bora wa AutoCAD DXF',
+    highlights: [
+      'Vidhibiti vipya vya MtindoWaMaandishi na MtindoWaKiongozi huunda, hunakili, hubadilisha jina, hufuta, huonyesha hakikisho na huchagua mtindo wa sasa wa maelezo mapya.',
+      'Mitindo ya maandishi sasa ina fonti, urefu chanya, nzito, mlalo, nafasi ya mistari, mpangilio mlalo na fremu; maandishi mapya hunakili mtindo wa sasa bila kiungo hai.',
+      'MLEADERSTYLE sasa huingizwa na kusafirishwa pamoja na marejeo ya mtindo wa maandishi unaolingana, na kiambatisho huandikwa sawa kwa viongozi wa pande zote.',
+      'Usafirishaji wa fremu ya MTEXT kwenda AutoCAD umerekebishwa na madirisha yote mawili yameboreshwa kwa hakikisho halisi, kubadilisha jina kwenye orodha, ukuzaji wa kutoshea na utunzaji salama wa mitindo fafanuzi.',
+    ],
+  },
+  ur: {
+    title: 'نام والے متن اور رہنما انداز، بہتر AutoCAD DXF مطابقت کے ساتھ',
+    highlights: [
+      'نئے متن اور رہنما انداز منتظم نام والے انداز بناتے، نقل کرتے، نام بدلتے، حذف کرتے، پیش منظر دکھاتے اور نئی تشریحات کے لیے موجودہ انداز منتخب کرتے ہیں۔',
+      'متن کے انداز میں اب فونٹ، مثبت اونچائی، موٹا، ترچھا، سطروں کا فاصلہ، افقی سیدھ اور فریم شامل ہیں؛ نیا متن زندہ ربط کے بغیر موجودہ انداز نقل کرتا ہے۔',
+      'MLEADERSTYLE اب ملتے متن انداز کے حوالوں کے ساتھ درآمد اور برآمد ہوتا ہے، اور دونوں طرف کے رہنماؤں کے لیے متن اتصال یکساں لکھا جاتا ہے۔',
+      'AutoCAD MTEXT فریم برآمد درست کی گئی اور دونوں انداز کھڑکیوں میں حقیقی پیش منظر، فہرست میں نام بدلنا، فٹ زوم اور تشریحی انداز کی محفوظ دیکھ بھال شامل ہوئی۔',
+    ],
+  },
+  el: {
+    title: 'Επώνυμα στυλ κειμένου και αναφοράς με καλύτερη συμβατότητα AutoCAD DXF',
+    highlights: [
+      'Οι νέες διαχειρίσεις ΣτυλΚειμένου και ΣτυλΑναφοράς δημιουργούν, αντιγράφουν, μετονομάζουν, διαγράφουν, προεπισκοπούν και επιλέγουν το τρέχον στυλ για νέες σημειώσεις.',
+      'Τα στυλ κειμένου περιλαμβάνουν πλέον γραμματοσειρά, θετικό ύψος, έντονα, πλάγια, διάστιχο, οριζόντια στοίχιση και πλαίσιο· το νέο κείμενο αντιγράφει το τρέχον στυλ χωρίς ζωντανή σύνδεση.',
+      'Το MLEADERSTYLE εισάγεται και εξάγεται με αναφορά στο αντίστοιχο στυλ κειμένου και η σύνδεση γράφεται με συνέπεια για αναφορές και στις δύο πλευρές.',
+      'Διορθώθηκε η εξαγωγή πλαισίων MTEXT στο AutoCAD και βελτιώθηκαν και τα δύο παράθυρα με πραγματική προεπισκόπηση, μετονομασία στη λίστα, ζουμ προσαρμογής και ασφαλή διαχείριση σχολιαστικών στυλ.',
+    ],
+  },
+  pa: {
+    title: 'ਨਾਮ ਵਾਲੀਆਂ ਟੈਕਸਟ ਅਤੇ ਲੀਡਰ ਸ਼ੈਲੀਆਂ, ਬਿਹਤਰ AutoCAD DXF ਅਨੁਕੂਲਤਾ ਨਾਲ',
+    highlights: [
+      'ਨਵੇਂ ਟੈਕਸਟ ਸ਼ੈਲੀ ਅਤੇ ਲੀਡਰ ਸ਼ੈਲੀ ਮੈਨੇਜਰ ਨਾਮ ਵਾਲੀਆਂ ਸ਼ੈਲੀਆਂ ਬਣਾਉਂਦੇ, ਕਾਪੀ ਕਰਦੇ, ਨਾਂ ਬਦਲਦੇ, ਮਿਟਾਉਂਦੇ, ਝਲਕ ਦਿਖਾਉਂਦੇ ਅਤੇ ਨਵੀਆਂ ਟਿੱਪਣੀਆਂ ਲਈ ਮੌਜੂਦਾ ਸ਼ੈਲੀ ਚੁਣਦੇ ਹਨ।',
+      'ਟੈਕਸਟ ਸ਼ੈਲੀਆਂ ਵਿੱਚ ਹੁਣ ਫੌਂਟ, ਧਨਾਤਮਕ ਉਚਾਈ, ਬੋਲਡ, ਇਟੈਲਿਕ, ਲਾਈਨ ਫਾਸਲਾ, ਖਿਤਿਜੀ ਅਲਾਈਨਮੈਂਟ ਅਤੇ ਫਰੇਮ ਹਨ; ਨਵਾਂ ਟੈਕਸਟ ਲਾਈਵ ਲਿੰਕ ਤੋਂ ਬਿਨਾਂ ਮੌਜੂਦਾ ਸ਼ੈਲੀ ਕਾਪੀ ਕਰਦਾ ਹੈ।',
+      'MLEADERSTYLE ਹੁਣ ਮਿਲਦੀ ਟੈਕਸਟ ਸ਼ੈਲੀ ਦੇ ਹਵਾਲੇ ਨਾਲ ਆਯਾਤ ਅਤੇ ਨਿਰਯਾਤ ਹੁੰਦਾ ਹੈ ਅਤੇ ਦੋਵੇਂ ਪਾਸਿਆਂ ਦੇ ਲੀਡਰਾਂ ਲਈ ਜੁੜਾਅ ਇਕਸਾਰ ਲਿਖਿਆ ਜਾਂਦਾ ਹੈ।',
+      'AutoCAD MTEXT ਫਰੇਮ ਨਿਰਯਾਤ ਠੀਕ ਕੀਤਾ ਗਿਆ ਅਤੇ ਦੋਵੇਂ ਸ਼ੈਲੀ ਵਿੰਡੋਆਂ ਵਿੱਚ ਅਸਲੀ ਝਲਕ, ਸੂਚੀ ਵਿੱਚ ਨਾਂ ਬਦਲਣਾ, ਫਿੱਟ ਜ਼ੂਮ ਅਤੇ ਐਨੋਟੇਟਿਵ ਸ਼ੈਲੀਆਂ ਦੀ ਸੁਰੱਖਿਅਤ ਸੰਭਾਲ ਜੋੜੀ ਗਈ।',
+    ],
+  },
+  sv: {
+    title: 'Namngivna text- och hänvisningsstilar med bättre AutoCAD DXF-kompatibilitet',
+    highlights: [
+      'De nya hanterarna för Textstil och Ledarstil skapar, kopierar, byter namn på, tar bort och förhandsvisar namngivna stilar samt väljer aktuell stil för nya kommentarer.',
+      'Textstilar innehåller nu teckensnitt, positiv höjd, fetstil, kursiv, radavstånd, vågrät justering och ram; ny text kopierar aktuell stil utan aktiv länk.',
+      'MLEADERSTYLE importeras och exporteras nu med referens till matchande textstil och textfästet skrivs konsekvent för hänvisningar på båda sidor.',
+      'AutoCAD-export av MTEXT-ramar har rättats och båda stilfönstren har fått verklig förhandsvisning, namnbyte i listan, anpassningszoom och säker hantering av annotativa stilar.',
+    ],
+  },
+  tl: {
+    title: 'Pinangalanang text at leader style na may mas mahusay na AutoCAD DXF compatibility',
+    highlights: [
+      'Ang mga bagong tagapamahala ng EstiloNgTeksto at EstiloNgLeader ay gumagawa, kumokopya, nagpapalit ng pangalan, nagbubura, nagpi-preview at pumipili ng kasalukuyang estilo para sa bagong anotasyon.',
+      'Kasama na sa text style ang font, positibong taas, kapal, pahilig, pagitan ng linya, pahalang na hanay at kuwadro; kinokopya ng bagong teksto ang kasalukuyang estilo nang walang live link.',
+      'Ini-import at ine-export na ang MLEADERSTYLE na may tugmang text-style reference at pare-parehong isinusulat ang attachment para sa leader sa magkabilang panig.',
+      'Inayos ang AutoCAD MTEXT frame export at pinahusay ang parehong style window gamit ang tunay na preview, pagpapalit ng pangalan sa listahan, fit zoom at ligtas na paghawak sa annotative styles.',
+    ],
+  },
+  nl: {
+    title: 'Benoemde tekst- en aanwijslijnstijlen met betere AutoCAD DXF-compatibiliteit',
+    highlights: [
+      'De nieuwe beheerders voor Tekststijl en Aanwijsstijl maken, dupliceren, hernoemen, verwijderen en tonen stijlen en kiezen de huidige stijl voor nieuwe annotaties.',
+      'Tekststijlen bevatten nu lettertype, positieve hoogte, vet, cursief, regelafstand, horizontale uitlijning en kader; nieuwe tekst kopieert de huidige stijl zonder live koppeling.',
+      'MLEADERSTYLE wordt nu geïmporteerd en geëxporteerd met verwijzingen naar de passende tekststijl en de tekstaanhechting wordt voor beide zijden consistent geschreven.',
+      'AutoCAD-export van MTEXT-kaders is hersteld en beide stijlvensters kregen echte voorbeelden, hernoemen in de lijst, passende zoom en veilige verwerking van annotatieve stijlen.',
+    ],
+  },
+  he: {
+    title: 'סגנונות טקסט וקווים מובילים בעלי שם, עם תאימות DXF טובה יותר ל־AutoCAD',
+    highlights: [
+      'מנהלי סגנון הטקסט והקו המוביל החדשים יוצרים, משכפלים, משנים שם, מוחקים ומציגים סגנונות, ובוחרים את הסגנון הנוכחי להערות חדשות.',
+      'סגנונות טקסט כוללים כעת גופן, גובה חיובי, מודגש, נטוי, מרווח שורות, יישור אופקי ומסגרת; טקסט חדש מעתיק את הסגנון הנוכחי ללא קישור חי.',
+      'MLEADERSTYLE מיובא ומיוצא כעת עם הפניה לסגנון הטקסט המתאים, וחיבור הטקסט נכתב באופן עקבי לקווים מובילים בשני הצדדים.',
+      'תוקן ייצוא מסגרות MTEXT ל־AutoCAD ושני חלונות הסגנון שופרו עם תצוגה אמיתית, שינוי שם ברשימה, זום התאמה וטיפול בטוח בסגנונות annotative.',
+    ],
+  },
+  ha: {
+    title: 'Salailan rubutu da jagora masu suna tare da ingantacciyar dacewar AutoCAD DXF',
+    highlights: [
+      'Sabbin masu sarrafa SalonRubutu da SalonJagora suna ƙirƙira, kwafi, sauya suna, sharewa, nuna samfoti da zaɓar salon yanzu don sabbin bayanai.',
+      'Salon rubutu yanzu yana ɗauke da font, tsayi tabbatacce, kauri, karkata, tazarar layi, daidaitawar kwance da firam; sabon rubutu yana kwafin salon yanzu ba tare da hanyar haɗi mai rai ba.',
+      'Yanzu ana shigo da fitar da MLEADERSTYLE tare da bayanin SalonRubutu da ya dace, kuma ana rubuta haɗin rubutu daidai ga jagorori a ɓangarorin biyu.',
+      'An gyara fitar da firam na MTEXT zuwa AutoCAD kuma an inganta tagogin salo biyu da samfoti na gaske, sauya suna a jeri, zuƙowa don dacewa da amintaccen sarrafa salailan bayani.',
+    ],
+  },
+  no: {
+    title: 'Navngitte tekst- og lederstiler med bedre AutoCAD DXF-kompatibilitet',
+    highlights: [
+      'De nye behandlerne for Tekststil og Ledelinjestil oppretter, dupliserer, gir nytt navn, sletter og forhåndsviser stiler og velger gjeldende stil for nye merknader.',
+      'Tekststiler inneholder nå skrifttype, positiv høyde, fet, kursiv, linjeavstand, vannrett justering og ramme; ny tekst kopierer gjeldende stil uten aktiv kobling.',
+      'MLEADERSTYLE importeres og eksporteres nå med referanse til samsvarende tekststil, og teksttilknytning skrives konsekvent for ledere på begge sider.',
+      'AutoCAD-eksport av MTEXT-rammer er rettet, og begge stilvinduene har fått ekte forhåndsvisning, navnendring i listen, tilpasset zoom og sikker behandling av annotative stiler.',
+    ],
+  },
+  da: {
+    title: 'Navngivne tekst- og henvisningstypografier med bedre AutoCAD DXF-kompatibilitet',
+    highlights: [
+      'De nye håndteringer for Tekststil og Ledelinjestil opretter, kopierer, omdøber, sletter og forhåndsviser typografier og vælger den aktuelle typografi til nye kommentarer.',
+      'Teksttypografier indeholder nu skrifttype, positiv højde, fed, kursiv, linjeafstand, vandret justering og ramme; ny tekst kopierer den aktuelle typografi uden aktiv forbindelse.',
+      'MLEADERSTYLE importeres og eksporteres nu med reference til den matchende teksttypografi, og teksttilknytningen skrives ens for henvisninger på begge sider.',
+      'AutoCAD-eksport af MTEXT-rammer er rettet, og begge typografivinduer har fået ægte forhåndsvisning, omdøbning i listen, tilpasningszoom og sikker håndtering af annotative typografier.',
+    ],
+  },
+  fi: {
+    title: 'Nimetyt teksti- ja osoitintyylit sekä parempi AutoCAD DXF -yhteensopivuus',
+    highlights: [
+      'Uudet Tekstityyli- ja OsoitinTyyli-hallinnat luovat, kopioivat, nimeävät uudelleen, poistavat ja esikatselevat nimettyjä tyylejä sekä valitsevat uusien merkintöjen nykyisen tyylin.',
+      'Tekstityylit sisältävät nyt fontin, positiivisen korkeuden, lihavoinnin, kursivoinnin, rivivälin, vaakatasausen ja kehyksen; uusi teksti kopioi nykyisen tyylin ilman elävää linkkiä.',
+      'MLEADERSTYLE tuodaan ja viedään nyt vastaavan tekstityyliviitteen kanssa, ja tekstin kiinnitys kirjoitetaan johdonmukaisesti kummankin puolen osoittimille.',
+      'AutoCADin MTEXT-kehysten vienti korjattiin ja molemmat tyyli-ikkunat saivat aidon esikatselun, uudelleennimeämisen luettelossa, sovituszoomin ja annotatiivisten tyylien turvallisen käsittelyn.',
+    ],
+  },
+};
+
 export const releases: Release[] = [
+  {
+    version: "2026.09.28.94a59e1a",
+    date: "September 28, 2026",
+    title: "Named text and leader styles, with stronger AutoCAD DXF compatibility",
+    highlights: [
+      "New TextStyle and LeaderStyle managers create, duplicate, rename, delete, preview, and select the current named style for new annotations.",
+      "Text styles now include font, positive height, bold, italic, line spacing, horizontal alignment, and frame defaults; new text copies the current style without staying live-linked.",
+      "MLEADERSTYLE now imports and exports with matching text-style references, and text attachment is written consistently for leaders on either side.",
+      "Fixed AutoCAD MTEXT frame export and polished both style dialogs with real-renderer previews, inline renaming, fit zoom, and safer handling of annotative styles.",
+    ],
+  },
   {
     version: "2026.09.07.dd8ce99",
     date: "September 7, 2026",
@@ -11902,3 +12186,7 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
     },
   ],
 };
+
+for (const [lang, release] of Object.entries(latestReleaseTranslations)) {
+  releaseTranslations[lang]?.unshift(release);
+}

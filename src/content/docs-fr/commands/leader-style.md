@@ -29,6 +29,6 @@ Saisissez `StyleRepère` ou cliquez sur **Style de repère** dans le panneau d�
 
 ## Enregistrement et DXF
 
-**OK** applique toutes les modifications ; **Fermer** ou `Escape` les annule. KulmanLab lit et écrit les enregistrements `MLEADERSTYLE`. Nom, pointe et taille de flèche, écart du palier, hauteur, attache, cadre et indicateur annotatif sont enregistrés comme champs du style. Rotation, police, gras et italique sont des valeurs par défaut KulmanLab copiées sur le repère à sa création.
+KulmanLab importe et exporte les enregistrements `MLEADERSTYLE`. Nom, pointe et taille de flèche, écart, hauteur, attache, cadre et indicateur annotatif sont conservés comme champs du style. À l’export, le groupe `342` vise le StyleTexte dont la police, le gras, l’italique et la hauteur correspondent ; sinon `Standard` est utilisé. Cette référence DXF ne transforme pas la copie ponctuelle en liaison dynamique. L’unique valeur d’attache est écrite dans les champs DXF gauche et droit.
 
 Voir aussi [Leader](../leader/), [LeaderAdd](../leader-add/) et [LeaderRemove](../leader-remove/).

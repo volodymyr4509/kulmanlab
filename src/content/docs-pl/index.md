@@ -95,7 +95,7 @@ Witaj w dokumentacji poleceń **KulmanLab CAD**. [KulmanLab CAD](https://kulmanl
 | [Angle](./commands/angle/) | Mierzy kąt między trzema punktami |
 | [Area](./commands/area/) | Mierzy pole powierzchni i obwód wielokąta |
 
-## Obrys
+## Style
 
 | Polecenie | Co robi |
 |-----------|---------|
@@ -103,6 +103,8 @@ Witaj w dokumentacji poleceń **KulmanLab CAD**. [KulmanLab CAD](https://kulmanl
 | [Font Manager](./commands/font-manager/) | Przeglądaj, wybieraj i przesyłaj własne czcionki TTF |
 | [FontAdd](./commands/font-add/) | Prześlij własną czcionkę TTF bezpośrednio z terminala |
 | [Hatch Manager](./commands/hatch-manager/) | Przeglądaj bibliotekę wzorów hatch i przesyłaj pliki .pat |
+| [StylTekstu](./commands/text-style/) | Tworzenie i zarządzanie nazwanymi stylami nowego tekstu |
+| [StylOdniesienia](./commands/leader-style/) | Tworzenie i zarządzanie nazwanymi stylami wielolinii odniesienia |
 
 ## Plik
 

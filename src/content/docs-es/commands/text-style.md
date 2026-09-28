@@ -21,15 +21,15 @@ Los estilos visibles aparecen a la izquierda y las propiedades del seleccionado,
 
 | Campo | Función |
 |-------|---------|
-| Nombre | Nombre único. `Standard` no se puede cambiar. |
+| Cambiar nombre | Use el lápiz junto al nombre para editarlo en la lista; `Standard` no se puede cambiar. |
 | Fuente | Tipo de letra de la lista del [Administrador de fuentes](../font-manager/). |
-| Altura | Altura fija; `0` significa **Definida por texto**. |
+| Altura | Altura de texto positiva obligatoria. Los valores cero o negativos pasan a `1`; el administrador solo acepta valores mayores que `0`. |
 | Negrita / Cursiva | Activa cada formato de forma independiente. |
 | Interlineado | Multiplicador del espacio entre líneas. |
 | Alineación horizontal | Valor predeterminado: izquierda, centro, derecha o justificada. |
 | Marco | Dibuja un marco rectangular alrededor del texto nuevo. |
 
-La vista previa muestra la fuente, el peso y la inclinación. El marco, el interlineado y la alineación se aplican al texto que se cree después. Los nombres vacíos, duplicados o no válidos para DXF se rechazan y **OK** permanece desactivado.
+La vista previa dibuja un pangrama de dos líneas con el mismo renderizador del lienzo. Fuente, altura, negrita, cursiva, marco, interlineado y alineación se actualizan al instante; el indicador muestra la escala de ajuste. Los estilos nuevos usan **izquierda** de forma predeterminada.
 
 Los estilos anotativos importados de DXF están ocultos por ahora porque la escala anotativa aún no se representa. Sus registros se conservan.
 

@@ -29,6 +29,6 @@ Geben Sie `Führungsstil` ein oder klicken Sie im Beschriftungsbereich auf **Fü
 
 ## Speichern und DXF
 
-**OK** übernimmt alle Änderungen; **Schließen** oder `Escape` verwirft sie. KulmanLab liest und schreibt `MLEADERSTYLE`-Datensätze. Name, Pfeilspitze und -größe, Anlandungsabstand, Texthöhe, Textanbindung, Rahmen und Beschriftungskennzeichen werden als Stilfelder gespeichert. Drehung, Schrift, Fett und Kursiv sind KulmanLab-Vorgaben und werden beim Erstellen auf die Führungslinie kopiert.
+KulmanLab liest und schreibt `MLEADERSTYLE`-Datensätze. Name, Pfeilspitze und -größe, Anlandungsabstand, Texthöhe, Textanbindung, Rahmen und Beschriftungskennzeichen werden als Stilfelder gespeichert. Beim Export verweist Gruppe `342` auf den Textstil, dessen Schrift, Fett, Kursiv und Höhe zum Führungslinienstil passen; ohne Treffer wird `Standard` verwendet. Diese DXF-Referenz macht die einmalige Übernahme in KulmanLab nicht zu einer Live-Verknüpfung. Die eine Textanbindung wird in das linke und rechte DXF-Feld geschrieben.
 
 Siehe auch [Leader](../leader/), [LeaderAdd](../leader-add/) und [LeaderRemove](../leader-remove/).

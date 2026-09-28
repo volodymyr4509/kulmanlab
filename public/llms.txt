@@ -269,6 +269,7 @@ It is designed for engineers, architects, and technical illustrators who need a 
 
 - Full command terminal with history, keyboard navigation, and fuzzy autocomplete (matches letters anywhere in a command's name, ranked by match quality then by actual usage frequency)
 - 50+ drawing commands: Line, Polyline, Circle, Arc, Ellipse, Rectangle, Spline, Hatch, Text (MTEXT), Dimensions, Leaders, and more
+- Named TextStyle and LeaderStyle managers set reusable defaults for new text and multileaders, with STYLE and MLEADERSTYLE DXF round-tripping
 - Polyline arc segments — toggle Arc mode (A) mid-polyline for AutoCAD-style tangent arc segments, fully supported by render, selection, grip editing, trim/extend, DXF, and hatch boundaries
 - Rotate has a Copy toggle (C) — rotate duplicates instead of the original selection, AutoCAD ROTATE-style
 - Selection filter: narrow a large multi-selection by Type, Layer, Color, Lineweight, or Linetype before bulk-editing, via a filter icon in the property panel
@@ -354,6 +355,9 @@ No. Your drawings stay in your browser and are never sent anywhere. KulmanLab us
 Cookies are used for Google Analytics, which collects anonymous usage metrics (page views, session counts).
 
 ## Recent releases
+
+**September 2026 — Named text and leader styles**
+TextStyle and LeaderStyle managers now provide reusable defaults for new annotations. STYLE and MLEADERSTYLE records round-trip through DXF, exported leader styles reference matching text styles, and AutoCAD-compatible MTEXT frames and left/right leader attachments are preserved.
 
 **September 2026 — Everything exports to DXF; Export Manager picks what goes in**
 DXF export is no longer geometry-only — text, dimensions, leaders, and hatches all round-trip now, each carrying its own formatting, pattern, or attachment data. Export Manager rebuilt as a single checklist of every entity type in the drawing with its count, so any type can be left out of an export without touching the others. The app can now be installed from the browser as a PWA. A long list of DXF round-trip and malformed-entity bugs fixed along the way.

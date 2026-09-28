@@ -16,12 +16,14 @@ Typ `Tekststijl` of klik op **Tekststijl** in het annotatiepaneel. ✓ markeert 
 
 | Veld | Functie |
 |---|---|
-| Naam | Unieke naam; `Standard` kan niet worden hernoemd |
-| Lettertype / Hoogte | Lettertype en vaste hoogte; `0` = per tekst ingesteld |
+| Hernoemen | Gebruik het potlood naast de naam om deze in de lijst te wijzigen; `Standard` kan niet worden hernoemd. |
+| Lettertype / Hoogte | Lettertype en verplichte positieve hoogte. Nul of negatieve waarden worden `1`; de beheerder accepteert alleen waarden groter dan `0`. |
 | Vet / Cursief | Onafhankelijk instelbare opmaak |
 | Regelafstand | Afstand tussen tekstregels |
 | Horizontale uitlijning | Links, gecentreerd, rechts of uitgevuld |
 | Kader | Rechthoekig kader rond nieuwe tekst |
+
+De voorvertoning gebruikt dezelfde renderer als het canvas en toont twee regels. Lettertype, hoogte, vet, cursief, kader, regelafstand en uitlijning worden direct bijgewerkt; de waarde toont de passende zoom. Nieuwe stijlen zijn standaard **links** uitgelijnd.
 
 **Nieuw** dupliceert de geselecteerde stijl. **Verwijderen** kan `Standard` of de huidige stijl niet verwijderen. **Als huidig instellen** beïnvloedt alleen tekst die daarna wordt gemaakt; bestaande tekst verandert niet. Een lege, dubbele of voor DXF ongeldige naam schakelt **OK** uit. Geïmporteerde annotatieve stijlen zijn verborgen, maar hun gegevens blijven behouden.
 

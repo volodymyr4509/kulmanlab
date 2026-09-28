@@ -95,7 +95,7 @@ Chào mừng bạn đến với tài liệu tham khảo lệnh **KulmanLab CAD**
 | [Angle](./commands/angle/) | Đo góc giữa ba điểm |
 | [Area](./commands/area/) | Đo diện tích và chu vi của đa giác |
 
-## Nét
+## Kiểu
 
 | Lệnh | Chức năng |
 |------|-----------|
@@ -103,6 +103,8 @@ Chào mừng bạn đến với tài liệu tham khảo lệnh **KulmanLab CAD**
 | [Font Manager](./commands/font-manager/) | Duyệt, chọn và tải lên phông chữ TTF tùy chỉnh |
 | [FontAdd](./commands/font-add/) | Tải lên phông chữ TTF tùy chỉnh trực tiếp từ terminal |
 | [Hatch Manager](./commands/hatch-manager/) | Duyệt thư viện mẫu hatch và tải lên tệp .pat |
+| [KiểuChữ](./commands/text-style/) | Tạo và quản lý kiểu chữ có tên cho văn bản mới |
+| [KiểuĐườngDẫn](./commands/leader-style/) | Tạo và quản lý kiểu đường dẫn nhiều nhánh có tên |
 
 ## Tệp
 

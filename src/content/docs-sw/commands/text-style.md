@@ -16,12 +16,14 @@ Andika `MtindoWaMaandishi` au ubofye **Mtindo wa maandishi** kwenye paneli ya uf
 
 | Sehemu | Kazi |
 |---|---|
-| Jina | Jina la kipekee; `Standard` haiwezi kubadilishwa jina |
-| Fonti / Urefu | Aina ya herufi na urefu maalum; `0` = huwekwa kwa kila maandishi |
+| Badilisha jina | Tumia penseli iliyo kando ya jina kulihariri kwenye orodha; `Standard` haiwezi kubadilishwa jina. |
+| Fonti / Urefu | Aina ya herufi na urefu chanya wa lazima. Sifuri au thamani hasi hubadilika kuwa `1`; kidhibiti hukubali thamani zilizo juu ya `0` tu. |
 | Nzito / Mlalo | Miundo inayowashwa au kuzimwa kando |
 | Nafasi kati ya mistari | Umbali kati ya mistari ya maandishi |
 | Mpangilio mlalo | Kushoto, katikati, kulia au kuenea pande zote |
 | Fremu | Fremu ya mstatili kuzunguka maandishi mapya |
+
+Hakikisho hutumia kirenderi sawa na turubai na huonyesha mistari miwili. Fonti, urefu, uzito, mlalo, fremu, nafasi ya mistari na mpangilio husasishwa mara moja; namba huonyesha ukuzaji wa kutoshea. Mitindo mipya hupangwa **kushoto** kwa chaguo-msingi.
 
 **Mpya** hunakili mtindo uliochaguliwa. **Futa** haiwezi kuondoa `Standard` wala mtindo wa sasa. **Weka kuwa wa sasa** huathiri maandishi yatakayoundwa baadaye pekee; yaliyopo hayabadiliki. Jina tupu, linalojirudia au lisiloruhusiwa na DXF huzima **Sawa**. Mitindo fafanuzi iliyoingizwa hufichwa lakini data yake huhifadhiwa.
 

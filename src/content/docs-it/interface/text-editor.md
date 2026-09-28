@@ -142,4 +142,4 @@ Le interruzioni di riga dure e la formattazione per carattere sono memorizzate u
 
 ## Compatibilità DXF
 
-Le entità testo sono memorizzate come **MTEXT** nei file DXF. Grassetto e corsivo sono codificati tramite un codice di cambio font inline (`\f`); il sottolineato usa `\L`/`\l`; il barrato usa `\K`/`\k`. Questa formattazione sopravvive a un round-trip DXF completo ed è leggibile da LibreCAD, FreeCAD e altre applicazioni compatibili DXF. Le sostituzioni di font per carattere sono preservate all'esportazione — le sostituzioni di altezza per carattere no; viene scritta solo l'altezza di base dell'entità.
+Le etichette sono memorizzate come entità **MTEXT**. Grassetto e corsivo usano `\f`, sottolineato `\L`/`\l`, barrato `\K`/`\k` e le altezze per carattere usano `\H`. Vengono conservati anche larghezza di riferimento, interlinea, allineamento del paragrafo, rotazione e punto di attacco. La cornice viene esportata con il flag MTEXT e una scala del bordo compatibile con AutoCAD. Vedi [StileTesto](../text-style/) e [Gestione font](../font-manager/).

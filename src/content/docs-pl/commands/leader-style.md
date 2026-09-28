@@ -29,6 +29,6 @@ Wpisz `StylOdniesienia` albo kliknij **Styl linii odniesienia** w panelu opisu. 
 
 ## Zapisywanie i DXF
 
-**OK** stosuje wszystkie zmiany, a **Zamknij** lub `Escape` je odrzuca. KulmanLab odczytuje i zapisuje rekordy `MLEADERSTYLE`. Nazwa, grot i rozmiar strzałki, odstęp, wysokość, przyleganie, ramka i flaga opisowa są zapisywane jako pola stylu. Obrót, czcionka, pogrubienie i kursywa to wartości domyślne KulmanLab kopiowane do odnośnika podczas tworzenia.
+KulmanLab importuje i eksportuje rekordy `MLEADERSTYLE`. Nazwa, grot i rozmiar strzałki, odstęp, wysokość, zaczepienie tekstu, ramka i flaga opisowa są zachowywane jako pola stylu. Podczas eksportu grupa `342` wskazuje StylTekstu o zgodnej czcionce, pogrubieniu, kursywie i wysokości; bez dopasowania używany jest `Standard`. To odwołanie DXF nie zmienia jednorazowego kopiowania w aplikacji w aktywne połączenie. Jedna wartość zaczepienia jest zapisywana w lewym i prawym polu DXF.
 
 Zobacz też [Leader](../leader/), [LeaderAdd](../leader-add/) i [LeaderRemove](../leader-remove/).

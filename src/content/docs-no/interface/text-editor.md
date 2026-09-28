@@ -142,4 +142,4 @@ Harde linjeskift og per-tegn formatering lagres ved hjelp av MTEXT-formatet og o
 
 ## DXF-kompatibilitet
 
-Tekstentiteter lagres som **MTEXT** i DXF-filer. Fet og kursiv kodes via en innebygd skriftbyttekode (`\f`); understreking bruker `\L`/`\l`; gjennomstreking bruker `\K`/`\k`. Denne formateringen overlever en fullstendig DXF-runde og kan leses av LibreCAD, FreeCAD og andre DXF-kompatible applikasjoner. Per-tegn skriftoverstyringer bevares ved eksport — per-tegn høydeoverstyringer gjør det ikke; kun entitetens basishøyde skrives.
+Tekstetiketter lagres som **MTEXT**. Fet og kursiv bruker `\f`, understreking `\L`/`\l`, gjennomstreking `\K`/`\k` og tegnvise høyder `\H`. Referansebredde, linjeavstand, avsnittsjustering, rotasjon og tilknytning bevares også. Ramme eksporteres med MTEXT-rammeflagget og en AutoCAD-kompatibel kantskala. Se [Tekststil](../text-style/) og [Skriftbehandling](../font-manager/).

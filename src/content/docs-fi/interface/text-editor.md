@@ -142,4 +142,4 @@ Kovat rivinvaihdot ja merkkikohtainen muotoilu tallennetaan MTEXT-muodossa ja s�
 
 ## DXF-yhteensopivuus
 
-Tekstientiteetit tallennetaan **MTEXT**-muodossa DXF-tiedostoissa. Lihavointi ja kursivointi koodataan sisäänrakennetulla fontinvaihtokoodilla (`\f`); alleviivaus käyttää koodeja `\L`/`\l`; yliviivaus käyttää koodeja `\K`/`\k`. Tämä muotoilu säilyy täydessä DXF-edestakaisessa matkassa ja on luettavissa LibreCADissa, FreeCADissa ja muissa DXF-yhteensopivissa sovelluksissa. Merkkikohtaiset fonttiohitukset säilyvät viennissä — merkkikohtaiset korkeusohitukset eivät; vain entiteetin peruskorkeus kirjoitetaan.
+Tekstit tallennetaan **MTEXT**-entiteetteinä. Lihavointi ja kursivointi käyttävät `\f`, alleviivaus `\L`/`\l`, yliviivaus `\K`/`\k` ja merkkikohtainen korkeus `\H`. Myös viiteleveys, riviväli, kappaleen tasaus, kierto ja kiinnitys säilyvät. Kehys viedään MTEXT-kehyslipulla ja AutoCAD-yhteensopivalla reunaskaalalla. Katso [Tekstityyli](../text-style/) ja [Fontinhallinta](../font-manager/).

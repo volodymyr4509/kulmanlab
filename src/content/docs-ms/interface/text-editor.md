@@ -142,4 +142,4 @@ Pemecahan baris keras dan pemformatan setiap aksara disimpan menggunakan format 
 
 ## Keserasian DXF
 
-Entiti teks disimpan sebagai **MTEXT** dalam fail DXF. Tebal dan italik dikodkan melalui kod suis fon inline (`\f`); garis bawah menggunakan `\L`/`\l`; strikethrough menggunakan `\K`/`\k`. Pemformatan ini bertahan sepanjang pusingan DXF penuh dan boleh dibaca oleh LibreCAD, FreeCAD, dan aplikasi serasi DXF lain. Pengatasan fon setiap aksara dipelihara semasa eksport — pengatasan ketinggian setiap aksara tidak; hanya ketinggian asas entiti ditulis.
+Label disimpan sebagai entiti **MTEXT**. Tebal dan condong menggunakan `\f`, garis bawah `\L`/`\l`, coret `\K`/`\k`, dan tinggi setiap aksara menggunakan `\H`. Lebar rujukan, jarak baris, penjajaran perenggan, putaran dan lampiran turut dikekalkan. Bingkai dieksport dengan bendera bingkai MTEXT dan skala sempadan yang serasi dengan AutoCAD. Lihat [GayaTeks](../text-style/) dan [Pengurus Fon](../font-manager/).

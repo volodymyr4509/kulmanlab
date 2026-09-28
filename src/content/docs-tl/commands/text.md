@@ -19,7 +19,7 @@ Tingnan ang pahina ng [Text Editor](../../interface/text-editor/) para sa kumple
 3. Magbubukas ang **text editor popup** sa itaas ng bagong label. I-type ang iyong content.
 4. Pindutin ang **Escape** para i-commit ang label at isara ang editor.
 
-Ang default na height ay **12 drawing units**.
+Kinokopya ng bagong teksto ang font, taas, kapal, pahilig, pagitan ng linya, pahalang na hanay at kuwadro mula sa kasalukuyang [EstiloNgTeksto](../text-style/). Ang built-in na `Standard` ay may taas na **1 drawing unit** at kaliwang hanay.
 
 ## Pag-edit ng Umiiral na Label
 
@@ -101,7 +101,7 @@ Kapag napili ang text label, ipinapakita ng properties panel:
 | Property | Kahulugan |
 |----------|---------|
 | Position X / Position Y | Coordinates ng anchor point |
-| Height | Base text height sa drawing units (default: **12**) |
+| Height | Batayang taas sa drawing units, kinopya mula sa kasalukuyang EstiloNgTeksto nang likhain |
 | Rotation Degree | Counter-clockwise na rotation sa degrees |
 
 **Properties**
@@ -113,6 +113,8 @@ Kapag napili ang text label, ipinapakita ng properties panel:
 
 Walang Linetype, Linetype Scale, o Thickness properties ang Text.
 
+Makikita rin sa **Properties** ang pahalang na hanay, reference width, pagitan ng linya at kuwadro.
+
 ## DXF — MTEXT Entity
 
-Nakaimbak ang mga text label bilang **MTEXT** entities sa DXF file. Naka-encode ang bold at italic gamit ang inline font-switch code (`\f`); gumagamit ang underline ng `\L`/`\l`; gumagamit ang strikethrough ng `\K`/`\k`. Nananatili ang formatting na ito sa buong DXF round-trip at nababasa ng LibreCAD, FreeCAD, at iba pang DXF-compatible na application. Napapanatili ang per-character font override sa export — hindi napapanatili ang per-character height override; ang base height lang ng label ang naisusulat.
+Sine-save ang mga label bilang **MTEXT** entity. Gumagamit ang makapal at pahilig ng `\f`, salungguhit ng `\L`/`\l`, strikethrough ng `\K`/`\k`, at taas bawat character ng `\H`. Nananatili rin ang reference width, pagitan ng linya, paragraph alignment, rotation at attachment. Ine-export ang kuwadro gamit ang MTEXT frame flag at AutoCAD-compatible na border scale. Tingnan din ang [EstiloNgTeksto](../text-style/) at [FontManager](../font-manager/).

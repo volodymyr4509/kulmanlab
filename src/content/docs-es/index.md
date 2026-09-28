@@ -95,7 +95,7 @@ Bienvenido a la referencia de comandos de **KulmanLab CAD**. [KulmanLab CAD](htt
 | [Angle](./commands/angle/) | Mide el ángulo entre tres puntos |
 | [Area](./commands/area/) | Mide el área y el perímetro de un polígono |
 
-## Trazo
+## Estilos
 
 | Comando | Qué hace |
 |---------|----------|
@@ -103,6 +103,8 @@ Bienvenido a la referencia de comandos de **KulmanLab CAD**. [KulmanLab CAD](htt
 | [Font Manager](./commands/font-manager/) | Explora, selecciona y sube fuentes TTF personalizadas |
 | [FontAdd](./commands/font-add/) | Sube una fuente TTF personalizada directamente desde el terminal |
 | [Hatch Manager](./commands/hatch-manager/) | Explora la biblioteca de patrones de hatch y sube archivos .pat |
+| [EstiloTexto](./commands/text-style/) | Crear y administrar estilos de texto con nombre para texto nuevo |
+| [EstiloGuía](./commands/leader-style/) | Crear y administrar estilos de directriz múltiple con nombre |
 
 ## Archivo
 

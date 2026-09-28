@@ -129,4 +129,4 @@ Nhấn `Enter` để chèn ngắt dòng cứng. Mỗi dòng cứng là độc l�
 
 ## Tương thích DXF
 
-Thực thể văn bản được lưu dưới dạng **MTEXT** trong tệp DXF. In đậm và in nghiêng được mã hóa bằng mã chuyển phông chữ nội tuyến (`\f`); gạch chân dùng `\L`/`\l`; gạch ngang dùng `\K`/`\k`. Định dạng này được giữ nguyên qua toàn bộ chu trình DXF và đọc được bởi LibreCAD, FreeCAD và các ứng dụng tương thích DXF khác. Ghi đè phông chữ theo ký tự được bảo toàn khi xuất — ghi đè chiều cao theo ký tự thì không; chỉ chiều cao cơ sở của thực thể được ghi lại.
+Nhãn được lưu dưới dạng thực thể **MTEXT**. Đậm và nghiêng dùng `\f`, gạch chân dùng `\L`/`\l`, gạch ngang dùng `\K`/`\k`, còn chiều cao từng ký tự dùng `\H`. Chiều rộng tham chiếu, giãn dòng, căn đoạn, xoay và điểm đính kèm cũng được bảo toàn. Khung được xuất bằng cờ khung MTEXT và tỷ lệ viền tương thích AutoCAD. Xem [KiểuChữ](../text-style/) và [Trình quản lý phông](../font-manager/).

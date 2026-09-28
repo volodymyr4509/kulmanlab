@@ -142,4 +142,4 @@ Harte Zeilenumbrüche und zeichenweise Formatierung werden im MTEXT-Format gespe
 
 ## DXF-Kompatibilität
 
-Text-Entitäten werden als **MTEXT** in DXF-Dateien gespeichert. Fett und Kursiv werden über einen Inline-Schriftartwechsel-Code (`\f`) kodiert; Unterstrichen verwendet `\L`/`\l`; Durchgestrichen verwendet `\K`/`\k`. Diese Formatierung übersteht einen vollständigen DXF-Durchlauf und ist von LibreCAD, FreeCAD und anderen DXF-kompatiblen Anwendungen lesbar. Zeichenweise Schriftart-Überschreibungen bleiben beim Export erhalten — zeichenweise Höhen-Überschreibungen nicht; nur die Basishöhe der Entität wird geschrieben.
+Textbeschriftungen werden als **MTEXT** gespeichert. Fett und Kursiv verwenden `\f`, Unterstreichen `\L`/`\l`, Durchstreichen `\K`/`\k` und zeichenweise Höhen `\H`. Referenzbreite, Zeilenabstand, Absatzausrichtung, Drehung und Anheftung werden ebenfalls rundgeführt. Ein Textrahmen wird mit dem MTEXT-Rahmenflag und einem AutoCAD-kompatiblen Randmaßstab exportiert. Siehe auch [Textstil](../text-style/) und [Schriftartenmanager](../font-manager/).

@@ -142,4 +142,4 @@ Hard line breaks and per-character formatting are stored using the MTEXT format 
 
 ## DXF compatibility
 
-Text entities are stored as **MTEXT** in DXF files. Bold and italic are encoded using an inline font-switch code (`\f`); underline uses `\L`/`\l`; strikethrough uses `\K`/`\k`. This formatting round-trips through DXF and is readable by LibreCAD, FreeCAD, and other DXF-compatible applications. Per-character font overrides are preserved on export — per-character height overrides are not; only the entity's base height is written.
+Text labels are stored as **MTEXT** entities in the DXF file. Bold and italic use inline font-switch codes (`\f`), underline uses `\L`/`\l`, strikethrough uses `\K`/`\k`, and per-character height overrides use `\H`. Reference width, line spacing, paragraph alignment, rotation, and attachment also round-trip. A Text frame is exported with the MTEXT frame flag and AutoCAD-compatible border scale.

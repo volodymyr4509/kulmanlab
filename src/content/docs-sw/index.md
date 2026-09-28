@@ -94,7 +94,7 @@ Karibu kwenye marejeo ya amri za **KulmanLab CAD**. [KulmanLab CAD](https://kulm
 | [Angle](./commands/angle/) | Pima pembe kati ya pointi tatu |
 | [Area](./commands/area/) | Pima eneo na mzunguko wa poligoni |
 
-## Mstari
+## Mitindo
 
 | Amri | Inachofanya |
 |------|------------|
@@ -102,6 +102,8 @@ Karibu kwenye marejeo ya amri za **KulmanLab CAD**. [KulmanLab CAD](https://kulm
 | [Font Manager](./commands/font-manager/) | Vinjari, chagua, na pakia fonti maalum za TTF |
 | [FontAdd](./commands/font-add/) | Pakia fonti maalum ya TTF moja kwa moja kutoka terminal |
 | [Hatch Manager](./commands/hatch-manager/) | Vinjari maktaba ya muundo wa hatch na pakia faili za .pat |
+| [MtindoWaMaandishi](./commands/text-style/) | Unda na udhibiti mitindo ya maandishi yenye majina kwa maandishi mapya |
+| [MtindoWaKiongozi](./commands/leader-style/) | Unda na udhibiti mitindo ya multileader yenye majina |
 
 ## Faili
 

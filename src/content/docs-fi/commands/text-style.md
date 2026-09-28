@@ -16,12 +16,14 @@ Kirjoita `Tekstityyli` tai napsauta huomautuspaneelin **Tekstityyli**-painiketta
 
 | Kenttä | Toiminto |
 |---|---|
-| Nimi | Yksilöllinen nimi; `Standard`-tyyliä ei voi nimetä uudelleen |
-| Fontti / Korkeus | Kirjasintyyppi ja kiinteä korkeus; `0` = määritetään tekstikohtaisesti |
+| Nimeä uudelleen | Muokkaa nimeä luettelossa sen vieressä olevalla kynällä; `Standard`-tyyliä ei voi nimetä uudelleen. |
+| Fontti / Korkeus | Kirjasintyyppi ja pakollinen positiivinen korkeus. Nolla tai negatiivinen arvo muuttuu arvoksi `1`; hallinta hyväksyy vain arvot yli `0`. |
 | Lihavoitu / Kursiivi | Erikseen käyttöön otettavat muotoilut |
 | Riviväli | Tekstirivien välinen tila |
 | Vaakatasaus | Vasen, keskitetty, oikea tai tasattu |
 | Kehys | Suorakulmainen kehys uuden tekstin ympärillä |
+
+Esikatselu käyttää samaa piirtoa kuin kangas ja näyttää kaksi riviä. Fontti, korkeus, lihavointi, kursivointi, kehys, riviväli ja tasaus päivittyvät heti; lukema näyttää sovituszoomin. Uudet tyylit tasataan oletuksena **vasemmalle**.
 
 **Uusi** kopioi valitun tyylin. **Poista** ei voi poistaa `Standard`-tyyliä eikä nykyistä tyyliä. **Aseta nykyiseksi** vaikuttaa vain myöhemmin luotaviin teksteihin; olemassa olevat tekstit eivät muutu. Tyhjä, päällekkäinen tai DXF-muodossa virheellinen nimi poistaa **OK**-painikkeen käytöstä. Tuodut annotatiiviset tyylit piilotetaan, mutta niiden tiedot säilytetään.
 

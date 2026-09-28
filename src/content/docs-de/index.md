@@ -95,7 +95,7 @@ Willkommen bei der **KulmanLab CAD** Befehlsreferenz. [KulmanLab CAD](https://ku
 | [Angle](./commands/angle/) | Winkel zwischen drei Punkten messen |
 | [Area](./commands/area/) | Fläche und Umfang eines Polygons messen |
 
-## Kontur
+## Stile
 
 | Befehl | Funktion |
 |--------|----------|
@@ -103,6 +103,8 @@ Willkommen bei der **KulmanLab CAD** Befehlsreferenz. [KulmanLab CAD](https://ku
 | [Font Manager](./commands/font-manager/) | Schriftarten durchsuchen, auswählen und eigene TTF-Dateien hochladen |
 | [FontAdd](./commands/font-add/) | Eigene TTF-Schriftart direkt aus dem Terminal hochladen |
 | [Hatch Manager](./commands/hatch-manager/) | Die Hatch-Musterbibliothek durchsuchen und .pat-Dateien hochladen |
+| [Textstil](./commands/text-style/) | Benannte Textstile für neuen Text erstellen und verwalten |
+| [Führungsstil](./commands/leader-style/) | Benannte Multileader-Stile erstellen und verwalten |
 
 ## Datei
 

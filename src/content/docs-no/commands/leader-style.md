@@ -29,6 +29,6 @@ Skriv `Ledelinjestil` eller klikk **Ledelinjestil** i merknadspanelet. ✓ marke
 
 ## Lagring og DXF
 
-**OK** bruker alle endringene; **Lukk** eller `Escape` forkaster dem. KulmanLab leser og skriver `MLEADERSTYLE`-oppføringer. Navn, pilspiss og størrelse, avstand, høyde, feste, ramme og annotativt flagg lagres som stilfelt. Rotasjon, skrifttype, fet og kursiv er KulmanLab-standardverdier som kopieres til henvisningen når den opprettes.
+KulmanLab importerer og eksporterer `MLEADERSTYLE`-poster. Navn, pilspiss og størrelse, landingsavstand, teksthøyde, teksttilknytning, ramme og annotativt flagg bevares som stilfelt. Ved eksport peker gruppe `342` på Tekststilen med samsvarende skrifttype, fet, kursiv og høyde; uten treff brukes `Standard`. Denne DXF-referansen gjør ikke engangskopieringen i appen til en aktiv kobling. Den ene tilknytningsverdien skrives til både venstre og høyre DXF-felt.
 
 Se også [Leader](../leader/), [LeaderAdd](../leader-add/) og [LeaderRemove](../leader-remove/).

@@ -29,6 +29,6 @@ Escribe `EstiloGuía` o haz clic en **Estilo de línea guía** en el panel de an
 
 ## Guardado y DXF
 
-**OK** aplica todos los cambios; **Cerrar** o `Escape` los descarta. KulmanLab lee y escribe registros `MLEADERSTYLE`. El nombre, la punta y tamaño de flecha, la separación, la altura, el anclaje, el marco y el indicador anotativo se guardan como campos del estilo. La rotación, fuente, negrita y cursiva son valores predeterminados de KulmanLab que se copian en la directriz al crearla.
+KulmanLab importa y exporta registros `MLEADERSTYLE`. Nombre, punta y tamaño de flecha, separación, altura, enlace del texto, marco y marca anotativa se conservan como campos del estilo. Al exportar, el grupo `342` apunta al EstiloTexto cuya fuente, negrita, cursiva y altura coinciden; si no hay coincidencia, usa `Standard`. Esta referencia DXF no convierte el relleno rápido de KulmanLab en un vínculo activo. El único valor de enlace se escribe en los campos izquierdo y derecho de DXF.
 
 Consulta también [Leader](../leader/), [LeaderAdd](../leader-add/) y [LeaderRemove](../leader-remove/).

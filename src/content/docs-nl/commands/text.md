@@ -19,7 +19,7 @@ Zie de [Text Editor](../../interface/text-editor/)-pagina voor de volledige edit
 3. De **tekst-editor pop-up** opent boven het nieuwe label. Typ uw inhoud.
 4. Druk op **Escape** om het label te bevestigen en de editor te sluiten.
 
-De standaardhoogte is **12 tekeneenheden**.
+Nieuwe tekst kopieert lettertype, hoogte, vet, cursief, regelafstand, horizontale uitlijning en kader van de huidige [Tekststijl](../text-style/). De ingebouwde stijl `Standard` gebruikt een hoogte van **1 tekeneenheid** en links uitlijnen.
 
 ## Een bestaand label bewerken
 
@@ -101,7 +101,7 @@ Wanneer een tekstlabel is geselecteerd, toont het eigenschappenpaneel:
 | Eigenschap | Betekenis |
 |----------|---------|
 | Position X / Position Y | Coördinaten van het ankerpunt |
-| Height | Basis tekstoogte in tekeneenheden (standaard: **12**) |
+| Height | Basishoogte in tekeneenheden, bij het maken gekopieerd van de huidige Tekststijl |
 | Rotation Degree | Rotatie tegen de klok in, in graden |
 
 **Eigenschappen**
@@ -113,6 +113,8 @@ Wanneer een tekstlabel is geselecteerd, toont het eigenschappenpaneel:
 
 Text heeft geen eigenschappen Linetype, Linetype Scale of Thickness.
 
+Onder **Eigenschappen** staan ook horizontale uitlijning, referentiebreedte, regelafstand en kader.
+
 ## DXF — MTEXT-entiteit
 
-Tekstlabels worden opgeslagen als **MTEXT**-entiteiten in het DXF-bestand. Vet en cursief worden gecodeerd via een inline lettertypewisselcode (`\f`); onderstrepen gebruikt `\L`/`\l`; doorhalen gebruikt `\K`/`\k`. Deze opmaak overleeft een volledige DXF-rondgang en is leesbaar door LibreCAD, FreeCAD en andere DXF-compatibele toepassingen. Overschrijvingen van lettertype per teken blijven behouden bij export — overschrijvingen van hoogte per teken niet; alleen de basishoogte van het label wordt geschreven.
+Tekstlabels worden opgeslagen als **MTEXT**. Vet en cursief gebruiken `\f`, onderstrepen `\L`/`\l`, doorhalen `\K`/`\k` en hoogten per teken `\H`. Referentiebreedte, regelafstand, alinea-uitlijning, rotatie en aanhechting blijven ook behouden. Een kader wordt geëxporteerd met de MTEXT-kadervlag en een AutoCAD-compatibele randschaal. Zie [Tekststijl](../text-style/) en [Lettertypebeheer](../font-manager/).

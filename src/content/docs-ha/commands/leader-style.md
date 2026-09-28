@@ -29,6 +29,6 @@ Rubuta `SalonJagora` ko danna **Salon Jagora** a panel ɗin bayani. ✓ yana nun
 
 ## Ajiyewa da DXF
 
-**To** yana amfani da duk canje-canje; **Rufe** ko `Escape` yana watsar da su. KulmanLab yana karantawa da rubuta bayanan `MLEADERSTYLE`. Suna, kan da girman kibiya, tazara, tsayi, maƙalawa, firam da tutar bayani ana adana su a matsayin filayen salo. Juyawa, font, kauri da karkata tsoffin ƙimomin KulmanLab ne da ake kwafawa zuwa jagora lokacin ƙirƙirarsa.
+KulmanLab yana shigo da fitar da bayanan `MLEADERSTYLE`. Suna, kan kibiya da girma, tazarar sauka, tsayin rubutu, haɗawa, firam da tutar bayani suna nan a matsayin filayen salo. A fitarwa, rukuni `342` yana nuna SalonRubutu da font, kauri, karkata da tsayi suka dace; idan babu sai a yi amfani da `Standard`. Wannan bayanin DXF ba ya mayar da kwafin sau ɗaya zuwa hanyar haɗi mai rai. Ana rubuta ƙimar haɗawa ɗaya a filayen DXF na hagu da dama.
 
 Duba kuma [Leader](../leader/), [LeaderAdd](../leader-add/) da [LeaderRemove](../leader-remove/).

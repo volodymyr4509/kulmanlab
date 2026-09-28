@@ -16,12 +16,14 @@ Skriv `Textstil` eller klicka på **Textstil** i kommentarpanelen. ✓ markerar 
 
 | Fält | Funktion |
 |---|---|
-| Namn | Unikt namn; `Standard` kan inte döpas om |
-| Teckensnitt / Höjd | Typsnitt och fast höjd; `0` = anges per text |
+| Byt namn | Använd pennan bredvid namnet för att redigera det i listan; `Standard` kan inte döpas om. |
+| Teckensnitt / Höjd | Typsnitt och obligatorisk positiv höjd. Noll eller negativa värden blir `1`; hanteraren godtar bara värden över `0`. |
 | Fet / Kursiv | Formatering som växlas oberoende |
 | Radavstånd | Avståndet mellan textrader |
 | Horisontell justering | Vänster, centrerad, höger eller marginaljusterad |
 | Ram | Rektangulär ram runt ny text |
+
+Förhandsvisningen använder samma renderare som arbetsytan och visar två rader. Teckensnitt, höjd, fetstil, kursiv, ram, radavstånd och justering uppdateras direkt; värdet visar anpassningszoom. Nya stilar är **vänsterställda** som standard.
 
 **Ny** kopierar den valda stilen. **Ta bort** kan inte ta bort `Standard` eller aktuell stil. **Ange som aktuell** påverkar bara text som skapas därefter; befintlig text ändras inte. Ett tomt, duplicerat eller ogiltigt DXF-namn inaktiverar **OK**. Importerade annotativa stilar döljs, men deras data bevaras.
 

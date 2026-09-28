@@ -21,15 +21,15 @@ Les styles visibles sont à gauche et les propriétés du style sélectionné à
 
 | Champ | Fonction |
 |-------|----------|
-| Nom | Nom unique du style. `Standard` ne peut pas être renommé. |
+| Renommer | Utilisez le crayon près du nom pour le modifier dans la liste ; `Standard` ne peut pas être renommé. |
 | Police | Police issue de la liste du [Gestionnaire de polices](../font-manager/). |
-| Hauteur | Hauteur fixe ; `0` signifie **Définie par texte**. |
+| Hauteur | Hauteur de texte positive obligatoire. Une valeur nulle ou négative devient `1` ; le gestionnaire n’accepte que les valeurs supérieures à `0`. |
 | Gras / Italique | Active chaque mise en forme indépendamment. |
 | Interligne | Multiplicateur de l'espace entre les lignes. |
 | Alignement horizontal | Valeur par défaut : gauche, centre, droite ou justifié. |
 | Cadre | Trace un cadre rectangulaire autour du nouveau texte. |
 
-L'aperçu montre la police, la graisse et l'inclinaison. Le cadre, l'interligne et l'alignement s'appliquent au texte créé ensuite. Les noms vides, en double ou invalides pour DXF sont refusés et **OK** reste désactivé.
+L’aperçu trace un pangramme sur deux lignes avec le même moteur que le canevas. Police, hauteur, gras, italique, cadre, interligne et alignement se mettent à jour immédiatement ; l’indicateur affiche le zoom d’ajustement. Les nouveaux styles sont alignés **à gauche** par défaut.
 
 Les styles annotatifs importés depuis DXF sont actuellement masqués, car l'échelle annotative n'est pas encore rendue. Leurs enregistrements sont conservés.
 

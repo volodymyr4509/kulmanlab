@@ -18,7 +18,7 @@ Xem trang [Trình Soạn Thảo Văn Bản](../../interface/text-editor/) để 
 3. **Trình soạn thảo văn bản popup** mở phía trên nhãn mới. Gõ nội dung của bạn.
 4. Nhấn **Escape** để xác nhận nhãn và đóng trình soạn thảo.
 
-Chiều cao mặc định là **12 đơn vị bản vẽ**.
+Văn bản mới sao chép phông chữ, chiều cao, đậm, nghiêng, giãn dòng, căn ngang và khung từ [KiểuChữ](../text-style/) hiện hành. Kiểu `Standard` tích hợp dùng chiều cao **1 đơn vị bản vẽ** và căn trái.
 
 ## Chỉnh sửa nhãn hiện có
 
@@ -57,6 +57,8 @@ Chiều cao mặc định là **12 đơn vị bản vẽ**.
 | [Scale](../scale/) | Chia tỉ lệ điểm neo và nhân chiều cao với hệ số |
 | [Delete](../delete/) | Xóa nhãn |
 
+Phần **Thuộc tính** cũng có căn ngang, chiều rộng tham chiếu, giãn dòng và khung.
+
 ## DXF — thực thể MTEXT
 
-Nhãn văn bản được lưu dưới dạng thực thể **MTEXT** trong tệp DXF. In đậm và in nghiêng được mã hóa bằng các mã nội tuyến MTEXT. Tất cả định dạng được bảo toàn khi xuất và đọc được bởi LibreCAD, FreeCAD và các ứng dụng tương thích DXF khác.
+Nhãn được lưu dưới dạng thực thể **MTEXT**. Đậm và nghiêng dùng `\f`, gạch chân dùng `\L`/`\l`, gạch ngang dùng `\K`/`\k`, còn chiều cao từng ký tự dùng `\H`. Chiều rộng tham chiếu, giãn dòng, căn đoạn, xoay và điểm đính kèm cũng được bảo toàn. Khung được xuất bằng cờ khung MTEXT và tỷ lệ viền tương thích AutoCAD. Xem [KiểuChữ](../text-style/) và [Trình quản lý phông](../font-manager/).

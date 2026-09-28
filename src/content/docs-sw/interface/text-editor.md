@@ -142,4 +142,4 @@ Mapumziko ya mstari mgumu na uumbizaji wa kila herufi huhifadhiwa kwa kutumia mu
 
 ## Uoanifu wa DXF
 
-Vipande vya maandishi huhifadhiwa kama **MTEXT** katika faili za DXF. Herufi nzito na italiki zimewekwa msimbo kupitia msimbo wa kubadilisha fonti wa ndani (`\f`); mstari wa chini hutumia `\L`/`\l`; kupigwa mstari hutumia `\K`/`\k`. Uumbizaji huu husalia baada ya safari kamili ya kwenda na kurudi ya DXF na unasomwa na LibreCAD, FreeCAD, na programu nyingine zinazooana na DXF. Ubatilishaji wa fonti kwa kila herufi huhifadhiwa wakati wa kusafirisha — ubatilishaji wa urefu kwa kila herufi hauhifadhiwi; ni urefu wa msingi wa kipande pekee unaoandikwa.
+Lebo huhifadhiwa kama vipengee vya **MTEXT**. Nzito na mlalo hutumia `\f`, mstari chini `\L`/`\l`, mstari katikati `\K`/`\k`, na urefu kwa herufi hutumia `\H`. Upana wa marejeo, nafasi ya mistari, mpangilio wa aya, mzunguko na kiambatisho pia huhifadhiwa. Fremu husafirishwa kwa alama ya fremu ya MTEXT na kipimo cha mpaka kinachooana na AutoCAD. Tazama [MtindoWaMaandishi](../text-style/) na [Kidhibiti Fonti](../font-manager/).

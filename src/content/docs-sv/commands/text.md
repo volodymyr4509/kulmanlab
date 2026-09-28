@@ -19,7 +19,7 @@ Se sidan [Texteditor](../../interface/text-editor/) för den fullständiga edito
 3. **Textredigerarens popup** öppnas ovanför den nya etiketten. Skriv ditt innehåll.
 4. Tryck på **Escape** för att bekräfta etiketten och stänga redigeraren.
 
-Standardhöjden är **12 ritningsenheter**.
+Ny text kopierar teckensnitt, höjd, fetstil, kursiv, radavstånd, vågrät justering och ram från aktuell [Textstil](../text-style/). Den inbyggda stilen `Standard` använder höjden **1 ritningsenhet** och vänsterjustering.
 
 ## Redigera en befintlig etikett
 
@@ -101,7 +101,7 @@ När en textetikett är vald visar egenskapspanelen:
 | Egenskap | Betydelse |
 |----------|---------|
 | Position X / Position Y | Ankarpunktens koordinater |
-| Height | Grundtexthöjd i ritningsenheter (standard: **12**) |
+| Height | Grundhöjd i ritningsenheter, kopierad från aktuell Textstil när texten skapas |
 | Rotation Degree | Rotation moturs i grader |
 
 **Egenskaper**
@@ -113,6 +113,8 @@ När en textetikett är vald visar egenskapspanelen:
 
 Text har inte egenskaperna Linetype, Linetype Scale eller Thickness.
 
+Under **Egenskaper** visas även vågrät justering, referensbredd, radavstånd och ram.
+
 ## DXF — MTEXT-entitet
 
-Textetiketter sparas som **MTEXT**-entiteter i DXF-filen. Fetstil och kursiv kodas via en infogad typsnittsväxlingskod (`\f`); understruken använder `\L`/`\l`; genomstruken använder `\K`/`\k`. Denna formatering överlever en fullständig DXF-rundtur och är läsbar av LibreCAD, FreeCAD och andra DXF-kompatibla applikationer. Åsidosättningar av typsnitt per tecken bevaras vid export — åsidosättningar av höjd per tecken gör det inte; endast etikettens grundhöjd skrivs.
+Textetiketter lagras som **MTEXT**. Fetstil och kursiv använder `\f`, understrykning `\L`/`\l`, genomstrykning `\K`/`\k` och teckenvisa höjder `\H`. Referensbredd, radavstånd, styckejustering, rotation och fästpunkt bevaras också. Ram exporteras med MTEXT-ramflaggan och en AutoCAD-kompatibel kantskala. Se [Textstil](../text-style/) och [Teckensnittshanteraren](../font-manager/).

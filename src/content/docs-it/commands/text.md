@@ -19,7 +19,7 @@ Vedi la pagina [Editor di Testo](../../interface/text-editor/) per il riferiment
 3. Si apre il **popup dell'editor di testo** sopra la nuova etichetta. Digita il contenuto.
 4. Premi **Esc** per confermare l'etichetta e chiudere l'editor.
 
-L'altezza predefinita è **12 unità di disegno**.
+Il nuovo testo copia font, altezza, grassetto, corsivo, interlinea, allineamento orizzontale e cornice dallo [StileTesto](../text-style/) corrente. Lo stile integrato `Standard` usa un’altezza di **1 unità di disegno** e l’allineamento a sinistra.
 
 ## Modificare un'etichetta esistente
 
@@ -85,6 +85,8 @@ Un'etichetta di testo selezionata espone un grip nel punto di ancoraggio:
 
 Il testo non supporta **Offset**, **Trim** o **Extend**.
 
+La sezione **Proprietà** include anche allineamento orizzontale, larghezza di riferimento, interlinea e cornice.
+
 ## DXF — entità MTEXT
 
-Le etichette di testo sono memorizzate come entità **MTEXT** nel file DXF. Grassetto e corsivo sono codificati tramite un codice di cambio font inline (`\f`); il sottolineato usa `\L`/`\l`; il barrato usa `\K`/`\k`. Questa formattazione sopravvive a un round-trip DXF completo ed è leggibile da LibreCAD, FreeCAD e altre applicazioni compatibili DXF. Le sostituzioni di font per carattere sono preservate all'esportazione — le sostituzioni di altezza per carattere no; viene scritta solo l'altezza di base dell'etichetta.
+Le etichette sono memorizzate come entità **MTEXT**. Grassetto e corsivo usano `\f`, sottolineato `\L`/`\l`, barrato `\K`/`\k` e le altezze per carattere usano `\H`. Vengono conservati anche larghezza di riferimento, interlinea, allineamento del paragrafo, rotazione e punto di attacco. La cornice viene esportata con il flag MTEXT e una scala del bordo compatibile con AutoCAD. Vedi [StileTesto](../text-style/) e [Gestione font](../font-manager/).

@@ -95,7 +95,7 @@ Välkommen till **KulmanLab CAD**-kommandoreferensen. [KulmanLab CAD](https://ku
 | [Angle](./commands/angle/) | Mät vinkeln mellan tre punkter |
 | [Area](./commands/area/) | Mät area och omkrets för en polygon |
 
-## Linje
+## Stilar
 
 | Kommando | Vad det gör |
 |---------|-------------|
@@ -103,6 +103,8 @@ Välkommen till **KulmanLab CAD**-kommandoreferensen. [KulmanLab CAD](https://ku
 | [Font Manager](./commands/font-manager/) | Bläddra bland, välj och ladda upp anpassade TTF-typsnitt |
 | [FontAdd](./commands/font-add/) | Ladda upp ett anpassat TTF-typsnitt direkt från terminalen |
 | [Hatch Manager](./commands/hatch-manager/) | Bläddra i hatch-mönsterbiblioteket och ladda upp .pat-filer |
+| [Textstil](./commands/text-style/) | Skapa och hantera namngivna textstilar för ny text |
+| [Ledarstil](./commands/leader-style/) | Skapa och hantera namngivna multileaderstilar |
 
 ## Fil
 

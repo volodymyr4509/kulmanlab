@@ -19,7 +19,7 @@ Lihat halaman [Text Editor](../../interface/text-editor/) untuk referensi editor
 3. **Editor popup teks** terbuka di atas label baru. Ketik konten Anda.
 4. Tekan **Escape** untuk mengonfirmasi label dan menutup editor.
 
-Tinggi default adalah **12 satuan gambar**.
+Teks baru menyalin font, tinggi, tebal, miring, jarak baris, perataan horizontal, dan bingkai dari [GayaTeks](../text-style/) saat ini. Gaya bawaan `Standard` memakai tinggi **1 unit gambar** dan perataan kiri.
 
 ## Mengedit label yang ada
 
@@ -101,7 +101,7 @@ Ketika label teks dipilih, panel properti menampilkan:
 | Properti | Arti |
 |----------|---------|
 | Position X / Position Y | Koordinat titik jangkar |
-| Height | Tinggi teks dasar dalam satuan gambar (default: **12**) |
+| Height | Tinggi dasar dalam unit gambar, disalin dari GayaTeks saat ini ketika dibuat |
 | Rotation Degree | Rotasi berlawanan arah jarum jam dalam derajat |
 
 **Properti**
@@ -113,6 +113,8 @@ Ketika label teks dipilih, panel properti menampilkan:
 
 Teks tidak memiliki properti Linetype, Linetype Scale, atau Thickness.
 
+Bagian **Properties** juga menampilkan perataan horizontal, lebar referensi, jarak baris, dan bingkai.
+
 ## DXF — entitas MTEXT
 
-Label teks disimpan sebagai entitas **MTEXT** dalam file DXF. Tebal dan miring dikodekan melalui kode pengalihan font inline (`\f`); garis bawah menggunakan `\L`/`\l`; coret menggunakan `\K`/`\k`. Pemformatan ini bertahan melalui round-trip DXF penuh dan dapat dibaca oleh LibreCAD, FreeCAD, dan aplikasi lain yang kompatibel dengan DXF. Penggantian font per karakter dipertahankan saat diekspor — penggantian tinggi per karakter tidak; hanya tinggi dasar label yang ditulis.
+Label disimpan sebagai entitas **MTEXT**. Tebal dan miring memakai `\f`, garis bawah `\L`/`\l`, coret `\K`/`\k`, dan tinggi per karakter memakai `\H`. Lebar referensi, jarak baris, perataan paragraf, rotasi, dan titik lampiran juga dipertahankan. Bingkai diekspor dengan flag bingkai MTEXT dan skala batas yang kompatibel dengan AutoCAD. Lihat [GayaTeks](../text-style/) dan [Pengelola Font](../font-manager/).

@@ -142,4 +142,4 @@ Los saltos de línea duros y el formato por carácter se almacenan usando el for
 
 ## Compatibilidad con DXF
 
-Las entidades de texto se almacenan como **MTEXT** en los archivos DXF. La negrita y la cursiva se codifican mediante un código de conmutador de fuente en línea (`\f`); el subrayado usa `\L`/`\l`; el tachado usa `\K`/`\k`. Este formato sobrevive a un ciclo completo de DXF y es legible por LibreCAD, FreeCAD y otras aplicaciones compatibles con DXF. Las anulaciones de fuente por carácter se conservan al exportar — las anulaciones de altura por carácter no; solo se escribe la altura base de la entidad.
+Las etiquetas se guardan como entidades **MTEXT**. Negrita y cursiva usan `\f`, subrayado `\L`/`\l`, tachado `\K`/`\k` y las alturas por carácter usan `\H`. También se conservan la anchura de referencia, el interlineado, la alineación de párrafo, la rotación y el punto de enlace. El marco se exporta con el indicador de marco MTEXT y una escala de borde compatible con AutoCAD. Consulte [EstiloTexto](../text-style/) y [Administrador de fuentes](../font-manager/).

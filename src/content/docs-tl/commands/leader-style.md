@@ -29,6 +29,6 @@ Kinokopya ng **Bago** ang napiling estilo. Hindi maaaring palitan ang pangalan o
 
 ## Pag-save at DXF
 
-Inilalapat ng **OK** ang lahat ng pagbabago; itinatapon naman ng **Isara** o `Escape` ang mga ito. Binabasa at isinusulat ng KulmanLab ang mga `MLEADERSTYLE` record. Sine-save bilang style field ang pangalan, ulo at laki ng palaso, puwang, taas, kabit, kuwadro at annotative flag. Ang pag-ikot, font, kapal at pahilig ay mga KulmanLab default na kinokopya sa panuro kapag ginawa ito.
+Nag-i-import at nag-e-export ang KulmanLab ng `MLEADERSTYLE` records. Nananatiling style fields ang pangalan, arrowhead at laki, landing gap, taas, text attachment, kuwadro at annotative flag. Sa export, itinuturo ng group `342` ang EstiloNgTeksto na tugma ang font, kapal, pahilig at taas; `Standard` ang gamit kung walang tugma. Hindi ginagawa ng DXF reference na ito na live link ang minsanang pagkopya sa app. Isinusulat ang iisang attachment value sa kaliwa at kanang DXF fields.
 
 Tingnan din ang [Leader](../leader/), [LeaderAdd](../leader-add/) at [LeaderRemove](../leader-remove/).

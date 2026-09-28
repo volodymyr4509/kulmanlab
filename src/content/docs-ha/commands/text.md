@@ -19,7 +19,7 @@ Duba shafin [Naʼurar Gyaran Rubutu](../../interface/text-editor/) don cikakken 
 3. **Popup na naʼurar gyaran rubutu** yana buɗewa a saman sabuwar alama. Rubuta abin cikinka.
 4. Danna **Escape** don tabbatar da alamar ka rufe naʼurar.
 
-Tsayi na tsoho shine **12 unit na zane**.
+Sabon rubutu yana kwafin font, tsayi, kauri, karkata, tazarar layi, daidaitawar kwance da firam daga [SalonRubutu](../text-style/) na yanzu. Salon `Standard` yana amfani da tsayin **raka’ar zane 1** da daidaitawar hagu.
 
 ## Gyara alama da ke akwai
 
@@ -101,7 +101,7 @@ Idan alamar rubutu ya zaɓa, panel na abubuwa yana nuna:
 | Abu | Ma'ana |
 |----------|---------|
 | Position X / Position Y | Daidaitawar tabon anchor |
-| Height | Tsayin rubutu na asali a unit na zane (tsoho: **12**) |
+| Height | Tsayin asali a raka’o’in zane, an kwafe daga SalonRubutu na yanzu lokacin ƙirƙira |
 | Rotation Degree | Juyawa nagaba-da-kusurwar-agogo a digiri |
 
 **Abubuwan**
@@ -113,6 +113,8 @@ Idan alamar rubutu ya zaɓa, panel na abubuwa yana nuna:
 
 Text ba ta da abubuwan Linetype, Linetype Scale, ko Thickness.
 
+Sashen **Kaddarori** kuma yana nuna daidaitawar kwance, faɗin tunani, tazarar layi da firam.
+
 ## DXF — Abin MTEXT
 
-Alamun rubutu ana ajiye su a matsayin abubuwan **MTEXT** a fayil ɗin DXF. Ana kodada mai-nauyi da karkatacce ta amfani da `\L`, `\K`, `\O`, da sauya font a ciki (`\f`). Ana kodada tsayi ga kowane harafi a matsayin `\H`. Dukkan tsari yana wanzuwa a cikakken juyawar DXF kuma ana iya karanta shi ta LibreCAD, FreeCAD, da wasu manhajoji masu dacewa da DXF.
+Ana adana lakabin rubutu a matsayin abubuwan **MTEXT**. Kauri da karkata suna amfani da `\f`, layin ƙasa `\L`/`\l`, layin tsakiya `\K`/`\k`, kuma tsayin kowace alama yana amfani da `\H`. Faɗin tunani, tazarar layi, daidaitawar sakin layi, juyawa da haɗawa ma suna nan. Ana fitar da firam da alamar firam ta MTEXT da ma’aunin iyaka mai dacewa da AutoCAD. Duba [SalonRubutu](../text-style/) da [Mai sarrafa font](../font-manager/).

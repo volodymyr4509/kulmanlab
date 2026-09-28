@@ -93,7 +93,7 @@ order: 1
 | [Angle](./commands/angle/) | ਤਿੰਨ ਬਿੰਦੂਆਂ ਵਿਚਕਾਰ ਕੋਣ ਮਾਪੋ |
 | [Area](./commands/area/) | ਬਹੁਭੁਜ ਦਾ ਖੇਤਰਫਲ ਅਤੇ ਘੇਰਾ ਮਾਪੋ |
 
-## ਸਟ੍ਰੋਕ
+## ਸ਼ੈਲੀਆਂ
 
 | ਕਮਾਂਡ | ਇਹ ਕੀ ਕਰਦੀ ਹੈ |
 |---------|-------------|
@@ -101,6 +101,8 @@ order: 1
 | [Font Manager](./commands/font-manager/) | ਫੌਂਟ ਬ੍ਰਾਊਜ਼ ਕਰੋ, ਚੁਣੋ, ਅਤੇ ਕਸਟਮ TTF ਫੌਂਟ ਅੱਪਲੋਡ ਕਰੋ |
 | [FontAdd](./commands/font-add/) | ਟਰਮੀਨਲ ਤੋਂ ਸਿੱਧਾ ਕਸਟਮ TTF ਫੌਂਟ ਅੱਪਲੋਡ ਕਰੋ |
 | [Hatch Manager](./commands/hatch-manager/) | hatch ਪੈਟਰਨ ਲਾਇਬ੍ਰੇਰੀ ਬ੍ਰਾਊਜ਼ ਕਰੋ ਅਤੇ .pat ਫਾਈਲਾਂ ਅੱਪਲੋਡ ਕਰੋ |
+| [TextStyle ਟੈਕਸਟ ਸ਼ੈਲੀ](./commands/text-style/) | ਨਵੇਂ ਟੈਕਸਟ ਲਈ ਨਾਮ ਵਾਲੀਆਂ ਟੈਕਸਟ ਸ਼ੈਲੀਆਂ ਬਣਾਓ ਅਤੇ ਸੰਭਾਲੋ |
+| [LeaderStyle ਲੀਡਰ ਸ਼ੈਲੀ](./commands/leader-style/) | ਨਾਮ ਵਾਲੀਆਂ ਮਲਟੀਲੀਡਰ ਸ਼ੈਲੀਆਂ ਬਣਾਓ ਅਤੇ ਸੰਭਾਲੋ |
 
 ## ਫ਼ਾਈਲ
 

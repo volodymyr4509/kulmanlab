@@ -142,4 +142,4 @@ Twarde podziały wierszy i formatowanie poszczególnych znaków są przechowywan
 
 ## Zgodność z DXF
 
-Elementy tekstowe są przechowywane jako **MTEXT** w plikach DXF. Pogrubienie i kursywa są kodowane za pomocą wbudowanego kodu przełącznika czcionki (`\f`); podkreślenie używa `\L`/`\l`; przekreślenie używa `\K`/`\k`. To formatowanie przetrwa pełny cykl DXF i jest czytelne przez LibreCAD, FreeCAD i inne aplikacje zgodne z DXF. Nadpisania czcionki dla poszczególnych znaków są zachowywane przy eksporcie — nadpisania wysokości dla poszczególnych znaków nie są; zapisywana jest tylko podstawowa wysokość elementu.
+Etykiety są zapisywane jako encje **MTEXT**. Pogrubienie i kursywa używają `\f`, podkreślenie `\L`/`\l`, przekreślenie `\K`/`\k`, a wysokości znaków `\H`. Zachowywane są również szerokość odniesienia, interlinia, wyrównanie akapitu, obrót i punkt zaczepienia. Ramka jest eksportowana z flagą MTEXT i skalą obramowania zgodną z AutoCAD. Zobacz [StylTekstu](../text-style/) i [Menedżer czcionek](../font-manager/).

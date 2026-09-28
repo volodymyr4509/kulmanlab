@@ -142,4 +142,4 @@ Harde regelafbrekingen en opmaak per teken worden opgeslagen met behulp van het 
 
 ## DXF-compatibiliteit
 
-Tekstentiteiten worden opgeslagen als **MTEXT** in DXF-bestanden. Vet en cursief worden gecodeerd via een inline lettertypewisselcode (`\f`); onderstrepen gebruikt `\L`/`\l`; doorhalen gebruikt `\K`/`\k`. Deze opmaak overleeft een volledige DXF-rondgang en is leesbaar door LibreCAD, FreeCAD en andere DXF-compatibele toepassingen. Overschrijvingen van lettertype per teken blijven behouden bij export — overschrijvingen van hoogte per teken niet; alleen de basishoogte van de entiteit wordt geschreven.
+Tekstlabels worden opgeslagen als **MTEXT**. Vet en cursief gebruiken `\f`, onderstrepen `\L`/`\l`, doorhalen `\K`/`\k` en hoogten per teken `\H`. Referentiebreedte, regelafstand, alinea-uitlijning, rotatie en aanhechting blijven ook behouden. Een kader wordt geëxporteerd met de MTEXT-kadervlag en een AutoCAD-compatibele randschaal. Zie [Tekststijl](../text-style/) en [Lettertypebeheer](../font-manager/).

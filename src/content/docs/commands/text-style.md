@@ -25,7 +25,7 @@ Each row shows the style's name. A check mark identifies the *current* style—t
 |--------|---------|
 | ✓ | This is the *current* style—new Text copies its formatting defaults |
 
-Click a row to select it for editing; double-click to select **and** make it current in one step.
+Click a row to select it for editing; double-click to select **and** make it current in one step. Use the pencil beside a style name to rename it inline. `Standard` cannot be renamed.
 
 ## Editing a style
 
@@ -33,15 +33,14 @@ With a style selected, its properties sit on the right:
 
 | Field | What it controls |
 |-------|-------------------|
-| Name | The style's name. `Standard` can't be renamed — the field is disabled for it. |
 | Font | The typeface, picked from the same list [FontManager](../font-manager/) manages — upload a custom font there and it appears here too. |
-| Height | A fixed text height, or `0` to leave it unset (shown as "Set per text") — a style with no height falls back to `12` for new text created with it. |
+| Height | A required positive text height. New and legacy styles with a zero or negative height use `1`; the manager accepts values greater than `0`. |
 | Bold / Italic | Toggle each independently; the live sample box above updates immediately. |
 | Line Spacing | Multiplier applied between text rows. `1` uses normal spacing; larger values spread the rows farther apart. |
 | Horizontal Alignment | Default paragraph alignment for new Text: Left, Center, Right, or Justify. |
 | Frame | Draws a rectangular frame around new Text created with the style. |
 
-The sample box shows the alphabet, a pangram, and digits in the style's current font, weight, and slant. Frame, line spacing, and alignment affect newly created Text rather than the sample.
+The preview draws a two-line pangram through the same renderer as canvas Text. Font, height, bold, italic, frame, line spacing, and horizontal alignment all update immediately; the zoom readout shows the scale used to fit the preview. New styles default to **Left** alignment.
 
 Annotative styles imported from DXF are currently hidden because annotative scaling is not rendered yet. Their records are preserved, but they cannot be selected or edited in this dialog.
 

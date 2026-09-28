@@ -19,7 +19,7 @@ See the [Text Editor](../../interface/text-editor/) page for the full editor ref
 3. The **text editor popup** opens above the new label. Type your content.
 4. Press **Escape** to commit the label and close the editor.
 
-The default height is **12 drawing units**.
+New Text copies font, height, bold, italic, line spacing, horizontal alignment, and frame from the current [TextStyle](../text-style/). The built-in `Standard` style uses a height of **1 drawing unit** and Left alignment.
 
 ## Editing an existing label
 
@@ -101,7 +101,7 @@ When a text label is selected the properties panel shows:
 | Property | Meaning |
 |----------|---------|
 | Position X / Position Y | Anchor point coordinates |
-| Height | Base text height in drawing units (default: **12**) |
+| Height | Base text height in drawing units, copied from the current TextStyle when created |
 | Rotation Degree | Counter-clockwise rotation in degrees |
 
 **Properties**
@@ -110,9 +110,20 @@ When a text label is selected the properties panel shows:
 |----------|---------|
 | Content | The text string (MTEXT inline codes preserved) |
 | Attachment Point | Alignment code (1 = top-left … 9 = bottom-right) |
+| Horizontal Alignment | Left, Center, Right, or Justify within the reference width |
+| Reference Width | Width used for wrapping and paragraph alignment; `0` means no explicit width |
+| Line Spacing | Multiplier applied between text rows |
+| Frame | Draws a rectangular frame around the text |
 
 Text does not have Linetype, Linetype Scale, or Thickness properties.
 
 ## DXF — MTEXT entity
 
-Text labels are stored as **MTEXT** entities in the DXF file. Bold and italic are encoded using an inline font-switch code (`\f`); underline uses `\L`/`\l`; strikethrough uses `\K`/`\k`. This formatting round-trips through DXF and is readable by LibreCAD, FreeCAD, and other DXF-compatible applications. Per-character height overrides are not preserved on export — only the label's base height is.
+Text labels are stored as **MTEXT** entities in the DXF file. Bold and italic use inline font-switch codes (`\f`), underline uses `\L`/`\l`, strikethrough uses `\K`/`\k`, and per-character height overrides use `\H`. Reference width, line spacing, paragraph alignment, rotation, and attachment also round-trip. A Text frame is exported with the MTEXT frame flag and AutoCAD-compatible border scale.
+
+## Related commands
+
+| Command | What it does |
+|---|---|
+| [TextStyle](../text-style/) | Sets the formatting defaults copied by newly created Text |
+| [FontManager](../font-manager/) | Manages the fonts available to Text and TextStyle |

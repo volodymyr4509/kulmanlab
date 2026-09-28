@@ -95,7 +95,7 @@ order: 1
 | [Angle](./commands/angle/) | 세 점 사이의 각도 측정 |
 | [Area](./commands/area/) | 다각형의 면적과 둘레 측정 |
 
-## 획
+## 스타일
 
 | 명령어 | 기능 |
 |--------|------|
@@ -103,6 +103,8 @@ order: 1
 | [Font Manager](./commands/font-manager/) | 글꼴 찾아보기, 선택 및 사용자 지정 TTF 글꼴 업로드 |
 | [FontAdd](./commands/font-add/) | 터미널에서 바로 사용자 지정 TTF 글꼴 업로드 |
 | [Hatch Manager](./commands/hatch-manager/) | hatch 패턴 라이브러리 찾아보기 및 .pat 파일 업로드 |
+| [TextStyle 텍스트 스타일](./commands/text-style/) | 새 텍스트용 명명된 텍스트 스타일 만들기 및 관리 |
+| [LeaderStyle 지시선 스타일](./commands/leader-style/) | 명명된 다중 지시선 스타일 만들기 및 관리 |
 
 ## 파일
 

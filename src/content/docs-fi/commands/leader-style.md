@@ -29,6 +29,6 @@ Kirjoita `OsoitinTyyli` tai napsauta huomautuspaneelin **Osoitinviivan tyyli** -
 
 ## Tallentaminen ja DXF
 
-**OK** ottaa kaikki muutokset käyttöön; **Sulje** tai `Escape` hylkää ne. KulmanLab lukee ja kirjoittaa `MLEADERSTYLE`-tietueita. Nimi, nuolenkärki ja koko, väli, korkeus, kiinnitys, kehys ja annotatiivinen lippu tallennetaan tyylikenttinä. Kierto, fontti, lihavointi ja kursivointi ovat KulmanLabin oletusarvoja, jotka kopioidaan viitenuoleen sitä luotaessa.
+KulmanLab tuo ja vie `MLEADERSTYLE`-tietueita. Nimi, nuolenkärki ja koko, laskeutumisväli, tekstikorkeus, tekstin kiinnitys, kehys ja annotatiivinen lippu säilyvät tyylikenttinä. Viennissä ryhmä `342` osoittaa Tekstityyliin, jonka fontti, lihavointi, kursivointi ja korkeus täsmäävät; muussa tapauksessa käytetään `Standard`-tyyliä. DXF-viite ei muuta sovelluksen kertakopiointia eläväksi linkiksi. Yksi kiinnitysarvo kirjoitetaan sekä vasempaan että oikeaan DXF-kenttään.
 
 Katso myös [Leader](../leader/), [LeaderAdd](../leader-add/) ja [LeaderRemove](../leader-remove/).

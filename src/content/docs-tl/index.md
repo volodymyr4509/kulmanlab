@@ -95,7 +95,7 @@ Maligayang pagdating sa command reference ng **KulmanLab CAD**. Ang [KulmanLab C
 | [Angle](./commands/angle/) | Sukatin ang angle sa pagitan ng tatlong punto |
 | [Area](./commands/area/) | Sukatin ang area at perimeter ng isang polygon |
 
-## Guhit
+## Mga Estilo
 
 | Command | Ano ang ginagawa nito |
 |---------|-------------|
@@ -103,6 +103,8 @@ Maligayang pagdating sa command reference ng **KulmanLab CAD**. Ang [KulmanLab C
 | [Font Manager](./commands/font-manager/) | I-browse, piliin, at mag-upload ng custom na TTF font |
 | [FontAdd](./commands/font-add/) | Mag-upload ng custom na TTF font direkta mula sa terminal |
 | [Hatch Manager](./commands/hatch-manager/) | I-browse ang hatch pattern library at mag-upload ng .pat files |
+| [EstiloNgTeksto](./commands/text-style/) | Gumawa at mamahala ng pinangalanang estilo para sa bagong teksto |
+| [EstiloNgLeader](./commands/leader-style/) | Gumawa at mamahala ng pinangalanang multileader style |
 
 ## File
 

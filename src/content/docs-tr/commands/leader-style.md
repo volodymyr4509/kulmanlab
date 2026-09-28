@@ -29,6 +29,6 @@ order: 7
 
 ## Kaydetme ve DXF
 
-**Tamam** tüm değişiklikleri uygular; **Kapat** veya `Escape` değişiklikleri atar. KulmanLab `MLEADERSTYLE` kayıtlarını okur ve yazar. Ad, ok başı ve boyutu, boşluk, yükseklik, bağlantı, çerçeve ve açıklamalı işareti stil alanları olarak saklanır. Dönüş, yazı tipi, kalın ve italik, oluşturma sırasında lidere kopyalanan KulmanLab varsayılanlarıdır.
+KulmanLab `MLEADERSTYLE` kayıtlarını içe ve dışa aktarır. Ad, ok ucu ve boyutu, iniş boşluğu, metin yüksekliği, ek noktası, çerçeve ve açıklayıcı bayrak stil alanları olarak korunur. Dışa aktarımda `342` grubu yazı tipi, kalın, italik ve yüksekliği eşleşen MetinStili’ni gösterir; eşleşme yoksa `Standard` kullanılır. Bu DXF başvurusu uygulamadaki tek seferlik doldurmayı canlı bağlantıya dönüştürmez. Tek ek değeri hem sol hem sağ DXF alanına yazılır.
 
 Ayrıca [Leader](../leader/), [LeaderAdd](../leader-add/) ve [LeaderRemove](../leader-remove/) sayfalarına bakın.

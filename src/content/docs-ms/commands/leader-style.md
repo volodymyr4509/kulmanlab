@@ -29,6 +29,6 @@ Taip `GayaPetunjuk` atau klik **Gaya Garis Petunjuk** dalam panel anotasi. ✓ m
 
 ## Menyimpan dan DXF
 
-**OK** menggunakan semua perubahan; **Tutup** atau `Escape` membatalkannya. KulmanLab membaca dan menulis rekod `MLEADERSTYLE`. Nama, mata dan saiz anak panah, jurang, tinggi, lekatan, bingkai dan bendera anotatif disimpan sebagai medan gaya. Putaran, fon, tebal dan condong ialah nilai lalai KulmanLab yang disalin kepada penunjuk ketika dicipta.
+KulmanLab mengimport dan mengeksport rekod `MLEADERSTYLE`. Nama, kepala dan saiz anak panah, jarak pendaratan, tinggi, lampiran teks, bingkai dan bendera anotatif dikekalkan sebagai medan gaya. Semasa eksport, kumpulan `342` menunjuk kepada GayaTeks dengan fon, tebal, condong dan tinggi yang sepadan; jika tiada padanan, `Standard` digunakan. Rujukan DXF ini tidak menjadikan salinan sekali dalam aplikasi sebagai pautan langsung. Satu nilai lampiran ditulis pada kedua-dua medan DXF kiri dan kanan.
 
 Lihat juga [Leader](../leader/), [LeaderAdd](../leader-add/) dan [LeaderRemove](../leader-remove/).

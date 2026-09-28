@@ -19,7 +19,7 @@ order: 0
 3. Yeni etiketin üzerinde **metin düzenleyici açılır penceresi** açılır. İçeriğinizi yazın.
 4. Etiketi kaydetmek ve düzenleyiciyi kapatmak için **Escape** tuşuna basın.
 
-Varsayılan yükseklik **12 çizim birimidir**.
+Yeni metin yazı tipi, yükseklik, kalın, italik, satır aralığı, yatay hizalama ve çerçeveyi geçerli [MetinStili](../text-style/) üzerinden kopyalar. Yerleşik `Standard` stili **1 çizim birimi** yükseklik ve sol hizalama kullanır.
 
 ## Mevcut Etiketi Düzenleme
 
@@ -101,7 +101,7 @@ Bir metin etiketi seçildiğinde özellikler paneli şunları gösterir:
 | Özellik | Anlam |
 |----------|---------|
 | Konum X / Konum Y | Çıpa noktası koordinatları |
-| Yükseklik | Çizim birimlerinde temel metin yüksekliği (varsayılan: **12**) |
+| Yükseklik | Oluşturulurken geçerli MetinStili üzerinden kopyalanan temel metin yüksekliği |
 | Dönüş Derecesi | Derece cinsinden saat yönünün tersine dönüş |
 
 **Özellikler**
@@ -113,6 +113,8 @@ Bir metin etiketi seçildiğinde özellikler paneli şunları gösterir:
 
 Metnin Çizgi Türü, Çizgi Türü Ölçeği veya Kalınlık özellikleri yoktur.
 
+**Özellikler** bölümü ayrıca yatay hizalama, referans genişliği, satır aralığı ve çerçeveyi gösterir.
+
 ## DXF — MTEXT nesnesi
 
-Metin etiketleri DXF dosyasında **MTEXT** nesneleri olarak saklanır. Kalın ve italik, satır içi yazı tipi anahtarlama kodu (`\f`) ile kodlanır; altı çizili `\L`/`\l` kullanır; üstü çizili `\K`/`\k` kullanır. Bu biçimlendirme tam bir DXF gidiş-dönüşünden sağlam çıkar ve LibreCAD, FreeCAD ve diğer DXF uyumlu uygulamalar tarafından okunabilir. Karakter başına yazı tipi geçersiz kılmaları dışa aktarmada korunur — karakter başına yükseklik geçersiz kılmaları korunmaz; yalnızca etiketin temel yüksekliği yazılır.
+Metin etiketleri **MTEXT** olarak saklanır. Kalın ve italik `\f`, altı çizili `\L`/`\l`, üstü çizili `\K`/`\k`, karakter başına yükseklik ise `\H` kullanır. Referans genişliği, satır aralığı, paragraf hizalaması, dönüş ve ek noktası da korunur. Çerçeve, MTEXT çerçeve bayrağı ve AutoCAD uyumlu kenarlık ölçeğiyle dışa aktarılır. Ayrıca [MetinStili](../text-style/) ve [FontManager](../font-manager/) sayfalarına bakın.

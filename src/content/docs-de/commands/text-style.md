@@ -21,15 +21,15 @@ Links stehen alle sichtbaren Stile, rechts die Eigenschaften des ausgewählten S
 
 | Feld | Funktion |
 |------|----------|
-| Name | Eindeutiger Stilname. `Standard` kann nicht umbenannt werden. |
+| Umbenennen | Mit dem Stift neben dem Stilnamen direkt in der Liste umbenennen; `Standard` kann nicht umbenannt werden. |
 | Schrift | Schriftart aus derselben Liste wie im [Schriftartenmanager](../font-manager/). |
-| Höhe | Feste Texthöhe; `0` bedeutet **Pro Text festgelegt**. |
+| Höhe | Erforderliche positive Texthöhe. Null oder negative Werte werden zu `1`; der Manager akzeptiert nur Werte größer als `0`. |
 | Fett / Kursiv | Unabhängige Formatierungsschalter. |
 | Zeilenabstand | Multiplikator für den Abstand zwischen Textzeilen. |
 | Horizontale Ausrichtung | Standardmäßig Links, Zentriert, Rechts oder Blocksatz. |
 | Rahmen | Zeichnet um neuen Text einen rechteckigen Rahmen. |
 
-Die Vorschau zeigt Schrift, Gewicht und Neigung. Rahmen, Zeilenabstand und Ausrichtung gelten für neu erzeugten Text. Leere, doppelte oder für DXF ungültige Namen werden abgelehnt; **OK** bleibt bis zur Korrektur deaktiviert.
+Die Vorschau zeichnet ein zweizeiliges Pangramm mit demselben Renderer wie die Zeichenfläche. Schrift, Höhe, Fett, Kursiv, Rahmen, Zeilenabstand und Ausrichtung werden sofort aktualisiert; die Zoomanzeige zeigt den Anpassungsmaßstab. Neue Stile sind standardmäßig **linksbündig**.
 
 Aus DXF importierte annotative Stile sind derzeit verborgen, weil die annotative Skalierung noch nicht gerendert wird. Ihre Datensätze bleiben erhalten.
 

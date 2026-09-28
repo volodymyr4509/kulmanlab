@@ -142,4 +142,4 @@ Jeda baris keras dan pemformatan per karakter disimpan menggunakan format MTEXT 
 
 ## Kompatibilitas DXF
 
-Entitas teks disimpan sebagai **MTEXT** dalam file DXF. Tebal dan miring dikodekan melalui kode pengalihan font inline (`\f`); garis bawah menggunakan `\L`/`\l`; coret menggunakan `\K`/`\k`. Pemformatan ini bertahan melalui round-trip DXF penuh dan dapat dibaca oleh LibreCAD, FreeCAD, dan aplikasi lain yang kompatibel dengan DXF. Penggantian font per karakter dipertahankan saat diekspor — penggantian tinggi per karakter tidak; hanya tinggi dasar entitas yang ditulis.
+Label disimpan sebagai entitas **MTEXT**. Tebal dan miring memakai `\f`, garis bawah `\L`/`\l`, coret `\K`/`\k`, dan tinggi per karakter memakai `\H`. Lebar referensi, jarak baris, perataan paragraf, rotasi, dan titik lampiran juga dipertahankan. Bingkai diekspor dengan flag bingkai MTEXT dan skala batas yang kompatibel dengan AutoCAD. Lihat [GayaTeks](../text-style/) dan [Pengelola Font](../font-manager/).

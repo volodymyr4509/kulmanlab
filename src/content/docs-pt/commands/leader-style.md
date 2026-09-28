@@ -29,6 +29,6 @@ Digite `EstiloGuia` ou clique em **Estilo de linha de chamada** no painel de ano
 
 ## Salvar e DXF
 
-**OK** aplica todas as alterações; **Fechar** ou `Escape` as descarta. O KulmanLab lê e grava registros `MLEADERSTYLE`. Nome, ponta e tamanho da seta, afastamento, altura, fixação, moldura e sinalizador anotativo são salvos como campos do estilo. Rotação, fonte, negrito e itálico são padrões do KulmanLab copiados para a chamada quando ela é criada.
+O KulmanLab importa e exporta registros `MLEADERSTYLE`. Nome, ponta e tamanho da seta, afastamento, altura, fixação, moldura e sinalizador anotativo são preservados como campos do estilo. Na exportação, o grupo `342` aponta para o EstiloTexto com fonte, negrito, itálico e altura correspondentes; sem correspondência, usa `Standard`. Essa referência DXF não transforma a cópia única do aplicativo em vínculo ativo. A única fixação é gravada nos campos DXF esquerdo e direito.
 
 Veja também [Leader](../leader/), [LeaderAdd](../leader-add/) e [LeaderRemove](../leader-remove/).

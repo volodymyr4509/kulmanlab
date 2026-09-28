@@ -16,12 +16,14 @@ Nhập `KiểuChữ` hoặc bấm **Kiểu chữ** trong bảng chú thích. D�
 
 | Trường | Chức năng |
 |---|---|
-| Tên | Tên duy nhất; không thể đổi tên `Standard` |
-| Phông chữ / Chiều cao | Kiểu chữ và chiều cao cố định; `0` = đặt theo từng văn bản |
+| Đổi tên | Dùng biểu tượng bút chì cạnh tên để sửa ngay trong danh sách; không thể đổi tên `Standard`. |
+| Phông chữ / Chiều cao | Kiểu chữ và chiều cao dương bắt buộc. Giá trị bằng không hoặc âm được đổi thành `1`; trình quản lý chỉ nhận giá trị lớn hơn `0`. |
 | Đậm / Nghiêng | Hai định dạng bật tắt độc lập |
 | Giãn dòng | Khoảng cách giữa các dòng |
 | Căn ngang | Trái, giữa, phải hoặc căn đều |
 | Khung | Khung chữ nhật quanh văn bản mới |
+
+Bản xem trước dùng cùng bộ kết xuất với vùng vẽ và hiển thị hai dòng. Phông, chiều cao, đậm, nghiêng, khung, giãn dòng và căn chỉnh cập nhật ngay; số hiển thị là mức thu phóng vừa khung. Kiểu mới mặc định căn **trái**.
 
 **Mới** nhân bản kiểu đang chọn. **Xóa** không thể xóa `Standard` hoặc kiểu hiện hành. **Đặt hiện hành** chỉ ảnh hưởng đến văn bản tạo sau đó; văn bản hiện có không thay đổi. Tên trống, trùng hoặc không hợp lệ trong DXF sẽ khóa **OK**. Kiểu chú thích đã nhập bị ẩn nhưng dữ liệu vẫn được giữ lại.
 

@@ -19,7 +19,7 @@ Angalia ukurasa wa [Text Editor](../../interface/text-editor/) kwa marejeo kamil
 3. **Popup ya kihariri cha maandishi** hufunguka juu ya lebo mpya. Andika maudhui yako.
 4. Bonyeza **Escape** kuthibitisha lebo na kufunga kihariri.
 
-Urefu wa chaguo-msingi ni **vitengo 12 vya kuchora**.
+Maandishi mapya hunakili fonti, urefu, uzito, mlalo, nafasi ya mistari, mpangilio mlalo na fremu kutoka [MtindoWaMaandishi](../text-style/) wa sasa. Mtindo `Standard` hutumia urefu wa **kipimo 1 cha mchoro** na mpangilio wa kushoto.
 
 ## Kuhariri lebo iliyopo
 
@@ -101,7 +101,7 @@ Lebo ya maandishi inapochaguliwa paneli ya sifa inaonyesha:
 | Sifa | Maana |
 |------|-------|
 | Nafasi X / Nafasi Y | Kuratibu za nukta ya nanga |
-| Urefu | Urefu wa maandishi wa msingi katika vitengo vya kuchora (chaguo-msingi: **12**) |
+| Height | Urefu wa msingi katika vipimo vya mchoro, unaonakiliwa kutoka MtindoWaMaandishi wa sasa unapoundwa |
 | Digrii ya Kuzungusha | Kuzungusha kinyume cha saa katika digrii |
 
 **Sifa**
@@ -113,6 +113,8 @@ Lebo ya maandishi inapochaguliwa paneli ya sifa inaonyesha:
 
 Maandishi hayana sifa za Aina ya Mstari, Kiwango cha Aina ya Mstari, au Unene.
 
+Sehemu ya **Sifa** pia huonyesha mpangilio mlalo, upana wa marejeo, nafasi ya mistari na fremu.
+
 ## DXF — kipande cha MTEXT
 
-Lebo za maandishi huhifadhiwa kama vipande vya **MTEXT** katika faili ya DXF. Herufi nzito na italiki zimewekwa msimbo kupitia msimbo wa kubadilisha fonti wa ndani (`\f`); mstari wa chini hutumia `\L`/`\l`; kupigwa mstari hutumia `\K`/`\k`. Uumbizaji huu husalia baada ya safari kamili ya kwenda na kurudi ya DXF na unasomwa na LibreCAD, FreeCAD, na programu nyingine zinazooana na DXF. Ubatilishaji wa fonti kwa kila herufi huhifadhiwa wakati wa kusafirisha — ubatilishaji wa urefu kwa kila herufi hauhifadhiwi; ni urefu wa msingi wa lebo pekee unaoandikwa.
+Lebo huhifadhiwa kama vipengee vya **MTEXT**. Nzito na mlalo hutumia `\f`, mstari chini `\L`/`\l`, mstari katikati `\K`/`\k`, na urefu kwa herufi hutumia `\H`. Upana wa marejeo, nafasi ya mistari, mpangilio wa aya, mzunguko na kiambatisho pia huhifadhiwa. Fremu husafirishwa kwa alama ya fremu ya MTEXT na kipimo cha mpaka kinachooana na AutoCAD. Tazama [MtindoWaMaandishi](../text-style/) na [Kidhibiti Fonti](../font-manager/).

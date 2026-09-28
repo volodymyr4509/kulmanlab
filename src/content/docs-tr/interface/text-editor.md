@@ -142,4 +142,4 @@ Sabit satır sonları ve karakter başına biçimlendirme, MTEXT formatı kullan
 
 ## DXF Uyumluluğu
 
-Metin nesneleri DXF dosyalarında **MTEXT** olarak saklanır. Kalın ve italik, satır içi yazı tipi anahtarlama kodu (`\f`) ile kodlanır; altı çizili `\L`/`\l` kullanır; üstü çizili `\K`/`\k` kullanır. Bu biçimlendirme tam bir DXF gidiş-dönüşünden sağlam çıkar ve LibreCAD, FreeCAD ve diğer DXF uyumlu uygulamalar tarafından okunabilir. Karakter başına yazı tipi geçersiz kılmaları dışa aktarmada korunur — karakter başına yükseklik geçersiz kılmaları korunmaz; yalnızca nesnenin temel yüksekliği yazılır.
+Metin etiketleri **MTEXT** olarak saklanır. Kalın ve italik `\f`, altı çizili `\L`/`\l`, üstü çizili `\K`/`\k`, karakter başına yükseklik ise `\H` kullanır. Referans genişliği, satır aralığı, paragraf hizalaması, dönüş ve ek noktası da korunur. Çerçeve, MTEXT çerçeve bayrağı ve AutoCAD uyumlu kenarlık ölçeğiyle dışa aktarılır. Ayrıca [MetinStili](../text-style/) ve [FontManager](../font-manager/) sayfalarına bakın.

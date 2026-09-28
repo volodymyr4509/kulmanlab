@@ -95,7 +95,7 @@ Tervetuloa **KulmanLab CAD**:in komentoreferenssiin. [KulmanLab CAD](https://kul
 | [Angle](./commands/angle/) | Mittaa kulma kolmen pisteen välillä |
 | [Area](./commands/area/) | Mittaa monikulmion ala ja piiri |
 
-## Viiva
+## Tyylit
 
 | Komento | Mitä se tekee |
 |---------|-------------|
@@ -103,6 +103,8 @@ Tervetuloa **KulmanLab CAD**:in komentoreferenssiin. [KulmanLab CAD](https://kul
 | [Font Manager](./commands/font-manager/) | Selaa, valitse ja lataa omia TTF-fontteja |
 | [FontAdd](./commands/font-add/) | Lataa oma TTF-fontti suoraan terminaalista |
 | [Hatch Manager](./commands/hatch-manager/) | Selaa hatch-kuviokirjastoa ja lataa .pat-tiedostoja |
+| [Tekstityyli](./commands/text-style/) | Luo ja hallitse uuden tekstin nimettyjä tekstityylejä |
+| [OsoitinTyyli](./commands/leader-style/) | Luo ja hallitse nimettyjä moniviivatyylejä |
 
 ## Tiedosto
 

@@ -16,12 +16,14 @@ Wpisz `StylTekstu` albo kliknij **Styl tekstu** w panelu opisu. Znak ✓ wskazuj
 
 | Pole | Działanie |
 |---|---|
-| Nazwa | Unikatowa nazwa; nazwy `Standard` nie można zmienić |
-| Czcionka / Wysokość | Krój pisma i stała wysokość; `0` = ustalana dla tekstu |
+| Zmiana nazwy | Użyj ołówka obok nazwy, aby edytować ją na liście; nazwy `Standard` nie można zmienić. |
+| Czcionka / Wysokość | Krój pisma i wymagana dodatnia wysokość. Wartości zerowe lub ujemne są zmieniane na `1`; menedżer przyjmuje tylko wartości większe od `0`. |
 | Pogrubienie / Kursywa | Niezależne opcje formatowania |
 | Interlinia | Odstęp między wierszami |
 | Wyrównanie poziome | Do lewej, do środka, do prawej lub wyjustowane |
 | Ramka | Prostokątna ramka wokół nowych tekstów |
+
+Podgląd używa tego samego mechanizmu co obszar rysunku i pokazuje dwa wiersze. Czcionka, wysokość, pogrubienie, kursywa, ramka, interlinia i wyrównanie są aktualizowane od razu; wskaźnik pokazuje skalę dopasowania. Nowe style są domyślnie wyrównane **do lewej**.
 
 **Nowy** powiela zaznaczony styl. **Usuń** nie usuwa stylu `Standard` ani stylu bieżącego. **Ustaw jako bieżący** wpływa tylko na teksty tworzone później; istniejące teksty się nie zmieniają. Pusta, powtórzona lub nieprawidłowa w DXF nazwa blokuje **OK**. Zaimportowane style opisowe są ukryte, ale ich dane pozostają zachowane.
 

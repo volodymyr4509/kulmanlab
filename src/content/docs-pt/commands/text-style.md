@@ -16,12 +16,14 @@ Digite `EstiloTexto` ou clique em **Estilo de texto** no painel **Anotar**. ✓ 
 
 | Campo | Função |
 |---|---|
-| Nome | Nome único; `Standard` não pode ser renomeado |
-| Fonte / Altura | Fonte e altura fixa; `0` = definida por texto |
+| Renomear | Use o lápis ao lado do nome para editá-lo na lista; `Standard` não pode ser renomeado. |
+| Fonte / Altura | Fonte e altura positiva obrigatória. Valores zero ou negativos passam a `1`; o gerenciador aceita apenas valores maiores que `0`. |
 | Negrito / Itálico | Formatação independente |
 | Espaçamento entre linhas | Distância entre linhas |
 | Alinhamento horizontal | Esquerda, centro, direita ou justificado |
 | Moldura | Moldura retangular para novos textos |
+
+A visualização usa o mesmo renderizador do desenho e mostra duas linhas. Fonte, altura, negrito, itálico, moldura, espaçamento e alinhamento mudam imediatamente; o indicador mostra o zoom de ajuste. Novos estilos usam alinhamento **à esquerda**.
 
 **Novo** duplica o estilo selecionado. **Excluir** não remove `Standard` nem o estilo atual. **Definir atual** afeta apenas textos futuros; textos existentes não mudam. Nomes vazios, duplicados ou inválidos para DXF bloqueiam **OK**. Estilos anotativos importados ficam ocultos, mas são preservados.
 

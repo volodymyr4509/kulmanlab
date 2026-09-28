@@ -16,12 +16,14 @@ Taip `GayaTeks` atau klik **Gaya teks** dalam panel anotasi. Tanda ✓ menunjukk
 
 | Medan | Fungsi |
 |---|---|
-| Nama | Nama unik; `Standard` tidak boleh dinamakan semula |
-| Fon / Tinggi | Rupa taip dan tinggi tetap; `0` = ditetapkan setiap teks |
+| Namakan semula | Gunakan ikon pensel di sebelah nama untuk menyuntingnya dalam senarai; `Standard` tidak boleh dinamakan semula. |
+| Fon / Tinggi | Rupa taip dan tinggi positif wajib. Nilai sifar atau negatif menjadi `1`; pengurus hanya menerima nilai melebihi `0`. |
 | Tebal / Condong | Pemformatan yang boleh ditogol secara berasingan |
 | Jarak Baris | Ruang antara baris teks |
 | Penjajaran Mendatar | Kiri, tengah, kanan atau sama rata |
 | Bingkai | Bingkai segi empat tepat untuk teks baharu |
+
+Pratonton menggunakan pemapar yang sama dengan kanvas dan menunjukkan dua baris. Fon, tinggi, tebal, condong, bingkai, jarak baris dan penjajaran dikemas kini serta-merta; bacaan menunjukkan zum muat. Gaya baharu menggunakan penjajaran **kiri** secara lalai.
 
 **Baharu** menggandakan gaya yang dipilih. **Padam** tidak boleh membuang `Standard` atau gaya semasa. **Jadikan semasa** hanya mempengaruhi teks yang dicipta selepas itu; teks sedia ada tidak berubah. Nama kosong, berulang atau tidak sah untuk DXF akan menyahaktifkan **OK**. Gaya anotatif yang diimport disembunyikan tetapi datanya dikekalkan.
 

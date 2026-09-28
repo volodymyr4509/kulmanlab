@@ -16,12 +16,14 @@ I-type ang `EstiloNgTeksto` o i-click ang **Estilo ng teksto** sa panel ng anota
 
 | Field | Gamit |
 |---|---|
-| Pangalan | Natatanging pangalan; hindi mapapalitan ang `Standard` |
-| Font / Taas | Typeface at takdang taas; `0` = itinatakda bawat teksto |
+| Palitan ang pangalan | Gamitin ang lapis sa tabi ng pangalan upang i-edit ito sa listahan; hindi mapapalitan ang `Standard`. |
+| Font / Taas | Typeface at kinakailangang positibong taas. Ang sero o negatibong halaga ay nagiging `1`; halaga lang na higit sa `0` ang tinatanggap. |
 | Makapal / Pahilig | Magkahiwalay na formatting switch |
 | Pagitan ng linya | Espasyo sa pagitan ng mga linya |
 | Pahalang na hanay | Kaliwa, gitna, kanan o pantay sa magkabilang gilid |
 | Kuwadro | Parihabang kuwadro sa paligid ng bagong teksto |
+
+Ginagamit ng preview ang kaparehong renderer ng canvas at nagpapakita ng dalawang linya. Agad na nagbabago ang font, taas, kapal, pahilig, kuwadro, pagitan ng linya at paghahanay; ipinapakita ng bilang ang fit zoom. Ang bagong estilo ay **kaliwa** ang default na hanay.
 
 Kinokopya ng **Bago** ang napiling estilo. Hindi matatanggal ng **Burahin** ang `Standard` o ang kasalukuyang estilo. Ang **Gawing kasalukuyan** ay para lamang sa tekstong gagawin pagkatapos; hindi nagbabago ang dati nang teksto. Kapag blangko, doble o hindi tanggap sa DXF ang pangalan, hindi magagamit ang **OK**. Nakatago ang na-import na annotative styles ngunit napapanatili ang datos ng mga ito.
 

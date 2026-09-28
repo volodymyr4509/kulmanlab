@@ -95,7 +95,7 @@ order: 1
 | [Angle](./commands/angle/) | قياس الزاوية بين ثلاث نقاط |
 | [Area](./commands/area/) | قياس مساحة ومحيط مضلع |
 
-## الخط
+## الأنماط
 
 | الأمر | ما يفعله |
 |-------|----------|
@@ -103,6 +103,8 @@ order: 1
 | [Font Manager](./commands/font-manager/) | تصفح واختر الخطوط، وارفع خطوط TTF مخصصة |
 | [FontAdd](./commands/font-add/) | ارفع خط TTF مخصص مباشرةً من المحطة |
 | [Hatch Manager](./commands/hatch-manager/) | تصفح مكتبة أنماط التظليل وارفع ملفات .pat |
+| [نمط النص](./commands/text-style/) | إنشاء أنماط نص مسماة للنص الجديد وإدارتها |
+| [نمط الخط الرصاصي](./commands/leader-style/) | إنشاء أنماط خطوط رائدة متعددة مسماة وإدارتها |
 
 ## الملف
 

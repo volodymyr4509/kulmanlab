@@ -16,12 +16,14 @@ Skriv `Tekststil`, eller klik på **Tekststil** i annotationspanelet. ✓ marker
 
 | Felt | Funktion |
 |---|---|
-| Navn | Entydigt navn; `Standard` kan ikke omdøbes |
-| Skrifttype / Højde | Skrifttype og fast højde; `0` = angives pr. tekst |
+| Omdøb | Brug blyanten ved navnet til at redigere det i listen; `Standard` kan ikke omdøbes. |
+| Skrifttype / Højde | Skrifttype og obligatorisk positiv højde. Nul eller negative værdier bliver `1`; styringen accepterer kun værdier over `0`. |
 | Fed / Kursiv | Formatering, der slås til og fra uafhængigt |
 | Linjeafstand | Afstand mellem tekstlinjerne |
 | Vandret justering | Venstre, centreret, højre eller lige margener |
 | Ramme | Rektangulær ramme omkring ny tekst |
+
+Forhåndsvisningen bruger samme renderer som lærredet og viser to linjer. Skrifttype, højde, fed, kursiv, ramme, linjeafstand og justering opdateres straks; tallet viser tilpasningszoom. Nye typografier er som standard **venstrejusterede**.
 
 **Ny** kopierer den valgte stil. **Slet** kan ikke fjerne `Standard` eller den aktuelle stil. **Angiv som aktuel** påvirker kun tekst, der oprettes senere; eksisterende tekst ændres ikke. Et tomt, dubleret eller ugyldigt DXF-navn deaktiverer **OK**. Importerede annotative stile skjules, men deres data bevares.
 
