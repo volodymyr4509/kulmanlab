@@ -5503,4 +5503,182 @@ export const howtoContent: Record<string, HowToContent> = {
       },
     ],
   },
+
+  cs: {
+    title: 'Jak používat KulmanLab — návody na běžné úlohy v CADu',
+    desc: 'Návody krok za krokem pro KulmanLab CAD: otevření souborů DXF, kreslení s přesnými rozměry, práce s vrstvami, kótování, příprava souborů pro řezání laserem, tisk a zálohování výkresů.',
+    heading: 'Návody',
+    subtitle: 'Návody krok za krokem pro nejběžnější úlohy v KulmanLab CAD.',
+    docsLabel: 'Dokumentace:',
+    outroTitle: 'Hledáte konkrétní příkaz?',
+    outroHtml: '<a href="/cs/docs/">Referenční příručka příkazů</a> dokumentuje všech 50+ příkazů a <a href="/cs/faq/">FAQ</a> pokrývá úložiště, formáty a kompatibilitu.',
+    guides: [
+      {
+        title: 'Otevření souboru DXF',
+        intro: 'KulmanLab čte DXF — výměnný formát, který umí vytvořit každý CAD nástroj. Soubory se otevírají přímo z disku a nikdy neopouštějí vaše zařízení.',
+        steps: [
+          'Otevřete <a href="https://app.kulmanlab.com">app.kulmanlab.com</a>.',
+          'Klikněte na tlačítko <strong>Import</strong> v panelu File, nebo do terminálu napište <code>import</code>.',
+          'Vyberte ve svém počítači soubor <code>.dxf</code> (nebo <code>.json</code> z KulmanLab).',
+          'Výkres se načte na plátno a automaticky se uloží do úložiště prohlížeče, takže tam příště zůstane.',
+        ],
+        links: [
+          { label: 'Příkaz Import', slug: 'commands/import' },
+          { label: 'Panel nedávných souborů', slug: 'commands/file-manager' },
+        ],
+      },
+      {
+        title: 'Kreslení s přesnými rozměry',
+        intro: 'Každý kreslicí příkaz přijímá zadání z klávesnice, takže délky ani souřadnice nikdy nemusíte odhadovat od oka.',
+        steps: [
+          'Spusťte příkaz — klikněte na <strong>Line</strong> nebo napište <code>line</code> a stiskněte <strong>Enter</strong>.',
+          'Zadejte počáteční bod jako <code>x,y</code> (například <code>0,0</code>) a stiskněte <strong>Enter</strong>.',
+          'Přesuňte kurzor požadovaným směrem, pak napište délku (například <code>250</code>) a stiskněte <strong>Enter</strong> — úsečka se nakreslí přesně této délky.',
+          'Zapněte zámek úhlu v ovládacím panelu (nebo držte nastavený přírůstek), aby úsečky zůstaly v přesných úhlech, například 30°, 45° nebo 90°.',
+        ],
+        links: [
+          { label: 'Příkaz Line', slug: 'commands/line' },
+          { label: 'Mřížka a uchopení', slug: 'interface/grid-snap' },
+        ],
+      },
+      {
+        title: 'Uspořádání výkresu pomocí vrstev',
+        intro: 'Vrstvy udržují pomocné čáry, geometrii a anotace oddělené — a přežijí i export do DXF.',
+        steps: [
+          'V panelu nástrojů otevřete panel <strong>Layers</strong> a vytvořte vrstvu pro každý druh obsahu (obrys, kóty, poznámky…).',
+          'Nastavte barvu, typ čáry a tloušťku čáry pro každou vrstvu, aby objekty přebíraly rozumné výchozí hodnoty.',
+          'Před kreslením nastavte vrstvu jako aktuální příkazem <code>layer-make-current</code>, nebo vybrané objekty přesuňte příkazem <code>layer-match</code>.',
+          'Příkazem <code>layer-isolate</code> skryjete vše kromě vrstvy, na které pracujete, a příkazem <code>layer-unfreeze-all</code> vše vrátíte zpět.',
+        ],
+        links: [
+          { label: 'Izolace vrstev', slug: 'commands/layer-isolate' },
+          { label: 'Typ čáry', slug: 'interface/linetype' },
+          { label: 'Tloušťka čáry', slug: 'interface/lineweight' },
+        ],
+      },
+      {
+        title: 'Přidání kót',
+        intro: 'Kóty jsou skutečné objekty DXF DIMENSION, takže se bez problémů přenesou do jakéhokoli jiného CAD nástroje.',
+        steps: [
+          'Do terminálu napište <code>dim-linear</code> (vodorovná/svislá) nebo <code>dim-aligned</code> (rovnoběžná s měřenou hranou).',
+          'Vyberte dva body, které chcete změřit, a třetím kliknutím umístěte kótovací čáru.',
+          'Řadu měření navážete příkazem <code>dim-continue</code> — každá nová kóta začíná tam, kde skončila předchozí.',
+          'Pro kružnice a oblouky použijte <code>dim-radius</code>, <code>dim-diameter</code> nebo <code>dim-angular</code>.',
+          'Dvojitým kliknutím na popisek kóty upravíte její text.',
+        ],
+        links: [
+          { label: 'Lineární kóta', slug: 'commands/dim-linear' },
+          { label: 'Navazující kóta', slug: 'commands/dim-continue' },
+          { label: 'Textový editor', slug: 'interface/text-editor' },
+        ],
+      },
+      {
+        title: 'Měření vzdálenosti, úhlu a plochy',
+        intro: 'Rychlá měření bez vytváření jakékoli geometrie — výsledky zůstanou na obrazovce, dokud nestisknete Escape.',
+        steps: [
+          'Napište <code>distance</code> a vyberte dva body pro zjištění délky.',
+          'Napište <code>angle</code> a vyberte dvě úsečky (nebo tři body) pro zjištění úhlu mezi nimi.',
+          'Napište <code>area</code>, klikněte na tři nebo více bodů a stiskněte <strong>Enter</strong> — zobrazí se uzavřená plocha a obvod.',
+        ],
+        links: [
+          { label: 'Vzdálenost', slug: 'commands/distance' },
+          { label: 'Úhel', slug: 'commands/angle' },
+          { label: 'Plocha', slug: 'commands/area' },
+        ],
+      },
+      {
+        title: 'Příprava souboru pro řezání laserem nebo CNC',
+        intro: 'Pracovní postup, pro který byl KulmanLab původně vytvořen: zkontrolovat soubor, vyčistit ho a poslat do stroje.',
+        steps: [
+          'Importujte DXF a prohlédněte si ho — <code>fit</code> přizpůsobí zobrazení tak, aby byl celý výkres vidět.',
+          'Smažte vše, co stroj neměl řezat: pomocné čáry, poznámky, kóty. K nalezení zbloudilých objektů pomůže <code>layer-isolate</code>.',
+          'Upravte geometrii: přečnívající konce ořízněte příkazem <code>trim</code>, uzavřete mezery a zkontrolujte rozměry příkazem <code>distance</code>.',
+          'Exportujte jako DXF a načtěte ho do softwaru svého stroje. Dráhy řezu zůstanou přesně tak, jak byly nakresleny — KulmanLab zapisuje běžné DXF ve verzi AC1032.',
+        ],
+        links: [
+          { label: 'Oříznutí', slug: 'commands/trim' },
+          { label: 'Přizpůsobení zobrazení', slug: 'commands/fit' },
+          { label: 'Export', slug: 'commands/export-manager' },
+        ],
+      },
+      {
+        title: 'Nastavení listu s výřezy',
+        intro: 'Rozvržení jsou listy v prostoru papíru — sestavte na stránku jeden nebo více pohledů na model v měřítku, připravených k tisku.',
+        steps: [
+          'Kliknutím na <strong>kartu rozvržení</strong> ve spodní části obrazovky přepnete z prostoru modelu do prostoru papíru. Tlačítko <strong>+</strong> na liště karet přidá nové rozvržení.',
+          '<strong>Klikněte pravým tlačítkem na kartu rozvržení</strong>, abyste ho přejmenovali nebo smazali, nebo otevřete <strong>Page Manager</strong> — tam nastavíte formát papíru (A4, A3, Letter…), orientaci a měřítko jednotek výkresu na mm.',
+          'Napište <code>viewport-rectangle</code> a klikněte na dva protilehlé rohy pro umístění výřezu — okna, které na papíře zobrazuje váš model.',
+          'Kliknutím na výřez ho vyberete: tažením hran nebo rohů změníte velikost, tažením středového úchytu ho přesunete a přesné měřítko (např. <code>1:50</code>) zvolíte ve výběru měřítka v ovládacím panelu.',
+          'Rolováním uvnitř výřezu přiblížíte pohled na model, tažením prostředním tlačítkem ho posunete. Když vypadá správně, <strong>klikněte na výřez pravým tlačítkem</strong> a zvolte <strong>Lock</strong>, abyste ho ochránili před nechtěnými změnami.',
+          'Potřebujete stejný pohled dvakrát? <code>viewport-copy</code> zduplikuje výřez se zachovaným měřítkem a pohledem na model.',
+        ],
+        links: [
+          { label: 'Page Manager', slug: 'commands/page-manager' },
+          { label: 'Obdélníkový výřez', slug: 'commands/viewport-rectangle' },
+          { label: 'Kopie výřezu', slug: 'commands/viewport-copy' },
+        ],
+      },
+      {
+        title: 'Tisk nebo uložení do PDF / PNG',
+        intro: 'Print Manager vykreslí váš výkres do obrázku připraveného pro papír, s živým náhledem.',
+        steps: [
+          'Napište <code>print</code> nebo klikněte na tlačítko Print v panelu File.',
+          'Zvolte výstupní formát: PDF pro dokumenty, PNG/JPEG/WebP pro obrázky.',
+          'Volitelně ořízněte oblast výkresu a zapněte monochromatický výstup pro čisté čárové tisky.',
+          'Klikněte na <strong>Print</strong> — soubor se stáhne do vašeho počítače.',
+        ],
+        links: [
+          { label: 'Print Manager', slug: 'commands/print-manager' },
+          { label: 'Page Manager', slug: 'commands/page-manager' },
+        ],
+      },
+      {
+        title: 'Zálohování a správa uložených výkresů',
+        intro: 'Výkresy žijí v úložišti vašeho prohlížeče — soukromé, offline a ve vaší správě. Úložiště prohlížeče lze vymazat nebo ztratit, takže samo o sobě není zálohou.',
+        steps: [
+          'Otevřete panel <strong>File Manager</strong>, kde uvidíte všechny výkresy uložené v tomto prohlížeči, můžete jeden otevřít, přejmenovat nebo smazat.',
+          'Jediný spolehlivý způsob, jak svou práci ochránit, je <strong>exportovat</strong> kopii do vlastního úložiště — nejvhodnější je <code>.json</code> (plná věrnost, každý typ objektu), <code>.dxf</code> maximalizuje kompatibilitu s jinými CAD nástroji.',
+          'Udělejte to před vymazáním dat prohlížeče, přechodem na jiný prohlížeč či zařízení nebo kdykoli na výkresu záleží — úložiště prohlížeče může prohlížeč sám bez varování vymazat (limity úložiště, anonymní režim, přeinstalace systému).',
+          'Chcete-li aplikaci úplně resetovat, napište <code>wipestorage</code> a potvrďte <code>YES</code> — tím se trvale smažou všechny lokálně uložené výkresy.',
+        ],
+        links: [
+          { label: 'Panel File Manager', slug: 'commands/file-manager' },
+          { label: 'Export', slug: 'commands/export-manager' },
+          { label: 'Vymazání úložiště', slug: 'commands/wipestorage' },
+        ],
+      },
+      {
+        title: 'Přidání vlastního písma',
+        intro: 'Nahrajte vlastní soubor .ttf a použijte ho v popiscích Text a Multileader — písmo zůstane uložené ve vašem prohlížeči pro další výkresy.',
+        steps: [
+          'Do terminálu napište <code>FontManager</code> a dialog se otevře přímo — nebo, pokud už máte otevřený textový editor, klikněte na tlačítko <strong>Font Manager</strong> v jeho panelu nástrojů.',
+          'Klikněte na <strong>Add Font</strong> v zápatí dialogu a vyberte soubor <code>.ttf</code> — podporována jsou pouze písma TrueType.',
+          'Název souboru se stane názvem písma ve skupině <strong>User</strong> (nahráním <code>MyFont.ttf</code> přibude písmo s názvem <code>MyFont</code>).',
+          'Chcete-li písmo použít, umístěte nový textový popisek (příkaz <code>text</code>) nebo dvojitým kliknutím na existující Text či Multileader otevřete textový editor.',
+          'Vyberte nové písmo v seznamu — při označení textu se přepíše jen tyto znaky, bez označení se nastaví celý popisek.',
+        ],
+        links: [
+          { label: 'Font Manager', slug: 'commands/font-manager' },
+          { label: 'Textový editor', slug: 'interface/text-editor' },
+          { label: 'Příkaz Text', slug: 'commands/text' },
+        ],
+      },
+      {
+        title: 'Přesné uchopení a zarovnání',
+        intro: 'Kombinujte Grid & Snap, Vector Pins a příkaz Align a umisťujte novou geometrii přesně — bez ručního zadávání souřadnic.',
+        steps: [
+          'Zapněte <strong>Grid</strong> a <strong>Snap</strong> v ovládacím panelu, aby se kurzor vázal na pravidelnou mřížku — rozteč se přizpůsobuje přiblížení a existující geometrie (koncový bod, střed, průsečík) má stále přednost před mřížkou.',
+          'Podržte kurzor půl sekundy nad libovolným uchopovacím bodem a připněte ho pomocí <strong>Vector Pins</strong> (ve výchozím stavu zapnuto) — špendlík promítá čárkované vodorovné a svislé pomocné linie, takže můžete kliknout na bod se stejnou X nebo Y souřadnicí, aniž byste kreslili pomocnou čáru.',
+          'Připněte dva různé body a uchopíte jejich průsečík — tím se bod umístí přesně na (X jednoho špendlíku, Y druhého), a funguje to i společně se sledováním úhlu.',
+          'Chcete-li existující tvar přemístit na referenční body místo kreslení nové geometrie, vyberte ho a spusťte <code>align</code> — klikněte na zdrojový a pak na cílový bod pro přesun, nebo přidejte druhý pár a tvar navíc otočíte (a případně změníte měřítko) do správné polohy.',
+          'Kdykoli stiskněte <strong>Escape</strong> pro zrušení špendlíků nebo zrušení zarovnání a začněte znovu.',
+        ],
+        links: [
+          { label: 'Grid & Snap', slug: 'interface/grid-snap' },
+          { label: 'Vector Pins', slug: 'interface/vector-pins' },
+          { label: 'Align', slug: 'commands/align' },
+        ],
+      },
+    ],
+  },
 };

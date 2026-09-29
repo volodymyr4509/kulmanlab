@@ -2648,4 +2648,89 @@ export const privacyContent: Record<string, PrivacyContent> = {
       },
     ],
   },
+
+  cs: {
+    title: 'Zásady ochrany soukromí — KulmanLab',
+    desc: 'Jak KulmanLab nakládá s vašimi daty: výkresy zůstávají ve vašem zařízení, žádné účty. Google Analytics pro anonymní statistiky použití; reklamy v aplikaci přes Google AdSense.',
+    heading: 'Zásady ochrany soukromí',
+    updated: 'Poslední aktualizace: 14. července 2026',
+    summaryHeading: 'Ve zkratce',
+    summary: [
+      'Vaše výkresy jsou uloženy ve vašem prohlížeči a nikdy neopouštějí vaše zařízení. Veškerá vaše práce patří vám.',
+      'Žádné účty, žádná registrace, žádný e-mail. Nevíme, kdo jste.',
+      'Google Analytics používáme k počítání návštěv a k pochopení, které funkce se používají. Obsah vašich výkresů nikdy nevidí.',
+      'Aplikace je zdarma a je financována reklamami (Google AdSense). Vaše výkresy se nikdy nepoužívají pro reklamu a vaše data nikdy neprodáváme.',
+    ],
+    sections: [
+      {
+        h: 'Vaše výkresy zůstávají ve vašem zařízení',
+        blocks: [
+          { t: 'p', html: 'Vše, co v KulmanLab CAD nakreslíte, se ukládá do místního úložiště prohlížeče (IndexedDB) ve vašem vlastním zařízení. Výkresy se nikdy nenahrávají, nepřenášejí ani neukládají na žádný server. Po prvním načtení aplikace funguje plně offline — při otevírání, úpravách ani ukládání souborů není zapojen žádný server.' },
+          { t: 'p', html: 'Protože vaše soubory existují pouze ve vašem prohlížeči, máte nad nimi plnou kontrolu. Jednotlivé výkresy můžete smazat v panelu <a href="/cs/docs/commands/file-manager/">File Manager</a>, vše najednou smažete příkazem <a href="/cs/docs/commands/wipestorage/">wipestorage</a> nebo vymažete data webu v nastavení prohlížeče. Nemůžeme vaše soubory zobrazit, obnovit ani za vás smazat — nikdy je totiž nemáme.' },
+        ],
+      },
+      {
+        h: 'Žádné účty, žádné osobní údaje',
+        blocks: [
+          { t: 'p', html: 'KulmanLab nemá přihlášení, registraci ani sběr e-mailů. Neshromažďujeme vaše jméno, e-mailovou adresu ani jiné informace, které by vás osobně identifikovaly, a nemáme co prodávat ani sdílet.' },
+        ],
+      },
+      {
+        h: 'Analytika',
+        blocks: [
+          { t: 'p', html: 'Tento web (kulmanlab.com) i aplikace (app.kulmanlab.com) používají <strong>Google Analytics 4</strong> ke sběru anonymních statistik použití. Ty nám říkají například to, kolik lidí web navštěvuje, které stránky čtou, z jaké země jsou (přibližně, odvozeno z IP adresy — Google Analytics 4 IP adresy neukládá) a jaký prohlížeč a typ zařízení používají.' },
+          { t: 'p', html: 'Na webu navíc zaznamenáváme několik anonymních událostí interakce:' },
+          { t: 'ul', items: [
+            'kliknutí na „Spustit aplikaci“ a podobná tlačítka,',
+            'kliknutí na odchozí odkazy (cílová adresa odkazu),',
+            'jak daleko na stránce rolujete a jaký jazyk rozhraní používáte.',
+          ] },
+          { t: 'p', html: 'Nic z toho nezahrnuje obsah vašich výkresů, názvy souborů ani cokoli, co v aplikaci vytvoříte. Analytická data zpracovává Google v souladu se <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">zásadami ochrany soukromí Google</a>.' },
+        ],
+      },
+      {
+        h: 'Reklama',
+        blocks: [
+          { t: 'p', html: 'Aplikace (app.kulmanlab.com) je zdarma a je financována reklamami zobrazovanými prostřednictvím <strong>Google AdSense</strong>. Tento web (kulmanlab.com) reklamy nezobrazuje.' },
+          { t: 'p', html: 'Poskytovatelé třetích stran, včetně Googlu, používají cookies k zobrazování reklam na základě vašich předchozích návštěv tohoto nebo jiných webů. Používání reklamních cookies umožňuje Googlu a jeho partnerům zobrazovat vám reklamy na základě vašich návštěv aplikace a/nebo jiných webů na internetu. Reklamy vybírá Google — nikdy nevidí obsah vašich výkresů, názvy souborů ani cokoli, co v aplikaci vytvoříte.' },
+          { t: 'p', html: 'Personalizovanou reklamu můžete odmítnout v <a href="https://adssettings.google.com" target="_blank" rel="noopener">Nastavení reklam Google</a> nebo můžete šířeji odmítnout reklamní cookies třetích stran na <a href="https://www.aboutads.info/choices" target="_blank" rel="noopener">aboutads.info</a> (v Evropě na <a href="https://www.youronlinechoices.eu" target="_blank" rel="noopener">youronlinechoices.eu</a>). Jak Google využívá data z webů, které zobrazují jeho reklamy, je popsáno na <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">policies.google.com/technologies/partner-sites</a>.' },
+        ],
+      },
+      {
+        h: 'Cookies a místní úložiště',
+        blocks: [
+          { t: 'p', html: 'Používají se dva druhy cookies. Google Analytics nastavuje <code>_ga</code> a <code>_ga_*</code> na webu i v aplikaci — obsahují náhodný identifikátor, který rozlišuje prohlížeče, aby se opakované návštěvy nepočítaly jako noví návštěvníci; vyprší nejpozději po dvou letech a nelze je použít k vaší osobní identifikaci. V aplikaci Google AdSense a jeho reklamní partneři nastavují další reklamní cookies pro zobrazování a měření reklam, jak je popsáno v části Reklama výše. Žádné cookies sociálních sítí se nepoužívají a samotný web žádné reklamní cookies nenastavuje.' },
+          { t: 'p', html: 'Web si navíc pamatuje vaši jazykovou předvolbu a aplikace ukládá vaše výkresy a historii kroků zpět do místního úložiště prohlížeče. Tato data nikdy neopouštějí vaše zařízení.' },
+        ],
+      },
+      {
+        h: 'Služby třetích stran',
+        blocks: [
+          { t: 'p', html: 'Kromě Google Analytics a Google AdSense se KulmanLab spoléhá na jednu infrastrukturní službu:' },
+          { t: 'ul', items: [
+            '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — poskytuje tento web i aplikaci. Stejně jako každý webový server zpracovává standardní záznamy požadavků (IP adresa, požadovaná URL, user agent), aby stránky doručil.',
+          ] },
+        ],
+      },
+      {
+        h: 'Vaše možnosti',
+        blocks: [
+          { t: 'p', html: 'Pokud nechcete být započítáni v analytice, můžete ve svém prohlížeči zablokovat cookies Google Analytics, použít blokátor obsahu nebo nainstalovat <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">doplněk Google Analytics Opt-out</a>. Web i aplikace fungují bez analytiky úplně stejně.' },
+          { t: 'p', html: 'U reklamy můžete personalizaci reklam vypnout v <a href="https://adssettings.google.com" target="_blank" rel="noopener">Nastavení reklam Google</a> — reklamy v aplikaci uvidíte i nadále, ale nebudou vycházet z vašich zájmů ani historie procházení.' },
+        ],
+      },
+      {
+        h: 'Změny těchto zásad',
+        blocks: [
+          { t: 'p', html: 'Pokud se naše postupy nakládání s daty změní — například přidáním nové služby třetí strany — bude tato stránka aktualizována a datum nahoře upraveno.' },
+        ],
+      },
+      {
+        h: 'Kontakt',
+        blocks: [
+          { t: 'p', html: 'Máte otázky k ochraně soukromí? Otevřete issue na <a href="https://github.com/volodymyr4509/kulmanlab/issues" target="_blank" rel="noopener">GitHubu</a> nebo se zeptejte v <a href="https://www.reddit.com/r/kulmanlab/" target="_blank" rel="noopener">komunitě na Redditu</a>.' },
+        ],
+      },
+    ],
+  },
 };

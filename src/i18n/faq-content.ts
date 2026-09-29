@@ -1421,4 +1421,50 @@ export const faqContent: Record<string, FaqSection[]> = {
       ],
     },
   ],
+
+  cs: [
+    {
+      headingKey: 'faq.section.start',
+      items: [
+        { q: 'Je KulmanLab opravdu zdarma?', a: 'Ano — úplně zdarma. Žádné předplatné, žádná kreditní karta, žádný skrytý tarif. Plná sada funkcí je dostupná všem bez omezení.' },
+        { q: 'Musím si vytvořit účet?', a: 'Ne. Žádné přihlášení, žádná registrace a žádný e-mail. Otevřete aplikaci a začněte hned kreslit.' },
+        { q: 'Jaké prohlížeče jsou podporovány?', a: 'Jakýkoli moderní desktopový prohlížeč — funguje Chrome, Firefox, Safari i Edge. KulmanLab je určený pouze pro počítače; mobily a tablety zatím podporovány nejsou.' },
+        { q: 'Funguje to offline?', a: 'Ano. Po prvním načtení se aplikace uloží do mezipaměti a běží zcela bez připojení k internetu. Vaše výkresy se ukládají lokálně, takže nic nevyžaduje server.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.files',
+      items: [
+        { q: 'Kde jsou uloženy moje výkresy?', a: "V databázi IndexedDB ve vašem prohlížeči — tedy ve vašem vlastním zařízení. Nic se nikdy nenahrává na server. Každý prohlížeč na každém zařízení má své vlastní nezávislé úložiště." },
+        { q: 'Co se stane, když vymažu data prohlížeče?', a: 'Uložené výkresy se ztratí. Před vymazáním úložiště prohlížeče si vždy exportujte kopii JSON všeho důležitého.' },
+        { q: 'Mohu otevírat soubory .dwg?', a: 'KulmanLab podporuje DXF (Drawing Exchange Format), nikoli proprietární formát DWG. Většina desktopových CAD aplikací umí exportovat DXF, takže nejprve exportujte ze zdrojové aplikace.' },
+        { q: 'Které formáty exportu jsou k dispozici?', a: 'DXF a JSON přes Export — DXF pro výměnu dat s jinými CAD nástroji, JSON pro uložení beze ztrát (včetně kót a odkazových čar) uvnitř KulmanLab. Print samostatně exportuje obrázky PNG, JPEG, WebP nebo PDF, s volitelným oříznutím oblasti a přepínačem monochromatického režimu.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.features',
+      items: [
+        { q: 'Má příkazový terminál?', a: 'Ano. Příkazy zadáváte přímo — LINE, CIRCLE, MOVE, TRIM a dalších 50+. Terminál podporuje historii (šipky), automatické doplňování (Tab) a přesné číselné zadání.' },
+        { q: 'Podporuje vrstvy?', a: 'Plná správa vrstev: vytváření, přejmenování, zmrazení, zamykání a izolace vrstev. Barvu, typ čáry a tloušťku čáry nastavíte pro každou vrstvu zvlášť. Všechna data vrstev se zachovají při exportu do DXF.' },
+        { q: 'Jaké typy kót jsou k dispozici?', a: 'Lineární, zarovnané, poloměrové, průměrové, úhlové a navazující kóty. Všechny se ukládají jako standardní objekty DXF DIMENSION kompatibilní s dalšími CAD nástroji podporujícími DXF.' },
+        { q: 'Mohu upravovat geometrii pomocí úchytů?', a: 'Ano. Vyberte libovolný objekt a v klíčových bodech — koncích, středech, středech oblouků, koncích oblouků — se zobrazí úchyty. Přetažením geometrii upravíte přímo na plátně, nebo během tažení zadejte hodnotu pro přesné umístění.' },
+        { q: 'Je podporována spolupráce v reálném čase?', a: 'Zatím ne. KulmanLab je nástroj pro jednoho uživatele a výkresy zůstávají lokální. Synchronizace přes cloud a spolupráce jsou mimo současný rozsah.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.compat',
+      items: [
+        { q: 'Jsou soubory DXF z KulmanLab kompatibilní s jiným CAD softwarem?', a: 'Ano. KulmanLab čte a zapisuje DXF ve verzi AC1032 — široce podporované. Soubory se správně otevřou v LibreCAD, QCAD, BricsCAD, FreeCAD i v jakémkoli jiném nástroji podporujícím DXF.' },
+        { q: 'Jaký je rozdíl mezi DXF a DWG?', a: 'DXF je otevřený textový výměnný formát navržený pro interoperabilitu. DWG je proprietární binární formát. KulmanLab používá DXF, který čte prakticky každý CAD nástroj.' },
+        { q: 'Může KulmanLab nahradit můj desktopový CAD software?', a: 'Pro 2D rýsování — ano. KulmanLab má plnohodnotný příkazový terminál, vrstvy, uchopení, kóty, úpravy úchyty a kompatibilitu s DXF. Nepodporuje 3D, bloky/xrefy ani parametrické vazby.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.privacy',
+      items: [
+        { q: 'Shromažďuje KulmanLab data mých výkresů?', a: 'Ne. Vaše výkresy zůstávají ve vašem prohlížeči a nikdy se nikam neposílají. KulmanLab používá Google Analytics pro anonymní statistiky použití (zobrazení stránek, počty relací) — žádný obsah výkresů se tím nijak nedotýká.' },
+        { q: 'Používají se cookies?', a: 'Cookies se používají pro Google Analytics, který shromažďuje anonymní statistiky použití (zobrazení stránek, počty relací).' },
+      ],
+    },
+  ],
 };

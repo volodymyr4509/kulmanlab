@@ -1248,4 +1248,44 @@ export const aboutContent: Record<string, AboutContent> = {
       },
     ],
   },
+
+  cs: {
+    title: 'O KulmanLab — příběh za bezplatným CAD v prohlížeči',
+    desc: 'KulmanLab je projekt jednoho člověka: stavební inženýr, který se stal backendovým vývojářem, si staví rychlé a bezplatné 2D CAD, jaké vždy chtěl. Žádné účty, žádné nahrávání, žádné servery.',
+    heading: 'O KulmanLab',
+    subtitle: 'Projekt jednoho člověka, budovaný pomalou cestou.',
+    sections: [
+      {
+        ps: [
+          "Ahoj, jsem Volodymyr a žiji na Ukrajině. Vzděláním jsem stavební inženýr — roky jsem strávil u rýsovacího prkna a v desktopovém CAD softwaru, než jsem změnil obor a začal se věnovat vývoji backendu. Inženýrské nutkání mě ale nikdy neopustilo. Nakonec mě zavedlo do světa CNC strojů a k tomu, že jsem si od základu postavil vlastní CO₂ laserovou řezačku.",
+          "Odtud pochází KulmanLab: pořád jsem potřeboval rychle otevřít soubor DXF, vyčistit ho, upravit pár čar a poslat ho do stroje — bez spouštění těžkého CAD softwaru a bez registrace do další cloudové služby. Začal jsem si tedy stavět vlastní nástroj. Bylo to v roce 2023 a od té doby je to projekt na večery a víkendy.",
+        ],
+      },
+      {
+        h: 'Název',
+        ps: [
+          '<em>Kulman</em> se v části světa, odkud pocházím, říká klasickému rýsovacímu stroji — rýsovacímu prknu Kuhlmann. Generace inženýrů se na něm učily rýsovat. KulmanLab je můj pokus zachovat tohoto ducha v prohlížeči.',
+        ],
+      },
+      {
+        h: 'Jaký by podle mě měl CAD nástroj být',
+        ps: [
+          'Bezplatný, okamžitý a soukromý. KulmanLab nemá žádné účty, žádné nahrávání a žádný server — vaše výkresy se zpracovávají a ukládají výhradně ve vašem zařízení a aplikace funguje i offline. Nic k instalaci, nic k předplacení, nic k předání. Podrobnosti jsou v <a href="/cs/privacy/">zásadách ochrany soukromí</a>, které jsou krátké, protože o čem vyprávět, opravdu moc není.',
+          'Je to záměrně specializovaný nástroj: rychlé 2D rýsování s příkazovým terminálem, vrstvami, kótami a poctivým importem a exportem DXF — ne náhrada plnohodnotného desktopového CAD balíku. Pokud řežete na CNC nebo laserových strojích, nebo potřebujete rychlé technické skici do laboratorního protokolu, byl vytvořen právě pro vás.',
+        ],
+      },
+      {
+        h: 'Pod pokličkou',
+        ps: [
+          'KulmanLab je napsaný v Angularu nad HTML5 Canvas a bez problémů zvládá výkresy se 100 000+ objekty. Zdaleka nejtěžší částí byl samotný formát DXF — jeho čtení je snadné, ale zápis souborů, které přijme každý CAD editor, je minové pole zpětně analyzovaných splinů a skupinových kódů.',
+        ],
+      },
+      {
+        h: 'Ozvěte se',
+        ps: [
+          'Našli jste chybu, chybí vám funkce, nebo se chcete pochlubit tím, co jste vytvořili? Otevřete issue na <a href="https://github.com/volodymyr4509/kulmanlab" target="_blank" rel="noopener">GitHubu</a>, připojte se k <a href="https://www.reddit.com/r/kulmanlab/" target="_blank" rel="noopener">r/kulmanlab</a> nebo mi napište na <a href="mailto:kulmanlab@gmail.com">kulmanlab@gmail.com</a>. Čtu všechno.',
+        ],
+      },
+    ],
+  },
 };
