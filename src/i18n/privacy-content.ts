@@ -2733,4 +2733,88 @@ export const privacyContent: Record<string, PrivacyContent> = {
       },
     ],
   },
+  lt: {
+    title: 'Privatumo politika — KulmanLab',
+    desc: 'Kaip KulmanLab tvarko jūsų duomenis: brėžiniai lieka jūsų įrenginyje, jokių paskyrų. Google Analytics anoniminei naudojimo statistikai; programoje rodoma reklama per Google AdSense.',
+    heading: 'Privatumo politika',
+    updated: 'Paskutinį kartą atnaujinta: 2026 m. liepos 14 d.',
+    summaryHeading: 'Trumpai',
+    summary: [
+      'Jūsų brėžiniai saugomi jūsų naršyklėje ir niekada nepalieka jūsų įrenginio. Visas jūsų darbas priklauso jums.',
+      'Nėra paskyrų, registracijos ir el. pašto. Mes nežinome, kas jūs esate.',
+      'Naudojame Google Analytics apsilankymams skaičiuoti ir suprasti, kurios funkcijos naudojamos. Ji niekada nemato jūsų brėžinių turinio.',
+      'Programa nemokama ir finansuojama reklama (Google AdSense). Jūsų brėžiniai niekada nenaudojami reklamai ir mes niekada neparduodame jūsų duomenų.',
+    ],
+    sections: [
+      {
+        h: 'Jūsų brėžiniai lieka jūsų įrenginyje',
+        blocks: [
+          { t: 'p', html: "Viskas, ką nubraižote KulmanLab CAD, išsaugoma jūsų naršyklės vietinėje saugykloje (IndexedDB) jūsų pačių įrenginyje. Brėžiniai niekada neįkeliami, neperduodami ir nesaugomi jokiame serveryje. Po pirmojo įkėlimo programa veikia visiškai neprisijungus — atverti, redaguoti ar išsaugoti failų serveris nereikalingas." },
+          { t: 'p', html: 'Kadangi jūsų failai egzistuoja tik jūsų naršyklėje, jūs visiškai juos valdote. Atskirus brėžinius galite ištrinti <a href="/lt/docs/commands/file-manager/">Failų tvarkytuvės skydelyje</a>, viską ištrinti iš karto komanda <a href="/lt/docs/commands/wipestorage/">wipestorage</a> arba išvalyti svetainės duomenis naršyklės nustatymuose. Mes negalime pasiekti, atkurti ar ištrinti jūsų failų už jus — jų niekada neturime.' },
+        ],
+      },
+      {
+        h: 'Jokių paskyrų, jokių asmens duomenų',
+        blocks: [
+          { t: 'p', html: 'KulmanLab neturi prisijungimo, registracijos ir el. pašto rinkimo. Nerenkame jūsų vardo, el. pašto adreso ar jokios kitos informacijos, kuri asmeniškai jus identifikuotų, ir neturime ką parduoti ar dalytis.' },
+        ],
+      },
+      {
+        h: 'Analitika',
+        blocks: [
+          { t: 'p', html: 'Ši svetainė (kulmanlab.com) ir programa (app.kulmanlab.com) naudoja <strong>Google Analytics 4</strong> anoniminei naudojimo statistikai rinkti. Ji leidžia sužinoti, kiek žmonių apsilanko, kokius puslapius skaito, kurioje šalyje yra (apytiksliai, nustatoma pagal IP adresą — Google Analytics 4 IP adresų nesaugo) ir kokią naršyklę bei įrenginio tipą naudoja.' },
+          { t: 'p', html: 'Svetainėje taip pat fiksuojame keletą anoniminių sąveikos įvykių:' },
+          { t: 'ul', items: [
+            'paspaudimai ant „Paleisti programą" ir panašių mygtukų,',
+            'paspaudimai ant išorinių nuorodų (nuorodos paskirties adresas),',
+            'kaip toli nuslenkate puslapyje ir kokią sąsajos kalbą naudojate.',
+          ] },
+          { t: 'p', html: 'Nieko iš to neapima jūsų brėžinio turinio, failų pavadinimų ar bet ko, ką sukuriate programoje. Analitikos duomenis apdoroja Google pagal <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google privatumo politiką</a>.' },
+        ],
+      },
+      {
+        h: 'Reklama',
+        blocks: [
+          { t: 'p', html: 'Programa (app.kulmanlab.com) naudojama nemokamai ir finansuojama reklama, teikiama per <strong>Google AdSense</strong>. Ši svetainė (kulmanlab.com) reklamos nerodo.' },
+          { t: 'p', html: "Trečiųjų šalių tiekėjai, įskaitant Google, naudoja slapukus reklamai rodyti pagal ankstesnius jūsų apsilankymus šioje ar kitose svetainėse. Dėl Google reklaminių slapukų naudojimo jis ir jo partneriai gali rodyti jums reklamą pagal jūsų apsilankymus programoje ir (arba) kitose interneto svetainėse. Reklamą parenka Google — jie niekada nemato jūsų brėžinių turinio, failų pavadinimų ar bet ko, ką sukuriate programoje." },
+          { t: 'p', html: "Nuo suasmenintos reklamos galite atsisakyti Google <a href=\"https://adssettings.google.com\" target=\"_blank\" rel=\"noopener\">reklamos nustatymuose</a> arba plačiau atsisakyti trečiųjų šalių reklaminių slapukų adresu <a href=\"https://www.aboutads.info/choices\" target=\"_blank\" rel=\"noopener\">aboutads.info</a> (arba Europoje <a href=\"https://www.youronlinechoices.eu\" target=\"_blank\" rel=\"noopener\">youronlinechoices.eu</a>). Kaip Google naudoja duomenis iš svetainių, kuriose rodoma jo reklama, aprašyta adresu <a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">policies.google.com/technologies/partner-sites</a>." },
+        ],
+      },
+      {
+        h: 'Slapukai ir vietinė saugykla',
+        blocks: [
+          { t: 'p', html: 'Naudojami dviejų rūšių slapukai. Google Analytics nustato <code>_ga</code> ir <code>_ga_*</code> tiek svetainėje, tiek programoje — juose yra atsitiktinis identifikatorius, skiriantis naršykles, kad pakartotiniai apsilankymai nebūtų skaičiuojami kaip nauji lankytojai; jie galioja iki dvejų metų ir negali būti naudojami jums asmeniškai identifikuoti. Programoje Google AdSense ir jos reklamos partneriai nustato papildomus reklaminius slapukus reklamai teikti ir matuoti, kaip aprašyta aukščiau esančiame skyriuje „Reklama". Socialinių tinklų slapukų nėra, o pati svetainė reklaminių slapukų nenustato.' },
+          { t: 'p', html: 'Be to, svetainė prisimena jūsų kalbos pasirinkimą, o programa saugo jūsų brėžinius ir atšaukimo istoriją naršyklės vietinėje saugykloje. Šie duomenys niekada nepalieka jūsų įrenginio.' },
+        ],
+      },
+      {
+        h: 'Trečiųjų šalių paslaugos',
+        blocks: [
+          { t: 'p', html: 'Be Google Analytics ir Google AdSense, KulmanLab remiasi viena infrastruktūros paslauga:' },
+          { t: 'ul', items: [
+            '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — pateikia šią svetainę ir programą. Kaip ir bet kuris žiniatinklio serveris, ji apdoroja standartinius užklausų žurnalus (IP adresą, prašomą URL, naudotojo agentą), kad pateiktų puslapius.',
+          ] },
+        ],
+      },
+      {
+        h: 'Jūsų pasirinkimai',
+        blocks: [
+          { t: 'p', html: 'Jei nenorite būti įtraukti į analitiką, galite užblokuoti Google Analytics slapukus naršyklėje, naudoti turinio blokatorių arba įdiegti <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Google Analytics atsisakymo priedą</a>. Svetainė ir programa be analitikos veikia lygiai taip pat.' },
+          { t: 'p', html: 'Dėl reklamos galite išjungti reklamos suasmeninimą <a href="https://adssettings.google.com" target="_blank" rel="noopener">Google reklamos nustatymuose</a> — programoje vis tiek matysite reklamą, tačiau ji nebus pagrįsta jūsų interesais ar naršymo istorija.' },
+        ],
+      },
+      {
+        h: 'Šios politikos pakeitimai',
+        blocks: [
+          { t: 'p', html: 'Jei mūsų duomenų tvarkymo praktika pasikeis — pavyzdžiui, jei bus pridėta nauja trečiosios šalies paslauga — šis puslapis bus atnaujintas, o data viršuje pakeista.' },
+        ],
+      },
+      {
+        h: 'Kontaktai',
+        blocks: [
+          { t: 'p', html: 'Klausimų dėl privatumo? Atverkite užklausą <a href="https://github.com/volodymyr4509/kulmanlab/issues" target="_blank" rel="noopener">GitHub</a> arba klauskite <a href="https://www.reddit.com/r/kulmanlab/" target="_blank" rel="noopener">Reddit bendruomenėje</a>.' },
+        ],
+      },
+    ],
+  },
 };

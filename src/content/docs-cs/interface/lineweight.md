@@ -14,9 +14,9 @@ order: 5
 
 | Hodnota | Význam |
 |---------|--------|
-| **From Layer** | Objekt zdědí tloušťku čáry definovanou na jeho vrstvě. Skutečná zobrazená šířka závisí na nastavení vrstvy. |
-| **Default** | Používá výchozí šířku aplikace — vykresluje se jako tenká čára (1 px). V DXF nepřepisuje nastavení vrstvy. |
-| **0.00 mm – 2.11 mm** | Explicitní pevná šířka. Objekt nese tuto hodnotu bez ohledu na tloušťku čáry své vrstvy. |
+| **From Layer** | Objekt zdědí tloušťku čáry definovanou na jeho hladině. Skutečná zobrazená šířka závisí na nastavení hladiny. |
+| **Default** | Používá výchozí šířku aplikace — vykresluje se jako tenká čára (1 px). V DXF nepřepisuje nastavení hladiny. |
+| **0.00 mm – 2.11 mm** | Explicitní pevná šířka. Objekt nese tuto hodnotu bez ohledu na tloušťku čáry své hladiny. |
 
 K dispozici jsou standardní hodnoty tloušťky čáry DXF: 0,00, 0,05, 0,09, 0,13, 0,15, 0,18, 0,20, 0,25, 0,30, 0,35, 0,40, 0,50, 0,53, 0,60, 0,70, 0,80, 0,90, 1,00, 1,06, 1,20, 1,40, 1,58, 2,00 a 2,11 mm.
 

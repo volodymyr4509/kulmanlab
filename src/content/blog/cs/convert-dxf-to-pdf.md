@@ -55,7 +55,7 @@ Tloušťky čar se mění spolu s rozlišením, takže čára si na papíře př
 
 Rozbalovací nabídka **Style** mění inkoust i stránku:
 
-- **Monochrome** — plná černá na bílé, a výchozí volba. To chcete pro cokoli, co jde na papír: barevné vrstvy, které se dobře čtou na obrazovce, se na laserové tiskárně změní v kalné šedi.
+- **Monochrome** — plná černá na bílé, a výchozí volba. To chcete pro cokoli, co jde na papír: barevné hladiny, které se dobře čtou na obrazovce, se na laserové tiskárně změní v kalné šedi.
 - **Default** — vlastní barva každého objektu, bílá stránka.
 - **Blueprint** — bílé linky na tmavé pruské modři ve stylu tradičního kyanotypu. Pro prezentaci, ne pro dílnu.
 

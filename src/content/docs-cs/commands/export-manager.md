@@ -1,6 +1,6 @@
 ---
 title: Export Manager — stažení výkresů jako DXF nebo JSON v KulmanLab CAD
-description: Stáhněte aktuální výkres jako DXF nebo JSON a zaškrtněte pro každý typ objektu, co se do souboru dostane. Oba formáty obsahují geometrii, text, kóty, odkazové čáry a šrafy, včetně vrstev a typů čar.
+description: Stáhněte aktuální výkres jako DXF nebo JSON a zaškrtněte pro každý typ objektu, co se do souboru dostane. Oba formáty obsahují geometrii, text, kóty, odkazové čáry a šrafy, včetně hladin a typů čar.
 keywords: [export DXF, export CAD souboru, stažení DXF v prohlížeči, uložení DXF online, export JSON CAD, export KulmanLab, stažení CAD souboru, DXF export, uložení výkresu do souboru, stažení DXF]
 group: file
 order: 6
@@ -45,7 +45,7 @@ Díky tomu je příprava řezného souboru snadná. Odškrtněte Text, čtyři �
 | **JSON** *(nativní)* | `.json` | Uložení práce pro pozdější otevření v KulmanLab CAD | Nekompatibilní s jinými CAD nástroji |
 | **DXF** | `.dxf` | Sdílení s FreeCAD, LibreCAD, AutoCAD apod. | Kolik se zachová, závisí na přijímající aplikaci |
 
-**Kdy použít JSON:** kdykoli chcete uložit úplnou kopii své práce. JSON je nativní formát KulmanLab a zachovává každý objekt přesně — včetně kót, odkazových čar, šraf a všech dat vrstev.
+**Kdy použít JSON:** kdykoli chcete uložit úplnou kopii své práce. JSON je nativní formát KulmanLab a zachovává každý objekt přesně — včetně kót, odkazových čar, šraf a všech dat hladin.
 
 **Kdy použít DXF:** když potřebujete výkres předat někomu, kdo používá jinou CAD aplikaci. Exportovaný soubor používá formát DXF AC1032 a lze jej otevřít ve většině nástrojů podporujících DXF.
 
@@ -60,7 +60,7 @@ Zahrnuty jsou všechny typy objektů:
 - Kóty (lineární, zarovnané, navazující, poloměru, průměru, úhlové)
 - Leaders (vícenásobné odkazové čáry)
 - Hatches včetně vzoru, měřítka, úhlu a počátku
-- Vrstvy a typy čar
+- Hladiny a typy čar
 
 ### Export DXF
 
@@ -71,7 +71,7 @@ Zahrnuty jsou všechny typy objektů:
 - Kóty (lineární, zarovnané, navazující, poloměru, průměru, úhlové) jako standardní objekty `DIMENSION`
 - Leaders jako `MULTILEADER`
 - Hatches s jejich vzorem, měřítkem, úhlem a počátkem
-- Vrstvy a typy čar
+- Hladiny a typy čar
 
 Soubor se zapisuje jako DXF AC1032, takže výkres exportovaný z KulmanLab se v jiných nástrojích schopných číst DXF otevře s neporušenými poznámkami, místo aby dorazil jako holá geometrie.
 
@@ -87,7 +87,7 @@ Stažený soubor nese název aktuálního souboru výkresu (např. `myplan.json`
 |-----------|--------|-------|
 | Výstup | Vektorový zdrojový soubor (.dxf / .json) | Rastrový obrázek (.png / .jpeg / .webp / .pdf) |
 | Editovatelný v jiných nástrojích | Ano (DXF) | Ne |
-| Zachovává vrstvy a typy čar | Ano | Ne (vykresleno naplocho) |
+| Zachovává hladiny a typy čar | Ano | Ne (vykresleno naplocho) |
 | Zachycuje kóty a odkazové čáry | Ano | Ano |
 
 **Export Manager** použijte, když potřebujete editovatelný soubor. [Print Manager](../print-manager/) použijte, když potřebujete vizuální snímek.

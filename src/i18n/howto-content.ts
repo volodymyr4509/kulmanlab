@@ -5506,7 +5506,7 @@ export const howtoContent: Record<string, HowToContent> = {
 
   cs: {
     title: 'Jak používat KulmanLab — návody na běžné úlohy v CADu',
-    desc: 'Návody krok za krokem pro KulmanLab CAD: otevření souborů DXF, kreslení s přesnými rozměry, práce s vrstvami, kótování, příprava souborů pro řezání laserem, tisk a zálohování výkresů.',
+    desc: 'Návody krok za krokem pro KulmanLab CAD: otevření souborů DXF, kreslení s přesnými rozměry, práce s hladinami, kótování, příprava souborů pro řezání laserem, tisk a zálohování výkresů.',
     heading: 'Návody',
     subtitle: 'Návody krok za krokem pro nejběžnější úlohy v KulmanLab CAD.',
     docsLabel: 'Dokumentace:',
@@ -5542,16 +5542,16 @@ export const howtoContent: Record<string, HowToContent> = {
         ],
       },
       {
-        title: 'Uspořádání výkresu pomocí vrstev',
-        intro: 'Vrstvy udržují pomocné čáry, geometrii a anotace oddělené — a přežijí i export do DXF.',
+        title: 'Uspořádání výkresu pomocí hladin',
+        intro: 'Hladiny udržují pomocné čáry, geometrii a anotace oddělené — a přežijí i export do DXF.',
         steps: [
-          'V panelu nástrojů otevřete panel <strong>Layers</strong> a vytvořte vrstvu pro každý druh obsahu (obrys, kóty, poznámky…).',
-          'Nastavte barvu, typ čáry a tloušťku čáry pro každou vrstvu, aby objekty přebíraly rozumné výchozí hodnoty.',
-          'Před kreslením nastavte vrstvu jako aktuální příkazem <code>layer-make-current</code>, nebo vybrané objekty přesuňte příkazem <code>layer-match</code>.',
-          'Příkazem <code>layer-isolate</code> skryjete vše kromě vrstvy, na které pracujete, a příkazem <code>layer-unfreeze-all</code> vše vrátíte zpět.',
+          'V panelu nástrojů otevřete panel <strong>Layers</strong> a vytvořte hladinu pro každý druh obsahu (obrys, kóty, poznámky…).',
+          'Nastavte barvu, typ čáry a tloušťku čáry pro každou hladinu, aby objekty přebíraly rozumné výchozí hodnoty.',
+          'Před kreslením nastavte hladinu jako aktuální příkazem <code>layer-make-current</code>, nebo vybrané objekty přesuňte příkazem <code>layer-match</code>.',
+          'Příkazem <code>layer-isolate</code> skryjete vše kromě hladiny, na které pracujete, a příkazem <code>layer-unfreeze-all</code> vše vrátíte zpět.',
         ],
         links: [
-          { label: 'Izolace vrstev', slug: 'commands/layer-isolate' },
+          { label: 'Izolace hladin', slug: 'commands/layer-isolate' },
           { label: 'Typ čáry', slug: 'interface/linetype' },
           { label: 'Tloušťka čáry', slug: 'interface/lineweight' },
         ],
@@ -5672,6 +5672,183 @@ export const howtoContent: Record<string, HowToContent> = {
           'Připněte dva různé body a uchopíte jejich průsečík — tím se bod umístí přesně na (X jednoho špendlíku, Y druhého), a funguje to i společně se sledováním úhlu.',
           'Chcete-li existující tvar přemístit na referenční body místo kreslení nové geometrie, vyberte ho a spusťte <code>align</code> — klikněte na zdrojový a pak na cílový bod pro přesun, nebo přidejte druhý pár a tvar navíc otočíte (a případně změníte měřítko) do správné polohy.',
           'Kdykoli stiskněte <strong>Escape</strong> pro zrušení špendlíků nebo zrušení zarovnání a začněte znovu.',
+        ],
+        links: [
+          { label: 'Grid & Snap', slug: 'interface/grid-snap' },
+          { label: 'Vector Pins', slug: 'interface/vector-pins' },
+          { label: 'Align', slug: 'commands/align' },
+        ],
+      },
+    ],
+  },
+  lt: {
+    title: 'Kaip naudoti KulmanLab — vadovai dažniausioms CAD užduotims',
+    desc: 'Žingsnis po žingsnio vadovai KulmanLab CAD: atverkite DXF failus, braižykite tiksliais matmenimis, naudokite sluoksnius, pridėkite matmenis, paruoškite lazerinio pjovimo failus, spausdinkite ir kurkite brėžinių atsargines kopijas.',
+    heading: 'Kaip naudoti',
+    subtitle: 'Žingsnis po žingsnio vadovai dažniausioms užduotims KulmanLab CAD.',
+    docsLabel: 'Dokumentacija:',
+    outroTitle: 'Ieškote konkrečios komandos?',
+    outroHtml: '<a href="/lt/docs/">Komandų žinyne</a> aprašytos visos 50+ komandų, o <a href="/lt/faq/">DUK</a> aptaria saugyklą, formatus ir suderinamumą.',
+    guides: [
+      {
+        title: 'Kaip atverti DXF failą',
+        intro: 'KulmanLab skaito DXF — keitimosi formatą, kurį gali sukurti kiekvienas CAD įrankis. Failai atsidaro tiesiai iš jūsų disko ir niekada nepalieka jūsų įrenginio.',
+        steps: [
+          'Atverkite <a href="https://app.kulmanlab.com">app.kulmanlab.com</a>.',
+          'Spustelėkite mygtuką <strong>Import</strong> failų skydelyje arba terminale įveskite <code>import</code>.',
+          'Pasirinkite <code>.dxf</code> (arba KulmanLab <code>.json</code>) failą iš savo kompiuterio.',
+          'Brėžinys įkeliamas ant drobės ir automatiškai išsaugomas jūsų naršyklės saugykloje, todėl kitą kartą jis vis dar bus ten.',
+        ],
+        links: [
+          { label: 'Import komanda', slug: 'commands/import' },
+          { label: 'Paskutinių failų skydelis', slug: 'commands/file-manager' },
+        ],
+      },
+      {
+        title: 'Braižymas tiksliais matmenimis',
+        intro: 'Kiekviena braižymo komanda priima įvestą reikšmę, todėl niekada nereikia ilgio ar koordinatės vertinti iš akies.',
+        steps: [
+          'Paleiskite komandą — spustelėkite <strong>Line</strong> arba įveskite <code>line</code> ir paspauskite <strong>Enter</strong>.',
+          'Įveskite pradžios tašką kaip <code>x,y</code> (pavyzdžiui, <code>0,0</code>) ir paspauskite <strong>Enter</strong>.',
+          'Pajudinkite žymeklį norima kryptimi, tada įveskite ilgį (pavyzdžiui, <code>250</code>) ir paspauskite <strong>Enter</strong> — atkarpa nubrėžiama būtent tokio ilgio.',
+          'Įjunkite kampo užraktą valdymo juostoje (arba laikykite nustatytą žingsnį), kad atkarpos išliktų tiksliais kampais, pavyzdžiui, 30°, 45° ar 90°.',
+        ],
+        links: [
+          { label: 'Line komanda', slug: 'commands/line' },
+          { label: 'Tinklelis ir prisitraukimas', slug: 'interface/grid-snap' },
+        ],
+      },
+      {
+        title: 'Brėžinio tvarkymas sluoksniais',
+        intro: 'Sluoksniai išskiria konstrukcines linijas, geometriją ir anotacijas — ir išlieka eksportuojant į DXF.',
+        steps: [
+          'Atverkite <strong>Layers</strong> skydelį įrankių juostoje ir sukurkite sluoksnį kiekvienai turinio rūšiai (kontūras, matmenys, pastabos…).',
+          'Nustatykite kiekvieno sluoksnio spalvą, linijos tipą ir storį, kad objektai gautų prasmingas numatytąsias reikšmes.',
+          'Prieš braižydami padarykite sluoksnį dabartiniu komanda <code>layer-make-current</code> arba perkelkite pasirinktus objektus komanda <code>layer-match</code>.',
+          'Naudokite <code>layer-isolate</code>, kad paslėptumėte viską, išskyrus sluoksnį, su kuriuo dirbate, ir <code>layer-unfreeze-all</code>, kad viską sugrąžintumėte.',
+        ],
+        links: [
+          { label: 'Sluoksnių izoliavimas', slug: 'commands/layer-isolate' },
+          { label: 'Linijos tipas', slug: 'interface/linetype' },
+          { label: 'Linijos storis', slug: 'interface/lineweight' },
+        ],
+      },
+      {
+        title: 'Matmenų pridėjimas',
+        intro: 'Matmenys yra tikri DXF DIMENSION objektai, todėl be praradimų keliauja į bet kurį kitą CAD įrankį.',
+        steps: [
+          'Terminale įveskite <code>dim-linear</code> (horizontalus/vertikalus) arba <code>dim-aligned</code> (lygiagretus matuojamam kraštui).',
+          'Pasirinkite du taškus, kuriuos norite išmatuoti, tada trečiu spustelėjimu padėkite matmens liniją.',
+          'Išmatavimų eilutę sujunkite komanda <code>dim-continue</code> — kiekvienas naujas matmuo prasideda ten, kur baigėsi ankstesnis.',
+          'Apskritimams ir lankams naudokite <code>dim-radius</code>, <code>dim-diameter</code> arba <code>dim-angular</code>.',
+          'Dukart spustelėkite bet kurio matmens užrašą, kad redaguotumėte jo tekstą.',
+        ],
+        links: [
+          { label: 'Linijinis matmuo', slug: 'commands/dim-linear' },
+          { label: 'Grandininis matmuo', slug: 'commands/dim-continue' },
+          { label: 'Teksto redaktorius', slug: 'interface/text-editor' },
+        ],
+      },
+      {
+        title: 'Atstumo, kampo ir ploto matavimas',
+        intro: 'Greiti matavimai nekuriant jokios geometrijos — rezultatai išlieka ekrane, kol paspausite Escape.',
+        steps: [
+          'Įveskite <code>distance</code> ir pasirinkite du taškus, kad pamatytumėte ilgį.',
+          'Įveskite <code>angle</code> ir pasirinkite dvi linijas (arba tris taškus), kad pamatytumėte kampą tarp jų.',
+          'Įveskite <code>area</code> ir spustelėkite tris ar daugiau taškų, tada paspauskite <strong>Enter</strong> — parodomas apribotas plotas ir perimetras.',
+        ],
+        links: [
+          { label: 'Atstumas', slug: 'commands/distance' },
+          { label: 'Kampas', slug: 'commands/angle' },
+          { label: 'Plotas', slug: 'commands/area' },
+        ],
+      },
+      {
+        title: 'Failo paruošimas lazeriniam pjovimui ar CNC',
+        intro: 'Procesas, kuriam KulmanLab iš pradžių ir buvo sukurtas: patikrinti failą, sutvarkyti jį, išsiųsti į stakles.',
+        steps: [
+          'Importuokite DXF ir peržiūrėkite — <code>fit</code> parodo visą brėžinį.',
+          'Ištrinkite viską, ko staklės neturi pjauti: konstrukcines linijas, pastabas, matmenis. <code>layer-isolate</code> padeda rasti paklydusius objektus.',
+          'Sutvarkykite geometriją: <code>trim</code> nukirpkite išsikišusius galus, uždarykite spragas ir patikrinkite dydžius komanda <code>distance</code>.',
+          'Eksportuokite kaip DXF ir įkelkite į savo staklių programinę įrangą. Pjovimo keliai išlieka tiksliai tokie, kaip nubraižyti — KulmanLab rašo paprastą AC1032 DXF.',
+        ],
+        links: [
+          { label: 'Trim', slug: 'commands/trim' },
+          { label: 'Fit vaizdas', slug: 'commands/fit' },
+          { label: 'Eksportas', slug: 'commands/export-manager' },
+        ],
+      },
+      {
+        title: 'Maketo su vaizdo langais sukūrimas',
+        intro: 'Maketai yra popieriaus erdvės lapai — sukomponuokite vieną ar kelis jūsų modelio vaizdus tam tikru masteliu lape, paruoštus spausdinti.',
+        steps: [
+          'Spustelėkite <strong>maketo skirtuką</strong> ekrano apačioje, kad iš modelio erdvės persijungtumėte į popieriaus erdvę. Mygtukas <strong>+</strong> skirtukų juostoje prideda naują maketą.',
+          '<strong>Dešiniuoju pelės klavišu spustelėkite maketo skirtuką</strong>, kad jį pervadintumėte ar ištrintumėte, arba atvertumėte <strong>Page Manager</strong> — ten nustatote popieriaus formatą (A4, A3, Letter…), orientaciją ir brėžinio vienetų mm mastelį.',
+          'Įveskite <code>viewport-rectangle</code> ir spustelėkite du priešingus kampus, kad padėtumėte vaizdo langą — langą, rodantį jūsų modelį popieriuje.',
+          'Spustelėkite vaizdo langą, kad jį pasirinktumėte: tempkite jo kraštus ar kampus, kad pakeistumėte dydį, tempkite centrinę rankenėlę, kad jį perkeltumėte, ir pasirinkite tikslų mastelį (pvz., <code>1:50</code>) iš mastelio pasirinkiklio valdymo juostoje.',
+          'Slinkite vaizdo lange, kad priartintumėte modelio vaizdą, o vidurinio klavišo temdami jį stumdykite. Kai atrodo gerai, <strong>dešiniuoju klavišu spustelėkite vaizdo langą</strong> ir pasirinkite <strong>Lock</strong>, kad apsaugotumėte nuo netyčinių pakeitimų.',
+          'Reikia to paties vaizdo du kartus? <code>viewport-copy</code> dubliuoja vaizdo langą išsaugodama jo mastelį ir modelio vaizdą.',
+        ],
+        links: [
+          { label: 'Page manager', slug: 'commands/page-manager' },
+          { label: 'Viewport rectangle', slug: 'commands/viewport-rectangle' },
+          { label: 'Viewport copy', slug: 'commands/viewport-copy' },
+        ],
+      },
+      {
+        title: 'Spausdinimas arba išsaugojimas kaip PDF / PNG',
+        intro: 'Spausdinimo tvarkytuvė atvaizduoja jūsų brėžinį popieriui paruoštu vaizdu su tiesiogine peržiūra.',
+        steps: [
+          'Įveskite <code>print</code> arba spustelėkite Print mygtuką failų skydelyje.',
+          'Pasirinkite išvesties formatą: PDF dokumentams, PNG/JPEG/WebP vaizdams.',
+          'Pasirinktinai apkirpkite iki brėžinio srities ir įjunkite vienspalvę išvestį švariems linijų atspaudams.',
+          'Spustelėkite <strong>Print</strong> — failas atsisiunčiamas į jūsų kompiuterį.',
+        ],
+        links: [
+          { label: 'Print Manager', slug: 'commands/print-manager' },
+          { label: 'Page manager', slug: 'commands/page-manager' },
+        ],
+      },
+      {
+        title: 'Išsaugotų brėžinių atsarginės kopijos ir valdymas',
+        intro: 'Brėžiniai gyvena jūsų naršyklės saugykloje — privačioje, neprisijungus veikiančioje ir jūsų valdomoje. Naršyklės saugykla gali būti išvalyta ar prarasta, todėl pati savaime nėra atsarginė kopija.',
+        steps: [
+          'Atverkite <strong>File Manager</strong> skydelį, kad pamatytumėte kiekvieną šioje naršyklėje išsaugotą brėžinį, atvertumėte, pervadintumėte ar ištrintumėte.',
+          'Vienintelis patikimas būdas apsaugoti savo darbą — <strong>eksportuoti</strong> kopiją į savo saugyklą — pirmenybė teikiama <code>.json</code> (visas tikslumas, kiekvienas objekto tipas), o <code>.dxf</code> maksimaliai užtikrina suderinamumą su kitais CAD įrankiais.',
+          'Darykite tai prieš valydami naršyklės duomenis, keisdami naršykles ar įrenginius, arba kai tik brėžinys yra svarbus — naršyklės saugykla gali būti išvalyta pačios naršyklės (saugyklos limitai, privatus naršymas, OS perinstaliavimas) be jokio įspėjimo.',
+          'Norėdami visiškai atstatyti programą, įveskite <code>wipestorage</code> ir patvirtinkite <code>YES</code> — tai visam laikui ištrina visus vietoje išsaugotus brėžinius.',
+        ],
+        links: [
+          { label: 'File Manager skydelis', slug: 'commands/file-manager' },
+          { label: 'Eksportas', slug: 'commands/export-manager' },
+          { label: 'Saugyklos išvalymas', slug: 'commands/wipestorage' },
+        ],
+      },
+      {
+        title: 'Nuosavo šrifto pridėjimas',
+        intro: 'Įkelkite savo .ttf failą ir naudokite jį Text ir Multileader užrašuose — šriftas lieka išsaugotas jūsų naršyklėje būsimiems brėžiniams.',
+        steps: [
+          'Terminale įveskite <code>FontManager</code>, kad atvertumėte dialogą tiesiogiai — arba, jei teksto redaktorius jau atidarytas, spustelėkite <strong>Font Manager</strong> mygtuką jo įrankių juostoje.',
+          'Spustelėkite <strong>Add Font</strong> dialogo apačioje ir pasirinkite <code>.ttf</code> failą — palaikomi tik TrueType šriftai.',
+          'Failo pavadinimas tampa šrifto pavadinimu grupėje <strong>User</strong> (įkėlus <code>MyFont.ttf</code> pridedamas šriftas, vadinamas <code>MyFont</code>).',
+          'Norėdami pritaikyti šriftą, padėkite naują teksto užrašą (komanda <code>text</code>) arba dukart spustelėkite esamą Text ar Multileader, kad atvertumėte teksto redaktorių.',
+          'Pasirinkite naują šriftą iš sąrašo, kad jį pritaikytumėte — pažymėjus tekstą jis pakeis tik tuos simbolius, nepažymėjus nustato visą užrašą.',
+        ],
+        links: [
+          { label: 'Font Manager', slug: 'commands/font-manager' },
+          { label: 'Teksto redaktorius', slug: 'interface/text-editor' },
+          { label: 'Text komanda', slug: 'commands/text' },
+        ],
+      },
+      {
+        title: 'Tikslus prisitraukimas ir lygiavimas',
+        intro: 'Derinkite Grid & Snap, Vector Pins ir Align komandą, kad naują geometriją išdėstytumėte tiksliai — nevedant koordinačių ranka.',
+        steps: [
+          'Valdymo juostoje įjunkite <strong>Grid</strong> ir <strong>Snap</strong>, kad žymeklis užsifiksuotų ant reguliaraus tinklelio — tarpai prisitaiko keičiant mastelį, o esamos geometrijos prisitraukimai (galas, vidurio taškas, sankirta) vis tiek turi pirmenybę prieš tinklelį.',
+          'Pusei sekundės užvedę žymeklį ant bet kurio prisitraukimo taško, prisegsite jį su <strong>Vector Pins</strong> (įjungta pagal numatytuosius nustatymus) — smeigtukas projektuoja brūkšnines horizontalias ir vertikalias atskaitos linijas, todėl galite spustelėti tašką, kurio X ar Y koordinatė tiksliai sutampa, nebraižydami konstrukcinės linijos.',
+          'Prisekite du skirtingus taškus, kad prisitrauktumėte prie jų sankirtos — taip taškas padedamas tiksliai ties (vieno smeigtuko X, kito smeigtuko Y), o tai veikia ir kartu su kampo sekimu.',
+          'Norėdami esamą figūrą perkelti ant atskaitos taškų, o ne braižyti naują geometriją, pasirinkite ją ir paleiskite <code>align</code> — spustelėkite šaltinio, o tada paskirties tašką, kad ją perkeltumėte, arba pridėkite antrą porą, kad ją taip pat pasuktumėte (ir pasirinktinai pakeistumėte mastelį) į vietą.',
+          'Bet kuriuo metu paspauskite <strong>Escape</strong>, kad išvalytumėte smeigtukus ar atšauktumėte lygiavimą ir pradėtumėte iš naujo.',
         ],
         links: [
           { label: 'Grid & Snap', slug: 'interface/grid-snap' },

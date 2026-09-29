@@ -69,7 +69,7 @@ Každá nová šrafa začíná vyplněná vzorem `ANSI31` (nebo tím, který pou
 1. Vyberte existující šrafu a otevřete její pole **Pattern** v panelu vlastností — otevře se výběr vzoru, mřížka pojmenovaných vzorků seskupených podle toho, odkud každý vzor pochází.
 2. Kliknutím na vzor jej použijete — výplň se okamžitě aktualizuje.
 
-Tento výběr se také stane výchozím pro *další* šrafu vytvořenou příkazem `hatch`, stejně jako se přenáší volba vrstvy nebo barvy. Chcete-li tedy vyšrafovat několik nových oblastí určitým vzorem: vyplňte jednu oblast, nastavte její vzor jednou a pak šrafujte dál — každá další výplň už začíná s tímto vzorem.
+Tento výběr se také stane výchozím pro *další* šrafu vytvořenou příkazem `hatch`, stejně jako se přenáší volba hladiny nebo barvy. Chcete-li tedy vyšrafovat několik nových oblastí určitým vzorem: vyplňte jednu oblast, nastavte její vzor jednou a pak šrafujte dál — každá další výplň už začíná s tímto vzorem.
 
 Nahrávání vlastních souborů vzorů `.pat` a procházení celé knihovny najdete v [Hatch Manager](../hatch-manager/).
 

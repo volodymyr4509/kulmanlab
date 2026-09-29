@@ -23,12 +23,12 @@ Vyskakovací okno může zobrazit až pět fazet, každou sestavenou živě z ak
 | Fazeta | Zobrazené hodnoty |
 |--------|-------------------|
 | **Type** | Název typu objektu (Line, Circle, Hatch, …) |
-| **Layer** | Název vrstvy, s barevným vzorkem odpovídajícím dané vrstvě |
+| **Layer** | Název hladiny, s barevným vzorkem odpovídajícím dané hladině |
 | **Color** | Index barvy ACI |
 | **Lineweight** | Hodnota tloušťky čáry |
 | **Linetype** | Název typu čáry |
 
-Fazeta se objeví, jen pokud výběr skutečně obsahuje pro danou vlastnost více než jednu odlišnou hodnotu — výběr deseti úseček na téže vrstvě nezobrazí fazetu Layer, protože její zaškrtnutí by nemohlo nic zúžit. Objekty, které danou vlastnost vůbec nenesou (Hatch a Text například nemají tloušťku čáry ani typ čáry), se do této fazety prostě nepočítají — a nikdy nejsou jí ani vyloučeny.
+Fazeta se objeví, jen pokud výběr skutečně obsahuje pro danou vlastnost více než jednu odlišnou hodnotu — výběr deseti úseček na téže hladině nezobrazí fazetu Layer, protože její zaškrtnutí by nemohlo nic zúžit. Objekty, které danou vlastnost vůbec nenesou (Hatch a Text například nemají tloušťku čáry ani typ čáry), se do této fazety prostě nepočítají — a nikdy nejsou jí ani vyloučeny.
 
 ## Zúžení výběru
 
@@ -43,4 +43,4 @@ Použijte ovládací prvek reset ve vyskakovacím okně, čímž vymažete všec
 ## Související
 
 - [Match Properties](../../commands/match-properties/) — kopírování vlastností z jednoho objektu na jiné, jakmile jste zúžili, které to mají být
-- [LayerIsolate](../../commands/layer-isolate/) — alternativa na úrovni vrstev, když chcete izolovat pouze podle vrstvy, nezávisle na aktuálním výběru
+- [LayerIsolate](../../commands/layer-isolate/) — alternativa na úrovni hladin, když chcete izolovat pouze podle hladiny, nezávisle na aktuálním výběru

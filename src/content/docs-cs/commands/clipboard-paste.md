@@ -1,7 +1,7 @@
 ---
 title: Příkaz ClipboardPaste — vkládání objektů ze systémové schránky
-description: Příkaz ClipboardPaste načte ze systémové schránky objekty dříve zapsané příkazem ClipboardCopy a umístí je do zvoleného vkládacího bodu, přičemž doplní vrstvy a typy čar, které cílovému výkresu chybějí.
-keywords: [CAD vložení ze schránky, vkládání objektů mezi výkresy, vložení CAD objektů, Ctrl+V CAD, kopírování mezi kartami CAD, vložení mezi kartami prohlížeče, sloučení vrstev při vložení, kulmanlab]
+description: Příkaz ClipboardPaste načte ze systémové schránky objekty dříve zapsané příkazem ClipboardCopy a umístí je do zvoleného vkládacího bodu, přičemž doplní hladiny a typy čar, které cílovému výkresu chybějí.
+keywords: [CAD vložení ze schránky, vkládání objektů mezi výkresy, vložení CAD objektů, Ctrl+V CAD, kopírování mezi kartami CAD, vložení mezi kartami prohlížeče, sloučení hladin při vložení, kulmanlab]
 group: edit
 order: 18
 ---
@@ -25,15 +25,15 @@ Náhled je ukotven **referenčním bodem** kopie — levým dolním rohem spole�
 |------|---------|
 | **Nové identity** | Každý vložený objekt dostane nové id, takže dvojí vložení vytvoří dvě nezávislé sady |
 | **Posun** | Objekty se posunou o kurzor − referenční bod |
-| **Sloučení vrstev** | Každá odkazovaná vrstva, která v cílovém výkresu chybí, se přidá podle názvu |
+| **Sloučení hladin** | Každá odkazovaná hladina, která v cílovém výkresu chybí, se přidá podle názvu |
 | **Sloučení typů čar** | Každý odkazovaný typ čáry, který v cílovém výkresu chybí, se přidá podle názvu |
 | **Výběr** | Předchozí výběr se zruší a vložené objekty se stanou výběrem |
 
-### Sloučení vrstev a typů čar
+### Sloučení hladin a typů čar
 
-Chybějící položky tabulek se přidají; **existující zůstanou beze změny**. Pokud schránka nese vrstvu `WALLS` v červené a cíl už má vrstvu `WALLS` v modré, vyhrává definice cíle a vložené objekty se k ní připojí — budou modré. Vložením se nic v cílovém výkresu nepředefinuje.
+Chybějící položky tabulek se přidají; **existující zůstanou beze změny**. Pokud schránka nese hladinu `WALLS` v červené a cíl už má hladinu `WALLS` v modré, vyhrává definice cíle a vložené objekty se k ní připojí — budou modré. Vložením se nic v cílovém výkresu nepředefinuje.
 
-To je důležité při kopírování mezi výkresy s odlišnými konvencemi vrstev: pokud barvy nejsou takové, jaké jste čekali, zkontrolujte po vložení mezi výkresy [Layer Manager](../layer-manager/).
+To je důležité při kopírování mezi výkresy s odlišnými konvencemi hladin: pokud barvy nejsou takové, jaké jste čekali, zkontrolujte po vložení mezi výkresy [Layer Manager](../layer-manager/).
 
 ## Když schránka nemá co vložit
 
@@ -72,4 +72,4 @@ Každý typ objektu, který ClipboardCopy umí zapsat, umí ClipboardPaste nač�
 
 - [ClipboardCopy](../clipboard-copy/) — zapíše výběr do schránky
 - [Copy](../copy/) — duplikuje objekty v aktuálním výkresu
-- [Layer Manager](../layer-manager/) — zkontroluje vrstvy, které vložení přineslo
+- [Layer Manager](../layer-manager/) — zkontroluje hladiny, které vložení přineslo

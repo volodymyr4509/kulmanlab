@@ -47,7 +47,7 @@ Rovnoběžné úsečky nemohou vytvořit úhlovou kótu; příkaz druhé kliknut
 
 - Kótovací oblouk se vždy kreslí na té straně vrcholu, kam jej umístíte — přesunutím kurzoru přes vrchol se přepnete na doplňkový úhel.
 - Naměřený úhel se zobrazuje ve stupních a při umísťování se živě aktualizuje, jak pohybujete kurzorem.
-- Výsledná anotace je plnohodnotný objekt `DimensionAngular` uložený na aktuální vrstvě. Jeho vlastnosti vzhledu (velikost šipky, výška textu, délka rozměrové čáry) lze upravit v panelu vlastností.
+- Výsledná anotace je plnohodnotný objekt `DimensionAngular` uložený na aktuální hladině. Jeho vlastnosti vzhledu (velikost šipky, výška textu, délka rozměrové čáry) lze upravit v panelu vlastností.
 - Úhlové kóty se exportují do JSON i DXF, v DXF zapsané jako standardní objekty `DIMENSION`.
 
 ## Úprava popisku — jednoduchý režim

@@ -43,7 +43,7 @@ Výsledek závisí na tom, co jste vybrali:
 - **Dva segmenty téže polyline sdílející rohový vrchol**: žádný nový objekt — zaoblení se stane součástí samotné polyline. Rohový vrchol se nahradí dvěma tečnými body a oblouk mezi nimi se uloží jako vybočení (bulge) dané hrany, přesně tak, jak se zaoblený roh polyline přenáší přes DXF.
 - **Cokoli jiného zahrnující otevřenou polyline** — dvě různé otevřené polyline, nebo otevřená polyline a samostatná Line/Arc: obě se sloučí do **jedné nové polyline**, každá strana se ponechá až po svůj tečný bod a spojí se obloukem zaoblení jako dalším segmentem s vybočením, čímž nahradí původní objekty.
 
-Vložený nebo prodloužený oblouk zdědí aktuální nastavení tloušťky čáry, barvy, vrstvy a typu čáry (nebo vlastní nastavení polyline, když se do ní vkládá).
+Vložený nebo prodloužený oblouk zdědí aktuální nastavení tloušťky čáry, barvy, hladiny a typu čáry (nebo vlastní nastavení polyline, když se do ní vkládá).
 
 ## Rohy bez skutečného úhlu k zaoblení
 

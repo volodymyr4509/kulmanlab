@@ -1,6 +1,6 @@
 ---
 title: Příkaz ClipboardCopy — kopírování objektů do systémové schránky
-description: Příkaz ClipboardCopy zapíše vybrané objekty do systémové schránky jako text JSON spolu s vrstvami a typy čar, na které odkazují, takže je lze příkazem ClipboardPaste vložit do jiného výkresu nebo jiné karty prohlížeče.
+description: Příkaz ClipboardCopy zapíše vybrané objekty do systémové schránky jako text JSON spolu s hladinami a typy čar, na které odkazují, takže je lze příkazem ClipboardPaste vložit do jiného výkresu nebo jiné karty prohlížeče.
 keywords: [CAD kopírování do schránky, kopírování objektů mezi výkresy, kopírování CAD objektů do schránky, Ctrl+C CAD, kopírování mezi kartami CAD, kopírování mezi kartami prohlížeče, kulmanlab]
 group: edit
 order: 17
@@ -37,10 +37,10 @@ Obsah schránky nese víc než holou geometrii, takže vložení do nesouvisejí
 |------|------|
 | **Objekty** | Úplná serializovaná podoba každého vybraného objektu |
 | **Referenční bod** | Levý dolní roh společných hranic výběru — to, co ClipboardPaste ukotví ke kurzoru |
-| **Vrstvy** | Pouze vrstvy, na které zkopírované objekty skutečně odkazují, podle názvu |
+| **Hladiny** | Pouze hladiny, na které zkopírované objekty skutečně odkazují, podle názvu |
 | **Typy čar** | Pouze typy čar, na které zkopírované objekty skutečně odkazují, podle názvu |
 
-S kopií putují pouze *odkazované* položky tabulek — ne celé tabulky vrstev a typů čar zdrojového výkresu. Vzorky šrafování se nepřibalují vůbec a nemusejí: tabulka vzorků výkresu je vestavěná výchozí sada a všechny soubory `.pat`, které jste nahráli, žijí v úložišti pro jednotlivého uživatele, které je již sdíleno mezi kartami, takže vložené šrafování si svůj vzorek najde samo.
+S kopií putují pouze *odkazované* položky tabulek — ne celé tabulky hladin a typů čar zdrojového výkresu. Vzorky šrafování se nepřibalují vůbec a nemusejí: tabulka vzorků výkresu je vestavěná výchozí sada a všechny soubory `.pat`, které jste nahráli, žijí v úložišti pro jednotlivého uživatele, které je již sdíleno mezi kartami, takže vložené šrafování si svůj vzorek najde samo.
 
 ## Potvrzení
 

@@ -134,7 +134,7 @@ Když je polyline vybrána, panel vlastností zobrazí:
 | Vlastnost | Výchozí | Význam |
 |----------|---------|--------|
 | Color | 256 (ByLayer) | Index barvy ACI |
-| Layer | `0` | Přiřazení k vrstvě |
+| Layer | `0` | Přiřazení k hladině |
 | Linetype | ByLayer | Pojmenovaný vzor typu čáry |
 | Linetype Scale | 1 | Měřítko vzoru typu čáry |
 | Thickness | 0 | Tloušťka vytažení |
@@ -160,7 +160,7 @@ Když je polyline vybrána, panel vlastností zobrazí:
 
 ## DXF — objekt LWPOLYLINE
 
-Polyline se v souboru DXF ukládají jako objekty `LWPOLYLINE`. Všechny vlastnosti — souřadnice vrcholů, příznak uzavření, barva, vrstva, typ čáry, měřítko typu čáry a tloušťka — se přenášejí beze ztráty. Obdélníky nakreslené příkazem [Rectangle](../rectangle/) se také ukládají jako `LWPOLYLINE` (uzavřená, čtyři vrcholy) a na úrovni DXF jsou od nich nerozeznatelné.
+Polyline se v souboru DXF ukládají jako objekty `LWPOLYLINE`. Všechny vlastnosti — souřadnice vrcholů, příznak uzavření, barva, hladina, typ čáry, měřítko typu čáry a tloušťka — se přenášejí beze ztráty. Obdélníky nakreslené příkazem [Rectangle](../rectangle/) se také ukládají jako `LWPOLYLINE` (uzavřená, čtyři vrcholy) a na úrovni DXF jsou od nich nerozeznatelné.
 
 Každý vrchol nese také **vybočení (bulge)** (skupinový kód DXF 42) — 0 pro přímý segment k dalšímu vrcholu, nebo znaménkovou hodnotu vybočení odpovídající tangentě čtvrtiny úhlu pro zakřivený (kladné vybočení se stáčí proti směru hodinových ručiček, záporné po směru). Vybočení se přenášejí beze ztráty, takže polyline s obloukovými segmenty importovaná z DXF jiné CAD aplikace se vykresluje, vybírá, upravuje úchyty, ořezává, prodlužuje a šrafuje přesně jako ta, která byla nakreslena zde s volbou Arc.
 

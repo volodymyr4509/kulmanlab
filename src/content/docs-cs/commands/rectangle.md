@@ -104,7 +104,7 @@ Když je obdélník vybrán, panel vlastností zobrazí stejná pole jako u jak�
 | Vlastnost | Výchozí | Význam |
 |----------|---------|--------|
 | Color | 256 (ByLayer) | Index barvy ACI |
-| Layer | `0` | Přiřazení k vrstvě |
+| Layer | `0` | Přiřazení k hladině |
 | Linetype | ByLayer | Pojmenovaný vzor typu čáry |
 | Linetype Scale | 1 | Měřítko vzoru typu čáry |
 | Thickness | 0 | Tloušťka vytažení |
@@ -129,6 +129,6 @@ Když je obdélník vybrán, panel vlastností zobrazí stejná pole jako u jak�
 
 ## DXF — objekt LWPOLYLINE
 
-Obdélníky se ukládají jako uzavřené objekty `LWPOLYLINE` se čtyřmi vrcholy. Všechny vlastnosti — souřadnice vrcholů, barva, vrstva, typ čáry, měřítko typu čáry a tloušťka — se přenášejí beze ztráty.
+Obdélníky se ukládají jako uzavřené objekty `LWPOLYLINE` se čtyřmi vrcholy. Všechny vlastnosti — souřadnice vrcholů, barva, hladina, typ čáry, měřítko typu čáry a tloušťka — se přenášejí beze ztráty.
 
 V DXF neexistuje vyhrazený typ `RECTANGLE`. Když se soubor znovu otevře, tvar se objeví jako uzavřená čtyřvrcholová polyline, nikoli jako obdélník. Každý prohlížeč či editor DXF, který podporuje `LWPOLYLINE` (LibreCAD, FreeCAD apod.), jej zobrazí správně.

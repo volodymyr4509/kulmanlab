@@ -1,6 +1,6 @@
 ---
 title: Příkaz Explode — rozložení polyline na objekty Line a Arc
-description: Příkaz Explode rozloží Polyline na jednotlivé objekty Line a Arc, jeden na segment, přímo na místě. Každý díl zachová tloušťku čáry, barvu, vrstvu a typ čáry původní polyline. Funguje pouze na objektech Polyline.
+description: Příkaz Explode rozloží Polyline na jednotlivé objekty Line a Arc, jeden na segment, přímo na místě. Každý díl zachová tloušťku čáry, barvu, hladinu a typ čáry původní polyline. Funguje pouze na objektech Polyline.
 keywords: [CAD příkaz explode, rozložení polyline CAD, rozdělení polyline na úsečky, převod polyline na line a arc, kulmanlab]
 group: edit
 order: 16
@@ -8,7 +8,7 @@ order: 16
 
 # Explode
 
-Příkaz `explode` rozloží [Polyline](../polyline/) na jednotlivé objekty [Line](../line/) a [Arc](../arc/) — jeden na segment, přesně tam, kde byly vrcholy polyline. Díly nahradí polyline na místě a zachovají její tloušťku čáry, barvu, vrstvu a typ čáry.
+Příkaz `explode` rozloží [Polyline](../polyline/) na jednotlivé objekty [Line](../line/) a [Arc](../arc/) — jeden na segment, přesně tam, kde byly vrcholy polyline. Díly nahradí polyline na místě a zachovají její tloušťku čáry, barvu, hladinu a typ čáry.
 
 Explode funguje pouze na objektech **Polyline**.
 
@@ -38,7 +38,7 @@ Každý segment polyline se stane samostatným objektem:
 - **Přímý segment** se stane objektem **Line**.
 - **Obloukový segment** (z [volby Arc](../polyline/) příkazu Polyline) se stane objektem **Arc**, který přesně odpovídá středu, poloměru a rozsahu původního oblouku.
 
-Každá výsledná Line a Arc zdědí od zdrojové polyline **tloušťku čáry, barvu, vrstvu, typ čáry a měřítko typu čáry** — na vzhledu geometrie se nic nemění, jen z jednoho souvislého objektu Polyline je teď několik nezávislých objektů.
+Každá výsledná Line a Arc zdědí od zdrojové polyline **tloušťku čáry, barvu, hladinu, typ čáry a měřítko typu čáry** — na vzhledu geometrie se nic nemění, jen z jednoho souvislého objektu Polyline je teď několik nezávislých objektů.
 
 Rozložení lze vrátit jedním krokem pomocí [Undo](../undo/), jako každou jinou úpravu.
 

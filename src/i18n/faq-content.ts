@@ -1445,7 +1445,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       headingKey: 'faq.section.features',
       items: [
         { q: 'Má příkazový terminál?', a: 'Ano. Příkazy zadáváte přímo — LINE, CIRCLE, MOVE, TRIM a dalších 50+. Terminál podporuje historii (šipky), automatické doplňování (Tab) a přesné číselné zadání.' },
-        { q: 'Podporuje vrstvy?', a: 'Plná správa vrstev: vytváření, přejmenování, zmrazení, zamykání a izolace vrstev. Barvu, typ čáry a tloušťku čáry nastavíte pro každou vrstvu zvlášť. Všechna data vrstev se zachovají při exportu do DXF.' },
+        { q: 'Podporuje hladiny?', a: 'Plná správa hladin: vytváření, přejmenování, zmrazení, zamykání a izolace hladin. Barvu, typ čáry a tloušťku čáry nastavíte pro každou hladinu zvlášť. Všechna data hladin se zachovají při exportu do DXF.' },
         { q: 'Jaké typy kót jsou k dispozici?', a: 'Lineární, zarovnané, poloměrové, průměrové, úhlové a navazující kóty. Všechny se ukládají jako standardní objekty DXF DIMENSION kompatibilní s dalšími CAD nástroji podporujícími DXF.' },
         { q: 'Mohu upravovat geometrii pomocí úchytů?', a: 'Ano. Vyberte libovolný objekt a v klíčových bodech — koncích, středech, středech oblouků, koncích oblouků — se zobrazí úchyty. Přetažením geometrii upravíte přímo na plátně, nebo během tažení zadejte hodnotu pro přesné umístění.' },
         { q: 'Je podporována spolupráce v reálném čase?', a: 'Zatím ne. KulmanLab je nástroj pro jednoho uživatele a výkresy zůstávají lokální. Synchronizace přes cloud a spolupráce jsou mimo současný rozsah.' },
@@ -1456,7 +1456,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: 'Jsou soubory DXF z KulmanLab kompatibilní s jiným CAD softwarem?', a: 'Ano. KulmanLab čte a zapisuje DXF ve verzi AC1032 — široce podporované. Soubory se správně otevřou v LibreCAD, QCAD, BricsCAD, FreeCAD i v jakémkoli jiném nástroji podporujícím DXF.' },
         { q: 'Jaký je rozdíl mezi DXF a DWG?', a: 'DXF je otevřený textový výměnný formát navržený pro interoperabilitu. DWG je proprietární binární formát. KulmanLab používá DXF, který čte prakticky každý CAD nástroj.' },
-        { q: 'Může KulmanLab nahradit můj desktopový CAD software?', a: 'Pro 2D rýsování — ano. KulmanLab má plnohodnotný příkazový terminál, vrstvy, uchopení, kóty, úpravy úchyty a kompatibilitu s DXF. Nepodporuje 3D, bloky/xrefy ani parametrické vazby.' },
+        { q: 'Může KulmanLab nahradit můj desktopový CAD software?', a: 'Pro 2D rýsování — ano. KulmanLab má plnohodnotný příkazový terminál, hladiny, uchopení, kóty, úpravy úchyty a kompatibilitu s DXF. Nepodporuje 3D, bloky/xrefy ani parametrické vazby.' },
       ],
     },
     {
@@ -1464,6 +1464,51 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: 'Shromažďuje KulmanLab data mých výkresů?', a: 'Ne. Vaše výkresy zůstávají ve vašem prohlížeči a nikdy se nikam neposílají. KulmanLab používá Google Analytics pro anonymní statistiky použití (zobrazení stránek, počty relací) — žádný obsah výkresů se tím nijak nedotýká.' },
         { q: 'Používají se cookies?', a: 'Cookies se používají pro Google Analytics, který shromažďuje anonymní statistiky použití (zobrazení stránek, počty relací).' },
+      ],
+    },
+  ],
+  lt: [
+    {
+      headingKey: 'faq.section.start',
+      items: [
+        { q: 'Ar KulmanLab tikrai nemokamas?', a: 'Taip — visiškai nemokamas. Jokios prenumeratos, jokios kredito kortelės, jokio paslėpto plano. Visos funkcijos prieinamos visiems be apribojimų.' },
+        { q: 'Ar reikia susikurti paskyrą?', a: 'Ne. Nėra nei prisijungimo, nei registracijos, nei el. pašto. Atverkite programą ir iškart pradėkite braižyti.' },
+        { q: 'Kokios naršyklės palaikomos?', a: 'Bet kuri šiuolaikinė darbalaukio naršyklė — veikia Chrome, Firefox, Safari ir Edge. KulmanLab skirtas tik darbalaukiui; mobilieji įrenginiai ir planšetės šiuo metu nepalaikomi.' },
+        { q: 'Ar veikia neprisijungus?', a: 'Taip. Po pirmojo įkėlimo programa išsaugoma talpykloje ir veikia visiškai be interneto ryšio. Jūsų brėžiniai saugomi vietoje, todėl nieko nereikia serveriui.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.files',
+      items: [
+        { q: 'Kur saugomi mano brėžiniai?', a: 'Jūsų naršyklės IndexedDB — jūsų pačių įrenginyje. Niekas niekada neįkeliama į serverį. Kiekviena naršyklė kiekviename įrenginyje turi savo nepriklausomą saugyklą.' },
+        { q: 'Kas nutinka, jei išvalau naršyklės duomenis?', a: 'Jūsų išsaugoti brėžiniai bus prarasti. Prieš valydami naršyklės saugyklą visada eksportuokite JSON kopiją visko, kas svarbu.' },
+        { q: 'Ar galiu atverti .dwg failus?', a: 'KulmanLab palaiko DXF (Drawing Exchange Format), o ne uždarąjį DWG formatą. Dauguma darbalaukio CAD programų gali eksportuoti DXF, todėl pirmiausia eksportuokite iš savo šaltinio programos.' },
+        { q: 'Kokie eksporto formatai prieinami?', a: 'DXF ir JSON per Eksportą — DXF keitimuisi su kitais CAD įrankiais, JSON išsaugojimui be praradimų (įskaitant matmenis ir išnašas) KulmanLab viduje. Spausdinimas atskirai eksportuoja PNG, JPEG, WebP ar PDF vaizdus, su pasirenkamu srities apkirpimu ir vienspalvio režimo jungikliu.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.features',
+      items: [
+        { q: 'Ar yra komandų terminalas?', a: 'Taip. Įveskite komandas tiesiogiai — LINE, CIRCLE, MOVE, TRIM ir dar daugiau nei 50. Terminalas palaiko istoriją (rodyklių klavišai), automatinį užbaigimą (Tab) ir tikslų skaitinį įvedimą.' },
+        { q: 'Ar yra sluoksnių palaikymas?', a: 'Pilnas sluoksnių valdymas: kurkite, pervadinkite, užšaldykite, užrakinkite ir izoliuokite sluoksnius. Nustatykite kiekvieno sluoksnio spalvą, linijos tipą ir storį. Visi sluoksnių duomenys išsaugomi DXF eksporte.' },
+        { q: 'Kokie matmenų tipai prieinami?', a: 'Linijiniai, lygiagretūs, spindulio, skersmens, kampiniai ir grandininiai matmenys. Visi saugomi kaip standartiniai DXF DIMENSION objektai, suderinami su kitais DXF palaikančiais CAD įrankiais.' },
+        { q: 'Ar galiu redaguoti geometriją rankenėlėmis?', a: 'Taip. Pasirinkite bet kurį objektą, kad pamatytumėte rankenėles pagrindiniuose taškuose — galuose, vidurio taškuose, centruose, lankų galuose. Tempkite, kad pakeistumėte formą tiesiai ant drobės, arba temdami įveskite reikšmę tiksliam išdėstymui.' },
+        { q: 'Ar palaikomas bendradarbiavimas realiuoju laiku?', a: 'Šiuo metu ne. KulmanLab yra vieno naudotojo įrankis, o brėžiniai lieka vietoje. Debesų sinchronizacija ir bendradarbiavimas nepatenka į dabartinę apimtį.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.compat',
+      items: [
+        { q: 'Ar KulmanLab DXF failai suderinami su kita CAD programine įranga?', a: 'Taip. KulmanLab skaito ir rašo AC1032 DXF — plačiai palaikomą versiją. Failai teisingai atsidaro LibreCAD, QCAD, BricsCAD, FreeCAD ir bet kuriame kitame DXF palaikančiame įrankyje.' },
+        { q: 'Kuo skiriasi DXF ir DWG?', a: 'DXF yra atviras, tekstinis keitimosi formatas, sukurtas sąveikai. DWG yra uždaras dvejetainis formatas. KulmanLab naudoja DXF, kurį gali skaityti praktiškai bet kuris CAD įrankis.' },
+        { q: 'Ar KulmanLab gali pakeisti mano darbalaukio CAD programą?', a: 'Vykdant 2D braižybą — taip. KulmanLab turi pilną komandų terminalą, sluoksnius, prisitraukimą, matmenis, redagavimą rankenėlėmis ir DXF suderinamumą. Nepalaiko 3D, blokų/xref ar parametrinių apribojimų.' },
+      ],
+    },
+    {
+      headingKey: 'faq.section.privacy',
+      items: [
+        { q: 'Ar KulmanLab renka mano brėžinių duomenis?', a: 'Ne. Jūsų brėžiniai lieka jūsų naršyklėje ir niekada niekur nesiunčiami. KulmanLab naudoja Google Analytics anoniminei naudojimo statistikai (puslapių peržiūros, sesijų skaičius) — brėžinių turinys nedalyvauja.' },
+        { q: 'Ar naudojami slapukai?', a: 'Slapukai naudojami Google Analytics, kuri renka anoniminę naudojimo statistiką (puslapių peržiūros, sesijų skaičius).' },
       ],
     },
   ],

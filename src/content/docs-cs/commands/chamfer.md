@@ -48,7 +48,7 @@ U Polylinií určuje poloha kliknutí, který **segment** polylinie se účastn�
 - Koncový bod druhého objektu (nebo vrchol polylinie) nejblíže průsečíku se přesune do bodu **T2**, který leží ve vzdálenosti d2 podél druhého objektu od průsečíku.
 - Vloží se nový objekt Line z **T1** do **T2**.
 
-Vložená úsečka zdědí aktuální nastavení tloušťky čáry, barvy, vrstvy a typu čáry.
+Vložená úsečka zdědí aktuální nastavení tloušťky čáry, barvy, hladiny a typu čáry.
 
 ## Přehled kláves
 

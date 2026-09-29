@@ -82,7 +82,7 @@ Spliny nepodporují **Offset**, **Trim** ani **Extend**.
 | Vlastnost | Výchozí | Význam |
 |----------|---------|--------|
 | Color | 256 (ByLayer) | Index barvy ACI |
-| Layer | `0` | Přiřazení k vrstvě |
+| Layer | `0` | Přiřazení k hladině |
 | Linetype | ByLayer | Pojmenovaný vzor typu čáry |
 | Linetype Scale | 1 | Měřítko vzoru typu čáry |
 | Thickness | 0 | Tloušťka vytažení |
@@ -106,4 +106,4 @@ Spliny nepodporují **Offset**, **Trim** ani **Extend**.
 
 ## DXF — objekt SPLINE (forma s proloženými body)
 
-Spliny Fit se v souboru DXF ukládají jako objekty `SPLINE` s uloženými souřadnicemi proložených bodů i vypočtenými řídicími vrcholy. Příznak `splineFlag` je nastaven na `8` (spline s proloženými body), takže aplikace při opětovném načtení ví, kterou sadu bodů zobrazit jako upravitelné úchyty. Všechny vlastnosti — barva, vrstva, typ čáry, měřítko typu čáry a tloušťka — se přenášejí beze ztráty. Aplikace DXF, které podporují spliny s proloženými body (LibreCAD, FreeCAD), zobrazí proložené body jako primární upravitelná data.
+Spliny Fit se v souboru DXF ukládají jako objekty `SPLINE` s uloženými souřadnicemi proložených bodů i vypočtenými řídicími vrcholy. Příznak `splineFlag` je nastaven na `8` (spline s proloženými body), takže aplikace při opětovném načtení ví, kterou sadu bodů zobrazit jako upravitelné úchyty. Všechny vlastnosti — barva, hladina, typ čáry, měřítko typu čáry a tloušťka — se přenášejí beze ztráty. Aplikace DXF, které podporují spliny s proloženými body (LibreCAD, FreeCAD), zobrazí proložené body jako primární upravitelná data.

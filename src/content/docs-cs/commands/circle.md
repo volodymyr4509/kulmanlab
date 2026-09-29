@@ -101,7 +101,7 @@ Všechny čtyři kvadrantové úchyty se chovají stejně — nový poloměr se 
 | Vlastnost | Výchozí | Význam |
 |-----------|---------|--------|
 | Color | 256 (ByLayer) | Index barvy ACI |
-| Layer | `0` | Přiřazení do vrstvy |
+| Layer | `0` | Přiřazení do hladiny |
 | Linetype | ByLayer | Pojmenovaný vzor typu čáry |
 | Linetype Scale | 1 | Činitel měřítka vzoru typu čáry |
 | Thickness | 0 | Tloušťka vytažení |
@@ -126,4 +126,4 @@ Všechny čtyři kvadrantové úchyty se chovají stejně — nový poloměr se 
 
 ## DXF — objekt CIRCLE
 
-Kružnice se do souboru DXF ukládají jako objekty `CIRCLE`. Souřadnice středu, poloměr, barva, vrstva, typ čáry, měřítko typu čáry a tloušťka se přenášejí beze ztráty. Jakákoli aplikace kompatibilní s DXF je čte jako standardní kružnice.
+Kružnice se do souboru DXF ukládají jako objekty `CIRCLE`. Souřadnice středu, poloměr, barva, hladina, typ čáry, měřítko typu čáry a tloušťka se přenášejí beze ztráty. Jakákoli aplikace kompatibilní s DXF je čte jako standardní kružnice.

@@ -14,7 +14,7 @@ order: 4
 
 | Hodnota | Význam |
 |---------|--------|
-| **From Layer** | Objekt zdědí typ čáry definovaný na jeho vrstvě. V DXF se uvádí jako `ByLayer`. |
+| **From Layer** | Objekt zdědí typ čáry definovaný na jeho hladině. V DXF se uvádí jako `ByLayer`. |
 | **ByBlock** | Objekt zdědí typ čáry bloku, do kterého patří. Mimo blok nemá viditelný účinek. |
 | **Continuous** | Plná nepřerušená čára — bez vzoru čárkování. |
 | **Pojmenované typy čar** | Jakýkoli typ čáry načtený z aktuálního souboru DXF (např. `DASHED`, `CENTER`, `HIDDEN`, `PHANTOM`, …). Rozbalovací nabídka zobrazuje živý náhled každého vzoru a jeho definiční řetězec. |

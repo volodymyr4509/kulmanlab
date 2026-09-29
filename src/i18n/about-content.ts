@@ -1271,7 +1271,7 @@ export const aboutContent: Record<string, AboutContent> = {
         h: 'Jaký by podle mě měl CAD nástroj být',
         ps: [
           'Bezplatný, okamžitý a soukromý. KulmanLab nemá žádné účty, žádné nahrávání a žádný server — vaše výkresy se zpracovávají a ukládají výhradně ve vašem zařízení a aplikace funguje i offline. Nic k instalaci, nic k předplacení, nic k předání. Podrobnosti jsou v <a href="/cs/privacy/">zásadách ochrany soukromí</a>, které jsou krátké, protože o čem vyprávět, opravdu moc není.',
-          'Je to záměrně specializovaný nástroj: rychlé 2D rýsování s příkazovým terminálem, vrstvami, kótami a poctivým importem a exportem DXF — ne náhrada plnohodnotného desktopového CAD balíku. Pokud řežete na CNC nebo laserových strojích, nebo potřebujete rychlé technické skici do laboratorního protokolu, byl vytvořen právě pro vás.',
+          'Je to záměrně specializovaný nástroj: rychlé 2D rýsování s příkazovým terminálem, hladinami, kótami a poctivým importem a exportem DXF — ne náhrada plnohodnotného desktopového CAD balíku. Pokud řežete na CNC nebo laserových strojích, nebo potřebujete rychlé technické skici do laboratorního protokolu, byl vytvořen právě pro vás.',
         ],
       },
       {
@@ -1284,6 +1284,45 @@ export const aboutContent: Record<string, AboutContent> = {
         h: 'Ozvěte se',
         ps: [
           'Našli jste chybu, chybí vám funkce, nebo se chcete pochlubit tím, co jste vytvořili? Otevřete issue na <a href="https://github.com/volodymyr4509/kulmanlab" target="_blank" rel="noopener">GitHubu</a>, připojte se k <a href="https://www.reddit.com/r/kulmanlab/" target="_blank" rel="noopener">r/kulmanlab</a> nebo mi napište na <a href="mailto:kulmanlab@gmail.com">kulmanlab@gmail.com</a>. Čtu všechno.',
+        ],
+      },
+    ],
+  },
+  lt: {
+    title: 'Apie KulmanLab — istorija už nemokamo naršyklinio CAD',
+    desc: 'KulmanLab yra vieno žmogaus projektas: statybos inžinierius, tapęs backend programuotoju, kuria greitą ir nemokamą 2D CAD, apie kurį visada svajojo. Jokių paskyrų, jokių įkėlimų, jokių serverių.',
+    heading: 'Apie KulmanLab',
+    subtitle: 'Vieno žmogaus projektas, kuriamas lėtuoju būdu.',
+    sections: [
+      {
+        ps: [
+          "Sveiki, esu Volodymyras ir gyvenu Ukrainoje. Iš išsilavinimo esu statybos inžinierius — daug metų praleidau prie braižymo lentos ir darbalaukio CAD programose, kol pakeičiau profesiją ir tapau backend programinės įrangos kūrėju. Tačiau inžinerinis niežulys niekur nedingo. Jis galiausiai nuvedė mane į CNC staklių pasaulį ir paskatino nuo nulio pasistatyti savo CO₂ lazerinį pjaustytuvą.",
+          "Štai iš kur atsirado KulmanLab: man nuolat reikėjo greito būdo atverti DXF failą, jį sutvarkyti, pakoreguoti kelias linijas ir išsiųsti į stakles — nepaleidžiant sunkios CAD programos ir nesiregistruojant dar vienoje debesų paslaugoje. Todėl pradėjau kurti savo įrankį. Tai buvo 2023 metais; nuo tada tai vakarų ir savaitgalių projektas.",
+        ],
+      },
+      {
+        h: 'Pavadinimas',
+        ps: [
+          '<em>Kulmanu</em> pasaulio dalyje, iš kurios esu kilęs, vadinamas klasikinis braižymo aparatas — Kuhlmann braižymo lenta. Ant tokios išmoko braižyti ištisos inžinierių kartos. KulmanLab yra mano bandymas išsaugoti tą dvasią naršyklėje.',
+        ],
+      },
+      {
+        h: 'Koks, mano manymu, turi būti CAD įrankis',
+        ps: [
+          'Nemokamas, momentinis ir privatus. KulmanLab neturi paskyrų, įkėlimų ir serverio — jūsų brėžiniai apdorojami ir saugomi tik jūsų įrenginyje, o programa veikia ir neprisijungus. Nieko nereikia diegti, nieko prenumeruoti, nieko atiduoti. Išsamiau — <a href="/lt/privacy/">privatumo politikoje</a>, kuri trumpa, nes iš tiesų nėra ką pasakoti.',
+          'Tai sąmoningai specializuotas įrankis: greita 2D braižyba su komandų terminalu, sluoksniais, matmenimis ir sąžiningu DXF importu bei eksportu — ne pilno darbalaukio CAD paketo pakaitalas. Jei pjaustote CNC ar lazerinėmis staklėmis arba jums reikia greitų techninių eskizų laboratorinio darbo ataskaitai, jis sukurtas galvojant apie jus.',
+        ],
+      },
+      {
+        h: 'Po gaubtu',
+        ps: [
+          'KulmanLab parašytas Angular pagrindu, naudojant HTML5 Canvas, ir be vargo tvarko brėžinius su 100 000+ objektų. Sunkiausia buvo pats DXF formatas — jį skaityti lengva, tačiau rašyti failus, kuriuos priims kiekvienas CAD redaktorius, yra minų laukas, pilnas atvirkštine inžinerija išaiškintų splainų ir grupių kodų.',
+        ],
+      },
+      {
+        h: 'Parašykite',
+        ps: [
+          'Radote klaidą, pasigedote funkcijos ar tiesiog norite parodyti, ką sukūrėte? Atverkite užklausą <a href="https://github.com/volodymyr4509/kulmanlab" target="_blank" rel="noopener">GitHub</a>, prisijunkite prie <a href="https://www.reddit.com/r/kulmanlab/" target="_blank" rel="noopener">r/kulmanlab</a> arba rašykite man adresu <a href="mailto:kulmanlab@gmail.com">kulmanlab@gmail.com</a>. Skaitau viską.',
         ],
       },
     ],

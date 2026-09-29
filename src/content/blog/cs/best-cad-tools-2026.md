@@ -32,7 +32,7 @@ Cena je uvedena jako pásmo, nikoli částka, protože ceny dodavatelů se čast
 
 ## Plnohodnotné pracovní koně DWG a DXF
 
-Jsou to nástroje vytvořené pro produkční rýsování: razítka, sady listů, externí reference, desítky vrstev a soubory, které se předávají mezi firmami.
+Jsou to nástroje vytvořené pro produkční rýsování: razítka, sady listů, externí reference, desítky hladin a soubory, které se předávají mezi firmami.
 
 ### AutoCAD
 
@@ -82,7 +82,7 @@ Balíček pro 2D rýsování od Dassault Systèmes, umístěný jako levnější
 
 Komunitně udržovaná aplikace pro 2D rýsování, zcela zdarma pod GPL. Dělá jedno: 2D rýsování založené na DXF.
 
-**Silné stránky:** Skutečně zdarma navždy, bez úrovní a doprodejů. Multiplatformní (Windows, macOS, Linux). Malé stažení, běží téměř na čemkoli. Solidní vrstvy, přichytávání a kótování.
+**Silné stránky:** Skutečně zdarma navždy, bez úrovní a doprodejů. Multiplatformní (Windows, macOS, Linux). Malé stažení, běží téměř na čemkoli. Solidní hladiny, přichytávání a kótování.
 
 **Slabé stránky:** Pouze DXF — žádné DWG. Rozhraní je znát zub času. Vývoj je pomalý a nepravidelný. Žádné 3D. Neohrabaný na velmi velkých nebo složitých výkresech.
 
@@ -111,7 +111,7 @@ Náš vlastní nástroj, takže tuto část čtěte s tímto vědomím. KulmanLa
 - Otevře se za pár sekund bez instalace, bez účtu a bez platby. Žádná placená úroveň neexistuje.
 - Skutečný příkazový terminál s konvencemi, které rýsovači očekávají — `L`, `C`, `TR`, `EX`, `F` a dalších padesát, s historií, automatickým doplňováním a psaným číselným vstupem.
 - Kompletní 2D sada nástrojů: úsečky, polyline s obloukovými segmenty, kružnice, oblouky, elipsy, spliny, šrafy s knihovnou vzorů `.pat` a kompletní sada kót (lineární, zarovnané, poloměr, průměr, úhlové, navazující).
-- Vrstvy se zmrazením, zámkem, izolací, barvou, typem čáry a tloušťkou čáry; objektové přichytávání; úpravy úchyty s psaným přesným posunutím.
+- Hladiny se zmrazením, zámkem, izolací, barvou, typem čáry a tloušťkou čáry; objektové přichytávání; úpravy úchyty s psaným přesným posunutím.
 - Rozvržení v papírovém prostoru s výřezy a nastavením stránky, poté tisk nebo export do PDF/PNG — včetně monochromatických a blueprint stylů tisku.
 - Kompletní výměna přes DXF: text, kóty, odkazové čáry i šrafy přežijí export, nejen holá geometrie, takže anotovaný výkres může jít zpět tomu, kdo jej poslal.
 - Soubory váš počítač neopustí, což záleží, pokud jsou vaše výkresy pod NDA. Po prvním načtení funguje offline.

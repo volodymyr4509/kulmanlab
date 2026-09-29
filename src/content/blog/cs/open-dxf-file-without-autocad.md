@@ -17,7 +17,7 @@ DXF znamená *Drawing Exchange Format*. Vytvořil jej Autodesk, aby si CAD progr
 
 Ta otevřenost je důvodem, proč máte možnosti. DXF není vázán na žádný jediný program a čte jej desítky nástrojů.
 
-Je také důvodem, proč DXF není obrázek. Ukládá geometrii — úsečky, oblouky, kružnice, vrstvy, kóty — nikoli pixely. Přejmenování na `.jpg` jej v prohlížeči obrázků neotevře.
+Je také důvodem, proč DXF není obrázek. Ukládá geometrii — úsečky, oblouky, kružnice, hladiny, kóty — nikoli pixely. Přejmenování na `.jpg` jej v prohlížeči obrázků neotevře.
 
 ## Možnost 1: otevřít jej v prohlížeči
 
@@ -29,11 +29,11 @@ Nejrychlejší cesta, protože není co stahovat a k čemu se registrovat.
 
 Váš soubor váš počítač nikdy neopustí. KulmanLab běží celý v prohlížeči, takže se výkres zpracovává lokálně a nenahrává se na server.
 
-Odtud můžete posouvat a přibližovat, přepínat vrstvy, měřit vzdálenosti a úhly, upravovat geometrii a exportovat do PDF, PNG, JPEG nebo WebP, pokud potřebujete jen něco k vytištění nebo odeslání.
+Odtud můžete posouvat a přibližovat, přepínat hladiny, měřit vzdálenosti a úhly, upravovat geometrii a exportovat do PDF, PNG, JPEG nebo WebP, pokud potřebujete jen něco k vytištění nebo odeslání.
 
-**Co z DXF čte:** úsečky, kružnice, oblouky, elipsy, polyline, spliny, text, kóty, multileadery a šrafy, plus tabulky vrstev a typů čar souboru.
+**Co z DXF čte:** úsečky, kružnice, oblouky, elipsy, polyline, spliny, text, kóty, multileadery a šrafy, plus tabulky hladin a typů čar souboru.
 
-**Co zapisuje zpět:** stejný seznam. Upravte výkres a exportujte jej a geometrie, text s formátováním, kóty, odkazové čáry i šrafy se vrátí do DXF, s neporušenými tabulkami vrstev a typů čar — takže soubor projde cestou tam a zpět bez ztráty anotací.
+**Co zapisuje zpět:** stejný seznam. Upravte výkres a exportujte jej a geometrie, text s formátováním, kóty, odkazové čáry i šrafy se vrátí do DXF, s neporušenými tabulkami hladin a typů čar — takže soubor projde cestou tam a zpět bez ztráty anotací.
 
 **Kde nedosahuje — přečtěte si to, než se na něj spolehnete:**
 
@@ -74,7 +74,7 @@ Spolehlivé řešení je získat místo toho DXF: ten, kdo soubor poslal, jej m�
 
 ## Když se výkres otevře, ale vypadá špatně
 
-**Plátno je prázdné.** Obvykle je geometrie daleko od počátku, takže pohled míří do prázdna. Použijte příkaz *fit* nebo *zoom extents*, abyste skočili na výkres. Zkontrolujte také, zda nejsou vrstvy vypnuté — výkres může dorazit s většinou vrstev zmrazených.
+**Plátno je prázdné.** Obvykle je geometrie daleko od počátku, takže pohled míří do prázdna. Použijte příkaz *fit* nebo *zoom extents*, abyste skočili na výkres. Zkontrolujte také, zda nejsou hladiny vypnuté — výkres může dorazit s většinou hladin zmrazených.
 
 **Všechno je mikroskopické, nebo absurdně obrovské.** DXF spolehlivě nezaznamenává své jednotky. Stejný výkres může být vytvořen v milimetrech, centimetrech, palcích nebo stopách a soubor často neříká, v jakých. Změřte něco, čí skutečnou velikost znáte, a změňte měřítko odtud.
 

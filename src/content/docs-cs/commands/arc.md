@@ -87,7 +87,7 @@ Přetažení úchytu začátku nebo konce jej přemístí na místo tažení a z
 | Vlastnost | Výchozí | Význam |
 |-----------|---------|--------|
 | Color | 256 (ByLayer) | Index barvy ACI |
-| Layer | `0` | Přiřazení do vrstvy |
+| Layer | `0` | Přiřazení do hladiny |
 | Linetype | ByLayer | Pojmenovaný vzor typu čáry |
 | Linetype Scale | 1 | Činitel měřítka vzoru typu čáry |
 | Thickness | 0 | Tloušťka vytažení |
@@ -113,4 +113,4 @@ Přetažení úchytu začátku nebo konce jej přemístí na místo tažení a z
 
 ## DXF — objekt ARC
 
-Oblouky se do souboru DXF ukládají jako objekty `ARC` se souřadnicemi středu, poloměrem, počátečním a koncovým úhlem. Všechny vlastnosti — včetně barvy, vrstvy, typu čáry, měřítka typu čáry a tloušťky — se přenášejí beze ztráty. Jakákoli aplikace kompatibilní s DXF (LibreCAD, FreeCAD atd.) je čte jako standardní oblouky.
+Oblouky se do souboru DXF ukládají jako objekty `ARC` se souřadnicemi středu, poloměrem, počátečním a koncovým úhlem. Všechny vlastnosti — včetně barvy, hladiny, typu čáry, měřítka typu čáry a tloušťky — se přenášejí beze ztráty. Jakákoli aplikace kompatibilní s DXF (LibreCAD, FreeCAD atd.) je čte jako standardní oblouky.

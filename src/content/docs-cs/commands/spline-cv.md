@@ -83,7 +83,7 @@ Spliny nepodporují **Offset**, **Trim** ani **Extend**.
 | Vlastnost | Výchozí | Význam |
 |----------|---------|--------|
 | Color | 256 (ByLayer) | Index barvy ACI |
-| Layer | `0` | Přiřazení k vrstvě |
+| Layer | `0` | Přiřazení k hladině |
 | Linetype | ByLayer | Pojmenovaný vzor typu čáry |
 | Linetype Scale | 1 | Měřítko vzoru typu čáry |
 | Thickness | 0 | Tloušťka vytažení |
@@ -107,4 +107,4 @@ Spliny nepodporují **Offset**, **Trim** ani **Extend**.
 
 ## DXF — objekt SPLINE (forma s řídicími vrcholy)
 
-Spliny CV se v souboru DXF ukládají jako objekty `SPLINE` s uloženým stupněm, vektorem uzlů a souřadnicemi všech řídicích vrcholů. Všechny vlastnosti — barva, vrstva, typ čáry, měřítko typu čáry a tloušťka — se přenášejí beze ztráty. Příznak `splineFlag` je nastaven na `9` (spline CV), takže se forma při opětovném načtení zachová. Každá aplikace DXF, která podporuje objekty `SPLINE` s daty CV, je čte správně.
+Spliny CV se v souboru DXF ukládají jako objekty `SPLINE` s uloženým stupněm, vektorem uzlů a souřadnicemi všech řídicích vrcholů. Všechny vlastnosti — barva, hladina, typ čáry, měřítko typu čáry a tloušťka — se přenášejí beze ztráty. Příznak `splineFlag` je nastaven na `9` (spline CV), takže se forma při opětovném načtení zachová. Každá aplikace DXF, která podporuje objekty `SPLINE` s daty CV, je čte správně.

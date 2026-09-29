@@ -1,6 +1,6 @@
 ---
 title: KulmanLab CAD — přehled příkazů
-description: Přehled příkazů KulmanLab CAD — kompletní průvodce každým příkazem pro kreslení, úpravy, anotace, vrstvy, měření a práci se soubory v KulmanLab CAD.
+description: Přehled příkazů KulmanLab CAD — kompletní průvodce každým příkazem pro kreslení, úpravy, anotace, hladiny, měření a práci se soubory v KulmanLab CAD.
 keywords: [KulmanLab, KulmanLab CAD, příkazy CAD, bezplatné CAD v prohlížeči, online editor DXF, příkazy pro kreslení, příkazy kulmanlab]
 group: overview
 order: 1
@@ -64,11 +64,11 @@ Vítejte v přehledu příkazů **KulmanLab CAD**. [KulmanLab CAD](https://kulma
 
 | Příkaz | Co dělá |
 |--------|---------|
-| [LayerManager](./commands/layer-manager/) | Přidává vrstvy a upravuje u každé zmrazení, zámek, tisk, barvu, tloušťku čáry a typ čáry |
-| [LayerMakeCurrent](./commands/layer-make-current/) | Nastaví aktuální vrstvu podle vrstvy objektu, na který kliknete |
-| [LayerMatch](./commands/layer-match/) | Přiřadí vybrané objekty ke vrstvě zdrojového objektu |
-| [LayerIsolate](./commands/layer-isolate/) | Zmrazí všechny vrstvy kromě vrstev vybraných objektů |
-| [LayerUnfreezeAll](./commands/layer-unfreeze-all/) | Rozmrazí všechny vrstvy jedním krokem |
+| [LayerManager](./commands/layer-manager/) | Přidává hladiny a upravuje u každé zmrazení, zámek, tisk, barvu, tloušťku čáry a typ čáry |
+| [LayerMakeCurrent](./commands/layer-make-current/) | Nastaví aktuální hladinu podle hladiny objektu, na který kliknete |
+| [LayerMatch](./commands/layer-match/) | Přiřadí vybrané objekty ke hladině zdrojového objektu |
+| [LayerIsolate](./commands/layer-isolate/) | Zmrazí všechny hladiny kromě hladin vybraných objektů |
+| [LayerUnfreezeAll](./commands/layer-unfreeze-all/) | Rozmrazí všechny hladiny jedním krokem |
 
 ## Layouts
 
@@ -99,7 +99,7 @@ Vítejte v přehledu příkazů **KulmanLab CAD**. [KulmanLab CAD](https://kulma
 
 | Příkaz | Co dělá |
 |--------|---------|
-| [Match Properties](./commands/match-properties/) | Zkopíruje barvu, vrstvu a další vlastnosti z jednoho objektu na jiné |
+| [Match Properties](./commands/match-properties/) | Zkopíruje barvu, hladinu a další vlastnosti z jednoho objektu na jiné |
 | [Font Manager](./commands/font-manager/) | Prochází, vybírá a nahrává vlastní písma TTF |
 | [FontAdd](./commands/font-add/) | Nahraje vlastní písmo TTF přímo z terminálu |
 | [Hatch Manager](./commands/hatch-manager/) | Prochází knihovnu vzorů šraf a nahrává soubory .pat |

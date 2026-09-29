@@ -42,7 +42,7 @@ Každý obdélník je samostatný objekt `DIMENSION`. Sdílejí stejnou polohu k
 | Odsazení a přesah rozměrových čar | Ano |
 | Zarovnání textu | Ano |
 | Název stylu | Ano |
-| Barva, vrstva | Nedědí se — použije se aktuální vrstva |
+| Barva, hladina | Nedědí se — použije se aktuální hladina |
 
 ## Zamčení směru měření
 

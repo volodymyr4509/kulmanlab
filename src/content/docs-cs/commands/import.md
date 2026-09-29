@@ -42,7 +42,7 @@ KulmanLab zpracovává následující typy objektů DXF:
 | Multileader | `MULTILEADER` | |
 | Hatch | `HATCH` | Načte se název vzoru, měřítko a úhel; název, který není ve vaší knihovně vzorů, se vrátí k ANSI31. Viz [Hatch](../hatch/) |
 
-Definice vrstev a tabulky typů čar se z souboru DXF rovněž importují, pokud jsou přítomny.
+Definice hladin a tabulky typů čar se z souboru DXF rovněž importují, pokud jsou přítomny.
 
 Objekty, které používají nepodporované typy DXF, se tiše přeskočí — zbytek výkresu se přesto načte.
 

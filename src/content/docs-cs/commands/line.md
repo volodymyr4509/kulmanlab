@@ -111,7 +111,7 @@ Když je úsečka vybrána, panel vlastností zobrazí všechna pole, která nes
 | Vlastnost | Výchozí | Význam |
 |-----------|---------|--------|
 | Color | 256 (ByLayer) | Index barvy ACI |
-| Layer | `0` | Přiřazení do vrstvy |
+| Layer | `0` | Přiřazení do hladiny |
 | Linetype | ByLayer | Pojmenovaný vzor typu čáry |
 | Linetype Scale | 1 | Činitel měřítka vzoru typu čáry |
 | Thickness | 0 | Tloušťka vytažení |
@@ -137,6 +137,6 @@ Všechna pole lze upravovat přímo v panelu, aniž byste museli příkaz spouš
 
 ## DXF — objekt LINE
 
-Úsečky se do souboru DXF ukládají jako objekty `LINE`. Každá vlastnost — souřadnice začátku/konce, barva, vrstva, typ čáry, měřítko typu čáry a tloušťka — se přenáší beze ztráty. Když otevřete DXF obsahující objekty `LINE`, stanou se v editoru plně upravitelnými objekty `Line`.
+Úsečky se do souboru DXF ukládají jako objekty `LINE`. Každá vlastnost — souřadnice začátku/konce, barva, hladina, typ čáry, měřítko typu čáry a tloušťka — se přenáší beze ztráty. Když otevřete DXF obsahující objekty `LINE`, stanou se v editoru plně upravitelnými objekty `Line`.
 
 Úsečky nakreslené v editoru se při uložení zapisují také jako objekty `LINE`, takže je přečtou LibreCAD, FreeCAD i jakákoli jiná aplikace kompatibilní s DXF.

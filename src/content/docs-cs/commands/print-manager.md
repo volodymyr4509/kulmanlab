@@ -39,8 +39,8 @@ Rozbalovací nabídka **Style** řídí jak barvu inkoustu, kterým se objekty k
 | Styl | Inkoust | Pozadí stránky |
 |------|---------|----------------|
 | **Default** | Vlastní barva každého objektu | Bílá |
-| **Monochrome** *(výchozí)* | Plná černá bez ohledu na barvu objektu/vrstvy | Bílá |
-| **Blueprint** | Plná bílá bez ohledu na barvu objektu/vrstvy | Tmavá pruská modř se slabou referenční mřížkou |
+| **Monochrome** *(výchozí)* | Plná černá bez ohledu na barvu objektu/hladiny | Bílá |
+| **Blueprint** | Plná bílá bez ohledu na barvu objektu/hladiny | Tmavá pruská modř se slabou referenční mřížkou |
 
 Blueprint napodobuje vzhled tradičního kyanotypického architektonického tisku — bílé linky na tmavě modrém listu. Jeho referenční mřížka je dimenzována vzhledem ke stránce, nikoli k DPI, takže vypadá stejně hustě při každém nastavení Quality, místo aby s rostoucím rozlišením houstla.
 
@@ -91,7 +91,7 @@ Exportovaný soubor se jmenuje `kulman-<timestamp>.<ext>` a stáhne se automatic
 - **Export modelového prostoru / výřezu**: omezen na 2000 × 2000 pixelů při výchozí kvalitě Normal (150 DPI), proporcionálně škálováno podle vybrané oblasti; limit se mění i s Quality — Draft omezuje níže, Presentation a Max výše (až 8000 × 8000 při Max/600 DPI).
 - **Export rozvržení (papírový prostor)**: dimenzován přímo podle rozměrů papíru rozvržení při zvoleném DPI — např. list A4 (210 × 297 mm) při kvalitě Normal se exportuje zhruba v 1240 × 1754 px — takže se na něj limit 2000 px pro výřez nevztahuje.
 - Pozadí se řídí zvoleným **Style** tisku — bílé pro Default a Monochrome, tmavá pruská modř pro Blueprint (viz *Styly tisku* výše).
-- Vrstvy označené jako **netisknuté** se z exportu vylučují.
+- Hladiny označené jako **netisknuté** se z exportu vylučují.
 
 ## Přehled kláves
 

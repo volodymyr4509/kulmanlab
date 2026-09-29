@@ -39,7 +39,7 @@ DXF tedy není starší ani horší formát. Je to tentýž výkres, záměrně 
 
 **Velikost.** Binární DWG je obvykle mnohem menší než tentýž výkres jako ASCII DXF. U velkého projektu to záleží; u jediné součásti ne.
 
-**Věrnost.** DWG drží vše, co AutoCAD dokáže vyjádřit, včetně typů objektů, o nichž jiné programy nemají tušení. DXF pokrývá zdokumentovanou podmnožinu. Pro běžné 2D rýsování — úsečky, oblouky, kružnice, polyline, text, kóty, vrstvy — je tato podmnožina vším, co potřebujete. U modelu spoléhajícího na proprietární objekty AutoCADu se exportem do DXF něco ztratí.
+**Věrnost.** DWG drží vše, co AutoCAD dokáže vyjádřit, včetně typů objektů, o nichž jiné programy nemají tušení. DXF pokrývá zdokumentovanou podmnožinu. Pro běžné 2D rýsování — úsečky, oblouky, kružnice, polyline, text, kóty, hladiny — je tato podmnožina vším, co potřebujete. U modelu spoléhajícího na proprietární objekty AutoCADu se exportem do DXF něco ztratí.
 
 **Šíře podpory.** Prakticky každý CAD, CAM a vektorový nástroj čte DXF. DWG čte méně z nich a ty, které ano, ho často podporují méně úplně.
 
@@ -65,7 +65,7 @@ Když o něj žádáte, vyplatí se uvést verzi. **DXF R12 je nejbezpečnějš�
 
 ## Dvě věci, ve kterých se lidé mýlí
 
-**„DXF je ztrátový."** Jen v tom smyslu, že nenese proprietární typy objektů AutoCADu. Úsečky, oblouky, kružnice, polyline, text, kóty a vrstvy přežijí beze změny. Při 2D rýsování je ztráta obvykle nulová.
+**„DXF je ztrátový."** Jen v tom smyslu, že nenese proprietární typy objektů AutoCADu. Úsečky, oblouky, kružnice, polyline, text, kóty a hladiny přežijí beze změny. Při 2D rýsování je ztráta obvykle nulová.
 
 **„DXF je starý formát."** Verzuje se spolu s DWG od roku 1982 a stále tomu tak je. Zmatek vzniká tím, že R12 je tak široce používaný jako cíl kompatibility, že lidé předpokládají, že DXF tam skončilo.
 
@@ -75,7 +75,7 @@ Když o něj žádáte, vyplatí se uvést verzi. **DXF R12 je nejbezpečnějš�
 
 Pokud máte `.dwg`, tento nástroj jej neotevře. Pokud máte `.dxf`, můžete jej otevřít v záložce prohlížeče bez čehokoli k instalaci: [app.kulmanlab.com](https://app.kulmanlab.com).
 
-Zpět vypisuje celý výkres — úsečky, kružnice, oblouky, elipsy, polyline, spliny, text s formátováním, kóty, odkazové čáry a šrafy, spolu s vrstvami a typy čar. Soubor otevřený zde a znovu exportovaný odchází se svými anotacemi, nikoli oholený na holou geometrii.
+Zpět vypisuje celý výkres — úsečky, kružnice, oblouky, elipsy, polyline, spliny, text s formátováním, kóty, odkazové čáry a šrafy, spolu s hladinami a typy čar. Soubor otevřený zde a znovu exportovaný odchází se svými anotacemi, nikoli oholený na holou geometrii.
 
 ---
 

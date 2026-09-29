@@ -19,7 +19,7 @@ Klikněte na tlačítko **New File** (ikona nové stránky) v panelu souborů. P
 Čerstvě vytvořený soubor začíná s:
 
 - **Žádnými objekty** na plátně.
-- **Jednou výchozí vrstvou** s názvem `0`, s bílou barvou a typem čáry `Continuous`.
+- **Jednou výchozí hladinou** s názvem `0`, s bílou barvou a typem čáry `Continuous`.
 - **Vygenerovaným názvem souboru**, `kulman.dxf` — nebo `kulman (2).dxf`, `kulman (3).dxf`, …, pokud je tento název už obsazený.
 
 Soubor se automaticky uloží do úložiště prohlížeče, objeví se ve [File Manageru](../file-manager/) a lze jej kdykoli [přejmenovat](../file-manager/#přejmenování-souboru).

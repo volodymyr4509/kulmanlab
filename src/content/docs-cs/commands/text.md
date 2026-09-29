@@ -94,7 +94,7 @@ Když je textový popisek vybrán, panel vlastností zobrazí:
 | Vlastnost | Výchozí | Význam |
 |----------|---------|--------|
 | Color | 256 (ByLayer) | Index barvy ACI |
-| Layer | `0` | Přiřazení k vrstvě |
+| Layer | `0` | Přiřazení k hladině |
 
 **Geometrie**
 

@@ -97,7 +97,7 @@ Vybraná elipsa nabízí pět úchytů:
 | Vlastnost | Výchozí | Význam |
 |----------|---------|--------|
 | Color | 256 (ByLayer) | Index barvy ACI |
-| Layer | `0` | Přiřazení k vrstvě |
+| Layer | `0` | Přiřazení k hladině |
 | Linetype | ByLayer | Pojmenovaný vzor typu čáry |
 | Linetype Scale | 1 | Měřítko vzoru typu čáry |
 | Thickness | 0 | Tloušťka vytažení |

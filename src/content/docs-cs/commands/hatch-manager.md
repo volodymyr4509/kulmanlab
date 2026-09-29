@@ -19,7 +19,7 @@ Napište `HatchManager` do terminálu. Není to totéž co výběr vzoru, který
 | Skupina | Obsah |
 |---------|-------|
 | **User** | Vzory z vašich vlastních nahraných souborů `.pat`, rozdělené do podskupin podle toho, z kterého souboru pocházejí (zobrazí se, až nějaký nahrajete) |
-| **Standard** | `SOLID` plus vlastní tabulka vzorů tohoto výkresu — každý nový výkres začíná se stejnou vestavěnou knihovnou, stejně jako jeho vrstvy a typy čar |
+| **Standard** | `SOLID` plus vlastní tabulka vzorů tohoto výkresu — každý nový výkres začíná se stejnou vestavěnou knihovnou, stejně jako jeho hladiny a typy čar |
 
 Kliknutím na libovolný vzor v seznamu (nebo pomocí `↑`/`↓`) jej zobrazíte v náhledu vpravo — vzorek vykreslený stejným kódem, jakým plátno vyplňuje, takže je to přesně to, co výkres ukáže, spolu s názvem vzoru, popisem a počtem čar.
 
