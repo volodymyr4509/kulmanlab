@@ -95,3 +95,8 @@ För att lägga till fler mått som fortsätter från den senaste hjälplinjen, 
 ## DXF — DIMENSION-entitet
 
 Linjära mått sparas som `DIMENSION`-entiteter med `rotationDeg` satt till `0` (horisontell) eller `90` (vertikal). Hjälplinjeursprung, måttlinjens position, textposition, uppmätt värde, pilstil, texthöjd och alla visningsflaggor bevaras vid rundtur utan förlust.
+
+
+## Måttstil
+
+Nya mått kopierar aktuell [måttstil](../dimension-style/) med pilar, hjälplinjer, text, precision, justering, mellanrum och ram. Värdena kopieras när måttet skapas; senare stiländringar påverkar inte befintliga mått.

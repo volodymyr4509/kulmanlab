@@ -104,6 +104,7 @@ Barka da zuwa jerin umarni na **KulmanLab CAD**. [KulmanLab CAD](https://kulmanl
 | [Hatch Manager](./commands/hatch-manager/) | Bincika laburaren pattern na hatch kuma loda fayilolin .pat |
 | [SalonRubutu](./commands/text-style/) | Ƙirƙira da sarrafa salailan rubutu masu suna don sabon rubutu |
 | [SalonJagora](./commands/leader-style/) | Ƙirƙira da sarrafa salailan multileader masu suna |
+| [SalonAunawa](./commands/dimension-style/) | Ƙirƙira da sarrafa salon masu suna ga sabbin ma’auni |
 
 ## Fayil
 

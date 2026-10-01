@@ -69,3 +69,8 @@ Katso [Tekstieditori — yksinkertainen tila](../../interface/text-editor/#simpl
 - [Dimension Aligned](../dim-aligned/) — kahteen pisteeseen kohdistettu mitta
 - [Dimension Radius](../dim-radius/) — säteen mitta kaarille ja ympyröille
 - [Dimension Diameter](../dim-diameter/) — halkaisijan mitta ympyröille
+
+
+## Mittatyyli
+
+Uudet mitat kopioivat nykyisen [mittatyylin](../dimension-style/) nuolineen, apuviivoineen, teksteineen, tarkkuuksineen, tasauksineen, väleineen ja kehyksineen. Arvot kopioidaan luotaessa; myöhemmät tyylimuutokset eivät muuta olemassa olevia mittoja.

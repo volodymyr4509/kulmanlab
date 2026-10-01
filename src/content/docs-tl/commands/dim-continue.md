@@ -90,3 +90,8 @@ Tingnan ang [Text Editor — simple mode](../../interface/text-editor/#simple-mo
 ## DXF — DIMENSION Entities
 
 Ang bawat segment sa kadena ay nakatago bilang independyenteng `DIMENSION` entity sa DXF file. Hindi sila naka-link sa file — magkapareho ang properties nila dahil ginawa sila mula sa parehong base, pero puwedeng i-edit ang bawat isa nang hiwalay pagkatapos ilagay.
+
+
+## Istilo ng sukat
+
+Karaniwang kinokopya ng unang sukat sa chain ang kasalukuyang [istilo ng sukat](../dimension-style/). Minamana ng bawat kasunod ang buong anyo ng base dimension kaya pare-pareho ang chain kahit magbago ang current style.

@@ -65,3 +65,8 @@ Zobacz [Edytor tekstu — tryb simple](../../interface/text-editor/#simple-mode)
 ## DXF — element DIMENSION typu promień
 
 Wymiary promienia zapisywane są jako elementy `DIMENSION` z geometrią typu promień, przechowując współrzędne środka, pozycję punktu łuku i zmierzoną wartość promienia. Wszystkie właściwości zachowywane są bez utraty danych.
+
+
+## Styl wymiaru
+
+Nowe wymiary kopiują bieżący [styl wymiaru](../dimension-style/), w tym strzałki, linie pomocnicze, tekst, precyzję, wyrównanie, odstęp i ramkę. Wartości są kopiowane przy tworzeniu, więc późniejsze zmiany stylu nie zmieniają istniejących wymiarów.

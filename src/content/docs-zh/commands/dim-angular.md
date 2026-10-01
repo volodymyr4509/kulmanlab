@@ -69,3 +69,8 @@ order: 9
 - [Dimension Aligned](../dim-aligned/) — 与两点对齐的标注
 - [Dimension Radius](../dim-radius/) — 圆弧和圆的半径标注
 - [Dimension Diameter](../dim-diameter/) — 圆的直径标注
+
+
+## 标注样式
+
+新标注会复制当前[标注样式](../dimension-style/)，包括箭头、尺寸界线、文字、精度、对齐、间距和边框。数值在创建时复制，因此以后修改样式不会改变已有标注。

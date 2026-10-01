@@ -69,3 +69,8 @@ Consulta [Editor de Texto — simple mode](../../interface/text-editor/#simple-m
 - [Dimension Aligned](../dim-aligned/) — cota alineada a dos puntos
 - [Dimension Radius](../dim-radius/) — cota de radio para arcos y círculos
 - [Dimension Diameter](../dim-diameter/) — cota de diámetro para círculos
+
+
+## Estilo de cota
+
+Las cotas nuevas copian el [estilo de cota](../dimension-style/) actual, incluidas flechas, líneas de referencia, texto, precisión, alineación, separación y marco. Los valores se copian al crear, por lo que cambios posteriores del estilo no alteran cotas existentes.

@@ -105,6 +105,7 @@ Selamat datang ke rujukan arahan **KulmanLab CAD**. [KulmanLab CAD](https://kulm
 | [Hatch Manager](./commands/hatch-manager/) | Semak imbas pustaka corak hatch dan muat naik fail .pat |
 | [GayaTeks](./commands/text-style/) | Cipta dan urus gaya teks bernama untuk teks baharu |
 | [GayaPetunjuk](./commands/leader-style/) | Cipta dan urus gaya multileader bernama |
+| [GayaDimensi](./commands/dimension-style/) | Cipta dan urus gaya bernama untuk dimensi baharu |
 
 ## Fail
 

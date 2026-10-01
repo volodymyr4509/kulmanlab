@@ -90,3 +90,8 @@ Vedi [Editor di Testo — simple mode](../../interface/text-editor/#simple-mode)
 ## DXF — entità DIMENSION
 
 Ogni segmento della catena viene memorizzato come entità `DIMENSION` indipendente nel file DXF. Non sono collegati nel file — condividono proprietà perché sono stati creati dalla stessa base, ma ciascuno può essere modificato individualmente dopo il posizionamento.
+
+
+## Stile di quota
+
+La prima quota di una catena copia normalmente lo [stile di quota](../dimension-style/) corrente. Ogni continuazione eredita poi l’intero aspetto della quota di base, mantenendo uniforme la catena anche se cambia lo stile corrente.

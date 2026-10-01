@@ -90,3 +90,8 @@ Zie [Tekstverwerker — simple-modus](../../interface/text-editor/#simple-mode) 
 ## DXF — DIMENSION-entiteiten
 
 Elk segment in de keten wordt opgeslagen als een onafhankelijke `DIMENSION`-entiteit in het DXF-bestand. Ze zijn niet gekoppeld in het bestand — ze delen eigenschappen omdat ze van dezelfde basis zijn gemaakt, maar elk kan na plaatsing afzonderlijk worden bewerkt.
+
+
+## Maatstijl
+
+De eerste maat in een keten kopieert normaal de huidige [maatstijl](../dimension-style/). Elke voortzetting neemt daarna de volledige vormgeving van de basismat over, zodat de keten gelijk blijft wanneer de huidige stijl verandert.

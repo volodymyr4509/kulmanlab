@@ -252,7 +252,7 @@ KulmanLab is a free, browser-based 2D CAD editor. No installation, no account, n
 - 50+ drawing commands via toolbar or command terminal (LINE, CIRCLE, ARC, MOVE, TRIM, OFFSET, and more)
 - Full layer management: create, rename, freeze, lock, isolate, color, linetype, lineweight per layer
 - Dimensions: linear, aligned, radius, diameter, angular, continue
-- Named TextStyle and LeaderStyle managers with STYLE and MLEADERSTYLE DXF round-tripping
+- Named TextStyle, LeaderStyle, and DimensionStyle managers with STYLE, MLEADERSTYLE, and DIMSTYLE DXF round-tripping
 - Grip editing on all entity types — drag endpoints, midpoints, arc ends, dimension text
 - Snapping: endpoint, midpoint, center, intersection, perpendicular, tangent, nearest, grid
 - Angle tracking with configurable increments (10°, 15°, 20°, 30°, 45°, 90°)
@@ -1399,6 +1399,10 @@ To add more dimensions continuing from the second extension line of this one, us
 
 Aligned dimensions are saved as `DIMENSION` entities with `dimType = 1` (aligned). Extension line origins, dimension line position, text position, measured value, rotation, arrow style, and all display flags round-trip without loss.
 
+## Dimension style
+
+New aligned dimensions copy the current [DimensionStyle](https://kulmanlab.com/docs/commands/dimension-style/), including arrows, extension lines, text, precision, alignment, gap, and frame. The values are copied at creation time, so later style edits do not change existing dimensions.
+
 ---
 
 <!-- Source: /docs/commands/dim-angular/ -->
@@ -1465,6 +1469,10 @@ See [Text Editor — simple mode](https://kulmanlab.com/docs/interface/text-edit
 - [Dimension Aligned](https://kulmanlab.com/docs/commands/dim-aligned/) — dimension aligned to two points
 - [Dimension Radius](https://kulmanlab.com/docs/commands/dim-radius/) — radius dimension for arcs and circles
 - [Dimension Diameter](https://kulmanlab.com/docs/commands/dim-diameter/) — diameter dimension for circles
+
+## Dimension style
+
+New angular dimensions copy the current [DimensionStyle](https://kulmanlab.com/docs/commands/dimension-style/), including arrowheads, extension lines, text formatting, angular precision, alignment, gap, and frame. The values are copied at creation time rather than live-linked.
 
 ---
 
@@ -1554,6 +1562,10 @@ See [Text Editor — simple mode](https://kulmanlab.com/docs/interface/text-edit
 
 Each segment in the chain is stored as an independent `DIMENSION` entity in the DXF file. They are not linked in the file — they share properties because they were created from the same base, but each can be edited individually after placement.
 
+## Dimension style
+
+The first dimension in a chain normally copies the current [DimensionStyle](https://kulmanlab.com/docs/commands/dimension-style/). Each continuation then inherits the complete appearance of its base dimension, so a chain remains consistent even if the current style changes while you work.
+
 ---
 
 <!-- Source: /docs/commands/dim-diameter/ -->
@@ -1614,6 +1626,10 @@ See [Text Editor — simple mode](https://kulmanlab.com/docs/interface/text-edit
 ## DXF — DIMENSION diameter entity
 
 Diameter dimensions are saved as `DIMENSION` entities with diameter-type geometry, storing both arc-point positions and the measured diameter value (2 × radius). All properties round-trip without loss.
+
+## Dimension style
+
+New diameter dimensions copy the current [DimensionStyle](https://kulmanlab.com/docs/commands/dimension-style/), including separate arrowheads, center-mark type and size, text, precision, gap, alignment, and frame. Outside dimensions use the second arrowhead consistently and begin the outside leader at the circle or arc.
 
 ---
 
@@ -1708,6 +1724,10 @@ To add more dimensions continuing from the last extension line, use [Dimension C
 
 Linear dimensions are saved as `DIMENSION` entities with `rotationDeg` set to `0` (horizontal) or `90` (vertical). Extension line origins, dimension line position, text position, measured value, arrow style, text height, and all display flags round-trip without loss.
 
+## Dimension style
+
+New linear dimensions copy the current [DimensionStyle](https://kulmanlab.com/docs/commands/dimension-style/), including arrows, extension lines, text, precision, alignment, gap, and frame. The values are copied at creation time, so later style edits do not change existing dimensions.
+
 ---
 
 <!-- Source: /docs/commands/dim-radius/ -->
@@ -1770,6 +1790,10 @@ See [Text Editor — simple mode](https://kulmanlab.com/docs/interface/text-edit
 ## DXF — DIMENSION radius entity
 
 Radius dimensions are saved as `DIMENSION` entities with radius-type geometry, storing the center coordinates, the arc-point position, and the measured radius value. All properties round-trip without loss.
+
+## Dimension style
+
+New radius dimensions copy the current [DimensionStyle](https://kulmanlab.com/docs/commands/dimension-style/), including the second arrowhead, center-mark type and size, text, precision, gap, alignment, and frame. The values are copied at creation time rather than live-linked.
 
 ---
 
@@ -3086,6 +3110,83 @@ The command measures the perpendicular distance from the cursor to each arm's li
 |---------|-------------|
 | [Leader](https://kulmanlab.com/docs/commands/leader/) | Create a new multileader from scratch |
 | [LeaderAdd](https://kulmanlab.com/docs/commands/leader-add/) | Add an arm to an existing multileader |
+
+---
+
+<!-- Source: /docs/commands/dimension-style/ -->
+# DimensionStyle
+
+The `DimensionStyle` command opens a dialog for creating, editing, previewing, and selecting named dimension styles. Every new linear, aligned, radius, diameter, or angular dimension copies the *current* style when it is created. Existing dimensions are not live-linked to the style.
+
+## Opening the Dimension Style dialog
+
+- Type `DimensionStyle` in the terminal, **or**
+- Click the **Dimension Style** button in the Annotate panel.
+
+The list on the left contains every visible dimension style. A check mark identifies the current style. Click a style to edit it; use the pencil beside its name to rename it.
+
+## Lines and arrows
+
+| Field | What it controls |
+|---|---|
+| Arrow 1 / Arrow 2 | The two arrowhead symbols. They can be selected independently. |
+| Arrow Size | Arrowhead size in drawing units. |
+| Ext Line Offset | Gap between measured geometry and the start of each extension line. |
+| Ext Line Extension | Distance each extension line continues beyond the dimension line. |
+| Center Mark / Center Mark Size | `None`, a central `Mark`, or center `Lines` for radius and diameter dimensions, plus their size. |
+
+## Text
+
+| Field | What it controls |
+|---|---|
+| Text Style | One-time quick fill of Font, Text Height, Bold, Italic, and Frame Text from a named [TextStyle](https://kulmanlab.com/docs/commands/text-style/). |
+| Font / Text Height | Typeface and label height for new dimensions. |
+| Bold / Italic / Frame Text | Label formatting and an optional rectangular frame. |
+| Text Gap | Space between the dimension line and label. |
+| Text Attachment | One of nine positions around the dimension line. |
+| Text Aligned | Rotates the label with the dimension line instead of keeping it horizontal. |
+| Precision | Decimal places for linear, aligned, radius, and diameter values. |
+| Angular Precision | Decimal places for angular values. |
+
+Text Style is a quick fill, not a live link. Changing a copied field does not alter the source text style, and later text-style edits do not update the dimension style.
+
+The preview uses the same renderers as the canvas. Switch between linear, radius, diameter, and angular samples to check arrows, center marks, text placement, precision, and frames before saving.
+
+## Creating, renaming, and deleting styles
+
+- **New** duplicates the selected style under the next free name (`Dimension1`, `Dimension2`, …).
+- Use the pencil in the style row to rename it. `Standard` cannot be renamed.
+- **Delete** removes the selected style only when it is neither `Standard` nor the current style.
+
+Names must be non-empty, unique even among hidden styles, and valid for DXF. Names containing `< > / \ " : ; ? * | , = \`` are rejected, and **OK** remains disabled until every visible style has a valid name.
+
+Annotative styles imported from DXF are hidden because annotative scaling is not rendered yet. Their records remain in the drawing and are preserved on export.
+
+## Setting the current style
+
+**Set Current** makes the selected style the default for future dimensions. The dropdown beside **Dimension Style** in the Annotate panel provides the same choice without opening the dialog.
+
+A dimension style is copied at creation time. Existing dimensions do not change when the source style is edited, renamed, or deleted. [Dimension Continue](https://kulmanlab.com/docs/commands/dim-continue/) instead inherits the complete appearance of its base dimension.
+
+## Saving or discarding changes
+
+All edits are made on copies. **OK** applies renames, additions, deletions, property changes, and the current-style choice together. **Close**, the window's close button, clicking the backdrop, or pressing `Escape` discards them.
+
+## DXF compatibility
+
+KulmanLab imports and exports named `DIMSTYLE` table records, including separate arrowheads, arrow size, extension-line offset and extension, text height and gap, text attachment and alignment, linear and angular precision, center-mark type and size, frames, text-style references, and the annotative flag. Per-entity `DSTYLE` overrides take precedence over the named style when a DXF is imported.
+
+On export, referenced `STYLE` records use variable height (`40 = 0`) and keep the last-used height in group `42`. This prevents a fixed text-style height from overriding the dimension style's own text height in other CAD applications.
+
+## Related commands
+
+- [Dimension Linear](https://kulmanlab.com/docs/commands/dim-linear/)
+- [Dimension Aligned](https://kulmanlab.com/docs/commands/dim-aligned/)
+- [Dimension Continue](https://kulmanlab.com/docs/commands/dim-continue/)
+- [Dimension Radius](https://kulmanlab.com/docs/commands/dim-radius/)
+- [Dimension Diameter](https://kulmanlab.com/docs/commands/dim-diameter/)
+- [Dimension Angular](https://kulmanlab.com/docs/commands/dim-angular/)
+- [TextStyle](https://kulmanlab.com/docs/commands/text-style/)
 
 ---
 
@@ -4716,7 +4817,7 @@ Every edit here works on a copy of the style table. **OK** writes the copies bac
 
 ## DXF compatibility
 
-Name, font files, fixed height, bold, italic, and the annotative flag belong to DXF text-style records and are preserved during import and export. Frame, line spacing, and horizontal alignment are per-Text defaults in KulmanLab rather than DXF STYLE-table fields, so they are not stored on the named style during a DXF round trip.
+Name, font files, bold, italic, and the annotative flag belong to DXF text-style records and are preserved during import and export. KulmanLab writes STYLE group `40` as `0` (variable height) and stores the style's last-used height in group `42`; this keeps a fixed STYLE height from overriding a dimension style's own text height in other CAD applications. Frame, line spacing, and horizontal alignment are per-Text defaults in KulmanLab rather than DXF STYLE-table fields, so they are not stored on the named style during a DXF round trip.
 
 ---
 
@@ -5543,6 +5644,7 @@ The cursor height automatically matches the cap height of the adjacent character
 
 | Key | Action |
 |-----|--------|
+| `Ctrl+A` / `Cmd+A` | Select all text in the active editor |
 | `Ctrl+C` / `Cmd+C` | Copy the selected text |
 | `Ctrl+X` / `Cmd+X` | Cut the selected text |
 | `Ctrl+V` / `Cmd+V` | Paste at the cursor |

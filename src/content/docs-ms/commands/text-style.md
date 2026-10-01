@@ -29,6 +29,4 @@ Pratonton menggunakan pemapar yang sama dengan kanvas dan menunjukkan dua baris.
 
 ## Menyimpan dan DXF
 
-**OK** menyimpan perubahan; **Tutup** atau `Escape` membatalkannya. Gunakan `↑` dan `↓` untuk bergerak dalam senarai. Nama, fail fon, tinggi, tebal, condong dan bendera anotatif ialah sebahagian daripada gaya DXF. Bingkai, jarak baris dan penjajaran ialah nilai lalai per teks dalam KulmanLab, bukan medan jadual STYLE.
-
-Lihat juga [Text](../text/), [FontManager](../font-manager/) dan [MatchProperties](../match-properties/).
+Nama, fail fon, tebal, condong dan bendera anotatif dikekalkan dalam gaya teks DXF. KulmanLab menulis kumpulan `40` STYLE sebagai `0` (tinggi berubah) dan tinggi terakhir dalam kumpulan `42`; ini menghalang tinggi STYLE tetap daripada menindan tinggi teks gaya dimensi. Bingkai, jarak baris dan penjajaran mendatar ialah lalai setiap teks KulmanLab, bukan medan jadual STYLE DXF.

@@ -105,6 +105,7 @@ Selamat datang di referensi perintah **KulmanLab CAD**. [KulmanLab CAD](https://
 | [Hatch Manager](./commands/hatch-manager/) | Jelajahi pustaka pola hatch dan unggah file .pat |
 | [GayaTeks](./commands/text-style/) | Buat dan kelola gaya teks bernama untuk teks baru |
 | [GayaPetunjuk](./commands/leader-style/) | Buat dan kelola gaya multileader bernama |
+| [GayaDimensi](./commands/dimension-style/) | Membuat dan mengelola gaya bernama untuk dimensi baru |
 
 ## File
 

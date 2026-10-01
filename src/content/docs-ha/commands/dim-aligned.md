@@ -86,3 +86,8 @@ Don ƙara girma-girma ƙari da ke ci gaba daga layin extension na biyu na wannan
 ## DXF — Abin DIMENSION (nauʼin daidaici)
 
 Girma-girma mai daidaici ana ajiye su a matsayin abubuwan `DIMENSION` tare da `dimType = 1` (daidaici). Asalin layukan extension, matsayin layin girma-girma, matsayin rubutu, ƙimar da aka aunata, juyawa, salon kibiya, da dukkan flags na nuni suna juyawa ba tare da asara ba.
+
+
+## Salon aunawa
+
+Sabbin ma’auni suna kwafin [salon aunawa](../dimension-style/) na yanzu, ciki har da kibiyoyi, layukan taimako, rubutu, daidaito, jeri, tazara da firam. Ana kwafin ƙima lokacin ƙirƙira; gyaran salo daga baya ba ya canza ma’aunin da ke akwai.

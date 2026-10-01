@@ -69,3 +69,8 @@ Lihat [Text Editor — mod mudah](../../interface/text-editor/#simple-mode) untu
 - [Dimension Aligned](../dim-aligned/) — dimensi selaras dengan dua titik
 - [Dimension Radius](../dim-radius/) — dimensi jejari untuk lengkok dan bulatan
 - [Dimension Diameter](../dim-diameter/) — dimensi diameter untuk bulatan
+
+
+## Gaya dimensi
+
+Dimensi baharu menyalin [gaya dimensi](../dimension-style/) semasa termasuk anak panah, garis sambungan, teks, ketepatan, penjajaran, jurang dan bingkai. Nilai disalin ketika dicipta, jadi perubahan gaya kemudian tidak mengubah dimensi sedia ada.

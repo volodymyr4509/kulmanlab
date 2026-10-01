@@ -63,3 +63,7 @@ See [Text Editor — simple mode](../../interface/text-editor/#simple-mode) for 
 ## DXF — DIMENSION diameter entity
 
 Diameter dimensions are saved as `DIMENSION` entities with diameter-type geometry, storing both arc-point positions and the measured diameter value (2 × radius). All properties round-trip without loss.
+
+## Dimension style
+
+New diameter dimensions copy the current [DimensionStyle](../dimension-style/), including separate arrowheads, center-mark type and size, text, precision, gap, alignment, and frame. Outside dimensions use the second arrowhead consistently and begin the outside leader at the circle or arc.

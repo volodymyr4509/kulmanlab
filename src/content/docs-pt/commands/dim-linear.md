@@ -95,3 +95,8 @@ Para adicionar mais cotas continuando da última linha de extensão, use [Dimens
 ## DXF — entidade DIMENSION
 
 As cotas lineares são salvas como entidades `DIMENSION` com `rotationDeg` definido como `0` (horizontal) ou `90` (vertical). Origens das linhas de extensão, posição da linha de cota, posição do texto, valor medido, estilo de setas, altura do texto e todos os flags de exibição são mantidos sem perda.
+
+
+## Estilo de cota
+
+Novas cotas copiam o [estilo de cota](../dimension-style/) atual, incluindo setas, linhas de extensão, texto, precisão, alinhamento, intervalo e moldura. Os valores são copiados na criação; alterações posteriores no estilo não mudam cotas existentes.

@@ -63,3 +63,8 @@ Pilną nuorodą žr. [Teksto redaktorius — paprastasis režimas](../../interfa
 ## DXF — skersmens DIMENSION objektas
 
 Skersmens matmenys saugomi kaip `DIMENSION` objektai su skersmens tipo geometrija, išsaugant abi lanko taškų padėtis ir išmatuotą skersmens reikšmę (2 × spindulys). Visos savybės keliauja be praradimų.
+
+
+## Matmenų stilius
+
+Nauji matmenys nukopijuoja dabartinį [matmenų stilių](../dimension-style/), įskaitant rodykles, iškeltines linijas, tekstą, tikslumą, lygiavimą, tarpą ir rėmelį. Reikšmės kopijuojamos kuriant; vėlesni stiliaus pakeitimai esamų matmenų nekeičia.

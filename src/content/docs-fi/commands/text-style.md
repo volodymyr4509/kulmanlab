@@ -29,6 +29,4 @@ Esikatselu käyttää samaa piirtoa kuin kangas ja näyttää kaksi riviä. Font
 
 ## Tallentaminen ja DXF
 
-**OK** tallentaa muutokset; **Sulje** tai `Escape` hylkää ne. Liiku luettelossa näppäimillä `↑` ja `↓`. Nimi, fonttitiedostot, korkeus, lihavointi, kursivointi ja annotatiivinen lippu kuuluvat DXF-tekstityyliin. Kehys, riviväli ja tasaus ovat KulmanLabin tekstikohtaisia oletusarvoja, eivät DXF:n STYLE-taulukon kenttiä.
-
-Katso myös [Text](../text/), [FontManager](../font-manager/) ja [MatchProperties](../match-properties/).
+Nimi, fonttitiedostot, lihavointi, kursivointi ja annotatiivinen lippu säilyvät DXF-tekstityyleissä. KulmanLab kirjoittaa STYLE-ryhmän `40` arvoksi `0` (muuttuva korkeus) ja viimeksi käytetyn korkeuden ryhmään `42`; kiinteä STYLE-korkeus ei siis ohita mittatyylin omaa tekstikorkeutta. Kehys, riviväli ja vaakatasaus ovat KulmanLabin tekstikohtaisia oletuksia, eivät DXF STYLE -taulun kenttiä.

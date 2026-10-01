@@ -296,7 +296,512 @@ const latestReleaseTranslations: Record<string, { title: string; highlights: str
   },
 };
 
+const dimensionStyleReleaseTranslations: Record<string, { title: string; highlights: string[] }> = {
+  "de": {
+    "title": "Bemaßungsstil-Befehl — benannte Bemaßungsstile erstellen und verwalten",
+    "highlights": [
+      "Der Befehl öffnet einen Dialog zum Erstellen, Bearbeiten, Anzeigen und Auswählen benannter Bemaßungsstile. Neue lineare, ausgerichtete, Radius-, Durchmesser- und Winkelbemaßungen kopieren beim Erstellen den aktuellen Stil; vorhandene Bemaßungen bleiben unverändert.",
+      "Legen Sie die beiden Pfeilspitzen getrennt, Pfeilgröße, Abstand und Überstand der Hilfslinien sowie Typ und Größe der Mittelpunktmarke (`Keine`, `Markierung` oder `Linien`) fest. Der Textbereich steuert Textstil-Schnellübernahme, Schrift, Höhe, Fett, Kursiv, Rahmen, Abstand, eine von neun Anheftungspositionen, Ausrichtung an der Maßlinie sowie lineare und Winkelgenauigkeit. Die Textstil-Auswahl ist eine einmalige Übernahme und keine aktive Verknüpfung.",
+      "KulmanLab importiert und exportiert benannte `DIMSTYLE`-Tabelleneinträge einschließlich getrennter Pfeile, Hilfslinien, Text, Genauigkeit, Mittelpunktmarken, Rahmen, Textstil-Verweis und Annotativ-Flag. Beim Import haben objektspezifische `DSTYLE`-Überschreibungen Vorrang. Beim Export verwendet der referenzierte `STYLE` variable Höhe (`40 = 0`) und speichert die zuletzt verwendete Höhe in Gruppe `42`. So überschreibt eine feste Texthöhe nicht die Texthöhe des Bemaßungsstils.",
+      "Ctrl+A / Cmd+A — Gesamten Text im aktiven Editor auswählen."
+    ]
+  },
+  "es": {
+    "title": "Comando EstiloCota — crear y administrar estilos de cota con nombre",
+    "highlights": [
+      "El comando abre un cuadro de diálogo para crear, editar, previsualizar y seleccionar estilos de cota con nombre. Las cotas lineales, alineadas, radiales, diametrales y angulares nuevas copian el estilo actual al crearse; las cotas existentes no quedan vinculadas.",
+      "Configure por separado las dos puntas de flecha, el tamaño, el desfase y la prolongación de las líneas de referencia, y el tipo y tamaño de marca de centro (`Ninguna`, `Marca` o `Líneas`). La sección de texto controla el relleno rápido desde Estilo de texto, fuente, altura, negrita, cursiva, marco, separación, una de nueve posiciones de enlace, alineación con la línea de cota y precisión lineal y angular. Estilo de texto copia valores una sola vez; no es un vínculo activo.",
+      "KulmanLab importa y exporta registros `DIMSTYLE` con nombre, incluidas flechas independientes, líneas de referencia, texto, precisión, marcas de centro, marco, referencia de estilo de texto y marca anotativa. Al importar, las modificaciones `DSTYLE` propias de cada entidad tienen prioridad. Al exportar, el `STYLE` referenciado usa altura variable (`40 = 0`) y guarda la última altura usada en el grupo `42`. Así una altura fija de texto no sustituye la altura propia del estilo de cota.",
+      "Ctrl+A / Cmd+A — Seleccionar todo el texto del editor activo."
+    ]
+  },
+  "fr": {
+    "title": "Commande StyleCote — créer et gérer des styles de cote nommés",
+    "highlights": [
+      "La commande ouvre une boîte de dialogue permettant de créer, modifier, prévisualiser et sélectionner des styles de cote nommés. Toute nouvelle cote linéaire, alignée, radiale, diamétrale ou angulaire copie le style courant à sa création ; les cotes existantes ne restent pas liées.",
+      "Réglez séparément les deux pointes de flèche, leur taille, le décalage et le dépassement des lignes d’attache, ainsi que le type et la taille de la marque de centre (`Aucune`, `Marque` ou `Lignes`). La section texte contrôle le remplissage rapide depuis un style de texte, la police, la hauteur, le gras, l’italique, le cadre, l’écart, l’une des neuf positions d’attache, l’alignement sur la ligne de cote et les précisions linéaire et angulaire. Le style de texte copie les valeurs une fois, sans liaison dynamique.",
+      "KulmanLab importe et exporte les enregistrements `DIMSTYLE` nommés, notamment les flèches distinctes, lignes d’attache, texte, précision, marques de centre, cadre, référence au style de texte et indicateur annotatif. À l’importation, les remplacements `DSTYLE` propres à l’entité sont prioritaires. À l’exportation, le `STYLE` référencé utilise une hauteur variable (`40 = 0`) et mémorise la dernière hauteur dans le groupe `42`. Une hauteur fixe de style de texte ne peut ainsi pas remplacer celle du style de cote.",
+      "Ctrl+A / Cmd+A — Sélectionner tout le texte dans l’éditeur actif."
+    ]
+  },
+  "it": {
+    "title": "Comando StileQuota — creare e gestire stili di quota con nome",
+    "highlights": [
+      "Il comando apre una finestra per creare, modificare, vedere in anteprima e selezionare stili di quota con nome. Le nuove quote lineari, allineate, radiali, diametrali e angolari copiano lo stile corrente alla creazione; quelle esistenti non restano collegate.",
+      "Imposta separatamente le due punte freccia, la dimensione, l’offset e l’estensione delle linee di estensione, oltre al tipo e alla dimensione del centro (`Nessuno`, `Segno` o `Linee`). La sezione testo controlla il riempimento rapido da Stile testo, font, altezza, grassetto, corsivo, cornice, distanza, una di nove posizioni di attacco, allineamento alla linea di quota e precisione lineare e angolare. Stile testo copia i valori una sola volta, senza collegamento attivo.",
+      "KulmanLab importa ed esporta record `DIMSTYLE` con nome, incluse frecce separate, linee di estensione, testo, precisione, centri, cornice, riferimento allo stile testo e flag annotativo. In importazione, le sostituzioni `DSTYLE` specifiche dell’entità hanno la precedenza. In esportazione, il `STYLE` referenziato usa altezza variabile (`40 = 0`) e salva l’ultima altezza nel gruppo `42`. Così un’altezza fissa dello stile testo non sostituisce quella propria dello stile di quota.",
+      "Ctrl+A / Cmd+A — Seleziona tutto il testo nell’editor attivo."
+    ]
+  },
+  "pt": {
+    "title": "Comando EstiloCota — criar e gerenciar estilos de cota nomeados",
+    "highlights": [
+      "O comando abre uma janela para criar, editar, visualizar e selecionar estilos de cota nomeados. Novas cotas lineares, alinhadas, radiais, diametrais e angulares copiam o estilo atual ao serem criadas; cotas existentes não ficam vinculadas.",
+      "Configure separadamente as duas pontas de seta, o tamanho, o afastamento e a extensão das linhas de chamada, além do tipo e tamanho da marca de centro (`Nenhuma`, `Marca` ou `Linhas`). A seção de texto controla o preenchimento rápido pelo Estilo de texto, fonte, altura, negrito, itálico, moldura, intervalo, uma de nove posições de fixação, alinhamento com a linha de cota e precisão linear e angular. O estilo de texto copia valores uma vez, sem vínculo ativo.",
+      "O KulmanLab importa e exporta registros `DIMSTYLE` nomeados, incluindo setas separadas, linhas de extensão, texto, precisão, marcas de centro, moldura, referência ao estilo de texto e sinalizador anotativo. Na importação, substituições `DSTYLE` específicas da entidade têm prioridade. Na exportação, o `STYLE` referenciado usa altura variável (`40 = 0`) e guarda a última altura no grupo `42`. Assim, uma altura fixa do estilo de texto não substitui a altura própria do estilo de cota.",
+      "Ctrl+A / Cmd+A — Selecionar todo o texto no editor ativo."
+    ]
+  },
+  "uk": {
+    "title": "Команда СтильРозміру — створення й керування іменованими стилями розмірів",
+    "highlights": [
+      "Команда відкриває діалог для створення, редагування, попереднього перегляду й вибору іменованих стилів розмірів. Нові лінійні, вирівняні, радіусні, діаметральні та кутові розміри копіюють поточний стиль під час створення; наявні розміри не залишаються пов’язаними.",
+      "Окремо задайте дві стрілки, їх розмір, відступ і подовження виносних ліній, а також тип і розмір позначки центра (`Немає`, `Позначка` або `Лінії`). Розділ тексту керує швидким заповненням зі стилю тексту, шрифтом, висотою, жирністю, курсивом, рамкою, проміжком, однією з дев’яти позицій прив’язки, вирівнюванням уздовж розмірної лінії та лінійною і кутовою точністю. Стиль тексту копіює значення один раз, без живого зв’язку.",
+      "KulmanLab імпортує й експортує іменовані записи `DIMSTYLE`, зокрема окремі стрілки, виносні лінії, текст, точність, позначки центра, рамку, посилання на стиль тексту й анотативний прапорець. Під час імпорту перевизначення `DSTYLE` окремого об’єкта мають пріоритет. Під час експорту пов’язаний `STYLE` використовує змінну висоту (`40 = 0`) і зберігає останню висоту в групі `42`. Тому фіксована висота стилю тексту не перекриває власну висоту тексту стилю розміру.",
+      "Ctrl+A / Cmd+A — Виділити весь текст в активному редакторі."
+    ]
+  },
+  "tr": {
+    "title": "ÖlçüStili komutu — adlandırılmış ölçü stilleri oluşturma ve yönetme",
+    "highlights": [
+      "Komut, adlandırılmış ölçü stillerini oluşturmak, düzenlemek, önizlemek ve seçmek için bir pencere açar. Yeni doğrusal, hizalı, yarıçap, çap ve açısal ölçüler oluşturulurken geçerli stili kopyalar; mevcut ölçüler canlı bağlı kalmaz.",
+      "İki ok ucunu ayrı ayrı, ok boyutunu, uzatma çizgisi ofsetini ve uzamasını, ayrıca merkez işareti türünü ve boyutunu (`Yok`, `İşaret` veya `Çizgiler`) ayarlayın. Metin bölümü; Metin Stili hızlı doldurmasını, yazı tipini, yüksekliği, kalın ve italik biçimi, çerçeveyi, aralığı, dokuz bağlama konumundan birini, ölçü çizgisine hizalamayı ve doğrusal/açısal hassasiyeti yönetir. Metin Stili değerleri bir kez kopyalar; canlı bağlantı değildir.",
+      "KulmanLab; ayrı oklar, uzatma çizgileri, metin, hassasiyet, merkez işaretleri, çerçeve, metin stili başvurusu ve açıklayıcı bayrak dahil adlandırılmış `DIMSTYLE` kayıtlarını içe ve dışa aktarır. İçe aktarmada nesneye özel `DSTYLE` geçersiz kılmaları önceliklidir. Dışa aktarımda başvurulan `STYLE` değişken yükseklik (`40 = 0`) kullanır ve son yüksekliği grup `42` içinde saklar. Böylece sabit metin stili yüksekliği, ölçü stilinin kendi metin yüksekliğini geçersiz kılmaz.",
+      "Ctrl+A / Cmd+A — Etkin düzenleyicideki tüm metni seç."
+    ]
+  },
+  "zh": {
+    "title": "DimensionStyle 命令 — 创建和管理命名标注样式",
+    "highlights": [
+      "该命令打开用于创建、编辑、预览和选择命名标注样式的对话框。新建线性、对齐、半径、直径和角度标注时会复制当前样式；已有标注不会保持实时链接。",
+      "可分别设置两个箭头、箭头大小、尺寸界线偏移和延伸，以及圆心标记类型与大小（`无`、`标记`或`线`）。 文字区控制文字样式快速填充、字体、高度、粗体、斜体、边框、间距、九种附着位置之一、随尺寸线对齐，以及线性和角度精度。文字样式只复制一次数值，并非实时链接。",
+      "KulmanLab 导入和导出命名 `DIMSTYLE` 表记录，包括独立箭头、尺寸界线、文字、精度、圆心标记、边框、文字样式引用和注释性标志。导入时，每个实体自身的 `DSTYLE` 覆盖项优先。 导出时，被引用的 `STYLE` 使用可变高度（`40 = 0`），并在组 `42` 中保存上次使用的高度。这样固定文字样式高度不会覆盖标注样式自身的文字高度。",
+      "Ctrl+A / Cmd+A — 选择活动编辑器中的全部文字."
+    ]
+  },
+  "hi": {
+    "title": "DimensionStyle कमांड — नामित आयाम शैलियाँ बनाएँ और प्रबंधित करें",
+    "highlights": [
+      "यह कमांड नामित आयाम शैलियाँ बनाने, संपादित करने, पूर्वावलोकन करने और चुनने का संवाद खोलता है। नया रेखीय, संरेखित, त्रिज्या, व्यास या कोणीय आयाम बनते समय वर्तमान शैली की प्रतिलिपि लेता है; पुराने आयाम उससे जीवंत रूप से जुड़े नहीं रहते।",
+      "दोनों तीर-सिरे अलग-अलग, तीर आकार, विस्तार रेखा का ऑफ़सेट और बढ़ाव, तथा केंद्र चिह्न का प्रकार और आकार (`कोई नहीं`, `चिह्न` या `रेखाएँ`) तय करें। पाठ भाग Text Style त्वरित-भरण, फ़ॉन्ट, ऊँचाई, बोल्ड, इटैलिक, फ़्रेम, अंतर, नौ जोड़ स्थितियों में से एक, आयाम रेखा के साथ संरेखण और रेखीय/कोणीय परिशुद्धता नियंत्रित करता है। Text Style मान एक बार कॉपी करता है; यह जीवंत लिंक नहीं है।",
+      "KulmanLab नामित `DIMSTYLE` रिकॉर्ड आयात और निर्यात करता है, जिनमें अलग तीर, विस्तार रेखाएँ, पाठ, परिशुद्धता, केंद्र चिह्न, फ़्रेम, पाठ-शैली संदर्भ और एनोटेटिव फ़्लैग शामिल हैं। आयात में इकाई-विशिष्ट `DSTYLE` ओवरराइड प्राथमिक होते हैं। निर्यात में संदर्भित `STYLE` चर ऊँचाई (`40 = 0`) उपयोग करता है और अंतिम ऊँचाई समूह `42` में रखता है। इससे निश्चित पाठ-शैली ऊँचाई आयाम शैली की अपनी पाठ ऊँचाई को नहीं बदलती।",
+      "Ctrl+A / Cmd+A — सक्रिय संपादक का पूरा पाठ चुनें."
+    ]
+  },
+  "ar": {
+    "title": "أمر نمط الأبعاد — إنشاء أنماط أبعاد مسماة وإدارتها",
+    "highlights": [
+      "يفتح الأمر نافذة لإنشاء أنماط أبعاد مسماة وتحريرها ومعاينتها واختيارها. تنسخ الأبعاد الخطية والمحاذية ونصف القطر والقطر والزاوية الجديدة النمط الحالي عند إنشائها؛ ولا تبقى الأبعاد الحالية مرتبطة به مباشرة.",
+      "اضبط رأسي السهم كلًا على حدة، وحجم السهم، وإزاحة خط الامتداد وامتداده، ونوع علامة المركز وحجمها (`بلا` أو `علامة` أو `خطوط`). يتحكم قسم النص في التعبئة السريعة من نمط النص والخط والارتفاع والعريض والمائل والإطار والفجوة وواحد من تسعة مواضع إرفاق والمحاذاة مع خط البعد والدقة الخطية والزاوية. ينسخ نمط النص القيم مرة واحدة وليس ارتباطًا حيًا.",
+      "يستورد KulmanLab سجلات `DIMSTYLE` المسماة ويصدرها، بما فيها الأسهم المنفصلة وخطوط الامتداد والنص والدقة وعلامات المركز والإطار ومرجع نمط النص والعلامة التوضيحية. عند الاستيراد تكون تجاوزات `DSTYLE` الخاصة بالعنصر ذات أولوية. عند التصدير يستخدم `STYLE` المشار إليه ارتفاعًا متغيرًا (`40 = 0`) ويحفظ آخر ارتفاع في المجموعة `42`. وهذا يمنع ارتفاع نمط نص ثابت من تجاوز ارتفاع النص الخاص بنمط الأبعاد.",
+      "Ctrl+A / Cmd+A — تحديد كل النص في المحرر النشط."
+    ]
+  },
+  "id": {
+    "title": "Perintah GayaDimensi — membuat dan mengelola gaya dimensi bernama",
+    "highlights": [
+      "Perintah ini membuka dialog untuk membuat, mengedit, mempratinjau, dan memilih gaya dimensi bernama. Dimensi linear, sejajar, radius, diameter, dan sudut baru menyalin gaya aktif saat dibuat; dimensi yang sudah ada tidak tetap tertaut.",
+      "Atur kedua kepala panah secara terpisah, ukuran panah, offset dan perpanjangan garis ekstensi, serta jenis dan ukuran tanda pusat (`Tidak ada`, `Tanda`, atau `Garis`). Bagian teks mengatur isi cepat dari Gaya Teks, font, tinggi, tebal, miring, bingkai, celah, satu dari sembilan posisi lampiran, perataan mengikuti garis dimensi, serta presisi linear dan sudut. Gaya Teks menyalin nilai satu kali, bukan tautan langsung.",
+      "KulmanLab mengimpor dan mengekspor rekaman `DIMSTYLE` bernama, termasuk panah terpisah, garis ekstensi, teks, presisi, tanda pusat, bingkai, referensi gaya teks, dan penanda anotatif. Saat impor, override `DSTYLE` khusus entitas memiliki prioritas. Saat ekspor, `STYLE` rujukan menggunakan tinggi variabel (`40 = 0`) dan menyimpan tinggi terakhir pada grup `42`. Ini mencegah tinggi gaya teks tetap menimpa tinggi teks milik gaya dimensi.",
+      "Ctrl+A / Cmd+A — Pilih semua teks di editor aktif."
+    ]
+  },
+  "ja": {
+    "title": "DimensionStyle コマンド — 名前付き寸法スタイルの作成と管理",
+    "highlights": [
+      "このコマンドは、名前付き寸法スタイルを作成、編集、プレビュー、選択するダイアログを開きます。新しい長さ、平行、半径、直径、角度寸法は作成時に現在のスタイルをコピーし、既存の寸法はライブリンクされません。",
+      "2 つの矢印、矢印サイズ、寸法補助線のオフセットと延長、中心マークの種類とサイズ（`なし`、`マーク`、`線`）を個別に設定します。 文字欄では文字スタイルからの一括入力、フォント、高さ、太字、斜体、枠、間隔、9 種類のアタッチ位置、寸法線への位置合わせ、長さと角度の精度を設定します。文字スタイルは一度だけ値をコピーし、ライブリンクにはなりません。",
+      "KulmanLab は、別々の矢印、寸法補助線、文字、精度、中心マーク、枠、文字スタイル参照、異尺度対応フラグを含む名前付き `DIMSTYLE` を読み書きします。読み込み時はエンティティ固有の `DSTYLE` 上書きが優先されます。 書き出し時、参照 `STYLE` は可変高さ（`40 = 0`）を使い、最後の高さをグループ `42` に保存します。固定文字スタイル高さが寸法スタイル固有の文字高さを上書きするのを防ぎます。",
+      "Ctrl+A / Cmd+A — 編集中のすべての文字を選択."
+    ]
+  },
+  "pl": {
+    "title": "Polecenie StylWymiaru — tworzenie i zarządzanie nazwanymi stylami wymiarów",
+    "highlights": [
+      "Polecenie otwiera okno tworzenia, edycji, podglądu i wyboru nazwanych stylów wymiarów. Nowe wymiary liniowe, wyrównane, promieniowe, średnicowe i kątowe kopiują styl bieżący przy utworzeniu; istniejące wymiary nie pozostają połączone.",
+      "Ustaw osobno oba groty, rozmiar strzałki, odsunięcie i przedłużenie linii pomocniczych oraz typ i rozmiar znacznika środka (`Brak`, `Znacznik` lub `Linie`). Sekcja tekstu steruje szybkim wypełnieniem ze stylu tekstu, czcionką, wysokością, pogrubieniem, kursywą, ramką, odstępem, jedną z dziewięciu pozycji zaczepienia, wyrównaniem do linii wymiarowej oraz precyzją liniową i kątową. Styl tekstu kopiuje wartości jednorazowo, bez aktywnego połączenia.",
+      "KulmanLab importuje i eksportuje nazwane rekordy `DIMSTYLE`, w tym oddzielne strzałki, linie pomocnicze, tekst, precyzję, znaczniki środka, ramkę, odwołanie do stylu tekstu i flagę opisową. Przy imporcie pierwszeństwo mają nadpisania `DSTYLE` konkretnego obiektu. Przy eksporcie wskazany `STYLE` używa wysokości zmiennej (`40 = 0`) i zapisuje ostatnią wysokość w grupie `42`. Stała wysokość stylu tekstu nie zastępuje więc wysokości własnej stylu wymiaru.",
+      "Ctrl+A / Cmd+A — Zaznacz cały tekst w aktywnym edytorze."
+    ]
+  },
+  "ko": {
+    "title": "DimensionStyle 명령 — 명명된 치수 스타일 만들기 및 관리",
+    "highlights": [
+      "이 명령은 명명된 치수 스타일을 만들고 편집하고 미리 보고 선택하는 대화상자를 엽니다. 새 선형, 정렬, 반지름, 지름, 각도 치수는 생성할 때 현재 스타일을 복사하며 기존 치수는 실시간으로 연결되지 않습니다.",
+      "두 화살촉, 화살표 크기, 치수 보조선 간격과 연장, 중심 표식 종류 및 크기(`없음`, `표식`, `선`)를 각각 설정합니다. 텍스트 영역은 텍스트 스타일 빠른 채우기, 글꼴, 높이, 굵게, 기울임꼴, 프레임, 간격, 9개 부착 위치 중 하나, 치수선 정렬, 선형 및 각도 정밀도를 제어합니다. 텍스트 스타일은 값을 한 번 복사할 뿐 실시간 링크가 아닙니다.",
+      "KulmanLab은 별도 화살표, 치수 보조선, 텍스트, 정밀도, 중심 표식, 프레임, 텍스트 스타일 참조와 주석 플래그가 포함된 명명된 `DIMSTYLE` 레코드를 가져오고 내보냅니다. 가져올 때 엔티티별 `DSTYLE` 재정의가 우선합니다. 내보낼 때 참조 `STYLE`은 가변 높이(`40 = 0`)를 사용하고 마지막 높이를 그룹 `42`에 저장합니다. 고정 텍스트 스타일 높이가 치수 스타일 자체의 텍스트 높이를 덮어쓰지 않습니다.",
+      "Ctrl+A / Cmd+A — 활성 편집기의 모든 텍스트 선택."
+    ]
+  },
+  "vi": {
+    "title": "Lệnh KiểuKíchThước — tạo và quản lý kiểu kích thước có tên",
+    "highlights": [
+      "Lệnh mở hộp thoại để tạo, sửa, xem trước và chọn kiểu kích thước có tên. Kích thước thẳng, song song, bán kính, đường kính và góc mới sao chép kiểu hiện hành khi được tạo; kích thước đã có không liên kết trực tiếp.",
+      "Đặt riêng hai đầu mũi tên, kích thước mũi tên, độ lệch và phần kéo dài của đường dóng, cùng loại và kích thước dấu tâm (`Không`, `Dấu` hoặc `Đường`). Phần chữ điều khiển điền nhanh từ Kiểu chữ, phông, chiều cao, đậm, nghiêng, khung, khoảng cách, một trong chín vị trí gắn, căn theo đường kích thước và độ chính xác thẳng/góc. Kiểu chữ chỉ sao chép giá trị một lần, không phải liên kết trực tiếp.",
+      "KulmanLab nhập và xuất bản ghi `DIMSTYLE` có tên, gồm các mũi tên riêng, đường dóng, chữ, độ chính xác, dấu tâm, khung, tham chiếu kiểu chữ và cờ chú thích. Khi nhập, ghi đè `DSTYLE` riêng của thực thể được ưu tiên. Khi xuất, `STYLE` được tham chiếu dùng chiều cao biến đổi (`40 = 0`) và lưu chiều cao cuối ở nhóm `42`. Nhờ vậy chiều cao kiểu chữ cố định không ghi đè chiều cao chữ riêng của kiểu kích thước.",
+      "Ctrl+A / Cmd+A — Chọn toàn bộ chữ trong trình soạn thảo đang hoạt động."
+    ]
+  },
+  "th": {
+    "title": "คำสั่ง DimensionStyle — สร้างและจัดการรูปแบบมิติที่มีชื่อ",
+    "highlights": [
+      "คำสั่งนี้เปิดหน้าต่างสำหรับสร้าง แก้ไข แสดงตัวอย่าง และเลือกรูปแบบมิติที่มีชื่อ มิติเส้นตรง จัดแนว รัศมี เส้นผ่านศูนย์กลาง และเชิงมุมใหม่จะคัดลอกรูปแบบปัจจุบันเมื่อสร้าง ส่วนมิติเดิมไม่เชื่อมโยงแบบสด",
+      "กำหนดหัวลูกศรสองด้านแยกกัน ขนาดลูกศร ระยะเยื้องและส่วนต่อของเส้นต่อ รวมถึงชนิดและขนาดเครื่องหมายศูนย์กลาง (`ไม่มี`, `เครื่องหมาย` หรือ `เส้น`) ส่วนข้อความควบคุมการเติมด่วนจากรูปแบบข้อความ ฟอนต์ ความสูง ตัวหนา ตัวเอียง กรอบ ช่องว่าง ตำแหน่งยึด 1 ใน 9 ตำแหน่ง การจัดตามเส้นมิติ และความละเอียดเชิงเส้น/เชิงมุม รูปแบบข้อความคัดลอกค่าเพียงครั้งเดียว ไม่ใช่ลิงก์สด",
+      "KulmanLab นำเข้าและส่งออกระเบียน `DIMSTYLE` ที่มีชื่อ รวมลูกศรแยก เส้นต่อ ข้อความ ความละเอียด เครื่องหมายศูนย์กลาง กรอบ การอ้างอิงรูปแบบข้อความ และแฟล็กคำอธิบายประกอบ เมื่อนำเข้า ค่าแทนที่ `DSTYLE` ของเอนทิตีมีลำดับก่อน เมื่อส่งออก `STYLE` ที่อ้างอิงใช้ความสูงแปรผัน (`40 = 0`) และเก็บความสูงล่าสุดในกลุ่ม `42` จึงป้องกันความสูงรูปแบบข้อความคงที่ไม่ให้ทับความสูงข้อความของรูปแบบมิติ",
+      "Ctrl+A / Cmd+A — เลือกข้อความทั้งหมดในตัวแก้ไขที่ใช้งาน."
+    ]
+  },
+  "ms": {
+    "title": "Perintah GayaDimensi — cipta dan urus gaya dimensi bernama",
+    "highlights": [
+      "Perintah ini membuka dialog untuk mencipta, mengedit, pratonton dan memilih gaya dimensi bernama. Dimensi linear, sejajar, jejari, diameter dan sudut baharu menyalin gaya semasa ketika dicipta; dimensi sedia ada tidak kekal terpaut.",
+      "Tetapkan dua kepala anak panah secara berasingan, saiz anak panah, ofset dan sambungan garis, serta jenis dan saiz tanda pusat (`Tiada`, `Tanda` atau `Garis`). Bahagian teks mengawal isi pantas daripada Gaya Teks, fon, tinggi, tebal, condong, bingkai, jurang, satu daripada sembilan kedudukan lampiran, penjajaran pada garis dimensi serta ketepatan linear dan sudut. Gaya Teks menyalin nilai sekali sahaja, bukan pautan langsung.",
+      "KulmanLab mengimport dan mengeksport rekod `DIMSTYLE` bernama termasuk anak panah berasingan, garis sambungan, teks, ketepatan, tanda pusat, bingkai, rujukan gaya teks dan bendera anotatif. Semasa import, tindanan `DSTYLE` khusus entiti diberi keutamaan. Semasa eksport, `STYLE` dirujuk menggunakan tinggi berubah (`40 = 0`) dan menyimpan tinggi terakhir dalam kumpulan `42`. Ini menghalang tinggi gaya teks tetap daripada menindan tinggi teks gaya dimensi.",
+      "Ctrl+A / Cmd+A — Pilih semua teks dalam editor aktif."
+    ]
+  },
+  "bn": {
+    "title": "DimensionStyle কমান্ড — নামযুক্ত মাত্রা স্টাইল তৈরি ও পরিচালনা",
+    "highlights": [
+      "কমান্ডটি নামযুক্ত মাত্রা স্টাইল তৈরি, সম্পাদনা, প্রিভিউ ও নির্বাচনের ডায়ালগ খোলে। নতুন লিনিয়ার, অ্যালাইন্ড, রেডিয়াস, ডায়ামিটার ও অ্যাঙ্গুলার মাত্রা তৈরির সময় বর্তমান স্টাইল কপি করে; বিদ্যমান মাত্রা লাইভভাবে যুক্ত থাকে না।",
+      "দুটি তীরমুখ আলাদাভাবে, তীরের আকার, এক্সটেনশন লাইনের অফসেট ও বাড়তি অংশ, এবং কেন্দ্র চিহ্নের ধরন ও আকার (`কোনোটিই নয়`, `চিহ্ন` বা `লাইন`) নির্ধারণ করুন। টেক্সট অংশ Text Style দ্রুত পূরণ, ফন্ট, উচ্চতা, বোল্ড, ইটালিক, ফ্রেম, ফাঁক, নয়টি সংযুক্তি অবস্থানের একটি, মাত্রা লাইনের সঙ্গে সারিবদ্ধতা এবং লিনিয়ার/কৌণিক নির্ভুলতা নিয়ন্ত্রণ করে। Text Style একবার মান কপি করে, এটি লাইভ লিংক নয়।",
+      "KulmanLab পৃথক তীর, এক্সটেনশন লাইন, টেক্সট, নির্ভুলতা, কেন্দ্র চিহ্ন, ফ্রেম, টেক্সট-স্টাইল রেফারেন্স ও অ্যানোটেটিভ ফ্ল্যাগসহ নামযুক্ত `DIMSTYLE` রেকর্ড আমদানি ও রপ্তানি করে। আমদানিতে অবজেক্ট-নির্দিষ্ট `DSTYLE` ওভাররাইড অগ্রাধিকার পায়। রপ্তানিতে রেফারেন্সকৃত `STYLE` পরিবর্তনশীল উচ্চতা (`40 = 0`) ব্যবহার করে এবং শেষ উচ্চতা গ্রুপ `42`-এ রাখে। এতে স্থির টেক্সট-স্টাইল উচ্চতা মাত্রা স্টাইলের নিজস্ব টেক্সট উচ্চতা বদলাতে পারে না।",
+      "Ctrl+A / Cmd+A — সক্রিয় এডিটরের সব টেক্সট নির্বাচন করুন."
+    ]
+  },
+  "sv": {
+    "title": "Kommandot Måttstil — skapa och hantera namngivna måttstilar",
+    "highlights": [
+      "Kommandot öppnar en dialogruta för att skapa, redigera, förhandsgranska och välja namngivna måttstilar. Nya linjära, justerade, radie-, diameter- och vinkelmått kopierar aktuell stil när de skapas; befintliga mått är inte direktlänkade.",
+      "Ställ in de två pilspetsarna separat, pilstorlek, hjälplinjernas avstånd och förlängning samt centrummarkeringens typ och storlek (`Ingen`, `Markering` eller `Linjer`). Textdelen styr snabbfyllning från textstil, teckensnitt, höjd, fet, kursiv, ram, mellanrum, en av nio fästpunkter, justering längs måttlinjen och linjär/vinkelprecision. Textstil kopierar värden en gång och är ingen direktlänk.",
+      "KulmanLab importerar och exporterar namngivna `DIMSTYLE`-poster med separata pilar, hjälplinjer, text, precision, centrum, ram, textstilsreferens och annotativ flagga. Vid import har objektspecifika `DSTYLE`-åsidosättningar företräde. Vid export använder refererad `STYLE` variabel höjd (`40 = 0`) och sparar senaste höjden i grupp `42`. Då kan en fast textstilshöjd inte ersätta måttstilens egen texthöjd.",
+      "Ctrl+A / Cmd+A — Markera all text i den aktiva redigeraren."
+    ]
+  },
+  "tl": {
+    "title": "Utos na EstiloNgSukat — gumawa at mamahala ng pinangalanang istilo ng sukat",
+    "highlights": [
+      "Binubuksan ng utos ang dialog para gumawa, mag-edit, mag-preview, at pumili ng pinangalanang istilo ng sukat. Kinokopya ng bagong linear, aligned, radius, diameter, at angular dimension ang kasalukuyang istilo kapag ginawa; hindi live-linked ang dati nang sukat.",
+      "Itakda nang hiwalay ang dalawang arrowhead, laki ng arrow, offset at extension ng extension line, at uri at laki ng center mark (`Wala`, `Mark`, o `Lines`). Kinokontrol ng text section ang mabilisang kopya mula Text Style, font, taas, bold, italic, frame, gap, isa sa siyam na attachment position, alignment sa dimension line, at linear/angular precision. Isang beses lang kumokopya ng values ang Text Style at hindi ito live link.",
+      "Nag-iimport at nag-eexport ang KulmanLab ng pinangalanang `DIMSTYLE` records kasama ang magkahiwalay na arrow, extension line, text, precision, center mark, frame, text-style reference, at annotative flag. Sa import, mas mataas ang priyoridad ng entity-specific `DSTYLE` overrides. Sa export, variable height (`40 = 0`) ang gamit ng referenced `STYLE` at nasa group `42` ang huling height. Hindi nito hinahayaang palitan ng fixed text-style height ang sariling text height ng dimension style.",
+      "Ctrl+A / Cmd+A — Piliin ang lahat ng text sa aktibong editor."
+    ]
+  },
+  "nl": {
+    "title": "Opdracht Maatstijl — benoemde maatstijlen maken en beheren",
+    "highlights": [
+      "De opdracht opent een venster om benoemde maatstijlen te maken, bewerken, bekijken en kiezen. Nieuwe lineaire, uitgelijnde, straal-, diameter- en hoekmaten kopiëren de huidige stijl bij het maken; bestaande maten blijven niet gekoppeld.",
+      "Stel de twee pijlpunten afzonderlijk in, plus pijlformaat, afstand en verlenging van hulplijnen en type en grootte van de centrummarkering (`Geen`, `Markering` of `Lijnen`). Het tekstgedeelte beheert snel invullen uit Tekststijl, lettertype, hoogte, vet, cursief, kader, tussenruimte, een van negen aanhechtingsposities, uitlijning met de maatlijn en lineaire/hoekprecisie. Tekststijl kopieert waarden eenmalig en is geen actieve koppeling.",
+      "KulmanLab importeert en exporteert benoemde `DIMSTYLE`-records met afzonderlijke pijlen, hulplijnen, tekst, precisie, centrummarkeringen, kader, tekststijlverwijzing en annotatieve vlag. Bij import hebben entiteitsgebonden `DSTYLE`-overschrijvingen voorrang. Bij export gebruikt de verwezen `STYLE` variabele hoogte (`40 = 0`) en bewaart de laatste hoogte in groep `42`. Een vaste tekststijlhoogte overschrijft daardoor niet de eigen teksthoogte van de maatstijl.",
+      "Ctrl+A / Cmd+A — Alle tekst in de actieve editor selecteren."
+    ]
+  },
+  "no": {
+    "title": "Kommandoen Målstil — opprett og administrer navngitte målstiler",
+    "highlights": [
+      "Kommandoen åpner en dialog for å opprette, redigere, forhåndsvise og velge navngitte målstiler. Nye lineære, justerte, radius-, diameter- og vinkelmål kopierer gjeldende stil når de opprettes; eksisterende mål er ikke direkte koblet.",
+      "Angi de to pilspissene separat, pilstørrelse, hjelpelinjenes avstand og forlengelse samt sentermarkeringens type og størrelse (`Ingen`, `Markering` eller `Linjer`). Tekstdelen styrer hurtigfylling fra tekststil, skrift, høyde, fet, kursiv, ramme, avstand, én av ni festeposisjoner, justering langs mållinjen og lineær/vinkelpresisjon. Tekststil kopierer verdier én gang og er ingen direkte kobling.",
+      "KulmanLab importerer og eksporterer navngitte `DIMSTYLE`-poster med separate piler, hjelpelinjer, tekst, presisjon, sentermarkeringer, ramme, tekststilreferanse og annotativt flagg. Ved import prioriteres objektspesifikke `DSTYLE`-overstyringer. Ved eksport bruker referert `STYLE` variabel høyde (`40 = 0`) og lagrer siste høyde i gruppe `42`. En fast tekststilhøyde kan dermed ikke overstyre målstilens egen teksthøyde.",
+      "Ctrl+A / Cmd+A — Merk all tekst i det aktive redigeringsfeltet."
+    ]
+  },
+  "da": {
+    "title": "Kommandoen Målstil — opret og administrer navngivne måltypografier",
+    "highlights": [
+      "Kommandoen åbner en dialog til at oprette, redigere, forhåndsvise og vælge navngivne måltypografier. Nye lineære, justerede, radius-, diameter- og vinkelmål kopierer den aktuelle typografi, når de oprettes; eksisterende mål er ikke direkte forbundet.",
+      "Indstil de to pilespidser separat, pilestørrelse, hjælpelinjernes afstand og forlængelse samt centrummærkets type og størrelse (`Ingen`, `Mærke` eller `Linjer`). Tekstdelen styrer hurtigudfyldning fra teksttypografi, skrifttype, højde, fed, kursiv, ramme, afstand, én af ni tilknytningspositioner, justering med mållinjen og lineær/vinkelpræcision. Teksttypografi kopierer værdier én gang og er ikke et aktivt link.",
+      "KulmanLab importerer og eksporterer navngivne `DIMSTYLE`-poster med separate pile, hjælpelinjer, tekst, præcision, centrummærker, ramme, teksttypografireference og annotativt flag. Ved import har objektspecifikke `DSTYLE`-tilsidesættelser forrang. Ved eksport bruger den refererede `STYLE` variabel højde (`40 = 0`) og gemmer seneste højde i gruppe `42`. En fast teksttypografihøjde kan derfor ikke tilsidesætte måltypografiens egen teksthøjde.",
+      "Ctrl+A / Cmd+A — Markér al tekst i den aktive editor."
+    ]
+  },
+  "fi": {
+    "title": "MittaTyyli-komento — nimettyjen mittatyylien luonti ja hallinta",
+    "highlights": [
+      "Komento avaa valintaikkunan nimettyjen mittatyylien luontiin, muokkaukseen, esikatseluun ja valintaan. Uudet lineaariset, kohdistetut, säde-, halkaisija- ja kulmamitat kopioivat nykyisen tyylin luotaessa; olemassa olevat mitat eivät pysy linkitettyinä.",
+      "Aseta kaksi nuolenkärkeä erikseen, nuolen koko, apuviivojen etäisyys ja jatke sekä keskiömerkin tyyppi ja koko (`Ei mitään`, `Merkki` tai `Viivat`). Tekstiosio hallitsee tekstityylistä pikatäyttöä, fonttia, korkeutta, lihavointia, kursivointia, kehystä, väliä, yhtä yhdeksästä kiinnityskohdasta, mittaviivan mukaista tasausta sekä lineaarista ja kulmatarkkuutta. Tekstityyli kopioi arvot kerran eikä ole elävä linkki.",
+      "KulmanLab tuo ja vie nimetyt `DIMSTYLE`-tietueet erillisine nuolineen, apuviivoineen, teksteineen, tarkkuuksineen, keskiömerkkeineen, kehyksineen, tekstityyliviitteineen ja annotatiivisine lippuineen. Tuonnissa oliokohtaiset `DSTYLE`-ohitukset ovat etusijalla. Viennissä viitattu `STYLE` käyttää muuttuvaa korkeutta (`40 = 0`) ja tallentaa viimeisen korkeuden ryhmään `42`. Kiinteä tekstityylin korkeus ei näin ohita mittatyylin omaa tekstikorkeutta.",
+      "Ctrl+A / Cmd+A — Valitse kaikki teksti aktiivisessa editorissa."
+    ]
+  },
+  "cs": {
+    "title": "Příkaz KótovacíStyl — vytváření a správa pojmenovaných kótovacích stylů",
+    "highlights": [
+      "Příkaz otevře dialog pro vytváření, úpravu, náhled a výběr pojmenovaných kótovacích stylů. Nové lineární, zarovnané, poloměrové, průměrové a úhlové kóty při vytvoření zkopírují aktuální styl; existující kóty s ním nezůstávají živě propojené.",
+      "Nastavte samostatně obě šipky, velikost šipky, odsazení a prodloužení vynášecích čar a typ i velikost středové značky (`Žádná`, `Značka` nebo `Čáry`). Část textu ovládá rychlé vyplnění ze stylu textu, písmo, výšku, tučné, kurzívu, rámeček, mezeru, jednu z devíti poloh připojení, zarovnání s kótovací čarou a lineární i úhlovou přesnost. Styl textu zkopíruje hodnoty jednou, nejde o živý odkaz.",
+      "KulmanLab importuje a exportuje pojmenované záznamy `DIMSTYLE`, včetně samostatných šipek, vynášecích čar, textu, přesnosti, středových značek, rámečku, odkazu na styl textu a anotativního příznaku. Při importu mají přednost přepsání `DSTYLE` konkrétní entity. Při exportu používá odkazovaný `STYLE` proměnnou výšku (`40 = 0`) a ukládá poslední výšku do skupiny `42`. Pevná výška stylu textu tak nepřepíše vlastní výšku textu kótovacího stylu.",
+      "Ctrl+A / Cmd+A — Vybrat veškerý text v aktivním editoru."
+    ]
+  },
+  "sw": {
+    "title": "Amri ya MtindoWaKipimo — unda na udhibiti mitindo ya vipimo yenye majina",
+    "highlights": [
+      "Amri hufungua kisanduku cha kuunda, kuhariri, kuhakiki na kuchagua mitindo ya vipimo yenye majina. Vipimo vipya vya mstari, vilivyopangiliwa, radiusi, kipenyo na pembe hunakili mtindo wa sasa vinapoundwa; vipimo vilivyopo haviunganishwi moja kwa moja.",
+      "Weka ncha mbili za mshale kando, ukubwa wa mshale, nafasi na urefu wa mistari ya nyongeza, pamoja na aina na ukubwa wa alama ya kati (`Hakuna`, `Alama` au `Mistari`). Sehemu ya maandishi hudhibiti ujazaji kutoka Mtindo wa Maandishi, fonti, urefu, nzito, italiki, fremu, nafasi, mojawapo ya nafasi tisa za kuambatisha, upangaji kwenye mstari wa kipimo na usahihi wa mstari/pembe. Mtindo wa Maandishi hunakili thamani mara moja, si kiungo hai.",
+      "KulmanLab huingiza na kutoa rekodi za `DIMSTYLE` zenye majina, pamoja na mishale tofauti, mistari ya nyongeza, maandishi, usahihi, alama za kati, fremu, rejea ya mtindo wa maandishi na bendera ya annotative. Wakati wa kuingiza, mipangilio ya `DSTYLE` ya kitu hupewa kipaumbele. Wakati wa kutoa, `STYLE` inayorejelewa hutumia urefu unaobadilika (`40 = 0`) na huhifadhi urefu wa mwisho kwenye kundi `42`. Hivyo urefu tuli wa mtindo wa maandishi hauandiki juu ya urefu wa maandishi wa mtindo wa kipimo.",
+      "Ctrl+A / Cmd+A — Chagua maandishi yote katika kihariri kinachotumika."
+    ]
+  },
+  "ur": {
+    "title": "پیمائش کا انداز کمانڈ — نام والے پیمائشی انداز بنائیں اور منظم کریں",
+    "highlights": [
+      "یہ کمانڈ نام والے پیمائشی انداز بنانے، ترمیم، پیش منظر اور انتخاب کے لیے ڈائیلاگ کھولتی ہے۔ نئی خطی، سیدھ شدہ، رداس، قطر اور زاویائی پیمائش بننے پر موجودہ انداز نقل کرتی ہے؛ پرانی پیمائش براہِ راست منسلک نہیں رہتی۔",
+      "دونوں تیروں کے سر الگ، تیر کا سائز، توسیعی لکیر کا فاصلہ اور پھیلاؤ، اور مرکزی نشان کی قسم و سائز (`کوئی نہیں`، `نشان` یا `لکیریں`) مقرر کریں۔ متن حصہ Text Style سے فوری بھرائی، فونٹ، اونچائی، جلی، ترچھا، فریم، وقفہ، نو اتصال مقامات میں سے ایک، پیمائشی لکیر کے ساتھ سیدھ اور خطی/زاویائی درستگی کو کنٹرول کرتا ہے۔ Text Style اقدار ایک بار نقل کرتا ہے، یہ زندہ ربط نہیں۔",
+      "KulmanLab الگ تیروں، توسیعی لکیروں، متن، درستگی، مرکزی نشانات، فریم، متن انداز حوالہ اور annotative پرچم سمیت نام والے `DIMSTYLE` ریکارڈ درآمد و برآمد کرتا ہے۔ درآمد میں شے کے مخصوص `DSTYLE` overrides کو ترجیح ملتی ہے۔ برآمد میں حوالہ شدہ `STYLE` متغیر اونچائی (`40 = 0`) استعمال کرتا اور آخری اونچائی گروپ `42` میں رکھتا ہے۔ یوں مقرر متن انداز اونچائی پیمائشی انداز کی اپنی متن اونچائی کو نہیں بدلتی۔",
+      "Ctrl+A / Cmd+A — فعال ایڈیٹر کا تمام متن منتخب کریں."
+    ]
+  },
+  "el": {
+    "title": "Εντολή ΣτυλΔιάστασης — δημιουργία και διαχείριση επώνυμων στυλ διαστάσεων",
+    "highlights": [
+      "Η εντολή ανοίγει διάλογο για δημιουργία, επεξεργασία, προεπισκόπηση και επιλογή επώνυμων στυλ διαστάσεων. Οι νέες γραμμικές, ευθυγραμμισμένες, ακτινικές, διαμετρικές και γωνιακές διαστάσεις αντιγράφουν το τρέχον στυλ κατά τη δημιουργία· οι υπάρχουσες δεν παραμένουν συνδεδεμένες.",
+      "Ορίστε χωριστά τις δύο αιχμές, το μέγεθος βέλους, τη μετατόπιση και επέκταση των βοηθητικών γραμμών και τον τύπο και μέγεθος κέντρου (`Κανένα`, `Σημάδι` ή `Γραμμές`). Η ενότητα κειμένου ελέγχει γρήγορη συμπλήρωση από στυλ κειμένου, γραμματοσειρά, ύψος, έντονα, πλάγια, πλαίσιο, διάκενο, μία από εννέα θέσεις σύνδεσης, ευθυγράμμιση με τη γραμμή διάστασης και γραμμική/γωνιακή ακρίβεια. Το στυλ κειμένου αντιγράφει τιμές μία φορά, χωρίς ζωντανή σύνδεση.",
+      "Το KulmanLab εισάγει και εξάγει επώνυμες εγγραφές `DIMSTYLE` με χωριστά βέλη, βοηθητικές γραμμές, κείμενο, ακρίβεια, σημάδια κέντρου, πλαίσιο, αναφορά στυλ κειμένου και σχολιαστική σημαία. Στην εισαγωγή υπερισχύουν οι παρακάμψεις `DSTYLE` ανά οντότητα. Στην εξαγωγή, το αναφερόμενο `STYLE` χρησιμοποιεί μεταβλητό ύψος (`40 = 0`) και αποθηκεύει το τελευταίο ύψος στην ομάδα `42`. Έτσι σταθερό ύψος στυλ κειμένου δεν αντικαθιστά το ύψος του στυλ διάστασης.",
+      "Ctrl+A / Cmd+A — Επιλογή όλου του κειμένου στον ενεργό επεξεργαστή."
+    ]
+  },
+  "pa": {
+    "title": "DimensionStyle ਕਮਾਂਡ — ਨਾਮ ਵਾਲੀਆਂ ਡਾਇਮੈਂਸ਼ਨ ਸ਼ੈਲੀਆਂ ਬਣਾਓ ਅਤੇ ਸੰਭਾਲੋ",
+    "highlights": [
+      "ਇਹ ਕਮਾਂਡ ਨਾਮ ਵਾਲੀਆਂ ਡਾਇਮੈਂਸ਼ਨ ਸ਼ੈਲੀਆਂ ਬਣਾਉਣ, ਸੋਧਣ, ਝਲਕ ਵੇਖਣ ਅਤੇ ਚੁਣਨ ਲਈ ਡਾਇਲਾਗ ਖੋਲ੍ਹਦੀ ਹੈ। ਨਵੀਆਂ ਲੀਨੀਅਰ, ਅਲਾਈਨਡ, ਰੇਡੀਅਸ, ਡਾਇਮੀਟਰ ਅਤੇ ਐਂਗੁਲਰ ਡਾਇਮੈਂਸ਼ਨਾਂ ਬਣਦਿਆਂ ਮੌਜੂਦਾ ਸ਼ੈਲੀ ਕਾਪੀ ਕਰਦੀਆਂ ਹਨ; ਪੁਰਾਣੀਆਂ ਲਾਈਵ ਲਿੰਕ ਨਹੀਂ ਰਹਿੰਦੀਆਂ।",
+      "ਦੋਵੇਂ ਤੀਰ-ਸਿਰੇ ਅਲੱਗ, ਤੀਰ ਆਕਾਰ, ਐਕਸਟੈਂਸ਼ਨ ਲਾਈਨ ਆਫ਼ਸੈੱਟ ਤੇ ਵਾਧਾ, ਅਤੇ ਕੇਂਦਰ ਚਿੰਨ੍ਹ ਦੀ ਕਿਸਮ ਤੇ ਆਕਾਰ (`ਕੋਈ ਨਹੀਂ`, `ਚਿੰਨ੍ਹ` ਜਾਂ `ਲਾਈਨਾਂ`) ਸੈੱਟ ਕਰੋ। ਟੈਕਸਟ ਭਾਗ Text Style ਤੋਂ ਤੇਜ਼ ਭਰਨ, ਫੋਂਟ, ਉਚਾਈ, ਬੋਲਡ, ਇਟਾਲਿਕ, ਫਰੇਮ, ਫਾਸਲਾ, ਨੌਂ ਅਟੈਚਮੈਂਟ ਥਾਵਾਂ ਵਿੱਚੋਂ ਇੱਕ, ਡਾਇਮੈਂਸ਼ਨ ਲਾਈਨ ਨਾਲ ਅਲਾਈਨਮੈਂਟ ਅਤੇ ਲੀਨੀਅਰ/ਐਂਗੁਲਰ ਸੁਚੋਕਤਾ ਨੂੰ ਨਿਯੰਤਰਿਤ ਕਰਦਾ ਹੈ। Text Style ਮੁੱਲ ਇੱਕ ਵਾਰ ਕਾਪੀ ਕਰਦਾ ਹੈ, ਇਹ ਲਾਈਵ ਲਿੰਕ ਨਹੀਂ।",
+      "KulmanLab ਵੱਖ ਤੀਰਾਂ, ਐਕਸਟੈਂਸ਼ਨ ਲਾਈਨਾਂ, ਟੈਕਸਟ, ਸੁਚੋਕਤਾ, ਕੇਂਦਰ ਚਿੰਨ੍ਹਾਂ, ਫਰੇਮ, ਟੈਕਸਟ-ਸ਼ੈਲੀ ਹਵਾਲੇ ਅਤੇ annotative ਫਲੈਗ ਸਮੇਤ ਨਾਮ ਵਾਲੇ `DIMSTYLE` ਰਿਕਾਰਡ ਆਯਾਤ ਅਤੇ ਨਿਰਯਾਤ ਕਰਦਾ ਹੈ। ਆਯਾਤ ਵੇਲੇ ਇਕਾਈ-ਖਾਸ `DSTYLE` overrides ਪਹਿਲਾਂ ਲਾਗੂ ਹੁੰਦੇ ਹਨ। ਨਿਰਯਾਤ ਵਿੱਚ ਹਵਾਲੇ ਵਾਲਾ `STYLE` ਬਦਲਵੀਂ ਉਚਾਈ (`40 = 0`) ਵਰਤਦਾ ਅਤੇ ਆਖਰੀ ਉਚਾਈ ਗਰੁੱਪ `42` ਵਿੱਚ ਰੱਖਦਾ ਹੈ। ਇਸ ਨਾਲ ਸਥਿਰ ਟੈਕਸਟ-ਸ਼ੈਲੀ ਉਚਾਈ ਡਾਇਮੈਂਸ਼ਨ ਸ਼ੈਲੀ ਦੀ ਆਪਣੀ ਟੈਕਸਟ ਉਚਾਈ ਨੂੰ ਨਹੀਂ ਬਦਲਦੀ।",
+      "Ctrl+A / Cmd+A — ਸਰਗਰਮ ਐਡੀਟਰ ਦਾ ਸਾਰਾ ਟੈਕਸਟ ਚੁਣੋ."
+    ]
+  },
+  "he": {
+    "title": "הפקודה סגנון מידה — יצירה וניהול של סגנונות מידה בעלי שם",
+    "highlights": [
+      "הפקודה פותחת חלון ליצירה, עריכה, תצוגה מקדימה ובחירה של סגנונות מידה בעלי שם. מידות קוויות, מיושרות, רדיוס, קוטר וזווית חדשות מעתיקות את הסגנון הנוכחי בעת היצירה; מידות קיימות אינן נשארות מקושרות.",
+      "הגדירו בנפרד את שני ראשי החץ, גודל החץ, היסט והארכת קווי העזר, וכן סוג וגודל סימון המרכז (`ללא`, `סימון` או `קווים`). אזור הטקסט שולט במילוי מהיר מסגנון טקסט, גופן, גובה, מודגש, נטוי, מסגרת, רווח, אחד מתשעה מיקומי הצמדה, יישור לקו המידה ודיוק קווי/זוויתי. סגנון טקסט מעתיק ערכים פעם אחת ואינו קישור חי.",
+      "KulmanLab מייבא ומייצא רשומות `DIMSTYLE` בעלות שם, כולל חצים נפרדים, קווי עזר, טקסט, דיוק, סימוני מרכז, מסגרת, הפניית סגנון טקסט ודגל אנוטטיבי. בייבוא, דריסות `DSTYLE` של הישות מקבלות עדיפות. בייצוא, ה-`STYLE` המופנה משתמש בגובה משתנה (`40 = 0`) ושומר את הגובה האחרון בקבוצה `42`. כך גובה קבוע של סגנון טקסט אינו דורס את גובה הטקסט של סגנון המידה.",
+      "Ctrl+A / Cmd+A — בחירת כל הטקסט בעורך הפעיל."
+    ]
+  },
+  "ha": {
+    "title": "Umarnin SalonAunawa — ƙirƙira da sarrafa salon aunawa masu suna",
+    "highlights": [
+      "Umarnin yana buɗe taga don ƙirƙira, gyara, samfoti da zaɓar salon aunawa masu suna. Sabbin ma’aunin layi, daidaitacce, radius, diamita da kusurwa suna kwafin salo na yanzu lokacin ƙirƙira; tsofaffin ma’auni ba sa kasancewa a haɗe kai tsaye.",
+      "Saita kawunan kibiya biyu daban, girman kibiya, tazara da tsawaita layukan taimako, da nau’i da girman alamar tsakiya (`Babu`, `Alama` ko `Layuka`). Sashen rubutu yana sarrafa cikawa daga Salon Rubutu, font, tsawo, kauri, karkace, firam, tazara, ɗaya daga wuraren haɗawa tara, daidaitawa da layin awo da daidaiton layi/kusurwa. Salon Rubutu yana kwafin ƙima sau ɗaya, ba haɗin kai tsaye ba.",
+      "KulmanLab yana shigo da fitar da bayanan `DIMSTYLE` masu suna, ciki har da kibiyoyi daban, layukan taimako, rubutu, daidaito, alamun tsakiya, firam, manunin salon rubutu da tutar annotative. Lokacin shigo da fayil, `DSTYLE` na abu yana da fifiko. Lokacin fitarwa, `STYLE` da aka nuna yana amfani da tsawo mai canzawa (`40 = 0`) kuma yana adana tsawo na ƙarshe a rukuni `42`. Hakan yana hana tsayayyen tsawon salon rubutu maye gurbin tsawon rubutun salon aunawa.",
+      "Ctrl+A / Cmd+A — Zaɓi duk rubutu a editan da ke aiki."
+    ]
+  },
+  "lt": {
+    "title": "Komanda MatmenųStilius — įvardytų matmenų stilių kūrimas ir valdymas",
+    "highlights": [
+      "Komanda atveria dialogą įvardytiems matmenų stiliams kurti, redaguoti, peržiūrėti ir pasirinkti. Nauji tiesiniai, lygiagretūs, spindulio, skersmens ir kampiniai matmenys sukūrimo metu nukopijuoja dabartinį stilių; esami matmenys su juo gyvai nesusiejami.",
+      "Atskirai nustatykite abi rodykles, rodyklės dydį, iškeltinių linijų poslinkį ir pratęsimą bei centro žymos tipą ir dydį (`Nėra`, `Žyma` arba `Linijos`). Teksto dalis valdo greitą užpildymą iš teksto stiliaus, šriftą, aukštį, pusjuodį, kursyvą, rėmelį, tarpą, vieną iš devynių prijungimo vietų, lygiavimą pagal matmens liniją ir tiesinį bei kampinį tikslumą. Teksto stilius reikšmes nukopijuoja vieną kartą, tai nėra gyva nuoroda.",
+      "KulmanLab importuoja ir eksportuoja įvardytus `DIMSTYLE` įrašus, įskaitant atskiras rodykles, iškeltines linijas, tekstą, tikslumą, centro žymas, rėmelį, teksto stiliaus nuorodą ir anotatyvumo vėliavėlę. Importuojant pirmenybę turi konkretaus objekto `DSTYLE` perrašymai. Eksportuojant nurodytas `STYLE` naudoja kintamą aukštį (`40 = 0`) ir paskutinį aukštį išsaugo grupėje `42`. Todėl fiksuotas teksto stiliaus aukštis neperrašo matmenų stiliaus teksto aukščio.",
+      "Ctrl+A / Cmd+A — Pažymėti visą tekstą aktyviame redaktoriuje."
+    ]
+  }
+};
+
+const appLanguageReleaseTranslations: Record<string, { title: string; highlights: string[] }> = {
+  "de": {
+    "title": "Tschechische und litauische Benutzeroberfläche",
+    "highlights": [
+      "Die vollständige CAD-Oberfläche, Befehlsnamen, Eingabeaufforderungen und Dialoge sind jetzt auf Tschechisch und Litauisch verfügbar."
+    ]
+  },
+  "es": {
+    "title": "Interfaz de la aplicación en checo y lituano",
+    "highlights": [
+      "La interfaz CAD completa, los nombres de comandos, los mensajes y los cuadros de diálogo ya están disponibles en checo y lituano."
+    ]
+  },
+  "fr": {
+    "title": "Interface de l’application en tchèque et en lituanien",
+    "highlights": [
+      "L’interface CAO complète, les noms de commandes, les invites et les boîtes de dialogue sont désormais disponibles en tchèque et en lituanien."
+    ]
+  },
+  "it": {
+    "title": "Interfaccia dell’app in ceco e lituano",
+    "highlights": [
+      "L’intera interfaccia CAD, i nomi dei comandi, i messaggi e le finestre sono ora disponibili in ceco e lituano."
+    ]
+  },
+  "pt": {
+    "title": "Interface do aplicativo em tcheco e lituano",
+    "highlights": [
+      "Toda a interface CAD, nomes de comandos, mensagens e janelas agora estão disponíveis em tcheco e lituano."
+    ]
+  },
+  "uk": {
+    "title": "Інтерфейс застосунку чеською та литовською",
+    "highlights": [
+      "Увесь інтерфейс CAD, назви команд, підказки й діалоги тепер доступні чеською та литовською мовами."
+    ]
+  },
+  "tr": {
+    "title": "Çekçe ve Litvanca uygulama arayüzü",
+    "highlights": [
+      "CAD arayüzünün tamamı, komut adları, istemler ve pencereler artık Çekçe ve Litvanca kullanılabilir."
+    ]
+  },
+  "zh": {
+    "title": "新增捷克语和立陶宛语应用界面",
+    "highlights": [
+      "完整 CAD 界面、命令名称、提示和对话框现已提供捷克语和立陶宛语版本。"
+    ]
+  },
+  "hi": {
+    "title": "चेक और लिथुआनियाई ऐप इंटरफ़ेस",
+    "highlights": [
+      "पूरा CAD इंटरफ़ेस, कमांड नाम, संकेत और संवाद अब चेक और लिथुआनियाई में उपलब्ध हैं।"
+    ]
+  },
+  "ar": {
+    "title": "واجهة التطبيق بالتشيكية والليتوانية",
+    "highlights": [
+      "أصبحت واجهة CAD الكاملة وأسماء الأوامر والمطالبات والنوافذ متاحة الآن بالتشيكية والليتوانية."
+    ]
+  },
+  "id": {
+    "title": "Antarmuka aplikasi bahasa Ceska dan Lituania",
+    "highlights": [
+      "Seluruh antarmuka CAD, nama perintah, petunjuk, dan dialog kini tersedia dalam bahasa Ceska dan Lituania."
+    ]
+  },
+  "ja": {
+    "title": "チェコ語とリトアニア語のアプリ UI",
+    "highlights": [
+      "CAD の全 UI、コマンド名、プロンプト、ダイアログがチェコ語とリトアニア語で利用できるようになりました。"
+    ]
+  },
+  "pl": {
+    "title": "Interfejs aplikacji po czesku i litewsku",
+    "highlights": [
+      "Pełny interfejs CAD, nazwy poleceń, komunikaty i okna są teraz dostępne po czesku i litewsku."
+    ]
+  },
+  "ko": {
+    "title": "체코어 및 리투아니아어 앱 인터페이스",
+    "highlights": [
+      "전체 CAD 인터페이스, 명령 이름, 프롬프트와 대화상자를 이제 체코어와 리투아니아어로 사용할 수 있습니다."
+    ]
+  },
+  "vi": {
+    "title": "Giao diện ứng dụng tiếng Séc và Litva",
+    "highlights": [
+      "Toàn bộ giao diện CAD, tên lệnh, lời nhắc và hộp thoại nay có sẵn bằng tiếng Séc và tiếng Litva."
+    ]
+  },
+  "th": {
+    "title": "อินเทอร์เฟซแอปภาษาเช็กและลิทัวเนีย",
+    "highlights": [
+      "อินเทอร์เฟซ CAD ชื่อคำสั่ง ข้อความแจ้ง และหน้าต่างทั้งหมดพร้อมใช้งานเป็นภาษาเช็กและลิทัวเนียแล้ว"
+    ]
+  },
+  "ms": {
+    "title": "Antara muka aplikasi bahasa Czech dan Lithuania",
+    "highlights": [
+      "Keseluruhan antara muka CAD, nama perintah, arahan dan dialog kini tersedia dalam bahasa Czech dan Lithuania."
+    ]
+  },
+  "bn": {
+    "title": "চেক ও লিথুয়ানীয় অ্যাপ ইন্টারফেস",
+    "highlights": [
+      "সম্পূর্ণ CAD ইন্টারফেস, কমান্ডের নাম, নির্দেশনা ও ডায়ালগ এখন চেক এবং লিথুয়ানীয় ভাষায় পাওয়া যায়।"
+    ]
+  },
+  "sv": {
+    "title": "Appgränssnitt på tjeckiska och litauiska",
+    "highlights": [
+      "Hela CAD-gränssnittet, kommandonamn, uppmaningar och dialogrutor finns nu på tjeckiska och litauiska."
+    ]
+  },
+  "tl": {
+    "title": "Interface ng app sa Czech at Lithuanian",
+    "highlights": [
+      "Available na sa Czech at Lithuanian ang buong CAD interface, mga pangalan ng utos, prompt, at dialog."
+    ]
+  },
+  "nl": {
+    "title": "App-interface in het Tsjechisch en Litouws",
+    "highlights": [
+      "De volledige CAD-interface, opdrachtnamen, meldingen en dialoogvensters zijn nu beschikbaar in het Tsjechisch en Litouws."
+    ]
+  },
+  "no": {
+    "title": "Appgrensesnitt på tsjekkisk og litauisk",
+    "highlights": [
+      "Hele CAD-grensesnittet, kommandonavn, ledetekster og dialoger er nå tilgjengelige på tsjekkisk og litauisk."
+    ]
+  },
+  "da": {
+    "title": "Appgrænseflade på tjekkisk og litauisk",
+    "highlights": [
+      "Hele CAD-grænsefladen, kommandonavne, beskeder og dialoger er nu tilgængelige på tjekkisk og litauisk."
+    ]
+  },
+  "fi": {
+    "title": "Sovelluksen käyttöliittymä tšekiksi ja liettuaksi",
+    "highlights": [
+      "Koko CAD-käyttöliittymä, komentojen nimet, kehotteet ja valintaikkunat ovat nyt saatavilla tšekiksi ja liettuaksi."
+    ]
+  },
+  "cs": {
+    "title": "České a litevské rozhraní aplikace",
+    "highlights": [
+      "Celé rozhraní CAD, názvy příkazů, výzvy i dialogy jsou nyní dostupné česky a litevsky."
+    ]
+  },
+  "sw": {
+    "title": "Kiolesura cha programu kwa Kicheki na Kilithuania",
+    "highlights": [
+      "Kiolesura kamili cha CAD, majina ya amri, vidokezo na visanduku sasa vinapatikana kwa Kicheki na Kilithuania."
+    ]
+  },
+  "ur": {
+    "title": "چیک اور لتھووینیائی ایپ انٹرفیس",
+    "highlights": [
+      "مکمل CAD انٹرفیس، کمانڈ نام، اشارے اور ڈائیلاگ اب چیک اور لتھووینیائی میں دستیاب ہیں۔"
+    ]
+  },
+  "el": {
+    "title": "Περιβάλλον εφαρμογής στα Τσεχικά και Λιθουανικά",
+    "highlights": [
+      "Όλο το περιβάλλον CAD, τα ονόματα εντολών, οι προτροπές και οι διάλογοι είναι πλέον διαθέσιμα στα Τσεχικά και Λιθουανικά."
+    ]
+  },
+  "pa": {
+    "title": "ਚੈੱਕ ਅਤੇ ਲਿਥੁਆਨੀਅਨ ਐਪ ਇੰਟਰਫੇਸ",
+    "highlights": [
+      "ਪੂਰਾ CAD ਇੰਟਰਫੇਸ, ਕਮਾਂਡ ਨਾਮ, ਸੁਨੇਹੇ ਅਤੇ ਡਾਇਲਾਗ ਹੁਣ ਚੈੱਕ ਅਤੇ ਲਿਥੁਆਨੀਅਨ ਵਿੱਚ ਉਪਲਬਧ ਹਨ।"
+    ]
+  },
+  "he": {
+    "title": "ממשק היישום בצ׳כית ובליטאית",
+    "highlights": [
+      "כל ממשק ה-CAD, שמות הפקודות, ההנחיות והחלונות זמינים כעת בצ׳כית ובליטאית."
+    ]
+  },
+  "ha": {
+    "title": "Fuskar manhaja da Czech da Lithuanian",
+    "highlights": [
+      "Dukkan fuskar CAD, sunayen umarni, saƙonni da tagogi yanzu suna samuwa da Czech da Lithuanian."
+    ]
+  },
+  "lt": {
+    "title": "Čekiška ir lietuviška programos sąsaja",
+    "highlights": [
+      "Visa CAD sąsaja, komandų pavadinimai, raginimai ir dialogai dabar pateikiami čekų ir lietuvių kalbomis."
+    ]
+  }
+};
+
 export const releases: Release[] = [
+  {
+    version: "2026.10.01.a0e1b5eb",
+    date: "October 1, 2026",
+    title: "Named dimension styles, DXF fidelity, and text selection",
+    highlights: [
+      "New DimensionStyle manager creates, duplicates, renames, deletes, previews, and selects the current named style for new linear, aligned, radius, diameter, and angular dimensions.",
+      "Dimension styles cover separate arrowheads, extension lines, center marks, text style and formatting, attachment, alignment, frames, and separate linear and angular precision.",
+      "DIMSTYLE import and export now preserve named styles and per-entity overrides; exported STYLE records use variable height so they cannot override a dimension style's text height.",
+      "Fixed framed dimension text, center marks, radius and outside-diameter arrow behavior, style fallback after opening a drawing, and added Ctrl/Cmd+A in the active text editor.",
+    ],
+  },
+  {
+    version: "2026.09.29.6614ca27",
+    date: "September 29, 2026",
+    title: "Czech and Lithuanian app interfaces",
+    highlights: [
+      "The complete CAD interface, command names, prompts, and dialogs are now available in Czech and Lithuanian.",
+    ],
+  },
   {
     version: "2026.09.28.94a59e1a",
     date: "September 28, 2026",
@@ -13000,5 +13505,11 @@ export const releaseTranslations: Record<string, { title: string; highlights: st
 };
 
 for (const [lang, release] of Object.entries(latestReleaseTranslations)) {
+  releaseTranslations[lang]?.unshift(release);
+}
+for (const [lang, release] of Object.entries(appLanguageReleaseTranslations)) {
+  releaseTranslations[lang]?.unshift(release);
+}
+for (const [lang, release] of Object.entries(dimensionStyleReleaseTranslations)) {
   releaseTranslations[lang]?.unshift(release);
 }

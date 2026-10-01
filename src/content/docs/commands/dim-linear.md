@@ -95,3 +95,7 @@ To add more dimensions continuing from the last extension line, use [Dimension C
 ## DXF — DIMENSION entity
 
 Linear dimensions are saved as `DIMENSION` entities with `rotationDeg` set to `0` (horizontal) or `90` (vertical). Extension line origins, dimension line position, text position, measured value, arrow style, text height, and all display flags round-trip without loss.
+
+## Dimension style
+
+New linear dimensions copy the current [DimensionStyle](../dimension-style/), including arrows, extension lines, text, precision, alignment, gap, and frame. The values are copied at creation time, so later style edits do not change existing dimensions.

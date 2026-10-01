@@ -63,3 +63,8 @@ Duba [Naʼurar Gyaran Rubutu — simple mode](../../interface/text-editor/#simpl
 ## DXF — Abin diameter na DIMENSION
 
 Girma-girma na diameter ana ajiye su a matsayin abubuwan `DIMENSION` tare da geometry na nauʼin diameter, suna ajiye matsayin tabon baka biyu da ƙimar diameter da aka auna (2 × radius). Dukkan abubuwan suna juyawa ba tare da asara ba.
+
+
+## Salon aunawa
+
+Sabbin ma’auni suna kwafin [salon aunawa](../dimension-style/) na yanzu, ciki har da kibiyoyi, layukan taimako, rubutu, daidaito, jeri, tazara da firam. Ana kwafin ƙima lokacin ƙirƙira; gyaran salo daga baya ba ya canza ma’aunin da ke akwai.

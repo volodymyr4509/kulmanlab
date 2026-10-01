@@ -105,6 +105,7 @@ Maligayang pagdating sa command reference ng **KulmanLab CAD**. Ang [KulmanLab C
 | [Hatch Manager](./commands/hatch-manager/) | I-browse ang hatch pattern library at mag-upload ng .pat files |
 | [EstiloNgTeksto](./commands/text-style/) | Gumawa at mamahala ng pinangalanang estilo para sa bagong teksto |
 | [EstiloNgLeader](./commands/leader-style/) | Gumawa at mamahala ng pinangalanang multileader style |
+| [EstiloNgSukat](./commands/dimension-style/) | Gumawa at mamahala ng pinangalanang istilo para sa bagong sukat |
 
 ## File
 

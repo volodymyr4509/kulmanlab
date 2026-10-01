@@ -86,3 +86,8 @@ Om meer maatvoeringen toe te voegen die doorlopen vanaf de tweede hulplijn van d
 ## DXF — DIMENSION-entiteit (aligned-type)
 
 Uitgelijnde maatvoeringen worden opgeslagen als `DIMENSION`-entiteiten met `dimType = 1` (aligned). Hulplijnoorsprongen, positie van de maatlijn, tekstpositie, gemeten waarde, rotatie, pijlstijl en alle weergavevlaggen blijven zonder verlies behouden bij de roundtrip.
+
+
+## Maatstijl
+
+Nieuwe maten kopiëren de huidige [maatstijl](../dimension-style/) met pijlen, hulplijnen, tekst, precisie, uitlijning, tussenruimte en kader. De waarden worden bij het maken gekopieerd; latere stijlwijzigingen veranderen bestaande maten niet.

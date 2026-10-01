@@ -118,6 +118,7 @@ Tinggi kursor secara otomatis cocok dengan tinggi cap dari karakter yang berdeka
 
 | Tombol | Aksi |
 |-----|--------|
+| `Ctrl+A` / `Cmd+A` | Pilih semua teks di editor aktif |
 | `Ctrl+C` / `Cmd+C` | Salin teks yang dipilih |
 | `Ctrl+X` / `Cmd+X` | Potong teks yang dipilih |
 | `Ctrl+V` / `Cmd+V` | Tempel di kursor |

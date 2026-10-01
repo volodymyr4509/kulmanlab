@@ -29,6 +29,4 @@ Kinokopya ng **Bago** ang napiling estilo. Hindi matatanggal ng **Burahin** ang 
 
 ## Pag-save at DXF
 
-Sine-save ng **OK** ang mga pagbabago; itinatapon naman ng **Isara** o `Escape` ang mga ito. Gamitin ang `↑` at `↓` upang lumipat sa listahan. Bahagi ng DXF text style ang pangalan, mga font file, taas, kapal, pahilig at annotative flag. Ang kuwadro, pagitan ng linya at paghahanay ay mga default ng bawat teksto sa KulmanLab, hindi mga field ng talahanayang STYLE.
-
-Tingnan din ang [Text](../text/), [FontManager](../font-manager/) at [MatchProperties](../match-properties/).
+Pinapanatili sa DXF text styles ang pangalan, font files, bold, italic, at annotative flag. Isinusulat ng KulmanLab ang STYLE group `40` bilang `0` (variable height) at ang huling height sa group `42`; kaya hindi pinapalitan ng fixed STYLE height ang sariling text height ng dimension style. KulmanLab defaults per text ang frame, line spacing, at horizontal alignment, hindi DXF STYLE table fields.

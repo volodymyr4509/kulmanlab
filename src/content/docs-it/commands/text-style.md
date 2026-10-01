@@ -52,7 +52,7 @@ Uno stile è un modello applicato durante la creazione. Modificarlo in seguito n
 
 ## Compatibilità DXF
 
-Nome, file del carattere, altezza fissa, grassetto, corsivo e flag annotativo appartengono al record di stile DXF e vengono importati ed esportati. Cornice, interlinea e allineamento orizzontale sono valori KulmanLab per singolo testo, non campi della tabella STYLE DXF.
+Nome, file dei font, grassetto, corsivo e flag annotativo vengono conservati negli stili testo DXF. KulmanLab scrive il gruppo `40` di STYLE come `0` (altezza variabile) e l’ultima altezza usata nel gruppo `42`; così un’altezza STYLE fissa non sostituisce l’altezza propria di uno stile di quota. Cornice, interlinea e allineamento orizzontale sono valori KulmanLab per singolo testo, non campi della tabella STYLE DXF.
 
 ## Comandi correlati
 

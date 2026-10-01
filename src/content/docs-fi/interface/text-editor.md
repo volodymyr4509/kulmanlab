@@ -118,6 +118,7 @@ Kohdistimen korkeus vastaa automaattisesti viereisen merkin versaalikorkeutta, m
 
 | Näppäin | Toiminto |
 |-----|--------|
+| `Ctrl+A` / `Cmd+A` | Valitse kaikki teksti aktiivisessa editorissa |
 | `Ctrl+C` / `Cmd+C` | Kopioi valittu teksti |
 | `Ctrl+X` / `Cmd+X` | Leikkaa valittu teksti |
 | `Ctrl+V` / `Cmd+V` | Liitä kohdistimen kohdalle |

@@ -69,3 +69,8 @@ Tam referans için [Metin Düzenleyici — simple mode](../../interface/text-edi
 - [Dimension Aligned](../dim-aligned/) — iki noktaya hizalı ölçü
 - [Dimension Radius](../dim-radius/) — yay ve daireler için yarıçap ölçüsü
 - [Dimension Diameter](../dim-diameter/) — daireler için çap ölçüsü
+
+
+## Ölçü stili
+
+Yeni ölçüler; oklar, uzatma çizgileri, metin, hassasiyet, hizalama, aralık ve çerçeve dahil geçerli [ölçü stilini](../dimension-style/) kopyalar. Değerler oluşturulurken kopyalanır; sonraki stil değişiklikleri mevcut ölçüleri değiştirmez.

@@ -69,3 +69,8 @@ Angalia [Text Editor — hali rahisi](../../interface/text-editor/#simple-mode) 
 - [Dimension Aligned](../dim-aligned/) — kipimo kilichopangwa kwenye pointi mbili
 - [Dimension Radius](../dim-radius/) — kipimo cha radi kwa miviringo na duara
 - [Dimension Diameter](../dim-diameter/) — kipimo cha kipenyo kwa duara
+
+
+## Mtindo wa kipimo
+
+Vipimo vipya hunakili [mtindo wa kipimo](../dimension-style/) wa sasa, pamoja na mishale, mistari ya nyongeza, maandishi, usahihi, upangaji, nafasi na fremu. Thamani hunakiliwa wakati wa kuunda; mabadiliko ya baadaye ya mtindo hayabadili vipimo vilivyopo.

@@ -90,3 +90,8 @@ Lihat [Text Editor — mod mudah](../../interface/text-editor/#simple-mode) untu
 ## DXF — entiti DIMENSION
 
 Setiap segmen dalam rantai disimpan sebagai entiti `DIMENSION` bebas dalam fail DXF. Mereka tidak dipautkan dalam fail — mereka berkongsi sifat kerana dicipta dari asas yang sama, tetapi setiap satunya boleh diedit secara bebas selepas peletakan.
+
+
+## Gaya dimensi
+
+Dimensi pertama dalam rantaian biasanya menyalin [gaya dimensi](../dimension-style/) semasa. Setiap sambungan kemudian mewarisi seluruh rupa dimensi asas supaya rantaian kekal seragam walaupun gaya semasa berubah.

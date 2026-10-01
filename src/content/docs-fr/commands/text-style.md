@@ -52,7 +52,7 @@ Un style sert de modèle au moment de la création. Le modifier ensuite ne chang
 
 ## Compatibilité DXF
 
-Le nom, les fichiers de police, la hauteur fixe, le gras, l'italique et l'indicateur annotatif appartiennent à l'enregistrement de style DXF et sont importés et exportés. Le cadre, l'interligne et l'alignement horizontal sont des valeurs KulmanLab propres au texte, pas des champs de la table STYLE DXF.
+Le nom, les fichiers de police, le gras, l’italique et l’indicateur annotatif sont conservés dans les styles de texte DXF. KulmanLab écrit le groupe `40` de STYLE à `0` (hauteur variable) et la dernière hauteur utilisée dans le groupe `42` ; une hauteur STYLE fixe ne remplace donc pas celle du style de cote. Le cadre, l’interligne et l’alignement horizontal sont des valeurs KulmanLab par texte, et non des champs de la table STYLE DXF.
 
 ## Commandes associées
 

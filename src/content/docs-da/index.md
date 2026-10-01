@@ -105,6 +105,7 @@ Velkommen til **KulmanLab CAD**s kommandoreference. [KulmanLab CAD](https://kulm
 | [Hatch Manager](./commands/hatch-manager/) | Gennemse hatch-mønsterbiblioteket, og upload .pat-filer |
 | [Tekststil](./commands/text-style/) | Opret og administrer navngivne teksttypografier til ny tekst |
 | [Ledelinjestil](./commands/leader-style/) | Opret og administrer navngivne multileader-typografier |
+| [Målstil](./commands/dimension-style/) | Opret og administrer navngivne typografier til nye mål |
 
 ## Fil
 

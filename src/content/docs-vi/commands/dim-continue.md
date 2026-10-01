@@ -62,3 +62,8 @@ Xem [Trình Soạn Thảo Văn Bản — chế độ đơn giản](../../interfa
 ## DXF — thực thể DIMENSION
 
 Mỗi đoạn trong chuỗi được lưu dưới dạng thực thể `DIMENSION` độc lập trong tệp DXF. Chúng không được liên kết trong tệp — chúng chia sẻ thuộc tính vì được tạo từ cùng một cơ sở, nhưng mỗi cái có thể được chỉnh sửa độc lập sau khi đặt.
+
+
+## Kiểu kích thước
+
+Kích thước đầu tiên trong chuỗi thường sao chép [kiểu kích thước](../dimension-style/) hiện hành. Mỗi phần tiếp theo kế thừa toàn bộ hình thức của kích thước gốc, nên chuỗi vẫn đồng nhất khi kiểu hiện hành thay đổi.

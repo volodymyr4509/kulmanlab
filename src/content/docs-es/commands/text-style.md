@@ -52,7 +52,7 @@ Un estilo es una plantilla utilizada al crear el texto. Modificarlo después no 
 
 ## Compatibilidad DXF
 
-El nombre, los archivos de fuente, la altura fija, la negrita, la cursiva y el indicador anotativo pertenecen al registro de estilo DXF y se importan y exportan. El marco, el interlineado y la alineación horizontal son valores de KulmanLab por texto, no campos de la tabla STYLE de DXF.
+El nombre, los archivos de fuente, negrita, cursiva y el indicador anotativo se conservan en los estilos de texto DXF. KulmanLab escribe el grupo `40` de STYLE como `0` (altura variable) y la última altura usada en el grupo `42`; así una altura fija de STYLE no sustituye la altura propia de un estilo de cota. El marco, interlineado y alineación horizontal son valores por texto de KulmanLab, no campos de la tabla STYLE de DXF.
 
 ## Comandos relacionados
 

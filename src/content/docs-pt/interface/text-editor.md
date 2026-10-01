@@ -118,6 +118,7 @@ A altura do cursor corresponde automaticamente à altura das maiúsculas do cara
 
 | Tecla | Ação |
 |-------|------|
+| `Ctrl+A` / `Cmd+A` | Selecionar todo o texto no editor ativo |
 | `Ctrl+C` / `Cmd+C` | Copiar o texto selecionado |
 | `Ctrl+X` / `Cmd+X` | Cortar o texto selecionado |
 | `Ctrl+V` / `Cmd+V` | Colar no cursor |

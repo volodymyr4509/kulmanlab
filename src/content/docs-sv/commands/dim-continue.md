@@ -90,3 +90,8 @@ Se [Textredigerare — enkelt läge](../../interface/text-editor/#simple-mode) f
 ## DXF — DIMENSION-entiteter
 
 Varje segment i kedjan lagras som en oberoende `DIMENSION`-entitet i DXF-filen. De är inte länkade i filen — de delar egenskaper eftersom de skapades från samma bas, men var och en kan redigeras individuellt efter placering.
+
+
+## Måttstil
+
+Det första måttet i en kedja kopierar normalt aktuell [måttstil](../dimension-style/). Varje fortsättning ärver sedan basmåttets fullständiga utseende, så kedjan förblir enhetlig även om aktuell stil ändras.

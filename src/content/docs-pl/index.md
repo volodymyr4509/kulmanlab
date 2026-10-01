@@ -105,6 +105,7 @@ Witaj w dokumentacji poleceń **KulmanLab CAD**. [KulmanLab CAD](https://kulmanl
 | [Hatch Manager](./commands/hatch-manager/) | Przeglądaj bibliotekę wzorów hatch i przesyłaj pliki .pat |
 | [StylTekstu](./commands/text-style/) | Tworzenie i zarządzanie nazwanymi stylami nowego tekstu |
 | [StylOdniesienia](./commands/leader-style/) | Tworzenie i zarządzanie nazwanymi stylami wielolinii odniesienia |
+| [StylWymiaru](./commands/dimension-style/) | Tworzenie i zarządzanie nazwanymi stylami nowych wymiarów |
 
 ## Plik
 

@@ -63,3 +63,8 @@ Se [Textredigerare — enkelt läge](../../interface/text-editor/#simple-mode) f
 ## DXF — DIMENSION-diameterentitet
 
 Diametermått sparas som `DIMENSION`-entiteter med diametertypsgeometri, som lagrar båda bågpunktspositionerna och det uppmätta diametervärdet (2 × radie). Alla egenskaper bevaras vid rundtur utan förlust.
+
+
+## Måttstil
+
+Nya mått kopierar aktuell [måttstil](../dimension-style/) med pilar, hjälplinjer, text, precision, justering, mellanrum och ram. Värdena kopieras när måttet skapas; senare stiländringar påverkar inte befintliga mått.

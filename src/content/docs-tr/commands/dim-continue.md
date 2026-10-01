@@ -90,3 +90,8 @@ Tam referans için [Metin Düzenleyici — simple mode](../../interface/text-edi
 ## DXF — DIMENSION Nesneleri
 
 Zincirdeki her segment DXF dosyasında bağımsız bir `DIMENSION` nesnesi olarak saklanır. Dosyada birbirine bağlı değillerdir — aynı temel ölçüden oluşturulduğu için özellikleri aynıdır, ancak yerleştirme sonrasında her biri ayrı ayrı düzenlenebilir.
+
+
+## Ölçü stili
+
+Zincirin ilk ölçüsü normalde geçerli [ölçü stilini](../dimension-style/) kopyalar. Her devam ölçüsü temel ölçünün tüm görünümünü devralır; geçerli stil değişse bile zincir tutarlı kalır.

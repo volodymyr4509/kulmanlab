@@ -118,6 +118,7 @@ Tsayin mai nuni yana daidaitawa kai tsaye da cap height na harafin makwabta, cik
 
 | Maɓalli | Aiki |
 |-----|--------|
+| `Ctrl+A` / `Cmd+A` | Zaɓi duk rubutu a editan da ke aiki |
 | `Ctrl+C` / `Cmd+C` | Kwafi rubutun da aka zaɓa |
 | `Ctrl+X` / `Cmd+X` | Yanke rubutun da aka zaɓa |
 | `Ctrl+V` / `Cmd+V` | Manna a mai nuni |

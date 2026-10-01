@@ -69,3 +69,8 @@ order: 9
 - [Dimension Aligned](../dim-aligned/) — 2 点に整列した寸法
 - [Dimension Radius](../dim-radius/) — 円弧と円の半径寸法
 - [Dimension Diameter](../dim-diameter/) — 円の直径寸法
+
+
+## 寸法スタイル
+
+新しい寸法は、矢印、寸法補助線、文字、精度、位置合わせ、間隔、枠を含む現在の[寸法スタイル](../dimension-style/)をコピーします。値は作成時にコピーされるため、後のスタイル変更は既存寸法に影響しません。

@@ -118,6 +118,7 @@ Dört düğme — **Align Left** (`Ctrl+Shift+L` / `Cmd+Shift+L`), **Align Cente
 
 | Tuş | İşlem |
 |-----|--------|
+| `Ctrl+A` / `Cmd+A` | Etkin düzenleyicideki tüm metni seç |
 | `Ctrl+C` / `Cmd+C` | Seçili metni kopyala |
 | `Ctrl+X` / `Cmd+X` | Seçili metni kes |
 | `Ctrl+V` / `Cmd+V` | İmleç konumuna yapıştır |

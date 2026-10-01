@@ -86,3 +86,8 @@ Chcete-li přidat další kóty navazující od druhé rozměrové čáry této 
 ## DXF — objekt DIMENSION (zarovnaný typ)
 
 Zarovnané kóty se ukládají jako objekty `DIMENSION` s `dimType = 1` (zarovnaná). Počátky rozměrových čar, poloha kótovací čáry, poloha textu, naměřená hodnota, otočení, styl šipek i všechny příznaky zobrazení se přenášejí beze ztráty.
+
+
+## Kótovací styl
+
+Nové kóty kopírují aktuální [kótovací styl](../dimension-style/), včetně šipek, vynášecích čar, textu, přesnosti, zarovnání, mezery a rámečku. Hodnoty se kopírují při vytvoření; pozdější změny stylu nemění existující kóty.

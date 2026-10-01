@@ -105,6 +105,7 @@ order: 1
 | [Hatch Manager](./commands/hatch-manager/) | เรียกดูไลบรารีลวดลาย hatch และอัปโหลดไฟล์ .pat |
 | [TextStyle รูปแบบข้อความ](./commands/text-style/) | สร้างและจัดการสไตล์ข้อความแบบมีชื่อสำหรับข้อความใหม่ |
 | [LeaderStyle รูปแบบเส้นชี้](./commands/leader-style/) | สร้างและจัดการสไตล์เส้นชี้หลายเส้นแบบมีชื่อ |
+| [DimensionStyle รูปแบบมิติ](./commands/dimension-style/) | สร้างและจัดการรูปแบบที่มีชื่อสำหรับมิติใหม่ |
 
 ## ไฟล์
 

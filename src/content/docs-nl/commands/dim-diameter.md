@@ -63,3 +63,8 @@ Zie [Tekstverwerker — simple-modus](../../interface/text-editor/#simple-mode) 
 ## DXF — DIMENSION-diameterentiteit
 
 Diametermaatvoeringen worden opgeslagen als `DIMENSION`-entiteiten met diameter-type geometrie, waarbij zowel de boogpuntposities als de gemeten diameterwaarde (2 × straal) worden opgeslagen. Alle eigenschappen blijven zonder verlies behouden bij de roundtrip.
+
+
+## Maatstijl
+
+Nieuwe maten kopiëren de huidige [maatstijl](../dimension-style/) met pijlen, hulplijnen, tekst, precisie, uitlijning, tussenruimte en kader. De waarden worden bij het maken gekopieerd; latere stijlwijzigingen veranderen bestaande maten niet.

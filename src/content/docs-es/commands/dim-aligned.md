@@ -86,3 +86,8 @@ Para agregar más cotas continuando desde la segunda línea de extensión de est
 ## DXF — entidad DIMENSION (tipo alineado)
 
 Las cotas alineadas se guardan como entidades `DIMENSION` con `dimType = 1` (alineado). Los orígenes de las líneas de extensión, la posición de la línea de cota, la posición del texto, el valor medido, la rotación, el estilo de flecha y todos los indicadores de visualización se exportan sin pérdida.
+
+
+## Estilo de cota
+
+Las cotas nuevas copian el [estilo de cota](../dimension-style/) actual, incluidas flechas, líneas de referencia, texto, precisión, alineación, separación y marco. Los valores se copian al crear, por lo que cambios posteriores del estilo no alteran cotas existentes.

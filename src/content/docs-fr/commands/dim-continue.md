@@ -90,3 +90,8 @@ Voir [Éditeur de texte — simple mode](../../interface/text-editor/#simple-mod
 ## DXF — entités DIMENSION
 
 Chaque segment de la chaîne est stocké comme une entité `DIMENSION` indépendante dans le fichier DXF. Ils ne sont pas liés dans le fichier — ils partagent des propriétés parce qu'ils ont été créés depuis la même base, mais chacun peut être édité individuellement après le placement.
+
+
+## Style de cote
+
+La première cote d’une chaîne copie normalement le [style de cote](../dimension-style/) courant. Chaque continuation hérite ensuite de l’apparence complète de sa cote de base, de sorte que la chaîne reste cohérente même si le style courant change.

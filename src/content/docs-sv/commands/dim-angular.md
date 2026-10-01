@@ -69,3 +69,8 @@ Se [Textredigerare — enkelt läge](../../interface/text-editor/#simple-mode) f
 - [Dimension Aligned](../dim-aligned/) — mått inriktat mot två punkter
 - [Dimension Radius](../dim-radius/) — radiemått för bågar och cirklar
 - [Dimension Diameter](../dim-diameter/) — diametermått för cirklar
+
+
+## Måttstil
+
+Nya mått kopierar aktuell [måttstil](../dimension-style/) med pilar, hjälplinjer, text, precision, justering, mellanrum och ram. Värdena kopieras när måttet skapas; senare stiländringar påverkar inte befintliga mått.

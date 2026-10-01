@@ -95,3 +95,8 @@ Aby dodać więcej wymiarów kontynuowanych od ostatniej linii przedłużenia, u
 ## DXF — element DIMENSION
 
 Wymiary liniowe zapisywane są jako elementy `DIMENSION` z `rotationDeg` ustawionym na `0` (poziomy) lub `90` (pionowy). Punkty początku linii przedłużenia, pozycja linii wymiarowej, pozycja tekstu, zmierzona wartość, styl strzałki, wysokość tekstu i wszystkie flagi wyświetlania zachowywane są bez utraty danych.
+
+
+## Styl wymiaru
+
+Nowe wymiary kopiują bieżący [styl wymiaru](../dimension-style/), w tym strzałki, linie pomocnicze, tekst, precyzję, wyrównanie, odstęp i ramkę. Wartości są kopiowane przy tworzeniu, więc późniejsze zmiany stylu nie zmieniają istniejących wymiarów.

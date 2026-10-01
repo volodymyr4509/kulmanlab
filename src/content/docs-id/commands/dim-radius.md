@@ -65,3 +65,8 @@ Lihat [Text Editor — mode sederhana](../../interface/text-editor/#simple-mode)
 ## DXF — entitas DIMENSION radius
 
 Dimensi radius disimpan sebagai entitas `DIMENSION` dengan geometri tipe radius, menyimpan koordinat pusat, posisi titik busur, dan nilai radius yang diukur. Semua properti dapat dipertukarkan tanpa kehilangan data.
+
+
+## Gaya dimensi
+
+Dimensi baru menyalin [gaya dimensi](../dimension-style/) aktif, termasuk panah, garis ekstensi, teks, presisi, perataan, celah, dan bingkai. Nilai disalin saat dibuat, sehingga perubahan gaya berikutnya tidak mengubah dimensi yang sudah ada.

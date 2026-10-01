@@ -69,3 +69,8 @@ Lihat [Text Editor — mode sederhana](../../interface/text-editor/#simple-mode)
 - [Dimension Aligned](../dim-aligned/) — dimensi yang sejajar dengan dua titik
 - [Dimension Radius](../dim-radius/) — dimensi radius untuk busur dan lingkaran
 - [Dimension Diameter](../dim-diameter/) — dimensi diameter untuk lingkaran
+
+
+## Gaya dimensi
+
+Dimensi baru menyalin [gaya dimensi](../dimension-style/) aktif, termasuk panah, garis ekstensi, teks, presisi, perataan, celah, dan bingkai. Nilai disalin saat dibuat, sehingga perubahan gaya berikutnya tidak mengubah dimensi yang sudah ada.

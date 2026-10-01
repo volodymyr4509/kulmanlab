@@ -63,3 +63,8 @@ Tam referans için [Metin Düzenleyici — simple mode](../../interface/text-edi
 ## DXF — DIMENSION diameter nesnesi
 
 Çap ölçüleri, her iki yay noktası konumunu ve ölçülen çap değerini (2 × yarıçap) saklayan, çap türü geometrisiyle `DIMENSION` nesnesi olarak kaydedilir. Tüm özellikler kayıpsız round-trip yapar.
+
+
+## Ölçü stili
+
+Yeni ölçüler; oklar, uzatma çizgileri, metin, hassasiyet, hizalama, aralık ve çerçeve dahil geçerli [ölçü stilini](../dimension-style/) kopyalar. Değerler oluşturulurken kopyalanır; sonraki stil değişiklikleri mevcut ölçüleri değiştirmez.

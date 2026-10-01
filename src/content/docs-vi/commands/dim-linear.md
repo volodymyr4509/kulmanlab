@@ -73,3 +73,8 @@ Xem [Trình Soạn Thảo Văn Bản — chế độ đơn giản](../../interfa
 ## DXF — thực thể DIMENSION
 
 Kích thước tuyến tính được lưu dưới dạng thực thể `DIMENSION` với `rotationDeg` được đặt là `0` (ngang) hoặc `90` (dọc). Tất cả thuộc tính được lưu trữ đầy đủ và không bị mất.
+
+
+## Kiểu kích thước
+
+Kích thước mới sao chép [kiểu kích thước](../dimension-style/) hiện hành, gồm mũi tên, đường dóng, chữ, độ chính xác, căn chỉnh, khoảng cách và khung. Giá trị được sao chép lúc tạo nên thay đổi kiểu sau đó không ảnh hưởng kích thước đã có.

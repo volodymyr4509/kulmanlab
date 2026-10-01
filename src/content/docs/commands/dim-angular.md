@@ -69,3 +69,7 @@ See [Text Editor — simple mode](../../interface/text-editor/#simple-mode) for 
 - [Dimension Aligned](../dim-aligned/) — dimension aligned to two points
 - [Dimension Radius](../dim-radius/) — radius dimension for arcs and circles
 - [Dimension Diameter](../dim-diameter/) — diameter dimension for circles
+
+## Dimension style
+
+New angular dimensions copy the current [DimensionStyle](../dimension-style/), including arrowheads, extension lines, text formatting, angular precision, alignment, gap, and frame. The values are copied at creation time rather than live-linked.

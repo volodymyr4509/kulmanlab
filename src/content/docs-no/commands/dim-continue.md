@@ -90,3 +90,8 @@ Se [Tekstredigering — enkel modus](../../interface/text-editor/#simple-mode) f
 ## DXF — DIMENSION-entiteter
 
 Hvert segment i kjeden lagres som en uavhengig `DIMENSION`-entitet i DXF-filen. De er ikke koblet sammen i filen — de deler egenskaper fordi de ble opprettet fra samme basis, men hver kan redigeres individuelt etter plassering.
+
+
+## Målstil
+
+Det første målet i en kjede kopierer vanligvis gjeldende [målstil](../dimension-style/). Hver fortsettelse arver deretter hele utseendet fra basismålet, slik at kjeden forblir ensartet om gjeldende stil endres.

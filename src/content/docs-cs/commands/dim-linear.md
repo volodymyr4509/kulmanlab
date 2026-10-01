@@ -95,3 +95,8 @@ Chcete-li přidat další kóty navazující od poslední rozměrové čáry, po
 ## DXF — objekt DIMENSION
 
 Lineární kóty se ukládají jako objekty `DIMENSION` s `rotationDeg` nastaveným na `0` (vodorovná) nebo `90` (svislá). Počátky rozměrových čar, poloha kótovací čáry, poloha textu, naměřená hodnota, styl šipek, výška textu i všechny příznaky zobrazení se přenášejí beze ztráty.
+
+
+## Kótovací styl
+
+Nové kóty kopírují aktuální [kótovací styl](../dimension-style/), včetně šipek, vynášecích čar, textu, přesnosti, zarovnání, mezery a rámečku. Hodnoty se kopírují při vytvoření; pozdější změny stylu nemění existující kóty.

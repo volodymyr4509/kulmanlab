@@ -65,3 +65,8 @@ Consulta [Editor de Texto — simple mode](../../interface/text-editor/#simple-m
 ## DXF — entidad DIMENSION de tipo radio
 
 Las cotas de radio se guardan como entidades `DIMENSION` con geometría de tipo radio, almacenando las coordenadas del centro, la posición del punto del arco y el valor del radio medido. Todas las propiedades se exportan sin pérdida.
+
+
+## Estilo de cota
+
+Las cotas nuevas copian el [estilo de cota](../dimension-style/) actual, incluidas flechas, líneas de referencia, texto, precisión, alineación, separación y marco. Los valores se copian al crear, por lo que cambios posteriores del estilo no alteran cotas existentes.

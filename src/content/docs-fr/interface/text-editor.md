@@ -118,6 +118,7 @@ La hauteur du curseur correspond automatiquement à la hauteur de boîte du cara
 
 | Touche | Action |
 |--------|--------|
+| `Ctrl+A` / `Cmd+A` | Sélectionner tout le texte dans l’éditeur actif |
 | `Ctrl+C` / `Cmd+C` | Copier le texte sélectionné |
 | `Ctrl+X` / `Cmd+X` | Couper le texte sélectionné |
 | `Ctrl+V` / `Cmd+V` | Coller au curseur |

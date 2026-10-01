@@ -63,3 +63,8 @@ Tingnan ang [Text Editor — simple mode](../../interface/text-editor/#simple-mo
 ## DXF — DIMENSION Diameter Entity
 
 Nase-save ang mga diameter dimension bilang `DIMENSION` entities na may diameter-type geometry, na nag-iimbak ng dalawang arc-point positions at ang sinukat na diameter value (2 × radius). Lahat ng properties ay nagra-round-trip nang walang nawawala.
+
+
+## Istilo ng sukat
+
+Kinokopya ng bagong sukat ang kasalukuyang [istilo ng sukat](../dimension-style/), kasama ang arrow, extension line, text, precision, alignment, gap, at frame. Sa paggawa kinokopya ang values kaya hindi binabago ng susunod na style edits ang dati nang sukat.

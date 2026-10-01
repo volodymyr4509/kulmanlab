@@ -78,4 +78,4 @@ Every edit here works on a copy of the style table. **OK** writes the copies bac
 
 ## DXF compatibility
 
-Name, font files, fixed height, bold, italic, and the annotative flag belong to DXF text-style records and are preserved during import and export. Frame, line spacing, and horizontal alignment are per-Text defaults in KulmanLab rather than DXF STYLE-table fields, so they are not stored on the named style during a DXF round trip.
+Name, font files, bold, italic, and the annotative flag belong to DXF text-style records and are preserved during import and export. KulmanLab writes STYLE group `40` as `0` (variable height) and stores the style's last-used height in group `42`; this keeps a fixed STYLE height from overriding a dimension style's own text height in other CAD applications. Frame, line spacing, and horizontal alignment are per-Text defaults in KulmanLab rather than DXF STYLE-table fields, so they are not stored on the named style during a DXF round trip.

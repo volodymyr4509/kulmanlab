@@ -90,3 +90,7 @@ See [Text Editor — simple mode](../../interface/text-editor/#simple-mode) for 
 ## DXF — DIMENSION entities
 
 Each segment in the chain is stored as an independent `DIMENSION` entity in the DXF file. They are not linked in the file — they share properties because they were created from the same base, but each can be edited individually after placement.
+
+## Dimension style
+
+The first dimension in a chain normally copies the current [DimensionStyle](../dimension-style/). Each continuation then inherits the complete appearance of its base dimension, so a chain remains consistent even if the current style changes while you work.

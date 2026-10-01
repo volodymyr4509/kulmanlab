@@ -90,3 +90,8 @@ Angalia [Text Editor — hali rahisi](../../interface/text-editor/#simple-mode) 
 ## DXF — vipengele vya DIMENSION
 
 Kila sehemu katika mnyororo imehifadhiwa kama kipengele huru cha `DIMENSION` katika faili ya DXF. Haviunganishwi kwenye faili — zinashiriki sifa kwa sababu ziliundwa kutoka kwa msingi sawa, lakini kila moja inaweza kuhaririwa kwa kujitegemea baada ya kuwekwa.
+
+
+## Mtindo wa kipimo
+
+Kipimo cha kwanza katika mnyororo kwa kawaida hunakili [mtindo wa kipimo](../dimension-style/) wa sasa. Kila mwendelezo hurithi mwonekano mzima wa kipimo msingi, hivyo mnyororo hubaki sawa hata mtindo wa sasa ukibadilika.

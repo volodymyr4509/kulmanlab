@@ -29,6 +29,4 @@ Samfotin yana amfani da mai zana irin na kanvas kuma yana nuna layi biyu. Font, 
 
 ## Ajiyewa da DXF
 
-**To** yana ajiye canje-canje; **Rufe** ko `Escape` yana watsar da su. Yi amfani da `↑` da `↓` don matsawa a jeri. Suna, fayilolin font, tsayi, kauri, karkata da tutar bayani suna cikin salon DXF. Firam, tazarar layuka da daidaitawa tsoffin ƙimomi ne na kowane rubutu a KulmanLab, ba filayen teburin STYLE na DXF ba.
-
-Duba kuma [Text](../text/), [FontManager](../font-manager/) da [MatchProperties](../match-properties/).
+Suna, fayilolin font, kauri, karkace da tutar annotative ana kiyaye su a salon rubutun DXF. KulmanLab yana rubuta rukunin `40` na STYLE a matsayin `0` (tsawo mai canzawa) da tsawo na ƙarshe a rukuni `42`; tsayayyen tsawon STYLE ba ya maye gurbin tsawon rubutun salon aunawa. Firam, tazarar layi da daidaitawar kwance su ne tsoffin ƙimar KulmanLab ga kowane rubutu, ba filayen teburin STYLE na DXF ba.

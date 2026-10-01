@@ -65,3 +65,8 @@ Katso [Tekstieditori — yksinkertainen tila](../../interface/text-editor/#simpl
 ## DXF — DIMENSION-säde-entiteetti
 
 Säteen mitat tallennetaan `DIMENSION`-entiteetteinä säteen tyypin geometrialla, tallentaen keskipisteen koordinaatit, kaaren pisteen sijainnin ja mitatun säteen arvon. Kaikki ominaisuudet säilyvät edestakaisessa matkassa ilman häviötä.
+
+
+## Mittatyyli
+
+Uudet mitat kopioivat nykyisen [mittatyylin](../dimension-style/) nuolineen, apuviivoineen, teksteineen, tarkkuuksineen, tasauksineen, väleineen ja kehyksineen. Arvot kopioidaan luotaessa; myöhemmät tyylimuutokset eivät muuta olemassa olevia mittoja.

@@ -95,3 +95,8 @@ Para magdagdag pa ng dimension na magpapatuloy mula sa huling extension line, ga
 ## DXF — DIMENSION Entity
 
 Nase-save ang mga linear dimension bilang `DIMENSION` entities na may `rotationDeg` na naka-set sa `0` (horizontal) o `90` (vertical). Ang extension line origins, dimension line position, text position, nasukat na value, arrow style, text height, at lahat ng display flags ay nagra-round-trip nang walang nawawala.
+
+
+## Istilo ng sukat
+
+Kinokopya ng bagong sukat ang kasalukuyang [istilo ng sukat](../dimension-style/), kasama ang arrow, extension line, text, precision, alignment, gap, at frame. Sa paggawa kinokopya ang values kaya hindi binabago ng susunod na style edits ang dati nang sukat.

@@ -90,3 +90,8 @@ Duba [Naʼurar Gyaran Rubutu — simple mode](../../interface/text-editor/#simpl
 ## DXF — Abubuwan DIMENSION
 
 Kowane sashi a sarƙar ana ajiye shi a matsayin abin `DIMENSION` mai zaman kansa a fayil ɗin DXF. Ba a haɗa su a fayil ɗin ba — suna raba abubuwa domin an ƙirƙira su daga tushe iri ɗaya, amma kowane ana iya gyara shi daban bayan sanyawa.
+
+
+## Salon aunawa
+
+Ma’auni na farko a sarka yawanci yana kwafin [salon aunawa](../dimension-style/) na yanzu. Kowace ci gaba tana gado cikakken kamannin ma’aunin tushe, don sarkar ta kasance ɗaya ko da salon yanzu ya sauya.

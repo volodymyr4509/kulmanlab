@@ -105,6 +105,7 @@ order: 1
 | [Hatch Manager](./commands/hatch-manager/) | hatch パターンライブラリを閲覧し、.pat ファイルをアップロードする |
 | [TextStyle 文字スタイル](./commands/text-style/) | 新しい文字用の名前付き文字スタイルを作成・管理 |
 | [LeaderStyle 引き出し線スタイル](./commands/leader-style/) | 名前付きマルチ引出線スタイルを作成・管理 |
+| [DimensionStyle 寸法スタイル](./commands/dimension-style/) | 新しい寸法用の名前付きスタイルを作成・管理 |
 
 ## ファイル
 

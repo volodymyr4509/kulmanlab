@@ -105,6 +105,7 @@ Benvenuto nel riferimento comandi di **KulmanLab CAD**. [KulmanLab CAD](https://
 | [Hatch Manager](./commands/hatch-manager/) | Sfoglia la libreria di motivi hatch e carica file .pat |
 | [StileTesto](./commands/text-style/) | Crea e gestisci stili di testo con nome per i nuovi testi |
 | [StileGuida](./commands/leader-style/) | Crea e gestisci stili multileader con nome |
+| [StileQuota](./commands/dimension-style/) | Crea e gestisce stili con nome per le nuove quote |
 
 ## File
 

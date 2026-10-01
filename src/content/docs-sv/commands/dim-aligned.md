@@ -86,3 +86,8 @@ För att lägga till fler mått som fortsätter från detta måtts andra hjälpl
 ## DXF — DIMENSION-entitet (justerad typ)
 
 Justerade mått sparas som `DIMENSION`-entiteter med `dimType = 1` (justerad). Hjälplinjeursprung, måttlinjens position, textposition, uppmätt värde, rotation, pilstil och alla visningsflaggor bevaras vid rundtur utan förlust.
+
+
+## Måttstil
+
+Nya mått kopierar aktuell [måttstil](../dimension-style/) med pilar, hjälplinjer, text, precision, justering, mellanrum och ram. Värdena kopieras när måttet skapas; senare stiländringar påverkar inte befintliga mått.

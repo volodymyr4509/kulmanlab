@@ -105,6 +105,7 @@ order: 1
 | [Hatch Manager](./commands/hatch-manager/) | hatch প্যাটার্ন লাইব্রেরি ব্রাউজ করুন এবং .pat ফাইল আপলোড করুন |
 | [TextStyle টেক্সট স্টাইল](./commands/text-style/) | নতুন টেক্সটের জন্য নামযুক্ত টেক্সট স্টাইল তৈরি ও পরিচালনা |
 | [LeaderStyle লিডার স্টাইল](./commands/leader-style/) | নামযুক্ত মাল্টিলিডার স্টাইল তৈরি ও পরিচালনা |
+| [DimensionStyle মাত্রা স্টাইল](./commands/dimension-style/) | নতুন মাত্রার জন্য নামযুক্ত স্টাইল তৈরি ও পরিচালনা |
 
 ## ফাইল
 

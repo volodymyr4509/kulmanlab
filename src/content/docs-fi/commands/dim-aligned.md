@@ -86,3 +86,8 @@ Lisätäksesi useampia mittoja, jotka jatkuvat tämän mitan toisesta apuviivast
 ## DXF — DIMENSION-entiteetti (kohdistettu tyyppi)
 
 Kohdistetut mitat tallennetaan `DIMENSION`-entiteetteinä, joilla on `dimType = 1` (aligned). Apuviivojen lähtöpisteet, mittaviivan sijainti, tekstin sijainti, mitattu arvo, kierto, nuolityyli ja kaikki näyttöliput säilyvät edestakaisessa matkassa ilman häviötä.
+
+
+## Mittatyyli
+
+Uudet mitat kopioivat nykyisen [mittatyylin](../dimension-style/) nuolineen, apuviivoineen, teksteineen, tarkkuuksineen, tasauksineen, väleineen ja kehyksineen. Arvot kopioidaan luotaessa; myöhemmät tyylimuutokset eivät muuta olemassa olevia mittoja.

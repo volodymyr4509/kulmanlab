@@ -65,3 +65,8 @@ Tingnan ang [Text Editor — simple mode](../../interface/text-editor/#simple-mo
 ## DXF — DIMENSION Radius Entity
 
 Nase-save ang mga radius dimension bilang `DIMENSION` entities na may radius-type geometry, na nag-iimbak ng center coordinates, arc-point position, at ang sinukat na radius value. Lahat ng properties ay nagra-round-trip nang walang nawawala.
+
+
+## Istilo ng sukat
+
+Kinokopya ng bagong sukat ang kasalukuyang [istilo ng sukat](../dimension-style/), kasama ang arrow, extension line, text, precision, alignment, gap, at frame. Sa paggawa kinokopya ang values kaya hindi binabago ng susunod na style edits ang dati nang sukat.

@@ -63,3 +63,8 @@ Angalia [Text Editor — hali rahisi](../../interface/text-editor/#simple-mode) 
 ## DXF — kipengele cha DIMENSION cha aina ya kipenyo
 
 Vipimo vya kipenyo vimehifadhiwa kama vipengele vya `DIMENSION` na jiometri ya aina ya kipenyo, vikihifadhi nafasi za pointi zote za mviringo na thamani ya kipenyo iliyopimwa (2 × radi). Sifa zote zinasindikwa bila kupoteza.
+
+
+## Mtindo wa kipimo
+
+Vipimo vipya hunakili [mtindo wa kipimo](../dimension-style/) wa sasa, pamoja na mishale, mistari ya nyongeza, maandishi, usahihi, upangaji, nafasi na fremu. Thamani hunakiliwa wakati wa kuunda; mabadiliko ya baadaye ya mtindo hayabadili vipimo vilivyopo.

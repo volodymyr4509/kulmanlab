@@ -69,3 +69,8 @@ Zie [Tekstverwerker — simple-modus](../../interface/text-editor/#simple-mode) 
 - [Dimension Aligned](../dim-aligned/) — maatvoering uitgelijnd op twee punten
 - [Dimension Radius](../dim-radius/) — radiusmaatvoering voor bogen en cirkels
 - [Dimension Diameter](../dim-diameter/) — diametermaatvoering voor cirkels
+
+
+## Maatstijl
+
+Nieuwe maten kopiëren de huidige [maatstijl](../dimension-style/) met pijlen, hulplijnen, tekst, precisie, uitlijning, tussenruimte en kader. De waarden worden bij het maken gekopieerd; latere stijlwijzigingen veranderen bestaande maten niet.

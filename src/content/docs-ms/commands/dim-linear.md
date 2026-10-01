@@ -95,3 +95,8 @@ Untuk menambah lebih banyak dimensi yang diteruskan dari garis sambungan terakhi
 ## DXF — entiti DIMENSION
 
 Dimensi linear disimpan sebagai entiti `DIMENSION` dengan `rotationDeg` ditetapkan ke `0` (mendatar) atau `90` (menegak). Asal garis sambungan, kedudukan garis dimensi, kedudukan teks, nilai yang diukur, gaya anak panah, ketinggian teks, dan semua bendera paparan pusingan penuh tanpa kehilangan.
+
+
+## Gaya dimensi
+
+Dimensi baharu menyalin [gaya dimensi](../dimension-style/) semasa termasuk anak panah, garis sambungan, teks, ketepatan, penjajaran, jurang dan bingkai. Nilai disalin ketika dicipta, jadi perubahan gaya kemudian tidak mengubah dimensi sedia ada.

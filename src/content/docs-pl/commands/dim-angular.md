@@ -69,3 +69,8 @@ Zobacz [Edytor tekstu — tryb simple](../../interface/text-editor/#simple-mode)
 - [Dimension Aligned](../dim-aligned/) — wymiar wyrównany do dwóch punktów
 - [Dimension Radius](../dim-radius/) — wymiar promienia dla łuków i okręgów
 - [Dimension Diameter](../dim-diameter/) — wymiar średnicy dla okręgów
+
+
+## Styl wymiaru
+
+Nowe wymiary kopiują bieżący [styl wymiaru](../dimension-style/), w tym strzałki, linie pomocnicze, tekst, precyzję, wyrównanie, odstęp i ramkę. Wartości są kopiowane przy tworzeniu, więc późniejsze zmiany stylu nie zmieniają istniejących wymiarów.

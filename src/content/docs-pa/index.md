@@ -103,6 +103,7 @@ order: 1
 | [Hatch Manager](./commands/hatch-manager/) | hatch ਪੈਟਰਨ ਲਾਇਬ੍ਰੇਰੀ ਬ੍ਰਾਊਜ਼ ਕਰੋ ਅਤੇ .pat ਫਾਈਲਾਂ ਅੱਪਲੋਡ ਕਰੋ |
 | [TextStyle ਟੈਕਸਟ ਸ਼ੈਲੀ](./commands/text-style/) | ਨਵੇਂ ਟੈਕਸਟ ਲਈ ਨਾਮ ਵਾਲੀਆਂ ਟੈਕਸਟ ਸ਼ੈਲੀਆਂ ਬਣਾਓ ਅਤੇ ਸੰਭਾਲੋ |
 | [LeaderStyle ਲੀਡਰ ਸ਼ੈਲੀ](./commands/leader-style/) | ਨਾਮ ਵਾਲੀਆਂ ਮਲਟੀਲੀਡਰ ਸ਼ੈਲੀਆਂ ਬਣਾਓ ਅਤੇ ਸੰਭਾਲੋ |
+| [DimensionStyle ਡਾਇਮੈਂਸ਼ਨ ਸ਼ੈਲੀ](./commands/dimension-style/) | ਨਵੀਆਂ ਡਾਇਮੈਂਸ਼ਨਾਂ ਲਈ ਨਾਮ ਵਾਲੀਆਂ ਸ਼ੈਲੀਆਂ ਬਣਾਓ ਅਤੇ ਸੰਭਾਲੋ |
 
 ## ਫ਼ਾਈਲ
 

@@ -86,3 +86,8 @@ Per aggiungere altre quote continuando dalla seconda linea di estensione di ques
 ## DXF — entità DIMENSION (tipo allineato)
 
 Le quote allineate vengono salvate come entità `DIMENSION` con `dimType = 1` (allineato). Origini linee di estensione, posizione linea di quota, posizione testo, valore misurato, rotazione, stile frecce e tutti i flag di visualizzazione vengono mantenuti senza perdita.
+
+
+## Stile di quota
+
+Le nuove quote copiano lo [stile di quota](../dimension-style/) corrente, incluse frecce, linee di estensione, testo, precisione, allineamento, distanza e cornice. I valori vengono copiati alla creazione, quindi le modifiche successive allo stile non cambiano le quote esistenti.

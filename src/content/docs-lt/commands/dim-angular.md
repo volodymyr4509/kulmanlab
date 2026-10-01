@@ -69,3 +69,8 @@ Pilną nuorodą žr. [Teksto redaktorius — paprastasis režimas](../../interfa
 - [Dimension Aligned](../dim-aligned/) — matmuo, sulygiuotas pagal du taškus
 - [Dimension Radius](../dim-radius/) — spindulio matmuo lankams ir apskritimams
 - [Dimension Diameter](../dim-diameter/) — skersmens matmuo apskritimams
+
+
+## Matmenų stilius
+
+Nauji matmenys nukopijuoja dabartinį [matmenų stilių](../dimension-style/), įskaitant rodykles, iškeltines linijas, tekstą, tikslumą, lygiavimą, tarpą ir rėmelį. Reikšmės kopijuojamos kuriant; vėlesni stiliaus pakeitimai esamų matmenų nekeičia.

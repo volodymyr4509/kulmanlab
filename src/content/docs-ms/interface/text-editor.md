@@ -118,6 +118,7 @@ Ketinggian kursor secara automatik sepadan dengan ketinggian cap aksara bersebel
 
 | Kekunci | Tindakan |
 |---------|---------|
+| `Ctrl+A` / `Cmd+A` | Pilih semua teks dalam editor aktif |
 | `Ctrl+C` / `Cmd+C` | Salin teks yang dipilih |
 | `Ctrl+X` / `Cmd+X` | Potong teks yang dipilih |
 | `Ctrl+V` / `Cmd+V` | Tampal pada kursor |

@@ -63,3 +63,8 @@ Siehe [Texteditor — simple mode](../../interface/text-editor/#simple-mode) fü
 ## DXF — DIMENSION-Durchmesserelement
 
 Durchmesserbemaßungen werden als `DIMENSION`-Elemente mit Durchmesser-Geometrietyp gespeichert, mit beiden Bogenpunkt-Positionen und dem gemessenen Durchmesserwert (2 × Radius). Alle Eigenschaften werden verlustfrei übertragen.
+
+
+## Bemaßungsstil
+
+Neue Bemaßungen kopieren den aktuellen [Bemaßungsstil](../dimension-style/) mit Pfeilen, Hilfslinien, Text, Genauigkeit, Ausrichtung, Abstand und Rahmen. Die Werte werden beim Erstellen kopiert; spätere Stiländerungen wirken sich nicht auf vorhandene Bemaßungen aus.

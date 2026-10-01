@@ -63,3 +63,8 @@ Lihat [Text Editor — mode sederhana](../../interface/text-editor/#simple-mode)
 ## DXF — entitas DIMENSION diameter
 
 Dimensi diameter disimpan sebagai entitas `DIMENSION` dengan geometri tipe diameter, menyimpan kedua posisi titik busur dan nilai diameter yang diukur (2 × radius). Semua properti dapat dipertukarkan tanpa kehilangan data.
+
+
+## Gaya dimensi
+
+Dimensi baru menyalin [gaya dimensi](../dimension-style/) aktif, termasuk panah, garis ekstensi, teks, presisi, perataan, celah, dan bingkai. Nilai disalin saat dibuat, sehingga perubahan gaya berikutnya tidak mengubah dimensi yang sudah ada.

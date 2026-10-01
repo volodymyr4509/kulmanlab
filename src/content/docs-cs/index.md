@@ -105,6 +105,7 @@ Vítejte v přehledu příkazů **KulmanLab CAD**. [KulmanLab CAD](https://kulma
 | [Hatch Manager](./commands/hatch-manager/) | Prochází knihovnu vzorů šraf a nahrává soubory .pat |
 | [TextStyle](./commands/text-style/) | Vytváří a spravuje pojmenované styly textu pro nový Text |
 | [LeaderStyle](./commands/leader-style/) | Vytváří a spravuje pojmenované styly multileaderů |
+| [KótovacíStyl](./commands/dimension-style/) | Vytváří a spravuje pojmenované styly pro nové kóty |
 
 ## File
 

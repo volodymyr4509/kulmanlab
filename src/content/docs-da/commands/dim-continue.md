@@ -90,3 +90,8 @@ Se [Tekstredigering — simpel tilstand](../../interface/text-editor/#simple-mod
 ## DXF — DIMENSION-entiteter
 
 Hvert segment i kæden gemmes som en uafhængig `DIMENSION`-entitet i DXF-filen. De er ikke koblet sammen i filen — de deler egenskaber, fordi de blev oprettet fra samme base, men hver kan redigeres individuelt efter placering.
+
+
+## Målstil
+
+Det første mål i en kæde kopierer normalt den aktuelle [målstil](../dimension-style/). Hver fortsættelse arver derefter hele udseendet fra grundmålet, så kæden forbliver ensartet, selv om den aktuelle typografi ændres.

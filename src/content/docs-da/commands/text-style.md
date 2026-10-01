@@ -29,6 +29,4 @@ Forhåndsvisningen bruger samme renderer som lærredet og viser to linjer. Skrif
 
 ## Lagring og DXF
 
-**OK** gemmer ændringerne; **Luk** eller `Escape` kasserer dem. Brug `↑` og `↓` til at bevæge dig i listen. Navn, skrifttypefiler, højde, fed, kursiv og annotativt flag indgår i DXF-tekststilen. Ramme, linjeafstand og justering er standardværdier pr. tekst i KulmanLab, ikke felter i DXF-tabellen STYLE.
-
-Se også [Text](../text/), [FontManager](../font-manager/) og [MatchProperties](../match-properties/).
+Navn, skrifttypefiler, fed, kursiv og annotativt flag bevares i DXF-teksttypografier. KulmanLab skriver STYLE-gruppe `40` som `0` (variabel højde) og senest anvendte højde i gruppe `42`; en fast STYLE-højde tilsidesætter derfor ikke måltypografiens egen teksthøjde. Ramme, linjeafstand og vandret justering er KulmanLab-standarder pr. tekst, ikke felter i DXF STYLE-tabellen.

@@ -90,3 +90,8 @@ Uprostřed řetězu směr změnit nelze. Chcete-li kótovat v jiném směru, zah
 ## DXF — objekty DIMENSION
 
 Každý segment řetězu se v souboru DXF ukládá jako samostatný objekt `DIMENSION`. V souboru nejsou propojeny — sdílejí vlastnosti proto, že vznikly ze stejného základu, ale každý lze po umístění upravovat jednotlivě.
+
+
+## Kótovací styl
+
+První kóta v řetězci obvykle zkopíruje aktuální [kótovací styl](../dimension-style/). Každé pokračování pak zdědí celý vzhled základní kóty, takže řetězec zůstane jednotný i po změně aktuálního stylu.

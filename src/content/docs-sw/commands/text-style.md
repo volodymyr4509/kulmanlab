@@ -29,6 +29,4 @@ Hakikisho hutumia kirenderi sawa na turubai na huonyesha mistari miwili. Fonti, 
 
 ## Kuhifadhi na DXF
 
-**Sawa** huhifadhi mabadiliko; **Funga** au `Escape` huyatupilia mbali. Tumia `↑` na `↓` kutembea kwenye orodha. Jina, faili za fonti, urefu, uzito, mlalo na alama ya ufafanuzi ni sehemu za mtindo wa DXF. Fremu, nafasi ya mistari na mpangilio ni chaguo-msingi za kila maandishi katika KulmanLab, si sehemu za jedwali la STYLE.
-
-Pia tazama [Text](../text/), [FontManager](../font-manager/) na [MatchProperties](../match-properties/).
+Jina, faili za fonti, nzito, italiki na bendera ya annotative huhifadhiwa katika mitindo ya maandishi ya DXF. KulmanLab huandika kundi `40` la STYLE kama `0` (urefu unaobadilika) na urefu wa mwisho kwenye kundi `42`; urefu tuli wa STYLE hauandiki juu ya urefu wa maandishi wa mtindo wa kipimo. Fremu, nafasi ya mistari na upangaji mlalo ni chaguo-msingi za KulmanLab kwa kila maandishi, si sehemu za jedwali la STYLE la DXF.

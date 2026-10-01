@@ -29,6 +29,4 @@ Förhandsvisningen använder samma renderare som arbetsytan och visar två rader
 
 ## Spara och DXF
 
-**OK** sparar ändringarna; **Stäng** eller `Escape` ignorerar dem. Använd `↑` och `↓` för att flytta i listan. Namn, teckensnittsfiler, höjd, fetstil, kursiv och annotativ flagga ingår i DXF-textstilen. Ram, radavstånd och justering är standardvärden per text i KulmanLab, inte fält i DXF-tabellen STYLE.
-
-Se även [Text](../text/), [FontManager](../font-manager/) och [MatchProperties](../match-properties/).
+Namn, teckensnittsfiler, fet, kursiv och annotativ flagga bevaras i DXF-textstilar. KulmanLab skriver STYLE-grupp `40` som `0` (variabel höjd) och senast använda höjd i grupp `42`; en fast STYLE-höjd ersätter därför inte måttstilens egen texthöjd. Ram, radavstånd och vågrät justering är KulmanLab-standarder per text, inte fält i DXF-tabellen STYLE.

@@ -86,3 +86,8 @@ Norėdami pridėti daugiau matmenų, tęsiamų nuo šio antrosios pratęsimo lin
 ## DXF — DIMENSION objektas (lygiagretaus tipo)
 
 Lygiagretūs matmenys saugomi kaip `DIMENSION` objektai su `dimType = 1` (lygiagretus). Pratęsimo linijų pradžios, matmens linijos padėtis, teksto padėtis, išmatuota reikšmė, pasukimas, rodyklės stilius ir visos rodymo vėliavėlės keliauja tam ir atgal be praradimų.
+
+
+## Matmenų stilius
+
+Nauji matmenys nukopijuoja dabartinį [matmenų stilių](../dimension-style/), įskaitant rodykles, iškeltines linijas, tekstą, tikslumą, lygiavimą, tarpą ir rėmelį. Reikšmės kopijuojamos kuriant; vėlesni stiliaus pakeitimai esamų matmenų nekeičia.

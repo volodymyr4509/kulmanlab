@@ -86,3 +86,7 @@ To add more dimensions continuing from the second extension line of this one, us
 ## DXF — DIMENSION entity (aligned type)
 
 Aligned dimensions are saved as `DIMENSION` entities with `dimType = 1` (aligned). Extension line origins, dimension line position, text position, measured value, rotation, arrow style, and all display flags round-trip without loss.
+
+## Dimension style
+
+New aligned dimensions copy the current [DimensionStyle](../dimension-style/), including arrows, extension lines, text, precision, alignment, gap, and frame. The values are copied at creation time, so later style edits do not change existing dimensions.

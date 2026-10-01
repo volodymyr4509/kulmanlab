@@ -65,3 +65,8 @@ Voir [Éditeur de texte — simple mode](../../interface/text-editor/#simple-mod
 ## DXF — entité DIMENSION de type rayon
 
 Les cotes de rayon sont sauvegardées comme entités `DIMENSION` avec géométrie de type rayon, stockant les coordonnées du centre, la position du point de l'arc et la valeur du rayon mesuré. Toutes les propriétés sont exportées sans perte.
+
+
+## Style de cote
+
+Les nouvelles cotes copient le [style de cote](../dimension-style/) courant, notamment flèches, lignes d’attache, texte, précision, alignement, écart et cadre. Les valeurs sont copiées à la création ; les modifications ultérieures du style ne changent pas les cotes existantes.

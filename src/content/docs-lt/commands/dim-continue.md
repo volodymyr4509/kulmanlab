@@ -90,3 +90,8 @@ Pilną nuorodą žr. [Teksto redaktorius — paprastasis režimas](../../interfa
 ## DXF — DIMENSION objektai
 
 Kiekvienas grandinės segmentas DXF faile saugomas kaip atskiras `DIMENSION` objektas. Faile jie nesusieti — jie dalijasi savybėmis, nes buvo sukurti iš to paties bazinio, tačiau kiekvieną galima redaguoti atskirai po padėjimo.
+
+
+## Matmenų stilius
+
+Pirmasis grandinės matmuo paprastai nukopijuoja dabartinį [matmenų stilių](../dimension-style/). Kiekvienas tęsinys paveldi visą pagrindinio matmens išvaizdą, todėl grandinė išlieka vientisa net pakeitus dabartinį stilių.

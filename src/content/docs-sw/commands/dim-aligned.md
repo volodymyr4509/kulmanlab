@@ -86,3 +86,8 @@ Ili kuongeza vipimo zaidi vikiendelea kutoka kwa mstari wa pili wa upanuzi wa hi
 ## DXF — kipengele cha DIMENSION (aina iliyopangwa)
 
 Vipimo vilivyopangwa vimehifadhiwa kama vipengele vya `DIMENSION` na `dimType = 1` (aligned). Asili za mistari ya upanuzi, nafasi ya mstari wa kipimo, nafasi ya maandishi, thamani iliyopimwa, mzunguko, mtindo wa mshale, na bendera zote za uonyeshaji zinasindikwa bila kupoteza.
+
+
+## Mtindo wa kipimo
+
+Vipimo vipya hunakili [mtindo wa kipimo](../dimension-style/) wa sasa, pamoja na mishale, mistari ya nyongeza, maandishi, usahihi, upangaji, nafasi na fremu. Thamani hunakiliwa wakati wa kuunda; mabadiliko ya baadaye ya mtindo hayabadili vipimo vilivyopo.

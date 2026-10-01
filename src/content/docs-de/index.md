@@ -105,6 +105,7 @@ Willkommen bei der **KulmanLab CAD** Befehlsreferenz. [KulmanLab CAD](https://ku
 | [Hatch Manager](./commands/hatch-manager/) | Die Hatch-Musterbibliothek durchsuchen und .pat-Dateien hochladen |
 | [Textstil](./commands/text-style/) | Benannte Textstile für neuen Text erstellen und verwalten |
 | [Führungsstil](./commands/leader-style/) | Benannte Multileader-Stile erstellen und verwalten |
+| [Bemaßungsstil](./commands/dimension-style/) | Benannte Stile für neue Bemaßungen erstellen und verwalten |
 
 ## Datei
 

@@ -63,3 +63,8 @@ Se [Tekstredigering — enkel modus](../../interface/text-editor/#simple-mode) f
 ## DXF — DIMENSION diameter-entitet
 
 Diametermål lagres som `DIMENSION`-entiteter med diametertype-geometri, som lagrer begge buepunktposisjonene og den målte diameterverdien (2 × radius). Alle egenskaper overlever en rundtur uten tap.
+
+
+## Målstil
+
+Nye mål kopierer gjeldende [målstil](../dimension-style/) med piler, hjelpelinjer, tekst, presisjon, justering, avstand og ramme. Verdiene kopieres ved opprettelse; senere stilendringer påvirker ikke eksisterende mål.

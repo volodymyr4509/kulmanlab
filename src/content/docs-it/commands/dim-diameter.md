@@ -63,3 +63,8 @@ Vedi [Editor di Testo — simple mode](../../interface/text-editor/#simple-mode)
 ## DXF — entità DIMENSION diametro
 
 Le quote diametro vengono salvate come entità `DIMENSION` con geometria di tipo diametro, memorizzando entrambe le posizioni dei punti dell'arco e il valore del diametro misurato (2 × raggio). Tutte le proprietà vengono mantenute senza perdita.
+
+
+## Stile di quota
+
+Le nuove quote copiano lo [stile di quota](../dimension-style/) corrente, incluse frecce, linee di estensione, testo, precisione, allineamento, distanza e cornice. I valori vengono copiati alla creazione, quindi le modifiche successive allo stile non cambiano le quote esistenti.

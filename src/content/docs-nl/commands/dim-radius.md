@@ -65,3 +65,8 @@ Zie [Tekstverwerker — simple-modus](../../interface/text-editor/#simple-mode) 
 ## DXF — DIMENSION-radiusentiteit
 
 Radiusmaatvoeringen worden opgeslagen als `DIMENSION`-entiteiten met radius-type geometrie, waarbij de middelpuntcoördinaten, de boogpuntpositie en de gemeten radiuswaarde worden opgeslagen. Alle eigenschappen blijven zonder verlies behouden bij de roundtrip.
+
+
+## Maatstijl
+
+Nieuwe maten kopiëren de huidige [maatstijl](../dimension-style/) met pijlen, hulplijnen, tekst, precisie, uitlijning, tussenruimte en kader. De waarden worden bij het maken gekopieerd; latere stijlwijzigingen veranderen bestaande maten niet.

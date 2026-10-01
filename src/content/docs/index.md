@@ -105,6 +105,7 @@ Welcome to the **KulmanLab CAD** command reference. [KulmanLab CAD](https://kulm
 | [Hatch Manager](./commands/hatch-manager/) | Browse the hatch pattern library and upload .pat files |
 | [TextStyle](./commands/text-style/) | Create and manage named text styles for new Text |
 | [LeaderStyle](./commands/leader-style/) | Create and manage named multileader styles |
+| [DimensionStyle](./commands/dimension-style/) | Create and manage named styles for new dimensions |
 
 ## File
 

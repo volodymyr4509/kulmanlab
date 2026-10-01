@@ -65,3 +65,8 @@ Pilną nuorodą žr. [Teksto redaktorius — paprastasis režimas](../../interfa
 ## DXF — spindulio DIMENSION objektas
 
 Spindulio matmenys saugomi kaip `DIMENSION` objektai su spindulio tipo geometrija, išsaugant centro koordinates, lanko taško padėtį ir išmatuotą spindulio reikšmę. Visos savybės keliauja be praradimų.
+
+
+## Matmenų stilius
+
+Nauji matmenys nukopijuoja dabartinį [matmenų stilių](../dimension-style/), įskaitant rodykles, iškeltines linijas, tekstą, tikslumą, lygiavimą, tarpą ir rėmelį. Reikšmės kopijuojamos kuriant; vėlesni stiliaus pakeitimai esamų matmenų nekeičia.

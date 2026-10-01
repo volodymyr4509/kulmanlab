@@ -118,6 +118,7 @@ The cursor height automatically matches the cap height of the adjacent character
 
 | Key | Action |
 |-----|--------|
+| `Ctrl+A` / `Cmd+A` | Select all text in the active editor |
 | `Ctrl+C` / `Cmd+C` | Copy the selected text |
 | `Ctrl+X` / `Cmd+X` | Cut the selected text |
 | `Ctrl+V` / `Cmd+V` | Paste at the cursor |

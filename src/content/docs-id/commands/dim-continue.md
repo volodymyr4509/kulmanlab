@@ -90,3 +90,8 @@ Lihat [Text Editor — mode sederhana](../../interface/text-editor/#simple-mode)
 ## DXF — entitas DIMENSION
 
 Setiap segmen dalam rantai disimpan sebagai entitas `DIMENSION` independen dalam file DXF. Mereka tidak terhubung dalam file — mereka berbagi properti karena dibuat dari basis yang sama, tetapi masing-masing dapat diedit secara individual setelah penempatan.
+
+
+## Gaya dimensi
+
+Dimensi pertama dalam rangkaian biasanya menyalin [gaya dimensi](../dimension-style/) aktif. Setiap lanjutan lalu mewarisi seluruh tampilan dimensi dasar, sehingga rangkaian tetap konsisten meskipun gaya aktif berubah.

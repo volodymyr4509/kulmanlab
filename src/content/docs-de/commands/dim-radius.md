@@ -65,3 +65,8 @@ Siehe [Texteditor — simple mode](../../interface/text-editor/#simple-mode) fü
 ## DXF — DIMENSION-Radiuselement
 
 Radiusbemaßungen werden als `DIMENSION`-Elemente mit Radius-Geometrietyp gespeichert, mit Mittelpunktkoordinaten, der Bogenpunkt-Position und dem gemessenen Radiuswert. Alle Eigenschaften werden verlustfrei übertragen.
+
+
+## Bemaßungsstil
+
+Neue Bemaßungen kopieren den aktuellen [Bemaßungsstil](../dimension-style/) mit Pfeilen, Hilfslinien, Text, Genauigkeit, Ausrichtung, Abstand und Rahmen. Die Werte werden beim Erstellen kopiert; spätere Stiländerungen wirken sich nicht auf vorhandene Bemaßungen aus.

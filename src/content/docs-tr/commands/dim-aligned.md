@@ -86,3 +86,8 @@ Bu ölçünün ikinci uzatma çizgisinden devam eden ölçüler eklemek için [D
 ## DXF — DIMENSION Nesnesi (hizalı tür)
 
 Hizalı ölçüler `dimType = 1` (hizalı) ile `DIMENSION` nesnesi olarak kaydedilir. Uzatma çizgisi başlangıç noktaları, ölçü çizgisi konumu, metin konumu, ölçülen değer, döndürme, ok stili ve tüm görüntüleme bayrakları kayıpsız round-trip yapar.
+
+
+## Ölçü stili
+
+Yeni ölçüler; oklar, uzatma çizgileri, metin, hassasiyet, hizalama, aralık ve çerçeve dahil geçerli [ölçü stilini](../dimension-style/) kopyalar. Değerler oluşturulurken kopyalanır; sonraki stil değişiklikleri mevcut ölçüleri değiştirmez.

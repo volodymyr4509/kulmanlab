@@ -63,3 +63,8 @@ Consulta [Editor de Texto — simple mode](../../interface/text-editor/#simple-m
 ## DXF — entidad DIMENSION de tipo diámetro
 
 Las cotas de diámetro se guardan como entidades `DIMENSION` con geometría de tipo diámetro, almacenando ambas posiciones de los puntos del arco y el valor del diámetro medido (2 × radio). Todas las propiedades se exportan sin pérdida.
+
+
+## Estilo de cota
+
+Las cotas nuevas copian el [estilo de cota](../dimension-style/) actual, incluidas flechas, líneas de referencia, texto, precisión, alineación, separación y marco. Los valores se copian al crear, por lo que cambios posteriores del estilo no alteran cotas existentes.

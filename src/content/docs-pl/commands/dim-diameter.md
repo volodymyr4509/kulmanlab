@@ -63,3 +63,8 @@ Zobacz [Edytor tekstu — tryb simple](../../interface/text-editor/#simple-mode)
 ## DXF — element DIMENSION typu średnica
 
 Wymiary średnicy zapisywane są jako elementy `DIMENSION` z geometrią typu średnica, przechowując pozycje obu punktów łuku i zmierzoną wartość średnicy (2 × promień). Wszystkie właściwości zachowywane są bez utraty danych.
+
+
+## Styl wymiaru
+
+Nowe wymiary kopiują bieżący [styl wymiaru](../dimension-style/), w tym strzałki, linie pomocnicze, tekst, precyzję, wyrównanie, odstęp i ramkę. Wartości są kopiowane przy tworzeniu, więc późniejsze zmiany stylu nie zmieniają istniejących wymiarów.

@@ -105,6 +105,7 @@ Welkom bij de **KulmanLab CAD**-opdrachtreferentie. [KulmanLab CAD](https://kulm
 | [Hatch Manager](./commands/hatch-manager/) | Blader door de hatch-patroonbibliotheek en upload .pat-bestanden |
 | [Tekststijl](./commands/text-style/) | Benoemde tekststijlen voor nieuwe tekst maken en beheren |
 | [Aanwijsstijl](./commands/leader-style/) | Benoemde multileaderstijlen maken en beheren |
+| [Maatstijl](./commands/dimension-style/) | Benoemde stijlen voor nieuwe maten maken en beheren |
 
 ## Bestand
 

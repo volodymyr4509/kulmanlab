@@ -63,3 +63,8 @@ Katso [Tekstieditori — yksinkertainen tila](../../interface/text-editor/#simpl
 ## DXF — DIMENSION-halkaisijaentiteetti
 
 Halkaisijamitat tallennetaan `DIMENSION`-entiteetteinä halkaisijatyypin geometrialla, tallentaen molempien kaaren pisteiden sijainnit ja mitatun halkaisija-arvon (2 × säde). Kaikki ominaisuudet säilyvät edestakaisessa matkassa ilman häviötä.
+
+
+## Mittatyyli
+
+Uudet mitat kopioivat nykyisen [mittatyylin](../dimension-style/) nuolineen, apuviivoineen, teksteineen, tarkkuuksineen, tasauksineen, väleineen ja kehyksineen. Arvot kopioidaan luotaessa; myöhemmät tyylimuutokset eivät muuta olemassa olevia mittoja.

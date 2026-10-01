@@ -90,3 +90,8 @@ Zobacz [Edytor tekstu — tryb simple](../../interface/text-editor/#simple-mode)
 ## DXF — elementy DIMENSION
 
 Każdy segment w łańcuchu jest przechowywany jako niezależny element `DIMENSION` w pliku DXF. Nie są połączone w pliku — dzielą właściwości, ponieważ zostały utworzone z tej samej bazy, ale każdy może być edytowany indywidualnie po umieszczeniu.
+
+
+## Styl wymiaru
+
+Pierwszy wymiar w łańcuchu zwykle kopiuje bieżący [styl wymiaru](../dimension-style/). Każda kontynuacja dziedziczy pełny wygląd wymiaru bazowego, dzięki czemu łańcuch pozostaje spójny po zmianie stylu bieżącego.

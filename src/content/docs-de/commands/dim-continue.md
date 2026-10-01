@@ -90,3 +90,8 @@ Siehe [Texteditor — simple mode](../../interface/text-editor/#simple-mode) fü
 ## DXF — DIMENSION-Elemente
 
 Jedes Segment in der Kette wird als unabhängiges `DIMENSION`-Element in der DXF-Datei gespeichert. Sie sind in der Datei nicht verknüpft — sie teilen Eigenschaften, weil sie von derselben Basis erstellt wurden, aber jedes kann nach der Platzierung einzeln bearbeitet werden.
+
+
+## Bemaßungsstil
+
+Die erste Bemaßung einer Kette kopiert normalerweise den aktuellen [Bemaßungsstil](../dimension-style/). Jede Fortsetzung übernimmt anschließend das vollständige Aussehen ihrer Basisbemaßung, sodass die Kette auch bei einem Wechsel des aktuellen Stils einheitlich bleibt.

@@ -105,6 +105,7 @@ Sveiki atvykę į **KulmanLab CAD** komandų žinyną. [KulmanLab CAD](https://k
 | [Hatch Manager](./commands/hatch-manager/) | Naršo brūkšniuotės raštų biblioteką ir įkelia .pat failus |
 | [TextStyle](./commands/text-style/) | Kuria ir valdo įvardytus teksto stilius naujam Text |
 | [LeaderStyle](./commands/leader-style/) | Kuria ir valdo įvardytus daugiašakių išnašų stilius |
+| [MatmenųStilius](./commands/dimension-style/) | Kurti ir valdyti įvardytus stilius naujiems matmenims |
 
 ## File
 

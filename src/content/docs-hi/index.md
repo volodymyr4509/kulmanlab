@@ -105,6 +105,7 @@ order: 1
 | [Hatch Manager](./commands/hatch-manager/) | hatch पैटर्न लाइब्रेरी ब्राउज़ करें और .pat फ़ाइलें अपलोड करें |
 | [TextStyle पाठ शैली](./commands/text-style/) | नए टेक्स्ट के लिए नामित पाठ शैलियाँ बनाएँ और प्रबंधित करें |
 | [LeaderStyle लीडर शैली](./commands/leader-style/) | नामित मल्टीलिडर शैलियाँ बनाएँ और प्रबंधित करें |
+| [DimensionStyle आयाम शैली](./commands/dimension-style/) | नए आयामों के लिए नामित शैलियाँ बनाएँ और प्रबंधित करें |
 
 ## फ़ाइल
 

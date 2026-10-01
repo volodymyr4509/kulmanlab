@@ -65,3 +65,8 @@ Angalia [Text Editor — hali rahisi](../../interface/text-editor/#simple-mode) 
 ## DXF — kipengele cha DIMENSION cha aina ya radi
 
 Vipimo vya radi vimehifadhiwa kama vipengele vya `DIMENSION` na jiometri ya aina ya radi, vikihifadhi kuratibu za katikati, nafasi ya pointi ya mviringo, na thamani ya radi iliyopimwa. Sifa zote zinasindikwa bila kupoteza.
+
+
+## Mtindo wa kipimo
+
+Vipimo vipya hunakili [mtindo wa kipimo](../dimension-style/) wa sasa, pamoja na mishale, mistari ya nyongeza, maandishi, usahihi, upangaji, nafasi na fremu. Thamani hunakiliwa wakati wa kuunda; mabadiliko ya baadaye ya mtindo hayabadili vipimo vilivyopo.

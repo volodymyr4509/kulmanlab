@@ -86,3 +86,8 @@ Untuk menambah lebih banyak dimensi yang diteruskan dari garis sambungan kedua y
 ## DXF — entiti DIMENSION (jenis aligned)
 
 Dimensi aligned disimpan sebagai entiti `DIMENSION` dengan `dimType = 1` (aligned). Asal garis sambungan, kedudukan garis dimensi, kedudukan teks, nilai yang diukur, putaran, gaya anak panah, dan semua bendera paparan pusingan penuh tanpa kehilangan.
+
+
+## Gaya dimensi
+
+Dimensi baharu menyalin [gaya dimensi](../dimension-style/) semasa termasuk anak panah, garis sambungan, teks, ketepatan, penjajaran, jurang dan bingkai. Nilai disalin ketika dicipta, jadi perubahan gaya kemudian tidak mengubah dimensi sedia ada.

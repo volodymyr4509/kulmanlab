@@ -29,6 +29,4 @@ order: 6
 
 ## 保存与 DXF
 
-**OK** 保存全部修改；**关闭**或 `Escape` 放弃修改。`↑` 和 `↓` 在列表中移动。名称、字体文件、固定高度、粗体、斜体和注释性标志属于 DXF 样式记录。边框、行距和水平对齐是 KulmanLab 的逐文字默认值，不是 DXF STYLE 表字段。
-
-另请参阅 [Text](../text/)、[FontManager](../font-manager/) 和 [MatchProperties](../match-properties/)。
+名称、字体文件、粗体、斜体和注释性标志会保留在 DXF 文字样式中。KulmanLab 将 STYLE 组 `40` 写为 `0`（可变高度），并把上次使用的高度写入组 `42`；这可防止固定 STYLE 高度覆盖标注样式自身的文字高度。边框、行距和水平对齐是 KulmanLab 针对每个文字对象的默认值，并非 DXF STYLE 表字段。

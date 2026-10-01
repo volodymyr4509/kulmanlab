@@ -95,3 +95,8 @@ Norėdami pridėti daugiau matmenų, tęsiamų nuo paskutinės pratęsimo linijo
 ## DXF — DIMENSION objektas
 
 Linijiniai matmenys saugomi kaip `DIMENSION` objektai su `rotationDeg`, nustatytu į `0` (horizontalus) arba `90` (vertikalus). Pratęsimo linijų pradžios, matmens linijos padėtis, teksto padėtis, išmatuota reikšmė, rodyklės stilius, teksto aukštis ir visos rodymo vėliavėlės keliauja be praradimų.
+
+
+## Matmenų stilius
+
+Nauji matmenys nukopijuoja dabartinį [matmenų stilių](../dimension-style/), įskaitant rodykles, iškeltines linijas, tekstą, tikslumą, lygiavimą, tarpą ir rėmelį. Reikšmės kopijuojamos kuriant; vėlesni stiliaus pakeitimai esamų matmenų nekeičia.

@@ -65,3 +65,8 @@ Tam referans için [Metin Düzenleyici — simple mode](../../interface/text-edi
 ## DXF — DIMENSION radius nesnesi
 
 Yarıçap ölçüleri, merkez koordinatlarını, yay noktası konumunu ve ölçülen yarıçap değerini saklayan, yarıçap türü geometrisiyle `DIMENSION` nesnesi olarak kaydedilir. Tüm özellikler kayıpsız round-trip yapar.
+
+
+## Ölçü stili
+
+Yeni ölçüler; oklar, uzatma çizgileri, metin, hassasiyet, hizalama, aralık ve çerçeve dahil geçerli [ölçü stilini](../dimension-style/) kopyalar. Değerler oluşturulurken kopyalanır; sonraki stil değişiklikleri mevcut ölçüleri değiştirmez.

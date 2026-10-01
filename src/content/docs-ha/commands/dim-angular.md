@@ -69,3 +69,8 @@ Duba [Naʼurar Gyaran Rubutu — simple mode](../../interface/text-editor/#simpl
 - [Dimension Aligned](../dim-aligned/) — girma-girma mai daidaici da tabo biyu
 - [Dimension Radius](../dim-radius/) — girma-girma na radius ga baka da da'ira
 - [Dimension Diameter](../dim-diameter/) — girma-girma na diameter ga da'ira
+
+
+## Salon aunawa
+
+Sabbin ma’auni suna kwafin [salon aunawa](../dimension-style/) na yanzu, ciki har da kibiyoyi, layukan taimako, rubutu, daidaito, jeri, tazara da firam. Ana kwafin ƙima lokacin ƙirƙira; gyaran salo daga baya ba ya canza ma’aunin da ke akwai.

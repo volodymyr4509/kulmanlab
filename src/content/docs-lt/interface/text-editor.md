@@ -118,6 +118,7 @@ Keturi mygtukai — **Align Left** (`Ctrl+Shift+L` / `Cmd+Shift+L`), **Align Cen
 
 | Klavišas | Veiksmas |
 |----------|----------|
+| `Ctrl+A` / `Cmd+A` | Pažymėti visą tekstą aktyviame redaktoriuje |
 | `Ctrl+C` / `Cmd+C` | Nukopijuoja pasirinktą tekstą |
 | `Ctrl+X` / `Cmd+X` | Iškerpa pasirinktą tekstą |
 | `Ctrl+V` / `Cmd+V` | Įklijuoja žymeklio vietoje |

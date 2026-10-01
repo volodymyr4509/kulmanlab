@@ -95,3 +95,8 @@ Kuongeza vipimo zaidi vikiendelea kutoka mstari wa mwisho wa upanuzi, tumia [Dim
 ## DXF — kiumbe cha DIMENSION
 
 Vipimo vya mstari huhifadhiwa kama viumbe vya `DIMENSION` vyenye `rotationDeg` imewekwa kuwa `0` (usawa) au `90` (wima). Asili za mistari ya upanuzi, nafasi ya mstari wa kipimo, nafasi ya maandishi, thamani iliyopimwa, mtindo wa mshale, urefu wa maandishi, na bendera zote za onyesho huhifadhiwa bila kupoteza data.
+
+
+## Mtindo wa kipimo
+
+Vipimo vipya hunakili [mtindo wa kipimo](../dimension-style/) wa sasa, pamoja na mishale, mistari ya nyongeza, maandishi, usahihi, upangaji, nafasi na fremu. Thamani hunakiliwa wakati wa kuunda; mabadiliko ya baadaye ya mtindo hayabadili vipimo vilivyopo.

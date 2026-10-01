@@ -29,6 +29,4 @@ De voorvertoning gebruikt dezelfde renderer als het canvas en toont twee regels.
 
 ## Opslaan en DXF
 
-**OK** slaat wijzigingen op; **Sluiten** of `Escape` verwerpt ze. Gebruik `↑` en `↓` om door de lijst te gaan. Naam, lettertypebestanden, hoogte, vet, cursief en de annotatieve vlag maken deel uit van de DXF-tekststijl. Kader, regelafstand en uitlijning zijn standaardwaarden per tekst in KulmanLab en geen velden van de DXF-tabel STYLE.
-
-Zie ook [Text](../text/), [FontManager](../font-manager/) en [MatchProperties](../match-properties/).
+Naam, lettertypebestanden, vet, cursief en annotatieve vlag blijven behouden in DXF-tekststijlen. KulmanLab schrijft STYLE-groep `40` als `0` (variabele hoogte) en de laatst gebruikte hoogte in groep `42`; een vaste STYLE-hoogte overschrijft dus niet de eigen teksthoogte van een maatstijl. Kader, regelafstand en horizontale uitlijning zijn KulmanLab-standaarden per tekst, geen velden van de DXF STYLE-tabel.

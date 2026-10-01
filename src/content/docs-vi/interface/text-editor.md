@@ -109,6 +109,7 @@ Bốn nút — **Align Left** (`Ctrl+Shift+L` / `Cmd+Shift+L`), **Align Center**
 
 | Phím | Hành động |
 |------|-----------|
+| `Ctrl+A` / `Cmd+A` | Chọn toàn bộ chữ trong trình soạn thảo đang hoạt động |
 | `Ctrl+C` / `Cmd+C` | Sao chép văn bản đã chọn |
 | `Ctrl+X` / `Cmd+X` | Cắt văn bản đã chọn |
 | `Ctrl+V` / `Cmd+V` | Dán tại con trỏ |

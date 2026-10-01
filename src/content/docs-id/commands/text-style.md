@@ -29,6 +29,4 @@ Pratinjau memakai perender yang sama dengan kanvas dan menampilkan dua baris. Fo
 
 ## Menyimpan dan DXF
 
-**OK** menyimpan perubahan; **Tutup** atau `Escape` membatalkannya. Gunakan `↑` dan `↓` untuk berpindah dalam daftar. Nama, berkas font, tinggi, tebal, miring, dan penanda anotatif merupakan bagian dari gaya DXF. Bingkai, spasi baris, dan perataan adalah nilai bawaan per teks di KulmanLab, bukan bidang tabel STYLE.
-
-Lihat juga [Text](../text/), [FontManager](../font-manager/), dan [MatchProperties](../match-properties/).
+Nama, berkas font, tebal, miring, dan penanda anotatif dipertahankan dalam gaya teks DXF. KulmanLab menulis grup `40` STYLE sebagai `0` (tinggi variabel) dan tinggi terakhir di grup `42`; hal ini mencegah tinggi STYLE tetap menimpa tinggi teks milik gaya dimensi. Bingkai, jarak baris, dan perataan horizontal adalah nilai bawaan per teks KulmanLab, bukan bidang tabel STYLE DXF.

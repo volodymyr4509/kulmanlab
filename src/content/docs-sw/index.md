@@ -104,6 +104,7 @@ Karibu kwenye marejeo ya amri za **KulmanLab CAD**. [KulmanLab CAD](https://kulm
 | [Hatch Manager](./commands/hatch-manager/) | Vinjari maktaba ya muundo wa hatch na pakia faili za .pat |
 | [MtindoWaMaandishi](./commands/text-style/) | Unda na udhibiti mitindo ya maandishi yenye majina kwa maandishi mapya |
 | [MtindoWaKiongozi](./commands/leader-style/) | Unda na udhibiti mitindo ya multileader yenye majina |
+| [MtindoWaKipimo](./commands/dimension-style/) | Unda na udhibiti mitindo yenye majina kwa vipimo vipya |
 
 ## Faili
 

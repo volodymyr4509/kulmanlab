@@ -69,3 +69,8 @@ Siehe [Texteditor — simple mode](../../interface/text-editor/#simple-mode) fü
 - [Dimension Aligned](../dim-aligned/) — an zwei Punkte ausgerichtete Bemaßung
 - [Dimension Radius](../dim-radius/) — Radiusbemaßung für Bögen und Kreise
 - [Dimension Diameter](../dim-diameter/) — Durchmesserbemaßung für Kreise
+
+
+## Bemaßungsstil
+
+Neue Bemaßungen kopieren den aktuellen [Bemaßungsstil](../dimension-style/) mit Pfeilen, Hilfslinien, Text, Genauigkeit, Ausrichtung, Abstand und Rahmen. Die Werte werden beim Erstellen kopiert; spätere Stiländerungen wirken sich nicht auf vorhandene Bemaßungen aus.

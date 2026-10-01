@@ -69,3 +69,8 @@ Voir [Éditeur de texte — simple mode](../../interface/text-editor/#simple-mod
 - [Dimension Aligned](../dim-aligned/) — cote alignée sur deux points
 - [Dimension Radius](../dim-radius/) — cote de rayon pour arcs et cercles
 - [Dimension Diameter](../dim-diameter/) — cote de diamètre pour cercles
+
+
+## Style de cote
+
+Les nouvelles cotes copient le [style de cote](../dimension-style/) courant, notamment flèches, lignes d’attache, texte, précision, alignement, écart et cadre. Les valeurs sont copiées à la création ; les modifications ultérieures du style ne changent pas les cotes existantes.

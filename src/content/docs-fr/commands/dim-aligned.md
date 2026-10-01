@@ -86,3 +86,8 @@ Pour ajouter d'autres cotes en continuant depuis la deuxième ligne d'extension 
 ## DXF — entité DIMENSION (type aligné)
 
 Les cotes alignées sont sauvegardées comme entités `DIMENSION` avec `dimType = 1` (aligné). Les origines des lignes d'extension, la position de la ligne de cote, la position du texte, la valeur mesurée, la rotation, le style de flèche et tous les indicateurs d'affichage sont exportés sans perte.
+
+
+## Style de cote
+
+Les nouvelles cotes copient le [style de cote](../dimension-style/) courant, notamment flèches, lignes d’attache, texte, précision, alignement, écart et cadre. Les valeurs sont copiées à la création ; les modifications ultérieures du style ne changent pas les cotes existantes.

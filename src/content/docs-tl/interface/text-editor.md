@@ -118,6 +118,7 @@ Awtomatikong tumutugma ang height ng cursor sa cap height ng katabing character,
 
 | Key | Aksyon |
 |-----|--------|
+| `Ctrl+A` / `Cmd+A` | Piliin ang lahat ng text sa aktibong editor |
 | `Ctrl+C` / `Cmd+C` | Kopyahin ang napiling text |
 | `Ctrl+X` / `Cmd+X` | Putulin ang napiling text |
 | `Ctrl+V` / `Cmd+V` | I-paste sa cursor |

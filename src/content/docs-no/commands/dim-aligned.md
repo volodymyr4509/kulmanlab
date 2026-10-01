@@ -86,3 +86,8 @@ For å legge til flere mål som fortsetter fra den andre hjelpelinjen til dette,
 ## DXF — DIMENSION-entitet (justert type)
 
 Justerte mål lagres som `DIMENSION`-entiteter med `dimType = 1` (aligned). Opprinnelser for hjelpelinjer, mållinjeposisjon, tekstposisjon, målt verdi, rotasjon, pilstil og alle visningsflagg overlever en rundtur uten tap.
+
+
+## Målstil
+
+Nye mål kopierer gjeldende [målstil](../dimension-style/) med piler, hjelpelinjer, tekst, presisjon, justering, avstand og ramme. Verdiene kopieres ved opprettelse; senere stilendringer påvirker ikke eksisterende mål.

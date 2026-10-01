@@ -78,4 +78,4 @@ Kiekvienas čia atliktas redagavimas veikia stilių lentelės kopiją. **OK** į
 
 ## DXF suderinamumas
 
-Pavadinimas, šrifto failai, fiksuotas aukštis, pusjuodis, kursyvas ir anotatyvumo vėliavėlė priklauso DXF teksto stiliaus įrašams ir išsaugomi importuojant bei eksportuojant. Rėmelis, eilučių tarpas ir horizontalus lygiavimas KulmanLab yra kiekvieno Text numatytosios reikšmės, o ne DXF STYLE lentelės laukai, todėl keliaujant per DXF jie neišsaugomi ant įvardyto stiliaus.
+Pavadinimas, šriftų failai, pusjuodis, kursyvas ir anotatyvumo vėliavėlė išsaugomi DXF teksto stiliuose. KulmanLab STYLE grupę `40` rašo kaip `0` (kintamas aukštis), o paskutinį naudotą aukštį — grupėje `42`; fiksuotas STYLE aukštis neperrašo matmenų stiliaus teksto aukščio. Rėmelis, eilučių tarpas ir horizontalus lygiavimas yra KulmanLab numatytosios reikšmės kiekvienam tekstui, o ne DXF STYLE lentelės laukai.

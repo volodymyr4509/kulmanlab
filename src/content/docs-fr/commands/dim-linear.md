@@ -95,3 +95,8 @@ Pour ajouter d'autres cotes en continuant depuis la dernière ligne d'extension,
 ## DXF — entité DIMENSION
 
 Les cotes linéaires sont sauvegardées comme entités `DIMENSION` avec `rotationDeg` défini à `0` (horizontal) ou `90` (vertical). Les origines des lignes d'extension, la position de la ligne de cote, la position du texte, la valeur mesurée, le style de flèche, la hauteur du texte et tous les indicateurs d'affichage sont exportés sans perte.
+
+
+## Style de cote
+
+Les nouvelles cotes copient le [style de cote](../dimension-style/) courant, notamment flèches, lignes d’attache, texte, précision, alignement, écart et cadre. Les valeurs sont copiées à la création ; les modifications ultérieures du style ne changent pas les cotes existantes.

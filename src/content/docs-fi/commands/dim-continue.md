@@ -90,3 +90,8 @@ Katso [Tekstieditori — yksinkertainen tila](../../interface/text-editor/#simpl
 ## DXF — DIMENSION-entiteetit
 
 Jokainen ketjun segmentti tallennetaan itsenäisenä `DIMENSION`-entiteettinä DXF-tiedostossa. Niitä ei linkitetä tiedostossa — ne jakavat ominaisuuksia, koska ne luotiin samasta perustasta, mutta jokaista voidaan muokata erikseen sijoituksen jälkeen.
+
+
+## Mittatyyli
+
+Ketjun ensimmäinen mitta kopioi yleensä nykyisen [mittatyylin](../dimension-style/). Jokainen jatko perii sen jälkeen perusmitan koko ulkoasun, joten ketju pysyy yhtenäisenä, vaikka nykyinen tyyli vaihtuu.

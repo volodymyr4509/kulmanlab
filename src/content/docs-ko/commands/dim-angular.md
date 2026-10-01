@@ -69,3 +69,8 @@ order: 9
 - [Dimension Aligned](../dim-aligned/) — 두 점에 정렬된 치수
 - [Dimension Radius](../dim-radius/) — 호 및 원에 대한 반지름 치수
 - [Dimension Diameter](../dim-diameter/) — 원에 대한 지름 치수
+
+
+## 치수 스타일
+
+새 치수는 화살표, 치수 보조선, 텍스트, 정밀도, 정렬, 간격과 프레임을 포함한 현재 [치수 스타일](../dimension-style/)을 복사합니다. 값은 생성할 때 복사되므로 이후 스타일 변경은 기존 치수에 영향을 주지 않습니다.

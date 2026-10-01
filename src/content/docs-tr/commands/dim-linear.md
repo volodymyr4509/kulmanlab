@@ -95,3 +95,8 @@ Son uzatma çizgisinden devam eden ölçüler eklemek için bu ölçüyü yerle�
 ## DXF — DIMENSION nesnesi
 
 Doğrusal ölçüler, `rotationDeg` değeri `0` (yatay) veya `90` (dikey) olarak ayarlanmış `DIMENSION` nesneleri olarak kaydedilir. Uzatma çizgisi başlangıç noktaları, ölçü çizgisi konumu, metin konumu, ölçülen değer, ok stili, metin yüksekliği ve tüm görüntüleme bayrakları kayıpsız round-trip yapar.
+
+
+## Ölçü stili
+
+Yeni ölçüler; oklar, uzatma çizgileri, metin, hassasiyet, hizalama, aralık ve çerçeve dahil geçerli [ölçü stilini](../dimension-style/) kopyalar. Değerler oluşturulurken kopyalanır; sonraki stil değişiklikleri mevcut ölçüleri değiştirmez.

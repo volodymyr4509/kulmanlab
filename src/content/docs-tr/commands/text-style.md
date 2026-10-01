@@ -29,6 +29,4 @@ Terminalde `MetinStili` yazın veya **Açıklama Ekle** panelindeki **Metin stil
 
 ## Kaydetme ve DXF
 
-**OK** kaydeder; **Kapat** veya `Escape` iptal eder. `↑` ve `↓` listede ilerler. Ad, yazı tipi dosyaları, yükseklik, kalın, italik ve açıklayıcı bayrağı DXF stiline aittir. Çerçeve, satır aralığı ve hizalama KulmanLab'ın metin başına varsayılanlarıdır; STYLE tablosu alanı değildir.
-
-Ayrıca bkz. [Text](../text/), [FontManager](../font-manager/) ve [MatchProperties](../match-properties/).
+Ad, yazı tipi dosyaları, kalın, italik ve açıklayıcı bayrak DXF metin stillerinde korunur. KulmanLab STYLE grup `40` değerini `0` (değişken yükseklik), son kullanılan yüksekliği grup `42` olarak yazar; böylece sabit STYLE yüksekliği ölçü stilinin kendi metin yüksekliğini geçersiz kılmaz. Çerçeve, satır aralığı ve yatay hizalama KulmanLab’ın metin başına varsayılanlarıdır, DXF STYLE tablosu alanları değildir.

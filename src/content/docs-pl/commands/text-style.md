@@ -29,6 +29,4 @@ Podgląd używa tego samego mechanizmu co obszar rysunku i pokazuje dwa wiersze.
 
 ## Zapisywanie i DXF
 
-**OK** zapisuje zmiany, a **Zamknij** lub `Escape` je odrzuca. Klawisze `↑` i `↓` służą do poruszania się po liście. Nazwa, pliki czcionek, wysokość, pogrubienie, kursywa i flaga opisowa należą do stylu DXF. Ramka, interlinia i wyrównanie są w KulmanLab wartościami domyślnymi dla pojedynczego tekstu, a nie polami tabeli STYLE.
-
-Zobacz też [Text](../text/), [FontManager](../font-manager/) i [MatchProperties](../match-properties/).
+Nazwa, pliki czcionek, pogrubienie, kursywa i flaga opisowa są zachowywane w stylach tekstu DXF. KulmanLab zapisuje grupę `40` STYLE jako `0` (wysokość zmienna), a ostatnią wysokość w grupie `42`; stała wysokość STYLE nie zastępuje własnej wysokości tekstu stylu wymiaru. Ramka, interlinia i wyrównanie poziome są ustawieniami KulmanLab dla tekstu, a nie polami tabeli STYLE DXF.

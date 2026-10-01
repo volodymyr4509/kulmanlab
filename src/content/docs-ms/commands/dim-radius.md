@@ -65,3 +65,8 @@ Lihat [Text Editor — mod mudah](../../interface/text-editor/#simple-mode) untu
 ## DXF — entiti DIMENSION jejari
 
 Dimensi jejari disimpan sebagai entiti `DIMENSION` dengan geometri jenis jejari, menyimpan koordinat pusat, kedudukan titik lengkok, dan nilai jejari yang diukur. Semua sifat pusingan penuh tanpa kehilangan.
+
+
+## Gaya dimensi
+
+Dimensi baharu menyalin [gaya dimensi](../dimension-style/) semasa termasuk anak panah, garis sambungan, teks, ketepatan, penjajaran, jurang dan bingkai. Nilai disalin ketika dicipta, jadi perubahan gaya kemudian tidak mengubah dimensi sedia ada.

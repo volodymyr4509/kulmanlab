@@ -118,6 +118,7 @@ De cursorhoogte komt automatisch overeen met de kapitaalhoogte van het aangrenze
 
 | Toets | Actie |
 |-----|--------|
+| `Ctrl+A` / `Cmd+A` | Alle tekst in de actieve editor selecteren |
 | `Ctrl+C` / `Cmd+C` | Geselecteerde tekst kopiëren |
 | `Ctrl+X` / `Cmd+X` | Geselecteerde tekst knippen |
 | `Ctrl+V` / `Cmd+V` | Plakken bij de cursor |

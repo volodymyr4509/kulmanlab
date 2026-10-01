@@ -69,3 +69,8 @@ Se [Tekstredigering — enkel modus](../../interface/text-editor/#simple-mode) f
 - [Dimension Aligned](../dim-aligned/) — mål justert til to punkter
 - [Dimension Radius](../dim-radius/) — radiusmål for buer og sirkler
 - [Dimension Diameter](../dim-diameter/) — diametermål for sirkler
+
+
+## Målstil
+
+Nye mål kopierer gjeldende [målstil](../dimension-style/) med piler, hjelpelinjer, tekst, presisjon, justering, avstand og ramme. Verdiene kopieres ved opprettelse; senere stilendringer påvirker ikke eksisterende mål.

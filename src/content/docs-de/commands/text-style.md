@@ -52,7 +52,7 @@ Ein Stil ist nur eine Vorlage beim Erstellen. Spätere Stiländerungen veränder
 
 ## DXF-Kompatibilität
 
-Name, Schriftdateien, feste Höhe, Fett, Kursiv und das Annotativ-Flag gehören zum DXF-Textstildatensatz und werden importiert und exportiert. Rahmen, Zeilenabstand und horizontale Ausrichtung sind KulmanLab-Vorgaben pro Text und keine Felder der DXF-STYLE-Tabelle.
+Name, Schriftdateien, Fett, Kursiv und Annotativ-Flag werden in DXF-Textstilen erhalten. KulmanLab schreibt STYLE-Gruppe `40` als `0` (variable Höhe) und die zuletzt verwendete Höhe in Gruppe `42`; dadurch kann eine feste STYLE-Höhe nicht die eigene Texthöhe eines Bemaßungsstils überschreiben. Rahmen, Zeilenabstand und horizontale Ausrichtung sind KulmanLab-Vorgaben pro Text und keine Felder der DXF-STYLE-Tabelle.
 
 ## Verwandte Befehle
 

@@ -95,3 +95,8 @@ Lisätäksesi useampia mittoja, jotka jatkuvat viimeisestä apuviivasta, käytä
 ## DXF — DIMENSION-entiteetti
 
 Lineaariset mitat tallennetaan `DIMENSION`-entiteetteinä, joilla `rotationDeg` on asetettu arvoon `0` (vaakasuora) tai `90` (pystysuora). Apuviivojen lähtöpisteet, mittaviivan sijainti, tekstin sijainti, mitattu arvo, nuolityyli, tekstin korkeus ja kaikki näyttöliput säilyvät edestakaisessa matkassa ilman häviötä.
+
+
+## Mittatyyli
+
+Uudet mitat kopioivat nykyisen [mittatyylin](../dimension-style/) nuolineen, apuviivoineen, teksteineen, tarkkuuksineen, tasauksineen, väleineen ja kehyksineen. Arvot kopioidaan luotaessa; myöhemmät tyylimuutokset eivät muuta olemassa olevia mittoja.

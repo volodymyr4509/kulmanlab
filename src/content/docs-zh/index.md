@@ -105,6 +105,7 @@ order: 1
 | [Hatch Manager](./commands/hatch-manager/) | 浏览 hatch 图案库并上传 .pat 文件 |
 | [TextStyle 文字样式](./commands/text-style/) | 为新文字创建和管理命名文字样式 |
 | [LeaderStyle 引线样式](./commands/leader-style/) | 创建和管理命名多重引线样式 |
+| [DimensionStyle 标注样式](./commands/dimension-style/) | 为新标注创建和管理命名样式 |
 
 ## 文件
 

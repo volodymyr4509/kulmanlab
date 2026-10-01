@@ -95,3 +95,8 @@ Per aggiungere altre quote continuando dall'ultima linea di estensione, usa [Dim
 ## DXF — entità DIMENSION
 
 Le quote lineari vengono salvate come entità `DIMENSION` con `rotationDeg` impostato a `0` (orizzontale) o `90` (verticale). Origini linee di estensione, posizione linea di quota, posizione testo, valore misurato, stile frecce, altezza testo e tutti i flag di visualizzazione vengono mantenuti senza perdita.
+
+
+## Stile di quota
+
+Le nuove quote copiano lo [stile di quota](../dimension-style/) corrente, incluse frecce, linee di estensione, testo, precisione, allineamento, distanza e cornice. I valori vengono copiati alla creazione, quindi le modifiche successive allo stile non cambiano le quote esistenti.

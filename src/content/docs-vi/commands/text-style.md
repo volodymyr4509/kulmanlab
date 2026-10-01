@@ -29,6 +29,4 @@ Bản xem trước dùng cùng bộ kết xuất với vùng vẽ và hiển th�
 
 ## Lưu và DXF
 
-**OK** lưu thay đổi; **Đóng** hoặc `Escape` hủy chúng. Dùng `↑` và `↓` để di chuyển trong danh sách. Tên, tệp phông, chiều cao, đậm, nghiêng và cờ chú thích thuộc kiểu chữ DXF. Khung, giãn dòng và căn ngang là giá trị mặc định theo từng văn bản của KulmanLab, không phải trường trong bảng STYLE.
-
-Xem thêm [Text](../text/), [FontManager](../font-manager/) và [MatchProperties](../match-properties/).
+Tên, tệp phông, đậm, nghiêng và cờ chú thích được bảo toàn trong kiểu chữ DXF. KulmanLab ghi nhóm `40` của STYLE là `0` (chiều cao biến đổi) và chiều cao dùng gần nhất ở nhóm `42`; chiều cao STYLE cố định vì thế không ghi đè chiều cao chữ riêng của kiểu kích thước. Khung, giãn dòng và căn ngang là mặc định theo từng chữ của KulmanLab, không phải trường của bảng STYLE DXF.

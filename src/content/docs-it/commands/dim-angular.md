@@ -69,3 +69,8 @@ Vedi [Editor di Testo — simple mode](../../interface/text-editor/#simple-mode)
 - [Dimension Aligned](../dim-aligned/) — quota allineata a due punti
 - [Dimension Radius](../dim-radius/) — quota raggio per archi e cerchi
 - [Dimension Diameter](../dim-diameter/) — quota diametro per cerchi
+
+
+## Stile di quota
+
+Le nuove quote copiano lo [stile di quota](../dimension-style/) corrente, incluse frecce, linee di estensione, testo, precisione, allineamento, distanza e cornice. I valori vengono copiati alla creazione, quindi le modifiche successive allo stile non cambiano le quote esistenti.

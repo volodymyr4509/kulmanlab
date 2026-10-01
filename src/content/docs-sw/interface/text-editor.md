@@ -118,6 +118,7 @@ Urefu wa kishale hulingana kiotomatiki na urefu wa kichwa wa herufi iliyo karibu
 
 | Kitufe | Kitendo |
 |--------|---------|
+| `Ctrl+A` / `Cmd+A` | Chagua maandishi yote katika kihariri kinachotumika |
 | `Ctrl+C` / `Cmd+C` | Nakili maandishi yaliyochaguliwa |
 | `Ctrl+X` / `Cmd+X` | Kata maandishi yaliyochaguliwa |
 | `Ctrl+V` / `Cmd+V` | Bandika kwenye kishale |

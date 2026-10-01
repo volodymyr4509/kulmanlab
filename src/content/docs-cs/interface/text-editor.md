@@ -118,6 +118,7 @@ Výška kurzoru se automaticky shoduje s výškou verzálek sousedního znaku, v
 
 | Klávesa | Akce |
 |---------|------|
+| `Ctrl+A` / `Cmd+A` | Vybrat veškerý text v aktivním editoru |
 | `Ctrl+C` / `Cmd+C` | Zkopíruje vybraný text |
 | `Ctrl+X` / `Cmd+X` | Vyjme vybraný text |
 | `Ctrl+V` / `Cmd+V` | Vloží na pozici kurzoru |

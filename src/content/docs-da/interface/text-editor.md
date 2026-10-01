@@ -118,6 +118,7 @@ Markørhøjden matcher automatisk versalhøjden på det tilstødende tegn, inklu
 
 | Tast | Handling |
 |-----|--------|
+| `Ctrl+A` / `Cmd+A` | Markér al tekst i den aktive editor |
 | `Ctrl+C` / `Cmd+C` | Kopiér den markerede tekst |
 | `Ctrl+X` / `Cmd+X` | Klip den markerede tekst |
 | `Ctrl+V` / `Cmd+V` | Indsæt ved markøren |

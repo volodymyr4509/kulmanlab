@@ -78,4 +78,4 @@ Každá zde provedená úprava pracuje s kopií tabulky stylů. **OK** zapíše 
 
 ## Kompatibilita s DXF
 
-Název, soubory písem, pevná výška, tučné, kurzíva a příznak anotativnosti patří k záznamům stylu textu v DXF a při importu a exportu se zachovávají. Rámeček, řádkování a vodorovné zarovnání jsou v KulmanLab výchozí hodnoty pro každý Text, nikoli pole tabulky STYLE v DXF, takže se při výměně přes DXF na pojmenovaném stylu neukládají.
+Název, soubory písem, tučné, kurzíva a anotativní příznak se ve stylech textu DXF zachovávají. KulmanLab zapisuje skupinu `40` STYLE jako `0` (proměnná výška) a poslední použitou výšku do skupiny `42`; pevná výška STYLE tak nepřepíše vlastní výšku textu kótovacího stylu. Rámeček, řádkování a vodorovné zarovnání jsou výchozí hodnoty KulmanLab pro jednotlivý text, nikoli pole tabulky STYLE DXF.

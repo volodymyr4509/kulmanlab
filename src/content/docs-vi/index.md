@@ -105,6 +105,7 @@ Chào mừng bạn đến với tài liệu tham khảo lệnh **KulmanLab CAD**
 | [Hatch Manager](./commands/hatch-manager/) | Duyệt thư viện mẫu hatch và tải lên tệp .pat |
 | [KiểuChữ](./commands/text-style/) | Tạo và quản lý kiểu chữ có tên cho văn bản mới |
 | [KiểuĐườngDẫn](./commands/leader-style/) | Tạo và quản lý kiểu đường dẫn nhiều nhánh có tên |
+| [KiểuKíchThước](./commands/dimension-style/) | Tạo và quản lý kiểu có tên cho kích thước mới |
 
 ## Tệp
 

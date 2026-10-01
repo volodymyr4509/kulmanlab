@@ -65,3 +65,8 @@ Vybrat lze pouze objekty **Arc** a **Circle**. Kliknutí na jiný typ objektu ni
 ## DXF — objekt DIMENSION poloměru
 
 Kóty poloměru se ukládají jako objekty `DIMENSION` s geometrií typu poloměr, přičemž se ukládají souřadnice středu, poloha bodu na oblouku a naměřená hodnota poloměru. Všechny vlastnosti se přenášejí beze ztráty.
+
+
+## Kótovací styl
+
+Nové kóty kopírují aktuální [kótovací styl](../dimension-style/), včetně šipek, vynášecích čar, textu, přesnosti, zarovnání, mezery a rámečku. Hodnoty se kopírují při vytvoření; pozdější změny stylu nemění existující kóty.

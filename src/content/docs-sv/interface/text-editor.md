@@ -118,6 +118,7 @@ Markörhöjden matchar automatiskt versalhöjden för det intilliggande tecknet,
 
 | Tangent | Åtgärd |
 |-----|--------|
+| `Ctrl+A` / `Cmd+A` | Markera all text i den aktiva redigeraren |
 | `Ctrl+C` / `Cmd+C` | Kopiera den markerade texten |
 | `Ctrl+X` / `Cmd+X` | Klipp ut den markerade texten |
 | `Ctrl+V` / `Cmd+V` | Klistra in vid markören |

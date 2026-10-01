@@ -95,3 +95,8 @@ Um weitere Bemaßungen ab der letzten Maßhilfslinie fortzusetzen, verwenden Sie
 ## DXF — DIMENSION-Element
 
 Lineare Bemaßungen werden als `DIMENSION`-Elemente mit `rotationDeg` gespeichert, das auf `0` (horizontal) oder `90` (vertikal) gesetzt ist. Maßhilfslinien-Ursprünge, Bemaßungslinienposition, Textposition, gemessener Wert, Pfeilstil, Texthöhe und alle Anzeigeflags werden verlustfrei übertragen.
+
+
+## Bemaßungsstil
+
+Neue Bemaßungen kopieren den aktuellen [Bemaßungsstil](../dimension-style/) mit Pfeilen, Hilfslinien, Text, Genauigkeit, Ausrichtung, Abstand und Rahmen. Die Werte werden beim Erstellen kopiert; spätere Stiländerungen wirken sich nicht auf vorhandene Bemaßungen aus.

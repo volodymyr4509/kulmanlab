@@ -65,3 +65,7 @@ See [Text Editor — simple mode](../../interface/text-editor/#simple-mode) for 
 ## DXF — DIMENSION radius entity
 
 Radius dimensions are saved as `DIMENSION` entities with radius-type geometry, storing the center coordinates, the arc-point position, and the measured radius value. All properties round-trip without loss.
+
+## Dimension style
+
+New radius dimensions copy the current [DimensionStyle](../dimension-style/), including the second arrowhead, center-mark type and size, text, precision, gap, alignment, and frame. The values are copied at creation time rather than live-linked.

@@ -29,6 +29,4 @@ A visualização usa o mesmo renderizador do desenho e mostra duas linhas. Fonte
 
 ## Salvar e DXF
 
-**OK** salva; **Fechar** ou `Escape` descarta. `↑` e `↓` percorrem a lista. Nome, arquivos de fonte, altura, negrito, itálico e sinalizador anotativo fazem parte do estilo DXF. Moldura, espaçamento e alinhamento são padrões por texto do KulmanLab e não campos da tabela STYLE.
-
-Veja também [Text](../text/), [FontManager](../font-manager/) e [MatchProperties](../match-properties/).
+Nome, arquivos de fonte, negrito, itálico e sinalizador anotativo são preservados nos estilos de texto DXF. O KulmanLab grava o grupo `40` de STYLE como `0` (altura variável) e a última altura usada no grupo `42`; isso impede uma altura fixa de STYLE de substituir a altura própria de um estilo de cota. Moldura, espaçamento entre linhas e alinhamento horizontal são padrões por texto do KulmanLab, não campos da tabela STYLE do DXF.

@@ -118,6 +118,7 @@ Wysokość kursora automatycznie dopasowuje się do wysokości kapitalika sąsie
 
 | Klawisz | Akcja |
 |---------|-------|
+| `Ctrl+A` / `Cmd+A` | Zaznacz cały tekst w aktywnym edytorze |
 | `Ctrl+C` / `Cmd+C` | Kopiuj zaznaczony tekst |
 | `Ctrl+X` / `Cmd+X` | Wytnij zaznaczony tekst |
 | `Ctrl+V` / `Cmd+V` | Wklej w miejscu kursora |

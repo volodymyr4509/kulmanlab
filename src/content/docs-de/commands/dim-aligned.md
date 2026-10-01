@@ -86,3 +86,8 @@ Um weitere Bemaßungen ab der zweiten Maßhilfslinie dieser Bemaßung fortzusetz
 ## DXF — DIMENSION-Element (ausgerichteter Typ)
 
 Ausgerichtete Bemaßungen werden als `DIMENSION`-Elemente mit `dimType = 1` (ausgerichtet) gespeichert. Ursprünge der Maßhilfslinien, Bemaßungslinienposition, Textposition, gemessener Wert, Drehung, Pfeilstil und alle Anzeigeflags werden verlustfrei übertragen.
+
+
+## Bemaßungsstil
+
+Neue Bemaßungen kopieren den aktuellen [Bemaßungsstil](../dimension-style/) mit Pfeilen, Hilfslinien, Text, Genauigkeit, Ausrichtung, Abstand und Rahmen. Die Werte werden beim Erstellen kopiert; spätere Stiländerungen wirken sich nicht auf vorhandene Bemaßungen aus.

@@ -95,3 +95,8 @@ Om meer maatvoeringen toe te voegen die doorlopen vanaf de laatste hulplijn, geb
 ## DXF — DIMENSION-entiteit
 
 Lineaire maatvoeringen worden opgeslagen als `DIMENSION`-entiteiten met `rotationDeg` ingesteld op `0` (horizontaal) of `90` (verticaal). Hulplijnoorsprongen, positie van de maatlijn, tekstpositie, gemeten waarde, pijlstijl, teksthoogte en alle weergavevlaggen blijven zonder verlies behouden bij de roundtrip.
+
+
+## Maatstijl
+
+Nieuwe maten kopiëren de huidige [maatstijl](../dimension-style/) met pijlen, hulplijnen, tekst, precisie, uitlijning, tussenruimte en kader. De waarden worden bij het maken gekopieerd; latere stijlwijzigingen veranderen bestaande maten niet.

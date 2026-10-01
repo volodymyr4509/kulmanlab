@@ -105,6 +105,7 @@ Bienvenido a la referencia de comandos de **KulmanLab CAD**. [KulmanLab CAD](htt
 | [Hatch Manager](./commands/hatch-manager/) | Explora la biblioteca de patrones de hatch y sube archivos .pat |
 | [EstiloTexto](./commands/text-style/) | Crear y administrar estilos de texto con nombre para texto nuevo |
 | [EstiloGuía](./commands/leader-style/) | Crear y administrar estilos de directriz múltiple con nombre |
+| [EstiloCota](./commands/dimension-style/) | Crear y administrar estilos con nombre para cotas nuevas |
 
 ## Archivo
 

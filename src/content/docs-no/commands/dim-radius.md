@@ -65,3 +65,8 @@ Se [Tekstredigering — enkel modus](../../interface/text-editor/#simple-mode) f
 ## DXF — DIMENSION radius-entitet
 
 Radiusmål lagres som `DIMENSION`-entiteter med radiustype-geometri, som lagrer senterkoordinatene, buepunktposisjonen og den målte radiusverdien. Alle egenskaper overlever en rundtur uten tap.
+
+
+## Målstil
+
+Nye mål kopierer gjeldende [målstil](../dimension-style/) med piler, hjelpelinjer, tekst, presisjon, justering, avstand og ramme. Verdiene kopieres ved opprettelse; senere stilendringer påvirker ikke eksisterende mål.

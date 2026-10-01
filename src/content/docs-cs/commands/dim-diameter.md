@@ -63,3 +63,8 @@ Vybrat lze pouze objekty **Arc** a **Circle**.
 ## DXF — objekt DIMENSION průměru
 
 Kóty průměru se ukládají jako objekty `DIMENSION` s geometrií typu průměr, přičemž se ukládají obě polohy bodů oblouku i naměřená hodnota průměru (2 × poloměr). Všechny vlastnosti se přenášejí beze ztráty.
+
+
+## Kótovací styl
+
+Nové kóty kopírují aktuální [kótovací styl](../dimension-style/), včetně šipek, vynášecích čar, textu, přesnosti, zarovnání, mezery a rámečku. Hodnoty se kopírují při vytvoření; pozdější změny stylu nemění existující kóty.

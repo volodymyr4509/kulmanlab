@@ -63,3 +63,8 @@ Voir [Éditeur de texte — simple mode](../../interface/text-editor/#simple-mod
 ## DXF — entité DIMENSION de type diamètre
 
 Les cotes de diamètre sont sauvegardées comme entités `DIMENSION` avec géométrie de type diamètre, stockant les deux positions des points de l'arc et la valeur du diamètre mesuré (2 × rayon). Toutes les propriétés sont exportées sans perte.
+
+
+## Style de cote
+
+Les nouvelles cotes copient le [style de cote](../dimension-style/) courant, notamment flèches, lignes d’attache, texte, précision, alignement, écart et cadre. Les valeurs sont copiées à la création ; les modifications ultérieures du style ne changent pas les cotes existantes.

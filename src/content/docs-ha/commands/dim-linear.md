@@ -95,3 +95,8 @@ Don ƙara girma-girma ƙari da ke ci gaba daga layin extension na ƙarshe, yi am
 ## DXF — Abin DIMENSION
 
 Girma-girma na layi ana ajiye su a matsayin abubuwan `DIMENSION` tare da `rotationDeg` an saita zuwa `0` (a kwance) ko `90` (a tsaye). Asalin layukan extension, matsayin layin girma-girma, matsayin rubutu, ƙimar da aka aunata, salon kibiya, tsayin rubutu, da dukkan flags na nuni suna juyawa ba tare da asara ba.
+
+
+## Salon aunawa
+
+Sabbin ma’auni suna kwafin [salon aunawa](../dimension-style/) na yanzu, ciki har da kibiyoyi, layukan taimako, rubutu, daidaito, jeri, tazara da firam. Ana kwafin ƙima lokacin ƙirƙira; gyaran salo daga baya ba ya canza ma’aunin da ke akwai.

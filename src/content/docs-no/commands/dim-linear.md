@@ -95,3 +95,8 @@ For å legge til flere mål som fortsetter fra den siste hjelpelinjen, bruk [Dim
 ## DXF — DIMENSION-entitet
 
 Lineære mål lagres som `DIMENSION`-entiteter med `rotationDeg` satt til `0` (horisontal) eller `90` (vertikal). Hjelpelinjeopprinnelser, mållinjeposisjon, tekstposisjon, målt verdi, pilstil, teksthøyde og alle visningsflagg overlever en rundtur uten tap.
+
+
+## Målstil
+
+Nye mål kopierer gjeldende [målstil](../dimension-style/) med piler, hjelpelinjer, tekst, presisjon, justering, avstand og ramme. Verdiene kopieres ved opprettelse; senere stilendringer påvirker ikke eksisterende mål.

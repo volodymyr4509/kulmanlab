@@ -118,6 +118,7 @@ Die Cursorhöhe passt sich automatisch an die Versalhöhe des angrenzenden Zeich
 
 | Taste | Aktion |
 |-------|--------|
+| `Ctrl+A` / `Cmd+A` | Gesamten Text im aktiven Editor auswählen |
 | `Ctrl+C` / `Cmd+C` | Ausgewählten Text kopieren |
 | `Ctrl+X` / `Cmd+X` | Ausgewählten Text ausschneiden |
 | `Ctrl+V` / `Cmd+V` | Am Cursor einfügen |

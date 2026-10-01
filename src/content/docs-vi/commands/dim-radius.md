@@ -55,3 +55,8 @@ Xem [Trình Soạn Thảo Văn Bản — chế độ đơn giản](../../interfa
 ## DXF — thực thể DIMENSION bán kính
 
 Kích thước bán kính được lưu dưới dạng thực thể `DIMENSION` với hình học loại bán kính, lưu trữ tọa độ tâm, vị trí điểm cung và giá trị bán kính đo được. Tất cả thuộc tính được lưu trữ đầy đủ và không bị mất.
+
+
+## Kiểu kích thước
+
+Kích thước mới sao chép [kiểu kích thước](../dimension-style/) hiện hành, gồm mũi tên, đường dóng, chữ, độ chính xác, căn chỉnh, khoảng cách và khung. Giá trị được sao chép lúc tạo nên thay đổi kiểu sau đó không ảnh hưởng kích thước đã có.

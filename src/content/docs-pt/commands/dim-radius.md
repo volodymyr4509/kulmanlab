@@ -65,3 +65,8 @@ Consulte [Editor de Texto — simple mode](../../interface/text-editor/#simple-m
 ## DXF — entidade DIMENSION de raio
 
 As cotas de raio são salvas como entidades `DIMENSION` com geometria do tipo raio, armazenando as coordenadas do centro, a posição do ponto do arco e o valor do raio medido. Todas as propriedades são mantidas sem perda.
+
+
+## Estilo de cota
+
+Novas cotas copiam o [estilo de cota](../dimension-style/) atual, incluindo setas, linhas de extensão, texto, precisão, alinhamento, intervalo e moldura. Os valores são copiados na criação; alterações posteriores no estilo não mudam cotas existentes.

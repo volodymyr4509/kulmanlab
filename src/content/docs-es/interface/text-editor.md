@@ -118,6 +118,7 @@ La altura del cursor coincide automáticamente con la altura de caja del caráct
 
 | Tecla | Acción |
 |-------|--------|
+| `Ctrl+A` / `Cmd+A` | Seleccionar todo el texto del editor activo |
 | `Ctrl+C` / `Cmd+C` | Copiar el texto seleccionado |
 | `Ctrl+X` / `Cmd+X` | Cortar el texto seleccionado |
 | `Ctrl+V` / `Cmd+V` | Pegar en el cursor |

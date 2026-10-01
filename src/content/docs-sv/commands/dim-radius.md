@@ -65,3 +65,8 @@ Se [Textredigerare — enkelt läge](../../interface/text-editor/#simple-mode) f
 ## DXF — DIMENSION-radieentitet
 
 Radiemått sparas som `DIMENSION`-entiteter med radietypsgeometri, som lagrar centrumkoordinaterna, bågpunktens position och det uppmätta radievärdet. Alla egenskaper bevaras vid rundtur utan förlust.
+
+
+## Måttstil
+
+Nya mått kopierar aktuell [måttstil](../dimension-style/) med pilar, hjälplinjer, text, precision, justering, mellanrum och ram. Värdena kopieras när måttet skapas; senare stiländringar påverkar inte befintliga mått.

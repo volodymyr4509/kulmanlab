@@ -105,6 +105,7 @@ Tervetuloa **KulmanLab CAD**:in komentoreferenssiin. [KulmanLab CAD](https://kul
 | [Hatch Manager](./commands/hatch-manager/) | Selaa hatch-kuviokirjastoa ja lataa .pat-tiedostoja |
 | [Tekstityyli](./commands/text-style/) | Luo ja hallitse uuden tekstin nimettyjä tekstityylejä |
 | [OsoitinTyyli](./commands/leader-style/) | Luo ja hallitse nimettyjä moniviivatyylejä |
+| [MittaTyyli](./commands/dimension-style/) | Luo ja hallitse nimettyjä tyylejä uusille mitoille |
 
 ## Tiedosto
 

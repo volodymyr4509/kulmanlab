@@ -105,6 +105,7 @@ order: 1
 | [Hatch Manager](./commands/hatch-manager/) | Hatch desen kitaplığına göz atın ve .pat dosyaları yükleyin |
 | [MetinStili](./commands/text-style/) | Yeni metin için adlandırılmış metin stilleri oluşturun ve yönetin |
 | [LiderStili](./commands/leader-style/) | Adlandırılmış çoklu lider stilleri oluşturun ve yönetin |
+| [ÖlçüStili](./commands/dimension-style/) | Yeni ölçüler için adlandırılmış stiller oluşturur ve yönetir |
 
 ## Dosya
 

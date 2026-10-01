@@ -118,6 +118,7 @@ L'altezza del cursore corrisponde automaticamente all'altezza dei capitali del c
 
 | Tasto | Azione |
 |-------|--------|
+| `Ctrl+A` / `Cmd+A` | Seleziona tutto il testo nell’editor attivo |
 | `Ctrl+C` / `Cmd+C` | Copia il testo selezionato |
 | `Ctrl+X` / `Cmd+X` | Taglia il testo selezionato |
 | `Ctrl+V` / `Cmd+V` | Incolla al cursore |

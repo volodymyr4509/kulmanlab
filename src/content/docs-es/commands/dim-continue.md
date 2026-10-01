@@ -90,3 +90,8 @@ Consulta [Editor de Texto — simple mode](../../interface/text-editor/#simple-m
 ## DXF — entidades DIMENSION
 
 Cada segmento de la cadena se almacena como una entidad `DIMENSION` independiente en el archivo DXF. No están vinculados en el archivo — comparten propiedades porque se crearon desde la misma base, pero cada uno puede editarse individualmente después de la colocación.
+
+
+## Estilo de cota
+
+La primera cota de una cadena normalmente copia el [estilo de cota](../dimension-style/) actual. Cada continuación hereda después todo el aspecto de su cota base, por lo que la cadena sigue siendo uniforme aunque cambie el estilo actual.

@@ -269,7 +269,7 @@ It is designed for engineers, architects, and technical illustrators who need a 
 
 - Full command terminal with history, keyboard navigation, and fuzzy autocomplete (matches letters anywhere in a command's name, ranked by match quality then by actual usage frequency)
 - 50+ drawing commands: Line, Polyline, Circle, Arc, Ellipse, Rectangle, Spline, Hatch, Text (MTEXT), Dimensions, Leaders, and more
-- Named TextStyle and LeaderStyle managers set reusable defaults for new text and multileaders, with STYLE and MLEADERSTYLE DXF round-tripping
+- Named TextStyle, LeaderStyle, and DimensionStyle managers set reusable defaults for new annotations, with STYLE, MLEADERSTYLE, and DIMSTYLE DXF round-tripping
 - Polyline arc segments — toggle Arc mode (A) mid-polyline for AutoCAD-style tangent arc segments, fully supported by render, selection, grip editing, trim/extend, DXF, and hatch boundaries
 - Rotate has a Copy toggle (C) — rotate duplicates instead of the original selection, AutoCAD ROTATE-style
 - Selection filter: narrow a large multi-selection by Type, Layer, Color, Lineweight, or Linetype before bulk-editing, via a filter icon in the property panel
@@ -355,6 +355,12 @@ No. Your drawings stay in your browser and are never sent anywhere. KulmanLab us
 Cookies are used for Google Analytics, which collects anonymous usage metrics (page views, session counts).
 
 ## Recent releases
+
+**October 2026 — Named dimension styles and stronger DXF fidelity**
+DimensionStyle now manages named defaults for arrows, extension lines, center marks, text, frames, alignment, and separate linear/angular precision. DIMSTYLE and per-entity DSTYLE overrides round-trip through DXF, variable-height STYLE export prevents text-height conflicts, and the active text editor now supports Ctrl/Cmd+A.
+
+**September 2026 — Czech and Lithuanian app interfaces**
+The complete CAD interface, command names, prompts, and dialogs are now available in Czech and Lithuanian.
 
 **September 2026 — Named text and leader styles**
 TextStyle and LeaderStyle managers now provide reusable defaults for new annotations. STYLE and MLEADERSTYLE records round-trip through DXF, exported leader styles reference matching text styles, and AutoCAD-compatible MTEXT frames and left/right leader attachments are preserved.

@@ -57,3 +57,8 @@ Xem [Trình Soạn Thảo Văn Bản — chế độ đơn giản](../../interfa
 ## DXF — thực thể DIMENSION đường kính
 
 Kích thước đường kính được lưu dưới dạng thực thể `DIMENSION` với hình học loại đường kính, lưu trữ cả hai vị trí điểm cung và giá trị đường kính đo được (2 × bán kính). Tất cả thuộc tính được lưu trữ đầy đủ và không bị mất khi xuất nhập DXF.
+
+
+## Kiểu kích thước
+
+Kích thước mới sao chép [kiểu kích thước](../dimension-style/) hiện hành, gồm mũi tên, đường dóng, chữ, độ chính xác, căn chỉnh, khoảng cách và khung. Giá trị được sao chép lúc tạo nên thay đổi kiểu sau đó không ảnh hưởng kích thước đã có.

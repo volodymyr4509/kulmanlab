@@ -105,6 +105,7 @@ order: 1
 | [Hatch Manager](./commands/hatch-manager/) | hatch 패턴 라이브러리 찾아보기 및 .pat 파일 업로드 |
 | [TextStyle 텍스트 스타일](./commands/text-style/) | 새 텍스트용 명명된 텍스트 스타일 만들기 및 관리 |
 | [LeaderStyle 지시선 스타일](./commands/leader-style/) | 명명된 다중 지시선 스타일 만들기 및 관리 |
+| [DimensionStyle 치수 스타일](./commands/dimension-style/) | 새 치수를 위한 명명된 스타일 만들기 및 관리 |
 
 ## 파일
 

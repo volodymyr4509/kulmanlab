@@ -69,3 +69,8 @@ Tingnan ang [Text Editor — simple mode](../../interface/text-editor/#simple-mo
 - [Dimension Aligned](../dim-aligned/) — dimension na naka-align sa dalawang punto
 - [Dimension Radius](../dim-radius/) — radius dimension para sa mga arc at circle
 - [Dimension Diameter](../dim-diameter/) — diameter dimension para sa mga circle
+
+
+## Istilo ng sukat
+
+Kinokopya ng bagong sukat ang kasalukuyang [istilo ng sukat](../dimension-style/), kasama ang arrow, extension line, text, precision, alignment, gap, at frame. Sa paggawa kinokopya ang values kaya hindi binabago ng susunod na style edits ang dati nang sukat.

@@ -105,6 +105,7 @@ Bienvenue dans la référence des commandes **KulmanLab CAD**. [KulmanLab CAD](h
 | [Hatch Manager](./commands/hatch-manager/) | Parcourez la bibliothèque de motifs de hachures et téléversez des fichiers .pat |
 | [StyleTexte](./commands/text-style/) | Créer et gérer des styles de texte nommés pour les nouveaux textes |
 | [StyleRepère](./commands/leader-style/) | Créer et gérer des styles de lignes de repère multiples |
+| [StyleCote](./commands/dimension-style/) | Créer et gérer des styles nommés pour les nouvelles cotes |
 
 ## Fichier
 

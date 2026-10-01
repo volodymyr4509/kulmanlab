@@ -69,3 +69,8 @@ Rovnoběžné úsečky nemohou vytvořit úhlovou kótu; příkaz druhé kliknut
 - [Dimension Aligned](../dim-aligned/) — kóta zarovnaná ke dvěma bodům
 - [Dimension Radius](../dim-radius/) — kóta poloměru pro oblouky a kružnice
 - [Dimension Diameter](../dim-diameter/) — kóta průměru pro kružnice
+
+
+## Kótovací styl
+
+Nové kóty kopírují aktuální [kótovací styl](../dimension-style/), včetně šipek, vynášecích čar, textu, přesnosti, zarovnání, mezery a rámečku. Hodnoty se kopírují při vytvoření; pozdější změny stylu nemění existující kóty.
