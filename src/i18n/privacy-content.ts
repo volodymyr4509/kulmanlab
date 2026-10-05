@@ -18,12 +18,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
     title: 'Privacy Policy — KulmanLab',
     desc: 'How KulmanLab handles your data: drawings stay on your device, no accounts. Google Analytics for anonymous usage metrics; ads in the app via Google AdSense.',
     heading: 'Privacy Policy',
-    updated: 'Last updated: July 14, 2026',
+    updated: "Last updated: October 5, 2026",
     summaryHeading: 'The short version',
     summary: [
       'Your drawings are stored in your browser and never leave your device. All your work belongs to you.',
       'There are no accounts, no sign-up, and no email. We do not know who you are.',
       'We use Google Analytics to count visits and understand which features are used. It never sees your drawing content.',
+      "The app reports crashes and errors to Sentry so they can be fixed. Reports contain the error, the browser and the app version — never your drawings, file names, or anything that identifies you.",
       'The app is free and funded by ads (Google AdSense). Your drawings are never used for advertising, and we never sell your data.',
     ],
     sections: [
@@ -54,6 +55,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
+        h: "Error reporting",
+        blocks: [
+          { t: 'p', html: "The app (app.kulmanlab.com) uses <strong>Sentry</strong> to find and fix bugs. When something in the app breaks, a report is sent to Sentry with the error message and stack trace, the app version, the website address it ran on, the browser, operating system and device type, and a short trail of the app's own actions leading up to the error (such as which button was clicked)." },
+          { t: 'p', html: "Reports do not include your drawing content, file names, console output, cookies, request headers, page-address parameters, or any personal information — the app is configured not to collect them, and we use Sentry for errors only, with no performance tracing and no session recording. Each distinct error is reported at most once per visit, and at most ten per visit. Reports are stored on Sentry's servers in the United States and processed under the <a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener\">Sentry Privacy Policy</a>. Content blockers that block sentry.io prevent reports from being sent, and the app works the same without them." },
+        ],
+      },
+      {
         h: 'Advertising',
         blocks: [
           { t: 'p', html: 'The app (app.kulmanlab.com) is free to use and is funded by ads served through <strong>Google AdSense</strong>. This website (kulmanlab.com) does not show ads.' },
@@ -71,7 +79,7 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Third-party services',
         blocks: [
-          { t: 'p', html: 'Besides Google Analytics and Google AdSense, KulmanLab relies on one infrastructure service:' },
+          { t: 'p', html: "Besides Google Analytics, Google AdSense and Sentry, KulmanLab relies on one infrastructure service:" },
           { t: 'ul', items: [
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — serves this website and the app. Like any web server, it processes standard request logs (IP address, requested URL, user agent) to deliver the pages.',
           ] },
@@ -103,12 +111,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
     title: 'מדיניות פרטיות — KulmanLab',
     desc: 'כיצד KulmanLab מטפל בנתונים שלכם: השרטוטים נשארים במכשיר שלכם, ללא חשבונות. Google Analytics למדדי שימוש אנונימיים; פרסומות באפליקציה דרך Google AdSense.',
     heading: 'מדיניות פרטיות',
-    updated: 'עודכן לאחרונה: 14 ביולי 2026',
+    updated: "עודכן לאחרונה: 5 באוקטובר 2026",
     summaryHeading: 'הגרסה הקצרה',
     summary: [
       'השרטוטים שלכם נשמרים בדפדפן שלכם ולעולם לא עוזבים את המכשיר. כל העבודה שלכם שייכת לכם.',
       'אין חשבונות, אין הרשמה ואין דוא"ל. אנחנו לא יודעים מי אתם.',
       'אנחנו משתמשים ב-Google Analytics כדי לספור ביקורים ולהבין אילו תכונות בשימוש. הוא לעולם לא רואה את תוכן השרטוט שלכם.',
+      "האפליקציה מדווחת על קריסות ושגיאות ל-Sentry כדי שאפשר יהיה לתקן אותן. הדיווחים כוללים את השגיאה, הדפדפן וגרסת האפליקציה — לעולם לא את השרטוטים שלך, שמות קבצים או משהו שמזהה אותך.",
       'האפליקציה חינמית וממומנת על ידי פרסומות (Google AdSense). השרטוטים שלכם לעולם לא משמשים לפרסום, ואנחנו לעולם לא מוכרים את הנתונים שלכם.',
     ],
     sections: [
@@ -139,6 +148,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
+        h: "דיווח על שגיאות",
+        blocks: [
+          { t: 'p', html: "האפליקציה (app.kulmanlab.com) משתמשת ב-<strong>Sentry</strong> כדי לאתר ולתקן באגים. כשמשהו באפליקציה נשבר, נשלח ל-Sentry דיווח עם הודעת השגיאה ו-stack trace, גרסת האפליקציה, כתובת האתר שבו היא רצה, הדפדפן, מערכת ההפעלה וסוג המכשיר, ושובל קצר של פעולות האפליקציה שקדמו לשגיאה (למשל איזה כפתור נלחץ)." },
+          { t: 'p', html: "הדיווחים אינם כוללים את תוכן השרטוטים, שמות קבצים, פלט קונסולה, עוגיות, כותרות בקשה, פרמטרים בכתובת העמוד או מידע אישי כלשהו — האפליקציה מוגדרת שלא לאסוף אותם, ואנו משתמשים ב-Sentry לשגיאות בלבד, ללא מעקב ביצועים וללא הקלטת הפעלה. כל שגיאה ייחודית מדווחת לכל היותר פעם אחת בכל ביקור, ולכל היותר עשר שגיאות בביקור. הדיווחים נשמרים בשרתי Sentry בארצות הברית ומעובדים בהתאם ל-<a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener\">מדיניות הפרטיות של Sentry</a>. חוסמי תוכן החוסמים את sentry.io מונעים שליחת דיווחים, והאפליקציה פועלת באותו אופן גם בלעדיהם." },
+        ],
+      },
+      {
         h: 'פרסום',
         blocks: [
           { t: 'p', html: 'האפליקציה (app.kulmanlab.com) ניתנת לשימוש בחינם וממומנת על ידי פרסומות המוגשות דרך <strong>Google AdSense</strong>. אתר זה (kulmanlab.com) אינו מציג פרסומות.' },
@@ -156,7 +172,7 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'שירותי צד שלישי',
         blocks: [
-          { t: 'p', html: 'מלבד Google Analytics ו-Google AdSense, KulmanLab מסתמך על שירות תשתית אחד:' },
+          { t: 'p', html: "מלבד Google Analytics, Google AdSense ו-Sentry, KulmanLab נשענת על שירות תשתית אחד:" },
           { t: 'ul', items: [
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — מגיש אתר זה ואת האפליקציה. כמו כל שרת אינטרנט, הוא מעבד יומני בקשה סטנדרטיים (כתובת IP, כתובת URL מבוקשת, סוכן משתמש) כדי לספק את העמודים.',
           ] },
@@ -188,12 +204,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
     title: 'Datenschutzerklärung — KulmanLab',
     desc: 'Wie KulmanLab mit Ihren Daten umgeht: Zeichnungen bleiben auf Ihrem Gerät, keine Konten. Google Analytics für anonyme Nutzungsmetriken; Werbung in der App über Google AdSense.',
     heading: 'Datenschutzerklärung',
-    updated: 'Zuletzt aktualisiert: 14. Juli 2026',
+    updated: "Zuletzt aktualisiert: 5. Oktober 2026",
     summaryHeading: 'Die Kurzfassung',
     summary: [
       'Ihre Zeichnungen werden in Ihrem Browser gespeichert und verlassen niemals Ihr Gerät. Ihre gesamte Arbeit gehört Ihnen.',
       'Es gibt keine Konten, keine Registrierung und keine E-Mail. Wir wissen nicht, wer Sie sind.',
       'Wir verwenden Google Analytics, um Besuche zu zählen und zu verstehen, welche Funktionen genutzt werden. Ihre Zeichnungsinhalte sieht es nie.',
+      "Die App meldet Abstürze und Fehler an Sentry, damit sie behoben werden können. Berichte enthalten den Fehler, den Browser und die App-Version — niemals Ihre Zeichnungen, Dateinamen oder etwas, das Sie identifiziert.",
       'Die App ist kostenlos und wird durch Werbung finanziert (Google AdSense). Ihre Zeichnungen werden niemals für Werbung verwendet, und wir verkaufen niemals Ihre Daten.',
     ],
     sections: [
@@ -224,6 +241,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
+        h: "Fehlerberichte",
+        blocks: [
+          { t: 'p', html: "Die App (app.kulmanlab.com) verwendet <strong>Sentry</strong>, um Fehler zu finden und zu beheben. Wenn in der App etwas schiefgeht, wird ein Bericht an Sentry gesendet — mit Fehlermeldung und Stack-Trace, App-Version, der Website-Adresse, auf der sie lief, Browser, Betriebssystem und Gerätetyp sowie einer kurzen Spur der App-eigenen Aktionen vor dem Fehler (zum Beispiel, welche Schaltfläche angeklickt wurde)." },
+          { t: 'p', html: "Berichte enthalten weder den Inhalt Ihrer Zeichnungen noch Dateinamen, Konsolenausgaben, Cookies, Anfrage-Header, Parameter der Seitenadresse oder andere personenbezogene Daten — die App ist so konfiguriert, dass sie diese nicht erfasst, und wir nutzen Sentry ausschließlich für Fehler, ohne Performance-Tracing und ohne Sitzungsaufzeichnung. Jeder einzelne Fehler wird pro Besuch höchstens einmal gemeldet, insgesamt höchstens zehn pro Besuch. Die Berichte werden auf Sentrys Servern in den USA gespeichert und gemäß der <a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener\">Datenschutzerklärung von Sentry</a> verarbeitet. Inhaltsblocker, die sentry.io blockieren, verhindern das Senden von Berichten; die App funktioniert ohne sie genauso." },
+        ],
+      },
+      {
         h: 'Werbung',
         blocks: [
           { t: 'p', html: 'Die App (app.kulmanlab.com) ist kostenlos nutzbar und wird durch Anzeigen über <strong>Google AdSense</strong> finanziert. Diese Website (kulmanlab.com) zeigt keine Werbung.' },
@@ -241,7 +265,7 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Dienste von Drittanbietern',
         blocks: [
-          { t: 'p', html: 'Neben Google Analytics und Google AdSense nutzt KulmanLab einen Infrastrukturdienst:' },
+          { t: 'p', html: "Neben Google Analytics, Google AdSense und Sentry stützt sich KulmanLab auf einen Infrastrukturdienst:" },
           { t: 'ul', items: [
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — liefert diese Website und die App aus. Wie jeder Webserver verarbeitet es Standard-Anfrageprotokolle (IP-Adresse, angeforderte URL, User-Agent), um die Seiten bereitzustellen.',
           ] },
@@ -273,12 +297,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
     title: 'Política de privacidad — KulmanLab',
     desc: 'Cómo KulmanLab trata tus datos: los dibujos permanecen en tu dispositivo, sin cuentas. Google Analytics para métricas de uso anónimas; anuncios en la app mediante Google AdSense.',
     heading: 'Política de privacidad',
-    updated: 'Última actualización: 14 de julio de 2026',
+    updated: "Última actualización: 5 de octubre de 2026",
     summaryHeading: 'La versión corta',
     summary: [
       'Tus dibujos se guardan en tu navegador y nunca salen de tu dispositivo. Todo tu trabajo te pertenece.',
       'No hay cuentas, ni registro, ni correo electrónico. No sabemos quién eres.',
       'Usamos Google Analytics para contar visitas y entender qué funciones se usan. Nunca ve el contenido de tus dibujos.',
+      "La aplicación informa de bloqueos y errores a Sentry para poder corregirlos. Los informes contienen el error, el navegador y la versión de la aplicación — nunca sus dibujos, nombres de archivo ni nada que lo identifique.",
       'La app es gratuita y se financia con anuncios (Google AdSense). Tus dibujos nunca se usan para publicidad y nunca vendemos tus datos.',
     ],
     sections: [
@@ -309,6 +334,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
+        h: "Informes de errores",
+        blocks: [
+          { t: 'p', html: "La aplicación (app.kulmanlab.com) usa <strong>Sentry</strong> para encontrar y corregir fallos. Cuando algo en la aplicación falla, se envía a Sentry un informe con el mensaje de error y la traza de pila, la versión de la aplicación, la dirección del sitio web donde se ejecutaba, el navegador, el sistema operativo y el tipo de dispositivo, y un breve rastro de las acciones de la propia aplicación previas al error (por ejemplo, qué botón se pulsó)." },
+          { t: 'p', html: "Los informes no incluyen el contenido de sus dibujos, nombres de archivo, salida de consola, cookies, cabeceras de solicitud, parámetros de la dirección de la página ni ningún dato personal: la aplicación está configurada para no recopilarlos, y usamos Sentry solo para errores, sin trazado de rendimiento ni grabación de sesiones. Cada error distinto se notifica como máximo una vez por visita, y un máximo de diez por visita. Los informes se almacenan en los servidores de Sentry en Estados Unidos y se tratan conforme a la <a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener\">Política de privacidad de Sentry</a>. Los bloqueadores de contenido que bloquean sentry.io impiden que se envíen los informes, y la aplicación funciona igual sin ellos." },
+        ],
+      },
+      {
         h: 'Publicidad',
         blocks: [
           { t: 'p', html: 'La app (app.kulmanlab.com) es de uso gratuito y se financia con anuncios servidos a través de <strong>Google AdSense</strong>. Este sitio web (kulmanlab.com) no muestra anuncios.' },
@@ -326,7 +358,7 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Servicios de terceros',
         blocks: [
-          { t: 'p', html: 'Además de Google Analytics y Google AdSense, KulmanLab depende de un servicio de infraestructura:' },
+          { t: 'p', html: "Además de Google Analytics, Google AdSense y Sentry, KulmanLab depende de un servicio de infraestructura:" },
           { t: 'ul', items: [
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — sirve este sitio web y la app. Como cualquier servidor web, procesa registros de solicitudes estándar (dirección IP, URL solicitada, agente de usuario) para entregar las páginas.',
           ] },
@@ -358,12 +390,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
     title: 'Politique de confidentialité — KulmanLab',
     desc: "Comment KulmanLab traite vos données : les dessins restent sur votre appareil, aucun compte. Google Analytics pour des statistiques anonymes ; publicités dans l'app via Google AdSense.",
     heading: 'Politique de confidentialité',
-    updated: 'Dernière mise à jour : 14 juillet 2026',
+    updated: "Dernière mise à jour : 5 octobre 2026",
     summaryHeading: 'La version courte',
     summary: [
       'Vos dessins sont stockés dans votre navigateur et ne quittent jamais votre appareil. Tout votre travail vous appartient.',
       "Il n'y a ni compte, ni inscription, ni e-mail. Nous ne savons pas qui vous êtes.",
       "Nous utilisons Google Analytics pour compter les visites et comprendre quelles fonctionnalités sont utilisées. Il ne voit jamais le contenu de vos dessins.",
+      "L'application signale les plantages et les erreurs à Sentry afin de pouvoir les corriger. Les rapports contiennent l'erreur, le navigateur et la version de l'application — jamais vos dessins, noms de fichiers ni rien qui vous identifie.",
       "L'app est gratuite et financée par la publicité (Google AdSense). Vos dessins ne sont jamais utilisés à des fins publicitaires, et nous ne vendons jamais vos données.",
     ],
     sections: [
@@ -394,6 +427,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
+        h: "Rapports d'erreurs",
+        blocks: [
+          { t: 'p', html: "L'application (app.kulmanlab.com) utilise <strong>Sentry</strong> pour trouver et corriger les bogues. Lorsqu'un élément de l'application plante, un rapport est envoyé à Sentry avec le message d'erreur et la trace d'appels, la version de l'application, l'adresse du site sur lequel elle s'exécutait, le navigateur, le système d'exploitation et le type d'appareil, ainsi qu'une courte trace des actions de l'application précédant l'erreur (par exemple, quel bouton a été cliqué)." },
+          { t: 'p', html: "Les rapports n'incluent ni le contenu de vos dessins, ni les noms de fichiers, ni la sortie de la console, ni les cookies, ni les en-têtes de requête, ni les paramètres de l'adresse de la page, ni aucune information personnelle — l'application est configurée pour ne pas les collecter, et nous n'utilisons Sentry que pour les erreurs, sans suivi des performances ni enregistrement de session. Chaque erreur distincte n'est signalée qu'une fois par visite, et dix au maximum par visite. Les rapports sont stockés sur les serveurs de Sentry aux États-Unis et traités conformément à la <a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener\">politique de confidentialité de Sentry</a>. Les bloqueurs de contenu qui bloquent sentry.io empêchent l'envoi des rapports, et l'application fonctionne de la même façon sans eux." },
+        ],
+      },
+      {
         h: 'Publicité',
         blocks: [
           { t: 'p', html: "L'app (app.kulmanlab.com) est gratuite et financée par des annonces diffusées via <strong>Google AdSense</strong>. Ce site web (kulmanlab.com) n'affiche pas de publicité." },
@@ -411,7 +451,7 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Services tiers',
         blocks: [
-          { t: 'p', html: 'Outre Google Analytics et Google AdSense, KulmanLab repose sur un service d\'infrastructure :' },
+          { t: 'p', html: "Outre Google Analytics, Google AdSense et Sentry, KulmanLab s'appuie sur un service d'infrastructure :" },
           { t: 'ul', items: [
             "<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — héberge ce site web et l'app. Comme tout serveur web, il traite des journaux de requêtes standard (adresse IP, URL demandée, user agent) pour livrer les pages.",
           ] },
@@ -443,12 +483,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
     title: 'Informativa sulla privacy — KulmanLab',
     desc: "Come KulmanLab gestisce i tuoi dati: i disegni restano sul tuo dispositivo, nessun account. Google Analytics per metriche d'uso anonime; annunci nell'app tramite Google AdSense.",
     heading: 'Informativa sulla privacy',
-    updated: 'Ultimo aggiornamento: 14 luglio 2026',
+    updated: "Ultimo aggiornamento: 5 ottobre 2026",
     summaryHeading: 'La versione breve',
     summary: [
       'I tuoi disegni sono salvati nel tuo browser e non lasciano mai il tuo dispositivo. Tutto il tuo lavoro appartiene a te.',
       'Non ci sono account, registrazioni né e-mail. Non sappiamo chi sei.',
       'Usiamo Google Analytics per contare le visite e capire quali funzioni vengono usate. Non vede mai il contenuto dei tuoi disegni.',
+      "L'app segnala arresti anomali ed errori a Sentry per poterli correggere. I rapporti contengono l'errore, il browser e la versione dell'app — mai i tuoi disegni, i nomi dei file o qualcosa che ti identifichi.",
       "L'app è gratuita e finanziata dalla pubblicità (Google AdSense). I tuoi disegni non vengono mai usati per la pubblicità e non vendiamo mai i tuoi dati.",
     ],
     sections: [
@@ -479,6 +520,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
+        h: "Segnalazione degli errori",
+        blocks: [
+          { t: 'p', html: "L'app (app.kulmanlab.com) usa <strong>Sentry</strong> per trovare e correggere i bug. Quando qualcosa nell'app si rompe, a Sentry viene inviato un rapporto con il messaggio di errore e lo stack trace, la versione dell'app, l'indirizzo del sito su cui girava, il browser, il sistema operativo e il tipo di dispositivo, e una breve traccia delle azioni dell'app che hanno preceduto l'errore (ad esempio quale pulsante è stato cliccato)." },
+          { t: 'p', html: "I rapporti non includono il contenuto dei tuoi disegni, i nomi dei file, l'output della console, i cookie, le intestazioni delle richieste, i parametri dell'indirizzo della pagina né alcuna informazione personale — l'app è configurata per non raccoglierli, e usiamo Sentry solo per gli errori, senza tracciamento delle prestazioni né registrazione delle sessioni. Ogni errore distinto viene segnalato al massimo una volta per visita, e al massimo dieci per visita. I rapporti sono conservati sui server di Sentry negli Stati Uniti ed elaborati secondo l'<a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener\">Informativa sulla privacy di Sentry</a>. I blocchi di contenuti che bloccano sentry.io impediscono l'invio dei rapporti, e l'app funziona allo stesso modo senza di essi." },
+        ],
+      },
+      {
         h: 'Pubblicità',
         blocks: [
           { t: 'p', html: "L'app (app.kulmanlab.com) è gratuita ed è finanziata da annunci pubblicati tramite <strong>Google AdSense</strong>. Questo sito web (kulmanlab.com) non mostra annunci." },
@@ -496,7 +544,7 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Servizi di terze parti',
         blocks: [
-          { t: 'p', html: 'Oltre a Google Analytics e Google AdSense, KulmanLab si affida a un servizio infrastrutturale:' },
+          { t: 'p', html: "Oltre a Google Analytics, Google AdSense e Sentry, KulmanLab si affida a un servizio di infrastruttura:" },
           { t: 'ul', items: [
             "<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — serve questo sito web e l'app. Come ogni server web, elabora i log standard delle richieste (indirizzo IP, URL richiesto, user agent) per consegnare le pagine.",
           ] },
@@ -528,12 +576,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
     title: 'Política de Privacidade — KulmanLab',
     desc: 'Como o KulmanLab trata seus dados: os desenhos ficam no seu dispositivo, sem contas. Google Analytics para métricas de uso anônimas; anúncios no app via Google AdSense.',
     heading: 'Política de Privacidade',
-    updated: 'Última atualização: 14 de julho de 2026',
+    updated: "Última atualização: 5 de outubro de 2026",
     summaryHeading: 'A versão curta',
     summary: [
       'Seus desenhos são armazenados no seu navegador e nunca saem do seu dispositivo. Todo o seu trabalho pertence a você.',
       'Não há contas, cadastro nem e-mail. Não sabemos quem você é.',
       'Usamos o Google Analytics para contar visitas e entender quais recursos são usados. Ele nunca vê o conteúdo dos seus desenhos.',
+      "O aplicativo reporta falhas e erros ao Sentry para que possam ser corrigidos. Os relatórios contêm o erro, o navegador e a versão do aplicativo — nunca seus desenhos, nomes de arquivos ou qualquer coisa que o identifique.",
       'O app é gratuito e financiado por anúncios (Google AdSense). Seus desenhos nunca são usados para publicidade, e nunca vendemos seus dados.',
     ],
     sections: [
@@ -564,6 +613,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
+        h: "Relatórios de erros",
+        blocks: [
+          { t: 'p', html: "O aplicativo (app.kulmanlab.com) usa o <strong>Sentry</strong> para encontrar e corrigir bugs. Quando algo no aplicativo falha, um relatório é enviado ao Sentry com a mensagem de erro e o rastreamento de pilha, a versão do aplicativo, o endereço do site em que estava sendo executado, o navegador, o sistema operacional e o tipo de dispositivo, e um breve rastro das ações do próprio aplicativo anteriores ao erro (por exemplo, qual botão foi clicado)." },
+          { t: 'p', html: "Os relatórios não incluem o conteúdo dos seus desenhos, nomes de arquivos, saída do console, cookies, cabeçalhos de requisição, parâmetros do endereço da página nem qualquer informação pessoal — o aplicativo está configurado para não coletá-los, e usamos o Sentry apenas para erros, sem rastreamento de desempenho nem gravação de sessão. Cada erro distinto é reportado no máximo uma vez por visita, e no máximo dez por visita. Os relatórios são armazenados nos servidores do Sentry nos Estados Unidos e processados de acordo com a <a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener\">Política de Privacidade do Sentry</a>. Bloqueadores de conteúdo que bloqueiam sentry.io impedem o envio dos relatórios, e o aplicativo funciona da mesma forma sem eles." },
+        ],
+      },
+      {
         h: 'Publicidade',
         blocks: [
           { t: 'p', html: 'O app (app.kulmanlab.com) é gratuito e é financiado por anúncios veiculados pelo <strong>Google AdSense</strong>. Este site (kulmanlab.com) não exibe anúncios.' },
@@ -581,7 +637,7 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Serviços de terceiros',
         blocks: [
-          { t: 'p', html: 'Além do Google Analytics e do Google AdSense, o KulmanLab depende de um serviço de infraestrutura:' },
+          { t: 'p', html: "Além do Google Analytics, do Google AdSense e do Sentry, o KulmanLab depende de um serviço de infraestrutura:" },
           { t: 'ul', items: [
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — serve este site e o app. Como qualquer servidor web, processa logs de solicitação padrão (endereço IP, URL solicitada, user agent) para entregar as páginas.',
           ] },
@@ -613,12 +669,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
     title: 'Політика конфіденційності — KulmanLab',
     desc: 'Як KulmanLab поводиться з вашими даними: креслення залишаються на вашому пристрої, без облікових записів. Google Analytics для анонімної статистики; реклама в застосунку через Google AdSense.',
     heading: 'Політика конфіденційності',
-    updated: 'Останнє оновлення: 14 липня 2026',
+    updated: "Останнє оновлення: 5 жовтня 2026",
     summaryHeading: 'Коротко',
     summary: [
       'Ваші креслення зберігаються у вашому браузері й ніколи не залишають ваш пристрій. Уся ваша робота належить вам.',
       'Немає облікових записів, реєстрації та електронної пошти. Ми не знаємо, хто ви.',
       'Ми використовуємо Google Analytics, щоб рахувати відвідування та розуміти, які функції використовуються. Він ніколи не бачить вміст ваших креслень.',
+      "Застосунок повідомляє про збої та помилки до Sentry, щоб їх можна було виправити. Звіти містять помилку, браузер і версію застосунку — ніколи ваші креслення, назви файлів чи щось, що вас ідентифікує.",
       'Застосунок безкоштовний і фінансується рекламою (Google AdSense). Ваші креслення ніколи не використовуються для реклами, і ми ніколи не продаємо ваші дані.',
     ],
     sections: [
@@ -649,6 +706,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
+        h: "Звіти про помилки",
+        blocks: [
+          { t: 'p', html: "Застосунок (app.kulmanlab.com) використовує <strong>Sentry</strong>, щоб знаходити й виправляти помилки. Коли в застосунку щось ламається, до Sentry надсилається звіт із повідомленням про помилку та стеком викликів, версією застосунку, адресою сайту, на якому він працював, браузером, операційною системою й типом пристрою, а також коротким слідом дій самого застосунку перед помилкою (наприклад, яку кнопку було натиснуто)." },
+          { t: 'p', html: "Звіти не містять вмісту ваших креслеників, назв файлів, виводу консолі, файлів cookie, заголовків запитів, параметрів адреси сторінки чи будь-яких особистих даних — застосунок налаштовано їх не збирати, а Sentry ми використовуємо лише для помилок, без трасування продуктивності та запису сеансів. Кожна окрема помилка повідомляється щонайбільше раз за візит, і щонайбільше десять за візит. Звіти зберігаються на серверах Sentry в США й обробляються відповідно до <a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener\">Політики конфіденційності Sentry</a>. Блокувальники вмісту, що блокують sentry.io, не дають надсилати звіти, і застосунок працює так само й без них." },
+        ],
+      },
+      {
         h: 'Реклама',
         blocks: [
           { t: 'p', html: 'Застосунок (app.kulmanlab.com) безкоштовний і фінансується рекламою через <strong>Google AdSense</strong>. Цей сайт (kulmanlab.com) не показує рекламу.' },
@@ -666,7 +730,7 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Сторонні сервіси',
         blocks: [
-          { t: 'p', html: 'Окрім Google Analytics і Google AdSense, KulmanLab використовує один інфраструктурний сервіс:' },
+          { t: 'p', html: "Окрім Google Analytics, Google AdSense і Sentry, KulmanLab покладається на одну інфраструктурну службу:" },
           { t: 'ul', items: [
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — обслуговує цей сайт і застосунок. Як будь-який вебсервер, він обробляє стандартні журнали запитів (IP-адреса, запитана URL-адреса, user agent), щоб доставляти сторінки.',
           ] },
@@ -698,12 +762,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
     title: 'Gizlilik Politikası — KulmanLab',
     desc: 'KulmanLab verilerinizi nasıl işler: çizimler cihazınızda kalır, hesap yok. Anonim kullanım metrikleri için Google Analytics; uygulamada Google AdSense reklamları.',
     heading: 'Gizlilik Politikası',
-    updated: 'Son güncelleme: 14 Temmuz 2026',
+    updated: "Son güncelleme: 5 Ekim 2026",
     summaryHeading: 'Kısa özet',
     summary: [
       'Çizimleriniz tarayıcınızda saklanır ve cihazınızdan asla ayrılmaz. Tüm çalışmalarınız size aittir.',
       'Hesap, kayıt ve e-posta yoktur. Kim olduğunuzu bilmiyoruz.',
       'Ziyaretleri saymak ve hangi özelliklerin kullanıldığını anlamak için Google Analytics kullanıyoruz. Çizim içeriğinizi asla görmez.',
+      "Uygulama, çökmeleri ve hataları düzeltilebilmesi için Sentry'ye bildirir. Raporlar hatayı, tarayıcıyı ve uygulama sürümünü içerir — çizimlerinizi, dosya adlarınızı veya sizi tanımlayan hiçbir şeyi asla içermez.",
       'Uygulama ücretsizdir ve reklamlarla finanse edilir (Google AdSense). Çizimleriniz asla reklam için kullanılmaz ve verilerinizi asla satmayız.',
     ],
     sections: [
@@ -734,6 +799,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
+        h: "Hata raporlama",
+        blocks: [
+          { t: 'p', html: "Uygulama (app.kulmanlab.com) hataları bulup düzeltmek için <strong>Sentry</strong> kullanır. Uygulamada bir şey bozulduğunda Sentry'ye hata mesajı ve yığın izi, uygulama sürümü, çalıştığı web sitesi adresi, tarayıcı, işletim sistemi ve cihaz türü ile hatadan önceki uygulamanın kendi eylemlerinin kısa bir izini (örneğin hangi düğmeye tıklandığı) içeren bir rapor gönderilir." },
+          { t: 'p', html: "Raporlar çizim içeriğinizi, dosya adlarınızı, konsol çıktısını, çerezleri, istek başlıklarını, sayfa adresi parametrelerini veya herhangi bir kişisel bilgiyi içermez — uygulama bunları toplamayacak şekilde yapılandırılmıştır ve Sentry'yi yalnızca hatalar için, performans izleme ve oturum kaydı olmadan kullanırız. Her farklı hata ziyaret başına en fazla bir kez, ziyaret başına en fazla on kez bildirilir. Raporlar Sentry'nin Amerika Birleşik Devletleri'ndeki sunucularında saklanır ve <a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener\">Sentry Gizlilik Politikası</a> uyarınca işlenir. sentry.io'yu engelleyen içerik engelleyiciler raporların gönderilmesini önler ve uygulama onlar olmadan da aynı şekilde çalışır." },
+        ],
+      },
+      {
         h: 'Reklamlar',
         blocks: [
           { t: 'p', html: 'Uygulama (app.kulmanlab.com) ücretsizdir ve <strong>Google AdSense</strong> aracılığıyla sunulan reklamlarla finanse edilir. Bu web sitesi (kulmanlab.com) reklam göstermez.' },
@@ -751,7 +823,7 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Üçüncü taraf hizmetler',
         blocks: [
-          { t: 'p', html: 'Google Analytics ve Google AdSense dışında KulmanLab tek bir altyapı hizmetine dayanır:' },
+          { t: 'p', html: "Google Analytics, Google AdSense ve Sentry'nin yanı sıra KulmanLab bir altyapı hizmetine dayanır:" },
           { t: 'ul', items: [
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — bu web sitesini ve uygulamayı sunar. Her web sunucusu gibi, sayfaları iletmek için standart istek günlüklerini (IP adresi, istenen URL, user agent) işler.',
           ] },
@@ -783,12 +855,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
     title: '隐私政策 — KulmanLab',
     desc: 'KulmanLab 如何处理您的数据：图纸保留在您的设备上，无需账户。使用 Google Analytics 收集匿名使用指标；应用内通过 Google AdSense 展示广告。',
     heading: '隐私政策',
-    updated: '最后更新：2026年7月14日',
+    updated: "最后更新：2026年10月5日",
     summaryHeading: '简要说明',
     summary: [
       '您的图纸存储在您的浏览器中，永远不会离开您的设备。您的所有作品都属于您自己。',
       '没有账户、无需注册、不收集电子邮件。我们不知道您是谁。',
       '我们使用 Google Analytics 统计访问量并了解哪些功能被使用。它永远看不到您的图纸内容。',
+      "应用会将崩溃和错误报告给 Sentry，以便修复。报告包含错误、浏览器和应用版本——绝不包含您的图纸、文件名或任何能识别您身份的信息。",
       '应用免费使用，靠广告维持运营（Google AdSense）。您的图纸绝不会被用于广告，我们也绝不出售您的数据。',
     ],
     sections: [
@@ -819,6 +892,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
+        h: "错误报告",
+        blocks: [
+          { t: 'p', html: "应用（app.kulmanlab.com）使用 <strong>Sentry</strong> 来发现并修复错误。当应用出现故障时，会向 Sentry 发送一份报告，内容包括错误消息和堆栈跟踪、应用版本、运行所在的网站地址、浏览器、操作系统和设备类型，以及错误发生前应用自身操作的简短轨迹（例如点击了哪个按钮）。" },
+          { t: 'p', html: "报告不包含您的图纸内容、文件名、控制台输出、Cookie、请求标头、页面地址参数或任何个人信息——应用已配置为不收集这些内容，我们仅将 Sentry 用于错误，不启用性能追踪，也不录制会话。每种不同的错误每次访问最多报告一次，每次访问最多十次。报告存储在 Sentry 位于美国的服务器上，并按照 <a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener\">Sentry 隐私政策</a> 处理。屏蔽 sentry.io 的内容拦截器会阻止报告发送，没有这些报告应用的运行也完全一样。" },
+        ],
+      },
+      {
         h: '广告',
         blocks: [
           { t: 'p', html: '应用（app.kulmanlab.com）免费使用，通过 <strong>Google AdSense</strong> 投放的广告维持运营。本网站（kulmanlab.com）不展示广告。' },
@@ -836,7 +916,7 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: '第三方服务',
         blocks: [
-          { t: 'p', html: '除 Google Analytics 和 Google AdSense 外，KulmanLab 依赖一项基础设施服务：' },
+          { t: 'p', html: "除 Google Analytics、Google AdSense 和 Sentry 之外，KulmanLab 还依赖一项基础设施服务：" },
           { t: 'ul', items: [
             '<strong>Cloudflare Pages（Cloudflare, Inc.）</strong> —— 托管本网站和应用。与任何 Web 服务器一样，它会处理标准请求日志（IP 地址、请求的 URL、User-Agent）以传送页面。',
           ] },
@@ -868,12 +948,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
     title: 'गोपनीयता नीति — KulmanLab',
     desc: 'KulmanLab आपके डेटा को कैसे संभालता है: ड्रॉइंग आपके डिवाइस पर रहती हैं, कोई खाता नहीं। अनाम उपयोग मेट्रिक्स के लिए Google Analytics; ऐप में Google AdSense के विज्ञापन।',
     heading: 'गोपनीयता नीति',
-    updated: 'अंतिम अद्यतन: 14 जुलाई 2026',
+    updated: "अंतिम अद्यतन: 5 अक्टूबर 2026",
     summaryHeading: 'संक्षेप में',
     summary: [
       'आपकी ड्रॉइंग आपके ब्राउज़र में संग्रहीत होती हैं और कभी आपके डिवाइस से बाहर नहीं जातीं। आपका सारा काम आपका है।',
       'कोई खाता नहीं, कोई साइन-अप नहीं, कोई ईमेल नहीं। हम नहीं जानते कि आप कौन हैं।',
       'हम विज़िट गिनने और यह समझने के लिए Google Analytics का उपयोग करते हैं कि कौन-सी सुविधाएँ उपयोग होती हैं। यह आपकी ड्रॉइंग की सामग्री कभी नहीं देखता।',
+      "ऐप क्रैश और त्रुटियों की रिपोर्ट Sentry को भेजता है ताकि उन्हें ठीक किया जा सके। रिपोर्ट में त्रुटि, ब्राउज़र और ऐप का संस्करण होता है — आपके ड्रॉइंग, फ़ाइल नाम या आपको पहचानने वाली कोई भी चीज़ कभी नहीं।",
       'ऐप मुफ़्त है और विज्ञापनों (Google AdSense) से चलता है। आपकी ड्रॉइंग कभी विज्ञापन के लिए उपयोग नहीं होतीं, और हम आपका डेटा कभी नहीं बेचते।',
     ],
     sections: [
@@ -904,6 +985,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
+        h: "त्रुटि रिपोर्टिंग",
+        blocks: [
+          { t: 'p', html: "ऐप (app.kulmanlab.com) बग खोजने और ठीक करने के लिए <strong>Sentry</strong> का उपयोग करता है। जब ऐप में कुछ टूटता है, तो Sentry को एक रिपोर्ट भेजी जाती है जिसमें त्रुटि संदेश और स्टैक ट्रेस, ऐप का संस्करण, वह वेबसाइट पता जिस पर वह चल रहा था, ब्राउज़र, ऑपरेटिंग सिस्टम और डिवाइस का प्रकार, तथा त्रुटि से पहले ऐप की अपनी क्रियाओं का एक छोटा सा सिलसिला (जैसे कौन सा बटन क्लिक किया गया) शामिल होता है।" },
+          { t: 'p', html: "रिपोर्ट में आपके ड्रॉइंग की सामग्री, फ़ाइल नाम, कंसोल आउटपुट, कुकीज़, अनुरोध हेडर, पृष्ठ पते के पैरामीटर या कोई व्यक्तिगत जानकारी शामिल नहीं होती — ऐप को इन्हें एकत्र न करने के लिए कॉन्फ़िगर किया गया है, और हम Sentry का उपयोग केवल त्रुटियों के लिए करते हैं, प्रदर्शन ट्रेसिंग या सत्र रिकॉर्डिंग के बिना। प्रत्येक अलग त्रुटि प्रति विज़िट अधिकतम एक बार, और प्रति विज़िट अधिकतम दस बार रिपोर्ट की जाती है। रिपोर्ट Sentry के संयुक्त राज्य अमेरिका स्थित सर्वरों पर संग्रहीत होती हैं और <a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener\">Sentry की गोपनीयता नीति</a> के अंतर्गत संसाधित की जाती हैं। sentry.io को ब्लॉक करने वाले कंटेंट ब्लॉकर रिपोर्ट भेजे जाने से रोकते हैं, और ऐप उनके बिना भी उसी तरह काम करता है।" },
+        ],
+      },
+      {
         h: 'विज्ञापन',
         blocks: [
           { t: 'p', html: 'ऐप (app.kulmanlab.com) उपयोग के लिए मुफ़्त है और <strong>Google AdSense</strong> के माध्यम से दिखाए गए विज्ञापनों से चलता है। यह वेबसाइट (kulmanlab.com) विज्ञापन नहीं दिखाती।' },
@@ -921,7 +1009,7 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'तृतीय-पक्ष सेवाएँ',
         blocks: [
-          { t: 'p', html: 'Google Analytics और Google AdSense के अलावा, KulmanLab एक इन्फ्रास्ट्रक्चर सेवा पर निर्भर है:' },
+          { t: 'p', html: "Google Analytics, Google AdSense और Sentry के अलावा, KulmanLab एक इन्फ्रास्ट्रक्चर सेवा पर निर्भर है:" },
           { t: 'ul', items: [
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — यह वेबसाइट और ऐप परोसता है। किसी भी वेब सर्वर की तरह, पेज पहुँचाने के लिए यह मानक अनुरोध लॉग (IP पता, अनुरोधित URL, यूज़र एजेंट) संसाधित करता है।',
           ] },
@@ -953,12 +1041,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
     title: 'سياسة الخصوصية — KulmanLab',
     desc: 'كيف يتعامل KulmanLab مع بياناتك: تبقى الرسومات على جهازك، بدون حسابات. Google Analytics لمقاييس استخدام مجهولة الهوية؛ إعلانات في التطبيق عبر Google AdSense.',
     heading: 'سياسة الخصوصية',
-    updated: 'آخر تحديث: 14 يوليو 2026',
+    updated: "آخر تحديث: 5 أكتوبر 2026",
     summaryHeading: 'النسخة المختصرة',
     summary: [
       'تُخزَّن رسوماتك في متصفحك ولا تغادر جهازك أبدًا. كل عملك ملك لك.',
       'لا توجد حسابات ولا تسجيل ولا بريد إلكتروني. نحن لا نعرف من أنت.',
       'نستخدم Google Analytics لعدّ الزيارات وفهم الميزات المستخدمة. وهو لا يرى محتوى رسوماتك أبدًا.',
+      "يبلغ التطبيق Sentry عن الأعطال والأخطاء ليتسنى إصلاحها. تحتوي التقارير على الخطأ والمتصفح وإصدار التطبيق — ولا تحتوي أبدًا على رسوماتك أو أسماء ملفاتك أو أي شيء يحدد هويتك.",
       'التطبيق مجاني ويموَّل بالإعلانات (Google AdSense). لا تُستخدم رسوماتك للإعلانات أبدًا، ولا نبيع بياناتك أبدًا.',
     ],
     sections: [
@@ -989,6 +1078,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
+        h: "الإبلاغ عن الأخطاء",
+        blocks: [
+          { t: 'p', html: "يستخدم التطبيق (app.kulmanlab.com) خدمة <strong>Sentry</strong> لاكتشاف الأخطاء وإصلاحها. عندما يتعطل شيء في التطبيق، يُرسل تقرير إلى Sentry يتضمن رسالة الخطأ وتتبع المكدس وإصدار التطبيق وعنوان الموقع الذي كان يعمل عليه والمتصفح ونظام التشغيل ونوع الجهاز، إضافة إلى أثر قصير لإجراءات التطبيق نفسه التي سبقت الخطأ (مثل الزر الذي نُقر عليه)." },
+          { t: 'p', html: "لا تتضمن التقارير محتوى رسوماتك ولا أسماء الملفات ولا مخرجات وحدة التحكم ولا ملفات تعريف الارتباط ولا ترويسات الطلب ولا معلمات عنوان الصفحة ولا أي معلومات شخصية — فالتطبيق مهيأ لعدم جمعها، ونستخدم Sentry للأخطاء فقط، دون تتبع للأداء ودون تسجيل للجلسات. يُبلَّغ عن كل خطأ مختلف مرة واحدة على الأكثر في الزيارة الواحدة، وعشرة أخطاء على الأكثر في الزيارة. تُخزَّن التقارير على خوادم Sentry في الولايات المتحدة وتُعالج وفق <a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener\">سياسة خصوصية Sentry</a>. تمنع أدوات حظر المحتوى التي تحظر sentry.io إرسال التقارير، ويعمل التطبيق بالطريقة نفسها بدونها." },
+        ],
+      },
+      {
         h: 'الإعلانات',
         blocks: [
           { t: 'p', html: 'التطبيق (app.kulmanlab.com) مجاني الاستخدام ويموَّل بإعلانات تُعرَض عبر <strong>Google AdSense</strong>. هذا الموقع (kulmanlab.com) لا يعرض إعلانات.' },
@@ -1006,7 +1102,7 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'خدمات الجهات الخارجية',
         blocks: [
-          { t: 'p', html: 'إلى جانب Google Analytics وGoogle AdSense، يعتمد KulmanLab على خدمة بنية تحتية واحدة:' },
+          { t: 'p', html: "إلى جانب Google Analytics وGoogle AdSense وSentry، يعتمد KulmanLab على خدمة بنية تحتية واحدة:" },
           { t: 'ul', items: [
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — يقدّم هذا الموقع والتطبيق. ومثل أي خادم ويب، يعالج سجلات الطلبات القياسية (عنوان IP، وعنوان URL المطلوب، ووكيل المستخدم) لتسليم الصفحات.',
           ] },
@@ -1038,12 +1134,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
     title: 'Kebijakan Privasi — KulmanLab',
     desc: 'Cara KulmanLab menangani data Anda: gambar tetap di perangkat Anda, tanpa akun. Google Analytics untuk metrik penggunaan anonim; iklan di aplikasi melalui Google AdSense.',
     heading: 'Kebijakan Privasi',
-    updated: 'Terakhir diperbarui: 14 Juli 2026',
+    updated: "Terakhir diperbarui: 5 Oktober 2026",
     summaryHeading: 'Versi singkat',
     summary: [
       'Gambar Anda disimpan di browser dan tidak pernah meninggalkan perangkat Anda. Semua karya Anda adalah milik Anda.',
       'Tidak ada akun, tidak ada pendaftaran, dan tidak ada email. Kami tidak tahu siapa Anda.',
       'Kami menggunakan Google Analytics untuk menghitung kunjungan dan memahami fitur mana yang digunakan. Ia tidak pernah melihat isi gambar Anda.',
+      "Aplikasi melaporkan crash dan kesalahan ke Sentry agar dapat diperbaiki. Laporan berisi kesalahan, browser, dan versi aplikasi — tidak pernah gambar Anda, nama file, atau apa pun yang mengidentifikasi Anda.",
       'Aplikasi ini gratis dan didanai oleh iklan (Google AdSense). Gambar Anda tidak pernah digunakan untuk iklan, dan kami tidak pernah menjual data Anda.',
     ],
     sections: [
@@ -1074,6 +1171,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
+        h: "Pelaporan kesalahan",
+        blocks: [
+          { t: 'p', html: "Aplikasi (app.kulmanlab.com) menggunakan <strong>Sentry</strong> untuk menemukan dan memperbaiki bug. Saat sesuatu di aplikasi rusak, laporan dikirim ke Sentry berisi pesan kesalahan dan stack trace, versi aplikasi, alamat situs tempat aplikasi berjalan, browser, sistem operasi, dan jenis perangkat, serta jejak singkat tindakan aplikasi itu sendiri sebelum kesalahan (misalnya tombol mana yang diklik)." },
+          { t: 'p', html: "Laporan tidak menyertakan isi gambar Anda, nama file, output konsol, cookie, header permintaan, parameter alamat halaman, atau informasi pribadi apa pun — aplikasi dikonfigurasi agar tidak mengumpulkannya, dan kami menggunakan Sentry hanya untuk kesalahan, tanpa pelacakan kinerja dan tanpa perekaman sesi. Setiap kesalahan yang berbeda dilaporkan paling banyak sekali per kunjungan, dan paling banyak sepuluh per kunjungan. Laporan disimpan di server Sentry di Amerika Serikat dan diproses sesuai <a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener\">Kebijakan Privasi Sentry</a>. Pemblokir konten yang memblokir sentry.io mencegah laporan terkirim, dan aplikasi berfungsi sama tanpa laporan tersebut." },
+        ],
+      },
+      {
         h: 'Iklan',
         blocks: [
           { t: 'p', html: 'Aplikasi (app.kulmanlab.com) gratis digunakan dan didanai oleh iklan yang ditayangkan melalui <strong>Google AdSense</strong>. Situs web ini (kulmanlab.com) tidak menampilkan iklan.' },
@@ -1091,7 +1195,7 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Layanan pihak ketiga',
         blocks: [
-          { t: 'p', html: 'Selain Google Analytics dan Google AdSense, KulmanLab mengandalkan satu layanan infrastruktur:' },
+          { t: 'p', html: "Selain Google Analytics, Google AdSense, dan Sentry, KulmanLab bergantung pada satu layanan infrastruktur:" },
           { t: 'ul', items: [
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — menyajikan situs web ini dan aplikasi. Seperti server web mana pun, ia memproses log permintaan standar (alamat IP, URL yang diminta, user agent) untuk mengirimkan halaman.',
           ] },
@@ -1123,12 +1227,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
     title: 'プライバシーポリシー — KulmanLab',
     desc: 'KulmanLab のデータの取り扱い：図面はお使いのデバイスに保存され、アカウントは不要です。匿名の利用統計に Google Analytics を使用し、アプリ内では Google AdSense の広告を表示します。',
     heading: 'プライバシーポリシー',
-    updated: '最終更新日：2026年7月14日',
+    updated: "最終更新日：2026年10月5日",
     summaryHeading: '要約',
     summary: [
       '図面はブラウザ内に保存され、デバイスの外に出ることはありません。作品はすべてあなたのものです。',
       'アカウントも登録もメールアドレスも不要です。私たちはあなたが誰であるかを知りません。',
       '訪問数の集計と機能の利用状況の把握のために Google Analytics を使用しています。図面の内容が見られることはありません。',
+      "アプリはクラッシュやエラーを修正できるよう Sentry に報告します。レポートにはエラー、ブラウザ、アプリのバージョンが含まれ、図面、ファイル名、あなたを特定できるものは一切含まれません。",
       'アプリは無料で、広告（Google AdSense）によって運営されています。図面が広告に使われることはなく、データを販売することも決してありません。',
     ],
     sections: [
@@ -1159,6 +1264,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
+        h: "エラー報告",
+        blocks: [
+          { t: 'p', html: "アプリ（app.kulmanlab.com）は不具合を見つけて修正するために <strong>Sentry</strong> を使用します。アプリで問題が発生すると、エラーメッセージとスタックトレース、アプリのバージョン、実行されていたウェブサイトのアドレス、ブラウザ、オペレーティングシステム、デバイスの種類、そしてエラーに至るまでのアプリ自身の操作の短い履歴（たとえばどのボタンがクリックされたか）を含むレポートが Sentry に送信されます。" },
+          { t: 'p', html: "レポートには、図面の内容、ファイル名、コンソール出力、Cookie、リクエストヘッダー、ページアドレスのパラメーター、個人情報は含まれません。アプリはこれらを収集しないよう設定されており、Sentry はエラーのみに使用し、パフォーマンストレースやセッション記録は行いません。同じ種類のエラーは 1 回の訪問につき最大 1 回、1 回の訪問につき最大 10 件までしか報告されません。レポートは米国にある Sentry のサーバーに保存され、<a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener\">Sentry のプライバシーポリシー</a> に従って処理されます。sentry.io をブロックするコンテンツブロッカーを使うとレポートは送信されず、その場合でもアプリは同じように動作します。" },
+        ],
+      },
+      {
         h: '広告',
         blocks: [
           { t: 'p', html: 'アプリ（app.kulmanlab.com）は無料で利用でき、<strong>Google AdSense</strong> を通じて配信される広告によって運営されています。当サイト（kulmanlab.com）には広告は表示されません。' },
@@ -1176,7 +1288,7 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: '第三者サービス',
         blocks: [
-          { t: 'p', html: 'Google Analytics と Google AdSense のほかに、KulmanLab は1つのインフラサービスを利用しています：' },
+          { t: 'p', html: "Google Analytics、Google AdSense、Sentry のほかに、KulmanLab は 1 つのインフラストラクチャサービスに依存しています。" },
           { t: 'ul', items: [
             '<strong>Cloudflare Pages（Cloudflare, Inc.）</strong> — 当サイトとアプリを配信しています。他のウェブサーバーと同様、ページ配信のために標準的なリクエストログ（IP アドレス、リクエスト URL、ユーザーエージェント）を処理します。',
           ] },
@@ -1208,12 +1320,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
     title: 'Polityka prywatności — KulmanLab',
     desc: 'Jak KulmanLab obchodzi się z Twoimi danymi: rysunki pozostają na Twoim urządzeniu, bez kont. Google Analytics do anonimowych statystyk użycia; reklamy w aplikacji przez Google AdSense.',
     heading: 'Polityka prywatności',
-    updated: 'Ostatnia aktualizacja: 14 lipca 2026',
+    updated: "Ostatnia aktualizacja: 5 października 2026",
     summaryHeading: 'W skrócie',
     summary: [
       'Twoje rysunki są przechowywane w przeglądarce i nigdy nie opuszczają Twojego urządzenia. Cała Twoja praca należy do Ciebie.',
       'Nie ma kont, rejestracji ani e-maila. Nie wiemy, kim jesteś.',
       'Używamy Google Analytics, aby liczyć odwiedziny i wiedzieć, które funkcje są używane. Nigdy nie widzi zawartości Twoich rysunków.',
+      "Aplikacja zgłasza awarie i błędy do Sentry, aby można je było naprawić. Raporty zawierają błąd, przeglądarkę i wersję aplikacji — nigdy Twoich rysunków, nazw plików ani niczego, co Cię identyfikuje.",
       'Aplikacja jest darmowa i finansowana z reklam (Google AdSense). Twoje rysunki nigdy nie są wykorzystywane do reklam i nigdy nie sprzedajemy Twoich danych.',
     ],
     sections: [
@@ -1244,6 +1357,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
+        h: "Raportowanie błędów",
+        blocks: [
+          { t: 'p', html: "Aplikacja (app.kulmanlab.com) używa <strong>Sentry</strong> do wykrywania i naprawiania błędów. Gdy coś w aplikacji się zepsuje, do Sentry wysyłany jest raport z komunikatem o błędzie i śladem stosu, wersją aplikacji, adresem witryny, na której działała, przeglądarką, systemem operacyjnym i typem urządzenia oraz krótkim śladem działań samej aplikacji poprzedzających błąd (na przykład który przycisk kliknięto)." },
+          { t: 'p', html: "Raporty nie zawierają zawartości Twoich rysunków, nazw plików, danych wyjściowych konsoli, plików cookie, nagłówków żądań, parametrów adresu strony ani żadnych danych osobowych — aplikacja jest skonfigurowana tak, aby ich nie zbierać, a Sentry używamy wyłącznie do błędów, bez śledzenia wydajności i bez nagrywania sesji. Każdy odrębny błąd jest zgłaszany co najwyżej raz na wizytę, a łącznie najwyżej dziesięć na wizytę. Raporty są przechowywane na serwerach Sentry w Stanach Zjednoczonych i przetwarzane zgodnie z <a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener\">Polityką prywatności Sentry</a>. Blokery treści blokujące sentry.io uniemożliwiają wysyłanie raportów, a aplikacja działa tak samo bez nich." },
+        ],
+      },
+      {
         h: 'Reklamy',
         blocks: [
           { t: 'p', html: 'Aplikacja (app.kulmanlab.com) jest darmowa i finansowana z reklam wyświetlanych za pośrednictwem <strong>Google AdSense</strong>. Ta witryna (kulmanlab.com) nie wyświetla reklam.' },
@@ -1261,7 +1381,7 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Usługi zewnętrzne',
         blocks: [
-          { t: 'p', html: 'Poza Google Analytics i Google AdSense KulmanLab korzysta z jednej usługi infrastrukturalnej:' },
+          { t: 'p', html: "Oprócz Google Analytics, Google AdSense i Sentry KulmanLab korzysta z jednej usługi infrastrukturalnej:" },
           { t: 'ul', items: [
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — serwuje tę witrynę i aplikację. Jak każdy serwer WWW przetwarza standardowe dzienniki żądań (adres IP, żądany URL, user agent), aby dostarczać strony.',
           ] },
@@ -1293,12 +1413,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
     title: '개인정보 처리방침 — KulmanLab',
     desc: 'KulmanLab의 데이터 처리 방식: 도면은 기기에 남고 계정은 없습니다. 익명 사용 통계에 Google Analytics를 사용하며, 앱에서는 Google AdSense 광고가 표시됩니다.',
     heading: '개인정보 처리방침',
-    updated: '최종 업데이트: 2026년 7월 14일',
+    updated: "최종 업데이트: 2026년 10월 5일",
     summaryHeading: '요약',
     summary: [
       '도면은 브라우저에 저장되며 기기를 벗어나지 않습니다. 모든 작업물은 당신의 것입니다.',
       '계정도, 가입도, 이메일도 없습니다. 우리는 당신이 누구인지 모릅니다.',
       '방문 수를 세고 어떤 기능이 사용되는지 파악하기 위해 Google Analytics를 사용합니다. 도면 내용은 절대 보지 않습니다.',
+      "앱은 충돌과 오류를 수정할 수 있도록 Sentry에 보고합니다. 보고서에는 오류, 브라우저, 앱 버전이 포함되며 — 도면, 파일 이름 또는 사용자를 식별할 수 있는 정보는 절대 포함되지 않습니다.",
       '앱은 무료이며 광고(Google AdSense)로 운영됩니다. 도면이 광고에 사용되는 일은 없으며, 데이터를 판매하지도 않습니다.',
     ],
     sections: [
@@ -1329,6 +1450,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
+        h: "오류 보고",
+        blocks: [
+          { t: 'p', html: "앱(app.kulmanlab.com)은 버그를 찾아 수정하기 위해 <strong>Sentry</strong>를 사용합니다. 앱에서 문제가 발생하면 오류 메시지와 스택 트레이스, 앱 버전, 실행 중이던 웹사이트 주소, 브라우저, 운영 체제 및 기기 유형, 그리고 오류에 이르기까지 앱 자체 동작의 짧은 기록(예: 어떤 버튼을 클릭했는지)이 담긴 보고서가 Sentry로 전송됩니다." },
+          { t: 'p', html: "보고서에는 도면 내용, 파일 이름, 콘솔 출력, 쿠키, 요청 헤더, 페이지 주소 매개변수 또는 어떤 개인 정보도 포함되지 않습니다. 앱은 이를 수집하지 않도록 설정되어 있으며, Sentry는 오류에만 사용하고 성능 추적이나 세션 녹화는 하지 않습니다. 서로 다른 각 오류는 방문당 최대 한 번, 방문당 최대 열 개까지만 보고됩니다. 보고서는 미국에 있는 Sentry 서버에 저장되며 <a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener\">Sentry 개인정보 처리방침</a>에 따라 처리됩니다. sentry.io를 차단하는 콘텐츠 차단기는 보고서 전송을 막으며, 앱은 그 없이도 동일하게 작동합니다." },
+        ],
+      },
+      {
         h: '광고',
         blocks: [
           { t: 'p', html: '앱(app.kulmanlab.com)은 무료이며 <strong>Google AdSense</strong>를 통해 게재되는 광고로 운영됩니다. 이 웹사이트(kulmanlab.com)에는 광고가 표시되지 않습니다.' },
@@ -1346,7 +1474,7 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: '제3자 서비스',
         blocks: [
-          { t: 'p', html: 'Google Analytics와 Google AdSense 외에 KulmanLab은 한 가지 인프라 서비스를 사용합니다:' },
+          { t: 'p', html: "Google Analytics, Google AdSense, Sentry 외에도 KulmanLab은 한 가지 인프라 서비스에 의존합니다." },
           { t: 'ul', items: [
             '<strong>Cloudflare Pages(Cloudflare, Inc.)</strong> — 이 웹사이트와 앱을 제공합니다. 다른 웹 서버와 마찬가지로 페이지 전송을 위해 표준 요청 로그(IP 주소, 요청 URL, 사용자 에이전트)를 처리합니다.',
           ] },
@@ -1378,12 +1506,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
     title: 'Chính sách quyền riêng tư — KulmanLab',
     desc: 'Cách KulmanLab xử lý dữ liệu của bạn: bản vẽ ở lại trên thiết bị, không có tài khoản. Google Analytics cho số liệu sử dụng ẩn danh; quảng cáo trong ứng dụng qua Google AdSense.',
     heading: 'Chính sách quyền riêng tư',
-    updated: 'Cập nhật lần cuối: 14 tháng 7, 2026',
+    updated: "Cập nhật lần cuối: 5 tháng 10, 2026",
     summaryHeading: 'Tóm tắt',
     summary: [
       'Bản vẽ của bạn được lưu trong trình duyệt và không bao giờ rời khỏi thiết bị. Mọi thành quả đều thuộc về bạn.',
       'Không có tài khoản, không đăng ký, không email. Chúng tôi không biết bạn là ai.',
       'Chúng tôi dùng Google Analytics để đếm lượt truy cập và hiểu tính năng nào được sử dụng. Nó không bao giờ thấy nội dung bản vẽ của bạn.',
+      "Ứng dụng báo cáo sự cố và lỗi cho Sentry để có thể sửa chúng. Báo cáo gồm lỗi, trình duyệt và phiên bản ứng dụng — không bao giờ có bản vẽ, tên tệp của bạn hay bất cứ thứ gì nhận dạng bạn.",
       'Ứng dụng miễn phí và được duy trì bằng quảng cáo (Google AdSense). Bản vẽ của bạn không bao giờ bị dùng cho quảng cáo, và chúng tôi không bao giờ bán dữ liệu của bạn.',
     ],
     sections: [
@@ -1414,6 +1543,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
+        h: "Báo cáo lỗi",
+        blocks: [
+          { t: 'p', html: "Ứng dụng (app.kulmanlab.com) dùng <strong>Sentry</strong> để tìm và sửa lỗi. Khi có sự cố trong ứng dụng, một báo cáo được gửi đến Sentry gồm thông báo lỗi và stack trace, phiên bản ứng dụng, địa chỉ trang web mà nó đang chạy, trình duyệt, hệ điều hành và loại thiết bị, cùng một dấu vết ngắn về các hành động của chính ứng dụng trước khi lỗi xảy ra (ví dụ nút nào đã được nhấp)." },
+          { t: 'p', html: "Báo cáo không bao gồm nội dung bản vẽ, tên tệp, đầu ra bảng điều khiển, cookie, tiêu đề yêu cầu, tham số địa chỉ trang hay bất kỳ thông tin cá nhân nào — ứng dụng được cấu hình để không thu thập chúng, và chúng tôi chỉ dùng Sentry cho lỗi, không theo dõi hiệu năng và không ghi lại phiên. Mỗi lỗi khác nhau được báo cáo tối đa một lần mỗi lượt truy cập, và tối đa mười lỗi mỗi lượt truy cập. Báo cáo được lưu trên máy chủ của Sentry tại Hoa Kỳ và được xử lý theo <a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener\">Chính sách quyền riêng tư của Sentry</a>. Trình chặn nội dung chặn sentry.io sẽ ngăn báo cáo được gửi, và ứng dụng hoạt động như cũ khi không có chúng." },
+        ],
+      },
+      {
         h: 'Quảng cáo',
         blocks: [
           { t: 'p', html: 'Ứng dụng (app.kulmanlab.com) miễn phí sử dụng và được duy trì bằng quảng cáo phân phối qua <strong>Google AdSense</strong>. Trang web này (kulmanlab.com) không hiển thị quảng cáo.' },
@@ -1431,7 +1567,7 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Dịch vụ bên thứ ba',
         blocks: [
-          { t: 'p', html: 'Ngoài Google Analytics và Google AdSense, KulmanLab dựa vào một dịch vụ hạ tầng:' },
+          { t: 'p', html: "Ngoài Google Analytics, Google AdSense và Sentry, KulmanLab dựa vào một dịch vụ hạ tầng:" },
           { t: 'ul', items: [
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — phục vụ trang web này và ứng dụng. Như mọi máy chủ web, nó xử lý nhật ký yêu cầu tiêu chuẩn (địa chỉ IP, URL được yêu cầu, user agent) để phân phối trang.',
           ] },
@@ -1463,12 +1599,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
     title: 'นโยบายความเป็นส่วนตัว — KulmanLab',
     desc: 'KulmanLab จัดการข้อมูลของคุณอย่างไร: แบบเขียนอยู่บนอุปกรณ์ของคุณ ไม่มีบัญชี ใช้ Google Analytics เก็บสถิติการใช้งานแบบไม่ระบุตัวตน และมีโฆษณาในแอปผ่าน Google AdSense',
     heading: 'นโยบายความเป็นส่วนตัว',
-    updated: 'อัปเดตล่าสุด: 14 กรกฎาคม 2026',
+    updated: "อัปเดตล่าสุด: 5 ตุลาคม 2026",
     summaryHeading: 'สรุปสั้น ๆ',
     summary: [
       'แบบเขียนของคุณถูกเก็บในเบราว์เซอร์และไม่มีวันออกจากอุปกรณ์ของคุณ ผลงานทั้งหมดเป็นของคุณ',
       'ไม่มีบัญชี ไม่ต้องสมัครสมาชิก ไม่ต้องใช้อีเมล เราไม่รู้ว่าคุณเป็นใคร',
       'เราใช้ Google Analytics เพื่อนับจำนวนผู้เข้าชมและดูว่าฟีเจอร์ใดถูกใช้งาน มันไม่มีวันเห็นเนื้อหาแบบเขียนของคุณ',
+      "แอปรายงานการขัดข้องและข้อผิดพลาดไปยัง Sentry เพื่อให้แก้ไขได้ รายงานประกอบด้วยข้อผิดพลาด เบราว์เซอร์ และเวอร์ชันของแอป — ไม่มีแบบร่าง ชื่อไฟล์ หรือสิ่งใดที่ระบุตัวตนของคุณเลย",
       'แอปใช้งานฟรีและอยู่ได้ด้วยโฆษณา (Google AdSense) แบบเขียนของคุณไม่มีวันถูกใช้เพื่อโฆษณา และเราไม่มีวันขายข้อมูลของคุณ',
     ],
     sections: [
@@ -1499,6 +1636,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
+        h: "การรายงานข้อผิดพลาด",
+        blocks: [
+          { t: 'p', html: "แอป (app.kulmanlab.com) ใช้ <strong>Sentry</strong> เพื่อค้นหาและแก้ไขบั๊ก เมื่อมีบางอย่างในแอปเสียหาย จะมีรายงานส่งไปยัง Sentry ซึ่งประกอบด้วยข้อความแสดงข้อผิดพลาดและ stack trace เวอร์ชันของแอป ที่อยู่เว็บไซต์ที่แอปทำงานอยู่ เบราว์เซอร์ ระบบปฏิบัติการ และประเภทอุปกรณ์ รวมถึงร่องรอยสั้น ๆ ของการกระทำของแอปเองก่อนเกิดข้อผิดพลาด (เช่น ปุ่มใดถูกคลิก)" },
+          { t: 'p', html: "รายงานไม่รวมเนื้อหาแบบร่างของคุณ ชื่อไฟล์ เอาต์พุตของคอนโซล คุกกี้ เฮดเดอร์คำขอ พารามิเตอร์ของที่อยู่หน้า หรือข้อมูลส่วนบุคคลใด ๆ — แอปถูกตั้งค่าไม่ให้เก็บสิ่งเหล่านี้ และเราใช้ Sentry สำหรับข้อผิดพลาดเท่านั้น โดยไม่มีการติดตามประสิทธิภาพและไม่บันทึกเซสชัน ข้อผิดพลาดที่แตกต่างกันแต่ละรายการจะถูกรายงานไม่เกินหนึ่งครั้งต่อการเข้าชม และไม่เกินสิบครั้งต่อการเข้าชม รายงานถูกจัดเก็บบนเซิร์ฟเวอร์ของ Sentry ในสหรัฐอเมริกาและประมวลผลตาม <a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener\">นโยบายความเป็นส่วนตัวของ Sentry</a> ตัวบล็อกเนื้อหาที่บล็อก sentry.io จะป้องกันไม่ให้ส่งรายงาน และแอปทำงานเหมือนเดิมแม้ไม่มีรายงานเหล่านั้น" },
+        ],
+      },
+      {
         h: 'โฆษณา',
         blocks: [
           { t: 'p', html: 'แอป (app.kulmanlab.com) ใช้งานฟรีและอยู่ได้ด้วยโฆษณาที่แสดงผ่าน <strong>Google AdSense</strong> เว็บไซต์นี้ (kulmanlab.com) ไม่แสดงโฆษณา' },
@@ -1516,7 +1660,7 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'บริการของบุคคลที่สาม',
         blocks: [
-          { t: 'p', html: 'นอกจาก Google Analytics และ Google AdSense แล้ว KulmanLab ยังพึ่งพาบริการโครงสร้างพื้นฐานหนึ่งอย่าง:' },
+          { t: 'p', html: "นอกจาก Google Analytics, Google AdSense และ Sentry แล้ว KulmanLab ยังพึ่งพาบริการโครงสร้างพื้นฐานหนึ่งรายการ:" },
           { t: 'ul', items: [
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — ให้บริการเว็บไซต์นี้และแอป เช่นเดียวกับเว็บเซิร์ฟเวอร์ทั่วไป มันประมวลผลบันทึกคำขอมาตรฐาน (ที่อยู่ IP, URL ที่ขอ, user agent) เพื่อส่งมอบหน้าเว็บ',
           ] },
@@ -1548,12 +1692,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
     title: 'Dasar Privasi — KulmanLab',
     desc: 'Cara KulmanLab mengendalikan data anda: lukisan kekal pada peranti anda, tiada akaun. Google Analytics untuk metrik penggunaan tanpa nama; iklan dalam aplikasi melalui Google AdSense.',
     heading: 'Dasar Privasi',
-    updated: 'Kemas kini terakhir: 14 Julai 2026',
+    updated: "Kemas kini terakhir: 5 Oktober 2026",
     summaryHeading: 'Versi ringkas',
     summary: [
       'Lukisan anda disimpan dalam pelayar dan tidak pernah meninggalkan peranti anda. Semua hasil kerja anda adalah milik anda.',
       'Tiada akaun, tiada pendaftaran dan tiada e-mel. Kami tidak tahu siapa anda.',
       'Kami menggunakan Google Analytics untuk mengira lawatan dan memahami ciri yang digunakan. Ia tidak pernah melihat kandungan lukisan anda.',
+      "Aplikasi melaporkan ranap dan ralat kepada Sentry supaya ia boleh dibaiki. Laporan mengandungi ralat, pelayar dan versi aplikasi — tidak sekali-kali lukisan anda, nama fail, atau apa-apa yang mengenal pasti anda.",
       'Aplikasi ini percuma dan dibiayai oleh iklan (Google AdSense). Lukisan anda tidak pernah digunakan untuk pengiklanan, dan kami tidak pernah menjual data anda.',
     ],
     sections: [
@@ -1584,6 +1729,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
+        h: "Pelaporan ralat",
+        blocks: [
+          { t: 'p', html: "Aplikasi (app.kulmanlab.com) menggunakan <strong>Sentry</strong> untuk mencari dan membaiki pepijat. Apabila sesuatu dalam aplikasi rosak, laporan dihantar kepada Sentry yang mengandungi mesej ralat dan jejak tindanan, versi aplikasi, alamat tapak web tempat ia berjalan, pelayar, sistem pengendalian dan jenis peranti, serta jejak ringkas tindakan aplikasi itu sendiri sebelum ralat (contohnya butang mana yang diklik)." },
+          { t: 'p', html: "Laporan tidak termasuk kandungan lukisan anda, nama fail, output konsol, kuki, pengepala permintaan, parameter alamat halaman atau sebarang maklumat peribadi — aplikasi dikonfigurasikan supaya tidak mengumpulnya, dan kami menggunakan Sentry untuk ralat sahaja, tanpa penjejakan prestasi dan tanpa rakaman sesi. Setiap ralat yang berbeza dilaporkan paling banyak sekali setiap lawatan, dan paling banyak sepuluh setiap lawatan. Laporan disimpan pada pelayan Sentry di Amerika Syarikat dan diproses mengikut <a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener\">Dasar Privasi Sentry</a>. Penyekat kandungan yang menyekat sentry.io menghalang laporan daripada dihantar, dan aplikasi berfungsi sama tanpanya." },
+        ],
+      },
+      {
         h: 'Pengiklanan',
         blocks: [
           { t: 'p', html: 'Aplikasi (app.kulmanlab.com) percuma untuk digunakan dan dibiayai oleh iklan yang disiarkan melalui <strong>Google AdSense</strong>. Laman web ini (kulmanlab.com) tidak memaparkan iklan.' },
@@ -1601,7 +1753,7 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Perkhidmatan pihak ketiga',
         blocks: [
-          { t: 'p', html: 'Selain Google Analytics dan Google AdSense, KulmanLab bergantung pada satu perkhidmatan infrastruktur:' },
+          { t: 'p', html: "Selain Google Analytics, Google AdSense dan Sentry, KulmanLab bergantung pada satu perkhidmatan infrastruktur:" },
           { t: 'ul', items: [
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — menyajikan laman web ini dan aplikasi. Seperti mana-mana pelayan web, ia memproses log permintaan standard (alamat IP, URL yang diminta, ejen pengguna) untuk menghantar halaman.',
           ] },
@@ -1633,12 +1785,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
     title: 'গোপনীয়তা নীতি — KulmanLab',
     desc: 'KulmanLab আপনার ডেটা কীভাবে সামলায়: অঙ্কন আপনার ডিভাইসেই থাকে, কোনো অ্যাকাউন্ট নেই। বেনামি ব্যবহার পরিসংখ্যানের জন্য Google Analytics; অ্যাপে Google AdSense-এর বিজ্ঞাপন।',
     heading: 'গোপনীয়তা নীতি',
-    updated: 'সর্বশেষ আপডেট: ১৪ জুলাই ২০২৬',
+    updated: "সর্বশেষ আপডেট: ৫ অক্টোবর ২০২৬",
     summaryHeading: 'সংক্ষেপে',
     summary: [
       'আপনার অঙ্কন আপনার ব্রাউজারে সংরক্ষিত হয় এবং কখনো আপনার ডিভাইস ছেড়ে যায় না। আপনার সব কাজ আপনারই।',
       'কোনো অ্যাকাউন্ট নেই, সাইন-আপ নেই, ইমেইল নেই। আমরা জানি না আপনি কে।',
       'ভিজিট গণনা এবং কোন ফিচার ব্যবহৃত হয় তা বোঝার জন্য আমরা Google Analytics ব্যবহার করি। এটি কখনো আপনার অঙ্কনের বিষয়বস্তু দেখে না।',
+      "অ্যাপটি ক্র্যাশ ও ত্রুটি Sentry-তে রিপোর্ট করে, যাতে সেগুলো ঠিক করা যায়। রিপোর্টে থাকে ত্রুটি, ব্রাউজার ও অ্যাপের সংস্করণ — আপনার ড্রয়িং, ফাইলের নাম বা আপনাকে শনাক্ত করে এমন কিছুই কখনও থাকে না।",
       'অ্যাপটি বিনামূল্যের এবং বিজ্ঞাপনে (Google AdSense) চলে। আপনার অঙ্কন কখনো বিজ্ঞাপনের জন্য ব্যবহৃত হয় না, এবং আমরা কখনো আপনার ডেটা বিক্রি করি না।',
     ],
     sections: [
@@ -1669,6 +1822,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
+        h: "ত্রুটি রিপোর্টিং",
+        blocks: [
+          { t: 'p', html: "অ্যাপটি (app.kulmanlab.com) বাগ খুঁজে বের করে ঠিক করতে <strong>Sentry</strong> ব্যবহার করে। অ্যাপে কিছু ভেঙে গেলে Sentry-তে একটি রিপোর্ট পাঠানো হয়, যাতে থাকে ত্রুটির বার্তা ও স্ট্যাক ট্রেস, অ্যাপের সংস্করণ, যে ওয়েবসাইট ঠিকানায় এটি চলছিল, ব্রাউজার, অপারেটিং সিস্টেম ও ডিভাইসের ধরন, এবং ত্রুটির আগে অ্যাপের নিজস্ব কার্যকলাপের একটি সংক্ষিপ্ত ধারা (যেমন কোন বোতামে ক্লিক করা হয়েছিল)।" },
+          { t: 'p', html: "রিপোর্টে আপনার ড্রয়িংয়ের বিষয়বস্তু, ফাইলের নাম, কনসোল আউটপুট, কুকি, অনুরোধ হেডার, পৃষ্ঠার ঠিকানার প্যারামিটার বা কোনো ব্যক্তিগত তথ্য থাকে না — অ্যাপটি এগুলো সংগ্রহ না করার জন্য কনফিগার করা, এবং আমরা Sentry শুধু ত্রুটির জন্য ব্যবহার করি, পারফরম্যান্স ট্রেসিং বা সেশন রেকর্ডিং ছাড়াই। প্রতিটি আলাদা ত্রুটি প্রতি ভিজিটে সর্বোচ্চ একবার, এবং প্রতি ভিজিটে সর্বোচ্চ দশটি রিপোর্ট করা হয়। রিপোর্ট যুক্তরাষ্ট্রে Sentry-র সার্ভারে সংরক্ষিত হয় এবং <a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener\">Sentry-র গোপনীয়তা নীতি</a> অনুযায়ী প্রক্রিয়া করা হয়। sentry.io ব্লক করা কনটেন্ট ব্লকার রিপোর্ট পাঠানো আটকে দেয়, এবং সেগুলো ছাড়াও অ্যাপ একইভাবে কাজ করে।" },
+        ],
+      },
+      {
         h: 'বিজ্ঞাপন',
         blocks: [
           { t: 'p', html: 'অ্যাপটি (app.kulmanlab.com) বিনামূল্যে ব্যবহারযোগ্য এবং <strong>Google AdSense</strong>-এর মাধ্যমে প্রদর্শিত বিজ্ঞাপনে চলে। এই ওয়েবসাইট (kulmanlab.com) কোনো বিজ্ঞাপন দেখায় না।' },
@@ -1686,7 +1846,7 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'তৃতীয় পক্ষের পরিষেবা',
         blocks: [
-          { t: 'p', html: 'Google Analytics ও Google AdSense ছাড়াও KulmanLab একটি অবকাঠামো পরিষেবার উপর নির্ভর করে:' },
+          { t: 'p', html: "Google Analytics, Google AdSense ও Sentry ছাড়াও KulmanLab একটি অবকাঠামো পরিষেবার উপর নির্ভর করে:" },
           { t: 'ul', items: [
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — এই ওয়েবসাইট ও অ্যাপ পরিবেশন করে। যেকোনো ওয়েব সার্ভারের মতো, পৃষ্ঠা পৌঁছে দিতে এটি প্রমিত অনুরোধ লগ (IP ঠিকানা, অনুরোধকৃত URL, ইউজার এজেন্ট) প্রক্রিয়া করে।',
           ] },
@@ -1718,12 +1878,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
     title: 'Sera ya Faragha — KulmanLab',
     desc: 'Jinsi KulmanLab inavyoshughulikia data yako: michoro hukaa kwenye kifaa chako, hakuna akaunti. Google Analytics kwa takwimu za matumizi zisizo na utambulisho; matangazo ndani ya programu kupitia Google AdSense.',
     heading: 'Sera ya Faragha',
-    updated: 'Ilisasishwa mwisho: 14 Julai 2026',
+    updated: "Ilisasishwa mwisho: 5 Oktoba 2026",
     summaryHeading: 'Toleo fupi',
     summary: [
       'Michoro yako huhifadhiwa kwenye kivinjari chako na kamwe haiondoki kwenye kifaa chako. Kazi yako yote ni mali yako.',
       'Hakuna akaunti, hakuna usajili, wala barua pepe. Hatujui wewe ni nani.',
       'Tunatumia Google Analytics kuhesabu wageni na kuelewa vipengele vinavyotumika. Kamwe haioni maudhui ya michoro yako.',
+      "Programu huripoti hitilafu na kuharibika kwa programu kwa Sentry ili ziweze kurekebishwa. Ripoti zina hitilafu, kivinjari na toleo la programu — kamwe hazina michoro yako, majina ya faili, wala chochote kinachokutambulisha.",
       'Programu ni ya bure na inagharamiwa na matangazo (Google AdSense). Michoro yako kamwe haitumiki kwa matangazo, na kamwe hatuuzi data yako.',
     ],
     sections: [
@@ -1754,6 +1915,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
+        h: "Kuripoti hitilafu",
+        blocks: [
+          { t: 'p', html: "Programu (app.kulmanlab.com) hutumia <strong>Sentry</strong> kutafuta na kurekebisha hitilafu. Kitu kikiharibika katika programu, ripoti hutumwa kwa Sentry yenye ujumbe wa hitilafu na stack trace, toleo la programu, anwani ya tovuti ilipokuwa ikifanya kazi, kivinjari, mfumo wa uendeshaji na aina ya kifaa, pamoja na mfuatano mfupi wa vitendo vya programu yenyewe kabla ya hitilafu (kwa mfano ni kitufe kipi kilibofya)." },
+          { t: 'p', html: "Ripoti hazijumuishi maudhui ya michoro yako, majina ya faili, matokeo ya kiweko, vidakuzi, vichwa vya ombi, vigezo vya anwani ya ukurasa, wala taarifa yoyote binafsi — programu imewekwa isizikusanye, na tunatumia Sentry kwa hitilafu pekee, bila ufuatiliaji wa utendaji na bila kurekodi vikao. Kila hitilafu tofauti huripotiwa mara moja kwa kiwango cha juu kwa kila ziara, na kumi kwa kiwango cha juu kwa kila ziara. Ripoti huhifadhiwa kwenye seva za Sentry nchini Marekani na kuchakatwa kwa mujibu wa <a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener\">Sera ya Faragha ya Sentry</a>. Vizuizi vya maudhui vinavyozuia sentry.io huzuia ripoti kutumwa, na programu hufanya kazi vivyo hivyo bila hizo." },
+        ],
+      },
+      {
         h: 'Matangazo',
         blocks: [
           { t: 'p', html: 'Programu (app.kulmanlab.com) ni ya bure kutumia na inagharamiwa na matangazo yanayoonyeshwa kupitia <strong>Google AdSense</strong>. Tovuti hii (kulmanlab.com) haionyeshi matangazo.' },
@@ -1771,7 +1939,7 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Huduma za wahusika wengine',
         blocks: [
-          { t: 'p', html: 'Mbali na Google Analytics na Google AdSense, KulmanLab hutegemea huduma moja ya miundombinu:' },
+          { t: 'p', html: "Mbali na Google Analytics, Google AdSense na Sentry, KulmanLab hutegemea huduma moja ya miundombinu:" },
           { t: 'ul', items: [
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — huhudumia tovuti hii na programu. Kama seva yoyote ya wavuti, huchakata kumbukumbu za maombi za kawaida (anwani ya IP, URL iliyoombwa, user agent) ili kuwasilisha kurasa.',
           ] },
@@ -1803,12 +1971,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
     title: 'رازداری کی پالیسی — KulmanLab',
     desc: 'KulmanLab آپ کے ڈیٹا کو کیسے سنبھالتا ہے: ڈرائنگز آپ کے آلے پر رہتی ہیں، کوئی اکاؤنٹ نہیں۔ گمنام استعمال کے اعداد و شمار کے لیے Google Analytics؛ ایپ میں Google AdSense کے اشتہارات۔',
     heading: 'رازداری کی پالیسی',
-    updated: 'آخری تازہ کاری: 14 جولائی 2026',
+    updated: "آخری تازہ کاری: 5 اکتوبر 2026",
     summaryHeading: 'مختصر خلاصہ',
     summary: [
       'آپ کی ڈرائنگز آپ کے براؤزر میں محفوظ ہوتی ہیں اور کبھی آپ کے آلے سے باہر نہیں جاتیں۔ آپ کا سارا کام آپ کی ملکیت ہے۔',
       'نہ کوئی اکاؤنٹ ہے، نہ سائن اپ، نہ ای میل۔ ہم نہیں جانتے کہ آپ کون ہیں۔',
       'ہم وزٹ گننے اور یہ سمجھنے کے لیے کہ کون سے فیچر استعمال ہوتے ہیں Google Analytics استعمال کرتے ہیں۔ یہ آپ کی ڈرائنگ کا مواد کبھی نہیں دیکھتا۔',
+      "ایپ کریش اور خرابیوں کی اطلاع Sentry کو دیتی ہے تاکہ انہیں ٹھیک کیا جا سکے۔ رپورٹس میں خرابی، براؤزر اور ایپ کا ورژن ہوتا ہے — آپ کی ڈرائنگز، فائل کے نام یا آپ کی شناخت کرنے والی کوئی چیز کبھی نہیں ہوتی۔",
       'ایپ مفت ہے اور اشتہارات (Google AdSense) سے چلتی ہے۔ آپ کی ڈرائنگز کبھی اشتہارات کے لیے استعمال نہیں ہوتیں، اور ہم آپ کا ڈیٹا کبھی نہیں بیچتے۔',
     ],
     sections: [
@@ -1839,6 +2008,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
+        h: "خرابی کی رپورٹنگ",
+        blocks: [
+          { t: 'p', html: "ایپ (app.kulmanlab.com) بگز تلاش کرنے اور ٹھیک کرنے کے لیے <strong>Sentry</strong> استعمال کرتی ہے۔ جب ایپ میں کچھ خراب ہوتا ہے تو Sentry کو ایک رپورٹ بھیجی جاتی ہے جس میں خرابی کا پیغام اور اسٹیک ٹریس، ایپ کا ورژن، وہ ویب سائٹ ایڈریس جس پر یہ چل رہی تھی، براؤزر، آپریٹنگ سسٹم اور ڈیوائس کی قسم، اور خرابی سے پہلے ایپ کے اپنے اقدامات کا مختصر سلسلہ (مثلاً کون سا بٹن کلک کیا گیا) شامل ہوتا ہے۔" },
+          { t: 'p', html: "رپورٹس میں آپ کی ڈرائنگز کا مواد، فائل کے نام، کنسول آؤٹ پٹ، کوکیز، ریکویسٹ ہیڈرز، صفحے کے ایڈریس کے پیرامیٹرز یا کوئی ذاتی معلومات شامل نہیں ہوتیں — ایپ کو انہیں جمع نہ کرنے کے لیے ترتیب دیا گیا ہے، اور ہم Sentry صرف خرابیوں کے لیے استعمال کرتے ہیں، کارکردگی کی ٹریسنگ یا سیشن ریکارڈنگ کے بغیر۔ ہر الگ خرابی فی وزٹ زیادہ سے زیادہ ایک بار، اور فی وزٹ زیادہ سے زیادہ دس بار رپورٹ کی جاتی ہے۔ رپورٹس Sentry کے ریاستہائے متحدہ میں موجود سرورز پر محفوظ ہوتی ہیں اور <a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener\">Sentry کی رازداری کی پالیسی</a> کے تحت پراسیس کی جاتی ہیں۔ sentry.io کو بلاک کرنے والے کنٹینٹ بلاکرز رپورٹس کو بھیجے جانے سے روکتے ہیں، اور ایپ ان کے بغیر بھی اسی طرح کام کرتی ہے۔" },
+        ],
+      },
+      {
         h: 'اشتہارات',
         blocks: [
           { t: 'p', html: 'ایپ (app.kulmanlab.com) استعمال کے لیے مفت ہے اور <strong>Google AdSense</strong> کے ذریعے دکھائے جانے والے اشتہارات سے چلتی ہے۔ یہ ویب سائٹ (kulmanlab.com) اشتہارات نہیں دکھاتی۔' },
@@ -1856,7 +2032,7 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'فریق ثالث کی خدمات',
         blocks: [
-          { t: 'p', html: 'Google Analytics اور Google AdSense کے علاوہ KulmanLab ایک بنیادی ڈھانچے کی خدمت پر انحصار کرتا ہے:' },
+          { t: 'p', html: "Google Analytics، Google AdSense اور Sentry کے علاوہ، KulmanLab ایک انفراسٹرکچر سروس پر انحصار کرتی ہے:" },
           { t: 'ul', items: [
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — یہ ویب سائٹ اور ایپ فراہم کرتا ہے۔ کسی بھی ویب سرور کی طرح، صفحات پہنچانے کے لیے یہ معیاری درخواستی لاگز (IP پتا، درخواست کردہ URL، یوزر ایجنٹ) پروسیس کرتا ہے۔',
           ] },
@@ -1888,12 +2064,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
     title: 'Πολιτική Απορρήτου — KulmanLab',
     desc: 'Πώς το KulmanLab χειρίζεται τα δεδομένα σας: τα σχέδια μένουν στη συσκευή σας, χωρίς λογαριασμούς. Google Analytics για ανώνυμα στατιστικά χρήσης· διαφημίσεις στην εφαρμογή μέσω Google AdSense.',
     heading: 'Πολιτική Απορρήτου',
-    updated: 'Τελευταία ενημέρωση: 14 Ιουλίου 2026',
+    updated: "Τελευταία ενημέρωση: 5 Οκτωβρίου 2026",
     summaryHeading: 'Η σύντομη εκδοχή',
     summary: [
       'Τα σχέδιά σας αποθηκεύονται στον περιηγητή σας και δεν φεύγουν ποτέ από τη συσκευή σας. Όλη η δουλειά σας ανήκει σε εσάς.',
       'Δεν υπάρχουν λογαριασμοί, εγγραφή ή email. Δεν ξέρουμε ποιοι είστε.',
       'Χρησιμοποιούμε το Google Analytics για να μετράμε επισκέψεις και να καταλαβαίνουμε ποιες λειτουργίες χρησιμοποιούνται. Δεν βλέπει ποτέ το περιεχόμενο των σχεδίων σας.',
+      "Η εφαρμογή αναφέρει καταρρεύσεις και σφάλματα στο Sentry ώστε να μπορούν να διορθωθούν. Οι αναφορές περιέχουν το σφάλμα, το πρόγραμμα περιήγησης και την έκδοση της εφαρμογής — ποτέ τα σχέδιά σας, τα ονόματα αρχείων ή οτιδήποτε σας προσδιορίζει.",
       'Η εφαρμογή είναι δωρεάν και χρηματοδοτείται από διαφημίσεις (Google AdSense). Τα σχέδιά σας δεν χρησιμοποιούνται ποτέ για διαφημίσεις και δεν πουλάμε ποτέ τα δεδομένα σας.',
     ],
     sections: [
@@ -1924,6 +2101,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
+        h: "Αναφορά σφαλμάτων",
+        blocks: [
+          { t: 'p', html: "Η εφαρμογή (app.kulmanlab.com) χρησιμοποιεί το <strong>Sentry</strong> για να εντοπίζει και να διορθώνει σφάλματα. Όταν κάτι στην εφαρμογή χαλάσει, στέλνεται στο Sentry μια αναφορά με το μήνυμα σφάλματος και το ίχνος στοίβας, την έκδοση της εφαρμογής, τη διεύθυνση του ιστότοπου στον οποίο εκτελούνταν, το πρόγραμμα περιήγησης, το λειτουργικό σύστημα και τον τύπο συσκευής, καθώς και ένα σύντομο ίχνος των ενεργειών της ίδιας της εφαρμογής πριν από το σφάλμα (για παράδειγμα, ποιο κουμπί πατήθηκε)." },
+          { t: 'p', html: "Οι αναφορές δεν περιλαμβάνουν το περιεχόμενο των σχεδίων σας, ονόματα αρχείων, έξοδο κονσόλας, cookies, κεφαλίδες αιτημάτων, παραμέτρους της διεύθυνσης της σελίδας ούτε οποιαδήποτε προσωπική πληροφορία — η εφαρμογή έχει ρυθμιστεί να μην τα συλλέγει, και χρησιμοποιούμε το Sentry μόνο για σφάλματα, χωρίς ίχνη απόδοσης και χωρίς εγγραφή συνεδριών. Κάθε διαφορετικό σφάλμα αναφέρεται το πολύ μία φορά ανά επίσκεψη, και το πολύ δέκα ανά επίσκεψη. Οι αναφορές αποθηκεύονται στους διακομιστές του Sentry στις Ηνωμένες Πολιτείες και υποβάλλονται σε επεξεργασία σύμφωνα με την <a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener\">Πολιτική Απορρήτου του Sentry</a>. Οι αποκλειστές περιεχομένου που αποκλείουν το sentry.io εμποδίζουν την αποστολή αναφορών, και η εφαρμογή λειτουργεί το ίδιο χωρίς αυτές." },
+        ],
+      },
+      {
         h: 'Διαφημίσεις',
         blocks: [
           { t: 'p', html: 'Η εφαρμογή (app.kulmanlab.com) είναι δωρεάν και χρηματοδοτείται από διαφημίσεις που προβάλλονται μέσω του <strong>Google AdSense</strong>. Αυτός ο ιστότοπος (kulmanlab.com) δεν εμφανίζει διαφημίσεις.' },
@@ -1941,7 +2125,7 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Υπηρεσίες τρίτων',
         blocks: [
-          { t: 'p', html: 'Εκτός από τα Google Analytics και Google AdSense, το KulmanLab βασίζεται σε μία υπηρεσία υποδομής:' },
+          { t: 'p', html: "Εκτός από το Google Analytics, το Google AdSense και το Sentry, το KulmanLab βασίζεται σε μία υπηρεσία υποδομής:" },
           { t: 'ul', items: [
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — εξυπηρετεί αυτόν τον ιστότοπο και την εφαρμογή. Όπως κάθε διακομιστής ιστού, επεξεργάζεται τυπικά αρχεία καταγραφής αιτημάτων (διεύθυνση IP, ζητούμενο URL, user agent) για την παράδοση των σελίδων.',
           ] },
@@ -1973,12 +2157,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
     title: 'ਪਰਦੇਦਾਰੀ ਨੀਤੀ — KulmanLab',
     desc: 'KulmanLab ਤੁਹਾਡੇ ਡੇਟਾ ਨੂੰ ਕਿਵੇਂ ਸੰਭਾਲਦਾ ਹੈ: ਡਰਾਇੰਗਾਂ ਤੁਹਾਡੀ ਡਿਵਾਈਸ ਤੇ ਰਹਿੰਦੀਆਂ ਹਨ, ਕੋਈ ਖਾਤਾ ਨਹੀਂ। ਗੁਮਨਾਮ ਵਰਤੋਂ ਅੰਕੜਿਆਂ ਲਈ Google Analytics; ਐਪ ਵਿੱਚ Google AdSense ਰਾਹੀਂ ਇਸ਼ਤਿਹਾਰ।',
     heading: 'ਪਰਦੇਦਾਰੀ ਨੀਤੀ',
-    updated: 'ਆਖਰੀ ਅੱਪਡੇਟ: 14 ਜੁਲਾਈ 2026',
+    updated: "ਆਖਰੀ ਅੱਪਡੇਟ: 5 ਅਕਤੂਬਰ 2026",
     summaryHeading: 'ਸੰਖੇਪ ਵਿੱਚ',
     summary: [
       'ਤੁਹਾਡੀਆਂ ਡਰਾਇੰਗਾਂ ਤੁਹਾਡੇ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਸਟੋਰ ਹੁੰਦੀਆਂ ਹਨ ਅਤੇ ਕਦੇ ਵੀ ਤੁਹਾਡੀ ਡਿਵਾਈਸ ਤੋਂ ਬਾਹਰ ਨਹੀਂ ਜਾਂਦੀਆਂ। ਤੁਹਾਡਾ ਸਾਰਾ ਕੰਮ ਤੁਹਾਡਾ ਹੈ।',
       'ਕੋਈ ਖਾਤਾ ਨਹੀਂ, ਕੋਈ ਸਾਈਨ-ਅੱਪ ਨਹੀਂ, ਕੋਈ ਈਮੇਲ ਨਹੀਂ। ਸਾਨੂੰ ਨਹੀਂ ਪਤਾ ਕਿ ਤੁਸੀਂ ਕੌਣ ਹੋ।',
       'ਅਸੀਂ ਮੁਲਾਕਾਤਾਂ ਗਿਣਨ ਅਤੇ ਇਹ ਸਮਝਣ ਲਈ ਕਿ ਕਿਹੜੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਵਰਤੀਆਂ ਜਾਂਦੀਆਂ ਹਨ, Google Analytics ਵਰਤਦੇ ਹਾਂ। ਇਹ ਤੁਹਾਡੀ ਡਰਾਇੰਗ ਦੀ ਸਮੱਗਰੀ ਕਦੇ ਨਹੀਂ ਦੇਖਦਾ।',
+      "ਐਪ ਕ੍ਰੈਸ਼ ਅਤੇ ਗਲਤੀਆਂ ਦੀ ਰਿਪੋਰਟ Sentry ਨੂੰ ਭੇਜਦੀ ਹੈ ਤਾਂ ਜੋ ਉਹਨਾਂ ਨੂੰ ਠੀਕ ਕੀਤਾ ਜਾ ਸਕੇ। ਰਿਪੋਰਟਾਂ ਵਿੱਚ ਗਲਤੀ, ਬ੍ਰਾਊਜ਼ਰ ਅਤੇ ਐਪ ਦਾ ਵਰਜਨ ਹੁੰਦਾ ਹੈ — ਤੁਹਾਡੀਆਂ ਡਰਾਇੰਗਾਂ, ਫ਼ਾਈਲ ਨਾਮ ਜਾਂ ਤੁਹਾਨੂੰ ਪਛਾਣਨ ਵਾਲੀ ਕੋਈ ਵੀ ਚੀਜ਼ ਕਦੇ ਨਹੀਂ।",
       'ਐਪ ਮੁਫ਼ਤ ਹੈ ਅਤੇ ਇਸ਼ਤਿਹਾਰਾਂ (Google AdSense) ਨਾਲ ਚੱਲਦੀ ਹੈ। ਤੁਹਾਡੀਆਂ ਡਰਾਇੰਗਾਂ ਕਦੇ ਵੀ ਇਸ਼ਤਿਹਾਰਬਾਜ਼ੀ ਲਈ ਨਹੀਂ ਵਰਤੀਆਂ ਜਾਂਦੀਆਂ, ਅਤੇ ਅਸੀਂ ਤੁਹਾਡਾ ਡੇਟਾ ਕਦੇ ਨਹੀਂ ਵੇਚਦੇ।',
     ],
     sections: [
@@ -2009,6 +2194,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
+        h: "ਗਲਤੀ ਰਿਪੋਰਟਿੰਗ",
+        blocks: [
+          { t: 'p', html: "ਐਪ (app.kulmanlab.com) ਬੱਗ ਲੱਭਣ ਅਤੇ ਠੀਕ ਕਰਨ ਲਈ <strong>Sentry</strong> ਦੀ ਵਰਤੋਂ ਕਰਦੀ ਹੈ। ਜਦੋਂ ਐਪ ਵਿੱਚ ਕੁਝ ਟੁੱਟਦਾ ਹੈ, ਤਾਂ Sentry ਨੂੰ ਇੱਕ ਰਿਪੋਰਟ ਭੇਜੀ ਜਾਂਦੀ ਹੈ ਜਿਸ ਵਿੱਚ ਗਲਤੀ ਸੁਨੇਹਾ ਅਤੇ ਸਟੈਕ ਟਰੇਸ, ਐਪ ਦਾ ਵਰਜਨ, ਉਹ ਵੈੱਬਸਾਈਟ ਪਤਾ ਜਿਸ ਉੱਤੇ ਇਹ ਚੱਲ ਰਹੀ ਸੀ, ਬ੍ਰਾਊਜ਼ਰ, ਓਪਰੇਟਿੰਗ ਸਿਸਟਮ ਅਤੇ ਡਿਵਾਈਸ ਦੀ ਕਿਸਮ, ਅਤੇ ਗਲਤੀ ਤੋਂ ਪਹਿਲਾਂ ਐਪ ਦੀਆਂ ਆਪਣੀਆਂ ਕਾਰਵਾਈਆਂ ਦਾ ਇੱਕ ਛੋਟਾ ਸਿਲਸਿਲਾ (ਜਿਵੇਂ ਕਿਹੜਾ ਬਟਨ ਕਲਿੱਕ ਕੀਤਾ ਗਿਆ) ਸ਼ਾਮਲ ਹੁੰਦਾ ਹੈ।" },
+          { t: 'p', html: "ਰਿਪੋਰਟਾਂ ਵਿੱਚ ਤੁਹਾਡੀਆਂ ਡਰਾਇੰਗਾਂ ਦੀ ਸਮੱਗਰੀ, ਫ਼ਾਈਲ ਨਾਮ, ਕੰਸੋਲ ਆਉਟਪੁੱਟ, ਕੁਕੀਜ਼, ਬੇਨਤੀ ਹੈਡਰ, ਪੰਨੇ ਦੇ ਪਤੇ ਦੇ ਪੈਰਾਮੀਟਰ ਜਾਂ ਕੋਈ ਨਿੱਜੀ ਜਾਣਕਾਰੀ ਸ਼ਾਮਲ ਨਹੀਂ ਹੁੰਦੀ — ਐਪ ਨੂੰ ਇਹਨਾਂ ਨੂੰ ਇਕੱਠਾ ਨਾ ਕਰਨ ਲਈ ਸੰਰਚਿਤ ਕੀਤਾ ਗਿਆ ਹੈ, ਅਤੇ ਅਸੀਂ Sentry ਸਿਰਫ਼ ਗਲਤੀਆਂ ਲਈ ਵਰਤਦੇ ਹਾਂ, ਪ੍ਰਦਰਸ਼ਨ ਟਰੇਸਿੰਗ ਜਾਂ ਸੈਸ਼ਨ ਰਿਕਾਰਡਿੰਗ ਤੋਂ ਬਿਨਾਂ। ਹਰੇਕ ਵੱਖਰੀ ਗਲਤੀ ਪ੍ਰਤੀ ਵਿਜ਼ਿਟ ਵੱਧ ਤੋਂ ਵੱਧ ਇੱਕ ਵਾਰ, ਅਤੇ ਪ੍ਰਤੀ ਵਿਜ਼ਿਟ ਵੱਧ ਤੋਂ ਵੱਧ ਦਸ ਰਿਪੋਰਟ ਕੀਤੀ ਜਾਂਦੀ ਹੈ। ਰਿਪੋਰਟਾਂ ਸੰਯੁਕਤ ਰਾਜ ਵਿੱਚ Sentry ਦੇ ਸਰਵਰਾਂ ਉੱਤੇ ਸਟੋਰ ਹੁੰਦੀਆਂ ਹਨ ਅਤੇ <a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener\">Sentry ਦੀ ਗੋਪਨੀਯਤਾ ਨੀਤੀ</a> ਅਨੁਸਾਰ ਪ੍ਰੋਸੈਸ ਕੀਤੀਆਂ ਜਾਂਦੀਆਂ ਹਨ। sentry.io ਨੂੰ ਬਲਾਕ ਕਰਨ ਵਾਲੇ ਕੰਟੈਂਟ ਬਲਾਕਰ ਰਿਪੋਰਟਾਂ ਨੂੰ ਭੇਜੇ ਜਾਣ ਤੋਂ ਰੋਕਦੇ ਹਨ, ਅਤੇ ਐਪ ਉਹਨਾਂ ਤੋਂ ਬਿਨਾਂ ਵੀ ਉਸੇ ਤਰ੍ਹਾਂ ਕੰਮ ਕਰਦੀ ਹੈ।" },
+        ],
+      },
+      {
         h: 'ਇਸ਼ਤਿਹਾਰਬਾਜ਼ੀ',
         blocks: [
           { t: 'p', html: 'ਐਪ (app.kulmanlab.com) ਵਰਤਣ ਲਈ ਮੁਫ਼ਤ ਹੈ ਅਤੇ <strong>Google AdSense</strong> ਰਾਹੀਂ ਦਿਖਾਏ ਜਾਂਦੇ ਇਸ਼ਤਿਹਾਰਾਂ ਨਾਲ ਚੱਲਦੀ ਹੈ। ਇਹ ਵੈੱਬਸਾਈਟ (kulmanlab.com) ਇਸ਼ਤਿਹਾਰ ਨਹੀਂ ਦਿਖਾਉਂਦੀ।' },
@@ -2026,7 +2218,7 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'ਤੀਜੀ-ਧਿਰ ਦੀਆਂ ਸੇਵਾਵਾਂ',
         blocks: [
-          { t: 'p', html: 'Google Analytics ਅਤੇ Google AdSense ਤੋਂ ਇਲਾਵਾ, KulmanLab ਇੱਕ ਬੁਨਿਆਦੀ ਢਾਂਚਾ ਸੇਵਾ ਤੇ ਨਿਰਭਰ ਹੈ:' },
+          { t: 'p', html: "Google Analytics, Google AdSense ਅਤੇ Sentry ਤੋਂ ਇਲਾਵਾ, KulmanLab ਇੱਕ ਬੁਨਿਆਦੀ ਢਾਂਚਾ ਸੇਵਾ ਉੱਤੇ ਨਿਰਭਰ ਕਰਦਾ ਹੈ:" },
           { t: 'ul', items: [
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — ਇਹ ਵੈੱਬਸਾਈਟ ਅਤੇ ਐਪ ਪਰੋਸਦਾ ਹੈ। ਕਿਸੇ ਵੀ ਵੈੱਬ ਸਰਵਰ ਵਾਂਗ, ਪੰਨੇ ਪਹੁੰਚਾਉਣ ਲਈ ਇਹ ਮਿਆਰੀ ਬੇਨਤੀ ਲੌਗ (IP ਪਤਾ, ਬੇਨਤੀ ਕੀਤਾ URL, ਯੂਜ਼ਰ ਏਜੰਟ) ਪ੍ਰੋਸੈਸ ਕਰਦਾ ਹੈ।',
           ] },
@@ -2058,12 +2250,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
     title: 'Integritetspolicy — KulmanLab',
     desc: 'Hur KulmanLab hanterar dina data: ritningar stannar på din enhet, inga konton. Google Analytics för anonym användningsstatistik; annonser i appen via Google AdSense.',
     heading: 'Integritetspolicy',
-    updated: 'Senast uppdaterad: 14 juli 2026',
+    updated: "Senast uppdaterad: 5 oktober 2026",
     summaryHeading: 'Den korta versionen',
     summary: [
       'Dina ritningar lagras i din webbläsare och lämnar aldrig din enhet. Allt ditt arbete tillhör dig.',
       'Det finns inga konton, ingen registrering och ingen e-post. Vi vet inte vem du är.',
       'Vi använder Google Analytics för att räkna besök och förstå vilka funktioner som används. Det ser aldrig innehållet i dina ritningar.',
+      "Appen rapporterar krascher och fel till Sentry så att de kan åtgärdas. Rapporterna innehåller felet, webbläsaren och appens version — aldrig dina ritningar, filnamn eller något som identifierar dig.",
       'Appen är gratis och finansieras av annonser (Google AdSense). Dina ritningar används aldrig för reklam, och vi säljer aldrig dina data.',
     ],
     sections: [
@@ -2094,6 +2287,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
+        h: "Felrapportering",
+        blocks: [
+          { t: 'p', html: "Appen (app.kulmanlab.com) använder <strong>Sentry</strong> för att hitta och åtgärda buggar. När något i appen går sönder skickas en rapport till Sentry med felmeddelandet och stackspårningen, appens version, adressen till webbplatsen den körde på, webbläsare, operativsystem och enhetstyp samt ett kort spår av appens egna åtgärder före felet (till exempel vilken knapp som klickades)." },
+          { t: 'p', html: "Rapporterna innehåller inte innehållet i dina ritningar, filnamn, konsolutdata, cookies, begärandehuvuden, parametrar i sidans adress eller några personuppgifter — appen är konfigurerad för att inte samla in dem, och vi använder Sentry endast för fel, utan prestandaspårning och utan sessionsinspelning. Varje enskilt fel rapporteras högst en gång per besök och högst tio per besök. Rapporterna lagras på Sentrys servrar i USA och behandlas enligt <a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener\">Sentrys integritetspolicy</a>. Innehållsblockerare som blockerar sentry.io hindrar rapporter från att skickas, och appen fungerar likadant utan dem." },
+        ],
+      },
+      {
         h: 'Annonser',
         blocks: [
           { t: 'p', html: 'Appen (app.kulmanlab.com) är gratis att använda och finansieras av annonser som visas via <strong>Google AdSense</strong>. Den här webbplatsen (kulmanlab.com) visar inga annonser.' },
@@ -2111,7 +2311,7 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Tredjepartstjänster',
         blocks: [
-          { t: 'p', html: 'Förutom Google Analytics och Google AdSense förlitar sig KulmanLab på en infrastrukturtjänst:' },
+          { t: 'p', html: "Förutom Google Analytics, Google AdSense och Sentry förlitar sig KulmanLab på en infrastrukturtjänst:" },
           { t: 'ul', items: [
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — levererar den här webbplatsen och appen. Som alla webbservrar behandlar den standardloggar för förfrågningar (IP-adress, begärd URL, user agent) för att leverera sidorna.',
           ] },
@@ -2143,12 +2343,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
     title: 'Patakaran sa Privacy — KulmanLab',
     desc: 'Paano hinahawakan ng KulmanLab ang iyong data: nananatili sa iyong device ang mga drawing, walang account. Google Analytics para sa anonymous na istatistika ng paggamit; mga ad sa app sa pamamagitan ng Google AdSense.',
     heading: 'Patakaran sa Privacy',
-    updated: 'Huling na-update: Hulyo 14, 2026',
+    updated: "Huling na-update: Oktubre 5, 2026",
     summaryHeading: 'Ang maikling bersyon',
     summary: [
       'Ang iyong mga drawing ay nakaimbak sa iyong browser at hindi kailanman umaalis sa iyong device. Lahat ng iyong gawa ay pagmamay-ari mo.',
       'Walang account, walang pag-sign-up, at walang email. Hindi namin alam kung sino ka.',
       'Gumagamit kami ng Google Analytics para bilangin ang mga pagbisita at maunawaan kung aling mga feature ang ginagamit. Hindi nito kailanman nakikita ang nilalaman ng iyong mga drawing.',
+      "Iniuulat ng app ang mga pag-crash at error sa Sentry para maayos ang mga ito. Naglalaman ang mga ulat ng error, browser, at bersyon ng app — hindi kailanman ang iyong mga drowing, pangalan ng file, o anumang nagpapakilala sa iyo.",
       'Libre ang app at pinopondohan ng mga ad (Google AdSense). Hindi kailanman ginagamit ang iyong mga drawing para sa advertising, at hindi namin kailanman ibinebenta ang iyong data.',
     ],
     sections: [
@@ -2179,6 +2380,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
+        h: "Pag-uulat ng error",
+        blocks: [
+          { t: 'p', html: "Gumagamit ang app (app.kulmanlab.com) ng <strong>Sentry</strong> para hanapin at ayusin ang mga bug. Kapag may nasira sa app, may ipinapadalang ulat sa Sentry na may mensahe ng error at stack trace, bersyon ng app, address ng website kung saan ito tumatakbo, browser, operating system at uri ng device, at maikling bakas ng sariling mga aksyon ng app bago ang error (halimbawa, kung aling button ang na-click)." },
+          { t: 'p', html: "Hindi kasama sa mga ulat ang nilalaman ng iyong mga drowing, pangalan ng file, output ng console, cookies, request header, parameter ng address ng pahina, o anumang personal na impormasyon — naka-configure ang app na huwag kolektahin ang mga ito, at ginagamit lang namin ang Sentry para sa mga error, nang walang performance tracing at walang pag-record ng session. Bawat natatanging error ay iniuulat nang hindi hihigit sa isang beses bawat pagbisita, at hindi hihigit sa sampu bawat pagbisita. Iniimbak ang mga ulat sa mga server ng Sentry sa Estados Unidos at pinoproseso alinsunod sa <a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener\">Patakaran sa Privacy ng Sentry</a>. Pinipigilan ng mga content blocker na nagba-block sa sentry.io ang pagpapadala ng mga ulat, at gumagana ang app nang pareho kahit wala ang mga ito." },
+        ],
+      },
+      {
         h: 'Advertising',
         blocks: [
           { t: 'p', html: 'Libre ang app (app.kulmanlab.com) at pinopondohan ito ng mga ad na inihahatid sa pamamagitan ng <strong>Google AdSense</strong>. Hindi nagpapakita ng mga ad ang website na ito (kulmanlab.com).' },
@@ -2196,7 +2404,7 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Mga serbisyo ng third party',
         blocks: [
-          { t: 'p', html: 'Bukod sa Google Analytics at Google AdSense, umaasa ang KulmanLab sa isang serbisyo ng imprastraktura:' },
+          { t: 'p', html: "Bukod sa Google Analytics, Google AdSense, at Sentry, umaasa ang KulmanLab sa isang serbisyo ng imprastraktura:" },
           { t: 'ul', items: [
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — naghahatid ng website na ito at ng app. Tulad ng anumang web server, pinoproseso nito ang mga karaniwang log ng request (IP address, hiniling na URL, user agent) para maihatid ang mga pahina.',
           ] },
@@ -2228,12 +2436,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
     title: 'Privacybeleid — KulmanLab',
     desc: 'Hoe KulmanLab met uw gegevens omgaat: tekeningen blijven op uw apparaat, geen accounts. Google Analytics voor anonieme gebruiksstatistieken; advertenties in de app via Google AdSense.',
     heading: 'Privacybeleid',
-    updated: 'Laatst bijgewerkt: 14 juli 2026',
+    updated: "Laatst bijgewerkt: 5 oktober 2026",
     summaryHeading: 'De korte versie',
     summary: [
       'Uw tekeningen worden opgeslagen in uw browser en verlaten nooit uw apparaat. Al uw werk is van u.',
       'Er zijn geen accounts, geen registratie en geen e-mail. Wij weten niet wie u bent.',
       'Wij gebruiken Google Analytics om bezoeken te tellen en te begrijpen welke functies worden gebruikt. Het ziet nooit de inhoud van uw tekeningen.',
+      "De app meldt crashes en fouten aan Sentry zodat ze verholpen kunnen worden. Meldingen bevatten de fout, de browser en de appversie — nooit je tekeningen, bestandsnamen of iets dat jou identificeert.",
       'De app is gratis en wordt gefinancierd door advertenties (Google AdSense). Uw tekeningen worden nooit gebruikt voor reclame, en wij verkopen nooit uw gegevens.',
     ],
     sections: [
@@ -2264,6 +2473,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
+        h: "Foutrapportage",
+        blocks: [
+          { t: 'p', html: "De app (app.kulmanlab.com) gebruikt <strong>Sentry</strong> om bugs te vinden en te verhelpen. Als er iets in de app misgaat, wordt er een melding naar Sentry gestuurd met de foutmelding en stacktrace, de appversie, het webadres waarop de app draaide, de browser, het besturingssysteem en het apparaattype, en een korte sporenreeks van de eigen acties van de app voorafgaand aan de fout (bijvoorbeeld op welke knop is geklikt)." },
+          { t: 'p', html: "Meldingen bevatten niet de inhoud van je tekeningen, bestandsnamen, console-uitvoer, cookies, request-headers, parameters van het paginaadres of andere persoonlijke gegevens — de app is zo geconfigureerd dat ze niet worden verzameld, en we gebruiken Sentry alleen voor fouten, zonder prestatietracering en zonder sessie-opnames. Elke afzonderlijke fout wordt maximaal één keer per bezoek gemeld, en maximaal tien per bezoek. Meldingen worden opgeslagen op de servers van Sentry in de Verenigde Staten en verwerkt volgens het <a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener\">privacybeleid van Sentry</a>. Contentblockers die sentry.io blokkeren voorkomen dat meldingen worden verzonden, en de app werkt zonder deze meldingen hetzelfde." },
+        ],
+      },
+      {
         h: 'Adverteren',
         blocks: [
           { t: 'p', html: 'De app (app.kulmanlab.com) is gratis te gebruiken en wordt gefinancierd door advertenties die via <strong>Google AdSense</strong> worden weergegeven. Deze website (kulmanlab.com) toont geen advertenties.' },
@@ -2281,7 +2497,7 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Diensten van derden',
         blocks: [
-          { t: 'p', html: 'Naast Google Analytics en Google AdSense vertrouwt KulmanLab op één infrastructuurdienst:' },
+          { t: 'p', html: "Naast Google Analytics, Google AdSense en Sentry vertrouwt KulmanLab op één infrastructuurdienst:" },
           { t: 'ul', items: [
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — levert deze website en de app. Zoals elke webserver verwerkt het standaard verzoeklogs (IP-adres, opgevraagde URL, user agent) om de pagina\'s te leveren.',
           ] },
@@ -2313,12 +2529,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
     title: 'Manufar Sirri — KulmanLab',
     desc: 'Yadda KulmanLab ke sarrafa bayananka: zanen-zane suna zama a naʼurarka, babu asusu. Google Analytics don ƙididdigar amfani ba tare da bayyana suna ba; tallace-tallace a cikin manhajar ta hanyar Google AdSense.',
     heading: 'Manufar Sirri',
-    updated: 'An sabunta na ƙarshe: 14 Yuli, 2026',
+    updated: "An sabunta na ƙarshe: 5 Oktoba, 2026",
     summaryHeading: 'Gajeriyar sigar',
     summary: [
       'Ana ajiye zanen-zanenka a burauzarka kuma ba sa taɓa barin naʼurarka. Dukkan aikinka naka ne.',
       'Babu asusu, babu rijista, kuma babu imel. Ba mu san ko su waye ba.',
       'Muna amfani da Google Analytics don ƙidaya ziyara da fahimtar waɗanne fasaloli ake amfani da su. Ba ya taɓa ganin abin da ke cikin zanenka.',
+      "Manhajar tana ba Sentry rahoton rushewa da kurakurai domin a gyara su. Rahotannin sun ƙunshi kuskuren, burauza da sigar manhajar — ba za su taɓa ƙunsar zane-zanenka, sunayen fayiloli ko wani abu da ke gane ka ba.",
       'Manhajar kyauta ce kuma tallace-tallace (Google AdSense) ke tallafa mata. Ba a taɓa amfani da zanen-zanenka don talla ba, kuma ba mu taɓa sayar da bayananka ba.',
     ],
     sections: [
@@ -2349,6 +2566,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
+        h: "Bayar da rahoton kurakurai",
+        blocks: [
+          { t: 'p', html: "Manhajar (app.kulmanlab.com) tana amfani da <strong>Sentry</strong> don gano da gyara kurakurai. Idan wani abu ya lalace a cikin manhajar, ana aika rahoto zuwa Sentry mai ɗauke da saƙon kuskure da stack trace, sigar manhajar, adireshin gidan yanar gizon da take gudana a kai, burauza, tsarin aiki da nau'in na'ura, da taƙaitaccen jerin ayyukan manhajar kafin kuskuren (misali wane maɓalli aka danna)." },
+          { t: 'p', html: "Rahotanni ba su ƙunshi abubuwan zane-zanenka, sunayen fayiloli, fitowar console, kukis, kan buƙata, sigogin adireshin shafi ko wani bayanan sirri ba — an saita manhajar kada ta tattara su, kuma muna amfani da Sentry don kurakurai kawai, ba tare da bin diddigin aiki ko rikodin zama ba. Ana ba da rahoton kowane kuskure daban sau ɗaya a mafi yawa a kowace ziyara, da goma a mafi yawa a kowace ziyara. Ana adana rahotanni a sabar Sentry a Amurka kuma ana sarrafa su bisa <a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener\">Manufar Sirri ta Sentry</a>. Masu toshe abun ciki da ke toshe sentry.io suna hana aika rahotanni, kuma manhajar tana aiki iri ɗaya ba tare da su ba." },
+        ],
+      },
+      {
         h: 'Talla',
         blocks: [
           { t: 'p', html: 'Manhajar (app.kulmanlab.com) kyauta ce a yi amfani da ita kuma tallace-tallace da ake bayarwa ta hanyar <strong>Google AdSense</strong> ke tallafa mata. Wannan shafin (kulmanlab.com) ba ya nuna tallace-tallace.' },
@@ -2366,7 +2590,7 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Ayyukan kamfanoni na waje',
         blocks: [
-          { t: 'p', html: 'Baya ga Google Analytics da Google AdSense, KulmanLab tana dogara da aiki ɗaya na tsari:' },
+          { t: 'p', html: "Ban da Google Analytics, Google AdSense da Sentry, KulmanLab tana dogara ga sabis ɗaya na ababen more rayuwa:" },
           { t: 'ul', items: [
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — yana bayar da wannan shafin da manhajar. Kamar kowane uwar garken yanar gizo, yana sarrafa rikodin buƙatun yau da kullum (adireshin IP, URL da aka buƙata, user agent) don isar da shafuka.',
           ] },
@@ -2398,12 +2622,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
     title: 'Personvernerklæring — KulmanLab',
     desc: 'Hvordan KulmanLab håndterer dataene dine: tegninger forblir på enheten din, ingen kontoer. Google Analytics for anonyme bruksmålinger; annonser i appen via Google AdSense.',
     heading: 'Personvernerklæring',
-    updated: 'Sist oppdatert: 14. juli 2026',
+    updated: "Sist oppdatert: 5. oktober 2026",
     summaryHeading: 'Kortversjonen',
     summary: [
       'Tegningene dine lagres i nettleseren din og forlater aldri enheten din. Alt arbeidet ditt tilhører deg.',
       'Det finnes ingen kontoer, ingen registrering og ingen e-post. Vi vet ikke hvem du er.',
       'Vi bruker Google Analytics til å telle besøk og forstå hvilke funksjoner som brukes. Den ser aldri tegneinnholdet ditt.',
+      "Appen rapporterer krasj og feil til Sentry slik at de kan rettes. Rapportene inneholder feilen, nettleseren og appversjonen — aldri tegningene dine, filnavn eller noe som identifiserer deg.",
       'Appen er gratis og finansiert av annonser (Google AdSense). Tegningene dine brukes aldri til reklame, og vi selger aldri dataene dine.',
     ],
     sections: [
@@ -2434,6 +2659,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
+        h: "Feilrapportering",
+        blocks: [
+          { t: 'p', html: "Appen (app.kulmanlab.com) bruker <strong>Sentry</strong> for å finne og rette feil. Når noe i appen går i stykker, sendes en rapport til Sentry med feilmeldingen og stakksporet, appversjonen, adressen til nettstedet den kjørte på, nettleser, operativsystem og enhetstype, og et kort spor av appens egne handlinger før feilen (for eksempel hvilken knapp som ble klikket)." },
+          { t: 'p', html: "Rapportene inneholder ikke innholdet i tegningene dine, filnavn, konsollutdata, informasjonskapsler, forespørselshoder, parametere i sideadressen eller personopplysninger — appen er konfigurert til å ikke samle dem inn, og vi bruker Sentry kun til feil, uten ytelsessporing og uten øktopptak. Hver enkelt feil rapporteres høyst én gang per besøk, og høyst ti per besøk. Rapportene lagres på Sentrys servere i USA og behandles i samsvar med <a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener\">Sentrys personvernerklæring</a>. Innholdsblokkere som blokkerer sentry.io hindrer at rapporter sendes, og appen fungerer likt uten dem." },
+        ],
+      },
+      {
         h: 'Annonsering',
         blocks: [
           { t: 'p', html: 'Appen (app.kulmanlab.com) er gratis å bruke og finansieres av annonser levert gjennom <strong>Google AdSense</strong>. Dette nettstedet (kulmanlab.com) viser ikke annonser.' },
@@ -2451,7 +2683,7 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Tredjepartstjenester',
         blocks: [
-          { t: 'p', html: 'Utover Google Analytics og Google AdSense er KulmanLab avhengig av én infrastrukturtjeneste:' },
+          { t: 'p', html: "I tillegg til Google Analytics, Google AdSense og Sentry er KulmanLab avhengig av én infrastrukturtjeneste:" },
           { t: 'ul', items: [
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — leverer dette nettstedet og appen. Som enhver webserver behandler den standard forespørselslogger (IP-adresse, forespurt URL, brukeragent) for å levere sidene.',
           ] },
@@ -2483,12 +2715,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
     title: 'Privatlivspolitik — KulmanLab',
     desc: 'Sådan håndterer KulmanLab dine data: tegninger forbliver på din enhed, ingen konti. Google Analytics til anonyme brugsmålinger; reklamer i appen via Google AdSense.',
     heading: 'Privatlivspolitik',
-    updated: 'Sidst opdateret: 14. juli 2026',
+    updated: "Sidst opdateret: 5. oktober 2026",
     summaryHeading: 'Den korte version',
     summary: [
       'Dine tegninger gemmes i din browser og forlader aldrig din enhed. Alt dit arbejde tilhører dig.',
       'Der er ingen konti, ingen tilmelding og ingen e-mail. Vi ved ikke, hvem du er.',
       'Vi bruger Google Analytics til at tælle besøg og forstå, hvilke funktioner der bruges. Det ser aldrig dit tegneindhold.',
+      "Appen rapporterer nedbrud og fejl til Sentry, så de kan rettes. Rapporterne indeholder fejlen, browseren og appversionen — aldrig dine tegninger, filnavne eller noget, der identificerer dig.",
       'Appen er gratis og finansieret af reklamer (Google AdSense). Dine tegninger bruges aldrig til reklame, og vi sælger aldrig dine data.',
     ],
     sections: [
@@ -2519,6 +2752,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
+        h: "Fejlrapportering",
+        blocks: [
+          { t: 'p', html: "Appen (app.kulmanlab.com) bruger <strong>Sentry</strong> til at finde og rette fejl. Når noget i appen går i stykker, sendes en rapport til Sentry med fejlmeddelelsen og stakssporet, appversionen, adressen på det websted, den kørte på, browser, operativsystem og enhedstype samt et kort spor af appens egne handlinger før fejlen (for eksempel hvilken knap der blev klikket på)." },
+          { t: 'p', html: "Rapporterne indeholder ikke indholdet af dine tegninger, filnavne, konsoloutput, cookies, anmodningshoveder, parametre i sideadressen eller nogen personlige oplysninger — appen er konfigureret til ikke at indsamle dem, og vi bruger kun Sentry til fejl, uden ydelsessporing og uden sessionsoptagelse. Hver enkelt fejl rapporteres højst én gang pr. besøg og højst ti pr. besøg. Rapporterne gemmes på Sentrys servere i USA og behandles i overensstemmelse med <a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener\">Sentrys privatlivspolitik</a>. Indholdsblokkere, der blokerer sentry.io, forhindrer rapporter i at blive sendt, og appen fungerer på samme måde uden dem." },
+        ],
+      },
+      {
         h: 'Reklame',
         blocks: [
           { t: 'p', html: 'Appen (app.kulmanlab.com) er gratis at bruge og finansieres af reklamer leveret gennem <strong>Google AdSense</strong>. Denne hjemmeside (kulmanlab.com) viser ikke reklamer.' },
@@ -2536,7 +2776,7 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Tredjepartstjenester',
         blocks: [
-          { t: 'p', html: 'Udover Google Analytics og Google AdSense er KulmanLab afhængig af én infrastrukturtjeneste:' },
+          { t: 'p', html: "Ud over Google Analytics, Google AdSense og Sentry er KulmanLab afhængig af én infrastrukturtjeneste:" },
           { t: 'ul', items: [
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — leverer denne hjemmeside og appen. Ligesom enhver webserver behandler den standard forespørgselslogfiler (IP-adresse, forespurgt URL, brugeragent) for at levere siderne.',
           ] },
@@ -2568,12 +2808,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
     title: 'Tietosuojakäytäntö — KulmanLab',
     desc: 'Miten KulmanLab käsittelee tietojasi: piirustukset pysyvät laitteellasi, ei tilejä. Google Analytics anonyymiin käyttötilastointiin; mainoksia sovelluksessa Google AdSensen kautta.',
     heading: 'Tietosuojakäytäntö',
-    updated: 'Viimeksi päivitetty: 14. heinäkuuta 2026',
+    updated: "Viimeksi päivitetty: 5. lokakuuta 2026",
     summaryHeading: 'Lyhyt versio',
     summary: [
       'Piirustuksesi tallennetaan selaimeesi eivätkä ne koskaan poistu laitteeltasi. Kaikki työsi kuuluu sinulle.',
       'Tilejä, rekisteröitymistä tai sähköpostia ei ole. Emme tiedä, kuka olet.',
       'Käytämme Google Analyticsia laskeaksemme vierailuja ja ymmärtääksemme mitä ominaisuuksia käytetään. Se ei koskaan näe piirustussisältöäsi.',
+      "Sovellus ilmoittaa kaatumisista ja virheistä Sentrylle, jotta ne voidaan korjata. Raportit sisältävät virheen, selaimen ja sovelluksen version — ei koskaan piirustuksiasi, tiedostonimiä tai mitään, mikä tunnistaa sinut.",
       'Sovellus on ilmainen ja rahoitetaan mainoksilla (Google AdSense). Piirustuksiasi ei koskaan käytetä mainontaan, emmekä koskaan myy tietojasi.',
     ],
     sections: [
@@ -2604,6 +2845,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
+        h: "Virheraportointi",
+        blocks: [
+          { t: 'p', html: "Sovellus (app.kulmanlab.com) käyttää <strong>Sentryä</strong> vikojen löytämiseen ja korjaamiseen. Kun sovelluksessa jokin menee rikki, Sentrylle lähetetään raportti, jossa on virheilmoitus ja pinojäljitys, sovelluksen versio, sen verkkosivuston osoite, jolla se oli käynnissä, selain, käyttöjärjestelmä ja laitetyyppi sekä lyhyt jälki sovelluksen omista toimista ennen virhettä (esimerkiksi mitä painiketta napsautettiin)." },
+          { t: 'p', html: "Raportit eivät sisällä piirustustesi sisältöä, tiedostonimiä, konsolitulosteita, evästeitä, pyyntöotsikoita, sivun osoitteen parametreja tai henkilötietoja — sovellus on määritetty niin, ettei se kerää niitä, ja käytämme Sentryä vain virheisiin, ilman suorituskyvyn seurantaa ja istuntojen tallennusta. Kukin erillinen virhe ilmoitetaan enintään kerran käyntiä kohti, ja enintään kymmenen käyntiä kohti. Raportit tallennetaan Sentryn palvelimille Yhdysvalloissa ja käsitellään <a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener\">Sentryn tietosuojakäytännön</a> mukaisesti. Sentry.io:n estävät sisällönestot estävät raporttien lähettämisen, ja sovellus toimii ilman niitä samalla tavalla." },
+        ],
+      },
+      {
         h: 'Mainonta',
         blocks: [
           { t: 'p', html: 'Sovellus (app.kulmanlab.com) on ilmainen käyttää ja rahoitetaan <strong>Google AdSensen</strong> kautta tarjottavilla mainoksilla. Tämä verkkosivusto (kulmanlab.com) ei näytä mainoksia.' },
@@ -2621,7 +2869,7 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Kolmannen osapuolen palvelut',
         blocks: [
-          { t: 'p', html: 'Google Analyticsin ja Google AdSensen lisäksi KulmanLab käyttää yhtä infrastruktuuripalvelua:' },
+          { t: 'p', html: "Google Analyticsin, Google AdSensen ja Sentryn lisäksi KulmanLab käyttää yhtä infrastruktuuripalvelua:" },
           { t: 'ul', items: [
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — tarjoaa tämän verkkosivuston ja sovelluksen. Kuten mikä tahansa verkkopalvelin, se käsittelee standardeja pyyntölokeja (IP-osoite, pyydetty URL, käyttäjäagentti) sivujen toimittamiseksi.',
           ] },
@@ -2653,12 +2901,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
     title: 'Zásady ochrany soukromí — KulmanLab',
     desc: 'Jak KulmanLab nakládá s vašimi daty: výkresy zůstávají ve vašem zařízení, žádné účty. Google Analytics pro anonymní statistiky použití; reklamy v aplikaci přes Google AdSense.',
     heading: 'Zásady ochrany soukromí',
-    updated: 'Poslední aktualizace: 14. července 2026',
+    updated: "Poslední aktualizace: 5. října 2026",
     summaryHeading: 'Ve zkratce',
     summary: [
       'Vaše výkresy jsou uloženy ve vašem prohlížeči a nikdy neopouštějí vaše zařízení. Veškerá vaše práce patří vám.',
       'Žádné účty, žádná registrace, žádný e-mail. Nevíme, kdo jste.',
       'Google Analytics používáme k počítání návštěv a k pochopení, které funkce se používají. Obsah vašich výkresů nikdy nevidí.',
+      "Aplikace hlásí pády a chyby do Sentry, aby je bylo možné opravit. Hlášení obsahují chybu, prohlížeč a verzi aplikace — nikdy vaše výkresy, názvy souborů ani nic, co vás identifikuje.",
       'Aplikace je zdarma a je financována reklamami (Google AdSense). Vaše výkresy se nikdy nepoužívají pro reklamu a vaše data nikdy neprodáváme.',
     ],
     sections: [
@@ -2689,6 +2938,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
+        h: "Hlášení chyb",
+        blocks: [
+          { t: 'p', html: "Aplikace (app.kulmanlab.com) používá <strong>Sentry</strong> k vyhledávání a opravám chyb. Když se v aplikaci něco pokazí, odešle se do Sentry hlášení s chybovou zprávou a výpisem zásobníku, verzí aplikace, adresou webu, na kterém běžela, prohlížečem, operačním systémem a typem zařízení a krátkou stopou vlastních akcí aplikace před chybou (například na které tlačítko se kliklo)." },
+          { t: 'p', html: "Hlášení neobsahují obsah vašich výkresů, názvy souborů, výstup konzoly, soubory cookie, hlavičky požadavků, parametry adresy stránky ani žádné osobní údaje — aplikace je nakonfigurována tak, aby je neshromažďovala, a Sentry používáme pouze pro chyby, bez sledování výkonu a bez záznamu relací. Každá jednotlivá chyba se hlásí nejvýše jednou za návštěvu a nejvýše deset za návštěvu. Hlášení se ukládají na serverech Sentry ve Spojených státech a zpracovávají se podle <a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener\">Zásad ochrany osobních údajů Sentry</a>. Blokátory obsahu, které blokují sentry.io, odesílání hlášení zabrání a aplikace funguje stejně i bez nich." },
+        ],
+      },
+      {
         h: 'Reklama',
         blocks: [
           { t: 'p', html: 'Aplikace (app.kulmanlab.com) je zdarma a je financována reklamami zobrazovanými prostřednictvím <strong>Google AdSense</strong>. Tento web (kulmanlab.com) reklamy nezobrazuje.' },
@@ -2706,7 +2962,7 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Služby třetích stran',
         blocks: [
-          { t: 'p', html: 'Kromě Google Analytics a Google AdSense se KulmanLab spoléhá na jednu infrastrukturní službu:' },
+          { t: 'p', html: "Kromě Google Analytics, Google AdSense a Sentry se KulmanLab spoléhá na jednu infrastrukturní službu:" },
           { t: 'ul', items: [
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — poskytuje tento web i aplikaci. Stejně jako každý webový server zpracovává standardní záznamy požadavků (IP adresa, požadovaná URL, user agent), aby stránky doručil.',
           ] },
@@ -2737,12 +2993,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
     title: 'Privatumo politika — KulmanLab',
     desc: 'Kaip KulmanLab tvarko jūsų duomenis: brėžiniai lieka jūsų įrenginyje, jokių paskyrų. Google Analytics anoniminei naudojimo statistikai; programoje rodoma reklama per Google AdSense.',
     heading: 'Privatumo politika',
-    updated: 'Paskutinį kartą atnaujinta: 2026 m. liepos 14 d.',
+    updated: "Paskutinį kartą atnaujinta: 2026 m. spalio 5 d.",
     summaryHeading: 'Trumpai',
     summary: [
       'Jūsų brėžiniai saugomi jūsų naršyklėje ir niekada nepalieka jūsų įrenginio. Visas jūsų darbas priklauso jums.',
       'Nėra paskyrų, registracijos ir el. pašto. Mes nežinome, kas jūs esate.',
       'Naudojame Google Analytics apsilankymams skaičiuoti ir suprasti, kurios funkcijos naudojamos. Ji niekada nemato jūsų brėžinių turinio.',
+      "Programa praneša apie strigimus ir klaidas Sentry, kad jas būtų galima ištaisyti. Ataskaitose yra klaida, naršyklė ir programos versija — niekada jūsų brėžiniai, failų pavadinimai ar kas nors, kas jus identifikuoja.",
       'Programa nemokama ir finansuojama reklama (Google AdSense). Jūsų brėžiniai niekada nenaudojami reklamai ir mes niekada neparduodame jūsų duomenų.',
     ],
     sections: [
@@ -2773,6 +3030,13 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
+        h: "Klaidų pranešimas",
+        blocks: [
+          { t: 'p', html: "Programa (app.kulmanlab.com) naudoja <strong>Sentry</strong> klaidoms rasti ir taisyti. Kai programoje kas nors sugenda, į Sentry išsiunčiama ataskaita su klaidos pranešimu ir dėklo pėdsaku, programos versija, svetainės adresu, kuriame ji veikė, naršykle, operacine sistema ir įrenginio tipu bei trumpu paties programos veiksmų pėdsaku prieš klaidą (pavyzdžiui, kuris mygtukas buvo paspaustas)." },
+          { t: 'p', html: "Ataskaitose nėra jūsų brėžinių turinio, failų pavadinimų, konsolės išvesties, slapukų, užklausų antraščių, puslapio adreso parametrų ar jokios asmeninės informacijos — programa sukonfigūruota jų nerinkti, o Sentry naudojame tik klaidoms, be našumo sekimo ir be seansų įrašymo. Kiekviena atskira klaida pranešama daugiausia kartą per apsilankymą, o iš viso daugiausia dešimt per apsilankymą. Ataskaitos saugomos Sentry serveriuose Jungtinėse Valstijose ir tvarkomos pagal <a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener\">Sentry privatumo politiką</a>. Turinio blokatoriai, blokuojantys sentry.io, neleidžia išsiųsti ataskaitų, o programa be jų veikia taip pat." },
+        ],
+      },
+      {
         h: 'Reklama',
         blocks: [
           { t: 'p', html: 'Programa (app.kulmanlab.com) naudojama nemokamai ir finansuojama reklama, teikiama per <strong>Google AdSense</strong>. Ši svetainė (kulmanlab.com) reklamos nerodo.' },
@@ -2790,7 +3054,7 @@ export const privacyContent: Record<string, PrivacyContent> = {
       {
         h: 'Trečiųjų šalių paslaugos',
         blocks: [
-          { t: 'p', html: 'Be Google Analytics ir Google AdSense, KulmanLab remiasi viena infrastruktūros paslauga:' },
+          { t: 'p', html: "Be Google Analytics, Google AdSense ir Sentry, KulmanLab remiasi viena infrastruktūros paslauga:" },
           { t: 'ul', items: [
             '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — pateikia šią svetainę ir programą. Kaip ir bet kuris žiniatinklio serveris, ji apdoroja standartinius užklausų žurnalus (IP adresą, prašomą URL, naudotojo agentą), kad pateiktų puslapius.',
           ] },
