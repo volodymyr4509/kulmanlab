@@ -77,15 +77,6 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
-        h: 'Third-party services',
-        blocks: [
-          { t: 'p', html: "Besides Google Analytics, Google AdSense and Sentry, KulmanLab relies on one infrastructure service:" },
-          { t: 'ul', items: [
-            '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — serves this website and the app. Like any web server, it processes standard request logs (IP address, requested URL, user agent) to deliver the pages.',
-          ] },
-        ],
-      },
-      {
         h: 'Your choices',
         blocks: [
           { t: 'p', html: 'If you prefer not to be counted in analytics, you can block the Google Analytics cookies in your browser, use a content blocker, or install the <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Google Analytics opt-out add-on</a>. The website and the app work exactly the same without analytics.' },
@@ -167,15 +158,6 @@ export const privacyContent: Record<string, PrivacyContent> = {
         blocks: [
           { t: 'p', html: 'נעשה שימוש בשני סוגי עוגיות. Google Analytics קובע <code>_ga</code> ו-<code>_ga_*</code> הן באתר והן באפליקציה — הן מכילות מזהה אקראי המבחין בין דפדפנים כך שביקורים חוזרים לא נספרים כמבקרים חדשים, פגות תוקף לאחר עד שנתיים, ולא ניתן להשתמש בהן כדי לזהות אתכם באופן אישי. באפליקציה, Google AdSense ושותפיה הפרסומיים קובעים עוגיות פרסום נוספות כדי להגיש ולמדוד פרסומות, כפי שתואר בסעיף הפרסום לעיל. אין עוגיות רשתות חברתיות, והאתר עצמו אינו קובע עוגיות פרסום.' },
           { t: 'p', html: 'בנוסף, האתר זוכר את העדפת השפה שלכם והאפליקציה שומרת את השרטוטים והיסטוריית הביטול שלכם באחסון המקומי של הדפדפן. נתונים אלה לעולם לא עוזבים את המכשיר שלכם.' },
-        ],
-      },
-      {
-        h: 'שירותי צד שלישי',
-        blocks: [
-          { t: 'p', html: "מלבד Google Analytics, Google AdSense ו-Sentry, KulmanLab נשענת על שירות תשתית אחד:" },
-          { t: 'ul', items: [
-            '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — מגיש אתר זה ואת האפליקציה. כמו כל שרת אינטרנט, הוא מעבד יומני בקשה סטנדרטיים (כתובת IP, כתובת URL מבוקשת, סוכן משתמש) כדי לספק את העמודים.',
-          ] },
         ],
       },
       {
@@ -263,15 +245,6 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
-        h: 'Dienste von Drittanbietern',
-        blocks: [
-          { t: 'p', html: "Neben Google Analytics, Google AdSense und Sentry stützt sich KulmanLab auf einen Infrastrukturdienst:" },
-          { t: 'ul', items: [
-            '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — liefert diese Website und die App aus. Wie jeder Webserver verarbeitet es Standard-Anfrageprotokolle (IP-Adresse, angeforderte URL, User-Agent), um die Seiten bereitzustellen.',
-          ] },
-        ],
-      },
-      {
         h: 'Ihre Wahlmöglichkeiten',
         blocks: [
           { t: 'p', html: 'Wenn Sie nicht in der Analyse gezählt werden möchten, können Sie die Google-Analytics-Cookies in Ihrem Browser blockieren, einen Content-Blocker verwenden oder das <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Deaktivierungs-Add-on für Google Analytics</a> installieren. Website und App funktionieren ohne Analyse genau gleich.' },
@@ -353,15 +326,6 @@ export const privacyContent: Record<string, PrivacyContent> = {
         blocks: [
           { t: 'p', html: 'Se usan dos tipos de cookies. Google Analytics establece <code>_ga</code> y <code>_ga_*</code> tanto en el sitio web como en la app — contienen un identificador aleatorio que distingue navegadores para que las visitas repetidas no se cuenten como visitantes nuevos, caducan como máximo a los dos años y no pueden usarse para identificarte personalmente. En la app, Google AdSense y sus socios publicitarios establecen cookies publicitarias adicionales para servir y medir anuncios, como se describe en la sección Publicidad. No hay cookies de redes sociales, y el sitio web en sí no establece cookies publicitarias.' },
           { t: 'p', html: 'Además, el sitio web recuerda tu preferencia de idioma y la app guarda tus dibujos y el historial de deshacer en el almacenamiento local del navegador. Estos datos nunca salen de tu dispositivo.' },
-        ],
-      },
-      {
-        h: 'Servicios de terceros',
-        blocks: [
-          { t: 'p', html: "Además de Google Analytics, Google AdSense y Sentry, KulmanLab depende de un servicio de infraestructura:" },
-          { t: 'ul', items: [
-            '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — sirve este sitio web y la app. Como cualquier servidor web, procesa registros de solicitudes estándar (dirección IP, URL solicitada, agente de usuario) para entregar las páginas.',
-          ] },
         ],
       },
       {
@@ -449,15 +413,6 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
-        h: 'Services tiers',
-        blocks: [
-          { t: 'p', html: "Outre Google Analytics, Google AdSense et Sentry, KulmanLab s'appuie sur un service d'infrastructure :" },
-          { t: 'ul', items: [
-            "<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — héberge ce site web et l'app. Comme tout serveur web, il traite des journaux de requêtes standard (adresse IP, URL demandée, user agent) pour livrer les pages.",
-          ] },
-        ],
-      },
-      {
         h: 'Vos choix',
         blocks: [
           { t: 'p', html: "Si vous préférez ne pas être compté dans les statistiques, vous pouvez bloquer les cookies Google Analytics dans votre navigateur, utiliser un bloqueur de contenu, ou installer le <a href=\"https://tools.google.com/dlpage/gaoptout\" target=\"_blank\" rel=\"noopener\">module de désactivation de Google Analytics</a>. Le site web et l'app fonctionnent exactement pareil sans statistiques." },
@@ -539,15 +494,6 @@ export const privacyContent: Record<string, PrivacyContent> = {
         blocks: [
           { t: 'p', html: "Vengono usati due tipi di cookie. Google Analytics imposta <code>_ga</code> e <code>_ga_*</code> sia sul sito web sia nell'app — contengono un identificatore casuale che distingue i browser affinché le visite ripetute non vengano contate come nuovi visitatori; scadono al massimo dopo due anni e non possono essere usati per identificarti personalmente. Nell'app, Google AdSense e i suoi partner pubblicitari impostano cookie pubblicitari aggiuntivi per pubblicare e misurare gli annunci, come descritto nella sezione Pubblicità qui sopra. Non ci sono cookie di social media e il sito web in sé non imposta cookie pubblicitari." },
           { t: 'p', html: "Inoltre, il sito web ricorda la tua preferenza di lingua e l'app salva i tuoi disegni e la cronologia di annullamento nella memoria locale del browser. Questi dati non lasciano mai il tuo dispositivo." },
-        ],
-      },
-      {
-        h: 'Servizi di terze parti',
-        blocks: [
-          { t: 'p', html: "Oltre a Google Analytics, Google AdSense e Sentry, KulmanLab si affida a un servizio di infrastruttura:" },
-          { t: 'ul', items: [
-            "<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — serve questo sito web e l'app. Come ogni server web, elabora i log standard delle richieste (indirizzo IP, URL richiesto, user agent) per consegnare le pagine.",
-          ] },
         ],
       },
       {
@@ -635,15 +581,6 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
-        h: 'Serviços de terceiros',
-        blocks: [
-          { t: 'p', html: "Além do Google Analytics, do Google AdSense e do Sentry, o KulmanLab depende de um serviço de infraestrutura:" },
-          { t: 'ul', items: [
-            '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — serve este site e o app. Como qualquer servidor web, processa logs de solicitação padrão (endereço IP, URL solicitada, user agent) para entregar as páginas.',
-          ] },
-        ],
-      },
-      {
         h: 'Suas escolhas',
         blocks: [
           { t: 'p', html: 'Se preferir não ser contado na análise, você pode bloquear os cookies do Google Analytics no seu navegador, usar um bloqueador de conteúdo ou instalar o <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">complemento de desativação do Google Analytics</a>. O site e o app funcionam exatamente da mesma forma sem análise.' },
@@ -725,15 +662,6 @@ export const privacyContent: Record<string, PrivacyContent> = {
         blocks: [
           { t: 'p', html: 'Використовуються два види cookie. Google Analytics встановлює <code>_ga</code> і <code>_ga_*</code> і на сайті, і в застосунку — вони містять випадковий ідентифікатор, що розрізняє браузери, щоб повторні відвідування не рахувалися як нові відвідувачі; вони спливають щонайбільше через два роки й не можуть використовуватися для вашої особистої ідентифікації. У застосунку Google AdSense та його рекламні партнери встановлюють додаткові рекламні cookie для показу й вимірювання реклами, як описано в розділі «Реклама» вище. Cookie соціальних мереж немає, а сам сайт не встановлює рекламних cookie.' },
           { t: 'p', html: 'Крім того, сайт запам\'ятовує вашу мовну перевагу, а застосунок зберігає ваші креслення та історію скасування дій у локальному сховищі браузера. Ці дані ніколи не залишають ваш пристрій.' },
-        ],
-      },
-      {
-        h: 'Сторонні сервіси',
-        blocks: [
-          { t: 'p', html: "Окрім Google Analytics, Google AdSense і Sentry, KulmanLab покладається на одну інфраструктурну службу:" },
-          { t: 'ul', items: [
-            '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — обслуговує цей сайт і застосунок. Як будь-який вебсервер, він обробляє стандартні журнали запитів (IP-адреса, запитана URL-адреса, user agent), щоб доставляти сторінки.',
-          ] },
         ],
       },
       {
@@ -821,15 +749,6 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
-        h: 'Üçüncü taraf hizmetler',
-        blocks: [
-          { t: 'p', html: "Google Analytics, Google AdSense ve Sentry'nin yanı sıra KulmanLab bir altyapı hizmetine dayanır:" },
-          { t: 'ul', items: [
-            '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — bu web sitesini ve uygulamayı sunar. Her web sunucusu gibi, sayfaları iletmek için standart istek günlüklerini (IP adresi, istenen URL, user agent) işler.',
-          ] },
-        ],
-      },
-      {
         h: 'Seçenekleriniz',
         blocks: [
           { t: 'p', html: 'Analitikte sayılmak istemiyorsanız, tarayıcınızda Google Analytics çerezlerini engelleyebilir, bir içerik engelleyici kullanabilir veya <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Google Analytics devre dışı bırakma eklentisini</a> yükleyebilirsiniz. Web sitesi ve uygulama analitik olmadan tamamen aynı şekilde çalışır.' },
@@ -911,15 +830,6 @@ export const privacyContent: Record<string, PrivacyContent> = {
         blocks: [
           { t: 'p', html: '本站使用两类 Cookie。Google Analytics 在网站和应用上都会设置 <code>_ga</code> 和 <code>_ga_*</code>——它们包含一个用于区分浏览器的随机标识符，使重复访问不被计为新访客；有效期最长两年，无法用于识别您的个人身份。在应用中，Google AdSense 及其广告合作伙伴会设置额外的广告 Cookie 来投放和衡量广告，如上文"广告"部分所述。没有社交媒体 Cookie，网站本身也不设置任何广告 Cookie。' },
           { t: 'p', html: '此外，网站会记住您的语言偏好，应用会将您的图纸和撤销历史存储在浏览器本地存储中。这些数据永远不会离开您的设备。' },
-        ],
-      },
-      {
-        h: '第三方服务',
-        blocks: [
-          { t: 'p', html: "除 Google Analytics、Google AdSense 和 Sentry 之外，KulmanLab 还依赖一项基础设施服务：" },
-          { t: 'ul', items: [
-            '<strong>Cloudflare Pages（Cloudflare, Inc.）</strong> —— 托管本网站和应用。与任何 Web 服务器一样，它会处理标准请求日志（IP 地址、请求的 URL、User-Agent）以传送页面。',
-          ] },
         ],
       },
       {
@@ -1007,15 +917,6 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
-        h: 'तृतीय-पक्ष सेवाएँ',
-        blocks: [
-          { t: 'p', html: "Google Analytics, Google AdSense और Sentry के अलावा, KulmanLab एक इन्फ्रास्ट्रक्चर सेवा पर निर्भर है:" },
-          { t: 'ul', items: [
-            '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — यह वेबसाइट और ऐप परोसता है। किसी भी वेब सर्वर की तरह, पेज पहुँचाने के लिए यह मानक अनुरोध लॉग (IP पता, अनुरोधित URL, यूज़र एजेंट) संसाधित करता है।',
-          ] },
-        ],
-      },
-      {
         h: 'आपके विकल्प',
         blocks: [
           { t: 'p', html: 'यदि आप एनालिटिक्स में गिने जाना नहीं चाहते, तो आप ब्राउज़र में Google Analytics कुकीज़ ब्लॉक कर सकते हैं, कोई कंटेंट ब्लॉकर उपयोग कर सकते हैं, या <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Google Analytics ऑप्ट-आउट ऐड-ऑन</a> इंस्टॉल कर सकते हैं। एनालिटिक्स के बिना वेबसाइट और ऐप बिल्कुल वैसे ही काम करते हैं।' },
@@ -1097,15 +998,6 @@ export const privacyContent: Record<string, PrivacyContent> = {
         blocks: [
           { t: 'p', html: 'يُستخدَم نوعان من ملفات تعريف الارتباط. يضبط Google Analytics ملفَي <code>_ga</code> و<code>_ga_*</code> على الموقع والتطبيق معًا — وهما يحتويان على معرّف عشوائي يميّز المتصفحات كي لا تُحسب الزيارات المتكررة كزائرين جدد؛ وتنتهي صلاحيتهما خلال عامين على الأكثر ولا يمكن استخدامهما لتحديد هويتك الشخصية. وفي التطبيق، يضبط Google AdSense وشركاؤه الإعلانيون ملفات تعريف ارتباط إعلانية إضافية لعرض الإعلانات وقياسها، كما هو موضح في قسم الإعلانات أعلاه. لا توجد ملفات تعريف ارتباط لوسائل التواصل الاجتماعي، والموقع نفسه لا يضبط أي ملفات تعريف ارتباط إعلانية.' },
           { t: 'p', html: 'إضافة إلى ذلك، يتذكر الموقع تفضيل اللغة لديك، ويخزّن التطبيق رسوماتك وسجلّ التراجع في التخزين المحلي للمتصفح. هذه البيانات لا تغادر جهازك أبدًا.' },
-        ],
-      },
-      {
-        h: 'خدمات الجهات الخارجية',
-        blocks: [
-          { t: 'p', html: "إلى جانب Google Analytics وGoogle AdSense وSentry، يعتمد KulmanLab على خدمة بنية تحتية واحدة:" },
-          { t: 'ul', items: [
-            '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — يقدّم هذا الموقع والتطبيق. ومثل أي خادم ويب، يعالج سجلات الطلبات القياسية (عنوان IP، وعنوان URL المطلوب، ووكيل المستخدم) لتسليم الصفحات.',
-          ] },
         ],
       },
       {
@@ -1193,15 +1085,6 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
-        h: 'Layanan pihak ketiga',
-        blocks: [
-          { t: 'p', html: "Selain Google Analytics, Google AdSense, dan Sentry, KulmanLab bergantung pada satu layanan infrastruktur:" },
-          { t: 'ul', items: [
-            '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — menyajikan situs web ini dan aplikasi. Seperti server web mana pun, ia memproses log permintaan standar (alamat IP, URL yang diminta, user agent) untuk mengirimkan halaman.',
-          ] },
-        ],
-      },
-      {
         h: 'Pilihan Anda',
         blocks: [
           { t: 'p', html: 'Jika Anda tidak ingin dihitung dalam analitik, Anda dapat memblokir cookie Google Analytics di browser, menggunakan pemblokir konten, atau memasang <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">add-on penonaktifan Google Analytics</a>. Situs web dan aplikasi bekerja persis sama tanpa analitik.' },
@@ -1283,15 +1166,6 @@ export const privacyContent: Record<string, PrivacyContent> = {
         blocks: [
           { t: 'p', html: '使用される Cookie は2種類です。Google Analytics はサイトとアプリの両方で <code>_ga</code> と <code>_ga_*</code> を設定します — これらはブラウザを区別するためのランダムな識別子を含み、再訪問が新規訪問者として数えられないようにするものです。有効期限は最長2年で、個人の特定には使用できません。アプリ内では、上記「広告」セクションのとおり、Google AdSense とその広告パートナーが広告の配信・計測のために追加の広告 Cookie を設定します。ソーシャルメディアの Cookie はなく、当サイト自体が広告 Cookie を設定することもありません。' },
           { t: 'p', html: 'このほか、サイトは言語設定を記憶し、アプリは図面と元に戻す履歴をブラウザのローカルストレージに保存します。これらのデータがデバイスの外に出ることはありません。' },
-        ],
-      },
-      {
-        h: '第三者サービス',
-        blocks: [
-          { t: 'p', html: "Google Analytics、Google AdSense、Sentry のほかに、KulmanLab は 1 つのインフラストラクチャサービスに依存しています。" },
-          { t: 'ul', items: [
-            '<strong>Cloudflare Pages（Cloudflare, Inc.）</strong> — 当サイトとアプリを配信しています。他のウェブサーバーと同様、ページ配信のために標準的なリクエストログ（IP アドレス、リクエスト URL、ユーザーエージェント）を処理します。',
-          ] },
         ],
       },
       {
@@ -1379,15 +1253,6 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
-        h: 'Usługi zewnętrzne',
-        blocks: [
-          { t: 'p', html: "Oprócz Google Analytics, Google AdSense i Sentry KulmanLab korzysta z jednej usługi infrastrukturalnej:" },
-          { t: 'ul', items: [
-            '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — serwuje tę witrynę i aplikację. Jak każdy serwer WWW przetwarza standardowe dzienniki żądań (adres IP, żądany URL, user agent), aby dostarczać strony.',
-          ] },
-        ],
-      },
-      {
         h: 'Twoje wybory',
         blocks: [
           { t: 'p', html: 'Jeśli nie chcesz być liczony w statystykach, możesz zablokować pliki cookie Google Analytics w przeglądarce, użyć blokera treści lub zainstalować <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">dodatek blokujący Google Analytics</a>. Witryna i aplikacja działają bez statystyk dokładnie tak samo.' },
@@ -1469,15 +1334,6 @@ export const privacyContent: Record<string, PrivacyContent> = {
         blocks: [
           { t: 'p', html: '두 종류의 쿠키가 사용됩니다. Google Analytics는 웹사이트와 앱 모두에 <code>_ga</code>와 <code>_ga_*</code>를 설정합니다 — 브라우저를 구분하는 무작위 식별자를 담고 있어 재방문이 새 방문자로 집계되지 않게 하며, 최대 2년 후 만료되고 개인 식별에는 사용할 수 없습니다. 앱에서는 위 광고 섹션에서 설명한 대로 Google AdSense와 그 광고 파트너가 광고 게재 및 측정을 위한 추가 광고 쿠키를 설정합니다. 소셜 미디어 쿠키는 없으며, 웹사이트 자체는 광고 쿠키를 설정하지 않습니다.' },
           { t: 'p', html: '또한 웹사이트는 언어 설정을 기억하고, 앱은 도면과 실행 취소 기록을 브라우저 로컬 저장소에 보관합니다. 이 데이터는 기기를 벗어나지 않습니다.' },
-        ],
-      },
-      {
-        h: '제3자 서비스',
-        blocks: [
-          { t: 'p', html: "Google Analytics, Google AdSense, Sentry 외에도 KulmanLab은 한 가지 인프라 서비스에 의존합니다." },
-          { t: 'ul', items: [
-            '<strong>Cloudflare Pages(Cloudflare, Inc.)</strong> — 이 웹사이트와 앱을 제공합니다. 다른 웹 서버와 마찬가지로 페이지 전송을 위해 표준 요청 로그(IP 주소, 요청 URL, 사용자 에이전트)를 처리합니다.',
-          ] },
         ],
       },
       {
@@ -1565,15 +1421,6 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
-        h: 'Dịch vụ bên thứ ba',
-        blocks: [
-          { t: 'p', html: "Ngoài Google Analytics, Google AdSense và Sentry, KulmanLab dựa vào một dịch vụ hạ tầng:" },
-          { t: 'ul', items: [
-            '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — phục vụ trang web này và ứng dụng. Như mọi máy chủ web, nó xử lý nhật ký yêu cầu tiêu chuẩn (địa chỉ IP, URL được yêu cầu, user agent) để phân phối trang.',
-          ] },
-        ],
-      },
-      {
         h: 'Lựa chọn của bạn',
         blocks: [
           { t: 'p', html: 'Nếu không muốn bị tính trong số liệu phân tích, bạn có thể chặn cookie Google Analytics trong trình duyệt, dùng trình chặn nội dung, hoặc cài <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">tiện ích chọn không tham gia Google Analytics</a>. Trang web và ứng dụng hoạt động hoàn toàn như nhau khi không có phân tích.' },
@@ -1655,15 +1502,6 @@ export const privacyContent: Record<string, PrivacyContent> = {
         blocks: [
           { t: 'p', html: 'มีการใช้คุกกี้สองประเภท Google Analytics ตั้งค่า <code>_ga</code> และ <code>_ga_*</code> ทั้งบนเว็บไซต์และในแอป — คุกกี้เหล่านี้มีตัวระบุแบบสุ่มเพื่อแยกแยะเบราว์เซอร์ เพื่อไม่ให้การเข้าชมซ้ำถูกนับเป็นผู้เข้าชมใหม่ หมดอายุภายในไม่เกินสองปี และไม่สามารถใช้ระบุตัวตนของคุณได้ ในแอป Google AdSense และพันธมิตรโฆษณาจะตั้งค่าคุกกี้โฆษณาเพิ่มเติมเพื่อแสดงและวัดผลโฆษณา ตามที่อธิบายในส่วนโฆษณาด้านบน ไม่มีคุกกี้โซเชียลมีเดีย และตัวเว็บไซต์เองไม่ตั้งค่าคุกกี้โฆษณาใด ๆ' },
           { t: 'p', html: 'นอกจากนี้ เว็บไซต์จะจดจำภาษาที่คุณเลือก และแอปจะเก็บแบบเขียนกับประวัติการเลิกทำไว้ในพื้นที่จัดเก็บภายในของเบราว์เซอร์ ข้อมูลเหล่านี้ไม่มีวันออกจากอุปกรณ์ของคุณ' },
-        ],
-      },
-      {
-        h: 'บริการของบุคคลที่สาม',
-        blocks: [
-          { t: 'p', html: "นอกจาก Google Analytics, Google AdSense และ Sentry แล้ว KulmanLab ยังพึ่งพาบริการโครงสร้างพื้นฐานหนึ่งรายการ:" },
-          { t: 'ul', items: [
-            '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — ให้บริการเว็บไซต์นี้และแอป เช่นเดียวกับเว็บเซิร์ฟเวอร์ทั่วไป มันประมวลผลบันทึกคำขอมาตรฐาน (ที่อยู่ IP, URL ที่ขอ, user agent) เพื่อส่งมอบหน้าเว็บ',
-          ] },
         ],
       },
       {
@@ -1751,15 +1589,6 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
-        h: 'Perkhidmatan pihak ketiga',
-        blocks: [
-          { t: 'p', html: "Selain Google Analytics, Google AdSense dan Sentry, KulmanLab bergantung pada satu perkhidmatan infrastruktur:" },
-          { t: 'ul', items: [
-            '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — menyajikan laman web ini dan aplikasi. Seperti mana-mana pelayan web, ia memproses log permintaan standard (alamat IP, URL yang diminta, ejen pengguna) untuk menghantar halaman.',
-          ] },
-        ],
-      },
-      {
         h: 'Pilihan anda',
         blocks: [
           { t: 'p', html: 'Jika anda tidak mahu dikira dalam analitik, anda boleh menyekat kuki Google Analytics dalam pelayar, menggunakan penyekat kandungan, atau memasang <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">tambahan pilih keluar Google Analytics</a>. Laman web dan aplikasi berfungsi sama sahaja tanpa analitik.' },
@@ -1841,15 +1670,6 @@ export const privacyContent: Record<string, PrivacyContent> = {
         blocks: [
           { t: 'p', html: 'দুই ধরনের কুকি ব্যবহৃত হয়। Google Analytics ওয়েবসাইট ও অ্যাপ উভয় জায়গায় <code>_ga</code> ও <code>_ga_*</code> সেট করে — এগুলোতে একটি এলোমেলো শনাক্তকারী থাকে যা ব্রাউজার আলাদা করে, যাতে পুনরায় ভিজিট নতুন ভিজিটর হিসেবে গণনা না হয়; এগুলো সর্বোচ্চ দুই বছরে মেয়াদোত্তীর্ণ হয় এবং আপনাকে ব্যক্তিগতভাবে শনাক্ত করতে ব্যবহার করা যায় না। অ্যাপে, উপরের বিজ্ঞাপন অংশে বর্ণিত অনুযায়ী, Google AdSense ও তার বিজ্ঞাপন অংশীদাররা বিজ্ঞাপন প্রদর্শন ও পরিমাপের জন্য অতিরিক্ত বিজ্ঞাপন কুকি সেট করে। কোনো সোশ্যাল-মিডিয়া কুকি নেই, এবং ওয়েবসাইট নিজে কোনো বিজ্ঞাপন কুকি সেট করে না।' },
           { t: 'p', html: 'এছাড়া, ওয়েবসাইট আপনার ভাষা পছন্দ মনে রাখে এবং অ্যাপ আপনার অঙ্কন ও আনডু ইতিহাস ব্রাউজারের লোকাল স্টোরেজে রাখে। এই ডেটা কখনো আপনার ডিভাইস ছেড়ে যায় না।' },
-        ],
-      },
-      {
-        h: 'তৃতীয় পক্ষের পরিষেবা',
-        blocks: [
-          { t: 'p', html: "Google Analytics, Google AdSense ও Sentry ছাড়াও KulmanLab একটি অবকাঠামো পরিষেবার উপর নির্ভর করে:" },
-          { t: 'ul', items: [
-            '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — এই ওয়েবসাইট ও অ্যাপ পরিবেশন করে। যেকোনো ওয়েব সার্ভারের মতো, পৃষ্ঠা পৌঁছে দিতে এটি প্রমিত অনুরোধ লগ (IP ঠিকানা, অনুরোধকৃত URL, ইউজার এজেন্ট) প্রক্রিয়া করে।',
-          ] },
         ],
       },
       {
@@ -1937,15 +1757,6 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
-        h: 'Huduma za wahusika wengine',
-        blocks: [
-          { t: 'p', html: "Mbali na Google Analytics, Google AdSense na Sentry, KulmanLab hutegemea huduma moja ya miundombinu:" },
-          { t: 'ul', items: [
-            '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — huhudumia tovuti hii na programu. Kama seva yoyote ya wavuti, huchakata kumbukumbu za maombi za kawaida (anwani ya IP, URL iliyoombwa, user agent) ili kuwasilisha kurasa.',
-          ] },
-        ],
-      },
-      {
         h: 'Chaguo zako',
         blocks: [
           { t: 'p', html: 'Ikiwa hupendi kuhesabiwa kwenye takwimu, unaweza kuzuia vidakuzi vya Google Analytics kwenye kivinjari chako, kutumia kizuizi cha maudhui, au kusakinisha <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">programu-jalizi ya kujiondoa ya Google Analytics</a>. Tovuti na programu hufanya kazi sawa kabisa bila takwimu.' },
@@ -2027,15 +1838,6 @@ export const privacyContent: Record<string, PrivacyContent> = {
         blocks: [
           { t: 'p', html: 'دو قسم کی کوکیز استعمال ہوتی ہیں۔ Google Analytics ویب سائٹ اور ایپ دونوں پر <code>_ga</code> اور <code>_ga_*</code> سیٹ کرتا ہے — ان میں ایک بے ترتیب شناخت کنندہ ہوتا ہے جو براؤزرز میں فرق کرتا ہے تاکہ دوبارہ وزٹ نئے وزیٹر کے طور پر نہ گنے جائیں؛ یہ زیادہ سے زیادہ دو سال میں ختم ہو جاتی ہیں اور آپ کی ذاتی شناخت کے لیے استعمال نہیں ہو سکتیں۔ ایپ میں، جیسا کہ اوپر اشتہارات کے حصے میں بیان ہوا، Google AdSense اور اس کے اشتہاری شراکت دار اشتہارات دکھانے اور ناپنے کے لیے اضافی اشتہاری کوکیز سیٹ کرتے ہیں۔ سوشل میڈیا کی کوئی کوکیز نہیں ہیں، اور ویب سائٹ خود کوئی اشتہاری کوکیز سیٹ نہیں کرتی۔' },
           { t: 'p', html: 'اس کے علاوہ، ویب سائٹ آپ کی زبان کی ترجیح یاد رکھتی ہے اور ایپ آپ کی ڈرائنگز اور انڈو کی تاریخ براؤزر کے لوکل اسٹوریج میں رکھتی ہے۔ یہ ڈیٹا کبھی آپ کے آلے سے باہر نہیں جاتا۔' },
-        ],
-      },
-      {
-        h: 'فریق ثالث کی خدمات',
-        blocks: [
-          { t: 'p', html: "Google Analytics، Google AdSense اور Sentry کے علاوہ، KulmanLab ایک انفراسٹرکچر سروس پر انحصار کرتی ہے:" },
-          { t: 'ul', items: [
-            '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — یہ ویب سائٹ اور ایپ فراہم کرتا ہے۔ کسی بھی ویب سرور کی طرح، صفحات پہنچانے کے لیے یہ معیاری درخواستی لاگز (IP پتا، درخواست کردہ URL، یوزر ایجنٹ) پروسیس کرتا ہے۔',
-          ] },
         ],
       },
       {
@@ -2123,15 +1925,6 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
-        h: 'Υπηρεσίες τρίτων',
-        blocks: [
-          { t: 'p', html: "Εκτός από το Google Analytics, το Google AdSense και το Sentry, το KulmanLab βασίζεται σε μία υπηρεσία υποδομής:" },
-          { t: 'ul', items: [
-            '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — εξυπηρετεί αυτόν τον ιστότοπο και την εφαρμογή. Όπως κάθε διακομιστής ιστού, επεξεργάζεται τυπικά αρχεία καταγραφής αιτημάτων (διεύθυνση IP, ζητούμενο URL, user agent) για την παράδοση των σελίδων.',
-          ] },
-        ],
-      },
-      {
         h: 'Οι επιλογές σας',
         blocks: [
           { t: 'p', html: 'Αν προτιμάτε να μην καταμετράστε στα στατιστικά, μπορείτε να αποκλείσετε τα cookies του Google Analytics στον περιηγητή σας, να χρησιμοποιήσετε έναν αποκλειστή περιεχομένου ή να εγκαταστήσετε το <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">πρόσθετο εξαίρεσης από το Google Analytics</a>. Ο ιστότοπος και η εφαρμογή λειτουργούν ακριβώς το ίδιο χωρίς στατιστικά.' },
@@ -2213,15 +2006,6 @@ export const privacyContent: Record<string, PrivacyContent> = {
         blocks: [
           { t: 'p', html: 'ਦੋ ਕਿਸਮ ਦੀਆਂ ਕੂਕੀਜ਼ ਵਰਤੀਆਂ ਜਾਂਦੀਆਂ ਹਨ। Google Analytics ਵੈੱਬਸਾਈਟ ਅਤੇ ਐਪ ਦੋਹਾਂ ਤੇ <code>_ga</code> ਅਤੇ <code>_ga_*</code> ਸੈੱਟ ਕਰਦਾ ਹੈ — ਇਹਨਾਂ ਵਿੱਚ ਇੱਕ ਬੇਤਰਤੀਬ ਪਛਾਣਕਰਤਾ ਹੁੰਦਾ ਹੈ ਜੋ ਬ੍ਰਾਊਜ਼ਰਾਂ ਵਿੱਚ ਫ਼ਰਕ ਕਰਦਾ ਹੈ ਤਾਂ ਜੋ ਦੁਬਾਰਾ ਮੁਲਾਕਾਤਾਂ ਨਵੇਂ ਮਹਿਮਾਨ ਵਜੋਂ ਨਾ ਗਿਣੀਆਂ ਜਾਣ; ਇਹ ਵੱਧ ਤੋਂ ਵੱਧ ਦੋ ਸਾਲਾਂ ਵਿੱਚ ਮਿਆਦ ਪੁੱਗ ਜਾਂਦੀਆਂ ਹਨ ਅਤੇ ਤੁਹਾਡੀ ਨਿੱਜੀ ਪਛਾਣ ਲਈ ਵਰਤੀਆਂ ਨਹੀਂ ਜਾ ਸਕਦੀਆਂ। ਐਪ ਵਿੱਚ, ਜਿਵੇਂ ਉੱਪਰ ਇਸ਼ਤਿਹਾਰਬਾਜ਼ੀ ਭਾਗ ਵਿੱਚ ਦੱਸਿਆ ਗਿਆ ਹੈ, Google AdSense ਅਤੇ ਉਸਦੇ ਇਸ਼ਤਿਹਾਰੀ ਸਾਥੀ ਇਸ਼ਤਿਹਾਰ ਦਿਖਾਉਣ ਅਤੇ ਮਾਪਣ ਲਈ ਵਾਧੂ ਇਸ਼ਤਿਹਾਰੀ ਕੂਕੀਜ਼ ਸੈੱਟ ਕਰਦੇ ਹਨ। ਕੋਈ ਸੋਸ਼ਲ-ਮੀਡੀਆ ਕੂਕੀਜ਼ ਨਹੀਂ ਹਨ, ਅਤੇ ਵੈੱਬਸਾਈਟ ਖ਼ੁਦ ਕੋਈ ਇਸ਼ਤਿਹਾਰੀ ਕੂਕੀਜ਼ ਸੈੱਟ ਨਹੀਂ ਕਰਦੀ।' },
           { t: 'p', html: 'ਇਸ ਤੋਂ ਇਲਾਵਾ, ਵੈੱਬਸਾਈਟ ਤੁਹਾਡੀ ਭਾਸ਼ਾ ਦੀ ਪਸੰਦ ਯਾਦ ਰੱਖਦੀ ਹੈ ਅਤੇ ਐਪ ਤੁਹਾਡੀਆਂ ਡਰਾਇੰਗਾਂ ਤੇ ਅਨਡੂ ਇਤਿਹਾਸ ਬ੍ਰਾਊਜ਼ਰ ਦੇ ਲੋਕਲ ਸਟੋਰੇਜ ਵਿੱਚ ਰੱਖਦੀ ਹੈ। ਇਹ ਡੇਟਾ ਕਦੇ ਵੀ ਤੁਹਾਡੀ ਡਿਵਾਈਸ ਤੋਂ ਬਾਹਰ ਨਹੀਂ ਜਾਂਦਾ।' },
-        ],
-      },
-      {
-        h: 'ਤੀਜੀ-ਧਿਰ ਦੀਆਂ ਸੇਵਾਵਾਂ',
-        blocks: [
-          { t: 'p', html: "Google Analytics, Google AdSense ਅਤੇ Sentry ਤੋਂ ਇਲਾਵਾ, KulmanLab ਇੱਕ ਬੁਨਿਆਦੀ ਢਾਂਚਾ ਸੇਵਾ ਉੱਤੇ ਨਿਰਭਰ ਕਰਦਾ ਹੈ:" },
-          { t: 'ul', items: [
-            '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — ਇਹ ਵੈੱਬਸਾਈਟ ਅਤੇ ਐਪ ਪਰੋਸਦਾ ਹੈ। ਕਿਸੇ ਵੀ ਵੈੱਬ ਸਰਵਰ ਵਾਂਗ, ਪੰਨੇ ਪਹੁੰਚਾਉਣ ਲਈ ਇਹ ਮਿਆਰੀ ਬੇਨਤੀ ਲੌਗ (IP ਪਤਾ, ਬੇਨਤੀ ਕੀਤਾ URL, ਯੂਜ਼ਰ ਏਜੰਟ) ਪ੍ਰੋਸੈਸ ਕਰਦਾ ਹੈ।',
-          ] },
         ],
       },
       {
@@ -2309,15 +2093,6 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
-        h: 'Tredjepartstjänster',
-        blocks: [
-          { t: 'p', html: "Förutom Google Analytics, Google AdSense och Sentry förlitar sig KulmanLab på en infrastrukturtjänst:" },
-          { t: 'ul', items: [
-            '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — levererar den här webbplatsen och appen. Som alla webbservrar behandlar den standardloggar för förfrågningar (IP-adress, begärd URL, user agent) för att leverera sidorna.',
-          ] },
-        ],
-      },
-      {
         h: 'Dina val',
         blocks: [
           { t: 'p', html: 'Om du inte vill räknas i statistiken kan du blockera Google Analytics-cookies i din webbläsare, använda en innehållsblockerare eller installera <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Googles Analytics-avaktiveringstillägg</a>. Webbplatsen och appen fungerar exakt likadant utan statistik.' },
@@ -2399,15 +2174,6 @@ export const privacyContent: Record<string, PrivacyContent> = {
         blocks: [
           { t: 'p', html: 'Dalawang uri ng cookies ang ginagamit. Ang Google Analytics ay nagtatakda ng <code>_ga</code> at <code>_ga_*</code> sa website at sa app — naglalaman ang mga ito ng random na identifier na nagpapaiba sa mga browser upang ang mga paulit-ulit na pagbisita ay hindi mabilang bilang mga bagong bisita; nag-e-expire ang mga ito pagkatapos ng hanggang dalawang taon at hindi magagamit para makilala ka nang personal. Sa app, ang Google AdSense at ang mga advertising partner nito ay nagtatakda ng karagdagang advertising cookies para maghatid at sumukat ng mga ad, gaya ng inilarawan sa seksyong Advertising sa itaas. Walang cookies ng social media, at ang website mismo ay hindi nagtatakda ng anumang advertising cookies.' },
           { t: 'p', html: 'Bukod pa rito, tinatandaan ng website ang iyong napiling wika at iniimbak ng app ang iyong mga drawing at undo history sa lokal na storage ng browser. Hindi kailanman umaalis sa iyong device ang data na ito.' },
-        ],
-      },
-      {
-        h: 'Mga serbisyo ng third party',
-        blocks: [
-          { t: 'p', html: "Bukod sa Google Analytics, Google AdSense, at Sentry, umaasa ang KulmanLab sa isang serbisyo ng imprastraktura:" },
-          { t: 'ul', items: [
-            '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — naghahatid ng website na ito at ng app. Tulad ng anumang web server, pinoproseso nito ang mga karaniwang log ng request (IP address, hiniling na URL, user agent) para maihatid ang mga pahina.',
-          ] },
         ],
       },
       {
@@ -2495,15 +2261,6 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
-        h: 'Diensten van derden',
-        blocks: [
-          { t: 'p', html: "Naast Google Analytics, Google AdSense en Sentry vertrouwt KulmanLab op één infrastructuurdienst:" },
-          { t: 'ul', items: [
-            '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — levert deze website en de app. Zoals elke webserver verwerkt het standaard verzoeklogs (IP-adres, opgevraagde URL, user agent) om de pagina\'s te leveren.',
-          ] },
-        ],
-      },
-      {
         h: 'Uw keuzes',
         blocks: [
           { t: 'p', html: 'Als u liever niet meetelt in de statistieken, kunt u de Google Analytics-cookies in uw browser blokkeren, een contentblocker gebruiken, of de <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Google Analytics-opt-outadd-on</a> installeren. De website en de app werken precies hetzelfde zonder analytics.' },
@@ -2585,15 +2342,6 @@ export const privacyContent: Record<string, PrivacyContent> = {
         blocks: [
           { t: 'p', html: 'Ana amfani da nauʼukan cookies guda biyu. Google Analytics tana saita <code>_ga</code> da <code>_ga_*</code> a shafin da kuma manhajar — suna ɗauke da alamar bazuwar da ke bambanta burauza domin kada a ƙidaya ziyara maimaitawa a matsayin sabbin baƙi, suna ƙarewa bayan har shekaru biyu, kuma ba za a iya amfani da su don gane ka a matsayin mutum ba. A manhajar, Google AdSense da abokan hulɗarta na talla suna saita ƙarin cookies na talla don bayarwa da auna tallace-tallace, kamar yadda aka bayyana a sashin Talla a sama. Babu cookies na kafofin sada zumunta, kuma shafin da kansa ba ya saita cookies na talla.' },
           { t: 'p', html: 'Bugu da ƙari, shafin yana tuna zaɓin harshenka kuma manhajar tana ajiye zanen-zanenka da tarihin undo a ajiyar gida ta burauza. Wannan bayanin ba ya taɓa barin naʼurarka.' },
-        ],
-      },
-      {
-        h: 'Ayyukan kamfanoni na waje',
-        blocks: [
-          { t: 'p', html: "Ban da Google Analytics, Google AdSense da Sentry, KulmanLab tana dogara ga sabis ɗaya na ababen more rayuwa:" },
-          { t: 'ul', items: [
-            '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — yana bayar da wannan shafin da manhajar. Kamar kowane uwar garken yanar gizo, yana sarrafa rikodin buƙatun yau da kullum (adireshin IP, URL da aka buƙata, user agent) don isar da shafuka.',
-          ] },
         ],
       },
       {
@@ -2681,15 +2429,6 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
-        h: 'Tredjepartstjenester',
-        blocks: [
-          { t: 'p', html: "I tillegg til Google Analytics, Google AdSense og Sentry er KulmanLab avhengig av én infrastrukturtjeneste:" },
-          { t: 'ul', items: [
-            '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — leverer dette nettstedet og appen. Som enhver webserver behandler den standard forespørselslogger (IP-adresse, forespurt URL, brukeragent) for å levere sidene.',
-          ] },
-        ],
-      },
-      {
         h: 'Dine valg',
         blocks: [
           { t: 'p', html: 'Hvis du foretrekker å ikke bli talt i analyser, kan du blokkere Google Analytics-informasjonskapslene i nettleseren din, bruke en innholdsblokkerer, eller installere <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Google Analytics-reservasjonstillegget</a>. Nettstedet og appen fungerer akkurat likt uten analyse.' },
@@ -2771,15 +2510,6 @@ export const privacyContent: Record<string, PrivacyContent> = {
         blocks: [
           { t: 'p', html: 'Der bruges to typer cookies. Google Analytics sætter <code>_ga</code> og <code>_ga_*</code> på både hjemmesiden og appen — de indeholder en tilfældig identifikator, der skelner browsere fra hinanden, så gentagne besøg ikke tælles som nye besøgende, udløber efter op til to år, og kan ikke bruges til at identificere dig personligt. I appen sætter Google AdSense og dets reklamepartnere yderligere reklamecookies for at vise og måle reklamer, som beskrevet i Reklame-afsnittet ovenfor. Der er ingen sociale medie-cookies, og hjemmesiden selv sætter ingen reklamecookies.' },
           { t: 'p', html: 'Derudover husker hjemmesiden din sprogpræference, og appen gemmer dine tegninger og fortryd-historik i browserens lokale lagring. Disse data forlader aldrig din enhed.' },
-        ],
-      },
-      {
-        h: 'Tredjepartstjenester',
-        blocks: [
-          { t: 'p', html: "Ud over Google Analytics, Google AdSense og Sentry er KulmanLab afhængig af én infrastrukturtjeneste:" },
-          { t: 'ul', items: [
-            '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — leverer denne hjemmeside og appen. Ligesom enhver webserver behandler den standard forespørgselslogfiler (IP-adresse, forespurgt URL, brugeragent) for at levere siderne.',
-          ] },
         ],
       },
       {
@@ -2867,15 +2597,6 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
-        h: 'Kolmannen osapuolen palvelut',
-        blocks: [
-          { t: 'p', html: "Google Analyticsin, Google AdSensen ja Sentryn lisäksi KulmanLab käyttää yhtä infrastruktuuripalvelua:" },
-          { t: 'ul', items: [
-            '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — tarjoaa tämän verkkosivuston ja sovelluksen. Kuten mikä tahansa verkkopalvelin, se käsittelee standardeja pyyntölokeja (IP-osoite, pyydetty URL, käyttäjäagentti) sivujen toimittamiseksi.',
-          ] },
-        ],
-      },
-      {
         h: 'Valintasi',
         blocks: [
           { t: 'p', html: 'Jos et halua tulla laskettua analytiikassa, voit estää Google Analytics -evästeet selaimessasi, käyttää sisällönestäjää, tai asentaa <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Google Analyticsin kieltäytymislisäosan</a>. Verkkosivusto ja sovellus toimivat täsmälleen samalla tavalla ilman analytiikkaa.' },
@@ -2960,15 +2681,6 @@ export const privacyContent: Record<string, PrivacyContent> = {
         ],
       },
       {
-        h: 'Služby třetích stran',
-        blocks: [
-          { t: 'p', html: "Kromě Google Analytics, Google AdSense a Sentry se KulmanLab spoléhá na jednu infrastrukturní službu:" },
-          { t: 'ul', items: [
-            '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — poskytuje tento web i aplikaci. Stejně jako každý webový server zpracovává standardní záznamy požadavků (IP adresa, požadovaná URL, user agent), aby stránky doručil.',
-          ] },
-        ],
-      },
-      {
         h: 'Vaše možnosti',
         blocks: [
           { t: 'p', html: 'Pokud nechcete být započítáni v analytice, můžete ve svém prohlížeči zablokovat cookies Google Analytics, použít blokátor obsahu nebo nainstalovat <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">doplněk Google Analytics Opt-out</a>. Web i aplikace fungují bez analytiky úplně stejně.' },
@@ -3049,15 +2761,6 @@ export const privacyContent: Record<string, PrivacyContent> = {
         blocks: [
           { t: 'p', html: 'Naudojami dviejų rūšių slapukai. Google Analytics nustato <code>_ga</code> ir <code>_ga_*</code> tiek svetainėje, tiek programoje — juose yra atsitiktinis identifikatorius, skiriantis naršykles, kad pakartotiniai apsilankymai nebūtų skaičiuojami kaip nauji lankytojai; jie galioja iki dvejų metų ir negali būti naudojami jums asmeniškai identifikuoti. Programoje Google AdSense ir jos reklamos partneriai nustato papildomus reklaminius slapukus reklamai teikti ir matuoti, kaip aprašyta aukščiau esančiame skyriuje „Reklama". Socialinių tinklų slapukų nėra, o pati svetainė reklaminių slapukų nenustato.' },
           { t: 'p', html: 'Be to, svetainė prisimena jūsų kalbos pasirinkimą, o programa saugo jūsų brėžinius ir atšaukimo istoriją naršyklės vietinėje saugykloje. Šie duomenys niekada nepalieka jūsų įrenginio.' },
-        ],
-      },
-      {
-        h: 'Trečiųjų šalių paslaugos',
-        blocks: [
-          { t: 'p', html: "Be Google Analytics, Google AdSense ir Sentry, KulmanLab remiasi viena infrastruktūros paslauga:" },
-          { t: 'ul', items: [
-            '<strong>Cloudflare Pages (Cloudflare, Inc.)</strong> — pateikia šią svetainę ir programą. Kaip ir bet kuris žiniatinklio serveris, ji apdoroja standartinius užklausų žurnalus (IP adresą, prašomą URL, naudotojo agentą), kad pateiktų puslapius.',
-          ] },
         ],
       },
       {
