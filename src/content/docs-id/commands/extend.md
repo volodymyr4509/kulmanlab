@@ -44,9 +44,8 @@ Tipe entitas berikut diabaikan sebagai batas — entitas tidak diperpanjang untu
 
 - Text / Mtext
 - Multileader
-- Spline
 
-Semua tipe lain (Line, Arc, Circle, Ellipse, Polyline, Dimension) berfungsi sebagai batas yang valid.
+Semua tipe lain (Line, Arc, Circle, Ellipse, Polyline, Spline, Dimension) berfungsi sebagai batas yang valid.
 
 Jika segmen pertama atau terakhir dari sebuah Polyline itu sendiri adalah segmen busur (digambar dengan sakelar Arc), memperpanjangnya membuat busur tumbuh di sepanjang lingkarannya sendiri — sama seperti memperpanjang Arc mandiri — bukan memperlakukannya sebagai segmen lurus.
 

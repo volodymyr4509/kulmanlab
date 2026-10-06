@@ -62,7 +62,7 @@ Umarnin yana projekta matsayin mai nuni a kan abin da aka riƙe kuma yana samun 
 | Ellipse | Eh — yana buƙatar tabon mahaɗa 2 ko fiye |
 | Polyline (mai buɗewa) | Eh |
 | Polyline (rufaffiya) / Rectangle | Eh — yana buƙatar tabon mahaɗa 2 ko fiye |
-| Spline | Eh — rufaffen spline yana buƙatar wuraren giciye 2 ko fiye |
+| Spline | Eh — rufaffen spline yana buƙatar wuraren giciye 2 ko fiye; ana kuma yanke spline inda yake gicciye kansa |
 | Text, Dimension, Leader | Aʼa |
 
 Abubuwan da ake amfani da su a matsayin **iyakokin yankewa** na iya zama Line, Arc, Circle, Ellipse, Polyline, ko Spline. Abubuwan Text, Dimension da Leader ba sa rajistar giciye ko kaɗan, don haka ba za su iya zama iyaka ba.

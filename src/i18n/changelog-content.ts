@@ -782,7 +782,309 @@ const appLanguageReleaseTranslations: Record<string, { title: string; highlights
   }
 };
 
+const splineReleaseTranslations: Record<string, { title: string; highlights: string[] }> = {
+  "ar": {
+    title: "يعمل Trim وExtend مع المنحنيات؛ وإعادة تصميم Export Manager",
+    highlights: [
+      "أصبح Trim يقص المنحنيات — بما في ذلك حيث يتقاطع المنحنى مع نفسه — وتعمل المنحنيات كحدود قص للكائنات الأخرى. كل جزء هو المنحنى نفسه على مدى أقل منه دون إعادة ملاءمة.",
+      "أصبح Extend يتوقف عند المنحنيات، وتملأ التهشيرات المنحنيات المتقاطعة مع نفسها. ما سيزيله trim وما سيتركه extend يُبرز بخط تمييز صلب مع توهج خفيف.",
+      "أُعيد تصميم Export Manager: تعرض القوائم ما يحتويه الرسم فقط، وتُبدَّل الصفوف كاملة، ويختار جدول ثانٍ أنماط النص والإشارات والأبعاد المراد تصديرها، ويحسب التذييل عدد الكائنات التي ستُصدَّر.",
+      "تُبلَّغ الأخطاء الآن أيضًا بشكل مجهول إلى Sentry — تتبع المكدس وإصدار التطبيق وآخر إجراءات التطبيق نفسه، ولا محتوى الرسم أو البيانات الشخصية أبدًا. لم يعد تحديد كائن يحوي آلاف النقاط يجمّد الصفحة.",
+    ],
+  },
+  "bn": {
+    title: "Trim ও Extend এখন স্প্লাইন সমর্থন করে; Export Manager নতুন করে সাজানো",
+    highlights: [
+      "Trim এখন স্প্লাইন কাটে — যেখানে স্প্লাইন নিজেকে ছেদ করে সেখানেও — এবং স্প্লাইন অন্য অবজেক্টের কাটার সীমানা হিসেবে কাজ করে। প্রতিটি টুকরো আবার ফিট না করেই একই বক্ররেখার ছোট অংশ।",
+      "Extend এখন স্প্লাইনে থামে, এবং হ্যাচ নিজেকে ছেদ করা স্প্লাইন ভরাট করে। trim যা সরাবে এবং extend যা রাখবে তা হালকা আভাসহ নিরেট অ্যাকসেন্ট রেখায় হাইলাইট হয়।",
+      "Export Manager নতুন করে সাজানো: তালিকা শুধু ড্রয়িংয়ে যা আছে তা দেখায়, সারিগুলো পুরোটা একসাথে টগল হয়, দ্বিতীয় টেবিল বেছে নেয় কোন টেক্সট, লিডার ও ডাইমেনশন স্টাইল এক্সপোর্ট হবে, এবং ফুটার এক্সপোর্ট হওয়া অবজেক্ট গোনে।",
+      "ত্রুটি এখন Sentry-তেও বেনামে রিপোর্ট করা হয় — স্ট্যাক ট্রেস, অ্যাপের সংস্করণ ও অ্যাপের নিজস্ব সাম্প্রতিক কার্যকলাপ, ড্রয়িংয়ের বিষয়বস্তু বা ব্যক্তিগত তথ্য কখনও নয়। হাজার হাজার বিন্দুর অবজেক্ট নির্বাচন করলে আর পেজ আটকে যায় না।",
+    ],
+  },
+  "cs": {
+    title: "Trim a Extend fungují se spliny; přepracovaný Export Manager",
+    highlights: [
+      "Trim nyní ořezává spliny — i tam, kde se spline kříží sám se sebou — a spliny slouží jiným objektům jako ořezové hrany. Každý díl je tatáž křivka na menším úseku, bez nového proložení.",
+      "Extend se nyní zastaví u splinů a šrafování vyplní spliny, které se kříží samy se sebou. To, co trim odstraní a co extend ponechá, je zvýrazněno plnou akcentní čarou s lehkým prosvětlením.",
+      "Přepracovaný Export Manager: seznamy ukazují jen to, co výkres obsahuje, řádky se přepínají celé, druhá tabulka vybírá, které styly textu, odkazů a kót se exportují, a zápatí počítá exportované objekty.",
+      "Chyby se nyní hlásí také anonymně do Sentry — výpis zásobníku, verze aplikace a vlastní nedávné akce aplikace, nikdy obsah výkresu ani osobní údaje. Výběr objektu s tisíci body už nezamrazí stránku.",
+    ],
+  },
+  "da": {
+    title: "Trim og Extend virker med splines; omarbejdet Export Manager",
+    highlights: [
+      "Trim klipper nu splines — også hvor en spline krydser sig selv — og splines fungerer som skærekanter for andre objekter. Hvert stykke er den samme kurve over en mindre del af sig selv, uden ny tilpasning.",
+      "Extend stopper nu ved splines, og skravering udfylder splines, der krydser sig selv. Det, en trim fjerner, og det, en extend efterlader, fremhæves med en optrukken accentstreg med svagt skær.",
+      "Omarbejdet Export Manager: listerne viser kun det, tegningen indeholder, rækker skiftes som helhed, en anden tabel vælger, hvilke tekst-, leader- og målestile der eksporteres, og sidefoden tæller de objekter, der eksporteres.",
+      "Fejl rapporteres nu også anonymt til Sentry — stakspor, appversion og appens egne seneste handlinger, aldrig tegningens indhold eller personlige data. At markere et objekt med tusindvis af punkter fryser ikke længere siden.",
+    ],
+  },
+  "de": {
+    title: "Trim und Extend arbeiten mit Splines; überarbeiteter Export-Manager",
+    highlights: [
+      "Trim schneidet jetzt Splines — auch dort, wo ein Spline sich selbst kreuzt —, und Splines dienen anderen Entitäten als Schnittkanten. Jedes Teilstück ist dieselbe Kurve über einen kleineren Bereich, ohne erneutes Anpassen.",
+      "Extend endet jetzt an Splines, und Schraffuren füllen Splines, die sich selbst kreuzen. Was ein Trim entfernt und was ein Extend übrig lässt, wird mit einem durchgehenden Akzentstrich und leichtem Schimmer hervorgehoben.",
+      "Export-Manager überarbeitet: Die Listen zeigen nur, was die Zeichnung enthält, Zeilen lassen sich als Ganzes umschalten, eine zweite Tabelle wählt aus, welche Text-, Leader- und Bemaßungsstile exportiert werden, und die Fußzeile zählt die zu exportierenden Objekte.",
+      "Fehler werden jetzt zusätzlich anonym an Sentry gemeldet — Stack-Trace, App-Version und die letzten App-Aktionen, niemals Zeichnungsinhalte oder persönliche Daten. Eine Entität mit tausenden Punkten auszuwählen friert die Seite nicht mehr ein.",
+    ],
+  },
+  "el": {
+    title: "Τα Trim και Extend δουλεύουν με splines· ανασχεδιασμένο Export Manager",
+    highlights: [
+      "Το Trim κόβει πλέον splines — και εκεί όπου ένα spline τέμνει τον εαυτό του — και τα splines λειτουργούν ως όρια κοπής για άλλα αντικείμενα. Κάθε τμήμα είναι η ίδια καμπύλη σε μικρότερο εύρος, χωρίς νέα προσαρμογή.",
+      "Το Extend σταματά πλέον στα splines, και οι διαγραμμίσεις γεμίζουν splines που τέμνουν τον εαυτό τους. Ό,τι θα αφαιρέσει ένα trim και ό,τι θα αφήσει ένα extend επισημαίνεται με συνεχή γραμμή έμφασης και ήπια λάμψη.",
+      "Ανασχεδιασμένο Export Manager: οι λίστες δείχνουν μόνο ό,τι περιέχει το σχέδιο, οι γραμμές εναλλάσσονται ολόκληρες, ένας δεύτερος πίνακας επιλέγει ποια στυλ κειμένου, οδηγών και διαστάσεων θα εξαχθούν, και το υποσέλιδο μετρά τα αντικείμενα προς εξαγωγή.",
+      "Τα σφάλματα αναφέρονται πλέον και ανώνυμα στο Sentry — ίχνος στοίβας, έκδοση εφαρμογής και πρόσφατες ενέργειες της ίδιας της εφαρμογής, ποτέ περιεχόμενο σχεδίου ή προσωπικά δεδομένα. Η επιλογή αντικειμένου με χιλιάδες σημεία δεν παγώνει πια τη σελίδα.",
+    ],
+  },
+  "es": {
+    title: "Trim y Extend funcionan con splines; Export Manager rediseñado",
+    highlights: [
+      "Trim ahora corta splines — también donde un spline se cruza consigo mismo — y los splines actúan como bordes de corte para otros objetos. Cada tramo es la misma curva sobre una parte de sí misma, sin reajuste.",
+      "Extend ahora se detiene en los splines, y las sombras rellenan splines que se cruzan consigo mismos. Lo que un trim eliminará y lo que un extend dejará se resalta con un trazo de acento sólido y un leve resplandor.",
+      "Export Manager rediseñado: las listas muestran solo lo que contiene el dibujo, las filas se activan como un todo, una segunda tabla elige qué estilos de texto, directriz y cota se exportan, y el pie cuenta los objetos que se exportarán.",
+      "Los errores ahora también se informan de forma anónima a Sentry — traza de pila, versión de la aplicación y las acciones recientes de la propia aplicación, nunca el contenido del dibujo ni datos personales. Seleccionar un objeto con miles de puntos ya no congela la página.",
+    ],
+  },
+  "fi": {
+    title: "Trim ja Extend toimivat splineillä; uudistettu Export Manager",
+    highlights: [
+      "Trim leikkaa nyt splinet — myös kohdasta, jossa spline leikkaa itsensä — ja splinet toimivat muiden objektien leikkausrajoina. Kukin pala on sama käyrä pienemmällä osuudella, ilman uutta sovitusta.",
+      "Extend pysähtyy nyt splineihin, ja viivoitus täyttää itsensä leikkaavat splinet. Se, minkä trim poistaa ja minkä extend jättää, korostetaan yhtenäisellä korostusviivalla ja kevyellä hehkulla.",
+      "Uudistettu Export Manager: luettelot näyttävät vain sen, mitä piirustus sisältää, rivit vaihtuvat kokonaisina, toinen taulukko valitsee, mitkä teksti-, viite- ja mittatyylit viedään, ja alatunniste laskee vietävät objektit.",
+      "Virheet ilmoitetaan nyt myös nimettömästi Sentrylle — pinojäljitys, sovelluksen versio ja sovelluksen omat viimeaikaiset toimet, ei koskaan piirustuksen sisältöä eikä henkilötietoja. Tuhansia pisteitä sisältävän objektin valinta ei enää jäädytä sivua.",
+    ],
+  },
+  "fr": {
+    title: "Trim et Extend fonctionnent avec les splines ; Export Manager repensé",
+    highlights: [
+      "Trim coupe désormais les splines — y compris là où une spline se croise elle-même — et les splines servent de limites de coupe aux autres objets. Chaque morceau est la même courbe sur une portion d'elle-même, sans réajustement.",
+      "Extend s'arrête désormais aux splines, et les hachures remplissent les splines qui se croisent elles-mêmes. Ce qu'un trim va retirer et ce qu'un extend va laisser est mis en évidence par un trait d'accent plein avec une légère lueur.",
+      "Export Manager repensé : les listes n'affichent que ce que contient le dessin, les lignes se basculent en bloc, un second tableau choisit les styles de texte, de repère et de cote à exporter, et le pied de page compte les objets exportés.",
+      "Les erreurs sont désormais aussi signalées anonymement à Sentry — trace d'appels, version de l'application et dernières actions de l'application, jamais le contenu du dessin ni de données personnelles. Sélectionner un objet de plusieurs milliers de points ne fige plus la page.",
+    ],
+  },
+  "ha": {
+    title: "Trim da Extend yanzu suna aiki da spline; an sake tsara Export Manager",
+    highlights: [
+      "Trim yanzu yana yanke spline — har inda spline ke gicciye kanta — kuma spline suna aiki a matsayin gefen yankewa ga sauran abubuwa. Kowane yanki shi ne lanƙwasa ɗaya a ƙaramin ɓangare, ba tare da sake fit ba.",
+      "Extend yanzu yana tsayawa a spline, kuma hatch yana cika spline da ke gicciye kansu. Abin da trim zai cire da abin da extend zai bari ana haskaka su da layin lafazi mai ƙarfi mai ɗan haske.",
+      "An sake tsara Export Manager: jerin suna nuna abin da ke cikin zane kawai, ana sauya layuka gaba ɗaya, tebur na biyu yana zaɓar salon rubutu, leader da girma da za a fitar, kuma ƙasan shafi yana ƙirga abubuwan da za a fitar.",
+      "Yanzu ana kuma ba Sentry rahoton kurakurai ba tare da suna ba — stack trace, sigar manhaja da ayyukan manhajar na kwanan nan, ba za a taɓa aika abubuwan zane ko bayanan sirri ba. Zaɓar abu mai dubban maki ba ya daskare shafi kuma.",
+    ],
+  },
+  "he": {
+    title: "Trim ו-Extend עובדים עם ספליינים; Export Manager עוצב מחדש",
+    highlights: [
+      "Trim חותך עכשיו ספליינים — גם במקום שבו ספליין חוצה את עצמו — וספליינים משמשים כגבולות חיתוך לאובייקטים אחרים. כל חלק הוא אותה עקומה על קטע קטן יותר ממנה, ללא התאמה מחדש.",
+      "Extend נעצר עכשיו בספליינים, וקווי המילוי ממלאים ספליינים שחוצים את עצמם. מה ש-trim יסיר ומה ש-extend ישאיר מודגש בקו הדגשה רציף עם זוהר קל.",
+      "Export Manager עוצב מחדש: הרשימות מציגות רק את מה שיש בשרטוט, שורות מתחלפות כיחידה, טבלה שנייה בוחרת אילו סגנונות טקסט, מנהיגים ומידות יוצאו, והכותרת התחתונה סופרת את האובייקטים שייוצאו.",
+      "שגיאות מדווחות עכשיו גם באופן אנונימי ל-Sentry — stack trace, גרסת האפליקציה והפעולות האחרונות של האפליקציה עצמה, לעולם לא תוכן השרטוט או נתונים אישיים. בחירת אובייקט עם אלפי נקודות כבר לא מקפיאה את הדף.",
+    ],
+  },
+  "hi": {
+    title: "Trim और Extend अब स्प्लाइन के साथ काम करते हैं; नया Export Manager",
+    highlights: [
+      "Trim अब स्प्लाइन को काटता है — जहाँ स्प्लाइन खुद को काटती है वहाँ भी — और स्प्लाइन दूसरे ऑब्जेक्ट के लिए कटिंग किनारे का काम करती हैं। हर टुकड़ा उसी वक्र का छोटा हिस्सा है, बिना दोबारा फ़िट किए।",
+      "Extend अब स्प्लाइन पर रुकता है, और हैच खुद को काटने वाली स्प्लाइन को भर देता है। trim जो हटाएगा और extend जो छोड़ेगा उसे हल्की चमक वाली ठोस एक्सेंट रेखा से हाइलाइट किया जाता है।",
+      "Export Manager नया बना: सूचियाँ केवल वही दिखाती हैं जो ड्रॉइंग में है, पंक्तियाँ पूरी तरह टॉगल होती हैं, दूसरी तालिका चुनती है कि कौन से टेक्स्ट, लीडर और डायमेंशन स्टाइल एक्सपोर्ट हों, और फ़ुटर एक्सपोर्ट होने वाले ऑब्जेक्ट गिनता है।",
+      "त्रुटियाँ अब Sentry को गुमनाम रूप से भी रिपोर्ट की जाती हैं — स्टैक ट्रेस, ऐप संस्करण और ऐप की अपनी हालिया क्रियाएँ, ड्रॉइंग की सामग्री या व्यक्तिगत डेटा कभी नहीं। हज़ारों बिंदुओं वाले ऑब्जेक्ट को चुनने से अब पेज नहीं जमता।",
+    ],
+  },
+  "id": {
+    title: "Trim dan Extend kini bekerja dengan spline; Export Manager dirombak",
+    highlights: [
+      "Trim kini memotong spline — termasuk di tempat spline bersilang dengan dirinya sendiri — dan spline berfungsi sebagai tepi pemotong untuk objek lain. Setiap potongan adalah kurva yang sama pada bagian yang lebih kecil, tanpa pencocokan ulang.",
+      "Extend kini berhenti di spline, dan arsir mengisi spline yang bersilang dengan dirinya sendiri. Bagian yang akan dihapus trim dan yang akan ditinggalkan extend disorot dengan goresan aksen solid dan cahaya tipis.",
+      "Export Manager dirombak: daftar hanya menampilkan isi gambar, baris dialihkan secara utuh, tabel kedua memilih gaya teks, leader, dan dimensi yang diekspor, dan footer menghitung objek yang akan diekspor.",
+      "Kesalahan kini juga dilaporkan secara anonim ke Sentry — stack trace, versi aplikasi, dan tindakan terbaru aplikasi itu sendiri, tidak pernah isi gambar atau data pribadi. Memilih objek dengan ribuan titik tidak lagi membekukan halaman.",
+    ],
+  },
+  "it": {
+    title: "Trim ed Extend funzionano con le spline; Export Manager rivisto",
+    highlights: [
+      "Trim ora taglia le spline — anche dove una spline si incrocia da sola — e le spline fanno da bordi di taglio per gli altri oggetti. Ogni parte è la stessa curva su un tratto più breve, senza riadattamento.",
+      "Extend ora si ferma alle spline, e i tratteggi riempiono le spline che si incrociano da sole. Ciò che un trim rimuoverà e ciò che un extend lascerà è evidenziato con un tratto d'accento pieno e un leggero alone.",
+      "Export Manager rivisto: gli elenchi mostrano solo ciò che contiene il disegno, le righe si attivano per intero, una seconda tabella sceglie quali stili di testo, guida e quota esportare, e il piè di pagina conta gli oggetti da esportare.",
+      "Gli errori ora vengono segnalati anche in forma anonima a Sentry — stack trace, versione dell'app e ultime azioni dell'app, mai il contenuto del disegno né dati personali. Selezionare un oggetto con migliaia di punti non blocca più la pagina.",
+    ],
+  },
+  "ja": {
+    title: "Trim と Extend がスプラインに対応、Export Manager を刷新",
+    highlights: [
+      "Trim がスプラインを切り取れるようになりました（スプライン自身の交差部分も含む）。スプラインは他のオブジェクトの切り取り境界としても機能します。各部分は再フィットなしで同じ曲線のより短い区間です。",
+      "Extend がスプラインで止まるようになり、ハッチは自己交差するスプラインの内側も塗りつぶせます。trim が取り除く部分と extend が残す部分は、淡い光彩付きの実線のアクセントで強調表示されます。",
+      "Export Manager を刷新：リストには図面にあるものだけを表示し、行は丸ごと切り替えられ、2 つ目の表でエクスポートする文字・引出線・寸法スタイルを選べ、フッターにはエクスポートされるオブジェクト数が表示されます。",
+      "エラーを匿名で Sentry にも報告するようになりました（スタックトレース、アプリのバージョン、アプリ自身の直近の操作。図面の内容や個人データは含みません）。数千点を持つオブジェクトを選択してもページが固まらなくなりました。",
+    ],
+  },
+  "ko": {
+    title: "Trim과 Extend가 스플라인을 지원하고 Export Manager를 개편",
+    highlights: [
+      "Trim이 이제 스플라인을 자릅니다 — 스플라인이 스스로 교차하는 곳도 포함하며, 스플라인은 다른 객체의 자르기 경계로도 작동합니다. 각 조각은 다시 맞추지 않고 같은 곡선의 더 작은 구간입니다.",
+      "Extend가 이제 스플라인에서 멈추고, 해치가 스스로 교차하는 스플라인 안을 채웁니다. trim이 제거할 부분과 extend가 남길 부분은 은은한 광채가 있는 실선 강조색 획으로 표시됩니다.",
+      "Export Manager 개편: 목록에는 도면에 있는 것만 표시되고, 행은 통째로 전환되며, 두 번째 표에서 내보낼 문자·지시선·치수 스타일을 고르고, 하단에 내보낼 객체 수가 표시됩니다.",
+      "오류가 이제 Sentry에도 익명으로 보고됩니다 — 스택 트레이스, 앱 버전, 앱 자체의 최근 동작이며 도면 내용이나 개인 데이터는 절대 포함되지 않습니다. 수천 개의 점을 가진 객체를 선택해도 더 이상 페이지가 멈추지 않습니다.",
+    ],
+  },
+  "lt": {
+    title: "Trim ir Extend veikia su splainais; perdarytas Export Manager",
+    highlights: [
+      "Trim dabar apkerpa splainus — taip pat ten, kur splainas kertasi pats su savimi — o splainai tarnauja kaip pjovimo kraštai kitiems objektams. Kiekvienas gabalas yra ta pati kreivė mažesniame ruože, be pakartotinio pritaikymo.",
+      "Extend dabar sustoja ties splainais, o brūkšniuotė užpildo splainus, kurie kertasi patys su savimi. Tai, ką trim pašalins, ir tai, ką extend paliks, paryškinama ištisiniu akcento brūkšniu su silpnu švytėjimu.",
+      "Perdarytas Export Manager: sąrašuose rodoma tik tai, kas yra brėžinyje, eilutės perjungiamos visa visuma, antra lentelė parenka, kuriuos teksto, išnašų ir matmenų stilius eksportuoti, o apatinė juosta suskaičiuoja eksportuojamus objektus.",
+      "Apie klaidas dabar taip pat anonimiškai pranešama į Sentry — dėklo pėdsakas, programos versija ir paties programos naujausi veiksmai, niekada brėžinio turinys ar asmens duomenys. Objekto su tūkstančiais taškų pasirinkimas nebesustabdo puslapio.",
+    ],
+  },
+  "ms": {
+    title: "Trim dan Extend kini berfungsi dengan spline; Export Manager disusun semula",
+    highlights: [
+      "Trim kini memotong spline — termasuk di tempat spline bersilang dengan dirinya sendiri — dan spline bertindak sebagai tepi pemotongan untuk objek lain. Setiap kepingan ialah lengkung yang sama pada bahagian yang lebih kecil, tanpa penyesuaian semula.",
+      "Extend kini berhenti pada spline, dan hasyur mengisi spline yang bersilang dengan dirinya sendiri. Bahagian yang akan dibuang oleh trim dan yang akan ditinggalkan oleh extend diserlahkan dengan garisan penekanan pepejal dan cahaya nipis.",
+      "Export Manager disusun semula: senarai hanya menunjukkan apa yang ada dalam lukisan, baris dialihkan secara keseluruhan, jadual kedua memilih gaya teks, petunjuk dan dimensi yang dieksport, dan pengaki mengira objek yang akan dieksport.",
+      "Ralat kini turut dilaporkan secara tanpa nama kepada Sentry — jejak tindanan, versi aplikasi dan tindakan terkini aplikasi itu sendiri, tidak sekali-kali kandungan lukisan atau data peribadi. Memilih objek dengan ribuan titik tidak lagi membekukan halaman.",
+    ],
+  },
+  "nl": {
+    title: "Trim en Extend werken met splines; Export Manager vernieuwd",
+    highlights: [
+      "Trim knipt nu splines — ook waar een spline zichzelf kruist — en splines fungeren als knipranden voor andere objecten. Elk stuk is dezelfde curve over een kleiner deel van zichzelf, zonder opnieuw te fitten.",
+      "Extend stopt nu bij splines, en arcering vult splines die zichzelf kruisen. Wat een trim verwijdert en wat een extend overlaat wordt gemarkeerd met een doorgetrokken accentlijn met een lichte gloed.",
+      "Export Manager vernieuwd: de lijsten tonen alleen wat de tekening bevat, rijen schakelen als geheel, een tweede tabel kiest welke tekst-, leader- en maatstijlen worden geëxporteerd, en de voettekst telt de te exporteren objecten.",
+      "Fouten worden nu ook anoniem aan Sentry gemeld — stacktrace, appversie en de eigen recente acties van de app, nooit tekeninginhoud of persoonsgegevens. Een object met duizenden punten selecteren bevriest de pagina niet meer.",
+    ],
+  },
+  "no": {
+    title: "Trim og Extend fungerer med splines; omarbeidet Export Manager",
+    highlights: [
+      "Trim klipper nå splines — også der en spline krysser seg selv — og splines fungerer som kuttkanter for andre objekter. Hver bit er samme kurve over en mindre del av seg selv, uten ny tilpasning.",
+      "Extend stopper nå ved splines, og skravur fyller splines som krysser seg selv. Det en trim fjerner og det en extend etterlater, utheves med en heltrukket aksentstrek med svakt skinn.",
+      "Omarbeidet Export Manager: listene viser bare det tegningen inneholder, rader veksles som helhet, en andre tabell velger hvilke tekst-, ledertekst- og målstiler som eksporteres, og bunnteksten teller objektene som eksporteres.",
+      "Feil rapporteres nå også anonymt til Sentry — stakksporing, appversjon og appens egne siste handlinger, aldri tegningsinnhold eller personopplysninger. Å velge et objekt med tusenvis av punkter fryser ikke lenger siden.",
+    ],
+  },
+  "pa": {
+    title: "Trim ਅਤੇ Extend ਹੁਣ ਸਪਲਾਈਨ ਨਾਲ ਕੰਮ ਕਰਦੇ ਹਨ; Export Manager ਨਵੇਂ ਸਿਰੇ ਤੋਂ ਬਣਾਇਆ",
+    highlights: [
+      "Trim ਹੁਣ ਸਪਲਾਈਨ ਕੱਟਦਾ ਹੈ — ਜਿੱਥੇ ਸਪਲਾਈਨ ਆਪਣੇ ਆਪ ਨੂੰ ਕੱਟਦੀ ਹੈ ਉੱਥੇ ਵੀ — ਅਤੇ ਸਪਲਾਈਨਾਂ ਹੋਰ ਆਬਜੈਕਟਾਂ ਲਈ ਕੱਟਣ ਦੇ ਕਿਨਾਰੇ ਵਜੋਂ ਕੰਮ ਕਰਦੀਆਂ ਹਨ। ਹਰ ਟੁਕੜਾ ਦੁਬਾਰਾ ਫਿੱਟ ਕੀਤੇ ਬਿਨਾਂ ਉਸੇ ਵਕਰ ਦਾ ਛੋਟਾ ਹਿੱਸਾ ਹੈ।",
+      "Extend ਹੁਣ ਸਪਲਾਈਨ ਉੱਤੇ ਰੁਕਦਾ ਹੈ, ਅਤੇ ਹੈਚ ਆਪਣੇ ਆਪ ਨੂੰ ਕੱਟਣ ਵਾਲੀਆਂ ਸਪਲਾਈਨਾਂ ਨੂੰ ਭਰਦਾ ਹੈ। trim ਜੋ ਹਟਾਏਗਾ ਅਤੇ extend ਜੋ ਛੱਡੇਗਾ ਉਸਨੂੰ ਹਲਕੀ ਚਮਕ ਵਾਲੀ ਠੋਸ ਐਕਸੈਂਟ ਲਕੀਰ ਨਾਲ ਹਾਈਲਾਈਟ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।",
+      "Export Manager ਨਵੇਂ ਸਿਰੇ ਤੋਂ ਬਣਾਇਆ: ਸੂਚੀਆਂ ਸਿਰਫ਼ ਉਹੀ ਦਿਖਾਉਂਦੀਆਂ ਹਨ ਜੋ ਡਰਾਇੰਗ ਵਿੱਚ ਹੈ, ਕਤਾਰਾਂ ਪੂਰੀਆਂ ਟੌਗਲ ਹੁੰਦੀਆਂ ਹਨ, ਦੂਜੀ ਸਾਰਣੀ ਚੁਣਦੀ ਹੈ ਕਿ ਕਿਹੜੇ ਟੈਕਸਟ, ਲੀਡਰ ਅਤੇ ਡਾਇਮੈਂਸ਼ਨ ਸਟਾਈਲ ਐਕਸਪੋਰਟ ਹੋਣ, ਅਤੇ ਫੁੱਟਰ ਐਕਸਪੋਰਟ ਹੋਣ ਵਾਲੇ ਆਬਜੈਕਟ ਗਿਣਦਾ ਹੈ।",
+      "ਗਲਤੀਆਂ ਹੁਣ Sentry ਨੂੰ ਗੁਮਨਾਮ ਤੌਰ ਉੱਤੇ ਵੀ ਰਿਪੋਰਟ ਕੀਤੀਆਂ ਜਾਂਦੀਆਂ ਹਨ — ਸਟੈਕ ਟਰੇਸ, ਐਪ ਵਰਜਨ ਅਤੇ ਐਪ ਦੀਆਂ ਆਪਣੀਆਂ ਹਾਲੀਆ ਕਾਰਵਾਈਆਂ, ਡਰਾਇੰਗ ਦੀ ਸਮੱਗਰੀ ਜਾਂ ਨਿੱਜੀ ਡੇਟਾ ਕਦੇ ਨਹੀਂ। ਹਜ਼ਾਰਾਂ ਬਿੰਦੂਆਂ ਵਾਲੇ ਆਬਜੈਕਟ ਨੂੰ ਚੁਣਨ ਨਾਲ ਹੁਣ ਪੰਨਾ ਨਹੀਂ ਜੰਮਦਾ।",
+    ],
+  },
+  "pl": {
+    title: "Trim i Extend obsługują splajny; przebudowany Export Manager",
+    highlights: [
+      "Trim przycina teraz splajny — także tam, gdzie splajn przecina sam siebie — a splajny działają jako krawędzie cięcia dla innych obiektów. Każdy kawałek to ta sama krzywa na mniejszym odcinku, bez ponownego dopasowania.",
+      "Extend zatrzymuje się teraz na splajnach, a kreskowanie wypełnia splajny przecinające same siebie. To, co usunie trim, i to, co zostawi extend, jest wyróżnione ciągłą kreską w kolorze akcentu z lekką poświatą.",
+      "Przebudowany Export Manager: listy pokazują tylko to, co zawiera rysunek, wiersze przełączają się w całości, druga tabela wybiera, które style tekstu, linii odniesienia i wymiarów wyeksportować, a stopka liczy obiekty do wyeksportowania.",
+      "Błędy są teraz zgłaszane także anonimowo do Sentry — ślad stosu, wersja aplikacji i ostatnie działania samej aplikacji, nigdy zawartość rysunku ani dane osobowe. Zaznaczenie obiektu z tysiącami punktów nie zawiesza już strony.",
+    ],
+  },
+  "pt": {
+    title: "Trim e Extend funcionam com splines; Export Manager reformulado",
+    highlights: [
+      "O Trim agora corta splines — inclusive onde uma spline cruza a si mesma — e as splines servem de limites de corte para outros objetos. Cada pedaço é a mesma curva sobre um trecho menor, sem reajuste.",
+      "O Extend agora para nas splines, e as hachuras preenchem splines que cruzam a si mesmas. O que um trim vai remover e o que um extend vai deixar é destacado com um traço de destaque sólido e um leve brilho.",
+      "Export Manager reformulado: as listas mostram apenas o que o desenho contém, as linhas alternam por inteiro, uma segunda tabela escolhe quais estilos de texto, chamada e cota exportar, e o rodapé conta os objetos a exportar.",
+      "Os erros agora também são reportados anonimamente ao Sentry — rastreamento de pilha, versão do aplicativo e as ações recentes do próprio aplicativo, nunca o conteúdo do desenho nem dados pessoais. Selecionar um objeto com milhares de pontos não congela mais a página.",
+    ],
+  },
+  "sv": {
+    title: "Trim och Extend fungerar med splines; omarbetad Export Manager",
+    highlights: [
+      "Trim klipper nu splines — även där en spline korsar sig själv — och splines fungerar som skärkanter för andra objekt. Varje bit är samma kurva över en mindre del av sig själv, utan ny anpassning.",
+      "Extend stannar nu vid splines, och snittning fyller splines som korsar sig själva. Det som en trim tar bort och det som en extend lämnar kvar markeras med en heldragen accentlinje med svagt sken.",
+      "Omarbetad Export Manager: listorna visar bara det som finns i ritningen, rader växlas som helhet, en andra tabell väljer vilka text-, ledar- och måttstilar som exporteras, och sidfoten räknar objekten som exporteras.",
+      "Fel rapporteras nu också anonymt till Sentry — stackspårning, appversion och appens egna senaste åtgärder, aldrig ritningens innehåll eller personuppgifter. Att markera ett objekt med tusentals punkter fryser inte längre sidan.",
+    ],
+  },
+  "sw": {
+    title: "Trim na Extend sasa vinafanya kazi na spline; Export Manager imeundwa upya",
+    highlights: [
+      "Trim sasa hukata spline — pamoja na mahali spline inapojikata yenyewe — na spline hufanya kazi kama kingo za kukata kwa vitu vingine. Kila kipande ni mkunjo huo huo kwenye sehemu ndogo zaidi, bila kufanya fit upya.",
+      "Extend sasa husimama kwenye spline, na hatch hujaza spline zinazojikata zenyewe. Kile trim itakachoondoa na kile extend itakachoacha huangaziwa kwa mstari thabiti wa rangi ya msisitizo wenye mng'ao hafifu.",
+      "Export Manager imeundwa upya: orodha huonyesha tu kilichomo kwenye mchoro, safu hubadilishwa kwa ujumla, jedwali la pili huchagua mitindo ipi ya maandishi, viongozi na vipimo itakayosafirishwa, na kijachini huhesabu vitu vitakavyosafirishwa.",
+      "Makosa sasa pia huripotiwa bila kutaja jina kwa Sentry — stack trace, toleo la programu na vitendo vya hivi karibuni vya programu yenyewe, kamwe maudhui ya mchoro au data binafsi. Kuchagua kitu chenye maelfu ya nukta hakugandishi ukurasa tena.",
+    ],
+  },
+  "th": {
+    title: "Trim และ Extend รองรับสไปลน์; ปรับปรุง Export Manager ใหม่",
+    highlights: [
+      "Trim ตัดสไปลน์ได้แล้ว — รวมถึงจุดที่สไปลน์ตัดกับตัวเอง — และสไปลน์ทำหน้าที่เป็นขอบตัดให้ออบเจกต์อื่น แต่ละชิ้นคือเส้นโค้งเดิมในช่วงที่เล็กลงโดยไม่ต้องฟิตใหม่",
+      "Extend หยุดที่สไปลน์แล้ว และแฮตช์เติมสไปลน์ที่ตัดกับตัวเองได้ ส่วนที่ trim จะลบและส่วนที่ extend จะเหลือไว้จะถูกเน้นด้วยเส้นสีเน้นทึบพร้อมแสงเรือง ๆ จาง ๆ",
+      "ปรับปรุง Export Manager ใหม่: รายการแสดงเฉพาะสิ่งที่มีในแบบ แถวสลับเปิดปิดทั้งแถว ตารางที่สองเลือกสไตล์ข้อความ เส้นนำ และมิติที่จะส่งออก และส่วนท้ายนับจำนวนออบเจกต์ที่จะส่งออก",
+      "ข้อผิดพลาดถูกรายงานแบบไม่ระบุตัวตนไปยัง Sentry ด้วยแล้ว — stack trace เวอร์ชันของแอป และการกระทำล่าสุดของแอปเอง ไม่มีเนื้อหาแบบร่างหรือข้อมูลส่วนบุคคลเลย การเลือกออบเจกต์ที่มีนับพันจุดไม่ทำให้หน้าค้างอีกต่อไป",
+    ],
+  },
+  "tl": {
+    title: "Gumagana na ang Trim at Extend sa mga spline; binago ang Export Manager",
+    highlights: [
+      "Pinuputol na ng Trim ang mga spline — pati kung saan nag-iintersect ang spline sa sarili nito — at nagsisilbing hangganan ng pagputol ang mga spline para sa ibang objek. Bawat piraso ay ang parehong kurba sa mas maliit na bahagi nito, nang walang muling pag-fit.",
+      "Humihinto na ang Extend sa mga spline, at pinupunan ng hatch ang mga spline na nag-iintersect sa sarili. Ang aalisin ng trim at ang iiwan ng extend ay naka-highlight sa solidong accent na guhit na may bahagyang kinang.",
+      "Binago ang Export Manager: ang mga listahan ay nagpapakita lang ng laman ng drowing, buo ang pag-toggle ng mga hilera, pumipili ang pangalawang talahanayan kung aling mga estilo ng text, leader at dimensyon ang ie-export, at binibilang ng footer ang mga objek na ie-export.",
+      "Iniuulat na rin nang anonymous sa Sentry ang mga error — stack trace, bersyon ng app, at ang sariling mga kamakailang aksyon ng app, hindi kailanman ang nilalaman ng drowing o personal na datos. Hindi na nagfi-freeze ang pahina sa pagpili ng objek na may libu-libong punto.",
+    ],
+  },
+  "tr": {
+    title: "Trim ve Extend artık spline'larla çalışıyor; yenilenen Export Manager",
+    highlights: [
+      "Trim artık spline'ları kesiyor — bir spline'ın kendini kestiği yerde de — ve spline'lar diğer nesneler için kesim sınırı oluyor. Her parça, yeniden uydurma olmadan, kendisinin daha küçük bir bölümü olan aynı eğridir.",
+      "Extend artık spline'larda duruyor ve tarama, kendini kesen spline'ların içini dolduruyor. Bir trim'in kaldıracağı ve bir extend'in bırakacağı kısım, hafif parıltılı düz bir vurgu çizgisiyle öne çıkarılıyor.",
+      "Export Manager yenilendi: listeler yalnızca çizimde olanı gösteriyor, satırlar bütün olarak açılıp kapanıyor, ikinci bir tablo hangi metin, işaret çizgisi ve ölçü stillerinin dışa aktarılacağını seçiyor ve alt çubuk dışa aktarılacak nesneleri sayıyor.",
+      "Hatalar artık ayrıca anonim olarak Sentry'ye bildiriliyor — yığın izi, uygulama sürümü ve uygulamanın kendi son eylemleri; çizim içeriği ya da kişisel veri asla. Binlerce noktalı bir nesneyi seçmek artık sayfayı dondurmuyor.",
+    ],
+  },
+  "uk": {
+    title: "Trim і Extend працюють зі сплайнами; перероблений Export Manager",
+    highlights: [
+      "Trim тепер обрізає сплайни — зокрема там, де сплайн перетинає сам себе — а сплайни слугують ріжучими межами для інших об'єктів. Кожен шматок є тією самою кривою на меншій ділянці, без повторної апроксимації.",
+      "Extend тепер зупиняється на сплайнах, а штрихування заповнює сплайни, що перетинають самі себе. Те, що видалить trim, і те, що залишить extend, підсвічується суцільним акцентним штрихом із легким сяйвом.",
+      "Export Manager перероблено: списки показують лише те, що є в кресленику, рядки перемикаються цілком, друга таблиця вибирає, які стилі тексту, виносок і розмірів експортувати, а підвал рахує об'єкти для експорту.",
+      "Про помилки тепер також анонімно повідомляється до Sentry — стек викликів, версія застосунку й останні дії самого застосунку, ніколи вміст креслеників чи особисті дані. Виділення об'єкта з тисячами точок більше не зависає сторінку.",
+    ],
+  },
+  "ur": {
+    title: "Trim اور Extend اب اسپلائن کے ساتھ کام کرتے ہیں؛ Export Manager نئے سرے سے تیار",
+    highlights: [
+      "Trim اب اسپلائن کاٹتا ہے — جہاں اسپلائن خود کو کاٹتی ہے وہاں بھی — اور اسپلائنز دوسرے آبجیکٹس کے لیے کٹنگ کنارے کا کام کرتی ہیں۔ ہر ٹکڑا دوبارہ فٹ کیے بغیر اسی منحنی کا چھوٹا حصہ ہے۔",
+      "Extend اب اسپلائن پر رکتا ہے، اور ہیچ خود کو کاٹنے والی اسپلائنز کو بھرتا ہے۔ trim جو ہٹائے گا اور extend جو چھوڑے گا اسے ہلکی چمک کے ساتھ ٹھوس ایکسینٹ لکیر سے نمایاں کیا جاتا ہے۔",
+      "Export Manager نئے سرے سے تیار: فہرستیں صرف وہ دکھاتی ہیں جو ڈرائنگ میں ہے، قطاریں پوری طرح ٹوگل ہوتی ہیں، دوسرا ٹیبل منتخب کرتا ہے کہ کون سے ٹیکسٹ، لیڈر اور ڈائمینشن اسٹائلز ایکسپورٹ ہوں، اور فُوٹر ایکسپورٹ ہونے والے آبجیکٹس گنتا ہے۔",
+      "غلطیاں اب گمنام طور پر Sentry کو بھی رپورٹ کی جاتی ہیں — اسٹیک ٹریس، ایپ کا ورژن اور ایپ کے اپنے حالیہ اقدامات، ڈرائنگ کا مواد یا ذاتی ڈیٹا کبھی نہیں۔ ہزاروں پوائنٹس والے آبجیکٹ کو منتخب کرنے سے اب صفحہ نہیں جمتا۔",
+    ],
+  },
+  "vi": {
+    title: "Trim và Extend hỗ trợ spline; Export Manager được làm lại",
+    highlights: [
+      "Trim giờ cắt được spline — kể cả chỗ spline tự cắt chính nó — và spline đóng vai trò cạnh cắt cho các đối tượng khác. Mỗi mảnh là cùng một đường cong trên một đoạn nhỏ hơn, không cần khớp lại.",
+      "Extend giờ dừng tại spline, và hatch tô được bên trong spline tự cắt chính nó. Phần trim sẽ xóa và phần extend sẽ giữ lại được tô sáng bằng nét nhấn liền có quầng sáng nhẹ.",
+      "Export Manager được làm lại: danh sách chỉ hiển thị những gì bản vẽ có, mỗi hàng bật/tắt trọn vẹn, bảng thứ hai chọn kiểu văn bản, đường dẫn và kích thước nào được xuất, và chân trang đếm số đối tượng sẽ xuất.",
+      "Lỗi giờ cũng được báo cáo ẩn danh tới Sentry — stack trace, phiên bản ứng dụng và các thao tác gần đây của chính ứng dụng, không bao giờ có nội dung bản vẽ hay dữ liệu cá nhân. Chọn một đối tượng có hàng nghìn điểm không còn làm treo trang.",
+    ],
+  },
+  "zh": {
+    title: "Trim 与 Extend 支持样条；重做的 Export Manager",
+    highlights: [
+      "Trim 现在可以修剪样条——包括样条自身交叉之处——样条也可作为其他对象的剪切边。每一段都是同一条曲线的一部分，无需重新拟合。",
+      "Extend 现在会在样条处停止，填充图案也能填充自身交叉的样条。修剪将移除的部分和延伸将保留的部分以带微光的实心强调色描边高亮显示。",
+      "重做的 Export Manager：列表只显示图纸中实际存在的内容，行可整体切换，第二张表选择要导出的文字、引线和标注样式，页脚统计将导出的对象数量。",
+      "错误现在也会匿名报告给 Sentry——堆栈跟踪、应用版本和应用自身的最近操作，绝不包含图纸内容或个人数据。选择包含数千个点的对象不再导致页面卡死。",
+    ],
+  },
+};
+
 export const releases: Release[] = [
+  {
+    version: "2026.10.06.21167efe",
+    date: "October 6, 2026",
+    title: "Trim and Extend work with splines; a reworked Export Manager",
+    highlights: [
+      "Trim now cuts splines — including where a spline crosses itself — and splines act as cutting edges for other entities. Each piece is the same curve over less of itself, with no refitting.",
+      "Extend now stops at splines, and hatches fill inside splines that cross themselves. What a trim will remove and what an extend will leave are highlighted in a solid accent stroke with a faint glow.",
+      "Export Manager reworked: the lists show only what the drawing contains, rows toggle as a whole, a second table chooses which text, leader and dimension styles are exported, and the footer counts the objects to be exported.",
+      "Errors are now also reported anonymously to Sentry — stack trace, app version and the app's own recent actions, never drawing content or personal data. Selecting an entity with thousands of points no longer freezes the page.",
+    ],
+  },
   {
     version: "2026.10.01.a0e1b5eb",
     date: "October 1, 2026",
@@ -13511,5 +13813,8 @@ for (const [lang, release] of Object.entries(appLanguageReleaseTranslations)) {
   releaseTranslations[lang]?.unshift(release);
 }
 for (const [lang, release] of Object.entries(dimensionStyleReleaseTranslations)) {
+  releaseTranslations[lang]?.unshift(release);
+}
+for (const [lang, release] of Object.entries(splineReleaseTranslations)) {
   releaseTranslations[lang]?.unshift(release);
 }

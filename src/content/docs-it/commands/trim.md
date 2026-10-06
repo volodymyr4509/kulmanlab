@@ -62,7 +62,7 @@ Il comando proietta la posizione del cursore sull'entità passata e trova tutti 
 | Ellipse | Sì — richiede 2 o più punti di intersezione |
 | Polyline (aperta) | Sì |
 | Polyline (chiusa) / Rectangle | Sì — richiede 2 o più punti di intersezione |
-| Spline | Sì — una spline chiusa richiede 2 o più punti di intersezione |
+| Spline | Sì — una spline chiusa richiede 2 o più punti di intersezione; una spline viene tagliata anche dove si incrocia da sola |
 | Text, Dimension, Leader | No |
 
 Gli oggetti usati come **limiti di taglio** possono essere Line, Arc, Circle, Ellipse, Polyline o Spline. Gli oggetti Text, Dimension e Leader non registrano mai intersezioni, quindi non possono fare da limiti.

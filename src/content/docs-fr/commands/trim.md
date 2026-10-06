@@ -62,7 +62,7 @@ La commande projette la position du curseur sur l'entité survolée et trouve to
 | Ellipse | Oui — nécessite 2 points d'intersection ou plus |
 | Polyline (ouverte) | Oui |
 | Polyline (fermée) / Rectangle | Oui — nécessite 2 points d'intersection ou plus |
-| Spline | Oui — une spline fermée nécessite 2 points d'intersection ou plus |
+| Spline | Oui — une spline fermée nécessite 2 points d'intersection ou plus; une spline est aussi coupée là où elle se croise elle-même |
 | Text, Dimension, Leader | Non |
 
 Les objets utilisés comme **limites de coupe** peuvent être Line, Arc, Circle, Ellipse, Polyline ou Spline. Les objets Text, Dimension et Leader n'enregistrent jamais d'intersections ; ils ne peuvent donc pas non plus servir de limites.

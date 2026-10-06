@@ -41,7 +41,7 @@ Vilken kombination som helst av dessa entitetstyper kan bilda en kontur, i vilke
 - [Circle](../circle/) (sin egen slutna kontur)
 - [Ellipse](../ellipse/) (sluten, eller en öppen elliptisk båge som en del av en större slinga)
 - [Polyline](../polyline/) (öppen eller sluten) och [Rectangle](../rectangle/)
-- [Spline CV / Spline Fit](../spline-cv/)
+- [Spline CV / Spline Fit](../spline-cv/) — varje slinga av en spline som korsar sig själv är ett eget område
 
 Text-, Multileader- och Dimension-entiteter behandlas aldrig som konturer.
 

@@ -41,7 +41,7 @@ Sebarang gabungan jenis entiti ini boleh membentuk sempadan, dalam apa jua gabun
 - [Circle](../circle/) (sempadan tertutup sendiri)
 - [Ellipse](../ellipse/) (tertutup, atau lengkok elips terbuka sebagai sebahagian daripada gelung yang lebih besar)
 - [Polyline](../polyline/) (terbuka atau tertutup) dan [Rectangle](../rectangle/)
-- [Spline CV / Spline Fit](../spline-cv/)
+- [Spline CV / Spline Fit](../spline-cv/) — setiap gelung spline yang bersilang dengan dirinya sendiri ialah kawasan tersendiri
 
 Entiti Text, Multileader, dan Dimension tidak pernah dianggap sebagai sempadan.
 

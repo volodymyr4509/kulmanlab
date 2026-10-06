@@ -41,7 +41,7 @@ order: 7
 - [Circle](../circle/) (자체 닫힌 경계)
 - [Ellipse](../ellipse/) (닫힌 것, 또는 더 큰 루프의 일부로서 열린 타원호)
 - [Polyline](../polyline/) (열림 또는 닫힘) 및 [Rectangle](../rectangle/)
-- [Spline CV / Spline Fit](../spline-cv/)
+- [Spline CV / Spline Fit](../spline-cv/) — 스스로 교차하는 스플라인의 각 고리는 독립된 영역입니다
 
 Text, Multileader, Dimension 객체는 절대 경계로 취급되지 않습니다.
 

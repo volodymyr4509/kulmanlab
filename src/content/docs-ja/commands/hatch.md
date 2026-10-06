@@ -41,7 +41,7 @@ order: 7
 - [Circle](../circle/)（それ自体が閉じた境界）
 - [Ellipse](../ellipse/)（閉じたもの、または大きなループの一部としての開いた楕円弧）
 - [Polyline](../polyline/)（開いたものまたは閉じたもの）と[Rectangle](../rectangle/)
-- [Spline CV / Spline Fit](../spline-cv/)
+- [Spline CV / Spline Fit](../spline-cv/) — 自己交差するスプラインの各ループは独立した領域になります
 
 Text、Multileader、Dimension エンティティは境界として扱われることはありません。
 

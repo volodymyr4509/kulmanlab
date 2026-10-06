@@ -41,7 +41,7 @@ Hranici může tvořit jakákoli kombinace těchto typů objektů, pokud na sebe
 - [Circle](../circle/) (vlastní uzavřená hranice)
 - [Ellipse](../ellipse/) (uzavřená, nebo otevřený eliptický oblouk jako součást větší smyčky)
 - [Polyline](../polyline/) (otevřená nebo uzavřená) a [Rectangle](../rectangle/)
-- [Spline CV / Spline Fit](../spline-cv/)
+- [Spline CV / Spline Fit](../spline-cv/) — každá smyčka splinu, který se kříží sám se sebou, je samostatná oblast
 
 Objekty Text, Multileader a Dimension se za hranice nikdy nepovažují.
 

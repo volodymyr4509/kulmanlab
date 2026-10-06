@@ -41,7 +41,7 @@ Qualquer combinação destes tipos de entidade pode formar um contorno, em qualq
 - [Circle](../circle/) (seu próprio contorno fechado)
 - [Ellipse](../ellipse/) (fechada, ou um arco elíptico aberto como parte de um laço maior)
 - [Polyline](../polyline/) (aberta ou fechada) e [Rectangle](../rectangle/)
-- [Spline CV / Spline Fit](../spline-cv/)
+- [Spline CV / Spline Fit](../spline-cv/) — cada laço de uma spline que cruza a si mesma é uma região própria
 
 As entidades Text, Multileader e Dimension nunca são tratadas como contornos.
 

@@ -44,9 +44,8 @@ Ang mga sumusunod na entity type ay hindi kinikilala bilang boundaries — hindi
 
 - Text / Mtext
 - Multileader
-- Spline
 
-Ang lahat ng ibang types (Line, Arc, Circle, Ellipse, Polyline, Dimension) ay balidong boundaries.
+Ang lahat ng ibang types (Line, Arc, Circle, Ellipse, Polyline, Spline, Dimension) ay balidong boundaries.
 
 Kung ang unang o huling segment ng Polyline ay mismong isang arc segment (iginuhit gamit ang Arc toggle), ang pag-extend nito ay nagpapalaki sa arc kasunod ng sarili nitong bilog — tulad mismo ng pag-extend ng nag-iisang Arc — sa halip na ituring itong straight segment.
 

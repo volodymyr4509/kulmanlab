@@ -41,7 +41,7 @@ Ribą gali sudaryti bet koks šių objektų tipų derinys, jei jie jungiasi gala
 - [Circle](../circle/) (sava uždara riba)
 - [Ellipse](../ellipse/) (uždara arba atviras elipsinis lankas kaip didesnės kilpos dalis)
 - [Polyline](../polyline/) (atvira ar uždara) ir [Rectangle](../rectangle/)
-- [Spline CV / Spline Fit](../spline-cv/)
+- [Spline CV / Spline Fit](../spline-cv/) — kiekviena splaino, kertančio patį save, kilpa yra atskira sritis
 
 Text, Multileader ir Dimension objektai niekada nelaikomi ribomis.
 

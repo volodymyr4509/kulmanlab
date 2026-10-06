@@ -62,7 +62,7 @@ Amri inasukuma nafasi ya kishale kwenye kipande kilichoeleweka na kupata nukta z
 | Ellipse | Ndiyo — inahitaji nukta 2 au zaidi za makutano |
 | Polyline (iliyo wazi) | Ndiyo |
 | Polyline (iliyofungwa) / Rectangle | Ndiyo — inahitaji nukta 2 au zaidi za makutano |
-| Spline | Ndiyo — spline iliyofungwa inahitaji nukta 2 au zaidi za makutano |
+| Spline | Ndiyo — spline iliyofungwa inahitaji nukta 2 au zaidi za makutano; spline pia hukatwa mahali inapojikata yenyewe |
 | Text, Dimension, Leader | Hapana |
 
 Vitu vinavyotumika kama **mipaka ya kukata** vinaweza kuwa Line, Arc, Circle, Ellipse, Polyline, au Spline. Vitu vya Text, Dimension na Leader havirekodi makutano kamwe, kwa hivyo haviwezi kuwa mipaka pia.

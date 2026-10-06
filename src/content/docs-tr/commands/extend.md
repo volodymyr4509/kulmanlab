@@ -44,9 +44,8 @@ Aşağıdaki nesne türleri sınır olarak yok sayılır — bir nesne bunlarla 
 
 - Metin / Mtext
 - Çoklu Gösterge
-- Spline
 
-Diğer tüm türler (Line, Arc, Circle, Ellipse, Polyline, Dimension) geçerli sınır olarak işlev görür.
+Diğer tüm türler (Line, Arc, Circle, Ellipse, Polyline, Spline, Dimension) geçerli sınır olarak işlev görür.
 
 Bir Polyline'ın ilk veya son segmenti kendisi bir yay segmenti ise (Arc anahtarıyla çizilmiş), onu uzatmak, yayı kendi çemberi boyunca büyütür — bağımsız bir Arc'ı uzatmakla aynı şekilde — düz bir segment gibi ele almak yerine.
 

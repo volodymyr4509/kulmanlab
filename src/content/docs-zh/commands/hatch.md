@@ -41,7 +41,7 @@ order: 7
 - [Circle](../circle/)（自身闭合的边界）
 - [Ellipse](../ellipse/)（闭合的，或作为更大环路一部分的开放椭圆弧）
 - [Polyline](../polyline/)（开放或闭合）和 [Rectangle](../rectangle/)
-- [Spline CV / Spline Fit](../spline-cv/)
+- [Spline CV / Spline Fit](../spline-cv/)——自身交叉的样条的每个环都是独立的区域
 
 Text、Multileader 和 Dimension 图元永远不会被当作边界。
 

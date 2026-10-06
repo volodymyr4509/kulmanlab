@@ -44,9 +44,8 @@ order: 9
 
 - 텍스트 / Mtext
 - 다중 지시선
-- 스플라인
 
-다른 모든 유형(Line, Arc, Circle, Ellipse, Polyline, Dimension)은 유효한 경계 역할을 합니다.
+다른 모든 유형(Line, Arc, Circle, Ellipse, Polyline, 스플라인, Dimension)은 유효한 경계 역할을 합니다.
 
 Polyline의 첫 번째 또는 마지막 세그먼트가 그 자체로 호 세그먼트(Arc 토글로 그려진 것)인 경우, 연장하면 독립된 Arc를 연장할 때와 같은 방식으로 호가 자신의 원을 따라 자라납니다 — 직선 세그먼트로 취급되지 않습니다.
 

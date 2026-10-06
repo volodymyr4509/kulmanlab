@@ -41,7 +41,7 @@ order: 7
 - [Circle](../circle/) (ਆਪਣੀ ਖੁਦ ਦੀ ਬੰਦ ਸੀਮਾ)
 - [Ellipse](../ellipse/) (ਬੰਦ, ਜਾਂ ਇੱਕ ਵੱਡੇ ਲੂਪ ਦੇ ਹਿੱਸੇ ਵਜੋਂ ਇੱਕ ਖੁੱਲ੍ਹਾ ਅੰਡਾਕਾਰ ਆਰਕ)
 - [Polyline](../polyline/) (ਖੁੱਲ੍ਹੀ ਜਾਂ ਬੰਦ) ਅਤੇ [Rectangle](../rectangle/)
-- [Spline CV / Spline Fit](../spline-cv/)
+- [Spline CV / Spline Fit](../spline-cv/) — ਆਪਣੇ ਆਪ ਨੂੰ ਕੱਟਣ ਵਾਲੀ ਸਪਲਾਈਨ ਦਾ ਹਰ ਲੂਪ ਆਪਣਾ ਵੱਖਰਾ ਖੇਤਰ ਹੈ
 
 Text, Multileader, ਅਤੇ Dimension ਐਂਟਿਟੀਆਂ ਨੂੰ ਕਦੇ ਵੀ ਸੀਮਾ ਵਜੋਂ ਨਹੀਂ ਗਿਣਿਆ ਜਾਂਦਾ।
 

@@ -62,7 +62,7 @@ Kommandot projicerar markörens position på den entitet markören befinner sig 
 | Ellipse | Ja — kräver 2 eller fler skärningspunkter |
 | Polyline (öppen) | Ja |
 | Polyline (stängd) / Rectangle | Ja — kräver 2 eller fler skärningspunkter |
-| Spline | Ja — en sluten spline kräver 2 eller fler skärningspunkter |
+| Spline | Ja — en sluten spline kräver 2 eller fler skärningspunkter; en spline klipps också där den korsar sig själv |
 | Text, Dimension, Leader | Nej |
 
 Objekten som används som **skärgränser** kan vara Line, Arc, Circle, Ellipse, Polyline eller Spline. Text-, Dimension- och Leader-objekt registrerar aldrig skärningar, så de kan inte heller fungera som gränser.

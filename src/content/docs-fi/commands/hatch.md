@@ -41,7 +41,7 @@ Mikä tahansa näiden entiteettityyppien yhdistelmä voi muodostaa rajan, missä
 - [Circle](../circle/) (oma suljettu rajansa)
 - [Ellipse](../ellipse/) (suljettu, tai avoin elliptinen kaari osana suurempaa silmukkaa)
 - [Polyline](../polyline/) (avoin tai suljettu) ja [Rectangle](../rectangle/)
-- [Spline CV / Spline Fit](../spline-cv/)
+- [Spline CV / Spline Fit](../spline-cv/) — jokainen itsensä leikkaavan splinen silmukka on oma alueensa
 
 Text-, Multileader- ja Dimension-entiteettejä ei koskaan käsitellä rajoina.
 

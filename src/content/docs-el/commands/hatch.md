@@ -41,7 +41,7 @@ order: 7
 - [Circle](../circle/) (το δικό του κλειστό όριο)
 - [Ellipse](../ellipse/) (κλειστή, ή ένα ανοιχτό ελλειπτικό τόξο ως μέρος μεγαλύτερου βρόχου)
 - [Polyline](../polyline/) (ανοιχτή ή κλειστή) και [Rectangle](../rectangle/)
-- [Spline CV / Spline Fit](../spline-cv/)
+- [Spline CV / Spline Fit](../spline-cv/) — κάθε βρόχος ενός spline που τέμνει τον εαυτό του είναι ξεχωριστή περιοχή
 
 Οι οντότητες Text, Multileader και Dimension δεν αντιμετωπίζονται ποτέ ως όρια.
 

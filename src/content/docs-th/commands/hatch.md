@@ -41,7 +41,7 @@ order: 7
 - [Circle](../circle/) (ขอบเขตปิดของตัวเอง)
 - [Ellipse](../ellipse/) (แบบปิด หรืออาร์กวงรีแบบเปิดที่เป็นส่วนหนึ่งของวงที่ใหญ่กว่า)
 - [Polyline](../polyline/) (แบบเปิดหรือปิด) และ [Rectangle](../rectangle/)
-- [Spline CV / Spline Fit](../spline-cv/)
+- [Spline CV / Spline Fit](../spline-cv/) — ทุกวงของสไปลน์ที่ตัดกับตัวเองเป็นพื้นที่แยกกัน
 
 วัตถุ Text, Multileader และ Dimension จะไม่ถูกพิจารณาเป็นขอบเขตเลย
 

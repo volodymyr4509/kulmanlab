@@ -41,7 +41,7 @@ order: 7
 - [Circle](../circle/) (власна замкнена межа)
 - [Ellipse](../ellipse/) (замкнена, або відкрита еліптична дуга як частина більшого контуру)
 - [Polyline](../polyline/) (відкрита або замкнена) і [Rectangle](../rectangle/)
-- [Spline CV / Spline Fit](../spline-cv/)
+- [Spline CV / Spline Fit](../spline-cv/) — кожна петля сплайна, що перетинає сам себе, є окремою областю
 
 Об'єкти Text, Multileader і Dimension ніколи не розглядаються як межі.
 

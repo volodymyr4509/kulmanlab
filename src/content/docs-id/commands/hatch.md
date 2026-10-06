@@ -41,7 +41,7 @@ Kombinasi apa pun dari tipe entitas ini dapat membentuk batas, dalam kombinasi a
 - [Circle](../circle/) (batas tertutupnya sendiri)
 - [Ellipse](../ellipse/) (tertutup, atau busur elips terbuka sebagai bagian dari loop yang lebih besar)
 - [Polyline](../polyline/) (terbuka atau tertutup) dan [Rectangle](../rectangle/)
-- [Spline CV / Spline Fit](../spline-cv/)
+- [Spline CV / Spline Fit](../spline-cv/) — setiap lengkung spline yang bersilang dengan dirinya sendiri adalah wilayah tersendiri
 
 Entitas Text, Multileader, dan Dimension tidak pernah diperlakukan sebagai batas.
 

@@ -44,9 +44,8 @@ Følgende entitetstyper ignoreres som grenser — en entitet forlenges ikke for 
 
 - Text / Mtext
 - Multileader
-- Spline
 
-Alle andre typer (Line, Arc, Circle, Ellipse, Polyline, Dimension) fungerer som gyldige grenser.
+Alle andre typer (Line, Arc, Circle, Ellipse, Polyline, Spline, Dimension) fungerer som gyldige grenser.
 
 Hvis en Polylines første eller siste segment selv er et buesegment (tegnet med Arc-bryteren), får forlengelse buen til å vokse langs sin egen sirkel — akkurat som å forlenge en frittstående Arc — i stedet for å behandles som et rett segment.
 

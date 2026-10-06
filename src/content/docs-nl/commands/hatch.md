@@ -41,7 +41,7 @@ Elke combinatie van deze entiteitstypen kan een rand vormen, in elke samenstelli
 - [Circle](../circle/) (zijn eigen gesloten rand)
 - [Ellipse](../ellipse/) (gesloten, of een open elliptische boog als onderdeel van een grotere lus)
 - [Polyline](../polyline/) (open of gesloten) en [Rectangle](../rectangle/)
-- [Spline CV / Spline Fit](../spline-cv/)
+- [Spline CV / Spline Fit](../spline-cv/) — elke lus van een spline die zichzelf kruist is een eigen gebied
 
 Text-, Multileader- en Dimension-entiteiten worden nooit als rand behandeld.
 

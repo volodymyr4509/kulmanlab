@@ -62,7 +62,7 @@ Komut, imleç konumunu üzerine gelinen nesneye yansıtır ve nesnenin diğer ne
 | Ellipse | Evet — 2 veya daha fazla kesişim noktası gerektirir |
 | Polyline (açık) | Evet |
 | Polyline (kapalı) / Rectangle | Evet — 2 veya daha fazla kesişim noktası gerektirir |
-| Spline | Evet — kapalı bir spline 2 veya daha fazla kesişim noktası gerektirir |
+| Spline | Evet — kapalı bir spline 2 veya daha fazla kesişim noktası gerektirir; bir spline kendini kestiği yerde de kesilir |
 | Metin, Ölçü, Gösterge | Hayır |
 
 **Kesim sınırları** olarak kullanılan nesneler Line, Arc, Circle, Ellipse, Polyline veya Spline olabilir. Text, Dimension ve Leader nesneleri hiçbir zaman kesişim kaydetmez, bu yüzden sınır da olamazlar.

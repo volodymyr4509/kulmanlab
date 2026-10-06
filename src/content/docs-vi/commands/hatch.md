@@ -41,7 +41,7 @@ Bất kỳ tổ hợp nào của các loại thực thể sau có thể tạo th
 - [Circle](../circle/) (đường viền khép kín của riêng nó)
 - [Ellipse](../ellipse/) (khép kín, hoặc một cung elip mở là một phần của vòng lớn hơn)
 - [Polyline](../polyline/) (mở hoặc khép kín) và [Rectangle](../rectangle/)
-- [Spline CV / Spline Fit](../spline-cv/)
+- [Spline CV / Spline Fit](../spline-cv/) — mỗi vòng của spline tự cắt chính nó là một vùng riêng
 
 Các thực thể Text, Multileader và Dimension không bao giờ được coi là đường viền.
 

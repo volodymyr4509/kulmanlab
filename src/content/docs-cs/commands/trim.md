@@ -62,7 +62,7 @@ Příkaz promítne polohu kurzoru na objekt pod ním a najde všechny jeho průs
 | Ellipse | Ano — vyžaduje 2 nebo více průsečíků |
 | Polyline (otevřená) | Ano |
 | Polyline (uzavřená) / Rectangle | Ano — vyžaduje 2 nebo více průsečíků |
-| Spline | Ano — uzavřený spline vyžaduje 2 nebo více průsečíků |
+| Spline | Ano — uzavřený spline vyžaduje 2 nebo více průsečíků; spline se ořezává i tam, kde se kříží sám se sebou |
 | Text, Dimension, Leader | Ne |
 
 Objekty použité jako **ořezové hranice** mohou být Line, Arc, Circle, Ellipse, Polyline nebo Spline. Objekty Text, Dimension a Leader žádné průsečíky neregistrují, takže nemohou sloužit ani jako hranice.

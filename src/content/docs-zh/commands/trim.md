@@ -62,7 +62,7 @@ order: 8
 | Ellipse | 是 — 需要 2 个或更多交点 |
 | Polyline（开放） | 是 |
 | Polyline（闭合）/ Rectangle | 是 — 需要 2 个或更多交点 |
-| 样条线 | 是——闭合样条需要 2 个或更多交点 |
+| 样条线 | 是——闭合样条需要 2 个或更多交点；样条在自身交叉处也会被剪切 |
 | 文字、标注、引线 | 否 |
 
 用作**剪切边界**的对象可以是 Line、Arc、Circle、Ellipse、Polyline 或 Spline。Text、Dimension 和 Leader 对象从不登记交点，因此也不能作为边界。

@@ -41,7 +41,7 @@ Any mix of these entity types can form a boundary, in any combination, as long a
 - [Circle](../circle/) (its own closed boundary)
 - [Ellipse](../ellipse/) (closed, or an open elliptical arc as part of a larger loop)
 - [Polyline](../polyline/) (open or closed) and [Rectangle](../rectangle/)
-- [Spline CV / Spline Fit](../spline-cv/)
+- [Spline CV / Spline Fit](../spline-cv/) — each loop of a spline that crosses itself is a region of its own
 
 Text, Multileader, and Dimension entities are never treated as boundaries.
 

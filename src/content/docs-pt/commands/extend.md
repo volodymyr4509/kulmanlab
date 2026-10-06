@@ -44,9 +44,8 @@ Os seguintes tipos de entidade são ignorados como limites — uma entidade não
 
 - Text / Mtext
 - Multileader
-- Spline
 
-Todos os outros tipos (Line, Arc, Circle, Ellipse, Polyline, Dimension) servem como limites válidos.
+Todos os outros tipos (Line, Arc, Circle, Ellipse, Polyline, Spline, Dimension) servem como limites válidos.
 
 Se o primeiro ou último segmento de uma Polyline for ele próprio um segmento de arco (desenhado com a opção Arc), estendê-lo faz o arco crescer ao longo do seu próprio círculo — da mesma forma que estender um Arc autônomo — em vez de tratá-lo como um segmento reto.
 

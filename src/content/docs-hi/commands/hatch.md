@@ -41,7 +41,7 @@ order: 7
 - [Circle](../circle/) (अपनी खुद की बंद सीमा)
 - [Ellipse](../ellipse/) (बंद, या एक बड़े लूप के हिस्से के रूप में एक खुला अंडाकार चाप)
 - [Polyline](../polyline/) (खुली या बंद) और [Rectangle](../rectangle/)
-- [Spline CV / Spline Fit](../spline-cv/)
+- [Spline CV / Spline Fit](../spline-cv/) — खुद को काटने वाली स्प्लाइन का हर लूप अपना अलग क्षेत्र है
 
 Text, Multileader, और Dimension ऑब्जेक्ट को कभी भी सीमा के रूप में नहीं माना जाता।
 

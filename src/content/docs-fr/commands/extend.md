@@ -44,9 +44,8 @@ Les types d'entités suivants sont ignorés comme limites — une entité ne se 
 
 - Text / Mtext
 - Multileader
-- Spline
 
-Tous les autres types (Line, Arc, Circle, Ellipse, Polyline, Dimension) servent de limites valides.
+Tous les autres types (Line, Arc, Circle, Ellipse, Polyline, Spline, Dimension) servent de limites valides.
 
 Si le premier ou le dernier segment d'une Polyline est lui-même un segment d'arc (dessiné avec le bouton Arc), le prolonger fait croître l'arc le long de son propre cercle — comme pour prolonger un Arc autonome — plutôt que de le traiter comme un segment droit.
 

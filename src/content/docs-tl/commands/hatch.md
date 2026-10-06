@@ -41,7 +41,7 @@ Anumang kombinasyon ng mga entity types na ito ay puwedeng bumuo ng boundary, sa
 - [Circle](../circle/) (sariling saradong boundary nito)
 - [Ellipse](../ellipse/) (saradong, o bukas na elliptical arc bilang bahagi ng mas malaking loop)
 - [Polyline](../polyline/) (bukas o sarado) at [Rectangle](../rectangle/)
-- [Spline CV / Spline Fit](../spline-cv/)
+- [Spline CV / Spline Fit](../spline-cv/) — ang bawat loop ng spline na nag-iintersect sa sarili ay sariling rehiyon
 
 Ang mga Text, Multileader, at Dimension entities ay hindi kailanman itinuturing na boundaries.
 

@@ -44,9 +44,8 @@ Jei ta kryptimi sankirtos nerandama, peržiūra nerodoma, o spustelėjimas nieko
 
 - Text / Mtext
 - Multileader
-- Spline
 
-Visi kiti tipai (Line, Arc, Circle, Ellipse, Polyline, Dimension) tinka kaip ribos.
+Visi kiti tipai (Line, Arc, Circle, Ellipse, Polyline, Spline, Dimension) tinka kaip ribos.
 
 Jei [Polyline](../polyline/) **pirmoji ar paskutinė atkarpa** pati yra lanko atkarpa (nubraižyta su Arc jungikliu), ją pratęsiant lankas ilgėja išilgai savo apskritimo — taip pat kaip pratęsiant atskirą [Arc](../arc/) — o ne traktuojamas kaip tiesi atkarpa.
 

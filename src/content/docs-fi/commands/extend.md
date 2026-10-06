@@ -44,9 +44,8 @@ Seuraavia entiteettityyppejä ei huomioida rajoina — entiteetti ei jatku niit�
 
 - Text / Mtext
 - Multileader
-- Spline
 
-Kaikki muut tyypit (Line, Arc, Circle, Ellipse, Polyline, Dimension) toimivat kelvollisina rajoina.
+Kaikki muut tyypit (Line, Arc, Circle, Ellipse, Polyline, Spline, Dimension) toimivat kelvollisina rajoina.
 
 Jos Polylinen ensimmäinen tai viimeinen segmentti on itsessään kaarisegmentti (piirretty Arc-kytkimellä), sen jatkaminen kasvattaa kaarta sen omaa ympyrää pitkin — aivan kuten itsenäisen Arc-elementin jatkaminen — sen sijaan, että sitä käsiteltäisiin suorana segmenttinä.
 

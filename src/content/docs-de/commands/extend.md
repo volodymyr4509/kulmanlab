@@ -44,9 +44,8 @@ Die folgenden Elementtypen werden als Begrenzungen ignoriert — ein Element ver
 
 - Text / Mtext
 - Multileader
-- Spline
 
-Alle anderen Typen (Line, Arc, Circle, Ellipse, Polyline, Dimension) dienen als gültige Begrenzungen.
+Alle anderen Typen (Line, Arc, Circle, Ellipse, Polyline, Spline, Dimension) dienen als gültige Begrenzungen.
 
 Ist das erste oder letzte Segment einer Polyline selbst ein Bogensegment (mit dem Arc-Umschalter gezeichnet), lässt eine Verlängerung den Bogen entlang seines eigenen Kreises wachsen — genauso, wie eine Verlängerung eines eigenständigen Arc funktioniert — statt es als gerades Segment zu behandeln.
 

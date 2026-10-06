@@ -41,7 +41,7 @@ Qualsiasi combinazione di questi tipi di entità può formare un contorno, in qu
 - [Circle](../circle/) (il proprio contorno chiuso)
 - [Ellipse](../ellipse/) (chiusa, o un arco ellittico aperto come parte di un anello più grande)
 - [Polyline](../polyline/) (aperta o chiusa) e [Rectangle](../rectangle/)
-- [Spline CV / Spline Fit](../spline-cv/)
+- [Spline CV / Spline Fit](../spline-cv/) — ogni anello di una spline che si incrocia da sola è una regione a sé
 
 Le entità Text, Multileader e Dimension non sono mai trattate come contorni.
 

@@ -41,7 +41,7 @@ Enhver kombinasjon av disse entitetstypene kan danne en grense, i hvilken som he
 - [Circle](../circle/) (sin egen lukkede grense)
 - [Ellipse](../ellipse/) (lukket, eller en åpen elliptisk bue som del av en større løkke)
 - [Polyline](../polyline/) (åpen eller lukket) og [Rectangle](../rectangle/)
-- [Spline CV / Spline Fit](../spline-cv/)
+- [Spline CV / Spline Fit](../spline-cv/) — hver sløyfe av en spline som krysser seg selv er et eget område
 
 Tekst-, multileader- og målsettingsentiteter behandles aldri som grenser.
 

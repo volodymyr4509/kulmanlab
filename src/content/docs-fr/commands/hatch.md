@@ -41,7 +41,7 @@ Toute combinaison de ces types d'entités peut former un contour, dans n'importe
 - [Circle](../circle/) (son propre contour fermé)
 - [Ellipse](../ellipse/) (fermée, ou un arc elliptique ouvert faisant partie d'une boucle plus grande)
 - [Polyline](../polyline/) (ouverte ou fermée) et [Rectangle](../rectangle/)
-- [Spline CV / Spline Fit](../spline-cv/)
+- [Spline CV / Spline Fit](../spline-cv/) — chaque boucle d'une spline qui se croise elle-même forme une région à part
 
 Les entités Text, Multileader et Dimension ne sont jamais traitées comme des contours.
 

@@ -62,7 +62,7 @@ O comando projeta a posição do cursor na entidade passada e encontra todos os 
 | Ellipse | Sim — requer 2 ou mais pontos de interseção |
 | Polyline (aberta) | Sim |
 | Polyline (fechada) / Retângulo | Sim — requer 2 ou mais pontos de interseção |
-| Spline | Sim — uma spline fechada exige 2 ou mais pontos de interseção |
+| Spline | Sim — uma spline fechada exige 2 ou mais pontos de interseção; uma spline também é cortada onde cruza a si mesma |
 | Texto, Cota, Leader | Não |
 
 Os objetos usados como **limites de corte** podem ser Line, Arc, Circle, Ellipse, Polyline ou Spline. Os objetos Text, Dimension e Leader nunca registram interseções, portanto também não podem atuar como limites.

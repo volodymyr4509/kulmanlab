@@ -41,7 +41,7 @@ order: 7
 - [Circle](../circle/) (حدودها المغلقة الخاصة بها)
 - [Ellipse](../ellipse/) (مغلقة، أو قوس ناقصي مفتوح كجزء من حلقة أكبر)
 - [Polyline](../polyline/) (مفتوحة أو مغلقة) و[Rectangle](../rectangle/)
-- [Spline CV / Spline Fit](../spline-cv/)
+- [Spline CV / Spline Fit](../spline-cv/) — كل حلقة في منحنى يتقاطع مع نفسه هي منطقة مستقلة
 
 عناصر Text وMultileader وDimension لا تُعامَل أبداً كحدود.
 

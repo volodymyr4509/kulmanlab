@@ -41,7 +41,7 @@ Aşağıdaki nesne türlerinin herhangi bir kombinasyonu, boşluk olmadan uç uc
 - [Circle](../circle/) (kendi kapalı sınırı)
 - [Ellipse](../ellipse/) (kapalı veya daha büyük bir döngünün parçası olarak açık bir eliptik yay)
 - [Polyline](../polyline/) (açık veya kapalı) ve [Rectangle](../rectangle/)
-- [Spline CV / Spline Fit](../spline-cv/)
+- [Spline CV / Spline Fit](../spline-cv/) — kendini kesen bir spline'ın her döngüsü ayrı bir bölgedir
 
 Text, Multileader ve Dimension nesneleri asla sınır olarak kabul edilmez.
 

@@ -41,7 +41,7 @@ Dowolna kombinacja tych typów elementów może utworzyć kontur, w dowolnym zes
 - [Circle](../circle/) (własny zamknięty kontur)
 - [Ellipse](../ellipse/) (zamknięta, lub otwarty łuk eliptyczny jako część większej pętli)
 - [Polyline](../polyline/) (otwarta lub zamknięta) i [Rectangle](../rectangle/)
-- [Spline CV / Spline Fit](../spline-cv/)
+- [Spline CV / Spline Fit](../spline-cv/) — każda pętla splajnu przecinającego sam siebie jest osobnym obszarem
 
 Elementy Text, Multileader i Dimension nigdy nie są traktowane jako kontury.
 

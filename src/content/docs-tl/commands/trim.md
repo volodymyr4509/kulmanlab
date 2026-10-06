@@ -62,7 +62,7 @@ Nag-p-project ang command ng posisyon ng cursor papunta sa hino-hover na entity 
 | Ellipse | Oo — kailangan ng 2 o higit pang intersection point |
 | Polyline (bukas) | Oo |
 | Polyline (sarado) / Rectangle | Oo — kailangan ng 2 o higit pang intersection point |
-| Spline | Oo — ang saradong spline ay nangangailangan ng 2 o higit pang intersection point |
+| Spline | Oo — ang saradong spline ay nangangailangan ng 2 o higit pang intersection point; pinuputol din ang spline kung saan nag-iintersect ito sa sarili |
 | Text, Dimension, Leader | Hindi |
 
 Ang mga objek na ginagamit bilang **hangganan ng pagputol** ay maaaring Line, Arc, Circle, Ellipse, Polyline, o Spline. Hindi kailanman nagtatala ng intersection ang mga objek na Text, Dimension, at Leader, kaya hindi rin sila maaaring maging hangganan.

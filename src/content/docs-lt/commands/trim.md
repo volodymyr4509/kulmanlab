@@ -62,7 +62,7 @@ Komanda projektuoja žymeklio padėtį ant užvesto objekto ir randa visus jo sa
 | Ellipse | Taip — reikia 2 ar daugiau sankirtos taškų |
 | Polyline (atvira) | Taip |
 | Polyline (uždara) / Rectangle | Taip — reikia 2 ar daugiau sankirtos taškų |
-| Spline | Taip — uždaram splainui reikia 2 ar daugiau sankirtos taškų |
+| Spline | Taip — uždaram splainui reikia 2 ar daugiau sankirtos taškų; splainas taip pat apkerpamas ten, kur jis kertasi pats su savimi |
 | Text, Dimension, Leader | Ne |
 
 Objektai, naudojami kaip **pjovimo ribos**, gali būti Line, Arc, Circle, Ellipse, Polyline arba Spline. Text, Dimension ir Leader objektai niekada neužregistruoja sankirtų, todėl jie taip pat negali būti ribomis.

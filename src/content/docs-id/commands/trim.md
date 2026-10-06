@@ -62,7 +62,7 @@ Perintah memproyeksikan posisi kursor ke entitas yang di-hover dan menemukan sem
 | Ellipse | Ya — memerlukan 2 atau lebih titik perpotongan |
 | Polyline (terbuka) | Ya |
 | Polyline (tertutup) / Rectangle | Ya — memerlukan 2 atau lebih titik perpotongan |
-| Spline | Ya — spline tertutup memerlukan 2 atau lebih titik perpotongan |
+| Spline | Ya — spline tertutup memerlukan 2 atau lebih titik perpotongan; spline juga dipotong di tempat ia bersilang dengan dirinya sendiri |
 | Text, Dimension, Leader | Tidak |
 
 Objek yang digunakan sebagai **batas pemotongan** dapat berupa Line, Arc, Circle, Ellipse, Polyline, atau Spline. Objek Text, Dimension, dan Leader tidak pernah mencatat perpotongan, sehingga tidak dapat menjadi batas juga.

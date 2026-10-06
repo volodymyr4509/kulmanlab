@@ -62,7 +62,7 @@ Komento projisoi kohdistimen sijainnin entiteetille, jonka päällä se on, ja l
 | Ellipse | Kyllä — vaatii 2 tai useamman leikkauspisteen |
 | Polyline (avoin) | Kyllä |
 | Polyline (suljettu) / Rectangle | Kyllä — vaatii 2 tai useamman leikkauspisteen |
-| Spline | Kyllä — suljettu spline vaatii vähintään 2 leikkauspistettä |
+| Spline | Kyllä — suljettu spline vaatii vähintään 2 leikkauspistettä; spline leikataan myös kohdasta, jossa se leikkaa itsensä |
 | Text, Dimension, Leader | Ei |
 
 **Leikkausrajoina** käytettävät objektit voivat olla Line, Arc, Circle, Ellipse, Polyline tai Spline. Text-, Dimension- ja Leader-objektit eivät koskaan rekisteröi leikkauspisteitä, joten ne eivät voi toimia rajoinakaan.

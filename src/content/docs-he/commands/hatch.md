@@ -41,7 +41,7 @@ order: 7
 - [Circle](../circle/) (הגבול הסגור שלו עצמו)
 - [Ellipse](../ellipse/) (סגורה, או קשת אליפטית פתוחה כחלק מלולאה גדולה יותר)
 - [Polyline](../polyline/) (פתוחה או סגורה) ו-[Rectangle](../rectangle/)
-- [Spline CV / Spline Fit](../spline-cv/)
+- [Spline CV / Spline Fit](../spline-cv/) — כל לולאה של ספליין החוצה את עצמו היא אזור נפרד
 
 ישויות Text, Multileader ו-Dimension לעולם אינן נחשבות כגבולות.
 

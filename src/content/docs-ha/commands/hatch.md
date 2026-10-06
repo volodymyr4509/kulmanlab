@@ -41,7 +41,7 @@ Kowace hadewar wadannan nau'ukan abubuwa na iya zama iyaka, a kowace hadewa, mud
 - [Circle](../circle/) (iyakarta ta rufe kanta)
 - [Ellipse](../ellipse/) (rufe, ko bakan ellipse a bude a matsayin wani bangare na babban lup)
 - [Polyline](../polyline/) (a bude ko a rufe) da [Rectangle](../rectangle/)
-- [Spline CV / Spline Fit](../spline-cv/)
+- [Spline CV / Spline Fit](../spline-cv/) — kowane madauki na spline mai gicciye kansa yanki ne na kansa
 
 Abubuwan Text, Multileader, da Dimension ba a taba dauke su a matsayin iyaka ba.
 

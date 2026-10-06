@@ -62,7 +62,7 @@ Kommandoen projicerer markørpositionen på entiteten, den holder over, og finde
 | Ellipse | Ja — kræver 2 eller flere skæringspunkter |
 | Polyline (åben) | Ja |
 | Polyline (lukket) / Rectangle | Ja — kræver 2 eller flere skæringspunkter |
-| Spline | Ja — en lukket spline kræver 2 eller flere skæringspunkter |
+| Spline | Ja — en lukket spline kræver 2 eller flere skæringspunkter; en spline klippes også, hvor den krydser sig selv |
 | Text, Dimension, Leader | Nej |
 
 De objekter, der bruges som **skæregrænser**, kan være Line, Arc, Circle, Ellipse, Polyline eller Spline. Text-, Dimension- og Leader-objekter registrerer aldrig skæringer, så de kan heller ikke fungere som grænser.

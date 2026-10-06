@@ -62,7 +62,7 @@ The command projects the cursor position onto the hovered entity and finds all i
 | Ellipse | Yes — requires 2 or more intersection points |
 | Polyline (open) | Yes |
 | Polyline (closed) / Rectangle | Yes — requires 2 or more intersection points |
-| Spline | Yes — a closed spline requires 2 or more intersection points |
+| Spline | Yes — a closed spline requires 2 or more intersection points; a spline is also cut where it crosses itself |
 | Text, Dimension, Leader | No |
 
 The entities used as **cutting boundaries** can be a Line, Arc, Circle, Ellipse, Polyline, or Spline. Text, Dimension, and Leader entities never register intersections, so they can't act as boundaries either.

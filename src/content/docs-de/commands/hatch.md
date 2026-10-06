@@ -41,7 +41,7 @@ Jede Kombination der folgenden Elementtypen kann eine Randkontur bilden, in beli
 - [Circle](../circle/) (eigene geschlossene Kontur)
 - [Ellipse](../ellipse/) (geschlossen, oder ein offener elliptischer Bogen als Teil einer größeren Schleife)
 - [Polyline](../polyline/) (offen oder geschlossen) und [Rectangle](../rectangle/)
-- [Spline CV / Spline Fit](../spline-cv/)
+- [Spline CV / Spline Fit](../spline-cv/) — jede Schleife eines Splines, der sich selbst kreuzt, ist ein eigener Bereich
 
 Text-, Multileader- und Bemaßungselemente werden niemals als Randkontur behandelt.
 

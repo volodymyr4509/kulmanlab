@@ -41,7 +41,7 @@ order: 7
 - [Circle](../circle/) (নিজস্ব বন্ধ বাউন্ডারি)
 - [Ellipse](../ellipse/) (বন্ধ, অথবা একটি বড় লুপের অংশ হিসেবে একটি খোলা উপবৃত্তাকার আর্ক)
 - [Polyline](../polyline/) (খোলা বা বন্ধ) এবং [Rectangle](../rectangle/)
-- [Spline CV / Spline Fit](../spline-cv/)
+- [Spline CV / Spline Fit](../spline-cv/) — নিজেকে ছেদ করা স্প্লাইনের প্রতিটি লুপ আলাদা এলাকা
 
 Text, Multileader এবং Dimension সত্তা কখনও বাউন্ডারি হিসেবে বিবেচিত হয় না।
 

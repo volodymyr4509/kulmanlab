@@ -44,9 +44,8 @@ order: 9
 
 - Text / Mtext
 - Multileader
-- Spline
 
-دیگر تمام اقسام (Line، Arc، Circle، Ellipse، Polyline، Dimension) درست سرحد کے طور پر کام کرتی ہیں۔
+دیگر تمام اقسام (Line، Arc، Circle، Ellipse، Polyline، Spline، Dimension) درست سرحد کے طور پر کام کرتی ہیں۔
 
 اگر Polyline کا پہلا یا آخری سیگمنٹ خود ایک آرک سیگمنٹ ہے (Arc ٹوگل سے بنایا گیا)، تو اسے extend کرنے سے آرک اپنے ہی دائرے کے ساتھ بڑھتا ہے — بالکل ویسے ہی جیسے ایک آزاد Arc کو extend کیا جاتا ہے — اسے سیدھا سیگمنٹ سمجھنے کے بجائے۔
 

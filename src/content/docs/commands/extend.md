@@ -44,9 +44,8 @@ The following entity types are ignored as boundaries — an entity does not exte
 
 - Text / Mtext
 - Multileader
-- Spline
 
-All other types (Line, Arc, Circle, Ellipse, Polyline, Dimension) serve as valid boundaries.
+All other types (Line, Arc, Circle, Ellipse, Polyline, Spline, Dimension) serve as valid boundaries.
 
 If a [Polyline](../polyline/)'s **first or last segment** is itself an arc segment (drawn with the Arc toggle), extending it grows the arc along its own circle — the same way extending a standalone [Arc](../arc/) does — rather than treating it as a straight segment.
 

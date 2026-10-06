@@ -44,9 +44,8 @@ order: 9
 
 - 文字 / 多行文字
 - 多重引线
-- 样条线
 
-所有其他类型（Line、Arc、Circle、Ellipse、Polyline、标注）均作为有效边界。
+所有其他类型（Line、Arc、Circle、Ellipse、Polyline、样条线、标注）均作为有效边界。
 
 如果 Polyline 的第一个或最后一个段本身就是弧形段（用 Arc 开关绘制），延伸它会沿着其自身的圆增长弧形——就像延伸独立的 Arc 一样——而不是将其当作直线段处理。
 

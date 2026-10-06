@@ -62,7 +62,7 @@ Arahan mengunjurkan kedudukan kursor ke atas entiti yang dituding dan mencari se
 | Ellipse | Ya — memerlukan 2 atau lebih titik persimpangan |
 | Polyline (terbuka) | Ya |
 | Polyline (tertutup) / Rectangle | Ya — memerlukan 2 atau lebih titik persimpangan |
-| Spline | Ya — spline tertutup memerlukan 2 atau lebih titik persilangan |
+| Spline | Ya — spline tertutup memerlukan 2 atau lebih titik persilangan; spline juga dipotong di tempat ia bersilang dengan dirinya sendiri |
 | Text, Dimension, Leader | Tidak |
 
 Objek yang digunakan sebagai **sempadan pemotongan** boleh jadi Line, Arc, Circle, Ellipse, Polyline atau Spline. Objek Text, Dimension dan Leader tidak pernah mendaftarkan persilangan, jadi ia juga tidak boleh menjadi sempadan.

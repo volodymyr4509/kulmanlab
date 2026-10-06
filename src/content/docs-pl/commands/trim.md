@@ -62,7 +62,7 @@ Polecenie rzutuje pozycję kursora na wskazywany element i znajduje wszystkie pu
 | Ellipse | Tak — wymaga 2 lub więcej punktów przecięcia |
 | Polyline (otwarta) | Tak |
 | Polyline (zamknięta) / Rectangle | Tak — wymaga 2 lub więcej punktów przecięcia |
-| Splajn | Tak — splajn zamknięty wymaga 2 lub więcej punktów przecięcia |
+| Splajn | Tak — splajn zamknięty wymaga 2 lub więcej punktów przecięcia; splajn jest też przycinany tam, gdzie przecina sam siebie |
 | Tekst, Wymiar, Linia prowadząca | Nie |
 
 Obiekty użyte jako **granice cięcia** mogą być typu Line, Arc, Circle, Ellipse, Polyline lub Spline. Obiekty Text, Dimension i Leader nigdy nie rejestrują przecięć, więc również nie mogą być granicami.

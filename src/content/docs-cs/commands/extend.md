@@ -44,9 +44,8 @@ Následující typy objektů se jako hranice ignorují — objekt se k nim nepro
 
 - Text / Mtext
 - Multileader
-- Spline
 
-Všechny ostatní typy (Line, Arc, Circle, Ellipse, Polyline, Dimension) slouží jako platné hranice.
+Všechny ostatní typy (Line, Arc, Circle, Ellipse, Polyline, Spline, Dimension) slouží jako platné hranice.
 
 Pokud je **první nebo poslední segment** [Polyline](../polyline/) sám obloukovým segmentem (nakresleným pomocí přepínače Arc), jeho prodloužení rozšíří oblouk po jeho vlastní kružnici — stejně jako prodloužení samostatného [Arc](../arc/) — místo aby se s ním zacházelo jako s přímým segmentem.
 

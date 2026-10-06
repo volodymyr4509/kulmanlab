@@ -44,9 +44,8 @@ order: 9
 
 - Text / Mtext
 - Multileader
-- Spline
 
-כל שאר הסוגים (Line, Arc, Circle, Ellipse, Polyline, Dimension) משמשים כגבולות תקפים.
+כל שאר הסוגים (Line, Arc, Circle, Ellipse, Polyline, Spline, Dimension) משמשים כגבולות תקפים.
 
 אם הקטע הראשון או האחרון של Polyline הוא עצמו קטע קשת (מצויר באמצעות מתג Arc), הארכתו מגדילה את הקשת לאורך המעגל שלה — בדיוק כמו הארכת Arc עצמאי — במקום להתייחס אליו כקטע ישר.
 

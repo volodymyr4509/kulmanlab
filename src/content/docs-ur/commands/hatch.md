@@ -41,7 +41,7 @@ order: 7
 - [Circle](../circle/) (اپنی خود کی بند باؤنڈری)
 - [Ellipse](../ellipse/) (بند، یا ایک بڑے لوپ کے حصے کے طور پر ایک کھلا بیضوی قوس)
 - [Polyline](../polyline/) (کھلی یا بند) اور [Rectangle](../rectangle/)
-- [Spline CV / Spline Fit](../spline-cv/)
+- [Spline CV / Spline Fit](../spline-cv/) — خود کو کاٹنے والی اسپلائن کا ہر لوپ اپنا الگ علاقہ ہے
 
 Text، Multileader، اور Dimension اشیاء کو کبھی بھی باؤنڈری کے طور پر نہیں سمجھا جاتا۔
 

@@ -41,7 +41,7 @@ Mchanganyiko wowote wa aina hizi za viumbe unaweza kuunda mpaka, katika mchangan
 - [Circle](../circle/) (mpaka wake mwenyewe uliofungwa)
 - [Ellipse](../ellipse/) (iliyofungwa, au archi ya duaradufu iliyo wazi kama sehemu ya kitanzi kikubwa zaidi)
 - [Polyline](../polyline/) (wazi au iliyofungwa) na [Rectangle](../rectangle/)
-- [Spline CV / Spline Fit](../spline-cv/)
+- [Spline CV / Spline Fit](../spline-cv/) — kila kitanzi cha spline inayojikata yenyewe ni eneo lake lenyewe
 
 Viumbe vya Text, Multileader, na Dimension havichukuliwi kamwe kama mipaka.
 

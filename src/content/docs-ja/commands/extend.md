@@ -44,9 +44,8 @@ order: 9
 
 - Text / Mtext
 - Multileader
-- Spline
 
-その他すべてのタイプ（Line、Arc、Circle、Ellipse、Polyline、Dimension）は有効な境界として機能します。
+その他すべてのタイプ（Line、Arc、Circle、Ellipse、Polyline、Spline、Dimension）は有効な境界として機能します。
 
 Polyline の最初または最後のセグメントがそれ自体円弧セグメント（Arc トグルで描画）である場合、延長するとその円弧は自身の円に沿って伸びます — 独立した Arc を延長する場合と同じ挙動です — 直線セグメントとして扱われることはありません。
 

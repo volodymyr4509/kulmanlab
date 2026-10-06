@@ -62,7 +62,7 @@ Der Befehl projiziert die Cursorposition auf die überfahrene Entität und finde
 | Ellipse | Ja — erfordert 2 oder mehr Schnittpunkte |
 | Polyline (offen) | Ja |
 | Polyline (geschlossen) / Rectangle | Ja — erfordert 2 oder mehr Schnittpunkte |
-| Spline | Ja — ein geschlossener Spline benötigt 2 oder mehr Schnittpunkte |
+| Spline | Ja — ein geschlossener Spline benötigt 2 oder mehr Schnittpunkte; ein Spline wird außerdem dort geschnitten, wo er sich selbst kreuzt |
 | Text, Bemaßung, Leader | Nein |
 
 Die als **Schnittgrenzen** verwendeten Entitäten können eine Line, ein Arc, Circle, eine Ellipse, Polyline oder ein Spline sein. Text-, Bemaßungs- und Leader-Entitäten registrieren nie Schnittpunkte und können daher ebenfalls keine Grenzen sein.

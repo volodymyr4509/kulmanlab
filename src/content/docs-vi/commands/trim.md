@@ -62,7 +62,7 @@ Lệnh chiếu vị trí con trỏ lên thực thể đang di chuyển qua và t
 | Ellipse | Có — cần 2 điểm giao nhau trở lên |
 | Polyline (mở) | Có |
 | Polyline (đóng) / Rectangle | Có — cần 2 điểm giao nhau trở lên |
-| Spline | Có — spline kín cần 2 giao điểm trở lên |
+| Spline | Có — spline kín cần 2 giao điểm trở lên; spline cũng bị cắt tại chỗ nó tự cắt chính nó |
 | Văn bản, Kích thước, Đường dẫn | Không |
 
 Các đối tượng dùng làm **ranh giới cắt** có thể là Line, Arc, Circle, Ellipse, Polyline hoặc Spline. Đối tượng Text, Dimension và Leader không bao giờ ghi nhận giao điểm, nên cũng không thể làm ranh giới.

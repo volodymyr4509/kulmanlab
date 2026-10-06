@@ -62,7 +62,7 @@ Het commando projecteert de cursorpositie op de gehoverde entiteit en zoekt alle
 | Ellipse | Ja — vereist 2 of meer snijpunten |
 | Polyline (open) | Ja |
 | Polyline (gesloten) / Rectangle | Ja — vereist 2 of meer snijpunten |
-| Spline | Ja — een gesloten spline vereist 2 of meer snijpunten |
+| Spline | Ja — een gesloten spline vereist 2 of meer snijpunten; een spline wordt ook geknipt waar hij zichzelf kruist |
 | Text, Dimension, Leader | Nee |
 
 De objecten die als **knipgrenzen** worden gebruikt, kunnen Line, Arc, Circle, Ellipse, Polyline of Spline zijn. Text-, Dimension- en Leader-objecten registreren nooit snijpunten en kunnen dus ook geen grenzen zijn.
