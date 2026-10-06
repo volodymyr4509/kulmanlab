@@ -43,6 +43,7 @@ order: 8
 | Ellipse | 一个带有起始角和终止角的 Ellipse 图元 — 剩余部分仍是 Ellipse，现在是部分椭圆 |
 | Polyline（开放） | 最多两个更短的 Polyline 图元 |
 | Polyline（闭合）/ Rectangle | 一个开放的 Polyline 图元 — 闭合形状消失，因此剩余部分以开放形式存储 |
+| 样条线 | 最多两条更短的 Spline 对象——每一段都是同一条曲线的一部分，以控制点存储（Fit 样条的拟合点会被丢弃）；闭合样条会留下一段开放曲线 |
 
 ## 键盘参考
 
@@ -61,9 +62,10 @@ order: 8
 | Ellipse | 是 — 需要 2 个或更多交点 |
 | Polyline（开放） | 是 |
 | Polyline（闭合）/ Rectangle | 是 — 需要 2 个或更多交点 |
-| 文字、样条线、标注、引线 | 否 |
+| 样条线 | 是——闭合样条需要 2 个或更多交点 |
+| 文字、标注、引线 | 否 |
 
-用作**切割边界**的图元可以是 Line、Arc、Circle、Ellipse 或 Polyline。文字、样条线、标注和引线图元永远不会产生交点，因此它们也不能作为边界。
+用作**剪切边界**的对象可以是 Line、Arc、Circle、Ellipse、Polyline 或 Spline。Text、Dimension 和 Leader 对象从不登记交点，因此也不能作为边界。
 
 Polyline 的**弧形段**（用 Arc 开关绘制或导入）修剪方式与直线段完全相同——将光标悬停在两个交点之间的弧形部分上并单击。修剪后的边保持其曲率；只有长度会改变。
 
@@ -74,4 +76,4 @@ Polyline 的**弧形段**（用 Arc 开关绘制或导入）修剪方式与直�
 | 功能 | 删除图元的一段 | 将直线端点延伸到边界 |
 | 触发方式 | 悬停在要切割的线段上 | 悬停在要延伸的端点附近 |
 | 结果 | 图元分割或缩短 | 直线端点移动到边界 |
-| 支持的图元 | Line、Arc、Circle、Ellipse、Polyline | Line、Arc、Ellipse、Polyline |
+| 支持的图元 | Line、Arc、Circle、Ellipse、Polyline、样条线 | Line、Arc、Ellipse、Polyline |

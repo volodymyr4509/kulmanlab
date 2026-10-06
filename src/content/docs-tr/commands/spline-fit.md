@@ -71,9 +71,10 @@ Bir tutamacı sürüklemek tüm eğriyi yeniden uydurur, yalnızca komşu segmen
 | [Rotate](../rotate/) | Tüm uyum noktalarını seçilen temel nokta etrafında döndürür |
 | [Mirror](../mirror/) | Tüm uyum noktalarını yansıtma ekseni üzerinden yansıtır |
 | [Scale](../scale/) | Tüm uyum noktalarını temel noktadan düzgün şekilde ölçekler |
+| [Trim](../trim/) | Spline'ı kesişimlerinde keser — her parça kendisinin daha küçük bir bölümü olan aynı eğridir |
 | [Delete](../delete/) | Spline'ı kaldırır |
 
-Spline'lar **Offset**, **Trim** veya **Extend**'i desteklemez.
+Spline'lar **Trim**'i destekler, ancak **Offset** ve **Extend**'i desteklemez.
 
 ## Özellikler
 

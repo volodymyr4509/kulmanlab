@@ -43,6 +43,7 @@ Kommandot projicerar markörens position på den entitet markören befinner sig 
 | Ellipse | En Ellipse-entitet med start- och slutvinkel — den kvarvarande delen förblir en Ellipse, nu partiell |
 | Polyline (öppen) | Upp till två kortare Polyline-entiteter |
 | Polyline (stängd) / Rectangle | En öppen Polyline-entitet — den stängda formen försvinner, så den kvarvarande delen lagras öppen |
+| Spline | Upp till två kortare Spline-objekt — varje bit är samma kurva över en mindre del av sig själv, lagrad som kontrollpunkter (passpunkterna hos en Fit-spline tas bort); en sluten spline lämnar en öppen bit |
 
 ## Snabbreferens tangentbord
 
@@ -61,9 +62,10 @@ Kommandot projicerar markörens position på den entitet markören befinner sig 
 | Ellipse | Ja — kräver 2 eller fler skärningspunkter |
 | Polyline (öppen) | Ja |
 | Polyline (stängd) / Rectangle | Ja — kräver 2 eller fler skärningspunkter |
-| Text, Spline, Dimension, Leader | Nej |
+| Spline | Ja — en sluten spline kräver 2 eller fler skärningspunkter |
+| Text, Dimension, Leader | Nej |
 
-Entiteterna som används som **klippgränser** kan vara Line, Arc, Circle, Ellipse eller Polyline. Text-, Spline-, Dimension- och Leader-entiteter registrerar aldrig skärningar, så de kan inte heller fungera som gränser.
+Objekten som används som **skärgränser** kan vara Line, Arc, Circle, Ellipse, Polyline eller Spline. Text-, Dimension- och Leader-objekt registrerar aldrig skärningar, så de kan inte heller fungera som gränser.
 
 En Polylines **bågsegment** (ritade med Arc-växeln, eller importerade) klipps precis som dess raka segment — håll muspekaren över bågdelen mellan två skärningar och klicka. Den klippta kanten behåller sin krökning; bara längden ändras.
 
@@ -74,4 +76,4 @@ En Polylines **bågsegment** (ritade med Arc-växeln, eller importerade) klipps 
 | Vad det gör | Tar bort ett segment av en entitet | Sträcker en linjeändpunkt till en gräns |
 | Utlösare | Håll markören över segmentet som ska klippas | Håll markören nära ändpunkten som ska förlängas |
 | Resultat | Entiteten delas eller kortas av | Linjens ändpunkt flyttas till gränsen |
-| Entiteter som stöds | Line, Arc, Circle, Ellipse, Polyline | Line, Arc, Ellipse, Polyline |
+| Entiteter som stöds | Line, Arc, Circle, Ellipse, Polyline, Spline | Line, Arc, Ellipse, Polyline |

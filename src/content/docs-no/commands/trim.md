@@ -43,6 +43,7 @@ Kommandoen projiserer markørposisjonen på entiteten den holder over, og finner
 | Ellipse | Én Ellipse-entitet med start- og sluttvinkel — den gjenværende delen forblir en Ellipse, nå delvis |
 | Polyline (åpen) | Opptil to kortere Polyline-entiteter |
 | Polyline (lukket) / Rectangle | Én åpen Polyline-entitet — den lukkede formen forsvinner, så den gjenværende delen lagres åpen |
+| Spline | Opptil to kortere Spline-objekter — hver bit er samme kurve over en mindre del av seg selv, lagret som kontrollpunkter (tilpasningspunktene til en Fit-spline forkastes); en lukket spline etterlater én åpen bit |
 
 ## Tastaturreferanse
 
@@ -61,9 +62,10 @@ Kommandoen projiserer markørposisjonen på entiteten den holder over, og finner
 | Ellipse | Ja — krever 2 eller flere skjæringspunkter |
 | Polyline (åpen) | Ja |
 | Polyline (lukket) / Rectangle | Ja — krever 2 eller flere skjæringspunkter |
-| Text, Spline, Dimension, Leader | Nei |
+| Spline | Ja — en lukket spline krever 2 eller flere skjæringspunkter |
+| Text, Dimension, Leader | Nei |
 
-Entitetene som brukes som **kuttgrenser** kan være Line, Arc, Circle, Ellipse eller Polyline. Text-, Spline-, Dimension- og Leader-entiteter registrerer aldri skjæringspunkter, så de kan heller ikke fungere som grenser.
+Objektene som brukes som **kuttgrenser** kan være Line, Arc, Circle, Ellipse, Polyline eller Spline. Text-, Dimension- og Leader-objekter registrerer aldri skjæringer, så de kan heller ikke fungere som grenser.
 
 En Polylines **buesegmenter** (tegnet med Arc-bryteren, eller importert) trimmes akkurat som de rette segmentene — hold musepekeren over buedelen mellom to skjæringspunkter og klikk. Den trimmede kanten beholder krumningen sin; bare lengden endres.
 
@@ -74,4 +76,4 @@ En Polylines **buesegmenter** (tegnet med Arc-bryteren, eller importert) trimmes
 | Hva den gjør | Fjerner et segment av en entitet | Strekker et linjeendepunkt til en grense |
 | Utløser | Hold markøren over segmentet for å kutte | Hold markøren nær endepunktet for å forlenge |
 | Resultat | Entiteten deles eller forkortes | Linjeendepunktet flyttes til grensen |
-| Støttede entiteter | Line, Arc, Circle, Ellipse, Polyline | Line, Arc, Ellipse, Polyline |
+| Støttede entiteter | Line, Arc, Circle, Ellipse, Polyline, Spline | Line, Arc, Ellipse, Polyline |

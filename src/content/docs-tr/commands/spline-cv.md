@@ -72,9 +72,10 @@ Seçili bir CV spline, kontrol noktası başına bir tutamaç gösterir:
 | [Rotate](../rotate/) | Tüm CV'leri seçilen temel nokta etrafında döndürür |
 | [Mirror](../mirror/) | Tüm CV'leri yansıtma ekseni üzerinden yansıtır |
 | [Scale](../scale/) | Tüm CV'leri temel noktadan düzgün şekilde ölçekler |
+| [Trim](../trim/) | Spline'ı kesişimlerinde keser — her parça kendisinin daha küçük bir bölümü olan aynı eğridir |
 | [Delete](../delete/) | Spline'ı kaldırır |
 
-Spline'lar **Offset**, **Trim** veya **Extend**'i desteklemez.
+Spline'lar **Trim**'i destekler, ancak **Offset** ve **Extend**'i desteklemez.
 
 ## Özellikler
 

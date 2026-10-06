@@ -27,6 +27,20 @@ Một spline fit được chọn hiển thị một điểm kéo cho mỗi đi�
 
 Kéo một điểm kéo sẽ tái khớp toàn bộ đường cong, không chỉ các đoạn lân cận.
 
+## Các lệnh chỉnh sửa được hỗ trợ
+
+| Lệnh | Tác dụng với spline |
+|------|---------------------|
+| [Move](../move/) | Dịch chuyển tất cả điểm khớp và CV đã tính lại cùng một khoảng |
+| [Copy](../copy/) | Tạo spline giống hệt tại vị trí mới |
+| [Rotate](../rotate/) | Xoay tất cả điểm khớp quanh điểm cơ sở đã chọn |
+| [Mirror](../mirror/) | Phản chiếu tất cả điểm khớp qua trục phản chiếu |
+| [Scale](../scale/) | Chia tỉ lệ đồng đều tất cả điểm khớp từ điểm cơ sở |
+| [Trim](../trim/) | Cắt spline tại các giao điểm của nó — mỗi mảnh là cùng một đường cong trên một đoạn nhỏ hơn |
+| [Delete](../delete/) | Xóa spline |
+
+Spline hỗ trợ **Trim**, nhưng không hỗ trợ **Offset** hay **Extend**.
+
 ## Spline Fit vs Spline CV — cái nào dùng
 
 | | Spline Fit | Spline CV |

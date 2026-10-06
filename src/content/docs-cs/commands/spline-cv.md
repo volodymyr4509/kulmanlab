@@ -72,9 +72,10 @@ Neexistuje úchyt „přesunout celý spline". K posunu celého splinu použijte
 | [Rotate](../rotate/) | Otočí všechny CV kolem zvoleného základního bodu |
 | [Mirror](../mirror/) | Zrcadlí všechny CV podle osy zrcadlení |
 | [Scale](../scale/) | Rovnoměrně změní měřítko všech CV od základního bodu |
+| [Trim](../trim/) | Ořízne spline v jeho průsečících — každý díl je tatáž křivka na menším úseku |
 | [Delete](../delete/) | Odstraní spline |
 
-Spliny nepodporují **Offset**, **Trim** ani **Extend**.
+Spliny podporují **Trim**, ale ne **Offset** ani **Extend**.
 
 ## Vlastnosti
 

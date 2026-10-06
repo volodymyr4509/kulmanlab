@@ -43,6 +43,7 @@ Komento projisoi kohdistimen sijainnin entiteetille, jonka päällä se on, ja l
 | Ellipse | Yksi Ellipse-entiteetti, jolla on alku- ja loppukulma — jäljelle jäävä osa pysyy Ellipse-entiteettinä, nyt osittaisena |
 | Polyline (avoin) | Enintään kaksi lyhyempää Polyline-entiteettiä |
 | Polyline (suljettu) / Rectangle | Yksi avoin Polyline-entiteetti — suljettu muoto katoaa, joten jäljelle jäävä osa tallennetaan avoimena |
+| Spline | Enintään kaksi lyhyempää Spline-objektia — kukin pala on sama käyrä pienemmällä osuudella, tallennettuna ohjauspisteinä (Fit-splinen sovituspisteet hylätään); suljettu spline jättää yhden avoimen palan |
 
 ## Näppäinreferenssi
 
@@ -61,9 +62,10 @@ Komento projisoi kohdistimen sijainnin entiteetille, jonka päällä se on, ja l
 | Ellipse | Kyllä — vaatii 2 tai useamman leikkauspisteen |
 | Polyline (avoin) | Kyllä |
 | Polyline (suljettu) / Rectangle | Kyllä — vaatii 2 tai useamman leikkauspisteen |
-| Text, Spline, Dimension, Leader | Ei |
+| Spline | Kyllä — suljettu spline vaatii vähintään 2 leikkauspistettä |
+| Text, Dimension, Leader | Ei |
 
-Entiteetit, joita käytetään **leikkausrajoina**, voivat olla Line, Arc, Circle, Ellipse tai Polyline. Text-, Spline-, Dimension- ja Leader-entiteetit eivät koskaan rekisteröi leikkauspisteitä, joten nekään eivät voi toimia rajoina.
+**Leikkausrajoina** käytettävät objektit voivat olla Line, Arc, Circle, Ellipse, Polyline tai Spline. Text-, Dimension- ja Leader-objektit eivät koskaan rekisteröi leikkauspisteitä, joten ne eivät voi toimia rajoinakaan.
 
 Polylinen **kaarisegmentit** (piirretty Arc-kytkimellä tai tuotu) leikataan täsmälleen kuten sen suorat segmentit — vie kohdistin kaariosan päälle kahden leikkauspisteen välissä ja napsauta. Leikattu reuna säilyttää kaarevuutensa; vain sen pituus muuttuu.
 
@@ -74,4 +76,4 @@ Polylinen **kaarisegmentit** (piirretty Arc-kytkimellä tai tuotu) leikataan tä
 | Mitä se tekee | Poistaa entiteetin segmentin | Venyttää viivan päätepisteen rajaan |
 | Laukaisin | Pidä kohdistinta segmentin päällä leikataksesi | Pidä kohdistinta lähellä päätepistettä jatkaaksesi |
 | Tulos | Entiteetti jakautuu tai lyhenee | Viivan päätepiste siirtyy rajaan |
-| Tuetut entiteetit | Line, Arc, Circle, Ellipse, Polyline | Line, Arc, Ellipse, Polyline |
+| Tuetut entiteetit | Line, Arc, Circle, Ellipse, Polyline, Spline | Line, Arc, Ellipse, Polyline |

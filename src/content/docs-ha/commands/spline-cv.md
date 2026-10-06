@@ -72,9 +72,10 @@ Babu grip na "motsa dukkan spline". Don matsar da dukkan spline, yi amfani da um
 | [Rotate](../rotate/) | Yana juya dukkan CVs a kewayen tabon tushe da aka zaɓa |
 | [Mirror](../mirror/) | Yana yin madubi na dukkan CVs a kan axis na madubi |
 | [Scale](../scale/) | Yana canza girman dukkan CVs iri ɗaya daga tabon tushe |
+| [Trim](../trim/) | Yana yanke spline a wuraren gicciyensa — kowane yanki shi ne lanƙwasa ɗaya a ƙaramin ɓangare |
 | [Delete](../delete/) | Yana cire spline |
 
-Splines ba su goyon bayan **Offset**, **Trim**, ko **Extend** ba.
+Spline suna goyon bayan **Trim**, amma ba **Offset** ko **Extend** ba.
 
 ## Abubuwan
 

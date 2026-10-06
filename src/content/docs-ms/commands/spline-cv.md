@@ -72,9 +72,10 @@ Tiada grip "gerakkan keseluruhan spline". Untuk menterjemahkan keseluruhan splin
 | [Rotate](../rotate/) | Memutar semua CV di sekitar titik asas yang dipilih |
 | [Mirror](../mirror/) | Mencerminkan semua CV merentasi paksi cermin |
 | [Scale](../scale/) | Mengskala semua CV secara seragam dari titik asas |
+| [Trim](../trim/) | Memotong spline pada persilangannya — setiap kepingan ialah lengkung yang sama pada bahagian yang lebih kecil |
 | [Delete](../delete/) | Membuang spline |
 
-Spline tidak menyokong **Offset**, **Trim**, atau **Extend**.
+Spline menyokong **Trim**, tetapi tidak menyokong **Offset** atau **Extend**.
 
 ## Sifat
 

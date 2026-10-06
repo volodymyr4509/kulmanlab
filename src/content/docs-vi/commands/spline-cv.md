@@ -25,6 +25,20 @@ Một spline CV được chọn hiển thị một điểm kéo cho mỗi điể
 |----------|--------|---------|
 | **Điểm kiểm soát** | Tại mỗi vị trí CV | Kéo để di chuyển CV đó — đường cong định hình lại về phía vị trí mới |
 
+## Các lệnh chỉnh sửa được hỗ trợ
+
+| Lệnh | Tác dụng với spline |
+|------|---------------------|
+| [Move](../move/) | Dịch chuyển tất cả CV cùng một khoảng |
+| [Copy](../copy/) | Tạo spline giống hệt tại vị trí mới |
+| [Rotate](../rotate/) | Xoay tất cả CV quanh điểm cơ sở đã chọn |
+| [Mirror](../mirror/) | Phản chiếu tất cả CV qua trục phản chiếu |
+| [Scale](../scale/) | Chia tỉ lệ đồng đều tất cả CV từ điểm cơ sở |
+| [Trim](../trim/) | Cắt spline tại các giao điểm của nó — mỗi mảnh là cùng một đường cong trên một đoạn nhỏ hơn |
+| [Delete](../delete/) | Xóa spline |
+
+Spline hỗ trợ **Trim**, nhưng không hỗ trợ **Offset** hay **Extend**.
+
 ## Spline CV vs Spline Fit — cái nào dùng
 
 | | Spline CV | Spline Fit |

@@ -43,6 +43,7 @@ Polecenie rzutuje pozycję kursora na wskazywany element i znajduje wszystkie pu
 | Ellipse | Jeden element Ellipse z kątem początkowym i końcowym — pozostała część pozostaje elementem Ellipse, teraz częściowym |
 | Polyline (otwarta) | Do dwóch krótszych elementów Polyline |
 | Polyline (zamknięta) / Rectangle | Jeden otwarty element Polyline — zamknięty kształt znika, więc pozostała część jest przechowywana jako otwarta |
+| Splajn | Do dwóch krótszych obiektów Spline — każdy kawałek to ta sama krzywa na mniejszym odcinku, przechowywana za pomocą wierzchołków kontrolnych (punkty dopasowania splajnu Fit są odrzucane); splajn zamknięty pozostawia jeden otwarty kawałek |
 
 ## Skróty klawiaturowe
 
@@ -61,9 +62,10 @@ Polecenie rzutuje pozycję kursora na wskazywany element i znajduje wszystkie pu
 | Ellipse | Tak — wymaga 2 lub więcej punktów przecięcia |
 | Polyline (otwarta) | Tak |
 | Polyline (zamknięta) / Rectangle | Tak — wymaga 2 lub więcej punktów przecięcia |
-| Tekst, Splajn, Wymiar, Linia prowadząca | Nie |
+| Splajn | Tak — splajn zamknięty wymaga 2 lub więcej punktów przecięcia |
+| Tekst, Wymiar, Linia prowadząca | Nie |
 
-Elementy używane jako **granice cięcia** mogą być typu Line, Arc, Circle, Ellipse lub Polyline. Elementy Tekst, Splajn, Wymiar i Linia prowadząca nigdy nie rejestrują przecięć, więc również nie mogą pełnić roli granicy.
+Obiekty użyte jako **granice cięcia** mogą być typu Line, Arc, Circle, Ellipse, Polyline lub Spline. Obiekty Text, Dimension i Leader nigdy nie rejestrują przecięć, więc również nie mogą być granicami.
 
 **Segmenty łukowe** Polyline (narysowane przełącznikiem Arc lub zaimportowane) są przycinane dokładnie tak samo jak segmenty proste — najedź kursorem na fragment łuku między dwoma przecięciami i kliknij. Przycięta krawędź zachowuje swoją krzywiznę; zmienia się tylko długość.
 
@@ -74,4 +76,4 @@ Elementy używane jako **granice cięcia** mogą być typu Line, Arc, Circle, El
 | Co robi | Usuwa segment elementu | Rozciąga punkt końcowy linii do granicy |
 | Wyzwalacz | Najedź kursorem na segment do wycięcia | Najedź kursorem blisko punktu końcowego do rozciągnięcia |
 | Wynik | Element dzieli się lub skraca | Punkt końcowy linii przesuwa się do granicy |
-| Obsługiwane elementy | Line, Arc, Circle, Ellipse, Polyline | Line, Arc, Ellipse, Polyline |
+| Obsługiwane elementy | Line, Arc, Circle, Ellipse, Polyline, Splajn | Line, Arc, Ellipse, Polyline |

@@ -43,6 +43,7 @@ Arahan mengunjurkan kedudukan kursor ke atas entiti yang dituding dan mencari se
 | Ellipse | Satu entiti Ellipse dengan sudut permulaan dan penghujung — bahagian yang tinggal kekal sebagai Ellipse, kini separa |
 | Polyline (terbuka) | Sehingga dua entiti Polyline yang lebih pendek |
 | Polyline (tertutup) / Rectangle | Satu entiti Polyline terbuka — bentuk tertutup hilang, jadi bahagian yang tinggal disimpan terbuka |
+| Spline | Sehingga dua objek Spline yang lebih pendek — setiap kepingan ialah lengkung yang sama pada bahagian yang lebih kecil, disimpan dengan bucu kawalan (titik muat bagi spline Fit dibuang); spline tertutup meninggalkan satu kepingan terbuka |
 
 ## Rujukan papan kekunci
 
@@ -61,9 +62,10 @@ Arahan mengunjurkan kedudukan kursor ke atas entiti yang dituding dan mencari se
 | Ellipse | Ya — memerlukan 2 atau lebih titik persimpangan |
 | Polyline (terbuka) | Ya |
 | Polyline (tertutup) / Rectangle | Ya — memerlukan 2 atau lebih titik persimpangan |
-| Text, Spline, Dimension, Leader | Tidak |
+| Spline | Ya — spline tertutup memerlukan 2 atau lebih titik persilangan |
+| Text, Dimension, Leader | Tidak |
 
-Entiti yang digunakan sebagai **sempadan pemotongan** boleh menjadi Line, Arc, Circle, Ellipse atau Polyline. Entiti Text, Spline, Dimension dan Leader tidak pernah mencatat persimpangan, jadi ia juga tidak boleh berfungsi sebagai sempadan.
+Objek yang digunakan sebagai **sempadan pemotongan** boleh jadi Line, Arc, Circle, Ellipse, Polyline atau Spline. Objek Text, Dimension dan Leader tidak pernah mendaftarkan persilangan, jadi ia juga tidak boleh menjadi sempadan.
 
 **Segmen lengkok** Polyline (dilukis dengan suis Arc, atau diimport) dipotong sama seperti segmen lurusnya — tuding kursor ke atas bahagian lengkok antara dua persilangan dan klik. Tepi yang dipotong mengekalkan kelengkungannya; hanya panjangnya berubah.
 
@@ -74,4 +76,4 @@ Entiti yang digunakan sebagai **sempadan pemotongan** boleh menjadi Line, Arc, C
 | Fungsinya | Membuang segmen entiti | Meregangkan titik akhir garis ke sempadan |
 | Pencetus | Tuding ke segmen yang ingin dipotong | Tuding berhampiran titik akhir untuk dipanjangkan |
 | Hasil | Entiti berpecah atau memendek | Titik akhir garis bergerak ke sempadan |
-| Entiti yang disokong | Line, Arc, Circle, Ellipse, Polyline | Line, Arc, Ellipse, Polyline |
+| Entiti yang disokong | Line, Arc, Circle, Ellipse, Polyline, Spline | Line, Arc, Ellipse, Polyline |

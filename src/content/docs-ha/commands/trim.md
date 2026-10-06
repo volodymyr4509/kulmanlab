@@ -43,6 +43,7 @@ Umarnin yana projekta matsayin mai nuni a kan abin da aka riƙe kuma yana samun 
 | Ellipse | Abu ɗaya na Ellipse mai kusurwar farawa da ƙarewa — sashin da ya rage yana ci gaba da zama Ellipse, yanzu na sashi |
 | Polyline (mai buɗewa) | Har zuwa abubuwan Polyline guntu biyu |
 | Polyline (rufaffiya) / Rectangle | Abu ɗaya na Polyline mai buɗewa — siffar rufaffiya tana ɓacewa, don haka ana adana sashin da ya rage a buɗe |
+| Spline | Har zuwa abubuwan Spline gajeru biyu — kowane yanki shi ne lanƙwasa ɗaya a ƙaramin ɓangare, ana adana shi da kusurwoyin sarrafawa (ana jefar da wuraren fit na spline na Fit); rufaffen spline yana barin yanki ɗaya buɗaɗɗe |
 
 ## Marfe na maɓallan madannai
 
@@ -61,9 +62,10 @@ Umarnin yana projekta matsayin mai nuni a kan abin da aka riƙe kuma yana samun 
 | Ellipse | Eh — yana buƙatar tabon mahaɗa 2 ko fiye |
 | Polyline (mai buɗewa) | Eh |
 | Polyline (rufaffiya) / Rectangle | Eh — yana buƙatar tabon mahaɗa 2 ko fiye |
-| Text, Spline, Dimension, Leader | Aʼa |
+| Spline | Eh — rufaffen spline yana buƙatar wuraren giciye 2 ko fiye |
+| Text, Dimension, Leader | Aʼa |
 
-Abubuwan da ake amfani da su a matsayin **iyakokin yankewa** za su iya kasancewa Line, Arc, Circle, Ellipse ko Polyline. Abubuwan Text, Spline, Dimension, da Leader ba sa taɓa yin rijistar mahaɗa, don haka su ma ba za su iya zama iyaka ba.
+Abubuwan da ake amfani da su a matsayin **iyakokin yankewa** na iya zama Line, Arc, Circle, Ellipse, Polyline, ko Spline. Abubuwan Text, Dimension da Leader ba sa rajistar giciye ko kaɗan, don haka ba za su iya zama iyaka ba.
 
 **Sassan baka** na Polyline (waɗanda aka zana da sauyawa Arc, ko aka shigo da su) suna yankewa daidai kamar sassansa madaidaita — riƙe da kai kan sashin baka tsakanin mahaɗai biyu sannan ka danna. Gefen da aka yanke yana ci gaba da lanƙwasarsa; tsawonsa kaɗai ke canjawa.
 
@@ -74,4 +76,4 @@ Abubuwan da ake amfani da su a matsayin **iyakokin yankewa** za su iya kasancewa
 | Abin da yake yi | Yana cire sashen abu | Yana tsawaita ƙarshen layi zuwa iyaka |
 | Kunnawa | Riƙe a kan sashen don yanke | Riƙe kusa da ƙarshen don tsawaita |
 | Sakamako | Abu yana rabuwa ko guntuwa | Ƙarshen layi yana motsawa zuwa iyaka |
-| Abubuwan da ake goyon baya | Line, Arc, Circle, Ellipse, Polyline | Line, Arc, Ellipse, Polyline |
+| Abubuwan da ake goyon baya | Line, Arc, Circle, Ellipse, Polyline, Spline | Line, Arc, Ellipse, Polyline |

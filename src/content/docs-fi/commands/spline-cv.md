@@ -72,9 +72,10 @@ Yhtä "siirrä koko spline" -kahvaa ei ole. Siirtääksesi koko splinen, käytä
 | [Rotate](../rotate/) | Kiertää kaikkia CV:tä valitun perustepisteen ympäri |
 | [Mirror](../mirror/) | Peilaa kaikki CV:t peiliakselin yli |
 | [Scale](../scale/) | Skaalaa kaikkia CV:tä yhtenäisesti perustepisteestä |
+| [Trim](../trim/) | Leikkaa splinen sen leikkauspisteistä — kukin pala on sama käyrä pienemmällä osuudella |
 | [Delete](../delete/) | Poistaa splinen |
 
-Splinet eivät tue **Offset**-, **Trim**- tai **Extend**-toimintoja.
+Splinet tukevat **Trim**-komentoa, mutta eivät **Offset**- tai **Extend**-komentoa.
 
 ## Ominaisuudet
 

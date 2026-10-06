@@ -43,6 +43,7 @@ Nag-p-project ang command ng posisyon ng cursor papunta sa hino-hover na entity 
 | Ellipse | Isang Ellipse entity na may starting at ending angle — nananatiling Ellipse ang natitirang bahagi, pero ngayon ay bahagi na lang |
 | Polyline (bukas) | Hanggang dalawang mas maikling Polyline entity |
 | Polyline (sarado) / Rectangle | Isang bukas na Polyline entity — mawawala ang saradong hugis, kaya nakaimbak ang natitirang bahagi bilang bukas |
+| Spline | Hanggang dalawang mas maikling Spline — bawat piraso ay ang parehong kurba sa mas maliit na bahagi nito, iniimbak gamit ang mga control vertex (itinatapon ang mga fit point ng Fit spline); ang saradong spline ay nag-iiwan ng isang bukas na piraso |
 
 ## Keyboard reference
 
@@ -61,9 +62,10 @@ Nag-p-project ang command ng posisyon ng cursor papunta sa hino-hover na entity 
 | Ellipse | Oo — kailangan ng 2 o higit pang intersection point |
 | Polyline (bukas) | Oo |
 | Polyline (sarado) / Rectangle | Oo — kailangan ng 2 o higit pang intersection point |
-| Text, Spline, Dimension, Leader | Hindi |
+| Spline | Oo — ang saradong spline ay nangangailangan ng 2 o higit pang intersection point |
+| Text, Dimension, Leader | Hindi |
 
-Ang mga entity na ginagamit bilang **cutting boundary** ay puwedeng Line, Arc, Circle, Ellipse, o Polyline. Hindi kailanman nagre-register ng intersection ang mga entity na Text, Spline, Dimension, at Leader, kaya hindi rin sila puwedeng maging boundary.
+Ang mga objek na ginagamit bilang **hangganan ng pagputol** ay maaaring Line, Arc, Circle, Ellipse, Polyline, o Spline. Hindi kailanman nagtatala ng intersection ang mga objek na Text, Dimension, at Leader, kaya hindi rin sila maaaring maging hangganan.
 
 Ang mga **arc segment** ng Polyline (iginuhit gamit ang Arc toggle, o na-import) ay tinatrim nang eksaktong tulad ng mga straight segment nito — i-hover ang cursor sa bahagi ng arc sa pagitan ng dalawang intersection at i-click. Ang na-trim na gilid ay nananatili ang curvature nito; ang haba lang nito ang nagbabago.
 
@@ -74,4 +76,4 @@ Ang mga **arc segment** ng Polyline (iginuhit gamit ang Arc toggle, o na-import)
 | Ano ang ginagawa | Tinatanggal ang segment ng isang entity | Iniuunat ang endpoint ng linya papunta sa isang boundary |
 | Trigger | Mag-hover sa segment na puputulin | Mag-hover malapit sa endpoint para i-extend |
 | Resulta | Nahahati o napapaikli ang entity | Gumagalaw ang endpoint ng linya papunta sa boundary |
-| Mga suportadong entity | Line, Arc, Circle, Ellipse, Polyline | Line, Arc, Ellipse, Polyline |
+| Mga suportadong entity | Line, Arc, Circle, Ellipse, Polyline, Spline | Line, Arc, Ellipse, Polyline |

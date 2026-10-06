@@ -72,9 +72,10 @@ Er is geen "hele spline verplaatsen"-grip. Gebruik het [Move](../move/)-commando
 | [Rotate](../rotate/) | Roteert alle controlepunten rond het gekozen basispunt |
 | [Mirror](../mirror/) | Spiegelt alle controlepunten over de spiegelas |
 | [Scale](../scale/) | Schaalt alle controlepunten uniform vanaf het basispunt |
+| [Trim](../trim/) | Knipt de spline bij zijn snijpunten — elk stuk is dezelfde curve over een kleiner deel van zichzelf |
 | [Delete](../delete/) | Verwijdert de spline |
 
-Splines ondersteunen geen **Offset**, **Trim** of **Extend**.
+Splines ondersteunen **Trim**, maar niet **Offset** of **Extend**.
 
 ## Eigenschappen
 

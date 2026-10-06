@@ -72,9 +72,10 @@ Il n'y a pas de poignée "déplacer toute la spline". Pour translater toute la s
 | [Rotate](../rotate/) | Fait pivoter tous les SC autour du point de base choisi |
 | [Mirror](../mirror/) | Symétrise tous les SC par rapport à l'axe de symétrie |
 | [Scale](../scale/) | Met à l'échelle tous les SC uniformément depuis le point de base |
+| [Trim](../trim/) | Coupe la spline à ses intersections — chaque morceau est la même courbe sur une portion d'elle-même |
 | [Delete](../delete/) | Supprime la spline |
 
-Les splines ne supportent pas **Offset**, **Trim**, ni **Extend**.
+Les splines prennent en charge **Trim**, mais pas **Offset** ni **Extend**.
 
 ## Propriétés
 

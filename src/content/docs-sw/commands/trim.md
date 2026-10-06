@@ -43,6 +43,7 @@ Amri inasukuma nafasi ya kishale kwenye kipande kilichoeleweka na kupata nukta z
 | Ellipse | Kipande kimoja cha Ellipse chenye pembe ya mwanzo na mwisho — sehemu iliyobaki inabaki kuwa Ellipse, sasa ya sehemu |
 | Polyline (iliyo wazi) | Hadi vipande viwili vifupi zaidi vya Polyline |
 | Polyline (iliyofungwa) / Rectangle | Kipande kimoja cha Polyline kilicho wazi — umbo lililofungwa hupotea, hivyo sehemu iliyobaki huhifadhiwa ikiwa wazi |
+| Spline | Hadi vitu viwili vifupi vya Spline — kila kipande ni mkunjo huo huo kwenye sehemu ndogo zaidi, kinachohifadhiwa kwa vipeo vya udhibiti (nukta za fit za spline ya Fit hutupwa); spline iliyofungwa huacha kipande kimoja wazi |
 
 ## Marejeo ya kibodi
 
@@ -61,9 +62,10 @@ Amri inasukuma nafasi ya kishale kwenye kipande kilichoeleweka na kupata nukta z
 | Ellipse | Ndiyo — inahitaji nukta 2 au zaidi za makutano |
 | Polyline (iliyo wazi) | Ndiyo |
 | Polyline (iliyofungwa) / Rectangle | Ndiyo — inahitaji nukta 2 au zaidi za makutano |
-| Text, Spline, Dimension, Leader | Hapana |
+| Spline | Ndiyo — spline iliyofungwa inahitaji nukta 2 au zaidi za makutano |
+| Text, Dimension, Leader | Hapana |
 
-Vipande vinavyotumika kama **mipaka ya kukata** vinaweza kuwa Line, Arc, Circle, Ellipse au Polyline. Vipande vya Text, Spline, Dimension, na Leader havisajili makutano kamwe, hivyo pia haviwezi kufanya kazi kama mipaka.
+Vitu vinavyotumika kama **mipaka ya kukata** vinaweza kuwa Line, Arc, Circle, Ellipse, Polyline, au Spline. Vitu vya Text, Dimension na Leader havirekodi makutano kamwe, kwa hivyo haviwezi kuwa mipaka pia.
 
 **Sehemu za mviringo** za Polyline (zilizochorwa kwa kigeuza Arc, au zilizoingizwa) hukatwa sawasawa na sehemu zake za moja kwa moja — elea juu ya sehemu ya mviringo kati ya makutano mawili kisha ubofye. Ukingo uliokatwa unabaki na mviringo wake; urefu wake tu ndio unabadilika.
 
@@ -74,4 +76,4 @@ Vipande vinavyotumika kama **mipaka ya kukata** vinaweza kuwa Line, Arc, Circle,
 | Kinachofanya | Huondoa sehemu ya kipande | Hunyoosha nukta ya mwisho ya mstari hadi mpaka |
 | Kichocheo | Elea juu ya sehemu ya kukata | Elea karibu na nukta ya mwisho ya kupanua |
 | Matokeo | Kipande hugawanywa au kufupishwa | Nukta ya mwisho ya mstari husogea hadi mpaka |
-| Vipande vinavyosaidiwa | Line, Arc, Circle, Ellipse, Polyline | Line, Arc, Ellipse, Polyline |
+| Vipande vinavyosaidiwa | Line, Arc, Circle, Ellipse, Polyline, Spline | Line, Arc, Ellipse, Polyline |

@@ -43,6 +43,7 @@ O comando projeta a posição do cursor na entidade passada e encontra todos os 
 | Ellipse | Uma entidade Ellipse com ângulo inicial e final — a parte restante continua sendo uma Ellipse, agora parcial |
 | Polyline (aberta) | Até duas entidades Polyline mais curtas |
 | Polyline (fechada) / Retângulo | Uma entidade Polyline aberta — a forma fechada desaparece, então a parte restante é armazenada aberta |
+| Spline | Até dois objetos Spline mais curtos — cada pedaço é a mesma curva sobre um trecho menor, armazenada por vértices de controle (os pontos de ajuste de uma spline de ajuste são descartados); uma spline fechada deixa um pedaço aberto |
 
 ## Referência de teclado
 
@@ -61,9 +62,10 @@ O comando projeta a posição do cursor na entidade passada e encontra todos os 
 | Ellipse | Sim — requer 2 ou mais pontos de interseção |
 | Polyline (aberta) | Sim |
 | Polyline (fechada) / Retângulo | Sim — requer 2 ou mais pontos de interseção |
-| Texto, Spline, Cota, Leader | Não |
+| Spline | Sim — uma spline fechada exige 2 ou mais pontos de interseção |
+| Texto, Cota, Leader | Não |
 
-As entidades usadas como **bordas de corte** podem ser uma Line, Arc, Circle, Ellipse ou Polyline. Entidades de Texto, Spline, Cota e Leader nunca registram interseções, então também não podem atuar como bordas.
+Os objetos usados como **limites de corte** podem ser Line, Arc, Circle, Ellipse, Polyline ou Spline. Os objetos Text, Dimension e Leader nunca registram interseções, portanto também não podem atuar como limites.
 
 Os **segmentos de arco** de uma Polyline (desenhados com a opção Arc, ou importados) são cortados exatamente como seus segmentos retos — passe o cursor sobre a parte do arco entre duas interseções e clique. A borda cortada mantém sua curvatura; apenas seu comprimento muda.
 
@@ -74,4 +76,4 @@ Os **segmentos de arco** de uma Polyline (desenhados com a opção Arc, ou impor
 | O que faz | Remove um segmento de uma entidade | Estica um endpoint de uma linha até uma borda |
 | Trigger | Passe o cursor sobre o segmento a cortar | Passe o cursor próximo ao endpoint a estender |
 | Resultado | A entidade se divide ou encurta | O endpoint da linha se move até a borda |
-| Entidades suportadas | Line, Arc, Circle, Ellipse, Polyline | Line, Arc, Ellipse, Polyline |
+| Entidades suportadas | Line, Arc, Circle, Ellipse, Polyline, Spline | Line, Arc, Ellipse, Polyline |

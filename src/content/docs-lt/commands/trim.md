@@ -43,6 +43,7 @@ Komanda projektuoja žymeklio padėtį ant užvesto objekto ir randa visus jo sa
 | Ellipse | Vienas Ellipse objektas su pradžios ir galo kampu — likęs gabalas lieka elipse, dabar daline |
 | Polyline (atvira) | Iki dviejų trumpesnių Polyline objektų |
 | Polyline (uždara) / Rectangle | Vienas atviras Polyline objektas — uždara forma dingo, todėl likęs gabalas saugomas atviras |
+| Spline | Iki dviejų trumpesnių Spline objektų — kiekvienas gabalas yra ta pati kreivė mažesniame ruože, saugoma valdymo viršūnėmis (Fit splaino apibrėžiantys taškai atmetami); uždaras splainas palieka vieną atvirą gabalą |
 
 ## Klavišų nuoroda
 
@@ -61,9 +62,10 @@ Komanda projektuoja žymeklio padėtį ant užvesto objekto ir randa visus jo sa
 | Ellipse | Taip — reikia 2 ar daugiau sankirtos taškų |
 | Polyline (atvira) | Taip |
 | Polyline (uždara) / Rectangle | Taip — reikia 2 ar daugiau sankirtos taškų |
-| Text, Spline, Dimension, Leader | Ne |
+| Spline | Taip — uždaram splainui reikia 2 ar daugiau sankirtos taškų |
+| Text, Dimension, Leader | Ne |
 
-Objektai, naudojami kaip **pjovimo ribos**, gali būti Line, Arc, Circle, Ellipse ar Polyline. Text, Spline, Dimension ir Leader objektai niekada neužregistruoja sankirtų, todėl jie taip pat negali būti ribomis.
+Objektai, naudojami kaip **pjovimo ribos**, gali būti Line, Arc, Circle, Ellipse, Polyline arba Spline. Text, Dimension ir Leader objektai niekada neužregistruoja sankirtų, todėl jie taip pat negali būti ribomis.
 
 [Polyline](../polyline/) **lankų atkarpos** (nubraižytos su Arc jungikliu arba importuotos iš kito CAD įrankio) apkarpomos lygiai kaip jos tiesios atkarpos — užveskite ant lankinės dalies tarp dviejų sankirtų ir spustelėkite. Apkirpta briauna išlaiko pradinį kreivumą; keičiasi tik jos ilgis.
 
@@ -74,4 +76,4 @@ Objektai, naudojami kaip **pjovimo ribos**, gali būti Line, Arc, Circle, Ellips
 | Ką daro | Pašalina objekto atkarpą | Ištempia linijos galą iki ribos |
 | Aktyvatorius | Užvedimas ant nupjaunamos atkarpos | Užvedimas šalia pratęsiamo galo |
 | Rezultatas | Objektas dalijasi arba sutrumpėja | Linijos galas juda iki ribos |
-| Palaikomi objektai | Line, Arc, Circle, Ellipse, Polyline | Line, Arc, Ellipse, Polyline |
+| Palaikomi objektai | Line, Arc, Circle, Ellipse, Polyline, Spline | Line, Arc, Ellipse, Polyline |

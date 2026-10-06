@@ -64,9 +64,10 @@ Não há um grip "mover toda a spline". Para transladar a spline inteira, use o 
 | [Rotate](../rotate/) | Rotaciona todos os CVs ao redor do ponto base escolhido |
 | [Mirror](../mirror/) | Reflete todos os CVs em relação ao eixo espelho |
 | [Scale](../scale/) | Escala todos os CVs uniformemente a partir do ponto base |
+| [Trim](../trim/) | Corta a spline em suas interseções — cada pedaço é a mesma curva sobre um trecho menor |
 | [Delete](../delete/) | Remove a spline |
 
-Splines não suportam **Offset**, **Trim** ou **Extend**.
+As splines oferecem suporte a **Trim**, mas não a **Offset** nem **Extend**.
 
 ## Spline CV vs Spline Fit — qual usar
 

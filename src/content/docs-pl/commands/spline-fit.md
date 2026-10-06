@@ -71,9 +71,10 @@ Nie ma uchwytu "przesuń cały splajn". Aby translować cały splajn, użyj pole
 | [Rotate](../rotate/) | Obraca wszystkie punkty dopasowania wokół wybranego punktu bazowego |
 | [Mirror](../mirror/) | Odbija wszystkie punkty dopasowania przez oś odbicia |
 | [Scale](../scale/) | Skaluje wszystkie punkty dopasowania równomiernie od punktu bazowego |
+| [Trim](../trim/) | Przycina splajn w jego przecięciach — każdy kawałek to ta sama krzywa na mniejszym odcinku |
 | [Delete](../delete/) | Usuwa splajn |
 
-Splajny nie obsługują **Offset**, **Trim** ani **Extend**.
+Splajny obsługują **Trim**, ale nie **Offset** ani **Extend**.
 
 ## Właściwości
 

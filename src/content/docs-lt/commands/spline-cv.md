@@ -72,9 +72,10 @@ Rankenėlės „perkelti visą splainą" nėra. Visam splainui perkelti naudokit
 | [Rotate](../rotate/) | Pasuka visas CV aplink pasirinktą bazinį tašką |
 | [Mirror](../mirror/) | Atspindi visas CV per atspindžio ašį |
 | [Scale](../scale/) | Vienodai keičia visų CV mastelį nuo bazinio taško |
+| [Trim](../trim/) | Apkerpa splainą jo sankirtose — kiekvienas gabalas yra ta pati kreivė mažesniame ruože |
 | [Delete](../delete/) | Pašalina splainą |
 
-Splainai nepalaiko **Offset**, **Trim** ar **Extend**.
+Splainai palaiko **Trim**, bet nepalaiko **Offset** ar **Extend**.
 
 ## Savybės
 

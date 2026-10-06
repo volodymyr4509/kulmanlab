@@ -43,6 +43,7 @@ Der Befehl projiziert die Cursorposition auf die überfahrene Entität und finde
 | Ellipse | Eine Ellipse-Entität mit Start- und Endwinkel — der verbleibende Teil bleibt eine Ellipse, nun eine teilweise |
 | Polyline (offen) | Bis zu zwei kürzere Polyline-Entitäten |
 | Polyline (geschlossen) / Rectangle | Eine offene Polyline-Entität — die geschlossene Form ist verschwunden, daher wird der verbleibende Teil offen gespeichert |
+| Spline | Bis zu zwei kürzere Spline-Entitäten — jedes Teilstück ist dieselbe Kurve über einen kleineren Bereich, gespeichert über Kontrollpunkte (die Fit-Punkte eines Fit-Splines entfallen); ein geschlossener Spline hinterlässt ein offenes Teilstück |
 
 ## Tastaturübersicht
 
@@ -61,9 +62,10 @@ Der Befehl projiziert die Cursorposition auf die überfahrene Entität und finde
 | Ellipse | Ja — erfordert 2 oder mehr Schnittpunkte |
 | Polyline (offen) | Ja |
 | Polyline (geschlossen) / Rectangle | Ja — erfordert 2 oder mehr Schnittpunkte |
-| Text, Spline, Bemaßung, Leader | Nein |
+| Spline | Ja — ein geschlossener Spline benötigt 2 oder mehr Schnittpunkte |
+| Text, Bemaßung, Leader | Nein |
 
-Die als **Schnittgrenzen** verwendeten Entitäten können eine Line, ein Arc, Circle, eine Ellipse oder Polyline sein. Text-, Spline-, Bemaßungs- und Leader-Entitäten registrieren nie Schnittpunkte, sie können also ebenfalls nicht als Grenzen dienen.
+Die als **Schnittgrenzen** verwendeten Entitäten können eine Line, ein Arc, Circle, eine Ellipse, Polyline oder ein Spline sein. Text-, Bemaßungs- und Leader-Entitäten registrieren nie Schnittpunkte und können daher ebenfalls keine Grenzen sein.
 
 Ein Polyline-**Bogensegment** (mit dem Arc-Umschalter gezeichnet oder importiert) wird genauso wie seine geraden Segmente geschnitten — über den Bogenabschnitt zwischen zwei Schnittpunkten fahren und klicken. Die geschnittene Kante behält ihre Krümmung; nur ihre Länge ändert sich.
 
@@ -74,4 +76,4 @@ Ein Polyline-**Bogensegment** (mit dem Arc-Umschalter gezeichnet oder importiert
 | Funktion | Entfernt ein Segment einer Entität | Verlängert einen Linienendpunkt bis zu einer Grenze |
 | Auslöser | Cursor über das zu schneidende Segment fahren | Cursor nahe dem zu verlängernden Endpunkt |
 | Ergebnis | Entität wird geteilt oder verkürzt | Linienendpunkt bewegt sich zur Grenze |
-| Unterstützte Entitäten | Line, Arc, Circle, Ellipse, Polyline | Line, Arc, Ellipse, Polyline |
+| Unterstützte Entitäten | Line, Arc, Circle, Ellipse, Polyline, Spline | Line, Arc, Ellipse, Polyline |

@@ -43,6 +43,7 @@ Perintah memproyeksikan posisi kursor ke entitas yang di-hover dan menemukan sem
 | Ellipse | Satu entitas Ellipse dengan sudut awal dan akhir — bagian yang tersisa tetap berupa Ellipse, sekarang parsial |
 | Polyline (terbuka) | Hingga dua entitas Polyline yang lebih pendek |
 | Polyline (tertutup) / Rectangle | Satu entitas Polyline terbuka — bentuk tertutup hilang, sehingga bagian yang tersisa disimpan terbuka |
+| Spline | Hingga dua objek Spline yang lebih pendek — setiap potongan adalah kurva yang sama pada bagian yang lebih kecil, disimpan dengan simpul kontrol (titik fit dari spline Fit dibuang); spline tertutup menyisakan satu potongan terbuka |
 
 ## Referensi keyboard
 
@@ -61,9 +62,10 @@ Perintah memproyeksikan posisi kursor ke entitas yang di-hover dan menemukan sem
 | Ellipse | Ya — memerlukan 2 atau lebih titik perpotongan |
 | Polyline (terbuka) | Ya |
 | Polyline (tertutup) / Rectangle | Ya — memerlukan 2 atau lebih titik perpotongan |
-| Text, Spline, Dimension, Leader | Tidak |
+| Spline | Ya — spline tertutup memerlukan 2 atau lebih titik perpotongan |
+| Text, Dimension, Leader | Tidak |
 
-Entitas yang digunakan sebagai **batas pemotongan** dapat berupa Line, Arc, Circle, Ellipse, atau Polyline. Entitas Text, Spline, Dimension, dan Leader tidak pernah mencatat perpotongan, sehingga juga tidak dapat berfungsi sebagai batas.
+Objek yang digunakan sebagai **batas pemotongan** dapat berupa Line, Arc, Circle, Ellipse, Polyline, atau Spline. Objek Text, Dimension, dan Leader tidak pernah mencatat perpotongan, sehingga tidak dapat menjadi batas juga.
 
 **Segmen busur** Polyline (digambar dengan sakelar Arc, atau diimpor) dipotong persis seperti segmen lurusnya — arahkan kursor ke bagian busur di antara dua perpotongan lalu klik. Tepi yang dipotong mempertahankan kelengkungannya; hanya panjangnya yang berubah.
 
@@ -74,4 +76,4 @@ Entitas yang digunakan sebagai **batas pemotongan** dapat berupa Line, Arc, Circ
 | Fungsi | Menghapus segmen entitas | Meregangkan titik akhir garis ke batas |
 | Pemicu | Arahkan kursor ke segmen yang akan dipotong | Arahkan kursor dekat titik akhir yang akan diperpanjang |
 | Hasil | Entitas terpecah atau memendek | Titik akhir garis berpindah ke batas |
-| Entitas yang didukung | Line, Arc, Circle, Ellipse, Polyline | Line, Arc, Ellipse, Polyline |
+| Entitas yang didukung | Line, Arc, Circle, Ellipse, Polyline, Spline | Line, Arc, Ellipse, Polyline |

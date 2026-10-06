@@ -43,6 +43,7 @@ Komut, imleç konumunu üzerine gelinen nesneye yansıtır ve nesnenin diğer ne
 | Ellipse | Başlangıç ve bitiş açısına sahip bir Ellipse nesnesi — kalan parça bir Ellipse olarak kalır, artık kısmi bir şekilde |
 | Polyline (açık) | En fazla iki daha kısa Polyline nesnesi |
 | Polyline (kapalı) / Rectangle | Bir açık Polyline nesnesi — kapalı şekil ortadan kalkar, bu yüzden kalan parça açık olarak saklanır |
+| Spline | En fazla iki kısa Spline nesnesi — her parça kendisinin daha küçük bir bölümü olan aynı eğridir ve kontrol köşeleriyle saklanır (Fit spline'ın uyum noktaları atılır); kapalı bir spline tek bir açık parça bırakır |
 
 ## Klavye Referansı
 
@@ -61,9 +62,10 @@ Komut, imleç konumunu üzerine gelinen nesneye yansıtır ve nesnenin diğer ne
 | Ellipse | Evet — 2 veya daha fazla kesişim noktası gerektirir |
 | Polyline (açık) | Evet |
 | Polyline (kapalı) / Rectangle | Evet — 2 veya daha fazla kesişim noktası gerektirir |
-| Metin, Spline, Ölçü, Gösterge | Hayır |
+| Spline | Evet — kapalı bir spline 2 veya daha fazla kesişim noktası gerektirir |
+| Metin, Ölçü, Gösterge | Hayır |
 
-**Kesim sınırları** olarak kullanılan nesneler bir Line, Arc, Circle, Ellipse veya Polyline olabilir. Metin, Spline, Ölçü ve Gösterge nesneleri hiçbir zaman kesişim kaydetmez, bu yüzden onlar da sınır olarak işlev göremez.
+**Kesim sınırları** olarak kullanılan nesneler Line, Arc, Circle, Ellipse, Polyline veya Spline olabilir. Text, Dimension ve Leader nesneleri hiçbir zaman kesişim kaydetmez, bu yüzden sınır da olamazlar.
 
 Bir Polyline'ın **yay segmentleri** (Arc anahtarıyla çizilmiş veya içe aktarılmış) düz segmentleri gibi tam olarak kırpılır — iki kesişim arasındaki yay kısmının üzerine gelin ve tıklayın. Kırpılan kenar eğriliğini korur; yalnızca uzunluğu değişir.
 
@@ -74,4 +76,4 @@ Bir Polyline'ın **yay segmentleri** (Arc anahtarıyla çizilmiş veya içe akta
 | Ne yapar | Bir nesnenin segmentini kaldırır | Çizgi ucunu bir sınıra uzatır |
 | Tetikleyici | Kesilecek segmentin üzerine gel | Uzatılacak ucun yakınına gel |
 | Sonuç | Nesne bölünür veya kısalır | Çizgi ucu sınıra taşınır |
-| Desteklenen nesneler | Line, Arc, Circle, Ellipse, Polyline | Line, Arc, Ellipse, Polyline |
+| Desteklenen nesneler | Line, Arc, Circle, Ellipse, Polyline, Spline | Line, Arc, Ellipse, Polyline |

@@ -43,6 +43,7 @@ Příkaz promítne polohu kurzoru na objekt pod ním a najde všechny jeho průs
 | Ellipse | Jeden objekt Ellipse s počátečním a koncovým úhlem — zbývající kus zůstává elipsou, nyní částečnou |
 | Polyline (otevřená) | Až dvě kratší polyline |
 | Polyline (uzavřená) / Rectangle | Jedna otevřená polyline — uzavřený tvar je pryč, takže zbývající kus se uloží jako otevřený |
+| Spline | Až dva kratší objekty Spline — každý díl je tatáž křivka na menším úseku, uložená pomocí řídicích vrcholů (proložené body splinu Fit se zahodí); uzavřený spline zanechá jeden otevřený díl |
 
 ## Přehled kláves
 
@@ -61,9 +62,10 @@ Příkaz promítne polohu kurzoru na objekt pod ním a najde všechny jeho průs
 | Ellipse | Ano — vyžaduje 2 nebo více průsečíků |
 | Polyline (otevřená) | Ano |
 | Polyline (uzavřená) / Rectangle | Ano — vyžaduje 2 nebo více průsečíků |
-| Text, Spline, Dimension, Leader | Ne |
+| Spline | Ano — uzavřený spline vyžaduje 2 nebo více průsečíků |
+| Text, Dimension, Leader | Ne |
 
-Objekty použité jako **ořezové hranice** mohou být Line, Arc, Circle, Ellipse nebo Polyline. Objekty Text, Spline, Dimension a Leader žádné průsečíky neregistrují, takže nemohou sloužit ani jako hranice.
+Objekty použité jako **ořezové hranice** mohou být Line, Arc, Circle, Ellipse, Polyline nebo Spline. Objekty Text, Dimension a Leader žádné průsečíky neregistrují, takže nemohou sloužit ani jako hranice.
 
 **Obloukové segmenty** [Polyline](../polyline/) (nakreslené pomocí přepínače Arc, nebo importované z jiného CAD nástroje) se ořezávají přesně jako její přímé segmenty — najeďte na obloukovou část mezi dvěma průsečíky a klikněte. Oříznutá hrana si zachová původní zakřivení; mění se jen její délka.
 
@@ -74,4 +76,4 @@ Objekty použité jako **ořezové hranice** mohou být Line, Arc, Circle, Ellip
 | Co dělá | Odstraní segment objektu | Natáhne koncový bod úsečky k hranici |
 | Spouštěč | Najetí na segment k odříznutí | Najetí k prodlužovanému koncovému bodu |
 | Výsledek | Objekt se rozdělí nebo zkrátí | Koncový bod úsečky se přesune k hranici |
-| Podporované objekty | Line, Arc, Circle, Ellipse, Polyline | Line, Arc, Ellipse, Polyline |
+| Podporované objekty | Line, Arc, Circle, Ellipse, Polyline, Spline | Line, Arc, Ellipse, Polyline |

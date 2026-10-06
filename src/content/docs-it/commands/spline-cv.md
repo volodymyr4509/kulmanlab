@@ -64,9 +64,10 @@ Non esiste un grip "sposta tutta la spline". Per traslare l'intera spline, usa i
 | [Rotate](../rotate/) | Ruota tutti i CV attorno al punto base scelto |
 | [Mirror](../mirror/) | Riflette tutti i CV rispetto all'asse speculare |
 | [Scale](../scale/) | Scala tutti i CV uniformemente dal punto base |
+| [Trim](../trim/) | Taglia la spline alle sue intersezioni — ogni parte è la stessa curva su un tratto più breve |
 | [Delete](../delete/) | Rimuove la spline |
 
-Le spline non supportano **Offset**, **Trim** o **Extend**.
+Le spline supportano **Trim**, ma non **Offset** né **Extend**.
 
 ## Spline CV vs Spline Fit — quale usare
 

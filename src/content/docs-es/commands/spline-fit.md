@@ -71,9 +71,10 @@ No hay un agarre de "mover toda la spline". Para trasladar la spline completa, u
 | [Rotate](../rotate/) | Rota todos los puntos de ajuste alrededor del punto base elegido |
 | [Mirror](../mirror/) | Refleja todos los puntos de ajuste respecto al eje de simetría |
 | [Scale](../scale/) | Escala todos los puntos de ajuste uniformemente desde el punto base |
+| [Trim](../trim/) | Corta el spline en sus intersecciones: cada tramo es la misma curva sobre una parte de sí misma |
 | [Delete](../delete/) | Elimina la spline |
 
-Las splines no admiten **Offset**, **Trim** ni **Extend**.
+Los splines admiten **Trim**, pero no **Offset** ni **Extend**.
 
 ## Propiedades
 

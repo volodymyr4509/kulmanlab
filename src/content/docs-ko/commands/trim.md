@@ -43,6 +43,7 @@ order: 8
 | Ellipse | 시작각과 끝각을 가진 하나의 Ellipse 객체 — 남은 부분은 Ellipse로 유지되지만 이제 부분적입니다 |
 | Polyline (열린) | 최대 두 개의 더 짧은 Polyline 객체 |
 | Polyline (닫힌) / Rectangle | 하나의 열린 Polyline 객체 — 닫힌 형태가 사라지므로 남은 부분은 열린 상태로 저장됩니다 |
+| 스플라인 | 최대 두 개의 더 짧은 Spline — 각 조각은 같은 곡선의 더 작은 구간이며 제어 꼭짓점으로 저장됩니다(Fit 스플라인의 맞춤점은 버려집니다). 닫힌 스플라인은 열린 조각 하나를 남깁니다 |
 
 ## 키보드 참고
 
@@ -61,9 +62,10 @@ order: 8
 | Ellipse | 예 — 교차점 2개 이상 필요 |
 | Polyline (열린) | 예 |
 | Polyline (닫힌) / Rectangle | 예 — 교차점 2개 이상 필요 |
-| 텍스트, 스플라인, 치수, 지시선 | 아니오 |
+| 스플라인 | 예 — 닫힌 스플라인은 교차점이 2개 이상 필요합니다 |
+| 텍스트, 치수, 지시선 | 아니오 |
 
-**절단 경계**로 사용되는 객체는 Line, Arc, Circle, Ellipse 또는 Polyline일 수 있습니다. 텍스트, 스플라인, 치수, 지시선 객체는 교차점을 등록하지 않으므로 경계로도 작동할 수 없습니다.
+**자르기 경계**로 사용되는 객체는 Line, Arc, Circle, Ellipse, Polyline 또는 Spline일 수 있습니다. Text, Dimension, Leader 객체는 교차점을 등록하지 않으므로 경계로도 사용할 수 없습니다.
 
 Polyline의 **호 세그먼트**(Arc 토글로 그리거나 가져온 것)는 직선 세그먼트와 똑같이 잘립니다 — 두 교차점 사이의 호 부분에 커서를 놓고 클릭하세요. 잘린 가장자리는 곡률을 유지하며, 길이만 변경됩니다.
 
@@ -74,4 +76,4 @@ Polyline의 **호 세그먼트**(Arc 토글로 그리거나 가져온 것)는 �
 | 하는 일 | 객체의 세그먼트 제거 | 선 끝점을 경계까지 늘리기 |
 | 트리거 | 자를 세그먼트 위에 커서 올리기 | 연장할 끝점 근처에 커서 올리기 |
 | 결과 | 객체가 분할되거나 짧아짐 | 선 끝점이 경계로 이동 |
-| 지원되는 객체 | Line, Arc, Circle, Ellipse, Polyline | Line, Arc, Ellipse, Polyline |
+| 지원되는 객체 | Line, Arc, Circle, Ellipse, Polyline, 스플라인 | Line, Arc, Ellipse, Polyline |

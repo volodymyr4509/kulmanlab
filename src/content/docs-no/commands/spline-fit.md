@@ -71,9 +71,10 @@ Det finnes ikke noe "flytt hele splinen"-grep. For å flytte hele splinen, bruk 
 | [Rotate](../rotate/) | Roterer alle tilpasningspunkter rundt det valgte basispunktet |
 | [Mirror](../mirror/) | Speilvender alle tilpasningspunkter over speilaksen |
 | [Scale](../scale/) | Skalerer alle tilpasningspunkter jevnt fra basispunktet |
+| [Trim](../trim/) | Klipper splinen ved skjæringspunktene — hver bit er samme kurve over en mindre del av seg selv |
 | [Delete](../delete/) | Fjerner splinen |
 
-Splines støtter ikke **Offset**, **Trim** eller **Extend**.
+Splines støtter **Trim**, men ikke **Offset** eller **Extend**.
 
 ## Egenskaper
 

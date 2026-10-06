@@ -43,6 +43,7 @@ Il comando proietta la posizione del cursore sull'entità passata e trova tutti 
 | Ellipse | Un'entità Ellipse con angolo iniziale e finale — la parte rimanente resta un'Ellipse, ora parziale |
 | Polyline (aperta) | Fino a due entità Polyline più corte |
 | Polyline (chiusa) / Rectangle | Un'entità Polyline aperta — la forma chiusa scompare, quindi la parte rimanente viene memorizzata aperta |
+| Spline | Fino a due oggetti Spline più corti — ogni parte è la stessa curva su un tratto più breve, memorizzata tramite vertici di controllo (i punti di adattamento di una spline di adattamento vengono scartati); una spline chiusa lascia una parte aperta |
 
 ## Riferimento tastiera
 
@@ -61,9 +62,10 @@ Il comando proietta la posizione del cursore sull'entità passata e trova tutti 
 | Ellipse | Sì — richiede 2 o più punti di intersezione |
 | Polyline (aperta) | Sì |
 | Polyline (chiusa) / Rectangle | Sì — richiede 2 o più punti di intersezione |
-| Text, Spline, Dimension, Leader | No |
+| Spline | Sì — una spline chiusa richiede 2 o più punti di intersezione |
+| Text, Dimension, Leader | No |
 
-Le entità usate come **bordi di taglio** possono essere una Line, un Arc, Circle, un'Ellipse o Polyline. Le entità Text, Spline, Dimension e Leader non registrano mai intersezioni, quindi non possono nemmeno fungere da bordi.
+Gli oggetti usati come **limiti di taglio** possono essere Line, Arc, Circle, Ellipse, Polyline o Spline. Gli oggetti Text, Dimension e Leader non registrano mai intersezioni, quindi non possono fare da limiti.
 
 I **segmenti ad arco** di una Polyline (disegnati con l'opzione Arc, o importati) vengono tagliati esattamente come i segmenti dritti — passa il cursore sulla porzione di arco tra due intersezioni e clicca. Il bordo tagliato mantiene la sua curvatura; cambia solo la lunghezza.
 
@@ -74,4 +76,4 @@ I **segmenti ad arco** di una Polyline (disegnati con l'opzione Arc, o importati
 | Cosa fa | Rimuove un segmento di un'entità | Allunga un endpoint di una linea fino a un bordo |
 | Trigger | Passa il cursore sul segmento da tagliare | Passa il cursore vicino all'endpoint da estendere |
 | Risultato | L'entità si divide o si accorcia | L'endpoint della linea si sposta fino al bordo |
-| Entità supportate | Line, Arc, Circle, Ellipse, Polyline | Line, Arc, Ellipse, Polyline |
+| Entità supportate | Line, Arc, Circle, Ellipse, Polyline, Spline | Line, Arc, Ellipse, Polyline |

@@ -43,6 +43,7 @@ Lệnh chiếu vị trí con trỏ lên thực thể đang di chuyển qua và t
 | Ellipse | Một thực thể Ellipse với góc đầu và góc cuối — phần còn lại vẫn là Ellipse, giờ là một phần |
 | Polyline (mở) | Tối đa hai thực thể Polyline ngắn hơn |
 | Polyline (đóng) / Rectangle | Một thực thể Polyline mở — hình dạng đóng biến mất, nên phần còn lại được lưu ở dạng mở |
+| Spline | Tối đa hai đối tượng Spline ngắn hơn — mỗi mảnh là cùng một đường cong trên một đoạn nhỏ hơn, lưu bằng các đỉnh điều khiển (điểm khớp của spline Fit bị bỏ); spline kín để lại một mảnh hở |
 
 ## Tham khảo phím tắt
 
@@ -61,9 +62,10 @@ Lệnh chiếu vị trí con trỏ lên thực thể đang di chuyển qua và t
 | Ellipse | Có — cần 2 điểm giao nhau trở lên |
 | Polyline (mở) | Có |
 | Polyline (đóng) / Rectangle | Có — cần 2 điểm giao nhau trở lên |
-| Văn bản, Spline, Kích thước, Đường dẫn | Không |
+| Spline | Có — spline kín cần 2 giao điểm trở lên |
+| Văn bản, Kích thước, Đường dẫn | Không |
 
-Các thực thể dùng làm **ranh giới cắt** có thể là Line, Arc, Circle, Ellipse hoặc Polyline. Các thực thể Văn bản, Spline, Kích thước và Đường dẫn không bao giờ ghi nhận giao điểm, nên cũng không thể đóng vai trò ranh giới.
+Các đối tượng dùng làm **ranh giới cắt** có thể là Line, Arc, Circle, Ellipse, Polyline hoặc Spline. Đối tượng Text, Dimension và Leader không bao giờ ghi nhận giao điểm, nên cũng không thể làm ranh giới.
 
 **Đoạn cung** của Polyline (vẽ bằng công tắc Arc, hoặc nhập vào) được cắt hoàn toàn giống như các đoạn thẳng — di chuột qua phần cung giữa hai giao điểm rồi nhấp. Cạnh đã cắt giữ nguyên độ cong; chỉ chiều dài thay đổi.
 
@@ -74,4 +76,4 @@ Các thực thể dùng làm **ranh giới cắt** có thể là Line, Arc, Circ
 | Tác dụng | Xóa đoạn của thực thể | Kéo dài điểm cuối đường thẳng đến ranh giới |
 | Kích hoạt | Di chuyển qua đoạn cần cắt | Di chuyển gần điểm cuối cần kéo dài |
 | Kết quả | Thực thể chia hoặc rút ngắn | Điểm cuối đường thẳng di chuyển đến ranh giới |
-| Thực thể được hỗ trợ | Line, Arc, Circle, Ellipse, Polyline | Line, Arc, Ellipse, Polyline |
+| Thực thể được hỗ trợ | Line, Arc, Circle, Ellipse, Polyline, Spline | Line, Arc, Ellipse, Polyline |

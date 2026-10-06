@@ -71,9 +71,10 @@ There is no "move whole spline" grip. To translate the entire spline, use the [M
 | [Rotate](../rotate/) | Rotates all fit points around the chosen base point |
 | [Mirror](../mirror/) | Reflects all fit points across the mirror axis |
 | [Scale](../scale/) | Scales all fit points uniformly from the base point |
+| [Trim](../trim/) | Cuts the spline at its intersections — each piece is the same curve over less of itself |
 | [Delete](../delete/) | Removes the spline |
 
-Splines do not support **Offset**, **Trim**, or **Extend**.
+Splines support **Trim**, but not **Offset** or **Extend**.
 
 ## Properties
 

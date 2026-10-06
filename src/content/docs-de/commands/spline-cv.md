@@ -72,9 +72,10 @@ Es gibt keinen „ganzen Spline verschieben"-Griffpunkt. Um den gesamten Spline 
 | [Rotate](../rotate/) | Dreht alle CVs um den gewählten Basispunkt |
 | [Mirror](../mirror/) | Spiegelt alle CVs an der Spiegelachse |
 | [Scale](../scale/) | Skaliert alle CVs gleichmäßig vom Basispunkt aus |
+| [Trim](../trim/) | Kürzt den Spline an seinen Schnittpunkten — jedes Teilstück ist dieselbe Kurve über einen kleineren Bereich |
 | [Delete](../delete/) | Entfernt den Spline |
 
-Splines unterstützen weder **Offset**, **Trim** noch **Extend**.
+Splines unterstützen **Trim**, aber weder **Offset** noch **Extend**.
 
 ## Eigenschaften
 

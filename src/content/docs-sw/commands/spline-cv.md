@@ -72,9 +72,10 @@ Hakuna kishiko cha "hamisha spline nzima". Kutafsiri spline nzima, tumia amri ya
 | [Rotate](../rotate/) | Huzungusha CVs zote karibu na nukta ya msingi iliyochaguliwa |
 | [Mirror](../mirror/) | Huakisi CVs zote kwenye mhimili wa kioo |
 | [Scale](../scale/) | Hupima CVs zote kwa usawa kutoka kwa nukta ya msingi |
+| [Trim](../trim/) | Hukata spline kwenye makutano yake — kila kipande ni mkunjo huo huo kwenye sehemu ndogo zaidi |
 | [Delete](../delete/) | Huondoa spline |
 
-Splines hazisaidii **Offset**, **Trim**, au **Extend**.
+Spline zinaunga mkono **Trim**, lakini si **Offset** wala **Extend**.
 
 ## Sifa
 

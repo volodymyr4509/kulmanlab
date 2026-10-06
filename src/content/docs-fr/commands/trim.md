@@ -43,6 +43,7 @@ La commande projette la position du curseur sur l'entité survolée et trouve to
 | Ellipse | Une entité Ellipse avec un angle de début et de fin — la partie restante reste une Ellipse, désormais partielle |
 | Polyline (ouverte) | Jusqu'à deux entités Polyline plus courtes |
 | Polyline (fermée) / Rectangle | Une entité Polyline ouverte — la forme fermée disparaît, la partie restante est donc stockée ouverte |
+| Spline | Jusqu'à deux objets Spline plus courts — chaque morceau est la même courbe sur une portion d'elle-même, stockée par points de contrôle (les points d'ajustement d'une spline d'ajustement sont abandonnés) ; une spline fermée laisse un morceau ouvert |
 
 ## Référence clavier
 
@@ -61,9 +62,10 @@ La commande projette la position du curseur sur l'entité survolée et trouve to
 | Ellipse | Oui — nécessite 2 points d'intersection ou plus |
 | Polyline (ouverte) | Oui |
 | Polyline (fermée) / Rectangle | Oui — nécessite 2 points d'intersection ou plus |
-| Text, Spline, Dimension, Leader | Non |
+| Spline | Oui — une spline fermée nécessite 2 points d'intersection ou plus |
+| Text, Dimension, Leader | Non |
 
-Les entités utilisées comme **limites de coupe** peuvent être une Line, un Arc, Circle, une Ellipse ou Polyline. Les entités Text, Spline, Dimension et Leader n'enregistrent jamais d'intersections, elles ne peuvent donc pas non plus servir de limites.
+Les objets utilisés comme **limites de coupe** peuvent être Line, Arc, Circle, Ellipse, Polyline ou Spline. Les objets Text, Dimension et Leader n'enregistrent jamais d'intersections ; ils ne peuvent donc pas non plus servir de limites.
 
 Les **segments d'arc** d'une Polyline (dessinés avec le bouton Arc, ou importés) se raccordent exactement comme ses segments droits — survolez la portion d'arc entre deux intersections et cliquez. Le bord raccordé conserve sa courbure ; seule sa longueur change.
 
@@ -74,4 +76,4 @@ Les **segments d'arc** d'une Polyline (dessinés avec le bouton Arc, ou importé
 | Ce qu'elle fait | Supprime un segment d'une entité | Prolonge un point final de ligne jusqu'à une limite |
 | Déclencheur | Survoler le segment à couper | Survoler près du point final à prolonger |
 | Résultat | L'entité se divise ou se raccourcit | Le point final de la ligne se déplace jusqu'à la limite |
-| Entités supportées | Line, Arc, Circle, Ellipse, Polyline | Line, Arc, Ellipse, Polyline |
+| Entités supportées | Line, Arc, Circle, Ellipse, Polyline, Spline | Line, Arc, Ellipse, Polyline |

@@ -72,9 +72,10 @@ Walang grip para sa "ilipat ang buong spline." Para ilipat ang kabuuang spline, 
 | [Rotate](../rotate/) | Iniikot ang lahat ng CV sa paligid ng piniling base point |
 | [Mirror](../mirror/) | Sinasalamin ang lahat ng CV sa kabilang panig ng mirror axis |
 | [Scale](../scale/) | Pantay na sinu-scale ang lahat ng CV mula sa base point |
+| [Trim](../trim/) | Pinuputol ang spline sa mga intersection nito — bawat piraso ay ang parehong kurba sa mas maliit na bahagi nito |
 | [Delete](../delete/) | Tinatanggal ang spline |
 
-Hindi sinusuportahan ng mga Spline ang **Offset**, **Trim**, o **Extend**.
+Sinusuportahan ng mga spline ang **Trim**, ngunit hindi ang **Offset** o **Extend**.
 
 ## Properties
 

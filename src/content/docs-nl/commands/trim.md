@@ -43,6 +43,7 @@ Het commando projecteert de cursorpositie op de gehoverde entiteit en zoekt alle
 | Ellipse | Eén Ellipse-entiteit met begin- en eindhoek — het overblijvende deel blijft een Ellipse, nu gedeeltelijk |
 | Polyline (open) | Tot twee kortere Polyline-entiteiten |
 | Polyline (gesloten) / Rectangle | Eén open Polyline-entiteit — de gesloten vorm verdwijnt, dus het overblijvende deel wordt opgeslagen als open |
+| Spline | Maximaal twee kortere Spline-objecten — elk stuk is dezelfde curve over een kleiner deel van zichzelf, opgeslagen via controlepunten (de fit-punten van een Fit-spline vervallen); een gesloten spline laat één open stuk over |
 
 ## Toetsenbordreferentie
 
@@ -61,9 +62,10 @@ Het commando projecteert de cursorpositie op de gehoverde entiteit en zoekt alle
 | Ellipse | Ja — vereist 2 of meer snijpunten |
 | Polyline (open) | Ja |
 | Polyline (gesloten) / Rectangle | Ja — vereist 2 of meer snijpunten |
-| Text, Spline, Dimension, Leader | Nee |
+| Spline | Ja — een gesloten spline vereist 2 of meer snijpunten |
+| Text, Dimension, Leader | Nee |
 
-De entiteiten die als **snijgrenzen** worden gebruikt, kunnen Line, Arc, Circle, Ellipse of Polyline zijn. Text-, Spline-, Dimension- en Leader-entiteiten registreren nooit snijpunten, dus die kunnen ook niet als grens functioneren.
+De objecten die als **knipgrenzen** worden gebruikt, kunnen Line, Arc, Circle, Ellipse, Polyline of Spline zijn. Text-, Dimension- en Leader-objecten registreren nooit snijpunten en kunnen dus ook geen grenzen zijn.
 
 De **boogsegmenten** van een Polyline (getekend met de Arc-schakelaar, of geïmporteerd) worden precies zo gesneden als de rechte segmenten — beweeg de cursor over het booggedeelte tussen twee snijpunten en klik. De gesneden rand behoudt zijn kromming; alleen de lengte verandert.
 
@@ -74,4 +76,4 @@ De **boogsegmenten** van een Polyline (getekend met de Arc-schakelaar, of geïmp
 | Wat het doet | Verwijdert een segment van een entiteit | Rekt een lijneindpunt uit tot een grens |
 | Trigger | Beweeg over het te snijden segment | Beweeg bij het eindpunt om te verlengen |
 | Resultaat | Entiteit wordt gesplitst of verkort | Lijneindpunt verplaatst naar de grens |
-| Ondersteunde entiteiten | Line, Arc, Circle, Ellipse, Polyline | Line, Arc, Ellipse, Polyline |
+| Ondersteunde entiteiten | Line, Arc, Circle, Ellipse, Polyline, Spline | Line, Arc, Ellipse, Polyline |
