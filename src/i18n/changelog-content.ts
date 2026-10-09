@@ -1073,7 +1073,309 @@ const splineReleaseTranslations: Record<string, { title: string; highlights: str
   },
 };
 
+const importReleaseTranslations: Record<string, { title: string; highlights: string[] }> = {
+  "ar": {
+    title: "رسائل أوضح للاستيراد والحافظة؛ وإصلاحات للتهشير والإشارات المتعددة",
+    highlights: [
+      "يوضح الاستيراد الآن في المحطة ما تعذّرت قراءته: تُسرد العناصر والجداول المتخطاة حسب النوع مع العدد، ويُذكر اسم الملف غير الصالح. وإلغاء نافذة الملف لم يعد يفعل شيئًا.",
+      "تبيّن رسائل الحافظة الآن سبب رفض النسخ أو اللصق وما يجب فعله — السماح بالحافظة في إعدادات الموقع بالمتصفح. ويحذّر اللصق في النص عند رفض الحافظة.",
+      "يجد Hatch جدار المنطقة متجاوزًا ما يعترضه، ويملأ متجاوزًا تقويسًا يلامس خطًا لا ينتهي عنده، ويُستبعد التهشير الذي لا حدّ له بدل حفظه.",
+      "يؤخذ سهم الإشارة المتعددة الآن من نمطه. كما تُضمَّن أسطر الأخطاء في المحطة ضمن تقارير الأخطاء المجهولة.",
+    ],
+  },
+  "bn": {
+    title: "আমদানি ও ক্লিপবোর্ডের আরও স্পষ্ট বার্তা; হ্যাচ ও মাল্টিলিডার সংশোধন",
+    highlights: [
+      "আমদানি এখন টার্মিনালে জানায় কী পড়া যায়নি: এড়িয়ে যাওয়া এন্টিটি ও টেবিল ধরন ও সংখ্যাসহ তালিকাভুক্ত হয়, এবং অবৈধ ফাইলের নাম দেখানো হয়। ফাইল ডায়ালগ বাতিল করলে এখন কিছুই হয় না।",
+      "ক্লিপবোর্ডের বার্তা এখন জানায় কেন কপি বা পেস্ট প্রত্যাখ্যাত হলো এবং কী করতে হবে — ব্রাউজারের সাইট সেটিংসে ক্লিপবোর্ড অনুমতি দিন। টেক্সটে পেস্ট করার সময় ক্লিপবোর্ড প্রত্যাখ্যাত হলে সতর্ক করা হয়।",
+      "Hatch এখন বাধার ওপারে অঞ্চলের দেয়াল খুঁজে পায়, যে রেখায় শেষ হয় না তাকে স্পর্শ করা ফিলেটের পাশ দিয়েও ভরাট করে, এবং সীমানাহীন হ্যাচ সংরক্ষণের বদলে বাদ দেওয়া হয়।",
+      "মাল্টিলিডারের তীরচিহ্ন এখন তার স্টাইল থেকে নেওয়া হয়। টার্মিনালের ত্রুটির লাইনগুলোও বেনামী ত্রুটি রিপোর্টে যুক্ত হয়।",
+    ],
+  },
+  "cs": {
+    title: "Jasnější hlášení při importu a schránce; opravy šraf a multileaderů",
+    highlights: [
+      "Import nyní v terminálu říká, co se nepodařilo přečíst: přeskočené objekty a tabulky se vypíšou podle typu s počtem a neplatný soubor je jmenován. Zrušení dialogu souboru teď nic neudělá.",
+      "Hlášení schránky nyní říkají, proč byl kopírování nebo vložení odmítnuto a co s tím dělat — povolit schránku v nastavení webu v prohlížeči. Vložení do textu upozorní, když je schránka odmítnuta.",
+      "Hatch najde stěnu oblasti i za tím, co jí stojí v cestě, vyplní oblast za zaoblením, které se dotýká úsečky, na níž nekončí, a šrafa bez hranice se vynechá místo uložení.",
+      "Šipka multileaderu se nyní přebírá z jeho stylu. Chybové řádky terminálu jsou také součástí anonymních hlášení chyb.",
+    ],
+  },
+  "da": {
+    title: "Klarere meddelelser ved import og udklipsholder; rettelser til skravering og multileader",
+    highlights: [
+      "Import fortæller nu i terminalen, hvad der ikke kunne læses: oversprungne entiteter og tabeller vises efter type med antal, og en ugyldig fil navngives. Annullering af fildialogen gør nu ingenting.",
+      "Meddelelser om udklipsholderen fortæller nu, hvorfor en kopiering eller indsættelse blev afvist, og hvad man kan gøre — tillad udklipsholderen i browserens webstedsindstillinger. Indsættelse i tekst advarer, når udklipsholderen afvises.",
+      "Hatch finder områdets væg forbi det, der står i vejen, udfylder forbi en afrunding, der rører en linje, den ikke ender på, og en skravering uden grænse udelades i stedet for at blive gemt.",
+      "Et multileader-pilehoved hentes nu fra dens stil. Terminalens fejllinjer indgår også i de anonyme fejlrapporter.",
+    ],
+  },
+  "de": {
+    title: "Klarere Meldungen bei Import und Zwischenablage; Korrekturen für Schraffur und Mehrfachführungslinie",
+    highlights: [
+      "Der Import meldet im Terminal jetzt, was nicht gelesen werden konnte: übersprungene Entitäten und Tabellen werden nach Typ mit Anzahl aufgelistet, eine ungültige Datei wird benannt. Das Abbrechen des Dateidialogs bewirkt jetzt nichts mehr.",
+      "Meldungen zur Zwischenablage nennen jetzt, warum Kopieren oder Einfügen abgelehnt wurde und was zu tun ist — die Zwischenablage in den Website-Einstellungen des Browsers erlauben. Beim Einfügen in Text wird gewarnt, wenn die Zwischenablage verweigert wird.",
+      "Hatch findet die Wand einer Region auch hinter Hindernissen, füllt an einer Verrundung vorbei, die eine Linie berührt, an der sie nicht endet, und eine Schraffur ohne Begrenzung wird ausgelassen statt gespeichert.",
+      "Der Pfeil einer Mehrfachführungslinie wird jetzt aus ihrem Stil übernommen. Auch die Fehlerzeilen des Terminals sind in den anonymen Fehlerberichten enthalten.",
+    ],
+  },
+  "el": {
+    title: "Σαφέστερα μηνύματα εισαγωγής και προχείρου· διορθώσεις για Hatch και Multileader",
+    highlights: [
+      "Η εισαγωγή αναφέρει πλέον στο τερματικό τι δεν μπόρεσε να διαβαστεί: οι οντότητες και οι πίνακες που παραλείφθηκαν εμφανίζονται ανά τύπο με πλήθος και ονομάζεται το μη έγκυρο αρχείο. Η ακύρωση του παραθύρου αρχείου δεν κάνει πλέον τίποτα.",
+      "Τα μηνύματα του προχείρου εξηγούν πλέον γιατί απορρίφθηκε μια αντιγραφή ή επικόλληση και τι να κάνετε — να επιτρέψετε το πρόχειρο στις ρυθμίσεις τοποθεσίας του browser. Η επικόλληση σε κείμενο προειδοποιεί όταν το πρόχειρο απορρίπτεται.",
+      "Το Hatch βρίσκει το τοίχωμα μιας περιοχής πέρα από ό,τι στέκεται μπροστά του, γεμίζει πέρα από μια στρογγυλοποίηση που αγγίζει γραμμή στην οποία δεν καταλήγει, και ένα hatch χωρίς όριο παραλείπεται αντί να αποθηκευτεί.",
+      "Το βέλος ενός multileader λαμβάνεται πλέον από το στυλ του. Οι γραμμές σφάλματος του τερματικού περιλαμβάνονται επίσης στις ανώνυμες αναφορές σφαλμάτων.",
+    ],
+  },
+  "es": {
+    title: "Mensajes más claros al importar y con el portapapeles; correcciones de sombreado y directriz múltiple",
+    highlights: [
+      "La importación ahora indica en el terminal qué no pudo leer: las entidades y tablas omitidas se listan por tipo con su número y se nombra el archivo no válido. Cancelar el diálogo de archivo ya no hace nada.",
+      "Los mensajes del portapapeles ahora explican por qué se rechazó una copia o un pegado y qué hacer — permitir el portapapeles en la configuración del sitio del navegador. Al pegar en un texto se avisa si el portapapeles es rechazado.",
+      "Hatch encuentra la pared de una región más allá de lo que se interpone, rellena pasado un empalme que toca una línea en la que no termina, y un sombreado sin contorno se omite en lugar de guardarse.",
+      "La punta de flecha de una directriz múltiple ahora se toma de su estilo. Las líneas de error del terminal también se incluyen en los informes de errores anónimos.",
+    ],
+  },
+  "fi": {
+    title: "Selkeämmät tuonti- ja leikepöytäviestit; korjauksia viivoitukseen ja monikärkiviivaan",
+    highlights: [
+      "Tuonti kertoo nyt terminaalissa, mitä ei voitu lukea: ohitetut entiteetit ja taulukot listataan tyypin mukaan määrineen ja virheellinen tiedosto nimetään. Tiedostoikkunan peruminen ei enää tee mitään.",
+      "Leikepöytäviestit kertovat nyt, miksi kopiointi tai liittäminen evättiin ja mitä sille voi tehdä — salli leikepöytä selaimen sivustoasetuksissa. Tekstiin liittäminen varoittaa, kun leikepöytä evätään.",
+      "Hatch löytää alueen seinän esteiden ohi, täyttää pyöristyksen ohi, joka koskettaa viivaa, johon se ei pääty, ja rajaton viivoitus jätetään pois tallentamisen sijaan.",
+      "Monikärkiviivan nuoli otetaan nyt sen tyylistä. Terminaalin virherivit sisältyvät myös nimettömiin virheraportteihin.",
+    ],
+  },
+  "fr": {
+    title: "Messages plus clairs pour l’import et le presse-papiers ; correctifs des hachures et des repères multiples",
+    highlights: [
+      "L’import indique désormais dans le terminal ce qu’il n’a pas pu lire : les entités et tables ignorées sont listées par type avec leur nombre, et le fichier invalide est nommé. Annuler la boîte de dialogue de fichier ne fait plus rien.",
+      "Les messages du presse-papiers expliquent désormais pourquoi une copie ou un collage a été refusé et quoi faire — autoriser le presse-papiers dans les paramètres du site du navigateur. Le collage dans un texte avertit lorsque le presse-papiers est refusé.",
+      "Hatch trouve la paroi d’une région au-delà de ce qui s’y trouve, remplit au-delà d’un raccord qui touche une ligne sur laquelle il ne se termine pas, et une hachure sans contour est omise au lieu d’être enregistrée.",
+      "La flèche d’un repère multiple est désormais tirée de son style. Les lignes d’erreur du terminal sont aussi incluses dans les rapports d’erreurs anonymes.",
+    ],
+  },
+  "ha": {
+    title: "Saƙonnin shigo da allon kwafe masu haske; gyare-gyaren Hatch da Multileader",
+    highlights: [
+      "Shigo da fayil yanzu yana faɗa a tashar umarni abin da bai iya karantawa ba: ana lissafa abubuwa da teburori da aka tsallake bisa nau'i tare da adadi, kuma ana ambaton sunan fayil mara inganci. Soke akwatin zaɓar fayil yanzu ba ya yin komai.",
+      "Saƙonnin allon kwafe yanzu suna faɗa dalilin da aka ƙi kwafi ko liƙa da abin da za a yi — a ba da izinin allon kwafe a saitunan shafi na burauza. Liƙa cikin rubutu yana yin gargaɗi idan an ƙi allon kwafe.",
+      "Hatch yana samun bangon yanki bayan duk abin da ke gabansa, yana cika bayan fillet da ke taɓa layi da ba ya ƙarewa a kai, kuma ana bar Hatch mara iyaka maimakon adana shi.",
+      "Ana ɗaukar kan kibiyar multileader yanzu daga salonsa. Layukan kuskure na tashar umarni suma suna cikin rahotannin kuskure marasa suna.",
+    ],
+  },
+  "he": {
+    title: "הודעות ברורות יותר בייבוא ובלוח; תיקונים ל-Hatch ול-Multileader",
+    highlights: [
+      "הייבוא מציין כעת במסוף מה לא ניתן היה לקרוא: ישויות וטבלאות שדולגו מפורטות לפי סוג עם מספר, וקובץ לא תקין מוזכר בשמו. ביטול חלון הקובץ כבר לא עושה דבר.",
+      "הודעות הלוח מסבירות כעת מדוע העתקה או הדבקה נדחתה ומה לעשות — לאפשר את הלוח בהגדרות האתר של הדפדפן. הדבקה לתוך טקסט מזהירה כשהלוח נדחה.",
+      "Hatch מוצא את דופן האזור גם מעבר למה שניצב בדרכו, ממלא מעבר לעיגול שנוגע בקו שבו הוא אינו מסתיים, והטרמה ללא גבול מושמטת במקום להישמר.",
+      "ראש החץ של Multileader נלקח כעת מהסגנון שלו. שורות השגיאה של המסוף נכללות גם בדוחות השגיאות האנונימיים.",
+    ],
+  },
+  "hi": {
+    title: "आयात और क्लिपबोर्ड के स्पष्ट संदेश; Hatch और Multileader में सुधार",
+    highlights: [
+      "आयात अब टर्मिनल में बताता है कि क्या नहीं पढ़ा जा सका: छोड़े गए ऑब्जेक्ट और टेबल प्रकार व गिनती के साथ सूचीबद्ध होते हैं, और अमान्य फ़ाइल का नाम बताया जाता है। फ़ाइल डायलॉग रद्द करने पर अब कुछ नहीं होता।",
+      "क्लिपबोर्ड संदेश अब बताते हैं कि कॉपी या पेस्ट क्यों अस्वीकार हुआ और क्या करना है — ब्राउज़र की साइट सेटिंग में क्लिपबोर्ड की अनुमति दें। टेक्स्ट में पेस्ट करते समय क्लिपबोर्ड अस्वीकार होने पर चेतावनी मिलती है।",
+      "Hatch अब रास्ते में आने वाली चीज़ों के पार भी क्षेत्र की दीवार ढूँढ़ता है, ऐसी फ़िलेट के पार भी भरता है जो किसी ऐसी रेखा को छूती है जिस पर वह समाप्त नहीं होती, और बिना सीमा वाला Hatch सहेजने के बजाय छोड़ दिया जाता है।",
+      "Multileader का तीर अब उसकी शैली से लिया जाता है। टर्मिनल की त्रुटि पंक्तियाँ भी बेनामी त्रुटि रिपोर्ट में शामिल हैं।",
+    ],
+  },
+  "id": {
+    title: "Pesan impor dan papan klip yang lebih jelas; perbaikan hatch dan multileader",
+    highlights: [
+      "Impor kini menyebutkan di terminal apa yang tidak dapat dibaca: entitas dan tabel yang dilewati dicantumkan per tipe beserta jumlahnya, dan file yang tidak valid disebutkan namanya. Membatalkan dialog file kini tidak melakukan apa-apa.",
+      "Pesan papan klip kini menjelaskan mengapa salin atau tempel ditolak dan apa yang harus dilakukan — izinkan papan klip di pengaturan situs peramban. Menempel ke dalam teks memberi peringatan saat papan klip ditolak.",
+      "Hatch menemukan dinding wilayah melewati apa pun yang menghalanginya, mengisi melewati fillet yang menyentuh garis yang tidak diakhirinya, dan hatch tanpa batas dihilangkan alih-alih disimpan.",
+      "Kepala panah multileader kini diambil dari gayanya. Baris kesalahan terminal juga disertakan dalam laporan kesalahan anonim.",
+    ],
+  },
+  "it": {
+    title: "Messaggi più chiari per importazione e appunti; correzioni a tratteggio e multileader",
+    highlights: [
+      "L’importazione ora indica nel terminale cosa non è stato possibile leggere: entità e tabelle ignorate sono elencate per tipo con un conteggio e il file non valido viene nominato. Annullare la finestra del file ora non fa nulla.",
+      "I messaggi degli appunti ora spiegano perché una copia o un incolla è stato rifiutato e cosa fare — consentire gli appunti nelle impostazioni del sito del browser. Incollare in un testo avvisa quando gli appunti vengono rifiutati.",
+      "Hatch trova la parete di una regione oltre ciò che vi si trova in mezzo, riempie oltre un raccordo che tocca una linea su cui non termina, e un tratteggio senza contorno viene omesso invece di essere salvato.",
+      "La punta di freccia di un multileader viene ora presa dal suo stile. Anche le righe di errore del terminale sono incluse nei report di errore anonimi.",
+    ],
+  },
+  "ja": {
+    title: "インポートとクリップボードのメッセージを分かりやすく、ハッチングとマルチリーダーを修正",
+    highlights: [
+      "インポートで読み取れなかったものがターミナルに表示されるようになりました。スキップされたエンティティとテーブルはタイプ別に件数付きで一覧され、無効なファイルは名前が表示されます。ファイルダイアログをキャンセルしても何も起こりません。",
+      "クリップボードのメッセージで、コピーや貼り付けが拒否された理由と対処法（ブラウザのサイト設定でクリップボードを許可）が分かります。テキストへの貼り付けでクリップボードが拒否された場合は警告が出ます。",
+      "Hatch は途中にあるものを越えて領域の壁を見つけ、終端していない線に触れるフィレットを越えて塗りつぶし、境界のないハッチングは保存されずに除外されます。",
+      "マルチリーダーの矢印はスタイルから取得されるようになりました。ターミナルのエラー行も匿名のエラーレポートに含まれます。",
+    ],
+  },
+  "ko": {
+    title: "더 명확한 가져오기·클립보드 메시지, 해치와 멀티리더 수정",
+    highlights: [
+      "가져오기에서 읽지 못한 항목을 터미널에 알려 줍니다. 건너뛴 객체와 테이블은 유형별로 개수와 함께 나열되고, 올바르지 않은 파일은 이름이 표시됩니다. 파일 대화상자를 취소하면 이제 아무 일도 일어나지 않습니다.",
+      "클립보드 메시지가 복사나 붙여넣기가 거부된 이유와 해결 방법(브라우저 사이트 설정에서 클립보드 허용)을 알려 줍니다. 텍스트에 붙여넣을 때 클립보드가 거부되면 경고합니다.",
+      "Hatch가 가로막는 것을 지나서도 영역의 벽을 찾고, 끝나지 않는 선에 닿는 필렛을 지나서도 채우며, 경계가 없는 해치는 저장되지 않고 제외됩니다.",
+      "멀티리더의 화살촉이 이제 스타일에서 가져옵니다. 터미널의 오류 줄도 익명 오류 보고에 포함됩니다.",
+    ],
+  },
+  "lt": {
+    title: "Aiškesni importo ir iškarpinės pranešimai; Hatch ir Multileader pataisymai",
+    highlights: [
+      "Importas dabar terminale parodo, ko nepavyko perskaityti: praleisti objektai ir lentelės išvardijami pagal tipą su skaičiumi, o netinkamas failas įvardijamas. Failo lango atšaukimas dabar nieko nedaro.",
+      "Iškarpinės pranešimai dabar paaiškina, kodėl kopijavimas ar įklijavimas buvo atmestas ir ką daryti — leisti iškarpinę naršyklės svetainės nustatymuose. Įklijuojant į tekstą įspėjama, kai iškarpinė atmetama.",
+      "Hatch randa srities sieną už to, kas stovi kelyje, užpildo už suapvalinimo, kuris liečia liniją, kurioje nesibaigia, o be ribos likusi brūkšniuotė praleidžiama, o ne išsaugoma.",
+      "Multileader rodyklė dabar imama iš jo stiliaus. Terminalo klaidų eilutės taip pat įtraukiamos į anonimines klaidų ataskaitas.",
+    ],
+  },
+  "ms": {
+    title: "Mesej import dan papan keratan yang lebih jelas; pembetulan hatch dan multileader",
+    highlights: [
+      "Import kini memaklumkan dalam terminal apa yang tidak dapat dibaca: entiti dan jadual yang dilangkau disenaraikan mengikut jenis beserta bilangan, dan fail tidak sah dinamakan. Membatalkan dialog fail kini tidak melakukan apa-apa.",
+      "Mesej papan keratan kini menjelaskan mengapa salin atau tampal ditolak dan apa yang perlu dilakukan — benarkan papan keratan dalam tetapan tapak pelayar. Menampal ke dalam teks memberi amaran apabila papan keratan ditolak.",
+      "Hatch menemui dinding kawasan melepasi apa-apa yang menghalangnya, mengisi melepasi fillet yang menyentuh garisan yang tidak ditamatkannya, dan hatch tanpa sempadan ditinggalkan dan bukan disimpan.",
+      "Kepala anak panah multileader kini diambil daripada gayanya. Baris ralat terminal juga disertakan dalam laporan ralat tanpa nama.",
+    ],
+  },
+  "nl": {
+    title: "Duidelijkere meldingen bij import en klembord; verbeteringen voor arcering en multileader",
+    highlights: [
+      "Import meldt nu in de terminal wat niet gelezen kon worden: overgeslagen entiteiten en tabellen worden per type met aantal getoond en een ongeldig bestand wordt bij naam genoemd. Het annuleren van het bestandsdialoogvenster doet nu niets meer.",
+      "Klembordmeldingen zeggen nu waarom kopiëren of plakken werd geweigerd en wat u eraan kunt doen — het klembord toestaan in de site-instellingen van de browser. Plakken in tekst waarschuwt als het klembord wordt geweigerd.",
+      "Hatch vindt de wand van een gebied voorbij wat in de weg staat, vult voorbij een afronding die een lijn raakt waarop ze niet eindigt, en een arcering zonder grens wordt weggelaten in plaats van opgeslagen.",
+      "De pijlpunt van een multileader wordt nu uit de stijl overgenomen. De foutregels van de terminal zijn ook opgenomen in de anonieme foutrapporten.",
+    ],
+  },
+  "no": {
+    title: "Tydeligere meldinger ved import og utklippstavle; rettelser for skravur og multileader",
+    highlights: [
+      "Import forteller nå i terminalen hva som ikke kunne leses: hoppede over entiteter og tabeller listes etter type med antall, og en ugyldig fil navngis. Å avbryte fildialogen gjør nå ingenting.",
+      "Meldinger om utklippstavlen forteller nå hvorfor en kopiering eller liming ble avvist og hva du kan gjøre — tillat utklippstavlen i nettleserens nettstedsinnstillinger. Liming i tekst advarer når utklippstavlen avvises.",
+      "Hatch finner områdets vegg forbi det som står i veien, fyller forbi en avrunding som berører en linje den ikke ender på, og en skravur uten grense utelates i stedet for å lagres.",
+      "Pilspissen til en multileader hentes nå fra stilen. Terminalens feillinjer er også med i de anonyme feilrapportene.",
+    ],
+  },
+  "pa": {
+    title: "ਇੰਪੋਰਟ ਅਤੇ ਕਲਿੱਪਬੋਰਡ ਦੇ ਸਪੱਸ਼ਟ ਸੁਨੇਹੇ; Hatch ਅਤੇ Multileader ਦੇ ਸੁਧਾਰ",
+    highlights: [
+      "ਇੰਪੋਰਟ ਹੁਣ ਟਰਮੀਨਲ ਵਿੱਚ ਦੱਸਦਾ ਹੈ ਕਿ ਕੀ ਨਹੀਂ ਪੜ੍ਹਿਆ ਜਾ ਸਕਿਆ: ਛੱਡੀਆਂ ਗਈਆਂ ਐਂਟਿਟੀਆਂ ਅਤੇ ਟੇਬਲ ਕਿਸਮ ਅਤੇ ਗਿਣਤੀ ਸਮੇਤ ਸੂਚੀਬੱਧ ਹੁੰਦੇ ਹਨ, ਅਤੇ ਗਲਤ ਫਾਈਲ ਦਾ ਨਾਮ ਦੱਸਿਆ ਜਾਂਦਾ ਹੈ। ਫਾਈਲ ਡਾਇਲਾਗ ਰੱਦ ਕਰਨ 'ਤੇ ਹੁਣ ਕੁਝ ਨਹੀਂ ਹੁੰਦਾ।",
+      "ਕਲਿੱਪਬੋਰਡ ਸੁਨੇਹੇ ਹੁਣ ਦੱਸਦੇ ਹਨ ਕਿ ਕਾਪੀ ਜਾਂ ਪੇਸਟ ਕਿਉਂ ਰੱਦ ਹੋਇਆ ਅਤੇ ਕੀ ਕਰਨਾ ਹੈ — ਬ੍ਰਾਊਜ਼ਰ ਦੀਆਂ ਸਾਈਟ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਕਲਿੱਪਬੋਰਡ ਦੀ ਇਜਾਜ਼ਤ ਦਿਓ। ਟੈਕਸਟ ਵਿੱਚ ਪੇਸਟ ਕਰਨ ਵੇਲੇ ਕਲਿੱਪਬੋਰਡ ਰੱਦ ਹੋਵੇ ਤਾਂ ਚੇਤਾਵਨੀ ਮਿਲਦੀ ਹੈ।",
+      "Hatch ਹੁਣ ਰਸਤੇ ਵਿੱਚ ਆਉਣ ਵਾਲੀ ਚੀਜ਼ ਤੋਂ ਪਾਰ ਵੀ ਖੇਤਰ ਦੀ ਕੰਧ ਲੱਭਦਾ ਹੈ, ਅਜਿਹੀ ਫਿਲੇਟ ਤੋਂ ਪਾਰ ਵੀ ਭਰਦਾ ਹੈ ਜੋ ਕਿਸੇ ਅਜਿਹੀ ਲਾਈਨ ਨੂੰ ਛੂਹਦੀ ਹੈ ਜਿਸ 'ਤੇ ਉਹ ਖ਼ਤਮ ਨਹੀਂ ਹੁੰਦੀ, ਅਤੇ ਬਿਨਾਂ ਹੱਦ ਵਾਲਾ Hatch ਸੰਭਾਲਣ ਦੀ ਬਜਾਏ ਛੱਡ ਦਿੱਤਾ ਜਾਂਦਾ ਹੈ।",
+      "Multileader ਦਾ ਤੀਰ ਹੁਣ ਉਸਦੀ ਸਟਾਈਲ ਤੋਂ ਲਿਆ ਜਾਂਦਾ ਹੈ। ਟਰਮੀਨਲ ਦੀਆਂ ਗਲਤੀ ਵਾਲੀਆਂ ਲਾਈਨਾਂ ਵੀ ਗੁਮਨਾਮ ਗਲਤੀ ਰਿਪੋਰਟਾਂ ਵਿੱਚ ਸ਼ਾਮਲ ਹਨ।",
+    ],
+  },
+  "pl": {
+    title: "Czytelniejsze komunikaty importu i schowka; poprawki kreskowania i multileadera",
+    highlights: [
+      "Import podaje teraz w terminalu, czego nie udało się odczytać: pominięte elementy i tabele są wypisane według typu z liczbą, a nieprawidłowy plik jest wskazany z nazwy. Anulowanie okna wyboru pliku nic już nie robi.",
+      "Komunikaty schowka wyjaśniają teraz, dlaczego kopiowanie lub wklejanie zostało odrzucone i co zrobić — zezwolić na schowek w ustawieniach witryny w przeglądarce. Wklejanie do tekstu ostrzega, gdy schowek jest odrzucony.",
+      "Hatch znajduje ścianę obszaru poza tym, co stoi na drodze, wypełnia poza zaokrągleniem dotykającym linii, na której się nie kończy, a kreskowanie bez granicy jest pomijane zamiast zapisywane.",
+      "Grot strzałki multileadera jest teraz brany z jego stylu. Wiersze błędów z terminala są również dołączane do anonimowych raportów o błędach.",
+    ],
+  },
+  "pt": {
+    title: "Mensagens mais claras na importação e na área de transferência; correções de hachura e multilinha de chamada",
+    highlights: [
+      "A importação agora informa no terminal o que não foi possível ler: entidades e tabelas ignoradas são listadas por tipo com contagem e o arquivo inválido é nomeado. Cancelar a caixa de diálogo de arquivo agora não faz nada.",
+      "As mensagens da área de transferência agora explicam por que uma cópia ou colagem foi recusada e o que fazer — permitir a área de transferência nas configurações do site no navegador. Colar em texto avisa quando a área de transferência é recusada.",
+      "O Hatch encontra a parede de uma região além do que está no caminho, preenche além de uma concordância que toca uma linha em que não termina, e uma hachura sem contorno é omitida em vez de salva.",
+      "A ponta de seta de um multileader agora é tomada do seu estilo. As linhas de erro do terminal também entram nos relatórios de erro anônimos.",
+    ],
+  },
+  "sv": {
+    title: "Tydligare meddelanden vid import och urklipp; rättningar för skraffering och multileader",
+    highlights: [
+      "Import berättar nu i terminalen vad som inte kunde läsas: överhoppade entiteter och tabeller listas per typ med antal, och en ogiltig fil namnges. Att avbryta fildialogen gör nu ingenting.",
+      "Meddelanden om urklipp förklarar nu varför en kopiering eller inklistring nekades och vad man kan göra — tillåt urklipp i webbläsarens webbplatsinställningar. Inklistring i text varnar när urklipp nekas.",
+      "Hatch hittar områdets vägg förbi det som står i vägen, fyller förbi en avrundning som rör en linje den inte slutar på, och en skraffering utan gräns utelämnas i stället för att sparas.",
+      "Pilspetsen på en multileader hämtas nu från dess stil. Terminalens felrader ingår också i de anonyma felrapporterna.",
+    ],
+  },
+  "sw": {
+    title: "Ujumbe wazi zaidi wa kuingiza na ubao wa kunakili; marekebisho ya Hatch na Multileader",
+    highlights: [
+      "Kuingiza sasa kunaeleza kwenye terminal kisichoweza kusomwa: viumbe na majedwali yaliyorukwa huorodheshwa kwa aina pamoja na idadi, na faili batili hutajwa kwa jina. Kughairi kisanduku cha faili sasa hakufanyi chochote.",
+      "Ujumbe wa ubao wa kunakili sasa unaeleza kwa nini kunakili au kubandika kulikataliwa na la kufanya — ruhusu ubao wa kunakili kwenye mipangilio ya tovuti ya kivinjari. Kubandika kwenye maandishi kunaonya ubao wa kunakili unapokataliwa.",
+      "Hatch hupata ukuta wa eneo hata nje ya kinachosimama njiani, hujaza nje ya fillet inayogusa mstari ambao haiishii juu yake, na hatch isiyo na mpaka huachwa badala ya kuhifadhiwa.",
+      "Kichwa cha mshale wa multileader sasa kinachukuliwa kutoka mtindo wake. Mistari ya hitilafu ya terminal pia imejumuishwa kwenye ripoti zisizo na majina za hitilafu.",
+    ],
+  },
+  "th": {
+    title: "ข้อความนำเข้าและคลิปบอร์ดชัดเจนขึ้น; แก้ไข Hatch และ Multileader",
+    highlights: [
+      "การนำเข้าจะบอกในเทอร์มินัลว่าอ่านอะไรไม่ได้: วัตถุและตารางที่ถูกข้ามจะแสดงตามประเภทพร้อมจำนวน และระบุชื่อไฟล์ที่ไม่ถูกต้อง การยกเลิกกล่องโต้ตอบไฟล์จะไม่ทำอะไรอีกต่อไป",
+      "ข้อความคลิปบอร์ดจะบอกว่าทำไมการคัดลอกหรือวางจึงถูกปฏิเสธและต้องทำอย่างไร — อนุญาตคลิปบอร์ดในการตั้งค่าไซต์ของเบราว์เซอร์ การวางลงในข้อความจะเตือนเมื่อคลิปบอร์ดถูกปฏิเสธ",
+      "Hatch หาผนังของขอบเขตได้แม้อยู่หลังสิ่งที่ขวางอยู่ ลงลายผ่านฟิลเลตที่แตะเส้นซึ่งไม่ได้สิ้นสุดที่นั่น และ Hatch ที่ไม่มีขอบเขตจะถูกตัดออกแทนที่จะถูกบันทึก",
+      "หัวลูกศรของ Multileader จะนำมาจากสไตล์ของมัน บรรทัดข้อผิดพลาดของเทอร์มินัลรวมอยู่ในรายงานข้อผิดพลาดแบบไม่ระบุตัวตนด้วย",
+    ],
+  },
+  "tl": {
+    title: "Mas malinaw na mensahe sa import at clipboard; mga ayos sa Hatch at Multileader",
+    highlights: [
+      "Sinasabi na ngayon ng import sa terminal kung ano ang hindi nabasa: inililista ayon sa type na may bilang ang mga nilaktawang entity at table, at pinangangalanan ang di-wastong file. Wala nang nangyayari kapag kinansela ang file dialog.",
+      "Ipinapaliwanag na ngayon ng mga mensahe ng clipboard kung bakit tinanggihan ang copy o paste at ang dapat gawin — payagan ang clipboard sa site settings ng browser. Nagbababala ang pag-paste sa text kapag tinanggihan ang clipboard.",
+      "Nahahanap ng Hatch ang pader ng isang rehiyon lampas sa anumang nakaharang, pumupuno lampas sa fillet na dumadampi sa linyang hindi nito tinatapusan, at ang Hatch na walang hangganan ay hindi isinasama sa halip na i-save.",
+      "Kinukuha na ngayon ang arrowhead ng multileader mula sa estilo nito. Kasama na rin sa mga anonymous na ulat ng error ang mga linya ng error ng terminal.",
+    ],
+  },
+  "tr": {
+    title: "Daha anlaşılır içe aktarma ve pano mesajları; tarama ve çoklu lider düzeltmeleri",
+    highlights: [
+      "İçe aktarma artık terminalde neyin okunamadığını söylüyor: atlanan nesneler ve tablolar türe göre sayıyla listelenir, geçersiz dosya adıyla belirtilir. Dosya penceresini iptal etmek artık hiçbir şey yapmaz.",
+      "Pano mesajları artık bir kopyalama ya da yapıştırmanın neden reddedildiğini ve ne yapılacağını söylüyor — tarayıcının site ayarlarında panoya izin verin. Metne yapıştırırken pano reddedilirse uyarı verilir.",
+      "Hatch, bir bölgenin duvarını önündeki engellerin ötesinde bulur, bittiği çizgiye değmeyen bir yuvarlatmanın ötesini doldurur ve sınırı olmayan bir tarama kaydedilmek yerine dışarıda bırakılır.",
+      "Çoklu liderin ok ucu artık stilinden alınır. Terminalin hata satırları da anonim hata raporlarına dahil edilir.",
+    ],
+  },
+  "uk": {
+    title: "Зрозуміліші повідомлення імпорту та буфера обміну; виправлення штрихування й мультивиноски",
+    highlights: [
+      "Імпорт тепер повідомляє в терміналі, що не вдалося прочитати: пропущені об'єкти й таблиці перелічуються за типом із кількістю, а недійсний файл називається. Скасування діалогу вибору файлу тепер нічого не робить.",
+      "Повідомлення буфера обміну тепер пояснюють, чому копіювання чи вставлення відхилено і що робити — дозволити буфер обміну в налаштуваннях сайту браузера. Вставлення в текст попереджає, коли буфер обміну відхилено.",
+      "Hatch знаходить стіну області повз усе, що стоїть на шляху, заповнює повз спряження, яке торкається лінії, на якій не закінчується, а штрихування без межі пропускається замість збереження.",
+      "Стрілка мультивиноски тепер береться з її стилю. Рядки помилок терміналу також входять до анонімних звітів про помилки.",
+    ],
+  },
+  "ur": {
+    title: "درآمد اور کلپ بورڈ کے واضح پیغامات؛ Hatch اور Multileader کی درستیاں",
+    highlights: [
+      "درآمد اب ٹرمینل میں بتاتی ہے کہ کیا نہیں پڑھا جا سکا: چھوڑی گئی اشیاء اور جدول قسم اور تعداد کے ساتھ فہرست ہوتے ہیں، اور غلط فائل کا نام بتایا جاتا ہے۔ فائل ڈائیلاگ منسوخ کرنے پر اب کچھ نہیں ہوتا۔",
+      "کلپ بورڈ کے پیغامات اب بتاتے ہیں کہ کاپی یا پیسٹ کیوں مسترد ہوا اور کیا کرنا ہے — براؤزر کی سائٹ سیٹنگز میں کلپ بورڈ کی اجازت دیں۔ ٹیکسٹ میں پیسٹ کرتے وقت کلپ بورڈ مسترد ہو تو انتباہ ملتا ہے۔",
+      "Hatch اب رکاوٹ کے پار بھی علاقے کی دیوار ڈھونڈ لیتا ہے، ایسی فلیٹ کے پار بھی بھرتا ہے جو کسی ایسی لائن کو چھوتی ہے جس پر وہ ختم نہیں ہوتی، اور بغیر حد والا Hatch محفوظ کرنے کے بجائے چھوڑ دیا جاتا ہے۔",
+      "Multileader کا تیر اب اس کے اسٹائل سے لیا جاتا ہے۔ ٹرمینل کی خرابی والی لائنیں بھی گمنام خرابی رپورٹس میں شامل ہیں۔",
+    ],
+  },
+  "vi": {
+    title: "Thông báo nhập và bộ nhớ tạm rõ ràng hơn; sửa lỗi hatch và multileader",
+    highlights: [
+      "Nhập tệp giờ cho biết trong terminal những gì không đọc được: các thực thể và bảng bị bỏ qua được liệt kê theo loại kèm số lượng, và tệp không hợp lệ được nêu tên. Hủy hộp thoại chọn tệp giờ không làm gì cả.",
+      "Thông báo bộ nhớ tạm giờ cho biết vì sao thao tác sao chép hoặc dán bị từ chối và cần làm gì — cho phép bộ nhớ tạm trong cài đặt trang của trình duyệt. Dán vào văn bản sẽ cảnh báo khi bộ nhớ tạm bị từ chối.",
+      "Hatch tìm thấy thành của vùng vượt qua mọi thứ chắn đường, tô qua một đoạn bo góc chạm vào đường mà nó không kết thúc tại đó, và hatch không có biên được bỏ qua thay vì lưu.",
+      "Đầu mũi tên của multileader giờ được lấy từ kiểu của nó. Các dòng lỗi của terminal cũng được đưa vào báo cáo lỗi ẩn danh.",
+    ],
+  },
+  "zh": {
+    title: "导入与剪贴板提示更清晰；修复填充与多重引线",
+    highlights: [
+      "导入现在会在命令行中说明哪些内容无法读取：被跳过的图元和表按类型列出并附数量，无效文件会指明名称。取消文件对话框现在不会执行任何操作。",
+      "剪贴板提示现在会说明复制或粘贴被拒绝的原因及处理办法——在浏览器的网站设置中允许剪贴板。粘贴到文本时若剪贴板被拒绝会给出警告。",
+      "Hatch 能越过挡在途中的对象找到区域的边界，越过接触某条线但并未止于该线的圆角进行填充，没有边界的填充会被排除而不是保存。",
+      "多重引线的箭头现在取自其样式。命令行中的错误行也会包含在匿名错误报告中。",
+    ],
+  },
+};
+
 export const releases: Release[] = [
+  {
+    version: "2026.10.08.cd1bea9d",
+    date: "October 8, 2026",
+    title: "Clearer import and clipboard messages; hatch and multileader fixes",
+    highlights: [
+      "Import now says in the terminal what it could not read: skipped entities and tables are listed by type with a count, and an invalid file is named. Cancelling the file dialog now does nothing.",
+      "Clipboard messages now say why a copy or paste was refused and what to do about it — allow the clipboard in the browser's site settings. Pasting into text warns when the clipboard is refused.",
+      "Hatch finds a region's wall past whatever stands in it, fills past a fillet that touches a line it does not end on, and a hatch with no boundary is left out instead of saved.",
+      "A multileader's arrowhead is now taken from its style. The terminal's error lines are also included in the anonymous error reports.",
+    ],
+  },
   {
     version: "2026.10.06.21167efe",
     date: "October 6, 2026",
@@ -13816,5 +14118,8 @@ for (const [lang, release] of Object.entries(dimensionStyleReleaseTranslations))
   releaseTranslations[lang]?.unshift(release);
 }
 for (const [lang, release] of Object.entries(splineReleaseTranslations)) {
+  releaseTranslations[lang]?.unshift(release);
+}
+for (const [lang, release] of Object.entries(importReleaseTranslations)) {
   releaseTranslations[lang]?.unshift(release);
 }
