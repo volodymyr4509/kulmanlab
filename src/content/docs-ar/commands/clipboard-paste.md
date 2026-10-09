@@ -43,7 +43,7 @@ order: 18
 Clipboard has no copied entities
 ```
 
-وإذا رفض المتصفح الوصول إلى الحافظة كلياً، تكون الرسالة **Clipboard access denied** بدلاً من ذلك. وكلاهما ينهي الأمر دون تغيير الرسم.
+وإذا رفض المتصفح الوصول إلى الحافظة كلياً، تكون الرسالة **Blocked by the browser: allow clipboard in site settings, by the address bar** بدلاً من ذلك. وكلاهما ينهي الأمر دون تغيير الرسم.
 
 ## مرجع لوحة المفاتيح
 

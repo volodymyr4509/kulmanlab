@@ -64,7 +64,7 @@ KulmanLab automatically reopens the most recently edited file when the page load
 
 | Problem | Likely cause | Fix |
 |---------|-------------|-----|
-| Canvas is empty after import | DXF entities use unsupported types (e.g. HATCH, INSERT) | The entities were skipped — check for the "no entities found" message in the terminal |
+| Canvas is empty after import | DXF entities use unsupported types (e.g. INSERT) | The entities were skipped — the terminal lists each skipped type with a count, for example `Could not read INSERT: 12`. A file that is not a valid drawing at all reports `Could not read <file>: not a valid drawing file` |
 | Import button does nothing | Browser blocked the file picker | Click the button once more; some browsers require a fresh user gesture |
 | Dimensions look wrong | DXF from a tool that writes non-standard dimension geometry | Re-export from the source app using a current DXF version |
 

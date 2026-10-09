@@ -43,7 +43,7 @@ Tanging ang nilikha ng ClipboardCopy ang tinatanggap ng ClipboardPaste. Anumang 
 Clipboard has no copied entities
 ```
 
-Kung tuluyang tinanggihan ng browser ang pag-akses sa clipboard, ang mensahe ay **Clipboard access denied**. Pareho silang nagtatapos sa utos nang hindi binabago ang guhit.
+Kung tuluyang tinanggihan ng browser ang pag-akses sa clipboard, ang mensahe ay **Blocked by the browser: allow clipboard in site settings, by the address bar**. Pareho silang nagtatapos sa utos nang hindi binabago ang guhit.
 
 ## Sanggunian sa keyboard
 

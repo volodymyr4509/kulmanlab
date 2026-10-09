@@ -43,7 +43,7 @@ ClipboardPaste מקבלת רק תוכן ש-ClipboardCopy יצרה. כל דבר �
 Clipboard has no copied entities
 ```
 
-אם הדפדפן מסרב לגישה ללוח לחלוטין, ההודעה היא **Clipboard access denied**. שתיהן מסיימות את הפקודה בלי לשנות את השרטוט.
+אם הדפדפן מסרב לגישה ללוח לחלוטין, ההודעה היא **Blocked by the browser: allow clipboard in site settings, by the address bar**. שתיהן מסיימות את הפקודה בלי לשנות את השרטוט.
 
 ## מקשים
 

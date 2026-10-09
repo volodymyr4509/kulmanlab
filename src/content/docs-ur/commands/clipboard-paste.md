@@ -43,7 +43,7 @@ ClipboardPaste صرف وہی مواد قبول کرتی ہے جو ClipboardCopy 
 Clipboard has no copied entities
 ```
 
-اگر براؤزر کلپ بورڈ تک رسائی سے مکمل انکار کر دے تو پیغام **Clipboard access denied** ہوتا ہے۔ دونوں صورتوں میں کمانڈ نقشہ بدلے بغیر ختم ہو جاتی ہے۔
+اگر براؤزر کلپ بورڈ تک رسائی سے مکمل انکار کر دے تو پیغام **Blocked by the browser: allow clipboard in site settings, by the address bar** ہوتا ہے۔ دونوں صورتوں میں کمانڈ نقشہ بدلے بغیر ختم ہو جاتی ہے۔
 
 ## کی بورڈ حوالہ
 

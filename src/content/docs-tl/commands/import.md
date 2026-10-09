@@ -64,7 +64,7 @@ Awtomatikong binubuksan muli ng KulmanLab ang huling na-edit na file kapag nag-l
 
 | Problema | Malamang na sanhi | Ayos |
 |---------|-------------|-----|
-| Walang laman ang canvas pagkatapos mag-import | Gumagamit ang DXF entities ng unsupported types (hal. HATCH, INSERT) | Nili-skip ang mga entity — tingnan kung may "no entities found" na mensahe sa terminal |
+| Walang laman ang canvas pagkatapos mag-import | Gumagamit ang DXF entities ng unsupported types (hal. INSERT) | Nili-skip ang mga entity — inililista ng terminal ang bawat nilaktawang type kasama ang bilang, halimbawa `Could not read INSERT: 12`. Ang file na hindi talaga valid na guhit ay nag-uulat ng `Could not read <file>: not a valid drawing file` |
 | Walang ginagawa ang Import button | Na-block ng browser ang file picker | I-click muli ang button; kailangan ng ilang browser ng bagong user gesture |
 | Mali ang itsura ng Dimensions | DXF mula sa tool na sumusulat ng non-standard dimension geometry | I-export muli mula sa source app gamit ang kasalukuyang bersyon ng DXF |
 

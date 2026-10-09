@@ -64,7 +64,7 @@ O KulmanLab reabre automaticamente o arquivo editado mais recentemente quando a 
 
 | Problema | Causa provável | Solução |
 |----------|---------------|---------|
-| Canvas vazio após importação | Entidades DXF usam tipos não suportados (ex.: HATCH, INSERT) | As entidades foram ignoradas — verifique a mensagem "nenhuma entidade encontrada" no terminal |
+| Canvas vazio após importação | Entidades DXF usam tipos não suportados (ex.: INSERT) | As entidades foram ignoradas — o terminal lista cada tipo ignorado com uma contagem, por exemplo `Could not read INSERT: 12`. Um arquivo que não é um desenho válido informa `Could not read <file>: not a valid drawing file` |
 | Botão Import não faz nada | Navegador bloqueou o seletor de arquivo | Clique no botão mais uma vez; alguns navegadores requerem um novo gesto do usuário |
 | Cotas parecem erradas | DXF de uma ferramenta que escreve geometria de cota não padrão | Re-exporte do aplicativo fonte usando uma versão DXF atual |
 

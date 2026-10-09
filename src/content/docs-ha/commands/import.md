@@ -64,7 +64,7 @@ KulmanLab yana sake buɗe fayil ɗin da aka gyara kwanan nan kai tsaye idan shaf
 
 | Matsala | Sanadi mai yiwuwa | Gyara |
 |---------|-------------|-----|
-| Canvas babu kome bayan shigarwa | Abubuwan DXF suna amfani da nauʼukan marasa goyon baya (misali HATCH, INSERT) | An yi banza da abubuwan — duba saƙon "no entities found" a tashar umarni |
+| Canvas babu kome bayan shigarwa | Abubuwan DXF suna amfani da nauʼukan marasa goyon baya (misali INSERT) | An yi banza da abubuwan — tashar umarni tana lissafa kowane nau'in da aka tsallake tare da adadi, misali `Could not read INSERT: 12`. Fayil da ba zane mai inganci ba kwata-kwata yana nuna `Could not read <file>: not a valid drawing file` |
 | Maɓallin Import ba ya yin komai | Burauza ta toshe mai zaɓen fayil | Danna maɓallin sake; wasu burauza suna bukatar sabuwar motsi na mai amfani |
 | Girma-girma suna bayyana ba daidai ba | DXF daga kayan aiki wanda ke rubuta geometry na girma-girma mara ma'auni | Sake fitarwa daga manhajar tushe ta amfani da sigar DXF ta yanzu |
 

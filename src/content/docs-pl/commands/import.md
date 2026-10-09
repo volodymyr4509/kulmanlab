@@ -64,7 +64,7 @@ KulmanLab automatycznie ponownie otwiera ostatnio edytowany plik przy ładowaniu
 
 | Problem | Prawdopodobna przyczyna | Rozwiązanie |
 |---------|-------------|-----|
-| Płótno jest puste po imporcie | Elementy DXF używają nieobsługiwanych typów (np. HATCH, INSERT) | Elementy zostały pominięte — sprawdź komunikat "nie znaleziono elementów" w terminalu |
+| Płótno jest puste po imporcie | Elementy DXF używają nieobsługiwanych typów (np. INSERT) | Elementy zostały pominięte — terminal wypisuje każdy pominięty typ z liczbą, na przykład `Could not read INSERT: 12`. Plik, który w ogóle nie jest prawidłowym rysunkiem, zgłasza `Could not read <file>: not a valid drawing file` |
 | Przycisk importu nic nie robi | Przeglądarka zablokowała selektor plików | Kliknij przycisk jeszcze raz; niektóre przeglądarki wymagają nowego gestu użytkownika |
 | Wymiary wyglądają nieprawidłowo | DXF z narzędzia zapisującego niestandardową geometrię wymiarów | Ponownie wyeksportuj z aplikacji źródłowej używając aktualnej wersji DXF |
 

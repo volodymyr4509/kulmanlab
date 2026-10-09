@@ -64,7 +64,7 @@ KulmanLab rouvre automatiquement le fichier modifié le plus récemment quand la
 
 | Problème | Cause probable | Solution |
 |----------|----------------|----------|
-| Le canevas est vide après l'import | Les entités DXF utilisent des types non pris en charge (ex. HATCH, INSERT) | Les entités ont été ignorées — vérifiez le message "no entities found" dans le terminal |
+| Le canevas est vide après l'import | Les entités DXF utilisent des types non pris en charge (ex. INSERT) | Les entités ont été ignorées — le terminal liste chaque type ignoré avec un nombre, par exemple `Could not read INSERT: 12`. Un fichier qui n'est pas du tout un dessin valide signale `Could not read <file>: not a valid drawing file` |
 | Le bouton Import ne fait rien | Le navigateur a bloqué le sélecteur de fichiers | Cliquez à nouveau sur le bouton ; certains navigateurs nécessitent un nouveau geste de l'utilisateur |
 | Les cotes semblent incorrectes | DXF d'un outil qui écrit une géométrie de cotes non standard | Réexportez depuis l'application d'origine en utilisant une version DXF récente |
 

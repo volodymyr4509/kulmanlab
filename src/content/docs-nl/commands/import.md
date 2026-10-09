@@ -64,7 +64,7 @@ KulmanLab opent automatisch het meest recent bewerkte bestand opnieuw wanneer de
 
 | Probleem | Waarschijnlijke oorzaak | Oplossing |
 |---------|-------------|-----|
-| Canvas is leeg na import | DXF-entiteiten gebruiken niet-ondersteunde typen (bijv. HATCH, INSERT) | De entiteiten zijn overgeslagen — controleer op het bericht "no entities found" in de terminal |
+| Canvas is leeg na import | DXF-entiteiten gebruiken niet-ondersteunde typen (bijv. INSERT) | De entiteiten zijn overgeslagen — de terminal toont elk overgeslagen type met een aantal, bijvoorbeeld `Could not read INSERT: 12`. Een bestand dat helemaal geen geldige tekening is, meldt `Could not read <file>: not a valid drawing file` |
 | Import-knop doet niets | Browser heeft de bestandskiezer geblokkeerd | Klik nogmaals op de knop; sommige browsers vereisen een nieuwe gebruikersactie |
 | Maatvoering ziet er verkeerd uit | DXF van een tool die niet-standaard maatvoeringsgeometrie schrijft | Exporteer opnieuw vanuit de bronapplicatie met een actuele DXF-versie |
 

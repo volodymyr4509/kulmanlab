@@ -43,7 +43,7 @@ ClipboardPaste only accepts payloads that ClipboardCopy produced. Anything else 
 Clipboard has no copied entities
 ```
 
-If the browser refuses clipboard access entirely, the message is **Clipboard access denied** instead. Both end the command without changing the drawing.
+If the browser refuses clipboard access entirely, the message is **Blocked by the browser: allow clipboard in site settings, by the address bar** instead. Both end the command without changing the drawing.
 
 ## Keyboard reference
 

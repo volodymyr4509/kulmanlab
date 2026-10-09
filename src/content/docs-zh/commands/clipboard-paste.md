@@ -43,7 +43,7 @@ ClipboardPaste 只接受由 ClipboardCopy 生成的载荷。剪贴板上的其�
 Clipboard has no copied entities
 ```
 
-如果浏览器完全拒绝访问剪贴板，提示则为 **Clipboard access denied**。两者都会结束命令而不改动图形。
+如果浏览器完全拒绝访问剪贴板，提示则为 **Blocked by the browser: allow clipboard in site settings, by the address bar**。两者都会结束命令而不改动图形。
 
 ## 键盘参考
 

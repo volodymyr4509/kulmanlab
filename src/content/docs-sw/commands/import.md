@@ -64,7 +64,7 @@ KulmanLab hufungua upya kiotomatiki faili iliyohaririwa hivi karibuni zaidi ukur
 
 | Tatizo | Sababu inayowezekana | Suluhisho |
 |--------|----------------------|-----------|
-| Turubai ni tupu baada ya kuingiza | Viumbe vya DXF vinatumia aina zisizooungwa mkono (mfano HATCH, INSERT) | Viumbe vilipitwa — angalia ujumbe wa "no entities found" kwenye terminal |
+| Turubai ni tupu baada ya kuingiza | Viumbe vya DXF vinatumia aina zisizooungwa mkono (mfano INSERT) | Viumbe vilipitwa — terminal huorodhesha kila aina iliyorukwa pamoja na idadi, kwa mfano `Could not read INSERT: 12`. Faili ambayo si mchoro halali kabisa huripoti `Could not read <file>: not a valid drawing file` |
 | Kitufe cha Import hakifanyi chochote | Kivinjari kilizuia kichaguzi cha faili | Bonyeza kitufe mara moja zaidi; vivinjari vingine vinahitaji ishara mpya ya mtumiaji |
 | Vipimo vinaonekana vibaya | DXF kutoka kwa zana inayoandika jiometri ya kipimo isiyo ya kawaida | Hamisha tena kutoka kwa programu ya chanzo ukitumia toleo la sasa la DXF |
 

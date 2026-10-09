@@ -43,7 +43,7 @@ ClipboardPaste priima tik turinį, kurį sukūrė ClipboardCopy. Viskas kita iš
 Clipboard has no copied entities
 ```
 
-Jei naršyklė visiškai atsisako suteikti prieigą prie iškarpinės, pranešimas vietoj to yra **Clipboard access denied**. Abu atvejai užbaigia komandą nepakeitę brėžinio.
+Jei naršyklė visiškai atsisako suteikti prieigą prie iškarpinės, pranešimas vietoj to yra **Blocked by the browser: allow clipboard in site settings, by the address bar**. Abu atvejai užbaigia komandą nepakeitę brėžinio.
 
 ## Klavišų nuoroda
 

@@ -64,7 +64,7 @@ KulmanLab öppnar automatiskt den senast redigerade filen när sidan laddas. Om 
 
 | Problem | Trolig orsak | Åtgärd |
 |---------|-------------|-----|
-| Ritytan är tom efter import | DXF-entiteterna använder typer som inte stöds (t.ex. HATCH, INSERT) | Entiteterna hoppades över — leta efter meddelandet "no entities found" i terminalen |
+| Ritytan är tom efter import | DXF-entiteterna använder typer som inte stöds (t.ex. INSERT) | Entiteterna hoppades över — terminalen listar varje överhoppad typ med antal, till exempel `Could not read INSERT: 12`. En fil som inte alls är en giltig ritning rapporterar `Could not read <file>: not a valid drawing file` |
 | Import-knappen gör ingenting | Webbläsaren blockerade filväljaren | Klicka på knappen en gång till — vissa webbläsare kräver en ny användargest |
 | Dimensioner ser fel ut | DXF från ett verktyg som skriver icke-standardiserad dimensionsgeometri | Exportera på nytt från källprogrammet med en aktuell DXF-version |
 

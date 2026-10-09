@@ -43,7 +43,7 @@ ClipboardPaste приймає лише вміст, створений ClipboardC
 Clipboard has no copied entities
 ```
 
-Якщо браузер повністю відмовляє в доступі до буфера обміну, повідомлення буде **Clipboard access denied**. Обидва завершують команду, не змінюючи креслення.
+Якщо браузер повністю відмовляє в доступі до буфера обміну, повідомлення буде **Blocked by the browser: allow clipboard in site settings, by the address bar**. Обидва завершують команду, не змінюючи креслення.
 
 ## Довідник клавіш
 

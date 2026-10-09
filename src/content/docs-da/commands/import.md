@@ -64,7 +64,7 @@ KulmanLab genåbner automatisk den senest redigerede fil, når siden indlæses. 
 
 | Problem | Sandsynlig årsag | Løsning |
 |---------|-------------|-----|
-| Lærredet er tomt efter import | DXF-entiteter bruger typer der ikke understøttes (f.eks. HATCH, INSERT) | Entiteterne blev sprunget over — se efter meddelelsen "no entities found" i terminalen |
+| Lærredet er tomt efter import | DXF-entiteter bruger typer der ikke understøttes (f.eks. INSERT) | Entiteterne blev sprunget over — terminalen viser hver sprunget type med et antal, for eksempel `Could not read INSERT: 12`. En fil, der slet ikke er en gyldig tegning, giver `Could not read <file>: not a valid drawing file` |
 | Import-knappen gør ingenting | Browseren blokerede filvælgeren | Klik knappen én gang til; nogle browsere kræver en ny brugerhandling |
 | Mål ser forkerte ud | DXF fra et værktøj der skriver ikke-standard mål-geometri | Genexportér fra kildeapplikationen med en nyere DXF-version |
 

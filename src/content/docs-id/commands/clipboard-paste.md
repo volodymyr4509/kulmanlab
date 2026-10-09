@@ -43,7 +43,7 @@ ClipboardPaste hanya menerima muatan yang dihasilkan ClipboardCopy. Apa pun sela
 Clipboard has no copied entities
 ```
 
-Jika peramban menolak akses papan klip sepenuhnya, pesannya menjadi **Clipboard access denied**. Keduanya mengakhiri perintah tanpa mengubah gambar.
+Jika peramban menolak akses papan klip sepenuhnya, pesannya menjadi **Blocked by the browser: allow clipboard in site settings, by the address bar**. Keduanya mengakhiri perintah tanpa mengubah gambar.
 
 ## Rujukan papan ketik
 

@@ -43,7 +43,7 @@ ClipboardPaste accepteert alleen inhoud die ClipboardCopy heeft gemaakt. Al het 
 Clipboard has no copied entities
 ```
 
-Weigert de browser de toegang tot het klembord helemaal, dan luidt het bericht **Clipboard access denied**. Beide beëindigen de opdracht zonder de tekening te wijzigen.
+Weigert de browser de toegang tot het klembord helemaal, dan luidt het bericht **Blocked by the browser: allow clipboard in site settings, by the address bar**. Beide beëindigen de opdracht zonder de tekening te wijzigen.
 
 ## Toetsenbordoverzicht
 

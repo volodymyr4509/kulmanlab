@@ -64,7 +64,7 @@ KulmanLab reabre automáticamente el archivo editado más recientemente cuando s
 
 | Problema | Causa probable | Solución |
 |---------|-------------|-----|
-| El lienzo está vacío tras importar | Las entidades DXF usan tipos no admitidos (p. ej. HATCH, INSERT) | Las entidades fueron omitidas — comprueba el mensaje "no entities found" en el terminal |
+| El lienzo está vacío tras importar | Las entidades DXF usan tipos no admitidos (p. ej. INSERT) | Las entidades fueron omitidas — el terminal lista cada tipo omitido con su número, por ejemplo `Could not read INSERT: 12`. Un archivo que no es un dibujo válido informa `Could not read <file>: not a valid drawing file` |
 | El botón Import no hace nada | El navegador bloqueó el selector de archivos | Haz clic en el botón una vez más; algunos navegadores requieren un nuevo gesto del usuario |
 | Las dimensiones se ven incorrectas | DXF de una herramienta que escribe geometría de dimensiones no estándar | Vuelve a exportar desde la aplicación de origen usando una versión DXF actual |
 

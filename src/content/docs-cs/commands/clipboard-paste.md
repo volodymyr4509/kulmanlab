@@ -43,7 +43,7 @@ ClipboardPaste přijímá pouze obsah, který vytvořil ClipboardCopy. Cokoli ji
 Clipboard has no copied entities
 ```
 
-Pokud prohlížeč přístup ke schránce odmítne úplně, hlášení zní místo toho **Clipboard access denied**. Obojí příkaz ukončí bez změny výkresu.
+Pokud prohlížeč přístup ke schránce odmítne úplně, hlášení zní místo toho **Blocked by the browser: allow clipboard in site settings, by the address bar**. Obojí příkaz ukončí bez změny výkresu.
 
 ## Přehled kláves
 

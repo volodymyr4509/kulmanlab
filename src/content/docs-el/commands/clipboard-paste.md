@@ -43,7 +43,7 @@ order: 18
 Clipboard has no copied entities
 ```
 
-Αν ο browser αρνηθεί εντελώς την πρόσβαση στο πρόχειρο, το μήνυμα είναι **Clipboard access denied**. Και τα δύο τερματίζουν την εντολή χωρίς να αλλάξουν το σχέδιο.
+Αν ο browser αρνηθεί εντελώς την πρόσβαση στο πρόχειρο, το μήνυμα είναι **Blocked by the browser: allow clipboard in site settings, by the address bar**. Και τα δύο τερματίζουν την εντολή χωρίς να αλλάξουν το σχέδιο.
 
 ## Αναφορά πληκτρολογίου
 

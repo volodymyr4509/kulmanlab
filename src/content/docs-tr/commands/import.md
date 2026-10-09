@@ -64,7 +64,7 @@ KulmanLab, sayfa yüklendiğinde en son düzenlenen dosyayı otomatik olarak yen
 
 | Sorun | Olası neden | Çözüm |
 |---------|-------------|-----|
-| İçe aktarma sonrası tuval boş | DXF nesneleri desteklenmeyen türleri kullanıyor (örn. HATCH, INSERT) | Nesneler atlandı — terminaldeki "nesne bulunamadı" mesajını kontrol edin |
+| İçe aktarma sonrası tuval boş | DXF nesneleri desteklenmeyen türleri kullanıyor (örn. INSERT) | Nesneler atlandı — terminal atlanan her türü sayısıyla listeler, örneğin `Could not read INSERT: 12`. Geçerli bir çizim olmayan bir dosya şunu bildirir: `Could not read <file>: not a valid drawing file` |
 | Import düğmesi hiçbir şey yapmıyor | Tarayıcı dosya seçiciyi engelledi | Düğmeye bir kez daha tıklayın; bazı tarayıcılar yeni bir kullanıcı hareketi gerektirir |
 | Ölçüler yanlış görünüyor | DXF, standart dışı ölçü geometrisi yazan bir araçtan | Kaynak uygulamadan güncel DXF sürümü kullanarak yeniden dışa aktarın |
 

@@ -43,7 +43,7 @@ ClipboardPaste accetta solo contenuti prodotti da ClipboardCopy. Qualsiasi altra
 Clipboard has no copied entities
 ```
 
-Se il browser nega del tutto l'accesso agli appunti, il messaggio è invece **Clipboard access denied**. Entrambi terminano il comando senza modificare il disegno.
+Se il browser nega del tutto l'accesso agli appunti, il messaggio è invece **Blocked by the browser: allow clipboard in site settings, by the address bar**. Entrambi terminano il comando senza modificare il disegno.
 
 ## Riferimento tastiera
 

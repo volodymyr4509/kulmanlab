@@ -43,7 +43,7 @@ ClipboardPaste chỉ chấp nhận dữ liệu do ClipboardCopy tạo ra. Mọi 
 Clipboard has no copied entities
 ```
 
-Nếu trình duyệt từ chối hoàn toàn quyền truy cập bộ nhớ tạm, thông báo sẽ là **Clipboard access denied**. Cả hai đều kết thúc lệnh mà không thay đổi bản vẽ.
+Nếu trình duyệt từ chối hoàn toàn quyền truy cập bộ nhớ tạm, thông báo sẽ là **Blocked by the browser: allow clipboard in site settings, by the address bar**. Cả hai đều kết thúc lệnh mà không thay đổi bản vẽ.
 
 ## Tham chiếu bàn phím
 

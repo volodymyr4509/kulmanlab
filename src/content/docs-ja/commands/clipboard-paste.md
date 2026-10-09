@@ -43,7 +43,7 @@ ClipboardPaste は ClipboardCopy が生成したデータだけを受け付け�
 Clipboard has no copied entities
 ```
 
-ブラウザがクリップボードへのアクセスを完全に拒否した場合は、代わりに **Clipboard access denied** と表示されます。どちらの場合も図面を変更せずコマンドを終了します。
+ブラウザがクリップボードへのアクセスを完全に拒否した場合は、代わりに **Blocked by the browser: allow clipboard in site settings, by the address bar** と表示されます。どちらの場合も図面を変更せずコマンドを終了します。
 
 ## キーボード一覧
 

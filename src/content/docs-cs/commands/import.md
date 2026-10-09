@@ -64,7 +64,7 @@ KulmanLab při načtení stránky automaticky znovu otevře naposledy upravený 
 
 | Problém | Pravděpodobná příčina | Řešení |
 |---------|----------------------|--------|
-| Plátno je po importu prázdné | Objekty DXF používají nepodporované typy (např. INSERT) | Objekty byly přeskočeny — v terminálu zkontrolujte zprávu „no entities found" |
+| Plátno je po importu prázdné | Objekty DXF používají nepodporované typy (např. INSERT) | Objekty byly přeskočeny — terminál vypíše každý přeskočený typ s počtem, například `Could not read INSERT: 12`. Soubor, který vůbec není platný výkres, ohlásí `Could not read <file>: not a valid drawing file` |
 | Tlačítko Import nic nedělá | Prohlížeč zablokoval dialog výběru souboru | Klikněte na tlačítko ještě jednou; některé prohlížeče vyžadují novou akci uživatele |
 | Kóty vypadají špatně | DXF z nástroje, který zapisuje nestandardní geometrii kót | Znovu exportujte ze zdrojové aplikace v aktuální verzi DXF |
 

@@ -43,7 +43,7 @@ ClipboardPaste hyväksyy vain ClipboardCopyn tuottaman sisällön. Kaikki muu le
 Clipboard has no copied entities
 ```
 
-Jos selain epää pääsyn leikepöydälle kokonaan, viesti on sen sijaan **Clipboard access denied**. Molemmat päättävät komennon muuttamatta piirustusta.
+Jos selain epää pääsyn leikepöydälle kokonaan, viesti on sen sijaan **Blocked by the browser: allow clipboard in site settings, by the address bar**. Molemmat päättävät komennon muuttamatta piirustusta.
 
 ## Näppäimistöviite
 

@@ -64,7 +64,7 @@ KulmanLab secara otomatis membuka kembali file yang terakhir diedit ketika halam
 
 | Masalah | Kemungkinan penyebab | Perbaikan |
 |---------|-------------|-----|
-| Kanvas kosong setelah impor | Entitas DXF menggunakan tipe yang tidak didukung (mis. HATCH, INSERT) | Entitas dilewati — periksa pesan "no entities found" di terminal |
+| Kanvas kosong setelah impor | Entitas DXF menggunakan tipe yang tidak didukung (mis. INSERT) | Entitas dilewati — terminal mencantumkan setiap tipe yang dilewati beserta jumlahnya, misalnya `Could not read INSERT: 12`. File yang sama sekali bukan gambar valid melaporkan `Could not read <file>: not a valid drawing file` |
 | Tombol Import tidak melakukan apa-apa | Browser memblokir pemilih file | Klik tombol sekali lagi; beberapa browser memerlukan gerakan pengguna baru |
 | Dimensi terlihat salah | DXF dari alat yang menulis geometri dimensi non-standar | Ekspor ulang dari aplikasi sumber menggunakan versi DXF terkini |
 

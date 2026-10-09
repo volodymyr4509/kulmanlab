@@ -43,7 +43,7 @@ ClipboardPaste n'accepte que les contenus produits par ClipboardCopy. Tout le re
 Clipboard has no copied entities
 ```
 
-Si le navigateur refuse totalement l'accès au presse-papiers, le message est **Clipboard access denied**. Les deux mettent fin à la commande sans modifier le dessin.
+Si le navigateur refuse totalement l'accès au presse-papiers, le message est **Blocked by the browser: allow clipboard in site settings, by the address bar**. Les deux mettent fin à la commande sans modifier le dessin.
 
 ## Référence clavier
 

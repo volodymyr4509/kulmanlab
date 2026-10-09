@@ -64,7 +64,7 @@ KulmanLab avaa automaattisesti uudelleen viimeksi muokatun tiedoston sivun latau
 
 | Ongelma | Todennäköinen syy | Korjaus |
 |---------|-------------|-----|
-| Piirtoalue on tyhjä tuonnin jälkeen | DXF-entiteetit käyttävät tukemattomia tyyppejä (esim. HATCH, INSERT) | Entiteetit ohitettiin — tarkista "no entities found" -viesti terminaalissa |
+| Piirtoalue on tyhjä tuonnin jälkeen | DXF-entiteetit käyttävät tukemattomia tyyppejä (esim. INSERT) | Entiteetit ohitettiin — terminaali listaa jokaisen ohitetun tyypin määrineen, esimerkiksi `Could not read INSERT: 12`. Tiedosto, joka ei ole lainkaan kelvollinen piirustus, ilmoittaa `Could not read <file>: not a valid drawing file` |
 | Import-painike ei tee mitään | Selain esti tiedostovalitsimen | Napsauta painiketta uudelleen; jotkin selaimet vaativat uuden käyttäjäeleen |
 | Mitat näyttävät väärältä | DXF työkalusta, joka kirjoittaa epästandardia mittageometriaa | Vie uudelleen lähdesovelluksesta nykyisellä DXF-versiolla |
 

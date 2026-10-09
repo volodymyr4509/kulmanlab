@@ -57,7 +57,7 @@ Import thay thế canvas hiện tại. Không có tính năng hợp nhất hoặ
 
 | Vấn đề | Nguyên nhân có thể | Cách khắc phục |
 |--------|-----------------|--------------|
-| Canvas trống sau khi nhập | Thực thể DXF dùng loại không được hỗ trợ (ví dụ: HATCH, INSERT) | Các thực thể bị bỏ qua — kiểm tra thông báo trong terminal |
+| Canvas trống sau khi nhập | Thực thể DXF dùng loại không được hỗ trợ (ví dụ: INSERT) | Các thực thể bị bỏ qua — terminal liệt kê từng loại bị bỏ qua kèm số lượng, ví dụ `Could not read INSERT: 12`. Tệp hoàn toàn không phải bản vẽ hợp lệ sẽ báo `Could not read <file>: not a valid drawing file` |
 | Nút nhập không phản hồi | Trình duyệt chặn hộp chọn tệp | Nhấp nút thêm một lần nữa |
 
 ## Các lệnh liên quan

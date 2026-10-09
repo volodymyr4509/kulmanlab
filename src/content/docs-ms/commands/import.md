@@ -64,7 +64,7 @@ KulmanLab membuka semula fail yang paling baru-baru ini diedit secara automatik 
 
 | Masalah | Kemungkinan punca | Pembetulan |
 |---------|-------------------|-----------|
-| Kanvas kosong selepas import | Entiti DXF menggunakan jenis yang tidak disokong (cth. HATCH, INSERT) | Entiti dilangkau — semak mesej "no entities found" dalam terminal |
+| Kanvas kosong selepas import | Entiti DXF menggunakan jenis yang tidak disokong (cth. INSERT) | Entiti dilangkau — terminal menyenaraikan setiap jenis yang dilangkau beserta bilangan, contohnya `Could not read INSERT: 12`. Fail yang langsung bukan lukisan sah melaporkan `Could not read <file>: not a valid drawing file` |
 | Butang import tidak membuat apa-apa | Pelayar menyekat pemilih fail | Klik butang sekali lagi; sesetengah pelayar memerlukan isyarat pengguna baharu |
 | Dimensi kelihatan salah | DXF dari alat yang menulis geometri dimensi bukan standard | Eksport semula dari aplikasi sumber menggunakan versi DXF semasa |
 

@@ -43,7 +43,7 @@ ClipboardPaste yalnızca ClipboardCopy'nin ürettiği içeriği kabul eder. Pano
 Clipboard has no copied entities
 ```
 
-Tarayıcı pano erişimini tümüyle reddederse mesaj bunun yerine **Clipboard access denied** olur. Her ikisi de çizimi değiştirmeden komutu sonlandırır.
+Tarayıcı pano erişimini tümüyle reddederse mesaj bunun yerine **Blocked by the browser: allow clipboard in site settings, by the address bar** olur. Her ikisi de çizimi değiştirmeden komutu sonlandırır.
 
 ## Klavye başvurusu
 

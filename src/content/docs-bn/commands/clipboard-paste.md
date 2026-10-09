@@ -43,7 +43,7 @@ ClipboardPaste কেবল ClipboardCopy-এর তৈরি বিষয়ব
 Clipboard has no copied entities
 ```
 
-ব্রাউজার ক্লিপবোর্ডে প্রবেশ পুরোপুরি অস্বীকার করলে বার্তাটি হয় **Clipboard access denied**। দুটি ক্ষেত্রেই অঙ্কন না বদলে কমান্ড শেষ হয়ে যায়।
+ব্রাউজার ক্লিপবোর্ডে প্রবেশ পুরোপুরি অস্বীকার করলে বার্তাটি হয় **Blocked by the browser: allow clipboard in site settings, by the address bar**। দুটি ক্ষেত্রেই অঙ্কন না বদলে কমান্ড শেষ হয়ে যায়।
 
 ## কীবোর্ড রেফারেন্স
 

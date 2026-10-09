@@ -43,7 +43,7 @@ ClipboardPaste accepterar bara innehåll som ClipboardCopy skapat. Allt annat i 
 Clipboard has no copied entities
 ```
 
-Om webbläsaren nekar åtkomst till urklippet helt lyder meddelandet i stället **Clipboard access denied**. Båda avslutar kommandot utan att ändra ritningen.
+Om webbläsaren nekar åtkomst till urklippet helt lyder meddelandet i stället **Blocked by the browser: allow clipboard in site settings, by the address bar**. Båda avslutar kommandot utan att ändra ritningen.
 
 ## Tangentbordsreferens
 

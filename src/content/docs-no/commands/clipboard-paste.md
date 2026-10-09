@@ -43,7 +43,7 @@ ClipboardPaste godtar bare innhold som ClipboardCopy har laget. Alt annet på ut
 Clipboard has no copied entities
 ```
 
-Hvis nettleseren nekter tilgang til utklippstavlen helt, er meldingen i stedet **Clipboard access denied**. Begge avslutter kommandoen uten å endre tegningen.
+Hvis nettleseren nekter tilgang til utklippstavlen helt, er meldingen i stedet **Blocked by the browser: allow clipboard in site settings, by the address bar**. Begge avslutter kommandoen uten å endre tegningen.
 
 ## Tastaturreferanse
 

@@ -64,7 +64,7 @@ KulmanLab automatiškai vėl atveria paskutinį redaguotą failą įkėlus pusla
 
 | Problema | Tikėtina priežastis | Sprendimas |
 |----------|--------------------|-----------|
-| Drobė po importo tuščia | DXF objektai naudoja nepalaikomus tipus (pvz., INSERT) | Objektai buvo praleisti — terminale patikrinkite pranešimą „no entities found" |
+| Drobė po importo tuščia | DXF objektai naudoja nepalaikomus tipus (pvz., INSERT) | Objektai praleisti — terminalas išvardija kiekvieną praleistą tipą su skaičiumi, pavyzdžiui `Could not read INSERT: 12`. Failas, kuris apskritai nėra tinkamas brėžinys, pateikia `Could not read <file>: not a valid drawing file` |
 | Import mygtukas nieko nedaro | Naršyklė užblokavo failų pasirinkiklį | Spustelėkite mygtuką dar kartą; kai kurioms naršyklėms reikia naujo naudotojo veiksmo |
 | Matmenys atrodo neteisingai | DXF iš įrankio, rašančio nestandartinę matmenų geometriją | Iš naujo eksportuokite iš šaltinio programos naudodami dabartinę DXF versiją |
 

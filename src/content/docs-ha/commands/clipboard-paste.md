@@ -43,7 +43,7 @@ ClipboardPaste yana karɓar abin da ClipboardCopy ya samar kawai. Duk wani abu a
 Clipboard has no copied entities
 ```
 
-Idan burauza ta ƙi ba da damar shiga allon kwafe gaba ɗaya, saƙon zai zama **Clipboard access denied**. Dukansu suna ƙarasa umarnin ba tare da canja zanen ba.
+Idan burauza ta ƙi ba da damar shiga allon kwafe gaba ɗaya, saƙon zai zama **Blocked by the browser: allow clipboard in site settings, by the address bar**. Dukansu suna ƙarasa umarnin ba tare da canja zanen ba.
 
 ## Jagorar madannai
 

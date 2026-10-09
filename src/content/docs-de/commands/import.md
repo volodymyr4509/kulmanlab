@@ -64,7 +64,7 @@ KulmanLab öffnet beim Laden der Seite automatisch die zuletzt bearbeitete Datei
 
 | Problem | Wahrscheinliche Ursache | Lösung |
 |---------|------------------------|--------|
-| Zeichenfläche ist nach dem Import leer | DXF-Entitäten verwenden nicht unterstützte Typen (z.B. HATCH, INSERT) | Die Entitäten wurden übersprungen — suchen Sie nach der Meldung „keine Entitäten gefunden" im Terminal |
+| Zeichenfläche ist nach dem Import leer | DXF-Entitäten verwenden nicht unterstützte Typen (z.B. INSERT) | Die Entitäten wurden übersprungen — das Terminal listet jeden übersprungenen Typ mit Anzahl auf, zum Beispiel `Could not read INSERT: 12`. Eine Datei, die gar keine gültige Zeichnung ist, meldet `Could not read <file>: not a valid drawing file` |
 | Import-Schaltfläche reagiert nicht | Browser hat die Dateiauswahl blockiert | Klicken Sie die Schaltfläche erneut; manche Browser erfordern eine neue Benutzergeste |
 | Bemaßungen sehen falsch aus | DXF aus einem Werkzeug, das nicht standardkonforme Bemaßungsgeometrie schreibt | Aus der Quellanwendung erneut mit einer aktuellen DXF-Version exportieren |
 

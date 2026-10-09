@@ -43,7 +43,7 @@ ClipboardPaste akzeptiert nur Nutzlasten, die ClipboardCopy erzeugt hat. Alles a
 Clipboard has no copied entities
 ```
 
-Verweigert der Browser den Zugriff auf die Zwischenablage vollständig, lautet die Meldung stattdessen **Clipboard access denied**. Beide beenden den Befehl, ohne die Zeichnung zu verändern.
+Verweigert der Browser den Zugriff auf die Zwischenablage vollständig, lautet die Meldung stattdessen **Blocked by the browser: allow clipboard in site settings, by the address bar**. Beide beenden den Befehl, ohne die Zeichnung zu verändern.
 
 ## Tastaturübersicht
 

@@ -43,7 +43,7 @@ ClipboardPaste solo acepta cargas producidas por ClipboardCopy. Cualquier otra c
 Clipboard has no copied entities
 ```
 
-Si el navegador deniega por completo el acceso al portapapeles, el mensaje es **Clipboard access denied**. Ambos terminan el comando sin modificar el dibujo.
+Si el navegador deniega por completo el acceso al portapapeles, el mensaje es **Blocked by the browser: allow clipboard in site settings, by the address bar**. Ambos terminan el comando sin modificar el dibujo.
 
 ## Referencia de teclado
 

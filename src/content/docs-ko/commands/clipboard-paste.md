@@ -43,7 +43,7 @@ ClipboardPaste는 ClipboardCopy가 만든 데이터만 받아들입니다. 클�
 Clipboard has no copied entities
 ```
 
-브라우저가 클립보드 접근을 아예 거부하면 메시지는 **Clipboard access denied**가 됩니다. 두 경우 모두 도면을 바꾸지 않고 명령을 끝냅니다.
+브라우저가 클립보드 접근을 아예 거부하면 메시지는 **Blocked by the browser: allow clipboard in site settings, by the address bar**가 됩니다. 두 경우 모두 도면을 바꾸지 않고 명령을 끝냅니다.
 
 ## 키보드 참조
 

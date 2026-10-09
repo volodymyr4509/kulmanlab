@@ -43,7 +43,7 @@ ClipboardPaste przyjmuje wyłącznie zawartość utworzoną przez ClipboardCopy.
 Clipboard has no copied entities
 ```
 
-Jeśli przeglądarka całkowicie odmówi dostępu do schowka, komunikat brzmi **Clipboard access denied**. Oba kończą polecenie bez zmian w rysunku.
+Jeśli przeglądarka całkowicie odmówi dostępu do schowka, komunikat brzmi **Blocked by the browser: allow clipboard in site settings, by the address bar**. Oba kończą polecenie bez zmian w rysunku.
 
 ## Skróty klawiaturowe
 

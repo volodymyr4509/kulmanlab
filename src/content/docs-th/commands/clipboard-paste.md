@@ -43,7 +43,7 @@ ClipboardPaste รับเฉพาะข้อมูลที่ ClipboardCopy
 Clipboard has no copied entities
 ```
 
-หากเบราว์เซอร์ปฏิเสธการเข้าถึงคลิปบอร์ดโดยสิ้นเชิง ข้อความจะเป็น **Clipboard access denied** แทน ทั้งสองกรณีจบคำสั่งโดยไม่เปลี่ยนแปลงแบบ
+หากเบราว์เซอร์ปฏิเสธการเข้าถึงคลิปบอร์ดโดยสิ้นเชิง ข้อความจะเป็น **Blocked by the browser: allow clipboard in site settings, by the address bar** แทน ทั้งสองกรณีจบคำสั่งโดยไม่เปลี่ยนแปลงแบบ
 
 ## ปุ่มลัดที่ใช้ได้
 

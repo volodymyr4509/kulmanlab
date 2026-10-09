@@ -43,7 +43,7 @@ O ClipboardPaste só aceita conteúdo produzido pelo ClipboardCopy. Qualquer out
 Clipboard has no copied entities
 ```
 
-Se o navegador recusar totalmente o acesso à área de transferência, a mensagem é **Clipboard access denied**. Ambas encerram o comando sem alterar o desenho.
+Se o navegador recusar totalmente o acesso à área de transferência, a mensagem é **Blocked by the browser: allow clipboard in site settings, by the address bar**. Ambas encerram o comando sem alterar o desenho.
 
 ## Referência de teclado
 

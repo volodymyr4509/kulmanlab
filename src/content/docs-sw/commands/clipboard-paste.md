@@ -43,7 +43,7 @@ ClipboardPaste hukubali tu kilichotengenezwa na ClipboardCopy. Kingine chochote 
 Clipboard has no copied entities
 ```
 
-Kama kivinjari kikikataa kabisa ufikiaji wa ubao wa kunakili, ujumbe huwa **Clipboard access denied**. Vyote viwili humaliza amri bila kubadilisha mchoro.
+Kama kivinjari kikikataa kabisa ufikiaji wa ubao wa kunakili, ujumbe huwa **Blocked by the browser: allow clipboard in site settings, by the address bar**. Vyote viwili humaliza amri bila kubadilisha mchoro.
 
 ## Marejeo ya kibodi
 
