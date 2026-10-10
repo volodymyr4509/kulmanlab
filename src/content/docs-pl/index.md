@@ -17,6 +17,7 @@ Witaj w dokumentacji poleceń **KulmanLab CAD**. [KulmanLab CAD](https://kulmanl
 | [Line](./commands/line/) | Rysuje prostą linię między dwoma punktami |
 | [Polyline](./commands/polyline/) | Rysuje wielosegmentową otwartą ścieżkę |
 | [Rectangle](./commands/rectangle/) | Rysuje prostokąt wyrównany do osi |
+| [Polygon](./commands/polygon/) | Rysuje wielokąt foremny ze środka lub z boku |
 | [Circle](./commands/circle/) | Rysuje okrąg przez środek i promień |
 | [Arc](./commands/arc/) | Rysuje łuk przez trzy punkty |
 | [Ellipse](./commands/ellipse/) | Rysuje elipsę przez środek i dwie osie |

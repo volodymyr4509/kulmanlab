@@ -17,6 +17,7 @@ order: 1
 | [Line](./commands/line/) | दो बिंदुओं के बीच एक सीधी रेखा खींचें |
 | [Polyline](./commands/polyline/) | एक बहु-खंड खुला पथ बनाएं |
 | [Rectangle](./commands/rectangle/) | अक्ष-संरेखित आयत बनाएं |
+| [Polygon](./commands/polygon/) | केंद्र या किनारे से नियमित बहुभुज बनाएँ |
 | [Circle](./commands/circle/) | केंद्र और त्रिज्या से वृत्त बनाएं |
 | [Arc](./commands/arc/) | तीन बिंदुओं से होकर चाप बनाएं |
 | [Ellipse](./commands/ellipse/) | केंद्र और दो अक्षों से दीर्घवृत्त बनाएं |

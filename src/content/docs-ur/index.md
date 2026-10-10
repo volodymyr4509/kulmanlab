@@ -17,6 +17,7 @@ order: 1
 | [Line](./commands/line/) | دو نقاط کے درمیان ایک سیدھی لائن کھینچیں |
 | [Polyline](./commands/polyline/) | ایک کثیر-حصہ کھلا راستہ کھینچیں |
 | [Rectangle](./commands/rectangle/) | ایک محور-سیدھ مستطیل کھینچیں |
+| [Polygon](./commands/polygon/) | مرکز یا کنارے سے باقاعدہ کثیر الاضلاع بنائیں |
 | [Circle](./commands/circle/) | مرکز اور نصف قطر سے ایک دائرہ کھینچیں |
 | [Arc](./commands/arc/) | تین نقاط سے گزرتا ہوا ایک قوس کھینچیں |
 | [Ellipse](./commands/ellipse/) | مرکز اور دو محوروں سے ایک بیضوی کھینچیں |

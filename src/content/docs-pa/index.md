@@ -17,6 +17,7 @@ order: 1
 | [Line](./commands/line/) | ਦੋ ਬਿੰਦੂਆਂ ਵਿਚਕਾਰ ਸਿੱਧੀ ਰੇਖਾ ਖਿੱਚੋ |
 | [Polyline](./commands/polyline/) | ਬਹੁ-ਖੰਡ ਖੁੱਲ੍ਹਾ ਮਾਰਗ ਬਣਾਓ |
 | [Rectangle](./commands/rectangle/) | ਧੁਰੇ-ਸੰਰੇਖਿਤ ਆਇਤ ਬਣਾਓ |
+| [Polygon](./commands/polygon/) | ਕੇਂਦਰ ਜਾਂ ਕਿਨਾਰੇ ਤੋਂ ਨਿਯਮਿਤ ਬਹੁਭੁਜ ਬਣਾਓ |
 | [Circle](./commands/circle/) | ਕੇਂਦਰ ਅਤੇ ਰੇਡੀਅਸ ਤੋਂ ਚੱਕਰ ਬਣਾਓ |
 | [Arc](./commands/arc/) | ਤਿੰਨ ਬਿੰਦੂਆਂ ਰਾਹੀਂ ਚਾਪ ਬਣਾਓ |
 | [Ellipse](./commands/ellipse/) | ਕੇਂਦਰ ਅਤੇ ਦੋ ਧੁਰਿਆਂ ਤੋਂ ਅੰਡਾਕਾਰ ਬਣਾਓ |

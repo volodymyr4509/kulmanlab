@@ -17,6 +17,7 @@ Tervetuloa **KulmanLab CAD**:in komentoreferenssiin. [KulmanLab CAD](https://kul
 | [Line](./commands/line/) | Piirrä suora viiva kahden pisteen välille |
 | [Polyline](./commands/polyline/) | Piirrä avoin useasta segmentistä koostuva polku |
 | [Rectangle](./commands/rectangle/) | Piirrä akseleihin kohdistettu suorakulmio |
+| [Polygon](./commands/polygon/) | Piirrä säännöllinen monikulmio keskipisteestä tai sivusta |
 | [Circle](./commands/circle/) | Piirrä ympyrä keskipisteen ja säteen avulla |
 | [Arc](./commands/arc/) | Piirrä kaari kolmen pisteen kautta |
 | [Ellipse](./commands/ellipse/) | Piirrä ellipsi keskipisteen ja kahden akselin avulla |

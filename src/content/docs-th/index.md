@@ -17,6 +17,7 @@ order: 1
 | [Line](./commands/line/) | วาดเส้นตรงระหว่างสองจุด |
 | [Polyline](./commands/polyline/) | วาดเส้นทางหลายส่วนแบบเปิด |
 | [Rectangle](./commands/rectangle/) | วาดสี่เหลี่ยมผืนผ้าแนวแกน |
+| [Polygon](./commands/polygon/) | วาดรูปหลายเหลี่ยมปกติจากจุดศูนย์กลางหรือขอบ |
 | [Circle](./commands/circle/) | วาดวงกลมด้วยจุดศูนย์กลางและรัศมี |
 | [Arc](./commands/arc/) | วาดส่วนโค้งผ่านสามจุด |
 | [Ellipse](./commands/ellipse/) | วาดวงรีด้วยจุดศูนย์กลางและสองแกน |

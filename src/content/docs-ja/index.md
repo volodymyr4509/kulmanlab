@@ -17,6 +17,7 @@ order: 1
 | [Line](./commands/line/) | 2 点間に直線を描く |
 | [Polyline](./commands/polyline/) | 複数セグメントの開いたパスを描く |
 | [Rectangle](./commands/rectangle/) | 軸平行な長方形を描く |
+| [Polygon](./commands/polygon/) | 中心または辺から正多角形を描く |
 | [Circle](./commands/circle/) | 中心と半径で円を描く |
 | [Arc](./commands/arc/) | 3 点を通る円弧を描く |
 | [Ellipse](./commands/ellipse/) | 中心と 2 軸で楕円を描く |

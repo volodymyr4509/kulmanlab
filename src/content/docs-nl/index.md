@@ -17,6 +17,7 @@ Welkom bij de **KulmanLab CAD**-opdrachtreferentie. [KulmanLab CAD](https://kulm
 | [Line](./commands/line/) | Teken een rechte lijn tussen twee punten |
 | [Polyline](./commands/polyline/) | Teken een open pad met meerdere segmenten |
 | [Rectangle](./commands/rectangle/) | Teken een aslijn-uitgelijnde rechthoek |
+| [Polygon](./commands/polygon/) | Teken een regelmatige veelhoek vanuit het middelpunt of een zijde |
 | [Circle](./commands/circle/) | Teken een cirkel op basis van middelpunt en straal |
 | [Arc](./commands/arc/) | Teken een boog door drie punten |
 | [Ellipse](./commands/ellipse/) | Teken een ellips op basis van middelpunt en twee assen |

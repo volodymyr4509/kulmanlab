@@ -17,6 +17,7 @@ order: 1
 | [Line](./commands/line/) | Намалювати пряму лінію між двома точками |
 | [Polyline](./commands/polyline/) | Намалювати багатосегментний шлях |
 | [Rectangle](./commands/rectangle/) | Намалювати прямокутник паралельний осям |
+| [Polygon](./commands/polygon/) | Намалювати правильний багатокутник від центра або сторони |
 | [Circle](./commands/circle/) | Намалювати коло за центром та радіусом |
 | [Arc](./commands/arc/) | Намалювати дугу через три точки |
 | [Ellipse](./commands/ellipse/) | Намалювати еліпс за центром та двома осями |

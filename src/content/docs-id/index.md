@@ -17,6 +17,7 @@ Selamat datang di referensi perintah **KulmanLab CAD**. [KulmanLab CAD](https://
 | [Line](./commands/line/) | Menggambar garis lurus antara dua titik |
 | [Polyline](./commands/polyline/) | Menggambar jalur terbuka multi-segmen |
 | [Rectangle](./commands/rectangle/) | Menggambar persegi panjang sejajar sumbu |
+| [Polygon](./commands/polygon/) | Gambar poligon beraturan dari pusat atau sisi |
 | [Circle](./commands/circle/) | Menggambar lingkaran berdasarkan pusat dan radius |
 | [Arc](./commands/arc/) | Menggambar busur melalui tiga titik |
 | [Ellipse](./commands/ellipse/) | Menggambar elips berdasarkan pusat dan dua sumbu |

@@ -17,6 +17,7 @@ Selamat datang ke rujukan arahan **KulmanLab CAD**. [KulmanLab CAD](https://kulm
 | [Line](./commands/line/) | Lukis garis lurus antara dua titik |
 | [Polyline](./commands/polyline/) | Lukis laluan terbuka berbilang segmen |
 | [Rectangle](./commands/rectangle/) | Lukis segi empat tepat sejajar paksi |
+| [Polygon](./commands/polygon/) | Lukis poligon sekata dari pusat atau sisi |
 | [Circle](./commands/circle/) | Lukis bulatan mengikut pusat dan jejari |
 | [Arc](./commands/arc/) | Lukis lengkok melalui tiga titik |
 | [Ellipse](./commands/ellipse/) | Lukis elips mengikut pusat dan dua paksi |

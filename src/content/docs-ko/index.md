@@ -17,6 +17,7 @@ order: 1
 | [Line](./commands/line/) | 두 점 사이에 직선 그리기 |
 | [Polyline](./commands/polyline/) | 여러 선분으로 이루어진 열린 경로 그리기 |
 | [Rectangle](./commands/rectangle/) | 축 정렬 직사각형 그리기 |
+| [Polygon](./commands/polygon/) | 중심 또는 변으로 정다각형 그리기 |
 | [Circle](./commands/circle/) | 중심점과 반지름으로 원 그리기 |
 | [Arc](./commands/arc/) | 세 점을 통과하는 호 그리기 |
 | [Ellipse](./commands/ellipse/) | 중심점과 두 축으로 타원 그리기 |

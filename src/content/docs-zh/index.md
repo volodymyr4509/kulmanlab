@@ -17,6 +17,7 @@ order: 1
 | [Line](./commands/line/) | 在两点之间绘制直线 |
 | [Polyline](./commands/polyline/) | 绘制多段开放路径 |
 | [Rectangle](./commands/rectangle/) | 绘制轴对齐矩形 |
+| [Polygon](./commands/polygon/) | 从中心或边绘制正多边形 |
 | [Circle](./commands/circle/) | 通过圆心和半径绘制圆 |
 | [Arc](./commands/arc/) | 通过三点绘制圆弧 |
 | [Ellipse](./commands/ellipse/) | 通过圆心和两轴绘制椭圆 |

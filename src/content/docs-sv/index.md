@@ -17,6 +17,7 @@ Välkommen till **KulmanLab CAD**-kommandoreferensen. [KulmanLab CAD](https://ku
 | [Line](./commands/line/) | Rita en rak linje mellan två punkter |
 | [Polyline](./commands/polyline/) | Rita en öppen bana med flera segment |
 | [Rectangle](./commands/rectangle/) | Rita en axeljusterad rektangel |
+| [Polygon](./commands/polygon/) | Rita en regelbunden månghörning från centrum eller en kant |
 | [Circle](./commands/circle/) | Rita en cirkel med centrum och radie |
 | [Arc](./commands/arc/) | Rita en cirkelbåge genom tre punkter |
 | [Ellipse](./commands/ellipse/) | Rita en ellips med centrum och två axlar |

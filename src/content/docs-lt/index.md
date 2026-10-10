@@ -17,6 +17,7 @@ Sveiki atvykę į **KulmanLab CAD** komandų žinyną. [KulmanLab CAD](https://k
 | [Line](./commands/line/) | Nubrėžia tiesią liniją tarp dviejų taškų |
 | [Polyline](./commands/polyline/) | Nubrėžia daugiaatkarpį atvirą kelią |
 | [Rectangle](./commands/rectangle/) | Nubrėžia ašims lygiagretų stačiakampį |
+| [Polygon](./commands/polygon/) | Nubraižykite taisyklingą daugiakampį iš centro ar kraštinės |
 | [Circle](./commands/circle/) | Nubrėžia apskritimą pagal centrą ir spindulį |
 | [Arc](./commands/arc/) | Nubrėžia lanką per tris taškus |
 | [Ellipse](./commands/ellipse/) | Nubrėžia elipsę pagal centrą ir dvi ašis |

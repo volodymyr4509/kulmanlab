@@ -17,6 +17,7 @@ Bienvenue dans la référence des commandes **KulmanLab CAD**. [KulmanLab CAD](h
 | [Line](./commands/line/) | Trace un segment de droite entre deux points |
 | [Polyline](./commands/polyline/) | Trace un chemin ouvert multi-segments |
 | [Rectangle](./commands/rectangle/) | Trace un rectangle aligné sur les axes |
+| [Polygon](./commands/polygon/) | Trace un polygone régulier depuis son centre ou un côté |
 | [Circle](./commands/circle/) | Trace un cercle par centre et rayon |
 | [Arc](./commands/arc/) | Trace un arc à travers trois points |
 | [Ellipse](./commands/ellipse/) | Trace une ellipse par centre et deux axes |

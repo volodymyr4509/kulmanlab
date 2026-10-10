@@ -17,6 +17,7 @@ order: 1
 | [Line](./commands/line/) | שרטוט קו ישר בין שתי נקודות |
 | [Polyline](./commands/polyline/) | שרטוט נתיב פתוח מרובה-קטעים |
 | [Rectangle](./commands/rectangle/) | שרטוט מלבן מיושר-צירים |
+| [Polygon](./commands/polygon/) | ציור מצולע משוכלל ממרכז או מצלע |
 | [Circle](./commands/circle/) | שרטוט מעגל לפי מרכז ורדיוס |
 | [Arc](./commands/arc/) | שרטוט קשת דרך שלוש נקודות |
 | [Ellipse](./commands/ellipse/) | שרטוט אליפסה לפי מרכז ושני צירים |

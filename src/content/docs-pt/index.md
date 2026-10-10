@@ -17,6 +17,7 @@ Bem-vindo à referência de comandos do **KulmanLab CAD**. O [KulmanLab CAD](htt
 | [Line](./commands/line/) | Desenha um segmento de linha entre dois pontos |
 | [Polyline](./commands/polyline/) | Desenha um caminho aberto com múltiplos segmentos |
 | [Rectangle](./commands/rectangle/) | Desenha um retângulo alinhado aos eixos |
+| [Polygon](./commands/polygon/) | Desenhe um polígono regular a partir do centro ou de um lado |
 | [Circle](./commands/circle/) | Desenha um círculo pelo centro e raio |
 | [Arc](./commands/arc/) | Desenha um arco por três pontos |
 | [Ellipse](./commands/ellipse/) | Desenha uma elipse pelo centro e dois eixos |

@@ -17,6 +17,7 @@ Velkommen til **KulmanLab CAD**s kommandoreferanse. [KulmanLab CAD](https://kulm
 | [Line](./commands/line/) | Tegn en rett linje mellom to punkter |
 | [Polyline](./commands/polyline/) | Tegn en åpen bane med flere segmenter |
 | [Rectangle](./commands/rectangle/) | Tegn et aksejustert rektangel |
+| [Polygon](./commands/polygon/) | Tegn en regulær mangekant fra sentrum eller en kant |
 | [Circle](./commands/circle/) | Tegn en sirkel med senter og radius |
 | [Arc](./commands/arc/) | Tegn en bue gjennom tre punkter |
 | [Ellipse](./commands/ellipse/) | Tegn en ellipse med senter og to akser |

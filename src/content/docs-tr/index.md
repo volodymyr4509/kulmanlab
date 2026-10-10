@@ -17,6 +17,7 @@ order: 1
 | [Line](./commands/line/) | İki nokta arasında düz çizgi çizer |
 | [Polyline](./commands/polyline/) | Çok segmentli yol çizer |
 | [Rectangle](./commands/rectangle/) | Eksenlere paralel dikdörtgen çizer |
+| [Polygon](./commands/polygon/) | Merkezden veya kenardan düzgün çokgen çizin |
 | [Circle](./commands/circle/) | Merkez ve yarıçapa göre daire çizer |
 | [Arc](./commands/arc/) | Üç nokta üzerinden yay çizer |
 | [Ellipse](./commands/ellipse/) | Merkez ve iki eksen üzerinden elips çizer |

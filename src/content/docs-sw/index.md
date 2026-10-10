@@ -17,6 +17,7 @@ Karibu kwenye marejeo ya amri za **KulmanLab CAD**. [KulmanLab CAD](https://kulm
 | [Line](./commands/line/) | Chora mstari ulio wazi kati ya pointi mbili |
 | [Polyline](./commands/polyline/) | Chora njia wazi yenye sehemu nyingi |
 | [Rectangle](./commands/rectangle/) | Chora mstatili uliolingana na mhimili |
+| [Polygon](./commands/polygon/) | Chora poligoni ya kawaida kutoka katikati au ukingo |
 | [Circle](./commands/circle/) | Chora duara kwa kituo na radi |
 | [Arc](./commands/arc/) | Chora upinde kupitia pointi tatu |
 | [Ellipse](./commands/ellipse/) | Chora duaradufu kwa kituo na mihimili miwili |

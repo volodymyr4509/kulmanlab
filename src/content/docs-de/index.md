@@ -17,6 +17,7 @@ Willkommen bei der **KulmanLab CAD** Befehlsreferenz. [KulmanLab CAD](https://ku
 | [Line](./commands/line/) | Gerade Linie zwischen zwei Punkten zeichnen |
 | [Polyline](./commands/polyline/) | Mehrsegmentigen offenen Pfad zeichnen |
 | [Rectangle](./commands/rectangle/) | Achsenparalleles Rechteck zeichnen |
+| [Polygon](./commands/polygon/) | Ein regelmäßiges Vieleck aus Mittelpunkt oder Kante zeichnen |
 | [Circle](./commands/circle/) | Kreis durch Mittelpunkt und Radius zeichnen |
 | [Arc](./commands/arc/) | Bogen durch drei Punkte zeichnen |
 | [Ellipse](./commands/ellipse/) | Ellipse durch Mittelpunkt und zwei Achsen zeichnen |

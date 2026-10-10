@@ -17,6 +17,7 @@ Welcome to the **KulmanLab CAD** command reference. [KulmanLab CAD](https://kulm
 | [Line](./commands/line/) | Draw a straight line between two points |
 | [Polyline](./commands/polyline/) | Draw a multi-segment open path |
 | [Rectangle](./commands/rectangle/) | Draw an axis-aligned rectangle |
+| [Polygon](./commands/polygon/) | Draw a regular polygon from its center or an edge |
 | [Circle](./commands/circle/) | Draw a circle by center and radius |
 | [Arc](./commands/arc/) | Draw an arc through three points |
 | [Ellipse](./commands/ellipse/) | Draw an ellipse by center and two axes |

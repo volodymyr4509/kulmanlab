@@ -17,6 +17,7 @@ order: 1
 | [Line](./commands/line/) | رسم خط مستقيم بين نقطتين |
 | [Polyline](./commands/polyline/) | رسم مسار مفتوح متعدد المقاطع |
 | [Rectangle](./commands/rectangle/) | رسم مستطيل موازٍ للمحاور |
+| [Polygon](./commands/polygon/) | رسم مضلع منتظم من مركزه أو من حافة |
 | [Circle](./commands/circle/) | رسم دائرة بالمركز والنصف قطر |
 | [Arc](./commands/arc/) | رسم قوس يمر بثلاث نقاط |
 | [Ellipse](./commands/ellipse/) | رسم قطع ناقص بالمركز ومحورين |

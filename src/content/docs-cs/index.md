@@ -17,6 +17,7 @@ Vítejte v přehledu příkazů **KulmanLab CAD**. [KulmanLab CAD](https://kulma
 | [Line](./commands/line/) | Nakreslí přímou úsečku mezi dvěma body |
 | [Polyline](./commands/polyline/) | Nakreslí vícesegmentovou otevřenou cestu |
 | [Rectangle](./commands/rectangle/) | Nakreslí obdélník zarovnaný s osami |
+| [Polygon](./commands/polygon/) | Nakreslí pravidelný mnohoúhelník ze středu nebo z hrany |
 | [Circle](./commands/circle/) | Nakreslí kružnici podle středu a poloměru |
 | [Arc](./commands/arc/) | Nakreslí oblouk přes tři body |
 | [Ellipse](./commands/ellipse/) | Nakreslí elipsu podle středu a dvou os |

@@ -17,6 +17,7 @@ Benvenuto nel riferimento comandi di **KulmanLab CAD**. [KulmanLab CAD](https://
 | [Line](./commands/line/) | Traccia un segmento tra due punti |
 | [Polyline](./commands/polyline/) | Traccia un percorso aperto multi-segmento |
 | [Rectangle](./commands/rectangle/) | Traccia un rettangolo allineato agli assi |
+| [Polygon](./commands/polygon/) | Disegna un poligono regolare dal centro o da un lato |
 | [Circle](./commands/circle/) | Traccia un cerchio per centro e raggio |
 | [Arc](./commands/arc/) | Traccia un arco attraverso tre punti |
 | [Ellipse](./commands/ellipse/) | Traccia un'ellisse per centro e due assi |

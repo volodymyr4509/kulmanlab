@@ -17,6 +17,7 @@ Chào mừng bạn đến với tài liệu tham khảo lệnh **KulmanLab CAD**
 | [Line](./commands/line/) | Vẽ đường thẳng giữa hai điểm |
 | [Polyline](./commands/polyline/) | Vẽ đường đa đoạn nhiều khúc |
 | [Rectangle](./commands/rectangle/) | Vẽ hình chữ nhật căn theo trục |
+| [Polygon](./commands/polygon/) | Vẽ đa giác đều từ tâm hoặc cạnh |
 | [Circle](./commands/circle/) | Vẽ hình tròn theo tâm và bán kính |
 | [Arc](./commands/arc/) | Vẽ cung qua ba điểm |
 | [Ellipse](./commands/ellipse/) | Vẽ hình elip theo tâm và hai trục |

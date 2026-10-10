@@ -17,6 +17,7 @@ Barka da zuwa jerin umarni na **KulmanLab CAD**. [KulmanLab CAD](https://kulmanl
 | [Line](./commands/line/) | Zana layi madaidaici tsakanin tabo biyu |
 | [Polyline](./commands/polyline/) | Zana hanya buɗaɗɗiya mai sassa da yawa |
 | [Rectangle](./commands/rectangle/) | Zana murabbaʼi mai kusurwa huɗu mai daidaiton axis |
+| [Polygon](./commands/polygon/) | Zana polygon na yau da kullum daga tsakiya ko gefe |
 | [Circle](./commands/circle/) | Zana daʼira ta tsakiya da radius |
 | [Arc](./commands/arc/) | Zana baka ta tabo uku |
 | [Ellipse](./commands/ellipse/) | Zana ellipse ta tsakiya da axes biyu |

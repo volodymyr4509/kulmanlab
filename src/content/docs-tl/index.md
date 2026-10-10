@@ -17,6 +17,7 @@ Maligayang pagdating sa command reference ng **KulmanLab CAD**. Ang [KulmanLab C
 | [Line](./commands/line/) | Gumuhit ng straight na linya sa pagitan ng dalawang punto |
 | [Polyline](./commands/polyline/) | Gumuhit ng multi-segment na open path |
 | [Rectangle](./commands/rectangle/) | Gumuhit ng axis-aligned na rectangle |
+| [Polygon](./commands/polygon/) | Gumuhit ng regular na polygon mula sa gitna o gilid |
 | [Circle](./commands/circle/) | Gumuhit ng circle gamit ang center at radius |
 | [Arc](./commands/arc/) | Gumuhit ng arc sa tatlong punto |
 | [Ellipse](./commands/ellipse/) | Gumuhit ng ellipse gamit ang center at dalawang axis |

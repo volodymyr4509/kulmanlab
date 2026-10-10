@@ -17,6 +17,7 @@ order: 1
 | [Line](./commands/line/) | দুটি পয়েন্টের মধ্যে একটি সরল রেখা আঁকুন |
 | [Polyline](./commands/polyline/) | একটি বহু-সেগমেন্টের খোলা পথ আঁকুন |
 | [Rectangle](./commands/rectangle/) | একটি অক্ষ-সারিবদ্ধ আয়তক্ষেত্র আঁকুন |
+| [Polygon](./commands/polygon/) | কেন্দ্র বা প্রান্ত থেকে নিয়মিত বহুভুজ আঁকুন |
 | [Circle](./commands/circle/) | কেন্দ্র এবং ব্যাসার্ধ দিয়ে একটি বৃত্ত আঁকুন |
 | [Arc](./commands/arc/) | তিনটি পয়েন্টের মধ্য দিয়ে একটি চাপ আঁকুন |
 | [Ellipse](./commands/ellipse/) | কেন্দ্র এবং দুটি অক্ষ দিয়ে একটি উপবৃত্ত আঁকুন |
