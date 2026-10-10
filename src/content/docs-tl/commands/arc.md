@@ -29,6 +29,26 @@ May line preview na kumokonekta sa unang dalawang click habang inaayos mo ang ik
 
 > **Collinear na Puntos**: kung ang lahat ng tatlong punto ay nasa isang straight line, hindi makakalkula ang arc at walang malalagay na entity. Ilipat ang ikalawang punto palayo sa linya at subukan ulit.
 
+## Iba pang paraan ng pagguhit ng arc
+
+Ang tatlong punto ang default. Sa ilang prompt, nagpapakita ang terminal ng mga opsyon sa loob ng square bracket, tulad ng `[Center=false]` — i-type ang letra ng opsyon para i-on ito (`[Center=true]`) at i-type ulit para i-off. Kapag pinagsama, makaguguhit ng arc sa anim pang paraan:
+
+| Paraan | I-on | Huling hakbang |
+|---|---|---|
+| Start, Center, End | `C` | end point |
+| Start, Center, Angle | `C`, `A` | anggulo |
+| Start, Center, Length | `C`, `L` | haba ng chord |
+| Start, End, Angle | `E` | anggulo |
+| Start, End, Direction | `E`, `D` | direksyon ng tangent |
+| Start, End, Radius | `E`, `R` | radius |
+
+- Sa huling hakbang ng bawat paraan maliban sa Start, Center, End, mag-type ng numero at pindutin ang **Enter** o **Space**, o igalaw ang cursor at mag-click — binabasa ang cursor bilang numerong iyon (direksyon para sa anggulo o direksyon ng tangent, distansya para sa haba ng chord o radius).
+- Ang positibong anggulo ay pakaliwa mula sa simula, ang negatibo ay pakanan. Ang anggulong 0° o buong ikot ay hindi gumagawa ng arc at sinasabi iyon ng terminal.
+- Ang positibong haba ng chord o radius ay kumukuha ng maikling daan, ang negatibo ay ang mahaba. Tinatanggihan ang chord na mas mahaba kaysa diameter o radius na wala pa sa kalahati ng chord, at sinasabi ng terminal ang limitasyon.
+- Ang Start, Center, End ay gumagamit lang ng direksyon ng end point mula sa gitna: ang arc ay pakaliwa mula sa simula hanggang saan tumatama ang direksyong iyon sa bilog. Ang direksyon ng tangent ay ang direksyon, sa digri mula sa X axis, kung saan umaalis ang arc sa simula nito.
+- Para piliin ang gitna bago ang start point, i-type ang `C` sa pinakaunang prompt.
+- Sumusunod ang mga letra ng opsyon sa wika ng interface; ang ipinapakita rito ay ang mga Ingles.
+
 ## Coordinate Entry
 
 Sa alinman sa tatlong hakbang, puwede kang mag-type ng eksaktong posisyon sa halip na mag-click:
@@ -46,6 +66,7 @@ Sa alinman sa tatlong hakbang, puwede kang mag-type ng eksaktong posisyon sa hal
 | `,` | I-lock ang X at lumipat sa Y entry |
 | `Backspace` | Burahin ang huling na-type na character |
 | `Enter` | Kumpirmahin ang na-type na coordinate |
+| `C` `E` `A` `L` `D` `R` | I-on o i-off ang opsyon: `C` Center, `E` End, `A` Angle, `L` Length, `D` Direction, `R` Radius |
 | `Escape` | Itapon ang lahat ng nailagay na punto at magsara |
 
 ## Grip Editing — Pag-aayos ng mga Endpoint at Radius

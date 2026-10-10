@@ -29,6 +29,26 @@ Xem trước đường thẳng kết nối hai lần bấm đầu tiên trong kh
 
 > **Điểm thẳng hàng**: nếu cả ba điểm nằm trên một đường thẳng, cung không thể được tính toán và không có thực thể nào được đặt. Di chuyển điểm thứ hai ra khỏi đường và thử lại.
 
+## Các cách khác để vẽ cung
+
+Ba điểm là mặc định. Ở một số lời nhắc, terminal hiển thị các tùy chọn trong ngoặc vuông, như `[Center=false]` — gõ chữ cái của tùy chọn để bật (`[Center=true]`) và gõ lại để tắt. Kết hợp lại, chúng vẽ cung theo sáu cách nữa:
+
+| Phương pháp | Bật | Bước cuối |
+|---|---|---|
+| Start, Center, End | `C` | điểm cuối |
+| Start, Center, Angle | `C`, `A` | góc |
+| Start, Center, Length | `C`, `L` | độ dài dây cung |
+| Start, End, Angle | `E` | góc |
+| Start, End, Direction | `E`, `D` | hướng tiếp tuyến |
+| Start, End, Radius | `E`, `R` | bán kính |
+
+- Ở bước cuối của mọi phương pháp trừ Start, Center, End, gõ một số rồi nhấn **Enter** hoặc **Space**, hoặc di chuyển con trỏ và nhấp — con trỏ được đọc như số đó (một hướng cho góc hoặc hướng tiếp tuyến, một khoảng cách cho độ dài dây cung hoặc bán kính).
+- Góc dương đi ngược chiều kim đồng hồ từ điểm đầu, góc âm theo chiều kim đồng hồ. Góc 0° hoặc các vòng đầy đủ không tạo ra cung và terminal sẽ báo.
+- Độ dài dây cung hoặc bán kính dương đi đường ngắn, số âm đi đường dài. Dây cung dài hơn đường kính hoặc bán kính nhỏ hơn nửa dây cung bị từ chối và terminal nêu giới hạn.
+- Start, Center, End chỉ dùng hướng của điểm cuối tính từ tâm: cung đi ngược chiều kim đồng hồ từ điểm đầu đến nơi hướng đó cắt đường tròn. Hướng tiếp tuyến là hướng, tính bằng độ từ trục X, mà cung rời điểm đầu của nó.
+- Để chọn tâm trước điểm đầu, gõ `C` ở lời nhắc đầu tiên.
+- Chữ cái của các tùy chọn theo ngôn ngữ giao diện; ở đây hiển thị chữ cái tiếng Anh.
+
 ## Nhập Tọa Độ
 
 Tại bất kỳ trong ba bước nào, bạn có thể nhập vị trí chính xác thay vì bấm:
@@ -46,6 +66,7 @@ Tại bất kỳ trong ba bước nào, bạn có thể nhập vị trí chính 
 | `,` | Khóa X và chuyển sang nhập Y |
 | `Backspace` | Xóa ký tự cuối cùng đã nhập |
 | `Enter` | Xác nhận tọa độ đã nhập |
+| `C` `E` `A` `L` `D` `R` | Bật hoặc tắt tùy chọn: `C` Center, `E` End, `A` Angle, `L` Length, `D` Direction, `R` Radius |
 | `Escape` | Bỏ tất cả điểm đã đặt và thoát |
 
 ## Chỉnh Sửa Điểm Kéo — Điều Chỉnh Điểm Cuối và Bán Kính

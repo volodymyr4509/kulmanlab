@@ -29,6 +29,26 @@ Uma pré-visualização em linha conecta os dois primeiros cliques enquanto voc�
 
 > **Pontos colineares**: se os três pontos estiverem numa linha reta o arco não pode ser calculado e nenhuma entidade é posicionada. Mova o segundo ponto para fora da linha e tente novamente.
 
+## Outras formas de desenhar um arco
+
+Três pontos é o padrão. Em alguns prompts o terminal mostra opções entre colchetes, como `[Center=false]` — digite a letra da opção para ativá-la (`[Center=true]`) e de novo para desativá-la. Combinadas, desenham o arco de mais seis formas:
+
+| Método | Ativar | Último passo |
+|---|---|---|
+| Start, Center, End | `C` | ponto final |
+| Start, Center, Angle | `C`, `A` | ângulo |
+| Start, Center, Length | `C`, `L` | comprimento da corda |
+| Start, End, Angle | `E` | ângulo |
+| Start, End, Direction | `E`, `D` | direção da tangente |
+| Start, End, Radius | `E`, `R` | raio |
+
+- No último passo de cada método exceto Start, Center, End, digite um número e pressione **Enter** ou **Space**, ou mova o cursor e clique — o cursor é lido como esse número (uma direção para um ângulo ou direção da tangente, uma distância para um comprimento de corda ou raio).
+- Um ângulo positivo vai no sentido anti-horário a partir do início, um negativo no sentido horário. Um ângulo de 0° ou voltas inteiras não forma arco e o terminal avisa.
+- Um comprimento de corda ou raio positivo toma o caminho curto, um negativo o longo. Uma corda maior que o diâmetro ou um raio menor que metade da corda é recusado e o terminal indica o limite.
+- Start, Center, End usa apenas a direção do ponto final a partir do centro: o arco vai no sentido anti-horário do início até onde essa direção encontra a circunferência. A direção da tangente é o rumo, em graus a partir do eixo X, com que o arco sai do seu início.
+- Para escolher o centro antes do ponto inicial, digite `C` no primeiríssimo prompt.
+- As letras das opções seguem o idioma da interface; as mostradas aqui são as inglesas.
+
 ## Entrada de coordenadas
 
 Em qualquer um dos três passos você pode digitar uma posição exata em vez de clicar:
@@ -46,6 +66,7 @@ Em qualquer um dos três passos você pode digitar uma posição exata em vez de
 | `,` | Bloqueia X e passa para entrada Y |
 | `Backspace` | Apaga o último caractere digitado |
 | `Enter` | Confirma a coordenada digitada |
+| `C` `E` `A` `L` `D` `R` | Ativar ou desativar uma opção: `C` Center, `E` End, `A` Angle, `L` Length, `D` Direction, `R` Radius |
 | `Escape` | Descarta todos os pontos posicionados e sai |
 
 ## Edição com grips — ajuste de pontos finais e raio

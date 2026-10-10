@@ -29,6 +29,26 @@ Podgląd linii łączy dwa pierwsze kliknięcia podczas pozycjonowania trzeciego
 
 > **Punkty współliniowe**: jeśli wszystkie trzy punkty leżą na prostej, łuku nie można obliczyć i żaden element nie zostaje umieszczony. Przesuń drugi punkt poza prostą i spróbuj ponownie.
 
+## Inne sposoby rysowania łuku
+
+Domyślnie podaje się trzy punkty. Przy niektórych monitach terminal pokazuje opcje w nawiasach kwadratowych, np. `[Center=false]` — wpisz literę opcji, aby ją włączyć (`[Center=true]`), i ponownie, aby wyłączyć. W połączeniu pozwalają narysować łuk na sześć dalszych sposobów:
+
+| Metoda | Włącz | Ostatni krok |
+|---|---|---|
+| Start, Center, End | `C` | punkt końcowy |
+| Start, Center, Angle | `C`, `A` | kąt |
+| Start, Center, Length | `C`, `L` | długość cięciwy |
+| Start, End, Angle | `E` | kąt |
+| Start, End, Direction | `E`, `D` | kierunek stycznej |
+| Start, End, Radius | `E`, `R` | promień |
+
+- W ostatnim kroku każdej metody poza Start, Center, End wpisz liczbę i naciśnij **Enter** lub **Space**, albo przesuń kursor i kliknij — kursor jest odczytywany jako ta liczba (kierunek dla kąta lub kierunku stycznej, odległość dla długości cięciwy lub promienia).
+- Kąt dodatni biegnie od początku przeciwnie do ruchu wskazówek zegara, ujemny zgodnie z nim. Kąt 0° lub pełne obroty nie tworzą łuku, a terminal o tym informuje.
+- Dodatnia długość cięciwy lub promień wybiera krótszą drogę, ujemna dłuższą. Cięciwa dłuższa niż średnica lub promień mniejszy niż połowa cięciwy jest odrzucany, a terminal podaje granicę.
+- Start, Center, End używa tylko kierunku punktu końcowego od środka: łuk biegnie od początku przeciwnie do ruchu wskazówek zegara do miejsca, w którym ten kierunek przecina okrąg. Kierunek stycznej to kierunek w stopniach od osi X, w którym łuk opuszcza swój początek.
+- Aby wybrać środek przed punktem początkowym, wpisz `C` przy samym pierwszym monicie.
+- Litery opcji zależą od języka interfejsu; tutaj podano angielskie.
+
 ## Wprowadzanie współrzędnych
 
 Na każdym z trzech kroków możesz wpisać dokładną pozycję zamiast klikać:
@@ -46,6 +66,7 @@ Na każdym z trzech kroków możesz wpisać dokładną pozycję zamiast klikać:
 | `,` | Zablokuj X i przejdź do wprowadzania Y |
 | `Backspace` | Usuń ostatnio wpisany znak |
 | `Enter` | Potwierdź wpisaną współrzędną |
+| `C` `E` `A` `L` `D` `R` | Włączanie lub wyłączanie opcji: `C` Center, `E` End, `A` Angle, `L` Length, `D` Direction, `R` Radius |
 | `Escape` | Odrzuć wszystkie umieszczone punkty i wyjdź |
 
 ## Edycja uchwytów — dostosowywanie punktów końcowych i promienia

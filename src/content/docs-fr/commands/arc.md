@@ -29,6 +29,26 @@ Un aperçu de ligne relie les deux premiers clics pendant que vous positionnez l
 
 > **Points colinéaires** : si les trois points sont sur une droite, l'arc ne peut pas être calculé et aucune entité n'est placée. Déplacez le deuxième point hors de la droite et réessayez.
 
+## Autres façons de tracer un arc
+
+Trois points est le mode par défaut. À certaines invites, le terminal propose des options entre crochets, comme `[Center=false]` — tapez la lettre de l’option pour l’activer (`[Center=true]`), puis de nouveau pour la désactiver. Combinées, elles permettent de tracer l’arc de six autres façons :
+
+| Méthode | Activer | Dernière étape |
+|---|---|---|
+| Start, Center, End | `C` | point final |
+| Start, Center, Angle | `C`, `A` | angle |
+| Start, Center, Length | `C`, `L` | longueur de corde |
+| Start, End, Angle | `E` | angle |
+| Start, End, Direction | `E`, `D` | direction de la tangente |
+| Start, End, Radius | `E`, `R` | rayon |
+
+- À la dernière étape de chaque méthode sauf Start, Center, End, tapez un nombre puis appuyez sur **Entrée** ou **Espace**, ou déplacez le curseur et cliquez — le curseur est lu comme ce nombre (une direction pour un angle ou une direction de tangente, une distance pour une longueur de corde ou un rayon).
+- Un angle positif va dans le sens antihoraire depuis le début, un angle négatif dans le sens horaire. Un angle de 0° ou des tours complets ne donnent pas d’arc et le terminal le signale.
+- Une longueur de corde ou un rayon positif prend le plus court chemin, un négatif le plus long. Une corde plus longue que le diamètre ou un rayon inférieur à la moitié de la corde est refusé et le terminal indique la limite.
+- Start, Center, End n’utilise que la direction du point final depuis le centre : l’arc va dans le sens antihoraire du début jusqu’à l’endroit où cette direction rencontre le cercle. La direction de la tangente est le cap, en degrés depuis l’axe X, avec lequel l’arc quitte son début.
+- Pour choisir le centre avant le point de départ, tapez `C` à la toute première invite.
+- Les lettres des options suivent la langue de l’interface ; celles affichées ici sont les lettres anglaises.
+
 ## Saisie de coordonnées
 
 À chacune des trois étapes, vous pouvez taper une position exacte au lieu de cliquer :
@@ -46,6 +66,7 @@ Un aperçu de ligne relie les deux premiers clics pendant que vous positionnez l
 | `,` | Verrouiller X et passer à la saisie Y |
 | `Retour arrière` | Supprimer le dernier caractère saisi |
 | `Entrée` | Confirmer la coordonnée saisie |
+| `C` `E` `A` `L` `D` `R` | Activer ou désactiver une option : `C` Center, `E` End, `A` Angle, `L` Length, `D` Direction, `R` Radius |
 | `Échap` | Abandonner tous les points placés et quitter |
 
 ## Édition par poignées — ajuster les extrémités et le rayon

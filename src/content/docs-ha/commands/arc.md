@@ -29,6 +29,26 @@ Preview na layi yana haɗa dannawa biyun farko yayin da kake matsar da ta uku. D
 
 > **Tabo masu haɗuwa a layi ɗaya**: idan dukkan tabo uku suna a layi madaidaici ba za a iya lissafa bakan ba kuma babu abin da za a sanya. Motsa tabo na biyu daga layin ka sake gwadawa.
 
+## Wasu hanyoyin zana arc
+
+Maki uku shi ne tsoho. A wasu umarni tashar umarni tana nuna zaɓuɓɓuka a cikin ƙusoshi, kamar `[Center=false]` — rubuta harafin zaɓin don kunna shi (`[Center=true]`) kuma sake rubutawa don kashe shi. Idan aka haɗa su, suna zana arc ta wasu hanyoyi shida:
+
+| Hanya | Kunna | Mataki na ƙarshe |
+|---|---|---|
+| Start, Center, End | `C` | wurin ƙarshe |
+| Start, Center, Angle | `C`, `A` | kusurwa |
+| Start, Center, Length | `C`, `L` | tsawon chord |
+| Start, End, Angle | `E` | kusurwa |
+| Start, End, Direction | `E`, `D` | alkiblar tangent |
+| Start, End, Radius | `E`, `R` | radius |
+
+- A mataki na ƙarshe na kowace hanya sai Start, Center, End, ko dai ka rubuta lamba ka danna **Enter** ko **Space**, ko ka motsa siginar ka danna — ana karanta siginar a matsayin wannan lamba (alkibla ga kusurwa ko alkiblar tangent, nisa ga tsawon chord ko radius).
+- Kusurwa mai kyau tana tafiya gaba da agogo daga farko, mara kyau tana bin agogo. Kusurwar 0° ko cikakkun juyi ba sa yin arc kuma tashar umarni tana faɗa.
+- Tsawon chord ko radius mai kyau yana bin gajeriyar hanya, mara kyau yana bin doguwa. Ana ƙin chord da ya fi diamita tsawo ko radius da bai kai rabin chord ba, kuma tashar umarni tana faɗin iyaka.
+- Start, Center, End yana amfani da alkiblar wurin ƙarshe daga tsakiya kawai: arc yana tafiya gaba da agogo daga farko zuwa inda alkiblar ta haɗu da da'ira. Alkiblar tangent ita ce hanyar da arc ke barin farkonsa, a digiri daga axis X.
+- Don zaɓar tsakiya kafin wurin farawa, rubuta `C` a umarni na farko.
+- Haruffan zaɓuɓɓuka suna bin yaren mu'amala; waɗanda aka nuna a nan na Turanci ne.
+
 ## Shigar da daidaitawa
 
 A kowane ɗaya daga cikin matakai uku za ka iya rubuta madaidaicin matsayi maimakon dannawa:
@@ -46,6 +66,7 @@ A kowane ɗaya daga cikin matakai uku za ka iya rubuta madaidaicin matsayi maima
 | `,` | Kulle X ka koma shigar da Y |
 | `Backspace` | Share tsohon harafi na ƙarshe da aka rubuta |
 | `Enter` | Tabbatar da daidaitawar da aka rubuta |
+| `C` `E` `A` `L` `D` `R` | Kunna ko kashe zaɓi: `C` Center, `E` End, `A` Angle, `L` Length, `D` Direction, `R` Radius |
 | `Escape` | Kawar da dukkan tabon da aka sanya ka fita |
 
 ## Gyaran grip — daidaita ƙarshe da radius

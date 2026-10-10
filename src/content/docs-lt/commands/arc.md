@@ -29,6 +29,26 @@ Linijos peržiūra jungia pirmus du spustelėjimus, kol dedate trečią. Nuo ant
 
 > **Kolinearūs taškai**: jei visi trys taškai guli ant vienos tiesės, lanko apskaičiuoti neįmanoma ir objektas nepadedamas. Perkelkite antrą tašką nuo linijos ir bandykite dar kartą.
 
+## Kiti būdai nubraižyti lanką
+
+Numatytasis būdas – trys taškai. Kai kuriuose raginimuose terminalas rodo parinktis laužtiniuose skliaustuose, pavyzdžiui, `[Center=false]` — įveskite parinkties raidę, kad ją įjungtumėte (`[Center=true]`), ir dar kartą, kad išjungtumėte. Jas derinant lanką galima nubraižyti dar šešiais būdais:
+
+| Būdas | Įjungti | Paskutinis žingsnis |
+|---|---|---|
+| Start, Center, End | `C` | galinis taškas |
+| Start, Center, Angle | `C`, `A` | kampas |
+| Start, Center, Length | `C`, `L` | stygos ilgis |
+| Start, End, Angle | `E` | kampas |
+| Start, End, Direction | `E`, `D` | liestinės kryptis |
+| Start, End, Radius | `E`, `R` | spindulys |
+
+- Paskutiniame kiekvieno būdo žingsnyje, išskyrus Start, Center, End, įveskite skaičių ir paspauskite **Enter** arba **Space**, arba pajudinkite žymeklį ir spustelėkite — žymeklis nuskaitomas kaip tas skaičius (kryptis kampui ar liestinės krypčiai, atstumas stygos ilgiui ar spinduliui).
+- Teigiamas kampas eina nuo pradžios prieš laikrodžio rodyklę, neigiamas – pagal. 0° kampas ar pilni apsisukimai lanko nesukuria, ir terminalas tai pasako.
+- Teigiamas stygos ilgis ar spindulys renkasi trumpesnį kelią, neigiamas – ilgesnį. Už skersmenį ilgesnė styga ar už pusę stygos mažesnis spindulys atmetamas, o terminalas nurodo ribą.
+- Start, Center, End naudoja tik galinio taško kryptį nuo centro: lankas eina nuo pradžios prieš laikrodžio rodyklę ten, kur ta kryptis kerta apskritimą. Liestinės kryptis – kryptis laipsniais nuo X ašies, kuria lankas palieka savo pradžią.
+- Norėdami pasirinkti centrą prieš pradžios tašką, pačiame pirmame raginime įveskite `C`.
+- Parinkčių raidės priklauso nuo sąsajos kalbos; čia rodomos angliškos.
+
 ## Koordinačių įvedimas
 
 Bet kuriame iš trijų žingsnių vietoj spustelėjimo galite įvesti tikslią padėtį:
@@ -46,6 +66,7 @@ Bet kuriame iš trijų žingsnių vietoj spustelėjimo galite įvesti tikslią p
 | `,` | Užrakina X ir pereina prie Y įvedimo |
 | `Backspace` | Ištrina paskutinį įvestą simbolį |
 | `Enter` | Patvirtina įvestą koordinatę |
+| `C` `E` `A` `L` `D` `R` | Parinkties įjungimas ar išjungimas: `C` Center, `E` End, `A` Angle, `L` Length, `D` Direction, `R` Radius |
 | `Escape` | Atmeta visus padėtus taškus ir išeina |
 
 ## Redagavimas rankenėlėmis — galų ir spindulio koregavimas

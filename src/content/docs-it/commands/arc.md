@@ -29,6 +29,26 @@ Un'anteprima a linea collega i primi due clic mentre si posiziona il terzo. Dal 
 
 > **Punti collineari**: se tutti e tre i punti giacciono su una linea retta l'arco non può essere calcolato e non viene posizionata alcuna entità. Sposta il secondo punto fuori dalla linea e riprova.
 
+## Altri modi per disegnare un arco
+
+Tre punti è il metodo predefinito. A certi prompt il terminale mostra opzioni tra parentesi quadre, come `[Center=false]` — digita la lettera dell’opzione per attivarla (`[Center=true]`) e di nuovo per disattivarla. Combinate, disegnano l’arco in altri sei modi:
+
+| Metodo | Attiva | Ultimo passo |
+|---|---|---|
+| Start, Center, End | `C` | punto finale |
+| Start, Center, Angle | `C`, `A` | angolo |
+| Start, Center, Length | `C`, `L` | lunghezza della corda |
+| Start, End, Angle | `E` | angolo |
+| Start, End, Direction | `E`, `D` | direzione della tangente |
+| Start, End, Radius | `E`, `R` | raggio |
+
+- Nell’ultimo passo di ogni metodo tranne Start, Center, End, digita un numero e premi **Enter** o **Space**, oppure muovi il cursore e fai clic — il cursore viene letto come quel numero (una direzione per un angolo o una direzione della tangente, una distanza per una lunghezza della corda o un raggio).
+- Un angolo positivo procede in senso antiorario dall’inizio, uno negativo in senso orario. Un angolo di 0° o giri completi non genera alcun arco e il terminale lo segnala.
+- Una lunghezza della corda o un raggio positivo prende la via breve, uno negativo quella lunga. Una corda più lunga del diametro o un raggio inferiore alla metà della corda viene rifiutato e il terminale indica il limite.
+- Start, Center, End usa solo la direzione del punto finale dal centro: l’arco va in senso antiorario dall’inizio fino a dove quella direzione incontra la circonferenza. La direzione della tangente è la direzione, in gradi dall’asse X, con cui l’arco lascia il suo inizio.
+- Per scegliere il centro prima del punto iniziale, digita `C` al primissimo prompt.
+- Le lettere delle opzioni seguono la lingua dell’interfaccia; qui sono mostrate quelle inglesi.
+
 ## Inserimento coordinate
 
 In ognuno dei tre passi puoi digitare una posizione esatta invece di cliccare:
@@ -46,6 +66,7 @@ In ognuno dei tre passi puoi digitare una posizione esatta invece di cliccare:
 | `,` | Blocca X e passa all'inserimento Y |
 | `Backspace` | Elimina l'ultimo carattere digitato |
 | `Invio` | Conferma la coordinata digitata |
+| `C` `E` `A` `L` `D` `R` | Attivare o disattivare un’opzione: `C` Center, `E` End, `A` Angle, `L` Length, `D` Direction, `R` Radius |
 | `Escape` | Scarta tutti i punti posizionati ed esce |
 
 ## Modifica con i grip — regolazione dei punti finali e del raggio

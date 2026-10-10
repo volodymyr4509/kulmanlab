@@ -29,6 +29,26 @@ Hakikisho la mstari linaunganisha klik mbili za kwanza unaposimamisha ya tatu. K
 
 > **Pointi zilizo mstari**: ikiwa pointi zote tatu ziko kwenye mstari wa moja kwa moja, upinde hauwezi kokotolewa na hakuna kipengele kinachowekwa. Sogeza pointi ya pili mbali na mstari na ujaribu tena.
 
+## Njia nyingine za kuchora tao
+
+Nukta tatu ndiyo chaguo-msingi. Kwenye baadhi ya viashiria terminal huonyesha chaguo ndani ya mabano ya mraba, kama `[Center=false]` — andika herufi ya chaguo ili kuliwasha (`[Center=true]`) na uiandike tena kuzima. Zikichanganywa, huchora tao kwa njia sita zaidi:
+
+| Njia | Washa | Hatua ya mwisho |
+|---|---|---|
+| Start, Center, End | `C` | nukta ya mwisho |
+| Start, Center, Angle | `C`, `A` | pembe |
+| Start, Center, Length | `C`, `L` | urefu wa chodi |
+| Start, End, Angle | `E` | pembe |
+| Start, End, Direction | `E`, `D` | mwelekeo wa tanjiti |
+| Start, End, Radius | `E`, `R` | kipenyo-nusu |
+
+- Katika hatua ya mwisho ya kila njia isipokuwa Start, Center, End, andika nambari na ubonyeze **Enter** au **Space**, au sogeza kielekezi na ubofye — kielekezi husomwa kama nambari hiyo (mwelekeo kwa pembe au mwelekeo wa tanjiti, umbali kwa urefu wa chodi au kipenyo-nusu).
+- Pembe chanya hutembea kinyume cha saa kutoka mwanzo, hasi kwa mwelekeo wa saa. Pembe ya 0° au mizunguko kamili haifanyi tao na terminal inasema hivyo.
+- Urefu wa chodi au kipenyo-nusu chanya huchukua njia fupi, hasi njia ndefu. Chodi ndefu kuliko kipenyo au kipenyo-nusu chini ya nusu ya chodi hukataliwa na terminal hutaja kikomo.
+- Start, Center, End hutumia mwelekeo wa nukta ya mwisho kutoka katikati tu: tao hutembea kinyume cha saa kutoka mwanzo hadi mwelekeo huo unapokutana na duara. Mwelekeo wa tanjiti ni mwelekeo, kwa digrii kutoka mhimili X, ambao tao huondoka nao mwanzoni.
+- Ili kuchagua katikati kabla ya nukta ya kuanza, andika `C` kwenye kiashiria cha kwanza kabisa.
+- Herufi za chaguo hufuata lugha ya kiolesura; zinazoonyeshwa hapa ni za Kiingereza.
+
 ## Uingizaji wa kuratibu
 
 Katika hatua yoyote ya tatu unaweza kuandika nafasi halisi badala ya kubonyeza:
@@ -46,6 +66,7 @@ Katika hatua yoyote ya tatu unaweza kuandika nafasi halisi badala ya kubonyeza:
 | `,` | Funga X na uhamie uingizaji wa Y |
 | `Backspace` | Futa herufi ya mwisho iliyoandikwa |
 | `Enter` | Thibitisha kuratibu iliyoandikwa |
+| `C` `E` `A` `L` `D` `R` | Washa au zima chaguo: `C` Center, `E` End, `A` Angle, `L` Length, `D` Direction, `R` Radius |
 | `Escape` | Tupa pointi zote zilizowekwa na uondoke |
 
 ## Uhariri wa kipeo — kurekebisha ncha na radi

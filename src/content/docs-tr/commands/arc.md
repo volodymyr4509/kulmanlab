@@ -29,6 +29,26 @@ order: 5
 
 > **Doğrusal noktalar**: Üç nokta da aynı düz çizgi üzerinde yer alıyorsa yay hesaplanamaz ve hiçbir nesne yerleştirilmez. İkinci noktayı çizgiden dışarı taşıyıp tekrar deneyin.
 
+## Yay çizmenin diğer yolları
+
+Varsayılan yöntem üç noktadır. Bazı istemlerde terminal seçenekleri köşeli parantez içinde gösterir, örneğin `[Center=false]` — seçeneğin harfini yazarak açın (`[Center=true]`), tekrar yazarak kapatın. Birleştirildiklerinde yayı altı yolla daha çizerler:
+
+| Yöntem | Aç | Son adım |
+|---|---|---|
+| Start, Center, End | `C` | bitiş noktası |
+| Start, Center, Angle | `C`, `A` | açı |
+| Start, Center, Length | `C`, `L` | kiriş uzunluğu |
+| Start, End, Angle | `E` | açı |
+| Start, End, Direction | `E`, `D` | teğet yönü |
+| Start, End, Radius | `E`, `R` | yarıçap |
+
+- Start, Center, End dışındaki her yöntemin son adımında bir sayı yazıp **Enter** veya **Space** tuşuna basın ya da imleci hareket ettirip tıklayın — imleç o sayı olarak okunur (açı veya teğet yönü için bir yön, kiriş uzunluğu veya yarıçap için bir uzaklık).
+- Pozitif açı başlangıçtan saat yönünün tersine gider, negatif açı saat yönünde. 0° veya tam turlar yay oluşturmaz ve terminal bunu bildirir.
+- Pozitif kiriş uzunluğu veya yarıçap kısa yolu seçer, negatif olan uzun yolu. Çaptan uzun bir kiriş veya kirişin yarısından küçük bir yarıçap reddedilir ve terminal sınırı belirtir.
+- Start, Center, End yalnızca bitiş noktasının merkezden yönünü kullanır: yay başlangıçtan saat yönünün tersine, bu yönün daireyle buluştuğu yere kadar gider. Teğet yönü, yayın başlangıcından ayrıldığı yöndür; X ekseninden derece cinsindendir.
+- Merkezi başlangıç noktasından önce seçmek için en ilk istemde `C` yazın.
+- Seçenek harfleri arayüz diline uyar; burada gösterilenler İngilizce olanlardır.
+
 ## Koordinat Girişi
 
 Üç adımın herhangi birinde tıklamak yerine kesin konum girebilirsiniz:
@@ -46,6 +66,7 @@ order: 5
 | `,` | X'i kilitler ve Y girişine geçer |
 | `Backspace` | Son girilen karakteri siler |
 | `Enter` | Girilen koordinatı onaylar |
+| `C` `E` `A` `L` `D` `R` | Bir seçeneği açma veya kapatma: `C` Center, `E` End, `A` Angle, `L` Length, `D` Direction, `R` Radius |
 | `Escape` | Tüm yerleştirilen noktaları iptal eder ve çıkar |
 
 ## Tutamaç Düzenleme — Uç Noktaları ve Yarıçapı Ayarlama

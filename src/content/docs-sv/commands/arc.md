@@ -29,6 +29,26 @@ En linjeförhandsvisning ansluter de två första klicken medan du positionerar 
 
 > **Kolinjära punkter**: om alla tre punkter ligger på en rät linje kan bågen inte beräknas och ingen entitet placeras. Flytta den andra punkten bort från linjen och försök igen.
 
+## Andra sätt att rita en båge
+
+Tre punkter är standard. Vid vissa uppmaningar visar terminalen alternativ inom hakparenteser, som `[Center=false]` — skriv alternativets bokstav för att slå på det (`[Center=true]`) och igen för att slå av det. Kombinerade ritar de bågen på sex sätt till:
+
+| Metod | Slå på | Sista steget |
+|---|---|---|
+| Start, Center, End | `C` | slutpunkt |
+| Start, Center, Angle | `C`, `A` | vinkel |
+| Start, Center, Length | `C`, `L` | kordalängd |
+| Start, End, Angle | `E` | vinkel |
+| Start, End, Direction | `E`, `D` | tangentriktning |
+| Start, End, Radius | `E`, `R` | radie |
+
+- I sista steget i varje metod utom Start, Center, End skriver du ett tal och trycker **Enter** eller **Space**, eller flyttar markören och klickar — markören läses som talet (en riktning för en vinkel eller tangentriktning, ett avstånd för en kordalängd eller radie).
+- En positiv vinkel går moturs från starten, en negativ medurs. En vinkel på 0° eller hela varv ger ingen båge, och terminalen säger till.
+- En positiv kordalängd eller radie tar den korta vägen, en negativ den långa. En korda längre än diametern eller en radie under halva kordan avvisas, och terminalen anger gränsen.
+- Start, Center, End använder bara slutpunktens riktning från medelpunkten: bågen går moturs från starten till där riktningen möter cirkeln. Tangentriktningen är kursen, i grader från X-axeln, som bågen lämnar sin start med.
+- För att välja medelpunkten före startpunkten skriver du `C` vid allra första uppmaningen.
+- Alternativens bokstäver följer gränssnittets språk; här visas de engelska.
+
 ## Koordinatinmatning
 
 Vid vilket som helst av de tre stegen kan du skriva en exakt position istället för att klicka:
@@ -46,6 +66,7 @@ Vid vilket som helst av de tre stegen kan du skriva en exakt position istället 
 | `,` | Lås X och gå till Y-inmatning |
 | `Backspace` | Ta bort senast skrivna tecken |
 | `Enter` | Bekräfta inmatad koordinat |
+| `C` `E` `A` `L` `D` `R` | Slå på eller av ett alternativ: `C` Center, `E` End, `A` Angle, `L` Length, `D` Direction, `R` Radius |
 | `Escape` | Kasta alla placerade punkter och avsluta |
 
 ## Redigera med grepp — justera ändpunkter och radie

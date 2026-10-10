@@ -29,6 +29,26 @@ Pratinjau garis menghubungkan dua klik pertama saat Anda memposisikan yang ketig
 
 > **Titik segaris**: jika ketiga titik berada pada garis lurus, busur tidak dapat dihitung dan tidak ada entitas yang ditempatkan. Pindahkan titik kedua dari garis dan coba lagi.
 
+## Cara lain menggambar busur
+
+Tiga titik adalah bawaan. Pada beberapa prompt terminal menampilkan opsi dalam tanda kurung siku, seperti `[Center=false]` — ketik huruf opsi untuk menyalakannya (`[Center=true]`) dan ketik lagi untuk mematikannya. Digabungkan, opsi-opsi ini menggambar busur dengan enam cara lain:
+
+| Metode | Aktifkan | Langkah terakhir |
+|---|---|---|
+| Start, Center, End | `C` | titik akhir |
+| Start, Center, Angle | `C`, `A` | sudut |
+| Start, Center, Length | `C`, `L` | panjang tali busur |
+| Start, End, Angle | `E` | sudut |
+| Start, End, Direction | `E`, `D` | arah garis singgung |
+| Start, End, Radius | `E`, `R` | radius |
+
+- Pada langkah terakhir setiap metode kecuali Start, Center, End, ketik angka lalu tekan **Enter** atau **Space**, atau gerakkan kursor dan klik — kursor dibaca sebagai angka itu (arah untuk sudut atau arah garis singgung, jarak untuk panjang tali busur atau radius).
+- Sudut positif berjalan berlawanan arah jarum jam dari awal, sudut negatif searah jarum jam. Sudut 0° atau putaran penuh tidak membentuk busur dan terminal memberi tahu.
+- Panjang tali busur atau radius positif mengambil jalur pendek, yang negatif jalur panjang. Tali busur lebih panjang dari diameter atau radius kurang dari setengah tali busur ditolak, dan terminal menyebutkan batasnya.
+- Start, Center, End hanya memakai arah titik akhir dari pusat: busur berjalan berlawanan arah jarum jam dari awal hingga arah itu bertemu lingkaran. Arah garis singgung adalah arah, dalam derajat dari sumbu X, tempat busur meninggalkan titik awalnya.
+- Untuk memilih pusat sebelum titik awal, ketik `C` pada prompt paling pertama.
+- Huruf opsi mengikuti bahasa antarmuka; huruf yang ditampilkan di sini adalah huruf Inggris.
+
 ## Entri koordinat
 
 Pada salah satu dari tiga langkah, Anda dapat mengetik posisi tepat alih-alih mengklik:
@@ -46,6 +66,7 @@ Pada salah satu dari tiga langkah, Anda dapat mengetik posisi tepat alih-alih me
 | `,` | Kunci X dan pindah ke entri Y |
 | `Backspace` | Hapus karakter terakhir yang diketik |
 | `Enter` | Konfirmasi koordinat yang diketik |
+| `C` `E` `A` `L` `D` `R` | Nyalakan atau matikan opsi: `C` Center, `E` End, `A` Angle, `L` Length, `D` Direction, `R` Radius |
 | `Escape` | Buang semua titik yang ditempatkan dan keluar |
 
 ## Pengeditan grip — menyesuaikan titik akhir dan radius

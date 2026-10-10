@@ -29,6 +29,26 @@ Während Sie den dritten Punkt positionieren, verbindet eine Linienvorschau die 
 
 > **Kollineare Punkte**: Wenn alle drei Punkte auf einer Geraden liegen, kann der Bogen nicht berechnet werden und es wird kein Element platziert. Verschieben Sie den zweiten Punkt von der Linie weg und versuchen Sie es erneut.
 
+## Weitere Möglichkeiten, einen Bogen zu zeichnen
+
+Standard sind drei Punkte. Bei manchen Abfragen zeigt das Terminal Optionen in eckigen Klammern, etwa `[Center=false]` — geben Sie den Buchstaben der Option ein, um sie einzuschalten (`[Center=true]`), und noch einmal, um sie auszuschalten. Kombiniert zeichnen sie den Bogen auf sechs weitere Arten:
+
+| Methode | Einschalten | Letzter Schritt |
+|---|---|---|
+| Start, Center, End | `C` | Endpunkt |
+| Start, Center, Angle | `C`, `A` | Winkel |
+| Start, Center, Length | `C`, `L` | Sehnenlänge |
+| Start, End, Angle | `E` | Winkel |
+| Start, End, Direction | `E`, `D` | Tangentenrichtung |
+| Start, End, Radius | `E`, `R` | Radius |
+
+- Im letzten Schritt jeder Methode außer Start, Center, End geben Sie entweder eine Zahl ein und drücken **Enter** oder **Space**, oder Sie bewegen den Cursor und klicken — der Cursor wird als diese Zahl gelesen (eine Richtung bei Winkel oder Tangentenrichtung, ein Abstand bei Sehnenlänge oder Radius).
+- Ein positiver Winkel verläuft vom Start entgegen dem Uhrzeigersinn, ein negativer im Uhrzeigersinn. Ein Winkel von 0° oder volle Umdrehungen ergeben keinen Bogen, und das Terminal meldet es.
+- Eine positive Sehnenlänge oder ein positiver Radius nimmt den kurzen Weg, eine negative den langen. Eine Sehne länger als der Durchmesser oder ein Radius unter der halben Sehne wird abgelehnt, und das Terminal nennt die Grenze.
+- Start, Center, End nutzt nur die Richtung des Endpunkts vom Mittelpunkt aus: Der Bogen läuft vom Start entgegen dem Uhrzeigersinn dorthin, wo diese Richtung den Kreis trifft. Die Tangentenrichtung ist die Richtung in Grad von der X-Achse, in der der Bogen seinen Start verlässt.
+- Um den Mittelpunkt vor dem Startpunkt zu wählen, geben Sie bei der allerersten Abfrage `C` ein.
+- Die Buchstaben der Optionen folgen der Sprache der Oberfläche; hier sind die englischen angegeben.
+
 ## Koordinateneingabe
 
 Bei jedem der drei Schritte können Sie eine genaue Position eingeben, anstatt zu klicken:
@@ -46,6 +66,7 @@ Bei jedem der drei Schritte können Sie eine genaue Position eingeben, anstatt z
 | `,` | X sperren und zu Y-Eingabe wechseln |
 | `Backspace` | Zuletzt eingegebenes Zeichen löschen |
 | `Enter` | Eingegebene Koordinate bestätigen |
+| `C` `E` `A` `L` `D` `R` | Option ein- oder ausschalten: `C` Center, `E` End, `A` Angle, `L` Length, `D` Direction, `R` Radius |
 | `Escape` | Alle platzierten Punkte verwerfen und beenden |
 
 ## Griffpunkt-Bearbeitung — Endpunkte und Radius anpassen

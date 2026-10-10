@@ -29,6 +29,26 @@ Příkaz `arc` kreslí kruhový oblouk procházející třemi body, na které kl
 
 > **Kolineární body**: pokud všechny tři body leží na přímce, oblouk nelze vypočítat a žádný objekt se neumístí. Posuňte druhý bod mimo přímku a zkuste to znovu.
 
+## Další způsoby kreslení oblouku
+
+Výchozí jsou tři body. U některých výzev terminál nabízí volby v hranatých závorkách, například `[Center=false]` — napsáním písmene volby ji zapnete (`[Center=true]`) a dalším napsáním vypnete. Jejich kombinací lze oblouk nakreslit šesti dalšími způsoby:
+
+| Způsob | Zapnout | Poslední krok |
+|---|---|---|
+| Start, Center, End | `C` | koncový bod |
+| Start, Center, Angle | `C`, `A` | úhel |
+| Start, Center, Length | `C`, `L` | délka tětivy |
+| Start, End, Angle | `E` | úhel |
+| Start, End, Direction | `E`, `D` | směr tečny |
+| Start, End, Radius | `E`, `R` | poloměr |
+
+- V posledním kroku každého způsobu kromě Start, Center, End buď napište číslo a stiskněte **Enter** nebo **Space**, nebo pohněte kurzorem a klikněte — kurzor se přečte jako toto číslo (směr u úhlu nebo směru tečny, vzdálenost u délky tětivy nebo poloměru).
+- Kladný úhel jde od začátku proti směru hodinových ručiček, záporný po směru. Úhel 0° nebo celé otáčky oblouk nevytvoří a terminál to oznámí.
+- Kladná délka tětivy nebo poloměr vezme kratší cestu, záporná delší. Tětiva delší než průměr nebo poloměr menší než polovina tětivy se odmítne a terminál uvede mez.
+- Start, Center, End používá jen směr koncového bodu od středu: oblouk jde od začátku proti směru hodinových ručiček tam, kde tento směr protne kružnici. Směr tečny je úhel ve stupních od osy X, kterým oblouk opouští svůj začátek.
+- Chcete-li zvolit střed před počátečním bodem, napište `C` hned u první výzvy.
+- Písmena voleb se řídí jazykem rozhraní; zde jsou uvedena anglická.
+
 ## Zadávání souřadnic
 
 V kterémkoli ze tří kroků můžete místo klikání napsat přesnou polohu:
@@ -46,6 +66,7 @@ V kterémkoli ze tří kroků můžete místo klikání napsat přesnou polohu:
 | `,` | Zamkne X a přejde na zadávání Y |
 | `Backspace` | Smaže poslední zadaný znak |
 | `Enter` | Potvrdí zadanou souřadnici |
+| `C` `E` `A` `L` `D` `R` | Zapnutí nebo vypnutí volby: `C` Center, `E` End, `A` Angle, `L` Length, `D` Direction, `R` Radius |
 | `Escape` | Zahodí všechny umístěné body a ukončí příkaz |
 
 ## Úpravy úchyty — úprava koncových bodů a poloměru

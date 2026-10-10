@@ -29,6 +29,26 @@ Een lijnpreview verbindt de eerste twee klikken terwijl u het derde punt positio
 
 > **Collineaire punten**: als alle drie de punten op een rechte lijn liggen, kan de boog niet worden berekend en wordt er geen entiteit geplaatst. Verplaats het tweede punt van de lijn af en probeer het opnieuw.
 
+## Andere manieren om een boog te tekenen
+
+Drie punten is de standaard. Bij sommige prompts toont de terminal opties tussen vierkante haken, zoals `[Center=false]` — typ de letter van de optie om hem aan te zetten (`[Center=true]`) en nogmaals om hem uit te zetten. Gecombineerd tekenen ze de boog op zes andere manieren:
+
+| Methode | Aanzetten | Laatste stap |
+|---|---|---|
+| Start, Center, End | `C` | eindpunt |
+| Start, Center, Angle | `C`, `A` | hoek |
+| Start, Center, Length | `C`, `L` | koordelengte |
+| Start, End, Angle | `E` | hoek |
+| Start, End, Direction | `E`, `D` | raakrichting |
+| Start, End, Radius | `E`, `R` | straal |
+
+- In de laatste stap van elke methode behalve Start, Center, End typt u een getal en drukt u op **Enter** of **Space**, of beweegt u de cursor en klikt u — de cursor wordt gelezen als dat getal (een richting voor een hoek of raakrichting, een afstand voor een koordelengte of straal).
+- Een positieve hoek loopt vanaf het begin tegen de klok in, een negatieve met de klok mee. Een hoek van 0° of hele omwentelingen levert geen boog op en de terminal meldt dat.
+- Een positieve koordelengte of straal neemt de korte weg, een negatieve de lange. Een koorde langer dan de diameter of een straal kleiner dan de halve koorde wordt geweigerd en de terminal noemt de grens.
+- Start, Center, End gebruikt alleen de richting van het eindpunt vanuit het middelpunt: de boog loopt vanaf het begin tegen de klok in tot waar die richting de cirkel snijdt. De raakrichting is de richting, in graden vanaf de X-as, waarin de boog zijn begin verlaat.
+- Om het middelpunt vóór het beginpunt te kiezen, typt u `C` bij de allereerste prompt.
+- De optieletters volgen de taal van de interface; hier staan de Engelse.
+
 ## Coördinaatinvoer
 
 Bij elk van de drie stappen kunt u in plaats van klikken een exacte positie typen:
@@ -46,6 +66,7 @@ Bij elk van de drie stappen kunt u in plaats van klikken een exacte positie type
 | `,` | Vergrendel X en ga naar Y-invoer |
 | `Backspace` | Verwijder laatst getypte teken |
 | `Enter` | Bevestig getypte coördinaat |
+| `C` `E` `A` `L` `D` `R` | Optie aan- of uitzetten: `C` Center, `E` End, `A` Angle, `L` Length, `D` Direction, `R` Radius |
 | `Escape` | Verwijder alle geplaatste punten en sluit af |
 
 ## Grip bewerken — uiteinden en radius aanpassen

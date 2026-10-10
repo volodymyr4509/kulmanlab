@@ -29,6 +29,26 @@ En linjeforhåndsvisning forbinder de to første klik, mens du positionerer det 
 
 > **Kollineære punkter**: hvis alle tre punkter ligger på en lige linje, kan buen ikke beregnes, og ingen entitet placeres. Flyt det andet punkt væk fra linjen og prøv igen.
 
+## Andre måder at tegne en bue på
+
+Tre punkter er standard. Ved nogle prompter viser terminalen valg i firkantede klammer, f.eks. `[Center=false]` — skriv valgets bogstav for at slå det til (`[Center=true]`) og igen for at slå det fra. Kombineret tegner de buen på seks måder til:
+
+| Metode | Slå til | Sidste trin |
+|---|---|---|
+| Start, Center, End | `C` | slutpunkt |
+| Start, Center, Angle | `C`, `A` | vinkel |
+| Start, Center, Length | `C`, `L` | kordelængde |
+| Start, End, Angle | `E` | vinkel |
+| Start, End, Direction | `E`, `D` | tangentretning |
+| Start, End, Radius | `E`, `R` | radius |
+
+- I sidste trin af hver metode undtagen Start, Center, End kan du enten skrive et tal og trykke **Enter** eller **Space**, eller flytte markøren og klikke — markøren læses som tallet (en retning for en vinkel eller tangentretning, en afstand for en kordelængde eller radius).
+- En positiv vinkel går mod uret fra starten, en negativ med uret. En vinkel på 0° eller hele omdrejninger giver ingen bue, og terminalen siger det.
+- En positiv kordelængde eller radius tager den korte vej rundt, en negativ den lange. En korde længere end diameteren eller en radius under halvdelen af kordens længde afvises, og terminalen oplyser grænsen.
+- Start, Center, End bruger kun retningen af slutpunktet fra centrum: buen går mod uret fra starten til, hvor den retning rammer cirklen. Tangentretningen er kursen i grader fra X-aksen, som buen forlader sin start i.
+- For at vælge centrum før startpunktet skriver du `C` ved allerførste prompt.
+- Valgenes bogstaver følger grænsefladens sprog; her vises de engelske.
+
 ## Koordinatindtastning
 
 Ved hvert af de tre trin kan du indtaste en eksakt position i stedet for at klikke:
@@ -46,6 +66,7 @@ Ved hvert af de tre trin kan du indtaste en eksakt position i stedet for at klik
 | `,` | Lås X og gå til Y-indtastning |
 | `Backspace` | Slet sidst skrevne tegn |
 | `Enter` | Bekræft indtastet koordinat |
+| `C` `E` `A` `L` `D` `R` | Slå et valg til eller fra: `C` Center, `E` End, `A` Angle, `L` Length, `D` Direction, `R` Radius |
 | `Escape` | Kassér alle placerede punkter og afslut |
 
 ## Grebredigering — justere endepunkter og radius

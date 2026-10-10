@@ -29,6 +29,26 @@ Pratonton garis menghubungkan dua klik pertama semasa anda meletakkan yang ketig
 
 > **Titik sejajar**: jika ketiga-tiga titik terletak pada garis lurus, lengkok tidak dapat dikira dan tiada entiti diletakkan. Gerakkan titik kedua jauh dari garis dan cuba lagi.
 
+## Cara lain melukis arka
+
+Tiga titik ialah lalai. Pada sesetengah gesaan terminal menunjukkan pilihan dalam kurungan siku, seperti `[Center=false]` — taip huruf pilihan untuk menghidupkannya (`[Center=true]`) dan taip sekali lagi untuk mematikannya. Digabungkan, ia melukis arka dengan enam cara lagi:
+
+| Kaedah | Hidupkan | Langkah terakhir |
+|---|---|---|
+| Start, Center, End | `C` | titik akhir |
+| Start, Center, Angle | `C`, `A` | sudut |
+| Start, Center, Length | `C`, `L` | panjang perentas |
+| Start, End, Angle | `E` | sudut |
+| Start, End, Direction | `E`, `D` | arah tangen |
+| Start, End, Radius | `E`, `R` | jejari |
+
+- Pada langkah terakhir setiap kaedah kecuali Start, Center, End, taip nombor dan tekan **Enter** atau **Space**, atau gerakkan kursor dan klik — kursor dibaca sebagai nombor itu (arah untuk sudut atau arah tangen, jarak untuk panjang perentas atau jejari).
+- Sudut positif bergerak melawan arah jam dari permulaan, sudut negatif ikut arah jam. Sudut 0° atau pusingan penuh tidak menghasilkan arka dan terminal memberitahu.
+- Panjang perentas atau jejari positif mengambil laluan pendek, negatif laluan panjang. Perentas lebih panjang daripada diameter atau jejari kurang separuh perentas ditolak, dan terminal menyatakan had.
+- Start, Center, End hanya menggunakan arah titik akhir dari pusat: arka bergerak melawan arah jam dari permulaan sehingga arah itu bertemu bulatan. Arah tangen ialah arah, dalam darjah dari paksi X, yang arka tinggalkan permulaannya.
+- Untuk memilih pusat sebelum titik mula, taip `C` pada gesaan yang paling pertama.
+- Huruf pilihan mengikut bahasa antara muka; huruf yang ditunjukkan di sini ialah huruf Inggeris.
+
 ## Kemasukan koordinat
 
 Pada mana-mana tiga langkah anda boleh menaip kedudukan tepat dan bukannya mengklik:
@@ -46,6 +66,7 @@ Pada mana-mana tiga langkah anda boleh menaip kedudukan tepat dan bukannya mengk
 | `,` | Kunci X dan beralih ke kemasukan Y |
 | `Backspace` | Padam aksara terakhir yang ditaip |
 | `Enter` | Sahkan koordinat yang ditaip |
+| `C` `E` `A` `L` `D` `R` | Hidupkan atau matikan pilihan: `C` Center, `E` End, `A` Angle, `L` Length, `D` Direction, `R` Radius |
 | `Escape` | Buang semua titik yang diletakkan dan keluar |
 
 ## Pengeditan grip — melaraskan titik akhir dan jejari

@@ -29,6 +29,26 @@ A line preview connects the first two clicks while you position the third. From 
 
 > **Collinear points**: if all three points lie on a straight line the arc cannot be computed and no entity is placed. Move the second point off the line and try again.
 
+## Other ways to draw an arc
+
+Three points is the default. At some prompts the terminal shows options in square brackets, such as `[Center=false]` — type the option's letter to switch it on (`[Center=true]`) and again to switch it off. Combined, they draw the arc in six more ways:
+
+| Method | Turn on | Last step |
+|---|---|---|
+| Start, Center, End | `C` | end point |
+| Start, Center, Angle | `C`, `A` | angle |
+| Start, Center, Length | `C`, `L` | chord length |
+| Start, End, Angle | `E` | angle |
+| Start, End, Direction | `E`, `D` | tangent direction |
+| Start, End, Radius | `E`, `R` | radius |
+
+- In the last step of every method except Start, Center, End, either type a number and press **Enter** or **Space**, or move the cursor and click — the cursor is read as that number (a direction for an angle or tangent direction, a distance for a chord length or radius).
+- A positive angle runs counter-clockwise from the start, a negative one clockwise. An angle of 0° or whole turns makes no arc and the terminal says so.
+- A positive chord length or radius takes the short way round, a negative one the long way. A chord longer than the diameter, or a radius under half the chord, is refused and the terminal states the limit.
+- Start, Center, End uses only the direction of the end point from the center: the arc runs counter-clockwise from the start to wherever that direction meets the circle. The tangent direction is the heading, in degrees from the X axis, in which the arc leaves its start.
+- To pick the center before the start point, type `C` at the very first prompt.
+- The option letters follow the language of the interface; the letters shown here are the English ones.
+
 ## Coordinate entry
 
 At any of the three steps you can type an exact position instead of clicking:
@@ -46,6 +66,7 @@ At any of the three steps you can type an exact position instead of clicking:
 | `,` | Lock X and move to Y entry |
 | `Backspace` | Delete last typed character |
 | `Enter` | Confirm typed coordinate |
+| `C` `E` `A` `L` `D` `R` | Turn an option on or off: `C` Center, `E` End, `A` Angle, `L` Length, `D` Direction, `R` Radius |
 | `Escape` | Discard all placed points and exit |
 
 ## Grip editing — adjusting endpoints and radius

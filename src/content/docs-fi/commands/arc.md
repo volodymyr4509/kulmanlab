@@ -29,6 +29,26 @@ Viivan esikatselu yhdistää kaksi ensimmäistä napsautusta, kun sijoitat kolma
 
 > **Kollineaariset pisteet**: jos kaikki kolme pistettä ovat suoralla viivalla, kaarta ei voida laskea eikä mitään entiteettiä sijoiteta. Siirrä toista pistettä pois viivalta ja yritä uudelleen.
 
+## Muita tapoja piirtää kaari
+
+Oletus on kolme pistettä. Joissakin kehotteissa terminaali näyttää valintoja hakasulkeissa, esimerkiksi `[Center=false]` — kirjoita valinnan kirjain kytkeäksesi sen päälle (`[Center=true]`) ja uudelleen pois. Yhdistelemällä niitä kaaren voi piirtää kuudella muulla tavalla:
+
+| Tapa | Kytke päälle | Viimeinen vaihe |
+|---|---|---|
+| Start, Center, End | `C` | loppupiste |
+| Start, Center, Angle | `C`, `A` | kulma |
+| Start, Center, Length | `C`, `L` | jänteen pituus |
+| Start, End, Angle | `E` | kulma |
+| Start, End, Direction | `E`, `D` | tangenttisuunta |
+| Start, End, Radius | `E`, `R` | säde |
+
+- Jokaisen tavan viimeisessä vaiheessa paitsi Start, Center, End kirjoita luku ja paina **Enter** tai **Space**, tai liikuta kursoria ja napsauta — kursori luetaan kyseisenä lukuna (suunta kulmalle tai tangenttisuunnalle, etäisyys jänteen pituudelle tai säteelle).
+- Positiivinen kulma kulkee alusta vastapäivään, negatiivinen myötäpäivään. Kulma 0° tai täydet kierrokset eivät tee kaarta, ja terminaali kertoo sen.
+- Positiivinen jänteen pituus tai säde valitsee lyhyemmän reitin, negatiivinen pidemmän. Halkaisijaa pidempi jänne tai säde alle puolet jänteestä hylätään, ja terminaali kertoo rajan.
+- Start, Center, End käyttää vain loppupisteen suuntaa keskipisteestä: kaari kulkee alusta vastapäivään siihen, missä tuo suunta kohtaa ympyrän. Tangenttisuunta on suunta asteina X-akselista, johon kaari lähtee alustaan.
+- Valitaksesi keskipisteen ennen alkupistettä kirjoita `C` aivan ensimmäisessä kehotteessa.
+- Valintojen kirjaimet seuraavat käyttöliittymän kieltä; tässä näytetään englanninkieliset.
+
 ## Koordinaattien syöttö
 
 Missä tahansa kolmesta vaiheesta voit kirjoittaa tarkan sijainnin napsauttamisen sijaan:
@@ -46,6 +66,7 @@ Missä tahansa kolmesta vaiheesta voit kirjoittaa tarkan sijainnin napsauttamise
 | `,` | Lukitse X ja siirry Y:n syöttöön |
 | `Backspace` | Poista viimeksi kirjoitettu merkki |
 | `Enter` | Vahvista kirjoitettu koordinaatti |
+| `C` `E` `A` `L` `D` `R` | Valinnan kytkeminen päälle tai pois: `C` Center, `E` End, `A` Angle, `L` Length, `D` Direction, `R` Radius |
 | `Escape` | Hylkää kaikki sijoitetut pisteet ja poistu |
 
 ## Kahvamuokkaus — päätepisteiden ja säteen säätö
