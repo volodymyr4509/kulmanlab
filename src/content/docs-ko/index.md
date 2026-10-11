@@ -46,6 +46,7 @@ order: 1
 | [Undo](./commands/undo/) | 마지막 작업 취소 |
 | [Redo](./commands/redo/) | 마지막으로 취소한 작업 다시 실행 |
 | [Array Grid](./commands/array-grid/) | 객체를 행과 열로 이루어진 직사각형 그리드로 반복 |
+| [Array Polar](./commands/array-polar/) | 중심점 둘레로 객체 반복 |
 
 ## 주석
 

@@ -46,6 +46,7 @@ order: 1
 | [Undo](./commands/undo/) | 撤销上一步操作 |
 | [Redo](./commands/redo/) | 重做上一步撤销的操作 |
 | [Array Grid](./commands/array-grid/) | 按行列的矩形网格重复图元 |
+| [Array Polar](./commands/array-polar/) | 围绕中心点重复对象 |
 
 ## 注释
 

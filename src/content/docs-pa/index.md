@@ -45,6 +45,8 @@ order: 1
 | [Explode](./commands/explode/) | ਪੌਲੀਲਾਈਨ ਨੂੰ ਇਸਦੀਆਂ ਵੱਖਰੀਆਂ ਲਾਈਨਾਂ ਅਤੇ ਆਰਕਸ ਵਿੱਚ ਤੋੜਦਾ ਹੈ |
 | [Undo](./commands/undo/) | ਆਖਰੀ ਕਾਰਵਾਈ ਅਣਕੀਤੀ ਕਰੋ |
 | [Redo](./commands/redo/) | ਆਖਰੀ ਅਣਕੀਤੀ ਕਾਰਵਾਈ ਦੁਬਾਰਾ ਕਰੋ |
+| [Array Grid](./commands/array-grid/) | ਚੁਣੀਆਂ ਇਕਾਈਆਂ ਨੂੰ ਕਤਾਰਾਂ ਅਤੇ ਕਾਲਮਾਂ ਦੇ ਆਇਤਾਕਾਰ ਗਰਿੱਡ ਵਿੱਚ ਦੁਹਰਾਓ |
+| [Array Polar](./commands/array-polar/) | ਕੇਂਦਰ ਬਿੰਦੂ ਦੁਆਲੇ ਵਸਤੂਆਂ ਦੁਹਰਾਓ |
 
 ## ਟਿੱਪਣੀਆਂ
 

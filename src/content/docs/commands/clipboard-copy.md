@@ -3,7 +3,7 @@ title: ClipboardCopy Command — Copy Entities to the System Clipboard
 description: The ClipboardCopy command writes selected entities to the system clipboard as JSON text, together with the layers and linetypes they reference, so they can be pasted into another drawing or another browser tab with ClipboardPaste.
 keywords: [CAD clipboard copy, copy entities between drawings, copy CAD objects to clipboard, Ctrl+C CAD, cross-tab copy paste CAD, copy between browser tabs, kulmanlab]
 group: edit
-order: 17
+order: 18
 ---
 
 # ClipboardCopy

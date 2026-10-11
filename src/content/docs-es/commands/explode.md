@@ -3,7 +3,7 @@ title: Comando Explode — Descomponer una Polilínea en Entidades Línea y Arco
 description: El comando Explode descompone una polilínea en sus entidades Línea y Arco individuales, una por segmento, en su lugar. Cada pieza conserva el grosor de línea, color, capa y tipo de línea de la polilínea de origen. Funciona solo con entidades Polilínea.
 keywords: [comando explode CAD, explotar polilínea CAD, descomponer polilínea en líneas, convertir polilínea en línea y arco, kulmanlab]
 group: edit
-order: 16
+order: 17
 ---
 
 # Explode

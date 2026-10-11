@@ -46,6 +46,7 @@ Witaj w dokumentacji poleceń **KulmanLab CAD**. [KulmanLab CAD](https://kulmanl
 | [Undo](./commands/undo/) | Cofa ostatnią akcję |
 | [Redo](./commands/redo/) | Ponawia ostatnio cofniętą akcję |
 | [Array Grid](./commands/array-grid/) | Powiela elementy w prostokątnej siatce wierszy i kolumn |
+| [Array Polar](./commands/array-polar/) | Powtarza obiekty wokół punktu środkowego |
 
 ## Opisy
 

@@ -46,6 +46,7 @@ Sveiki atvykę į **KulmanLab CAD** komandų žinyną. [KulmanLab CAD](https://k
 | [Undo](./commands/undo/) | Atšaukia paskutinį veiksmą |
 | [Redo](./commands/redo/) | Pakartotinai atlieka paskutinį atšauktą veiksmą |
 | [Array Grid](./commands/array-grid/) | Kartoja objektus stačiakampiame eilučių ir stulpelių tinklelyje |
+| [Array Polar](./commands/array-polar/) | Pakartoti objektus aplink centro tašką |
 
 ## Annotate
 

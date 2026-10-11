@@ -3,7 +3,7 @@ title: ClipboardCopy کمانڈ — اشیاء کو سسٹم کلپ بورڈ پ�
 description: ClipboardCopy کمانڈ منتخب اشیاء کو JSON متن کے طور پر سسٹم کلپ بورڈ پر لکھتی ہے، ساتھ ہی وہ پرتیں اور لائن ٹائپ بھی جن کا وہ حوالہ دیتی ہیں، تاکہ ClipboardPaste سے انہیں کسی دوسرے نقشے یا دوسرے براؤزر ٹیب میں چسپاں کیا جا سکے۔
 keywords: [CAD کلپ بورڈ کاپی, نقشوں کے درمیان اشیاء کاپی, CAD آبجیکٹ کلپ بورڈ, Ctrl+C CAD, ٹیبز کے درمیان کاپی, kulmanlab]
 group: edit
-order: 17
+order: 18
 ---
 
 # ClipboardCopy

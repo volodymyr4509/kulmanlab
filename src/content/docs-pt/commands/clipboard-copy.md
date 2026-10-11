@@ -3,7 +3,7 @@ title: Comando ClipboardCopy — Copiar entidades para a área de transferência
 description: O comando ClipboardCopy grava as entidades selecionadas na área de transferência do sistema como texto JSON, junto com as camadas e tipos de linha que elas referenciam, para colar em outro desenho ou em outra aba do navegador com ClipboardPaste.
 keywords: [copiar área de transferência CAD, copiar entidades entre desenhos, copiar objetos CAD, Ctrl+C CAD, copiar entre abas, kulmanlab]
 group: edit
-order: 17
+order: 18
 ---
 
 # ClipboardCopy

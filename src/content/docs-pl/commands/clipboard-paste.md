@@ -3,7 +3,7 @@ title: Polecenie ClipboardPaste — wklejanie obiektów ze schowka systemowego
 description: Polecenie ClipboardPaste odczytuje ze schowka systemowego obiekty zapisane wcześniej przez ClipboardCopy i umieszcza je we wskazanym punkcie wstawienia, dodając warstwy i rodzaje linii, których brakuje w rysunku docelowym.
 keywords: [wklejanie ze schowka CAD, wklejanie obiektów między rysunkami, wklej obiekty CAD, Ctrl+V CAD, wklejanie między kartami, scalanie warstw przy wklejaniu, kulmanlab]
 group: edit
-order: 18
+order: 19
 ---
 
 # ClipboardPaste

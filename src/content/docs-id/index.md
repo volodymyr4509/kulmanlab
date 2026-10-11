@@ -46,6 +46,7 @@ Selamat datang di referensi perintah **KulmanLab CAD**. [KulmanLab CAD](https://
 | [Undo](./commands/undo/) | Membatalkan aksi terakhir |
 | [Redo](./commands/redo/) | Mengulangi aksi yang dibatalkan |
 | [Array Grid](./commands/array-grid/) | Mengulang entitas dalam kisi persegi panjang berisi baris dan kolom |
+| [Array Polar](./commands/array-polar/) | Ulangi objek mengelilingi titik pusat |
 
 ## Anotasi
 

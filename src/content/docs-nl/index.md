@@ -46,6 +46,7 @@ Welkom bij de **KulmanLab CAD**-opdrachtreferentie. [KulmanLab CAD](https://kulm
 | [Undo](./commands/undo/) | Maak de laatste actie ongedaan |
 | [Redo](./commands/redo/) | Herhaal de laatst ongedaan gemaakte actie |
 | [Array Grid](./commands/array-grid/) | Herhaal entiteiten in een rechthoekig raster van rijen en kolommen |
+| [Array Polar](./commands/array-polar/) | Herhaal objecten rond een middelpunt |
 
 ## Annotatie
 

@@ -3,7 +3,7 @@ title: Amri ya ClipboardPaste — Kubandika vitu kutoka ubao wa kunakili wa mfum
 description: Amri ya ClipboardPaste husoma kutoka ubao wa kunakili wa mfumo vitu vilivyoandikwa awali na ClipboardCopy na kuviweka kwenye kipimo cha kuingiza ulichochagua, huku ikiongeza tabaka na aina za mistari zinazokosekana kwenye mchoro lengwa.
 keywords: [kubandika ubao wa kunakili CAD, kubandika vitu kati ya michoro, kubandika vitu vya CAD, Ctrl+V CAD, kubandika kati ya vichupo, kuunganisha tabaka wakati wa kubandika, kulmanlab]
 group: edit
-order: 18
+order: 19
 ---
 
 # ClipboardPaste

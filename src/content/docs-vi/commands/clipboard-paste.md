@@ -3,7 +3,7 @@ title: Lệnh ClipboardPaste — Dán đối tượng từ bộ nhớ tạm hệ
 description: Lệnh ClipboardPaste đọc từ bộ nhớ tạm hệ thống các đối tượng đã được ClipboardCopy ghi trước đó và đặt chúng tại điểm chèn bạn chọn, đồng thời bổ sung những lớp và kiểu đường mà bản vẽ đích còn thiếu.
 keywords: [dán bộ nhớ tạm CAD, dán đối tượng giữa các bản vẽ, dán đối tượng CAD, Ctrl+V CAD, dán giữa các thẻ, hợp nhất lớp khi dán, kulmanlab]
 group: edit
-order: 18
+order: 19
 ---
 
 # ClipboardPaste

@@ -3,7 +3,7 @@ title: Perintah Explode — Memecah Polyline Menjadi Entitas Line dan Arc
 description: Perintah Explode memecah polyline menjadi entitas Line dan Arc individualnya, satu per segmen, di tempat. Setiap bagian mempertahankan ketebalan garis, warna, layer, dan jenis garis dari polyline sumber. Hanya bekerja pada entitas Polyline.
 keywords: [perintah explode CAD, ledakkan polyline CAD, pecah polyline menjadi garis, ubah polyline menjadi line dan arc, kulmanlab]
 group: edit
-order: 16
+order: 17
 ---
 
 # Explode

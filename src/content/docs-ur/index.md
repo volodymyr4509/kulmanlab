@@ -46,6 +46,7 @@ order: 1
 | [Undo](./commands/undo/) | آخری عمل واپس کریں |
 | [Redo](./commands/redo/) | آخری واپس کیے گئے عمل کو دوبارہ کریں |
 | [Array Grid](./commands/array-grid/) | منتخب اشیاء کو قطاروں اور کالموں کے مستطیل گرڈ میں دہرائیں |
+| [Array Polar](./commands/array-polar/) | مرکزی نقطے کے گرد اشیاء دہرائیں |
 
 ## تشریح
 

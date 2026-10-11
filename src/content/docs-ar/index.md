@@ -46,6 +46,7 @@ order: 1
 | [Undo](./commands/undo/) | تراجع عن الإجراء الأخير |
 | [Redo](./commands/redo/) | إعادة الإجراء الأخير الذي تم التراجع عنه |
 | [Array Grid](./commands/array-grid/) | تكرار العناصر في شبكة مستطيلة من الصفوف والأعمدة |
+| [Array Polar](./commands/array-polar/) | كرّر الكائنات حول نقطة مركز |
 
 ## التعليقات
 

@@ -3,7 +3,7 @@ title: ClipboardPaste-komento — Liitä objektit järjestelmän leikepöydält�
 description: ClipboardPaste-komento lukee järjestelmän leikepöydältä objektit, jotka ClipboardCopy on aiemmin kirjoittanut, ja sijoittaa ne valittuun lisäyspisteeseen lisäten kohdepiirustuksesta puuttuvat tasot ja viivatyypit.
 keywords: [leikepöydältä liittäminen CAD, objektien liittäminen piirustusten välillä, CAD-objektien liittäminen, Ctrl+V CAD, liittäminen välilehtien välillä, tasojen yhdistäminen liitettäessä, kulmanlab]
 group: edit
-order: 18
+order: 19
 ---
 
 # ClipboardPaste

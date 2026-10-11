@@ -46,6 +46,7 @@ Barka da zuwa jerin umarni na **KulmanLab CAD**. [KulmanLab CAD](https://kulmanl
 | [Undo](./commands/undo/) | Soke aikin ƙarshe |
 | [Redo](./commands/redo/) | Sake yin aikin ƙarshe da aka soke |
 | [Array Grid](./commands/array-grid/) | Maimaita abubuwa a cikin grid mai kusurwa huɗu na layuka da ginshiƙai |
+| [Array Polar](./commands/array-polar/) | Maimaita abubuwa a kewayen wurin tsakiya |
 
 ## Bayani
 

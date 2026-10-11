@@ -3,7 +3,7 @@ title: Příkaz ClipboardCopy — kopírování objektů do systémové schránk
 description: Příkaz ClipboardCopy zapíše vybrané objekty do systémové schránky jako text JSON spolu s hladinami a typy čar, na které odkazují, takže je lze příkazem ClipboardPaste vložit do jiného výkresu nebo jiné karty prohlížeče.
 keywords: [CAD kopírování do schránky, kopírování objektů mezi výkresy, kopírování CAD objektů do schránky, Ctrl+C CAD, kopírování mezi kartami CAD, kopírování mezi kartami prohlížeče, kulmanlab]
 group: edit
-order: 17
+order: 18
 ---
 
 # ClipboardCopy

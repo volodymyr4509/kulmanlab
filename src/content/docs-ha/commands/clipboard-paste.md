@@ -3,7 +3,7 @@ title: Umarnin ClipboardPaste — Manna abubuwa daga allon kwafe na tsarin
 description: Umarnin ClipboardPaste yana karanta daga allon kwafe na tsarin abubuwan da ClipboardCopy ya rubuta a baya sannan ya ajiye su a wurin shigarwa da ka zaɓa, tare da ƙara yadudduka da nau'ikan layi da suka ɓace a zanen da ake nufi.
 keywords: [manna allon kwafe CAD, manna abubuwa tsakanin zane-zane, manna abubuwan CAD, Ctrl+V CAD, manna tsakanin shafuka, haɗa yadudduka lokacin mannawa, kulmanlab]
 group: edit
-order: 18
+order: 19
 ---
 
 # ClipboardPaste

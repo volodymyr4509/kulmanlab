@@ -3,7 +3,7 @@ title: Explode 命令 — 将多段线拆分为直线和圆弧图元
 description: Explode 命令将多段线原地拆分为独立的直线和圆弧图元，每段一个。每个拆分出的图元都保留源多段线的线宽、颜色、图层和线型。仅适用于 Polyline 图元。
 keywords: [CAD explode 命令, 分解多段线 CAD, 将多段线拆分为直线, 多段线转换为直线和圆弧, kulmanlab]
 group: edit
-order: 16
+order: 17
 ---
 
 # Explode

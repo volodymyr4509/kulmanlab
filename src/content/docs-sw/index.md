@@ -46,6 +46,7 @@ Karibu kwenye marejeo ya amri za **KulmanLab CAD**. [KulmanLab CAD](https://kulm
 | [Undo](./commands/undo/) | Tendua hatua ya mwisho |
 | [Redo](./commands/redo/) | Rudia hatua ya mwisho iliyotendulewa |
 | [Array Grid](./commands/array-grid/) | Rudia vipengele katika gridi ya mstatili ya safu mlalo na safu wima |
+| [Array Polar](./commands/array-polar/) | Rudia vitu kuzunguka nukta ya kati |
 
 ## Maelezo
 

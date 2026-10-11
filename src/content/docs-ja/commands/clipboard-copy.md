@@ -3,7 +3,7 @@ title: ClipboardCopy コマンド — エンティティをシステムクリッ
 description: ClipboardCopy コマンドは選択したエンティティを、参照している画層と線種とともに JSON テキストとしてシステムクリップボードへ書き出します。ClipboardPaste で別の図面や別のブラウザタブに貼り付けられます。
 keywords: [CAD クリップボード コピー, 図面間でエンティティをコピー, CAD オブジェクト クリップボード, Ctrl+C CAD, タブ間コピー, kulmanlab]
 group: edit
-order: 17
+order: 18
 ---
 
 # ClipboardCopy

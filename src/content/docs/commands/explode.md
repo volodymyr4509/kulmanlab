@@ -3,7 +3,7 @@ title: Explode Command — Break a Polyline into Line and Arc Entities
 description: The Explode command breaks a Polyline into its individual Line and Arc entities, one per segment, in place. Each piece keeps the source polyline's lineweight, color, layer, and linetype. Works on Polyline entities only.
 keywords: [CAD explode command, explode polyline CAD, break polyline into lines, convert polyline to line and arc, kulmanlab]
 group: edit
-order: 16
+order: 17
 ---
 
 # Explode

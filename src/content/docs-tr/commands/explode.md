@@ -3,7 +3,7 @@ title: Explode Komutu — Bir Polyline'ı Line ve Arc Nesnelerine Ayırma
 description: Explode komutu bir polyline'ı, kendi yerinde, segment başına bir tane olacak şekilde kendi Line ve Arc nesnelerine ayırır. Her parça, kaynak polyline'ın çizgi kalınlığını, rengini, katmanını ve çizgi tipini korur. Yalnızca Polyline nesneleriyle çalışır.
 keywords: [CAD explode komutu, polyline patlatma CAD, polyline çizgilere ayırma, polyline'ı line ve arc'a dönüştürme, kulmanlab]
 group: edit
-order: 16
+order: 17
 ---
 
 # Explode

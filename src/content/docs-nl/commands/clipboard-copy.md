@@ -3,7 +3,7 @@ title: ClipboardCopy-opdracht — Entiteiten naar het systeemklembord kopiëren
 description: De opdracht ClipboardCopy schrijft de geselecteerde entiteiten als JSON-tekst naar het systeemklembord, samen met de lagen en lijntypen waarnaar ze verwijzen, zodat ze met ClipboardPaste in een andere tekening of een ander browsertabblad geplakt kunnen worden.
 keywords: [klembord kopiëren CAD, entiteiten tussen tekeningen kopiëren, CAD-objecten naar klembord, Ctrl+C CAD, kopiëren tussen tabbladen, kulmanlab]
 group: edit
-order: 17
+order: 18
 ---
 
 # ClipboardCopy

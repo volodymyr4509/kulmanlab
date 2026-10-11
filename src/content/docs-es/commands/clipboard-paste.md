@@ -3,7 +3,7 @@ title: Comando ClipboardPaste — Pegar entidades desde el portapapeles del sist
 description: El comando ClipboardPaste lee del portapapeles del sistema las entidades escritas previamente por ClipboardCopy y las coloca en un punto de inserción elegido, añadiendo las capas y tipos de línea que falten en el dibujo de destino.
 keywords: [pegar portapapeles CAD, pegar entidades entre dibujos, pegar objetos CAD, Ctrl+V CAD, pegar entre pestañas, fusionar capas al pegar, kulmanlab]
 group: edit
-order: 18
+order: 19
 ---
 
 # ClipboardPaste

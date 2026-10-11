@@ -3,7 +3,7 @@ title: Perintah ClipboardCopy — Menyalin entitas ke papan klip sistem
 description: Perintah ClipboardCopy menulis entitas terpilih ke papan klip sistem sebagai teks JSON, beserta layer dan tipe garis yang dirujuknya, sehingga dapat ditempel ke gambar lain atau tab peramban lain dengan ClipboardPaste.
 keywords: [salin papan klip CAD, menyalin entitas antar gambar, menyalin objek CAD ke papan klip, Ctrl+C CAD, salin antar tab, kulmanlab]
 group: edit
-order: 17
+order: 18
 ---
 
 # ClipboardCopy

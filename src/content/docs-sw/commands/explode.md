@@ -3,7 +3,7 @@ title: "Amri ya Explode — Vunja Polyline kuwa Vipengele vya Line na Arc"
 description: "Amri ya Explode inavunja polyline mahali pake kuwa vipengele vyake vya Line na Arc binafsi, kimoja kwa kila sehemu. Kila kipande kinadumisha unene wa mstari, rangi, tabaka, na aina ya mstari ya polyline chanzo. Inafanya kazi tu na vipengele vya Polyline."
 keywords: [amri ya explode CAD, lipua polyline CAD, vunja polyline kuwa mistari, badilisha polyline kuwa line na arc, kulmanlab]
 group: edit
-order: 16
+order: 17
 ---
 
 # Explode

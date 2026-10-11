@@ -3,7 +3,7 @@ title: Commande ClipboardCopy — Copier des entités dans le presse-papiers sys
 description: La commande ClipboardCopy écrit les entités sélectionnées dans le presse-papiers système sous forme de texte JSON, avec les calques et types de ligne auxquels elles font référence, afin de les coller dans un autre dessin ou un autre onglet du navigateur avec ClipboardPaste.
 keywords: [copier presse-papiers CAO, copier des entités entre dessins, copier objets CAO presse-papiers, Ctrl+C CAO, copier entre onglets, kulmanlab]
 group: edit
-order: 17
+order: 18
 ---
 
 # ClipboardCopy

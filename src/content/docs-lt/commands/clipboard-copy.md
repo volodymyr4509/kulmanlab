@@ -3,7 +3,7 @@ title: ClipboardCopy komanda — objektų kopijavimas į sistemos iškarpinę
 description: ClipboardCopy komanda įrašo pasirinktus objektus į sistemos iškarpinę kaip JSON tekstą kartu su sluoksniais ir linijų tipais, į kuriuos jie nurodo, kad juos būtų galima įklijuoti į kitą brėžinį ar kitą naršyklės skirtuką su ClipboardPaste.
 keywords: [CAD iškarpinės kopijavimas, objektų kopijavimas tarp brėžinių, CAD objektų kopijavimas į iškarpinę, Ctrl+C CAD, kopijavimas tarp skirtukų CAD, kopijavimas tarp naršyklės skirtukų, kulmanlab]
 group: edit
-order: 17
+order: 18
 ---
 
 # ClipboardCopy

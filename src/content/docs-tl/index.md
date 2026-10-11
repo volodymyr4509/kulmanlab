@@ -46,6 +46,7 @@ Maligayang pagdating sa command reference ng **KulmanLab CAD**. Ang [KulmanLab C
 | [Undo](./commands/undo/) | I-undo ang huling aksyon |
 | [Redo](./commands/redo/) | I-redo ang huling na-undo na aksyon |
 | [Array Grid](./commands/array-grid/) | Ulitin ang mga entity sa isang rectangular grid ng row at column |
+| [Array Polar](./commands/array-polar/) | Ulitin ang mga bagay sa paligid ng gitnang punto |
 
 ## Anotasyon
 

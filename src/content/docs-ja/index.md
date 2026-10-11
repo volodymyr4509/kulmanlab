@@ -46,6 +46,7 @@ order: 1
 | [Undo](./commands/undo/) | 直前の操作を取り消す |
 | [Redo](./commands/redo/) | 取り消した操作をやり直す |
 | [Array Grid](./commands/array-grid/) | 選択エンティティを行と列の長方形グリッドに複製する |
+| [Array Polar](./commands/array-polar/) | 中心点の周りにオブジェクトを繰り返す |
 
 ## 注釈
 

@@ -3,7 +3,7 @@ title: ClipboardPaste Command — Paste Entities from the System Clipboard
 description: The ClipboardPaste command reads entities previously written by ClipboardCopy from the system clipboard and places them at a picked insertion point, adding any layers and linetypes the destination drawing is missing.
 keywords: [CAD clipboard paste, paste entities between drawings, paste CAD objects, Ctrl+V CAD, cross-tab copy paste CAD, paste between browser tabs, merge layers on paste, kulmanlab]
 group: edit
-order: 18
+order: 19
 ---
 
 # ClipboardPaste

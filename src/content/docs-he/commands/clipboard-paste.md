@@ -3,7 +3,7 @@ title: הפקודה ClipboardPaste — הדבקת ישויות מהלוח של �
 description: הפקודה ClipboardPaste קוראת מהלוח של המערכת ישויות שנכתבו קודם לכן על ידי ClipboardCopy ומניחה אותן בנקודת הוספה שבחרתם, תוך הוספת השכבות וסוגי הקו החסרים בשרטוט היעד.
 keywords: [הדבקה מהלוח CAD, הדבקת ישויות בין שרטוטים, הדבקת אובייקטים של CAD, Ctrl+V CAD, הדבקה בין לשוניות, מיזוג שכבות בהדבקה, kulmanlab]
 group: edit
-order: 18
+order: 19
 ---
 
 # ClipboardPaste

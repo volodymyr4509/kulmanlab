@@ -37,6 +37,7 @@ Velkommen til **KulmanLab CAD**s kommandoreference. [KulmanLab CAD](https://kulm
 | [Scale](./commands/scale/) | Skalér markerede entiteter omkring et basispunkt |
 | [Align](./commands/align/) | Flyt, rotér og eventuelt skalér entiteter ved hjælp af punktpar |
 | [Array Grid](./commands/array-grid/) | Lav et gitter af kopier fra markerede entiteter |
+| [Array Polar](./commands/array-polar/) | Gentag objekter rundt om et centrum |
 | [Delete](./commands/delete/) | Fjern markerede entiteter fra tegningen |
 | [Trim](./commands/trim/) | Trim et linjesegment ved skæringspunkterne |
 | [Extend](./commands/extend/) | Forlæng en linje til nærmeste grænseskæring |

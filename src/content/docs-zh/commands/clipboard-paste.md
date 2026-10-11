@@ -3,7 +3,7 @@ title: ClipboardPaste 命令 — 从系统剪贴板粘贴实体
 description: ClipboardPaste 命令从系统剪贴板读取先前由 ClipboardCopy 写入的实体，并将它们放置在指定的插入点，同时为目标图形补齐缺少的图层和线型。
 keywords: [CAD 剪贴板粘贴, 在图形之间粘贴实体, 粘贴 CAD 对象, Ctrl+V CAD, 跨标签页粘贴, 粘贴时合并图层, kulmanlab]
 group: edit
-order: 18
+order: 19
 ---
 
 # ClipboardPaste

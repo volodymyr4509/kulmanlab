@@ -3,7 +3,7 @@ title: Perintah ClipboardPaste — Menempel entitas dari papan klip sistem
 description: Perintah ClipboardPaste membaca entitas yang sebelumnya ditulis ClipboardCopy dari papan klip sistem dan menempatkannya pada titik sisip yang dipilih, sambil menambahkan layer dan tipe garis yang belum ada di gambar tujuan.
 keywords: [tempel papan klip CAD, menempel entitas antar gambar, menempel objek CAD, Ctrl+V CAD, tempel antar tab, penggabungan layer saat menempel, kulmanlab]
 group: edit
-order: 18
+order: 19
 ---
 
 # ClipboardPaste

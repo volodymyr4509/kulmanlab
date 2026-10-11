@@ -46,6 +46,7 @@ order: 1
 | [Undo](./commands/undo/) | เลิกทำการกระทำล่าสุด |
 | [Redo](./commands/redo/) | ทำซ้ำการกระทำที่เพิ่งเลิกทำ |
 | [Array Grid](./commands/array-grid/) | ทำซ้ำวัตถุเป็นกริดสี่เหลี่ยมของแถวและคอลัมน์ |
+| [Array Polar](./commands/array-polar/) | ทำซ้ำวัตถุรอบจุดศูนย์กลาง |
 
 ## คำอธิบายประกอบ
 

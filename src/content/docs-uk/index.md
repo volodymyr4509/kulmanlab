@@ -46,6 +46,7 @@ order: 1
 | [Undo](./commands/undo/) | Скасувати останню дію |
 | [Redo](./commands/redo/) | Повторити останню скасовану дію |
 | [Array Grid](./commands/array-grid/) | Повторити об'єкти у прямокутній сітці з рядків і стовпців |
+| [Array Polar](./commands/array-polar/) | Повторити об'єкти навколо центральної точки |
 
 ## Анотації
 

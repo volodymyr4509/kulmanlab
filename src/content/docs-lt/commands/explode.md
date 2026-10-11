@@ -3,7 +3,7 @@ title: Explode komanda — polilinijos skaidymas į Line ir Arc objektus
 description: Explode komanda suskaido Polyline į atskirus Line ir Arc objektus, po vieną kiekvienai atkarpai, vietoje. Kiekviena dalis išlaiko pradinės polilinijos linijos storį, spalvą, sluoksnį ir linijos tipą. Veikia tik su Polyline objektais.
 keywords: [CAD explode komanda, polilinijos skaidymas CAD, polilinijos skaidymas į linijas, polilinijos konvertavimas į line ir arc, kulmanlab]
 group: edit
-order: 16
+order: 17
 ---
 
 # Explode

@@ -3,7 +3,7 @@ title: ClipboardPaste-Befehl — Elemente aus der Systemzwischenablage einfügen
 description: Der ClipboardPaste-Befehl liest zuvor von ClipboardCopy geschriebene Elemente aus der Systemzwischenablage und platziert sie an einem gewählten Einfügepunkt, wobei fehlende Layer und Linientypen der Zielzeichnung hinzugefügt werden.
 keywords: [CAD Zwischenablage einfügen, Elemente zwischen Zeichnungen einfügen, CAD Objekte einfügen, Strg+V CAD, Einfügen zwischen Tabs, Layer beim Einfügen zusammenführen, kulmanlab]
 group: edit
-order: 18
+order: 19
 ---
 
 # ClipboardPaste

@@ -46,6 +46,7 @@ Bienvenido a la referencia de comandos de **KulmanLab CAD**. [KulmanLab CAD](htt
 | [Undo](./commands/undo/) | Deshace la última acción |
 | [Redo](./commands/redo/) | Rehace la última acción deshecha |
 | [Array Grid](./commands/array-grid/) | Repite entidades en una cuadrícula rectangular de filas y columnas |
+| [Array Polar](./commands/array-polar/) | Repite objetos alrededor de un centro |
 
 ## Anotación
 

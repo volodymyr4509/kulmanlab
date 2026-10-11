@@ -3,7 +3,7 @@ title: Explode Command — Hatiin ang Polyline sa Line at Arc na mga Entity
 description: Hinahati ng Explode command ang isang polyline sa kinaroroonan nito tungo sa mga indibidwal na Line at Arc entity, isa kada segment. Pinapanatili ng bawat piraso ang linewidth, kulay, layer, at linetype ng orihinal na polyline. Gumagana lamang sa mga Polyline entity.
 keywords: [CAD explode command, i-explode ang polyline, hatiin ang polyline sa mga linya, i-convert ang polyline sa line at arc, kulmanlab]
 group: edit
-order: 16
+order: 17
 ---
 
 # Explode

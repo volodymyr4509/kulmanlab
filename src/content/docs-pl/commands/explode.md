@@ -3,7 +3,7 @@ title: Polecenie Explode — Rozbij Polilinię na Elementy Line i Arc
 description: Polecenie Explode rozbija polilinię na osobne elementy Line i Arc, po jednym na segment, w tym samym miejscu. Każdy fragment zachowuje grubość linii, kolor, warstwę i typ linii polilinii źródłowej. Działa tylko na elementach Polyline.
 keywords: [polecenie explode CAD, eksplodowanie polilinii CAD, rozbijanie polilinii na linie, konwersja polilinii na line i arc, kulmanlab]
 group: edit
-order: 16
+order: 17
 ---
 
 # Explode

@@ -3,7 +3,7 @@ title: Polecenie ClipboardCopy — kopiowanie obiektów do schowka systemowego
 description: Polecenie ClipboardCopy zapisuje zaznaczone obiekty w schowku systemowym jako tekst JSON, razem z warstwami i rodzajami linii, do których się odwołują, aby wkleić je do innego rysunku lub innej karty przeglądarki poleceniem ClipboardPaste.
 keywords: [kopiowanie do schowka CAD, kopiowanie obiektów między rysunkami, kopiuj obiekty CAD, Ctrl+C CAD, kopiowanie między kartami, kulmanlab]
 group: edit
-order: 17
+order: 18
 ---
 
 # ClipboardCopy

@@ -37,6 +37,7 @@ Tervetuloa **KulmanLab CAD**:in komentoreferenssiin. [KulmanLab CAD](https://kul
 | [Scale](./commands/scale/) | Skaalaa valittuja entiteettejä perustepisteen ympäri |
 | [Align](./commands/align/) | Siirrä, kierrä ja tarvittaessa skaalaa entiteettejä pistepareja käyttäen |
 | [Array Grid](./commands/array-grid/) | Luo ruudukko kopioita valituista entiteeteistä |
+| [Array Polar](./commands/array-polar/) | Toista kohteita keskipisteen ympäri |
 | [Delete](./commands/delete/) | Poista valitut entiteetit piirustuksesta |
 | [Trim](./commands/trim/) | Leikkaa viivasegmentti leikkauspisteistä |
 | [Extend](./commands/extend/) | Jatka viivaa lähimpään rajaleikkaukseen |

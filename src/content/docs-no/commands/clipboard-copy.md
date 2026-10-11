@@ -3,7 +3,7 @@ title: ClipboardCopy-kommandoen — Kopiere enheter til systemets utklippstavle
 description: Kommandoen ClipboardCopy skriver de valgte enhetene til systemets utklippstavle som JSON-tekst, sammen med lagene og linjetypene de refererer til, slik at de kan limes inn i en annen tegning eller en annen nettleserfane med ClipboardPaste.
 keywords: [kopiere utklippstavle CAD, kopiere enheter mellom tegninger, kopiere CAD-objekter til utklippstavlen, Ctrl+C CAD, kopiere mellom faner, kulmanlab]
 group: edit
-order: 17
+order: 18
 ---
 
 # ClipboardCopy

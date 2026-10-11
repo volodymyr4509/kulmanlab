@@ -46,6 +46,7 @@ order: 1
 | [Undo](./commands/undo/) | पिछली क्रिया को अनडू करें |
 | [Redo](./commands/redo/) | पिछली अनडू की गई क्रिया को रीडू करें |
 | [Array Grid](./commands/array-grid/) | ऑब्जेक्ट को पंक्तियों और स्तंभों के आयताकार ग्रिड में दोहराएं |
+| [Array Polar](./commands/array-polar/) | केंद्र बिंदु के चारों ओर ऑब्जेक्ट दोहराएँ |
 
 ## एनोटेशन
 

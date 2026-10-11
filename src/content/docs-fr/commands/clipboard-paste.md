@@ -3,7 +3,7 @@ title: Commande ClipboardPaste — Coller des entités depuis le presse-papiers 
 description: La commande ClipboardPaste lit dans le presse-papiers système les entités écrites auparavant par ClipboardCopy et les place à un point d'insertion choisi, en ajoutant les calques et types de ligne manquants au dessin de destination.
 keywords: [coller presse-papiers CAO, coller des entités entre dessins, coller objets CAO, Ctrl+V CAO, coller entre onglets, fusion de calques au collage, kulmanlab]
 group: edit
-order: 18
+order: 19
 ---
 
 # ClipboardPaste

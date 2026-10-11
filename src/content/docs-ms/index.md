@@ -46,6 +46,7 @@ Selamat datang ke rujukan arahan **KulmanLab CAD**. [KulmanLab CAD](https://kulm
 | [Undo](./commands/undo/) | Batal tindakan terakhir |
 | [Redo](./commands/redo/) | Buat semula tindakan yang dibatalkan |
 | [Array Grid](./commands/array-grid/) | Ulang entiti dalam grid segi empat tepat baris dan lajur |
+| [Array Polar](./commands/array-polar/) | Ulang objek mengelilingi titik pusat |
 
 ## Anotasi
 

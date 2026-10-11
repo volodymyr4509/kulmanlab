@@ -46,6 +46,7 @@ Välkommen till **KulmanLab CAD**-kommandoreferensen. [KulmanLab CAD](https://ku
 | [Undo](./commands/undo/) | Ångra den senaste åtgärden |
 | [Redo](./commands/redo/) | Gör om den senast ångrade åtgärden |
 | [Array Grid](./commands/array-grid/) | Upprepa entiteter i ett rektangulärt rutnät av rader och kolumner |
+| [Array Polar](./commands/array-polar/) | Upprepa objekt runt en medelpunkt |
 
 ## Anteckningar
 

@@ -3,7 +3,7 @@ title: ClipboardCopy Komutu — Nesneleri sistem panosuna kopyalama
 description: ClipboardCopy komutu seçili nesneleri, referans verdikleri katman ve çizgi tipleriyle birlikte JSON metni olarak sistem panosuna yazar; böylece ClipboardPaste ile başka bir çizime veya başka bir tarayıcı sekmesine yapıştırılabilirler.
 keywords: [CAD pano kopyalama, çizimler arası nesne kopyalama, CAD nesnelerini panoya kopyalama, Ctrl+C CAD, sekmeler arası kopyalama, kulmanlab]
 group: edit
-order: 17
+order: 18
 ---
 
 # ClipboardCopy

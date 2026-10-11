@@ -3,7 +3,7 @@ title: ClipboardCopy-komento — Kopioi objektit järjestelmän leikepöydälle
 description: ClipboardCopy-komento kirjoittaa valitut objektit järjestelmän leikepöydälle JSON-tekstinä yhdessä niiden viittaamien tasojen ja viivatyyppien kanssa, jotta ne voi liittää toiseen piirustukseen tai toiseen selaimen välilehteen ClipboardPaste-komennolla.
 keywords: [leikepöydälle kopiointi CAD, objektien kopiointi piirustusten välillä, CAD-objektit leikepöydälle, Ctrl+C CAD, kopiointi välilehtien välillä, kulmanlab]
 group: edit
-order: 17
+order: 18
 ---
 
 # ClipboardCopy

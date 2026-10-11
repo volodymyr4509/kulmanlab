@@ -3,7 +3,7 @@ title: Utos na ClipboardPaste — I-paste ang mga entity mula sa clipboard ng si
 description: Binabasa ng utos na ClipboardPaste mula sa clipboard ng sistema ang mga entity na isinulat noon ng ClipboardCopy at inilalagay ang mga ito sa piniling punto ng pagsingit, habang idinaragdag ang mga layer at linetype na wala sa patutunguhang guhit.
 keywords: [paste sa clipboard CAD, pag-paste ng entity sa pagitan ng mga guhit, i-paste ang CAD object, Ctrl+V CAD, pag-paste sa pagitan ng mga tab, pagsasama ng layer sa pag-paste, kulmanlab]
 group: edit
-order: 18
+order: 19
 ---
 
 # ClipboardPaste

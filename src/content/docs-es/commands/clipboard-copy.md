@@ -3,7 +3,7 @@ title: Comando ClipboardCopy — Copiar entidades al portapapeles del sistema
 description: El comando ClipboardCopy escribe las entidades seleccionadas en el portapapeles del sistema como texto JSON, junto con las capas y tipos de línea a los que hacen referencia, para pegarlas en otro dibujo u otra pestaña del navegador con ClipboardPaste.
 keywords: [copiar portapapeles CAD, copiar entidades entre dibujos, copiar objetos CAD al portapapeles, Ctrl+C CAD, copiar entre pestañas, kulmanlab]
 group: edit
-order: 17
+order: 18
 ---
 
 # ClipboardCopy

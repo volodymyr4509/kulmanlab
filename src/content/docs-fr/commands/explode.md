@@ -3,7 +3,7 @@ title: Commande Explode — Décomposer une Polyligne en Entités Ligne et Arc
 description: La commande Explode décompose une polyligne en ses entités Ligne et Arc individuelles, une par segment, sur place. Chaque morceau conserve l'épaisseur de trait, la couleur, le calque et le type de ligne de la polyligne source. Fonctionne uniquement avec les entités Polyligne.
 keywords: [commande explode CAO, exploser polyligne CAO, décomposer polyligne en lignes, convertir polyligne en ligne et arc, kulmanlab]
 group: edit
-order: 16
+order: 17
 ---
 
 # Explode

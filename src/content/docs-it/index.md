@@ -46,6 +46,7 @@ Benvenuto nel riferimento comandi di **KulmanLab CAD**. [KulmanLab CAD](https://
 | [Undo](./commands/undo/) | Annulla l'ultima azione |
 | [Redo](./commands/redo/) | Ripristina l'ultima azione annullata |
 | [Array Grid](./commands/array-grid/) | Ripete le entità in una griglia rettangolare di righe e colonne |
+| [Array Polar](./commands/array-polar/) | Ripete oggetti attorno a un punto centrale |
 
 ## Annotazione
 

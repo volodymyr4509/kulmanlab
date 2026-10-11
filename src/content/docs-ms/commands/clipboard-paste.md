@@ -3,7 +3,7 @@ title: Perintah ClipboardPaste — Menampal entiti daripada papan keratan sistem
 description: Perintah ClipboardPaste membaca entiti yang ditulis sebelum ini oleh ClipboardCopy daripada papan keratan sistem dan meletakkannya pada titik sisipan yang dipilih, sambil menambah lapisan dan jenis garisan yang tiada dalam lukisan destinasi.
 keywords: [tampal papan keratan CAD, menampal entiti antara lukisan, tampal objek CAD, Ctrl+V CAD, tampal antara tab, gabungan lapisan semasa menampal, kulmanlab]
 group: edit
-order: 18
+order: 19
 ---
 
 # ClipboardPaste

@@ -3,7 +3,7 @@ title: أمر ClipboardPaste — لصق الكيانات من حافظة الن�
 description: يقرأ أمر ClipboardPaste من حافظة النظام الكيانات التي كتبها ClipboardCopy سابقاً ويضعها عند نقطة إدراج تختارها، مع إضافة الطبقات وأنواع الخطوط الناقصة في الرسم الوجهة.
 keywords: [لصق من الحافظة CAD, لصق الكيانات بين الرسومات, لصق كائنات CAD, Ctrl+V CAD, اللصق بين التبويبات, دمج الطبقات عند اللصق, kulmanlab]
 group: edit
-order: 18
+order: 19
 ---
 
 # ClipboardPaste

@@ -46,6 +46,7 @@ order: 1
 | [Undo](./commands/undo/) | Son işlemi geri alır |
 | [Redo](./commands/redo/) | Son geri alınan işlemi yineler |
 | [Array Grid](./commands/array-grid/) | Nesneleri satır ve sütunlardan oluşan dikdörtgen bir ızgarada tekrarlar |
+| [Array Polar](./commands/array-polar/) | Nesneleri bir merkez noktası etrafında tekrarlayın |
 
 ## Açıklama
 

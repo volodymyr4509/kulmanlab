@@ -3,7 +3,7 @@ title: ClipboardPaste-kommandoen — Lime inn enheter fra systemets utklippstavl
 description: Kommandoen ClipboardPaste leser enheter som tidligere ble skrevet av ClipboardCopy fra systemets utklippstavle og plasserer dem på et valgt innsettingspunkt, og legger til lagene og linjetypene måltegningen mangler.
 keywords: [lime inn utklippstavle CAD, lime inn enheter mellom tegninger, lime inn CAD-objekter, Ctrl+V CAD, lime inn mellom faner, slå sammen lag ved innliming, kulmanlab]
 group: edit
-order: 18
+order: 19
 ---
 
 # ClipboardPaste

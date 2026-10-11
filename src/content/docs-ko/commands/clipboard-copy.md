@@ -3,7 +3,7 @@ title: ClipboardCopy 명령 — 개체를 시스템 클립보드로 복사
 description: ClipboardCopy 명령은 선택한 개체를 참조하는 도면층·선종류와 함께 JSON 텍스트로 시스템 클립보드에 씁니다. ClipboardPaste로 다른 도면이나 다른 브라우저 탭에 붙여 넣을 수 있습니다.
 keywords: [CAD 클립보드 복사, 도면 간 개체 복사, CAD 객체 클립보드 복사, Ctrl+C CAD, 탭 간 복사, kulmanlab]
 group: edit
-order: 17
+order: 18
 ---
 
 # ClipboardCopy

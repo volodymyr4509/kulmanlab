@@ -46,6 +46,7 @@ Vítejte v přehledu příkazů **KulmanLab CAD**. [KulmanLab CAD](https://kulma
 | [Undo](./commands/undo/) | Vrátí poslední akci |
 | [Redo](./commands/redo/) | Znovu provede poslední vrácenou akci |
 | [Array Grid](./commands/array-grid/) | Zopakuje objekty v pravoúhlé mřížce řádků a sloupců |
+| [Array Polar](./commands/array-polar/) | Opakuje objekty kolem středového bodu |
 
 ## Annotate
 

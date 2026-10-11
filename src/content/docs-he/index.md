@@ -46,6 +46,7 @@ order: 1
 | [Undo](./commands/undo/) | ביטול הפעולה האחרונה |
 | [Redo](./commands/redo/) | ביצוע חוזר של הפעולה האחרונה שבוטלה |
 | [Array Grid](./commands/array-grid/) | חזרה על ישויות ברשת מלבנית של שורות ועמודות |
+| [Array Polar](./commands/array-polar/) | חזרה על אובייקטים סביב נקודת מרכז |
 
 ## הערות
 

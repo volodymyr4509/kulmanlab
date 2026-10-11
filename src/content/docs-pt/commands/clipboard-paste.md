@@ -3,7 +3,7 @@ title: Comando ClipboardPaste — Colar entidades da área de transferência do 
 description: O comando ClipboardPaste lê da área de transferência do sistema as entidades gravadas antes pelo ClipboardCopy e as posiciona num ponto de inserção escolhido, adicionando as camadas e tipos de linha que faltam no desenho de destino.
 keywords: [colar área de transferência CAD, colar entidades entre desenhos, colar objetos CAD, Ctrl+V CAD, colar entre abas, mesclar camadas ao colar, kulmanlab]
 group: edit
-order: 18
+order: 19
 ---
 
 # ClipboardPaste

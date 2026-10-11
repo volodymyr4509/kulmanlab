@@ -46,6 +46,7 @@ Willkommen bei der **KulmanLab CAD** Befehlsreferenz. [KulmanLab CAD](https://ku
 | [Undo](./commands/undo/) | Letzte Aktion rückgängig machen |
 | [Redo](./commands/redo/) | Zuletzt rückgängig gemachte Aktion wiederherstellen |
 | [Array Grid](./commands/array-grid/) | Elemente in einem rechteckigen Raster aus Zeilen und Spalten wiederholen |
+| [Array Polar](./commands/array-polar/) | Objekte rund um einen Mittelpunkt wiederholen |
 
 ## Beschriftung
 

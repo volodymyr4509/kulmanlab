@@ -3,7 +3,7 @@ title: ClipboardPaste komanda — objektų įklijavimas iš sistemos iškarpinė
 description: ClipboardPaste komanda perskaito iš sistemos iškarpinės objektus, anksčiau įrašytus ClipboardCopy, ir padeda juos pasirinktame įterpimo taške, pridėdama sluoksnius ir linijų tipus, kurių trūksta paskirties brėžinyje.
 keywords: [CAD iškarpinės įklijavimas, objektų įklijavimas tarp brėžinių, CAD objektų įklijavimas, Ctrl+V CAD, kopijavimas tarp skirtukų CAD, įklijavimas tarp naršyklės skirtukų, sluoksnių sujungimas įklijuojant, kulmanlab]
 group: edit
-order: 18
+order: 19
 ---
 
 # ClipboardPaste

@@ -3,7 +3,7 @@ title: คำสั่ง ClipboardCopy — คัดลอกวัตถุไ
 description: คำสั่ง ClipboardCopy เขียนวัตถุที่เลือกลงในคลิปบอร์ดของระบบเป็นข้อความ JSON พร้อมกับเลเยอร์และชนิดเส้นที่วัตถุอ้างถึง เพื่อให้วางลงในแบบอื่นหรือแท็บเบราว์เซอร์อื่นได้ด้วย ClipboardPaste
 keywords: [คัดลอกคลิปบอร์ด CAD, คัดลอกวัตถุระหว่างแบบ, คัดลอกวัตถุ CAD ไปคลิปบอร์ด, Ctrl+C CAD, คัดลอกข้ามแท็บ, kulmanlab]
 group: edit
-order: 17
+order: 18
 ---
 
 # ClipboardCopy

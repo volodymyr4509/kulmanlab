@@ -3,7 +3,7 @@ title: "Explode কমান্ড — Polyline কে Line ও Arc এনটি
 description: "Explode কমান্ড একটি পলিলাইনকে তার জায়গায়ই তার পৃথক Line ও Arc এনটিটিতে ভেঙে দেয়, প্রতি সেগমেন্টে একটি করে। প্রতিটি অংশ সোর্স পলিলাইনের লাইনওয়েট, রং, লেয়ার এবং লাইনটাইপ বজায় রাখে। এটি শুধুমাত্র Polyline এনটিটিতে কাজ করে।"
 keywords: [CAD explode কমান্ড, পলিলাইন এক্সপ্লোড CAD, পলিলাইনকে লাইনে ভাঙা, পলিলাইনকে line ও arc-এ রূপান্তর, kulmanlab]
 group: edit
-order: 16
+order: 17
 ---
 
 # Explode

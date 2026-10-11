@@ -3,7 +3,7 @@ title: Lệnh ClipboardCopy — Sao chép đối tượng vào bộ nhớ tạm 
 description: Lệnh ClipboardCopy ghi các đối tượng đã chọn vào bộ nhớ tạm hệ thống dưới dạng văn bản JSON, kèm theo các lớp và kiểu đường mà chúng tham chiếu, để dán vào bản vẽ khác hoặc thẻ trình duyệt khác bằng ClipboardPaste.
 keywords: [sao chép bộ nhớ tạm CAD, sao chép đối tượng giữa các bản vẽ, sao chép đối tượng CAD, Ctrl+C CAD, sao chép giữa các thẻ, kulmanlab]
 group: edit
-order: 17
+order: 18
 ---
 
 # ClipboardCopy

@@ -3,7 +3,7 @@ title: Příkaz Explode — rozložení polyline na objekty Line a Arc
 description: Příkaz Explode rozloží Polyline na jednotlivé objekty Line a Arc, jeden na segment, přímo na místě. Každý díl zachová tloušťku čáry, barvu, hladinu a typ čáry původní polyline. Funguje pouze na objektech Polyline.
 keywords: [CAD příkaz explode, rozložení polyline CAD, rozdělení polyline na úsečky, převod polyline na line a arc, kulmanlab]
 group: edit
-order: 16
+order: 17
 ---
 
 # Explode

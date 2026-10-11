@@ -3,7 +3,7 @@ title: ClipboardCopy-Befehl — Elemente in die Systemzwischenablage kopieren
 description: Der ClipboardCopy-Befehl schreibt ausgewählte Elemente als JSON-Text in die Systemzwischenablage, zusammen mit den Layern und Linientypen, auf die sie verweisen, sodass sie mit ClipboardPaste in eine andere Zeichnung oder einen anderen Browser-Tab eingefügt werden können.
 keywords: [CAD Zwischenablage kopieren, Elemente zwischen Zeichnungen kopieren, CAD Objekte in Zwischenablage, Strg+C CAD, Kopieren zwischen Tabs, kulmanlab]
 group: edit
-order: 17
+order: 18
 ---
 
 # ClipboardCopy

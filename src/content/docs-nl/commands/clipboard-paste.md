@@ -3,7 +3,7 @@ title: ClipboardPaste-opdracht — Entiteiten vanaf het systeemklembord plakken
 description: De opdracht ClipboardPaste leest entiteiten die eerder door ClipboardCopy zijn geschreven van het systeemklembord en plaatst ze op een gekozen invoegpunt, waarbij ontbrekende lagen en lijntypen aan de doeltekening worden toegevoegd.
 keywords: [klembord plakken CAD, entiteiten tussen tekeningen plakken, CAD-objecten plakken, Ctrl+V CAD, plakken tussen tabbladen, lagen samenvoegen bij plakken, kulmanlab]
 group: edit
-order: 18
+order: 19
 ---
 
 # ClipboardPaste
