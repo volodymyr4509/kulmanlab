@@ -1364,7 +1364,309 @@ const importReleaseTranslations: Record<string, { title: string; highlights: str
   },
 };
 
+const arcPolygonReleaseTranslations: Record<string, { title: string; highlights: string[] }> = {
+  "ar": {
+    title: "سبع طرق لرسم قوس، مع أمري Polygon وArrayPolar الجديدين",
+    highlights: [
+      "يمكن الآن رسم Arc من بدايته ومركزه ونهايته أو زاويته أو طول وتره؛ أو من بدايته ونهايته وزاويته أو اتجاه مماسه أو نصف قطره؛ أو من مركزه أولًا — مع رسالة واضحة حين لا تُنتج القيمة قوسًا.",
+      "أمر Polygon الجديد يرسم مضلعًا منتظمًا من 3 إلى 1024 ضلعًا انطلاقًا من مركزه ونصف قطره، أو من حافة واحدة؛ ويُحفظ إعداد Inside بين مرة وأخرى.",
+      "أمر ArrayPolar الجديد ينسخ التحديد حول مركز بعدد عناصر وزاوية وملء تختارها، بنسخ تدور أثناء دورانها أو تحتفظ باتجاهها. للأمرين الجديدين أزرار، وتوجد أوامر المصفوفات في قائمة منسدلة تحت Edit.",
+      "تعمل مفاتيح الخيارات مثل Edge وInside الآن أثناء كتابة رقم. كما تُبلَّغ Sentry عن حفظ فاشل وفتح فاشل وكل نوع من أخطاء المحطة كمشكلات منفصلة، دون محتوى الرسم أيضًا.",
+    ],
+  },
+  "bn": {
+    title: "আর্ক আঁকার সাত উপায়, সঙ্গে নতুন Polygon ও ArrayPolar কমান্ড",
+    highlights: [
+      "Arc এখন তার শুরু, কেন্দ্র ও শেষ, কোণ বা জ্যা-এর দৈর্ঘ্য থেকে; শুরু, শেষ ও কোণ, স্পর্শক দিক বা ব্যাসার্ধ থেকে; অথবা আগে কেন্দ্র থেকে আঁকা যায় — কোনো মান আর্ক না বানালে স্পষ্ট বার্তা দেখায়।",
+      "নতুন Polygon কমান্ড কেন্দ্র ও ব্যাসার্ধ থেকে অথবা একটি প্রান্ত থেকে ৩ থেকে ১০২৪ বাহুর নিয়মিত বহুভুজ আঁকে; Inside সেটিং এক রান থেকে পরের রানে মনে থাকে।",
+      "নতুন ArrayPolar কমান্ড নির্বাচিত অবজেক্ট কেন্দ্রের চারপাশে আপনার বেছে নেওয়া আইটেম সংখ্যা, কোণ ও ফিল অনুযায়ী কপি করে, কপিগুলো ঘোরার সময় ঘোরে অথবা নিজের অভিমুখ ধরে রাখে। দুটি নতুন কমান্ডেরই বোতাম আছে, এবং অ্যারে কমান্ডগুলো Edit-এর নিচের ড্রপডাউনে আছে।",
+      "Edge ও Inside-এর মতো অপশন কী এখন সংখ্যা টাইপ করার সময়ও কাজ করে। ব্যর্থ সেভ, ব্যর্থ ওপেন এবং প্রতিটি ধরনের টার্মিনাল ত্রুটি আলাদা সমস্যা হিসেবে Sentry-তে রিপোর্ট হয়, এখনও ড্রয়িংয়ের বিষয়বস্তু ছাড়াই।",
+    ],
+  },
+  "cs": {
+    title: "Sedm způsobů kreslení oblouku a nové příkazy Polygon a ArrayPolar",
+    highlights: [
+      "Arc lze nově kreslit ze začátku, středu a konce, úhlu nebo délky tětivy; ze začátku, konce a úhlu, směru tečny nebo poloměru; nebo nejdřív ze středu — s jasnou zprávou, když hodnota oblouk nevytvoří.",
+      "Nový příkaz Polygon nakreslí pravidelný mnohoúhelník o 3 až 1024 stranách ze středu a poloměru nebo z jedné hrany; nastavení Inside se mezi spuštěními pamatuje.",
+      "Nový příkaz ArrayPolar zkopíruje výběr kolem středu se zvoleným počtem položek, úhlem a výplní, s kopiemi, které se při obíhání otáčejí nebo si drží vlastní orientaci. Oba nové příkazy mají tlačítka a příkazy polí jsou v rozbalovací nabídce pod Edit.",
+      "Klávesy voleb jako Edge a Inside nově fungují i při psaní čísla. Neúspěšná uložení, neúspěšná otevření a každý druh chyby terminálu se do Sentry hlásí jako samostatné problémy, nadále bez obsahu výkresu.",
+    ],
+  },
+  "da": {
+    title: "Syv måder at tegne en bue på, plus nye kommandoer Polygon og ArrayPolar",
+    highlights: [
+      "Arc kan nu tegnes ud fra start, centrum og slutpunkt, vinkel eller kordelængde; ud fra start, slutpunkt og vinkel, tangentretning eller radius; eller med centrum først — med en klar besked, når en værdi ikke giver en bue.",
+      "Den nye kommando Polygon tegner en regulær polygon med 3 til 1024 sider ud fra centrum og radius eller ud fra én kant; indstillingen Inside huskes mellem kørsler.",
+      "Den nye kommando ArrayPolar kopierer markeringen rundt om et centrum med et valgt antal elementer, vinkel og fyld, med kopier der drejer med rundt eller bevarer deres egen retning. Begge nye kommandoer har knapper, og array-kommandoerne ligger i en rullemenu under Edit.",
+      "Valgtaster som Edge og Inside virker nu, mens et tal skrives. Mislykkede gemninger, mislykkede åbninger og hver slags terminalfejl rapporteres også til Sentry som separate sager, stadig uden tegningens indhold.",
+    ],
+  },
+  "de": {
+    title: "Sieben Wege, einen Bogen zu zeichnen, plus neue Befehle Polygon und ArrayPolar",
+    highlights: [
+      "Arc lässt sich jetzt aus Start, Mittelpunkt und Ende, Winkel oder Sehnenlänge zeichnen; aus Start, Ende und Winkel, Tangentenrichtung oder Radius; oder zuerst aus dem Mittelpunkt — mit klarer Meldung, wenn ein Wert keinen Bogen ergibt.",
+      "Der neue Befehl Polygon zeichnet ein regelmäßiges Vieleck mit 3 bis 1024 Seiten aus Mittelpunkt und Radius oder aus einer Kante; die Einstellung Inside wird zwischen den Aufrufen gemerkt.",
+      "Der neue Befehl ArrayPolar kopiert die Auswahl um einen Mittelpunkt mit gewählter Elementanzahl, Winkel und Füllung, mit Kopien, die sich beim Umlauf mitdrehen oder ihre Ausrichtung behalten. Beide neuen Befehle haben Schaltflächen, und die Array-Befehle liegen in einem Dropdown unter Edit.",
+      "Optionstasten wie Edge und Inside funktionieren jetzt auch während der Zahleneingabe. Fehlgeschlagenes Speichern, fehlgeschlagenes Öffnen und jede Art von Terminalfehler werden außerdem als getrennte Fälle an Sentry gemeldet, weiterhin ohne Zeichnungsinhalt.",
+    ],
+  },
+  "el": {
+    title: "Επτά τρόποι σχεδίασης τόξου και νέες εντολές Polygon και ArrayPolar",
+    highlights: [
+      "Το Arc μπορεί πλέον να σχεδιαστεί από την αρχή, το κέντρο και το τέλος, γωνία ή μήκος χορδής· από αρχή, τέλος και γωνία, διεύθυνση εφαπτομένης ή ακτίνα· ή πρώτα από το κέντρο — με σαφές μήνυμα όταν μια τιμή δεν δίνει τόξο.",
+      "Η νέα εντολή Polygon σχεδιάζει κανονικό πολύγωνο 3 έως 1024 πλευρών από κέντρο και ακτίνα ή από μία ακμή· η ρύθμιση Inside διατηρείται από τη μία εκτέλεση στην άλλη.",
+      "Η νέα εντολή ArrayPolar αντιγράφει την επιλογή γύρω από κέντρο με επιλεγμένο πλήθος στοιχείων, γωνία και πλήρωση, με αντίγραφα που στρέφονται καθώς περιστρέφονται ή κρατούν τον προσανατολισμό τους. Και οι δύο νέες εντολές έχουν κουμπιά και οι εντολές διάταξης βρίσκονται σε αναπτυσσόμενο μενού κάτω από το Edit.",
+      "Τα πλήκτρα επιλογών όπως Edge και Inside λειτουργούν πλέον και ενώ πληκτρολογείται αριθμός. Οι αποτυχημένες αποθηκεύσεις, τα αποτυχημένα ανοίγματα και κάθε είδος σφάλματος τερματικού αναφέρονται επίσης στο Sentry ως ξεχωριστά ζητήματα, πάντα χωρίς περιεχόμενο σχεδίου.",
+    ],
+  },
+  "es": {
+    title: "Siete formas de dibujar un arco, y nuevos comandos Polygon y ArrayPolar",
+    highlights: [
+      "Arc ahora puede dibujarse desde su inicio, centro y final, ángulo o longitud de cuerda; desde su inicio, final y ángulo, dirección tangente o radio; o primero desde su centro — con un mensaje claro cuando un valor no genera un arco.",
+      "El nuevo comando Polygon dibuja un polígono regular de 3 a 1024 lados desde su centro y radio, o desde un lado; el ajuste Inside se recuerda entre ejecuciones.",
+      "El nuevo comando ArrayPolar copia la selección alrededor de un centro con el número de elementos, ángulo y relleno elegidos, con copias que giran al dar la vuelta o conservan su orientación. Ambos comandos nuevos tienen botones, y los comandos de matriz están en un desplegable bajo Edit.",
+      "Las teclas de opción como Edge e Inside ahora funcionan mientras se escribe un número. Los guardados fallidos, las aperturas fallidas y cada tipo de error del terminal también se notifican a Sentry como incidencias separadas, siempre sin el contenido del dibujo.",
+    ],
+  },
+  "fi": {
+    title: "Seitsemän tapaa piirtää kaari sekä uudet komennot Polygon ja ArrayPolar",
+    highlights: [
+      "Arc voidaan nyt piirtää alusta, keskipisteestä ja lopusta, kulmasta tai jänteen pituudesta; alusta, lopusta ja kulmasta, tangenttisuunnasta tai säteestä; tai keskipisteestä ensin — selkeällä viestillä, kun arvo ei tee kaarta.",
+      "Uusi Polygon-komento piirtää säännöllisen monikulmion, jossa on 3–1024 sivua, keskipisteestä ja säteestä tai yhdestä sivusta; Inside-asetus muistetaan ajokerrasta toiseen.",
+      "Uusi ArrayPolar-komento kopioi valinnan keskipisteen ympäri valitulla kohteiden määrällä, kulmalla ja täytöllä, kopioilla jotka kääntyvät kiertäessään tai säilyttävät oman suuntansa. Molemmilla uusilla komennoilla on painikkeet, ja ruudukkokomennot ovat Editin alla olevassa pudotusvalikossa.",
+      "Valintanäppäimet kuten Edge ja Inside toimivat nyt myös lukua kirjoitettaessa. Epäonnistuneet tallennukset, epäonnistuneet avaukset ja jokainen terminaalivirheen laji raportoidaan myös Sentryyn erillisinä tapauksina, edelleen ilman piirustuksen sisältöä.",
+    ],
+  },
+  "fr": {
+    title: "Sept façons de tracer un arc, et les nouvelles commandes Polygon et ArrayPolar",
+    highlights: [
+      "Arc peut désormais être tracé à partir de son début, centre et fin, d’un angle ou d’une longueur de corde ; de son début, sa fin et d’un angle, d’une direction de tangente ou d’un rayon ; ou d’abord de son centre — avec un message clair quand une valeur ne donne pas d’arc.",
+      "La nouvelle commande Polygon trace un polygone régulier de 3 à 1024 côtés à partir de son centre et d’un rayon, ou d’un côté ; le réglage Inside est mémorisé d’une exécution à l’autre.",
+      "La nouvelle commande ArrayPolar copie la sélection autour d’un centre avec le nombre d’éléments, l’angle et le remplissage choisis, avec des copies qui tournent en faisant le tour ou gardent leur orientation. Les deux nouvelles commandes ont des boutons, et les commandes de réseau sont dans un menu déroulant sous Edit.",
+      "Les touches d’option comme Edge et Inside fonctionnent désormais pendant la saisie d’un nombre. Les échecs d’enregistrement, d’ouverture et chaque type d’erreur du terminal sont aussi signalés à Sentry comme des problèmes distincts, toujours sans contenu du dessin.",
+    ],
+  },
+  "ha": {
+    title: "Hanyoyi bakwai na zana arc, da sababbin umarnin Polygon da ArrayPolar",
+    highlights: [
+      "Yanzu ana iya zana Arc daga farko, tsakiya da ƙarshe, kusurwa ko tsawon chord; daga farko, ƙarshe da kusurwa, alkiblar tangent ko radius; ko daga tsakiya tukuna — tare da saƙo mai haske idan ƙima ba ta yin arc.",
+      "Sabon umarnin Polygon yana zana polygon na yau da kullum mai gefuna 3 zuwa 1024 daga tsakiya da radius, ko daga gefe ɗaya; ana tuna saitin Inside tsakanin gudanarwa.",
+      "Sabon umarnin ArrayPolar yana kwafar zaɓi a kewayen tsakiya da adadin abubuwa, kusurwa da cikawa da aka zaɓa, tare da kwafi da ke juyawa yayin zagayawa ko suke riƙe alkiblarsu. Duka sababbin umarnin suna da maɓalli, kuma umarnin array suna cikin jerin zaɓi ƙarƙashin Edit.",
+      "Maɓallan zaɓi kamar Edge da Inside yanzu suna aiki ko da ana rubuta lamba. Ajiyewar da ta gaza, buɗewar da ta gaza da kowane nau'in kuskuren tashar umarni ana kuma ba da rahoto zuwa Sentry a matsayin batutuwa daban-daban, har yanzu ba tare da abin da ke cikin zane ba.",
+    ],
+  },
+  "he": {
+    title: "שבע דרכים לצייר קשת, ופקודות חדשות Polygon ו-ArrayPolar",
+    highlights: [
+      "אפשר כעת לצייר Arc מההתחלה, המרכז והסוף, זווית או אורך מיתר; מההתחלה, הסוף וזווית, כיוון משיק או רדיוס; או קודם מהמרכז — עם הודעה ברורה כשערך אינו יוצר קשת.",
+      "הפקודה החדשה Polygon מציירת מצולע משוכלל בן 3 עד 1024 צלעות ממרכזו ורדיוס או מצלע אחת; ההגדרה Inside נשמרת בין הרצות.",
+      "הפקודה החדשה ArrayPolar משכפלת את הבחירה סביב מרכז עם מספר פריטים, זווית ומילוי לבחירתכם, עם עותקים שמסתובבים תוך כדי הקפה או שומרים על כיוונם. לשתי הפקודות החדשות יש כפתורים, ופקודות המערך נמצאות בתפריט נפתח תחת Edit.",
+      "מקשי אפשרויות כמו Edge ו-Inside פועלים כעת גם בזמן הקלדת מספר. שמירות שנכשלו, פתיחות שנכשלו וכל סוג של שגיאת מסוף מדווחים גם ל-Sentry כבעיות נפרדות, עדיין ללא תוכן השרטוט.",
+    ],
+  },
+  "hi": {
+    title: "आर्क बनाने के सात तरीके, साथ में नए कमांड Polygon और ArrayPolar",
+    highlights: [
+      "Arc अब अपनी शुरुआत, केंद्र और अंत, कोण या जीवा की लंबाई से; शुरुआत, अंत और कोण, स्पर्शरेखा दिशा या त्रिज्या से; या पहले केंद्र से बनाया जा सकता है — जब कोई मान आर्क नहीं बनाता तो स्पष्ट संदेश के साथ।",
+      "नया Polygon कमांड केंद्र और त्रिज्या से, या एक किनारे से, 3 से 1024 भुजाओं वाला नियमित बहुभुज बनाता है; Inside सेटिंग एक रन से दूसरे तक याद रहती है।",
+      "नया ArrayPolar कमांड चयन को चुने हुए आइटम की संख्या, कोण और फ़िल के साथ केंद्र के चारों ओर कॉपी करता है, ऐसी कॉपियों के साथ जो घूमते हुए मुड़ती हैं या अपनी दिशा बनाए रखती हैं। दोनों नए कमांड के बटन हैं, और ऐरे कमांड Edit के नीचे ड्रॉपडाउन में हैं।",
+      "Edge और Inside जैसी विकल्प कुंजियाँ अब संख्या टाइप करते समय भी काम करती हैं। विफल सेव, विफल ओपन और टर्मिनल की हर तरह की त्रुटि अब Sentry को अलग-अलग मामलों के रूप में भी भेजी जाती है, अब भी ड्रॉइंग की सामग्री के बिना।",
+    ],
+  },
+  "id": {
+    title: "Tujuh cara menggambar busur, plus perintah baru Polygon dan ArrayPolar",
+    highlights: [
+      "Arc kini dapat digambar dari awal, pusat, dan akhir, sudut atau panjang tali busur; dari awal, akhir, dan sudut, arah garis singgung atau radius; atau dari pusatnya dahulu — dengan pesan yang jelas saat sebuah nilai tidak membentuk busur.",
+      "Perintah baru Polygon menggambar poligon beraturan dengan 3 hingga 1024 sisi dari pusat dan radius, atau dari satu sisi; pengaturan Inside diingat antar penggunaan.",
+      "Perintah baru ArrayPolar menyalin pilihan mengelilingi pusat dengan jumlah item, sudut, dan isian yang dipilih, dengan salinan yang berputar saat mengelilingi atau mempertahankan orientasinya. Kedua perintah baru memiliki tombol, dan perintah array berada di dropdown di bawah Edit.",
+      "Tombol opsi seperti Edge dan Inside kini berfungsi saat angka sedang diketik. Penyimpanan yang gagal, pembukaan yang gagal, dan setiap jenis kesalahan terminal juga dilaporkan ke Sentry sebagai isu terpisah, tetap tanpa isi gambar.",
+    ],
+  },
+  "it": {
+    title: "Sette modi per disegnare un arco, più i nuovi comandi Polygon e ArrayPolar",
+    highlights: [
+      "Arc ora può essere disegnato da inizio, centro e fine, angolo o lunghezza della corda; da inizio, fine e angolo, direzione della tangente o raggio; oppure prima dal centro — con un messaggio chiaro quando un valore non produce un arco.",
+      "Il nuovo comando Polygon disegna un poligono regolare da 3 a 1024 lati dal centro e dal raggio, o da un lato; l’impostazione Inside viene ricordata tra un’esecuzione e l’altra.",
+      "Il nuovo comando ArrayPolar copia la selezione attorno a un centro con il numero di elementi, l’angolo e il riempimento scelti, con copie che ruotano mentre girano o mantengono la propria orientazione. Entrambi i nuovi comandi hanno pulsanti, e i comandi di matrice stanno in un menu a discesa sotto Edit.",
+      "I tasti delle opzioni come Edge e Inside ora funzionano anche mentre si digita un numero. I salvataggi falliti, le aperture fallite e ogni tipo di errore del terminale vengono inoltre segnalati a Sentry come problemi separati, sempre senza il contenuto del disegno.",
+    ],
+  },
+  "ja": {
+    title: "円弧を描く7つの方法と、新コマンド Polygon・ArrayPolar",
+    highlights: [
+      "Arc は、始点・中心・終点、角度、弦の長さから描けるようになったほか、始点・終点と角度、接線方向、半径から、または先に中心を指定して描くこともできます。値が円弧にならない場合は分かりやすいメッセージが表示されます。",
+      "新しい Polygon コマンドは、中心と半径、または1辺から、3〜1024辺の正多角形を描きます。Inside の設定は次回以降も記憶されます。",
+      "新しい ArrayPolar コマンドは、選択したオブジェクトを、指定したアイテム数・角度・フィルで中心の周りにコピーします。コピーは周回しながら回転することも、元の向きを保つこともできます。新しい2つのコマンドにはボタンがあり、配列コマンドは Edit の下のドロップダウンにまとめられています。",
+      "Edge や Inside などのオプションキーが、数値の入力中にも使えるようになりました。保存や読み込みの失敗、ターミナルエラーの各種類も、Sentry に別々の問題として報告されます。図面の内容は引き続き送信されません。",
+    ],
+  },
+  "ko": {
+    title: "호를 그리는 7가지 방법, 새 명령 Polygon과 ArrayPolar",
+    highlights: [
+      "이제 Arc를 시작점·중심·끝점, 각도 또는 현 길이로 그릴 수 있고, 시작점·끝점과 각도, 접선 방향 또는 반지름으로 그리거나, 중심을 먼저 지정해서 그릴 수도 있습니다. 값이 호를 만들지 못하면 분명한 메시지가 표시됩니다.",
+      "새 Polygon 명령은 중심과 반지름 또는 한 변에서 3~1024개 변의 정다각형을 그립니다. Inside 설정은 실행 사이에 기억됩니다.",
+      "새 ArrayPolar 명령은 선택한 객체를 지정한 항목 수, 각도, 채움으로 중심 둘레에 복사하며, 복사본은 돌면서 회전하거나 원래 방향을 유지할 수 있습니다. 두 새 명령 모두 버튼이 있고, 배열 명령은 Edit 아래 드롭다운에 모여 있습니다.",
+      "Edge나 Inside 같은 옵션 키가 이제 숫자를 입력하는 도중에도 동작합니다. 저장 실패, 열기 실패, 그리고 터미널 오류의 종류별로 Sentry에 별도 이슈로 보고되며, 도면 내용은 여전히 포함되지 않습니다.",
+    ],
+  },
+  "lt": {
+    title: "Septyni būdai nubraižyti lanką ir naujos komandos Polygon bei ArrayPolar",
+    highlights: [
+      "Arc dabar galima nubraižyti iš pradžios, centro ir pabaigos, kampo ar stygos ilgio; iš pradžios, pabaigos ir kampo, liestinės krypties ar spindulio; arba pirmiausia iš centro — su aiškiu pranešimu, kai reikšmė lanko nesukuria.",
+      "Nauja komanda Polygon nubraižo taisyklingą daugiakampį su 3–1024 kraštinėmis iš centro ir spindulio arba iš vienos kraštinės; nustatymas Inside įsimenamas tarp paleidimų.",
+      "Nauja komanda ArrayPolar nukopijuoja pasirinkimą aplink centrą pasirinktu elementų skaičiumi, kampu ir užpildymu, su kopijomis, kurios sukasi apeidamos arba išlaiko savo orientaciją. Abi naujos komandos turi mygtukus, o masyvų komandos yra išskleidžiamajame meniu po Edit.",
+      "Parinkčių klavišai, pvz., Edge ir Inside, dabar veikia ir renkant skaičių. Nepavykę išsaugojimai, nepavykę atidarymai ir kiekviena terminalo klaidos rūšis taip pat pranešami Sentry kaip atskiros problemos, vis dar be brėžinio turinio.",
+    ],
+  },
+  "ms": {
+    title: "Tujuh cara melukis arka, serta perintah baharu Polygon dan ArrayPolar",
+    highlights: [
+      "Arc kini boleh dilukis daripada permulaan, pusat dan hujung, sudut atau panjang perentas; daripada permulaan, hujung dan sudut, arah tangen atau jejari; atau daripada pusatnya dahulu — dengan mesej yang jelas apabila sesuatu nilai tidak menghasilkan arka.",
+      "Perintah baharu Polygon melukis poligon sekata dengan 3 hingga 1024 sisi daripada pusat dan jejari, atau daripada satu sisi; tetapan Inside diingati antara larian.",
+      "Perintah baharu ArrayPolar menyalin pilihan mengelilingi pusat dengan bilangan item, sudut dan isian yang dipilih, dengan salinan yang berputar semasa mengelilingi atau mengekalkan orientasinya. Kedua-dua perintah baharu mempunyai butang, dan perintah tatasusunan berada dalam menu juntai bawah Edit.",
+      "Kekunci pilihan seperti Edge dan Inside kini berfungsi semasa nombor sedang ditaip. Penyimpanan yang gagal, pembukaan yang gagal dan setiap jenis ralat terminal juga dilaporkan kepada Sentry sebagai isu berasingan, masih tanpa kandungan lukisan.",
+    ],
+  },
+  "nl": {
+    title: "Zeven manieren om een boog te tekenen, plus nieuwe opdrachten Polygon en ArrayPolar",
+    highlights: [
+      "Arc kan nu worden getekend vanuit begin, middelpunt en einde, hoek of koordelengte; vanuit begin, einde en hoek, raakrichting of straal; of eerst vanuit het middelpunt — met een duidelijke melding wanneer een waarde geen boog oplevert.",
+      "De nieuwe opdracht Polygon tekent een regelmatige veelhoek met 3 tot 1024 zijden vanuit middelpunt en straal of vanuit één zijde; de instelling Inside wordt tussen keren onthouden.",
+      "De nieuwe opdracht ArrayPolar kopieert de selectie rond een middelpunt met een gekozen aantal items, hoek en vulling, met kopieën die meedraaien of hun eigen oriëntatie houden. Beide nieuwe opdrachten hebben knoppen, en de array-opdrachten staan in een uitklapmenu onder Edit.",
+      "Optietoetsen zoals Edge en Inside werken nu ook terwijl een getal wordt getypt. Mislukte opslagen, mislukte openingen en elke soort terminalfout worden bovendien als aparte problemen aan Sentry gemeld, nog steeds zonder tekeninginhoud.",
+    ],
+  },
+  "no": {
+    title: "Sju måter å tegne en bue på, pluss nye kommandoer Polygon og ArrayPolar",
+    highlights: [
+      "Arc kan nå tegnes ut fra start, sentrum og slutt, vinkel eller kordelengde; ut fra start, slutt og vinkel, tangentretning eller radius; eller med sentrum først — med en tydelig melding når en verdi ikke gir en bue.",
+      "Den nye kommandoen Polygon tegner en regulær mangekant med 3 til 1024 sider ut fra sentrum og radius eller ut fra én kant; innstillingen Inside huskes mellom kjøringer.",
+      "Den nye kommandoen ArrayPolar kopierer utvalget rundt et sentrum med valgt antall elementer, vinkel og fylling, med kopier som dreier seg med rundt eller beholder sin egen retning. Begge de nye kommandoene har knapper, og matrisekommandoene ligger i en nedtrekksmeny under Edit.",
+      "Valgtaster som Edge og Inside fungerer nå mens et tall skrives. Mislykkede lagringer, mislykkede åpninger og hver type terminalfeil rapporteres også til Sentry som separate saker, fortsatt uten tegningens innhold.",
+    ],
+  },
+  "pa": {
+    title: "ਆਰਕ ਬਣਾਉਣ ਦੇ ਸੱਤ ਤਰੀਕੇ, ਨਾਲ ਨਵੀਆਂ ਕਮਾਂਡਾਂ Polygon ਅਤੇ ArrayPolar",
+    highlights: [
+      "Arc ਹੁਣ ਆਪਣੀ ਸ਼ੁਰੂਆਤ, ਕੇਂਦਰ ਅਤੇ ਅੰਤ, ਕੋਣ ਜਾਂ ਜੀਵਾ ਦੀ ਲੰਬਾਈ ਤੋਂ; ਸ਼ੁਰੂਆਤ, ਅੰਤ ਅਤੇ ਕੋਣ, ਸਪਰਸ਼ ਦਿਸ਼ਾ ਜਾਂ ਅਰਧ-ਵਿਆਸ ਤੋਂ; ਜਾਂ ਪਹਿਲਾਂ ਕੇਂਦਰ ਤੋਂ ਬਣਾਇਆ ਜਾ ਸਕਦਾ ਹੈ — ਜਦੋਂ ਕੋਈ ਮੁੱਲ ਆਰਕ ਨਾ ਬਣਾਏ ਤਾਂ ਸਪੱਸ਼ਟ ਸੁਨੇਹੇ ਨਾਲ।",
+      "ਨਵੀਂ Polygon ਕਮਾਂਡ ਕੇਂਦਰ ਅਤੇ ਅਰਧ-ਵਿਆਸ ਤੋਂ, ਜਾਂ ਇੱਕ ਕਿਨਾਰੇ ਤੋਂ, 3 ਤੋਂ 1024 ਭੁਜਾਵਾਂ ਵਾਲਾ ਨਿਯਮਿਤ ਬਹੁਭੁਜ ਬਣਾਉਂਦੀ ਹੈ; Inside ਸੈਟਿੰਗ ਇੱਕ ਵਾਰ ਤੋਂ ਅਗਲੀ ਵਾਰ ਤੱਕ ਯਾਦ ਰਹਿੰਦੀ ਹੈ।",
+      "ਨਵੀਂ ArrayPolar ਕਮਾਂਡ ਚੋਣ ਨੂੰ ਚੁਣੀ ਹੋਈ ਆਈਟਮ ਗਿਣਤੀ, ਕੋਣ ਅਤੇ ਫ਼ਿਲ ਨਾਲ ਕੇਂਦਰ ਦੁਆਲੇ ਕਾਪੀ ਕਰਦੀ ਹੈ, ਅਜਿਹੀਆਂ ਕਾਪੀਆਂ ਨਾਲ ਜੋ ਘੁੰਮਦਿਆਂ ਮੁੜਦੀਆਂ ਹਨ ਜਾਂ ਆਪਣੀ ਦਿਸ਼ਾ ਬਣਾਈ ਰੱਖਦੀਆਂ ਹਨ। ਦੋਵੇਂ ਨਵੀਆਂ ਕਮਾਂਡਾਂ ਦੇ ਬਟਨ ਹਨ, ਅਤੇ ਐਰੇ ਕਮਾਂਡਾਂ Edit ਹੇਠਾਂ ਡ੍ਰੌਪਡਾਊਨ ਵਿੱਚ ਹਨ।",
+      "Edge ਅਤੇ Inside ਵਰਗੀਆਂ ਵਿਕਲਪ ਕੁੰਜੀਆਂ ਹੁਣ ਅੰਕ ਟਾਈਪ ਕਰਨ ਵੇਲੇ ਵੀ ਕੰਮ ਕਰਦੀਆਂ ਹਨ। ਅਸਫਲ ਸੇਵ, ਅਸਫਲ ਓਪਨ ਅਤੇ ਟਰਮੀਨਲ ਗਲਤੀ ਦੀ ਹਰ ਕਿਸਮ ਵੀ Sentry ਨੂੰ ਵੱਖਰੇ ਮਾਮਲਿਆਂ ਵਜੋਂ ਦੱਸੀ ਜਾਂਦੀ ਹੈ, ਹਾਲੇ ਵੀ ਡਰਾਇੰਗ ਦੀ ਸਮੱਗਰੀ ਤੋਂ ਬਿਨਾਂ।",
+    ],
+  },
+  "pl": {
+    title: "Siedem sposobów rysowania łuku oraz nowe polecenia Polygon i ArrayPolar",
+    highlights: [
+      "Arc można teraz narysować od początku, środka i końca, kąta lub długości cięciwy; od początku, końca i kąta, kierunku stycznej lub promienia; albo najpierw od środka — z czytelnym komunikatem, gdy wartość nie daje łuku.",
+      "Nowe polecenie Polygon rysuje wielokąt foremny o 3–1024 bokach ze środka i promienia albo z jednego boku; ustawienie Inside jest zapamiętywane między uruchomieniami.",
+      "Nowe polecenie ArrayPolar kopiuje zaznaczenie wokół środka z wybraną liczbą elementów, kątem i wypełnieniem, z kopiami, które obracają się podczas obiegu lub zachowują własną orientację. Oba nowe polecenia mają przyciski, a polecenia szyku są w rozwijanym menu pod Edit.",
+      "Klawisze opcji, takie jak Edge i Inside, działają teraz także podczas wpisywania liczby. Nieudane zapisy, nieudane otwarcia i każdy rodzaj błędu terminala są też zgłaszane do Sentry jako osobne zgłoszenia, nadal bez zawartości rysunku.",
+    ],
+  },
+  "pt": {
+    title: "Sete formas de desenhar um arco, e novos comandos Polygon e ArrayPolar",
+    highlights: [
+      "Arc agora pode ser desenhado a partir do início, centro e fim, ângulo ou comprimento da corda; do início, fim e ângulo, direção da tangente ou raio; ou primeiro pelo centro — com uma mensagem clara quando um valor não forma um arco.",
+      "O novo comando Polygon desenha um polígono regular de 3 a 1024 lados a partir do centro e raio, ou de um lado; a configuração Inside é lembrada entre execuções.",
+      "O novo comando ArrayPolar copia a seleção em torno de um centro com o número de itens, ângulo e preenchimento escolhidos, com cópias que giram ao dar a volta ou mantêm a própria orientação. Os dois novos comandos têm botões, e os comandos de matriz ficam num menu suspenso em Edit.",
+      "Teclas de opção como Edge e Inside agora funcionam enquanto um número é digitado. Salvamentos falhos, aberturas falhas e cada tipo de erro do terminal também são relatados ao Sentry como problemas separados, ainda sem o conteúdo do desenho.",
+    ],
+  },
+  "sv": {
+    title: "Sju sätt att rita en båge, plus nya kommandon Polygon och ArrayPolar",
+    highlights: [
+      "Arc kan nu ritas från start, medelpunkt och slut, vinkel eller kordalängd; från start, slut och vinkel, tangentriktning eller radie; eller med medelpunkten först — med ett tydligt meddelande när ett värde inte ger någon båge.",
+      "Det nya kommandot Polygon ritar en regelbunden månghörning med 3 till 1024 sidor från medelpunkt och radie eller från en kant; inställningen Inside kommer ihåg mellan körningar.",
+      "Det nya kommandot ArrayPolar kopierar markeringen runt en medelpunkt med valt antal element, vinkel och fyllnad, med kopior som vrids med runt eller behåller sin egen riktning. Båda de nya kommandona har knappar, och matriskommandona ligger i en rullgardinsmeny under Edit.",
+      "Alternativtangenter som Edge och Inside fungerar nu medan ett tal skrivs. Misslyckade sparningar, misslyckade öppningar och varje typ av terminalfel rapporteras också till Sentry som separata ärenden, fortfarande utan ritningens innehåll.",
+    ],
+  },
+  "sw": {
+    title: "Njia saba za kuchora tao, pamoja na amri mpya Polygon na ArrayPolar",
+    highlights: [
+      "Arc sasa inaweza kuchorwa kutoka mwanzo, kituo na mwisho, pembe au urefu wa chodi; kutoka mwanzo, mwisho na pembe, mwelekeo wa tanjiti au kipenyo-nusu; au kutoka kituo kwanza — kukiwa na ujumbe wazi thamani isipotengeneza tao.",
+      "Amri mpya ya Polygon huchora poligoni ya kawaida yenye pande 3 hadi 1024 kutoka kituo na kipenyo-nusu, au kutoka ukingo mmoja; mpangilio wa Inside hukumbukwa kati ya matumizi.",
+      "Amri mpya ya ArrayPolar hunakili uteuzi kuzunguka kituo kwa idadi ya vipengee, pembe na kujaza ulivyochagua, na nakala zinazogeuka zinapozunguka au kudumisha mwelekeo wake. Amri zote mpya zina vitufe, na amri za array ziko kwenye menyu kunjuzi chini ya Edit.",
+      "Vitufe vya chaguo kama Edge na Inside sasa hufanya kazi hata nambari inapoandikwa. Uhifadhi uliofeli, ufunguzi uliofeli na kila aina ya hitilafu ya terminal pia huripotiwa kwa Sentry kama masuala tofauti, bado bila maudhui ya mchoro.",
+    ],
+  },
+  "th": {
+    title: "เจ็ดวิธีวาดส่วนโค้ง พร้อมคำสั่งใหม่ Polygon และ ArrayPolar",
+    highlights: [
+      "ตอนนี้วาด Arc ได้จากจุดเริ่ม จุดศูนย์กลางและจุดสิ้นสุด มุม หรือความยาวคอร์ด จากจุดเริ่ม จุดสิ้นสุดและมุม ทิศทางเส้นสัมผัส หรือรัศมี หรือจากจุดศูนย์กลางก่อน — พร้อมข้อความที่ชัดเจนเมื่อค่าใดไม่ได้ส่วนโค้ง",
+      "คำสั่งใหม่ Polygon วาดรูปหลายเหลี่ยมปกติที่มี 3 ถึง 1024 ด้านจากจุดศูนย์กลางและรัศมี หรือจากขอบหนึ่งด้าน การตั้งค่า Inside จะถูกจำไว้ระหว่างการใช้งาน",
+      "คำสั่งใหม่ ArrayPolar คัดลอกส่วนที่เลือกรอบจุดศูนย์กลางตามจำนวนรายการ มุม และการเติมที่เลือก โดยสำเนาจะหมุนไปตามรอบหรือคงทิศทางของตัวเอง คำสั่งใหม่ทั้งสองมีปุ่ม และคำสั่งอาร์เรย์อยู่ในเมนูแบบเลื่อนลงใต้ Edit",
+      "ปุ่มตัวเลือกอย่าง Edge และ Inside ใช้ได้แล้วแม้ขณะกำลังพิมพ์ตัวเลข การบันทึกที่ล้มเหลว การเปิดที่ล้มเหลว และข้อผิดพลาดของเทอร์มินัลแต่ละประเภทยังถูกรายงานไปยัง Sentry เป็นปัญหาแยกกัน โดยยังคงไม่มีเนื้อหาของแบบวาด",
+    ],
+  },
+  "tl": {
+    title: "Pitong paraan ng pagguhit ng arc, kasama ang mga bagong command na Polygon at ArrayPolar",
+    highlights: [
+      "Maaari nang iguhit ang Arc mula sa simula, gitna at dulo, anggulo o haba ng chord; mula sa simula, dulo at anggulo, direksyon ng tangent o radius; o mula muna sa gitna — na may malinaw na mensahe kapag ang isang halaga ay hindi gumagawa ng arc.",
+      "Gumuguhit ang bagong Polygon command ng regular na polygon na may 3 hanggang 1024 gilid mula sa gitna at radius, o mula sa isang gilid; naaalala ang Inside setting sa pagitan ng mga takbo.",
+      "Kinokopya ng bagong ArrayPolar command ang napili sa paligid ng gitna na may piniling bilang ng item, anggulo at fill, na may mga kopyang umiikot habang nagpapaligid o nagpapanatili ng sariling oryentasyon. May mga button ang dalawang bagong command, at nasa dropdown sa ilalim ng Edit ang mga array command.",
+      "Gumagana na ngayon ang mga option key tulad ng Edge at Inside habang nagta-type ng numero. Ang mga nabigong pag-save, nabigong pagbukas at bawat uri ng error ng terminal ay iniuulat din sa Sentry bilang magkakahiwalay na isyu, nang walang laman ng guhit pa rin.",
+    ],
+  },
+  "tr": {
+    title: "Yay çizmenin yedi yolu ve yeni Polygon ile ArrayPolar komutları",
+    highlights: [
+      "Arc artık başlangıç, merkez ve bitişten, açıdan veya kiriş uzunluğundan; başlangıç, bitiş ve açıdan, teğet yönünden veya yarıçaptan; ya da önce merkezden çizilebiliyor — bir değer yay oluşturmadığında açık bir mesajla.",
+      "Yeni Polygon komutu, merkezden ve yarıçaptan ya da bir kenardan 3 ile 1024 kenarlı düzgün bir çokgen çizer; Inside ayarı çalıştırmalar arasında hatırlanır.",
+      "Yeni ArrayPolar komutu seçimi, seçilen öğe sayısı, açı ve dolgu ile bir merkez etrafında kopyalar; kopyalar dönerken döner veya kendi yönelimini korur. Her iki yeni komutun da düğmeleri vardır ve dizi komutları Edit altındaki açılır menüde yer alır.",
+      "Edge ve Inside gibi seçenek tuşları artık bir sayı yazılırken de çalışıyor. Başarısız kaydetmeler, başarısız açmalar ve her tür terminal hatası ayrıca Sentry'ye ayrı sorunlar olarak bildirilir; çizim içeriği yine gönderilmez.",
+    ],
+  },
+  "uk": {
+    title: "Сім способів накреслити дугу та нові команди Polygon і ArrayPolar",
+    highlights: [
+      "Arc тепер можна накреслити від початку, центра й кінця, кута або довжини хорди; від початку, кінця й кута, напряму дотичної або радіуса; або спершу від центра — з чітким повідомленням, коли значення не дає дуги.",
+      "Нова команда Polygon малює правильний багатокутник із 3–1024 сторонами від центра й радіуса або від однієї сторони; налаштування Inside запам'ятовується між запусками.",
+      "Нова команда ArrayPolar копіює вибране навколо центра з обраною кількістю елементів, кутом і заповненням, із копіями, які повертаються під час обходу або зберігають власну орієнтацію. Обидві нові команди мають кнопки, а команди масивів зібрано у випадному меню під Edit.",
+      "Клавіші опцій, як-от Edge і Inside, тепер працюють і під час введення числа. Невдалі збереження, невдалі відкриття та кожен вид помилки терміналу також надсилаються до Sentry як окремі проблеми, як і раніше без вмісту креслення.",
+    ],
+  },
+  "ur": {
+    title: "آرک بنانے کے سات طریقے، اور نئی کمانڈز Polygon اور ArrayPolar",
+    highlights: [
+      "Arc اب اپنے آغاز، مرکز اور اختتام، زاویے یا وتر کی لمبائی سے؛ آغاز، اختتام اور زاویے، مماس کی سمت یا رداس سے؛ یا پہلے مرکز سے بنایا جا سکتا ہے — جب کوئی قدر آرک نہ بنائے تو واضح پیغام کے ساتھ۔",
+      "نئی Polygon کمانڈ مرکز اور رداس سے، یا ایک کنارے سے، 3 سے 1024 اضلاع والا باقاعدہ کثیر الاضلاع بناتی ہے؛ Inside ترتیب ایک بار سے اگلی بار تک یاد رہتی ہے۔",
+      "نئی ArrayPolar کمانڈ انتخاب کو منتخب آئٹمز کی تعداد، زاویے اور فل کے ساتھ مرکز کے گرد کاپی کرتی ہے، ایسی کاپیوں کے ساتھ جو گھومتے ہوئے مڑتی ہیں یا اپنا رخ برقرار رکھتی ہیں۔ دونوں نئی کمانڈز کے بٹن ہیں، اور ارے کمانڈز Edit کے نیچے ڈراپ ڈاؤن میں ہیں۔",
+      "Edge اور Inside جیسی آپشن کیز اب عدد ٹائپ کرتے وقت بھی کام کرتی ہیں۔ ناکام سیو، ناکام اوپن اور ٹرمینل کی ہر قسم کی خرابی اب Sentry کو الگ الگ مسائل کے طور پر بھی رپورٹ کی جاتی ہے، اب بھی ڈرائنگ کے مواد کے بغیر۔",
+    ],
+  },
+  "vi": {
+    title: "Bảy cách vẽ cung, cùng các lệnh mới Polygon và ArrayPolar",
+    highlights: [
+      "Arc giờ có thể vẽ từ điểm đầu, tâm và điểm cuối, góc hoặc độ dài dây cung; từ điểm đầu, điểm cuối và góc, hướng tiếp tuyến hoặc bán kính; hoặc từ tâm trước — kèm thông báo rõ ràng khi một giá trị không tạo ra cung.",
+      "Lệnh mới Polygon vẽ đa giác đều có từ 3 đến 1024 cạnh từ tâm và bán kính, hoặc từ một cạnh; cài đặt Inside được ghi nhớ giữa các lần chạy.",
+      "Lệnh mới ArrayPolar sao chép vùng chọn quanh một tâm với số mục, góc và độ điền đã chọn, cùng các bản sao xoay theo khi đi quanh hoặc giữ hướng riêng. Cả hai lệnh mới đều có nút, và các lệnh mảng nằm trong menu thả xuống dưới Edit.",
+      "Các phím tùy chọn như Edge và Inside giờ hoạt động cả khi đang gõ một số. Lưu thất bại, mở thất bại và từng loại lỗi terminal cũng được báo cáo lên Sentry thành các vấn đề riêng, vẫn không kèm nội dung bản vẽ.",
+    ],
+  },
+  "zh": {
+    title: "绘制圆弧的七种方式，以及新增的 Polygon 和 ArrayPolar 命令",
+    highlights: [
+      "Arc 现在可以从起点、中心和终点、角度或弦长绘制；从起点、终点和角度、切线方向或半径绘制；或先指定中心——当某个值无法构成圆弧时会给出清晰的提示。",
+      "新的 Polygon 命令可根据中心和半径，或一条边，绘制 3 到 1024 条边的正多边形；Inside 设置会在多次使用之间保留。",
+      "新的 ArrayPolar 命令把所选对象围绕中心复制，数量、角度和填充可自行选择，副本可随绕行而旋转，也可保持自身方向。两个新命令都有按钮，阵列命令收在 Edit 下的下拉菜单中。",
+      "Edge、Inside 等选项键现在在输入数字时也能使用。保存失败、打开失败以及每一类命令行错误，也会作为独立问题报告给 Sentry，仍不包含图纸内容。",
+    ],
+  },
+};
+
 export const releases: Release[] = [
+  {
+    version: "2026.10.11.9025e98",
+    date: "October 11, 2026",
+    title: "Seven ways to draw an arc, plus new Polygon and ArrayPolar commands",
+    highlights: [
+      "Arc can now be drawn from its start, center and end, angle or chord length; from its start, end and angle, tangent direction or radius; or from its center first — with a clear message when a value makes no arc.",
+      "New Polygon command draws a regular polygon of 3 to 1024 sides from its center and radius, or from one edge; the Inside setting is remembered between runs.",
+      "New ArrayPolar command copies the selection round a center with a chosen number of items, angle and fill, and copies that turn as they go round or keep their own orientation. Both new commands have buttons, and the array commands sit in a dropdown under Edit.",
+      "Option keys such as Edge and Inside now work while a number is being typed. Failed saves, failed opens and each kind of terminal error are also reported to Sentry as separate issues, still without drawing content.",
+    ],
+  },
   {
     version: "2026.10.08.cd1bea9d",
     date: "October 8, 2026",
@@ -14121,5 +14423,8 @@ for (const [lang, release] of Object.entries(splineReleaseTranslations)) {
   releaseTranslations[lang]?.unshift(release);
 }
 for (const [lang, release] of Object.entries(importReleaseTranslations)) {
+  releaseTranslations[lang]?.unshift(release);
+}
+for (const [lang, release] of Object.entries(arcPolygonReleaseTranslations)) {
   releaseTranslations[lang]?.unshift(release);
 }
