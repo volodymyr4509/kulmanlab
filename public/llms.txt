@@ -268,13 +268,16 @@ It is designed for engineers, architects, and technical illustrators who need a 
 ## Key features
 
 - Full command terminal with history, keyboard navigation, and fuzzy autocomplete (matches letters anywhere in a command's name, ranked by match quality then by actual usage frequency)
-- 50+ drawing commands: Line, Polyline, Circle, Arc, Ellipse, Rectangle, Spline, Hatch, Text (MTEXT), Dimensions, Leaders, and more
+- 50+ drawing commands: Line, Polyline, Circle, Arc (seven ways to define one), Ellipse, Rectangle, Polygon (3–1024 sides, from a center or an edge), Spline, Hatch, Text (MTEXT), Dimensions, Leaders, and more
 - Named TextStyle, LeaderStyle, and DimensionStyle managers set reusable defaults for new annotations, with STYLE, MLEADERSTYLE, and DIMSTYLE DXF round-tripping
 - Polyline arc segments — toggle Arc mode (A) mid-polyline for AutoCAD-style tangent arc segments, fully supported by render, selection, grip editing, trim/extend, DXF, and hatch boundaries
 - Rotate has a Copy toggle (C) — rotate duplicates instead of the original selection, AutoCAD ROTATE-style
 - Selection filter: narrow a large multi-selection by Type, Layer, Color, Lineweight, or Linetype before bulk-editing, via a filter icon in the property panel
 - Hatch fills any closed boundary with a pattern (ANSI31 and other standard patterns built in); Hatch Manager browses the pattern library and lets you upload your own .pat files, which shadow built-in patterns of the same name
 - Array Grid repeats a selection in rows and columns with typed spacing — no point-picking
+- Array Polar repeats a selection round a center with a chosen number of items, angle and fill, with copies that turn as they go round or keep their own orientation
+- Trim, Extend and Hatch work with splines, including a spline that crosses itself
+- Dimensions have a unit format — scientific, decimal, engineering, architectural, fractional or system for lengths; decimal degrees, deg/min/sec, gradians or radians for angles — and Precision reads in the chosen format
 - Layer management with color, linetype, and lineweight per layer; LayerManager deletes unused layers, refusing any layer still assigned to an entity in model space or on a layout
 - Grip editing on all entity types (lines, arcs, polylines, dimensions, text, viewports)
 - Snapping: endpoint, midpoint, center, intersection, perpendicular, tangent, nearest, grid
@@ -398,7 +401,7 @@ Fillet now works on Arc and Polyline segments, not just Line. Filleting two poly
 
 ## Privacy
 
-KulmanLab collects no drawing data. Your DXF files and canvas state are stored locally in IndexedDB — never uploaded. Google Analytics is used for anonymous usage metrics (page views, session counts), and the app is funded by ads served through Google AdSense. A region-scoped consent banner (Google Consent Mode v2) asks for opt-in before Analytics or ad cookies are set in the EEA, UK, and Switzerland. No account, no login, no server-side storage. Full details: https://kulmanlab.com/privacy/
+KulmanLab collects no drawing data. Your DXF files and canvas state are stored locally in IndexedDB — never uploaded. Google Analytics is used for anonymous usage metrics (page views, session counts), and the app is funded by ads served through Google AdSense. A region-scoped consent banner (Google Consent Mode v2) asks for opt-in before Analytics or ad cookies are set in the EEA, UK, and Switzerland. Errors (not drawings or personal data) are reported anonymously to Sentry so bugs can be fixed. No account, no login, no server-side storage. Full details: https://kulmanlab.com/privacy/
 
 ## Release cadence
 

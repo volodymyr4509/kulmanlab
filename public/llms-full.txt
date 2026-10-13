@@ -243,13 +243,16 @@ KulmanLab is a free, browser-based 2D CAD editor. No installation, no account, n
 - **Free**: no subscription, no credit card, no hidden plan
 - **No account**: no login or sign-up required
 - **Works offline**: cached after first load, no server needed
-- **Privacy**: drawings never leave your device; Google Analytics used for anonymous usage metrics; the app is funded by ads via Google AdSense, with a region-scoped consent banner (Google Consent Mode v2) for the EEA, UK, and Switzerland — see https://kulmanlab.com/privacy/
+- **Privacy**: drawings never leave your device; Google Analytics used for anonymous usage metrics; the app is funded by ads via Google AdSense, with a region-scoped consent banner (Google Consent Mode v2) for the EEA, UK, and Switzerland — errors (not drawings or personal data) are reported anonymously to Sentry — see https://kulmanlab.com/privacy/
 - **DXF compatible**: reads and writes AC1032 DXF, compatible with LibreCAD, QCAD, BricsCAD, FreeCAD
 - **Desktop browsers only**: Chrome, Firefox, Safari, Edge — mobile not currently supported
 
 ## What it can do
 
-- 50+ drawing commands via toolbar or command terminal (LINE, CIRCLE, ARC, MOVE, TRIM, OFFSET, and more)
+- 50+ drawing commands via toolbar or command terminal (LINE, CIRCLE, ARC, POLYGON, MOVE, TRIM, OFFSET, ARRAYPOLAR, and more)
+- Arc can be drawn seven ways; Polygon draws regular polygons of 3–1024 sides from a center or an edge; Array Grid and Array Polar repeat a selection in rows and columns or round a center
+- Trim, Extend and Hatch work with splines, including a spline that crosses itself
+- Dimension unit formats (scientific, decimal, engineering, architectural, fractional, system; angular decimal degrees, deg/min/sec, gradians, radians), with Precision read in the chosen format
 - Full layer management: create, rename, freeze, lock, isolate, color, linetype, lineweight per layer
 - Dimensions: linear, aligned, radius, diameter, angular, continue
 - Named TextStyle, LeaderStyle, and DimensionStyle managers with STYLE, MLEADERSTYLE, and DIMSTYLE DXF round-tripping
@@ -516,6 +519,26 @@ A line preview connects the first two clicks while you position the third. From 
 
 > **Collinear points**: if all three points lie on a straight line the arc cannot be computed and no entity is placed. Move the second point off the line and try again.
 
+## Other ways to draw an arc
+
+Three points is the default. At some prompts the terminal shows options in square brackets, such as `[Center=false]` — type the option's letter to switch it on (`[Center=true]`) and again to switch it off. Combined, they draw the arc in six more ways:
+
+| Method | Turn on | Last step |
+|---|---|---|
+| Start, Center, End | `C` | end point |
+| Start, Center, Angle | `C`, `A` | angle |
+| Start, Center, Length | `C`, `L` | chord length |
+| Start, End, Angle | `E` | angle |
+| Start, End, Direction | `E`, `D` | tangent direction |
+| Start, End, Radius | `E`, `R` | radius |
+
+- In the last step of every method except Start, Center, End, either type a number and press **Enter** or **Space**, or move the cursor and click — the cursor is read as that number (a direction for an angle or tangent direction, a distance for a chord length or radius).
+- A positive angle runs counter-clockwise from the start, a negative one clockwise. An angle of 0° or whole turns makes no arc and the terminal says so.
+- A positive chord length or radius takes the short way round, a negative one the long way. A chord longer than the diameter, or a radius under half the chord, is refused and the terminal states the limit.
+- Start, Center, End uses only the direction of the end point from the center: the arc runs counter-clockwise from the start to wherever that direction meets the circle. The tangent direction is the heading, in degrees from the X axis, in which the arc leaves its start.
+- To pick the center before the start point, type `C` at the very first prompt.
+- The option letters follow the language of the interface; the letters shown here are the English ones.
+
 ## Coordinate entry
 
 At any of the three steps you can type an exact position instead of clicking:
@@ -533,6 +556,7 @@ At any of the three steps you can type an exact position instead of clicking:
 | `,` | Lock X and move to Y entry |
 | `Backspace` | Delete last typed character |
 | `Enter` | Confirm typed coordinate |
+| `C` `E` `A` `L` `D` `R` | Turn an option on or off: `C` Center, `E` End, `A` Angle, `L` Length, `D` Direction, `R` Radius |
 | `Escape` | Discard all placed points and exit |
 
 ## Grip editing — adjusting endpoints and radius
@@ -707,7 +731,7 @@ The `ArrayGrid` command creates a rectangular grid of copies from the selected e
 **Pre-select, then array** — select entities first, then activate:
 
 1. Select one or more entities on the canvas.
-2. Type `arraygrid` in the terminal (as few as `arr` is enough — it's unambiguous) or click the **Array Grid** toolbar button.
+2. Type `arraygrid` in the terminal (a few letters are enough — pick it from the suggestions) or choose **Array Grid** from the array dropdown in the Edit panel.
 3. Type the number of **rows** and press **Enter**.
 4. Type the number of **columns** and press **Enter**.
 5. Type the **spacing between rows** and press **Enter**.
@@ -715,7 +739,7 @@ The `ArrayGrid` command creates a rectangular grid of copies from the selected e
 
 **Activate, then select** — start the command with nothing selected:
 
-1. Type `arraygrid` or click the toolbar button.
+1. Type `arraygrid` or choose it from the array dropdown in the Edit panel.
 2. **Select objects** — click to toggle individual entities, or drag to select by area.
 3. Press **Enter** or **Space** to confirm the selection.
 4. Continue with rows → columns → row spacing → column spacing as above.
@@ -727,7 +751,7 @@ The `ArrayGrid` command creates a rectangular grid of copies from the selected e
   [A] [A] [A]   <- row 0: original selection, copies to the right
 ```
 
-> The terminal only needs enough letters to be unambiguous — typing `arr` and pressing **Enter** activates Array Grid directly, since no other command name starts with those three letters (Arc, Area, Align, and Angle all diverge earlier).
+> The terminal suggests matching commands as you type, so a few letters are enough — but `arr` now matches both Array Grid and Array Polar, so keep typing or pick one from the list.
 
 ## Rows, columns, and spacing
 
@@ -776,6 +800,45 @@ The new copies are added to the drawing and the command exits — the original s
 ## Supported entities
 
 Array Grid works on every entity type. All entities implement `translate(dx, dy)` internally, the same operation [Copy](https://kulmanlab.com/docs/commands/copy/) and [Move](https://kulmanlab.com/docs/commands/move/) use, so none are excluded.
+
+---
+
+<!-- Source: /docs/commands/array-polar/ -->
+# Array Polar
+
+The `ArrayPolar` command makes copies of the selected objects round a center point, spread evenly over a full turn or part of one. The original is the first item; every other item is a copy, rotated about the center — or only moved round it, if you turn Rotate off.
+
+## Drawing a polar array
+
+1. Select the objects, then type `arraypolar` in the terminal or click the **Array Polar** toolbar button. Started with nothing selected, it asks you to select them first — press **Enter** or **Space** to confirm.
+2. **Click the center** the copies go round, or type `X,Y` and press **Enter** for an exact coordinate.
+3. Review the array. All the copies preview live, and the terminal shows `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — press an option's letter to change it.
+4. Press **Enter** or **Space** to create the copies. The originals stay where they are and the selection is cleared.
+
+## Options
+
+| Option | Key | Effect |
+|---|---|---|
+| Items | `I` | How many items there are, the original included — a whole number from 2 to 1024. Starts at 6. |
+| Angle | `A` | Degrees from one item to the next, counter-clockwise; a negative angle runs clockwise. Up to 180°. |
+| Fill | `F` | Degrees from the first item to the last. 360 (the default) is a full turn; a smaller number spreads the items over part of one. Negative runs clockwise. Up to 360°. |
+| Rotate | `R` | On (the default): each copy turns as it goes round. Off: each copy is moved to its place and faces the way the original does. It flips on the spot — there is no number to type. |
+
+- Angle and Fill are two ways of stating the same thing, so changing one restates the other. Over a full turn the last item stops one step short of the first; over part of a turn it lands exactly at the fill angle.
+- To change a number, press its option's letter. The prompt is pre-filled with the current value — type to replace it, then press **Enter** or **Space**; confirming it unchanged leaves the array as it was.
+- Items takes whole numbers only; Angle and Fill take decimals, and a leading `-` for clockwise. An angle or fill of 0 is refused, and so is an angle over 180° or a fill over 360° — the terminal says why.
+- An Angle too small to fit every item drops the ones with no room, and the terminal reports the new count.
+- Works on every entity type: each copy is the original rotated about the center, or moved, exactly as [Rotate](https://kulmanlab.com/docs/commands/rotate/) and [Move](https://kulmanlab.com/docs/commands/move/) would do it.
+
+## Keyboard reference
+
+| Key | Action |
+|---|---|
+| `Enter` / `Space` | Confirm the selection, the array, or a typed number |
+| `I` `A` `F` `R` | Change Items, Angle or Fill by typing a number; flip Rotate |
+| `0`–`9`, `.`, `-` | Type the number (`.` and `-` only for Angle and Fill, with `-` first) |
+| `Backspace` | Delete the last typed character |
+| `Escape` | Cancel |
 
 ---
 
@@ -1147,7 +1210,7 @@ ClipboardPaste only accepts payloads that ClipboardCopy produced. Anything else 
 Clipboard has no copied entities
 ```
 
-If the browser refuses clipboard access entirely, the message is **Clipboard access denied** instead. Both end the command without changing the drawing.
+If the browser refuses clipboard access entirely, the message is **Blocked by the browser: allow clipboard in site settings, by the address bar** instead. Both end the command without changing the drawing.
 
 ## Keyboard reference
 
@@ -1399,6 +1462,10 @@ To add more dimensions continuing from the second extension line of this one, us
 
 Aligned dimensions are saved as `DIMENSION` entities with `dimType = 1` (aligned). Extension line origins, dimension line position, text position, measured value, rotation, arrow style, and all display flags round-trip without loss.
 
+## Unit format and precision
+
+The **Unit Format** property in the property window chooses how the measurement is written: Scientific, Decimal (the default), Engineering, Architectural, Fractional, or System, which follows your system's number style. **Precision** lists its choices the way the chosen format writes them — fractions of an inch for Architectural and Fractional, for example. A DXF's own unit format is read in, and new dimensions take both settings from the current [DimensionStyle](https://kulmanlab.com/docs/commands/dimension-style/). Fractions are written on one line, not stacked.
+
 ## Dimension style
 
 New aligned dimensions copy the current [DimensionStyle](https://kulmanlab.com/docs/commands/dimension-style/), including arrows, extension lines, text, precision, alignment, gap, and frame. The values are copied at creation time, so later style edits do not change existing dimensions.
@@ -1469,6 +1536,10 @@ See [Text Editor — simple mode](https://kulmanlab.com/docs/interface/text-edit
 - [Dimension Aligned](https://kulmanlab.com/docs/commands/dim-aligned/) — dimension aligned to two points
 - [Dimension Radius](https://kulmanlab.com/docs/commands/dim-radius/) — radius dimension for arcs and circles
 - [Dimension Diameter](https://kulmanlab.com/docs/commands/dim-diameter/) — diameter dimension for circles
+
+## Unit format and precision
+
+The **Unit Format** property chooses how the angle is written: Decimal Degrees (the default), Deg/Min/Sec, Gradians, or Radians. **Precision** follows the format; for Deg/Min/Sec it lists only the precisions that read differently. **Ext Line Offset** sets the gap at the start of each extension line and is taken from the [DimensionStyle](https://kulmanlab.com/docs/commands/dimension-style/) when the dimension is drawn.
 
 ## Dimension style
 
@@ -1627,6 +1698,10 @@ See [Text Editor — simple mode](https://kulmanlab.com/docs/interface/text-edit
 
 Diameter dimensions are saved as `DIMENSION` entities with diameter-type geometry, storing both arc-point positions and the measured diameter value (2 × radius). All properties round-trip without loss.
 
+## Unit format and precision
+
+The **Unit Format** property in the property window chooses how the measurement is written: Scientific, Decimal (the default), Engineering, Architectural, Fractional, or System, which follows your system's number style. **Precision** lists its choices the way the chosen format writes them — fractions of an inch for Architectural and Fractional, for example. A DXF's own unit format is read in, and new dimensions take both settings from the current [DimensionStyle](https://kulmanlab.com/docs/commands/dimension-style/). Fractions are written on one line, not stacked.
+
 ## Dimension style
 
 New diameter dimensions copy the current [DimensionStyle](https://kulmanlab.com/docs/commands/dimension-style/), including separate arrowheads, center-mark type and size, text, precision, gap, alignment, and frame. Outside dimensions use the second arrowhead consistently and begin the outside leader at the circle or arc.
@@ -1724,6 +1799,10 @@ To add more dimensions continuing from the last extension line, use [Dimension C
 
 Linear dimensions are saved as `DIMENSION` entities with `rotationDeg` set to `0` (horizontal) or `90` (vertical). Extension line origins, dimension line position, text position, measured value, arrow style, text height, and all display flags round-trip without loss.
 
+## Unit format and precision
+
+The **Unit Format** property in the property window chooses how the measurement is written: Scientific, Decimal (the default), Engineering, Architectural, Fractional, or System, which follows your system's number style. **Precision** lists its choices the way the chosen format writes them — fractions of an inch for Architectural and Fractional, for example. A DXF's own unit format is read in, and new dimensions take both settings from the current [DimensionStyle](https://kulmanlab.com/docs/commands/dimension-style/). Fractions are written on one line, not stacked.
+
 ## Dimension style
 
 New linear dimensions copy the current [DimensionStyle](https://kulmanlab.com/docs/commands/dimension-style/), including arrows, extension lines, text, precision, alignment, gap, and frame. The values are copied at creation time, so later style edits do not change existing dimensions.
@@ -1790,6 +1869,10 @@ See [Text Editor — simple mode](https://kulmanlab.com/docs/interface/text-edit
 ## DXF — DIMENSION radius entity
 
 Radius dimensions are saved as `DIMENSION` entities with radius-type geometry, storing the center coordinates, the arc-point position, and the measured radius value. All properties round-trip without loss.
+
+## Unit format and precision
+
+The **Unit Format** property in the property window chooses how the measurement is written: Scientific, Decimal (the default), Engineering, Architectural, Fractional, or System, which follows your system's number style. **Precision** lists its choices the way the chosen format writes them — fractions of an inch for Architectural and Fractional, for example. A DXF's own unit format is read in, and new dimensions take both settings from the current [DimensionStyle](https://kulmanlab.com/docs/commands/dimension-style/). Fractions are written on one line, not stacked.
 
 ## Dimension style
 
@@ -2178,9 +2261,8 @@ The following entity types are ignored as boundaries — an entity does not exte
 
 - Text / Mtext
 - Multileader
-- Spline
 
-All other types (Line, Arc, Circle, Ellipse, Polyline, Dimension) serve as valid boundaries.
+All other types (Line, Arc, Circle, Ellipse, Polyline, Spline, Dimension) serve as valid boundaries.
 
 If a [Polyline](https://kulmanlab.com/docs/commands/polyline/)'s **first or last segment** is itself an arc segment (drawn with the Arc toggle), extending it grows the arc along its own circle — the same way extending a standalone [Arc](https://kulmanlab.com/docs/commands/arc/) does — rather than treating it as a straight segment.
 
@@ -2606,7 +2688,7 @@ Any mix of these entity types can form a boundary, in any combination, as long a
 - [Circle](https://kulmanlab.com/docs/commands/circle/) (its own closed boundary)
 - [Ellipse](https://kulmanlab.com/docs/commands/ellipse/) (closed, or an open elliptical arc as part of a larger loop)
 - [Polyline](https://kulmanlab.com/docs/commands/polyline/) (open or closed) and [Rectangle](https://kulmanlab.com/docs/commands/rectangle/)
-- [Spline CV / Spline Fit](https://kulmanlab.com/docs/commands/spline-cv/)
+- [Spline CV / Spline Fit](https://kulmanlab.com/docs/commands/spline-cv/) — each loop of a spline that crosses itself is a region of its own
 
 Text, Multileader, and Dimension entities are never treated as boundaries.
 
@@ -2797,7 +2879,7 @@ KulmanLab automatically reopens the most recently edited file when the page load
 
 | Problem | Likely cause | Fix |
 |---------|-------------|-----|
-| Canvas is empty after import | DXF entities use unsupported types (e.g. HATCH, INSERT) | The entities were skipped — check for the "no entities found" message in the terminal |
+| Canvas is empty after import | DXF entities use unsupported types (e.g. INSERT) | The entities were skipped — the terminal lists each skipped type with a count, for example `Could not read INSERT: 12`. A file that is not a valid drawing at all reports `Could not read <file>: not a valid drawing file` |
 | Import button does nothing | Browser blocked the file picker | Click the button once more; some browsers require a fresh user gesture |
 | Dimensions look wrong | DXF from a tool that writes non-standard dimension geometry | Re-export from the source app using a current DXF version |
 
@@ -3145,8 +3227,10 @@ The list on the left contains every visible dimension style. A check mark identi
 | Text Gap | Space between the dimension line and label. |
 | Text Attachment | One of nine positions around the dimension line. |
 | Text Aligned | Rotates the label with the dimension line instead of keeping it horizontal. |
-| Precision | Decimal places for linear, aligned, radius, and diameter values. |
-| Angular Precision | Decimal places for angular values. |
+| Unit Format | How lengths are written: Scientific, Decimal, Engineering, Architectural, Fractional, or System. |
+| Precision | Precision for linear, aligned, radius, and diameter values, read as the length unit format writes it. |
+| Angular Unit Format | How angles are written: Decimal Degrees, Deg/Min/Sec, Gradians, or Radians. |
+| Angular Precision | Precision for angular values, read as the angular unit format writes it. |
 
 Text Style is a quick fill, not a live link. Changing a copied field does not alter the source text style, and later text-style edits do not update the dimension style.
 
@@ -3937,6 +4021,45 @@ The fastest way to pan: **hold the middle mouse button and drag** at any time, e
 
 ---
 
+<!-- Source: /docs/commands/polygon/ -->
+# Polygon
+
+The `polygon` command draws a regular polygon — all sides and angles equal — with 3 to 1024 sides. Type `polygon` in the terminal. The result is a **closed `LWPOLYLINE`**, so once placed it behaves like any other [Polyline](https://kulmanlab.com/docs/commands/polyline/) and every polyline edit applies to it.
+
+## Drawing a polygon
+
+1. Type `polygon` in the terminal and enter the **number of sides** — a whole number from 3 to 1024 — then press **Enter** or **Space**. The prompt is pre-filled with the last count you used (4 the first time); start typing to replace it. Anything else is refused and stays in the prompt to correct.
+2. **Click the center**, or type `X,Y` and press **Enter** for an exact coordinate. Press `E` first to start from an edge instead (see below).
+3. **Click the radius** — the polygon previews live — or type the radius and press **Enter** or **Space**.
+4. The polygon is placed and the command exits.
+
+## Options
+
+| Option | Key | Effect |
+|---|---|---|
+| Edge | `E` | The first point becomes one end of an edge instead of the center. Pick the second end; the remaining corners are built counter-clockwise, to the left of the edge from the first end to the second. Press `E` again to go back to the center. |
+| Inside | `I` | On by default, and kept from one polygon to the next. On: the corners lie on the circle of the given radius. Off: the polygon sits outside that circle, with the middle of each edge on it. |
+
+- A click puts a corner (Inside on) or the middle of an edge (Inside off) exactly where the cursor is, so the cursor also sets the orientation.
+- A typed radius has nothing to aim along, so the polygon sits with its lowest edge level — unless angle locking is on, in which case it follows the locked angle.
+- Each option is offered at its own step and can be flipped even while a number is being typed.
+
+## Keyboard reference
+
+| Key | Action |
+|---|---|
+| `0`–`9`, `.` | Type the number of sides, the radius, or a coordinate or length |
+| `E` | Turn Edge on or off (first-point step) |
+| `I` | Turn Inside on or off (radius step) |
+| `Enter` / `Space` | Confirm the number of sides or the radius |
+| `Escape` | Cancel |
+
+## DXF — LWPOLYLINE entity
+
+A polygon is saved as a closed `LWPOLYLINE` with one vertex per corner; DXF has no dedicated polygon type. All properties — vertex coordinates, color, layer, linetype, linetype scale, and thickness — round-trip without loss, and any DXF viewer reads it as a closed polyline.
+
+---
+
 <!-- Source: /docs/commands/polyline/ -->
 # Polyline
 
@@ -4600,9 +4723,10 @@ There is no "move whole spline" grip. To translate the entire spline, use the [M
 | [Rotate](https://kulmanlab.com/docs/commands/rotate/) | Rotates all CVs around the chosen base point |
 | [Mirror](https://kulmanlab.com/docs/commands/mirror/) | Reflects all CVs across the mirror axis |
 | [Scale](https://kulmanlab.com/docs/commands/scale/) | Scales all CVs uniformly from the base point |
+| [Trim](https://kulmanlab.com/docs/commands/trim/) | Cuts the spline at its intersections — each piece is the same curve over less of itself |
 | [Delete](https://kulmanlab.com/docs/commands/delete/) | Removes the spline |
 
-Splines do not support **Offset**, **Trim**, or **Extend**.
+Splines support **Trim**, but not **Offset** or **Extend**.
 
 ## Properties
 
@@ -4705,9 +4829,10 @@ There is no "move whole spline" grip. To translate the entire spline, use the [M
 | [Rotate](https://kulmanlab.com/docs/commands/rotate/) | Rotates all fit points around the chosen base point |
 | [Mirror](https://kulmanlab.com/docs/commands/mirror/) | Reflects all fit points across the mirror axis |
 | [Scale](https://kulmanlab.com/docs/commands/scale/) | Scales all fit points uniformly from the base point |
+| [Trim](https://kulmanlab.com/docs/commands/trim/) | Cuts the spline at its intersections — each piece is the same curve over less of itself |
 | [Delete](https://kulmanlab.com/docs/commands/delete/) | Removes the spline |
 
-Splines do not support **Offset**, **Trim**, or **Extend**.
+Splines support **Trim**, but not **Offset** or **Extend**.
 
 ## Properties
 
@@ -4949,7 +5074,7 @@ Text labels are stored as **MTEXT** entities in the DXF file. Bold and italic us
 <!-- Source: /docs/commands/trim/ -->
 # Trim
 
-The `trim` command removes the portion of a [Line](https://kulmanlab.com/docs/commands/line/), [Arc](https://kulmanlab.com/docs/commands/arc/), [Circle](https://kulmanlab.com/docs/commands/circle/), [Ellipse](https://kulmanlab.com/docs/commands/ellipse/), or [Polyline](https://kulmanlab.com/docs/commands/polyline/) that lies between two adjacent intersection points, splitting the entity into one or more remaining pieces. The segment to cut is determined by the cursor position — hover over the part you want removed and click to trim it.
+The `trim` command removes the portion of a [Line](https://kulmanlab.com/docs/commands/line/), [Arc](https://kulmanlab.com/docs/commands/arc/), [Circle](https://kulmanlab.com/docs/commands/circle/), [Ellipse](https://kulmanlab.com/docs/commands/ellipse/), [Polyline](https://kulmanlab.com/docs/commands/polyline/), or [Spline](https://kulmanlab.com/docs/commands/spline-cv/) that lies between two adjacent intersection points, splitting the entity into one or more remaining pieces. The segment to cut is determined by the cursor position — hover over the part you want removed and click to trim it.
 
 ## Trimming an entity
 
@@ -4969,10 +5094,10 @@ The command stays active after each trim, so you can continue hovering and click
 
 ## How the trim segment is determined
 
-The command projects the cursor position onto the hovered entity and finds all intersection points it has with other entities. These intersections divide the entity into segments — for a Line, Arc, or open Polyline, the entity's own endpoints act as additional fixed boundaries. A full Circle or Ellipse, or a closed Polyline (including a Rectangle), has no endpoints of its own, so at least two intersection points are needed before it can be trimmed at all. The segment whose interval contains the cursor's projection is highlighted and will be removed on click.
+The command projects the cursor position onto the hovered entity and finds all intersection points it has with other entities. These intersections divide the entity into segments — for a Line, Arc, or open Polyline, the entity's own endpoints act as additional fixed boundaries. A full Circle or Ellipse, a closed Polyline (including a Rectangle), or a closed Spline has no endpoints of its own, so at least two intersection points are needed before it can be trimmed at all. The segment whose interval contains the cursor's projection is highlighted and will be removed on click.
 
 - **Line, Arc, and open Polyline** — the removed segment can be the leading portion (before the first intersection), a middle portion (between two intersections, splitting the entity into two pieces), or the trailing portion (after the last intersection).
-- **Circle, Ellipse, and closed Polyline/Rectangle** — since there is no fixed start or end, only the arc between two *intersection points* can be removed. With fewer than two intersections, no preview appears and clicking does nothing. The rest of the shape becomes the single remaining piece.
+- **Circle, Ellipse, and closed Polyline/Rectangle/Spline** — since there is no fixed start or end, only the arc between two *intersection points* can be removed. With fewer than two intersections, no preview appears and clicking does nothing. The rest of the shape becomes the single remaining piece.
 
 ## What trimming produces
 
@@ -4984,6 +5109,7 @@ The command projects the cursor position onto the hovered entity and finds all i
 | Ellipse | One Ellipse entity with a start and end angle — the remaining piece stays an Ellipse, now a partial one |
 | Polyline (open) | Up to two shorter Polyline entities |
 | Polyline (closed) / Rectangle | One open Polyline entity — the closed shape is gone, so the remaining piece is stored open |
+| Spline | Up to two shorter Spline entities — each piece is the same curve over less of itself, stored by control vertices (a fit spline's fit points are dropped); a closed spline leaves one open piece |
 
 ## Keyboard reference
 
@@ -5002,9 +5128,12 @@ The command projects the cursor position onto the hovered entity and finds all i
 | Ellipse | Yes — requires 2 or more intersection points |
 | Polyline (open) | Yes |
 | Polyline (closed) / Rectangle | Yes — requires 2 or more intersection points |
-| Text, Spline, Dimension, Leader | No |
+| Spline | Yes — a closed spline requires 2 or more intersection points; a spline is also cut where it crosses itself |
+| Text, Dimension, Leader | No |
 
-The entities used as **cutting boundaries** can be a Line, Arc, Circle, Ellipse, or Polyline. Text, Spline, Dimension, and Leader entities never register intersections, so they can't act as boundaries either.
+The entities used as **cutting boundaries** can be a Line, Arc, Circle, Ellipse, Polyline, or Spline. Text, Dimension, and Leader entities never register intersections, so they can't act as boundaries either.
+
+A [Spline](https://kulmanlab.com/docs/commands/spline-cv/) is cut by knot insertion rather than refitted, so each piece lies exactly where the original curve did.
 
 A [Polyline](https://kulmanlab.com/docs/commands/polyline/)'s **arc segments** (drawn with the Arc toggle, or imported from another CAD tool) trim exactly like its straight segments — hover the arc portion between two intersections and click. The trimmed edge keeps its original curvature; only its length changes.
 
@@ -5015,7 +5144,7 @@ A [Polyline](https://kulmanlab.com/docs/commands/polyline/)'s **arc segments** (
 | What it does | Removes a segment of an entity | Stretches a line endpoint to a boundary |
 | Trigger | Hover over the segment to cut | Hover near the endpoint to extend |
 | Result | Entity splits or shortens | Line endpoint moves to the boundary |
-| Supported entities | Line, Arc, Circle, Ellipse, Polyline | Line, Arc, Ellipse, Polyline |
+| Supported entities | Line, Arc, Circle, Ellipse, Polyline, Spline | Line, Arc, Ellipse, Polyline |
 
 ---
 
