@@ -28,6 +28,8 @@ Metin bölümü; Metin Stili hızlı doldurmasını, yazı tipini, yüksekliği,
 
 Önizleme tuvalle aynı çizicileri kullanır. Okları, merkez işaretlerini, metin konumunu, hassasiyeti ve çerçeveleri denetlemek için doğrusal, yarıçap, çap ve açısal örnekler arasında geçiş yapın.
 
+**Unit Format** ve **Angular Unit Format**, bir stilin uzunlukları (Scientific, Decimal, Engineering, Architectural, Fractional, System) ve açıları (Decimal Degrees, Deg/Min/Sec, Gradians, Radians) nasıl yazacağını belirler. Her biri ait olduğu hassasiyetin hemen üstündedir ve iki hassasiyet listesi de kendi biçiminin yazdığı şekilde okunur. Yeni bir ölçülendirme ikisini de stilden kopyalar.
+
 ## Stil oluşturma ve yönetme
 
 **Yeni** seçilen stili çoğaltır. `Standard` yeniden adlandırılamaz veya silinemez; geçerli stil de silinemez. Adlar benzersiz, boş olmayan ve DXF için geçerli olmalıdır. İçe aktarılan açıklayıcı stiller gizli kalır ancak korunur.

@@ -15,7 +15,7 @@ Kommandoen `Rutemønster` lager et rutenett av kopier fra de markerte entitetene
 **Marker først, deretter lag array** — marker entiteter først, aktiver deretter:
 
 1. Marker én eller flere entiteter på lerretet.
-2. Skriv `Rutemønster` i terminalen (så lite som `arr` er nok — det er entydig) eller klikk på **Array Grid**-knappen i verktøylinjen.
+2. Skriv `Rutemønster` i terminalen (noen få bokstaver holder — velg den fra forslagene) eller velg **Array Grid** i matrise-nedtrekksmenyen i panelet Edit.
 3. Skriv antall **rader** og trykk **Enter**.
 4. Skriv antall **kolonner** og trykk **Enter**.
 5. Skriv **avstanden mellom rader** og trykk **Enter**.
@@ -23,7 +23,7 @@ Kommandoen `Rutemønster` lager et rutenett av kopier fra de markerte entitetene
 
 **Aktiver, marker deretter** — start kommandoen uten noe markert:
 
-1. Skriv `Rutemønster` eller klikk på verktøylinjeknappen.
+1. Skriv `Rutemønster` eller velg den i matrise-nedtrekksmenyen i panelet Edit.
 2. **Marker objekter** — klikk for å slå enkeltentiteter av/på, eller dra for å markere etter område.
 3. Trykk **Enter** eller **Space** for å bekrefte markeringen.
 4. Fortsett med rader → kolonner → radavstand → kolonneavstand som over.
@@ -35,7 +35,7 @@ Kommandoen `Rutemønster` lager et rutenett av kopier fra de markerte entitetene
   [A] [A] [A]   <- rad 0: opprinnelig markering, kopier til høyre
 ```
 
-> Terminalen trenger bare nok bokstaver til å være entydig — å skrive `arr` og trykke **Enter** aktiverer Array Grid direkte, siden ingen annen kommando starter med de tre bokstavene (Arc, Area, Align og Angle skiller seg alle ut tidligere).
+> Terminalen foreslår matchende kommandoer mens du skriver, så noen få bokstaver holder — men `arr` matcher nå både Array Grid og Array Polar, så skriv videre eller velg en fra listen.
 
 ## Rader, kolonner og avstand
 

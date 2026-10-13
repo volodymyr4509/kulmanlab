@@ -71,6 +71,10 @@ Duba [Naʼurar Gyaran Rubutu — simple mode](../../interface/text-editor/#simpl
 - [Dimension Diameter](../dim-diameter/) — girma-girma na diameter ga da'ira
 
 
+## Tsarin naúra da daidaito
+
+Kadarar **Unit Format** tana zaɓar yadda ake rubuta kusurwa: Decimal Degrees (tsoho), Deg/Min/Sec, Gradians ko Radians. **Precision** tana bin tsarin; a Deg/Min/Sec tana lissafa kawai daidaiton da ake karantawa daban. **Ext Line Offset** yana saita rata a farkon kowane layin tsawo kuma ana ɗaukarsa daga [DimensionStyle](../dimension-style/) lokacin da ake zana ma'aunin girma.
+
 ## Salon aunawa
 
 Sabbin ma’auni suna kwafin [salon aunawa](../dimension-style/) na yanzu, ciki har da kibiyoyi, layukan taimako, rubutu, daidaito, jeri, tazara da firam. Ana kwafin ƙima lokacin ƙirƙira; gyaran salo daga baya ba ya canza ma’aunin da ke akwai.

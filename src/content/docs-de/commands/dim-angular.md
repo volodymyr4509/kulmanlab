@@ -71,6 +71,10 @@ Siehe [Texteditor — simple mode](../../interface/text-editor/#simple-mode) fü
 - [Dimension Diameter](../dim-diameter/) — Durchmesserbemaßung für Kreise
 
 
+## Einheitenformat und Genauigkeit
+
+Die Eigenschaft **Unit Format** legt fest, wie der Winkel geschrieben wird: Decimal Degrees (Standard), Deg/Min/Sec, Gradians oder Radians. **Precision** folgt dem Format; bei Deg/Min/Sec werden nur die Genauigkeiten aufgeführt, die sich unterschiedlich lesen. **Ext Line Offset** legt den Abstand am Anfang jeder Hilfslinie fest und wird beim Zeichnen der Bemaßung aus dem [DimensionStyle](../dimension-style/) übernommen.
+
 ## Bemaßungsstil
 
 Neue Bemaßungen kopieren den aktuellen [Bemaßungsstil](../dimension-style/) mit Pfeilen, Hilfslinien, Text, Genauigkeit, Ausrichtung, Abstand und Rahmen. Die Werte werden beim Erstellen kopiert; spätere Stiländerungen wirken sich nicht auf vorhandene Bemaßungen aus.

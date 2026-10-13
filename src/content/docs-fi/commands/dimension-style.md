@@ -28,6 +28,8 @@ Tekstiosio hallitsee tekstityylistä pikatäyttöä, fonttia, korkeutta, lihavoi
 
 Esikatselu käyttää samoja renderöijiä kuin piirtoalue. Vaihda lineaarisen, säde-, halkaisija- ja kulmanäytteen välillä tarkistaaksesi nuolet, keskiön, tekstin sijainnin, tarkkuuden ja kehykset.
 
+**Unit Format** ja **Angular Unit Format** määräävät, miten tyyli kirjoittaa pituudet (Scientific, Decimal, Engineering, Architectural, Fractional, System) ja kulmat (Decimal Degrees, Deg/Min/Sec, Gradians, Radians). Kumpikin on suoraan sen tarkkuuden yläpuolella, johon se kuuluu, ja molemmat tarkkuusluettelot luetaan niin kuin niiden muoto ne kirjoittaa. Uusi mitoitus kopioi molemmat tyylistä.
+
 ## Tyylien luonti ja hallinta
 
 **Uusi** monistaa valitun tyylin. `Standard`-tyyliä ei voi nimetä uudelleen tai poistaa, eikä nykyistä tyyliä voi poistaa. Nimien on oltava yksilöllisiä, ei tyhjiä ja kelvollisia DXF:lle. Tuodut annotatiiviset tyylit piilotetaan mutta säilytetään.

@@ -71,6 +71,10 @@ Katso [Tekstieditori — yksinkertainen tila](../../interface/text-editor/#simpl
 - [Dimension Diameter](../dim-diameter/) — halkaisijan mitta ympyröille
 
 
+## Yksikkömuoto ja tarkkuus
+
+**Unit Format** -ominaisuus valitsee, miten kulma kirjoitetaan: Decimal Degrees (oletus), Deg/Min/Sec, Gradians tai Radians. **Precision** seuraa muotoa; Deg/Min/Sec-muodossa se luettelee vain eri tavoin luettavat tarkkuudet. **Ext Line Offset** määrittää välin kunkin apuviivan alussa ja otetaan [DimensionStyle](../dimension-style/)-tyylistä, kun mitoitus piirretään.
+
 ## Mittatyyli
 
 Uudet mitat kopioivat nykyisen [mittatyylin](../dimension-style/) nuolineen, apuviivoineen, teksteineen, tarkkuuksineen, tasauksineen, väleineen ja kehyksineen. Arvot kopioidaan luotaessa; myöhemmät tyylimuutokset eivät muuta olemassa olevia mittoja.

@@ -71,6 +71,10 @@ Se [Textredigerare — enkelt läge](../../interface/text-editor/#simple-mode) f
 - [Dimension Diameter](../dim-diameter/) — diametermått för cirklar
 
 
+## Enhetsformat och precision
+
+Egenskapen **Unit Format** väljer hur vinkeln skrivs: Decimal Degrees (standard), Deg/Min/Sec, Gradians eller Radians. **Precision** följer formatet; för Deg/Min/Sec visar den bara de precisioner som läses olika. **Ext Line Offset** anger avståndet i början av varje hjälplinje och hämtas från [DimensionStyle](../dimension-style/) när måttsättningen ritas.
+
 ## Måttstil
 
 Nya mått kopierar aktuell [måttstil](../dimension-style/) med pilar, hjälplinjer, text, precision, justering, mellanrum och ram. Värdena kopieras när måttet skapas; senare stiländringar påverkar inte befintliga mått.

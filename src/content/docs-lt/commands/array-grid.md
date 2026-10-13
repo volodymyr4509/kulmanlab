@@ -15,7 +15,7 @@ Komanda `ArrayGrid` sukuria stačiakampį kopijų tinklelį iš pasirinktų obje
 **Pirmiausia pasirinkti, tada kurti masyvą** — pirma pasirinkite objektus, tada aktyvuokite:
 
 1. Drobėje pasirinkite vieną ar kelis objektus.
-2. Terminale įveskite `arraygrid` (pakanka ir `arr` — tai nedviprasmiška) arba spustelėkite įrankių juostos mygtuką **Array Grid**.
+2. Terminale įveskite `arraygrid` (užtenka kelių raidžių — pasirinkite iš pasiūlymų) arba skydelyje Edit masyvų išskleidžiamajame meniu pasirinkite **Array Grid**.
 3. Įveskite **eilučių** skaičių ir paspauskite **Enter**.
 4. Įveskite **stulpelių** skaičių ir paspauskite **Enter**.
 5. Įveskite **atstumą tarp eilučių** ir paspauskite **Enter**.
@@ -23,7 +23,7 @@ Komanda `ArrayGrid` sukuria stačiakampį kopijų tinklelį iš pasirinktų obje
 
 **Pirmiausia aktyvuoti, tada pasirinkti** — pradėkite komandą nieko nepasirinkę:
 
-1. Įveskite `arraygrid` arba spustelėkite įrankių juostos mygtuką.
+1. Įveskite `arraygrid` arba pasirinkite skydelio Edit masyvų išskleidžiamajame meniu.
 2. **Pasirinkite objektus** — spustelėkite, kad perjungtumėte atskirus objektus, arba tempkite, kad pasirinktumėte sritimi.
 3. Paspauskite **Enter** arba **Space**, kad patvirtintumėte pasirinkimą.
 4. Tęskite eilutės → stulpeliai → eilučių atstumas → stulpelių atstumas, kaip aukščiau.
@@ -35,7 +35,7 @@ Komanda `ArrayGrid` sukuria stačiakampį kopijų tinklelį iš pasirinktų obje
   [A] [A] [A]   <- 0 eilutė: pradinis pasirinkimas, kopijos į dešinę
 ```
 
-> Terminalui pakanka tiek raidžių, kad būtų nedviprasmiška — įvedus `arr` ir paspaudus **Enter**, Array Grid aktyvuojamas tiesiogiai, nes jokia kita komandos pavadinimo pradžia nesutampa su tomis trimis raidėmis (Arc, Area, Align ir Angle išsiskiria anksčiau).
+> Terminalas renkant siūlo atitinkančias komandas, todėl užtenka kelių raidžių — bet `arr` dabar atitinka ir Array Grid, ir Array Polar, tad rinkite toliau arba pasirinkite vieną iš sąrašo.
 
 ## Eilutės, stulpeliai ir atstumai
 

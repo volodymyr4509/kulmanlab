@@ -67,6 +67,10 @@ Zobacz [Edytor tekstu — tryb simple](../../interface/text-editor/#simple-mode)
 Wymiary promienia zapisywane są jako elementy `DIMENSION` z geometrią typu promień, przechowując współrzędne środka, pozycję punktu łuku i zmierzoną wartość promienia. Wszystkie właściwości zachowywane są bez utraty danych.
 
 
+## Format jednostek i dokładność
+
+Właściwość **Unit Format** w oknie właściwości wybiera sposób zapisu miary: Scientific, Decimal (domyślnie), Engineering, Architectural, Fractional lub System, który podąża za stylem liczb Twojego systemu. **Precision** wyświetla swoje wybory tak, jak zapisuje je wybrany format — na przykład ułamki cala w Architectural i Fractional. Własny format jednostek pliku DXF jest wczytywany, a nowe wymiary biorą oba ustawienia z bieżącego [DimensionStyle](../dimension-style/). Ułamki zapisywane są w jednym wierszu, nie piętrowo.
+
 ## Styl wymiaru
 
 Nowe wymiary kopiują bieżący [styl wymiaru](../dimension-style/), w tym strzałki, linie pomocnicze, tekst, precyzję, wyrównanie, odstęp i ramkę. Wartości są kopiowane przy tworzeniu, więc późniejsze zmiany stylu nie zmieniają istniejących wymiarów.

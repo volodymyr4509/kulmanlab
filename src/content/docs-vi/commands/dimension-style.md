@@ -28,6 +28,8 @@ Phần chữ điều khiển điền nhanh từ Kiểu chữ, phông, chiều ca
 
 Xem trước dùng cùng bộ dựng hình với vùng vẽ. Chuyển giữa mẫu thẳng, bán kính, đường kính và góc để kiểm tra mũi tên, dấu tâm, vị trí chữ, độ chính xác và khung.
 
+**Unit Format** và **Angular Unit Format** đặt cách một kiểu ghi độ dài (Scientific, Decimal, Engineering, Architectural, Fractional, System) và góc (Decimal Degrees, Deg/Min/Sec, Gradians, Radians). Mỗi mục nằm ngay trên độ chính xác mà nó đi cùng, và cả hai danh sách độ chính xác được đọc theo cách định dạng của chúng ghi. Kích thước mới sao chép cả hai từ kiểu.
+
 ## Tạo và quản lý kiểu
 
 **Mới** nhân bản kiểu đã chọn. `Standard` không thể đổi tên hoặc xóa; kiểu hiện hành cũng không thể xóa. Tên phải duy nhất, không rỗng và hợp lệ với DXF. Kiểu chú thích nhập vào được ẩn nhưng vẫn bảo toàn.

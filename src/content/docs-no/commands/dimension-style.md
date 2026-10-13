@@ -28,6 +28,8 @@ Tekstdelen styrer hurtigfylling fra tekststil, skrift, høyde, fet, kursiv, ramm
 
 Forhåndsvisningen bruker samme gjengivelse som lerretet. Bytt mellom lineære, radius-, diameter- og vinkeleksempler for å kontrollere piler, sentrum, tekstplassering, presisjon og rammer.
 
+**Unit Format** og **Angular Unit Format** bestemmer hvordan en stil skriver lengder (Scientific, Decimal, Engineering, Architectural, Fractional, System) og vinkler (Decimal Degrees, Deg/Min/Sec, Gradians, Radians). Hver står rett over presisjonen den hører til, og begge presisjonslistene leses slik formatet deres skriver dem. En ny målsetting kopierer begge fra stilen.
+
 ## Opprette og administrere stiler
 
 **Ny** dupliserer valgt stil. `Standard` kan ikke gis nytt navn eller slettes, og gjeldende stil kan heller ikke slettes. Navn må være unike, ikke tomme og gyldige for DXF. Importerte annotative stiler skjules, men bevares.

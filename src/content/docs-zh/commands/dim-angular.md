@@ -71,6 +71,10 @@ order: 9
 - [Dimension Diameter](../dim-diameter/) — 圆的直径标注
 
 
+## 单位格式与精度
+
+**Unit Format** 属性决定角度的写法：Decimal Degrees（默认）、Deg/Min/Sec、Gradians 或 Radians。**Precision** 跟随该格式；对 Deg/Min/Sec，只列出读法不同的精度。**Ext Line Offset** 设置每条尺寸界线起点的间隙，绘制标注时取自 [DimensionStyle](../dimension-style/)。
+
 ## 标注样式
 
 新标注会复制当前[标注样式](../dimension-style/)，包括箭头、尺寸界线、文字、精度、对齐、间距和边框。数值在创建时复制，因此以后修改样式不会改变已有标注。

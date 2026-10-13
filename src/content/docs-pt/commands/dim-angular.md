@@ -71,6 +71,10 @@ Consulte [Editor de Texto — simple mode](../../interface/text-editor/#simple-m
 - [Dimension Diameter](../dim-diameter/) — cota de diâmetro para círculos
 
 
+## Formato de unidades e precisão
+
+A propriedade **Unit Format** escolhe como o ângulo é escrito: Decimal Degrees (padrão), Deg/Min/Sec, Gradians ou Radians. **Precision** segue o formato; em Deg/Min/Sec lista apenas as precisões que se leem de forma diferente. **Ext Line Offset** define a folga no início de cada linha de extensão e é tomado do [DimensionStyle](../dimension-style/) quando a cota é desenhada.
+
 ## Estilo de cota
 
 Novas cotas copiam o [estilo de cota](../dimension-style/) atual, incluindo setas, linhas de extensão, texto, precisão, alinhamento, intervalo e moldura. Os valores são copiados na criação; alterações posteriores no estilo não mudam cotas existentes.

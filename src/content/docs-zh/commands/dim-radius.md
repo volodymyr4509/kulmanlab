@@ -67,6 +67,10 @@ order: 7
 半径标注以半径类型几何的 `DIMENSION` 实体保存，存储圆心坐标、弧点位置和测量的半径值。所有属性均可完整往返转换。
 
 
+## 单位格式与精度
+
+属性窗口中的 **Unit Format** 属性决定测量值的写法：Scientific、Decimal（默认）、Engineering、Architectural、Fractional，或遵循系统数字样式的 System。**Precision** 按所选格式的写法列出其选项——例如 Architectural 和 Fractional 下的英寸分数。DXF 自带的单位格式会被读入，新标注从当前 [DimensionStyle](../dimension-style/) 获取这两项设置。分数写在一行内，不堆叠。
+
 ## 标注样式
 
 新标注会复制当前[标注样式](../dimension-style/)，包括箭头、尺寸界线、文字、精度、对齐、间距和边框。数值在创建时复制，因此以后修改样式不会改变已有标注。

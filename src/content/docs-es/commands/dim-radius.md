@@ -67,6 +67,10 @@ Consulta [Editor de Texto — simple mode](../../interface/text-editor/#simple-m
 Las cotas de radio se guardan como entidades `DIMENSION` con geometría de tipo radio, almacenando las coordenadas del centro, la posición del punto del arco y el valor del radio medido. Todas las propiedades se exportan sin pérdida.
 
 
+## Formato de unidades y precisión
+
+La propiedad **Unit Format** de la ventana de propiedades elige cómo se escribe la medida: Scientific, Decimal (predeterminado), Engineering, Architectural, Fractional o System, que sigue el estilo numérico de tu sistema. **Precision** muestra sus opciones como las escribe el formato elegido — por ejemplo, fracciones de pulgada en Architectural y Fractional. Se lee el formato de unidades propio de un DXF y las cotas nuevas toman ambos ajustes del [DimensionStyle](../dimension-style/) actual. Las fracciones se escriben en una sola línea, no apiladas.
+
 ## Estilo de cota
 
 Las cotas nuevas copian el [estilo de cota](../dimension-style/) actual, incluidas flechas, líneas de referencia, texto, precisión, alineación, separación y marco. Los valores se copian al crear, por lo que cambios posteriores del estilo no alteran cotas existentes.

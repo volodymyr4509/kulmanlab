@@ -37,8 +37,10 @@ The list on the left contains every visible dimension style. A check mark identi
 | Text Gap | Space between the dimension line and label. |
 | Text Attachment | One of nine positions around the dimension line. |
 | Text Aligned | Rotates the label with the dimension line instead of keeping it horizontal. |
-| Precision | Decimal places for linear, aligned, radius, and diameter values. |
-| Angular Precision | Decimal places for angular values. |
+| Unit Format | How lengths are written: Scientific, Decimal, Engineering, Architectural, Fractional, or System. |
+| Precision | Precision for linear, aligned, radius, and diameter values, read as the length unit format writes it. |
+| Angular Unit Format | How angles are written: Decimal Degrees, Deg/Min/Sec, Gradians, or Radians. |
+| Angular Precision | Precision for angular values, read as the angular unit format writes it. |
 
 Text Style is a quick fill, not a live link. Changing a copied field does not alter the source text style, and later text-style edits do not update the dimension style.
 

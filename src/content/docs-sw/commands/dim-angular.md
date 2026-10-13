@@ -71,6 +71,10 @@ Angalia [Text Editor — hali rahisi](../../interface/text-editor/#simple-mode) 
 - [Dimension Diameter](../dim-diameter/) — kipimo cha kipenyo kwa duara
 
 
+## Muundo wa vipimo na usahihi
+
+Sifa ya **Unit Format** huchagua jinsi pembe inavyoandikwa: Decimal Degrees (chaguo-msingi), Deg/Min/Sec, Gradians, au Radians. **Precision** hufuata muundo; katika Deg/Min/Sec huorodhesha tu usahihi unaosomeka tofauti. **Ext Line Offset** huweka pengo mwanzoni mwa kila mstari wa kuongeza na huchukuliwa kutoka [DimensionStyle](../dimension-style/) kipimo kinapochorwa.
+
 ## Mtindo wa kipimo
 
 Vipimo vipya hunakili [mtindo wa kipimo](../dimension-style/) wa sasa, pamoja na mishale, mistari ya nyongeza, maandishi, usahihi, upangaji, nafasi na fremu. Thamani hunakiliwa wakati wa kuunda; mabadiliko ya baadaye ya mtindo hayabadili vipimo vilivyopo.

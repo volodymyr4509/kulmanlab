@@ -65,6 +65,10 @@ Se [Tekstredigering — enkel modus](../../interface/text-editor/#simple-mode) f
 Diametermål lagres som `DIMENSION`-entiteter med diametertype-geometri, som lagrer begge buepunktposisjonene og den målte diameterverdien (2 × radius). Alle egenskaper overlever en rundtur uten tap.
 
 
+## Enhetsformat og presisjon
+
+Egenskapen **Unit Format** i egenskapsvinduet velger hvordan målet skrives: Scientific, Decimal (standard), Engineering, Architectural, Fractional eller System, som følger systemets tallformat. **Precision** viser valgene sine slik det valgte formatet skriver dem — for eksempel brøkdeler av en tomme for Architectural og Fractional. En DXF-fils eget enhetsformat leses inn, og nye målsettinger tar begge innstillingene fra gjeldende [DimensionStyle](../dimension-style/). Brøker skrives på én linje, ikke stablet.
+
 ## Målstil
 
 Nye mål kopierer gjeldende [målstil](../dimension-style/) med piler, hjelpelinjer, tekst, presisjon, justering, avstand og ramme. Verdiene kopieres ved opprettelse; senere stilendringer påvirker ikke eksisterende mål.

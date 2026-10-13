@@ -71,6 +71,10 @@ Lihat [Text Editor — mode sederhana](../../interface/text-editor/#simple-mode)
 - [Dimension Diameter](../dim-diameter/) — dimensi diameter untuk lingkaran
 
 
+## Format satuan dan presisi
+
+Properti **Unit Format** memilih cara sudut ditulis: Decimal Degrees (bawaan), Deg/Min/Sec, Gradians, atau Radians. **Precision** mengikuti format; untuk Deg/Min/Sec hanya presisi yang terbaca berbeda yang ditampilkan. **Ext Line Offset** menetapkan celah di awal setiap garis ekstensi dan diambil dari [DimensionStyle](../dimension-style/) saat dimensi digambar.
+
 ## Gaya dimensi
 
 Dimensi baru menyalin [gaya dimensi](../dimension-style/) aktif, termasuk panah, garis ekstensi, teks, presisi, perataan, celah, dan bingkai. Nilai disalin saat dibuat, sehingga perubahan gaya berikutnya tidak mengubah dimensi yang sudah ada.

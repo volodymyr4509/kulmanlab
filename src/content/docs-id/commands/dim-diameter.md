@@ -65,6 +65,10 @@ Lihat [Text Editor — mode sederhana](../../interface/text-editor/#simple-mode)
 Dimensi diameter disimpan sebagai entitas `DIMENSION` dengan geometri tipe diameter, menyimpan kedua posisi titik busur dan nilai diameter yang diukur (2 × radius). Semua properti dapat dipertukarkan tanpa kehilangan data.
 
 
+## Format satuan dan presisi
+
+Properti **Unit Format** di jendela properti memilih cara pengukuran ditulis: Scientific, Decimal (bawaan), Engineering, Architectural, Fractional, atau System, yang mengikuti gaya angka sistem Anda. **Precision** menampilkan pilihannya seperti yang ditulis format terpilih — misalnya pecahan inci untuk Architectural dan Fractional. Format satuan milik DXF dibaca, dan dimensi baru mengambil kedua pengaturan dari [DimensionStyle](../dimension-style/) saat ini. Pecahan ditulis dalam satu baris, tidak ditumpuk.
+
 ## Gaya dimensi
 
 Dimensi baru menyalin [gaya dimensi](../dimension-style/) aktif, termasuk panah, garis ekstensi, teks, presisi, perataan, celah, dan bingkai. Nilai disalin saat dibuat, sehingga perubahan gaya berikutnya tidak mengubah dimensi yang sudah ada.

@@ -28,6 +28,8 @@ Sehemu ya maandishi hudhibiti ujazaji kutoka Mtindo wa Maandishi, fonti, urefu, 
 
 Hakikisho hutumia vichoraji sawa na turubai. Badili kati ya mifano ya mstari, radiusi, kipenyo na pembe ili kukagua mishale, alama za kati, nafasi ya maandishi, usahihi na fremu.
 
+**Unit Format** na **Angular Unit Format** huweka jinsi mtindo unavyoandika urefu (Scientific, Decimal, Engineering, Architectural, Fractional, System) na pembe (Decimal Degrees, Deg/Min/Sec, Gradians, Radians). Kila kimoja kiko moja kwa moja juu ya usahihi kinaohusiana nao, na orodha zote mbili za usahihi husomwa jinsi muundo wake unavyoziandika. Kipimo kipya hunakili vyote viwili kutoka kwa mtindo.
+
 ## Kuunda na kudhibiti mitindo
 
 **Mpya** hunakili mtindo uliochaguliwa. `Standard` haiwezi kubadilishwa jina au kufutwa, wala mtindo wa sasa hauwezi kufutwa. Majina lazima yawe ya kipekee, yasiyo tupu na halali kwa DXF. Mitindo ya annotative iliyoingizwa hufichwa lakini huhifadhiwa.

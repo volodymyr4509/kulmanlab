@@ -65,6 +65,10 @@ Siehe [Texteditor — simple mode](../../interface/text-editor/#simple-mode) fü
 Durchmesserbemaßungen werden als `DIMENSION`-Elemente mit Durchmesser-Geometrietyp gespeichert, mit beiden Bogenpunkt-Positionen und dem gemessenen Durchmesserwert (2 × Radius). Alle Eigenschaften werden verlustfrei übertragen.
 
 
+## Einheitenformat und Genauigkeit
+
+Die Eigenschaft **Unit Format** im Eigenschaftenfenster legt fest, wie das Maß geschrieben wird: Scientific, Decimal (Standard), Engineering, Architectural, Fractional oder System, das dem Zahlenformat Ihres Systems folgt. **Precision** listet ihre Auswahl so auf, wie das gewählte Format sie schreibt — etwa Bruchteile eines Zolls bei Architectural und Fractional. Das Einheitenformat einer DXF wird eingelesen, und neue Bemaßungen übernehmen beide Einstellungen vom aktuellen [DimensionStyle](../dimension-style/). Brüche werden in einer Zeile geschrieben, nicht gestapelt.
+
 ## Bemaßungsstil
 
 Neue Bemaßungen kopieren den aktuellen [Bemaßungsstil](../dimension-style/) mit Pfeilen, Hilfslinien, Text, Genauigkeit, Ausrichtung, Abstand und Rahmen. Die Werte werden beim Erstellen kopiert; spätere Stiländerungen wirken sich nicht auf vorhandene Bemaßungen aus.

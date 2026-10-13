@@ -71,6 +71,10 @@ Pilną nuorodą žr. [Teksto redaktorius — paprastasis režimas](../../interfa
 - [Dimension Diameter](../dim-diameter/) — skersmens matmuo apskritimams
 
 
+## Vienetų formatas ir tikslumas
+
+Savybė **Unit Format** parenka, kaip užrašomas kampas: Decimal Degrees (numatytasis), Deg/Min/Sec, Gradians arba Radians. **Precision** seka formatą; formate Deg/Min/Sec išvardijami tik skirtingai skaitomi tikslumai. **Ext Line Offset** nustato tarpą kiekvienos pratęsimo linijos pradžioje ir piešiant matmenį perimamas iš [DimensionStyle](../dimension-style/).
+
 ## Matmenų stilius
 
 Nauji matmenys nukopijuoja dabartinį [matmenų stilių](../dimension-style/), įskaitant rodykles, iškeltines linijas, tekstą, tikslumą, lygiavimą, tarpą ir rėmelį. Reikšmės kopijuojamos kuriant; vėlesni stiliaus pakeitimai esamų matmenų nekeičia.

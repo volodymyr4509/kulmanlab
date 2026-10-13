@@ -28,6 +28,8 @@ Bagian teks mengatur isi cepat dari Gaya Teks, font, tinggi, tebal, miring, bing
 
 Pratinjau memakai renderer yang sama dengan kanvas. Beralihlah antara contoh linear, radius, diameter, dan sudut untuk memeriksa panah, tanda pusat, posisi teks, presisi, dan bingkai.
 
+**Unit Format** dan **Angular Unit Format** menetapkan cara sebuah gaya menulis panjang (Scientific, Decimal, Engineering, Architectural, Fractional, System) dan sudut (Decimal Degrees, Deg/Min/Sec, Gradians, Radians). Masing-masing berada tepat di atas presisi yang terkait dengannya, dan kedua daftar presisi terbaca seperti yang ditulis formatnya. Dimensi baru menyalin keduanya dari gaya.
+
 ## Membuat dan mengelola gaya
 
 **Baru** menggandakan gaya terpilih. `Standard` tidak dapat diganti nama atau dihapus, dan gaya aktif juga tidak dapat dihapus. Nama harus unik, tidak kosong, dan valid untuk DXF. Gaya anotatif impor tetap tersembunyi tetapi dipertahankan.

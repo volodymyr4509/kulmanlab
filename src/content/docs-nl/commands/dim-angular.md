@@ -71,6 +71,10 @@ Zie [Tekstverwerker — simple-modus](../../interface/text-editor/#simple-mode) 
 - [Dimension Diameter](../dim-diameter/) — diametermaatvoering voor cirkels
 
 
+## Eenheidnotatie en nauwkeurigheid
+
+De eigenschap **Unit Format** kiest hoe de hoek wordt geschreven: Decimal Degrees (standaard), Deg/Min/Sec, Gradians of Radians. **Precision** volgt het formaat; bij Deg/Min/Sec toont het alleen de nauwkeurigheden die anders lezen. **Ext Line Offset** stelt de tussenruimte aan het begin van elke maatlijn-hulplijn in en wordt overgenomen van de [DimensionStyle](../dimension-style/) wanneer de maatvoering wordt getekend.
+
 ## Maatstijl
 
 Nieuwe maten kopiëren de huidige [maatstijl](../dimension-style/) met pijlen, hulplijnen, tekst, precisie, uitlijning, tussenruimte en kader. De waarden worden bij het maken gekopieerd; latere stijlwijzigingen veranderen bestaande maten niet.

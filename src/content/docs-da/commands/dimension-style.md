@@ -28,6 +28,8 @@ Tekstdelen styrer hurtigudfyldning fra teksttypografi, skrifttype, højde, fed, 
 
 Forhåndsvisningen bruger samme gengivelse som lærredet. Skift mellem lineære, radius-, diameter- og vinkeleksempler for at kontrollere pile, centrum, tekstplacering, præcision og rammer.
 
+**Unit Format** og **Angular Unit Format** bestemmer, hvordan en stil skriver længder (Scientific, Decimal, Engineering, Architectural, Fractional, System) og vinkler (Decimal Degrees, Deg/Min/Sec, Gradians, Radians). Hver står lige over den præcision, den hører til, og begge præcisionslister læses, som deres format skriver dem. En ny målsætning kopierer begge fra stilen.
+
 ## Opret og administrer typografier
 
 **Ny** duplikerer den valgte typografi. `Standard` kan ikke omdøbes eller slettes, og den aktuelle typografi kan heller ikke slettes. Navne skal være unikke, ikke tomme og gyldige til DXF. Importerede annotative typografier skjules, men bevares.

@@ -88,6 +88,10 @@ Norėdami pridėti daugiau matmenų, tęsiamų nuo šio antrosios pratęsimo lin
 Lygiagretūs matmenys saugomi kaip `DIMENSION` objektai su `dimType = 1` (lygiagretus). Pratęsimo linijų pradžios, matmens linijos padėtis, teksto padėtis, išmatuota reikšmė, pasukimas, rodyklės stilius ir visos rodymo vėliavėlės keliauja tam ir atgal be praradimų.
 
 
+## Vienetų formatas ir tikslumas
+
+Savybių lango savybė **Unit Format** parenka, kaip užrašomas matmuo: Scientific, Decimal (numatytasis), Engineering, Architectural, Fractional arba System, kuris seka jūsų sistemos skaičių stilių. **Precision** išvardija savo pasirinkimus taip, kaip juos užrašo pasirinktas formatas — pavyzdžiui, colio trupmenas formatuose Architectural ir Fractional. DXF failo vienetų formatas nuskaitomas, o nauji matmenys abu nustatymus perima iš dabartinio [DimensionStyle](../dimension-style/). Trupmenos rašomos vienoje eilutėje, ne sukrautos.
+
 ## Matmenų stilius
 
 Nauji matmenys nukopijuoja dabartinį [matmenų stilių](../dimension-style/), įskaitant rodykles, iškeltines linijas, tekstą, tikslumą, lygiavimą, tarpą ir rėmelį. Reikšmės kopijuojamos kuriant; vėlesni stiliaus pakeitimai esamų matmenų nekeičia.

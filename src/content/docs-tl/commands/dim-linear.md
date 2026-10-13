@@ -97,6 +97,10 @@ Para magdagdag pa ng dimension na magpapatuloy mula sa huling extension line, ga
 Nase-save ang mga linear dimension bilang `DIMENSION` entities na may `rotationDeg` na naka-set sa `0` (horizontal) o `90` (vertical). Ang extension line origins, dimension line position, text position, nasukat na value, arrow style, text height, at lahat ng display flags ay nagra-round-trip nang walang nawawala.
 
 
+## Format ng unit at katumpakan
+
+Pinipili ng property na **Unit Format** sa property window kung paano isinusulat ang sukat: Scientific, Decimal (default), Engineering, Architectural, Fractional, o System, na sumusunod sa istilo ng numero ng iyong system. Inililista ng **Precision** ang mga pagpipilian nito ayon sa pagsulat ng napiling format — halimbawa, mga praksyon ng pulgada sa Architectural at Fractional. Binabasa ang sariling unit format ng DXF, at kinukuha ng mga bagong dimension ang dalawang setting mula sa kasalukuyang [DimensionStyle](../dimension-style/). Isinusulat ang mga praksyon sa isang linya, hindi nakapatong.
+
 ## Istilo ng sukat
 
 Kinokopya ng bagong sukat ang kasalukuyang [istilo ng sukat](../dimension-style/), kasama ang arrow, extension line, text, precision, alignment, gap, at frame. Sa paggawa kinokopya ang values kaya hindi binabago ng susunod na style edits ang dati nang sukat.

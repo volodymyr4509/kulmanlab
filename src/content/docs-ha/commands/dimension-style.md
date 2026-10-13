@@ -28,6 +28,8 @@ Sashen rubutu yana sarrafa cikawa daga Salon Rubutu, font, tsawo, kauri, karkace
 
 Samfoti yana amfani da masu zane iri ɗaya da canvas. Sauya tsakanin samfurin layi, radius, diamita da kusurwa don duba kibiyoyi, tsakiya, wurin rubutu, daidaito da firam.
 
+**Unit Format** da **Angular Unit Format** suna saita yadda salo ke rubuta tsawo (Scientific, Decimal, Engineering, Architectural, Fractional, System) da kusurwoyi (Decimal Degrees, Deg/Min/Sec, Gradians, Radians). Kowanne yana saman daidaiton da ya shafa kai tsaye, kuma duka jerin daidaito ana karanta su yadda tsarinsu yake rubuta su. Sabon ma'aunin girma yana kwafar duka biyun daga salon.
+
 ## Ƙirƙira da sarrafa salo
 
 **Sabo** yana ninka salon da aka zaɓa. Ba za a sauya suna ko share `Standard` ba, kuma ba za a share salo na yanzu ba. Sunaye dole su zama na musamman, ba komai ba kuma ingantattu ga DXF. Salon annotative da aka shigo da su suna ɓoye amma ana kiyaye su.

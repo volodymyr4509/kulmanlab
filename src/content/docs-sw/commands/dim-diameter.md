@@ -65,6 +65,10 @@ Angalia [Text Editor — hali rahisi](../../interface/text-editor/#simple-mode) 
 Vipimo vya kipenyo vimehifadhiwa kama vipengele vya `DIMENSION` na jiometri ya aina ya kipenyo, vikihifadhi nafasi za pointi zote za mviringo na thamani ya kipenyo iliyopimwa (2 × radi). Sifa zote zinasindikwa bila kupoteza.
 
 
+## Muundo wa vipimo na usahihi
+
+Sifa ya **Unit Format** katika dirisha la sifa huchagua jinsi kipimo kinavyoandikwa: Scientific, Decimal (chaguo-msingi), Engineering, Architectural, Fractional, au System, inayofuata mtindo wa nambari wa mfumo wako. **Precision** huorodhesha chaguo zake jinsi muundo uliochaguliwa unavyoziandika — kwa mfano visehemu vya inchi katika Architectural na Fractional. Muundo wa vipimo wa DXF yenyewe husomwa, na vipimo vipya huchukua mipangilio yote miwili kutoka [DimensionStyle](../dimension-style/) ya sasa. Visehemu huandikwa kwenye mstari mmoja, si vilivyopangwa juu ya vingine.
+
 ## Mtindo wa kipimo
 
 Vipimo vipya hunakili [mtindo wa kipimo](../dimension-style/) wa sasa, pamoja na mishale, mistari ya nyongeza, maandishi, usahihi, upangaji, nafasi na fremu. Thamani hunakiliwa wakati wa kuunda; mabadiliko ya baadaye ya mtindo hayabadili vipimo vilivyopo.

@@ -28,6 +28,8 @@ La sezione testo controlla il riempimento rapido da Stile testo, font, altezza, 
 
 L’anteprima usa gli stessi renderer dell’area di disegno. Passa tra esempi lineari, radiali, diametrali e angolari per verificare frecce, centri, posizione del testo, precisione e cornici.
 
+**Unit Format** e **Angular Unit Format** impostano come uno stile scrive le lunghezze (Scientific, Decimal, Engineering, Architectural, Fractional, System) e gli angoli (Decimal Degrees, Deg/Min/Sec, Gradians, Radians). Ciascuno sta subito sopra la precisione a cui si riferisce, ed entrambi gli elenchi di precisione si leggono come li scrive il loro formato. Una nuova quota copia entrambi dallo stile.
+
 ## Creazione e gestione degli stili
 
 **Nuovo** duplica lo stile selezionato. `Standard` non può essere rinominato né eliminato e nemmeno lo stile corrente può essere eliminato. I nomi devono essere univoci, non vuoti e validi per DXF. Gli stili annotativi importati restano nascosti ma vengono conservati.

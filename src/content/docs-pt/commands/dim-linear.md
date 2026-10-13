@@ -97,6 +97,10 @@ Para adicionar mais cotas continuando da última linha de extensão, use [Dimens
 As cotas lineares são salvas como entidades `DIMENSION` com `rotationDeg` definido como `0` (horizontal) ou `90` (vertical). Origens das linhas de extensão, posição da linha de cota, posição do texto, valor medido, estilo de setas, altura do texto e todos os flags de exibição são mantidos sem perda.
 
 
+## Formato de unidades e precisão
+
+A propriedade **Unit Format** da janela de propriedades escolhe como a medida é escrita: Scientific, Decimal (padrão), Engineering, Architectural, Fractional ou System, que segue o estilo numérico do seu sistema. **Precision** lista suas opções como o formato escolhido as escreve — por exemplo, frações de polegada em Architectural e Fractional. O formato de unidades próprio de um DXF é lido, e as novas cotas tomam as duas configurações do [DimensionStyle](../dimension-style/) atual. As frações são escritas em uma linha, não empilhadas.
+
 ## Estilo de cota
 
 Novas cotas copiam o [estilo de cota](../dimension-style/) atual, incluindo setas, linhas de extensão, texto, precisão, alinhamento, intervalo e moldura. Os valores são copiados na criação; alterações posteriores no estilo não mudam cotas existentes.

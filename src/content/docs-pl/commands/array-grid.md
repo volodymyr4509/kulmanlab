@@ -15,7 +15,7 @@ Polecenie `SzykProstokątny` tworzy prostokątną siatkę kopii z zaznaczonych e
 **Wstępne zaznaczenie, a następnie array** — najpierw zaznacz elementy, a następnie aktywuj:
 
 1. Zaznacz jeden lub więcej elementów na płótnie.
-2. Wpisz `SzykProstokątny` w terminalu (wystarczy `arr` — jest jednoznaczne) lub kliknij przycisk **Array Grid** na pasku narzędzi.
+2. Wpisz `SzykProstokątny` w terminalu (wystarczy kilka liter — wybierz go z podpowiedzi) albo wybierz **Array Grid** z rozwijanego menu szyków w panelu Edit.
 3. Wpisz liczbę **wierszy** i naciśnij **Enter**.
 4. Wpisz liczbę **kolumn** i naciśnij **Enter**.
 5. Wpisz **odstęp między wierszami** i naciśnij **Enter**.
@@ -23,7 +23,7 @@ Polecenie `SzykProstokątny` tworzy prostokątną siatkę kopii z zaznaczonych e
 
 **Aktywuj, a następnie zaznacz** — uruchom polecenie bez zaznaczonego niczego:
 
-1. Wpisz `SzykProstokątny` lub kliknij przycisk paska narzędzi.
+1. Wpisz `SzykProstokątny` albo wybierz go z rozwijanego menu szyków w panelu Edit.
 2. **Zaznacz obiekty** — kliknij, aby przełączać poszczególne elementy, lub przeciągnij, aby zaznaczyć obszarem.
 3. Naciśnij **Enter** lub **Spację**, aby potwierdzić zaznaczenie.
 4. Kontynuuj wiersze → kolumny → odstęp wierszy → odstęp kolumn jak powyżej.
@@ -35,7 +35,7 @@ Polecenie `SzykProstokątny` tworzy prostokątną siatkę kopii z zaznaczonych e
   [A] [A] [A]   <- wiersz 0: oryginalne zaznaczenie, kopie w prawo
 ```
 
-> Terminal potrzebuje tylko tylu liter, ile wystarczy do jednoznaczności — wpisanie `arr` i naciśnięcie **Enter** aktywuje Array Grid bezpośrednio, ponieważ żadna inna nazwa polecenia nie zaczyna się od tych trzech liter (Arc, Area, Align i Angle rozchodzą się wcześniej).
+> Terminal podpowiada pasujące polecenia podczas pisania, więc wystarczy kilka liter — ale `arr` pasuje teraz zarówno do Array Grid, jak i Array Polar, więc pisz dalej albo wybierz jedno z listy.
 
 ## Wiersze, kolumny i odstęp
 

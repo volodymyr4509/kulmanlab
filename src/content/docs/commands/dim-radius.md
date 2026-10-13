@@ -66,6 +66,10 @@ See [Text Editor — simple mode](../../interface/text-editor/#simple-mode) for 
 
 Radius dimensions are saved as `DIMENSION` entities with radius-type geometry, storing the center coordinates, the arc-point position, and the measured radius value. All properties round-trip without loss.
 
+## Unit format and precision
+
+The **Unit Format** property in the property window chooses how the measurement is written: Scientific, Decimal (the default), Engineering, Architectural, Fractional, or System, which follows your system's number style. **Precision** lists its choices the way the chosen format writes them — fractions of an inch for Architectural and Fractional, for example. A DXF's own unit format is read in, and new dimensions take both settings from the current [DimensionStyle](../dimension-style/). Fractions are written on one line, not stacked.
+
 ## Dimension style
 
 New radius dimensions copy the current [DimensionStyle](../dimension-style/), including the second arrowhead, center-mark type and size, text, precision, gap, alignment, and frame. The values are copied at creation time rather than live-linked.

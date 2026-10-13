@@ -15,7 +15,7 @@ order: 15
 **Önce seç, sonra array** — nesneleri seçin, ardından etkinleştirin:
 
 1. Tuvalde bir veya daha fazla nesne seçin.
-2. Terminale `DikdörtgenDizi` yazın (`arr` yeterli — belirsizlik yok) veya araç çubuğundaki **Array Grid** düğmesine basın.
+2. Terminale `DikdörtgenDizi` yazın (birkaç harf yeter — önerilerden seçin) ya da Edit panelindeki dizi açılır menüsünden **Array Grid**'i seçin.
 3. **Satır** sayısını yazın ve **Enter** tuşuna basın.
 4. **Sütun** sayısını yazın ve **Enter** tuşuna basın.
 5. **Satırlar arası boşluğu** yazın ve **Enter** tuşuna basın.
@@ -23,7 +23,7 @@ order: 15
 
 **Etkinleştir, sonra seç** — seçim olmadan komutu başlatın:
 
-1. `DikdörtgenDizi` yazın veya araç çubuğu düğmesine basın.
+1. `DikdörtgenDizi` yazın ya da Edit panelindeki dizi açılır menüsünden seçin.
 2. **Nesneleri seçin** — tek tek nesneleri değiştirmek için tıklayın veya kutu seçimi için sürükleyin.
 3. Seçimi onaylamak için **Enter** veya **Boşluk** tuşuna basın.
 4. Yukarıdaki gibi satırlar → sütunlar → satır boşluğu → sütun boşluğu ile devam edin.
@@ -35,7 +35,7 @@ order: 15
   [A] [A] [A]   <- satır 0: orijinal seçim, kopyalar sağa doğru
 ```
 
-> Terminalin yalnızca belirsizliği ortadan kaldıracak kadar harfe ihtiyacı vardır — `arr` yazıp **Enter** tuşuna basmak Array Grid'i doğrudan etkinleştirir, çünkü başka hiçbir komut adı bu üç harfle başlamaz (Arc, Area, Align ve Angle daha erken ayrışır).
+> Terminal siz yazarken eşleşen komutları önerir, bu yüzden birkaç harf yeter — ancak `arr` artık hem Array Grid hem de Array Polar ile eşleşiyor; yazmaya devam edin ya da listeden birini seçin.
 
 ## Satırlar, sütunlar ve boşluk
 

@@ -97,6 +97,10 @@ Om meer maatvoeringen toe te voegen die doorlopen vanaf de laatste hulplijn, geb
 Lineaire maatvoeringen worden opgeslagen als `DIMENSION`-entiteiten met `rotationDeg` ingesteld op `0` (horizontaal) of `90` (verticaal). Hulplijnoorsprongen, positie van de maatlijn, tekstpositie, gemeten waarde, pijlstijl, teksthoogte en alle weergavevlaggen blijven zonder verlies behouden bij de roundtrip.
 
 
+## Eenheidnotatie en nauwkeurigheid
+
+De eigenschap **Unit Format** in het eigenschappenvenster kiest hoe de maat wordt geschreven: Scientific, Decimal (standaard), Engineering, Architectural, Fractional of System, dat de getalnotatie van uw systeem volgt. **Precision** toont zijn keuzes zoals het gekozen formaat ze schrijft — bijvoorbeeld breuken van een inch bij Architectural en Fractional. Het eigen eenhedenformaat van een DXF wordt ingelezen, en nieuwe maatvoeringen nemen beide instellingen over van de huidige [DimensionStyle](../dimension-style/). Breuken worden op één regel geschreven, niet gestapeld.
+
 ## Maatstijl
 
 Nieuwe maten kopiëren de huidige [maatstijl](../dimension-style/) met pijlen, hulplijnen, tekst, precisie, uitlijning, tussenruimte en kader. De waarden worden bij het maken gekopieerd; latere stijlwijzigingen veranderen bestaande maten niet.

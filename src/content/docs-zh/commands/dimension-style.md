@@ -28,6 +28,8 @@ order: 8
 
 预览使用与画布相同的渲染器。可在线性、半径、直径和角度示例间切换，以检查箭头、圆心标记、文字位置、精度和边框。
 
+**Unit Format** 和 **Angular Unit Format** 设定样式如何写长度（Scientific、Decimal、Engineering、Architectural、Fractional、System）和角度（Decimal Degrees、Deg/Min/Sec、Gradians、Radians）。两者各自紧邻其对应的精度上方，两个精度列表都按各自格式的写法读出。新标注从样式复制这两项。
+
 ## 创建和管理样式
 
 **新建**会复制所选样式。`Standard` 不能重命名或删除，当前样式也不能删除。名称必须唯一、非空且符合 DXF 规则。导入的注释性样式会隐藏，但仍予以保留。

@@ -28,6 +28,8 @@ order: 8
 
 미리보기는 캔버스와 같은 렌더러를 사용합니다. 선형, 반지름, 지름, 각도 샘플을 전환해 화살표, 중심 표식, 텍스트 위치, 정밀도와 프레임을 확인할 수 있습니다.
 
+**Unit Format**과 **Angular Unit Format**은 스타일이 길이(Scientific, Decimal, Engineering, Architectural, Fractional, System)와 각도(Decimal Degrees, Deg/Min/Sec, Gradians, Radians)를 어떻게 쓸지 정합니다. 각각 해당하는 정밀도 바로 위에 있고, 두 정밀도 목록은 각자의 형식이 쓰는 방식으로 표시됩니다. 새 치수는 둘 다 스타일에서 복사합니다.
+
 ## 스타일 만들기 및 관리
 
 **새로 만들기**는 선택한 스타일을 복제합니다. `Standard`는 이름을 바꾸거나 삭제할 수 없고 현재 스타일도 삭제할 수 없습니다. 이름은 고유하고 비어 있지 않으며 DXF에 유효해야 합니다. 가져온 주석 스타일은 숨겨지지만 보존됩니다.

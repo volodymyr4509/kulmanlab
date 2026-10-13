@@ -15,7 +15,7 @@ Het commando `RechthoekigeReeks` maakt een rechthoekig raster van kopieën van g
 **Eerst selecteren, dan array** — selecteer eerst entiteiten en activeer daarna:
 
 1. Selecteer een of meer entiteiten op het canvas.
-2. Typ `RechthoekigeReeks` in de terminal (`arr` is al genoeg — ondubbelzinnig) of klik op de werkbalkknop **Array Grid**.
+2. Typ `RechthoekigeReeks` in de terminal (een paar letters volstaan — kies hem uit de suggesties) of kies **Array Grid** in het array-uitklapmenu van het paneel Edit.
 3. Typ het aantal **rijen** en druk op **Enter**.
 4. Typ het aantal **kolommen** en druk op **Enter**.
 5. Typ de **tussenruimte tussen rijen** en druk op **Enter**.
@@ -23,7 +23,7 @@ Het commando `RechthoekigeReeks` maakt een rechthoekig raster van kopieën van g
 
 **Eerst activeren, dan selecteren** — start het commando zonder dat er iets geselecteerd is:
 
-1. Typ `RechthoekigeReeks` of klik op de werkbalkknop.
+1. Typ `RechthoekigeReeks` of kies hem in het array-uitklapmenu van het paneel Edit.
 2. **Selecteer objecten** — klik om afzonderlijke entiteiten aan/uit te zetten, of sleep om per gebied te selecteren.
 3. Druk op **Enter** of **Spatie** om de selectie te bevestigen.
 4. Ga verder met rijen → kolommen → rijafstand → kolomafstand zoals hierboven.
@@ -35,7 +35,7 @@ Het commando `RechthoekigeReeks` maakt een rechthoekig raster van kopieën van g
   [A] [A] [A]   <- rij 0: oorspronkelijke selectie, kopieën naar rechts
 ```
 
-> De terminal heeft alleen genoeg letters nodig om ondubbelzinnig te zijn — `arr` typen en op **Enter** drukken activeert Array Grid direct, omdat geen enkele andere commandonaam met deze drie letters begint (Arc, Area, Align en Angle wijken allemaal eerder af).
+> De terminal suggereert overeenkomende opdrachten tijdens het typen, dus een paar letters volstaan — maar `arr` komt nu overeen met zowel Array Grid als Array Polar, dus typ verder of kies er een uit de lijst.
 
 ## Rijen, kolommen en tussenruimte
 

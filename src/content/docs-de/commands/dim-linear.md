@@ -97,6 +97,10 @@ Um weitere Bemaßungen ab der letzten Maßhilfslinie fortzusetzen, verwenden Sie
 Lineare Bemaßungen werden als `DIMENSION`-Elemente mit `rotationDeg` gespeichert, das auf `0` (horizontal) oder `90` (vertikal) gesetzt ist. Maßhilfslinien-Ursprünge, Bemaßungslinienposition, Textposition, gemessener Wert, Pfeilstil, Texthöhe und alle Anzeigeflags werden verlustfrei übertragen.
 
 
+## Einheitenformat und Genauigkeit
+
+Die Eigenschaft **Unit Format** im Eigenschaftenfenster legt fest, wie das Maß geschrieben wird: Scientific, Decimal (Standard), Engineering, Architectural, Fractional oder System, das dem Zahlenformat Ihres Systems folgt. **Precision** listet ihre Auswahl so auf, wie das gewählte Format sie schreibt — etwa Bruchteile eines Zolls bei Architectural und Fractional. Das Einheitenformat einer DXF wird eingelesen, und neue Bemaßungen übernehmen beide Einstellungen vom aktuellen [DimensionStyle](../dimension-style/). Brüche werden in einer Zeile geschrieben, nicht gestapelt.
+
 ## Bemaßungsstil
 
 Neue Bemaßungen kopieren den aktuellen [Bemaßungsstil](../dimension-style/) mit Pfeilen, Hilfslinien, Text, Genauigkeit, Ausrichtung, Abstand und Rahmen. Die Werte werden beim Erstellen kopiert; spätere Stiländerungen wirken sich nicht auf vorhandene Bemaßungen aus.

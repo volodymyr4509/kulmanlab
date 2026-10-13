@@ -88,6 +88,10 @@ Pour ajouter d'autres cotes en continuant depuis la deuxième ligne d'extension 
 Les cotes alignées sont sauvegardées comme entités `DIMENSION` avec `dimType = 1` (aligné). Les origines des lignes d'extension, la position de la ligne de cote, la position du texte, la valeur mesurée, la rotation, le style de flèche et tous les indicateurs d'affichage sont exportés sans perte.
 
 
+## Format d’unités et précision
+
+La propriété **Unit Format** de la fenêtre des propriétés choisit comment la mesure est écrite : Scientific, Decimal (par défaut), Engineering, Architectural, Fractional ou System, qui suit le style numérique de votre système. **Precision** présente ses choix comme le format choisi les écrit — par exemple des fractions de pouce pour Architectural et Fractional. Le format d’unités propre à un DXF est lu, et les nouvelles cotes prennent les deux réglages du [DimensionStyle](../dimension-style/) courant. Les fractions s’écrivent sur une seule ligne, non empilées.
+
 ## Style de cote
 
 Les nouvelles cotes copient le [style de cote](../dimension-style/) courant, notamment flèches, lignes d’attache, texte, précision, alignement, écart et cadre. Les valeurs sont copiées à la création ; les modifications ultérieures du style ne changent pas les cotes existantes.

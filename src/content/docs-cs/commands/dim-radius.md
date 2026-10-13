@@ -67,6 +67,10 @@ Vybrat lze pouze objekty **Arc** a **Circle**. Kliknutí na jiný typ objektu ni
 Kóty poloměru se ukládají jako objekty `DIMENSION` s geometrií typu poloměr, přičemž se ukládají souřadnice středu, poloha bodu na oblouku a naměřená hodnota poloměru. Všechny vlastnosti se přenášejí beze ztráty.
 
 
+## Formát jednotek a přesnost
+
+Vlastnost **Unit Format** v okně vlastností určuje, jak se hodnota zapisuje: Scientific, Decimal (výchozí), Engineering, Architectural, Fractional nebo System, který se řídí číselným stylem vašeho systému. **Precision** nabízí své volby tak, jak je zvolený formát zapisuje — například zlomky palce u Architectural a Fractional. Formát jednotek ze souboru DXF se načte a nové kóty přebírají obě nastavení z aktuálního [DimensionStyle](../dimension-style/). Zlomky se zapisují na jeden řádek, ne skládané.
+
 ## Kótovací styl
 
 Nové kóty kopírují aktuální [kótovací styl](../dimension-style/), včetně šipek, vynášecích čar, textu, přesnosti, zarovnání, mezery a rámečku. Hodnoty se kopírují při vytvoření; pozdější změny stylu nemění existující kóty.

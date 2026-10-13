@@ -71,6 +71,10 @@ Lihat [Text Editor — mod mudah](../../interface/text-editor/#simple-mode) untu
 - [Dimension Diameter](../dim-diameter/) — dimensi diameter untuk bulatan
 
 
+## Format unit dan ketepatan
+
+Sifat **Unit Format** memilih cara sudut ditulis: Decimal Degrees (lalai), Deg/Min/Sec, Gradians atau Radians. **Precision** mengikut format; untuk Deg/Min/Sec ia hanya menyenaraikan ketepatan yang dibaca secara berbeza. **Ext Line Offset** menetapkan jurang pada permulaan setiap garis sambungan dan diambil daripada [DimensionStyle](../dimension-style/) apabila dimensi dilukis.
+
 ## Gaya dimensi
 
 Dimensi baharu menyalin [gaya dimensi](../dimension-style/) semasa termasuk anak panah, garis sambungan, teks, ketepatan, penjajaran, jurang dan bingkai. Nilai disalin ketika dicipta, jadi perubahan gaya kemudian tidak mengubah dimensi sedia ada.

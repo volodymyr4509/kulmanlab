@@ -71,6 +71,10 @@ Tam referans için [Metin Düzenleyici — simple mode](../../interface/text-edi
 - [Dimension Diameter](../dim-diameter/) — daireler için çap ölçüsü
 
 
+## Birim biçimi ve hassasiyet
+
+**Unit Format** özelliği açının nasıl yazılacağını seçer: Decimal Degrees (varsayılan), Deg/Min/Sec, Gradians veya Radians. **Precision** biçimi izler; Deg/Min/Sec için yalnızca farklı okunan hassasiyetleri listeler. **Ext Line Offset** her uzatma çizgisinin başındaki boşluğu belirler ve ölçülendirme çizilirken [DimensionStyle](../dimension-style/)'dan alınır.
+
 ## Ölçü stili
 
 Yeni ölçüler; oklar, uzatma çizgileri, metin, hassasiyet, hizalama, aralık ve çerçeve dahil geçerli [ölçü stilini](../dimension-style/) kopyalar. Değerler oluşturulurken kopyalanır; sonraki stil değişiklikleri mevcut ölçüleri değiştirmez.

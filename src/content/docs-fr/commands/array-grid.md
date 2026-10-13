@@ -15,7 +15,7 @@ La commande `RéseauRectangulaire` crée une grille rectangulaire de copies à p
 **Pré-sélectionner, puis array** — sélectionnez d'abord les entités, puis activez :
 
 1. Sélectionnez une ou plusieurs entités sur le canevas.
-2. Tapez `RéseauRectangulaire` dans le terminal (`arr` suffit — c'est sans ambiguïté) ou cliquez sur le bouton **Array Grid** de la barre d'outils.
+2. Tapez `RéseauRectangulaire` dans le terminal (quelques lettres suffisent — choisissez-la parmi les suggestions) ou choisissez **Array Grid** dans le menu déroulant des réseaux du panneau Edit.
 3. Tapez le nombre de **lignes** et appuyez sur **Entrée**.
 4. Tapez le nombre de **colonnes** et appuyez sur **Entrée**.
 5. Tapez l'**espacement entre les lignes** et appuyez sur **Entrée**.
@@ -23,7 +23,7 @@ La commande `RéseauRectangulaire` crée une grille rectangulaire de copies à p
 
 **Activer, puis sélectionner** — démarrez la commande sans rien de sélectionné :
 
-1. Tapez `RéseauRectangulaire` ou cliquez sur le bouton de la barre d'outils.
+1. Tapez `RéseauRectangulaire` ou choisissez-la dans le menu déroulant des réseaux du panneau Edit.
 2. **Sélectionnez les objets** — cliquez pour basculer les entités individuelles, ou faites glisser pour sélectionner par zone.
 3. Appuyez sur **Entrée** ou **Espace** pour confirmer la sélection.
 4. Continuez avec lignes → colonnes → espacement des lignes → espacement des colonnes comme ci-dessus.
@@ -35,7 +35,7 @@ La commande `RéseauRectangulaire` crée une grille rectangulaire de copies à p
   [A] [A] [A]   <- ligne 0 : sélection d'origine, copies vers la droite
 ```
 
-> Le terminal n'a besoin que des lettres suffisantes pour être sans ambiguïté — taper `arr` et appuyer sur **Entrée** active directement Array Grid, car aucun autre nom de commande ne commence par ces trois lettres (Arc, Area, Align et Angle divergent plus tôt).
+> Le terminal propose les commandes correspondantes pendant la saisie, donc quelques lettres suffisent — mais `arr` correspond désormais à Array Grid et à Array Polar ; continuez donc à taper ou choisissez-en une dans la liste.
 
 ## Lignes, colonnes et espacement
 

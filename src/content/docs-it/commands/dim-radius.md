@@ -67,6 +67,10 @@ Vedi [Editor di Testo — simple mode](../../interface/text-editor/#simple-mode)
 Le quote raggio vengono salvate come entità `DIMENSION` con geometria di tipo raggio, memorizzando le coordinate del centro, la posizione del punto dell'arco e il valore del raggio misurato. Tutte le proprietà vengono mantenute senza perdita.
 
 
+## Formato delle unità e precisione
+
+La proprietà **Unit Format** nella finestra delle proprietà sceglie come viene scritta la misura: Scientific, Decimal (predefinito), Engineering, Architectural, Fractional o System, che segue lo stile numerico del tuo sistema. **Precision** elenca le sue scelte come le scrive il formato selezionato — per esempio frazioni di pollice per Architectural e Fractional. Il formato delle unità proprio di un DXF viene letto e le nuove quote prendono entrambe le impostazioni dal [DimensionStyle](../dimension-style/) corrente. Le frazioni sono scritte su una sola riga, non impilate.
+
 ## Stile di quota
 
 Le nuove quote copiano lo [stile di quota](../dimension-style/) corrente, incluse frecce, linee di estensione, testo, precisione, allineamento, distanza e cornice. I valori vengono copiati alla creazione, quindi le modifiche successive allo stile non cambiano le quote esistenti.

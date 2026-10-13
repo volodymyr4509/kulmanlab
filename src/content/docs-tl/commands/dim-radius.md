@@ -67,6 +67,10 @@ Tingnan ang [Text Editor — simple mode](../../interface/text-editor/#simple-mo
 Nase-save ang mga radius dimension bilang `DIMENSION` entities na may radius-type geometry, na nag-iimbak ng center coordinates, arc-point position, at ang sinukat na radius value. Lahat ng properties ay nagra-round-trip nang walang nawawala.
 
 
+## Format ng unit at katumpakan
+
+Pinipili ng property na **Unit Format** sa property window kung paano isinusulat ang sukat: Scientific, Decimal (default), Engineering, Architectural, Fractional, o System, na sumusunod sa istilo ng numero ng iyong system. Inililista ng **Precision** ang mga pagpipilian nito ayon sa pagsulat ng napiling format — halimbawa, mga praksyon ng pulgada sa Architectural at Fractional. Binabasa ang sariling unit format ng DXF, at kinukuha ng mga bagong dimension ang dalawang setting mula sa kasalukuyang [DimensionStyle](../dimension-style/). Isinusulat ang mga praksyon sa isang linya, hindi nakapatong.
+
 ## Istilo ng sukat
 
 Kinokopya ng bagong sukat ang kasalukuyang [istilo ng sukat](../dimension-style/), kasama ang arrow, extension line, text, precision, alignment, gap, at frame. Sa paggawa kinokopya ang values kaya hindi binabago ng susunod na style edits ang dati nang sukat.

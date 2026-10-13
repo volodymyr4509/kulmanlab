@@ -28,6 +28,8 @@ Nastavte samostatně obě šipky, velikost šipky, odsazení a prodloužení vyn
 
 Náhled používá stejné vykreslovače jako plátno. Přepínejte lineární, poloměrový, průměrový a úhlový vzorek a kontrolujte šipky, střed, umístění textu, přesnost a rámečky.
 
+**Unit Format** a **Angular Unit Format** určují, jak styl zapisuje délky (Scientific, Decimal, Engineering, Architectural, Fractional, System) a úhly (Decimal Degrees, Deg/Min/Sec, Gradians, Radians). Každý stojí přímo nad přesností, ke které patří, a oba seznamy přesností se čtou tak, jak je zapisuje jejich formát. Nová kóta oboje zkopíruje ze stylu.
+
 ## Vytváření a správa stylů
 
 **Nový** duplikuje vybraný styl. `Standard` nelze přejmenovat ani odstranit a aktuální styl také nelze odstranit. Názvy musí být jedinečné, neprázdné a platné pro DXF. Importované anotativní styly jsou skryté, ale zachované.

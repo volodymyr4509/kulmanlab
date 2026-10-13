@@ -71,6 +71,10 @@ Voir [Éditeur de texte — simple mode](../../interface/text-editor/#simple-mod
 - [Dimension Diameter](../dim-diameter/) — cote de diamètre pour cercles
 
 
+## Format d’unités et précision
+
+La propriété **Unit Format** choisit comment l’angle est écrit : Decimal Degrees (par défaut), Deg/Min/Sec, Gradians ou Radians. **Precision** suit le format ; pour Deg/Min/Sec, elle ne liste que les précisions qui se lisent différemment. **Ext Line Offset** fixe l’écart au début de chaque ligne d’attache et est repris du [DimensionStyle](../dimension-style/) lorsque la cote est tracée.
+
 ## Style de cote
 
 Les nouvelles cotes copient le [style de cote](../dimension-style/) courant, notamment flèches, lignes d’attache, texte, précision, alignement, écart et cadre. Les valeurs sont copiées à la création ; les modifications ultérieures du style ne changent pas les cotes existantes.

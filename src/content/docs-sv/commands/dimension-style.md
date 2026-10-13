@@ -28,6 +28,8 @@ Textdelen styr snabbfyllning från textstil, teckensnitt, höjd, fet, kursiv, ra
 
 Förhandsgranskningen använder samma renderare som ritytan. Växla mellan linjära, radie-, diameter- och vinkelexempel för att kontrollera pilar, centrum, textläge, precision och ramar.
 
+**Unit Format** och **Angular Unit Format** bestämmer hur en stil skriver längder (Scientific, Decimal, Engineering, Architectural, Fractional, System) och vinklar (Decimal Degrees, Deg/Min/Sec, Gradians, Radians). Var och en står precis ovanför den precision den hör till, och båda precisionslistorna läses som deras format skriver dem. En ny måttsättning kopierar båda från stilen.
+
 ## Skapa och hantera stilar
 
 **Ny** duplicerar vald stil. `Standard` kan inte byta namn eller tas bort, och aktuell stil kan inte heller tas bort. Namn måste vara unika, icke-tomma och giltiga för DXF. Importerade annotativa stilar döljs men bevaras.

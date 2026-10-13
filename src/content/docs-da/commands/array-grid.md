@@ -15,7 +15,7 @@ Kommandoen `Gittermønster` laver et gitter af kopier fra de markerede entiteter
 **Markér først, opret derefter array** — markér entiteter først, aktivér derefter:
 
 1. Markér én eller flere entiteter på lærredet.
-2. Skriv `Gittermønster` i terminalen (så lidt som `arr` er nok — det er entydigt) eller klik på **Array Grid**-knappen i værktøjslinjen.
+2. Skriv `Gittermønster` i terminalen (nogle få bogstaver er nok — vælg den blandt forslagene) eller vælg **Array Grid** i array-rullemenuen i panelet Edit.
 3. Skriv antallet af **rækker** og tryk **Enter**.
 4. Skriv antallet af **kolonner** og tryk **Enter**.
 5. Skriv **afstanden mellem rækker** og tryk **Enter**.
@@ -23,7 +23,7 @@ Kommandoen `Gittermønster` laver et gitter af kopier fra de markerede entiteter
 
 **Aktivér, markér derefter** — start kommandoen uden noget markeret:
 
-1. Skriv `Gittermønster` eller klik på værktøjslinjeknappen.
+1. Skriv `Gittermønster` eller vælg den i array-rullemenuen i panelet Edit.
 2. **Markér objekter** — klik for at slå enkeltentiteter til/fra, eller træk for at markere efter område.
 3. Tryk **Enter** eller **Space** for at bekræfte markeringen.
 4. Fortsæt med rækker → kolonner → rækkeafstand → kolonneafstand som ovenfor.
@@ -35,7 +35,7 @@ Kommandoen `Gittermønster` laver et gitter af kopier fra de markerede entiteter
   [A] [A] [A]   <- række 0: oprindelig markering, kopier til højre
 ```
 
-> Terminalen har kun brug for nok bogstaver til at være entydig — at skrive `arr` og trykke **Enter** aktiverer Array Grid direkte, da ingen anden kommando starter med de tre bogstaver (Arc, Area, Align og Angle divergerer alle tidligere).
+> Terminalen foreslår matchende kommandoer, mens du skriver, så nogle få bogstaver er nok — men `arr` matcher nu både Array Grid og Array Polar, så skriv videre eller vælg en fra listen.
 
 ## Rækker, kolonner og afstand
 

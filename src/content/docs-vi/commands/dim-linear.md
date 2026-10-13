@@ -75,6 +75,10 @@ Xem [Trình Soạn Thảo Văn Bản — chế độ đơn giản](../../interfa
 Kích thước tuyến tính được lưu dưới dạng thực thể `DIMENSION` với `rotationDeg` được đặt là `0` (ngang) hoặc `90` (dọc). Tất cả thuộc tính được lưu trữ đầy đủ và không bị mất.
 
 
+## Định dạng đơn vị và độ chính xác
+
+Thuộc tính **Unit Format** trong cửa sổ thuộc tính chọn cách ghi số đo: Scientific, Decimal (mặc định), Engineering, Architectural, Fractional hoặc System, theo kiểu số của hệ thống bạn. **Precision** liệt kê các lựa chọn theo cách định dạng đã chọn ghi chúng — ví dụ phân số của inch trong Architectural và Fractional. Định dạng đơn vị riêng của DXF được đọc vào, và kích thước mới lấy cả hai cài đặt từ [DimensionStyle](../dimension-style/) hiện tại. Phân số được ghi trên một dòng, không xếp chồng.
+
 ## Kiểu kích thước
 
 Kích thước mới sao chép [kiểu kích thước](../dimension-style/) hiện hành, gồm mũi tên, đường dóng, chữ, độ chính xác, căn chỉnh, khoảng cách và khung. Giá trị được sao chép lúc tạo nên thay đổi kiểu sau đó không ảnh hưởng kích thước đã có.

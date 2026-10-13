@@ -88,6 +88,10 @@ Don ƙara girma-girma ƙari da ke ci gaba daga layin extension na biyu na wannan
 Girma-girma mai daidaici ana ajiye su a matsayin abubuwan `DIMENSION` tare da `dimType = 1` (daidaici). Asalin layukan extension, matsayin layin girma-girma, matsayin rubutu, ƙimar da aka aunata, juyawa, salon kibiya, da dukkan flags na nuni suna juyawa ba tare da asara ba.
 
 
+## Tsarin naúra da daidaito
+
+Kadarar **Unit Format** a taga na kaddarori tana zaɓar yadda ake rubuta ma'auni: Scientific, Decimal (tsoho), Engineering, Architectural, Fractional ko System, wanda ke bin salon lambobin tsarinka. **Precision** tana lissafa zaɓukanta kamar yadda tsarin da aka zaɓa yake rubuta su — misali, juzu'in inci a Architectural da Fractional. Ana karanta tsarin naúra na DXF kansa, kuma sababbin ma'aunin girma suna ɗaukar saituna biyu daga [DimensionStyle](../dimension-style/) na yanzu. Ana rubuta juzu'i a layi ɗaya, ba a jere ba.
+
 ## Salon aunawa
 
 Sabbin ma’auni suna kwafin [salon aunawa](../dimension-style/) na yanzu, ciki har da kibiyoyi, layukan taimako, rubutu, daidaito, jeri, tazara da firam. Ana kwafin ƙima lokacin ƙirƙira; gyaran salo daga baya ba ya canza ma’aunin da ke akwai.

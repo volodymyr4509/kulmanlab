@@ -88,6 +88,10 @@ Untuk menambahkan lebih banyak dimensi yang berlanjut dari garis ekstensi kedua 
 Dimensi sejajar disimpan sebagai entitas `DIMENSION` dengan `dimType = 1` (sejajar). Asal garis ekstensi, posisi garis dimensi, posisi teks, nilai yang diukur, rotasi, gaya panah, dan semua flag tampilan dapat dipertukarkan tanpa kehilangan data.
 
 
+## Format satuan dan presisi
+
+Properti **Unit Format** di jendela properti memilih cara pengukuran ditulis: Scientific, Decimal (bawaan), Engineering, Architectural, Fractional, atau System, yang mengikuti gaya angka sistem Anda. **Precision** menampilkan pilihannya seperti yang ditulis format terpilih — misalnya pecahan inci untuk Architectural dan Fractional. Format satuan milik DXF dibaca, dan dimensi baru mengambil kedua pengaturan dari [DimensionStyle](../dimension-style/) saat ini. Pecahan ditulis dalam satu baris, tidak ditumpuk.
+
 ## Gaya dimensi
 
 Dimensi baru menyalin [gaya dimensi](../dimension-style/) aktif, termasuk panah, garis ekstensi, teks, presisi, perataan, celah, dan bingkai. Nilai disalin saat dibuat, sehingga perubahan gaya berikutnya tidak mengubah dimensi yang sudah ada.

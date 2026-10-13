@@ -97,6 +97,10 @@ order: 4
 선형 치수는 `rotationDeg`가 `0`(수평) 또는 `90`(수직)으로 설정된 `DIMENSION` 객체로 저장됩니다. 치수 보조선 시작점, 치수 선 위치, 텍스트 위치, 측정된 값, 화살표 스타일, 텍스트 높이, 모든 표시 플래그가 손실 없이 왕복 저장됩니다.
 
 
+## 단위 형식과 정밀도
+
+속성 창의 **Unit Format** 속성은 측정값을 어떻게 쓸지 정합니다. Scientific, Decimal(기본값), Engineering, Architectural, Fractional, 그리고 시스템의 숫자 표기를 따르는 System입니다. **Precision**은 선택한 형식이 쓰는 방식으로 선택지를 보여 줍니다. 예를 들어 Architectural과 Fractional에서는 인치의 분수입니다. DXF 자체의 단위 형식은 읽어 들이며, 새 치수는 두 설정을 현재 [DimensionStyle](../dimension-style/)에서 가져옵니다. 분수는 쌓지 않고 한 줄로 씁니다.
+
 ## 치수 스타일
 
 새 치수는 화살표, 치수 보조선, 텍스트, 정밀도, 정렬, 간격과 프레임을 포함한 현재 [치수 스타일](../dimension-style/)을 복사합니다. 값은 생성할 때 복사되므로 이후 스타일 변경은 기존 치수에 영향을 주지 않습니다.

@@ -15,7 +15,7 @@ Gumagawa ang `GridNaHanay` command ng rectangular grid ng mga kopya mula sa mga 
 **Pre-select, tapos array** — piliin muna ang mga entity, pagkatapos i-activate:
 
 1. Piliin ang isa o higit pang entity sa canvas.
-2. I-type ang `GridNaHanay` sa terminal (sapat na ang `arr` — walang kalabuan) o i-click ang **Array Grid** button sa toolbar.
+2. I-type ang `GridNaHanay` sa terminal (sapat na ang ilang letra — piliin ito mula sa mga mungkahi) o piliin ang **Array Grid** mula sa array dropdown sa Edit panel.
 3. I-type ang bilang ng **row** at pindutin ang **Enter**.
 4. I-type ang bilang ng **column** at pindutin ang **Enter**.
 5. I-type ang **espasyo sa pagitan ng mga row** at pindutin ang **Enter**.
@@ -23,7 +23,7 @@ Gumagawa ang `GridNaHanay` command ng rectangular grid ng mga kopya mula sa mga 
 
 **Activate, tapos select** — simulan ang command nang walang naka-select:
 
-1. I-type ang `GridNaHanay` o i-click ang toolbar button.
+1. I-type ang `GridNaHanay` o piliin ito mula sa array dropdown sa Edit panel.
 2. **Piliin ang mga object** — mag-click para i-toggle ang bawat entity, o mag-drag para pumili ayon sa area.
 3. Pindutin ang **Enter** o **Space** para kumpirmahin ang seleksyon.
 4. Ituloy ang row → column → espasyo ng row → espasyo ng column tulad ng nasa itaas.
@@ -35,7 +35,7 @@ Gumagawa ang `GridNaHanay` command ng rectangular grid ng mga kopya mula sa mga 
   [A] [A] [A]   <- row 0: orihinal na seleksyon, kopya pakanan
 ```
 
-> Kailangan lang ng terminal ng sapat na mga letra para hindi malabo — ang pag-type ng `arr` at pagpindot ng **Enter** ay direktang nagpapa-activate ng Array Grid, dahil walang ibang pangalan ng command na nagsisimula sa tatlong letrang iyon (Arc, Area, Align, at Angle lahat ay naghihiwalay nang mas maaga).
+> Nagmumungkahi ang terminal ng mga tumutugmang command habang nagta-type ka, kaya sapat na ang ilang letra — pero tumutugma na ngayon ang `arr` sa parehong Array Grid at Array Polar, kaya magpatuloy sa pag-type o pumili ng isa mula sa listahan.
 
 ## Row, column, at espasyo
 

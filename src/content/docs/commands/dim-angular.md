@@ -70,6 +70,10 @@ See [Text Editor — simple mode](../../interface/text-editor/#simple-mode) for 
 - [Dimension Radius](../dim-radius/) — radius dimension for arcs and circles
 - [Dimension Diameter](../dim-diameter/) — diameter dimension for circles
 
+## Unit format and precision
+
+The **Unit Format** property chooses how the angle is written: Decimal Degrees (the default), Deg/Min/Sec, Gradians, or Radians. **Precision** follows the format; for Deg/Min/Sec it lists only the precisions that read differently. **Ext Line Offset** sets the gap at the start of each extension line and is taken from the [DimensionStyle](../dimension-style/) when the dimension is drawn.
+
 ## Dimension style
 
 New angular dimensions copy the current [DimensionStyle](../dimension-style/), including arrowheads, extension lines, text formatting, angular precision, alignment, gap, and frame. The values are copied at creation time rather than live-linked.

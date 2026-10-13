@@ -28,6 +28,8 @@ A seção de texto controla o preenchimento rápido pelo Estilo de texto, fonte,
 
 A visualização usa os mesmos renderizadores da tela. Alterne entre exemplos linear, radial, diametral e angular para conferir setas, marcas de centro, posição do texto, precisão e molduras.
 
+**Unit Format** e **Angular Unit Format** definem como um estilo escreve comprimentos (Scientific, Decimal, Engineering, Architectural, Fractional, System) e ângulos (Decimal Degrees, Deg/Min/Sec, Gradians, Radians). Cada um fica logo acima da precisão a que pertence, e ambas as listas de precisão se leem como o seu formato as escreve. Uma nova cota copia ambos do estilo.
+
 ## Criar e gerenciar estilos
 
 **Novo** duplica o estilo selecionado. `Standard` não pode ser renomeado nem excluído, e o estilo atual também não pode ser excluído. Os nomes devem ser únicos, não vazios e válidos para DXF. Estilos anotativos importados ficam ocultos, mas são preservados.

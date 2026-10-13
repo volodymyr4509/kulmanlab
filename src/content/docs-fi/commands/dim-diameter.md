@@ -65,6 +65,10 @@ Katso [Tekstieditori — yksinkertainen tila](../../interface/text-editor/#simpl
 Halkaisijamitat tallennetaan `DIMENSION`-entiteetteinä halkaisijatyypin geometrialla, tallentaen molempien kaaren pisteiden sijainnit ja mitatun halkaisija-arvon (2 × säde). Kaikki ominaisuudet säilyvät edestakaisessa matkassa ilman häviötä.
 
 
+## Yksikkömuoto ja tarkkuus
+
+Ominaisuusikkunan **Unit Format** -ominaisuus valitsee, miten mitta kirjoitetaan: Scientific, Decimal (oletus), Engineering, Architectural, Fractional tai System, joka seuraa järjestelmäsi lukutyyliä. **Precision** luettelee valintansa sillä tavalla kuin valittu muoto ne kirjoittaa — esimerkiksi tuuman murto-osat muodoissa Architectural ja Fractional. DXF:n oma yksikkömuoto luetaan, ja uudet mitoitukset ottavat molemmat asetukset nykyisestä [DimensionStyle](../dimension-style/)-tyylistä. Murtoluvut kirjoitetaan yhdelle riville, ei pinottuina.
+
 ## Mittatyyli
 
 Uudet mitat kopioivat nykyisen [mittatyylin](../dimension-style/) nuolineen, apuviivoineen, teksteineen, tarkkuuksineen, tasauksineen, väleineen ja kehyksineen. Arvot kopioidaan luotaessa; myöhemmät tyylimuutokset eivät muuta olemassa olevia mittoja.

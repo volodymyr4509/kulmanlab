@@ -64,6 +64,10 @@ See [Text Editor — simple mode](../../interface/text-editor/#simple-mode) for 
 
 Diameter dimensions are saved as `DIMENSION` entities with diameter-type geometry, storing both arc-point positions and the measured diameter value (2 × radius). All properties round-trip without loss.
 
+## Unit format and precision
+
+The **Unit Format** property in the property window chooses how the measurement is written: Scientific, Decimal (the default), Engineering, Architectural, Fractional, or System, which follows your system's number style. **Precision** lists its choices the way the chosen format writes them — fractions of an inch for Architectural and Fractional, for example. A DXF's own unit format is read in, and new dimensions take both settings from the current [DimensionStyle](../dimension-style/). Fractions are written on one line, not stacked.
+
 ## Dimension style
 
 New diameter dimensions copy the current [DimensionStyle](../dimension-style/), including separate arrowheads, center-mark type and size, text, precision, gap, alignment, and frame. Outside dimensions use the second arrowhead consistently and begin the outside leader at the circle or arc.

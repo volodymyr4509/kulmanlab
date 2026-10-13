@@ -87,6 +87,10 @@ To add more dimensions continuing from the second extension line of this one, us
 
 Aligned dimensions are saved as `DIMENSION` entities with `dimType = 1` (aligned). Extension line origins, dimension line position, text position, measured value, rotation, arrow style, and all display flags round-trip without loss.
 
+## Unit format and precision
+
+The **Unit Format** property in the property window chooses how the measurement is written: Scientific, Decimal (the default), Engineering, Architectural, Fractional, or System, which follows your system's number style. **Precision** lists its choices the way the chosen format writes them — fractions of an inch for Architectural and Fractional, for example. A DXF's own unit format is read in, and new dimensions take both settings from the current [DimensionStyle](../dimension-style/). Fractions are written on one line, not stacked.
+
 ## Dimension style
 
 New aligned dimensions copy the current [DimensionStyle](../dimension-style/), including arrows, extension lines, text, precision, alignment, gap, and frame. The values are copied at creation time, so later style edits do not change existing dimensions.

@@ -28,6 +28,8 @@ Het tekstgedeelte beheert snel invullen uit Tekststijl, lettertype, hoogte, vet,
 
 Het voorbeeld gebruikt dezelfde renderers als het canvas. Wissel tussen lineaire, straal-, diameter- en hoekvoorbeelden om pijlen, centrum, tekstpositie, precisie en kaders te controleren.
 
+**Unit Format** en **Angular Unit Format** bepalen hoe een stijl lengtes (Scientific, Decimal, Engineering, Architectural, Fractional, System) en hoeken (Decimal Degrees, Deg/Min/Sec, Gradians, Radians) schrijft. Elk staat direct boven de nauwkeurigheid waarbij het hoort, en beide nauwkeurigheidslijsten lezen zoals hun formaat ze schrijft. Een nieuwe maatvoering kopieert beide uit de stijl.
+
 ## Stijlen maken en beheren
 
 **Nieuw** dupliceert de gekozen stijl. `Standard` kan niet worden hernoemd of verwijderd en de huidige stijl kan ook niet worden verwijderd. Namen moeten uniek, niet leeg en geldig voor DXF zijn. Geïmporteerde annotatieve stijlen blijven verborgen maar behouden.

@@ -71,6 +71,10 @@ Se [Tekstredigering — simpel tilstand](../../interface/text-editor/#simple-mod
 - [Dimension Diameter](../dim-diameter/) — diametermål for cirkler
 
 
+## Enhedsformat og præcision
+
+Egenskaben **Unit Format** vælger, hvordan vinklen skrives: Decimal Degrees (standard), Deg/Min/Sec, Gradians eller Radians. **Precision** følger formatet; for Deg/Min/Sec viser den kun de præcisioner, der læses forskelligt. **Ext Line Offset** angiver afstanden ved starten af hver hjælpelinje og hentes fra [DimensionStyle](../dimension-style/), når målsætningen tegnes.
+
 ## Målstil
 
 Nye mål kopierer den aktuelle [målstil](../dimension-style/) med pile, hjælpelinjer, tekst, præcision, justering, afstand og ramme. Værdierne kopieres ved oprettelse; senere typografiændringer påvirker ikke eksisterende mål.

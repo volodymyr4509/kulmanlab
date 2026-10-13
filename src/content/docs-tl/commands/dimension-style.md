@@ -28,6 +28,8 @@ Kinokontrol ng text section ang mabilisang kopya mula Estilo ng teksto, font, ta
 
 Parehong renderer ng canvas ang gamit ng preview. Magpalit sa linear, radius, diameter, at angular sample para suriin ang arrow, center mark, text position, precision, at frame.
 
+Itinatakda ng **Unit Format** at **Angular Unit Format** kung paano nagsusulat ang isang estilo ng mga haba (Scientific, Decimal, Engineering, Architectural, Fractional, System) at anggulo (Decimal Degrees, Deg/Min/Sec, Gradians, Radians). Nasa tuktok mismo ng katumpakang kinabibilangan nito ang bawat isa, at binabasa ang dalawang listahan ng katumpakan ayon sa pagsulat ng kani-kanilang format. Kinokopya ng bagong dimension ang dalawa mula sa estilo.
+
 ## Gumawa at mamahala ng mga istilo
 
 Dinuduplicate ng **Bago** ang napiling istilo. Hindi mapapalitan ang pangalan o mabubura ang `Standard`, at hindi rin mabubura ang kasalukuyang istilo. Dapat natatangi, hindi blangko, at valid sa DXF ang pangalan. Nakatago ngunit napapanatili ang imported annotative styles.

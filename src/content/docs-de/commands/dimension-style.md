@@ -28,6 +28,8 @@ Der Textbereich steuert Textstil-Schnellübernahme, Schrift, Höhe, Fett, Kursiv
 
 Die Vorschau verwendet dieselben Renderer wie die Zeichenfläche. Wechseln Sie zwischen Linear-, Radius-, Durchmesser- und Winkelbeispielen, um Pfeile, Mittelpunktmarken, Textlage, Genauigkeit und Rahmen zu prüfen.
 
+**Unit Format** und **Angular Unit Format** legen fest, wie ein Stil Längen (Scientific, Decimal, Engineering, Architectural, Fractional, System) und Winkel (Decimal Degrees, Deg/Min/Sec, Gradians, Radians) schreibt. Jedes steht direkt über der Genauigkeit, zu der es gehört, und beide Genauigkeitslisten lesen sich so, wie ihr Format sie schreibt. Eine neue Bemaßung kopiert beides aus dem Stil.
+
 ## Stile erstellen und verwalten
 
 **Neu** dupliziert den ausgewählten Stil. `Standard` kann weder umbenannt noch gelöscht werden; der aktuelle Stil kann ebenfalls nicht gelöscht werden. Namen müssen eindeutig, nicht leer und DXF-gültig sein. Importierte annotative Stile bleiben verborgen, werden aber erhalten.

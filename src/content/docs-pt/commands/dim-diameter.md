@@ -65,6 +65,10 @@ Consulte [Editor de Texto — simple mode](../../interface/text-editor/#simple-m
 As cotas de diâmetro são salvas como entidades `DIMENSION` com geometria do tipo diâmetro, armazenando ambas as posições dos pontos do arco e o valor do diâmetro medido (2 × raio). Todas as propriedades são mantidas sem perda.
 
 
+## Formato de unidades e precisão
+
+A propriedade **Unit Format** da janela de propriedades escolhe como a medida é escrita: Scientific, Decimal (padrão), Engineering, Architectural, Fractional ou System, que segue o estilo numérico do seu sistema. **Precision** lista suas opções como o formato escolhido as escreve — por exemplo, frações de polegada em Architectural e Fractional. O formato de unidades próprio de um DXF é lido, e as novas cotas tomam as duas configurações do [DimensionStyle](../dimension-style/) atual. As frações são escritas em uma linha, não empilhadas.
+
 ## Estilo de cota
 
 Novas cotas copiam o [estilo de cota](../dimension-style/) atual, incluindo setas, linhas de extensão, texto, precisão, alinhamento, intervalo e moldura. Os valores são copiados na criação; alterações posteriores no estilo não mudam cotas existentes.

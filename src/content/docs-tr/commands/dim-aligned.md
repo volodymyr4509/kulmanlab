@@ -88,6 +88,10 @@ Bu ölçünün ikinci uzatma çizgisinden devam eden ölçüler eklemek için [D
 Hizalı ölçüler `dimType = 1` (hizalı) ile `DIMENSION` nesnesi olarak kaydedilir. Uzatma çizgisi başlangıç noktaları, ölçü çizgisi konumu, metin konumu, ölçülen değer, döndürme, ok stili ve tüm görüntüleme bayrakları kayıpsız round-trip yapar.
 
 
+## Birim biçimi ve hassasiyet
+
+Özellikler penceresindeki **Unit Format** özelliği ölçünün nasıl yazılacağını seçer: Scientific, Decimal (varsayılan), Engineering, Architectural, Fractional veya sisteminizin sayı stilini izleyen System. **Precision**, seçeneklerini seçilen biçimin yazdığı şekilde listeler — örneğin Architectural ve Fractional'da inç kesirleri. Bir DXF'in kendi birim biçimi okunur ve yeni ölçülendirmeler her iki ayarı da geçerli [DimensionStyle](../dimension-style/)'dan alır. Kesirler üst üste değil, tek satırda yazılır.
+
 ## Ölçü stili
 
 Yeni ölçüler; oklar, uzatma çizgileri, metin, hassasiyet, hizalama, aralık ve çerçeve dahil geçerli [ölçü stilini](../dimension-style/) kopyalar. Değerler oluşturulurken kopyalanır; sonraki stil değişiklikleri mevcut ölçüleri değiştirmez.

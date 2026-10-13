@@ -28,6 +28,8 @@ Teksto dalis valdo greitą užpildymą iš teksto stiliaus, šriftą, aukštį, 
 
 Peržiūra naudoja tuos pačius atvaizdavimo įrankius kaip drobė. Perjunkite tiesinį, spindulio, skersmens ir kampinį pavyzdžius, kad patikrintumėte rodykles, centro žymas, teksto vietą, tikslumą ir rėmelius.
 
+**Unit Format** ir **Angular Unit Format** nustato, kaip stilius užrašo ilgius (Scientific, Decimal, Engineering, Architectural, Fractional, System) ir kampus (Decimal Degrees, Deg/Min/Sec, Gradians, Radians). Kiekvienas yra tiesiai virš tikslumo, kuriam priklauso, o abu tikslumo sąrašai skaitomi taip, kaip juos užrašo jų formatas. Naujas matmuo abu nukopijuoja iš stiliaus.
+
 ## Stilių kūrimas ir valdymas
 
 **New** dubliuoja pasirinktą stilių. `Standard` negalima pervadinti ar ištrinti, taip pat negalima ištrinti dabartinio stiliaus. Pavadinimai turi būti unikalūs, netušti ir tinkami DXF. Importuoti anotatyvūs stiliai paslepiami, bet išsaugomi.

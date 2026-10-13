@@ -71,6 +71,10 @@ Tingnan ang [Text Editor — simple mode](../../interface/text-editor/#simple-mo
 - [Dimension Diameter](../dim-diameter/) — diameter dimension para sa mga circle
 
 
+## Format ng unit at katumpakan
+
+Pinipili ng property na **Unit Format** kung paano isinusulat ang anggulo: Decimal Degrees (default), Deg/Min/Sec, Gradians, o Radians. Sumusunod ang **Precision** sa format; sa Deg/Min/Sec, inililista lang nito ang mga katumpakang magkaiba ang basa. Itinatakda ng **Ext Line Offset** ang puwang sa simula ng bawat extension line at kinukuha mula sa [DimensionStyle](../dimension-style/) kapag iginuguhit ang dimension.
+
 ## Istilo ng sukat
 
 Kinokopya ng bagong sukat ang kasalukuyang [istilo ng sukat](../dimension-style/), kasama ang arrow, extension line, text, precision, alignment, gap, at frame. Sa paggawa kinokopya ang values kaya hindi binabago ng susunod na style edits ang dati nang sukat.

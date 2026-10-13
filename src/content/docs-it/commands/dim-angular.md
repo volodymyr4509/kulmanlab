@@ -71,6 +71,10 @@ Vedi [Editor di Testo — simple mode](../../interface/text-editor/#simple-mode)
 - [Dimension Diameter](../dim-diameter/) — quota diametro per cerchi
 
 
+## Formato delle unità e precisione
+
+La proprietà **Unit Format** sceglie come viene scritto l’angolo: Decimal Degrees (predefinito), Deg/Min/Sec, Gradians o Radians. **Precision** segue il formato; per Deg/Min/Sec elenca solo le precisioni che si leggono in modo diverso. **Ext Line Offset** imposta lo spazio all’inizio di ogni linea di estensione e viene preso dal [DimensionStyle](../dimension-style/) quando la quota viene disegnata.
+
 ## Stile di quota
 
 Le nuove quote copiano lo [stile di quota](../dimension-style/) corrente, incluse frecce, linee di estensione, testo, precisione, allineamento, distanza e cornice. I valori vengono copiati alla creazione, quindi le modifiche successive allo stile non cambiano le quote esistenti.

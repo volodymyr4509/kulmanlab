@@ -28,6 +28,8 @@ Bahagian teks mengawal isi pantas daripada Gaya Teks, fon, tinggi, tebal, condon
 
 Pratonton menggunakan pemapar yang sama seperti kanvas. Tukar antara sampel linear, jejari, diameter dan sudut untuk menyemak anak panah, tanda pusat, kedudukan teks, ketepatan dan bingkai.
 
+**Unit Format** dan **Angular Unit Format** menetapkan cara sesuatu gaya menulis panjang (Scientific, Decimal, Engineering, Architectural, Fractional, System) dan sudut (Decimal Degrees, Deg/Min/Sec, Gradians, Radians). Setiap satu terletak tepat di atas ketepatan yang berkaitan, dan kedua-dua senarai ketepatan dibaca seperti yang ditulis oleh formatnya. Dimensi baharu menyalin kedua-duanya daripada gaya.
+
 ## Mencipta dan mengurus gaya
 
 **Baharu** menduplikasi gaya dipilih. `Standard` tidak boleh dinamakan semula atau dipadam dan gaya semasa juga tidak boleh dipadam. Nama mesti unik, tidak kosong dan sah untuk DXF. Gaya anotatif diimport disembunyikan tetapi dikekalkan.

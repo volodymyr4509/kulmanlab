@@ -15,7 +15,7 @@ Amri ya `MpangilioGridi` huunda gridi ya mstatili ya nakala kutoka kwa vipengele
 **Chagua kwanza, kisha array** — chagua vipengele kwanza, kisha amilisha:
 
 1. Chagua kipengele kimoja au zaidi kwenye kanvasi.
-2. Andika `MpangilioGridi` kwenye terminal (`arr` pekee inatosha — haina utata) au bonyeza kitufe cha upau wa zana cha **Array Grid**.
+2. Andika `MpangilioGridi` kwenye terminal (herufi chache zinatosha — kichague kutoka kwenye mapendekezo) au chagua **Array Grid** kutoka menyu kunjuzi ya array kwenye paneli ya Edit.
 3. Andika idadi ya **safu mlalo** na ubonyeze **Enter**.
 4. Andika idadi ya **safu wima** na ubonyeze **Enter**.
 5. Andika **nafasi kati ya safu mlalo** na ubonyeze **Enter**.
@@ -23,7 +23,7 @@ Amri ya `MpangilioGridi` huunda gridi ya mstatili ya nakala kutoka kwa vipengele
 
 **Amilisha, kisha chagua** — anza amri bila kitu chochote kilichochaguliwa:
 
-1. Andika `MpangilioGridi` au bonyeza kitufe cha upau wa zana.
+1. Andika `MpangilioGridi` au kichague kutoka menyu kunjuzi ya array kwenye paneli ya Edit.
 2. **Chagua vitu** — bonyeza kubadilisha vipengele mmoja mmoja, au buruta kuchagua kwa eneo.
 3. Bonyeza **Enter** au **Space** kuthibitisha uchaguzi.
 4. Endelea na safu mlalo → safu wima → nafasi ya safu mlalo → nafasi ya safu wima kama hapo juu.
@@ -35,7 +35,7 @@ Amri ya `MpangilioGridi` huunda gridi ya mstatili ya nakala kutoka kwa vipengele
   [A] [A] [A]   <- safu mlalo 0: uchaguzi wa asili, nakala kulia
 ```
 
-> Terminal inahitaji tu herufi za kutosha kutokuwa na utata — kuandika `arr` na kubonyeza **Enter** huamilisha Array Grid moja kwa moja, kwa sababu hakuna jina lingine la amri linaloanza na herufi hizo tatu (Arc, Area, Align, na Angle zote hutofautiana mapema zaidi).
+> Terminal hupendekeza amri zinazolingana unapoandika, kwa hivyo herufi chache zinatosha — lakini `arr` sasa inalingana na Array Grid na Array Polar zote, kwa hivyo endelea kuandika au chagua moja kutoka kwenye orodha.
 
 ## Safu mlalo, safu wima, na nafasi
 

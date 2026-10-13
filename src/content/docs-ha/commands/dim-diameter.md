@@ -65,6 +65,10 @@ Duba [Naʼurar Gyaran Rubutu — simple mode](../../interface/text-editor/#simpl
 Girma-girma na diameter ana ajiye su a matsayin abubuwan `DIMENSION` tare da geometry na nauʼin diameter, suna ajiye matsayin tabon baka biyu da ƙimar diameter da aka auna (2 × radius). Dukkan abubuwan suna juyawa ba tare da asara ba.
 
 
+## Tsarin naúra da daidaito
+
+Kadarar **Unit Format** a taga na kaddarori tana zaɓar yadda ake rubuta ma'auni: Scientific, Decimal (tsoho), Engineering, Architectural, Fractional ko System, wanda ke bin salon lambobin tsarinka. **Precision** tana lissafa zaɓukanta kamar yadda tsarin da aka zaɓa yake rubuta su — misali, juzu'in inci a Architectural da Fractional. Ana karanta tsarin naúra na DXF kansa, kuma sababbin ma'aunin girma suna ɗaukar saituna biyu daga [DimensionStyle](../dimension-style/) na yanzu. Ana rubuta juzu'i a layi ɗaya, ba a jere ba.
+
 ## Salon aunawa
 
 Sabbin ma’auni suna kwafin [salon aunawa](../dimension-style/) na yanzu, ciki har da kibiyoyi, layukan taimako, rubutu, daidaito, jeri, tazara da firam. Ana kwafin ƙima lokacin ƙirƙira; gyaran salo daga baya ba ya canza ma’aunin da ke akwai.

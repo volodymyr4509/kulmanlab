@@ -97,6 +97,10 @@ For at tilføje flere mål, der fortsætter fra den sidste hjælpelinje, brug [D
 Lineære mål gemmes som `DIMENSION`-entiteter med `rotationDeg` sat til `0` (horisontal) eller `90` (vertikal). Hjælpelinje-oprindelser, mållinjeposition, tekstposition, målt værdi, pilstil, teksthøjde og alle visningsflag overlever en rundtur uden tab.
 
 
+## Enhedsformat og præcision
+
+Egenskaben **Unit Format** i egenskabsvinduet vælger, hvordan målet skrives: Scientific, Decimal (standard), Engineering, Architectural, Fractional eller System, som følger dit systems talformat. **Precision** viser sine valg, som det valgte format skriver dem — for eksempel brøkdele af en tomme for Architectural og Fractional. En DXF-fils eget enhedsformat læses ind, og nye målsætninger tager begge indstillinger fra den aktuelle [DimensionStyle](../dimension-style/). Brøker skrives på én linje, ikke stablet.
+
 ## Målstil
 
 Nye mål kopierer den aktuelle [målstil](../dimension-style/) med pile, hjælpelinjer, tekst, præcision, justering, afstand og ramme. Værdierne kopieres ved oprettelse; senere typografiændringer påvirker ikke eksisterende mål.

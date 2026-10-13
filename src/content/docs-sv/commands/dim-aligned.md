@@ -88,6 +88,10 @@ För att lägga till fler mått som fortsätter från detta måtts andra hjälpl
 Justerade mått sparas som `DIMENSION`-entiteter med `dimType = 1` (justerad). Hjälplinjeursprung, måttlinjens position, textposition, uppmätt värde, rotation, pilstil och alla visningsflaggor bevaras vid rundtur utan förlust.
 
 
+## Enhetsformat och precision
+
+Egenskapen **Unit Format** i egenskapsfönstret väljer hur måttet skrivs: Scientific, Decimal (standard), Engineering, Architectural, Fractional eller System, som följer systemets talformat. **Precision** visar sina val som det valda formatet skriver dem — till exempel bråkdelar av en tum för Architectural och Fractional. En DXF-fils eget enhetsformat läses in, och nya måttsättningar tar båda inställningarna från gällande [DimensionStyle](../dimension-style/). Bråk skrivs på en rad, inte staplade.
+
 ## Måttstil
 
 Nya mått kopierar aktuell [måttstil](../dimension-style/) med pilar, hjälplinjer, text, precision, justering, mellanrum och ram. Värdena kopieras när måttet skapas; senare stiländringar påverkar inte befintliga mått.

@@ -71,6 +71,10 @@ Rovnoběžné úsečky nemohou vytvořit úhlovou kótu; příkaz druhé kliknut
 - [Dimension Diameter](../dim-diameter/) — kóta průměru pro kružnice
 
 
+## Formát jednotek a přesnost
+
+Vlastnost **Unit Format** určuje, jak se úhel zapisuje: Decimal Degrees (výchozí), Deg/Min/Sec, Gradians nebo Radians. **Precision** se řídí formátem; u Deg/Min/Sec nabízí jen přesnosti, které se čtou rozdílně. **Ext Line Offset** nastavuje mezeru na začátku každé prodlužovací čáry a při kreslení kóty se přebírá z [DimensionStyle](../dimension-style/).
+
 ## Kótovací styl
 
 Nové kóty kopírují aktuální [kótovací styl](../dimension-style/), včetně šipek, vynášecích čar, textu, přesnosti, zarovnání, mezery a rámečku. Hodnoty se kopírují při vytvoření; pozdější změny stylu nemění existující kóty.

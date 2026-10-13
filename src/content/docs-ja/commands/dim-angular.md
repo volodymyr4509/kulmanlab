@@ -71,6 +71,10 @@ order: 9
 - [Dimension Diameter](../dim-diameter/) — 円の直径寸法
 
 
+## 単位書式と精度
+
+**Unit Format** プロパティで、角度の書き方を選びます。Decimal Degrees（既定）、Deg/Min/Sec、Gradians、Radians です。**Precision** は書式に従い、Deg/Min/Sec では読み方が異なる精度だけが並びます。**Ext Line Offset** は各寸法補助線の始まりの隙間を決め、寸法の作図時に [DimensionStyle](../dimension-style/) から取られます。
+
 ## 寸法スタイル
 
 新しい寸法は、矢印、寸法補助線、文字、精度、位置合わせ、間隔、枠を含む現在の[寸法スタイル](../dimension-style/)をコピーします。値は作成時にコピーされるため、後のスタイル変更は既存寸法に影響しません。

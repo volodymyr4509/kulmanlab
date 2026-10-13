@@ -88,6 +88,10 @@ Lisätäksesi useampia mittoja, jotka jatkuvat tämän mitan toisesta apuviivast
 Kohdistetut mitat tallennetaan `DIMENSION`-entiteetteinä, joilla on `dimType = 1` (aligned). Apuviivojen lähtöpisteet, mittaviivan sijainti, tekstin sijainti, mitattu arvo, kierto, nuolityyli ja kaikki näyttöliput säilyvät edestakaisessa matkassa ilman häviötä.
 
 
+## Yksikkömuoto ja tarkkuus
+
+Ominaisuusikkunan **Unit Format** -ominaisuus valitsee, miten mitta kirjoitetaan: Scientific, Decimal (oletus), Engineering, Architectural, Fractional tai System, joka seuraa järjestelmäsi lukutyyliä. **Precision** luettelee valintansa sillä tavalla kuin valittu muoto ne kirjoittaa — esimerkiksi tuuman murto-osat muodoissa Architectural ja Fractional. DXF:n oma yksikkömuoto luetaan, ja uudet mitoitukset ottavat molemmat asetukset nykyisestä [DimensionStyle](../dimension-style/)-tyylistä. Murtoluvut kirjoitetaan yhdelle riville, ei pinottuina.
+
 ## Mittatyyli
 
 Uudet mitat kopioivat nykyisen [mittatyylin](../dimension-style/) nuolineen, apuviivoineen, teksteineen, tarkkuuksineen, tasauksineen, väleineen ja kehyksineen. Arvot kopioidaan luotaessa; myöhemmät tyylimuutokset eivät muuta olemassa olevia mittoja.

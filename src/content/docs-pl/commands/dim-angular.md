@@ -71,6 +71,10 @@ Zobacz [Edytor tekstu — tryb simple](../../interface/text-editor/#simple-mode)
 - [Dimension Diameter](../dim-diameter/) — wymiar średnicy dla okręgów
 
 
+## Format jednostek i dokładność
+
+Właściwość **Unit Format** wybiera sposób zapisu kąta: Decimal Degrees (domyślnie), Deg/Min/Sec, Gradians lub Radians. **Precision** podąża za formatem; dla Deg/Min/Sec wymienia tylko dokładności czytane inaczej. **Ext Line Offset** ustala odstęp na początku każdej linii pomocniczej i jest brany z [DimensionStyle](../dimension-style/) podczas rysowania wymiaru.
+
 ## Styl wymiaru
 
 Nowe wymiary kopiują bieżący [styl wymiaru](../dimension-style/), w tym strzałki, linie pomocnicze, tekst, precyzję, wyrównanie, odstęp i ramkę. Wartości są kopiowane przy tworzeniu, więc późniejsze zmiany stylu nie zmieniają istniejących wymiarów.

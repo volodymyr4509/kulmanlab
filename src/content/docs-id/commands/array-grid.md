@@ -15,7 +15,7 @@ Perintah `LarikKotak` membuat kisi persegi panjang berisi salinan dari entitas y
 **Pra-pilih, lalu array** — pilih entitas terlebih dahulu, kemudian aktifkan:
 
 1. Pilih satu atau lebih entitas di kanvas.
-2. Ketik `LarikKotak` di terminal (`arr` saja sudah cukup — tidak ambigu) atau klik tombol toolbar **Array Grid**.
+2. Ketik `LarikKotak` di terminal (beberapa huruf cukup — pilih dari saran) atau pilih **Array Grid** dari dropdown array di panel Edit.
 3. Ketik jumlah **baris** dan tekan **Enter**.
 4. Ketik jumlah **kolom** dan tekan **Enter**.
 5. Ketik **jarak antar baris** dan tekan **Enter**.
@@ -23,7 +23,7 @@ Perintah `LarikKotak` membuat kisi persegi panjang berisi salinan dari entitas y
 
 **Aktifkan, lalu pilih** — mulai perintah tanpa ada yang dipilih:
 
-1. Ketik `LarikKotak` atau klik tombol toolbar.
+1. Ketik `LarikKotak` atau pilih dari dropdown array di panel Edit.
 2. **Pilih objek** — klik untuk mengalihkan entitas individual, atau seret untuk memilih berdasarkan area.
 3. Tekan **Enter** atau **Space** untuk mengonfirmasi seleksi.
 4. Lanjutkan dengan baris → kolom → jarak baris → jarak kolom seperti di atas.
@@ -35,7 +35,7 @@ Perintah `LarikKotak` membuat kisi persegi panjang berisi salinan dari entitas y
   [A] [A] [A]   <- baris 0: seleksi asli, salinan ke kanan
 ```
 
-> Terminal hanya memerlukan huruf yang cukup untuk tidak ambigu — mengetik `arr` dan menekan **Enter** langsung mengaktifkan Array Grid, karena tidak ada nama perintah lain yang dimulai dengan tiga huruf tersebut (Arc, Area, Align, dan Angle semuanya menyimpang lebih awal).
+> Terminal menyarankan perintah yang cocok saat Anda mengetik, jadi beberapa huruf sudah cukup — tetapi `arr` kini cocok dengan Array Grid dan Array Polar, jadi lanjutkan mengetik atau pilih salah satu dari daftar.
 
 ## Baris, kolom, dan jarak
 

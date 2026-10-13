@@ -88,6 +88,10 @@ Para agregar más cotas continuando desde la segunda línea de extensión de est
 Las cotas alineadas se guardan como entidades `DIMENSION` con `dimType = 1` (alineado). Los orígenes de las líneas de extensión, la posición de la línea de cota, la posición del texto, el valor medido, la rotación, el estilo de flecha y todos los indicadores de visualización se exportan sin pérdida.
 
 
+## Formato de unidades y precisión
+
+La propiedad **Unit Format** de la ventana de propiedades elige cómo se escribe la medida: Scientific, Decimal (predeterminado), Engineering, Architectural, Fractional o System, que sigue el estilo numérico de tu sistema. **Precision** muestra sus opciones como las escribe el formato elegido — por ejemplo, fracciones de pulgada en Architectural y Fractional. Se lee el formato de unidades propio de un DXF y las cotas nuevas toman ambos ajustes del [DimensionStyle](../dimension-style/) actual. Las fracciones se escriben en una sola línea, no apiladas.
+
 ## Estilo de cota
 
 Las cotas nuevas copian el [estilo de cota](../dimension-style/) actual, incluidas flechas, líneas de referencia, texto, precisión, alineación, separación y marco. Los valores se copian al crear, por lo que cambios posteriores del estilo no alteran cotas existentes.

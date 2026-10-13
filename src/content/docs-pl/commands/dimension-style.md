@@ -28,6 +28,8 @@ Sekcja tekstu steruje szybkim wypełnieniem ze stylu tekstu, czcionką, wysokoś
 
 Podgląd używa tych samych mechanizmów co obszar rysunku. Przełączaj próbki liniową, promieniową, średnicową i kątową, aby sprawdzić strzałki, środki, położenie tekstu, precyzję i ramki.
 
+**Unit Format** i **Angular Unit Format** ustalają, jak styl zapisuje długości (Scientific, Decimal, Engineering, Architectural, Fractional, System) i kąty (Decimal Degrees, Deg/Min/Sec, Gradians, Radians). Każdy z nich znajduje się tuż nad dokładnością, do której należy, a obie listy dokładności czyta się tak, jak zapisuje je ich format. Nowy wymiar kopiuje oba ze stylu.
+
 ## Tworzenie i zarządzanie stylami
 
 **Nowy** powiela wybrany styl. `Standard` nie można zmienić nazwy ani usunąć; stylu bieżącego również nie można usunąć. Nazwy muszą być unikalne, niepuste i poprawne dla DXF. Importowane style opisowe są ukryte, lecz zachowane.

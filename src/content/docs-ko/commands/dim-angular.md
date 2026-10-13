@@ -71,6 +71,10 @@ order: 9
 - [Dimension Diameter](../dim-diameter/) — 원에 대한 지름 치수
 
 
+## 단위 형식과 정밀도
+
+**Unit Format** 속성은 각도를 어떻게 쓸지 정합니다. Decimal Degrees(기본값), Deg/Min/Sec, Gradians, Radians입니다. **Precision**은 형식을 따르며, Deg/Min/Sec에서는 읽는 방식이 다른 정밀도만 나열합니다. **Ext Line Offset**은 각 치수 보조선 시작 부분의 간격을 정하며 치수를 그릴 때 [DimensionStyle](../dimension-style/)에서 가져옵니다.
+
 ## 치수 스타일
 
 새 치수는 화살표, 치수 보조선, 텍스트, 정밀도, 정렬, 간격과 프레임을 포함한 현재 [치수 스타일](../dimension-style/)을 복사합니다. 값은 생성할 때 복사되므로 이후 스타일 변경은 기존 치수에 영향을 주지 않습니다.

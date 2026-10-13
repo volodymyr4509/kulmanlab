@@ -15,7 +15,7 @@ Lệnh `MảngChữNhật` tạo một lưới hình chữ nhật gồm các b�
 **Chọn trước, rồi array** — chọn đối tượng trước, sau đó kích hoạt:
 
 1. Chọn một hoặc nhiều đối tượng trên canvas.
-2. Nhập `MảngChữNhật` trong terminal (chỉ cần `arr` là đủ — không mơ hồ) hoặc bấm nút **Array Grid** trên thanh công cụ.
+2. Gõ `MảngChữNhật` trong terminal (vài chữ cái là đủ — chọn nó từ gợi ý) hoặc chọn **Array Grid** từ menu thả xuống của mảng trong bảng Edit.
 3. Nhập số **hàng** và nhấn **Enter**.
 4. Nhập số **cột** và nhấn **Enter**.
 5. Nhập **khoảng cách giữa các hàng** và nhấn **Enter**.
@@ -23,7 +23,7 @@ Lệnh `MảngChữNhật` tạo một lưới hình chữ nhật gồm các b�
 
 **Kích hoạt, rồi chọn** — bắt đầu lệnh khi không có gì được chọn:
 
-1. Nhập `MảngChữNhật` hoặc bấm nút thanh công cụ.
+1. Gõ `MảngChữNhật` hoặc chọn từ menu thả xuống của mảng trong bảng Edit.
 2. **Chọn đối tượng** — bấm để chuyển đổi từng đối tượng, hoặc kéo để chọn theo vùng.
 3. Nhấn **Enter** hoặc **Space** để xác nhận chọn.
 4. Tiếp tục với hàng → cột → khoảng cách hàng → khoảng cách cột như trên.
@@ -35,7 +35,7 @@ Lệnh `MảngChữNhật` tạo một lưới hình chữ nhật gồm các b�
   [A] [A] [A]   <- hàng 0: lựa chọn ban đầu, bản sao về bên phải
 ```
 
-> Terminal chỉ cần đủ số chữ cái để không mơ hồ — gõ `arr` và nhấn **Enter** sẽ kích hoạt Array Grid trực tiếp, vì không có tên lệnh nào khác bắt đầu bằng ba chữ cái đó (Arc, Area, Align, và Angle đều tách biệt sớm hơn).
+> Terminal gợi ý các lệnh khớp khi bạn gõ, nên vài chữ cái là đủ — nhưng `arr` giờ khớp với cả Array Grid và Array Polar, vì vậy hãy gõ tiếp hoặc chọn một lệnh từ danh sách.
 
 ## Hàng, cột, và khoảng cách
 

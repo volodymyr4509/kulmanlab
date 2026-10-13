@@ -28,6 +28,8 @@ La section texte contrôle le remplissage rapide depuis un style de texte, la po
 
 L’aperçu utilise les mêmes moteurs de rendu que le canevas. Passez entre les exemples linéaire, radial, diamétral et angulaire pour vérifier flèches, marques de centre, placement du texte, précision et cadres.
 
+**Unit Format** et **Angular Unit Format** fixent comment un style écrit les longueurs (Scientific, Decimal, Engineering, Architectural, Fractional, System) et les angles (Decimal Degrees, Deg/Min/Sec, Gradians, Radians). Chacun se trouve juste au-dessus de la précision à laquelle il se rapporte, et les deux listes de précision se lisent comme leur format les écrit. Une nouvelle cote copie les deux depuis le style.
+
 ## Créer et gérer les styles
 
 **Nouveau** duplique le style sélectionné. `Standard` ne peut être ni renommé ni supprimé, et le style courant ne peut pas être supprimé. Les noms doivent être uniques, non vides et valides pour DXF. Les styles annotatifs importés restent masqués, mais sont conservés.

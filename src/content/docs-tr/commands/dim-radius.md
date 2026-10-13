@@ -67,6 +67,10 @@ Tam referans için [Metin Düzenleyici — simple mode](../../interface/text-edi
 Yarıçap ölçüleri, merkez koordinatlarını, yay noktası konumunu ve ölçülen yarıçap değerini saklayan, yarıçap türü geometrisiyle `DIMENSION` nesnesi olarak kaydedilir. Tüm özellikler kayıpsız round-trip yapar.
 
 
+## Birim biçimi ve hassasiyet
+
+Özellikler penceresindeki **Unit Format** özelliği ölçünün nasıl yazılacağını seçer: Scientific, Decimal (varsayılan), Engineering, Architectural, Fractional veya sisteminizin sayı stilini izleyen System. **Precision**, seçeneklerini seçilen biçimin yazdığı şekilde listeler — örneğin Architectural ve Fractional'da inç kesirleri. Bir DXF'in kendi birim biçimi okunur ve yeni ölçülendirmeler her iki ayarı da geçerli [DimensionStyle](../dimension-style/)'dan alır. Kesirler üst üste değil, tek satırda yazılır.
+
 ## Ölçü stili
 
 Yeni ölçüler; oklar, uzatma çizgileri, metin, hassasiyet, hizalama, aralık ve çerçeve dahil geçerli [ölçü stilini](../dimension-style/) kopyalar. Değerler oluşturulurken kopyalanır; sonraki stil değişiklikleri mevcut ölçüleri değiştirmez.

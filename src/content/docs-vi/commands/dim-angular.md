@@ -70,6 +70,10 @@ Xem [Trình Soạn Thảo Văn Bản — chế độ đơn giản](../../interfa
 - [Dimension Diameter](../dim-diameter/) — kích thước đường kính cho hình tròn
 
 
+## Định dạng đơn vị và độ chính xác
+
+Thuộc tính **Unit Format** chọn cách ghi góc: Decimal Degrees (mặc định), Deg/Min/Sec, Gradians hoặc Radians. **Precision** theo định dạng; với Deg/Min/Sec chỉ liệt kê các độ chính xác được đọc khác nhau. **Ext Line Offset** đặt khoảng hở ở đầu mỗi đường gióng và được lấy từ [DimensionStyle](../dimension-style/) khi kích thước được vẽ.
+
 ## Kiểu kích thước
 
 Kích thước mới sao chép [kiểu kích thước](../dimension-style/) hiện hành, gồm mũi tên, đường dóng, chữ, độ chính xác, căn chỉnh, khoảng cách và khung. Giá trị được sao chép lúc tạo nên thay đổi kiểu sau đó không ảnh hưởng kích thước đã có.

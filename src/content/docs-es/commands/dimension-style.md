@@ -28,6 +28,8 @@ La sección de texto controla el relleno rápido desde Estilo de texto, fuente, 
 
 La vista previa usa los mismos renderizadores que el lienzo. Alterne entre muestras lineales, radiales, diametrales y angulares para revisar flechas, marcas de centro, posición del texto, precisión y marcos.
 
+**Unit Format** y **Angular Unit Format** fijan cómo escribe un estilo las longitudes (Scientific, Decimal, Engineering, Architectural, Fractional, System) y los ángulos (Decimal Degrees, Deg/Min/Sec, Gradians, Radians). Cada uno está justo encima de la precisión a la que corresponde, y ambas listas de precisión se leen como las escribe su formato. Una cota nueva copia ambos del estilo.
+
 ## Crear y administrar estilos
 
 **Nuevo** duplica el estilo seleccionado. `Standard` no puede renombrarse ni eliminarse, y tampoco puede eliminarse el estilo actual. Los nombres deben ser únicos, no vacíos y válidos para DXF. Los estilos anotativos importados permanecen ocultos, pero se conservan.

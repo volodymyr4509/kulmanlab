@@ -67,6 +67,10 @@ Pilną nuorodą žr. [Teksto redaktorius — paprastasis režimas](../../interfa
 Spindulio matmenys saugomi kaip `DIMENSION` objektai su spindulio tipo geometrija, išsaugant centro koordinates, lanko taško padėtį ir išmatuotą spindulio reikšmę. Visos savybės keliauja be praradimų.
 
 
+## Vienetų formatas ir tikslumas
+
+Savybių lango savybė **Unit Format** parenka, kaip užrašomas matmuo: Scientific, Decimal (numatytasis), Engineering, Architectural, Fractional arba System, kuris seka jūsų sistemos skaičių stilių. **Precision** išvardija savo pasirinkimus taip, kaip juos užrašo pasirinktas formatas — pavyzdžiui, colio trupmenas formatuose Architectural ir Fractional. DXF failo vienetų formatas nuskaitomas, o nauji matmenys abu nustatymus perima iš dabartinio [DimensionStyle](../dimension-style/). Trupmenos rašomos vienoje eilutėje, ne sukrautos.
+
 ## Matmenų stilius
 
 Nauji matmenys nukopijuoja dabartinį [matmenų stilių](../dimension-style/), įskaitant rodykles, iškeltines linijas, tekstą, tikslumą, lygiavimą, tarpą ir rėmelį. Reikšmės kopijuojamos kuriant; vėlesni stiliaus pakeitimai esamų matmenų nekeičia.

@@ -15,7 +15,7 @@ Der `RechteckigeAnordnung`-Befehl erstellt ein rechteckiges Raster aus Kopien de
 **Vorauswahl, dann array** — zuerst Elemente auswählen, dann aktivieren:
 
 1. Ein oder mehrere Elemente auf der Zeichenfläche auswählen.
-2. `RechteckigeAnordnung` im Terminal eingeben (schon `arr` genügt — eindeutig) oder auf die Schaltfläche **Array Grid** in der Symbolleiste klicken.
+2. `RechteckigeAnordnung` im Terminal eingeben (ein paar Buchstaben genügen — aus den Vorschlägen wählen) oder im Panel Edit im Array-Dropdown **Array Grid** wählen.
 3. Die Anzahl der **Zeilen** eingeben und **Enter** drücken.
 4. Die Anzahl der **Spalten** eingeben und **Enter** drücken.
 5. Den **Abstand zwischen Zeilen** eingeben und **Enter** drücken.
@@ -23,7 +23,7 @@ Der `RechteckigeAnordnung`-Befehl erstellt ein rechteckiges Raster aus Kopien de
 
 **Aktivieren, dann auswählen** — Befehl ohne Auswahl starten:
 
-1. `RechteckigeAnordnung` eingeben oder auf die Symbolleisten-Schaltfläche klicken.
+1. `RechteckigeAnordnung` eingeben oder im Panel Edit im Array-Dropdown wählen.
 2. **Objekte auswählen** — klicken Sie zum Ein-/Ausschalten einzelner Elemente oder ziehen Sie zur Flächenauswahl.
 3. **Enter** oder **Space** drücken, um die Auswahl zu bestätigen.
 4. Weiter mit Zeilen → Spalten → Zeilenabstand → Spaltenabstand wie oben.
@@ -35,7 +35,7 @@ Der `RechteckigeAnordnung`-Befehl erstellt ein rechteckiges Raster aus Kopien de
   [A] [A] [A]   <- Zeile 0: ursprüngliche Auswahl, Kopien nach rechts
 ```
 
-> Das Terminal benötigt nur so viele Buchstaben, wie zur Eindeutigkeit nötig sind — die Eingabe von `arr` und Drücken von **Enter** aktiviert Array Grid direkt, da kein anderer Befehlsname mit diesen drei Buchstaben beginnt (Arc, Area, Align und Angle unterscheiden sich bereits früher).
+> Das Terminal schlägt beim Tippen passende Befehle vor, daher genügen ein paar Buchstaben — aber `arr` passt jetzt sowohl auf Array Grid als auch auf Array Polar; tippen Sie also weiter oder wählen Sie einen aus der Liste.
 
 ## Zeilen, Spalten und Abstand
 

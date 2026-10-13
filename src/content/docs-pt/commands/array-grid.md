@@ -15,7 +15,7 @@ O comando `MatrizRetangular` cria uma grade retangular de cópias a partir das e
 **Pré-selecionar, depois array** — selecione as entidades primeiro, depois ative:
 
 1. Selecione uma ou mais entidades no canvas.
-2. Digite `MatrizRetangular` no terminal (`arr` já é suficiente — é inequívoco) ou clique no botão **Array Grid** na barra de ferramentas.
+2. Digite `MatrizRetangular` no terminal (algumas letras bastam — escolha-o nas sugestões) ou escolha **Array Grid** no menu suspenso de matrizes do painel Edit.
 3. Digite o número de **linhas** e pressione **Enter**.
 4. Digite o número de **colunas** e pressione **Enter**.
 5. Digite o **espaçamento entre linhas** e pressione **Enter**.
@@ -23,7 +23,7 @@ O comando `MatrizRetangular` cria uma grade retangular de cópias a partir das e
 
 **Ativar, depois selecionar** — inicie o comando sem nada selecionado:
 
-1. Digite `MatrizRetangular` ou clique no botão da barra de ferramentas.
+1. Digite `MatrizRetangular` ou escolha-o no menu suspenso de matrizes do painel Edit.
 2. **Selecione os objetos** — clique para alternar entidades individuais, ou arraste para selecionar por área.
 3. Pressione **Enter** ou **Espaço** para confirmar a seleção.
 4. Continue com linhas → colunas → espaçamento de linhas → espaçamento de colunas como acima.
@@ -35,7 +35,7 @@ O comando `MatrizRetangular` cria uma grade retangular de cópias a partir das e
   [A] [A] [A]   <- linha 0: seleção original, cópias para a direita
 ```
 
-> O terminal precisa apenas das letras suficientes para ser inequívoco — digitar `arr` e pressionar **Enter** ativa o Array Grid diretamente, já que nenhum outro nome de comando começa com essas três letras (Arc, Area, Align e Angle divergem antes).
+> O terminal sugere comandos correspondentes enquanto você digita, então algumas letras bastam — mas `arr` agora corresponde a Array Grid e a Array Polar, então continue digitando ou escolha um da lista.
 
 ## Linhas, colunas e espaçamento
 

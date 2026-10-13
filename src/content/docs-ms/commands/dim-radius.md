@@ -67,6 +67,10 @@ Lihat [Text Editor — mod mudah](../../interface/text-editor/#simple-mode) untu
 Dimensi jejari disimpan sebagai entiti `DIMENSION` dengan geometri jenis jejari, menyimpan koordinat pusat, kedudukan titik lengkok, dan nilai jejari yang diukur. Semua sifat pusingan penuh tanpa kehilangan.
 
 
+## Format unit dan ketepatan
+
+Sifat **Unit Format** dalam tetingkap sifat memilih cara ukuran ditulis: Scientific, Decimal (lalai), Engineering, Architectural, Fractional atau System, yang mengikut gaya nombor sistem anda. **Precision** menyenaraikan pilihannya seperti yang ditulis oleh format yang dipilih — contohnya pecahan inci untuk Architectural dan Fractional. Format unit sesuatu DXF dibaca, dan dimensi baharu mengambil kedua-dua tetapan daripada [DimensionStyle](../dimension-style/) semasa. Pecahan ditulis dalam satu baris, tidak ditindan.
+
 ## Gaya dimensi
 
 Dimensi baharu menyalin [gaya dimensi](../dimension-style/) semasa termasuk anak panah, garis sambungan, teks, ketepatan, penjajaran, jurang dan bingkai. Nilai disalin ketika dicipta, jadi perubahan gaya kemudian tidak mengubah dimensi sedia ada.
