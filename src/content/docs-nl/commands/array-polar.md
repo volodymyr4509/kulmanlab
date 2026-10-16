@@ -12,7 +12,7 @@ De opdracht `ArrayPolar` maakt kopieën van de geselecteerde objecten rond een m
 
 ## Een polaire array maken
 
-1. Selecteer de objecten en typ vervolgens `arraypolar` in de terminal of klik op de knop **Array Polar** in de werkbalk. Zonder selectie gestart vraagt de opdracht u eerst ze te selecteren — bevestig met **Enter** of **Space**.
+1. Selecteer de objecten en typ vervolgens `PolaireReeks` in de terminal of klik op de knop **Array Polar** in de werkbalk. Zonder selectie gestart vraagt de opdracht u eerst ze te selecteren — bevestig met **Enter** of **Space**.
 2. **Klik op het middelpunt** waar de kopieën omheen gaan, of typ `X,Y` en druk op **Enter** voor een exacte coördinaat.
 3. Controleer de array. Alle kopieën worden live getoond en de terminal toont `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — druk op de letter van een optie om die te wijzigen.
 4. Druk op **Enter** of **Space** om de kopieën te maken. De originelen blijven waar ze zijn en de selectie wordt gewist.

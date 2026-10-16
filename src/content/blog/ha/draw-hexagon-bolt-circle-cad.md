@@ -15,7 +15,7 @@ Mu ne muke gina [KulmanLab](https://kulmanlab.com), don haka matakan da ke ƙasa
 
 Polygon na yau da kullum yana da gefuna da kusurwoyi daidai: hexagon don nut, octagon don alama, pentagon don yanke na ado. A KulmanLab shi ne umarnin **Polygon**.
 
-1. Rubuta `polygon` a tashar umarni, ko ka yi amfani da maɓallin Polygon a cikin kwamitin Shapes.
+1. Rubuta `Poligon` a tashar umarni, ko ka yi amfani da maɓallin Polygon a cikin kwamitin Shapes.
 2. Shigar da **adadin gefuna** — kowace cikakkiyar lamba daga 3 zuwa 1024 — ka danna **Enter**. Umarnin yana zuwa da adadin da ka yi amfani da shi na ƙarshe.
 3. **Danna tsakiya**, ko ka rubuta `X,Y` don ainihin wuri.
 4. **Danna radius**, ko ka rubuta shi ka danna **Enter**.
@@ -33,7 +33,7 @@ Nan ne mutane ke tuntuɓe. "Radius" na iya nufin nisa biyu daban-daban, kuma ana
 
 Danna `I` a umarnin radius don canjawa. Ana sayar da hex nut da faɗinsa tsakanin fuskoki, don haka yi amfani da **Inside a kashe** ka rubuta *rabin* sa. Don M8 nut mai 13 mm tsakanin fuskoki:
 
-1. `polygon`, sannan `6` don gefuna, sannan ka danna ko ka rubuta tsakiya.
+1. `Poligon`, sannan `6` don gefuna, sannan ka danna ko ka rubuta tsakiya.
 2. Danna `I` don kashe Inside.
 3. Rubuta `6.5` ka danna **Enter**.
 
@@ -49,9 +49,9 @@ Da'irar bolt — "PCD" a zane-zane — zobe ne na ramuka a nesa daidai a kewayen
 
 Ɗauki ramuka shida na 6.6 mm a kan diamitan pitch circle na 50 mm, a tsakiyar asali:
 
-1. **Zana rami na farko.** Gudanar da `circle`, rubuta tsakiya a matsayin `25` `,` `0` — rabin PCD a kan axis X —, danna **Enter**, sannan ka rubuta radius `3.3` ka danna **Enter**.
+1. **Zana rami na farko.** Gudanar da `Dawafi`, rubuta tsakiya a matsayin `25` `,` `0` — rabin PCD a kan axis X —, danna **Enter**, sannan ka rubuta radius `3.3` ka danna **Enter**.
 2. **Zaɓe shi** ta danna da'irar.
-3. **Gudanar da polar array.** Rubuta `arraypolar`, ko ka yi amfani da maɓallin ArrayPolar a kwamitin Edit.
+3. **Gudanar da polar array.** Rubuta `JerinPolar`, ko ka yi amfani da maɓallin ArrayPolar a kwamitin Edit.
 4. **Zaɓi tsakiyar tsarin** — rubuta `0,0`.
 5. Tashar umarni tana nuna array yadda yake — `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — kuma ana ganin kwafi biyar kai tsaye. Danna **Enter** don karɓa.
 

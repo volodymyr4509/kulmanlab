@@ -8,11 +8,11 @@ order: 1
 
 # Measure
 
-Amri ya `measure` husoma mchoro kuzunguka kielekezi unapokisogeza, bila nukta za kuchagua: jiometri iliyo karibu zaidi iko umbali gani, ina urefu gani au mviringo kiasi gani, na pembe ambapo mistari hukutana. Kubofya ndani ya eneo lililofungwa hutoa eneo na mzingo wake. Hakuna kinachobadilika kwenye mchoro.
+Amri ya `Pima` husoma mchoro kuzunguka kielekezi unapokisogeza, bila nukta za kuchagua: jiometri iliyo karibu zaidi iko umbali gani, ina urefu gani au mviringo kiasi gani, na pembe ambapo mistari hukutana. Kubofya ndani ya eneo lililofungwa hutoa eneo na mzingo wake. Hakuna kinachobadilika kwenye mchoro.
 
 ## Kupima
 
-1. Andika `measure` kwenye terminal au bofya **Measure**, kitufe cha kwanza kwenye paneli ya Measure.
+1. Andika `Pima` kwenye terminal au bofya **Measure**, kitufe cha kwanza kwenye paneli ya Measure.
 2. **Sogeza kielekezi.** Kutoka hapo amri huangalia kulia, juu, kushoto na chini kwa jiometri iliyo karibu zaidi na kuonyesha inachopata.
 3. **Bofya ndani ya eneo lililofungwa** ili kulijaza na kusoma eneo na mzingo wake — tazama hapa chini.
 4. Bonyeza **Enter**, **Space** au **Escape** kumaliza.

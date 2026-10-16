@@ -8,11 +8,11 @@ order: 1
 
 # Measure
 
-La commande `measure` lit le dessin autour du curseur quand vous le déplacez, sans point à choisir : la distance jusqu’à la géométrie la plus proche, la longueur ou l’arrondi de cette géométrie, et l’angle où des lignes se rejoignent. Un clic dans une zone fermée en donne l’aire et le périmètre. Rien ne change dans le dessin.
+La commande `Mesurer` lit le dessin autour du curseur quand vous le déplacez, sans point à choisir : la distance jusqu’à la géométrie la plus proche, la longueur ou l’arrondi de cette géométrie, et l’angle où des lignes se rejoignent. Un clic dans une zone fermée en donne l’aire et le périmètre. Rien ne change dans le dessin.
 
 ## Mesurer
 
-1. Tapez `measure` dans le terminal ou cliquez sur **Measure**, le premier bouton du panneau Measure.
+1. Tapez `Mesurer` dans le terminal ou cliquez sur **Measure**, le premier bouton du panneau Measure.
 2. **Déplacez le curseur.** De là, la commande regarde à droite, en haut, à gauche et en bas la géométrie la plus proche et montre ce qu’elle trouve.
 3. **Cliquez dans une zone fermée** pour la remplir et lire son aire et son périmètre — voir ci-dessous.
 4. Appuyez sur **Entrée**, **Espace** ou **Échap** pour terminer.

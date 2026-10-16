@@ -15,7 +15,7 @@ Kami membina [KulmanLab](https://kulmanlab.com), jadi langkah di bawah menggunak
 
 Poligon sekata mempunyai sisi dan sudut yang sama: heksagon untuk nat, oktagon untuk papan tanda, pentagon untuk potongan hiasan. Dalam KulmanLab ia ialah perintah **Polygon**.
 
-1. Taip `polygon` dalam terminal, atau gunakan butang Polygon dalam panel Shapes.
+1. Taip `Poligon` dalam terminal, atau gunakan butang Polygon dalam panel Shapes.
 2. Masukkan **bilangan sisi** — mana-mana nombor bulat dari 3 hingga 1024 — dan tekan **Enter**. Gesaan diisi awal dengan bilangan yang anda gunakan kali terakhir.
 3. **Klik pusat**, atau taip `X,Y` untuk titik yang tepat.
 4. **Klik jejari**, atau taipnya dan tekan **Enter**.
@@ -33,7 +33,7 @@ Di sinilah orang tersilap. "Jejari" boleh bermaksud dua jarak berbeza, dan heksa
 
 Tekan `I` pada gesaan jejari untuk bertukar. Nat heksagon dijual mengikut lebar antara ratanya, jadi gunakan **Inside mati** dan taip *separuhnya*. Untuk nat M8 dengan 13 mm antara rata:
 
-1. `polygon`, kemudian `6` untuk sisi, kemudian klik atau taip pusat.
+1. `Poligon`, kemudian `6` untuk sisi, kemudian klik atau taip pusat.
 2. Tekan `I` untuk mematikan Inside.
 3. Taip `6.5` dan tekan **Enter**.
 
@@ -49,9 +49,9 @@ Bulatan bolt — "PCD" pada lukisan — ialah cincin lubang berjarak sama mengel
 
 Ambil enam lubang 6.6 mm pada diameter bulatan pic 50 mm, berpusat pada asalan:
 
-1. **Lukis lubang pertama.** Jalankan `circle`, taip pusat sebagai `25` `,` `0` — separuh PCD di sepanjang paksi X —, tekan **Enter**, kemudian taip jejari `3.3` dan tekan **Enter**.
+1. **Lukis lubang pertama.** Jalankan `Bulatan`, taip pusat sebagai `25` `,` `0` — separuh PCD di sepanjang paksi X —, tekan **Enter**, kemudian taip jejari `3.3` dan tekan **Enter**.
 2. **Pilihnya** dengan mengklik bulatan.
-3. **Jalankan tatasusunan kutub.** Taip `arraypolar`, atau gunakan butang ArrayPolar dalam panel Edit.
+3. **Jalankan tatasusunan kutub.** Taip `LarikPolar`, atau gunakan butang ArrayPolar dalam panel Edit.
 4. **Pilih pusat corak** — taip `0,0`.
 5. Terminal menunjukkan tatasusunan seperti keadaan sekarang — `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — dan lima salinan dipratonton secara langsung. Tekan **Enter** untuk menerima.
 

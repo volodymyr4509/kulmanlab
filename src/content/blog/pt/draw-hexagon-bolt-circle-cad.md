@@ -15,7 +15,7 @@ Nós desenvolvemos o [KulmanLab](https://kulmanlab.com), então os passos abaixo
 
 Um polígono regular tem lados e ângulos iguais: um hexágono para uma porca, um octógono para uma placa, um pentágono para um recorte decorativo. No KulmanLab é o comando **Polygon**.
 
-1. Digite `polygon` no terminal ou use o botão Polygon no painel Shapes.
+1. Digite `Polígono` no terminal ou use o botão Polygon no painel Shapes.
 2. Informe o **número de lados** — qualquer inteiro de 3 a 1024 — e pressione **Enter**. O prompt vem preenchido com o número que você usou da última vez.
 3. **Clique no centro** ou digite `X,Y` para um ponto exato.
 4. **Clique no raio** ou digite-o e pressione **Enter**.
@@ -33,7 +33,7 @@ O resultado é uma única polilinha fechada, então tudo o que se pode fazer com
 
 Pressione `I` no prompt do raio para alternar. Uma porca sextavada é vendida pela largura entre faces, então use **Inside desativada** e digite *metade* dela. Para uma porca M8 com 13 mm entre faces:
 
-1. `polygon`, depois `6` para os lados, depois clique ou digite o centro.
+1. `Polígono`, depois `6` para os lados, depois clique ou digite o centro.
 2. Pressione `I` para desativar Inside.
 3. Digite `6.5` e pressione **Enter**.
 
@@ -49,9 +49,9 @@ Um círculo de furos — ou círculo primitivo, «PCD» nos desenhos — é um a
 
 Considere seis furos de 6,6 mm num diâmetro primitivo de 50 mm, centrado na origem:
 
-1. **Desenhe o primeiro furo.** Execute `circle`, digite o centro como `25` `,` `0` — metade do PCD ao longo do eixo X —, pressione **Enter**, depois digite o raio `3.3` e pressione **Enter**.
+1. **Desenhe o primeiro furo.** Execute `Círculo`, digite o centro como `25` `,` `0` — metade do PCD ao longo do eixo X —, pressione **Enter**, depois digite o raio `3.3` e pressione **Enter**.
 2. **Selecione-o** clicando no círculo.
-3. **Execute a matriz polar.** Digite `arraypolar` ou use o botão ArrayPolar no painel Edit.
+3. **Execute a matriz polar.** Digite `MatrizPolar` ou use o botão ArrayPolar no painel Edit.
 4. **Escolha o centro do padrão** — digite `0,0`.
 5. O terminal mostra a matriz como está — `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — e as cinco cópias aparecem em pré-visualização ao vivo. Pressione **Enter** para aceitar.
 

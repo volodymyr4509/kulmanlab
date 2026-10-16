@@ -15,7 +15,7 @@ Sviluppiamo [KulmanLab](https://kulmanlab.com), quindi i passaggi qui sotto usan
 
 Un poligono regolare ha lati e angoli uguali: un esagono per un dado, un ottagono per un cartello, un pentagono per un ritaglio decorativo. In KulmanLab è il comando **Polygon**.
 
-1. Digita `polygon` nel terminale, oppure usa il pulsante Polygon nel pannello Shapes.
+1. Digita `Poligono` nel terminale, oppure usa il pulsante Polygon nel pannello Shapes.
 2. Inserisci il **numero di lati** — un intero qualsiasi da 3 a 1024 — e premi **Enter**. Il prompt è precompilato con il numero usato l’ultima volta.
 3. **Fai clic sul centro**, oppure digita `X,Y` per un punto esatto.
 4. **Fai clic sul raggio**, oppure digitalo e premi **Enter**.
@@ -33,7 +33,7 @@ Il risultato è una singola polilinea chiusa, quindi funziona tutto ciò che si 
 
 Premi `I` al prompt del raggio per commutare. Un dado esagonale si vende per la larghezza tra le facce, quindi usa **Inside disattiva** e digita la *metà*. Per un dado M8 da 13 mm tra le facce:
 
-1. `polygon`, poi `6` per i lati, poi fai clic o digita il centro.
+1. `Poligono`, poi `6` per i lati, poi fai clic o digita il centro.
 2. Premi `I` per disattivare Inside.
 3. Digita `6.5` e premi **Enter**.
 
@@ -49,9 +49,9 @@ Una circonferenza di fori — o circonferenza primitiva, «PCD» nei disegni —
 
 Prendi sei fori da 6,6 mm su un diametro primitivo di 50 mm, centrato nell’origine:
 
-1. **Disegna il primo foro.** Esegui `circle`, digita il centro come `25` `,` `0` — metà del PCD lungo l’asse X —, premi **Enter**, poi digita il raggio `3.3` e premi **Enter**.
+1. **Disegna il primo foro.** Esegui `Cerchio`, digita il centro come `25` `,` `0` — metà del PCD lungo l’asse X —, premi **Enter**, poi digita il raggio `3.3` e premi **Enter**.
 2. **Selezionalo** facendo clic sul cerchio.
-3. **Esegui la matrice polare.** Digita `arraypolar`, oppure usa il pulsante ArrayPolar nel pannello Edit.
+3. **Esegui la matrice polare.** Digita `SeriePolare`, oppure usa il pulsante ArrayPolar nel pannello Edit.
 4. **Scegli il centro del motivo** — digita `0,0`.
 5. Il terminale mostra la matrice com’è — `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — e le cinque copie sono in anteprima dal vivo. Premi **Enter** per accettare.
 

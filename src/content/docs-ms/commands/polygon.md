@@ -8,11 +8,11 @@ order: 10
 
 # Polygon
 
-Perintah `polygon` melukis poligon sekata — semua sisi dan sudut sama — dengan 3 hingga 1024 sisi. Taip `polygon` dalam terminal. Hasilnya ialah **`LWPOLYLINE` tertutup**, jadi selepas diletakkan ia berkelakuan seperti [Polyline](../polyline/) lain dan semua suntingan polyline terpakai.
+Perintah `Poligon` melukis poligon sekata — semua sisi dan sudut sama — dengan 3 hingga 1024 sisi. Taip `Poligon` dalam terminal. Hasilnya ialah **`LWPOLYLINE` tertutup**, jadi selepas diletakkan ia berkelakuan seperti [Polyline](../polyline/) lain dan semua suntingan polyline terpakai.
 
 ## Melukis poligon
 
-1. Taip `polygon` dalam terminal dan masukkan **bilangan sisi** — nombor bulat dari 3 hingga 1024 — kemudian tekan **Enter** atau **Space**. Gesaan diisi awal dengan bilangan yang terakhir digunakan (4 pada kali pertama); mula menaip untuk menggantikannya. Apa-apa yang lain ditolak dan kekal dalam gesaan untuk dibetulkan.
+1. Taip `Poligon` dalam terminal dan masukkan **bilangan sisi** — nombor bulat dari 3 hingga 1024 — kemudian tekan **Enter** atau **Space**. Gesaan diisi awal dengan bilangan yang terakhir digunakan (4 pada kali pertama); mula menaip untuk menggantikannya. Apa-apa yang lain ditolak dan kekal dalam gesaan untuk dibetulkan.
 2. **Klik pusat**, atau taip `X,Y` dan tekan **Enter** untuk koordinat tepat. Tekan `E` dahulu untuk bermula daripada sisi sebaliknya (lihat di bawah).
 3. **Klik jejari** — poligon dipratonton secara langsung — atau taip jejari dan tekan **Enter** atau **Space**.
 4. Poligon diletakkan dan perintah tamat.

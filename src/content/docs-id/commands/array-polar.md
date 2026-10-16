@@ -12,7 +12,7 @@ Perintah `ArrayPolar` membuat salinan objek terpilih mengelilingi titik pusat, t
 
 ## Membuat array polar
 
-1. Pilih objek, lalu ketik `arraypolar` di terminal atau klik tombol **Array Polar** di toolbar. Jika dimulai tanpa pilihan, perintah meminta Anda memilihnya dulu — tekan **Enter** atau **Space** untuk konfirmasi.
+1. Pilih objek, lalu ketik `LarikMelingkar` di terminal atau klik tombol **Array Polar** di toolbar. Jika dimulai tanpa pilihan, perintah meminta Anda memilihnya dulu — tekan **Enter** atau **Space** untuk konfirmasi.
 2. **Klik pusat** yang dikelilingi salinan, atau ketik `X,Y` dan tekan **Enter** untuk koordinat tepat.
 3. Tinjau array. Semua salinan dipratinjau langsung, dan terminal menampilkan `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — tekan huruf sebuah opsi untuk mengubahnya.
 4. Tekan **Enter** atau **Space** untuk membuat salinan. Objek asli tetap di tempatnya dan pilihan dihapus.

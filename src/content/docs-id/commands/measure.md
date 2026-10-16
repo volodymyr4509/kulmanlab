@@ -8,11 +8,11 @@ order: 1
 
 # Measure
 
-Perintah `measure` membaca gambar di sekitar kursor saat Anda menggerakkannya, tanpa titik yang perlu dipilih: seberapa jauh geometri terdekat, seberapa panjang atau bulat geometri itu, dan sudut tempat garis bertemu. Klik di dalam area tertutup memberi luas dan kelilingnya. Tidak ada yang berubah pada gambar.
+Perintah `Ukur` membaca gambar di sekitar kursor saat Anda menggerakkannya, tanpa titik yang perlu dipilih: seberapa jauh geometri terdekat, seberapa panjang atau bulat geometri itu, dan sudut tempat garis bertemu. Klik di dalam area tertutup memberi luas dan kelilingnya. Tidak ada yang berubah pada gambar.
 
 ## Mengukur
 
-1. Ketik `measure` di terminal atau klik **Measure**, tombol pertama di panel Measure.
+1. Ketik `Ukur` di terminal atau klik **Measure**, tombol pertama di panel Measure.
 2. **Gerakkan kursor.** Dari sana perintah melihat ke kanan, atas, kiri, dan bawah untuk geometri terdekat dan menampilkan yang ditemukannya.
 3. **Klik di dalam area tertutup** untuk mengisinya dan membaca luas serta kelilingnya — lihat di bawah.
 4. Tekan **Enter**, **Space**, atau **Escape** untuk mengakhiri.

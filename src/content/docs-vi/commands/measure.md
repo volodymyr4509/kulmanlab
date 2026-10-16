@@ -8,11 +8,11 @@ order: 1
 
 # Measure
 
-Lệnh `measure` đọc bản vẽ quanh con trỏ khi bạn di chuyển nó, không cần chọn điểm: hình học gần nhất cách bao xa, dài hoặc tròn thế nào, và góc nơi các đường gặp nhau. Nhấp bên trong một vùng kín cho diện tích và chu vi của nó. Không có gì trong bản vẽ thay đổi.
+Lệnh `Đo` đọc bản vẽ quanh con trỏ khi bạn di chuyển nó, không cần chọn điểm: hình học gần nhất cách bao xa, dài hoặc tròn thế nào, và góc nơi các đường gặp nhau. Nhấp bên trong một vùng kín cho diện tích và chu vi của nó. Không có gì trong bản vẽ thay đổi.
 
 ## Đo
 
-1. Gõ `measure` trong terminal hoặc nhấp **Measure**, nút đầu tiên trong bảng Measure.
+1. Gõ `Đo` trong terminal hoặc nhấp **Measure**, nút đầu tiên trong bảng Measure.
 2. **Di chuyển con trỏ.** Từ đó lệnh nhìn sang phải, lên, sang trái và xuống để tìm hình học gần nhất và hiển thị những gì tìm thấy.
 3. **Nhấp bên trong một vùng kín** để tô đầy nó và đọc diện tích cùng chu vi — xem bên dưới.
 4. Nhấn **Enter**, **Space** hoặc **Escape** để kết thúc.

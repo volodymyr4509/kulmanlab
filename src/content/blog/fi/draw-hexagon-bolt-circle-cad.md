@@ -15,7 +15,7 @@ Rakennamme [KulmanLabia](https://kulmanlab.com), joten alla olevat vaiheet käyt
 
 Säännöllisessä monikulmiossa kaikki sivut ja kulmat ovat yhtä suuria: kuusikulmio mutterille, kahdeksankulmio kyltille, viisikulmio koristeelliselle leikkaukselle. KulmanLabissa se on komento **Polygon**.
 
-1. Kirjoita `polygon` terminaaliin tai käytä Shapes-paneelin Polygon-painiketta.
+1. Kirjoita `Monikulmio` terminaaliin tai käytä Shapes-paneelin Polygon-painiketta.
 2. Anna **sivujen lukumäärä** — mikä tahansa kokonaisluku 3–1024 — ja paina **Enter**. Kehote on esitäytetty viimeksi käytetyllä määrällä.
 3. **Napsauta keskipistettä** tai kirjoita `X,Y` tarkkaa pistettä varten.
 4. **Napsauta sädettä** tai kirjoita se ja paina **Enter**.
@@ -33,7 +33,7 @@ Tähän useimmat kompastuvat. ”Säde” voi tarkoittaa kahta eri etäisyyttä,
 
 Vaihda painamalla `I` sädekehotteessa. Kuusiomutteri myydään avainvälin mukaan, joten käytä **Inside pois** ja kirjoita sen *puolikas*. M8-mutterille, jonka avainväli on 13 mm:
 
-1. `polygon`, sitten `6` sivuiksi, sitten napsauta tai kirjoita keskipiste.
+1. `Monikulmio`, sitten `6` sivuiksi, sitten napsauta tai kirjoita keskipiste.
 2. Paina `I` kytkeäksesi Insiden pois.
 3. Kirjoita `6.5` ja paina **Enter**.
 
@@ -49,9 +49,9 @@ Reikäympyrä — piirustuksissa ”PCD” — on keskipisteen ympärille tasav�
 
 Otetaan kuusi 6,6 mm:n reikää 50 mm:n jakoympyrän halkaisijalle, keskitettynä origoon:
 
-1. **Piirrä ensimmäinen reikä.** Suorita `circle`, kirjoita keskipiste `25` `,` `0` — puolet PCD:stä X-akselin suunnassa —, paina **Enter**, kirjoita sitten säde `3.3` ja paina **Enter**.
+1. **Piirrä ensimmäinen reikä.** Suorita `Ympyrä`, kirjoita keskipiste `25` `,` `0` — puolet PCD:stä X-akselin suunnassa —, paina **Enter**, kirjoita sitten säde `3.3` ja paina **Enter**.
 2. **Valitse se** napsauttamalla ympyrää.
-3. **Suorita polaarinen ruudukko.** Kirjoita `arraypolar` tai käytä Edit-paneelin ArrayPolar-painiketta.
+3. **Suorita polaarinen ruudukko.** Kirjoita `PolaarinenSarja` tai käytä Edit-paneelin ArrayPolar-painiketta.
 4. **Valitse kuvion keskipiste** — kirjoita `0,0`.
 5. Terminaali näyttää ruudukon sellaisena kuin se on — `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — ja viisi kopiota esikatsellaan livenä. Hyväksy painamalla **Enter**.
 

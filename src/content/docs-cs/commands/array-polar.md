@@ -12,7 +12,7 @@ Příkaz `ArrayPolar` vytvoří kopie vybraných objektů kolem středového bod
 
 ## Vytvoření polárního pole
 
-1. Vyberte objekty, pak napište `arraypolar` do terminálu nebo klikněte na tlačítko **Array Polar** v panelu nástrojů. Spuštěný bez výběru vás nejdřív vyzve k výběru — potvrďte **Enter** nebo **Space**.
+1. Vyberte objekty, pak napište `KruhovéPole` do terminálu nebo klikněte na tlačítko **Array Polar** v panelu nástrojů. Spuštěný bez výběru vás nejdřív vyzve k výběru — potvrďte **Enter** nebo **Space**.
 2. **Klikněte na střed**, kolem něhož kopie obíhají, nebo napište `X,Y` a stiskněte **Enter** pro přesnou souřadnici.
 3. Zkontrolujte pole. Všechny kopie se živě zobrazují a terminál ukazuje `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — stisknutím písmene volby ji změníte.
 4. Stisknutím **Enter** nebo **Space** kopie vytvoříte. Originály zůstanou na místě a výběr se zruší.

@@ -12,7 +12,7 @@ Polecenie `ArrayPolar` tworzy kopie wybranych obiektów wokół punktu środkowe
 
 ## Tworzenie szyku kołowego
 
-1. Zaznacz obiekty, a następnie wpisz `arraypolar` w terminalu lub kliknij przycisk **Array Polar** na pasku narzędzi. Uruchomione bez zaznaczenia, najpierw prosi o ich wybranie — potwierdź **Enter** lub **Space**.
+1. Zaznacz obiekty, a następnie wpisz `SzykKołowy` w terminalu lub kliknij przycisk **Array Polar** na pasku narzędzi. Uruchomione bez zaznaczenia, najpierw prosi o ich wybranie — potwierdź **Enter** lub **Space**.
 2. **Kliknij środek**, wokół którego biegną kopie, albo wpisz `X,Y` i naciśnij **Enter**, aby podać dokładną współrzędną.
 3. Sprawdź szyk. Wszystkie kopie są podglądane na żywo, a terminal pokazuje `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — naciśnij literę opcji, aby ją zmienić.
 4. Naciśnij **Enter** lub **Space**, aby utworzyć kopie. Oryginały zostają na miejscu, a zaznaczenie jest czyszczone.

@@ -49,9 +49,9 @@ En hullsirkel — «PCD» på tegninger — er en ring av jevnt fordelte hull ru
 
 Ta seks hull på 6,6 mm på en delesirkeldiameter på 50 mm, sentrert i origo:
 
-1. **Tegn det første hullet.** Kjør `circle`, skriv sentrum som `25` `,` `0` — halve PCD langs X-aksen —, trykk **Enter**, skriv deretter radius `3.3` og trykk **Enter**.
+1. **Tegn det første hullet.** Kjør `Sirkel`, skriv sentrum som `25` `,` `0` — halve PCD langs X-aksen —, trykk **Enter**, skriv deretter radius `3.3` og trykk **Enter**.
 2. **Velg det** ved å klikke på sirkelen.
-3. **Kjør den polare matrisen.** Skriv `arraypolar`, eller bruk ArrayPolar-knappen i panelet Edit.
+3. **Kjør den polare matrisen.** Skriv `Sirkelmønster`, eller bruk ArrayPolar-knappen i panelet Edit.
 4. **Velg midten av mønsteret** — skriv `0,0`.
 5. Terminalen viser matrisen slik den står — `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — og de fem kopiene forhåndsvises live. Trykk **Enter** for å godta.
 

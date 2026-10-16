@@ -8,11 +8,11 @@ order: 1
 
 # Measure
 
-Umarnin `measure` yana karanta zane a kewayen siginar yayin da kake motsa ta, ba tare da zaɓar wurare ba: yaya nisan mafi kusa, yaya tsawonsa ko zagayensa, da kusurwar da layuka ke haɗuwa. Danna cikin yankin da aka rufe yana ba da filinsa da kewayensa. Babu abin da ke canjawa a zane.
+Umarnin `Auna` yana karanta zane a kewayen siginar yayin da kake motsa ta, ba tare da zaɓar wurare ba: yaya nisan mafi kusa, yaya tsawonsa ko zagayensa, da kusurwar da layuka ke haɗuwa. Danna cikin yankin da aka rufe yana ba da filinsa da kewayensa. Babu abin da ke canjawa a zane.
 
 ## Aunawa
 
-1. Rubuta `measure` a tashar umarni ko ka danna **Measure**, maɓalli na farko a kwamitin Measure.
+1. Rubuta `Auna` a tashar umarni ko ka danna **Measure**, maɓalli na farko a kwamitin Measure.
 2. **Motsa siginar.** Daga ita umarnin yana kallon dama, sama, hagu da ƙasa don mafi kusa kuma yana nuna abin da ya samu.
 3. **Danna cikin yankin da aka rufe** don cika shi ka karanta filinsa da kewayensa — duba ƙasa.
 4. Danna **Enter**, **Space** ko **Escape** don gamawa.

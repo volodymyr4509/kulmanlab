@@ -8,11 +8,11 @@ order: 1
 
 # Measure
 
-`measure` komutu, nokta seçmeden imleci hareket ettirirken çevresindeki çizimi okur: en yakın geometriye ne kadar uzak olduğu, o geometrinin ne kadar uzun veya yuvarlak olduğu ve çizgilerin buluştuğu açı. Kapalı bir bölgenin içine tıklamak alanını ve çevresini verir. Çizimde hiçbir şey değişmez.
+`Ölç` komutu, nokta seçmeden imleci hareket ettirirken çevresindeki çizimi okur: en yakın geometriye ne kadar uzak olduğu, o geometrinin ne kadar uzun veya yuvarlak olduğu ve çizgilerin buluştuğu açı. Kapalı bir bölgenin içine tıklamak alanını ve çevresini verir. Çizimde hiçbir şey değişmez.
 
 ## Ölçme
 
-1. Terminale `measure` yazın veya Measure panelindeki ilk düğme olan **Measure**'a tıklayın.
+1. Terminale `Ölç` yazın veya Measure panelindeki ilk düğme olan **Measure**'a tıklayın.
 2. **İmleci hareket ettirin.** Komut buradan sağa, yukarı, sola ve aşağı en yakın geometriye bakar ve bulduğunu gösterir.
 3. **Kapalı bir bölgenin içine tıklayın**; bölge dolar ve alanı ile çevresi okunur — aşağıya bakın.
 4. Bitirmek için **Enter**, **Space** veya **Escape** tuşuna basın.

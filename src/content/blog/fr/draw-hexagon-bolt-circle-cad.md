@@ -15,7 +15,7 @@ Nous développons [KulmanLab](https://kulmanlab.com), donc les étapes ci-dessou
 
 Un polygone régulier a des côtés et des angles égaux : un hexagone pour un écrou, un octogone pour un panneau, un pentagone pour une découpe décorative. Dans KulmanLab, c’est la commande **Polygon**.
 
-1. Tapez `polygon` dans le terminal, ou utilisez le bouton Polygon du panneau Shapes.
+1. Tapez `Polygone` dans le terminal, ou utilisez le bouton Polygon du panneau Shapes.
 2. Saisissez le **nombre de côtés** — tout entier de 3 à 1024 — et appuyez sur **Entrée**. L’invite est préremplie avec le nombre utilisé la dernière fois.
 3. **Cliquez sur le centre**, ou tapez `X,Y` pour un point exact.
 4. **Cliquez sur le rayon**, ou tapez-le et appuyez sur **Entrée**.
@@ -33,7 +33,7 @@ C’est là que l’on trébuche. « Rayon » peut désigner deux distances diff
 
 Appuyez sur `I` à l’invite du rayon pour basculer. Un écrou hexagonal se vend par sa largeur sur plats ; utilisez donc **Inside désactivée** et saisissez la *moitié*. Pour un écrou M8 de 13 mm sur plats :
 
-1. `polygon`, puis `6` pour les côtés, puis cliquez ou saisissez le centre.
+1. `Polygone`, puis `6` pour les côtés, puis cliquez ou saisissez le centre.
 2. Appuyez sur `I` pour désactiver Inside.
 3. Tapez `6.5` et appuyez sur **Entrée**.
 
@@ -49,9 +49,9 @@ Un cercle de perçage — ou cercle primitif, « PCD » sur les plans — est un
 
 Prenons six trous de 6,6 mm sur un diamètre primitif de 50 mm, centré sur l’origine :
 
-1. **Dessinez le premier trou.** Lancez `circle`, saisissez le centre `25` `,` `0` — la moitié du PCD le long de l’axe X —, appuyez sur **Entrée**, puis saisissez le rayon `3.3` et appuyez sur **Entrée**.
+1. **Dessinez le premier trou.** Lancez `Cercle`, saisissez le centre `25` `,` `0` — la moitié du PCD le long de l’axe X —, appuyez sur **Entrée**, puis saisissez le rayon `3.3` et appuyez sur **Entrée**.
 2. **Sélectionnez-le** en cliquant sur le cercle.
-3. **Lancez le réseau polaire.** Tapez `arraypolar`, ou utilisez le bouton ArrayPolar du panneau Edit.
+3. **Lancez le réseau polaire.** Tapez `RéseauPolaire`, ou utilisez le bouton ArrayPolar du panneau Edit.
 4. **Choisissez le centre du motif** — tapez `0,0`.
 5. Le terminal affiche le réseau tel qu’il est — `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — et les cinq copies s’affichent en aperçu. Appuyez sur **Entrée** pour accepter.
 

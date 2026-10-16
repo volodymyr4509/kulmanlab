@@ -8,11 +8,11 @@ order: 1
 
 # Measure
 
-Binabasa ng `measure` command ang guhit sa paligid ng cursor habang ginagalaw mo ito, nang walang pipiliing punto: gaano kalayo ang pinakamalapit na geometry, gaano kahaba o kabilog ito, at ang anggulo kung saan nagtatagpo ang mga linya. Ang pag-click sa loob ng saradong lugar ay nagbibigay ng lawak at perimeter nito. Walang nababago sa guhit.
+Binabasa ng `Sukatin` command ang guhit sa paligid ng cursor habang ginagalaw mo ito, nang walang pipiliing punto: gaano kalayo ang pinakamalapit na geometry, gaano kahaba o kabilog ito, at ang anggulo kung saan nagtatagpo ang mga linya. Ang pag-click sa loob ng saradong lugar ay nagbibigay ng lawak at perimeter nito. Walang nababago sa guhit.
 
 ## Pagsukat
 
-1. I-type ang `measure` sa terminal o i-click ang **Measure**, ang unang button sa Measure panel.
+1. I-type ang `Sukatin` sa terminal o i-click ang **Measure**, ang unang button sa Measure panel.
 2. **Igalaw ang cursor.** Mula roon, tumitingin ang command sa kanan, itaas, kaliwa at ibaba para sa pinakamalapit na geometry at ipinapakita ang nakita nito.
 3. **Mag-click sa loob ng saradong lugar** para punuin ito at basahin ang lawak at perimeter nito — tingnan sa ibaba.
 4. Pindutin ang **Enter**, **Space** o **Escape** para tapusin.

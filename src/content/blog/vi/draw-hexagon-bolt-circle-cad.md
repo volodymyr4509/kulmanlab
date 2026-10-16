@@ -15,7 +15,7 @@ Chúng tôi xây dựng [KulmanLab](https://kulmanlab.com), nên các bước d�
 
 Đa giác đều có các cạnh và góc bằng nhau: lục giác cho đai ốc, bát giác cho biển báo, ngũ giác cho đường cắt trang trí. Trong KulmanLab đó là lệnh **Polygon**.
 
-1. Gõ `polygon` trong terminal, hoặc dùng nút Polygon trong bảng Shapes.
+1. Gõ `ĐaGiác` trong terminal, hoặc dùng nút Polygon trong bảng Shapes.
 2. Nhập **số cạnh** — bất kỳ số nguyên nào từ 3 đến 1024 — và nhấn **Enter**. Lời nhắc được điền sẵn số bạn dùng lần trước.
 3. **Nhấp vào tâm**, hoặc gõ `X,Y` cho một điểm chính xác.
 4. **Nhấp để chọn bán kính**, hoặc gõ rồi nhấn **Enter**.
@@ -33,7 +33,7 @@ Kết quả là một polyline đóng duy nhất, nên mọi thứ bạn làm đ
 
 Nhấn `I` ở lời nhắc bán kính để chuyển. Đai ốc lục giác được bán theo độ rộng giữa hai mặt phẳng, nên hãy dùng **Inside tắt** và gõ *một nửa* giá trị đó. Với đai ốc M8 rộng 13 mm giữa hai mặt:
 
-1. `polygon`, rồi `6` cho số cạnh, rồi nhấp hoặc gõ tâm.
+1. `ĐaGiác`, rồi `6` cho số cạnh, rồi nhấp hoặc gõ tâm.
 2. Nhấn `I` để tắt Inside.
 3. Gõ `6.5` rồi nhấn **Enter**.
 
@@ -49,9 +49,9 @@ Vòng tròn bu lông — “PCD” trên bản vẽ — là vòng các lỗ các
 
 Lấy sáu lỗ 6,6 mm trên vòng chia đường kính 50 mm, tâm đặt tại gốc tọa độ:
 
-1. **Vẽ lỗ đầu tiên.** Chạy `circle`, gõ tâm là `25` `,` `0` — một nửa PCD dọc trục X —, nhấn **Enter**, rồi gõ bán kính `3.3` và nhấn **Enter**.
+1. **Vẽ lỗ đầu tiên.** Chạy `HìnhTròn`, gõ tâm là `25` `,` `0` — một nửa PCD dọc trục X —, nhấn **Enter**, rồi gõ bán kính `3.3` và nhấn **Enter**.
 2. **Chọn nó** bằng cách nhấp vào đường tròn.
-3. **Chạy mảng cực.** Gõ `arraypolar`, hoặc dùng nút ArrayPolar trong bảng Edit.
+3. **Chạy mảng cực.** Gõ `MảngTròn`, hoặc dùng nút ArrayPolar trong bảng Edit.
 4. **Chọn tâm của mẫu** — gõ `0,0`.
 5. Terminal hiển thị mảng như hiện tại — `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — và năm bản sao được xem trước trực tiếp. Nhấn **Enter** để chấp nhận.
 

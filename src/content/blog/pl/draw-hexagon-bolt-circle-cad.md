@@ -15,7 +15,7 @@ Tworzymy [KulmanLab](https://kulmanlab.com), więc poniższe kroki korzystają z
 
 Wielokąt foremny ma równe boki i równe kąty: sześciokąt dla nakrętki, ośmiokąt dla znaku, pięciokąt dla ozdobnego wycięcia. W KulmanLab służy do tego polecenie **Polygon**.
 
-1. Wpisz `polygon` w terminalu albo użyj przycisku Polygon w panelu Shapes.
+1. Wpisz `Wielokąt` w terminalu albo użyj przycisku Polygon w panelu Shapes.
 2. Podaj **liczbę boków** — dowolną liczbę całkowitą od 3 do 1024 — i naciśnij **Enter**. Monit jest wstępnie wypełniony liczbą użytą ostatnio.
 3. **Kliknij środek** albo wpisz `X,Y` dla dokładnego punktu.
 4. **Kliknij promień** albo wpisz go i naciśnij **Enter**.
@@ -33,7 +33,7 @@ Tu najłatwiej o pomyłkę. „Promień” może oznaczać dwie różne odległo
 
 Naciśnij `I` przy monicie promienia, aby przełączyć. Nakrętkę sześciokątną kupuje się według rozmiaru pod klucz, więc użyj **Inside wyłączona** i wpisz *połowę* tej wartości. Dla nakrętki M8 o 13 mm pod klucz:
 
-1. `polygon`, potem `6` boków, potem kliknij lub wpisz środek.
+1. `Wielokąt`, potem `6` boków, potem kliknij lub wpisz środek.
 2. Naciśnij `I`, aby wyłączyć Inside.
 3. Wpisz `6.5` i naciśnij **Enter**.
 
@@ -49,9 +49,9 @@ Okrąg podziałowy otworów — na rysunkach „PCD” — to pierścień równo
 
 Weźmy sześć otworów 6,6 mm na okręgu podziałowym o średnicy 50 mm, ze środkiem w początku układu:
 
-1. **Narysuj pierwszy otwór.** Uruchom `circle`, wpisz środek jako `25` `,` `0` — połowa PCD wzdłuż osi X — naciśnij **Enter**, potem wpisz promień `3.3` i naciśnij **Enter**.
+1. **Narysuj pierwszy otwór.** Uruchom `Okrąg`, wpisz środek jako `25` `,` `0` — połowa PCD wzdłuż osi X — naciśnij **Enter**, potem wpisz promień `3.3` i naciśnij **Enter**.
 2. **Zaznacz go**, klikając okrąg.
-3. **Uruchom szyk kołowy.** Wpisz `arraypolar` albo użyj przycisku ArrayPolar w panelu Edit.
+3. **Uruchom szyk kołowy.** Wpisz `SzykKołowy` albo użyj przycisku ArrayPolar w panelu Edit.
 4. **Wskaż środek wzoru** — wpisz `0,0`.
 5. Terminal pokazuje szyk w obecnym stanie — `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — a pięć kopii jest podglądanych na żywo. Naciśnij **Enter**, aby zaakceptować.
 

@@ -8,11 +8,11 @@ order: 10
 
 # Polygon
 
-`polygon` komutu 3 ile 1024 kenarlı düzgün bir çokgen çizer — tüm kenarlar ve açılar eşittir. Terminale `polygon` yazın. Sonuç **kapalı bir `LWPOLYLINE`** olduğundan yerleştirildikten sonra diğer her [Polyline](../polyline/) gibi davranır ve tüm polyline düzenlemeleri geçerlidir.
+`Çokgen` komutu 3 ile 1024 kenarlı düzgün bir çokgen çizer — tüm kenarlar ve açılar eşittir. Terminale `Çokgen` yazın. Sonuç **kapalı bir `LWPOLYLINE`** olduğundan yerleştirildikten sonra diğer her [Polyline](../polyline/) gibi davranır ve tüm polyline düzenlemeleri geçerlidir.
 
 ## Çokgen çizme
 
-1. Terminale `polygon` yazın ve **kenar sayısını** girin — 3 ile 1024 arasında bir tam sayı — ardından **Enter** veya **Space** tuşuna basın. İstem, en son kullandığınız sayıyla önceden doldurulur (ilk seferde 4); değiştirmek için yazmaya başlayın. Başka her şey reddedilir ve düzeltmeniz için istemde kalır.
+1. Terminale `Çokgen` yazın ve **kenar sayısını** girin — 3 ile 1024 arasında bir tam sayı — ardından **Enter** veya **Space** tuşuna basın. İstem, en son kullandığınız sayıyla önceden doldurulur (ilk seferde 4); değiştirmek için yazmaya başlayın. Başka her şey reddedilir ve düzeltmeniz için istemde kalır.
 2. **Merkeze tıklayın** ya da kesin koordinat için `X,Y` yazıp **Enter** tuşuna basın. Bunun yerine bir kenardan başlamak için önce `E` tuşuna basın (aşağıya bakın).
 3. **Yarıçapa tıklayın** — çokgen canlı önizlenir — ya da yarıçapı yazıp **Enter** veya **Space** tuşuna basın.
 4. Çokgen yerleştirilir ve komut sona erer.

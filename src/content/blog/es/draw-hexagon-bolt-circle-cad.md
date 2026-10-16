@@ -15,7 +15,7 @@ Nosotros creamos [KulmanLab](https://kulmanlab.com), así que los pasos siguient
 
 Un polígono regular tiene lados y ángulos iguales: un hexágono para una tuerca, un octógono para una señal, un pentágono para un recorte decorativo. En KulmanLab es el comando **Polygon**.
 
-1. Escribe `polygon` en el terminal, o usa el botón Polygon del panel Shapes.
+1. Escribe `Polígono` en el terminal, o usa el botón Polygon del panel Shapes.
 2. Introduce el **número de lados** — cualquier entero de 3 a 1024 — y pulsa **Enter**. La solicitud viene rellenada con el número que usaste la última vez.
 3. **Haz clic en el centro**, o escribe `X,Y` para un punto exacto.
 4. **Haz clic en el radio**, o escríbelo y pulsa **Enter**.
@@ -33,7 +33,7 @@ Aquí es donde la gente se tropieza. «Radio» puede significar dos distancias d
 
 Pulsa `I` en la solicitud del radio para cambiar. Una tuerca hexagonal se vende por su ancho entre caras, así que usa **Inside desactivado** y escribe la *mitad*. Para una tuerca M8 de 13 mm entre caras:
 
-1. `polygon`, luego `6` para los lados, luego haz clic o escribe el centro.
+1. `Polígono`, luego `6` para los lados, luego haz clic o escribe el centro.
 2. Pulsa `I` para desactivar Inside.
 3. Escribe `6.5` y pulsa **Enter**.
 
@@ -49,9 +49,9 @@ Un círculo de pernos — o círculo primitivo, «PCD» en los planos — es un 
 
 Toma seis agujeros de 6,6 mm en un círculo primitivo de 50 mm de diámetro, centrado en el origen:
 
-1. **Dibuja el primer agujero.** Ejecuta `circle`, escribe el centro como `25` `,` `0` — la mitad del PCD a lo largo del eje X —, pulsa **Enter**, escribe el radio `3.3` y pulsa **Enter**.
+1. **Dibuja el primer agujero.** Ejecuta `Círculo`, escribe el centro como `25` `,` `0` — la mitad del PCD a lo largo del eje X —, pulsa **Enter**, escribe el radio `3.3` y pulsa **Enter**.
 2. **Selecciónalo** haciendo clic en el círculo.
-3. **Ejecuta la matriz polar.** Escribe `arraypolar`, o usa el botón ArrayPolar del panel Edit.
+3. **Ejecuta la matriz polar.** Escribe `MatrizPolar`, o usa el botón ArrayPolar del panel Edit.
 4. **Elige el centro del patrón** — escribe `0,0`.
 5. El terminal muestra la matriz tal como está — `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — y las cinco copias se previsualizan en vivo. Pulsa **Enter** para aceptar.
 

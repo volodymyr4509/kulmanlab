@@ -12,7 +12,7 @@ Kommandoen `ArrayPolar` laver kopier af de valgte objekter rundt om et centrum, 
 
 ## Lav et polært array
 
-1. Vælg objekterne, og skriv derefter `arraypolar` i terminalen eller klik på knappen **Array Polar** på værktøjslinjen. Startes den uden valg, beder den dig først vælge dem — tryk **Enter** eller **Space** for at bekræfte.
+1. Vælg objekterne, og skriv derefter `Cirkelmønster` i terminalen eller klik på knappen **Array Polar** på værktøjslinjen. Startes den uden valg, beder den dig først vælge dem — tryk **Enter** eller **Space** for at bekræfte.
 2. **Klik på centrum**, som kopierne går rundt om, eller skriv `X,Y` og tryk **Enter** for en nøjagtig koordinat.
 3. Gennemse arrayet. Alle kopier vises live, og terminalen viser `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — tryk på et valgs bogstav for at ændre det.
 4. Tryk **Enter** eller **Space** for at oprette kopierne. Originalerne bliver, hvor de er, og valget ryddes.

@@ -12,7 +12,7 @@ order: 16
 
 ## Polaarisen ruudukon luominen
 
-1. Valitse kohteet ja kirjoita sitten `arraypolar` terminaaliin tai napsauta työkalupalkin **Array Polar** -painiketta. Jos komento aloitetaan ilman valintaa, se pyytää ensin valitsemaan ne — vahvista **Enter**illä tai **Space**lla.
+1. Valitse kohteet ja kirjoita sitten `PolaarinenSarja` terminaaliin tai napsauta työkalupalkin **Array Polar** -painiketta. Jos komento aloitetaan ilman valintaa, se pyytää ensin valitsemaan ne — vahvista **Enter**illä tai **Space**lla.
 2. **Napsauta keskipistettä**, jonka ympäri kopiot kiertävät, tai kirjoita `X,Y` ja paina **Enter** tarkkaa koordinaattia varten.
 3. Tarkista ruudukko. Kaikki kopiot esikatsellaan livenä, ja terminaali näyttää `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — vaihda valinta painamalla sen kirjainta.
 4. Luo kopiot painamalla **Enter** tai **Space**. Alkuperäiset pysyvät paikoillaan ja valinta tyhjennetään.

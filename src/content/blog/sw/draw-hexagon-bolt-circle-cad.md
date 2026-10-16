@@ -15,7 +15,7 @@ Sisi ndio tunaojenga [KulmanLab](https://kulmanlab.com), kwa hivyo hatua zilizo 
 
 Poligoni ya kawaida ina pande na pembe zinazolingana: hexagoni kwa nati, oktagoni kwa alama ya barabarani, pentagoni kwa kipande cha mapambo. Katika KulmanLab ni amri ya **Polygon**.
 
-1. Andika `polygon` kwenye terminal, au tumia kitufe cha Polygon kwenye paneli ya Shapes.
+1. Andika `Poligoni` kwenye terminal, au tumia kitufe cha Polygon kwenye paneli ya Shapes.
 2. Weka **idadi ya pande** — nambari kamili yoyote kutoka 3 hadi 1024 — na ubonyeze **Enter**. Kiashiria hujazwa awali na idadi uliyotumia mara ya mwisho.
 3. **Bofya katikati**, au andika `X,Y` kwa nukta sahihi.
 4. **Bofya kipenyo-nusu**, au kiandike na ubonyeze **Enter**.
@@ -33,7 +33,7 @@ Hapa ndipo watu hukwama. "Kipenyo-nusu" kinaweza kumaanisha umbali mbili tofauti
 
 Bonyeza `I` kwenye kiashiria cha kipenyo-nusu ili kubadili. Nati ya hexagoni huuzwa kwa upana wake kati ya nyuso, kwa hivyo tumia **Inside imezimwa** na uandike *nusu* yake. Kwa nati ya M8 yenye 13 mm kati ya nyuso:
 
-1. `polygon`, kisha `6` kwa pande, kisha bofya au andika katikati.
+1. `Poligoni`, kisha `6` kwa pande, kisha bofya au andika katikati.
 2. Bonyeza `I` kuzima Inside.
 3. Andika `6.5` na ubonyeze **Enter**.
 
@@ -49,9 +49,9 @@ Duara la boliti — "PCD" kwenye michoro — ni pete ya mashimo yaliyopangwa kwa
 
 Chukua mashimo sita ya 6.6 mm kwenye kipenyo cha duara la mashimo cha 50 mm, lenye katikati kwenye asili:
 
-1. **Chora shimo la kwanza.** Endesha `circle`, andika katikati kama `25` `,` `0` — nusu ya PCD kando ya mhimili X —, bonyeza **Enter**, kisha andika kipenyo-nusu `3.3` na ubonyeze **Enter**.
+1. **Chora shimo la kwanza.** Endesha `Duara`, andika katikati kama `25` `,` `0` — nusu ya PCD kando ya mhimili X —, bonyeza **Enter**, kisha andika kipenyo-nusu `3.3` na ubonyeze **Enter**.
 2. **Lichague** kwa kubofya duara.
-3. **Endesha polar array.** Andika `arraypolar`, au tumia kitufe cha ArrayPolar kwenye paneli ya Edit.
+3. **Endesha polar array.** Andika `MpangilioDuara`, au tumia kitufe cha ArrayPolar kwenye paneli ya Edit.
 4. **Chagua katikati ya muundo** — andika `0,0`.
 5. Terminal huonyesha array ilivyo — `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — na nakala tano huonyeshwa moja kwa moja. Bonyeza **Enter** kukubali.
 

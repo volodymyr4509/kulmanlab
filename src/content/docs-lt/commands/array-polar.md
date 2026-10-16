@@ -12,7 +12,7 @@ Komanda `ArrayPolar` sukuria pasirinktų objektų kopijas aplink centro tašką,
 
 ## Polinio masyvo kūrimas
 
-1. Pasirinkite objektus, tada terminale įveskite `arraypolar` arba spustelėkite įrankių juostos mygtuką **Array Polar**. Paleista be pasirinkimo, komanda pirmiausia paprašo juos pasirinkti — patvirtinkite **Enter** arba **Space**.
+1. Pasirinkite objektus, tada terminale įveskite `ApskritiminisMasyvas` arba spustelėkite įrankių juostos mygtuką **Array Polar**. Paleista be pasirinkimo, komanda pirmiausia paprašo juos pasirinkti — patvirtinkite **Enter** arba **Space**.
 2. **Spustelėkite centrą**, aplink kurį eis kopijos, arba įveskite `X,Y` ir paspauskite **Enter** tiksliai koordinatei.
 3. Peržiūrėkite masyvą. Visos kopijos rodomos gyvai, o terminalas rodo `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — paspauskite parinkties raidę, kad ją pakeistumėte.
 4. Paspauskite **Enter** arba **Space**, kad sukurtumėte kopijas. Originalai lieka savo vietose, o pasirinkimas išvalomas.

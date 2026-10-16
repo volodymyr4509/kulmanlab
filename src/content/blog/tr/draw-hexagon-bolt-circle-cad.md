@@ -15,7 +15,7 @@ CAD'de düzgün bir çokgen çizmek için kenar sayısını verin, merkezi seçi
 
 Düzgün çokgenin kenarları ve açıları eşittir: somun için altıgen, tabela için sekizgen, süs kesimi için beşgen. KulmanLab'da bu **Polygon** komutudur.
 
-1. Terminale `polygon` yazın ya da Shapes panelindeki Polygon düğmesini kullanın.
+1. Terminale `Çokgen` yazın ya da Shapes panelindeki Polygon düğmesini kullanın.
 2. **Kenar sayısını** girin — 3 ile 1024 arasında herhangi bir tam sayı — ve **Enter**'a basın. İstem, en son kullandığınız sayıyla önceden doldurulur.
 3. **Merkeze tıklayın** ya da kesin bir nokta için `X,Y` yazın.
 4. **Yarıçapa tıklayın** ya da yazıp **Enter**'a basın.
@@ -33,7 +33,7 @@ Sonuç tek bir kapalı polilayndır; bir polilayn ile yapabildiğiniz her şey �
 
 Geçiş için yarıçap isteminde `I` tuşuna basın. Altıgen somun alın ölçüsüyle satılır; bu yüzden **Inside kapalı** kullanın ve onun *yarısını* yazın. Alın ölçüsü 13 mm olan bir M8 somun için:
 
-1. `polygon`, sonra kenarlar için `6`, sonra merkezi tıklayın ya da yazın.
+1. `Çokgen`, sonra kenarlar için `6`, sonra merkezi tıklayın ya da yazın.
 2. Inside'ı kapatmak için `I` tuşuna basın.
 3. `6.5` yazın ve **Enter**'a basın.
 
@@ -49,9 +49,9 @@ Cıvata dairesi — çizimlerde "PCD" — bir merkez etrafında eşit aralıklı
 
 Başlangıç noktasında ortalanmış, 50 mm hatve dairesi çapında altı adet 6,6 mm delik alalım:
 
-1. **İlk deliği çizin.** `circle` komutunu çalıştırın, merkezi `25` `,` `0` olarak yazın — X ekseni boyunca PCD'nin yarısı —, **Enter**'a basın, ardından yarıçap olarak `3.3` yazıp **Enter**'a basın.
+1. **İlk deliği çizin.** `Daire` komutunu çalıştırın, merkezi `25` `,` `0` olarak yazın — X ekseni boyunca PCD'nin yarısı —, **Enter**'a basın, ardından yarıçap olarak `3.3` yazıp **Enter**'a basın.
 2. **Daireye tıklayarak seçin.**
-3. **Polar diziyi çalıştırın.** `arraypolar` yazın ya da Edit panelindeki ArrayPolar düğmesini kullanın.
+3. **Polar diziyi çalıştırın.** `KutupsalDizi` yazın ya da Edit panelindeki ArrayPolar düğmesini kullanın.
 4. **Desenin merkezini seçin** — `0,0` yazın.
 5. Terminal diziyi olduğu gibi gösterir — `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — ve beş kopya canlı önizlenir. Kabul etmek için **Enter**'a basın.
 

@@ -49,9 +49,9 @@ En hålcirkel — ”PCD” på ritningar — är en ring av jämnt fördelade h
 
 Ta sex hål på 6,6 mm på en delningsdiameter på 50 mm, centrerad i origo:
 
-1. **Rita det första hålet.** Kör `circle`, skriv medelpunkten som `25` `,` `0` — halva PCD längs X-axeln —, tryck **Enter**, skriv sedan radien `3.3` och tryck **Enter**.
+1. **Rita det första hålet.** Kör `Cirkel`, skriv medelpunkten som `25` `,` `0` — halva PCD längs X-axeln —, tryck **Enter**, skriv sedan radien `3.3` och tryck **Enter**.
 2. **Markera det** genom att klicka på cirkeln.
-3. **Kör den polära matrisen.** Skriv `arraypolar`, eller använd knappen ArrayPolar i panelen Edit.
+3. **Kör den polära matrisen.** Skriv `Cirkelmönster`, eller använd knappen ArrayPolar i panelen Edit.
 4. **Välj mönstrets medelpunkt** — skriv `0,0`.
 5. Terminalen visar matrisen som den ser ut — `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — och de fem kopiorna förhandsvisas live. Tryck **Enter** för att godkänna.
 

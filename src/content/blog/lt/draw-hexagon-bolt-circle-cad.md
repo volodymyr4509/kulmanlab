@@ -15,7 +15,7 @@ Kuriame [KulmanLab](https://kulmanlab.com), todėl žemiau pateikti žingsniai n
 
 Taisyklingas daugiakampis turi lygias kraštines ir kampus: šešiakampis veržlei, aštuonkampis ženklui, penkiakampis dekoratyviam iškirpimui. KulmanLab tai komanda **Polygon**.
 
-1. Terminale įveskite `polygon` arba naudokite mygtuką Polygon skydelyje Shapes.
+1. Terminale įveskite `Daugiakampis` arba naudokite mygtuką Polygon skydelyje Shapes.
 2. Įveskite **kraštinių skaičių** — bet kurį sveikąjį skaičių nuo 3 iki 1024 — ir paspauskite **Enter**. Raginimas iš anksto užpildytas skaičiumi, kurį naudojote paskutinį kartą.
 3. **Spustelėkite centrą** arba įveskite `X,Y` tiksliam taškui.
 4. **Spustelėkite spindulį** arba jį įveskite ir paspauskite **Enter**.
@@ -33,7 +33,7 @@ Rezultatas — viena uždara polilinija, todėl veikia viskas, ką galima daryti
 
 Paspauskite `I` spindulio raginime, kad perjungtumėte. Šešiabriaunė veržlė parduodama pagal plotį tarp briaunų, todėl naudokite **Inside išjungta** ir įveskite jo *pusę*. M8 veržlei, kurios plotis tarp briaunų 13 mm:
 
-1. `polygon`, tada `6` kraštinėms, tada spustelėkite arba įveskite centrą.
+1. `Daugiakampis`, tada `6` kraštinėms, tada spustelėkite arba įveskite centrą.
 2. Paspauskite `I`, kad išjungtumėte Inside.
 3. Įveskite `6.5` ir paspauskite **Enter**.
 
@@ -49,9 +49,9 @@ Varžtų apskritimas — brėžiniuose „PCD“ — tai žiedas vienodais tarpa
 
 Paimkime šešias 6,6 mm skyles 50 mm dalijamojo apskritimo skersmens apskritime, kurio centras koordinačių pradžioje:
 
-1. **Nubraižykite pirmąją skylę.** Paleiskite `circle`, centrą įveskite kaip `25` `,` `0` — pusė PCD išilgai X ašies —, paspauskite **Enter**, tada įveskite spindulį `3.3` ir paspauskite **Enter**.
+1. **Nubraižykite pirmąją skylę.** Paleiskite `Apskritimas`, centrą įveskite kaip `25` `,` `0` — pusė PCD išilgai X ašies —, paspauskite **Enter**, tada įveskite spindulį `3.3` ir paspauskite **Enter**.
 2. **Pasirinkite ją** spustelėdami apskritimą.
-3. **Paleiskite polinį masyvą.** Įveskite `arraypolar` arba naudokite mygtuką ArrayPolar skydelyje Edit.
+3. **Paleiskite polinį masyvą.** Įveskite `ApskritiminisMasyvas` arba naudokite mygtuką ArrayPolar skydelyje Edit.
 4. **Pasirinkite rašto centrą** — įveskite `0,0`.
 5. Terminalas parodo masyvą tokį, koks jis yra — `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — o penkios kopijos rodomos gyvai. Paspauskite **Enter**, kad priimtumėte.
 

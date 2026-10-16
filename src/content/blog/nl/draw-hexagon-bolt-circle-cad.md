@@ -15,7 +15,7 @@ Wij bouwen [KulmanLab](https://kulmanlab.com), dus de stappen hieronder gebruike
 
 Een regelmatige veelhoek heeft gelijke zijden en gelijke hoeken: een zeshoek voor een moer, een achthoek voor een bord, een vijfhoek voor een decoratieve uitsparing. In KulmanLab is dat de opdracht **Polygon**.
 
-1. Typ `polygon` in de terminal of gebruik de knop Polygon in het paneel Shapes.
+1. Typ `Veelhoek` in de terminal of gebruik de knop Polygon in het paneel Shapes.
 2. Voer het **aantal zijden** in — elk geheel getal van 3 tot 1024 — en druk op **Enter**. De prompt is vooraf ingevuld met het aantal dat je de vorige keer gebruikte.
 3. **Klik op het middelpunt** of typ `X,Y` voor een exact punt.
 4. **Klik op de straal** of typ die en druk op **Enter**.
@@ -33,7 +33,7 @@ Hier struikelen mensen. "Straal" kan twee verschillende afstanden betekenen, en 
 
 Druk bij de straalprompt op `I` om te wisselen. Een zeskantmoer wordt verkocht op sleutelwijdte, dus gebruik **Inside uit** en typ de *helft*. Voor een M8-moer met 13 mm sleutelwijdte:
 
-1. `polygon`, dan `6` voor de zijden, dan het middelpunt aanklikken of typen.
+1. `Veelhoek`, dan `6` voor de zijden, dan het middelpunt aanklikken of typen.
 2. Druk op `I` om Inside uit te zetten.
 3. Typ `6.5` en druk op **Enter**.
 
@@ -49,9 +49,9 @@ Een steekcirkel — "PCD" op tekeningen — is een ring van gelijkmatig verdeeld
 
 Neem zes gaten van 6,6 mm op een steekcirkeldiameter van 50 mm, gecentreerd op de oorsprong:
 
-1. **Teken het eerste gat.** Start `circle`, typ het middelpunt als `25` `,` `0` — de helft van de PCD langs de X-as —, druk op **Enter**, typ de straal `3.3` en druk op **Enter**.
+1. **Teken het eerste gat.** Start `Cirkel`, typ het middelpunt als `25` `,` `0` — de helft van de PCD langs de X-as —, druk op **Enter**, typ de straal `3.3` en druk op **Enter**.
 2. **Selecteer het** door op de cirkel te klikken.
-3. **Start de polaire array.** Typ `arraypolar` of gebruik de knop ArrayPolar in het paneel Edit.
+3. **Start de polaire array.** Typ `PolaireReeks` of gebruik de knop ArrayPolar in het paneel Edit.
 4. **Kies het middelpunt van het patroon** — typ `0,0`.
 5. De terminal toont de array zoals hij nu is — `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — en de vijf kopieën worden live getoond. Druk op **Enter** om te accepteren.
 

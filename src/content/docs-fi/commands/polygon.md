@@ -8,11 +8,11 @@ order: 10
 
 # Polygon
 
-`polygon`-komento piirtää säännöllisen monikulmion — kaikki sivut ja kulmat yhtä suuria — jossa on 3–1024 sivua. Kirjoita `polygon` terminaaliin. Tuloksena on **suljettu `LWPOLYLINE`**, joten sijoittamisen jälkeen se toimii kuten mikä tahansa muu [Polyline](../polyline/) ja kaikki murtoviivan muokkaukset pätevät.
+`Monikulmio`-komento piirtää säännöllisen monikulmion — kaikki sivut ja kulmat yhtä suuria — jossa on 3–1024 sivua. Kirjoita `Monikulmio` terminaaliin. Tuloksena on **suljettu `LWPOLYLINE`**, joten sijoittamisen jälkeen se toimii kuten mikä tahansa muu [Polyline](../polyline/) ja kaikki murtoviivan muokkaukset pätevät.
 
 ## Monikulmion piirtäminen
 
-1. Kirjoita `polygon` terminaaliin ja anna **sivujen lukumäärä** — kokonaisluku 3–1024 — ja paina **Enter** tai **Space**. Kehote on esitäytetty viimeksi käytetyllä lukumäärällä (ensimmäisellä kerralla 4); aloita kirjoittaminen korvataksesi sen. Mikä tahansa muu hylätään ja jää kehotteeseen korjattavaksi.
+1. Kirjoita `Monikulmio` terminaaliin ja anna **sivujen lukumäärä** — kokonaisluku 3–1024 — ja paina **Enter** tai **Space**. Kehote on esitäytetty viimeksi käytetyllä lukumäärällä (ensimmäisellä kerralla 4); aloita kirjoittaminen korvataksesi sen. Mikä tahansa muu hylätään ja jää kehotteeseen korjattavaksi.
 2. **Napsauta keskipistettä** tai kirjoita `X,Y` ja paina **Enter** tarkkaa koordinaattia varten. Paina ensin `E`, jos haluat aloittaa sivusta (katso alla).
 3. **Napsauta sädettä** — monikulmio esikatselu päivittyy — tai kirjoita säde ja paina **Enter** tai **Space**.
 4. Monikulmio sijoitetaan ja komento päättyy.

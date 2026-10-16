@@ -8,11 +8,11 @@ order: 10
 
 # Polygon
 
-Komanda `polygon` nubraižo taisyklingą daugiakampį — visos kraštinės ir kampai lygūs — su 3–1024 kraštinėmis. Terminale įveskite `polygon`. Rezultatas – **uždara `LWPOLYLINE`**, todėl padėta ji elgiasi kaip bet kuri kita [Polyline](../polyline/) ir galioja visi polilinijos redagavimai.
+Komanda `Daugiakampis` nubraižo taisyklingą daugiakampį — visos kraštinės ir kampai lygūs — su 3–1024 kraštinėmis. Terminale įveskite `Daugiakampis`. Rezultatas – **uždara `LWPOLYLINE`**, todėl padėta ji elgiasi kaip bet kuri kita [Polyline](../polyline/) ir galioja visi polilinijos redagavimai.
 
 ## Daugiakampio braižymas
 
-1. Terminale įveskite `polygon` ir įveskite **kraštinių skaičių** — sveikąjį skaičių nuo 3 iki 1024 — ir paspauskite **Enter** arba **Space**. Raginimas iš anksto užpildytas paskutiniu naudotu skaičiumi (pirmą kartą 4); pradėkite rašyti, kad jį pakeistumėte. Bet kas kita atmetama ir lieka raginime, kad ištaisytumėte.
+1. Terminale įveskite `Daugiakampis` ir įveskite **kraštinių skaičių** — sveikąjį skaičių nuo 3 iki 1024 — ir paspauskite **Enter** arba **Space**. Raginimas iš anksto užpildytas paskutiniu naudotu skaičiumi (pirmą kartą 4); pradėkite rašyti, kad jį pakeistumėte. Bet kas kita atmetama ir lieka raginime, kad ištaisytumėte.
 2. **Spustelėkite centrą** arba įveskite `X,Y` ir paspauskite **Enter** tiksliai koordinatei. Norėdami pradėti nuo kraštinės, pirmiausia paspauskite `E` (žr. toliau).
 3. **Spustelėkite spindulį** — daugiakampis rodomas gyvai — arba įveskite spindulį ir paspauskite **Enter** arba **Space**.
 4. Daugiakampis padedamas ir komanda baigiama.

@@ -12,7 +12,7 @@ Der Befehl `ArrayPolar` erstellt Kopien der gewählten Objekte um einen Mittelpu
 
 ## Ein polares Array erstellen
 
-1. Wählen Sie die Objekte aus und geben Sie dann `arraypolar` im Terminal ein oder klicken Sie auf die Schaltfläche **Array Polar**. Ohne Auswahl gestartet, fordert der Befehl zuerst zur Auswahl auf — bestätigen Sie mit **Enter** oder **Space**.
+1. Wählen Sie die Objekte aus und geben Sie dann `PolareAnordnung` im Terminal ein oder klicken Sie auf die Schaltfläche **Array Polar**. Ohne Auswahl gestartet, fordert der Befehl zuerst zur Auswahl auf — bestätigen Sie mit **Enter** oder **Space**.
 2. **Klicken Sie auf den Mittelpunkt**, um den die Kopien laufen, oder geben Sie `X,Y` ein und drücken Sie **Enter** für eine exakte Koordinate.
 3. Prüfen Sie das Array. Alle Kopien erscheinen live in der Vorschau, und das Terminal zeigt `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — drücken Sie den Buchstaben einer Option, um sie zu ändern.
 4. Drücken Sie **Enter** oder **Space**, um die Kopien zu erstellen. Die Originale bleiben, wo sie sind, und die Auswahl wird aufgehoben.

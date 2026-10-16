@@ -8,11 +8,11 @@ order: 1
 
 # Measure
 
-Komanda `measure` skaito brėžinį aplink žymeklį jį judinant, nereikia rinkti taškų: kaip toli yra artimiausia geometrija, kokio ilgio ar kiek apvali ji yra ir kokiu kampu susitinka linijos. Spustelėjus uždaros srities viduje gaunamas jos plotas ir perimetras. Brėžinyje niekas nesikeičia.
+Komanda `Matavimas` skaito brėžinį aplink žymeklį jį judinant, nereikia rinkti taškų: kaip toli yra artimiausia geometrija, kokio ilgio ar kiek apvali ji yra ir kokiu kampu susitinka linijos. Spustelėjus uždaros srities viduje gaunamas jos plotas ir perimetras. Brėžinyje niekas nesikeičia.
 
 ## Matavimas
 
-1. Terminale įveskite `measure` arba spustelėkite **Measure** — pirmąjį skydelio Measure mygtuką.
+1. Terminale įveskite `Matavimas` arba spustelėkite **Measure** — pirmąjį skydelio Measure mygtuką.
 2. **Judinkite žymeklį.** Iš jo komanda žvelgia į dešinę, aukštyn, į kairę ir žemyn ieškodama artimiausios geometrijos ir parodo rastą.
 3. **Spustelėkite uždaros srities viduje**, kad ji būtų užpildyta ir būtų galima perskaityti jos plotą ir perimetrą — žr. toliau.
 4. Norėdami baigti, paspauskite **Enter**, **Space** arba **Escape**.

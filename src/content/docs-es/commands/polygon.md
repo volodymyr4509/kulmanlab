@@ -8,11 +8,11 @@ order: 10
 
 # Polygon
 
-El comando `polygon` dibuja un polígono regular — todos los lados y ángulos iguales — de 3 a 1024 lados. Escribe `polygon` en el terminal. El resultado es una **`LWPOLYLINE` cerrada**, por lo que, una vez colocada, se comporta como cualquier otra [Polyline](../polyline/) y se aplican todas las ediciones de polilínea.
+El comando `Polígono` dibuja un polígono regular — todos los lados y ángulos iguales — de 3 a 1024 lados. Escribe `Polígono` en el terminal. El resultado es una **`LWPOLYLINE` cerrada**, por lo que, una vez colocada, se comporta como cualquier otra [Polyline](../polyline/) y se aplican todas las ediciones de polilínea.
 
 ## Dibujar un polígono
 
-1. Escribe `polygon` en el terminal e introduce el **número de lados** — un entero de 3 a 1024 — y pulsa **Enter** o **Space**. La solicitud viene rellenada con la última cantidad usada (4 la primera vez); empieza a escribir para reemplazarla. Cualquier otra cosa se rechaza y permanece en la solicitud para corregirla.
+1. Escribe `Polígono` en el terminal e introduce el **número de lados** — un entero de 3 a 1024 — y pulsa **Enter** o **Space**. La solicitud viene rellenada con la última cantidad usada (4 la primera vez); empieza a escribir para reemplazarla. Cualquier otra cosa se rechaza y permanece en la solicitud para corregirla.
 2. **Haz clic en el centro**, o escribe `X,Y` y pulsa **Enter** para una coordenada exacta. Pulsa `E` antes para partir de un lado (ver abajo).
 3. **Haz clic en el radio** — el polígono se previsualiza en vivo — o escribe el radio y pulsa **Enter** o **Space**.
 4. El polígono se coloca y el comando termina.

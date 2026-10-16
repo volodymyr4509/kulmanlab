@@ -12,7 +12,7 @@ order: 16
 
 ## Polar dizi oluşturma
 
-1. Nesneleri seçin, ardından terminale `arraypolar` yazın veya araç çubuğundaki **Array Polar** düğmesine tıklayın. Seçim yapmadan başlatılırsa önce onları seçmenizi ister — onaylamak için **Enter** veya **Space** tuşuna basın.
+1. Nesneleri seçin, ardından terminale `KutupsalDizi` yazın veya araç çubuğundaki **Array Polar** düğmesine tıklayın. Seçim yapmadan başlatılırsa önce onları seçmenizi ister — onaylamak için **Enter** veya **Space** tuşuna basın.
 2. Kopyaların etrafında döneceği **merkeze tıklayın** ya da kesin koordinat için `X,Y` yazıp **Enter** tuşuna basın.
 3. Diziyi gözden geçirin. Tüm kopyalar canlı önizlenir ve terminal `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` gösterir — değiştirmek için bir seçeneğin harfine basın.
 4. Kopyaları oluşturmak için **Enter** veya **Space** tuşuna basın. Orijinaller yerinde kalır ve seçim temizlenir.

@@ -8,11 +8,11 @@ order: 1
 
 # Measure
 
-Il comando `measure` legge il disegno attorno al cursore mentre lo muovi, senza punti da scegliere: quanto è distante la geometria più vicina, quanto è lunga o tonda e l’angolo in cui le linee si incontrano. Un clic dentro un’area chiusa ne dà area e perimetro. Nel disegno non cambia nulla.
+Il comando `Misura` legge il disegno attorno al cursore mentre lo muovi, senza punti da scegliere: quanto è distante la geometria più vicina, quanto è lunga o tonda e l’angolo in cui le linee si incontrano. Un clic dentro un’area chiusa ne dà area e perimetro. Nel disegno non cambia nulla.
 
 ## Misurare
 
-1. Digita `measure` nel terminale o fai clic su **Measure**, il primo pulsante del pannello Measure.
+1. Digita `Misura` nel terminale o fai clic su **Measure**, il primo pulsante del pannello Measure.
 2. **Muovi il cursore.** Da lì il comando guarda a destra, in alto, a sinistra e in basso la geometria più vicina e mostra ciò che trova.
 3. **Fai clic dentro un’area chiusa** per riempirla e leggerne area e perimetro — vedi sotto.
 4. Premi **Enter**, **Space** o **Escape** per terminare.

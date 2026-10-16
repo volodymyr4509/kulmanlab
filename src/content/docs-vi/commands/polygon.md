@@ -8,11 +8,11 @@ order: 10
 
 # Polygon
 
-Lệnh `polygon` vẽ đa giác đều — mọi cạnh và góc bằng nhau — có từ 3 đến 1024 cạnh. Gõ `polygon` trong terminal. Kết quả là một **`LWPOLYLINE` đóng**, nên sau khi đặt nó hoạt động như mọi [Polyline](../polyline/) khác và mọi chỉnh sửa polyline đều áp dụng.
+Lệnh `ĐaGiác` vẽ đa giác đều — mọi cạnh và góc bằng nhau — có từ 3 đến 1024 cạnh. Gõ `ĐaGiác` trong terminal. Kết quả là một **`LWPOLYLINE` đóng**, nên sau khi đặt nó hoạt động như mọi [Polyline](../polyline/) khác và mọi chỉnh sửa polyline đều áp dụng.
 
 ## Vẽ đa giác
 
-1. Gõ `polygon` trong terminal và nhập **số cạnh** — số nguyên từ 3 đến 1024 — rồi nhấn **Enter** hoặc **Space**. Lời nhắc được điền sẵn số lần trước bạn dùng (lần đầu là 4); bắt đầu gõ để thay thế. Giá trị khác bị từ chối và ở lại trong lời nhắc để sửa.
+1. Gõ `ĐaGiác` trong terminal và nhập **số cạnh** — số nguyên từ 3 đến 1024 — rồi nhấn **Enter** hoặc **Space**. Lời nhắc được điền sẵn số lần trước bạn dùng (lần đầu là 4); bắt đầu gõ để thay thế. Giá trị khác bị từ chối và ở lại trong lời nhắc để sửa.
 2. **Nhấp vào tâm**, hoặc gõ `X,Y` rồi nhấn **Enter** để nhập tọa độ chính xác. Nhấn `E` trước để bắt đầu từ một cạnh thay vào đó (xem bên dưới).
 3. **Nhấp để chọn bán kính** — đa giác xem trước trực tiếp — hoặc gõ bán kính rồi nhấn **Enter** hoặc **Space**.
 4. Đa giác được đặt và lệnh kết thúc.

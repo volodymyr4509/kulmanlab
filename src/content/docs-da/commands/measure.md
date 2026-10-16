@@ -8,11 +8,11 @@ order: 1
 
 # Measure
 
-Kommandoen `measure` aflæser tegningen omkring markøren, mens du flytter den, uden punkter at vælge: hvor langt der er på tværs til nærmeste geometri, hvor lang eller rund den geometri er, og vinklen hvor linjer mødes. Et klik inden i et lukket område giver dets areal og omkreds. Intet i tegningen ændres.
+Kommandoen `Måling` aflæser tegningen omkring markøren, mens du flytter den, uden punkter at vælge: hvor langt der er på tværs til nærmeste geometri, hvor lang eller rund den geometri er, og vinklen hvor linjer mødes. Et klik inden i et lukket område giver dets areal og omkreds. Intet i tegningen ændres.
 
 ## Måling
 
-1. Skriv `measure` i terminalen eller klik på **Measure**, den første knap i panelet Measure.
+1. Skriv `Måling` i terminalen eller klik på **Measure**, den første knap i panelet Measure.
 2. **Flyt markøren.** Herfra kigger kommandoen mod højre, op, mod venstre og ned efter nærmeste geometri og viser, hvad den finder.
 3. **Klik inden i et lukket område** for at fylde det og aflæse dets areal og omkreds — se nedenfor.
 4. Tryk **Enter**, **Space** eller **Escape** for at afslutte.

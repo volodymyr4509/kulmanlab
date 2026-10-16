@@ -8,11 +8,11 @@ order: 1
 
 # Measure
 
-`measure`-komento lukee piirustuksen kursorin ympäriltä sitä liikuttaessasi ilman pisteiden valintaa: kuinka kaukana lähin geometria on, kuinka pitkä tai pyöreä se on ja millä kulmalla viivat kohtaavat. Napsautus suljetun alueen sisällä antaa sen pinta-alan ja piirin. Mikään piirustuksessa ei muutu.
+`Mittaa`-komento lukee piirustuksen kursorin ympäriltä sitä liikuttaessasi ilman pisteiden valintaa: kuinka kaukana lähin geometria on, kuinka pitkä tai pyöreä se on ja millä kulmalla viivat kohtaavat. Napsautus suljetun alueen sisällä antaa sen pinta-alan ja piirin. Mikään piirustuksessa ei muutu.
 
 ## Mittaaminen
 
-1. Kirjoita `measure` terminaaliin tai napsauta **Measure**, Measure-paneelin ensimmäistä painiketta.
+1. Kirjoita `Mittaa` terminaaliin tai napsauta **Measure**, Measure-paneelin ensimmäistä painiketta.
 2. **Liikuta kursoria.** Siitä komento katsoo oikealle, ylös, vasemmalle ja alas lähintä geometriaa ja näyttää löytämänsä.
 3. **Napsauta suljetun alueen sisällä** täyttääksesi sen ja lukeaksesi sen pinta-alan ja piirin — katso alla.
 4. Lopeta painamalla **Enter**, **Space** tai **Escape**.

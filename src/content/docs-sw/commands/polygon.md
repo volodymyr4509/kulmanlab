@@ -8,11 +8,11 @@ order: 10
 
 # Polygon
 
-Amri ya `polygon` huchora poligoni ya kawaida — pande na pembe zote sawa — yenye pande 3 hadi 1024. Andika `polygon` kwenye terminal. Matokeo ni **`LWPOLYLINE` iliyofungwa**, kwa hivyo ikishawekwa hufanya kazi kama [Polyline](../polyline/) nyingine yoyote na uhariri wote wa polyline unatumika.
+Amri ya `Poligoni` huchora poligoni ya kawaida — pande na pembe zote sawa — yenye pande 3 hadi 1024. Andika `Poligoni` kwenye terminal. Matokeo ni **`LWPOLYLINE` iliyofungwa**, kwa hivyo ikishawekwa hufanya kazi kama [Polyline](../polyline/) nyingine yoyote na uhariri wote wa polyline unatumika.
 
 ## Kuchora poligoni
 
-1. Andika `polygon` kwenye terminal na weka **idadi ya pande** — nambari kamili kutoka 3 hadi 1024 — kisha bonyeza **Enter** au **Space**. Kiashiria hujazwa awali na idadi uliyotumia mara ya mwisho (4 mara ya kwanza); anza kuandika ili kuibadilisha. Kitu kingine chochote hukataliwa na hubaki kwenye kiashiria ili kisahihishwe.
+1. Andika `Poligoni` kwenye terminal na weka **idadi ya pande** — nambari kamili kutoka 3 hadi 1024 — kisha bonyeza **Enter** au **Space**. Kiashiria hujazwa awali na idadi uliyotumia mara ya mwisho (4 mara ya kwanza); anza kuandika ili kuibadilisha. Kitu kingine chochote hukataliwa na hubaki kwenye kiashiria ili kisahihishwe.
 2. **Bofya katikati**, au andika `X,Y` na ubonyeze **Enter** kwa kuratibu halisi. Bonyeza `E` kwanza ili kuanza kutoka ukingo badala yake (tazama chini).
 3. **Bofya kipenyo-nusu** — poligoni huonyeshwa moja kwa moja — au andika kipenyo-nusu na ubonyeze **Enter** au **Space**.
 4. Poligoni huwekwa na amri huisha.

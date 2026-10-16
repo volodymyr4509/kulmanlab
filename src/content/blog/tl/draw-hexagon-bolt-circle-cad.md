@@ -15,7 +15,7 @@ Kami ang gumawa ng [KulmanLab](https://kulmanlab.com), kaya gumagamit ang mga ha
 
 Ang regular na polygon ay may magkakapantay na gilid at anggulo: hexagon para sa nut, octagon para sa karatula, pentagon para sa pandekorasyong hiwa. Sa KulmanLab, ito ang command na **Polygon**.
 
-1. I-type ang `polygon` sa terminal, o gamitin ang Polygon button sa Shapes panel.
+1. I-type ang `Poligono` sa terminal, o gamitin ang Polygon button sa Shapes panel.
 2. Ilagay ang **bilang ng gilid** — anumang buong numero mula 3 hanggang 1024 — at pindutin ang **Enter**. Naka-prefill ang prompt ng bilang na ginamit mo noong huli.
 3. **I-click ang gitna**, o mag-type ng `X,Y` para sa eksaktong punto.
 4. **I-click ang radius**, o i-type ito at pindutin ang **Enter**.
@@ -33,7 +33,7 @@ Dito madalas madapa ang mga tao. Ang "radius" ay maaaring mangahulugan ng dalawa
 
 Pindutin ang `I` sa radius prompt para magpalit. Ibinebenta ang hex nut ayon sa lapad nito across flats, kaya gamitin ang **Inside off** at i-type ang *kalahati* nito. Para sa M8 nut na 13 mm across flats:
 
-1. `polygon`, pagkatapos `6` para sa mga gilid, pagkatapos i-click o i-type ang gitna.
+1. `Poligono`, pagkatapos `6` para sa mga gilid, pagkatapos i-click o i-type ang gitna.
 2. Pindutin ang `I` para i-off ang Inside.
 3. I-type ang `6.5` at pindutin ang **Enter**.
 
@@ -49,9 +49,9 @@ Ang bolt circle — "PCD" sa mga guhit — ay singsing ng pantay-pantay na butas
 
 Kumuha ng anim na 6.6 mm na butas sa 50 mm na pitch circle diameter, nakasentro sa origin:
 
-1. **Iguhit ang unang butas.** Patakbuhin ang `circle`, i-type ang gitna bilang `25` `,` `0` — kalahati ng PCD sa kahabaan ng X axis —, pindutin ang **Enter**, pagkatapos i-type ang radius na `3.3` at pindutin ang **Enter**.
+1. **Iguhit ang unang butas.** Patakbuhin ang `Bilog`, i-type ang gitna bilang `25` `,` `0` — kalahati ng PCD sa kahabaan ng X axis —, pindutin ang **Enter**, pagkatapos i-type ang radius na `3.3` at pindutin ang **Enter**.
 2. **Piliin ito** sa pag-click sa bilog.
-3. **Patakbuhin ang polar array.** I-type ang `arraypolar`, o gamitin ang ArrayPolar button sa Edit panel.
+3. **Patakbuhin ang polar array.** I-type ang `PabilogNaHanay`, o gamitin ang ArrayPolar button sa Edit panel.
 4. **Piliin ang gitna ng pattern** — i-type ang `0,0`.
 5. Ipinapakita ng terminal ang array kung ano ito ngayon — `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — at live na pino-preview ang limang kopya. Pindutin ang **Enter** para tanggapin.
 

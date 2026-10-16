@@ -8,11 +8,11 @@ order: 10
 
 # Polygon
 
-Polecenie `polygon` rysuje wielokąt foremny — wszystkie boki i kąty równe — o 3–1024 bokach. Wpisz `polygon` w terminalu. Wynikiem jest **zamknięta `LWPOLYLINE`**, więc po umieszczeniu zachowuje się jak każda inna [Polyline](../polyline/) i obowiązują wszystkie edycje polilinii.
+Polecenie `Wielokąt` rysuje wielokąt foremny — wszystkie boki i kąty równe — o 3–1024 bokach. Wpisz `Wielokąt` w terminalu. Wynikiem jest **zamknięta `LWPOLYLINE`**, więc po umieszczeniu zachowuje się jak każda inna [Polyline](../polyline/) i obowiązują wszystkie edycje polilinii.
 
 ## Rysowanie wielokąta
 
-1. Wpisz `polygon` w terminalu i podaj **liczbę boków** — liczbę całkowitą od 3 do 1024 — po czym naciśnij **Enter** lub **Space**. Monit jest wstępnie wypełniony ostatnio użytą liczbą (za pierwszym razem 4); zacznij pisać, aby ją zastąpić. Cokolwiek innego jest odrzucane i zostaje w monicie do poprawienia.
+1. Wpisz `Wielokąt` w terminalu i podaj **liczbę boków** — liczbę całkowitą od 3 do 1024 — po czym naciśnij **Enter** lub **Space**. Monit jest wstępnie wypełniony ostatnio użytą liczbą (za pierwszym razem 4); zacznij pisać, aby ją zastąpić. Cokolwiek innego jest odrzucane i zostaje w monicie do poprawienia.
 2. **Kliknij środek** albo wpisz `X,Y` i naciśnij **Enter**, aby podać dokładną współrzędną. Naciśnij najpierw `E`, aby zamiast tego zacząć od boku (patrz niżej).
 3. **Kliknij promień** — wielokąt jest podglądany na żywo — albo wpisz promień i naciśnij **Enter** lub **Space**.
 4. Wielokąt zostaje umieszczony, a polecenie się kończy.

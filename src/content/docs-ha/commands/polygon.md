@@ -8,11 +8,11 @@ order: 10
 
 # Polygon
 
-Umarnin `polygon` yana zana polygon na yau da kullum — duk gefuna da kusurwoyi daidai — mai gefuna 3 zuwa 1024. Rubuta `polygon` a tashar umarni. Sakamakon **`LWPOLYLINE` ce a rufe**, don haka bayan an sanya ta tana yin kamar kowace [Polyline](../polyline/) kuma duk gyaran polyline yana aiki.
+Umarnin `Poligon` yana zana polygon na yau da kullum — duk gefuna da kusurwoyi daidai — mai gefuna 3 zuwa 1024. Rubuta `Poligon` a tashar umarni. Sakamakon **`LWPOLYLINE` ce a rufe**, don haka bayan an sanya ta tana yin kamar kowace [Polyline](../polyline/) kuma duk gyaran polyline yana aiki.
 
 ## Zana polygon
 
-1. Rubuta `polygon` a tashar umarni ka shigar da **adadin gefuna** — cikakkiyar lamba daga 3 zuwa 1024 — sannan ka danna **Enter** ko **Space**. Umarnin yana zuwa da adadin da ka yi amfani da shi na ƙarshe (4 a karon farko); fara rubutu don maye gurbinsa. Duk wani abu daban ana ƙin shi kuma yana tsayawa a umarnin don a gyara.
+1. Rubuta `Poligon` a tashar umarni ka shigar da **adadin gefuna** — cikakkiyar lamba daga 3 zuwa 1024 — sannan ka danna **Enter** ko **Space**. Umarnin yana zuwa da adadin da ka yi amfani da shi na ƙarshe (4 a karon farko); fara rubutu don maye gurbinsa. Duk wani abu daban ana ƙin shi kuma yana tsayawa a umarnin don a gyara.
 2. **Danna tsakiya**, ko ka rubuta `X,Y` ka danna **Enter** don ainihin haɗin kai. Danna `E` da farko don farawa daga gefe maimakon haka (duba ƙasa).
 3. **Danna radius** — ana ganin polygon kai tsaye — ko ka rubuta radius ka danna **Enter** ko **Space**.
 4. Ana sanya polygon kuma umarnin ya ƙare.

@@ -8,11 +8,11 @@ order: 10
 
 # Polygon
 
-Il comando `polygon` disegna un poligono regolare — tutti i lati e gli angoli uguali — da 3 a 1024 lati. Digita `polygon` nel terminale. Il risultato è una **`LWPOLYLINE` chiusa**, quindi una volta posizionata si comporta come qualsiasi altra [Polyline](../polyline/) e si applicano tutte le modifiche delle polilinee.
+Il comando `Poligono` disegna un poligono regolare — tutti i lati e gli angoli uguali — da 3 a 1024 lati. Digita `Poligono` nel terminale. Il risultato è una **`LWPOLYLINE` chiusa**, quindi una volta posizionata si comporta come qualsiasi altra [Polyline](../polyline/) e si applicano tutte le modifiche delle polilinee.
 
 ## Disegnare un poligono
 
-1. Digita `polygon` nel terminale e inserisci il **numero di lati** — un intero da 3 a 1024 — poi premi **Enter** o **Space**. Il prompt è precompilato con l’ultimo numero usato (4 la prima volta); inizia a digitare per sostituirlo. Qualsiasi altro valore viene rifiutato e resta nel prompt per essere corretto.
+1. Digita `Poligono` nel terminale e inserisci il **numero di lati** — un intero da 3 a 1024 — poi premi **Enter** o **Space**. Il prompt è precompilato con l’ultimo numero usato (4 la prima volta); inizia a digitare per sostituirlo. Qualsiasi altro valore viene rifiutato e resta nel prompt per essere corretto.
 2. **Fai clic sul centro**, oppure digita `X,Y` e premi **Enter** per una coordinata esatta. Premi prima `E` per partire invece da un lato (vedi sotto).
 3. **Fai clic sul raggio** — il poligono è mostrato in anteprima dal vivo — oppure digita il raggio e premi **Enter** o **Space**.
 4. Il poligono viene posizionato e il comando termina.

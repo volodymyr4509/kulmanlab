@@ -8,11 +8,11 @@ order: 10
 
 # Polygon
 
-La commande `polygon` trace un polygone régulier — tous les côtés et angles égaux — de 3 à 1024 côtés. Tapez `polygon` dans le terminal. Le résultat est une **`LWPOLYLINE` fermée** : une fois placée, elle se comporte comme n’importe quelle [Polyline](../polyline/) et toutes les modifications de polyligne s’appliquent.
+La commande `Polygone` trace un polygone régulier — tous les côtés et angles égaux — de 3 à 1024 côtés. Tapez `Polygone` dans le terminal. Le résultat est une **`LWPOLYLINE` fermée** : une fois placée, elle se comporte comme n’importe quelle [Polyline](../polyline/) et toutes les modifications de polyligne s’appliquent.
 
 ## Tracer un polygone
 
-1. Tapez `polygon` dans le terminal et saisissez le **nombre de côtés** — un entier de 3 à 1024 — puis appuyez sur **Entrée** ou **Espace**. L’invite est préremplie avec le dernier nombre utilisé (4 la première fois) ; commencez à taper pour le remplacer. Toute autre valeur est refusée et reste dans l’invite pour être corrigée.
+1. Tapez `Polygone` dans le terminal et saisissez le **nombre de côtés** — un entier de 3 à 1024 — puis appuyez sur **Entrée** ou **Espace**. L’invite est préremplie avec le dernier nombre utilisé (4 la première fois) ; commencez à taper pour le remplacer. Toute autre valeur est refusée et reste dans l’invite pour être corrigée.
 2. **Cliquez sur le centre**, ou tapez `X,Y` puis **Entrée** pour une coordonnée exacte. Appuyez d’abord sur `E` pour partir plutôt d’un côté (voir ci-dessous).
 3. **Cliquez sur le rayon** — le polygone s’affiche en aperçu — ou tapez le rayon puis **Entrée** ou **Espace**.
 4. Le polygone est placé et la commande se termine.

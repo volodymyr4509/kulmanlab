@@ -8,11 +8,11 @@ order: 10
 
 # Polygon
 
-Příkaz `polygon` nakreslí pravidelný mnohoúhelník — všechny strany a úhly jsou stejné — o 3 až 1024 stranách. Napište `polygon` do terminálu. Výsledkem je **uzavřená `LWPOLYLINE`**, takže se po umístění chová jako každá jiná [Polyline](../polyline/) a platí pro ni všechny úpravy polylinie.
+Příkaz `Mnohoúhelník` nakreslí pravidelný mnohoúhelník — všechny strany a úhly jsou stejné — o 3 až 1024 stranách. Napište `Mnohoúhelník` do terminálu. Výsledkem je **uzavřená `LWPOLYLINE`**, takže se po umístění chová jako každá jiná [Polyline](../polyline/) a platí pro ni všechny úpravy polylinie.
 
 ## Kreslení mnohoúhelníku
 
-1. Napište `polygon` do terminálu a zadejte **počet stran** — celé číslo od 3 do 1024 — a stiskněte **Enter** nebo **Space**. Výzva je předvyplněna naposledy použitým počtem (poprvé 4); začněte psát a přepíšete ho. Cokoli jiného se odmítne a zůstane ve výzvě k opravě.
+1. Napište `Mnohoúhelník` do terminálu a zadejte **počet stran** — celé číslo od 3 do 1024 — a stiskněte **Enter** nebo **Space**. Výzva je předvyplněna naposledy použitým počtem (poprvé 4); začněte psát a přepíšete ho. Cokoli jiného se odmítne a zůstane ve výzvě k opravě.
 2. **Klikněte na střed**, nebo napište `X,Y` a stiskněte **Enter** pro přesnou souřadnici. Chcete-li začít od hrany, stiskněte nejdřív `E` (viz níže).
 3. **Klikněte na poloměr** — mnohoúhelník se živě zobrazuje — nebo napište poloměr a stiskněte **Enter** nebo **Space**.
 4. Mnohoúhelník se umístí a příkaz skončí.

@@ -12,7 +12,7 @@ Il comando `ArrayPolar` crea copie degli oggetti selezionati attorno a un punto 
 
 ## Creare una matrice polare
 
-1. Seleziona gli oggetti, poi digita `arraypolar` nel terminale o fai clic sul pulsante **Array Polar** della barra degli strumenti. Se avviato senza selezione, ti chiede prima di selezionarli — premi **Enter** o **Space** per confermare.
+1. Seleziona gli oggetti, poi digita `SeriePolare` nel terminale o fai clic sul pulsante **Array Polar** della barra degli strumenti. Se avviato senza selezione, ti chiede prima di selezionarli — premi **Enter** o **Space** per confermare.
 2. **Fai clic sul centro** attorno a cui girano le copie, oppure digita `X,Y` e premi **Enter** per una coordinata esatta.
 3. Controlla la matrice. Tutte le copie sono mostrate in anteprima dal vivo e il terminale mostra `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — premi la lettera di un’opzione per modificarla.
 4. Premi **Enter** o **Space** per creare le copie. Gli originali restano dove sono e la selezione viene cancellata.

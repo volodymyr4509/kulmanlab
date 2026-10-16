@@ -15,7 +15,7 @@ Kami membuat [KulmanLab](https://kulmanlab.com), jadi langkah-langkah di bawah m
 
 Poligon beraturan memiliki sisi dan sudut yang sama: segi enam untuk mur, segi delapan untuk rambu, segi lima untuk potongan dekoratif. Di KulmanLab ini adalah perintah **Polygon**.
 
-1. Ketik `polygon` di terminal, atau gunakan tombol Polygon di panel Shapes.
+1. Ketik `Poligon` di terminal, atau gunakan tombol Polygon di panel Shapes.
 2. Masukkan **jumlah sisi** — bilangan bulat apa pun dari 3 sampai 1024 — lalu tekan **Enter**. Prompt terisi otomatis dengan jumlah yang terakhir Anda pakai.
 3. **Klik pusat**, atau ketik `X,Y` untuk titik yang tepat.
 4. **Klik radius**, atau ketik lalu tekan **Enter**.
@@ -33,7 +33,7 @@ Di sinilah orang sering tersandung. "Radius" bisa berarti dua jarak yang berbeda
 
 Tekan `I` pada prompt radius untuk beralih. Mur segi enam dijual berdasarkan lebar antar sisinya, jadi gunakan **Inside nonaktif** dan ketik *setengahnya*. Untuk mur M8 dengan lebar antar sisi 13 mm:
 
-1. `polygon`, lalu `6` untuk sisi, lalu klik atau ketik pusat.
+1. `Poligon`, lalu `6` untuk sisi, lalu klik atau ketik pusat.
 2. Tekan `I` untuk menonaktifkan Inside.
 3. Ketik `6.5` dan tekan **Enter**.
 
@@ -49,9 +49,9 @@ Lingkaran baut — "PCD" pada gambar teknik — adalah cincin lubang yang berjar
 
 Ambil enam lubang 6,6 mm pada diameter lingkaran jarak bagi 50 mm, berpusat di titik asal:
 
-1. **Gambar lubang pertama.** Jalankan `circle`, ketik pusat sebagai `25` `,` `0` — setengah PCD di sepanjang sumbu X —, tekan **Enter**, lalu ketik radius `3.3` dan tekan **Enter**.
+1. **Gambar lubang pertama.** Jalankan `Lingkaran`, ketik pusat sebagai `25` `,` `0` — setengah PCD di sepanjang sumbu X —, tekan **Enter**, lalu ketik radius `3.3` dan tekan **Enter**.
 2. **Pilih** dengan mengeklik lingkaran.
-3. **Jalankan array polar.** Ketik `arraypolar`, atau gunakan tombol ArrayPolar di panel Edit.
+3. **Jalankan array polar.** Ketik `LarikMelingkar`, atau gunakan tombol ArrayPolar di panel Edit.
 4. **Pilih pusat pola** — ketik `0,0`.
 5. Terminal menampilkan array seperti saat ini — `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — dan lima salinan dipratinjau langsung. Tekan **Enter** untuk menerima.
 

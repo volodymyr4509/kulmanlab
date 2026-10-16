@@ -12,7 +12,7 @@ La commande `ArrayPolar` crée des copies des objets sélectionnés autour d’u
 
 ## Créer un réseau polaire
 
-1. Sélectionnez les objets, puis tapez `arraypolar` dans le terminal ou cliquez sur le bouton **Array Polar** de la barre d’outils. Lancée sans sélection, la commande demande d’abord de les sélectionner — confirmez avec **Entrée** ou **Espace**.
+1. Sélectionnez les objets, puis tapez `RéseauPolaire` dans le terminal ou cliquez sur le bouton **Array Polar** de la barre d’outils. Lancée sans sélection, la commande demande d’abord de les sélectionner — confirmez avec **Entrée** ou **Espace**.
 2. **Cliquez sur le centre** autour duquel tournent les copies, ou tapez `X,Y` puis **Entrée** pour une coordonnée exacte.
 3. Vérifiez le réseau. Toutes les copies s’affichent en aperçu et le terminal indique `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — appuyez sur la lettre d’une option pour la modifier.
 4. Appuyez sur **Entrée** ou **Espace** pour créer les copies. Les originaux restent en place et la sélection est effacée.

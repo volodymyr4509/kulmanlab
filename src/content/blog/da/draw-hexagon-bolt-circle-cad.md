@@ -49,9 +49,9 @@ En hulcirkel — "PCD" på tegninger — er en ring af jævnt fordelte huller ru
 
 Tag seks huller på 6,6 mm på en delediameter på 50 mm, centreret i origo:
 
-1. **Tegn det første hul.** Kør `circle`, skriv centrum som `25` `,` `0` — halvdelen af PCD langs X-aksen —, tryk **Enter**, skriv derefter radius `3.3` og tryk **Enter**.
+1. **Tegn det første hul.** Kør `Cirkel`, skriv centrum som `25` `,` `0` — halvdelen af PCD langs X-aksen —, tryk **Enter**, skriv derefter radius `3.3` og tryk **Enter**.
 2. **Vælg det** ved at klikke på cirklen.
-3. **Kør det polære array.** Skriv `arraypolar`, eller brug knappen ArrayPolar i panelet Edit.
+3. **Kør det polære array.** Skriv `Cirkelmønster`, eller brug knappen ArrayPolar i panelet Edit.
 4. **Vælg mønsterets centrum** — skriv `0,0`.
 5. Terminalen viser arrayet, som det står — `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — og de fem kopier forhåndsvises live. Tryk **Enter** for at acceptere.
 

@@ -8,11 +8,11 @@ order: 1
 
 # Measure
 
-Perintah `measure` membaca lukisan di sekeliling kursor semasa anda menggerakkannya, tanpa titik untuk dipilih: sejauh mana geometri terdekat, sepanjang atau sebulat mana geometri itu, dan sudut tempat garisan bertemu. Klik di dalam kawasan tertutup memberi luas dan perimeternya. Tiada apa-apa dalam lukisan yang berubah.
+Perintah `Ukur` membaca lukisan di sekeliling kursor semasa anda menggerakkannya, tanpa titik untuk dipilih: sejauh mana geometri terdekat, sepanjang atau sebulat mana geometri itu, dan sudut tempat garisan bertemu. Klik di dalam kawasan tertutup memberi luas dan perimeternya. Tiada apa-apa dalam lukisan yang berubah.
 
 ## Mengukur
 
-1. Taip `measure` dalam terminal atau klik **Measure**, butang pertama dalam panel Measure.
+1. Taip `Ukur` dalam terminal atau klik **Measure**, butang pertama dalam panel Measure.
 2. **Gerakkan kursor.** Dari situ perintah melihat ke kanan, atas, kiri dan bawah untuk geometri terdekat dan menunjukkan apa yang ditemuinya.
 3. **Klik di dalam kawasan tertutup** untuk mengisinya dan membaca luas serta perimeternya — lihat di bawah.
 4. Tekan **Enter**, **Space** atau **Escape** untuk tamat.

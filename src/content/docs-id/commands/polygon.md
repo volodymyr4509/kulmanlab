@@ -8,11 +8,11 @@ order: 10
 
 # Polygon
 
-Perintah `polygon` menggambar poligon beraturan — semua sisi dan sudut sama — dengan 3 hingga 1024 sisi. Ketik `polygon` di terminal. Hasilnya **`LWPOLYLINE` tertutup**, sehingga setelah ditempatkan ia berperilaku seperti [Polyline](../polyline/) lainnya dan semua edit polyline berlaku.
+Perintah `Poligon` menggambar poligon beraturan — semua sisi dan sudut sama — dengan 3 hingga 1024 sisi. Ketik `Poligon` di terminal. Hasilnya **`LWPOLYLINE` tertutup**, sehingga setelah ditempatkan ia berperilaku seperti [Polyline](../polyline/) lainnya dan semua edit polyline berlaku.
 
 ## Menggambar poligon
 
-1. Ketik `polygon` di terminal lalu masukkan **jumlah sisi** — bilangan bulat dari 3 hingga 1024 — dan tekan **Enter** atau **Space**. Prompt terisi otomatis dengan jumlah terakhir yang dipakai (4 untuk pertama kali); mulai mengetik untuk menggantinya. Nilai lain ditolak dan tetap di prompt untuk diperbaiki.
+1. Ketik `Poligon` di terminal lalu masukkan **jumlah sisi** — bilangan bulat dari 3 hingga 1024 — dan tekan **Enter** atau **Space**. Prompt terisi otomatis dengan jumlah terakhir yang dipakai (4 untuk pertama kali); mulai mengetik untuk menggantinya. Nilai lain ditolak dan tetap di prompt untuk diperbaiki.
 2. **Klik pusat**, atau ketik `X,Y` dan tekan **Enter** untuk koordinat tepat. Tekan `E` dulu untuk memulai dari sebuah sisi (lihat di bawah).
 3. **Klik radius** — poligon ditampilkan langsung — atau ketik radius lalu tekan **Enter** atau **Space**.
 4. Poligon ditempatkan dan perintah selesai.

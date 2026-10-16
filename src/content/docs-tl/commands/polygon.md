@@ -8,11 +8,11 @@ order: 10
 
 # Polygon
 
-Ang `polygon` command ay gumuguhit ng regular na polygon — pantay ang lahat ng gilid at anggulo — na may 3 hanggang 1024 gilid. I-type ang `polygon` sa terminal. Ang resulta ay **saradong `LWPOLYLINE`**, kaya kapag nailagay na ay kumikilos ito tulad ng anumang [Polyline](../polyline/) at lahat ng polyline edit ay nalalapat.
+Ang `Poligono` command ay gumuguhit ng regular na polygon — pantay ang lahat ng gilid at anggulo — na may 3 hanggang 1024 gilid. I-type ang `Poligono` sa terminal. Ang resulta ay **saradong `LWPOLYLINE`**, kaya kapag nailagay na ay kumikilos ito tulad ng anumang [Polyline](../polyline/) at lahat ng polyline edit ay nalalapat.
 
 ## Pagguhit ng polygon
 
-1. I-type ang `polygon` sa terminal at ilagay ang **bilang ng gilid** — buong numero mula 3 hanggang 1024 — pagkatapos ay pindutin ang **Enter** o **Space**. Naka-prefill ang prompt ng huling bilang na ginamit mo (4 sa unang beses); magsimulang mag-type para palitan ito. Anumang iba pa ay tinatanggihan at nananatili sa prompt para itama.
+1. I-type ang `Poligono` sa terminal at ilagay ang **bilang ng gilid** — buong numero mula 3 hanggang 1024 — pagkatapos ay pindutin ang **Enter** o **Space**. Naka-prefill ang prompt ng huling bilang na ginamit mo (4 sa unang beses); magsimulang mag-type para palitan ito. Anumang iba pa ay tinatanggihan at nananatili sa prompt para itama.
 2. **I-click ang gitna**, o mag-type ng `X,Y` at pindutin ang **Enter** para sa eksaktong coordinate. Pindutin muna ang `E` para magsimula sa isang gilid (tingnan sa ibaba).
 3. **I-click ang radius** — live na na-preview ang polygon — o i-type ang radius at pindutin ang **Enter** o **Space**.
 4. Nailalagay ang polygon at natatapos ang command.

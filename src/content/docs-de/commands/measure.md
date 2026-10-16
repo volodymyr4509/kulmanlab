@@ -8,11 +8,11 @@ order: 1
 
 # Measure
 
-Der Befehl `measure` liest die Zeichnung um den Cursor beim Bewegen ab, ohne dass Punkte zu wählen sind: wie weit es bis zur nächsten Geometrie ist, wie lang oder wie rund diese Geometrie ist und welchen Winkel Linien dort bilden. Ein Klick in einen geschlossenen Bereich liefert dessen Fläche und Umfang. In der Zeichnung ändert sich nichts.
+Der Befehl `Messen` liest die Zeichnung um den Cursor beim Bewegen ab, ohne dass Punkte zu wählen sind: wie weit es bis zur nächsten Geometrie ist, wie lang oder wie rund diese Geometrie ist und welchen Winkel Linien dort bilden. Ein Klick in einen geschlossenen Bereich liefert dessen Fläche und Umfang. In der Zeichnung ändert sich nichts.
 
 ## Messen
 
-1. Geben Sie `measure` im Terminal ein oder klicken Sie auf **Measure**, die erste Schaltfläche im Panel Measure.
+1. Geben Sie `Messen` im Terminal ein oder klicken Sie auf **Measure**, die erste Schaltfläche im Panel Measure.
 2. **Bewegen Sie den Cursor.** Von dort aus schaut der Befehl nach rechts, oben, links und unten nach der nächsten Geometrie und zeigt, was er findet.
 3. **Klicken Sie in einen geschlossenen Bereich**, um ihn zu füllen und Fläche und Umfang abzulesen — siehe unten.
 4. Drücken Sie **Enter**, **Space** oder **Escape** zum Beenden.

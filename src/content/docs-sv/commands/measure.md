@@ -8,11 +8,11 @@ order: 1
 
 # Measure
 
-Kommandot `measure` läser av ritningen runt markören medan du flyttar den, utan punkter att välja: hur långt det är till närmaste geometri, hur lång eller rund den geometrin är och vinkeln där linjer möts. Ett klick inuti ett slutet område ger dess area och omkrets. Ingenting i ritningen ändras.
+Kommandot `Mät` läser av ritningen runt markören medan du flyttar den, utan punkter att välja: hur långt det är till närmaste geometri, hur lång eller rund den geometrin är och vinkeln där linjer möts. Ett klick inuti ett slutet område ger dess area och omkrets. Ingenting i ritningen ändras.
 
 ## Mäta
 
-1. Skriv `measure` i terminalen eller klicka på **Measure**, den första knappen i panelen Measure.
+1. Skriv `Mät` i terminalen eller klicka på **Measure**, den första knappen i panelen Measure.
 2. **Flytta markören.** Därifrån tittar kommandot åt höger, uppåt, åt vänster och nedåt efter närmaste geometri och visar vad det hittar.
 3. **Klicka inuti ett slutet område** för att fylla det och läsa av dess area och omkrets — se nedan.
 4. Tryck **Enter**, **Space** eller **Escape** för att avsluta.

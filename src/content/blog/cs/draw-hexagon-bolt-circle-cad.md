@@ -15,7 +15,7 @@ Vytváříme [KulmanLab](https://kulmanlab.com), takže kroky níže používaj�
 
 Pravidelný mnohoúhelník má stejné strany i úhly: šestiúhelník pro matici, osmiúhelník pro značku, pětiúhelník pro dekorativní výřez. V KulmanLab k tomu slouží příkaz **Polygon**.
 
-1. Napište `polygon` do terminálu, nebo použijte tlačítko Polygon v panelu Shapes.
+1. Napište `Mnohoúhelník` do terminálu, nebo použijte tlačítko Polygon v panelu Shapes.
 2. Zadejte **počet stran** — libovolné celé číslo od 3 do 1024 — a stiskněte **Enter**. Výzva je předvyplněna počtem, který jste použili naposledy.
 3. **Klikněte na střed**, nebo napište `X,Y` pro přesný bod.
 4. **Klikněte na poloměr**, nebo ho napište a stiskněte **Enter**.
@@ -33,7 +33,7 @@ Tady lidé klopýtají nejčastěji. „Poloměr" může znamenat dvě různé v
 
 Přepnete stisknutím `I` u výzvy k poloměru. Šestihranná matice se prodává podle šířky přes plochy, proto použijte **Inside vypnuto** a napište *polovinu* této hodnoty. Pro matici M8 s 13 mm přes plochy:
 
-1. `polygon`, pak `6` jako počet stran, pak klikněte nebo napište střed.
+1. `Mnohoúhelník`, pak `6` jako počet stran, pak klikněte nebo napište střed.
 2. Stisknutím `I` vypněte Inside.
 3. Napište `6.5` a stiskněte **Enter**.
 
@@ -49,9 +49,9 @@ Kruh děr — nebo roztečná kružnice, na výkresech „PCD" — je prstenec r
 
 Vezměte šest otvorů 6,6 mm na roztečné kružnici o průměru 50 mm se středem v počátku:
 
-1. **Nakreslete první otvor.** Spusťte `circle`, napište střed jako `25` `,` `0` — polovina PCD podél osy X — stiskněte **Enter**, pak napište poloměr `3.3` a stiskněte **Enter**.
+1. **Nakreslete první otvor.** Spusťte `Kružnice`, napište střed jako `25` `,` `0` — polovina PCD podél osy X — stiskněte **Enter**, pak napište poloměr `3.3` a stiskněte **Enter**.
 2. **Vyberte ho** kliknutím na kružnici.
-3. **Spusťte polární pole.** Napište `arraypolar`, nebo použijte tlačítko ArrayPolar v panelu Edit.
+3. **Spusťte polární pole.** Napište `KruhovéPole`, nebo použijte tlačítko ArrayPolar v panelu Edit.
 4. **Určete střed vzoru** — napište `0,0`.
 5. Terminál ukáže pole, jak právě je — `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — a pět kopií se živě zobrazí. Stisknutím **Enter** je přijmete.
 

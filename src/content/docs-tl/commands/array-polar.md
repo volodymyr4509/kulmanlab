@@ -12,7 +12,7 @@ Gumagawa ang `ArrayPolar` command ng mga kopya ng mga napiling bagay sa paligid 
 
 ## Paggawa ng polar array
 
-1. Piliin ang mga bagay, pagkatapos ay i-type ang `arraypolar` sa terminal o i-click ang **Array Polar** button sa toolbar. Kapag sinimulan nang walang napili, hihilingin muna nitong piliin mo sila — pindutin ang **Enter** o **Space** para kumpirmahin.
+1. Piliin ang mga bagay, pagkatapos ay i-type ang `PabilogNaHanay` sa terminal o i-click ang **Array Polar** button sa toolbar. Kapag sinimulan nang walang napili, hihilingin muna nitong piliin mo sila — pindutin ang **Enter** o **Space** para kumpirmahin.
 2. **I-click ang gitna** na paiikutan ng mga kopya, o mag-type ng `X,Y` at pindutin ang **Enter** para sa eksaktong coordinate.
 3. Suriin ang array. Live na pino-preview ang lahat ng kopya, at ipinapakita ng terminal ang `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — pindutin ang letra ng opsyon para baguhin ito.
 4. Pindutin ang **Enter** o **Space** para gawin ang mga kopya. Nananatili ang mga orihinal kung nasaan sila at nabubura ang pagpili.

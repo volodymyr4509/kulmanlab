@@ -12,7 +12,7 @@ O comando `ArrayPolar` cria cópias dos objetos selecionados em torno de um pont
 
 ## Criar uma matriz polar
 
-1. Selecione os objetos e digite `arraypolar` no terminal ou clique no botão **Array Polar** da barra de ferramentas. Se iniciado sem seleção, primeiro pede que você os selecione — pressione **Enter** ou **Space** para confirmar.
+1. Selecione os objetos e digite `MatrizPolar` no terminal ou clique no botão **Array Polar** da barra de ferramentas. Se iniciado sem seleção, primeiro pede que você os selecione — pressione **Enter** ou **Space** para confirmar.
 2. **Clique no centro** em torno do qual as cópias giram, ou digite `X,Y` e pressione **Enter** para uma coordenada exata.
 3. Revise a matriz. Todas as cópias são pré-visualizadas ao vivo e o terminal mostra `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — pressione a letra de uma opção para alterá-la.
 4. Pressione **Enter** ou **Space** para criar as cópias. Os originais permanecem onde estão e a seleção é limpa.

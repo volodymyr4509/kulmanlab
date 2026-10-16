@@ -8,11 +8,11 @@ order: 10
 
 # Polygon
 
-De opdracht `polygon` tekent een regelmatige veelhoek — alle zijden en hoeken gelijk — met 3 tot 1024 zijden. Typ `polygon` in de terminal. Het resultaat is een **gesloten `LWPOLYLINE`**, dus na plaatsing gedraagt hij zich als elke andere [Polyline](../polyline/) en gelden alle polylijn-bewerkingen.
+De opdracht `Veelhoek` tekent een regelmatige veelhoek — alle zijden en hoeken gelijk — met 3 tot 1024 zijden. Typ `Veelhoek` in de terminal. Het resultaat is een **gesloten `LWPOLYLINE`**, dus na plaatsing gedraagt hij zich als elke andere [Polyline](../polyline/) en gelden alle polylijn-bewerkingen.
 
 ## Een polygon tekenen
 
-1. Typ `polygon` in de terminal en voer het **aantal zijden** in — een geheel getal van 3 tot 1024 — en druk op **Enter** of **Space**. De prompt is vooraf ingevuld met het laatst gebruikte aantal (de eerste keer 4); begin te typen om het te vervangen. Al het andere wordt geweigerd en blijft in de prompt staan om te corrigeren.
+1. Typ `Veelhoek` in de terminal en voer het **aantal zijden** in — een geheel getal van 3 tot 1024 — en druk op **Enter** of **Space**. De prompt is vooraf ingevuld met het laatst gebruikte aantal (de eerste keer 4); begin te typen om het te vervangen. Al het andere wordt geweigerd en blijft in de prompt staan om te corrigeren.
 2. **Klik op het middelpunt**, of typ `X,Y` en druk op **Enter** voor een exacte coördinaat. Druk eerst op `E` om in plaats daarvan vanuit een zijde te beginnen (zie hieronder).
 3. **Klik op de straal** — de veelhoek wordt live getoond — of typ de straal en druk op **Enter** of **Space**.
 4. De veelhoek wordt geplaatst en de opdracht eindigt.

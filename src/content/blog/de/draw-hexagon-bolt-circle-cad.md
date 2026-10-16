@@ -49,9 +49,9 @@ Ein Lochkreis — oder Teilkreis, auf Zeichnungen „PCD" — ist ein Ring gleic
 
 Nehmen wir sechs 6,6-mm-Bohrungen auf einem Teilkreisdurchmesser von 50 mm, zentriert im Ursprung:
 
-1. **Zeichnen Sie die erste Bohrung.** Starten Sie `circle`, geben Sie den Mittelpunkt als `25` `,` `0` ein — der halbe PCD entlang der X-Achse —, drücken Sie **Enter**, geben Sie dann den Radius `3.3` ein und drücken Sie **Enter**.
+1. **Zeichnen Sie die erste Bohrung.** Starten Sie `Kreis`, geben Sie den Mittelpunkt als `25` `,` `0` ein — der halbe PCD entlang der X-Achse —, drücken Sie **Enter**, geben Sie dann den Radius `3.3` ein und drücken Sie **Enter**.
 2. **Wählen Sie sie aus**, indem Sie auf den Kreis klicken.
-3. **Starten Sie das polare Array.** Geben Sie `arraypolar` ein oder nutzen Sie die Schaltfläche ArrayPolar im Panel Edit.
+3. **Starten Sie das polare Array.** Geben Sie `PolareAnordnung` ein oder nutzen Sie die Schaltfläche ArrayPolar im Panel Edit.
 4. **Wählen Sie den Mittelpunkt des Musters** — geben Sie `0,0` ein.
 5. Das Terminal zeigt das Array, wie es steht — `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` —, und die fünf Kopien erscheinen live in der Vorschau. Drücken Sie **Enter**, um zu bestätigen.
 

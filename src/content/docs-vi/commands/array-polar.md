@@ -12,7 +12,7 @@ Lệnh `ArrayPolar` tạo các bản sao của đối tượng đã chọn quanh
 
 ## Tạo mảng cực
 
-1. Chọn các đối tượng, rồi gõ `arraypolar` trong terminal hoặc nhấp nút **Array Polar** trên thanh công cụ. Nếu bắt đầu mà chưa chọn gì, lệnh sẽ yêu cầu bạn chọn trước — nhấn **Enter** hoặc **Space** để xác nhận.
+1. Chọn các đối tượng, rồi gõ `MảngTròn` trong terminal hoặc nhấp nút **Array Polar** trên thanh công cụ. Nếu bắt đầu mà chưa chọn gì, lệnh sẽ yêu cầu bạn chọn trước — nhấn **Enter** hoặc **Space** để xác nhận.
 2. **Nhấp vào tâm** mà các bản sao đi quanh, hoặc gõ `X,Y` rồi nhấn **Enter** để nhập tọa độ chính xác.
 3. Xem lại mảng. Tất cả bản sao được xem trước trực tiếp, và terminal hiển thị `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — nhấn chữ cái của một tùy chọn để thay đổi.
 4. Nhấn **Enter** hoặc **Space** để tạo các bản sao. Bản gốc vẫn ở nguyên chỗ và vùng chọn được xóa.

@@ -12,7 +12,7 @@ Umarnin `ArrayPolar` yana yin kwafin abubuwan da aka zaɓa a kewayen wurin tsaki
 
 ## Zana polar array
 
-1. Zaɓi abubuwan, sannan ka rubuta `arraypolar` a tashar umarni ko ka danna maɓallin **Array Polar** na kayan aiki. Idan aka fara ba tare da zaɓi ba, yana tambayarka ka zaɓe su tukuna — danna **Enter** ko **Space** don tabbatarwa.
+1. Zaɓi abubuwan, sannan ka rubuta `JerinPolar` a tashar umarni ko ka danna maɓallin **Array Polar** na kayan aiki. Idan aka fara ba tare da zaɓi ba, yana tambayarka ka zaɓe su tukuna — danna **Enter** ko **Space** don tabbatarwa.
 2. **Danna tsakiya** da kwafin za su zagaya, ko ka rubuta `X,Y` ka danna **Enter** don ainihin haɗin kai.
 3. Duba array ɗin. Ana ganin duk kwafin kai tsaye, kuma tashar umarni tana nuna `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — danna harafin zaɓi don canja shi.
 4. Danna **Enter** ko **Space** don ƙirƙirar kwafin. Na asali suna nan inda suke kuma ana share zaɓin.

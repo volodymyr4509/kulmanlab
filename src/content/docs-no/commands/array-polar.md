@@ -12,7 +12,7 @@ Kommandoen `ArrayPolar` lager kopier av de valgte objektene rundt et sentrum, je
 
 ## Lage en polar matrise
 
-1. Velg objektene, og skriv deretter `arraypolar` i terminalen eller klikk på **Array Polar**-knappen i verktøylinjen. Startes den uten valg, ber den deg først velge dem — bekreft med **Enter** eller **Space**.
+1. Velg objektene, og skriv deretter `Sirkelmønster` i terminalen eller klikk på **Array Polar**-knappen i verktøylinjen. Startes den uten valg, ber den deg først velge dem — bekreft med **Enter** eller **Space**.
 2. **Klikk på sentrum** som kopiene går rundt, eller skriv `X,Y` og trykk **Enter** for en nøyaktig koordinat.
 3. Gjennomgå matrisen. Alle kopiene forhåndsvises live, og terminalen viser `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — trykk på et valgs bokstav for å endre det.
 4. Trykk **Enter** eller **Space** for å lage kopiene. Originalene blir der de er, og valget tømmes.

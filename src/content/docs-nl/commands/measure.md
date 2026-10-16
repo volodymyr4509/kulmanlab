@@ -8,11 +8,11 @@ order: 1
 
 # Measure
 
-De opdracht `measure` leest de tekening rond de cursor af terwijl u die beweegt, zonder punten te kiezen: hoe ver de dichtstbijzijnde geometrie is, hoe lang of rond die geometrie is en de hoek waar lijnen samenkomen. Een klik in een gesloten gebied geeft de oppervlakte en omtrek. Er verandert niets in de tekening.
+De opdracht `Meten` leest de tekening rond de cursor af terwijl u die beweegt, zonder punten te kiezen: hoe ver de dichtstbijzijnde geometrie is, hoe lang of rond die geometrie is en de hoek waar lijnen samenkomen. Een klik in een gesloten gebied geeft de oppervlakte en omtrek. Er verandert niets in de tekening.
 
 ## Meten
 
-1. Typ `measure` in de terminal of klik op **Measure**, de eerste knop in het paneel Measure.
+1. Typ `Meten` in de terminal of klik op **Measure**, de eerste knop in het paneel Measure.
 2. **Beweeg de cursor.** Vanaf daar kijkt de opdracht naar rechts, omhoog, naar links en omlaag naar de dichtstbijzijnde geometrie en toont wat hij vindt.
 3. **Klik in een gesloten gebied** om het te vullen en de oppervlakte en omtrek af te lezen — zie hieronder.
 4. Druk op **Enter**, **Space** of **Escape** om te stoppen.

@@ -12,7 +12,7 @@ Perintah `ArrayPolar` membuat salinan objek yang dipilih mengelilingi titik pusa
 
 ## Membuat tatasusunan kutub
 
-1. Pilih objek, kemudian taip `arraypolar` dalam terminal atau klik butang **Array Polar** pada bar alat. Jika dimulakan tanpa pilihan, ia meminta anda memilihnya dahulu — tekan **Enter** atau **Space** untuk mengesahkan.
+1. Pilih objek, kemudian taip `LarikPolar` dalam terminal atau klik butang **Array Polar** pada bar alat. Jika dimulakan tanpa pilihan, ia meminta anda memilihnya dahulu — tekan **Enter** atau **Space** untuk mengesahkan.
 2. **Klik pusat** yang dikelilingi salinan, atau taip `X,Y` dan tekan **Enter** untuk koordinat tepat.
 3. Semak tatasusunan. Semua salinan dipratonton secara langsung, dan terminal memaparkan `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — tekan huruf sesuatu pilihan untuk mengubahnya.
 4. Tekan **Enter** atau **Space** untuk mencipta salinan. Yang asal kekal di tempatnya dan pilihan dikosongkan.

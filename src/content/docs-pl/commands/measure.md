@@ -8,11 +8,11 @@ order: 1
 
 # Measure
 
-Polecenie `measure` odczytuje rysunek wokół kursora podczas jego ruchu, bez wskazywania punktów: jak daleko jest do najbliższej geometrii, jak jest długa lub okrągła i pod jakim kątem spotykają się linie. Kliknięcie wewnątrz obszaru zamkniętego daje jego pole i obwód. Nic w rysunku się nie zmienia.
+Polecenie `Pomiar` odczytuje rysunek wokół kursora podczas jego ruchu, bez wskazywania punktów: jak daleko jest do najbliższej geometrii, jak jest długa lub okrągła i pod jakim kątem spotykają się linie. Kliknięcie wewnątrz obszaru zamkniętego daje jego pole i obwód. Nic w rysunku się nie zmienia.
 
 ## Pomiar
 
-1. Wpisz `measure` w terminalu albo kliknij **Measure**, pierwszy przycisk w panelu Measure.
+1. Wpisz `Pomiar` w terminalu albo kliknij **Measure**, pierwszy przycisk w panelu Measure.
 2. **Poruszaj kursorem.** Stamtąd polecenie patrzy w prawo, w górę, w lewo i w dół w poszukiwaniu najbliższej geometrii i pokazuje, co znajdzie.
 3. **Kliknij wewnątrz obszaru zamkniętego**, aby go wypełnić i odczytać jego pole i obwód — patrz niżej.
 4. Naciśnij **Enter**, **Space** lub **Escape**, aby zakończyć.

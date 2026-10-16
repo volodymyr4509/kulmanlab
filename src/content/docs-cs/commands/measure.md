@@ -8,11 +8,11 @@ order: 1
 
 # Measure
 
-Příkaz `measure` čte výkres kolem kurzoru při jeho pohybu, bez výběru bodů: jak daleko je to k nejbližší geometrii, jak je tato geometrie dlouhá nebo kulatá a jaký je úhel, kde se čáry setkávají. Kliknutí uvnitř uzavřené oblasti dá její plochu a obvod. Nic ve výkresu se nemění.
+Příkaz `Měření` čte výkres kolem kurzoru při jeho pohybu, bez výběru bodů: jak daleko je to k nejbližší geometrii, jak je tato geometrie dlouhá nebo kulatá a jaký je úhel, kde se čáry setkávají. Kliknutí uvnitř uzavřené oblasti dá její plochu a obvod. Nic ve výkresu se nemění.
 
 ## Měření
 
-1. Napište `measure` do terminálu nebo klikněte na **Measure**, první tlačítko v panelu Measure.
+1. Napište `Měření` do terminálu nebo klikněte na **Measure**, první tlačítko v panelu Measure.
 2. **Pohybujte kurzorem.** Příkaz se z něj dívá doprava, nahoru, doleva a dolů po nejbližší geometrii a ukazuje, co najde.
 3. **Klikněte uvnitř uzavřené oblasti**, aby se vyplnila a zobrazila se její plocha a obvod — viz níže.
 4. Ukončíte stisknutím **Enter**, **Space** nebo **Escape**.

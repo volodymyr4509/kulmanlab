@@ -8,11 +8,11 @@ order: 1
 
 # Measure
 
-El comando `measure` lee el dibujo alrededor del cursor mientras lo mueves, sin puntos que elegir: a qué distancia está la geometría más cercana, cuánto mide o cuán redonda es esa geometría y el ángulo donde se encuentran las líneas. Un clic dentro de una zona cerrada da su área y su perímetro. No cambia nada en el dibujo.
+El comando `Medir` lee el dibujo alrededor del cursor mientras lo mueves, sin puntos que elegir: a qué distancia está la geometría más cercana, cuánto mide o cuán redonda es esa geometría y el ángulo donde se encuentran las líneas. Un clic dentro de una zona cerrada da su área y su perímetro. No cambia nada en el dibujo.
 
 ## Medir
 
-1. Escribe `measure` en el terminal o haz clic en **Measure**, el primer botón del panel Measure.
+1. Escribe `Medir` en el terminal o haz clic en **Measure**, el primer botón del panel Measure.
 2. **Mueve el cursor.** Desde él, el comando mira a la derecha, arriba, a la izquierda y abajo en busca de la geometría más cercana y muestra lo que encuentra.
 3. **Haz clic dentro de una zona cerrada** para rellenarla y leer su área y su perímetro — véase abajo.
 4. Pulsa **Enter**, **Space** o **Escape** para terminar.

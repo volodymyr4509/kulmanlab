@@ -12,7 +12,7 @@ Amri ya `ArrayPolar` hutengeneza nakala za vitu vilivyochaguliwa kuzunguka nukta
 
 ## Kuchora polar array
 
-1. Chagua vitu, kisha andika `arraypolar` kwenye terminal au bofya kitufe cha **Array Polar** kwenye upau wa zana. Ikianzishwa bila uteuzi, hukuomba uvichague kwanza — bonyeza **Enter** au **Space** kuthibitisha.
+1. Chagua vitu, kisha andika `MpangilioDuara` kwenye terminal au bofya kitufe cha **Array Polar** kwenye upau wa zana. Ikianzishwa bila uteuzi, hukuomba uvichague kwanza — bonyeza **Enter** au **Space** kuthibitisha.
 2. **Bofya kituo** ambacho nakala zitazunguka, au andika `X,Y` na ubonyeze **Enter** kwa kuratibu halisi.
 3. Kagua array. Nakala zote huonyeshwa moja kwa moja, na terminal huonyesha `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — bonyeza herufi ya chaguo ili kulibadilisha.
 4. Bonyeza **Enter** au **Space** kutengeneza nakala. Asili hubaki mahali zilipo na uteuzi huondolewa.
