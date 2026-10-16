@@ -3,7 +3,7 @@ title: Distance — Geradlinigen Abstand zwischen zwei Punkten messen
 description: Der Distance-Befehl misst den euklidischen Abstand zwischen zwei geklickten Punkten und zeigt das Ergebnis auf 4 Dezimalstellen an. Nach dem Ergebnis erneut klicken, um eine neue Messung vom letzten Punkt aus zu verketten.
 keywords: [CAD-Abstandsmessung, distance-Befehl, Punkt-zu-Punkt-Messung, geradliniger Abstand, kulmanlab CAD-Messung]
 group: measure
-order: 1
+order: 2
 ---
 
 # Distance

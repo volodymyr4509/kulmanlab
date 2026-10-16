@@ -3,7 +3,7 @@ title: Příkaz Area — měření plochy a obvodu mnohoúhelníku
 description: Příkaz Area měří uzavřenou plochu a obvod mnohoúhelníku určeného 3 nebo více kliknutými body pomocí Gaussova vzorce pro plochu (shoelace). Podporuje zadávání směru se zamčeným úhlem a trvalé zvýraznění výsledku na plátně.
 keywords: [měření plochy CAD, příkaz area, kalkulačka plochy mnohoúhelníku, měření obvodu, shoelace vzorec, měření kulmanlab CAD]
 group: measure
-order: 3
+order: 4
 ---
 
 # Area

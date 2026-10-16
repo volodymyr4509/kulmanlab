@@ -3,7 +3,7 @@ title: Area-komento — Mittaa Monikulmion Ala ja Piiri
 description: Area-komento mittaa 3 tai useamman napsautetun pisteen määrittelemän monikulmion sisäalueen ja piirin, käyttäen shoelace-kaavaa. Tukee kulmalukittua suunnattua syöttöä ja tuloksen pysyvää korostusta piirtoalueella.
 keywords: [CAD mittaa ala, area-komento, monikulmion alan laskin, piirin mittaus, shoelace-kaava, kulmanlab CAD-mittaus]
 group: measure
-order: 3
+order: 4
 ---
 
 # Area

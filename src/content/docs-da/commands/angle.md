@@ -3,7 +3,7 @@ title: Angle — Mål Indvendig Vinkel ved et Toppunkt med Tre Punkter
 description: Angle-kommandoen måler indvendig vinkel (0°–180°) ved et toppunkt defineret af tre klikkede punkter. Klik første ende, toppunkt, anden ende. Resultatet vises i terminalen med 4 decimaler.
 keywords: [CAD vinkelmåling, trepunktsvinkel, indvendig vinkel CAD, mål vinkel-kommando, toppunktsvinkel, kulmanlab]
 group: measure
-order: 2
+order: 3
 ---
 
 # Angle

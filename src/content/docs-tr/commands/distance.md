@@ -3,7 +3,7 @@ title: Distance Komutu — İki Nokta Arasındaki Düz Çizgi Mesafesini Ölç
 description: Distance komutu, iki tıklanan nokta arasındaki Öklid mesafesini ölçer ve sonucu terminalde 4 ondalık basamak hassasiyetle görüntüler. Sonucun ardından tekrar tıklayarak son noktadan yeni bir ölçüm zinciri başlatın.
 keywords: [CAD mesafe ölç, distance komutu, noktadan noktaya ölçüm, düz çizgi mesafesi, kulmanlab CAD ölçümü]
 group: measure
-order: 1
+order: 2
 ---
 
 # Distance

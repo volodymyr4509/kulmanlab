@@ -3,7 +3,7 @@ title: Distance — Medir a Distância em Linha Reta entre Dois Pontos
 description: O comando Distance mede a distância euclidiana (em linha reta) entre dois pontos clicados e exibe o resultado no terminal com 4 casas decimais. Clique novamente após o resultado para encadear uma nova medição a partir do último ponto.
 keywords: [CAD medir distância, comando distance, medição ponto a ponto, distância em linha reta, kulmanlab]
 group: measure
-order: 1
+order: 2
 ---
 
 # Distance

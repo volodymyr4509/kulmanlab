@@ -3,7 +3,7 @@ title: Angle コマンド — 3 点で頂点の内角を計測（KulmanLab CAD�
 description: angle コマンドは 3 点のクリックで定義された頂点の内角（0°〜180°）を計測します。最初の端点・頂点・2 番目の端点の順にクリックします。結果は小数点以下 4 桁でターミナルに表示されます。
 keywords: [CAD 角度計測, 3点角度, 内角 CAD, 角度計測コマンド, 頂点角度, kulmanlab, angle]
 group: measure
-order: 2
+order: 3
 ---
 
 # Angle

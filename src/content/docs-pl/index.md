@@ -93,6 +93,7 @@ Witaj w dokumentacji poleceń **KulmanLab CAD**. [KulmanLab CAD](https://kulmanl
 
 | Polecenie | Co robi |
 |-----------|---------|
+| [Measure](./commands/measure/) | Odczytuje odległości, długości, kąty i pola wokół kursora |
 | [Distance](./commands/distance/) | Mierzy odległość między dwoma punktami |
 | [Angle](./commands/angle/) | Mierzy kąt między trzema punktami |
 | [Area](./commands/area/) | Mierzy pole powierzchni i obwód wielokąta |

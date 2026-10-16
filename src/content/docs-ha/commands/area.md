@@ -3,7 +3,7 @@ title: Area — Auna Fili da Kewayen Polygon
 description: Umarnin Area yana auna fili da kewaye na polygon da aka bayyana ta tabo 3 ko fiye da aka danna, ta amfani da shoelace formula. Yana goyon bayan shigarwa mai kwatance kusurwa-kulle da alama mai dorewa a kan canvas na sakamakon.
 keywords: [auna fili CAD, umarnin area, ma'aunin fili na polygon, auna kewaye, shoelace formula, awo na CAD kulmanlab]
 group: measure
-order: 3
+order: 4
 ---
 
 # Area

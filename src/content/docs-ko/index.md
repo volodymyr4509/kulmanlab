@@ -93,6 +93,7 @@ order: 1
 
 | 명령어 | 기능 |
 |--------|------|
+| [Measure](./commands/measure/) | 커서 주변의 거리, 길이, 각도, 면적 읽기 |
 | [Distance](./commands/distance/) | 두 점 사이의 거리 측정 |
 | [Angle](./commands/angle/) | 세 점 사이의 각도 측정 |
 | [Area](./commands/area/) | 다각형의 면적과 둘레 측정 |

@@ -93,6 +93,7 @@ Sveiki atvykę į **KulmanLab CAD** komandų žinyną. [KulmanLab CAD](https://k
 
 | Komanda | Ką daro |
 |---------|---------|
+| [Measure](./commands/measure/) | Skaitykite atstumus, ilgius, kampus ir plotus aplink žymeklį |
 | [Distance](./commands/distance/) | Išmatuoja atstumą tarp dviejų taškų |
 | [Angle](./commands/angle/) | Išmatuoja kampą tarp trijų taškų |
 | [Area](./commands/area/) | Išmatuoja daugiakampio plotą ir perimetrą |

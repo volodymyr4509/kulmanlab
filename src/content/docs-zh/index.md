@@ -93,6 +93,7 @@ order: 1
 
 | 命令 | 功能 |
 |---------|-------------|
+| [Measure](./commands/measure/) | 读取光标周围的距离、长度、角度和面积 |
 | [Distance](./commands/distance/) | 测量两点之间的距离 |
 | [Angle](./commands/angle/) | 测量三点构成的角度 |
 | [Area](./commands/area/) | 测量多边形的面积和周长 |

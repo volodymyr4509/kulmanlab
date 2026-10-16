@@ -3,7 +3,7 @@ title: Arahan Distance — Ukur Jarak Garis Lurus antara Dua Titik
 description: Arahan Distance mengukur jarak Euclidean antara dua titik yang diklik dan memaparkan hasilnya kepada 4 titik perpuluhan. Klik lagi selepas keputusan untuk merantai pengukuran baharu dari titik terakhir.
 keywords: [CAD ukur jarak, arahan jarak, pengukuran titik ke titik, jarak garis lurus, kulmanlab CAD ukuran]
 group: measure
-order: 1
+order: 2
 ---
 
 # Distance

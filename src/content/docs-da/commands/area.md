@@ -3,7 +3,7 @@ title: Area-kommando — Mål Polygonareal og Omkreds
 description: Area-kommandoen måler det omsluttede areal og omkredsen af en polygon defineret af 3 eller flere klikkede punkter, ved hjælp af kileformlen (shoelace formula). Understøtter vinkellåst retningsstyret indtastning og en vedvarende fremhævning af resultatet på lærredet.
 keywords: [CAD mål areal, area-kommando, polygonareal-beregner, omkredsmåling, kileformel, kulmanlab CAD-måling]
 group: measure
-order: 3
+order: 4
 ---
 
 # Area

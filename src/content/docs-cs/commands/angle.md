@@ -3,7 +3,7 @@ title: Angle — měření vnitřního úhlu ve vrcholu pomocí tří bodů
 description: Příkaz Angle měří vnitřní úhel (0°–180°) ve vrcholu určeném třemi kliknutými body. Klikněte na první konec, vrchol a druhý konec. Výsledek se zobrazí v terminálu na 4 desetinná místa.
 keywords: [měření úhlu CAD, úhel ze tří bodů, vnitřní úhel CAD, příkaz měření úhlu, úhel ve vrcholu, kulmanlab]
 group: measure
-order: 2
+order: 3
 ---
 
 # Angle

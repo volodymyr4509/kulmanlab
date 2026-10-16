@@ -93,6 +93,7 @@ Selamat datang ke rujukan arahan **KulmanLab CAD**. [KulmanLab CAD](https://kulm
 
 | Arahan | Fungsinya |
 |--------|-----------|
+| [Measure](./commands/measure/) | Baca jarak, panjang, sudut dan luas di sekeliling kursor |
 | [Distance](./commands/distance/) | Ukur jarak antara dua titik |
 | [Angle](./commands/angle/) | Ukur sudut antara tiga titik |
 | [Area](./commands/area/) | Ukur luas dan perimeter poligon |

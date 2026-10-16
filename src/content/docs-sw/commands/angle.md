@@ -3,7 +3,7 @@ title: "Angle — Pima Pembe ya Ndani kwenye Kilele Kwa Kutumia Pointi Tatu"
 description: "Amri ya Angle inapima pembe ya ndani (0°–180°) kwenye kilele kilichofafanuliwa na pointi tatu zilizopigiwa klik. Bonyeza pointi-ya-kwanza, kilele, pointi-ya-pili. Matokeo yanaonyeshwa kwenye terminal kwa nafasi 4 za desimali."
 keywords: [kupima pembe ya CAD, pembe ya pointi tatu, pembe ya ndani CAD, amri ya kupima pembe, pembe ya kilele, kulmanlab]
 group: measure
-order: 2
+order: 3
 ---
 
 # Angle

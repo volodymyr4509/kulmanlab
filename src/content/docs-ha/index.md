@@ -92,6 +92,7 @@ Barka da zuwa jerin umarni na **KulmanLab CAD**. [KulmanLab CAD](https://kulmanl
 
 | Umarni | Abin da yake yi |
 |---------|-------------|
+| [Measure](./commands/measure/) | Karanta nisa, tsawo, kusurwoyi da fili a kewayen siginar |
 | [Distance](./commands/distance/) | Auna nisa tsakanin tabo biyu |
 | [Angle](./commands/angle/) | Auna kusurwa tsakanin tabo uku |
 | [Area](./commands/area/) | Auna fili da kewaye na polygon |

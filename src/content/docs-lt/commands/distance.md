@@ -3,7 +3,7 @@ title: Distance — tiesaus atstumo tarp dviejų taškų matavimas
 description: Distance komanda matuoja Euklido atstumą tarp dviejų spustelėtų taškų ir parodo rezultatą 4 skaitmenų po kablelio tikslumu. Spustelėjus po rezultato, sugrandinamas naujas matavimas nuo paskutinio taško.
 keywords: [atstumo matavimas CAD, distance komanda, matavimas tarp dviejų taškų, tiesus atstumas, kulmanlab CAD matavimas]
 group: measure
-order: 1
+order: 2
 ---
 
 # Distance

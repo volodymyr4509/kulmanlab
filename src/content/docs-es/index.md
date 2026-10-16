@@ -93,6 +93,7 @@ Bienvenido a la referencia de comandos de **KulmanLab CAD**. [KulmanLab CAD](htt
 
 | Comando | Qué hace |
 |---------|----------|
+| [Measure](./commands/measure/) | Lee distancias, longitudes, ángulos y áreas alrededor del cursor |
 | [Distance](./commands/distance/) | Mide la distancia entre dos puntos |
 | [Angle](./commands/angle/) | Mide el ángulo entre tres puntos |
 | [Area](./commands/area/) | Mide el área y el perímetro de un polígono |

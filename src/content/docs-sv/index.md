@@ -93,6 +93,7 @@ Välkommen till **KulmanLab CAD**-kommandoreferensen. [KulmanLab CAD](https://ku
 
 | Kommando | Vad det gör |
 |---------|-------------|
+| [Measure](./commands/measure/) | Läs av avstånd, längder, vinklar och areor runt markören |
 | [Distance](./commands/distance/) | Mät avståndet mellan två punkter |
 | [Angle](./commands/angle/) | Mät vinkeln mellan tre punkter |
 | [Area](./commands/area/) | Mät area och omkrets för en polygon |

@@ -3,7 +3,7 @@ title: Distance — Mittaa Suoran Viivan Etäisyys Kahden Pisteen Välillä
 description: Distance-komento mittaa euklidisen etäisyyden kahden napsautetun pisteen välillä ja näyttää tuloksen 4 desimaalin tarkkuudella. Napsauta uudelleen tuloksen jälkeen ketjuttaaksesi uuden mittauksen viimeisestä pisteestä.
 keywords: [CAD mittaa etäisyys, distance-komento, pisteestä pisteeseen -mittaus, suoran viivan etäisyys, kulmanlab CAD-mittaus]
 group: measure
-order: 1
+order: 2
 ---
 
 # Distance

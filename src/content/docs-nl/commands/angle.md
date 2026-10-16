@@ -3,7 +3,7 @@ title: Angle — Meet de Binnenhoek bij een Hoekpunt met Drie Punten
 description: Het commando Angle meet de binnenhoek (0°–180°) bij een hoekpunt bepaald door drie geklikte punten. Klik eerste-uiteinde, hoekpunt, tweede-uiteinde. Resultaat weergegeven in de terminal met 4 decimalen.
 keywords: [CAD hoekmeting, drie punts hoek, binnenhoek CAD, hoek meten commando, hoekpunt hoek, kulmanlab]
 group: measure
-order: 2
+order: 3
 ---
 
 # Angle

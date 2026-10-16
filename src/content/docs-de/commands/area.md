@@ -3,7 +3,7 @@ title: Area-Befehl — Fläche und Umfang eines Polygons messen
 description: Der Area-Befehl misst die eingeschlossene Fläche und den Umfang eines Polygons aus 3 oder mehr geklickten Punkten, mithilfe der Gauß'schen Trapezformel. Unterstützt winkelgesperrte Richtungseingabe und eine bleibende Hervorhebung des Ergebnisses.
 keywords: [CAD Flächenmessung, area-Befehl, Polygonfläche berechnen, Umfangsmessung, Gauß'sche Trapezformel, kulmanlab CAD-Messung]
 group: measure
-order: 3
+order: 4
 ---
 
 # Area

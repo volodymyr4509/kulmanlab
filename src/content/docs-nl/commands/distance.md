@@ -3,7 +3,7 @@ title: Distance — Rechte-lijnafstand Meten Tussen Twee Punten
 description: Het Distance-commando meet de Euclidische afstand tussen twee aangeklikte punten en toont het resultaat tot 4 decimalen. Klik na het resultaat opnieuw om een nieuwe meting vanaf het laatste punt aan te schakelen.
 keywords: [CAD afstand meten, distance commando, punt-tot-punt meting, rechte-lijnafstand, kulmanlab CAD meting]
 group: measure
-order: 1
+order: 2
 ---
 
 # Distance

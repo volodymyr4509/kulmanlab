@@ -3,7 +3,7 @@ title: Area komanda — daugiakampio ploto ir perimetro matavimas
 description: Area komanda matuoja apribotą plotą ir perimetrą daugiakampio, apibrėžto 3 ar daugiau spustelėtų taškų, naudodama batų raištelių formulę. Palaiko kampu užrakintą kryptinį įvedimą ir nuolatinį rezultato paryškinimą drobėje.
 keywords: [CAD ploto matavimas, area komanda, daugiakampio ploto skaičiuoklė, perimetro matavimas, batų raištelių formulė, kulmanlab CAD matavimas]
 group: measure
-order: 3
+order: 4
 ---
 
 # Area

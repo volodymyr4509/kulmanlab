@@ -93,6 +93,7 @@ Bienvenue dans la référence des commandes **KulmanLab CAD**. [KulmanLab CAD](h
 
 | Commande | Ce qu'elle fait |
 |----------|----------------|
+| [Measure](./commands/measure/) | Lit distances, longueurs, angles et aires autour du curseur |
 | [Distance](./commands/distance/) | Mesure la distance entre deux points |
 | [Angle](./commands/angle/) | Mesure l'angle entre trois points |
 | [Area](./commands/area/) | Mesure l'aire et le périmètre d'un polygone |

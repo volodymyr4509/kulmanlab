@@ -3,7 +3,7 @@ title: Area Command — Meet Oppervlakte en Omtrek van een Polygoon
 description: Het commando Area meet de omsloten oppervlakte en omtrek van een polygoon bepaald door 3 of meer geklikte punten, met behulp van de schoenveterformule. Ondersteunt hoekvergrendelde richtingsinvoer en een blijvende markering van het resultaat op het canvas.
 keywords: [CAD oppervlakte meten, area commando, polygoon oppervlakte calculator, omtrek meting, schoenveterformule, kulmanlab CAD meting]
 group: measure
-order: 3
+order: 4
 ---
 
 # Area

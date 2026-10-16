@@ -93,6 +93,7 @@ order: 1
 
 | Komut | Ne yapar |
 |-------|----------|
+| [Measure](./commands/measure/) | İmlecin çevresindeki mesafeleri, uzunlukları, açıları ve alanları okur |
 | [Distance](./commands/distance/) | İki nokta arasındaki mesafeyi ölçer |
 | [Angle](./commands/angle/) | Üç nokta arasındaki açıyı ölçer |
 | [Area](./commands/area/) | Bir çokgenin alanını ve çevresini ölçer |

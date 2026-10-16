@@ -93,6 +93,7 @@ Tervetuloa **KulmanLab CAD**:in komentoreferenssiin. [KulmanLab CAD](https://kul
 
 | Komento | Mitä se tekee |
 |---------|-------------|
+| [Measure](./commands/measure/) | Lue etäisyydet, pituudet, kulmat ja alat kursorin ympäriltä |
 | [Distance](./commands/distance/) | Mittaa etäisyys kahden pisteen välillä |
 | [Angle](./commands/angle/) | Mittaa kulma kolmen pisteen välillä |
 | [Area](./commands/area/) | Mittaa monikulmion ala ja piiri |

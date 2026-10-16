@@ -3,7 +3,7 @@ title: Distance — Mål Ret Linjeafstand mellem To Punkter
 description: Distance-kommandoen måler den euklidiske afstand mellem to klikkede punkter og viser resultatet med 4 decimaler. Klik igen efter resultatet for at kæde en ny måling fra det sidste punkt.
 keywords: [CAD mål afstand, distance-kommando, punkt-til-punkt-måling, ret linjeafstand, kulmanlab CAD-måling]
 group: measure
-order: 1
+order: 2
 ---
 
 # Distance

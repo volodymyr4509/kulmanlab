@@ -3,7 +3,7 @@ title: "Area Command — Sukatin ang Area at Perimeter ng Isang Polygon"
 description: "Sinusukat ng Area command ang saklaw na area at perimeter ng isang polygon na tinutukoy ng 3 o higit pang na-click na punto, gamit ang shoelace formula. Sinusuportahan nito ang angle-locked directional entry at isang persistent na highlight ng resulta sa canvas."
 keywords: [CAD pagsukat ng area, area command, pagkalkula ng polygon area, pagsukat ng perimeter, shoelace formula, kulmanlab CAD pagsukat]
 group: measure
-order: 3
+order: 4
 ---
 
 # Area

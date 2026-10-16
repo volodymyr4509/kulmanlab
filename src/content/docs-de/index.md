@@ -93,6 +93,7 @@ Willkommen bei der **KulmanLab CAD** Befehlsreferenz. [KulmanLab CAD](https://ku
 
 | Befehl | Funktion |
 |--------|----------|
+| [Measure](./commands/measure/) | Abstände, Längen, Winkel und Flächen um den Cursor ablesen |
 | [Distance](./commands/distance/) | Abstand zwischen zwei Punkten messen |
 | [Angle](./commands/angle/) | Winkel zwischen drei Punkten messen |
 | [Area](./commands/area/) | Fläche und Umfang eines Polygons messen |

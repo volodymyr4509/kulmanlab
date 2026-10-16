@@ -3,7 +3,7 @@ title: Angle — vidinio kampo viršūnėje matavimas trimis taškais
 description: Angle komanda matuoja vidinį kampą (0°–180°) viršūnėje, apibrėžtoje trimis spustelėtais taškais. Spustelėkite pirmą galą, viršūnę, antrą galą. Rezultatas rodomas terminale 4 skaitmenų po kablelio tikslumu.
 keywords: [CAD kampo matavimas, trijų taškų kampas, vidinis kampas CAD, kampo matavimo komanda, viršūnės kampas, kulmanlab]
 group: measure
-order: 2
+order: 3
 ---
 
 # Angle

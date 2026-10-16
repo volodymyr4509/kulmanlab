@@ -3,7 +3,7 @@ title: Angle — Auna Kusurwar Ciki a Wata Kusurwa Ta Amfani da Tabo Uku
 description: Umarnin Angle yana auna kusurwar ciki (0°–180°) a wata kusurwa da aka bayyana ta tabo uku da aka danna. Danna ƙarshen-farko, kusurwa, ƙarshen-biyu. Sakamako ana nuna shi a tashar umarni har zuwa lambobi 4 bayan digit.
 keywords: [auna kusurwa CAD, kusurwar tabo uku, kusurwar ciki CAD, umarnin auna kusurwa, kusurwar vertex, kulmanlab]
 group: measure
-order: 2
+order: 3
 ---
 
 # Angle

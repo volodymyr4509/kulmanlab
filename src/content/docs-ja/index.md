@@ -93,6 +93,7 @@ order: 1
 
 | コマンド | 機能 |
 |---------|------|
+| [Measure](./commands/measure/) | カーソル周辺の距離・長さ・角度・面積を読み取る |
 | [Distance](./commands/distance/) | 2 点間の距離を計測する |
 | [Angle](./commands/angle/) | 3 点間の角度を計測する |
 | [Area](./commands/area/) | 多角形の面積と周長を計測する |

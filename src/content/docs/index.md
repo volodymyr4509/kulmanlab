@@ -93,6 +93,7 @@ Welcome to the **KulmanLab CAD** command reference. [KulmanLab CAD](https://kulm
 
 | Command | What it does |
 |---------|-------------|
+| [Measure](./commands/measure/) | Read distances, lengths, angles and areas around the cursor |
 | [Distance](./commands/distance/) | Measure the distance between two points |
 | [Angle](./commands/angle/) | Measure the angle between three points |
 | [Area](./commands/area/) | Measure the area and perimeter of a polygon |

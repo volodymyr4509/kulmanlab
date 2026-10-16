@@ -3,7 +3,7 @@ title: Angle — Mittaa Sisäkulma Kärkipisteessä Kolmen Pisteen Avulla
 description: Angle-komento mittaa sisäkulman (0°–180°) kärkipisteessä, jonka määrittelee kolme napsautettua pistettä. Napsauta ensimmäinen pää, kärkipiste, toinen pää. Tulos näytetään terminaalissa 4 desimaalin tarkkuudella.
 keywords: [CAD kulman mittaus, kolmen pisteen kulma, sisäkulma CAD, mittaa kulma -komento, kärkipisteen kulma, kulmanlab]
 group: measure
-order: 2
+order: 3
 ---
 
 # Angle

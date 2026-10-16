@@ -93,6 +93,7 @@ Maligayang pagdating sa command reference ng **KulmanLab CAD**. Ang [KulmanLab C
 
 | Command | Ano ang ginagawa nito |
 |---------|-------------|
+| [Measure](./commands/measure/) | Basahin ang mga distansya, haba, anggulo at lawak sa paligid ng cursor |
 | [Distance](./commands/distance/) | Sukatin ang distansya sa pagitan ng dalawang punto |
 | [Angle](./commands/angle/) | Sukatin ang angle sa pagitan ng tatlong punto |
 | [Area](./commands/area/) | Sukatin ang area at perimeter ng isang polygon |

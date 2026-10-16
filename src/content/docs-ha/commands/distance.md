@@ -3,7 +3,7 @@ title: Distance — Auna Nisan Layi Madaidaici Tsakanin Tabo Biyu
 description: Umarnin Distance yana auna nisan Euclidean tsakanin tabo biyu da aka danna kuma yana nuna sakamako har zuwa lambobi 4 bayan digit. Danna sake bayan sakamakon don sarƙar sabon awo daga tabon ƙarshe.
 keywords: [auna nisa CAD, umarnin distance, awo na tabo-zuwa-tabo, nisan layi madaidaici, awo na CAD kulmanlab]
 group: measure
-order: 1
+order: 2
 ---
 
 # Distance

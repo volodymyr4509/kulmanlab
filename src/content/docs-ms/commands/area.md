@@ -3,7 +3,7 @@ title: Arahan Area — Ukur Luas dan Perimeter Poligon dalam KulmanLab CAD
 description: Arahan Area mengukur luas tertutup dan perimeter poligon yang ditakrifkan oleh 3 titik yang diklik atau lebih, menggunakan formula shoelace. Menyokong kemasukan arah berkunci sudut dan penonjolan hasil yang berterusan pada kanvas.
 keywords: [CAD ukur luas, arahan area, pengiraan luas poligon, ukuran perimeter, formula shoelace, kulmanlab CAD ukuran]
 group: measure
-order: 3
+order: 4
 ---
 
 # Area

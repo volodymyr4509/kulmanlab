@@ -93,6 +93,7 @@ Welkom bij de **KulmanLab CAD**-opdrachtreferentie. [KulmanLab CAD](https://kulm
 
 | Commando | Wat het doet |
 |---------|-------------|
+| [Measure](./commands/measure/) | Lees afstanden, lengtes, hoeken en oppervlakten rond de cursor af |
 | [Distance](./commands/distance/) | Meet de afstand tussen twee punten |
 | [Angle](./commands/angle/) | Meet de hoek tussen drie punten |
 | [Area](./commands/area/) | Meet de oppervlakte en omtrek van een veelhoek |

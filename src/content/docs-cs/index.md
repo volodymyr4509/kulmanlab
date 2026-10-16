@@ -93,6 +93,7 @@ Vítejte v přehledu příkazů **KulmanLab CAD**. [KulmanLab CAD](https://kulma
 
 | Příkaz | Co dělá |
 |--------|---------|
+| [Measure](./commands/measure/) | Čte vzdálenosti, délky, úhly a plochy kolem kurzoru |
 | [Distance](./commands/distance/) | Změří vzdálenost mezi dvěma body |
 | [Angle](./commands/angle/) | Změří úhel mezi třemi body |
 | [Area](./commands/area/) | Změří plochu a obvod mnohoúhelníku |

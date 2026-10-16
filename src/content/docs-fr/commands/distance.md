@@ -3,7 +3,7 @@ title: Distance — Mesurer la Distance en Ligne Droite Entre Deux Points
 description: La commande Distance mesure la distance euclidienne entre deux points sélectionnés et affiche le résultat avec 4 décimales. Cliquez à nouveau après le résultat pour enchaîner une nouvelle mesure depuis le dernier point.
 keywords: [mesurer distance CAO, commande distance, mesure point à point, distance en ligne droite, mesure CAO kulmanlab]
 group: measure
-order: 1
+order: 2
 ---
 
 # Distance

@@ -3,7 +3,7 @@ title: Distance — měření přímé vzdálenosti mezi dvěma body
 description: Příkaz Distance měří euklidovskou vzdálenost mezi dvěma kliknutými body a zobrazí výsledek na 4 desetinná místa. Kliknutím po výsledku zřetězíte nové měření od posledního bodu.
 keywords: [měření vzdálenosti CAD, příkaz distance, měření mezi dvěma body, přímá vzdálenost, měření kulmanlab CAD]
 group: measure
-order: 1
+order: 2
 ---
 
 # Distance

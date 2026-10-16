@@ -3,7 +3,7 @@ title: Distance コマンド — 2 点間の直線距離を計測（KulmanLab CA
 description: distance コマンドはクリックした 2 点間のユークリッド距離を計測し、小数点以下 4 桁でターミナルに表示します。結果表示後にクリックすると最後の点から新しい計測を連続できます。
 keywords: [CAD 距離計測, distance コマンド, 2点間計測, 直線距離, kulmanlab CAD 計測, distance]
 group: measure
-order: 1
+order: 2
 ---
 
 # Distance
