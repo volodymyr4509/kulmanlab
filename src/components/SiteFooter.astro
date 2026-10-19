@@ -14,6 +14,7 @@ const REDDIT_URL = 'https://www.reddit.com/r/kulmanlab/';
 const homeUrl = localeUrl(lang, 'home');
 const privacyUrl = localeUrl(lang, 'privacy');
 const aboutUrl = localeUrl(lang, 'about');
+const friendsUrl = localeUrl(lang, 'friends');
 ---
 <footer class="border-t border-slate-800 pt-8 pb-10">
   <div class="mx-auto max-w-6xl px-6 mb-6">
@@ -32,6 +33,7 @@ const aboutUrl = localeUrl(lang, 'about');
     </a>
     <nav class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-slate-500 sm:justify-start">
       <a href={aboutUrl} data-locale="about" class="hover:text-slate-300 transition-colors"><span data-i18n="footer.about">{t['footer.about']}</span></a>
+      <a href={friendsUrl} data-locale="friends" class="hover:text-slate-300 transition-colors"><span data-i18n="footer.friends">{t['footer.friends']}</span></a>
       <a href={privacyUrl} data-locale="privacy" class="hover:text-slate-300 transition-colors"><span data-i18n="footer.privacy">{t['footer.privacy']}</span></a>
       <a href="#" data-consent-open class="hover:text-slate-300 transition-colors"><span data-i18n="consent.settings">{t['consent.settings']}</span></a>
       <a href={GITHUB_URL} target="_blank" rel="noopener" class="hover:text-slate-300 transition-colors">GitHub</a>

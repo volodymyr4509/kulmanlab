@@ -98,8 +98,8 @@ function hrefFor(code: string): string {
       if (blogSlug && blogLangs.includes(lang)) return `${prefix}/blog/${blogSlug}/`;
       return `${prefix}/blog/`;
     }
-    // Docs, privacy, about, and how-to pages stay on the equivalent locale path
-    if (bare.startsWith('/docs') || bare.startsWith('/privacy') || bare.startsWith('/about') || bare.startsWith('/how-to')) {
+    // Docs, privacy, about, friends, and how-to pages stay on the equivalent locale path
+    if (bare.startsWith('/docs') || bare.startsWith('/privacy') || bare.startsWith('/about') || bare.startsWith('/friends') || bare.startsWith('/how-to')) {
       return lang === 'en' ? bare : `/${lang}${bare}`;
     }
     // Standard locale pages (home, faq, changelog)

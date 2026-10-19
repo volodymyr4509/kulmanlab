@@ -1,0 +1,28 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import FriendsBody from '../components/FriendsBody.astro';
+import type { Lang } from '../i18n/translations';
+import { buildAlternates } from '../i18n/utils';
+import { friendsContent } from '../i18n/friends-content';
+
+const lang: Lang = 'en';
+const c = friendsContent[lang];
+---
+
+<Layout
+  title={c.title}
+  description={c.desc}
+  canonical="https://kulmanlab.com/friends/"
+  lang={lang}
+  alternates={buildAlternates('friends')}
+>
+
+  <SiteHeader lang={lang} />
+
+  <FriendsBody lang={lang} />
+
+  <SiteFooter lang={lang} />
+
+</Layout>
