@@ -23,7 +23,7 @@ order: 6
 
 ਦੋਵੇਂ ਕਾਲਮ ਉਹੀ ਇਕਾਈ ਕਿਸਮਾਂ ਦਿੰਦੇ ਹਨ, ਹਰ ਇੱਕ ਨਾਲ ਡਰਾਇੰਗ ਵਿੱਚ ਉਨ੍ਹਾਂ ਦੀ ਗਿਣਤੀ:
 
-Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
 
 ਪੌਪਅੱਪ ਖੁੱਲ੍ਹਣ ਵੇਲੇ ਸਭ ਨਿਸ਼ਾਨਬੱਧ ਹੁੰਦੇ ਹਨ, ਸੋ ਤੁਰੰਤ ਬਰਾਮਦ ਕਰਨ ਨਾਲ ਪੂਰੀ ਡਰਾਇੰਗ ਮਿਲਦੀ ਹੈ। ਕਿਸੇ ਕਿਸਮ ਦਾ ਨਿਸ਼ਾਨ ਹਟਾਓ ਤਾਂ ਉਹ ਸਿਰਫ਼ ਉਸੇ ਫ਼ਾਈਲ ਵਿੱਚੋਂ ਬਾਹਰ ਰਹਿੰਦੀ ਹੈ।
 
@@ -53,7 +53,7 @@ Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius D
 
 ਹਰ ਐਂਟਿਟੀ ਕਿਸਮ ਸ਼ਾਮਲ ਹੈ:
 
-- Lines, Circles, Arcs, Ellipses, Polylines, Splines
+- Lines, Circles, Arcs, Ellipses, Polylines, Splines, Points
 - Text
 - Dimensions (linear, aligned, continued, radius, diameter, ਕੋਣ)
 - Leaders (multileaders)
@@ -64,7 +64,7 @@ Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius D
 
 ਹਰ ਐਂਟਿਟੀ ਕਿਸਮ ਸ਼ਾਮਲ ਹੈ:
 
-- Lines, Circles, Arcs, Ellipses, Polylines (`LWPOLYLINE` ਵਜੋਂ ਐਕਸਪੋਰਟ), Splines
+- Lines, Circles, Arcs, Ellipses, Polylines (`LWPOLYLINE` ਵਜੋਂ ਐਕਸਪੋਰਟ), Splines, Points
 - Text
 - Dimensions (linear, aligned, continued, radius, diameter, ਕੋਣ)
 - Leaders (multileaders)

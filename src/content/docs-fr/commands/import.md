@@ -37,6 +37,7 @@ KulmanLab analyse les types d'entités DXF suivants :
 | Ellipse | `ELLIPSE` | |
 | Polyligne | `LWPOLYLINE` | |
 | Spline | `SPLINE` | |
+| Point | `POINT` | |
 | Texte | `TEXT`, `MTEXT` | |
 | Cote | `DIMENSION` | |
 | Multirépère | `MULTILEADER` | |

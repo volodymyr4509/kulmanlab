@@ -37,6 +37,7 @@ KulmanLab analizuje następujące typy elementów DXF:
 | Elipsa | `ELLIPSE` | |
 | Polilinia | `LWPOLYLINE` | |
 | Splajn | `SPLINE` | |
+| Punkt | `POINT` | |
 | Tekst | `TEXT`, `MTEXT` | |
 | Wymiar | `DIMENSION` | |
 | Linia wielokierunkowa | `MULTILEADER` | |

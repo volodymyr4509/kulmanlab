@@ -37,6 +37,7 @@ KulmanLab 解析以下 DXF 图元类型：
 | 椭圆 | `ELLIPSE` | |
 | 多段线 | `LWPOLYLINE` | |
 | 样条线 | `SPLINE` | |
+| 点 | `POINT` | |
 | 文字 | `TEXT`、`MTEXT` | |
 | 标注 | `DIMENSION` | |
 | 多重引线 | `MULTILEADER` | |

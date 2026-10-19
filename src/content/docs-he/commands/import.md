@@ -37,6 +37,7 @@ KulmanLab מפענח את סוגי ישויות ה-DXF הבאים:
 | Ellipse | `ELLIPSE` | |
 | Polyline | `LWPOLYLINE` | |
 | Spline | `SPLINE` | |
+| נקודה | `POINT` | |
 | Text | `TEXT`, `MTEXT` | |
 | Dimension | `DIMENSION` | |
 | Multileader | `MULTILEADER` | |

@@ -23,7 +23,7 @@ order: 6
 
 두 열은 같은 엔티티 유형을 나열하며, 각각 도면에 몇 개가 있는지 함께 보여 줍니다:
 
-Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
 
 팝업이 열릴 때는 모두 체크되어 있으므로 바로 내보내면 도면 전체가 나옵니다. 어떤 유형의 체크를 해제하면 그 파일에서만 빠집니다.
 
@@ -53,7 +53,7 @@ Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius D
 
 모든 엔티티 유형이 포함됩니다:
 
-- Lines, Circles, Arcs, Ellipses, Polylines, Splines
+- Lines, Circles, Arcs, Ellipses, Polylines, Splines, Points
 - Text
 - 치수(linear, aligned, continued, radius, diameter, 각도)
 - Leaders(멀티리더)
@@ -64,7 +64,7 @@ Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius D
 
 모든 엔티티 유형이 포함됩니다:
 
-- Lines, Circles, Arcs, Ellipses, Polylines(`LWPOLYLINE`으로 내보내짐), Splines
+- Lines, Circles, Arcs, Ellipses, Polylines(`LWPOLYLINE`으로 내보내짐), Splines, Points
 - Text
 - 치수(linear, aligned, continued, radius, diameter, 각도)
 - Leaders(멀티리더)

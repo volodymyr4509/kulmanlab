@@ -25,6 +25,7 @@ order: 1
 | [Text](./commands/text/) | キャンバスにテキストラベルを配置する |
 | [Spline CV](./commands/spline-cv/) | コントロール頂点を配置してスプラインを描く |
 | [Spline Fit](./commands/spline-fit/) | クリック点を通過するスプラインを描く |
+| [Point](./commands/point/) | クリックまたは入力した位置に点を置く |
 
 ## 編集
 

@@ -23,7 +23,7 @@ order: 6
 
 দুই কলামেই একই সত্তার ধরন থাকে, প্রতিটির সঙ্গে ড্রয়িংয়ে কতগুলো আছে তার সংখ্যা:
 
-Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
 
 পপআপ খুললে সবই টিক দেওয়া থাকে, তাই সঙ্গে সঙ্গে রপ্তানি করলে পুরো ড্রয়িং পাবেন। কোনো ধরনের টিক তুলে দিলে সেটি শুধু ওই ফাইল থেকে বাদ যায়।
 
@@ -53,7 +53,7 @@ Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius D
 
 প্রতিটি এনটিটি টাইপ অন্তর্ভুক্ত থাকে:
 
-- Lines, Circles, Arcs, Ellipses, Polylines, Splines
+- Lines, Circles, Arcs, Ellipses, Polylines, Splines, Points
 - Text
 - Dimensions (linear, aligned, continued, radius, diameter, কৌণিক)
 - Leaders (multileaders)
@@ -64,7 +64,7 @@ Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius D
 
 প্রতিটি এনটিটি টাইপ অন্তর্ভুক্ত থাকে:
 
-- Lines, Circles, Arcs, Ellipses, Polylines (`LWPOLYLINE` হিসেবে এক্সপোর্ট), Splines
+- Lines, Circles, Arcs, Ellipses, Polylines (`LWPOLYLINE` হিসেবে এক্সপোর্ট), Splines, Points
 - Text
 - Dimensions (linear, aligned, continued, radius, diameter, কৌণিক)
 - Leaders (multileaders)

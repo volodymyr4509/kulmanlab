@@ -25,6 +25,7 @@ Selamat datang ke rujukan arahan **KulmanLab CAD**. [KulmanLab CAD](https://kulm
 | [Text](./commands/text/) | Letak label teks pada kanvas |
 | [Spline CV](./commands/spline-cv/) | Lukis spline dengan meletakkan bucu kawalan |
 | [Spline Fit](./commands/spline-fit/) | Lukis spline yang melalui titik-titik yang diklik |
+| [Point](./commands/point/) | Letakkan titik pada kedudukan yang diklik atau ditaip |
 
 ## Edit
 

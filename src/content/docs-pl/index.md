@@ -25,6 +25,7 @@ Witaj w dokumentacji poleceń **KulmanLab CAD**. [KulmanLab CAD](https://kulmanl
 | [Text](./commands/text/) | Umieszcza etykietę tekstową na płótnie |
 | [Spline CV](./commands/spline-cv/) | Rysuje splajn przez umieszczanie wierzchołków kontrolnych |
 | [Spline Fit](./commands/spline-fit/) | Rysuje splajn przechodzący przez klikane punkty |
+| [Point](./commands/point/) | Umieszcza punkty w klikniętych lub wpisanych miejscach |
 
 ## Edycja
 

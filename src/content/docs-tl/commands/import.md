@@ -37,6 +37,7 @@ Ini-parse ng KulmanLab ang mga sumusunod na DXF entity types:
 | Ellipse | `ELLIPSE` | |
 | Polyline | `LWPOLYLINE` | |
 | Spline | `SPLINE` | |
+| Punto | `POINT` | |
 | Text | `TEXT`, `MTEXT` | |
 | Dimension | `DIMENSION` | |
 | Multileader | `MULTILEADER` | |

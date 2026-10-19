@@ -23,7 +23,7 @@ Stisknutím `Escape` okno zavřete bez exportu.
 
 Oba sloupce vypisují stejné typy objektů, každý s počtem, kolik jich je ve výkresu:
 
-Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
 
 Po otevření okna je vše zaškrtnuto, takže okamžitý export vám dá celý výkres. Odškrtnutím typu ho z daného souboru vynecháte.
 
@@ -55,7 +55,7 @@ Díky tomu je příprava řezného souboru snadná. Odškrtněte Text, čtyři �
 
 Zahrnuty jsou všechny typy objektů:
 
-- Lines, circles, arcs, ellipses, polylines, splines
+- Lines, circles, arcs, ellipses, polylines, splines, points
 - Text
 - Kóty (lineární, zarovnané, navazující, poloměru, průměru, úhlové)
 - Leaders (vícenásobné odkazové čáry)
@@ -66,7 +66,7 @@ Zahrnuty jsou všechny typy objektů:
 
 Zahrnuty jsou všechny typy objektů:
 
-- Lines, circles, arcs, ellipses, polylines (exportované jako `LWPOLYLINE`), splines
+- Lines, circles, arcs, ellipses, polylines (exportované jako `LWPOLYLINE`), splines, points
 - Text zapsaný jako `MTEXT` s formátováním jednotlivých úseků — písmo, výška, tučné, kurzíva, podtržení, přeškrtnutí
 - Kóty (lineární, zarovnané, navazující, poloměru, průměru, úhlové) jako standardní objekty `DIMENSION`
 - Leaders jako `MULTILEADER`

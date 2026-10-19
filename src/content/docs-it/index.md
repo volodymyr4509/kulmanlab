@@ -25,6 +25,7 @@ Benvenuto nel riferimento comandi di **KulmanLab CAD**. [KulmanLab CAD](https://
 | [Text](./commands/text/) | Posiziona un'etichetta di testo sulla lavagna |
 | [Spline CV](./commands/spline-cv/) | Traccia una spline posizionando vertici di controllo |
 | [Spline Fit](./commands/spline-fit/) | Traccia una spline che passa per i punti cliccati |
+| [Point](./commands/point/) | Posiziona punti in posizioni cliccate o digitate |
 
 ## Modifica
 

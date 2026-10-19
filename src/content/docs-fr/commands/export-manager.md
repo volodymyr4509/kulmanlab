@@ -23,7 +23,7 @@ Appuyez sur `Échap` pour fermer la fenêtre sans exporter.
 
 Les deux colonnes listent les mêmes types d'entités, chacun avec le nombre présent dans le dessin :
 
-Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
 
 Tout est coché à l'ouverture, un export immédiat vous donne donc le dessin entier. Décochez un type pour l'exclure de ce fichier-là seulement.
 
@@ -53,7 +53,7 @@ Pour un fichier de découpe, décochez Text, les quatre lignes de cotation, Lead
 
 Chaque type d'entité est inclus :
 
-- Lines, Circles, Arcs, Ellipses, Polylines, Splines
+- Lines, Circles, Arcs, Ellipses, Polylines, Splines, Points
 - Text
 - Cotes (linéaire, alignée, continue, rayon, diamètre, angle)
 - Leaders (multileaders)
@@ -64,7 +64,7 @@ Chaque type d'entité est inclus :
 
 Chaque type d'entité est inclus :
 
-- Lines, Circles, Arcs, Ellipses, Polylines (exportées en `LWPOLYLINE`), Splines
+- Lines, Circles, Arcs, Ellipses, Polylines (exportées en `LWPOLYLINE`), Splines, Points
 - Text
 - Cotes (linéaire, alignée, continue, rayon, diamètre, angle)
 - Leaders (multileaders)

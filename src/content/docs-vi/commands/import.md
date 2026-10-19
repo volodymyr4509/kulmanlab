@@ -36,6 +36,7 @@ KulmanLab phân tích các loại thực thể DXF sau:
 | Hình elip | `ELLIPSE` |
 | Đường đa đoạn | `LWPOLYLINE` |
 | Spline | `SPLINE` |
+| Điểm | `POINT` | |
 | Văn bản | `TEXT`, `MTEXT` |
 | Kích thước | `DIMENSION` |
 | Đa đường dẫn | `MULTILEADER` |

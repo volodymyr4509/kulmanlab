@@ -23,7 +23,7 @@ Press `Escape` to close the popup without exporting.
 
 Both columns list the same entity types, each with a count of how many are in the drawing:
 
-Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
 
 Everything is ticked when the popup opens, so exporting straight away gives you the whole drawing. Untick a type to leave it out of that one file.
 
@@ -55,7 +55,7 @@ This is what makes a cut file straightforward. Untick Text, the four dimension r
 
 Every entity type is included:
 
-- Lines, circles, arcs, ellipses, polylines, splines
+- Lines, circles, arcs, ellipses, polylines, splines, points
 - Text
 - Dimensions (linear, aligned, continued, radius, diameter, angular)
 - Leaders (multileaders)
@@ -66,7 +66,7 @@ Every entity type is included:
 
 Every entity type is included:
 
-- Lines, circles, arcs, ellipses, polylines (exported as `LWPOLYLINE`), splines
+- Lines, circles, arcs, ellipses, polylines (exported as `LWPOLYLINE`), splines, points
 - Text, written as `MTEXT` with its per-run formatting — font, height, bold, italic, underline, strikethrough
 - Dimensions (linear, aligned, continued, radius, diameter, angular), as standard `DIMENSION` entities
 - Leaders, as `MULTILEADER`

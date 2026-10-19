@@ -37,6 +37,7 @@ KulmanLab แยกวิเคราะห์ประเภทวัตถุ 
 | Ellipse | `ELLIPSE` | |
 | Polyline | `LWPOLYLINE` | |
 | Spline | `SPLINE` | |
+| จุด | `POINT` | |
 | Text | `TEXT`, `MTEXT` | |
 | Dimension | `DIMENSION` | |
 | Multileader | `MULTILEADER` | |

@@ -37,6 +37,7 @@ KulmanLab은 다음 DXF 객체 유형을 파싱합니다:
 | 타원 | `ELLIPSE` | |
 | 폴리선 | `LWPOLYLINE` | |
 | 스플라인 | `SPLINE` | |
+| 점 | `POINT` | |
 | 텍스트 | `TEXT`, `MTEXT` | |
 | 치수 | `DIMENSION` | |
 | 다중 지시선 | `MULTILEADER` | |

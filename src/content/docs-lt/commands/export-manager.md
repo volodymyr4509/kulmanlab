@@ -23,7 +23,7 @@ Paspauskite `Escape`, kad uždarytumėte langą neeksportavę.
 
 Abu stulpeliai išvardija tuos pačius objektų tipus, kiekvieną su kiekiu, kiek jų yra brėžinyje:
 
-Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
 
 Atidarius langą viskas pažymėta, todėl eksportavus iškart gaunamas visas brėžinys. Nuimkite tipo žymėjimą, kad jį praleistumėte tame vienoje faile.
 
@@ -55,7 +55,7 @@ Būtent tai padaro pjovimo failo paruošimą paprastą. Nuimkite Text, keturių 
 
 Įtraukiami visi objektų tipai:
 
-- Lines, circles, arcs, ellipses, polylines, splines
+- Lines, circles, arcs, ellipses, polylines, splines, points
 - Text
 - Matmenys (linijiniai, lygiagretūs, grandininiai, spindulio, skersmens, kampiniai)
 - Leaders (daugiašakės išnašos)
@@ -66,7 +66,7 @@ Būtent tai padaro pjovimo failo paruošimą paprastą. Nuimkite Text, keturių 
 
 Įtraukiami visi objektų tipai:
 
-- Lines, circles, arcs, ellipses, polylines (eksportuojamos kaip `LWPOLYLINE`), splines
+- Lines, circles, arcs, ellipses, polylines (eksportuojamos kaip `LWPOLYLINE`), splines, points
 - Text, rašomas kaip `MTEXT` su formatavimu pagal atkarpas — šriftas, aukštis, pusjuodis, kursyvas, pabraukimas, perbraukimas
 - Matmenys (linijiniai, lygiagretūs, grandininiai, spindulio, skersmens, kampiniai) kaip standartiniai `DIMENSION` objektai
 - Leaders kaip `MULTILEADER`

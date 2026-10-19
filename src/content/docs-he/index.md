@@ -25,6 +25,7 @@ order: 1
 | [Text](./commands/text/) | מיקום תווית טקסט על הקנבס |
 | [Spline CV](./commands/spline-cv/) | שרטוט ספליין על ידי מיקום נקודות בקרה |
 | [Spline Fit](./commands/spline-fit/) | שרטוט ספליין העובר דרך נקודות שנלחצו |
+| [Point](./commands/point/) | מציבה נקודות במיקומים שנלחצו או הוקלדו |
 
 ## עריכה
 

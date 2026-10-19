@@ -23,7 +23,7 @@ Tekan `Escape` untuk menutup popup tanpa mengekspor.
 
 Kedua kolom mencantumkan tipe entitas yang sama, masing-masing dengan jumlahnya di gambar:
 
-Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
 
 Semua tercentang saat popup terbuka, jadi mengekspor langsung memberi Anda seluruh gambar. Hilangkan centang sebuah tipe untuk mengeluarkannya dari berkas itu saja.
 
@@ -53,7 +53,7 @@ Untuk berkas potong, hilangkan centang Text, keempat baris dimensi, Leaders, dan
 
 Setiap jenis entitas disertakan:
 
-- Lines, Circles, Arcs, Ellipses, Polylines, Splines
+- Lines, Circles, Arcs, Ellipses, Polylines, Splines, Points
 - Text
 - Dimensi (linear, aligned, continued, radius, diameter, sudut)
 - Leaders (multileaders)
@@ -64,7 +64,7 @@ Setiap jenis entitas disertakan:
 
 Setiap jenis entitas disertakan:
 
-- Lines, Circles, Arcs, Ellipses, Polylines (diekspor sebagai `LWPOLYLINE`), Splines
+- Lines, Circles, Arcs, Ellipses, Polylines (diekspor sebagai `LWPOLYLINE`), Splines, Points
 - Text
 - Dimensi (linear, aligned, continued, radius, diameter, sudut)
 - Leaders (multileaders)

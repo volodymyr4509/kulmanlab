@@ -23,7 +23,7 @@ Dışa aktarmadan açılır pencereyi kapatmak için `Escape` tuşuna basın.
 
 İki sütun da aynı varlık türlerini listeler, her birinin yanında çizimdeki adediyle:
 
-Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
 
 Pencere açıldığında hepsi işaretlidir, dolayısıyla hemen dışa aktarmak size çizimin tamamını verir. Bir türün işaretini kaldırırsanız yalnızca o dosyanın dışında kalır.
 
@@ -53,7 +53,7 @@ Kesim dosyası için Text, dört ölçü satırı, Leaders ve Hatches işaretler
 
 Her varlık türü dahildir:
 
-- Lines, Circles, Arcs, Ellipses, Polylines, Splines
+- Lines, Circles, Arcs, Ellipses, Polylines, Splines, Points
 - Text
 - Ölçüler (linear, aligned, continued, radius, diameter, açı)
 - Leaders (multileader'lar)
@@ -64,7 +64,7 @@ Her varlık türü dahildir:
 
 Her varlık türü dahildir:
 
-- Lines, Circles, Arcs, Ellipses, Polylines (`LWPOLYLINE` olarak dışa aktarılır), Splines
+- Lines, Circles, Arcs, Ellipses, Polylines (`LWPOLYLINE` olarak dışa aktarılır), Splines, Points
 - Text
 - Ölçüler (linear, aligned, continued, radius, diameter, açı)
 - Leaders (multileader'lar)

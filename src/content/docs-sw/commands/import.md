@@ -37,6 +37,7 @@ KulmanLab huchambua aina zifuatazo za viumbe vya DXF:
 | Duaradufu | `ELLIPSE` | |
 | Polyline | `LWPOLYLINE` | |
 | Spline | `SPLINE` | |
+| Nukta | `POINT` | |
 | Maandishi | `TEXT`, `MTEXT` | |
 | Kipimo | `DIMENSION` | |
 | Kiongozi wa kuzidisha | `MULTILEADER` | |

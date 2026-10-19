@@ -23,7 +23,7 @@ Druk op `Escape` om de pop-up te sluiten zonder te exporteren.
 
 Beide kolommen tonen dezelfde entiteitstypen, elk met het aantal ervan in de tekening:
 
-Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
 
 Bij het openen staat alles aangevinkt, dus meteen exporteren geeft je de hele tekening. Vink een type uit om het alleen uit dát bestand te houden.
 
@@ -53,7 +53,7 @@ Voor een snijbestand vink je Text, de vier maatvoeringsrijen, Leaders en Hatches
 
 Elk entiteitstype is inbegrepen:
 
-- Lines, Circles, Arcs, Ellipses, Polylines, Splines
+- Lines, Circles, Arcs, Ellipses, Polylines, Splines, Points
 - Text
 - Maatvoeringen (linear, aligned, continued, radius, diameter, hoek)
 - Leaders (multileaders)
@@ -64,7 +64,7 @@ Elk entiteitstype is inbegrepen:
 
 Elk entiteitstype is inbegrepen:
 
-- Lines, Circles, Arcs, Ellipses, Polylines (geëxporteerd als `LWPOLYLINE`), Splines
+- Lines, Circles, Arcs, Ellipses, Polylines (geëxporteerd als `LWPOLYLINE`), Splines, Points
 - Text
 - Maatvoeringen (linear, aligned, continued, radius, diameter, hoek)
 - Leaders (multileaders)

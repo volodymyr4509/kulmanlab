@@ -25,6 +25,7 @@ Karibu kwenye marejeo ya amri za **KulmanLab CAD**. [KulmanLab CAD](https://kulm
 | [Text](./commands/text/) | Weka lebo ya maandishi kwenye turubai |
 | [Spline CV](./commands/spline-cv/) | Chora spline kwa kuweka vipeo vya udhibiti |
 | [Spline Fit](./commands/spline-fit/) | Chora spline inayopita kupitia pointi zilizopigiwa klik |
+| [Point](./commands/point/) | Weka nukta kwenye mahali palipobofywa au palipoandikwa |
 
 ## Hariri
 

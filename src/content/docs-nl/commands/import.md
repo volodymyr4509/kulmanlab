@@ -37,6 +37,7 @@ KulmanLab verwerkt de volgende DXF-entiteitstypen:
 | Ellipse | `ELLIPSE` | |
 | Polyline | `LWPOLYLINE` | |
 | Spline | `SPLINE` | |
+| Punt | `POINT` | |
 | Text | `TEXT`, `MTEXT` | |
 | Dimension | `DIMENSION` | |
 | Multileader | `MULTILEADER` | |

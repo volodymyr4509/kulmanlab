@@ -25,6 +25,7 @@ Bienvenue dans la référence des commandes **KulmanLab CAD**. [KulmanLab CAD](h
 | [Text](./commands/text/) | Place un label de texte sur le canevas |
 | [Spline CV](./commands/spline-cv/) | Trace une spline en plaçant des sommets de contrôle |
 | [Spline Fit](./commands/spline-fit/) | Trace une spline passant par les points cliqués |
+| [Point](./commands/point/) | Place des points à des positions cliquées ou saisies |
 
 ## Édition
 

@@ -23,7 +23,7 @@ order: 6
 
 دونوں کالم وہی عناصر کی اقسام دکھاتے ہیں، ہر ایک کے ساتھ نقشے میں ان کی تعداد:
 
-Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
 
 ونڈو کھلتے وقت سب پر نشان ہوتا ہے، سو فوراً برآمد کرنے پر پورا نقشہ ملتا ہے۔ کسی قسم کا نشان ہٹائیے تو وہ صرف اسی فائل سے باہر رہتی ہے۔
 

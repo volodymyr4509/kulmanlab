@@ -25,6 +25,7 @@ order: 1
 | [Text](./commands/text/) | วางป้ายข้อความบนแคนวาส |
 | [Spline CV](./commands/spline-cv/) | วาดสไปลน์โดยวางจุดควบคุม |
 | [Spline Fit](./commands/spline-fit/) | วาดสไปลน์ที่ผ่านจุดที่คลิก |
+| [Point](./commands/point/) | วางจุดในตำแหน่งที่คลิกหรือพิมพ์ |
 
 ## แก้ไข
 

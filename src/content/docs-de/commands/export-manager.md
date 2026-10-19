@@ -23,7 +23,7 @@ Drücken Sie `Escape`, um das Popup ohne Export zu schließen.
 
 Beide Spalten listen dieselben Elementtypen auf, jeweils mit der Anzahl in der Zeichnung:
 
-Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
 
 Beim Öffnen ist alles angehakt, ein sofortiger Export liefert also die ganze Zeichnung. Nehmen Sie den Haken weg, um einen Typ aus genau dieser Datei herauszuhalten.
 
@@ -53,7 +53,7 @@ Für eine Schnittdatei nehmen Sie die Haken bei Text, den vier Bemaßungszeilen,
 
 Jeder Elementtyp ist enthalten:
 
-- Lines, Circles, Arcs, Ellipses, Polylines, Splines
+- Lines, Circles, Arcs, Ellipses, Polylines, Splines, Points
 - Text
 - Bemaßungen (linear, ausgerichtet, fortgesetzt, Radius, Durchmesser, Winkel)
 - Leaders (Mehrfach-Hinweislinien)
@@ -64,7 +64,7 @@ Jeder Elementtyp ist enthalten:
 
 Jeder Elementtyp ist enthalten:
 
-- Lines, Circles, Arcs, Ellipses, Polylines (als `LWPOLYLINE` exportiert), Splines
+- Lines, Circles, Arcs, Ellipses, Polylines (als `LWPOLYLINE` exportiert), Splines, Points
 - Text
 - Bemaßungen (linear, ausgerichtet, fortgesetzt, Radius, Durchmesser, Winkel)
 - Leaders (Mehrfach-Hinweislinien)

@@ -25,6 +25,7 @@ Vítejte v přehledu příkazů **KulmanLab CAD**. [KulmanLab CAD](https://kulma
 | [Text](./commands/text/) | Umístí na plátno textový popisek |
 | [Spline CV](./commands/spline-cv/) | Nakreslí spline umístěním řídicích vrcholů |
 | [Spline Fit](./commands/spline-fit/) | Nakreslí spline procházející kliknutými body |
+| [Point](./commands/point/) | Umísťuje body na kliknuté nebo zadané polohy |
 
 ## Edit
 

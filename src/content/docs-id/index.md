@@ -25,6 +25,7 @@ Selamat datang di referensi perintah **KulmanLab CAD**. [KulmanLab CAD](https://
 | [Text](./commands/text/) | Menempatkan label teks pada kanvas |
 | [Spline CV](./commands/spline-cv/) | Menggambar spline dengan menempatkan control vertex |
 | [Spline Fit](./commands/spline-fit/) | Menggambar spline yang melewati titik-titik yang diklik |
+| [Point](./commands/point/) | Letakkan titik pada posisi yang diklik atau diketik |
 
 ## Edit
 

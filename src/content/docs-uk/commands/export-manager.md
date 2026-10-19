@@ -23,7 +23,7 @@ order: 6
 
 Обидва стовпці перелічують ті самі типи об'єктів, кожен із кількістю в кресленні:
 
-Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
 
 Під час відкриття позначено все, тож негайний експорт дає ціле креслення. Зніміть прапорець із типу, щоб лишити його поза саме цим файлом.
 
@@ -53,7 +53,7 @@ Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius D
 
 Включено кожен тип об'єктів:
 
-- Lines, Circles, Arcs, Ellipses, Polylines, Splines
+- Lines, Circles, Arcs, Ellipses, Polylines, Splines, Points
 - Text
 - Dimensions (лінійний, вирівняний, послідовний, радіус, діаметр, кут)
 - Leaders (мультивиноски)
@@ -64,7 +64,7 @@ Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius D
 
 Включено кожен тип об'єктів:
 
-- Lines, Circles, Arcs, Ellipses, Polylines (експортуються як `LWPOLYLINE`), Splines
+- Lines, Circles, Arcs, Ellipses, Polylines (експортуються як `LWPOLYLINE`), Splines, Points
 - Text
 - Dimensions (лінійний, вирівняний, послідовний, радіус, діаметр, кут)
 - Leaders (мультивиноски)

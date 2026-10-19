@@ -25,6 +25,7 @@ Maligayang pagdating sa command reference ng **KulmanLab CAD**. Ang [KulmanLab C
 | [Text](./commands/text/) | Maglagay ng text label sa canvas |
 | [Spline CV](./commands/spline-cv/) | Gumuhit ng spline sa pamamagitan ng paglalagay ng control vertex |
 | [Spline Fit](./commands/spline-fit/) | Gumuhit ng spline na dumadaan sa mga na-click na punto |
+| [Point](./commands/point/) | Maglagay ng mga punto sa mga posisyong na-click o na-type |
 
 ## Edit
 

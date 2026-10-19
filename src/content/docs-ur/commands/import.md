@@ -37,6 +37,7 @@ KulmanLab درج ذیل DXF اینٹیٹی اقسام پارس کرتا ہے:
 | بیضہ | `ELLIPSE` | |
 | پولی لائن | `LWPOLYLINE` | |
 | اسپلائن | `SPLINE` | |
+| نقطہ | `POINT` | |
 | متن | `TEXT`، `MTEXT` | |
 | ڈائمنشن | `DIMENSION` | |
 | ملٹی لیڈر | `MULTILEADER` | |

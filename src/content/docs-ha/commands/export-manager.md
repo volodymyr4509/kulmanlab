@@ -23,7 +23,7 @@ Danna `Escape` don rufe popup ɗin ba tare da fitarwa ba.
 
 Ginshiƙai biyu suna lissafa nau'ikan abubuwa iri ɗaya, kowanne da adadin da ke cikin zanen:
 
-Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
 
 Duk suna da alama lokacin buɗe taga, don haka fitarwa nan take tana ba ka zanen gaba ɗaya. Cire alamar wani nau'i domin a bar shi daga wannan fayil ɗin kaɗai.
 
@@ -53,7 +53,7 @@ Domin fayil ɗin yankewa, cire alamar Text, layukan ma'auni huɗu, Leaders da Ha
 
 Kowane nau'in entity yana ciki:
 
-- Lines, Circles, Arcs, Ellipses, Polylines, Splines
+- Lines, Circles, Arcs, Ellipses, Polylines, Splines, Points
 - Text
 - Dimensions (madaidaici, daidaitacce, ci gaba, radius, diameter, kusurwa)
 - Leaders (multileaders)
@@ -64,7 +64,7 @@ Kowane nau'in entity yana ciki:
 
 Kowane nau'in entity yana ciki:
 
-- Lines, Circles, Arcs, Ellipses, Polylines (ana fitar dasu a matsayin `LWPOLYLINE`), Splines
+- Lines, Circles, Arcs, Ellipses, Polylines (ana fitar dasu a matsayin `LWPOLYLINE`), Splines, Points
 - Text
 - Dimensions (madaidaici, daidaitacce, ci gaba, radius, diameter, kusurwa)
 - Leaders (multileaders)

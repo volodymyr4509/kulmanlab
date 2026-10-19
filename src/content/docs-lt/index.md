@@ -25,6 +25,7 @@ Sveiki atvykę į **KulmanLab CAD** komandų žinyną. [KulmanLab CAD](https://k
 | [Text](./commands/text/) | Padeda teksto užrašą drobėje |
 | [Spline CV](./commands/spline-cv/) | Nubrėžia splainą dedant valdymo viršūnes |
 | [Spline Fit](./commands/spline-fit/) | Nubrėžia splainą, einantį per spustelėtus taškus |
+| [Point](./commands/point/) | Deda taškus spustelėtose ar įvestose vietose |
 
 ## Edit
 

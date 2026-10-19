@@ -23,7 +23,7 @@ Presiona `Escape` para cerrar la ventana emergente sin exportar.
 
 Ambas columnas listan los mismos tipos de entidad, cada uno con cuántos hay en el dibujo:
 
-Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
 
 Todo está marcado al abrir la ventana, así que exportar de inmediato te da el dibujo entero. Desmarca un tipo para dejarlo fuera de ese archivo concreto.
 
@@ -53,7 +53,7 @@ Para un archivo de corte, desmarca Text, las cuatro filas de cotas, Leaders y Ha
 
 Se incluye cada tipo de entidad:
 
-- Lines, Circles, Arcs, Ellipses, Polylines, Splines
+- Lines, Circles, Arcs, Ellipses, Polylines, Splines, Points
 - Text
 - Cotas (lineal, alineada, continuada, radio, diámetro, ángulo)
 - Leaders (multileaders)
@@ -64,7 +64,7 @@ Se incluye cada tipo de entidad:
 
 Se incluye cada tipo de entidad:
 
-- Lines, Circles, Arcs, Ellipses, Polylines (exportadas como `LWPOLYLINE`), Splines
+- Lines, Circles, Arcs, Ellipses, Polylines (exportadas como `LWPOLYLINE`), Splines, Points
 - Text
 - Cotas (lineal, alineada, continuada, radio, diámetro, ángulo)
 - Leaders (multileaders)

@@ -252,6 +252,7 @@ KulmanLab is a free, browser-based 2D CAD editor. No installation, no account, n
 - 50+ drawing commands via toolbar or command terminal (LINE, CIRCLE, ARC, POLYGON, MOVE, TRIM, OFFSET, ARRAYPOLAR, and more)
 - Arc can be drawn seven ways; Polygon draws regular polygons of 3–1024 sides from a center or an edge; Array Grid and Array Polar repeat a selection in rows and columns or round a center
 - Trim, Extend and Hatch work with splines, including a spline that crosses itself
+- Point places POINT entities at clicked or typed positions, read from and written to DXF
 - Measure reads distances, lengths, angles, and the area and perimeter of a closed area around the cursor, with nothing to pick
 - Dimension unit formats (scientific, decimal, engineering, architectural, fractional, system; angular decimal degrees, deg/min/sec, gradians, radians), with Precision read in the chosen format
 - Full layer management: create, rename, freeze, lock, isolate, color, linetype, lineweight per layer
@@ -2146,7 +2147,7 @@ Press `Escape` to close the popup without exporting.
 
 Both columns list the same entity types, each with a count of how many are in the drawing:
 
-Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
 
 Everything is ticked when the popup opens, so exporting straight away gives you the whole drawing. Untick a type to leave it out of that one file.
 
@@ -2178,7 +2179,7 @@ This is what makes a cut file straightforward. Untick Text, the four dimension r
 
 Every entity type is included:
 
-- Lines, circles, arcs, ellipses, polylines, splines
+- Lines, circles, arcs, ellipses, polylines, splines, points
 - Text
 - Dimensions (linear, aligned, continued, radius, diameter, angular)
 - Leaders (multileaders)
@@ -2189,7 +2190,7 @@ Every entity type is included:
 
 Every entity type is included:
 
-- Lines, circles, arcs, ellipses, polylines (exported as `LWPOLYLINE`), splines
+- Lines, circles, arcs, ellipses, polylines (exported as `LWPOLYLINE`), splines, points
 - Text, written as `MTEXT` with its per-run formatting — font, height, bold, italic, underline, strikethrough
 - Dimensions (linear, aligned, continued, radius, diameter, angular), as standard `DIMENSION` entities
 - Leaders, as `MULTILEADER`
@@ -2853,6 +2854,7 @@ KulmanLab parses the following DXF entity types:
 | Ellipse | `ELLIPSE` | |
 | Polyline | `LWPOLYLINE` | |
 | Spline | `SPLINE` | |
+| Point | `POINT` | |
 | Text | `TEXT`, `MTEXT` | |
 | Dimension | `DIMENSION` | |
 | Multileader | `MULTILEADER` | |
@@ -4057,6 +4059,38 @@ The fastest way to pan: **hold the middle mouse button and drag** at any time, e
 - Use the scroll wheel to zoom toward a target area, then pan to fine-tune position.
 - **Double-click the middle mouse button** triggers [Fit](https://kulmanlab.com/docs/commands/fit/) instantly — the fastest way to reset a lost view.
 - If you are mid-command (e.g., placing a line endpoint), middle-click drag to pan without cancelling the command.
+
+---
+
+<!-- Source: /docs/commands/point/ -->
+# Point
+
+The `point` command places a point at every pick and stays active until you press Enter, Space or Escape. A point is a position with no size: it is drawn as a small dot and carries the current layer and color. It is stored as a `POINT` entity.
+
+## Placing points
+
+1. Type `point` in the terminal or click **Point**, the last button in the Shapes panel.
+2. **Click** where the point goes, or type `X,Y` and press **Enter** for an exact position. Each pick places a point and the terminal logs its coordinates; the command stays active for the next.
+3. Or lock a direction from a [vector pin](https://kulmanlab.com/docs/interface/vector-pins/) and type a distance — the point lands exactly that far along it.
+4. Press **Enter**, **Space** or **Escape** to finish. Enter and Space finish only when nothing is being typed.
+
+## How a point looks
+
+A point is drawn as a dot 1 px in radius at every zoom level, so it stays visible when you zoom out and does not grow when you zoom in. The drawing's point style (`$PDMODE` and `$PDSIZE`) is not read yet, so every point is a dot, whatever a DXF says.
+
+## Editing points
+
+A selected point has one grip, which moves it. A box selection takes a point when the point is inside the box, in either drag direction.
+
+[Move](https://kulmanlab.com/docs/commands/move/), [Copy](https://kulmanlab.com/docs/commands/copy/), [Rotate](https://kulmanlab.com/docs/commands/rotate/), [Mirror](https://kulmanlab.com/docs/commands/mirror/) and [Scale](https://kulmanlab.com/docs/commands/scale/) work on points as on any other entity. The property window shows Position X and Position Y, plus color and layer.
+
+## DXF — POINT entity
+
+Points are read from and written to DXF as `POINT` entities, with position, color and layer (group codes 10/20, 62 and 8), and they round-trip through saved JSON. They used to be skipped on import. [Export Manager](https://kulmanlab.com/docs/commands/export-manager/) lists Points as their own row, so you can leave them out of an export.
+
+---
+
+*Related: [Line](https://kulmanlab.com/docs/commands/line/) for the same coordinate entry, and [Vector Pins](https://kulmanlab.com/docs/interface/vector-pins/) for placing a point a set distance along a direction.*
 
 ---
 

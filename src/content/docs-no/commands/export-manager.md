@@ -23,7 +23,7 @@ Trykk `Escape` for å lukke popup-vinduet uten å eksportere.
 
 Begge kolonner lister de samme elementtypene, hver med antallet i tegningen:
 
-Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
 
 Alt er avkrysset når vinduet åpnes, så eksporterer du med én gang, får du hele tegningen. Fjern haken ved en type for å holde den utenfor akkurat den filen.
 
@@ -53,7 +53,7 @@ For en skjærefil fjerner du haken ved Text, de fire målradene, Leaders og Hatc
 
 Alle entitetstyper er inkludert:
 
-- Lines, Circles, Arcs, Ellipses, Polylines, Splines
+- Lines, Circles, Arcs, Ellipses, Polylines, Splines, Points
 - Text
 - Mål (lineær, justert, fortsatt, radius, diameter, vinkel)
 - Leaders (multi-ledelinjer)
@@ -64,7 +64,7 @@ Alle entitetstyper er inkludert:
 
 Alle entitetstyper er inkludert:
 
-- Lines, Circles, Arcs, Ellipses, Polylines (eksportert som `LWPOLYLINE`), Splines
+- Lines, Circles, Arcs, Ellipses, Polylines (eksportert som `LWPOLYLINE`), Splines, Points
 - Text
 - Mål (lineær, justert, fortsatt, radius, diameter, vinkel)
 - Leaders (multi-ledelinjer)

@@ -23,7 +23,7 @@ Bonyeza `Escape` kufunga popup bila kuhamisha.
 
 Safu zote mbili huorodhesha aina zilezile za vitu, kila moja ikiwa na idadi yake katika mchoro:
 
-Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
 
 Vyote vina alama dirisha linapofunguka, hivyo kuhamisha mara moja hukupa mchoro mzima. Ondoa alama kwenye aina ili iachwe nje ya faili hiyo pekee.
 
@@ -53,7 +53,7 @@ Kwa faili ya kukata, ondoa alama za Text, safu nne za vipimo, Leaders na Hatches
 
 Kila aina ya entiti imejumuishwa:
 
-- Lines, Circles, Arcs, Ellipses, Polylines, Splines
+- Lines, Circles, Arcs, Ellipses, Polylines, Splines, Points
 - Text
 - Dimensions (linear, aligned, continued, radius, diameter, pembe)
 - Leaders (multileaders)
@@ -64,7 +64,7 @@ Kila aina ya entiti imejumuishwa:
 
 Kila aina ya entiti imejumuishwa:
 
-- Lines, Circles, Arcs, Ellipses, Polylines (zinahamishwa kama `LWPOLYLINE`), Splines
+- Lines, Circles, Arcs, Ellipses, Polylines (zinahamishwa kama `LWPOLYLINE`), Splines, Points
 - Text
 - Dimensions (linear, aligned, continued, radius, diameter, pembe)
 - Leaders (multileaders)

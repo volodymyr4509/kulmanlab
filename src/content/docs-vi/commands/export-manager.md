@@ -23,7 +23,7 @@ Nhấn `Escape` để đóng cửa sổ bật lên mà không xuất.
 
 Cả hai cột đều liệt kê cùng các loại đối tượng, mỗi loại kèm số lượng có trong bản vẽ:
 
-Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
 
 Khi cửa sổ mở ra mọi thứ đều được tích, nên xuất ngay sẽ cho bạn toàn bộ bản vẽ. Bỏ tích một loại để nó nằm ngoài đúng tệp đó.
 
@@ -53,7 +53,7 @@ Khi cửa sổ mở ra mọi thứ đều được tích, nên xuất ngay sẽ 
 
 Mỗi loại thực thể đều được bao gồm:
 
-- Lines, Circles, Arcs, Ellipses, Polylines, Splines
+- Lines, Circles, Arcs, Ellipses, Polylines, Splines, Points
 - Text
 - Kích thước (linear, aligned, continued, radius, diameter, góc)
 - Leaders (multileader)
@@ -64,7 +64,7 @@ Mỗi loại thực thể đều được bao gồm:
 
 Mỗi loại thực thể đều được bao gồm:
 
-- Lines, Circles, Arcs, Ellipses, Polylines (được xuất dưới dạng `LWPOLYLINE`), Splines
+- Lines, Circles, Arcs, Ellipses, Polylines (được xuất dưới dạng `LWPOLYLINE`), Splines, Points
 - Text
 - Kích thước (linear, aligned, continued, radius, diameter, góc)
 - Leaders (multileader)

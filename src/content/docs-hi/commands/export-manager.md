@@ -23,7 +23,7 @@ order: 6
 
 दोनों स्तंभ वही इकाई प्रकार सूचीबद्ध करते हैं, हर एक के साथ ड्रॉइंग में उनकी गिनती:
 
-Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
 
 पॉपअप खुलते समय सब टिक होते हैं, इसलिए तुरंत निर्यात करने पर पूरी ड्रॉइंग मिलती है। किसी प्रकार का टिक हटाइए तो वह सिर्फ़ उसी फ़ाइल से बाहर रहता है।
 
@@ -53,7 +53,7 @@ Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius D
 
 हर एंटिटी टाइप शामिल है:
 
-- Lines, Circles, Arcs, Ellipses, Polylines, Splines
+- Lines, Circles, Arcs, Ellipses, Polylines, Splines, Points
 - Text
 - Dimensions (linear, aligned, continued, radius, diameter, कोण)
 - Leaders (multileaders)
@@ -64,7 +64,7 @@ Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius D
 
 हर एंटिटी टाइप शामिल है:
 
-- Lines, Circles, Arcs, Ellipses, Polylines (`LWPOLYLINE` के रूप में एक्सपोर्ट), Splines
+- Lines, Circles, Arcs, Ellipses, Polylines (`LWPOLYLINE` के रूप में एक्सपोर्ट), Splines, Points
 - Text
 - Dimensions (linear, aligned, continued, radius, diameter, कोण)
 - Leaders (multileaders)

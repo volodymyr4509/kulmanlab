@@ -25,6 +25,7 @@ Chào mừng bạn đến với tài liệu tham khảo lệnh **KulmanLab CAD**
 | [Text](./commands/text/) | Đặt nhãn văn bản lên canvas |
 | [Spline CV](./commands/spline-cv/) | Vẽ spline bằng cách đặt các điểm kiểm soát |
 | [Spline Fit](./commands/spline-fit/) | Vẽ spline đi qua các điểm được bấm |
+| [Point](./commands/point/) | Đặt điểm tại vị trí đã nhấp hoặc đã gõ |
 
 ## Chỉnh Sửa
 

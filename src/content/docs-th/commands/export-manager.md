@@ -23,7 +23,7 @@ order: 6
 
 ทั้งสองคอลัมน์แสดงชนิดเอนทิตีชุดเดียวกัน แต่ละชนิดมีจำนวนที่อยู่ในแบบกำกับ
 
-Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
 
 ทุกอย่างถูกติ๊กไว้เมื่อเปิดหน้าต่าง ส่งออกทันทีจึงได้แบบทั้งหมด เอาติ๊กของชนิดใดออกเพื่อกันไม่ให้เข้าไฟล์นั้นเพียงไฟล์เดียว
 
@@ -53,7 +53,7 @@ Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius D
 
 รวมทุกชนิดของเอนทิตี:
 
-- Lines, Circles, Arcs, Ellipses, Polylines, Splines
+- Lines, Circles, Arcs, Ellipses, Polylines, Splines, Points
 - Text
 - มิติ (linear, aligned, continued, radius, diameter, มุม)
 - Leaders (multileaders)
@@ -64,7 +64,7 @@ Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius D
 
 รวมทุกชนิดของเอนทิตี:
 
-- Lines, Circles, Arcs, Ellipses, Polylines (ส่งออกเป็น `LWPOLYLINE`), Splines
+- Lines, Circles, Arcs, Ellipses, Polylines (ส่งออกเป็น `LWPOLYLINE`), Splines, Points
 - Text
 - มิติ (linear, aligned, continued, radius, diameter, มุม)
 - Leaders (multileaders)

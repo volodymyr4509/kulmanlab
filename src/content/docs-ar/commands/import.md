@@ -37,6 +37,7 @@ order: 1
 | القطع الناقص | `ELLIPSE` | |
 | الخط المتعدد | `LWPOLYLINE` | |
 | المنحنى | `SPLINE` | |
+| نقطة | `POINT` | |
 | النص | `TEXT`، `MTEXT` | |
 | البُعد | `DIMENSION` | |
 | خط الإشارة المتعدد | `MULTILEADER` | |

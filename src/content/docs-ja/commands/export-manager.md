@@ -23,7 +23,7 @@ order: 6
 
 両方の列に同じ要素型が並び、それぞれに図面内の個数が付きます。
 
-Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
 
 ポップアップを開いた時点ではすべてチェックされているので、そのまま書き出せば図面全体が得られます。チェックを外した型は、そのファイルからだけ外れます。
 

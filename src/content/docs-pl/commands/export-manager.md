@@ -23,7 +23,7 @@ Naciśnij `Escape`, aby zamknąć okno bez eksportowania.
 
 Obie kolumny wymieniają te same typy obiektów, każdy z liczbą wystąpień na rysunku:
 
-Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
 
 Przy otwarciu wszystko jest zaznaczone, więc natychmiastowy eksport daje cały rysunek. Odznacz typ, aby pominąć go w tym jednym pliku.
 
@@ -53,7 +53,7 @@ Aby zrobić plik do cięcia, odznacz Text, cztery wiersze wymiarów, Leaders i H
 
 Uwzględniony jest każdy typ elementu:
 
-- Lines, Circles, Arcs, Ellipses, Polylines, Splines
+- Lines, Circles, Arcs, Ellipses, Polylines, Splines, Points
 - Text
 - Wymiary (liniowy, wyrównany, ciągły, promień, średnica, kąt)
 - Leaders (multileadery)
@@ -64,7 +64,7 @@ Uwzględniony jest każdy typ elementu:
 
 Uwzględniony jest każdy typ elementu:
 
-- Lines, Circles, Arcs, Ellipses, Polylines (eksportowane jako `LWPOLYLINE`), Splines
+- Lines, Circles, Arcs, Ellipses, Polylines (eksportowane jako `LWPOLYLINE`), Splines, Points
 - Text
 - Wymiary (liniowy, wyrównany, ciągły, promień, średnica, kąt)
 - Leaders (multileadery)

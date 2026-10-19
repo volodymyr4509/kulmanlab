@@ -37,6 +37,7 @@ KulmanLab analysiert die folgenden DXF-Entitätstypen:
 | Ellipse | `ELLIPSE` | |
 | Polylinie | `LWPOLYLINE` | |
 | Spline | `SPLINE` | |
+| Punkt | `POINT` | |
 | Text | `TEXT`, `MTEXT` | |
 | Bemaßung | `DIMENSION` | |
 | Mehrfachführungslinie | `MULTILEADER` | |

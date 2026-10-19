@@ -25,6 +25,7 @@ Welcome to the **KulmanLab CAD** command reference. [KulmanLab CAD](https://kulm
 | [Text](./commands/text/) | Place a text label on the canvas |
 | [Spline CV](./commands/spline-cv/) | Draw a spline by placing control vertices |
 | [Spline Fit](./commands/spline-fit/) | Draw a spline that passes through clicked points |
+| [Point](./commands/point/) | Place points at clicked or typed positions |
 
 ## Edit
 

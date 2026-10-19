@@ -25,6 +25,7 @@ Barka da zuwa jerin umarni na **KulmanLab CAD**. [KulmanLab CAD](https://kulmanl
 | [Text](./commands/text/) | Sanya alamar rubutu a kan canvas |
 | [Spline CV](./commands/spline-cv/) | Zana spline ta sanya control vertices |
 | [Spline Fit](./commands/spline-fit/) | Zana spline wanda ke wucewa ta tabon da aka danna |
+| [Point](./commands/point/) | Sanya maki a wuraren da aka danna ko aka rubuta |
 
 ## Gyara
 

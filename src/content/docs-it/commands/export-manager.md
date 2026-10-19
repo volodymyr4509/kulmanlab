@@ -23,7 +23,7 @@ Premi `Esc` per chiudere il popup senza esportare.
 
 Entrambe le colonne elencano gli stessi tipi di entità, ciascuno con quanti ce ne sono nel disegno:
 
-Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
 
 All'apertura è tutto spuntato, quindi esportare subito ti dà il disegno intero. Togli la spunta a un tipo per lasciarlo fuori da quel singolo file.
 
@@ -53,7 +53,7 @@ Per un file di taglio, togli la spunta a Text, alle quattro righe delle quote, a
 
 Ogni tipo di entità è incluso:
 
-- Lines, Circles, Arcs, Ellipses, Polylines, Splines
+- Lines, Circles, Arcs, Ellipses, Polylines, Splines, Points
 - Text
 - Quote (lineare, allineata, continuata, raggio, diametro, angolo)
 - Leaders (multileader)
@@ -64,7 +64,7 @@ Ogni tipo di entità è incluso:
 
 Ogni tipo di entità è incluso:
 
-- Lines, Circles, Arcs, Ellipses, Polylines (esportate come `LWPOLYLINE`), Splines
+- Lines, Circles, Arcs, Ellipses, Polylines (esportate come `LWPOLYLINE`), Splines, Points
 - Text
 - Quote (lineare, allineata, continuata, raggio, diametro, angolo)
 - Leaders (multileader)

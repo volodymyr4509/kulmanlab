@@ -37,6 +37,7 @@ KulmanLab ਹੇਠ ਲਿਖੀਆਂ DXF ਐਂਟਿਟੀ ਕਿਸਮਾਂ
 | ਐਲਿਪਸ | `ELLIPSE` | |
 | ਪੌਲੀਲਾਈਨ | `LWPOLYLINE` | |
 | ਸਪਲਾਈਨ | `SPLINE` | |
+| ਬਿੰਦੂ | `POINT` | |
 | ਟੈਕਸਟ | `TEXT`, `MTEXT` | |
 | ਡਾਈਮੈਂਸ਼ਨ | `DIMENSION` | |
 | ਮਲਟੀਲੀਡਰ | `MULTILEADER` | |

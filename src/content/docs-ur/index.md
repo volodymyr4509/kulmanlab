@@ -25,6 +25,7 @@ order: 1
 | [Text](./commands/text/) | کینوس پر ایک متن لیبل رکھیں |
 | [Spline CV](./commands/spline-cv/) | کنٹرول ورٹیسز رکھ کر ایک اسپلائن کھینچیں |
 | [Spline Fit](./commands/spline-fit/) | کلک کیے گئے نقاط سے گزرتا ہوا ایک اسپلائن کھینچیں |
+| [Point](./commands/point/) | کلک یا ٹائپ کی گئی پوزیشنوں پر نقطے رکھیں |
 
 ## ترمیم
 

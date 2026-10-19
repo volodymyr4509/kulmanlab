@@ -37,6 +37,7 @@ KulmanLab aşağıdaki DXF nesne türlerini ayrıştırır:
 | Elips | `ELLIPSE` | |
 | Çoklu çizgi | `LWPOLYLINE` | |
 | Spline | `SPLINE` | |
+| Nokta | `POINT` | |
 | Metin | `TEXT`, `MTEXT` | |
 | Ölçü | `DIMENSION` | |
 | Çoklu Gösterge | `MULTILEADER` | |

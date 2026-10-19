@@ -23,7 +23,7 @@ order: 6
 
 يسرد العمودان أنواع العناصر نفسها، ومع كل نوع عدد ما يوجد منه في الرسم:
 
-Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
 
 كل الأنواع محدَّدة عند فتح النافذة، فالتصدير مباشرةً يعطيك الرسم كاملاً. أزِل تحديد نوع لتستبعده من هذا الملف وحده.
 

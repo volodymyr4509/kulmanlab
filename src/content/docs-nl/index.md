@@ -25,6 +25,7 @@ Welkom bij de **KulmanLab CAD**-opdrachtreferentie. [KulmanLab CAD](https://kulm
 | [Text](./commands/text/) | Plaats een tekstlabel op het canvas |
 | [Spline CV](./commands/spline-cv/) | Teken een spline door controlepunten te plaatsen |
 | [Spline Fit](./commands/spline-fit/) | Teken een spline die door aangeklikte punten loopt |
+| [Point](./commands/point/) | Plaats punten op geklikte of getypte posities |
 
 ## Bewerken
 

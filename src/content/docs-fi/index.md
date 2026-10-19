@@ -25,6 +25,7 @@ Tervetuloa **KulmanLab CAD**:in komentoreferenssiin. [KulmanLab CAD](https://kul
 | [Text](./commands/text/) | Sijoita tekstimerkintä piirtoalueelle |
 | [Spline CV](./commands/spline-cv/) | Piirrä spline sijoittamalla ohjauspisteitä |
 | [Spline Fit](./commands/spline-fit/) | Piirrä spline joka kulkee napsautettujen pisteiden kautta |
+| [Point](./commands/point/) | Sijoita pisteitä napsautettuihin tai kirjoitettuihin paikkoihin |
 
 ## Muokkaa
 

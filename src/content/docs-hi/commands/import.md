@@ -37,6 +37,7 @@ KulmanLab निम्नलिखित DXF ऑब्जेक्ट प्र�
 | दीर्घवृत्त | `ELLIPSE` | |
 | पॉलीलाइन | `LWPOLYLINE` | |
 | स्प्लाइन | `SPLINE` | |
+| बिंदु | `POINT` | |
 | टेक्स्ट | `TEXT`, `MTEXT` | |
 | माप | `DIMENSION` | |
 | मल्टीलीडर | `MULTILEADER` | |

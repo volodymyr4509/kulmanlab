@@ -23,7 +23,7 @@ Tekan `Escape` untuk menutup popup tanpa mengeksport.
 
 Kedua-dua lajur menyenaraikan jenis entiti yang sama, setiap satu dengan bilangannya dalam lukisan:
 
-Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
 
 Semuanya bertanda ketika tetingkap dibuka, jadi mengeksport terus memberi anda keseluruhan lukisan. Nyahtanda satu jenis untuk meninggalkannya daripada fail itu sahaja.
 
@@ -53,7 +53,7 @@ Untuk fail potong, nyahtanda Text, empat baris dimensi, Leaders dan Hatches lalu
 
 Setiap jenis entiti disertakan:
 
-- Lines, Circles, Arcs, Ellipses, Polylines, Splines
+- Lines, Circles, Arcs, Ellipses, Polylines, Splines, Points
 - Text
 - Dimensi (linear, aligned, continued, radius, diameter, sudut)
 - Leaders (multileader)
@@ -64,7 +64,7 @@ Setiap jenis entiti disertakan:
 
 Setiap jenis entiti disertakan:
 
-- Lines, Circles, Arcs, Ellipses, Polylines (dieksport sebagai `LWPOLYLINE`), Splines
+- Lines, Circles, Arcs, Ellipses, Polylines (dieksport sebagai `LWPOLYLINE`), Splines, Points
 - Text
 - Dimensi (linear, aligned, continued, radius, diameter, sudut)
 - Leaders (multileader)

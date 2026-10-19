@@ -37,6 +37,7 @@ KulmanLab は以下の DXF エンティティタイプを解析します:
 | 楕円 | `ELLIPSE` | |
 | ポリライン | `LWPOLYLINE` | |
 | スプライン | `SPLINE` | |
+| 点 | `POINT` | |
 | テキスト | `TEXT`, `MTEXT` | |
 | 寸法 | `DIMENSION` | |
 | 引出線 | `MULTILEADER` | |

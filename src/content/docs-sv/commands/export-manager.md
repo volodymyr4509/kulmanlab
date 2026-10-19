@@ -23,7 +23,7 @@ Tryck på `Escape` för att stänga popup-fönstret utan att exportera.
 
 Båda kolumnerna listar samma objekttyper, var och en med antalet i ritningen:
 
-Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
 
 Allt är förbockat när fönstret öppnas, så exporterar du direkt får du hela ritningen. Bocka ur en typ för att hålla den utanför just den filen.
 
@@ -53,7 +53,7 @@ För en skärfil bockar du ur Text, de fyra måttraderna, Leaders och Hatches oc
 
 Varje entitetstyp ingår:
 
-- Lines, Circles, Arcs, Ellipses, Polylines, Splines
+- Lines, Circles, Arcs, Ellipses, Polylines, Splines, Points
 - Text
 - Mått (linjär, justerad, fortsatt, radie, diameter, vinkel)
 - Leaders (multiledare)
@@ -64,7 +64,7 @@ Varje entitetstyp ingår:
 
 Varje entitetstyp ingår:
 
-- Lines, Circles, Arcs, Ellipses, Polylines (exporterade som `LWPOLYLINE`), Splines
+- Lines, Circles, Arcs, Ellipses, Polylines (exporterade som `LWPOLYLINE`), Splines, Points
 - Text
 - Mått (linjär, justerad, fortsatt, radie, diameter, vinkel)
 - Leaders (multiledare)

@@ -37,6 +37,7 @@ KulmanLab নিম্নলিখিত DXF এন্টিটি টাইপ�
 | উপবৃত্ত | `ELLIPSE` | |
 | পলিলাইন | `LWPOLYLINE` | |
 | স্প্লাইন | `SPLINE` | |
+| বিন্দু | `POINT` | |
 | টেক্সট | `TEXT`, `MTEXT` | |
 | ডাইমেনশন | `DIMENSION` | |
 | মাল্টিলিডার | `MULTILEADER` | |

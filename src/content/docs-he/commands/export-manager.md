@@ -23,7 +23,7 @@ order: 6
 
 שתי העמודות מונות את אותם סוגי ישויות, כל אחד עם מספר המופעים בשרטוט:
 
-Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
 
 עם פתיחת החלון הכול מסומן, כך שייצוא מיידי נותן את השרטוט כולו. הסירו סימון מסוג כדי להשאיר אותו מחוץ לאותו קובץ בלבד.
 
@@ -53,7 +53,7 @@ Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius D
 
 כל סוג ישות נכלל:
 
-- Lines, Circles, Arcs, Ellipses, Polylines, Splines
+- Lines, Circles, Arcs, Ellipses, Polylines, Splines, Points
 - Text
 - מידות (ליניארית, מיושרת, רציפה, רדיוס, קוטר, זווית)
 - Leaders (מובילים מרובים)
@@ -64,7 +64,7 @@ Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius D
 
 כל סוג ישות נכלל:
 
-- Lines, Circles, Arcs, Ellipses, Polylines (מיוצאות כ-`LWPOLYLINE`), Splines
+- Lines, Circles, Arcs, Ellipses, Polylines (מיוצאות כ-`LWPOLYLINE`), Splines, Points
 - Text
 - מידות (ליניארית, מיושרת, רציפה, רדיוס, קוטר, זווית)
 - Leaders (מובילים מרובים)

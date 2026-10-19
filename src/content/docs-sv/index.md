@@ -25,6 +25,7 @@ Välkommen till **KulmanLab CAD**-kommandoreferensen. [KulmanLab CAD](https://ku
 | [Text](./commands/text/) | Placera en textetikett på ritytan |
 | [Spline CV](./commands/spline-cv/) | Rita en spline genom att placera kontrollpunkter |
 | [Spline Fit](./commands/spline-fit/) | Rita en spline som går genom klickade punkter |
+| [Point](./commands/point/) | Placera punkter på klickade eller inskrivna positioner |
 
 ## Redigera
 

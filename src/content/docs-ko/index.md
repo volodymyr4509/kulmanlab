@@ -25,6 +25,7 @@ order: 1
 | [Text](./commands/text/) | 캔버스에 텍스트 레이블 배치 |
 | [Spline CV](./commands/spline-cv/) | 제어 꼭짓점을 배치하여 스플라인 그리기 |
 | [Spline Fit](./commands/spline-fit/) | 클릭한 점을 통과하는 스플라인 그리기 |
+| [Point](./commands/point/) | 클릭하거나 입력한 위치에 점을 배치 |
 
 ## 편집
 

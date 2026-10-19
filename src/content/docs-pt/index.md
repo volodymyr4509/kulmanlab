@@ -25,6 +25,7 @@ Bem-vindo à referência de comandos do **KulmanLab CAD**. O [KulmanLab CAD](htt
 | [Text](./commands/text/) | Coloca uma etiqueta de texto na tela |
 | [Spline CV](./commands/spline-cv/) | Desenha uma spline posicionando vértices de controle |
 | [Spline Fit](./commands/spline-fit/) | Desenha uma spline que passa pelos pontos clicados |
+| [Point](./commands/point/) | Coloca pontos em posições clicadas ou digitadas |
 
 ## Editar
 

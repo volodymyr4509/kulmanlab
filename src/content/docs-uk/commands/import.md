@@ -37,6 +37,7 @@ KulmanLab розбирає такі типи об'єктів DXF:
 | Еліпс | `ELLIPSE` | |
 | Полілінія | `LWPOLYLINE` | |
 | Сплайн | `SPLINE` | |
+| Точка | `POINT` | |
 | Текст | `TEXT`, `MTEXT` | |
 | Розмір | `DIMENSION` | |
 | Мультивиноска | `MULTILEADER` | |

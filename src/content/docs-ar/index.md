@@ -25,6 +25,7 @@ order: 1
 | [Text](./commands/text/) | وضع تسمية نصية على اللوحة |
 | [Spline CV](./commands/spline-cv/) | رسم منحنى بوضع نقاط التحكم |
 | [Spline Fit](./commands/spline-fit/) | رسم منحنى يمر بالنقاط المنقورة |
+| [Point](./commands/point/) | ضع نقاطًا في مواضع تنقر عليها أو تكتبها |
 
 ## التحرير
 

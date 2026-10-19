@@ -23,7 +23,7 @@ order: 6
 
 两列列出相同的实体类型，每一项都带有图纸中的数量：
 
-Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
 
 弹窗打开时全部处于勾选状态，因此直接导出就能得到整张图纸。取消某一类型的勾选，它就只会从这一个文件中排除。
 

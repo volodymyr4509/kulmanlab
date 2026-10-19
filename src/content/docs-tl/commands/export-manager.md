@@ -23,7 +23,7 @@ Pindutin ang `Escape` para isara ang popup nang hindi nag-export.
 
 Pareho ang mga uri ng entity na nakalista sa dalawang hanay, bawat isa'y may bilang kung ilan ang nasa guhit:
 
-Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
 
 Nakatsek ang lahat pagbukas ng popup, kaya ang agad na pag-export ay nagbibigay ng buong guhit. Alisan ng tsek ang isang uri para maiwan ito sa file na iyon lamang.
 
@@ -53,7 +53,7 @@ Para sa cut file, alisan ng tsek ang Text, ang apat na hanay ng sukat, Leaders a
 
 Kasama ang bawat entity type:
 
-- Lines, Circles, Arcs, Ellipses, Polylines, Splines
+- Lines, Circles, Arcs, Ellipses, Polylines, Splines, Points
 - Text
 - Dimensions (linear, aligned, continued, radius, diameter, anggulo)
 - Leaders (multileaders)
@@ -64,7 +64,7 @@ Kasama ang bawat entity type:
 
 Kasama ang bawat entity type:
 
-- Lines, Circles, Arcs, Ellipses, Polylines (ine-export bilang `LWPOLYLINE`), Splines
+- Lines, Circles, Arcs, Ellipses, Polylines (ine-export bilang `LWPOLYLINE`), Splines, Points
 - Text
 - Dimensions (linear, aligned, continued, radius, diameter, anggulo)
 - Leaders (multileaders)

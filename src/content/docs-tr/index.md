@@ -25,6 +25,7 @@ order: 1
 | [Text](./commands/text/) | Tuvale metin etiketi yerleştirir |
 | [Spline CV](./commands/spline-cv/) | Kontrol noktaları yerleştirerek spline çizer |
 | [Spline Fit](./commands/spline-fit/) | Tıklanan noktalardan geçen spline çizer |
+| [Point](./commands/point/) | Tıklanan veya yazılan konumlara nokta yerleştirir |
 
 ## Düzenle
 

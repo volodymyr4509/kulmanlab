@@ -25,6 +25,7 @@ order: 1
 | [Text](./commands/text/) | 在画布上放置文字标签 |
 | [Spline CV](./commands/spline-cv/) | 通过放置控制顶点绘制样条线 |
 | [Spline Fit](./commands/spline-fit/) | 绘制穿过所有单击点的样条线 |
+| [Point](./commands/point/) | 在单击或输入的位置放置点 |
 
 ## 编辑
 

@@ -25,6 +25,7 @@ Velkommen til **KulmanLab CAD**s kommandoreferanse. [KulmanLab CAD](https://kulm
 | [Text](./commands/text/) | Plasser en tekstetikett på lerretet |
 | [Spline CV](./commands/spline-cv/) | Tegn en spline ved å plassere kontrollpunkter |
 | [Spline Fit](./commands/spline-fit/) | Tegn en spline som går gjennom klikkede punkter |
+| [Point](./commands/point/) | Plasser punkter på klikkede eller innskrevne posisjoner |
 
 ## Rediger
 

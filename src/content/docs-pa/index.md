@@ -25,6 +25,7 @@ order: 1
 | [Text](./commands/text/) | ਕੈਨਵਸ ਉੱਤੇ ਟੈਕਸਟ ਲੇਬਲ ਰੱਖੋ |
 | [Spline CV](./commands/spline-cv/) | ਕੰਟਰੋਲ ਵਰਟੈਕਸ ਰੱਖ ਕੇ ਸਪਲਾਈਨ ਬਣਾਓ |
 | [Spline Fit](./commands/spline-fit/) | ਕਲਿੱਕ ਕੀਤੇ ਬਿੰਦੂਆਂ ਵਿੱਚੋਂ ਲੰਘਦੀ ਸਪਲਾਈਨ ਬਣਾਓ |
+| [Point](./commands/point/) | ਕਲਿੱਕ ਜਾਂ ਟਾਈਪ ਕੀਤੀਆਂ ਸਥਿਤੀਆਂ 'ਤੇ ਬਿੰਦੂ ਰੱਖੋ |
 
 ## ਸੰਪਾਦਨ
 

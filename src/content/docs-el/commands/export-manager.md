@@ -23,7 +23,7 @@ order: 6
 
 Και οι δύο στήλες απαριθμούν τους ίδιους τύπους οντοτήτων, με το πλήθος του καθενός στο σχέδιο:
 
-Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
 
 Όταν ανοίγει το παράθυρο είναι όλα μαρκαρισμένα, οπότε μια άμεση εξαγωγή σας δίνει ολόκληρο το σχέδιο. Ξεμαρκάρετε έναν τύπο για να μείνει έξω από εκείνο μόνο το αρχείο.
 
@@ -53,7 +53,7 @@ Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius D
 
 Περιλαμβάνεται κάθε τύπος οντότητας:
 
-- Lines, Circles, Arcs, Ellipses, Polylines, Splines
+- Lines, Circles, Arcs, Ellipses, Polylines, Splines, Points
 - Text
 - Διαστάσεις (γραμμική, ευθυγραμμισμένη, συνεχής, ακτίνας, διαμέτρου, γωνία)
 - Leaders (multileaders)
@@ -64,7 +64,7 @@ Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius D
 
 Περιλαμβάνεται κάθε τύπος οντότητας:
 
-- Lines, Circles, Arcs, Ellipses, Polylines (εξάγονται ως `LWPOLYLINE`), Splines
+- Lines, Circles, Arcs, Ellipses, Polylines (εξάγονται ως `LWPOLYLINE`), Splines, Points
 - Text
 - Διαστάσεις (γραμμική, ευθυγραμμισμένη, συνεχής, ακτίνας, διαμέτρου, γωνία)
 - Leaders (multileaders)

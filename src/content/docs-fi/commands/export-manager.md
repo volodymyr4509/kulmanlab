@@ -23,7 +23,7 @@ Paina `Escape` sulkeaksesi ponnahdusikkunan viemättä mitään.
 
 Molemmat sarakkeet luettelevat samat objektityypit, kunkin kohdalla lukumäärä piirustuksessa:
 
-Lines · Circles · Arcs · Ellipses · Polylines · Splines · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
+Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text · Radius Dimensions · Diameter Dimensions · Angular Dimensions · Linear Dimensions · Leaders · Hatches
 
 Ikkunan avautuessa kaikki on rastitettu, joten heti vieminen antaa koko piirustuksen. Poista rasti tyypiltä, niin se jää pois juuri siitä tiedostosta.
 
@@ -53,7 +53,7 @@ Leikkaustiedostoa varten poista rastit kohdista Text, neljä mittariviä, Leader
 
 Jokainen entiteettityyppi sisältyy:
 
-- Lines, Circles, Arcs, Ellipses, Polylines, Splines
+- Lines, Circles, Arcs, Ellipses, Polylines, Splines, Points
 - Text
 - Mitat (lineaarinen, kohdistettu, jatkettu, säde, halkaisija, kulma)
 - Leaders (multileaderit)
@@ -64,7 +64,7 @@ Jokainen entiteettityyppi sisältyy:
 
 Jokainen entiteettityyppi sisältyy:
 
-- Lines, Circles, Arcs, Ellipses, Polylines (viety muodossa `LWPOLYLINE`), Splines
+- Lines, Circles, Arcs, Ellipses, Polylines (viety muodossa `LWPOLYLINE`), Splines, Points
 - Text
 - Mitat (lineaarinen, kohdistettu, jatkettu, säde, halkaisija, kulma)
 - Leaders (multileaderit)

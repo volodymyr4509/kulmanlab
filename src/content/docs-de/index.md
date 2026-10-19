@@ -25,6 +25,7 @@ Willkommen bei der **KulmanLab CAD** Befehlsreferenz. [KulmanLab CAD](https://ku
 | [Text](./commands/text/) | Textbeschriftung auf der Zeichenfläche platzieren |
 | [Spline CV](./commands/spline-cv/) | Spline durch Platzieren von Kontrollpunkten zeichnen |
 | [Spline Fit](./commands/spline-fit/) | Spline zeichnen, der durch geklickte Punkte verläuft |
+| [Point](./commands/point/) | Punkte an geklickten oder eingegebenen Positionen setzen |
 
 ## Bearbeiten
 
