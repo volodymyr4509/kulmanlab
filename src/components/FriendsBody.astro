@@ -17,7 +17,10 @@ const c = friendsContent[lang] ?? friendsContent['en'];
   <div class="space-y-10 text-slate-300 leading-relaxed">
     {c.sections.map(section => (
       <section>
-        {section.h && <h2 class="mb-3 text-2xl font-bold text-slate-50">{section.h}</h2>}
+        <div class="mb-3 flex items-center gap-4">
+          <img src={section.icon} alt={`${section.h} app icon`} width="56" height="56" loading="lazy" class="h-14 w-14 rounded-[22%]" />
+          <h2 class="text-2xl font-bold text-slate-50">{section.h}</h2>
+        </div>
         {section.ps.map((p, i) => (
           <p class={i === section.ps.length - 1 ? '' : 'mb-3'} set:html={p} />
         ))}
