@@ -48,6 +48,8 @@ order: 1
 | [Redo](./commands/redo/) | آخری واپس کیے گئے عمل کو دوبارہ کریں |
 | [Array Grid](./commands/array-grid/) | منتخب اشیاء کو قطاروں اور کالموں کے مستطیل گرڈ میں دہرائیں |
 | [Array Polar](./commands/array-polar/) | مرکزی نقطے کے گرد اشیاء دہرائیں |
+| [Point Divide](./commands/point-divide/) | شے کو برابر لمبائیوں میں تقسیم کرنے والے نقطے رکھیں |
+| [Point Interval](./commands/point-interval/) | شے کے ساتھ مقررہ فاصلے پر نقطے رکھیں |
 
 ## تشریح
 

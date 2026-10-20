@@ -48,6 +48,8 @@ order: 1
 | [Redo](./commands/redo/) | 마지막으로 취소한 작업 다시 실행 |
 | [Array Grid](./commands/array-grid/) | 객체를 행과 열로 이루어진 직사각형 그리드로 반복 |
 | [Array Polar](./commands/array-polar/) | 중심점 둘레로 객체 반복 |
+| [Point Divide](./commands/point-divide/) | 객체를 같은 길이로 나누는 점 배치 |
+| [Point Interval](./commands/point-interval/) | 객체를 따라 일정 간격으로 점 배치 |
 
 ## 주석
 

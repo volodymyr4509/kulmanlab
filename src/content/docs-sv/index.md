@@ -48,6 +48,8 @@ Välkommen till **KulmanLab CAD**-kommandoreferensen. [KulmanLab CAD](https://ku
 | [Redo](./commands/redo/) | Gör om den senast ångrade åtgärden |
 | [Array Grid](./commands/array-grid/) | Upprepa entiteter i ett rektangulärt rutnät av rader och kolumner |
 | [Array Polar](./commands/array-polar/) | Upprepa objekt runt en medelpunkt |
+| [Point Divide](./commands/point-divide/) | Placera punkter som delar ett objekt i lika långa delar |
+| [Point Interval](./commands/point-interval/) | Placera punkter med fast avstånd längs ett objekt |
 
 ## Anteckningar
 

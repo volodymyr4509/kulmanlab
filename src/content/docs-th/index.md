@@ -48,6 +48,8 @@ order: 1
 | [Redo](./commands/redo/) | ทำซ้ำการกระทำที่เพิ่งเลิกทำ |
 | [Array Grid](./commands/array-grid/) | ทำซ้ำวัตถุเป็นกริดสี่เหลี่ยมของแถวและคอลัมน์ |
 | [Array Polar](./commands/array-polar/) | ทำซ้ำวัตถุรอบจุดศูนย์กลาง |
+| [Point Divide](./commands/point-divide/) | วางจุดที่แบ่งวัตถุเป็นความยาวเท่ากัน |
+| [Point Interval](./commands/point-interval/) | วางจุดเป็นระยะคงที่ตามวัตถุ |
 
 ## คำอธิบายประกอบ
 

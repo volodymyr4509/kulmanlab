@@ -48,6 +48,8 @@ order: 1
 | [Redo](./commands/redo/) | ביצוע חוזר של הפעולה האחרונה שבוטלה |
 | [Array Grid](./commands/array-grid/) | חזרה על ישויות ברשת מלבנית של שורות ועמודות |
 | [Array Polar](./commands/array-polar/) | חזרה על אובייקטים סביב נקודת מרכז |
+| [Point Divide](./commands/point-divide/) | הצבת נקודות שמחלקות אובייקט לאורכים שווים |
+| [Point Interval](./commands/point-interval/) | הצבת נקודות במרווח קבוע לאורך אובייקט |
 
 ## הערות
 

@@ -48,6 +48,8 @@ order: 1
 | [Redo](./commands/redo/) | Son geri alınan işlemi yineler |
 | [Array Grid](./commands/array-grid/) | Nesneleri satır ve sütunlardan oluşan dikdörtgen bir ızgarada tekrarlar |
 | [Array Polar](./commands/array-polar/) | Nesneleri bir merkez noktası etrafında tekrarlayın |
+| [Point Divide](./commands/point-divide/) | Bir nesneyi eşit uzunluklara bölen noktalar yerleştirin |
+| [Point Interval](./commands/point-interval/) | Bir nesne boyunca sabit aralıklarla noktalar yerleştirin |
 
 ## Açıklama
 

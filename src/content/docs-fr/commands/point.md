@@ -19,7 +19,7 @@ La commande `point` place un point à chaque choix et reste active jusqu’à ce
 
 ## À quoi ressemble un point
 
-Un point est dessiné comme un petit point de 1 px de rayon à tous les niveaux de zoom : il reste visible en dézoomant et ne grossit pas en zoomant. Le style de point du dessin (`$PDMODE` et `$PDSIZE`) n’est pas encore lu, donc chaque point est un petit point, quoi que dise un DXF.
+Un point est dessiné comme un petit point de 1,5 px de rayon à tous les niveaux de zoom : il reste visible en dézoomant et ne grossit pas en zoomant. Le style de point du dessin (`$PDMODE` et `$PDSIZE`) n’est pas encore lu, donc chaque point est un petit point, quoi que dise un DXF.
 
 ## Modifier les points
 

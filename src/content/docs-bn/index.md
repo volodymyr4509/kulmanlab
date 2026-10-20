@@ -48,6 +48,8 @@ order: 1
 | [Redo](./commands/redo/) | শেষ পূর্বাবস্থায় ফেরানো ক্রিয়াটি পুনরায় করুন |
 | [Array Grid](./commands/array-grid/) | সারি ও কলামের একটি আয়তাকার গ্রিডে সত্তা পুনরাবৃত্তি করুন |
 | [Array Polar](./commands/array-polar/) | কেন্দ্রবিন্দুর চারপাশে অবজেক্ট পুনরাবৃত্তি করুন |
+| [Point Divide](./commands/point-divide/) | অবজেক্টকে সমান দৈর্ঘ্যে ভাগ করে এমন পয়েন্ট বসান |
+| [Point Interval](./commands/point-interval/) | অবজেক্ট বরাবর নির্দিষ্ট দূরত্বে পয়েন্ট বসান |
 
 ## টীকা
 

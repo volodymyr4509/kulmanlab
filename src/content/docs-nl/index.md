@@ -48,6 +48,8 @@ Welkom bij de **KulmanLab CAD**-opdrachtreferentie. [KulmanLab CAD](https://kulm
 | [Redo](./commands/redo/) | Herhaal de laatst ongedaan gemaakte actie |
 | [Array Grid](./commands/array-grid/) | Herhaal entiteiten in een rechthoekig raster van rijen en kolommen |
 | [Array Polar](./commands/array-polar/) | Herhaal objecten rond een middelpunt |
+| [Point Divide](./commands/point-divide/) | Plaats punten die een object in gelijke lengtes verdelen |
+| [Point Interval](./commands/point-interval/) | Plaats punten op vaste afstand langs een object |
 
 ## Annotatie
 

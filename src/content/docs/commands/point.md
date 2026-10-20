@@ -19,7 +19,7 @@ The `point` command places a point at every pick and stays active until you pres
 
 ## How a point looks
 
-A point is drawn as a dot 1 px in radius at every zoom level, so it stays visible when you zoom out and does not grow when you zoom in. The drawing's point style (`$PDMODE` and `$PDSIZE`) is not read yet, so every point is a dot, whatever a DXF says.
+A point is drawn as a dot 1.5 px in radius at every zoom level, so it stays visible when you zoom out and does not grow when you zoom in. The drawing's point style (`$PDMODE` and `$PDSIZE`) is not read yet, so every point is a dot, whatever a DXF says.
 
 ## Editing points
 

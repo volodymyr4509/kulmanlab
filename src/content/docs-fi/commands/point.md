@@ -19,7 +19,7 @@ order: 11
 
 ## Miltä piste näyttää
 
-Piste piirretään 1 px:n säteisenä pisteenä jokaisella zoomaustasolla, joten se pysyy näkyvissä loitonnettaessa eikä kasva lähennettäessä. Piirustuksen pistetyyliä (`$PDMODE` ja `$PDSIZE`) ei vielä lueta, joten jokainen piste on piste, mitä DXF sanookaan.
+Piste piirretään 1,5 px:n säteisenä pisteenä jokaisella zoomaustasolla, joten se pysyy näkyvissä loitonnettaessa eikä kasva lähennettäessä. Piirustuksen pistetyyliä (`$PDMODE` ja `$PDSIZE`) ei vielä lueta, joten jokainen piste on piste, mitä DXF sanookaan.
 
 ## Pisteiden muokkaaminen
 

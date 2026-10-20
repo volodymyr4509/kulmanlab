@@ -252,7 +252,7 @@ KulmanLab is a free, browser-based 2D CAD editor. No installation, no account, n
 - 50+ drawing commands via toolbar or command terminal (LINE, CIRCLE, ARC, POLYGON, MOVE, TRIM, OFFSET, ARRAYPOLAR, and more)
 - Arc can be drawn seven ways; Polygon draws regular polygons of 3–1024 sides from a center or an edge; Array Grid and Array Polar repeat a selection in rows and columns or round a center
 - Trim, Extend and Hatch work with splines, including a spline that crosses itself
-- Point places POINT entities at clicked or typed positions, read from and written to DXF
+- Point places POINT entities at clicked or typed positions, read from and written to DXF; Point Divide places points that split an object into equal lengths, Point Interval places them a set length apart
 - Measure reads distances, lengths, angles, and the area and perimeter of a closed area around the cursor, with nothing to pick
 - Dimension unit formats (scientific, decimal, engineering, architectural, fractional, system; angular decimal degrees, deg/min/sec, gradians, radians), with Precision read in the chosen format
 - Full layer management: create, rename, freeze, lock, isolate, color, linetype, lineweight per layer
@@ -4076,7 +4076,7 @@ The `point` command places a point at every pick and stays active until you pres
 
 ## How a point looks
 
-A point is drawn as a dot 1 px in radius at every zoom level, so it stays visible when you zoom out and does not grow when you zoom in. The drawing's point style (`$PDMODE` and `$PDSIZE`) is not read yet, so every point is a dot, whatever a DXF says.
+A point is drawn as a dot 1.5 px in radius at every zoom level, so it stays visible when you zoom out and does not grow when you zoom in. The drawing's point style (`$PDMODE` and `$PDSIZE`) is not read yet, so every point is a dot, whatever a DXF says.
 
 ## Editing points
 
@@ -4091,6 +4091,60 @@ Points are read from and written to DXF as `POINT` entities, with position, colo
 ---
 
 *Related: [Line](https://kulmanlab.com/docs/commands/line/) for the same coordinate entry, and [Vector Pins](https://kulmanlab.com/docs/interface/vector-pins/) for placing a point a set distance along a direction.*
+
+---
+
+<!-- Source: /docs/commands/point-divide/ -->
+# Point Divide
+
+The `pointdivide` command places [points](https://kulmanlab.com/docs/commands/point/) that split an object into segments of equal length. The object itself is not changed: the points are new entities on the current layer and color, handy to snap to.
+
+## Dividing an object
+
+1. Type `pointdivide` in the terminal or choose **Point Divide** from the array dropdown in the Edit panel.
+2. **Click the object** — a line, polyline, arc, circle, ellipse or spline. Anything else is refused, and you can pick again.
+3. **Type the number of segments**, a whole number from 2 to 32767. The points preview on the object as you type.
+4. Press **Enter** or **Space** to place them. The command ends.
+
+## Where the points go
+
+- Spacing is by length along the object, not by angle, so an ellipse or a spline is cut into pieces of equal length. Polyline arc segments are followed along their curve.
+- On an open object — a line, open polyline, arc, partial ellipse or open spline — the points go between the segments, never on the ends: 5 segments give 4 points.
+- On a closed object — a circle, closed polyline, full ellipse or closed spline — the points go all the way round from its start, which gets a point too: a circle starts at angle 0, a closed polyline at its first vertex. 5 segments give 5 points.
+- A number outside 2–32767 is refused: the terminal says why and clears it, so you can type again.
+
+Backspace deletes the last digit. Escape starts over, so you can pick another object. Enter or Space before an object is picked ends the command.
+
+---
+
+*Related: [Point Interval](https://kulmanlab.com/docs/commands/point-interval/) to place points a set length apart, [Point](https://kulmanlab.com/docs/commands/point/) for single points, and [ArrayPolar](https://kulmanlab.com/docs/commands/array-polar/) to repeat objects rather than points.*
+
+---
+
+<!-- Source: /docs/commands/point-interval/ -->
+# Point Interval
+
+The `pointinterval` command places [points](https://kulmanlab.com/docs/commands/point/) a set length apart along an object, the way you would mark stations along a path. The object itself is not changed: the points are new entities on the current layer and color, handy to snap to.
+
+## Placing points at an interval
+
+1. Type `pointinterval` in the terminal or choose **Point Interval** from the array dropdown in the Edit panel.
+2. **Click the object near the end to start from** — a line, polyline, arc, circle, ellipse or spline. Anything else is refused, and you can pick again.
+3. **Type the interval length.** The points preview on the object as you type.
+4. Press **Enter** or **Space** to place them. The command ends.
+
+## Where the points go
+
+- The first point goes one interval in from the start and the rest follow one interval apart, measured along the object, curves included. No point goes on the start itself.
+- On an open object — a line, open polyline, arc, partial ellipse or open spline — measuring starts from whichever end you clicked nearer. What is left over at the far end stays unmarked: the far end gets a point only when the interval fits exactly.
+- On a closed object — a circle, closed polyline, full ellipse or closed spline — measuring starts from the object's own start, wherever you click: a circle at angle 0, going counter-clockwise, a closed polyline at its first vertex. The points stop short of the start.
+- A length of 0 or less, one longer than the object, or one that would give more than 32767 points is refused: the terminal says why and clears it, so you can type again.
+
+Backspace deletes the last character. Escape starts over, so you can pick another object. Enter or Space before an object is picked ends the command.
+
+---
+
+*Related: [Point Divide](https://kulmanlab.com/docs/commands/point-divide/) to split an object into a number of equal lengths, and [Point](https://kulmanlab.com/docs/commands/point/) for single points.*
 
 ---
 

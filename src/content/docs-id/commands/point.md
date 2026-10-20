@@ -19,7 +19,7 @@ Perintah `Titik` meletakkan titik pada setiap pilihan dan tetap aktif sampai And
 
 ## Tampilan titik
 
-Titik digambar sebagai noktah beradius 1 px pada setiap tingkat zoom, sehingga tetap terlihat saat diperkecil dan tidak membesar saat diperbesar. Gaya titik gambar (`$PDMODE` dan `$PDSIZE`) belum dibaca, jadi setiap titik berupa noktah, apa pun kata DXF.
+Titik digambar sebagai noktah beradius 1,5 px pada setiap tingkat zoom, sehingga tetap terlihat saat diperkecil dan tidak membesar saat diperbesar. Gaya titik gambar (`$PDMODE` dan `$PDSIZE`) belum dibaca, jadi setiap titik berupa noktah, apa pun kata DXF.
 
 ## Mengedit titik
 

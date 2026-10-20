@@ -19,7 +19,7 @@ O comando `Ponto` coloca um ponto a cada escolha e continua ativo até você pre
 
 ## Como um ponto aparece
 
-Um ponto é desenhado como um pontinho de 1 px de raio em qualquer nível de zoom, então continua visível ao afastar e não cresce ao aproximar. O estilo de ponto do desenho (`$PDMODE` e `$PDSIZE`) ainda não é lido, então todo ponto é um pontinho, diga o que disser um DXF.
+Um ponto é desenhado como um pontinho de 1,5 px de raio em qualquer nível de zoom, então continua visível ao afastar e não cresce ao aproximar. O estilo de ponto do desenho (`$PDMODE` e `$PDSIZE`) ainda não é lido, então todo ponto é um pontinho, diga o que disser um DXF.
 
 ## Editar pontos
 

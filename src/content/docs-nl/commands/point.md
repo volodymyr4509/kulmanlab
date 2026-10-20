@@ -19,7 +19,7 @@ De opdracht `Punt` plaatst bij elke keuze een punt en blijft actief tot u op Ent
 
 ## Hoe een punt eruitziet
 
-Een punt wordt op elk zoomniveau getekend als een stip met een straal van 1 px, dus het blijft zichtbaar bij uitzoomen en groeit niet bij inzoomen. De puntstijl van de tekening (`$PDMODE` en `$PDSIZE`) wordt nog niet gelezen, dus elk punt is een stip, wat een DXF ook zegt.
+Een punt wordt op elk zoomniveau getekend als een stip met een straal van 1,5 px, dus het blijft zichtbaar bij uitzoomen en groeit niet bij inzoomen. De puntstijl van de tekening (`$PDMODE` en `$PDSIZE`) wordt nog niet gelezen, dus elk punt is een stip, wat een DXF ook zegt.
 
 ## Punten bewerken
 

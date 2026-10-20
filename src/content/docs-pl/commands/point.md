@@ -19,7 +19,7 @@ Polecenie `Punkt` umieszcza punkt przy każdym wskazaniu i pozostaje aktywne, do
 
 ## Jak wygląda punkt
 
-Punkt jest rysowany jako kropka o promieniu 1 px przy każdym powiększeniu, więc pozostaje widoczny po oddaleniu i nie rośnie po przybliżeniu. Styl punktów rysunku (`$PDMODE` i `$PDSIZE`) nie jest jeszcze odczytywany, więc każdy punkt jest kropką, cokolwiek mówi DXF.
+Punkt jest rysowany jako kropka o promieniu 1,5 px przy każdym powiększeniu, więc pozostaje widoczny po oddaleniu i nie rośnie po przybliżeniu. Styl punktów rysunku (`$PDMODE` i `$PDSIZE`) nie jest jeszcze odczytywany, więc każdy punkt jest kropką, cokolwiek mówi DXF.
 
 ## Edycja punktów
 

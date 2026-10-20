@@ -48,6 +48,8 @@ Maligayang pagdating sa command reference ng **KulmanLab CAD**. Ang [KulmanLab C
 | [Redo](./commands/redo/) | I-redo ang huling na-undo na aksyon |
 | [Array Grid](./commands/array-grid/) | Ulitin ang mga entity sa isang rectangular grid ng row at column |
 | [Array Polar](./commands/array-polar/) | Ulitin ang mga bagay sa paligid ng gitnang punto |
+| [Point Divide](./commands/point-divide/) | Maglagay ng mga punto na humahati sa bagay sa pantay na haba |
+| [Point Interval](./commands/point-interval/) | Maglagay ng mga punto sa takdang pagitan sa kahabaan ng bagay |
 
 ## Anotasyon
 

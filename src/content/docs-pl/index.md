@@ -48,6 +48,8 @@ Witaj w dokumentacji poleceń **KulmanLab CAD**. [KulmanLab CAD](https://kulmanl
 | [Redo](./commands/redo/) | Ponawia ostatnio cofniętą akcję |
 | [Array Grid](./commands/array-grid/) | Powiela elementy w prostokątnej siatce wierszy i kolumn |
 | [Array Polar](./commands/array-polar/) | Powtarza obiekty wokół punktu środkowego |
+| [Point Divide](./commands/point-divide/) | Umieszcza punkty dzielące obiekt na równe długości |
+| [Point Interval](./commands/point-interval/) | Umieszcza punkty w stałym odstępie wzdłuż obiektu |
 
 ## Opisy
 

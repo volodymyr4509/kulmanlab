@@ -48,6 +48,8 @@ Selamat datang di referensi perintah **KulmanLab CAD**. [KulmanLab CAD](https://
 | [Redo](./commands/redo/) | Mengulangi aksi yang dibatalkan |
 | [Array Grid](./commands/array-grid/) | Mengulang entitas dalam kisi persegi panjang berisi baris dan kolom |
 | [Array Polar](./commands/array-polar/) | Ulangi objek mengelilingi titik pusat |
+| [Point Divide](./commands/point-divide/) | Letakkan titik yang membagi objek menjadi panjang yang sama |
+| [Point Interval](./commands/point-interval/) | Letakkan titik berjarak tetap di sepanjang objek |
 
 ## Anotasi
 

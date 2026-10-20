@@ -48,6 +48,8 @@ order: 1
 | [Redo](./commands/redo/) | إعادة الإجراء الأخير الذي تم التراجع عنه |
 | [Array Grid](./commands/array-grid/) | تكرار العناصر في شبكة مستطيلة من الصفوف والأعمدة |
 | [Array Polar](./commands/array-polar/) | كرّر الكائنات حول نقطة مركز |
+| [Point Divide](./commands/point-divide/) | ضع نقاطًا تقسم كائنًا إلى أطوال متساوية |
+| [Point Interval](./commands/point-interval/) | ضع نقاطًا على مسافة محددة على طول كائن |
 
 ## التعليقات
 

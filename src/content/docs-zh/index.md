@@ -48,6 +48,8 @@ order: 1
 | [Redo](./commands/redo/) | 重做上一步撤销的操作 |
 | [Array Grid](./commands/array-grid/) | 按行列的矩形网格重复图元 |
 | [Array Polar](./commands/array-polar/) | 围绕中心点重复对象 |
+| [Point Divide](./commands/point-divide/) | 放置把对象分成等长的点 |
+| [Point Interval](./commands/point-interval/) | 沿对象按固定间距放置点 |
 
 ## 注释
 

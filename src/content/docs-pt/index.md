@@ -48,6 +48,8 @@ Bem-vindo à referência de comandos do **KulmanLab CAD**. O [KulmanLab CAD](htt
 | [Redo](./commands/redo/) | Refaz a última ação desfeita |
 | [Array Grid](./commands/array-grid/) | Repete entidades em uma grade retangular de linhas e colunas |
 | [Array Polar](./commands/array-polar/) | Repete objetos em torno de um ponto central |
+| [Point Divide](./commands/point-divide/) | Coloca pontos que dividem um objeto em comprimentos iguais |
+| [Point Interval](./commands/point-interval/) | Coloca pontos a uma distância fixa ao longo de um objeto |
 
 ## Anotação
 

@@ -48,6 +48,8 @@ Karibu kwenye marejeo ya amri za **KulmanLab CAD**. [KulmanLab CAD](https://kulm
 | [Redo](./commands/redo/) | Rudia hatua ya mwisho iliyotendulewa |
 | [Array Grid](./commands/array-grid/) | Rudia vipengele katika gridi ya mstatili ya safu mlalo na safu wima |
 | [Array Polar](./commands/array-polar/) | Rudia vitu kuzunguka nukta ya kati |
+| [Point Divide](./commands/point-divide/) | Weka nukta zinazogawanya kitu katika urefu sawa |
+| [Point Interval](./commands/point-interval/) | Weka nukta kwa umbali uliowekwa kando ya kitu |
 
 ## Maelezo
 

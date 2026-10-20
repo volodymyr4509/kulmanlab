@@ -19,7 +19,7 @@ Lệnh `Điểm` đặt một điểm ở mỗi lần chọn và vẫn hoạt đ
 
 ## Điểm trông thế nào
 
-Điểm được vẽ như một chấm bán kính 1 px ở mọi mức thu phóng, nên vẫn thấy được khi thu nhỏ và không to ra khi phóng to. Kiểu điểm của bản vẽ (`$PDMODE` và `$PDSIZE`) chưa được đọc, nên mọi điểm đều là một chấm, dù DXF nói gì.
+Điểm được vẽ như một chấm bán kính 1,5 px ở mọi mức thu phóng, nên vẫn thấy được khi thu nhỏ và không to ra khi phóng to. Kiểu điểm của bản vẽ (`$PDMODE` và `$PDSIZE`) chưa được đọc, nên mọi điểm đều là một chấm, dù DXF nói gì.
 
 ## Chỉnh sửa điểm
 

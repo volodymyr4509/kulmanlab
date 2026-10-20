@@ -19,7 +19,7 @@ order: 11
 
 ## Bir nokta nasıl görünür
 
-Nokta, her yakınlaştırma düzeyinde 1 px yarıçaplı bir nokta olarak çizilir; uzaklaştırınca görünür kalır, yakınlaştırınca büyümez. Çizimin nokta stili (`$PDMODE` ve `$PDSIZE`) henüz okunmaz, bu yüzden DXF ne derse desin her nokta bir noktadır.
+Nokta, her yakınlaştırma düzeyinde 1,5 px yarıçaplı bir nokta olarak çizilir; uzaklaştırınca görünür kalır, yakınlaştırınca büyümez. Çizimin nokta stili (`$PDMODE` ve `$PDSIZE`) henüz okunmaz, bu yüzden DXF ne derse desin her nokta bir noktadır.
 
 ## Noktaları düzenleme
 

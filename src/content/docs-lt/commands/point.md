@@ -19,7 +19,7 @@ Komanda `Taškas` deda tašką kiekvieno pasirinkimo metu ir lieka aktyvi, kol p
 
 ## Kaip atrodo taškas
 
-Taškas braižomas kaip 1 px spindulio taškelis visais mastelio lygiais, todėl lieka matomas tolinant ir nedidėja artinant. Brėžinio taškų stilius (`$PDMODE` ir `$PDSIZE`) dar neskaitomas, todėl kiekvienas taškas yra taškelis, ką besakytų DXF.
+Taškas braižomas kaip 1,5 px spindulio taškelis visais mastelio lygiais, todėl lieka matomas tolinant ir nedidėja artinant. Brėžinio taškų stilius (`$PDMODE` ir `$PDSIZE`) dar neskaitomas, todėl kiekvienas taškas yra taškelis, ką besakytų DXF.
 
 ## Taškų redagavimas
 

@@ -39,6 +39,8 @@ Velkommen til **KulmanLab CAD**s kommandoreferanse. [KulmanLab CAD](https://kulm
 | [Align](./commands/align/) | Flytt, roter og eventuelt skaler entiteter ved hjelp av punktpar |
 | [Array Grid](./commands/array-grid/) | Lag et rutenett av kopier fra markerte entiteter |
 | [Array Polar](./commands/array-polar/) | Gjenta objekter rundt et sentrum |
+| [Point Divide](./commands/point-divide/) | Plasser punkter som deler et objekt i like lengder |
+| [Point Interval](./commands/point-interval/) | Plasser punkter med fast avstand langs et objekt |
 | [Delete](./commands/delete/) | Fjern markerte entiteter fra tegningen |
 | [Trim](./commands/trim/) | Trim et linjesegment ved skjæringspunktene |
 | [Extend](./commands/extend/) | Forleng en linje til nærmeste grenseskjæring |

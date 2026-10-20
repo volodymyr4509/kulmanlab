@@ -48,6 +48,8 @@ Selamat datang ke rujukan arahan **KulmanLab CAD**. [KulmanLab CAD](https://kulm
 | [Redo](./commands/redo/) | Buat semula tindakan yang dibatalkan |
 | [Array Grid](./commands/array-grid/) | Ulang entiti dalam grid segi empat tepat baris dan lajur |
 | [Array Polar](./commands/array-polar/) | Ulang objek mengelilingi titik pusat |
+| [Point Divide](./commands/point-divide/) | Letak titik yang membahagikan objek kepada panjang yang sama |
+| [Point Interval](./commands/point-interval/) | Letak titik pada jarak tetap di sepanjang objek |
 
 ## Anotasi
 

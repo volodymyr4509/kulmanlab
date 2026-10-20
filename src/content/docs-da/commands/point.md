@@ -19,7 +19,7 @@ Kommandoen `Punkt` placerer et punkt ved hvert valg og forbliver aktiv, til du t
 
 ## Hvordan et punkt ser ud
 
-Et punkt tegnes som en prik med radius 1 px ved alle zoomniveauer, så det forbliver synligt, når du zoomer ud, og vokser ikke, når du zoomer ind. Tegningens punktstil (`$PDMODE` og `$PDSIZE`) læses ikke endnu, så hvert punkt er en prik, uanset hvad en DXF siger.
+Et punkt tegnes som en prik med radius 1,5 px ved alle zoomniveauer, så det forbliver synligt, når du zoomer ud, og vokser ikke, når du zoomer ind. Tegningens punktstil (`$PDMODE` og `$PDSIZE`) læses ikke endnu, så hvert punkt er en prik, uanset hvad en DXF siger.
 
 ## Redigering af punkter
 

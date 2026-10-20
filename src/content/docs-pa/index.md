@@ -48,6 +48,8 @@ order: 1
 | [Redo](./commands/redo/) | ਆਖਰੀ ਅਣਕੀਤੀ ਕਾਰਵਾਈ ਦੁਬਾਰਾ ਕਰੋ |
 | [Array Grid](./commands/array-grid/) | ਚੁਣੀਆਂ ਇਕਾਈਆਂ ਨੂੰ ਕਤਾਰਾਂ ਅਤੇ ਕਾਲਮਾਂ ਦੇ ਆਇਤਾਕਾਰ ਗਰਿੱਡ ਵਿੱਚ ਦੁਹਰਾਓ |
 | [Array Polar](./commands/array-polar/) | ਕੇਂਦਰ ਬਿੰਦੂ ਦੁਆਲੇ ਵਸਤੂਆਂ ਦੁਹਰਾਓ |
+| [Point Divide](./commands/point-divide/) | ਵਸਤੂ ਨੂੰ ਬਰਾਬਰ ਲੰਬਾਈਆਂ ਵਿੱਚ ਵੰਡਣ ਵਾਲੇ ਬਿੰਦੂ ਰੱਖੋ |
+| [Point Interval](./commands/point-interval/) | ਵਸਤੂ ਦੇ ਨਾਲ ਤੈਅ ਫ਼ਾਸਲੇ 'ਤੇ ਬਿੰਦੂ ਰੱਖੋ |
 
 ## ਟਿੱਪਣੀਆਂ
 

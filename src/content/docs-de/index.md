@@ -48,6 +48,8 @@ Willkommen bei der **KulmanLab CAD** Befehlsreferenz. [KulmanLab CAD](https://ku
 | [Redo](./commands/redo/) | Zuletzt rückgängig gemachte Aktion wiederherstellen |
 | [Array Grid](./commands/array-grid/) | Elemente in einem rechteckigen Raster aus Zeilen und Spalten wiederholen |
 | [Array Polar](./commands/array-polar/) | Objekte rund um einen Mittelpunkt wiederholen |
+| [Point Divide](./commands/point-divide/) | Punkte setzen, die ein Objekt in gleiche Längen teilen |
+| [Point Interval](./commands/point-interval/) | Punkte in festem Abstand entlang eines Objekts setzen |
 
 ## Beschriftung
 

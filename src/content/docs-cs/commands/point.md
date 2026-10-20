@@ -19,7 +19,7 @@ Příkaz `Bod` umístí bod při každém výběru a zůstává aktivní, dokud 
 
 ## Jak bod vypadá
 
-Bod se kreslí jako tečka o poloměru 1 px při každém zvětšení, takže zůstává vidět při oddálení a při přiblížení nenaroste. Styl bodů výkresu (`$PDMODE` a `$PDSIZE`) se zatím nečte, takže každý bod je tečka, ať DXF říká cokoli.
+Bod se kreslí jako tečka o poloměru 1,5 px při každém zvětšení, takže zůstává vidět při oddálení a při přiblížení nenaroste. Styl bodů výkresu (`$PDMODE` a `$PDSIZE`) se zatím nečte, takže každý bod je tečka, ať DXF říká cokoli.
 
 ## Úpravy bodů
 

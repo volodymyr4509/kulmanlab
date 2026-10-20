@@ -48,6 +48,8 @@ order: 1
 | [Redo](./commands/redo/) | पिछली अनडू की गई क्रिया को रीडू करें |
 | [Array Grid](./commands/array-grid/) | ऑब्जेक्ट को पंक्तियों और स्तंभों के आयताकार ग्रिड में दोहराएं |
 | [Array Polar](./commands/array-polar/) | केंद्र बिंदु के चारों ओर ऑब्जेक्ट दोहराएँ |
+| [Point Divide](./commands/point-divide/) | ऐसे बिंदु रखें जो ऑब्जेक्ट को समान लंबाइयों में बाँटें |
+| [Point Interval](./commands/point-interval/) | ऑब्जेक्ट के साथ तय दूरी पर बिंदु रखें |
 
 ## एनोटेशन
 

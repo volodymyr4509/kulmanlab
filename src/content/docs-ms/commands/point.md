@@ -19,7 +19,7 @@ Perintah `Titik` meletakkan titik pada setiap pilihan dan kekal aktif sehingga a
 
 ## Rupa titik
 
-Titik dilukis sebagai noktah berjejari 1 px pada setiap tahap zum, jadi ia kekal kelihatan apabila dizum keluar dan tidak membesar apabila dizum masuk. Gaya titik lukisan (`$PDMODE` dan `$PDSIZE`) belum dibaca, jadi setiap titik ialah noktah, apa pun kata DXF.
+Titik dilukis sebagai noktah berjejari 1.5 px pada setiap tahap zum, jadi ia kekal kelihatan apabila dizum keluar dan tidak membesar apabila dizum masuk. Gaya titik lukisan (`$PDMODE` dan `$PDSIZE`) belum dibaca, jadi setiap titik ialah noktah, apa pun kata DXF.
 
 ## Menyunting titik
 

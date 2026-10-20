@@ -19,7 +19,7 @@ Der Befehl `Punkt` setzt bei jeder Wahl einen Punkt und bleibt aktiv, bis Sie En
 
 ## Wie ein Punkt aussieht
 
-Ein Punkt wird auf jeder Zoomstufe als Punktmarke mit 1 px Radius gezeichnet; er bleibt beim Herauszoomen sichtbar und wächst beim Hineinzoomen nicht. Der Punktstil der Zeichnung (`$PDMODE` und `$PDSIZE`) wird noch nicht gelesen, daher ist jeder Punkt eine Punktmarke, was auch immer eine DXF sagt.
+Ein Punkt wird auf jeder Zoomstufe als Punktmarke mit 1,5 px Radius gezeichnet; er bleibt beim Herauszoomen sichtbar und wächst beim Hineinzoomen nicht. Der Punktstil der Zeichnung (`$PDMODE` und `$PDSIZE`) wird noch nicht gelesen, daher ist jeder Punkt eine Punktmarke, was auch immer eine DXF sagt.
 
 ## Punkte bearbeiten
 

@@ -48,6 +48,8 @@ Barka da zuwa jerin umarni na **KulmanLab CAD**. [KulmanLab CAD](https://kulmanl
 | [Redo](./commands/redo/) | Sake yin aikin ƙarshe da aka soke |
 | [Array Grid](./commands/array-grid/) | Maimaita abubuwa a cikin grid mai kusurwa huɗu na layuka da ginshiƙai |
 | [Array Polar](./commands/array-polar/) | Maimaita abubuwa a kewayen wurin tsakiya |
+| [Point Divide](./commands/point-divide/) | Sanya maki da ke raba abu zuwa tsawo daidai |
+| [Point Interval](./commands/point-interval/) | Sanya maki a tazara ta dindindin tare da abu |
 
 ## Bayani
 

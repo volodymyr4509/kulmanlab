@@ -48,6 +48,8 @@ order: 1
 | [Redo](./commands/redo/) | Повторити останню скасовану дію |
 | [Array Grid](./commands/array-grid/) | Повторити об'єкти у прямокутній сітці з рядків і стовпців |
 | [Array Polar](./commands/array-polar/) | Повторити об'єкти навколо центральної точки |
+| [Point Divide](./commands/point-divide/) | Поставити точки, що ділять об'єкт на рівні довжини |
+| [Point Interval](./commands/point-interval/) | Поставити точки з фіксованим кроком уздовж об'єкта |
 
 ## Анотації
 

@@ -19,7 +19,7 @@ Naglalagay ang `Punto` command ng punto sa bawat pagpili at nananatiling aktibo 
 
 ## Itsura ng punto
 
-Iginuguhit ang punto bilang tuldok na may radius na 1 px sa bawat zoom level, kaya nananatili itong nakikita kapag nag-zoom out at hindi lumalaki kapag nag-zoom in. Hindi pa nababasa ang point style ng guhit (`$PDMODE` at `$PDSIZE`), kaya tuldok ang bawat punto, anuman ang sabihin ng DXF.
+Iginuguhit ang punto bilang tuldok na may radius na 1.5 px sa bawat zoom level, kaya nananatili itong nakikita kapag nag-zoom out at hindi lumalaki kapag nag-zoom in. Hindi pa nababasa ang point style ng guhit (`$PDMODE` at `$PDSIZE`), kaya tuldok ang bawat punto, anuman ang sabihin ng DXF.
 
 ## Pag-edit ng mga punto
 

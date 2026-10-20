@@ -48,6 +48,8 @@ Sveiki atvykę į **KulmanLab CAD** komandų žinyną. [KulmanLab CAD](https://k
 | [Redo](./commands/redo/) | Pakartotinai atlieka paskutinį atšauktą veiksmą |
 | [Array Grid](./commands/array-grid/) | Kartoja objektus stačiakampiame eilučių ir stulpelių tinklelyje |
 | [Array Polar](./commands/array-polar/) | Pakartoti objektus aplink centro tašką |
+| [Point Divide](./commands/point-divide/) | Padėti taškus, dalijančius objektą į vienodus ilgius |
+| [Point Interval](./commands/point-interval/) | Padėti taškus fiksuotu atstumu išilgai objekto |
 
 ## Annotate
 

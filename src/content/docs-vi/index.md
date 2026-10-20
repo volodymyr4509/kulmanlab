@@ -48,6 +48,8 @@ Chào mừng bạn đến với tài liệu tham khảo lệnh **KulmanLab CAD**
 | [Redo](./commands/redo/) | Làm lại thao tác vừa hoàn tác |
 | [Array Grid](./commands/array-grid/) | Lặp lại đối tượng trong lưới hình chữ nhật gồm hàng và cột |
 | [Array Polar](./commands/array-polar/) | Lặp lại đối tượng quanh một điểm tâm |
+| [Point Divide](./commands/point-divide/) | Đặt điểm chia một đối tượng thành các độ dài bằng nhau |
+| [Point Interval](./commands/point-interval/) | Đặt điểm cách nhau một khoảng cố định dọc đối tượng |
 
 ## Chú Thích
 

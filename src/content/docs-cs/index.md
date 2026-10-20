@@ -48,6 +48,8 @@ Vítejte v přehledu příkazů **KulmanLab CAD**. [KulmanLab CAD](https://kulma
 | [Redo](./commands/redo/) | Znovu provede poslední vrácenou akci |
 | [Array Grid](./commands/array-grid/) | Zopakuje objekty v pravoúhlé mřížce řádků a sloupců |
 | [Array Polar](./commands/array-polar/) | Opakuje objekty kolem středového bodu |
+| [Point Divide](./commands/point-divide/) | Umístí body, které dělí objekt na stejné délky |
+| [Point Interval](./commands/point-interval/) | Umístí body v pevném rozestupu podél objektu |
 
 ## Annotate
 

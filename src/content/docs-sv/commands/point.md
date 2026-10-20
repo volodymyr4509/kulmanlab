@@ -19,7 +19,7 @@ Kommandot `Punkt` placerar en punkt vid varje val och förblir aktivt tills du t
 
 ## Hur en punkt ser ut
 
-En punkt ritas som en prick med radien 1 px vid varje zoomnivå, så den förblir synlig när du zoomar ut och växer inte när du zoomar in. Ritningens punktstil (`$PDMODE` och `$PDSIZE`) läses inte ännu, så varje punkt är en prick, vad en DXF än säger.
+En punkt ritas som en prick med radien 1,5 px vid varje zoomnivå, så den förblir synlig när du zoomar ut och växer inte när du zoomar in. Ritningens punktstil (`$PDMODE` och `$PDSIZE`) läses inte ännu, så varje punkt är en prick, vad en DXF än säger.
 
 ## Redigera punkter
 

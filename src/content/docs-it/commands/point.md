@@ -19,7 +19,7 @@ Il comando `Punto` posiziona un punto a ogni scelta e resta attivo finché non p
 
 ## Come appare un punto
 
-Un punto è disegnato come un puntino di 1 px di raggio a ogni livello di zoom, quindi resta visibile quando si riduce e non cresce quando si ingrandisce. Lo stile dei punti del disegno (`$PDMODE` e `$PDSIZE`) non è ancora letto, quindi ogni punto è un puntino, qualunque cosa dica un DXF.
+Un punto è disegnato come un puntino di 1,5 px di raggio a ogni livello di zoom, quindi resta visibile quando si riduce e non cresce quando si ingrandisce. Lo stile dei punti del disegno (`$PDMODE` e `$PDSIZE`) non è ancora letto, quindi ogni punto è un puntino, qualunque cosa dica un DXF.
 
 ## Modificare i punti
 

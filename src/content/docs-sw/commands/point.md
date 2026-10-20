@@ -19,7 +19,7 @@ Amri ya `Nukta` huweka nukta kwa kila uteuzi na hubaki hai hadi ubonyeze Enter, 
 
 ## Nukta inavyoonekana
 
-Nukta huchorwa kama kitone chenye kipenyo-nusu cha 1 px katika kila kiwango cha kukuza, kwa hivyo hubaki ikionekana unapopunguza na haikui unapokuza. Mtindo wa nukta wa mchoro (`$PDMODE` na `$PDSIZE`) bado haujasomwa, kwa hivyo kila nukta ni kitone, DXF ikisema chochote.
+Nukta huchorwa kama kitone chenye kipenyo-nusu cha 1.5 px katika kila kiwango cha kukuza, kwa hivyo hubaki ikionekana unapopunguza na haikui unapokuza. Mtindo wa nukta wa mchoro (`$PDMODE` na `$PDSIZE`) bado haujasomwa, kwa hivyo kila nukta ni kitone, DXF ikisema chochote.
 
 ## Kuhariri nukta
 

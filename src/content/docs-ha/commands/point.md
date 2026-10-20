@@ -19,7 +19,7 @@ Umarnin `Ɗigo` yana sanya maki a kowane zaɓi kuma yana ci gaba da aiki har sai
 
 ## Yadda maki yake kama
 
-Ana zana maki a matsayin digo mai radius 1 px a kowane matakin zuƙowa, don haka yana ci gaba da bayyana idan ka zuƙo waje kuma ba ya girma idan ka zuƙo ciki. Ba a karanta salon maki na zane (`$PDMODE` da `$PDSIZE`) ba tukuna, don haka kowane maki digo ne, duk abin da DXF ya ce.
+Ana zana maki a matsayin digo mai radius 1.5 px a kowane matakin zuƙowa, don haka yana ci gaba da bayyana idan ka zuƙo waje kuma ba ya girma idan ka zuƙo ciki. Ba a karanta salon maki na zane (`$PDMODE` da `$PDSIZE`) ba tukuna, don haka kowane maki digo ne, duk abin da DXF ya ce.
 
 ## Gyara maki
 
