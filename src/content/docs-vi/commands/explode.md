@@ -3,7 +3,7 @@ title: Lệnh Explode — Tách Polyline thành các Thực thể Line và Arc
 description: Lệnh Explode tách một polyline ngay tại chỗ thành các thực thể Line và Arc riêng lẻ, mỗi đoạn một thực thể. Mỗi mảnh giữ nguyên độ dày nét, màu sắc, lớp và kiểu đường của polyline gốc. Chỉ hoạt động trên các thực thể Polyline.
 keywords: [lệnh explode CAD, tách polyline CAD, tách polyline thành các đường thẳng, chuyển polyline thành line và arc, kulmanlab]
 group: edit
-order: 17
+order: 19
 ---
 
 # Explode

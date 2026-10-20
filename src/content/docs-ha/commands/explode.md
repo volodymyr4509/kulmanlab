@@ -3,7 +3,7 @@ title: "Umarnin Explode — Rarraba Polyline zuwa Abubuwan Line da Arc"
 description: "Umarnin Explode yana rarraba polyline a wurinta zuwa abubuwan Line da Arc daban-daban nata, ɗaya ga kowane sashi. Kowane guntu yana riƙe da kaurin layi, launi, Layer, da linetype na polyline na asali. Yana aiki kawai da abubuwan Polyline."
 keywords: [umarnin explode CAD, fashe polyline CAD, rarraba polyline zuwa layuka, canza polyline zuwa line da arc, kulmanlab]
 group: edit
-order: 17
+order: 19
 ---
 
 # Explode

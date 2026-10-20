@@ -3,7 +3,7 @@ title: ClipboardPaste-kommandot — Klistra in entiteter från systemets urklipp
 description: Kommandot ClipboardPaste läser entiteter som tidigare skrivits av ClipboardCopy från systemets urklipp och placerar dem vid en vald insättningspunkt, och lägger till de lager och linjetyper som saknas i målritningen.
 keywords: [klistra in urklipp CAD, klistra in entiteter mellan ritningar, klistra in CAD-objekt, Ctrl+V CAD, klistra in mellan flikar, sammanfoga lager vid inklistring, kulmanlab]
 group: edit
-order: 19
+order: 21
 ---
 
 # ClipboardPaste

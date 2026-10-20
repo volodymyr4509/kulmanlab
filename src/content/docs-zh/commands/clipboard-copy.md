@@ -3,7 +3,7 @@ title: ClipboardCopy 命令 — 将实体复制到系统剪贴板
 description: ClipboardCopy 命令将选中的实体以 JSON 文本形式写入系统剪贴板，同时带上它们引用的图层和线型，以便用 ClipboardPaste 粘贴到另一个图形或另一个浏览器标签页中。
 keywords: [CAD 剪贴板复制, 在图形之间复制实体, 复制 CAD 对象到剪贴板, Ctrl+C CAD, 跨标签页复制, kulmanlab]
 group: edit
-order: 18
+order: 20
 ---
 
 # ClipboardCopy

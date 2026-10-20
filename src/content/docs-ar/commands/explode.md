@@ -3,7 +3,7 @@ title: "أمر Explode — تفكيك Polyline إلى عناصر Line وArc"
 description: "يفكك أمر Explode الخط المتعدد (Polyline) إلى عناصر Line وArc المنفصلة الخاصة به، واحد لكل مقطع، في مكانه. يحتفظ كل جزء بسماكة الخط ولونه وطبقته ونوع خطه من الخط المتعدد المصدر. يعمل فقط مع عناصر Polyline."
 keywords: [أمر explode CAD, تفكيك خط متعدد CAD, تحويل خط متعدد إلى خطوط, تحويل polyline إلى line وarc, kulmanlab]
 group: edit
-order: 17
+order: 19
 ---
 
 # Explode

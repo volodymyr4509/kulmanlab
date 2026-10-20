@@ -3,7 +3,7 @@ title: "Explode کمانڈ — Polyline کو Line اور Arc اشیاء میں �
 description: "Explode کمانڈ ایک پولی لائن کو اسی جگہ اس کی الگ الگ Line اور Arc اینٹیٹیز میں توڑ دیتی ہے، ہر سیگمنٹ کے لیے ایک۔ ہر ٹکڑا سورس پولی لائن کا لائن ویٹ، رنگ، لیئر اور لائن ٹائپ برقرار رکھتا ہے۔ یہ صرف Polyline اشیاء پر کام کرتی ہے۔"
 keywords: [CAD explode کمانڈ, پولی لائن ایکسپلوڈ CAD, پولی لائن کو لائنوں میں توڑنا, پولی لائن کو line اور arc میں تبدیل کرنا, kulmanlab]
 group: edit
-order: 17
+order: 19
 ---
 
 # Explode

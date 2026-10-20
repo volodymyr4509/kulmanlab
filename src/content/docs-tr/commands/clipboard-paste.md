@@ -3,7 +3,7 @@ title: ClipboardPaste Komutu — Nesneleri sistem panosundan yapıştırma
 description: ClipboardPaste komutu, daha önce ClipboardCopy tarafından yazılan nesneleri sistem panosundan okur ve seçtiğiniz ekleme noktasına yerleştirir; hedef çizimde eksik olan katman ve çizgi tiplerini de ekler.
 keywords: [CAD pano yapıştırma, çizimler arası nesne yapıştırma, CAD nesnelerini yapıştırma, Ctrl+V CAD, sekmeler arası yapıştırma, yapıştırırken katman birleştirme, kulmanlab]
 group: edit
-order: 19
+order: 21
 ---
 
 # ClipboardPaste

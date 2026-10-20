@@ -3,7 +3,7 @@ title: פקודת Explode — פירוק Polyline לישויות Line ו-Arc
 description: פקודת Explode מפרקת פוליליין במקומו לישויות Line ו-Arc נפרדות שלו, אחת לכל קטע. כל חלק שומר על עובי הקו, הצבע, השכבה וסוג הקו של הפוליליין המקורי. פועלת רק על ישויות Polyline.
 keywords: [פקודת explode CAD, פירוק פוליליין CAD, פירוק פוליליין לקווים, המרת פוליליין ל-line ו-arc, kulmanlab]
 group: edit
-order: 17
+order: 19
 ---
 
 # Explode

@@ -3,7 +3,7 @@ title: Explode コマンド — ポリラインをラインとアークのエン
 description: Explode コマンドはポリラインをその場で個々のラインとアークのエンティティに、セグメントごとに1つずつ分解します。各パーツは元のポリラインの線幅、色、レイヤー、線種を引き継ぎます。Polyline エンティティのみに対応しています。
 keywords: [CAD explode コマンド, ポリライン分解 CAD, ポリラインをラインに分解, ポリラインをラインとアークに変換, kulmanlab]
 group: edit
-order: 17
+order: 19
 ---
 
 # Explode

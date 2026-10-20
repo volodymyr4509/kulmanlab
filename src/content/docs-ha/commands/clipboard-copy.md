@@ -3,7 +3,7 @@ title: Umarnin ClipboardCopy — Kwafe abubuwa zuwa allon kwafe na tsarin
 description: Umarnin ClipboardCopy yana rubuta abubuwan da aka zaɓa a kan allon kwafe na tsarin a matsayin rubutun JSON, tare da yadudduka da nau'ikan layi da suke ambata, domin a manna su a wani zane ko wani shafin burauza da ClipboardPaste.
 keywords: [kwafe allon kwafe CAD, kwafe abubuwa tsakanin zane-zane, kwafe abubuwan CAD, Ctrl+C CAD, kwafe tsakanin shafuka, kulmanlab]
 group: edit
-order: 18
+order: 20
 ---
 
 # ClipboardCopy

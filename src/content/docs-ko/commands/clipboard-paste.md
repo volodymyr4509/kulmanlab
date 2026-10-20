@@ -3,7 +3,7 @@ title: ClipboardPaste 명령 — 시스템 클립보드에서 개체 붙여넣�
 description: ClipboardPaste 명령은 앞서 ClipboardCopy가 기록한 개체를 시스템 클립보드에서 읽어 지정한 삽입점에 배치하며, 대상 도면에 없는 도면층과 선종류를 추가합니다.
 keywords: [CAD 클립보드 붙여넣기, 도면 간 개체 붙여넣기, CAD 객체 붙여넣기, Ctrl+V CAD, 탭 간 붙여넣기, 붙여넣기 시 도면층 병합, kulmanlab]
 group: edit
-order: 19
+order: 21
 ---
 
 # ClipboardPaste

@@ -3,7 +3,7 @@ title: Příkaz ClipboardPaste — vkládání objektů ze systémové schránky
 description: Příkaz ClipboardPaste načte ze systémové schránky objekty dříve zapsané příkazem ClipboardCopy a umístí je do zvoleného vkládacího bodu, přičemž doplní hladiny a typy čar, které cílovému výkresu chybějí.
 keywords: [CAD vložení ze schránky, vkládání objektů mezi výkresy, vložení CAD objektů, Ctrl+V CAD, kopírování mezi kartami CAD, vložení mezi kartami prohlížeče, sloučení hladin při vložení, kulmanlab]
 group: edit
-order: 19
+order: 21
 ---
 
 # ClipboardPaste

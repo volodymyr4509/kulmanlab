@@ -3,7 +3,7 @@ title: Explode-commando — Splits een Polyline op in Line- en Arc-entiteiten
 description: Het Explode-commando splitst een polylijn ter plekke op in de afzonderlijke Line- en Arc-entiteiten, één per segment. Elk stuk behoudt de lijndikte, kleur, laag en lijntype van de bronpolylijn. Werkt alleen op Polyline-entiteiten.
 keywords: [CAD explode-commando, polylijn exploderen CAD, polylijn opsplitsen in lijnen, polylijn omzetten naar line en arc, kulmanlab]
 group: edit
-order: 17
+order: 19
 ---
 
 # Explode

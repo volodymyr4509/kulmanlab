@@ -3,7 +3,7 @@ title: Utos na ClipboardCopy — Kopyahin ang mga entity sa clipboard ng sistema
 description: Isinusulat ng utos na ClipboardCopy ang mga piniling entity sa clipboard ng sistema bilang tekstong JSON, kasama ang mga layer at linetype na tinutukoy ng mga ito, upang mai-paste sa ibang guhit o ibang tab ng browser gamit ang ClipboardPaste.
 keywords: [kopya sa clipboard CAD, pagkopya ng entity sa pagitan ng mga guhit, kopyahin ang CAD object, Ctrl+C CAD, pagkopya sa pagitan ng mga tab, kulmanlab]
 group: edit
-order: 18
+order: 20
 ---
 
 # ClipboardCopy

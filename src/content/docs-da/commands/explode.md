@@ -3,7 +3,7 @@ title: Explode-kommandoen — Opdel en Polylinje i Line- og Arc-elementer
 description: Explode-kommandoen opdeler en polylinje på stedet i dens individuelle Line- og Arc-elementer, ét pr. segment. Hvert stykke bevarer linjetykkelse, farve, lag og linjetype fra kildepolylinjen. Fungerer kun på Polyline-elementer.
 keywords: [CAD explode-kommando, eksplodér polylinje CAD, opdel polylinje i linjer, konvertér polylinje til line og arc, kulmanlab]
 group: edit
-order: 17
+order: 19
 ---
 
 # Explode

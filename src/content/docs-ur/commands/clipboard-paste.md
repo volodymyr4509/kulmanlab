@@ -3,7 +3,7 @@ title: ClipboardPaste کمانڈ — سسٹم کلپ بورڈ سے اشیاء چ
 description: ClipboardPaste کمانڈ سسٹم کلپ بورڈ سے وہ اشیاء پڑھتی ہے جو پہلے ClipboardCopy نے لکھی تھیں اور انہیں منتخب کردہ اندراج نقطے پر رکھتی ہے، ساتھ ہی ہدف نقشے میں غائب پرتیں اور لائن ٹائپ شامل کر دیتی ہے۔
 keywords: [CAD کلپ بورڈ پیسٹ, نقشوں کے درمیان اشیاء چسپاں کرنا, CAD آبجیکٹ پیسٹ, Ctrl+V CAD, ٹیبز کے درمیان پیسٹ, پیسٹ پر پرتوں کا ادغام, kulmanlab]
 group: edit
-order: 19
+order: 21
 ---
 
 # ClipboardPaste

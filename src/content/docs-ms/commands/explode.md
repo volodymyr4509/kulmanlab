@@ -3,7 +3,7 @@ title: Arahan Explode — Pecahkan Polyline kepada Entiti Line dan Arc
 description: Arahan Explode memecahkan polyline di tempatnya kepada entiti Line dan Arc individunya, satu bagi setiap segmen. Setiap kepingan mengekalkan ketebalan garis, warna, lapisan, dan jenis garis polyline sumber. Hanya berfungsi pada entiti Polyline.
 keywords: [arahan explode CAD, letupkan polyline CAD, pecahkan polyline kepada garis, tukar polyline kepada line dan arc, kulmanlab]
 group: edit
-order: 17
+order: 19
 ---
 
 # Explode

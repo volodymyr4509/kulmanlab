@@ -3,7 +3,7 @@ title: Comando ClipboardPaste — Incollare entità dagli appunti di sistema
 description: Il comando ClipboardPaste legge dagli appunti di sistema le entità scritte in precedenza da ClipboardCopy e le colloca in un punto di inserimento scelto, aggiungendo i layer e i tipi di linea mancanti nel disegno di destinazione.
 keywords: [incolla appunti CAD, incollare entità tra disegni, incollare oggetti CAD, Ctrl+V CAD, incollare tra schede, unione layer all'incollaggio, kulmanlab]
 group: edit
-order: 19
+order: 21
 ---
 
 # ClipboardPaste

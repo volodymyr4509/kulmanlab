@@ -3,7 +3,7 @@ title: ClipboardPaste-kommandoen — Indsæt entiteter fra systemets udklipshold
 description: Kommandoen ClipboardPaste læser entiteter, som ClipboardCopy tidligere har skrevet, fra systemets udklipsholder og placerer dem på et valgt indsættelsespunkt, og tilføjer de lag og linjetyper, som måltegningen mangler.
 keywords: [indsæt udklipsholder CAD, indsæt entiteter mellem tegninger, indsæt CAD-objekter, Ctrl+V CAD, indsæt mellem faner, sammenlægning af lag ved indsættelse, kulmanlab]
 group: edit
-order: 19
+order: 21
 ---
 
 # ClipboardPaste

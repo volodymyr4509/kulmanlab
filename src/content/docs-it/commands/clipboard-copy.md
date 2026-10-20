@@ -3,7 +3,7 @@ title: Comando ClipboardCopy — Copiare entità negli appunti di sistema
 description: Il comando ClipboardCopy scrive le entità selezionate negli appunti di sistema come testo JSON, insieme ai layer e ai tipi di linea a cui fanno riferimento, così da poterle incollare in un altro disegno o in un'altra scheda del browser con ClipboardPaste.
 keywords: [copia appunti CAD, copiare entità tra disegni, copiare oggetti CAD negli appunti, Ctrl+C CAD, copiare tra schede, kulmanlab]
 group: edit
-order: 18
+order: 20
 ---
 
 # ClipboardCopy

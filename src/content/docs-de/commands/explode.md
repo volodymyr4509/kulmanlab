@@ -3,7 +3,7 @@ title: Explode-Befehl — Eine Polyline in Line- und Arc-Elemente zerlegen
 description: Der Explode-Befehl zerlegt eine Polyline in ihre einzelnen Line- und Arc-Elemente, eines pro Segment, an Ort und Stelle. Jedes Teil behält die Linienstärke, Farbe, den Layer und den Linientyp der Quell-Polyline. Funktioniert nur mit Polyline-Elementen.
 keywords: [CAD-Explode-Befehl, Polyline explodieren CAD, Polyline in Linien zerlegen, Polyline in Line und Arc umwandeln, kulmanlab]
 group: edit
-order: 17
+order: 19
 ---
 
 # Explode

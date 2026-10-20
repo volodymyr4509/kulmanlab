@@ -3,7 +3,7 @@ title: Explode 명령어 — 폴리선을 Line 및 Arc 객체로 분해
 description: Explode 명령어는 폴리선을 원래 위치에서 개별 Line 및 Arc 객체로, 세그먼트당 하나씩 분해합니다. 각 조각은 원본 폴리선의 선 굵기, 색상, 레이어, 선종류를 유지합니다. Polyline 객체에서만 작동합니다.
 keywords: [CAD explode 명령어, 폴리선 분해 CAD, 폴리선을 선으로 분해, 폴리선을 line과 arc로 변환, kulmanlab]
 group: edit
-order: 17
+order: 19
 ---
 
 # Explode

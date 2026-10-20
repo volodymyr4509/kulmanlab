@@ -3,7 +3,7 @@ title: ClipboardCopy-kommandoen — Kopiér entiteter til systemets udklipsholde
 description: Kommandoen ClipboardCopy skriver de markerede entiteter til systemets udklipsholder som JSON-tekst sammen med de lag og linjetyper, de refererer til, så de kan indsættes i en anden tegning eller en anden browserfane med ClipboardPaste.
 keywords: [kopiér udklipsholder CAD, kopiér entiteter mellem tegninger, kopiér CAD-objekter til udklipsholder, Ctrl+C CAD, kopiér mellem faner, kulmanlab]
 group: edit
-order: 18
+order: 20
 ---
 
 # ClipboardCopy

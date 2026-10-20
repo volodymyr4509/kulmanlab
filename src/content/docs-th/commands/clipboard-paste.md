@@ -3,7 +3,7 @@ title: คำสั่ง ClipboardPaste — วางวัตถุจาก�
 description: คำสั่ง ClipboardPaste อ่านวัตถุที่ ClipboardCopy เขียนไว้ก่อนหน้าจากคลิปบอร์ดของระบบ แล้ววางไว้ที่จุดแทรกที่เลือก พร้อมเพิ่มเลเยอร์และชนิดเส้นที่แบบปลายทางยังไม่มี
 keywords: [วางจากคลิปบอร์ด CAD, วางวัตถุระหว่างแบบ, วางวัตถุ CAD, Ctrl+V CAD, วางข้ามแท็บ, รวมเลเยอร์เมื่อวาง, kulmanlab]
 group: edit
-order: 19
+order: 21
 ---
 
 # ClipboardPaste

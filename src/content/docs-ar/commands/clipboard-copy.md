@@ -3,7 +3,7 @@ title: أمر ClipboardCopy — نسخ الكيانات إلى حافظة الن
 description: يكتب أمر ClipboardCopy الكيانات المحددة إلى حافظة النظام كنص JSON، مع الطبقات وأنواع الخطوط التي تشير إليها، لتتمكن من لصقها في رسم آخر أو تبويب متصفح آخر باستخدام ClipboardPaste.
 keywords: [نسخ إلى الحافظة CAD, نسخ الكيانات بين الرسومات, نسخ كائنات CAD إلى الحافظة, Ctrl+C CAD, النسخ بين التبويبات, kulmanlab]
 group: edit
-order: 18
+order: 20
 ---
 
 # ClipboardCopy

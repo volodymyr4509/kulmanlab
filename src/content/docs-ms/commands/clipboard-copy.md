@@ -3,7 +3,7 @@ title: Perintah ClipboardCopy — Menyalin entiti ke papan keratan sistem
 description: Perintah ClipboardCopy menulis entiti terpilih ke papan keratan sistem sebagai teks JSON, bersama lapisan dan jenis garisan yang dirujuknya, supaya boleh ditampal ke lukisan lain atau tab pelayar lain dengan ClipboardPaste.
 keywords: [salin papan keratan CAD, menyalin entiti antara lukisan, salin objek CAD ke papan keratan, Ctrl+C CAD, salin antara tab, kulmanlab]
 group: edit
-order: 18
+order: 20
 ---
 
 # ClipboardCopy

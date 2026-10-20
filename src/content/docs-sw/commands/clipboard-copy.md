@@ -3,7 +3,7 @@ title: Amri ya ClipboardCopy — Kunakili vitu kwenye ubao wa kunakili wa mfumo
 description: Amri ya ClipboardCopy huandika vitu vilivyochaguliwa kwenye ubao wa kunakili wa mfumo kama maandishi ya JSON, pamoja na tabaka na aina za mistari vinavyorejelea, ili viweze kubandikwa kwenye mchoro mwingine au kichupo kingine cha kivinjari kwa ClipboardPaste.
 keywords: [kunakili ubao wa kunakili CAD, kunakili vitu kati ya michoro, kunakili vitu vya CAD, Ctrl+C CAD, kunakili kati ya vichupo, kulmanlab]
 group: edit
-order: 18
+order: 20
 ---
 
 # ClipboardCopy

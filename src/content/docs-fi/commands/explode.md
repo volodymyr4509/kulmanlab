@@ -3,7 +3,7 @@ title: Explode-komento — Pilko Polyline Line- ja Arc-entiteeteiksi
 description: Explode-komento pilkkoo polylinen paikallaan sen yksittäisiin Line- ja Arc-entiteetteihin, yksi per segmentti. Jokainen pala säilyttää lähdepolylinen viivanpaksuuden, värin, tason ja viivatyypin. Toimii vain Polyline-entiteeteille.
 keywords: [CAD explode-komento, polylinen räjäytys CAD, polylinen pilkkominen viivoiksi, polylinen muuntaminen line- ja arc-muotoon, kulmanlab]
 group: edit
-order: 17
+order: 19
 ---
 
 # Explode

@@ -3,7 +3,7 @@ title: "คำสั่ง Explode — แยก Polyline เป็นวัต�
 description: "คำสั่ง Explode แยก polyline ออกเป็นวัตถุ Line และ Arc แต่ละชิ้นในตำแหน่งเดิม ทีละส่วน แต่ละชิ้นจะคงความหนาเส้น สี เลเยอร์ และชนิดเส้นของ polyline ต้นทางไว้ ใช้ได้กับวัตถุ Polyline เท่านั้น"
 keywords: [คำสั่ง explode CAD, ระเบิด polyline CAD, แยก polyline เป็นเส้นตรง, แปลง polyline เป็น line และ arc, kulmanlab]
 group: edit
-order: 17
+order: 19
 ---
 
 # Explode

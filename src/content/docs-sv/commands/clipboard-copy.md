@@ -3,7 +3,7 @@ title: ClipboardCopy-kommandot — Kopiera entiteter till systemets urklipp
 description: Kommandot ClipboardCopy skriver de markerade entiteterna till systemets urklipp som JSON-text, tillsammans med de lager och linjetyper de refererar till, så att de kan klistras in i en annan ritning eller en annan webbläsarflik med ClipboardPaste.
 keywords: [kopiera urklipp CAD, kopiera entiteter mellan ritningar, kopiera CAD-objekt till urklipp, Ctrl+C CAD, kopiera mellan flikar, kulmanlab]
 group: edit
-order: 18
+order: 20
 ---
 
 # ClipboardCopy

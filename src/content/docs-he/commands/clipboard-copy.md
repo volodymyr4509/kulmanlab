@@ -3,7 +3,7 @@ title: הפקודה ClipboardCopy — העתקת ישויות ללוח של המ
 description: הפקודה ClipboardCopy כותבת את הישויות הנבחרות ללוח של המערכת כטקסט JSON, יחד עם השכבות וסוגי הקו שהן מפנות אליהם, כדי שאפשר יהיה להדביק אותן בשרטוט אחר או בלשונית דפדפן אחרת באמצעות ClipboardPaste.
 keywords: [העתקה ללוח CAD, העתקת ישויות בין שרטוטים, העתקת אובייקטים של CAD ללוח, Ctrl+C CAD, העתקה בין לשוניות, kulmanlab]
 group: edit
-order: 18
+order: 20
 ---
 
 # ClipboardCopy

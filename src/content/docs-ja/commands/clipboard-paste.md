@@ -3,7 +3,7 @@ title: ClipboardPaste コマンド — システムクリップボードから�
 description: ClipboardPaste コマンドは ClipboardCopy が書き出したエンティティをシステムクリップボードから読み取り、指定した挿入点に配置します。貼り付け先の図面に無い画層と線種は追加されます。
 keywords: [CAD クリップボード 貼り付け, 図面間でエンティティを貼り付け, CAD オブジェクト 貼り付け, Ctrl+V CAD, タブ間貼り付け, 貼り付け時の画層統合, kulmanlab]
 group: edit
-order: 19
+order: 21
 ---
 
 # ClipboardPaste

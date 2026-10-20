@@ -3,7 +3,7 @@ title: Εντολή Explode — Διάσπαση μιας Polyline σε Οντό
 description: Η εντολή Explode διασπά μια πολυγραμμή επί τόπου στις μεμονωμένες οντότητες Line και Arc της, μία ανά τμήμα. Κάθε κομμάτι διατηρεί το πάχος γραμμής, το χρώμα, το επίπεδο και τον τύπο γραμμής της αρχικής πολυγραμμής. Λειτουργεί μόνο με οντότητες Polyline.
 keywords: [εντολή explode CAD, διάσπαση polyline CAD, διάσπαση polyline σε γραμμές, μετατροπή polyline σε line και arc, kulmanlab]
 group: edit
-order: 17
+order: 19
 ---
 
 # Explode

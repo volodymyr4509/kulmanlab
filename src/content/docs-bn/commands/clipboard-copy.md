@@ -3,7 +3,7 @@ title: ClipboardCopy কমান্ড — এনটিটি সিস্ট�
 description: ClipboardCopy কমান্ড নির্বাচিত এনটিটিগুলোকে JSON টেক্সট হিসেবে সিস্টেম ক্লিপবোর্ডে লেখে, সঙ্গে সেই লেয়ার ও লাইনটাইপও যেগুলো তারা উল্লেখ করে, যাতে ClipboardPaste দিয়ে অন্য অঙ্কনে বা অন্য ব্রাউজার ট্যাবে পেস্ট করা যায়।
 keywords: [CAD ক্লিপবোর্ড কপি, অঙ্কনের মধ্যে এনটিটি কপি, CAD অবজেক্ট ক্লিপবোর্ডে কপি, Ctrl+C CAD, ট্যাবের মধ্যে কপি, kulmanlab]
 group: edit
-order: 18
+order: 20
 ---
 
 # ClipboardCopy
