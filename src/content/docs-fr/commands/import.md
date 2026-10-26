@@ -45,6 +45,8 @@ KulmanLab analyse les types d'entités DXF suivants :
 
 Les définitions de calques et les tables de types de ligne sont aussi importées du fichier DXF quand elles sont présentes.
 
+Les présentations sont importées aussi, chacune avec son format de papier, ses fenêtres et ses entités, et leurs onglets s’ouvrent dans l’ordre du fichier. Ce qui est dessiné sur une présentation — un cartouche, un cadre, des notes — reste sur cette présentation au lieu d’atterrir dans l’espace objet.
+
 Les entités utilisant des types DXF non pris en charge sont ignorées silencieusement — le reste du dessin se charge quand même.
 
 ## Nom et stockage des fichiers

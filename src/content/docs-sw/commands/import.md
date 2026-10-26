@@ -45,6 +45,8 @@ KulmanLab huchambua aina zifuatazo za viumbe vya DXF:
 
 Ufafanuzi wa safu na jedwali la aina za mstari pia huingizwa kutoka kwa faili ya DXF inapokuwepo.
 
+Mipangilio pia huletwa, kila mmoja na ukubwa wake wa karatasi, viewports na vitu vyake, na vichupo vyake hufunguka kwa mpangilio wa faili lenyewe. Chochote kilichochorwa kwenye mpangilio — kizuizi cha kichwa, mpaka, maelezo — hubaki kwenye mpangilio huo badala ya kuingia model space.
+
 Viumbe vinavyotumia aina za DXF zisizooungwa mkono hupitwa kimya kimya — sehemu iliyobaki ya mchoro bado inapakiwa.
 
 ## Kutaja faili na uhifadhi

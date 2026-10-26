@@ -45,6 +45,8 @@ KulmanLab mengurai tipe entitas DXF berikut:
 
 Definisi layer dan tabel tipe garis juga diimpor dari file DXF jika ada.
 
+Layout ikut diimpor, masing-masing dengan ukuran kertas, viewport, dan entitasnya sendiri, dan tabnya terbuka sesuai urutan di file. Apa pun yang digambar di layout — blok judul, bingkai, catatan — tetap di layout itu alih-alih masuk ke model space.
+
 Entitas yang menggunakan tipe DXF yang tidak didukung dilewati secara diam-diam — sisa gambar masih dimuat.
 
 ## Penamaan file dan penyimpanan

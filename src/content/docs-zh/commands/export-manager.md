@@ -70,6 +70,7 @@ Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text �
 - Leaders（多重引线）
 - Hatches，包括其图案、比例、角度和原点
 - Layers 和 Linetypes
+- 布局：包括名称、图纸尺寸和选项卡顺序，每个布局上绘制的所有内容，以及带比例和锁定状态的视口——因此再次打开文件时布局完整如初
 
 文件按 AC1032 版 DXF 写出，因此从 KulmanLab 导出的图纸在其他支持 DXF 的工具中打开时注释仍在，而不是只剩光秃秃的几何。
 

@@ -55,6 +55,8 @@ Rozwijana lista **Quality** ustawia DPI, w jakim renderowany jest eksport:
 | Presentation | 300 |
 | Max | 600 |
 
+Przy dużym papierze DPI jest obniżane dokładnie na tyle, by arkusz zmieścił się w jednym płótnie przeglądarki, więc wydruk nigdy nie wychodzi pusty: A1 w jakości Max drukuje się w 568 DPI, a A0 w 401. DPI wyświetlane obok listy Quality to wartość faktycznie użyta i to z niej liczone są grubości linii oraz rozmiar strony PDF.
+
 Wyższa Jakość daje większy, ostrzejszy obraz przy tym samym fizycznym rozmiarze — grubości linii skalują się razem z rozdzielczością, więc linia zachowuje tę samą *fizyczną* grubość na papierze przy dowolnym ustawieniu Jakości, zamiast wyglądać cieniej wraz ze wzrostem DPI. Jedynym wyjątkiem jest cienka linia (grubość `0`), którą tradycyjnie definiuje się jako „najcieńszą linię, jaką może narysować urządzenie wyjściowe” — pozostaje o stałej szerokości 1 piksela na każdym poziomie Jakości, dokładnie tak, jak zachowuje się na płótnie na żywo.
 
 Zmiana Jakości natychmiast ponownie renderuje podgląd, dzięki czemu widzisz rzeczywistą ostrość (i kompromis w rozmiarze pliku) przed eksportem.

@@ -30,3 +30,4 @@ Het wijzigen van het papierformaat of de schaal herschaalt alle bestaande viewpo
 - PageManager is alleen van toepassing op papierlayouts. Het is niet beschikbaar in de modelruimte.
 - Om een nieuwe layout toe te voegen, klikt u op de **+**-knop in de tabbalk onderaan.
 - Om een layout te hernoemen of te verwijderen, klikt u met de rechtermuisknop op de bijbehorende tab.
+- Om layouts te herschikken, sleept u een tabblad langs de tabbalk en laat u het los waar het moet komen; Model blijft vooraan. De nieuwe volgorde wordt opgeslagen, kan ongedaan worden gemaakt en wordt naar DXF geschreven.

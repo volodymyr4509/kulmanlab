@@ -70,6 +70,7 @@ Ogni tipo di entità è incluso:
 - Leaders (multileader)
 - Hatches, incluso il loro motivo, scala, angolo e origine
 - Layers e Linetypes
+- Layout, con nome, formato carta e ordine delle schede, tutto ciò che è disegnato su ciascuno e le loro finestre con scala e blocco — così un layout torna intatto quando il file viene riaperto
 
 Il file viene scritto come DXF AC1032, così un disegno esportato da KulmanLab si apre negli altri strumenti compatibili DXF con la sua annotazione intatta, invece di arrivare come geometria nuda.
 

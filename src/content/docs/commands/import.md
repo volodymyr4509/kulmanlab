@@ -45,6 +45,8 @@ KulmanLab parses the following DXF entity types:
 
 Layer definitions and linetype tables are also imported from the DXF file when present.
 
+Layouts come in too, each with its own paper size, viewports and entities, and their tabs open in the file's own order. Whatever is drawn on a layout — a title block, a border, notes — stays on that layout instead of landing in model space.
+
 Entities that use unsupported DXF types are silently skipped — the rest of the drawing still loads.
 
 ## File naming and storage

@@ -70,6 +70,7 @@ Alle entitetstyper er inkluderet:
 - Leaders (multiledelinjer)
 - Hatches, inklusive deres mønster, skalering, vinkel og origin
 - Layers og Linetypes
+- Layouts med navne, papirstørrelse og fanerækkefølge, alt hvad der er tegnet på hvert, og deres viewports med skala og lås — så et layout kommer helt tilbage, når filen åbnes igen
 
 Filen skrives som AC1032 DXF, så en tegning eksporteret fra KulmanLab åbner med sine påtegninger i behold i andre DXF-kyndige værktøjer i stedet for at ankomme som ren geometri.
 

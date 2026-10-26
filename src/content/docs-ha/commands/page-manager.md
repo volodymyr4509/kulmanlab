@@ -30,3 +30,4 @@ Canza girman takarda ko girma yana sake canza girman dukkan viewports da ke akwa
 - PageManager tana aiki ne kawai ga layouts na takarda. Ba ta akwai a model space ba.
 - Don ƙara sabon layout, danna maɓallin **+** a jerin lasifikar a ƙasa.
 - Don sake suna ko share layout, danna dama a lasifikarsa.
+- Don sake tsara layouts, ja shafi tare da sandar shafuka ka sake shi inda ya kamata ya zauna; Model yana zama na farko. Ana adana sabon tsarin, ana iya sokewa, kuma ana rubuta shi zuwa DXF.

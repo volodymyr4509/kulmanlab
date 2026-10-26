@@ -55,6 +55,8 @@ Rullemenuen **Quality** angiver den DPI, eksporten renderes med:
 | Presentation | 300 |
 | Max | 600 |
 
+På stort papir sænkes DPI netop så meget, at arket kan være i ét browserlærred, så plottet aldrig bliver tomt: A1 ved Max plottes ved 568 DPI og A0 ved 401. Den DPI, der vises ved siden af Quality-rullemenuen, er den faktisk brugte, og stregtykkelser og PDF-sidens størrelse beregnes ud fra den.
+
 Højere Quality giver et større, skarpere billede i samme fysiske størrelse — linjetykkelser skaleres sammen med opløsningen, så en linje bevarer samme *fysiske* tykkelse på papir ved enhver Quality-indstilling, i stedet for at se tyndere ud ved stigende DPI. Den ene undtagelse er en hårlinje (linjetykkelse `0`), der traditionelt defineres som "den tyndeste linje outputenheden kan tegne" — den forbliver en fast bredde på 1 pixel på ethvert Quality-niveau, ligesom den opfører sig på det levende lærred.
 
 At ændre Quality genrenderer forhåndsvisningen med det samme, så du ser den faktiske skarphed (og afvejningen af filstørrelse) før eksport.

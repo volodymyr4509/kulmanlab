@@ -45,6 +45,8 @@ Ini-parse ng KulmanLab ang mga sumusunod na DXF entity types:
 
 Ini-import din ang layer definitions at linetype tables mula sa DXF file kapag mayroon.
 
+Ini-import din ang mga layout, bawat isa ay may sariling laki ng papel, mga viewport at entity, at bumubukas ang mga tab nito ayon sa sariling pagkakasunod ng file. Ang anumang iginuhit sa isang layout — title block, border, mga tala — ay nananatili sa layout na iyon sa halip na mapunta sa model space.
+
 Ang mga entity na gumagamit ng unsupported DXF types ay tahimik na nili-skip — nag-lo-load pa rin ang natitirang bahagi ng drawing.
 
 ## Pangalan ng file at storage

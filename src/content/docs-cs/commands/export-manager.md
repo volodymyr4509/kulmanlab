@@ -72,6 +72,7 @@ Zahrnuty jsou všechny typy objektů:
 - Leaders jako `MULTILEADER`
 - Hatches s jejich vzorem, měřítkem, úhlem a počátkem
 - Hladiny a typy čar
+- Rozvržení s názvy, velikostí papíru a pořadím záložek, vším, co je v nich nakresleno, a jejich výřezy včetně měřítka a zámku — takže se rozvržení po opětovném otevření souboru vrátí beze změny
 
 Soubor se zapisuje jako DXF AC1032, takže výkres exportovaný z KulmanLab se v jiných nástrojích schopných číst DXF otevře s neporušenými poznámkami, místo aby dorazil jako holá geometrie.
 

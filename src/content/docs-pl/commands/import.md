@@ -45,6 +45,8 @@ KulmanLab analizuje następujące typy elementów DXF:
 
 Definicje warstw i tabele typów linii są również importowane z pliku DXF, gdy są obecne.
 
+Importowane są też układy, każdy z własnym formatem papieru, rzutniami i obiektami, a ich zakładki otwierają się w kolejności z pliku. To, co narysowano na układzie — tabliczka rysunkowa, ramka, notatki — zostaje na tym układzie, zamiast trafić do przestrzeni modelu.
+
 Elementy używające nieobsługiwanych typów DXF są po cichu pomijane — reszta rysunku i tak się ładuje.
 
 ## Nazewnictwo plików i przechowywanie

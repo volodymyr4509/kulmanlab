@@ -30,3 +30,4 @@ Cambiar el tamaño del papel o la escala redimensiona todos los viewports existe
 - PageManager solo se aplica a los diseños de papel. No está disponible en el espacio de modelo.
 - Para añadir un nuevo diseño, haz clic en el botón **+** en la barra de pestañas en la parte inferior.
 - Para renombrar o eliminar un diseño, haz clic derecho en su pestaña.
+- Para reordenar las presentaciones, arrastra una pestaña a lo largo de la barra de pestañas y suéltala donde deba quedar; Model sigue primero. El nuevo orden se guarda, se puede deshacer y se escribe en el DXF.

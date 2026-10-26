@@ -45,6 +45,8 @@ KulmanLab verwerkt de volgende DXF-entiteitstypen:
 
 Laagdefinities en lijntypetabellen worden ook geïmporteerd uit het DXF-bestand, indien aanwezig.
 
+Ook layouts worden ingelezen, elk met een eigen papierformaat, eigen viewports en entiteiten, en hun tabbladen openen in de volgorde van het bestand. Wat op een layout is getekend — een titelblok, een kader, notities — blijft op die layout in plaats van in de modelruimte te belanden.
+
 Entiteiten die niet-ondersteunde DXF-typen gebruiken, worden stilzwijgend overgeslagen — de rest van de tekening laadt nog steeds.
 
 ## Bestandsnaamgeving en opslag

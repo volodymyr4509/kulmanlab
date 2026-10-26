@@ -30,3 +30,4 @@ Changing the paper size or scale rescales all existing viewports in the layout p
 - PageManager only applies to paper layouts. It is not available in model space.
 - To add a new layout, click the **+** button in the tab bar at the bottom.
 - To rename or delete a layout, right-click its tab.
+- To reorder layouts, drag a tab along the tab bar and let go where it should sit; Model stays first. The new order is saved, can be undone, and is written to DXF.

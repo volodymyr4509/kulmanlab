@@ -55,6 +55,8 @@ De **Quality**-vervolgkeuzelijst stelt de DPI in waarmee de export wordt gerende
 | Presentation | 300 |
 | Max | 600 |
 
+Bij groot papier wordt de DPI net zoveel verlaagd dat het blad in één browsercanvas past, zodat de plot nooit leeg uitvalt: A1 op Max wordt geplot op 568 DPI en A0 op 401. De DPI naast de Quality-keuzelijst is de werkelijk gebruikte, en lijndiktes en het PDF-paginaformaat worden daaruit berekend.
+
 Hogere Quality levert een groter, scherper beeld op bij dezelfde fysieke grootte — lijndiktes schalen mee met de resolutie, zodat een lijn bij elke Quality-instelling dezelfde *fysieke* dikte op papier behoudt, in plaats van dunner te lijken naarmate de DPI toeneemt. De enige uitzondering is een haarlijn (lijndikte `0`), die conventioneel wordt gedefinieerd als "de dunste lijn die het uitvoerapparaat kan tekenen" — deze blijft bij elk Quality-niveau een vaste breedte van 1 pixel behouden, net zoals op het live canvas.
 
 Het wijzigen van Quality rendert de voorvertoning direct opnieuw, zodat u de werkelijke scherpte (en de afweging in bestandsgrootte) ziet vóór het exporteren.

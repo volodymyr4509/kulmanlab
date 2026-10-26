@@ -45,6 +45,8 @@ KulmanLab analysiert die folgenden DXF-Entitätstypen:
 
 Layerdefinitionen und Linientyptabellen werden ebenfalls aus der DXF-Datei importiert, sofern vorhanden.
 
+Auch Layouts werden übernommen, jedes mit eigenem Papierformat, eigenen Ansichtsfenstern und Entitäten, und ihre Tabs öffnen sich in der Reihenfolge der Datei. Was auf einem Layout gezeichnet ist — ein Schriftfeld, ein Rahmen, Notizen —, bleibt auf diesem Layout, statt im Modellbereich zu landen.
+
 Entitäten mit nicht unterstützten DXF-Typen werden stillschweigend übersprungen — der Rest der Zeichnung wird trotzdem geladen.
 
 ## Dateiname und Speicherung

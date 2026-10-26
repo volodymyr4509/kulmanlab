@@ -30,3 +30,4 @@ Changer la taille du papier ou l'échelle redimensionne tous les viewports exist
 - PageManager s'applique uniquement aux mises en page papier. Il n'est pas disponible dans l'espace modèle.
 - Pour ajouter une nouvelle mise en page, cliquez sur le bouton **+** dans la barre d'onglets en bas.
 - Pour renommer ou supprimer une mise en page, cliquez droit sur son onglet.
+- Pour réordonner les présentations, faites glisser un onglet le long de la barre d’onglets et relâchez-le à sa place ; Model reste en premier. Le nouvel ordre est enregistré, peut être annulé et est écrit dans le DXF.

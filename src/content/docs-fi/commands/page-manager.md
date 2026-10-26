@@ -30,3 +30,4 @@ Paperikoon tai mittakaavan muuttaminen skaalaa kaikkia asettelun olemassa olevia
 - PageManager koskee vain paperiasetteluja. Sitä ei voi käyttää mallitilassa.
 - Lisätäksesi uuden asettelun, napsauta **+**-painiketta välilehtipalkissa alareunassa.
 - Nimetäksesi uudelleen tai poistaaksesi asettelun, napsauta hiiren oikealla painikkeella sen välilehteä.
+- Järjestä layoutit vetämällä välilehteä välilehtipalkkia pitkin ja vapauttamalla se kohtaan, jossa sen pitää olla; Model pysyy ensimmäisenä. Uusi järjestys tallennetaan, sen voi kumota ja se kirjoitetaan DXF:ään.

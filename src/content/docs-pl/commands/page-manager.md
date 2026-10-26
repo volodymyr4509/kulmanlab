@@ -30,3 +30,4 @@ Zmiana rozmiaru papieru lub skali proporcjonalnie przeskalowuje wszystkie istnie
 - MenedżerStron dotyczy tylko układów papierowych. Nie jest dostępny w przestrzeni modelu.
 - Aby dodać nowy układ, kliknij przycisk **+** na pasku zakładek u dołu.
 - Aby zmienić nazwę lub usunąć układ, kliknij prawym przyciskiem myszy jego zakładkę.
+- Aby zmienić kolejność układów, przeciągnij zakładkę wzdłuż paska zakładek i upuść ją tam, gdzie ma być; Model zostaje pierwszy. Nowa kolejność jest zapisywana, można ją cofnąć i trafia do DXF.

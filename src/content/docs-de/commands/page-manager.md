@@ -30,3 +30,4 @@ Das Ändern des Papierformats oder des Maßstabs skaliert alle vorhandenen Ansic
 - PageManager gilt nur für Papier-Layouts. Im Modellraum ist er nicht verfügbar.
 - Um ein neues Layout hinzuzufügen, klicken Sie auf die Schaltfläche **+** in der Tab-Leiste unten.
 - Um ein Layout umzubenennen oder zu löschen, klicken Sie mit der rechten Maustaste auf seinen Tab.
+- Um Layouts neu anzuordnen, ziehen Sie einen Tab entlang der Tab-Leiste und lassen ihn dort los, wo er stehen soll; Model bleibt vorn. Die neue Reihenfolge wird gespeichert, lässt sich rückgängig machen und wird in DXF geschrieben.

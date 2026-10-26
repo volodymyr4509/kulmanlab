@@ -72,6 +72,7 @@ Every entity type is included:
 - Leaders, as `MULTILEADER`
 - Hatches, with their pattern, scale, angle, and origin
 - Layers and linetypes
+- Layouts, with their names, paper size and tab order, everything drawn on each, and their viewports with scale and lock — so a layout comes back intact when the file is opened again
 
 The file is written as AC1032 DXF, so a drawing exported from KulmanLab opens with its annotation intact in other DXF-capable tools rather than arriving as bare geometry.
 

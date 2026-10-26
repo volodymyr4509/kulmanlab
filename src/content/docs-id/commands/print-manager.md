@@ -55,6 +55,8 @@ Dropdown **Quality** menetapkan DPI tempat ekspor dirender:
 | Presentation | 300 |
 | Max | 600 |
 
+Pada kertas besar, DPI diturunkan secukupnya agar lembar muat dalam satu kanvas browser, sehingga hasil plot tidak pernah kosong: A1 pada Max di-plot pada 568 DPI dan A0 pada 401. DPI yang ditampilkan di samping dropdown Quality adalah yang benar-benar dipakai, dan tebal garis serta ukuran halaman PDF dihitung darinya.
+
 Kualitas yang lebih tinggi menghasilkan gambar yang lebih besar dan lebih tajam pada ukuran fisik yang sama — ketebalan garis ikut menskalakan bersama resolusi, sehingga garis mempertahankan ketebalan *fisik* yang sama di atas kertas pada pengaturan Kualitas apa pun, alih-alih terlihat lebih tipis saat DPI meningkat. Satu pengecualian adalah garis rambut (ketebalan garis `0`), yang secara konvensional didefinisikan sebagai "garis paling tipis yang dapat digambar oleh perangkat output" — garis ini tetap pada lebar tetap 1 piksel di setiap tingkat Kualitas, sama seperti perilakunya di kanvas langsung.
 
 Mengubah Kualitas langsung merender ulang pratinjau, sehingga Anda melihat ketajaman sebenarnya (dan trade-off ukuran file) sebelum mengekspor.

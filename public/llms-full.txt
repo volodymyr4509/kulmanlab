@@ -262,7 +262,7 @@ KulmanLab is a free, browser-based 2D CAD editor. No installation, no account, n
 - Snapping: endpoint, midpoint, center, intersection, perpendicular, tangent, nearest, grid
 - Angle tracking with configurable increments (10°, 15°, 20°, 30°, 45°, 90°)
 - Vector pins with distance tracking: pin a snap point, lock a direction, then type an exact length — places a point at a precise distance with no dragging, rolled out to nearly every command that asks for a point
-- Layout / paper space with multiple layouts and viewport editing
+- Layout / paper space with multiple layouts and viewport editing; layout tabs reorder by dragging, and layouts — their paper, entities and viewports — survive a DXF export and re-import
 - Print manager: PDF and PNG/WebP export with DPI control
 - On-canvas text editing (MTEXT) with Bold, Italic, per-character font and size
 - Font Manager: browse built-in and Google Fonts, or upload custom .ttf files
@@ -2160,7 +2160,7 @@ Four things worth knowing:
 
 **Linear Dimensions** covers linear, aligned, and continued dimensions: they are one entity type created by three different commands. Radius, diameter, and angular dimensions each get their own row.
 
-This is what makes a cut file straightforward. Untick Text, the four dimension rows, Leaders, and Hatches, and **Export DXF** gives you cut geometry and nothing else — see [preparing a DXF for laser cutting](/blog/prepare-dxf-for-laser-cutting/).
+This is what makes a cut file straightforward. Untick Text, the four dimension rows, Leaders, and Hatches, and **Export DXF** gives you cut geometry and nothing else — see [preparing a DXF for laser cutting](https://kulmanlab.com/blog/prepare-dxf-for-laser-cutting/).
 
 ## Choosing a format
 
@@ -2196,6 +2196,7 @@ Every entity type is included:
 - Leaders, as `MULTILEADER`
 - Hatches, with their pattern, scale, angle, and origin
 - Layers and linetypes
+- Layouts, with their names, paper size and tab order, everything drawn on each, and their viewports with scale and lock — so a layout comes back intact when the file is opened again
 
 The file is written as AC1032 DXF, so a drawing exported from KulmanLab opens with its annotation intact in other DXF-capable tools rather than arriving as bare geometry.
 
@@ -2861,6 +2862,8 @@ KulmanLab parses the following DXF entity types:
 | Hatch | `HATCH` | Pattern name, scale, and angle are read; a name not in your pattern library falls back to ANSI31. See [Hatch](https://kulmanlab.com/docs/commands/hatch/) |
 
 Layer definitions and linetype tables are also imported from the DXF file when present.
+
+Layouts come in too, each with its own paper size, viewports and entities, and their tabs open in the file's own order. Whatever is drawn on a layout — a title block, a border, notes — stays on that layout instead of landing in model space.
 
 Entities that use unsupported DXF types are silently skipped — the rest of the drawing still loads.
 
@@ -4018,6 +4021,7 @@ Changing the paper size or scale rescales all existing viewports in the layout p
 - PageManager only applies to paper layouts. It is not available in model space.
 - To add a new layout, click the **+** button in the tab bar at the bottom.
 - To rename or delete a layout, right-click its tab.
+- To reorder layouts, drag a tab along the tab bar and let go where it should sit; Model stays first. The new order is saved, can be undone, and is written to DXF.
 
 ---
 
@@ -4399,6 +4403,8 @@ The **Quality** dropdown sets the DPI the export is rendered at:
 | Normal *(default)* | 150 |
 | Presentation | 300 |
 | Max | 600 |
+
+On large paper the DPI is lowered just enough for the sheet to fit what one browser canvas can hold, so the plot never comes out blank: A1 at Max plots at 568 DPI and A0 at 401. The DPI shown next to the Quality dropdown is the one actually used, and line weights and the PDF page size are worked out from it.
 
 Higher Quality produces a larger, sharper image at the same physical size — line weights scale up together with the resolution, so a line keeps the same *physical* thickness on paper at any Quality setting rather than looking thinner as DPI increases. The one exception is a hairline (lineweight `0`), conventionally defined as "the thinnest line the output device can draw" — it stays a fixed 1-pixel width at every Quality level instead of scaling, matching how it behaves on the live canvas.
 

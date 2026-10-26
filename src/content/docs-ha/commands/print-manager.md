@@ -55,6 +55,8 @@ Menu na **Quality** yana saita DPI wanda ake bayarwa dashi:
 | Presentation | 300 |
 | Max | 600 |
 
+A kan babbar takarda ana rage DPI daidai gwargwado don takardar ta shiga cikin canvas ɗaya na mai bincike, don haka bugun ba ya fitowa fanko: A1 a Max yana bugawa a 568 DPI, A0 a 401. DPI da ake nunawa kusa da jerin zaɓin Quality shi ne ainihin wanda ake amfani da shi, kuma daga shi ake lissafa kaurin layi da girman shafin PDF.
+
 Inganci mafi girma yana samar da hoto mafi girma da tsabta a girman zahiri iri ɗaya — kaurin layi yana daidaitawa tare da ƙuduri, don haka layi yana ci gaba da kauri *na zahiri* iri ɗaya a takarda a kowane saitin Quality, maimakon ya bayyana siriri yayin da DPI ke ƙaruwa. Kawai togiya ita ce layin gashi (kauri `0`), wanda ake bayyanawa gargajiya a matsayin "layin da ya fi siriri da na'urar fitarwa za ta iya zanawa" — ya ci gaba da faɗi mai tsayayye na pixel 1 a kowane matakin Quality, daidai yadda yake nuna hali a kan canvas mai rai.
 
 Canza Quality yana sake bayarwa da preview nan take, don haka kake ganin tsabta ta gaskiya (da daidaita girman fayil) kafin fitarwa.

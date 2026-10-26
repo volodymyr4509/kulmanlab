@@ -284,7 +284,7 @@ It is designed for engineers, architects, and technical illustrators who need a 
 - Grip editing on all entity types (lines, arcs, polylines, dimensions, text, viewports)
 - Snapping: endpoint, midpoint, center, intersection, perpendicular, tangent, nearest, grid
 - Angle tracking with configurable increments (10°, 15°, 20°, 30°, 45°, 90°)
-- Layout / paper space with multiple layouts and viewport editing
+- Layout / paper space with multiple layouts and viewport editing; layout tabs reorder by dragging, and layouts — their paper, entities and viewports — survive a DXF export and re-import
 - ISO 5455 scale selector for viewports
 - Print manager: PDF and PNG/WebP export with a Draft/Normal/Presentation/Max Quality (DPI) setting; preview renders through the exact same path as the export, so what you see is what downloads
 - DXF import and export — geometry, text (MTEXT), dimensions, leaders, and hatches all round-trip, compatible with LibreCAD, QCAD, BricsCAD, FreeCAD

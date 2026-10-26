@@ -55,6 +55,8 @@ Blueprint, geleneksel bir siyanotip mimari baskının görünümünü yeniden ü
 | Presentation | 300 |
 | Max | 600 |
 
+Büyük kâğıtta DPI, sayfa tek bir tarayıcı tuvaline sığacak kadar düşürülür; böylece çıktı asla boş çıkmaz: Max kalitesinde A1 568 DPI'da, A0 401'de çizdirilir. Quality açılır menüsünün yanında gösterilen DPI gerçekte kullanılandır; çizgi kalınlıkları ve PDF sayfa boyutu ondan hesaplanır.
+
 Daha yüksek Kalite, aynı fiziksel boyutta daha büyük ve daha net bir görüntü üretir — çizgi kalınlıkları çözünürlükle birlikte ölçeklenir, böylece bir çizgi DPI arttıkça daha ince görünmek yerine herhangi bir Kalite ayarında kağıt üzerinde aynı *fiziksel* kalınlığı korur. Tek istisna, geleneksel olarak "çıktı cihazının çizebileceği en ince çizgi" olarak tanımlanan ince çizgidir (çizgi kalınlığı `0`) — canlı tuvaldeki davranışıyla tamamen aynı şekilde, her Kalite seviyesinde sabit 1 piksel genişliğinde kalır.
 
 Kaliteyi değiştirmek önizlemeyi hemen yeniden render eder, böylece dışa aktarmadan önce gerçek netliği (ve dosya boyutu ödünleşimini) görürsünüz.

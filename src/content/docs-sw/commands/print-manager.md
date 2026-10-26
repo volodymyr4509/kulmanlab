@@ -55,6 +55,8 @@ Kishuka cha **Quality** huweka DPI ambayo usafirishaji hurenderiwa:
 | Presentation | 300 |
 | Max | 600 |
 
+Kwenye karatasi kubwa DPI hupunguzwa kiasi cha kutosha tu ili karatasi itoshee kwenye turubai moja ya kivinjari, hivyo uchapishaji haupatikani tupu kamwe: A1 kwa Max huchapishwa kwa 568 DPI na A0 kwa 401. DPI inayoonyeshwa kando ya menyu ya Quality ndiyo inayotumika kweli, na unene wa mistari na ukubwa wa ukurasa wa PDF hukokotolewa kutoka kwake.
+
 Ubora wa juu zaidi hutoa picha kubwa na kali zaidi kwa saizi ile ile halisi — unene wa mistari hupima pamoja na azimio, hivyo mstari hudumisha unene ule ule *halisi* kwenye karatasi katika mpangilio wowote wa Quality, badala ya kuonekana mwembamba zaidi DPI inapoongezeka. Isipokuwa pekee ni mstari mwembamba (unene wa mstari `0`), ambao kwa kawaida hufafanuliwa kama "mstari mwembamba zaidi ambao kifaa cha matokeo kinaweza kuchora" — hubaki na upana thabiti wa pikseli 1 katika kiwango chochote cha Quality, sawasawa na jinsi unavyofanya kwenye kanvasi ya moja kwa moja.
 
 Kubadilisha Quality hurenderi upya hakiki mara moja, hivyo unaona ukali halisi (na mzani wa saizi ya faili) kabla ya kusafirisha.

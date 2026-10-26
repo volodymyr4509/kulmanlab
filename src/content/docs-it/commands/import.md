@@ -45,6 +45,8 @@ KulmanLab analizza i seguenti tipi di entità DXF:
 
 Le definizioni dei layer e le tabelle dei tipi di linea vengono importate dal file DXF quando presenti.
 
+Vengono importati anche i layout, ciascuno con il proprio formato carta, le proprie finestre e le proprie entità, e le loro schede si aprono nell’ordine del file. Ciò che è disegnato su un layout — un cartiglio, una cornice, delle note — resta su quel layout invece di finire nello spazio modello.
+
 Le entità che usano tipi DXF non supportati vengono ignorate silenziosamente — il resto del disegno viene comunque caricato.
 
 ## Nomi file e archiviazione

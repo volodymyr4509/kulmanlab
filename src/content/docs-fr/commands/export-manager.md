@@ -70,6 +70,7 @@ Chaque type d'entité est inclus :
 - Leaders (multileaders)
 - Hatches, y compris leur motif, échelle, angle et origine
 - Layers et Linetypes
+- Les présentations, avec leur nom, leur format de papier et leur ordre d’onglets, tout ce qui est dessiné sur chacune, et leurs fenêtres avec échelle et verrouillage — une présentation revient donc intacte quand le fichier est rouvert
 
 Le fichier est écrit en DXF AC1032 : un dessin exporté depuis KulmanLab s'ouvre donc avec son annotation intacte dans les autres outils compatibles DXF, au lieu d'arriver en géométrie nue.
 

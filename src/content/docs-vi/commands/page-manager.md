@@ -29,3 +29,4 @@ Thay đổi kích thước giấy hoặc tỉ lệ sẽ chia tỉ lệ lại t�
 - PageManager chỉ áp dụng cho các bố cục giấy. Không khả dụng trong không gian mô hình.
 - Để thêm bố cục mới, nhấp nút **+** trong thanh tab ở dưới cùng.
 - Để đổi tên hoặc xóa bố cục, nhấp chuột phải vào tab của nó.
+- Để sắp xếp lại các layout, kéo một tab dọc theo thanh tab và thả ở vị trí mong muốn; Model vẫn đứng đầu. Thứ tự mới được lưu, có thể hoàn tác và được ghi vào DXF.

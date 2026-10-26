@@ -45,6 +45,8 @@ KulmanLab menghurai jenis entiti DXF berikut:
 
 Definisi lapisan dan jadual linetype juga diimport dari fail DXF apabila ada.
 
+Susun atur turut diimport, masing-masing dengan saiz kertas, port pandang dan entitinya sendiri, dan tabnya dibuka mengikut susunan fail itu sendiri. Apa sahaja yang dilukis pada susun atur — blok tajuk, bingkai, nota — kekal pada susun atur itu dan tidak masuk ke ruang model.
+
 Entiti yang menggunakan jenis DXF yang tidak disokong dilangkau secara senyap — baki lukisan masih dimuatkan.
 
 ## Penamaan fail dan storan

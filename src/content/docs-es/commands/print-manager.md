@@ -55,6 +55,8 @@ El menú desplegable **Quality** define el DPI al que se renderiza la exportaci�
 | Presentation | 300 |
 | Max | 600 |
 
+En papel grande, los DPI se reducen justo lo necesario para que la hoja quepa en un lienzo del navegador, así el trazado nunca sale en blanco: A1 en Max se traza a 568 DPI y A0 a 401. Los DPI que aparecen junto al desplegable Quality son los que se usan realmente, y a partir de ellos se calculan los grosores de línea y el tamaño de página del PDF.
+
 Una Calidad más alta produce una imagen más grande y nítida al mismo tamaño físico — los grosores de línea escalan junto con la resolución, por lo que una línea mantiene el mismo grosor *físico* en papel en cualquier ajuste de Calidad, en lugar de verse más delgada al aumentar el DPI. La única excepción es una línea capilar (grosor `0`), convencionalmente definida como "la línea más delgada que el dispositivo de salida puede dibujar" — permanece con un ancho fijo de 1 píxel en cualquier nivel de Calidad, igual que se comporta en el lienzo en vivo.
 
 Cambiar la Calidad vuelve a renderizar la vista previa de inmediato, para que veas la nitidez real (y el compromiso de tamaño de archivo) antes de exportar.

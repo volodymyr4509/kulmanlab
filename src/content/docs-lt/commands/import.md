@@ -45,6 +45,8 @@ KulmanLab apdoroja šiuos DXF objektų tipus:
 
 Sluoksnių apibrėžimai ir linijų tipų lentelės taip pat importuojamos iš DXF failo, kai jos yra.
 
+Importuojami ir išdėstymai, kiekvienas su savo popieriaus dydžiu, peržiūros langais ir objektais, o jų skirtukai atsidaro failo tvarka. Kas nubraižyta išdėstyme — antraštės lentelė, rėmelis, pastabos — lieka tame išdėstyme, o ne atsiduria modelio erdvėje.
+
 Objektai, naudojantys nepalaikomus DXF tipus, tyliai praleidžiami — likusi brėžinio dalis vis tiek įkeliama.
 
 ## Failų pavadinimai ir saugykla

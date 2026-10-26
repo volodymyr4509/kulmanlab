@@ -72,6 +72,7 @@ Būtent tai padaro pjovimo failo paruošimą paprastą. Nuimkite Text, keturių 
 - Leaders kaip `MULTILEADER`
 - Brūkšniuotės su jų raštu, masteliu, kampu ir pradžios tašku
 - Sluoksniai ir linijų tipai
+- Išdėstymai su pavadinimais, popieriaus dydžiu ir skirtukų tvarka, viskuo, kas juose nubraižyta, ir peržiūros langais su masteliu bei užraktu — todėl vėl atidarius failą išdėstymas grįžta nepakitęs
 
 Failas rašomas kaip AC1032 DXF, todėl iš KulmanLab eksportuotas brėžinys kituose DXF gebančiuose įrankiuose atsiveria su nepažeistomis anotacijomis, o ne kaip nuoga geometrija.
 

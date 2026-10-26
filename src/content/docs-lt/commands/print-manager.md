@@ -55,6 +55,8 @@ Blueprint atkuria tradicinės ciantipinės architektūrinės spaudos išvaizdą 
 | Presentation | 300 |
 | Max | 600 |
 
+Dideliame popieriuje DPI sumažinamas tik tiek, kad lapas tilptų į vieną naršyklės drobę, todėl spaudinys niekada neišeina tuščias: A1 kokybe Max spausdinamas 568 DPI, A0 — 401. Šalia Quality sąrašo rodomas DPI yra tikrai naudojamas, ir iš jo skaičiuojami linijų storiai bei PDF puslapio dydis.
+
 Aukštesnė Quality sukuria didesnį, ryškesnį vaizdą tokio paties fizinio dydžio — linijų storiai auga kartu su skyra, todėl linija popieriuje išlaiko tą patį *fizinį* storį bet kokiu Quality nustatymu, o ne atrodo plonesnė didėjant DPI. Vienintelė išimtis — plaukelis (linijos storis `0`), įprastai apibrėžiamas kaip „ploniausia linija, kurią gali nubrėžti išvesties įrenginys" — jis kiekviename Quality lygyje lieka fiksuoto 1 pikselio pločio, užuot keitęsis, kaip ir gyvoje drobėje.
 
 Quality pakeitimas iškart perpiešia peržiūrą, todėl prieš eksportuodami matote tikrą ryškumą (ir failo dydžio kompromisą).

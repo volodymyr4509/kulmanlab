@@ -55,6 +55,8 @@ Le menu déroulant **Qualité** définit le DPI auquel l'export est rendu :
 | Presentation | 300 |
 | Max | 600 |
 
+Sur un grand format, la résolution est abaissée juste assez pour que la feuille tienne dans un seul canevas du navigateur, si bien que le tracé ne sort jamais vide : A1 en Max est tracé à 568 DPI et A0 à 401. La résolution affichée à côté de la liste Quality est celle réellement utilisée, et les épaisseurs de ligne comme la taille de page du PDF en sont déduites.
+
 Une Qualité plus élevée produit une image plus grande et plus nette à la même taille physique — les épaisseurs de trait s'adaptent avec la résolution, de sorte qu'un trait garde la même épaisseur *physique* sur papier à tout réglage de Qualité, au lieu de paraître plus fin quand le DPI augmente. La seule exception est un trait fin (épaisseur `0`), conventionnellement défini comme « le trait le plus fin que le périphérique de sortie puisse tracer » — il reste à une largeur fixe de 1 pixel à tout niveau de Qualité, exactement comme il se comporte sur le canevas en direct.
 
 Changer la Qualité re-rend immédiatement l'aperçu, afin que vous voyiez la netteté réelle (et le compromis de taille de fichier) avant d'exporter.

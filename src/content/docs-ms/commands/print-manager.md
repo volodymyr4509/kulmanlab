@@ -55,6 +55,8 @@ Menu lungsur **Quality** menetapkan DPI eksport dirender:
 | Presentation | 300 |
 | Max | 600 |
 
+Pada kertas besar, DPI diturunkan secukupnya supaya helaian muat dalam satu kanvas pelayar, jadi plot tidak pernah keluar kosong: A1 pada Max diplot pada 568 DPI dan A0 pada 401. DPI yang ditunjukkan di sebelah juntai bawah Quality ialah yang benar-benar digunakan, dan ketebalan garisan serta saiz halaman PDF dikira daripadanya.
+
 Kualiti yang lebih tinggi menghasilkan imej yang lebih besar dan lebih tajam pada saiz fizikal yang sama — ketebalan garis berskala bersama resolusi, jadi garis mengekalkan ketebalan *fizikal* yang sama di atas kertas pada mana-mana tetapan Kualiti, bukannya kelihatan lebih nipis apabila DPI meningkat. Satu pengecualian ialah garis rerambut (ketebalan garis `0`), yang ditakrifkan secara konvensional sebagai "garis paling nipis yang boleh dilukis oleh peranti output" — ia kekal pada lebar tetap 1 piksel pada mana-mana tahap Kualiti, sama seperti kelakuannya pada kanvas langsung.
 
 Menukar Kualiti serta-merta memberikan pratonton semula, jadi anda dapat melihat ketajaman sebenar (dan pertukaran saiz fail) sebelum mengeksport.

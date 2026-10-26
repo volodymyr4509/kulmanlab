@@ -30,3 +30,4 @@ At ændre papirstørrelsen eller skalaen skalerer alle eksisterende viewports i 
 - PageManager gælder kun papirlayouts. Den er ikke tilgængelig i modelrummet.
 - For at tilføje et nyt layout, klik **+**-knappen i fanelinjen forneden.
 - For at omdøbe eller slette et layout, højreklik dets fane.
+- For at ændre rækkefølgen af layouts trækker du en fane langs fanebjælken og slipper den, hvor den skal sidde; Model forbliver først. Den nye rækkefølge gemmes, kan fortrydes og skrives til DXF.

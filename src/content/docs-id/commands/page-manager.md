@@ -30,3 +30,4 @@ Mengubah ukuran kertas atau skala menskalakan ulang semua viewport yang ada di l
 - PageManager hanya berlaku untuk layout kertas. Tidak tersedia di model space.
 - Untuk menambahkan layout baru, klik tombol **+** di bar tab di bagian bawah.
 - Untuk mengubah nama atau menghapus layout, klik kanan tab-nya.
+- Untuk mengurutkan ulang layout, seret tab di sepanjang bilah tab dan lepaskan di tempat seharusnya; Model tetap pertama. Urutan baru disimpan, dapat dibatalkan, dan ditulis ke DXF.

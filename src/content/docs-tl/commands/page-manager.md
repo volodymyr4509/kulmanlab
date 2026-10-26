@@ -30,3 +30,4 @@ Ang pagbabago ng paper size o scale ay proporsyonal na nagre-rescale sa lahat ng
 - Naaaplay lang ang PageManager sa paper layouts. Hindi ito available sa model space.
 - Para magdagdag ng bagong layout, i-click ang **+** button sa tab bar sa ibaba.
 - Para palitan ang pangalan o tanggalin ang isang layout, i-right-click ang tab nito.
+- Para ayusin muli ang pagkakasunod ng mga layout, i-drag ang isang tab sa kahabaan ng tab bar at bitawan ito kung saan ito dapat pumuwesto; nananatiling una ang Model. Ang bagong pagkakasunod ay nase-save, maaaring i-undo, at isinusulat sa DXF.

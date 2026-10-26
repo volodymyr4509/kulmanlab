@@ -30,3 +30,4 @@ Modificare il formato carta o la scala ridimensiona proporzionalmente tutti i vi
 - PageManager si applica solo ai layout carta. Non è disponibile nello spazio modello.
 - Per aggiungere un nuovo layout, clicca il pulsante **+** nella barra delle schede in basso.
 - Per rinominare o eliminare un layout, fai clic destro sulla sua scheda.
+- Per riordinare i layout, trascina una scheda lungo la barra delle schede e rilasciala dove deve stare; Model resta per primo. Il nuovo ordine viene salvato, si può annullare e viene scritto nel DXF.

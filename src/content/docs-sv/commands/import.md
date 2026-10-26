@@ -45,6 +45,8 @@ KulmanLab tolkar följande DXF-entitetstyper:
 
 Lagerdefinitioner och linjetypstabeller importeras också från DXF-filen när de finns.
 
+Layouter följer också med, var och en med sin egen pappersstorlek, sina visningsfönster och entiteter, och flikarna öppnas i filens egen ordning. Det som är ritat på en layout — en titelruta, en ram, anteckningar — stannar på den layouten i stället för att hamna i modellrymden.
+
 Entiteter som använder DXF-typer som inte stöds hoppas tyst över — resten av ritningen laddas ändå in.
 
 ## Filnamn och lagring

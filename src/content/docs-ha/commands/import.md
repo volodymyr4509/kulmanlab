@@ -45,6 +45,8 @@ KulmanLab yana fassara nauʼukan abubuwan DXF masu zuwa:
 
 Ana kuma shigo da ma'anonin layer da tebur na nauʼukan layi daga fayil ɗin DXF idan sun kasance.
 
+Ana kuma shigo da layouts, kowanne da girman takardarsa, viewports da abubuwansa, kuma shafukansu suna buɗewa a tsarin fayil ɗin kansa. Abin da aka zana a kan layout — title block, iyaka, bayanai — yana zama a kan wannan layout maimakon ya koma model space.
+
 Ana yin banza da abubuwan da ke amfani da nauʼukan DXF marasa goyon baya a shiru — sauran zanen har yanzu yana loda.
 
 ## Sunayen fayiloli da ajiya

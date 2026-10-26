@@ -30,3 +30,4 @@ Menukar saiz kertas atau skala mengskala semula semua viewport sedia ada dalam s
 - PageManager hanya terpakai pada susun atur kertas. Ia tidak tersedia dalam ruang model.
 - Untuk menambah susun atur baharu, klik butang **+** dalam bar tab di bahagian bawah.
 - Untuk menamakan semula atau memadam susun atur, klik kanan tabnya.
+- Untuk menyusun semula susun atur, seret tab di sepanjang bar tab dan lepaskan di tempat sepatutnya; Model kekal pertama. Susunan baharu disimpan, boleh dibuat asal dan ditulis ke DXF.

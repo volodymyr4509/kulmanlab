@@ -45,6 +45,8 @@ KulmanLab zpracovává následující typy objektů DXF:
 
 Definice hladin a tabulky typů čar se z souboru DXF rovněž importují, pokud jsou přítomny.
 
+Načtou se i rozvržení, každé s vlastní velikostí papíru, výřezy a objekty, a jejich záložky se otevřou v pořadí ze souboru. Co je nakresleno v rozvržení — rohové razítko, rámeček, poznámky — zůstane v tom rozvržení a nepřesune se do modelového prostoru.
+
 Objekty, které používají nepodporované typy DXF, se tiše přeskočí — zbytek výkresu se přesto načte.
 
 ## Pojmenování souborů a úložiště

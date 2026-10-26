@@ -30,3 +30,4 @@ Pakeitus popieriaus dydį ar mastelį, visi esami maketo vaizdo langai proporcin
 - PageManager taikomas tik popieriaus maketams. Modelio erdvėje jis neprieinamas.
 - Norėdami pridėti naują maketą, spustelėkite mygtuką **+** skirtukų juostoje apačioje.
 - Norėdami pervadinti ar ištrinti maketą, spustelėkite jo skirtuką dešiniuoju klavišu.
+- Norėdami pakeisti išdėstymų tvarką, vilkite skirtuką skirtukų juosta ir paleiskite ten, kur jis turi būti; Model lieka pirmas. Nauja tvarka išsaugoma, ją galima atšaukti ir ji įrašoma į DXF.

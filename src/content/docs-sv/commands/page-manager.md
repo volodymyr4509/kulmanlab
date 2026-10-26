@@ -30,3 +30,4 @@ Att ändra pappersstorleken eller skalan skalar om alla befintliga viewportar i 
 - PageManager gäller endast för papperslayouter. Det är inte tillgängligt i modellutrymme.
 - För att lägga till ett nytt layout, klicka på **+**-knappen i fliklisten längst ner.
 - För att byta namn på eller ta bort ett layout, högerklicka på dess flik.
+- För att ändra ordningen på layouter drar du en flik längs flikraden och släpper den där den ska sitta; Model står kvar först. Den nya ordningen sparas, kan ångras och skrivs till DXF.

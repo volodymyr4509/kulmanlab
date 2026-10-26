@@ -45,6 +45,8 @@ O KulmanLab analisa os seguintes tipos de entidade DXF:
 
 Definições de camada e tabelas de tipo de linha também são importadas do arquivo DXF quando presentes.
 
+Os layouts também são importados, cada um com seu tamanho de papel, suas viewports e entidades, e suas abas abrem na ordem do próprio arquivo. O que está desenhado num layout — um carimbo, uma moldura, notas — fica nesse layout em vez de ir parar no espaço do modelo.
+
 Entidades que usam tipos DXF não suportados são silenciosamente ignoradas — o restante do desenho ainda é carregado.
 
 ## Nomenclatura de arquivos e armazenamento

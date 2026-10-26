@@ -70,6 +70,7 @@ Kasama ang bawat entity type:
 - Leaders (multileaders)
 - Hatches, kasama ang pattern, scale, angle, at origin nito
 - Layers at Linetypes
+- Mga layout, kasama ang kanilang pangalan, laki ng papel at pagkakasunod ng tab, lahat ng iginuhit sa bawat isa, at ang kanilang mga viewport na may scale at lock — kaya buo ang pagbabalik ng layout kapag binuksan muli ang file
 
 Isinusulat ang file bilang AC1032 na DXF, kaya ang guhit na ini-export mula sa KulmanLab ay bumubukas nang buo ang anotasyon sa ibang kasangkapang marunong ng DXF, hindi dumarating bilang hubad na heometriya.
 

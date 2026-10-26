@@ -70,6 +70,7 @@ Elk entiteitstype is inbegrepen:
 - Leaders (multileaders)
 - Hatches, inclusief hun patroon, schaal, hoek en oorsprong
 - Layers en Linetypes
+- Layouts, met hun naam, papierformaat en tabvolgorde, alles wat erop getekend is, en hun viewports met schaal en vergrendeling — zodat een layout ongeschonden terugkomt wanneer het bestand opnieuw wordt geopend
 
 Het bestand wordt als AC1032-DXF geschreven, zodat een uit KulmanLab geëxporteerde tekening in andere DXF-geschikte gereedschappen met haar annotatie intact opent in plaats van als kale geometrie aan te komen.
 

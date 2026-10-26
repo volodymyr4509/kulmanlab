@@ -45,6 +45,8 @@ KulmanLab aşağıdaki DXF nesne türlerini ayrıştırır:
 
 Katman tanımları ve çizgi türü tabloları da mevcutsa DXF dosyasından içe aktarılır.
 
+Yerleşimler de içe aktarılır; her biri kendi kâğıt boyutu, görüntü pencereleri ve nesneleriyle gelir ve sekmeleri dosyanın kendi sırasıyla açılır. Bir yerleşime çizilen her şey — antet, çerçeve, notlar — model alanına düşmek yerine o yerleşimde kalır.
+
 Desteklenmeyen DXF türlerini kullanan nesneler sessizce atlanır — çizimin geri kalanı yine de yüklenir.
 
 ## Dosya Adlandırma ve Depolama

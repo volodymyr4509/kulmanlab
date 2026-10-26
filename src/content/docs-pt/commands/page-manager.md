@@ -30,3 +30,4 @@ Alterar o tamanho do papel ou a escala redimensiona proporcionalmente todos os v
 - PageManager aplica-se apenas a layouts de papel. Não está disponível no espaço modelo.
 - Para adicionar um novo layout, clique no botão **+** na barra de abas na parte inferior.
 - Para renomear ou excluir um layout, clique com o botão direito em sua aba.
+- Para reordenar os layouts, arraste uma aba ao longo da barra de abas e solte-a onde ela deve ficar; Model continua em primeiro. A nova ordem é salva, pode ser desfeita e é gravada no DXF.

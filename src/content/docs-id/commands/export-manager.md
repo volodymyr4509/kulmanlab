@@ -70,6 +70,7 @@ Setiap jenis entitas disertakan:
 - Leaders (multileaders)
 - Hatches, termasuk pola, skala, sudut, dan titik asalnya
 - Layers dan Linetypes
+- Layout, dengan nama, ukuran kertas, dan urutan tabnya, semua yang digambar di masing-masing, serta viewport-nya beserta skala dan kuncinya — sehingga layout kembali utuh saat file dibuka lagi
 
 Berkas ditulis sebagai DXF AC1032, jadi gambar yang diekspor dari KulmanLab terbuka dengan anotasinya utuh di perkakas lain yang mendukung DXF, bukan tiba sebagai geometri telanjang.
 

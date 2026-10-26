@@ -55,6 +55,8 @@ Rozbalovací nabídka **Quality** nastavuje DPI, ve kterém se export vykresluje
 | Presentation | 300 |
 | Max | 600 |
 
+U velkého papíru se DPI sníží právě tolik, aby se list vešel do jednoho plátna prohlížeče, takže tisk nikdy nevyjde prázdný: A1 v kvalitě Max se tiskne v 568 DPI a A0 ve 401. DPI zobrazené vedle nabídky Quality je to skutečně použité a počítají se z něj tloušťky čar i velikost stránky PDF.
+
 Vyšší Quality vytváří větší, ostřejší obrázek při stejné fyzické velikosti — tloušťky čar rostou spolu s rozlišením, takže čára si na papíře zachovává stejnou *fyzickou* tloušťku při jakémkoli nastavení Quality, místo aby s rostoucím DPI vypadala tenčeji. Jedinou výjimkou je vlásečnice (tloušťka čáry `0`), konvenčně definovaná jako „nejtenčí čára, jakou výstupní zařízení dokáže nakreslit" — zůstává při každé úrovni Quality pevnou šířkou 1 pixel místo měnění měřítka, stejně jako se chová na živém plátně.
 
 Změna Quality okamžitě znovu vykreslí náhled, takže před exportem vidíte skutečnou ostrost (a kompromis ve velikosti souboru).

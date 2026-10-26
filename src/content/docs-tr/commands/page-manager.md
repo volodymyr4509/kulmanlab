@@ -27,3 +27,5 @@ Terminale `page manager` yazın veya **PageManager** düğmesine tıklayın — 
 KulmanLab CAD tek bir çizimde birden fazla kağıt yerleşimini destekler. Her yerleşimin kendi kağıt boyutu ve ölçeği olabilir.
 
 Yerleşimler arasında geçiş yapmak için ekranın altındaki sekmeleri kullanın.
+
+Yerleşimleri yeniden sıralamak için bir sekmeyi sekme çubuğu boyunca sürükleyip olması gereken yere bırakın; Model ilk sırada kalır. Yeni sıra kaydedilir, geri alınabilir ve DXF'e yazılır.

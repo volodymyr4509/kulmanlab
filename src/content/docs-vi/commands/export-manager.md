@@ -70,6 +70,7 @@ Mỗi loại thực thể đều được bao gồm:
 - Leaders (multileader)
 - Hatches, bao gồm mẫu, tỷ lệ, góc và điểm gốc của chúng
 - Layers và Linetypes
+- Layout, cùng tên, khổ giấy và thứ tự tab, mọi thứ vẽ trên từng layout, và các viewport kèm tỉ lệ và khóa — nhờ vậy layout trở lại nguyên vẹn khi mở lại tệp
 
 Tệp được ghi ở dạng DXF AC1032, nên bản vẽ xuất từ KulmanLab sẽ mở ra với phần chú giải còn nguyên trong các công cụ đọc được DXF khác, thay vì đến nơi chỉ còn hình học trơ.
 

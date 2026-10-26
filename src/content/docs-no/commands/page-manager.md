@@ -30,3 +30,4 @@ Kommandoen `Sidebehandler` åpner sideinnstillingsdialogen for det aktive layout
 - PageManager gjelder kun papirlayouter. Den er ikke tilgjengelig i modellrommet.
 - For å legge til et nytt layout, klikk **+**-knappen i fanelinjen nederst.
 - For å gi nytt navn til eller slette et layout, høyreklikk fanen.
+- For å endre rekkefølgen på layouter drar du en fane langs fanelinjen og slipper den der den skal stå; Model forblir først. Den nye rekkefølgen lagres, kan angres og skrives til DXF.

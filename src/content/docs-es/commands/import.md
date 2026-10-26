@@ -45,6 +45,8 @@ KulmanLab analiza los siguientes tipos de entidades DXF:
 
 Las definiciones de capas y las tablas de tipos de línea también se importan del archivo DXF cuando están presentes.
 
+También se importan las presentaciones, cada una con su tamaño de papel, sus ventanas gráficas y sus entidades, y sus pestañas se abren en el orden del propio archivo. Lo que está dibujado en una presentación —un cajetín, un marco, notas— se queda en esa presentación en lugar de acabar en el espacio modelo.
+
 Las entidades que usan tipos DXF no admitidos se omiten silenciosamente — el resto del dibujo se carga igualmente.
 
 ## Nombre y almacenamiento de archivos

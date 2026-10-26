@@ -70,6 +70,7 @@ Jeder Elementtyp ist enthalten:
 - Leaders (Mehrfach-Hinweislinien)
 - Hatches, einschließlich Muster, Skalierung, Winkel und Ursprung
 - Layers und Linetypes
+- Layouts mit Namen, Papierformat und Tab-Reihenfolge, allem, was darauf gezeichnet ist, und ihren Ansichtsfenstern samt Maßstab und Sperre — so kommt ein Layout beim erneuten Öffnen der Datei unverändert zurück
 
 Die Datei wird als AC1032-DXF geschrieben, sodass eine aus KulmanLab exportierte Zeichnung in anderen DXF-fähigen Werkzeugen mit intakter Beschriftung öffnet, statt als nackte Geometrie anzukommen.
 

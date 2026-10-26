@@ -30,3 +30,4 @@ Kubadilisha ukubwa wa karatasi au kiwango hupima tena miradi yote iliyopo katika
 - PageManager inatumika tu kwa mipangilio ya karatasi. Haipatikani katika nafasi ya mfano.
 - Kuongeza mpangilio mpya, bonyeza kitufe cha **+** kwenye upau wa vichupo chini.
 - Kubadilisha jina au kufuta mpangilio, bonyeza kulia kichupo chake.
+- Kupanga upya mipangilio, buruta kichupo kando ya upau wa vichupo na ukiachilie mahali kinapopaswa kukaa; Model hubaki wa kwanza. Mpangilio mpya huhifadhiwa, unaweza kutenduliwa, na huandikwa kwenye DXF.

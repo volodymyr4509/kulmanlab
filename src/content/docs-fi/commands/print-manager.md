@@ -55,6 +55,8 @@ Blueprint toistaa perinteisen syanotyyppisen arkkitehtuuritulosteen ilmeen — v
 | Presentation | 300 |
 | Max | 600 |
 
+Suurella paperilla DPI:tä lasketaan juuri sen verran, että arkki mahtuu yhteen selaimen piirtoalustaan, joten tuloste ei koskaan jää tyhjäksi: A1 Max-laadulla tulostuu 568 DPI:llä ja A0 401:llä. Quality-valikon vieressä näkyvä DPI on todella käytetty, ja viivanpaksuudet sekä PDF-sivun koko lasketaan siitä.
+
 Korkeampi Quality tuottaa suuremman, terävämmän kuvan samassa fyysisessä koossa — viivanpaksuudet skaalautuvat resoluution mukana, joten viiva säilyttää saman *fyysisen* paksuuden paperilla millä tahansa Quality-asetuksella, sen sijaan että näyttäisi ohuemmalta DPI:n kasvaessa. Ainoa poikkeus on hiusviiva (viivanpaksuus `0`), joka määritellään perinteisesti "ohuimmaksi viivaksi, jonka tulostuslaite voi piirtää" — se pysyy kiinteänä 1 pikselin levyisenä jokaisella Quality-tasolla, aivan kuten se käyttäytyy elävällä piirtoalueella.
 
 Quality-asetuksen muuttaminen renderöi esikatselun heti uudelleen, joten näet todellisen terävyyden (ja tiedostokoon kompromissin) ennen vientiä.

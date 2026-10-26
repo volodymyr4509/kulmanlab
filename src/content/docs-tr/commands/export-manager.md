@@ -70,6 +70,7 @@ Her varlık türü dahildir:
 - Leaders (multileader'lar)
 - Hatches, deseni, ölçeği, açısı ve başlangıç noktasıyla birlikte
 - Layers ve Linetypes
+- Yerleşimler; adları, kâğıt boyutu ve sekme sırası, her birine çizilen her şey ve ölçek ile kilitle birlikte görüntü pencereleri — böylece dosya yeniden açıldığında yerleşim eksiksiz geri gelir
 
 Dosya AC1032 DXF olarak yazılır; böylece KulmanLab'dan dışa aktarılan bir çizim, çıplak geometri olarak varmak yerine DXF okuyabilen diğer araçlarda açıklamaları yerinde açılır.
 

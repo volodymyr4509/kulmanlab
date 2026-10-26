@@ -45,6 +45,8 @@ KulmanLab jäsentää seuraavat DXF-entiteettityypit:
 
 Tasomääritykset ja linetype-taulukot tuodaan myös DXF-tiedostosta, kun niitä on olemassa.
 
+Myös layoutit tuodaan, kukin omalla paperikoollaan, näkymäikkunoillaan ja entiteeteillään, ja niiden välilehdet avautuvat tiedoston omassa järjestyksessä. Layoutiin piirretty — nimiö, kehys, huomautukset — pysyy siinä layoutissa eikä päädy mallitilaan.
+
 Entiteetit, jotka käyttävät tukemattomia DXF-tyyppejä, ohitetaan hiljaisesti — piirustuksen loppuosa latautuu silti.
 
 ## Tiedoston nimeäminen ja tallennus

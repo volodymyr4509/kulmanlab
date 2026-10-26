@@ -55,6 +55,8 @@ O menu suspenso **Quality** define o DPI no qual a exportação é renderizada:
 | Presentation | 300 |
 | Max | 600 |
 
+Em papel grande, o DPI é reduzido só o suficiente para a folha caber numa única tela do navegador, então a plotagem nunca sai em branco: A1 em Max é plotado a 568 DPI e A0 a 401. O DPI mostrado ao lado do menu Quality é o realmente usado, e as espessuras de linha e o tamanho da página do PDF são calculados a partir dele.
+
 Uma Qualidade mais alta produz uma imagem maior e mais nítida no mesmo tamanho físico — as espessuras de linha aumentam junto com a resolução, então uma linha mantém a mesma espessura *física* no papel em qualquer configuração de Qualidade, em vez de parecer mais fina conforme o DPI aumenta. A única exceção é uma linha fina (espessura `0`), convencionalmente definida como "a linha mais fina que o dispositivo de saída pode desenhar" — permanece com largura fixa de 1 pixel em qualquer nível de Qualidade, exatamente como se comporta no canvas ao vivo.
 
 Alterar a Qualidade renderiza novamente a visualização imediatamente, para que você veja a nitidez real (e o compromisso de tamanho de arquivo) antes de exportar.

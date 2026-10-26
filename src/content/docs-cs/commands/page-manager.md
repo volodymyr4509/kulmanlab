@@ -30,3 +30,4 @@ Změna velikosti papíru nebo měřítka proporcionálně přeškáluje všechna
 - PageManager se vztahuje pouze na papírová rozvržení. V modelovém prostoru není dostupný.
 - Nové rozvržení přidáte kliknutím na tlačítko **+** v liště záložek dole.
 - Rozvržení přejmenujete nebo smažete pravým kliknutím na jeho záložku.
+- Pořadí rozvržení změníte přetažením záložky po liště záložek a puštěním tam, kde má být; Model zůstává první. Nové pořadí se uloží, lze ho vrátit zpět a zapíše se do DXF.

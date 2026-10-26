@@ -70,6 +70,7 @@ Kila aina ya entiti imejumuishwa:
 - Leaders (multileaders)
 - Hatches, ikiwa ni pamoja na pattern, scale, angle, na origin yake
 - Layers na Linetypes
+- Mipangilio, pamoja na majina, ukubwa wa karatasi na mpangilio wa vichupo, kila kitu kilichochorwa kwenye kila mmoja, na viewports zake pamoja na kipimo na kufuli — hivyo mpangilio hurudi kamili faili linapofunguliwa tena
 
 Faili huandikwa kama DXF ya AC1032, hivyo mchoro uliohamishwa kutoka KulmanLab hufunguka katika zana nyingine zinazoweza DXF ukiwa na maelezo yake salama, badala ya kufika kama jiometri tupu.
 

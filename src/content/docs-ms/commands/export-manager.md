@@ -70,6 +70,7 @@ Setiap jenis entiti disertakan:
 - Leaders (multileader)
 - Hatches, termasuk corak, skala, sudut, dan asalnya
 - Layers dan Linetypes
+- Susun atur, dengan nama, saiz kertas dan susunan tabnya, semua yang dilukis pada setiap satu, serta port pandangnya dengan skala dan kunci — jadi susun atur kembali utuh apabila fail dibuka semula
 
 Fail ditulis sebagai DXF AC1032, jadi lukisan yang dieksport dari KulmanLab dibuka dengan anotasinya utuh dalam alat lain yang menyokong DXF, bukannya tiba sebagai geometri kosong.
 
