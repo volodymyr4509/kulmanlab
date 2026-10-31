@@ -1,5 +1,5 @@
 ---
-title: "Waarom je DXF op het verkeerde formaat opende (en hoe je dat oplost)"
+title: "DXF op het verkeerde formaat geopend? Zo los je het op"
 description: "Een DXF die 25,4 keer te klein of 1000 keer te groot opent, is een eenhedenmismatch, geen kapot bestand. Herken de verhouding, schaal opnieuw en controleer het."
 keywords: [DXF verkeerde schaal, DXF verkeerd formaat, DXF eenheden, DXF mm of inch, DXF te klein geïmporteerd, DXF schaalfactor, DXF 25.4, DXF schaal corrigeren, DXF eenheden kloppen niet, DXF herschalen]
 date: 2026-09-04

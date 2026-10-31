@@ -1,5 +1,5 @@
 ---
-title: "How to Draw a Hexagon or Bolt Circle in CAD (Polygon and Polar Array)"
+title: "How to Draw a Hexagon or Bolt Circle in CAD"
 description: "Draw a regular polygon from a centre and radius or from one edge, then repeat holes round a bolt circle with a polar array — free in your browser, with exact typed values."
 keywords: [draw hexagon in CAD, regular polygon CAD, polar array CAD, bolt circle drawing, bolt hole pattern CAD, circular pattern CAD, hex nut drawing, draw octagon CAD, PCD bolt circle, free CAD polygon tool]
 date: 2026-10-11

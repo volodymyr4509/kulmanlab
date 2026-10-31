@@ -1,5 +1,5 @@
 ---
-title: "Dlaczego Twój DXF otworzył się w złym rozmiarze (i jak to naprawić)"
+title: "DXF otworzył się w złym rozmiarze? Jak to naprawić"
 description: "DXF otwierający się 25,4 raza za mały albo 1000 razy za duży to niezgodność jednostek, a nie uszkodzony plik. Jak rozpoznać stosunek, przeskalować i sprawdzić."
 keywords: [DXF zła skala, DXF zły rozmiar, jednostki DXF, DXF mm czy cale, DXF zaimportowany za mały, współczynnik skali DXF, DXF 25.4, poprawić skalę DXF, niezgodność jednostek DXF, przeskalować DXF]
 date: 2026-09-04

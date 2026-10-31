@@ -1,5 +1,5 @@
 ---
-title: "Varför din DXF öppnades i fel storlek (och hur du fixar det)"
+title: "DXF öppnades i fel storlek? Så fixar du det"
 description: "En DXF som öppnas 25,4 gånger för liten eller 1000 gånger för stor är en enhetsmiss, inte en trasig fil. Så hittar du förhållandet, skalar om och kontrollerar."
 keywords: [DXF fel skala, DXF fel storlek, DXF enheter, DXF mm eller tum, DXF importerad för liten, DXF skalfaktor, DXF 25.4, rätta DXF-skala, DXF enheter stämmer inte, skala om DXF]
 date: 2026-09-04
