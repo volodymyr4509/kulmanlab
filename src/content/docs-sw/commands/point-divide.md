@@ -12,7 +12,7 @@ Amri ya `GawanyaKwaNukta` huweka [nukta](../point/) zinazogawanya kitu katika vi
 
 ## Kugawanya kitu
 
-1. Andika `GawanyaKwaNukta` kwenye terminal au chagua **Point Divide** kutoka menyu kunjuzi ya array kwenye paneli ya Edit.
+1. Andika `GawanyaKwaNukta` kwenye terminal au chagua **Point Divide** kutoka menyu kunjuzi kwenye paneli ya Edit.
 2. **Bofya kitu** — mstari, polyline, tao, duara, elipsi au spline. Kingine chochote hukataliwa, na unaweza kuchagua tena.
 3. **Andika idadi ya vipande**, nambari kamili kutoka 2 hadi 32767. Nukta huonyeshwa kwenye kitu unapoandika.
 4. Bonyeza **Enter** au **Space** kuziweka. Amri huisha.

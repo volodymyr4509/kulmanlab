@@ -43,7 +43,7 @@ Welkom bij de **KulmanLab CAD**-opdrachtreferentie. [KulmanLab CAD](https://kulm
 | [Offset](./commands/offset/) | Maak een parallelle kopie van een entiteit op een bepaalde afstand |
 | [Fillet](./commands/fillet/) | Rond een hoek tussen twee lijnen, bogen of polylijnsegmenten af met een raakboog |
 | [Chamfer](./commands/chamfer/) | Snijd een rechte diagonale hoek tussen twee lijnen of polylijnen |
-| [Explode](./commands/explode/) | Splitst een polylijn op in de afzonderlijke lijnen en bogen |
+| [Explode](./commands/explode/) | Een polylijn opsplitsen in lijnen en bogen, of een blok in wat het tekent |
 | [Undo](./commands/undo/) | Maak de laatste actie ongedaan |
 | [Redo](./commands/redo/) | Herhaal de laatst ongedaan gemaakte actie |
 | [Array Grid](./commands/array-grid/) | Herhaal entiteiten in een rechthoekig raster van rijen en kolommen |

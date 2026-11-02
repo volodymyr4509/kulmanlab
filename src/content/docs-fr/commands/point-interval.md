@@ -12,7 +12,7 @@ La commande `PointsParIntervalle` place des [points](../point/) à distance fixe
 
 ## Placer des points à intervalle
 
-1. Tapez `PointsParIntervalle` dans le terminal ou choisissez **Point Interval** dans le menu déroulant des réseaux du panneau Edit.
+1. Tapez `PointsParIntervalle` dans le terminal ou choisissez **Point Interval** dans le menu déroulant du panneau Edit.
 2. **Cliquez sur l’objet près de l’extrémité de départ** — une ligne, polyligne, un arc, cercle, une ellipse ou une spline. Tout autre objet est refusé, et vous pouvez choisir à nouveau.
 3. **Tapez la longueur de l’intervalle.** Les points s’affichent en aperçu sur l’objet pendant la saisie.
 4. Appuyez sur **Entrée** ou **Espace** pour les placer. La commande se termine.

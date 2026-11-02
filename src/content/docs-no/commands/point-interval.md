@@ -12,7 +12,7 @@ Kommandoen `PunkterMedIntervall` plasserer [punkter](../point/) med fast avstand
 
 ## Punkter med et intervall
 
-1. Skriv `PunkterMedIntervall` i terminalen eller velg **Point Interval** i matrise-nedtrekksmenyen i panelet Edit.
+1. Skriv `PunkterMedIntervall` i terminalen eller velg **Point Interval** i nedtrekksmenyen i panelet Edit.
 2. **Klikk på objektet nær enden det skal startes fra** — en linje, polylinje, bue, sirkel, ellipse eller spline. Alt annet avvises, og du kan velge på nytt.
 3. **Skriv intervallets lengde.** Punktene forhåndsvises på objektet mens du skriver.
 4. Trykk **Enter** eller **Space** for å plassere dem. Kommandoen avsluttes.

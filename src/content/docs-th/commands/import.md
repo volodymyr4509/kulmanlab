@@ -1,6 +1,6 @@
 ---
 title: Import — เปิดไฟล์ DXF หรือ JSON ใน KulmanLab CAD
-description: ใช้คำสั่ง Import เพื่อเปิดไฟล์ DXF หรือ JSON ของ KulmanLab ใน KulmanLab CAD รองรับ lines, circles, arcs, polylines, splines, text, dimensions และ leaders
+description: "ใช้คำสั่ง Import เพื่อเปิดไฟล์ DXF หรือ JSON ของ KulmanLab ใน KulmanLab CAD รองรับเส้น วงกลม ส่วนโค้ง วงรี polyline สไปลน์ จุด ข้อความ มิติ เส้นชี้ แฮตช์ โซลิด และการอ้างอิงบล็อก"
 keywords: [นำเข้าไฟล์ DXF, เปิด DXF ในเบราว์เซอร์, นำเข้าไฟล์ CAD ออนไลน์, เปิดไฟล์ DXF, DXF viewer เบราว์เซอร์, KulmanLab import]
 group: file
 order: 1

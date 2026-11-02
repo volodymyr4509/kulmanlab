@@ -1,6 +1,6 @@
 ---
 title: Import — DXF ar JSON failų atvėrimas KulmanLab CAD
-description: Naudokite Import komandą, kad atvertumėte DXF ar KulmanLab JSON failus KulmanLab CAD. Palaiko linijas, apskritimus, lankus, polilinijas, splainus, tekstą, matmenis ir išnašas.
+description: "Komanda Import atveria DXF arba KulmanLab JSON failus KulmanLab CAD. Palaiko linijas, apskritimus, lankus, elipses, polilinijas, splainus, taškus, tekstą, matmenis, išnašas, užbrūkšniavimus, užpildus ir blokų nuorodas."
 keywords: [DXF failo importas, DXF atvėrimas naršyklėje, CAD failo importas internete, DXF failo atvėrimas, DXF peržiūros programa naršyklėje, JSON CAD importas, KulmanLab importas, nemokama CAD DXF peržiūros programa, brėžinio įkėlimas, DXF į naršyklę]
 group: file
 order: 1

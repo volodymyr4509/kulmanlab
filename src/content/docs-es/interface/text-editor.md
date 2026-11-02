@@ -144,4 +144,4 @@ Los saltos de línea duros y el formato por carácter se almacenan usando el for
 
 ## Compatibilidad con DXF
 
-Las etiquetas se guardan como entidades **MTEXT**. Negrita y cursiva usan `\f`, subrayado `\L`/`\l`, tachado `\K`/`\k` y las alturas por carácter usan `\H`. También se conservan la anchura de referencia, el interlineado, la alineación de párrafo, la rotación y el punto de enlace. El marco se exporta con el indicador de marco MTEXT y una escala de borde compatible con AutoCAD. Consulte [EstiloTexto](../text-style/) y [Administrador de fuentes](../font-manager/).
+Las etiquetas se guardan como entidades **MTEXT**. Negrita y cursiva usan `\f`, subrayado `\L`/`\l`, tachado `\K`/`\k` y las alturas por carácter usan `\H`. También se conservan la anchura de referencia, el interlineado, la alineación de párrafo, la rotación y el punto de enlace. El marco se exporta con el indicador de marco MTEXT y una escala de borde compatible con AutoCAD. Consulte [EstiloTexto](../../commands/text-style/) y [Administrador de fuentes](../../commands/font-manager/).

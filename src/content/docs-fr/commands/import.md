@@ -1,6 +1,6 @@
 ---
 title: Import — Ouvrir des fichiers DXF ou JSON dans KulmanLab CAD
-description: Utilisez la commande Import pour ouvrir des fichiers DXF ou JSON de KulmanLab dans KulmanLab CAD. Prend en charge les lignes, cercles, arcs, polylignes, splines, textes, cotes et lignes de répère.
+description: "Utilisez la commande Import pour ouvrir des fichiers DXF ou JSON KulmanLab dans KulmanLab CAD. Prend en charge lignes, cercles, arcs, ellipses, polylignes, splines, points, texte, cotes, repères, hachures, solides et références de bloc."
 keywords: [importer fichier DXF, ouvrir DXF navigateur, importer fichier CAO en ligne, ouvrir fichier DXF, visionneur DXF navigateur, importer JSON CAO, importer KulmanLab, visionneur CAO DXF gratuit, charger dessin, DXF navigateur]
 group: file
 order: 1

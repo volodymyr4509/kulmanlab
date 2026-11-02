@@ -12,7 +12,7 @@ Perintah `TitikBerselang` meletakkan [titik](../point/) pada jarak tetap di sepa
 
 ## Meletakkan titik pada selang
 
-1. Taip `TitikBerselang` dalam terminal atau pilih **Point Interval** daripada juntai bawah tatasusunan dalam panel Edit.
+1. Taip `TitikBerselang` dalam terminal atau pilih **Point Interval** daripada juntai bawah dalam panel Edit.
 2. **Klik objek berhampiran hujung permulaan** — garisan, polyline, arka, bulatan, elips atau splin. Selain itu ditolak, dan anda boleh memilih semula.
 3. **Taip panjang selang.** Titik dipratonton pada objek semasa anda menaip.
 4. Tekan **Enter** atau **Space** untuk meletakkannya. Perintah tamat.

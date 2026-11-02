@@ -43,7 +43,7 @@ Sveiki atvykę į **KulmanLab CAD** komandų žinyną. [KulmanLab CAD](https://k
 | [Offset](./commands/offset/) | Sukuria lygiagrečią objekto kopiją nurodytu atstumu |
 | [Fillet](./commands/fillet/) | Suapvalina kampą tarp dviejų linijų, lankų ar polilinijos atkarpų liestiniu lanku |
 | [Chamfer](./commands/chamfer/) | Nuskelia tiesų įstrižą kampą tarp dviejų linijų ar polilinijų |
-| [Explode](./commands/explode/) | Suskaido poliliniją į atskirus linijų ir lankų objektus |
+| [Explode](./commands/explode/) | Išskaidykite poliliniją į linijas ir lankus, o bloką — į tai, ką jis braižo |
 | [Undo](./commands/undo/) | Atšaukia paskutinį veiksmą |
 | [Redo](./commands/redo/) | Pakartotinai atlieka paskutinį atšauktą veiksmą |
 | [Array Grid](./commands/array-grid/) | Kartoja objektus stačiakampiame eilučių ir stulpelių tinklelyje |

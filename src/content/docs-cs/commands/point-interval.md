@@ -12,7 +12,7 @@ Příkaz `BodyPoIntervalech` umístí [body](../point/) v pevném rozestupu pod�
 
 ## Body v intervalu
 
-1. Napište `BodyPoIntervalech` do terminálu nebo zvolte **Point Interval** z rozbalovací nabídky polí v panelu Edit.
+1. Napište `BodyPoIntervalech` do terminálu nebo zvolte **Point Interval** v rozbalovací nabídce panelu Edit.
 2. **Klikněte na objekt u konce, od kterého se má začít** — úsečku, polylinii, oblouk, kružnici, elipsu nebo spline. Cokoli jiného se odmítne a můžete vybrat znovu.
 3. **Napište délku intervalu.** Body se při psaní zobrazují na objektu.
 4. Stisknutím **Enter** nebo **Space** je umístíte. Příkaz skončí.

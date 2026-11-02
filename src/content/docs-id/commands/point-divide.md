@@ -12,7 +12,7 @@ Perintah `BagiDenganTitik` meletakkan [titik](../point/) yang membagi objek menj
 
 ## Membagi objek
 
-1. Ketik `BagiDenganTitik` di terminal atau pilih **Point Divide** dari dropdown array di panel Edit.
+1. Ketik `BagiDenganTitik` di terminal atau pilih **Point Divide** dari dropdown di panel Edit.
 2. **Klik objek** — garis, polyline, busur, lingkaran, elips, atau spline. Selain itu ditolak, dan Anda bisa memilih lagi.
 3. **Ketik jumlah ruas**, bilangan bulat 2 hingga 32767. Titik dipratinjau pada objek saat Anda mengetik.
 4. Tekan **Enter** atau **Space** untuk meletakkannya. Perintah selesai.

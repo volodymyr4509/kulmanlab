@@ -12,7 +12,7 @@ order: 18
 
 ## Aralıklarla nokta yerleştirme
 
-1. Terminale `AralıklıNokta` yazın veya Edit panelindeki dizi açılır menüsünden **Point Interval**'ı seçin.
+1. Terminale `AralıklıNokta` yazın veya Edit panelinin açılır menüsünden **Point Interval**'ı seçin.
 2. **Nesneye başlanacak ucun yakınından tıklayın** — çizgi, polyline, yay, daire, elips veya spline. Başka her şey reddedilir ve yeniden seçebilirsiniz.
 3. **Aralık uzunluğunu yazın.** Yazarken noktalar nesne üzerinde önizlenir.
 4. Yerleştirmek için **Enter** veya **Space**'e basın. Komut sona erer.

@@ -1,6 +1,6 @@
 ---
 title: Export Manager — Unduh Gambar sebagai DXF atau JSON
-description: Unduh gambar sebagai DXF atau JSON, mencentang per tipe entitas apa yang ikut. Keduanya membawa geometri, teks, dimensi, leader, dan arsiran, plus layer.
+description: "Unduh gambar saat ini sebagai DXF atau JSON, centang per jenis entitas apa yang masuk. Keduanya membawa geometri, teks, dimensi, leader, arsiran, solid, dan referensi blok, beserta layer dan jenis garis."
 keywords: [ekspor DXF, ekspor file CAD, unduh DXF browser, simpan DXF online, ekspor JSON CAD, ekspor KulmanLab, unduh file CAD, ekspor DXF, simpan gambar ke file, unduh DXF]
 group: file
 order: 6

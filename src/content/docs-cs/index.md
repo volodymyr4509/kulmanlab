@@ -43,7 +43,7 @@ Vítejte v přehledu příkazů **KulmanLab CAD**. [KulmanLab CAD](https://kulma
 | [Offset](./commands/offset/) | Vytvoří rovnoběžnou kopii objektu v zadané vzdálenosti |
 | [Fillet](./commands/fillet/) | Zaoblí roh mezi dvěma úsečkami, oblouky nebo segmenty polyline tečným obloukem |
 | [Chamfer](./commands/chamfer/) | Seřízne přímý úhlopříčný roh mezi dvěma úsečkami nebo polyline |
-| [Explode](./commands/explode/) | Rozloží polyline na jednotlivé objekty Line a Arc |
+| [Explode](./commands/explode/) | Rozložit polylinii na úsečky a oblouky, nebo blok na to, co kreslí |
 | [Undo](./commands/undo/) | Vrátí poslední akci |
 | [Redo](./commands/redo/) | Znovu provede poslední vrácenou akci |
 | [Array Grid](./commands/array-grid/) | Zopakuje objekty v pravoúhlé mřížce řádků a sloupců |

@@ -144,4 +144,4 @@ Le interruzioni di riga dure e la formattazione per carattere sono memorizzate u
 
 ## Compatibilità DXF
 
-Le etichette sono memorizzate come entità **MTEXT**. Grassetto e corsivo usano `\f`, sottolineato `\L`/`\l`, barrato `\K`/`\k` e le altezze per carattere usano `\H`. Vengono conservati anche larghezza di riferimento, interlinea, allineamento del paragrafo, rotazione e punto di attacco. La cornice viene esportata con il flag MTEXT e una scala del bordo compatibile con AutoCAD. Vedi [StileTesto](../text-style/) e [Gestione font](../font-manager/).
+Le etichette sono memorizzate come entità **MTEXT**. Grassetto e corsivo usano `\f`, sottolineato `\L`/`\l`, barrato `\K`/`\k` e le altezze per carattere usano `\H`. Vengono conservati anche larghezza di riferimento, interlinea, allineamento del paragrafo, rotazione e punto di attacco. La cornice viene esportata con il flag MTEXT e una scala del bordo compatibile con AutoCAD. Vedi [StileTesto](../../commands/text-style/) e [Gestione font](../../commands/font-manager/).

@@ -1,6 +1,6 @@
 ---
 title: Export Manager — Tekeningen downloaden als DXF of JSON
-description: Download de tekening als DXF of JSON en vink per entiteitstype aan wat meegaat. Beide dragen geometrie, tekst, maatvoering, leaders en arceringen.
+description: "Download de huidige tekening als DXF of JSON en vink per entiteitstype aan wat erin gaat. Beide bevatten geometrie, tekst, maten, leaders, arceringen, solids en blokverwijzingen, plus lagen en lijntypes."
 keywords: [DXF exporteren, CAD-bestand exporteren, DXF downloaden in browser, DXF online opslaan, JSON CAD exporteren, KulmanLab export, CAD-bestand downloaden, DXF-export, tekening opslaan als bestand, DXF-download]
 group: file
 order: 6

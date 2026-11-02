@@ -15,7 +15,7 @@ Il comando `SerieRettangolare` crea una griglia rettangolare di copie dalle enti
 **Pre-seleziona, poi array** — seleziona prima le entità, poi attiva:
 
 1. Seleziona una o più entità sul canvas.
-2. Digita `SerieRettangolare` nel terminale (bastano poche lettere — sceglilo dai suggerimenti) oppure scegli **Array Grid** dal menu a discesa delle matrici nel pannello Edit.
+2. Digita `SerieRettangolare` nel terminale (bastano poche lettere — sceglilo dai suggerimenti) o scegli **Array Grid** dal menu a discesa del pannello Edit.
 3. Digita il numero di **righe** e premi **Invio**.
 4. Digita il numero di **colonne** e premi **Invio**.
 5. Digita la **spaziatura tra le righe** e premi **Invio**.
@@ -23,7 +23,7 @@ Il comando `SerieRettangolare` crea una griglia rettangolare di copie dalle enti
 
 **Attiva, poi seleziona** — avvia il comando senza nulla selezionato:
 
-1. Digita `SerieRettangolare` oppure sceglilo dal menu a discesa delle matrici nel pannello Edit.
+1. Digita `SerieRettangolare` o sceglilo dal menu a discesa del pannello Edit.
 2. **Seleziona gli oggetti** — clicca per attivare/disattivare singole entità, o trascina per selezionare per area.
 3. Premi **Invio** o **Spazio** per confermare la selezione.
 4. Continua con righe → colonne → spaziatura righe → spaziatura colonne come sopra.

@@ -1,6 +1,6 @@
 ---
 title: Export Manager — Çizimleri DXF veya JSON Olarak İndirin
-description: Çizimi DXF veya JSON olarak indirin, varlık türü bazında neyin gireceğini işaretleyerek. İkisi de geometri, metin, ölçüler, kılavuz çizgileri ve taramaları taşır.
+description: "Geçerli çizimi DXF veya JSON olarak indirin; her nesne türü için nelerin gireceğini işaretleyin. İkisi de geometri, metin, ölçüler, açıklama çizgileri, taramalar, dolgulu katılar ve blok referanslarıyla birlikte katmanları ve çizgi tiplerini taşır."
 keywords: [DXF dışa aktar, CAD dosyası dışa aktar, tarayıcıda DXF indir, DXF online kaydet, JSON CAD dışa aktar, KulmanLab dışa aktarma, CAD dosyası indir, DXF dışa aktarma, çizimi dosyaya kaydet, DXF indirme]
 group: file
 order: 6

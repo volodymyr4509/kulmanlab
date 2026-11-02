@@ -1,6 +1,6 @@
 ---
 title: Export Manager — brėžinių atsisiuntimas kaip DXF ar JSON KulmanLab CAD
-description: Atsisiųskite dabartinį brėžinį kaip DXF ar JSON, pažymėdami pagal objekto tipą, kas patenka į failą. Abu apima geometriją, tekstą, matmenis, išnašas ir brūkšniuotes, taip pat sluoksnius ir linijų tipus.
+description: "Atsisiųskite dabartinį brėžinį kaip DXF arba JSON, pažymėdami kiekvienam objektų tipui, kas pateks į failą. Abu formatai turi geometriją, tekstą, matmenis, išnašas, užbrūkšniavimus, užpildus ir blokų nuorodas, taip pat sluoksnius ir linijų tipus."
 keywords: [eksportuoti DXF, CAD failo eksportas, atsisiųsti DXF naršyklėje, išsaugoti DXF internete, eksportuoti JSON CAD, KulmanLab eksportas, CAD failo atsisiuntimas, DXF eksportas, brėžinio išsaugojimas į failą, DXF atsisiuntimas]
 group: file
 order: 6

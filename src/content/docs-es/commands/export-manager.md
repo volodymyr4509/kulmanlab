@@ -1,6 +1,6 @@
 ---
 title: Administrador de Exportación — Descargar Dibujos como DXF o JSON
-description: Descarga el dibujo como DXF o JSON, marcando por tipo de entidad qué entra. Ambos llevan geometría, texto, cotas, directrices y sombreados, más capas y tipos de línea.
+description: "Descarga el dibujo actual como DXF o JSON, marcando por tipo de entidad lo que entra. Ambos incluyen geometría, texto, cotas, directrices, sombreados, sólidos y referencias a bloque, además de capas y tipos de línea."
 keywords: [exportar DXF, exportar archivo CAD, descargar DXF navegador, guardar DXF online, exportar JSON CAD, exportar KulmanLab, descargar archivo CAD, exportar DXF, guardar dibujo en archivo, descargar DXF]
 group: file
 order: 6

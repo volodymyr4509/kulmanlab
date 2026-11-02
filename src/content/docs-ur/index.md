@@ -43,7 +43,7 @@ order: 1
 | [Offset](./commands/offset/) | ایک مخصوص فاصلے پر کسی شے کی متوازی نقل بنائیں |
 | [Fillet](./commands/fillet/) | ایک مماسی قوس سے دو Line، Arc، یا Polyline سیگمنٹس کے درمیان کونے کو گول کریں |
 | [Chamfer](./commands/chamfer/) | دو لائنوں یا Polylines کے درمیان ایک سیدھا ترچھا کونہ کاٹیں |
-| [Explode](./commands/explode/) | ایک پولی لائن کو اس کی الگ الگ لائنوں اور آرکس میں توڑتا ہے |
+| [Explode](./commands/explode/) | پولی لائن کو لائنوں اور قوسوں میں، یا بلاک کو اس کے بنائے حصوں میں توڑیں |
 | [Undo](./commands/undo/) | آخری عمل واپس کریں |
 | [Redo](./commands/redo/) | آخری واپس کیے گئے عمل کو دوبارہ کریں |
 | [Array Grid](./commands/array-grid/) | منتخب اشیاء کو قطاروں اور کالموں کے مستطیل گرڈ میں دہرائیں |

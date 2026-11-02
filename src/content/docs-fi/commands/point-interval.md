@@ -12,7 +12,7 @@ order: 18
 
 ## Pisteet välein
 
-1. Kirjoita `PisteetVälein` terminaaliin tai valitse **Point Interval** Edit-paneelin ruudukko-pudotusvalikosta.
+1. Kirjoita `PisteetVälein` terminaaliin tai valitse **Point Interval** Edit-paneelin pudotusvalikosta.
 2. **Napsauta objektia sen pään läheltä, josta aloitetaan** — jana, murtoviiva, kaari, ympyrä, ellipsi tai spline. Muut hylätään, ja voit valita uudelleen.
 3. **Kirjoita välin pituus.** Pisteet näkyvät objektilla esikatseluna kirjoittaessasi.
 4. Sijoita ne painamalla **Enter** tai **Space**. Komento päättyy.

@@ -12,7 +12,7 @@ Polecenie `PodzielPunktami` umieszcza [punkty](../point/), które dzielą obiekt
 
 ## Dzielenie obiektu
 
-1. Wpisz `PodzielPunktami` w terminalu albo wybierz **Point Divide** z rozwijanego menu szyków w panelu Edit.
+1. Wpisz `PodzielPunktami` w terminalu albo wybierz **Point Divide** z rozwijanego menu panelu Edit.
 2. **Kliknij obiekt** — linię, polilinię, łuk, okrąg, elipsę lub splajn. Wszystko inne jest odrzucane i można wybrać ponownie.
 3. **Wpisz liczbę odcinków**, liczbę całkowitą od 2 do 32767. Punkty pojawiają się na obiekcie w podglądzie podczas pisania.
 4. Naciśnij **Enter** lub **Space**, aby je umieścić. Polecenie się kończy.

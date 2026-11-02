@@ -12,7 +12,7 @@ The `ArrayPolar` command makes copies of the selected objects round a center poi
 
 ## Drawing a polar array
 
-1. Select the objects, then type `arraypolar` in the terminal or click the **Array Polar** toolbar button. Started with nothing selected, it asks you to select them first — press **Enter** or **Space** to confirm.
+1. Select the objects, then type `arraypolar` in the terminal or choose **Array Polar** from the dropdown in the Edit panel. Started with nothing selected, it asks you to select them first — press **Enter** or **Space** to confirm.
 2. **Click the center** the copies go round, or type `X,Y` and press **Enter** for an exact coordinate.
 3. Review the array. All the copies preview live, and the terminal shows `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — press an option's letter to change it.
 4. Press **Enter** or **Space** to create the copies. The originals stay where they are and the selection is cleared.

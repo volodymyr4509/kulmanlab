@@ -12,7 +12,7 @@ Perintah `TitikBerjarak` meletakkan [titik](../point/) berjarak tetap di sepanja
 
 ## Meletakkan titik berinterval
 
-1. Ketik `TitikBerjarak` di terminal atau pilih **Point Interval** dari dropdown array di panel Edit.
+1. Ketik `TitikBerjarak` di terminal atau pilih **Point Interval** dari dropdown di panel Edit.
 2. **Klik objek di dekat ujung awal** — garis, polyline, busur, lingkaran, elips, atau spline. Selain itu ditolak, dan Anda bisa memilih lagi.
 3. **Ketik panjang interval.** Titik dipratinjau pada objek saat Anda mengetik.
 4. Tekan **Enter** atau **Space** untuk meletakkannya. Perintah selesai.

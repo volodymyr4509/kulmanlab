@@ -144,4 +144,4 @@ Naka-store ang mga hard line break at per-character formatting gamit ang MTEXT f
 
 ## DXF Compatibility
 
-Sine-save ang mga label bilang **MTEXT** entity. Gumagamit ang makapal at pahilig ng `\f`, salungguhit ng `\L`/`\l`, strikethrough ng `\K`/`\k`, at taas bawat character ng `\H`. Nananatili rin ang reference width, pagitan ng linya, paragraph alignment, rotation at attachment. Ine-export ang kuwadro gamit ang MTEXT frame flag at AutoCAD-compatible na border scale. Tingnan din ang [EstiloNgTeksto](../text-style/) at [FontManager](../font-manager/).
+Sine-save ang mga label bilang **MTEXT** entity. Gumagamit ang makapal at pahilig ng `\f`, salungguhit ng `\L`/`\l`, strikethrough ng `\K`/`\k`, at taas bawat character ng `\H`. Nananatili rin ang reference width, pagitan ng linya, paragraph alignment, rotation at attachment. Ine-export ang kuwadro gamit ang MTEXT frame flag at AutoCAD-compatible na border scale. Tingnan din ang [EstiloNgTeksto](../../commands/text-style/) at [FontManager](../../commands/font-manager/).

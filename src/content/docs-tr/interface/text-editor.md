@@ -144,4 +144,4 @@ Sabit satır sonları ve karakter başına biçimlendirme, MTEXT formatı kullan
 
 ## DXF Uyumluluğu
 
-Metin etiketleri **MTEXT** olarak saklanır. Kalın ve italik `\f`, altı çizili `\L`/`\l`, üstü çizili `\K`/`\k`, karakter başına yükseklik ise `\H` kullanır. Referans genişliği, satır aralığı, paragraf hizalaması, dönüş ve ek noktası da korunur. Çerçeve, MTEXT çerçeve bayrağı ve AutoCAD uyumlu kenarlık ölçeğiyle dışa aktarılır. Ayrıca [MetinStili](../text-style/) ve [FontManager](../font-manager/) sayfalarına bakın.
+Metin etiketleri **MTEXT** olarak saklanır. Kalın ve italik `\f`, altı çizili `\L`/`\l`, üstü çizili `\K`/`\k`, karakter başına yükseklik ise `\H` kullanır. Referans genişliği, satır aralığı, paragraf hizalaması, dönüş ve ek noktası da korunur. Çerçeve, MTEXT çerçeve bayrağı ve AutoCAD uyumlu kenarlık ölçeğiyle dışa aktarılır. Ayrıca [MetinStili](../../commands/text-style/) ve [FontManager](../../commands/font-manager/) sayfalarına bakın.

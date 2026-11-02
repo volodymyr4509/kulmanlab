@@ -15,7 +15,7 @@ Der `RechteckigeAnordnung`-Befehl erstellt ein rechteckiges Raster aus Kopien de
 **Vorauswahl, dann array** — zuerst Elemente auswählen, dann aktivieren:
 
 1. Ein oder mehrere Elemente auf der Zeichenfläche auswählen.
-2. `RechteckigeAnordnung` im Terminal eingeben (ein paar Buchstaben genügen — aus den Vorschlägen wählen) oder im Panel Edit im Array-Dropdown **Array Grid** wählen.
+2. Geben Sie `RechteckigeAnordnung` im Terminal ein (ein paar Buchstaben genügen — wählen Sie ihn aus den Vorschlägen) oder wählen Sie **Array Grid** im Dropdown des Edit-Panels.
 3. Die Anzahl der **Zeilen** eingeben und **Enter** drücken.
 4. Die Anzahl der **Spalten** eingeben und **Enter** drücken.
 5. Den **Abstand zwischen Zeilen** eingeben und **Enter** drücken.
@@ -23,7 +23,7 @@ Der `RechteckigeAnordnung`-Befehl erstellt ein rechteckiges Raster aus Kopien de
 
 **Aktivieren, dann auswählen** — Befehl ohne Auswahl starten:
 
-1. `RechteckigeAnordnung` eingeben oder im Panel Edit im Array-Dropdown wählen.
+1. Geben Sie `RechteckigeAnordnung` ein oder wählen Sie ihn im Dropdown des Edit-Panels.
 2. **Objekte auswählen** — klicken Sie zum Ein-/Ausschalten einzelner Elemente oder ziehen Sie zur Flächenauswahl.
 3. **Enter** oder **Space** drücken, um die Auswahl zu bestätigen.
 4. Weiter mit Zeilen → Spalten → Zeilenabstand → Spaltenabstand wie oben.

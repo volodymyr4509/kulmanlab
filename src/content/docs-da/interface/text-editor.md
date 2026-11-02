@@ -144,4 +144,4 @@ Hårde linjeskift og per-tegn formatering gemmes ved hjælp af MTEXT-formatet og
 
 ## DXF-kompatibilitet
 
-Tekstetiketter gemmes som **MTEXT**. Fed og kursiv bruger `\f`, understregning `\L`/`\l`, gennemstregning `\K`/`\k` og tegnvise højder `\H`. Referencebredde, linjeafstand, afsnitsjustering, rotation og tilknytning bevares også. Ramme eksporteres med MTEXT-rammeflaget og en AutoCAD-kompatibel kantskala. Se [Tekststil](../text-style/) og [Skrifttypehåndtering](../font-manager/).
+Tekstetiketter gemmes som **MTEXT**. Fed og kursiv bruger `\f`, understregning `\L`/`\l`, gennemstregning `\K`/`\k` og tegnvise højder `\H`. Referencebredde, linjeafstand, afsnitsjustering, rotation og tilknytning bevares også. Ramme eksporteres med MTEXT-rammeflaget og en AutoCAD-kompatibel kantskala. Se [Tekststil](../../commands/text-style/) og [Skrifttypehåndtering](../../commands/font-manager/).

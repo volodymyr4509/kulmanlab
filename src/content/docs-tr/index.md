@@ -43,7 +43,7 @@ order: 1
 | [Offset](./commands/offset/) | Belirli bir mesafede nesnenin paralel kopyasını oluşturur |
 | [Fillet](./commands/fillet/) | İki çizgi, yay veya çoklu çizgi segmenti arasındaki köşeyi teğet yayla yuvarlar |
 | [Chamfer](./commands/chamfer/) | İki çizgi veya çoklu çizgi arasına düz köşegen pah kesar |
-| [Explode](./commands/explode/) | Bir çoklu çizgiyi kendi tekil çizgi ve yay parçalarına ayırır |
+| [Explode](./commands/explode/) | Bir polyline'ı çizgi ve yaylara, bir bloğu da çizdiği parçalara ayırın |
 | [Undo](./commands/undo/) | Son işlemi geri alır |
 | [Redo](./commands/redo/) | Son geri alınan işlemi yineler |
 | [Array Grid](./commands/array-grid/) | Nesneleri satır ve sütunlardan oluşan dikdörtgen bir ızgarada tekrarlar |

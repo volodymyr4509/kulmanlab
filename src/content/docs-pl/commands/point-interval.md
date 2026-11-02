@@ -12,7 +12,7 @@ Polecenie `PunktyCoOdstęp` umieszcza [punkty](../point/) w stałym odstępie wz
 
 ## Punkty co odstęp
 
-1. Wpisz `PunktyCoOdstęp` w terminalu albo wybierz **Point Interval** z rozwijanego menu szyków w panelu Edit.
+1. Wpisz `PunktyCoOdstęp` w terminalu albo wybierz **Point Interval** z rozwijanego menu panelu Edit.
 2. **Kliknij obiekt przy końcu, od którego zacząć** — linię, polilinię, łuk, okrąg, elipsę lub splajn. Wszystko inne jest odrzucane i można wybrać ponownie.
 3. **Wpisz długość odstępu.** Punkty pojawiają się na obiekcie w podglądzie podczas pisania.
 4. Naciśnij **Enter** lub **Space**, aby je umieścić. Polecenie się kończy.

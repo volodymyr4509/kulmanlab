@@ -12,7 +12,7 @@ Umarnin `ƊigoDaTazara` yana sanya [maki](../point/) a tazara ta dindindin tare 
 
 ## Sanya maki a tazara
 
-1. Rubuta `ƊigoDaTazara` a tashar umarni ko ka zaɓi **Point Interval** daga jerin zaɓin array a kwamitin Edit.
+1. Rubuta `ƊigoDaTazara` a tashar umarni ko zaɓi **Point Interval** daga jerin zaɓin kwamitin Edit.
 2. **Danna abin kusa da ƙarshen da za a fara daga shi** — layi, polyline, baka, da'ira, ellipse ko spline. Ana ƙin duk wani abu daban, kuma za ka iya sake zaɓe.
 3. **Rubuta tsawon tazarar.** Ana ganin makin a kan abin yayin da kake rubutu.
 4. Danna **Enter** ko **Space** don sanya su. Umarnin ya ƙare.

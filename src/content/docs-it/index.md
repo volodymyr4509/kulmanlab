@@ -43,7 +43,7 @@ Benvenuto nel riferimento comandi di **KulmanLab CAD**. [KulmanLab CAD](https://
 | [Offset](./commands/offset/) | Crea una copia parallela di un'entità a una distanza data |
 | [Fillet](./commands/fillet/) | Raccorda un angolo tra due linee, archi o segmenti di polilinea con un arco tangente |
 | [Chamfer](./commands/chamfer/) | Taglia un angolo diagonale tra due linee o polilinee |
-| [Explode](./commands/explode/) | Scompone una polilinea nelle sue linee e archi individuali |
+| [Explode](./commands/explode/) | Scomporre una polilinea in linee e archi, o un blocco in ciò che disegna |
 | [Undo](./commands/undo/) | Annulla l'ultima azione |
 | [Redo](./commands/redo/) | Ripristina l'ultima azione annullata |
 | [Array Grid](./commands/array-grid/) | Ripete le entità in una griglia rettangolare di righe e colonne |

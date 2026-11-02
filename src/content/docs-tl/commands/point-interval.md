@@ -12,7 +12,7 @@ Naglalagay ang `PuntoBawatPagitan` command ng mga [punto](../point/) sa takdang 
 
 ## Paglalagay ng mga punto sa pagitan
 
-1. I-type ang `PuntoBawatPagitan` sa terminal o piliin ang **Point Interval** mula sa array dropdown sa Edit panel.
+1. I-type ang `PuntoBawatPagitan` sa terminal o piliin ang **Point Interval** mula sa dropdown sa Edit panel.
 2. **I-click ang bagay malapit sa dulong pagsisimulan** — linya, polyline, arko, bilog, ellipse o spline. Tinatanggihan ang iba pa, at maaari kang pumili ulit.
 3. **I-type ang haba ng pagitan.** Ipinapakita ang mga punto sa bagay habang nagta-type ka.
 4. Pindutin ang **Enter** o **Space** para ilagay ang mga ito. Natatapos ang command.

@@ -15,7 +15,7 @@ La commande `RéseauRectangulaire` crée une grille rectangulaire de copies à p
 **Pré-sélectionner, puis array** — sélectionnez d'abord les entités, puis activez :
 
 1. Sélectionnez une ou plusieurs entités sur le canevas.
-2. Tapez `RéseauRectangulaire` dans le terminal (quelques lettres suffisent — choisissez-la parmi les suggestions) ou choisissez **Array Grid** dans le menu déroulant des réseaux du panneau Edit.
+2. Tapez `RéseauRectangulaire` dans le terminal (quelques lettres suffisent — choisissez-la dans les suggestions) ou choisissez **Array Grid** dans le menu déroulant du panneau Edit.
 3. Tapez le nombre de **lignes** et appuyez sur **Entrée**.
 4. Tapez le nombre de **colonnes** et appuyez sur **Entrée**.
 5. Tapez l'**espacement entre les lignes** et appuyez sur **Entrée**.
@@ -23,7 +23,7 @@ La commande `RéseauRectangulaire` crée une grille rectangulaire de copies à p
 
 **Activer, puis sélectionner** — démarrez la commande sans rien de sélectionné :
 
-1. Tapez `RéseauRectangulaire` ou choisissez-la dans le menu déroulant des réseaux du panneau Edit.
+1. Tapez `RéseauRectangulaire` ou choisissez-la dans le menu déroulant du panneau Edit.
 2. **Sélectionnez les objets** — cliquez pour basculer les entités individuelles, ou faites glisser pour sélectionner par zone.
 3. Appuyez sur **Entrée** ou **Espace** pour confirmer la sélection.
 4. Continuez avec lignes → colonnes → espacement des lignes → espacement des colonnes comme ci-dessus.

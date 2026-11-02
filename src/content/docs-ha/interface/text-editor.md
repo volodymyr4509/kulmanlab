@@ -144,4 +144,4 @@ Ana ajiye karyewar layi kashi da tsari ga kowane harafi ta amfani da tsarin MTEX
 
 ## Dacewa da DXF
 
-Ana adana lakabin rubutu a matsayin abubuwan **MTEXT**. Kauri da karkata suna amfani da `\f`, layin ƙasa `\L`/`\l`, layin tsakiya `\K`/`\k`, kuma tsayin kowace alama yana amfani da `\H`. Faɗin tunani, tazarar layi, daidaitawar sakin layi, juyawa da haɗawa ma suna nan. Ana fitar da firam da alamar firam ta MTEXT da ma’aunin iyaka mai dacewa da AutoCAD. Duba [SalonRubutu](../text-style/) da [Mai sarrafa font](../font-manager/).
+Ana adana lakabin rubutu a matsayin abubuwan **MTEXT**. Kauri da karkata suna amfani da `\f`, layin ƙasa `\L`/`\l`, layin tsakiya `\K`/`\k`, kuma tsayin kowace alama yana amfani da `\H`. Faɗin tunani, tazarar layi, daidaitawar sakin layi, juyawa da haɗawa ma suna nan. Ana fitar da firam da alamar firam ta MTEXT da ma’aunin iyaka mai dacewa da AutoCAD. Duba [SalonRubutu](../../commands/text-style/) da [Mai sarrafa font](../../commands/font-manager/).

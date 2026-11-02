@@ -12,7 +12,7 @@ order: 17
 
 ## Bir nesneyi bölme
 
-1. Terminale `NoktaylaBöl` yazın veya Edit panelindeki dizi açılır menüsünden **Point Divide**'ı seçin.
+1. Terminale `NoktaylaBöl` yazın veya Edit panelinin açılır menüsünden **Point Divide**'ı seçin.
 2. **Nesneye tıklayın** — çizgi, polyline, yay, daire, elips veya spline. Başka her şey reddedilir ve yeniden seçebilirsiniz.
 3. **Parça sayısını yazın**, 2 ile 32767 arasında bir tam sayı. Yazarken noktalar nesne üzerinde önizlenir.
 4. Yerleştirmek için **Enter** veya **Space**'e basın. Komut sona erer.

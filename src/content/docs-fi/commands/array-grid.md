@@ -15,7 +15,7 @@ Komento `SuorakulmainenSarja` luo suorakulmaisen ruudukon kopioita valituista en
 **Valitse ensin, luo array sitten** — valitse entiteetit ensin, aktivoi sitten:
 
 1. Valitse yksi tai useampi entiteetti piirtoalueella.
-2. Kirjoita `SuorakulmainenSarja` terminaaliin (muutama kirjain riittää — valitse se ehdotuksista) tai valitse **Array Grid** Edit-paneelin ruudukko-pudotusvalikosta.
+2. Kirjoita `SuorakulmainenSarja` terminaaliin (muutama kirjain riittää — valitse se ehdotuksista) tai valitse **Array Grid** Edit-paneelin pudotusvalikosta.
 3. Kirjoita **rivien** määrä ja paina **Enter**.
 4. Kirjoita **sarakkeiden** määrä ja paina **Enter**.
 5. Kirjoita **rivien välinen etäisyys** ja paina **Enter**.
@@ -23,7 +23,7 @@ Komento `SuorakulmainenSarja` luo suorakulmaisen ruudukon kopioita valituista en
 
 **Aktivoi, valitse sitten** — aloita komento ilman mitään valittuna:
 
-1. Kirjoita `SuorakulmainenSarja` tai valitse se Edit-paneelin ruudukko-pudotusvalikosta.
+1. Kirjoita `SuorakulmainenSarja` tai valitse se Edit-paneelin pudotusvalikosta.
 2. **Valitse objektit** — napsauta vaihtaaksesi yksittäisiä entiteettejä, tai vedä valitaksesi alueen mukaan.
 3. Paina **Enter** tai **Space** vahvistaaksesi valinnan.
 4. Jatka rivit → sarakkeet → rivien väli → sarakkeiden väli kuten yllä.

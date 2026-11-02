@@ -12,7 +12,7 @@ Perintah `BahagiDenganTitik` meletakkan [titik](../point/) yang membahagikan obj
 
 ## Membahagikan objek
 
-1. Taip `BahagiDenganTitik` dalam terminal atau pilih **Point Divide** daripada juntai bawah tatasusunan dalam panel Edit.
+1. Taip `BahagiDenganTitik` dalam terminal atau pilih **Point Divide** daripada juntai bawah dalam panel Edit.
 2. **Klik objek** — garisan, polyline, arka, bulatan, elips atau splin. Selain itu ditolak, dan anda boleh memilih semula.
 3. **Taip bilangan segmen**, nombor bulat dari 2 hingga 32767. Titik dipratonton pada objek semasa anda menaip.
 4. Tekan **Enter** atau **Space** untuk meletakkannya. Perintah tamat.

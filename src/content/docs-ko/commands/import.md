@@ -1,6 +1,6 @@
 ---
 title: Import — KulmanLab CAD에서 DXF 또는 JSON 파일 열기
-description: Import 명령어를 사용하여 KulmanLab CAD에서 DXF 또는 KulmanLab JSON 파일을 엽니다. 선, 원, 호, 폴리선, 스플라인, 텍스트, 치수, 지시선을 지원합니다.
+description: "Import 명령으로 DXF 또는 KulmanLab JSON 파일을 KulmanLab CAD에서 엽니다. 선, 원, 호, 타원, 폴리라인, 스플라인, 점, 텍스트, 치수, 지시선, 해치, 솔리드, 블록 참조를 지원합니다."
 keywords: [DXF 파일 가져오기, 브라우저에서 DXF 열기, CAD 파일 온라인 가져오기, DXF 파일 열기, DXF 뷰어 브라우저, JSON CAD 가져오기, KulmanLab 가져오기, 무료 CAD DXF 뷰어, 도면 불러오기, DXF to 브라우저]
 group: file
 order: 1

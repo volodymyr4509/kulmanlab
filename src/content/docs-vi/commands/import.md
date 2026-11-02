@@ -1,6 +1,6 @@
 ---
 title: Import — Mở Tệp DXF hoặc JSON trong KulmanLab CAD
-description: Dùng lệnh Import để mở các tệp DXF hoặc JSON của KulmanLab trong KulmanLab CAD. Hỗ trợ đường thẳng, hình tròn, cung, đường đa đoạn, spline, văn bản, kích thước và đường dẫn.
+description: "Dùng lệnh Import để mở tệp DXF hoặc JSON của KulmanLab trong KulmanLab CAD. Hỗ trợ đường thẳng, đường tròn, cung, elip, polyline, spline, điểm, văn bản, kích thước, đường dẫn, mặt cắt, solid và tham chiếu khối."
 group: file
 order: 1
 ---

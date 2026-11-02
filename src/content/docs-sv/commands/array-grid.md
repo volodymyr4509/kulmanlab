@@ -15,7 +15,7 @@ order: 15
 **Förval, sedan array** — välj entiteter först, aktivera sedan:
 
 1. Välj en eller flera entiteter på ritytan.
-2. Skriv `Rutmönster` i terminalen (några bokstäver räcker — välj den bland förslagen) eller välj **Array Grid** i matrisrullgardinen i panelen Edit.
+2. Skriv `Rutmönster` i terminalen (några bokstäver räcker — välj det bland förslagen) eller välj **Array Grid** i rullgardinsmenyn i panelen Edit.
 3. Skriv antalet **rader** och tryck **Enter**.
 4. Skriv antalet **kolumner** och tryck **Enter**.
 5. Skriv **avståndet mellan raderna** och tryck **Enter**.
@@ -23,7 +23,7 @@ order: 15
 
 **Aktivera, välj sedan** — starta kommandot utan att något är valt:
 
-1. Skriv `Rutmönster` eller välj den i matrisrullgardinen i panelen Edit.
+1. Skriv `Rutmönster` eller välj det i rullgardinsmenyn i panelen Edit.
 2. **Välj objekt** — klicka för att växla enskilda entiteter, eller dra för att välja med ett område.
 3. Tryck **Enter** eller **Space** för att bekräfta valet.
 4. Fortsätt med rader → kolumner → radavstånd → kolumnavstånd som ovan.

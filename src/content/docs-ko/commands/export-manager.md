@@ -1,6 +1,6 @@
 ---
 title: Export Manager — 도면을 DXF 또는 JSON으로 다운로드
-description: 현재 도면을 DXF 또는 JSON으로 내려받으며, 엔티티 유형별로 무엇을 담을지 고를 수 있습니다. 두 형식 모두 형상, 문자, 치수, 지시선, 해치를 도면층·선종류와 함께 담습니다.
+description: "현재 도면을 DXF 또는 JSON으로 내려받고, 객체 유형별로 포함할 것을 고릅니다. 두 형식 모두 형상, 텍스트, 치수, 지시선, 해치, 솔리드, 블록 참조와 레이어, 선종류를 담습니다."
 keywords: [CAD DXF 내보내기, CAD 파일 내보내기, 브라우저에서 DXF 다운로드, DXF 온라인 저장, JSON CAD 내보내기, KulmanLab 내보내기, CAD 파일 다운로드, DXF 내보내기, 도면을 파일로 저장, DXF 다운로드]
 group: file
 order: 6

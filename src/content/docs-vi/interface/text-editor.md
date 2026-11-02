@@ -131,4 +131,4 @@ Nhấn `Enter` để chèn ngắt dòng cứng. Mỗi dòng cứng là độc l�
 
 ## Tương thích DXF
 
-Nhãn được lưu dưới dạng thực thể **MTEXT**. Đậm và nghiêng dùng `\f`, gạch chân dùng `\L`/`\l`, gạch ngang dùng `\K`/`\k`, còn chiều cao từng ký tự dùng `\H`. Chiều rộng tham chiếu, giãn dòng, căn đoạn, xoay và điểm đính kèm cũng được bảo toàn. Khung được xuất bằng cờ khung MTEXT và tỷ lệ viền tương thích AutoCAD. Xem [KiểuChữ](../text-style/) và [Trình quản lý phông](../font-manager/).
+Nhãn được lưu dưới dạng thực thể **MTEXT**. Đậm và nghiêng dùng `\f`, gạch chân dùng `\L`/`\l`, gạch ngang dùng `\K`/`\k`, còn chiều cao từng ký tự dùng `\H`. Chiều rộng tham chiếu, giãn dòng, căn đoạn, xoay và điểm đính kèm cũng được bảo toàn. Khung được xuất bằng cờ khung MTEXT và tỷ lệ viền tương thích AutoCAD. Xem [KiểuChữ](../../commands/text-style/) và [Trình quản lý phông](../../commands/font-manager/).

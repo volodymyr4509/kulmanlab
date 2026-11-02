@@ -144,4 +144,4 @@ Pemecahan baris keras dan pemformatan setiap aksara disimpan menggunakan format 
 
 ## Keserasian DXF
 
-Label disimpan sebagai entiti **MTEXT**. Tebal dan condong menggunakan `\f`, garis bawah `\L`/`\l`, coret `\K`/`\k`, dan tinggi setiap aksara menggunakan `\H`. Lebar rujukan, jarak baris, penjajaran perenggan, putaran dan lampiran turut dikekalkan. Bingkai dieksport dengan bendera bingkai MTEXT dan skala sempadan yang serasi dengan AutoCAD. Lihat [GayaTeks](../text-style/) dan [Pengurus Fon](../font-manager/).
+Label disimpan sebagai entiti **MTEXT**. Tebal dan condong menggunakan `\f`, garis bawah `\L`/`\l`, coret `\K`/`\k`, dan tinggi setiap aksara menggunakan `\H`. Lebar rujukan, jarak baris, penjajaran perenggan, putaran dan lampiran turut dikekalkan. Bingkai dieksport dengan bendera bingkai MTEXT dan skala sempadan yang serasi dengan AutoCAD. Lihat [GayaTeks](../../commands/text-style/) dan [Pengurus Fon](../../commands/font-manager/).

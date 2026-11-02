@@ -15,7 +15,7 @@ Polecenie `SzykProstokątny` tworzy prostokątną siatkę kopii z zaznaczonych e
 **Wstępne zaznaczenie, a następnie array** — najpierw zaznacz elementy, a następnie aktywuj:
 
 1. Zaznacz jeden lub więcej elementów na płótnie.
-2. Wpisz `SzykProstokątny` w terminalu (wystarczy kilka liter — wybierz go z podpowiedzi) albo wybierz **Array Grid** z rozwijanego menu szyków w panelu Edit.
+2. Wpisz `SzykProstokątny` w terminalu (wystarczy kilka liter — wybierz z podpowiedzi) albo wybierz **Array Grid** z rozwijanego menu panelu Edit.
 3. Wpisz liczbę **wierszy** i naciśnij **Enter**.
 4. Wpisz liczbę **kolumn** i naciśnij **Enter**.
 5. Wpisz **odstęp między wierszami** i naciśnij **Enter**.
@@ -23,7 +23,7 @@ Polecenie `SzykProstokątny` tworzy prostokątną siatkę kopii z zaznaczonych e
 
 **Aktywuj, a następnie zaznacz** — uruchom polecenie bez zaznaczonego niczego:
 
-1. Wpisz `SzykProstokątny` albo wybierz go z rozwijanego menu szyków w panelu Edit.
+1. Wpisz `SzykProstokątny` albo wybierz je z rozwijanego menu panelu Edit.
 2. **Zaznacz obiekty** — kliknij, aby przełączać poszczególne elementy, lub przeciągnij, aby zaznaczyć obszarem.
 3. Naciśnij **Enter** lub **Spację**, aby potwierdzić zaznaczenie.
 4. Kontynuuj wiersze → kolumny → odstęp wierszy → odstęp kolumn jak powyżej.

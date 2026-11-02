@@ -12,7 +12,7 @@ De opdracht `VerdeelMetPunten` plaatst [punten](../point/) die een object in stu
 
 ## Een object verdelen
 
-1. Typ `VerdeelMetPunten` in de terminal of kies **Point Divide** in het array-uitklapmenu van het paneel Edit.
+1. Typ `VerdeelMetPunten` in de terminal of kies **Point Divide** in het uitklapmenu van het Edit-paneel.
 2. **Klik op het object** — een lijn, polylijn, boog, cirkel, ellips of spline. Al het andere wordt geweigerd en u kunt opnieuw kiezen.
 3. **Typ het aantal stukken**, een geheel getal van 2 tot 32767. De punten verschijnen tijdens het typen als voorbeeld op het object.
 4. Druk op **Enter** of **Space** om ze te plaatsen. De opdracht eindigt.

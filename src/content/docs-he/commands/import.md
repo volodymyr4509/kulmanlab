@@ -1,6 +1,6 @@
 ---
 title: Import — פתיחת קבצי DXF או JSON ב-KulmanLab CAD
-description: השתמשו בפקודת Import כדי לפתוח קבצי DXF או JSON של KulmanLab ב-KulmanLab CAD. תומכת בקווים, מעגלים, קשתות, פוליליינים, ספליינים, טקסט, מידות וחיצי הפניה.
+description: "השתמשו בפקודה Import כדי לפתוח קובצי DXF או JSON של KulmanLab ב-KulmanLab CAD. תומכת בקווים, מעגלים, קשתות, אליפסות, polylines, ספליינים, נקודות, טקסט, מידות, קווי הפניה, קווקוו, מילויים מוצקים והפניות בלוק."
 keywords: [ייבוא קובץ DXF, פתיחת DXF בדפדפן, ייבוא קובץ CAD מקוון, פתיחת קובץ DXF, מציג DXF בדפדפן, ייבוא JSON CAD, ייבוא KulmanLab, מציג DXF חינמי CAD, טעינת שרטוט, DXF לדפדפן]
 group: file
 order: 1

@@ -15,7 +15,7 @@ El comando `MatrizRectangular` crea una cuadrícula rectangular de copias a part
 **Preseleccionar, luego array** — selecciona primero las entidades, luego activa:
 
 1. Selecciona una o más entidades en el lienzo.
-2. Escribe `MatrizRectangular` en el terminal (bastan unas letras — elígelo de las sugerencias) o elige **Array Grid** en el desplegable de matrices del panel Edit.
+2. Escribe `MatrizRectangular` en el terminal (bastan unas letras: elígelo en las sugerencias) o elige **Array Grid** en el desplegable del panel Edit.
 3. Escribe el número de **filas** y presiona **Enter**.
 4. Escribe el número de **columnas** y presiona **Enter**.
 5. Escribe el **espaciado entre filas** y presiona **Enter**.
@@ -23,7 +23,7 @@ El comando `MatrizRectangular` crea una cuadrícula rectangular de copias a part
 
 **Activar, luego seleccionar** — inicia el comando sin nada seleccionado:
 
-1. Escribe `MatrizRectangular` o elígelo en el desplegable de matrices del panel Edit.
+1. Escribe `MatrizRectangular` o elígelo en el desplegable del panel Edit.
 2. **Selecciona objetos** — haz clic para alternar entidades individuales, o arrastra para seleccionar por área.
 3. Presiona **Enter** o **Space** para confirmar la selección.
 4. Continúa con filas → columnas → espaciado de filas → espaciado de columnas como arriba.

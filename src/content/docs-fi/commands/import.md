@@ -1,6 +1,6 @@
 ---
 title: Import — Avaa DXF- tai JSON-tiedostoja KulmanLab CAD:issa
-description: Käytä Import-komentoa avataksesi DXF- tai KulmanLab JSON-tiedostoja KulmanLab CAD:issa. Tukee viivoja, ympyröitä, kaaria, murtoviivoja, spline-käyriä, tekstiä, mittoja ja johtimia.
+description: "Avaa Import-komennolla DXF- tai KulmanLab JSON -tiedostoja KulmanLab CADissa. Tukee viivoja, ympyröitä, kaaria, ellipsejä, murtoviivoja, splinejä, pisteitä, tekstiä, mittoja, johtoviivoja, viivoituksia, solideja ja lohkoviittauksia."
 keywords: [tuo DXF-tiedosto, avaa DXF selaimessa, tuo CAD-tiedosto verkossa, avaa DXF-tiedosto, DXF-katselin selaimessa, tuo JSON CAD, KulmanLab tuonti, ilmainen CAD DXF-katselin, lataa piirustus, DXF selaimeen]
 group: file
 order: 1

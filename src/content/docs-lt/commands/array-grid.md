@@ -15,7 +15,7 @@ Komanda `ArrayGrid` sukuria stačiakampį kopijų tinklelį iš pasirinktų obje
 **Pirmiausia pasirinkti, tada kurti masyvą** — pirma pasirinkite objektus, tada aktyvuokite:
 
 1. Drobėje pasirinkite vieną ar kelis objektus.
-2. Terminale įveskite `arraygrid` (užtenka kelių raidžių — pasirinkite iš pasiūlymų) arba skydelyje Edit masyvų išskleidžiamajame meniu pasirinkite **Array Grid**.
+2. Terminale įveskite `arraygrid` (pakanka kelių raidžių — pasirinkite iš pasiūlymų) arba skydelio Edit išskleidžiamajame meniu pasirinkite **Array Grid**.
 3. Įveskite **eilučių** skaičių ir paspauskite **Enter**.
 4. Įveskite **stulpelių** skaičių ir paspauskite **Enter**.
 5. Įveskite **atstumą tarp eilučių** ir paspauskite **Enter**.
@@ -23,7 +23,7 @@ Komanda `ArrayGrid` sukuria stačiakampį kopijų tinklelį iš pasirinktų obje
 
 **Pirmiausia aktyvuoti, tada pasirinkti** — pradėkite komandą nieko nepasirinkę:
 
-1. Įveskite `arraygrid` arba pasirinkite skydelio Edit masyvų išskleidžiamajame meniu.
+1. Įveskite `arraygrid` arba pasirinkite ją skydelio Edit išskleidžiamajame meniu.
 2. **Pasirinkite objektus** — spustelėkite, kad perjungtumėte atskirus objektus, arba tempkite, kad pasirinktumėte sritimi.
 3. Paspauskite **Enter** arba **Space**, kad patvirtintumėte pasirinkimą.
 4. Tęskite eilutės → stulpeliai → eilučių atstumas → stulpelių atstumas, kaip aukščiau.

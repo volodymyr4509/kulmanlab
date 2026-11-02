@@ -43,7 +43,7 @@ order: 1
 | [Offset](./commands/offset/) | 지정한 거리만큼 객체의 평행 복사본 생성 |
 | [Fillet](./commands/fillet/) | 두 선, 호, 또는 폴리선 세그먼트 사이의 모서리를 접선 호로 라운딩 |
 | [Chamfer](./commands/chamfer/) | 두 선 또는 폴리선 사이의 모서리를 직선으로 경사지게 자르기 |
-| [Explode](./commands/explode/) | 폴리선을 개별 선과 호로 분해합니다 |
+| [Explode](./commands/explode/) | 폴리라인을 선과 호로, 블록을 그 블록이 그리는 도형으로 분해 |
 | [Undo](./commands/undo/) | 마지막 작업 취소 |
 | [Redo](./commands/redo/) | 마지막으로 취소한 작업 다시 실행 |
 | [Array Grid](./commands/array-grid/) | 객체를 행과 열로 이루어진 직사각형 그리드로 반복 |

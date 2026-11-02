@@ -12,7 +12,7 @@ Komanda `TaškaiIntervalais` padeda [taškus](../point/) fiksuotu atstumu išilg
 
 ## Taškai intervalu
 
-1. Terminale įveskite `TaškaiIntervalais` arba skydelio Edit masyvų išskleidžiamajame meniu pasirinkite **Point Interval**.
+1. Terminale įveskite `TaškaiIntervalais` arba skydelio Edit išskleidžiamajame meniu pasirinkite **Point Interval**.
 2. **Spustelėkite objektą prie galo, nuo kurio pradėti** — liniją, poliliniją, lanką, apskritimą, elipsę ar splainą. Kita atmetama, ir galite rinktis iš naujo.
 3. **Įveskite intervalo ilgį.** Rašant taškai rodomi objekte peržiūroje.
 4. Paspauskite **Enter** arba **Space**, kad juos padėtumėte. Komanda baigiasi.

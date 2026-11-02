@@ -12,7 +12,7 @@ Komanda `DalytiTaškais` padeda [taškus](../point/), kurie padalija objektą į
 
 ## Objekto dalijimas
 
-1. Terminale įveskite `DalytiTaškais` arba skydelio Edit masyvų išskleidžiamajame meniu pasirinkite **Point Divide**.
+1. Terminale įveskite `DalytiTaškais` arba skydelio Edit išskleidžiamajame meniu pasirinkite **Point Divide**.
 2. **Spustelėkite objektą** — liniją, poliliniją, lanką, apskritimą, elipsę ar splainą. Kita atmetama, ir galite rinktis iš naujo.
 3. **Įveskite atkarpų skaičių** — sveikąjį skaičių nuo 2 iki 32767. Rašant taškai rodomi objekte peržiūroje.
 4. Paspauskite **Enter** arba **Space**, kad juos padėtumėte. Komanda baigiasi.

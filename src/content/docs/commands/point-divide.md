@@ -12,7 +12,7 @@ The `pointdivide` command places [points](../point/) that split an object into s
 
 ## Dividing an object
 
-1. Type `pointdivide` in the terminal or choose **Point Divide** from the array dropdown in the Edit panel.
+1. Type `pointdivide` in the terminal or choose **Point Divide** from the dropdown in the Edit panel.
 2. **Click the object** — a line, polyline, arc, circle, ellipse or spline. Anything else is refused, and you can pick again.
 3. **Type the number of segments**, a whole number from 2 to 32767. The points preview on the object as you type.
 4. Press **Enter** or **Space** to place them. The command ends.

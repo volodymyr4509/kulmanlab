@@ -1,6 +1,6 @@
 ---
 title: Export Manager — Muat Turun Lukisan sebagai DXF atau JSON
-description: Muat turun lukisan sebagai DXF atau JSON, menanda mengikut jenis entiti apa yang masuk. Kedua-duanya membawa geometri, teks, dimensi, penunjuk dan lorekan.
+description: "Muat turun lukisan semasa sebagai DXF atau JSON, tandakan mengikut jenis entiti apa yang dimasukkan. Kedua-duanya membawa geometri, teks, dimensi, leader, lorekan, solid dan rujukan blok, serta lapisan dan jenis garisan."
 keywords: [eksport DXF, eksport fail CAD, muat turun DXF pelayar, simpan DXF dalam talian, eksport JSON CAD, eksport KulmanLab, muat turun fail CAD, eksport DXF, simpan lukisan ke fail, muat turun DXF]
 group: file
 order: 6

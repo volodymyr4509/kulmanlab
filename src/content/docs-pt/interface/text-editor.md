@@ -144,4 +144,4 @@ Quebras de linha duras e formatação por caractere são armazenadas usando o fo
 
 ## Compatibilidade DXF
 
-Os rótulos são gravados como entidades **MTEXT**. Negrito e itálico usam `\f`, sublinhado `\L`/`\l`, tachado `\K`/`\k` e alturas por caractere usam `\H`. Largura de referência, espaçamento, alinhamento de parágrafo, rotação e fixação também são preservados. A moldura é exportada com o sinalizador MTEXT e escala de borda compatível com AutoCAD. Veja [EstiloTexto](../text-style/) e [FontManager](../font-manager/).
+Os rótulos são gravados como entidades **MTEXT**. Negrito e itálico usam `\f`, sublinhado `\L`/`\l`, tachado `\K`/`\k` e alturas por caractere usam `\H`. Largura de referência, espaçamento, alinhamento de parágrafo, rotação e fixação também são preservados. A moldura é exportada com o sinalizador MTEXT e escala de borda compatível com AutoCAD. Veja [EstiloTexto](../../commands/text-style/) e [FontManager](../../commands/font-manager/).

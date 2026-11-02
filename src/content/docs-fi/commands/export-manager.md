@@ -1,6 +1,6 @@
 ---
 title: Export Manager — Lataa piirustuksia DXF- tai JSON-muodossa
-description: Lataa piirustus DXF- tai JSON-muodossa ja valitse objektityypeittäin, mitä mukaan tulee. Molemmat kantavat geometrian, tekstin, mitat, osoitusviivat ja rasteroinnit.
+description: "Lataa nykyinen piirustus DXF- tai JSON-muodossa ja valitse entiteettityypeittäin, mitä tiedostoon tulee. Molemmissa on geometria, teksti, mitat, johtoviivat, viivoitukset, solidit ja lohkoviittaukset sekä tasot ja viivatyypit."
 keywords: [vie DXF, vie CAD-tiedosto, lataa DXF selaimessa, tallenna DXF verkossa, vie JSON CAD, KulmanLab vienti, lataa CAD-tiedosto, DXF-vienti, tallenna piirustus tiedostoon, DXF-lataus]
 group: file
 order: 6

@@ -15,7 +15,7 @@ The `ArrayGrid` command creates a rectangular grid of copies from the selected e
 **Pre-select, then array** — select entities first, then activate:
 
 1. Select one or more entities on the canvas.
-2. Type `arraygrid` in the terminal (a few letters are enough — pick it from the suggestions) or choose **Array Grid** from the array dropdown in the Edit panel.
+2. Type `arraygrid` in the terminal (a few letters are enough — pick it from the suggestions) or choose **Array Grid** from the dropdown in the Edit panel.
 3. Type the number of **rows** and press **Enter**.
 4. Type the number of **columns** and press **Enter**.
 5. Type the **spacing between rows** and press **Enter**.
@@ -23,7 +23,7 @@ The `ArrayGrid` command creates a rectangular grid of copies from the selected e
 
 **Activate, then select** — start the command with nothing selected:
 
-1. Type `arraygrid` or choose it from the array dropdown in the Edit panel.
+1. Type `arraygrid` or choose it from the dropdown in the Edit panel.
 2. **Select objects** — click to toggle individual entities, or drag to select by area.
 3. Press **Enter** or **Space** to confirm the selection.
 4. Continue with rows → columns → row spacing → column spacing as above.

@@ -144,4 +144,4 @@ Mapumziko ya mstari mgumu na uumbizaji wa kila herufi huhifadhiwa kwa kutumia mu
 
 ## Uoanifu wa DXF
 
-Lebo huhifadhiwa kama vipengee vya **MTEXT**. Nzito na mlalo hutumia `\f`, mstari chini `\L`/`\l`, mstari katikati `\K`/`\k`, na urefu kwa herufi hutumia `\H`. Upana wa marejeo, nafasi ya mistari, mpangilio wa aya, mzunguko na kiambatisho pia huhifadhiwa. Fremu husafirishwa kwa alama ya fremu ya MTEXT na kipimo cha mpaka kinachooana na AutoCAD. Tazama [MtindoWaMaandishi](../text-style/) na [Kidhibiti Fonti](../font-manager/).
+Lebo huhifadhiwa kama vipengee vya **MTEXT**. Nzito na mlalo hutumia `\f`, mstari chini `\L`/`\l`, mstari katikati `\K`/`\k`, na urefu kwa herufi hutumia `\H`. Upana wa marejeo, nafasi ya mistari, mpangilio wa aya, mzunguko na kiambatisho pia huhifadhiwa. Fremu husafirishwa kwa alama ya fremu ya MTEXT na kipimo cha mpaka kinachooana na AutoCAD. Tazama [MtindoWaMaandishi](../../commands/text-style/) na [Kidhibiti Fonti](../../commands/font-manager/).

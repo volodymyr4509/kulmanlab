@@ -43,7 +43,7 @@ Willkommen bei der **KulmanLab CAD** Befehlsreferenz. [KulmanLab CAD](https://ku
 | [Offset](./commands/offset/) | Parallele Kopie eines Elements in einem bestimmten Abstand erstellen |
 | [Fillet](./commands/fillet/) | Ecke zwischen zwei Linien, Bögen oder Polylinien-Segmenten mit einem Tangentenbogen abrunden |
 | [Chamfer](./commands/chamfer/) | Gerade diagonale Ecke zwischen zwei Linien oder Polylinien schneiden |
-| [Explode](./commands/explode/) | Zerlegt eine Polylinie in ihre einzelnen Linien- und Bogenelemente |
+| [Explode](./commands/explode/) | Eine Polylinie in Linien und Bögen zerlegen, oder einen Block in das, was er zeichnet |
 | [Undo](./commands/undo/) | Letzte Aktion rückgängig machen |
 | [Redo](./commands/redo/) | Zuletzt rückgängig gemachte Aktion wiederherstellen |
 | [Array Grid](./commands/array-grid/) | Elemente in einem rechteckigen Raster aus Zeilen und Spalten wiederholen |

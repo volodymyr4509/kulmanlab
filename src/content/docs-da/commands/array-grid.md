@@ -15,7 +15,7 @@ Kommandoen `Gittermønster` laver et gitter af kopier fra de markerede entiteter
 **Markér først, opret derefter array** — markér entiteter først, aktivér derefter:
 
 1. Markér én eller flere entiteter på lærredet.
-2. Skriv `Gittermønster` i terminalen (nogle få bogstaver er nok — vælg den blandt forslagene) eller vælg **Array Grid** i array-rullemenuen i panelet Edit.
+2. Skriv `Gittermønster` i terminalen (et par bogstaver er nok — vælg den blandt forslagene) eller vælg **Array Grid** i rullemenuen i panelet Edit.
 3. Skriv antallet af **rækker** og tryk **Enter**.
 4. Skriv antallet af **kolonner** og tryk **Enter**.
 5. Skriv **afstanden mellem rækker** og tryk **Enter**.
@@ -23,7 +23,7 @@ Kommandoen `Gittermønster` laver et gitter af kopier fra de markerede entiteter
 
 **Aktivér, markér derefter** — start kommandoen uden noget markeret:
 
-1. Skriv `Gittermønster` eller vælg den i array-rullemenuen i panelet Edit.
+1. Skriv `Gittermønster` eller vælg den i rullemenuen i panelet Edit.
 2. **Markér objekter** — klik for at slå enkeltentiteter til/fra, eller træk for at markere efter område.
 3. Tryk **Enter** eller **Space** for at bekræfte markeringen.
 4. Fortsæt med rækker → kolonner → rækkeafstand → kolonneafstand som ovenfor.

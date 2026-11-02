@@ -47,7 +47,7 @@ Tervetuloa **KulmanLab CAD**:in komentoreferenssiin. [KulmanLab CAD](https://kul
 | [Offset](./commands/offset/) | Luo rinnakkainen kopio entiteetistä annetulla etäisyydellä |
 | [Fillet](./commands/fillet/) | Pyöristä kulma kahden viivan, kaaren tai polylinjan segmentin välillä tangenttikaarella |
 | [Chamfer](./commands/chamfer/) | Leikkaa suora diagonaalikulma kahden viivan tai murtoviivan välille |
-| [Explode](./commands/explode/) | Pilkkoo polylinen sen yksittäisiin viivoihin ja kaariin |
+| [Explode](./commands/explode/) | Pura murtoviiva viivoiksi ja kaariksi tai lohko siihen, mitä se piirtää |
 | [Undo](./commands/undo/) | Kumoa viimeisin toiminto |
 | [Redo](./commands/redo/) | Tee viimeisin kumottu toiminto uudelleen |
 

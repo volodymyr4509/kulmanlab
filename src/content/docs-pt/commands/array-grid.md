@@ -15,7 +15,7 @@ O comando `MatrizRetangular` cria uma grade retangular de cópias a partir das e
 **Pré-selecionar, depois array** — selecione as entidades primeiro, depois ative:
 
 1. Selecione uma ou mais entidades no canvas.
-2. Digite `MatrizRetangular` no terminal (algumas letras bastam — escolha-o nas sugestões) ou escolha **Array Grid** no menu suspenso de matrizes do painel Edit.
+2. Digite `MatrizRetangular` no terminal (bastam algumas letras — escolha-o nas sugestões) ou escolha **Array Grid** no menu suspenso do painel Edit.
 3. Digite o número de **linhas** e pressione **Enter**.
 4. Digite o número de **colunas** e pressione **Enter**.
 5. Digite o **espaçamento entre linhas** e pressione **Enter**.
@@ -23,7 +23,7 @@ O comando `MatrizRetangular` cria uma grade retangular de cópias a partir das e
 
 **Ativar, depois selecionar** — inicie o comando sem nada selecionado:
 
-1. Digite `MatrizRetangular` ou escolha-o no menu suspenso de matrizes do painel Edit.
+1. Digite `MatrizRetangular` ou escolha-o no menu suspenso do painel Edit.
 2. **Selecione os objetos** — clique para alternar entidades individuais, ou arraste para selecionar por área.
 3. Pressione **Enter** ou **Espaço** para confirmar a seleção.
 4. Continue com linhas → colunas → espaçamento de linhas → espaçamento de colunas como acima.

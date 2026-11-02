@@ -15,7 +15,7 @@ order: 15
 **Önce seç, sonra array** — nesneleri seçin, ardından etkinleştirin:
 
 1. Tuvalde bir veya daha fazla nesne seçin.
-2. Terminale `DikdörtgenDizi` yazın (birkaç harf yeter — önerilerden seçin) ya da Edit panelindeki dizi açılır menüsünden **Array Grid**'i seçin.
+2. Terminale `DikdörtgenDizi` yazın (birkaç harf yeterli — önerilerden seçin) veya Edit panelinin açılır menüsünden **Array Grid**'i seçin.
 3. **Satır** sayısını yazın ve **Enter** tuşuna basın.
 4. **Sütun** sayısını yazın ve **Enter** tuşuna basın.
 5. **Satırlar arası boşluğu** yazın ve **Enter** tuşuna basın.
@@ -23,7 +23,7 @@ order: 15
 
 **Etkinleştir, sonra seç** — seçim olmadan komutu başlatın:
 
-1. `DikdörtgenDizi` yazın ya da Edit panelindeki dizi açılır menüsünden seçin.
+1. `DikdörtgenDizi` yazın veya Edit panelinin açılır menüsünden seçin.
 2. **Nesneleri seçin** — tek tek nesneleri değiştirmek için tıklayın veya kutu seçimi için sürükleyin.
 3. Seçimi onaylamak için **Enter** veya **Boşluk** tuşuna basın.
 4. Yukarıdaki gibi satırlar → sütunlar → satır boşluğu → sütun boşluğu ile devam edin.

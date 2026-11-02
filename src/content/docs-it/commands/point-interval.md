@@ -12,7 +12,7 @@ Il comando `PuntiAIntervalli` posiziona [punti](../point/) a distanza fissa lung
 
 ## Posizionare punti a intervallo
 
-1. Digita `PuntiAIntervalli` nel terminale o scegli **Point Interval** dal menu a discesa delle matrici nel pannello Edit.
+1. Digita `PuntiAIntervalli` nel terminale o scegli **Point Interval** dal menu a discesa del pannello Edit.
 2. **Fai clic sull’oggetto vicino all’estremità da cui partire**: linea, polilinea, arco, cerchio, ellisse o spline. Qualsiasi altra cosa viene rifiutata e puoi scegliere di nuovo.
 3. **Digita la lunghezza dell’intervallo.** I punti compaiono in anteprima sull’oggetto mentre digiti.
 4. Premi **Enter** o **Space** per posizionarli. Il comando termina.

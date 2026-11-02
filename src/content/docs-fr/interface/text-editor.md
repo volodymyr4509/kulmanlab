@@ -144,4 +144,4 @@ Les sauts de ligne durs et le formatage par caractère sont stockés en utilisan
 
 ## Compatibilité DXF
 
-Les libellés sont stockés sous forme d’entités **MTEXT**. Gras et italique utilisent `\f`, le soulignement `\L`/`\l`, le barré `\K`/`\k` et les hauteurs par caractère `\H`. Largeur de référence, interligne, alignement de paragraphe, rotation et attache sont également conservés. Le cadre est exporté avec l’indicateur MTEXT et une échelle de bord compatible AutoCAD. Voir [StyleTexte](../text-style/) et [Gestionnaire de polices](../font-manager/).
+Les libellés sont stockés sous forme d’entités **MTEXT**. Gras et italique utilisent `\f`, le soulignement `\L`/`\l`, le barré `\K`/`\k` et les hauteurs par caractère `\H`. Largeur de référence, interligne, alignement de paragraphe, rotation et attache sont également conservés. Le cadre est exporté avec l’indicateur MTEXT et une échelle de bord compatible AutoCAD. Voir [StyleTexte](../../commands/text-style/) et [Gestionnaire de polices](../../commands/font-manager/).

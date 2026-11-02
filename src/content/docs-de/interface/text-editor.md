@@ -144,4 +144,4 @@ Harte Zeilenumbrüche und zeichenweise Formatierung werden im MTEXT-Format gespe
 
 ## DXF-Kompatibilität
 
-Textbeschriftungen werden als **MTEXT** gespeichert. Fett und Kursiv verwenden `\f`, Unterstreichen `\L`/`\l`, Durchstreichen `\K`/`\k` und zeichenweise Höhen `\H`. Referenzbreite, Zeilenabstand, Absatzausrichtung, Drehung und Anheftung werden ebenfalls rundgeführt. Ein Textrahmen wird mit dem MTEXT-Rahmenflag und einem AutoCAD-kompatiblen Randmaßstab exportiert. Siehe auch [Textstil](../text-style/) und [Schriftartenmanager](../font-manager/).
+Textbeschriftungen werden als **MTEXT** gespeichert. Fett und Kursiv verwenden `\f`, Unterstreichen `\L`/`\l`, Durchstreichen `\K`/`\k` und zeichenweise Höhen `\H`. Referenzbreite, Zeilenabstand, Absatzausrichtung, Drehung und Anheftung werden ebenfalls rundgeführt. Ein Textrahmen wird mit dem MTEXT-Rahmenflag und einem AutoCAD-kompatiblen Randmaßstab exportiert. Siehe auch [Textstil](../../commands/text-style/) und [Schriftartenmanager](../../commands/font-manager/).

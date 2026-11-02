@@ -12,7 +12,7 @@ De opdracht `PuntenOpAfstand` plaatst [punten](../point/) op vaste afstand langs
 
 ## Punten op een interval
 
-1. Typ `PuntenOpAfstand` in de terminal of kies **Point Interval** in het array-uitklapmenu van het paneel Edit.
+1. Typ `PuntenOpAfstand` in de terminal of kies **Point Interval** in het uitklapmenu van het Edit-paneel.
 2. **Klik op het object bij het uiteinde waar u wilt beginnen** — een lijn, polylijn, boog, cirkel, ellips of spline. Al het andere wordt geweigerd en u kunt opnieuw kiezen.
 3. **Typ de intervallengte.** De punten verschijnen tijdens het typen als voorbeeld op het object.
 4. Druk op **Enter** of **Space** om ze te plaatsen. De opdracht eindigt.

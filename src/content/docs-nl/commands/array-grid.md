@@ -15,7 +15,7 @@ Het commando `RechthoekigeReeks` maakt een rechthoekig raster van kopieën van g
 **Eerst selecteren, dan array** — selecteer eerst entiteiten en activeer daarna:
 
 1. Selecteer een of meer entiteiten op het canvas.
-2. Typ `RechthoekigeReeks` in de terminal (een paar letters volstaan — kies hem uit de suggesties) of kies **Array Grid** in het array-uitklapmenu van het paneel Edit.
+2. Typ `RechthoekigeReeks` in de terminal (een paar letters volstaan — kies het uit de suggesties) of kies **Array Grid** in het uitklapmenu van het Edit-paneel.
 3. Typ het aantal **rijen** en druk op **Enter**.
 4. Typ het aantal **kolommen** en druk op **Enter**.
 5. Typ de **tussenruimte tussen rijen** en druk op **Enter**.
@@ -23,7 +23,7 @@ Het commando `RechthoekigeReeks` maakt een rechthoekig raster van kopieën van g
 
 **Eerst activeren, dan selecteren** — start het commando zonder dat er iets geselecteerd is:
 
-1. Typ `RechthoekigeReeks` of kies hem in het array-uitklapmenu van het paneel Edit.
+1. Typ `RechthoekigeReeks` of kies het in het uitklapmenu van het Edit-paneel.
 2. **Selecteer objecten** — klik om afzonderlijke entiteiten aan/uit te zetten, of sleep om per gebied te selecteren.
 3. Druk op **Enter** of **Spatie** om de selectie te bevestigen.
 4. Ga verder met rijen → kolommen → rijafstand → kolomafstand zoals hierboven.

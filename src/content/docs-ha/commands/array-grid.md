@@ -15,7 +15,7 @@ Umarnin `JerinGrid` yana ƙirƙirar grid mai kusurwa huɗu na kwafi daga abubuwa
 **Zaɓi tukuna, sannan array** — zaɓi abubuwa tukuna, sannan kunna:
 
 1. Zaɓi wani abu ɗaya ko fiye a kan canvas.
-2. Rubuta `JerinGrid` a tashar umarni (harufa kaɗan sun isa — zaɓe shi daga shawarwari) ko ka zaɓi **Array Grid** daga jerin zaɓin array a kwamitin Edit.
+2. Rubuta `JerinGrid` a tashar umarni (haruffa kaɗan sun isa — zaɓe shi daga shawarwari) ko zaɓi **Array Grid** daga jerin zaɓin kwamitin Edit.
 3. Rubuta adadin **layuka** ka danna **Enter**.
 4. Rubuta adadin **ginshiƙai** ka danna **Enter**.
 5. Rubuta **tazara tsakanin layuka** ka danna **Enter**.
@@ -23,7 +23,7 @@ Umarnin `JerinGrid` yana ƙirƙirar grid mai kusurwa huɗu na kwafi daga abubuwa
 
 **Kunna, sannan zaɓi** — fara umarnin ba tare da zaɓi ba:
 
-1. Rubuta `JerinGrid` ko ka zaɓe shi daga jerin zaɓin array a kwamitin Edit.
+1. Rubuta `JerinGrid` ko zaɓe shi daga jerin zaɓin kwamitin Edit.
 2. **Zaɓi abubuwa** — danna don canza zaɓi na kowane abu, ko ja don zaɓi ta yanki.
 3. Danna **Enter** ko **Space** don tabbatar da zaɓi.
 4. Ci gaba da layuka → ginshiƙai → tazarar layi → tazarar ginshiƙi kamar yadda ke sama.

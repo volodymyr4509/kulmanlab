@@ -43,7 +43,7 @@ Välkommen till **KulmanLab CAD**-kommandoreferensen. [KulmanLab CAD](https://ku
 | [Offset](./commands/offset/) | Skapa en parallell kopia av en entitet på ett givet avstånd |
 | [Fillet](./commands/fillet/) | Runda ett hörn mellan två linjer, bågar eller polylinjesegment med en tangentiell båge |
 | [Chamfer](./commands/chamfer/) | Skär av ett rakt diagonalt hörn mellan två linjer eller polylinjer |
-| [Explode](./commands/explode/) | Delar upp en polylinje i dess enskilda linjer och bågar |
+| [Explode](./commands/explode/) | Dela upp en polylinje i linjer och bågar, eller ett block i det det ritar |
 | [Undo](./commands/undo/) | Ångra den senaste åtgärden |
 | [Redo](./commands/redo/) | Gör om den senast ångrade åtgärden |
 | [Array Grid](./commands/array-grid/) | Upprepa entiteter i ett rektangulärt rutnät av rader och kolumner |

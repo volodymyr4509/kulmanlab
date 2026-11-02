@@ -1,6 +1,6 @@
 ---
 title: Import — Buɗe Fayilolin DXF ko JSON a KulmanLab CAD
-description: Yi amfani da umarnin Import don buɗe fayilolin DXF ko JSON na KulmanLab a KulmanLab CAD. Yana goyon bayan layuka, da'irori, baka, polylines, splines, rubutu, girma-girma, da leaders.
+description: "Yi amfani da umarnin Import don buɗe fayilolin DXF ko KulmanLab JSON a KulmanLab CAD. Yana goyon bayan layuka, da'irori, baka, ellipse, polyline, spline, maki, rubutu, girma-girma, leader, hatch, solid da block references."
 keywords: [shigo da fayil na DXF, buɗe DXF a burauza, shigo da fayil na CAD ta kan layi, buɗe fayil na DXF, mai kallon DXF na burauza, shigo da JSON CAD, KulmanLab import, mai kallon DXF na CAD kyauta, loda zane, DXF zuwa burauza]
 group: file
 order: 1

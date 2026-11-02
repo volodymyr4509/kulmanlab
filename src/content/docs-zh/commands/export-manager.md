@@ -1,6 +1,6 @@
 ---
 title: Export Manager — 将图形下载为 DXF 或 JSON
-description: 将图纸下载为 DXF 或 JSON，按实体类型勾选哪些内容进入文件。两种格式都承载几何、文字、标注、引线和填充，连同图层和线型。
+description: "将当前图纸下载为 DXF 或 JSON，按图元类型勾选要包含的内容。两种格式都包含几何图形、文字、标注、引线、填充、实体填充和块参照，以及图层和线型。"
 keywords: [CAD DXF 导出, CAD 文件导出, 浏览器下载 DXF, 在线保存 DXF, JSON CAD 导出, KulmanLab 导出, 下载 CAD 文件, DXF 导出, 将图形保存为文件, DXF 下载]
 group: file
 order: 6

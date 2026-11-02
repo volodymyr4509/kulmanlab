@@ -1,6 +1,6 @@
 ---
 title: Import — otevření souborů DXF nebo JSON v KulmanLab CAD
-description: Pomocí příkazu Import otevřete soubory DXF nebo JSON KulmanLab v KulmanLab CAD. Podporuje úsečky, kružnice, oblouky, polyline, splajny, text, kóty a odkazové čáry.
+description: "Příkazem Import otevřete soubory DXF nebo KulmanLab JSON v KulmanLab CAD. Podporuje úsečky, kružnice, oblouky, elipsy, polylinie, spline, body, text, kóty, odkazové čáry, šrafy, výplně SOLID a reference bloků."
 keywords: [import souboru DXF, otevření DXF v prohlížeči, import CAD souboru online, otevření souboru DXF, prohlížeč DXF v prohlížeči, import JSON CAD, import KulmanLab, bezplatný CAD prohlížeč DXF, načtení výkresu, DXF do prohlížeče]
 group: file
 order: 1

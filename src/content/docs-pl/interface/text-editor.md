@@ -144,4 +144,4 @@ Twarde podziały wierszy i formatowanie poszczególnych znaków są przechowywan
 
 ## Zgodność z DXF
 
-Etykiety są zapisywane jako encje **MTEXT**. Pogrubienie i kursywa używają `\f`, podkreślenie `\L`/`\l`, przekreślenie `\K`/`\k`, a wysokości znaków `\H`. Zachowywane są również szerokość odniesienia, interlinia, wyrównanie akapitu, obrót i punkt zaczepienia. Ramka jest eksportowana z flagą MTEXT i skalą obramowania zgodną z AutoCAD. Zobacz [StylTekstu](../text-style/) i [Menedżer czcionek](../font-manager/).
+Etykiety są zapisywane jako encje **MTEXT**. Pogrubienie i kursywa używają `\f`, podkreślenie `\L`/`\l`, przekreślenie `\K`/`\k`, a wysokości znaków `\H`. Zachowywane są również szerokość odniesienia, interlinia, wyrównanie akapitu, obrót i punkt zaczepienia. Ramka jest eksportowana z flagą MTEXT i skalą obramowania zgodną z AutoCAD. Zobacz [StylTekstu](../../commands/text-style/) i [Menedżer czcionek](../../commands/font-manager/).

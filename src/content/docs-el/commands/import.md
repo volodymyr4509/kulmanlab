@@ -1,6 +1,6 @@
 ---
 title: Import — Άνοιγμα Αρχείων DXF ή JSON στο KulmanLab CAD
-description: Χρησιμοποιήστε την εντολή Import για άνοιγμα αρχείων DXF ή KulmanLab JSON στο KulmanLab CAD. Υποστηρίζει lines, circles, arcs, polylines, splines, text, dimensions και leaders.
+description: "Χρησιμοποιήστε την εντολή Import για να ανοίξετε αρχεία DXF ή JSON του KulmanLab στο KulmanLab CAD. Υποστηρίζει γραμμές, κύκλους, τόξα, ελλείψεις, πολυγραμμές, splines, σημεία, κείμενο, διαστάσεις, οδηγούς, διαγραμμίσεις, συμπαγή και αναφορές μπλοκ."
 keywords: [εισαγωγή αρχείου DXF, άνοιγμα DXF σε browser, εισαγωγή αρχείου CAD online, άνοιγμα αρχείου DXF, DXF viewer browser, εισαγωγή JSON CAD, KulmanLab import, δωρεάν CAD DXF viewer, φόρτωση σχεδίου, DXF σε browser]
 group: file
 order: 1

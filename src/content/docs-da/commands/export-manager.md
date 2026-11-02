@@ -1,6 +1,6 @@
 ---
 title: Export Manager — Download tegninger som DXF eller JSON
-description: Hent tegningen som DXF eller JSON, og vælg pr. elementtype hvad der kommer med. Begge bærer geometri, tekst, mål, henvisninger, skraveringer, lag og linjetyper.
+description: "Download den aktuelle tegning som DXF eller JSON, og sæt flueben pr. entitetstype ved det, der skal med. Begge indeholder geometri, tekst, mål, ledere, skraveringer, solider og blokreferencer samt lag og linjetyper."
 keywords: [eksportér DXF, eksportér CAD-fil, download DXF i browser, gem DXF online, eksportér JSON CAD, KulmanLab eksport, download CAD-fil, DXF-eksport, gem tegning som fil, DXF-download]
 group: file
 order: 6

@@ -12,7 +12,7 @@ Der Befehl `PunkteImAbstand` setzt [Punkte](../point/) in festem Abstand entlang
 
 ## Punkte im Abstand setzen
 
-1. Geben Sie `PunkteImAbstand` im Terminal ein oder wählen Sie **Point Interval** im Array-Dropdown des Panels Edit.
+1. Geben Sie `PunkteImAbstand` im Terminal ein oder wählen Sie **Point Interval** im Dropdown des Edit-Panels.
 2. **Klicken Sie auf das Objekt nahe dem Ende, an dem begonnen wird** — eine Linie, Polylinie, einen Bogen, Kreis, eine Ellipse oder einen Spline. Alles andere wird abgelehnt, und Sie können erneut wählen.
 3. **Geben Sie die Abstandslänge ein.** Die Punkte erscheinen beim Tippen in der Vorschau auf dem Objekt.
 4. Drücken Sie **Enter** oder **Space**, um sie zu setzen. Der Befehl endet.

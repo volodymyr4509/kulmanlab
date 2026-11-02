@@ -144,4 +144,4 @@ Jeda baris keras dan pemformatan per karakter disimpan menggunakan format MTEXT 
 
 ## Kompatibilitas DXF
 
-Label disimpan sebagai entitas **MTEXT**. Tebal dan miring memakai `\f`, garis bawah `\L`/`\l`, coret `\K`/`\k`, dan tinggi per karakter memakai `\H`. Lebar referensi, jarak baris, perataan paragraf, rotasi, dan titik lampiran juga dipertahankan. Bingkai diekspor dengan flag bingkai MTEXT dan skala batas yang kompatibel dengan AutoCAD. Lihat [GayaTeks](../text-style/) dan [Pengelola Font](../font-manager/).
+Label disimpan sebagai entitas **MTEXT**. Tebal dan miring memakai `\f`, garis bawah `\L`/`\l`, coret `\K`/`\k`, dan tinggi per karakter memakai `\H`. Lebar referensi, jarak baris, perataan paragraf, rotasi, dan titik lampiran juga dipertahankan. Bingkai diekspor dengan flag bingkai MTEXT dan skala batas yang kompatibel dengan AutoCAD. Lihat [GayaTeks](../../commands/text-style/) dan [Pengelola Font](../../commands/font-manager/).

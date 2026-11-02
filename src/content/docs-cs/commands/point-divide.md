@@ -12,7 +12,7 @@ Příkaz `RozdělitBody` umístí [body](../point/), které rozdělí objekt na 
 
 ## Rozdělení objektu
 
-1. Napište `RozdělitBody` do terminálu nebo zvolte **Point Divide** z rozbalovací nabídky polí v panelu Edit.
+1. Napište `RozdělitBody` do terminálu nebo zvolte **Point Divide** v rozbalovací nabídce panelu Edit.
 2. **Klikněte na objekt** — úsečku, polylinii, oblouk, kružnici, elipsu nebo spline. Cokoli jiného se odmítne a můžete vybrat znovu.
 3. **Napište počet úseků**, celé číslo od 2 do 32767. Body se při psaní zobrazují na objektu.
 4. Stisknutím **Enter** nebo **Space** je umístíte. Příkaz skončí.

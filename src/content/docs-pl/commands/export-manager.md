@@ -1,6 +1,6 @@
 ---
 title: Export Manager — Pobierz Rysunki jako DXF lub JSON
-description: Pobierz rysunek jako DXF lub JSON, zaznaczając wedle typu obiektu, co ma się w nim znaleźć. Oba niosą geometrię, tekst, wymiary, odnośniki i kreskowania.
+description: "Pobierz bieżący rysunek jako DXF lub JSON, zaznaczając dla każdego typu obiektu, co ma trafić do pliku. Oba zawierają geometrię, tekst, wymiary, odnośniki, kreskowania, bryły i odniesienia do bloków, a także warstwy i rodzaje linii."
 keywords: [eksport DXF, eksport pliku CAD, pobierz DXF przeglądarka, zapisz DXF online, eksport JSON CAD, eksport KulmanLab, pobierz plik CAD, eksport DXF, zapisz rysunek do pliku, pobieranie DXF]
 group: file
 order: 6

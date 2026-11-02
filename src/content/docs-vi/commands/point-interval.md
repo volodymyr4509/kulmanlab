@@ -12,7 +12,7 @@ Lệnh `ĐiểmTheoKhoảng` đặt các [điểm](../point/) cách nhau một k
 
 ## Đặt điểm theo khoảng
 
-1. Gõ `ĐiểmTheoKhoảng` trong terminal hoặc chọn **Point Interval** từ menu thả xuống của mảng trong bảng Edit.
+1. Gõ `ĐiểmTheoKhoảng` trong terminal hoặc chọn **Point Interval** từ menu thả xuống trong bảng Edit.
 2. **Nhấp vào đối tượng gần đầu mút muốn bắt đầu** — đường thẳng, polyline, cung, đường tròn, elip hoặc spline. Thứ khác bị từ chối và bạn có thể chọn lại.
 3. **Gõ độ dài khoảng.** Các điểm được xem trước trên đối tượng khi bạn gõ.
 4. Nhấn **Enter** hoặc **Space** để đặt chúng. Lệnh kết thúc.

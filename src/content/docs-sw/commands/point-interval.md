@@ -12,7 +12,7 @@ Amri ya `NuktaKwaVipindi` huweka [nukta](../point/) kwa umbali uliowekwa kando y
 
 ## Kuweka nukta kwa vipindi
 
-1. Andika `NuktaKwaVipindi` kwenye terminal au chagua **Point Interval** kutoka menyu kunjuzi ya array kwenye paneli ya Edit.
+1. Andika `NuktaKwaVipindi` kwenye terminal au chagua **Point Interval** kutoka menyu kunjuzi kwenye paneli ya Edit.
 2. **Bofya kitu karibu na ncha ya kuanzia** — mstari, polyline, tao, duara, elipsi au spline. Kingine chochote hukataliwa, na unaweza kuchagua tena.
 3. **Andika urefu wa kipindi.** Nukta huonyeshwa kwenye kitu unapoandika.
 4. Bonyeza **Enter** au **Space** kuziweka. Amri huisha.

@@ -735,7 +735,7 @@ The `ArrayGrid` command creates a rectangular grid of copies from the selected e
 **Pre-select, then array** — select entities first, then activate:
 
 1. Select one or more entities on the canvas.
-2. Type `arraygrid` in the terminal (a few letters are enough — pick it from the suggestions) or choose **Array Grid** from the array dropdown in the Edit panel.
+2. Type `arraygrid` in the terminal (a few letters are enough — pick it from the suggestions) or choose **Array Grid** from the dropdown in the Edit panel.
 3. Type the number of **rows** and press **Enter**.
 4. Type the number of **columns** and press **Enter**.
 5. Type the **spacing between rows** and press **Enter**.
@@ -743,7 +743,7 @@ The `ArrayGrid` command creates a rectangular grid of copies from the selected e
 
 **Activate, then select** — start the command with nothing selected:
 
-1. Type `arraygrid` or choose it from the array dropdown in the Edit panel.
+1. Type `arraygrid` or choose it from the dropdown in the Edit panel.
 2. **Select objects** — click to toggle individual entities, or drag to select by area.
 3. Press **Enter** or **Space** to confirm the selection.
 4. Continue with rows → columns → row spacing → column spacing as above.
@@ -814,7 +814,7 @@ The `ArrayPolar` command makes copies of the selected objects round a center poi
 
 ## Drawing a polar array
 
-1. Select the objects, then type `arraypolar` in the terminal or click the **Array Polar** toolbar button. Started with nothing selected, it asks you to select them first — press **Enter** or **Space** to confirm.
+1. Select the objects, then type `arraypolar` in the terminal or choose **Array Polar** from the dropdown in the Edit panel. Started with nothing selected, it asks you to select them first — press **Enter** or **Space** to confirm.
 2. **Click the center** the copies go round, or type `X,Y` and press **Enter** for an exact coordinate.
 3. Review the array. All the copies preview live, and the terminal shows `Change [Items=6] [Angle=60°] [Fill=360°] [Rotate=true]` — press an option's letter to change it.
 4. Press **Enter** or **Space** to create the copies. The originals stay where they are and the selection is cleared.
@@ -4114,7 +4114,7 @@ The `pointdivide` command places [points](https://kulmanlab.com/docs/commands/po
 
 ## Dividing an object
 
-1. Type `pointdivide` in the terminal or choose **Point Divide** from the array dropdown in the Edit panel.
+1. Type `pointdivide` in the terminal or choose **Point Divide** from the dropdown in the Edit panel.
 2. **Click the object** — a line, polyline, arc, circle, ellipse or spline. Anything else is refused, and you can pick again.
 3. **Type the number of segments**, a whole number from 2 to 32767. The points preview on the object as you type.
 4. Press **Enter** or **Space** to place them. The command ends.
@@ -4141,7 +4141,7 @@ The `pointinterval` command places [points](https://kulmanlab.com/docs/commands/
 
 ## Placing points at an interval
 
-1. Type `pointinterval` in the terminal or choose **Point Interval** from the array dropdown in the Edit panel.
+1. Type `pointinterval` in the terminal or choose **Point Interval** from the dropdown in the Edit panel.
 2. **Click the object near the end to start from** — a line, polyline, arc, circle, ellipse or spline. Anything else is refused, and you can pick again.
 3. **Type the interval length.** The points preview on the object as you type.
 4. Press **Enter** or **Space** to place them. The command ends.

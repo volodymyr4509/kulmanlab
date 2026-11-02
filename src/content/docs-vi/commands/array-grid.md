@@ -15,7 +15,7 @@ Lệnh `MảngChữNhật` tạo một lưới hình chữ nhật gồm các b�
 **Chọn trước, rồi array** — chọn đối tượng trước, sau đó kích hoạt:
 
 1. Chọn một hoặc nhiều đối tượng trên canvas.
-2. Gõ `MảngChữNhật` trong terminal (vài chữ cái là đủ — chọn nó từ gợi ý) hoặc chọn **Array Grid** từ menu thả xuống của mảng trong bảng Edit.
+2. Gõ `MảngChữNhật` trong terminal (vài chữ cái là đủ — chọn từ gợi ý) hoặc chọn **Array Grid** từ menu thả xuống trong bảng Edit.
 3. Nhập số **hàng** và nhấn **Enter**.
 4. Nhập số **cột** và nhấn **Enter**.
 5. Nhập **khoảng cách giữa các hàng** và nhấn **Enter**.
@@ -23,7 +23,7 @@ Lệnh `MảngChữNhật` tạo một lưới hình chữ nhật gồm các b�
 
 **Kích hoạt, rồi chọn** — bắt đầu lệnh khi không có gì được chọn:
 
-1. Gõ `MảngChữNhật` hoặc chọn từ menu thả xuống của mảng trong bảng Edit.
+1. Gõ `MảngChữNhật` hoặc chọn từ menu thả xuống trong bảng Edit.
 2. **Chọn đối tượng** — bấm để chuyển đổi từng đối tượng, hoặc kéo để chọn theo vùng.
 3. Nhấn **Enter** hoặc **Space** để xác nhận chọn.
 4. Tiếp tục với hàng → cột → khoảng cách hàng → khoảng cách cột như trên.

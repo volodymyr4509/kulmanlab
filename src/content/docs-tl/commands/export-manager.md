@@ -1,6 +1,6 @@
 ---
 title: Export Manager — I-download ang mga Drawing bilang DXF o JSON
-description: I-download ang guhit bilang DXF o JSON, tinitikan ayon sa uri ng entity kung ano ang isasama. Dala ng dalawa ang heometriya, teksto, sukat, leader at hatch.
+description: "I-download ang kasalukuyang drawing bilang DXF o JSON, pinipili kada uri ng entity kung ano ang isasama. Parehong dala ang geometry, text, dimension, leader, hatch, solid at block reference, pati mga layer at linetype."
 keywords: [export DXF, export CAD file, i-download ang DXF sa browser, i-save ang DXF online, export JSON CAD, KulmanLab export, i-download ang CAD file, DXF export, i-save ang drawing sa file, DXF download]
 group: file
 order: 6

@@ -15,7 +15,7 @@ Arahan `LarikGrid` mencipta grid segi empat tepat salinan daripada entiti yang d
 **Pra-pilih, kemudian array** — pilih entiti dahulu, kemudian aktifkan:
 
 1. Pilih satu atau lebih entiti pada kanvas.
-2. Taip `LarikGrid` dalam terminal (beberapa huruf sudah cukup — pilih daripada cadangan) atau pilih **Array Grid** daripada juntai bawah tatasusunan dalam panel Edit.
+2. Taip `LarikGrid` dalam terminal (beberapa huruf sudah cukup — pilih daripada cadangan) atau pilih **Array Grid** daripada juntai bawah dalam panel Edit.
 3. Taip bilangan **baris** dan tekan **Enter**.
 4. Taip bilangan **lajur** dan tekan **Enter**.
 5. Taip **jarak antara baris** dan tekan **Enter**.
@@ -23,7 +23,7 @@ Arahan `LarikGrid` mencipta grid segi empat tepat salinan daripada entiti yang d
 
 **Aktifkan, kemudian pilih** — mulakan arahan tanpa apa-apa yang dipilih:
 
-1. Taip `LarikGrid` atau pilihnya daripada juntai bawah tatasusunan dalam panel Edit.
+1. Taip `LarikGrid` atau pilih daripada juntai bawah dalam panel Edit.
 2. **Pilih objek** — klik untuk togel entiti individu, atau seret untuk memilih mengikut kawasan.
 3. Tekan **Enter** atau **Space** untuk mengesahkan pemilihan.
 4. Teruskan dengan baris → lajur → jarak baris → jarak lajur seperti di atas.

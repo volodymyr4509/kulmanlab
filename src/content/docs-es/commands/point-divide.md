@@ -12,7 +12,7 @@ El comando `DividirConPuntos` coloca [puntos](../point/) que dividen un objeto e
 
 ## Dividir un objeto
 
-1. Escribe `DividirConPuntos` en el terminal o elige **Point Divide** en el desplegable de matrices del panel Edit.
+1. Escribe `DividirConPuntos` en el terminal o elige **Point Divide** en el desplegable del panel Edit.
 2. **Haz clic en el objeto**: una línea, polilínea, arco, círculo, elipse o spline. Cualquier otra cosa se rechaza y puedes volver a elegir.
 3. **Escribe el número de tramos**, un entero de 2 a 32767. Los puntos se previsualizan sobre el objeto mientras escribes.
 4. Pulsa **Enter** o **Space** para colocarlos. El comando termina.

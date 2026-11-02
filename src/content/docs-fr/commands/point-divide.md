@@ -12,7 +12,7 @@ La commande `DiviserParPoints` place des [points](../point/) qui divisent un obj
 
 ## Diviser un objet
 
-1. Tapez `DiviserParPoints` dans le terminal ou choisissez **Point Divide** dans le menu déroulant des réseaux du panneau Edit.
+1. Tapez `DiviserParPoints` dans le terminal ou choisissez **Point Divide** dans le menu déroulant du panneau Edit.
 2. **Cliquez sur l’objet** — une ligne, polyligne, un arc, cercle, une ellipse ou une spline. Tout autre objet est refusé, et vous pouvez choisir à nouveau.
 3. **Tapez le nombre de segments**, un entier de 2 à 32767. Les points s’affichent en aperçu sur l’objet pendant la saisie.
 4. Appuyez sur **Entrée** ou **Espace** pour les placer. La commande se termine.

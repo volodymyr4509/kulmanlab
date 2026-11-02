@@ -1,6 +1,6 @@
 ---
 title: Export-Manager — Zeichnungen als DXF oder JSON herunterladen
-description: Die Zeichnung als DXF oder JSON laden, je Elementtyp ankreuzen, was hineinkommt. Beide tragen Geometrie, Text, Bemaßungen, Leader, Schraffuren, Layer und Linientypen.
+description: "Laden Sie die aktuelle Zeichnung als DXF oder JSON herunter und haken Sie je Entitätstyp an, was hinein soll. Beide enthalten Geometrie, Text, Bemaßungen, Führungslinien, Schraffuren, Solids und Blockreferenzen sowie Layer und Linientypen."
 keywords: [DXF exportieren, CAD-Datei exportieren, DXF im Browser herunterladen, DXF online speichern, JSON-CAD exportieren, KulmanLab Export, CAD-Datei herunterladen, DXF-Export, Zeichnung in Datei speichern, DXF-Download]
 group: file
 order: 6

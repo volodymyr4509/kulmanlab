@@ -1,6 +1,6 @@
 ---
 title: Export Manager — Tải xuống Bản vẽ dưới dạng DXF hoặc JSON
-description: Tải bản vẽ dưới dạng DXF hoặc JSON, tích chọn theo từng loại đối tượng những gì sẽ vào tệp. Cả hai đều mang hình học, chữ, kích thước và mặt cắt gạch.
+description: "Tải bản vẽ hiện tại dưới dạng DXF hoặc JSON, đánh dấu theo từng loại thực thể những gì được đưa vào. Cả hai đều chứa hình học, văn bản, kích thước, đường dẫn, mặt cắt, solid và tham chiếu khối, cùng layer và kiểu đường."
 keywords: [xuất DXF, xuất tệp CAD, tải DXF trình duyệt, lưu DXF trực tuyến, xuất JSON CAD, xuất KulmanLab, tải tệp CAD, xuất DXF, lưu bản vẽ vào tệp, tải DXF]
 group: file
 order: 6

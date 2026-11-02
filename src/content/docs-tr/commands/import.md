@@ -1,6 +1,6 @@
 ---
 title: Import — KulmanLab CAD'de DXF veya JSON Dosyası Aç
-description: DXF veya KulmanLab JSON dosyalarını KulmanLab CAD'de açmak için Import komutunu kullanın. Çizgiler, daireler, yaylar, çoklu çizgiler, spline'lar, metinler, ölçüler ve göstergeleri destekler.
+description: "KulmanLab CAD'de DXF veya KulmanLab JSON dosyalarını açmak için Import komutunu kullanın. Çizgi, daire, yay, elips, polyline, spline, nokta, metin, ölçü, açıklama çizgisi, tarama, dolgulu katı ve blok referanslarını destekler."
 keywords: [DXF dosyasını içe aktar, tarayıcıda DXF aç, çevrimiçi CAD dosyası içe aktar, DXF dosyası aç, DXF görüntüleyici tarayıcı, JSON CAD içe aktar, KulmanLab import, ücretsiz CAD DXF görüntüleyici, çizim yükle, DXF tarayıcıya]
 group: file
 order: 1

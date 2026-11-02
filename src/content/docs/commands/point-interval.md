@@ -12,7 +12,7 @@ The `pointinterval` command places [points](../point/) a set length apart along 
 
 ## Placing points at an interval
 
-1. Type `pointinterval` in the terminal or choose **Point Interval** from the array dropdown in the Edit panel.
+1. Type `pointinterval` in the terminal or choose **Point Interval** from the dropdown in the Edit panel.
 2. **Click the object near the end to start from** — a line, polyline, arc, circle, ellipse or spline. Anything else is refused, and you can pick again.
 3. **Type the interval length.** The points preview on the object as you type.
 4. Press **Enter** or **Space** to place them. The command ends.

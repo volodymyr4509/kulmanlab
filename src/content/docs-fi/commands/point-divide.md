@@ -12,7 +12,7 @@ order: 17
 
 ## Objektin jakaminen
 
-1. Kirjoita `JaaPisteillä` terminaaliin tai valitse **Point Divide** Edit-paneelin ruudukko-pudotusvalikosta.
+1. Kirjoita `JaaPisteillä` terminaaliin tai valitse **Point Divide** Edit-paneelin pudotusvalikosta.
 2. **Napsauta objektia** — jana, murtoviiva, kaari, ympyrä, ellipsi tai spline. Muut hylätään, ja voit valita uudelleen.
 3. **Kirjoita osien määrä**, kokonaisluku 2–32767. Pisteet näkyvät objektilla esikatseluna kirjoittaessasi.
 4. Sijoita ne painamalla **Enter** tai **Space**. Komento päättyy.

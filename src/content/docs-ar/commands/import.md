@@ -1,6 +1,6 @@
 ---
 title: أمر Import — فتح ملفات DXF أو JSON في KulmanLab CAD
-description: استخدم أمر Import لفتح ملفات DXF أو JSON الخاصة بـ KulmanLab في KulmanLab CAD. يدعم الخطوط والدوائر والأقواس والخطوط المتعددة والمنحنيات والنصوص والأبعاد وخطوط الإشارة.
+description: "استخدم أمر Import لفتح ملفات DXF أو JSON الخاصة بـ KulmanLab في KulmanLab CAD. يدعم الخطوط والدوائر والأقواس والقطوع الناقصة وpolylines والمنحنيات والنقاط والنصوص والأبعاد وخطوط الإشارة والتهشير والمصمتات ومراجع الكتل."
 keywords: [استيراد ملف DXF, فتح DXF في المتصفح, استيراد ملف CAD عبر الإنترنت, فتح ملف DXF, مشاهد DXF في المتصفح, استيراد JSON CAD, استيراد KulmanLab, مشاهد DXF مجاني, تحميل رسم, DXF إلى المتصفح]
 group: file
 order: 1

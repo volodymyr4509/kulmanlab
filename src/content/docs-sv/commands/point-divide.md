@@ -12,7 +12,7 @@ Kommandot `DelaMedPunkter` placerar [punkter](../point/) som delar ett objekt i 
 
 ## Dela ett objekt
 
-1. Skriv `DelaMedPunkter` i terminalen eller välj **Point Divide** i matrisrullgardinen i panelen Edit.
+1. Skriv `DelaMedPunkter` i terminalen eller välj **Point Divide** i rullgardinsmenyn i panelen Edit.
 2. **Klicka på objektet** — en linje, polylinje, båge, cirkel, ellips eller spline. Allt annat avvisas, och du kan välja igen.
 3. **Skriv antalet delar**, ett heltal från 2 till 32767. Punkterna förhandsvisas på objektet medan du skriver.
 4. Tryck **Enter** eller **Space** för att placera dem. Kommandot avslutas.

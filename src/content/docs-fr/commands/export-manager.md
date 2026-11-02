@@ -1,6 +1,6 @@
 ---
 title: Gestionnaire d'exportation — Télécharger des Dessins en DXF ou JSON
-description: Téléchargez le dessin en DXF ou en JSON en cochant, par type d'entité, ce qui y entre. Les deux emportent géométrie, texte, cotations, repères et hachures.
+description: "Téléchargez le dessin courant en DXF ou JSON, en cochant par type d’entité ce qui y va. Les deux contiennent géométrie, texte, cotes, repères, hachures, solides et références de bloc, ainsi que calques et types de ligne."
 keywords: [exporter DXF, exporter fichier CAO, télécharger DXF navigateur, enregistrer DXF en ligne, exporter JSON CAO, export KulmanLab, télécharger fichier CAO, export DXF, enregistrer dessin en fichier, téléchargement DXF]
 group: file
 order: 6

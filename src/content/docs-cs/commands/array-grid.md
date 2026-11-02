@@ -15,7 +15,7 @@ Příkaz `ArrayGrid` vytvoří obdélníkovou mřížku kopií z vybraných obje
 **Nejdřív vybrat, pak vytvořit pole** — nejprve vyberte objekty a potom příkaz spusťte:
 
 1. Vyberte na plátně jeden nebo více objektů.
-2. Napište `arraygrid` do terminálu (stačí pár písmen — vyberte ho z nabídky) nebo zvolte **Array Grid** z rozbalovací nabídky polí v panelu Edit.
+2. Napište `arraygrid` do terminálu (stačí pár písmen — vyberte ho z návrhů) nebo zvolte **Array Grid** v rozbalovací nabídce panelu Edit.
 3. Napište počet **řádků** a stiskněte **Enter**.
 4. Napište počet **sloupců** a stiskněte **Enter**.
 5. Napište **rozteč mezi řádky** a stiskněte **Enter**.
@@ -23,7 +23,7 @@ Příkaz `ArrayGrid` vytvoří obdélníkovou mřížku kopií z vybraných obje
 
 **Nejdřív spustit, pak vybrat** — příkaz spusťte bez výběru:
 
-1. Napište `arraygrid` nebo ho zvolte z rozbalovací nabídky polí v panelu Edit.
+1. Napište `arraygrid` nebo ho zvolte v rozbalovací nabídce panelu Edit.
 2. **Vyberte objekty** — kliknutím přepínáte jednotlivé objekty, tažením vybíráte podle oblasti.
 3. Výběr potvrďte stisknutím **Enter** nebo **Space**.
 4. Pokračujte řádky → sloupce → rozteč řádků → rozteč sloupců jako výše.

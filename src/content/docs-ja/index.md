@@ -43,7 +43,7 @@ order: 1
 | [Offset](./commands/offset/) | 指定距離で平行コピーを作成する |
 | [Fillet](./commands/fillet/) | 2 直線・円弧・ポリラインセグメントの角を接線円弧で丸める |
 | [Chamfer](./commands/chamfer/) | 2 直線またはポリラインの角を斜め直線で切り取る |
-| [Explode](./commands/explode/) | ポリラインを個々の直線と円弧に分解する |
+| [Explode](./commands/explode/) | ポリラインを線と円弧に、ブロックを描かれている図形に分解 |
 | [Undo](./commands/undo/) | 直前の操作を取り消す |
 | [Redo](./commands/redo/) | 取り消した操作をやり直す |
 | [Array Grid](./commands/array-grid/) | 選択エンティティを行と列の長方形グリッドに複製する |

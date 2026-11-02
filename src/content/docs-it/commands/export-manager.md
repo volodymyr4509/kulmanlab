@@ -1,6 +1,6 @@
 ---
 title: Export Manager — Scaricare Disegni come DXF o JSON
-description: Scarica il disegno come DXF o JSON, spuntando per tipo di entità che cosa ci finisce. Entrambi portano geometria, testo, quote, direttrici e campiture.
+description: "Scarica il disegno corrente come DXF o JSON, spuntando per tipo di entità cosa includere. Entrambi contengono geometria, testo, quote, guide, tratteggi, solidi e riferimenti a blocco, oltre a layer e tipi di linea."
 keywords: [esporta DXF, esporta file CAD, scarica DXF browser, salva DXF online, esporta JSON CAD, esportazione KulmanLab, scarica file CAD, esportazione DXF, salva disegno su file, download DXF]
 group: file
 order: 6

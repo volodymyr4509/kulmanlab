@@ -12,7 +12,7 @@ El comando `PuntosPorIntervalo` coloca [puntos](../point/) a una distancia fija 
 
 ## Colocar puntos a intervalos
 
-1. Escribe `PuntosPorIntervalo` en el terminal o elige **Point Interval** en el desplegable de matrices del panel Edit.
+1. Escribe `PuntosPorIntervalo` en el terminal o elige **Point Interval** en el desplegable del panel Edit.
 2. **Haz clic en el objeto cerca del extremo desde el que empezar**: una línea, polilínea, arco, círculo, elipse o spline. Cualquier otra cosa se rechaza y puedes volver a elegir.
 3. **Escribe la longitud del intervalo.** Los puntos se previsualizan sobre el objeto mientras escribes.
 4. Pulsa **Enter** o **Space** para colocarlos. El comando termina.

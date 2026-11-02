@@ -12,7 +12,7 @@ Lệnh `ChiaĐềuBằngĐiểm` đặt các [điểm](../point/) chia một đ�
 
 ## Chia một đối tượng
 
-1. Gõ `ChiaĐềuBằngĐiểm` trong terminal hoặc chọn **Point Divide** từ menu thả xuống của mảng trong bảng Edit.
+1. Gõ `ChiaĐềuBằngĐiểm` trong terminal hoặc chọn **Point Divide** từ menu thả xuống trong bảng Edit.
 2. **Nhấp vào đối tượng** — đường thẳng, polyline, cung, đường tròn, elip hoặc spline. Thứ khác bị từ chối và bạn có thể chọn lại.
 3. **Gõ số đoạn**, một số nguyên từ 2 đến 32767. Các điểm được xem trước trên đối tượng khi bạn gõ.
 4. Nhấn **Enter** hoặc **Space** để đặt chúng. Lệnh kết thúc.

@@ -43,7 +43,7 @@ Chào mừng bạn đến với tài liệu tham khảo lệnh **KulmanLab CAD**
 | [Offset](./commands/offset/) | Tạo bản sao song song của đối tượng ở khoảng cách cho trước |
 | [Fillet](./commands/fillet/) | Bo góc giữa hai đường thẳng, cung hoặc đoạn polyline bằng cung tiếp tuyến |
 | [Chamfer](./commands/chamfer/) | Vát góc thẳng giữa hai đường thẳng hoặc đường đa đoạn |
-| [Explode](./commands/explode/) | Tách một đường đa đoạn thành các đoạn thẳng và cung riêng lẻ |
+| [Explode](./commands/explode/) | Tách polyline thành đường thẳng và cung, hoặc khối thành những gì nó vẽ |
 | [Undo](./commands/undo/) | Hoàn tác thao tác vừa thực hiện |
 | [Redo](./commands/redo/) | Làm lại thao tác vừa hoàn tác |
 | [Array Grid](./commands/array-grid/) | Lặp lại đối tượng trong lưới hình chữ nhật gồm hàng và cột |

@@ -12,7 +12,7 @@ Kommandoen `InndelMedPunkter` plasserer [punkter](../point/) som deler et objekt
 
 ## Dele et objekt
 
-1. Skriv `InndelMedPunkter` i terminalen eller velg **Point Divide** i matrise-nedtrekksmenyen i panelet Edit.
+1. Skriv `InndelMedPunkter` i terminalen eller velg **Point Divide** i nedtrekksmenyen i panelet Edit.
 2. **Klikk på objektet** — en linje, polylinje, bue, sirkel, ellipse eller spline. Alt annet avvises, og du kan velge på nytt.
 3. **Skriv antall stykker**, et helt tall fra 2 til 32767. Punktene forhåndsvises på objektet mens du skriver.
 4. Trykk **Enter** eller **Space** for å plassere dem. Kommandoen avsluttes.

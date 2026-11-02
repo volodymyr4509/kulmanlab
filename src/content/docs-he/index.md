@@ -43,7 +43,7 @@ order: 1
 | [Offset](./commands/offset/) | יצירת עותק מקביל של ישות במרחק נתון |
 | [Fillet](./commands/fillet/) | עיגול פינה בין שני קווים, קשתות או קטעי פוליליין בקשת משיקה |
 | [Chamfer](./commands/chamfer/) | חיתוך פינה אלכסונית ישרה בין שני קווים או פוליליינים |
-| [Explode](./commands/explode/) | מפרק פוליליין לקווים וקשתות נפרדים |
+| [Explode](./commands/explode/) | פירוק polyline לקווים וקשתות, או בלוק למה שהוא מצייר |
 | [Undo](./commands/undo/) | ביטול הפעולה האחרונה |
 | [Redo](./commands/redo/) | ביצוע חוזר של הפעולה האחרונה שבוטלה |
 | [Array Grid](./commands/array-grid/) | חזרה על ישויות ברשת מלבנית של שורות ועמודות |

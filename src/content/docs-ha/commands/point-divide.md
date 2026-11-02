@@ -12,7 +12,7 @@ Umarnin `RabaDaƊigo` yana sanya [maki](../point/) da ke raba abu zuwa ɓangaror
 
 ## Raba abu
 
-1. Rubuta `RabaDaƊigo` a tashar umarni ko ka zaɓi **Point Divide** daga jerin zaɓin array a kwamitin Edit.
+1. Rubuta `RabaDaƊigo` a tashar umarni ko zaɓi **Point Divide** daga jerin zaɓin kwamitin Edit.
 2. **Danna abin** — layi, polyline, baka, da'ira, ellipse ko spline. Ana ƙin duk wani abu daban, kuma za ka iya sake zaɓe.
 3. **Rubuta adadin ɓangarori**, cikakkiyar lamba daga 2 zuwa 32767. Ana ganin makin a kan abin yayin da kake rubutu.
 4. Danna **Enter** ko **Space** don sanya su. Umarnin ya ƙare.

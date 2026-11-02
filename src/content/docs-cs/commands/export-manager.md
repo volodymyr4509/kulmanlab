@@ -1,6 +1,6 @@
 ---
 title: Export Manager — stažení výkresů jako DXF nebo JSON v KulmanLab CAD
-description: Stáhněte aktuální výkres jako DXF nebo JSON a zaškrtněte pro každý typ objektu, co se do souboru dostane. Oba formáty obsahují geometrii, text, kóty, odkazové čáry a šrafy, včetně hladin a typů čar.
+description: "Stáhněte aktuální výkres jako DXF nebo JSON a u každého typu entit zaškrtněte, co se má zahrnout. Oba obsahují geometrii, text, kóty, odkazové čáry, šrafy, výplně SOLID a reference bloků, a také hladiny a typy čar."
 keywords: [export DXF, export CAD souboru, stažení DXF v prohlížeči, uložení DXF online, export JSON CAD, export KulmanLab, stažení CAD souboru, DXF export, uložení výkresu do souboru, stažení DXF]
 group: file
 order: 6

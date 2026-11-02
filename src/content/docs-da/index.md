@@ -47,7 +47,7 @@ Velkommen til **KulmanLab CAD**s kommandoreference. [KulmanLab CAD](https://kulm
 | [Offset](./commands/offset/) | Lav en parallel kopi af en entitet i en given afstand |
 | [Fillet](./commands/fillet/) | Afrund et hjørne mellem to linjer, buer eller polylinjesegmenter med en tangentbue |
 | [Chamfer](./commands/chamfer/) | Skær et lige diagonalt hjørne mellem to linjer eller polylinjer |
-| [Explode](./commands/explode/) | Opdeler en polylinje i dens individuelle linjer og buer |
+| [Explode](./commands/explode/) | Del en polylinje op i linjer og buer, eller en blok i det, den tegner |
 | [Undo](./commands/undo/) | Fortryd seneste handling |
 | [Redo](./commands/redo/) | Gentag seneste fortrudte handling |
 

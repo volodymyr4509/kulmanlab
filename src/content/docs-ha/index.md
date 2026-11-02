@@ -43,7 +43,7 @@ Barka da zuwa jerin umarni na **KulmanLab CAD**. [KulmanLab CAD](https://kulmanl
 | [Offset](./commands/offset/) | Ƙirƙiri kwafi mai daidaici na wani abu a nisan da aka bayar |
 | [Fillet](./commands/fillet/) | Zagaye kusurwa tsakanin sassa biyu na Line, Arc, ko Polyline da baka mai taɓawa |
 | [Chamfer](./commands/chamfer/) | Yanke kusurwar diagonal madaidaiciya tsakanin layi biyu ko polylines |
-| [Explode](./commands/explode/) | Yana rarraba polyline zuwa layuka da baka daban-daban |
+| [Explode](./commands/explode/) | Raba polyline zuwa layuka da baka, ko block zuwa abin da yake zanawa |
 | [Undo](./commands/undo/) | Soke aikin ƙarshe |
 | [Redo](./commands/redo/) | Sake yin aikin ƙarshe da aka soke |
 | [Array Grid](./commands/array-grid/) | Maimaita abubuwa a cikin grid mai kusurwa huɗu na layuka da ginshiƙai |
