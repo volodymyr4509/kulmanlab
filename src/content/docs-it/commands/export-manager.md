@@ -59,6 +59,7 @@ Ogni tipo di entità è incluso:
 - Leaders (multileader)
 - Hatches, incluso il loro motivo, scala, angolo e origine
 - Layers e Linetypes
+- Solidi e riferimenti a blocco, con i blocchi che disegnano
 
 ### Esportazione DXF
 
@@ -71,6 +72,7 @@ Ogni tipo di entità è incluso:
 - Hatches, incluso il loro motivo, scala, angolo e origine
 - Layers e Linetypes
 - Layout, con nome, formato carta e ordine delle schede, tutto ciò che è disegnato su ciascuno e le loro finestre con scala e blocco — così un layout torna intatto quando il file viene riaperto
+- Solidi come `SOLID` e riferimenti a blocco come `INSERT` con i valori degli attributi; i loro blocchi vengono scritti come definizioni di blocco
 
 Il file viene scritto come DXF AC1032, così un disegno esportato da KulmanLab si apre negli altri strumenti compatibili DXF con la sua annotazione intatta, invece di arrivare come geometria nuda.
 

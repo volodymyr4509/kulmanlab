@@ -59,7 +59,6 @@ Wissenswert, bevor Sie sich darauf verlassen:
 
 - **Wählen Sie Beschriftung ab, statt sie zu löschen.** Text, Bemaßungen, Leader und Schraffuren werden jetzt alle exportiert, alles in der Zeichnung Verbliebene landet also in der Datei. Löschen müssen Sie es nicht: Der Export-Manager listet jeden Elementtyp mit eigenem Kontrollkästchen, und wenn Sie Text, die Bemaßungszeilen, Leaders und Hatches abwählen, bekommen Sie eine DXF mit Schnittgeometrie und sonst nichts — die Zeichnung selbst bleibt unangetastet.
 - **Text landet als `MTEXT`, und das ist nicht dasselbe wie gravierbare Geometrie.** Die Beschriftung wird mit ihrer Formatierung exportiert, doch viele Maschinenprogramme wollen auf einem Gravurlayer Konturen statt lebendigem Text. Prüfen Sie, was Ihres annimmt, bevor Sie eine Gravur darauf aufbauen.
-- **Blockreferenzen werden nicht importiert.** Eine aus wiederkehrenden Blocksymbolen aufgebaute Zeichnung kommt unvollständig an; prüfen Sie die Teilezahl gegen das Original.
 
 Splines *werden* exportiert. Manche Maschinensoftware kommt schlecht damit zurecht und bevorzugt Polylinien — trifft das auf Ihre zu, zeichnen Sie Kurven als Polylinien oder Bögen nach.
 

@@ -12,7 +12,7 @@ Veel entiteiten tegelijk selecteren opent het eigenschappenpaneel in de weergave
 
 ## Het filter openen
 
-1. Selecteer meerdere entiteiten — sleep een selectiekader, klik met Shift of druk op Ctrl+A.
+1. Selecteer meerdere entiteiten — sleep een selectiekader, teken een lasso, Shift-klik of Ctrl+A.
 2. Klik op het **filterpictogram** (trechter) in de kop van het eigenschappenpaneel.
 3. Onder de knop opent een venster met een aankruislijst voor elke eigenschap die binnen de selectie daadwerkelijk varieert.
 

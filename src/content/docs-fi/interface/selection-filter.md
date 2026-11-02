@@ -12,7 +12,7 @@ Kun valitset monta objektia kerralla, ominaisuuspaneeli avautuu monivalintanäky
 
 ## Suodattimen avaaminen
 
-1. Valitse useita objekteja — vedä valintakehys, napsauta Shift pohjassa tai paina Ctrl+A.
+1. Valitse useita entiteettejä — vedä valintalaatikko, piirrä lasso, Vaihto-napsauta tai Ctrl+A.
 2. Napsauta ominaisuuspaneelin otsikossa olevaa **suodatinkuvaketta** (suppilo).
 3. Painikkeen alle avautuu ikkuna, jossa on valintaruutuluettelo jokaiselle ominaisuudelle, joka valinnan sisällä oikeasti vaihtelee.
 

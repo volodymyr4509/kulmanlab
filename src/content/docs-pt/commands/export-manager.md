@@ -59,6 +59,7 @@ Cada tipo de entidade está incluído:
 - Leaders (multileaders)
 - Hatches, incluindo seu padrão, escala, ângulo e origem
 - Layers e Linetypes
+- Sólidos e referências de bloco, com os blocos que elas desenham
 
 ### Exportação DXF
 
@@ -71,6 +72,7 @@ Cada tipo de entidade está incluído:
 - Hatches, incluindo seu padrão, escala, ângulo e origem
 - Layers e Linetypes
 - Layouts, com seus nomes, tamanho de papel e ordem das abas, tudo o que está desenhado em cada um e suas viewports com escala e bloqueio — assim um layout volta intacto quando o arquivo é aberto de novo
+- Sólidos como `SOLID` e referências de bloco como `INSERT` com seus valores de atributo; seus blocos são gravados como definições de bloco
 
 O arquivo é escrito como DXF AC1032, então um desenho exportado do KulmanLab abre com sua anotação intacta em outras ferramentas compatíveis com DXF, em vez de chegar como geometria nua.
 

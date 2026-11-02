@@ -15,7 +15,7 @@ O comando `Alinhar` reposiciona as entidades selecionadas usando um ou dois pare
 **Pré-selecionar, depois alinhar** — selecione as entidades primeiro, depois ative:
 
 1. Selecione uma ou mais entidades no canvas.
-2. Digite `Alinhar` no terminal ou clique no botão **Align** na barra de ferramentas.
+2. Digite `Alinhar` no terminal ou escolha **Align** no menu suspenso do painel Edit.
 3. **Clique no primeiro ponto de origem (S1)**, depois **no primeiro ponto de destino (D1)**.
 4. **Clique no segundo ponto de origem (S2)**, ou pressione **Enter** ou **Espaço** para aplicar já um alinhamento apenas de translação.
 5. **Clique no segundo ponto de destino (D2)**.
@@ -23,7 +23,7 @@ O comando `Alinhar` reposiciona as entidades selecionadas usando um ou dois pare
 
 **Ativar, depois selecionar** — inicie o comando sem nada selecionado:
 
-1. Digite `Alinhar` ou clique no botão da barra de ferramentas.
+1. Digite `Alinhar` ou escolha **Align** no menu suspenso.
 2. **Selecione os objetos** — clique para alternar entidades individuais, ou arraste para selecionar por área.
 3. Pressione **Enter** ou **Espaço** para confirmar a seleção.
 4. Continue com S1 → D1 → S2 → D2 → pedido de escala como acima.

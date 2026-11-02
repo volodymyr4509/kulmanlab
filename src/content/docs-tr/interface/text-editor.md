@@ -48,6 +48,7 @@ Düzenleyici, imleci konumlandırıp değeri doğrudan düzenleyebilmeniz için 
 | Mevcut **Text** nesnesine çift tıkla | **rich** modda düzenleyiciyi yeniden açar |
 | Mevcut **Multileader**'a çift tıkla | **rich** modda düzenleyiciyi açar |
 | **Ölçü** nesnesine çift tıkla | **simple** modda düzenleyiciyi açar |
+| Bir **blok referansına** çift tıklama | İmlecin altındaki özniteliği **simple** modda, tek satırda düzenler — Enter bitirir; değer yalnızca o referans için değişir |
 | Düzenleyici içinde `Escape` | Düzenleyiciyi kapatır ve tüm değişiklikleri saklar |
 
 ## Araç Çubuğu

@@ -38,7 +38,6 @@ Oradan kaydırma ve yakınlaştırma yapabilir, katmanları açıp kapatabilir, 
 **Nerede yetersiz kaldığı — güvenmeden önce okuyun:**
 
 - **Yalnızca 2B.** 3B katı cisimler veya kafesler içeren bir DXF, bu araç için yanlış dosyadır.
-- **Blok yok.** Blok referansları (`INSERT`) işlenmez; tekrar eden blok sembollerinden kurulmuş bir çizim eksik gelir.
 - **DXF, DWG değil.** Aşağıdaki DWG bölümüne bakın.
 - **Yalnızca masaüstü tarayıcılar** — Chrome, Firefox, Safari ve Edge. Mobil sürüm yok.
 

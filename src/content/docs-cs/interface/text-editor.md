@@ -48,6 +48,7 @@ Editor je předvyplněn aktuálně vykresleným popiskem kóty, takže můžete 
 | Dvojité kliknutí na existující objekt **Text** | Znovu otevře editor v režimu **rich** |
 | Dvojité kliknutí na existující **Multileader** | Otevře editor v režimu **rich** |
 | Dvojité kliknutí na objekt **kóty** | Otevře editor v režimu **simple** |
+| Dvojklik na **referenci bloku** | Upraví atribut pod kurzorem v režimu **simple** na jednom řádku — Enter dokončí; hodnota se změní jen pro tuto referenci |
 | `Escape` uvnitř editoru | Zavře editor a zachová všechny změny |
 
 ## Panel nástrojů

@@ -42,6 +42,8 @@ KulmanLab verwerkt de volgende DXF-entiteitstypen:
 | Dimension | `DIMENSION` | |
 | Multileader | `MULTILEADER` | |
 | Hatch | `HATCH` | Naam, schaal en hoek van het patroon worden gelezen; een naam die niet in uw patroonbibliotheek staat, valt terug op ANSI31. Zie [Hatch](../hatch/) |
+| Block Reference | `INSERT` | Getekend zoals het bestand haar opsloeg: attribuutwaarden zichtbaar, entiteiten die de toestand van een dynamisch blok verbergt weggelaten |
+| Solid | `SOLID` | Vlakke vulling met drie of vier hoeken, zoals de zwarte vakken van een schaalbalk |
 
 Laagdefinities en lijntypetabellen worden ook geïmporteerd uit het DXF-bestand, indien aanwezig.
 

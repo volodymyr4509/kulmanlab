@@ -15,7 +15,7 @@ Der Befehl `Ausrichten` positioniert ausgewählte Entitäten mit ein oder zwei Q
 **Zuerst auswählen, dann ausrichten** — wählen Sie zuerst Entitäten aus und aktivieren Sie dann den Befehl:
 
 1. Wählen Sie eine oder mehrere Entitäten auf der Zeichenfläche aus.
-2. Geben Sie `Ausrichten` im Terminal ein oder klicken Sie auf die Schaltfläche **Align** in der Symbolleiste.
+2. Geben Sie `Ausrichten` im Terminal ein oder wählen Sie **Align** im Dropdown des Edit-Panels.
 3. **Klicken Sie auf den ersten Quellpunkt (S1)**, dann **auf den ersten Zielpunkt (D1)**.
 4. **Klicken Sie auf den zweiten Quellpunkt (S2)**, oder drücken Sie **Enter** oder **Space**, um jetzt eine reine Verschiebung anzuwenden.
 5. **Klicken Sie auf den zweiten Zielpunkt (D2)**.
@@ -23,7 +23,7 @@ Der Befehl `Ausrichten` positioniert ausgewählte Entitäten mit ein oder zwei Q
 
 **Aktivieren, dann auswählen** — Befehl ohne Auswahl starten:
 
-1. Geben Sie `Ausrichten` ein oder klicken Sie auf die Schaltfläche in der Symbolleiste.
+1. Geben Sie `Ausrichten` ein oder wählen Sie **Align** im Dropdown.
 2. **Objekte auswählen** — klicken zum Umschalten einzelner Entitäten oder ziehen zur Flächenauswahl.
 3. Drücken Sie **Enter** oder **Space** zur Bestätigung der Auswahl.
 4. Fahren Sie fort mit S1 → D1 → S2 → D2 → Skalierungsabfrage wie oben.

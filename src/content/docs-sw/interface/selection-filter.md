@@ -12,7 +12,7 @@ Kuteua vitu vingi kwa mara moja hufungua paneli ya sifa katika mwonekano wake wa
 
 ## Kufungua kichujio
 
-1. Teua vitu kadhaa — buruta kisanduku cha uteuzi, bofya ukiwa umeshikilia Shift, au bonyeza Ctrl+A.
+1. Chagua vitu kadhaa — buruta kisanduku cha uteuzi, chora lasso, Shift-bofya au Ctrl+A.
 2. Bofya **aikoni ya kichujio** (faneli) kwenye kichwa cha paneli ya sifa.
 3. Kidirisha hufunguka chini ya kitufe, kikiwa na orodha ya kutia alama kwa kila sifa ambayo kweli inatofautiana ndani ya uteuzi.
 

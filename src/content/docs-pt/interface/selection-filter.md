@@ -12,7 +12,7 @@ Selecionar muitas entidades de uma vez abre o painel de propriedades na sua vis�
 
 ## Abrindo o filtro
 
-1. Selecione várias entidades — arraste uma caixa de seleção, clique com Shift ou pressione Ctrl+A.
+1. Selecione várias entidades — arraste uma caixa de seleção, desenhe um laço, Shift+clique ou Ctrl+A.
 2. Clique no **ícone de filtro** (funil) no cabeçalho do painel de propriedades.
 3. Abre-se uma janela abaixo do botão, com uma lista de verificação para cada propriedade que de fato varia dentro da seleção.
 

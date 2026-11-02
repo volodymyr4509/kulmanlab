@@ -12,7 +12,7 @@ Vienu metu pasirinkus daug objektų, savybių skydelis atsidaro savo daugybinio 
 
 ## Filtro atvėrimas
 
-1. Pasirinkite kelis objektus — nutempkite pasirinkimo rėmelį, spustelėkite su Shift arba paspauskite Ctrl+A.
+1. Pažymėkite kelis objektus — vilkite žymėjimo rėmelį, nubrėžkite lasą, Shift+spustelėjimas arba Ctrl+A.
 2. Spustelėkite **filtro piktogramą** (piltuvėlį) savybių skydelio antraštėje.
 3. Po mygtuku atsidaro langas su sąrašu kiekvienai savybei, kuri iš tikrųjų skiriasi visame pasirinkime.
 

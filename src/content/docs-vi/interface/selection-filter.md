@@ -12,7 +12,7 @@ Chọn cùng lúc nhiều đối tượng sẽ mở bảng thuộc tính ở ch�
 
 ## Mở bộ lọc
 
-1. Chọn vài đối tượng — kéo một khung chọn, nhấp giữ Shift, hoặc nhấn Ctrl+A.
+1. Chọn nhiều thực thể — kéo hộp chọn, vẽ lasso, Shift-nhấp hoặc Ctrl+A.
 2. Nhấp vào **biểu tượng bộ lọc** (hình phễu) trên đầu bảng thuộc tính.
 3. Một cửa sổ mở ra bên dưới nút, với danh sách đánh dấu cho từng thuộc tính thực sự có sự khác biệt trong vùng chọn.
 

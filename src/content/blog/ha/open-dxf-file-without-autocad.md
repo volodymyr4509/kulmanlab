@@ -38,7 +38,6 @@ Daga nan kana iya motsawa da girmama kallo, kunna sassa da kashe su, auna nisa d
 **Inda bai kai ba — karanta wannan kafin ka dogara da shi:**
 
 - **2D kaɗai.** Fayil ɗin DXF mai ɗauke da abubuwa masu girma uku ba shi ne fayil ɗin da ya dace da wannan kayan aiki ba.
-- **Babu blocks.** Ba a nazarin nassoshin block (`INSERT`), don haka zanen da aka gina daga alamun block da ake maimaitawa zai shigo bai cika ba.
 - **DXF, ba DWG ba.** Duba sashen DWG a ƙasa.
 - **Burauzar kwamfuta kaɗai** — Chrome, Firefox, Safari da Edge. Babu sigar wayar hannu.
 

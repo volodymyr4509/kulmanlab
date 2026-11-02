@@ -38,7 +38,6 @@ A partir de ahí puedes desplazarte y hacer zoom, activar y desactivar capas, me
 **Dónde se queda corto — léelo antes de confiar en ello:**
 
 - **Solo 2D.** Un DXF con sólidos o mallas 3D es el archivo equivocado para esta herramienta.
-- **Sin bloques.** Las referencias a bloques (`INSERT`) no se procesan, así que un dibujo construido con símbolos de bloque repetidos llegará incompleto.
 - **DXF, no DWG.** Consulta la sección sobre DWG más abajo.
 - **Solo navegadores de escritorio** — Chrome, Firefox, Safari y Edge. No hay versión móvil.
 

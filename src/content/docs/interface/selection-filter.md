@@ -12,7 +12,7 @@ Selecting many entities at once opens the property panel in its multi-selection 
 
 ## Opening the filter
 
-1. Select several entities — drag a selection box, Shift-click, or Ctrl+A.
+1. Select several entities — drag a selection box, draw a lasso, Shift-click, or Ctrl+A.
 2. Click the **filter icon** (funnel) in the property panel header.
 3. A popup opens below the button with a checklist for each property that actually varies across the selection.
 

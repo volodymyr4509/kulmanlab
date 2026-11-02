@@ -59,6 +59,7 @@ Kasama ang bawat entity type:
 - Leaders (multileaders)
 - Hatches, kasama ang pattern, scale, angle, at origin nito
 - Layers at Linetypes
+- Mga solid at block reference, kasama ang mga block na iginuguhit nila
 
 ### DXF export
 
@@ -71,6 +72,7 @@ Kasama ang bawat entity type:
 - Hatches, kasama ang pattern, scale, angle, at origin nito
 - Layers at Linetypes
 - Mga layout, kasama ang kanilang pangalan, laki ng papel at pagkakasunod ng tab, lahat ng iginuhit sa bawat isa, at ang kanilang mga viewport na may scale at lock — kaya buo ang pagbabalik ng layout kapag binuksan muli ang file
+- Mga solid bilang `SOLID`, at mga block reference bilang `INSERT` kasama ang kanilang mga attribute value; isinusulat ang kanilang mga block bilang block definition
 
 Isinusulat ang file bilang AC1032 na DXF, kaya ang guhit na ini-export mula sa KulmanLab ay bumubukas nang buo ang anotasyon sa ibang kasangkapang marunong ng DXF, hindi dumarating bilang hubad na heometriya.
 

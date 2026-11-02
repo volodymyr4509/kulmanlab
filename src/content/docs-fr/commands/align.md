@@ -15,7 +15,7 @@ La commande `Aligner` repositionne les entités sélectionnées à l'aide d'une 
 **Pré-sélectionner, puis aligner** — sélectionnez d'abord les entités, puis activez :
 
 1. Sélectionnez une ou plusieurs entités sur le canevas.
-2. Tapez `Aligner` dans le terminal ou cliquez sur le bouton **Align** de la barre d'outils.
+2. Tapez `Aligner` dans le terminal ou choisissez **Align** dans le menu déroulant du panneau Edit.
 3. **Cliquez sur le premier point source (S1)**, puis **sur le premier point destination (D1)**.
 4. **Cliquez sur le second point source (S2)**, ou appuyez sur **Entrée** ou **Espace** pour appliquer dès maintenant un alignement de translation seule.
 5. **Cliquez sur le second point destination (D2)**.
@@ -23,7 +23,7 @@ La commande `Aligner` repositionne les entités sélectionnées à l'aide d'une 
 
 **Activer, puis sélectionner** — démarrez la commande sans rien de sélectionné :
 
-1. Tapez `Aligner` ou cliquez sur le bouton de la barre d'outils.
+1. Tapez `Aligner` ou choisissez **Align** dans le menu déroulant.
 2. **Sélectionnez les objets** — cliquez pour basculer les entités individuelles, ou faites glisser pour sélectionner par zone.
 3. Appuyez sur **Entrée** ou **Espace** pour confirmer la sélection.
 4. Continuez avec S1 → D1 → S2 → D2 → invite de mise à l'échelle comme ci-dessus.

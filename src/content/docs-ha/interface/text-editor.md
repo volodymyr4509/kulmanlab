@@ -48,6 +48,7 @@ An riga an cika naʼurar da alamar da ake nunawa na girma-girma na yanzu don ka 
 | Danna sau biyu abin **Text** da ke akwai | Yana sake buɗe naʼurar a yanayin **rich** |
 | Danna sau biyu **Multileader** da ke akwai | Yana buɗe naʼurar a yanayin **rich** |
 | Danna sau biyu abin **girma-girma** | Yana buɗe naʼurar a yanayin **simple** |
+| Danna **block reference** sau biyu | Yana gyara attribute da ke ƙarƙashin kibiya a yanayin **simple**, a layi ɗaya — Enter yana gamawa; ƙimar tana canzawa ga wannan reference kaɗai |
 | `Escape` a cikin naʼurar | Yana rufe naʼurar ya riƙe dukkan canje-canje |
 
 ## Kayan aiki

@@ -15,7 +15,7 @@ Het commando `Uitlijnen` verplaatst geselecteerde entiteiten met een of twee par
 **Eerst selecteren, dan uitlijnen** — selecteer eerst entiteiten en activeer daarna:
 
 1. Selecteer een of meer entiteiten op het canvas.
-2. Typ `Uitlijnen` in de terminal of klik op de werkbalkknop **Align**.
+2. Typ `Uitlijnen` in de terminal of kies **Align** in het uitklapmenu van het Edit-paneel.
 3. **Klik op het eerste bronpunt (S1)**, klik daarna op het **eerste doelpunt (D1)**.
 4. **Klik op het tweede bronpunt (S2)**, of druk op **Enter** of **Space** om nu direct een uitlijning toe te passen die alleen verplaatst.
 5. **Klik op het tweede doelpunt (D2)**.
@@ -23,7 +23,7 @@ Het commando `Uitlijnen` verplaatst geselecteerde entiteiten met een of twee par
 
 **Eerst activeren, dan selecteren** — start het commando zonder dat er iets geselecteerd is:
 
-1. Typ `Uitlijnen` of klik op de werkbalkknop.
+1. Typ `Uitlijnen` of kies **Align** in het uitklapmenu.
 2. **Selecteer objecten** — klik om afzonderlijke entiteiten aan/uit te zetten, of sleep om per gebied te selecteren.
 3. Druk op **Enter** of **Spatie** om de selectie te bevestigen.
 4. Ga verder met S1 → D1 → S2 → D2 → schaalprompt zoals hierboven.

@@ -142,6 +142,8 @@ Kiekviena komanda vadovaujasi tuo pačiu principu:
 2. **Sekite raginimą** — terminalas rodo, kokio įvedimo tikimasi toliau.
 3. **Užbaigimas ar atšaukimas** — dauguma komandų baigiasi automatiškai po paskutinio įvedimo. Bet kada paspauskite **Escape**, kad atšauktumėte.
 
+Įvedamos komandos priima ir įprastus trumpuosius slapyvardžius, pvz., `L` — Line, `C` — Circle, `TR` — Trim ir `X` — Explode.
+
 ## Objektų pasirinkimas
 
 Kelios redagavimo komandos (Move, Copy, Rotate, Mirror, Scale, Delete) dalijasi ta pačia pasirinkimo elgsena:
@@ -150,3 +152,5 @@ Kelios redagavimo komandos (Move, Copy, Rotate, Mirror, Scale, Delete) dalijasi 
 - **Tempkite į dešinę** (iš kairės į dešinę) griežtam pasirinkimui — pasirenkami tik objektai, visiškai esantys rėmelyje.
 - **Tempkite į kairę** (iš dešinės į kairę) kertančiam pasirinkimui — pasirenkamas kiekvienas objektas, kertantis rėmelį.
 - Paspauskite **Enter** arba **Space**, kad patvirtintumėte pasirinkimą ir pereitumėte prie kito žingsnio.
+
+Kai nevykdoma jokia komanda, galite žymėti ir **lasu**: paspauskite tuščią vietą ir vilkite aplink tai, ko norite. Nubrėžtas pagal laikrodžio rodyklę, jis paima tik tai, kas visiškai viduje; prieš laikrodžio rodyklę — ir tai, ką paliečia. Valdymo juostos jungiklis **Lasso** jį išjungia.

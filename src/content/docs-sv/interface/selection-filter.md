@@ -12,7 +12,7 @@ Att markera många entiteter samtidigt öppnar egenskapspanelen i dess flervalsv
 
 ## Öppna filtret
 
-1. Markera flera entiteter — dra en markeringsruta, Skift-klicka eller tryck Ctrl+A.
+1. Markera flera entiteter — dra en markeringsruta, rita ett lasso, Skift-klicka eller Ctrl+A.
 2. Klicka på **filterikonen** (tratten) i egenskapspanelens rubrik.
 3. Under knappen öppnas ett fönster med en kryssrutelista för varje egenskap som faktiskt varierar inom markeringen.
 

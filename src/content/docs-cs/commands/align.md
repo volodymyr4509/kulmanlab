@@ -15,7 +15,7 @@ Příkaz `align` přemístí vybrané objekty pomocí jedné nebo dvou dvojic zd
 **Nejdřív vybrat, pak zarovnat** — nejprve vyberte objekty a potom příkaz spusťte:
 
 1. Vyberte na plátně jeden nebo více objektů.
-2. Napište `align` do terminálu nebo klikněte na tlačítko **Align** v panelu nástrojů.
+2. Napište `align` do terminálu nebo zvolte **Align** v rozbalovací nabídce panelu Edit.
 3. **Klikněte na první zdrojový bod (S1)**, poté **na první cílový bod (D1)**.
 4. **Klikněte na druhý zdrojový bod (S2)**, nebo stisknutím **Enter** či **Space** ihned použijte zarovnání pouze s přesunem.
 5. **Klikněte na druhý cílový bod (D2)**.
@@ -23,7 +23,7 @@ Příkaz `align` přemístí vybrané objekty pomocí jedné nebo dvou dvojic zd
 
 **Nejdřív spustit, pak vybrat** — příkaz spusťte bez výběru:
 
-1. Napište `align` nebo klikněte na tlačítko v panelu nástrojů.
+1. Napište `align` nebo zvolte **Align** v rozbalovací nabídce.
 2. **Vyberte objekty** — kliknutím přepínáte jednotlivé objekty, tažením vybíráte podle oblasti.
 3. Výběr potvrďte stisknutím **Enter** nebo **Space**.
 4. Pokračujte S1 → D1 → S2 → D2 → dotaz na měřítko jako výše.

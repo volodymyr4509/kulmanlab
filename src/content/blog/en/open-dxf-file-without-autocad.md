@@ -38,7 +38,6 @@ From there you can pan and zoom, toggle layers, measure distances and angles, ed
 **Where it falls short — read this before relying on it:**
 
 - **2D only.** A DXF containing 3D solids or meshes is the wrong file for this tool.
-- **No blocks.** Block references (`INSERT`) are not parsed, so a drawing built from repeated block symbols will come in incomplete.
 - **DXF, not DWG.** See the DWG section below.
 - **Desktop browsers only** — Chrome, Firefox, Safari, and Edge. There is no mobile version.
 

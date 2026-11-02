@@ -142,6 +142,8 @@ Jeder Befehl folgt demselben Muster:
 2. **Eingabeaufforderung befolgen** — das Terminal zeigt an, welche Eingabe als nächstes erwartet wird.
 3. **Abschließen oder abbrechen** — die meisten Befehle enden automatisch nach der letzten Eingabe. Drücken Sie jederzeit **Escape**, um abzubrechen.
 
+Getippte Befehle akzeptieren auch die üblichen Kurzaliasse, etwa `L` für Line, `C` für Circle, `TR` für Trim und `X` für Explode.
+
 ## Objekte auswählen
 
 Mehrere Bearbeitungsbefehle (Move, Copy, Rotate, Mirror, Scale, Delete) verwenden dasselbe Auswahlverhalten:
@@ -150,3 +152,5 @@ Mehrere Bearbeitungsbefehle (Move, Copy, Rotate, Mirror, Scale, Delete) verwende
 - **Nach rechts ziehen** (von links nach rechts) für strenge Auswahl — nur Elemente, die vollständig im Rahmen liegen, werden ausgewählt.
 - **Nach links ziehen** (von rechts nach links) für Kreuzauswahl — jedes Element, das den Rahmen schneidet, wird ausgewählt.
 - Drücken Sie **Enter** oder **Space**, um die Auswahl zu bestätigen und zum nächsten Schritt fortzufahren.
+
+Wenn kein Befehl läuft, können Sie auch per **Lasso** auswählen: Drücken Sie auf eine leere Stelle und ziehen Sie um das Gewünschte herum. Im Uhrzeigersinn gezogen erfasst es nur, was ganz innen liegt; gegen den Uhrzeigersinn auch, was es berührt. Der Schalter **Lasso** in der Steuerleiste schaltet es ab.

@@ -59,7 +59,6 @@ Warto wiedzieć, zanim na tym polegniesz:
 
 - **Odznacz opisy, zamiast je kasować.** Tekst, wymiary, odnośniki i kreskowania są teraz eksportowane, więc wszystko, co zostawisz na rysunku, trafi do pliku. Nie musisz tego kasować: Export Manager wymienia każdy typ obiektu z własnym polem wyboru, więc odznaczenie Text, wierszy wymiarów, Leaders i Hatches daje DXF z samą geometrią cięcia, a sam rysunek pozostaje nietknięty.
 - **Tekst wychodzi jako `MTEXT`, a to nie to samo co geometria do grawerowania.** Napisy eksportują się wraz z formatowaniem, ale sporo oprogramowania maszynowego oczekuje na warstwie grawerowania konturów, nie żywego tekstu. Sprawdź, co przyjmuje twoje, zanim zaplanujesz na tym grawer.
-- **Odwołania do bloków nie są importowane.** Rysunek zbudowany z powtarzalnych symboli blokowych przychodzi niekompletny, więc porównaj liczbę detali z oryginałem.
 
 Splajny *są* eksportowane. Niektóre programy maszynowe radzą sobie z nimi słabo i wolą polilinie — jeśli tak jest u ciebie, przerysuj krzywe jako polilinie albo łuki.
 

@@ -12,7 +12,7 @@ Zaznaczenie wielu obiektów naraz otwiera panel właściwości w widoku zaznacze
 
 ## Otwieranie filtra
 
-1. Zaznacz kilka obiektów — przeciągnij ramkę zaznaczenia, kliknij z Shift albo naciśnij Ctrl+A.
+1. Zaznacz kilka obiektów — przeciągnij ramkę zaznaczenia, narysuj lasso, Shift+kliknięcie lub Ctrl+A.
 2. Kliknij **ikonę filtra** (lejek) w nagłówku panelu właściwości.
 3. Pod przyciskiem otworzy się okienko z listą wyboru dla każdej właściwości, która faktycznie różni się w obrębie zaznaczenia.
 

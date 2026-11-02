@@ -48,6 +48,7 @@ Edytor jest wstępnie wypełniony bieżącą wyrenderowaną etykietą wymiaru, d
 | Dwukrotne kliknięcie istniejącego elementu **Text** | Ponownie otwiera edytor w trybie **rich** |
 | Dwukrotne kliknięcie istniejącego elementu **Multileader** | Otwiera edytor w trybie **rich** |
 | Dwukrotne kliknięcie elementu **wymiarowego** | Otwiera edytor w trybie **simple** |
+| Dwuklik na **odniesieniu do bloku** | Edytuje atrybut pod kursorem w trybie **simple**, w jednej linii — Enter kończy; wartość zmienia się tylko dla tego odniesienia |
 | `Escape` wewnątrz edytora | Zamyka edytor i zachowuje wszystkie zmiany |
 
 ## Pasek narzędzi

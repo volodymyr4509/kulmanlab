@@ -59,6 +59,7 @@ Kila aina ya entiti imejumuishwa:
 - Leaders (multileaders)
 - Hatches, ikiwa ni pamoja na pattern, scale, angle, na origin yake
 - Layers na Linetypes
+- Solidi na marejeleo ya vizuizi, pamoja na vizuizi wanavyovichora
 
 ### Uhamishaji wa DXF
 
@@ -71,6 +72,7 @@ Kila aina ya entiti imejumuishwa:
 - Hatches, ikiwa ni pamoja na pattern, scale, angle, na origin yake
 - Layers na Linetypes
 - Mipangilio, pamoja na majina, ukubwa wa karatasi na mpangilio wa vichupo, kila kitu kilichochorwa kwenye kila mmoja, na viewports zake pamoja na kipimo na kufuli — hivyo mpangilio hurudi kamili faili linapofunguliwa tena
+- Solidi kama `SOLID`, na marejeleo ya vizuizi kama `INSERT` pamoja na thamani za sifa; vizuizi vyake huandikwa kama ufafanuzi wa vizuizi
 
 Faili huandikwa kama DXF ya AC1032, hivyo mchoro uliohamishwa kutoka KulmanLab hufunguka katika zana nyingine zinazoweza DXF ukiwa na maelezo yake salama, badala ya kufika kama jiometri tupu.
 

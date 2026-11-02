@@ -59,6 +59,7 @@ Kowane nau'in entity yana ciki:
 - Leaders (multileaders)
 - Hatches, ciki har da pattern, scale, angle, da origin nasu
 - Layers da Linetypes
+- Solids da block references, tare da blocks da suke zanawa
 
 ### Fitar da DXF
 
@@ -71,6 +72,7 @@ Kowane nau'in entity yana ciki:
 - Hatches, ciki har da pattern, scale, angle, da origin nasu
 - Layers da Linetypes
 - Layouts, tare da sunayensu, girman takarda da tsarin shafuka, duk abin da aka zana a kan kowanne, da viewports ɗinsu tare da sikeli da kulle — don haka layout yana dawowa cikakke idan aka sake buɗe fayil ɗin
+- Solids a matsayin `SOLID`, kuma block references a matsayin `INSERT` tare da ƙimar attributes ɗinsu; ana rubuta blocks ɗinsu a matsayin ma'anonin block
 
 Ana rubuta fayil ɗin a matsayin DXF na AC1032, don haka zanen da aka fitar daga KulmanLab yana buɗewa a wasu kayan aikin da ke goyon bayan DXF tare da bayanansa cikakke, ba a matsayin siffofi kawai ba.
 

@@ -12,7 +12,7 @@ Zaɓar abubuwa da yawa lokaci ɗaya yana buɗe faifan siffofi cikin yanayin zaɓ
 
 ## Buɗe tacen
 
-1. Zaɓi abubuwa da yawa — ja akwatin zaɓi, danna tare da riƙe Shift, ko ka danna Ctrl+A.
+1. Zaɓi abubuwa da yawa — ja akwatin zaɓi, zana lasso, Shift-danna ko Ctrl+A.
 2. Danna **aikon tace** (mazurari) a kan kanun faifan siffofi.
 3. Taga takan buɗe ƙarƙashin maɓallin, tare da jerin alamomi ga kowace siffa da take bambanta da gaske a cikin zaɓin.
 

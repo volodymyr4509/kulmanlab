@@ -141,6 +141,8 @@ Kila amri inafuata muundo huo huo:
 2. **Fuata kidokezo** — terminal inaonyesha ingizo linalotarajiwa linalofuata.
 3. **Maliza au ghairi** — amri nyingi zinamaliza kiotomatiki baada ya ingizo la mwisho. Bonyeza **Escape** wakati wowote ili kughairi.
 
+Amri zinazoandikwa pia hukubali majina mafupi ya kawaida, kama `L` kwa Line, `C` kwa Circle, `TR` kwa Trim na `X` kwa Explode.
+
 ## Kuchagua vitu
 
 Amri kadhaa za kuhariri (Move, Copy, Rotate, Mirror, Scale, Delete) zinashiriki tabia ile ile ya uchaguzi:
@@ -149,3 +151,5 @@ Amri kadhaa za kuhariri (Move, Copy, Rotate, Mirror, Scale, Delete) zinashiriki 
 - **Buruta kulia** (kushoto kwenda kulia) kwa uchaguzi mkali — vipengele vilivyo ndani ya sanduku kikamilifu tu ndiyo vinavyochaguliwa.
 - **Buruta kushoto** (kulia kwenda kushoto) kwa uchaguzi wa makutano — kipengele chochote kinachokutana na sanduku kinachaguliwa.
 - Bonyeza **Enter** au **Space** kuthibitisha uchaguzi na kuendelea na hatua inayofuata.
+
+Wakati hakuna amri inayoendelea, unaweza pia kuchagua kwa **lasso**: bonyeza mahali patupu na uburute kuzunguka unachotaka. Ikichorwa kisaa huchukua tu kilicho ndani kabisa; ikichorwa kinyume cha saa huchukua pia kile inachogusa. Kitufe cha **Lasso** kwenye upau wa udhibiti hukizima.

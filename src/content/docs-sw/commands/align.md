@@ -15,7 +15,7 @@ Amri ya `Panga` huweka upya vipengele vilivyochaguliwa kwa kutumia jozi moja au 
 **Chagua kwanza, kisha patanisha** — chagua vipengele kwanza, kisha anzisha:
 
 1. Chagua vipengele moja au zaidi kwenye turubai.
-2. Andika `Panga` kwenye terminal au bonyeza kitufe cha **Align** kwenye upau wa zana.
+2. Andika `Panga` kwenye terminal au chagua **Align** kutoka menyu kunjuzi kwenye paneli ya Edit.
 3. **Bonyeza pointi ya kwanza ya chanzo (S1)**, kisha **bonyeza pointi ya kwanza ya marudio (D1)**.
 4. **Bonyeza pointi ya pili ya chanzo (S2)**, au bonyeza **Enter** au **Space** kutumia upatanisho wa kuhamisha tu sasa hivi.
 5. **Bonyeza pointi ya pili ya marudio (D2)**.
@@ -23,7 +23,7 @@ Amri ya `Panga` huweka upya vipengele vilivyochaguliwa kwa kutumia jozi moja au 
 
 **Anzisha, kisha chagua** — anza amri bila chochote kilichochaguliwa:
 
-1. Andika `Panga` au bonyeza kitufe cha upau wa zana.
+1. Andika `Panga` au chagua **Align** kutoka menyu kunjuzi.
 2. **Chagua vitu** — bonyeza kubadilisha vipengele mmoja mmoja, au buruta kuchagua kwa eneo.
 3. Bonyeza **Enter** au **Space** kuthibitisha uchaguzi.
 4. Endelea na S1 → D1 → S2 → D2 → swali la kupima kama hapo juu.

@@ -38,7 +38,6 @@ Dari sana Anda bisa menggeser dan memperbesar tampilan, menyalakan dan mematikan
 **Di mana kekurangannya — baca ini sebelum mengandalkannya:**
 
 - **Hanya 2D.** DXF yang berisi solid atau mesh 3D adalah file yang keliru untuk alat ini.
-- **Tanpa blok.** Referensi blok (`INSERT`) tidak diurai, sehingga gambar yang disusun dari simbol blok berulang akan masuk tidak lengkap.
 - **DXF, bukan DWG.** Lihat bagian DWG di bawah.
 - **Hanya browser desktop** — Chrome, Firefox, Safari, dan Edge. Tidak ada versi seluler.
 

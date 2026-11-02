@@ -142,6 +142,8 @@ Cada comando segue o mesmo padrão:
 2. **Siga o prompt** — o terminal indica qual entrada é esperada a seguir.
 3. **Conclua ou cancele** — a maioria dos comandos termina automaticamente após a última entrada. Pressione **Esc** a qualquer momento para cancelar.
 
+Os comandos digitados também aceitam os aliases curtos padrão, como `L` para Line, `C` para Circle, `TR` para Trim e `X` para Explode.
+
 ## Selecionando objetos
 
 Vários comandos de edição (Move, Copy, Rotate, Mirror, Scale, Delete) compartilham o mesmo comportamento de seleção:
@@ -150,3 +152,5 @@ Vários comandos de edição (Move, Copy, Rotate, Mirror, Scale, Delete) compart
 - **Arraste para a direita** (esquerda para direita) para seleção de janela — seleciona apenas entidades completamente dentro da caixa.
 - **Arraste para a esquerda** (direita para esquerda) para seleção de cruzamento — seleciona qualquer entidade que intercepte a caixa.
 - Pressione **Enter** ou **Espaço** para confirmar a seleção e prosseguir para a próxima etapa.
+
+Sem nenhum comando em execução, você também pode selecionar com **laço**: pressione num ponto vazio e arraste em volta do que quiser. Desenhado no sentido horário, pega só o que está totalmente dentro; no anti-horário, pega também o que ele toca. O botão **Lasso** na barra de controle o desativa.

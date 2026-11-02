@@ -12,7 +12,7 @@ Memilih banyak entiti serentak membuka panel sifat dalam paparan pemilihan berbi
 
 ## Membuka penapis
 
-1. Pilih beberapa entiti — seret kotak pemilihan, klik sambil menekan Shift, atau tekan Ctrl+A.
+1. Pilih beberapa entiti — seret kotak pilihan, lukis laso, Shift-klik atau Ctrl+A.
 2. Klik **ikon penapis** (corong) pada kepala panel sifat.
 3. Sebuah tetingkap terbuka di bawah butang itu, dengan senarai tanda semak bagi setiap sifat yang memang berbeza-beza dalam pemilihan.
 

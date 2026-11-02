@@ -142,6 +142,8 @@ Varje kommando följer samma mönster:
 2. **Följ uppmaningen** — terminalen visar vilken inmatning som förväntas härnäst.
 3. **Avsluta eller avbryt** — de flesta kommandon avslutas automatiskt efter den sista inmatningen. Tryck på **Escape** när som helst för att avbryta.
 
+Inskrivna kommandon tar också emot de vanliga korta aliasen, som `L` för Line, `C` för Circle, `TR` för Trim och `X` för Explode.
+
 ## Markera objekt
 
 Flera redigeringskommandon (Move, Copy, Rotate, Mirror, Scale, Delete) delar samma markeringsbeteende:
@@ -150,3 +152,5 @@ Flera redigeringskommandon (Move, Copy, Rotate, Mirror, Scale, Delete) delar sam
 - **Dra åt höger** (vänster till höger) för strikt markering — endast entiteter helt innanför rutan markeras.
 - **Dra åt vänster** (höger till vänster) för korsande markering — varje entitet som skär rutan markeras.
 - Tryck på **Enter** eller **Space** för att bekräfta markeringen och gå vidare till nästa steg.
+
+När inget kommando körs kan du också markera med **lasso**: tryck på en tom plats och dra runt det du vill ha. Ritat medurs tar det bara med det som ligger helt inuti; moturs tar det även med det som det rör vid. Knappen **Lasso** i kontrollfältet stänger av det.

@@ -42,6 +42,8 @@ KulmanLab menghurai jenis entiti DXF berikut:
 | Dimension | `DIMENSION` | |
 | Multileader | `MULTILEADER` | |
 | Hatch | `HATCH` | Nama, skala, dan sudut corak dibaca; nama yang tiada dalam pustaka corak anda kembali kepada ANSI31. Lihat [Hatch](../hatch/) |
+| Block Reference | `INSERT` | Dilukis seperti yang disimpan fail: nilai atribut dipaparkan, entiti yang disembunyikan keadaan blok dinamik ditinggalkan |
+| Solid | `SOLID` | Isian rata dengan tiga atau empat bucu, seperti segmen hitam bar skala |
 
 Definisi lapisan dan jadual linetype juga diimport dari fail DXF apabila ada.
 

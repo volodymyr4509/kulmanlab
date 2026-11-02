@@ -59,7 +59,6 @@ Perlu diketahui sebelum Anda mengandalkannya:
 
 - **Hilangkan centang anotasi, jangan dihapus.** Teks, dimensi, leader, dan arsiran kini semuanya diekspor, jadi apa pun yang Anda tinggalkan di gambar akan masuk ke berkas. Tidak perlu menghapusnya: Export Manager mencantumkan tiap tipe entitas dengan kotak centangnya sendiri, jadi menghilangkan centang Text, baris dimensi, Leaders, dan Hatches memberi Anda DXF berisi geometri potong saja, sementara gambarnya sendiri tidak tersentuh.
 - **Teks keluar sebagai `MTEXT`, dan itu bukan geometri yang bisa digravir.** Huruf terekspor lengkap dengan formatnya, tapi banyak perangkat lunak mesin menginginkan outline alih-alih teks hidup di layer engrave. Cek dulu apa yang diterima milik Anda sebelum merencanakan gravir di atasnya.
-- **Referensi blok tidak diimpor.** Gambar yang disusun dari simbol blok berulang masuk dalam keadaan tidak lengkap, jadi cocokkan jumlah komponen dengan aslinya.
 
 Spline *memang* diekspor. Sebagian perangkat lunak mesin menanganinya dengan buruk dan lebih menyukai polyline — kalau punya Anda begitu, gambar ulang kurvanya sebagai polyline atau busur.
 

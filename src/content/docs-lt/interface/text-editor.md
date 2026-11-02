@@ -48,6 +48,7 @@ Redaktorius iš anksto užpildomas dabartiniu matmens atvaizduotu užrašu, tod�
 | Dukart spustelėti esamą **Text** objektą | Vėl atveria redaktorių **rich** režimu |
 | Dukart spustelėti esamą **Multileader** | Atveria redaktorių **rich** režimu |
 | Dukart spustelėti **matmens** objektą | Atveria redaktorių **simple** režimu |
+| Dukart spustelėti **bloko nuorodą** | Redaguoja atributą po žymekliu **simple** režimu, vienoje eilutėje — Enter baigia; reikšmė keičiasi tik tai nuorodai |
 | `Escape` redaktoriaus viduje | Uždaro redaktorių ir išsaugo visus pakeitimus |
 
 ## Įrankių juosta

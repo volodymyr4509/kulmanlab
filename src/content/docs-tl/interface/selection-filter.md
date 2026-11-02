@@ -12,7 +12,7 @@ Ang pagpili ng maraming entity nang sabay ay nagbubukas sa property panel sa vie
 
 ## Pagbubukas ng filter
 
-1. Pumili ng ilang entity — mag-drag ng selection box, mag-Shift-click, o pindutin ang Ctrl+A.
+1. Pumili ng ilang entity — mag-drag ng selection box, gumuhit ng lasso, Shift-click o Ctrl+A.
 2. I-click ang **icon ng filter** (embudo) sa ulo ng property panel.
 3. May bubukas na popup sa ilalim ng pindutan, na may checklist para sa bawat katangiang talagang nag-iiba sa loob ng seleksyon.
 

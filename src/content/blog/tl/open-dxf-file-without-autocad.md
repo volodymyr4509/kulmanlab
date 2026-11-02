@@ -38,7 +38,6 @@ Mula roon maaari kang mag-pan at mag-zoom, buksan at isara ang mga layer, sumuka
 **Kung saan ito kulang — basahin ito bago ka umasa rito:**
 
 - **2D lamang.** Ang DXF na naglalaman ng 3D solids o mesh ay maling file para sa kasangkapang ito.
-- **Walang blocks.** Hindi binabasa ang block references (`INSERT`), kaya ang guhit na binuo mula sa paulit-ulit na block symbols ay papasok nang kulang.
 - **DXF, hindi DWG.** Tingnan ang bahagi tungkol sa DWG sa ibaba.
 - **Mga desktop browser lamang** — Chrome, Firefox, Safari at Edge. Walang bersyon para sa mobile.
 

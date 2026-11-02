@@ -42,6 +42,8 @@ KulmanLab parses the following DXF entity types:
 | Dimension | `DIMENSION` | |
 | Multileader | `MULTILEADER` | |
 | Hatch | `HATCH` | Pattern name, scale, and angle are read; a name not in your pattern library falls back to ANSI31. See [Hatch](../hatch/) |
+| Block Reference | `INSERT` | Drawn as the file saved it: attribute values shown, entities a dynamic block's state hides left out |
+| Solid | `SOLID` | A flat fill with three or four corners, such as a scale bar's black segments |
 
 Layer definitions and linetype tables are also imported from the DXF file when present.
 

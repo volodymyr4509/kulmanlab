@@ -41,6 +41,8 @@ KulmanLab phân tích các loại thực thể DXF sau:
 | Kích thước | `DIMENSION` |
 | Đa đường dẫn | `MULTILEADER` |
 | Hatch | `HATCH` |
+| Block Reference | `INSERT` | Vẽ đúng như tệp đã lưu: hiển thị giá trị thuộc tính, bỏ các thực thể mà trạng thái của khối động ẩn đi |
+| Solid | `SOLID` | Vùng tô phẳng có ba hoặc bốn góc, như các đoạn đen của thước tỷ lệ |
 
 Đối với Hatch, tên, tỷ lệ và góc của mẫu được đọc; tên không có trong thư viện mẫu của bạn sẽ quay về ANSI31. Xem [Hatch](../hatch/).
 

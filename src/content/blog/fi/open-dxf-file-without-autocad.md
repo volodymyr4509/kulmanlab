@@ -38,7 +38,6 @@ Sieltä voit panoroida ja zoomata, sytyttää ja sammuttaa tasoja, mitata etäis
 **Missä se jää vajaaksi — lue tämä ennen kuin luotat siihen:**
 
 - **Vain 2D.** DXF, jossa on 3D-kappaleita tai verkkoja, on väärä tiedosto tälle työkalulle.
-- **Ei lohkoja.** Lohkoviittauksia (`INSERT`) ei jäsennetä, joten toistuvista lohkosymboleista rakennettu piirustus tulee sisään vaillinaisena.
 - **DXF, ei DWG.** Katso alla oleva DWG-osio.
 - **Vain työpöytäselaimet** — Chrome, Firefox, Safari ja Edge. Mobiiliversiota ei ole.
 

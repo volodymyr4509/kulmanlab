@@ -61,6 +61,7 @@ Zahrnuty jsou všechny typy objektů:
 - Leaders (vícenásobné odkazové čáry)
 - Hatches včetně vzoru, měřítka, úhlu a počátku
 - Hladiny a typy čar
+- Výplně SOLID a reference bloků včetně bloků, které kreslí
 
 ### Export DXF
 
@@ -73,6 +74,7 @@ Zahrnuty jsou všechny typy objektů:
 - Hatches s jejich vzorem, měřítkem, úhlem a počátkem
 - Hladiny a typy čar
 - Rozvržení s názvy, velikostí papíru a pořadím záložek, vším, co je v nich nakresleno, a jejich výřezy včetně měřítka a zámku — takže se rozvržení po opětovném otevření souboru vrátí beze změny
+- Výplně jako `SOLID` a reference bloků jako `INSERT` s hodnotami atributů; jejich bloky se zapisují jako definice bloků
 
 Soubor se zapisuje jako DXF AC1032, takže výkres exportovaný z KulmanLab se v jiných nástrojích schopných číst DXF otevře s neporušenými poznámkami, místo aby dorazil jako holá geometrie.
 

@@ -48,6 +48,7 @@ L'éditeur est prérempli avec le libellé rendu actuel de la cote pour que vous
 | Double-clic sur une entité **Text** existante | Rouvre l'éditeur en **rich** mode |
 | Double-clic sur un **Multileader** existant | Ouvre l'éditeur en **rich** mode |
 | Double-clic sur une entité de **cote** | Ouvre l'éditeur en **simple** mode |
+| Double-cliquer sur une **référence de bloc** | Modifie l’attribut sous le curseur en mode **simple**, sur une ligne — Entrée termine ; la valeur ne change que pour cette référence |
 | `Échap` dans l'éditeur | Ferme l'éditeur et sauvegarde tous les changements |
 
 ## Barre d'outils

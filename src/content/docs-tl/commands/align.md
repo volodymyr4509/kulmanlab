@@ -15,7 +15,7 @@ Muling pinopositio ng `Ihanay` command ang mga napiling entity gamit ang isa o d
 **Pre-select, tapos i-align** — piliin muna ang mga entity, pagkatapos i-activate:
 
 1. Piliin ang isa o higit pang entity sa canvas.
-2. I-type ang `Ihanay` sa terminal o i-click ang **Align** button sa toolbar.
+2. I-type ang `Ihanay` sa terminal o piliin ang **Align** mula sa dropdown sa Edit panel.
 3. **I-click ang unang source point (S1)**, tapos **i-click ang unang destination point (D1)**.
 4. **I-click ang ikalawang source point (S2)**, o pindutin ang **Enter** o **Space** para agad na ilapat ang isang translate-only na alignment.
 5. **I-click ang ikalawang destination point (D2)**.
@@ -23,7 +23,7 @@ Muling pinopositio ng `Ihanay` command ang mga napiling entity gamit ang isa o d
 
 **Activate, tapos select** — simulan ang command nang walang naka-select:
 
-1. I-type ang `Ihanay` o i-click ang toolbar button.
+1. I-type ang `Ihanay` o piliin ang **Align** mula sa dropdown.
 2. **Piliin ang mga object** — mag-click para i-toggle ang bawat entity, o mag-drag para pumili ayon sa area.
 3. Pindutin ang **Enter** o **Space** para kumpirmahin ang seleksyon.
 4. Ituloy sa S1 → D1 → S2 → D2 → scale prompt gaya ng nasa itaas.

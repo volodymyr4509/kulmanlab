@@ -142,6 +142,8 @@ Jokainen komento noudattaa samaa kaavaa:
 2. **Seuraa kehotetta** — terminaali näyttää, mitä syötettä seuraavaksi odotetaan.
 3. **Viimeistele tai peruuta** — useimmat komennot viimeistyvät automaattisesti viimeisen syötteen jälkeen. Paina **Escape** milloin tahansa peruuttaaksesi.
 
+Kirjoitetut komennot hyväksyvät myös tavalliset lyhyet aliakset, kuten `L` Linelle, `C` Circlelle, `TR` Trimille ja `X` Explodelle.
+
 ## Objektien valitseminen
 
 Useat muokkauskomennot (Move, Copy, Rotate, Mirror, Scale, Delete) jakavat saman valintakäyttäytymisen:
@@ -150,3 +152,5 @@ Useat muokkauskomennot (Move, Copy, Rotate, Mirror, Scale, Delete) jakavat saman
 - **Vedä oikealle** (vasemmalta oikealle) tiukkaa valintaa varten — vain kokonaan laatikon sisällä olevat entiteetit valitaan.
 - **Vedä vasemmalle** (oikealta vasemmalle) risteysvalintaa varten — mikä tahansa laatikon leikkaava entiteetti valitaan.
 - Paina **Enter** tai **Space** vahvistaaksesi valinnan ja siirtyäksesi seuraavaan vaiheeseen.
+
+Kun mikään komento ei ole käynnissä, voit valita myös **lassolla**: paina tyhjää kohtaa ja vedä haluamasi ympäri. Myötäpäivään piirrettynä se ottaa vain kokonaan sisällä olevan; vastapäivään piirrettynä myös sen, mihin se koskee. Ohjauspalkin **Lasso**-kytkin poistaa sen käytöstä.

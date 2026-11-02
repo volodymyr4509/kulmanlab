@@ -38,7 +38,6 @@ Iš čia galite slinkti ir artinti, perjunginėti sluoksnius, matuoti atstumus i
 **Kur jis nepasiekia — perskaitykite tai, prieš pasikliaudami:**
 
 - **Tik 2D.** DXF su 3D kūnais ar tinklais yra netinkamas failas šiam įrankiui.
-- **Jokių blokų.** Bloko nuorodos (`INSERT`) neapdorojamos, todėl brėžinys, sudarytas iš pasikartojančių blokų simbolių, įsikels nepilnas.
 - **DXF, o ne DWG.** Žr. žemiau esantį DWG skyrių.
 - **Tik darbalaukio naršyklės** — Chrome, Firefox, Safari ir Edge. Mobiliosios versijos nėra.
 

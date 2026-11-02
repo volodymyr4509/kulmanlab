@@ -42,6 +42,8 @@ KulmanLab zpracovává následující typy objektů DXF:
 | Dimension | `DIMENSION` | |
 | Multileader | `MULTILEADER` | |
 | Hatch | `HATCH` | Načte se název vzoru, měřítko a úhel; název, který není ve vaší knihovně vzorů, se vrátí k ANSI31. Viz [Hatch](../hatch/) |
+| Block Reference | `INSERT` | Kreslí se tak, jak ji soubor uložil: hodnoty atributů zobrazeny, entity skryté stavem dynamického bloku vynechány |
+| Solid | `SOLID` | Plochá výplň se třemi nebo čtyřmi rohy, jako černé úseky grafického měřítka |
 
 Definice hladin a tabulky typů čar se z souboru DXF rovněž importují, pokud jsou přítomny.
 

@@ -59,6 +59,7 @@ Alle entitetstyper er inkludert:
 - Leaders (multi-ledelinjer)
 - Hatches, inkludert mønster, skalering, vinkel og origo
 - Layers og Linetypes
+- Solider og blokkreferanser, med blokkene de tegner
 
 ### DXF-eksport
 
@@ -71,6 +72,7 @@ Alle entitetstyper er inkludert:
 - Hatches, inkludert mønster, skalering, vinkel og origo
 - Layers og Linetypes
 - Layouter med navn, papirstørrelse og fanerekkefølge, alt som er tegnet på hver, og visningsvinduene deres med målestokk og lås — så en layout kommer tilbake uendret når filen åpnes igjen
+- Solider som `SOLID`, og blokkreferanser som `INSERT` med attributtverdiene sine; blokkene skrives som blokkdefinisjoner
 
 Filen skrives som AC1032-DXF, så en tegning eksportert fra KulmanLab åpnes med påtegningene sine i behold i andre DXF-kyndige verktøy i stedet for å komme fram som ren geometri.
 

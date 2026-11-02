@@ -48,6 +48,7 @@ Editor diisi terlebih dahulu dengan label yang dirender dari dimensi saat ini se
 | Klik dua kali entitas **Text** yang ada | Membuka kembali editor dalam mode **kaya** |
 | Klik dua kali **Multileader** yang ada | Membuka editor dalam mode **kaya** |
 | Klik dua kali entitas **dimensi** | Membuka editor dalam mode **sederhana** |
+| Klik ganda pada **referensi blok** | Mengedit atribut di bawah kursor dalam mode **sederhana**, dalam satu baris — Enter menyelesaikan; nilainya berubah hanya untuk referensi itu |
 | `Escape` di dalam editor | Menutup editor dan menyimpan semua perubahan |
 
 ## Toolbar

@@ -48,6 +48,7 @@ The editor is pre-seeded with the current dimension's rendered label so you can 
 | Double-click an existing **Text** entity | Re-opens the editor in **rich** mode |
 | Double-click an existing **Multileader** | Opens the editor in **rich** mode |
 | Double-click a **dimension** entity | Opens the editor in **simple** mode |
+| Double-click a **block reference** | Edits the attribute under the cursor in **simple** mode, on one line — Enter finishes; the value changes for that reference only |
 | `Escape` inside the editor | Closes the editor and keeps all changes |
 
 ## Toolbar

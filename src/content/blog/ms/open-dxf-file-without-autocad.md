@@ -38,7 +38,6 @@ Dari situ anda boleh mengalih dan mengezum, menghidup dan mematikan lapisan, men
 **Di mana kelemahannya — baca ini sebelum bergantung padanya:**
 
 - **2D sahaja.** DXF yang mengandungi pepejal atau jejaring 3D ialah fail yang salah untuk alat ini.
-- **Tiada blok.** Rujukan blok (`INSERT`) tidak dihurai, jadi lukisan yang dibina daripada simbol blok berulang akan masuk secara tidak lengkap.
 - **DXF, bukan DWG.** Lihat bahagian DWG di bawah.
 - **Pelayar desktop sahaja** — Chrome, Firefox, Safari dan Edge. Tiada versi mudah alih.
 

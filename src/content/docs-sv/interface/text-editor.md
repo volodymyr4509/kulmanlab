@@ -48,6 +48,7 @@ Editorn fylls i förväg med den aktuella måttsättningens renderade etikett s�
 | Dubbelklicka på en befintlig **Text**-entitet | Öppnar editorn igen i **rich**-läge |
 | Dubbelklicka på en befintlig **Multileader** | Öppnar editorn i **rich**-läge |
 | Dubbelklicka på en **måttsättnings**-entitet | Öppnar editorn i **simple**-läge |
+| Dubbelklicka på en **blockreferens** | Redigerar attributet under markören i läget **simple**, på en rad — Enter avslutar; värdet ändras bara för den referensen |
 | `Escape` inuti editorn | Stänger editorn och behåller alla ändringar |
 
 ## Verktygsfält

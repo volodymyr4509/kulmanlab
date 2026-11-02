@@ -59,7 +59,6 @@ Worth knowing before you rely on it:
 
 - **Untick annotation rather than deleting it.** Text, dimensions, leaders and hatches all export now, so anything left in the drawing lands in the file. You don't have to delete it: the Export Manager lists every entity type with its own checkbox, so unticking Text, the dimension rows, Leaders and Hatches gives you a DXF of cut geometry and nothing else, with the drawing itself untouched.
 - **Text lands as `MTEXT`, which is not the same as engravable geometry.** Lettering exports with its formatting intact, but plenty of machine software wants outlines rather than live text on an engrave layer. Check what yours accepts before planning engraved lettering around it.
-- **Block references don't import.** A drawing built from repeated block symbols arrives incomplete, so check part counts against the original.
 
 Splines *do* export. Some machine software handles them poorly and prefers polylines — if yours does, redraw curves as polylines or arcs.
 

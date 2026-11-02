@@ -38,7 +38,6 @@ Từ đó bạn có thể di chuyển và phóng to thu nhỏ, bật tắt lớp
 **Chỗ còn thiếu — hãy đọc trước khi trông cậy vào nó:**
 
 - **Chỉ 2D.** File DXF chứa khối đặc hoặc lưới 3D là file không phù hợp với công cụ này.
-- **Không hỗ trợ block.** Tham chiếu block (`INSERT`) không được phân tích, nên bản vẽ dựng từ các ký hiệu block lặp lại sẽ vào thiếu.
 - **DXF, không phải DWG.** Xem phần DWG bên dưới.
 - **Chỉ trình duyệt trên máy tính** — Chrome, Firefox, Safari và Edge. Không có bản cho di động.
 

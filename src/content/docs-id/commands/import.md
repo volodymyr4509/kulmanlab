@@ -42,6 +42,8 @@ KulmanLab mengurai tipe entitas DXF berikut:
 | Dimension | `DIMENSION` | |
 | Multileader | `MULTILEADER` | |
 | Hatch | `HATCH` | Nama, skala, dan sudut pola dibaca; nama yang tidak ada di pustaka pola Anda kembali ke ANSI31. Lihat [Hatch](../hatch/) |
+| Block Reference | `INSERT` | Digambar seperti yang disimpan file: nilai atribut ditampilkan, entitas yang disembunyikan keadaan blok dinamis ditinggalkan |
+| Solid | `SOLID` | Isian datar dengan tiga atau empat sudut, seperti ruas hitam pada skala batang |
 
 Definisi layer dan tabel tipe garis juga diimpor dari file DXF jika ada.
 

@@ -59,7 +59,6 @@ Vale saber antes de contar com isso:
 
 - **Desmarque a anotação em vez de apagá-la.** Texto, cotas, diretrizes e hachuras agora são todos exportados, então tudo que você deixar no desenho acaba no arquivo. Não precisa apagar: o Export Manager lista cada tipo de entidade com sua própria caixa, então desmarcar Text, as linhas de cotas, Leaders e Hatches dá um DXF só com a geometria de corte, deixando o desenho intacto.
 - **O texto sai como `MTEXT`, o que não é o mesmo que geometria gravável.** As letras são exportadas com a formatação intacta, mas muitos softwares de máquina querem contornos em vez de texto vivo numa camada de gravação. Verifique o que o seu aceita antes de planejar gravação em cima disso.
-- **Referências de bloco não são importadas.** Um desenho montado com símbolos de bloco repetidos chega incompleto, então confira a contagem de peças contra o original.
 
 Splines *são* exportadas. Alguns softwares de máquina lidam mal com elas e preferem polilinhas — se for o seu caso, redesenhe as curvas como polilinhas ou arcos.
 

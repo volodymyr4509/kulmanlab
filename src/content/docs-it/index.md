@@ -142,6 +142,8 @@ Ogni comando segue lo stesso schema:
 2. **Segui il prompt** — il terminale indica quale input è atteso successivamente.
 3. **Termina o annulla** — la maggior parte dei comandi termina automaticamente dopo l'ultimo input. Premi **Esc** in qualsiasi momento per annullare.
 
+I comandi digitati accettano anche gli alias brevi standard, come `L` per Line, `C` per Circle, `TR` per Trim e `X` per Explode.
+
 ## Selezionare oggetti
 
 Diversi comandi di modifica (Move, Copy, Rotate, Mirror, Scale, Delete) condividono lo stesso comportamento di selezione:
@@ -150,3 +152,5 @@ Diversi comandi di modifica (Move, Copy, Rotate, Mirror, Scale, Delete) condivid
 - **Trascina verso destra** (da sinistra a destra) per la selezione rigorosa — vengono selezionate solo le entità completamente all'interno del riquadro.
 - **Trascina verso sinistra** (da destra a sinistra) per la selezione incrociata — viene selezionata qualsiasi entità che interseca il riquadro.
 - Premi **Invio** o **Spazio** per confermare la selezione e passare al passaggio successivo.
+
+Senza comandi in corso puoi anche selezionare con il **lazo**: premi su un punto vuoto e trascina attorno a ciò che vuoi. Tracciato in senso orario prende solo ciò che sta interamente dentro; in senso antiorario anche ciò che tocca. L’interruttore **Lasso** nella barra di controllo lo disattiva.

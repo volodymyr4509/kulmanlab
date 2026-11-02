@@ -142,6 +142,8 @@ Setiap arahan mengikuti corak yang sama:
 2. **Ikuti gesaan** — terminal menunjukkan input yang dijangkakan seterusnya.
 3. **Selesai atau batal** — kebanyakan arahan selesai secara automatik selepas input terakhir. Tekan **Escape** pada bila-bila masa untuk membatalkan.
 
+Perintah yang ditaip juga menerima alias pendek standard, seperti `L` untuk Line, `C` untuk Circle, `TR` untuk Trim dan `X` untuk Explode.
+
 ## Memilih objek
 
 Beberapa arahan edit (Move, Copy, Rotate, Mirror, Scale, Delete) berkongsi tingkah laku pemilihan yang sama:
@@ -150,3 +152,5 @@ Beberapa arahan edit (Move, Copy, Rotate, Mirror, Scale, Delete) berkongsi tingk
 - **Seret ke kanan** (kiri ke kanan) untuk pemilihan ketat — hanya entiti yang sepenuhnya berada di dalam kotak dipilih.
 - **Seret ke kiri** (kanan ke kiri) untuk pemilihan silang — mana-mana entiti yang bersilang dengan kotak dipilih.
 - Tekan **Enter** atau **Space** untuk mengesahkan pemilihan dan meneruskan ke langkah seterusnya.
+
+Apabila tiada perintah berjalan, anda juga boleh memilih dengan **laso**: tekan pada tempat kosong dan seret mengelilingi apa yang anda mahu. Dilukis ikut arah jam, ia mengambil hanya yang terletak sepenuhnya di dalam; lawan arah jam, ia turut mengambil yang disentuhnya. Togol **Lasso** dalam bar kawalan mematikannya.

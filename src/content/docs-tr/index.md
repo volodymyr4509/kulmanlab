@@ -142,6 +142,8 @@ Her komut aynı kalıbı izler:
 2. **İstemi takip et** — terminal bir sonraki beklenen girişi gösterir.
 3. **Tamamla veya iptal et** — çoğu komut son girişten sonra otomatik olarak tamamlanır. İptal etmek için istediğiniz zaman **Escape** tuşuna basın.
 
+Yazılan komutlar standart kısa takma adları da kabul eder; örneğin Line için `L`, Circle için `C`, Trim için `TR` ve Explode için `X`.
+
 ## Nesne Seçimi
 
 Birkaç düzenleme komutu (Move, Copy, Rotate, Mirror, Scale, Delete) aynı seçim davranışını paylaşır:
@@ -150,3 +152,5 @@ Birkaç düzenleme komutu (Move, Copy, Rotate, Mirror, Scale, Delete) aynı seç
 - **Sağa sürükleyin** (soldan sağa) katı seçim için — yalnızca çerçevenin tamamen içindeki nesneler seçilir.
 - **Sola sürükleyin** (sağdan sola) çapraz seçim için — çerçeveyle kesişen herhangi bir nesne seçilir.
 - Seçimi onaylamak ve sonraki adıma geçmek için **Enter** veya **Boşluk** tuşuna basın.
+
+Çalışan bir komut yokken **kement** ile de seçebilirsiniz: boş bir noktaya basıp istediğiniz şeyin çevresinden sürükleyin. Saat yönünde çizildiğinde yalnızca tamamen içinde kalanı, saat yönünün tersine çizildiğinde dokunduğunu da alır. Kontrol çubuğundaki **Lasso** düğmesi onu kapatır.

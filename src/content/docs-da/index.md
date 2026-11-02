@@ -142,6 +142,8 @@ Hver kommando følger samme mønster:
 2. **Følg prompten** — terminalen viser hvilken input der forventes næste.
 3. **Fuldfør eller annullér** — de fleste kommandoer fuldføres automatisk efter sidste input. Tryk **Escape** når som helst for at annullere.
 
+Indtastede kommandoer accepterer også de gængse korte aliasser, som `L` for Line, `C` for Circle, `TR` for Trim og `X` for Explode.
+
 ## Vælge objekter
 
 Flere redigeringskommandoer (Move, Copy, Rotate, Mirror, Scale, Delete) deler samme markeringsadfærd:
@@ -150,3 +152,5 @@ Flere redigeringskommandoer (Move, Copy, Rotate, Mirror, Scale, Delete) deler sa
 - **Træk mod højre** (venstre til højre) for streng markering — kun entiteter helt inde i boksen bliver valgt.
 - **Træk mod venstre** (højre til venstre) for krydsningsmarkering — enhver entitet der krydser boksen bliver valgt.
 - Tryk **Enter** eller **Space** for at bekræfte markeringen og gå videre til næste trin.
+
+Når ingen kommando kører, kan du også vælge med **lasso**: tryk på et tomt sted og træk rundt om det, du vil have. Tegnet med uret tager den kun det, der ligger helt indenfor; mod uret tager den også det, den rører. Knappen **Lasso** i kontrollinjen slår den fra.

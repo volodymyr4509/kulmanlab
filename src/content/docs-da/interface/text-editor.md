@@ -48,6 +48,7 @@ Editoren er forudfyldt med målets aktuelle gengivne etiket, så du kan placere 
 | Dobbeltklik en eksisterende **Text**-entitet | Genåbner editoren i **rig** tilstand |
 | Dobbeltklik en eksisterende **Multileader** | Åbner editoren i **rig** tilstand |
 | Dobbeltklik en **dimension**-entitet | Åbner editoren i **simpel** tilstand |
+| Dobbeltklik på en **blokreference** | Redigerer attributten under markøren i **simpel**-tilstand, på én linje — Enter afslutter; værdien ændres kun for den reference |
 | `Escape` inde i editoren | Lukker editoren og bevarer alle ændringer |
 
 ## Værktøjslinje

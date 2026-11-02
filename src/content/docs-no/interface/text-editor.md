@@ -48,6 +48,7 @@ Editoren er forhåndsutfylt med målets gjengitte etikett, slik at du kan plasse
 | Dobbeltklikk på en eksisterende **Text**-entitet | Åpner editoren igjen i **rik** modus |
 | Dobbeltklikk på en eksisterende **Multileader** | Åpner editoren i **rik** modus |
 | Dobbeltklikk på en **mål**-entitet | Åpner editoren i **enkel** modus |
+| Dobbeltklikk på en **blokkreferanse** | Redigerer attributtet under markøren i **enkel**-modus, på én linje — Enter avslutter; verdien endres bare for den referansen |
 | `Escape` inne i editoren | Lukker editoren og beholder alle endringer |
 
 ## Verktøylinje

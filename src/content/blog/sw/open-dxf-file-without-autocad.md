@@ -38,7 +38,6 @@ Kuanzia hapo unaweza kusogeza na kukuza, kuwasha na kuzima tabaka, kupima umbali
 **Mapungufu yake — soma haya kabla ya kuitegemea:**
 
 - **2D pekee.** DXF yenye vitu vigumu vya 3D au nyavu ni faili isiyofaa kwa zana hii.
-- **Hakuna vitalu.** Marejeo ya vitalu (`INSERT`) hayachambuliwi, kwa hiyo mchoro uliojengwa kwa alama za vitalu zinazorudiwa utaingia ukiwa haujakamilika.
 - **DXF, si DWG.** Angalia sehemu ya DWG hapa chini.
 - **Vivinjari vya kompyuta pekee** — Chrome, Firefox, Safari na Edge. Hakuna toleo la simu.
 

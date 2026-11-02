@@ -59,7 +59,6 @@ Verta žinoti, prieš jį pasitikint:
 
 - **Anotaciją atžymėkite, o ne trinkite.** Tekstas, matmenys, išnašos ir brūkšniuotės dabar visi eksportuojami, todėl viskas, kas lieka brėžinyje, patenka į failą. Jums nereikia jų trinti: Export Manager išvardija kiekvieną objekto tipą su savo žymimuoju langeliu, todėl nuėmus Text, keturių matmenų eilučių, Leaders ir Hatches žymėjimą, gaunate DXF su pjovimo geometrija ir nieko daugiau, o pats brėžinys lieka nepaliestas.
 - **Tekstas patenka kaip `MTEXT`, kas nėra tas pats, kas graviruojama geometrija.** Užrašai eksportuojami su nepažeistu formatavimu, tačiau daug staklių programinės įrangos nori kontūrų, o ne gyvo teksto graviravimo sluoksnyje. Patikrinkite, ką priima jūsiškė, prieš planuodami graviruotus užrašus.
-- **Bloko nuorodos neimportuojamos.** Brėžinys, sudarytas iš pasikartojančių blokų simbolių, atkeliauja nepilnas, todėl patikrinkite detalių kiekius pagal originalą.
 
 Splainai *eksportuojami*. Kai kuri staklių programinė įranga juos tvarko prastai ir teikia pirmenybę polilinijoms — jei jūsiškė tokia, perbraižykite kreives kaip polilinijas ar lankus.
 

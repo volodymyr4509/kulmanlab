@@ -253,6 +253,8 @@ KulmanLab is a free, browser-based 2D CAD editor. No installation, no account, n
 - Arc can be drawn seven ways; Polygon draws regular polygons of 3–1024 sides from a center or an edge; Array Grid and Array Polar repeat a selection in rows and columns or round a center
 - Trim, Extend and Hatch work with splines, including a spline that crosses itself
 - Point places POINT entities at clicked or typed positions, read from and written to DXF; Point Divide places points that split an object into equal lengths, Point Interval places them a set length apart
+- Blocks: block references (INSERT) are read from DXF and drawn as the file saved them — attribute values shown, a dynamic block's hidden states left out — and written back with their blocks; Explode takes them apart, a double-click edits an attribute value, and snapping, Trim, Extend and Hatch work with what they draw. Filled SOLIDs are read, drawn and written too
+- Lasso selection (press on an empty spot and drag; clockwise takes what lies inside, anticlockwise also what it touches), and standard command aliases such as L, C, TR and X
 - Measure reads distances, lengths, angles, and the area and perimeter of a closed area around the cursor, with nothing to pick
 - Dimension unit formats (scientific, decimal, engineering, architectural, fractional, system; angular decimal degrees, deg/min/sec, gradians, radians), with Precision read in the chosen format
 - Full layer management: create, rename, freeze, lock, isolate, color, linetype, lineweight per layer
@@ -266,7 +268,7 @@ KulmanLab is a free, browser-based 2D CAD editor. No installation, no account, n
 - Print manager: PDF and PNG/WebP export with DPI control
 - On-canvas text editing (MTEXT) with Bold, Italic, per-character font and size
 - Font Manager: browse built-in and Google Fonts, or upload custom .ttf files
-- DXF export carries geometry, text (MTEXT), dimensions, leaders, and hatches, each with its own per-entity-type checklist
+- DXF export carries geometry, text (MTEXT), dimensions, leaders, hatches, block references and solids, each with its own per-entity-type checklist
 - Installable from the browser as a PWA
 - Undo/redo history
 - Adaptive CAD grid with snap-to-grid
@@ -275,7 +277,7 @@ KulmanLab is a free, browser-based 2D CAD editor. No installation, no account, n
 
 - 3D modelling
 - DWG format (proprietary binary — export DXF from your source app instead)
-- Blocks / xrefs
+- Xrefs
 - Parametric constraints
 - Real-time collaboration (single-user, local only)
 
@@ -297,7 +299,7 @@ DXF and JSON via Export Manager — both carry every entity type (geometry, text
 Yes. AC1032 DXF opens correctly in LibreCAD, QCAD, BricsCAD, FreeCAD, and any DXF-capable tool.
 
 **Can KulmanLab replace my desktop CAD software?**
-For 2D drafting — yes. It has a full command terminal, layers, snapping, dimensions, grip editing, and DXF compatibility. It does not support 3D, blocks/xrefs, or parametric constraints.
+For 2D drafting — yes. It has a full command terminal, layers, snapping, dimensions, grip editing, and DXF compatibility. It does not support 3D, xrefs, or parametric constraints.
 
 **Is real-time collaboration supported?**
 Not currently. KulmanLab is a single-user tool.
@@ -332,7 +334,7 @@ The `align` command repositions selected entities using one or two pairs of sour
 **Pre-select, then align** — select entities first, then activate:
 
 1. Select one or more entities on the canvas.
-2. Type `align` in the terminal or click the **Align** toolbar button.
+2. Type `align` in the terminal or choose **Align** from the dropdown in the Edit panel.
 3. **Click the first source point (S1)**, then **click the first destination point (D1)**.
 4. **Click the second source point (S2)**, or press **Enter** or **Space** to apply a translate-only alignment now.
 5. **Click the second destination point (D2)**.
@@ -340,7 +342,7 @@ The `align` command repositions selected entities using one or two pairs of sour
 
 **Activate, then select** — start the command with nothing selected:
 
-1. Type `align` or click the toolbar button.
+1. Type `align` or choose **Align** from the dropdown.
 2. **Select objects** — click to toggle individual entities, or drag to select by area.
 3. Press **Enter** or **Space** to confirm the selection.
 4. Continue with S1 → D1 → S2 → D2 → scale prompt as above.
@@ -2078,7 +2080,7 @@ Ellipses are saved as `ELLIPSE` entities in the DXF file. The format stores the 
 
 The `explode` command breaks a [Polyline](https://kulmanlab.com/docs/commands/polyline/) into its individual [Line](https://kulmanlab.com/docs/commands/line/) and [Arc](https://kulmanlab.com/docs/commands/arc/) entities — one per segment, exactly where the polyline's own vertices were. The pieces replace the polyline in place and keep its lineweight, color, layer, and linetype.
 
-Explode works on **Polyline** entities only.
+Explode works on **Polyline** entities and **block references**.
 
 ## Using explode
 
@@ -2087,17 +2089,17 @@ Two ways to run it, the same pattern as [Delete](https://kulmanlab.com/docs/comm
 **Pre-select, then explode** — the fastest path:
 
 1. Select one or more polylines on the canvas.
-2. Type `explode` in the terminal, or click the **Explode** toolbar button in the Edit panel.
+2. Type `explode` in the terminal, or choose **Explode** from the dropdown in the Edit panel.
 
 The selected polylines are exploded instantly — no separate confirmation step, since something is already selected.
 
 **Activate, then select**:
 
-1. Type `explode` or click the toolbar button with nothing selected.
-2. **Select polylines** — click to toggle, or drag to select by area.
+1. Type `explode` or choose **Explode** from the dropdown with nothing selected.
+2. **Select polylines or block references** — click to toggle, or drag to select by area.
 3. Press **Enter** or **Space** to confirm and explode the selected polylines.
 
-Only polylines are picked up during selection — clicking a Line, Circle, or any other entity does nothing, and an area drag ignores everything except the polylines inside or crossing it.
+Only polylines and block references are picked up during selection — clicking a Line, Circle, or any other entity does nothing, and an area drag ignores everything else inside or crossing it.
 
 ## What comes out
 
@@ -2108,22 +2110,25 @@ Every segment of the polyline becomes its own entity:
 
 Each resulting Line and Arc inherits the source polyline's **lineweight, color, layer, linetype, and linetype scale** — nothing about how the geometry looks changes, only that it's now several independent entities instead of one connected polyline.
 
+A **block reference** becomes the entities its block draws, placed where the reference showed them. Entities the block holds hidden — a dynamic block's other states — are left out; each attribute becomes a plain Text with its value; pieces drawn ByBlock take the reference's color, and pieces on layer 0 take its layer. A block nested inside comes out as a block reference of its own, which you can explode in turn. A reference scaled differently in X and Y is not picked up, since its circles would have to become ellipses.
+
 The explode is undoable as a single step with [Undo](https://kulmanlab.com/docs/commands/undo/), like any other edit.
 
 ## Selection during the command
 
 | Method | Behaviour |
 |--------|-----------|
-| **Click** | Toggles the polyline under the cursor in/out of the selection; clicking a non-polyline entity does nothing |
-| **Drag right** (strict) | Selects only polylines fully inside the box |
-| **Drag left** (crossing) | Selects polylines that intersect the box boundary |
-| **Enter** / **Space** | Confirms and explodes the selected polylines |
+| **Click** | Toggles the polyline or block reference under the cursor in/out of the selection; clicking any other entity does nothing |
+| **Drag right** (strict) | Selects only polylines and block references fully inside the box |
+| **Drag left** (crossing) | Selects polylines and block references that intersect the box boundary |
+| **Enter** / **Space** | Confirms and explodes the selection |
 
 ## Supported entities
 
 | Entity | Supported |
 |--------|-----------|
 | Polyline / Rectangle | Yes |
+| Block reference | Yes, unless scaled differently in X and Y |
 | Line, Arc, Circle, Ellipse | No — nothing to explode |
 | Text, Spline, Dimension, Leader, Hatch | No |
 
@@ -2185,6 +2190,7 @@ Every entity type is included:
 - Leaders (multileaders)
 - Hatches, including their pattern, scale, angle, and origin
 - Layers and linetypes
+- Solids and block references, with the blocks they draw
 
 ### DXF export
 
@@ -2197,6 +2203,7 @@ Every entity type is included:
 - Hatches, with their pattern, scale, angle, and origin
 - Layers and linetypes
 - Layouts, with their names, paper size and tab order, everything drawn on each, and their viewports with scale and lock — so a layout comes back intact when the file is opened again
+- Solids as `SOLID`, and block references as `INSERT` with their attribute values, their blocks written as block definitions
 
 The file is written as AC1032 DXF, so a drawing exported from KulmanLab opens with its annotation intact in other DXF-capable tools rather than arriving as bare geometry.
 
@@ -2860,6 +2867,8 @@ KulmanLab parses the following DXF entity types:
 | Dimension | `DIMENSION` | |
 | Multileader | `MULTILEADER` | |
 | Hatch | `HATCH` | Pattern name, scale, and angle are read; a name not in your pattern library falls back to ANSI31. See [Hatch](https://kulmanlab.com/docs/commands/hatch/) |
+| Block Reference | `INSERT` | Drawn as the file saved it: attribute values shown, entities a dynamic block's state hides left out |
+| Solid | `SOLID` | A flat fill with three or four corners, such as a scale bar's black segments |
 
 Layer definitions and linetype tables are also imported from the DXF file when present.
 
@@ -5758,7 +5767,7 @@ Selecting many entities at once opens the property panel in its multi-selection 
 
 ## Opening the filter
 
-1. Select several entities — drag a selection box, Shift-click, or Ctrl+A.
+1. Select several entities — drag a selection box, draw a lasso, Shift-click, or Ctrl+A.
 2. Click the **filter icon** (funnel) in the property panel header.
 3. A popup opens below the button with a checklist for each property that actually varies across the selection.
 
@@ -5836,6 +5845,7 @@ The editor is pre-seeded with the current dimension's rendered label so you can 
 | Double-click an existing **Text** entity | Re-opens the editor in **rich** mode |
 | Double-click an existing **Multileader** | Opens the editor in **rich** mode |
 | Double-click a **dimension** entity | Opens the editor in **simple** mode |
+| Double-click a **block reference** | Edits the attribute under the cursor in **simple** mode, on one line — Enter finishes; the value changes for that reference only |
 | `Escape` inside the editor | Closes the editor and keeps all changes |
 
 ## Toolbar
@@ -6034,6 +6044,8 @@ Every command follows the same pattern:
 2. **Follow the prompt** — the terminal shows what input is expected next.
 3. **Finish or cancel** — most commands finish automatically after the last input. Press **Escape** at any time to cancel.
 
+Typed commands also accept the standard short aliases, such as `L` for Line, `C` for Circle, `TR` for Trim and `X` for Explode.
+
 ## Selecting objects
 
 Several edit commands (Move, Copy, Rotate, Mirror, Scale, Delete) share the same selection behaviour:
@@ -6042,3 +6054,5 @@ Several edit commands (Move, Copy, Rotate, Mirror, Scale, Delete) share the same
 - **Drag right** (left to right) for strict selection — only entities fully inside the box are selected.
 - **Drag left** (right to left) for crossing selection — any entity that intersects the box is selected.
 - Press **Enter** or **Space** to confirm the selection and proceed to the next step.
+
+With no command running, you can also select by **lasso**: press on an empty spot and drag around what you want. Drawn clockwise it takes only what lies wholly inside; drawn anticlockwise it also takes what it touches. The **Lasso** toggle in the control bar turns it off.

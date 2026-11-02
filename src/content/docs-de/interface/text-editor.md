@@ -48,6 +48,7 @@ Der Editor ist mit der aktuellen Bemaßungsbeschriftung vorbelegt, sodass Sie de
 | Auf eine vorhandene **Text**-Entität doppelklicken | Öffnet den Editor im **rich** mode erneut |
 | Auf einen vorhandenen **Multileader** doppelklicken | Öffnet den Editor im **rich** mode |
 | Auf eine **Bemaßungs**-Entität doppelklicken | Öffnet den Editor im **simple** mode |
+| Doppelklick auf eine **Blockreferenz** | Bearbeitet das Attribut unter dem Cursor im Modus **simple**, einzeilig — Enter beendet; der Wert ändert sich nur für diese Referenz |
 | `Escape` im Editor | Schließt den Editor und behält alle Änderungen bei |
 
 ## Werkzeugleiste

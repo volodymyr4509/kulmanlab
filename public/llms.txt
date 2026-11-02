@@ -267,17 +267,19 @@ It is designed for engineers, architects, and technical illustrators who need a 
 
 ## Key features
 
-- Full command terminal with history, keyboard navigation, and fuzzy autocomplete (matches letters anywhere in a command's name, ranked by match quality then by actual usage frequency)
+- Full command terminal with history, keyboard navigation, and fuzzy autocomplete (matches letters anywhere in a command's name, ranked by match quality then by actual usage frequency); standard short aliases such as L, C, TR and X work as in other CAD programs
 - 50+ drawing commands: Line, Polyline, Circle, Arc (seven ways to define one), Ellipse, Rectangle, Polygon (3–1024 sides, from a center or an edge), Spline, Hatch, Text (MTEXT), Dimensions, Leaders, and more
 - Named TextStyle, LeaderStyle, and DimensionStyle managers set reusable defaults for new annotations, with STYLE, MLEADERSTYLE, and DIMSTYLE DXF round-tripping
 - Polyline arc segments — toggle Arc mode (A) mid-polyline for AutoCAD-style tangent arc segments, fully supported by render, selection, grip editing, trim/extend, DXF, and hatch boundaries
 - Rotate has a Copy toggle (C) — rotate duplicates instead of the original selection, AutoCAD ROTATE-style
 - Selection filter: narrow a large multi-selection by Type, Layer, Color, Lineweight, or Linetype before bulk-editing, via a filter icon in the property panel
+- Lasso selection: press on an empty spot and drag around what you want — clockwise takes what lies wholly inside, anticlockwise also what it touches; a Lasso toggle in the control bar turns it off
 - Hatch fills any closed boundary with a pattern (ANSI31 and other standard patterns built in); Hatch Manager browses the pattern library and lets you upload your own .pat files, which shadow built-in patterns of the same name
 - Array Grid repeats a selection in rows and columns with typed spacing — no point-picking
 - Array Polar repeats a selection round a center with a chosen number of items, angle and fill, with copies that turn as they go round or keep their own orientation
 - Trim, Extend and Hatch work with splines, including a spline that crosses itself
 - Point places POINT entities at clicked or typed positions, read from and written to DXF; Point Divide places points that split an object into equal lengths, Point Interval places them a set length apart
+- Blocks: block references (INSERT) are read from DXF and drawn as the file saved them — attribute values shown, a dynamic block's hidden states left out — and written back with their blocks; Explode takes them apart, a double-click edits an attribute value, and snapping, Trim, Extend and Hatch work with what they draw. Filled SOLIDs are read, drawn and written too
 - Measure reads distances, lengths, angles, and the area and perimeter of a closed area around the cursor, with nothing to pick
 - Dimensions have a unit format — scientific, decimal, engineering, architectural, fractional or system for lengths; decimal degrees, deg/min/sec, gradians or radians for angles — and Precision reads in the chosen format
 - Layer management with color, linetype, and lineweight per layer; LayerManager deletes unused layers, refusing any layer still assigned to an entity in model space or on a layout
@@ -287,7 +289,7 @@ It is designed for engineers, architects, and technical illustrators who need a 
 - Layout / paper space with multiple layouts and viewport editing; layout tabs reorder by dragging, and layouts — their paper, entities and viewports — survive a DXF export and re-import
 - ISO 5455 scale selector for viewports
 - Print manager: PDF and PNG/WebP export with a Draft/Normal/Presentation/Max Quality (DPI) setting; preview renders through the exact same path as the export, so what you see is what downloads
-- DXF import and export — geometry, text (MTEXT), dimensions, leaders, and hatches all round-trip, compatible with LibreCAD, QCAD, BricsCAD, FreeCAD
+- DXF import and export — geometry, text (MTEXT), dimensions, leaders, hatches, block references and solids all round-trip, compatible with LibreCAD, QCAD, BricsCAD, FreeCAD
 - Installable from the browser as a PWA — works like a native app, no app store needed
 - Match Properties command (copy color, layer, linetype, lineweight)
 - ClipboardCopy / ClipboardPaste (Ctrl+C / Ctrl+V) — copy entities to the system clipboard as JSON and paste them into another drawing or another browser tab; referenced layers and linetypes travel with them
@@ -351,7 +353,7 @@ Yes. KulmanLab reads and writes AC1032 DXF — a widely supported version. Files
 DXF is an open, text-based exchange format designed for interoperability. DWG is a proprietary binary format. KulmanLab uses DXF, which is readable by virtually every CAD tool.
 
 **Can KulmanLab replace my desktop CAD software?**
-For 2D drafting — yes. KulmanLab has a full command terminal, layers, snapping, dimensions, grip editing, and DXF compatibility. It does not support 3D, blocks/xrefs, or parametric constraints.
+For 2D drafting — yes. KulmanLab has a full command terminal, layers, snapping, dimensions, grip editing, and DXF compatibility. It does not support 3D, xrefs, or parametric constraints.
 
 **Does KulmanLab collect my drawing data?**
 No. Your drawings stay in your browser and are never sent anywhere. KulmanLab uses Google Analytics for anonymous usage metrics (page views, session counts) — no drawing content is involved.

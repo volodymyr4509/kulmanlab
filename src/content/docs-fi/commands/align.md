@@ -15,7 +15,7 @@ Komento `Tasaa` sijoittaa valitut entiteetit uudelleen käyttäen yhtä tai kaht
 **Valitse ensin, kohdista sitten** — valitse entiteetit ensin, aktivoi sitten:
 
 1. Valitse yksi tai useampi entiteetti piirtoalueella.
-2. Kirjoita `Tasaa` terminaaliin tai napsauta **Align**-painiketta työkalurivillä.
+2. Kirjoita `Tasaa` terminaaliin tai valitse **Align** Edit-paneelin pudotusvalikosta.
 3. **Napsauta ensimmäistä lähdepistettä (S1)**, napsauta sitten **ensimmäistä kohdepistettä (D1)**.
 4. **Napsauta toista lähdepistettä (S2)**, tai paina **Enter** tai **Space** käyttääksesi vain siirtoa nyt.
 5. **Napsauta toista kohdepistettä (D2)**.
@@ -23,7 +23,7 @@ Komento `Tasaa` sijoittaa valitut entiteetit uudelleen käyttäen yhtä tai kaht
 
 **Aktivoi, valitse sitten** — aloita komento ilman mitään valittuna:
 
-1. Kirjoita `Tasaa` tai napsauta työkalurivin painiketta.
+1. Kirjoita `Tasaa` tai valitse **Align** pudotusvalikosta.
 2. **Valitse objektit** — napsauta vaihtaaksesi yksittäisiä entiteettejä, tai vedä valitaksesi alueen mukaan.
 3. Paina **Enter** tai **Space** vahvistaaksesi valinnan.
 4. Jatka S1 → D1 → S2 → D2 → skaalauskysymys kuten yllä.

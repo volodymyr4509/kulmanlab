@@ -59,7 +59,6 @@ Värt att veta innan du förlitar dig på det:
 
 - **Bocka ur anteckningar i stället för att radera dem.** Text, mått, hänvisningar och skrafferingar exporteras nu allihop, så allt du lämnar kvar i ritningen hamnar i filen. Du behöver inte radera det: Export Manager listar varje objekttyp med en egen kryssruta, så genom att bocka ur Text, måttraderna, Leaders och Hatches får du en DXF med enbart skärgeometri, medan själva ritningen lämnas orörd.
 - **Text hamnar som `MTEXT`, vilket inte är samma sak som graverbar geometri.** Bokstäverna exporteras med formateringen i behåll, men en hel del maskinprogram vill ha konturer i stället för levande text på ett graveringslager. Kontrollera vad ditt accepterar innan du planerar gravyr utifrån det.
-- **Blockreferenser importeras inte.** En ritning uppbyggd av upprepade blocksymboler kommer in ofullständig, så stäm av antalet detaljer mot originalet.
 
 Splines *exporteras* däremot. Vissa maskinprogram hanterar dem dåligt och föredrar polylinjer — är ditt ett sådant, rita om kurvorna som polylinjer eller bågar.
 

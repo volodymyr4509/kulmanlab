@@ -12,7 +12,7 @@ Sélectionner beaucoup d'entités à la fois ouvre le panneau des propriétés d
 
 ## Ouvrir le filtre
 
-1. Sélectionnez plusieurs entités — tracez un cadre de sélection, cliquez avec Maj ou appuyez sur Ctrl+A.
+1. Sélectionnez plusieurs entités — faites glisser un cadre de sélection, tracez un lasso, Maj-clic ou Ctrl+A.
 2. Cliquez sur l'**icône de filtre** (entonnoir) dans l'en-tête du panneau des propriétés.
 3. Une fenêtre s'ouvre sous le bouton, avec une liste à cocher pour chaque propriété qui varie réellement dans la sélection.
 

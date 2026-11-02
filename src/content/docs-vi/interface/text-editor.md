@@ -47,6 +47,7 @@ Trình soạn thảo được điền sẵn nhãn hiển thị hiện tại củ
 | Nhấp đúp thực thể **Text** hiện có | Mở lại trình soạn thảo ở chế độ **phong phú** |
 | Nhấp đúp **Leader** hiện có | Mở trình soạn thảo ở chế độ **phong phú** |
 | Nhấp đúp thực thể **kích thước** | Mở trình soạn thảo ở chế độ **đơn giản** |
+| Nhấp đúp vào **tham chiếu khối** | Sửa thuộc tính dưới con trỏ ở chế độ **đơn giản**, trên một dòng — Enter để xong; giá trị chỉ đổi cho tham chiếu đó |
 | `Escape` bên trong trình soạn thảo | Đóng trình soạn thảo và giữ tất cả thay đổi |
 
 ## Thanh công cụ

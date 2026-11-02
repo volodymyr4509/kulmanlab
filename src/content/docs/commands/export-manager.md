@@ -61,6 +61,7 @@ Every entity type is included:
 - Leaders (multileaders)
 - Hatches, including their pattern, scale, angle, and origin
 - Layers and linetypes
+- Solids and block references, with the blocks they draw
 
 ### DXF export
 
@@ -73,6 +74,7 @@ Every entity type is included:
 - Hatches, with their pattern, scale, angle, and origin
 - Layers and linetypes
 - Layouts, with their names, paper size and tab order, everything drawn on each, and their viewports with scale and lock — so a layout comes back intact when the file is opened again
+- Solids as `SOLID`, and block references as `INSERT` with their attribute values, their blocks written as block definitions
 
 The file is written as AC1032 DXF, so a drawing exported from KulmanLab opens with its annotation intact in other DXF-capable tools rather than arriving as bare geometry.
 

@@ -59,6 +59,7 @@ Uwzględniony jest każdy typ elementu:
 - Leaders (multileadery)
 - Hatches, wraz z ich wzorem, skalą, kątem i punktem początkowym
 - Layers i Linetypes
+- Bryły i odniesienia do bloków wraz z blokami, które rysują
 
 ### Eksport DXF
 
@@ -71,6 +72,7 @@ Uwzględniony jest każdy typ elementu:
 - Hatches, wraz z ich wzorem, skalą, kątem i punktem początkowym
 - Layers i Linetypes
 - Układy, z nazwami, formatem papieru i kolejnością zakładek, wszystkim, co na nich narysowano, oraz rzutniami ze skalą i blokadą — dzięki temu układ wraca nienaruszony po ponownym otwarciu pliku
+- Bryły jako `SOLID`, a odniesienia do bloków jako `INSERT` z wartościami atrybutów; ich bloki są zapisywane jako definicje bloków
 
 Plik jest zapisywany jako DXF AC1032, więc rysunek wyeksportowany z KulmanLab otwiera się w innych narzędziach obsługujących DXF z nienaruszonymi opisami, a nie dociera jako naga geometria.
 

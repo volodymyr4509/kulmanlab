@@ -42,6 +42,8 @@ O KulmanLab analisa os seguintes tipos de entidade DXF:
 | Dimension | `DIMENSION` | |
 | Multileader | `MULTILEADER` | |
 | Hatch | `HATCH` | O nome, a escala e o ângulo do padrão são lidos; um nome que não está na sua biblioteca de padrões recorre a ANSI31. Veja [Hatch](../hatch/) |
+| Block Reference | `INSERT` | Desenhada como o arquivo a salvou: valores de atributo exibidos, entidades ocultas pelo estado de um bloco dinâmico deixadas de fora |
+| Solid | `SOLID` | Preenchimento plano de três ou quatro cantos, como os trechos pretos de uma barra de escala |
 
 Definições de camada e tabelas de tipo de linha também são importadas do arquivo DXF quando presentes.
 

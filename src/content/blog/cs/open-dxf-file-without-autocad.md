@@ -38,7 +38,6 @@ Odtud můžete posouvat a přibližovat, přepínat hladiny, měřit vzdálenost
 **Kde nedosahuje — přečtěte si to, než se na něj spolehnete:**
 
 - **Pouze 2D.** DXF obsahující 3D tělesa nebo sítě je pro tento nástroj špatný soubor.
-- **Žádné bloky.** Odkazy na bloky (`INSERT`) se nezpracovávají, takže výkres sestavený z opakovaných blokových symbolů se načte neúplný.
 - **DXF, nikoli DWG.** Viz část o DWG níže.
 - **Pouze desktopové prohlížeče** — Chrome, Firefox, Safari a Edge. Mobilní verze neexistuje.
 

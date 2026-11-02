@@ -59,7 +59,6 @@ Hyvä tietää ennen kuin luotat siihen:
 
 - **Poista merkintöjen rasti sen sijaan että poistaisit ne.** Teksti, mitat, osoitusviivat ja rasteroinnit viedään nyt kaikki, joten kaikki piirustukseen jätetty päätyy tiedostoon. Poistaa ei tarvitse: Export Manager luettelee jokaisen objektityypin omalla valintaruudullaan, joten poistamalla rastit kohdista Text, mittarivit, Leaders ja Hatches saat DXF:n jossa on leikkausgeometria eikä muuta — piirustus itse pysyy koskemattomana.
 - **Teksti tulee ulos `MTEXT`-muodossa, eikä se ole sama asia kuin kaiverrettava geometria.** Kirjaimet viedään muotoiluineen, mutta moni konesovellus haluaa kaiverrustasolle ääriviivat elävän tekstin sijaan. Tarkista, mitä omasi hyväksyy, ennen kuin suunnittelet kaiverrusta sen varaan.
-- **Lohkoviittauksia ei tuoda.** Toistuvista lohkosymboleista rakennettu piirustus tulee sisään vaillinaisena, joten tarkista osamäärä alkuperäistä vasten.
 
 Splinit sen sijaan *viedään*. Jotkin koneohjelmistot käsittelevät niitä huonosti ja suosivat murtoviivoja — jos omasi on sellainen, piirrä käyrät uudelleen murtoviivoina tai kaarina.
 

@@ -141,6 +141,8 @@ Kowane umarni yana bin tsari iri ɗaya:
 2. **Bin tambaya** — tasha tana nuna irin shigarwar da ake sa ran gaba.
 3. **Kammalawa ko soke** — yawancin umarni suna kammalawa kai tsaye bayan shigarwa ta ƙarshe. Danna **Escape** a kowane lokaci don soke.
 
+Umarnin da ake rubutawa suna karɓar gajerun sunaye na yau da kullum, kamar `L` don Line, `C` don Circle, `TR` don Trim da `X` don Explode.
+
 ## Zaɓen abubuwa
 
 Wasu umarnin gyara (Move, Copy, Rotate, Mirror, Scale, Delete) suna raba hali iri ɗaya na zaɓi:
@@ -149,3 +151,5 @@ Wasu umarnin gyara (Move, Copy, Rotate, Mirror, Scale, Delete) suna raba hali ir
 - **Ja dama** (daga hagu zuwa dama) don zaɓi mai tsauri — kawai abubuwan da suke cikin akwatin gaba ɗaya ake zaɓarsu.
 - **Ja hagu** (daga dama zuwa hagu) don zaɓi mai haɗuwa — kowane abu da ya taɓa akwatin ana zaɓarsa.
 - Danna **Enter** ko **Space** don tabbatar da zaɓi ka ci gaba zuwa mataki na gaba.
+
+Idan babu umarnin da ke gudana, za ka iya kuma zaɓe da **lasso**: danna wuri marar komai ka ja zagaye abin da kake so. Idan aka zana shi bisa agogo yana ɗaukar abin da ke ciki gaba ɗaya kawai; idan saɓanin agogo yana ɗaukar har abin da ya taɓa. Maɓallin **Lasso** a sandar sarrafawa yana kashe shi.

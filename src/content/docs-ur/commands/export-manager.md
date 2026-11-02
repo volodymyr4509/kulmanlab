@@ -59,6 +59,7 @@ Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text �
 - Leaders (multileaders)
 - Hatches، ان کے pattern، scale، angle، اور origin سمیت
 - Layers اور Linetypes
+- سالڈز اور بلاک ریفرنسز، ان بلاکس سمیت جو وہ بناتے ہیں
 
 ### DXF ایکسپورٹ
 
@@ -71,6 +72,7 @@ Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text �
 - Hatches، ان کے pattern، scale، angle، اور origin سمیت
 - Layers اور Linetypes
 - لے آؤٹ، ان کے نام، کاغذ کا سائز اور ٹیب کی ترتیب، ہر ایک پر بنی ہر چیز، اور اسکیل و لاک سمیت ان کے ویوپورٹس — تاکہ فائل دوبارہ کھولنے پر لے آؤٹ جوں کا توں واپس آئے
+- سالڈز `SOLID` کے طور پر، اور بلاک ریفرنسز اپنی ایٹریبیوٹ قدروں سمیت `INSERT` کے طور پر؛ ان کے بلاکس بلاک تعریفوں کے طور پر لکھے جاتے ہیں
 
 فائل AC1032 DXF کے طور پر لکھی جاتی ہے، سو KulmanLab سے برآمد کیا گیا نقشہ دوسرے DXF پڑھنے والے اوزاروں میں اپنے حواشی سمیت کھلتا ہے، محض ننگا ہندسہ بن کر نہیں پہنچتا۔
 

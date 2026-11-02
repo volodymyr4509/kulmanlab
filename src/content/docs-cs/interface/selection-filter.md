@@ -12,7 +12,7 @@ Výběr mnoha objektů najednou otevře panel vlastností v zobrazení vícenás
 
 ## Otevření filtru
 
-1. Vyberte několik objektů — tažením výběrového rámečku, Shift-kliknutím nebo Ctrl+A.
+1. Vyberte několik entit — táhněte výběrový rámeček, nakreslete laso, Shift+klik nebo Ctrl+A.
 2. Klikněte na **ikonu filtru** (nálevka) v záhlaví panelu vlastností.
 3. Pod tlačítkem se otevře vyskakovací okno se seznamem pro každou vlastnost, která se napříč výběrem skutečně liší.
 

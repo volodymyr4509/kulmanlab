@@ -48,6 +48,7 @@ L'editor è precompilato con l'etichetta visualizzata corrente della quota in mo
 | Doppio clic su un'entità **Text** esistente | Riapre l'editor in **rich** mode |
 | Doppio clic su un **Multileader** esistente | Apre l'editor in **rich** mode |
 | Doppio clic su un'entità **quota** | Apre l'editor in **simple** mode |
+| Doppio clic su un **riferimento a blocco** | Modifica l’attributo sotto il cursore in modalità **simple**, su una riga — Enter conclude; il valore cambia solo per quel riferimento |
 | `Esc` all'interno dell'editor | Chiude l'editor e mantiene tutte le modifiche |
 
 ## Barra degli strumenti

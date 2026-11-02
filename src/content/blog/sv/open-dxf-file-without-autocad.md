@@ -38,7 +38,6 @@ Därifrån kan du panorera och zooma, tända och släcka lager, mäta avstånd o
 **Var det brister — läs detta innan du förlitar dig på det:**
 
 - **Endast 2D.** En DXF som innehåller 3D-solider eller mesher är fel fil för det här verktyget.
-- **Inga block.** Blockreferenser (`INSERT`) tolkas inte, så en ritning uppbyggd av upprepade blocksymboler kommer in ofullständig.
 - **DXF, inte DWG.** Se DWG-avsnittet nedan.
 - **Endast skrivbordswebbläsare** — Chrome, Firefox, Safari och Edge. Det finns ingen mobilversion.
 

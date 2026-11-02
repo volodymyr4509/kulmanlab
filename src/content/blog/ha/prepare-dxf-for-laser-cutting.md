@@ -59,7 +59,6 @@ Ya kamata a sani kafin ka dogara da shi:
 
 - **Cire alamar bayanai maimakon share su.** Rubutu, ma'auni, layukan nuni da lallausan zane duk ana fitar da su yanzu, don haka duk abin da ka bari a zanen zai shiga fayil ɗin. Ba sai ka share ba: Export Manager yana lissafa kowane nau'in abu da akwatin zaɓinsa, don haka cire alamar Text, layukan ma'auni, Leaders da Hatches yana ba ka DXF mai siffofin yankewa kaɗai, zanen kansa kuwa bai canja ba.
 - **Rubutu yana fita a matsayin `MTEXT`, wanda ba daidai yake da siffofin da za a iya sassaƙa ba.** Haruffa suna fita tare da tsarinsu, amma yawancin manhajojin inji suna son zanen waje maimakon rubutu mai rai a kan sashen sassaƙa. Ka duba abin da naka yake karɓa kafin ka tsara sassaƙa a kansa.
-- **Ba a shigo da nassoshin block ba.** Zanen da aka gina daga alamun block da ake maimaitawa yana shigowa bai cika ba, don haka ka duba adadin kaya idan aka kwatanta da na asali.
 
 Splines kuwa *ana fitar da su*. Wasu manhajojin inji ba sa sarrafa su sosai kuma sun fi son layuka masu yawa — idan naka haka ne, ka sake zana lanƙwasa a matsayin layuka masu yawa ko bakuna.
 

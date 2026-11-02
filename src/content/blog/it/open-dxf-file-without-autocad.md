@@ -38,7 +38,6 @@ Da lì puoi spostarti e zoomare, accendere e spegnere i layer, misurare distanze
 **Dove si ferma — leggilo prima di farci affidamento:**
 
 - **Solo 2D.** Un DXF che contiene solidi o mesh 3D è il file sbagliato per questo strumento.
-- **Niente blocchi.** I riferimenti a blocco (`INSERT`) non vengono elaborati, quindi un disegno costruito con simboli a blocco ripetuti arriverà incompleto.
 - **DXF, non DWG.** Vedi la sezione DWG più avanti.
 - **Solo browser desktop** — Chrome, Firefox, Safari ed Edge. Non esiste una versione mobile.
 

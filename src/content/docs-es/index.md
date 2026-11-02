@@ -142,6 +142,8 @@ Cada comando sigue el mismo patrón:
 2. **Seguir el indicador** — el terminal muestra qué entrada se espera a continuación.
 3. **Finalizar o cancelar** — la mayoría de los comandos terminan automáticamente después de la última entrada. Presiona **Escape** en cualquier momento para cancelar.
 
+Los comandos escritos también aceptan los alias cortos habituales, como `L` para Line, `C` para Circle, `TR` para Trim y `X` para Explode.
+
 ## Seleccionar objetos
 
 Varios comandos de edición (Move, Copy, Rotate, Mirror, Scale, Delete) comparten el mismo comportamiento de selección:
@@ -150,3 +152,5 @@ Varios comandos de edición (Move, Copy, Rotate, Mirror, Scale, Delete) comparte
 - **Arrastra a la derecha** (de izquierda a derecha) para selección estricta — solo se seleccionan las entidades completamente dentro del recuadro.
 - **Arrastra a la izquierda** (de derecha a izquierda) para selección cruzada — se selecciona cualquier entidad que cruce el recuadro.
 - Presiona **Enter** o **Space** para confirmar la selección y pasar al siguiente paso.
+
+Sin ningún comando en marcha, también puedes seleccionar con **lazo**: pulsa en un punto vacío y arrastra alrededor de lo que quieras. Trazado en sentido horario toma solo lo que queda totalmente dentro; en sentido antihorario, también lo que toca. El interruptor **Lasso** de la barra de control lo desactiva.

@@ -42,6 +42,8 @@ KulmanLab analyse les types d'entités DXF suivants :
 | Cote | `DIMENSION` | |
 | Multirépère | `MULTILEADER` | |
 | Hatch | `HATCH` | Le nom, l'échelle et l'angle du motif sont lus ; un nom absent de votre bibliothèque de motifs revient à ANSI31. Voir [Hatch](../hatch/) |
+| Block Reference | `INSERT` | Dessinée comme le fichier l’a enregistrée : valeurs d’attribut affichées, entités masquées par l’état d’un bloc dynamique omises |
+| Solid | `SOLID` | Remplissage plein à trois ou quatre sommets, comme les cases noires d’une barre d’échelle |
 
 Les définitions de calques et les tables de types de ligne sont aussi importées du fichier DXF quand elles sont présentes.
 

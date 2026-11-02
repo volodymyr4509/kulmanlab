@@ -15,7 +15,7 @@ Polecenie `Wyrównaj` zmienia położenie zaznaczonych elementów za pomocą jed
 **Wstępne zaznaczenie, a następnie wyrównanie** — najpierw zaznacz elementy, a następnie aktywuj:
 
 1. Zaznacz jeden lub więcej elementów na płótnie.
-2. Wpisz `Wyrównaj` w terminalu lub kliknij przycisk **Align** na pasku narzędzi.
+2. Wpisz `Wyrównaj` w terminalu albo wybierz **Align** z rozwijanego menu panelu Edit.
 3. **Kliknij pierwszy punkt źródłowy (S1)**, następnie **pierwszy punkt docelowy (D1)**.
 4. **Kliknij drugi punkt źródłowy (S2)** lub naciśnij **Enter** lub **Spację**, aby od razu zastosować wyrównanie z samym przesunięciem.
 5. **Kliknij drugi punkt docelowy (D2)**.
@@ -23,7 +23,7 @@ Polecenie `Wyrównaj` zmienia położenie zaznaczonych elementów za pomocą jed
 
 **Aktywuj, a następnie zaznacz** — uruchom polecenie bez zaznaczonego niczego:
 
-1. Wpisz `Wyrównaj` lub kliknij przycisk paska narzędzi.
+1. Wpisz `Wyrównaj` albo wybierz **Align** z rozwijanego menu.
 2. **Zaznacz obiekty** — kliknij, aby przełączać poszczególne elementy, lub przeciągnij, aby zaznaczyć obszarem.
 3. Naciśnij **Enter** lub **Spację**, aby potwierdzić zaznaczenie.
 4. Kontynuuj S1 → D1 → S2 → D2 → pytanie o skalowanie jak powyżej.

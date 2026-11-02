@@ -15,7 +15,7 @@ Umarnin `Daidaita` yana sake matsayin abubuwan da aka zaɓa ta amfani da nauʼi 
 **Zaɓi tukuna, sannan daidaita** — zaɓi abubuwa tukuna, sannan kunna:
 
 1. Zaɓi wani abu ɗaya ko fiye a kan canvas.
-2. Rubuta `Daidaita` a tashar umarni ko danna maɓallin kayan aiki na **Align**.
+2. Rubuta `Daidaita` a tashar umarni ko zaɓi **Align** daga jerin zaɓin kwamitin Edit.
 3. **Danna tabon tushe na farko (S1)**, sannan **danna tabon manufa na farko (D1)**.
 4. **Danna tabon tushe na biyu (S2)**, ko danna **Enter** ko **Space** don yin daidaitawa ta motsawa-kaɗai yanzu.
 5. **Danna tabon manufa na biyu (D2)**.
@@ -23,7 +23,7 @@ Umarnin `Daidaita` yana sake matsayin abubuwan da aka zaɓa ta amfani da nauʼi 
 
 **Kunna, sannan zaɓi** — fara umarnin ba tare da zaɓi ba:
 
-1. Rubuta `Daidaita` ko danna maɓallin kayan aiki.
+1. Rubuta `Daidaita` ko zaɓi **Align** daga jerin zaɓi.
 2. **Zaɓi abubuwa** — danna don canza zaɓi na kowane abu, ko ja don zaɓi ta yanki.
 3. Danna **Enter** ko **Space** don tabbatar da zaɓi.
 4. Ci gaba da S1 → D1 → S2 → D2 → tambayar canza girma kamar yadda aka bayyana a sama.

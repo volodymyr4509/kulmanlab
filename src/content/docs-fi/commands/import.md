@@ -42,6 +42,8 @@ KulmanLab jäsentää seuraavat DXF-entiteettityypit:
 | Dimension | `DIMENSION` | |
 | Multileader | `MULTILEADER` | |
 | Hatch | `HATCH` | Kuvion nimi, skaala ja kulma luetaan; nimi, jota ei ole kuviokirjastossasi, palautuu ANSI31:een. Katso [Hatch](../hatch/) |
+| Block Reference | `INSERT` | Piirretään niin kuin tiedosto sen tallensi: attribuuttien arvot näkyvät, dynaamisen lohkon tilan piilottamat entiteetit jätetään pois |
+| Solid | `SOLID` | Kolmi- tai nelikulmainen tasainen täyttö, kuten mittakaavapalkin mustat osat |
 
 Tasomääritykset ja linetype-taulukot tuodaan myös DXF-tiedostosta, kun niitä on olemassa.
 

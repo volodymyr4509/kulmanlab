@@ -59,7 +59,6 @@ Verdt å vite før du stoler på det:
 
 - **Fjern haken ved påtegninger i stedet for å slette dem.** Tekst, mål, henvisninger og skravering eksporteres nå alle, så alt du lar bli igjen i tegningen havner i filen. Du trenger ikke slette det: Export Manager lister hver elementtype med sin egen avkryssingsboks, så når du fjerner haken ved Text, målradene, Leaders og Hatches, får du en DXF med skjæregeometri og ingenting annet — og selve tegningen røres ikke.
 - **Tekst havner som `MTEXT`, som ikke er det samme som graverbar geometri.** Bokstavene eksporteres med formateringen i behold, men mye maskinprogramvare vil ha konturer framfor levende tekst på et graveringslag. Sjekk hva din godtar før du planlegger gravering ut fra det.
-- **Blokkreferanser importeres ikke.** En tegning bygget av gjentatte blokksymboler kommer inn ufullstendig, så sjekk antall deler mot originalen.
 
 Splines *blir* eksportert. Noen maskinprogrammer håndterer dem dårlig og foretrekker polylinjer — er ditt slik, tegn om kurvene som polylinjer eller buer.
 

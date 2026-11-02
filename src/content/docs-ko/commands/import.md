@@ -42,6 +42,8 @@ KulmanLab은 다음 DXF 객체 유형을 파싱합니다:
 | 치수 | `DIMENSION` | |
 | 다중 지시선 | `MULTILEADER` | |
 | Hatch | `HATCH` | 패턴 이름, 스케일, 각도가 읽힙니다; 패턴 라이브러리에 없는 이름은 ANSI31로 대체됩니다. [Hatch](../hatch/) 참조 |
+| Block Reference | `INSERT` | 파일에 저장된 대로 그림: 속성 값을 표시하고 동적 블록의 상태가 숨긴 객체는 제외 |
+| Solid | `SOLID` | 축척 막대의 검은 칸처럼 모서리가 셋 또는 넷인 평면 채우기 |
 
 레이어 정의와 선종류 테이블도 DXF 파일에 있으면 가져옵니다.
 

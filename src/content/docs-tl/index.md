@@ -142,6 +142,8 @@ Sinusunod ng bawat command ang parehong pattern:
 2. **Sundin ang prompt** — ipinapakita ng terminal kung anong input ang inaasahan sunod.
 3. **Tapusin o kanselahin** — karamihan sa mga command ay awtomatikong natatapos pagkatapos ng huling input. Pindutin ang **Escape** anumang oras para kanselahin.
 
+Tumatanggap din ang mga tina-type na command ng karaniwang maiikling alias, gaya ng `L` para sa Line, `C` para sa Circle, `TR` para sa Trim at `X` para sa Explode.
+
 ## Pagpili ng mga Object
 
 Maraming edit command (Move, Copy, Rotate, Mirror, Scale, Delete) ang may parehong selection behavior:
@@ -150,3 +152,5 @@ Maraming edit command (Move, Copy, Rotate, Mirror, Scale, Delete) ang may pareho
 - **I-drag pakanan** (kaliwa papuntang kanan) para sa strict selection — mapipili lang ang mga entity na buong nasa loob ng box.
 - **I-drag pakaliwa** (kanan papuntang kaliwa) para sa crossing selection — mapipili ang anumang entity na sumasalubong sa box.
 - Pindutin ang **Enter** o **Space** para kumpirmahin ang selection at magpatuloy sa susunod na hakbang.
+
+Kapag walang tumatakbong command, maaari ka ring pumili gamit ang **lasso**: pindutin ang bakanteng puwesto at i-drag sa paligid ng gusto mo. Kapag iginuhit pakanan, kinukuha lang nito ang buong nasa loob; kapag pakaliwa, kinukuha rin ang nadadaanan nito. Pinapatay ito ng **Lasso** toggle sa control bar.

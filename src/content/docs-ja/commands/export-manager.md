@@ -59,6 +59,7 @@ Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text �
 - Leaders（マルチリーダー）
 - Hatches（パターン、スケール、角度、原点を含む）
 - LayersとLinetypes
+- ソリッドとブロック参照（描画するブロックを含む）
 
 ### DXFエクスポート
 
@@ -71,6 +72,7 @@ Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text �
 - Hatches（パターン、スケール、角度、原点を含む）
 - LayersとLinetypes
 - レイアウト（名前、用紙サイズ、タブの順序、各レイアウトに描かれたすべて、尺度とロックを含むビューポート）— ファイルを再び開いてもレイアウトはそのまま戻ります
+- ソリッドは `SOLID`、ブロック参照は属性値付きの `INSERT` として書き出し、ブロックはブロック定義として書き出し
 
 ファイルはAC1032のDXFとして書き出されるため、KulmanLabから書き出した図面は、素の図形として届くのではなく、他のDXF対応ツールでも注記を保ったまま開きます。
 

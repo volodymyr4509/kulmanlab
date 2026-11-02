@@ -38,7 +38,6 @@ Vanaf daar kun je pannen en zoomen, lagen aan- en uitzetten, afstanden en hoeken
 **Waar het tekortschiet — lees dit voordat je erop vertrouwt:**
 
 - **Alleen 2D.** Een DXF met 3D-solids of meshes is het verkeerde bestand voor deze tool.
-- **Geen blocks.** Blockverwijzingen (`INSERT`) worden niet verwerkt, dus een tekening die uit herhaalde blocksymbolen is opgebouwd komt onvolledig binnen.
 - **DXF, geen DWG.** Zie het DWG-onderdeel hieronder.
 - **Alleen desktopbrowsers** — Chrome, Firefox, Safari en Edge. Er is geen mobiele versie.
 

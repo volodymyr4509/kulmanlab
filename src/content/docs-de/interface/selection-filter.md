@@ -12,7 +12,7 @@ Werden mehrere Elemente auf einmal ausgewählt, öffnet sich das Eigenschaftenfe
 
 ## Den Filter öffnen
 
-1. Wählen Sie mehrere Elemente aus — ziehen Sie einen Auswahlrahmen, klicken Sie mit Shift oder drücken Sie Strg+A.
+1. Wählen Sie mehrere Entitäten aus — Auswahlrahmen ziehen, Lasso zeichnen, Shift-Klick oder Strg+A.
 2. Klicken Sie auf das **Filtersymbol** (Trichter) in der Kopfzeile des Eigenschaftenfensters.
 3. Unterhalb der Schaltfläche öffnet sich ein Popup mit einer Checkliste für jede Eigenschaft, die innerhalb der Auswahl tatsächlich variiert.
 

@@ -48,6 +48,7 @@ Kihariri kimejazwa awali na lebo inayoonyeshwa ya dimension ya sasa ili uweze ku
 | Bonyeza mara mbili kipande cha **Text** kilichopo | Hufungua tena kihariri katika hali **tajiri** |
 | Bonyeza mara mbili **Multileader** iliyopo | Hufungua kihariri katika hali **tajiri** |
 | Bonyeza mara mbili kipande cha **dimension** | Hufungua kihariri katika hali **rahisi** |
+| Bofya mara mbili **rejeleo la kizuizi** | Huhariri sifa iliyo chini ya kishale katika hali ya **rahisi**, kwa mstari mmoja — Enter humaliza; thamani hubadilika kwa rejeleo hilo pekee |
 | `Escape` ndani ya kihariri | Hufunga kihariri na kuhifadhi mabadiliko yote |
 
 ## Upau wa zana

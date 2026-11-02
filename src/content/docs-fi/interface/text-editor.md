@@ -48,6 +48,7 @@ Editori on esitäytetty mitan nykyisellä renderöidyllä merkinnällä, jotta v
 | Kaksoisnapsauta olemassa olevaa **Text**-entiteettiä | Avaa editorin uudelleen **rikkaassa** tilassa |
 | Kaksoisnapsauta olemassa olevaa **Multileaderia** | Avaa editorin **rikkaassa** tilassa |
 | Kaksoisnapsauta **mitta**-entiteettiä | Avaa editorin **yksinkertaisessa** tilassa |
+| Kaksoisnapsautus **lohkoviittaukseen** | Muokkaa kohdistimen alla olevaa attribuuttia **yksinkertaisessa**-tilassa yhdellä rivillä — Enter lopettaa; arvo muuttuu vain sille viittaukselle |
 | `Escape` editorin sisällä | Sulkee editorin ja säilyttää kaikki muutokset |
 
 ## Työkalurivi

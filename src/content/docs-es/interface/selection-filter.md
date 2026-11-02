@@ -12,7 +12,7 @@ Seleccionar muchas entidades a la vez abre el panel de propiedades en su vista d
 
 ## Abrir el filtro
 
-1. Seleccione varias entidades — arrastre un cuadro de selección, haga clic con Mayús o pulse Ctrl+A.
+1. Selecciona varias entidades: arrastra un recuadro de selección, dibuja un lazo, haz Mayús+clic o pulsa Ctrl+A.
 2. Haga clic en el **icono de filtro** (embudo) de la cabecera del panel de propiedades.
 3. Debajo del botón se abre una ventana con una lista de verificación por cada propiedad que realmente varía dentro de la selección.
 

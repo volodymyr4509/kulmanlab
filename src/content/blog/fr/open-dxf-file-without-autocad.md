@@ -38,7 +38,6 @@ Vous pouvez ensuite vous déplacer et zoomer, afficher ou masquer des calques, m
 **Ses limites — à lire avant de vous y fier :**
 
 - **2D uniquement.** Un DXF contenant des solides ou des maillages 3D n'est pas le bon fichier pour cet outil.
-- **Pas de blocs.** Les références de bloc (`INSERT`) ne sont pas analysées : un dessin construit à partir de symboles de bloc répétés arrivera incomplet.
 - **DXF, pas DWG.** Voir la section DWG plus bas.
 - **Navigateurs de bureau uniquement** — Chrome, Firefox, Safari et Edge. Il n'existe pas de version mobile.
 

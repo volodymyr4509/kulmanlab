@@ -59,7 +59,6 @@ Goed om te weten voordat je erop vertrouwt:
 
 - **Vink annotatie uit in plaats van haar te verwijderen.** Tekst, maatvoering, leaders en arceringen worden nu allemaal geëxporteerd, dus alles wat je in de tekening laat staan komt in het bestand terecht. Verwijderen hoeft niet: de Export Manager toont elk entiteitstype met een eigen vinkje, dus door Text, de maatvoeringsrijen, Leaders en Hatches uit te vinken krijg je een DXF met alleen snijgeometrie, terwijl de tekening zelf ongemoeid blijft.
 - **Tekst komt eruit als `MTEXT`, en dat is niet hetzelfde als graveerbare geometrie.** Het letterwerk wordt met opmaak en al geëxporteerd, maar heel wat machinesoftware wil contouren in plaats van levende tekst op een graveerlaag. Ga na wat de jouwe accepteert voordat je daar een gravure op baseert.
-- **Blockverwijzingen worden niet geïmporteerd.** Een tekening die uit herhaalde blocksymbolen is opgebouwd komt onvolledig binnen, dus controleer het aantal onderdelen tegen het origineel.
 
 Splines *worden* wel geëxporteerd. Sommige machinesoftware gaat er slecht mee om en werkt liever met polylijnen — is dat bij jou zo, teken de krommen dan opnieuw als polylijnen of bogen.
 

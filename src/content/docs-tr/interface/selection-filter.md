@@ -12,7 +12,7 @@ order: 7
 
 ## Filtreyi açma
 
-1. Birkaç nesne seçin — bir seçim çerçevesi sürükleyin, Shift ile tıklayın ya da Ctrl+A'ya basın.
+1. Birkaç nesne seçin — bir seçim kutusu sürükleyin, kement çizin, Shift ile tıklayın veya Ctrl+A.
 2. Özellik panelinin başlığındaki **filtre simgesine** (huni) tıklayın.
 3. Düğmenin altında, seçim içinde gerçekten değişkenlik gösteren her özellik için bir onay listesi içeren pencere açılır.
 

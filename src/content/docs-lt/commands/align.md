@@ -15,7 +15,7 @@ Komanda `align` perkelia pasirinktus objektus naudodama vieną ar dvi šaltinio/
 **Pirmiausia pasirinkti, tada lygiuoti** — pirma pasirinkite objektus, tada aktyvuokite:
 
 1. Drobėje pasirinkite vieną ar kelis objektus.
-2. Terminale įveskite `align` arba spustelėkite įrankių juostos mygtuką **Align**.
+2. Terminale įveskite `align` arba skydelio Edit išskleidžiamajame meniu pasirinkite **Align**.
 3. **Spustelėkite pirmąjį šaltinio tašką (S1)**, tada **pirmąjį paskirties tašką (D1)**.
 4. **Spustelėkite antrąjį šaltinio tašką (S2)** arba paspauskite **Enter** ar **Space**, kad iškart pritaikytumėte tik perkėlimo lygiavimą.
 5. **Spustelėkite antrąjį paskirties tašką (D2)**.
@@ -23,7 +23,7 @@ Komanda `align` perkelia pasirinktus objektus naudodama vieną ar dvi šaltinio/
 
 **Pirmiausia aktyvuoti, tada pasirinkti** — pradėkite komandą nieko nepasirinkę:
 
-1. Įveskite `align` arba spustelėkite įrankių juostos mygtuką.
+1. Įveskite `align` arba išskleidžiamajame meniu pasirinkite **Align**.
 2. **Pasirinkite objektus** — spustelėkite, kad perjungtumėte atskirus objektus, arba tempkite, kad pasirinktumėte sritimi.
 3. Paspauskite **Enter** arba **Space**, kad patvirtintumėte pasirinkimą.
 4. Tęskite S1 → D1 → S2 → D2 → mastelio raginimas, kaip aukščiau.

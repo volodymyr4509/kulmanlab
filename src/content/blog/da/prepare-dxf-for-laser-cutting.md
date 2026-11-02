@@ -59,7 +59,6 @@ Værd at vide, før du regner med det:
 
 - **Fjern fluebenet ved påtegninger i stedet for at slette dem.** Tekst, mål, henvisninger og skraveringer eksporteres nu alle, så alt, du efterlader i tegningen, havner i filen. Du behøver ikke slette det: Export Manager viser hver elementtype med sit eget afkrydsningsfelt, så når du fjerner fluebenet ved Text, målrækkerne, Leaders og Hatches, får du en DXF med skæregeometri og intet andet — og selve tegningen røres ikke.
 - **Tekst havner som `MTEXT`, hvilket ikke er det samme som graverbar geometri.** Bogstaverne eksporteres med formateringen i behold, men en hel del maskinsoftware vil have konturer frem for levende tekst på et graveringslag. Tjek, hvad din accepterer, før du planlægger gravering ud fra det.
-- **Blokreferencer importeres ikke.** En tegning bygget af gentagne bloksymboler kommer ind ufuldstændig, så hold antallet af dele op mod originalen.
 
 Splines *bliver* eksporteret. Nogle maskinprogrammer håndterer dem dårligt og foretrækker polylinjer — er dit sådan et, så tegn kurverne om som polylinjer eller buer.
 

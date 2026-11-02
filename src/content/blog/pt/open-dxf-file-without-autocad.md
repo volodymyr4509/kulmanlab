@@ -38,7 +38,6 @@ Dali você pode deslocar e dar zoom, ligar e desligar camadas, medir distâncias
 **Onde ele fica devendo — leia antes de contar com isso:**
 
 - **Somente 2D.** Um DXF com sólidos ou malhas 3D é o arquivo errado para esta ferramenta.
-- **Sem blocos.** Referências de bloco (`INSERT`) não são processadas, então um desenho montado com símbolos de bloco repetidos chegará incompleto.
 - **DXF, não DWG.** Veja a seção sobre DWG mais abaixo.
 - **Apenas navegadores de desktop** — Chrome, Firefox, Safari e Edge. Não existe versão para celular.
 

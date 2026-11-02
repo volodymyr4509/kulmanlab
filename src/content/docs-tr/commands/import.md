@@ -42,6 +42,8 @@ KulmanLab aşağıdaki DXF nesne türlerini ayrıştırır:
 | Ölçü | `DIMENSION` | |
 | Çoklu Gösterge | `MULTILEADER` | |
 | Hatch | `HATCH` | Desenin adı, ölçeği ve açısı okunur; desen kitaplığınızda olmayan bir ad ANSI31'e geri döner. [Hatch](../hatch/)'e bakın |
+| Block Reference | `INSERT` | Dosyanın kaydettiği gibi çizilir: öznitelik değerleri gösterilir, dinamik bir bloğun durumunun gizlediği nesneler dışarıda kalır |
+| Solid | `SOLID` | Bir ölçek çubuğunun siyah bölümleri gibi üç ya da dört köşeli düz dolgu |
 
 Katman tanımları ve çizgi türü tabloları da mevcutsa DXF dosyasından içe aktarılır.
 

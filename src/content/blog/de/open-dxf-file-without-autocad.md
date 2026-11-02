@@ -38,7 +38,6 @@ Von dort aus können Sie verschieben und zoomen, Layer ein- und ausblenden, Abst
 **Wo es an Grenzen stößt — lesen Sie das, bevor Sie sich darauf verlassen:**
 
 - **Nur 2D.** Eine DXF mit 3D-Volumenkörpern oder Netzen ist für dieses Werkzeug die falsche Datei.
-- **Keine Blöcke.** Blockreferenzen (`INSERT`) werden nicht ausgewertet; eine aus wiederkehrenden Blocksymbolen aufgebaute Zeichnung kommt daher unvollständig an.
 - **DXF, nicht DWG.** Siehe den DWG-Abschnitt weiter unten.
 - **Nur Desktop-Browser** — Chrome, Firefox, Safari und Edge. Eine mobile Version gibt es nicht.
 

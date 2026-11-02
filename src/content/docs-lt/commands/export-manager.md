@@ -61,6 +61,7 @@ Būtent tai padaro pjovimo failo paruošimą paprastą. Nuimkite Text, keturių 
 - Leaders (daugiašakės išnašos)
 - Brūkšniuotės, įskaitant jų raštą, mastelį, kampą ir pradžios tašką
 - Sluoksniai ir linijų tipai
+- Užpildai ir blokų nuorodos kartu su blokais, kuriuos jos braižo
 
 ### DXF eksportas
 
@@ -73,6 +74,7 @@ Būtent tai padaro pjovimo failo paruošimą paprastą. Nuimkite Text, keturių 
 - Brūkšniuotės su jų raštu, masteliu, kampu ir pradžios tašku
 - Sluoksniai ir linijų tipai
 - Išdėstymai su pavadinimais, popieriaus dydžiu ir skirtukų tvarka, viskuo, kas juose nubraižyta, ir peržiūros langais su masteliu bei užraktu — todėl vėl atidarius failą išdėstymas grįžta nepakitęs
+- Užpildai kaip `SOLID`, o blokų nuorodos kaip `INSERT` su atributų reikšmėmis; jų blokai įrašomi kaip blokų apibrėžimai
 
 Failas rašomas kaip AC1032 DXF, todėl iš KulmanLab eksportuotas brėžinys kituose DXF gebančiuose įrankiuose atsiveria su nepažeistomis anotacijomis, o ne kaip nuoga geometrija.
 

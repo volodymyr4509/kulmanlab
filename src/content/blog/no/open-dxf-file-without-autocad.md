@@ -38,7 +38,6 @@ Derfra kan du panorere og zoome, slå lag av og på, måle avstander og vinkler,
 **Hvor den kommer til kort — les dette før du stoler på den:**
 
 - **Bare 2D.** En DXF som inneholder 3D-volumer eller masker er feil fil for dette verktøyet.
-- **Ingen blokker.** Blokkreferanser (`INSERT`) tolkes ikke, så en tegning bygget av gjentatte blokksymboler kommer inn ufullstendig.
 - **DXF, ikke DWG.** Se DWG-avsnittet nedenfor.
 - **Bare nettlesere på skrivebordet** — Chrome, Firefox, Safari og Edge. Det finnes ingen mobilversjon.
 

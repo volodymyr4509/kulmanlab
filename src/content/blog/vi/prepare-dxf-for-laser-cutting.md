@@ -59,7 +59,6 @@ Nếu dung sai quan trọng, hãy cắt thử một mẫu trước khi dùng h�
 
 - **Bỏ tích phần chú giải thay vì xóa nó.** Chữ, kích thước, đường dẫn chú thích và mặt cắt gạch giờ đều được xuất, nên bất cứ thứ gì bạn để lại trong bản vẽ đều vào tệp. Không cần xóa: Export Manager liệt kê từng loại đối tượng kèm ô tích riêng, nên bỏ tích Text, các hàng kích thước, Leaders và Hatches sẽ cho bạn một tệp DXF chỉ có hình học cắt, còn bản vẽ vẫn nguyên vẹn.
 - **Chữ ra dưới dạng `MTEXT`, không giống hình học khắc được.** Phần chữ được xuất kèm định dạng, nhưng khá nhiều phần mềm máy muốn đường bao thay vì chữ sống trên lớp khắc. Hãy kiểm tra phần mềm của bạn chấp nhận gì trước khi tính chuyện khắc chữ dựa vào đó.
-- **Tham chiếu block không được nhập vào.** Bản vẽ dựng từ các ký hiệu block lặp lại sẽ vào thiếu, nên hãy đối chiếu số lượng chi tiết với bản gốc.
 
 Còn spline thì *có* được xuất. Một số phần mềm máy xử lý spline kém và thích đa tuyến hơn — nếu máy bạn như vậy, hãy vẽ lại các đường cong thành đa tuyến hoặc cung tròn.
 

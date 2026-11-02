@@ -48,6 +48,7 @@ O editor é pré-preenchido com a etiqueta renderizada atual da cota para que vo
 | Duplo clique em uma entidade **Text** existente | Reabre o editor em **rich** mode |
 | Duplo clique em um **Multileader** existente | Abre o editor em **rich** mode |
 | Duplo clique em uma entidade de **cota** | Abre o editor em **simple** mode |
+| Clique duplo numa **referência de bloco** | Edita o atributo sob o cursor no modo **simple**, numa linha — Enter conclui; o valor muda só para aquela referência |
 | `Escape` dentro do editor | Fecha o editor e mantém todas as alterações |
 
 ## Barra de ferramentas

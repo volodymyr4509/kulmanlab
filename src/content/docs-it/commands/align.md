@@ -15,7 +15,7 @@ Il comando `Allinea` riposiziona le entità selezionate usando una o due coppie 
 **Preseleziona, poi allinea** — seleziona le entità prima, poi attiva:
 
 1. Seleziona una o più entità sul canvas.
-2. Digita `Allinea` nel terminale o clicca il pulsante **Align** nella barra degli strumenti.
+2. Digita `Allinea` nel terminale o scegli **Align** dal menu a discesa del pannello Edit.
 3. **Clicca il primo punto origine (S1)**, poi **il primo punto destinazione (D1)**.
 4. **Clicca il secondo punto origine (S2)**, oppure premi **Invio** o **Spazio** per applicare subito un allineamento di sola traslazione.
 5. **Clicca il secondo punto destinazione (D2)**.
@@ -23,7 +23,7 @@ Il comando `Allinea` riposiziona le entità selezionate usando una o due coppie 
 
 **Attiva, poi seleziona** — avvia il comando senza nulla selezionato:
 
-1. Digita `Allinea` o clicca il pulsante della barra degli strumenti.
+1. Digita `Allinea` o scegli **Align** dal menu a discesa.
 2. **Seleziona gli oggetti** — clicca per alternare singole entità, o trascina per selezionare per area.
 3. Premi **Invio** o **Spazio** per confermare la selezione.
 4. Continua con S1 → D1 → S2 → D2 → richiesta di scala come sopra.

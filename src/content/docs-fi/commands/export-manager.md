@@ -59,6 +59,7 @@ Jokainen entiteettityyppi sisältyy:
 - Leaders (multileaderit)
 - Hatchit, mukaan lukien niiden kuvio, mittakaava, kulma ja origo
 - Layers ja Linetypes
+- Solidit ja lohkoviittaukset sekä lohkot, joita ne piirtävät
 
 ### DXF-vienti
 
@@ -71,6 +72,7 @@ Jokainen entiteettityyppi sisältyy:
 - Hatchit, mukaan lukien niiden kuvio, mittakaava, kulma ja origo
 - Layers ja Linetypes
 - Layoutit nimineen, paperikokoineen ja välilehtijärjestyksineen, kaikki niihin piirretty sekä niiden näkymäikkunat mittakaavoineen ja lukituksineen — joten layout palaa ennallaan, kun tiedosto avataan uudelleen
+- Solidit `SOLID`-muodossa ja lohkoviittaukset `INSERT`-muodossa attribuuttien arvoineen; niiden lohkot kirjoitetaan lohkomäärittelyinä
 
 Tiedosto kirjoitetaan AC1032-DXF-muodossa, joten KulmanLabista viety piirustus avautuu muissa DXF:ää tukevissa työkaluissa merkintöineen eikä saavu paljaana geometriana.
 

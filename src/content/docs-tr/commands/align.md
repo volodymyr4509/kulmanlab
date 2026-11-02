@@ -15,7 +15,7 @@ order: 6
 **Önce seç, sonra hizala** — nesneleri seçin, ardından etkinleştirin:
 
 1. Tuvalde bir veya daha fazla nesne seçin.
-2. Terminale `Hizala` yazın veya araç çubuğundaki **Align** düğmesine basın.
+2. Terminale `Hizala` yazın veya Edit panelinin açılır menüsünden **Align**'ı seçin.
 3. **İlk kaynak noktayı (S1) tıklayın**, ardından **ilk hedef noktayı (D1) tıklayın**.
 4. **İkinci kaynak noktayı (S2) tıklayın**, veya hemen yalnızca taşıma içeren bir hizalama uygulamak için **Enter** veya **Boşluk** tuşuna basın.
 5. **İkinci hedef noktayı (D2) tıklayın**.
@@ -23,7 +23,7 @@ order: 6
 
 **Etkinleştir, sonra seç** — seçim olmadan komutu başlatın:
 
-1. `Hizala` yazın veya araç çubuğu düğmesine basın.
+1. `Hizala` yazın veya açılır menüden **Align**'ı seçin.
 2. **Nesneleri seçin** — tek tek nesneleri değiştirmek için tıklayın veya kutu seçimi için sürükleyin.
 3. Seçimi onaylamak için **Enter** veya **Boşluk** tuşuna basın.
 4. Yukarıdaki gibi S1 → D1 → S2 → D2 → ölçekleme istemiyle devam edin.

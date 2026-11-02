@@ -48,6 +48,7 @@ Naka-preload na ang editor ng rendered label ng kasalukuyang dimension para maip
 | Mag-double-click sa umiiral na **Text** entity | Binubuksang muli ang editor sa **rich** mode |
 | Mag-double-click sa umiiral na **Multileader** | Binubuksan ang editor sa **rich** mode |
 | Mag-double-click sa **dimension** entity | Binubuksan ang editor sa **simple** mode |
+| I-double-click ang isang **block reference** | Ine-edit ang attribute sa ilalim ng cursor sa **simple** mode, sa iisang linya — tinatapos ng Enter; nagbabago ang halaga para lang sa reference na iyon |
 | `Escape` sa loob ng editor | Isinasara ang editor at itinatago ang lahat ng pagbabago |
 
 ## Toolbar

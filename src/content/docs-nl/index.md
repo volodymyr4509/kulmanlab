@@ -142,6 +142,8 @@ Elk commando volgt hetzelfde patroon:
 2. **Volg de prompt** — de terminal toont welke invoer vervolgens wordt verwacht.
 3. **Afronden of annuleren** — de meeste commando's worden automatisch afgerond na de laatste invoer. Druk op **Escape** om op elk moment te annuleren.
 
+Getypte opdrachten accepteren ook de gangbare korte aliassen, zoals `L` voor Line, `C` voor Circle, `TR` voor Trim en `X` voor Explode.
+
 ## Objecten selecteren
 
 Verschillende bewerkingscommando's (Move, Copy, Rotate, Mirror, Scale, Delete) delen hetzelfde selectiegedrag:
@@ -150,3 +152,5 @@ Verschillende bewerkingscommando's (Move, Copy, Rotate, Mirror, Scale, Delete) d
 - **Sleep naar rechts** (van links naar rechts) voor strikte selectie — alleen entiteiten die volledig binnen het vak vallen, worden geselecteerd.
 - **Sleep naar links** (van rechts naar links) voor kruisende selectie — elke entiteit die het vak snijdt, wordt geselecteerd.
 - Druk op **Enter** of **Spatie** om de selectie te bevestigen en door te gaan naar de volgende stap.
+
+Zonder lopende opdracht kunt u ook selecteren met een **lasso**: druk op een lege plek en sleep rond wat u wilt. Met de klok mee getekend pakt hij alleen wat er helemaal binnen ligt; tegen de klok in ook wat hij raakt. De knop **Lasso** in de besturingsbalk zet hem uit.

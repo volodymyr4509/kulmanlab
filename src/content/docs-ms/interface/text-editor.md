@@ -48,6 +48,7 @@ Editor diisi terlebih dahulu dengan label yang dirender dari dimensi semasa supa
 | Klik dua kali entiti **Text** sedia ada | Membuka semula editor dalam mod **kaya** |
 | Klik dua kali **Multileader** sedia ada | Membuka editor dalam mod **kaya** |
 | Klik dua kali entiti **dimensi** | Membuka editor dalam mod **mudah** |
+| Klik dua kali pada **rujukan blok** | Menyunting atribut di bawah kursor dalam mod **mudah**, pada satu baris — Enter menamatkan; nilai berubah untuk rujukan itu sahaja |
 | `Escape` di dalam editor | Menutup editor dan mengekalkan semua perubahan |
 
 ## Bar alat

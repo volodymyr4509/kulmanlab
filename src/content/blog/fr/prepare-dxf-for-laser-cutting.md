@@ -59,7 +59,6 @@ Si la tolérance compte, découpez une pièce d'essai avant d'engager la matièr
 
 - **Décochez l'annotation plutôt que de la supprimer.** Texte, cotations, lignes de repère et hachures s'exportent désormais, donc tout ce que vous laissez dans le dessin se retrouve dans le fichier. Pas besoin de supprimer : l'Export Manager liste chaque type d'entité avec sa propre case, et décocher Text, les lignes de cotation, Leaders et Hatches vous donne un DXF ne contenant que la géométrie de découpe, le dessin restant intact.
 - **Le texte sort en `MTEXT`, ce qui n'est pas de la géométrie gravable.** Le lettrage est exporté avec sa mise en forme, mais bien des logiciels machine attendent des contours plutôt que du texte vivant sur un calque de gravure. Vérifiez ce qu'accepte le vôtre avant de bâtir une gravure là-dessus.
-- **Les références de bloc ne sont pas importées.** Un dessin construit à partir de symboles de bloc répétés arrive incomplet ; vérifiez le nombre de pièces par rapport à l'original.
 
 Les splines, elles, *sont* exportées. Certains logiciels de machine les gèrent mal et préfèrent les polylignes — si c'est le cas du vôtre, redessinez les courbes en polylignes ou en arcs.
 

@@ -15,7 +15,7 @@ Kommandoen `Juster` omplasserer markerte entiteter ved hjelp av ett eller to par
 **Marker først, deretter juster** — marker entiteter først, aktiver deretter:
 
 1. Marker én eller flere entiteter på lerretet.
-2. Skriv `Juster` i terminalen eller klikk på **Align**-knappen i verktøylinjen.
+2. Skriv `Juster` i terminalen eller velg **Align** i nedtrekksmenyen i panelet Edit.
 3. **Klikk det første kildepunktet (S1)**, deretter **klikk det første målpunktet (D1)**.
 4. **Klikk det andre kildepunktet (S2)**, eller trykk **Enter** eller **Space** for å bruke kun flytting nå.
 5. **Klikk det andre målpunktet (D2)**.
@@ -23,7 +23,7 @@ Kommandoen `Juster` omplasserer markerte entiteter ved hjelp av ett eller to par
 
 **Aktiver, marker deretter** — start kommandoen uten noe markert:
 
-1. Skriv `Juster` eller klikk på verktøylinjeknappen.
+1. Skriv `Juster` eller velg **Align** i nedtrekksmenyen.
 2. **Marker objekter** — klikk for å slå enkeltentiteter av/på, eller dra for å markere etter område.
 3. Trykk **Enter** eller **Space** for å bekrefte markeringen.
 4. Fortsett med S1 → D1 → S2 → D2 → skaleringsspørsmål som over.

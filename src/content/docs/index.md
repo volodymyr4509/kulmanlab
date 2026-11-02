@@ -142,6 +142,8 @@ Every command follows the same pattern:
 2. **Follow the prompt** — the terminal shows what input is expected next.
 3. **Finish or cancel** — most commands finish automatically after the last input. Press **Escape** at any time to cancel.
 
+Typed commands also accept the standard short aliases, such as `L` for Line, `C` for Circle, `TR` for Trim and `X` for Explode.
+
 ## Selecting objects
 
 Several edit commands (Move, Copy, Rotate, Mirror, Scale, Delete) share the same selection behaviour:
@@ -150,3 +152,5 @@ Several edit commands (Move, Copy, Rotate, Mirror, Scale, Delete) share the same
 - **Drag right** (left to right) for strict selection — only entities fully inside the box are selected.
 - **Drag left** (right to left) for crossing selection — any entity that intersects the box is selected.
 - Press **Enter** or **Space** to confirm the selection and proceed to the next step.
+
+With no command running, you can also select by **lasso**: press on an empty spot and drag around what you want. Drawn clockwise it takes only what lies wholly inside; drawn anticlockwise it also takes what it touches. The **Lasso** toggle in the control bar turns it off.

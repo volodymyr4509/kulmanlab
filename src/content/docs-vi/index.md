@@ -142,6 +142,8 @@ Mỗi lệnh đều tuân theo cùng một quy trình:
 2. **Làm theo gợi ý** — terminal hiển thị dữ liệu đầu vào tiếp theo cần nhập.
 3. **Hoàn thành hoặc hủy** — hầu hết các lệnh kết thúc tự động sau đầu vào cuối cùng. Nhấn **Escape** bất kỳ lúc nào để hủy.
 
+Lệnh gõ vào cũng nhận các bí danh ngắn tiêu chuẩn, như `L` cho Line, `C` cho Circle, `TR` cho Trim và `X` cho Explode.
+
 ## Chọn Đối Tượng
 
 Một số lệnh chỉnh sửa (Move, Copy, Rotate, Mirror, Scale, Delete) có cùng cách chọn đối tượng:
@@ -150,6 +152,8 @@ Một số lệnh chỉnh sửa (Move, Copy, Rotate, Mirror, Scale, Delete) có 
 - **Kéo sang phải** (trái sang phải) để chọn nghiêm ngặt — chỉ chọn các đối tượng hoàn toàn nằm trong hộp.
 - **Kéo sang trái** (phải sang trái) để chọn cắt ngang — chọn bất kỳ đối tượng nào giao với hộp.
 - Nhấn **Enter** hoặc **Space** để xác nhận chọn và tiến hành bước tiếp theo.
+
+Khi không có lệnh nào đang chạy, bạn cũng có thể chọn bằng **lasso**: nhấn vào một chỗ trống rồi kéo quanh những gì muốn chọn. Vẽ theo chiều kim đồng hồ thì chỉ lấy những gì nằm hoàn toàn bên trong; ngược chiều thì lấy cả những gì nó chạm vào. Nút **Lasso** trên thanh điều khiển dùng để tắt nó.
 
 ## Giao Diện
 

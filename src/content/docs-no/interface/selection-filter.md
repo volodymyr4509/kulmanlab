@@ -12,7 +12,7 @@ order: 7
 
 ## Åpne filteret
 
-1. Velg flere enheter — dra en valgramme, Skift-klikk eller trykk Ctrl+A.
+1. Velg flere entiteter — dra en markeringsboks, tegn et lasso, Shift-klikk eller Ctrl+A.
 2. Klikk **filterikonet** (trakten) i egenskapspanelets topptekst.
 3. Under knappen åpnes et vindu med en avkryssingsliste for hver egenskap som faktisk varierer innenfor utvalget.
 

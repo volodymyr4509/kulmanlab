@@ -15,7 +15,7 @@ Lệnh `CănChỉnh` định vị lại các thực thể đã chọn bằng m�
 **Chọn trước, rồi căn chỉnh** — chọn thực thể trước, sau đó kích hoạt:
 
 1. Chọn một hoặc nhiều thực thể trên canvas.
-2. Gõ `CănChỉnh` trong terminal hoặc nhấp nút **Align** trên thanh công cụ.
+2. Gõ `CănChỉnh` trong terminal hoặc chọn **Align** từ menu thả xuống trong bảng Edit.
 3. **Nhấp điểm nguồn thứ nhất (S1)**, rồi **nhấp điểm đích thứ nhất (D1)**.
 4. **Nhấp điểm nguồn thứ hai (S2)**, hoặc nhấn **Enter** hoặc **Space** để áp dụng ngay một căn chỉnh chỉ dịch chuyển.
 5. **Nhấp điểm đích thứ hai (D2)**.
@@ -23,7 +23,7 @@ Lệnh `CănChỉnh` định vị lại các thực thể đã chọn bằng m�
 
 **Kích hoạt, rồi chọn** — bắt đầu lệnh khi không có gì được chọn:
 
-1. Gõ `CănChỉnh` hoặc nhấp nút thanh công cụ.
+1. Gõ `CănChỉnh` hoặc chọn **Align** từ menu thả xuống.
 2. **Chọn đối tượng** — nhấp để bật/tắt thực thể riêng lẻ, hoặc kéo để chọn theo vùng.
 3. Nhấn **Enter** hoặc **Space** để xác nhận lựa chọn.
 4. Tiếp tục với S1 → D1 → S2 → D2 → câu hỏi thu phóng như trên.

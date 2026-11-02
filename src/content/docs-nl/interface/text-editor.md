@@ -48,6 +48,7 @@ De editor wordt vooraf gevuld met het weergegeven label van de huidige maatvoeri
 | Dubbelklik op een bestaande **Text**-entiteit | Opent de editor opnieuw in **rich**-modus |
 | Dubbelklik op een bestaande **Multileader** | Opent de editor in **rich**-modus |
 | Dubbelklik op een **maatvoerings**entiteit | Opent de editor in **simple**-modus |
+| Dubbelklik op een **blokverwijzing** | Bewerkt het attribuut onder de cursor in de modus **simple**, op één regel — Enter rondt af; de waarde verandert alleen voor die verwijzing |
 | `Escape` binnen de editor | Sluit de editor en behoudt alle wijzigingen |
 
 ## Werkbalk

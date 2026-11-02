@@ -36,7 +36,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: 'Are KulmanLab DXF files compatible with other CAD software?', a: 'Yes. KulmanLab reads and writes AC1032 DXF — a widely supported version. Files open correctly in LibreCAD, QCAD, BricsCAD, FreeCAD, and any other DXF-capable tool.' },
         { q: 'What is the difference between DXF and DWG?', a: 'DXF is an open, text-based exchange format designed for interoperability. DWG is a proprietary binary format. KulmanLab uses DXF, which is readable by virtually every CAD tool.' },
-        { q: 'Can KulmanLab replace my desktop CAD software?', a: 'For 2D drafting — yes. KulmanLab has a full command terminal, layers, snapping, dimensions, grip editing, and DXF compatibility. It does not support 3D, blocks/xrefs, or parametric constraints.' },
+        { q: 'Can KulmanLab replace my desktop CAD software?', a: 'For 2D drafting — yes. KulmanLab has a full command terminal, layers, snapping, dimensions, grip editing, and DXF compatibility. It does not support 3D, xrefs, or parametric constraints.' },
       ],
     },
     {
@@ -82,7 +82,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: 'Sind KulmanLab-DXF-Dateien mit anderer CAD-Software kompatibel?', a: 'Ja. KulmanLab liest und schreibt AC1032 DXF — eine weit verbreitete Version. Dateien öffnen sich korrekt in LibreCAD, QCAD, BricsCAD, FreeCAD und jedem anderen DXF-fähigen Tool.' },
         { q: 'Was ist der Unterschied zwischen DXF und DWG?', a: 'DXF ist ein offenes, textbasiertes Austauschformat für Interoperabilität. DWG ist ein proprietäres Binärformat. KulmanLab verwendet DXF, das von praktisch jedem CAD-Tool gelesen werden kann.' },
-        { q: 'Kann KulmanLab meine Desktop-CAD-Software ersetzen?', a: 'Für 2D-Zeichnungen — ja. KulmanLab verfügt über ein vollständiges Befehlsterminal, Layer, Fangen, Bemaßungen, Griffbearbeitung und DXF-Kompatibilität. Es unterstützt kein 3D, Blöcke/Xrefs oder parametrische Einschränkungen.' },
+        { q: 'Kann KulmanLab meine Desktop-CAD-Software ersetzen?', a: 'Für 2D-Zeichnungen — ja. KulmanLab verfügt über ein vollständiges Befehlsterminal, Layer, Fangen, Bemaßungen, Griffbearbeitung und DXF-Kompatibilität. Es unterstützt kein 3D, Xrefs oder parametrische Einschränkungen.' },
       ],
     },
     {
@@ -128,7 +128,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: '¿Los archivos DXF de KulmanLab son compatibles con otro software CAD?', a: 'Sí. KulmanLab lee y escribe DXF AC1032 — una versión ampliamente compatible. Los archivos se abren correctamente en LibreCAD, QCAD, BricsCAD, FreeCAD y cualquier otra herramienta con soporte DXF.' },
         { q: '¿Cuál es la diferencia entre DXF y DWG?', a: 'DXF es un formato de intercambio abierto y basado en texto diseñado para la interoperabilidad. DWG es un formato binario propietario. KulmanLab usa DXF, que puede ser leído por prácticamente cualquier herramienta CAD.' },
-        { q: '¿Puede KulmanLab reemplazar mi software CAD de escritorio?', a: 'Para dibujo 2D — sí. KulmanLab tiene un terminal de comandos completo, capas, ajuste, cotas, edición con puntos de control y compatibilidad DXF. No admite 3D, bloques/referencias externas ni restricciones paramétricas.' },
+        { q: '¿Puede KulmanLab reemplazar mi software CAD de escritorio?', a: 'Para dibujo 2D — sí. KulmanLab tiene un terminal de comandos completo, capas, ajuste, cotas, edición con puntos de control y compatibilidad DXF. No admite 3D, referencias externas ni restricciones paramétricas.' },
       ],
     },
     {
@@ -174,7 +174,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: "Les fichiers DXF de KulmanLab sont-ils compatibles avec d'autres logiciels CAO ?", a: "Oui. KulmanLab lit et écrit AC1032 DXF — une version largement prise en charge. Les fichiers s'ouvrent correctement dans LibreCAD, QCAD, BricsCAD, FreeCAD et tout autre outil compatible DXF." },
         { q: 'Quelle est la différence entre DXF et DWG ?', a: "DXF est un format d'échange ouvert basé sur du texte, conçu pour l'interopérabilité. DWG est un format binaire propriétaire. KulmanLab utilise DXF, qui est lisible par pratiquement tout outil CAO." },
-        { q: 'KulmanLab peut-il remplacer mon logiciel CAO de bureau ?', a: "Pour la conception 2D — oui. KulmanLab possède un terminal de commandes complet, des calques, l'accrochage, des cotes, l'édition par poignées et la compatibilité DXF. Il ne prend pas en charge la 3D, les blocs/références externes ni les contraintes paramétriques." },
+        { q: 'KulmanLab peut-il remplacer mon logiciel CAO de bureau ?', a: "Pour la conception 2D — oui. KulmanLab possède un terminal de commandes complet, des calques, l'accrochage, des cotes, l'édition par poignées et la compatibilité DXF. Il ne prend pas en charge la 3D, les références externes ni les contraintes paramétriques." },
       ],
     },
     {
@@ -220,7 +220,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: 'I file DXF di KulmanLab sono compatibili con altri software CAD?', a: 'Sì. KulmanLab legge e scrive AC1032 DXF — una versione ampiamente supportata. I file si aprono correttamente in LibreCAD, QCAD, BricsCAD, FreeCAD e qualsiasi altro strumento compatibile DXF.' },
         { q: 'Qual è la differenza tra DXF e DWG?', a: 'DXF è un formato di scambio aperto basato su testo progettato per l\'interoperabilità. DWG è un formato binario proprietario. KulmanLab usa DXF, leggibile da praticamente qualsiasi strumento CAD.' },
-        { q: 'KulmanLab può sostituire il mio software CAD desktop?', a: 'Per il disegno 2D — sì. KulmanLab ha un terminale comandi completo, livelli, snap, quote, modifica tramite grip e compatibilità DXF. Non supporta il 3D, i blocchi/riferimenti esterni o i vincoli parametrici.' },
+        { q: 'KulmanLab può sostituire il mio software CAD desktop?', a: 'Per il disegno 2D — sì. KulmanLab ha un terminale comandi completo, livelli, snap, quote, modifica tramite grip e compatibilità DXF. Non supporta il 3D, i riferimenti esterni o i vincoli parametrici.' },
       ],
     },
     {
@@ -266,7 +266,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: 'Os arquivos DXF do KulmanLab são compatíveis com outros softwares CAD?', a: 'Sim. O KulmanLab lê e escreve DXF AC1032 — uma versão amplamente suportada. Os arquivos abrem corretamente no LibreCAD, QCAD, BricsCAD, FreeCAD e qualquer outra ferramenta compatível com DXF.' },
         { q: 'Qual é a diferença entre DXF e DWG?', a: 'DXF é um formato de intercâmbio aberto e baseado em texto, projetado para interoperabilidade. DWG é um formato binário proprietário. O KulmanLab usa DXF, que é legível por praticamente qualquer ferramenta CAD.' },
-        { q: 'O KulmanLab pode substituir meu software CAD desktop?', a: 'Para desenho 2D — sim. O KulmanLab tem um terminal de comandos completo, camadas, snap, cotas, edição por grips e compatibilidade DXF. Não suporta 3D, blocos/referências externas ou restrições paramétricas.' },
+        { q: 'O KulmanLab pode substituir meu software CAD desktop?', a: 'Para desenho 2D — sim. O KulmanLab tem um terminal de comandos completo, camadas, snap, cotas, edição por grips e compatibilidade DXF. Não suporta 3D, referências externas ou restrições paramétricas.' },
       ],
     },
     {
@@ -312,7 +312,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: 'KulmanLab 的 DXF 文件与其他 CAD 软件兼容吗？', a: '兼容。KulmanLab 读写 AC1032 DXF——一个广泛支持的版本。文件可在 LibreCAD、QCAD、BricsCAD、FreeCAD 及任何支持 DXF 的工具中正确打开。' },
         { q: 'DXF 和 DWG 有什么区别？', a: 'DXF 是专为互操作性设计的开放式文本交换格式。DWG 是专有二进制格式。KulmanLab 使用 DXF，几乎所有 CAD 工具都可读取。' },
-        { q: 'KulmanLab 可以替代我的桌面 CAD 软件吗？', a: '用于 2D 绘图——可以。KulmanLab 拥有完整的命令终端、图层、捕捉、标注、夹点编辑和 DXF 兼容性。不支持 3D、块/外部参照或参数化约束。' },
+        { q: 'KulmanLab 可以替代我的桌面 CAD 软件吗？', a: '用于 2D 绘图——可以。KulmanLab 拥有完整的命令终端、图层、捕捉、标注、夹点编辑和 DXF 兼容性。不支持 3D、外部参照或参数化约束。' },
       ],
     },
     {
@@ -358,7 +358,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: 'KulmanLab DXF dosyaları diğer CAD yazılımlarıyla uyumlu mu?', a: 'Evet. KulmanLab AC1032 DXF okur ve yazar — yaygın olarak desteklenen bir sürüm. Dosyalar LibreCAD, QCAD, BricsCAD, FreeCAD ve diğer DXF uyumlu araçlarda doğru açılır.' },
         { q: 'DXF ve DWG arasındaki fark nedir?', a: 'DXF, birlikte çalışabilirlik için tasarlanmış açık, metin tabanlı bir değişim formatıdır. DWG tescilli bir ikili formattır. KulmanLab, neredeyse her CAD aracı tarafından okunabilen DXF kullanır.' },
-        { q: 'KulmanLab masaüstü CAD yazılımımın yerini alabilir mi?', a: '2D çizim için — evet. KulmanLab tam komut terminali, katmanlar, yakalama, ölçüler, tutamaç düzenleme ve DXF uyumluluğuna sahiptir. 3D, bloklar/dış referanslar veya parametrik kısıtlamaları desteklemiyor.' },
+        { q: 'KulmanLab masaüstü CAD yazılımımın yerini alabilir mi?', a: '2D çizim için — evet. KulmanLab tam komut terminali, katmanlar, yakalama, ölçüler, tutamaç düzenleme ve DXF uyumluluğuna sahiptir. 3D, dış referanslar veya parametrik kısıtlamaları desteklemiyor.' },
       ],
     },
     {
@@ -404,7 +404,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: 'Чи сумісні DXF файли KulmanLab з іншим CAD-програмним забезпеченням?', a: 'Так. KulmanLab читає та записує AC1032 DXF — широко підтримувана версія. Файли коректно відкриваються у LibreCAD, QCAD, BricsCAD, FreeCAD та будь-якому іншому DXF-сумісному інструменті.' },
         { q: 'Яка різниця між DXF та DWG?', a: 'DXF — це відкритий текстовий формат обміну, розроблений для сумісності. DWG — власний бінарний формат. KulmanLab використовує DXF, який підтримується практично будь-яким CAD-інструментом.' },
-        { q: 'Чи може KulmanLab замінити моє настільне CAD-програмне забезпечення?', a: 'Для 2D-креслення — так. KulmanLab має повний командний термінал, шари, прив\'язку, розміри, редагування ручками та сумісність DXF. Він не підтримує 3D, блоки/зовнішні посилання або параметричні обмеження.' },
+        { q: 'Чи може KulmanLab замінити моє настільне CAD-програмне забезпечення?', a: 'Для 2D-креслення — так. KulmanLab має повний командний термінал, шари, прив\'язку, розміри, редагування ручками та сумісність DXF. Він не підтримує 3D, зовнішні посилання або параметричні обмеження.' },
       ],
     },
     {
@@ -450,7 +450,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: 'क्या KulmanLab DXF फ़ाइलें अन्य CAD सॉफ़्टवेयर के साथ संगत हैं?', a: 'हां। KulmanLab AC1032 DXF पढ़ता और लिखता है — एक व्यापक रूप से समर्थित संस्करण। फ़ाइलें LibreCAD, QCAD, BricsCAD, FreeCAD और किसी भी अन्य DXF-सक्षम टूल में सही से खुलती हैं।' },
         { q: 'DXF और DWG में क्या अंतर है?', a: 'DXF एक खुला, टेक्स्ट-आधारित विनिमय प्रारूप है जो इंटरऑपरेबिलिटी के लिए डिज़ाइन किया गया है। DWG एक मालिकाना बाइनरी प्रारूप है। KulmanLab DXF का उपयोग करता है, जो लगभग हर CAD टूल द्वारा पढ़ा जा सकता है।' },
-        { q: 'क्या KulmanLab मेरे डेस्कटॉप CAD सॉफ़्टवेयर की जगह ले सकता है?', a: '2D ड्राफ्टिंग के लिए — हां। KulmanLab में पूर्ण कमांड टर्मिनल, लेयर, स्नैपिंग, माप, ग्रिप एडिटिंग और DXF संगतता है। यह 3D, ब्लॉक/xref या पैरामीट्रिक कंस्ट्रेंट का समर्थन नहीं करता।' },
+        { q: 'क्या KulmanLab मेरे डेस्कटॉप CAD सॉफ़्टवेयर की जगह ले सकता है?', a: '2D ड्राफ्टिंग के लिए — हां। KulmanLab में पूर्ण कमांड टर्मिनल, लेयर, स्नैपिंग, माप, ग्रिप एडिटिंग और DXF संगतता है। यह 3D, xref या पैरामीट्रिक कंस्ट्रेंट का समर्थन नहीं करता।' },
       ],
     },
     {
@@ -496,7 +496,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: 'هل ملفات DXF الخاصة بـ KulmanLab متوافقة مع برامج CAD الأخرى؟', a: 'نعم. يقرأ KulmanLab ويكتب DXF بتنسيق AC1032 — إصدار مدعوم على نطاق واسع. تُفتح الملفات بشكل صحيح في LibreCAD وQCAD وBricsCAD وFreeCAD وأي أداة تدعم DXF.' },
         { q: 'ما الفرق بين DXF وDWG؟', a: 'DXF تنسيق تبادل مفتوح نصي مصمم للتشغيل البيني. DWG تنسيق ثنائي خاص. يستخدم KulmanLab DXF الذي يمكن قراءته بواسطة أي أداة CAD تقريباً.' },
-        { q: 'هل يمكن لـ KulmanLab أن يحل محل برنامج CAD لسطح المكتب؟', a: 'للرسم الثنائي الأبعاد — نعم. يحتوي KulmanLab على محطة أوامر كاملة وطبقات والتقاط وأبعاد وتحرير نقاط التحكم وتوافق DXF. لا يدعم ثلاثي الأبعاد أو الكتل/المراجع الخارجية أو القيود البارامترية.' },
+        { q: 'هل يمكن لـ KulmanLab أن يحل محل برنامج CAD لسطح المكتب؟', a: 'للرسم الثنائي الأبعاد — نعم. يحتوي KulmanLab على محطة أوامر كاملة وطبقات والتقاط وأبعاد وتحرير نقاط التحكم وتوافق DXF. لا يدعم ثلاثي الأبعاد أو المراجع الخارجية أو القيود البارامترية.' },
       ],
     },
     {
@@ -542,7 +542,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: 'Apakah file DXF KulmanLab kompatibel dengan perangkat lunak CAD lain?', a: 'Ya. KulmanLab membaca dan menulis DXF AC1032 — versi yang didukung secara luas. File terbuka dengan benar di LibreCAD, QCAD, BricsCAD, FreeCAD, dan alat apapun yang mendukung DXF.' },
         { q: 'Apa perbedaan antara DXF dan DWG?', a: 'DXF adalah format pertukaran terbuka berbasis teks yang dirancang untuk interoperabilitas. DWG adalah format biner proprietary. KulmanLab menggunakan DXF yang dapat dibaca oleh hampir semua alat CAD.' },
-        { q: 'Bisakah KulmanLab menggantikan perangkat lunak CAD desktop saya?', a: 'Untuk drafting 2D — ya. KulmanLab memiliki terminal perintah lengkap, layer, snapping, dimensi, grip editing, dan kompatibilitas DXF. Tidak mendukung 3D, blok/xref, atau batasan parametrik.' },
+        { q: 'Bisakah KulmanLab menggantikan perangkat lunak CAD desktop saya?', a: 'Untuk drafting 2D — ya. KulmanLab memiliki terminal perintah lengkap, layer, snapping, dimensi, grip editing, dan kompatibilitas DXF. Tidak mendukung 3D, xref, atau batasan parametrik.' },
       ],
     },
     {
@@ -587,7 +587,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: 'KulmanLabのDXFファイルは他のCADソフトと互換性がありますか？', a: 'はい。KulmanLabはAC1032 DXFを読み書きします。LibreCAD、QCAD、BricsCAD、FreeCADなど、DXF対応ツールで正常に開けます。' },
         { q: 'DXFとDWGの違いは何ですか？', a: 'DXFは相互運用性のために設計されたオープンなテキストベースの交換フォーマットです。DWGはプロプライエタリなバイナリ形式です。KulmanLabはDXFを使用しており、事実上すべてのCADツールで読み取れます。' },
-        { q: 'KulmanLabはデスクトップCADの代替として使えますか？', a: '2D製図においては十分代替できます。フルコマンドターミナル、レイヤー、スナップ、寸法、グリップ編集、DXF互換性を備えています。3D、ブロック/外部参照、パラメトリック拘束には対応していません。' },
+        { q: 'KulmanLabはデスクトップCADの代替として使えますか？', a: '2D製図においては十分代替できます。フルコマンドターミナル、レイヤー、スナップ、寸法、グリップ編集、DXF互換性を備えています。3D、外部参照、パラメトリック拘束には対応していません。' },
       ],
     },
     {
@@ -633,7 +633,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: 'Czy pliki DXF z KulmanLab są kompatybilne z innym oprogramowaniem CAD?', a: 'Tak. KulmanLab odczytuje i zapisuje format AC1032 DXF — szeroko obsługiwana wersja. Pliki otwierają się poprawnie w LibreCAD, QCAD, BricsCAD, FreeCAD i każdym innym narzędziu obsługującym DXF.' },
         { q: 'Jaka jest różnica między DXF a DWG?', a: 'DXF to otwarty, tekstowy format wymiany zaprojektowany z myślą o współpracy między aplikacjami. DWG to własnościowy format binarny. KulmanLab używa DXF, który jest czytelny przez praktycznie każde narzędzie CAD.' },
-        { q: 'Czy KulmanLab może zastąpić moje desktopowe oprogramowanie CAD?', a: 'Do rysowania 2D — tak. KulmanLab posiada pełny terminal poleceń, warstwy, przyciąganie, wymiary, edycję za pomocą uchwytów oraz kompatybilność z DXF. Nie obsługuje 3D, bloków/odwołań zewnętrznych ani wiązań parametrycznych.' },
+        { q: 'Czy KulmanLab może zastąpić moje desktopowe oprogramowanie CAD?', a: 'Do rysowania 2D — tak. KulmanLab posiada pełny terminal poleceń, warstwy, przyciąganie, wymiary, edycję za pomocą uchwytów oraz kompatybilność z DXF. Nie obsługuje 3D, odwołań zewnętrznych ani wiązań parametrycznych.' },
       ],
     },
     {
@@ -679,7 +679,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: 'KulmanLab의 DXF 파일이 다른 CAD 소프트웨어와 호환되나요?', a: '네. KulmanLab은 널리 지원되는 버전인 AC1032 DXF를 읽고 씁니다. LibreCAD, QCAD, BricsCAD, FreeCAD 및 DXF를 지원하는 모든 도구에서 정상적으로 파일이 열립니다.' },
         { q: 'DXF와 DWG의 차이가 무엇인가요?', a: 'DXF는 상호 운용성을 위해 설계된 개방형 텍스트 기반 교환 형식입니다. DWG는 독점 바이너리 형식입니다. KulmanLab은 DXF를 사용하며, 거의 모든 CAD 도구에서 읽을 수 있습니다.' },
-        { q: 'KulmanLab이 데스크톱 CAD 소프트웨어를 대체할 수 있나요?', a: '2D 도면 작업에서는 가능합니다. KulmanLab은 완전한 명령 터미널, 레이어, 스냅, 치수, 그립 편집, DXF 호환성을 갖추고 있습니다. 3D, 블록/외부 참조, 파라메트릭 구속 조건은 지원하지 않습니다.' },
+        { q: 'KulmanLab이 데스크톱 CAD 소프트웨어를 대체할 수 있나요?', a: '2D 도면 작업에서는 가능합니다. KulmanLab은 완전한 명령 터미널, 레이어, 스냅, 치수, 그립 편집, DXF 호환성을 갖추고 있습니다. 3D, 외부 참조, 파라메트릭 구속 조건은 지원하지 않습니다.' },
       ],
     },
     {
@@ -725,7 +725,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: 'Các tệp DXF của KulmanLab có tương thích với phần mềm CAD khác không?', a: 'Có. KulmanLab đọc và ghi DXF AC1032 — một phiên bản được hỗ trợ rộng rãi. Các tệp mở đúng cách trong LibreCAD, QCAD, BricsCAD, FreeCAD và bất kỳ công cụ nào hỗ trợ DXF.' },
         { q: 'Sự khác biệt giữa DXF và DWG là gì?', a: 'DXF là định dạng trao đổi mở, dựa trên văn bản, được thiết kế cho khả năng tương tác. DWG là định dạng nhị phân độc quyền. KulmanLab sử dụng DXF, có thể đọc bởi hầu hết mọi công cụ CAD.' },
-        { q: 'KulmanLab có thể thay thế phần mềm CAD máy tính để bàn của tôi không?', a: 'Cho bản vẽ 2D — có. KulmanLab có terminal lệnh đầy đủ, các lớp, bắt điểm, kích thước, chỉnh sửa grip và tương thích DXF. Không hỗ trợ 3D, block/xref hay ràng buộc tham số.' },
+        { q: 'KulmanLab có thể thay thế phần mềm CAD máy tính để bàn của tôi không?', a: 'Cho bản vẽ 2D — có. KulmanLab có terminal lệnh đầy đủ, các lớp, bắt điểm, kích thước, chỉnh sửa grip và tương thích DXF. Không hỗ trợ 3D, xref hay ràng buộc tham số.' },
       ],
     },
     {
@@ -770,7 +770,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: 'ไฟล์ DXF ของ KulmanLab เข้ากันได้กับซอฟต์แวร์ CAD อื่นไหม?', a: 'ได้ KulmanLab อ่านและเขียน DXF AC1032 — เวอร์ชันที่รองรับอย่างกว้างขวาง ไฟล์เปิดได้ถูกต้องใน LibreCAD, QCAD, BricsCAD, FreeCAD และเครื่องมือใดก็ตามที่รองรับ DXF' },
         { q: 'ความแตกต่างระหว่าง DXF และ DWG คืออะไร?', a: 'DXF เป็นรูปแบบแลกเปลี่ยนแบบเปิดที่อ่านได้ออกแบบมาเพื่อความสามารถในการทำงานร่วมกัน DWG เป็นรูปแบบไบนารีที่เป็นกรรมสิทธิ์ KulmanLab ใช้ DXF ซึ่งอ่านได้โดยเครื่องมือ CAD เกือบทุกชนิด' },
-        { q: 'KulmanLab สามารถทดแทนซอฟต์แวร์ CAD บนเดสก์ท็อปของฉันได้ไหม?', a: 'สำหรับการเขียนแบบ 2D — ได้ KulmanLab มีเทอร์มินัลคำสั่งเต็มรูปแบบ เลเยอร์ การจับจุด ขนาด การแก้ไข grip และความเข้ากันได้กับ DXF ไม่รองรับ 3D บล็อก/xref หรือข้อจำกัดพารามิเตอร์' },
+        { q: 'KulmanLab สามารถทดแทนซอฟต์แวร์ CAD บนเดสก์ท็อปของฉันได้ไหม?', a: 'สำหรับการเขียนแบบ 2D — ได้ KulmanLab มีเทอร์มินัลคำสั่งเต็มรูปแบบ เลเยอร์ การจับจุด ขนาด การแก้ไข grip และความเข้ากันได้กับ DXF ไม่รองรับ 3D xref หรือข้อจำกัดพารามิเตอร์' },
       ],
     },
     {
@@ -815,7 +815,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: 'Adakah fail DXF KulmanLab serasi dengan perisian CAD lain?', a: 'Ya. KulmanLab membaca dan menulis DXF AC1032 — versi yang disokong secara meluas. Fail dibuka dengan betul dalam LibreCAD, QCAD, BricsCAD, FreeCAD dan mana-mana alat berkemampuan DXF.' },
         { q: 'Apakah perbezaan antara DXF dan DWG?', a: 'DXF adalah format pertukaran terbuka berasaskan teks yang direka untuk kebolehoperasian. DWG adalah format perduaan proprietari. KulmanLab menggunakan DXF, yang boleh dibaca oleh hampir semua alat CAD.' },
-        { q: 'Bolehkah KulmanLab menggantikan perisian CAD desktop saya?', a: 'Untuk lakaran 2D — ya. KulmanLab mempunyai terminal arahan penuh, lapisan, snapping, dimensi, pengeditan grip dan keserasian DXF. Ia tidak menyokong 3D, blok/xref atau kekangan parametrik.' },
+        { q: 'Bolehkah KulmanLab menggantikan perisian CAD desktop saya?', a: 'Untuk lakaran 2D — ya. KulmanLab mempunyai terminal arahan penuh, lapisan, snapping, dimensi, pengeditan grip dan keserasian DXF. Ia tidak menyokong 3D, xref atau kekangan parametrik.' },
       ],
     },
     {
@@ -861,7 +861,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: 'KulmanLab DXF ফাইলগুলো কি অন্যান্য CAD সফটওয়্যারের সাথে সামঞ্জস্যপূর্ণ?', a: 'হ্যাঁ। KulmanLab AC1032 DXF পড়ে এবং লেখে — একটি ব্যাপকভাবে সমর্থিত সংস্করণ। ফাইলগুলো LibreCAD, QCAD, BricsCAD, FreeCAD এবং অন্য যেকোনো DXF-সক্ষম টুলে সঠিকভাবে খোলে।' },
         { q: 'DXF এবং DWG-এর মধ্যে পার্থক্য কী?', a: 'DXF হল একটি উন্মুক্ত, টেক্সট-ভিত্তিক বিনিময় ফরম্যাট যা আন্তঃকার্যক্ষমতার জন্য ডিজাইন করা হয়েছে। DWG একটি মালিকানাধীন বাইনারি ফরম্যাট। KulmanLab DXF ব্যবহার করে, যা প্রায় প্রতিটি CAD টুল দ্বারা পঠনযোগ্য।' },
-        { q: 'KulmanLab কি আমার ডেস্কটপ CAD সফটওয়্যার প্রতিস্থাপন করতে পারে?', a: '2D ড্রাফটিং-এর জন্য — হ্যাঁ। KulmanLab-এ সম্পূর্ণ কমান্ড টার্মিনাল, লেয়ার, স্ন্যাপিং, মাত্রা, গ্রিপ এডিটিং এবং DXF সামঞ্জস্যতা আছে। এটি 3D, ব্লক/xref বা প্যারামেট্রিক কনস্ট্রেইন্ট সমর্থন করে না।' },
+        { q: 'KulmanLab কি আমার ডেস্কটপ CAD সফটওয়্যার প্রতিস্থাপন করতে পারে?', a: '2D ড্রাফটিং-এর জন্য — হ্যাঁ। KulmanLab-এ সম্পূর্ণ কমান্ড টার্মিনাল, লেয়ার, স্ন্যাপিং, মাত্রা, গ্রিপ এডিটিং এবং DXF সামঞ্জস্যতা আছে। এটি 3D, xref বা প্যারামেট্রিক কনস্ট্রেইন্ট সমর্থন করে না।' },
       ],
     },
     {
@@ -907,7 +907,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: 'Je, faili za DXF za KulmanLab zinalingana na programu zingine za CAD?', a: 'Ndiyo. KulmanLab inasoma na kuandika DXF ya AC1032 — toleo linaloungwa mkono kwa upana. Faili zinafunguka vizuri katika LibreCAD, QCAD, BricsCAD, FreeCAD na zana nyingine yoyote inayoweza DXF.' },
         { q: 'Tofauti kati ya DXF na DWG ni nini?', a: 'DXF ni muundo wa wazi wa ubadilishanaji wa maandishi uliobuniwa kwa uintegrability. DWG ni muundo wa binary wa umiliki. KulmanLab inatumia DXF, inayoweza kusomwa na karibu kila zana ya CAD.' },
-        { q: 'Je, KulmanLab inaweza kuchukua nafasi ya programu yangu ya CAD ya kompyuta?', a: 'Kwa uandishi wa 2D — ndiyo. KulmanLab ina terminal kamili ya amri, tabaka, kupiga, vipimo, uhariri wa grip na ulinganifu wa DXF. Haiauni 3D, vitalu/xref au vikwazo vya parametriki.' },
+        { q: 'Je, KulmanLab inaweza kuchukua nafasi ya programu yangu ya CAD ya kompyuta?', a: 'Kwa uandishi wa 2D — ndiyo. KulmanLab ina terminal kamili ya amri, tabaka, kupiga, vipimo, uhariri wa grip na ulinganifu wa DXF. Haiauni 3D, xref au vikwazo vya parametriki.' },
       ],
     },
     {
@@ -953,7 +953,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: 'کیا KulmanLab DXF فائلیں دوسرے CAD سافٹ ویئر کے ساتھ مطابقت رکھتی ہیں؟', a: 'ہاں۔ KulmanLab AC1032 DXF پڑھتا اور لکھتا ہے — ایک وسیع پیمانے پر سپورٹ شدہ ورژن۔ فائلیں LibreCAD، QCAD، BricsCAD، FreeCAD اور کسی بھی DXF قابل ٹول میں صحیح کھلتی ہیں۔' },
         { q: 'DXF اور DWG میں کیا فرق ہے؟', a: 'DXF ایک کھلا، متن پر مبنی تبادلہ فارمیٹ ہے جو باہمی عمل کے لیے بنایا گیا ہے۔ DWG ایک ملکیتی بائنری فارمیٹ ہے۔ KulmanLab DXF استعمال کرتا ہے جسے تقریباً ہر CAD ٹول پڑھ سکتا ہے۔' },
-        { q: 'کیا KulmanLab میرے ڈیسک ٹاپ CAD سافٹ ویئر کی جگہ لے سکتا ہے؟', a: '2D ڈرافٹنگ کے لیے — ہاں۔ KulmanLab میں مکمل کمانڈ ٹرمینل، پرتیں، اسنیپنگ، پیمائشیں، گرپ ایڈیٹنگ اور DXF مطابقت ہے۔ یہ 3D، بلاکس/xrefs یا پیرامیٹرک قیود سپورٹ نہیں کرتا۔' },
+        { q: 'کیا KulmanLab میرے ڈیسک ٹاپ CAD سافٹ ویئر کی جگہ لے سکتا ہے؟', a: '2D ڈرافٹنگ کے لیے — ہاں۔ KulmanLab میں مکمل کمانڈ ٹرمینل، پرتیں، اسنیپنگ، پیمائشیں، گرپ ایڈیٹنگ اور DXF مطابقت ہے۔ یہ 3D، xrefs یا پیرامیٹرک قیود سپورٹ نہیں کرتا۔' },
       ],
     },
     {
@@ -999,7 +999,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: 'Είναι τα αρχεία DXF του KulmanLab συμβατά με άλλο λογισμικό CAD;', a: 'Ναι. Το KulmanLab διαβάζει και γράφει AC1032 DXF — μια ευρέως υποστηριζόμενη έκδοση. Τα αρχεία ανοίγουν σωστά στο LibreCAD, QCAD, BricsCAD, FreeCAD και οποιοδήποτε άλλο εργαλείο DXF.' },
         { q: 'Ποια είναι η διαφορά μεταξύ DXF και DWG;', a: 'Το DXF είναι μια ανοιχτή, βασισμένη σε κείμενο μορφή ανταλλαγής σχεδιασμένη για διαλειτουργικότητα. Το DWG είναι μια ιδιόκτητη δυαδική μορφή. Το KulmanLab χρησιμοποιεί DXF, το οποίο είναι αναγνώσιμο από σχεδόν κάθε εργαλείο CAD.' },
-        { q: 'Μπορεί το KulmanLab να αντικαταστήσει το desktop CAD μου;', a: 'Για 2D σχεδίαση — ναι. Το KulmanLab έχει πλήρες terminal εντολών, επίπεδα, snapping, διαστάσεις, επεξεργασία με λαβές και συμβατότητα DXF. Δεν υποστηρίζει 3D, blocks/xrefs ή παραμετρικούς περιορισμούς.' },
+        { q: 'Μπορεί το KulmanLab να αντικαταστήσει το desktop CAD μου;', a: 'Για 2D σχεδίαση — ναι. Το KulmanLab έχει πλήρες terminal εντολών, επίπεδα, snapping, διαστάσεις, επεξεργασία με λαβές και συμβατότητα DXF. Δεν υποστηρίζει 3D, xrefs ή παραμετρικούς περιορισμούς.' },
       ],
     },
     {
@@ -1044,7 +1044,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: 'ਕੀ KulmanLab DXF ਫਾਈਲਾਂ ਹੋਰ CAD ਸਾਫਟਵੇਅਰ ਨਾਲ ਅਨੁਕੂਲ ਹਨ?', a: 'ਹਾਂ। KulmanLab AC1032 DXF ਪੜ੍ਹਦਾ ਅਤੇ ਲਿਖਦਾ ਹੈ — ਇੱਕ ਵਿਆਪਕ ਤੌਰ ਤੇ ਸਮਰਥਿਤ ਵਰਜ਼ਨ। ਫਾਈਲਾਂ LibreCAD, QCAD, BricsCAD, FreeCAD ਅਤੇ ਕਿਸੇ ਵੀ ਹੋਰ DXF-ਸਮਰੱਥ ਟੂਲ ਵਿੱਚ ਸਹੀ ਢੰਗ ਨਾਲ ਖੁੱਲ੍ਹਦੀਆਂ ਹਨ।' },
         { q: 'DXF ਅਤੇ DWG ਵਿੱਚ ਕੀ ਫਰਕ ਹੈ?', a: 'DXF ਇੱਕ ਖੁੱਲ੍ਹਾ, ਟੈਕਸਟ-ਅਧਾਰਤ ਵਟਾਂਦਰਾ ਫਾਰਮੈਟ ਹੈ ਜੋ ਇੰਟਰਓਪਰੇਬਿਲਟੀ ਲਈ ਡਿਜ਼ਾਈਨ ਕੀਤਾ ਗਿਆ ਹੈ। DWG ਇੱਕ ਮਲਕੀਅਤੀ ਬਾਈਨਰੀ ਫਾਰਮੈਟ ਹੈ। KulmanLab DXF ਵਰਤਦਾ ਹੈ, ਜੋ ਲਗਭਗ ਹਰ CAD ਟੂਲ ਦੁਆਰਾ ਪੜ੍ਹਨਯੋਗ ਹੈ।' },
-        { q: 'ਕੀ KulmanLab ਮੇਰੇ ਡੈਸਕਟੌਪ CAD ਸਾਫਟਵੇਅਰ ਦੀ ਥਾਂ ਲੈ ਸਕਦਾ ਹੈ?', a: '2D ਡਰਾਫਟਿੰਗ ਲਈ — ਹਾਂ। KulmanLab ਵਿੱਚ ਪੂਰਾ ਕਮਾਂਡ ਟਰਮੀਨਲ, ਲੇਅਰ, ਸਨੈਪਿੰਗ, ਮਾਪ, ਗ੍ਰਿਪ ਐਡੀਟਿੰਗ ਅਤੇ DXF ਅਨੁਕੂਲਤਾ ਹੈ। ਇਹ 3D, ਬਲਾਕ/xref ਜਾਂ ਪੈਰਾਮੈਟ੍ਰਿਕ ਕੰਸਟ੍ਰੇਂਟ ਸਪੋਰਟ ਨਹੀਂ ਕਰਦਾ।' },
+        { q: 'ਕੀ KulmanLab ਮੇਰੇ ਡੈਸਕਟੌਪ CAD ਸਾਫਟਵੇਅਰ ਦੀ ਥਾਂ ਲੈ ਸਕਦਾ ਹੈ?', a: '2D ਡਰਾਫਟਿੰਗ ਲਈ — ਹਾਂ। KulmanLab ਵਿੱਚ ਪੂਰਾ ਕਮਾਂਡ ਟਰਮੀਨਲ, ਲੇਅਰ, ਸਨੈਪਿੰਗ, ਮਾਪ, ਗ੍ਰਿਪ ਐਡੀਟਿੰਗ ਅਤੇ DXF ਅਨੁਕੂਲਤਾ ਹੈ। ਇਹ 3D, xref ਜਾਂ ਪੈਰਾਮੈਟ੍ਰਿਕ ਕੰਸਟ੍ਰੇਂਟ ਸਪੋਰਟ ਨਹੀਂ ਕਰਦਾ।' },
       ],
     },
     {
@@ -1089,7 +1089,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: 'Är KulmanLabs DXF-filer kompatibla med annan CAD-programvara?', a: 'Ja. KulmanLab läser och skriver AC1032 DXF — en allmänt stödd version. Filer öppnas korrekt i LibreCAD, QCAD, BricsCAD, FreeCAD och alla andra DXF-kapabla verktyg.' },
         { q: 'Vad är skillnaden mellan DXF och DWG?', a: 'DXF är ett öppet, textbaserat utbytesformat designat för interoperabilitet. DWG är ett proprietärt binärformat. KulmanLab använder DXF, som kan läsas av nästan alla CAD-verktyg.' },
-        { q: 'Kan KulmanLab ersätta min skrivbords-CAD-programvara?', a: 'För 2D-ritning — ja. KulmanLab har en fullständig kommandoterminal, lager, fångst, måttsättning, handtagsredigering och DXF-kompatibilitet. Den stödjer inte 3D, block/xref eller parametriska begränsningar.' },
+        { q: 'Kan KulmanLab ersätta min skrivbords-CAD-programvara?', a: 'För 2D-ritning — ja. KulmanLab har en fullständig kommandoterminal, lager, fångst, måttsättning, handtagsredigering och DXF-kompatibilitet. Den stödjer inte 3D, xref eller parametriska begränsningar.' },
       ],
     },
     {
@@ -1134,7 +1134,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: 'Compatible ba ang mga DXF file ng KulmanLab sa ibang CAD software?', a: 'Oo. Nagbabasa at nagsusulat ang KulmanLab ng AC1032 DXF — isang malawak na suportadong bersyon. Bumubukas nang tama ang mga file sa LibreCAD, QCAD, BricsCAD, FreeCAD, at anumang ibang DXF-capable na tool.' },
         { q: 'Ano ang pagkakaiba ng DXF at DWG?', a: 'Ang DXF ay isang open, text-based na exchange format na dinisenyo para sa interoperability. Ang DWG ay isang proprietary binary format. Gumagamit ang KulmanLab ng DXF, na puwedeng basahin ng halos lahat ng CAD tool.' },
-        { q: 'Puwede bang palitan ng KulmanLab ang aking desktop CAD software?', a: 'Para sa 2D drawing — oo. May kumpletong command terminal, layer, snapping, dimensions, grip editing, at DXF compatibility ang KulmanLab. Hindi nito sinusuportahan ang 3D, blocks/xrefs, o parametric constraints.' },
+        { q: 'Puwede bang palitan ng KulmanLab ang aking desktop CAD software?', a: 'Para sa 2D drawing — oo. May kumpletong command terminal, layer, snapping, dimensions, grip editing, at DXF compatibility ang KulmanLab. Hindi nito sinusuportahan ang 3D, xrefs, o parametric constraints.' },
       ],
     },
     {
@@ -1180,7 +1180,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: 'Zijn KulmanLab DXF-bestanden compatibel met andere CAD-software?', a: 'Ja. KulmanLab leest en schrijft AC1032 DXF — een breed ondersteunde versie. Bestanden openen correct in LibreCAD, QCAD, BricsCAD, FreeCAD en elke andere DXF-geschikte tool.' },
         { q: 'Wat is het verschil tussen DXF en DWG?', a: 'DXF is een open, tekstgebaseerd uitwisselingsformaat ontworpen voor interoperabiliteit. DWG is een propriëtair binair formaat. KulmanLab gebruikt DXF, dat door vrijwel elke CAD-tool leesbaar is.' },
-        { q: 'Kan KulmanLab mijn desktop-CAD-software vervangen?', a: 'Voor 2D-tekenwerk — ja. KulmanLab heeft een volledige opdrachtterminal, lagen, snapping, maatvoering, grip-bewerking en DXF-compatibiliteit. Het ondersteunt geen 3D, blocks/xrefs of parametrische beperkingen.' },
+        { q: 'Kan KulmanLab mijn desktop-CAD-software vervangen?', a: 'Voor 2D-tekenwerk — ja. KulmanLab heeft een volledige opdrachtterminal, lagen, snapping, maatvoering, grip-bewerking en DXF-compatibiliteit. Het ondersteunt geen 3D, xrefs of parametrische beperkingen.' },
       ],
     },
     {
@@ -1226,7 +1226,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: 'האם קבצי DXF של KulmanLab תואמים לתוכנות CAD אחרות?', a: 'כן. KulmanLab קורא וכותב DXF בגרסת AC1032 — גרסה נתמכת באופן נרחב. הקבצים נפתחים כראוי ב-LibreCAD, QCAD, BricsCAD, FreeCAD וכל כלי אחר התומך ב-DXF.' },
         { q: 'מה ההבדל בין DXF ל-DWG?', a: 'DXF הוא פורמט חילופין פתוח ומבוסס טקסט, שנועד לאינטראופרביליות. DWG הוא פורמט בינארי קנייני. KulmanLab משתמש ב-DXF, שניתן לקריאה כמעט בכל כלי CAD.' },
-        { q: 'האם KulmanLab יכול להחליף את תוכנת ה-CAD השולחנית שלי?', a: 'לשרטוט דו-ממדי — כן. ל-KulmanLab יש מסוף פקודות מלא, שכבות, הצמדה, מידות, עריכת נקודות אחיזה ותאימות DXF. הוא אינו תומך בתלת-ממד, בלוקים/הפניות חיצוניות (xrefs) או אילוצים פרמטריים.' },
+        { q: 'האם KulmanLab יכול להחליף את תוכנת ה-CAD השולחנית שלי?', a: 'לשרטוט דו-ממדי — כן. ל-KulmanLab יש מסוף פקודות מלא, שכבות, הצמדה, מידות, עריכת נקודות אחיזה ותאימות DXF. הוא אינו תומך בתלת-ממד, הפניות חיצוניות (xrefs) או אילוצים פרמטריים.' },
       ],
     },
     {
@@ -1272,7 +1272,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: 'Shin fayilolin DXF na KulmanLab suna dacewa da wasu manhajojin CAD?', a: 'Eh. KulmanLab yana karantawa da rubuta DXF na AC1032 — sigar da ake goyon bayanta sosai. Fayiloli suna buɗewa daidai a LibreCAD, QCAD, BricsCAD, FreeCAD, da kowane kayan aiki da ke goyon bayan DXF.' },
         { q: 'Menene bambanci tsakanin DXF da DWG?', a: 'DXF tsari ne buɗaɗɗe, mai dogara da rubutu, wanda aka tsara don musayar bayanai. DWG tsari ne na binary na mallaka. KulmanLab yana amfani da DXF, wanda kusan kowane kayan aikin CAD zai iya karantawa.' },
-        { q: 'Shin KulmanLab zai iya maye gurbin manhajar CAD na tebur na?', a: 'Don zane na 2D — eh. KulmanLab yana da cikakkiyar tashar umarni, layers, snapping, girma-girma, gyaran grip, da dacewa da DXF. Ba ya goyon bayan 3D, blocks/xrefs, ko iyakoki na parametric.' },
+        { q: 'Shin KulmanLab zai iya maye gurbin manhajar CAD na tebur na?', a: 'Don zane na 2D — eh. KulmanLab yana da cikakkiyar tashar umarni, layers, snapping, girma-girma, gyaran grip, da dacewa da DXF. Ba ya goyon bayan 3D, xrefs, ko iyakoki na parametric.' },
       ],
     },
     {
@@ -1318,7 +1318,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: 'Er KulmanLab DXF-filer kompatible med annen CAD-programvare?', a: 'Ja. KulmanLab leser og skriver AC1032 DXF — en bredt støttet versjon. Filer åpnes korrekt i LibreCAD, QCAD, BricsCAD, FreeCAD og ethvert annet DXF-kompatibelt verktøy.' },
         { q: 'Hva er forskjellen mellom DXF og DWG?', a: 'DXF er et åpent, tekstbasert utvekslingsformat designet for interoperabilitet. DWG er et proprietært binærformat. KulmanLab bruker DXF, som kan leses av så godt som ethvert CAD-verktøy.' },
-        { q: 'Kan KulmanLab erstatte min desktop CAD-programvare?', a: 'For 2D-tegning — ja. KulmanLab har en full kommandoterminal, lag, snapping, mål, grep-redigering og DXF-kompatibilitet. Den støtter ikke 3D, blokker/xrefs eller parametriske begrensninger.' },
+        { q: 'Kan KulmanLab erstatte min desktop CAD-programvare?', a: 'For 2D-tegning — ja. KulmanLab har en full kommandoterminal, lag, snapping, mål, grep-redigering og DXF-kompatibilitet. Den støtter ikke 3D, xrefs eller parametriske begrensninger.' },
       ],
     },
     {
@@ -1364,7 +1364,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: 'Er KulmanLab DXF-filer kompatible med anden CAD-software?', a: 'Ja. KulmanLab læser og skriver AC1032 DXF — en bredt understøttet version. Filer åbnes korrekt i LibreCAD, QCAD, BricsCAD, FreeCAD og ethvert andet DXF-kompatibelt værktøj.' },
         { q: 'Hvad er forskellen mellem DXF og DWG?', a: 'DXF er et åbent, tekstbaseret udvekslingsformat designet til interoperabilitet. DWG er et proprietært binærformat. KulmanLab bruger DXF, som kan læses af stort set ethvert CAD-værktøj.' },
-        { q: 'Kan KulmanLab erstatte min desktop CAD-software?', a: 'Til 2D-tegning — ja. KulmanLab har en fuld kommandoterminal, lag, snapping, mål, grebredigering og DXF-kompatibilitet. Den understøtter ikke 3D, blokke/xrefs eller parametriske begrænsninger.' },
+        { q: 'Kan KulmanLab erstatte min desktop CAD-software?', a: 'Til 2D-tegning — ja. KulmanLab har en fuld kommandoterminal, lag, snapping, mål, grebredigering og DXF-kompatibilitet. Den understøtter ikke 3D, xrefs eller parametriske begrænsninger.' },
       ],
     },
     {
@@ -1410,7 +1410,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: 'Ovatko KulmanLabin DXF-tiedostot yhteensopivia muiden CAD-ohjelmistojen kanssa?', a: 'Kyllä. KulmanLab lukee ja kirjoittaa AC1032 DXF -muotoa — laajasti tuettu versio. Tiedostot avautuvat oikein LibreCADissa, QCADissa, BricsCADissa, FreeCADissa ja muissa DXF-yhteensopivissa työkaluissa.' },
         { q: 'Mikä on ero DXF:n ja DWG:n välillä?', a: 'DXF on avoin, tekstipohjainen vaihtomuoto suunniteltu yhteentoimivuuteen. DWG on omistettu binäärimuoto. KulmanLab käyttää DXF:ää, jota lähes jokainen CAD-työkalu voi lukea.' },
-        { q: 'Voiko KulmanLab korvata työpöytä-CAD-ohjelmistoni?', a: '2D-suunnittelussa — kyllä. KulmanLabissa on täysi komentoterminaali, tasot, tarttuminen, mitat, kahvamuokkaus ja DXF-yhteensopivuus. Se ei tue 3D:tä, lohkoja/xrefejä tai parametrisia rajoitteita.' },
+        { q: 'Voiko KulmanLab korvata työpöytä-CAD-ohjelmistoni?', a: '2D-suunnittelussa — kyllä. KulmanLabissa on täysi komentoterminaali, tasot, tarttuminen, mitat, kahvamuokkaus ja DXF-yhteensopivuus. Se ei tue 3D:tä, xrefejä tai parametrisia rajoitteita.' },
       ],
     },
     {
@@ -1456,7 +1456,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: 'Jsou soubory DXF z KulmanLab kompatibilní s jiným CAD softwarem?', a: 'Ano. KulmanLab čte a zapisuje DXF ve verzi AC1032 — široce podporované. Soubory se správně otevřou v LibreCAD, QCAD, BricsCAD, FreeCAD i v jakémkoli jiném nástroji podporujícím DXF.' },
         { q: 'Jaký je rozdíl mezi DXF a DWG?', a: 'DXF je otevřený textový výměnný formát navržený pro interoperabilitu. DWG je proprietární binární formát. KulmanLab používá DXF, který čte prakticky každý CAD nástroj.' },
-        { q: 'Může KulmanLab nahradit můj desktopový CAD software?', a: 'Pro 2D rýsování — ano. KulmanLab má plnohodnotný příkazový terminál, hladiny, uchopení, kóty, úpravy úchyty a kompatibilitu s DXF. Nepodporuje 3D, bloky/xrefy ani parametrické vazby.' },
+        { q: 'Může KulmanLab nahradit můj desktopový CAD software?', a: 'Pro 2D rýsování — ano. KulmanLab má plnohodnotný příkazový terminál, hladiny, uchopení, kóty, úpravy úchyty a kompatibilitu s DXF. Nepodporuje 3D, xrefy ani parametrické vazby.' },
       ],
     },
     {
@@ -1501,7 +1501,7 @@ export const faqContent: Record<string, FaqSection[]> = {
       items: [
         { q: 'Ar KulmanLab DXF failai suderinami su kita CAD programine įranga?', a: 'Taip. KulmanLab skaito ir rašo AC1032 DXF — plačiai palaikomą versiją. Failai teisingai atsidaro LibreCAD, QCAD, BricsCAD, FreeCAD ir bet kuriame kitame DXF palaikančiame įrankyje.' },
         { q: 'Kuo skiriasi DXF ir DWG?', a: 'DXF yra atviras, tekstinis keitimosi formatas, sukurtas sąveikai. DWG yra uždaras dvejetainis formatas. KulmanLab naudoja DXF, kurį gali skaityti praktiškai bet kuris CAD įrankis.' },
-        { q: 'Ar KulmanLab gali pakeisti mano darbalaukio CAD programą?', a: 'Vykdant 2D braižybą — taip. KulmanLab turi pilną komandų terminalą, sluoksnius, prisitraukimą, matmenis, redagavimą rankenėlėmis ir DXF suderinamumą. Nepalaiko 3D, blokų/xref ar parametrinių apribojimų.' },
+        { q: 'Ar KulmanLab gali pakeisti mano darbalaukio CAD programą?', a: 'Vykdant 2D braižybą — taip. KulmanLab turi pilną komandų terminalą, sluoksnius, prisitraukimą, matmenis, redagavimą rankenėlėmis ir DXF suderinamumą. Nepalaiko 3D, xref ar parametrinių apribojimų.' },
       ],
     },
     {

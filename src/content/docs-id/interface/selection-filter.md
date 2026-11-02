@@ -12,7 +12,7 @@ Memilih banyak entitas sekaligus membuka panel properti dalam tampilan seleksi g
 
 ## Membuka filter
 
-1. Pilih beberapa entitas — seret kotak seleksi, klik sambil menekan Shift, atau tekan Ctrl+A.
+1. Pilih beberapa entitas — seret kotak seleksi, gambar laso, Shift-klik, atau Ctrl+A.
 2. Klik **ikon filter** (corong) di kepala panel properti.
 3. Sebuah jendela terbuka di bawah tombol, berisi daftar centang untuk setiap properti yang memang bervariasi di dalam seleksi.
 

@@ -15,7 +15,7 @@ The `align` command repositions selected entities using one or two pairs of sour
 **Pre-select, then align** — select entities first, then activate:
 
 1. Select one or more entities on the canvas.
-2. Type `align` in the terminal or click the **Align** toolbar button.
+2. Type `align` in the terminal or choose **Align** from the dropdown in the Edit panel.
 3. **Click the first source point (S1)**, then **click the first destination point (D1)**.
 4. **Click the second source point (S2)**, or press **Enter** or **Space** to apply a translate-only alignment now.
 5. **Click the second destination point (D2)**.
@@ -23,7 +23,7 @@ The `align` command repositions selected entities using one or two pairs of sour
 
 **Activate, then select** — start the command with nothing selected:
 
-1. Type `align` or click the toolbar button.
+1. Type `align` or choose **Align** from the dropdown.
 2. **Select objects** — click to toggle individual entities, or drag to select by area.
 3. Press **Enter** or **Space** to confirm the selection.
 4. Continue with S1 → D1 → S2 → D2 → scale prompt as above.

@@ -38,7 +38,6 @@ Dalej możesz przesuwać widok i przybliżać, włączać i wyłączać warstwy,
 **Gdzie ma braki — przeczytaj, zanim na tym polegniesz:**
 
 - **Tylko 2D.** DXF zawierający bryły lub siatki 3D to zły plik dla tego narzędzia.
-- **Brak bloków.** Odwołania do bloków (`INSERT`) nie są przetwarzane, więc rysunek zbudowany z powtarzalnych symboli blokowych wczyta się niekompletny.
 - **DXF, nie DWG.** Zobacz sekcję o DWG poniżej.
 - **Tylko przeglądarki desktopowe** — Chrome, Firefox, Safari i Edge. Wersji mobilnej nie ma.
 

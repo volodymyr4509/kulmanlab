@@ -142,6 +142,8 @@ Każde polecenie przebiega według tego samego schematu:
 2. **Postępuj zgodnie z podpowiedzią** — terminal pokazuje, jakie dane należy wprowadzić jako następne.
 3. **Zakończ lub anuluj** — większość poleceń kończy się automatycznie po ostatnim wejściu. Naciśnij **Escape** w dowolnym momencie, aby anulować.
 
+Wpisywane polecenia przyjmują też standardowe krótkie aliasy, np. `L` dla Line, `C` dla Circle, `TR` dla Trim i `X` dla Explode.
+
 ## Zaznaczanie obiektów
 
 Kilka poleceń edycji (Przesuń, Kopiuj, Obróć, Odbij, Skaluj, Usuń) korzysta z tego samego sposobu zaznaczania:
@@ -150,3 +152,5 @@ Kilka poleceń edycji (Przesuń, Kopiuj, Obróć, Odbij, Skaluj, Usuń) korzysta
 - **Przeciągnij w prawo** (od lewej do prawej) — zaznaczenie ścisłe: wybierane są tylko elementy w całości wewnątrz ramki.
 - **Przeciągnij w lewo** (od prawej do lewej) — zaznaczenie przecinające: wybierany jest każdy element przecinający ramkę.
 - Naciśnij **Enter** lub **Spację**, aby potwierdzić zaznaczenie i przejść do następnego kroku.
+
+Gdy żadne polecenie nie działa, możesz też zaznaczać **lassem**: naciśnij puste miejsce i przeciągnij wokół tego, co chcesz. Narysowane zgodnie z ruchem wskazówek zegara bierze tylko to, co leży całkowicie w środku; przeciwnie — także to, czego dotyka. Przełącznik **Lasso** na pasku sterowania je wyłącza.

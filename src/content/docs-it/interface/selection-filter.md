@@ -12,7 +12,7 @@ Selezionare molte entità insieme apre il pannello proprietà nella sua vista a 
 
 ## Aprire il filtro
 
-1. Seleziona più entità — traccia un riquadro di selezione, fai clic tenendo Maiusc, oppure premi Ctrl+A.
+1. Seleziona più entità — trascina un riquadro di selezione, disegna un lazo, Maiusc+clic o Ctrl+A.
 2. Fai clic sull'**icona di filtro** (imbuto) nell'intestazione del pannello proprietà.
 3. Sotto il pulsante si apre una finestra con un elenco di spunta per ogni proprietà che varia realmente all'interno della selezione.
 

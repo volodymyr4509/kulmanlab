@@ -59,7 +59,6 @@ Stojí za to vědět, než se na něj spolehnete:
 
 - **Anotace odškrtněte, nemažte.** Text, kóty, odkazové čáry i šrafy se nyní exportují, takže cokoli zbyde ve výkresu, skončí v souboru. Nemusíte to mazat: Export Manager vypisuje každý typ objektu s vlastním zaškrtávacím políčkem, takže odškrtnutím Text, čtyř řádků kót, Leaders a Hatches dostanete DXF s řeznou geometrií a ničím jiným, přičemž samotný výkres zůstane nedotčen.
 - **Text se zapíše jako `MTEXT`, což není totéž jako gravírovatelná geometrie.** Písmo se exportuje s neporušeným formátováním, ale řada softwarů strojů chce obrysy místo živého textu na hladině gravírování. Zjistěte, co ten váš přijímá, než kolem toho naplánujete gravírované nápisy.
-- **Odkazy na bloky se neimportují.** Výkres sestavený z opakovaných blokových symbolů dorazí neúplný, takže zkontrolujte počty dílů proti originálu.
 
 Spliny se exportují *ano*. Některý software strojů s nimi zachází špatně a dává přednost polyline — pokud to platí i pro ten váš, překreslete křivky jako polyline nebo oblouky.
 

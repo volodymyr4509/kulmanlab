@@ -59,6 +59,7 @@ Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text �
 - Leaders(멀티리더)
 - Hatches(패턴, 스케일, 각도, 원점 포함)
 - Layers 및 Linetypes
+- 솔리드와 블록 참조(그리는 블록 포함)
 
 ### DXF 내보내기
 
@@ -71,6 +72,7 @@ Lines · Circles · Arcs · Ellipses · Polylines · Splines · Points · Text �
 - Hatches(패턴, 스케일, 각도, 원점 포함)
 - Layers 및 Linetypes
 - 레이아웃: 이름, 용지 크기, 탭 순서, 각 레이아웃에 그려진 모든 것, 축척과 잠금을 포함한 뷰포트 — 파일을 다시 열어도 레이아웃이 그대로 돌아옵니다
+- 솔리드는 `SOLID`로, 블록 참조는 속성 값과 함께 `INSERT`로 쓰고, 블록은 블록 정의로 씀
 
 파일은 AC1032 DXF로 작성되므로, KulmanLab에서 내보낸 도면은 맨 형상으로 도착하지 않고 다른 DXF 지원 도구에서도 주석이 온전한 상태로 열립니다.
 

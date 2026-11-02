@@ -59,6 +59,7 @@ Varje entitetstyp ingår:
 - Leaders (multiledare)
 - Hatches, inklusive deras mönster, skala, vinkel och ursprung
 - Layers och Linetypes
+- Solider och blockreferenser, med de block de ritar
 
 ### DXF-export
 
@@ -71,6 +72,7 @@ Varje entitetstyp ingår:
 - Hatches, inklusive deras mönster, skala, vinkel och ursprung
 - Layers och Linetypes
 - Layouter med namn, pappersstorlek och flikordning, allt som är ritat på varje, och deras visningsfönster med skala och lås — så att en layout kommer tillbaka oförändrad när filen öppnas igen
+- Solider som `SOLID`, och blockreferenser som `INSERT` med sina attributvärden; deras block skrivs som blockdefinitioner
 
 Filen skrivs som AC1032-DXF, så en ritning som exporterats från KulmanLab öppnas med sina anteckningar i behåll i andra DXF-kunniga verktyg i stället för att komma fram som ren geometri.
 

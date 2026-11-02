@@ -15,7 +15,7 @@ Perintah `Sejajarkan` memposisikan ulang entitas yang dipilih menggunakan satu a
 **Pra-pilih, lalu ratakan** — pilih entitas terlebih dahulu, kemudian aktifkan:
 
 1. Pilih satu atau lebih entitas di kanvas.
-2. Ketik `Sejajarkan` di terminal atau klik tombol toolbar **Align**.
+2. Ketik `Sejajarkan` di terminal atau pilih **Align** dari dropdown di panel Edit.
 3. **Klik titik sumber pertama (S1)**, lalu **klik titik tujuan pertama (D1)**.
 4. **Klik titik sumber kedua (S2)**, atau tekan **Enter** atau **Space** untuk langsung menerapkan perataan translasi saja.
 5. **Klik titik tujuan kedua (D2)**.
@@ -23,7 +23,7 @@ Perintah `Sejajarkan` memposisikan ulang entitas yang dipilih menggunakan satu a
 
 **Aktifkan, lalu pilih** — mulai perintah tanpa ada yang dipilih:
 
-1. Ketik `Sejajarkan` atau klik tombol toolbar.
+1. Ketik `Sejajarkan` atau pilih **Align** dari dropdown.
 2. **Pilih objek** — klik untuk mengalihkan entitas individual, atau seret untuk memilih berdasarkan area.
 3. Tekan **Enter** atau **Space** untuk mengonfirmasi seleksi.
 4. Lanjutkan dengan S1 → D1 → S2 → D2 → prompt penskalaan seperti di atas.

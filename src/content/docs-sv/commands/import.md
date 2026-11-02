@@ -42,6 +42,8 @@ KulmanLab tolkar följande DXF-entitetstyper:
 | Dimension | `DIMENSION` | |
 | Multileader | `MULTILEADER` | |
 | Hatch | `HATCH` | Mönstrets namn, skala och vinkel läses; ett namn som inte finns i ditt mönsterbibliotek faller tillbaka till ANSI31. Se [Hatch](../hatch/) |
+| Block Reference | `INSERT` | Ritas som filen sparade den: attributvärden visas, entiteter som ett dynamiskt blocks tillstånd döljer utelämnas |
+| Solid | `SOLID` | En platt fyllning med tre eller fyra hörn, som de svarta fälten i en skalstock |
 
 Lagerdefinitioner och linjetypstabeller importeras också från DXF-filen när de finns.
 

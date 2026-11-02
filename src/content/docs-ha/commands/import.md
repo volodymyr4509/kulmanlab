@@ -42,6 +42,8 @@ KulmanLab yana fassara nauʼukan abubuwan DXF masu zuwa:
 | Dimension | `DIMENSION` | |
 | Multileader | `MULTILEADER` | |
 | Hatch | `HATCH` | Ana karanta sunan pattern, scale, da angle; suna da ba ya cikin laburaren pattern naka yana koma zuwa ANSI31. Duba [Hatch](../hatch/) |
+| Block Reference | `INSERT` | Ana zana shi kamar yadda fayil ya adana: ana nuna ƙimar attributes, ana barin abubuwan da yanayin dynamic block ke ɓoyewa |
+| Solid | `SOLID` | Cikawa mai faɗi mai kusurwa uku ko huɗu, kamar baƙaƙen sassan scale bar |
 
 Ana kuma shigo da ma'anonin layer da tebur na nauʼukan layi daga fayil ɗin DXF idan sun kasance.
 

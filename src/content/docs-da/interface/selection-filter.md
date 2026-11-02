@@ -12,7 +12,7 @@ At markere mange entiteter på én gang åbner egenskabspanelet i dets flermarke
 
 ## Åbning af filteret
 
-1. Markér flere entiteter — træk en markeringsramme, Skift-klik eller tryk Ctrl+A.
+1. Vælg flere entiteter — træk en markeringsboks, tegn en lasso, Shift-klik eller Ctrl+A.
 2. Klik på **filterikonet** (tragten) i egenskabspanelets overskrift.
 3. Under knappen åbnes et vindue med en afkrydsningsliste for hver egenskab, der rent faktisk varierer inden for markeringen.
 
