@@ -178,6 +178,7 @@ export const translations: Record<Lang, T> = {
     'docsNav.linetype': 'Linetype',
     'docsNav.lineweight': 'Lineweight',
     'docsNav.textEditor': 'Text Editor',
+    'docsNav.coordinateEntry': "Coordinate Entry",
   },
   de: {
     'nav.docs': 'Dokumentation',
@@ -312,6 +313,7 @@ export const translations: Record<Lang, T> = {
     'docsNav.linetype': 'Linientyp',
     'docsNav.lineweight': 'Linienstärke',
     'docsNav.textEditor': 'Texteditor',
+    'docsNav.coordinateEntry': "Koordinateneingabe",
   },
   es: {
     'nav.docs': 'Documentación',
@@ -446,6 +448,7 @@ export const translations: Record<Lang, T> = {
     'docsNav.linetype': 'Linetype',
     'docsNav.lineweight': 'Lineweight',
     'docsNav.textEditor': 'Editor de Texto',
+    'docsNav.coordinateEntry': "Entrada de coordenadas",
   },
   fr: {
     'nav.docs': 'Documentation',
@@ -580,6 +583,7 @@ export const translations: Record<Lang, T> = {
     'docsNav.linetype': 'Linetype',
     'docsNav.lineweight': 'Lineweight',
     'docsNav.textEditor': 'Éditeur de Texte',
+    'docsNav.coordinateEntry': "Saisie de coordonnées",
   },
   it: {
     'nav.docs': 'Documentazione',
@@ -714,6 +718,7 @@ export const translations: Record<Lang, T> = {
     'docsNav.linetype': 'Tipo di linea',
     'docsNav.lineweight': 'Spessore di linea',
     'docsNav.textEditor': 'Editor di testo',
+    'docsNav.coordinateEntry': "Inserimento coordinate",
   },
   pt: {
     'nav.docs': 'Documentação',
@@ -848,6 +853,7 @@ export const translations: Record<Lang, T> = {
     'docsNav.linetype': 'Tipo de linha',
     'docsNav.lineweight': 'Espessura de linha',
     'docsNav.textEditor': 'Editor de texto',
+    'docsNav.coordinateEntry': "Entrada de coordenadas",
   },
   uk: {
     'nav.docs': 'Документація',
@@ -985,6 +991,7 @@ export const translations: Record<Lang, T> = {
     'docsNav.linetype': 'Тип лінії',
     'docsNav.lineweight': 'Товщина лінії',
     'docsNav.textEditor': 'Текстовий редактор',
+    'docsNav.coordinateEntry': "Введення координат",
   },
   tr: {
     'nav.docs': 'Belgeler',
@@ -1119,6 +1126,7 @@ export const translations: Record<Lang, T> = {
     'docsNav.linetype': 'Çizgi Türü',
     'docsNav.lineweight': 'Çizgi Kalınlığı',
     'docsNav.textEditor': 'Metin Düzenleyici',
+    'docsNav.coordinateEntry': "Koordinat girişi",
   },
   zh: {
     'nav.docs': '文档',
@@ -1253,6 +1261,7 @@ export const translations: Record<Lang, T> = {
     'docsNav.linetype': '线型',
     'docsNav.lineweight': '线宽',
     'docsNav.textEditor': '文字编辑器',
+    'docsNav.coordinateEntry': "坐标输入",
   },
   hi: {
     'nav.docs': 'दस्तावेज़',
@@ -1387,6 +1396,7 @@ export const translations: Record<Lang, T> = {
     'docsNav.linetype': 'लाइनटाइप',
     'docsNav.lineweight': 'लाइनवेट',
     'docsNav.textEditor': 'टेक्स्ट एडिटर',
+    'docsNav.coordinateEntry': "निर्देशांक प्रविष्टि",
   },
   ar: {
     'nav.docs': 'الوثائق',
@@ -1521,6 +1531,7 @@ export const translations: Record<Lang, T> = {
     'docsNav.linetype': 'نوع الخط',
     'docsNav.lineweight': 'عرض الخط',
     'docsNav.textEditor': 'محرر النص',
+    'docsNav.coordinateEntry': "إدخال الإحداثيات",
   },
   id: {
     'nav.docs': 'Dokumentasi',
@@ -1655,6 +1666,7 @@ export const translations: Record<Lang, T> = {
     'docsNav.linetype': 'Linetype',
     'docsNav.lineweight': 'Lineweight',
     'docsNav.textEditor': 'Text Editor',
+    'docsNav.coordinateEntry': "Entri koordinat",
   },
   ja: {
     'nav.docs': 'ドキュメント',
@@ -1789,6 +1801,7 @@ export const translations: Record<Lang, T> = {
     'docsNav.linetype': '線種（Linetype）',
     'docsNav.lineweight': '線幅（Lineweight）',
     'docsNav.textEditor': 'テキストエディター',
+    'docsNav.coordinateEntry': "座標入力",
   },
   pl: {
     'nav.docs': 'Dokumentacja',
@@ -1923,6 +1936,7 @@ export const translations: Record<Lang, T> = {
     'docsNav.linetype': 'Typ linii',
     'docsNav.lineweight': 'Grubość linii',
     'docsNav.textEditor': 'Edytor tekstu',
+    'docsNav.coordinateEntry': "Wprowadzanie współrzędnych",
   },
   ko: {
     'nav.docs': '문서',
@@ -2057,6 +2071,7 @@ export const translations: Record<Lang, T> = {
     'docsNav.linetype': '선종류',
     'docsNav.lineweight': '선 가중치',
     'docsNav.textEditor': '텍스트 편집기',
+    'docsNav.coordinateEntry': "좌표 입력",
   },
   vi: {
     'nav.docs': 'Tài liệu',
@@ -2191,6 +2206,7 @@ export const translations: Record<Lang, T> = {
     'docsNav.linetype': 'Kiểu Đường',
     'docsNav.lineweight': 'Độ Dày Đường',
     'docsNav.textEditor': 'Trình Soạn Thảo Văn Bản',
+    'docsNav.coordinateEntry': "Nhập tọa độ",
   },
   th: {
     'nav.docs': 'เอกสาร',
@@ -2325,6 +2341,7 @@ export const translations: Record<Lang, T> = {
     'docsNav.linetype': 'Linetype',
     'docsNav.lineweight': 'Lineweight',
     'docsNav.textEditor': 'Text Editor',
+    'docsNav.coordinateEntry': "การป้อนพิกัด",
   },
   ms: {
     'nav.docs': 'Dokumentasi',
@@ -2459,6 +2476,7 @@ export const translations: Record<Lang, T> = {
     'docsNav.linetype': 'Linetype',
     'docsNav.lineweight': 'Lineweight',
     'docsNav.textEditor': 'Text Editor',
+    'docsNav.coordinateEntry': "Kemasukan koordinat",
   },
   bn: {
     'nav.docs': 'ডক্স',
@@ -2593,6 +2611,7 @@ export const translations: Record<Lang, T> = {
     'docsNav.linetype': 'Linetype',
     'docsNav.lineweight': 'Lineweight',
     'docsNav.textEditor': 'Text Editor',
+    'docsNav.coordinateEntry': "স্থানাঙ্ক প্রবেশ",
   },
   sw: {
     'nav.docs': 'Nyaraka',
@@ -2727,6 +2746,7 @@ export const translations: Record<Lang, T> = {
     'docsNav.linetype': 'Linetype',
     'docsNav.lineweight': 'Lineweight',
     'docsNav.textEditor': 'Text Editor',
+    'docsNav.coordinateEntry': "Uingizaji wa viwianishi",
   },
 
   ur: {
@@ -2862,6 +2882,7 @@ export const translations: Record<Lang, T> = {
     'docsNav.linetype': 'Linetype',
     'docsNav.lineweight': 'Lineweight',
     'docsNav.textEditor': 'Text Editor',
+    'docsNav.coordinateEntry': "کوآرڈینیٹ اندراج",
   },
 
   el: {
@@ -2997,6 +3018,7 @@ export const translations: Record<Lang, T> = {
     'docsNav.linetype': 'Linetype',
     'docsNav.lineweight': 'Lineweight',
     'docsNav.textEditor': 'Text Editor',
+    'docsNav.coordinateEntry': "Εισαγωγή συντεταγμένων",
   },
   pa: {
     'nav.docs': 'ਡੌਕਸ',
@@ -3131,6 +3153,7 @@ export const translations: Record<Lang, T> = {
     'docsNav.linetype': 'ਲਾਈਨਟਾਈਪ',
     'docsNav.lineweight': 'ਲਾਈਨਵੇਟ',
     'docsNav.textEditor': 'ਟੈਕਸਟ ਐਡੀਟਰ',
+    'docsNav.coordinateEntry': "ਕੋਆਰਡੀਨੇਟ ਦਾਖਲਾ",
   },
   sv: {
     'nav.docs': 'Dokumentation',
@@ -3265,6 +3288,7 @@ export const translations: Record<Lang, T> = {
     'docsNav.linetype': 'Linetype',
     'docsNav.lineweight': 'Lineweight',
     'docsNav.textEditor': 'Text Editor',
+    'docsNav.coordinateEntry': "Koordinatinmatning",
   },
   tl: {
     'nav.docs': 'Dokumentasyon',
@@ -3399,6 +3423,7 @@ export const translations: Record<Lang, T> = {
     'docsNav.linetype': 'Linetype',
     'docsNav.lineweight': 'Lineweight',
     'docsNav.textEditor': 'Text Editor',
+    'docsNav.coordinateEntry': "Pag-input ng coordinate",
   },
   nl: {
     'nav.docs': 'Documentatie',
@@ -3533,6 +3558,7 @@ export const translations: Record<Lang, T> = {
     'docsNav.linetype': 'Lijntype',
     'docsNav.lineweight': 'Lijndikte',
     'docsNav.textEditor': 'Tekstverwerker',
+    'docsNav.coordinateEntry': "Coördinaatinvoer",
   },
   he: {
     'nav.docs': 'תיעוד',
@@ -3667,6 +3693,7 @@ export const translations: Record<Lang, T> = {
     'docsNav.linetype': 'סוג קו',
     'docsNav.lineweight': 'עובי קו',
     'docsNav.textEditor': 'עורך טקסט',
+    'docsNav.coordinateEntry': "הזנת קואורדינטות",
   },
   ha: {
     'nav.docs': 'Takardu',
@@ -3801,6 +3828,7 @@ export const translations: Record<Lang, T> = {
     'docsNav.linetype': 'Nauʼin Layi',
     'docsNav.lineweight': 'Nauyin Layi',
     'docsNav.textEditor': 'Naʼurar Gyaran Rubutu',
+    'docsNav.coordinateEntry': "Shigar da coordinates",
   },
   no: {
     'nav.docs': 'Dokumentasjon',
@@ -3935,6 +3963,7 @@ export const translations: Record<Lang, T> = {
     'docsNav.linetype': 'Linjetype',
     'docsNav.lineweight': 'Linjetykkelse',
     'docsNav.textEditor': 'Tekstredigering',
+    'docsNav.coordinateEntry': "Koordinatinndata",
   },
 
   da: {
@@ -4070,6 +4099,7 @@ export const translations: Record<Lang, T> = {
     'docsNav.linetype': 'Linjetype',
     'docsNav.lineweight': 'Linjetykkelse',
     'docsNav.textEditor': 'Tekstredigering',
+    'docsNav.coordinateEntry': "Koordinatindtastning",
   },
 
   fi: {
@@ -4205,6 +4235,7 @@ export const translations: Record<Lang, T> = {
     'docsNav.linetype': 'Viivatyyppi',
     'docsNav.lineweight': 'Viivanpaksuus',
     'docsNav.textEditor': 'Tekstieditori',
+    'docsNav.coordinateEntry': "Koordinaattien syöttö",
   },
   cs: {
     'nav.docs': 'Dokumentace',
@@ -4342,6 +4373,7 @@ export const translations: Record<Lang, T> = {
     'docsNav.linetype': 'Typ čáry',
     'docsNav.lineweight': 'Tloušťka čáry',
     'docsNav.textEditor': 'Textový editor',
+    'docsNav.coordinateEntry': "Zadávání souřadnic",
   },
   lt: {
     'nav.docs': 'Dokumentacija',
@@ -4479,5 +4511,6 @@ export const translations: Record<Lang, T> = {
     'docsNav.linetype': 'Linijos tipas',
     'docsNav.lineweight': 'Linijos storis',
     'docsNav.textEditor': 'Teksto redaktorius',
+    'docsNav.coordinateEntry': "Koordinačių įvedimas",
   },
 };
