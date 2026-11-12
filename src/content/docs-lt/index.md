@@ -153,4 +153,4 @@ Kelios redagavimo komandos (Move, Copy, Rotate, Mirror, Scale, Delete) dalijasi 
 - **Tempkite į kairę** (iš dešinės į kairę) kertančiam pasirinkimui — pasirenkamas kiekvienas objektas, kertantis rėmelį.
 - Paspauskite **Enter** arba **Space**, kad patvirtintumėte pasirinkimą ir pereitumėte prie kito žingsnio.
 
-Kai nevykdoma jokia komanda, galite žymėti ir **lasu**: paspauskite tuščią vietą ir vilkite aplink tai, ko norite. Nubrėžtas pagal laikrodžio rodyklę, jis paima tik tai, kas visiškai viduje; prieš laikrodžio rodyklę — ir tai, ką paliečia. Valdymo juostos jungiklis **Lasso** jį išjungia.
+Kai nevykdoma jokia komanda, galite žymėti ir **lasu**: paspauskite tuščią vietą ir vilkite aplink tai, ko norite. Nubrėžtas pagal laikrodžio rodyklę, jis paima tik tai, kas visiškai viduje; prieš laikrodžio rodyklę — ir tai, ką paliečia. Pagal numatytuosius nustatymus jis išjungtas: įjunkite jį valdymo juostos jungikliu **Lasso**.

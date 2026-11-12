@@ -153,7 +153,7 @@ Một số lệnh chỉnh sửa (Move, Copy, Rotate, Mirror, Scale, Delete) có 
 - **Kéo sang trái** (phải sang trái) để chọn cắt ngang — chọn bất kỳ đối tượng nào giao với hộp.
 - Nhấn **Enter** hoặc **Space** để xác nhận chọn và tiến hành bước tiếp theo.
 
-Khi không có lệnh nào đang chạy, bạn cũng có thể chọn bằng **lasso**: nhấn vào một chỗ trống rồi kéo quanh những gì muốn chọn. Vẽ theo chiều kim đồng hồ thì chỉ lấy những gì nằm hoàn toàn bên trong; ngược chiều thì lấy cả những gì nó chạm vào. Nút **Lasso** trên thanh điều khiển dùng để tắt nó.
+Khi không có lệnh nào đang chạy, bạn cũng có thể chọn bằng **lasso**: nhấn vào một chỗ trống rồi kéo quanh những gì muốn chọn. Vẽ theo chiều kim đồng hồ thì chỉ lấy những gì nằm hoàn toàn bên trong; ngược chiều thì lấy cả những gì nó chạm vào. Mặc định tính năng này tắt: bật nó bằng nút **Lasso** trên thanh điều khiển.
 
 ## Giao Diện
 

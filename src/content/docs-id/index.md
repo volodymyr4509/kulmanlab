@@ -153,4 +153,4 @@ Beberapa perintah edit (Move, Copy, Rotate, Mirror, Scale, Delete) memiliki peri
 - **Seret ke kiri** (kanan ke kiri) untuk seleksi persilangan — entitas mana pun yang berpotongan dengan kotak dipilih.
 - Tekan **Enter** atau **Space** untuk mengonfirmasi seleksi dan melanjutkan ke langkah berikutnya.
 
-Saat tidak ada perintah yang berjalan, Anda juga bisa memilih dengan **laso**: tekan di titik kosong lalu seret mengelilingi yang Anda inginkan. Digambar searah jarum jam, ia hanya mengambil yang sepenuhnya di dalam; berlawanan arah jarum jam, ia juga mengambil yang disentuhnya. Tombol **Lasso** di bilah kontrol mematikannya.
+Saat tidak ada perintah yang berjalan, Anda juga bisa memilih dengan **laso**: tekan di titik kosong lalu seret mengelilingi yang Anda inginkan. Digambar searah jarum jam, ia hanya mengambil yang sepenuhnya di dalam; berlawanan arah jarum jam, ia juga mengambil yang disentuhnya. Secara bawaan fitur ini mati: nyalakan dengan tombol **Lasso** di bilah kontrol.

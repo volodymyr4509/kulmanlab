@@ -153,4 +153,4 @@ Diversi comandi di modifica (Move, Copy, Rotate, Mirror, Scale, Delete) condivid
 - **Trascina verso sinistra** (da destra a sinistra) per la selezione incrociata — viene selezionata qualsiasi entità che interseca il riquadro.
 - Premi **Invio** o **Spazio** per confermare la selezione e passare al passaggio successivo.
 
-Senza comandi in corso puoi anche selezionare con il **lazo**: premi su un punto vuoto e trascina attorno a ciò che vuoi. Tracciato in senso orario prende solo ciò che sta interamente dentro; in senso antiorario anche ciò che tocca. L’interruttore **Lasso** nella barra di controllo lo disattiva.
+Senza comandi in corso puoi anche selezionare con il **lazo**: premi su un punto vuoto e trascina attorno a ciò che vuoi. Tracciato in senso orario prende solo ciò che sta interamente dentro; in senso antiorario anche ciò che tocca. È disattivato per impostazione predefinita: attivalo con l’interruttore **Lasso** nella barra di controllo.

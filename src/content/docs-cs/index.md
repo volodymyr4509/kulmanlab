@@ -153,4 +153,4 @@ Několik editačních příkazů (Move, Copy, Rotate, Mirror, Scale, Delete) sd�
 - **Tažení doleva** (zprava doleva) pro protínající výběr — vybere se každý objekt, který rámeček protíná.
 - Stisknutím **Enter** nebo **Space** potvrdíte výběr a přejdete k dalšímu kroku.
 
-Když neběží žádný příkaz, můžete vybírat i **lasem**: stiskněte na prázdném místě a táhněte kolem toho, co chcete. Nakreslené po směru hodinových ručiček vezme jen to, co leží celé uvnitř; proti směru i to, čeho se dotkne. Přepínač **Lasso** v ovládací liště ho vypíná.
+Když neběží žádný příkaz, můžete vybírat i **lasem**: stiskněte na prázdném místě a táhněte kolem toho, co chcete. Nakreslené po směru hodinových ručiček vezme jen to, co leží celé uvnitř; proti směru i to, čeho se dotkne. Ve výchozím stavu je vypnuté: zapněte ho přepínačem **Lasso** v ovládací liště.

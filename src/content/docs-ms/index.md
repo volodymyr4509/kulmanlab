@@ -153,4 +153,4 @@ Beberapa arahan edit (Move, Copy, Rotate, Mirror, Scale, Delete) berkongsi tingk
 - **Seret ke kiri** (kanan ke kiri) untuk pemilihan silang — mana-mana entiti yang bersilang dengan kotak dipilih.
 - Tekan **Enter** atau **Space** untuk mengesahkan pemilihan dan meneruskan ke langkah seterusnya.
 
-Apabila tiada perintah berjalan, anda juga boleh memilih dengan **laso**: tekan pada tempat kosong dan seret mengelilingi apa yang anda mahu. Dilukis ikut arah jam, ia mengambil hanya yang terletak sepenuhnya di dalam; lawan arah jam, ia turut mengambil yang disentuhnya. Togol **Lasso** dalam bar kawalan mematikannya.
+Apabila tiada perintah berjalan, anda juga boleh memilih dengan **laso**: tekan pada tempat kosong dan seret mengelilingi apa yang anda mahu. Dilukis ikut arah jam, ia mengambil hanya yang terletak sepenuhnya di dalam; lawan arah jam, ia turut mengambil yang disentuhnya. Ia dimatikan secara lalai: hidupkannya dengan togol **Lasso** dalam bar kawalan.

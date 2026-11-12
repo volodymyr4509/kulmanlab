@@ -152,4 +152,4 @@ Wasu umarnin gyara (Move, Copy, Rotate, Mirror, Scale, Delete) suna raba hali ir
 - **Ja hagu** (daga dama zuwa hagu) don zaɓi mai haɗuwa — kowane abu da ya taɓa akwatin ana zaɓarsa.
 - Danna **Enter** ko **Space** don tabbatar da zaɓi ka ci gaba zuwa mataki na gaba.
 
-Idan babu umarnin da ke gudana, za ka iya kuma zaɓe da **lasso**: danna wuri marar komai ka ja zagaye abin da kake so. Idan aka zana shi bisa agogo yana ɗaukar abin da ke ciki gaba ɗaya kawai; idan saɓanin agogo yana ɗaukar har abin da ya taɓa. Maɓallin **Lasso** a sandar sarrafawa yana kashe shi.
+Idan babu umarnin da ke gudana, za ka iya kuma zaɓe da **lasso**: danna wuri marar komai ka ja zagaye abin da kake so. Idan aka zana shi bisa agogo yana ɗaukar abin da ke ciki gaba ɗaya kawai; idan saɓanin agogo yana ɗaukar har abin da ya taɓa. A tsohuwar saiti a kashe yake: kunna shi da maɓallin **Lasso** a sandar sarrafawa.

@@ -153,4 +153,4 @@ Flere redigeringskommandoer (Move, Copy, Rotate, Mirror, Scale, Delete) deler sa
 - **Dra til venstre** (høyre til venstre) for krysningsmarkering — enhver entitet som krysser boksen blir valgt.
 - Trykk **Enter** eller **Space** for å bekrefte markeringen og gå videre til neste steg.
 
-Når ingen kommando kjører, kan du også velge med **lasso**: trykk på et tomt sted og dra rundt det du vil ha. Tegnet med klokken tar det bare med det som ligger helt inni; mot klokken tar det også med det det berører. Bryteren **Lasso** i kontrollinjen slår det av.
+Når ingen kommando kjører, kan du også velge med **lasso**: trykk på et tomt sted og dra rundt det du vil ha. Tegnet med klokken tar det bare med det som ligger helt inni; mot klokken tar det også med det det berører. Det er av som standard: slå det på med bryteren **Lasso** i kontrollinjen.

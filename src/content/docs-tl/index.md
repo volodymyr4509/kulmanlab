@@ -153,4 +153,4 @@ Maraming edit command (Move, Copy, Rotate, Mirror, Scale, Delete) ang may pareho
 - **I-drag pakaliwa** (kanan papuntang kaliwa) para sa crossing selection — mapipili ang anumang entity na sumasalubong sa box.
 - Pindutin ang **Enter** o **Space** para kumpirmahin ang selection at magpatuloy sa susunod na hakbang.
 
-Kapag walang tumatakbong command, maaari ka ring pumili gamit ang **lasso**: pindutin ang bakanteng puwesto at i-drag sa paligid ng gusto mo. Kapag iginuhit pakanan, kinukuha lang nito ang buong nasa loob; kapag pakaliwa, kinukuha rin ang nadadaanan nito. Pinapatay ito ng **Lasso** toggle sa control bar.
+Kapag walang tumatakbong command, maaari ka ring pumili gamit ang **lasso**: pindutin ang bakanteng puwesto at i-drag sa paligid ng gusto mo. Kapag iginuhit pakanan, kinukuha lang nito ang buong nasa loob; kapag pakaliwa, kinukuha rin ang nadadaanan nito. Naka-off ito bilang default: i-on ito gamit ang **Lasso** toggle sa control bar.

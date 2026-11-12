@@ -153,4 +153,4 @@ Vários comandos de edição (Move, Copy, Rotate, Mirror, Scale, Delete) compart
 - **Arraste para a esquerda** (direita para esquerda) para seleção de cruzamento — seleciona qualquer entidade que intercepte a caixa.
 - Pressione **Enter** ou **Espaço** para confirmar a seleção e prosseguir para a próxima etapa.
 
-Sem nenhum comando em execução, você também pode selecionar com **laço**: pressione num ponto vazio e arraste em volta do que quiser. Desenhado no sentido horário, pega só o que está totalmente dentro; no anti-horário, pega também o que ele toca. O botão **Lasso** na barra de controle o desativa.
+Sem nenhum comando em execução, você também pode selecionar com **laço**: pressione num ponto vazio e arraste em volta do que quiser. Desenhado no sentido horário, pega só o que está totalmente dentro; no anti-horário, pega também o que ele toca. Ele vem desativado: ative-o com o botão **Lasso** na barra de controle.

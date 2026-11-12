@@ -153,4 +153,4 @@ Birkaç düzenleme komutu (Move, Copy, Rotate, Mirror, Scale, Delete) aynı seç
 - **Sola sürükleyin** (sağdan sola) çapraz seçim için — çerçeveyle kesişen herhangi bir nesne seçilir.
 - Seçimi onaylamak ve sonraki adıma geçmek için **Enter** veya **Boşluk** tuşuna basın.
 
-Çalışan bir komut yokken **kement** ile de seçebilirsiniz: boş bir noktaya basıp istediğiniz şeyin çevresinden sürükleyin. Saat yönünde çizildiğinde yalnızca tamamen içinde kalanı, saat yönünün tersine çizildiğinde dokunduğunu da alır. Kontrol çubuğundaki **Lasso** düğmesi onu kapatır.
+Çalışan bir komut yokken **kement** ile de seçebilirsiniz: boş bir noktaya basıp istediğiniz şeyin çevresinden sürükleyin. Saat yönünde çizildiğinde yalnızca tamamen içinde kalanı, saat yönünün tersine çizildiğinde dokunduğunu da alır. Varsayılan olarak kapalıdır: kontrol çubuğundaki **Lasso** düğmesiyle açın.

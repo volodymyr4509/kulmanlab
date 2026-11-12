@@ -153,4 +153,4 @@ Flera redigeringskommandon (Move, Copy, Rotate, Mirror, Scale, Delete) delar sam
 - **Dra åt vänster** (höger till vänster) för korsande markering — varje entitet som skär rutan markeras.
 - Tryck på **Enter** eller **Space** för att bekräfta markeringen och gå vidare till nästa steg.
 
-När inget kommando körs kan du också markera med **lasso**: tryck på en tom plats och dra runt det du vill ha. Ritat medurs tar det bara med det som ligger helt inuti; moturs tar det även med det som det rör vid. Knappen **Lasso** i kontrollfältet stänger av det.
+När inget kommando körs kan du också markera med **lasso**: tryck på en tom plats och dra runt det du vill ha. Ritat medurs tar det bara med det som ligger helt inuti; moturs tar det även med det som det rör vid. Det är avstängt som standard: slå på det med knappen **Lasso** i kontrollfältet.

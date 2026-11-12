@@ -254,7 +254,7 @@ KulmanLab is a free, browser-based 2D CAD editor. No installation, no account, n
 - Trim, Extend and Hatch work with splines, including a spline that crosses itself
 - Point places POINT entities at clicked or typed positions, read from and written to DXF; Point Divide places points that split an object into equal lengths, Point Interval places them a set length apart
 - Blocks: block references (INSERT) are read from DXF and drawn as the file saved them — attribute values shown, a dynamic block's hidden states left out — and written back with their blocks; Explode takes them apart, a double-click edits an attribute value, and snapping, Trim, Extend and Hatch work with what they draw. Filled SOLIDs are read, drawn and written too
-- Lasso selection (press on an empty spot and drag; clockwise takes what lies inside, anticlockwise also what it touches), and standard command aliases such as L, C, TR and X
+- Lasso selection, off by default (press on an empty spot and drag; clockwise takes what lies inside, anticlockwise also what it touches), and standard command aliases such as L, C, TR and X
 - Measure reads distances, lengths, angles, and the area and perimeter of a closed area around the cursor, with nothing to pick
 - Dimension unit formats (scientific, decimal, engineering, architectural, fractional, system; angular decimal degrees, deg/min/sec, gradians, radians), with Precision read in the chosen format
 - Full layer management: create, rename, freeze, lock, isolate, color, linetype, lineweight per layer
@@ -6055,4 +6055,4 @@ Several edit commands (Move, Copy, Rotate, Mirror, Scale, Delete) share the same
 - **Drag left** (right to left) for crossing selection — any entity that intersects the box is selected.
 - Press **Enter** or **Space** to confirm the selection and proceed to the next step.
 
-With no command running, you can also select by **lasso**: press on an empty spot and drag around what you want. Drawn clockwise it takes only what lies wholly inside; drawn anticlockwise it also takes what it touches. The **Lasso** toggle in the control bar turns it off.
+With no command running, you can also select by **lasso**: press on an empty spot and drag around what you want. Drawn clockwise it takes only what lies wholly inside; drawn anticlockwise it also takes what it touches. It is off by default: turn it on with the **Lasso** toggle in the control bar.

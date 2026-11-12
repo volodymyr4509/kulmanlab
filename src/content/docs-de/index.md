@@ -153,4 +153,4 @@ Mehrere Bearbeitungsbefehle (Move, Copy, Rotate, Mirror, Scale, Delete) verwende
 - **Nach links ziehen** (von rechts nach links) für Kreuzauswahl — jedes Element, das den Rahmen schneidet, wird ausgewählt.
 - Drücken Sie **Enter** oder **Space**, um die Auswahl zu bestätigen und zum nächsten Schritt fortzufahren.
 
-Wenn kein Befehl läuft, können Sie auch per **Lasso** auswählen: Drücken Sie auf eine leere Stelle und ziehen Sie um das Gewünschte herum. Im Uhrzeigersinn gezogen erfasst es nur, was ganz innen liegt; gegen den Uhrzeigersinn auch, was es berührt. Der Schalter **Lasso** in der Steuerleiste schaltet es ab.
+Wenn kein Befehl läuft, können Sie auch per **Lasso** auswählen: Drücken Sie auf eine leere Stelle und ziehen Sie um das Gewünschte herum. Im Uhrzeigersinn gezogen erfasst es nur, was ganz innen liegt; gegen den Uhrzeigersinn auch, was es berührt. Standardmäßig ist es aus: Schalten Sie es mit dem Schalter **Lasso** in der Steuerleiste ein.

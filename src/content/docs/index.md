@@ -153,4 +153,4 @@ Several edit commands (Move, Copy, Rotate, Mirror, Scale, Delete) share the same
 - **Drag left** (right to left) for crossing selection — any entity that intersects the box is selected.
 - Press **Enter** or **Space** to confirm the selection and proceed to the next step.
 
-With no command running, you can also select by **lasso**: press on an empty spot and drag around what you want. Drawn clockwise it takes only what lies wholly inside; drawn anticlockwise it also takes what it touches. The **Lasso** toggle in the control bar turns it off.
+With no command running, you can also select by **lasso**: press on an empty spot and drag around what you want. Drawn clockwise it takes only what lies wholly inside; drawn anticlockwise it also takes what it touches. It is off by default: turn it on with the **Lasso** toggle in the control bar.

@@ -273,7 +273,7 @@ It is designed for engineers, architects, and technical illustrators who need a 
 - Polyline arc segments — toggle Arc mode (A) mid-polyline for AutoCAD-style tangent arc segments, fully supported by render, selection, grip editing, trim/extend, DXF, and hatch boundaries
 - Rotate has a Copy toggle (C) — rotate duplicates instead of the original selection, AutoCAD ROTATE-style
 - Selection filter: narrow a large multi-selection by Type, Layer, Color, Lineweight, or Linetype before bulk-editing, via a filter icon in the property panel
-- Lasso selection: press on an empty spot and drag around what you want — clockwise takes what lies wholly inside, anticlockwise also what it touches; a Lasso toggle in the control bar turns it off
+- Lasso selection: press on an empty spot and drag around what you want — clockwise takes what lies wholly inside, anticlockwise also what it touches; off by default, switched on with the Lasso toggle in the control bar
 - Hatch fills any closed boundary with a pattern (ANSI31 and other standard patterns built in); Hatch Manager browses the pattern library and lets you upload your own .pat files, which shadow built-in patterns of the same name
 - Array Grid repeats a selection in rows and columns with typed spacing — no point-picking
 - Array Polar repeats a selection round a center with a chosen number of items, angle and fill, with copies that turn as they go round or keep their own orientation

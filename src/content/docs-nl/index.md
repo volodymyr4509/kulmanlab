@@ -153,4 +153,4 @@ Verschillende bewerkingscommando's (Move, Copy, Rotate, Mirror, Scale, Delete) d
 - **Sleep naar links** (van rechts naar links) voor kruisende selectie — elke entiteit die het vak snijdt, wordt geselecteerd.
 - Druk op **Enter** of **Spatie** om de selectie te bevestigen en door te gaan naar de volgende stap.
 
-Zonder lopende opdracht kunt u ook selecteren met een **lasso**: druk op een lege plek en sleep rond wat u wilt. Met de klok mee getekend pakt hij alleen wat er helemaal binnen ligt; tegen de klok in ook wat hij raakt. De knop **Lasso** in de besturingsbalk zet hem uit.
+Zonder lopende opdracht kunt u ook selecteren met een **lasso**: druk op een lege plek en sleep rond wat u wilt. Met de klok mee getekend pakt hij alleen wat er helemaal binnen ligt; tegen de klok in ook wat hij raakt. Standaard staat hij uit: zet hem aan met de knop **Lasso** in de besturingsbalk.

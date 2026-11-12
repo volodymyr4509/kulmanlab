@@ -153,4 +153,4 @@ Varios comandos de edición (Move, Copy, Rotate, Mirror, Scale, Delete) comparte
 - **Arrastra a la izquierda** (de derecha a izquierda) para selección cruzada — se selecciona cualquier entidad que cruce el recuadro.
 - Presiona **Enter** o **Space** para confirmar la selección y pasar al siguiente paso.
 
-Sin ningún comando en marcha, también puedes seleccionar con **lazo**: pulsa en un punto vacío y arrastra alrededor de lo que quieras. Trazado en sentido horario toma solo lo que queda totalmente dentro; en sentido antihorario, también lo que toca. El interruptor **Lasso** de la barra de control lo desactiva.
+Sin ningún comando en marcha, también puedes seleccionar con **lazo**: pulsa en un punto vacío y arrastra alrededor de lo que quieras. Trazado en sentido horario toma solo lo que queda totalmente dentro; en sentido antihorario, también lo que toca. Está desactivado por defecto: actívalo con el interruptor **Lasso** de la barra de control.

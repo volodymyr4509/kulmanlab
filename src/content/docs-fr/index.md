@@ -153,4 +153,4 @@ Plusieurs commandes d'édition (Move, Copy, Rotate, Mirror, Scale, Delete) parta
 - **Faites glisser vers la gauche** (de droite à gauche) pour la sélection croisée — toute entité qui croise le cadre est sélectionnée.
 - Appuyez sur **Entrée** ou **Espace** pour confirmer la sélection et passer à l'étape suivante.
 
-Sans commande en cours, vous pouvez aussi sélectionner au **lasso** : appuyez sur un endroit vide et faites glisser autour de ce que vous voulez. Tracé dans le sens horaire, il ne prend que ce qui est entièrement à l’intérieur ; dans le sens antihoraire, il prend aussi ce qu’il touche. Le bouton **Lasso** de la barre de contrôle le désactive.
+Sans commande en cours, vous pouvez aussi sélectionner au **lasso** : appuyez sur un endroit vide et faites glisser autour de ce que vous voulez. Tracé dans le sens horaire, il ne prend que ce qui est entièrement à l’intérieur ; dans le sens antihoraire, il prend aussi ce qu’il touche. Il est désactivé par défaut : activez-le avec le bouton **Lasso** de la barre de contrôle.

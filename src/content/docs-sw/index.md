@@ -152,4 +152,4 @@ Amri kadhaa za kuhariri (Move, Copy, Rotate, Mirror, Scale, Delete) zinashiriki 
 - **Buruta kushoto** (kulia kwenda kushoto) kwa uchaguzi wa makutano — kipengele chochote kinachokutana na sanduku kinachaguliwa.
 - Bonyeza **Enter** au **Space** kuthibitisha uchaguzi na kuendelea na hatua inayofuata.
 
-Wakati hakuna amri inayoendelea, unaweza pia kuchagua kwa **lasso**: bonyeza mahali patupu na uburute kuzunguka unachotaka. Ikichorwa kisaa huchukua tu kilicho ndani kabisa; ikichorwa kinyume cha saa huchukua pia kile inachogusa. Kitufe cha **Lasso** kwenye upau wa udhibiti hukizima.
+Wakati hakuna amri inayoendelea, unaweza pia kuchagua kwa **lasso**: bonyeza mahali patupu na uburute kuzunguka unachotaka. Ikichorwa kisaa huchukua tu kilicho ndani kabisa; ikichorwa kinyume cha saa huchukua pia kile inachogusa. Kwa chaguo-msingi kimezimwa: kiwashe kwa kitufe cha **Lasso** kwenye upau wa udhibiti.

@@ -153,4 +153,4 @@ Kilka poleceń edycji (Przesuń, Kopiuj, Obróć, Odbij, Skaluj, Usuń) korzysta
 - **Przeciągnij w lewo** (od prawej do lewej) — zaznaczenie przecinające: wybierany jest każdy element przecinający ramkę.
 - Naciśnij **Enter** lub **Spację**, aby potwierdzić zaznaczenie i przejść do następnego kroku.
 
-Gdy żadne polecenie nie działa, możesz też zaznaczać **lassem**: naciśnij puste miejsce i przeciągnij wokół tego, co chcesz. Narysowane zgodnie z ruchem wskazówek zegara bierze tylko to, co leży całkowicie w środku; przeciwnie — także to, czego dotyka. Przełącznik **Lasso** na pasku sterowania je wyłącza.
+Gdy żadne polecenie nie działa, możesz też zaznaczać **lassem**: naciśnij puste miejsce i przeciągnij wokół tego, co chcesz. Narysowane zgodnie z ruchem wskazówek zegara bierze tylko to, co leży całkowicie w środku; przeciwnie — także to, czego dotyka. Domyślnie jest wyłączone: włącz je przełącznikiem **Lasso** na pasku sterowania.

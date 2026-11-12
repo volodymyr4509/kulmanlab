@@ -153,4 +153,4 @@ Useat muokkauskomennot (Move, Copy, Rotate, Mirror, Scale, Delete) jakavat saman
 - **Vedä vasemmalle** (oikealta vasemmalle) risteysvalintaa varten — mikä tahansa laatikon leikkaava entiteetti valitaan.
 - Paina **Enter** tai **Space** vahvistaaksesi valinnan ja siirtyäksesi seuraavaan vaiheeseen.
 
-Kun mikään komento ei ole käynnissä, voit valita myös **lassolla**: paina tyhjää kohtaa ja vedä haluamasi ympäri. Myötäpäivään piirrettynä se ottaa vain kokonaan sisällä olevan; vastapäivään piirrettynä myös sen, mihin se koskee. Ohjauspalkin **Lasso**-kytkin poistaa sen käytöstä.
+Kun mikään komento ei ole käynnissä, voit valita myös **lassolla**: paina tyhjää kohtaa ja vedä haluamasi ympäri. Myötäpäivään piirrettynä se ottaa vain kokonaan sisällä olevan; vastapäivään piirrettynä myös sen, mihin se koskee. Se on oletuksena pois päältä: ota se käyttöön ohjauspalkin **Lasso**-kytkimellä.
