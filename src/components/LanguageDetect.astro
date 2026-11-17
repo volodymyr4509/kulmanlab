@@ -16,7 +16,7 @@ const nonEnglishCodes = languages.map(l => l.code).filter(c => c !== 'en');
   (function () {
     if (document.documentElement.lang !== 'en') return;
     var path = location.pathname;
-    if (path.indexOf('/blog') === 0) return;
+    if (/^\/blog\b/.test(path)) return;
     try {
       if (localStorage.getItem('kl-lang')) return;
     } catch (e) { return; }

@@ -93,13 +93,15 @@ function hrefFor(code: string): string {
     const bare = barePath();
     // Blog posts follow the locale only where a translation exists; otherwise
     // the locale's blog index is the nearest page that was actually built.
-    if (bare.startsWith('/blog')) {
+    // Section tests are regexes, not '/docs'-style strings: crawlers read quoted
+    // paths in page scripts as links, and these would point at redirects.
+    if (/^\/blog\b/.test(bare)) {
       const prefix = lang === 'en' ? '' : `/${lang}`;
       if (blogSlug && blogLangs.includes(lang)) return `${prefix}/blog/${blogSlug}/`;
       return `${prefix}/blog/`;
     }
     // Docs, privacy, about, friends, and how-to pages stay on the equivalent locale path
-    if (bare.startsWith('/docs') || bare.startsWith('/privacy') || bare.startsWith('/about') || bare.startsWith('/friends') || bare.startsWith('/how-to')) {
+    if (/^\/(docs|privacy|about|friends|how-to)\b/.test(bare)) {
       return lang === 'en' ? bare : `/${lang}${bare}`;
     }
     // Standard locale pages (home, faq, changelog)
