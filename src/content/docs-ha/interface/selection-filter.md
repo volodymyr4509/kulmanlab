@@ -40,6 +40,12 @@ Adadin sakamako yana sabuntawa nan take yayin da kake sanyawa da cire alamomi, k
 
 Yi amfani da maɓallin sake saitin taga don share dukan alamomi ka koma ga cikakken zaɓin na asali, ko ka rufe tagar (za ta sake buɗewa da sabon tushe lokaci na gaba da ka danna aikon tace kan wani zaɓi).
 
+## Gyaran ƙimomi a paneli na sifofi
+
+Ana fara duba kowace ƙima da ka rubuta a paneli na sifofi. Abin da ba lamba ba ana ƙin sa da **Shigar da lamba**, kuma ƙimar da ba za a iya amfani da ita ba — radius, tsayin rubutu, tazarar layi, sikeli ko rabon axis na 0 ko ƙasa — ana ƙin ta da dalili ƙarƙashin filin, kamar **Dole ya fi 0**. Entity tana riƙe tsohuwar ƙimarta har sai an shigar da wadda ta dace.
+
+Idan an zaɓi entities da yawa, paneli yana jera kowane filin da suke tarayya a kai.
+
 ## Masu alaƙa
 
 - [Match Properties](../../commands/match-properties/) — kwafe siffofi daga abu ɗaya zuwa waɗansu, bayan ka rage waɗanne ne

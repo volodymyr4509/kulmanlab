@@ -40,6 +40,12 @@ Antallet af resultater opdateres løbende, mens du sætter og fjerner kryds, og 
 
 Brug vinduets nulstillingskontrol til at tømme alle felter og vende tilbage til hele den oprindelige markering, eller luk vinduet (det åbner med et friskt udgangspunkt, næste gang du klikker på filterikonet ved en anden markering).
 
+## Redigér værdier i egenskabspanelet
+
+Hver værdi, du skriver i egenskabspanelet, kontrolleres først. Det, der ikke er et tal, afvises med **Indtast et tal**, og en værdi, der ikke kan bruges — en radius, teksthøjde, linjeafstand, skala eller akseforhold på 0 eller mindre — afvises med årsagen under feltet, for eksempel **Skal være større end 0**. Entiteten beholder sin gamle værdi, indtil en gyldig indtastes.
+
+Når flere entiteter er valgt, viser panelet alle de felter, de har til fælles.
+
 ## Relateret
 
 - [Match Properties](../../commands/match-properties/) — kopiere egenskaber fra én entitet til andre, når du først har indsnævret hvilke

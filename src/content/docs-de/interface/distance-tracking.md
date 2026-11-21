@@ -19,7 +19,7 @@ Die Abstandsverfolgung steht nicht für sich allein. Zwei weitere Schalter müss
 | Schalter | Aufgabe |
 |----------|---------|
 | **Pins** | Liefert den Bezugspunkt. Halten Sie den Mauszeiger 500 ms über einem Fangpunkt, um ihn zu pinnen — siehe [Vector Pins](../vector-pins/). |
-| **ANGL** | Liefert den Winkel. Die Abstandsverfolgung wird erst verfügbar, sobald der Mauszeiger winkelgerastet ist, also muss ANGL auf eine Schrittweite (10°, 20°, 30°, 45°, 90°) statt auf Off stehen. |
+| **ANGL** | Liefert den Winkel. Die Abstandsverfolgung wird erst verfügbar, sobald der Mauszeiger winkelgerastet ist, also muss ANGL auf eine Schrittweite (10°, 20°, 30°, 45°, 90°, Eigener) statt auf Off stehen. |
 | **Dist** | Erlaubt, den Pin als Anker zu verwenden statt nur den eigenen Punkt des Befehls. |
 
 Sind Pins und Dist aktiv, ANGL aber auf **Off**, passiert nichts: Es gibt keine gerastete Richtung, entlang derer eine Länge gemessen werden könnte.

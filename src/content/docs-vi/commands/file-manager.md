@@ -19,7 +19,7 @@ Bảng mở ở phía bên trái canvas, và tự động đóng ngay khi bạn 
 
 ## Lưới hình thu nhỏ
 
-Mỗi bản vẽ đã lưu là một thẻ hiển thị hình thu nhỏ được render trực tiếp, tên của nó, và thời điểm cập nhật gần nhất. Hình thu nhỏ được tạo ngay tại chỗ mỗi lần bảng mở ra — không có gì được render sẵn hay lưu trữ trước — nên một thẻ sẽ hiển thị biểu tượng giữ chỗ trong giây lát trong khi hình thu nhỏ của nó đang được vẽ. Biểu tượng giữ chỗ tương tự cũng xuất hiện nếu việc tạo hình thất bại, hoặc nếu bản vẽ thực sự chưa có thực thể nào.
+Mỗi bản vẽ đã lưu là một thẻ hiển thị ảnh thu nhỏ vẽ bằng màu, tên và thời điểm cập nhật gần nhất. Danh sách hiện trước và ảnh thu nhỏ đến từng cái một — không có gì được dựng sẵn hay lưu lại — nên thẻ hiện vòng tải khi ảnh đang được vẽ, và **Trống** nếu bản vẽ chưa có gì để vẽ.
 
 | Hành động | Cách thực hiện |
 |--------|-----|

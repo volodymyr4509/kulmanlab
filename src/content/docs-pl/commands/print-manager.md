@@ -73,7 +73,7 @@ Naciśnij `Escape` podczas zaznaczania obszaru, aby anulować i przywrócić pop
 
 Podgląd dynamicznie zmienia rozmiar, aby dopasować się do **dokładnego współczynnika kształtu** zaznaczonego obszaru, więc podgląd jest dokładny co do piksela.
 
-Wybrany obszar jest zapamiętywany osobno dla przestrzeni modelu i dla każdego układu do czasu przeładowania strony — zobacz [ChangePrintArea](../change-print-area/).
+Wybrany obszar jest zapamiętywany osobno dla przestrzeni modelu i dla każdego układu do czasu przeładowania strony.
 
 ## Formaty eksportu
 

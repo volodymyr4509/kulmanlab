@@ -19,7 +19,7 @@ To, co dodaje, jest wąskie, ale przydatne: pozwala **najnowszej pinezce wektoro
 | Przełącznik | Rola |
 |-------------|------|
 | **Pins** | Dostarcza punkt odniesienia. Najedź na punkt przyciągania i przytrzymaj 500 ms, aby go przypiąć — zobacz [Vector Pins](../vector-pins/). |
-| **ANGL** | Dostarcza kąt. Śledzenie odległości staje się dostępne dopiero wtedy, gdy kursor jest zablokowany kątowo, więc ANGL musi być ustawione na krok (10°, 20°, 30°, 45°, 90°), a nie na Off. |
+| **ANGL** | Dostarcza kąt. Śledzenie odległości staje się dostępne dopiero wtedy, gdy kursor jest zablokowany kątowo, więc ANGL musi być ustawione na krok (10°, 20°, 30°, 45°, 90°, Własny), a nie na Off. |
 | **Dist** | Pozwala użyć pinezki jako kotwicy zamiast wyłącznie własnego punktu polecenia. |
 
 Przy włączonych Pins i Dist, ale ANGL ustawionym na **Off**, nic się nie stanie: nie ma zablokowanego kierunku, wzdłuż którego można mierzyć długość.

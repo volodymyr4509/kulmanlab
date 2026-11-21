@@ -73,7 +73,7 @@ Tekan `Escape` semasa pemilihan kawasan untuk membatalkan dan memulihkan kawasan
 
 Kanvas pratonton mengubah saiz secara dinamik agar sepadan dengan **nisbah aspek tepat** kawasan yang dipilih, supaya pratonton adalah tepat piksel.
 
-Kawasan yang dipilih diingati secara berasingan bagi ruang Model dan setiap susun atur sehingga anda memuat semula halaman — lihat [ChangePrintArea](../change-print-area/).
+Kawasan yang dipilih diingati secara berasingan bagi ruang Model dan setiap susun atur sehingga anda memuat semula halaman.
 
 ## Format eksport
 

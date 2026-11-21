@@ -19,7 +19,7 @@ O rastreamento de distância não se sustenta sozinho. Outras duas chaves precis
 | Chave | Papel |
 |-------|-------|
 | **Pins** | Fornece o ponto de referência. Passe o cursor sobre um ponto de precisão por 500 ms para fixá-lo — veja [Vector Pins](../vector-pins/). |
-| **ANGL** | Fornece o ângulo. O rastreamento de distância só fica disponível quando o cursor está travado em ângulo, então ANGL precisa estar em um passo (10°, 20°, 30°, 45°, 90°) e não em Off. |
+| **ANGL** | Fornece o ângulo. O rastreamento de distância só fica disponível quando o cursor está travado em ângulo, então ANGL precisa estar em um passo (10°, 20°, 30°, 45°, 90°, Personalizado) e não em Off. |
 | **Dist** | Permite usar o pino como âncora em vez de apenas o ponto do próprio comando. |
 
 Com Pins e Dist ligados mas ANGL em **Off**, nada acontece: não há direção travada ao longo da qual medir um comprimento.

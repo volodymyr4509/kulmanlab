@@ -19,7 +19,7 @@ Das Panel öffnet sich auf der linken Seite der Zeichenfläche und schließt sic
 
 ## Das Miniaturraster
 
-Jede gespeicherte Zeichnung ist eine Karte mit einer live gerenderten Miniaturansicht, ihrem Namen und dem Zeitpunkt der letzten Aktualisierung. Miniaturansichten werden jedes Mal neu erzeugt, wenn das Panel geöffnet wird — nichts wird vorab gerendert oder gespeichert — daher zeigt eine Karte kurz ein Platzhaltersymbol, während ihre Miniaturansicht gezeichnet wird. Derselbe Platzhalter erscheint auch, wenn die Erzeugung fehlschlägt oder die Zeichnung tatsächlich noch keine Entitäten enthält.
+Jede gespeicherte Zeichnung ist eine Karte mit einer farbig gezeichneten Vorschau, ihrem Namen und dem Zeitpunkt der letzten Änderung. Zuerst erscheint die Liste, die Vorschaubilder folgen nacheinander — nichts wird vorab erzeugt oder gespeichert —, daher zeigt eine Karte einen Spinner, solange ihre Vorschau gezeichnet wird, und **Leer**, wenn die Zeichnung noch nichts zu zeichnen hat.
 
 | Aktion | Ausführung |
 |--------|------------|

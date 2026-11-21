@@ -17,3 +17,9 @@
 /:lang/docs/commands/files/   /:lang/docs/commands/file-manager/    301
 /:lang/docs/commands/print    /:lang/docs/commands/print-manager/   301
 /:lang/docs/commands/print/   /:lang/docs/commands/print-manager/   301
+
+# ChangePrintArea went into Print Manager: its Change Area button does the same.
+/docs/commands/change-print-area         /docs/commands/print-manager/   301
+/docs/commands/change-print-area/        /docs/commands/print-manager/   301
+/:lang/docs/commands/change-print-area   /:lang/docs/commands/print-manager/   301
+/:lang/docs/commands/change-print-area/  /:lang/docs/commands/print-manager/   301

@@ -73,7 +73,7 @@ Tryk `Escape` under områdevalg for at annullere og gendanne det forrige område
 
 Forhåndsvisningslærredet ændrer størrelse dynamisk for at matche det **eksakte størrelsesforhold** for det valgte område, så forhåndsvisningen er pixelnøjagtig.
 
-Det valgte område huskes separat for modelrummet og for hvert layout, indtil du genindlæser siden — se [ChangePrintArea](../change-print-area/).
+Det valgte område huskes separat for modelrummet og for hvert layout, indtil du genindlæser siden.
 
 ## Eksportformater
 

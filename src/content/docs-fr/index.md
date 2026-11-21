@@ -83,6 +83,13 @@ Bienvenue dans la référence des commandes **KulmanLab CAD**. [KulmanLab CAD](h
 | [ViewportCopy](./commands/viewport-copy/) | Duplique une fenêtre de vue vers une nouvelle position |
 | [PageManager](./commands/page-manager/) | Modifie le format papier et l'échelle du layout actif |
 
+## Blocs
+
+| Commande | Ce qu'elle fait |
+|----------|----------------|
+| [Block Create](./commands/block-create/) | Créer un bloc à partir d’objets |
+| [Block Insert](./commands/block-insert/) | Placer un bloc choisi parmi les aperçus des blocs du dessin |
+
 ## Navigation
 
 | Commande | Ce qu'elle fait |

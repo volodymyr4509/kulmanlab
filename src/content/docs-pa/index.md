@@ -82,6 +82,13 @@ order: 1
 | [ViewportCopy](./commands/viewport-copy/) | ਵਿਊਪੋਰਟ ਨੂੰ ਨਵੀਂ ਸਥਿਤੀ 'ਤੇ ਡੁਪਲੀਕੇਟ ਕਰੋ |
 | [PageManager](./commands/page-manager/) | ਸਰਗਰਮ ਲੇਆਉਟ ਲਈ ਪੇਪਰ ਸਾਈਜ਼ ਅਤੇ ਸਕੇਲ ਸੰਪਾਦਿਤ ਕਰੋ |
 
+## ਬਲਾਕ
+
+| ਕਮਾਂਡ | ਇਹ ਕੀ ਕਰਦੀ ਹੈ |
+|---------|-------------|
+| [Block Create](./commands/block-create/) | ਆਬਜੈਕਟਾਂ ਤੋਂ ਬਲਾਕ ਬਣਾਓ |
+| [Block Insert](./commands/block-insert/) | ਡਰਾਇੰਗ ਦੇ ਬਲਾਕਾਂ ਦੇ ਪੂਰਵ-ਦਰਸ਼ਨ ਤੋਂ ਚੁਣਿਆ ਬਲਾਕ ਰੱਖੋ |
+
 ## ਨੈਵੀਗੇਟ
 
 | ਕਮਾਂਡ | ਇਹ ਕੀ ਕਰਦੀ ਹੈ |

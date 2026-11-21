@@ -83,6 +83,13 @@ Vítejte v přehledu příkazů **KulmanLab CAD**. [KulmanLab CAD](https://kulma
 | [ViewportCopy](./commands/viewport-copy/) | Zduplikuje výřez na novou pozici |
 | [PageManager](./commands/page-manager/) | Upraví velikost papíru a měřítko aktivního rozvržení |
 
+## Bloky
+
+| Příkaz | Co dělá |
+|--------|---------|
+| [Block Create](./commands/block-create/) | Vytvoření bloku z objektů |
+| [Block Insert](./commands/block-insert/) | Umístit blok vybraný z náhledů bloků výkresu |
+
 ## Navigate
 
 | Příkaz | Co dělá |

@@ -41,6 +41,7 @@ KulmanLab analysiert die folgenden DXF-Entitätstypen:
 | Text | `TEXT`, `MTEXT` | |
 | Bemaßung | `DIMENSION` | |
 | Mehrfachführungslinie | `MULTILEADER` | |
+| Leader | `LEADER` | Wird als Multileader ohne eigenen Text gelesen; die danebenstehende Beschriftung wird als Text gelesen |
 | Hatch | `HATCH` | Mustername, Skalierung und Winkel werden gelesen; ein Name, der nicht in Ihrer Musterbibliothek ist, fällt auf ANSI31 zurück. Siehe [Hatch](../hatch/) |
 | Block Reference | `INSERT` | Gezeichnet, wie die Datei sie gespeichert hat: Attributwerte sichtbar, vom Zustand eines dynamischen Blocks ausgeblendete Entitäten weggelassen |
 | Solid | `SOLID` | Flache Füllung mit drei oder vier Ecken, etwa die schwarzen Felder eines Maßstabsbalkens |

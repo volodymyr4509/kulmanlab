@@ -40,6 +40,12 @@ Sonuç sayısı siz kutuları işaretleyip kaldırdıkça canlı güncellenir ve
 
 Tüm işaretleri kaldırıp özgün seçimin tamamına dönmek için pencerenin sıfırlama denetimini kullanın ya da pencereyi kapatın (bir sonraki seçimde filtre simgesine tıkladığınızda taze bir başlangıçla yeniden açılır).
 
+## Özellikler panelinde değerleri düzenleme
+
+Özellikler paneline yazdığınız her değer önce denetlenir. Sayı olmayan bir şey **Bir sayı girin** ile reddedilir; kullanılamaz bir değer — 0 veya altında bir yarıçap, metin yüksekliği, satır aralığı, ölçek ya da eksen oranı — alanın altında nedeniyle reddedilir, örneğin **0 değerinden büyük olmalıdır**. Nesne, geçerli bir değer girilene dek eski değerini korur.
+
+Birden çok nesne seçiliyken panel, hepsinin ortak olarak sahip olduğu tüm alanları listeler.
+
 ## İlgili
 
 - [Match Properties](../../commands/match-properties/) — hangileri olduğunu daralttıktan sonra bir nesnenin özelliklerini diğerlerine kopyalayın

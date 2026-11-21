@@ -19,7 +19,7 @@ Mesafe takibi kendi başına yetmez. Bir uzunluk yazabilmeniz için diğer iki d
 | Düğme | Görevi |
 |-------|--------|
 | **Pins** | Referans noktasını sağlar. Bir yakalama noktasının üzerinde 500 ms bekleyerek iğneleyin — bkz. [Vector Pins](../vector-pins/). |
-| **ANGL** | Açıyı sağlar. Mesafe takibi ancak imleç açıya kilitlendiğinde kullanılabilir hâle gelir; bu yüzden ANGL, Off yerine bir adıma (10°, 20°, 30°, 45°, 90°) ayarlanmış olmalıdır. |
+| **ANGL** | Açıyı sağlar. Mesafe takibi ancak imleç açıya kilitlendiğinde kullanılabilir hâle gelir; bu yüzden ANGL, Off yerine bir adıma (10°, 20°, 30°, 45°, 90°, Özel) ayarlanmış olmalıdır. |
 | **Dist** | İğnenin, yalnızca komutun kendi noktası yerine çıpa olarak kullanılmasına izin verir. |
 
 Pins ve Dist açık ama ANGL **Off** durumundaysa hiçbir şey olmaz: uzunluğun ölçüleceği kilitli bir yön yoktur.

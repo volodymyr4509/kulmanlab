@@ -83,6 +83,13 @@ Sveiki atvykę į **KulmanLab CAD** komandų žinyną. [KulmanLab CAD](https://k
 | [ViewportCopy](./commands/viewport-copy/) | Dubliuoja vaizdo langą į naują padėtį |
 | [PageManager](./commands/page-manager/) | Redaguoja aktyvaus maketo popieriaus dydį ir mastelį |
 
+## Blokai
+
+| Komanda | Ką daro |
+|---------|---------|
+| [Block Create](./commands/block-create/) | Sukurti bloką iš objektų |
+| [Block Insert](./commands/block-insert/) | Padėti bloką, pasirinktą iš brėžinio blokų peržiūrų |
+
 ## Navigate
 
 | Komanda | Ką daro |

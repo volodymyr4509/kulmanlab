@@ -40,6 +40,12 @@ Le nombre de résultats se met à jour en direct au fil des cases cochées et d�
 
 Utilisez la commande de réinitialisation de la fenêtre pour décocher toutes les cases et revenir à la sélection d'origine complète, ou fermez la fenêtre (elle rouvrira sur une base neuve la prochaine fois que vous cliquerez sur l'icône de filtre avec une autre sélection).
 
+## Modifier des valeurs dans le panneau de propriétés
+
+Chaque valeur tapée dans le panneau de propriétés est d’abord vérifiée. Ce qui n’est pas un nombre est refusé avec **Saisissez un nombre**, et une valeur inutilisable — un rayon, une hauteur de texte, un interligne, une échelle ou un rapport d’axes de 0 ou moins — est refusée avec la raison affichée sous le champ, par exemple **La valeur doit être supérieure à 0**. L’entité garde son ancienne valeur jusqu’à ce qu’une valeur valide soit saisie.
+
+Avec plusieurs entités sélectionnées, le panneau liste tous les champs qu’elles ont en commun.
+
 ## Voir aussi
 
 - [Match Properties](../../commands/match-properties/) — copier les propriétés d'une entité vers d'autres, une fois que vous avez restreint lesquelles

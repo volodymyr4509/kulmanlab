@@ -73,7 +73,7 @@ Tryck `Escape` under områdesmarkering för att avbryta och återställa det fö
 
 Förhandsgranskningsytan ändrar storlek dynamiskt för att matcha det valda områdets **exakta bildförhållande**, så förhandsgranskningen är pixelexakt.
 
-Det valda området kommer ihåg separat för modellrymden och för varje layout tills du laddar om sidan — se [ChangePrintArea](../change-print-area/).
+Det valda området kommer ihåg separat för modellrymden och för varje layout tills du laddar om sidan.
 
 ## Exportformat
 

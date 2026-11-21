@@ -65,7 +65,7 @@ Změna Quality okamžitě znovu vykreslí náhled, takže před exportem vidíte
 
 Ve výchozím stavu náhled zobrazuje obalový obdélník všech objektů v modelovém prostoru — stejný rozsah, na který přibližuje [Fit](../fit/) — nebo celý list v rozvržení. Chcete-li exportovat konkrétní oblast:
 
-1. Klikněte na **Change Area**, nebo napište [`ChangePrintArea`](../change-print-area/) do terminálu — Print Manager se skryje a plátno se stane interaktivním.
+1. Klikněte na **Change Area** — Print Manager se skryje a plátno se stane interaktivním.
 2. **Klikněte na první roh**, nebo napište `X,Y` a stiskněte **Enter** pro přesnou souřadnici.
 3. **Klikněte na protilehlý roh** — Print Manager se znovu otevře s vybranou oblastí v náhledu.
 
@@ -75,7 +75,7 @@ Stisknutím `Escape` během výběru oblasti zrušíte a obnovíte předchozí o
 
 Náhledové plátno se dynamicky přizpůsobuje **přesnému poměru stran** vybrané oblasti, takže náhled je přesný na pixel.
 
-Zvolená oblast se pamatuje zvlášť pro modelový prostor a pro každé rozvržení až do opětovného načtení stránky — viz [ChangePrintArea](../change-print-area/).
+Zvolená oblast se pamatuje zvlášť pro modelový prostor a pro každé rozvržení až do opětovného načtení stránky.
 
 ## Exportní formáty
 

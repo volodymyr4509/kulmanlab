@@ -41,6 +41,7 @@ KulmanLab 解析以下 DXF 图元类型：
 | 文字 | `TEXT`、`MTEXT` | |
 | 标注 | `DIMENSION` | |
 | 多重引线 | `MULTILEADER` | |
+| Leader | `LEADER` | 按没有自身文字的多重引线读取；旁边的注释按文字读取 |
 | Hatch | `HATCH` | 会读取图案的名称、比例和角度；图案库中不存在的名称会回退为 ANSI31。参阅 [Hatch](../hatch/) |
 | Block Reference | `INSERT` | 按文件保存的样子绘制：显示属性值，动态块状态所隐藏的图元不显示 |
 | Solid | `SOLID` | 三角或四角的实心填充，如比例尺中的黑色段 |

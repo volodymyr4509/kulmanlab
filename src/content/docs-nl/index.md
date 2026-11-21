@@ -83,6 +83,13 @@ Welkom bij de **KulmanLab CAD**-opdrachtreferentie. [KulmanLab CAD](https://kulm
 | [ViewportCopy](./commands/viewport-copy/) | Dupliceer een viewport naar een nieuwe positie |
 | [PageManager](./commands/page-manager/) | Bewerk papierformaat en schaal voor de actieve layout |
 
+## Blokken
+
+| Commando | Wat het doet |
+|---------|-------------|
+| [Block Create](./commands/block-create/) | Een blok maken van objecten |
+| [Block Insert](./commands/block-insert/) | Een uit de blokvoorbeelden van de tekening gekozen blok plaatsen |
+
 ## Navigeren
 
 | Commando | Wat het doet |

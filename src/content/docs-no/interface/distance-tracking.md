@@ -19,7 +19,7 @@ Avstandssporing står ikke alene. To andre knapper må være i riktig stilling f
 | Knapp | Rolle |
 |-------|-------|
 | **Pins** | Gir referansepunktet. Hold pekeren over et festepunkt i 500 ms for å feste det — se [Vector Pins](../vector-pins/). |
-| **ANGL** | Gir vinkelen. Avstandssporing blir først tilgjengelig når pekeren er vinkellåst, så ANGL må være satt til et trinn (10°, 20°, 30°, 45°, 90°) og ikke til Off. |
+| **ANGL** | Gir vinkelen. Avstandssporing blir først tilgjengelig når pekeren er vinkellåst, så ANGL må være satt til et trinn (10°, 20°, 30°, 45°, 90°, Egendefinert) og ikke til Off. |
 | **Dist** | Tillater at nålen brukes som anker i stedet for bare kommandoens eget punkt. |
 
 Med Pins og Dist på, men ANGL på **Off**, skjer det ingenting: det finnes ingen låst retning å måle en lengde langs.

@@ -19,7 +19,7 @@ Distance Tracking nėra savarankiškas. Prieš galint įvesti ilgį, du kiti jun
 | Jungiklis | Vaidmuo |
 |-----------|---------|
 | **Pins** | Pateikia atskaitos tašką. Užveskite žymeklį ant prisitraukimo taško 500 ms, kad jį prisegtumėte — žr. [Vector Pins](../vector-pins/). |
-| **ANGL** | Pateikia kampą. Atstumo sekimas tampa prieinamas tik kai žymeklis užrakintas kampu, todėl ANGL turi būti nustatytas į žingsnį (10°, 20°, 30°, 45°, 90°), o ne Off. |
+| **ANGL** | Pateikia kampą. Atstumo sekimas tampa prieinamas tik kai žymeklis užrakintas kampu, todėl ANGL turi būti nustatytas į žingsnį (10°, 20°, 30°, 45°, 90°, Pasirinktinis), o ne Off. |
 | **Dist** | Leidžia naudoti smeigtuką kaip inkarą, o ne tik pačios komandos tašką. |
 
 Jei Pins ir Dist įjungti, bet ANGL nustatytas **Off**, nieko neįvyks: nėra užrakintos krypties, išilgai kurios matuoti ilgį.

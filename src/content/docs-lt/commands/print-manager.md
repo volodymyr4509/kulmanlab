@@ -65,7 +65,7 @@ Quality pakeitimas iškart perpiešia peržiūrą, todėl prieš eksportuodami m
 
 Pagal numatytuosius nustatymus peržiūra rodo visų modelio erdvės objektų apribojantį stačiakampį — tą patį užimamą plotą, prie kurio priartina [Fit](../fit/) — arba visą lapą makete. Norėdami eksportuoti konkrečią sritį:
 
-1. Spustelėkite **Change Area** arba terminale įveskite [`ChangePrintArea`](../change-print-area/) — Print Manager paslepiamas ir drobė tampa interaktyvi.
+1. Spustelėkite **Change Area** — Print Manager paslepiamas ir drobė tampa interaktyvi.
 2. **Spustelėkite pirmą kampą** arba įveskite `X,Y` ir paspauskite **Enter**, kad gautumėte tikslią koordinatę.
 3. **Spustelėkite priešingą kampą** — Print Manager vėl atsidaro su pasirinkta sritimi peržiūroje.
 
@@ -75,7 +75,7 @@ Paspauskite `Escape` renkant sritį, kad atšauktumėte ir atkurtumėte ankstesn
 
 Peržiūros drobė dinamiškai keičia dydį, kad atitiktų pasirinktos srities **tikslų kraštinių santykį**, todėl peržiūra tiksli iki pikselio.
 
-Pasirinkta sritis pamenama atskirai modelio erdvei ir kiekvienam maketui, kol perkrausite puslapį — žr. [ChangePrintArea](../change-print-area/).
+Pasirinkta sritis pamenama atskirai modelio erdvei ir kiekvienam maketui, kol perkrausite puslapį.
 
 ## Eksporto formatai
 

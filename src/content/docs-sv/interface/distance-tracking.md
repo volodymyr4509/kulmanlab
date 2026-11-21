@@ -19,7 +19,7 @@ Avståndsspårning står inte på egna ben. Två andra knappar måste vara i rä
 | Knapp | Roll |
 |-------|------|
 | **Pins** | Ger referenspunkten. Håll pekaren över en fästpunkt i 500 ms för att fästa den — se [Vector Pins](../vector-pins/). |
-| **ANGL** | Ger vinkeln. Avståndsspårning blir tillgänglig först när pekaren är vinkellåst, så ANGL måste vara satt till ett steg (10°, 20°, 30°, 45°, 90°) och inte till Off. |
+| **ANGL** | Ger vinkeln. Avståndsspårning blir tillgänglig först när pekaren är vinkellåst, så ANGL måste vara satt till ett steg (10°, 20°, 30°, 45°, 90°, Anpassad) och inte till Off. |
 | **Dist** | Tillåter att nålen används som ankare i stället för enbart kommandots egen punkt. |
 
 Med Pins och Dist på men ANGL på **Off** händer ingenting: det finns ingen låst riktning att mäta en längd längs.

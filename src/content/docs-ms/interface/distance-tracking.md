@@ -19,7 +19,7 @@ Penjejakan jarak tidak berdiri sendiri. Dua suis lain mesti berada dalam keadaan
 | Suis | Peranan |
 |------|---------|
 | **Pins** | Membekalkan titik rujukan. Tuding kursor pada satu titik snap selama 500 ms untuk menyematnya — lihat [Vector Pins](../vector-pins/). |
-| **ANGL** | Membekalkan sudut. Penjejakan jarak hanya tersedia setelah kursor terkunci pada sudut, jadi ANGL mesti ditetapkan pada satu langkah (10°, 20°, 30°, 45°, 90°) dan bukan Off. |
+| **ANGL** | Membekalkan sudut. Penjejakan jarak hanya tersedia setelah kursor terkunci pada sudut, jadi ANGL mesti ditetapkan pada satu langkah (10°, 20°, 30°, 45°, 90°, Tersuai) dan bukan Off. |
 | **Dist** | Membenarkan pin digunakan sebagai sauh, bukan hanya titik milik perintah itu sendiri. |
 
 Dengan Pins dan Dist dihidupkan tetapi ANGL pada **Off**, tiada apa-apa akan berlaku: tiada arah terkunci untuk mengukur panjang.

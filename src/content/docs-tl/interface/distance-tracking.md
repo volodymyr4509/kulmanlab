@@ -19,7 +19,7 @@ Hindi nakatayo mag-isa ang pagsubaybay sa distansya. Dapat nasa tamang kalagayan
 | Toggle | Papel |
 |--------|-------|
 | **Pins** | Nagbibigay ng puntong sanggunian. I-hover ang cursor sa isang snap point nang 500 ms upang i-pin ito — tingnan ang [Vector Pins](../vector-pins/). |
-| **ANGL** | Nagbibigay ng anggulo. Nagiging magagamit lamang ang pagsubaybay sa distansya kapag naka-lock na sa anggulo ang cursor, kaya dapat nakatakda ang ANGL sa isang hakbang (10°, 20°, 30°, 45°, 90°) at hindi sa Off. |
+| **ANGL** | Nagbibigay ng anggulo. Nagiging magagamit lamang ang pagsubaybay sa distansya kapag naka-lock na sa anggulo ang cursor, kaya dapat nakatakda ang ANGL sa isang hakbang (10°, 20°, 30°, 45°, 90°, Custom) at hindi sa Off. |
 | **Dist** | Pinapayagang gamitin ang pin bilang angkla sa halip na ang sariling punto lamang ng utos. |
 
 Kung naka-on ang Pins at Dist ngunit nasa **Off** ang ANGL, walang mangyayari: walang naka-lock na direksyon na masusukatan ng haba.

@@ -19,7 +19,7 @@ Pelacakan jarak tidak berdiri sendiri. Dua tombol lain harus berada dalam keadaa
 | Tombol | Peran |
 |--------|-------|
 | **Pins** | Menyediakan titik acuan. Arahkan kursor ke titik snap selama 500 ms untuk menyematkannya — lihat [Vector Pins](../vector-pins/). |
-| **ANGL** | Menyediakan sudut. Pelacakan jarak baru tersedia setelah kursor terkunci pada sudut, jadi ANGL harus disetel ke sebuah langkah (10°, 20°, 30°, 45°, 90°) dan bukan Off. |
+| **ANGL** | Menyediakan sudut. Pelacakan jarak baru tersedia setelah kursor terkunci pada sudut, jadi ANGL harus disetel ke sebuah langkah (10°, 20°, 30°, 45°, 90°, Kustom) dan bukan Off. |
 | **Dist** | Mengizinkan pin dipakai sebagai jangkar, bukan hanya titik milik perintah itu sendiri. |
 
 Dengan Pins dan Dist menyala tetapi ANGL pada **Off**, tak akan terjadi apa-apa: tidak ada arah terkunci untuk mengukur panjang.

@@ -83,6 +83,13 @@ order: 1
 | [ViewportCopy](./commands/viewport-copy/) | Αντιγράφει viewport σε νέα θέση |
 | [PageManager](./commands/page-manager/) | Επεξεργάζεται μέγεθος χαρτιού και κλίμακα για την ενεργή διάταξη |
 
+## Μπλοκ
+
+| Εντολή | Τι κάνει |
+|--------|----------|
+| [Block Create](./commands/block-create/) | Δημιουργία μπλοκ από αντικείμενα |
+| [Block Insert](./commands/block-insert/) | Τοποθέτηση μπλοκ που επιλέχθηκε από τις προεπισκοπήσεις των μπλοκ του σχεδίου |
+
 ## Πλοήγηση
 
 | Εντολή | Τι κάνει |

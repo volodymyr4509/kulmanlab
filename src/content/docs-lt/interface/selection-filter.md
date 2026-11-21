@@ -40,6 +40,12 @@ Rezultatų skaičius atsinaujina gyvai žymint ir nuimant žymėjimą, o pats pa
 
 Naudokite lango atstatymo valdiklį, kad išvalytumėte visus pažymėtus langelius ir grįžtumėte prie pilno pradinio pasirinkimo, arba uždarykite langą (jis vėl atsidaro su nauja pradžia, kai kitą kartą spustelėsite filtro piktogramą su nauju pasirinkimu).
 
+## Reikšmių redagavimas savybių skydelyje
+
+Kiekviena savybių skydelyje įvesta reikšmė pirmiausia patikrinama. Kas nėra skaičius, atmetama su **Įveskite skaičių**, o netinkama reikšmė — spindulys, teksto aukštis, eilučių tarpas, mastelis ar ašių santykis, lygus 0 arba mažesnis — atmetama nurodant priežastį po lauku, pavyzdžiui, **Reikšmė turi būti didesnė už 0**. Objektas išlaiko senąją reikšmę, kol įvedama tinkama.
+
+Kai pažymėti keli objektai, skydelis išvardija visus jų bendrus laukus.
+
 ## Susiję
 
 - [Match Properties](../../commands/match-properties/) — kopijuoti savybes iš vieno objekto kitiems, kai jau susiaurinote, kurie tai turi būti

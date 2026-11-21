@@ -83,6 +83,13 @@ order: 1
 | [ViewportCopy](./commands/viewport-copy/) | تكرار إطار عرض إلى موضع جديد |
 | [PageManager](./commands/page-manager/) | تحرير حجم الورقة والمقياس للتخطيط النشط |
 
+## الكتل
+
+| الأمر | ما يفعله |
+|-------|----------|
+| [Block Create](./commands/block-create/) | إنشاء كتلة من كائنات |
+| [Block Insert](./commands/block-insert/) | وضع كتلة مختارة من معاينات كتل الرسم |
+
 ## التنقل
 
 | الأمر | ما يفعله |

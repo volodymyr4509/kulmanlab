@@ -19,7 +19,7 @@ Theo dõi khoảng cách không tự đứng một mình. Hai nút còn lại ph
 | Nút | Vai trò |
 |-----|---------|
 | **Pins** | Cung cấp điểm tham chiếu. Rê con trỏ lên một điểm bắt trong 500 ms để ghim nó — xem [Vector Pins](../vector-pins/). |
-| **ANGL** | Cung cấp góc. Theo dõi khoảng cách chỉ khả dụng khi con trỏ đã khóa vào một góc, nên ANGL phải đặt ở một bước (10°, 20°, 30°, 45°, 90°) chứ không phải Off. |
+| **ANGL** | Cung cấp góc. Theo dõi khoảng cách chỉ khả dụng khi con trỏ đã khóa vào một góc, nên ANGL phải đặt ở một bước (10°, 20°, 30°, 45°, 90°, Tùy chỉnh) chứ không phải Off. |
 | **Dist** | Cho phép dùng ghim làm mốc neo thay vì chỉ dùng điểm của chính lệnh đó. |
 
 Nếu Pins và Dist đang bật nhưng ANGL để **Off** thì sẽ không có gì xảy ra: không có hướng nào bị khóa để đo độ dài dọc theo.

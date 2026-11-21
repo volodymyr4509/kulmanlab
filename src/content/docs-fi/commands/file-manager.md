@@ -19,7 +19,7 @@ Paneeli avautuu piirtoalueen vasemmalle puolelle ja sulkeutuu automaattisesti he
 
 ## Pienoiskuvaruudukko
 
-Jokainen tallennettu piirustus näkyy korttina, jossa on suoraan renderöity pienoiskuva, sen nimi ja viimeisin päivitysaika. Pienoiskuvat luodaan välittömästi joka kerta, kun paneeli avataan — mitään ei renderöidä etukäteen tai tallenneta — joten kortissa näkyy hetken ajan paikkamerkki-ikoni, kun pienoiskuvaa piirretään. Sama paikkamerkki näkyy myös, jos luonti epäonnistuu tai jos piirustuksessa ei todella ole vielä yhtään entiteettiä.
+Jokainen tallennettu piirustus on kortti, jossa on värillinen pikkukuva, sen nimi ja milloin se päivitettiin viimeksi. Luettelo näkyy ensin ja pikkukuvat seuraavat yksi kerrallaan — mitään ei esirenderöidä tai tallenneta — joten kortti näyttää latausympyrän pikkukuvan piirtämisen ajan ja **Tyhjä**, jos piirustuksessa ei ole vielä mitään piirrettävää.
 
 | Toiminto | Kuinka |
 |--------|-----|

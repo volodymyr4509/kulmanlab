@@ -19,7 +19,7 @@ Binciken nisa ba ya tsayawa shi kaɗai. Sauran maɓallai biyu dole su kasance a 
 | Maɓalli | Aikinsa |
 |---------|---------|
 | **Pins** | Yana ba da wurin ishara. Ka sa alamar linzami a kan wurin kama na daƙiƙa 500 don ɗora fil — duba [Vector Pins](../vector-pins/). |
-| **ANGL** | Yana ba da kusurwa. Binciken nisa yana samuwa ne kawai idan alamar linzami ta kulle a kan kusurwa, don haka dole ANGL ta kasance a wani mataki (10°, 20°, 30°, 45°, 90°) ba a Off ba. |
+| **ANGL** | Yana ba da kusurwa. Binciken nisa yana samuwa ne kawai idan alamar linzami ta kulle a kan kusurwa, don haka dole ANGL ta kasance a wani mataki (10°, 20°, 30°, 45°, 90°, Na musamman) ba a Off ba. |
 | **Dist** | Yana ba da izinin amfani da fil a matsayin sanda maimakon wurin umarnin kansa kawai. |
 
 Idan Pins da Dist suna kunne amma ANGL tana **Off**, ba abin da zai faru: babu wata hanya da aka kulle da za a auna tsayi a kanta.

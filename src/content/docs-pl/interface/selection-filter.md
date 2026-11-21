@@ -40,6 +40,12 @@ Liczba wyników aktualizuje się na żywo w miarę zaznaczania i odznaczania, a 
 
 Użyj przycisku resetowania w okienku, aby odznaczyć wszystkie pola i wrócić do pełnego pierwotnego zaznaczenia, albo zamknij okienko (przy następnym kliknięciu ikony filtra na innym zaznaczeniu otworzy się od nowa).
 
+## Edycja wartości w panelu właściwości
+
+Każda wartość wpisana w panelu właściwości jest najpierw sprawdzana. To, co nie jest liczbą, jest odrzucane z **Wpisz liczbę**, a wartość nieużyteczna — promień, wysokość tekstu, interlinia, skala lub stosunek osi równe 0 lub mniejsze — jest odrzucana z powodem pod polem, np. **Wartość musi być większa od 0**. Obiekt zachowuje starą wartość, dopóki nie zostanie wpisana poprawna.
+
+Gdy zaznaczono kilka obiektów, panel wyświetla wszystkie pola, które mają wspólne.
+
 ## Powiązane
 
 - [Match Properties](../../commands/match-properties/) — kopiowanie właściwości z jednego obiektu na inne, gdy już zawęzisz, które to mają być

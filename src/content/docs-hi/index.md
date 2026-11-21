@@ -83,6 +83,13 @@ order: 1
 | [ViewportCopy](./commands/viewport-copy/) | व्यूपोर्ट को नई स्थिति पर डुप्लिकेट करें |
 | [PageManager](./commands/page-manager/) | सक्रिय लेआउट के लिए पेपर साइज़ और स्केल संपादित करें |
 
+## ब्लॉक
+
+| कमांड | क्या करती है |
+|---------|-------------|
+| [Block Create](./commands/block-create/) | ऑब्जेक्ट से ब्लॉक बनाएँ |
+| [Block Insert](./commands/block-insert/) | ड्रॉइंग के ब्लॉक के पूर्वावलोकन से चुना ब्लॉक रखें |
+
 ## नेविगेट
 
 | कमांड | क्या करती है |

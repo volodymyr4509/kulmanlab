@@ -83,6 +83,13 @@ Välkommen till **KulmanLab CAD**-kommandoreferensen. [KulmanLab CAD](https://ku
 | [ViewportCopy](./commands/viewport-copy/) | Duplicera ett viewport till en ny position |
 | [PageManager](./commands/page-manager/) | Redigera pappersstorlek och skala för det aktiva layoutet |
 
+## Block
+
+| Kommando | Vad det gör |
+|---------|-------------|
+| [Block Create](./commands/block-create/) | Skapa ett block av objekt |
+| [Block Insert](./commands/block-insert/) | Placera ett block valt bland förhandsvisningar av ritningens block |
+
 ## Navigera
 
 | Kommando | Vad det gör |

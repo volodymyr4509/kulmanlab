@@ -19,7 +19,7 @@ Panel se otevře na levé straně plátna a automaticky se zavře, jakmile spust
 
 ## Mřížka náhledů
 
-Každý uložený výkres je karta s živě vykresleným náhledem, názvem a časem poslední aktualizace. Náhledy se generují na místě při každém otevření panelu — nic se předem nevykresluje ani neukládá — takže karta chvíli zobrazuje zástupnou ikonu, než se její náhled nakreslí. Stejná ikona se zobrazí i tehdy, když generování selže, nebo když výkres opravdu ještě nemá žádné objekty.
+Každý uložený výkres je karta s barevně nakresleným náhledem, názvem a časem poslední aktualizace. Nejdřív se zobrazí seznam a náhledy přicházejí jeden po druhém — nic se nepředrenderuje ani neukládá — proto karta ukazuje indikátor načítání, dokud se náhled kreslí, a **Prázdný**, pokud výkres zatím nemá co kreslit.
 
 | Akce | Jak |
 |------|-----|

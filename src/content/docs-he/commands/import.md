@@ -41,6 +41,7 @@ KulmanLab מפענח את סוגי ישויות ה-DXF הבאים:
 | Text | `TEXT`, `MTEXT` | |
 | Dimension | `DIMENSION` | |
 | Multileader | `MULTILEADER` | |
+| Leader | `LEADER` | נקרא כ-multileader בלי טקסט משלו; ההערה שלידו נקראת כטקסט |
 | Hatch | `HATCH` | נקראים שם, קנה מידה וזווית הדוגמה; שם שאינו בספריית הדוגמאות שלכם חוזר ל-ANSI31. ראו [Hatch](../hatch/) |
 | Block Reference | `INSERT` | מצוירת כפי שהקובץ שמר אותה: ערכי התכונות מוצגים, ישויות שמצב של בלוק דינמי מסתיר נשמטות |
 | Solid | `SOLID` | מילוי שטוח עם שלוש או ארבע פינות, כמו המקטעים השחורים של סרגל קנה מידה |

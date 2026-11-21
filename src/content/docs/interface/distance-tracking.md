@@ -19,7 +19,7 @@ Distance Tracking is not self-contained. Two other toggles have to be in the rig
 | Toggle | Role |
 |--------|------|
 | **Pins** | Supplies the reference point. Hover a snap point for 500 ms to pin it — see [Vector Pins](../vector-pins/). |
-| **ANGL** | Supplies the angle. Distance tracking only becomes available once the cursor is angle-locked, so ANGL must be set to a step (10°, 20°, 30°, 45°, 90°) rather than Off. |
+| **ANGL** | Supplies the angle. Distance tracking only becomes available once the cursor is angle-locked, so ANGL must be set to a step (10°, 20°, 30°, 45°, 90°, Custom) rather than Off. |
 | **Dist** | Allows the pin to be used as the anchor rather than only the command's own point. |
 
 If you have Pins and Dist on but ANGL set to **Off**, nothing will happen: there is no locked direction to measure a length along.

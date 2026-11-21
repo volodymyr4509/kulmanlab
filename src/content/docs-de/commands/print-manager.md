@@ -73,7 +73,7 @@ Drücken Sie `Escape` während der Bereichsauswahl, um abzubrechen und den vorhe
 
 Die Vorschau-Zeichenfläche passt ihre Größe dynamisch an das **genaue Seitenverhältnis** des ausgewählten Bereichs an, sodass die Vorschau pixelgenau ist.
 
-Der gewählte Bereich wird bis zum Neuladen der Seite getrennt für den Modellbereich und für jedes Layout gemerkt — siehe [ChangePrintArea](../change-print-area/).
+Der gewählte Bereich wird bis zum Neuladen der Seite getrennt für den Modellbereich und für jedes Layout gemerkt.
 
 ## Exportformate
 

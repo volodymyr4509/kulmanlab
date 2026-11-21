@@ -40,6 +40,12 @@ Het aantal resultaten werkt live bij terwijl je vakjes aan- en uitkruist, en de 
 
 Gebruik de resetknop van het venster om alle vakjes leeg te maken en terug te keren naar de volledige oorspronkelijke selectie, of sluit het venster (het opent de volgende keer dat je op het filterpictogram klikt met een verse basis voor de nieuwe selectie).
 
+## Waarden bewerken in het eigenschappenpaneel
+
+Elke waarde die u in het eigenschappenpaneel typt, wordt eerst gecontroleerd. Wat geen getal is, wordt geweigerd met **Voer een getal in**, en een onbruikbare waarde — een straal, teksthoogte, regelafstand, schaal of asverhouding van 0 of minder — wordt geweigerd met de reden onder het veld, zoals **Moet groter dan 0 zijn**. De entiteit houdt haar oude waarde tot er een geldige is ingevoerd.
+
+Als meerdere entiteiten zijn geselecteerd, toont het paneel alle velden die ze gemeen hebben.
+
 ## Verwant
 
 - [Match Properties](../../commands/match-properties/) — eigenschappen van de ene entiteit naar andere kopiëren, zodra je hebt beperkt om welke het gaat

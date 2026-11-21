@@ -19,7 +19,7 @@ Panel yana buɗewa a gefen hagu na canvas, kuma yana rufewa kai tsaye da zaran k
 
 ## Grid na ƙananan hoto
 
-Kowane zane da aka ajiye katin ne mai nuna ƙaramin hoto na kai tsaye, sunansa, da lokacin da aka sabunta shi na ƙarshe. Ana ƙirƙirar ƙananan hotuna nan take a duk lokacin da aka buɗe panel — babu abin da aka riga aka zana ko ajiye — don haka kati yana nuna alamar wuri na ɗan lokaci yayin da ake zana ƙaramin hoton nasa. Wannan alama guda ɗaya kuma tana bayyana idan ƙirƙira ta kasa, ko idan zanen ba shi da abubuwa tukuna.
+Kowane zane da aka adana kati ne da ke nuna ƙaramin hoto da aka zana da launi, sunansa, da lokacin da aka sabunta shi na ƙarshe. Jerin yana fara bayyana sannan ƙananan hotuna su biyo ɗaya-ɗaya — babu abin da ake shiryawa tun da farko ko ajiyewa — don haka kati yana nuna alamar lodi yayin da ake zana hotonsa, da **Babu komai** idan zane bai da abin zana tukuna.
 
 | Aiki | Yadda |
 |--------|-----|

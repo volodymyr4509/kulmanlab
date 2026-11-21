@@ -19,7 +19,7 @@ Panel terbuka di sebelah kiri kanvas, dan tertutup secara automatik sebaik sahaj
 
 ## Grid thumbnail
 
-Setiap lukisan yang disimpan adalah satu kad yang menunjukkan thumbnail yang dirender secara langsung, namanya, dan bila ia terakhir dikemas kini. Thumbnail dijana serta-merta setiap kali panel dibuka — tiada apa yang dirender atau disimpan lebih awal — jadi sesuatu kad akan menunjukkan ikon ruang letak seketika sementara thumbnailnya sedang dilukis. Ikon ruang letak yang sama juga muncul jika penjanaan gagal, atau jika lukisan itu memang belum mempunyai sebarang entiti.
+Setiap lukisan tersimpan ialah kad dengan gambar kecil berwarna, namanya, dan bila ia dikemas kini kali terakhir. Senarai dipaparkan dahulu dan gambar kecil menyusul satu demi satu — tiada apa dirender lebih awal atau disimpan — jadi kad menunjukkan penunjuk memuat semasa gambar kecilnya dilukis, dan **Kosong** jika lukisan belum ada apa-apa untuk dilukis.
 
 | Tindakan | Cara |
 |--------|-----|

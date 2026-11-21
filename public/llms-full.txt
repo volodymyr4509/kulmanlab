@@ -253,7 +253,7 @@ KulmanLab is a free, browser-based 2D CAD editor. No installation, no account, n
 - Arc can be drawn seven ways; Polygon draws regular polygons of 3–1024 sides from a center or an edge; Array Grid and Array Polar repeat a selection in rows and columns or round a center
 - Trim, Extend and Hatch work with splines, including a spline that crosses itself
 - Point places POINT entities at clicked or typed positions, read from and written to DXF; Point Divide places points that split an object into equal lengths, Point Interval places them a set length apart
-- Blocks: block references (INSERT) are read from DXF and drawn as the file saved them — attribute values shown, a dynamic block's hidden states left out — and written back with their blocks; Explode takes them apart, a double-click edits an attribute value, and snapping, Trim, Extend and Hatch work with what they draw. Filled SOLIDs are read, drawn and written too
+- Blocks: block references (INSERT) are read from DXF and drawn as the file saved them — attribute values shown, a dynamic block's hidden states left out — and written back with their blocks; Block Create makes a block from objects and Block Insert places one from a palette of previews; Explode takes them apart, a double-click edits an attribute value, and snapping, Trim, Extend and Hatch work with what they draw. Filled SOLIDs are read, drawn and written too
 - Lasso selection, off by default (press on an empty spot and drag; clockwise takes what lies inside, anticlockwise also what it touches), and standard command aliases such as L, C, TR and X
 - Measure reads distances, lengths, angles, and the area and perimeter of a closed area around the cursor, with nothing to pick
 - Dimension unit formats (scientific, decimal, engineering, architectural, fractional, system; angular decimal degrees, deg/min/sec, gradians, radians), with Precision read in the chosen format
@@ -264,6 +264,7 @@ KulmanLab is a free, browser-based 2D CAD editor. No installation, no account, n
 - Snapping: endpoint, midpoint, center, intersection, perpendicular, tangent, nearest, grid
 - Angle tracking with configurable increments (10°, 15°, 20°, 30°, 45°, 90°)
 - Coordinate entry wherever a point is asked: X,Y, @X,Y relative to the last point, and distance<angle polar points such as @100<90; a Rel toggle in the control bar makes typed points relative by default
+- Object Snap Settings: one window, opened by a gear in the control bar, with every control bar setting explained beside the list with a drawing; includes tangent snap (off by default) and a custom angle-tracking step from 1° to 180°
 - Vector pins with distance tracking: pin a snap point, lock a direction, then type an exact length — places a point at a precise distance with no dragging, rolled out to nearly every command that asks for a point
 - Layout / paper space with multiple layouts and viewport editing; layout tabs reorder by dragging, and layouts — their paper, entities and viewports — survive a DXF export and re-import
 - Print manager: PDF and PNG/WebP export with DPI control
@@ -847,6 +848,56 @@ The `ArrayPolar` command makes copies of the selected objects round a center poi
 
 ---
 
+<!-- Source: /docs/commands/block-create/ -->
+# Block Create
+
+The `blockcreate` command makes a **block**: a named group of objects stored once in the drawing and placed as often as you like with [Block Insert](https://kulmanlab.com/docs/commands/block-insert/). The objects you choose become the block, and in the drawing they are replaced by one reference to it, so nothing looks different.
+
+## Making a block
+
+1. Select the objects first if you like, then type `blockcreate` or click **Block Create** in the **Blocks** panel. A popup opens with the selection already in it.
+2. Type a **Name**. It can't be empty, can't contain any of `< > / \ " : ; ? * | , =` or a backtick, and can't be the name of another block.
+3. Click **Select objects** to add or take away objects: the popup hides, and you click objects or drag an area. Press **Enter** or **Space** to go back to the popup, where **Objects** shows how many are in.
+4. Set the **Base point**, the point the block is placed by: type its X and Y, or click **Pick point** and click on the canvas (or type X,Y there). It starts at 0,0.
+5. Click **OK**. The block is stored, the objects give way to one reference to it at the base point, and the terminal logs the block's name and how many objects it holds.
+
+## Good to know
+
+- **OK** stays disabled while something is wrong, and the message under the fields says what: an empty or unusable name, a name already in use, or no objects.
+- **Escape** while choosing objects or the base point goes back to the popup with the block as it was. **Escape** in the popup cancels the command.
+- The block is saved with the drawing and written to DXF along with its references.
+
+---
+
+*Related: [Block Insert](https://kulmanlab.com/docs/commands/block-insert/), [Explode](https://kulmanlab.com/docs/commands/explode/), [Import](https://kulmanlab.com/docs/commands/import/)*
+
+---
+
+<!-- Source: /docs/commands/block-insert/ -->
+# Block Insert
+
+The `blockinsert` command opens a palette of previews of every block in the drawing and places the one you pick. Make blocks with [Block Create](https://kulmanlab.com/docs/commands/block-create/), or open a DXF file that has them.
+
+## Placing a block
+
+1. Type `blockinsert` or click **Block Insert** in the **Blocks** panel. The palette docks at the left with a preview tile for each block, twelve to a page; the arrows below the tiles turn the page.
+2. Type in **Search blocks** to narrow the tiles by name.
+3. Set **Scale** (it must be greater than 0) and **Rotation** in degrees. **Repeat placement** is on by default.
+4. Click a block's tile. The block follows the cursor: click to place it by its base point, or type X,Y for an exact position. Once the cursor is locked to an angle, you can type a length instead.
+5. With **Repeat placement** on, the block keeps following the cursor for the next copy until you press **Escape**. With it off, the command ends after one copy.
+
+## Good to know
+
+- To delete a block, click the bin on its tile and confirm. A block that has references in the drawing can't be deleted: its tile says **In use, can't be deleted**.
+- A drawing with no blocks shows **This drawing has no blocks** in the palette.
+- **Escape** closes the palette when nothing is being placed. It is one of the docked panels, which show one at a time at the left.
+
+---
+
+*Related: [Block Create](https://kulmanlab.com/docs/commands/block-create/), [Explode](https://kulmanlab.com/docs/commands/explode/), [Import](https://kulmanlab.com/docs/commands/import/)*
+
+---
+
 <!-- Source: /docs/commands/chamfer/ -->
 # Chamfer
 
@@ -918,55 +969,6 @@ The inserted line inherits the current lineweight, color, layer, and linetype se
 | Input | Two distances (d1, d2) | One radius |
 | Inserted entity | Line | Arc |
 | Supported entities | Lines and Polylines (straight segments only) | Lines, Arcs, and Polylines (straight or arc segments) |
-
----
-
-<!-- Source: /docs/commands/change-print-area/ -->
-# ChangePrintArea
-
-The `ChangePrintArea` command sets the rectangular region that [Print Manager](https://kulmanlab.com/docs/commands/print-manager/) exports. It runs on the bare canvas with the Print Manager hidden, and takes two opposite corners — the same two picks as [Rectangle](https://kulmanlab.com/docs/commands/rectangle/), so typed coordinates and snapping behave exactly as they do there.
-
-## Selecting an area
-
-1. Type `ChangePrintArea` in the terminal, or click **Change Area** in the Print Manager sidebar. The Print Manager hides and the canvas becomes interactive.
-2. **Click the first corner**, or type `X,Y` and press **Enter** for an exact coordinate.
-3. **Click the opposite corner**, or type `X,Y` again.
-
-Print Manager reopens with the new area in the preview, which resizes to that area's exact aspect ratio.
-
-Corners snap to grips and intersections like any other point pick, so you can crop to drawn geometry instead of by eye. The two corners can be given in any order — opposite corners define the same rectangle whichever you pick first.
-
-Press `Escape` to cancel. Nothing is written, so Print Manager reopens with whatever area it already had.
-
-## Where the area is remembered
-
-The selection is stored per context rather than globally:
-
-| Context | Slot |
-|---------|------|
-| Model space | One shared slot |
-| Each layout | Its own slot, kept separately |
-
-Reopening Print Manager on the same layout — or on Model — restores that context's own last crop instead of resetting, and switching between layouts leaves each one's area intact.
-
-This is held in memory only. Reloading the page clears every stored area, and Print Manager falls back to the defaults below.
-
-## Default area
-
-With nothing stored for the current context, Print Manager opens on:
-
-| Context | Default |
-|---------|---------|
-| Model space | The bounding box of all entities — the same extent [Fit](https://kulmanlab.com/docs/commands/fit/) zooms to |
-| A layout | The full sheet |
-
-## Related commands
-
-| Command | What it does |
-|---------|-------------|
-| [Print Manager](https://kulmanlab.com/docs/commands/print-manager/) | The export window this area applies to |
-| [Rectangle](https://kulmanlab.com/docs/commands/rectangle/) | The same two-corner pick, but draws a polyline |
-| [Fit](https://kulmanlab.com/docs/commands/fit/) | Zooms to the extent Model space defaults to |
 
 ---
 
@@ -2321,7 +2323,7 @@ The panel opens on the left side of the canvas, and closes automatically as soon
 
 ## The thumbnail grid
 
-Each saved drawing is a card showing a live-rendered thumbnail, its name, and when it was last updated. Thumbnails are generated on the spot each time the panel opens — nothing is pre-rendered or stored — so a card shows a placeholder icon for a moment while its thumbnail is being drawn. The same placeholder also appears if generation fails, or if the drawing genuinely has no entities yet.
+Each saved drawing is a card showing a thumbnail drawn in colour, its name, and when it was last updated. The list shows first and the thumbnails follow one at a time — nothing is pre-rendered or stored — so a card shows a spinner while its thumbnail is being drawn, and **Empty** if the drawing has nothing to draw yet.
 
 | Action | How |
 |--------|-----|
@@ -2867,6 +2869,7 @@ KulmanLab parses the following DXF entity types:
 | Text | `TEXT`, `MTEXT` | |
 | Dimension | `DIMENSION` | |
 | Multileader | `MULTILEADER` | |
+| Leader | `LEADER` | Read as a multileader with no text of its own; the annotation next to it is read as text |
 | Hatch | `HATCH` | Pattern name, scale, and angle are read; a name not in your pattern library falls back to ANSI31. See [Hatch](https://kulmanlab.com/docs/commands/hatch/) |
 | Block Reference | `INSERT` | Drawn as the file saved it: attribute values shown, entities a dynamic block's state hides left out |
 | Solid | `SOLID` | A flat fill with three or four corners, such as a scale bar's black segments |
@@ -3945,6 +3948,52 @@ Clicking **New File** discards all entities on the current canvas without warnin
 
 ---
 
+<!-- Source: /docs/commands/object-snap-settings/ -->
+# Object Snap Settings
+
+The `objectsnapsettings` command opens one window that holds every control bar setting. Each setting is explained beside the list, with a small drawing. Open it with the gear button in the control bar, or type `objectsnapsettings`. A setting changed here is the same as switching its button in the bar.
+
+## The settings
+
+### Where the cursor lands
+
+| Control bar | What it does |
+|---|---|
+| `Snap` | The cursor jumps to the nearest grid point, so the points you pick land on round coordinates. A snap to an object near the cursor still wins. The grid step follows the zoom. |
+| `TANG` | While a line is drawn from a point, bring the cursor near where it would just touch a circle, arc, ellipse or spline and it snaps there. Works in Line, Polyline and other commands, and when dragging the end of a line or polyline. |
+
+### Guides while drawing
+
+| Control bar | What it does |
+|---|---|
+| `ANGL` | When the cursor comes close to one of these angles from the last point, it locks onto that direction, shown as a dashed ray. While it is locked, type a length and press Enter to place the point that far along. |
+| `Pins` | Rest the cursor on a snap point for a moment to pin it. A pinned point sends out horizontal and vertical guide lines, and the cursor snaps onto them and to where they cross. |
+| `Dist` | Lets the last pinned point act as a start point: when the cursor locks onto an angle from the pin, type a length and press Enter to place the point that far from it. Needs vector pins. |
+
+### Typing and selecting
+
+| Control bar | What it does |
+|---|---|
+| `Rel` | A typed X,Y point is measured from the last point picked, as if it started with @. Backspace removes the @ for a point in the drawing's own coordinates. With it off, type @ yourself for an offset. |
+| `Lasso` | Press and drag on empty space to draw a free-form loop around what you want, instead of a rectangle. What the loop takes in is selected. |
+
+### Display
+
+| Control bar | What it does |
+|---|---|
+| `Grid` | Shows the background grid. Its spacing changes as you zoom. Turning it off doesn't stop snapping to the grid. |
+| `LWT` | Draws lines at their lineweight, so heavier lines look thicker. With it off every line is drawn thin, which can make a dense drawing easier to read. |
+
+**ANGL** has its own row for the step: pick 10°, 20°, 30°, 45° or 90°, or choose **Custom** and type any angle from 1° to 180°.
+
+Tangent snap, relative input and the lasso are off by default. **Reset to defaults** puts every setting back to how it starts.
+
+---
+
+*Related: [Vector Pins](https://kulmanlab.com/docs/interface/vector-pins/), [Distance Tracking](https://kulmanlab.com/docs/interface/distance-tracking/), [Grid & Snap](https://kulmanlab.com/docs/interface/grid-snap/), [Coordinate Entry](https://kulmanlab.com/docs/interface/coordinate-entry/)*
+
+---
+
 <!-- Source: /docs/commands/offset/ -->
 # Offset
 
@@ -4424,7 +4473,7 @@ Changing Quality re-renders the preview immediately, so you see the actual sharp
 
 By default the preview shows the bounding box of every entity in Model space — the same extent [Fit](https://kulmanlab.com/docs/commands/fit/) zooms to — or the full sheet on a layout. To export a specific region:
 
-1. Click **Change Area**, or type [`ChangePrintArea`](https://kulmanlab.com/docs/commands/change-print-area/) in the terminal — the Print Manager hides and the canvas becomes interactive.
+1. Click **Change Area** — the Print Manager hides and the canvas becomes interactive.
 2. **Click the first corner**, or type `X,Y` and press **Enter** for an exact coordinate.
 3. **Click the opposite corner** — the Print Manager reopens with the selected area in the preview.
 
@@ -4434,7 +4483,7 @@ Press `Escape` during area selection to cancel and restore the previous area.
 
 The preview canvas resizes dynamically to match the **exact aspect ratio** of the selected area, so the preview is pixel-accurate.
 
-The chosen area is remembered separately for Model space and for each layout until you reload the page — see [ChangePrintArea](https://kulmanlab.com/docs/commands/change-print-area/).
+The chosen area is remembered separately for Model space and for each layout until you reload the page.
 
 ## Export formats
 
@@ -5615,7 +5664,7 @@ Distance Tracking is not self-contained. Two other toggles have to be in the rig
 | Toggle | Role |
 |--------|------|
 | **Pins** | Supplies the reference point. Hover a snap point for 500 ms to pin it — see [Vector Pins](https://kulmanlab.com/docs/interface/vector-pins/). |
-| **ANGL** | Supplies the angle. Distance tracking only becomes available once the cursor is angle-locked, so ANGL must be set to a step (10°, 20°, 30°, 45°, 90°) rather than Off. |
+| **ANGL** | Supplies the angle. Distance tracking only becomes available once the cursor is angle-locked, so ANGL must be set to a step (10°, 20°, 30°, 45°, 90°, Custom) rather than Off. |
 | **Dist** | Allows the pin to be used as the anchor rather than only the command's own point. |
 
 If you have Pins and Dist on but ANGL set to **Off**, nothing will happen: there is no locked direction to measure a length along.
@@ -5843,6 +5892,12 @@ The result count updates live as you check and uncheck boxes, and the canvas sel
 ## Clearing filters
 
 Use the popup's reset control to clear every checked box and return to the full original selection, or close the popup (it reopens with a fresh baseline the next time you click the filter icon on a new selection).
+
+## Editing values in the property panel
+
+Every value you type in the property panel is checked first. Something that isn't a number is refused with **Enter a number**, and a value that can't be used — a radius, text height, line spacing, scale or axis ratio of 0 or less — is refused with the reason shown under the field, such as **Must be greater than 0**. The entity keeps its old value until a valid one is entered.
+
+With several entities selected, the panel lists every field they all share.
 
 ## Related
 

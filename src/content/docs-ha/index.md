@@ -82,6 +82,13 @@ Barka da zuwa jerin umarni na **KulmanLab CAD**. [KulmanLab CAD](https://kulmanl
 | [ViewportCopy](./commands/viewport-copy/) | Kwafi viewport zuwa sabon matsayi |
 | [PageManager](./commands/page-manager/) | Gyara girman takarda da girma don layout mai aiki |
 
+## Bulo
+
+| Umarni | Abin da yake yi |
+|---------|-------------|
+| [Block Create](./commands/block-create/) | Yi block daga abubuwa |
+| [Block Insert](./commands/block-insert/) | Sa block da aka zaɓa daga hotunan blocks na zane |
+
 ## Kewayawa
 
 | Umarni | Abin da yake yi |

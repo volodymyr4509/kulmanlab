@@ -19,7 +19,7 @@ Panelen öppnas på vänster sida av ritytan och stängs automatiskt så snart d
 
 ## Miniatyrrutnätet
 
-Varje sparad ritning är ett kort som visar en direktrenderad miniatyr, dess namn och när den senast uppdaterades. Miniatyrer genereras direkt varje gång panelen öppnas — inget är förrenderat eller lagrat — så ett kort visar en platshållarikon en kort stund medan dess miniatyr ritas. Samma platshållare visas också om genereringen misslyckas, eller om ritningen faktiskt inte har några entiteter ännu.
+Varje sparad ritning är ett kort med en miniatyr ritad i färg, dess namn och när den senast uppdaterades. Listan visas först och miniatyrerna följer en i taget — inget förrenderas eller lagras — så ett kort visar en laddningssnurra medan miniatyren ritas, och **Tom** om ritningen ännu inte har något att rita.
 
 | Åtgärd | Hur |
 |--------|-----|

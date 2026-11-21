@@ -83,6 +83,13 @@ order: 1
 | [ViewportCopy](./commands/viewport-copy/) | ทำสำเนาพื้นที่แสดงผลไปยังตำแหน่งใหม่ |
 | [PageManager](./commands/page-manager/) | แก้ไขขนาดกระดาษและมาตราส่วนสำหรับเค้าโครงที่ใช้งาน |
 
+## บล็อก
+
+| คำสั่ง | สิ่งที่ทำ |
+|---------|-----------|
+| [Block Create](./commands/block-create/) | สร้างบล็อกจากวัตถุ |
+| [Block Insert](./commands/block-insert/) | วางบล็อกที่เลือกจากตัวอย่างบล็อกของแบบ |
+
 ## ไปยัง
 
 | คำสั่ง | สิ่งที่ทำ |

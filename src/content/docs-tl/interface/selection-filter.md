@@ -40,6 +40,12 @@ Ang bilang ng resulta ay nag-a-update nang buhay habang nagtsetsek at nag-aalis 
 
 Gamitin ang reset na kontrol ng popup upang alisin ang lahat ng tsek at bumalik sa buong orihinal na seleksyon, o isara ang popup (muli itong magbubukas nang may bagong batayan sa susunod na pag-click mo sa icon ng filter sa ibang seleksyon).
 
+## Pag-edit ng mga halaga sa property panel
+
+Bawat halagang tina-type mo sa property panel ay sinusuri muna. Ang hindi numero ay tinatanggihan nang may **Ilagay ang numero**, at ang halagang hindi magagamit — radius, taas ng text, line spacing, scale o axis ratio na 0 o mas mababa — ay tinatanggihan nang may dahilan sa ilalim ng field, gaya ng **Dapat mas malaki sa 0**. Pinapanatili ng entity ang dating halaga hanggang makapaglagay ng wasto.
+
+Kapag maraming entity ang napili, inililista ng panel ang bawat field na pare-pareho sa kanila.
+
 ## Kaugnay
 
 - [Match Properties](../../commands/match-properties/) — kopyahin ang mga katangian mula sa isang entity patungo sa iba, kapag napaliit mo na kung alin ang mga iyon

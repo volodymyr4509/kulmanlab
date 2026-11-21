@@ -73,7 +73,7 @@ Appuyez sur `Échap` pendant la sélection de zone pour annuler et restaurer la 
 
 Le canevas d'aperçu se redimensionne dynamiquement pour correspondre au **rapport d'aspect exact** de la zone sélectionnée, de sorte que l'aperçu est précis au pixel près.
 
-La zone choisie est mémorisée séparément pour l'espace objet et pour chaque présentation jusqu'au rechargement de la page — voir [ChangePrintArea](../change-print-area/).
+La zone choisie est mémorisée séparément pour l'espace objet et pour chaque présentation jusqu'au rechargement de la page.
 
 ## Formats d'export
 

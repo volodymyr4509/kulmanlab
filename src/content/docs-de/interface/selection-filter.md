@@ -40,6 +40,12 @@ Die Ergebniszahl aktualisiert sich live beim An- und Abhaken, und die Auswahl au
 
 Verwenden Sie das Zurücksetzen-Element des Popups, um alle Häkchen zu entfernen und zur vollständigen ursprünglichen Auswahl zurückzukehren, oder schließen Sie das Popup (es öffnet sich beim nächsten Klick auf das Filtersymbol mit einer frischen Ausgangslage für die neue Auswahl).
 
+## Werte im Eigenschaftenpanel bearbeiten
+
+Jeder im Eigenschaftenpanel getippte Wert wird zuerst geprüft. Was keine Zahl ist, wird mit **Zahl eingeben** abgelehnt, und ein unbrauchbarer Wert — ein Radius, eine Texthöhe, ein Zeilenabstand, ein Maßstab oder ein Achsenverhältnis von 0 oder weniger — wird mit dem Grund unter dem Feld abgelehnt, etwa **Muss größer als 0 sein**. Die Entität behält ihren alten Wert, bis ein gültiger eingegeben wird.
+
+Sind mehrere Entitäten ausgewählt, listet das Panel alle Felder auf, die sie gemeinsam haben.
+
 ## Verwandt
 
 - [Match Properties](../../commands/match-properties/) — Eigenschaften von einem Element auf andere übertragen, sobald Sie eingegrenzt haben, welche das sind

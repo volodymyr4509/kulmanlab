@@ -83,6 +83,13 @@ Maligayang pagdating sa command reference ng **KulmanLab CAD**. Ang [KulmanLab C
 | [ViewportCopy](./commands/viewport-copy/) | I-duplicate ang viewport sa bagong posisyon |
 | [PageManager](./commands/page-manager/) | I-edit ang paper size at scale para sa aktibong layout |
 
+## Mga Block
+
+| Command | Ano ang ginagawa nito |
+|---------|-------------|
+| [Block Create](./commands/block-create/) | Gumawa ng block mula sa mga bagay |
+| [Block Insert](./commands/block-insert/) | Maglagay ng block na pinili mula sa mga preview ng mga block ng drawing |
+
 ## Pag-navigate
 
 | Command | Ano ang ginagawa nito |

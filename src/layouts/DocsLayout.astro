@@ -40,6 +40,7 @@ const s = {
   markup: t['docsNav.markup'],
   layer: t['docsNav.layer'],
   layouts: t['docsNav.layouts'],
+  blocks: t['docsNav.blocks'],
   navigate: t['docsNav.navigate'],
   measure: t['docsNav.measure'],
   style: t['docsNav.style'],
@@ -69,6 +70,9 @@ const commandKeys: Record<string, string> = {
   'commands/align': 'Align',
   'commands/array-grid': 'ArrayGrid',
   'commands/array-polar': 'ArrayPolar',
+  'commands/block-create': 'BlockCreate',
+  'commands/block-insert': 'BlockInsert',
+  'commands/object-snap-settings': 'ObjectSnapSettings',
   'commands/point-divide': 'PointDivide',
   'commands/point-interval': 'PointInterval',
   'commands/delete': 'Delete',
@@ -119,7 +123,6 @@ const commandKeys: Record<string, string> = {
   'commands/new-file': 'NewFile',
   'commands/file-manager': 'FileManager',
   'commands/print-manager': 'PrintManager',
-  'commands/change-print-area': 'ChangePrintArea',
   'commands/export-manager': 'ExportManager',
   'commands/wipestorage': 'WipeStorage',
 };
@@ -154,13 +157,14 @@ const groupTitles: Record<string, string> = {
   markup: s.markup,
   layer: s.layer,
   layouts: s.layouts,
+  blocks: s.blocks,
   navigate: s.navigate,
   measure: s.measure,
   style: s.style,
   file: s.file,
   interface: s.iface,
 };
-const groupOrder = ['shapes', 'edit', 'markup', 'layer', 'layouts', 'navigate', 'measure', 'style', 'file', 'interface'] as const;
+const groupOrder = ['shapes', 'edit', 'markup', 'layer', 'layouts', 'blocks', 'navigate', 'measure', 'style', 'file', 'interface'] as const;
 
 function itemsForGroup(group: string) {
   return entries

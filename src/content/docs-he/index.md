@@ -83,6 +83,13 @@ order: 1
 | [ViewportCopy](./commands/viewport-copy/) | שכפול חלון תצוגה למיקום חדש |
 | [PageManager](./commands/page-manager/) | עריכת גודל הנייר וקנה המידה עבור הפריסה הפעילה |
 
+## בלוקים
+
+| פקודה | מה היא עושה |
+|---------|-------------|
+| [Block Create](./commands/block-create/) | יצירת בלוק מאובייקטים |
+| [Block Insert](./commands/block-insert/) | מיקום בלוק שנבחר מתצוגות מקדימות של בלוקי השרטוט |
+
 ## ניווט
 
 | פקודה | מה היא עושה |

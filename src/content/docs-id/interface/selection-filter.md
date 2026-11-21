@@ -40,6 +40,12 @@ Jumlah hasil diperbarui langsung saat Anda mencentang dan melepas centang, dan s
 
 Gunakan kontrol reset pada jendela untuk mengosongkan semua centang dan kembali ke seleksi asli yang utuh, atau tutup jendelanya (ia akan terbuka kembali dengan dasar yang baru saat Anda mengeklik ikon filter pada seleksi lain).
 
+## Mengedit nilai di panel properti
+
+Setiap nilai yang Anda ketik di panel properti diperiksa lebih dulu. Yang bukan angka ditolak dengan **Ketik angka**, dan nilai yang tak bisa dipakai — jari-jari, tinggi teks, spasi baris, skala, atau rasio sumbu 0 atau kurang — ditolak dengan alasan di bawah kolom, misalnya **Harus lebih besar dari 0**. Entitas mempertahankan nilai lamanya sampai nilai yang valid dimasukkan.
+
+Saat beberapa entitas dipilih, panel mendaftar semua kolom yang sama-sama mereka miliki.
+
 ## Terkait
 
 - [Match Properties](../../commands/match-properties/) — menyalin properti dari satu entitas ke entitas lain, setelah Anda mempersempit yang mana saja

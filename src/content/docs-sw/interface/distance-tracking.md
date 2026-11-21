@@ -19,7 +19,7 @@ Ufuatiliaji wa umbali hausimami peke yake. Vitufe vingine viwili lazima viwe kat
 | Kitufe | Jukumu |
 |--------|--------|
 | **Pins** | Hutoa kitone cha marejeo. Weka kishale juu ya kitone cha kunasa kwa milisekunde 500 ili kukibandika — angalia [Vector Pins](../vector-pins/). |
-| **ANGL** | Hutoa pembe. Ufuatiliaji wa umbali hupatikana tu pale kishale kinapofungwa kwenye pembe, hivyo ANGL lazima iwe kwenye hatua (10°, 20°, 30°, 45°, 90°) na si Off. |
+| **ANGL** | Hutoa pembe. Ufuatiliaji wa umbali hupatikana tu pale kishale kinapofungwa kwenye pembe, hivyo ANGL lazima iwe kwenye hatua (10°, 20°, 30°, 45°, 90°, Maalum) na si Off. |
 | **Dist** | Huruhusu kitone kutumika kama nanga badala ya kitone cha amri yenyewe pekee. |
 
 Ukiwa na Pins na Dist vimewashwa lakini ANGL iko **Off**, hakuna kitakachotokea: hakuna mwelekeo uliofungwa wa kupimia urefu.

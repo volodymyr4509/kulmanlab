@@ -73,7 +73,7 @@ Paina `Escape` alueen valinnan aikana peruuttaaksesi ja palauttaaksesi edellisen
 
 Esikatselupiirtoalue muuttaa kokoaan dynaamisesti vastaamaan valitun alueen **tarkkaa kuvasuhdetta**, joten esikatselu on pikselintarkka.
 
-Valittu alue muistetaan erikseen mallitilalle ja jokaiselle asettelulle, kunnes lataat sivun uudelleen — katso [ChangePrintArea](../change-print-area/).
+Valittu alue muistetaan erikseen mallitilalle ja jokaiselle asettelulle, kunnes lataat sivun uudelleen.
 
 ## Vientimuodot
 

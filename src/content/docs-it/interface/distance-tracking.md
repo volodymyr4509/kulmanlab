@@ -19,7 +19,7 @@ Il tracciamento della distanza non si regge da solo. Altri due interruttori devo
 | Interruttore | Ruolo |
 |--------------|-------|
 | **Pins** | Fornisce il punto di riferimento. Passa il cursore su un punto di aggancio per 500 ms per fissarlo — vedi [Vector Pins](../vector-pins/). |
-| **ANGL** | Fornisce l'angolo. Il tracciamento della distanza diventa disponibile solo quando il cursore è bloccato sull'angolo, quindi ANGL deve essere impostato su un passo (10°, 20°, 30°, 45°, 90°) e non su Off. |
+| **ANGL** | Fornisce l'angolo. Il tracciamento della distanza diventa disponibile solo quando il cursore è bloccato sull'angolo, quindi ANGL deve essere impostato su un passo (10°, 20°, 30°, 45°, 90°, Personalizzato) e non su Off. |
 | **Dist** | Permette di usare il pin come ancoraggio anziché solo il punto proprio del comando. |
 
 Con Pins e Dist attivi ma ANGL su **Off** non accadrà nulla: non c'è alcuna direzione bloccata lungo cui misurare una lunghezza.

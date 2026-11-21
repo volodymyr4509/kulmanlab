@@ -19,7 +19,7 @@ El panel se abre en el lado izquierdo del lienzo y se cierra automáticamente en
 
 ## La cuadrícula de miniaturas
 
-Cada dibujo guardado es una tarjeta que muestra una miniatura renderizada en vivo, su nombre y la fecha de la última actualización. Las miniaturas se generan en el momento cada vez que se abre el panel — nada se pre-renderiza ni se almacena — por lo que una tarjeta muestra un icono de marcador de posición por un instante mientras se dibuja su miniatura. El mismo marcador de posición también aparece si la generación falla, o si el dibujo realmente todavía no tiene entidades.
+Cada dibujo guardado es una tarjeta con una miniatura dibujada en color, su nombre y cuándo se actualizó por última vez. Primero aparece la lista y las miniaturas llegan una a una —nada se genera de antemano ni se guarda—, así que una tarjeta muestra un indicador de carga mientras se dibuja su miniatura y **Vacío** si el dibujo aún no tiene nada que dibujar.
 
 | Acción | Cómo |
 |--------|-----|

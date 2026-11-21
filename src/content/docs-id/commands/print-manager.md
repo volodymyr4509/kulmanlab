@@ -73,7 +73,7 @@ Tekan `Escape` selama seleksi area untuk membatalkan dan memulihkan area sebelum
 
 Kanvas pratinjau diubah ukurannya secara dinamis untuk cocok dengan **rasio aspek tepat** dari area yang dipilih, sehingga pratinjau akurat secara piksel.
 
-Area yang dipilih diingat secara terpisah untuk ruang Model dan setiap layout hingga Anda memuat ulang halaman — lihat [ChangePrintArea](../change-print-area/).
+Area yang dipilih diingat secara terpisah untuk ruang Model dan setiap layout hingga Anda memuat ulang halaman.
 
 ## Format ekspor
 

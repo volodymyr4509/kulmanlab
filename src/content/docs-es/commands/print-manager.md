@@ -73,7 +73,7 @@ Presiona `Escape` durante la selección de área para cancelar y restaurar el á
 
 El lienzo de vista previa se redimensiona dinámicamente para coincidir con la **relación de aspecto exacta** del área seleccionada, por lo que la vista previa es precisa a nivel de píxel.
 
-El área elegida se recuerda por separado para el espacio Modelo y para cada presentación hasta que recargues la página — consulta [ChangePrintArea](../change-print-area/).
+El área elegida se recuerda por separado para el espacio Modelo y para cada presentación hasta que recargues la página.
 
 ## Formatos de exportación
 

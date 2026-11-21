@@ -41,6 +41,7 @@ Ini-parse ng KulmanLab ang mga sumusunod na DXF entity types:
 | Text | `TEXT`, `MTEXT` | |
 | Dimension | `DIMENSION` | |
 | Multileader | `MULTILEADER` | |
+| Leader | `LEADER` | Binabasa bilang multileader na walang sariling text; ang annotation sa tabi nito ay binabasa bilang text |
 | Hatch | `HATCH` | Nababasa ang pangalan, scale, at angle ng pattern; ang pangalan na wala sa pattern library mo ay babalik sa ANSI31. Tingnan ang [Hatch](../hatch/) |
 | Block Reference | `INSERT` | Iginuguhit gaya ng pagkaka-save ng file: ipinapakita ang mga attribute value, iniiwan ang mga entity na itinatago ng state ng dynamic block |
 | Solid | `SOLID` | Patag na fill na may tatlo o apat na sulok, gaya ng itim na bahagi ng scale bar |

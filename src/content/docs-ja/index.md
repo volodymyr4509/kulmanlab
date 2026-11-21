@@ -83,6 +83,13 @@ order: 1
 | [ViewportCopy](./commands/viewport-copy/) | ビューポートを新しい位置に複製する |
 | [PageManager](./commands/page-manager/) | アクティブなレイアウトの用紙サイズと尺度を編集する |
 
+## ブロック
+
+| コマンド | 機能 |
+|---------|------|
+| [Block Create](./commands/block-create/) | オブジェクトからブロックを作成 |
+| [Block Insert](./commands/block-insert/) | 図面のブロックのプレビューから選んだブロックを配置 |
+
 ## ナビゲーション
 
 | コマンド | 機能 |

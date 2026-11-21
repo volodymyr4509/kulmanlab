@@ -19,7 +19,7 @@ Panelet åbnes på venstre side af lærredet og lukker automatisk, så snart du 
 
 ## Miniaturegitteret
 
-Hver gemt tegning er et kort, der viser en levende gengivet miniature, dens navn og hvornår den senest blev opdateret. Miniaturer genereres på stedet, hver gang panelet åbnes — intet forudgengives eller gemmes — så et kort viser et pladsholderikon et øjeblik, mens dets miniature tegnes. Den samme pladsholder vises også, hvis genereringen mislykkes, eller hvis tegningen reelt endnu ikke har nogen entiteter.
+Hver gemt tegning er et kort med et miniaturebillede tegnet i farver, dens navn og hvornår den sidst blev opdateret. Listen vises først, og miniaturerne følger én ad gangen — intet forhåndsgengives eller gemmes — så et kort viser en indlæsningsindikator, mens dets miniature tegnes, og **Tom**, hvis tegningen endnu ikke har noget at tegne.
 
 | Handling | Sådan |
 |--------|-----|

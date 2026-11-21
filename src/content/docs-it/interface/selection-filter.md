@@ -40,6 +40,12 @@ Il conteggio dei risultati si aggiorna dal vivo mentre spunti e togli la spunta,
 
 Usa il comando di reimpostazione della finestra per togliere tutte le spunte e tornare alla selezione originale completa, oppure chiudi la finestra (si riaprirà con una base nuova la prossima volta che farai clic sull'icona di filtro con un'altra selezione).
 
+## Modificare i valori nel pannello delle proprietà
+
+Ogni valore digitato nel pannello delle proprietà viene prima controllato. Ciò che non è un numero viene rifiutato con **Immettere un numero**, e un valore inutilizzabile — un raggio, un’altezza del testo, un’interlinea, una scala o un rapporto d’assi pari o inferiore a 0 — viene rifiutato con il motivo mostrato sotto il campo, ad esempio **Deve essere maggiore di 0**. L’entità mantiene il vecchio valore finché non se ne inserisce uno valido.
+
+Con più entità selezionate, il pannello elenca tutti i campi che hanno in comune.
+
 ## Correlati
 
 - [Match Properties](../../commands/match-properties/) — copiare le proprietà da un'entità ad altre, una volta ristretto quali sono

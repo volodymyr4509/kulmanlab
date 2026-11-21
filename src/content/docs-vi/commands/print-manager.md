@@ -73,7 +73,7 @@ Nhấn `Escape` trong quá trình chọn vùng để hủy và khôi phục vùn
 
 Canvas xem trước tự động thay đổi kích thước để khớp với **tỷ lệ khung hình chính xác** của vùng đã chọn, vì vậy bản xem trước chính xác đến từng pixel.
 
-Vùng đã chọn được ghi nhớ riêng cho không gian Model và cho từng layout cho đến khi bạn tải lại trang — xem [ChangePrintArea](../change-print-area/).
+Vùng đã chọn được ghi nhớ riêng cho không gian Model và cho từng layout cho đến khi bạn tải lại trang.
 
 ## Định dạng xuất
 

@@ -82,6 +82,13 @@ order: 1
 | [ViewportCopy](./commands/viewport-copy/) | ویوپورٹ کو نئی پوزیشن پر نقل کریں |
 | [PageManager](./commands/page-manager/) | فعال لے آؤٹ کے لیے کاغذ کا سائز اور پیمانہ ترمیم کریں |
 
+## بلاک
+
+| کمانڈ | یہ کیا کرتا ہے |
+|---------|-------------|
+| [Block Create](./commands/block-create/) | آبجیکٹس سے بلاک بنائیں |
+| [Block Insert](./commands/block-insert/) | ڈرائنگ کے بلاکس کے پیش منظر سے چنا بلاک رکھیں |
+
 ## نیویگیٹ
 
 | کمانڈ | یہ کیا کرتا ہے |

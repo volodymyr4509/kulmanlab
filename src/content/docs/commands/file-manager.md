@@ -19,7 +19,7 @@ The panel opens on the left side of the canvas, and closes automatically as soon
 
 ## The thumbnail grid
 
-Each saved drawing is a card showing a live-rendered thumbnail, its name, and when it was last updated. Thumbnails are generated on the spot each time the panel opens — nothing is pre-rendered or stored — so a card shows a placeholder icon for a moment while its thumbnail is being drawn. The same placeholder also appears if generation fails, or if the drawing genuinely has no entities yet.
+Each saved drawing is a card showing a thumbnail drawn in colour, its name, and when it was last updated. The list shows first and the thumbnails follow one at a time — nothing is pre-rendered or stored — so a card shows a spinner while its thumbnail is being drawn, and **Empty** if the drawing has nothing to draw yet.
 
 | Action | How |
 |--------|-----|

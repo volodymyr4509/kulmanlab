@@ -40,6 +40,12 @@ El recuento de resultados se actualiza en vivo mientras marca y desmarca casilla
 
 Use el control de reinicio de la ventana para desmarcar todas las casillas y volver a la selección original completa, o cierre la ventana (se reabrirá con un punto de partida nuevo la próxima vez que pulse el icono de filtro sobre una selección distinta).
 
+## Editar valores en el panel de propiedades
+
+Cada valor que escribes en el panel de propiedades se comprueba antes. Lo que no es un número se rechaza con **Introduce un número**, y un valor inutilizable —un radio, altura de texto, interlineado, escala o relación de ejes de 0 o menos— se rechaza con el motivo bajo el campo, como **Debe ser mayor que 0**. La entidad conserva su valor anterior hasta que se escribe uno válido.
+
+Con varias entidades seleccionadas, el panel enumera todos los campos que comparten.
+
 ## Relacionado
 
 - [Match Properties](../../commands/match-properties/) — copiar propiedades de una entidad a otras, una vez acotado cuáles son

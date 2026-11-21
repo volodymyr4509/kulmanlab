@@ -73,7 +73,7 @@ Alan seçimini iptal etmek ve önceki alana dönmek için `Escape` tuşuna bası
 
 Önizleme tuvali seçilen alanın **tam en-boy oranına** göre dinamik olarak yeniden boyutlandırılır, bu nedenle önizleme piksel düzeyinde doğrudur.
 
-Seçilen alan, sayfayı yeniden yükleyene kadar Model uzayı ve her düzen için ayrı ayrı hatırlanır — bkz. [ChangePrintArea](../change-print-area/).
+Seçilen alan, sayfayı yeniden yükleyene kadar Model uzayı ve her düzen için ayrı ayrı hatırlanır.
 
 ## Dışa Aktarma Formatları
 

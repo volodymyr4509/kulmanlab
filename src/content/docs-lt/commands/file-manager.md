@@ -19,7 +19,7 @@ Skydelis atsidaro kairėje drobės pusėje ir užsidaro automatiškai, kai tik p
 
 ## Miniatiūrų tinklelis
 
-Kiekvienas išsaugotas brėžinys yra kortelė, rodanti gyvai atvaizduotą miniatiūrą, pavadinimą ir paskutinio atnaujinimo laiką. Miniatiūros generuojamos vietoje kiekvieną kartą atveriant skydelį — nieko iš anksto neatvaizduojama ir nesaugoma — todėl kortelė trumpam rodo vietos žymos piktogramą, kol nupiešiama jos miniatiūra. Ta pati vietos žyma rodoma ir jei generavimas nepavyksta arba jei brėžinys tikrai dar neturi objektų.
+Kiekvienas išsaugotas brėžinys yra kortelė su spalvotai nupieštu miniatiūros vaizdu, pavadinimu ir paskutinio atnaujinimo laiku. Pirmiausia rodomas sąrašas, o miniatiūros seka po vieną — niekas iš anksto nerenderinama ir nesaugoma — todėl kortelė rodo įkėlimo indikatorių, kol miniatiūra piešiama, ir **Tuščias**, jei brėžinyje dar nėra ką piešti.
 
 | Veiksmas | Kaip |
 |----------|------|

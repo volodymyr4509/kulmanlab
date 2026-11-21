@@ -83,6 +83,13 @@ Selamat datang di referensi perintah **KulmanLab CAD**. [KulmanLab CAD](https://
 | [ViewportCopy](./commands/viewport-copy/) | Menduplikasi viewport ke posisi baru |
 | [PageManager](./commands/page-manager/) | Mengedit ukuran kertas dan skala untuk layout aktif |
 
+## Blok
+
+| Perintah | Fungsi |
+|---------|-------------|
+| [Block Create](./commands/block-create/) | Buat blok dari objek |
+| [Block Insert](./commands/block-insert/) | Tempatkan blok yang dipilih dari pratinjau blok gambar |
+
 ## Navigasi
 
 | Perintah | Fungsi |

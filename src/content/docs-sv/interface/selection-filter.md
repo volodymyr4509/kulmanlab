@@ -40,6 +40,12 @@ Antalet träffar uppdateras direkt medan du kryssar i och ur, och markeringen p�
 
 Använd fönstrets återställningskontroll för att tömma alla rutor och återgå till hela den ursprungliga markeringen, eller stäng fönstret (det öppnas med ett nytt utgångsläge nästa gång du klickar på filterikonen vid en annan markering).
 
+## Redigera värden i egenskapspanelen
+
+Varje värde du skriver i egenskapspanelen kontrolleras först. Det som inte är ett tal avvisas med **Skriv ett tal**, och ett värde som inte går att använda — en radie, texthöjd, radavstånd, skala eller axelkvot på 0 eller mindre — avvisas med skälet under fältet, till exempel **Måste vara större än 0**. Entiteten behåller sitt gamla värde tills ett giltigt skrivs in.
+
+När flera entiteter är markerade listar panelen alla fält de har gemensamt.
+
 ## Relaterat
 
 - [Match Properties](../../commands/match-properties/) — kopiera egenskaper från en entitet till andra, när du väl har begränsat vilka

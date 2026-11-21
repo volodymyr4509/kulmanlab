@@ -19,7 +19,7 @@ Nagbubukas ang panel sa kaliwang bahagi ng canvas, at awtomatikong nagsasara sa 
 
 ## Ang thumbnail grid
 
-Ang bawat na-save na drawing ay isang card na nagpapakita ng live-rendered na thumbnail nito, ang pangalan nito, at kung kailan ito huling na-update. Ang mga thumbnail ay ginagawa sa mismong oras tuwing bubukas ang panel — walang naka-pre-render o naka-store — kaya ang isang card ay nagpapakita ng placeholder icon nang saglit habang ginuguhit ang thumbnail nito. Lumalabas din ang parehong placeholder kung nabigo ang paggawa nito, o kung talagang wala pang entity ang drawing.
+Ang bawat na-save na drawing ay isang card na nagpapakita ng thumbnail na iginuhit nang may kulay, ang pangalan nito, at kung kailan ito huling na-update. Unang lumalabas ang listahan at sunud-sunod ang mga thumbnail — walang pre-render o iniimbak — kaya nagpapakita ang card ng spinner habang iginuguhit ang thumbnail nito, at **Walang laman** kung wala pang maiguguhit ang drawing.
 
 | Aksyon | Paano |
 |--------|-----|

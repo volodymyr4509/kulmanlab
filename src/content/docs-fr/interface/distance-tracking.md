@@ -19,7 +19,7 @@ Le suivi de distance ne se suffit pas à lui-même. Deux autres boutons doivent 
 | Bouton | Rôle |
 |--------|------|
 | **Pins** | Fournit le point de référence. Survolez un point d'accrochage pendant 500 ms pour l'épingler — voir [Vector Pins](../vector-pins/). |
-| **ANGL** | Fournit l'angle. Le suivi de distance ne devient disponible qu'une fois le curseur verrouillé en angle : ANGL doit donc être réglé sur un pas (10°, 20°, 30°, 45°, 90°) et non sur Off. |
+| **ANGL** | Fournit l'angle. Le suivi de distance ne devient disponible qu'une fois le curseur verrouillé en angle : ANGL doit donc être réglé sur un pas (10°, 20°, 30°, 45°, 90°, Personnalisé) et non sur Off. |
 | **Dist** | Autorise l'utilisation du repère comme ancrage, et non seulement du point propre à la commande. |
 
 Avec Pins et Dist activés mais ANGL sur **Off**, rien ne se produira : il n'y a aucune direction verrouillée le long de laquelle mesurer une longueur.

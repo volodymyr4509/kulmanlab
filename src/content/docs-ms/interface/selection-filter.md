@@ -40,6 +40,12 @@ Bilangan hasil dikemas kini secara langsung sambil anda menanda dan menyahtanda,
 
 Gunakan kawalan set semula pada tetingkap untuk mengosongkan semua tanda dan kembali kepada pemilihan asal yang penuh, atau tutup tetingkap itu (ia akan dibuka semula dengan asas baharu pada kali seterusnya anda mengklik ikon penapis pada pemilihan lain).
 
+## Menyunting nilai dalam panel sifat
+
+Setiap nilai yang anda taip dalam panel sifat disemak dahulu. Yang bukan nombor ditolak dengan **Taip nombor**, dan nilai yang tidak boleh digunakan — jejari, tinggi teks, jarak baris, skala atau nisbah paksi 0 atau kurang — ditolak dengan sebab di bawah medan, seperti **Mesti lebih besar daripada 0**. Entiti mengekalkan nilai lamanya sehingga nilai yang sah dimasukkan.
+
+Apabila beberapa entiti dipilih, panel menyenaraikan semua medan yang dikongsi mereka.
+
 ## Berkaitan
 
 - [Match Properties](../../commands/match-properties/) — menyalin sifat daripada satu entiti kepada yang lain, setelah anda mempersempit yang mana satu

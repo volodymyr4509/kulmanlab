@@ -19,7 +19,7 @@ Panel terbuka di sisi kiri kanvas, dan tertutup secara otomatis segera setelah A
 
 ## Grid thumbnail
 
-Setiap gambar tersimpan adalah kartu yang menampilkan thumbnail yang dirender langsung, namanya, dan waktu terakhir diperbarui. Thumbnail dihasilkan secara langsung setiap kali panel dibuka — tidak ada yang dirender atau disimpan sebelumnya — sehingga kartu menampilkan ikon placeholder sejenak selagi thumbnail-nya digambar. Placeholder yang sama juga muncul jika pembuatan gagal, atau jika gambar memang belum memiliki entitas apa pun.
+Setiap gambar tersimpan adalah kartu dengan gambar mini berwarna, namanya, dan kapan terakhir diperbarui. Daftar muncul lebih dulu lalu gambar mini menyusul satu per satu — tidak ada yang dirender lebih dulu atau disimpan — sehingga kartu menampilkan indikator pemuatan saat gambar minianya digambar, dan **Kosong** jika gambar belum punya apa pun untuk digambar.
 
 | Aksi | Cara |
 |--------|-----|

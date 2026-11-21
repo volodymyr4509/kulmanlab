@@ -19,7 +19,7 @@ Panel tuvalin sol tarafında açılır ve başka bir komut başlatır başlatmaz
 
 ## Küçük resim ızgarası
 
-Her kaydedilen çizim; anlık olarak oluşturulmuş bir küçük resim, adı ve en son ne zaman güncellendiğini gösteren bir kart olarak görünür. Küçük resimler panel her açıldığında o anda oluşturulur — hiçbir şey önceden işlenmiş veya saklanmış değildir — bu yüzden bir kart, küçük resmi çizilirken bir an için yer tutucu bir simge gösterir. Oluşturma başarısız olursa veya çizimde gerçekten henüz hiç nesne yoksa da aynı yer tutucu görünür.
+Kaydedilen her çizim; renkli çizilmiş bir küçük resim, adı ve son güncellenme zamanını gösteren bir karttır. Önce liste görünür, küçük resimler tek tek gelir — hiçbir şey önceden oluşturulmaz veya saklanmaz — bu yüzden bir kart, küçük resmi çizilirken dönen bir gösterge, çizimde henüz çizilecek bir şey yoksa **Boş** gösterir.
 
 | İşlem | Nasıl |
 |--------|-----|

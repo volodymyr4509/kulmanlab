@@ -40,6 +40,12 @@ Počet výsledků se živě aktualizuje při zaškrtávání a odškrtávání a
 
 Použijte ovládací prvek reset ve vyskakovacím okně, čímž vymažete všechna zaškrtnutí a vrátíte se k plnému původnímu výběru, nebo okno zavřete (při dalším kliknutí na ikonu filtru u nového výběru se otevře s novým výchozím stavem).
 
+## Úprava hodnot v panelu vlastností
+
+Každá hodnota, kterou napíšete v panelu vlastností, se nejdřív zkontroluje. Co není číslo, je odmítnuto zprávou **Zadejte číslo**, a nepoužitelná hodnota — poloměr, výška textu, řádkování, měřítko nebo poměr os 0 či méně — je odmítnuta s důvodem pod polem, například **Hodnota musí být větší než 0**. Entita si ponechá starou hodnotu, dokud není zadána platná.
+
+Je-li vybráno více entit, panel vypíše všechna pole, která mají společná.
+
 ## Související
 
 - [Match Properties](../../commands/match-properties/) — kopírování vlastností z jednoho objektu na jiné, jakmile jste zúžili, které to mají být

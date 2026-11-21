@@ -83,6 +83,13 @@ Tervetuloa **KulmanLab CAD**:in komentoreferenssiin. [KulmanLab CAD](https://kul
 | [ViewportCopy](./commands/viewport-copy/) | Monista näkymäikkuna uuteen sijaintiin |
 | [PageManager](./commands/page-manager/) | Muokkaa aktiivisen asettelun paperikokoa ja mittakaavaa |
 
+## Lohkot
+
+| Komento | Mitä se tekee |
+|---------|-------------|
+| [Block Create](./commands/block-create/) | Tee lohko kohteista |
+| [Block Insert](./commands/block-insert/) | Sijoita piirustuksen lohkojen esikatseluista valittu lohko |
+
 ## Navigointi
 
 | Komento | Mitä se tekee |

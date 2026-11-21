@@ -40,6 +40,12 @@ Tulosten määrä päivittyy elävästi, kun rastitat ja poistat rasteja, ja pii
 
 Käytä ikkunan nollaustoimintoa tyhjentääksesi kaikki rastit ja palataksesi koko alkuperäiseen valintaan, tai sulje ikkuna (se avautuu tuoreelta pohjalta, kun seuraavan kerran napsautat suodatinkuvaketta toisen valinnan kohdalla).
 
+## Arvojen muokkaaminen ominaisuuspaneelissa
+
+Jokainen ominaisuuspaneeliin kirjoittamasi arvo tarkistetaan ensin. Mikä ei ole luku, hylätään viestillä **Syötä luku**, ja käyttökelvoton arvo — säde, tekstin korkeus, riviväli, mittakaava tai akselisuhde, joka on 0 tai pienempi — hylätään kentän alla näkyvällä syyllä, esimerkiksi **Arvon on oltava suurempi kuin 0**. Entiteetti säilyttää vanhan arvonsa, kunnes kelvollinen arvo annetaan.
+
+Kun useita entiteettejä on valittuna, paneeli listaa kaikki kentät, jotka niillä on yhteisiä.
+
 ## Liittyvät
 
 - [Match Properties](../../commands/match-properties/) — kopioi ominaisuudet yhdestä objektista muihin, kun olet rajannut mistä on kyse

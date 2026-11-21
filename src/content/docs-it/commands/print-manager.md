@@ -73,7 +73,7 @@ Premi `Esc` durante la selezione dell'area per annullare e ripristinare l'area p
 
 Il canvas di anteprima si ridimensiona dinamicamente per corrispondere al **rapporto d'aspetto esatto** dell'area selezionata, in modo che l'anteprima sia accurata al pixel.
 
-L'area scelta viene ricordata separatamente per lo spazio Modello e per ogni layout fino al ricaricamento della pagina — vedi [ChangePrintArea](../change-print-area/).
+L'area scelta viene ricordata separatamente per lo spazio Modello e per ogni layout fino al ricaricamento della pagina.
 
 ## Formati di esportazione
 

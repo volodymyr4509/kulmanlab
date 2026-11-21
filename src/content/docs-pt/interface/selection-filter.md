@@ -40,6 +40,12 @@ A contagem de resultados se atualiza ao vivo conforme você marca e desmarca, e 
 
 Use o controle de redefinição da janela para desmarcar tudo e voltar à seleção original completa, ou feche a janela (ela reabre com uma base nova na próxima vez que você clicar no ícone de filtro sobre outra seleção).
 
+## Editar valores no painel de propriedades
+
+Cada valor digitado no painel de propriedades é verificado antes. O que não é número é recusado com **Digite um número**, e um valor inutilizável — raio, altura de texto, espaçamento de linhas, escala ou razão de eixos de 0 ou menos — é recusado com o motivo sob o campo, como **Deve ser maior que 0**. A entidade mantém o valor antigo até que um válido seja digitado.
+
+Com várias entidades selecionadas, o painel lista todos os campos que elas têm em comum.
+
 ## Relacionados
 
 - [Match Properties](../../commands/match-properties/) — copiar propriedades de uma entidade para outras, depois de restringir quais são

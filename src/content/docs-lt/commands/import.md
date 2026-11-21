@@ -41,6 +41,7 @@ KulmanLab apdoroja šiuos DXF objektų tipus:
 | Text | `TEXT`, `MTEXT` | |
 | Dimension | `DIMENSION` | |
 | Multileader | `MULTILEADER` | |
+| Leader | `LEADER` | Skaitoma kaip daugiaeilė išnaša be savo teksto; šalia esanti anotacija skaitoma kaip tekstas |
 | Hatch | `HATCH` | Skaitomas rašto pavadinimas, mastelis ir kampas; pavadinimas, kurio nėra jūsų raštų bibliotekoje, grįžta prie ANSI31. Žr. [Hatch](../hatch/) |
 | Block Reference | `INSERT` | Braižoma taip, kaip ją išsaugojo failas: rodomos atributų reikšmės, praleidžiami dinaminio bloko būsenos paslėpti objektai |
 | Solid | `SOLID` | Plokščias užpildas su trimis ar keturiais kampais, kaip juodi mastelio juostos segmentai |

@@ -19,7 +19,7 @@ Etäisyysseuranta ei ole omavarainen. Kahden muun kytkimen on oltava oikeassa ti
 | Kytkin | Tehtävä |
 |--------|---------|
 | **Pins** | Antaa viitepisteen. Pidä osoitin tarttumispisteen päällä 500 ms kiinnittääksesi sen — katso [Vector Pins](../vector-pins/). |
-| **ANGL** | Antaa kulman. Etäisyysseuranta tulee käytettäväksi vasta, kun osoitin on lukittu kulmaan, joten ANGL on asetettava askeleeseen (10°, 20°, 30°, 45°, 90°) eikä Off-tilaan. |
+| **ANGL** | Antaa kulman. Etäisyysseuranta tulee käytettäväksi vasta, kun osoitin on lukittu kulmaan, joten ANGL on asetettava askeleeseen (10°, 20°, 30°, 45°, 90°, Mukautettu) eikä Off-tilaan. |
 | **Dist** | Sallii nastan käytön ankkurina pelkän komennon oman pisteen sijaan. |
 
 Jos Pins ja Dist ovat päällä mutta ANGL on **Off**, mitään ei tapahdu: ei ole lukittua suuntaa, jota pitkin pituutta mitattaisiin.

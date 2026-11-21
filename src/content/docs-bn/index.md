@@ -83,6 +83,13 @@ order: 1
 | [ViewportCopy](./commands/viewport-copy/) | একটি ভিউপোর্টকে নতুন অবস্থানে ডুপ্লিকেট করুন |
 | [PageManager](./commands/page-manager/) | সক্রিয় লেআউটের জন্য কাগজের আকার এবং স্কেল সম্পাদনা করুন |
 
+## ব্লক
+
+| কমান্ড | এটি কী করে |
+|---------|-------------|
+| [Block Create](./commands/block-create/) | অবজেক্ট থেকে ব্লক তৈরি |
+| [Block Insert](./commands/block-insert/) | ড্রয়িংয়ের ব্লকের প্রিভিউ থেকে বাছা ব্লক বসান |
+
 ## নেভিগেট
 
 | কমান্ড | এটি কী করে |

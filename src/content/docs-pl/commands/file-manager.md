@@ -19,7 +19,7 @@ Panel otwiera się po lewej stronie płótna i zamyka się automatycznie, gdy ty
 
 ## Siatka miniatur
 
-Każdy zapisany rysunek to karta pokazująca renderowaną na żywo miniaturę, jego nazwę oraz czas ostatniej aktualizacji. Miniatury są generowane na bieżąco za każdym razem, gdy panel jest otwierany — nic nie jest wcześniej renderowane ani zapisywane — więc karta przez chwilę pokazuje ikonę zastępczą, podczas gdy jej miniatura jest rysowana. Ta sama ikona zastępcza pojawia się również, gdy generowanie się nie powiedzie lub gdy rysunek rzeczywiście nie ma jeszcze żadnych elementów.
+Każdy zapisany rysunek to karta z kolorową miniaturą, nazwą i czasem ostatniej aktualizacji. Najpierw pokazuje się lista, a miniatury dochodzą po kolei — nic nie jest generowane z góry ani zapisywane — dlatego karta pokazuje wskaźnik ładowania, gdy jej miniatura jest rysowana, oraz **Pusty**, jeśli rysunek nie ma jeszcze nic do narysowania.
 
 | Działanie | Jak |
 |--------|-----|

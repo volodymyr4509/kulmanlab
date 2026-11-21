@@ -83,6 +83,13 @@ Bem-vindo à referência de comandos do **KulmanLab CAD**. O [KulmanLab CAD](htt
 | [ViewportCopy](./commands/viewport-copy/) | Duplica uma viewport para uma nova posição |
 | [PageManager](./commands/page-manager/) | Edita o formato de papel e a escala do layout ativo |
 
+## Blocos
+
+| Comando | O que faz |
+|---------|-----------|
+| [Block Create](./commands/block-create/) | Criar um bloco a partir de objetos |
+| [Block Insert](./commands/block-insert/) | Colocar um bloco escolhido entre pré-visualizações dos blocos do desenho |
+
 ## Navegar
 
 | Comando | O que faz |

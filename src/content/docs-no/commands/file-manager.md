@@ -19,7 +19,7 @@ Panelet åpnes på venstre side av lerretet, og lukkes automatisk så snart du s
 
 ## Miniatyrrutenettet
 
-Hver lagret tegning er et kort som viser en direkte gjengitt miniatyr, navnet sitt og når det sist ble oppdatert. Miniatyrene genereres på stedet hver gang panelet åpnes — ingenting er forhåndsgjengitt eller lagret — så et kort viser et plassholderikon et øyeblikk mens miniatyren tegnes. Den samme plassholderen vises også hvis genereringen mislykkes, eller hvis tegningen faktisk ikke har noen entiteter ennå.
+Hver lagret tegning er et kort med en miniatyr tegnet i farger, navnet og når den sist ble oppdatert. Listen vises først og miniatyrene følger én om gangen — ingenting forhåndsgjengis eller lagres — så et kort viser en lastesnurre mens miniatyren tegnes, og **Tom** hvis tegningen ennå ikke har noe å tegne.
 
 | Handling | Slik gjør du det |
 |--------|-----|

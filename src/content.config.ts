@@ -8,6 +8,7 @@ const docsGroups = [
   'markup',
   'layer',
   'layouts',
+  'blocks',
   'navigate',
   'measure',
   'style',

@@ -19,7 +19,7 @@ Distance Tracking není samostatný. Než můžete napsat délku, musí být dva
 | Přepínač | Role |
 |----------|------|
 | **Pins** | Dodává vztažný bod. Najeďte na bod přichycení na 500 ms a připnete jej — viz [Vector Pins](../vector-pins/). |
-| **ANGL** | Dodává úhel. Sledování vzdálenosti je dostupné, až když je kurzor zamknut na úhel, takže ANGL musí být nastaveno na krok (10°, 20°, 30°, 45°, 90°), nikoli na Off. |
+| **ANGL** | Dodává úhel. Sledování vzdálenosti je dostupné, až když je kurzor zamknut na úhel, takže ANGL musí být nastaveno na krok (10°, 20°, 30°, 45°, 90°, Vlastní), nikoli na Off. |
 | **Dist** | Umožňuje použít špendlík jako kotvu, nikoli jen vlastní bod příkazu. |
 
 Pokud máte Pins a Dist zapnuté, ale ANGL nastavené na **Off**, nic se nestane: neexistuje zamčený směr, podél kterého by se dala měřit délka.

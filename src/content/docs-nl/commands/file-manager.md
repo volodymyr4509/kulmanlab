@@ -19,7 +19,7 @@ Het paneel opent aan de linkerkant van het canvas en sluit automatisch zodra u e
 
 ## Het miniaturenraster
 
-Elke opgeslagen tekening is een kaart met een live gegenereerde miniatuur, de naam ervan en het tijdstip van de laatste update. Miniaturen worden telkens ter plekke gegenereerd wanneer het paneel opent — er wordt niets vooraf gerenderd of opgeslagen — dus een kaart toont even een plaatshouderpictogram terwijl de miniatuur wordt getekend. Dezelfde plaatshouder verschijnt ook als het genereren mislukt, of als de tekening werkelijk nog geen entiteiten bevat.
+Elke opgeslagen tekening is een kaart met een in kleur getekende miniatuur, de naam en wanneer hij voor het laatst is bijgewerkt. Eerst verschijnt de lijst en de miniaturen volgen een voor een — niets wordt vooraf gerenderd of opgeslagen — dus een kaart toont een laadindicator terwijl zijn miniatuur wordt getekend, en **Leeg** als de tekening nog niets heeft om te tekenen.
 
 | Actie | Hoe |
 |--------|-----|

@@ -83,6 +83,13 @@ order: 1
 | [ViewportCopy](./commands/viewport-copy/) | 将视口复制到新位置 |
 | [PageManager](./commands/page-manager/) | 编辑当前布局的图纸大小和比例 |
 
+## 块
+
+| 命令 | 功能 |
+|---------|-------------|
+| [Block Create](./commands/block-create/) | 由对象创建块 |
+| [Block Insert](./commands/block-insert/) | 放置从图纸块预览中选出的块 |
+
 ## 导航
 
 | 命令 | 功能 |

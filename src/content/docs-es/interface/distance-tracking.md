@@ -19,7 +19,7 @@ El seguimiento de distancia no se basta a sí mismo. Otros dos interruptores deb
 | Interruptor | Función |
 |-------------|---------|
 | **Pins** | Aporta el punto de referencia. Pasa el cursor sobre un punto de referencia durante 500 ms para fijarlo — véase [Vector Pins](../vector-pins/). |
-| **ANGL** | Aporta el ángulo. El seguimiento de distancia solo queda disponible cuando el cursor está bloqueado en ángulo, así que ANGL debe estar en un paso (10°, 20°, 30°, 45°, 90°) y no en Off. |
+| **ANGL** | Aporta el ángulo. El seguimiento de distancia solo queda disponible cuando el cursor está bloqueado en ángulo, así que ANGL debe estar en un paso (10°, 20°, 30°, 45°, 90°, Personalizado) y no en Off. |
 | **Dist** | Permite usar el pin como ancla en vez de solo el propio punto del comando. |
 
 Si tienes Pins y Dist activados pero ANGL en **Off**, no pasará nada: no hay dirección bloqueada a lo largo de la cual medir una longitud.

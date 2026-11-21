@@ -83,6 +83,13 @@ Chào mừng bạn đến với tài liệu tham khảo lệnh **KulmanLab CAD**
 | [ViewportCopy](./commands/viewport-copy/) | Sao chép khung nhìn sang vị trí mới |
 | [PageManager](./commands/page-manager/) | Chỉnh sửa kích thước giấy và tỉ lệ cho bố cục đang hoạt động |
 
+## Khối
+
+| Lệnh | Chức năng |
+|------|-----------|
+| [Block Create](./commands/block-create/) | Tạo khối từ đối tượng |
+| [Block Insert](./commands/block-insert/) | Đặt một khối chọn từ các bản xem trước khối của bản vẽ |
+
 ## Điều Hướng
 
 | Lệnh | Chức năng |

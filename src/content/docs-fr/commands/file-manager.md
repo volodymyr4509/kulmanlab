@@ -19,7 +19,7 @@ Le panneau s'ouvre sur le côté gauche du canevas, et se ferme automatiquement 
 
 ## La grille de miniatures
 
-Chaque dessin sauvegardé est une carte affichant une miniature rendue en direct, son nom, et la date de dernière mise à jour. Les miniatures sont générées à la volée à chaque ouverture du panneau — rien n'est pré-rendu ni stocké — donc une carte affiche brièvement une icône de remplacement pendant que sa miniature est dessinée. La même icône apparaît aussi si la génération échoue, ou si le dessin n'a réellement encore aucune entité.
+Chaque dessin enregistré est une carte avec une vignette dessinée en couleur, son nom et la date de sa dernière modification. La liste s’affiche d’abord et les vignettes suivent une à une — rien n’est pré-rendu ni stocké —, si bien qu’une carte montre un indicateur de chargement pendant que sa vignette est dessinée, et **Vide** si le dessin n’a encore rien à dessiner.
 
 | Action | Comment |
 |--------|-----|

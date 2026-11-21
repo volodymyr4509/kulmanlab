@@ -82,6 +82,13 @@ Karibu kwenye marejeo ya amri za **KulmanLab CAD**. [KulmanLab CAD](https://kulm
 | [ViewportCopy](./commands/viewport-copy/) | Nakili dirisha la kuangalia hadi nafasi mpya |
 | [PageManager](./commands/page-manager/) | Hariri ukubwa wa karatasi na kiwango cha ukubwa kwa mpangilio unaotumika |
 
+## Bloku
+
+| Amri | Inachofanya |
+|------|------------|
+| [Block Create](./commands/block-create/) | Tengeneza kizuizi kutoka kwa vitu |
+| [Block Insert](./commands/block-insert/) | Weka kizuizi kilichochaguliwa kutoka kwa hakikisho za vizuizi vya mchoro |
+
 ## Urambazaji
 
 | Amri | Inachofanya |

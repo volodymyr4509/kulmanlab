@@ -19,7 +19,7 @@ Afstandsvolging staat niet op zichzelf. Twee andere schakelaars moeten in de jui
 | Schakelaar | Rol |
 |------------|-----|
 | **Pins** | Levert het referentiepunt. Zweef 500 ms boven een vangpunt om het vast te zetten — zie [Vector Pins](../vector-pins/). |
-| **ANGL** | Levert de hoek. Afstandsvolging komt pas beschikbaar zodra de cursor op een hoek vergrendeld is, dus ANGL moet op een stap staan (10°, 20°, 30°, 45°, 90°) en niet op Off. |
+| **ANGL** | Levert de hoek. Afstandsvolging komt pas beschikbaar zodra de cursor op een hoek vergrendeld is, dus ANGL moet op een stap staan (10°, 20°, 30°, 45°, 90°, Aangepast) en niet op Off. |
 | **Dist** | Staat toe de pin als anker te gebruiken in plaats van alleen het eigen punt van de opdracht. |
 
 Met Pins en Dist aan maar ANGL op **Off** gebeurt er niets: er is geen vergrendelde richting om een lengte langs te meten.

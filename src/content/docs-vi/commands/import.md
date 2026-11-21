@@ -40,6 +40,7 @@ KulmanLab phân tích các loại thực thể DXF sau:
 | Văn bản | `TEXT`, `MTEXT` |
 | Kích thước | `DIMENSION` |
 | Đa đường dẫn | `MULTILEADER` |
+| Leader | `LEADER` | Được đọc như đường dẫn đa dòng không có văn bản riêng; chú thích bên cạnh được đọc như văn bản |
 | Hatch | `HATCH` |
 | Block Reference | `INSERT` | Vẽ đúng như tệp đã lưu: hiển thị giá trị thuộc tính, bỏ các thực thể mà trạng thái của khối động ẩn đi |
 | Solid | `SOLID` | Vùng tô phẳng có ba hoặc bốn góc, như các đoạn đen của thước tỷ lệ |

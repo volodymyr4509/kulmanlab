@@ -83,6 +83,13 @@ Welcome to the **KulmanLab CAD** command reference. [KulmanLab CAD](https://kulm
 | [ViewportCopy](./commands/viewport-copy/) | Duplicate a viewport to a new position |
 | [PageManager](./commands/page-manager/) | Edit paper size and scale for the active layout |
 
+## Blocks
+
+| Command | What it does |
+|---------|-------------|
+| [Block Create](./commands/block-create/) | Make a block from objects |
+| [Block Insert](./commands/block-insert/) | Place a block picked from previews of the drawing's blocks |
+
 ## Navigate
 
 | Command | What it does |

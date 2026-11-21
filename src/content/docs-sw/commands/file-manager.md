@@ -19,7 +19,7 @@ Jopo linafunguka upande wa kushoto wa turubai, na linafungwa kiotomatiki mara tu
 
 ## Gridi ya thumbnail
 
-Kila mchoro uliohifadhiwa ni kadi inayoonyesha thumbnail iliyotolewa moja kwa moja, jina lake, na wakati ulipobadilishwa mwisho. Thumbnail zinatengenezwa papo hapo kila wakati jopo linapofunguliwa — hakuna kinachotolewa au kuhifadhiwa mapema — hivyo kadi huonyesha ikoni ya nafasi ya muda mfupi wakati thumbnail yake inachorwa. Ikoni hiyo hiyo pia huonekana ikiwa utengenezaji utashindwa, au ikiwa mchoro haujawa na vitu kabisa.
+Kila mchoro uliohifadhiwa ni kadi inayoonyesha kijipicha kilichochorwa kwa rangi, jina lake, na lini ulisasishwa mara ya mwisho. Orodha huonekana kwanza na vijipicha hufuata kimoja kimoja — hakuna kinachotengenezwa mapema wala kuhifadhiwa — kwa hivyo kadi huonyesha kiashiria cha kupakia wakati kijipicha kinachorwa, na **Tupu** kama mchoro bado hauna cha kuchora.
 
 | Hatua | Jinsi |
 |--------|-----|

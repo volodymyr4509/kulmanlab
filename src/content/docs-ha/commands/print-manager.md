@@ -73,7 +73,7 @@ Danna `Escape` yayin zaɓen yanki don soke da mayar da yankin da ya gabata.
 
 Canvas na preview yana sake girma kai tsaye don ya dace da **adadin girma madaidaici** na yankin da aka zaɓa, don haka preview yana daidaici ga pixel.
 
-Ana tuna yankin da aka zaɓa daban ga sararin Model da kowane shimfida har sai ka sake loda shafin — duba [ChangePrintArea](../change-print-area/).
+Ana tuna yankin da aka zaɓa daban ga sararin Model da kowane shimfida har sai ka sake loda shafin.
 
 ## Tsarin fitarwa
 

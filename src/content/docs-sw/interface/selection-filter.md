@@ -40,6 +40,12 @@ Idadi ya matokeo husasishwa papo hapo unapotia na kuondoa alama, na uteuzi wenye
 
 Tumia kidhibiti cha kuweka upya kwenye kidirisha ili kuondoa alama zote na kurudi kwenye uteuzi kamili wa awali, au funga kidirisha (kitafunguka na msingi mpya wakati ujao utakapobofya aikoni ya kichujio kwenye uteuzi mwingine).
 
+## Kuhariri thamani kwenye paneli ya sifa
+
+Kila thamani unayoandika kwenye paneli ya sifa hukaguliwa kwanza. Kisicho nambari hukataliwa kwa **Ingiza nambari**, na thamani isiyotumika — kipenyo, urefu wa maandishi, nafasi ya mistari, kipimo au uwiano wa mhimili wa 0 au chini — hukataliwa kwa sababu chini ya sehemu, kama **Lazima iwe zaidi ya 0**. Kitu hubaki na thamani yake ya zamani hadi ya halali iingizwe.
+
+Vitu kadhaa vikichaguliwa, paneli huorodhesha kila sehemu wanayoshiriki.
+
 ## Zinazohusiana
 
 - [Match Properties](../../commands/match-properties/) — kunakili sifa kutoka kitu kimoja hadi vingine, baada ya kupunguza ni vipi

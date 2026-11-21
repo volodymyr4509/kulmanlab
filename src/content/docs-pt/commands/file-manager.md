@@ -19,7 +19,7 @@ O painel se abre no lado esquerdo do canvas, e se fecha automaticamente assim qu
 
 ## A grade de miniaturas
 
-Cada desenho salvo é um cartão que mostra uma miniatura renderizada ao vivo, seu nome, e quando foi atualizado pela última vez. As miniaturas são geradas na hora, cada vez que o painel é aberto — nada é pré-renderizado ou armazenado — então um cartão mostra um ícone de espaço reservado por um instante enquanto sua miniatura é desenhada. O mesmo espaço reservado também aparece se a geração falhar, ou se o desenho realmente ainda não tiver nenhuma entidade.
+Cada desenho salvo é um cartão com uma miniatura desenhada em cores, seu nome e quando foi atualizado pela última vez. A lista aparece primeiro e as miniaturas vêm uma de cada vez — nada é pré-renderizado nem guardado —, então um cartão mostra um indicador de carregamento enquanto a miniatura é desenhada, e **Vazio** se o desenho ainda não tem nada para desenhar.
 
 | Ação | Como |
 |--------|-----|

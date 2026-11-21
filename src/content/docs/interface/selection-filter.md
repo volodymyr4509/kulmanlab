@@ -40,6 +40,12 @@ The result count updates live as you check and uncheck boxes, and the canvas sel
 
 Use the popup's reset control to clear every checked box and return to the full original selection, or close the popup (it reopens with a fresh baseline the next time you click the filter icon on a new selection).
 
+## Editing values in the property panel
+
+Every value you type in the property panel is checked first. Something that isn't a number is refused with **Enter a number**, and a value that can't be used — a radius, text height, line spacing, scale or axis ratio of 0 or less — is refused with the reason shown under the field, such as **Must be greater than 0**. The entity keeps its old value until a valid one is entered.
+
+With several entities selected, the panel lists every field they all share.
+
 ## Related
 
 - [Match Properties](../../commands/match-properties/) — copy properties from one entity to others, once you've narrowed down which ones

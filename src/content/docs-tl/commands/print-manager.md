@@ -73,7 +73,7 @@ Pindutin ang `Escape` habang nasa area selection para kanselahin at ibalik ang n
 
 Dynamic na nag-a-adjust ng size ang preview canvas para tumugma sa **eksaktong aspect ratio** ng napiling area, kaya pixel-accurate ang preview.
 
-Ang piniling area ay hiwalay na naaalala para sa Model space at para sa bawat layout hanggang mag-reload ka ng pahina — tingnan ang [ChangePrintArea](../change-print-area/).
+Ang piniling area ay hiwalay na naaalala para sa Model space at para sa bawat layout hanggang mag-reload ka ng pahina.
 
 ## Mga format ng export
 

@@ -83,6 +83,13 @@ Witaj w dokumentacji poleceń **KulmanLab CAD**. [KulmanLab CAD](https://kulmanl
 | [ViewportCopy](./commands/viewport-copy/) | Duplikuje okno widoku na nową pozycję |
 | [PageManager](./commands/page-manager/) | Edytuje rozmiar papieru i skalę dla aktywnego układu |
 
+## Bloki
+
+| Polecenie | Co robi |
+|-----------|---------|
+| [Block Create](./commands/block-create/) | Utwórz blok z obiektów |
+| [Block Insert](./commands/block-insert/) | Umieść blok wybrany z podglądów bloków rysunku |
+
 ## Nawigacja
 
 | Polecenie | Co robi |

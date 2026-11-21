@@ -83,6 +83,13 @@ Willkommen bei der **KulmanLab CAD** Befehlsreferenz. [KulmanLab CAD](https://ku
 | [ViewportCopy](./commands/viewport-copy/) | Ansichtsfenster an eine neue Position duplizieren |
 | [PageManager](./commands/page-manager/) | Papiergröße und Maßstab für das aktive Layout bearbeiten |
 
+## Blöcke
+
+| Befehl | Funktion |
+|--------|----------|
+| [Block Create](./commands/block-create/) | Einen Block aus Objekten erstellen |
+| [Block Insert](./commands/block-insert/) | Einen aus Vorschauen der Blöcke der Zeichnung gewählten Block platzieren |
+
 ## Navigation
 
 | Befehl | Funktion |

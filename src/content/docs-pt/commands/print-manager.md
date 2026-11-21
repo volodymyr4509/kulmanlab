@@ -73,7 +73,7 @@ Pressione `Escape` durante a seleção de área para cancelar e restaurar a áre
 
 O canvas de prévia redimensiona dinamicamente para corresponder à **proporção exata** da área selecionada, de modo que a prévia é precisa ao pixel.
 
-A área escolhida é lembrada separadamente para o espaço Modelo e para cada layout até você recarregar a página — veja [ChangePrintArea](../change-print-area/).
+A área escolhida é lembrada separadamente para o espaço Modelo e para cada layout até você recarregar a página.
 
 ## Formatos de exportação
 

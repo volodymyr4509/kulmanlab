@@ -83,6 +83,13 @@ order: 1
 | [ViewportCopy](./commands/viewport-copy/) | Görünüm penceresini yeni konuma kopyalar |
 | [PageManager](./commands/page-manager/) | Aktif yerleşimin kağıt boyutunu ve ölçeğini düzenler |
 
+## Bloklar
+
+| Komut | Ne yapar |
+|-------|----------|
+| [Block Create](./commands/block-create/) | Nesnelerden blok oluştur |
+| [Block Insert](./commands/block-insert/) | Çizimin blok önizlemelerinden seçilen bir bloğu yerleştir |
+
 ## Gezinme
 
 | Komut | Ne yapar |

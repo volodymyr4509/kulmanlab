@@ -83,6 +83,13 @@ order: 1
 | [ViewportCopy](./commands/viewport-copy/) | 뷰포트를 새 위치에 복제 |
 | [PageManager](./commands/page-manager/) | 활성 레이아웃의 용지 크기와 축척 편집 |
 
+## 블록
+
+| 명령어 | 기능 |
+|--------|------|
+| [Block Create](./commands/block-create/) | 객체로 블록 만들기 |
+| [Block Insert](./commands/block-insert/) | 도면 블록의 미리 보기에서 고른 블록 배치 |
+
 ## 탐색
 
 | 명령어 | 기능 |

@@ -40,6 +40,12 @@ Số lượng kết quả cập nhật tức thì khi bạn đánh dấu và b�
 
 Dùng nút đặt lại trong cửa sổ để bỏ hết các dấu chọn và quay về toàn bộ vùng chọn ban đầu, hoặc đóng cửa sổ (lần sau khi bạn nhấp biểu tượng bộ lọc trên một vùng chọn khác, nó sẽ mở lại với nền tảng mới).
 
+## Chỉnh sửa giá trị trong bảng thuộc tính
+
+Mỗi giá trị bạn gõ trong bảng thuộc tính được kiểm tra trước. Thứ không phải số bị từ chối với **Nhập một số**, và giá trị không dùng được — bán kính, chiều cao chữ, giãn dòng, tỉ lệ hay tỉ số trục bằng 0 hoặc nhỏ hơn — bị từ chối kèm lý do dưới trường, ví dụ **Phải lớn hơn 0**. Thực thể giữ giá trị cũ cho đến khi nhập giá trị hợp lệ.
+
+Khi chọn nhiều thực thể, bảng liệt kê mọi trường mà chúng cùng có.
+
 ## Liên quan
 
 - [Match Properties](../../commands/match-properties/) — sao chép thuộc tính từ một đối tượng sang các đối tượng khác, sau khi đã thu hẹp được là những cái nào

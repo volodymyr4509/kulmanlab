@@ -40,6 +40,12 @@ Antall treff oppdateres fortløpende mens du krysser av og fjerner avkryssinger,
 
 Bruk vinduets tilbakestillingskontroll for å tømme alle avkryssinger og gå tilbake til hele det opprinnelige utvalget, eller lukk vinduet (det åpnes med et friskt utgangspunkt neste gang du klikker filterikonet på et annet utvalg).
 
+## Redigere verdier i egenskapspanelet
+
+Hver verdi du skriver i egenskapspanelet kontrolleres først. Det som ikke er et tall avvises med **Skriv inn et tall**, og en verdi som ikke kan brukes — en radius, teksthøyde, linjeavstand, skala eller akseforhold på 0 eller mindre — avvises med grunnen under feltet, for eksempel **Må være større enn 0**. Entiteten beholder den gamle verdien til en gyldig skrives inn.
+
+Når flere entiteter er valgt, lister panelet alle feltene de har felles.
+
 ## Relatert
 
 - [Match Properties](../../commands/match-properties/) — kopiere egenskaper fra én enhet til andre, når du først har snevret inn hvilke

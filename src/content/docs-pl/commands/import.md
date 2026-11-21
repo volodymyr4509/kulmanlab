@@ -41,6 +41,7 @@ KulmanLab analizuje następujące typy elementów DXF:
 | Tekst | `TEXT`, `MTEXT` | |
 | Wymiar | `DIMENSION` | |
 | Linia wielokierunkowa | `MULTILEADER` | |
+| Leader | `LEADER` | Wczytywana jako wieloliniowa linia odniesienia bez własnego tekstu; sąsiadująca adnotacja jest wczytywana jako tekst |
 | Hatch | `HATCH` | Odczytywane są nazwa, skala i kąt wzoru; nazwa, której nie ma w Twojej bibliotece wzorów, powraca do ANSI31. Zobacz [Hatch](../hatch/) |
 | Block Reference | `INSERT` | Rysowane tak, jak zapisał je plik: z wartościami atrybutów i bez obiektów ukrytych przez stan bloku dynamicznego |
 | Solid | `SOLID` | Płaskie wypełnienie o trzech lub czterech narożnikach, jak czarne odcinki podziałki |

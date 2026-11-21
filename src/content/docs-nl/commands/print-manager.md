@@ -73,7 +73,7 @@ Druk tijdens gebiedsselectie op `Escape` om te annuleren en het vorige gebied te
 
 De preview-canvas past dynamisch van grootte aan om de **exacte beeldverhouding** van het geselecteerde gebied te volgen, zodat de preview pixel-nauwkeurig is.
 
-Het gekozen gebied wordt apart onthouden voor de modelruimte en voor elke lay-out totdat je de pagina herlaadt — zie [ChangePrintArea](../change-print-area/).
+Het gekozen gebied wordt apart onthouden voor de modelruimte en voor elke lay-out totdat je de pagina herlaadt.
 
 ## Exportformaten
 

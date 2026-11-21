@@ -19,7 +19,7 @@ Il pannello si apre sul lato sinistro del canvas e si chiude automaticamente non
 
 ## La griglia di miniature
 
-Ogni disegno salvato è una scheda che mostra una miniatura renderizzata al momento, il suo nome e quando è stato aggiornato l'ultima volta. Le miniature vengono generate sul posto ogni volta che il pannello si apre — nulla viene pre-renderizzato o memorizzato — quindi una scheda mostra per un istante un'icona segnaposto mentre la sua miniatura viene disegnata. La stessa icona segnaposto compare anche se la generazione fallisce, o se il disegno non ha ancora davvero alcuna entità.
+Ogni disegno salvato è una scheda con un’anteprima disegnata a colori, il suo nome e quando è stato aggiornato l’ultima volta. Prima compare l’elenco e le anteprime seguono una alla volta — nulla è pre-renderizzato o salvato —, quindi una scheda mostra un indicatore di caricamento mentre la sua anteprima viene disegnata e **Vuoto** se il disegno non ha ancora nulla da disegnare.
 
 | Azione | Come |
 |--------|------|
